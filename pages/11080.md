@@ -853,8 +853,8 @@ $\,$
 
 ### Cohesive toposes
 
-+-- {: .num_lemma #PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
-###### Lemma
++-- {: .num_example #PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
+###### Example
 **([[adjoint quadruple]] of [[presheaves]] over [[site]] with [[terminal objects]])**
 
 Let $\mathcal{C}$ be a [[small category]] with [[finite products]] (hence with a [[terminal object]] $\ast \in \mathcal{C}$ and for any two [[objects]] $X,Y \in \mathcal{C}$ their [[Cartesian product]] $X \times Y \in \mathcal{C}$).
@@ -863,7 +863,7 @@ Then there is an [[adjoint quadruple]] of [[functors]] between the [[category of
 
 \[
   \label{PreaheafAdjointQuadruple}
-  [CartSp^{op}, Set]
+  [\mathcal{C}, Set]
     \array{
       \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
       \\
@@ -880,7 +880,8 @@ such that:
 
 1. the functor $\Gamma$ sends a [[presheaf]] $\mathbf{Y}$ to its set of [[global sections]], which here is its value on the [[terminal object]]:
    
-   $$
+   \[
+     \label{CohesiveGlobalSectionsGivenByPointEvaluation}
      \begin{aligned}
        \Gamma \mathbf{Y}
        & =
@@ -890,7 +891,7 @@ such that:
        & \simeq 
        \mathbf{Y}(\ast)
      \end{aligned}
-   $$
+   \]
 
 1. $Disc$ and $coDisc$ are [[full and faithful functors]] ([this def.](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor)).
 
@@ -934,18 +935,52 @@ Moreover, since the terminal object inclusion is manifestly a [[fully faithful f
 
 Equivalently, $Disc \simeq p^\ast$ is the [[constant functor|constant]] [[diagram]]-assigning functor. By uniqueness of adjoints ([this prop.](geometry+of+physics+--+categories+and+toposes#UniquenessOfAdjoints)) implies that $\Pi_0$ is the functor that sends a presheaf, regarded as a [[functor]] $\mathbf{Y} \;\colon\; \mathcal{C}^{op} \to Set$, to its [[colimit]] 
 
-$$
+\[
+  \label{Pi0IsColimit}
   \Pi_0(\mathbf{Y})
   \;=\;
   \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} \mathbf{Y}
   \,.
-$$
+\]
 
 The fact that this indeed preserves products follows from the assumption that $\mathcal{C}$ has [[finite products]], since [[categories with finite products are cosifted]] ([this prop.](geometry+of+physics+--+categories+and+toposes#CategoriesWithFiniteProductsAreCosifted))
 
 =--
 
-Lemma \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject] suggests to asks for [[coverages]] on categoies with [[finite products]] which are such that the [[adjoint quadruple]]  (eq:PreaheafAdjointQuadruple) on the  [[category of preasheaves]] ([[corestriction|co-]])[[restriction|restricts]] to the corresponding [[category of sheaves]]. The following Definition \ref{OneCohesiveSite} states a useful sufficient condition for this to be the case:
+
++-- {: .num_defn #CohesiveTopos}
+###### Definition
+**([[cohesive topos]])**
+
+A [[sheaf topos]] $\mathbf{H}$ (i.e. a [[category of sheaves]]: $\mathbf{H} = Sh(\mathcal{C})$) is called a _[[cohesive topos]]_ if there is an [[adjoint quadruple]] 
+
+\[
+  \label{CohesopmAdjointQuadruple}
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
+    }
+  Set
+\]
+
+such that:
+
+1. the functor $\Gamma$ is the [[global section]] functor;
+
+1. $Disc$ and $coDisc$ are [[full and faithful functors]] ([this def.](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor)).
+
+1. $\Pi_0$ preserves [[finite products]].
+
+=--
+
+
+Hence we ask for [[coverages]] on categories with [[finite products]] which are such that the [[adjoint quadruple]]  (eq:PreaheafAdjointQuadruple) on the  [[category of presheaves]] ([[corestriction|co-]])[[restriction|restricts]] to the corresponding [[category of sheaves]]. The following Definition \ref{OneCohesiveSite} states a useful sufficient condition for this to be the case:
 
 +-- {: .num_defn #OneCohesiveSite}
 ###### Definition
@@ -953,12 +988,12 @@ Lemma \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject] suggests to asks 
 
 We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)) _[[cohesive site|cohesive]]_ if the following conditions are satisfied:
 
-1. The [[category]] $\mathcal{C}$ has [[finite products]] (as in Lemma \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}).
+1. The [[category]] $\mathcal{C}$ has [[finite products]] (as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}).
  
-1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ ([this def.](geometry+of+physics+--+categories+and+toposes#CechGroupoid)) has,  as an [[internal groupoid]] in [[presheaves]] ([this remark](geometry+of+physics+--+categories+and+toposes#PresheavesOfGroupoidsAsInternalGroupoidsInPresheaves)) not only the object of objects but also that of morphsims a [[coproduct]] of [[representable functors]];
+1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ ([this def.](geometry+of+physics+--+categories+and+toposes#CechGroupoid)) satisfies the following two conditions:
 
-   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is connected
-
+   1. the set of [[connected components]] of the [[groupoid]] obtained as the [[colimit]] over the [[Cech groupoid]] is the [[singleton]]: 
+ 
       $$
         \pi_0
         \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} 
@@ -967,252 +1002,243 @@ We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+
          \ast
       $$
 
-   1. the [[groupoid]] of sets of points ([[global elements]]) in $C(\{U_i\})$ is [[equivalence of categories|equivalent]] the set of points of $X$:
+   1. the set of [[connected components]] of the [[groupoid]] obtained as the [[limit]] of the [[Cech groupoid]] is [[equivalence of categories|equivalent]] to the set of points of $X$, regarded as a groupoid:
 
       $$
+        \pi_0
         \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim} C(\{U_i\})
           \simeq
         Hom_{\mathcal{C}}(\ast,X)
         \,.
       $$
  
-
- 
 =--
 
-(...)
+This definition is designed to make the following true:
 
-
-
-### Connectedness
- {#ConnectedSmooth0Type}
-
-The full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]:
-
-$$
-  Sh(CartSp)
-  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  Set
-$$
-
-The extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
-
-
-+-- {: .num_prop}
++-- {: .num_prop #CategoriesOfSheavesOnCohesiveSiteIsCohesive}
 ###### Proposition
+**([[category of sheaves]] on a [[cohesive site]] is a [[cohesive topos]])**
 
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]].
+Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}). Then the [[adjoint quadruple]] on the [[category of presheaves]] over $\mathcal{C}$, from Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject} (given that a [[cohesive site]] by definition has [[finite products]]) ([[corestriction|co-]])[[restriction|restricts]] from the [[category of presheaves]] over $\mathcal{C}$, to the [[category of sheaves]] ([this def.](geometry+of+physics+--+categories+and+toposes#Sheaf)) and hence exhibits $Sh(\mathcal{C})$ as a [[cohesive topos]] (Def. \ref{CohesiveTopos}):
+
+\[
+  \label{SheafToposAdjointQuadruple}
+  Sh(\mathcal{C})
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
+    }
+  Set
+\]
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The following argument works for every [[site]] $C$ which is such that constant presheaves on $C$ are already sheaves.
+With Example \ref{SmoothFunctionOnSmoothSpace} it only remains to be shown that for each [[set]] $S$ the [[presheaves]] $Disc(S)$ and $coDisc(S)$ are indeed [[sheaves]].
 
-Notice that this is the case for $C = CartSp$ because every Cartesian space is connected: for $S \in Set$ a compatible family of elements of $Const S$ on a cover $\{U_i \to \mathbb{R}^n\}$ of some $\mathbb{R}^n$ is an element of $S$ on each patch, such that their restriction maps to intersections of patches coincide. But the restriction maps are all identities, so this says that all these elements coincide. Therefore the set of compatible families is just the set $S$ itself, hence the presheaf $Const S$ is a sheaf.
+By the formulaton of the [[sheaf|sheaf condition]] via the [[Cech groupoid]] ([this prop](geometry+of+physics+--+categories+and+toposes#CechGroupoidCoRepresents)), and using the [[adjunction]] hom-isomorphisms ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) this is readily seen to be equivalent to the two further conditions on a cohesive site (Def. \ref{OneCohesiveSite}):
 
-So with $L : PSh(C) \to Sh(C)$ the [[sheafification]] functor we have that $L Const S \simeq Const S$.
+Let $\{U_i \to X\}$ be a [[covering]] family. 
 
-Whenever this is the case the [[left adjoint]] to the constant presheaf functor, which always exists for presheaves and is given by the [[colimit]] functor, is also left adjoint on the level of sheaves, because for each $X \in Sh(C)$ and $S \in Set$ we have natural bijections
+The sheaf condition (in [this form](geometry+of+physics+--+categories+and+toposes#eq:SheafIsLocalObjectWithRespectToCechCovers)) for $Disc(S)$ says that 
+
+$$
+  \left[
+    C(\{U_i\}) \overset{p_{\{U_i\}_i}}{\to} y(X)
+    \,,\,
+    Disc(S)
+  \right]
+$$
+
+is an [[isomorphism]] of [[groupoids]], which by adjunction and using (eq:Pi0IsColimit) means equivalently that 
+
+$$
+  \left[
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \left( C(\{U_i\}) \right) \to 
+    \ast
+    \,,\,
+    S
+  \right]
+$$
+
+is an isomorphism of groupoids, where we used that colimits of representables are singletons ([here](geometry+of+physics+--+categories+and+toposes#eq:ColimitOfRepresentableIsSingleton)) to replace $\underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} y(X) \simeq \ast$.
+
+But now in this [[internal hom]] of [[groupoids]], the set $S$ is realy a groupoid in the image of the [[reflective subcategory|reflective embedding]] of sets into groupoids, whose [[left adjoint]] is the [[connected components]]-functor $\pi_0$ ([this example](geometry+of+physics+--+categories+and+toposes#ReflectiveSubcategoryInclusionOfSetsIntoGroupoids)). Hence  by another adjunction isomoprhism this is equivalent to 
+
+$$
+  \left[
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \left( C(\{U_i\}) \right) \to 
+    \ast
+    \,,\,
+    S
+  \right]
+$$
+
+being an isomorphism (a [[bijection]] of [[sets]], now). This is true for all $S \in Set$ precisely if (by the [[Yoneda lemma]], if you wish) the morphism
+
+$$
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \left( C(\{U_i\}) \right) \to 
+    \ast
+$$
+
+is already an isomorphism (here: [[bijection]]) itself.
+
+Similarly,  the sheaf condition (in [this form](geometry+of+physics+--+categories+and+toposes#eq:SheafIsLocalObjectWithRespectToCechCovers)) for $coDisc(S)$ says that 
+
+$$
+  \left[
+    C(\{U_i\}) \overset{p_{\{U_i\}_i}}{\to} y(X)
+    \,,\,
+    coDisc(S)
+  \right]
+$$
+
+is an [[isomorphism]], and hence by [[adjunction]] and using (eq:CohesiveGlobalSectionsGivenByPointEvaluation), this is equivalent to
+
+$$
+  \left[
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim}
+    C(\{U_i\}) 
+    \overset{p_{\{U_i\}_i}}{\to} 
+    Hom_{\mathcal{C}}(\ast, X)
+    \,,\,
+    S
+  \right]
+$$
+
+being an isomorphism. This holds for all $S \in Set$ if (by the [[Yoneda lemma]], if you wish)
+
+$$
+    \pi_0
+    \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{\lim}
+    C(\{U_i\}) 
+    \overset{p_{\{U_i\}_i}}{\to} 
+    Hom_{\mathcal{C}}(\ast, X)
+$$
+
+is an isomorphism.
+
+=--
+
++-- {: .num_example #SmoothSetsFormACohesiveTopos}
+###### Example
+**([[smooth sets]] form a [[cohesive topos]])**
+
+The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) is a [[cohesive topos]] (Def. \ref{CohesiveTopos})
+
+\[
+  \label{SheafToposAdjointQuadruple}
+  SmoothSet
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
+    }
+  Set
+\]
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, by Prop. \ref{SmoothSetsAreSheavesOnCartSp}, smooth sets indeed form a [[sheaf topos]], over the [[site]] [[CartSp]]
+
+$$
+  SmoothSet \simeq Sh(CartSp)
+  \,.
+$$
+
+Hence, by Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, it is now sufficient to see that [[CartSp]] is a [[cohesive site]] (Def. \ref{OneCohesiveSite}).
+
+It clearly has [[finite products]]: The [[terminal object]] is the [[point]], given by the 0-[[dimension|dimensional]] [[Cartesian space]]
+
+$$
+  \ast = \mathbb{R}^0
+$$
+
+and the [[Cartesian product]] of two [[Cartesian spaces]] is the Cartesian space whose [[dimension]] is the [[sum]] of the two separate dimensions:
+
+$$
+  \mathbb{R}^{n_1} \times \mathbb{R}^{n_2}
+  \;\simeq\;
+  \mathbb{R}^{ n_1 + n_2 }
+  \,.
+$$
+
+This establishes the first clause in Def. \ref{OneCohesiveSite}. 
+
+For the second clause, consider a differentiably-[[good open cover]] $\{U_i \overset{}{\to} \mathbb{R}^n\}$ (Def. \ref{DifferentiallyGoodOpenCover}). This being a [[good cover]] implies that its [[Cech groupoid]] is, as an [[internal groupoid]] (via [this remark](geometry+of+physics+--+categories+and+toposes#PresheavesOfGroupoidsAsInternalGroupoidsInPresheaves)) of the form
+
+\[
+  \label{CechGroupoidForCartSp}
+  C(\{U_i\}_i)
+  \;\simeq\;
+  \left( 
+    \array{
+       \underset{i,j}{\coprod} y(U_i \underset{\mathbb{R}^n}{\cap} U_j)
+       \\
+       \big\downarrow \big\uparrow \big\downarrow
+       \\
+       \underset{i}{\coprod} y(U_i)
+    }
+  \right)
+  \,.
+\]
+
+where we used the defining property of [[good open covers]] to identify $y(U_i) \times_X y(U_j) \simeq y( U_i \cap_X U_j )$. 
+
+The [[colimit]] of (eq:CechGroupoidForCartSp), regarded just as a [[presheaf]] of [[graphs]] (hence ignoring [[composition]] for the moment), is readily seen to be the [[graph]] of the [[colimit]] of the components:
+
 
 $$
   \begin{aligned}
-    Hom_{Sh(C)}(X, L Const S)
-    & =
-    Hom_{PSh(C)}(X, L Const S)
-    \\
+    \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+    C(\{U_i\}_i)
     & \simeq
-    Hom_{PSh(C)}(X, Const S)
-    \\
-    & \simeq
-    Hom_{Set}(\lim_\to X, S)
+    \left( 
+      \array{
+        \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+         \underset{i,j}{\coprod} y(U_i \underset{\mathbb{R}^n}{\cap} U_j)
+         \\
+         \big\downarrow \big\uparrow \big\downarrow
+         \\
+         \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+         \underset{i}{\coprod} y(U_i)
+      }
+    \right)
   \end{aligned}
   \,.
 $$
 
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-Write $\Pi_0 := \lim_\to : Sh(CartSp) \to Set$
-for the [[left adjoint]] to $LConst : Set \stackrel{Const}{\to} PSh(C) \stackrel{L}{\to} Sh(C)$.
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
-
-For $X \in Sh(C)$ a diffeological space, $\Pi_0(X)$ is the set of path-connected components of the topological space underlying $X$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[co-Yoneda lemma]] we may write
-
-$$
-  X = {\lim_\to}_{(U \to X) \in y/X} U
-$$
-
-and since $\Pi_0$ commutes with colimits we have
-
-$$
-  \Pi_0(X) \simeq
-  \Pi_0 {\lim_\to}_{(U \to X)} U
-  \simeq
-  {\lim_\to}_{(U \to X)} \Pi_0(U)
-  \,.
-$$
-
-But also by the co-Yoneda lemma we have that the [[colimit]] over any [[representable functor|representable]] is the singleton set, hence our expression
-
-$$
-  \cdots \simeq
-  {\lim_\to}_{(U \to X)} *
-$$
-
-is the colimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
-
-The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
-
-
-
-=--
-
-
-+-- {: .num_prop}
-###### Proposition
-
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is actually a [[connected topos]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since $CartSp$ is a [[connected category]] it is immediate that $Const \colon Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
-
-By the discussion at [[connected topos]] we could equivalently convince ourselves that $\Pi_0$ preserves the terminal object. The terminal object of $Sh(CartSp)$ is $y(\mathbb{R}^0)$, hence representable. By the above, $\Pi_0$ sends all representable objects to the singleton set, which is the terminal object of $Set$.
-
-=--
-
-$\,$
-
-### Locality
- {#LocalSmooth0Type}
-
-
-+-- {: .num_prop}
-###### Proposition
-
-
-The [[sheaf topos]] $Sh(CartSp)$ is also a [[local topos]]
-
-$$
-  (L Const \dashv \Gamma \dashv CoDisc)
-  \colon
-  Sh(CartSp) \stackrel{\overset{L Const}{\longleftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{CoDisc}{\longleftarrow}}}
-  Set
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-The [[site]] [[CartSp]] is a [[local site]]: it has a [[terminal object]] and the only [[covering]] [[sieve]] of this object is the trivial one. This implies the claim, by the discussion at [[local site]].
-
-Concretely, the extra [[right adjoint]] $CoDisc$ takes a [[set]] $S$ to the presheaf given by the assigmnent
-
-$$
-  CoDisc(S) : U \mapsto Hom_{Set}(CartSp(*,U), S)
-  \,,
-$$
-
-that takes a Cartesian space $U$ to the set of [[function]]s from its underlying set of points to $S$. This is clearly a sheaf (a function of sets from $U$ to $S$ is clearly fixed by all its restrictions to a collections of  subsets of $U$ whose unition is $U$.)
-
-=--
-
-Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [[codiscrete space|codiscrete]] (indiscrte) smooth structure.
-
-+-- {: .num_prop}
-###### Proposition
-
-Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
-
-$$
-
-  Set \stackrel{\leftarrow}{\underset{CoDisc}{\hookrightarrow}}
-  DiffologicalSp \stackrel{\leftarrow}{\hookrightarrow}
-  Sh(CartSp)
-$$
-
-
-=--
-
-
-
-+-- {: .proof}
-###### Proof
-
-
-The [[concrete sheaves]] for the [[local topos]] $Sh(CartSp)$ are by definition those objects $X$ for which the
-$(\Gamma \dashv CoDisc)$-[[unit of an adjunction|unit]]
-
-$$
-  X \to CoDisc \Gamma X
-$$
-
-is a [[monomorphism]]. Monomorphisms of sheaves are tested objectwise, so that means equivalently that for every $U \in CartSp$ we have that
-
-$$
-  X(U) \simeq Hom_{Sh}(U,X) \to Hom_{Sh}(U, Codisc \Gamma X)
-  \simeq Hom_{Set}(\Gamma U, \Gamma X)
-$$
-
-is a monomorphism. This is precisely the condition on a sheaf to be a diffeological space.
-
-=--
-
-$\,$
-
-
-### Cohesion
- {#CohesionOfTheToposOfSmoothSpaces}
-
-
-+-- {: .num_prop}
-###### Proposition
-
-The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _[pieces have points](/nlab/show/cohesive+topos#PiecesHavePoints)_ holds.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The [[site]] [[CartSp]] is a [[cohesive site]] (see there for detail). This implies the statement.
-
-=--
-
-This implies that $Sh(CartSp)$ is a [[locally connected topos]], [[connected topos]], [[local topos]]. It means in addition that it is also a [[strongly connected topos]].
-
-This means that there is a _homotopy category_ or _concordance category_ of [[smooth sets]], with the same objects as $Sh(CartSp)$, but with hom-sets given by
-
-$$
-  Conc(X,Y) := \Pi_0 [X,Y]_{Sh(CartSp)}
- \,,
-$$
-
-where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed category]] $Sh(CartSp)$.
 
 (...)
 
-$\,$
+
+
 
 
 
