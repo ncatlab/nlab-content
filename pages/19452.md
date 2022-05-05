@@ -29,7 +29,7 @@ This makes use of the following curious dictionary between [[category theory]]/[
 | $\phantom{A}$**[[gros topos|gros topos theory]]** |  **Rmk. \ref{CohesiveGeneralizedSpacesAsFoundations}** |  $\phantom{A}$**[[generalized spaces]] at the [[foundations]]** |
 | $\phantom{A}$[[cohesion]] | Defn. \ref{CohesiveTopos}  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential topology]] |
 | $\phantom{A}$[[differential cohesion]] | Defn. \ref{DifferentialCohesion} | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential geometry]] |
-| $\phantom{A}$super cohesion$\phantom{A}$ |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
+| $\phantom{A}$super cohesion$\phantom{A}$ | Defn. \ref{SuperDifferentialCohesion} | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
 {: style='margin:auto}
  
 The perspective is that of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.) This dictionary implies a wealth of useful tools for handling and reasoning about [[geometry]]:
