@@ -5,21 +5,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The first nonzero [[homotopy group]] and [[ordinary homology|ordinary]]/[[singular homology]] [[homology group|group]] of a [[simply-connected topological space]] occur in the same dimension and are [[isomorphism|isomorphic]].
+
 
 ## Hurewicz homomorphism
  {#HurewiczHomomorphismSection}
@@ -82,11 +83,13 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 =--
 
+
 ## Related concepts
 
 * [[Boardman homomorphism]]
 
 * The _[[Adams spectral sequence]]_ is a vast generalization of the computation of [[homotopy groups]] from [[cohomology groups]] via the Hurewicz theorem.
+
 
 ## References
 
@@ -115,5 +118,20 @@ In the generality of the [[Boardman homomorphism]]:
 
 
 
+
+[[!redirects Hurewicz theorem]]
+[[!redirects Hurewicz Theorem]]
+[[!redirects Hurewicz' theorem]]
+[[!redirects Hurewicz' Theorem]]
+[[!redirects Hurewicz’ theorem]]
+[[!redirects Hurewicz’ Theorem]]
+[[!redirects Hurewicz\' theorem]]
+[[!redirects Hurewicz\' Theorem]]
+[[!redirects Hurewicz's theorem]]
+[[!redirects Hurewicz's Theorem]]
+[[!redirects Hurewicz’s theorem]]
+[[!redirects Hurewicz’s Theorem]]
+[[!redirects Hurewicz\'s theorem]]
+[[!redirects Hurewicz\'s Theorem]]
 
 [[!redirects Hurewicz homomorphism]]
