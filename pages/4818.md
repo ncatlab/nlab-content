@@ -29,6 +29,8 @@
 
 [[CFT]] with [[supersymmetry]], i.e. with [[superconformal geometry|superconformal symmetry]]
 
+[[!include superconformal symmetry -- table]]
+
 ## Examples
 
 ### $d = 2$
@@ -38,6 +40,10 @@
   * [[NSR string]]
 
   * [[heterotic string]], [[2d (2,0)-superconformal QFT]]
+
+### $d = 3$
+
+* [[3d superconformal gauge field theory]]
 
 ### $d = 4$
 
