@@ -253,6 +253,10 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 * [[boundary conformal field theory]]
 
+* [[fractional D-brane]], 
+
+  [[permutation D-brane]]
+
 * [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
 
 * [[Freed-Witten anomaly cancellation]]
