@@ -120,10 +120,4 @@ $
   Top_{Qu}
 $
 
-[[category
-theory]]
-
-  [[ cubical     Kan   
-  complex ]]   
-
-[[Mike Fourman]]
+Test
