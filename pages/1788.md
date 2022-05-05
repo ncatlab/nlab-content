@@ -1,5 +1,13 @@
 
 
+|   |    |    |
+|---|----|----|
+| $\phantom{A}$[[adjunction]]$\phantom{A}$  |  |  $\phantom{A}$[[adjunction unit|unit]] is [[isomorphism|iso]]:$\phantom{A}$  | 
+|  |  | $\phantom{A}$[[coreflective subcategory|coreflection]]$\phantom{A}$ | 
+| $\phantom{A}$[[adjunction counit|counit]] is [[isomorphism|iso]]:$\phantom{A}$ | $\phantom{A}$[[reflective subcategory|reflection]]$\phantom{A}$ | $\phantom{A}$[[adjoint equivalence of categories|adjoint equivalence]]$\phantom{A}$  |  
+{: style='margin:auto}
+
+
 $$
   \array{
     [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
