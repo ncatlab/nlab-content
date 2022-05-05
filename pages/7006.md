@@ -44,6 +44,8 @@ with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/
 
 * [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_, [PDF](http://people.cs.kuleuven.be/~dominique.devriese/ThesisAndreasNuyts.pdf)
 
+* [[Paige North]], _Towards a directed homotopy type theory_, ([arXiv:1807.10566](https://arxiv.org/abs/1807.10566))
+
 [[!redirects directed homotopy type theories]]
 
 [[!redirects directed homotopy type]]
