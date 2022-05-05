@@ -50,6 +50,8 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 * [[volume conjecture]]
 
+* [[piecewise flat spacetime]]
+
 ## References
 
 A classical article on 3d [[gravity]] is 
