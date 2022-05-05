@@ -1270,7 +1270,7 @@ $$
   \,.
 $$
 
-Consider the special case that $\mathbf{L}$ is _[[spacetime]]-independent_ in that the Lagrangian funtion $L$
+Consider the special case that $\mathbf{L}$ is _[[spacetime]]-independent_ in that the Lagrangian function $L$
 is independent of the spacetime coordinate $(x^\mu)$.
 Then the same evidently holds for the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
