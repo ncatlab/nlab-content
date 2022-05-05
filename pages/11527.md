@@ -1,3 +1,4 @@
+[[!redirects Segal-Carlsson theorem]]
 [[!redirects Segal theorem]]
 
 
@@ -27,9 +28,22 @@
 
 ## Idea 
 
-The Segal theorem relates the [[Burnside ring]] of a [[finite group]] $G$ to the [[stable cohomotopy]] of the [[classifying space]] $B G$.
+The statement known as _Segal's conjecture_ (due to [[Graeme Segal]] in the 1970s, then proven by [Carlsson 84](#Carlsson84)) characterizes the [[stable cohomotopy]] [[cohomology group|groups]] $\pi^\bullet_{st}(B G)$ of the [[classifying space]] $B G$ of a [[finite group]] $G$ as the [[formal completion]] $\widehat \pi^\bullet_S(B G)$ at the [[augmentation ideal]] (i.e. when regarded as a [[ring of functions]]: its restriction to the [[infinitesimal neighbourhood]] of the basepoint) of the [[ring]] $\pi^\bullet_{st,G}(\ast)$ of $G$-[[equivariant stable cohomotopy]] [[cohomology groups|groups]] of the point, the latter also being [[isomorphism|isomorphic]] to the [[Burnside ring]] $A(G)$ of $G$:
 
-[[Graeme Segal]] conjectured this in the 1970s, and it was proved in [Carlsson 84](#Carlsson84).
+$$
+  A(G) 
+   \simeq 
+  \pi^\bullet_{st,G}(\ast) 
+    \overset{ \text{completion} \atop \text{projection} }{\longrightarrow}
+  \widehat \pi^\bullet_{st,G}(\ast) 
+    \simeq
+  \pi^\bullet_{st}(B G)
+  \,.
+$$
+
+This statement is the direct analogue of the [[Atiyah-Segal completion theorem]], which makes the analogous statement for the [[generalized cohomology]] not being ([[equivariant stable cohomotopy|equivariant]]) [[stable cohomotopy]] but ([[equivariant K-theory|equivariant]]) [[complex K-theory]] (with the role of the [[Burnside ring]] then being the [[representation ring]] of $G$).
+
+[[!include Segal completion -- table]]
 
 ## Related concepts
 
@@ -49,7 +63,7 @@ see also
 
 * Erkki Laitinen, _On the Burnside ring and stable cohomotopy of a finite group_,  Mathematica Scandinavica Vol. 44, No. 1 (August 30, 1979), pp. 37-72 ([jstor:24491306](https://www.jstor.org/stable/24491306), [[Laitinen79.pdf:file]])  
 
-* [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
+* {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
 
 Review includes
