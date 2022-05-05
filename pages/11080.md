@@ -1601,7 +1601,7 @@ The cohesiveness of smooth sets (Prop. \ref{SmoothSetsFormACohesiveTopos}) impli
 
 A comprehensive development of [[differential geometry]] in terms of [[diffeological spaces]] is spelled out in ([Iglesias-Zemmour 13](diffeological+space#PIZ)). 
 
-Since the [[concrete objects]] in any [[cohesive topos]], and hence the [[diffeological spaces]] among all [[smooth sets]], form a [[reflective subcategory]] (...), every smooth set has a _[[concretification]]_ to a concrete smooth set, hence to a diffeological space. An important example of this construction are [[moduli spaces]] of [[differential forms]], this we turn to in Def. \ref{SmoothSpaceOfFormsOnSmoothSpace} below.
+Since the [[concrete objects]] in any [[cohesive topos]], and hence the [[diffeological spaces]] among all [[smooth sets]], form a [[reflective subcategory]] ([This prop.](geometry+of+physics+--+categories+and+toposes#QuasitoposOfConcreteObjects)), every smooth set has a _[[concretification]]_ to a concrete smooth set, hence to a diffeological space. An important example of this construction are [[moduli spaces]] of [[differential forms]], this we turn to in Def. \ref{SmoothSpaceOfFormsOnSmoothSpace} below.
 
 $\,$
 
@@ -1760,22 +1760,31 @@ Now a morphism of sheaves is a monomorphism, precisely if for each object $U \in
   (coDisc \Gamma \mathbf{X})(U)
 \] 
 
-is an [[injective function]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#RecognitionOfEpimorphisms)). The [[codomain]] of this function may be re-identified as follows:
+is an [[injective function]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#RecognitionOfEpimorphisms)). Unde the [[Yoneda lemma]], this function may be re-identified as follows:
 
-$$
-  \begin{aligned}
+
+\[
+  \label{CodiscretePlotIdentidification}
+  \array{
+    \mathbf{X}(U) &\simeq& Hom_{SmoothSet}(y(U), \mathbf{X})
+    \\
+    {}^{\mathllap{ \eta_X^\sharp(U) }}\big\downarrow
+    &&
+    {}^{\mathllap{ Hom_{SmoothSet}(y(U), \eta_X^\sharp ) }}\big\downarrow
+    &\searrow^{\mathrlap{ \widetilde{\eta^\sharp_X \circ (-)} }}&
+    \\
     (coDisc \Gamma \mathbf{X}(U))
-    & \simeq
+    &\simeq&
     Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
-    \\
-    & \simeq
+    &\simeq&
     Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
-    \\
-    & \simeq
+    &\simeq&
     Hom_{Set}( U, X )
+    \\
+    && \phi &\mapsto& \widetilde \phi
     \,,
-  \end{aligned}
-$$
+  }
+\]
 
 where we first used the [[Yoneda lemma]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)), then the adjunction isomorphism ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) of $(\Gamma \dashv coDisc)$. 
 In the final step we used that the cohesive structure on $SmoothSet$ comes from $CartSp$ being a [[cohesive site]] (Prop. \ref{SmoothSetsFormACohesiveTopos}) and that in this case $\Gamma$ is given by evaluation on the point ([here](geometry+of+physics+--+categories+and+toposes#CohesiveGlobalSectionsGivenByPointEvaluation)), and we wrote
@@ -1801,13 +1810,14 @@ Hence that $\mathbf{X}(U)$ is always a subset of the [[function set]] from $U$ t
 
 This shows that every concrete smooth set is a diffeological space. For the converse, it remains to check that if we start with a diffeological space $\mathbf{X}$ with prescribed inclusion function
 
-$$
+\[
+  \label{DiffeologicalInclusionFunction}
   \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
-$$
+\]
 
-then (eq:RearrangedDecohesAsGammacoDiscUnit) indeed reproduces this inclusion.
+then (eq:RearrangedDecohesAsGammacoDiscUnit) indeed reproduces this inclusion. 
 
-To see this, first notice that, by the [[Yoneda lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)) and the definition of smooth maps between diffeological spaces, this inclusion function equals the function
+To see this, first notice that, by the [[Yoneda lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)) and the definition of smooth maps between diffeological spaces, the inclusion function (eq:DiffeologicalInclusionFunction) equals the component function of the [[functor]] $\Gamma \;\colon\; SmoothSet \to Set$, that acts by point evaluation:
 
 $$
   \Gamma_{y(U),\mathbf{X}}
@@ -1821,9 +1831,7 @@ $$
   }
 $$
 
-which is the component function of the [[functor]] $\Gamma \;\colon\; SmoothSet \to Set$, that acts by point evaluation.
-
-Hence we need to show that this function is equal to that given by postcomposition with the $(\Gamma \dashv coDisc)$-[[adjunction unit]], followed by forming the $(\Gamma \dashv coDisc)$-[[adjunct]]:
+Hence, by (eq:DecohesAsGammacoDiscUnit), we need to show that
 
 \[
   \label{PostcompositionWithEtaAsGamma}
@@ -1831,41 +1839,8 @@ Hence we need to show that this function is equal to that given by postcompositi
   \,.
 \]
 
-For this, let $f \in Hom_{SmoothSet}( y(U), \mathbf{X} )$ be any element, and consider the following [[naturality square]] for the adjunction hom-isomorphism ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)):
+But this holds as a general fact about [[adjunctions]] (a special case of [this Example](geometry+of+physics+–+basic+notions+of+category+theory#ReExpressingMiddleFunctorInAdjointTriple)).
 
-$$
-  \array{
-    Hom_{Set}( \Gamma \mathbf{X} , \Gamma \mathbf{X} )
-    &\overset{\widetilde {(-)}}{\longrightarrow}&
-    Hom_{SmoothSet}( \mathbf{X}, coDisc \Gamma \mathbf{X} )
-    \\
-    {}^{\mathllap{ Hom_{SmoothSet}(\Gamma(f), \Gamma \mathbf{X}) }}
-    \big\downarrow
-    &&
-    \!\!\!\!\!
-    \big\downarrow^{\mathrlap{ Hom_{SmoothSet}( f, coDisc \Gamma \mathbf{X} ) }}
-    \\
-    Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
-    &\overset{\widetilde{ (-) }}{\longleftarrow}&
-    Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
-  }
-  \phantom{AAAAA}
-  \array{
-    \{ \Gamma \mathbf{X} \overset{id}{\to} \Gamma \mathbf{X}\}
-    &\longrightarrow&
-    \{ \mathbf{X} \overset{\eta_{\mathbf{X}}}{\to} coDisc \Gamma \mathbf{X} \}
-    \\
-    \big\downarrow
-    &&
-    \big\downarrow
-    \\
-    \{ \Gamma y(U) \overset{\Gamma(f)}{\to} \Gamma \mathbf{X} \}
-    &\longleftarrow&
-    \{ y(U) \overset{\eta_{\mathbf{X}} \circ f}{\longrightarrow} coDisc \Gamma \mathbf{X} \}    
-  }
-$$
-
-and chase the [[identity morphism]] in the top left set through this diagram, as shown on the right. This gives rise to the [[adjunction unit]] as shown in the top right (by [this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)), and hence to the composite $\eta_{\mathbf{X}}\circ f $ in the bottom right. The image of that in the bottom left is, by definition, the [[adjunct]], and hence the [[commuting square|commutativity]] of this square yields (eq:PostcompositionWithEtaAsGamma).
 
 =--
 
@@ -2612,6 +2587,116 @@ $$
 (here we write $Hom(-,-) \coloneqq Hom_{SmoothSet}(-,-)$ for the [[hom functor]] of [[smooth sets]]).
 
 =--
+
++-- {: .num_prop }
+###### Proposition
+**(relative transgression over [[manifolds with boundary]])**
+
+1. $X$ be a [[smooth set]];
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ with [[manifold with boundary|boundary]] $\partial \Sigma$
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\omega \in \Omega^n_{X}$ a [[closed differential form]].
+
+Write
+
+$$ 
+  (-)\vert_{\partial \Sigma}
+    \;\coloneqq\;
+  [\partial \Sigma \hookrightarrow \Sigma, X]
+  \;\colon\;
+  [\Sigma, X]
+   \longrightarrow
+  [\partial \Sigma, X]
+$$
+
+for the smooth function that restricts smooth functions on $\Sigma$ to smooth functions on the [[boundary]] $\partial \Sigma$.
+
+Then the operations of transgression of differential forms (def. \ref{TransgressionOfDifferentialFormsToMappingSpaces}) to $\Sigma$ and to $\partial \Sigma$, respectively, are related by
+
+
+$$
+  d \left(
+    \tau_{\Sigma}(\omega)
+  \right)
+  = 
+  (-1)^{k+1}
+  ((-)\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma}(\omega)
+    \phantom{AAAAAAAA}
+  \array{
+    [\Sigma, X] 
+      &\overset{ \tau_{\Sigma}(\omega) }{\longrightarrow}&
+    \mathbf{\Omega}^{n-k}
+    \\
+    {}^{\mathllap{(-)\vert_{\partial \Sigma} }}\downarrow
+      &&
+    \downarrow^{\mathrlap{ (-1)^{k+1} d}}
+    \\
+    [\partial \Sigma, X]
+      &\underset{ \tau_{\partial\Sigma}(\omega) }{\longrightarrow}&
+    \mathbf{\Omega}^{n-k+1}
+  }
+  \,.
+$$
+
+In particular this means that if the compact manifold $\Sigma$ happens to have no boundary (is a [[closed manifold]]) then transgression over $\Sigma$ takes closed differential forms to closed differential forms.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\phi_{(-)}(-) \colon U \times \Sigma \to X$ be a plot of the mapping space $[\Sigma, X]$. Notice that the [[de Rham differential]] on the [[Cartesian product]] $U \times \Sigma$ decomposes as
+
+$$
+  d = d_U + d_\Sigma
+  \,.
+$$
+
+Now we compute as follows:
+
+
+$$
+  \begin{aligned}
+    d \tau_{\Sigma}\omega\vert_{\phi_(-)}
+    & =
+    d_U \int_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma d_U (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma (d - d \Sigma) (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma d (\phi_{(-)}(-))^\ast \omega
+    -
+    (-1)^k \int_\Sigma d_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma (\phi_{(-)}(-))^\ast \underset{= 0}{\underbrace{d \omega}}
+    -
+    (-1)^k \int_\Sigma d_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    -
+    (-1)^k \int_\Sigma d_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    -(-1)^k \int_{\partial \Sigma} (\phi_{(-)}(-))^\ast \omega   
+    \\
+    & = 
+    -(-1)^k \tau_{\partial \Sigma} \omega \vert_{\phi_{(-)}}
+  \end{aligned}
+$$
+
+where in the second but last step we used [[Stokes' theorem]].
+
+=--
+
 
 
 
