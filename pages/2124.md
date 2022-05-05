@@ -37,9 +37,9 @@ $$
  \,.
 $$
 
-If follows from the supersymmetry algebra that $(E \delta_{A B} -  K_{A B})$ is a positive definte [[bilinear form]], which puts a lower bound on the energy given the values of these extra charges. This is called the _BPS bound_.
+If follows from the supersymmetry algebra that $(E \delta_{A B} -  K_{A B})$ is a positive definite [[bilinear form]], which puts a lower bound on the energy given the values of these extra charges. This is called the _BPS bound_.
 
-In partciular when this bound is satisfied in that some of the [[eigenvalues]] of the [[matrix]] $(K_{A B})$ are actually equal to the energy/mass, then the corresponding component of the right hand side in the above equation vanishes and hence then the corresponding supersymmetry generators may annihilate the given state, then called a _BPS state_. This way enhanced supersymmetry of states goes along with certain charges taken extremal values.
+In particular when this bound is satisfied in that some of the [[eigenvalues]] of the [[matrix]] $(K_{A B})$ are actually equal to the energy/mass, then the corresponding component of the right hand side in the above equation vanishes and hence then the corresponding supersymmetry generators may annihilate the given state, then called a _BPS state_. This way enhanced supersymmetry of states goes along with certain charges taken extremal values.
 
 
 States with similar behaviour are also considered also in some models of [[soliton]] theory
