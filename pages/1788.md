@@ -16,3 +16,5 @@ So I'm trying "Edit the page anyway"
 
 
 That worked, now trying with bad cookies restored
+
+Test
