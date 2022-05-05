@@ -49,4 +49,9 @@ The analog of this for [[spinning particle]]s and [[superparticle]]s are [[Killi
 
 * [[Killing-Yano tensor]].
 
+## References
+
+Named after _[[Wilhelm Killing]]_.
+
+
 [[!redirects Killing tensors]]
