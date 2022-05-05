@@ -1,4 +1,5 @@
+[[!redirects equivariant -- history]]
 
-See for instance
+< [[equivariant]]
 
-* [[equivariant cohomology]]
+
