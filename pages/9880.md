@@ -140,6 +140,8 @@ becomes
 
 * [[higher curvature correction]]
 
+* [[interacting vacuum]]
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
 
 
