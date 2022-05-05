@@ -17,12 +17,22 @@ Andreas Karch writes [here](http://www.math.columbia.edu/~woit/wordpress/?p=9426
 
 > This is applied AdS/CFT as it should be. Solvable examples exhibit new connections which then can be proven to be correct more generally and are not limited to the toy models that were used to uncover them.
 
+## Related concepts
+
+* [[Sachdev-Ye-Kitaev model]]
+
 
 ## References
 
-Application of AdS-CFT in condensed matter physics goes back to
+Application of AdS-CFT in [[condensed matter physics]] goes back to
 
 * [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
+
+A comprehensive textbook account is in
+
+* {#HartnollLucasSachdev16} Sean A. Hartnoll, Andrew Lucas, [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+
+
 
 Reviews include the following:
 
