@@ -256,6 +256,8 @@ On the other hand, discussion casting doubt on the existence of a large number o
 
 * {#vanRiet18} Thomas van Riet, _Is dS space in the Swampland_, talk at [StringPheno18](http://sp18.fuw.edu.pl/) ([pdf slides](http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/thomasvanriet.pdf))
 
+* {#vanRiet18a} Thomas van Riet, _Status of KKLT_, talk at _[Simons summer workshop 2018](http://scgp.stonybrook.edu/archives/24870)_ ([recording](http://scgp.stonybrook.edu/video_portal/video.php?id=3730))
+
 Implications of the possible non-existence of de Sitter vacua in string theory are explored in
 
 * {#ObiedOoguriSpodyneikoVafa18} Georges Obied, [[Hirosi Ooguri]], Lev Spodyneiko, [[Cumrun Vafa]], _De Sitter Space and the Swampland_ ([arXiv:1806.08362](https://arxiv.org/abs/1806.08362))
