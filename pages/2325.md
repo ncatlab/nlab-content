@@ -68,7 +68,7 @@ $(\infty,1)$-topos $\mathcal{Y}$ the canonical morphism
 
 $$
   (\infty,1)Topos(\mathcal{Y},\mathcal{X}) \to 
-   (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{Y})
+   (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{X})
 $$
 
 is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoids]]).
@@ -80,7 +80,7 @@ $(k,1)$-topos $\mathcal{Y}$ the canonical morphism
 
 $$
   (k,1)Topos(\mathcal{Y},\mathcal{X}) \to 
-   (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{Y})
+   (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{X})
 $$
 
 is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoids]]).
