@@ -17,7 +17,7 @@
 
 ## Idea
 
-A **geometric embedding** is the right notion of embedding or inclusion of [[topoi]] $F \hookrightarrow E$, i.e. of [[subtopos]]es.
+A **geometric embedding** is the right notion of embedding or inclusion of [[topoi]] $F \hookrightarrow E$, i.e. of [[subtoposes]].
 
 Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]] into its [[presheaf]] [[topos]] or more generally the inclusion $Sh_j E \hookrightarrow E$ of sheaves in a topos $E$ into $E$ itself, is a geometric embedding. Actually every geometric embedding is of this form, up to equivalence of [[topos|topoi]].
 
@@ -52,7 +52,7 @@ That the first two conditions are equivalent is standard, that the third one is 
 ### Relation to localization
 
 There is a close relation between geometric embedding and
-[[localization]]. 
+[[localization]]: [[reflective localization]]. 
 
 Let $f : F \hookrightarrow E$ be a geometric embedding
 and let $W \subset Mor(E)$ be the class of morphisms sent by $f^*$ to isomorphisms in $F$.
