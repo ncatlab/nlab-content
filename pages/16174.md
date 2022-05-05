@@ -32,9 +32,19 @@ More generally, any [[distributive category]] determines a Burnside rig ([Schanu
 
 ## Properties
 
-### In equivariant homotopy theory
+### As the equivariant stable cohomotopy of the point
+ {#AsTheEquivariantStableCohomotopyOfThePoint}
 
-It turns out that the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
+The Burnside ring is equivalently the [[equivariant stable cohomotopy]] of the point:
+
+$$
+  A(G) \simeq \mathbb{S}_G(\ast)
+  \,.
+$$
+
+This is due to [Segal 71](#Segal71), see also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78)
+
+More explicitly, the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
 
 $$
   A(G) \simeq \underset{\longrightarrow}{\lim}_V [S^V,S^V]_G
@@ -43,6 +53,9 @@ $$
 over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself.
 
 ([Greenlees-May 95, p. 8](#GreenleesMay95))
+
+[[!include Segal completion -- table]]
+
 
 ## Related concepts
 
@@ -58,13 +71,17 @@ over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy cla
 
 * {#Schanuel91} [[Stephen Schanuel]], 1991, _Negative sets have Euler characteristic and dimension_. In: Proc. Como 1990. Lecture Notes in Mathematics, vol. 1488. Springer-Verlag, Berlin, pp. 379&#8211;385.
 
-Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal conjecture]]-theorem is in
+Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carlsson completion theorem]] is in
+
+* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2 , pages 59–63. Gauthier-Villars, Paris, 1971
+
+* {#tomDieckPetrie78} [[Tammo tom Dieck]], T, Petrie,  _Geometric modules over the Burnside ring_, Invent. Math. 47 (1978) 273-287 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf))
 
 * Erkki Laitinen, _On the Burnside ring and stable cohomotopy of a finite group_,  Mathematica Scandinavica Vol. 44, No. 1 (August 30, 1979), pp. 37-72 ([jstor:24491306](https://www.jstor.org/stable/24491306), [[Laitinen79.pdf:file]])  
 
 * [[Gunnar Carlsson]], _Equivariant Stable Homotopy and Segal's Burnside Ring Conjecture_,  Annals of Mathematics Second Series, Vol. 120, No. 2 (Sep., 1984), pp. 189-224 ([jstor:2006940](https://www.jstor.org/stable/2006940), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/carlsson.pdf))
 
-* [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
+* {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
 
 [[!redirects burnside ring]] 
