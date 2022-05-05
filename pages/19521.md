@@ -28,17 +28,49 @@
 
 The ([[very large category|very large]]) _[[double category]] of [[model categories]]_ $ModCat_{dbl}$ has 
 
-1. as [[objects]]: [[model categories]];
+1. as [[objects]]: [[model categories]] $\mathcal{C}$;
 
-1. as [[vertical morphisms]]: [[left Quillen functors]];
+1. as [[vertical morphisms]]: [[left Quillen functors]] $\mathcal{C} \overset{L}{\longrightarrow} \mathcal{E}$;
 
-1. as [[horizontal morphisms]]: [[right Quillen functors]];
+1. as [[horizontal morphisms]]: [[right Quillen functors]] $\mathcal{C} \overset{R}{\longrightarrow}\mathcal{D}$;
 
 1. as [[2-morphisms]] [[natural transformations]] between the [[composition|composites]] of underlying [[functors]].
+
+   $$
+     L_2\circ R_1
+       \overset{\phi}{\Rightarrow}
+     R_2\circ L_1
+     \phantom{AAAAA}
+     \array{
+       \mathcal{C}
+         &\overset{\phantom{AA}R_1\phantom{AA}}{\longrightarrow}&
+       \mathcal{D}
+       \\
+       {}^{\mathllap{L_1}}\Big\downarrow
+       &{}^{\mathllap{ \phi }}\swArrow&
+       \Big\downarrow{}^{\mathrlap{L_2}}
+       \\
+       \mathcal{C}
+         &\underset{\phantom{AA}R_2\phantom{AA}}{\longrightarrow}&
+       \mathcal{D}
+     }
+   $$
+
+and [[composition]] is given by ordinary [[composition]] of [[functors]], horizontally and vertically, and by [[whiskering]]-composition of [[natural transformations]].
 
 =--
 
 ([Shulman 07, Example 4.6](#Shulman07))
+
+There is hence a [[forgetful functor|forgetful]] [[double functor]]
+
+$$
+  F \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
+$$
+
+to the [[double category of squares]] in the [[2-category of categories]], which forgets the [[model category]]-[[structure]] and the [[Quillen functor]]-[[property]].
+
+There is also another [[double pseudofunctor]] to $Sq(Cat)$ of interest, this is Prop. \ref{HomotopyDoublePseudofunctor} below.
 
 ## Properties
 
@@ -69,7 +101,7 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
        \mathcal{D}
        \\
        {}^{\mathllap{L_1}}\Big\downarrow 
-         &\swArrow_{\mathrlap{\phi}}& 
+         &{}^{\mathllap{ \phi }}\swArrow& 
        \Big\downarrow{}^{\mathrlap{L_2}}
        \\
        \mathcal{E}
@@ -78,7 +110,7 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
      }
    $$
 
-   to the _derived natural transformation_
+   to the "derived natural transformation"
 
    $$
      \array{
@@ -87,7 +119,7 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
        Ho(\mathcal{D})
        \\
        {}^{\mathllap{\mathbb{L}L_1}}\Big\downarrow 
-         &\swArrow_{\mathrlap{Ho(\phi)}}& 
+         &\overset{Ho(\phi)}{\swArrow}& 
        \Big\downarrow{}^{\mathrlap{\mathbb{L}L_2}}
        \\
        Ho(\mathcal{E})
