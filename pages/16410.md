@@ -61,6 +61,9 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
 
+  (problems with [KKLT 03](landscape+of+string+theory+vacua#KKLT03))
+
+* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
 
 
