@@ -64,6 +64,8 @@ into the evident [[fiber product]] on the right.
 
 * [[Joyal-Tierney calculus]]
 
+* [[enriched model category]]
+
 [[!redirects pullback-power]]
 [[!redirects pullback-powers]]
 
