@@ -87,7 +87,7 @@ with [[nLab:differential]] having the evident definition on generators, and exte
 
 For $n,q \in \mathbb{N}$, the generators of the [[differential graded-commutative superalgebra]] $\Omega^\bullet(\mathbb{R}^{n\vert q})$ of differential forms on the [[super Cartesian space]] (Def. \ref{DifferentialFormsOnSuperCartesianSpace}) have the following [bi-degree](chain+complex+in+super+vector+spaces#ChainComplexesOfSuperVectorSpaces)
 
-| $\phantom{A}$generator$\phantom{A}$ | $\phantom{A}$bi-degree$\phantom{A}$ |
+| $\phantom{A}$generator$\phantom{A}$ | $\phantom{A}$[bi-degree](chain+complex+in+super+vector+spaces#ChainComplexesOfSuperVectorSpaces)$\phantom{A}$ |
 |--|--|
 | $\phantom{A}$$x^a$$\phantom{A}$ | $\phantom{A}$(0,even)$\phantom{A}$ |
 | $\phantom{A}$$\theta^\alpha$$\phantom{A}$ | $\phantom{A}$(0,odd)$\phantom{A}$ |
@@ -280,11 +280,11 @@ and further amplified in
 
 [[!redirects differential forms on a supermanifold]]
 
+[[!redirects differential form on supermanifold]]
 [[!redirects differential forms on supermanifolds]]
 
 [[!redirects super differential form]]
 [[!redirects super differential forms]]
-
 
 [[!redirects superdifferential form]]
 [[!redirects superdifferential forms]]
