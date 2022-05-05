@@ -23,12 +23,52 @@
 
 ## Idea
 
-There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that quantum [[11-dimensional supergravity]] on an  $\mathbb{Z}_2$-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times (S^1//\mathbb{Z}_2))$ induces on its [[boundary]] "[[M9-brane]]" (the $\mathbb{Z}_2$-fixed point manifold) [[heterotic string theory]]. Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)).
-
+There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that [[M-theory]] on an  [[cyclic group of order 2|Z/2]]-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times (S^1 \slash \mathbb{Z}_2))$ in "[[duality in string theory|dual]]" to [[heterotic string theory]] on its [[boundary]] ([[fixed point]]) "[[M9-brane]]". Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)). 
 
 <img src="https://ncatlab.org/nlab/files/M2BraneEndingOnM9.jpg">
 
+
 > from [Kashima 00](#Kashima00)
+
+In the above the circle factor is taken to be the [[circle]] [[fiber]] over the 10d [[type IIA string theory|type IIA]] [[spacetime]]. If instead one considers another of the spatial dimensions to be compactified on $S^1\sslash \mathbb{Z}_2$, then, after [[T-duality]] ([[F-theory]]) result is supposed to be [[type I string theory]].
+
+More in detail:
+
+One considers the [[KK-compactification]] of [[M-theory]] on a [[cyclic group of order 2|Z/2]]-[[orbifold]] of a [[torus]], hence of the [[Cartesian product]] of two [[circles]] $S^1_A \times S^1_B$, such that the reduction on the first factor $S^1_A$ corresponds to the [[duality between M-theory and type IIA string theory]], hence so that subsequent [[T-duality]] along the second factor yields [[type IIA string theory]] (in its [[F-theory]]-incarnation).
+
+If one considers this situation additionally with a $\mathbb{Z}/2\mathbb{Z}$-[[orbifold]] quotient of the first circle factor, one obtains the [[duality between M-theory and heterotic string theory]] ([[Horava-Witten theory]]). If instead one performs it on the second circle factor, one obtains [[type I string theory]].
+
+Here in both cases the [[involution]] [[action]] is by [[reflection]] of the circle at a line through its center. Hence if we identify $S^1 \simeq \mathbb{R} / \mathbb{Z}$ then the action is by multiplication by /1 on the [[real line]].
+
+In summary:
+
+M-theory on
+
+* $(S^1_A \sslash \mathbb{Z}_2 ) \times S^1_B$ yields [[heterotic string theory]]
+
+* $S^1_A \times \left( S^1_B \sslash \mathbb{Z}_2 \right)$ yields [[type I string theory]]
+
+Hence the [[S-duality]] that swaps the two circle factors corresponds to _[[duality between type I and heterotic string theory]]_. 
+
+$$
+  \array{
+     HE 
+       &\overset{KK/\mathbb{Z}^A_2}{\leftrightarrow}& 
+     M 
+       &\overset{KK/\mathbb{Z}^B_2}{\leftrightarrow}& 
+     I'
+     \\
+     \mathllap{T}\updownarrow
+     &&  && 
+     \updownarrow \mathrlap{T}  
+     \\
+     HO 
+     && \underset{\phantom{A}S\phantom{A}}{\leftrightarrow} && 
+     I
+  }
+$$
+
+### Duality between M-theory and heterotic string theory
 
 Here each of the two copies of the heterotic gauge theory is a "[[hidden sector]]" with respect to the other.
 
@@ -39,6 +79,22 @@ $$
 $$ 
 
 on the [[supergravity C-field]] becomes the condition for the [[Green-Schwarz mechanism]] of the [[heterotic string theory]] on the "boundary" (the orbifold fixed points).
+
+### Duality between M-theory and type I string theory
+
+originally suggested in ([Horava-Witten 95, section 3](#HoravaWitten95))
+
+Further evidence is reviewed in [APT 98](#APT98)
+
+### Duality between heterotic and type I string theory
+
+via [[S-duality]] in the [[F-theory]]-picture...
+
+## Related concepts
+
+* [[duality between F-theory and heterotic string theory]]
+
+
 
 ## Properties
 
@@ -69,6 +125,10 @@ is to be invariant. With the above this now implies that the components of $G$ a
 This finally implies that the restriction of $C_3$ to the orbifold fixed points has to be closed.
 
 ## Related concepts
+
+* [[duality in string theory]]
+
+  * [[duality between F-theory and heterotic string theory]]
 
 * [[11-dimensional supergravity]]
 
@@ -111,6 +171,10 @@ Explicit discussion of [[worldvolume]] [[CFT]] of the [[M2-branes]] ending on th
 After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechanism, see the references [there](5-dimensional+supergravity#ReferencesHWCompactification).
 
 
+Disucssion of the [[duality between heterotic and type I string theory]] includes
+
+* {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-16
+
 
 [[!redirects Hořava-Witten theory]]
 [[!redirects Hořava–Witten theory]]
@@ -118,3 +182,13 @@ After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechan
 [[!redirects Horava-Witten theory]]
 [[!redirects Horava–Witten theory]]
 [[!redirects Horava--Witten theory]]
+
+[[!redirects duality between M-theory and heterotic string theory]]
+[[!redirects duality heterotic string theory and M-theory]]
+
+[[!redirects duality between M-theory and type I string theory]]
+[[!redirects duality between type I string theory and M-theory]]
+
+[[!redirects duality between heterotic and type I string theory]]
+[[!redirects duality between type I and heterotic string theory]]
+
