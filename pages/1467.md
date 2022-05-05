@@ -172,6 +172,13 @@ $X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a
 
 While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. 
 
+### Compactness via completeness
+
++-- {: num_prop #completeness}
+A [[uniform space]] $X$ is compact if and only if it is [[complete space|complete]] and [[totally bounded space|totally bounded]].  Moreover, a compact Hausdorff topological space has a unique compatible uniformity, which is complete and totally bounded.
+=--
+
+In [[constructive mathematics]], "complete and totally bounded" is sometimes taken as a substitute for open-cover compactness (to which it is no longer equivalent); see [[Bishop-compact space]].
 
 ### Compactness via stability properties 
 
