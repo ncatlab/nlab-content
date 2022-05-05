@@ -787,7 +787,7 @@ $$
     \underoverset
       {\underset{K_{poly}}{\longrightarrow}}
       {\overset{\Omega^\bullet_{poly}}{\longleftarrow}}
-      {\bot}
+      {\phantom{\phantom{AA}{}_{Qu}}\bot_{Qu}\phantom{AA}}
   sSet_{Quillen}
 $$
 
@@ -832,7 +832,7 @@ $$
   Ho( (dgcAlg_{\mathbb{Q}, \geq 0})^{op} )
 $$
 
-induced from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
+induced (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
 
 On the full subcategories of nilpotent objects of finite type, def. \ref{NilpotentObjects}, this adjunction restricts to an [[equivalence of categories]]
 
