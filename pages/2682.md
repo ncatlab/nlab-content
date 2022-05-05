@@ -242,8 +242,6 @@ For more on this see the references at _[[multiverse]]_ and _[[eternal inflation
 
 On the other hand, discussion casting doubt on the existence of a large number of [[de Sitter spacetime]] [[perturbative string theory vacua]] includes the following:
 
-* [[Vijay Balasubramanian]], _Accelerating Universes and String Theory_, Class.Quant.Grav. 21 (2004) S1337-1358 ([arXiv:hep-th/0404075](https://arxiv.org/abs/hep-th/0404075))
-
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
 
 * [Brennan-Carta-Vafa 17](#BrennanCartaVafa17)
