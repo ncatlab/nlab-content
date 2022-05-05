@@ -8401,6 +8401,51 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
 =--
 
+
++-- {: .num_prop #PiecesHavePoints}
+###### Proposition
+**([[pieces have points]], [[discrete objects are concrete]])**
+
+Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the following conditions are equivalent:
+
+1. [[pieces have points]]: For every [[object]] $X \in \mathbf{H}$, the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the &#643;-[[unit of an adjunction|unit]]
+   
+   $$
+     \flat X 
+       \overset{ \phantom{AA} \epsilon^\flat_X \phantom{AA} }{\longrightarrow}
+     X
+       \overset{ \epsilon^&#643; }{\longrightarrow}
+     &#643; X
+   $$
+
+   is an [[epimorphism]] (Def. \ref{Monomorphism})
+
+1. For every [[object]] $X \in \mathbf{H}$, the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the $\sharp$-[[unit of an adjunction|unit]]
+
+   $$
+     \flat X 
+       \overset{ \phantom{AA} \epsilon^\flat_X \phantom{AA} }{\longrightarrow}
+     X
+       \overset{ \epsilon^\sharp }{\longrightarrow}
+     \sharp X
+   $$
+
+   is a [[monomorphism]] (Def. \ref{Monomorphism})
+
+
+1. [[discrete objects are concrete]]: For every [[object]] $X \in \mathbf{H}$, we have that its [[discrete object]] $\flat X$ is a [[concrete object]] (Def. \ref{CohesiveModalities}).
+
+1. The [[initial object]] is [[codiscrete object|codiscrete]] (Def. \ref{CohesiveModalities}):
+
+   $$
+     \sharp \emptyset \;\simeq\; \emptyset
+     \,.
+   $$
+
+=--
+
+
+
 +-- {: .num_prop #QuasitoposOfConcreteObjects}
 ###### Proposition
 **([[quasitopos]] of [[concrete objects]] in a [[cohesive topos]])**
@@ -8493,6 +8538,14 @@ Now, from (eq:NaturalitySquareForConcretificationUnit), we have a [[commuting sq
 It remains to see that the lift is unique with just the property of making the top left triangle commute. But this is equivalently the statement that the left morphism is an epimorphism, by Def. \ref{Monomorphism}.
 
 =--
+
+
+
+The equivalence of the first two follows with ([Johnstone, lemma 2.1, corollary 2.2](cohesive+topos#Johnstone)). The equivalence of the first and the last is due to [Lawvere-Menni 15, lemma 4.1, lemma 4.2](cohesive+topos#LawvereMenni15).
+
+
+$\,$
+
 
 +-- {: .num_defn #DifferentialCohesion}
 ###### Definition
