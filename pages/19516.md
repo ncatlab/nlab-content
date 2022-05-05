@@ -166,3 +166,8 @@ $$
 $$ 
 
 
+[[!redirects Quillen adjoint triples]]
+
+[[!redirects Quillen adjoint quadruple]]
+[[!redirects Quillen adjoint quadruples]]
+
