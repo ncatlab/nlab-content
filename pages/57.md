@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -404,7 +405,7 @@ $$
   dgcAlg_{\mathbb{R}, conn}^{op}
 $$
 
-from the [[product category]] of the [[category]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between them, with the [[simplex category]], to the [[opposite category|opposite]] of the [[category of connective dgc-algebras]] over the [[real numbers]].
+from the [[product category]] of the [[category]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between them, with the [[simplex category]], to the [[opposite category|opposite]] of the [[category]] of connective [[dgc-algebras]] over the [[real numbers]].
 
 =--
 
