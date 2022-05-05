@@ -78,7 +78,7 @@ The [[forgetful functor]] from global stable homotopy theory to plain [[stable h
 
 A comprehensive textbook account is in
 
-* {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_
+* {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 Survey includes
 
