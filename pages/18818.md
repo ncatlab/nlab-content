@@ -41,13 +41,8 @@ is originally due to [Kugo-Townsend 82](geometry+of+physics+--+supersymmetry#Kug
 
 A key extra structure that the [[spinors]] impose on the underlying [[Cartesian space]] of [[spacetime]]
 is its _[[causal structure]]_, which determines which points in [[spacetime]] ("[[events]]") are in
-the [[future]] or the [[past]] of other points (def. \ref{SpacelikeTimelikeLightlike} below).
- This [[causal structure]] will turn out to tightly control
-the [[quantum field theory]] on [[spacetime]] in terms of the "[[causal  additivity]] of the [[S-matrix]]"
-(prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below) and the induced "[[causal locality]]" of the
-[[algebra of quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
-To prepare the discussion of these constructions, we end this chapter with some basics on the
-[[causal structure]] of [[Minkowski spacetime]].
+the [[future]] or the [[past]] of other points (def. \ref{SpacelikeTimelikeLightlike} below). This [[causal structure]] will turn out to tightly control the [[quantum field theory]] on [[spacetime]] in terms of  the "[[causal additivity]] of the [[S-matrix]]" (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below) and the induced "[[causal locality]]" of the [[algebra of quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
+To prepare the discussion of these constructions, we end this chapter with some basics on the [[causal structure]] of [[Minkowski spacetime]].
 
 $\,$
 
