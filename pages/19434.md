@@ -52,7 +52,7 @@ $$
       & & C & &
   }
 $$
-We say that $\eta$ exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ iff for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
+We say that $\eta$ (or, by abuse, the diagram) exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ iff for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
 
 We say that a 1-cell $h:B\to D$ _preserves_ this left extension if the following diagram exhibits $h\circ e$ as a left extension of $h\circ f$ along $g$ :
 
@@ -60,7 +60,7 @@ $$
   \array{ &     &D    & &
      \\
 
-      &{}^{hf}{\nearrow}&\seArrow^{id} &{\nwarrow}^h&
+      &{}^{h{}f}{\nearrow}&\seArrow^{id} &{\nwarrow}^h&
      \\
      A& & \overset{f}{\longrightarrow} & &B
      \\
@@ -70,9 +70,40 @@ $$
   }
 $$
 The left extension is called _absolute_ if it is preserved by all 1-cells with domain $B$.
-
 =--
 
++-- {: .num_defn #left_lifting}
+###### Definition 
+Let $\phi:f\Rightarrow g\circ l$ be a 2-cell:
+$$
+  \array{
+     A& & \overset{l}{\longrightarrow} & &C
+     \\
+     &{}_f\searrow & \neArrow _\phi& \swarrow _g&
+     \\
+      & & B & &
+  }
+$$
+We say that $\phi$ (or, by abuse, the diagram) exhibits $l:A\to C$ as a _left lifting_ of $f:A\to B$ along $g:C\to B$ iff for all parallel maps $k:A\to C$ pasting with $\phi$ induces a bijection between 2-cells $\sigma:l\Rightarrow k$ and 2-cells $f\Rightarrow g\circ k$.
+
+We say that a 1-cell $j:D\to A$ preserves this left lifting if the following diagram exhibits $l\circ j$ as a left lifting of $f\circ j$ along $g$ :
+
+$$
+  \array{
+      &  &D& &
+     \\
+       &{}^{j}\swarrow &\overset{id}{\Rightarrow}&\searrow^{l{}j}
+     \\
+     A& & \overset{l}{\longrightarrow} & &C
+     \\
+     &{}_f\searrow & \neArrow _\phi& \swarrow _g&
+     \\
+      & & B & &
+  }
+$$
+We say that the left lifting is _absolute_ if it is preserved by all 1-cells with codomain $A$.
+
+=--
 
 ## Definition
 
@@ -162,7 +193,7 @@ The following two investigate the connections with KZ doctrines:
 
 * {#Walker18} C. Walker, _Distributive Laws via Admissibility_ , arXiv:1706.09575 (2018). ([abstract](https://arxiv.org/abs/1706.09575))
 
-Yoneda structures and KZ doctrines are combined in a general account of [[accessible category|accessibility]] and [[locally presentable category|presentability]] in
+The interplay of Yoneda structures and KZ doctrines is employed to some effect in
 
 * {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
