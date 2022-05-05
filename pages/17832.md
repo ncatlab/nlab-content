@@ -61,6 +61,8 @@ This is one of the arguments which suggest that the true home of the gauge field
 
 ## References
 
+### Anti D-branes
+
 The version of [[Sen's conjecture]] for brane/anti-brane annihilation is due to
 
 * {#Sen98} [[Ashoke Sen]], _Tachyon Condensation on the Brane Antibrane System_, JHEP 9808:012,1998 ([arXiv:hep-th/9805170](https://arxiv.org/abs/hep-th/9805170))
@@ -81,8 +83,34 @@ Review of this is in
 
 * [[Edward Witten]], _Overview Of K-Theory Applied To Strings_,  	Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
 
+### Anti M-branes
+
+Similarly for lifts to [[M-branes]]:
+
+anti-[[M2-branes]]:
+
+* Mohammad R. Garousi, _A proposal for M2-brane-anti-M2-brane action_, Phys.Lett.B686:59-63, 2010 ([arXiv:0809.0381](https://arxiv.org/abs/0809.0381))
+
+...
+
+anti-[[M5-branes]]:
+
+* Seiji Terashima, footnote 2 on section 4 of _On M5-branes in N=6 Membrane Action_, JHEP0808:080,2008 ([arXiv:0807.0197](https://arxiv.org/abs/0807.0197))
+
 
 [[!redirects anti D-branes]]
 
 [[!redirects anti-D-brane]]
 [[!redirects anti-D-branes]]
+
+[[!redirects anti M-brane]]
+[[!redirects anti M-branes]]
+
+
+[[!redirects anti p-brane]]
+[[!redirects anti p-branes]]
+
+[[!redirects anti brane]]
+[[!redirects anti branes]]
+
+
