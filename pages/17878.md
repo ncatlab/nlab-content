@@ -54,7 +54,7 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 * A [[Sullivan algebra]].
 
-* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]] or [[L-infinity algebroid]] is a differential-graded-commutative algebra, that of a [[super L-infinity algebra]] is a differential graded-commutative superalgebra.
+* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]] or [[Lie infinity-algebroid|L-infinity algebroid]] is a differential-graded-commutative algebra, that of a [[super L-infinity algebra]] is a differential graded-commutative superalgebra.
 
 ## Related concepts
 
@@ -63,6 +63,9 @@ The following are [[semifree differential graded-commutative algebras]]:
 * [[dgc-coalgebra]]
 
 * [[model structure on differential graded-commutative algebras]]
+
+* [[model structure on differential graded-commutative superalgebras]]
+
 
 * [[rational homotopy theory]]
 
