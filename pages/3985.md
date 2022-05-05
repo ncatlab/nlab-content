@@ -992,6 +992,8 @@ This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
 * [[reflective subuniverse]]
 
+* [[Quillen reflection]]
+
 ## References
 
 The general theory is discussed in section 5.2.7 of
