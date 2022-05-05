@@ -25,7 +25,7 @@ The [[generalized cohomology theory]] which is [[Brown representability theorem|
 
 ## Properties
 
-### As algebraic K-theory over the field with one element
+### As algebraic K-theory over $\mathbb{F}_1$
  {#AsAlgebraicKTheoryOverTheFieldWithOneElement}
 
 +-- {: .num_prop #StableCohomotopyIsKTheoryOfFinSet}
@@ -100,6 +100,13 @@ The identification of stable cohomotopy with the [[K-theory of a permutative cat
 see also
 
 * {#Priddy73} [[Stewart Priddy]], _Transfer, symmetric groups, and stable homotopy theory_, in _Higher K-Theories_, Springer, Berlin, Heidelberg, 1973. 244-255 ([pdf](https://link.springer.com/content/pdf/10.1007/BFb0067060.pdf))
+
+The resulting interpretation of stable cohomotopy as [[algebraic K-theory]] over the [[field with one element]] is amplified in the following articles:
+
+* {#Deitmar06} [[Anton Deitmar]], _Remarks on zeta functions and K-theory over $\mathbb{F}_1$_ ([arXiv:math/0605429](https://arxiv.org/abs/math/0605429))
+
+* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](https://arxiv.org/abs/math/0612327))
+
 
 The [[Kahn-Priddy theorem]] is due to
 
