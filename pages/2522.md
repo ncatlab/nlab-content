@@ -115,7 +115,7 @@ Supersymmetric extensions of [[quantum field theories]] have been felt to be com
 
   * "topological twists" of supersymmetric field theories are a major source of examples of [[TQFT]]s, for instance the [[A-model]] and the [[B-model]] [[TCFT]] arise from such twists of 2-dimensional [[supergravity]] and there are deep connections between the [[geometric Langlands correspondence]] and topologically twisted [[super Yang-Mills theory]].
 
-Moreover, since various observables in supersymmetric QFTs are easier to compute than in non-supersymmetric theories, supersymmetric quantum field theory is being used to _approximate_ certain aspects of other QFTs. For instance certain correlators in ordinary [[Yang-Mills theory]] coupled to [[spinors in Yang-Mills theory]] can be computed using an auxioary [[super Yang-Mills theory]].
+Moreover, since various observables in supersymmetric QFTs are easier to compute than in non-supersymmetric theories, supersymmetric quantum field theory is being used to _approximate_ certain aspects of other QFTs. For instance certain correlators in ordinary [[Yang-Mills theory]] coupled to [[spinors in Yang-Mills theory]] can be computed using an auxiliary [[super Yang-Mills theory]].
 
 Therefore, if nothing else, supersymmetric quantum field theories constitute a part of the whole space of quantum field theories which is useful for understanding general properties of that space. What is however still missing is any experimental evidence that the world is fundamentally described by a supersymmetric quantum field theory.
 
@@ -249,7 +249,7 @@ These may be called the "abelian" super Lie algebras.
 +-- {: .num_example #OrdinaryLieAlgebraAsSuperLieAlgebra}
 ###### Example
 
-Every ordinary [[Lie algebras]] becomes a [[super Lie algebra]]
+Every ordinary [[Lie algebra]] becomes a [[super Lie algebra]]
 (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
 concentrated in even degrees. This constitutes a [[fully faithful functor]]
 
@@ -284,7 +284,7 @@ Using this we may finally say what a super-extension is supposed to be:
 ###### Definition
 
 Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a _super-extension_  of $\mathfrak{g}$
-is [[super Lie algebra]] $\mathfrak{s}$ (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}) equipped with a [[monomorphism]] of the form
+is a [[super Lie algebra]] $\mathfrak{s}$ (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}) equipped with a [[monomorphism]] of the form
 
 $$
   i \;\colon\; \mathfrak{g} \hookrightarrow  \mathfrak{s}
@@ -361,7 +361,7 @@ $$
 
 for some vector space $S$.
 
-Moreover the super Lie bracket on $\mathfrak{s}$ restrict to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{k}$
+Moreover the super Lie bracket on $\mathfrak{s}$ restricts to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{g}$
 and otherwise constitutes
 
 1. a bilinear map
@@ -420,7 +420,7 @@ of these linear maps are now just a restatement of the super-Jacobi identity in 
      \,.
    $$
 
-   Hence it only remains to show that this special case is in fact equivalent to the full odd-odd-odd super Jacobi identity. This follows by polarization: First inser $\psi = \phi_1 + \phi_2$ into the above cubic condition to obtain a quadratic condition, then polarize once more in $\phi_2$.
+   Hence it only remains to show that this special case is in fact equivalent to the full odd-odd-odd super Jacobi identity. This follows by polarization: First insert $\psi = \phi_1 + \phi_2$ into the above cubic condition to obtain a quadratic condition, then polarize once more in $\phi_2$.
 
 =--
 
@@ -432,7 +432,7 @@ there is the _trivial_ super extension (def. \ref{SuperExtensions}) of $\mathfra
 vector space
 
 $$
-  \mathfrak{s} \coloneqq \mathfrak{g} \oplus S
+  \mathfrak{s} \coloneqq \mathfrak{g} \oplus V
 $$
 
 and with both the action and the pairing (via prop. \ref{DataInSuperExtension}) trivial:
@@ -462,7 +462,7 @@ which is non-trivial (def. \ref{TrivialSuperExtension}) is obtained from the fol
 
 1. a [[Lie algebra representation]] $\rho$ of $\mathfrak{so}(d-1,1)$ on some [[real vector space]] $S$;
 
-1. an $\mathfrak{so}$-equivariant symmetric $\mathbb{R}$-[[bilinear map|bilinear pairiing]] $(-,-) \colon S \otimes_k S \to \mathbb{R}^{d-1,1}$
+1. an $\mathfrak{so}$-equivariant symmetric $\mathbb{R}$-[[bilinear map|bilinear pairing]] $(-,-) \colon S \otimes_k S \to \mathbb{R}^{d-1,1}$
 
 It turns out that data as in example \ref{SuperExtensionOfPoincare} is given for $\rho$ the Lie algebra version of a [[real spin representation]] of the [[spin group]] $Spin(d-1,1)$ (see [this prop](geometry+of+physics+--+superymmetry#SpinorToVectorPairing)). These are introduced and discussed at _[[geometry of physics -- supersymmetry]]_ in the section _[Real spin representations](geometry+of+physics+--+superymmetry##RealSpinRepresentations)_.
 
