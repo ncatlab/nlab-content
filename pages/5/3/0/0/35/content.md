@@ -338,7 +338,7 @@ See
 
 ## Related concepts
 
-* [[smooth groupoid]]
+* [[smooth groupoid]], [[smooth functor]]
 
 * [[LieGrpd]], [[SmoothGrpd]]
 
