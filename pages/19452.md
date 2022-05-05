@@ -2627,8 +2627,9 @@ The proof of the other statements proceeds analogously.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #LeftAdjointFunctorPreservesEpi}
 ###### Proposition
+**(right/left [[adjoint functors]] preserve [[monomorphissm]]/[[epimorphjisms]] and [[terminal object|terminal]]/[[initial objects]])**
 
 Every [[right adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
 
@@ -5167,11 +5168,13 @@ $$
   \,. 
 $$
 
+If $\underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim}$ ($\underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim}$) exists for a given $\mathcal{D}$, one says that $\mathcal{D}$ _has all limits_ (_has all colimits_) of shape $\mathcal{C}$_ or that all limits (colimits) of shape $\mathcal{D}$ _exist in $\mathcal{D}$_. If this is the case for all [[small category|small]] [[diagrams]] $\mathcal{C}$, one says that _$\mathcal{D}$ has all limits_ (_has all colimits_) or that _all limits exist in $\mathcal{D}$_, (_all colimits exist in $\mathcal{D}$_.)
+
 =--
 
 +-- {: .num_remark #LimitingCones}
 ###### Remark
-**([[limits]] in terms of limiting [[cones]])
+**([[limit]] [[cones]])
 
 Unwinding Definition \ref{Limits} of [[limits]] and [[colimits]], it says the following.
 
@@ -5179,7 +5182,7 @@ First of all, for $d \in \mathcal{D}$ any [[object]] and $F \;\colon\; \mathcal{
 
 \[
   \label{ConeAsNaturalTransformation}
-  const_d \overset{i}{\longrightarrow} F
+  const_d \overset{i}{\Rightarrow} F
 \]
 
 has component morphisms
@@ -5297,8 +5300,15 @@ $$
   }
 $$
 
+In this case one also says that $\widetilde i$ is a _[[morphism]] of [[cones]]_.
+
 Hence a _limit cone_ is a cone over $F$, such that every other cone factors through it in a unique way.
 
+Of course this concept of (co)limiting cone over a functor $F \;\colon\; \mathcal{C} \to \mathcal{D}$ makes sense also when 
+
+1. $\mathcal{C}$ is not [[small category|small]], 
+
+1. and/or when a (co-)limiting cone exists only for some but not for all functors of this form.
 
 =--
 
@@ -5322,6 +5332,15 @@ And [[formal dual|formally dual]]: Let $\emptyset \in \mathcal{C}$ be an object.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+We discuss the case of the [[terminal object]]. The other case is [[formal duality|formally dual]].
+
+It suffices to observe that a [[cone]] over the [[empty category|empty]] [[diagram]] (Remark \ref{LimitingCones}) is clearly just a plain [[object]] of $\mathcal{C}$. Hence a morphism of such cones is just a plain morphism of $\mathcal{C}$. This way the condition on a limiting cone is now manifestly the same as the condition on a terminal object.
+
+=--
+
 +-- {: .num_prop #InitialObjectIsLimitOverIdentityFunctor}
 ###### Example
 **([[initial object]] is [[limit]] over [[identity functor]])**
@@ -5330,7 +5349,7 @@ Let $\mathcal{C}$ be a [[category]], and let $\emptyset \in \mathcal{C}$ be an [
 
 1. $\emptyset$ is an [[initial object]] of $\mathcal{C}$ (Def. \ref{InitialObject});
 
-1. $\emptyset$ is the [[limit]] (Def. \ref{Limits}) of the [[identity functor]] on $\mathcal{C}$.
+1. $\emptyset$ is the tip of a [[limit]] [[cone]] (Remark \ref{LimitingCones}) over the [[identity functor]] on $\mathcal{C}$.
 
 =--
 
@@ -7890,7 +7909,7 @@ We discuss some of the key properties of [[sheaf toposes]]:
 
 Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its [[sheaf topos]] (Def. \ref{Sheaf}). Then:
 
-1. All [[limits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$, and they are computed as limits of presheaves, via Example \ref{LimitsOfPresheavesAreComputedObjectwise}:
+1. All [[limits]] exist in $Sh(\mathcal{C})$ (Def. \ref{Limits}), and they are computed as limits of presheaves, via Example \ref{LimitsOfPresheavesAreComputedObjectwise}:
 
    $$
      \iota\left( 
@@ -7900,7 +7919,7 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its
        \underset{\underset{d}{\longleftarrow}}{\lim} \iota(\mathbf{X}_d)
    $$
 
-1. All [[colimits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$ and they are given by the [[sheafification]] (Def. \ref{Sheafification}) of the same colimits computed in the [[category of presheaves]], via Example \ref{LimitsOfPresheavesAreComputedObjectwise}:
+1. All [[colimits]] exist in $Sh(\mathcal{C})$ (Def. \ref{Limits}) and they are given by the [[sheafification]] (Def. \ref{Sheafification}) of the same colimits computed in the [[category of presheaves]], via Example \ref{LimitsOfPresheavesAreComputedObjectwise}:
 
    $$
      \underset{\underset{d}{\longrightarrow}}{\lim} \mathbf{X}_d
@@ -8799,7 +8818,7 @@ Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the fo
      \flat X 
        \overset{ \phantom{AA} \epsilon^\flat_X \phantom{AA} }{\longrightarrow}
      X
-       \overset{ \epsilon^&#643; }{\longrightarrow}
+       \overset{ \phantom{AA} \epsilon^&#643;_X \phantom{AA} }{\longrightarrow}
      &#643; X
    $$
 
@@ -8811,7 +8830,7 @@ Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the fo
      \flat X 
        \overset{ \phantom{AA} \epsilon^\flat_X \phantom{AA} }{\longrightarrow}
      X
-       \overset{ \epsilon^\sharp }{\longrightarrow}
+       \overset{ \phantom{AA} \epsilon^\sharp_X \phantom{AA} }{\longrightarrow}
      \sharp X
    $$
 
@@ -8914,10 +8933,113 @@ For the adjunction on the left we claim that the [[left adjoint]] $conc$, (to be
 
 $$
   conc \;\colon\; X \mapsto im(\eta^\sharp_X)
-  \,.
+  \,,
 $$
 
-The the [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by the [[epimorphism]] in the [[(epi, mono) factorization system|epi/mono-factorization]], via Prop. \ref{SheafToposEpiMonoFactorization}:
+hence to the object which exhibits the [[(epi, mono) factorization system|epi/mono-factorization]] (Prop. \ref{SheafToposEpiMonoFactorization}) of $\eta^\sharp_X$
+
+\[
+  \label{ConcretificationUnitFromEpiMonoFactorization}
+  \eta^\sharp_X
+  \;\colon\;
+  X 
+    \underoverset{epi}{ \eta^{conc}_X }{\longrightarrow}
+  conc X
+    \underoverset{mono}{}{\longrightarrow}
+  \sharp X
+  \,.
+\]
+
+First we need to show that $conc X$, thus defined, is indeed [[concrete object|concrete]], hence that $\eta^\sharp_{im(\eta^\sharp_X)}$ is a [[monomorphism]] (Def. \ref{Monomorphism}). For this, consider the following [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) of the $\Gamma \dashv coDisc$-adjunction hom-isomorphism
+
+\[
+  \label{ConcNatur}
+  \array{
+    Hom_{Set}( \Gamma im(\eta^\sharp_X), \Gamma im(\eta^\sharp_X) )
+    &\simeq&
+    Hom_{\mathbf{H}}( im(\eta^\sharp_X), \sharp im(\eta^\sharp_X) )
+    \\
+    {}^{ \mathllap{ (-) \circ \Gamma(\eta^{conc}_X) } }\big\downarrow      
+      &&
+    \big\downarrow^{
+      \mathrlap{ (-) \circ \eta^{conc}_X }
+    }
+    \\
+    Hom_{Set}( \Gamma X, \Gamma im(\eta^\sharp_X) )
+    &\simeq&
+    Hom_{\mathbf{H}}( X, \sharp im(\eta^\sharp_X) )    
+  }
+  \phantom{AAAA}
+  \array{
+    \left\{ id_{\Gamma im(\eta^\sharp_X)} \right\}
+      &\longrightarrow&
+    \phantom{\sharp(\eta^{conc}_X) \circ \eta^\sharp_{ X }}
+    \left\{ \eta^{\sharp}_{im(\eta^\sharp_X)} \right\}
+    \\
+    \big\downarrow 
+      && 
+    \phantom{\sharp(\eta^{conc}_X) \circ \eta^\sharp_{ X }}
+    \big\downarrow
+    \\
+    \left\{ \Gamma(\eta^{conc}_X) \right\}
+      &\longrightarrow& 
+    \left\{
+      \underset{
+        iso
+      }{ 
+      \underbrace{
+         \sharp(\eta^{conc}_X)
+      }}
+      \circ \eta^\sharp_{ X }
+      \;=\;
+    \eta^{\sharp}_{ im(\eta^\sharp_X) } \circ \eta^{conc}_X 
+    \right\}
+  }
+\]
+
+By chasing the [[identity morphism]] on $\Gamma im(\eta^\sharp_X)$ through this diagram, as shown by the diagram on the right, we obtain the equality displayed in the bottom right entry, where we used the general formula for [[adjuncts]] (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit})  and the definition $\sharp \coloneqq coDisc \circ \Gamma$ (Def. \ref{CohesiveModalities}).
+
+But observe that $\Gamma (\eta^{conc}_X)$, and hence also $\sharp(\eta^{conc}_X)$, is an [[isomorphism]] (Def. \ref{Isomorphism}), as indicated above: Since $\Gamma$ is both a [[left adjoint]] as well as a [[right adjoint]], it preserves both [[epimorphisms]] as well as [[monomorphisms]] (Prop. \ref{LeftAdjointFunctorPreservesEpi}), hence it preserves [[image]] factorizations (Prop. \ref{SheafToposEpiMonoFactorization}). This implies that $\Gamma \eta^{conc}_X$ is the epimorphism onto the image of $\Gamma( \eta^\sharp_X )$. But by [[idempotent monad|idempotency]] of $\sharp$, the latter is an [[isomorphism]], and hence so is the epimorphism in its image factorization.
+
+Therefore the equality in (eq:ConcNatur) says that 
+
+$$
+  \begin{aligned}
+    \eta^\sharp_{ X } 
+      & =
+    \left( 
+      iso \circ \eta^{\sharp}_{ im(\eta^\sharp_X)} 
+    \right)
+      \circ 
+    \eta^{conc}_X
+    \\
+    & =
+    mono \circ \eta^{conc}_X 
+    \,,
+  \end{aligned}
+$$
+
+where in the second line we remembered that $\eta^{conc}_X$ is, by definition, the epimorphism in the epi/mono-factorization of $\eta^\sharp_X$.
+
+Now the defining property of epimorphisms (Def. \ref{Monomorphism}) allows to cancel this commmon factor on both sides, which yields
+
+$$
+  \eta^{\sharp}_{ im(\eta^\sharp_X) }
+  \;=\;
+  iso \circ mono
+  \;=\;
+  mono.
+$$
+
+This shows that $conc X \coloneqq im(\eta^\sharp_X)$ is indeed concret.
+
+$\,$
+
+
+It remains to show that this construction is [[left adjoint]] to the inclusion.
+We claim that the [[adjunction unit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) of $(conc \dashv \iota_{conc})$ is provided by $\eta^{conc}$ (eq:ConcretificationUnitFromEpiMonoFactorization). 
+
+To see this, first notice that, since the [[(epi, mono) factorization system|epi/mono-factorization]] (Prop. \ref{SheafToposEpiMonoFactorization}) is [[orthogonal factorization system|orthogonal]] and hence [[functorial factorization|functorial]], we have [[commuting diagrams]] of the form
 
 \[
   \label{NaturalitySquareForConcretificationUnit}
@@ -8938,7 +9060,7 @@ The the [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by the [
   }
 \]
 
-To see this, it is sufficient, by Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}, to show that $\eta^{conc}$ is a [[universal morphism]] in the sense of Def. \ref{UniversalArrow}. Hence consider any morphism $f \;\colon\; X_1 \to X_2$ with $X_2 \in \mathbf{H}_{conc} \hookrightarrow \mathbf{H}$. Then we need to show that there is a unique diagonal morphism as below, that makes the following _top left triangle_ [[commuting diagram|commute]]:
+Now to demonstrate the adjunction it is sufficient, by Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}, to show that $\eta^{conc}$ is a [[universal morphism]] in the sense of Def. \ref{UniversalArrow}. Hence consider any morphism $f \;\colon\; X_1 \to X_2$ with $X_2 \in \mathbf{H}_{conc} \hookrightarrow \mathbf{H}$. Then we need to show that there is a unique diagonal morphism as below, that makes the following _top left triangle_ [[commuting diagram|commute]]:
 
 $$
   \array{
