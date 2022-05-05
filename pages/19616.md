@@ -12,8 +12,8 @@
 * [[binary linear code]]
 * [[chord diagram]]
 * [[combinatorial design]]
-* [[Latin square]]
 * [[graph]]
+* [[Latin square]]
 * [[matroid]]
 * [[partition]]
 * [[permutation]]
@@ -39,6 +39,7 @@
 ### Combinatorial identities
 
 * [[binomial theorem]]
+* [[Catalan number]]
 * [[Chu–Vandermonde identity]]
 
 ### Polytopes
