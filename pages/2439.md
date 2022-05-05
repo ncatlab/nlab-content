@@ -636,6 +636,8 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 * [[supercommutative algebra]], [[differential graded-commutative superalgebra]]
 
+  [[model structure on differential graded-commutative superalgebras]]
+
 * [[smooth superalgebra]]
 
 * [[supermanifold]]
