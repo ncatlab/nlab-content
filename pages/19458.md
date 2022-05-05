@@ -49,6 +49,11 @@ and wich omn [[hom-objects]] of $\mathcal{C}^{op} \times \mathcal{C}$ is given b
 (e.g. [Borceux 94, Prop. 6.2.7](#Borceux94))
 
 
+## Related concepts
+
+* [[derived hom-functor]]
+
+
 ## References
 
 
