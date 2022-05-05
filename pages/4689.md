@@ -105,13 +105,13 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 
 ## Related concepts
 
-
-
 * [[asymptotic safety]]
 
 * [[weak gravity conjecture]]
 
 * [[Witten conjecture]]
+
+* [[piecewise flat spacetime]]
 
 ## References
 
