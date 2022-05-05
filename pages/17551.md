@@ -208,6 +208,7 @@ be [[finite spectrum|finite]] $G$-[[CW-spectrum]],
 
 +-- {: .num_prop #GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}
 ###### Proposition
+**(partial geometric fixed point cohomology via inversion of Euler classes)**
 
 The $G/N$-[[equivariant cohomology|equivariant]] [[cohomology groups]] in [[RO(G)-degree|RO(G/N)-degree]] $\alpha$ of $X$ with [[coefficients]] in the partial geometric fixed point spectrum $\Phi^N E$ are equivalently the [[colimit]] over the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] of $\epsilon^\sharp X$ (eq:PullbackGSpace) with [[coefficients]] in $E$, but in [[RO(G)-degree]] $\epsilon^\ast \alpha$ (eq:PullbackRepresentation) plus a shift by all those [[representations]] $V$ that have no nontrivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}):
 
@@ -246,21 +247,21 @@ of $V = V_2 - V_1$.
 
 ([Lewis-May-Steinberger 86, chapter II, prop. 9.13](#LewisMaySteinberger86))
 
-+-- {: .num_defn}
++-- {: .num_defn #CanonicalComparisonMap}
 ###### Definition
 **(canonical comparison map to partial geometric fixed point cohomology)**
 
-By prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says, there is a canonical comparison morphism, to be denoted
+Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} provides a canonical comparison morphism, to be denoted
 
 \[
   \label{ComparisonMap}
-  E_G^{\epsilon^\ast \bullet}(X)
+  E_G^{\epsilon^\ast \bullet}(\epsilon^\sharp X)
   \overset{
     \phantom{AA}
       p_E^N(X)
     \phantom{AA}
   }{\longrightarrow}
-  (\Phi^N E)^\bullet_{G/N}(\epsilon^\sharp X)
+  (\Phi^N E)^\bullet_{G/N}(X)
 \]
 
 from the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in $E$ to the those with [[coefficients]] in the partial geometric fixed point spectrum:
@@ -275,7 +276,7 @@ $$
     &\to&
     \cdots 
     \\
-    & {}^{ \mathllap{ p_E^N(X) } }\searrow && \swarrow & \cdots
+    & {}_{ \mathllap{ p_E^N(X) } }\searrow && \swarrow & \cdots
     \\
     && 
     (\Phi^N E)^\bullet_{G/N}(X)
@@ -284,43 +285,80 @@ $$
 
 =--
 
-## Examples
 
 +-- {: .num_example}
 ###### Example
-**([[equivariant stable cohomotopy]] of point in $N$-nil [[RO(G)-degree]])**
+**([[equivariant stable cohomotopy]] of the point in non-trivial [[RO(G)-degree]])**
 
-Consider the $G$-[[equivariant stable cohomotopy]] of the point in some [[RO(G)-degree]] $V$ for with $V^N = 0$.
-
-Then the comparison map (eq:ComparisonMap)
+Let $G$ be a [[finite group]]. Then the canonical comparison morphism (eq:ComparisonMap) from Def. \ref{CanonicalComparisonMap} exhibits the $G$-[[equivariant stable cohomotopy]] [[cohomology groups|group]] of the point in any [[RO(G)-degree]] $V$ that has trivial $N$-fixed points ($V^N = 0$, Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) as a [[group extension]] of the $G/N$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree|RO(G/N)-degree]] zero:
 
 \[
-  \label{ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside}
-  (\Sigma^\infty_G S^V)^0_{G}(\ast)
-  \overset{\phantom{AA} p_V \phantom{AA} }{\longrightarrow}
-  (\Phi^N \Sigma^\infty_G S^V)^0_{G/N}(\ast)
-  (\Sigma^\infty_{G/N} S^0)^0_{G/N}(\ast)  
+  \label{SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero}
+  \mathbb{S}_G^{V}(\ast)
+  \overset
+    { \phantom{A} \text{epi} \phantom{A} }
+    {\longrightarrow}
+  \mathbb{S}_{G/N}^0(\ast)
+  \simeq
+  A(G/N)
+  \,.
 \]
 
-from the $G$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree]] $V$ to the $G/N$-[[equivariant stable cohomotopy]] in degree 0 (via (eq:PartialGeometricFixedPointsOfEqui)) is [[surjective map|surjective]] (an [[epimorphism]] of [[abelian groups|abelian]] [[cohomology groups]]).
+where the latter group is equivalently that underlying the [[Burnside ring]] $A(G/N)$ ([this Prop.](equivariant+stable+cohomotopy#BurnsideRingIsEquivariantStableCohomotopyOfPoint)).
 
 =--
 
 Proof idea (check):
 
-Observe that [[equivariant stable cohomotopy]] of the point in degree 0 is given by the [[Burnside ring]] $A(G)$ of the equivariant group.
+First observe that, in the given situation, the comparison morphism $p_{\mathbb{S}^N(\ast)}$ (eq:ComparisonMap) is indeed of the form shown, up to isomorphism: We are in the situation of Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} for
 
-This implies that the map in question is a surjection for $V = 0$. Because, in this case, the map is 
+1. $X \coloneqq \Sigma^\infty_{G/N}(\ast_+) = \Sigma^\infty_{G/N} S^0$, which is clearly a [[finite spectrum|finite]] $G/N$-[[CW-spectrum]];
+
+1. $E \coloneqq \Sigma^V_G\mathbb{S}_G \coloneqq \Sigma^\infty_G S^V$ the $V$-shifted $G$-[[equivariant sphere spectrum]], being the [[G-spectrum]] [[Brown representability theorem|\representing]] $G$-[[equivariant stable cohomotopy]], by definition;
+
+1. $\Phi^N E \simeq \Sigma^\infty_{G/N} (S^V)^N \simeq \Sigma^\infty_{G/N} S^0 \simeq \mathbb{S}_{G/N}$ the unshifted $G/N$-[[equivariant sphere spectrum]], by (eq:PartialGeometricFixedPointsOfEqui) and by assumption on $V$.
+
+Hence with all identifications made explicit, the morphism (eq:SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero) in question is this:
+
+\[
+  \label{ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside}
+  \mathbb{S}_G^V(\ast)
+  \simeq
+  (\Sigma^\infty_G S^V)^0_{G}(\ast)
+  \overset{
+    \phantom{AA} 
+      p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast) 
+    \phantom{AA} 
+   }{\longrightarrow}
+  (\Phi^N \Sigma^\infty_G S^V)^0_{G/N}(\ast)
+  \simeq
+  (\Sigma^\infty_{G/N} S^0)^0_{G/N}(\ast)  
+  \simeq
+  \mathbb{S}^0_{G/N}(\ast)
+  \simeq
+  A(G/N)
+  \,.
+\]
+
+We first prove that this is a surjection for the case that $V = 0$. In this case the identification with the [[Burnside ring]] (via [this Prop.](equivariant+stable+cohomotopy#BurnsideRingIsEquivariantStableCohomotopyOfPoint)) applies also to the [[domain]] cohomology group, so that (eq:SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero) becomes simply the projection of [[Burnside rings]]
 
 $$
-  A(G) \overset{ (-)^N }{\longrightarrow} A(G/N)
+  A(G) \overset{ \phantom{AA} (-)^N \phantom{AA} }{\longrightarrow} A(G/N)
 $$
 
-The irreducible elements on the right are the isomorphism classes of the  [[transitive action|transitive]] $G/N$-[[actions]]  $(G/N)/H$ for $H \subset G/H$, which are canonically also $N$-invariant transitive [[G-sets]], hence have a pre-image on the left.
+given by... 
 
-Now in general, due to the assumption that $V^N = 0$, the map (eq:ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside) in question is also one of the component maps of the colimit that expresses the case for $V = 0$ according to Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}, hence we have a [[commuting diagram]]
+> (does this need justification?)
 
-$$
+...sending any [[G-set]] $S$ to its [[subset]] $S^N$ of $N$-[[fixed points]] regarded with its residual $G/N$-[[action]].
+
+This is clearly surjective. (The irreducible elements on the right are the isomorphism classes of the  [[transitive action|transitive]] $G/N$-[[actions]]  $(G/N)/H$ for $H \subset G/H$, which are canonically also [[G-sets]], hence have a pre-image on the left.)
+
+But Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says that this projection map is also part of a [[colimit|colimiting]] [[cocone]]-[[diagram]], which for each $G$-[[representation]] $V$ without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) contains a [[cocone]] component of the following form:
+
+
+\[
+  \label{ColimitingCoconeForComparisonAtTrivialROG}
   \array{
     A(G) 
     &=& 
@@ -336,9 +374,43 @@ $$
    &=&
    (\Sigma^\infty_G S^0)^0_{G/N}(\ast) 
   }
-$$
+\]
 
-which is part of a colimiting [[cocone]], _both_ as shown, as well as if we remove the vertex shown in the top left. Now, due to the epimorphism on the left, every element $c \in A(G/N)$ has a lift to $\widehat c \in A(G)$, but then the commutativity of the triangle means that also $\widehat c \wedge \chi_V$ maps to $c$, hence that $p_V$ is surjective.
+Since we know that the map $(-)^N$ on the left is surjection, the [[commutative diagram|commutativity]] of this diagram implies that also the component projection $p_V$ is surjective. (Every element $c \in A(G/N)$ has a lift to $\widehat c \in A(G)$, but then the commutativity of the triangle means that $\widehat c \wedge \chi_V$ is a pre-image of $c$ under $p_V$.)
+
+This we may use to deduce the statement for the general case, where the codomain of (eq:ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside) is in degree $V$: 
+
+By the assumption that the [[RO(G)-degree]] $V$ has no non-trivial $N$-fixed points, Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says that the [[colimit|colimiting]] [[cocone]] in which the map $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ appears, by Def. \ref{CanonicalComparisonMap}, looks just like the one above, except that it "starts" not in degree 0, but in degree $V$: 
+
+\[
+  \label{ColimitingCoconeForComparisonAtNonTrivialROG}
+  \array{
+   &&
+   (\Sigma^\infty_G S^V)^0_{G}(\ast)  
+   &\to& \cdots
+   \\
+   {}^{\mathllap{}}\big\downarrow{}^{  } & 
+   \swarrow_{\mathrlap{p_V}}
+   \\
+   (\Sigma^\infty_G S^0)^0_{G/N}(\ast) 
+  }
+\]
+
+In particular the [[cocone]] in (eq:ColimitingCoconeForComparisonAtTrivialROG) restricts to a [[cocone]] over this sub-diagram in (eq:ColimitingCoconeForComparisonAtNonTrivialROG), so that the [[universal property]] of the cocone in (eq:ColimitingCoconeForComparisonAtNonTrivialROG) implies an [[endomorphism]] $\phi$ of the [[abelian group]] underlying the[[Burnside ring]] $(\Sigma^\infty_G S^0)^0_{G/N}(\ast) = A(G/n)$ such that
+
+\[
+  \label{Factorization}
+  p_V
+  \;\;
+  \phi \circ p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)
+  \,.
+\]
+
+Since $p_V$ is surjective, by the previous dicussion, it must be that $\phi$ is surjective.
+
+Now the [[abelian group]] underlying the [[Burnside ring]] is a [[finitely generated module|finitely generated]] [[free abelian group]].
+This implies (...) that for the endomorphism $\phi$ to be surjective, it must indeed be an isomorphism. With this, (eq:Factorization) says that $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ is isomorphic to a surjection, hence is itself surjective.
+
 
 ## Related concepts
 
