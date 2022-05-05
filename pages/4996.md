@@ -164,7 +164,7 @@ To prove this, we need to show that
 
 1. $Sh_{(\infty,1)}(C)$ is a [[locally ∞-connected (∞,1)-topos]] and a [[∞-connected (∞,1)-topos]].
 
-  This follows with the discussion at [[∞-connected site]].
+   This follows with the discussion at [[∞-connected site]].
 
 1. $Sh_{(\infty,1)}(C)$ is a [[local (∞,1)-topos]]. 
 
