@@ -182,7 +182,7 @@ of the [[1-simplex]] $\Delta[1]$ with the [[2-simplex]] $\Delta[2]$ (i.e. the ca
 
 ### Simplicial complexes
 
-Every [[simplicial complex]] is a simplicial set
+Every [[simplicial complex]] can be viewed a simplicial set (in several different ways).
 
 <img src="https://ncatlab.org/nlab/files/ASimplicialComplex.jpg" width="180">
 
@@ -192,12 +192,14 @@ Every [[simplicial complex]] is a simplicial set
 
 > graphics grabbed from Maletic, 2013
 
+In particular any graph is thought of as being built of vertices and edges and so is a (1-dimensional) simplicial complex. Choosing a direction on the edges then gives a directed graph and that gives a simplicial set, as follows.
+
 
 ### Directed graphs
 
 A [[directed graph]] (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 \coloneqq V$ to be the set of vertices and $S_1 \coloneqq E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (the latter corresponding to the degenerate 1-simplices).
 
-### Singular simplices (Yoneda embeddings)
+### $n$-simplices (Yoneda embeddings)
 
 Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, typically written as $\Delta[n]$ is an example of a simplicial set. In particular we have $\Delta[n]_m=Hom_\Delta([m],[n])$ and hence $\Delta[n]_m$ is a finite set with $\binom{n+m+1}{n}$ elements.
 
