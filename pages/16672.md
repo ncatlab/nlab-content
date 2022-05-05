@@ -10,5 +10,6 @@
 
 * [[landscape of string theory vacua]]
 
+* [[discrete torsion]]
 
 category: people
