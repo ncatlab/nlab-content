@@ -93,13 +93,70 @@ We can also curry the Hom functor in the other variable, thus obtaining a contra
 $$
 C^{op} \to [C, Set]
 $$
-which is explicitly given by $c \mapsto C(c,-)$. This is sometimes jokingly called the **Yoda embedding** ("the Yoda embedding, contravariant it is"). 
+which is explicitly given by $c \mapsto C(c,-)$. This is sometimes jokingly called the **contravariant Yoneda embedding**. 
 
-However, since $C^{op}(-,c)=C(c,-)$, it is easy to see that the Yoda embedding is just the Yoneda embedding $Y: C^{\op} \to [(C^{op})^{op}, Set]=[C, Set]$ of $C^{op}$, and hence does not require special treatment.  
+However, since $C^{op}(-,c)=C(c,-)$, it is easy to see that the contravariant Yoneda embedding is just the Yoneda embedding $Y: C^{\op} \to [(C^{op})^{op}, Set]=[C, Set]$ of $C^{op}$, and hence does not require special treatment.  
 
 ## Properties
 
-It follows from the [[Yoneda lemma]] that the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
++-- {: .num_prop #YonedaEmbeddingIsFullyFaithful}
+###### Proposition
+**(Yoneda embedding is a [[fully faithful functor]])**
+
+For $\mathcal{C}$ any [[category]], the [[functor]]
+
+$$
+  \array{
+    \mathcal{C}
+      &\overset{Y}{\hookrightarrow}&
+    [\mathcal{C}^{op}, Set]
+    \\
+    c &\mapsto& Hom_{\mathcal{C}}(-,c)
+  }
+$$
+
+is [[fully faithful functor|fully faithful]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that for $c_1, c_2 \in \mathcal{C}$ any two [[objects]], we have that every [[morphism]] of [[presheaves]] between their [[representable functor|represented presheaves]] 
+
+$$
+  Hom_{\mathcal{C}}(-,c_1)
+   \overset{\phi}{\longrightarrow}
+  Hom_{\mathcal{C}}(-,c_2)
+$$
+
+is of the form 
+
+$$
+  \phi \;=\; Hom_{\mathcal{C}}(-,f)
+$$
+
+for a unique morphism 
+
+$$
+  f \;\colon\; c_1 \to c_2
+$$
+
+in $\mathcal{C}$. This follows by the [[Yoneda lemma]], which says that morphisms $\phi$ as above are identified with the elements in 
+
+$$
+  Hom_{\mathcal{C}}(-,c_2)(c_1)
+  \;=\;
+  Hom_{\mathcal{C}}(c_1,c_2)
+  \,.
+$$
+
+
+
+=--
+
+
+It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
 
 The Yoneda embedding of a [[small category]] $S$ into the category of [[presheaf|presheaves]] on $S$ gives a [[free cocompletion]] of $S$.
 
