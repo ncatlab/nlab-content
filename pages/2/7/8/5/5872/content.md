@@ -23,6 +23,14 @@ On [[analytic torsion]] and [[twisted de Rham cohomology]]:
 
 * [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
 
+Aspects of the classification of [[semi-metals]] seen in [[ordinary cohomology]]:
+
+* [[Varghese Mathai]], [[Guo Chuan Thiang]], *Global topology of Weyl semimetals and Fermi arcs*, J. Phys. A: Math. Theor. **50** (2017) 11LT01 ([arXiv:1607.02242](https://arxiv.org/abs/1607.02242),  [doi:10.1088/1751-8121/aa59b2](https://doi.org/10.1088/1751-8121/aa59b2))
+
+* [[Varghese Mathai]], [[Guo Chuan Thiang]], *Differential Topology of Semimetals*,
+Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.org/abs/1611.08961), [doi:10.1007/s00220-017-2965-z](https://doi.org/10.1007/s00220-017-2965-z))
+
+
 On the [[Witten genus]]:
 
 * [[Fei Han]], [[Varghese Mathai]], _Projective elliptic genera and elliptic pseudodifferential genera_, Adv. Math. 358 (2019) 106860  ([arXiv:1903.07035](https://arxiv.org/abs/1903.07035))
