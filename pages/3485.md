@@ -290,13 +290,14 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
 
 The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
 
-From this the surjectivity for [[cyclic groups]] follows via the [[fundamental theorem of cyclic groups]].
+To see surjectivity for [[cyclic groups]]: By the previous statement we have surjectivity already for those cyclic groups whose order is a prime power. But by the [[fundamental theorem of cyclic groups]], every cyclic group is a [[direct product group]] of cyclic groups of prime power order. Moreover, every irreducible representation of a direct product group is an [[external tensor product]] of irreps of the group factors ([this prop.](direct+product+group#IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps)). But $\beta$ sends "external Cartesian products" to external tensor products, by the same elementary argument which shows that $\beta$ sends plain Cartesian products to tensor products. This way the statement reduces to that for $p$-primary cyclic groups.
 
 The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77).
 
