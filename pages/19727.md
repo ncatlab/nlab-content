@@ -117,6 +117,8 @@ For [[rational CFT]], specifically [[Gepner models]] and [[WZW models]]
 
 * {#FuchsKasteLercheLutkenSchweigert00} [[Jürgen Fuchs]], P. Kaste, [[Wolfgang Lerche]], C. Lutken, [[Christoph Schweigert]], J. Walcher, _Boundary Fixed Points, Enhanced Gauge Symmetry and Singular Bundles on K3_, Nucl.Phys.B598:57-72, 2001 ([arXiv:hep-th/0007145](https://arxiv.org/abs/hep-th/0007145))
 
+  (with emphasis on [[gauge enhancement]] on coincident D-branes)
+
 * Sergei E. Parkhomenko, _Free Field Construction of D-Branes in Rational Models of CFT and Gepner Models_ ([arXiv:0802.3445](https://arxiv.org/abs/0802.3445))
 
 
