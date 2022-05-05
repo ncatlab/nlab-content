@@ -215,6 +215,8 @@ Lecture notes include
 
 * [[Kiyoshi Igusa]], _Algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
 
+* Andrei Yafaev, _Group algebras_ ([pdf](http://www.ucl.ac.uk/~ucahaya/GroupAlgebras.pdf))
+
 The [[universal localization]] of group rings (see also at _[[Snaith's theorem]]_) is discussed in
 
 * [[M. Farber]], [[P. Vogel]], _The Cohn localization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
