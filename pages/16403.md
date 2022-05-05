@@ -308,7 +308,7 @@ A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [
 
 +-- {: .num_defn #FunctorialFactorization}
 ###### Definition
-**([[functorial factorization)**
+**([[functorial factorization]])**
 
 For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]]
 
@@ -14008,7 +14008,7 @@ $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}  
 $$
 
-is left exact, in that it exhibits a [[model topos]] according to Def. \ref{ModelTopos}, hence in that its image in [[Ho(CombModCat)]] is an [[(∞,1)-topos]]
+and to be called the _[[local model structure on simplicial presheaves]]_, is left exact, in that it exhibits a [[model topos]] according to Def. \ref{ModelTopos}, hence in that its image in [[Ho(CombModCat)]] is an [[(∞,1)-topos]]
 
 $$
   Sh_\infty(\mathcal{C})
