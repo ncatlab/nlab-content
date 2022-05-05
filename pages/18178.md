@@ -17,6 +17,7 @@
 
 In the context of [[quantum mechanics]], the **collapse of the wave function**, also known as the **reduction of the wave packet**, is said to occur after [[observation]] or [[measurement]], when a wave function expressed as the sum of [[eigenfunctions]] of the observable is projected randomly onto one of them. Different [[interpretations of quantum mechanics]] understand this process differently.
 
+The perspective associated with the _[[Bayesian interpretation of quantum mechanics]]_ observes (see [below](#RelationToConditionalExpectationValues)) that the apparent collapse is just the mathematical reflection of the formula for [[conditional expectation values]] in [[quantum probability theory]].
 
 ## Relation to conditional expectation values
  {#RelationToConditionalExpectationValues}
@@ -115,6 +116,8 @@ This is the statement of "wave function collapse". The original [[wave function]
 
 * [[interpretation of quantum mechanics]]
 
+* [[Bayesian interpretation of quantum mechanics]]
+
 * [[propositions as projections]]
 
 
@@ -133,9 +136,12 @@ See also
 
 * Wikipedia, _[Wave function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse)_
 
+* Wikipedia, _[Born rule](https://en.wikipedia.org/wiki/Born_rule)_
 
 [[!redirects wave function collapse]]
 [[!redirects wavefunction collapse]]
 
 [[!redirects collapse of the wave function]]
 [[!redirects collapse of the wavefunction]]
+
+[[!redirects Born's rule]]
