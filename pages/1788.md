@@ -1,6 +1,8 @@
 
 $\bigotimes$
 
+$\nsubset$
+
 $$
   \array{
     && L X
