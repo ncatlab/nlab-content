@@ -9,6 +9,8 @@ In [[Riemannian geometry]] the term _$p$-curvature_ ([Labbi 97](#Labbi97)) refer
 
 ## Related entries
 
+[[!include curvature in Riemannian geometry -- table]] 
+
 * [[Stolz conjecture]]
 
 ## References
