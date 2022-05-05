@@ -172,7 +172,6 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
   (on [[synthetic differential geometry]] as a context for axiomatizing [[ordinary differential equations]] as they appear in [[classical physics]])
 
 
-
 * {#AdjointnessInFoundations} _[[Adjointness in Foundations]]_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
   (on the interpretation of [[quantifiers]] in [[categorical logic]] as [[base change]] [[adjoints]])
@@ -229,9 +228,9 @@ Lecture notes University of Chicago 1975.
 &#8206;
 * _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
 
-  (on the notion of [[gros topos|gros toposes]])
+  (on the notion of [[gros topos|gros toposes]], details of his claims are worked out at [[sufficiently cohesive topos]])
 
-*   {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+*   _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
      (Uses toposes of graphs to introduce his ideas on petit/gros toposes)
 
@@ -264,7 +263,7 @@ pages 43-56, 1994.
 
   (on formalizing [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]].) 
 
-* {#Lawvere95} [[William Lawvere]], _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
+* {#Lawvere95} _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
 
   (on [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ and hence also on _[[extensive and intensive quantity]]_)
 
@@ -282,7 +281,7 @@ pages 43-56, 1994.
 
   (the origin of the concept of [[synthetic differential geometry]])
 
-* {#Law99}[[William Lawvere|F. William Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in Jackendoff, Bloom, Wynn (eds.), _Language, Logic, and Concepts_ , MIT Press Cambridge 1999.
+* _Kinship and Mathematical Categories_ , pp.411-425 in Jackendoff, Bloom, Wynn (eds.), _Language, Logic, and Concepts_ , MIT Press Cambridge 1999.
 
    (Lawvere's venture into anthropology; a summary is at [[kinship]]) 
 
@@ -298,13 +297,13 @@ pages 43-56, 1994.
 
    (a review of (not only set-theoretic) foundations in mathematics)
 
-* {#LawvereRosebrugh} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+* {#LawvereRosebrugh} with [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
   (on [[set theory]] from a practical [[category theory|theoretic]] point of view (informal [[ETCS]]))
 
-* _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* _Axiomatic cohesion_ ,Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-  (a more formal definition of [[cohesive topos|cohesive toposes]])  
+  (a more formal definition of [[cohesive topos|cohesive toposes]], [[sufficiently cohesive topos]] works out details of his claims concerning 'sufficient cohesion')  
 
 * _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ , lecture in Como (2008)  
 
