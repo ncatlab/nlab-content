@@ -2,7 +2,7 @@
 ## Basic notions of Topos theory
   {#BasicNotionsOfToposTheory}
 
-We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _[[generalized spaces]] probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose, namely a _locality_ or _gluing condition_ (Remark \ref{SheafConditionAsLocality} below), to be called the _[[sheaf]]_ condition (Def. \ref{SheafConditionAsLocality} below).
+We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _[[generalized spaces]] probe-able by the objects of $\mathcal{local eC}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose, namely a _locality_ or _gluing condition_ (Remark \ref{SheafConditionAsLocality} below), to be called the _[[sheaf]]_ condition (Def. \ref{SheafConditionAsLocality} below).
 
 More in detail, we had seen that any [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ is the [[free cocompletion]] of the given [[small category]] $\mathcal{C}$ (Prop. \ref{FreeCocompletion}) and hence exhibits [[generalized spaces]] $\mathbf{X} \in [\mathcal{C}^{op}, Set]$ as being glued or _[[generators and relations|generated]]_ form the "ordinary spaces" $X \in \mathcal{C}$. Further conditions to be imposed now will impose _[[generators and relations|relations]]_ among these generators, such as the locality relation embodied by the [[sheaf]]-condition.
 
@@ -745,6 +745,37 @@ This may be summarized by saying that every [[sheaf topos]] (in particular every
 
 =--
 
+
++-- {: .num_defn #LocalEpimorphism}
+###### Definition
+**([[local epimorphism]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}). Then a [[morphism]] of [[presheaves]] over $\mathcal{C}$ (Example \ref{CategoryOfPresheaves})
+
+$$
+  \mathbf{Y} \overset{\phantom{AA}f\phantom{AA}}{\longrightarrow} \mathbf{X}
+  \;\;\;
+  \in [\mathcal{S}^{op}, Set]
+$$
+
+is called a  _[[local epimorphism]]_ if for every [[object]] $U \in \mathcal{C}$, every [[morphism]] $y(U) \longrightarrow \mathbf{X}$
+out of its [[representable presheaf|represented presheaf]] (Example \ref{RepresentablePresheaves}) has the _local [[lifting property]]_ through $f$ in that there is a [[covering]] $\big\{ U_i \overset{\iota_i}{\to} U \big\}$ (Def. \ref{Coverage}) and a [[commuting diagram]] of the form
+
+$$
+  \array{ 
+    y(U_i) 
+      &\overset{\phantom{AA}\exists\phantom{AA}}{\longrightarrow}& 
+    \mathbf{Y}
+    \\
+    {}^{\mathllap{y(\iota_i)}} \Big\downarrow 
+      && 
+    \Big\downarrow{}^{\mathrlap{ f }}
+    \\
+    y(U) &\underset{\phantom{AAAA}}{\longrightarrow}& \mathbf{X}
+  }
+$$
+
+=--
 
 $\,$
 
