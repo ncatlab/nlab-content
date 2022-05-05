@@ -51,7 +51,7 @@ One could call this the condition of _locality of probes of generalized spaces p
 ###### Remark
 **Warning**
 
-Most (if not all) introductions to [[sheaf theory]] insist on motivating the concept from the special case of [[sheaves on a topological spaces]] (Example \ref{SheafOnATopologicalSpace} below). This is good motivation for what Grothendieck called "[[petit topos]]"-theory. The motivation above, instead, naturally leads to the "[[gros topos]]"-perspective, as in Example \ref{SmoothSetAnnounced} below, which is more useful for discussing the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of [[physics]]. In fact, this is the perspective of _[[functorial geometry]]_ that has been highlighted since [Grothendieck 65](functorial+geometry#Grothendieck65), but which has maybe remained underappreciated.
+Most (if not all) introductions to [[sheaf theory]] insist on motivating the concept from the special case of [[sheaves on topological spaces]] (Example \ref{SheafOnATopologicalSpace} below). This is good motivation for what Grothendieck called "[[petit topos]]"-theory. The motivation above, instead, naturally leads to the "[[gros topos]]"-perspective, as in Example \ref{SmoothSetAnnounced} below, which is more useful for discussing the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of [[physics]]. In fact, this is the perspective of _[[functorial geometry]]_ that has been highlighted since [Grothendieck 65](functorial+geometry#Grothendieck65), but which has maybe remained underappreciated.
 
 =--
 
@@ -287,6 +287,59 @@ such that
 Hence there is a [[category]] _[[Topos]]_, whose [[objects]] are [[sheaf toposes]] and whose [[morphisms]] are [[geometric morphisms]].
 
 =--
+
++-- {: .num_example #GlobalSectionsGeometricMorphism}
+###### Example
+**([[global sections]] [[geometric morphism]])**
+
+Let $\mathbf{H}$ be a [[sheaf topos]] (Def. \ref{Sheaf}). Then there is a [[geometric morphism]] (eq:GeometricMorphism) to the [[category of sets]] (Example \ref{CategoryOfSets}), unique up to [[natural isomorphism]] (Def. \ref{NaturalTransformations}):
+
+$$
+  \mathbf{H}
+    \underoverset
+      {\underset{\phantom{AA}\Gamma\phantom{AA}}{\longrightarrow}}
+      {\overset{L}{\hookleftarrow}}
+      {\bot}
+  Set
+  \,.
+$$
+
+Here $\Gamma$ is called [[generalized the|the]] _[[global sections]]-[[functor]]_.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that every [[set]] $S \in Set$ is the [[coproduct]], indexed by itself, of the [[terminal object]] $\ast \in Set$ ([[generalized the|the]] [[singleton]]):
+
+$$
+  S \;\simeq\; \underset{s \in S}{\coprod} \ast
+  \,.
+$$
+
+Since $L$ is a [[left adjoint]], it [[preserved limit|preserves]] this [[coproduct]] (Prop. \ref{AdjointsPreserveCoLimits}). Moreover, since $L$ is assumed to preserve [[finite products]], and since the [[terminal object]] is the empty [[product]] (Example \ref{TerminalObjectIsEmptyLimit}), it also preserves the terminal object. Therefore $L$ is fixed, up to [[natural isomorphism]], to act as
+
+$$
+  \array{
+    L(S)
+    & \simeq
+    L \left( \underset{s \in S}{\coprod} \ast  \right)
+    \\
+    & \simeq
+    \underset{s \in S}{\coprod} L(\ast)
+    \\
+    & \simeq
+    \underset{s \in S}{\coprod} \ast
+  }
+  \,.
+$$
+
+This shows that $L$ exists and uniquely so, up to natural isomorphism. This implies the essential uniqueness of $\Gamma$ by uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}).
+
+=--
+
 
 +-- {: .num_example #TrivialCoverage}
 ###### Example
