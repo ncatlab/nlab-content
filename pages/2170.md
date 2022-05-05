@@ -63,3 +63,18 @@ from  $H$  to a left  $\mathbb{Z}[G]$-module,  $M$,  is a mapping from  $H$  to 
 $$\partial (h_1 h_2 ) = \partial (h_1 ) + \varphi (h_1)\partial (h_2 )$$
   
 for all  $h_1$, $h_2  \in  H$. 
+
+There is a universal such $\varphi$-derivation, $d_\varphi:H\to D_\varphi$.  The codomain of this is variously called the [[derived module]] of $\varphi$ (e.g. by [[Crowell]]) or the $\varphi$-differential module by [[Masanori Morishita|Morishita]].
+
+##References
+
+For the original version of derived module, see
+
+* R. H. Crowell, _The derived module of a homomorphism_, Advances 
+in Math., 5, (1971), 210&#8211;238. 
+
+For applications in [[arithmetic topology]]
+
+* {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
+
+
