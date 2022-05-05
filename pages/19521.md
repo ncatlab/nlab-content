@@ -156,6 +156,7 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
 
 +-- {: .num_prop #DerivedNaturalTransformationUpToIsos}
 ###### Proposition
+**(recognizing derived natural isomorphisms)**
 
 For the [[derived natural transformation]] $Ho(\phi)$ in (eq:DerivedNaturalTransformation) to be invertible in the [[homotopy category of a model category|homotopy category]], it is sufficient that for every [[object]] $c \in \mathcal{C}$ which is both [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]] the following [[natural transformation]] 
 
@@ -169,12 +170,74 @@ $$
   L_2 P R_1 c  
 $$ 
 
-is invertible in the homotopy category, hence that the three components are [[weak equivalences]].
+is invertible in the homotopy category, hence that the composite is a [[weak equivalences]] (by [this Prop.](geometry+of+physics+--+categories+and+toposes#MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen)).
 
 =--
 
 ([Shulman 07, Remark 7.2](#Shulman07))
 
+
+## Examples
+
++-- {: .num_example #DerivedFunctorOfLeftRightQuillenFunctor}
+###### Example
+**([[derived functor]] of left-right [[Quillen functor]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be [[model categories]], and let 
+
+$$
+  \mathcal{C} \overset{\phantom{A}F\phantom{A}}{\longrightarrow} \mathcal{C}
+$$
+
+be a functor that is both a [[left Quillen functor]] as well as a [[right Quillen functor]]. This means equivalently that there is a [[2-morphism]] in the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) of the form
+
+\[
+  \label{DoubleMorphismExhibitingLeftRightQuillenFunctor}
+  \array{
+    \mathcal{C}
+      &\overset{\phantom{AA}F\phantom{AA}}{\longrightarrow}&
+    \mathcal{D}
+    \\
+    {}^{\mathllap{F}}\Big\downarrow 
+      &{}^{id}\swArrow& 
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    \mathcal{D}
+      &\underset{\phantom{A}id\phantom{A}}{\longrightarrow}&
+    \mathcal{D}
+  }
+\]
+
+It follows that the [[left derived functor]] $\mathbb{L}F$ and [[right derived functor]] $\mathbb{R}F$ of $F$ are [[natural isomorphism|naturally isomorphic]]:
+
+$$
+  Ho(\mathcal{C})
+    \overset{ \mathbb{L}F \simeq \mathbb{R}F }{\longrightarrow}
+  Ho(\mathcal{D})
+  \,.
+$$
+
+=--
+
+([Shulman 07, corollary 7.8](#Shulman07))
+
++-- {: .proof}
+###### Proof
+
+To see the [[natural isomorphism]] $\mathbb{L}F \simeq \mathbb{R}F$: By Prop. \ref{HomotopyDoublePseudofunctor} this is implied once the [[derived natural transformation]] $Ho(id)$ of (eq:DoubleMorphismExhibitingLeftRightQuillenFunctor) is a [[natural isomorphism]]. By Prop. \ref{DerivedNaturalTransformationUpToIsos} this is the case, in the present situation, if the composition of
+
+
+$$
+  Q F c
+    \overset{ p_{F c} }{\longrightarrow}
+  F c
+    \overset{  j_{F c} }{\longrightarrow}
+  P F c  
+$$ 
+
+is a weak equivalence. But this is immediate, since the two factors are weak equivalences, by definition of [[fibrant resolution|fibrant/cofibrant resolution]].
+
+=--
 
 ## Related concepts
 
