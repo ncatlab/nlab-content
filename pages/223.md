@@ -17,6 +17,7 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
 A [[category]] is **small** if it has a [[small set]] of [[object]]s and a [[small set]] of [[morphism]]s.  
@@ -45,6 +46,7 @@ So let $U\Set$ be the category of $U$-small sets. Then
 * a $U$-small category is a category [[internal category|internal to]] $U Set$.
 
 A category is **$U$-moderate** if its set of objects and set of morphisms are both subsets of $U$.  However, some categories (such as the category of $U$-moderate categories!) are larger yet.
+
 
 
 ## Related concepts
