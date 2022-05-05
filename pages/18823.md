@@ -2059,10 +2059,10 @@ be the corresponding restriction of the [[jet bundle]] of $E$.
 
 The _spacetime support  _ $supp_\Sigma(A)$ of a [[differential form]] $A \in \Omega^\bullet(J^\infty_\Sigma(E))$
 on the [[jet bundle]] of $E$ is the [[topological closure]] of the maximal subset $S \subset \Sigma$
-such that the restriction of $A$ to the jet bundle restrited to this subset vanishes:
+such that the restriction of $A$ to the jet bundle restrited to this subset does not vanishes:
 
 $$
-  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}}^\ast A = 0 \} )
+  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}}^\ast A \neq 0 \} )
 $$
 
 We write
