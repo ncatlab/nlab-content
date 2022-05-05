@@ -100,7 +100,7 @@ The construction of representations by [[index]]-constructions of $G$-equivarian
 ### Lambda-ring structure
  {#LambdaRingStructure}
 
-The [[Adams operations]] equip the representation ring with the structure of a [[Lambda ring]],. (e.g. [tom Dieck 09, section 6.2](#tomDieck09), [Meir 17](#Meir17)).
+The [[Adams operations]] equip the representation ring with the structure of a [[Lambda ring]],. (e.g. [tomDieck 79, section 3.5](#tomDieck79), [tom Dieck 09, section 6.2](#tomDieck09), [Meir 17](#Meir17)).
 
 ### Relation to the Burnside ring
 
@@ -167,6 +167,10 @@ The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq
 
 ## References
 
+
+### General
+
+
 Lecture notes include
 
 * {#tomDieck09} [[Tammo tom Dieck]], section 4.4. in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
@@ -193,7 +197,21 @@ With an eye towards [[loop group representations]]:
 
 * {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, 1990.
 
-The [[Lambda-ring]]-structure via [[Adams operations]] is discussed in
+### Adams operations
+
+The [[Adams operations]] and [[Lambda-ring]]-structure on representation rings are discussed in
+
+* {#tomDieck79} [[Tammo tom Dieck]], section 3.5 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+
+* Robert Boltje, _A characterization of Adams operations on representation rings_, 2001 ([pdf](https://boltje.math.ucsc.edu/publications/p01v.pdf))
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 6.2 of  _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+* [[Michael Boardman]], _Adams operations on Group representations_, 2007 ([pdf](http://www.math.jhu.edu/~jmb/note/adamrept.pdf))
+
+
+* Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
+
 
 * {#Meir17} Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
 
