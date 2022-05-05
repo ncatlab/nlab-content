@@ -63,7 +63,7 @@ Vague review is in ([Ibáñez-Uranga 12, section 10.2.1](#IbanezUranga12), [Uran
 
 While (presently) intersecting D-brane models don't explain why there are _precisely_ 3 [[generations of fundamental particles]] in the [[standard model of particle physics]], they do have the property that generically any such model does feature several [[generations of fundamental particles]].
 
-The reason is that in these models there is one copy of a set of fundamental particles at each intersection point of two 3-manifolds (the internal part of the D6-branes) in a compact 6-dimensional space, and generically these intersection numbers are greated than one and hence induce a finite number of [[generations of fundamental particles]] ([BCLS 05, section 2.3](#BCLS05), [Ibanez-Uranga 12, p. 307](#IbanezUranga12), [Uranga 12a, p. 12](#Uranga12a)):
+The reason is that in these models there is one copy of a set of fundamental particles at each intersection point of two 3-manifolds (the internal part of the D6-branes) in a compact 6-dimensional space, and generically these intersection numbers are greater than one and hence induce a finite number of [[generations of fundamental particles]] ([BCLS 05, section 2.3](#BCLS05), [Ibanez-Uranga 12, p. 307](#IbanezUranga12), [Uranga 12a, p. 12](#Uranga12a)):
 
 <img src="https://ncatlab.org/nlab/files/Intersecting3CyclesInT6.png" width="500">
 
