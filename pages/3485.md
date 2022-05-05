@@ -86,7 +86,7 @@ The _linear permutation representation_ of a [[G-set]] $(S,\rho)$ is the followi
 
 =--
 
-This concept immediately generalized to [[groupoid representations]] and so forth, see also at _[[infinity-action]]_ the section _[Examples -- Discrete group actions on sets](infinity-action#ExamplesPermutationRepresentations)_.
+This concept immediately generalizes to [[groupoid representations]] and so forth, see also at _[[infinity-action]]_ the section _[Examples -- Discrete group actions on sets](infinity-action#ExamplesPermutationRepresentations)_.
 
 
 
@@ -102,18 +102,18 @@ The construction of linear permutation representations (Def. \ref{LinearPermutat
 
 $$
   G Set
-    \overset{ k[-] }{\longrightarrow}
+    \overset{ \phantom{AA} k[-] \phantom{AA} }{\longrightarrow}
   G Rep
   \,.
 $$
 
 Both of these categories are [[rig categories]] with respect to [[disjoint union]] and [[Cartesian product]] on the left, and [[direct sum]] and [[tensor product of representations]] on the right.
 
-The functor $k[-]$ is canonically a homomorphism of rig-categories in that it preserves the [[direct sums]] and is canonically a [[strong monoidal functor]]
+The functor $k[-]$ is canonically a homomorphism of rig-categories in that in that it is canonically a [[strong monoidal functor]] for both "addition" and "multiplication" [[monoidal category|monoidal structures]]:
 
 $$
   \big(G Set, \sqcup, \times\big)
-    \overset{ k[-] }{\longrightarrow}
+    \overset{ \phantom{AA} k[-] \phantom{AA} }{\longrightarrow}
   \big(G Rep, \oplus, \otimes \big)
   \,.
 $$
@@ -126,13 +126,13 @@ $$
  {#ComparisonMapFromBurnsideRingToRepresentationRing}
 
 
-Let $G$ be a [[finite group]] and let all [[G-sets]] in the following be on [[finite set]] and all [[linear representations]] on [[finite-dimensional vector spaces]].
+Let $G$ be a [[finite group]] and assume all [[G-sets]] in the following to be [[finite sets]] and all [[linear representations]] to be [[finite-dimensional vector spaces|finite dimensional]].
 
 Consider
 
 1. the [[Burnside ring]] $A(G)$, which is the [[Grothendieck ring]] of the [[rig-category]] $(G Set, \sqcup, \times)$ [[category of G-sets|of finite G-sets]];
 
-1. the [[representation ring]] $R(G)$, which is the [[Grothendieck ring]] of the [[rig category]] $(G Rep, \oplus, \otimees)$ [[representation category|of finite-dimensional linear G-representations]].
+1. the [[representation ring]] $R(G)$, which is the [[Grothendieck ring]] of the [[rig category]] $(G Rep, \oplus, \otimes)$ [[representation category|of finite-dimensional linear G-representations]].
 
 +-- {: .num_defn #ComparisonMapBurnsideRingRepresentationRing}
 ###### Definition
@@ -147,7 +147,7 @@ $$
     =
     \;
     A(G)
-     \overset{\beta}{\longrightarrow}
+     \overset{\phantom{AA} \beta \phantom{AA}}{\longrightarrow}
     R(R)
     \;
     =
@@ -204,12 +204,11 @@ $$
   \mathbb{S} \simeq K \mathbb{F}_1
 $$
 
-we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to \mathbb{F}_p \to \mathbb{C}$ followed by the [[comparison map between algebraic and topological K-theory]]:
+we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to  \mathbb{C}$ followed by the [[comparison map between algebraic and topological K-theory]]:
 
 \[
   \label{ComparisonInStableHomotopytheoryInStages}
   \mathbb{S} \simeq K\mathbb{F}_1
-  \to K \mathbb{F}_2 \to \cdots \to K\mathbb{F}_p \to \cdots 
   \to K\mathbb{C}
   \to KU
   \,.
@@ -248,7 +247,7 @@ be the canonical [[action]] of $G$ on itself, by left multiplication in the grou
 We discuss here examples of the operation of forming _virtual_ linear permutation representations (Remark \ref{VirtualLinearPermuationRepresentations}), regarded as the canonical [[ring homomorphism]]
 
 $$
-  A(G) \overset{ \beta = K(k[-]) }{\longrightarrow} R(G)
+  A(G) \overset{ \phantom{AA} \beta \coloneqq K(k[-]) \phantom{AA} }{\longrightarrow} R(G)
 $$
 
 from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}. 
@@ -345,9 +344,10 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 
 See also
 
+* {#Montaldi} James Montaldi, _[Real representations of finite groups](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_
+
 * {#PlanetMathRepAndBurn} [[PlanetMath]], _[representation ring vs burnside ring](https://planetmath.org/RepresentationRingVsBurnsideRing)_
 
-* {#Montaldi} James Montaldi, _[Real representations of finite groups](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_
 
 [[!redirects permutation representation]]
 [[!redirects permutation representations]]
