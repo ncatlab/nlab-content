@@ -2264,4 +2264,5 @@ by prop. \ref{SpaceOf0FormsIsRealLine}.
 
 
 
+
 [[!redirects geometry of physics -- smooth spaces]] 
