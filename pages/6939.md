@@ -3,6 +3,12 @@
 
 * [collection of articles on github](https://github.com/michaelt/martin-lof)
 
+## Writings
+
+A list is kept here:
+
+* [github.com/michaelt/martin-lof](https://github.com/michaelt/martin-lof)
+
 ## Related entries
 
 * [[type theory]]
