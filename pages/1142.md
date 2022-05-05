@@ -24,8 +24,9 @@ As every [[topos]], a  [[category of presheaves]] is  [[cartesian monoidal categ
 ## Definition
 
 
-+-- {: .num_prop }
++-- {: .num_prop #CartesianClosedMonoidalnessOfCategoriesOfPresheaves}
 ###### Proposition
+**([[cartesian closed category|cartesian closure]] of [[categories of presheaves]])**
 
 Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]].
 
@@ -36,8 +37,8 @@ This is
    for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, their [[Cartesian product]] $\mathbf{X} \times \mathbf{Y}$ exists and is given by
 
    $$
-     \mathbf{X} \times \mathbf{X}
-     \;\;\colon\;\;
+     \mathbf{X} \times \mathbf{Y}
+     \;\;\colon\;\;\phantom{A}
      \array{
        c_1 &\mapsto& \mathbf{X}(c_1) \times \mathbf{Y}(c_1)
        \\
@@ -53,7 +54,7 @@ This is
 
    $$
      [\mathbf{X}, \mathbf{Y}]
-     \;\;\colon\;\;
+     \;\;\colon\;\;\phantom{A}
      \array{
        c_1 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_1) \times \mathbf{X}, \mathbf{y} )
        \\
@@ -69,30 +70,143 @@ This is
 
 =--
 
+(e.g. [MacLane-Moerdijk, pages 46-47](#MacLaneMoerdijk)).
 
 +-- {: .proof}
 ###### Proof
 
 The first statement is a special case of the general fact that [[limits of presheaves are computed objectwise]].
 
-For the second statement, first assume that $[F,G]$ exists, so that by the
-[[adjoint functor|hom-adjunction isomorphism]]  we have
-$Hom(R, [F,G]) \simeq Hom(R \times F, G)$. In particular, for each [[representable functor]] $R = Y(U)$ (with $Y$ the [[Yoneda embedding]]) and using the [[Yoneda lemma]] we get
+For the second statement, first assume that $[\mathbf{X}, \mathbf{Y}]$ does exist. Then by the [[adjoint functor|hom-adjunction isomorphism]]  we have for any other presheaf $\mathbf{Z}$ a [[natural isomorphism]] of the form
+
+
+\[
+  \label{InternalHomIsoInPresheaves}
+  Hom_{[\mathcal{C}^{op}, Set]}(\mathbf{Z}, [\mathbf{X},\mathbf{Y}]) 
+    \;\simeq\; 
+  Hom_{[\mathcal{C}^{op}, Set]}(\mathbf{Z} \times \mathbf{X}, \mathbf{Y})
+  \,.
+\]
+
+This holds in particular for $\mathbf{Z} = y(c)$ a [[representable functor]] (i.e. in the [[essential image]] of the [[Yoneda embedding]]) and so the [[Yoneda lemma]] implies that if it exists, then $[\mathbf{X}, \mathbf{Y}]$ must have the claimed form:
 
 $$
   \begin{aligned}
-     [F,G](U) & \simeq Hom(Y(U), [F,G])
-     \\
-      & \simeq Hom(Y(U) \times F, G)
+    [\mathbf{X}, \mathbf{Y}](c)
+    & \simeq
+    Hom_{[\mathcal{C}^{op}, Set]}( y(c), [\mathbf{X}, \mathbf{Y}] )
+    \\
+    & \simeq Hom_{ [\mathcal{C}^{op}, Set] }( y(c) \times \mathbf{X}, \mathbf{Y} )
+    \,.
   \end{aligned}
-  \,.
 $$
 
-So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[F,-]$ really is [[right adjoint]] to $- \times F$.
+Hence it remains to show that this formula does make (eq:InternalHomIsoInPresheaves) hold generally.
+
+For this we use the equivalent definition of [[adjoint functors]] in terms of the [[adjunction counit]] providing a system of [[universal arrows]].
+
+Define a would-be [[adjunction counit]], which here is called an _[[evaluation]]_ morphism, by
+
+$$
+  \array{
+    \mathbf{X} \times [\mathbf{X} , \mathbf{Y}]
+    &\overset{ev}{\longrightarrow}&
+    \mathbf{Y}
+    \\
+    \mathbf{X}(c) \times Hom_{[\mathcal{C}^{op}, Set]}(y(c) \times \mathbf{X}, \mathbf{Y})
+    &\overset{ev_c}{\longrightarrow}&
+    \mathbf{Y}(c)
+    \\
+    (x, \phi) &\mapsto& \phi_c( id_c, x )
+  }
+$$
+
+Then it remains to show that for every morphism of presheaves of the form
+$ \mathbf{X} \times \mathbf{A} \overset{\phantom{A}f\phantom{A}}{\longrightarrow} \mathbf{Y} $ there is a _unique_  morphism 
+$\widetilde f \;\colon\; \mathbf{A} \longrightarrow [\mathbf{X}, \mathbf{Y}]$ such that
+
+\[
+  \label{UniversalArrowConditionForEvaluationMapInPresheaves}
+  \array{
+    \mathbf{X} \times \mathbf{A}
+    && \overset{ \mathbf{X} \times \widetilde f  }{\longrightarrow} && 
+    \mathbf{X} \times [\mathbf{X}, \mathbf{Y}]
+    \\
+    & {}_{\mathllap{ \mathrlap{f} }}\searrow 
+      && 
+    \swarrow_{ \mathrlap{  ev } }
+    \\
+    && \mathbf{Y}
+  }
+\]
+
+The [[commuting diagram|commutativity]] of this diagram means in components at $c \in \mathcal{C}$ that, that for all $x \in \mathbf{X}(c)$ and $a \in \mathbf{A}(c)$ we have
+
+$$
+  \begin{aligned}
+    ev_c( x, \widetilde f_c(a) )
+    & \coloneqq
+    (\widetilde f_c(a))_c( id_c, x )
+    \\
+    & = f_c( x, a )
+  \end{aligned}
+$$
+
+Hence this fixes the component $\widetilde f_c(a)_c$ when its first argument is the [[identity morphism]] $id_c$. But let $g \;\colon\; d \to c$ be any morphism and chase $(id_c, x )$ through the naturality diagram for $\widetilde f_c(a)$:
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(c,c) \times \mathbf{X}(c)
+    &\overset{ (\widetilde f_c(a))_c }{\longrightarrow}&
+    \mathbf{Y}(c) 
+    \\
+    {}^{\mathllap{ g^\ast }}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{ g^\ast }}
+    \\
+    Hom_{\mathcal{C}}(d,c) \times \mathbf{X}(d)
+    &\overset{ (\widetilde f_c(a))_d }{\longrightarrow}&
+    \mathbf{Y}(d) 
+  }
+  \phantom{AAAA}
+  \array{
+    \{ (id_c, x ) \} &\longrightarrow& \{ f_c( x, a ) \}
+    \\
+    \big\downarrow && \big\downarrow 
+    \\
+    \{ (g, g^\ast(x)) \}  &\longrightarrow& \{ f_d( g^\ast(x), g^\ast(a) ) \}
+  }
+$$
+
+This shows that $(\widetilde f_c(a))_d$ is fixed to be given by
+
+\[
+  \label{ComponentFormulaForEvaluationMapInPresheaves}
+  (\widetilde f_c(a))_d( g, x' )
+  \;=\;
+  f_d( x', g^\ast(a) )
+\]
+
+at least on those pairs $(g,x')$ such that $x'$ is in the image of $g^\ast$.
+
+But, finally, $(\widetilde f_c(a))_d$ is also natural in $c$
+
+$$
+  \array{
+    \mathbf{A}(c)
+    &\overset{ \widetilde f_c }{\longrightarrow}& [\mathbf{X},\mathbf{Y}](c)
+    \\
+    {}^{\mathllap{g^\ast}}\big\downarrow && \big\downarrow^{\mathrlap{g^\ast}}
+    \\
+    \mathbf{A}(d)
+    &\overset{ \widetilde f_d }{\longrightarrow}& [\mathbf{X},\mathbf{Y}](d)
+  }
+$$
+
+which implies that (eq:ComponentFormulaForEvaluationMapInPresheaves) must hold generally. Hence naturality implies that (eq:UniversalArrowConditionForEvaluationMapInPresheaves) indeed has a unique solution.
 
 =--
 
-See ([MacLane-Moerdijk, pages 46, 47](#MacLaneMoerdijk)).
 
 
 
@@ -149,12 +263,16 @@ $$H / G = U \mapsto \int_{V\in X} G(V) \to H(U\otimes V)$$
 
 In the case where the monoidal structure on $X$ is cartesian, the induced closed monoidal structure on $Psh(X)$ coincides with the cartesian closed structure described in the previous sections.
 
+## Related concepts
+
+* The cartesian closure restricts from presheaves to [[categories of sheaves]] (e.g. [MacLane-Moerdijk, p. 136-138](#MacLaneMoerdijk))
+
 ## References
 
 The first definition is discussed for instance in section I.6 of
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ 
 
 The second definition is discussed for instance in section 17.1 of
 
@@ -163,3 +281,7 @@ The second definition is discussed for instance in section 17.1 of
 [[!redirects ccc structure on presheaves]]
 [[!redirects cartesian closed structure on presheaves]]
 [[!redirects cartesian closed monoidal structure on presheaves]]
+
+[[!redirects cartesian closure of categories of presheaves]]
+[[!redirects categories of presheaves are cartesian closed]]
+
