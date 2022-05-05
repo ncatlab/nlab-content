@@ -157,17 +157,13 @@ Equipped with the above [[coverage]]-structure,  [[open map]]-structure and [[La
 
 (...)
 
-
+$\,$
 
 ## Related concepts
 
-A development of [[differential geometry]] as as geometry modeled on $CartSp$ is discussed, with an eye towards applications in [[physics]], in _[[geometry of physics]]_.
+[[!include geometries of physics -- table]]
 
-The [[sheaf topos]] over $CartSp_{smooth}$ is that of _[[smooth spaces]]_. 
-
-The [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp_{top}$ is discussed at _[[ETop∞Grpd]]_, that over $CartSp_{smooth}$ at _[[Smooth∞Grpd]]_, and that over $CartSp_{synthdiff}$ at _[[SynthDiff∞Grpd]]_.
-
-The generalization of $CartSp$ to [[formal smooth manifolds]] is _[[FormalCartSp]]_.
+$\,$
 
 ## References 
  {#References}
