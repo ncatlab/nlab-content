@@ -6,4 +6,6 @@
 
 * [[Beilinson conjectures]]
 
+* [[arithmetic topology]]
+
 category: people
