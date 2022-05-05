@@ -22,7 +22,23 @@ $$
 
 Prop. 9.1, 9.2
 
-need also prop. 9.12
+for $X$ a space and $E$ a spectrum
+
+$$
+  \left(
+     \tilde E \mathcal{F}[N]
+     \wedge E 
+     \wedge X
+  \right)
+  \;\simeq\;
+  \left(
+     \tilde E \mathcal{F}[N]
+     \wedge E 
+  \right)
+     \wedge X^N
+$$
+
+prop. 9.12
 
 we have
 
