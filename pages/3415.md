@@ -79,7 +79,7 @@ For $p \colon \mathcal{C} \to \mathcal{D}$ a morphism of [[simplicial sets]] suc
 
 This is due to [[Joyal]]. ([Lurie, cor. 2.4.6.5](#Lurie)).
 
-So ever [[fibration]] in $sSet_{Joyal}$ is an [[inner fibration]], but the converse is in general false. A notably exception are the fibrations to the point:
+So every [[fibration]] in $sSet_{Joyal}$ is an [[inner fibration]], but the converse is in general false. A notably exception are the fibrations to the point:
 
 +-- {: .num_prop}
 ###### Proposition
