@@ -1,29 +1,5 @@
 
 
-$\bigotimes$
-
-$\nsubset$
-
-$$
-  \array{
-    && L X
-    \\
-    &{}^{\mathllap{id}}\nearrow& \big\uparrow{}^{ \mathrlap{ L \epsilon_X } }
-    \\
-    L X &\underoverset{\simeq}{ \eta_{L X} }{\longrightarrow}& L \iota L X
-    \\
-    {}^{\mathllap{ f }}
-    \big\downarrow
-      &&
-    \big\downarrow{}^{\mathrlap{ L \iota f }}
-    \\
-    L Y &\underoverset{ \eta_{L Y} }{\simeq}{\longrightarrow}& L \iota L Y
-    \\
-    & {}_{\mathllap{id}}\searrow  & \big\downarrow{}^{\mathrlap{ L \epsilon_Y }}
-    \\
-    && L Y
-  }
-$$
 
 $\,$
 
