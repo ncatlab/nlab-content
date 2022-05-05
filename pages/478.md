@@ -19,16 +19,18 @@ In [[higher category theory]], we extend this usage to objects that are characte
 The notion of a "generalized the" can be formalized and treated uniformly in [[homotopy type theory]]. Here one can define an [[natural deduction|introduction rule]] for *the* as follows:
 
 $$
-  (A:Type),(t:IsContr(A)) \vdash (the(A,t):A).
+  (A:Type),((a,p):IsContr(A)) \vdash (the(A,a,p):A).
 $$
 
-Here the [[term]] $t$ is one witness for the [[contractible type|contractibility]] of the [[type]] $A$. Since $IsContr(A)$ is itself [contractible](contractible+type#properties_18), we could say that $t$ is *the* witness for the contractibility of the type $A$, which may explain why we do not generally mention it.
+Here the [[term]] $(a,p)$ is one witness for the [[contractible type|contractibility]] of the [[type]] $A$. Then we have $the(A,a,p)=a:A$.
+
+Since $IsContr(A)$ is itself [contractible](contractible+type#properties_18), we could say that $(a,p)$ is *the* witness for the contractibility of the type $A$, which may explain why we do not generally mention it.
 
 If we wish to extend this treatment to types which are [[propositions]], we might call such types $FactThat(P)$, for some statement $P$. Then if $P$ holds, we can introduce a term $the(FactThat(P))$.
 
 ##References
 
-* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://dl.dropboxusercontent.com/u/16936016/The_Structure.pdf)
+* [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory)
 
 [[!redirects the]]
 [[!redirects generalised the]]
