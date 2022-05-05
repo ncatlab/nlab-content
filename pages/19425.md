@@ -9,7 +9,7 @@ One of the conjectured [[dualities in string theory]]:
 
 [[M-theory]] in a configuration whose low-energy [[super spacetime]] is an [[orbifold]] locally of the form $\mathbb{R}^{5,1} \times (\mathbb{R}^5\sslash_{refl} \mathbb{Z}_2)$ is argued to be equivalent to [[KK-compactifications]] of [[type IIB string theory]] on [[K3-surfaces]].
 
-(Either this refers to the [[perturbation series]]-limit of M-theory, or else, more generally, to [[non-perturbative effect|non-perturbative]] type IIB theory, now also known as [[F-theory]]).
+(Either this refers to the [[perturbation series]]-limit of M-theory, or else, more generally, to [[non-perturbative effect|non-perturbative]] type IIB theory, now also known as [[F-theory]].)
 
 This was originally argued in ([Dasgupta-Mukhil 96, section 2](#DasguptaMukhil96)) and ([Witten 95b](#Witten95b), [Sen 96, top. of p .5](#Sen96)).
 
@@ -18,7 +18,7 @@ This was originally argued in ([Dasgupta-Mukhil 96, section 2](#DasguptaMukhil96
 ### Geometric engineering of the 6d $(2,0)$-superconformal QFT
   {#GeometricEngineeringOfThe6d2SuperconformalQFT}
 
-On either side of th [[duality in string theory|duality]], this is the setup that exhibits [[geometric engineering of quantum field theory|geometric engineering]] of the [[6d (2,0)-superconformal QFT]] in the [[ADE-classification]]:
+On either side of the [[duality in string theory|duality]], this is the setup that exhibits [[geometric engineering of quantum field theory|geometric engineering]] of the [[6d (2,0)-superconformal QFT]] in the [[ADE-classification]]:
 
 On the type IIB-side this is argued in ([Witten95a, section 1](#Witten95a)), for [[ADE singularities]] in the [[K3-surface]].
 
