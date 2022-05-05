@@ -35,6 +35,6 @@ Generalising a [[Klein geometry]], a **locally Klein geometry** is a [[triple]] 
 
 * {#Sharpe97}  [[Richard Sharpe]], _Differential geometry: Cartan's generalization of Klein's Erlangen program_, Graduate Texts in Mathematics, vol. 166, Springer-Verlag, 1997.
 
-* {#Sharpe02} [[Richard Sharpe]], _An introduction to Cartan Geometries_, in: [[Jan Slovák]], Martin Čadek (eds.): Proceedings of the 21st Winter School "Geometry and Physics". Circolo Matematico di Palermo, Palermo, 2002. Rendiconti del Circolo Matematico di Palermo, Serie II, Supplemento No. 69. pp. [61]--75
+* {#Sharpe02} [[Richard Sharpe]], _An introduction to Cartan Geometries_, in: [[Jan Slovák]], Martin Čadek (eds.): Proceedings of the 21st Winter School "Geometry and Physics". Circolo Matematico di Palermo, Palermo, 2002. Rendiconti del Circolo Matematico di Palermo, Serie II, Supplemento No. 69. pp. [61]--75 ([EuDML](https://eudml.org/doc/220395))
 
 [[!redirects locally Klein geometries]]
