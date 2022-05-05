@@ -4626,7 +4626,175 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 =--
 
+$\,$
 
+
++-- {: .num_example #SliceCategory}
+###### Example
+**([[slice category]])**
+
+Let $\mathcal{C}$ be a [[category]], and let $c \in \mathcal{C}$ be any [[object]]. Then 
+
+1. The _[[slice category]]_ (or "[[overcategory]]") $\mathcal{C}_{/c}$ is the [[category]] whose [[objects]] are the [[morphisms]] $X \overset{f}{\to} c$ in $\mathcal{C}$, into $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ g
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        X_1 
+          && 
+          \overset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
+          &&
+        X_2
+        \\
+        & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+        \\
+        && c
+     }
+   $$
+
+   Hence there is a canonical [[functor]] 
+
+   $$
+     \array{
+       \mathcal{C}_{/c} 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{C}
+     }
+   $$
+
+   given by forgetting the morphisms to $c$.
+
+
+1. The _[[coslice category]]_ (or "[[undercategory]]") $\mathcal{C}^{c/}$ is the [[category]] whose [[objects]] are the [[morphisms]] $c \overset{f}{\to} X$ in $\mathcal{C}$, out of $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ g
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        && c
+        \\
+        & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+        \\
+        X_1 
+          && 
+          \underset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
+          &&
+        X_2
+     }
+   $$
+
+   Again, there is a canonical [[functor]] 
+
+   $$
+     \array{
+       \mathcal{C}_{c/} 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{C}
+     }
+   $$
+
+   given by forgetting the morphisms to $c$.
+
+
+=--
+
+
++-- {: .num_prop #LimitInCosliceCategory}
+###### Proposition
+**([[limit]] in a [[coslice category]])**
+
+Let $\mathcal{C}$ be a [[category]], $c \in \mathcal{C}$ any [[object]], and consider the corresponding [[coslice category]] $\mathcal{C}^{c/}$ (Def. \ref{SliceCategory}). 
+
+A  [[limit]] in an [[under category]] is computed as a limit in the underlying category.
+
+Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p : t/C \to C$ the obvious projection.
+
+Let $F : D \to t/C$ be any [[functor]]. Then, if it exists, the [[limit]] over $p \circ F$ in $C$ is the image under $p$ of the limit over $F$:
+
+$$
+  p(\lim F)  \simeq \lim (p F)
+$$
+
+and $\lim F$ is uniquely characterized by $\lim (p F)$.
+
+
+=--
+ 
++-- {: .proof}
+###### Proof
+
+Over a morphism $\gamma : d \to d'$ in $D$ the limiting cone over $p F$  (which exists by assumption) looks like
+
+$$
+  \array{
+    && \lim p F
+    \\
+    & \swarrow && \searrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+By the universal property of the limit this has a unique
+lift to a cone in the [[under category]] $t/C$ over $F$:
+
+$$
+  \array{
+    && t 
+    \\
+    & \swarrow &\downarrow & \searrow
+    \\
+    && \lim p F
+    \\
+    \downarrow & \swarrow && \searrow & \downarrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+It therefore remains to show that this is indeed a limiting cone over $F$. Again, this is immediate from the universal property of the limit in $C$. For let $t \to Q$ be another cone over $F$ in $t/C$, then $Q$ is another cone over $p F$ in $C$ and we get in $C$ a universal morphism $Q \to \lim p F$
+
+$$
+  \array{
+    && t
+    \\
+    & \swarrow & \downarrow & \searrow
+    \\
+    && Q
+    \\
+    \downarrow & \swarrow &\downarrow & \searrow & \downarrow
+    \\
+    && \lim p F
+    \\
+    \downarrow & \swarrow && \searrow & \downarrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+A glance at the diagram above shows that
+the composite $t \to Q \to \lim p F$ constitutes a morphism
+of cones in $C$ into the limiting cone over $p F$. Hence it must equal our morphism $t \to \lim p F$, by the universal property of $\lim p F$, and hence the above diagram does commute as indicated.
+
+This shows that the morphism $Q \to \lim p F$
+which was the unique one giving a cone morphism on $C$ does lift to a
+cone morphism in $t/C$, which is then necessarily unique, too.  This demonstrates the required universal property of $t \to \lim p F$ and 
+thus identifies it with $\lim F$.
+
+
+=--
+
+
+
+$\,$
 
 
 ### Ends and coends
