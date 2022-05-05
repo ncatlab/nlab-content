@@ -35,6 +35,10 @@ Based on this observation, it was conjectured in [Duff 88, p. 29-30](#Duff88) th
 
 This conjecture was shown to be true in ... and is a pre-cursor of what is now known as the _[[AdS-CFT correspondence]]_ (see [Duff 98](#Duff98) for review). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
+From [Gunyadin 98, p. 2](#Gunyadin98)
+
+> The ultra-short singleton supermultiplet sits at the bottom of this infinite tower of Kaluza-Klein modes and decouple from the spectrum as local gauge degrees of freedom [25]. However , even though the singleton supermultiplet decouples from the spectrum as local gauge modes, one can generate the entire spectrum of 11-dimensional supergravity over $S^7$ by tensoring the singleton supermultiplets repeatedly and restricting oneself
+to "CPT self-conjugate" vacuum supermultiplets.
 
 ## References
 
@@ -58,7 +62,8 @@ This conjecture was shown to be true in ... and is a pre-cursor of what is now k
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
-
 * {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+
+* {#Gunyadin98} [[Murat Günaydin]], _Unitary Supermultiplets of $OSp(1 \vert32,\mathbb{R}) and M-theory_, Nucl.Phys.B528:432-450, 1998 ([arXiv:hep-th/9803138](https://arxiv.org/abs/hep-th/9803138))
 
 [[!redirects singleton representations]]
