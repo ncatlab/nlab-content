@@ -1557,108 +1557,6 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 =--
 
 
-
-
-### Equivalences
-
-
-+-- {: .num_defn #AdjointEquivalenceOfCategories}
-###### Definition
-**([[adjoint equivalence of categories]])**
-
-Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[adjoint equivalence of categories]]_ between them is a [[pair]] [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
-
-$$
-  \array{
-    \mathcal{C}
-      \underoverset
-        {\underset{R}{\longrightarrow}}
-        {\overset{L}{\longleftarrow}}
-        {\phantom{AA} \simeq \phantom{AA}}
-    \mathcal{D}
-  }
-$$
-
-such that their [[unit of an adjunction|unit]] $\eta$ and [[counit of an adjunction|counit]] $\epsilon$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) are [[natural isomorphisms]] (as opposed to just being [[natural transformations]])
-
-
-$$
-  \eta\;\colon\; id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
-  \phantom{AAA}
-   \text{and}
-  \phantom{AAA}
-  \epsilon\;\colon\;
-  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
-  \,.
-$$
-
-=--
-
-There is also the following, seemingly weaker, notion:
-
-+-- {: .num_defn #EquivalenceOfCategories}
-###### Definition
-**([[equivalence of categories]])**
-
-Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[equivalence of categories]]_
-
-$$
-  \array{
-    \mathcal{C}
-      \underoverset
-        {\underset{R}{\longrightarrow}}
-        {\overset{L}{\longleftarrow}}
-        {\phantom{AA} \simeq \phantom{AA}}
-    \mathcal{D}
-  }
-$$
-
-is a [[pair]] of [[functors]] back and forth, as shown (Def. \ref{Functors}), together with [[natural isomorphisms]] (Def. \ref{NaturalTransformations}) between their [[composition]] and the [[identity functors]]:
-
-$$
-  id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
-  \phantom{AAA}
-   \text{and}
-  \phantom{AAA}
-  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
-  \,.
-$$
-
-
-=--
-
-If a functor participates in an equivalence of categories, that functor alone is usually already called an equivalence of categories. If there is any equivalence of categories between two categories, these categories are called _equivalent_.
-
-
-+-- {: .num_prop #EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}
-###### Proposition
-**(every [[equivalence of categories]] comes from an [[adjoint equivalence of categories]])**
-
-Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then the they are [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) precisely if there exists an [[adjoint equivalence of categories]] between them (Def. \ref{AdjointEquivalenceOfCategories}).
-
-Moreover, let $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[functor]] (Def. \ref{Functors}) which participates in an [[equivalence of categories]] (Def. \ref{EquivalenceOfCategories}). Then for every functor $L \;\colon\; \mathcal{D} \to \mathcal{C}$ equipped with a [[natural isomorphism]]
-
-$$
-  \eta 
-    \;\colon\;
-  id_{\mathcal{D}}
-    \overset{\simeq}{\Rightarrow}
-  R \circ L
-$$
-
-there exists a [[natural isomorphism]]
-
-$$
-  \epsilon
-  \;\colon\;
-  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
-$$
-
-which completes this to an [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}).
-
-=--
-
-
 +-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
 ###### Proposition
 **(characterization of epi/mono (co-)unit of adjunction)**
@@ -1760,6 +1658,116 @@ $$
 is a surjection, for all objects $a$.
 
 The proof of the other statements proceeds analogously.
+
+=--
+
++-- {: .num_prop #FullyFaithfulAdjointTriple}
+###### Proposition
+**([[fully faithful functor|fully faithful]] [[adjoint triple]])**
+
+Let $F \dashv G \dashv H$ be an [[adjoint triple]] of [[adjoint functors]]. Then $F$ is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}) precisely when $H$ is. (see [this prop.](adjoint+triple#FullyFaithful))
+
+=--
+
+
+
+
+### Equivalences
+
+
++-- {: .num_defn #AdjointEquivalenceOfCategories}
+###### Definition
+**([[adjoint equivalence of categories]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[adjoint equivalence of categories]]_ between them is a [[pair]] [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+such that their [[unit of an adjunction|unit]] $\eta$ and [[counit of an adjunction|counit]] $\epsilon$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) are [[natural isomorphisms]] (as opposed to just being [[natural transformations]])
+
+
+$$
+  \eta\;\colon\; id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  \epsilon\;\colon\;
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+=--
+
+There is also the following, seemingly weaker, notion:
+
++-- {: .num_defn #EquivalenceOfCategories}
+###### Definition
+**([[equivalence of categories]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[equivalence of categories]]_
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+is a [[pair]] of [[functors]] back and forth, as shown (Def. \ref{Functors}), together with [[natural isomorphisms]] (Def. \ref{NaturalTransformations}) between their [[composition]] and the [[identity functors]]:
+
+$$
+  id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+
+=--
+
+If a functor participates in an equivalence of categories, that functor alone is usually already called an equivalence of categories. If there is any equivalence of categories between two categories, these categories are called _equivalent_.
+
+
++-- {: .num_prop #EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}
+###### Proposition
+**(every [[equivalence of categories]] comes from an [[adjoint equivalence of categories]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then the they are [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) precisely if there exists an [[adjoint equivalence of categories]] between them (Def. \ref{AdjointEquivalenceOfCategories}).
+
+Moreover, let $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[functor]] (Def. \ref{Functors}) which participates in an [[equivalence of categories]] (Def. \ref{EquivalenceOfCategories}). Then for every functor $L \;\colon\; \mathcal{D} \to \mathcal{C}$ equipped with a [[natural isomorphism]]
+
+$$
+  \eta 
+    \;\colon\;
+  id_{\mathcal{D}}
+    \overset{\simeq}{\Rightarrow}
+  R \circ L
+$$
+
+there exists a [[natural isomorphism]]
+
+$$
+  \epsilon
+  \;\colon\;
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+$$
+
+which completes this to an [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}).
 
 =--
 
@@ -3191,6 +3199,76 @@ $$
 
 (...)
 
+
++-- {: .num_example #InitialAndTerminalObjectInTermsOfAdjunction}
+###### Example
+**([[initial object|initial]] and [[terminal object]] in terms of [[adjunction]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}).
+
+1. The following are equivalent:
+
+   1. $\mathcal{C}$ has a [[terminal object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ (Def. \ref{Functors}) to the [[terminal category]] (Example \ref{InitialCategoryAndTerminalCategory}) has a [[right adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+      $$
+        \ast 
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \mathcal{C}
+      $$
+
+    Under this equivalence, the [[terminal object]] is identified with the image under the right adjoint of the unique object of the [[terminal category]].
+
+1. Dually, the following are equivalent:
+
+   1. $\mathcal{C}$ has an [[initial object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
+
+      $$
+        \mathcal{C}
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \ast
+      $$
+
+    Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the unique [[hom-set]] in the [[terminal category]] is [[generalized the|the]] [[singleton]], the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) characterizing the [[adjoint functors]] is directly the [[universal property]] of an [[initial object]] in $\mathcal{C}$
+ 
+$$
+  Hom_{\mathcal{C}}( L(\ast) , X )
+  \;\simeq\;
+  Hom_{\ast}( \ast, R(X) ) 
+  =
+  \ast 
+$$
+
+or of a [[terminal object]]
+
+$$
+  Hom_{\mathcal{C}}( X , R(\ast) )
+  \;\simeq\;
+  Hom_{\ast}( L(X), \ast ) = \ast
+  \,,
+$$
+
+respectively.
+
+=--
+
+
 +-- {: .num_prop #AdjointsPreserveCoLimits}
 ###### Proposition
 **([[left adjoints preserve colimits and right adjoints preserve limits]])**
@@ -4238,7 +4316,7 @@ where the last step is the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLe
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #KanExtensionOfAdjointPairIsAdjointQuadruple}
 ###### Example
 **([[Kan extension]] of [[adjoint pair]] is [[adjoint quadruple]])**
 
@@ -4327,7 +4405,7 @@ This shows the first statement, which, by essential uniqueness of adjoints, impl
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #LeftKanExtensionAlongFullyFaithfulFunctor}
 ###### Proposition
 **([[left Kan extension]] along [[fully faithful functor]] is [[fully faithful functor|fully faithful]])**
 
