@@ -28,10 +28,10 @@ Any two Sylow $p$-subgroups of $G$ are conjugate.
 
 =--
 
-See [[class equation]] for a detailed discussion of these matters. On the other hand, here is a slick proof for the existence of Sylow subgroups, suggested to us by [[Benjamin Steinberg]]. 
+See [[class equation]] for a detailed discussion of these matters. (Now updated to take into account the proof below. The discussion above refers to a more involved proof from an earlier page version, which in turn was adapted from the Wikipedia article; it may be found [here](https://nforum.ncatlab.org/discussion/6646/class-equation/), comment 4.) The following slick proof for the existence of Sylow subgroups was suggested to us by [[Benjamin Steinberg]]. 
 
 +-- {: .proof} 
-###### Proof 
+###### Proof that Sylow subgroups exist 
 First observe that if a group $G$ has a $p$-Sylow subgroup $P$, then so does each of its subgroups $H$. For we let $H$ act on $G/P$ by left translation, and then note that since $G/P$ has cardinality prime to $p$, so must one of its connected components $H/Stab(a_x)$ in the $H$-set decomposition 
 
 $$G/P \cong \sum_{orbits\; x} H/Stab(a_x)$$ 
