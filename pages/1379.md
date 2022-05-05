@@ -37,9 +37,9 @@ Category theorists care about proper classes because many examples of categories
 
 ## References
 
-A paper detailing one approach to the technical side of how classes appear in category theory is
+A paper detailing one approach to the technical side of how classes appear in [[category theory]] (namely using [[Grothendieck universes]]) is
 
-* {#Levy18} [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_, arXiv:[1801.08528](https://arxiv.org/abs/1801.08528)
+* {#Levy18} Paul Blain Levy, _Formulating Categorical Concepts using Classes_ (arXiv:[1801.08528](https://arxiv.org/abs/1801.08528))
 
 [[!redirects class]]
 [[!redirects classes]]
