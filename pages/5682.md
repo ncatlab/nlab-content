@@ -1,7 +1,30 @@
-*Locally Presentable and Accessible Categories* is a book by [[Jiří Adámek]] and [[Jiří Rosický]] about, unsurprisingly, [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  It was published by Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, in 1994.
 
-## Content
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
+
+This page collects material related to the book
+
+
+* [[Jiří Adámek]], [[Jiří Rosický]]
+
+  _Locally Presentable and Accessible Categories_ 
+
+  London Mathematical Society Lecture Note Series, number 189, 
+
+  Cambridge University Press 1994
+
+on [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  
+
+
+## Contents
 
 1. **[[locally presentable categories]]**
 
