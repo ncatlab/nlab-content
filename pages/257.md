@@ -414,6 +414,10 @@ and applying a general technique called [[Bousfield localization]] which forces 
 
 * [[localization of model categories]]
 
+* [[double category of model categories]]
+
+* [[Ho(CombModCat)]]
+
 ## References
 
 The concept originates in 
