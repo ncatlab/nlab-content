@@ -14,6 +14,8 @@
 
 * [[4-sphere]], [[7-sphere]]
 
+* [[near horizon geometry]]
+
 * [[ADE classification]]
 
 * [[BLG model]], [[ABJM model]]
@@ -56,3 +58,5 @@ category: people
 [[!redirects José Miguel Figueroa-O'Farrill]]
 
 [[!redirects Figueroa-O’Farrill]]
+
+[[!redirects Jose Figueroa-O'Farrill]]
