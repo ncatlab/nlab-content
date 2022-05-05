@@ -27,16 +27,24 @@ Thus it seems seems possible (and sometimes is claimed) that the perturbative se
 
 ## References
 
+Original articles include
 
 * {#JentschuraZinnJustin04} Jentschura, [[Jean Zinn-Justin]], Phys. Lett. B 596 (2004), 138-144
 
 * {#DunneUnsal14} Gerald V. Dunne, Mithat Unsal, _Uniform WKB, Multi-instantons, and Resurgent Trans-Series_, Phys. Rev. D 89, 105009 (2014) ([arXiv:1401.5202](https://arxiv.org/abs/1401.5202))
+
+Review includes
+
 
 * {#Marino12} [[Marcos Marino]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](https://arxiv.org/abs/1206.6272))
 
 * {#Dorigoni14} Daniele Dorigoni, _An Introduction to Resurgence, Trans-Series_ ([arXiv:1411.3585](https://arxiv.org/abs/1411.3585))
 
 * {#Costin17} Ovidiu Costin, _The Mathematical Theory of Resurgence and Resummation, and Their Applications in Mathematics and Physics_, 2017 ([web](http://online.kitp.ucsb.edu/online/resurgent_c17/costin/))
+
+* Gerald Dunne, _Introduction to Resurgence, Trans-series and
+Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
+
 
 Part of the above text is taken from
 
