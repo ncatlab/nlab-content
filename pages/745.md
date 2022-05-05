@@ -87,7 +87,7 @@ The definition of $(f/g)$ is now complete.  In addition, there are two canonical
 
 Furthermore:
 
-* there is a natural transformation $\theta : f \circ H_C \to g\circ H_D$ defined by $\theta_{(c,d,\alpha)} = \alpha$.
+* there is a [[natural transformation]] $\theta : f \circ H_C \to g\circ H_D$ defined by $\theta_{(c,d,\alpha)} = \alpha$.
 
 These functors and natural transformation together give the comma category a 2-categorical universal property; see [this section](#AsA2Limit) for more.
 
@@ -160,7 +160,7 @@ In terms of the imagery of [[loop space objects]], the comma category is the cat
 
 * Likewise if $g$ is the identity and $f$ is the inclusion of $c$, then $(f/g)$ is the [[under category|coslice category]] $c/C$.
 
-* A natural transformation $\tau : F \to G$ with $F,G : C\to D$ may be regarded as a functor $T : C\to (F/G)$ with $T(c)=(c,c,\tau_c)$ and $T(f)=(f,f)$. Conversely, any such functor $T$ such that the two projections from $(F/G)$ back to $C$ are both left inverses for $T$ yields a corresponding natural transformation.
+* A [[natural transformation]] $\tau \colon F \to G$ with $F,G :\colon C\to D$ may be regarded as a [[functor]] $T \colon C\to (F/G)$ with $T(c)=(c,c,\tau_c)$ and $T(f)=(f,f)$. Conversely, any such functor $T$ such that the two projections from $(F/G)$ back to $C$ are both [[left inverses]] for $T$ yields a corresponding natural transformation.
 
 ## Properties
 
