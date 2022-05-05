@@ -1,11 +1,37 @@
 
-The __trivial group__ is the [[point]] $\bullet$ interpreted as a [[group]], often denoted $1$ or $0$.  Its underlying [[set]] is a [[singleton]], and its unique [[element]] is the [[identity element|identity]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+The __trivial group__ is the [[group]] whose underlying [[set]] is the [[singleton]], hence whose only [[element]] is the [[neutral element]].
+
+In the context of [[nonabelian groups]] the trivial groups is usually denoted $1$, while in the context of [[abelian groups]] it is usually denoted $0$.   
 
 The trivial group is a [[zero object]] (both [[initial object|initial]] and [[terminal object|terminal]]) of [[Grp]].
 
-Given any group $G$, the unique group [[homomorphisms]] from $1$ to $G$ and from $G$ to $1$ make $1$ both a [[subgroup]] and a [[quotient group]] of $G$.  In such a guise, it is called the __trivial subgroup__ or __trivial quotient group__ of $G$; the former is also called the __identity subgroup__.
+## Examples
 
-We also denote the trivial group as $\{1\}$ or $\{0\}$, especially when viewed as a trivial subgroup.  The trivial quotient group of $G$ may be denoted $G/G$ or $\{G\}$.
+The trivial group is a [[subgroup]] of any other group, and the corresponding inclusion $1 \hookrightarrow G$ is the unique such group homomorpism.
+
+The [[quotient group]] of any [[group]] $G$ by itself is the trivial group: $G/G = 1$, and the quotient projection $G \to G/G =1$ is the unique such group homomorphism.
+
+## Properties
 
 The trivial group is an example of a [[trivial algebra]].
 
