@@ -64,6 +64,71 @@ If $X_{d-(p+2)}$ is a smooth [[quotient space]] by the [[action]] of a [[finite 
 
 Examples and applications of such cone branes, in the context of [[M-theory on G2-manifolds]], are discussed in [Atiyah-Witten 01](#AtiyahWitten01).
 
+## Examples
+
+### The black M2-brane
+
+The [[black brane|black]] [[M2-brane]] is given by the [[Riemannian metric]]
+
+$$
+  g_{M2} \;\coloneqq\;
+  H^{- 2/3} g_{(\mathbb{R}^{2,1})}
+  +
+  H^{1/3} g_{C(X_7)}
+$$
+
+and the [[C-field]] [[field strength|strength]]
+
+$$
+  F_{M2} \;\coloneqq\; dvol_{\mathbb{R}^{2,1}} \wedge d H^{-1}
+$$
+
+where $C(X_7)$ denotes the [[metric cone]] on a [[closed manifold|closed]] 7-[[dimension|dimensional]] [[Einstein manifold]] $X_7$ for [[cosmological constant]] $\Lambda = 10$, whence 
+
+$$
+  g_{C(X)}
+  \;\coloneqq\;
+  (d r)^2 + r^2 g_{X_7}
+  \,,
+$$
+
+and
+
+$$
+  H \;\coloneqq\; 1 + \frac{a^6}{r^6}
+  \phantom{AAA}
+  a \;\coloneqq\; 2^{5/6} \pi^{2/6} N^{1/6} \ell_P
+$$
+
+with $\ell_P$ the [[Planck length]] in 11 dimensions.
+
+In the near-horizon/larger $N$-limit $a \to \infty$ this becomes
+
+
+$$
+  g_{M2} \;\overset{}{\longrightarrow}\;
+  H^{- 2/3} g_{(\mathbb{R}^{2,1})}
+  +
+  H^{1/3} g_{C(X_7)}
+$$
+
+
+In the far-horizon/small $N$-limit $a \to 0$ this becomes
+
+$$
+  g_{M2} \;\overset{a \to 0}{\longrightarrow}\;
+  g_{\mathbb{R}^{2,1}}
+  +
+  (d r)^2 + r^2 g_{X_7}
+$$
+
+and 
+
+$$
+  F_{M2} \;\overset{a \to 0}{\longrightarrow}\; 0
+  \,.
+$$
+
 
 ## Related concepts
 
