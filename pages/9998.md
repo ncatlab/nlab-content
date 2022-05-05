@@ -6,6 +6,8 @@
 
 [[super Yang-Mills theory]] on a 4-[[dimension|dimensional]] [[spacetime]] with $N = 1$ [[supersymmetry]].
 
+[[!include superconformal symmetry -- table]]
+
 ## Related concepts
 
 * [[super Yang-Mills theory]]
