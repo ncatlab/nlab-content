@@ -3,9 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
@@ -21,7 +25,7 @@ The study of [[conformal field theory]] on [[manifolds with boundary]] is known 
 
 
 
-For the special case of [[2d CFT]] understood as the [[quantum field theory]] on the [[worldsheet]] of [[strings]], boundary conformal field theories is about [[string theory]] with prescribed [[boundary conditions]] for the [[open strings]]. These boundary conditions are interpreted as the [[D-branes]] that the [[open strings]] may "end on".
+For the special case of [[2d CFT]] understood as the [[quantum field theory]] on the [[worldsheet]] of [[strings]], boundary conformal field theory is the key ingredient of [[perturbative string theory]] with prescribed [[boundary conditions]] for the [[open strings]]. From the [[target spacetime]]-perspective these [[boundary conditions]] are interpreted as the [[D-branes]] that the [[open strings]] may "end on".
 
 In this way 2d BCFT can serve to give an [[algebra|algebraic]] definition of [[D-branes]], independent of or complementary to their incarnation in the [[target space|target]]-[[spacetime]] [[geometry]]. In particular [[fractional D-branes]] may be described this way as boundary conditions for the [[2d CFTs]] describing [[open strings]] propagating in [[orbifolds]].
 
@@ -31,6 +35,21 @@ It has been argued that, therefore, for [[sigma-model]] [[2d CFT]]s the classifi
 
 While this gives, in principle, a precise algebraic definition of [[D-brane charge]] from the [[worldsheet]]-perspective, in practice it is hard to follow the [[renormalization group flow]] of the boundary states.
 The proposal has been checked in some special cases (e.g. [Braun & Schaefer-Nameki 05](#BraunSchaeferNameki05)). Other authors reported some discrepancies ([Quiroz-Stefanski 01](#QuirozStefanski01))
+
+Specifically for [[fractional D-branes]] at $G$-[[orbifold]] [[singularities]] the relevant boundary states are [[sums]] of boundary states for each "$g$-twisted sector" of the [[closed string]] [[2d CFT]], consisting of those string configurations that are closed in the [[covering space]] up to the [[action]] of the element $g \in G$:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TwistedSector.jpg" width="300"/>
+</center>
+
+> graphics grabbed from [BCR 00](#BCR00)
+
+Here the [[coefficient]] of the $g$-twisted sector in the total boundary state is proprotional to the value $\chi_V(g)$ of the [[character]] $\chi_V$ of some $G$-[[representation]] $V \in R_{\mathbb{C}}(G) = KU_G(\ast)$ (e.g. [Recknagel-Schomerus 13 (4.102)](#RecknagelSchomerus13)). This makes it plausible that the [[RG-flow]]-[[equivalence classes]] of the boundary states for [[fractional D-branes]] do coincide with the [[equivariant K-theory]] $KU_G(\ast) = R_{\mathbb{C}}(G)$ of the [[orbifold]] singularity (the [[representation ring]] of $G$). 
+
+> But maybe this has not yet been actually proven? 
+
+
+
 
 ## References
 
@@ -50,12 +69,12 @@ The boundary state formalism in BCFT is due to
 
 See also
 
-* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambridge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
-
+* {#RecknagelSchomerus99} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Deformation Theory and Moduli Spaces of D-Branes_, Nucl.Phys. B545 (1999) 233-282 ([arXiv:hep-th/9811237](https://arxiv.org/abs/hep-th/9811237))
 
 A textbook account is in
 
-* {#RecknagelSchomerus99} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Deformation Theory and Moduli Spaces of D-Branes_, Nucl.Phys. B545 (1999) 233-282 ([arXiv:hep-th/9811237](https://arxiv.org/abs/hep-th/9811237))
+
+* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambridge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
 
 
 
@@ -96,7 +115,7 @@ Discussion specifically concerning [[fractional D-branes]] on [[orbifolds]] incl
 
 * {#DiaconescuGomis99} Diaconescu, [[Jaume Gomis]], _Fractional Branes and Boundary States in Orbifold Theories_, JHEP 0010 (2000) 001 ([arXiv:hep-th/9906242](https://arxiv.org/abs/hep-th/9906242))
 
-* M. Billo', B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
+* {#BCR00} M. Billo', B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
 
 * {#QuirozStefanski01} N. Quiroz, B. Stefanski Jr, _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
 
