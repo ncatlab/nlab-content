@@ -100,7 +100,13 @@ In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) co
 Much else to be discussed...
 
 
+## Examples
 
+* [[canonical bundle]]
+
+* [[valence bundle]]
+
+* ...
 
 
 
