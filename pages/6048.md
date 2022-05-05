@@ -21,7 +21,7 @@ The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] 
 
 When in ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of the five types of [[string theory|superstring theories]] are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]] ([[M-theory]]), it was natural to guess that this supergravity membrane accordingly yields a 3-dimensional [[sigma-model]] that reduces in limiting cases to the [[string]] [[sigma-models]].
 
-But there were two aspects that make this idea a little subtle, even at this vague level: first, there is no good theory of the [[quantization]] of the membrane [[sigma-model]], as opposed to the well understood quantum [[string]]. Secondly,  Secondly, that hypothetical "theory extending 11-dimensional supergravity" ("M-theory") has remained elusive enough that it is not clear in which sense the membrane would relate to it in a way analogous to how the string relates to its [[target space]] theories (which is fairly well understood).
+But there were two aspects that make this idea a little subtle, even at this vague level: first, there is no good theory of the [[quantization]] of the membrane [[sigma-model]], as opposed to the well understood quantum [[string]]. Secondly, that hypothetical "theory extending 11-dimensional supergravity" ("M-theory") has remained elusive enough that it is not clear in which sense the membrane would relate to it in a way analogous to how the string relates to its [[target space]] theories (which is fairly well understood).
 
 Later, with the [[BFSS matrix model]] some people gained
 more confidence in the idea, by identifying the corresponding degrees
@@ -92,7 +92,7 @@ Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$
 
 ## Properties
 
-### Worldvoluem theory -- BLG and ABJM
+### Worldvolume theory -- BLG and ABJM
 
 The [[worldvolume]] [[quantum field theory]] of M2-branes sitting at [[ADE singularities]] (as [above](#BlackM2AtADESingularity)) is supposed to be described by [[ABJM theory]] and, for the special case of $SU(2)$ gauge group, by the [[BLG model]]. See also at _[[gauge enhancement]]_.
 
