@@ -35,26 +35,32 @@ More generally, any [[distributive category]] determines a Burnside rig ([Schanu
 ### As the equivariant stable cohomotopy of the point
  {#AsTheEquivariantStableCohomotopyOfThePoint}
 
-The Burnside ring is equivalently the [[equivariant stable cohomotopy]] of the point:
++-- {: .num_prop #BurnsideRingIsEquivariantStableCohomotopyOfPoint}
+###### Proposition
+**([[Burnside ring is equivariant stable cohomotopy of the point]])**
+
+Let $G$ be a [[finite group]], then its [[Burnside ring]] $A(G)$ is [[isomorphism|isomorphic]] to the [[equivariant stable cohomotopy]] [[cohomology ring]] $\mathbb{S}_G(\ast)$ of the [[point]] in degree 0. 
 
 $$
-  A(G) \simeq \mathbb{S}_G(\ast)
+  A(G) \overset{\simeq}{\longrightarrow} \mathbb{S}_G(\ast)
   \,.
 $$
 
-This is due to [Segal 71](#Segal71), see also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78)
+=--
 
-More explicitly, the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
+This is due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
+
+[[!include Segal completion -- table]]
+
+
+More explicitly, this means that the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
 
 $$
   A(G) \simeq \underset{\longrightarrow}{\lim}_V [S^V,S^V]_G
 $$
 
-over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself.
+over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself ([Greenlees-May 95, p. 8](#GreenleesMay95)).
 
-([Greenlees-May 95, p. 8](#GreenleesMay95))
-
-[[!include Segal completion -- table]]
 
 
 ## Related concepts
@@ -67,6 +73,14 @@ over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy cla
 
 ## References
 
+The concept originates with 
+
+* {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf))
+
+A textbook account is in 
+
+* {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Springer 1979
+
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 * {#Schanuel91} [[Stephen Schanuel]], 1991, _Negative sets have Euler characteristic and dimension_. In: Proc. Como 1990. Lecture Notes in Mathematics, vol. 1488. Springer-Verlag, Berlin, pp. 379&#8211;385.
@@ -75,7 +89,7 @@ Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carl
 
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2 , pages 59–63. Gauthier-Villars, Paris, 1971
 
-* {#tomDieckPetrie78} [[Tammo tom Dieck]], T, Petrie,  _Geometric modules over the Burnside ring_, Invent. Math. 47 (1978) 273-287 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf))
+* {#tomDieckPetrie78} [[Tammo tom Dieck]], T. Petrie, _Geometric modules over the Burnside ring_, Invent. Math. 47 (1978) 273-287 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf))
 
 * Erkki Laitinen, _On the Burnside ring and stable cohomotopy of a finite group_,  Mathematica Scandinavica Vol. 44, No. 1 (August 30, 1979), pp. 37-72 ([jstor:24491306](https://www.jstor.org/stable/24491306), [[Laitinen79.pdf:file]])  
 
