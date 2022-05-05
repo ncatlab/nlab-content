@@ -8,6 +8,8 @@
 =--
 =--
 
+*Disambiguation: For axiom K as a principle of [[modal logic]], see [[axiom K (modal logic)]]*
+
 # Contents
 * table of contents
 {: toc}
