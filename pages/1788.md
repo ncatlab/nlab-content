@@ -1,2 +1,4 @@
 
 [[small groupoids]]
+
+[[monoidal category]]
