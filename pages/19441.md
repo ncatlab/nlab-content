@@ -25,13 +25,25 @@ Specifically, the **inductive tensor product** $E\otimes_i F$ of a pair of [[top
 
 ## Definition
 
-Given a pair of [[locally convex topological vector spaces]] (lctvs) $E$ and $F$, the inductive tensor product is the locally convex [[topological vector space|tvs]] $E\otimes_i F$ with underlying plain [[vector space]] the algebraic [[tensor product of vector spaces]], and equipped with the finest locally convex linear [[topological space|topology]] such that $E\times F \to E\otimes_i F$ is separately [[continuous function|continuous]], where $E\times F$ has the [[product topology]].
+Given a pair of [[locally convex topological vector spaces]] (lctvs) $E$ and $F$, the inductive tensor product is the locally convex [[topological vector space|tvs]] $E\otimes_i F$ with underlying plain [[vector space]] the algebraic [[tensor product of vector spaces]], and equipped with the finest locally convex linear [[topological space|topology]] such that $E\times F \to E\otimes_i F$ is separately [[continuous function|continuous]], where $E\times F$ has the [[product topology]]. The definition is due to ([Grothendieck 1955](#Groth55), Définition 3 in I \S 3.I)
 
 Compare this to the (pre-completed) projective tensor product $\otimes_p$, which is equipped with the finest locally convex linear topology such that the canonical map from $E\times F$ is _jointly_ continuous.
 
 Sometimes one will wish to consider this tensor product in the category of _complete_ lctvs, and so the result is the topological completion $E\overline{\otimes} F$ of $E\otimes_i F$ (eg by adding in the limits of Cauchy [[nets]]), which is the analogue of the (complete) projective tensor product $\widehat{\otimes}$.
 
 ## Properties
+
+Let $lctvs$ denote the category of locally convex topological vector spaces and bounded maps, and $lcvts_{comp}$ the [[reflective subcategory]] of complete lctvs.
+
++-- {: .un_theorem}
+###### Theorem
+
+The inductive tensor product functor $\otimes_i\colon lctvs \times lctvs \to lctvs$ preserves [[inductive limits]], as does the completed inductive tensor product $\overline{\otimes} \colon lctvs_{comp} \times lctvs_{comp} \to lctvs_{comp}$. Moreover $\otimes_i$ equips $lctvs$ with the structure of a [[symmetric monoidal category]], and even a symmetric [[closed monoidal category]], by equipping the space of continuous maps with the topology of pointwise convergence.
+
+=--
+
+Be aware though that the completed inductive tensor product $\overline{\otimes}$ does _not_ make $lctvs_{comp}$ into a monoidal category, as coherent associativity fails.
+
 
 +-- {: .num_prop #whenSeparatelyCtsBilinearMapsAreCts}
 ###### Proposition
@@ -73,5 +85,7 @@ Hence for Banach spaces and Hilbert spaces the inductive tensor product also agr
 * [[tensor product of Banach spaces]]
 
 ## References
+
+* {#Groth55} [[Alexandre Grothendieck]], _Produits tensoriels topologiques et spaces nucléaires_, Memoirs AMS **16** (1955)
 
 * {#Schaeffer-Wolff} Schaeffer, Wolff, _Topological Vector Spaces_, Graduate Texts in Mathematics **3** (1999) Springer.
