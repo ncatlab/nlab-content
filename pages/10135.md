@@ -171,6 +171,7 @@ This perspective paves the way to the equivalent description in terms of systems
 $\,$
 
 ### In terms of systems of fixed point loci
+ {#InTermsOfSystemsOfFixedPointLoci}
 
 A key point of [[global equivariant homotopy theory]] is to generalize [[Elmendorf's theorem]] to this global situation, and express maps between [[topological stacks]], as above, in terms of [[(∞,1)-presheaves]] of [[fixed point]]-loci parameterized over on a suitable [[orbit category]]. 
 
