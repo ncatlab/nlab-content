@@ -33,9 +33,9 @@ Observe that
 
 1. [[E-∞ geometry]] is _already in itself_ a [[higher geometry|higher geometric]] version of $\mathbb{Z}$-graded supergeometry (in the sense discussed at _[[geometry of physics -- superalgebra]]_). 
 
-   At the level of [[homotopy groups]] this is the following fact:
+   At the level of [[homotopy groups]] this is the following basic fact:
 
-   For $E$ a [[homotopy commutative ring spectrum]], its [[stable homotopy groups]] $\pi_\bullet(E)$ inherits the structure of a $\mathbb{Z}$-graded [[super-commutative ring]]  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
+   For $E$ a [[homotopy commutative ring spectrum]], its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded [[super-commutative ring]]  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
 
    But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and every [[E-infinity ring]] $E$ is canonically $\mathbb{S}$-graded ([Sagave-Schlichtkrull 11, theorem 1.7-18](#SagaveSchlichtkrull11)). 
 
