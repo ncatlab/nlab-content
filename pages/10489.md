@@ -12,8 +12,11 @@ The term "logos" is used
 
 * {#FreydScedrov} [[Peter Freyd]], Andre Scedrov, _[[Categories, Allegories]]_
  
-
 * {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+
+Discussion of relation to [[taoism]]:
+
+* {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris 2013 ([[Butti13.pdf:file]])
   
 
 category: disambiguation
