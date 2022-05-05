@@ -10,9 +10,53 @@
 
 $\,$
 
-Traditionally, mathematics and physics have been [[foundations|founded]] on _[[sets]]_, "bags of points". But fundamental [[physics]] is all governed by the [[gauge principle]] which says that fundamentally the points in these bags are connected, possibly, by various [[gauge transformation]] [[equivalences]]. In fact fundamental physics involves [[higher gauge theory]], which asserts that in general there are [[gauge-of-gauge transformations]] between these gauge transformations, and so ever on. This means that what naively may have looked like spaces made of points are really in general like [[orbifolds]], "[[orbispaces]]". Since these are generalizations of [[groups]] of [[symmetries]] to a situation where symmetries act on and between various objects, one speaks of _[[groupoids]]_, and if the ever higher [[gauge-of-gauge equivalences]] are taken into account one speaks of _[[infinity-groupoids]]_. The field of mathematics that studies these structures is called _[[homotopy theory]]_. Here "[[gauge equivalences]]" are also called _[[homotopies]]_ and [[n-groupoids]] (structures with $n$-fold [[gauge-of-gauge transformations]]) are called _[[homotopy n-types]]_.
+Traditionally, [[mathematics]] and [[physics]] have been [[foundations|founded]] on [[set theory]] whose concept of _[[set]]_ is that of "bags of points". 
 
-Here we discuss the basics of [[homotopy theory]] irrespective of any [[geometry]]. In the next chapter _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_ we then combine the concept of _[[geometry of physics -- smooth spaces|smooth sets]]_ of the previous chapter with the idea of generalizing sets to _[[smooth homotopy types]]_. These subsume the objects of actual interest in physics, such as notably the [[moduli stacks]] of [[field (physics)|fields]] in any [[gauge theory]] and [[higher gauge theory]].
+But fundamental [[physics]] is governed by the _[[gauge principle]]_ which says that given any two things, such as two [[field histories]] $x$ and $y$, it is in general wrong to ask whether they are [[equality|equal]] or not, instead one has to ask where there is a _[[gauge transformation]]_ 
+
+$$
+  x \stackrel{\gamma}{\longrightarrow} y
+$$
+
+between them. In mathematics this is called a _[[homotopy]]_.
+
+This principle applies also to [[gauge transformations]]/[[homotopies]] themselves, and thus leads to _[[gauge-of-gauge transformations]]_/_[[homotopies of homotopies]]_
+
+<center><img src="https://ncatlab.org/nlab/files/2Cell.jpg" width = "200"></center>
+
+and so on to ever _[[higher gauge transformations]]_/_[[higher homotopies]]_:
+
+<center>
+  <img src="https://ncatlab.org/nlab/files/3Cell.jpg" width = "200">
+</center>
+
+This means that what $x$ an $y$ here are [[elements]] of is not really a [[set]] in the sense of [[set theory]]. Instead, such a collection of [[elements]] with higher order [[gauge transformations]]/[[homotopies]] between them is called a _[[homotopy type]]_.
+
+Hence the theory of [[homotopy types]] --  _[[homotopy theory]]_ -- is much like [[set theory]], but with the concept of [[gauge transformation]]/[[homotopy]] being built right into its [[foundations]].
+
+In the special case of a [[homotopy type]] with a single [[element]] $x$, the [[gauge transformations]] necessarily go from $x$ to itself and hence form a _[[group]] of [[symmetries]]_ of $x$. If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between these [[symmetry]] [[group]]-elements one speaks of _[[2-groups]]_, _[[3-groups]]_, ... _[[n-groups]]_, and eventually of _[[∞-groups]]_. 
+
+Since, generally, there is more than one element in a [[homotopy type]], these are like "groups with several elements", and as such they are called _[[groupoids]]_. If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between the transformations in such a groupoid, one speaks of _[[2-groupoids]]_, _[[3-groupoids]]_, ... _[[n-groupoids]]_, and eventually of _[[∞-groupoids]]_.
+
+Hence [[homotopy types]] are equivalently [[∞-groupoids]]. In fact, in a self-reflective manner, there are many different but _[[equivalence of (∞,1)-categories|equivalent]]_ incarnations of [[homotopy theory]].
+
+We discuss
+
+* _[Abstract homotopy theory](#AbstractHomotopyTheory)_
+
+  The general principle, formalized via [[model categories]].
+
+* _[Topological homotopy theory](#TopologicalHomotopyTheory)_
+
+  Homotopy theory modeled on [[topological spaces]], the original sense of _[[homotopy types]]_. This is the incarnation of [[homotopy theory]] most familiar from traditional [[point-set topology]], such as [[covering space]]-theory.
+
+* _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+
+  Homotopy theory modeled on [[simplicial sets]]. The [[fibrant objects]] are the [[Kan complexes]]. This is [[Quillen equivalence|Quillen equivalent]] to topological homotopy theory, hence makes explicit that [[homotopy theory]] is not really about [[topological spaces]], but about the [[∞-groupoids]].
+
+* _[Abelian homtopy theory](#AbelianHomotopyTheory)_.
+
+  Homotopy theory modeled on [[chain complexes]]. In this context the [[homotopy category]] is known as the _[[derived category]]_.
 
 $\,$
 
@@ -22,39 +66,7 @@ $\,$
 
 $\,$
 
-A _[[homotopy 0-type]]_ is equivalently just a [[set]] (an [[h-set]]). A _[[homotopy 1-type]]_ is equivalently a _[[groupoid]]_. These we introduce and discuss below in
 
-* _[Groupoids -- Homotopy 1-types](#GroupoidsAsKanComplexes)_.
-
-Another model for general [[homotopy types]] are _[[simplicial sets]]_ and in particular the _[[Kan complexes]]_ among them. These we introduce below in
-
-* _[Kan complexes --  General homotopy types](#KanComplexes)_.
-
-But a simpler and more familiar structure turns out to be a model for the important subsector of "abelian" homotopy types, namely _[[chain complexes]]_. We recall fundamentals of these in
-
-* _[Chain complexes --  Abelian homotopy types](#CategoriesOfChainComplexes)_.
-
-As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in
-
-* _[Abelian homtopy theory](#AbelianHomotopyTheory)_.
-
-The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in
-
-* _[Dold-Kan correspondence](#DoldKanCorrespondence)_
-
-A standard model for general homotopy types is given by [[topological spaces]]. 
-
-* _[Topological homotopy theory](#TopologicalHomotopyTheory)_
-
-Similarly there is a [[model category]] that reflects the homotopy theory of [[Kan complexes]], called _[[simplicial homotopy theory]]_.
-This we look into below in
-
-* _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
-
-These various models for homotopy theory are formalized via
-[[model category]] theory, which we introduce in
-
-* _[Abstract homotopy theory](#AbstractHomotopyTheory)_
 
 ## Motivation
 
