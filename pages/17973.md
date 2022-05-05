@@ -167,8 +167,7 @@ for [[D6-branes]]:
 
 * [Aldazabal-Ibanez-Quevedo-Uranga 00, section 10.2](#AldazabalIbanezQuevedoUranga00)
 
-* {#Uranga12a} [[Angel Uranga]], _Model building in IIA: Intersecting
-brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf), [[Uranga12.pdf:file]])
+* {#Uranga12a} [[Angel Uranga]], _Model building in IIA: Intersecting brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf), [[Uranga12.pdf:file]])
 
 
 for [[D7-branes]]:
@@ -230,5 +229,3 @@ Discussion of the [[cosmology]] of intersecting brane models includes (see also 
 [[!redirects intersecting D-brane models]]
 
 [[!redirects intersecting D-brane model building]]
-
-
