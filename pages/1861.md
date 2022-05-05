@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
 =--
 =--
 
@@ -29,14 +33,33 @@ In this vein, regarding terminology: the concept of [[cohomology]] (as discussed
 
 ## Properties
 
+
 ### Relation to Freudenthal suspension theorem
 
 relation to the [[Freudenthal suspension theorem]] ([Spanier 49, section 9](#Spanier49))
 
-
 ### Smooth representatives
 
 For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
+
+### Relation to cobordism classes of normally framed submanifolds
+  {#RelationToCobordismGroup}
+
+Let $X$ be a [[smooth manifold]] of [[dimension]] $n \in \mathbb{N}$ and let $k \leq n$. Then the [[Pontryagin-Thom construction]] induces a [[bijection]]
+
+$$
+  [X, S^k]
+  \overset{\simeq}{\longrightarrow}
+  \Omega^{n-k}(X)
+$$
+
+from the cohomotopy sets of $X$ to the [[cobordism group]] of $(n-k)$-dimensional [[submanifolds]] with [[normal bundle|normal]] [[framed manifold|framing]] up to normally framed [[cobordism]].
+
+In particular, the natural group structure on [[cobordism group]] (essentially given by [[disjoint union]] of submanifolds) this way induces a group structure on the cohomotopy sets.
+
+This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
+
+
 
 ## Examples
 
@@ -45,7 +68,7 @@ For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a 
 
 Let $X$ be a [[4-manifold]] which is [[connected topological space|connected]] and [[orientation|oriented]].
 
-The [[Pontryagin-Thom construction]] gives for $n \in \mathbb{Z}$ the [[commuting diagram]] of sets
+The [[Pontryagin-Thom construction]] as [above](#RelationToCobordismGroup) gives for $n \in \mathbb{Z}$ the [[commuting diagram]] of sets
 
 $$
   \array{
@@ -87,15 +110,26 @@ Now
 
 ## References
 
-* Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
-
-* [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
+Original articles include
  
 * {#Spanier49} [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics Second Series, Vol. 50, No. 1 (Jan., 1949), pp. 203-245 ([jstor](http://www.jstor.org/stable/1969362))
+
+The relation between cohomotopy classes of manifolds to the [[cobordism group]] is discussed for instance in 
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+
+Further discussion includes
 
 * [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781))
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, GTM 18 (2012) 161-190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
+
+See also 
+
+* Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
+
+* [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
+
 
 [[!redirects cohomotopy group]]
 [[!redirects cohomotopy groups]]
