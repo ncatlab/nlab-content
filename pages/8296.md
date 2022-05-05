@@ -53,7 +53,7 @@ Let moreover $A$ be a [[braided ∞-group]], with second [[delooping]] $\mathbf{
 +-- {: .num_defn #E2Extensions}
 ###### Definition
 
-A **central extension** $\hat G$ of $G$ by $A$ is a [[fiber sequence]] in $\mathbf{H}$ of the form
+A **[[higher central extension]]** $\hat G$ of $G$ by $A$ is a [[fiber sequence]] in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -138,7 +138,7 @@ In particular they are classified by the intrinsic $n+1$st $A$-[[cohomology]] of
 
 * [[∞-group cohomology]]
 
-* [[central extension]]
+* [[central extension]], [[higher central extension]]
 
 * [[centrally extended groupoid]]
 
@@ -161,3 +161,24 @@ Extensions by [[braided 2-groups]] are discussed in
 [[!redirects extension of infinity-groups]]
 [[!redirects extensions of ∞-groups]]
 [[!redirects extensions of infinity-groups]]
+
+
+[[!redirects central ∞-group extension]]
+[[!redirects central infinity-group extensions]]
+[[!redirects central ∞-group extensions]]
+
+[[!redirects central extension of ∞-groups]]
+[[!redirects central extension of infinity-groups]]
+[[!redirects central extensions of ∞-groups]]
+[[!redirects central extensions of infinity-groups]]
+
+[[!redirects higher central ∞-group extension]]
+[[!redirects higher central infinity-group extensions]]
+[[!redirects higher central ∞-group extensions]]
+
+[[!redirects higher central extension of ∞-groups]]
+[[!redirects higher central extension of infinity-groups]]
+[[!redirects higher central extensions of ∞-groups]]
+[[!redirects higher central extensions of infinity-groups]]
+
+
