@@ -471,7 +471,7 @@ Thus the essentially unique factorization of $F$ through $L$ now follows by Prop
 
 * [[reflective factorization system]]
 
-* [[Bousfield localization]]
+* [[Bousfield localization]], [[Quillen reflection]]
 
 ## References
 
