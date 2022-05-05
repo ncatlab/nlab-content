@@ -182,7 +182,7 @@ General overviews include:
 
 * [[UF-IAS-2012]], _[Logical frameworks](http://uf-ias-2012.wikispaces.com/Logical+Frameworks)_.
 
-* [[Bob Harper]], _[Notes on logical frameworks](http://uf-ias-2012.wikispaces.com/file/view/lf.pdf)_
+* [[Robert Harper]], _[Notes on logical frameworks](http://www.cs.cmu.edu/~rwh/papers/lfias/lf.pdf)_
  {#Harper}
 
 A number of examples of encoding object-theories into LF can be found in
