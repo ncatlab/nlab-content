@@ -20,9 +20,9 @@
 
 +-- {: .num_theorem #ClassificationOfFiniteSubgroupsOfSO3}
 ###### Theorem
-**([[ADE classification]] of [[finite group|finite]] [[subgroups]] of [[special orthogonal group|SO(3)]] and [[spin group|Spin(3)]]$\simeq$[[special unitary group|SU(2)]])**
+**([[ADE classification]] of [[finite group|finite]] [[subgroups]] of [[special orthogonal group|SO(3)]] and [[spin group|Spin(3)]]$\simeq$ [[SU(2)]])**
 
-The [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ as well as the [[finite group|finite]] [[subgroups]] of the [[special unitary group]] $SU(2)$ are, up to [[conjugation]], given by the following classification:
+The [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ as well as the [[finite group|finite]] [[subgroups]] of the [[special unitary group]] [[SU(2)]] are, up to [[conjugation]], given by the following classification:
 
 [[!include ADE -- table]]
 
@@ -81,9 +81,11 @@ See also
 
 [[!redirects classification of the finite rotation groups]]
 
+[[!redirects finite subgroup of SO(3)]]
 [[!redirects finite subgroups of SO(3)]]
-[[!redirects finite subgroups of SU(2)]]
 
+[[!redirects finite subgroup of SU(2)]]
+[[!redirects finite subgroups of SU(2)]]
 
 
 
