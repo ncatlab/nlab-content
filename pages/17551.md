@@ -20,9 +20,43 @@
 
 ## Idea
 
-In the context of [[equivariant stable homotopy theory]] one distinguishes between the naive "categorical fixed points" of a [[genuine equivariant spectrum]], its _[[fixed point spectrum]]_ and its _geometric fixed points_.
+In the context of [[equivariant stable homotopy theory]] one distinguishes, for a [[G-spectrum]] $E$, between the plain  _[[fixed point spectrum]]_ $F^G(X)$ and its _geometric fixed point spectrum_ $\Phi^G(X)$.
 
-A concrete definition of geometric fixed points of an equivariant spectrum is in ([Schwede 15, 7.3](#Schwede15)). A conceptual characterization in terms of [[localization of spectra]] is in ([Mathew-Naumann-Noel 15, def.6.12](#MathewNaumannNoel15))
+A concrete definition of geometric fixed points of an equivariant spectrum is in ([Schwede 15, 7.3](#Schwede15)). A conceptual characterization in terms of [[localization of spectra]] is in ([Mathew-Naumann-Noel 15, def. 6.12](#MathewNaumannNoel15)).
+
+## Properties
+
+### For equivariant suspension spectra
+ {#ForEquivariantSuspensionSpectra}
+
+For $X$ a [[topological G-space]] and $\Sigma^\infty_G X$ its [[equivariant suspension spectrum]], its geometric fixed point spectrum is preciselhy the first summand in 
+
+$$
+  \Phi^G(\Sigma^\infty_G X) 
+  \;\simeq\; 
+  \Sigma^\infty( X^G )
+  \hookrightarrow
+  F^G(\Sigma^\infty_G X)
+$$
+
+the [[tom Dieck splitting]] of the plain [[fixed point spectrum]]
+
+$$
+  F^G(\Sigma^\infty_G X)
+  \simeq
+  \Sigma^\infty( X^G )
+    \vee
+  \left(
+    \underset{{[H\subset G]} \atop {1 \neq H \neq G}}{\vee}
+    \Sigma^\infty( E (W_G H)_+ \wedge_{W_G H} X^H )
+  \right)
+    \vee
+  \Sigma^\infty( E G_+ \wedge_{G} X )
+  \,.
+$$
+
+([Schwede 15, Example 7.7](#Schwede15))
+
 
 ## Related concepts
 
@@ -32,8 +66,18 @@ A concrete definition of geometric fixed points of an equivariant spectrum is in
 
 ## References
 
-* {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+* {#Schwede15} [[Stefan Schwede]], section 7.3 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+* {#Schwede18} [[Stefan Schwede]], section 3.3. of _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+
 
 * {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_ ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869))
 
+
+
+[[!redirects geometrix fixed point spectra]]
+
 [[!redirects geometric fixed point]]
+[[!redirects geometric fixed points]]
+
+
