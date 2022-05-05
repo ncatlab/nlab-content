@@ -14,6 +14,7 @@
 
 * _[[A History of Western Philosophy]]_, 1945
 
+* _[[An Essay on the Foundations of Geometry]]_
 
 ## Related entries
 
