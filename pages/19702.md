@@ -1,11 +1,20 @@
 
+
 * [[David Hilbert]], 
 
-  _Naturerkennen und Logik_, 
+  _Naturerkennen und Logik_ (Engl.: _Logic and the knowledge of nature_), 
 
-  Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  
+  Lecture at
+
+  _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 
+
+  1930  
 
   ([pdf](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf), [audio](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3))
+
+  reprinted in Hilbert's collected works in German (pp. 378-387) 
+
+  translated to English in W. Ewald, _From Kant to Hilbert_, 1996, pp. 1157-1165
 
 The famous _finale_ from this lecture, in English translation:
 
@@ -20,7 +29,7 @@ particular natural science there is only as much true science as there is mathem
 
 > The glory of the human spirit, so said the famous Königsberg mathematician JACOBI, is the single purpose of all science
 
-> We must not believe those, who today with philosophical bearing and a tone  of superiority prophesy the downfall of culture and accept the ignorabimus.  For us there is no  ignorabimus, and in my opinion even none whatever in natural science. In place of the foolish ignorabimus let stand our slogan:
+> We must not believe those, who today with philosophical bearing and a tone  of superiority prophesy the downfall of culture and accept the [ignorabimus](https://en.wikipedia.org/wiki/Ignoramus_et_ignorabimus).  For us there is no  [ignorabimus](https://en.wikipedia.org/wiki/Ignoramus_et_ignorabimus), and in my opinion even none whatever in natural science. In place of the foolish [ignorabimus](https://en.wikipedia.org/wiki/Ignoramus_et_ignorabimus) let stand our slogan:
 
 > We  must know,
 
