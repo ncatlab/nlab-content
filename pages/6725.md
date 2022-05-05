@@ -25,6 +25,11 @@
 
 There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that quantum [[11-dimensional supergravity]] on an  $\mathbb{Z}_2$-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times /(S^1//\mathbb{Z}_2))$ induces on its [[boundary]] "[[M9-brane]]" (the $\mathbb{Z}_2$-fixed point manifold) [[heterotic string theory]]. Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)).
 
+
+<img src="https://ncatlab.org/nlab/files/M2BraneEndingOnM9.jpg">
+
+> from [Kashima 00](#Kashima00)
+
 Here each of the two copies of the heterotic gauge theory is a "[[hidden sector]]" with respect to the other.
 
 The orbifold equivariance condition of the [[supergravity C-field]] is that discussed at _[[orientifold]]_ (there for the [[B-field]]). Therefore it has to vanish at the two fixed fixed points of the $\mathbb{Z}_2$-action. Thereby the quantization condition
@@ -83,7 +88,7 @@ The original articles are
 
 Reviews are in 
 
-* Piyush Kumar, _Ho&#345;ava-Witten theory_ (2004) ([pdf](http://theory.uchicago.edu/~sethi/Teaching/P484-W2004/hwitten.pdf))
+* [[Piyush Kumar]], _Ho&#345;ava-Witten theory_ (2004) ([pdf](http://theory.uchicago.edu/~sethi/Teaching/P484-W2004/hwitten.pdf))
 
 * [[Paul Townsend]], _Four Lectures on M-Theory_ ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)). 
 
@@ -91,11 +96,21 @@ Reviews are in
 
 * {#Falkowski} [[Adam Falkowski]], section 3 of _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
 
-Explicit discussion of [[M2-branes]] ending on the HW fixed points and becoming [[heterotic strings]] there is discussed, via the [[BLG model]], in 
+The [[black brane|black]] [[M2-brane]] solution in HW-theory, supposedly yielding the [[black brane|black]] [[heterotic string]] at the intersection with the [[M9-brane]] is discussed in
+
+* {#LalakLukasOvrut97} Zygmunt Lalak, Andr&eacute; Lukas, [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
+
+* {#Kashima00} Ken Kashima, _The M2-brane Solution of Heterotic M-theory with the Gauss-Bonnet $R^2$ terms_, Prog.Theor.Phys. 105 (2001) 301-321 ([arXiv:hep-th/0010286](https://arxiv.org/abs/hep-th/0010286))
+
+
+Explicit discussion of [[worldvolume]] [[CFT]] of the [[M2-branes]] ending on the HW fixed points and becoming [[heterotic strings]] is discussed, via the [[BLG model]], in 
 
 * {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B Volume 749, 7 October 2015, Pages 363&#8211;367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
 
+
 After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechanism, see the references [there](5-dimensional+supergravity#ReferencesHWCompactification).
+
+
 
 [[!redirects Hořava-Witten theory]]
 [[!redirects Hořava–Witten theory]]
