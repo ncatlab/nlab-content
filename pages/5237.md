@@ -342,7 +342,7 @@ If $C$ is a [[monoidal model category]], then $Mon(C)$ may inherit itself the st
 
 ### Enrichment over $CMon$
 
-Some categories are _implicitly_ [[enriched category|]] over commutative monoids, in particular [[semiadditive categories]]. Also [[Ab]]-[[enriched categories]] (and hence in particualr [[abelian categories]]) of course have an underlying $CMon$-enrichment.
+Some categories are _implicitly_ [[enriched category|enriched]] over commutative monoids, in particular [[semiadditive categories]]. Also [[Ab]]-[[enriched categories]] (and hence in particular [[abelian categories]]) of course have an underlying $CMon$-enrichment.
 
 ## Related categories
 
