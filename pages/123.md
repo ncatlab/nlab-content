@@ -361,6 +361,8 @@ which provides an alternative expression of the functoriality condition as simpl
 
 * [[profunctor]]
 
+* [[multifunctor]]
+
 * [[function]]
 
 * **functor**
