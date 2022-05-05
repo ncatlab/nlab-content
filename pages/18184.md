@@ -30,7 +30,7 @@ Then the _attaching space_ $X \cup_f Y \in Top$ may be realized as the [[quotien
 
 
 $$
-  A \cup_f B 
+  X \cup_f Y
   \;\simeq\;
   \left(
     X \sqcup Y
