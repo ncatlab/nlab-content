@@ -27,7 +27,7 @@ Rough idea: The [[Wightman axioms]] describe how the algebra of observables of a
 
 In this sense the Osterwalder--Schrader theorem states and proves conditions that assure that the [[Wick rotation]] is a well defined isomorphism of quantum field theories on Minkowski and on Euclidean spacetime.
 
-## axioms of euclidean field theory
+## Axioms of euclidean field theory
 
 The axioms of euclidean field theory are the euclidean analogue of the [[Wightman axioms]] on Minkowski spacetime.
 The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $\mathcal{D}(\mathbb{R}^d)$. In the original paper of Osterwalder and Schrader the axioms are given in terms of the Schwinger functions. Here the axioms given in a form more directly related to the measure on field space and its characteristic function, rather than the Schwinger functions themselves. This form was first presented by Fr&#246;hlich.
@@ -64,7 +64,7 @@ $$
 
 * **theorem (Schwinger functions)**: A measure that satisfies OS0 has moments of all order, the nth moment has a density $S \in \mathcal{D}'(\mathbb{R}^{nd})$. These distributions are called Schwinger functions.
 
-## the theorem
+## The theorem
 One possible formulation: To every measure satisfying the axioms stated above there is a Wightman field such that the Schwinger and Wightman functions are related by:
 $$
 \integral \phi_E(x_1, t_1) \cdots \phi_E(x_n, t_n) = \langle \Omega, \phi_M(x_1, i t_1) \cdots \phi_M(x_n, i t_n) \Omega \rangle
@@ -78,7 +78,7 @@ See theorem 6.15 in the book by Glimm and Jaffe (see references).
 
 * [[spin-statistics theorem]]
 
-## references
+## References
 The main reference is the classic textbook about [[constructive quantum field theory]]:
 
 * [[James Glimm]], [[Arthur Jaffe]], _[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]_
