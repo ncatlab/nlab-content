@@ -237,6 +237,8 @@ Acting on this equation with the multiplicative inverse $(-) \star_{F,\Lambda} \
 
 * [[renormalization group flow]]
 
+* [[gauge coupling unification]]
+
 ## References
 
 The idea of [[effective quantum field theory]] was promoted in
