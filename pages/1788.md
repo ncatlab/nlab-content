@@ -1,4 +1,4 @@
-Finished.
+
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
 
@@ -71,3 +71,8 @@ $
 
 [[category
 theory]]
+
+  [[ cubical     Kan   
+  complex ]]   
+
+[[Mike Fourman]]
