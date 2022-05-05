@@ -45,6 +45,7 @@ The formulation of [[non-perturbative quantum field theory]] from the algebraic 
 
 The formulation of [[perturbative quantum field theory]] from the algebraic perspective of quantum probability is known as _[[perturbative algebraic quantum field theory]]_ ([[pAQFT]]).
 
+The sentiment that [[quantum physics]] _is_ quantum probability theory is also referred to as the _[[Bayesian interpretation of quantum mechanics]]_ ("QBism").
 
 ## Properties
 
@@ -144,9 +145,11 @@ This is the statement of "[[wave function collapse]]": The original [[wave funct
 
 * [[probability amplitude]]
 
-* [[quantum logic]]
+* [[quantum statistical mechanics]]
 
 * [[Bayesian interpretation of quantum mechanics]]
+
+* [[quantum logic]]
 
 
 ## References
