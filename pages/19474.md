@@ -14,3 +14,9 @@
 * Adrien Guatto, _A Generalized Modality for Recursion: Extended version_, ([pdf](https://arxiv.org/pdf/1805.11021.pdf))
 
 * Nakano Hiroshi, 2000, _A Modality for Recursion_. In Logic in Computer Science (LICS’00). ([pdf](https://pdfs.semanticscholar.org/a177/47f98e5b821f03ec8be858794f2f83a683b7.pdf))
+
+* Lars Birkedal, Ales Bizjak, Ranald Clouston, Hans Bugge Grathwohl, [[Bas Spitters]], Andrea Vezzosi, _Guarded cubical type theory_ [arxiv](https://arxiv.org/abs/1611.09263)
+
+A general calculus for dependent modal type theories.
+
+*  Ranald Clouston, Bassel Mannaa, Rasmus Ejlers Møgelberg, Andrew M. Pitts, [[Bas Spitters]], _Modal Dependent Type Theory and Dependent Right Adjoints_ [arxiv](https://arxiv.org/abs/1804.05236)
