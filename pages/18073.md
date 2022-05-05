@@ -35,11 +35,11 @@ are precisely the [[singleton]] [[subspaces]].
 The second statement clearly implies the first. To see the second
 statement, suppose that $F$ is an irreducible closed subspace which
 contained two distinct points $x \neq y$. Then by the Hausdorff property
-there are disjoint neighbourhoods $U_x, U_y$, and hence it would follow that the relative [[complements]] $F \backslash U_x$ and $F \backslash U_y$ were distinct proper closed subsets of
+there are disjoint neighbourhoods $U_x, U_y$, and hence it would follow that the relative [[complements]] $F \setminus U_x$ and $F \setminus U_y$ were distinct proper closed subsets of
 $F$ with
 
 $$
-  F = (F \backslash U_x) \cup (F \backslash U_y)
+  F = (F \setminus U_x) \cup (F \setminus U_y)
 $$
 
 in contradiction to the assumption that $F$ is irreducible. 
