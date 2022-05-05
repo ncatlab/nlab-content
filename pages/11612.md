@@ -17,11 +17,25 @@
 
 ## Idea
 
-One of the types of [[BPS states]] of [[11-dimensional supergravity]] is called the _M-wave_ ([Hull 84](#Hull84)). Since a single M-wave is effectively the [[superparticle]] in 11d, this is also called the _M0-brane_. A survey is in ([Bandos 12](#Bandos12)).
+One of the types of [[BPS states]] of [[11-dimensional supergravity]] is a [[pp-wave spacetime|pp-]][[gravitational wave]]-solution called the _M-wave_ ([Hull 84](#Hull84)). 
+Survey includes ([Philip 05, p. 94](#Philip05), [Bandos 12](#Bandos12)).
 
-Under the [[duality between M-theory and type IIA string theory]] the M0-brane maps to the [[D0-brane]] ([Bergshoeff-Townsend 96](#BergshoeffTwonsend96)).
+Under the [[duality between M-theory and type IIA string theory]] the M-wave becomes the [[black brane|black]] [[D0-brane]] under [[double dimensional reduction]] ([Bergshoeff-Townsend 96](#BergshoeffTwonsend96)).
 
-Bound states of M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 in ([Chu-Isono 12](#ChuIsono13)).
+The [[bound states]] of M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 in ([Chu-Isono 12](#ChuIsono13)).
+
+
+## Properties
+
+### Spin structure
+
+That the spinor-to-vector pairing on the M-wave takes values in just one of the two light rays is made fully explicit in [Philip 05, p. 94](#Philip05)
+
+This is the pairing of chiral spinors in $D = 1 + 1$
+
+### Relation to M2-Branes at ADE-Singularities
+
+The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-branes]] at [[ADE-singularities]] (show in [BPST 09, bottom of p. 13](#BPST09) via [[boundary conditions]] for the [[BLG model]]/[[ABJM model]]).
 
 
 ## Related concepts
@@ -35,6 +49,10 @@ Bound states of M-waves and [[M5-branes]] are argued to correspond to [[self-dua
 * {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
 
 * {#Townsend97} [[Paul Townsend]], first pages of _M-Theory from its superalgebra_, Cargese Lectures 1997 ([arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004))
+
+* {#Philip05} Simon Philip, _Plane-wave limits and homogeneous M-theory backgrounds_, 2005 ([pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]])
+
+* {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
 
 * {#Bandos12} [[Igor Bandos]], _Action for the eleven dimensional multiple M-wave system_, 2012 ([pdf](http://strings.na.infn.it/files/Igor.pdf))
 
