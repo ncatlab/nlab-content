@@ -1,10 +1,13 @@
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The localisation of a commutative ring $A$ at an element $a$ of it is a universal means to 'invert $a$' . The resulting ring captures information that is relevant 'at $a$', i.e. 'locally at $a$'. 
+The localisation of a commutative ring $A$ away from an element $a\in A$ is a universal means to 'invert $a$'.  The resulting ring captures information that is relevant 'away from $a$', i.e. 'locally on the complement of $a$'.
+
+Algebraically, it might make more sense to call this localization *at* $a$, but in [[algebraic geometry]] it really does correspond to "local behavior on the complement of (the zero-set of) $a$", and the "away from" terminology is traditional.
 
 ## Definition
 
@@ -13,7 +16,7 @@ Let $A$ be a commutative ring, and let $a$ be an element of $A$.
 +-- {: .num_defn}
 ###### Definition
 
-The _localisation of $A$ at $a$_, usually denoted $A_{a}$ or $A[1/a]$, is the commutative ring $A[x] / (ax - 1)$. 
+The _localisation of $A$ away fram $a$_, usually denoted $A_{a}$ or $A[1/a]$, is the commutative ring $A[x] / (a x - 1)$. 
 
 =--
 
@@ -30,4 +33,15 @@ If $A$ is the polynomial ring $\mathbb{Z}[x]$, and $a$ is $x$, then $A_{a}$ is 
 =--
 
 
+[[!redirects localisation of a commutative ring at an element ]]
+[[!redirects localisation of a commutative ring at an element]]
+[[!redirects localization of a commutative ring at an element]]
+[[!redirects localization of a commutative ring away from an element]]
 
+[[!redirects localisation of a ring at an element]]
+[[!redirects localization of a ring at an element]]
+[[!redirects localization of a ring away from an element]]
+
+[[!redirects localisation at an element]]
+[[!redirects localization at an element]]
+[[!redirects localization away from an element]]
