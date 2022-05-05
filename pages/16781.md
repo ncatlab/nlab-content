@@ -74,6 +74,27 @@ $\vert O \vert = 24$
 $\vert 2O \vert = 48$
 
 
+### Subgroups
+
+
++-- {: .num_prop #QuaternionSubgroup}
+###### Proposition
+**([[quaternion group]] inside [[binary tetrahedral group]])**
+
+The [[binary octahedral group]] contains the [[quaternion group]] of [[order]] 8, hence the [[binary dihedral group]] of [[order of a group|order]] 8, as a [[subgroup]] (not [[normal subgroup|normal]]):
+
+$$
+  2 D_4 = Q_8 \subset 2 O
+  \,.
+$$
+
+In fact the only [[finite subgroups of SU(2)]] which contain $2 D_4 =Q_8$ as a proper subgroup are the exceptional ones, hence the [[binary tetrahedral group]], the [[binary octahedral group]] and the [[binary icosahedral group]].
+
+=--
+
+See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[quaternion group]]_.
+
+
 ### Group cohomology
 
 The [[group cohomology]] of the orientation-preserving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
