@@ -12,23 +12,25 @@ $\,$
 
 [[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]]. They are ubiquituous in and indispensible for organizing concpetual mathematical frameworks.
 
-We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
+We give here an introduction to the basic concepts and results, aimed at providing background for the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
 
-This means that we emphasize the interpretation of _[[presheaves]]_ on some _[[site]]_ as **[[generalized spaces]]** modeled on the objects in the site ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)):
+This makes use of the following curious dictionary between [[category theory]]/[[topos theory]] and the [[geometry]] of [[generalized spaces]], which we will explain in detail (following [Grothendieck 65](functorial+geometry#Grothendieck65), [Lawvere 86, p. 17](space+and+quantity#Lawvere86), [[Some Thoughts on the Future of Category Theory|Lawvere 91]]):
 
-| $\phantom{A}$[[category theory]] |   | $\phantom{A}$[[geometry]] of [[generalized spaces]] |
+| $\phantom{A}$[[category theory]] | Rmk. \ref{PresaheavesAsGeneralizedSpaces}  | $\phantom{A}$[[geometry]] of [[generalized spaces]] |
 |-------|--|---------|
-| $\phantom{A}$[[representable presheaf]]$\phantom{A}$ | Expl. \ref{CategoryOfPresheaves}$\phantom{A}$ |  $\phantom{A}$model [[space]] regarded as [[generalized space]] |
-| $\phantom{A}$[[Yoneda lemma]] | Prop. \ref{YonedaLemma}$\phantom{A}$  |  $\phantom{A}$sets of probes of [[generalized spaces]] really are <br/> $\phantom{A}$sets of maps from model [[spaces]] $\phantom{A}$ |
+| $\phantom{A}$[[presheaf]] | Expl. \ref{CategoryOfPresheaves} | $\phantom{A}$[[generalized space]] | 
+| $\phantom{A}$[[representable presheaf]]$\phantom{A}$ | Expl. \ref{RepresentablePresheaves}$\phantom{A}$ |  $\phantom{A}$model [[space]] <br/> $\phantom{A}$regarded as [[generalized space]] |
+| $\phantom{A}$[[Yoneda lemma]] | Prop. \ref{YonedaLemma}$\phantom{A}$  |  $\phantom{A}$sets of probes of [[generalized spaces]] <br/> $\phantom{A}$are indeed <br/> $\phantom{A}$sets of maps from model [[spaces]] $\phantom{A}$ |
 | $\phantom{A}$[[Yoneda embedding]] $\phantom{A}$ | Prop. \ref{YonedaEmbedding}$\phantom{A}$ |  $\phantom{A}$nature of model [[spaces]] is preserved when <br/> $\phantom{A}$regarding them as [[generalized spaces]] $\phantom{A}$ |
 |  |  | |
-| $\phantom{A}$**[[topos theory]]** |  |   |
-| $\phantom{A}$[[coverage]] | Def. \ref{Coverage} | $\phantom{A}$notion of locality |
-| $\phantom{A}$[[sheaf|sheaf condition]] | Def. \ref{Sheaf}$\phantom{A}$ <br/> Prop. \ref{CechGroupoidCoRepresents} | $\phantom{A}$plots of [[generalized spaces]] <br/> $\phantom{A}$satisfy [[local-to-global principle]] $\phantom{A}$ |
+| $\phantom{A}$**[[topos theory]]** | **Rmk. \ref{SheafConditionAsLocality}** |  $\phantom{A}$**[[local-global principle]] for [[generalized spaces]]**$\phantom{A}$  |
+| $\phantom{A}$[[coverage]] | Defn. \ref{Coverage} | $\phantom{A}$notion of locality |
+| $\phantom{A}$[[sheaf|sheaf condition]] | Defn. \ref{Sheaf}$\phantom{A}$ <br/> Prop. \ref{CechGroupoidCoRepresents} | $\phantom{A}$plots of [[generalized spaces]] <br/> $\phantom{A}$satisfy [[local-to-global principle]] $\phantom{A}$ |
 | $\phantom{A}$[[comparison lemma]] | Prop. \ref{ComparisonLemma} |  $\phantom{A}$notion of [[generalized spaces]] <br/> $\phantom{A}$independent under change of model [[space]] | 
-| $\phantom{A}$[[cohesion]] | Def. \ref{CohesiveTopos}  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential topology]] |
-| $\phantom{A}$[[differential cohesion]] |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential geometry]] |
-| $\phantom{A}$super differential cohesion$\phantom{A}$ |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
+| $\phantom{A}$**[[gros topos|gros topos theory]]** |  **Rmk. \ref{CohesiveGeneralizedSpacesAsFoundations}** |  $\phantom{A}$**[[generalized spaces]] at the [[foundations]]** |
+| $\phantom{A}$[[cohesion]] | Defn. \ref{CohesiveTopos}  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential topology]] |
+| $\phantom{A}$[[differential cohesion]] | Defn. \ref{DifferentialCohesion} | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential geometry]] |
+| $\phantom{A}$super cohesion$\phantom{A}$ |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
 {: style='margin:auto}
  
 
@@ -91,6 +93,7 @@ $\,$
 
 
 ## Basic notions of Category theory
+  {#BasicNotionsOfCategoryTheory}
 
 We introduce here the basic notions of [[category theory]], along with examples and motivation from [[geometry]]:
 
@@ -791,8 +794,6 @@ The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_
 
 (The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] in (eq:FormalDualsOfCommutativeRings). As early as 1973 [[Alexander Grothendieck]] had urged to abandon the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
 
-$\,$ spring
-
 =--
 
 
@@ -939,7 +940,14 @@ $$
 
 is hence called the _[[category of presheaves]]_ over $\mathcal{C}$.
 
-The [[hom-functor]] (Example \ref{HomFunctor}) gives the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]]:
+=--
+
+
++-- {: .num_example #RepresentablePresheaves}
+###### Example
+**([[representable presheaves]])**
+
+Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), the [[hom-functor]] (Example \ref{HomFunctor}) gives the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]] (Def. \ref{CategoryOfPresheaves}):
 
 \[
   \label{YonedaFunctor}
@@ -982,7 +990,7 @@ The [[hom-functor]] (Example \ref{HomFunctor}) gives the following [[functor]] (
 
 The [[presheaves]] $y(X) \coloneqq Hom_{\mathcal{C}}(-,X)$ in the [[image]] of this functor are called the _[[representable presheaves]]_ and $X \in Obj_{\mathcal{C}}$ is called their [[representing object]].
 
-This functor is called the _[[Yoneda embedding]]_, due to Prop. \ref{YonedaEmbedding} below.
+The functor (eq:YonedaFunctor) is also called the _[[Yoneda embedding]]_, due to Prop. \ref{YonedaEmbedding} below.
 
 =--
 
@@ -1028,7 +1036,7 @@ $$
 
 For consistency of regarding this presheaf as a _presheaf of sets of plots of a generalized space_, it ought to be true that every "ordinary space", hence every [[object]] $X \in \mathcal{C}$, is also an example of a "generalized space probe-able by" object of $\mathcal{C}$, since, after all, these are the spaces which may manifestly be probed by objects $c \in \mathcal{C}$, in that morphisms $c \to X$ are already defined.
 
-Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able by objects of $\mathcal{C}$ should be the presheaf $Hom_{\mathcal{C}}(-,X)$, hence the [[representable presheaf|presheaf represented]] by $X$, via the Yoneda functor (eq:YonedaFunctor).
+Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able by objects of $\mathcal{C}$ should be the presheaf $Hom_{\mathcal{C}}(-,X)$, hence the [[representable presheaf|presheaf represented]] by $X$ (Example \ref{RepresentablePresheaves}), via the Yoneda functor (eq:YonedaFunctor).
 
 At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories: on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces. Hence we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
 
@@ -1193,7 +1201,7 @@ As a direct corollary, we obtain the statement of the [[Yoneda embedding]]:
 ###### Proposition
 **([[Yoneda embedding]])**
 
-The assignment of [[representable presheaves|represented presheaves]] (eq:YonedaFunctor) is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}), hence exhibits a [[full subcategory]] inclusion
+The assignment (eq:YonedaFunctor) of [[representable presheaves|represented presheaves]] (Example \ref{RepresentablePresheaves})  is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}), hence exhibits a [[full subcategory]] inclusion
 
 $$
   y
@@ -5778,7 +5786,11 @@ $\,$
 
 We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _[[generalized spaces]] probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose:
 
-If the [[objects]] of $\mathcal{C}$ are thought of as [[spaces]] of sorts, then there is typically a concept of _locality_ in these spaces, reflected by a notion of what it means to _[[cover]]_ a given space by ("smaller") spaces (a _[[coverage]]_, Def. \ref{Coverage} below).
++-- {: .num_remark #SheafConditionAsLocality}
+###### Remark
+**([[sheaf|sheaf condition]] as [[local-to-global principle]] for [[generalized spaces]])**
+
+If the [[objects]] of $\mathcal{C}$ are thought of as [[spaces]] of sorts, as in Remark \ref{PresaheavesAsGeneralizedSpaces}, then there is typically a notion of _locality_ in these spaces, reflected by a notion of what it means to _[[cover]]_ a given space by ("smaller") spaces (a _[[coverage]]_, Def. \ref{Coverage} below).
 
 But if a space $X \in \mathcal{C}$ is covered, say by two other spaces $U_1, U_2 \in \mathcal{C}$, via morphisms 
 
@@ -5813,6 +5825,8 @@ $$
 $$
 
 One could call this the condition of _locality of probes of generalized spaces probeable by objects of $\mathcal{C}$_. But the established terminology is that this is the _[[sheaf|sheaf condition]] (eq:SheafCondition) on [[presheaves]] over $\mathcal{C}$_. Those presheaves which satisfy this condition are called the _[[sheaves]]_ (Def. \ref{Sheaf} below).
+
+=--
 
  
 +-- {: .num_remark}
@@ -6037,6 +6051,22 @@ $$
 $$
 
 =--
+
++-- {: .num_example }
+###### Example
+**([[sheaves]] on the [[terminal category]] are plain [[sets]])**
+
+Consider the [[terminal category]] $\ast$ (Example \ref{InitialCategoryAndTerminalCategory}) equipped with its [[trivial coverage]] (Example \ref{TrivialCoverage}). Then there is a canonical [[equivalence of categories]] (Def. \ref{EquivalenceOfCategories}) between the [[category of sheaves]] on this [[site]] (Def. \ref{Sheaf}) and the [[category of sets]] (Example \ref{CategoryOfSets}):
+
+$$
+  Sh(\ast) \;\simeq\; Set
+  \,.
+$$
+
+Hence the [[category of sets]] is a [[sheaf topos]].
+
+=--
+
 
 +-- {: .num_example #InducedCoverage}
 ###### Example
@@ -6642,6 +6672,23 @@ $\,$
 ## Cohesive toposes
   {#Cohesive}
 
+Here we discuss basic concepts of _[[cohesive toposes|cohesive topos theory]]_.
+
++-- {: .num_remark #CohesiveGeneralizedSpacesAsFoundations}
+###### Remark
+**([[cohesion|cohesive]] [[generalized spaces]] as [[foundations|foundations]] of [[geometry]])**
+
+We have seen that [[presheaves]] model [[generalized spaces]] (Remark \ref{PresaheavesAsGeneralizedSpaces}) and that the [[sheaves]] among them adhere to a [[local-to-global principle]] (Remark \ref{SheafConditionAsLocality}).  However, the classical example of [[sheaves on a topological space]] shows that the [[generalized spaces]] which are the objects of some [[categories of sheaves]] may depend on, or be parameterized over, an ordinary [[topological space]]. If we aim to lay [[foundations]] for [[geometry]], then we are interested in isolating those kinds of [[generalized spaces]] which have foundational _a priori_ meaning independent of an otherwise pre-configured notion of space.
+
+In particular, [[categories]] of such foundational [[generalized spaces]] ought to  have an _[[internal logic]]_ that knows about [[modalities]] of [[geometry]] such as _[[discrete object|discreteness]]_ or _[[concrete object|concreteness]]_. Via the mathematical formalization of [[modalities]] (Def. \ref{ModalOperator}) this leads to the definiton of [[cohesive toposes]] (Def. \ref{CohesiveTopos} below, [[Some Thoughts on the Future of Category Theory|Lawvere 91]], [Lawvere 07](#cohesive+topos#LawvereAxiomatic)).
+
+(...)
+
+=--
+
+$\,$
+
+
 +-- {: .num_defn #CohesiveTopos}
 ###### Definition
 **([[cohesive topos]])**
@@ -6976,7 +7023,7 @@ We pronounce these as follows:
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 
-and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
 * a [[flat modality|flat]]-[[comodal object]]
 
@@ -7096,6 +7143,85 @@ Now, from (eq:NaturalitySquareForConcretificationUnit), we have a [[commuting sq
 It remains to see that the lift is unique with just the property of making the top left triangle commute. But this is equivalently the statement that the left morphism is an epimorphism, by Def. \ref{Monomorphism}.
 
 =--
+
++-- {: .num_defn #DifferentialCohesion}
+###### Definition
+**([[differentially cohesive topos]])**
+
+Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then a [[differentially cohesive topos]] over $\mathbf{H}_{red}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with an [[adjoint quadruple|quadrupe]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
+
+$$
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AA} i_! \phantom{AA} }{\hookrightarrow}
+      \\ 
+      \overset{\phantom{AA} i^\ast \phantom{AA} }{\longleftarrow}
+      \\ 
+      \overset{\phantom{AA} i_\ast \phantom{AA} }{\hookrightarrow}
+      \\ 
+      \overset{\phantom{AA} i^! \phantom{AA} }{\longleftarrow}
+    }
+  \mathbf{H}_{red}
+$$
+
+=--
+
++-- {: .num_defn #CohesiveModalities}
+###### Definition
+**([[adjoint triple]] of [[modal operators]] on [[differentially cohesive topos]])**
+
+Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), its [[adjoint quadruple]] of functors to and from the [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{}CohesiveTopos)
+
+
+induce, by [[composition]] of functors, an [[adjoint triple]] of [[endofunctors]]
+
+$$
+  \Re \dashv \Im \dashv \&
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{ \Re \;\coloneqq\; i_! \circ i^\ast  }{\hookleftarrow}
+      \\
+      \overset{\flat \;\coloneqq\; i_\ast \circ i^\ast  }{\longrightarrow}
+      \\
+      \overset{ \sharp \;\coloneqq\; i_\ast  \circ i^! }{\hookleftarrow}
+    }
+  \mathbf{H}
+  \,.
+$$
+
+Since $i_!$ and $i\ast$ are [[fully faithful functors]] by assumption, 
+these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}). 
+
+We pronounce these as follows:
+
+| $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $\Re \;\coloneqq\; i_! \circ i^\ast$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; i_\ast \circ i^\ast$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; i_\ast \circ i^! $ $\phantom{A}$  |
+
+and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+
+* a [[reduction modality|reduction]]-[[comodal object]]
+
+  $$
+    \Re X
+      \underoverset{\simeq}{\epsilon^\Re_X}{\longrightarrow} 
+    X
+  $$
+
+  is called a _[[reduced object]]_;
+
+* an [[infinitesimal shape modality|infinitesimal shape]]-[[modal object]] 
+
+  $$
+    X \underoverset{\simeq}{\phantom{A}\eta^\Im_X\phantom{A}}{\longrightarrow} \Im X
+  $$
+
+  is called a _[[coreduced object]]_.
+
+
+=--
+
 
 (...)
 
