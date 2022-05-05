@@ -1,4 +1,4 @@
-Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]]. 
+Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]] of $F$. 
 
  Differentiation or [[derivation on a group|derivation]], $D$, in this context is defined using a sort of nonsymmetric analogue of the Leibniz rule: it is an additive map $D:\mathbb{Z}F\to\mathbb{Z}F$ such that for all $u,v\in F$, 
 
@@ -110,6 +110,6 @@ See also
 
 For a pro-$l$-version of Fox calculus see
 
-* _Pro-$l$ Fox free differential calculus_, section 8.3 of Masanori Morishita, _Knots and primes: an introduction to arithmetic topology_, Springer 2012
+* _Pro-$l$ Fox free differential calculus_, section 8.3 of [[Masanori Morishita]], _Knots and primes: an introduction to arithmetic topology_, Springer 2012
 
 [[!redirects Fox derivatives]]
