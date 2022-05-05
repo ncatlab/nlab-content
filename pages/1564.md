@@ -58,7 +58,19 @@ The most common example is the [[power set]] $P(S)$ of any set $S$. It is a Bool
 
 ## Terminology
 
-Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idempotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]].
+Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idempotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
+
++-- {: .num_remark} 
+###### Remark 
+We pause to note that "idempotent monoid" doesn't make sense a priori in a general monoidal category: generally speaking the idempotency axiom would be expressed by an equation 
+
+$$1_M = \left(M \stackrel{\delta_M}{\to} M \otimes M \stackrel{mult}{\to} M \right)$$ 
+
+where $\delta_M$ is an appropriate diagonal map, not generally available for monoidal categories. But in a *[[concrete category|concrete]]* monoidal category $\mathbf{M}$ where the underlying-set functor $U: \mathbf{M} \to Set$ is [[lax monoidal functor|lax monoidal]], the meaning is that the evident equation holds: 
+
+$$1_{U(M)} = \left(U(M) \stackrel{\delta}{\to} U(M) \times U(M) \stackrel{\lambda}{\to} U(M \otimes M) \stackrel{U(mult)}{\to} U(M) \right)$$
+where $\lambda$ is a lax monoidal constraint. 
+=--
 
 
 ## Analogues
