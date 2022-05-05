@@ -4288,7 +4288,7 @@ $$
   X
 $$
 
-for all objects $X \in \mathcal{C}$. If the corresponding [[reflective subcategory|reflection]] onto the [[full subcategory]] of [[local objects]] exists, we say this is _[[localization at an object|localization at the object]]_ and denote the reflector by 
+for all objects $X \in \mathcal{C}$. If the corresponding [[reflective subcategory|reflection]] onto the [[full subcategory]] of [[local objects]] exists, we say this is _[[homotopy localization]]_ at that object (see also Example \ref{HomotopyLocalizationOfCombinatorialModelCategories} below), and denote the reflector by 
 
 $$
   \bigcirc\!\!\!\!\!\!\!\!\mathbb{A}
