@@ -60,7 +60,7 @@ Up to [[equivalence of categories]], every [[fully faithful functor]] is equival
 
 
 ### Invariant definition
- {#InvariantDefinition}
+ {#InvariantDefinitionSection}
 
 Therefore, the definition of _full subcategory_ which respects the [[principle of equivalence]] is simply this:
 
