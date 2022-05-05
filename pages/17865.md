@@ -1,7 +1,9 @@
 
 > This entry is about the concept in [[geometry]]/[[physics]]/[[linear algebra]]. For the concept in [[category theory]] see _[[reflective subcategory]]_
 
+
 ***
+
 
 #Contents#
 * table of contents
