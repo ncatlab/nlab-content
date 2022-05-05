@@ -308,6 +308,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[equivariant elliptic cohomology]]
 
+* [[orbifold cohomology]]
+
 [[!include homotopy type representation theory -- table]]
 
 ## References
