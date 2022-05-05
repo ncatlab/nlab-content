@@ -212,7 +212,7 @@ Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}). Then the 
   \label{SheafToposAdjointQuadruple}
   Sh(\mathcal{C})
     \array{
-      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
       \\
       \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
       \\
@@ -330,11 +330,11 @@ Given a [[cohesive topos]] (Def. \ref{CohesiveTopos}), its [[adjoint quadruple]]
 
 $$
   \label{CohesopmAdjointQuadruple}
-  \Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc
+  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
   \;\;\colon\;\;
   \mathbf{H}
     \array{
-      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
       \\
       \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
       \\
@@ -352,7 +352,7 @@ $$
   \;\;\colon\;\;
   \mathbf{H}
     \array{
-      \overset{ &#643; \;\coloneqq\; Disc \circ \Pi_0  }{\hookleftarrow}
+      \overset{ &#643; \;\coloneqq\; Disc \circ \Pi  }{\hookleftarrow}
       \\
       \overset{\flat \;\coloneqq\; Disc \circ \Gamma  }{\longrightarrow}
       \\
@@ -369,7 +369,7 @@ We pronounce these as follows:
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 {: style='margin:auto}
 
 
@@ -572,7 +572,7 @@ $$
   \;\;\colon\;\;
   \mathbf{H}
   \array{
-    \phantom{\overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}}
+    \phantom{\overset{ \phantom{AA} \Pi \phantom{AA} }{\longrightarrow}}
     \\
     \phantom{\overset{ \phantom{AA} Disc \phantom{AA} }{\hookleftarrow}}
     \\
@@ -582,7 +582,7 @@ $$
   }
   \mathbf{H}_{conc}
   \array{
-    \overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}
+    \overset{ \phantom{AA} \Pi \phantom{AA} }{\longrightarrow}
     \\
     \overset{ \phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
     \\
@@ -934,7 +934,7 @@ Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and c
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 |   |    |   |
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
