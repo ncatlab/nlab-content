@@ -97,6 +97,16 @@ This means that apart from the freedom of choosing a classical comsological cons
 
 The folklore discussion of the "cosmological constant problem" (see the references [below](#CCProblemReferences)) tends not to take this freedom in the theory into account.
 
+### In inhomogeneous cosmology
+ {#InInhomogeneousCosmology}
+
+It has been suggested the observed cosmological constant/dark energy may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate [[inhomogeneous cosmology]] would not need to assume any dark energy (e.g. [Buchert 07](#Buchert07), [Buchert 11](#Buchert11), [Buchert-Rasanen 11](#BucherRasanen11), [Scharf 13](#Scharf13)).
+
+A seminal argument that it _is_ consistent to neglect cosmic inhomogeneity due to ([Green-Wald 10](#GreenWald10), [Green-Wald 13](#GreenWald13)), has been called into question in [Buchert et al. 15](#BuchertEtAl15), where it is concluded that the question is more subtle and remains open. Recent review is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
+
+If the apparent small positive [[cosmological constant]] were but an artifact of neglecting backreaction of inhomegeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+
+
 ### Observation
  {#Observation}
 
@@ -155,6 +165,34 @@ Discussion specifically for the [[standard model of cosmology]] is in
 * {#Hack13} [[Thomas-Paul Hack]], _The Lambda CDM-model in quantum field theory on curved spacetime and Dark Radiation_ ([arXiv:1306.3074](https://arxiv.org/abs/1306.3074))
 
 
+### In inhomogeneous cosmology
+
+* {#Buchert07} [[Thomas Buchert]], _Dark Energy from structure: a status report_, Gen.Rel.Grav.40:467-527, 2008 ([arXiv:0707.2153](http://xxx.lanl.gov/abs/0707.2153))
+
+* {#GreenWald10} Stephen R. Green, [[Robert Wald]], _A new framework for analyzing the effects of small scale inhomogeneities in cosmology_, Phys.Rev.D83:084020, 2011 ([arXiv:1011.4920](https://arxiv.org/abs/1011.4920))
+
+* {#Buchert11} [[Thomas Buchert]], _Toward physical cosmology: focus on inhomogeneous geometry and its non-perturbative effects_, Class.Quant.Grav.28:164007, 2011 ([arXiv:1103.2016](https://arxiv.org/abs/1103.2016))
+
+* {#BuchertRasanen11} [[Thomas Buchert]], Syksy Rasanen, _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
+
+* {#GreenWald13} Stephen Green, [[Robert Wald]], _Examples of backreaction of small scale inhomogeneities in cosmology_, Phys.Rev.D87:124037, 2013 ([arxiv:1304.2318](https://arxiv.org/abs/1304.2318))
+
+* {#Scharf13} [[Günter Scharf]], _Inhomogeneous cosmology in the cosmic rest frame without dark stuff_, chapter 6 in the latest edition of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001 ([arXiv:1312.2695](https://arxiv.org/abs/1312.2695))
+
+* {#BuchertEtAl15} [[Thomas Buchert]] et. al, _Is there proof that backreaction of inhomogeneities is irrelevant in cosmology?_, Class. Quantum Grav. 32 215021, 2015 ([arXiv:1505.07800](https://arxiv.org/abs/1505.07800))
+
+  exposition in _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+, 2016
+
+* {#BelejkoKorzynski16} Krzysztof Bolejko, Mikołaj Korzyński, _Inhomogeneous cosmology and backreaction: Current status and future prospects_, Int. J. Mod. Phys. D 26, 1730011 (2017) ([arXiv:1612.08222](https://arxiv.org/abs/1612.08222))
+
+* {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+
+
+See also 
+
+* Wikipedia, _[Inhomogeneous cosmology](https://en.wikipedia.org/wiki/Inhomogeneous_cosmology)_
+
+
 ### The "cosmological constant problem"
  {#CCProblemReferences}
 
@@ -186,7 +224,6 @@ This discussion was later supplemented by
 
 * [[Edward Witten]], section 3 of _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
-
 But a) there might be a large space of [[perturbative string theory vacua]]  and b) the [[de Sitter spacetime|de Sitter vacua]] that seem to correspond to observation tend to exist (only) as metastable vacua:
 
 * {#KachruKalloshLindeTrivedi03} [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip Trivedi]], _de Sitter Vacua in String Theory_, Phys.Rev.D68:046005, 2003 ([arXiv:hep-th/0301240](https://arxiv.org/abs/hep-th/0301240))
@@ -197,6 +234,10 @@ For review see
 
 * {#Kallosh05} [[Renata Kallosh]], section 3 of _de Sitter vacua and the landscape of string theory_, J. Phys. Conf. Ser. 24 (2005) 87-110 ([spire](http://inspirehep.net/record/701033/))
 
+However, consistency problems of these arguments are raised in
+
+* {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+ 
 
 [[!redirects dark energy]]
 
