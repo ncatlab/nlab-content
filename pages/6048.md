@@ -134,14 +134,16 @@ The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in t
 
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
   
-and its [[quantization]] of the was first explored in 
+and its [[quantization]] of the was explored in 
 
 * {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
 * [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]])
 
-
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135. 
+
+* {#KabatTaylor97} Daniel Kabat, [[Washington Taylor]], section 2 of _Spherical membranes in Matrix theory_, Adv.Theor.Math.Phys.2:181-206,1998 ([arXiv:hep-th/9711078](https://arxiv.org/abs/hep-th/9711078)) 
+
 
 The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz superstring]] was observed in
 
