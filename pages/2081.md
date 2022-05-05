@@ -25,7 +25,7 @@ The concept generalizes in a straightforward manner to flabby sheaves on [[local
 
 * Flabbiness is a local property: if $F|_U$ is flabby for every sufficiently small open subset, then $F$ is flabby.
 * Given a continuous map $f:X\to Y$ and a flabby sheaf $F$ on $X$, the [[direct image]] sheaf $f_* F : V\mapsto F(f^{-1}V)$ is also flabby.
-* Any [[exact sequence]] of sheaves of [[abelian groups]] $0\to F_1\to F_2\to F_3\to 0$ in which $F_1$ is exact, is also an exact sequence in the category of presheaves (the exactness for stalks implies exactness for groups of sections over any fixed open set). As a corollary, if $F_1$ and $F_2$ are flabby, then $F_3$ is flabby. 
+* Any [[exact sequence]] of sheaves of [[abelian groups]] $0\to F_1\to F_2\to F_3\to 0$ in which $F_1$ is flabby, is also an exact sequence in the category of presheaves (the exactness for stalks implies exactness for groups of sections over any fixed open set). As a corollary, if $F_1$ and $F_2$ are flabby, then $F_3$ is flabby; and if $F_1$ and $F_3$ are flabby, so is $F_2$.
 
 
 ## Examples
@@ -36,7 +36,13 @@ $$
 U \mapsto \prod_{x\in U} F_x
 $$
 
-where $F_x$ denotes the [[stalk]] of $F$ at point $x$. 
+where $F_x$ denotes the [[stalk]] of $F$ at point $x$. This construction assumes that all stalks $F_x$ are inhabited, and also that the law of excluded middle is available. In the absence of either, the refined construction
+
+$$
+U \mapsto \prod_{x\in U} P_{\leq 1}(F_x)
+$$
+
+works, where $P_{\leq 1}(F_x)$ is the set of subsingletons of $F_x$.
 
 
 ## Characterization using the internal language
