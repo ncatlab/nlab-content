@@ -182,7 +182,7 @@ Stable $\infty$-categories are naturally [[enriched (∞,1)-categories]] over th
 
 The [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ of a stable $(\infty,1)$-category $C$ -- its [[decategorification]] to an ordinary [[category]] -- is less well behaved than the original stable $(\infty,1)$-category, but remembers a shadow of some of its structure: this shadow is the structure of a [[triangulated category]] on $Ho(C)$
 
-* the **translation functor** $T : Ho(C) \to Ho(C)$ comes from the [[suspension object|suspenesion]] functor $\Sigma : C \to C$;
+* the **translation functor** $T : Ho(C) \to Ho(C)$ comes from the [[suspension object|suspension]] functor $\Sigma : C \to C$;
 
 * the **distinguished triangles** in $Ho(C)$ are pieces of the [[fibration sequence]]s in $C$.
 
