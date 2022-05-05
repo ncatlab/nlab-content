@@ -123,7 +123,7 @@ This definition makes it clear that the identities are identity and the $\bullet
 
 From a duploid, we can construct the "cofree" adjunction: i.e., a right adjoint to the forgetful functor just defined. Intuitively, we want to recover the homomorphisms just from the heteromorphisms. The maximal choice is to consider all thunkable morphisms between positive types and linear morphisms between negative types to be homomorphisms.
 
-Furthermore, this makes the category of duploids a [[reflective subcategory]] of adjunctions: they can be identified with exactly those adjunctions in which all thunkable heteromorphisms are the image under $F$ of some homomorphism and vice-versa all linear heteromorphisms are in the image of $G$.
+Furthermore, this functor is fully faithful, making the category of duploids a [[reflective subcategory]] of adjunctions: they can be identified with exactly those adjunctions in which all thunkable heteromorphisms are the image under $F$ of some homomorphism and vice-versa all linear heteromorphisms are in the image of $G$.
 
 ## Related Concepts
 
