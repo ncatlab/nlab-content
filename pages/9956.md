@@ -5,6 +5,8 @@ David Berman is professor in theoretical [[physics]] at Queen Mary University of
 
 ## related $n$Lab entries
 
+* [[double field theory]]
+
 * [[exceptional generalized geometry]]
 
 * [[confinement]] in [[AdS-CFT]] ([[string theory results applied elsewhere]])
