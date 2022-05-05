@@ -308,6 +308,7 @@ A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [
 
 +-- {: .num_defn #FunctorialFactorization}
 ###### Definition
+**([[functorial factorization)**
 
 For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]]
 
@@ -2138,6 +2139,7 @@ Therefore one considers the following generalization of def. \ref{DerivedFunctor
 
 +-- {: .num_defn #LeftAndRightDerivedFunctorsOnModelCategories}
 ###### Definition
+**([[derived functors]])**
 
 Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) into a [[category with weak equivalences]] $\mathcal{D}$ (def. \ref{CategoryWithWeakEquivalences}).
 
@@ -13433,6 +13435,8 @@ $$
   \,.
 $$
 
+We say that this is localization _at $W_{loc}$_.
+
 =--
 
 Notice that:
@@ -13606,6 +13610,97 @@ Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSe
 1. [[combinatorial model categories]] (Def. \ref{CombinatorialModelCategory}).
 
 =--
+
++-- {: .num_defn #DerivedHomFunctorPOnSimplicialModelCategory}
+###### Definition
+**([[derived hom-functor]])**
+
+Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). Then the [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[enriched hom-functor]] is called the _[[derived hom-functor]]_
+
+$$
+  \mathbb{R}Hom
+  \;\colon\;
+  Ho(\mathcal{C}^{op} \times \mathcal{C})
+  \longrightarrow
+  Ho(sSet_{Quillen})
+$$
+
+In the presence of [[functorial factorization|functorial]] [[cofibrant resolution]] $Q$ and [[fibrant resolution]] $P$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) this is given by the ordinary [[enriched hom-functor]] $\mathcal{C}(-,-)$ as
+
+$$
+  \mathbb{R}Hom(X,Y)
+  \;\simeq\;
+  \mathcal{C}(Q X, P Y)
+  \,.
+$$
+
+=--
+
+The following is the [[model category]]-analog of the concept of _[[local objects]]_ from Def. \ref{LocalObjects}:
+
++-- {: .num_def #DerivedLocalObjects}
+###### Definition
+**([[local objects]] and [[local morphisms]] in a [[model category]])**
+
+Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}) and let $S \subset Mor_{\mathcal{C}}$ be a sub-[[class]] of its class of [[morphisms]]. Then 
+
+1. an [[object]] $A \in \mathcal{C}$ is called a (derived-)[[local object]] if for every $X \overset{s}{\to} Y \; \in S$ the value of the [[derived hom-functor]] (Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory}) out of $s$ into $X$ is a [[weak equivalence]] (i.e. an [[isomorphism]] in the [[classical homotopy category]] $Ho(sSet)$)
+
+   $$
+     \mathbb{R}Hom(s,A)
+     \;\colon\;
+     \mathbb{R}Hom(Y,A)
+       \overset{\simeq}{\longrightarrow}
+     \mathbb{R}Hom(X,A)
+   $$
+
+1. a [[morphism]] $X \overset{f}{\to} Y$ in $\mathcal{C}$ is called a (derived-)[[local morphism]] if for every [[local object]] $A$ we have
+
+   $$
+     \mathbb{R}Hom(f,A)
+     \;\colon\;
+     \mathbb{R}Hom(Y,A)
+       \overset{\simeq}{\longrightarrow}
+     \mathbb{R}Hom(X,A)
+   $$
+
+=--
+
+The following is the [[model category]]-analog of the characterization from Prop. \ref{ReflectiveLocalizationGivenByLocalObjects} of [[reflective localizations]] as reflections onto [[local objects]]: 
+
++-- {: .num_prop }
+###### Proposition
+**(existence of [[left Bousfield localization]] for [[left proper model category|left proper]] [[simplicial model category|simplicial]] [[combinatorial model categories]])**
+
+Let $\mathcal{C}$ be a [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}) which is [[left proper]] (Def. \ref{RightProperModelCategory}) and [[simplicial model category|simplicial]] (Def. \ref{SimplicialModelCategory}), and let $S \subset Mor_{\mathcal{C}}$ be a [[small set]] of its [[morphisms]].
+
+Then the [[left Bousfield localization]] (Def. \ref{BousfieldLocalizationOfModelCategories}) of $\mathcal{C}$ _at $S$_, namely at the class of $S$-[[local morphisms]] (Def. \ref{DerivedLocalObjects}) exist, to be denoted $L_S \mathcal{C}$, and it has the following properties:
+
+1. $L_S \mathcal{C}$ is itself a [[left proper model category|left proper]] [[simplicial model category|simplicial]] [[combinatorial model category]];
+
+1. the [[fibrant objects]] of $L_S \mathca{C}$ are precisely those fibrant objects of $\mathcal{C}$ which in addition are $S$-[[local objects]] (Def. \ref{DerivedLocalObjects}).
+
+=--
+
++-- {: .num_example #HomotopyLocalizationOfCombinatorialModelCategories}
+###### Example
+**([[homotopy localization]] of [[combinatorial model categories]])**
+
+Let $\mathcal{C}$ be a [[combinatorial model category]] which, by [[Dugger's theorem]] (Prop. \ref{DuggerTheorem}) is [[Quillen equivalence|Quillen equivalent]] to a [[left Bousfield localization]] of a [[model category of simplicial presheaves]] over some [[small category|small]] [[simplicial category]] $\mathcal{S}$. 
+
+Let moreover $\mathcal{A}$ be any [[object]]. Then the [[homotopy localization]] of $\mathcal{C}$ at $\mathbb{A}$ is the further [[left Bousfield localization]] at the morphisms of the form
+
+$$
+  X \times \mathbb{A}
+  \overset{p_1}{\longrightarrow}
+  X
+$$
+
+for all $X \in \mathcal{S}$.
+
+
+=--
+
 
 
 (...)
