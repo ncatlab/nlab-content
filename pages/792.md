@@ -30,7 +30,7 @@ Recall that _geometric_ [[T-duality]] is an operation acting on tuples roughly c
   
 * and notably equipped with a (pseudo)[[Riemannian metric]] -- modelling the field of [[gravity]].
 
-The idea of **topological T-duality** (due to[Bouwknegt-Evslin-Mathai 04](#BouwknegtEvslinMathai04), [Bouwknegt-Hannabus-Mathai 04](#BouwknegtHannabusMathai04)) is to disregard the [[Riemannian metric]] and the connection and study the remaining "topological" structure.
+The idea of **topological T-duality** (due to [Bouwknegt-Evslin-Mathai 04](#BouwknegtEvslinMathai04), [Bouwknegt-Hannabus-Mathai 04](#BouwknegtHannabusMathai04)) is to disregard the [[Riemannian metric]] and the connection and study the remaining "topological" structure.
 
 While the idea of [[T-duality]] originates in [[string theory]], topological T-duality has become a field of study in pure mathematics in its own right. 
 
@@ -131,7 +131,12 @@ and a derivation of the rules of topological T-duality from analysis of the [[su
 
 reviewed in 
 
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-duality in rational homotopy theory via strong homomotopy Lie algebras]]_, [Geometry, Topology and Mathematical Physics Journal, Volume 1 (2018)](http://geo-top.org/GTMP/index.php/volume-1-2018/)  ([arXiv:1712.00758](https://arxiv.org/abs/1712.00758))
+
 * {#Fiorenza18} [[Domenico Fiorenza]], _T-duality in rational homotopy theory_, talk at _[38th Srni Winter School on Geometry and Physics](http://conference.math.muni.cz/srni/files/archiv/2018/)_, 2018 ([[FiorenzaSrni2018.pdf:file]])
+
+
+
 
 The refinement of topological T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
