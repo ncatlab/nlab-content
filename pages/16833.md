@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[Grothendieck topology]] on any category for which only the [[identity]] morphisms are [[covering]] is the _trivial topology_. It [[sheaves]] are all the [[presheaves]].
+The [[Grothendieck topology]] on any category for which only the [[identity]] morphisms are [[covering]] is the _trivial topology_. Its [[sheaves]] are all the [[presheaves]].
 
 ## Related concepts
 
