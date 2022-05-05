@@ -1,0 +1,3342 @@
+
+## Basic notions of Category theory
+  {#BasicNotionsOfCategoryTheory}
+
+We introduce here the basic notions of [[category theory]], along with examples and motivation from [[geometry]]:
+
+
+1. _[Categories and functors](#CategoriesAndFunctors)_
+
+1. _[Natural transformations and presheaves](#NaturalTransformationsAndPresheaves)_
+
+1. _[Adjunctions](#Adjunctions)_
+
+1. _[Equivalences](#Equivalences)_
+
+1. _[Modalities](#Modalities)_
+
+
+This constitutes what is sometimes called the _language of categories_. While we state and prove some basic facts here, notably the notorious _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), what makes [[category theory]] be a _mathematical theory_ in the sense of a coherent collection of non-trivial [[theorems]] is all concerned with the topic of _[[universal constructions]]_, which may be formulated (only) in this language. This we turn to further [below](#UniversalConstructions).
+
+$\,$
+
+### Categories and Functors
+ {#CategoriesAndFunctors}
+
+The notion of a _[[category]]_ (Def. \ref{Categories} below) embodies the idea of [[structuralism]] applied to concepts in [[mathematics]]: it collects, on top of the [[set]] (or generally: [[class]]) of mathematical [[objects]] that belong to it, also all the _[[structure]]-preserving maps_ between them, hence the [[homomorphisms]] in the case of [[Bourbaki]]-style [[mathematical structures]].
+
+The first achievement of the notion of a [[category]] is to abstract away from such manifestly _[[concrete categories]]_ (Examples \ref{ExamplesOfConcreteCategories}, \ref{StructuredSetsAndFaithfulFunctors} below) to more indirectly defined mathematical objects whose "structure" is only defined, after the fact, by which maps, now just called _[[morphisms]]_, there are between them.
+
+This [[structuralism]]-principle bootstraps itself to life by considering [[morphisms]] between [[categories]] themselves to be those "maps" that respect their [[structuralism]], namely the connectivity and [[composition]] of the [[morphisms]] between their objects: These are the _[[functors]]_ (Def. \ref{Functors} below).
+
+For the purpose of [[geometry]], a key class of examples of [[functors]] are the assignments of _[[algebras of functions]] to [[spaces]]_, this is Example \ref{SpacesViaAlgebrasOfFunctions} below.
+
+$\,$
+
+
++-- {: .num_defn #Categories}
+###### Definition
+**([[category]])**
+
+A _[[category]]_ $\mathcal{C}$ is
+
+1. a [[class]] $Obj_{\mathcal{C}}$, called the _class of [[objects]]_;
+
+1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of [[objects]], a [[set]] $Hom_{\mathcal{C}}(X,Y)$, called the _[[set of morphisms]] from $X$ to $Y$_, of the _[[hom-set]]_, for short.
+
+   We denote the elements of this set by arrows like this:
+
+   $$
+     X \overset{f}{\longrightarrow} Y \;\;\in Hom_{\mathcal{C}}(X,Y)
+     \,.
+   $$
+
+1. for each [[object]] $X \in Obj_{\mathcal{C}}$ a morphism
+
+   $$
+      X \overset{id_X}{\to} X \;\; \in Hom_{\mathcal{C}}(X,X)
+   $$
+
+   called the _[[identity morphism]]_ on $X$;
+
+1. for each [[triple]] $X_1, X_2, X_3 \in Obj$ of [[objects]], a [[function]]
+
+   $$
+     \array{
+       Hom_{\mathcal{C}}(X_1, X_2)
+       &\times&
+       Hom_{\mathcal{C}}(X_2, X_3)
+       &\overset{\circ_{X_1,X_2,X_3}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(X_1, X_3)
+       \\
+       X_1 \overset{f}{\to} X_2
+       &,&
+       X_2 \overset{f}{\to} X_3
+       &\mapsto&
+       X_1 \overset{ g \circ f }{\longrightarrow} X_3
+     }
+   $$
+
+   called _[[composition]]_;
+
+such that:
+
+1. for all [[pairs]] of [[objects]] $X,Y \in Obj_{\mathcal{C}}$ [[unitality]] holds: given
+
+   $$
+     X \overset{f}{\to} Y \;\;\in Hom_{\mathcal{C}}(X,Y)
+   $$
+
+   then
+
+   $$
+     X \overset{id_Y \circ f}{\longrightarrow} Y
+     \;=\;
+     X \overset{f}{\longrightarrow} Y
+     \;=\;
+     X \overset{f \circ id_X }{\longrightarrow} Y
+     \,;
+   $$
+
+1. for all [[quadruples]] of [[objects]] $X_1, X_2, X_3, X_4 \in Obj_{\mathcal{C}}$ [[composition]] satifies _[[associativity]]_: given
+
+   $$
+     X_1
+       \overset{f_{12}}{\to}
+     X_2
+       \overset{f_{23}}{\to}
+     X_3
+       \overset{f_{34}}{\to}
+     X_4
+   $$
+
+   then
+
+   $$
+     X_1 \overset{f_{34} \circ (f_{23} \circ f_{12})}{\longrightarrow} X_4
+     \;\;=\;\;
+     X_1 \overset{(f_{34} \circ f_{23}) \circ f_{12}}{\longrightarrow} X_4
+     \,.
+   $$
+
+=--
+
+The archetypical example of a [[category]] is the [[category of sets]]:
+
++-- {: .num_example #CategoryOfSets}
+###### Example
+**([[Set|category of all sets]])**
+
+The [[class]] of all [[sets]] with [[functions]] between them is a [[category]] (Def. \ref{Categories}), to be denoted _[[Set]]_:
+
+* $Obj_{Set} = \text{class of all sets}$;
+
+* $Hom_{Set}(X,Y) = \text{set of functions from set X to set Y}$;
+
+* $id_X \in Hom_{Set}(X,X) = $ [[identity function]] on set $X$;
+
+* $\circ_{X_1,X_2,X_3} = \text{ordinary composition of functions}$.
+
+=--
+
+More generally all kind of _sets with [[structure]]_, in the sense going back to [[Bourbaki]], form categories, where the [[morphisms]] are the _[[homomorphisms]]_ (whence the name "morphism"!). These are called _[[concrete categories]]_ (we characterize them precisely in Example \ref{StructuredSetsAndFaithfulFunctors}, further below):
+
++-- {: .num_example #ExamplesOfConcreteCategories}
+###### Example
+**(basic examples of [[concrete categories]])**
+
+For $\mathcal{S}$ a kind of [[mathematical structure]], there is the [[category]] (Def. \ref{Categories}) $\mathcal{S}Set$ whose [[objects]] are the corresponding [[structured sets]], and whose [[morphisms]] are the corresponding structure [[homomorphisms]], hence the [[functions]] of underlying sets which respect the given structure.
+
+Basic examples of [[concrete categories]] include the following:
+
+| $\phantom{A}$[[concrete category]]$\phantom{A}$ | $\phantom{A}$[[objects]]$\phantom{A}$ | $\phantom{A}$[[morphisms]]$\phantom{A}$ |
+|-----------------------|-------------|---------------|
+| $\phantom{A}$[[Set]] | $\phantom{A}$[[sets]] | $\phantom{A}$[[functions]]  |
+| $\phantom{A}$[[Top]]  | $\phantom{A}$[[topological spaces]]$\phantom{A}$ |  $\phantom{A}$[[continuous functions]]$\phantom{A}$ |
+| $\phantom{A}$[[Mfd]]${}_{k}$  | $\phantom{A}$[[differentiable manifolds]]$\phantom{A}$ | $\phantom{A}$[[differentiable functions]]$\phantom{A}$ |
+| $\phantom{A}$[[Vect]]  | $\phantom{A}$[[vector spaces]]$\phantom{A}$ | $\phantom{A}$[[linear functions]]$\phantom{A}$ |
+| $\phantom{A}$[[Grp]]   | $\phantom{A}$[[groups]]$\phantom{A}$ | $\phantom{A}$[[group homomorphisms]]$\phantom{A}$ |
+| $\phantom{A}$[[Alg]]   | $\phantom{A}$[[algebras]]$\phantom{A}$ | $\phantom{A}$[[algebra homomorphism]]$\phantom{A}$ |
+
+=--
+
+This is the motivation for the terminology "categories", as the examples in Example \ref{ExamplesOfConcreteCategories} are literally _categories of mathematical structures_. But not all categories are "[[concrete category|concrete]]" in this way.
+
+Some terminology:
+
++-- {: .num_defn #CommutingDiagram}
+###### Definition
+**([[commuting diagram]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}), then a [[directed graph]] with [[edges]] labeled by [[morphisms]] of the category is called a _[[commuting diagram]]_ if for any two [[vertices]] any two ways of passing along edges from one to the other yields the same [[composition]] of the corresponding [[morphisms]].
+
+For example, a _commuting triangle_ is
+
+$$
+  f = h \circ g
+  \phantom{AAAAAA}
+  \array{
+    && X
+    \\
+    & {}^{\mathllap{ g }}\swarrow && \searrow^{ \mathrlap{ f } }
+    \\
+    Y && \underset{\phantom{A}h\phantom{A}}{\longrightarrow}  && Z
+  }
+$$
+
+while a _[[commuting square]]_ is
+
+$$
+  g_1 \circ f_1
+  \;=\;
+  g_2 \circ f_2
+  \phantom{AAAAAA}
+  \array{
+    X &\overset{\phantom{A}f_1\phantom{A}}{\longrightarrow}& Y_1
+    \\
+    {}^{ \mathllap{f_2} }\big\downarrow && \big\downarrow^{\mathrlap{ g_1 }}
+    \\
+    Y_2 &\underset{\phantom{A}g_2\phantom{A}}{\longrightarrow}&  Z
+  }
+$$
+
+=--
+
++-- {: .num_defn #InitialObject}
+###### Definition
+**([[initial object]] and [[terminal object]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}). Then
+
+1. an [[object]] $\ast \in \mathcal{C}$ is called a _[[terminal object]]_ if for every other [[object]] $c \in \mathcal{C}$, there is a unique [[morphism]] from $c$ to $\ast$
+
+   $$
+     c \overset{\exists!}{\longrightarrow} \ast
+   $$
+
+   hence if the [[hom-set]] is a [[singleton]] $\ast \in Set$:
+
+   $$
+     Hom_{\mathcal{C}}(c,\ast) \;\simeq\; \ast
+     \,.
+   $$
+
+1. an [[object]] $\emptyset \in \mathcal{C}$ is called an _[[initial object]]_ if for every other [[object]] $c \in \mathcal{C}$, there is a unique [[morphism]] from $\emptyset$ to $c$
+
+   $$
+     \emptyset \overset{\exists!}{\longrightarrow} c
+   $$
+
+   hence if the [[hom-set]] is a [[singleton]] $\ast \in Set$:
+
+   $$
+     Hom_{\mathcal{C}}(\emptyset,c) \;\simeq\; \ast
+     \,.
+   $$
+
+
+=--
+
++-- {: .num_defn #SmallCategory}
+###### Definition
+**([[small category]])**
+
+If a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) happens to have as [[class]] $Obj_{\mathcal{C}}$ of [[objects]] an actual [[set]] (i.e. a [[small set]] instead of a [[proper class]]), then $\mathcal{C}$ is called a _[[small category]]_.
+
+=--
+
+As usual, there are some trivial examples, that are however usefully made explicit for the development of the theory:
+
++-- {: .num_example #InitialCategoryAndTerminalCategory}
+###### Example
+**([[initial category]] and [[terminal category]])**
+
+1. The _[[terminal category]]_ $\ast$ is [[generalized the|the]] [[category]] (Def. \ref{Categories}) whose [[class]] of [[objects]] is [[generalized the|the]] [[singleton]] [[set]], and which has a single [[morphism]] on this object, necessarily the [[identity morphism]].
+
+1. The _[[initial category]]_ or _[[empty category]]_ $\emptyset$ is the [[category]] (Def. \ref{Categories}) whose [[class]] of [[objects]] is the [[empty set]], and which, hence, has no morphism whatsoever.
+
+Clearly, these are [[small categories]] (Def. \ref{SmallCategory}).
+
+=--
+
++-- {: .num_example #PartiallyOrderedSetsAsSmallCategories}
+###### Example
+**([[preordered sets]] as [[thin categories]])**
+
+Let $(S, \leq)$ be a [[preordered set]]. Then this induces a [[small category]] whose [[set]] of [[objects]] is $S$, and which has precisely one morphism $x \to y$ whenever $x \leq y$, and no such morphism otherwise:
+
+\[
+  \label{RelationsAsMorphismInPartiallyOrderedSet}
+  x \overset{\exists !}{\to} y
+  \phantom{AAA}
+  \text{precisely if}
+  \phantom{AAA}
+  x \leq y
+\]
+
+Conversely, every [[small category]] with at most one morphism from any object to any other, called a _[[thin category]]_, induces on its set of objects the [[structure]] of a  [[partially ordered set]] via (eq:RelationsAsMorphismInPartiallyOrderedSet).
+
+Here the [[axioms]] for [[preordered sets]] and for [[categories]] match as follows:
+
+| |  $\phantom{A}$[[reflexive relation|reflexivity]]$\phantom{A}$ | $\phantom{A}$[[transitive relation|transitivity]]$\phantom{A}$ |
+|----|-----|------|
+| $\phantom{A}$[[partially ordered sets]]$\phantom{A}$ | $\phantom{A}$ $x \leq x$ $\phantom{A}$ | $\phantom{A}$ $(x \leq y \leq z) \Rightarrow (x \leq z)$ $\phantom{A}$ |
+| $\phantom{A}$[[thin categories]]$\phantom{A}$ | $\phantom{A}$[[identity morphisms]]$\phantom{A}$ | $\phantom{A}$[[composition]]$\phantom{A}$ |
+{: style='margin:auto}
+
+=--
+
+
++-- {: .num_defn #Isomorphism}
+###### Definition
+**([[isomorphism]])**
+
+For $\mathcal{C}$ a [[category]] (Def. \ref{Categories}), a [[morphism]]
+
+$$
+  X \overset{f}{\to} Y \;\;\in Hom_{\mathcal{C}}(X,Y)
+$$
+
+is called an _[[isomorphism]]_ if there exists an [[inverse morphism]]
+
+$$
+  Y \overset{f^{-1}}{\longrightarrow} Y \;\; \in Hom_{\mathcal{C}}(Y,X)
+$$
+
+namely a morphism such that the [[compositions]] with $f$ are equal to the [[identity morphisms]] on $X$ and $Y$, respectively
+
+$$
+  f^{-1} \circ f  \;=\; id_X
+  \phantom{AAA}
+  f \circ f^{-1} \;=\; id_Y
+$$
+
+=--
+
++-- {: .num_defn #Groupoid}
+###### Definition
+**([[groupoid]])**
+
+If $\mathcal{C}$ is a [[category]] in which _every_ [[morphism]] is an [[isomorphism]] (Def. \ref{Isomorphism}), then $\mathcal{C}$ is called a _[[groupoid]]_.
+
+=--
+
++-- {: .num_example #DeloopingGroupoid}
+###### Example
+**([[delooping]] [[groupoid]])**
+
+For $G$ a [[group]], there is a [[groupoid]] (Def. \ref{Groupoid}) $\mathbf{B}G$ with a single [[object]], whose single [[hom-set]] is $G$, with [[identity morphism]] the [[neutral element]] and [[composition]] the group operation in $G$:
+
+* $Obj_{\mathbf{B}G} = \ast$
+
+* $Hom_{\mathcal{C}}(\ast,\ast) \;=\; G$
+
+In fact every [[groupoid]] with precisely one object is of the form.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+**([[groupoids]] and [[homotopy theory]])**
+
+Even though [[groupoids]] (Def. \ref{Groupoid}) are special cases of [[categories]] (Def. \ref{Categories}), the theory of groupoids in itself has a rather different flavour than that of category theory: Part of the [[homotopy hypothesis]]-theorem is that the theory of groupoids is really _[[homotopy theory]]_ for the special case of [[homotopy 1-types]].
+
+(In applications in [[homotopy theory]], groupoids are considered mostly in the case that the [[class]] $Obj_{\mathcal{C}}$ of [[objects]] is in fact a [[set]]: _[[small groupoids]]_, Def. \ref{SmallCategory}).
+
+For this reason we will not have more to say about [[groupoids]] here, and instead relegate their discussion to the chapter [[geometry of physics -- homotopy types|on homotopy theory]].
+
+=--
+
+
+There is a range of constructions that provide new categories from given ones:
+
++-- {: .num_example #OppositeCategory}
+###### Example
+**([[opposite category]] and [[formal duality]])**
+
+Let $\mathcal{C}$ be a [[category]]. Then its _[[opposite category]]_ $\mathcal{C}^{op}$ has the same [[objects]] as $\mathcal{C}$, but the direction of the [[morphisms]] is reversed. Accordingly, [[composition]] in the [[opposite category]] $\mathcal{C}^{op}$ is that in $\mathcal{C}$, but with the order of the arguments reversed:
+
+* $Obj_{\mathcal{C}^{op}} \;\coloneqq\; Obj_{\mathcal{C}}$;
+
+* $Hom_{\mathcal{C}^{op}}(X,Y) \;\coloneqq\; Hom_{\mathcal{C}}(Y,X)$.
+
+Hence for every statementa about some [[category]] $\mathcal{C}$ there is a corresponding "dual" statement about its opposite category, which is "the same but with the direction of all morphisms reversed". This relation is known as _[[formal duality]].
+
+=--
+
+
++-- {: .num_example #ProductCategory}
+###### Example
+**([[product category]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then their _[[product category]]_ $\mathcal{C} \times \mathcal{D}$ has as [[objects]] [[pairs]] $(c,d)$ with $c \in Obj_{\mathcal{C}}$ and $d \in Obj_{\mathcal{D}}$, and as morphisms [[pairs]]  $ (c_1 \overset{f}{\to} c_2) \in Hom_{\mathcal{C}}(c_1,c_2)$, $ (d_1 \overset{g}{\to} d_2) \in Hom_{\mathcal{D}}(d_1,d_2)$, and [[composition]] is defined by composition in each entry:
+
+* $Obj_{\mathcal{C} \times \mathcal{D}} \coloneqq Obj_{\mathcal{C}} \times Obj_{\mathcal{D}}$;
+
+* $Hom_{\mathcal{C} \times \mathcal{D}}( (c_1,d_1), (c_2,d_2) ) \coloneqq  Hom_{\mathcal{C}}(c_1,c_2) \times Hom_{\mathcal{D}}( d_1, d_2 )$
+
+* $(f_2, g_2) \circ (f_1, g_1) \;\coloneqq\; ( f_2 \circ f_1, g_2 \circ g_1 )$
+
+=--
+
+
+
++-- {: .num_defn #Functors}
+###### Definition
+**([[functor]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). A _[[functor]] from $\mathcal{C}$ to $\mathcal{D}$_, to be denoted
+
+$$
+  \mathcal{C} \overset{F}{\longrightarrow} \mathcal{D}
+$$
+
+is
+
+1. a [[function]] between the classes of [[objects]]:
+
+   $$
+     F_{Obj} \;\colon\; Obj_{\mathcal{C}} \longrightarrow Obj_{\mathcal{D}}
+   $$
+
+1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of objects a [[function]]
+
+   $$
+     F_{X,Y} \;\colon\;  Hom_{\mathcal{C}}(X,Y) \longrightarrow Hom_{\mathcal{D}}(F_{Obj}(X), F_{Obj}(Y))
+
+such that
+
+1. For each [[object]] $X \in Obj_{\mathcal{C}}$ the [[identity morphism]] is respected:
+
+   $$
+     F_{X,X}(id_X) \;=\; id_{F_{Obj}(X)}
+     \,;
+   $$
+
+1. for each [[triple]] $X_1, X_2, X_3 \in Obj_{\mathcal{C}}$ of [[objects]], [[composition]] is respected: given
+
+   $$
+      X_1 \overset{f}{\longrightarrow} X_2 \overset{g}{\longrightarrow} X_3
+   $$
+
+   then
+
+   $$
+      F_{X_1, X_3}(g \circ f ) \;=\;  F_{X_2, X_3}(g) \circ F_{X_1,X_2}(f)
+      \,.
+   $$
+
+=--
+
+
++-- {: .num_example #CategoriesOfSmallCategories}
+###### Example
+**([[categories]] of [[small categories]] and of [[small groupoids]])**
+
+It is clear that [[functors]] (Def. \ref{Functors}) have a [[composition]] operation given componentwise by the [[composition]] of their component functions. Accordingly, this composition is [[unitality|unital]] and [[associativity|associative]]. This means that there is
+
+1. the [[category]] (Def. \ref{Categories}) _[[Cat]]_ whose [[objects]] are [[small categories]] (Def. \ref{SmallCategory}) and whose [[morphisms]] are [[functors]] (Def. \ref{Functors}) between these
+
+1. the [[category]] (Def. \ref{Categories}) _[[Grpd]]_ whose [[objects]] are [[small groupoids|small]] [[groupoids]] (Def. \ref{Groupoid}) and whose [[morphisms]] are [[functors]] (Def. \ref{Functors}) between these.
+
+=--
+
+
++-- {: .num_example #HomFunctor}
+###### Example
+**([[hom-functor]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}). Then its _[[hom-functor]]_
+
+$$
+  Hom_{\mathcal{C}}
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  Set
+$$
+
+is the [[functor]] (Def. \ref{Functors}) out of the [[product category]] (Def. \ref{ProductCategory}) of $\mathcal{C}$ with its [[opposite category]] to the [[category of sets]], which sends a [[pair]] $X,Y \in \mathcal{C}$ of [[objects]] to the [[hom-set]] $Hom_{\mathcal{C}}(X,Y)$ between them, and which sends a [[pair]] of [[morphisms]], with one of them into $X$ and the other out of $Y$, to the operation of [[composition]] with these morphisms:
+
+$$
+  Hom_{\mathcal{C}}
+  \;\;\colon\;\;\;
+  \array{
+    X_1 & Y_1
+    \\
+    {}^{\mathllap{g}}\big\uparrow & \big\downarrow^{\mathrlap{h}}
+    \\
+    X_2 & Y_2
+  }
+  \;\;\mapsto\;\;
+  \array{
+    Hom_{\mathcal{C}}(X_1, Y_1)
+    \\
+    \big\downarrow^{ \mathrlap{ f \mapsto h \circ f \circ g  } }
+    \\
+    Hom_{\mathcal{C}}(X_2, Y_2)
+  }
+$$
+
+
+=--
+
++-- {: .num_defn #Monomorphism}
+###### Definition
+**([[monomorphism]] and [[epimorphism]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}). Then a [[morphism]] $X \overset{f}{\to } Y$ in $\mathcal{C}$ is called
+
+* a _[[monomorphism]]_ if for every [[object]] $Z \in \mathcal{C}$ the [[hom-functor]] (Example \ref{HomFunctor}) out of $Z$ takes $f$ to an [[injective function]] of [[hom-sets]]:
+
+  $$
+    Hom_{\mathcal{C}}(Z,f)
+    \;\colon\;
+    Hom_{\mathcal{C}}(Z,X)
+     \overset{\phantom{AAA}}{\hookrightarrow}
+    Hom_{\mathcal{C}}(Z,Y)
+    \,;
+  $$
+
+* an _[[epimorphism]]_ if for every [[object]] $Z \in \mathcal{Z}$ the [[hom-functor]] (Example \ref{HomFunctor}) into $Z$ takes $f$ to an [[injective function]]:
+
+  $$
+    Hom_{\mathcal{C}}( f,Z )
+    \;\colon\;
+    Hom_{\mathcal{C}}(Y, Z)
+      \overset{\phantom{AAA}}{\hookrightarrow}
+    Hom_{\mathcal{C}}(X, Z)
+    \,.
+  $$
+
+=--
+
+
++-- {: .num_defn #FullyFaithfulFunctor}
+###### Definition
+**([[full functor|full]], [[faithful functor|faithful]] and [[fully faithful functors]])**
+
+A [[functor]] $F \;\colon\; \mathcal{C} \to \mathcal{D}$ (Def. \ref{Functors}) is called
+
+
+* a _[[full functor]]_ if all its hom-functions are [[surjective functions]]
+
+  $$
+    Hom_{\mathcal{C}}(X,Y)
+      \underoverset{surj}{F_{X,Y}}{\longrightarrow}
+    Hom_{\mathcal{D}}(F(X), F(Y))
+  $$
+
+* a _[[faithful functor]]_ if all its hom-functions are [[injective functions]]
+
+  $$
+    Hom_{\mathcal{C}}(X,Y)
+      \underoverset{inj}{F_{X,Y}}{\longrightarrow}
+    Hom_{\mathcal{D}}(F(X), F(Y))
+  $$
+
+* a _[[fully faithful functor]]_ if all its hom-functions are [[bijective functions]]
+
+  $$
+    Hom_{\mathcal{C}}(X,Y)
+      \underoverset{bij}{F_{X,Y}}{\longrightarrow}
+    Hom_{\mathcal{D}}(F(X), F(Y))
+  $$
+
+A [[fully faithful functor]] is also called a _[[full subcategory]]-inclusion_. We will denote this situation by
+
+$$
+  \mathcal{C} \overset{\phantom{A}F\phantom{A}}{\hookrightarrow} \mathcal{D}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #FullSubcategoryOnClassOfObjects}
+###### Example
+**([[full subcategory]] on a [[subobject|sub]]-[[class]] of [[objects]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Obj_{\mathcal{C}}$ be a [[subobject|sub]]-[[class]] of its [[class]] of [[objects]]. The there is a [[category]] $\mathcal{C}_S$ whose class of [[objects]] is $S$, and whose [[morphisms]] are precisely the morphisms of $\mathcal{C}$, between these given objects:
+
+$$
+  Hom_{\mathcal{C}_S}(s_1, s_2)
+  \;\coloneqq\;
+  Hom_{\mathcal{C}}(s_1, s_2)
+$$
+
+with [[identity morphisms]] and [[composition]] defined as in $\mathcal{C}$. Then there is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor})
+
+$$
+  \array{
+    \mathcal{C}_S &\overset{\phantom{AAAA}}{\hookrightarrow}& \mathcal{C}
+  }
+$$
+
+which is the evident inclsuion on objects, and the [[identity function]] on all [[hom-sets]].
+
+This is called the _[[full subcategory]] of $\mathcal{C}$ on the objects in $S$_.
+
+Beware that not every [[fully faithful functor]] is, in components, exactly of this form, but, assuming the [[axiom of choice]], every fully faithful functor is so up to _[[equivalence of categories]]_ (Def. \ref{EquivalenceOfCategories}).
+
+
+=--
+
+
+The concept of _[[faithful functor]]_ from Def. \ref{FullyFaithfulFunctor} allows to make precise the idea of _[[concrete category]]_ from Example \ref{ExamplesOfConcreteCategories}:
+
++-- {: .num_example #StructuredSetsAndFaithfulFunctors}
+###### Example
+**([[structured sets]] and [[faithful functors]])**
+
+Let $\mathcal{S}$ be a kind of [[mathematical structure]] and let $\mathcal{S} Set$ be the [[category]] of $\mathcal{S}$-[[structured sets]]. Then there is the  [[forgetful functor]]
+
+$$
+  \mathcal{S}Set \longrightarrow Set
+$$
+
+which sends each [[structured set]] to the underlying set ("forgetting" the [[structure]] that it carries), and which sends [[functions]] of sets to themselves. That a [[homomorphism]] of [[structured sets]] is a [[function]] between the underlying sets satisfying a _special condition_ implies that this is a _[[faithful functor]]_ (Def. \ref{FullyFaithfulFunctor}).
+
+Conversely, it makes sense to _define_ [[structured sets]] in general to be the [[objects]] of a [[category]] $\mathcal{C}$ which is equipped with a [[faithful functor]] $\mathcal{C} \overset{faithful}{\longrightarrow} Set$ to the [[category of sets]]. See at _[[structure]]_ for more on this.
+
+=--
+
+
+
++-- {: .num_example #SpacesViaAlgebrasOfFunctions}
+###### Example
+**([[spaces]] seen via their [[algebras of functions]])**
+
+In any given context of [[geometry]], there is typically a [[functor]] which sends any [[space]] of the given kind to its [[algebra of functions]], and which sends an map (i.e. [[homomorphism]]) between the given spaces to the algebra [[homomorphism]] given by precomposition with that map. Schematically:
+
+$$
+  \array{
+    \left\{
+      \text{geometric spaces}
+    \right\}
+    &
+    \overset{
+      \text{algebra of functions}
+    }{
+      \longrightarrow
+    }
+    &
+    \left\{
+      \text{algebras}
+    \right\}^{op}
+    \\
+    \\
+    X_1 &\mapsto& FunctionsOn(X_1)
+    \\
+    {}^{\mathllap{f}}\big\downarrow && \big\uparrow^{ \phi \mapsto \phi \circ f }
+    \\
+    X_2 &\mapsto& FunctionsOn(X_2)
+  }
+$$
+
+Since the precomposition operation reverses the direction of [[morphisms]], as shown, these are functors from the given [[category]] of [[spaces]] to the _[[opposite category|opposite]]_ (Example \ref{OppositeCategory}) of the relevant category of [[algebras]].
+
+In broad generality, there is a [[duality]] ("[[Isbell duality]]") between [[geometry]]/[[spaces]] and [[algebra]]/[[algebras of functions]]) ("[[space and quantity]]", [Lawvere 86](space+and+quantity#Lawvere86)).
+
+We now mention some concrete examples of this general pattern:
+
+$\,$
+
+**[[topological spaces]] and [[C*-algebras]]**
+
+Consider
+
+1. the [[category]] [[Top]]${}_{cpt}$ of [[compact topological space|compact]] [[topological spaces|topological]] [[Hausdorff spaces]] with [[continuous functions]] between them;
+
+1. the category [[C*Alg]] of [[unital algebra|unital]] [[C*-algebras]] over the [[complex numbers]]
+
+from Example \ref{ExamplesOfConcreteCategories}.
+
+Then there is a [[functor]] (Def. \ref{Functors})
+
+$$
+  C(-)
+  \;\colon\;
+  Top_{cpt}
+   \longrightarrow
+  C^\ast Alg^{op}
+$$
+
+from the former to the [[opposite category]] of the latter (Example \ref{OppositeCategory}) which sends any [[compact topological space|compact]] [[topological space]] $X$ to its [[C*-algebra]] $C(X)$ of [[continuous functions]] $X \overset{\phi}{\to} \mathbb{C}$ with values in the [[complex numbers]], and which sends every [[continuous function]] between compact spaces to the [[C*-algebra]]-[[homomorphism]] that is given by [[precomposition]]:
+
+$$
+  C(-)
+  \;\;\;\colon\;\;\;
+  \array{
+    X &\mapsto & C(X)
+    \\
+    {}^{\mathllap{ f }}\big\downarrow
+      &&
+    \big\uparrow^{\mathrlap{ f^\ast : \phi \mapsto \phi \circ f }}
+    \\
+    Y &\mapsto& C(Y)
+  }
+$$
+
+Part of the statement of _[[Gelfand duality]]_ is that this is a [[fully faithful functor]], hence exhibiting a  [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}):
+
+$$
+  Top_{cpt}
+   \overset{\phantom{AAA}}{\hookrightarrow}
+  C^\ast Alg^{op}
+  \,.
+$$
+
+$\,$
+
+**[[smooth manifolds]] and [[real numbers|real]] [[associative algebras]]**
+
+Consider
+
+1. the [[category]] [[SmthMfd]] of [[smooth manifolds]] with [[smooth functions]] between them;
+
+1. the category [[Alg]]${}_{\mathbb{R}}$ of [[associative algebras]] over the [[real numbers]]
+
+from Example \ref{ExamplesOfConcreteCategories}.
+
+Then there is a [[functor]] (Def. \ref{Functors})
+
+$$
+  C^\infty(-)
+  \;\colon\;
+  SmthMfd^{op}
+    \longrightarrow
+  Alg_{\mathbb{R}}^{op}
+$$
+
+from the former to the [[opposite category]] of the latter (Def. \ref{OppositeCategory}), which sends any [[smooth manifold]] $X$ to its [[associative algebra]] $C^\inft(X)$ of [[continuous functions]] $X \overset{\phi}{\to} \mathbb{R}$ to the [[real numbers]], and which sends every [[smooth function]] between smooth manifolds to the [[algebra homomorphism]] that is given by [[precomposition]]:
+
+
+$$
+  C^\infty(-)
+  \;\;\;\colon\;\;\;
+  \array{
+    X &\mapsto & C^\infty(X)
+    \\
+    {}^{\mathllap{ f }}\big\downarrow
+      &&
+    \big\uparrow^{\mathrlap{ f^\ast : \phi \mapsto \phi \circ f }}
+    \\
+    Y &\mapsto& C^\infty(Y)
+  }
+$$
+
+The statement of _[[Milnor's exercise]]_ is that this  this is a [[fully faithful functor]], hence exhibiting a  [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}):
+
+$$
+  SmthMfd
+   \overset{\phantom{AAAA}}{
+     \hookrightarrow
+   }
+  Alg_{\mathbb{R}}^{op}
+  \,.
+$$
+
+These two statements, expressing categories of [[spaces]] as [[full subcategories]] of [[opposite categories]] of categories of [[algebras]], are the starting point for many developments in [[geometry]], such as _[[algebraic geometry]]_, _[[supergeometry]]_, _[[noncommutative geometry]]_ and _[[noncommutative topology]]_.
+
+$\,$
+
+Since a [[fully faithful functor]]/[[full subcategory]]-embedding $\mathcal{C} \hookrightarrow \mathcal{D}$ exhibits the [[objects]] of $\mathcal{D}$ as a consistent generalization of the objects of $\mathcal{C}$, one may turn these examples around and _define_ more general kinds of [[spaces]] as _[[formal duality|formal duals]]_ (Example \ref{OppositeCategory}) to certain [[algebras]]:
+
+$\,$
+
+**[[infinitesimally thickened points]] and [[formal Cartesian spaces]]**
+
+The [[category]] of _[[infinitesimally thickened points]]_ is, by definition, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[commutative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
+
+$$
+  \array{
+    InfThckPoint
+    &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    Alg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{D} &\mapsto& C^\infty(\mathbb{D})
+    \\
+    &&   \coloneqq \mathbb{R} \oplus V
+  }
+$$
+
+on those with a unique [[maximal ideal]] $V$ which is a finite-[[dimensional]] as an $\mathbb{R}$-[[vector space]] and a [[nilradical]]: for each $a \in V$ there exists $n \in \mathbb{N}$ such that $a^n = 0$.
+
+
+The [[category]] of _[[formal Cartesian spaces]]_ is, by definition, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[commutative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
+
+$$
+  \array{
+    FormalCartSp
+    &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    Alg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^n \times \mathbb{D}
+      &\mapsto&
+    C^\infty(\mathbb{R}^n \times \mathbb{D})
+    \\
+    &&  \coloneqq C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}}(\mathbb{R} \oplus V)
+  }
+$$
+
+on those which are [[tensor products of algebras]], of an [[algebra of functions|algebra of]] [[smooth functions]] on a [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{Z}$, and the algebra of functions on an [[infinitesimally thickened point]].
+
+Notice that the [[formal Cartesian spaces]] $\mathbb{R}^{n\vert q}$ are fully _defined_ by this assignment.
+
+
+
+$\,$
+
+**[[super points]] and [[super Cartesian spaces]]**
+
+The [[category]] of **[[super points]]** is _by definition_, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects})
+of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[supercommutative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
+
+$$
+  \array{
+    SuperPoint
+     &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    sCAlg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^{0\vert q}
+    &\mapsto&
+    \Lambda_q
+  }
+$$
+
+on the [[Grassmann algebras]]:
+
+$$
+  \Lambda_q \;\coloneqq\; \mathbb{R}[ \theta_1, \cdots, \theta_q ]/( \theta_i \theta_j = - \theta_j \theta_i )
+ \phantom{AAAAA}
+  q \in \mathbb{N}
+  \,.
+$$
+
+More generally, the [[category]] of **[[super Cartesian spaces]]** is _by definition_, the [[full subcategory]]
+$$
+  \array{
+    SuperCartSp
+    &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    sCAlg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^{n\vert q}
+    &\maspto&
+    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} \Lambda_q
+  }
+$$
+
+on the [[tensor product of algebras]], over $\mathbb{R}$ of the [[algebra of functions|algebra of]] [[smooth functions]] on a [[Cartesian space]], and a [[Grassmann algebra]], as above.
+
+Notice that the [[super Cartesian spaces]] $\mathbb{R}^{n\vert q}$ are fully _defined_ by this assignment.
+
+$\,$
+
+**[[affine schemes]] and [[commutative algebras]]**
+
+The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
+
+\[
+  \label{FormalDualsOfCommutativeRings}
+  Aff_{\mathbb{K}}
+   \overset{\phantom{AAAA}}{\hookrightarrow}
+  CAlg_{\mathbb{K}}
+  \,.
+\]
+
+(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] (Example \ref{OppositeCategory}) in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
+
+=--
+
+
+
+$\,$
+
+### Natural transformations and presheaves
+ {#NaturalTransformationsAndPresheaves}
+
+Given a system of ([[homomorphism|homo-]])[[morphisms]] ("transformations") in some [[category]] (Def. \ref{Categories})
+
+$$
+  F_X \overset{\phantom{A}\eta_X\phantom{A}}{\longrightarrow} G_X
+$$
+
+between [[objects]] that depend on some [[variable]] $X$, hence that are values of [[functors]] of $X$ (Def. \ref{Functors}), one says that this is _natural_, hence a _[[natural transformation]]_ (Def. \ref{NaturalTransformations} below) if it is compatible with ([[homomorphism|homo-]])[[morphisms]] of the variable itself.
+
+These [[natural transformations]] are the evident [[homomorphisms]] between [[functors]]
+
+$$
+  F \overset{\phantom{A}\eta\phantom{A}}{\longrightarrow} G
+  \,,
+$$
+
+and hence there is a _[[category of functors]]_ between any two [[categories]] (Example \ref{FunctorCategory} below).
+
+A key class of such [[functor categories]] are those between an [[opposite category]] $\mathcal{C}^{op}$ and the base [[category of sets]], these are also called _[[categories of presheaves]]_ (Example \ref{CategoryOfPresheaves} below). It makes good sense (Remark \ref{PresaheavesAsGeneralizedSpaces} below) to think of these as categories of "generalized objects of $\mathcal{C}$", a perspective which is made precise by the statement of the _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below) and the resulting _[[Yoneda embedding]]_ (Prop. \ref{YonedaEmbedding} below). This innocent-looking lemma is the heart that makes [[category theory]] tick.
+
+$\,$
+
++-- {: .num_defn #NaturalTransformations}
+###### Definition
+**([[natural transformation]] and [[natural isomorphism]])**
+
+Given two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ (Def. \ref{Categories}) and given two [[functors]] from $\mathcal{C}$ to $\mathcal{D}$ (Def. \ref{Functors}), then a _[[natural transformation]]_ from $F$ to $G$
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{G}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {\phantom{AA}\Downarrow \mathrlap{\eta} \phantom{AA}}
+  \mathcal{D}
+$$
+
+is
+
+* for each [[object]] $X \in Obj_{\mathcal{C}}$ a [[morphism]]
+
+  \[
+    \label{NaturalTransformationComponent}
+    F(X) \overset{ \eta_X }{\longrightarrow} G(X)
+  \]
+
+such that
+
+* for each [[morphism]] $X \overset{f}{\longrightarrow} Y$ we have a [[commuting square]] (Def. \ref{CommutingDiagram}) of the form
+
+  \[
+    \label{Naturality}
+    \eta_Y\circ F(X)
+     \;=\;
+    G(Y)\circ \eta_X
+    \phantom{AAAAAA}
+    \array{
+       F(X) &\overset{\eta_X}{\longrightarrow}& G(X)
+       \\
+       {}^{\mathllap{F(f)}}\downarrow
+         &&
+       \downarrow^{\mathrlap{G(f)}}
+       \\
+       F(Y) &\underset{\eta_Y}{\longrightarrow}& G(Y)
+    }
+  \]
+
+  (sometimes called the _naturality square_ of the natural transformation).
+
+If all the component morphisms $\eta_X$ are [[isomorphisms]] (Def. \ref{Isomorphism}), then the natural transformation $\eta$ is called a _[[natural isomorphism]]_.
+
+For
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{G}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {\phantom{AA}\Downarrow \mathrlap{\eta} \phantom{AA}}
+  \mathcal{D}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \mathcal{C}
+    \underoverset
+      {\underset{H}{\longrightarrow}}
+      {\overset{G}{\longrightarrow}}
+      {\phantom{AA}\Downarrow \mathrlap{\rho} \phantom{AA}}
+  \mathcal{D}
+$$
+
+two [[natural transformations]] as shown, their _[[composition]]_ is the natural transformation
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{H}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {\phantom{A}\Downarrow \mathrlap{\rho \circ \eta} \phantom{AAAA}}
+  \mathcal{D}
+$$
+
+whose components (eq:NaturalTransformationComponent) are the [[compositions]] of the components of $\eta$ and $\rho$:
+
+\[
+  \label{NaturalTransformationComposition}
+  (\rho \circ \eta)_X
+  \;\coloneqq\;
+  \rho_{X} \circ \eta_X
+  \phantom{AAAAA}
+  \array{
+     F(X) &\overset{\eta_X}{\longrightarrow}& G(X)
+      &\overset{\rho_X}{\longrightarrow}& H(X)
+     \\
+     {}^{\mathllap{F(f)}}\downarrow
+       &&
+     \downarrow^{\mathrlap{G(f)}}
+       &&
+     \downarrow^{\mathrlap{H(f)}}
+     \\
+     F(Y) &\underset{\eta_Y}{\longrightarrow}& G(Y)
+       &\underset{\rho_Y}{\longrightarrow}& H(Y)
+  }
+\]
+
+=--
+
+
++-- {: .num_example #ReductionOnFormalCartesianSpace}
+###### Example
+**([[reduction modality|reduction]] of [[formal Cartesian spaces]])**
+
+On the [[category]] [[FormalCartSp]] of [[formal Cartesian spaces]] Example \ref{SpacesViaAlgebrasOfFunctions}, consider the [[endofunctor]]
+
+$$
+  \array{
+    FormalCartSp
+      &\overset{ \phantom{AA}\Re \phantom{AA} }{\longrightarrow}&
+    FormalCartSp
+    \\
+    \mathbb{R}^n \times \mathbb{D}
+    &\mapsto&
+    \mathbb{R}^n
+  }
+$$
+
+which sends each [[formal Cartesian space]] to the underlying ordinary [[Cartesian space]], forgetting the [[infinitesimally thickened point]]-factor. Moreover, on [[morphisms]] this functor is defined via the [[retraction]]
+
+$$
+  \array{
+    id \colon
+    &
+    \mathbb{R}^n
+    &\overset{i}{\longrightarrow}&
+    \mathbb{R}^n \times \mathbb{D}
+    &\overset{r}{\longrightarrow}&
+    \mathbb{R}^n
+    \\
+    &
+    C^\infty(\mathbb{R}^n)
+    &\underoverset{\text{quotient projection}}{i^\ast}{\longleftarrow}&
+    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} (R \oplus V)
+    &\underoverset{f \mapsto f \otimes 1}{r^\ast}{\longleftarrow}&
+    C^\infty(\mathbb{R}^n)
+  }
+$$
+
+as
+
+$$
+  \array{
+     C^\infty(\mathbb{R}^n \times \mathbb{D})
+       &\phantom{AAA}&&
+     C^\infty(\mathbb{R}^n)
+       &\overset{i^\ast}{\longleftarrow}&
+     C^\infty( \mathbb{R}^n \times \mathbb{D} )
+     \\
+     {}^{\mathllap{ f^\ast }}\big\uparrow
+       && &
+     {}^{ \mathllap{\Re( f^\ast ) \coloneqq i^\ast \circ f^\ast \circ r^\ast } }\big\uparrow
+       &&
+     \big\uparrow^{ \mathrlap{ f^\ast } }
+     \\
+     C^\infty(\mathbb{R}^{n'} \times {\mathbb{D}}')
+       &&&
+     C^\infty(\mathbb{R}^{n'})
+       &\overset{r^\ast}{\longrightarrow}&
+     C^\infty( \mathbb{R}^{n'}  \times {\mathbb{D}}')
+  }
+$$
+
+This is indeed functorial due to the fact that any algebra [[homomorphism]] $f^\ast$ needs to send nilpotent elements to nilpoten elements, so that the following identity holds:
+
+\[
+  \label{ProjectingOutNilpotentsLater}
+  i^\ast \circ f^\ast
+  \;=\;
+  i^\ast \circ f^\ast \circ i^\ast \circ r^\ast
+  \,.
+\]
+
+Then there is a [[natural transformation]] (Def. \ref{NaturalTransformations}) from this functor to the [[identity functor]]
+
+$$
+  \Re
+    \overset{ \phantom{A} \eta^{\Re} \phantom{A} }{\longrightarrow}
+  Id
+$$
+
+whose components inject the underlying Cartesian space along the unit point inclusion of the [[infinitesimally thickened point]]:
+
+$$
+  \array{
+    \Re\left( \mathbb{R}^n \times \mathbb{D} \right)
+      \coloneqq
+    &
+    \mathbb{R}^n
+    &\overset{ \phantom{A} \eta^\Re_{\mathbb{R}^n \times \mathbb{D}} }{\longrightarrow}&
+    \mathbb{R}^n \times \mathbb{D}
+    \\
+    &
+    C^\infty(\mathbb{R}^n)
+    &\overset{i^\ast}{\longleftarrow}&
+    C^\infty(\mathbb{R}^n \times \mathbb{D})
+    \\
+    &
+    {}^{ \mathllap{ i^\ast \circ f^\ast \circ r^\ast } }\big\uparrow && \big\uparrow^{\mathrlap{ f^\ast }}
+    \\
+    &
+    C^\infty(\mathbb{R}^{n'})
+    &\overset{i^\ast}{\longleftarrow}&
+    C^\infty(\mathbb{R}^{n'} \times \mathbb{D}')
+  }
+$$
+
+The commutativity of this naturality square commutes is again the identity (eq:ProjectingOutNilpotentsLater).
+
+=--
+
+
++-- {: .num_example #FunctorCategory}
+###### Example
+**([[functor category]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[categories]] (Def. \ref{Categories}). Then the _[[category of functors]]_ between them, to be denoted $[\mathcal{C}, \mathcal{D}]$, is the [[category]] whose [[objects]] are the [[functors]] $\mathcal{C} \overset{F}{\to} \mathcal{D}$ (Def. \ref{Functors}) and whose [[morphisms]] are the [[natural transformations]] $F \overset{\eta}{\Rightarrow} G$ between functors (Def. \ref{NaturalTransformations}) and whose [[composition]] operation is the composition of natural transformations (eq:NaturalTransformationComposition).
+
+=--
+
++-- {: .num_example #CategoryOfPresheaves}
+###### Example
+**([[category of presheaves]])**
+
+Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), a [[functor]] (Def. \ref{Functors}) of the form
+
+$$
+  F \;\colon\; \mathcal{C}^{op} \longrightarrow Set
+  \,,
+$$
+
+hence out of the [[opposite category]] of $\mathcal{C}$ (Def. \ref{OppositeCategory}), into the [[category of sets]] (Example \ref{CategoryOfSets}) is also called a _[[presheaf]]_ (for reasons discussed below) _on $\mathcal{C}$_ or _over $\mathcal{C}$_.
+
+The corresponding [[functor category]] (Example \ref{FunctorCategory})
+
+$$
+  PSh(\mathcal{C})
+  \;\coloneqq\; [\mathcal{C}^{op}, Set]
+$$
+
+is hence called the _[[category of presheaves]]_ over $\mathcal{C}$.
+
+=--
+
+
++-- {: .num_example #RepresentablePresheaves}
+###### Example
+**([[representable presheaves]])**
+
+Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), the [[hom-functor]] (Example \ref{HomFunctor}) gives the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]] (Def. \ref{CategoryOfPresheaves}):
+
+\[
+  \label{YonedaFunctor}
+  \array{
+    y & \colon &
+    \mathcal{C}
+      &\longrightarrow&
+    [\mathcal{C}^{op}, Set]
+    \\
+    \\
+    && && && c_1 &\overset{g}{\longrightarrow}& c_2
+    \\
+    &&
+    X
+    &\mapsto&
+    Hom_{\mathcal{C}}(-,X)
+     &\phantom{AA}\colon\phantom{AA}&
+    Hom_{\mathcal{C}}(c_1,X)
+      &\overset{Hom_{\mathcal{C}}( g, X ) }{\longleftarrow}&
+    Hom_{\mathcal{C}}(c_2, X)
+    \\
+    &&
+    {}^{\mathllap{ f }}\big\downarrow
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(-,f) } }
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( c_2, f )  } }
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(c_1,f) } }
+    \\
+    &&
+    Y &\mapsto&
+    Hom_{\mathcal{C}}(-,Y)
+      &\phantom{AA}\colon\phantom{AA}&
+    Hom_{\mathcal{C}}(c_1,Y)
+      &\overset{Hom_{\mathcal{C}}( g, Y ) }{\longleftarrow}&
+    Hom_{\mathcal{C}}(c_2, Y)
+  }
+\]
+
+The [[presheaves]] $y(X) \coloneqq Hom_{\mathcal{C}}(-,X)$ in the [[image]] of this functor are called the _[[representable presheaves]]_ and $X \in Obj_{\mathcal{C}}$ is called their [[representing object]].
+
+The functor (eq:YonedaFunctor) is also called the _[[Yoneda embedding]]_, due to Prop. \ref{YonedaEmbedding} below.
+
+=--
+
++-- {: .num_remark #PresaheavesAsGeneralizedSpaces}
+###### Remark
+**([[presheaves]] as [[generalized spaces]])**
+
+If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a category of _[[spaces]]_ of sorts, as those in Example \ref{SpacesViaAlgebrasOfFunctions}, then it will be most useful to think of the corresponding [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Def. \ref{CategoryOfPresheaves}) as a category of _[[generalized spaces]] probe-able by_ the test spaces in $\mathcal{C}$ ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)).
+
+Namely, imagine a [[generalized space]] $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathbf{X}$". Here the quotation marks are to warn us that, _at this point_, $\mathbf{X}$ is not defined yet; and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not definable. But we may anyway consider some _abstract set_
+
+
+\[
+  \label{WouldBeMapsIntoGeneralizedSpace}
+  \mathbf{X}(c)  \; \text{"=}  Hom(c,\mathbf{X})"
+\]
+
+whose elements we do want to think of maps (homomorphisms of spaces) from $c$ to $\mathbf{X}$.
+
+That this is indeed consistent, in that we may actually remove the quotation remarks on the right of (eq:WouldBeMapsIntoGeneralizedSpace), is the statement of the _[[Yoneda lemma]]_, which we discuss as Prop. \ref{YonedaLemma} below.
+
+
+A minimum consistency condition for this to make sense (we will consider further conditions later on when we discuss _[[sheaves]]_) is that we may consistently pre-compose the would-be maps from $c$ to $\mathbf{X}$ with actual morphisms $d \overset{f}{\to} c$ in $\mathcal{C}$. This means that for every such morphism there should be a function between these sets of would-be maps
+
+$$
+  \array{
+     c && \mathbf{X}(d)
+     \\
+     {}^{\mathllap{ f }}\big\downarrow
+       &&
+     \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) \, \text{"=}(-)\circ f"}}
+     \\
+     d && \mathbf{X}(c)
+  }
+$$
+
+which respects composition and identity morphisms. But in summary, this says that what we have defined thereby is actually a _[[presheaf]]_ on $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}), namely a functor
+
+$$
+  \mathbf{X} \;\colon\; \mathcal{C}^{op} \longrightarrow Set
+  \,.
+$$
+
+For consistency of regarding this presheaf as a _presheaf of sets of plots of a generalized space_, it ought to be true that every "ordinary space", hence every [[object]] $X \in \mathcal{C}$, is also an example of a "generalized space probe-able by" object of $\mathcal{C}$, since, after all, these are the spaces which may manifestly be probed by objects $c \in \mathcal{C}$, in that morphisms $c \to X$ are already defined.
+
+Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able by objects of $\mathcal{C}$ should be the presheaf $Hom_{\mathcal{C}}(-,X)$, hence the [[representable presheaf|presheaf represented]] by $X$ (Example \ref{RepresentablePresheaves}), via the Yoneda functor (eq:YonedaFunctor).
+
+At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories: on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces. Hence we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$.
+
+That this, too, holds true, is the statement of the _[[Yoneda embedding]]_, which we discuss as Prop. \ref{YonedaEmbedding} below.
+
+Eventually one will want to impose one more consistency condition, namely that plots are determined by their _local behaviour_. This is the _[[sheaf|sheaf condition]]_ (Def. \ref{Sheaf} below) and is what leads over from [[category theory]]  to [[topos theory]] [below](#BasicNotionsOfToposTheory).
+
+=--
+
++-- {: .num_prop #YonedaLemma}
+###### Proposition
+**([[Yoneda lemma]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}), $X \in \mathcal{C}$ any object, and $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ a [[presheaf]] over $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}).
+
+Then there is a [[bijection]]
+
+$$
+  \array{
+    Hom_{[\mathcal{C}^{op},Set]}( y(X), \mathbf(Y) )
+      &\overset{\simeq}{\longrightarrow}&
+    \mathbf{Y}(X)
+    \\
+    \eta
+      &\mapsto&
+    \eta_X(id_X)
+  }
+$$
+
+between the [[hom-set]] of the [[category of presheaves]] from the [[representable presheaf|presheaf represented]] by $X$ (eq:YonedaFunctor) to $\mathbf{Y}$, and the set which is assigned by $\mathbf{Y}$ to $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Example \ref{FunctorCategory}, an element in the set on the left is a [[natural transformation]] (Def. \ref{NaturalTransformations}) of the form
+
+$$
+  \mathcal{C}^{op}
+    \underoverset
+      {\underset{\mathbf{Y}}{\longrightarrow}}
+      {\overset{y(X)}{\longrightarrow}}
+      {\phantom{AA} \Downarrow \mathrlap{\eta}  \phantom{AA}}
+  Set
+$$
+
+hence given by component functions (eq:NaturalTransformationComponent)
+
+$$
+  Hom_{\mathcal{C}}(c,X)
+    \overset{\eta_c}{\longrightarrow}
+  \mathbf{Y}(X)
+$$
+
+for each $c \in \mathcal{C}$. In particular there is the component at $c = X$
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(X,X)
+      &\overset{\eta_X}{\longrightarrow}&
+    \mathbf{Y}(X)
+    \\
+    id_X &\mapsto& \eta_X(id_X)
+  }
+$$
+
+and the [[identity morphism]] $id_X$ on $X$ is a canonical element in the set on the left. The statement to be proven is hence equivalently that for every element in $\mathbf{Y}(X)$ there is precisely one $\eta$ such that this element equals $\eta_X(id_X)$.
+
+Now the condition to be satisfied by $\eta$ is that it makes its [[naturality squares]] (eq:Naturality) commute (Def. \ref{CommutingDiagram}). This includes those of the form
+
+$$
+  \array{
+    id_X
+    \in
+    &
+    Hom_{\mathcal{C}}(X,X)
+      &\overset{\eta_X}{\longrightarrow}&
+    \mathbf{Y}(X)
+    \\
+    &
+    {}^{\mathllap{ Hom_{\mathcal{C}}(f,X) }}
+    \big\downarrow
+      &&
+    \big\downarrow{}^{\mathrlap{\mathbf{Y}(f)}}
+    \\
+    &
+    Hom_{\mathcal{C}}(Y,X)
+    &\underset{\eta_Y}{\longrightarrow}&
+    \mathbf{Y}(Y)
+  }
+  \phantom{AAAA}
+  \array{
+     \{id_X\}
+     &\longrightarrow&
+     \{\eta_X(id_X)\}
+     \\
+     \big\downarrow
+     &&
+     \big\downarrow
+     \\
+     \{f\}
+     &\longrightarrow&
+     \big\{ \eta_Y(F) = \mathbf{Y}(f)( \eta_X(id_X) ) \big\}
+  }
+$$
+
+for any [[morphism]]
+
+$$
+  (Y \overset{f}{\longrightarrow} X)
+    \;\in\;
+  Hom_{\mathcal{C}}(Y,X)
+  \,.
+$$
+
+As the diagram chase of elements on the right shows, this commutativity (Def. \ref{CommutingDiagram}) fixes $\eta_Y(f)$ for all $Y \in \mathcal{C}$ and all $f \in Hom_{\mathcal{C}}(Y,X)$ uniquely in terms of the element $\eta_{X}(id_X)$.
+
+It remains only to see that there is no condition on the element $\eta_X(id_X)$, hence that with $\eta_Y(f)$ defined this way, the commutativity of all the remaining naturality squares is implies: The general naturality square for a morphism $Y_2 \overset{g}{\longrightarrow} Y_1$ is of the form
+
+$$
+  \array{
+    &
+    Hom_{\mathcal{C}}(Y_1,X)
+      &\overset{\eta_{Y_1}}{\longrightarrow}&
+    \mathbf{Y}(Y_1)
+    \\
+    &
+    {}^{\mathllap{ Hom_{\mathcal{C}}(g,X) }}
+    \big\downarrow
+      &&
+    \big\downarrow{}^{\mathrlap{\mathbf{Y}(g)}}
+    \\
+    &
+    Hom_{\mathcal{C}}(Y_2,X)
+    &\underset{\eta_{Y_2}}{\longrightarrow}&
+    \mathbf{Y}(Y_2)
+  }
+  \phantom{AAAA}
+  \array{
+     \{f_1\}
+     &\longrightarrow&
+     \{ \mathbf{Y}(f_1)( \eta_X(id_X) )  \}
+     \\
+     \big\downarrow
+     &&
+     \big\downarrow
+     \\
+     \{f_2 = f_1\circ g\}
+     &\longrightarrow&
+     \{\mathbf{Y}(f_2)( \eta_X(id_X) ) = \mathbf{Y}(g) \circ \mathbf{Y}(f_1) ( \eta_X(id_X) ) \}
+  }
+$$
+
+As shown on the right, the commutativity of this diagram now follows from the [[functor|functoriality]] $\mathbf{Y}(f_2) = \mathbf{Y}(f_1 \circ g)$ of the [[presheaf]] $\mathbf{Y}$.
+
+=--
+
+As a direct corollary, we obtain the statement of the [[Yoneda embedding]]:
+
++-- {: .num_prop #YonedaEmbedding}
+###### Proposition
+**([[Yoneda embedding]])**
+
+The assignment (eq:YonedaFunctor) of [[representable presheaves|represented presheaves]] (Example \ref{RepresentablePresheaves})  is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}), hence exhibits a [[full subcategory]] inclusion
+
+$$
+  y
+  \;\;\colon\;\;
+  \array{
+    \mathcal{C}
+      &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    [\mathcal{C}^{op}, Set]
+    \\
+    X
+    &\mapsto&
+    Hom_{\mathcal{C}}(-,X)
+  }
+$$
+
+of the given [[category]] $\mathcal{C}$ into its [[category of presheaves]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that for all $X_1, X_2 \in Obj_{\mathcal{C}}$ the function
+
+\[
+  \label{HomFunctionForYonedaEmbedding}
+  \array{
+    Hom_{\mathcal{C}}(X_1, X_2)
+      &\overset{ }{\longrightarrow}&
+    Hom_{[\mathcal{C}^{op}, Set]}
+    \big(
+      Hom_{\mathcal{C}}(-,X_1)
+       \;,\;
+      Hom_{\mathcal{C}}(-,X_2)
+    \big)
+    \\
+    f
+      &\mapsto&
+    Hom_{\mathcal{C}}(-,f)
+  }
+\]
+
+is a [[bijection]]. But the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) states a bijection the other way around
+
+$$
+  \array{
+    Hom_{[\mathcal{C}^{op}, Set]}
+    \big(
+      Hom_{\mathcal{C}}(-,X_1)
+       \;,\;
+      Hom_{\mathcal{C}}(-,X_2)
+    \big)
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-,X_2)(X_1)
+      &=&
+    Hom_{\mathcal{C}}(X_1, X_2)
+    \\
+    \eta && \mapsto && \eta_{X_1}( id_{X_1} )
+    \\
+    Hom_{\mathcal{C}}(-,f)
+      && \mapsto &&
+    Hom_{\mathcal{C}}(X_1,f)(id_{X_1}) = f
+   }
+$$
+
+and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunctionForYonedaEmbedding). This follows by inspection, as shown in the third line above.
+
+
+=--
+
+$\,$
+
+
+### Adjunctions
+  {#Adjunctions}
+
+The concepts of [[categories]], [[functors]] and [[natural transformations]] constiture the "language of categories". This language now allows to formulate the concept of _[[adjunction]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below) which is arguably what [[category theory]], as a theory, is all about.
+
+We discuss four equivalent definitions of [[adjunctions]]:
+
+1. via hom-isomorphism (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below);
+
+1. via [[adjunction unit]] and -[[adjunction counit|counit]] satisfying [[triangle identities]] (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat});
+
+1. via [[representing objects]] (Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject});
+
+1. via [[universal morphisms]] (Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} below).
+
+Then we discuss some key properties:
+
+1. uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints} below),
+
+1. epi/mono/iso-characterization of adjunction (co-)units (Prop. \ref{FullyFaithfulAndInvertibleAdjoints} below).
+
+
+$\,$
+
+
++-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
+###### Definition
+**([[adjoint functors]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}), and let
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{}
+  \mathcal{C}
+$$
+
+be a [[pair]] of [[functors]] between them (Def. \ref{Functors}), as shown. Then this is called a _pair of [[adjoint functors]]_ (or an _[[adjoint pair]] of [[functors]]_) with $L$ _[[left adjoint]]_ and $R$ _[[right adjoint]]_, denoted
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{C}
+$$
+
+if there exists a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) between the [[hom-functors]] (Example \ref{HomFunctor}) of the following form:
+
+\[
+  \label{HomIsomorphismForAdjointFunctors}
+  Hom_{\mathcal{D}}(L(-),-) \;\simeq\; Hom_{\mathcal{C}}(-,R(-))
+  \,.
+\]
+
+This means that for all [[objects]] $c \in \mathcal{C}$ and $d \in \mathcal{D}$ there is a [[bijection]] of [[hom-sets]]
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(c),d)
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c,R(d))
+    \\
+    ( L(c) \overset{f}{\to} d )
+    &\mapsto&
+    (c \overset{\widetilde f}{\to} R(d))
+  }
+$$
+
+which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is called the _adjunction hom-isomorphism_ and the [[image]] $\widetilde f$ of amorphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the _[[adjunct]]_ of $\widetilde f$.
+
+Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphisms]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
+
+\[
+  \label{NaturalitySquareForAdjointnessOfFunctors}
+  \array{
+    Hom_{\mathcal{D}}(L(c_1), d_1)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_1, R(d_1))
+    \\
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(g), h)}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(g, R(h))}}
+    \\
+    Hom_{\mathcal{D}}(L(c_2),d_2)
+    &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_2,R(d_2))
+  }
+\]
+
+[[commuting square|commutes]] (Def. \ref{CommutingDiagram}), where the vertical morphisms are given by the [[hom-functor]] (Example \ref{HomFunctor}).
+
+Explicitly, this commutativity, in turn, means that for every morphism $f \;\colon\; L(c_1) \to d_1$ with [[adjunct]] $\widetilde f \;\colon\; c_1 \to R(d_1)$, the adjunct of the [[composition]] is
+
+$$
+  \widetilde{
+  \array{
+    L(c_1) &\overset{f}{\longrightarrow}& d_1
+    \\
+    {}^{\mathllap{L(g)}}\big\uparrow && \big\downarrow^{\mathrlap{h}}
+    \\
+    L(c_2) && d_2
+  }
+  }
+  \;\;\;=\;\;\;
+  \array{
+    c_1 &\overset{\widetilde f}{\longrightarrow}& R(d_1)
+    \\
+    {}^{\mathllap{g}}\big\uparrow && \big\downarrow^{\mathrlap{R(h)}}
+    \\
+    c_2 && R(d_2)
+  }
+$$
+
+=--
+
++-- {: .num_defn #AdjunctionUnitFromHomIsomorphism}
+###### Definition
+**([[adjunction unit]] and [[adjunction counit|counit]])
+
+Given a pair of [[adjoint functors]]
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{D}
+$$
+
+according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one says that
+
+1. for any $c \in \mathcal{C}$ the [[adjunct]] of the [[identity morphism]] on  $L(c)$ is the _[[unit of an adjunction|unit morphism]]_ of the adjunction at that object, denoted
+
+   $$
+     \eta_c \coloneqq \widetilde{id_{L(c)}} \;\colon\; c \longrightarrow R(L(c))
+   $$
+
+1. for any $d \in \mathcal{D}$ the [[adjunct]] of the [[identity morphism]] on  $R(d)$ is the _[[counit of an adjunction|counit morphism]]_ of the adjunction at that object, denoted
+
+   $$
+     \epsilon_d \;\colon\; L(R(d)) \longrightarrow d
+   $$
+
+
+
+=--
+
++-- {: .num_remark #AdjointTriples}
+###### Remark
+**([[adjoint triples]])**
+
+It happens that there are subsequence [[adjoint functors]]:
+
+If two functors are [[adjoint functors|adjoint]] to each other as in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, we also say that we have an _[[adjoint pair]]_:
+
+$$
+  L \;\dashv\; R
+  \,.
+$$
+
+If one of these has yet another adjoint in the other direction, we speak of an _[[adjoint triple]]_
+
+\[
+  \label{AdjointTriple}
+  L \;\dashv\; C \;\dashv\; R
+  \,.
+\]
+
+Similarly there are [[adjoint quadruples]], etc.
+
+Notice that in the case of an [[adjoint triple]] (eq:AdjointTriple), the [[adjunction unit]] of $C \dashv R$ and the [[adjunction counit]] of $L \dashv R$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) provide, for each object $X$ in the [[domain]] of $C$, a [[diagram]]
+
+\[
+  \label{OppositeExtremesAdjointTriple}
+  L(C(X))
+   \overset{ \phantom{AA} \epsilon_X \phantom{AA} }{\longrightarrow}
+  X
+    \overset{ \phantom{AA} \eta_X \phantom{AA} }{\longrightarrow}
+  R(C(X))
+\]
+
+which is usefully thought of as exhibiting the nature of $X$ as being in between two _opposite extreme aspects_ $L(C(X))$ and $R(C(X))$ of $X$. This is illustrated by the following examples, and formalized by the concept of _[[modalities]]_ that we turn to in Def. \ref{ModalOperator} below.
+
+
+
+=--
+
+
+
++-- {: .num_example #FloorAndCeilingAsAdjointFunctors}
+###### Example
+**([[floor]] and [[ceiling]] as [[adjoint functors]])**
+
+Consider the canonical inclusion
+
+$$
+  \mathbb{Z}_{\leq}
+    \overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}
+  \mathbb{R}_{\leq}
+$$
+
+of the [[integers]] into the [[real numbers]], both regarded as [[preorders]] in the standard way ("lower or equal"). Regarded as [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) of the corresponding [[thin categories]], via Example \ref{PartiallyOrderedSetsAsSmallCategories}, this inclusion functor has both a left and right [[adjoint functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets]):
+
+* the [[left adjoint]] to $\iota$ is the [[ceiling function]];
+
+* the [[right adjoint]] to $\iota$ is the [[floor function]];
+
+forming an [[adjoint triple]] (Def. \ref{AdjointTriples})
+
+\[
+  \label{FloorCeilingAdjointTriple}
+  \lceil(-)\rceil \;\;\dashv\;\; \iota \;\;\dashv\;\; \lfloor (-) \rfloor
+  \,.
+\]
+
+The [[adjunction unit]] and [[adjunction counit]] express that each real number is in between its "opposite extreme integer aspects" (eq:OppositeExtremesAdjointTriple) given by floor and ceiling
+
+$$
+  \iota \lfloor x \rfloor \;\overset{\epsilon_X}{\leq}\; x \;\overset{\eta_x}{\leq}\; \iota \lceil x \rceil
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, observe that we indeed have [[functors]] (Def. \ref{Functors})
+
+$$
+  \lfloor(-)\rfloor \;,\;
+  \lceil(-)\rceil
+  \;\;\colon\;
+  \mathbb{R}
+    \longrightarrow
+  \mathbb{Z}
+$$
+
+since floor and ceiling preserve the ordering relation.
+
+Now in view of the identification of [[preorders]] with [[thin categories]] in Example \ref{PartiallyOrderedSetsAsSmallCategories}, the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) defining [[adjoint functors]] of the form $\iota \dashv \lfloor(-)\rfloor$ says for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, that we have
+
+$$
+  \underset{ \in \mathbb{Z}}{\underbrace{n \leq \lfloor x \rfloor}}
+  \;\Leftrightarrow\;
+  \underset{ \in \mathbb{R}}{\underbrace{n \leq x }}
+  \,.
+$$
+
+This is clearly already the defining condition on the [[floor]] function $\lfloor x \rfloor$.
+
+Similarly, the  hom-isomorphism defining [[adjoint functors]] of the form $\lceil(-)\rceil \dashv \iota$ says that for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, we have
+
+$$
+  \underset{ \in \mathbb{Z}}{\underbrace{\lceil x \rceil \leq n}}
+  \;\Leftrightarrow\;
+  \underset{ \in \mathbb{R}}{\underbrace{x \leq n }}
+  \,.
+$$
+
+This is evidently already the defining condition on the [[floor]] function $\lfloor x \rfloor$.
+
+
+Notice that in both cases the condition of a _[[natural isomorphism]]_ in both variables, as required for an [[adjunction]], is automatically satisfied: For let $x \leq x'$ and $n' \leq n$, then naturality as in (eq:NaturalitySquareForAdjointnessOfFunctors) means, again in view of the identifications in Example \ref{PartiallyOrderedSetsAsSmallCategories}, that
+
+$$
+  \array{
+    (n \leq \lfloor x \rfloor) &\Leftrightarrow& (n \leq x)
+    \\
+    \Downarrow && \Downarrow
+    \\
+    (n' \leq \lfloor x' \rfloor) &\Leftrightarrow& (n' \leq x')
+    \\
+    \\
+    \in \mathbb{Z} && \in \mathbb{R}
+  }
+$$
+
+Here the logical implications are equivalently functions between [[sets]] that are either [[empty set|empty]] or [[singletons]]. But Functions between such sets are unique, when they exist.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider the "[[forgetful functor]]" $Top \overset{U}{\longrightarrow} Set$ from the [[category]] [[Top]] of [[topological spaces]] (Example \ref{ExamplesOfConcreteCategories}) to the [[category of sets]] (Def. \ref{CategoryOfSets}) which sends every [[topological space]] to its underlying [[set]].
+
+This has
+
+* a [[left adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) $Disc$ which equips a set with its [[discrete topology]],
+
+* a [[right adjoint]] $coDisc$ which equips a set with the [[codiscrete topology]].
+
+These hence form an [[adjoint triple]] (Remark \ref{AdjointTriples})
+
+$$
+  Disc
+  \;\dashv\;
+  U
+  \;\dashv\;
+  coDisc
+  \,.
+$$
+
+Hence the [[adjunction unit]] of $Disc \dashv U$ and the [[adjunction counit]] of $U \dashv coDisc$ exhibit every [[topological space|topology]] on a given set as "in between the opposite extremes" (eq:OppositeExtremesAdjointTriple) of the discrete and the co-discrete
+
+$$
+  Disc(U(X))
+    \overset{\epsilon}{\longrightarrow}
+  X
+    \overset{\eta}{\longrightarrow}
+  coDisc(U(X))
+  \,.
+$$
+
+=--
+
+$\,$
+
+We now consider a sequence of equivalent reformulations of the condition of adjointness.
+
++-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
+###### Proposition
+**(general [[adjuncts]] in terms of [[adjunction unit|unit/counit]])**
+
+Consider a pair of [[adjoint functors]]
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{D}
+$$
+
+according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, with [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ according to Def. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+Then
+
+1. The [[adjunct]] $\widetilde f$ of any morphism $L(c) \overset{f}{\to} d$ is obtained from $R$ and $\eta_c$ as the [[composition|composite]]
+
+   \[
+     \label{AdjunctFormula}
+     \widetilde f
+     \;\colon\;
+     c
+       \overset{\eta_c}{\longrightarrow}
+     R(L(c))
+       \overset{R(f)}{\longrightarrow}
+     R(d)
+   \]
+
+   Conversely, the [[adjunct]] $f$ of any morphism $c \overset{\widetilde f}{\longrightarrow} R(d)$ is obtained from $L$ and $\epsilon_d$ as
+
+   \[
+     \label{ConverseAdjunctFormula}
+     f
+     \;\colon\;
+     L(c)
+       \overset{L(\widetilde f)}{\longrightarrow}
+     R(L(d))
+       \overset{\epsilon_d}{\longrightarrow}
+     d
+   \]
+
+1. The [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ are components of [[natural transformations]] of the form
+
+   $$
+     \eta \;\colon\; Id_{\mathcal{C}} \Rightarrow R \circ L
+   $$
+
+   and
+
+   $$
+     \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
+   $$
+
+1. The [[adjunction unit]] and [[adjunction counit]] satisfy the [[triangle identities]], saying that
+
+   \[
+      \label{TriangleIdentities}
+      id_{L(c)}
+      \;\colon\;
+      L(c)
+        \overset{L(\eta_c)}{\longrightarrow}
+      L(R(L(c)))
+        \overset{\epsilon_{L(c)}}{\longrightarrow}
+      L(c)
+   \]
+
+   and
+
+   $$
+     id_{R(d)}
+     \;\colon\;
+     R(d)
+       \overset{\eta_{R(d)}}{\longrightarrow}
+     R(L(R(d)))
+       \overset{R(\epsilon_d)}{\longrightarrow}
+     R(d)
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, consider the [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) in the form
+
+$$
+  \array{
+    id_{L(c)}
+     \in
+    &
+    Hom_{\mathcal{D}}(L(c), L(c))
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c, R(L(c)))
+    \\
+    &
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(id), f)}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(id, R(f))}}
+    \\
+    &
+    Hom_{\mathcal{D}}(L(c), d)
+    &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}( c, R(d) )
+  }
+$$
+
+and consider the element $id_{L(c_1)}$ in the top left entry. Its image under going down and then right in the diagram is $\widetilde f$, by Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}. On the other hand, its image under going right and then down is $ R(f)\circ \eta_{c}$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown, for the adjunct of $f$.
+
+The converse formula follows analogously.
+
+The third statement follows directly from this by applying these formulas for the [[adjuncts]] twice and using that the result must be the original morphism:
+
+$$
+  \begin{aligned}
+    id_{L(c)}
+    & =
+    \widetilde \widetilde { id_{L(c)} }
+    \\
+    & = \widetilde{ c \overset{\eta_c}{\to} R(L(c))  }
+    \\
+    & =
+     L(c)
+       \overset{L(\eta_c)}{\longrightarrow}
+     L(R(L(c)))
+       \overset{\epsilon_{L(c)}}{\longrightarrow}
+     L(c)
+  \end{aligned}
+$$
+
+For the second statement, we have to show that for every moprhism $f \colon c_1 \to c_2$ the following [[commuting square|square commutes]]:
+
+$$
+  \array{
+     c_1 &\overset{f}{\longrightarrow}& c_2
+     \\
+     {}^{\mathllap{\eta_{c_1}}}\big\downarrow
+       &&
+     \big\downarrow^{\mathrlap{\eta_{c_2}}}
+     \\
+     R(L(c_1))
+      &\underset{ R(L(f)) }{\longrightarrow}&
+     R(L(c_2))
+  }
+$$
+
+To see this, consider the [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) in the form
+
+$$
+  \array{
+    id_{L(c_2)}
+    \in
+    & Hom_{\mathcal{D}}(L(c_2), L(c_2))
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_2, R(L(c_2)))
+    \\
+    &
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(f),id_{L(c_2)})}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(f, R(id_{L(c_2)}))}}
+    \\
+    &
+    Hom_{\mathcal{D}}(L(c_1),L(c_2))
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_1,R(L(c_1)))
+  }
+$$
+
+The image of the element $id_{L(c_2)}$ in the top left along the right and down is $ f \circ \eta_{c_2}$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}, while its image down and then to the right is $\widetilde {L(f)} = R(L(f)) \circ \eta_{c_1}$, by the previous statement. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown.
+
+The argument for the naturality of $\epsilon$ is directly analogous.
+
+
+=--
+
++-- {: .num_prop #AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat}
+###### Proposition
+**([[adjoint functors]] equivalent to [[adjunction]] in [[Cat]])**
+
+Two functors
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{}
+  \mathcal{C}
+$$
+
+are an [[adjoint pair]] in the sense that there is a [[natural isomorphism]] (eq:HomIsomorphismForAdjointFunctors) according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, precisely if they participate in an _[[adjunction]]_ in the [[2-category]] [[Cat]], meaning that
+
+1. there exist [[natural transformations]]
+
+   $$
+     \eta \;\colon\; Id_{\mathcal{C}} \Rightarrow R \circ L
+   $$
+
+   and
+
+   $$
+     \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
+   $$
+
+2. which satisfy the [[triangle identities]]
+
+   $$
+      id_{L(c)}
+      \;\colon\;
+      L(c)
+        \overset{L(\eta_c)}{\longrightarrow}
+      L(R(L(c)))
+        \overset{\epsilon_{L(c)}}{\longrightarrow}
+      L(c)
+   $$
+
+   and
+
+   $$
+     id_{R(d)}
+     \;\colon\;
+     R(d)
+       \overset{\eta_{R(d)}}{\longrightarrow}
+     R(L(R(d)))
+       \overset{R(\epsilon_d)}{\longrightarrow}
+     R(d)
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That a hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) implies units/counits satisfying the [[triangle identities]] is the statement of the second two items of Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+Hence it remains to show the converse. But the argument is along the same lines as the proof of Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}: We now _define_ forming of adjuncts by the formula (eq:AdjunctFormula). That the resulting assignment $f \mapsto \widetilde f$ is an [[isomorphism]] follows from the computation
+
+$$
+  \begin{aligned}
+    \widetilde {\widetilde f}
+    & =
+    \widetilde{ c \overset{\eta_c}{\to} R(L(c)) \overset{R(f)}{\to} R(d) }
+    \\
+    & =
+    L(c) \overset{L(\eta_c)}{\to} L(R(L(c))) \overset{L(R(f))}{\to} L(R(d)) \overset{\epsilon_d}{\to} d
+    \\
+    & =
+    L(c) \overset{L(\eta_c)}{\to} L(R(L(c)))
+         \overset{ \epsilon_{L(c)} }{\to}  L(c)
+         \overset{f}{\longrightarrow} d
+    \\
+    & =  L(c) \overset{f}{\longrightarrow} d
+  \end{aligned}
+$$
+
+where, after expanding out the definition, we used [[natural transformation|naturality]] of $\epsilon$ and then the [[triangle identity]].
+
+Finally, that this construction satisfies the naturality condition (eq:NaturalitySquareForAdjointnessOfFunctors) follows from the functoriality of the functors involved, and the naturality of the unit/counit:
+
+$$
+  \array{
+    c_2 &\overset{ \eta_{c_2} }{\longrightarrow}& R(L(c_2))
+    \\
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{R(L(g))}}
+    & \searrow^{\mathrlap{ R( L(g) \circ f ) }}
+    \\
+    c_1
+      &\overset{\eta_{c_1}}{\longrightarrow}&
+    R(L(c_1))
+     &\overset{R(f)}{\longrightarrow}&
+    R(d_1)
+    \\
+    && & {}_{R( h\circ f)}\searrow & \downarrow^{\mathrlap{ R(h) }}
+    \\
+    && && R(d_2)
+  }
+$$
+
+
+=--
+
+
+
+The condition (eq:HomIsomorphismForAdjointFunctors) on adjoint functors $L \dashv R$ in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} implies in particular that for every [[object]] $d \in \mathcal{D}$ the functor $Hom_{\mathcal{D}}(L(-),d)$ is a _[[representable functor]]_ with _[[representing object]]_ $R(d)$. The following Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} observes that the existence of such [[representing objects]] for all $d$ is, in fact, already sufficient to imply that there is a right adjoint functor.
+
+This equivalent perspective on adjoint functors makes manifest that adjoint functors are, if they exist, unique up to natural isomorphism, this is Prop. \ref{UniquenessOfAdjoints} below.
+
+
+
++-- {: .num_prop #AdjointFunctorFromObjectwiseRepresentingObject}
+###### Proposition
+**([[adjoint functor]] from objectwise [[representing objects]])**
+
+A [[functor]] $L \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ has a [[right adjoint]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, already if
+for all [[objects]] $d \in \mathcal{D}$ there is an object $R(d) \in \mathcal{C}$ such that there is a [[natural isomorphism]]
+
+   $$
+     Hom_{\mathcal{D}}(L(-),d)
+     \underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}
+     Hom_{\mathcal{C}}(-,R(d))
+     \,,
+   $$
+
+   hence for each [[object]] $c \in \mathcal{C}$ a [[bijection]]
+
+   $$
+     Hom_{\mathcal{D}}(L(c),d)
+     \underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}
+     Hom_{\mathcal{C}}(c,R(d))
+   $$
+
+   such that for each [[morphism]] $g \;\colon\; c_2 \to c_1$, the following [[commuting diagram|diagram commutes]]
+
+   \[
+     \label{HalfNaturalitySquareForAdjointnessOfFunctors}
+     \array{
+       Hom_{\mathcal{D}}(L(c_1),d)
+         &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(c_1,R(d))
+       \\
+       {}^{\mathllap{ Hom_{\mathcal{C}}(L(g),id_d) }}
+       \big\downarrow
+       &&
+       \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( f, id_{R(d)}  ) }}
+       \\
+       Hom_{\mathcal{D}}(L(c_2),d)
+         &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(c_2,R(d))
+     }
+   \]
+
+   (This is as in (eq:NaturalitySquareForAdjointnessOfFunctors), except that only naturality in the first variable is required.)
+
+In this case there is a unique way to extend $R$ from a function on [[objects]] to a function on [[morphisms]] such as to make it a [[functor]] $R \colon \mathcal{D} \to \mathcal{C}$ which is [[right adjoint]] to $L$.
+, and hence the statement is that with this, naturality in the second variable is already implied.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that
+
+1. in the language of [[presheaves]] (Example \ref{CategoryOfPresheaves}) the assumption is that for each $d \in \mathcal{D}$ the presheaf
+
+   $$
+     Hom_{\mathcal{D}}(L(-),d)
+     \;\in\;
+     [\mathcal{D}^{op}, Set]
+   $$
+
+   is [[representable functor|represented]] (eq:YonedaFunctor) by the object $R(d)$, and [[natural transformation|naturally]] so.
+
+1. In terms of the [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding})
+
+   $$
+     y
+       \;\colon\;
+     \mathcal{D}
+      \hookrightarrow
+     [\mathcal{D}^{op}, Set]
+   $$
+
+   we have
+
+   \[
+     \label{YonedanotationForRepresentable}
+     Hom_{\mathcal{C}}(-,R(d))
+     =
+     y(R(d))
+   \]
+
+
+
+The condition (eq:NaturalitySquareForAdjointnessOfFunctors) says equivalently that $R$ has to be such that for all [[morphisms]] $h \;\colon\; d_1 \to d_2 $ the following diagram in the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ [[commuting diagram|commutes]]
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(-),d_1)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-,R(d_1))
+    \\
+    {}^{\mathllap{ Hom_{\mathcal{C}}( L(-) , h ) }}
+    \big\downarrow
+    &&
+    \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( -, R(h)  ) }}
+    \\
+    Hom_{\mathcal{D}}(L(-),d_2)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-, R(d_2))
+  }
+$$
+
+This manifestly has a unique solution
+
+$$
+  y(R(h))
+  \;=\;
+  Hom_{\mathcal{C}}(-,R(h))
+$$
+
+for every morphism $h \colon d_1 \to d_2$ under  $y(R(-))$ (eq:YonedanotationForRepresentable). But the [[Yoneda embedding]] $y$ is a [[fully faithful functor]] (Prop. \ref{YonedaEmbedding}), which means that thereby also $R(h)$ is uniquely fixed.
+
+=--
+
+We consider one more equivalent characterization of [[adjunctions]]:
+
++-- {: .num_defn #UniversalArrow}
+###### Definition
+**([[universal morphism]])**
+
+Let $\mathcal{C}, \mathcal{D}$ be two [[categories]] (Def. \ref{Categories})
+and let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]] (Def. \ref{Functors})
+
+Then for $c\in \mathcal{C}$ an [[object]], a _[[universal morphism]] from $c$ to $R$_ is
+
+1. an [[object]] $L(c)\in \mathcal{D}$,
+
+1. a [[morphism]] $\eta_c \;\colon\; c \to R(L(c))$, to be called the _[[adjunction unit|unit]]_,
+
+such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors through this unit $\eta_c$ as
+
+\[
+  \label{UniversalArrowFactorization}
+  f
+  \;=\;
+  \eta_c \circ R(\widetilde f)
+  \phantom{AAAA}
+  \array{
+    && c
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R(L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d)
+    \\
+    \\
+    L(c) &&\underset{ \widetilde f}{\longrightarrow}&& d
+  }
+\]
+
+for a _unique_ morphism $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the [[adjunct]] of $f$.
+
+=--
+
++-- {: .num_prop #CollectionOfUniversalArrowsEquivalentToAdjointFunctor}
+###### Proposition
+**(collection of [[universal morphisms]] equivalent to [[adjoint functor]])**
+
+Let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]] (Def. \ref{Functors}). Then the following are equivalent:
+
+1. $R$ has a [[left adjoint]] functor $L \colon \mathcal{C} \to \mathcal{D}$ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets},
+
+
+1. For every [[object]] $c \in \mathcal{C}$ there is a [[universal morphism]] $c \overset{\eta_c}{\longrightarrow} R(L(c))$, according to Def. \ref{UniversalArrow}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume a [[left adjoint]] $L$ is given. Define the would-be universal arrow at $c \in \mathcal{C}$ to be the [[unit of an adjunction|unit of the adjunction]] $\eta_c$ via Def. \ref{AdjunctionUnitFromHomIsomorphism}. Then the statement that this really is a universal arrow is implied by Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+In the other direction, assume that universal arrows $\eta_c$ are given. The uniqueness clause in Def. \ref{UniversalArrow} immediately implies  [[bijections]]
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(c),d)
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c,R(d))
+    \\
+    \left(
+      L(c) \overset{\widetilde f}{\to} d
+    \right)
+      &\mapsto&
+    \left(
+      c \overset{\eta_c}{\to} R(L(c)) \overset{ R(\widetilde f) }{\to} R(d)
+    \right)
+  }
+$$
+
+Hence to satisfy (eq:HomIsomorphismForAdjointFunctors) it remains to show that these are [[natural transformation|natural]] in both variables. In fact, by Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} it is sufficient to show naturality in the variable $d$. But this is immediate from the functoriality of $R$ applied in (eq:UniversalArrowFactorization): For $h \colon d_1 \to d_2$ any [[morphism]], we have
+
+$$
+  \array{
+    && c
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R (L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d_1)
+    \\
+    && {}_{\mathllap{ R( h\circ \widetilde f ) }}\searrow && \downarrow^{\mathrlap{R(h)}}
+    \\
+    && && R(d_2)
+  }
+$$
+
+
+=--
+
+The following equivalent formulation (Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}) of [[universal morphisms]] is often useful:
+
++-- {: .num_example #CommaCategoryWithOneSideConstant}
+###### Example
+**([[comma category]])**
+
+Let $\mathcal{C}$ be a [[category]], let $c \in \mathcal{C}$ be any [[object]], and let $F \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]].
+
+1. The _[[comma category]]_ $c/F$ is the [[category]] whose [[objects]] are [[pairs]] consisting of an object $d \in \mathcal{D}$ and [[morphisms]] $X \overset{f}{\to} F(d)$ in $\mathcal{C}$, and whose [[morphisms]] $(d_1,X_1,f_1) \to (d_2,X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ F(g)
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        X_1 && \overset{\phantom{AA} g \phantom{AA}}{\longrightarrow} && X_2
+        \\
+        F(X_1)
+          &&
+          \overset{\phantom{AA} F(g) \phantom{AA}}{\longrightarrow}
+          &&
+        F(X_2)
+        \\
+        & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+        \\
+        && c
+     }
+   $$
+
+   There is a canonical [[functor]]
+
+   $$
+     \array{
+       F/c
+       &\overset{}{\longrightarrow}&
+       \mathcal{D}
+     }
+     \,.
+   $$
+
+
+1. The _[[comma category]]_ $F/c$ is the [[category]] whose [[objects]] are [[pairs]] consisting of an [[object]] $d \in \mathcal{D}$ and a [[morphism]] $F(d) \overset{f}{\to} X$ in $\mathcal{C}$, and whose [[morphisms]] $(d_1,X_1,f_1) \to (d_2,X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ F(g)
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        && c
+        \\
+        & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+        \\
+        F(X_1)
+          &&
+          \underset{\phantom{AA} F(g) \phantom{AA}}{\longrightarrow}
+          &&
+        F(X_2)
+        \\
+        X_1 && \underset{ \phantom{AA} g \phantom{AA} }{\longrightarrow} && X_2
+     }
+   $$
+
+   Again, there is a canonical [[functor]]
+
+   \[
+     \label{CanonicalFunctorOutOfCommaCategoryOfcOverF}
+     \array{
+       c/F
+       &\overset{}{\longrightarrow}&
+       \mathcal{D}
+     }
+   ]
+
+=--
+
+With this definition, the following is evident:
+
++-- {: .num_prop #UniversalMorphismsAreInitialObjectsInCommaCategory}
+###### Proposition
+**([[universal morphisms]] are [[initial objects]] in the [[comma category]])**
+
+Let $\mathcal{C} \overset{R}{\longrightarrow} \mathcal{D}$ be a [[functor]] and $d \in \mathcal{D}$ an [[object]]. Then the following are equivalent:
+
+1. $d \overset{\eta_d}{\to} R(c)$ is a [[universal morphism]] into $R(c)$ (Def. \ref{UniversalArrow});
+
+1. $(d, \eta_d)$ is the [[initial object]] (Def. \ref{InitialObject}) in the [[comma category]] $d/R$ (Example \ref{CommaCategoryWithOneSideConstant}).
+
+
+=--
+
+
+$\,$
+
+$\,$
+
+After these equivalent characterizations of [[adjoint functors]], we now consider some of their main properties:
+
++-- {: .num_prop #UniquenessOfAdjoints}
+###### Proposition
+**([[adjoint functors]] are unique up to [[natural isomorphism]])**
+
+The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), if it exists, is unique up to  [[natural isomorphism]] (Def. \ref{NaturalTransformations}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose the functor $L \colon \mathcal{D} \to \mathcal{C}$ is given, and we are asking for uniqueness of its right adjoint, if it exists. The other case is directly analogous.
+
+Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which both are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]/
+
+$$
+  \Phi_d
+  \;\colon\;
+  Hom_{\mathcal{C}}(-,R_1(d))
+  \;\simeq\;
+  Hom_{\mathcal{C}}(-,R_2(d))
+$$
+
+As in the proof of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject}, the [[Yoneda lemma]] implies that
+
+$$
+  \Phi_d \;=\; y( \phi_d )
+$$
+
+for some [[isomorphism]]
+
+$$
+  \phi_d \;\colon\;  R_1(d) \overset{\simeq}{\to} R_2(d)
+  \,.
+$$
+
+But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} implies that the collection of these isomorphisms for each object constitues a [[natural isomorphism]] between the functors (Def. \ref{NaturalTransformations}).
+
+=--
+
+
++-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
+###### Proposition
+**(characterization of epi/mono/iso (co-)unit of adjunction)**
+
+Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following holds:
+
+* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $ (Def. \ref{Monomorphism});
+
+* $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
+
+* $L$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[monomorphism]] $x \hookrightarrow R L x $;
+
+* $L$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[split epimorphism]] $x \to R L x $;
+
+* $R$ is [[full and faithful functor|full and faithful]]
+  (exhibits a [[reflective subcategory]])
+  precisely if
+  the [[unit of an adjunction|counit]] is a [[natural isomorphism]]
+  $\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$
+
+* $L$ is [[full and faithful functor|full and faithful]]
+  (exhibits a [[coreflective subcategory]]) precisely if
+  the [[unit of an adjunction|unit]]
+  is a natural isomorphism
+  $\eta : Id_C \stackrel{\simeq}{\to} R \circ L$.
+
+* The following are equivalent:
+
+  * $L$ and $R$ are both [[full and faithful functor|full and faithful]];
+
+  * $L$ is an [[equivalence of categories|equivalence]];
+
+  * $R$ is an [[equivalence of categories|equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the characterization of faithful $R$ by epi counit components, use from Def. \ref{Monomorphism} that $L R x \to x$ being an epimorphism means that the induced [[function]]
+
+$$
+  Hom(x, a) \to Hom(L R x, a)
+$$
+
+is an [[injection]] for all objects $a$. By the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors)
+
+$$
+  Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
+  \,,
+$$
+
+the formula for [[adjuncts]] (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) and the [[triangle identity]] (eq:TriangleIdentities), this is  such that the composite
+
+$$
+ R_{x,a} :  Hom(x,a) \to Hom(L R x, a) \stackrel{\simeq}{\to}
+    Hom(R x, R a)
+$$
+
+is the component map of the functor $R$:
+
+$$
+  \begin{aligned}
+    (x \stackrel{f}{\to} a) & \mapsto
+    (L R x \to x \stackrel{f}{\to} a)
+    \\
+    & \mapsto
+    (R L R x \to R x \stackrel{R f}{\to} R a)
+    \\
+    & \mapsto
+    (R x \to R L R x \to R x \stackrel{R f}{\to} R a)
+    \\
+    & = (R x \stackrel{R f}{\to} R a)
+  \end{aligned}
+  \,.
+$$
+
+Therefore $R_{x,a}$ is injective for all $x,a$, hence $R$ is faithful, precisely if $L R x \to x$ is an epimorphism for all $x$. The characterization of $R$ full is just the same reasoning applied to the fact that $\epsilon_x \colon L R x \to x$ is a [[split monomorphism]] iff for all objects $a$ the induced function
+\[
+  Hom(x, a) \to Hom(L R x, a)
+\]
+is a surjection.
+
+For the characterization of faithful $L$ by monic units notice that analogously (as discussed at [[monomorphism]]) $x \to R L x$ is a monomorphism if for all objects $a$ the function
+
+$$
+  Hom(a,x ) \to Hom(a, R L x)
+$$
+
+is an injection. Analogously to the previous argument we find that this is equivalent to
+
+$$
+  L_{a,x} : Hom(a,x ) \to Hom(a, R L x) \stackrel{\simeq}{\to} Hom(L a, L x)
+$$
+
+being an injection. So $L$ is faithful precisely if all $x \to R L x$ are monos. For $L$ full, it's just the same applied to $x \to R L x$ [[split epimorphism]] iff the induced function
+$$
+  Hom(a,x ) \to Hom(a, R L x)
+$$
+is a surjection, for all objects $a$.
+
+The proof of the other statements proceeds analogously.
+
+=--
+
++-- {: .num_prop #LeftAdjointFunctorPreservesEpi}
+###### Proposition
+**(right/left [[adjoint functors]] preserve [[monomorphissm]]/[[epimorphjisms]] and [[terminal object|terminal]]/[[initial objects]])**
+
+Every [[right adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
+
+1. [[terminal objects]] (Def. \ref{InitialObject}),
+
+1. [[monomorphisms]] (Def. \ref{Monomorphism})
+
+Every [[left adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
+
+1. [[initial objects]] (Def. \ref{InitialObject}),
+
+1. [[epimorphisms]] (Def. \ref{Monomorphism}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate from the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors), but we spell it out:
+
+We consider the first case, the second is [[formal duality|formally dual]] (Example \ref{OppositeCategory}).
+So let $R \;\colon\; \mathcal{C} \to \mathcal{D}$ be a [[right adjoint functor]] with [[left adjoint]] $L$.
+
+Let $\ast \in \mathcal{C}$ be a [[terminal object]] (Def. \ref{InitialObject}). We need to show that for every [[object]] $d \in \mathcal{D}$ the [[hom-set]]  $Hom_{\mathcal{D}}(d,R(\ast)) \simeq \ast$ is a [[singleton]]. But by the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) we have a [[bijection]]
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{d}}(d,R(\ast))
+    & \simeq
+    Hom_{\mathcal{C}}(L(d), \ast)
+    \\
+    & \simeq \ast
+    \,,
+  \end{aligned}
+$$
+
+where in the last step we used that $\ast$ is a terminal object, by assumption.
+
+Next let $c_1 \overset{f}{\hookrightarrow} c_2$ be a [[monomorphism]]. We need to show that for $d \in \mathcal{D}$ any [[object]], the [[hom-functor]] out of $d$ yields a monomorphism
+
+$$
+  Hom_{\mathcal{D}}(d, R(f))
+  \;\colon\;
+  Hom_{\mathcal{D}}(d, R(c_1))
+    \hookrightarrow
+  Hom_{\mathcal{D}}(d, R(c_2))
+  \,.
+$$
+
+Now consider the following [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) of the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors):
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(d, R(c_1))
+    &\simeq&
+    Hom_{\mathcal{C}}(L(d), c_1)
+    \\
+    {}^{ \mathllap{ Hom_{\mathcal{D}}(d,R(f)) } }\big\downarrow
+      &&
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( L(d),f ) } }_{\mathrlap{mono}}
+    \\
+    Hom_{\mathcal{D}}(d, R(c_2))
+    &\simeq&
+    Hom_{\mathcal{C}}(L(d), c_2)
+  }
+$$
+
+Here the right vertical [[function]] is an [[injective function]], by assumption on $f$ and the definition of [[monomorphism]]. Since the two horizontal functions are [[bijections]], this implies that also $Hom_{\mathcal{d}}(d,R(f))$ is an injection.
+
+=--
+
+But the main preservation property of [[adjoint functors]] is that _[[adjoints preserve (co-)limits]]_. This we discuss as Prop. \ref{AdjointsPreserveCoLimits} below, after introducing [[limits]] and [[colimits]] in Def. \ref{Limits} below.
+
+$\,$
+
+
+### Equivalences
+ {#Equivalences}
+
+
++-- {: .num_defn #AdjointEquivalenceOfCategories}
+###### Definition
+**([[adjoint equivalence of categories]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[adjoint equivalence of categories]]_ between them is a [[pair]] [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+such that their [[unit of an adjunction|unit]] $\eta$ and [[counit of an adjunction|counit]] $\epsilon$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) are [[natural isomorphisms]] (as opposed to just being [[natural transformations]])
+
+
+$$
+  \eta\;\colon\; id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  \epsilon\;\colon\;
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+=--
+
+There is also the following, seemingly weaker, notion:
+
++-- {: .num_defn #EquivalenceOfCategories}
+###### Definition
+**([[equivalence of categories]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[equivalence of categories]]_
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+is a [[pair]] of [[functors]] back and forth, as shown (Def. \ref{Functors}), together with [[natural isomorphisms]] (Def. \ref{NaturalTransformations}) between their [[composition]] and the [[identity functors]]:
+
+$$
+  id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+
+=--
+
+If a functor participates in an equivalence of categories, that functor alone is usually already called an equivalence of categories. If there is any equivalence of categories between two categories, these categories are called _equivalent_.
+
+
++-- {: .num_prop #EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}
+###### Proposition
+**(every [[equivalence of categories]] comes from an [[adjoint equivalence of categories]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then the they are [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) precisely if there exists an [[adjoint equivalence of categories]] between them (Def. \ref{AdjointEquivalenceOfCategories}).
+
+Moreover, let $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[functor]] (Def. \ref{Functors}) which participates in an [[equivalence of categories]] (Def. \ref{EquivalenceOfCategories}). Then for every functor $L \;\colon\; \mathcal{D} \to \mathcal{C}$ equipped with a [[natural isomorphism]]
+
+$$
+  \eta
+    \;\colon\;
+  id_{\mathcal{D}}
+    \overset{\simeq}{\Rightarrow}
+  R \circ L
+$$
+
+there exists a [[natural isomorphism]]
+
+$$
+  \epsilon
+  \;\colon\;
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+$$
+
+which completes this to an [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}).
+
+=--
+
+$\,$
+
+### Modalities
+  {#Modalities}
+
+Generally, a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) may be thought of as a consistent [[proposition]] about [[objects]] in a [[category]]: The objects in the full subcategory are those that have the given property.
+
+This basic situation becomes particularly interesting when the inclusion functor has a [[left adjoint]] or a [[right adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), in which case one speaks of a _[[reflective subcategory]]_, or a _[[coreflective subcategory]]_, respectively (Def. \ref{ReflectiveSubcategory} below). The [[adjunction]] now implies that each [[object]] is _[[reflector|reflected]]_ or _[[coreflector|coreflected]]_ into the subcategory, and equipped with a comparison morphism to or from its (co-)reflection (the adjunction (co-)unit, Def. \ref{AdjunctionUnitFromHomIsomorphism}). This comparison morphism turns out to always be an idempotent (co-)projection, in a sense made precise by Prop. \ref{ModalOpIdempotent} below.
+
+This means that, while any object may not fully enjoy the property that defines the subcategory, one may ask for the "aspect" of it that does, which is what is (co-)projected out. Regarding objects only via these aspects of them hence means to regard them only _locally_ (where they exhibit that aspect) or only in the _mode_ of focus on this aspect. Therefore one also calls the (co-)reflection operation into the given subcategory a _([[colocalization|co]]-)[[localization]]_ or _([[comodal operator|co-]])[[modal operator]]_, or _[[modality]]_, for short (Def. \ref{ModalOperator} below).
+
+One finds that (co-)modalities are a fully equivalent perspective on  the (co-)reflective subcategories of their fully _([[comodal object|co-]])[[modal objects]]_ (Def. \ref{ModalObjects} below), this is the statement of Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} below.
+
+
+
+$\,$
+
++-- {: .num_defn #ReflectiveSubcategory}
+###### Definition
+**([[reflective subcategory]] and [[coreflective subcategory]])**
+
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}) and
+
+$$
+  \mathcal{C}
+  \overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}
+  \mathcal{D}
+$$
+
+a [[full subcategory]]-inclusion (hence a [[fully faithful functor]] Def. \ref{FullyFaithfulFunctor}). This is called:
+
+1. a _[[reflective subcategory]] inclusion_ if the inclusion functor $\iota$ has a [[left adjoint]] $L$ def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+   $$
+     \mathcal{C}
+       \underoverset
+         {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+         {\overset{L}{\longleftarrow}}
+         {\bot}
+     \mathcal{D}
+     \,,
+   $$
+
+   then called the _[[reflector]]_;
+
+1. a _[[coreflective subcategory]]_-inclusion if the inclusion functor $\iota $ has a [[right adjoint]] $R$ (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+   $$
+     \mathcal{C}
+       \underoverset
+         \underset{R}{\longleftarrow}
+         {\overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+         {\bot}
+     \mathcal{D}
+     \,,
+   $$
+
+   then called the _[[coreflector]]_.
+
+=--
+
++-- {: .num_example #ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}
+###### Example
+**([[reflective subcategory]] inclusion of [[sets]] into [[small groupoid|small]] [[groupoids]])**
+
+There is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory})
+
+$$
+  Set
+    \underoverset
+     {\underset{\phantom{AAAA}}{\hookrightarrow}}
+     {\overset{\pi_0}{\longleftarrow}}
+     {\bot}
+  Grp
+$$
+
+of the [[category of sets]] (Example \ref{CategoryOfSets}) into the [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of [[small groupoids|small]] [[groupoids]] (Example \ref{Groupoid}) where
+
+* the [[right adjoint]] [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}) sends a [[set]] $S$ to the [[groupoid]] with set of objects being $S$, and the only [[morphisms]] being the [[identity morphisms]] on these objects (also called the _[[discrete groupoid]]_ on $S$, but this terminology is ambiguous)
+
+* the [[left adjoint]] [[reflector]] sends a [[small groupoid|small]] [[groupoid]] $\mathcal{G}$ to its set of [[connected components]], namely to the set of [[equivalence classes]] under the [[equivalence relation]] on the set of [[objects]], which regards two objects as equivalent, if there is any [[morphism]] between them.
+
+=--
+
+
++-- {: .num_defn #ModalOperator}
+###### Definition
+**([[modality]])**
+
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). Then
+
+1. a _[[modal operator]] on $\mathcal{D}$_ is
+
+   1. an [[endofunctor]]
+
+      $$
+        \bigcirc \;\colon\; \mathcal{D} \to \mathcal{D}
+      $$
+
+      whose [[full subcategory|full]] [[essential image]] we denote by
+
+      $$
+        Im(\bigcirc)
+          \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+        \mathcal{D}
+        \,,
+      $$
+
+   1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+
+      \[
+        \label{UnitOfAModalOperator}
+        X \overset{\eta_X}{\longrightarrow} \bigcirc X
+      \]
+
+      for all [[objects]] $X \in \mathcal{D}$,
+      to be called the _unit morphism_;
+
+   such that:
+
+   * for every [[object]] $Y \in Im(\bigcirc) \hookrightarrow \mathcal{D}$ in the [[essential image]] of $\bigcirc$, every [[morphism]] $f$ into $Y$ factors _uniquely_ through the unit (eq:UnitOfAModalOperator)
+
+     $$
+       \array{
+         && X
+         \\
+         & {}^{\mathllap{ \eta_X }}\swarrow && \searrow^{\mathrlap{f}}
+         \\
+         \mathrlap{\bigcirc X\;\;\;\;} && \underset{\exists !}{\longrightarrow} &&  Y & \in Im(\bigcirc)
+       }
+     $$
+
+1. a _[[comodal operator]] on $\mathcal{D}$_ is
+
+   1. an [[endofunctor]]
+
+      $$
+        \Box \;\colon\; \mathcal{D} \to \mathcal{D}
+      $$
+
+      whose [[full subcategory|full]] [[essential image]] we denote by
+
+      $$
+        Im( \Box )
+          \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+        \mathcal{D}
+      $$
+
+   1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+
+      \[
+        \label{CounitOfModalOperator}
+        \Box X \overset{ \epsilon_X }{\longrightarrow} X
+      \]
+
+      for all [[objects]] $X \in \mathcal{D}$,
+      to be called the _counit morphism_;
+
+   such that:
+
+   * for every [[object]] $Y \in Im( \Box ) \hookrightarrow \mathcal{D}$ in the [[essential image]] of $\Box$, every [[morphism]] $f$ out of $Y$ factors _uniquely_ through the counit (eq:UnitOfAModalOperator)
+
+     $$
+       \array{
+          && X
+          \\
+          & {}^{\mathllap{\epsilon_X}}\nearrow && \nwarrow^{\mathrlap{f}}
+          \\
+          \mathrlap{\Box X\;\;\;} && \underset{\exists !}{\longleftarrow} && Y \in Im( \Box )
+       }
+     $$
+
+=--
+
+
++-- {: .num_prop #ModalOperatorsEquivalentToReflectiveSubcategories}
+###### Proposition
+**([[modal operators]] equivalent to [[reflective subcategories]])**
+
+If
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}). Then the [[composition|composite]]
+
+$$
+  \bigcirc
+  \;\coloneqq\;
+  \iota \circ L
+  \;\colon\;
+  \mathcal{D} \longrightarrow \mathcal{D}
+$$
+
+equipped with the [[adjunction unit]] [[natural transformation]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
+$$
+  X \overset{\eta_X}{\longrightarrow} \bigcirc X
+$$
+
+is a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}).
+
+
+Dually, if
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longleftarrow}}
+      {\overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+is a [[coreflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}). Then the [[composition|composite]]
+
+$$
+  \Box
+  \;\coloneqq\;
+  \iota \circ R
+  \;\colon\;
+  \mathcal{D} \longrightarrow \mathcal{D}
+$$
+
+equipped with the [[adjunction counit]] [[natural transformation]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
+$$
+  \Box X \overset{ \epsilon_X }{\longrightarrow} X
+$$
+
+is a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}).
+
+Conversely:
+
+If an [[endofunctor]] $\bigcirc \;\colon\; \mathcal{D} \to \mathcal{D}$ with [[natural transformation]] $X \overset{\eta_X}{\to} \bigcirc X$ is a [[modal operator]] on a [[category]] $\mathcal{D}$ (Def. \ref{ModalOperator}), then the inclusion of its [[full subcategory|full]] [[essential image]] is a [[reflective subcategory]] inclusion (Def. \ref{ReflectiveSubcategory}) with [[reflector]] given by the [[corestriction]] of $\bigcirc$ to its image:
+
+$$
+  Im( \bigcirc )
+    \underoverset
+      {\underset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}}
+      {\overset{ \bigcirc }{\longleftarrow}}
+      {}
+  \mathcal{D}
+  \,.
+$$
+
+Dually, if an [[endofunctor]] $\Box \;\colon\; \mathcal{D} \to \mathcal{D}$ with [[natural transformation]] $\Box X \overset{\epsilon_X}{\longrightarrow} X$ is a [[comodal operator]] (Def. \ref{ModalOperator}), then the inclusion of its [[full subcategory|full]] [[essential image]] is a [[coreflective subcategory]] inclusion (Def. \ref{ReflectiveSubcategory}) with [[coreflector]] given by the [[corestriction]] of $\Box$ to its image
+
+$$
+  Im( \Box )
+    \underoverset
+      {\underset{ \Box }{\longleftarrow}}
+      {\overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}}
+      {}
+  \mathcal{D}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first two statements are immedialy a special case of the characterization of [[adjunctions]] via [[universal morphisms]] in Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}: Using that $R = \iota$ is here assumed to be [[fully faithful functor|fully faithful]], the uniqueness of $\tilde f$ in the [[universal morphism]]-factorization condition (eq:UniversalArrowFactorization)
+
+$$
+  \array{
+    && c
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R(L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d)
+    \\
+    \\
+    L(c) &&\underset{ \exists ! \, \widetilde f}{\longrightarrow}&& d
+  }
+$$
+
+implies that also $R(\widetilde f) = \iota(\widetilde f)$ is the unique morphism making that triangle commute.
+
+Similarly for the converse: The assumption on a [[modal operator]] $\bigcirc$ is just so as to make its unit $\eta$ be a [[universal morphism]] (Def. \ref{UniversalArrow}) into the inclusion functor $\iota$ of its [[essential image]].
+
+=--
+
++-- {: .num_prop #ModalOpIdempotent}
+###### Proposition
+**([[modal operator]] is [[idempotent]])**
+
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}).
+
+For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$, with unit $\eta$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that it is [[natural isomorphism|naturally isomorphic]] (Def. \ref{NaturalTransformations}) to the [[composition]] with itself:
+
+$$
+  \bigcirc \;\simeq\; \bigcirc \bigcirc
+  \,.
+$$
+
+In fact, the image under $\bigcirc$ of its unit is such an isomorphism
+
+$$
+  \bigcirc\left( X \overset{\eta_X}{\to} \bigcirc X \right)
+  \;\;\colon\;\;
+  \bigcirc X
+    \overset{\simeq}{\longrightarrow}
+  \bigcirc ( \bigcirc X )
+$$
+
+as is its unit on its image
+
+$$
+  \eta_{\bigcirc X}
+  \;\;\colon\;\;
+  \bigcirc X
+    \overset{\simeq}{\longrightarrow}
+  \bigcirc ( \bigcirc X )
+  \,.
+$$
+
+
+[[formal dual|Formally dually]], for $\Box$ a [[comodal operator]] on $\mathcal{D}$, with counit $\epsilon$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that it is [[natural isomorphism|naturally isomorphic]] (Def. \ref{NaturalTransformations}) to the [[composition]] with itsef:
+
+$$
+  \Box \circ \Box
+  \;\simeq\;
+  \Box
+  \,.
+$$
+
+In fact, the image under $\Box$ of its counit is such an isomorphism
+
+$$
+  \Box\left(  \Box X \overset{\epsilon_X}{\to} X \right)
+  \;\;\colon\;\;
+  \Box (\Box X)
+    \overset{\simeq}{\longrightarrow}
+  \Box X
+$$
+
+as is its counit on its image
+
+$$
+  \epsilon_{\Box X}
+  \;\;\colon\;\;
+  \Box ( \Box X )
+    \overset{\simeq}{\longrightarrow}
+  \Box X
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first case, the second is [[formal dual|formally dual]] (Example \ref{OppositeCategory}).
+
+By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the modal operator is equivalent to the composite $\iota \circ L$ obtained from the [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}) of its [[essential image]] of [[modal objects]]:
+
+$$
+  Im(\bigcirc)
+    \underoverset
+      {\underset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}}
+      {\overset{\phantom{AA}L \phantom{AA} }{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+  \,.
+$$
+
+and its unit is the corresponding [[adjunction unit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
+$$
+  X \overset{\eta_X}{\longrightarrow} \iota \circ L
+  \,.
+$$
+
+Hence it is sufficient to show that the morphisms and $L( \eta_X )$ and $\eta_{\iota Y}$ are isomorphisms.
+
+Now, the [[triangle identities]] (eq:TriangleIdentities) for the [[adjunction]] $L \dashv \iota$, which hold by Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}, say that their [[composition]] with the [[adjunction counit]] is the [[identity morphism]]
+
+$$
+  \epsilon_{L(\eta_X)} \circ L(\eta_X)
+  \;=\;
+  id_{L(X)}
+  \phantom{AA} \text{and} \phantom{AA}
+  \iota( \epsilon_Y )\circ \eta_{\iota(Y)}
+  \;=\;
+  id_{\iota(Y)}
+  \,.
+$$
+
+But by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, the counit $\epsilon$ is a [[natural isomorphism]], since $\iota$ is [[fully faithful functor|fully faithful]]. Hence we may cancel it on both sides of the [[triangle identities]] and find that $L(\eta_X)$ and $\eta_{\iota(Y)}$ are indeed isomorphisms.
+
+
+
+=--
+
++-- {: .num_defn #ModalObjects}
+###### Definition
+**([[modal objects]])**
+
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}).
+
+For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), we say:
+
+1. a _$\bigcirc$-[[modal object]]_ is an [[object]] $X \in \mathcal{D}$ such that the following conditions hold (which are all equivalent, by Prop. \ref{ModalOpIdempotent}):
+
+   * it is in the $\bigcirc$-[[essential image]]: $X \in Im( \bigcirc ) \hookrightarrow \mathcal{D}$,
+
+   * it is isomorphic to its own $\bigcirc$-[[image]]: $X \simeq \bigcirc X$,
+
+   * specifically its $\bigcirc$-unit is an [[isomorphism]] $\eta_X \;\colon\; X \overset{\simeq}{\to} \bigcirc X$.
+
+1. a _$\bigcirc$-[[modal object|submodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that
+
+   * its $\bigcirc$-unit is a [[monomorphism]] (Def. \ref{Monomorphism}): $\eta_X \;\colon\; X \hookrightarrow \bigcirc X$.
+
+[[formal duality|Dually]] (Example \ref{OppositeCategory}):
+
+For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), we say:
+
+1. a _$\Box$-[[comodal object]]_ is an [[object]] $X \in \mathcal{D}$ such that the following conditions hold (which are all equivalent, by Prop. \ref{ModalOpIdempotent}):
+
+   * it is in the $\Box$-[[essential image]]: $X \in Im( \Box ) \hookrightarrow \mathcal{D}$,
+
+   * it is isomorphic to its own $\Box$-[[image]]: $\Box X \simeq X$,
+
+   * specifically its $\Box$-counit is an [[isomorphism]] $\epsilon_X \;\colon\; \Box X \overset{\simeq}{\longrightarrow} X$
+
+1. a _$\Box$-[[comodal object|supcomodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that
+
+   * its $\Box$-counit is an [[epimorphism]] (Def. \ref{Monomorphism}): $\epsilon_X \;\colon\; \Box X \overset{epi}{\longrightarrow} X$.
+
+
+=--
+
++-- {: .num_defn #AdjointModality}
+###### Definition
+**([[adjoint modality]])**
+
+Let $L \;\dashv\; C \;\dashv\; R $ be an [[adjoint triple]] (Remark \ref{AdjointTriples}) such that $L$ and $R$ are [[fully faithful functors]] (necessarily bothm by Prop. \ref{FullyFaithfulAdjointTriple}). Then, by Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, there are induced [[modal operators]]
+
+$$
+  \bigcirc \;\coloneqq\; L \circ C
+  \phantom{AA}
+  \Box \;\coloneqq\; R \circ C
+$$
+
+which themselves form am [[adjoint pair]]
+
+$$
+  \bigcirc \;\dashv\; \Box
+  \,,
+$$
+
+hence called an _[[adjoint modality]]_. The [[adjunction unit]] and [[adjunction counit]] as in (eq:AdjointTriples) may now be read as exhibiting each object $X$ in the [[domain]] of $C$ as "in between the opposite extremes of its $\bigcirc$-modal aspect and its $\Box$-modal aspect"
+
+$$
+  \bigcirc X
+    \overset{\phantom{AA}\epsilon^\bigcirc_X \phantom{AA}}{\longrightarrow}
+  X
+    \overset{\phantom{AA}\eta^{\Box}_X\phantom{AA}}{\longrightarrow}
+  \Box X
+  \,.
+$$
+
+A [[formal duality|formally dual]] situation (Example \ref{OppositeCategory}) arises when $C$ is [[fully faithful functor|fully faithful]].
+
+=--
+
+
++-- {: .num_defn #PreorderOnModalities}
+###### Definition
+**([[preorder]] on [[modalities]])**
+
+Let $\bigcirc_1$ and $\bigcirc_2$ be two [[modal operators]] on a [[category]] $\mathcal{C}$. By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} these are equivalently characterized by their [[reflective subcategory|reflective]] [[full subcategories]] $\mathcal{C}_{\bigcirc_1}, \mathcal{C}_{\bigcirc}_2 \hookrightarrow \mathcal{C}$ of [[modal objects]].
+
+There is an evident [[preorder]] on [[full subcategories]] of $\mathcal{C}$, given by full inclusions of full subcategories into each other. We write $\mathcal{C}_{\bigcirc_1} \subset \mathcal{C}_{\bigcirc_2}$ if the full subcategory on the left is contained, as a full subcategory of $\mathcal{C}$, in that on the right. Via prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} there is the induced [[preorder]] on [[modal operators]], and we write
+
+$$
+  \bigcirc_1
+  \;\lt\;
+  \bigcirc_2
+  \phantom{AA}
+  iff
+  \phantom{AA}
+  \mathcal{C}_{\bigcirc_1}
+  \;\subset\;
+  \mathcal{C}_{\bigcirc_2}
+  \,.
+$$
+
+There is an analogous [[preorder]] on [[comodal operators]] (Def. \ref{ModalOperator}).
+
+If we have two [[adjoint modalities]] (Def. \ref{AdjointModality}) of the same type (both modal left adjoint or both comodal left adjoint) such that both the modalities and the comodalities are compatibly ordered in this way, we denote this situation as follows:
+
+$$
+  \array{
+    \bigcirc_2 &\dashv& \Box_2
+    \\
+    \vee && \vee
+    \\
+    \bigcirc_1 &\dashv& \bicirc_1
+  }
+$$
+
+etc.
+
+=--
+
++-- {: .num_example #InitialAndFinalAdjointModality}
+###### Example
+**([[bottom]] and [[top]] [[adjoint modality]])**
+
+Let $\mathcal{C}$ be a [[category]] with both an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$ (Def. \ref{InitialObject}). Then, by Example \ref{InitialAndTerminalObjectInTermsOfAdjunction} there is an [[adjoint triple]] between $\mathcal{C}$ and the [[terminal category]] $\ast$ (Example \ref{InitialCategoryAndTerminalCategory}) of the form
+
+$$
+  \mathcal{C}
+    \array{
+      \overset{ \phantom{A} const_\emptyset \phantom{A} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAAA}}{\longrightarrow}
+      \\
+      \overset{ \phantom{A} const_\ast \phantom{A} }{\hookleftarrow}
+    }
+  \ast
+  \,.
+$$
+
+The induced [[adjoint modality]] (Def. \ref{AdjointModality}) is
+
+$$
+  const_{\emptyset}
+  \;\dashv\;
+  const_\ast
+  \;\;\colon\;\;
+  \mathcal{C} \to \mathcal{C}
+  \,.
+$$
+
+By slight abuse of notation, we will also write this as
+
+\[
+  \label{BottomAdjointModality}
+  \emptyset
+    \;\dashv\;
+  \ast
+  \;\;\colon\;\;
+  \mathcal{C} \to \mathcal{C}
+  \,.
+\]
+
+On the other extreme, for $\mathcal{C}$ any [[category]] whatsoever, the [[identity]] functor on it is [[adjoint functor]] to itself, and constitutes an [[adjoint modality]] (Def. \ref{AdjointModality})
+
+\[
+  \label{AdjointModalityTop}
+  id_{\mathcal{C}}
+  \;\dashv\;
+  id_{\mathcal{C}}
+  \;\;\colon\;\;
+  \mathcal{C} \to \mathcal{C}
+  \,.
+\]
+
+
+Here
+
+1. (eq:BottomAdjointModality) is the _[[bottom]]_ (or _ground_)
+
+2. (eq:AdjointModalityTop) is the _[[top]]_
+
+in the [[preorder]] on [[adjoint modalities]] according to Def. \ref{PreorderOnModalities}, in that for every [[adjoint modality]] of the form $\bigcirc \dashv \Box$ we have the following:
+
+$$
+  \array{
+    id &\dashv& id
+    \\
+    \vee && \vee
+    \\
+    \bigcirc &\dashv& \Box
+    \\
+    \vee && \vee
+    \\
+    \emptyset &\dashv& \ast
+  }
+$$
+
+
+
+=--
+
++-- {: .num_defn #Aufhebung}
+###### Definition
+**([[Aufhebung]])**
+
+On some [[category]] $\mathcal{C}$, consider an inclusion of [[adjoint modalities]], according to Def. \ref{PreorderOnModalities}:
+
+$$
+  \array{
+    \bigcirc_1 &\dashv& \Box_2
+    \\
+    \vee && \vee
+    \\
+    \bigcirc_1 &\dashv& \Box_1
+  }
+$$
+
+We say that this inclusion provides _[[Aufhebung]] of the opposition_ exhibited by $\bigcirc_1 \dashv \Box_1$ if there is also the diagonal inclusion
+
+$$
+  \bigcirc_1 \lt \Box_2
+  \phantom{AAA}
+  equivalently
+  \phantom{AAA}
+  \mathcal{C}_{\bigcirc_1}
+  \subset
+  \mathcal{C}_{\Box_2}
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[top]] [[adjoint modality]] provides [[Aufhebung]] of all oppositions)**
+
+For $\mathcal{C}$ any [[category]], the [[top]] [[adjoint modality]] $id \dashv id$ (Def. \ref{InitialAndFinalAdjointModality}) provides [[Aufhebung]] (Def. \ref{Aufhebung}) of every other [[adjoint modality]].
+
+=--
+
+But already [[Aufhebung]] of the [[bottom]] [[adjoint modality]] is a non-trivial and interesting condition. We consider this below in Prop. \ref{PiecesHavePoints}.
