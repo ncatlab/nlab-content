@@ -29,9 +29,13 @@ This statement is originally due to ([duVal 1934 I, p. 1-3 (453-455)](#duVal1934
 
 Quick survey of this fact is in [Reid 87](#Reid87), a textbook account is [Slodowy 80](#Slodowy80).
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
+{#InStringTheory} In [[string theory]] this fact is interpreted in terms of [[gauge enhancement]] of the [[M-theory]]-lift of coincident [[black brane|black]] [[D6-branes]] to an  [[MK6]] at an ADE-singularity ([Sen 97](enhanced+gauge+symmetry#Sen97)):
+
+<img src="http://ncatlab.org/nlab/files/ADESingularity.jpg" width="760" alt="ADE 2Cycle" />
+
+> graphics grabbed from [HSS18](http://ncatlab.org/schreiber/show/Equivariant+homotopy+and+super+M-branes)
  
-> (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
+See at _[[M-theory lift of gauge enhancement on D6-branes]]_ for more.
 
 $\,$
 
