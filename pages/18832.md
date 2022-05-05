@@ -1495,7 +1495,7 @@ $$
   A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
 $$
 
-two [[microcausal  polynomial observables]], with [[causal ordering]]
+two [[microcausal polynomial observables]], with [[causal ordering]]
 
 $$
   supp(A_{out}) {\vee\!\!\!\wedge} supp(A_{int})
@@ -4383,7 +4383,7 @@ Then the following conditions are [[renormalization conditions]] (def. \ref{Reno
 
 For the first two statements this is obvious from prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and prop. \ref{TimeOrderedProductAwayFromDiagonal}, which imply that $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ is
 uniquely specified from $\{T_k\}_{k \leq n}$ via the [[star product]] induced by the [[Feynman propagator]],
-and the fact that, on [[Minkowski  spacetime]], this is manifestly translation invariant and independent of the fields
+and the fact that, on [[Minkowski spacetime]], this is manifestly translation invariant and independent of the fields
 (e.q. prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}).
 
 The third statement requires work. That the [[quantum master equation]]/([[master Ward identity]]
@@ -7215,6 +7215,7 @@ $$
 Hence the [[interacting field observable]]-version $\mathcal{R}^{-1}(div\mathbf{J})$ of $div \mathbf{J}$ need not vanish itself on-shell, instead there may be a correction as shown on the right.
 
 =--
+
 
 
 
