@@ -113,6 +113,8 @@ $$
 
 ## Related concepts
 
+* [[orbifold cohomology]]
+
 [[!include equivariant homotopy theory -- table]]
 
 
