@@ -102,7 +102,7 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 * [[constructive mathematics]]
 * [[context]]
 * [[equality]]
-* [[evil]]
+* [[principle of equivalence]]
 * [[excluded middle]]
 * [[geometric logic]]
 * [[Heyting algebra]]
@@ -154,6 +154,8 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
 * [[objective and subjective logic]]
+
+[[!include logic symbols -- table]]
 
 ## References
 
