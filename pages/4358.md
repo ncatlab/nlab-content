@@ -27,18 +27,18 @@ $$
 
 This is called the _prime factorization_ of $n$.
 
-Notice that while the number $1 \in \mathbb{N}$ is, clearly, only divisible by one and by itself, hence might look like it deserves to be counted as a prime number, too, this would break the uniqueness of this prime factorization. In view of the general phenomenon in classifications in [[mathematics]] of objects being _[[too simple to be simple]]_ one could say that 1 is "too prime to be prime".
+Notice that while the number $1 \in \mathbb{N}$ is, clearly, only divisible by one and by itself, hence might look like it deserves to be counted as a prime number, too, this would break the uniqueness of this prime factorization. In view of the general phenomenon in classifications in [[mathematics]] of some objects being _[[too simple to be simple]]_ one could say that 1 is "too prime to be prime".
 
 
 
 ## Relation to ideals and arithmetic geometry
   {#RelationToIdeals}
 
-A number is prime if and only if it generates a [[maximal ideal]] in the [[rig]] $\mathbb{N}$ of natural numbers.
+A number is prime if and only if it generates a [[maximal ideal]] in the [[rig]] $\mathbb{N}$ of [[natural numbers]].
 
 Prime numbers do *not* quite match the [[prime elements]] of $\mathbb{N}$, since $0$ generates a [[prime ideal]] but not a maximal ideal; instead they match the [[irreducible elements]] ([Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Irreducible_element)).
 
-From the [[Isbell duality|Isbell-dual]] point of view, where a [[commutative ring]] such as the [[integers]] $\mathbb{Z}$ is regarded as the [[ring of functions]] on some [[variety]], namely on [[Spec(Z)]], the fact that prime numbers $p$ correspond to [[maximal ideals]] means that they correspond to the _points_ in this variety, one also writes
+From the [[Isbell duality|Isbell-dual]] point of view, where a [[commutative ring]] such as the [[integers]] $\mathbb{Z}$ is regarded as the [[ring of functions]] on some [[variety]], namely on [[Spec(Z)]], the fact that prime numbers $p$ correspond to [[maximal ideals]] means that they correspond to the _[[closed points]]_ in this variety (see [this Example](Zariski+topology#SpecZ)), one also writes
 
 $$
   (p) \in Spec(\mathbb{Z})
