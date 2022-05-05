@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Stokes theorem_ (also _Stokes\' theorem_ or _Stokes\'s theorem_) asserts that the [[integration of differential forms]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
+The __Stokes theorem__ (also _Stokes\' theorem_ or _Stokes\'s theorem_) asserts that the [[integration of differential forms|integral]] of an [[exterior differential form]] on the boundary of an [[orientation|oriented]] [[manifold with boundary]] (or [[submanifold]] or [[chain]] of such) equals the integral of the [[de Rham differential]] of the form on the manifold itself.  (The theorem also applies to exterior pseudoforms on a chain of pseudoriented submanifolds.)
 
 
 ## Statement
@@ -211,7 +211,14 @@ $$
 
 ## Classical forms
 
-...
+In early 20th-century [[vector analysis]] (and even today in undergraduate Calculus courses), the Stokes theorem took various classical forms about [[vector fields]] in the [[Cartesian space]] $\mathbb{R}^n$:
+
+* if $n = 1$ and $k = 1$, then this is the second [[Fundamental Theorem of Calculus]]: $\int_[a,b] f' = f(b) - f(a)$, where $a \leq b$ are [[real numbers]] and $f$ is a [[continuously differentiable function]] on a [[neighbourhood]] of the [[interval]] $[a,b]$;
+* if $k = 1$ more generally, then this is a generalized form of the FTC: $\int_C grad f \cdot \mathbf{T} = f(Q) - f(P)$, where $P$ and $Q$ are points in $\mathbb{R}^n$, $C$ is a continuously differentiable oriented [[curve]] from $P$ to $Q$, $\mathbf{T}$ is the [[unit vector]] field on $C$ tangent to $C$ in the direction given by its orientation, and $f$ is a continuously differentiable function on a [[neighbourhood]] of $C$;
+* if $n = 2$ and $k = 2$, then this is [[Green's Theorem]] (see there for other forms): $\int\int_R (\partial{v}/\partial{x} - \partial{u}/\partial{y}) = \int_C (u \,\mathrm{d}x + v \,\mathrm{d}y)$, where $C$ is a continuously differentiable [[simple closed curve]] in $\mathbb{R}^2$ (oriented using the standard orientation on $\mathbb{R}^2$), $R$ is the region that it encloses (guaranteed by the [[Jordan curve theorem|Jordan Curve Theorem]]), and $u$ and $v$ are continuously differentiable functions of the coordinates $x$ and $y$ on a neighbourhood of $R$;
+* if $n = 3$ and $k = 2$, then this is the __Kelvin--Stokes Theorem__ or __Curl Theorem__: $\int\int_R curl \mathbf{F} \cdot \mathbf{n} = \int_C \mathbf{F} \cdot \mathbf{T}$, where $R$ is a continuously differentiable [[pseudoorientation|pseudooriented]] [[surface]] in $\mathbb{R}^3$ with a continuously differentiable boundary $C$ (oriented to match the pseudoorientation of $R$ using the standard orientation on $\mathbb{R}^3$), $\mathbf{n}$ is the unit [[normal vector]] field on $R$ in the direction given by the pseudoorientation of $R$, $\mathbf{t}$ is the unit tangent vector field on $C$, and $\mathbf{F}$ is a continuously differentiable [[vector field]] on a neighbourhood of $D$;
+* if $n = 3$ and $k = 3$, then this is the __Ostrogradsky--Gauss Theorem__ or __Divergence Theorem__: $\int\int\int_D div \mathbf{F} = \int\int_R \mathbf{F} \cdot \mathbf{n}$, where $R$ is a continuously differentiable closed surface in $\mathbb{R}^3$, $D$ is the region that it encloses (guaranteed by the [[Jordan-Brouwer separation theorem|Jordan--Brouwer Separation Theorem]]), $\mathbf{n}$ is the outwards-pointing unit normal vector field on $R$, and $\mathbf{F}$ is a continuously differentiable vector field on a neighbourhood of $D$;
+* if $k = n$ more generally, then this is the generalized [[divergence theorem]]: $\int_D div \mathbf{F} = \int_R \mathbf{F} \cdot \mathbf{n}$, where $R$ is a continuously differentiable closed [[hypersurface]] in $\mathbb{R}^n$, $D$ is the region that it encloses, $\mathbf{n}$ is the outwards-pointing unit normal vector field on $R$, and $\mathbf{F}$ is a continuously differentiable vector field on a neighbourhood of $D$.
 
 
 ## Related concepts
