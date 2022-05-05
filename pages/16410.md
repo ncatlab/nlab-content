@@ -63,7 +63,10 @@ Discussion of de Sitter spacetime in [[quantum gravity]] includes
 
 Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] includes
 
+
 * [[David Kutasov]], Travis Maxfield, Ilarion Melnikov, [[Savdeep Sethi]], _Constraining de Sitter Space in String Theory_, Phys. Rev. Lett. 115, 071305 (2015) ([arXiv:1504.00056](https://arxiv.org/abs/1504.00056))
+
+* Jakob Moritz, Ander Retolaza, Alexander Westphal, _Towards de Sitter from 10D_, Phys. Rev. D 97, 046010 (2018) ([arXiv:1707.08678](https://arxiv.org/abs/1707.08678))
 
 * {#Sethi17} [[Savdeep Sethi]], _Supersymmetry Breaking by Fluxes_ ([arXiv:1709.03554](https://arxiv.org/abs/1709.03554))
 
