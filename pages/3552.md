@@ -85,6 +85,8 @@ holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the 
 
 =--
 
+(e.g. [Hess 06, def. 1.10, remark 1.11](#Hess06))
+
 See also the section [Sullivan algebras](model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
 
