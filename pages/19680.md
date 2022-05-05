@@ -45,7 +45,7 @@ for even polynomials $p$, with consequent applications in [[quantum mechanics]],
 
 ## Combinatorial interpretation 
 
-The double-factorials $a_n = (2n-1)!!$ count the number of [[involutions]] without [[fixed points]] on a set with $2n$ elements, or the number of [[partitions]] of a $(2n)$-element set into $2$-element sets. This follows readily from the exponential generating function expression above, and is related to the [[species]] composition of the exponential species $\exp$ (the terminal object in the category of species) with the species $x^2/2$, defined to be terminal at $2$-element sets and empty at others. 
+The double-factorials $(2n-1)!!$ count the number of [[involutions]] without [[fixed points]] on a set with $2n$ elements, or the number of [[partitions]] of a $(2n)$-element set into $2$-element sets. This follows readily from the exponential generating function expression above, and is related to the [[species]] composition of the exponential species $\exp$ (the terminal object in the category of species) with the species $x^2/2$, defined to be terminal at $2$-element sets and empty at others. 
 
 
 ## References
