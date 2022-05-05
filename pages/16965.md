@@ -17,11 +17,16 @@
 #Contents#
 * table of contents
 {:toc}
+
 ## Idea
 
-The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a means to decompose certain $G$-equivariant constructions into a sequence of the analogous non-equivariant constructions for [[Weyl group]]-[[homotopy quotients]] of $H$-[[fixed points]] spaces, for (closed) subgroups.
+The objects of [[equivariant stable homotopy theory]] -- genuine [[G-spectra]] -- are very rich: Already the [[fixed point spectra]] of [[equivariant suspension spectra]] contain considerably more information than just the [[suspension spectra]] of the plain underlying [[fixed point spaces]] -- the latter are just the _[[geometric fixed point spectra]].
 
-More concretely, the tom Dieck splitting is a decomposition of [[fixed point spectra]] and hence of [[equivariant homotopy groups]] of [[equivariant suspension spectra]] into a [[direct sum]] of ordinary [[homotopy groups]] of [[homotopy quotients]] of _naive_ [[fixed point]] spaces by their residual [[Weyl group]] [[action]].
+The _tom Dieck splitting_  ([tom Dieck 75](#tomDieck75)) gives an explicit description of all the [[wedge sum|wedge summands]] appearing in [[fixed point spectra]] of [[equivariant suspension spectra]]. These wedge sums start out with the [[geometric fixed point spectra]] and then have one summand for each [[conjugacy class]] of [[subgroups]] $H \subset G$, given by the plain [[suspension spectra]] of the [[homotopy quotient]] of the $H$-[[fixed point spaces]] by the corresponding [[Weyl group]]-[[action]].
+
+Induced from this [[wedge sum]] splitting formula for the spectra themselves is a corresponding [[direct sum]]-formula of the [[equivariant stable homotopy groups]] in terms of plain [[stable homotopy groups]].
+
+The richness of this splitting, hence of [[G-spectra]], is witnessed by its simplest non-trivial example, which is the [[equivariant stable homotopy groups]] of the [[equivariant sphere spectrum]]: This yields the [[abelian group]] underlying the [[Burnside ring]], which is [[free abelian group|freely generated]] from the [[conjugacy classes]] of [[subgroups]] of $G$ (see [below](#ForTheEquivariantSphereSpectrum)).
 
 ## Statement 
 
@@ -119,6 +124,7 @@ where the product is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and 
 ## Examples
 
 ### For the equivariant sphere spectrum
+ {#ForTheEquivariantSphereSpectrum}
 
 For the [[equivariant sphere spectrum]] $\mathbb{S} = \Sigma^\infty_G S^0$ the tom Dieck splitting says that its 0th [[equivariant homotopy group]]
 is the [[free abelian group]] on the set of [[conjugacy classes]] of [[subgroups]] of $G$:
@@ -144,11 +150,22 @@ This is the group underlying the [[Burnside ring]].
 
 ## References
 
+The theorem is due to
+
+* {#tomDieck75} [[Tammo tom Dieck]], Satz 2 of _Orbittypen und  ̈aquivariante Homologie. II._, Arch. Math. (Basel) 26 (1975), no. 6, 650–662
+
+Reviews include
+
+* {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+* {#Blumberg17} [[Andrew Blumberg]], section 2.7 of _The Burnside category_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+See also
+
 * {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
 
 * {#GuillouMay12} [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
-* {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
 [[!redirects tom  Dieck splittings]]
 
