@@ -15,6 +15,7 @@
 {:toc}
 
 
+
 ## Idea 
 
 Just as a [[functor|functor]] is a [[morphism]] between [[category|categories]], a natural transformation is a [[2-morphism]] between two functors.
