@@ -2110,7 +2110,7 @@ $$
 $$
 
 that sends a variational differential form $A \in \Omega^{\bullet,\bullet}_{\Sigma,cp}(E)$
-to the differential form $\tau_{\Sigma_r} \in \Omega^\bullet(\Gamma_{\Sigma_r}(E))$
+to the differential form $\tau_{\Sigma_r}A\in \Omega^\bullet(\Gamma_{\Sigma_r}(E))$
 (def. \ref{DifferentialFormsOnDiffeologicalSpaces}, example \ref{ModuliOfSDifferentialForms})
 which to a smooth family on field histories
 
