@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[graph theory]] a _pseudograoh_ a particular type of [[graph]]. A pseudograph is a [[set]] of [[vertices]] and for each unordered pair of vertices a set of [[edges]] between these.
+In [[graph theory]] a _pseudograph_ is a particular type of [[graph]]. A pseudograph is a [[set]] of [[vertices]] and for each unordered pair of vertices a set of [[edges]] between these.
 
 A [[directed graph|directed]] pseudograph is also called a _[[quiver]]_.
 
@@ -31,7 +31,7 @@ Beware that the terminology is not completely consistent across different author
 
 ## References
 
-* Wikipedia, _[Peusodgraphs](https://en.wikipedia.org/wiki/Pseudograph)_
+* Wikipedia, _[Pseudograph](https://en.wikipedia.org/wiki/Pseudograph)_
 
 
 [[!redirects pseudographs]]
