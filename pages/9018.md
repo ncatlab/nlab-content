@@ -313,4 +313,10 @@ The phenomenology of compactifications on Kovalev's compact $G_2$-manifolds ([Ko
 
 * {#GHKY17} Thaisa C. da C. Guio, [[Hans Jockers]], [[Albrecht Klemm]], Hung-Yu Yeh, _Effective action from M-theory on twisted connected sum $G_2$-manifolds_ ([arXiv:1702.05435](https://arxiv.org/abs/1702.05435), [talk video](https://lecture2go.uni-hamburg.de/l2go/-/get/v/21906)) 
 
+Discussion of the [[cosmological constant]] in these models includes
+
+* Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
+
+which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
+ 
 [[!redirects G2 compactifications of M-theory]]
