@@ -77,6 +77,9 @@ In [[type theory]]
 
 * [[contrapositive]]
 
+[[!include logic symbols -- table]]
+
+
 
 [[!redirects implication]]
 [[!redirects implications]]
