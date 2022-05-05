@@ -27,4 +27,8 @@ on the [[global equivariant homotopy theory]] as a [[cohesive (∞,1)-topos]].
 
 See at _[global equivariant homotopy theory -- cohesion](global+equivariant+homotopy+theory#cohesion)_.
 
+## related $n$Lab entries
+
+* [[Stefan Schwede]], _[[Global homotopy theory]]_
+
 category: reference
