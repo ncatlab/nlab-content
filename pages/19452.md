@@ -1903,6 +1903,19 @@ which completes this to an [[adjoint equivalence of categories]] (Def. \ref{Adjo
 $\,$
 
 ### Modalities
+  {#Modalities}
+
+Generally, a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) may be thought of as a consistent [[proposition]] about [[objects]] in a [[category]]: The objects in the full subcategory are those that have the given property. 
+
+This basic situation becomes particularly interesting when the inclusion functor has a [[left adjoint]] or a [[right adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), in which case one speaks of a _[[reflective subcategory]]_, or a _[[coreflective subcategory]]_, respectively (Def. \ref{ReflectiveSubcategory} below). The [[adjunction]] now implies that each [[object]] is _[[reflector|reflected]]_ or _[[coreflector|coreflected]]_ into the subcategory, and equipped with a comparison morphism to or from its (co-)reflection (the adjunction (co-)unit, Def. \ref{AdjunctionUnitFromHomIsomorphism}). This comparison morphism turns out to always be an idempotent (co-)projection, in a sense made precise by Prop. \ref{ModalOpIdempotent} below.
+
+This means that, while any object may not fully enjoy the property that defines the subcategory, one may ask for the "aspect" of it that does, which is what is (co-)projected out. Regarding objects only via these aspects of them hence means to regard them only _locally_ (where they exhibit that aspect) or only in the _mode_ of focus on this aspect. Therefore one also calls the (co-)reflection operation into the given subcategory a _([[colocalization|co]]-)[[localization]]_ or _([[comodal operator|co-]])[[modal operator]]_, or _[[modality]]_, for short (Def. \ref{ModalOperator} below).  
+
+One finds that (co-)modalities are a fully equivalent perspective on  the (co-)reflective subcategories of their fully _([[comodal object|co-]])[[modal objects]]_ (Def. \ref{ModalObjects} below), this is the statement of Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} below.
+
+
+
+$\,$
 
 +-- {: .num_defn #ReflectiveSubcategory}
 ###### Definition
@@ -2322,7 +2335,7 @@ For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), w
 
    * specifically its $\Box$-counit is an isomorphism $\epsilon_X \;\colon\; \Box X \overset{\simeq}{\longrightarrow} X$
 
-1. a _$\Box$-[[comodal object|subcomodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
+1. a _$\Box$-[[comodal object|supcomodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
 
    * its $\Box$-counit is an [[epimorphism]]: $\epsilon_X \;\colon\; \Box X \overset{epi}{\longrightarrow} X$.
 
