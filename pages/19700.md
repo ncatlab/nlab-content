@@ -42,6 +42,10 @@ such that, moreover, each $a_i$ [[divisor|divides]] $a_{i+1}$.
 
 =--
 
+## Related concepts
+
+* [[Hermite normal form]]
+
 ## References
 
 Lecture notes include
