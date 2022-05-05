@@ -190,7 +190,7 @@ where
 +-- {: .num_example #EInfinityFrobeniusReducesToOrdinaryFrobenius}
 ###### Example
 
-Let $A \in CRing$ be an ordinary [[commutative ring]] and write $H A$ for its [[Eilenberg-MacLane spectrum]]. Then for $p$ a [[prime number]] the Frobenous homomorphsm from def. \ref{EInfinityFrobenius}
+Let $A \in CRing$ be an ordinary [[commutative ring]] and write $H A$ for its [[Eilenberg-MacLane spectrum]]. Then for $p$ a [[prime number]] the Frobenius homomorphsm from def. \ref{EInfinityFrobenius}
 
 $$  
   H A \longrightarrow H A^{t C_p}
