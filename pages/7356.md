@@ -192,6 +192,12 @@ Discussion of [[T-duality]] in the strong coupling limit is due to
 
 * {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
 
+That [[S-duality]] of [[type II string theory]] may be interpreted in terms of [[conformal transformations]] on the [[fiber]] for [[M-theory]] compactified on a [[torus]] was originally observed in 
+
+* [[John Schwarz]], _An $SL(2,\mathbb{Z})$-Multiplet of Type IIB Superstrings_, Phys.Lett.B 360:13-18, 1995; ERRATUM-ibid.B364:252, 1995 ([arXiv:hep-th/9508143](https://arxiv.org/abs/hep-th/9508143))
+
+* [[Paul Aspinwall]], _Some Relationships Between Dualities in String Theory_, Nucl.Phys.Proc.Suppl. 46 (1996) 30-38 ([arXiv:hep-th/9508154](https://arxiv.org/abs/hep-th/9508154))
+
 The original article on F-theory as such is
 
 * [[Cumrun Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
