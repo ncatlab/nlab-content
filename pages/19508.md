@@ -1,6 +1,4 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -44,7 +42,7 @@ is [[equivalence of categories|equivalent]] to the [[homotopy category of an (in
 
 +-- {: .num_example #2CategoryOfModelCategories}
 ###### Definition
-**(the [[2-category]] of [[combinatorial model category|combinatoria]] [[model categories]])**
+**(the [[2-category]] of [[combinatorial model category|combinatorial]] [[model categories]])**
 
 Write 
 
