@@ -35,7 +35,7 @@ The standard textbook is
 
 An "example-driven digest" with applications in [[string theory]] is 
 
-* [[Dennis Gaitsgory]], _Noted on 2d conformal field theory and string theory_, from p. 1017 on in
+* [[Dennis Gaitsgory]], _Notes on 2d conformal field theory and string theory_, from p. 1017 on in
 
   [[Pierre Deligne]], [[P. Etingof]], [[D. Freed]], L. Jeffrey, [[D. Kazhdan]], J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  , _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
