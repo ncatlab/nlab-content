@@ -48,7 +48,7 @@ One distinguishes [[bottom-up and top-down model building]]] strategies:
 ### Chiral fermions
   {#ChiralFermions}
 
-One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "chiral", in that the the left and right [[Weyl spinor]]-components of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
+One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "[[chiral fermion|chiral]]", in that the left and right [[Weyl spinor]]-components of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
 
 The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)).
 
@@ -57,6 +57,9 @@ The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when 
 > graphics grabbed from [Ibáñez-Uranga 12](#IbanezUranga12)
 
 Vague review is in ([Ibáñez-Uranga 12, section 10.2.1](#IbanezUranga12), [Uranga 12a, section 2.3](#Uranga12a)).
+
+The lift of this situation to [[M-theory on G2-manifolds]] is discussed in ([Berglund-Brandhuber 02](#BerglundBrandhuber02), [Bourjaily-Espahbodi 08](#BourjailyEspahbodi08)).
+
 
 ### Generations of fermions
  {#GenerationsOfFermions}
@@ -149,6 +152,12 @@ The [[bottom-up model building|bottom-up approach]] to intersecting D-brane mode
 The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  intersect at an angle is due to 
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
+
+The lift of this situation to [[M-theory on G2-manifolds]] is discussed in
+
+* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
+
+* {#BourjailyEspahbodi08} Jacob L. Bourjaily, Sam Espahbodi, _Geometrically Engineerable Chiral Matter in M-Theory_ ([arXiv:0804.1132](https://arxiv.org/abs/0804.1132))
 
 
 Review includes
