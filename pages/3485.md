@@ -1,5 +1,16 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -9,7 +20,7 @@
 
 Let $C$ be a [[groupoid]].
 
-A _permutation representation_ of $C$ is a [[representation]] of $C$ on [[Set]], i.e. a [[functor]] $C \to \Set$. 
+A _permutation representation_ of $C$ is a [[representation]] of $C$ on [[Set]], i.e. a [[functor]] $C \to \Set$, also called a [[G-set]]. 
 
 A _linear permutation representation_ is a functor $C \to $ [[Vect]] that factors through a permutation representation via the [[free functor]] $k^{|-|}\colon  Set \to Vect$ which sends a set to the vector space for which this set is a basis.
 
@@ -20,7 +31,7 @@ In the usual literature of [[representation theory]], "linear permutation repres
 
 
 ## Examples
-$G$ b
+
 Notably for $C = \mathbf{B}G$ the [[delooping]] [[groupoid]] of a [[group]] $G$, a permutation representation $\mathbf{B}G \to Set$ is a set equipped with a $G$-[[action]].
 
 The category 
@@ -76,12 +87,65 @@ $$
 
 =--
 
+## Properties
+
+### Comparison map from Burnside ring to representation ring
+ {#ComparisonMapFromBurnsideRingToRepresentationRing}
+
+Let $G$ be a [[finite group]]. Consider
+
+1. the [[Burnside ring]] $A(G)$, which is the [[Grothendieck group]] of the [[monoidal category]] $G Set$ of [[finite set|finite]] [[G-sets]];
+
+1. the [[representation ring]] $R(G)$, which is the [[Grothendieck group]] of the monoidal category $G Rep$ of [[finite dimensional vector space|finite dimensional]] $G$-[[linear representations]].
+
+Then then map that sends a G-set to the corresponding linear permutation representation is a [[strong monoidal functor]]
+
+$$
+  G Set \longrightarrow G Rep
+$$
+
+and hence induces a [[ring homomorphism]]
+
+$$
+  A(G) \longrightarrow R(G)
+$$
+
+Under the identitification
+
+1. of the [[Burnside ring]] with the [[equivariant stable cohomotopy]] of the point 
+
+   $$
+     A(G) \;\simeq\; \mathbb{S}_G(\ast)
+   $$
+
+   (see [there](Burnside+ring#AsTheEquivariantStableCohomotopyOfThePoint))
+
+1. of the [[representation ring]] with the [[equivariant K-theory]] of the point
+
+   $$
+     R(G) \;\simeq\; K_G(\ast)
+   $$
+
+   (see [there](representation+ring#AsEquivariantKTheoryOfThePoint))
+
+this should be image of the initial morphism of [[E-infinity ring spectra]]
+
+$$
+  \mathbb{S} \longrightarrow KU
+$$
+
+from the [[sphere spectrum]] to [[KU]].
+
 ## Related entries
 
 * [[representation theory]], [[linear representation]],
   [[category of representations]]
 
 * [[covering space]]
+
+* [[Burnside ring]]
+
+* [[groupoidification]]
 
 ## Related concepts
 
