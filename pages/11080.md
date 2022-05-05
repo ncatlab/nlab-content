@@ -348,10 +348,10 @@ However for our development here it is useful to first focus on just [[Cartesian
 the theory of [[smooth  manifolds]] and much more from that, which we do [below](#FieldBundles).
 
 
-### The category of abstract coordinate systems
+### The site of abstract coordinate systems
  {#CoordinateSystemsLayerSem}
 
-Here we make explicit the _[[category]]_ formed by abstract coordinate systems (Prop. \ref{CartSpCategory} below) and mention some of its basic properties. This will serve the discussion of [[smooth sets]] as the _[[sheaves]]_ on the category of abstract coordinate systems, in the next chapter _[[geometry of physics -- smooth sets]]_.
+Much of the above disucssion is usefully summarized by saying that abstract coordinate systems with smooth functions between them form a _[[category]]_ (Prop. \ref{CartSpCategory} below). Equipped with the information of how one abstract coordinate system may be _covered_ by other coordinate systems (Def. \ref{DifferentiallyGoodOpenCover} below), this becomes a _[[site]]_ (Prop. \ref{TheDifferentiallyGoodOpenCoverCoverage}) below.
 
 $\,$
 
@@ -376,249 +376,6 @@ Under this identification
 
 =--
 
-+-- {: .num_defn #OppositeCategoryOfCartSp}
-###### Definition
-**([[opposite category]] of [[CartSp]])**
-
-Write [[CartSp]]${}^{op}$ for the [[opposite category]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#OppositeCategory)) of [[CartSp]] (Prop. \ref{CartSpCategory}).
-
-This is the category with the same objects as $CartSp$, but where a morphism $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ in $CartSp^{op}$ is given by a morphism $\mathbb{R}^{n_1} \leftarrow \mathbb{R}^{n_2}$ in $CartSp$.
-
-=--
-
-We will be discussing below the idea of exploring smooth spaces by laying out abstract coordinate systems in them in all possible ways. The reader should begin to think of the sets that appear in the following definition as the _set of ways_ of laying out a given abstract coordinate systems in a given space. This is discussed in more detail below in _[Smooth spaces](#SmoothSpaces)_.
-
-+-- {: .num_defn}
-###### Definition
-
-A [[functor]]  $X : CartSp^{op} \to Set$ (a "[[presheaf]]") is
-
-1. for each abstract coordinate system $U$ a [[set]] $X(U)$
-
-1. for each [[coordinate transformation]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[function]] $X(f) : X(\mathbb{R}^{n_1}) \to X(\mathbb{R}^{n_2})$
-
-such that 
-
-1. [[identity]] is respected $X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}$;
-
-1. [[composition]] is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
-
-=--
-
-+-- {: .num_example #SmoothSetOfDifferentialPForms}
-###### Example
-
-Let $\mathcal{C}$ be a [[category]].
-
-1. The following are equivalent:
-
-   1. $\mathcal{C}$ has a [[terminal object]];
-
-   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[right adjoint]]
-
-      $$
-        \ast 
-          \underoverset
-             {\underset{}{\longrightarrow}}
-             {\overset{}{\longleftarrow}}
-             {\bot}
-        \mathcal{C}
-      $$
-
-    Under this equivalence, the [[terminal object]] is identified with the image under the right adjoint of the unique object of the [[terminal category]].
-
-1. Dually, the following are equivalent:
-
-   1. $\mathcal{C}$ has an [[initial object]];
-
-   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
-
-      $$
-        \mathcal{C}
-          \underoverset
-             {\underset{}{\longrightarrow}}
-             {\overset{}{\longleftarrow}}
-             {\bot}
-        \ast
-      $$
-
-    Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-Since the unique [[hom-set]] in the [[terminal category]] is [[generalized the|the]] [[singleton]], the hom-isomorphism characterizing the [[adjoint functors]] is directly the [[universal property]] of an [[initial object]] in $\mathcal{C}$
- 
-$$
-  Hom_{\mathcal{C}}( L(\ast) , X )
-  \;\simeq\;
-  Hom_{\ast}( \ast, R(X) ) 
-  =
-  \ast 
-$$
-
-or of a [[terminal object]]
-
-$$
-  Hom_{\mathcal{C}}( X , R(\ast) )
-  \;\simeq\;
-  Hom_{\ast}( L(X), \ast ) = \ast
-  \,,
-$$
-
-respectively.
-
-
-
-=--
-
-
-### The algebraic theory of smooth algebras
- {#TheAlgebraicTheoryOfSmoothAlgebras}
-
-+-- {: .num_prop}
-###### Propositions
-
-* The [[category]] [[CartSp]] has all [[finite limit|finite]]
-[[products]]. 
-
-* Every object is a finite [[product]] of the object $\mathbb{R}$ (the [[real line]] itself).
-
-* The [[terminal object]] is $\mathbb{R}^0$, the [[point]].
-
-=--
-
-Hence [[CartSp]] is (the [[syntactic category]]) of an [[algebraic theory]] (a [[Lawvere theory]]). 
-
-This is called the [[theory]] of _[[smooth algebras]]_.
-
-+-- {: .num_defn}
-###### Definition
-
-A [[product]]-preserving [[functor]] 
-
-$$
-  A : CartSp \to Set
-$$
-
-is a _[[smooth algebra]]_. A [[homomorphism]] of smooth algebras is a [[natural transformation]] between the corresponding functors.
-
-=--
-
-The basic example is:
-
-+-- {: .num_example #TheSmoothgAlgebraOfFunctionsOnACartesianSpace}
-###### Example
-
-For $n \in \mathbb{N}$, the [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ 
-is the functor $CartSp \to Set$ which is [[representable functor|functor corepresented]] by $\mathbb{R}^n \in $ [[CartSp]]. This means that to $\mathbb{R}^k \in CartSp$ it assigns the set
-
-$$
-  Hom_{CartSp}(\mathbb{R}^n , \mathbb{R}^k)
-  = 
-  C^\infty(\mathbb{R}^n, \mathbb{R}^k)
-$$
-
-of [[smooth functions]] from $\mathbb{R}^n$ to $\mathbb{R}^k$, and to a [[smooth function]] $f \colon \mathbb{R}^{k_1} \to \mathbb{R}^{k_2}$ it assigns the function
-
-$$
-  f\circ (-)
-  \colon
-  C^\infty(\mathbb{R}^n, \mathbb{R}^{k_1})
-  \to
-  C^\infty(\mathbb{R}^n, \mathbb{R}^{k_2})
-$$
-
-given by postcomposition with $f$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-Example \ref{TheSmoothgAlgebraOfFunctionsOnACartesianSpace} shows how we are to think of a functor $A \colon CartSp \to Set$ as encoding an algebra: such a functor assigns to $\mathbb{R}^n$ a set to be interpreted as a set of "smooth functions on something with values in $\mathbb{R}^n$", only that the "something" here is not pre-defined, but is instead indirectly characterized by this assignment.
-
-Due to this we will often denote smooth algebras as "$C^\infty(X)$", even if "$X$" is not a pre-defined object, and write their value on $\mathbb{R}^n$ as $C^\infty(X,\mathbb{R}^n)$. 
-
-=--
-
-This is illustrated by the next example.
-
-+-- {: .num_example #DualNumbers}
-###### Example
-
-The **[[ring of dual numbers|smooth algebra of dual numbers]]** $C^\infty(\mathbf{D})$ is the smooth algebra which assigns to $\mathbb{R}^n$ the [[Cartesian product]]
-
-$$
-  C^\infty(D,\mathbb{R}^n)
-
-  \coloneqq
-  \mathbb{R}^n \times \mathbb{R}^n
-$$
-
-of two copies of $\mathbb{R}^n$, which we will write as
-
-$$
-  \left\{
-    (\epsilon \mapsto (\vec x + \epsilon \vec v))
-    |
-    \vec x , \vec v \in \mathbb{R}^n
-  \right\}
-  \,.
-$$
-
-Moreover, a [[smooth function]] $f \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is sent to the function
-
-$$
-  C^\infty(D, f)
-  \colon
-  C^\infty(D, \mathbb{R}^{n_1})
-  \to 
-  C^\infty(D, \mathbb{R}^{n_2})
-$$
-
-given by
-
-$$
-  \begin{aligned}
-  \left(\epsilon \mapsto \left(\vec x + \epsilon \vec v\right)\right)
-  \\
-  \left(
-    \epsilon \mapsto f(\vec x) + (\mathbf{d}f)(\vec v)
-  \right)
-  &\mapsto 
-  \left(
-    \epsilon
-    \mapsto 
-    \left(
-       f\left(\vec x\right) 
-        +  
-       \sum_{j = 1}^{n_2}
-       \left(\sum_{i = 1}^{n_1}\frac{\partial f^j}{\partial x^i} v^i\right)
-       \vec e_j  
-    \right)
-    \right)
-  \end{aligned}
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-As the notation suggests, we may think of $C^\infty(D)$ as the functions on a first order [[infinitesimal object|infinitesimal neighbourhood]] of the origin in $\mathbb{R}^n$. 
-
-=--
-
-
-
-
-### The coverage of differentially good open covers
- {#CoverageOfDifferentiallyGoodOpenCovers}
 
 We discuss a standard structure of a _[[site]]_ on the category [[CartSp]]. Following _[[Sketches of an Elephant|Johnstone -- Sketches of an Elephant]]_, it will be useful and convenient to regard a site as a ([[small site|small]]) category equipped with a _[[coverage]]_. This generates a genuine [[Grothendieck topology]], but need not itself already be one.
 
@@ -650,6 +407,7 @@ $$
 
 +-- {: .num_defn #DifferentiallyGoodOpenCover}
 ###### Definition
+**(differentially [[good open covers]])**
 
 A **differentially [[good open cover]]** of a [[Cartesian space]] $\mathbb{R}^n$ is a set $\{U_i \hookrightarrow \mathbb{R}^n\}$ of [[open subset]] inclusions of Cartesian spaces such that these [[open cover|cover]] $\mathbb{R}^n$
 and such for each non-empty finite [[intersection]] there exists a [[diffeomorphism]] 
@@ -683,7 +441,7 @@ A proof is at _[[good open cover]]_.
 +-- {: .num_remark}
 ###### Remark
 
-Despite its appearance, this is not quite a classical statement. The classical statement is only that every open cover is refined by a _topologically_ [[good open cover]]. See the comments _[here in the references-section](http://ncatlab.org/nlab/show/ball#References)_ at _[[open ball]]_ for the situation concerning this statement in the literature.
+Despite its appearance, this is not quite a classical statement. The classical statement is only that every open cover is refined by a _topologically_ [[good open cover]]. See the comments _[here in the references-section](ball#References)_ at _[[open ball]]_ for the situation concerning this statement in the literature.
 
 =--
 
@@ -740,11 +498,11 @@ This is a special case of what the following statement says in generality.
 
 +-- {: .num_prop #TheDifferentiallyGoodOpenCoverCoverage}
 ###### Proposition
-**([[site]] [[CartSp]])**
+**(the [[site]] of [[Carftesian spaces]] with differentially [[good open covers]])**
 
-The differentially [[good open covers]], Def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] on the [[category]] [[CartSp]] (from Prop. \ref{CartSpCategory}). 
+The differentially [[good open covers]], Def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Coverage)) on the [[category]] [[CartSp]] (from Prop. \ref{CartSpCategory}). 
 
-Hence [[CartSp]] equipped with that coverage is a [[site]].
+Hence [[CartSp]] equipped with this coverage is a [[site]] ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)).
 
 =--
 
@@ -819,6 +577,8 @@ The [[Grothendieck topology]] induced on [[CartSp]] by the differentially good o
 This means that for every sheaf-theoretic construction to follow we can just as well consider the Grothendieck topology of open covers on $CartSp$. The sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for several computational purposes in the following. It is the _good_ open cover coverage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Semantic Layer -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
 
 =--
+
+
 
 
 
