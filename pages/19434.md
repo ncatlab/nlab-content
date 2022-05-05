@@ -266,9 +266,30 @@ Together with a finite-completeness assumption on $\mathcal{K}$ and pointwisenes
 
 
 
-## The relation to KZ doctrines
+## The relation to KZ doctrines{#extension_KZ-doctrine}
 
-...
+Whereas it was shown already in the 1970s that ordinary monads on a 1-category can be brought into an [[extension system|extension form]] that avoids the iteration of the endofunctor similar presentations for 2-dimensional monad theory evolved more recently. For the comparison of [[lax-idempotent 2-monad|lax-idempotent 2-monads]] aka _KZ doctrines_ to Yoneda structures such presentations provided in the work of Marmolejo and Wood ([2012](#MW12)) come in handy. The link to Yoneda structures has been made in Walker ([2017](#Walker17)).
+
++-- {: .num_defn #KZ_doctrine}
+###### Definition
+Let $\mathcal{K}$ be a [[2-category]]. A _KZ-doctrine (in extension form)_ on $\mathcal{K}$ is a pair $(P,y)$ where $P$ assigns to every 0-cell $A\in\mathcal{K}$ a 0-cell $P(A)\in\mathcal{K}$ and $y$ is a family of 1-cells $y_A:A\to P(A)$ indexed by the 0-cells $A\in\mathcal{K}$ such that
+
+* For every pair of 0-cells $A$, $B$ and 1-cells $f:A\to P(B)$ there exists an invertible 2-cell $\epsilon_f$
+
+$$
+  \array{
+     A& & \overset{f}{\longrightarrow} & &P(B)
+     \\
+     &{}_{y_A}\searrow & \Downarrow _{\epsilon_f}& \nearrow _\overline{f}&
+     \\
+      & & P(A) & &
+  }
+$$
+
+that exhibits $\overline{f}$ as left extension of $f$ along $y_A$. Furthermore, in case $B=A$ and $f=y_A$ then $\epsilon_{y_A}$ is given by the identity 2-cell $id_{y_A}:y_A\Rightarrow id_{P(A)}\circ y_A$.
+
+* For any 1-cell $g:B\to P(C)$, the 1-cell $\overline{g}:P(B)\to P(C)$ given itself by the left extension along $y_B$ preserves the left extension of $f:A\to B$ along $y_A$ exhibited by $\epsilon_f$.
+=--
 
 ## In retrospective
 
@@ -342,6 +363,11 @@ The interplay of Yoneda structures and KZ doctrines is employed to some effect i
 
 * {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
+The pertaining technical ingredients on KZ doctrines are due to the following two papers
+
+* {#BF99} [[Marta Bunge]], [[Jonathon Funk]], _On a bicomma object condition for KZ-doctrines_ , JPAA **143** (1999) pp.69-105.
+
+* {#MW12} Francisco Marmolejo, [[Richard J. Wood]], _Kan extensions and lax idempotent pseudomonads_ , TAC **26** no.1 (2012) pp.1-19. ([abstract](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html))
 
 [[!redirects yoneda structure]]
 [[!redirects Yoneda Structure]]
