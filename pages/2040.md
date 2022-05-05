@@ -74,7 +74,7 @@ For $G$ finite, Mackey functors on $\mathcal{C}$ are equivalent to  genuine [[G-
 
 (...)
  
-For $E$ a [[genuine G-spectrum]] then the corresponding spectral Mackey functor is given by the [[equivariant homotopy groups]] of $E$
+For $E$ a [[genuine G-spectrum]], the corresponding spectral Mackey functor is given by the [[equivariant homotopy groups]] of $E$
 
 $$
   G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]_G
@@ -207,7 +207,7 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
-* {#Barwick15} [[Clark Barwick]], [[Saul Glasman]], [[Jay Shah]], _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
+* {#Barwick15} [[Clark Barwick]], [[Saul Glasman]], Jay Shah, _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
 
 * {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_ ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
 
@@ -221,6 +221,6 @@ Application of Mackey functors to the theory of [[motives]] includes
 
 Categorification to Mackey 2-functors can be found in 
 
-* Paul Balmer, Ivo Dell'Ambrogio, _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
+* [[Paul Balmer]], Ivo Dell'Ambrogio, _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
 
 [[!redirects Mackey functors]]
