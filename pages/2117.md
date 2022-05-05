@@ -83,7 +83,7 @@ This follows the following outline:
 
 ## Universes in type theory
 
-Set theory is not the only [[foundation of mathematics]].  For example, there are also various foundational [[type theories]], closely related to [[structural set theory]].  Then we have a meta-universe of all types, and we can also add axioms for the existence of internal universes.
+Set theory is not the only [[foundation of mathematics]].  For example, there are also various foundational [[type theories]], closely related to [[structural set theory]].  Then we have a meta-universe of all types, and we can also add axioms for the existence of internal [[type universes]].
 
 
 ## Related concepts
