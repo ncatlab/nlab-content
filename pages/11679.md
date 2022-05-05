@@ -13,6 +13,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition
 
 
@@ -24,11 +29,14 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
 
 ## Related concepts
 
+
 * [[degree of a coherent sheaf]]
 
 * [[rank of a coherent sheaf]]
 
 * [[stable coherent sheaf]]
+
+* [[stable vector bundle]]
 
 ## References
 
