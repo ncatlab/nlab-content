@@ -5,4 +5,6 @@
 
 * [[quantum gravity]]
 
+* [[de Sitter spacetime]]
+
 category: people
