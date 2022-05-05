@@ -31,6 +31,10 @@ There are a number of different, inequivalent, definitions of "cosmos" in the li
 
 Jean B&#233;nabou\'s original definition was that a **cosmos** $V$ is a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[closed monoidal category|closed]] [[symmetric monoidal category]].  This is an ideal situation for studying categories [[enriched category|enriched]] over $V$.
 
+## Indexed B&eacute;nabou cosmoi
+
+[Shulman 2013](#Shulman13) introduced an [[indexed category|indexed]] version of B&eacute;nabou's kind of cosmos, appropriate for studying enriched indexed categories over a base.  Notably, while B&eacute;nabou's definition is not "elementary" (it involves infinitary limits and colimits), the indexed version is elementary; the infinitary structure is folded into the indexing base category.  B&eacute;nabou's cosmoi are in particular indexed cosmoi over [[Set]].
+
 ## Street's "fibrational cosmoi"
 
 [[Ross Street]] has taken a different tack, defining a "cosmos" to be the collection of (enriched) categories and relevant structure for doing category theory, rather than the "base" category $V$ over which the enrichment occurs.
@@ -66,6 +70,9 @@ An [[infinity-cosmos]] is a "good place in which to do higher category theory" a
 * [[Ross Street]],  _Cosmoi of internal categories_, Transactions of the American Mathematical Society 258.2 (1980): 271-318.
 
 * [[Ross Street]], _Cauchy characterization of enriched categories_, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233. ([pdf](http://emis.ams.org/journals/TAC/reprints/articles/4/tr4.pdf))
+
+* [[Mike Shulman]], *Enriched indexed categories*, [TAC](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html) 2013
+ {#Shulman13}
 
 [[!redirects cosmoi]]
 [[!redirects Benabou cosmos]]
