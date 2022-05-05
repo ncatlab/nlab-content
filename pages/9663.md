@@ -38,7 +38,7 @@ Moreover, the [[indecomposable object|indecomposable]] [[quiver representations]
 
 The result is due to 
 
-* {#Gabriel72} [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972)
+* {#Gabriel72} [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972) ([doi:10.1007/BF01298413](https://link.springer.com/article/10.1007/BF01298413))
  
 Lecture notes include
 
