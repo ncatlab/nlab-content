@@ -11,7 +11,7 @@ One of the conjectured [[dualities in string theory]]:
 
 (Either this refers to the [[perturbation series]]-limit of M-theory, or else, more generally, to [[non-perturbative effect|non-perturbative]] type IIB theory, now also known as [[F-theory]]).
 
-This was originally argued in ([Dasgupta-Mukhil 96, section 2](#DasguptaMukhil96)) and ([Witten 95b](#Witten95b)).
+This was originally argued in ([Dasgupta-Mukhil 96, section 2](#DasguptaMukhil96)) and ([Witten 95b](#Witten95b), [Sen 96, top. of p .5](#Sen96)).
 
 ## Properties
 
@@ -27,11 +27,14 @@ On the M-theory side, ([Witten 95b, p. 9-10](#Witten95b)) identifies the $\mathb
 
 ## References
 
+* {#DasguptaMukhil96} [[Keshav Dasgupta]], [[Sunil Mukhi]], _Orbifolds of M-theory_, Nucl.Phys. B465 (1996) 399-412 ([arXiv:hep-th/9512196](https://arxiv.org/abs/hep-th/9512196))
+
+* {#Witten95b} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl.Phys.B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
+
+* {#Sen96} [[Ashoke Sen]], _Orbifolds of M-Theory and String Theory_, Mod.Phys.Lett.A11:1339-1348, 1996 ([arXiv:hep-th/9603113](https://arxiv.org/abs/hep-th/9603113))
+
+
 The expected relation to the [[6d (2,0)-superconformal QFT]] is discussed in
 
 
 * {#Witten95a} [[Edward Witten]], _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](https://arxiv.org/abs/hep-th/9507121))
-
-* {#DasguptaMukhil96} [[Keshav Dasgupta]], [[Sunil Mukhi]], _Orbifolds of M-theory_, Nucl.Phys. B465 (1996) 399-412 ([arXiv:hep-th/9512196](https://arxiv.org/abs/hep-th/9512196))
-
-* {#Witten95b} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl.Phys.B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
