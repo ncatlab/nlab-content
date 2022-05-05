@@ -27,6 +27,13 @@ The BLG model is a 3-dimensional [[SCFT]] involving a [[Chern-Simons theory]] co
 
 (...)
 
+### Boundary conditions 
+
+Discussion of [[boundary conditions]] of the BLG model, leading to [[brane intersection]] with [[M-wave]], [[M5-brane]] and [[MO9-brane]] is is [BPST 09](#BPST09)
+
+* {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
+
+
 ### The "$3$-algebra" structure
  {#3AlgebraStructure}
 
@@ -97,6 +104,11 @@ and concerning the "3-algebra"-structure also
 A comprehensive review and survey is in 
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+
+Discussion of [[boundary conditions]] leading to [[brane intersection]] with [[M-wave]], [[M5-brane]] and [[MO9-brane]] is is
+
+* {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
+
 
 Discussion in [[Horava-Witten theory]] reducing M2-branes to [[heterotic strings]] is in
 
