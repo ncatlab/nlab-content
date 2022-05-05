@@ -46,10 +46,11 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 * [[cosmic censorship]]
 
 ## References
+ {#References}
 
 * [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
 
-* [[Matthias Blau]], _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+* {#Blau} [[Matthias Blau]], _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 * Emil T. Akhmedov, _Lectures on General Theory of Relativity_ ([arXiv:1601.04996](https://arxiv.org/abs/1601.04996))
 
