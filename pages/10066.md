@@ -20,11 +20,45 @@ _Equivariant K-theory_ is the [[equivariant cohomology]] version of the [[genera
 To the extent that [[K-theory]] is given by [[equivalence classes]] of [[virtual vector bundles]] ([[topological K-theory]], [[operator K-theory]]), equivariant K-theory is given by equivalence classes of virtual [[equivariant bundles]] or generalizations to [[noncommutative topology]] thereof, as in _[[equivariant operator K-theory]]_, _[[equivariant KK-theory]]_.
 
 
+
 ## Properties
 
 ### Relation to operator K-theory of crossed product algebras
 
 The _[[Green-Julg theorem]]_ identifies, under some conditions, equivariant K-theory with [[operator K-theory]] of corresponding [[crossed product algebras]].
+
+
+
+
+### Relation to representation theory
+ {#RelationToRepresentationTheory}
+
+The [[representation ring]] of $G$ over the [[complex numbers]] is the $G$-[[equivariant K-theory]] of the point, or equivalently by the [[Green-Julg theorem]], if $G$ is a [[compact Lie group]], the [[operator K-theory]] of the [[group algebra]] (the [[groupoid convolution algebra]] of the [[delooping]] groupoid of $G$):
+
+$$
+  R_{\mathbb{C}}(G) \simeq KU^0_G(\ast) \simeq KK(\mathbb{C}, C(\mathbf{B}G))
+  \,.
+$$
+
+The first [[isomorphism]] here follows immediately from the elementary definition of equivariant [[topological K-theory]], since a $G$-[[equivariant vector bundle]] over the point is manifestly just a [[linear representation]] of $G$ on a [[complex vector space]].
+
+(e.g. [Wilson 16, example 1.6 p. 3](#Wilson16))
+
+Therefore a similar isomorphism identifies the $G$-representation ring over the [[real numbers]] with the equivariant orthogonal $K$-theory of the point in degree 0:
+
+$$
+  R_{\mathbb{R}}(G)
+  \;\simeq\;
+  KO_G^0(\ast)
+  \,.
+$$
+
+But beware that equivariant [[KO]], even of the point, is much richer in higher degree ([Wilson 16, remark 3.34](#Wilson16))
+
+Accordingly the construction of an [[index]] ([[push-forward in generalized cohomology|push-forward]] to the point) in equivariant K-theory is a way of producing $G$-[[representations]] from [[equivariant vector bundles]]. This method is also called _[[Dirac induction]]_. 
+
+Specifically, applied to equivariant [[complex line bundles]] on [[coadjoint orbits]] of $G$, this is a K-theoretic formulation of the [[orbit method]].
+
 
 ### Relation to K-theory of homotopy quotient spaces (Borel constructions)
 
@@ -68,20 +102,7 @@ $$
 
 This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Atiyah-Segal completion theorem]] says that the map identifies $K(B G)$ as the completion of $R(G)$ at the [[ideal]] of [[virtual representations]] of rank 0.
 
-
-### Relation to representation theory
- {#RelationToRepresentationTheory}
-
-The $G$-equivariant $K$-theory of the point is the [[representation ring]] of the group $G$:
-
-$$
-  K_G(\ast) \simeq Rep(G)
-  \,.
-$$
-
-Accordingly the construction of an [[index]] ([[push-forward in generalized cohomology|push-forward]] to the point) in equivariant K-theory is a way of producing $G$-[[representations]] from [[equivariant vector bundles]]. This method is also called _[[Dirac induction]]_. 
-
-Specifically, applied to equivariant [[complex line bundles]] on [[coadjoint orbits]] of $G$, this is a K-theoretic formulation of the [[orbit method]].
+[[!include Segal completion -- table]]
 
 ### Equivariant Chern-character
 
@@ -90,11 +111,6 @@ There is a [[Chern character]] map from equivariant K-theory to [[equivariant or
 (e.g. [Stefanich](#Stefanich))
 
 
-## Examples
-
-The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the [[representation ring]] of $G$.
-
-[[!include Segal completion -- table]]
 
 ## Related concepts
 
@@ -139,6 +155,9 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 * Zachary Maddock, _An informal discourse on equivariant K-theory_ ([pdf](http://math.columbia.edu/~ellis/ass/equiv_k-thry.pdf))
 
 * [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
+
+* {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
+
 
 The equivariant [[Chern character]] is discussed in 
 
