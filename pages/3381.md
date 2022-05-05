@@ -15,41 +15,51 @@
 
 ## Idea
 
-A __permutation__ is an [[automorphism]] in [[Set]].  More explicitly, a __permutation__ of a [[set]] $X$ is an [[inverse|invertible]] [[function]] from $X$ to itself.
+Classically, a __permutation__ on a [[set]] $X$ can be thought of in one of two different ways: either as a [[bijection]] from $X$ to itself, or alternatively as a [[linear ordering]] of the elements of $X$.
+For a set that is already equipped with a canonical ordering (such as a finite [[ordinal]] $X = \{1,\dots,n\}$), these two ways of defining permutations are interchangeable, but they correspond to different abstract [[structures]] that are more salient in different contexts.
+Typically, the definition of permutations-as-[[automorphisms]] is important in [[group theory]], while the definition of permutations-as-linear-orders is more common in [[combinatorics]].
 
+In the theory of [[operads]], the first view of permutations is used as part of the definition of a [[symmetric operad]], while the second view is used in defining the symmetric operad _of_ permutations.
 
-## Definition
+## Definitions
 
-The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ in $Set$) is the __symmetric group__ (or __permutation group__) on $X$.  This group may be denoted $S_X$, $\Sigma_X$, or $X!$.  When $X$ is [[the]] [[finite set]] $[n]$ with $n$ elements, then its symmetric group is a [[finite group]], and one typically writes $S_n$ or $\Sigma_n$; note that this group has $n!$ elements.
+### Permutations as automorphisms
 
-In [[combinatorics]], one often wants a slight generalisation.  Given a [[natural number]] $r$, an __$r$-permutation__ of $X$ is an [[injective function]] from $[r]$ to $X$, that is a [[list]] of $r$ distinct elements of $X$.  Note that the number of $r$-permutations of $[n]$ is counted by the [[falling factorial]] $n(n-1)\dots(n-r+1)$.  Then an $n$-permutation of $[n]$ is the same as a permutation of $[n]$, and the total number of such permutations is of course counted by the ordinary factorial $n!$.  (That an injective function from $X$ to itself must be invertible characterises $X$ as a [[Dedekind-finite set]].)
+As automorphisms $\sigma : X \to X$ in [[Set]], the permutations of $X$ naturally form a [[group]] under [[composition]], called the __symmetric group__ (or __permutation group__) on $X$.
+This group may be denoted $S_X$, $\Sigma_X$, or $X!$.
+When $X$ is [[the]] [[finite set]] $(n) = \{1,\dots,n\}$, then its symmetric group is a [[finite group]] of [[cardinality]] "$n$ [[factorial]]", and one typically writes $S_n$ or $\Sigma_n$.
 
+### Permutations as linear orders
 
-## Concrete representations 
+As linear orders, the permutations of a finite set $X$ of [[cardinality]] $n$ are in one-to-one correspondence with bijections from $(n) = \{1,\dots,n\}$ to $X$.
+Such a bijection $\sigma : (n) \to X$ can also be thought of as a consecutive [[list]] of all of the elements of $X$ without repetitions, giving rise to the "array notation" for permutations.
+For example, the six permutations of the set $\{a,b,c\}$ are: abc, acb, bac, bca, cab, and cba.
 
-### Via string diagrams 
+In combinatorics, one sometimes also wants a slight generalisation of this notion: for any [[natural number]] $r$, an _$r$-permutation_ of $X$ is an [[injective function]] $\sigma : (r) \to X$.
+An $r$-permutation corresponds to a list of $r$ distinct elements of $X$, so that for $n = |X|$, an $n$-permutation is the same thing as an ordinary permutation of $X$ (since it is necessarily [[surjective]] and hence [[bijective]], using that [[Set]] is a [[balanced category]]).
+More generally, the number of $r$-permutations of a set of cardinality $n$ is counted by the [[falling factorial]] $n^{\underline{r}} = n(n-1)\dots(n-r+1)$.
 
-### Via cycle decompositions 
+## Cycles and partitions
 
-Every permutation $\pi : X \to X$ generates a [[cyclic group|cyclic]] [[subgroup]] $\langle \pi \rangle$ of the symmetric group $S_X$, and hence inherits a [[group action]] on $X$.  The [[orbits]] of this action partition the set $X$ into a disjoint union of cycles, called the **cyclic decomposition** of the permutation $\pi$.
+### Cycle decomposition
 
-For example, let $\pi$ be the permutation on $[6] = \{0,\dots,5\}$ defined by
+As an element of the symmetric group $S_X$, every permutation $\sigma : X \to X$ generates a [[cyclic group|cyclic]] [[subgroup]] $\langle \sigma \rangle$, and hence inherits a [[group action]] on $X$.  The [[orbits]] of this action partition the set $X$ into a disjoint union of cycles, called the **cyclic decomposition** of the permutation $\sigma$.
 
-$$\pi = \array{0 \mapsto 0 \\ 1 \mapsto 3 \\ 2 \mapsto 4 \\ 3 \mapsto 5 \\ 4 \mapsto 2 \\ 5 \mapsto 1}$$
+For example, let $\sigma$ be the permutation on $(6)$ defined by
 
-The domain of the permutation is partitioned into three $\langle\pi\rangle$-orbits 
+$$\sigma = (\array{1 \mapsto 1 & 2 \mapsto 4 & 3 \mapsto 5 & 4 \mapsto 6 & 5 \mapsto 3 & 6 \mapsto 2})$$
 
-$$[6] = \{0\} \cup \{1,3,5\} \cup \{2,4\}$$
+The domain of the permutation is partitioned into three $\langle\sigma\rangle$-orbits 
+
+$$(6) = \{1\} \cup \{2,4,6\} \cup \{3,5\}$$
 
 corresponding to the three cycles
 
-$$0 \underset{\pi}{\to} 0 \qquad
-1 \underset{\pi}{\to} 3 \underset{\pi}{\to} 5 \underset{\pi}{\to} 1 \qquad
-2 \underset{\pi}{\to} 4 \underset{\pi}{\to} 2$$
+$$1 \underset{\sigma}{\to} 1 \qquad
+2 \underset{\sigma}{\to} 4 \underset{\sigma}{\to} 6 \underset{\sigma}{\to} 2 \qquad
+3 \underset{\sigma}{\to} 5 \underset{\sigma}{\to} 3$$
 
-Finally, we can express this more compactly by writing $\pi$ in cycle form, as the product $\pi = (0)(1\,3\,5)(2\,4)$.
-
-## Properties
+We can express this more compactly by writing $\sigma$ in "cycle form", as the composition $\sigma = (1)(2\,4\,6)(3\,5)$, or $\sigma = (2\,4\,6)(3\,5)$ leaving implicit the action of the identity (1).
 
 ### Conjugacy classes
  {#ConjugacyClasses}
@@ -133,6 +143,9 @@ $\,$
 
 $\,$
 
+## Properties
+
+
 ### Relation to the field with one element
 
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
@@ -213,6 +226,14 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
 * {#HopkinsMahowaldSadofsky94} [[Michael Hopkins]], [[Mark Mahowald]], [[Hal Sadofsky]], _Constructions of elements in Picard groups_, Contemporary mathematics, Volume 158, 1994 in [[Eric Friedlander]], [[Mark Mahowald]] (eds.), _Topology and Representation theory_ ([doi:10.1090/conm/158/01454](http://dx.doi.org/10.1090/conm/158/01454))
+
+For the operadic structure of permutations, see Volume 1, Chapter 1 of:
+
+* {#FresseHOGTG} [[Benoit Fresse]], _Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups (Volumes 1 & 2)_, [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/) 
+
+See also the chapter on "Patterns and permutations" in:
+
+* Étienne Ghys, _A Singular Mathematical Promenade_, August 2017. (arXiv:1612.06373) (author pdf)
 
 
 [[!redirects permutation]]
