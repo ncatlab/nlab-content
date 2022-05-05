@@ -121,20 +121,17 @@ Textbook accounts include
 
 See also
 
-
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
+Review combined with outlook is provided in 
 
-For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
-
-* [[domenicofiorenza:The standard model]]
+* Dmitry Kazakov, _Beyond the Standard Model' 17_ ([arXiv:1807.00148](https://arxiv.org/abs/1807.00148))
 
 A historical account is in 
 
 * [[Tom Kibble]], _The Standard Model of Particle Physics_ ([arXiv:1412.4094](http://arxiv.org/abs/1412.4094))
 
-There are tons of textbooks about the standard model, so any recommendation is hopelessly biased.
-The following textbook is a short and relativly easy introduction that nevertheless covers a lot of ground:
+There are tons of textbooks about the standard model, so any recommendation is hopelessly biased. The following textbook is a short and relativly easy introduction that nevertheless covers a lot of ground:
 
 * Cottingham, W. Noel; Greenwood, Derek A.: _An introduction to the standard model of particle physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
 
