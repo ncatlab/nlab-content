@@ -48,6 +48,12 @@ $$
 
 (e.g. [Borceux 94, Def. 6.7.1](#Borceux94))
 
+The 2-functor $\mathcal{V}$-$Cat \rightarrow {Cat}$ that sends an enriched category to its underlying ordinary category sends an enriched adjunction to an ordinary adjunction.
+
+## Examples
+
+* An adjunction enriched over truth values is a [[Galois connection]].
+
 ## Related concepts
 
 * [[enriched Quillen adjunction]]
