@@ -96,6 +96,8 @@ Therefore it makes sense to regard category theory as the **theory of adjunction
 
 <br/>
 
+{#HierarchyOfConcepts} $\,$
+
 | $\phantom{A}$hierarchy of concepts$\phantom{A}$  | $\phantom{A}$[[category theory]]$\phantom{A}$ | $\phantom{A}$[[enriched category theory|enriched]]$\phantom{A}$ | $\phantom{A}$[[model category|homotopical]]$\phantom{A}$ |
 |------------------------|------------|--------------------------|------|
 | $\phantom{A}$[[adjoint triple|adjunction of adjunctions]]$\phantom{A}$ <br/> $\phantom{AA}$[[adjoint triple|duality of dualities]]$\phantom{A}$ | $\phantom{A}$Def. \ref{AdjunctionofAdjunction}$\phantom{A}$ |   |  $\phantom{A}$Def. \ref{QuillenAdjointTriple}$\phantom{A}$ |  
