@@ -10,6 +10,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -28,6 +29,10 @@ has a [[source]] object and a [[target]] object.  If $f$ is a morphism with $x$ 
 we write
 $$f : x \to y$$
 and we say that $f$ is a morphism from $x$ to $y$.  In a category, we can [[composition|compose]] a morphism $g : x \to y$ and a morphism $f : y \to z$ to get a morphism $f \circ g : x \to z$.  Composition is associative and satisfies the left and right unit laws.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
+</center>
 
 A good example to keep in mind is the category [[Set]], in which the objects are sets and a morphism $f : x \to y$ is a function from the set $x$ to the set $y$.  Here composition is the usual composition of functions.
 
