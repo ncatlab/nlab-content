@@ -197,7 +197,7 @@ In the same vein there is an example for an adjunction of the form $\bigcirc \da
 +-- {: .num_example }
 ###### Example
 
-Consider the inclusion $\iota \colon (\mathbb{Z}, \lt) \hookrightarrow (\mathbb{R}, \lt)$ of the [[integers]] into the [[real numbers]], both regarded [[linear orders]]. This inclusion has a [[left adjoint]] given by [[ceiling]] and a right adjoint civen by [[floor]]. 
+Consider the inclusion $\iota \colon (\mathbb{Z}, \lt) \hookrightarrow (\mathbb{R}, \lt)$ of the [[integers]] into the [[real numbers]], both regarded as [[linear orders]]. This inclusion has a [[left adjoint]] given by [[ceiling]] and a right adjoint given by [[floor]]. 
 
 The composite $Ceiling \coloneqq \iota ceiling$ is an [[idempotent monad]] and the composite $Floor \coloneqq \iota floor$ is an [[idempotent comonad]] on $\mathbb{R}$. Both express a _moment of integrality_ in an real number, but in opposite ways, each real number $x\in \mathbb{R}$ sits in between its floor and celling
 
@@ -293,7 +293,7 @@ $$
 $$
 
 
-### Continuuum : repulsion $\dashv$ cohesion
+### Continuum : repulsion $\dashv$ cohesion
  {#ContinuumRepulsionCohesion}
 
 For $\mathbf{H}$ a [[cohesive topos]]/[[cohesive (∞,1)-topos]]
@@ -314,7 +314,7 @@ $$
 
 Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) one might call $\flat$ "repulsion", call $&#643;$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]". Indeed, by the discussion at _[[cohesive topos]]_, this does quite well capture the geometric notion of continuum geometry.
 
-### Infinitesimal Continuuum : infin. repulsion $\dashv$ infinit. cohesion
+### Infinitesimal Continuum : infin. repulsion $\dashv$ infinit. cohesion
  {#ContinuumRepulsionCohesion}
 
 For $\mathbf{H}$ equipped moreover with [[differential cohesion]],
