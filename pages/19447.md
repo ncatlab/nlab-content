@@ -76,7 +76,7 @@ $$
 i\dashv j\dashv k:RegPsh(\mathcal{G})\hookrightarrow Prsh(\mathcal{G})
 $$
 
-with $k$ identifying the regular presheaves with the Yondea presheaves and $j$ identifying them with the presheaves that are colimits of representables.
+with $k$ identifying the regular presheaves with the Yoneda presheaves and $i$ identifying them with the presheaves that are colimits of representables.
 =--
 
 For the proof see Moens et al. ([2002](#MBB02), p.179).
