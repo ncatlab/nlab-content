@@ -147,3 +147,6 @@ Review includes
 
 [[!redirects enriched presheaf category]]
 [[!redirects enriched presheaf categories]]
+
+[[!redirects category of enriched presheaves]]
+[[!redirects categories of enriched presheaves]]
