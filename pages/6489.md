@@ -294,7 +294,7 @@ generalizing the classical concept of [[slope of a vector bundle|slope]]-[[stabl
 
 * {#King94} [[Alastair King]], _Moduli of representations of finite dimensional algebras_, The Quarterly Journal of Mathematics 45.4 (1994): 515-530 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.623.649&rep=rep1&type=pdf))
 
-and motivated by informal arguments in [[string theory]] about the "$\Pi$-stability" for [[B-branes]] of the [[B-model]] [[topological string]], due to [Douglas 01](#Douglas01), [Douglas 02](#Douglas02), [Aspinwall 04](#Aspinwall04).
+and motivated by informal arguments in [[string theory]] about the "$\Pi$-stability" for [[B-branes]] of the [[B-model]] [[topological string]], due to [Douglas-Fiol-Römerlsberger 00](#DouglasFiolRomerlsberger00) and expanded on in [Douglas 01](#Douglas01), [Douglas 02](#Douglas02), [Aspinwall 04](#Aspinwall04) and other articles.
  
 Further developments include
 
@@ -346,6 +346,10 @@ over [[resolution of singularities|resolutions]] of [[ADE-singularities]]:
 
 
 ### Relation to stable branes in string theory
+
+The proposal that slope-stability of vector bundles should generalize to a notion of stability ("$\Pi$-stability") of [[B-branes]]/[[D-branes]] originates with
+
+* {#DouglasFiolRomerlsberger00} [[Michael Douglas]], Bartomeu Fiol, Christian Römelsberger, _Stability and BPS branes_, JHEP 0509:006, 2005 ([arXiv:hep-th/0002037](https://arxiv.org/abs/hep-th/0002037))
 
 In terms of stability ($\Pi$-stability) of [[B-branes]] of the [[B-model]] [[topological string]]:
 
