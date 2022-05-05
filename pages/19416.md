@@ -48,13 +48,9 @@ The proposition follows immediately from these two observations.
 
 This argument is rather canonical. In principle, it 'should' lift to a proof of the hypothèse inspiratrice, simply by replacing set-theoretic notions by homotopy-theoretic ones: colimits by homotopy colimits, and so on. And this does work, but with the caveat that such a proof can only be formulated if one works inside 'homotopy category theory' rather than ordinary category theory. 
 
-## Independence from ZFC?
+## In HoTT
 
-At least one of the authors of this page (Richard) conjectures that the hypothèse inspiratrice in its original form may be independent from ZFC. The reason for this is the striking discrepancy between the ease with which one can prove the hypothèse inspiratrice if one 'lifts' it so that one can translate the proof for $\mathsf{Set}$ to homotopy theory, and the intractibility of the original statement. The idea is that the homotopy category as an ordinary category has lost too much information from the setting of homotopy category theory to be able to _prove_ things like the hypothèse inspiratrice, but that this forgetting of information does not affect what can be said about the homotopy category as a 'set-theoretic category'.
-
-This is all very vague! But perhaps it inspires someone to properly look into it. If one could prove the independence of the hypothèse inspiratrice from ZFC, it would express rigorously a fundamental distinction between set theory and homotopy theory/higher category theory that seems to be apparent in practise. 
-
-As to how to prove the independence, we have no idea! The only thing we can say is that in HoTT, it seems that one can construct models in which a form of the hypothèse inspiratrice is false (see [[Vladimir Voevodsky|Voevodsky]]'s comment in [this thread](https://groups.google.com/d/msg/homotopytypetheory/Wyxmcvo5K2Y/SUm3nwYECQAJ) on the HoTT mailing list), whilst, as above, there should certainly be models where it is true. It is not obvious how to proceed from these models of HoTT to models of ZFC in which the homotopy category comes out as the correct object, but perhaps this is an avenue to explore.
+In [[homotopy type theory]] one can formulate a form of the hypothèse inspiratrice. In many cases, this formulation is provably false. See for instance [[Vladimir Voevodsky|Voevodsky]]'s comment in [this thread](https://groups.google.com/d/msg/homotopytypetheory/Wyxmcvo5K2Y/SUm3nwYECQAJ) on the HoTT mailing list.
 
 ## Grothendieck's formulation
 
