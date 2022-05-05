@@ -291,11 +291,15 @@ that exhibits $\overline{f}$ as left extension of $f$ along $y_A$. Furthermore, 
 * For any 1-cell $g:B\to P(C)$, the 1-cell $\overline{g}:P(B)\to P(C)$ given itself by the left extension along $y_B$ preserves the left extension of $f:A\to B$ along $y_A$ exhibited by $\epsilon_f$.
 =--
 
-Clearly, with $(P,y)$ the presheaf construction of a Yoneda structure comes into sight though we still need to define a suitable class of admissible maps from $(P,y)$. But before we do this we will introduce the concept that corresponds to the familiar notion of a pseudoalgebra for a lax-idempotent 2-monad thereby hopefully making it plausible that $(P,y)$ indeed is equivalent to the usual algebraic concept. The main idea of the following definition is that the "pseudoalgebras" $X\in|\mathcal{K}|$ mimic the extension properties of the $P(A)$, in particular, all $P(A)$ satisfy the condition trvivially and should be thought of as free algebras.
+Clearly, with $(P,y)$ the presheaf construction of a Yoneda structure comes into sight though we still need to define a suitable class of admissible maps from $(P,y)$.
+
+But before we do this we will introduce the concept that corresponds to the familiar notion of a pseudoalgebra for a lax-idempotent 2-monad thereby hopefully making it plausible that $(P,y)$ indeed is equivalent to the usual algebraic concept.
+
+The main idea of the following definition is that the "pseudoalgebras" $X\in|\mathcal{K}|$ mimic the extension properties of the $P(A)$, in particular, all $P(A)$ satisfy the condition trvivially and should be thought of as free algebras.
 
 +-- {: .num_defn #P-complete}
 ###### Definition
-Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. A 0-cell $X\in|\mathcal{K}|$ is called _P-complete_ if for every $g:B\to X$ there exists an invertible 2-cell $\epsilon_g$
+Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. A 0-cell $X\in|\mathcal{K}|$ is called _P-cocomplete_ if for every $g:B\to X$ there exists an invertible 2-cell $\epsilon_g$
 
 $$
   \array{
@@ -308,12 +312,16 @@ $$
 $$
 that exhibits $\overline{g}$ as left extension of $g$ along $y_B$. Moreover, this left extension $\overline{g}:P(B)\to X$ preserves all the left extensions $\overline{f}:P(A)\to P(B)$ along $y_A$ of arbitrary $f:A\to P(B)$.
 =--
++-- {: .num_defn #P-cell}
+###### Definition
+A 1-cell $h:X\to Y$ between two P-cocomplete objects $X$, $Y$ is called a _P-homomorphism_ (, or a _P-cell_) if $h$ preserves the left extension $\overline{f}:P(A)\to X$ along $y_A:A\to P(A)$ for every $f:A\to X$.
+=--
 
 +-- {: .num_prop #P-algebra}
 ###### Proposition
 Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. The following are equivalent:
 
-* $X\in|\mathcal{K}|$ is P-complete;
+* $X\in|\mathcal{K}|$ is P-cocomplete;
 
 * $y_X:X\to P(X)$ has a left adjoint with invertible counit;
 
@@ -321,8 +329,22 @@ Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. The following are equivalent:
 
 =--
 
-The proof combines results from Bunge-Funk ([1999](#BF99)) and Marmolejo-Wood ([2012](#MW12)). $\qed$
+**Proof**.  A combination of results from Bunge-Funk ([1999](#BF99)) and Marmolejo-Wood ([2012](#MW12)). $\qed$
 
+We now attend the problem of defining a class $\mathbb{A}$ of admissible maps for $(P,y)$. 
+
++-- {: .num_defn #P-admissible}
+###### Definition
+Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. A 1-cell $a:B\to C$ is called _P-admissible_ if the left extension of $y_B:B\to P(B)$ along $a$ exists and moreover is preserved by all left extensions $\overline{h}:P(B)\to X$ along $y_B$ of 1-cells $h:B\to X$ into a P-cocomplete 0-cell $X$.
+=--
+
++-- {: .num_prop #Yoneda_monad}
+###### Theorem (Walker)
+Let $(P,y)$ be a locally fully-faithful KZ-doctrine on 2-category $\mathcal{K}$ with $\mathbb{A}_P$ the class of P-admissible 1-cells. The pair $(\mathbb{A}_P,P)$ defines a proto-Yoneda structure on $\mathcal{K}$.
+
+=--
+
+**Proof**. cf. Walker ([2017](#Walker17), p.9). $\qed$
 
 ## In retrospective
 
