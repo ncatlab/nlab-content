@@ -51,6 +51,8 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 * [[near-horizon geometry]]
 
+* [[singleton representation]]
+
 ## References
 
 * [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
