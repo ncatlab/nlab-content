@@ -110,7 +110,7 @@ but intended to satisfy this only with [[equality]] relaxed to [[gauge transform
 
 Such _would-be homotopy equivalences_ are called _[[weak equivalences]]_ (Def. \ref{CategoryWithWeakEquivalences} below). 
 
-In principle, this information already defines a [[homotopy theory]] by a construction called _[[simplicial localization]]_, which turns [[weak equivalences]] into actual [[homotopy equivalences]] in a suitable way (Remark \ref{SimplicialLocalizationOutlook} below). 
+In principle, this information already defines a [[homotopy theory]] by a construction called _[[simplicial localization]]_, which turns [[weak equivalences]] into actual [[homotopy equivalences]] in a suitable way. 
 
 However, without further tools this construction is very unwieldy. The extra structure of a _[[model category]]_ (Def. \ref{ModelCategory} below) on top of a [[category with weak equivalences]] provides a set of tools.
 
@@ -14030,7 +14030,44 @@ $$
 
 This is called the _[[category of simplicial presheaves]]_ on $\mathcal{C}$.
 
+By Prop. \ref{SimplicialSetsAsPresheavesOnTheSimplexCategory} this is [[equivalence of categories|equivalent]] (Def. \ref{AdjointEquivalenceOfCategories}) to the category of [[simplicial objects]] in the [[category of presheaves]] over $\mathcal{C}$ (Example \ref{CategoryOfPresheaves}):
+
+\[
+  \label{SimplicialObjectsInPresheavesAreSimplicialPresheaves}
+  [\mathcal{C}^{op}, sSet]
+  \;\simeq\;
+  [\Delta^{op}, \mathcal{C}^{op}, Set]
+\]
+
+This implies for instance that if 
+
+$$
+  \mathcal{D} 
+    \overset{F}{\longrightarrow} 
+  \mathcal{D}
+$$
+
+a [[functor]], the induced [[adjoint triple]] of [[sSet]]-[[enriched functor]] [[Kan extensions]] (Prop. \ref{TopologicalLeftKanExtensionBCoend})
+
+$$
+  [\mathcal{C}^{op}, sSet]
+     \;
+     \array{
+       \underoverset{\phantom{AA}\bot\phantom{AA}}{Lan_F}{\longrightarrow}
+       \\
+       \underoverset{\phantom{AA}\bot\phantom{AA}}{F^\ast}{\longleftarrow}
+       \\
+       \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{Ran_F}{\longrightarrow}
+     }
+     \;
+  [\mathcal{D}^{op}, sSet]
+$$
+
+is given simplicial-degreewise by the corresponding [[Set]]-enriched Kan extensions.
+
 =--
+
+
 
 
 +-- {: .num_prop #ModelCategoriesOfSimplicialPresheaves}
@@ -15782,25 +15819,27 @@ such that
 
 1. if $\{ U_i \overset{\iota_i}{\to} X \}$ is a covering family in $\mathcal{C}_{red}$, and $p(\widehat X) \longrightarrow X$ is any morphism in $\mathcal{C}_{red}$, then there is a covering familiy $\{ \widehat U_i \overset{\widehat\iota_j}{\to} \widehat X \}$ such that for all $i$ there is a $j$ and a commuting square
 
-   $$
+   \[
+     \label{LiftingOfCoversThroughPiInfInElasticSite}
      \array{
-       p(\widehat U_j) &\longrightarrow& U_i
+       \Pi_{inf}(\widehat U_j) &\longrightarrow& U_i
        \\
-       {}^{\mathllap{ \widehat\iota_j }}\Big\downarrow 
+       {}^{\mathllap{ \Pi_{inf}(\widehat\iota_j) }}\Big\downarrow 
          && 
        \Big\downarrow{}^{\mathrlap{ \iota_i }}
        \\
-       p(\widehat X) &\longrightarrow& X
+       \Pi_{inf}(\widehat X) &\longrightarrow& X
      }
-   $$
+   \]
 
 We also call this an _[[∞-elastic site]]_, for short.
 
 =--
 
 
-+-- {: .num_prop #}
++-- {: .num_prop #ElasticInfinityTopos}
 ###### Proposition
+**([[elastic (∞,1)-topos]])**
 
 Let 
 
@@ -15813,19 +15852,21 @@ $$
   \mathcal{C}
 $$
 
-be an [[∞-elastic site]] (Def. \ref{ElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
+be an [[∞-elastic site]] (Def. \ref{ElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
 
 $$
   [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj,loc}
+    \;\;
     \array{
-      \underoverset{\bot}{\iota_{inf}}{\hookrightarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{\iota_{inf}}{\hookrightarrow}
       \\
-      \underoverset{\bot}{\Pi_{inf}}{\longleftarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{\Pi_{inf}}{\longleftarrow}
       \\
-      \underoverset{\bot}{Disc_{inf}}{\hookrightarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{Disc_{inf}}{\hookrightarrow}
       \\
-      \overset{\Gamma_{inf}}{\longleftarrow}
+      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{\Gamma_{inf}}{\longleftarrow}
     }
+    \;\;
   [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj,loc}
   \;\;\;
   \in CombModCat
@@ -15836,16 +15877,18 @@ We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibi
 
 $$
   \mathbf{H}_{red}
+    \;\;
     \array{
-      \underoverset{\bot}{\iota_{inf}}{\hookrightarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{\iota_{inf}}{\hookrightarrow}
       \\
-      \underoverset{\bot}{\Pi_{inf}}{\longleftarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{\Pi_{inf}}{\longleftarrow}
       \\
-      \underoverset{\bot}{Disc_{inf}}{\hookrightarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{Disc_{inf}}{\hookrightarrow}
       \\
-      \overset{\Gamma_{inf}}{\longleftarrow}
+      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{\Gamma_{inf}}{\longleftarrow}
     }
-  \mathbf{G}
+    \;\;
+  \mathbf{H}
   \;\;\;
   \in Ho(CombModCat)
   \,.
@@ -15857,41 +15900,62 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By Example \ref{geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple} we have an [[adjoint quadruple]] as required between the [[categories of presheaves]]
+By Example \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair} we have a [[Quillen adjoint quadruple]] for the global [[projective model structure on simplicial presheaves]] of the form
 
 $$
-  Sh(\mathcal{C}_{red})
-    \underoverset
-      {\underset{\phantom{AA}\iota_{\mathcal{C}_{red}}\phantom{AA} }{\hookrightarrow}}
-      {\overset{L_{\mathcal{C}_{red}}}{\longleftarrow}}
-      {\bot}
-  [\mathcal{C}_{red}^{op}, Set]
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj}
+  \;
     \array{
-      \underoverset{\bot}{ \iota_{inf} }{\longrightarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{ \iota_{inf} }{\longrightarrow}
       \\
-      \underoverset{\bot}{ \phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{ \phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
       \\
-      \underoverset{\bot}{ \phantom{A}Disc_{inf}\phantom{A} }{\longrightarrow}
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{ \phantom{A}Disc_{inf}\phantom{A} }{\longrightarrow}
       \\
-      \overset{ \Gamma_{inf} }{\longleftarrow}
+      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{ \Gamma_{inf} }{\longleftarrow}
     }
-  [\mathcal{C}^{op}, Set]
-    \underoverset
-      {\underset{\phantom{AA} \iota_{\mathcal{C} \phantom{AA} }}{\hookleftarrow}}
-      {\overset{L_{\mathcal{C}}}{\longrightarrow}}  
-      {\bot}
-  Sh(\mathcal{C})
+   \;
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
 $$
 
 Here we denote [[left Kan extension]] along a functor by the same symbol as that functor, which is consistent by Prop. \ref{LeftKanExtensionPreservesRepresentableFunctors}.
 
-Hence it is sufficient to see that this [[corestriction|co-]][[restriction|restricts]] to sheaves. 
+By Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} both [[model categories]] appearing here are [[left proper model category|left proper]] [[simplicial model categories]], and by Def. \ref{BousfieldLocalizationOfModelCategories} [[left Bousfield localization]] retains the [[class]] of [[cofibrations]].  Therefore Prop. \ref{RecognitionOfSimplicialQuillenAdjunction} says that to see that this is also a [[Quillen adjoint quadruple]] for the [[local model structure on simplicial presheaves]] (Prop. \ref{TopologicalLocalization}) it is sufficient that, for each [[Quillen adjunction]], the [[right adjoint]] preserves [[fibrant objects]], hence Cech-[[local objects]] (Def. \ref{DerivedLocalObjects}).
 
-That $\Pi_{inf}$ and $Disc_{inf}$ preserves sheaves is immediate from the adjunction isomorphism for $\iota_{inf} \dashv \Pi_{inf}$ and for $\Pi_{inf} \dashv Disc_{int}$, respectively, and the assumption that $i_{inf}$ and $\Pi_{inf}$ preserve covering families. 
+For each [[right adjoint]] $R$ here this means to consider any [[covering]] $\{U_i \overset{}{\to} X\}$ (either in $\mathcal{C}_{red}$ or in $\mathcal{C}$) with induced [[Cech nerve]] $C(\{U_i\})$ (Example \ref{CechNerve}) and to check that for a fibrant object $\mathbf{X}$ in the global projective/injective [[model structure on simplicial presheaves]], that 
 
-Moreover, we have that $L_{\mathcal{C}} \circ \iota_{inf}$ is a left adjoint to $\Pi_{inf} \circ \iota_{\mathcal{C}}$, and so by the previous statement this adjunction restricts to sheaves on $\mathcal{C}_{red}$.
+$$
+  [X, R\mathbf{X}] \longrightarrow [ C(\{U_i\}), R\mathbf{X} ]
+$$
 
-It remains to see that $\Gamma_{inf}\mathbf{X}$ is a sheaf on $\mathcal{C}_{red}$ if $\mathbf{X}$ is a sheaf on $\mathcal{C}$. This follows by Prop. \ref{CechNerveProjectionOfLocalEpimorphismIsLocalWeakEquivalence} using that, by assumption, $Disc_{inf}$ sends [[Cech nerves]] of covering families to [[Cech nerves]] (Example \ref{CechNerve}) of [[local epimorphisms]].
+is a [[weak equivalence]]. Notice that this is indeed already the image under the correct [[derived hom-functor]], Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory}, since both [[sites]] are assumed to be [[∞-cohesive sites]] (Def. \ref{InfinityCohesiveSite}), which means in particular that $C(\{U_i\})$ is projectively cofibrant, and hence also injectively cofibrant, by Prop. \ref{ModelCategoriesOfSimplicialPresheaves}.
+
+Now by the [[enriched adjunction]]-isomorphism (eq:eq:EnrichedAdjunctionIsomorphism) this means equivalently that 
+
+\[
+  \label{LocalityForInfinityCohesiveSite}
+  [L X, \mathbf{X}] \longrightarrow [ L C(\{U_i\}), \mathbf{X} ]
+\]
+
+is a weak equivalence. This we now check in each of the three cases:
+
+For the case $(\iota_{inf} \dashv \Pi_{inf})$ we have that 
+
+$$
+  \iota_{inf} C(\{U_i\}) \simeq C(\{\iota_{inf} U_i\})
+$$
+
+by the assumption that $\iota_{inf}$ preserves fiber products of [[Yoneda embedding]]-[[images]] of morphisms in a [[covering]]. Moreover, by the assumption that $\iota_{inf}$ preserves [[covering]]-families, $C(\{\iota_{inf} U_i\})$ is itself the [[Cech nerve]] of a covering family, and hence (eq:LocalityForInfinityCohesiveSite) is a weak equivalence since $\mathbf{X}$ is assumed to be a [[local object]].
+
+The same argument directly applies also to $(\Pi_{inf} \dashv Disc_{inf})$, where now the respect of $\Pi_{inf}$ for fiber products follows already from the fact that this is a [[right adjoint]] (since [[right adjoints preserve limits]], Prop. \ref{AdjointsPreserveCoLimits}).
+
+In the same, way, for $(Disc_{inf} \dashv \Gamma_{inf})$ we need to check that $[ C(\{Disc_{inf}U_i\}) \to Disc_{inf} X, \mathbf{X} ]$ is a weak equivalence. Now $Disc_{inf}$ is no longer a [[left Kan extension]], hence $Disc_{inf}(U_i) \to Disc_{inf}(X)$ is no longer a morphism of [[representable presheaves]]. But the third assumption (eq:LiftingOfCoversThroughPiInfInElasticSite) on an $\infty$-elastic site manifestly means, under the adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) for $(Pi_{inf} Disc_{inf})$ that $Disc_{inf}(U_i) \to Disc_{inf}(X)$ is a [[local epimorphism]] (Def. \ref{LocalEpimorphism}). Therefore Prop. \ref{Prop. \ref{CechNerveProjectionOfLocalEpimorphismIsLocalWeakEquivalence} implies that 
+
+$$
+  C(\{Disc_{inf} U_i\}) \to Disc_{inf} X
+$$
+
+is a weak equivalence. With this, the fact (Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} with Prop. \ref{ExistenceOfLeftBousfieldLocalization}) that $[\mathcal{C}^{op}, sSet_{Qu}]_{inj, loc}$ is a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}) implies that $[C(\{Disc_{inf} U_i\}) \to Disc_{inf} X, \mathbf{X}]$ is a weak equivalence.
 
 =--
 
@@ -15899,3 +15963,4 @@ $\,$
 
 (...)
 
+ 
