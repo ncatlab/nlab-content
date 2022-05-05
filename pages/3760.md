@@ -15,7 +15,7 @@ The problem is partially how one is to interpret this second part. To do this we
 
 For example, if we have the symmetric group $S_3$, or, isomorphically, the dihedral group (of symmetries of a triangle) which we will call $D_3$ (following the geometric convention (see the Wikipedia article on dihedral groups), then we have 6 elements, and they are all able to be got as products of a transposition and a three cycle (or alternatively as a reflection and a rotation).  If we call the three cycle $a$ and the transposition $b$, we have
 
-$$S_3=\{1,a,a^2,b,ab,a^2b\}.$$
+$$S_3=\{1,a,a^2,b,a b,a^2b\}.$$
 
 What about the other words: $ba$ for instance.  If one calculates $b a$ in $S_3$ and then looks up what you get you have $ba = a^2b$, so that there is a relation between these two words. This however is not all. What about $b a b a a b a a  a b b a a $? That is a word in the $a$s and $b$s so should represent something in $S_3$. in fact if you think in the geometric interpretation of $S_3$ as being the dihedral group, $D_3$, you can pick up  a triangle and interpret that word as a list of instructions for moving the triangle. You then find out what this word is out of the 6 possible given forms. 
 
@@ -41,13 +41,13 @@ In general it is necessary to proceed otherwise, however, and to give a specific
 
 *  $G$ a cyclic group, $C_n$, of order $n$ has presentation $\langle a : a^n\rangle$.  There are many different functions from the (singleton) set of generators to  $C_n$ that will give a suitable presentation in the fuller sense.
 
-*  $S_3$ has a presentation $\langle a,b : a^3, b^2,(ab)^2 \rangle$.
+*  $S_3$ has a presentation $\langle a,b : a^3, b^2,(a b)^2 \rangle$.
 
 * The [[trefoil knot|trefoil]] [[knot group]] has two useful presentations:
 
   * $\langle a,b : a^3= b^2\rangle$, which displays the fact that the trefoil is a (2,3)-[[torus knot]]; and
 
-  * $\langle x,y : xyx=yxy\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
+  * $\langle x,y : x y x = y x y\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
 
 
 ## Discussion
@@ -81,6 +81,11 @@ Given a group presentation, it is natural to perform transformations using subst
 ## Combinatorial group theory
 
 The study of group presentations, their transformations etc. forms part of [[combinatorial group theory]].
+
+## Presentations of monoids and other algebraic and categorical structures.
+
+The theory of group presentations generalisesto that of presentations of monoids and then to general [[rewriting]] systems.
+
 
 
 ## References
