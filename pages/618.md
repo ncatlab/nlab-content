@@ -153,7 +153,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 
 * There are many interesting coverages on the category of [[scheme|schemes]]; it was these examples which originally motivated Grothendieck to consider the notion. See [[fpqc topology]], etc.
 
-* On any [[category]] there is the _trivial coverage_ which has no covering families at all.  Every presheaf is a sheaf for this coverage (and in particular, it is subcanonical).  The corresponding Grothendieck coverage consists of all sieves that contain a [[split epimorphism]].  (Note that every presheaf is a sheaf for any family containing a split epic.)
+* On any [[category]] there is the _[[trivial coverage]]_ which has no covering families at all.  Every presheaf is a sheaf for this coverage (and in particular, it is subcanonical).  The corresponding Grothendieck coverage consists of all sieves that contain a [[split epimorphism]].  (Note that every presheaf is a sheaf for any family containing a split epic.)
 
 * On any [[regular category]] there is a coverage, called the _regular coverage_, whose covering families are the singletons $\{f:V\to U\}$ where $f$ is a [[regular epimorphism]].  It is subcanonical.
 
