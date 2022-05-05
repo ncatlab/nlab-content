@@ -28,8 +28,15 @@ In a [[topological space]] $(X,\tau)$ a point $x \in X$ is called a _closed poin
 
 * [[interior point]]
 
-## Properties
+
+## Examples
+ {#Examples}
 
 * A [[topological space]] is a [[T1-topological space|T1-space]] precisely if all its points are closed points.
+
+* In the [[Zariski topology]] on an [[algebraic variety]] $Spec(R)$, the closed points correspond to the _[[maximal ideals]]_ in $R$ ([this Prop.](Zariski+topology#MaximalIdealsAreClosedPoints)).
+
+* In particular the [[prime numbers]] correspond to the closed points in [[Spec(Z)]] ([this Example](Zariski+topology#SpecZ)).
+
 
 [[!redirects closed points]]
