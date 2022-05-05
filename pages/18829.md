@@ -22,6 +22,7 @@ In this chapter we discuss the following topics:
 
 $\,$
 
+
 In the previous chapters we had found the [[Peierls-Poisson bracket]] (theorem \ref{PPeierlsBracket}) on the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[gauge fixing|gauge fixed]] (def. \ref{GaugeFixingLagrangianDensity}) [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}). 
 
 This [[Poisson bracket]] (def. \ref{SuperPoissonAlgebra} below) is a  [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. Just as with the [[infinitesimal symmetries of the Lagrangian]] and the [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[field bundle]] (example \ref{LocalOffShellBRSTComplex}), we may hard-wire these [[Hamiltonian]] symmetries into the very geometry of the phase space by forming their [[homotopy quotient]] given by the corresponding [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}): here this is called the _[[Poisson Lie algebroid]]_. Its [[Lie integration]] to a  finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_. This is the original [[covariant phase space]], but with its [[Hamiltonian flows]] hard-wired into its [[higher differential geometry]] ([[schreiber:master thesis Bongers|Bongers 14, section 4]]).
@@ -830,12 +831,11 @@ $\,$
 **[[Moyal star product]] via [[geometric quantization]] of [[symplectic groupoid]]**
   {#MoyalStarProductViaGeometricQuantization}
 
-
 +-- {: .num_prop #IntegralRepresentationOfStarProduct}
 ###### Proposition
 **([[integral]] representation of [[star product]])**
 
-If $\pi$ skew-symmetric and invertible, in that there exists $\omega \in V^\ast \otimes V^\ast$ with $\pi^{i j}\omega_{j k} = \delta^i_k$, and if the functions $f,g$ admit [[Fourier analysis]] (are [[functions with rapidly decreasing partial derivatives]]), then  their [[star product]] (def. \ref{StarPoduct}) is equivalently given by the following [[integral]] expression:
+If $\pi$ skew-symmetric and invertible, in that there exists $\omega \in V^\ast \otimes V^\ast$ with $\pi^{i j}\omega_{j k} = \delta^i_k$, and if the functions $f,g$ admit [[Fourier transform|Fourier analysis]] (are [[functions with rapidly decreasing partial derivatives]]), then  their [[star product]] (def. \ref{StarPoduct}) is equivalently given by the following [[integral]] expression:
 
 $$
   \begin{aligned}
