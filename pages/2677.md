@@ -39,28 +39,70 @@ where on the right the notation is just suggestive, the [[topos]] is a suitable 
 
 This proposal seems to subsume many aspects of other existing proposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
 
-
 ## Function field analogy
 
 [[!include function field analogy -- table]]
 
-## Contributors
 
-After the very first observations by Tits, pioneers were [[Christophe Soulé]] and Kapranov and Smirnov. More recently there are extensive works by [[Alain Connes]] and Katia Consani, [[Nikolai Durov]], [[James Borger]] and [[Oliver Lorscheid]]. 
+
+## Algebra over $\mathbb{F}_1$
+ {#AlgebraOverF1}
+
+### Modules
+ {#Modules}
+
+It makes sense to identify the concept of [[modules]] over the field with one element with that of ([[pointed set|pointed]]) [[finite sets]] 
+
+$$
+  \mathbb{F}_1 Mod
+  \;\simeq\;
+  FinSet^{\ast/}
+$$
+
+(e.g. [Cohn 04, "puzzle 1"](#Cohn04), [Durov 07, 2.5.6](#Durov07), [Snyder 07](#Snyder07))
+
+### Algebraic K-theory
+ 
+With the identification $\mathbb{F}_1 Mod \simeq FinSet^{\ast/}$ it follows that the [[algebraic K-theory]] over $\mathbb{F}_1$ is [[stable cohomotopy]]
+
+$$
+  \begin{aligned}
+    K \mathbb{F}_1
+    & \coloneqq\;
+    K(\mathbb{F}_1 Mod)
+    \\
+    & \simeq\;
+    K(FinSet)
+    \\
+    & \simeq
+    \mathbb{S}
+  \end{aligned}
+  \,.
+$$ 
+
+Here in the second step we used the definition of algebraic K-theory for ordinary [[commutative rings]] as the [[K-theory of a permutative category|K-theory of the permutative category]] of modules ([this example](K-theory+of+a+permutative+category#examples#OrdinaryAlgebraicKTheoryFromPermutativeCategoryOfProjectiveModules)), in the second step we used the identification of modules over $\mathbb{F}_1$ with [[pointed set|pointed]] [[finite sets]] from [above](#Modules), and finally we used the identification of the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite set]] with the [[sphere spectrum]] ([this example](K-theory+of+a+permutative+category#StableCohomotopyIsKTheoryOfFinSet)), which is the spectrum representing [[stable cohomotopy]], by definition.
+
 
 ## Related concepts
 
-See also [[Lambda-ring]], [[blue scheme]] and [[tropical geometry]].
+* [[Lambda-ring]], 
+
+* [[blue scheme]]
+
+* [[tropical geometry]].
 
 
 ## References
 
+After the very first observations by Tits, pioneers were [[Christophe Soulé]] and Kapranov and Smirnov. More recently there are extensive works by [[Alain Connes]] and Katia Consani, [[Nikolai Durov]], [[James Borger]] and [[Oliver Lorscheid]]. 
 
 ### Expositions 
 
+* {#Cohn04} Henry Cohn, _Projective geometry over $\mathbb{F}_1$ and the Gaussian binomial coefficients_, American Mathematical Monthly 111 (2004), 487-495 ([arXiv:math/0407093](https://arxiv.org/abs/math/0407093))
+
 * [[Lieven Le Bruyn]], _Looking for $F_{un}$_, [blog](http://www.neverendingbooks.org/looking-for-f_un)
 
-A survey of the various competing theories is
+* {#Snyder07} [[Noah Snyder]], _[The field with one element](https://sbseminar.wordpress.com/2007/08/14/the-field-with-one-element/)_, 
 
 * Javier L&#243;pez Pe&#241;a, [[Oliver Lorscheid]], _Mapping $F_1$-land:An overview of geometries over the field with one element_, [arXiv/0909.0069](http://arxiv.org/abs/0909.0069)
 
@@ -79,7 +121,7 @@ A survey of the various competing theories is
 * {#Tits57} [[Jacques Tits]], _Sur les analogues algebriques des groupes semi-simples complexes_. In Colloque d'algebre superieure, tenu a Bruxelles du 19 au 22 decembre 1956, Centre Belge de Recherches Mathematiques,
 pages 261{289. Etablissements Ceuterick, Louvain, 1957.
 
-* {#Soule04} [[Christophe Soulé]], _Les varietes sur le corps a un element_ Mosc. Math. J., 4(1):217-244, 312, 2004.
+* {#Soule04} [[Christophe Soulé]], _Les varietes sur le corps a un element_ Mosc. Math. J., 4(1):217-244, 312, 2004 ([pdf](http://www.ams.org/distribution/mmj/vol4-1-2004/soule.pdf))
 
 * {#Manin95} [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_ Asterisque, (228):4, 121-163, 1995. Columbia University Number Theory Seminar.
 
