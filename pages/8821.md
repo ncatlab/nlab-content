@@ -23,7 +23,7 @@ An [[initial object]] $\emptyset$ is called a **[[strict initial object]]** if a
 
 ## Examples
 
-The initial objects of a poset, of [[Set]], [[Cat]], [[Top]], and of any [[topos]] (more generally of any [[extensive category]]) are strict.  
+The initial objects of a poset, of [[Set]], [[Cat]], [[Top]], and of any [[topos]] (more generally of any [[extensive category]] and even any [[distributive category]]) are strict.  
 
 At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
 
