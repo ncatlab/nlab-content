@@ -2222,7 +2222,7 @@ The following adds further explanation to the role of $\Omega^n \in Smooth0Tye$ 
 +-- {: .num_defn #UniversalDifferentialnForm}
 ###### Definition
 
-The **universal differential $n$-forms** is the differential $n$-form
+The **universal differential $n$-form** is the differential $n$-form
 
 $$
   \omega^n_{univ} \in \Omega^n(\Omega^n)
@@ -2281,7 +2281,7 @@ This is captured by the following definition.
 For $X \in SmoothSet$ any [[smooth set]] and $n \in \mathbb{N}$, the _smooth space of differential $n$-forms_ $\mathbf{\Omega}^n(X)$ on $X$ is the [[concretification]], def. \ref{ConcreteObjectsAndConcretification}, of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
 
 $$
-  \mathbf{\Omega}^n(X) \; \coloneqq \; Conc([X, \Omega^n])
+  \mathbf{\Omega}^n(X)_{conc} \; \coloneqq \; Conc([X, \Omega^n])
   \,.
 $$
 
@@ -2349,6 +2349,12 @@ $\,$
 
 ### Integration and transgression
 
+
+The traditional concept of [[integration of differential forms]] over a [[compact space|compact]] [[smooth manifold]] $\Sigma$ applies in smooth families of differential forms and hence constitutes in fact a [[smooth function]] from the [[smooth set|smooth]] [[moduli space]] of [[differential forms]] on the given manifold, this is Def. \ref{ParameterizedIntegrationOfDifferentialForms} below.
+
+Using this, [[transgression of differential forms]] may be defines as the application of the [[mapping space]]-[[functor]] out of $\Sigma$ to the [[modulating morphisms]] of [[differential forms]] and applying [[integration of differential forms]] to the result (Def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} below). This simple construction turns out to be equivalent to the traditional definition (Prop. \ref{EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces} below).
+
+
 +-- {: .num_defn #ParameterizedIntegrationOfDifferentialForms}
 ###### Definition
 **(parameterized [[integration of differential forms]])
@@ -2357,11 +2363,11 @@ Let
 
 1. $X$ be a [[smooth set]];
 
-1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$, regarded as a [[smooth set]] via Example \ref{CartesianSpaceAsSmoothSpace}.
 
-1. $n \geq k \in \mathbb{N}$;
+1. $n \geq k \in \mathbb{N}$ a [[natural number]];
 
-Consider the [[smooth set|smooth]] [[moduli spaces]] $\mathbf{Omega}^n$ of [[differential forms]] (Example \ref{SmoothSetOfDifferentialForms}) as well as the [[smooth set|smooth]] [[mapping space]] $[\Sigma_k, \mathbf{\Omega}^n]$ into it (Def. \ref{SmoothFunctionSpace}) out of $\Sigma_k$ regarded as a [[smooth set]] spring
+Consider the [[smooth set|smooth]] [[mapping space]] $[\Sigma_k, \mathbf{\Omega}^n]$ (Def. \ref{SmoothFunctionSpace}) out of $\Sigma_k$ into the universal [[smooth set|smooth]] [[moduli space]] $\mathbf{\Omega}^n$ of [[differential n-forms]] (Prop. \ref{SmoothModuliSpaceOfnForms}).
 
 Then we write
 
@@ -2373,7 +2379,7 @@ $$
   \mathbf{\Omega}^{n-k}
 $$
 
-for the [[smooth function]] which takes a plot $\omega_{(-)} \colon U \to [\Sigma, \mathbf{\Omega}^k]$, hence equivalently a differential $n$-form $\omega_{(-)}(-)$ on $U \times \Sigma$ to the result of [[integration of differential forms]] over $\Sigma$:
+for the [[smooth function]] (Def. \ref{HomomorphismOfSmoothSpaces}) which takes a plot $\omega_{(-)} \colon U \to [\Sigma, \mathbf{\Omega}^k]$, hence equivalently a differential $n$-form $\omega_{(-)}(-)$ on $U \times \Sigma$, to the result of [[integration of differential forms]] over $\Sigma$:
 
 
 $$
@@ -2387,33 +2393,36 @@ $$
 
 +-- {: .num_defn #TransgressionOfDifferentialFormsToMappingSpaces}
 ###### Definition
-**(transgression of differential forms to [[mapping spaces]])
+**([[transgression of differential forms]] to [[mapping spaces]])
 
 Let 
 
 1. $X$ be a [[smooth set]];
 
-1. $n \geq k \in \mathbb{N}$;
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$, regarded as a [[smooth set]] via Example \ref{CartesianSpaceAsSmoothSpace}.
 
-1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+1. $n \geq k \in \mathbb{N}$ a [[natural number]];
 
-Then the operation of _transgression of differential $n$-forms_ on $X$ with respect to $\Sigma$ is the [[function]]
+Consider the [[smooth set|smooth]] [[mapping space]] $[\Sigma_k, \mathbf{\Omega}^n]$ (Def. \ref{SmoothFunctionSpace}) out of $\Sigma_k$ into the universal [[smooth set|smooth]] [[moduli space]] $\mathbf{\Omega}^n$ of [[differential n-forms]] (Prop. \ref{SmoothModuliSpaceOfnForms}).
+
+
+Then the operation of _[[transgression of differential n-forms]]_ on $X$ with respect to $\Sigma_k$ is the [[function]]
 
 $$
   \tau_\Sigma
-   \coloneqq
+   \;\coloneqq\;
   \int_\Sigma [\Sigma,-]
    \;\colon\;
   \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
 $$
 
-from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ which takes the differential form corresponding to the smooth function
+from [[differential n-forms]] on $X$ to differential $n-k$-forms on the [[smooth set|smooth]] [[mapping space]] $[\Sigma_k,X]$ spring  which takes the differential form corresponding to the smooth function
 
 $$
   (X \stackrel{\omega}{\to} \Omega^n) \in \Omega^n(X)
 $$
 
-to the differential form corresponding to the following composite smooth funtion:
+to the differential form corresponding to the following composite smooth function:
 
 $$
   \tau_\Sigma \omega
@@ -2421,9 +2430,9 @@ $$
   \int_{\Sigma} [\Sigma,\omega]
    \;\colon\;
   [\Sigma, X] 
-    \stackrel{[\Sigma, \omega]}{\to}  
+    \stackrel{[\Sigma, \omega]}{\longrightarrow}  
   [\Sigma, \Omega^n]
-    \stackrel{\int_{\Sigma}}{\to}
+    \stackrel{\int_{\Sigma}}{\longrightarrow}
   \Omega^{n-k}
   \,,
 $$
@@ -2479,7 +2488,7 @@ $$
 
 +-- {: .num_defn #TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap}
 ###### Definition
-**(transgression of differential forms to mapping space via evaluation map)**
+**([[transgression of differential forms]] to [[mapping space]] via [[evaluation map]])**
 
 Let 
 
@@ -2503,8 +2512,9 @@ $$
   \Omega^{n-k}([\Sigma,X])
 $$
 
-from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ which is the [[composition|composite]] of forming the [[pullback of differential forms]] along the [[evaluation map]] $ev \colon  [\Sigma, X] \times \Sigma \to X$ with [[integration of differential forms]] over $\Sigma$.
+from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ (Def. \ref{SmoothFunctionSpace}) which is the [[composition|composite]] of forming the [[pullback of differential forms]] along the [[evaluation map]] $ev \colon  [\Sigma, X] \times \Sigma \to X$ with [[integration of differential forms]] over $\Sigma$.
 
+This construction manifestly extends to the [[smooth set]] of [[differential forms]]
 
 =--
 
@@ -2513,7 +2523,7 @@ from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping 
 +-- {: .num_prop #EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces}
 ###### Proposition
 
-The two definitions of transgression of differential forms to mapping spaces from def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} and def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} are equivalent.
+The two definitions of [[transgression of differential forms]] to mapping spaces from def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} and def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} are equivalent.
 
 
 =--
@@ -2568,38 +2578,38 @@ $$
   \array{
     \tilde \gamma \in 
     & 
-    \mathbf{H}(U \times\Sigma, X)
+    Hom(U \times\Sigma, X)
     &
-      \overset{\mathbf{H}(U \times \Sigma,A)}{\longrightarrow}
+      \overset{Hom(U \times \Sigma,A)}{\longrightarrow}
     &    
-    \mathbf{H}(U \times \Sigma, \mathbf{\Omega}^{n+k})
+    Hom(U \times \Sigma, \mathbf{\Omega}^{n+k})
     &
       \overset{\int_\Sigma(U)}{\longrightarrow}
     &
     \Omega^n(U)
     \\
     &
-    {}^{\mathllap{\simeq}}\downarrow
+    {}^{\mathllap{\simeq}}\big\downarrow
       &&
-    {}^{\mathllap{\simeq}}\downarrow
+    {}^{\mathllap{\simeq}}\big\downarrow
       &&
-    {}^{\mathllap{\simeq}}\downarrow
+    {}^{\mathllap{\simeq}}\big\downarrow
     \\
     \gamma \in 
     & 
-    \mathbf{H}(U,[\Sigma,X])
+    Hom(U,[\Sigma,X])
     &
-      \overset{\mathbf{H}(U,[\Sigma,A])}{\longrightarrow}
+      \overset{Hom(U,[\Sigma,A])}{\longrightarrow}
     &
-    \mathbf{H}(U,[\Sigma,\mathbf{\Omega}^{n+k}])
+    Hom(U,[\Sigma,\mathbf{\Omega}^{n+k}])
     &
-      \overset{\mathbf{H}(U,\int_\Sigma)}{\longrightarrow}
+      \overset{Hom(U,\int_\Sigma)}{\longrightarrow}
     & 
-    \mathbf{H}(U,\mathbf{\Omega}^n)
+    Hom(U,\mathbf{\Omega}^n)
   }
 $$
 
-(here we write $\mathbf{H}(-,-)$ for the [[hom functor]] of [[smooth sets]]).
+(here we write $Hom(-,-) \coloneqq Hom_{SmoothSet}(-,-)$ for the [[hom functor]] of [[smooth sets]]).
 
 =--
 
