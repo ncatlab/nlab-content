@@ -47,7 +47,7 @@ and many, many more besides (see the [Stanley](#Stanley2015) references and OEIS
 
 ## Some structural bijections 
 
-In this section we describe some "canonical" isomorphisms between various structures named above. 
+In this section we describe some "canonical" isomorphisms between various structures named above. Most of these can be seen as isomorphisms between various [[species]] of structures, which collectively might be called "the Catalan species". 
 
 ### Rooted planar binary trees and magma words 
 
@@ -191,7 +191,7 @@ A tried-and-true approach (explained in [Baez-Dolan](#bd)) is by means of genera
 
 $$C_{n+1} = \sum_{j + k = n} C_j C_k.$$ 
 
-Letting $C(x) = \sum_{n \geq 0} C_n x^n$ be the generating function (really a formal power series), the recursion leads to 
+Letting $C(x) = \sum_{n \geq 0} C_n x^n$ be the generating function (really a [[formal power series]]), the recursion leads to 
 
 $$C(x) = 1 + x C(x)^2$$ 
 
@@ -201,7 +201,7 @@ $$C_n = \frac1{n+1}\binom{2n}{n}.$$
 
 ### Method 2
 
-A more structural derivation can be obtained by counting stay-ahead races, in the following manner. Let $S_n$ be the set of functions $f: [2n] \to \{1, -1\}$ for which $\sum_{i=0}^{2n} f(i) = 1$. Each such $f$ takes the value $1$ a total of $n+1$ times, and the value $-1$ a total of $n$ times, so the cardinality of $S_n$ is $\binom{2n}{n}$. 
+A more structural derivation can be obtained by counting stay-ahead races, in the following manner. Let $S_n$ be the set of functions $f: [2n] \to \{1, -1\}$ for which $\sum_{i=0}^{2n} f(i) = 1$. Each such $f$ takes the value $1$ a total of $n+1$ times, and the value $-1$ a total of $n$ times, so the cardinality of $S_n$ is $\binom{2n+1}{n}$. 
 
 We let the [[cyclic group]] $\mathbb{Z}/(2n+1)$ [[group action|act]] on $S_n$, by precomposing functions $f: [2n] \to \{1, -1\}$ with powers of the cyclic [[permutation]] 
 
@@ -224,7 +224,7 @@ for all $j \in \mathbb{Z}$. For example, $g(j) = \sum_{0 \leq i \lt j} \tilde{f}
 
 Observe that $g(j+2n+1) = g(j)+1$ for all $j$, so that the line $L_{g, j}$ with slope $\frac1{2n+1}$ that passes through $(j, g(j))$ also passes through $(j+2n+1, g(j+2n+1))$, but passes through no other $(k, g(k))$ for $j \lt k \lt j+2n+1$ since $g(k)$ is integral but $L_{g, j}(k)$ is not, being strictly between $g(j)$ and $g(j)+1$. This implies that the lines $L_{g, j}$ for $j$ ranging over a period block $\{j, j+1, \ldots, j+2n\}$ are all distinct, i.e., the cyclic group action on these $L_{g, j}$ according to the formula $\tau L_{g, j} = L_{g, j+1}$ is faithful. 
 
-Pick $j$ so that the line $L_j$ is "lowest"; all the lines have the same slope $\frac1{2n+1}$, so that lowest just means $L_j(0)$ is minimal. Minimality implies that that for every other $k \neq j$ within a periodic block, the point $(k, g(k))$ lies above the line $y = L_j(x)$. Translating this picture horizontally by $j$ by considering $g \circ \tau^j$, and then vertically by subtracting $g(j) = (g \circ \tau^j)(0)$, i.e., putting $h = \sigma(f \circ \tau^j)$, this means that all points $(k, h(k))$ for $k = 1, \ldots, 2n+1$ stay above the line $y = L_{h, 0}(x) = \frac1{2n+1}(x)$. In other words, these values $h(k)$ are all positive and $h(2n+1) = 1$: precisely the stay-ahead conditions for $f \circ \tau^j$. Thus the orbit of any $f \in S_n$ contains a stay-ahead race. Moreover, this is the only stay-ahead race in the orbit since the stay-ahead positivity condition is equivalent to the minimality condition on $L_j$, and all the $L_j$ are distinct. 
+Pick $j$ so that the line $L_j$ is "lowest"; all the lines have the same slope $\frac1{2n+1}$, so lowest just means $L_j(0)$ is minimal. Minimality implies that that for every other $k \neq j$ within a periodic block, the point $(k, g(k))$ lies above the line $y = L_j(x)$. Translating this picture horizontally by $j$ by considering $g \circ \tau^j$, and then vertically by subtracting $g(j) = (g \circ \tau^j)(0)$, i.e., putting $h = \sigma(f \circ \tau^j)$, this means that all points $(k, h(k))$ for $k = 1, \ldots, 2n+1$ stay above the line $y = L_{h, 0}(x) = \frac1{2n+1}(x)$. In other words, these values $h(k)$ are all positive and $h(2n+1) = 1$: precisely the stay-ahead conditions for $f \circ \tau^j$. Thus the orbit of any $f \in S_n$ contains a stay-ahead race. Moreover, this is the only stay-ahead race in the orbit since the stay-ahead positivity condition is equivalent to the minimality condition on $L_j$, and all the $L_j$ are distinct. 
 
 Finally, the stabilizer of $f$ must be trivial, else we would have $L_{g, j} = L_{g, j+k}$ for $k$ a non-multiple of $2n+1$: as we saw before, this can't happen. 
 =--
@@ -245,9 +245,15 @@ Since at the $k$th iteration of the algorithm there are exactly $(2k-1)\cdot 2$ 
 
 $$C_n\cdot (n+1)! = (2n-1)!! \cdot 2^n$$
 
-(where $(2n-1)!! = (2n-1)(2n-3)\cdots 1$ is the double-factorial), which implies that
+(where $(2n-1)!! = (2n-1)(2n-3)\cdots 1$ is the [[double-factorial]]), which implies that
 
 $$C_n = (2n-1)!! \cdot 2^n/(n+1)! = \frac{(2n)!}{n!(n+1)!} \,.$$
+
+## Relation to cyclic objects 
+
+As pointed out for example in [Kapranov-Voevodsky](#KV), another description of a Catalan species is by way of subdivisions of a regular polygon with $n+2$ points (labeled by elements in $[n+1]$ in clockwise order) into $n$ triangles. Thus there are $2$ distinct subdivisions of a square, $5$ possible subdivisions of a pentagon, and in general $C_n$ possible subdivisions of an $(n+2)$-gon. 
+
+(To be continued.) 
 
 ## Related concepts
 
