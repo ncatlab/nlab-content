@@ -31,6 +31,19 @@ There are various astronomical observations that suggest the existence of dark m
 
 Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]]. In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
 
+## Properties
+
+### Cusp-core problem
+
+From J. Read [22 Aug 2018](https://twitter.com/ReadDark/status/1032176578808168448):
+
+> On large scales, the [[standard model of cosmology|standard cosmological model]] (LCDM) gives an excellent description of the [[cosmic microwave background]] [[radiation]] and the [[structure formation|growth of structure]]. However, on small scales, in our cosmic backyard known as the Local Group, there have been long-standing puzzles.  The oldest of these is the “cusp-core” problem. Gas rich dwarf galaxies have much less dark matter (DM) in their inner regions than early numerical models predicted. This could point to more exotic DM models, or to a failure of the cosmological model.
+
+> However, there is a simpler solution. The early numerical models, above, considered a universe that contains only DM. Recent models that include gas cooling, star formation, and gas blow-out due to exploding stars find that star formation in dwarfs is bursty.
+
+> This bursty star formation occurs due to repeated cycles of gas inflow and outflow. These cause the inner gravitational potential of the dwarf galaxy to fluctuate, kinematically "heating up" the dark matter and lowering its inner density ([Pontzen-Governato 14](#PontzenGovernato14)).
+
+>  A key prediction of such models is that, at a fixed dark matter halo mass, more star formation leads to more dark matter "heating" and, therefore, a lower inner dark matter density, at least in dwarf galaxies. This is the prediction we set out to test in [Read-Walker-Steger 18](#ReadWalkerSteger18). 
 
 ## Related concepts
 
@@ -64,6 +77,12 @@ Review includes
 * {#BertoneHooper16} Gianfranco Bertone, Dan Hooper, _A History of Dark Matter_ ([arXiv:1605.04909](https://arxiv.org/abs/1605.04909))
 
 * {#Hooper18} [[Daniel Hooper]], _In Defense of Dark Matter_, 2018 ([web](http://online.kitp.ucsb.edu/online/cdm-c18/hooper/))
+
+For more see
+
+* {#PontzenGovernato14} Andrew Pontzen, Fabio Governato, _Cold dark matter heats up_, Nature, 506, 171 - 178 (13 Feb 2014) ([arXiv:1402.1764](https://arxiv.org/abs/1402.1764))
+
+* {#ReadWalkerSteger18} J. I. Read, M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_ ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [talk slides pdf](http://online.kitp.ucsb.edu/online/cdm-c18/read/))
 
 ### Evidence
  {#Evidence}
