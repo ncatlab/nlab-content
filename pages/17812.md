@@ -1481,104 +1481,118 @@ $$
   \array{
     id &\dashv& id
     \\
-    \vee && \vee
+    \vee &\vert& \vee
     \\
     \rightrightarrows &\dashv& \rightsquigarrow &\dashv& Rh
     \\
-    && \vee && \vee
+    && \vee &\backslash& \vee
     \\
     && \Re &\dashv& \Im &\dashv& \&
     \\
-    && && \vee && \vee
+    && && \vee &\vert& \vee
     \\
     && && &#643; &\dashv&  \flat &\dashv& \sharp
     \\
-    && && && \vee && \vee
+    && && && \vee &/& \vee
     \\
     && && && \emptyset &\dashv& \ast
   }
 $$
 
-Sometimes it is useful to re-arrange this diagram equivalently as follows. Here we label each
-projection operator by the property of superspaces that it "projects out".
+Moreover, the progression provides, at each stage, [[Aufhebung]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Aufhebung), [this Remark](geometry+of+physics+--+categories+and+toposes#TrivialAufhebung)) as indicated.
+
+Finally, the [[rheonomy modality]]  is [[localization at an object|localization at the object]] $\mathbb{R}^{0\vert 1}$ (the [[superpoint]]) in the sense of [this Def.](geometry+of+physics+--+categories+and+toposes#LocalizationAtACollectionOfMorphisms):
 
 $$
-  \array{
-    && id &\dashv& id
-    \\
-    && \vee && \vee
-    \\
-    &\stackrel{fermionic}{}& \rightrightarrows &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
-    \\
-    && \bot &\stackrel{solidity}{}& \bot
-    \\
-    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
-    \\
-    && \vee && \vee
-    \\
-    &\stackrel{reduced}{} & \Re &\dashv& \Im & \stackrel{infinitesimal}{}
-    \\
-    && \bot &\stackrel{elasticity}{}& \bot
-    \\
-    &\stackrel{infinitesimal}{}& \Im &\dashv& \& & \stackrel{\text{&#233;tale}}{}
-    \\
-    && \vee && \vee
-    \\
-    &\stackrel{connected}{}& &#643; &\dashv& \flat & \stackrel{disconnected}{}
-    \\
-    && \bot &\stackrel{cohesion}{}& \bot &&
-    \\
-    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{continuous}{}
-    \\
-    && \vee && \vee
-    \\
-    && \emptyset &\dashv& \ast
-  }
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-This follows with Prop. \ref{SuperSmoothSetsSystemOfAdjunctions} by [this Prop.](geometry+of+physics+--+categories+and+toposes#ProgressionOfModalitiesOnSolidTopos)
-
-=--
-
-The following statement is a [[0-truncated object|0-truncated]] shadow of the [[differential geometry|differential geometric]] analog of the concept of _[[A1-homotopy theory|A1-localization]]_:
-
-
-
-+-- {: .num_prop #BosonicModalityOnSuperFormalSmoothSetsIsSuperpointLocalization}
-###### Proposition
-**([[rheonomy modality]] on [[super formal smooth sets]] is $\mathbb{R}^{0\vert 1}$-[[reflective localization|localization]])**
-
-The [[reflective subcategory]]-inclusion from Prop. \ref{SuperSmoothSetsSystemOfAdjunctions}
-
-$$
-  FormalSmoothSet
-    \underoverset
-      {\underset{ \phantom{A}Disc_{sup}\phantom{A} }{\hookrightarrow}}
-      {\overset{\Pi_{sup}}{\longleftarrow}}
-      {\bot}
-  SuperFormalSmooth
-$$
-
-of [[formal smooth sets]] inside [[super formal smooth sets]], exhibits the _[[reflective subcategory|reflection]] on $\mathbb{R}^{0\vert 1}$-[[local objects]]_ ([this Def.](geometry+of+physics+--+categories+and+toposes#LocalizationAtACollectionOfMorphisms)) for $\mathbb{R}^{0\vert 1}$ the [[superpoint]], in the sense of [[localization at an object]]:
-
-$$
-  \rightsquigarrow \;\simeq\; L_{\mathbb{R}^{0\vert 1}}
+  Rh \simeq \bigcirc\!\!\!\!\!\!\!\!\mathbb{R}^{0\vert 1}
   \,.
 $$
 
-=--
 
+=--
 
 +-- {: .proof}
 ###### Proof
 
-The proof is directly analogous to that of the analogous statement in the chapter _[[geometry of physics -- smooth sets|on smooth sets]]_,  [this Prop](geometry+of+physics+--+smooth+sets#ShapeModalityOnSmoothSetsIsR1Localization).
+The progression of modalities follows with Prop. \ref{SuperSmoothSetsSystemOfAdjunctions} by [this Prop.](geometry+of+physics+--+categories+and+toposes#ProgressionOfModalitiesOnSolidTopos).
+
+The right [[Aufhebung]]  at the first stage says that $\sharp \emptyset \simeq \emptyset$, which means equivalently that for each $\mathbb{R}^{n\vert q} \times \mathbb{D}_V \in $ [[SuperFormalCartSp]] we have
+
+$$
+  Hom(\mathbb{R}^{n\vert q} \times \mathbb{D}_V, \sharp \emptyset)
+  \simeq
+  \emptyset
+$$
+
+But by the $\flat \dashv \sharp$ [[adjunction]] hom-isomorphism ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) and the fact that $\flat X = Disc X(\ast)$ (by the proof of [this Prop.](geometry+of+physics+--+categories+and+toposes#CategoriesOfSheavesOnCohesiveSiteIsCohesive)) and that $\mathbb{R}^{n\vert q} \times \mathbb{D}_V(\ast) \neq \emptyset$ we have indeed
+
+$$
+  Hom(\mathbb{R}^{n\vert q} \times \mathbb{D}_V, \sharp \emptyset)
+  \simeq
+  Hom( \flat \mathbb{R}^{n\vert q} \times \mathbb{D}_V , \emptyset)
+  =
+  \emptyset
+  \,.
+$$
+
+The left [[Aufhebung]] at the third stage says that 
+
+$$
+  \rightsquigarrow \Im \simeq \Im
+  \,.
+$$
+
+This means equivalenty that for each $X \in SuperFormalSmoothSet$ and $\mathbb{R}^{n\vert q} \times \mathbb{D}_V \in SuperFormalCartSp$ we have
+
+$$
+  Hom(\mathbb{R}^{n\vert q} \times \mathbb{D}_V, \overset{\rightsquigarrow}{\Im X})
+  \simeq
+  Hom(\mathbb{R}^{n\vert q} \times \mathbb{D}_V, \overset{}{\Im X})
+$$
+
+Again by the adjunction isomorphisms we verify:
+
+$$
+  \array{
+    Hom(\mathbb{R}^{n\vert q} \times \mathbb{D}_V, \overset{\rightsquigarrow}{\Im X})
+    & \simeq
+    Hom\left(
+      \overset{\rightrightarrows}{\mathbb{R}^{n\vert q} \times \mathbb{D}_V}, \overset{}{\Im X}\right)    
+    \\
+    & \simeq
+    Hom\left(
+      \overset{\rightrightarrows}{\mathbb{R}^{n\vert q} \times \mathbb{D}_V},
+      \overset{}{\Im X}
+    \right) 
+    \\
+    & 
+    Hom\left(
+      \Re\left(\overset{\rightrightarrows}{\mathbb{R}^{n\vert q} \times \mathbb{D}_V}\right),
+      \overset{}{ X}
+    \right) 
+    \\
+    & \simeq
+    Hom\left(
+      \Re\left(\overset{}{\mathbb{R}^{n\vert q} \times \mathbb{D}_V}\right),
+      \overset{}{ X}
+    \right) 
+    \\
+    & \simeq
+    Hom\left(
+      \overset{}{\mathbb{R}^{n\vert q} \times \mathbb{D}_V},
+      \overset{}{ \Im X}
+    \right) 
+  }   
+$$
+
+Here we used that on representables $\Re \rightrightarrows \simeq \Re$, which holds by direct inspection: it says that the odd-graded elements in a [[supercommutative superalgebra]] are all nilpotent.
+
+Finally for the equivalence
+$$
+  Rh \simeq \bigcirc\!\!\!\!\!\!\!\!\mathbb{R}^{0\vert 1}
+$$
+
+the proof is directly analogous to that of the analogous statement in the chapter _[[geometry of physics -- smooth sets|on smooth sets]]_,  [this Prop](geometry+of+physics+--+smooth+sets#ShapeModalityOnSmoothSetsIsR1Localization).
 
 As in that proof, the $\mathbb{R}^{0\vert 1}$-[[local objects]] among all [[super formal smooth sets]] are equivalently those which are [[local objects]] with respect to the following [[small set]] of morphisms:
 
@@ -1622,6 +1636,45 @@ $$
 
 
 =--
+
+
+Sometimes it is illuminating to re-arrange the diagram in Prop. \ref{ProgressionOfIdempotentEndofunctors} equivalently as follows. Here we label each
+projection operator by the property of superspaces that it "projects out".
+
+$$
+  \array{
+    && id &\dashv& id
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{fermionic}{}& \rightrightarrows &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
+    \\
+    && \bot &\stackrel{solidity}{}& \bot
+    \\
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{reduced}{} & \Re &\dashv& \Im & \stackrel{infinitesimal}{}
+    \\
+    && \bot &\stackrel{elasticity}{}& \bot
+    \\
+    &\stackrel{infinitesimal}{}& \Im &\dashv& \& & \stackrel{\text{&#233;tale}}{}
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{connected}{}& &#643; &\dashv& \flat & \stackrel{disconnected}{}
+    \\
+    && \bot &\stackrel{cohesion}{}& \bot &&
+    \\
+    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{continuous}{}
+    \\
+    && \vee && \vee
+    \\
+    && \emptyset &\dashv& \ast
+  }
+$$
+
 
 
 [Below](#Supermanifolds) we use these operations to identify within all generalized superspaces those that are [[supermanifolds]].
