@@ -155,12 +155,7 @@ In fact this applies also to [[locally Euclidean spaces]] which are not necessar
 
 =--
 
-+-- {: .num_example }
-###### Example
 
-The only Hausdorff [[topological vector spaces]] that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its [[Hausdorff reflection]] has [[finite number|finite]] [[dimension]]. 
-
-=--
 
 
 +-- {: .num_example #CountablyInfiniteProductsOfNonCompactSpacesAreNotLocallyCompact}
