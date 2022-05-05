@@ -146,6 +146,11 @@ The __Schmidt number__ of $|\psi\rangle$ is the number of non-zero Schmidt coeff
 We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\sigma$ and $\pi$ work regardless.  Possibly some of the other propositions rely on some other form of the [[axiom of choice]]; I haven\'t seen their proofs.
 
 
+## Related pages
+
+* [[spatial tensor product]]
+* [[inductive tensor product]]
+
 ## References
 
 * M. Nielsen and I. Chuang.  _Quantum Computation and Quantum Information_.  Cambridge University Press.  2000.  {#NielsenChuang}
