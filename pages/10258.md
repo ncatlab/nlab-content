@@ -28,7 +28,12 @@ Here $W = Eig(\sigma,1) \hookrightarrow V$ is the [[eigenspace]] of $\sigma$ for
 
 * [[quaternionic structure]]
 
-* [[KR-theory]]
+* [[real space]]
+
+* [[real oriented cohomology theory]]
+
+  * [[KR-theory]]
+
 
 ## References
 
