@@ -308,6 +308,7 @@ In this connection, it is interesting to point out that a given homotopy categor
 
 
 ### From $(\infty,1)$-categories
+ {#FromInfinityCategories}
 
 If $C$ is an [[(∞,1)-category]], it has a [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ obtained by identifying equivalent [[1-morphisms]].  If our $(\infty,1)$-categories are modeled by [[quasicategories]], then $Ho(-)$ is the [[left adjoint]] of the [[nerve]], often denoted $\tau_1$.
 
@@ -323,7 +324,8 @@ There are also examples of derivators not satisfying (Der5) that do not arise fr
 
 ## Properties
 
-### As a presentation of $(\infty,1)$-categories
+### Presentable derivators and combinatorial model categories
+ {#PresentableDerivatorsAndCombinatorialModelCategories}
 
 We discuss precise versions of the idea that derivators indeed constitute a model of [[(∞,1)-category theory]].
 
@@ -331,13 +333,13 @@ We discuss precise versions of the idea that derivators indeed constitute a mode
 +-- {: .num_theorem}
 ###### Theorem
 
-The [[2-category]] of "[[locally presentable category|locally presentable]]" derivators (see [above](2CategoryOfDerivators)) and pair of adjoints as morphisms is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  
+The sub-[[2-category]] of "[[locally presentable category|locally presentable]]" derivators with left adjoints as morphisms between them, among the [[2-category]] of all derivators (see [above](#2CategoryOfDerivators)),  is [[equivalence of 2-categories|equivalent]] to the [[2-localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].
 
 =--
 
-This is shown in ([Renaudin](#Renaudin)). 
+This is shown in ([Renaudin](#Renaudin)).  See at [[Ho(CombModCat)]] for more.
 
-Notice that [[combinatorial model categories]] model precisely the [[locally presentable (∞,1)-categories]], as discussed there.
+Notice every [[locally presentable (∞,1)-category]] are precisely the [[(∞,1)-categories]] that arise, up to [[equivalence of (∞,1)-categories]] as [[simplicial localiations]] of [[combinatorial model categories]]. Hence this theorem suggests that there is, at least, an [[equivalence of 2-categories]] between the [[2-category]] of presentable derivators and the [[homotopy 2-category]] of the [[(∞,2)-category]] [[Pr(∞,1)Cat]] However, an actual proof of this seems to be missing.
 
  
 
@@ -418,8 +420,8 @@ An brief informal discussion of derivators as a 2-categorical tool for studying 
 
 In the paper
 
-* Olivier Renaudin, _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_, [arxiv](http://arxiv.org/abs/math/0603339)
- {#Renaudin}
+* {#Renaudin} [[Olivier Renaudin]], _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_, [arxiv](http://arxiv.org/abs/math/0603339)
+ 
 
 it is proven that the 2-category of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
 
@@ -431,13 +433,14 @@ it is shown that $(\infty,1)$-categories can be literally embedded in "prederiva
 
 An introductory discussion aimed towards [[stable derivator]]s is also in
 
-* [[Moritz Groth]], _Monoidal derivators and additive derivators_, [arxiv/1203.5071](http://arxiv.org/abs/1203.5071); _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
-{#Groth}
+* {#Groth} [[Moritz Groth]], _Monoidal derivators and additive derivators_, [arxiv/1203.5071](http://arxiv.org/abs/1203.5071); _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
+
+
 
 Other references include:
 
-* Ioannis Lagkas-Nikolos, _Levelwise modules over separable monads on stable derivators_, [arXiv:1608.06340](https://arxiv.org/abs/1608.06340), 2016
- {#IN16}
+* {#IN16} Ioannis Lagkas-Nikolos, _Levelwise modules over separable monads on stable derivators_, [arXiv:1608.06340](https://arxiv.org/abs/1608.06340), 2016
+ 
 
 
 [[!redirects derivators]]
