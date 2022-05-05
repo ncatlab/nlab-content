@@ -25,9 +25,9 @@ What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmo
 
 This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous (an assumption also known as the _cosmological principle_). 
 
-Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime.
+Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10).
 
-It has been shown that the effect of such backreaction is small or invisible if the inhomogeneity is modeled in a Newtonian limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
+It has been shown that the effect of such backreaction is small or invisible if the inhomogeneity is modeled in a non-[[relativistic field theory|relativistic]] (i.e. Newtonian) limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
 ## Effective dark energy from inhomogeneity?
 
@@ -80,7 +80,7 @@ Dependency of results on the choice of [[gauge fixing]] is highlighted in [ACDDK
 ## The "backreaction debate"
  {#BackreactionDebate}
 
-A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomogeneity was given by [Green-Wald 10](#GreenWald10), [Green-Wald 13](#GreenWald13), [Green-Wald 16](#GreenWald16). This was called into question in [Buchert et al. 15](#BuchertEtAl15), where it is concluded that the issue is more subtle and remains open. The reply to this criticism by [Green-Wald 15](#GreenWald15) is summarized in [Ostrowski-Roukema 15, p. 4](#OstrowskiRoukema15) as follows:
+A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomogeneity was given by [Green-Wald 10](#GreenWald10), [Green-Wald 11](#GreenWald11), [Green-Wald 13](#GreenWald13), [Green-Wald 16](#GreenWald16). This was called into question in [Buchert et al. 15](#BuchertEtAl15), where it is concluded that the issue is more subtle and remains open. The reply to this criticism by [Green-Wald 15](#GreenWald15) is summarized in [Ostrowski-Roukema 15, p. 4](#OstrowskiRoukema15) as follows:
 
 > Green and Wald state that their formalism does not apply to situations when
 
@@ -103,7 +103,7 @@ Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic sol
 ## Lemaitre-Tolman-Bondi models
  {#LemaitreTolmanBondi}
 
-A particular class of exactly soluable simple examples of inhomogeneous cosmological models are Lemaitre-Tolman-Bondi models. If taken as quasi-realistic models in themselves, these require assuming that we inhabit a position close to a singled-out "center" of the universe, usually the center of an assumed cosmic "void", of low matter density. See e.g. [Moffat 05](#Moffat05), [Enkvist 07](#Enkvist07), [Moffat 16](#Moffat16). 
+A particular class of exactly soluable simple examples of inhomogeneous cosmological models are Lemaitre-Tolman-Bondi models. If taken as quasi-realistic models in themselves, these require assuming that we inhabit a position close to a singled-out "center" of the universe, usually the center of an assumed cosmic "void", of low matter density. See e.g. [Moffat 05](#Moffat05), [Enkvist 07](#Enkvist07), [Moffat 16](#Moffat16). Possible observational signatures of this scenario are discussed in [Clifton-Ferreira-Land 08](#CliftonFerreiraLand08)
 
 It has been argued (e.g. [Moffat 16, p. 2](#Moffat16)) that the apparent unlikeliness of such a "spatial coincidence" is relativized in view of the observed  "temporal coincidence" that cosmic acceleration seems to start roughly with the onset of [[structure formation]] (the "coincidence problem" of cosmology), and the perceived fine-tuning of the [[cosmological constant]] required in the [[standard model of cosmology]].
 
@@ -130,11 +130,15 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * {#Rasanen08} Syksy Räsänen, _Evaluating backreaction with the peak model of structure formation_, JCAP 0804:026,2008 ([arXiv:0801.2692](https://arxiv.org/abs/0801.2692))
 
+* {#KolbMarraMatarrese10} Edward W. Kolb, Valerio Marra, Sabino Matarrese, _Cosmological background solutions and cosmological backreactions_, Gen.Rel.Grav.42:1399-1412, 2010 ([arXiv:0901.4566](https://arxiv.org/abs/0901.4566))
+
 * {#Rasenen10} Syksy Räsänen, _Backreaction as an alternative to dark energy and modified gravity_ ([arXiv:1012.0784](https://arxiv.org/abs/1012.0784))
 
 * {#GreenWald10} Stephen R. Green, [[Robert Wald]], _A new framework for analyzing the effects of small scale inhomogeneities in cosmology_, Phys.Rev.D83:084020, 2011 ([arXiv:1011.4920](https://arxiv.org/abs/1011.4920))
 
 * {#Buchert11} [[Thomas Buchert]], _Toward physical cosmology: focus on inhomogeneous geometry and its non-perturbative effects_, Class.Quant.Grav.28:164007, 2011 ([arXiv:1103.2016](https://arxiv.org/abs/1103.2016))
+
+* {#GreenWald11} Stephen R. Green, [[Robert Wald]], _Newtonian and Relativistic Cosmologies_, Phys.Rev.D85:063512, 2012 ([arXiv:1111.2997](https://arxiv.org/abs/1111.2997))
 
 * {#GreenWald13} Stephen Green, [[Robert Wald]], _Examples of backreaction of small scale inhomogeneities in cosmology_, Phys.Rev.D87:124037, 2013 ([arxiv:1304.2318](https://arxiv.org/abs/1304.2318))
 
@@ -210,6 +214,8 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * {#Moffat05} [[John Moffat]], _Late-time Inhomogeneity and Acceleration Without Dark Energy_, JCAP 0605 (2006) 001 ([arXiv:astro-ph/0505326](https://arxiv.org/abs/astro-ph/0505326))
 
 * {#Enkvist07} Kari Enqvist, _Lemaitre-Tolman-Bondi model and accelerating expansion_, Gen. Rel. Grav.40:451-466, 2008 ([arXiv:0709.2044](https://arxiv.org/abs/0709.2044))
+
+* {#CliftonFerreiraLand08} Timothy Clifton, Pedro G. Ferreira, Kate Land, _Living in a Void: Testing the Copernican Principle with Distant Supernovae_, Phys. Rev. Lett. 101 (2008) 131302 ([arXiv:0807.1443](https://arxiv.org/abs/0807.1443))
 
 * {#Scharf13} [[Günter Scharf]], _Inhomogeneous cosmology in the cosmic rest frame without dark stuff_, chapter 6 in the latest edition of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001 ([arXiv:1312.2695](https://arxiv.org/abs/1312.2695))
 
