@@ -362,15 +362,11 @@ This section is at
 
     * [[smooth spectrum]]
 
-  * [[synthetic differential ∞-groupoid]]
 
-  * [[super ∞-groupoid]]
+[[!include geometries of physics -- table]]
 
-  * [[smooth super ∞-groupoid]]
 
-  * [[synthetic differential super ∞-groupoid]]
-
-  * [[complex analytic ∞-groupoid]]
+* [[complex analytic ∞-groupoid]]
 
 
 Smooth $\infty$-groupoids and related cohesive structures play a central role in the discussion at 
@@ -456,3 +452,6 @@ Further discussion of the [[shape modality]] on smooth $\infty$-groupoids is in
 
 [[!redirects smooth homotopy type]]
 [[!redirects smooth homotopy types]]
+
+[[!redirects Smooth∞Groupoid]]
+[[!redirects Smooth∞Groupoids]]
