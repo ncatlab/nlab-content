@@ -64,6 +64,13 @@ In particular, in a category with a [[terminal object|terminal]] [[generator]] $
 
 * [[derived hom-space]]
 
+* [[hom-functor]]
+
+* [[enriched hom-functor]], [[internal hom-functor]]
+
+* [[derived hom-functor]]
+
+
 [[!redirects homsets]]
 [[!redirects homset]]
 [[!redirects hom-sets]]
