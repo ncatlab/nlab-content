@@ -1,4 +1,17 @@
 
+> not to be confused with [[Daniel Kahn]]
+
+***
+
+#Daniel Kan#
+
+* [English wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Kan)
+
+
+* [German Wikipedia entry](http://de.wikipedia.org/wiki/Daniel_Marinus_Kan)
+
+
+
 [[Clark Barwick]] has posted (on 7 August 2013) the following:
 
 ''On Sunday, 4 August, 2013, Daniel M. Kan died peacefully at his home in Newton, MA, surrounded by his family. It was his 86th birthday. There was a small burial service Monday afternoon.''
@@ -8,12 +21,10 @@
 ''In his long career, Dan published more than 70 papers with 15 coauthors. His lifelong mathematical pursuit was abstract [[homotopy theory]], and many of his ideas were so natural and flexible that they quickly became incorporated into the very fabric of [[algebraic topology]]. He supervised 15 Ph.D students (all of them at MIT), and he influenced many more through his unique seminar in algebraic topology, which today is known as the _Kan Seminar_.''
 
 
-* [English wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Kan)
-
-
-* [German Wikipedia entry](http://de.wikipedia.org/wiki/Daniel_Marinus_Kan)
 
 # related $n$Lab entries #
+
+* [[homotopy theory]]
 
 * [[Kan extension]]
 
