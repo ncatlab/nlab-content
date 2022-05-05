@@ -38,7 +38,7 @@ A __closed category__ is a [[category]] $C$ together with the following data:
 
 * A transformation $j_X\colon I \to [X,X]$, [[extranatural]] in $X$.
 
-* A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
+* A transformation $L^X_{Y Z} \colon  [Y,Z] \to [ [X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
 which is required to satisfy the following axioms.
 
@@ -46,32 +46,32 @@ which is required to satisfy the following axioms.
 
   $$\array{I & \overset{j_Y}{\to} & [Y,Y]\\
   & _{\mathllap{j_{[X,Y]}}}\searrow & \downarrow^{L^X_{Y Y}}\\
-  & & [[X,Y],[X,Y]]}$$
+  & & [ [X,Y],[X,Y]]}$$
 
 * The following diagram commutes for any $X,Y$.
 
-  $$\array{[X,Y] & \overset{L^X_{X Y}}{\to} & [[X,X],[X,Y]]\\
+  $$\array{[X,Y] & \overset{L^X_{X Y}}{\to} & [ [X,X],[X,Y]]\\
   & _{\mathllap{i_{[X,Y]}}}\searrow & \downarrow^{[j_X,1]}\\
   & & [I,[X,Y]]}$$
 
 * The following diagram commutes for any $Y,Z$.
 
-  $$\array{[Y,Z] & \overset{L^I_{Y Z}}{\to} & [[I,Y],[I,Z]]\\
+  $$\array{[Y,Z] & \overset{L^I_{Y Z}}{\to} & [ [I,Y],[I,Z]]\\
   & _{\mathllap{[1,i_Z]}}\searrow & \downarrow^{[i_Y,1]}\\
   & & [Y,[I,Z]]}$$
 
 * The following diagram commutes for any $X,Y,U,V$.
 
-  $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [[Y,U],[Y,V]]\\
+  $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [ [Y,U],[Y,V]]\\
   ^{L^X_{U V}}\downarrow && \\
-  [[X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
+  [ [X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
   ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
-  [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
+  [ [ [X,Y],[X,U]],[ [X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [ [Y,U],[ [X,Y],[X,V]]]}$$
 
 * Finally, the map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
 
 +-- {: .query}
-[[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [[Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
+[[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [ [Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
 
 [Discussion](http://nforum.ncatlab.org/discussion/4632/closed-category/)
 =--
@@ -94,7 +94,7 @@ A **prounital closed category** is a [[category]] $C$ together with the followin
 
 * A functor $U : C \to Set$.
 
-* A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
+* A transformation $L^X_{Y Z} \colon  [Y,Z] \to [ [X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
 * A transformation $ev : U(X) \cdot C([X,Y], Y)$, natural in $X$ and extranatural in $Y$.
 
@@ -102,25 +102,25 @@ which is required to satisfy the following axioms.
 
 * $U([X,Y]) = C(X,Y)$ strictly and naturally, i.e. $U \circ [-,-] = C(-,-)$ as functors $C^{op}\times C\to Set$.  (Note that this can be phrased in accord with the [[principle of equivalence]] by considering $U : C \to Set$ as a [[displayed category]] over $Set$.)
 
-* For any $X,Y\in C$ we have $U(L^X_{Y Y})(1_Y) = 1_{[X,Y]}$.  (Note that $L^X_{Y Y} : [X,X] \to [[X,Y],[X,Y]]$, so $U(L^X_{Y Y})(1_Y) : C(X,X) \to C([X,Y],[X,Y])$.)
+* For any $X,Y\in C$ we have $U(L^X_{Y Y})(1_Y) = 1_{[X,Y]}$.  (Note that $L^X_{Y Y} : [X,X] \to [ [X,Y],[X,Y]]$, so $U(L^X_{Y Y})(1_Y) : C(X,X) \to C([X,Y],[X,Y])$.)
 
-* For any $X,Y\in C$ the composite $[X,Y] \xrightarrow{L^X_{X Y}} [[X,X],[X,Y]] \xrightarrow{ev_{1_X}} [X,Y]$ is the identity.
+* For any $X,Y\in C$ the composite $[X,Y] \xrightarrow{L^X_{X Y}} [ [X,X],[X,Y]] \xrightarrow{ev_{1_X}} [X,Y]$ is the identity.
 
 * The following diagram commutes for any $X,Y,U,V$.
 
-  $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [[Y,U],[Y,V]]\\
+  $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [ [Y,U],[Y,V]]\\
   ^{L^X_{U V}}\downarrow && \\
-  [[X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
+  [ [X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
   ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
-  [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
+  [ [ [X,Y],[X,U]],[ [X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [ [Y,U],[ [X,Y],[X,V]]]}$$
 
 * Some axiom(s) relating $L$ to $ev$.  For instance, for any $x\in U(X)$ the following diagram should commute:
 
-  $$\array{ [Y,Z] & \overset{L^X_{Y Z}}{\to} & [[X,Y],[X,Z]]\\
-  & _{[ev_x,Z]}\searrow & \downarrow^{[[X,Y],ev_x]} \\
-  && [[X,Y],Z]} $$
+  $$\array{ [Y,Z] & \overset{L^X_{Y Z}}{\to} & [ [X,Y],[X,Z]]\\
+  & _{[ev_x,Z]}\searrow & \downarrow^{[ [X,Y],ev_x]} \\
+  && [ [X,Y],Z]} $$
 
-The second and third axioms, plus naturality of $ev$, should imply a more general form of the second axiom: for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [[X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ equals the functorial action $[f,Z]$.
+The second and third axioms, plus naturality of $ev$, should imply a more general form of the second axiom: for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [ [X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ equals the functorial action $[f,Z]$.
 
 +--{: .standout}
 I haven't worked out exactly what axioms are required here.
@@ -130,7 +130,7 @@ I haven't worked out exactly what axioms are required here.
 
 A **symmetric closed category** is additionally equipped with natural isomorphisms $C^{X Y}_Z : [X,[Y,Z]] \cong [Y,[X,Z]]$ satisfying appropriate axioms; see [deSchipper75](#deSchipper75) and [DayLaPlaza78](#DayLaPlaza78).  These should correspond to [[symmetric multicategories]].  
 
-Similarly, a "cartesian closed category" (there is an unfortunate terminological clash with [[cartesian closed category]]) should furthermore have morphisms $K^X_Y : Y\to [X,Y]$ and $T^X_Y : [X,[X,Y]]\to [X,Y]$ satisfying appropriate axioms.  They should correspond to [[cartesian multicategories]].  The relation to [[combinatory logic]] suggests that it should also be possible to axiomatize the cartesian case by replacing $L$, $C$, and $T$ with a single family of morphisms $S^X_{Y Z} : [X,[Y,Z]]\to [[X,Y],[X,Z]]$.
+Similarly, a "cartesian closed category" (there is an unfortunate terminological clash with [[cartesian closed category]]) should furthermore have morphisms $K^X_Y : Y\to [X,Y]$ and $T^X_Y : [X,[X,Y]]\to [X,Y]$ satisfying appropriate axioms.  They should correspond to [[cartesian multicategories]].  The relation to [[combinatory logic]] suggests that it should also be possible to axiomatize the cartesian case by replacing $L$, $C$, and $T$ with a single family of morphisms $S^X_{Y Z} : [X,[Y,Z]]\to [ [X,Y],[X,Z]]$.
 
 +--{: .standout}
 I don't know of anywhere that the details are worked out for the cartesian case.
