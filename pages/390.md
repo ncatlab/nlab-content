@@ -259,10 +259,6 @@ Several classical examples of OFS $(E,M)$:
 
 * In [[Cat]], $E$ = [[bo functors]], $M$ = [[fully faithful functors]]: the [[bo-ff factorization system]]
 
-* In [[Cat]], [[(eso, fully faithful) factorization system]]
-
-* In [[Cat]], [[(eso+full, faithful) factorization system]]
-
 * (Street) in [[Cat]], $E$ = 0-[[final functors]], $M$ = [[discrete fibrations]] 
 
 * (Street) in $\mathrm{Cat}$,  $M$ = 0-[[initial functors]], $M$ = [[discrete opfibration]]s
@@ -273,8 +269,17 @@ Several classical examples of OFS $(E,M)$:
 
 * if $F\to C$ is a [[fibered category]] in the sense of Grothendieck, then $F$ admits a factorization system $(E,M)$ where $E$ = arrows whose projection to $C$ is invertible, $M$ = cartesian arrows in $F$
 
+* See the ([catlab](#Joyal)) for more examples.
 
-* See the ([Joyal](#Joyal)) for more examples. 
+## Generalizations
+
+There is a [[categorification|categorified]] notion of a [[factorization system on a 2-category]], in which lifts are only required to exist and be unique up to isomorphism.  Some examples include:
+
+* In [[Cat]], [[(eso, fully faithful) factorization system]]
+
+* In [[Cat]], [[(eso+full, faithful) factorization system]]
+
+Similarly, we can have a [[factorization system in an (∞,1)-category]], and so on; see the links below for other generalizations.
 
 ## Related concepts
 
