@@ -687,6 +687,24 @@ $$
   \,.
 $$
 
+
+$\,$
+
+**[[affine schemes]] and [[commutative algebras]]**
+
+The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
+
+\[
+  \label{FormalDualsOfCommutativeRings}
+  Aff_{\mathbb{K}}
+   \;\;\coloneqq\;\;
+  CAlg_{\mathbb{K}}^{op}
+  \,.
+\]
+
+Beware that the immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] (Example \ref{OppositeCategory}) in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one in (eq:FormalDualsOfCommutativeRings), see [Lawvere 03](functorial+geometry#Lawvere16Quote).
+
+
 $\,$
 
 **[[smooth manifolds]] and [[real numbers|real]] [[associative algebras]]**
@@ -704,7 +722,7 @@ Then there is a [[functor]] (Def. \ref{Functors})
 $$
   C^\infty(-)
   \;\colon\;
-  SmthMfd^{op}
+  SmthMfd
     \longrightarrow
   Alg_{\mathbb{R}}^{op}
 $$
@@ -822,30 +840,14 @@ $$
     sCAlg_{\mathbb{R}}^{op}
     \\
     \mathbb{R}^{n\vert q}
-    &\maspto&
+    &\mapsto&
     C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} \Lambda_q
   }
 $$
 
 on the [[tensor product of algebras]], over $\mathbb{R}$ of the [[algebra of functions|algebra of]] [[smooth functions]] on a [[Cartesian space]], and a [[Grassmann algebra]], as above.
 
-Notice that the [[super Cartesian spaces]] $\mathbb{R}^{n\vert q}$ are fully _defined_ by this assignment.
-
-$\,$
-
-**[[affine schemes]] and [[commutative algebras]]**
-
-The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
-
-\[
-  \label{FormalDualsOfCommutativeRings}
-  Aff_{\mathbb{K}}
-   \overset{\phantom{AAAA}}{\hookrightarrow}
-  CAlg_{\mathbb{K}}
-  \,.
-\]
-
-(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] (Example \ref{OppositeCategory}) in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
+Notice that the [[super Cartesian spaces]] $\mathbb{R}^{n\vert q}$ are fully _defined_ by this assignment. We discuss this in more detail in the chapter [[geometry of physics -- supergeometry|on supergeometry]].
 
 =--
 
