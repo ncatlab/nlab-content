@@ -97,7 +97,7 @@ If $F : C \to D$ is final then $C$ is connected precisely if $D$ is.
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #Stability}
 ###### Proposition
 
 
@@ -109,6 +109,15 @@ If $F_1$ is a [[full and faithful functor]] and the composite is final, then bot
 
 =--
 
+The first two statements of Proposition \ref{Stability} in fact follow
+from the stability properties of orthogonal factorization systems:
+
++-- {: .num_prop}
+###### Proposition
+
+Final functors and [discrete fibrations](http://ncatlab.org/nlab/show/discrete+fibration) form an [orthogonal factorization system](https://ncatlab.org/nlab/show/orthogonal+factorization+system).
+
+=--
 
 ## Generalizations
 
