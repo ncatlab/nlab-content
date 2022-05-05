@@ -10,9 +10,10 @@ This pages gives a detailed introduction to classical _[[homotopy theory]]_, sta
 
 $\,$
 
+
 For background on basic [[topology]] see at _[[Introduction to Topology]]_.
 
-For application to [[homological algebra]] see at _[[schreiber:Introduction to Homological algebra]]_.
+For application to [[homological algebra]] see at _[[schreiber:Introduction to Homological Algebra]]_.
 
 For application to [[stable homotopy theory]] see at  _[[Introduction to Stable homotopy theory]]_.
 
