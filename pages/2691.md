@@ -9,13 +9,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea 
 
-A [[model category]] structure on a category of [[differential graded algebras]] or more specifically on a [[category of differential graded-commutative]] tends to present an [[(∞,1)-category]] of [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]. 
+A [[model category]] structure on a category of [[differential graded algebras]] or more specifically on a [[category of differential graded-commutative algebras]] tends to present an [[(∞,1)-category]] of [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]. 
 
 For dg-algebras bounded in negative or positive degrees, the [[monoidal Dold-Kan correspondence]] asserts that their model category structures are [[Quillen equivalence|Quillen equivalent]] to the corresponding [[model structure on simplicial algebras|model structure on (co)simplicial algebras]]. This case plays a central role in [[rational homotopy theory]].
 
@@ -1210,6 +1211,8 @@ over a field $k$ of characteristic 0 constitute a presentation of
 [[E-infinity algebras]] over $k$ ([Lurie, prop. A.7.1.4.11]).
 
 ## Related concepts
+
+* [[model structure on differential graded-commutative superalgebras]]
 
 * [[model structure on chain complexes]]
 
