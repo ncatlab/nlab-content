@@ -14,19 +14,27 @@
 
 ## Definition 
 
-We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformations]] $\eta \colon 1_C \to R \circ L$ (the [[unit of an adjunction|unit]]) and $\epsilon \colon L \circ R \to 1_D$ (the [[counit of an adjunction|counit]]) satisfying the [[triangle identities]], that is the compositions
-$L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L$
-and 
-$R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R$ 
-are identities.
-The left or right adjoint of any functor, if it exists, is [[generalized the|unique up to unique isomorphism]].
+The concept of [[adjoint functors]] is a key concept in [[category theory]], if not _the_ key concept. It embodies the concept of [[representable functors]] and has as special cases [[universal constructions]] such as [[Kan extensions]] and hence of [[limits]]/[[colimits]]. 
 
-We say that $L$ is the __[[left adjoint]]__ of $R$ and that $R$ is the __[[right adjoint]]__ of $L$.
+More abstractly, the concept of adjoint functors is itself just the special case of the general concept of an _[[adjunction]]_ in a [[2-category]], here for the 2-category [[Cat]] of all categories. But often "[[adjunction]]" is understood by default in this special case.
 
-In the case of [[Cat]], there are a number of equivalent characterizations of an adjunction, some of which are given below.
+
+There are various different but equivalent characterizations of adjoint functors, some of which are discussed below.
 
 
 ### In terms of Hom isomorphism
+ {#InTermsOfHomIsomorphism}
+
+We discuss here the definition of adjointness of functors $L \dashv R$ in terms of a [[natural bijection]] between [[hom-sets]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below):
+
+$$
+  \{L(c) \to d\} \;\simeq\; \{ c \to R(d) \}
+$$
+
+We show that this is equivalent to the abstract definition, in terms of an [[adjunction]] in the [[2-category]] [[Cat]], in Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below.
+
+$\,$
+
 
 +-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
 ###### Definition
@@ -52,10 +60,11 @@ $$
 
 if there exists a [[natural isomorphism]] between the [[hom-functors]] of the following form:
 
-$$
+\[
+  \label{HomIsomorphismForAdjointFunctors}
   Hom_{\mathcal{D}}(L(-),-) \;\simeq\; Hom_{\mathcal{C}}(-,R(-))
   \,.
-$$
+\]
 
 This means that for all [[objects]] $c \in \mathcal{C}$ and $d \in \mathcal{D}$ there is a [[bijection]] of [[hom-sets]]
 
@@ -75,21 +84,22 @@ which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is the 
 
 Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphisms]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
 
-$$
+\[
+  \label{NaturalitySquareForAdjointnessOfFunctors}
   \array{
-    Hom_{D}(L(c_1), d_1) 
-      &\underoverset{\simeq}{\phi_{c_1,d_1}}{\longrightarrow}&
-    Hom_C(c_1, R(d_1))
+    Hom_{\mathcal{D}}(L(c_1), d_1) 
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_1, R(d_1))
     \\
     {}^{\mathllap{Hom_{\mathcal{D}}(L(g), h)}}\big\downarrow
      &&
     \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(g, R(h))}}
     \\
-    Hom_D(L(c_2),d_2)
-    &\underoverset{\simeq}{\phi_{c_2,d_2}}{\longrightarrow}&
-    Hom_C(c_2,R(d_2))
+    Hom_{\mathcal{D}}(L(c_2),d_2)
+    &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_2,R(d_2))
   }
-$$ 
+\]
 
 [[commuting square|commutes]] (see also at _[[hom-functor]]_ for the definition of the vertical maps here). 
 
@@ -149,7 +159,7 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} one sa
 
 +-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
 ###### Proposition
-**{general [[adjuncts]] in terms of [[adjunction unit|unit/counit]]}**
+**(general [[adjuncts]] in terms of [[adjunction unit|unit/counit]])**
 
 Consider a pair of [[adjoint functors]] 
 
@@ -164,6 +174,32 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, with 
 
 Then
 
+1. The [[adjunct]] $\widetilde f$ of any morphism $L(c) \overset{f}{\to} d$ is obtained from $R$ and $\eta_c$ as the [[composition|composite]]
+
+   \[
+     \label{AdjunctFormula}
+     \widetilde f 
+     \;\colon\;
+     c 
+       \overset{\eta_c}{\longrightarrow} 
+     R(L(c))
+       \overset{R(f)}{\longrightarrow}
+     R(d)
+   \]
+
+   Conversely, the [[adjunct]] $f$ of any morphism $c \overset{\widetilde f}{\longrightarrow} R(d)$ is obtained from $L$ and $\epsilon_d$ as
+
+   \[
+     \label{ConverseAdjunctFormula}
+     f
+     \;\colon\;
+     L(c) 
+       \overset{L(\widetilde f)}{\longrightarrow} 
+     R(L(d))
+       \overset{\epsilon_d}{\longrightarrow}
+     d
+   \]
+
 1. The [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ are components of [[natural transformations]] of the form
 
    $$
@@ -176,43 +212,229 @@ Then
      \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
    $$
 
-1. The [[adjunct]] $\widetilde f$ of any morphism $L(c) \overset{f}{\to} d$ is obtained from $R$ and $\eta_c$ as the composite
+1. The [[adjunction unit]] and [[adjunction counit]] satisfy the [[triangle identities]], saying that
 
    $$
-     \widetilde f 
+      id_{L(c)}
+      \;\colon\;
+      L(c) 
+        \overset{L(\eta_c)}{\longrightarrow} 
+      L(R(L(c))) 
+        \overset{\epsilon_{L(c)}}{\longrightarrow}
+      L(c)
+   $$
+
+   and
+
+   $$
+     id_{R(d)}
      \;\colon\;
-     c 
-       \overset{\eta_c}{\longrightarrow} 
-     R(L(c))
-       \overset{R(f)}{\longrightarrow}
+     R(d)
+       \overset{\eta_{R(d)}}{\longrightarrow}
+     R(L(R(d)))
+       \overset{R(\epsilon_d)}{\longrightarrow}
      R(d)
    $$
 
-   Conversely, the adjunct $f$ of any morphism $c \overset{\widetilde f}{\longrightarrow} R(d)$ is obtained from $L$ and $\epsilon_d$ as
+=--
 
-   $$
-     f
-     \;\colon\;
++-- {: .proof}
+###### Proof
+
+For the first statement, consider the [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) in the form 
+
+$$
+  \array{
+    id_{L(c)}
+     \in 
+    &
+    Hom_{\mathcal{D}}(L(c), L(c)) 
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c, R(L(c)))
+    \\
+    &
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(id), f)}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(id, R(f))}}
+    \\
+    &
+    Hom_{\mathcal{D}}(L(c), d)
+    &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}( c, R(d) )
+  }
+$$
+
+and consider the element $id_{L(c_1)}$ in the top left entry. Its image under going down and then right in the diagram is $\widetilde f$, by Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}. On the other hand, its image under going right and then down is $ R(f)\circ \eta_{c}$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown, for the adjunct of $f$.
+
+The converse formula follows analogously.
+
+The third statement follows directly from this by applying these formulas for the [[adjuncts]] twice and using that the result must be the original morphism:
+
+$$
+  \begin{aligned}
+    id_{L(c)}
+    & =
+    \widetilde \widetilde { id_{L(c)} }
+    \\
+    & = \widetilde{ c \overset{\eta_c}{\to} R(L(c))  }
+    \\
+    & = 
      L(c) 
-       \overset{L(\widetilde f)}{\longrightarrow} 
-     R(L(d))
-       \overset{\epsilon_d}{\longrightarrow}
-     d
+       \overset{L(\eta_c)}{\longrightarrow} 
+     L(R(L(c))) 
+       \overset{\epsilon_{L(c)}}{\longrightarrow}
+     L(c)
+  \end{aligned}
+$$
+
+For the second statement, we have to show that for every moprhism $f \colon c_1 \to c_2$ the following [[commuting square|square commutes]]:
+
+$$
+  \array{    
+     c_1 &\overset{f}{\longrightarrow}& c_2
+     \\
+     {}^{\mathllap{\eta_{c_1}}}\big\downarrow 
+       && 
+     \big\downarrow^{\mathrlap{\eta_{c_2}}}
+     \\
+     R(L(c_1))
+      &\underset{ R(L(f)) }{\longrightarrow}&
+     R(L(c_2))
+  }
+$$
+
+To see this, consider the [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) in the form 
+
+$$
+  \array{
+    id_{L(c_2)}
+    \in
+    & Hom_{\mathcal{D}}(L(c_2), L(c_2)) 
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_2, R(L(c_2)))
+    \\
+    &
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(f),id_{L(c_2)})}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(f, R(id_{L(c_2)}))}}
+    \\
+    &
+    Hom_{\mathcal{D}}(L(c_1),L(c_2))
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_1,R(L(c_1)))
+  }
+$$
+
+The image of the element $id_{L(c_2)}$ in the top left along the right and down is $ f \circ \eta_{c_2}$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}, while its image down and then to the right is $\widetilde {L(f)} = R(L(f)) \circ \eta_{c_1}$, by the previous statement. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown.
+
+The argument for the naturality of $\epsilon$ is directly analogous.
+
+
+=--
+
++-- {: .num_prop #AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat}
+###### Proposition
+**(adjointness in terms of hom-isomorphism equivalent to adjunction in $Cat$)**
+
+Two functors
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{}
+  \mathcal{C}
+$$
+
+are an [[adjoint pair]] in the sense that there is a [[natural isomorphism]] (eq:HomIsomorphismForAdjointFunctors) according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, precisely if they participate in an [[adjunction]] in the [[2-category]] [[Cat]], meaning that 
+
+1. there exist [[natural transformations]] 
+
+   $$
+     \eta \;\colon\; Id_{\mathcal{C}} \Rightarrow R \circ L
+   $$
+
+   and
+
+   $$
+     \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
+   $$
+
+2. which satisfy the [[triangle identities]]
+
+   $$
+      id_{L(c)}
+      \;\colon\;
+      L(c) 
+        \overset{L(\eta_c)}{\longrightarrow} 
+      L(R(L(c))) 
+        \overset{\epsilon_{L(c)}}{\longrightarrow}
+      L(c)
+   $$
+
+   and
+
+   $$
+     id_{R(d)}
+     \;\colon\;
+     R(d)
+       \overset{\eta_{R(d)}}{\longrightarrow}
+     R(L(R(d)))
+       \overset{R(\epsilon_d)}{\longrightarrow}
+     R(d)
    $$
 
 =--
 
++-- {: .proof}
+###### Proof
 
-+-- {: .num_prop }
-###### Proposition
+That a hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) implies units/counits satisfying the [[triangle identities]] is the statement of the second two items of Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
 
+Hence it remains to show the converse. But the argument is along the same lines as the proof of Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}: We now _define_ forming of adjuncts by the formula (eq:AdjunctFormula). That the resulting assignment $f \mapsto \widetilde f$ is an [[isomorphism]] follows from the computation
 
-The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  
+$$
+  \begin{aligned}
+    \widetilde {\widetilde f}
+    & =
+    \widetilde{ c \overset{\eta_c}{\to} R(L(c)) \overset{R(f)}{\to} R(d) }
+    \\
+    & =
+    L(c) \overset{L(\eta_c)}{\to} L(R(L(c))) \overset{L(R(f))}{\to} L(R(d)) \overset{\epsilon_d}{\to} d
+    \\ 
+    & = 
+    L(c) \overset{L(\eta_c)}{\to} L(R(L(c)))
+         \overset{ \epsilon_{L(c)} }{\to}  L(c)
+         \overset{f}{\longrightarrow} d
+    \\
+    & =  L(c) \overset{f}{\longrightarrow} d
+  \end{aligned}
+$$
+
+where, after expanding out the definition, we used [[natural transformation|naturality]] of $\epsilon$ and then the [[triangle identity]]. 
+
+Finally, that this construction satisfies the naturality condition (eq:NaturalitySquareForAdjointnessOfFunctors) follows from the functoriality of the functors involved, and the naturality of the unit/counit: 
+
+$$
+  \array{
+    c_2 &\overset{ \eta_{c_2} }{\longrightarrow}& R(L(c_2))
+    \\
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{R(L(g))}}
+    & \searrow^{\mathrlap{ R( L(g) \circ f ) }}
+    \\
+    c_1 
+      &\overset{\eta_{c_1}}{\longrightarrow}& 
+    R(L(c_1))
+     &\overset{R(f)}{\longrightarrow}&
+    R(d_1)
+    \\
+    && & {}_{R( h\circ f)}\searrow & \downarrow^{\mathrlap{ R(h) }}
+    \\
+    && && R(d_2)
+  }
+$$
+
 
 =--
-
-
-The [[triangle identities]] are precisely what is necessary to ensure that this _is_ an isomorphism.
 
 
 ### In terms of representable functors
@@ -838,9 +1060,12 @@ Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Gr
 
 * [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society Vol. 87, No. 2 (Mar., 1958), pp. 294-329 ([jstor](http://www.jstor.org/stable/1993102))
 
-and was popularized by
+and its fundamental relevance for [[category theory]] was realized due to 
 
 * {#Freyd66} [[Peter Freyd]], _Abelian categories -- An introduction to the theory of functors_, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freydab.pdf)).
+
+* {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
 
 For other textbook reference see any of the references listed at _[[category theory]]_, for instance 
 
@@ -848,15 +1073,19 @@ For other textbook reference see any of the references listed at _[[category the
 
 * {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
 
-A video of a pedagogical introduction to adjoint functors is provided by
-
-* [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
-
 The history of the idea that adjoint functors formalize aspects of [[dialectics]] is recounted in 
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
 
 For more on this see at _[[adjoint modality]]_.
+
+
+See also 
+
+* Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
+
+* [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
+
   
 
 [[!redirects adjoint functors]]
