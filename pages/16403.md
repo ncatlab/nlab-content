@@ -14870,7 +14870,7 @@ Hence the claim follows by the defining condition on the comparison morphism in 
 
 Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
 
-By Prop. \ref{InSimplicialModelCategoryEnrichedHomIsHomotopical} and by [[Ken Brown's lemma]] (Prop. \ref{KenBrownLemma}), the [[enriched hom-functor]]  (Example \ref{EnrichedHomFunctor}) has a [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) when its first argument is [[cofibrant object|cofibrant]] or its second argument is [[fibrant object|fibrant]]. The combination is called the _[[derived hom-functor]]_
+By Prop. \ref{InSimplicialModelCategoryEnrichedHomIsHomotopical} and by [[Ken Brown's lemma]] (Prop. \ref{KenBrownLemma}), the [[enriched hom-functor]]  (Example \ref{EnrichedHomFunctor}) has a [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) when its first argument is [[cofibrant object|cofibrant]] and its second argument is [[fibrant object|fibrant]]. The combination is called the _[[derived hom-functor]]_
 
 $$
   \mathbb{R}hom
