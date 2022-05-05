@@ -13861,8 +13861,9 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #TopsSetQuillenEquivalence}
 ###### Theorem
+**([[Quillen equivalence]] between [[classical model structure on topological spaces]] and [[classical model structure on simplicial sets]])**
 
 The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
 constitutes a [[Quillen equivalence]] between the [[classical model structure on simplicial sets]] $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} and the  [[classical model structure on topological spaces]]:
@@ -14880,6 +14881,8 @@ $$
   Ho(sSet_{Quillen})
 $$
 
+In view of the [[Quillen equivalence]] $sSet_{Qu} \simeq_{Qu} Top_{Qu}$ (Theorem \ref{TopsSetQuillenEquivalence}), the simplicial sets ([[Kan complexes]]) $\mathbb{R}hom(X,A)$ are also called the _[[derived hom-spaces]]_.
+
 In the presence of [[functorial factorization|functorial]] [[cofibrant resolution]] $Q$ and [[fibrant resolution]] $P$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) this is given by the ordinary [[enriched hom-functor]] $\mathcal{C}(-,-)$ as
 
 $$
@@ -15078,7 +15081,105 @@ $$
 
 
 
-(...)
+$\,$
+
+### $\infty$-Modalities
+
+The following is the direct analog of Def. \ref{ModalOperator}, with the [[bijections]] of [[hom-sets]] (eq:ModalityUnitPrecomposition) and (eq:CoModalityCoUnitPostcomposition) replaced by weak equivalences of [[derived hom-spaces]] (Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory})
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
+
+
+1. a _derived [[modal operator]] on $\mathcal{D}$_ is
+
+   1. an [[endofunctor]]
+
+      $$
+        \bigcirc \;\colon\; Ho(\mathcal{D}) \to Ho(\mathcal{D})
+      $$
+
+      on the [[homotopy category of a model category|homotopy category]] (Def. \ref{HomotopyCategoryOfAModelCategory}) whose [[full subcategory|full]] [[essential image]] we denote by
+
+      $$
+        Im(\bigcirc)
+          \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+        Ho(\mathcal{D})
+        \,,
+      $$
+
+   1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+
+      \[
+        \label{UnitOfAModalOperator}
+        X \overset{\mathbb{D}\eta_X}{\longrightarrow} \bigcirc X
+      \]
+
+      for all [[objects]] $X \in Ho(\mathcal{D})$,
+      to be called the _derived unit morphism_;
+
+   such that:
+
+   * for every [[object]] $Y \in Im(\bigcirc) \hookrightarrow Ho(\mathcal{D})$ the operation of [[composition|precomposition]] with the unit $\eta_X$ yields a [[weak equivalence]] on [[derived hom-spaces]] (Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory})
+
+     \[
+       \label{ModalityUnitPrecompositionDerived}
+       (-)\circ \mathbb{D}\eta_X
+       \;\colon\;
+       \mathbb{R}hom(\bigcirc X, Y)
+       \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+       \mathbb{R}hom(X, Y)
+       \,,
+     \]
+
+1. a _derived [[comodal operator]] on $\mathcal{D}$_ is
+
+   1. an [[endofunctor]]
+
+      $$
+        \Box \;\colon\; Ho(\mathcal{D}) \to Ho(\mathcal{D})
+      $$
+
+      on the [[homotopy category of a model category|homotopy category]] (Def. \ref{HomotopyCategoryOfAModelCategory}) whose [[full subcategory|full]] [[essential image]] we denote by
+
+      $$
+        Im( \Box )
+          \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+        Ho(\mathcal{D})
+      $$
+
+   1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+
+      \[
+        \label{CounitOfModalOperator}
+        \Box X \overset{ \mathbb{D}\epsilon_X }{\longrightarrow} X
+      \]
+
+      for all [[objects]] $X \in Ho(\mathcal{D})$,
+      to be called the _derived counit morphism_;
+
+   such that:
+
+   * for every [[object]] $Y \in Im( \Box ) \hookrightarrow \mathcal{D}$ the operation of [[composition|postcomposition]] with the derived counit $\mathbb{D}\epsilon_X$ yields a [[weak equivalence]] of [[derived hom-spaces]] (Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory})
+
+     \[
+       \label{CoModalityCoUnitPostcompositionDerived}
+       \mathbb{D}\epsilon_X \circ (-)
+       \;\colon\;
+       \mathbb{R}hom(Y, \Box X)
+       \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+       \mathbb{R}hom(Y , X)
+       \,,
+     \]
+
+=--
+
+
+
+
+
 
 $\,$
 
