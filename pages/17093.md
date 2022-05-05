@@ -10,6 +10,8 @@
 
 * [[equivariant stable homotopy theory]]
 
+* [[fixed point spectrum]]
+
 category: people
 
 [[!redirects Gaunce Lewis]]
