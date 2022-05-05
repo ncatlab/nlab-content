@@ -1,598 +1,115 @@
 
-+-- {: .num_lemma}
-###### Lemma
-
-Let 
-
-$$
-  \mathcal{C}
-    \array{
-      \overset{ \phantom{A} \Pi \phantom{A} }{\longrightarrow}
-      \\
-      \overset{ \phantom{A} Disc \phantom{A} }{\hookleftarrow}
-      \\
-      \overset{ \phantom{A} \Gamma \phantom{A} }{ \longrightarrow }
-    }
-  \mathcal{D}
-$$
-
-be an [[adjoint triple]], with $Disc$ a [[fully faithful functor]].  Denoting the [[adjunction units]]/[[adjunction counit|counits]] as
-
-| $\phantom{A}$ [[adjunction]] $\phantom{A}$ | $\phantom{A}$ [[adjunction unit|unit]] $\phantom{A}$ | $\phantom{A}$ [[adjunction counit|counit]] $\phantom{A}$ |
-|----------|-----------|----------|
-| $\phantom{A}$ $(\Pi \dashv Disc)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{&#643;}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{&#643;}$ $\phantom{A}$ |
-| $\phantom{A}$ $(Disc \dashv \Gamma)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\flat$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\flat$ $\phantom{A}$ |
-{: style='margin:auto}
-
-then the following [[composition|composites]] of unit/counit components are equal:
-
-\[
-  \label{CoincidenceOfNaturalTransformationsForAdjointTriple}
-  \left( 
-    \eta^{\flat}_{\Pi X}
-  \right)
-  \circ
-  \left( 
-    \Pi \epsilon^\flat_X 
-  \right)
-  \;\;=\;\;
-  \left(
-    \Gamma \eta^{&#643;}_{X}
-  \right)
-  \circ
-  \left(
-    \epsilon^{&#643;}_{\Gamma X}
-  \right)
-  \phantom{AAAAAA}
-  \array{
-    \Pi Disc \Gamma X 
-    &\overset{\epsilon^{&#643;}_{\Gamma X}}{\longrightarrow}& 
-    \Gamma X
-    \\
-    {}^{ \mathllap{ \Pi \epsilon^\flat_X } }\big\downarrow
-    && 
-       \big\downarrow^{\mathrlap { \Gamma \eta^{&#643;}_{X} } }
-    \\
-    \Pi X
-    &\underset{ \eta^\flat_{\Pi X} }{\longrightarrow}&
-    \Gamma Disc \Pi X
-  }
-\]
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-We claim that the following [[commuting diagram|diagram commutes]]:
-
-$$
-  \array{
-    && && \Gamma X
-    \\
-    && & {}^{ \epsilon^&#643;_{\Gamma X} }\nearrow 
-    && \searrow^{\mathrlap{ \Gamma \eta^{&#643;}_X }}
-    \\
-    && \Pi Disc \Gamma X
-    && && \Gamma Disc \Pi X
-    \\
-    & {}^{ \Pi \epsilon^\flat_X }\swarrow
-    && \searrow^{ \mathrlap{ \Pi Disc \Gamma \eta^{&#643;}_X } }
-    && {}^{\mathllap{ \eta^{&#643;}_{\Gamma Disc \Pi X} }}\nearrow 
-    && \nwarrow^{ \mathrlap{ \eta^{\flat}_{\Pi X} } }
-    \\
-    \Pi X
-    && && \Pi Disc \Gamma Disc \Pi X
-    && && \Pi X
-    \\
-    & {}_{\mathllap{ \Pi \eta^{&#643;}_X }}\searrow
-    && \swarrow_{\mathrlap{ \Pi \epsilon^{\flat}_{Disc \Pi X} }}
-    && {}_{\mathllap{ \Pi Disc \eta^\flat_{\Pi X} }}\nwarrow
-    && \nearrow_{\mathrlap{ \epsilon^{&#643;}_{\Pi X} }}
-    \\
-    && \Pi Disc \Pi X
-    && \underset{id_{\Pi Disc \Pi X}}{\longleftarrow}  && 
-    \Pi Disc \Pi X
-  }
-$$
-
-This commutes, because:
-
-1. the left square is the image under $\Pi$ of [[naturality square|naturality]] for $\epsilon^\flat$ on $\eta^{&#643;}_X$;
-
-1. the top square is [[naturality square|naturality]] for $\epsilon^{&#643;}$ on $\Gamma \eta^{&#643;}_X$;
-
-1. the right square is [[naturality square|naturality]] for $\epsilon^{&#643;}$ on $\eta^{\flat}_{\Pi X}$;
-
-1. the bottom commuting triangle is the image under $\Pi$ of the [[zig-zag identity]] for $(Disc \dashv \Gamma)$ on $\Pi X$.
-
-Finally, also the total bottom composite is the [[identity morphism]] $id_{\Pi X}$, due to the [[zig-zag identity]] for $(&#643; \dashv Disc)$.
-
-Therefore the total composite from $\Pi Disc \Gamma X \to \Gamma Disc \Pi X$ along the bottom part of the diagram equals the left hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple), while the composite along the top part of the diagram clearly equals the right hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple).
-
-
-=--
-
-+-- {: .num_prop #PointsToPiecesTransform}
++-- {: .num_prop #SuperSmoothSetsSystemOfAdjunctions}
 ###### Proposition
-**([[points-to-pieces transform]])**
+**(system of [[adjoint functors]] on [[SuperFormalSmoothSet]])**
 
-Consider an [[adjoint quadruple]] of the form 
+There exists an essentially unique system of [[functors]] between the categories of [[sets]],
+[[smooth sets]] (def. \ref{SmoothSet}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
+as shown in the second and third row of the following diagram, such that
 
-$$
-  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
-  \;\;\colon\;\;
-  \mathbf{H}
-    \array{
-      \overset{\phantom{AA} \Pi \phantom{AA} }{\longrightarrow}
-      \\
-      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
-      \\
-      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
-      \\
-      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
-    }
-  \mathbf{B}
-$$
+1. every [[pair]] of consecutive [[functors]] is an [[adjoint pair]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)), with the functor above being [[left adjoint]] and the functor below being [[right adjoint]]
 
-(for instance a [[cohesive topos]] over some [[base topos]] $\mathbf{B}$).
+1. on [[representables]] the top two functors on the left, the top two functors in the middle, and the top three functors on the right coincide with the corresponding functors between [[sites]] shown in the first row (from prop. \ref{SystemOfSites}):
 
-Then for all $X \in \mathbf{X}$ the following two [[natural transformations]], constructed from the [[adjunction units]]/[[adjunction counit|counits]] and their [[inverse morphisms]] (using [[idempotent monad|idempotency]]), are equal:
+<center>
+<img src="https://ncatlab.org/nlab/files/AjunctionsForSuperCohesion.png" width="600">
+</center>
 
-\[
-  \label{PointsToPiecesInTheBase}
-  ptp_{\mathbf{B}}
-  \;\;\coloneqq\;\;
-  \left(
-    \Pi \epsilon^\flat_X
-  \right)
-  \circ
-  \left(
-    \eta^{&#643;}_{\Gamma X}
-  \right)^{-1}
-  \;\;=\;\;
-  \left(
-    \eta^\flat_{\Pi X}
-  \right)^{-1}
-  \circ
-  \left(
-    \Gamma \eta^{&#643;}_X
-  \right)
-  \phantom{AAAAAAA}
-  \array{
-    \Gamma X 
-    & \overset{
-       \Gamma \eta^{&#643;}_X
-   }{\longrightarrow} & 
-   \Gamma Disc \Pi X
-   \\
-   {}^{ \mathllap{
-      \left(
-       \eta^{&#643;}_{\Gamma X}
-     \right)^{-1}    
-   } }\big\downarrow 
-     & \searrow^{ \mathrlap{ ptp_{\mathbf{B}} }  } & 
-   \big\downarrow^{ \mathrlap{  
-     \left(
-       \eta^\flat_{\Pi X}
-     \right)^{-1}
-   } }
-   \\ 
-   \Pi Disc \Gamma X
-   &\underset{ 
-    \Pi \epsilon^\flat_X
-    }{\longrightarrow}&
-   \Pi X
-  }
-\]
+In such a situation we also say that in the third row
 
-Moreover, the image of these morphisms under $Disc$ equals the following composite:
+1. the bottom four functors exhibit [[SuperFormalSmoothSet]] as a  [[cohesive topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveTopos))
 
-\[
-  \label{PointsToPieces}
-  ptp_{\mathbf{H}}
-  \;\colon\;
-  \flat X 
-    \overset{ \phantom{A} \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
-  X
-    \overset{ \phantom{A} \eta^{&#643;}_X \phantom{A} }{\longrightarrow}
-  &#643; X
-  \,,
-\]
+1. the middle four functors exhibit [[SuperFormalSmoothSet]] as [[differentially cohesive topos]] (elastic topos) relative to [[SmoothSet]] ([this Def.](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#DifferentialCohesion));
 
-hence
-
-\[
-  \label{PiecesToPointsFromBase}
-  ptp_{\mathbf{H}} \;=\; Disc(ptp_{\mathbf{B}})
-  \,.
-\]
-
-Either of these morphisms we call the _[[points-to-pieces transform]]_.
+1. the top four functors exhibit $SuperFormalSmoothSet$ as _solid topos_ relative to [[FormalSmoothSet]] (...)
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For the second statement, notice that the $(Disc \dashv \Gamma)$-[[adjunct]] of
+That we have [[adjoint quadruples]] between [[presheaf toposes]] in the second row is by [this Example](geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple) in the chapter _[[geometry of physics -- categories and toposes|on categories and toposes]]_. 
 
-$$
-  ptp_{\mathbf{H}}
-  \;\colon\;
-  Disc \Gamma X 
-    \overset{ \phantom{A} \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
-  X
-    \overset{ \phantom{A} \eta^{&#643;}_X \phantom{A} }{\longrightarrow}
-  Disc \Pi X
-$$
+That the [[adjoint quadruple]] on the left ([[corestriction|co-]])[[restriction|restricts]] to [[sheaves]], exhibiting [[SmoothSet]] as a [[cohesive topos]], is [this Prop.](geometry+of+physics+--+smooth+sets#SmoothSetsFormACohesiveTopos) in the chapter [[geometry of physics -- smooth sets|on smooth sets]].
 
-is
+For the other two [[adjoint quadruples]] the ([[corestriction|co-]])[[restriction|restricts]] to [[sheaves]] is trivial, since this concerns only the [[coverages]] along the infinitsimal directions in [[FormalCartSp]] and [[SuperFormalCartSp]], which are [[trivial coverage|trivial]] ([this Example](geometry+of+physics+--+categories+and+toposes#TrivialCoverage)), by definition.
 
-\[
-  \label{AdjunctOfptpH}
-  \widetilde{ ptp_{\mathbf{H}} }
-  \;\;=\;\;
-  \underset{
-    = id_{\Gamma X}
-  }{
-  \underbrace{
-    \Gamma X
-      \underoverset{iso}{ \phantom{A} \eta^{\flat}_{\Gamma X} \phantom{A} }{ \longrightarrow }
-    \Gamma Disc \Gamma X 
-      \underoverset{iso}{ \phantom{A} \Gamma \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
-    \Gamma X
-  }}
-      \overset{ \phantom{A} \Gamma \eta^{&#643;}_X \phantom{A}  }{\longrightarrow}
-    \Gamma Disc \Pi X
-  \,,
-\]
+This establishes the system of [[adjoint quadruples]] between [[sheaf toposes]] in the second row.
 
-where under the braces we uses the [[zig-zag identity]]. 
+The diagram in the third row states that two extra adjoints to _composites_ of the functors appear. Here 
 
-(As a side remark, for later usage, we observe that the morphisms on the left in (eq:AdjunctOfptpH) are [[isomorphisms]], as shown, by [[idempotent monad|idempotency]] of the adjunctions.)  
-
-From this we obtain the following [[commuting diagram]]:
-
-$$
-  \array{
-    Disc \Gamma X
-      &\overset{ \phantom{A} Disc \Gamma \eta^{&#643;}_X \phantom{A} }{\longrightarrow}&
-    Disc \Gamma Disc \Pi X
-      &\underoverset{iso}{ \phantom{A} Disc \left(\eta^{ \flat }_{\Pi X}\right)^{-1} \phantom{A} }{ \longrightarrow }&
-    Disc \Pi X
-    \\
-    &{}_{\mathllap{ ptp_{\mathbf{H}} }}\searrow&
-    {}^{ \mathllap{ \epsilon^{\flat}_{Disc \Pi X} } }
-    \big\downarrow^{\mathrlap{\simeq}}
-     & 
-    \nearrow_{\mathrlap{id_{\Pi X}}}
-    \\
-    && Disc \Pi X
-  }
-$$
-
-Here:
-
-1. on the left we identified $\widetilde {\widetilde {ptp_{\mathbf{H}}}} \;=\;  ptp_{\mathbf{\mathbf{H}}}$ by applying the formula for $(Disc \dashv \Gamma)$-[[adjuncts]] to $\widetilde {ptp_{\mathbf{H}}} = \Gamma \eta^{&#643;}_X$ (eq:AdjunctOfptpH);
-
-1. on the right we used the [[zig-zag identity]] for $(Disc \dashv \Gamma)$.
-
-This proves the second statement.
-
-=--
-
-
-
-
-form the $(Disc \dashv \Gamma)$-adjoint:
-
-$$
-  \underset{
-    = id_{\Gamma X}
-  }{
-  \underbrace{
-    \Gamma X
-      \underoverset{iso}{ \phantom{A} \eta^{\flat}_{\Gamma X} \phantom{A} }{ \longrightarrow }
-    \Gamma Disc \Gamma X 
-      \underoverset{iso}{ \phantom{A} \Gamma \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
-    \Gamma X
-  }}
-      \overset{ \phantom{A} \Gamma \eta^{&#643;}_X \phantom{A}  }{\longrightarrow}
-    \Gamma Disc \Pi X
-$$
-
-and postcompose
-
-$$
-    \Gamma X
-      \overset{ \phantom{A} \Gamma \eta^{&#643;}_X \phantom{A} }{\longrightarrow}
-    \Gamma Disc \Pi X
-      \underoverset{iso}{ \phantom{A} \left(\eta^{ \flat }_{\Pi X}\right)^{-1} \phantom{A} }{ \longrightarrow }
-    \Pi X
-$$
-
-
-
-
-alternatively, form the $(\Pi \dashv Disc)$-adjoint
-
-
-$$
-  \Pi Disc \Gamma X 
-    \overset{ \phantom{A} \Pi \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
-  \underset{ = id_{\Pi X} }{
-    \underbrace{
-      \Pi X
-        \underoverset{iso}{ \phantom{A} \Pi \eta^{&#643;}_X \phantom{A} }{\longrightarrow}
-      \Pi Disc \Pi X
-        \underoverset{iso}{ \phantom{A} \epsilon^{&#643;}_{\Pi X} \phantom{A}}{\longrightarrow}
-      \Pi X
-    }
-  }
-$$
-
-and precompose
-
-$$
-  \Gamma X
-    \overset{ \phantom{A} \left(\eta^{&#643;}_{\Gamma X}\right)^{-1} \phantom{A} }{\longrightarrow}
-  \Pi Disc \Gamma X 
-    \overset{ \phantom{A} \Pi \epsilon^{\flat}_X \phantom{A} }{\longrightarrow}
- \Pi X
-$$
-
-and more
-
-$$
-  \array{
-    \Pi Disc \Gamma X 
-      &\overset{ 
-         \phantom{A} \Pi \epsilon^{\flat}_X \phantom{A} 
-       }{\longrightarrow}
-     &
-   \Pi X
-   \\
-   {}^{ \mathllap{ \Pi Disc \Gamma \eta^\flat_X } }
-   \big\downarrow^{ \mathrlap{\simeq} }
-     && 
-   {}^{\mathllap{\simeq}}\big\downarrow^{\mathrlap{ \Pi \eta^\flat_X }}
-   \\
-   \Pi Disc \Gamma Disc \Gamma X
-    & \underset{ \Pi \epsilon^{\flat}_{Disc \Gamma X} }{\longrightarrow}&
-   \Pi Disc \Gamma X
-  }
-$$
-
-now consider
-
-$$
-  Disc X
-    \overset{ \phantom{A} \eta^{\sharp}_{Disc X} \phantom{A} }{\longrightarrow}
-  \sharp Disc X
-$$
-
-hence 
-
-$$
-  Disc X
-    \overset{ \phantom{A} \eta^{\sharp}_{Disc X} \phantom{A} }{\longrightarrow}
-  coDisc \Gamma  Disc X
-$$
-
-and postcompose
-
-$$
-  Disc X
-    \overset{ \phantom{A} \eta^{\sharp}_{Disc X} \phantom{A} }{\longrightarrow}
-  coDisc \Gamma  Disc X
-    \overset{ coDisc \left( \eta^{\flat}_{X} \right)^{-1} }{ \longrightarrow}
-  coDisc X
-$$
-
-+-- {: .num_lemma #ReExpressingMiddleFunctorInAdjointTriple}
-###### Lemma
-
-Consider an [[adjoint triple]]
-
-$$
-  Disc \dashv \Gamma \dashv coDisc
-  \;\;\colon\;\;
-  \mathbf{H}
-    \array{
-      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
-      \\
-      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
-      \\
-      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
-    }
-  \mathbf{B}
-$$
-
-Then application of the [[functor]] $\Gamma$ on any [[morphism]] $\mathbf{X} \overset{f}{\to} \mathbf{Y} \;\;\in \mathbf{H}$ is equal to the operations of
-
-1. [[composition|pre-composition]] with the $(Disc \dashv \Gamma)$-[[adjunction counit]] $\epsilon^\flat_{\mathbf{X}}$, followed by passing to the  $(Disc \dashv \Gamma)$-[[adjunct]];
-
-1. [[composition|post-composition]] with the $(\Gamma \dashv coDisc)$-[[adjunction unit]] $\eta^{ \sharp }_{\mathbf{Y}}$, followed by passing to the $(\Gamma \dashv coDisc)$-[[adjunct]]:
-
-\[
-  \label{PostcompositionWithEtaAsGamma}
-  \Gamma_{\mathbf{X}, \mathbf{Y}} \;=\;  \widetilde{\eta^\sharp_{\mathbf{Y}} \circ (-)}
-  \;=\;
-  \widetilde{ (-) \circ \epsilon^\flat_{\mathbf{X}} }
-  \,.
-\]
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For the first equality, consider the following [[naturality square]] for the adjunction hom-isomorphism ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)):
-
-$$
-  \array{
-    Hom_{\mathbf{B}}( \Gamma \mathbf{Y} , \Gamma \mathbf{Y} )
-    &\overset{\widetilde {(-)}}{\longrightarrow}&
-    Hom_{\mathbf{H}}( \mathbf{Y}, coDisc \Gamma \mathbf{Y} )
-    \\
-    {}^{\mathllap{ Hom_{\mathbf{B}}(\Gamma(f), \Gamma \mathbf{Y}) }}
-    \big\downarrow
-    &&
-    \!\!\!\!\!
-    \big\downarrow^{\mathrlap{ Hom_{\mathbf{H}}( f, coDisc \Gamma \mathbf{Y} ) }}
-    \\
-    Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma \mathbf{Y} )
-    &\overset{\widetilde{ (-) }}{\longleftarrow}&
-    Hom_{\mathbf{H}}( \mathbf{X}, coDisc \Gamma \mathbf{Y} )
-  }
-  \phantom{AAAAA}
-  \array{
-    \{ \Gamma \mathbf{Y} \overset{id_{\Gamma \mathbf{Y}}}{\to} \Gamma \mathbf{Y}\}
-    &\longrightarrow&
-    \{ \mathbf{Y} \overset{\eta^\sharp_{\mathbf{Y}}}{\to} coDisc \Gamma \mathbf{Y} \}
-    \\
-    \big\downarrow
-    &&
-    \big\downarrow
-    \\
-    \{ \Gamma \mathbf{X} \overset{\Gamma(f)}{\to} \Gamma \mathbf{Y} \}
-    &\longleftarrow&
-    \{ \mathbf{X} \overset{\eta^\sharp_{\mathbf{Y}} \circ f}{\longrightarrow} coDisc \Gamma \mathbf{Y} \}    
-  }
-$$
-
-Chasing the [[identity morphism]] $id_{\Gamma \mathbf{Y}}$ through this diagram, yields the claimed equality, as shown on the right. Here we use that the right [[adjunct]] of the [[identity morphism]] is the [[adjunction unit]], as shown.
-
-The second equality is [[formal duality|fomally dual]]:
-
-$$
-  \array{
-    Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma \mathbf{X})
-    &\overset{\widetilde { (-) }}{\longrightarrow}&
-    Hom_{\mathbf{H}}( Disc \Gamma \mathbf{X}  , \mathbf{X})
-    \\
-    {}^{\mathllap{ Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma(f) )  }}
-    \big\downarrow
-    &&
-    \big\downarrow^{ \mathrlap{ Hom_{\mathbf{X}}( Disc \Gamma \mathbf{X}, f ) 
-} }
-    \\
-    Hom_{\mathbf{B}}( \Gamma \mathbf{X}, \Gamma \mathbf{Y} )
-    &\overset{ \widetilde{ (-) } }{\longleftarrow}&
-    Hom_{\mathbf{H}}( Disc \Gamma \mathbf{X}, \mathbf{Y} )
-  }
-  \phantom{AAAAA}
-  \array{
-     \{ \Gamma \mathbf{X} \overset{id_{\Gamma \mathbf{X}}}{\to} \Gamma \mathbf{X} \}
-     &\longrightarrow&
-     \{ Disc \Gamma \mathbf{X} \overset{\epsilon^{\flat}_X}{\to} \mathbf{X} \}
-     \\
-     \big\downarrow 
-       &&
-     \big\downarrow
-     \\
-     \{ \Gamma \mathbf{X} \overset{\Gamma(f)}{\to} \Gamma(\mathbf{Y}) \}
-     &\longleftarrow& \{ Disc \Gamma \mathbf{X} \overset{f\circ \epsilon^\flat_{\mathbf{X}}  }{\longrightarrow} \mathbf{Y}\}
-  }
-$$
-
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-
-Consider an [[adjoint quadruple]] of the form 
-
-$$
-  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
-  \;\;\colon\;\;
-  \mathbf{H}
-    \array{
-      \overset{\phantom{AA} \Pi \phantom{AA} }{\longrightarrow}
-      \\
-      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
-      \\
-      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
-      \\
-      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
-    }
-  \mathbf{B}
-$$
-
-(for instance a [[cohesive topos]] over some [[base topos]] $\mathbf{B}$).
-
-Then the following are equivalent:
-
-1. [[pieces have points]]: 
-
-   1. as seen in $\mathbf{B}$: For every [[object]] $X \in \mathbf{X}$ the [[points-to-pieces transform]] (Prop. \ref{PointsToPiecesTransform}) in $\mathbf{B}$ (eq:PointsToPiecesInTheBase) is an [[epimorphism]]:
+1. the [[right adjoint]] functor
 
    $$
-     ptp_{\mathbf{B}}
+     SmoothSet \longleftarrow SuperFormalSmoothSet
+   $$ 
+
+   exists as part of the [[adjoint quadruple]] which is induced ([this Example](geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple)) from the _[[composition|composite]]_ [[coreflective subcategory|coreflective inclusion]]
+
+   $$
+     CartSp
+     \array{
+       \overset{\phantom{A}\iota_{formal}\phantom{A}}{\hookrightarrow}
+       \\
+       \overset{\phantom{AA} \Re \phantom{AA}}{\longleftarrow} 
+       \\
+       \phantom{\overset{\phantom{AA} \Re \phantom{AA}}{\longleftarrow}}     
+     }
+     FormalCartSp
+     \array{
+       \overset{\phantom{A}\iota_{super}\phantom{A}}{\hookrightarrow}
+       \\
+       \overset{\phantom{AA} \Re \phantom{AA}}{\longleftarrow} 
+       \\
+       \phantom{\overset{\phantom{AA} \overset{\rightrightarrows}{(-)} \phantom{AA}}{\longleftarrow}}     
+     }
+     SuperFormalCartSp
+   $$
+
+   and using that composites of adjoints are adjoint, and that adjoints are unique, when they exist ([this prop.](geometry+of+physics+--+categories+and+toposes#UniquenessOfAdjoints))
+
+1. Notice that also [[SuperFormalCartSp]] is a [[cohesive site]]: since the [[coverage]] along the infinitesimal directions is [[trivial coverage|trivial]], while that along the finite directions is the same as that on [[CartSp]], this follows with the same [[proof]] as for [[CartSp]] ([this Prop.](geometry+of+physics+--+smooth+sets#SmoothSetsFormACohesiveTopos)). 
+
+   Moreover, the [[composition|composite]] 
+
+   $$
+     Disc_{SuperFormalSmoothSet}
      \;\colon\;
-     \Gamma X \overset{ epi }{\longrightarrow} \Pi X
+     Set 
+       \hookrightarrow 
+     SmoothSet 
+       \hookrightarrow 
+     FormalSmoothSet
+       \hookrightarrow 
+     SuperFormalSmoothSet
    $$
 
-   1. equivalently, as seen in $\mathbf{H}$: For every [[object]] $X \in \mathbf{X}$ the [[points-to-pieces transform]] (Prop. \ref{PointsToPiecesTransform}) in $\mathbf{H}$ (eq:PointsToPieces) is an [[epimorphism]]:
+   from the second row above equals the functor 
 
    $$
-     ptp_{\mathbf{H}}
-     \;\colon\;
-     \flat X \overset{ epi }{\longrightarrow} &#643; X
+     \array{
+        Set 
+          &\overset{Disc_{SuperFormalSmoothSet}}{\longrightarrow}&
+        SuperFormalSmoothSet
+        \\
+        S &\mapsto& const_S
+     }
    $$
 
-1. [[discrete objects are concrete]]: For every [[object]] $S \in \mathbf{B}$ the [[discrete object]] $Disc(S)$ is a [[concrete object]], in that the [[sharp modality|sharp]] [[adjunction counit]] on $Disc(S)$ is a [[monomorphism]]:
+   which is part of the [[adjoint quadruple]] of the [[cohesion]] of $SuperFormalSmoothSet$ (via [that Prop.](geometry+of+physics+--+smooth+sets#SmoothSetsFormACohesiveTopos))): This is because all these inclusion functors are [[right adjoints]], and hence [[preserved limit|preserve]] the [[terminal object]] $\ast$ ([this Prop.](geometry+of+physics+--+categories+and+toposes#LeftAdjointFunctorPreservesEpi)), but also [[left adjoints]], and hence [[preserved limit]] [[coproducts]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#AdjointsPreserveCoLimits)). This implies the claim because every [[set]] is a [[coproduct]] of [[generalized the|the]] [[singleton]], which is the [[terminal object]] in [[Set]]. 
+
+   This implies, again by uniqueness of adjoints ([this Prop.](geometry+of+physics+--+categories+and+toposes#UniquenessOfAdjoints)) that the composite functor $Set\longleftarrow SuperFormalSmoothSet$ from the previous item is in fact the functor $\Gamma_{SuperFormalSmoothSet}$ from the [[cohesive topos]]-structure on [[SuperFormalSmoothSet]] and hence, finally, that there is the bottom right adjoint 
 
    $$
-     \eta^\sharp_{Disc(S)}
-     \;\colon\;
-     Disc S
-       \overset{ mono }{\longrightarrow}
-     \sharp Disc S
-   $$
-   
-=--
+     coDisc_{SuperFormalSmoothSet} \;\colon\; Set \overset{\phantom{AA}}{\hookrightarrow} SuperFormalSmoothSet
+   $$ 
 
-+-- {: .proof}
-###### Proof
+   as claimed.
 
-First observe the equivalence of the first two statements:
+Finally, that every second functor is a [[full subcategory]]  inclusion (a [[fully faithful functor]]) as shown follows because
 
-$$
-  ptp_{\mathbf{H}} \;\; \text{is epi}
-  \phantom{AAA}
-  \text{iff}
-  \phantom{AAA}
-  ptp_{\mathbf{B}} \;\; \test{is epi}
-  \,.
-$$
+1. left Kan extension along [[fully faithful functors]] is itself fully faithful ([this prop.](Kan+extension#LeftKanExtensionBasicProp));
 
-In one direction, assume that $ptp_{\mathbf{B}}$ is an epimorphism. By (eq:PiecesToPointsFromBase) we have $ptp_{\mathbf{H}} = Disc(ptp_{\mathbf{B}})$, but $Disc$ is a [[left adjoint]] and left adjoints preserve monomorphisms.
-
-In the other direction, assume that $ptp_{\mathbf{H}}$ is an epimorphism. By (eq:PointsToPiecesInTheBase) and (eq:AdjunctOfptpH) we see that $ptp_{\mathbf{B}}$ is re-obtained from this by applying $\Gamma$ and then composition with isomorphisms. But $\Gamma$ is again a left adjoint, and hence preserves epimorphism, as does composition with isomorphisms.
-
-By applying (eq:PointsToPiecesInTheBase) again, we find in particular that _[[pieces have points]]_ is also equivalent to $\Pi \epsilon^\flat_{Disc S}$ being an epimorphism, for all $S \in \mathbf{B}$. But this is equivalent to
-
-$$
-  Hom_{\mathbf{B}}(\Pi \epsilon^\flat_{\mathbf{X}}, S)
-  =
-  Hom_{\mathbf{\mathbf{H}}}(\epsilon^\flat_{\mathbf{X}}, Disc(S))  
-$$
-
-being a [[monomorphism]] for all $S$ (by adjunction isomorphism and definition of [[epimorphism]]).
-
-Now by Lemma \ref{ReExpressingMiddleFunctorInAdjointTriple}, this is equivalent to
-
-$$
-  Hom_{\mathbf{H}}( \mathbf{X}, \eta^\sharp_{Disc(S)} )
-$$
-
-being a monomorphism, which is equivalent to $\eta^\sharp_{Disc(S)}$ being a monomorphism, hence to _[[discrete objects are concrete]]_.
-
+1. in an [[adjoint triple]] the leftmost adjoint is [[fully faithful functor|fully faithful]] precisely if the rightmost adjoint is ([this prop.](adjoint+triple#FullyFaithful)).
 
 =--
-
