@@ -257,7 +257,9 @@ Notice that this sort of [[canonicity]] does not yet imply [[computational effec
 
 It is also a *[[propositional equality|propositional]]* canonicity, as opposed to the [[judgmental equality|judgmental]] canonicity which many traditional [[type theories]] enjoy.  Another approach to canonicity for 1-truncated univalence can be found in ([Harper-Licata](#HarperLicata)), which involves modifying the type theory by adding more [[judgmental equalities]], resulting in a judgmental canonicity.  However, no [[algorithm]] for computing canonical forms has yet been given for this approach either.
 
-Another approach to solving canonicity is to build a model for [[homotopy type theory]] inside a theory which is known to be [[constructive mathematics|constructive]], such as ordinary (univalence-free) [[intensional type theory]].  Then one could induce canonicity, with an [[algorithm]], from the latter to the former.  This is the direction of the work of ([Coquand-Huber 13](#CoquandHuber13)), which models univalent [[homotopy type theory]] in [[constructive mathematics|constructive]] [[cubical sets]], or the truncated form in constructive truncated [[simplicial sets]].  One might also try to construct the Hoffman-Streicher groupoid model in a constructive framework; Awodey and Bauer have done some work in this direction with an [[predicative mathematics|impredicative]] [[universe]] of [[h-sets]].
+Canonicity has been proved for [[cubical type theory]].
+
+One might also try to construct the Hoffman-Streicher groupoid model in a constructive framework; Awodey and Bauer have done some work in this direction with an [[predicative mathematics|impredicative]] [[universe]] of [[h-sets]].
 
 ## Related concepts
 
