@@ -1,3 +1,5 @@
+[[!redirects reciprocal algebras]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -21,10 +23,6 @@ A **reciprocal algebra** is a possibly [[non-associative algebra]] $A$, typicall
 * $a (b c) = a$
 * $(b c) a = a$
 
-## Properties
-
-* Every commutative associative division algebra is a reciprocal algebra. 
-
 ## Examples
 
 * Every [[Cayley-Dickson algebra]] is a reciprocal algebra. Examples include the [[real numbers]] $\mathbb{R}$, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$, and the [[octonions]] $\mathbb{O}$. 
@@ -40,3 +38,4 @@ A **reciprocal algebra** is a possibly [[non-associative algebra]] $A$, typicall
 ## Related concepts
 
 * [[division algebra]]
+* [[reciprocal ring]]
