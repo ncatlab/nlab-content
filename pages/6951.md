@@ -189,7 +189,7 @@ For a philosophical assessment and comparison to ordinary Tarski semantics see
 
 A generalization to [[quantales]] is in
 
-* R. Goldblatt, _A Kripke-Joyal Semantics for Noncommutative Logic in Quantales_ , pp.209-225 in Governatori, Hodkinson, Venema (eds.), _Avances in Model Logic vol. 6_ , College Publications London 2006. ([draft](http://www.mcs.vuw.ac.nz/~rob/papers/aiml11printed.pdf))
+* R. Goldblatt, _A Kripke-Joyal Semantics for Noncommutative Logic in Quantales_ , pp.209-225 in Governatori, Hodkinson, Venema (eds.), _Advances in Model Logic vol. 6_ , College Publications London 2006. ([draft](http://www.mcs.vuw.ac.nz/~rob/papers/aiml11printed.pdf))
 
 
 [[!redirects Kripke model]]
