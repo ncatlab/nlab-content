@@ -316,9 +316,9 @@ The [[diffeological space]]-structure is at least implicit in
 
 motivated from the desire to realize the infinite dimensional groups that appear in [[geometric quantization]], such that (Hamiltonian) [[diffeomorphism group]] and their [[group extensions]] by [[quantomorphism groups]] as [[diffeological groups]].
 
-A detailed discusson of the relations of these and other variants of the definition is in
+A detailed discussion of the relations of these and other variants of the definition is in
 
-* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_ Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
+* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
 
 The article 
 
@@ -332,7 +332,7 @@ A textbook about [[differential geometry]] formulated in terms of diffeological 
  
 The term "diffeological space" originates here. The thesis
 
-* [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  PhD thesis (1985) [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf)
+* {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  PhD thesis (1985) ([pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf))
 
 contains some useful material that hasn't yet made it into the book. 
 
