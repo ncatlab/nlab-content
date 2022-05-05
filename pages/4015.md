@@ -60,7 +60,7 @@ In constructive mathematics, the fan theorem is equivalent to any and all of the
 *  As a topological space, the (located Dedekind) [[real line]] is [[locally compact space|locally compact]].
 *  Every [[uniformly continuous map|uniformly continuous]] function from Cantor space to the [[metric space]] $\dot{\mathbb{R}}^+$ of positive real numbers has a positive lower bound.
 *  Every [[uniformly continuous map|uniformly continuous]] function from the unit interval to $\dot{\mathbb{R}}^+$ has a positive lower bound.
-*  There exists a class of "kontinuous" [[partial functions]] from the set $\mathbb{R}$ of (located Dedekind) [[real numbers]] to itself (see Waaldijk) such that
+*  (This item might need dependent choice in order to be equivalent to the others.) There exists a class of "kontinuous" [[partial functions]] from the set $\mathbb{R}$ of (located Dedekind) [[real numbers]] to itself (see Waaldijk) such that
    *  the [[restriction]] of a kontinuous function to any smaller domain is kontinuous;
    *  the [[identity function]] on $\mathbb{R}$ is kontinuous;
    *  the [[composite]] of two kontinuous functions is kontinuous;
