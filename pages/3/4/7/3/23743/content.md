@@ -31,7 +31,7 @@ In [[type theory]], a [[setoid]] $(T, \equiv)$ is **stable** if for all $a:T$ an
 
 ## Properties 
 
-* Every stable setoid is a [[univalent setoid]], and thus a [[set]] with [[stable equality]]. 
+* Every stable setoid is a [[univalent setoid]], and thus a [[set]] (i.e. an [[h-set]]) with [[stable equality]]. 
 
 * Every stable setoid is a [[inequality space]]. 
 
