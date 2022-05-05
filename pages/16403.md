@@ -2811,6 +2811,8 @@ be a [[Quillen adjunction]] between them (Def. \ref{QuillenAdjunction}). Then th
 
 =--
 
+The main class of examples of [[Quillen reflections]] are [[left Bousfield localizations]], discussed as Prop. \ref{BasicPropertiesOfLectBousfieldLocalizations} below.
+
 +-- {: .num_prop #QuillenReflectionViaReflectionOfHomotopyCategories}
 ###### Proposition
 **(characterization of [[Quillen reflections]])**
@@ -13771,13 +13773,13 @@ The following concept of [[left Bousfield localization]] is the analog for [[mod
 ###### Definition
 **([[left Bousfield localization]])**
 
-A **[[left Bousfield localization of model categories|left Bousfield localization]]** $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ (Def. \ref{ModelCategory}) is another model category structure on the same underlying category with the same cofibrations,
+A **[[left Bousfield localization of model categories|left Bousfield localization]]** $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ (Def. \ref{ModelCategory}) is another model category structure on the same underlying category with the same [[cofibrations]],
 
 $$
   Cof_{loc} = Cof
 $$
 
-but more weak equivalences
+but more [[weak equivalences]]
 
 $$
   W_{loc} \supset W
@@ -13792,31 +13794,26 @@ Notice that:
 
 +-- {: .num_prop #BasicPropertiesOfLectBousfieldLocalizations}
 ###### Proposition
+**([[left Bousfield localization]] is [[Quillen reflection]])**
 
-Given a [[left Bousfield localization of model categories|left Bousfield localization]] $\mathcal{C}_{loc}$ of $\mathcal{C}$ as in def. \ref{BousfieldLocalizationOfModelCategories}, then
+Given a [[left Bousfield localization of model categories|left Bousfield localization]] $\mathcal{C}_{loc}$ of $\mathcal{C}$ as in def. \ref{BousfieldLocalizationOfModelCategories}, then the [[identity functor]] exhibits a [[Quillen reflection]] (Def. \ref{QuillenReflection})
 
-1. $Fib_{loc} \subset Fib$;
+$$
+  \mathcal{C}_{loc}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
+   \mathcal{C}
+   \,.
+ $$
 
-1. $W_{loc} \cap Fib_{loc} = W \cap Fib$;
-
-1. the identity functors constitute a [[Quillen adjunction]]
-
-   $$
-     \mathcal{C}_{loc}
-       \underoverset
-         {\underset{id}{\longrightarrow}}
-         {\overset{id}{\longleftarrow}}
-         {\bot}
-     \mathcal{C}
-     \,.
-   $$
-
-1. the induced adjunction of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}) exhibits a [[reflective subcategory]] inclusion of [[homotopy category of a model category|homotopy categories]] (Def. \ref{HomotopyCategoryOfAModelCategory})
+In particular, by Prop. \ref{QuillenReflectionViaReflectionOfHomotopyCategories}, the induced adjunction of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}) exhibits a [[reflective subcategory]] inclusion of [[homotopy category of a model category|homotopy categories]] (Def. \ref{HomotopyCategoryOfAModelCategory})
 
    $$
      Ho(\mathcal{C}_{loc})
        \underoverset
-         {\underset{\mathbb{R} id}{\longrightarrow}}
+         {\underset{\phantom{AA}\mathbb{R} id \phantom{AA}}{\hookrightarrow}}
          {\overset{\mathbb{L}id}{\longleftarrow}}
          {\bot}
      Ho(\mathcal{C})
@@ -13828,7 +13825,12 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
 +-- {: .proof}
 ###### Proof
 
-Regarding the first two items:
+We claim that
+
+1. $Fib_{loc} \subset Fib$;
+
+1. $W_{loc} \cap Fib_{loc} = W \cap Fib$;
+
 
 Using the properties of the [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) of (acyclic cofibrations, fibrations) and (cofibrations, acyclic fibrations) for both model structures we get
 
@@ -13863,16 +13865,62 @@ $$
  \,.
 $$
 
-Regarding the third point:
 
-By construction, $id \colon \mathcal{C} \to \mathcal{C}_{loc}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+Next to see that the [[identity functor]] constitutes a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}): By construction, $id \colon \mathcal{C} \to \mathcal{C}_{loc}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
 
-Regarding the fourth point:
+To see that the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit})  is a [[weak equialence]]:
 
-Since $Cof_{loc} = Cof$ the notion of [[left homotopy]] in $\mathcal{C}_{loc}$ is the same as that in $\mathcal{C}$, and hence the inclusion of the subcategory of local cofibrant-fibrant objects into the homotopy category of the original cofibrant-fibrant objects is clearly a full inclusion. Since $Fib_{loc} \subset Fib$ by the first statement, on these cofibrant-fibrant objects the [[right derived functor]] of the identity is just the identity and hence does exhibit this inclusion.
-The left adjoint to this inclusion is given by $\mathbb{L}id$, by the general properties of Quillen adjunctions ([prop](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)).
+Since we have an [[adjoint pair]] of [[identity functors]], the ordinary [[adjunction counit]] is the [[identity morphisms]] and hence the [[derived adjunction counit]] on a [[fibrant object]] $c$ is just a [[cofibrant resolution]]-morphism 
+
+$$
+  Q(c) \underoverset{ \in W_{\mathcal{D}} \cap Fib_{\mathcal{D}} }{p_c}{\longrightarrow} c
+$$
+
+but regarded in the model structure $\mathcal{D}_{loc}$. Hence it is sufficient to see that [[acyclic fibrations]] in $\mathcal{D}$ remain weak equivalences in the left Bousfield localized model structure. In fact they even remain acyclic fibrations, bu the first point above.
+
+We may also easily check directly the equivalent statement (via Prop. \ref{QuillenReflectionViaReflectionOfHomotopyCategories}) that the induced adjunction of [[derived functors]] on [[homotopy category of a model category|homotopy categories]] is a [[reflective subcategory]]-inclusion: 
+
+Since $Cof_{loc} = Cof$ the notion of [[left homotopy]] in $\mathcal{C}_{loc}$ is the same as that in $\mathcal{C}$, and hence the inclusion of the subcategory of local cofibrant-fibrant objects into the homotopy category of the original cofibrant-fibrant objects is clearly a [[full subcategory]] inclusion. Since $Fib_{loc} \subset Fib$ by the first statement above, on these cofibrant-fibrant objects the [[right derived functor]] of the identity is just the identity and hence does exhibit this inclusion.
+The left adjoint to this inclusion is given by $\mathbb{L}id$, by the general properties of Quillen adjunctions (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories})).
 
 =--
+
+
++-- {: .num_example #BousfieldLocalizationIsQuillenReflection}
+###### Example
+**([[left Bousfield localization]] is [[Quillen reflection]])**
+
+Let 
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We consider the case of [[left Bousfield localizations]], the other case is [[formal duality|formally dual]].
+
+A left Bousfield localization is a [[Quillen adjunction]] by [[identity functors]] ([this Remark](Bousfield+localization+of+model+categories#ImmediateImpiciationsOfLeftBousfieldLocalization))
+
+$$
+  \mathcal{D}_{loc}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {{}_{\phantom{Qu}} \bot_{Qu}}
+  \mathcal{D}
+$$
+
+This means that the ordinary [[adjunction counit]] is the [[identity morphisms]] and hence that the [[derived adjunction counit]] on a [[fibrant object]] $c$ is just a [[cofibrant resolution]]-morphism 
+
+$$
+  Q(c) \underoverset{ \in W_{\mathcal{D}} \cap Fib_{\mathcal{D}} }{p_c}{\longrightarrow} c
+$$
+
+but regarded in the model structure $\mathcal{D}_{loc}$. Hence it is sufficient to see that [[acyclic fibrations]] in $\mathcal{D}$ remain weak equivalences in the left Bousfield localized model structure. In fact they even remain acyclic fibrations, by [this Remark](Bousfield+localization+of+model+categories#ImmediateImpiciationsOfLeftBousfieldLocalization).
+
+=--
+
 
 The following proposition says that Definition \ref{CombinatorialModelCategory} of [[combinatorial model categories]] is indeed the suitable analog of Def. \ref{LocallyPresentableCategory} of [[locally presentable categories]]:
 
