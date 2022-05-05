@@ -27,7 +27,7 @@ In the context of [[Kaluza-Klein theory]] where an [[electromagnetic field]] in 
 
 This situation is of particular interest in the reduction of [[11-dimensional supergravity]] (or [[M-theory]], where one also speaks of the [[M-brane|MK6-brane]]) where the Kaluza-Klein magnetic monopole charge is interpreted as [[D6-brane]] charge under [[duality between M-theory and type IIA string theory]].
 
-The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the [[product]] $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with [[Minkowski spacetime]]. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name. (For discussion as an [[ADE-singularity]] see [Asano 00, section 3](#Asano00).)
+The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the [[product]] $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with [[Minkowski spacetime]]. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name. (For discussion as an [[ADE-singularity]] see [IMSY 98, section 9](#IMSY98), [Asano 00, section 3](#Asano00).)
 
 
 Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monopole / [[D6-brane]] completely [[wrapped brane|wrapping]] the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads to a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
@@ -140,6 +140,8 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 * {#Sen97a} [[Ashoke Sen]], _Kaluza-Klein Dyons in String Theory_, Phys.Rev.Lett.79:1619-1621,1997 ([arXiv:hep-th/9705212](http://arxiv.org/abs/hep-th/9705212))
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
+* {#IMSY98} Nissan Itzhaki, [[Juan Maldacena]], Jacob Sonnenschein, Shimon Yankielowicz, _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 1998 ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
 
 * {#Asano00} Masako Asano, _Compactification and Identification of Branes in the Kaluza-Klein monopole backgrounds_ ([arXiv:hep-th/0003241](https://arxiv.org/abs/hep-th/0003241))
 
