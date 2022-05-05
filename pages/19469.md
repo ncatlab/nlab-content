@@ -29,5 +29,5 @@ Note that the *morphisms* of $Adj(K)$ are the *objects* of $[Adj,K]$.
 
 * The morphisms in $Adj(Adj(K))$ are the [[adjoint triples]] in $K$.
 
-* The inclusion of $Mnd$, the free monad, in $Adj$ induces a 2-functor from $[Adj,K]$ to the 2-category $[Mnd,K]$ of monads in $K$. The adjoints to this 2-functor are the [[Kleisli category|Kleisli]] and [[Eilenberg-Moore category|Eilenberg-Moore]] constructions on monads in $K$.
+* The inclusion of $Mnd$, the free monad, in $Adj$ induces a 2-functor from $[Adj,K]$ to $[Mnd,K]$, the [2-category of monads](monad#the_bicategory_of_monads) in $K$. The adjoints to this 2-functor are the [[Kleisli category|Kleisli]] and [[Eilenberg-Moore category|Eilenberg-Moore]] constructions on monads in $K$.
 
