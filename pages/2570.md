@@ -180,6 +180,18 @@ It follows from these representations that the $V_i$ form a $\mathbb{Z}$-[[linea
 Analogous statements hold for each symmetric group $S_n$. 
 
 
+## Related entries
+
+* [[Hermite normal form]]
+
+* [[Smith normal form]]
+
+## References
+
+See also 
+
+* Wikipedia, _[Gram-Schmidt process](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process)_
+
 [[!redirects Gram–Schmidt process]]
 [[!redirects Gram--Schmidt process]]
 [[!redirects Gram-Schmidt]]
