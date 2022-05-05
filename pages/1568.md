@@ -184,12 +184,6 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 [[!redirects proper ideal]]
 [[!redirects proper ideals]]
 
-[[!redirects irreducible ideal]]
-[[!redirects irreducible ideals]]
-
-[[!redirects completely irreducible ideal]]
-[[!redirects completely irreducible ideals]]
-
 [[!redirects principal ideal]]
 [[!redirects principal ideals]]
 [[!redirects principal-ideal]]
