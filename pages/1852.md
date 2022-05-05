@@ -194,7 +194,7 @@ This example also shows that general subspaces of normal spaces need not be norm
 
 +-- {: .num_example} 
 ###### Counter-Example 
-An uncountable product of infinite discrete spaces $X$ is not normal. More generally, a product of $T_1$ spaces $X_i$ uncountably many of which are not [[limit point compact|limit point compact space]] is not normal. 
+An uncountable product of infinite discrete spaces $X$ is not normal. More generally, a product of $T_1$ spaces $X_i$ uncountably many of which are not [[limit point compact space|limit point compact]] is not normal. 
 
 Indeed, by a simple application of Remark \ref{retracts} below and the fact that closed subspaces of normal Hausdorff spaces are normal Hausdorff, it suffices to see that the archetypal example $\mathbb{N}^{\omega_1}$ is not normal. For a readable and not overly long account of this result, see [Dan Ma's blog](https://dantopology.wordpress.com/2009/10/13/the-uncountable-product-of-the-countable-discrete-space-is-not-normal/). 
 =-- 
