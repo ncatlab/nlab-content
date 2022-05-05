@@ -288,6 +288,8 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 
 ## Related concepts
 
+* [[orbifold cohomology]]
+
 * [[global equivariant stable homotopy theory]]
 
 [[!include equivariant homotopy theory -- table]]
@@ -300,9 +302,13 @@ The [[global orbit category]] $Orb$ is considered in
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
   
-Global unstable equivariant homotopy theory is discussed as a [[localization]] of the category of "orthogonal spaces" (the unstable version of [[orthogonal spectra]]) in chapter I of
+Global unstable equivariant homotopy theory is discussed as a [[localization]] of the category of "orthogonal spaces" (the unstable version of [[orthogonal spectra]]) in
 
-* {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+* {#Schwede13} [[Stefan Schwede]], chapter I of _[[Global homotopy theory]]_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+
+* {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
+
+* {#Schwede18} [[Stefan Schwede]], _Global homotopy theory_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 see also 
 
