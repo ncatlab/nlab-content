@@ -95,7 +95,7 @@ hence for all $g \in G$
 $$
   \chi_{\psi^n(V)}(g)
   \;=\;
-  \chi_V( g^k )
+  \chi_V( g^n )
 $$
 
 =--
