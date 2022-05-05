@@ -36,6 +36,10 @@ and this of course is natural in each of the separate arguments $x, y$. String d
 
 \[ \label{naturality} 1_{x, y} x^g = x^g 1_{x, y'}: x^{y'} \to x^y \]
 
++--{: style="text-align:center"}
+[[!include extranatural transformation > natural.svg]]
+=--
+
 Now, the [[adjunction]] between [[tensor product]] and internal hom allow us to "bend" the transformation into another: 
 
 $$eval_{x, y}: x^y \otimes y \to x$$ 
