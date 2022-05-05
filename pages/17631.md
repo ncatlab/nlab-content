@@ -8,15 +8,25 @@
 =--
 =--
 
-Catalan numbers are a specific sequence of nonnegative integers, here denoted $C_n$, with a ubiquitous combinatorial interpretations. In terms of [[binomial coefficient]]s,
+#Contents#
+* table of contents
+{:toc}
 
-$$C_n = \frac{1}{n+1}\binom{2 n}{n}$$
+
+## Idea
+
+Catalan numbers are a specific sequence of [[negative number|nonnegative]] [[integers]], here denoted $C_n$, with a ubiquitous [[combinatorics|combinatorial]] interpretations. In terms of [[binomial coefficients]] they are given by
+
+$$ 
+  C_n = \frac{1}{n+1}\binom{2 n}{n}
+  \,.
+$$
 
 The Catalan numbers $C_n$ count a myriad of different families of objects, including:
 
 * matching pairs of $n$ parentheses properly matched (also known as "Dyck words")
 
-* nonisomorphic ordered (planar) binary trees with $n$ internal vertices
+* nonisomorphic ordered (planar) binary [[trees]] with $n$ internal [[vertices]]
 
 * monotonic lattice paths in an $n\times n$ grid which do not cross below the diagonal, or equivalently, [[monotone functions]] $f : [n] \to [n]$ such that $x \le f(x)$ for all $0 \le x \le n$ (or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in the [[simplex category|simplex 2-category]] $\Delta$)
 
