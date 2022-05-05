@@ -24,6 +24,8 @@ By giving a semantics to formulas written in the [[higher-order logic|higher-ord
 
 Kripke-Joyal semantics provide rules and prescriptions for semantic interpretation for general toposes but these prescriptions may simplify for special classes of toposes e.g. the rules resulting for [[presheaf toposes]] over posets (when restricted to first-order formulas) correspond to the original notion of model for IPL considered by [[Saul Kripke|Kripke]] et al.
 
+There should be a version of Kripke-Joyal semantics for [[homotopy type theory]], as claimed [here](n-types%20cover#in_models). 
+
 ## Formulation
 
 Let $\mathcal{E}$ be an [[elementary topos]]. We will now specify the Kripke-Joyal semantics for formulas $\varphi$ in the [[Mitchell-Bénabou language]] of $\mathcal{E}$ restricting ourselves mainly to formulas $\varphi (x)$ with one free variable $x$ of type $X$. The straight forward generalization to the case with (less or) more free variables can be found in Johnstone ([1977](JT77)) or Borceux ([1994](#Borceux94)).
