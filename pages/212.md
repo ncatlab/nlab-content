@@ -1,4 +1,24 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 _Alg_ is the [[category]] with [[algebra|algebras]] as [[object|objects]] and algebra homomorphisms as [[morphism]]s.
@@ -27,6 +47,11 @@ to the category [[Bimod]], which sends algebra homomorphisms $f : A \to B$ to th
 
 * [[Mod]], [[2Mod]], [[nMod]]
 
+* [[Eilenberg-Moore category]]
+
 category: category
 
 [[!redirects Algebras]]
+
+[[!redirects category of algebras]]
+[[!redirects categories of algebras]]
