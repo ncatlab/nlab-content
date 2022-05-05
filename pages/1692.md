@@ -196,7 +196,7 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 
 For a categorification, see 
 
-* {#Shulman17}, _The 2-Chu Construction_, [blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
+* {#Shulman17} Mike Shulman, _The 2-Chu Construction_, ([blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
 
 category: category
 
