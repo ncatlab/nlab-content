@@ -15,7 +15,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints/Notes
 
-* _The construction of formal anafunctors_ (2018) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55)
+* _The construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55)
 
 * _Extending Whitney's extension theorem_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
