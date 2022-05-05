@@ -368,3 +368,5 @@ where it is attributed to [[Daniel Kan]].
 [[!redirects coYoneda lemma]]
 [[!redirects co-yoneda lemma]]
 [[!redirects coyoneda lemma]]
+
+[[!redirects enriched co-Yoneda lemma]]
