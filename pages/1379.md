@@ -35,6 +35,11 @@ A __[[large category]]__ is a [[category]] whose class of [[morphisms]] is a pro
 
 Category theorists care about proper classes because many examples of categories in practice (such as [[Set]], to begin with!) are large.
 
+## References
+
+A paper detailing one approach to the technical side of how classes appear in category theory is
+
+* {#Levy18} [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_, arXiv:[1801.08528](https://arxiv.org/abs/1801.08528)
 
 [[!redirects class]]
 [[!redirects classes]]
