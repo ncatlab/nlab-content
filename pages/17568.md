@@ -1,3 +1,5 @@
+[[!redirects Taylor Duypuy]]
+[[!redirects Taylor Duypuy]]
 
 
 * [webpage](http://www.uvm.edu/~tdupuy/)
