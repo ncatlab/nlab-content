@@ -30,7 +30,7 @@
 
 ## Idea
 
-There is a sensible [[theory (physics)|theory]] of [[supergravity]] in a total of 12 [[spacetime]] [[dimensions]]. Even though this requires an exotic non-[[Lorentzian signature]] of $(10,2)$ (hence with a "2-dimensional [[time]]") it has been argued that this is a better starting point for obtaining low-dimensional [[supergravity]] theory by [[KK-compactification]], since it yields some lower-dimensional theories that are missed when starting with [[11-dimensional supergravity]], notably [[type IIB supergravity]] in 10 dimensions, hence relates to [[F-theory]] as [[11-dimensional supergravity]] relates to [[M-theory]] (e.g. [Nishino 97b](#Nishino97b), [Hewson 97](#Hewson97)).
+There is a sensible [[theory (physics)|theory]] of [[supergravity]] in a total of 12 [[spacetime]] [[dimensions]]. Even though this requires an exotic non-[[Lorentzian signature]] of $(10,2)$ (hence with a "2-dimensional [[time]]") it has been argued that this is a better starting point for obtaining low-dimensional [[supergravity]] theory by [[KK-compactification]], since it yields some lower-dimensional theories that are missed when starting with [[11-dimensional supergravity]], notably [[type IIB supergravity]] in 10 dimensions, hence relates to [[F-theory]] as [[11-dimensional supergravity]] relates to [[M-theory]] (e.g. [Nishino 97b](#Nishino97b), [Hewson 97](#Hewson97)). (A theory in $(9,3)$ signature has also been proposed in ([Kriz 05](#Kriz05)).)
 
 It is an oft-repeated [[folklore]] that the highest number of [[spacetime]] [[dimensions]] for [[supergravity]] to make sense is 11, realized by [[11-dimensional supergravity]]. However, there are some assumptions that go into this conclusion. First of all, the argument goes that after [[KK-compactification]] to 4-dimensions there must not appear [[supermultiplets]] with [[mass]]-less fields of [[spin]] $\gt 2$, since another [[folklore]] argument states that [[quantum field theory]] in $3+1$ dimensions with fields of spin larger than 2 is inconsistent. 
 
@@ -92,6 +92,10 @@ See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPe
 * {#HewsonPerry96} S. F. Hewson, M. J. Perry, _The twelve dimensional super $(2+2)$-brane_, Nucl.Phys. B492 (1997) 249-277 ([arXiv:hep-th/9612008](https://arxiv.org/abs/hep-th/9612008))
 
 * [Nishino 97b](#Nishino97b)
+
+### On supergravity in $9 + 3$ dimensions
+
+* {#Kriz05} [[Igor Kriz]], _Some remarks on fundamental physical F-theory_, ([arXiv:hep-th/0508046](https://arxiv.org/abs/hep-th/0508046))
 
 [[!redirects 12d supergravity]]
 
