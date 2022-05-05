@@ -1536,52 +1536,6 @@ Notice that, at this point, $[\mathcal{C}, \mathcal{D}]$ is a plain [[category]]
 
 =--
 
-+-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
-###### Definition
-**([[tensoring]] and [[powering]] of [[enriched presheaves]])**
-
-Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, \mathcal{V}]$ its [[functor category]] of [[enriched functors]] (Example \ref{CategoryOfEnrichedFunctors}).
-
-1. Define a [[functor]]
-
-   $$
-     (-)\cdot(-)
-       \;\colon\;
-     [\mathcal{C}, \mathcal{V}] \times \mathcal{V}
-      \longrightarrow
-     [\mathcal{C}, \mathcal{V}]
-   $$
-
-   by forming objectwise [[tensor products]]
-
-   $$
-     F \cdot X \;\colon\; c \mapsto F(c) \otimes X
-     \,.
-   $$
-
-   This is called the **[[tensoring]]** of $[\mathcal{C}, \mathcal{V}]$ over $\mathcal{V}$.
-
-1. Define a functor
-
-   $$
-     (-)^{(-)}
-       \;\colon\;
-     \mathcal{V}^{op} \times [\mathcal{C}, \mathcal{V}]
-       \longrightarrow
-     [\mathcal{C}, \mathcal{V}]
-   $$
-
-   by forming objectwise [[internal homs]] (Def. \ref{ClosedMonoidalCategory})
-
-   $$
-     F^X \;\colon\; c \mapsto [X,F(c)]
-     \,.
-   $$
-
-   This is called the **[[powering]]** of $[\mathcal{C}, \mathcal{V}]$ over $\mathcal{V}$.
-
-
-=--
 
 There is now the following evident generalization of the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) from plain [[category theory]] to [[enriched category theory]]:
 
