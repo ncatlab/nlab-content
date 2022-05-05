@@ -15087,8 +15087,9 @@ $\,$
 
 The following is the direct analog of Def. \ref{ModalOperator}, with the [[bijections]] of [[hom-sets]] (eq:ModalityUnitPrecomposition) and (eq:CoModalityCoUnitPostcomposition) replaced by weak equivalences of [[derived hom-spaces]] (Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory})
 
-+-- {: .num_defn}
++-- {: .num_defn #DerivedModalOperator}
 ###### Definition
+**(derived [[modal operators]])**
 
 Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
 
@@ -15178,6 +15179,338 @@ Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelC
 
 
 
++-- {: .num_lemma #CompositeDerivedFunctorsOfQuillenAdjointTriple}
+###### Lemma
+**(composite [[derived functors]] of [[Quillen adjoint triple]])**
+
+Consider a [[Quillen adjoint triple]]
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+    }
+  \mathcal{D}
+  \phantom{AA}\text{or}\phantom{AA}
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+    }
+  \mathcal{D}
+$$ 
+
+and assume that $C$ is a left and right Quillen functor for both model structures $\mathcal{C}_1$, $\mathcal{C}_2$.
+
+Then 
+
+1. the composite [[derived functor]]
+
+   $$
+     \bigcirc_L
+     \;\coloneqq\;
+     \mathbb{R}C \circ \mathbb{L} L
+   $$
+
+   is equivalent to $\mathbb{L}(C \circ L)$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[cofibrant objects]];
+
+1. the composite [[derived functor]]
+
+   $$
+     \Box_R 
+     \;\coloneqq\;
+     \mathbb{L} C\circ \mathbb{R} R
+   $$
+
+   is equivalent to $\mathbb{R}(C \circ R)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[fibrant objects]]l;
+
+1. on [[cofibrant objects]] the composite [[derived functor]] 
+
+   $$
+     \Box_L 
+     \;\coloneqq\;
+     \mathbb{L} L \circ \mathbb{R} C
+   $$
+
+   is equivalent to $\mathbb{R}(L \circ C)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[cofibrant objects]];
+
+1. on [[fibrant objects]] the composite [[derived functor]] 
+
+   $$
+     \bigcirc_R
+       \;\coloneqq\; 
+     \mathbb{R}_2 R \circ \mathbb{L}_2 C
+     \;\;
+   $$ 
+   
+   is equivalent to $\mathbb{L}_2( R \circ C )$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[fibrant objects]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+In the first two cases, the assumption on $C$ means that it takes the resolution weak equivalence to a weak equivalence, so that it may be omitted, up to isomorphism in the [[homotopy category of a model category|homotopy category]].
+
+In the second two cases, the assumption on $C$ implies that the result of applying $C$ is already (co-)fibrant in the relevant model structure, so that the following resolution morphism may be taken to be the identity morphism.
+
+In the following we make this proof more explicit. We will denote [[cofibrant resolutions]] by
+
+$$
+  \emptyset 
+    \underoverset{\phantom{A}\in Cof\phantom{A}}{i_X}{\longrightarrow} 
+  Q X 
+    \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} 
+  X
+$$ 
+
+and [[fibrant resolutions]] by 
+
+$$
+  X 
+    \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} 
+  P X 
+    \underoverset{\phantom{A} \in Fib \phantom{A}}{q_X}{\longrightarrow} 
+  \ast
+$$ 
+
+(as in [this Def.](geometry+of+physics+--+categories+and+toposes#FibrantCofibrantReplacementFunctorToHomotopyCategory)).
+
+Consider the first claim, for the situation on the left.
+
+A priori, the full derived functor is given by
+
+$$
+  \mathbb{R} C \circ \mathbb{L}_1L (c)
+  \;=\;
+  C P L Q_1 (c)
+$$
+
+The comparison morphism is
+
+$$
+  C L Q_1(c) \overset{ C (j_{L Q(c)}) }{\longrightarrow} C P L Q_1(c)
+$$
+
+where $j_{L Q(c)}$ exhibits [[fibrant resolution]] in $\mathcal{D}$ and hence is an [[acyclic cofibration]] in $\mathcal{D}$.
+
+Therefore, since $C$ is also a left Quillen functor with respect to $\mathcal{C}_1$, the comparison morphism $C\left(j_{L Q(c)}\right)$ is an acyclic cofibration in $\mathcal{C}_1$, hence in particular a [[weak equivalence]] in $\mathcal{C}_1$. 
+
+Since the [[derived adjunction unit]] on $Q_1(c)$ is the composition of the plain [[adjunction unit]] with this comparison morphism the claim follows.
+
+For the second claim, for the situation on the left:
+
+A priori, the full derived functor is given by
+
+$$
+  \mathbb{L}_2 C\circ \mathbb{R}_2 R (c)
+  \;\simeq\;
+  C Q R P_2 (c)
+  \,.
+$$
+
+The comparison morphism is 
+
+$$
+  C Q R P_2 (c)
+    \overset{ C\left( p_{R P_2(c)}  \right) }{\longrightarrow}
+  C R P_2 (c)
+$$
+
+Here $p_{R P_2(c)}$ is an [[acyclic fibration]]  in $\mathcal{D}$. Since $C$ is also a [[right Quillen functor]] with respect to $\mathcal{C}_2$, the comparison morphism $C\left( p_{R P_2(c)} \right)$ is an [[acyclic fibration]] in $\mathcal{C}_1$, hence in particular a [[weak equivalence]] in $\mathcal{C}_2$. 
+
+Since the [[derived adjunction counit]] on $P_2(c)$ is the composition of the plain [[adjunction counit]] with this comparison morphism the claim follows.
+
+Consider the third claim, for the situation on the left:
+
+A priori, the composite derived functor is
+
+$$
+  \mathbb{L} L \circ \mathbb{R} C (d)
+  \;\simeq\;
+  L Q_1  C P (d)
+  \,.
+$$
+
+The comparison morphism is of the form
+
+$$
+  L Q_1  C P (d)  
+    \overset{ L((p_1)_{C P (d)}) }{\longrightarrow}
+  L C P (d)  
+  \,.
+$$
+
+But since $d$ is assumed to be cofibrant, so is $P(d)$ and since $C$ is assumed to be left Quillen for $\mathcal{C}_1$, also $C P(d)$ is cofibrant in $\mathcal{C}_1$. Therefore the comparison morphism may be taken to be the identity.
+
+Consider the fourth claim, for the situation on the left:
+
+A priori, the composite derived functor is
+
+$$
+  \mathbb{R} R\circ \mathbb{L} C (d)
+  \;\simeq\;
+  R P_2 C Q (d)
+$$
+
+The comparison morphism is
+
+$$
+  R C Q (d)
+    \overset{ R\left( (j_2)_{C Q (d)} \right) }{\longrightarrow}
+  R P_2 C Q (d)
+  \,.
+$$
+
+But since $d$ is assumed to be fibrant, and since $C$ is assumed to be right Quillen with respect to $\mathbb{C}_2$, also $C Q (d)$ is fibrant in $\mathcal{C}_2$, and hence we may take the comparison morphism to be the identity.
+
+Consider the first claim, for the siuation on the right:
+
+A priori, the composite derived functor is
+
+$$
+  \mathbb{R}C  \circ \mathbb{L}L (d)
+  \;\simeq\;
+  C P_2 L Q(d)
+  \,.
+$$
+
+The comparison morphism is
+
+$$
+  C L Q(d)
+    \overset{ C\left( (j_2)_{L Q(d)} \right) }{\longrightarrow}
+  C P_2 L Q(d)
+$$
+
+where $(j_2)_{L Q(d)}$ is an [[acyclic cofibration]] in $\mathcal{C}_2$. But since $C$ is assumed to be a left Quillen functor with respect to $\mathcal{C}_2$, also the comparison morphism is an acyclic cofibration in $\mathcal{C}_2$, hence in particular a weak equivalence.
+
+And so forth.
+
+=--
+
+
+
++-- {: .num_prop #DerivedModalityFromQuillenAdjointTriple}
+###### Proposition
+**(derived modality from [[Quillen adjoint triple]])**
+
+
+Consider a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple})
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  \mathcal{D}
+  \phantom{AAA}
+  \text{or}
+  \phantom{AA}
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+      \\
+    }
+  \mathcal{D}
+$$ 
+
+such that the functor $C$ is left and right Quillen with respect to both $\mathcal{C}_1$ and $\mathcal{C}_2$.
+
+1. If $C$ is a [[fully faithful functor]], consider the composite [[derived functors]]
+
+   $$
+     \bigcirc_L \;\coloneqq\;
+     \mathbb{R} C \circ \mathbb{L} L
+     \phantom{AAA}
+     \Box_R \;\coloneqq\;
+     \mathbb{L} C \circ \mathbb{R} R
+   $$
+
+   1. $\bigcirc_L$ equipped with the [[derived adjunction unit]] is a derived [[modal operator]] (Def. \ref{DerivedModalOperator}): the map on [[derived hom-spaces]] given by precomposition with the [[derived adjunction unit]]
+
+      $$
+        \mathbb{R}hom(\bigcirc_L X, C Y)
+        \longrightarrow 
+        \mathbb{R}hom( X, C Y ) 
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$;
+
+
+   1. $\Box_R$ equipped with the [[derived adjunction counit]] is a derived [[modal operator]] (Def. \ref{DerivedModalOperator}): the map on [[derived hom-functors]] given by postcomposition with the [[derived adjunction counit]]
+
+      $$
+        \mathbb{R}hom( C Y, X ) 
+         \longrightarrow
+        \mathbb{R}hom(C Y, \Box_R X)
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$.
+
+1. If $L$ and $R$ are [[fully faithful functors]] write
+
+
+   $$
+     \Box_L \;\coloneqq\;
+     \mathbb{L} L\circ \mathbb{R} C
+     \phantom{AAA}
+     \bigcirc_R \;\coloneqq\;
+     \mathbb{R} R \circ \mathbb{L} C
+   $$
+
+   for the composite derived functors
+
+   Then for every [[fibrant and cofibrant object]] $Y$ we have: 
+
+   1. $\bigcirc_R$ equipped with the [[derived adjunction unit]] is a derived [[modal operator]] (Def. \ref{DerivedModalOperator}): the map on [[derived hom-spaces]] given by precomposition with the [[derived adjunction unit]]
+
+      $$
+        \mathbb{R}hom(\bigcirc_R X, C Y)
+        \longrightarrow 
+        \mathbb{R}hom( X, C Y) 
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$;
+
+
+   1. $\Box_L$ equipped with the [[derived adjunction counit]] is a derived [[modal operator]] (Def. \ref{DerivedModalOperator}): the map on [[derived hom-spaces]] given by postcomposition with the [[derived adjunction counit]]
+
+      $$
+        \mathbb{R}hom( C Y, X ) 
+         \longrightarrow
+        \mathbb{R}hom(C Y, \Box_L X)
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By Lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple}, the [[derived adjunction unit|derived adjunction (co-)unit]] in each case is the plain [[adjunction unit|adjunction (co-)unit]], up to weak equivalence. Hence the statement follows with the corresponding statement for (co-)reflective subcategories.
+
+=--
 
 
 
