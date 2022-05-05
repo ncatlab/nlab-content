@@ -68,7 +68,7 @@ Then given a morphism $U \overset{i}{\longrightarrow} X$ we have
 1. $i$ being an [[embedding]] means (by [this Discussion](subspace+topology#UniversalProperty)) that the comparison morphism
 
    $$
-      U \longrightarrow X \times_{\sharp X} \sharp X
+      U \longrightarrow X \times_{\sharp X} \sharp U
    $$
 
    is an [[equivalence in an (infinity,1)-category|equivalence]].
