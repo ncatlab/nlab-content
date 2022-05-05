@@ -110,7 +110,7 @@ $$
   \array{
     L(c_1) &\overset{f}{\longrightarrow}& d_1
     \\
-    {}^{\mathllap{L(g)}}\uparrow && \downarrow^{\mathrlap{h}}
+    {}^{\mathllap{L(g)}}\big\uparrow && \big\downarrow^{\mathrlap{h}}
     \\
     L(c_2) && d_2
   }
@@ -119,7 +119,7 @@ $$
   \array{
     c_1 &\overset{\widetilde f}{\longrightarrow}& R(d_1)
     \\
-    {}^{\mathllap{g}}\uparrow && \downarrow^{\mathrlap{R(h)}}
+    {}^{\mathllap{g}}\big\uparrow && \big\downarrow^{\mathrlap{R(h)}}
     \\
     c_2 && R(d_2)
   }
@@ -438,45 +438,194 @@ $$
 
 
 ### In terms of representable functors
+ {#InTermsOfRepresentableFunctors}
+
+The condition (eq:HomIsomorphismForAdjointFunctors) on adjoint functors $L \dashv R$ in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} implies in particular that for every [[object]] $d \in \mathcal{D}$ the functor $Hom_{\mathcal{D}}(L(-),d)$ is a _[[representable functor]]_ with _[[representing object]]_ $R(d)$. The following Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} observes that the existence of such [[representing objects]] for all $d$ is, in fact, already sufficient to imply that there is a right adjoint functor.
+
+This equivalent perspective on adjoint functors makes manifest that:
+
+1. adjoint functors are, if they exist, unique up to natural isomorphism, this is Prop. \ref{UniquenessOfAdjoints} below;
+
+1. the concept of adjoint functors makes sense also _[[relative adjoint functor|relative]]_ to a [[full subcategory]] on which representing objects exists, this is the content of Remark \ref{RelativeAdjointFunctors} below.
+
 
 #### Global definition
 
-A functor $L:C\to D$ has a right adjoint if and only if for all $d$, the [[presheaf]] $Hom_D(L(-),d):C^{op}\to Set$ is [[representable functor|representable]], i.e. there exists an object $R(d)$ and a natural isomorphism
-$$Hom_D(L(-),d) \cong Hom_C(-,R(d)).$$
-There is then a unique way to define $R$ on arrows so as to make these isomorphisms natural in $d$ as well.
++-- {: .num_prop #AdjointFunctorFromObjectwiseRepresentingObject}
+###### Proposition
+**(adjoint functor from objectwise [[representing object]])**
 
-In more fancy language, by precomposition $L$ defines a functor
+A [[functor]] $L \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ has a [[right adjoint]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, already if 
+for all [[objects]] $d \in \mathcal{D}$ there is an object $R(d) \in \mathcal{C}$ such that there is a [[natural isomorphism]]
+
+   $$ 
+     Hom_{\mathcal{D}}(L(-),d)
+     \underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}
+     Hom_{\mathcal{C}}(-,R(d))
+     \,,
+   $$
+
+   hence for each [[object]] $c \in \mathcal{C}$ a [[bijection]]
+
+   $$
+     Hom_{\mathcal{D}}(L(c),d)
+     \underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}
+     Hom_{\mathcal{C}}(c,R(d))
+   $$
+
+   such that for each [[morphism]] $g \;\colon\; c_2 \to c_1$, the following [[commuting diagram|diagram commutes]]
+
+   \[
+     \label{HalfNaturalitySquareForAdjointnessOfFunctors}
+     \array{
+       Hom_{\mathcal{D}}(L(c_1),d)
+         &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(c_1,R(d))
+       \\
+       {}^{\mathllap{ Hom_{\mathcal{C}}(L(g),id_d) }}
+       \big\downarrow 
+       &&
+       \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( f, id_{R(d)}  ) }}
+       \\
+       Hom_{\mathcal{D}}(L(c_2),d)
+         &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(c_2,R(d))
+     }
+   \]
+
+   (This is as in (eq:NaturalitySquareForAdjointnessOfFunctors), except that only naturality in the first variable is required.)
+
+In this case there is a unique way to extend $R$ from a function on [[objects]] to a function on [[morphisms]] such as to make it a [[functor]] $R \colon \mathcal{D} \to \mathcal{C}$ which is [[right adjoint]] to $L$.
+, and hence the statement is that with this, naturality in the second variable is already implied.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that 
+
+1. in the language of [[presheaves]] the assumption is that for each $d \in \mathcal{D}$ the presheaf 
+
+   $$
+     Hom_{\mathcal{D}}(L(-),d)
+     \;\in\;
+     [\mathcal{D}^{op}, Set]
+   $$
+
+   is [[representable functor|represented]] by the object $R(d)$, and [[natural transformation|naturally]] so. 
+
+1. In terms of the [[Yoneda embedding]]
+
+   $$
+     y 
+       \;\colon\;
+     \mathcal{D}
+      \hookrightarrow
+     [\mathcal{D}^{op}, Set]
+   $$ 
+
+   we have 
+
+   \[
+     \label{YonedanotationForRepresentable}
+     Hom_{\mathcal{C}}(-,R(d))
+     =
+     y(R(d))
+   \]
+
+
+
+The condition (eq:NaturalitySquareForAdjointnessOfFunctors) says equivalently that $R$ has to be such that for all [[morphisms]] $h \;\colon\; d_1 \to d_2 $ the following diagram in the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ [[commuting diagram|commutes]]
+
 $$
-  L^* : [D^{op}, Set] \to [C^{op}, Set]
+  \array{
+    Hom_{\mathcal{D}}(L(-),d_1)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-,R(d_1))
+    \\
+    {}^{\mathllap{ Hom_{\mathcal{C}}( L(-) , h ) }}
+    \big\downarrow 
+    &&
+    \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( -, R(h)  ) }}
+    \\
+    Hom_{\mathcal{D}}(L(-),d_2)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-, R(d_2))
+  }
 $$
-of [[presheaf]] categories. By restriction along the [[Yoneda embedding]] $Y : D \to [D^{op}, Set]$ this yields the functor
+
+This manifestly has a unique solution 
+
 $$
- \bar L : D \stackrel{Y}{\to}
-  [D^{op}, Set] \stackrel{L^*}{\to}
-  [C^{op}, Set]
+  y(R(h))
+  \;=\;
+  Hom_{\mathcal{C}}(-,R(h))
+$$ 
+
+for every morphism $h \colon d_1 \to d_2$ under  $y(R(-))$ (eq:YonedanotationForRepresentable). But the [[Yoneda embedding]] $y$ is a [[fully faithful functor]] ([this prop.](Yoneda+embedding#YonedaEmbeddingIsFullyFaithful)), which means that thereby also $R(h)$ is uniquely fixed.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In more fancy language, the statement of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} is the following:
+
+By precomposition $L$ defines a functor of [[presheaf categories]]
+
+$$
+  L^* \;\colon\; [\mathcal{D}^{op}, Set] \to [\mathcal{C}^{op}, Set]
+  \,.
+$$
+
+By [[restriction]] along the [[Yoneda embedding]] $y \;\colon\; \mathcal{D} \to [\mathcal{D}^{op}, Set]$ this yields the functor
+
+$$
+  \bar L 
+  \;\colon\; 
+  \array{
+    \mathcal{D} 
+      &\overset{y}{\longrightarrow}&
+    [\mathcal{D}^{op}, Set] 
+      &\overset{L^*}{\longrightarrow}&
+    [\mathcal{C}^{op}, Set]
+    \\
+    d 
+      &\mapsto& 
+    Hom_{\mathcal{D}}(-,d)
+      &\mapsto&
+    Hom_{\mathcal{D}}(L(-),d)
+ }
  \,.
 $$
-such that
+
+The statement is that for all $d \in D$ this presheaf $\bar L(d)$ is [[representable functor|representable]], then it is functorially so in that there exists a functor $R \colon \mathcal{D} \to \mathcal{C}$ such that
+
 $$
-  \bar L : d \mapsto Hom_D(L(-),d) \in [C^{op}, Set]
+  \bar L \;\simeq\; y \circ R
   \,.
 $$
-If for all $d \in D$ this presheaf $\bar L(d)$ is [[representable functor|representable]], then it is functorially so in that there exists a functor $R : D \to C$ such that
-$$
-  \bar L \simeq Y \circ R
-  \,.
-$$
+
+=--
+
 
 #### Local definition 
  {#LocalDefinition}
 
-This definition has the advantage that it yields useful information even if the adjoint functor $R$ does not exist globally, i.e. as a functor on all of $D$:
++-- {: .num_remark #RelativeAdjointFunctors}
+###### Remark
+**([[relative adjoint functors]])**
 
-it may happen that
+The perspective of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} has the advantage that it yields useful information even if the adjoint functor $R$ does not exist globally, i.e. as a functor on all of $\mathcal{D}$:
+
+It may happen that
+
 $$
-  \bar L(d) := Hom_D(L(-),d) \in [C^{op}, Set]
+  \bar L(d) \coloneqq Hom_D(L(-),d) \in [C^{op}, Set]
 $$
-is [[representable functor|representable]] for _some_ $d$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it can be viewed as a right adjoint to $L$ _relative to_ the inclusion of the full subcategory determined by those $d$s for which $\bar L(d)$ is representable; see [[relative adjoint functor]] for more.
+
+is [[representable functor|representable]] for _some_ [[object]] $d \in \mathcal{D}$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it may be viewed as a right adjoint to $L$ _relative to_ the inclusion of the [[full subcategory]] determined by those $d$s for which $\bar L(d)$ is representable; see [[relative adjoint functor]] for more.
 
 This _global_ versus _local_ evaluation of adjoint functors induces the global/local pictures of the definitions
 
@@ -486,74 +635,118 @@ This _global_ versus _local_ evaluation of adjoint functors induces the global/l
 
 as discussed there.
 
+=--
 
-### In terms of universal arrows / universal factorization through unit and counit {#UniversalArrows}
 
-Given $R : D\to C$, and $c\in C$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  That is, it consists of an object $L(c)\in D$ and a morphism $i_c : c\to R(L(c))$ -- the unit -- such that for any $d\in D$, any morphism $f : c\to R(d)$ factors through the unit $i_c$ as 
+### In terms of universal factorization through a (co)unit
+ {#UniversalArrows}
+
+We have seen in Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit} that the [[unit of an adjunction]] and [[counit of an adjunction]] plays a special role. One may amplify this by characterizing these morphisms as _[[universal arrows]]_ in the sense of the following Def. \ref{UniversalArrow}. In fact the existence of these is already equivalent to the existence of an adjoint functor, this is the statement of Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} below.
+
+$\,$
+
++-- {: .num_defn #UniversalArrow}
+###### Definition
+**(universal arrow)**
+
+Given a [[functor]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, and and object $c\in \mathcal{C}$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  This means that it consists of 
+
+1. an [[object]] $L(c)\in \mathcal{D}$ 
+
+1. a [[morphism]] $\eta_c \;\colon\; c \to R(L(c))$, to be called the _[[adjunction unit|unit]]_,
+
+such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors through the unit $\eta_c$ as 
+
+\[
+  \label{UniversalArrowFactorization}
+  \array{
+    && c 
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R(L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d)
+    \\
+    \\
+    L(c) &&\underset{ \widetilde f}{\longrightarrow}&& d
+  }
+\]
+
+for a unique $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the [[adjunct]] of $f$.  
+
+=--
+
+
++-- {: .num_prop #CollectionOfUniversalArrowsEquivalentToAdjointFunctor}
+###### Proposition
+**(collection of [[universal arrows]] equivalent to [[adjoint functor]])**
+
+Let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]]. Then the following are equivalent:
+
+1. $R$ has a [[left adjoint]] functor $L \colon \mathcal{C} \to \mathcal{D}$ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets},
+
+1. for every object $c \in \mathcal{C}$ there is a universal arrow $c \overset{\eta_c}{\longrightarrow} R(L(c))$, according to Def. \ref{UniversalArrow}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume a [[left adjoint]] $L$ is given. Define the would-be universal arrow at $c \in \mathcal{C}$ to be the [[unit of an adjunction|unit of the adjunction]] $\eta_c$ via Def. \ref{AdjunctionUnitFromHomIsomorphism}. Then the statement that this really is a universal arrow is implied by Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+In the other direction, assume that universal arrows $\eta_c$ are given. The uniqueness clause in Def. \ref{UniversalArrow} immediately implies  [[bijections]] 
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(c),d) 
+      &\overset{\simeq}{\longrightarrow}& 
+    Hom_{\mathcal{C}}(c,R(d))
+    \\
+    \left( 
+      L(c) \overset{\widetilde f}{\to} d
+    \right)
+      &\mapsto&
+    \left(
+      c \overset{\eta_c}{\to} R(L(c)) \overset{ R(\widetilde f) }{\to} R(d)
+    \right)
+  }
+$$
+
+Hence to satisfy (eq:HomIsomorphismForAdjointFunctors) it remains to show that these are [[natural transformation|natural]] in both variables. In fact, by Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} it is sufficient to show naturality in the variable $d$. But this is immediate from the functoriality of $R$ applied in (eq:UniversalArrowFactorization): For $h \colon d_1 \to d_2$ any [[morphism]], we have
 
 $$
   \array{
     && c 
     \\
-    & {}^{\mathllap{i_c}}\swarrow && \searrow^{\mathrlap{f}}
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
     \\
-    R L c &&\underset{R \widetilde f}{\to}&& R d
+    R (L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d_1)
     \\
+    && {}_{\mathllap{ R( h\circ \widetilde f ) }}\searrow && \downarrow^{\mathrlap{R(h)}}
     \\
-    L c &&\underset{ \widetilde f}{\to}&& d
+    && && R(d_2)
   }
 $$
 
-for a unique $\tilde f:L(c)\to d$ -- the [[adjunct]] of $f$.  
 
-In particular, we have a bijection
+=--
 
-$$
-  Hom_C(c,R(d)) \cong Hom_D(L(c),d)
-$$
++-- {: .num_example}
+###### Example
+**([[localization]] via [[universal arrows]])**
 
-which it is easy to see is [[natural isomorphism|natural]] in $d$.  Again, in this case there is a unique way to make $L$ into a functor so that this isomorphism is natural in $c$ as well.
-
-Note that this definition is simply obtained by applying the [[Yoneda lemma]] to the definition in terms of representable functors.
-
-
-To derive this characterization starting with a natural hom-isomorphism $Hom_{C}(L(-),-) \stackrel{\simeq}{\to} Hom_D(-,R(-))$ let $\tilde f : L c \to d$ be the image of $f : c \to R d$ under the bijection $Hom_C(c, R d) \stackrel{\simeq}{\to} Hom_D(L c, d)$ and consider the naturality square
+The characterization of adjoint functors in terms of universal factorizations through the unit and counit (Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}) is of particular interest in the case that $R$ is a [[full and faithful functor]] 
 
 $$
-  \array{
-    c , L c &&&& Hom_D(L c, L c) &\stackrel{\simeq}{\to}& Hom_C(c, R L c)
-    \\
-    \uparrow^{\mathrlap{Id}}, \downarrow^\mathrlap{\tilde f} 
-    &&&&
-    \downarrow && \downarrow^{\mathrlap{R (\tilde f)\circ(-) }}
-    \\
-    c, d
-    &&&&
-    Hom_D(L c, d) &\stackrel{\simeq}{\to}& Hom_C(c, R d)
-  }
-  \,.
+  R \;\colon\;
+  \mathcal{D} \hookrightarrow \mathcal{C}
 $$
 
-Let also the unit $i_c : c \to R L c$ be the image of the [[identity]] $Id_{L c}$ under the hom-isomorphism and chase this identity through the commuting diagram to obtain
-
-$$
-  \array{
-    (L c \stackrel{Id_{L c}}{\to} L c) &\mapsto& 
-     (c \stackrel{i_x}{\to} R L c)
-    \\
-    \downarrow && \downarrow
-    \\
-    (L c \stackrel{\tilde f}{\to} d) &\mapsto& 
-    (f : c \stackrel{i_c}{\to} R L c \stackrel{R \tilde f}{\to} R d) 
-  }
-  \,.
-$$
-
-**Example** This definition in terms of universal factorizations through the unit and counit is of particular interest in the case that $R$ is a [[full and faithful functor]] exhibiting $D$ as a [[reflective subcategory]] of $C$. In this case we may think of $L$ as a [[localization]] and of objects in the essental image of $R$ as **local objects**. Then the above says that:
+exhibiting $\mathcal{D}$ as a [[reflective subcategory]] of $\mathcal{C}$. In this case we may think of $L$ as a [[localization]] and of objects in the [[essential image]] of $L$ as **local objects**. Then the above says that:
 
 * every morphism $c \to R d$ from $c$ into a local object factors throught the localization of  $c$.
 
-
+=--
 
 
 ### In terms of cographs/correspondences/heteromorphisms
@@ -630,39 +823,6 @@ where the downwards arrows are the maps induced by the projections of the comma 
 This diagram can be recovered directly from the image under the equivalence $[C^{op} \times D, Set] \stackrel{\simeq}{\to} DFib(D,C) $ described at [[2-sided fibration]] of the isomorphism of induced [[profunctors]] $C^{op} \times D \to Set$ (see above at "In terms of Hom isomorphism"). Its relation to the hom-set definition of adjoint functors can thus be understood within the general paradigm of [[Grothendieck construction]]-like correspondences.
 
 
-### For $(\infty,1)$-functors 
-
-
-The above characterization of adjoint functors in terms of categories over the interval is used in section 5.2.2 of
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
-(motivated from the discussion of correspondences in section 2.3.1) 
-
-to give a definition of adjunction between [[(infinity,1)-functors]]. 
-
-+-- {: .un_defn}
-###### Definition
-
-Let $C$ and $D$ be [[quasi-category|quasi-categories]]. 
-An **adjunction** between $C$ and $D$ is 
-
-* a morphism of [[simplicial sets]] $K \to \Delta^1$
-
-* which is
-
-  * a [[Cartesian fibration]]
-
-  * a [[coCartesian fibration]]
-
-* such that $C \simeq K_{0}$ and $D\simeq K_{1}$.
-
-=--
-
-For more on this see 
-
-* [[adjoint (∞,1)-functor]].
-
 
 ### in terms of Kan extensions/liftings
 
@@ -692,6 +852,8 @@ or, in terms of left Kan liftings:
 
 The formulations in terms of liftings generalize to [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
 
+
+
 ## Properties
  {#Properties}
 
@@ -700,11 +862,41 @@ The formulations in terms of liftings generalize to [[relative adjoint|relative 
 
 +-- {: .num_prop #UniquenessOfAdjoints}
 ###### Proposition
+**([[adjoint functors]] are unique up to [[natural isomorphism]])**
 
-If a functor $R$ has a [[left adjoint]] $L$, then $L$ is unique up to unique [[isomorphism]]. 
+The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), if it exists, is unique up to  [[natural isomorphism]].
 
-If a functor $L$ has a [[right adjoint]] $R$, then $R$ is unique up to unique [[isomorphism]]. 
+=--
 
++-- {: .proof}
+###### Proof
+
+Suppose the functor $L \colon \mathcal{D} \to \mathcal{C}$ is given, and we are asking for uniqueness of its right adjoint, if it exists. The other case is directly analogous.
+
+Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]
+
+$$
+  \Phi_d
+  \;\colon\;
+  Hom_{\mathcal{C}}(-,R_1(d))
+  \;\simeq\;
+  Hom_{\mathcal{C}}(-,R_2(d))
+$$
+
+As in the proof of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject}, the [[Yoneda lemma]] implies that 
+
+$$
+  \Phi_d \;=\; y( \phi_d )
+$$
+
+for some [[isomorphism]]
+
+$$
+  \phi_d \;\colon\;  R_1(d) \overset{\simeq}{\to} R_2(d)
+  \,.
+$$
+
+But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} implies that the collection of these isomorphisms for each object constitues a [[natural isomorphism]] between the functors.
 
 =--
 
@@ -712,37 +904,38 @@ If a functor $L$ has a [[right adjoint]] $R$, then $R$ is unique up to unique [[
 ###### Proposition
 **([[left adjoints preserve colimits and right adjoints preserve limits]])**
 
-Let $(L \dashv R) : D \to C$ be a pair of adjoint functors. Then
+Let $(L \dashv R) \colon \mathcal{D} \to \mathcal{C}$ be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then
 
-* $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, 
+* $L$ [[preserved limit|preserves]] all [[colimits]] that exist in $\mathcal{C}$, 
 
-* $R$ preserves all [[limits]] in $D$.  
+* $R$ preserves all [[limits]] in $\mathcal{D}$.  
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $y : I \to D$ be a [[diagram]] whose [[limit]] $\lim_{\leftarrow_i} y_i$ exists. Then we have a sequence of [[natural isomorphism]]s, natural in $x \in C$
+Let $y : I \to \mathcal{D}$ be a [[diagram]] whose [[limit]] $\lim_{\leftarrow_i} y_i$ exists. Then we have a sequence of [[natural isomorphism]]s, natural in $x \in C$
 
 $$
   \begin{aligned}
-    C(x, R {\lim_\leftarrow}_i y_i)
+    Hom_{\mathcal{C}}(x, R {\lim_\leftarrow}_i y_i)
     &  \simeq
-    D(L x, {\lim_\leftarrow}_i y_i)
+    Hom_{\mathcal{D}}(L x, {\lim_\leftarrow}_i y_i)
     \\
     & \simeq
-    {\lim_\leftarrow}_i D(L x, y_i)
+    {\lim_\leftarrow}_i Hom_{\mathcal{D}}(L x, y_i)
     \\
     & \simeq
-    {\lim_\leftarrow}_i C( x, R y_i)
+    {\lim_\leftarrow}_i Hom_{\mathcal{C}}( x, R y_i)
     \\  
     & \simeq
-    C( x, {\lim_\leftarrow}_i R y_i)
+    Hom_{\mathcal{C}}( x, {\lim_\leftarrow}_i R y_i)
     \,,
   \end{aligned}
 $$
-where we used the adjunction isomorphism and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implies that we have an [[isomorphism]]
+
+where we used the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implies that we have an [[isomorphism]]
 
 $$
   R {\lim_\leftarrow}_i y_i
@@ -755,10 +948,10 @@ The argument that shows the preservation of colimits by $L$ is analogous.
 
 =--
 
-+-- {: .num_note #AdjointFunctorTheorem}
-###### Note
++-- {: .num_remark #AdjointFunctorTheorem}
+###### Remark
 
-A partial converse to this fact is provided by the [[adjoint functor theorem]]. See also _[PointwiseExpression](#PointwiseExpression)_ below.
+A partial converse to Prop. \ref{AdjointsPreserveCoLimits} is provided by the [[adjoint functor theorem]]. See also _[Pointwise Expression](#PointwiseExpression)_ below.
 
 =--
 
@@ -766,7 +959,7 @@ A partial converse to this fact is provided by the [[adjoint functor theorem]]. 
 ###### Proposition
 
 
-Let $L \dashv R$ be a pair of adjoint functors. Then the following holds:
+Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following holds:
 
 * $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $;
 
@@ -1048,7 +1241,7 @@ Keeping that in mind, we do list some special cases and special classes of examp
   
   [[biadjunction]], [[lax 2-adjunction]], [[pseudoadjunction]]
 
-* [[adjoint (infinity,1)-functor]]
+* [[adjoint (∞,1)-functor]]
 
 * [[(∞,n)-category with adjoints]]
 
