@@ -1886,6 +1886,7 @@ For the same reason, the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
 is a _[[super Lie algebra]]_ with _symmetric_ super Lie bracket:
 
 
+
 $$
   \left\{
      \left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
