@@ -26,8 +26,11 @@ Confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)).
 ## Possible realizations
 
 ### In $\mathcal{N}=2$ super Yang-Mills theory via Seiberg-Wittern theory
+  {#InN2SYM}
 
-While confinement in plain [[Yang-Mills theory]] is still waiting for mathematical formalization and [[proof]] (see [Jaffe-Witten](#JaffeWitten)), there is a variant of [[Yang-Mills theory]] with more [[symmetry]] where the phenomenon has been demonstrated, namely in [[N=2 D=4 super Yang-Mills theory]] ([Seiberg-Witten 94](#SeibergWitten94)).
+While confinement in plain [[Yang-Mills theory]] is still waiting for mathematical formalization and [[proof]] (see [Jaffe-Witten](#JaffeWitten)), there is a variant of [[Yang-Mills theory]] with more [[symmetry]], namely [[supersymmetry]], where the phenomenon has been giving a decent argument, namely in [[N=2 D=4 super Yang-Mills theory]] ([Seiberg-Witten 94](#SeibergWitten94)). 
+
+Also a strategy for a proof for [[N=1 D=4 super Yang-Mills theory]] has been proposed, see [below](#ForN1SYMViaMTheoryOnG2Manifolds).
 
 ### In $\mathcal{N} = 1$ super Yang-Mills theory via M-theory on $G_2$-manifolds
  {#ForN1SYMViaMTheoryOnG2Manifolds}
@@ -65,7 +68,7 @@ Now the lore of [[M-theory on G2-manifolds]] predicts that [[KK-compactification
 
 So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
 
-But is there were an argument that [[M-theory on G2-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
+But if there were an argument that [[M-theory on G2-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
 
 This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). An argument that this equivalence is indeed the case is then provided in sections 6.1-6.4, based on an argument in [Atiyah-Maldacena-Vafa 00](#AtiyahMaldacenaVafa00) 
 
