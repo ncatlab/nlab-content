@@ -1744,6 +1744,7 @@ Here the logical implications are equivalently functions between [[sets]] that a
 
 +-- {: .num_example}
 ###### Example
+**([[discrete topological space|discrete]] and [[codiscrete topological spaces]])**
 
 Consider the "[[forgetful functor]]" $Top \overset{U}{\longrightarrow} Set$ from the [[category]] [[Top]] of [[topological spaces]] (Example \ref{ExamplesOfConcreteCategories}) to the [[category of sets]] (Def. \ref{CategoryOfSets}) which sends every [[topological space]] to its underlying [[set]].
 
@@ -1777,9 +1778,124 @@ $$
 
 =--
 
++-- {: .num_example #ReExpressingMiddleFunctorInAdjointTriple}
+###### Example
+
+Consider an [[adjoint triple]] (Remark \ref{AdjointTriples})
+
+$$
+  L \dashv C \dashv R
+  \;\;\colon\;\;
+  \mathcal{C}
+    \array{
+      \overset{\phantom{AA} L \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AAA} C \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} R \phantom{AA} }{\longleftarrow}
+    }
+  \mathcal{D}
+$$
+
+Then application of the [[functor]] $C$ on any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ is equal both to the operations of
+
+1. [[composition|pre-composition]] with the $(L \dashv C)$-[[adjunction counit]] $\epsilon^\flat_{X}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the  $(L \dashv C)$-[[adjunct]];
+
+1. [[composition|post-composition]] with the $(C \dashv R)$-[[adjunction unit]] $\eta^{ \sharp }_{Y}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the $(C \dashv R)$-[[adjunct]]:
+
+\[
+  \label{PostcompositionWithEtaAsGamma}
+  \widetilde{\eta^\sharp_{Y} \circ (-)}
+  \;=\;
+  C_{X, Y}
+  \;=\;
+  \widetilde{ (-) \circ \epsilon^\flat_{X} }
+  \,.
+\]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first equality, consider the following [[naturality square]] (eq:Naturality) for the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors):
+
+$$
+  \array{
+    Hom_{\mathcal{D}}( C Y , C Y )
+    &\overset{\widetilde {(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}( Y, R C Y )
+    \\
+    {}^{\mathllap{ Hom_{\mathcal{D}}(C(f), C Y) }}
+    \big\downarrow
+    &&
+    \!\!\!\!\!
+    \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( f, R C Y ) }}
+    \\
+    Hom_{\mathcal{D}}( C X, C Y )
+    &\overset{\widetilde{ (-) }}{\longleftarrow}&
+    Hom_{\mathcal{C}}( X, R C Y )
+  }
+  \phantom{AAAAA}
+  \array{
+    \{ C Y \overset{id_{C Y}}{\to} C Y\}
+    &\longrightarrow&
+    \{ Y \overset{\eta^\sharp_{Y}}{\to} R C Y \}
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    \{ C X \overset{C(f)}{\to} C Y \}
+    &\longleftarrow&
+    \{ X \overset{\eta^\sharp_{Y} \circ f}{\longrightarrow} R C Y \}
+  }
+$$
+
+Chasing the [[identity morphism]] $id_{C Y}$ through this diagram, yields the claimed equality, as shown on the right. Here we use that the right [[adjunct]] of the [[identity morphism]] is the [[adjunction unit]], as shown.
+
+The second equality is [[formal duality|fomally dual]]:
+
+$$
+  \array{
+    Hom_{\mathcal{D}}( C X, C X)
+    &\overset{\widetilde { (-) }}{\longrightarrow}&
+    Hom_{\mathcal{C}}( L C X  , X)
+    \\
+    {}^{\mathllap{ Hom_{\mathcal{D}}( C X, C(f) )  }}
+    \big\downarrow
+    &&
+    \big\downarrow^{ \mathrlap{ Hom_{X}( L C X, f )
+} }
+    \\
+    Hom_{\mathcal{D}}( C X, C Y )
+    &\overset{ \widetilde{ (-) } }{\longleftarrow}&
+    Hom_{\mathcal{C}    }( L C X, Y )
+  }
+  \phantom{AAAAA}
+  \array{
+     \{ C X \overset{id_{C X}}{\to} C X \}
+     &\longrightarrow&
+     \{ L C X \overset{\epsilon^{\flat}_X}{\to} X \}
+     \\
+     \big\downarrow
+       &&
+     \big\downarrow
+     \\
+     \{ C X \overset{C(f)}{\to} C(Y) \}
+     &\longleftarrow& \{ L C X \overset{f\circ \epsilon^\flat_{X}  }{\longrightarrow} Y\}
+  }
+$$
+
+=--
+
+
+
 $\,$
 
-We now consider a sequence of equivalent reformulations of the condition of adjointness.
+$\,$
+
+We now consider a **sequence of equivalent reformulations** of the condition of adjointness.
 
 +-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
 ###### Proposition
@@ -1984,7 +2100,7 @@ are an [[adjoint pair]] in the sense that there is a [[natural isomorphism]] (eq
      \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
    $$
 
-2. which satisfy the [[triangle identities]]
+2. which satisfy the _[[triangle identities]]_
 
    $$
       id_{L(c)}
@@ -2527,7 +2643,7 @@ The proof of the other statements proceeds analogously.
 
 +-- {: .num_prop #LeftAdjointFunctorPreservesEpi}
 ###### Proposition
-**(right/left [[adjoint functors]] preserve [[monomorphissm]]/[[epimorphjisms]] and [[terminal object|terminal]]/[[initial objects]])**
+**(right/left [[adjoint functors]] preserve [[monomorphism]]/[[epimorphisms]] and [[terminal object|terminal]]/[[initial objects]])**
 
 Every [[right adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
 
@@ -3150,35 +3266,411 @@ For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), w
 ###### Definition
 **([[adjoint modality]])**
 
-Let $L \;\dashv\; C \;\dashv\; R $ be an [[adjoint triple]] (Remark \ref{AdjointTriples}) such that $L$ and $R$ are [[fully faithful functors]] (necessarily bothm by Prop. \ref{FullyFaithfulAdjointTriple}). Then, by Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, there are induced [[modal operators]]
+Let 
 
 $$
-  \bigcirc \;\coloneqq\; L \circ C
+  L \;\dashv\; C \;\dashv\; R
+  \;\colon\;
+  \mathcal{C}
+    \array{
+      \overset{\phantom{A} L \phantom{A}}{\hookleftarrow}
+      \\
+      \overset{\phantom{A} C \phantom{A}}{\longrightarrow}
+      \\
+      \overset{\phantom{A} R \phantom{A}}{\hookleftarrow}
+    }
+  \mathcal{D}
+$$ 
+
+be an [[adjoint triple]] (Remark \ref{AdjointTriples}) such that $L$ and $R$ are [[fully faithful functors]] (necessarily both, by Prop. \ref{FullyFaithfulAdjointTriple}). By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, there are induced [[modal operators]]
+
+$$
+  \Box \;\coloneqq\; L \circ C
   \phantom{AA}
-  \Box \;\coloneqq\; R \circ C
+  \bigcirc \;\coloneqq\; R \circ C
 $$
 
 which themselves form am [[adjoint pair]]
 
 $$
-  \bigcirc \;\dashv\; \Box
+  \Box \;\dashv\; \bigcirc
   \,,
 $$
 
-hence called an _[[adjoint modality]]_. The [[adjunction unit]] and [[adjunction counit]] as in (eq:AdjointTriples) may now be read as exhibiting each object $X$ in the [[domain]] of $C$ as "in between the opposite extremes of its $\bigcirc$-modal aspect and its $\Box$-modal aspect"
+hence called an _[[adjoint modality]]_. The [[adjunction unit]] and [[adjunction counit]] as in (eq:OppositeExtremesAdjointTriple) may now be read as exhibiting each object $X$ in the [[domain]] of $C$ as "in between the opposite extremes of its $\bigcirc$-modal aspect and its $\Box$-modal aspect"
 
 $$
-  \bigcirc X
-    \overset{\phantom{AA}\epsilon^\bigcirc_X \phantom{AA}}{\longrightarrow}
-  X
-    \overset{\phantom{AA}\eta^{\Box}_X\phantom{AA}}{\longrightarrow}
   \Box X
+    \overset{\phantom{AA}\epsilon^\Box_X \phantom{AA}}{\longrightarrow}
+  X
+    \overset{\phantom{AA}\eta^{\bigcirc}_X\phantom{AA}}{\longrightarrow}
+  \bigcirc X
   \,.
 $$
 
 A [[formal duality|formally dual]] situation (Example \ref{OppositeCategory}) arises when $C$ is [[fully faithful functor|fully faithful]].
 
+
+$$
+  L \;\dashv\; C \;\dashv\; R
+  \;\colon\;
+  \mathcal{C}
+    \array{
+      \overset{\phantom{A} L \phantom{A}}{\longrightarrow}
+      \\
+      \overset{\phantom{A} C \phantom{A}}{\hookleftarrow}
+      \\
+      \overset{\phantom{A} R \phantom{A}}{\longrightarrow}
+    }
+  \mathcal{D}
+$$ 
+
+with
+
+$$
+  \left(
+    \bigcirc \;\coloneqq\; C \circ L
+  \right)
+  \;\dashv\;
+  \left(
+    \Box \;\coloneqq\; C \circ R
+  \right)
+$$
+
+and canonical [[natural transformation]] between opposite extreme aspects given by
+
+\[
+   \label{OppositeExtrmeComparison}
+   \Box X 
+     \overset{ \phantom{AA} \epsilon^{\Box}_X \phantom{AA} }{\longrightarrow}
+   X
+    \overset{ \phantom{AA} \eta^{\bigcirc}_X \phantom{AA} }{\longrightarrow}
+   \bigcirc X
+\]
+
 =--
+
+In order to analyze (in Prop. \ref{ComparisonMorphismBetweenOppositeExtremes}  below) the comparison morphism of opposite extreme aspects (eq:OppositeExtrmeComparison) induced by an [[adjoint modality]] (Def. \ref{AdjointModality}), we need the following technical Lemma:
+
+
++-- {: .num_lemma #CoincidenceOfTransformsForAdjointTriple}
+###### Lemma
+
+Let
+
+$$
+  \mathcal{C}
+    \array{
+      \overset{ \phantom{A} L \phantom{A} }{\longrightarrow}
+      \\
+      \overset{ \phantom{A} C \phantom{A} }{\hookleftarrow}
+      \\
+      \overset{ \phantom{A} R \phantom{A} }{ \longrightarrow }
+    }
+  \mathcal{D}
+$$
+
+be an [[adjoint triple]] with induced [[adjoint modality]] (Def. \ref{AdjointModality}) to be denoted
+
+$$
+  \left( \Box \;\coloneqq\; C \circ R\right)
+  \;\dashv\;
+  \left(
+    \bigcirc \;\coloneqq\; C \circ L
+  \right)
+$$
+
+Denoting the [[adjunction units]]/[[adjunction counit|counits]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) as
+
+| $\phantom{A}$ [[adjunction]] $\phantom{A}$ | $\phantom{A}$ [[adjunction unit|unit]] $\phantom{A}$ | $\phantom{A}$ [[adjunction counit|counit]] $\phantom{A}$ |
+|----------|-----------|----------|
+| $\phantom{A}$ $(L \dashv C)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{\bigcirc}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{\bigcirc}$ $\phantom{A}$ |
+| $\phantom{A}$ $(C \dashv R)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\Box$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\Box$ $\phantom{A}$ |
+{: style='margin:auto}
+
+we have that the following [[composition|composites]] of unit/counit components are equal:
+
+\[
+  \label{CoincidenceOfNaturalTransformationsForAdjointTriple}
+  \left(
+    \eta^{\Box}_{L X}
+  \right)
+  \circ
+  \left(
+    L \epsilon^\Box_X
+  \right)
+  \;\;=\;\;
+  \left(
+    R \eta^{\bigcirc}_{X}
+  \right)
+  \circ
+  \left(
+    \epsilon^{\bigcirc}_{R X}
+  \right)
+  \phantom{AAAAAA}
+  \array{
+    L C R X
+    &\overset{\epsilon^{\bigcirc}_{R X}}{\longrightarrow}&
+    R X
+    \\
+    {}^{ \mathllap{ L \epsilon^\Box_X } }\big\downarrow
+    &&
+       \big\downarrow^{\mathrlap { R \eta^{\bigcirc}_{X} } }
+    \\
+    L X
+    &\underset{ \eta^\Box_{L X} }{\longrightarrow}&
+    R C L X
+  }
+\]
+
+=--
+
+([Johnstone 11, lemma 2.1](adjoint+quadruple#Johnstone11))
+
++-- {: .proof}
+###### Proof
+
+We claim that the following [[commuting diagram|diagram commutes]] (Def. \ref{CommutingDiagram}):
+
+$$
+  \array{
+    && && R X
+    \\
+    && & {}^{ \epsilon^\bigcirc_{R X} }\nearrow
+    && \searrow^{\mathrlap{ R \eta^{\bigcirc}_X }}
+    \\
+    && L C R X
+    && && R C L X
+    \\
+    & {}^{ L \epsilon^\Box_X }\swarrow
+    && \searrow^{ \mathrlap{ L C R \eta^{\bigcirc}_X } }
+    && {}^{\mathllap{ \eta^{\bigcirc}_{R C L X} }}\nearrow
+    && \nwarrow^{ \mathrlap{ \eta^{\Box}_{L X} } }
+    \\
+    L X
+    && && L C R C L X
+    && && L X
+    \\
+    & {}_{\mathllap{ L \eta^{\bigcirc}_X }}\searrow
+    && {}^{\mathllap{iso}}\swarrow_{\mathrlap{ L \epsilon^{\Box}_{C L X} }}
+    && {}_{\mathllap{ L C \eta^\Box_{L X} }}\nwarrow^{\mathrlap{iso}}
+    && \nearrow_{\mathrlap{ \epsilon^{\bigcirc}_{L X} }}
+    \\
+    && L C L X
+    && \underset{id_{L C L X}}{\longleftarrow}  &&
+    L C L X
+  }
+$$
+
+This commutes, because:
+
+1. the left square is the image under $L$ of [[naturality square|naturality]] (eq:Naturality) for $\epsilon^\Box$ on $\eta^{\bigcirc}_X$;
+
+1. the top square is [[naturality square|naturality]] (eq:Naturality) for $\epsilon^{\bigcirc}$ on $R \eta^{\bigcirc}_X$;
+
+1. the right square is [[naturality square|naturality]] (eq:Naturality) for $\epsilon^{\bigcirc}$ on $\eta^{\Box}_{L X}$;
+
+1. the bottom commuting triangle is the image under $L$ of the [[triangle identity]] (eq:TriangleIdentities) for $(C \dashv R)$ on $L X$.
+
+Moreover, notice that
+
+1. the total bottom composite is the [[identity morphism]] $id_{L X}$, due to the [[triangle identity]] (eq:TriangleIdentities) for $(C \dashv R)$;
+
+1. also the other two morphisms in the bottom triangle are [[isomorphisms]], as shown, due to the [[idempotent monad|idempoency]] of the $(C-R)$-adjunction (Prop. \ref{ModalOpIdempotent}.)
+
+Therefore the total composite from $L C R X \to R/ C L X$ along the bottom part of the diagram equals the left hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple), while the composite along the top part of the diagram clearly equals the right hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple).
+
+
+=--
+
+
++-- {: .num_prop #ComparisonMorphismBetweenOppositeExtremes}
+###### Proposition
+**(comparison transformation between opposite extremes of [[adjoint modality]])**
+
+Consider an [[adjoint triple]] of the form 
+
+$$
+  L \dashv C \dashv R 
+  \;\;\colon\;\;
+  \mathcal{C}
+    \array{
+      \overset{\phantom{AA} L \phantom{AA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} C \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} R \phantom{AAA} }{\longrightarrow}
+    }
+  \mathcal{B}
+$$
+
+with induced [[adjoint modality]] (Def. \ref{AdjointModality}) to be denoted
+
+$$
+  \left( 
+    \Box \;\coloneqq\; C \circ R 
+  \right)
+  \;\dashv\;
+  \left(
+    \bigcirc \;\coloneqq\; C \circ L 
+  \right)
+$$
+
+Denoting the [[adjunction units]]/[[adjunction counit|counits]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) as
+
+| $\phantom{A}$ [[adjunction]] $\phantom{A}$ | $\phantom{A}$ [[adjunction unit|unit]] $\phantom{A}$ | $\phantom{A}$ [[adjunction counit|counit]] $\phantom{A}$ |
+|----------|-----------|----------|
+| $\phantom{A}$ $(L \dashv C)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{\bigcirc}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{\bigcirc}$ $\phantom{A}$ |
+| $\phantom{A}$ $(C \dashv E)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\Box$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\Box$ $\phantom{A}$ |
+{: style='margin:auto}
+
+
+Then for all $X \in \mathcal{C}$ the following two [[natural transformations]], constructed from the [[adjunction units]]/[[adjunction counit|counits]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) and their [[inverse morphisms]] (using [[idempotent monad|idempotency]], Prop. \ref{ModalOpIdempotent}), are equal:
+
+\[
+  \label{PointsToPiecesInTheBase}
+  comp_{\mathcal{B}}
+  \;\;\coloneqq\;\;
+  \left(
+    L \epsilon^\Box_X
+  \right)
+  \circ
+  \left(
+    \eta^{\bigcirc}_{R X}
+  \right)^{-1}
+  \;\;=\;\;
+  \left(
+    \eta^\Box_{L X}
+  \right)^{-1}
+  \circ
+  \left(
+    \Gamma \eta^{\bigcirc}_X
+  \right)
+  \phantom{AAAAAAA}
+  \array{
+    \Gamma X 
+    & \overset{
+       \Gamma \eta^{\bigcirc}_X
+   }{\longrightarrow} & 
+   R C L X
+   \\
+   {}^{ \mathllap{
+      \left(
+       \eta^{\bigcirc}_{R X}
+     \right)^{-1}    
+   } }\big\downarrow 
+     & \searrow^{ { comp_{\mathcal{B}} }  } & 
+   \big\downarrow^{ \mathrlap{  
+     \left(
+       \eta^\Box_{L X}
+     \right)^{-1}
+   } }
+   \\ 
+   L C R X
+   &\underset{ 
+    L \epsilon^\Box_X
+    }{\longrightarrow}&
+   L X
+  }
+\]
+
+Moreover, the image of these morphisms under $C$ equals the following composite:
+
+\[
+  \label{PointsToPieces}
+  comp_{\mathcal{C}}
+  \;\colon\;
+  \Box X 
+    \overset{ \phantom{A} \epsilon^{\Box}_X \phantom{A} }{\longrightarrow}
+  X
+    \overset{ \phantom{A} \eta^{\bigcirc}_X \phantom{A} }{\longrightarrow}
+  \bigcirc X
+  \,,
+\]
+
+hence
+
+\[
+  \label{PiecesToPointsFromBase}
+  comp_{\mathcal{C}} \;=\; C(comp_{\mathcal{B}})
+  \,.
+\]
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The first statement follows directly from Lemma \ref{CoincidenceOfTransformsForAdjointTriple}.
+
+For the second statement, notice that the $(C \dashv R)$-[[adjunct]] (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) of
+
+$$
+  comp_{\mathcal{C}}
+    \;\colon\;
+  C R X 
+    \overset{ \phantom{A} \epsilon^{\Box}_X \phantom{A} }{\longrightarrow}
+  X
+    \overset{ \phantom{A} \eta^{\bigcirc}_X \phantom{A} }{\longrightarrow}
+  C L X
+$$
+
+is
+
+\[
+  \label{AdjunctOfptpH}
+  \widetilde{ comp_{\mathcal{C}} }
+  \;\;=\;\;
+  \underset{
+    = id_{R X}
+  }{
+  \underbrace{
+    \Gamma X
+      \underoverset{iso}{ \phantom{A} \eta^{\Box}_{R X} \phantom{A} }{ \longrightarrow }
+    R C R X 
+      \underoverset{iso}{ \phantom{A} \Gamma \epsilon^{\Box}_X \phantom{A} }{\longrightarrow}
+    R X
+  }}
+      \overset{ \phantom{A} R \eta^{\bigcirc}_X \phantom{A}  }{\longrightarrow}
+    R C L X
+  \,,
+\]
+
+where under the braces we uses the [[triangle identity]] (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat}). 
+
+(As a side remark, for later usage, we observe that the morphisms on the left in (eq:AdjunctOfptpH) are [[isomorphisms]], as shown, by [[idempotent monad|idempotency]] of the adjunctions.)  
+
+From this we obtain the following [[commuting diagram]]:
+
+$$
+  \array{
+    C R X
+      &\overset{ \phantom{A} C R \eta^{\bigcirc}_X \phantom{A} }{\longrightarrow}&
+    C R C L X
+      &\underoverset{iso}{ \phantom{A} C \left(\eta^{ \Box }_{L X}\right)^{-1} \phantom{A} }{ \longrightarrow }&
+    C L X
+    \\
+    &{}_{\mathllap{ comp_{\mathcal{C}} }}\searrow&
+    {}^{ \mathllap{ \epsilon^{\Box}_{C L X} } }
+    \big\downarrow^{\mathrlap{\simeq}}
+     & 
+    \nearrow_{\mathrlap{id_{L X}}}
+    \\
+    && C L X
+  }
+$$
+
+Here:
+
+1. on the left we identified $\widetilde {\widetilde {comp_{\mathcal{C}}}} \;=\;  comp_{\mathcal{C}}$ by applying the formula (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) for $(C \dashv R)$-[[adjuncts]] to $\widetilde {comp_{\mathcal{C}}} = R \eta^{\bigcirc}_X$ (eq:AdjunctOfptpH);
+
+1. on the right we used the [[triangle identity]] (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) for $(C \dashv R)$.
+
+This proves the second statement.
+
+=--
+
 
 
 +-- {: .num_defn #PreorderOnModalities}
