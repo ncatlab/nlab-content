@@ -47,6 +47,8 @@ See at _[[zero object]]_ for examples.
 
 ## Related concepts
 
+* [[zero]]
+
 * [[zero function]]
 
 * [[null homotopy]]
