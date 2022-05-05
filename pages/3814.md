@@ -69,6 +69,8 @@ where $q_n \in U(1)$ denotes an $n$th [[primitive root of unity]].
 
 (e.g. ([HMY 13, p. 2](#HMY13))).
 
+(This exact gauge group happens to coincide with the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]", see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details).
+
 ## Variations and generalizations
 
 There is a plethora of attempts and suggestions for variations and generalizations of the standard model into models that are conceptually more satisfying from the point of view of models in theoretical physics. 
