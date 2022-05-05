@@ -354,6 +354,8 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 
 ## Related concepts
 
+* [[Ho(CombModCat)]]
+
 [[!include locally presentable categories - table]]
 
 * [[compactly generated (infinity,1)-category]]
