@@ -190,7 +190,7 @@ Consider the [[foliation]] of this phase space by constant-$q$-slices
 
 $$
   \label{ConstantqSlicesOnR2}
-  \Lambda_q = \subset \mathbb{R}^2
+  \Lambda_q \subset \mathbb{R}^2
   \,.
 $$
 
