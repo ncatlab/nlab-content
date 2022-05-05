@@ -94,14 +94,6 @@ This comes down to the following sequence of premises.
   
 The adjective "real" in "[[real number]]" is a historical shadow of the old idea that real numbers are related to _observed reality_, hence to [[physics]] in this way. The experimental success of this assumption shows that it is valid at least to very good approximation. 
 
-Speculations are common that in a fully exact theory of [[quantum gravity]], currently unavailable, this assumption needs to be refined. 
-For instance in _[[p-adic physics]]_ one explores the hypothesis that the relevant [[complete field|completion]] of the rational numbers as above is not the reals, but [[p-adic numbers]] $\mathbb{Q}_p$ for some [[prime number]] $p \in \mathbb{N}$. Or for example in the study of [[QFT on non-commutative spacetime]] one explore the idea that at small scales the smooth [[continuum]] is to be replaced by an object in [[noncommutative geometry]]. Combining these two ideas leads to the notion of [[non-commutative analytic space]] as a potential model for _[[space]]_ in [[physics]]. And so forth.
-
-For the time being all this remains speculation and differential geometry based on the [[continuum]] [[real line]] remains the context of all fundamental [[model (in theoretical physics)|model building]] in physics related to observed [[phenomenology]]. Often it is argued that these speculations are necessitated by the very nature of [[quantum theory]] applied to [[gravity]]. But, at least so far, such statements are not actually supported by the standard theory of [[quantization]]:
-we discuss below in _[Geometric quantization](GeometricQuantization)_ how not just [[classical physics]] but also [[quantum theory]], in the best modern version available, is entirely rooted in differential geometry based on the [[continuum]] [[real line]].
-
-This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Semantic Layer](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]".
-
 
 ### Cartesian spaces and smooth functions
  {#CartesianSpaces}
@@ -110,6 +102,7 @@ This is the motivation for studying models of physics in geometry modeled on the
 
 +-- {: .num_defn #SmoothFunctions}
 ###### Definition
+**([[smooth function]])**
 
 A [[function]] of [[sets]] $f : \mathbb{R} \to \mathbb{R}$ is called 
 a **[[smooth function]]** if, [[coinduction|coinductively]]:
@@ -160,7 +153,7 @@ $$
   \,,
 $$
 
-hence a [[function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ such that all [[partial derivatives]] exist and are [[continuous map|continuous]] (...).
+hence a [[function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ such that all [[partial derivatives]] exist and are [[continuous map|continuous]].
 
 =--
 
@@ -176,7 +169,7 @@ is in particular a [[smooth function]].
 +-- {: .num_remark}
 ###### Remark
 
-But a homomorphism of Cartesian spaces in def. \ref{CartesianSpaceAndHomomorphism} is *not* required to be a [[linear map]]. We do *not* regard the Cartesian spaces here as [[vector spaces]]. 
+But a homomorphism of Cartesian spaces in def. \ref{CartesianSpaceAndHomomorphism} is _not_ required to be a [[linear map]]. We do _not_ regard the Cartesian spaces here as [[vector spaces]]. 
 
 =--
 
@@ -347,6 +340,7 @@ hold not just for [[Cartesian spaces]], but generally for [[smooth manifolds]] (
 However for our development here it is useful to first focus on just [[Cartesian spaces]] and then bootstrap
 the theory of [[smooth  manifolds]] and much more from that, which we do [below](#FieldBundles).
 
+$\,$
 
 ### The site of abstract coordinate systems
  {#CoordinateSystemsLayerSem}
@@ -429,19 +423,20 @@ Differentiably good covers are useful for computations. Their full impact is how
 
 
 
-+-- {: .num_prop #DiffGoodOpenCoversRefineOpenCovers}
-###### Proposition
++-- {: .num_lemma #DiffGoodOpenCoversRefineOpenCovers}
+###### Lemma
+**(every [[open cover]] has refinement by a differentially [[good open cover]])**
 
-Every [[open cover]] refines to a differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}. 
+Every [[open cover]] of a [[smooth manifold]] has a refinement by a differentially good open cover, according to Def. \ref{DifferentiallyGoodOpenCover}. 
 
 =--
 
-A proof is at _[[good open cover]]_. 
+For proof see [FSS10, Prop. A1](https://ncatlab.org/schreiber/show/Cech+Cocycles+for+Differential+characteristic+Classes), or see at _[[good open cover]]_. 
 
 +-- {: .num_remark}
 ###### Remark
 
-Despite its appearance, this is not quite a classical statement. The classical statement is only that every open cover is refined by a _topologically_ [[good open cover]]. See the comments _[here in the references-section](ball#References)_ at _[[open ball]]_ for the situation concerning this statement in the literature.
+Lemma \ref{DiffGoodOpenCoversRefineOpenCovers} is not quite a classical statement. The classical statement is only that every open cover is refined by a _topologically_ [[good open cover]]. See the comments _[here in the references-section](ball#References)_ at _[[open ball]]_ for the situation concerning this statement in the literature.
 
 =--
 
@@ -498,7 +493,7 @@ This is a special case of what the following statement says in generality.
 
 +-- {: .num_prop #TheDifferentiallyGoodOpenCoverCoverage}
 ###### Proposition
-**(the [[site]] of [[Carftesian spaces]] with differentially [[good open covers]])**
+**(the [[site]] of [[Cartesian spaces]] with differentially [[good open covers]])**
 
 The differentially [[good open covers]], Def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Coverage)) on the [[category]] [[CartSp]] (from Prop. \ref{CartSpCategory}). 
 
@@ -532,7 +527,7 @@ $$
   \,.
 $$
 
-This is evidently an [[open cover]], albeit not necessarily a _[[good open cover]]_. But by prop. \ref{DiffGoodOpenCoversRefineOpenCovers} there does exist a good open cover $\{\tilde K_{\tilde j} \hookrightarrow \mathbb{R}^k\}_{\tilde j \in \tilde J}$ _refining_ it, which in turn means that for all $\tilde j$ there is  
+This is evidently an [[open cover]], albeit not necessarily a _[[good open cover]]_. But by Lemma \ref{DiffGoodOpenCoversRefineOpenCovers} there does exist a good open cover $\{\tilde K_{\tilde j} \hookrightarrow \mathbb{R}^k\}_{\tilde j \in \tilde J}$ _refining_ it, which in turn means that for all $\tilde j$ there is  
 
 $$
   \array{
@@ -562,24 +557,87 @@ solves the condition required in the definition of [[coverage]].
 
 =--
 
-By example \ref{ExampleThatGoodOpenCoversAreNotPullbackStable} this [[good open cover]] [[coverage]] is not a [[Grothendieck topology]]. But as any coverage, it uniquely completes to one which has the same [[sheaves]].
+By example \ref{ExampleThatGoodOpenCoversAreNotPullbackStable} this [[good open cover]] [[coverage]] is not a [[Grothendieck topology]]. But as any coverage, it uniquely completes to one which has the same [[sheaves]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #CompletingGoodOpenCoversToAllOpenCovers}
 ###### Proposition
+**(completing [[good open covers]] to all [[open covers]])**
 
 The [[Grothendieck topology]] induced on [[CartSp]] by the differentially good open cover coverage of def. \ref{TheDifferentiallyGoodOpenCoverCoverage} has as covering families the ordinary [[open covers]]. 
+
+Hence if we explicitly write $CartSp_{good}$ and $CartSp_{Groth}$ for $CartSp$ equipped with the coverage of differentially good open covers as and that of all open covers, respectively, then there is an [[equivalence of categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#EquivalenceOfCategories)) between their [[categories of sheaves]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Sheaf))
+
+\[
+  \label{SheavesOnGoodOpenCoversCoincideWithThosOnALlOpenCovers}
+  Sh(CartSp_{\text{good open cov}})
+  \;\simeq\;
+  Sh(CartSp_{\text{all open cov}})
+  \.
+\]
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This means that for every sheaf-theoretic construction to follow we can just as well consider the Grothendieck topology of open covers on $CartSp$. The sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for several computational purposes in the following. It is the _good_ open cover coverage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Semantic Layer -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
+Prop. \ref{CompletingGoodOpenCoversToAllOpenCovers} means that for every sheaf-theoretic construction to follow we may just as well consider the Grothendieck topology of open covers on $CartSp$, and hence we may and will suppress the subscripts in (eq:SheavesOnGoodOpenCoversCoincideWithThosOnALlOpenCovers).  
+
+While the sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for several computational purposes in the following. It is the _good_ open cover coverage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Semantic Layer -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
 
 =--
 
+There are further [[sites]] in use, which induce the same categories of sheaves:
 
++-- {: .num_defn #SiteOfSmoothManifolds}
+###### Definition
+**([[sites]] of [[smooth manifolds]] and [[open subsets]] of [[Euclidean spaces]])**
 
+We write
+
+* _[[SmthMfd]]_ for the [[category]] of [[smooth manifolds]] of any finite [[dimension]], with [[smooth functions]] between them;
+
+* $EuclOp$ for the [[category]] of [[open subsets]] of [[Euclidean spaces]] of any finite [[dimension]], with [[smooth functions]] between them.
+
+Both of these carry the respective [[coverage]] of [[good open covers]] and as such become [[sites]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Coverage))
+
+=--
+
++-- {: .num_prop #EquivalentSitesForCartSp}
+###### Proposition
+**(equivalent [[sites]] for [[CartSp]])**
+
+Consider the canonical [[full subcategory]]-inclusion [[functors]]
+
+$$
+  CartSp
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  EuclOp
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  SmthMfd
+$$
+
+which regard, in turn, a [[Cartesian space]] (Def. \ref{CartSpCategory}) as an [[open subset]] of itself, and regard every [[open subset]] of [[Euclidean space]] (Def. \ref{SiteOfSmoothManifolds}) as a [[smooth manifold]] ([this Example](differentiable+manifold#DifferentiableManifoldCartesianSpace)[this Example] and (differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)).
+
+Then the induced pre-composition functors induce [[equivalences of categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#EquivalenceOfCategories)) between the corresponding [[categories of sheaves]]:
+
+$$
+  Sh(CartSp)
+    \;\simeq\;
+  Sh(EuclOp)
+    \;\simeq\;
+  Sh(SmthMfd)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Prop. \ref{CompletingGoodOpenCoversToAllOpenCovers} we may identify $Sh(CartSp) = Sh(CartSp_{\text{good open cov}})$. With that, 
+both inclusions are evidently [[dense subsite]]-inclusions ([this Def.](geometry+of+physics+--+categories+and+toposes#DenseSubsite)). Therefore the statement follows by the [[comparison lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#ComparisonLemma)).
+
+=--
 
 
 ## Smooth sets
@@ -1513,7 +1571,15 @@ $$
 
 $\,$
 
-### Diffeological spaces
+### Concrete smooth sets: Diffeological spaces
+
+The cohesiveness of smooth sets (Prop. \ref{SmoothSetsFormACohesiveTopos}) implies in particular that there is a concept of _[[concrete objects]]_ among the smooth sets ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)). We show here (Prop. \ref{DiffeologicalSpacesAreTheConcreteSmoothSets} below) that these concrete smooth sets are [[equivalence of categories|equivalent]] to a kind of [[generalized smooth spaces]] that are known as _[[Chen smooth spaces]]_ ([Chen 77](diffeological+space#Chen77)) or _[[diffeological spaces]]_ ([Souriau 79](diffeological+space#Souriau79), [Iglesias-Zemmour 85](diffeological+space#IglesiasZemmour85)), which we recall as Def. \ref{DiffeologicalSpace} below. 
+
+A comprehensive development of [[differential geometry]] in terms of [[diffeological spaces]] is spelled out in ([Iglesias-Zemmour 13](diffeological+space#PIZ)). 
+
+Since the [[concrete objects]] in any [[cohesive topos]], and hence the [[diffeological spaces]] among all [[smooth sets]], form a [[reflective subcategory]] (...), every smooth set has a _[[concretification]]_ to a concrete smooth set, hence to a diffeological space. An important example of this construction are [[moduli spaces]] of [[differential forms]], this we turn to in Def. \ref{SmoothSpaceOfFormsOnSmoothSpace} below.
+
+$\,$
 
 
 +-- {: .num_defn #DiffeologicalSpace}
@@ -1537,7 +1603,12 @@ such that for every open subset $U$ as above the following conditions hold:
 1. the set of plots $\mathbf{X}(U)$ contains all the [[constant functions]]
 
    $$
-     X \overset{const_U}{\hookrightarrow} \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
+     X 
+       \overset{const_U}{\hookrightarrow} 
+     \mathbf{X}(U) 
+       \hookrightarrow 
+     Hom_{Set}(U,X)
+     \,,
    $$
 
 1. for every [[function]] $\phi \;\colon\; U \to X$ and for every [[open cover]] $\{U_i \overset{\iota_i}{\to} U\}$, if each [[restriction]] is a plot, $\phi\vert_{U_i} \in \mathbf{X}(U_i)$, then $\phi$ itself is a plot: $\phi \in \mathbf{X}(U)$;
@@ -1574,18 +1645,19 @@ This defines a [[category]] $DiffeologicalSpace$ ([this def.](geometry+of+physic
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #DiffeologicalSpacesAreTheConcreteSmoothSets}
 ###### Proposition
+**([[diffeological spaces]] are the [[concrete object|concret]] [[smooth sets]])**
 
 The category of [[diffeological spaces]] (Def. \ref{DiffeologicalSpace}) is a [[full subcategory]] of the category of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}).
 
-Moreover, in terms of the [[cohesive topos|cohesive]] structure on the category of smooth sets from Prop. \ref{SmoothSetsFormACohesiveTopos}, the diffeological spaces are precisely the _[[concrete objects]]_ ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)) among the [[smooth sets]].
+Moreover, in terms of the [[cohesive topos|cohesive]] structure on the category of smooth sets from Prop. \ref{SmoothSetsFormACohesiveTopos}, the diffeological spaces are precisely the _[[concrete objects]]_ ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)) among the [[smooth sets]]:
 
 $$
   DiffeologicalSpace
-  \simeq
+  \;\simeq\;
   SmoothSet_{conc}
-  \hookrightarrow
+  \overset{\phantom{AAAA}}{\hookrightarrow}
   SmoothSet
   \,.
 $$
@@ -1620,9 +1692,7 @@ $$
   \,.
 $$
 
-But by ... the restriction from the site $EuclOp$ of all open subsets of Euclidean spaces to that of just the site [[CartSp]] of [[Cartesian spaces]] is an [[equivalence of categories]] between the corresponding [[sheaf toposes]].
-
-This yields the full subcategory inclusion
+But by Prop. \ref{EquivalentSitesForCartSp} the restriction from the site $EuclOp$ of all open subsets of Euclidean spaces to that of just the site [[CartSp]] of [[Cartesian spaces]] is an [[equivalence of categories]] between the corresponding [[sheaf toposes]]. This yields the full subcategory inclusion
 
 $$
   DiffeologicalSpace
@@ -1632,6 +1702,7 @@ $$
   Sh(CartSp)
     \simeq
   SmoothSet
+  \,,
 $$
 
 where the last equivalence is Prop. \ref{SmoothSetsAreSheavesOnCartSp}.
@@ -1665,7 +1736,7 @@ Now a morphism of sheaves is a monomorphism, precisely if for each object $U \in
   (coDisc \Gamma \mathbf{X})(U)
 \] 
 
-is an [[injective function]] (...). The [[codomain]] of this function may be re-identified as follows:
+is an [[injective function]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#RecognitionOfEpimorphisms)). The [[codomain]] of this function may be re-identified as follows:
 
 $$
   \begin{aligned}
@@ -1692,7 +1763,7 @@ In the final step we used that the cohesive structure on $SmoothSet$ comes from 
 
 for the set of points in $\mathbf{X}$. Notice that if $\mathbf{X}$ is indeed a [[diffeological space]], then this set is indeed its underlying set, by the first clause in the list of conditions on a diffeological space in Def. \ref{DiffeologicalSpace}.
 
-This shows that (eq:DecohesAsGammacoDiscUnit) being an injection, says equivalently that we have an injection of the form
+This shows that (eq:DecohesAsGammacoDiscUnit) being an injection means equivalently that we have an injection of the form
 
 \[
   \label{RearrangedDecohesAsGammacoDiscUnit}
@@ -2195,13 +2266,15 @@ This is not _quite_ what one usually wants to regard as an $\mathbb{R}^k$-parame
 
 This is captured by the following definition.
 
+
 +-- {: .num_defn #SmoothSpaceOfFormsOnSmoothSpace}
 ###### Definition
+**([[concrete object|concrete]] [[moduli space]] of [[differential forms]] on a [[smooth set]])** 
 
-For $X \in Smooth0Type$ and $n \in \mathbb{N}$, the **smooth space of differential $n$-forms** $\mathbf{\Omega}^n(X)$ on $X$ is the concretification, def. \ref{ConcreteObjectsAndConcretification}, of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
+For $X \in SmoothSet$ any [[smooth set]] and $n \in \mathbb{N}$, the _smooth space of differential $n$-forms_ $\mathbf{\Omega}^n(X)$ on $X$ is the [[concretification]], def. \ref{ConcreteObjectsAndConcretification}, of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
 
 $$
-  \mathbf{\Omega}^n(X) \coloneqq Conc([X, \Omega^n])
+  \mathbf{\Omega}^n(X) \; \coloneqq \; Conc([X, \Omega^n])
   \,.
 $$
 
