@@ -45,6 +45,8 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 
 * [[McKay correspondence]]
 
+* [[Platonic 2-group]]
+
 ## References
   {#References}
 
