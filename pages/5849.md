@@ -200,14 +200,95 @@ $(p_! \dashv p^*)$-[[zig-zag identity]].
 ## Examples
 
 
-* For $(L \dashv R): C \to D$ any pair of [[adjoint functor]]s, there is induced on the [[presheaf categories]] a quadruple of adjoint functors
++-- {: .num_example #KanExtensionOfAdjointPairIsAdjointQuadruple}
+###### Example
+**([[Kan extension]] of [[adjoint pair]] is [[adjoint quadruple]])**
 
-  $$
-    Lan L \dashv (-)\circ L \dashv (-) \circ R \dashv Ran R
-    \,,
-  $$
+For $\mathcal{V}$ a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with all [[limits]] and [[colimits]], let $\mathcal{C}$, $\mathcal{D}$ be two [[small category|small]] $\mathcal{V}$-[[enriched categories]]and let
 
-  where $Lan$ and $Ran$ denote left and right [[Kan extension]], respectively.
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{p}{\longrightarrow}}
+      {\overset{q}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a $\mathcal{V}$-[[enriched adjunction]]. Then there are $\mathcal{V}$-[[enriched natural isomorphisms]]
+
+
+$$
+  (q^{op})^\ast \;\simeq\; Lan_{p^{op}}
+  \;\colon\;
+  [\mathcal{C}^{op},\mathcal{V}]
+    \longrightarrow
+  [\mathcal{D}^{op},\mathcal{V}]  
+$$
+
+$$
+  (p^{op})^\ast \;\simeq\; Ran_{q^{op}}
+  \;\colon\;
+  [\mathcal{D}^{op},\mathcal{V}]
+    \longrightarrow
+  [\mathcal{V}^{op},\mathcal{V}]  
+$$
+
+between the precomposition on [[enriched presheaves]] with one functor and the left/right [[Kan extension]] of the other.
+
+By essential uniqueness of [[adjoint functors]], this means that the two [[Kan extension]] [[adjoint triples]] of $q$ and $p$ 
+
+$$
+  \array{
+    Lan_{q^{op}} &\dashv& (q^{op})^\ast &\dashv& Ran_{q^{op}}
+    \\
+    && Lan_{p^{op}} &\dashv& (p^{op})^\ast &\dashv& Ran_{p^{op}}
+  }
+$$
+
+merge into an [[adjoint quadruple]]
+
+$$
+  \array{
+    Lan_{q^{op}} &\dashv& (q^{op})^\ast &\dashv& (p^{op})^\ast &\dashv& Ran_{p^{op}}
+  }
+  \;\colon\;
+  [\mathcal{C}^{op},\mathcal{V}]
+    \leftrightarrow
+  [\mathcal{D}^{op}, \mathcal{V}]
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For every [[enriched presheaf]] $F \;\colon\; \mathcal{C}^{op} \to \mathcal{V}$ we have a sequence of $\mathcal{V}$-[[enriched natural isomorphism]] as follows
+
+$$
+  \begin{aligned}
+    (Lan_{p^{op}} F)(d)
+      & \simeq
+    \int^{ c \in \mathcal{C} } \mathcal{D}(d,p(c)) \otimes F(c)
+    \\
+    & \simeq
+    \int^{ c \in \mathcal{C} } \mathcal{C}(q(d),c) \otimes F(c)
+    \\
+    & \simeq
+    F(q(d))
+    \\
+    & = \left( (q^{op})^\ast F\right) (d)
+    \,.    
+  \end{aligned}
+$$
+
+Here the first step is the [[coend]]-formula for [[left Kan extension]] ([here](Kan+extension#PointwiseByCoEnds)), the second step if the [[enriched adjunction]]-isomorphism for $q \dashv p$ and the third step is the [[co-Yoneda lemma]].
+
+This shows the first statement, which, by essential uniqueness of adjoints, implies the following statements.
+
+
+=--
+
 
 * For [[cohesive topos]] by definition the terminal [[geometric morphism]] extends to an adjoint quadruple.
 
