@@ -112,6 +112,10 @@ The [[classical field theory]] of [[gravity]] is a physical theory which asserts
 
 * [string theory FAQ -- How do physical theories generally make predictions, anyway?](http://ncatlab.org/nlab/show/string+theory+FAQ#AsideHowToPhysicalTheorieyGenerallyMakePredictionsAnyway)
 
+## References
+
+* [[James Wells]], _Lexicon of Theory Qualities_ ([pdf](http://www-personal.umich.edu/~jwells/prms/prm8.pdf))
+
 
 [[!redirects theories (physics)]]
 
