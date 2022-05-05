@@ -1,5 +1,6 @@
 
 
+
 If $A = (a_{i j})$ is a [[matrix]] with [[coefficients]] in a [[star algebra]] (such as the [[complex numbers]] under [[complex conjugation]]), then its _conjugate transpose_ $A^\dagger$ is the matrix $A^\dagger \coloneqq (a^\ast_{j i})$, hence the composite of passing to the [[transpose matrix]] and applying the star-operation
 
 $$
