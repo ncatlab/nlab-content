@@ -193,6 +193,8 @@ With this the rightmost adjoint quadruple gives the [[Aufhebung]] of $\Re \dashv
 
 * [[higher Cartan geometry]]
 
+[[!include geometries of physics -- table]]
+
 ## References
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
