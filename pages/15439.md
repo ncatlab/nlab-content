@@ -49,6 +49,9 @@ and formalization in [[homotopy type theory]] is in
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, 2017
 
+* {#Wellen18} [[Felix Wellen]], _[[schreiber:Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+
+
 
 
 [[!redirects formal disks]]
