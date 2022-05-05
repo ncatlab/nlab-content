@@ -1278,7 +1278,7 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 =--
 
 
-+-- {: .num_prop #ProgressionOfModalitiesOnElasticTopos}
++-- {: .num_prop #ProgressionOfModalitiesOnSolidTopos}
 ###### Proposition
 **(progression of [[adjoint modalities]] on [[solid topos]])**
 
