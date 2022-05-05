@@ -1,3 +1,4 @@
+[[!redirects 6d (2,0)-supersymmetric QFT]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,6 +39,12 @@ In the non-abelian case this is expected ([Witten 07](#Witten07)) that the compa
 Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is subtle. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). A review of recent developments is in ([Moore11](#Moore)).
 
 ## Properties
+
+### Geometric engineering
+  {#GeometricEngineering}
+
+For [[geometric engineering]] of the [[6d (2,0)-superconformal QFT]], see at _[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations -- Geometric engineering of 6d (2,0)-SCFT](duality+between+M-theory+on+Z2-orbifolds+and+type+IIB+string+theory+on+K3-fibrations#GeometricEngineeringOfThe6d2SuperconformalQFT)_.
+
 
 ### Holographic dual
 
