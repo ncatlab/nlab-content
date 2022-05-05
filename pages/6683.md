@@ -76,7 +76,7 @@ Classification of the possible [[superpotentials]] via [[representation theory]]
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Superpotentials for superconformal Chern-Simons theories from representation theory_, J. Phys. A 42:485204,2009 ([arXiv:0908.2125](http://arxiv.org/abs/0908.2125))
 
-and derived from this a classification of the possble [[orbifold]]ing is in
+and derived from this a classification of the possble [[orbifold|orbifolding]] (see at _[[spherical space form]]: [7d with spin structure](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)_) is in
 
 * {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
