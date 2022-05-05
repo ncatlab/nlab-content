@@ -118,6 +118,11 @@ and obtain $?P$ by duality.
 
 Phase space semantics is *complete* for [[linear logic]], in the sense that a formula is provable if and only if in any phase space semantics we have $1\vDash P$, where $1$ is the unit element of the monoid $A$.
 
+### PCAs
+
+If $A$ is a [[partial combinatory algebra]] (PCA), we can make it a ternary frame by defining $R x y z$ to mean that $x \cdot y$ is defined and equals $z$.  (Similarly, if $A$ is an ordered PCA we can make it an ordered ternary frame.)  The resulting interpretation of $\multimap$ almost coincides with the usual interpretation of implication in [[realizability]] over $A$, and the combinators $k,s$ have the property that $k \Vdash P \multimap (Q \multimap P)$ and $s \Vdash (P \multimap Q \multimap R) \multimap (P \multimap Q) \multimap P \multimap R$ for any $P,Q,R$, as would be expected from typed [[combinatory logic]].
+
+
 ## References
 
 * R. Routley and R.K. Meyer, *The Semantics of Entailment I*, Truth, Syntax and Modality, ed. H. Leblanc, North-Holland Publishing Company (Amsterdam), pp. 199-243.  (1973)
