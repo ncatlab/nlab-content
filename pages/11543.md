@@ -85,7 +85,16 @@ may be interpreted combinatorially: a $k$-element subset $K$ of $X + 1$ is eithe
 
 * [[multinomial coefficient]]
 
+* [[factorial]], [[double factorial]]
+
 * [[Catalan number]]
+
+## References
+
+See also 
+
+* Wikipedia, _[Binomial theorem](https://en.wikipedia.org/wiki/Binomial_theorem)_
+
 
 [[!redirects binomial coefficient]] 
 [[!redirects binomial coefficients]] 
