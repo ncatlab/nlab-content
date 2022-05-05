@@ -30,19 +30,32 @@ Equivalently this is a [[commutative monoid]] in the [[symmetric monoidal catego
 ### Differential graded-commutative superalgebra
  {#DifferentialGradedCommutativeSuperalgebra}
 
-More generally, a _differential graded commutative superalgebra_ $(A,d) \in dgcSAlg$ is a [[commutative monoid]] in the [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes]] of [[super vector spaces]].
+More generally, a _differential graded commutative superalgebra_ $(A,d) \in dgcSAlg$ is a [[commutative monoid]] in the [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes of super vector spaces]].
 
-This means that $(A,d)$ has a $\mathbb{Z} \times \mathbb{Z}/2$-bigrading and that 
+There are (at least) two such symmetric monoidal structures $\tau_{Deligne}$ and $\tau_{Bernst}$ ([this Prop.](chain+complex+in+super+vector+spaces#SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces)). While equivalent ([this Prop.](chain+complex+in+super+vector+spaces#EquivalenceTwoSymmetricMonoidalStructuresOnChSuperVect)) these yield two superficially different [[signs in supergeometry|sign rules]] for differential graded-commutative superalgebras:
 
-1. for $a,b \in A$ two elements of homogeous degree $(n_a, \sigma_a), (n_b, \sigma_b) \in \mathbb{Z} \times \mathbb{Z}/2$, respectively, then 
+   1. for $a,b \in A$ two elements of homogeous degree $(n_a, \sigma_a), (n_b, \sigma_b) \in \mathbb{Z} \times \mathbb{Z}/2$, respectively, we have
 
-   $a b = (-1)^{n_a n_b} (-1)^{\sigma_a \sigma_b} \, b a$
+1. in _Deligne's convention_
 
-1. $d (a b) = (d a) b + (-1)^{n_1} a (d b)$.
 
-See also at _[[signs in supergeometry]]_.
+   $a b = (-1)^{n_a n_b + \sigma_a \sigma_b} \, b a$
 
-In bidegree $(0,-)$ this is a _[[commutative superalgebra]]_.
+1. in _Berstein's convention_
+
+   $a b = (-1)^{ (n_a + \sigma_a)(n_b + \sigma_b) } \, b a$
+
+
+While in both cases the [[differential]] satisfies.
+
+$$ 
+  d (a b) = (d a) b + (-1)^{n_1} a (d b)
+  \,.
+$$
+
+[[!include sign rules in homological superalgebra -- table]]
+
+Restricted tro bidegree $(0,-)$ both of these sign rules yield a _[[commutative superalgebra]]_, which restricted to $(-,even)$ thy yield a [[differential graded-commutative algebra]].
 
 ## Examples
 
