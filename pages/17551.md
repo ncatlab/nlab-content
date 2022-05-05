@@ -143,7 +143,7 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
 
 We discuss an explicit formula (Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} below, due to [Lewis-May-Steinberger 86](#LewisMaySteinberger86)) that expresses [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in partial geometric fixed point spectra (Prop. \ref{PartialGeometricFixedPoint}) as the [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in the original spectrum, but with certain "[[Euler classes]] [[localization|inverted]]".
 
-As an application, we show (Example \ref{EquivariantStableCohomotopyOfPointsInNontrivalROGDegree} below) that the [[equivariant stable cohomotopy]] of the point in certain non-trivial [[RO(G)-degrees]] $V$ surjects onto the corresponding partially equivariant stable cohomotopy in degree 0 (the latter being well-understood: given by the [[Burnside ring]]).
+As an application, we show (Example \ref{EquivariantStableCohomotopyOfPointsInNontrivalROGDegree} below) that the [[equivariant stable cohomotopy]] of the point in certain non-trivial [[RO(G)-degrees]] $V$ surjects onto the corresponding partially equivariant stable cohomotopy in degree 0 (the latter being well-understood: given by the [[Burnside ring]], by [[Burnside ring is equivariant stable cohomotopy of the point|this Prop]]).
 
 $\,$
 
@@ -297,7 +297,7 @@ $$
 **([[equivariant stable cohomotopy]] of the point in non-trivial [[RO(G)-degree]])**
 
 Let $G$ be a [[finite group]]. Then the canonical comparison morphism (eq:ComparisonMap) from Def. \ref{CanonicalComparisonMap} exhibits the $G$-[[equivariant stable cohomotopy]] [[cohomology groups|group]] of the point in any [[RO(G)-degree]] $V$ that has trivial $N$-fixed points ($V^N = 0$, Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) as a [[group extension]] of the $G/N$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree|RO(G/N)-degree]] zero, hence of the group underlying 
-the [[Burnside ring]] $A(G/N)$ ([this Prop.](equivariant+stable+cohomotopy#BurnsideRingIsEquivariantStableCohomotopyOfPoint)):
+the [[Burnside ring]] $A(G/N)$ ([[Burnside ring is equivariant stable cohomotopy of the point|this Prop.]]):
 
 \[
   \label{SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero}
@@ -347,7 +347,7 @@ Hence with all identifications made explicit, the morphism (eq:SurjectionFromEqu
 
 of $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ with a sequence of [[isomorphisms]], and hence our task is to prove that $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ is a surjection.
 
-We first prove this for the case that $V = 0$. In this case the identification with the [[Burnside ring]] (via [this Prop.](equivariant+stable+cohomotopy#BurnsideRingIsEquivariantStableCohomotopyOfPoint)) applies also to the [[domain]] cohomology group, so that (eq:SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero) becomes simply the projection of [[Burnside rings]]
+We first prove this for the case that $V = 0$. In this case the identification with the [[Burnside ring]] (via [[Burnside ring is equivariant stable cohomotopy of the point|this Prop.]]) applies also to the [[domain]] cohomology group, so that (eq:SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero) becomes simply the projection of [[Burnside rings]]
 
 $$
   A(G) \overset{ \phantom{AA} (-)^N \phantom{AA} }{\longrightarrow} A(G/N)
