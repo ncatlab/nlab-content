@@ -28,7 +28,7 @@ $\,$
 
 This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or, with an eye towards their generalization to _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_, _smooth [[h-sets]]_ or _smooth [[homotopy 0-types|0-types]]_[^terminology].
 
-The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] (Prop. \ref{CartSpCategory} below) and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and [[diffeological spaces]].
+The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] (Prop. \ref{CartSpCategory} below) and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as [[smooth manifolds]] (Prop. \ref{InclusionOfSmoothManifoldsIntoSmoothSets} below) and [[diffeological spaces]] (Prop. \ref{DiffeologicalSpacesAreTheConcreteSmoothSets} below).
 
 In fact smooth sets are an early stage in a long sequence of generalized smooth spaces appearing in [[higher differential geometry]]:
 
@@ -602,42 +602,6 @@ Both of these carry the respective [[coverage]] of [[good open covers]] and as s
 
 =--
 
-+-- {: .num_prop #EquivalentSitesForCartSp}
-###### Proposition
-**(equivalent [[sites]] for [[CartSp]])**
-
-Consider the canonical [[full subcategory]]-inclusion [[functors]]
-
-$$
-  CartSp
-    \overset{\phantom{AAA}}{\hookrightarrow}
-  EuclOp
-    \overset{\phantom{AAA}}{\hookrightarrow}
-  SmthMfd
-$$
-
-which regard, in turn, a [[Cartesian space]] (Def. \ref{CartSpCategory}) as an [[open subset]] of itself, and regard every [[open subset]] of [[Euclidean space]] (Def. \ref{SiteOfSmoothManifolds}) as a [[smooth manifold]] ([this Example](differentiable+manifold#DifferentiableManifoldCartesianSpace)[this Example] and (differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)).
-
-Then the induced pre-composition functors induce [[equivalences of categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#EquivalenceOfCategories)) between the corresponding [[categories of sheaves]]:
-
-$$
-  Sh(CartSp)
-    \;\simeq\;
-  Sh(EuclOp)
-    \;\simeq\;
-  Sh(SmthMfd)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By Prop. \ref{CompletingGoodOpenCoversToAllOpenCovers} we may identify $Sh(CartSp) = Sh(CartSp_{\text{good open cov}})$. With that, 
-both inclusions are evidently [[dense subsite]]-inclusions ([this Def.](geometry+of+physics+--+categories+and+toposes#DenseSubsite)). Therefore the statement follows by the [[comparison lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#ComparisonLemma)).
-
-=--
 
 
 ## Smooth sets
@@ -660,7 +624,7 @@ The idea of the following definitions may be summarized like this:
 
 1. a generalized _smooth set_ is something that may be probed by laying out coordinate systems into it, in a way that respects transformation of coordinate patches and gluing of coordinate patches;
 
-1. the [[Yoneda lemma]] says that this is consistent in that coordinate systems themselves as well as [[smooth manifolds]] may naturally be regarded as generalized smooth sets themselves and that under this identification "laying out a coordinate system" in a smooth set means having a map of smooth sets from the coordinate system to the smooth set.
+1. the [[Yoneda lemma]] ([this prop](geometry+of+physics+--+categories+and+toposes#YonedaLemma)) says that this is consistent in that coordinate systems themselves as well as [[smooth manifolds]] may naturally be regarded as generalized smooth sets themselves and that under this identification "laying out a coordinate system" in a smooth set means having a map of smooth sets from the coordinate system to the smooth set.
 
 
 The first set of consistency conditions on plots of a space is that they respect _coordinate transformations_. This is what the following definition formalises.
@@ -898,7 +862,7 @@ $\mathbf{\Omega}^k$ given as follows:
      \,.
    $$
 
-We introduce and discuss this example in detail in the chapter _[[geometry of physics -- differential forms]]_.
+We introduce and discuss this example in detail in more detail [below](#DifferentialForms)
 
 =--
 
@@ -906,31 +870,8 @@ We introduce and discuss this example in detail in the chapter _[[geometry of ph
 A [[smooth set]] (def. \ref{SmoothSpace}) need not have an _underlying set_, for instance 
 the smooth set $\mathbf{\Omega}^k$ from example \ref{SmoothSetOfDifferentialForms} for $k \geq 1$
 has only a single plot from the point (corresponding to the zero differential form on the point), and yet it is
-far from being the point. If a smooth set does have an underlying set, then it is called a 
-_[[diffeological space]]_:
+far from being the point. If a smooth set does have an underlying set, then it is called a  _[[diffeological space]]_, see around Prop. \ref{DiffeologicalSpacesAreTheConcreteSmoothSets} below.
 
-+-- {: .num_example }
-###### Example
-**([[diffeological spaces]])**
-
-A [[smooth set]] $X$ (def. \ref{SmoothSpace}) is called a _[[concrete sheaf|concrete]] smooth set_ or 
-a _[[diffeological space]]_ if there exists
-
-1. a [[set]] $X_s \in Set$;
-
-1. for each $n \in \mathbb{N}$ a natural identification of the set of plots $X(\mathbb{R}^n)$
-   with a [[subset]] of the set of [[functions]] $\mathbb{R}^n_s \to X_s$ from the underlying set $\mathbb{R}^n_s$ of
-   $\mathbb{R}^n$ (forgetting all [[smooth structure]]) to that set $X_s$:
-   
-   $$
-     X(\mathbb{R}^n) \hookrightarrow Hom_{Set}(\mathbb{R}^n_s, X_s)
-     \,.
-   $$ 
-
-Key examples of diffeological spaces are [[mapping spaces]] between smooth manifolds, which we turn to below
-(def. \ref{SmoothFunctionSpace}).
-
-=--
 
 +-- {: .num_example #DiscreteSmoothSpace}
 ###### Example
@@ -969,8 +910,9 @@ The idea of the following definition is to say that whatever a [[homomorphism]] 
 
 +-- {: .num_defn #HomomorphismOfSmoothSpaces}
 ###### Definition
+**([[homomorphisms]] of [[smooth sets]] -- smooth functions)**
 
-Let $X$ and $Y$ be two smooth sets, def. \ref{SmoothSpace}. Then a [[homomorphism]] $f \colon X \to Y$ is
+Let $X$ and $Y$ be two [[smooth sets[[, def. \ref{SmoothSpace}. Then a [[homomorphism]] of _[[smooth function]]_ $f \colon X \to Y$ between them is
 
 * for each abstract coordinate system $\mathbb{R}^n$ (hence for each $n \in \mathbb{N}$) a [[function]]
 
@@ -1037,7 +979,7 @@ between the _postulated_ $\mathbb{R}^n$-plots of $X$ and the _actual_ $\mathbb{R
 +-- {: .proof}
 ###### Proof
 
-This is a special case of the _[[Yoneda lemma]]_, as will be made more explicit below in _[The topos of smooth sets](#ToposOfSmoothSpaces)_.
+This is a special case of the _[[Yoneda lemma]]_ ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)), as will be made more explicit below in _[The topos of smooth sets](#ToposOfSmoothSpaces)_.
 The reader unfamiliar with this should write out the simple proof explicitly: use the defining [[commuting diagrams]] in def. \ref{HomomorphismOfSmoothSpaces} to deduce that a homomorphism $f : \mathbb{R}^n \to X$ is uniquely fixed by the image of the [[identity]] element in  $\mathbb{R}^n(\mathbb{R}^n) \coloneqq CartSp(\mathbb{R}^n, \mathbb{R}^n)$ under the component function $f_{\mathbb{R}^n} : \mathbb{R}^n(\mathbb{R}^n) \to X(\mathbb{R}^n)$.
 
 =--
@@ -1378,6 +1320,88 @@ This is a straightforward matter of matching definitions. We spell it out:
   * the condition (eq:ConditionSmoothSet) that this be a [[bijection]] is the _[[sheaf|sheaf condition]]_  ([here](geometry+of+physics+--+Categories+and+Toposes#eq:SheafCondition)).
 
 =--
+
++-- {: .num_prop #EquivalentSitesForCartSp}
+###### Proposition
+**(equivalent [[sites]] for [[CartSp]])**
+
+Consider the canonical [[full subcategory]]-inclusion [[functors]]
+
+$$
+  CartSp
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  EuclOp
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  SmthMfd
+$$
+
+which regard, in turn, a [[Cartesian space]] (Def. \ref{CartSpCategory}) as an [[open subset]] of itself, and regard every [[open subset]] of [[Euclidean space]] (Def. \ref{SiteOfSmoothManifolds}) as a [[smooth manifold]] ([this Example](differentiable+manifold#DifferentiableManifoldCartesianSpace)[this Example] and (differentiable+manifold#OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds)).
+
+Then the induced pre-composition functors induce [[equivalences of categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#EquivalenceOfCategories)) between the corresponding [[categories of sheaves]]:
+
+$$
+  SmoothSet
+    \;\simeq\;
+  Sh(CartSp)
+    \;\simeq\;
+  Sh(EuclOp)
+    \;\simeq\;
+  Sh(SmthMfd)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Prop. \ref{CompletingGoodOpenCoversToAllOpenCovers} we may identify $Sh(CartSp) = Sh(CartSp_{\text{good open cov}})$. With that, 
+both inclusions are evidently [[dense subsite]]-inclusions ([this Def.](geometry+of+physics+--+categories+and+toposes#DenseSubsite)). Therefore the statement follows by the [[comparison lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#ComparisonLemma)).
+
+=--
+
+As a corollary we obtain:
+
++-- {: .num_prop #InclusionOfSmoothManifoldsIntoSmoothSets}
+###### Proposition
+**([[smooth manifolds]] [[fully faithful functor|fully faithful]] inside [[smooth sets]])**
+
+Regarding [[smooth manifolds]] as [[smooth sets]] via Example \ref{CartesianSpaceAsSmoothSpace} yields a [[full subcategory]]-inclusion
+
+$$
+  SmoothManifold 
+    \overset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}
+  SmoothSet
+  \,,
+$$
+
+meaning that for $X, Y \in SmoothManifold$ any two [[smooth manifolds]], this  functor induces a [[bijection]] between the [[smooth functions]] $X \to Y$ regarded in the sense of smooth manifolds, and regarded in the sense of [[smooth sets]] (Def. \ref{HomomorphismOfSmoothSpaces}):
+
+$$
+  Hom_{SmoothManifold}(X,Y)
+  \;\simeq\;
+  Hom_{SmoothSet}(\iota(X), \iota(Y))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Prop. \ref{EquivalentSitesForCartSp} we have an [[equivalence of categories]]
+
+$$
+  SmoothSet
+  \;\simeq\;
+  Sh(SmoothManifold)
+  \,.
+$$
+
+With this the statement is given by the [[Yoneda lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)).
+
+=--
+
 
 $\,$
 
@@ -1783,7 +1807,7 @@ $$
 
 then (eq:RearrangedDecohesAsGammacoDiscUnit) indeed reproduces this inclusion.
 
-To see this, first notice that, by the [[Yoneda lemma]] and the definition of smooth maps between diffeological spaces, this inclusion function equals the function
+To see this, first notice that, by the [[Yoneda lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)) and the definition of smooth maps between diffeological spaces, this inclusion function equals the function
 
 $$
   \Gamma_{y(U),\mathbf{X}}
@@ -1849,6 +1873,7 @@ and chase the [[identity morphism]] in the top left set through this diagram, as
 $\,$
 
 ### Differential forms
+  {#DifferentialForms}
 
 We have seen above in _[The continuum real line](#TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of smooth maps $\mathbb{R} \to X$.
 
@@ -2047,8 +2072,9 @@ $\,$
 
 So far we have defined differential $n$-form on abstract coordinate systems. Here we extend this definition to one of differential $n$-forms on arbitrary [[smooth sets]]. We start by observing that the space of _all_ differential $n$-forms on cordinate systems themselves naturally is a smooth set.
 
-+-- {: .num_prop}
++-- {: .num_prop #SmoothModuliSpaceOfnForms}
 ###### Proposition
+**([[smooth set|smooth]] [[moduli space]] of [[differential forms]])**
 
 The assignment of differential $n$-forms
 
@@ -2068,30 +2094,18 @@ $$
   }
 $$
 
-defines a [[smooth set]] in the sense of def. \ref{SmoothSpace}:
+constitutes a [[smooth set]] in the sense of def. \ref{SmoothSpace}, which we denote bu
 
 $$
-  \Omega^n(-) \in Smooth0Type
+  \mathbf{\Omega}^n(-) \;\in\; SmoothSet
   \,.
 $$
 
-=--
-
-+-- {: .num_defn #SmoothModuliSpaceOfnForms}
-###### Definition
-
-
-We call this 
-
-$$
-  \Omega^n \colon Smooth0Type
-$$
-
-the **universal smooth [[moduli space]]** of differential $n$-forms. 
+We call this  the **universal smooth [[moduli space]]** of differential $n$-forms. 
 
 =--
 
-The reason for this terminology is that homomorphisms of smooth sets into $\Omega^1$ _modulate_ differential $n$-forms on their [[domain]], by prop. \ref{YonedaForSmoothSpaces} (and hence by the [[Yoneda lemma]]):
+The reason for this terminology is that homomorphisms of smooth sets into $\Omega^1$ _modulate_ differential $n$-forms on their [[domain]], by prop. \ref{YonedaForSmoothSpaces} (and hence by the [[Yoneda lemma]], [this prop](geometry+of+physics+--+categories+and+toposes#YonedaLemma)):
 
 +-- {: .num_example}
 ###### Example
@@ -2121,7 +2135,7 @@ $$
 Accordingly we write
 
 $$
-  \Omega^n(X) \coloneqq Smooth0Type(X,\Omega^n)
+  \Omega^n(X) \coloneqq SmoothSet(X,\Omega^n)
 $$
 
 for the set of smooth $n$-forms on $X$.
@@ -2170,7 +2184,7 @@ For $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^{k}$ definition \ref{Pullbac
 +-- {: .proof}
 ###### Proof
 
-Again by the [[Yoneda lemma]].
+Again by the [[Yoneda lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma))
 
 =--
 
@@ -2223,7 +2237,7 @@ With this definition we have:
 +-- {: .num_prop}
 ###### Proposition
 
-For $X \in Smooth0Type$ any [[smooth set]], every differential $n$-form on $X$, $\omega \in \Omega^n(X)$ is the pullback of differential forms, def. \ref{PullbackOfDifferentialFormsOnSmoothSpaces}, of the universal differential $n$-form, def. \ref{UniversalDifferentialnForm}, along a homomorphism $f$ from $X$ into the moduli space $\Omega^n$ of differential $n$-forms:
+For $X \in SmoothSet$ any [[smooth set]], every differential $n$-form on $X$, $\omega \in \Omega^n(X)$ is the pullback of differential forms, def. \ref{PullbackOfDifferentialFormsOnSmoothSpaces}, of the universal differential $n$-form, def. \ref{UniversalDifferentialnForm}, along a homomorphism $f$ from $X$ into the moduli space $\Omega^n$ of differential $n$-forms:
 
 $$
   \omega = f^* \omega^n_{univ}
@@ -2235,14 +2249,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This statement is of course in a way a big tautology. Nevertheless it is a very useful tautology to make explicit. The whole concept of differential forms on smooth sets here may be thought of as simply a variation of the theme of the [[Yoneda lemma]].
-
-=--
-
-+-- {: bluebox }
-###### 
-
-This ends the Model-layer discussion of differential forms. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#DifferentialFormsLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [differentiation below](#Differentiation). 
+This statement is of course in a way a big tautology. Nevertheless it is a very useful tautology to make explicit. The whole concept of differential forms on smooth sets here may be thought of as simply a variation of the theme of the [[Yoneda lemma]] ([this prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)).
 
 =--
 
@@ -2253,7 +2260,7 @@ We discuss the smooth space of differential forms _on a fixed smooth space_ $X$.
 +-- {: .num_remark}
 ###### Remark
 
-For $X$ a [[smooth space]], the smooth mapping space $[X, \Omega^n] \in Smooth0Type$ is the smooth space whose $\mathbb{R}^k$-plots are differential $n$-forms on the [[product]] $X \times \mathbb{R}^k$
+For $X$ a [[smooth space]], the smooth mapping space $[X, \Omega^n] \in SmoothSet$ is the smooth space whose $\mathbb{R}^k$-plots are differential $n$-forms on the [[product]] $X \times \mathbb{R}^k$
 
 $$
   [X, \Omega^n] \colon \mathbb{R}^k \mapsto \Omega^n(X \times \mathbb{R}^k)
@@ -2297,7 +2304,7 @@ prop. \ref{DecohesOverASiteWithTerminalObject} the set of plots of $\mathbf{\Ome
 $$
   \Omega^n(X \times \mathbb{R}^k)
   \simeq
-   Hom_{Smooth0Type}(\mathbb{R}^k, [X,\Omega^n])
+   Hom_{SmoothSet}(\mathbb{R}^k, [X,\Omega^n])
    \stackrel{\Gamma_{ \mathbb{R}^k, [X,\Omega^n] }}{\to}
    Hom_{Set}(\Gamma(\mathbb{R}^k), \Gamma [X, \Omega^n])
    \simeq
@@ -2319,7 +2326,7 @@ Under this function all components of differential forms with a "leg along" $\ma
 +-- {: .num_remark }
 ###### Remark
 
-For $n = 0$ we have (for any $X\in Smooth0Type$)
+For $n = 0$ we have (for any $X\in SmoothSet$)
 
 $$
   \begin{aligned}
@@ -2334,6 +2341,265 @@ $$
 $$
 
 by prop. \ref{SpaceOf0FormsIsRealLine}.
+
+=--
+
+
+$\,$
+
+### Integration and transgression
+
++-- {: .num_defn #ParameterizedIntegrationOfDifferentialForms}
+###### Definition
+**(parameterized [[integration of differential forms]])
+
+Let 
+
+1. $X$ be a [[smooth set]];
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+
+1. $n \geq k \in \mathbb{N}$;
+
+Consider the [[smooth set|smooth]] [[moduli spaces]] $\mathbf{Omega}^n$ of [[differential forms]] (Example \ref{SmoothSetOfDifferentialForms}) as well as the [[smooth set|smooth]] [[mapping space]] $[\Sigma_k, \mathbf{\Omega}^n]$ into it (Def. \ref{SmoothFunctionSpace}) out of $\Sigma_k$ regarded as a [[smooth set]] spring
+
+Then we write
+
+$$
+  \int_{\Sigma}
+    \;\colon\;
+  [\Sigma_k, \mathbf{\Omega}^n]
+    \longrightarrow
+  \mathbf{\Omega}^{n-k}
+$$
+
+for the [[smooth function]] which takes a plot $\omega_{(-)} \colon U \to [\Sigma, \mathbf{\Omega}^k]$, hence equivalently a differential $n$-form $\omega_{(-)}(-)$ on $U \times \Sigma$ to the result of [[integration of differential forms]] over $\Sigma$:
+
+
+$$
+  \int_{\Sigma} \omega_{(-)}(-) \coloneqq \int_\Sigma \omega_{(-)}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #TransgressionOfDifferentialFormsToMappingSpaces}
+###### Definition
+**(transgression of differential forms to [[mapping spaces]])
+
+Let 
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+
+Then the operation of _transgression of differential $n$-forms_ on $X$ with respect to $\Sigma$ is the [[function]]
+
+$$
+  \tau_\Sigma
+   \coloneqq
+  \int_\Sigma [\Sigma,-]
+   \;\colon\;
+  \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
+$$
+
+from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ which takes the differential form corresponding to the smooth function
+
+$$
+  (X \stackrel{\omega}{\to} \Omega^n) \in \Omega^n(X)
+$$
+
+to the differential form corresponding to the following composite smooth funtion:
+
+$$
+  \tau_\Sigma \omega
+   \coloneqq
+  \int_{\Sigma} [\Sigma,\omega]
+   \;\colon\;
+  [\Sigma, X] 
+    \stackrel{[\Sigma, \omega]}{\to}  
+  [\Sigma, \Omega^n]
+    \stackrel{\int_{\Sigma}}{\to}
+  \Omega^{n-k}
+  \,,
+$$
+
+where $[\Sigma,\omega]$ is the [[mapping space]] [[functor]] on [[morphisms]] and $\int_{\Sigma}$ is the parameterized integration of differential forms from def. \ref{ParameterizedIntegrationOfDifferentialForms}.
+
+More explicitly in terms of plots this means equivalently the following 
+
+A plot of the [[mapping space]]
+
+$$
+  \phi_{(-)} \;\colon\; U \to [\Sigma, X] 
+$$
+
+is equivalently a [[smooth function]] of the form
+
+$$
+  \phi_{(-)}(-) \;\colon\; U \times \Sigma \to X
+  \,.
+$$
+
+The smooth function $[\Sigma,\omega]$ takes this smooth function to the plot
+
+$$
+  U \times \Sigma \to X
+   \overset{\phi_{(-)}(-)}{\longrightarrow}
+  X 
+   \overset{\omega}{\longrightarrow}
+  \mathbf{\Omega}^{n}
+$$
+
+which is equivalently a differential form
+
+$$
+  (\phi_{(-)}(-))^\ast \omega \in \Omega^n(U \times \Sigma)
+  \,.
+$$
+
+Finally the smooth function $\int_\Sigma$ takes this to the result of [[integration of differential forms]] over $\Sigma$:
+
+$$
+  \tau_{\Sigma}\omega\vert_{\phi_{(-)}}
+  \;=\;
+  \int_\Sigma (\phi_{(-)}(-))^\ast \omega
+  \;\in\;
+  \Omega^{n-k}(U)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap}
+###### Definition
+**(transgression of differential forms to mapping space via evaluation map)**
+
+Let 
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+
+Then the operation of _transgression of differential $n$-forms_ on $X$ with respect to $\Sigma$ is the [[function]]
+
+$$
+  \tau_\Sigma
+   \coloneqq
+  \int_\Sigma ev^\ast
+   \;\colon\;
+  \Omega^n(X)
+    \overset{ev^\ast}{\longrightarrow} 
+  \Omega^n(\Sigma \times [\Sigma, X])
+    \overset{\int_\Sigma}{\longrightarrow}
+  \Omega^{n-k}([\Sigma,X])
+$$
+
+from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ which is the [[composition|composite]] of forming the [[pullback of differential forms]] along the [[evaluation map]] $ev \colon  [\Sigma, X] \times \Sigma \to X$ with [[integration of differential forms]] over $\Sigma$.
+
+
+=--
+
+
+
++-- {: .num_prop #EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces}
+###### Proposition
+
+The two definitions of transgression of differential forms to mapping spaces from def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} and def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} are equivalent.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+We need to check that for all plots $\gamma \colon U \to [\Sigma, X]$
+the pullbacks of the two forms to $U$ coincide.
+
+For def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} we get
+
+$$
+  \gamma^\ast \int_\Sigma \mathrm{ev}^\ast A
+  =
+  \int_\Sigma (\gamma,\mathrm{id}_\Sigma)^\ast \mathrm{ev}^\ast A
+  \;
+  \in \Omega^n(U)
+$$
+
+Here we recognize in the integrand the pullback along
+the $( (-)\times \Sigma \dashv [\Sigma,-])$-[[adjunct]] $\tilde \gamma : U \times \Sigma \to \Sigma$ of $\gamma$,
+which is given by applying the [[left adjoint]] $(-)\times \Sigma$ and then postcomposing with the adjunction counit $\mathrm{ev}$:
+
+$$
+  \array{
+    U \times \Sigma
+    &
+     \overset{(\gamma, \mathrm{id}_\Sigma)}{\longrightarrow}
+    &
+    [\Sigma,X] \times \Sigma
+    &
+      \overset{\mathrm{ev}}{\longrightarrow}
+    &
+    X
+  }
+  \,.
+$$
+ 
+Hence the integral is now
+
+$$
+  \cdots = \int_{\Sigma} \tilde \gamma^\ast A
+  \,.
+$$
+
+This is the operation of the top horizontal composite in the following
+[[natural transformation|naturality square]] for [[adjuncts]], and so the claim follows by its [[commuting diagram|commutativity]]:
+
+$$
+  \array{
+    \tilde \gamma \in 
+    & 
+    \mathbf{H}(U \times\Sigma, X)
+    &
+      \overset{\mathbf{H}(U \times \Sigma,A)}{\longrightarrow}
+    &    
+    \mathbf{H}(U \times \Sigma, \mathbf{\Omega}^{n+k})
+    &
+      \overset{\int_\Sigma(U)}{\longrightarrow}
+    &
+    \Omega^n(U)
+    \\
+    &
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    {}^{\mathllap{\simeq}}\downarrow
+    \\
+    \gamma \in 
+    & 
+    \mathbf{H}(U,[\Sigma,X])
+    &
+      \overset{\mathbf{H}(U,[\Sigma,A])}{\longrightarrow}
+    &
+    \mathbf{H}(U,[\Sigma,\mathbf{\Omega}^{n+k}])
+    &
+      \overset{\mathbf{H}(U,\int_\Sigma)}{\longrightarrow}
+    & 
+    \mathbf{H}(U,\mathbf{\Omega}^n)
+  }
+$$
+
+(here we write $\mathbf{H}(-,-)$ for the [[hom functor]] of [[smooth sets]]).
 
 =--
 
