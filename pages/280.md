@@ -169,6 +169,8 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 
   * [[transitive action]], [[free action]], [[regular action]]
 
+  * [[proper action]], [[properly discontinuous action]]
+
 * [[coaction]]
 
 * [[representation]], [[∞-representation]]
