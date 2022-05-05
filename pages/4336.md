@@ -3,11 +3,13 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-A __matrix__ is a [[list]] of lists.
+For [[natural numbers]] $n$ and $m$ and a set $X$, an $n\times m$ __matrix__ of elements of $X$ is a function $M:[n]\times[m]\rightarrow X$ from the Cartesian product $[n]\times[m]$ to $X$.
 
-Often one uses the term in a context where one can add and multiply matrices using [[matrix calculus]].
+Often one uses the term in a context where one can add and multiply matrices using [[matrix calculus]].  Addition of matrices of the same dimension requires $X$ to have an "addition" operation; multiplication of matrices requires $X$ to also have a "multiplication" operation.  Usually $X$ is at least a [[rig]] and often a [[ring]] or a [[field]].
+
+More generally, for arbitrary sets $A$ and $B$ we can define an $A\times B$-matrix to be a function $A\times B\to X$.  If $X$ has some kind of "infinitary sums" as well as finite "products", then we can also multiply matrices of this sort: e.g. if $X$ is the set of objects of a [[monoidal category]] with arbitrary [[coproducts]].
 
 ## Related concepts
 
