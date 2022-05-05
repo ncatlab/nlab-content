@@ -84,5 +84,5 @@ As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] an
 
 An analogous discussion for [[derived categories]] of coherent sheaves is in
 
-* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay VerfdiVercorrespondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
+* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
