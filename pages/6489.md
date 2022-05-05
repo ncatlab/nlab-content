@@ -14,6 +14,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -202,6 +204,27 @@ This justifies the repeated notation of $\phi$, since this says that if an objec
 
 Bridgeland proves that an equivalent way to give a stability is to specify a heart of a bounded [[t-structure]] on $\mathcal{D}$ and give a stability function the heart that satisfies the Harder-Narasimhan property.
 
+
+### Schur's lemma
+ {#LemmaSchur}
+
++-- {: .num_prop #SchurLemma}
+###### Proposition
+**([[Schur's lemma]])**
+
+Let $\mathcal{A}$ be an [[abelian category]] equipped with a stability condition (Def. \ref{StabilityCondition}).
+
+For $E \in \mathcal{A}$ a stable object (Def \ref{StableObjects}), every [[endomorphism]] of $E$ is either the [[zero morphism]] or is an [[isomorphism]]; in particular if $\mathcal{A}$ is [[enriched category|enriched]] in [[vector spaces]] over an [[algebraically closed field]] $k$, then $End(E) \simeq k$.
+
+More generally, for $E_1, E_2 \in \mathcal{A}$ two stable objects of the sqma slope/phase, $\phi(E_1) =\phi(E_2)$, any [[morphism]] $E_1 \to E_2$ is either the [[zero morphism]] or is an [[isomorphism]].
+
+
+=--
+
+e.g. ([Bayer 11, 2.3 Exercise 1](#Bayer11),  [Martinez 13, prop. 3](#Martinez13)) spring
+
+
+
 ### Space of stability conditions
  {#SpaceOfStabilityConditions}
 
@@ -218,10 +241,11 @@ Under reasonable hypotheses (...), one can put a natural [[topological manifold|
 Most work using this fact has been done in the case of the [[bounded derived category of coherent sheaves]] $\mathcal{D}=D^b(Coh(X))$ where $X$ is a smooth, projective [[algebraic variety|variety]] over $\mathbb{C}$ so that $\mathcal{D}$ is $\mathbb{C}$-linear and $K(\mathcal{D})$ is finitely generated.
 
 
-### Wall crossing
- {#WallCrossing}
+The space of stability conditions $Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is that if one fixes a numerical condition $v$ and considers the [[moduli space]] of $\sigma$-stable sheaves as $\sigma$ varies through $Stab(X)$, then the moduli spaces $M_\sigma(v)\simeq M_{\sigma '}(v)$ should be isomorphic if $\sigma$ and $\sigma'$ are in the same chamber. Bayer and Macri have shown this is true for K3 surfaces, and upon [[wall crossing|crossing a wall]] the moduli spaces are related by a [[birational map]].
 
-$Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is that if one fixes a numerical condition $v$ and considers the [[moduli space]] of $\sigma$-stable sheaves as $\sigma$ varies through $Stab(X)$, then the moduli spaces $M_\sigma(v)\simeq M_{\sigma '}(v)$ should be isomorphic if $\sigma$ and $\sigma'$ are in the same chamber. Bayer and Macri have shown this is true for K3 surfaces, and upon [[wall crossing|crossing a wall]] the moduli spaces are related by a [[birational map]].
+
+
+
 
 ## Examples
 
@@ -308,6 +332,7 @@ Further developments include
 
 * [[Tom Bridgeland]], Ivan Smith, _Quadratic differentials as stability conditions_, [arxiv/1302.7030](http://arxiv.org/abs/1302.7030)
  
+* {#Martinez13} Cristian Martinez, _Duality, Bridgeland wall-crossing and flips of secant varieties_ ([arXiv:1311.1183](https://arxiv.org/abs/1311.1183))
 
 
 ### Introduction and review
@@ -316,7 +341,7 @@ Further developments include
 
 * {#Reineke08} Markus Reineke, _Moduli of representations of quivers_ ([arXiv:0802.2147](https://arxiv.org/abs/0802.2147))
 
-* Arend Bayer, _A tour to stability conditions on derived categories_, 2011 ([pdf](https://www.maths.ed.ac.uk/~abayer/dc-lecture-notes.pdf))
+* {#Bayer11} Arend Bayer, _A tour to stability conditions on derived categories_, 2011 ([pdf](https://www.maths.ed.ac.uk/~abayer/dc-lecture-notes.pdf))
 
 * [[Daniel Huybrechts]], _Introduction to stability conditions_ ([arXiv:1111.1745](https://arxiv.org/abs/1111.1745))
 
