@@ -228,11 +228,23 @@ with respect to the canonical [[decategorification|decategorified]] [[inner prod
 
 
 
-## Generalizations
-  
-Part (1) is essentially [[category theory|category-theoretic]] and can be generalized in many ways, for example, by replacing the [[group]] $G$ by some $k$-[[associative algebra|algebra]] and taking the representations compatible with the action of $k$; more generally, given an [[abelian category]], the [[endomorphism ring]] of a [[simple object]] is a division ring. 
+## Generalizations and variants
+ {#GeneralizationsAndVariants}
 
-For (2), if the endomorphism rings of all objects in an [[abelian category]] are [[finite-dimensional vector space|finite-dimensional]] over an [[algebraically closed field]] $k$ (as is the case for group representations), then the endomorphism ring of a simple object is $k$ itself.
+### For simple modules
+  
+Part (1) is essentially [[category theory|category-theoretic]] and can be generalized in many ways, for example, by replacing the [[group]] $G$ by some $k$-[[associative algebra|algebra]] and taking the representations compatible with the action of $k$. 
+
+
+### For simple objects in an abelian category
+
+More generally, given an [[abelian category]], part (1) of  Schur's lemma applies to the [[simple objects]] (see [there](simple+object#SchurLemma)) and the  [[endomorphism ring]] of a [[simple object]] is a [[division ring]]. 
+
+For (2), if the [[endomorphism rings]] of all objects in an [[abelian category]] are [[finite-dimensional vector space|finite-dimensional]] over an [[algebraically closed field]] $k$ (as is the case for group representations), then the endomorphism ring of a simple object is $k$ itself.
+
+### For Bridgeland stable objects
+
+The statement of Schur's lemma applies also to objects which are stable with respect to a [[Bridgeland stability condition]], see [there](Bridgeland+stability+condition#SchurLemma)
 
 
 ## References
