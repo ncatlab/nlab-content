@@ -27,7 +27,7 @@ The Adams conjecture/Adams-Quillen theorem serves a central role in the identifi
 
 ## Statements
 
-Let $X$ be (the [[homotopy type]] of) a [[topological space]]. For $V \;\colon\; X \longrightarrow B O$ classifying a real [[vector bundle]] on $X$, the corresponding [[spherical fibration]] is classifid by the composite
+Let $X$ be (the [[homotopy type]] of) a [[topological space]]. For $V \;\colon\; X \longrightarrow B O$ classifying a real [[vector bundle]] on $X$, the corresponding [[spherical fibration]] is classified by the composite
 
 $$
   J(V)
