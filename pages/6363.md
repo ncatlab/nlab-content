@@ -257,6 +257,16 @@ Careful discussion of the duality for the more general case of [[locally compact
 
 * {#Brandenburg07} [[Martin Brandenburg]], _Gelfand-Dualit&#228;t ohne 1_, 2007 ([web](http://www.matheplanet.com/matheplanet/nuke/html/article.php?sid=1111))
 
+{#ReferencesCenterOfAction} Discussion of Gelfand duality as a [[fixed point equivalence of an adjunction]] between includes
+
+* {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], section 4-c of _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
+
+following
+
+* {#DubucPorta71} [[Eduardo Dubuc]], [[Horacio Porta]], _Convenient categories of topological algebras_, Bull. Amer. Math. Soc., Volume 77, Number 6 (1971), 975-979 ([Euclid:1183533170](https://projecteuclid.org/euclid.bams/1183533170))
+
+
+
 Some other generalized contexts for Gelfand duality:
 
 * [[Hans Porst]], Manfred B. Wischnewsky, _Every topological category is convenient for Gelfand duality_, Manuscripta mathematica __25__:2, (1978) pp 169-204 
