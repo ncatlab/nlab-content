@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include model theory - contents]]
 =--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea
 
-**Generalized quantifiers** were introduced into [[model theory]] by the Polish Logician A. Mostowski in order to supplement the usual [[existential quantifier|existential]] and [[universal quantifiers]] of [[first-order logic|first-order predicate logic]] with the aim to circumvent shortcomings concerning expressivity and categoricity.
+**Generalized quantifiers** were introduced into [[model theory]] by the Polish logician A. Mostowski in order to supplement the usual [[existential quantifier|existential]] and [[universal quantifiers]] of [[first-order logic|first-order predicate logic]] with the aim to circumvent shortcomings concerning expressivity and categoricity.
 
 Their use for the [[semantics|semantic]] analysis of natural language determiners in the footsteps of [[Richard Montague]] revolutionized [[linguistics]] in the early 1970s.
 
@@ -23,8 +27,6 @@ Their use for the [[semantics|semantic]] analysis of natural language determiner
 
 +-- {: .num_defn #GeneralizedQuantifier}
 ###### Definition
-
-
 
 A _generalized quantifier_ or an _interpretation of a quantifier symbol_ $Q$ is a mapping $\mu_Q$ from triples of cardinal numbers $\langle \mathfrak{m},\mathfrak{n},\mathfrak{p}\rangle$ such that $\mathfrak{m}+\mathfrak{n}=\mathfrak{p}$ to $\Omega=\{0,1\}$. The satisfaction relation for $Q$ is defined for structures $\mathfrak{A}$ with carrier $A$ and valuation $x$ by
 
@@ -44,11 +46,11 @@ $$
 
 ## Examples
 
-* The universal quantifier $Q=\forall$ has $\mu_\forall(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{n}=0$.
+* The [[universal quantifier]] $\forall$ has $\mu_\forall(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{n}=0$.
 
 * The quantifier $Q_\alpha$ "there exist at least $\aleph_\alpha$" is given by $\mu_{Q_\alpha}(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{m}\geq\aleph_{\alpha}\;$.
 
-* The quantifier $Q=\mathsf{W}$ "most" is given by $\mu_{\mathsf{W}}(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{m}>\mathfrak{n}\;$. Note that this uses the second variable as well, whereas $\forall$ or $Q_\alpha$ depend only on $card(\{a\in A:\mathfrak{A}\models_{x(n/a)}\phi\})$.
+* The quantifier $\mathsf{W}$ "most" is given by $\mu_{\mathsf{W}}(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{m}>\mathfrak{n}\;$. Note that this uses the second variable as well, whereas $\forall$ or $Q_\alpha$ depend only on $card(\{a\in A:\mathfrak{A}\models_{x(n/a)}\phi\})$.
 
 ## Related entries
 
