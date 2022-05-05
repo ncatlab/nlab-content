@@ -8,6 +8,8 @@ See [www.jmilne.org](http://www.jmilne.org)
 
 * _[[Lectures on Étale Cohomology]]_  ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
+* _Algebraic groups: The theory of group schemes of finite type over a field_, Cambridge University Press, 2017 ([description](http://www.jmilne.org/math/Books/iag.html))
+
 ## Related entries
 
 * [[étale cohomology]]
