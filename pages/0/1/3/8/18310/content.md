@@ -20,22 +20,37 @@
 
 ## Definition
 
-A [[commutative monoid]] $(A, \cdot)$ is called _cancellative_ if 
+A [[monoid]] $(A, \cdot)$ is called _left cancellative_ if 
 
 $$
   \underset{a,b,z \in A}{\forall}
   \left(
     \left(
-      a \cdot z = b \cdot z
+      z \cdot a = z \cdot b
    \right)
      \Rightarrow
    \left(
      a = b
    \right)
   \right)
-$$  
+$$ 
 
-For a non-commutative monoid one distinguishes left and right cancellability, in the evident way
+and called _right cancellative_ if 
+
+$$
+  \underset{a,b,z \in A}{\forall}
+  \left(
+    \left(
+      a \cdot z = a \cdot z
+   \right)
+     \Rightarrow
+   \left(
+     a = b
+   \right)
+  \right)
+$$ 
+
+It is called _cancellative_ if it is both _left cancellative_ and _right cancellative_. 
 
 ## Related concepts
 
