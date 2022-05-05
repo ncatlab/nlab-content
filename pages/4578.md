@@ -2,6 +2,6 @@ __Fernando Muro__ is an algebraic topologist from Seville (Sevilla, Andalusia, S
 
 * [homepage](http://personal.us.es/fmuro)
 
-* [publications](http://personal.us.es/fmuro/publi.htm)
+For his publications, see the Research link on his home page.
 
 [[!redirects F. Muro]]
