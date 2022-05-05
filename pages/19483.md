@@ -10,11 +10,15 @@ It turns out that these relations are reflected by special properties of an [[ad
 
 **[[generalized spaces]] via [[generators and relations]]:**
 
-| $\phantom{A}$[[free cocompletion]]$\phantom{A}$ <br/> $\phantom{A}=$[[category of presheaves|presheaves]]$\phantom{A}$  | $\phantom{A}$[[reflective subcategory]]$\phantom{A}$ <br/> $\phantom{A}$of [[category of presheaves|presheaves]]$\phantom{A}$ | $\phantom{A}$[[locally presentable category|loc. presentable category]]$\phantom{A}$ | $\phantom{A}$[[sheaf topos]]$\phantom{AAAA}$ |  
-|-----|---|-------|------|
-| $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAA}}{\longrightarrow}}{\overset{}{\longleftarrow}}{\simeq} [\mathcal{C}^{op},Set]$  | $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAAA}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{\text{left exact}}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ |
-| $\phantom{A}$Prop. \ref{FreeCocompletion}$\phantom{A}$ | $\phantom{A}$Def. \ref{ReflectiveSubcategory}$\phantom{A}$  | $\phantom{A}$Def. \ref{LocallyPresentableCategory}$\phantom{A}$ | $\phantom{A}$Prop. \ref{SheafToposViaLexReflection}$\phantom{A}$ |
-
+| $\phantom{A}$[[free cocompletion]]$\phantom{A}$ <br/> $\phantom{A}=$[[category of presheaves|presheaves]]$\phantom{A}$  | $\phantom{A}$[[locally presentable category|loc. presentable category]]$\phantom{A}$ | $\phantom{A}$[[sheaf topos]]$\phantom{AAAA}$ |  
+|-----|--|------|
+| $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAA}}{\longrightarrow}}{\overset{}{\longleftarrow}}{\simeq} [\mathcal{C}^{op},Set]$ |  $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{\text{left exact}}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ |
+| $\phantom{A}$Prop. \ref{FreeCocompletion}$\phantom{A}$ | $\phantom{A}$Def. \ref{LocallyPresentableCategory}$\phantom{A}$ | $\phantom{A}$Prop. \ref{SheafToposViaLexReflection}$\phantom{A}$ |
+|  |   |    |
+| $\phantom{A}$**[[simplicial presheaves]]$\phantom{A}$** |  **$\phantom{A}$[[combinatorial model category]]$\phantom{A}$** |   **$\phantom{A}$[[model topos]]$\phantom{A}$** | 
+| $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAA}}{\longrightarrow}}{\overset{}{\longleftarrow}}{\simeq_{Qu}} [\mathcal{C}^{op},sSet_{Qu}]_{proj}$ |  $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot_{Qu}} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{\text{left exact}}{\longleftarrow}}{\bot_{Qu}} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$ |
+| $\phantom{A}$Example \ref{CategoriesOfSimplicialPresheaves} | $\phantom{A}$Def. \ref{BousfieldLocalizationOfModelCategories} |  $\phantom{A}$Def. \ref{ModelTopos} |   
+ 
 $\,$
 
 +-- {: .num_remark #SheafConditionAsLocality}
@@ -1138,7 +1142,7 @@ $$
   [\mathcal{C}^{op}, Set]
 $$
 
-such that the inclusion functor is an _[[accessible functor|accessible functor]]_ in that it [[[preserved limit|preserves]] $\kappa$-[[filtered colimits]] for some [[regular cardinal]] $\kappa$.
+such that the inclusion functor is an _[[accessible functor|accessible functor]]_ in that it [[preserved limit|preserves]] $\kappa$-[[filtered colimits]] for some [[regular cardinal]] $\kappa$.
 
 =--
 
@@ -1180,24 +1184,27 @@ such that:
 
 1. the reflector $L \colon PSh(\mathcal{C})  \to Sh(\mathcal{C})$ (which is [[sheafification]], Prop. \ref{Sheafification}) is [[left exact functor|left exact]] ("lex") in that it [[preserved limit|preserves]] [[finite limits]].
 
-Conversely, every [[sheaf topos]] arises this way. Hence [[sheaf toposes]] $\mathbf{H}$ are equivalently 
+Conversely, every [[sheaf topos]] arises this way. Hence [[sheaf toposes]] $\mathbf{H}$ are equivalently the [[left exact functor|left exact]]-[[reflective subcategory|reflectively]] [[full subcategories]] of [[presheaf toposes]] over some [[small category]] $\mathcal{C}$:
 
-1. the [[left exact functor|left exact]]-[[reflective subcategory|reflectively]] and [[accessible functor|accessibly]]-embedded [[full subcategories]] of [[presheaf toposes]];
-
-1. the [[left exact functor|left exact]]-[[reflective subcategory|reflectively]]-embedded [[locally presentable category|locally presentbale]] [[full subcategories]] of [[categories of presheaves]]:
-
-
-$$
+\[
+  \label{SheafToposAsLexReflection}
   \mathbf{H}
    \underoverset
      {\underset{\phantom{AA}acc\phantom{AA}}{\hookrightarrow}}
      {\overset{\phantom{AA}lex\phantom{AA}}{\longleftarrow}}
      {\bot}
   PSh(\mathcal{C})
-$$
-
+\]
  
 =--
 
-(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](sheaf+toposes+are+equivalently+the+left+exact+reflective+subcategories+of+presheaf+toposes#Borceux94))
+(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](sheaf+toposes+are+equivalently+the+left+exact+reflective+subcategories+of+presheaf+toposes#Borceux94), [Johnstone, C.2.1.11](sheaf+toposes+are+equivalently+the+left+exact+reflective+subcategories+of+presheaf+toposes#Johnstone))
 
+
++-- {: .num_example}
+###### Remark
+**(left exact reflections of [[categories of presheaves]] are [[locally presentable categories]])**
+
+In the characterization of [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes|sheaf toposes as left exact reflections of categories of presheaves]] in Prop. \ref{SheafToposViaLexReflection}, the [[accessible functor|accessibility]] of the inclusion, equivalently the [[locally presentable category|local presentability]] (Def. \ref{LocallyPresentableCategory}) is automatically implied (using the [[adjoint functor theorem]]), as indicated in (eq:SheafToposAsLexReflection). 
+
+=--
