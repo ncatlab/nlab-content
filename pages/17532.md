@@ -26,7 +26,7 @@ Let $G$ be a topological group.
 +-- {: .num_defn}
 ###### Definition
 
-The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped with a continuous $G$-action $\mu: G \times X \to X$, where $X$ is given the discrete topology, and the morphisms are the $G$-invariant maps. We write the category as $G Set$. In this page, we always let $G$ acts on the left.
+The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped with a continuous $G$-action $\mu: G \times X \to X$, where $X$ is given the discrete topology, and the morphisms are the $G$-invariant maps. We write the category as $G Set$. In this page, we always let $G$ act on the left.
 =--
 
 There is a simple characterization of when a $G$-action is continuous.
