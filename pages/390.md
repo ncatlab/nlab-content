@@ -42,21 +42,21 @@ every morphism $f$ in $C$ factors $f = r\circ \ell$ as a morphism $\ell \in E$ f
 
 1. We have:
  
-   1. $E$ is precisely the class of morphisms that are left [[orthogonality|orthogonal]] to every morphism in $M$;
+   a. $E$ is precisely the class of morphisms that are left [[orthogonality|orthogonal]] to every morphism in $M$;
 
-   1. $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
-
-1. We have:
-
-   1. The factorization is unique up to unique [[isomorphism]].
-
-   1. $E$ and $M$ both contain all [[isomorphisms]] and are closed under composition.
+   b. $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
 
 1. We have:
 
-   1. $E$ and $M$ are [[replete subcategories]] of the [[arrow category]] $C^I$.
+   a. The factorization is unique up to unique [[isomorphism]].
 
-   1. Every morphism in $E$ is left [[orthogonality|orthogonal]] to every morphism in $M$.
+   b. $E$ and $M$ both contain all [[isomorphisms]] and are closed under composition.
+
+1. We have:
+
+   a. $E$ and $M$ are [[replete subcategories]] of the [[arrow category]] $C^I$.
+
+   b. Every morphism in $E$ is left [[orthogonality|orthogonal]] to every morphism in $M$.
 
 =--
 
