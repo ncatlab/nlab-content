@@ -88,7 +88,7 @@ A [[metric space]] is sequentially compact precisely if it is [[compact topologi
 
 In general neither of these two properties implies the other:
 
-* Examples of a sequentially compact spaces which are not compact are given in in ([Buskes-Rooij 97, example 13.5](#BuskesRooij97), [Patty 08, chapter 4, example 13](#Patty08), [Vermeeren 10, prop. 18](#Vermeeren10)).
+* Examples of a sequentially compact spaces which are not compact are given in in ([Buskes-Rooij 97, example 13.5](#BuskesRooij97), [Patty 08, chapter 4, example 13](#Patty08), [Vermeeren 10, prop. 18](#Vermeeren10)). The [[long line]] is such an example. 
 
 * An example of a [[compact topological space]] which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)), recalled at [Vermeeren 10, prop. 17](#Vermeeren10). See at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact).
 
