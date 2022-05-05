@@ -37,6 +37,8 @@ See at _[[projective object]]_ the section _[Existence of enough projectives](pr
 
 ## Related concepts
 
+* [[sheaf on a topological space]]
+
 * [[abelian group]]
 
 * [[abelian sheaf cohomology]]
