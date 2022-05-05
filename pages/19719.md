@@ -25,6 +25,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Benedikt Ahrens]]
 * [[Jasper Hugunin]]
 * [[Dan Licata]]
+* [[N. Raghavendra]]
 
 ## Plans
 
