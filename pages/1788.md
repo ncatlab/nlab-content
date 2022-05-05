@@ -1,4 +1,6 @@
 
+[[sets]]
+
 [[SimplicialSetsIdea.jpg:file]]
 
 <img src="https://ncatlab.org/nlab/files/SimplicialSetsIdea.jpg" width="600">
