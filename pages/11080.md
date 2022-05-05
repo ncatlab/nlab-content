@@ -17,63 +17,807 @@
 
 > This entry one chapter of _[[geometry of physics]]_.
 
-> previous chapters: _[[ geometry of physics -- coordinate systems|coordinate systems]]_, _[[geometry of physics -- categories and toposes|categories and toposes]]_
+> previous chapters: _[[geometry of physics -- categories and toposes|categories and toposes]]_
 
-> next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
+> next chapters: _[[geometry of physics -- supergeometry|supergeometry]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
 
 $\,$
 
 $\,$
 
-This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or _smooth [[homotopy 0-types|0-types]]_.
+This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or, with an eye towards their generalization to _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_, _smooth [[h-sets]]_ or _smooth [[homotopy 0-types|0-types]]_[^terminology].
 
-The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] spring and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and diffeological spaces.
+The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] (Prop. \ref{CartSpCategory} below) and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and [[diffeological spaces]].
 
-In fact smooth sets are an early stage in a long sequence of generalized smooth spaces used in [[higher differential geometry]]:
+In fact smooth sets are an early stage in a long sequence of generalized smooth spaces appearing in [[higher differential geometry]]:
 
-$\{$[[coordinate systems]]$\}$
- $\hookrightarrow$
-$\{$[[smooth manifolds]]$\}$
- $\hookrightarrow$
-$\{$[[Hilbert manifolds]]$\}$
- $\hookrightarrow$
-$\{$[[Banach manifolds]]$\}$
- $\hookrightarrow$
-$\{$[[Fréchet manifolds]]$\}$
- $\hookrightarrow$
-$\{$[[diffeological spaces]]$\}$
- $\hookrightarrow$
-$\{$[[smooth sets]]$\}$
- $\hookrightarrow$
-$\{$[[orbifold|smooth orbifolds]]$\}$
- $\hookrightarrow$
-$\{$[[smooth groupoids]]$\}$
- $\hookrightarrow $
-$\{$[[smooth 2-groupoids]]$\}$
- $\hookrightarrow
- \cdots
- \hookrightarrow $
-$\{$[[smooth ∞-groupoids]]$\}$
+$\,$
+<br/>$\;\;\;\;$ $\{$[[coordinate systems]]$\}$
+<br/>$\hookrightarrow$ $\{$[[smooth manifolds]]$\}$
+<br/>$\hookrightarrow$ $\{$[[Hilbert manifolds]]$\}$
+<br/>$\hookrightarrow$ $\{$[[Banach manifolds]]$\}$
+<br/>$\hookrightarrow$ $\{$[[Fréchet manifolds]]$\}$
+<br/>$\hookrightarrow$ $\{$[[diffeological spaces]]$\}$
+<br/>$\hookrightarrow$ $\{$[[smooth sets]]$\}$
+<br/>$\hookrightarrow$ $\{$[[orbifold|smooth orbifolds]]$\}$
+<br/>$\hookrightarrow$ $\{$[[smooth groupoids]]$\}$
+<br/>$\hookrightarrow $ $\{$[[smooth 2-groupoids]]$\}$
+<br/>$\hookrightarrow $ $\cdots$
+<br/>$\hookrightarrow $ $\{$[[smooth ∞-groupoids]]$\}$
+<br/>$\hookrightarrow $ $\{$[[formal smooth ∞-groupoids]]$\}$
+<br/>$\hookrightarrow $ $\{$[[super formal smooth ∞-groupoids]]$\}$
 
 
+[^terminology]: In view of the _[[smooth homotopy types]]_ to be discussed in _[[geometry of physics -- smooth homotopy types]]_, the structures discussed now are properly called _smooth [[0-types]]_ or maybe _smooth [[h-sets]]_ or just _smooth sets_. While this subsumes [[smooth manifolds]] which are indeed sets equipped with (particularly nice) [[smooth structure]], it is common in practice to speak of manifolds as "spaces" (indeed as [[topological spaces]] equipped with smooth structure). Historically the _[[Cartesian space]]_ and _[[Euclidean space]]_ of [[Newtonian physics]] are the archetypical examples of smooth manifolds and modern [[differential geometry]] developed very much via motivation by the study of the _spaces_ in [[general relativity]], namely _[[spacetimes]]_. Unfortunately, in a parallel development the word "space" has evolved in [[homotopy theory]] to mean (just) the [[homotopy types]] _represented_ by an actual [[topological space]] (their [[fundamental infinity-groupoids]]). Ironically, with this meaning of the word "space" the original [[Euclidean spaces]] become equivalent to the point, signifying that the modern meaning of "space" in [[homotopy theory]] is quite orthogonal to the original meaning, and that in homotopy theory therefore one should better stick to "[[homotopy types]]". Since historically grown terminology will never be fully logically consistent, and since often the less well motivated terminology is more widely understood, we will follow tradition here and take the liberty to use "smooth sets" and "smooth spaces" synonymously, the former when we feel more formalistic, the latter when we feel more relaxed.
 
-+-- {: .num_remark}
-###### Remark
-**Note on terminology.**
-
-In view of the _[[smooth homotopy types]]_ to be discussed in _[[geometry of physics -- smooth homotopy types]]_, the structures discussed now are properly called _smooth [[0-types]]_ or maybe _smooth [[h-sets]]_ or just _smooth sets_. While this subsumes [[smooth manifolds]] which are indeed sets equipped with (particularly nice) [[smooth structure]], it is common in practice to speak of manifolds as "spaces" (indeed as [[topological spaces]] equipped with smooth structure). Historically the _[[Cartesian space]]_ and _[[Euclidean space]]_ of [[Newtonian physics]] are the archetypical examples of smooth manifolds and modern [[differential geometry]] developed very much via motivation by the study of the _spaces_ in [[general relativity]], namely _[[spacetimes]]_. Unfortunately, in a parallel development the word "space" has evolved in [[homotopy theory]] to mean (just) the [[homotopy types]] _represented_ by an actual [[topological space]] (their [[fundamental infinity-groupoids]]). Ironically, with this meaning of the word "space" the original [[Euclidean spaces]] become equivalent to the point, signifying that the modern meaning of "space" in [[homotopy theory]] is quite orthogonal to the original meaning, and that in homotopy theory therefore one should better stick to "[[homotopy types]]".
-
-Since historically grown terminology will never be fully logically consistent, and since often the less well motivated terminology is more widely understood, we will follow tradition here and take the liberty to use "smooth sets" and "smooth spaces" synonymously, the former when we feel more formalistic, the latter when we feel more relaxed.
-
-=--
-
+$\,$
 
 
 #Contents#
 * table of contents
 {:toc}
 
+
+
+## Abstract coordinate systems
+ {#CoordinateSystemsLayerMod}
+
+
+As discussed in the chapter _[[geometry of physics -- categories and toposes|categories and toposes]]_, every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archetypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$ (in every [[dimension]] $n \in \mathbb{N}$). The geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$, hence smooth (and possibly degenerate) [[coordinate transformations]].
+
+Here we introduce the basic concept, organizing them in the [[category]] [[CartSp]] of [[Cartesian spaces]] (Prop. \ref{CartSpCategory} below.) We highlight three classical theorems about [[smooth functions]] in Prop. \ref{AlgebraicFactsOfDifferentialGeometry} below, which look innocent but play a decisive role in setting up [[synthetic differential geometry|synthetic differential]] [[supergeometry]] based on the concept of abstract smooth coordinate systems.
+
+At this point these are not yet coordinate systems _on_ some other space. But by applying the general machine of [[geometry of physics -- categories and toposes|categories and toposes]] to these, a concept of [[generalized spaces]] modeled on these abstract coordinate systems is induced. These are the _[[smooth sets]]_ discussed in the next chapter  _[[geometry of physics -- smooth sets]]_.
+
+
+### The continuum real line
+ {#TheContinuumRealWorldLine}
+
+The fundamental premise of [[differential geometry]] as a model of [[geometry]] in [[physics]] is the following.
+
+**Premise.** _The abstract [[worldline]] of any [[particle]] is modeled by the [[continuum]] [[real line]] $\mathbb{R}$._
+
+This comes down to the following sequence of premises.
+
+1. There is a [[linear ordering]] of the [[points]] on a [[worldline]]: in particular if we pick points at some intervals on the worldline we may label these in an order-preserving way by [[integers]]
+
+   $\mathbb{Z}$.
+
+1. These intervals may each be subdivided into $n$ smaller intervals, for each natural number $n$. Hence we may label points on the [[worldline]] in an order-preserving way by the [[rational numbers]]
+
+   $\mathbb{Q}$.
+
+1. This labeling is dense: every point on the worldline is the [[supremum]] of an [[inhabited set|inhabited]] [[bounded subset]] of such labels. This means that a [[worldline]] [[equivalence|is]] the _[[real line]]_, the [[continuum]] of [[real numbers]]
+
+   $\mathbb{R}$.
+  
+The adjective "real" in "[[real number]]" is a historical shadow of the old idea that real numbers are related to _observed reality_, hence to [[physics]] in this way. The experimental success of this assumption shows that it is valid at least to very good approximation. 
+
+Speculations are common that in a fully exact theory of [[quantum gravity]], currently unavailable, this assumption needs to be refined. 
+For instance in _[[p-adic physics]]_ one explores the hypothesis that the relevant [[complete field|completion]] of the rational numbers as above is not the reals, but [[p-adic numbers]] $\mathbb{Q}_p$ for some [[prime number]] $p \in \mathbb{N}$. Or for example in the study of [[QFT on non-commutative spacetime]] one explore the idea that at small scales the smooth [[continuum]] is to be replaced by an object in [[noncommutative geometry]]. Combining these two ideas leads to the notion of [[non-commutative analytic space]] as a potential model for _[[space]]_ in [[physics]]. And so forth.
+
+For the time being all this remains speculation and differential geometry based on the [[continuum]] [[real line]] remains the context of all fundamental [[model (in theoretical physics)|model building]] in physics related to observed [[phenomenology]]. Often it is argued that these speculations are necessitated by the very nature of [[quantum theory]] applied to [[gravity]]. But, at least so far, such statements are not actually supported by the standard theory of [[quantization]]:
+we discuss below in _[Geometric quantization](GeometricQuantization)_ how not just [[classical physics]] but also [[quantum theory]], in the best modern version available, is entirely rooted in differential geometry based on the [[continuum]] [[real line]].
+
+This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Semantic Layer](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]".
+
+
+### Cartesian spaces and smooth functions
+ {#CartesianSpaces}
+
+
+
++-- {: .num_defn #SmoothFunctions}
+###### Definition
+
+A [[function]] of [[sets]] $f : \mathbb{R} \to \mathbb{R}$ is called 
+a **[[smooth function]]** if, [[coinduction|coinductively]]:
+
+1. the [[derivative]] $\frac{d f}{d x} : \mathbb{R} \to \mathbb{R}$ exists;
+
+1. and is itself a smooth function.
+
+We write $C^\infty(\mathbb{R}) \in Set$ for the [[set]] of all smooth functions on $\mathbb{R}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The superscript "${}^\infty$" in "$C^\infty(\mathbb{R})$" refers to the order of the [[derivatives]] that exist for smooth functions. More generally for $k \in \mathbb{N}$ one writes $C^k(\mathbb{R})$ for the set of $k$-fold [[differentiable functions]] on $\mathbb{R}$. These will however not play much of a role for our discussion here. 
+
+=--
+
+
++-- {: .num_defn #CartesianSpaceAndHomomorphism}
+###### Definition
+
+For $n \in \mathbb{N}$, the **[[Cartesian space]]** $\mathbb{R}^n$ is the set
+
+$$
+  \mathbb{R}^n = \{ (x^1 , \cdots, x^{n}) | x^i \in \mathbb{R} \}
+$$
+
+of $n$-[[tuples]] of [[real numbers]]. For $1 \leq k \leq n$ write
+
+$$
+  i^k : \mathbb{R} \to \mathbb{R}^n
+$$
+
+for the [[function]] such that $i^k(x) = (0, \cdots, 0,x,0,\cdots,0)$ is the [[tuple]] whose $k$th entry is $x$ and all whose other entries are $0 \in \mathbb{R}$; and write
+
+$$
+  \mathbb{p}^k : \mathbb{R}^n \to \mathbb{R}
+$$
+
+for the function such that $p^k(x^1, \cdots, x^n) = x^k$.
+
+A **[[homomorphism]]** of Cartesian spaces is a [[smooth function]]
+
+$$
+  f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
+  \,,
+$$
+
+hence a [[function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ such that all [[partial derivatives]] exist and are [[continuous map|continuous]] (...).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Regarding $\mathbb{R}^n$ as an $\mathbb{R}$-[[vector space]], 
+every [[linear function]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$
+is in particular a [[smooth function]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+But a homomorphism of Cartesian spaces in def. \ref{CartesianSpaceAndHomomorphism} is *not* required to be a [[linear map]]. We do *not* regard the Cartesian spaces here as [[vector spaces]]. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A [[smooth function]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is called a **[[diffeomorphism]]** if there exists another smooth function 
+$\mathbb{R}^{n_2} \to \mathbb{R}^{n_1}$ such that the underlying functions of sets are [[inverse]] to each other
+
+$$
+  f \circ g = id
+$$
+
+and
+
+$$
+  g \circ f = id
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There exists a [[diffeomorphism]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ precisely if $n_1 = n_2$.
+
+=--
+
++-- {: .num_defn #CartesianSpacesAndSmoothFunctions}
+###### Definition
+
+We will also say equivalently that
+
+1. a [[Cartesian space]] $\mathbb{R}^n$ is an **[[coordinate system|abstract coordinate system]]**;
+
+1. a [[smooth function]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is an **[[coordinate transformation|abstract coordinate transformation]]**;
+
+1. the [[function]] $p^k : \mathbb{R}^{n} \to \mathbb{R}$ is the $k$th **[[coordinate]]** of the coordinate system $\mathbb{R}^n$. We will also write this function as $x^k : \mathbb{R}^{n} \to \mathbb{R}$.
+
+1. for $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[smooth function]], and $1 \leq k \leq n_2$ we write
+
+   1. $f^k \coloneqq p^k\circ f$
+
+   1. $(f^1, \cdots, f^n) \coloneqq f$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+It follows with this notation that
+
+$$
+  id_{\mathbb{R}^n} = (x^1, \cdots, x^n) : \mathbb{R}^n \to \mathbb{R}^n
+  \,.
+$$
+
+Hence an abstract coordinate transformation 
+
+$$ 
+  f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
+$$
+
+may equivalently be written as the tuple
+
+$$
+  \left(
+    f^1 \left( x^1, \cdots, x^{n_1} \right)
+    ,
+    \cdots,
+    f^{n_2}\left( x^1, \cdots, x^{n_1} \right)
+  \right)
+  \,.
+$$
+
+=--
+
+
+
+### The magic properties of smooth functions
+ {#PropertiesOfSmoothFunctions}
+
+Below we encounter generalizations of ordinary [[differential geometry]] that include explicit "[[infinitesimals]]" in the guise of _[[infinitesimally thickened points]]_, as well as "super-graded infinitesimals", in the guise of _[[superpoints]]_ (necessary for the
+description of [[fermion fields]] such as the [[Dirac field]]). As we discuss [below](#FieldBundles), these structures are
+naturally incorporated into [[differential geometry]] in just the same way as [[Grothendieck]]
+introduced them into [[algebraic geometry]] (in the guise of "[[formal schemes]]"),
+namely in terms of [[formal dual|formally dual]] [[rings of functions]] with [[nilpotent ideals]].
+That this also works well for [[differential geometry]] rests on the following three
+basic but important properties, which say that [[smooth functions]] behave "more algebraically"
+than their definition might superficially suggest:
+
+
++-- {: .num_prop #AlgebraicFactsOfDifferentialGeometry}
+###### Proposition
+**(the three magic algebraic properties of [[differential geometry]])**
+
+1. **[[embedding of smooth manifolds into formal duals of R-algebras|embedding of Cartesian spaces into formal duals of R-algebras]]**
+
+   For $X$ and $Y$ two [[Cartesian spaces]], the [[smooth functions]] $f \colon X \longrightarrow Y$
+   between them (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) are in [[natural bijection]] with their
+   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}), so that
+   one may equivalently handle [[Cartesian spaces]] entirely via their $\mathbb{R}$-algebras of smooth functions.
+
+   Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that
+   sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is a _[[fully faithful functor]]_:
+
+   $$
+     C^\infty(-)
+     \;\colon\;
+     SmthMfd \overset{\phantom{AAAA}}{\hookrightarrow} \mathbb{R} Alg^{op}
+     \,.
+   $$
+
+   ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93))
+
+
+1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
+
+   For $E_1 \overset{vb_1}{\to} X$ and $E_2 \overset{vb_2}{\to} X$ two [[vector bundle]] (def. \ref{VectorBundle})
+   there is then a [[natural bijection]] between vector bundle [[homomorphisms]] $f \colon E_1 \to E_2$
+   and the [[homomorphisms]] of [[modules]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$
+   that these induces between the [[spaces of sections]] (example \ref{ModuleOfSectionsOfAVectorBundle}).
+
+   More [[category theory|abstractly]] this means that the [[functor]] $\Gamma_X(-)$ is a [[fully faithful functor]]
+
+   $$
+     \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
+   $$
+
+   ([Nestruev 03, theorem 11.29](smooth+Serre-Swan theorem#Nestruev03))
+
+   Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
+   of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over
+   a [[Cartesian space]] $X$
+   are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
+
+   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan theorem#Nestruev03))
+
+
+1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
+
+   For $X$ a [[Cartesian space]] (example \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}),
+   then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on
+   the $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is given by [[differentiation]] with respect to a uniquely defined smooth [[tangent vector field]]: The function that regards [[tangent vector fields]]
+   with [[derivations]] from example \ref{TangentVectorFields}
+
+   $$
+     \array{
+       \Gamma_X(T X)
+         &\overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}&
+       Der(C^\infty(X))
+       \\
+       v &\mapsto& D_v
+     }
+   $$
+
+   is in fact an [[isomorphism]].
+
+   (This follows directly from the _[[Hadamard lemma]]_.)
+
+=--
+
+Actually all three statements in prop. \ref{AlgebraicFactsOfDifferentialGeometry}
+hold not just for [[Cartesian spaces]], but generally for [[smooth manifolds]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below; if only we generalize in the second statement from [[free modules]] to [[projective modules]].
+However for our development here it is useful to first focus on just [[Cartesian spaces]] and then bootstrap
+the theory of [[smooth  manifolds]] and much more from that, which we do [below](#FieldBundles).
+
+
+### The category of abstract coordinate systems
+ {#CoordinateSystemsLayerSem}
+
+Here we make explicit the _[[category]]_ formed by abstract coordinate systems (Prop. \ref{CartSpCategory} below) and mention some of its basic properties. This will serve the discussion of [[smooth sets]] as the _[[sheaves]]_ on the category of abstract coordinate systems, in the next chapter _[[geometry of physics -- smooth sets]]_.
+
+$\,$
+
++-- {: .num_prop #CartSpCategory}
+###### Propositions
+**(the [[category]] [[CartSp]] of abstract [[coordinate systems]]/[[Cartesian spaces]])**
+
+Abstract coordinate systems according to prop. \ref{CartesianSpacesAndSmoothFunctions} form a _[[category]]_ ([this def.](geometry+of+physics+--+Categories+and+Toposes#Categories))
+-- to be denoted _[[CartSp]]_ -- whose
+
+* [[objects]] are the abstract coordinate systems $\mathbb{R}^{n}$ (the [[class]] of objects is the [[set]] $\mathbb{N}$ of [[natural numbers]] $n$);
+
+* [[morphisms]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ are the abstract [[coordinate transformations]] = [[smooth functions]].
+
+Composition of morphisms is given by [[composition]] of [[functions]].
+
+Under this identification
+
+1. The [[identity morphisms]] are precisely the [[identity functions]].
+
+1. The [[isomorphisms]] are precisely the [[diffeomorphisms]].
+
+=--
+
++-- {: .num_defn #OppositeCategoryOfCartSp}
+###### Definition
+**([[opposite category]] of [[CartSp]])**
+
+Write [[CartSp]]${}^{op}$ for the [[opposite category]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#OppositeCategory)) of [[CartSp]] (Prop. \ref{CartSpCategory}).
+
+This is the category with the same objects as $CartSp$, but where a morphism $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ in $CartSp^{op}$ is given by a morphism $\mathbb{R}^{n_1} \leftarrow \mathbb{R}^{n_2}$ in $CartSp$.
+
+=--
+
+We will be discussing below the idea of exploring smooth spaces by laying out abstract coordinate systems in them in all possible ways. The reader should begin to think of the sets that appear in the following definition as the _set of ways_ of laying out a given abstract coordinate systems in a given space. This is discussed in more detail below in _[Smooth spaces](#SmoothSpaces)_.
+
++-- {: .num_defn}
+###### Definition
+
+A [[functor]]  $X : CartSp^{op} \to Set$ (a "[[presheaf]]") is
+
+1. for each abstract coordinate system $U$ a [[set]] $X(U)$
+
+1. for each [[coordinate transformation]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[function]] $X(f) : X(\mathbb{R}^{n_1}) \to X(\mathbb{R}^{n_2})$
+
+such that 
+
+1. [[identity]] is respected $X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}$;
+
+1. [[composition]] is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
+
+=--
+
++-- {: .num_example #SmoothSetOfDifferentialPForms}
+###### Example
+
+Let $\mathcal{C}$ be a [[category]].
+
+1. The following are equivalent:
+
+   1. $\mathcal{C}$ has a [[terminal object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[right adjoint]]
+
+      $$
+        \ast 
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \mathcal{C}
+      $$
+
+    Under this equivalence, the [[terminal object]] is identified with the image under the right adjoint of the unique object of the [[terminal category]].
+
+1. Dually, the following are equivalent:
+
+   1. $\mathcal{C}$ has an [[initial object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
+
+      $$
+        \mathcal{C}
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \ast
+      $$
+
+    Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since the unique [[hom-set]] in the [[terminal category]] is [[generalized the|the]] [[singleton]], the hom-isomorphism characterizing the [[adjoint functors]] is directly the [[universal property]] of an [[initial object]] in $\mathcal{C}$
+ 
+$$
+  Hom_{\mathcal{C}}( L(\ast) , X )
+  \;\simeq\;
+  Hom_{\ast}( \ast, R(X) ) 
+  =
+  \ast 
+$$
+
+or of a [[terminal object]]
+
+$$
+  Hom_{\mathcal{C}}( X , R(\ast) )
+  \;\simeq\;
+  Hom_{\ast}( L(X), \ast ) = \ast
+  \,,
+$$
+
+respectively.
+
+
+
+=--
+
+
+### The algebraic theory of smooth algebras
+ {#TheAlgebraicTheoryOfSmoothAlgebras}
+
++-- {: .num_prop}
+###### Propositions
+
+* The [[category]] [[CartSp]] has all [[finite limit|finite]]
+[[products]]. 
+
+* Every object is a finite [[product]] of the object $\mathbb{R}$ (the [[real line]] itself).
+
+* The [[terminal object]] is $\mathbb{R}^0$, the [[point]].
+
+=--
+
+Hence [[CartSp]] is (the [[syntactic category]]) of an [[algebraic theory]] (a [[Lawvere theory]]). 
+
+This is called the [[theory]] of _[[smooth algebras]]_.
+
++-- {: .num_defn}
+###### Definition
+
+A [[product]]-preserving [[functor]] 
+
+$$
+  A : CartSp \to Set
+$$
+
+is a _[[smooth algebra]]_. A [[homomorphism]] of smooth algebras is a [[natural transformation]] between the corresponding functors.
+
+=--
+
+The basic example is:
+
++-- {: .num_example #TheSmoothgAlgebraOfFunctionsOnACartesianSpace}
+###### Example
+
+For $n \in \mathbb{N}$, the [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ 
+is the functor $CartSp \to Set$ which is [[representable functor|functor corepresented]] by $\mathbb{R}^n \in $ [[CartSp]]. This means that to $\mathbb{R}^k \in CartSp$ it assigns the set
+
+$$
+  Hom_{CartSp}(\mathbb{R}^n , \mathbb{R}^k)
+  = 
+  C^\infty(\mathbb{R}^n, \mathbb{R}^k)
+$$
+
+of [[smooth functions]] from $\mathbb{R}^n$ to $\mathbb{R}^k$, and to a [[smooth function]] $f \colon \mathbb{R}^{k_1} \to \mathbb{R}^{k_2}$ it assigns the function
+
+$$
+  f\circ (-)
+  \colon
+  C^\infty(\mathbb{R}^n, \mathbb{R}^{k_1})
+  \to
+  C^\infty(\mathbb{R}^n, \mathbb{R}^{k_2})
+$$
+
+given by postcomposition with $f$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Example \ref{TheSmoothgAlgebraOfFunctionsOnACartesianSpace} shows how we are to think of a functor $A \colon CartSp \to Set$ as encoding an algebra: such a functor assigns to $\mathbb{R}^n$ a set to be interpreted as a set of "smooth functions on something with values in $\mathbb{R}^n$", only that the "something" here is not pre-defined, but is instead indirectly characterized by this assignment.
+
+Due to this we will often denote smooth algebras as "$C^\infty(X)$", even if "$X$" is not a pre-defined object, and write their value on $\mathbb{R}^n$ as $C^\infty(X,\mathbb{R}^n)$. 
+
+=--
+
+This is illustrated by the next example.
+
++-- {: .num_example #DualNumbers}
+###### Example
+
+The **[[ring of dual numbers|smooth algebra of dual numbers]]** $C^\infty(\mathbf{D})$ is the smooth algebra which assigns to $\mathbb{R}^n$ the [[Cartesian product]]
+
+$$
+  C^\infty(D,\mathbb{R}^n)
+
+  \coloneqq
+  \mathbb{R}^n \times \mathbb{R}^n
+$$
+
+of two copies of $\mathbb{R}^n$, which we will write as
+
+$$
+  \left\{
+    (\epsilon \mapsto (\vec x + \epsilon \vec v))
+    |
+    \vec x , \vec v \in \mathbb{R}^n
+  \right\}
+  \,.
+$$
+
+Moreover, a [[smooth function]] $f \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is sent to the function
+
+$$
+  C^\infty(D, f)
+  \colon
+  C^\infty(D, \mathbb{R}^{n_1})
+  \to 
+  C^\infty(D, \mathbb{R}^{n_2})
+$$
+
+given by
+
+$$
+  \begin{aligned}
+  \left(\epsilon \mapsto \left(\vec x + \epsilon \vec v\right)\right)
+  \\
+  \left(
+    \epsilon \mapsto f(\vec x) + (\mathbf{d}f)(\vec v)
+  \right)
+  &\mapsto 
+  \left(
+    \epsilon
+    \mapsto 
+    \left(
+       f\left(\vec x\right) 
+        +  
+       \sum_{j = 1}^{n_2}
+       \left(\sum_{i = 1}^{n_1}\frac{\partial f^j}{\partial x^i} v^i\right)
+       \vec e_j  
+    \right)
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+As the notation suggests, we may think of $C^\infty(D)$ as the functions on a first order [[infinitesimal object|infinitesimal neighbourhood]] of the origin in $\mathbb{R}^n$. 
+
+=--
+
+
+
+
+### The coverage of differentially good open covers
+ {#CoverageOfDifferentiallyGoodOpenCovers}
+
+We discuss a standard structure of a _[[site]]_ on the category [[CartSp]]. Following _[[Sketches of an Elephant|Johnstone -- Sketches of an Elephant]]_, it will be useful and convenient to regard a site as a ([[small site|small]]) category equipped with a _[[coverage]]_. This generates a genuine [[Grothendieck topology]], but need not itself already be one.
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$ the standard [[open ball|open n-ball]] is the subset
+
+$$
+  D^n = \{ (x_i)_{i =1}^n \in \mathbb{R}^n | \sum_{i = 1}^n (x_i)^2 \lt 1 \}  \hookrightarrow \mathbb{R}^n
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[diffeomorphism]]
+
+$$
+  \mathbb{R}^n \stackrel{\simeq}{\to} D^n
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #DifferentiallyGoodOpenCover}
+###### Definition
+
+A **differentially [[good open cover]]** of a [[Cartesian space]] $\mathbb{R}^n$ is a set $\{U_i \hookrightarrow \mathbb{R}^n\}$ of [[open subset]] inclusions of Cartesian spaces such that these [[open cover|cover]] $\mathbb{R}^n$
+and such for each non-empty finite [[intersection]] there exists a [[diffeomorphism]] 
+
+$$
+  \mathbb{R}^n \stackrel{\simeq}{\to} U_{i_1} \cap \cdots \cap U_{i_k}
+$$
+
+that identifies the $k$-fold intersection with a Cartesian space itself.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Differentiably good covers are useful for computations. Their full impact is however on the [[homotopy theory]] of [[simplicial presheaves]] over [[CartSp]]. This we discuss in the chapter on [[geometry of physics -- smooth homotopy types|smooth homotopy types]], around [this prop.](geometry+of+physics+--+smooth homotopy types#DifferentiablyGoodCoverGivesSPlitHyperCoverOverCartSp).
+
+=--
+
+
+
++-- {: .num_prop #DiffGoodOpenCoversRefineOpenCovers}
+###### Proposition
+
+Every [[open cover]] refines to a differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}. 
+
+=--
+
+A proof is at _[[good open cover]]_. 
+
++-- {: .num_remark}
+###### Remark
+
+Despite its appearance, this is not quite a classical statement. The classical statement is only that every open cover is refined by a _topologically_ [[good open cover]]. See the comments _[here in the references-section](http://ncatlab.org/nlab/show/ball#References)_ at _[[open ball]]_ for the situation concerning this statement in the literature.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The _good_ open covers do not yet form a [[Grothendieck topology]] on [[CartSp]]. One of the axioms of a Grothendieck topology is that for every [[covering]] family also its [[pullback]] along any morphism in the category is a covering family. But while the pullback of every [[open cover]] is again an open cover, and hence open covers form a Grothendieck topology on [[CartSp]], not every pullback of a _[[good open cover|good]]_ open cover is again _good_.
+
+=--
+
++-- {: .num_example #ExampleThatGoodOpenCoversAreNotPullbackStable}
+###### Example
+
+Let $\{\mathbb{R}^2\stackrel{\phi_{i}}{\hookrightarrow}\mathbb{R}^2\}_{i \in \{1,2\}}$ be the [[open cover]] of the [[plane]] by an open left half space
+
+$$
+   \mathbb{R}^2 \simeq \{ (x_1,x_2) \in \mathbb{R}^2 | x_1 \lt 1 \} \stackrel{\phi_1}{\hookrightarrow} \mathbb{R}^2
+$$
+
+and a right open half space
+
+$$
+   \mathbb{R}^2 \simeq \{ (x_1,x_2) \in \mathbb{R}^2 | x_1 \gt -1 \} \stackrel{\phi_2}{\hookrightarrow} \mathbb{R}^2
+  \,.
+$$
+
+The intersection of the two is the open strip
+
+$$
+  \mathbb{R}^2 \simeq \{ (x_1, x_2) \in \mathbb{R}^2 | -1 \lt x_1 \lt 1 \}
+  \hookrightarrow 
+  \mathbb{R}^2
+  \,.
+$$
+
+So this is a [[good open cover]] of $\mathbb{R}^2$. 
+
+But consider then the smooth function 
+
+$$
+  2(\cos(2 \pi (-)), \sin(2 \pi (-))) \colon \mathbb{R}^1 \to \mathbb{R}^2 
+$$
+
+which sends the line to a curve in the plane that periodically goes around the [[circle]] of radius 2 in the plane. 
+
+Then the pullback of the above good open cover on $\mathbb{R}^2$ to $\mathbb{R}^1$ along this function is an [[open cover]] of $\mathbb{R}$ by two open subsets, each being a disjoint union of countably many open [[intervals]] in $\mathbb{R}$. 
+Each of these open intervals is an open 1-ball hence diffeomorphic to $\mathbb{R}^1$, but their _[[disjoint union]]_ is not [[contractible topological space|contractible]] (it does not contract to the point, but to many points!). 
+
+So the pullback of the good open cover that we started with is an open cover which is not _good_ anymore. But it has an evident _refinement_ by a good open cover. 
+
+=--
+
+This is a special case of what the following statement says in generality.
+
++-- {: .num_prop #TheDifferentiallyGoodOpenCoverCoverage}
+###### Proposition
+
+The differentially good open covers, def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] on [[CartSp]]. 
+
+Hence [[CartSp]] equipped with that coverage is a [[site]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[coverage]] we need to check that for $\{U_i \hookrightarrow \mathbb{R}^n\}_{i \in I}$ any [[good open cover]] and $f \colon \mathbb{R}^k \to \mathbb{R}^n$ any smooth function, we can find a good open cover $\{K_j \to \mathbb{R}^k\}_{j \in J}$ and a [[function]] $J \to I$ such that for each $j \in J$ there is a smooth function $\phi \colon K_j \to U_{\rho(j)}$ that makes this [[diagram]] 
+[[commuting diagram|commute]]:
+
+$$
+  \array{
+
+    K_j &\stackrel{\phi}{\to}& U_{i(j)}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbb{R}^k &\stackrel{f}{\to}& \mathbb{R}^n
+  }
+  \,.
+$$
+
+To obtain this, let $\{f^* U_i \to \mathbb{R}^k\}$ be the pullback of the original covering family, in that 
+
+$$
+  f^* U_i \coloneqq \{ x \in \mathbb{R}^k | f(x) \in U_i \}
+  \hookrightarrow \mathbb{R}^k
+  \,.
+$$
+
+This is evidently an [[open cover]], albeit not necessarily a _[[good open cover]]_. But by prop. \ref{DiffGoodOpenCoversRefineOpenCovers} there does exist a good open cover $\{\tilde K_{\tilde j} \hookrightarrow \mathbb{R}^k\}_{\tilde j \in \tilde J}$ _refining_ it, which in turn means that for all $\tilde j$ there is  
+
+$$
+  \array{
+    \tilde K_{\tilde j} &\to& K_{j(\tilde j)}
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbb{R}^k &\stackrel{=}{\to}& \mathbb{R}^k
+  }
+  \,.
+$$
+
+Therefore then the [[pasting]] composite of these commuting squares 
+
+$$
+  \array{
+    \tilde K_{\tilde j} &\to& K_{j(\tilde j)} &\to& U_{i(j(\tilde j))}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbb{R}^k &\stackrel{=}{\to}& \mathbb{R}^k
+   &\stackrel{f}{\to}& \mathbb{R}^n
+  }
+$$
+
+solves the condition required in the definition of [[coverage]].
+
+=--
+
+By example \ref{ExampleThatGoodOpenCoversAreNotPullbackStable} this [[good open cover]] [[coverage]] is not a [[Grothendieck topology]]. But as any coverage, it uniquely completes to one which has the same [[sheaves]].
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Grothendieck topology]] induced on [[CartSp]] by the differentially good open cover coverage of def. \ref{TheDifferentiallyGoodOpenCoverCoverage} has as covering families the ordinary [[open covers]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that for every sheaf-theoretic construction to follow we can just as well consider the Grothendieck topology of open covers on $CartSp$. The sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for several computational purposes in the following. It is the _good_ open cover coverage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Semantic Layer -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
+
+=--
 
 
 
@@ -376,7 +1120,7 @@ Key examples of diffeological spaces are [[mapping spaces]] between smooth manif
 For $S \in $ [[Set]] a set, write
 
 $$
-  Disc S \in Smooth0Type
+  Disc S \in SmoothSet
 $$
 
 for the smooth set whose set of $U$-plots for every $U \in CartSp$ is always $S$.
@@ -450,7 +1194,7 @@ $$
 ###### Definition
 **(the [[category]] _[[SmoothSet]]_ of [[smooth sets]] with [[smooth functions]])**
 
-Write [[SmoothSet]] or $Smooth0Type$ for the [[category]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Categories)) whose [[objects]] are [[smooth sets]], def. \ref{SmoothSpace}, and whose [[morphisms]] are homomorphisms of smooth sets according to def. \ref{HomomorphismOfSmoothSpaces}.
+Write [[SmoothSet]] or $SmoothSet$ for the [[category]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Categories)) whose [[objects]] are [[smooth sets]], def. \ref{SmoothSpace}, and whose [[morphisms]] are homomorphisms of smooth sets according to def. \ref{HomomorphismOfSmoothSpaces}.
 
 =--
 
@@ -464,7 +1208,7 @@ The following proposition says that these two superficially different notions ac
 Let $X$ be any [[smooth set]], def. \ref{SmoothSpace}, and regard the abstract coordinate system $\mathbb{R}^n$ as a smooth set, by example \ref{CartesianSpaceAsSmoothSpace}. There is a [[natural bijection]]
 
 $$
-  X(\mathbb{R}^n) \simeq Hom_{Smooth0Type}(\mathbb{R}^n, X)
+  X(\mathbb{R}^n) \simeq Hom_{SmoothSet}(\mathbb{R}^n, X)
 $$
 
 between the _postulated_ $\mathbb{R}^n$-plots of $X$ and the _actual_ $\mathbb{R}^n$-plots given by homomorphism of smooth sets $\mathbb{R}^n \to X$.
@@ -482,13 +1226,13 @@ The reader unfamiliar with this should write out the simple proof explicitly: us
 +-- {: .num_example #SmoothFunctionOnSmoothSpace}
 ###### Example
 
-Let $\mathbb{R} \in Smooth0Type$ denote the [[real line]], regarded as a [[smooth set]] by example \ref{CartesianSpaceAsSmoothSpace}. Then for $X \in Smooth0Type$ any smooth set, a homomorphism of smooth sets
+Let $\mathbb{R} \in SmoothSet$ denote the [[real line]], regarded as a [[smooth set]] by example \ref{CartesianSpaceAsSmoothSpace}. Then for $X \in SmoothSet$ any smooth set, a homomorphism of smooth sets
 
 $$
   f \colon X \to \mathbb{R}
 $$
 
-is a _[[smooth function]] on $X$_. Prop. \ref{YonedaForSmoothSpaces} says here that when $X$ happens to be an abstract coordinate system regarded as a smooth set by def. \ref{CartesianSpaceAsSmoothSpace}, then this general notion of smooth functions between smooth sets reproduces the basic notion of def, \ref{CartesianSpaceAndHomomorphism}.
+is a _[[smooth function]] on $X$_. Prop. \ref{YonedaForSmoothSpaces} says here that when $X$ happens to be an abstract coordinate system regarded as a smooth set by def. \ref{CartesianSpaceAsSmoothSpace}, then this general notion of smooth functions between smooth sets reproduces the basic notion of [this def.](geometry+of+physics+--+coordinate systems#CartesianSpaceAndHomomorphism)
 
 =--
 
@@ -498,11 +1242,11 @@ is a _[[smooth function]] on $X$_. Prop. \ref{YonedaForSmoothSpaces} says here t
 The 0-[[dimension|dimensional]] abstract coordinate system $\mathbb{R}^0$ we also call the **[[point]]** and regarded as a smooth set we will often write it as
 
 $$
-  * \in Smooth0Type
+  * \in SmoothSet
   \,.
 $$
 
-For any $X \in Smooth0Type$, we say that a homomorphism
+For any $X \in SmoothSet$, we say that a homomorphism
 
 $$
   x \colon * \to X
@@ -531,7 +1275,7 @@ $$
 +-- {: .num_defn #ProductOfSmoothSpaces}
 ###### Definition
 
-Let $X, Y \in Smooth0Type$ by two smooth sets. Their **[[product]]** is the smooth set $X \times Y \in Smooth0Type$ whose plots are pairs of plots of $X$ and $Y$:
+Let $X, Y \in SmoothSet$ by two smooth sets. Their **[[product]]** is the smooth set $X \times Y \in SmoothSet$ whose plots are pairs of plots of $X$ and $Y$:
 
 $$
   X\times Y (\mathbb{R}^n) \coloneqq X(\mathbb{R}^n) \times Y(\mathbb{R}^n)
@@ -565,7 +1309,7 @@ $$
 +-- {: .num_prop #ProductOfSmoothSpaceWithThePoint}
 ###### Proposition
 
-Let $* = \mathbb{R}^0$ be the [[point]], regarded as a smooth set, def. \ref{PointsOfASmoothSpace}. Then for $X \in Smooth0Type$ any smooth set the canonical projection homomorphism
+Let $* = \mathbb{R}^0$ be the [[point]], regarded as a smooth set, def. \ref{PointsOfASmoothSpace}. Then for $X \in SmoothSet$ any smooth set the canonical projection homomorphism
 
 $$
   X \times * \to X
@@ -581,7 +1325,7 @@ is an [[isomorphism]].
 Let $f \colon X \to Z$ and $g \colon Y \to Z$ be two [[homomorphisms]] of smooth sets, def. \ref{HomomorphismOfSmoothSpaces}. There is then a new smooth set to be denoted
 
 $$
-  X \times_Z Y \in Smooth0Type
+  X \times_Z Y \in SmoothSet
 $$
 
 (with $f$ and $g$ understood), called the [[fiber product]] of $X$ and $Y$ along $f$ and $g$, and defined as follows:
@@ -611,10 +1355,10 @@ $$
 ###### Definition
 **([[smooth set|smooth]] [[mapping space]])**
 
-Let $\Sigma, X \in Smooth0Type$ be two [[smooth sets]], def. \ref{SmoothSpace}. Then the **smooth [[mapping space]]**
+Let $\Sigma, X \in SmoothSet$ be two [[smooth sets]], def. \ref{SmoothSpace}. Then the **smooth [[mapping space]]**
 
 $$
-  [\Sigma,X] \in Smooth0Type
+  [\Sigma,X] \in SmoothSet
 $$
 
 is the [[smooth set]] defined by saying that its set of $\mathbb{R}^n$-plots is
@@ -698,7 +1442,7 @@ Combine prop. \ref{UniversalPropertyOfMappingSpace} with prop. \ref{ProductOfSmo
 +-- {: .num_example #SmoothPathSpace}
 ###### Example
 
-Given a [[smooth set]] $X \in Smooth0Type$, its smooth **[[path space]]** is the smooth mapping space
+Given a [[smooth set]] $X \in SmoothSet$, its smooth **[[path space]]** is the smooth mapping space
 
 $$
   \mathbf{P}X \coloneqq [\mathbb{R}^1, X]
@@ -732,10 +1476,6 @@ $$
 =--
 
 
-### The smooth moduli space of smooth functions
- {#SmoothModuliSpaceOfSmoothFunctions}
-
-
 In example \ref{SmoothFunctionOnSmoothSpace} we saw that a smooth function on a general [[smooth set]] $X$ is a homomorphism of smooth sets, def. \ref{HomomorphismOfSmoothSpaces}
 
 $$
@@ -743,15 +1483,15 @@ $$
   \,.
 $$
 
-The collection of these forms the [[hom-set]] $Hom_{Smooth0Type}(X, \mathbb{R})$. But by the discussion in _[Smooth mapping spaces](#SmoothMappingSpaces)_ such hom-sets are naturally refined to smooth sets themselves.
+The collection of these forms the [[hom-set]] $Hom_{SmoothSet}(X, \mathbb{R})$. But by the discussion in _[Smooth mapping spaces](#SmoothMappingSpaces)_ such hom-sets are naturally refined to smooth sets themselves.
 
 +-- {: .num_defn #SmoothSpaceOfSmoothFunctions}
 ###### Definition
 
-For $X \in Smooth0Type$ a [[smooth set]], we say that the **moduli space of smooth functions** on $X$ is the smooth mapping space (def. \ref{SmoothFunctionSpace}), from $X$ into the standard [[real line]] $\mathbb{R}$
+For $X \in SmoothSet$ a [[smooth set]], we say that the **moduli space of smooth functions** on $X$ is the smooth mapping space (def. \ref{SmoothFunctionSpace}), from $X$ into the standard [[real line]] $\mathbb{R}$
 
 $$
-  [X, \mathbb{R}] \in Smooth0Type
+  [X, \mathbb{R}] \in SmoothSet
   \,.
 $$
 
@@ -763,7 +1503,7 @@ $$
 
 $$
 
-since in the special case that $X$ is a [[Cartesian space]] this is the smooth refinement of the set $C^\infty(X)$ of [[smooth functions]], def. \ref{SmoothFunctions}, on $X$.
+since in the special case that $X$ is a [[Cartesian space]] this is the smooth refinement of the set $C^\infty(X)$ of [[smooth functions]] on $X$.
 
 =--
 
@@ -776,48 +1516,15 @@ By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]
 
 =--
 
-
-
-### Outlook
- {#SmoothSpacesOutlook}
-
-
-+-- {: .num_remark}
-###### Remark
-
-Later we define/see the following:
-
-* A _[[smooth manifold]]_  is a [[smooth set]] that is [[covering|locally]] _[[equivalence|equivalent]]_ to a [[coordinate system]];
-
-* A _[[diffeological space]]_ is a [[smooth set]] such that every coordinate labels a [[point]] in the space. In other words, a diffeological space is a smooth set that has an underlying set $X_s \in Set$ of points such that the set of $\mathbb{R}^n$-plots is a subset of the set of all functions:
-
-  $$
-    X(\mathbb{R}^n) \hookrightarrow Functions(\mathbb{R}^n, S_s)
-    \,.
-  $$
-
-  (This need not be the case in a general smooth set, important counterexamples are the _universal smooth moduli spaces of differential forms_ in [Smooth moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)).
-
-
-
-=--
-
-
-+-- {: bluebox }
-######
-
-This ends the Model-layer discussion of smooth sets. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#SmoothSpacesLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [Differential forms below](#DifferentialForms).
-
-=--
-
-## The topos of smooth sets
+### The cohesive topos of smooth sets
  {#SmoothSpacesLayerSem}
  {#ToposOfSmoothSpaces}
 
 
 In the language of [[geometry of physics -- categories and toposes|categories and toposes]], we may summarize the concept of [[smooth sets]] by saying that they form the _[[sheaf topos]]_ over the _[[site]]_ of [[Cartesian spaces]] (Prop. \ref{SmoothSetsAreSheavesOnCartSp} below).
 
-This perspective allows to see good abstract properties enjoyed by the [[smooth sets]]. The key such property is that the [[topos]] which they form is a _[[cohesive topos]]_ (Def. \ref{CohesiveTopos} below). We prove this below in Example \ref{SmoothSetsFormACohesiveTopos}, and then discuss applications.
+This perspective allows to see good abstract properties enjoyed by the [[smooth sets]]. The key such property is that the [[topos]] which they form is a _[[cohesive topos]]_ (Prop. \ref{SmoothSetsFormACohesiveTopos} below).
+
 
 $\,$
 
@@ -856,18 +1563,11 @@ This is a straightforward matter of matching definitions. We spell it out:
 $\,$
 
 
-
-
-$\,$
-
-### Cohesion on smooth sets
-  {#CohesionOnSmoothSets}
-
-+-- {: .num_example #SmoothSetsFormACohesiveTopos}
-###### Example
++-- {: .num_prop #SmoothSetsFormACohesiveTopos}
+###### Proposition
 **([[smooth sets]] form a [[cohesive topos]])**
 
-The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) is a [[cohesive topos]] (Def. \ref{CohesiveTopos})
+The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) is a [[cohesive topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveTopos))
 
 \[
   \label{SheafToposAdjointQuadruple}
@@ -897,7 +1597,7 @@ $$
   \,.
 $$
 
-Hence, by Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, it is now sufficient to see that [[CartSp]] is a [[cohesive site]] (Def. \ref{OneCohesiveSite}).
+Hence, by Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, it is now sufficient to see that [[CartSp]] is a [[cohesive site]] ([this def.](geometry+of+physics+--+categories+and+toposes#OneCohesiveSite))
 
 It clearly has [[finite products]]: The [[terminal object]] is the [[point]], given by the 0-[[dimension|dimensional]] [[Cartesian space]]
 
@@ -914,7 +1614,7 @@ $$
   \,.
 $$
 
-This establishes the first clause in Def. \ref{OneCohesiveSite}. 
+This establishes the first clause in the definition of [[cohesive site]] ([this def.](geometry+of+physics+--+categories+and+toposes#OneCohesiveSite))
 
 For the second clause, consider a differentiably-[[good open cover]] $\{U_i \overset{}{\to} \mathbb{R}^n\}$ (Def. \ref{DifferentiallyGoodOpenCover}). This being a [[good cover]] implies that its [[Cech groupoid]] is, as an [[internal groupoid]] (via [this remark](geometry+of+physics+--+categories+and+toposes#PresheavesOfGroupoidsAsInternalGroupoidsInPresheaves)), of the form
 
@@ -1055,6 +1755,504 @@ $$
 
 =--
 
+
+$\,$
+
+### Diffeological spaces
+
+The [[concrete objects]] in the [[cohesive topos]] of [[smooth sets]] are precisely the [[diffeological spaces]].
+
+(...)
+
+
+$\,$
+
+### Differential forms
+
+We have seen above in _[The continuum real line](#TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of smooth maps $\mathbb{R} \to X$.
+
+But moreover, _[[dynamics]]_ in [[physics]]  is encoded by _[[linear functionals|functionals]] on such trajectories_: by "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
+
+$$
+  S \colon \left[I, X\right] \to \mathbb{R}
+  \,,
+$$
+
+where $I \hookrightarrow \mathbb{R}$ is the standard unit [[interval]].
+
+Such [[action functionals]] we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
+
+Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a trajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is additive
+
+$$
+  S(\gamma) = S(\gamma_1) + S(\gamma_2)
+  \,.
+$$
+
+As one takes this property to the limit of iterative subdivision, one finds that action functionals are entirely determined by their value on _[[infinitesimal space|infinitesimal]] displacements_ along the worldline. If $\gamma \colon \mathbb{R} \to X$ denotes a path and "$\dot \gamma(x)$" denotes the corresponding "infinitesimal path" at worldline parameter $x$, then the value of the action functional on such an infinitesimal path is traditionally written as
+
+$$
+  \mathbf{d}S(\dot \gamma)_x  \in \mathbb{R}
+  \,,
+$$
+
+to be read as "the small change $\mathbf{d}S$ of $S$ along the infinitesimal path $\dot \gamma_x$". 
+
+This function $\mathbf{d}S$ that assigns numbers to infinitesimal paths is called a _[[differential form]]_. Etymologically this originates in the use of "form" as in _[[bilinear form]]_: something that is evaluated. Here it is evaluated on _infinitesimal differences_, referred to as _differentials_.
+
+$\,$
+
++-- {: .num_defn #Differential1FormsOnCartesianSpaces}
+###### Definition
+
+For $n \in \mathbb{N}$ a **[[smooth differential 1-form]]** $\omega$ on a [[Cartesian space]] $\mathbb{R}^n$ is an $n$-[[tuple]] 
+
+$$
+  \left(\omega_i \in CartSp\left(\mathbb{R}^n,\mathbb{R}\right)\right)_{i = 1}^n
+$$
+
+of [[smooth functions]], which we think of equivalently as the [[coefficients]] of a [[formal linear combination]]
+
+$$
+  \omega = \sum_{i = 1}^n f_i \mathbf{d}x^i
+$$
+
+on a [[set]] $\{\mathbf{d}x^1, \mathbf{d}x^2, \cdots, \mathbf{d}x^n\}$ of [[cardinality]] $n$.
+
+Write 
+
+$$
+  \Omega^1(\mathbb{R}^k) \simeq CartSp(\mathbb{R}^k, \mathbb{R})^{\times k}\in Set
+$$
+
+for the set of smooth [[differential 1-forms]] on $\mathbb{R}^k$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We think of $\mathbf{d} x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. This idea is made precise below in _[Differential 1-forms are smooth increnemental path measures](#1FormsAsSmoothFunctors)_.
+
+=--
+
+If we have a measure of infintesimal displacement on some $\mathbb{R}^n$ and a smooth function $f \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$, then this induces a measure for infinitesimal displacement on $\mathbb{R}^{\tilde n}$ by sending whatever happens there first with  $f$ to $\mathbb{R}^n$ and then applying the given measure there. This is captured by the following definition.
+
++-- {: .num_defn #PullbackOfDifferential1FormsOnCartesianSpaces}
+###### Definition
+
+For $\phi \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^k$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $\phi$ is the [[function]]
+
+$$
+  \phi^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
+$$
+
+between sets of differential 1-forms, def. \ref{Differential1FormsOnCartesianSpaces}, which is defined on [[basis]]-elements by
+
+$$
+  \phi^* \mathbf{d} x^i \coloneqq \sum_{j = 1}^{\tilde k} \frac{\partial \phi^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
+$$
+
+and then extended linearly by
+
+$$
+  \begin{aligned}
+    \phi^* \omega & = \phi^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
+    \\
+    & \coloneqq
+     \sum_{i = 1}^k \left(\phi^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial \phi^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+    \\
+    & = 
+     \sum_{i = 1}^k  \sum_{j = 1}^{\tilde k} (\omega_i \circ \phi) \cdot \frac{\partial \phi^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The term "pullback" in _[[pullback of differential forms]]_ is not really related, certainly not historically, to the term _[[pullback]]_ in [[category theory]]. One can relate the pullback of differential forms to categorical pullbacks, but this is not really essential here. The most immediate property that both concepts share is that they take a [[morphism]] going in one direction to a map between structures over domain and codomain of that morphism which goes in the other direction, and in this sense one is "pulling back structure along a morphism" in both cases.
+
+=--
+
+Even if in the above definition we speak only about the [[set]] $\Omega^1(\mathbb{R}^k)$ of differential 1-forms, this set naturally carries further [[structure]].
+
++-- {: .num_defn #ModuleStructureOn1FormsOnRk}
+###### Definition
+
+1. The set $\Omega^1(\mathbb{R}^k)$ is naturally an [[abelian group]] with addition given by componentwise addition
+
+   $$
+      \begin{aligned}
+         \omega + \lambda & =
+          \sum_{i = 1}^k \omega_i \mathbf{d}x^i + \sum_{j = 1}^k \lambda_j \mathbf{d}x^j
+         \\
+         & = \sum_{i = 1}^k(\omega_i + \lambda_i) \mathbf{d}x^i
+      \end{aligned}
+      \,,
+   $$
+
+1. The abelian group $\Omega^1(\mathbb{R}^k)$ is naturally equipped with the structure of a [[module]] over the [[ring]] $C^\infty(\mathbb{R}^k,\mathbb{R}) = CartSp(\mathbb{R}^k, \mathbb{R})$ of [[smooth functions]], where the [[action]] $C^\infty(\mathbb{R}^k,\mathbb{R}) \times\Omega^1(\mathbb{R}^k) \to \Omega^1(\mathbb{R}^k)$ is given by componentwise multiplication
+
+   $$
+     f \cdot \omega = \sum_{i = 1}^k( f \cdot \omega_i) \mathbf{d}x^i
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn }
+###### Remark
+
+More abstractly, this just says that $\Omega^1(\mathbb{R}^k)$ is the [[free module]] over $C^\infty(\mathbb{R}^k)$ on the set $\{\mathbf{d}x^i\}_{i = 1}^k$.
+
+=--
+
+The following definition captures the idea that if $\mathbf{d} x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $\mathbf{d}x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way te get a measure, to be called $\mathbf{d}x^i \wedge \mathbf{d} x^j$, for infinitesimal _surfaces_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, whith 
+
+$$
+  \mathbf{d}x^j \wedge \mathbf{d}x^i = - \mathbf{d}x^i \wedge \mathbf{d} x^j
+$$
+
+being the same infinitesimal measure with orientation reversed.
+
++-- {: .num_defn #DifferentialnForms}
+###### Definition
+
+For $k,n \in \mathbb{N}$, the **smooth [[differential forms]]** on $\mathbb{R}^k$ is the [[exterior algebra]]
+
+$$
+  \Omega^\bullet(\mathbb{R}^k) 
+   \coloneqq
+  \wedge^\bullet_{C^\infty(\mathbb{R}^k)} \Omega^1(\mathbb{R}^k)
+$$
+
+over the [[ring]] $C^\infty(\mathbb{R}^k)$ of [[smooth functions]] of the [[module]] $\Omega^1(\mathbb{R}^k)$ of smooth 1-forms, prop. \ref{ModuleStructureOn1FormsOnRk}.
+
+We write $\Omega^n(\mathbb{R}^k)$ for the sub-module of degree $n$ and call its elements the **smooth [[differential n-forms]]**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Explicitly this means that a [[differential n-form]] $\omega \in \Omega^n(\mathbb{R}^k)$ on $\mathbb{R}^k$ is a [[formal linear combination]] over $C^\infty(\mathbb{R}^k)$ of [[basis]] elements of the form $\mathbf{d} x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}$ for $i_1 \lt i_2 \lt \cdots \lt i_n$:
+
+$$
+  \omega = \sum_{1 \leq i_1 \lt i_2 \lt \cdots \lt i_n \lt k} \omega_{i_1, \cdots, i_n} \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #PullbackOfDifferentialForms}
+###### Definition
+
+The [[pullback of differential forms|pullback of differential 1-forms]] of def. \ref{Differential1FormsOnCartesianSpaces} extends as an $C^\infty(\mathbb{R}^k)$-[[associative algebra|algebra]] [[homomorphism]] to $\Omega^n(-)$, given for a smooth function $f \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^k$ on basis elements by
+
+$$
+  f^* \left(  \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n} \right)
+  = 
+  \left(f^* \mathbf{d}x^{i_1} \wedge \cdots \wedge f^* \mathbf{d}x^{i_n} \right)
+  \,. 
+$$ 
+
+=--
+
+$\,$
+
+So far we have defined differential $n$-form on abstract coordinate systems. Here we extend this definition to one of differential $n$-forms on arbitrary [[smooth sets]]. We start by observing that the space of _all_ differential $n$-forms on cordinate systems themselves naturally is a smooth set.
+
++-- {: .num_prop}
+###### Proposition
+
+The assignment of differential $n$-forms
+
+$$
+  \Omega^n(-) \colon \mathbb{R}^k \mapsto \Omega^n(\mathbb{R}^k)
+$$
+
+of def. \ref{DifferentialnForms} together with the [[pullback of differential forms]]-functions of def. \ref{PullbackOfDifferentialForms}
+
+$$
+  \array{
+    \mathbb{R}^{k_1} &\mapsto & \Omega^1(\mathbb{R}^{k_1})
+    \\
+    \uparrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f^*}}
+    \\
+    \mathbb{R}^{k_2} &\mapsto& \Omega^1(\mathbb{R}^{k_2})
+  }
+$$
+
+defines a [[smooth set]] in the sense of def. \ref{SmoothSpace}:
+
+$$
+  \Omega^n(-) \in Smooth0Type
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #SmoothModuliSpaceOfnForms}
+###### Definition
+
+
+We call this 
+
+$$
+  \Omega^n \colon Smooth0Type
+$$
+
+the **universal smooth [[moduli space]]** of differential $n$-forms. 
+
+=--
+
+The reason for this terminology is that homomorphisms of smooth sets into $\Omega^1$ _modulate_ differential $n$-forms on their [[domain]], by prop. \ref{YonedaForSmoothSpaces} (and hence by the [[Yoneda lemma]]):
+
++-- {: .num_example}
+###### Example
+
+For the [[Cartesian space]] $\mathbb{R}^k$ regarded as a [[smooth set]] by example \ref{CartesianSpaceAsSmoothSpace}, there is a [[natural bijection]]
+
+$$
+  \Omega^n(\mathbb{R}^k) \simeq Hom(\mathbb{R}^k, \Omega^1)
+$$
+
+between the set of smooth $n$-forms on $\mathbb{R}^n$ according to def. \ref{Differential1FormsOnCartesianSpaces} and the set of homomorphism of smooth set, $\mathbb{R}^k \to \Omega^1$, according to def. \ref{HomomorphismOfSmoothSpaces}.
+
+=--
+
+In view of this we have the following elegant definition of smooth $n$-forms on an arbitrary smooth set.
+
++-- {: .num_defn #DifferentialnFormOnSmoothSpace}
+###### Definition
+
+For $X \in SmoothSet$ a [[smooth set]], def. \ref{SmoothSpace}, a **[[differential n-form]]** on $X$ is a [[homomorphism]] of [[smooth sets]] of the form
+
+$$
+  \omega \colon X \to \Omega^n(-)
+  \,.
+$$
+
+Accordingly we write
+
+$$
+  \Omega^n(X) \coloneqq Smooth0Type(X,\Omega^n)
+$$
+
+for the set of smooth $n$-forms on $X$.
+
+=--
+
+We may unwind this definition to a very explicit description of differential forms on smooth sets. This we do in a moment in remark \ref{DifferentialFormOnSmoothSpaceAsSystemOfDiffFormsOnCoordinates}.
+
+Notice that differential 0-forms are equivalently smooth $\mathbb{R}$-valued functions.
+
++-- {: .num_prop #SpaceOf0FormsIsRealLine}
+###### Proposition
+
+$\Omega^0 \simeq \mathbb{R}$
+
+=--
+
+
++-- {: .num_defn #PullbackOfDifferentialFormsOnSmoothSpaces}
+###### Definition
+
+For $f \colon X \to Y$ a [[homomorphism]] of [[smooth sets]], def. \ref{HomomorphismOfSmoothSpaces}, the **[[pullback of differential forms]]** along $f$ is the [[function]]
+
+$$
+  f^* \colon \Omega^n(Y) \to \Omega^n(X)
+$$
+
+given by the [[hom-functor]] into the smooth set $\Omega^n$ of def. \ref{SmoothModuliSpaceOfnForms}:
+
+$$
+ f^* \coloneqq Hom(-, \Omega^n)
+ \,.
+$$
+
+This means that it sends an $n$-form $\omega \in \Omega^n(Y)$ which is modulated by a homomorphism $Y \to \Omega^n$ to the $n$-form $f^* \omega \in \Omega^n(X)$ which is modulated by the [[composition|composite]] $X \stackrel{f}{\to} Y \to \Omega^n$.
+
+=--
+
++-- {: .num_defn}
+###### Proposition
+
+For $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^{k}$ definition \ref{PullbackOfDifferentialFormsOnSmoothSpaces} reproduces def. \ref{PullbackOfDifferentialForms}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Again by the [[Yoneda lemma]].
+
+=--
+
++-- {: .num_remark #DifferentialFormOnSmoothSpaceAsSystemOfDiffFormsOnCoordinates}
+###### Remark
+
+Using def. \ref{PullbackOfDifferentialFormsOnSmoothSpaces}
+
+Unwinding def. \ref{DifferentialnFormOnSmoothSpace} yields the following explicit description:
+
+a differential $n$-form $\omega \in \Omega^n(X)$ on a smooth set $X$ is
+
+1. for each way $\phi \colon \mathbb{R}^k \to X$ of laying out a coordinate system $\mathbb{R}^k$ in $X$ a differential $n$-form
+
+   $$
+     \phi^* \omega \in \Omega^n(\mathbb{R}^k)
+   $$
+
+   on the abstract coordinate system, as given by def. \ref{DifferentialnForms};
+
+1. for each abstract [[coordinate transformation]] $f \colon \mathbb{R}^{k_2} \to \mathbb{R}^{k_1}$ a corresponding compatibility condition between local differential forms $\phi_1 \colon \mathbb{R}^{k_1} \to X$ and $\phi_2 \colon \mathbb{R}^{k_2} \to X$ of the form
+
+   $$
+     f^* \phi_1^* \omega = \phi_2^* \omega
+     \,.
+   $$
+
+Hence a differential form on a smooth set is simply a collection of differential forms on all its coordinate systems such that these glue along all possible coordinate transformations.
+
+=--
+
+
+The following adds further explanation to the role of $\Omega^n \in Smooth0Tye$ as a _[[moduli space]]_. Notice that since $\Omega^n$ is itself a [[smooth set]], we may speak about differential $n$-forms on $\Omega^n$ itsefl.
+
++-- {: .num_defn #UniversalDifferentialnForm}
+###### Definition
+
+The **universal differential $n$-forms** is the differential $n$-form
+
+$$
+  \omega^n_{univ} \in \Omega^n(\Omega^n)
+$$
+
+which is modulated by the [[identity]] [[homomorphism]] $id \colon \Omega^n \to \Omega^n$.
+
+=--
+
+With this definition we have:
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in Smooth0Type$ any [[smooth set]], every differential $n$-form on $X$, $\omega \in \Omega^n(X)$ is the pullback of differential forms, def. \ref{PullbackOfDifferentialFormsOnSmoothSpaces}, of the universal differential $n$-form, def. \ref{UniversalDifferentialnForm}, along a homomorphism $f$ from $X$ into the moduli space $\Omega^n$ of differential $n$-forms:
+
+$$
+  \omega = f^* \omega^n_{univ}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This statement is of course in a way a big tautology. Nevertheless it is a very useful tautology to make explicit. The whole concept of differential forms on smooth sets here may be thought of as simply a variation of the theme of the [[Yoneda lemma]].
+
+=--
+
++-- {: bluebox }
+###### 
+
+This ends the Model-layer discussion of differential forms. We now pass to a more advanced discussion of this topic in the [Semantics layer below](#DifferentialFormsLayerSem). The reader wishing to stick to more elementary discussion for the time being should skip ahead to the Model-layer discussion of [differentiation below](#Differentiation). 
+
+=--
+
+$\,$
+
+We discuss the smooth space of differential forms _on a fixed smooth space_ $X$. 
+
++-- {: .num_remark}
+###### Remark
+
+For $X$ a [[smooth space]], the smooth mapping space $[X, \Omega^n] \in Smooth0Type$ is the smooth space whose $\mathbb{R}^k$-plots are differential $n$-forms on the [[product]] $X \times \mathbb{R}^k$
+
+$$
+  [X, \Omega^n] \colon \mathbb{R}^k \mapsto \Omega^n(X \times \mathbb{R}^k)
+  \,.
+$$
+
+This is not _quite_ what one usually wants to regard as an $\mathbb{R}^k$-parameterized of differential forms on $X$. That is instead usually meant to be a differential form $\omega$ on $X \times \mathbb{R}^k$ which has "no leg along $\mathbb{R}^k$". Another way to say this is that the family of forms on $X$ that is represented by some $\omega$ on $X \times \mathbb{R}^k$ is that which over a point $v \colon * \to \mathbb{RR}^k$ has the value $(id_X,v)^* \omega$. Under this [[pullback of differential forms]] any components of $\omega$ with "legs along $\mathbb{R}^k$" are identified with the 0 differential form 
+
+=--
+
+This is captured by the following definition.
+
++-- {: .num_defn #SmoothSpaceOfFormsOnSmoothSpace}
+###### Definition
+
+For $X \in Smooth0Type$ and $n \in \mathbb{N}$, the **smooth space of differential $n$-forms** $\mathbf{\Omega}^n(X)$ on $X$ is the concretification, def. \ref{ConcreteObjectsAndConcretification}, of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
+
+$$
+  \mathbf{\Omega}^n(X) \coloneqq Conc([X, \Omega^n])
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The $\mathbb{R}^k$-plots of $\mathbf{\Omega}^n(\mathbb{R}^k)$
+are indeed smooth differential $n$-forms on $X \times \mathbb{R}^k$ which are such that their evaluation on vector fields tangent to $\mathbb{R}^k$ vanish.
+
+=--
+
++-- {: .proof}
+###### Proof (sketch)
+
+By def. \ref{Decohese}, def. \ref{ConcreteObjectsAndConcretification} and 
+prop. \ref{DecohesOverASiteWithTerminalObject} the set of plots of $\mathbf{\Omega}^n(X)$ over $\mathbb{R}^k$ is the [[image]] of the [[function]]
+
+$$
+  \Omega^n(X \times \mathbb{R}^k)
+  \simeq
+   Hom_{Smooth0Type}(\mathbb{R}^k, [X,\Omega^n])
+   \stackrel{\Gamma_{ \mathbb{R}^k, [X,\Omega^n] }}{\to}
+   Hom_{Set}(\Gamma(\mathbb{R}^k), \Gamma [X, \Omega^n])
+   \simeq
+   Hom_{Set}(\mathbb{R}^k_s, \Omega^n(X))
+  \,,
+$$
+
+where on the right $\mathbb{R}^k_s$ denotes, just for emphasis, the underlying set of $\mathbb{R}^k$. This function manifestly sends a smooth differential form $\omega \in \Omega^n(X \times \mathbb{R}^k)$ to the function from points $v$ of $\mathbb{R}^k$ to differential forms on $X$ given by
+
+$$
+  \omega \mapsto \left(v \mapsto  (id_X, v)^* \omega \right)
+  \,.
+$$
+
+Under this function all components of differential forms with a "leg along" $\mathbb{R}^k$ are sent to the 0-form. Hence the image of this function is the collection of smooth forms on $X \times \mathbb{R}^k$ with "no leg along $\mathbb{R}^k$".
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For $n = 0$ we have (for any $X\in Smooth0Type$)
+
+$$
+  \begin{aligned}
+    \mathbf{\Omega}^0(X) 
+      & \coloneqq Conc [X, \Omega^0]
+    \\
+    & \simeq Conc [X, \mathbb{R}]
+    \\
+    & \simeq [X, \mathbb{R}]
+  \end{aligned}
+  \,,
+$$
+
+by prop. \ref{SpaceOf0FormsIsRealLine}.
+
+=--
 
 
 
