@@ -15,4 +15,4 @@ A _stratification_ of a [[set]] or other object is some kind of decomposition in
 * [[stratified space]]
 
 
-[[!redirects stratification]]
+[[!redirects stratifications]]
