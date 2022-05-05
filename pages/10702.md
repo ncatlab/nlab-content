@@ -47,7 +47,7 @@ $$
 
 there exists a multiplicative inverse formal power series $\lambda_t[E]^{-1}$.
 
-Thn given the class of a [[virtual vector bundle]] $[E] - [F] \in K(X)$, define more genrally
+Thn given the class of a [[virtual vector bundle]] $[E] - [F] \in K(X)$, define more generally
 
 $$
   \lambda_t[[E- F]]
