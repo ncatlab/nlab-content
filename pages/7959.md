@@ -165,6 +165,11 @@ See also
 
 * [[Hans-Peter Nilles]], Patrick K.S. Vaudrevange, _Geography of Fields in Extra Dimensions: String Theory Lessons for Particle Physics_, Perspectives on String Phenomenology" (World Scientific) ([arXiv:1403.1597](http://arxiv.org/abs/1403.1597))
 
+For [[Gepner models]]:
+
+* Christian Reppel, _Phenomenological Aspects of Gepner Models_, 2007 ([pdf](https://www.ru.nl/publish/pages/760962/christiaan_reppel.pdf))
+
+
 ### Original articles
 
 * {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
