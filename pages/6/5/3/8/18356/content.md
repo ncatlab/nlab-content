@@ -86,7 +86,7 @@ For [[(∞,1)-toposes]] the accessibility of the reflection is no longer implied
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-* {#Kelly} [[Shane Kelly]], _What is the relationship between Grothendieck pretopologies and Grothendieck topologies?_ ([web] (https://www.ms.u-tokyo.ac.jp/~kelly/pdfs/grothendieckTop.pdf)) .
+* {#Kelly} [[Shane Kelly]], _What is the relationship between Grothendieck pretopologies and Grothendieck topologies?_, 2022 ([web] (https://www.ms.u-tokyo.ac.jp/~kelly/pdfs/grothendieckTop.pdf)) .
 
 
 [[!redirects sheafification preserves finite limits]]
