@@ -57,15 +57,17 @@ A space that is $T_1$ and limit point compact is countably compact.
 
 +-- {: .proof} 
 ###### Proof 
-Equivalently (under classical logic), the assertion is that if a $T_1$ space $X$ is not countably compact, then it is not limit point compact. Indeed, under this hypothesis, there is a countable open cover $U_1, U_2, \ldots$ of $X$ that admits no finite subcover. We put $V_n = U_1 \cup \ldots \cup U_n$ so that $V_1 \subseteq V_2 \subseteq \ldots$; since every point belongs to some $V_n$ but no $V_n$ is all of $X$, we may discard repetitions and assume without loss of generality that all the inclusions 
+Consider any countable open cover $U_1, U_2, \ldots$ of $X$. Put $V_n = U_1 \cup \ldots \cup U_n$ so that $V_1 \subseteq V_2 \subseteq \ldots$, and discard repetitions, i.e., consider the maximal chain of *strict* inclusions 
 
-$$\emptyset = V_0 \subset V_1 \subset V_2 \subset \ldots$$ 
+$$\emptyset = V_0 \subset V_{n_1} \subset V_{n_2} \subset \ldots$$ 
 
-are strict. Thus for each $n \geq 1$ we may pick a point $x_n \in V_n \setminus V_{n-1}$. Observe that if $m \lt n$, then $x_n \notin V_m$. 
+It suffices to show this maximal chain is finite. Rename it as $\emptyset = W_0 \subset W_1 \subset W_2 \subset \ldots$. 
 
-Since $X$ is $T_1$ (points are closed), the set $W_m = V_m \cap \neg \{x_1, \ldots, x_{m-1}\}$ is an open neighborhood of $x_m$ that does not contain $x_n$ whenever $n \gt m$, and does not contain $x_n$ for $n \lt m$. Thus every point $x_m$ is open relative to $A = \{x_1, x_2, \ldots\}$, i.e., $A$ is a discrete subspace. 
+For each $W_n$ occurring in this chain ($n \geq 1$), pick a point $x_n \in W_n \setminus W_{n-1}$. Observe that if $m \lt n$, then $x_n \notin W_m$. 
 
-Finally, any point $x \notin A$ belongs to some $V_n$, and then $V_n \cap \neg \{x_1, \ldots x_n\}$ is an open neighborhood of $x$ that doesn't intersect $A$. Thus $A$ is an infinite closed discrete subspace, meaning that $X$ is not limit point compact. 
+Since $X$ is $T_1$ (points are closed), the set $W_m \cap \neg \{x_1, \ldots, x_{m-1}\}$ is an open neighborhood of $x_m$ that does not contain $x_n$ whenever $n \gt m$, and does not contain $x_n$ whenever $n \lt m$. Thus every point $x_m$ is open relative to $A = \{x_1, x_2, \ldots\}$, i.e., $A$ is a discrete subspace. 
+
+Finally, any point $x \notin A$ belongs to some $W_n$, and then $W_n \cap \neg \{x_1, \ldots x_n\}$ is an open neighborhood of $x$ that doesn't intersect $A$. Thus $A$ is a closed discrete subspace, and is finite by limit point compactness. Therefore the maximal chain consisting of the sets $W_n$ is finite, as was to be shown. 
 =-- 
 
 
