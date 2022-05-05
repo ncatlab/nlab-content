@@ -163,10 +163,39 @@ Notice the $Id$-labels, which indicate that the edges and faces labeled by them 
 
 
 ## Examples
+ {#Examples}
+
+### Cartesian products of simplices
+
+The non-degenerate [[simplices]] in the simplicial set which is the [[Cartesian product]] 
+
+$$
+  \Delta[1] \times \Delta[2]
+$$ 
+
+of the [[1-simplex]] $\Delta[1]$ with the [[2-simplex]] $\Delta[2]$ (i.e. the canonical simplicial [[cylinder object]] over the [[2-simplex]]) is the simplicial set which looks as follows:
+
+<img src="https://ncatlab.org/nlab/files/SimplicialCylinderOn2Simplex.jpg" width="240">
+
+> graphics grabbed from [Friedman 08, p. 33](#Friedman08)
+
+
+### Simplicial complexes
+
+Every [[simplicial complex]] is a simplicial set
+
+<img src="https://ncatlab.org/nlab/files/ASimplicialComplex.jpg" width="180">
+
+> graphics grabbed form [arXiv:1710.06129](https://arxiv.org/abs/1710.06129)
+
+<img src="https://ncatlab.org/nlab/files/AnotherSimplicialComplex.jpg" width="400">
+
+> graphics grabbed from Maletic, 2013
+
 
 ### Directed graphs
 
-A directed graph (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 \coloneqq V$ to be the set of vertices and $S_1 \coloneqq E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (the latter corresponding to the degenerate 1-simplices).
+A [[directed graph]] (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 \coloneqq V$ to be the set of vertices and $S_1 \coloneqq E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (the latter corresponding to the degenerate 1-simplices).
 
 ### Singular simplices (Yoneda embeddings)
 
