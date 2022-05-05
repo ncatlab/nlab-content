@@ -233,7 +233,7 @@ exhibits $e_{{y_B}i}\circ e_j$ as the left extension of $y_A$ along $j\circ i$.
 The pair $(\mathbb{A},\mathcal{P})$ is called a **Yoneda structure** on the 2-category $\mathcal{K}$.
 =--
 
-We desisted from tracking the prefix 'proto' through the foregoing but it should clear that a _proto-Yoneda structure_ results from replacing 'admissible' by 'proto-admissible' throughout the definition. Indeed, in (YS3) the redundant assumption that $i\in|\mathbb{A}|$ was made in proviso for the case of proto-admissible 1-cells.
+We desisted from tracking the prefix 'proto' through the foregoing but it should clear that a _proto-Yoneda structure_ results from replacing 'admissible' by 'proto-admissible' throughout the definition. Indeed, in (YS3) the assumption that $i\in\mathbb{A}$ was made in proviso for the case of proto-admissible 1-cells (cf. [Walker 2017](#Walker17)) since in presence of the right ideal property this follows from the admissibility of $id_B$.
 
 In cases where we need to keep track of from which (proto-)Yoneda structure the various structural 1- and 2-cells come from we will use the presheaf construction as a superscript for disambiguation: for (proto-)Yoneda structure $(\mathbb{A},\mathcal{P})$ we write $y_A^\mathcal{P}$ and $\chi_f^{\mathcal{P}}$ etc.
 
