@@ -247,6 +247,8 @@ Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (T
 
 ## Related entries
 
+* [[permutation representation]], [[permutation matrix]]
+
 * [[alternating group]]
 
 * [[signature of a permutation]]
