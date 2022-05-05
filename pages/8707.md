@@ -202,7 +202,7 @@ Review includes
 
   Tutorial 3, Dan Licata: _Discrete and Codiscrete Modalities in Cohesive HoTT_ ([recording](https://www.youtube.com/watch?v=OHN9vEVPBN8))
 
-  Tutorial 4, Felix Wellen, _Discrete and Codiscrete Modalities in Cohesive HoTT, II_
+  Tutorial 4, Felix Wellen, _Discrete and Codiscrete Modalities in Cohesive HoTT, II_ ([recording](https://www.youtube.com/watch?v=KXx9UDQdWPw))
 
   Tutorial 5, Dan Licata: _A Fibrational Framework for Modal Dependent Type Theories_ ([recording](https://www.youtube.com/watch?v=R4SsxUnIcng))
 
