@@ -17,20 +17,30 @@
 
 By the _Burnside category_ of a [[finite group]] $G$ one means either 
 
-1. the [[category of correspondences]] in [[finite set|finite]] [[G-sets]] 
+1. the [[category of correspondences]] in [[finite set|finite]] [[G-sets]] (Prop. \ref{PermutativeCategoryOfFiniteGSets} below)
 
-1. or the abelianization of that
+1. or an abelianization of that
 
-   1. either by [[group completion]] of its monoidal [[hom-groupoids]] to an [[additive category|additive]] [[1-category]];
+   1. either by [[group completion]] of its monoidal [[hom-groupoids]] to an [[additive category|additive]] [[1-category]] (Def. \ref{AdditiveBurnsideCategory} below);
 
    1. or by forming the [[K-theory of a permutative category]] of the [[hom-groupoids]] to a [[(∞,1)-category of spectra|spectra]]-[[enriched (∞,1)-category]] (Def. \ref{SpectralBurnsideCategory} below).
 
-Then [[functors]]/[[additive functors]]/[[enriched (∞,1)-functors]] from the Burnside category to, in particular, the [[category of abelian groups]]/[[(∞,1)-category of spectra]] are called _[[Mackey functors]]_.
+The plain _[[Burnside ring]]_ is the [[endomorphism ring]] of the [[terminal object|terminal]] [[G-set]] in the [[additive category|additive]] version of the category (Example \ref{BurnsideRingIsEndomorphismRingInBurnsideCategory} below).
+
+The [[functors]]/[[additive functors]]/[[enriched (∞,1)-functors]] from the Burnside category to, in particular, the [[category of abelian groups]]/[[(∞,1)-category of spectra]] are called _[[Mackey functors]]_.
 
 A [[functor]] out of the Burndside category is called a _[[Mackey functor]]_, specifically if it is an [[Ab]]-[[enriched functor]] to [[Ab]] out of the [[additive category]]-version of the Burnside category. A [[spectra]]-[[enriched functor]] out of the spectral Burnside category to [[Spectra]] is called a _[[spectral Mackey functor]]_, for emphasis. These spectral Mackey functors are [[equivalence of (infinity,1)-categories|equivalent]] to [[genuine G-spectra]].
 
 ## Definition
  {#Definition}
+
+There are various incarnations of the Burnside category as [[enriched categories]], in varying degree of sophistication of the enriching "[[cosmos]]" are all induced from the canonical structure of [[permutative categories]] on the [[correspondences]] between two fixed [[finite set|finite]] [[G-sets]] (made explicit as Prop. \ref{PermutativeCategoryOfFiniteGSets} below). This yields the Burnside category as
+
+1. _[enriched in permutative categories](#AsEnrichedInPermutativeCategories)_;
+
+1. _[enriched in abelian groups](#AsEnrichedInabelianGroups)_;
+
+1. _[enriched in spectra](#EnrichedInSpectra)_.
 
 +-- {: .num_prop #PermutativeCategoryOfFiniteGSets}
 ###### Proposition
@@ -54,6 +64,10 @@ Finally, restriction to [[isomorphisms]] (passage to [[cores]]) yields the biper
 
 (e.g. [Guillou-May 11, Def. 1.3](#GuillouMay11), [Bohmann-Osorno 14, Def. 1.4](#BohmannOsorno14))
 
+
+### As enriched in permutative categories 
+ {#AsEnrichedInPermutativeCategories}
+
 +-- {: .num_defn #AdditiveBurnsideCategory}
 ###### Definition
 **([[PermCat]]-[[enriched category|enriched]] [[Burnside category]])**
@@ -75,6 +89,52 @@ It may be regarded as an [[enriched category]] over the [[multicategory]] [[Perm
 =--
 
 ([Guillou-May 11, Def. 1.6](#GuillouMay11), [Bohmann-Osorno 14, Def. 7.1, 7.2](#BohmannOsorno14))
+
+### As enriched in abelian groups
+ {#AsEnrichedInabelianGroups}
+
++-- {: .num_defn #AdditiveBurnsideCategory}
+###### Definition
+**(additive Burnside category)**
+
+The _additive Burnside category_ $G Burn_{ad}$ of $G$ is the [[additive category]] obtained from the [[PermCat]]-[[enriched category|enriched]] Burnside category $G Burn_{pc}$ (Def. \ref{AdditiveBurnsideCategory}) under replacing each [[hom-object|hom]]-[[permutative category]] $Core(G FinSet_{sk}/_{S_1 \times S_2})$ with its [[Grothendieck group]], hence with the [[abelian group]] which is the [[group completion]] 
+
+$$
+  K \;\colon\; PermCat \overset{\text{iso classes}}{\longrightarrow} CMon \overset{K}{\longrightarrow} Ab
+$$
+
+of the [[commutative monoid]] of [[isomorphism classes]] of [[objects]] in $Core(G FinSet_{sk}/_{S_1 \times S_2})$, under [[disjoint union]]:
+
+
+$$
+  G Burn_{ab}
+  \;\coloneqq\;
+  K_{\bullet} G Burn_{pc}  
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #BurnsideRingIsEndomorphismRingInBurnsideCategory}
+###### Example
+**([[Burnside ring]] is [[endomorphism ring]] of additive Burnside category)**
+
+The [[endomorphism ring]] of the [[terminal object|terminal]] [[G-set]] (the [[point]] $\ast$ equipped with the, necessarily, [[trivial action]]) in the additive Burnside category (Def. \ref{AdditiveBurnsideCategory}) is the _[[Burnside ring]]_ $A(G)$:
+
+$$
+  End_{G Burn_{ad}}(\ast, \ast)
+  \;\simeq\;
+  A(G)
+$$
+
+
+=--
+
+
+
+### As enriched in spectra
+ {#EnrichedInSpectra}
 
 +-- {: .num_defn #SpectralBurnsideCategory}
 ###### Definition
@@ -171,3 +231,7 @@ making use of
 
 [[!redirects spectral Burnside category]]
 [[!redirects spectral Burnside categories]]
+
+[[!redirects additive Burnside category]]
+[[!redirects additive Burnside categories]]
+
