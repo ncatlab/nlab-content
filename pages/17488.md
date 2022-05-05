@@ -2935,7 +2935,7 @@ Such a situation is called a _[[Bousfield localization of model categories|Bousf
 
 ### Bousfield localization
 
-In plain [[category theory]], a _[[localization]]_ of a [[category]] $\mathcal{C}$ is equivalently a [[full subcategory]]
+In plain [[category theory]], a _[[reflective localization]]_ of a [[category]] $\mathcal{C}$ is equivalently a [[full subcategory]]
 
 $$
   i
