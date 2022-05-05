@@ -26,4 +26,8 @@ $$
 
 [[hello.pdf:file]]
 
+\[\label{XXX} aaa\]
+
+(eq:XXX)
+
 Testing
