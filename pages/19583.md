@@ -40,6 +40,10 @@ From [Maldacena 18](#Maldacena18):
 
 ## References
 
+Review includes
+
+* {#Sachdev18} [[Subir Sachdev]], _The SYK model_, talk at [Aspen Center for Physics](https://www.aspenphys.org/), 2018 ([pdf](http://qpt.physics.harvard.edu/talks/aspen_tutorial18.pdf))
+
 The model is due to
 
 * {#SachdevYe93} [[Subir Sachdev]], Jinwu Ye, _Gapless Spin-Fluid Ground State in a Random Quantum Heisenberg Magnet_, Phys. Rev. Lett. 70:3339, 1993 ([arXiv:cond-mat/9212030](https://arxiv.org/abs/cond-mat/9212030))
@@ -47,7 +51,7 @@ The model is due to
 
 * {#Kitaev15} [[Alexei Kitaev]], _A simple model of quantum holography_, Talks at KITP, April 7, 2015 and May 27, 2015. ([part I](#http://online.kitp.ucsb.edu/online/entangled15/kitaev/), [part II](http://online.kitp.ucsb.edu/online/entangled15/kitaev2/))
 
-Further discussion includes
+with further discussion in
 
 * {#MaldacenaStanford16} [[Juan Maldacena]], Douglas Stanford, _Comments on the Sachdev-Ye-Kitaev model_ ([arXiv:1604.07818](https://arxiv.org/abs/1604.07818))
 
