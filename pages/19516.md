@@ -75,9 +75,9 @@ Then
        {}^{\mathllap{ id }}\Big\downarrow
        & {}^{\mathllap{\epsilon}}\swArrow &
        {}^{\mathllap{C}}
-       \big\downarrow
+       \Big\downarrow
          &\swArrow_{\mathrlap{id}}& 
-       \big\downarrow{}^{ \mathrlap{ id } }
+       \Big\downarrow{}^{ \mathrlap{ id } }
        \\
        \mathcal{C}_2
        &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
@@ -107,6 +107,8 @@ Then
        \mathcal{D}
      }
    $$
+
+   and such that the [[derived natural transformation]] $Ho(id)$ of the bottom right square ([here](double+category+of+model+categories#DerivedNaturalTransformation)) is invertible (a [[natural isomorphism]]);
    
 
 1. a [[Quillen adjoint triple]] of the form
@@ -177,6 +179,9 @@ Then
        \mathcal{D}
      }
    $$
+
+   and such that the [[derived natural transformation]] $Ho(id)$ of the top left square square ([here](double+category+of+model+categories#DerivedNaturalTransformation)) is invertible (a [[natural isomorphism]]).
+
 
 If a Quillen adjoint triple of the first kind overlaps with one of the second kind
 
@@ -308,15 +313,27 @@ $$
     [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
     \\
     {}^{\mathllap{const}}
-    \big\downarrow
+    \Big\downarrow
       &\swArrow_{\mathrlap{id}}& 
-    \big\downarrow{}^{ \mathrlap{ id } }
+    \Big\downarrow{}^{ \mathrlap{ id } }
     \\
     [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
     &\underset{id}{\longrightarrow}& 
     [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
   }
 $$
+
+Moreover, the [[derived natural transformation]] $Ho(id)$ of this square is invertible, if for every [[Kan complex]] $X$
+
+$$
+  Q const X
+    \overset{}{\longrightarrow}
+  const X
+    \longrightarrow
+  P const X  
+$$ 
+
+is a [[weak homotopy equivalence]] (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)), which here is trivially the case.
 
 Therefore we have a Quillen adjoint triple of the form
 
@@ -463,6 +480,20 @@ $$
     [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
   }
 $$
+
+
+Moreover, the [[derived natural transformation]] $Ho(id)$ of the top left square is invertible, if for every injectively fibrant simplicial presheaf $\mathbf{X}$ the composite
+
+$$
+  \Gamma Q_{inj} \mathbf{X}
+    \overset{}{\longrightarrow}
+  \Gamma \mathbf{X}
+    \longrightarrow
+  \Gamma P_{proj} \mathbf{X}  
+$$ 
+
+is a [[weak equivalence]] (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)), which here is trivially the case.
+
 
 Hence in this case we have a [[Quillen adjoint quadruple]]
 
