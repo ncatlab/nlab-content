@@ -117,6 +117,8 @@ By [[Henselian ring|Hensel's lemma]], the group of units $\mathbb{Z}_p^\times$ h
 
 * **group of units**/[[multiplicative group]], [[Picard group]], [[Brauer group]]
 
+* [[multiplicative submonoid of cancellative elements]]
+
 * [[∞-group of units]]
 
 * [[multiplicative group]]
