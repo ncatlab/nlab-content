@@ -25,13 +25,13 @@ The [[duality|dual]] concept is that of _[[dependent sum]]_.
 
 The concept of [[cartesian product]] of [[sets]] makes sense for any [[family of sets]], while the [[category theory|category-theoretic]] [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
 
-First we need to describe a family of objects indexed by an object; it\'s common to interpret this as a [[bundle]], that is an arbitrary morphism $g: B \to A$.  (In [[Set]], $A$ would be the index set of the family, and the [[fiber]] of the bundle over an element $x$ of $A$ would be the set indexed by $x$.  Conversely, given a family of sets, $B$ can be constructed as its [[disjoint union]].)
+First we need to describe a family of objects indexed by an object; it\'s common to interpret this as a [[bundle]], that is an arbitrary morphism $\pi: E \to A$.  (In [[Set]], $A$ would be the index set of the family, and the [[fiber]] of the bundle over an element $x$ of $A$ would be the set indexed by $x$.  Conversely, given a family of sets, $E$ can be constructed as its [[disjoint union]].)
 
-In these terms, the cartesian product of the family of sets is the set $S$ of (global) [[section]]s of the bundle.  This set comes equipped with an evaluation map $ev: S \times A \to B$ such that
-$$ S \times A \stackrel{ev}\to B \stackrel{g}\to A $$
-equals the usual product projection from $S \times A$ to $A$, so $ev$ is a morphism in the [[over category]] $Set/A$.  The [[universal property]] of $S$ is that, given any set $T$ and morphism $T \times A \to B$ in $Set/A$, there\'s a unique map $T \to S$ that makes everything commute.
+In these terms, the cartesian product of the family of sets is the set $S$ of (global) [[section]]s of the bundle.  This set comes equipped with an evaluation map $ev: S \times A \to E$ such that
+$$ S \times A \stackrel{ev}\to E \stackrel{\pi}\to A $$
+equals the usual product projection from $S \times A$ to $A$, so $ev$ and $\pi$ are both morphisms in the [[over category]] $Set/A$.  The [[universal property]] of $S$ is that, given any set $T$ and morphism $T \times A \to E$ in $Set/A$, there\'s a unique map $T \to S$ that makes everything commute.
 
-In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $\mathcal{C}/I$.
+In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: We realise that $Set$ is secretly $Set/*$, where $*$ is the one-point set (the [[final object]]), and move everything from $Set$ to an arbitrary over category $\mathcal{C}/I$.
 
 
 
