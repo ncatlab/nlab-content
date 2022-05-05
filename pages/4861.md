@@ -62,6 +62,10 @@ Isotopy is used where one wishes to study deformations of an object inside some 
 One of the beauties of isotopy of knots is that it can be realised very simply at the level of [[knot diagrams]]. Two knots are isotopic if their respective knot diagrams can be related using [[Reidemeister moves]]. (This is a formal theorem, but will be given elsewhere after some more development.)
 
 
+## Related concepts
+
+* [[smooth isotopy]]
+
 ## References ##
 
 General discussion includes
@@ -72,7 +76,11 @@ For isotopy in [[knot theory]] see
 
  * R. H Crowell and R.H. Fox, Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
 
- * N.D. Gilbert and T. Porter, Knots and Surfaces, Oxford U.P., 1994.
+ * N.D. Gilbert and [[Tim Porter]], _Knots and Surfaces_, Oxford U.P., 1994.
+
+Specifically for [[smooth isotopy]]:
+
+* {#Greene13} Josh Greene, _Combinatorial methods in knot theory_, 2013 ([pdf](https://www2.bc.edu/joshua-e-greene/MT885S13/Lecture%201.pdf))
 
 [[!redirects isotopies]]
 [[!redirects Isotopy]]
