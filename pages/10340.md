@@ -9,7 +9,7 @@
 |  | [[de Sitter group]] $O(d,1)$ | $O(d-1,1)$ | [[de Sitter spacetime]] $dS^d$ |  |  |  | [[deSitter gravity]] |
 |       | [[linear algebraic group]] | [[parabolic subgroup]]/[[Borel subgroup]] | [[flag variety]] | [[parabolic geometry]] |  |  |  | 
 |       |  [[conformal group]] $O(d,t+1)$ | conformal parabolic subgroup  | [[Möbius space]] $S^{d,t}$  |  | [[conformal geometry]] | [[conformal connection]] | [[conformal gravity]] | 
-| [[supergeometry]] | [[super Lie group]] $G$ | [[subgroup]] ([[monomorphism]]) $H \hookrightarrow G$ | [[quotient]] ("[[coset space]]") $G/H$ | super Klein geometry    |    [[super Cartan geometry]]  | Cartan [[superconnection]] |      |
+| [[supergeometry]] | [[super Lie group]] $G$ | [[subgroup]] ([[monomorphism]]) $H \hookrightarrow G$ | [[quotient]] ("[[coset space]]") $G/H$ | [[super Klein geometry]]    |    [[super Cartan geometry]]  | Cartan [[superconnection]] |      |
 | examples      | [[super Poincaré group]]  | [[spin group]] | [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert N}$ | Lorentzian [[supergeometry]] |  [[supergeometry]]  | [[superconnection]]  | [[supergravity]] |
 |     | [[super anti de Sitter group]]  | | [[super anti de Sitter spacetime]]  |  |   |   |  |
 | [[higher differential geometry]] | [[smooth 2-group]] $G$ | [[2-monomorphism]] $H \to G$ | [[homotopy quotient]] $G//H$    | [[Klein 2-geometry]]   |    [[Cartan 2-geometry]] |   |      |
