@@ -64,4 +64,5 @@ For [[M-branes]]:
 
 [[!redirects brane intersections]]
 
+[[!redirects intersecting brane]]
 [[!redirects intersecting branes]]
