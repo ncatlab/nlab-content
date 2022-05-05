@@ -103,5 +103,8 @@ The following are [[semifree differential graded-commutative algebras]]:
 [[!redirects cdga]]
 [[!redirects cdga-s]]
 
+[[!redirects dgc-superalgebra]]
+[[!redirects dgc-superalgebras]]
+
 [[!redirects differential graded-commutative superalgebra]]
 [[!redirects differential graded-commutative superalgebras]]
