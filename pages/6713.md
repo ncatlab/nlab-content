@@ -330,7 +330,9 @@ The idea that the physics of D-branes is described by [[topological K-theory]] o
 
 See also at _[[anti-D-brane]]_.
 
-Review of the physical picture includes
+Further review and discussion of D-brane charge in K-theory includes the following
+
+* {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]], _Brane Descent Relations in K-theory_, Nucl.Phys. B566 (2000) 562-598 ([arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153))
 
 * Kasper Olsen, [[Richard Szabo]], _Constructing D-Branes from K-Theory_, Adv.Theor.Math.Phys. 3 (1999) 889-1025 ([arXiv:hep-th/9907140](https://arxiv.org/abs/hep-th/9907140))
 
