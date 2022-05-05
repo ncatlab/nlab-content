@@ -43,6 +43,15 @@ Notice that all three kinds of ideal are equivalent for a commutative ring.
 * Considering the category of rings as a Barr-exact category, there is a natural bijection between [[congruence|congruence relations]] on a ring $R$ (internal to the category of rings) and two-sided ideals of $R$; this associates to each ideal $I$ the relation $\sim_I$ where $x \sim_I y$ means $x - y \in I$. This observation does not apply to the category of rigs. 
 =-- 
 
+This definition also makes sense for [[nonassociative rings]] (or rigs), with the left/right/two-sided coincidence in the commutative case.
+
+In the case of a [[nonunital ring]] (or rig), if $R$ is being thought of as a [[module]] over some other ring $K$, then it won\'t immediately follow that $I$ is a [[submodule]] of $R$ over $K$, and so one usually includes that requirement as well:
+
+*  $a x \in I$ whenever $a \in K$ and $x \in I$
+
+in the case of left-modules, and similarly in the case of right modules or [[bimodules]].  (Technically, this should be distinguished in the terminology, say by calling $I$ an __ideal of $R$ over $K$__ or the like.)  In particular, a (real or complex) [[Lie ideal]] of a [[Lie algebra]] $R$ is an ideal of $R$ over the real or complex field $K$.
+
+
 ### In lattices (and other prosets)
 
 An __ideal__ in a [[lattice]] (or even [[preorder|proset]]) $L$ is a [[subset]] $I$ of (the underlying set of) $L$ such that:
@@ -128,10 +137,6 @@ where all four summands are contained in $M$ ($I J \subseteq M$ by supposition, 
 =-- 
 
 That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; that every ideal is contained in a maximal ideal is a [[maximal ideal theorem]].
-
-## Related concepts
-
-* [[Lie ideal]]
 
 
 [[!redirects ideal]]
