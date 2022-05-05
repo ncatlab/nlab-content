@@ -13,3 +13,5 @@ The **category of semipresheaves** on $C$, usually denoted $[C^{op},Set]_{semi}$
 * semifunctors $F : C^{op} \to Set$ as objects;
 
 * [[natural transformation|natural transformations]] between such semifunctors as morphisms.
+
+[[!redirects semipresheaves]]
