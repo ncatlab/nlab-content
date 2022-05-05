@@ -21,6 +21,8 @@ Chapter 7: Equivariant homology and cohomolgy
 
 * [[equivariant cohomology]]
 
+* [[equivariant Adams conjecture]]
+
 [Chapter 8: Equivariant homotopy theory](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-homotopy.pdf)
 
 * [[equivariant homotopy theory]]
