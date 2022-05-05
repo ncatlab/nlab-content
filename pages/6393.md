@@ -78,6 +78,11 @@ Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the
 
 * L. Brink, P. Di Vecchia and [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B Volume 65, Issue 5, 20 (1976) Pages 471-474 
 
+Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is subtle (in contrast to the classical [[Green-Schwarz superstring]]), discussion is in
+
+* {#BerensteinLeigh99} [[David Berenstein]], Robert Leigh, _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D 60, 106002 (1999) ([arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104))
+ 
+
 ### GSO projection and spacetime supersymmetry
 
 The [[GSO projection]] and the conjecture that this makes also the target space theory of the spinning string [[supergravity|locally supersymmetric]] is due to
