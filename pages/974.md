@@ -376,6 +376,8 @@ See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/
 
 ## Related concepts
 
+* [[PrCat]], [[Pr(∞,1)Cat]], [[Ho(CombModCat)]]
+
 * Another notion of "presentable category" is that of an _[[equationally presentable category]]_.
 
 * Locally presentable categories are a special case of _[[locally bounded category|locally bounded categories]]_.
