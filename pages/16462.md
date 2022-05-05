@@ -52,6 +52,8 @@ on the history of [[philosophy]], presented, essentially, as a progression of ph
 ### Oriental philosophy
  {#OrientalPhilosophy}
   
+> ...to the Chinese what is highest and the origin of things is nothing, emptiness, the altogether undetermined, the abstract universal, and this is also called Tao or reason. When the Greeks say that the absolute is one, or when men in modern times say that it is the highest existence, all determinations are abolished, and by the merely abstract Being nothing has been expressed excepting this same negation, only in an affirmative form. But if Philosophy has got no further than to such expression, it still stands on its most elementary stage. What is there to be found in all this learning? 
+
 (...)
 
 ## First part: Greek philosophy
