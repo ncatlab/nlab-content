@@ -312,15 +312,17 @@ Further developments include
 
 ### Introduction and review
 
+* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009 ([math/0611510](http://arxiv.org/abs/math/0611510))
 
 * {#Reineke08} Markus Reineke, _Moduli of representations of quivers_ ([arXiv:0802.2147](https://arxiv.org/abs/0802.2147))
 
-* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009 ([math/0611510](http://arxiv.org/abs/math/0611510))
-
+* Arend Bayer, _A tour to stability conditions on derived categories_, 2011 ([pdf](https://www.maths.ed.ac.uk/~abayer/dc-lecture-notes.pdf))
 
 * [[Daniel Huybrechts]], _Introduction to stability conditions_ ([arXiv:1111.1745](https://arxiv.org/abs/1111.1745))
 
 * Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
+
+* Paolo Stellari, _A tour on Bridgeland stability_, 2015 ([pdf](https://users.unimi.it/stellari/Research/Slides/LucidiStabCondBeamer.pdf))
 
 ### Examples
 
@@ -363,6 +365,9 @@ In terms of stability ($\Pi$-stability) of [[B-branes]] of the [[B-model]] [[top
 
 * {#MalyshevVerlinde07} Dmitry Malyshev, [[Herman Verlinde]], _D-branes at Singularities and String Phenomenology_, Nucl.Phys.Proc.Suppl.171:139-163, 2007 ([arXiv:0711.2451](https://arxiv.org/abs/0711.2451))
 
+On marginally stable branes:
+
+* [[Paul Aspinwall]], Alexander Maloney, Aaron Simons, _Black Hole Entropy, Marginal Stability and Mirror Symmetry_, JHEP0707:034, 2007 ([arxiv:hep-th/0610033](https://arxiv.org/abs/hep-th/0610033))
 
 
 
