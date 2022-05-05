@@ -126,12 +126,12 @@ I haven't worked out exactly what axioms are required here.
 
 ### Symmetric and cartesian versions
 
-A symmetric closed category should be additionally equipped with isomorphisms $C^{X Y}_Z : [X,[Y,Z]] \cong [Y,[X,Z]]$ satisfying appropriate axioms.  They should correspond to [[symmetric multicategories]].
+A **symmetric closed category** is additionally equipped with natural isomorphisms $C^{X Y}_Z : [X,[Y,Z]] \cong [Y,[X,Z]]$ satisfying appropriate axioms; see [deSchipper75](#deSchipper75) and [DayLaPlaza78](#DayLaPlaza78).  These should correspond to [[symmetric multicategories]].  
 
 Similarly, a "cartesian closed category" (there is an unfortunate terminological clash with [[cartesian closed category]]) should furthermore have morphisms $K^X_Y : Y\to [X,Y]$ and $T^X_Y : [X,[X,Y]]\to [X,Y]$ satisfying appropriate axioms.  They should correspond to [[cartesian multicategories]].  The relation to [[combinatory logic]] suggests that it should also be possible to axiomatize the cartesian case by replacing $L$, $C$, and $T$ with a single family of morphisms $S^X_{Y Z} : [X,[Y,Z]]\to [[X,Y],[X,Z]]$.
 
 +--{: .standout}
-I don't know of anywhere that these details are worked out.
+I don't know of anywhere that the details are worked out for the cartesian case.
 =--
 
 
@@ -166,7 +166,8 @@ $$p : C \to E^\op$$
 
 sending an object $X \in C$ to the object (endofunctor) $[X,-] \in E = [C,C]$, together with the [[Yoneda embedding]] $y : E^\op \to [E, Set]$.  The closed monoidal structure on the presheaf category $[E,Set]$ is given by [[Day convolution]], using the monoidal structure of the category of endofunctors $E$ (see [[closed monoidal structure on presheaves#presheaves_over_a_monoidal_category|closed monoidal structure on presheaves over a monoidal category]]).
 
-An alternative embedding was also sketched by Day [(1974)](#Day74), and later studied by Day and LaPlaza [(1978)](#DayLaPlaza78) in the case of symmetric closed categories.  This embedding is based on the fact that the construction of a closed monoidal category of presheaves does not actually require the base category to be monoidal: it suffices for it to be a [[promonoidal category#notes|promonoidal category]], and any closed category gives rise to such a promonoidal structure.  So, instead of using the monoidal category of endofunctors $E = [C,C]$ as in (LaPlaza 1977), the embedding in (Day 1974) and (Day and LaPlaza 1978) uses a small subcategory $A$ of the category of presheaves $[C,Set]$, and then again composes with the Yoneda embedding $A^{op} \to [A,Set]$.
+An alternative embedding was also sketched by Day [(1974)](#Day74), and later studied by Day and LaPlaza [(1978)](#DayLaPlaza78) in the case of symmetric closed categories.  This embedding is based on the fact that the construction of a closed monoidal category of presheaves does not actually require the base category to be monoidal: it suffices for it to be a [[promonoidal category#notes|promonoidal category]], and any closed category gives rise to such a promonoidal structure (perhaps a "lax" one with noninvertible associativity).  So, instead of using the category of copresheaves on the monoidal category of endofunctors $[ [C,C],Set]$ as in (LaPlaza 1977), the embedding in (Day 1974) and (Day and LaPlaza 1978) uses $[C,Set]$ itself.  One can then restrict to a small subcategory $A$ of $[C,Set]$ and compose further with a restricted version of its Yoneda embedding in order to obtain an embedding of $C$ into a closed monoidal category that also preserves certain colimits in $C$.
+
 
 ### Monadicity and 2-categories
 
@@ -215,6 +216,10 @@ The alternative embedding of closed categories based on promonoidal Day convolut
 * {#Day74} [[Brian Day]], An embedding theorem for closed categories, _Lecture Notes in Mathematics_ 420 (1974), 55-64.
 
 * {#DayLaPlaza78} B. J. Day and M. L. Laplaza, On Embedding Closed Categories, _Bull. Austral. Math. Soc._ 18 (1978), 357-371.
+
+The latter uses the notion of symmetric closed category, which was first defined in
+
+* {#deSchipper75} W.J. de Schipper, _Symmetric  closed categories_ (Mathematical Centre Tracts,  64.  Mathematisch Centrum, Amsterdam, 1975)
 
 The generalization to a bicategory-like notion ("extension systems") appears in
 
