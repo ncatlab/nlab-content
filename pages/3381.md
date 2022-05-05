@@ -22,8 +22,7 @@
 Classically, a __permutation__ on a [[set]] $X$ can be thought of in one of two different ways: either as a [[bijection]] from $X$ to itself, or alternatively as a [[linear ordering]] of the elements of $X$.
 For a set that is already equipped with a canonical ordering (such as a finite [[ordinal]] $X = \{1,\dots,n\}$), these two ways of defining permutations are interchangeable, but they correspond to different abstract [[structures]] that are more salient in different contexts.
 Typically, the definition of permutations-as-[[automorphisms]] is important in [[group theory]], while the definition of permutations-as-linear-orders is more common in [[combinatorics]].
-
-In the theory of [[operads]], the first view of permutations is required as part of the definition of a [[symmetric operad]], while the second view is used in defining the symmetric operad _of_ permutations.
+Both views of permutations are relevant to the theory of [[symmetric operads]].
 
 ## Definitions
 
