@@ -291,6 +291,39 @@ that exhibits $\overline{f}$ as left extension of $f$ along $y_A$. Furthermore, 
 * For any 1-cell $g:B\to P(C)$, the 1-cell $\overline{g}:P(B)\to P(C)$ given itself by the left extension along $y_B$ preserves the left extension of $f:A\to B$ along $y_A$ exhibited by $\epsilon_f$.
 =--
 
+Clearly, with $(P,y)$ the presheaf construction of a Yoneda structure comes into sight though we still need to define a suitable class of admissible maps from $(P,y)$. But before we do this we will introduce the concept that corresponds to the familiar notion of a pseudoalgebra for a lax-idempotent 2-monad thereby hopefully making it plausible that $(P,y)$ indeed is equivalent to the usual algebraic concept. The main idea of the following definition is that the "pseudoalgebras" $X\in|\mathcal{K}|$ mimic the extension properties of the $P(A)$, in particular, all $P(A)$ satisfy the condition trvivially and should be thought of as free algebras.
+
++-- {: .num_defn #P-complete}
+###### Definition
+Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. A 0-cell $X\in|\mathcal{K}|$ is called _P-complete_ if for every $g:B\to X$ there exists an invertible 2-cell $\epsilon_g$
+
+$$
+  \array{
+     B& & \overset{g}{\longrightarrow} & &X
+     \\
+     &{}_{y_B}\searrow & \Downarrow _{\epsilon_g}& \nearrow _\overline{g}&
+     \\
+      & & P(B) & &
+  }
+$$
+that exhibits $\overline{g}$ as left extension of $g$ along $y_B$. Moreover, this left extension $\overline{g}:P(B)\to X$ preserves all the left extensions $\overline{f}:P(A)\to P(B)$ along $y_A$ of arbitrary $f:A\to P(B)$.
+=--
+
++-- {: .num_prop #P-algebra}
+###### Proposition
+Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. The following are equivalent:
+
+* $X\in|\mathcal{K}|$ is P-complete;
+
+* $y_X:X\to P(X)$ has a left adjoint with invertible counit;
+
+* $X$ is the underlying object of a pseudoalgebra.
+
+=--
+
+The proof combines results from Bunge-Funk ([1999](#BF99)) and Marmolejo-Wood ([2012](#MW12)). $\qed$
+
+
 ## In retrospective
 
 The following is a quote from [[Ross Street|Ross Street's]] "Australian conspectus of higher categories" ([Street 2010](#Street10), p. 241):
