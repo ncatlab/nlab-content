@@ -100,6 +100,12 @@ and concerning the "3-algebra"-structure also
 
 * [[Andreas Gustavsson]], Nucl. Phys. B811, 66-76 (2009). [arXiv:0709.1260].
 
+The interpretation in terms of branes at a $\mathbb{Z}/2$-[[ADE-singularities]] with [[discrete torsion]] in the [[supergravity C-field]] is due to
+
+* [[Neil Lambert]], [[David Tong]], _Membranes on an Orbifold_, Phys.Rev.Lett.101:041602, 2008 ([arXiv:0804.1114](https://arxiv.org/abs/0804.1114))
+
+* [[Jacques Distler]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], [[Mark Van Raamsdonk]], _M2-branes on M-folds_, JHEP 0805:038,2008 ([arXiv:0804.1256](https://arxiv.org/abs/0804.1256))
+
 A comprehensive review is in 
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
