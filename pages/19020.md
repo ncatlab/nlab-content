@@ -63,6 +63,8 @@ Further discussion includes
 
 * {#ArkaniHamedDimopoulosGiudiceRomanino05} [[Nima Arkani-Hamed]], [[Savas Dimopoulos]], [[Gian Francesco Giudice]], A. Romanino, _Aspects of Split Supersymmetry_, Nucl. Phys. B709:3-46, 2005 ([arXiv:hep-ph/0409232](https://arxiv.org/abs/hep-ph/0409232))
 
+* Fei Wang, Wenyu Wang, Jin Min Yang, _A split SUSY model from SUSY GUT_,  JHEP03(2015)050 ([arXiv:1501.02906](https://arxiv.org/abs/1501.02906))
+
 Popular discussion of the "slightly split" [[G2-MSSM]] is in
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
