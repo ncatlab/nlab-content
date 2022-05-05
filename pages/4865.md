@@ -115,10 +115,13 @@ $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 
 
 ### Higher curvature corrections
+ {#HigherCurvatureCorrection}
 
-Possible [[higher curvature corrections]] to 11-dimensional supergravity are discussed in ([Cederwall-Gran-Nilsson-Tsimpis 04](#CederwallGranNilssonTsimpis04), [Basu 13](#Basu13)). 
+Possible [[higher curvature corrections]] to 11-dimensional supergravity are discussed in the references listed [below](#ReferencesHigherCurvatureCorrections).
 
-The first correction is an $R^4$-term at order $\ell^3_{P}$ (11d [[Planck length]]). In [Tsimpis 04](#Tsimpis04) it is shown that this is a topological term (total derivative) which related to the [[flux quantization]]-condition of the [[supergravity C-field]].
+The first correction is an $R^4$-term at order $\ell^3_{P}$ (11d [[Planck length]]). In [Tsimpis 04](#Tsimpis04) it is shown that part of this is a topological term (total derivative) which related to the [[flux quantization]]-condition of the [[supergravity C-field]].
+
+For effects of higher curvature corrections in a [[Starobinsky model of cosmic inflation]] see [there](Starobinsky+model+of+cosmic+inflation#EmbeddingIntoSupergravity).
 
 
 ### The hidden deformation
@@ -290,10 +293,15 @@ See also
 * Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ ([arXiv:1805.07506](https://arxiv.org/abs/1805.07506))
 
 ### Higher curvature corrections
+ {#ReferencesHigherCurvatureCorrections}
 
 Discussion of [[higher curvature corrections]]:
 
+* [[Arkady Tseytlin]], _$R^4$ terms in 11 dimensions and conformal anomaly of (2,0) theory_, Nucl.Phys.B584:233-250, 2000 ([arXiv:hep-th/0005072](https://xxx.lanl.gov/abs/hep-th/0005072))
+
 * {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,   JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
+
+* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
 
 * {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
 
@@ -302,6 +310,12 @@ Discussion of [[higher curvature corrections]]:
 and from the [[ABJM  model]]:
 
 * Damon J. Binder, Shai M. Chester, Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
+
+Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
+
+* [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
+
+* Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
 
 
 ### Scattering amplitudes and Effective action
