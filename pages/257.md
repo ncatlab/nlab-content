@@ -430,7 +430,7 @@ An account is in
 
 and appendix E of 
 
-* {#Joyal} [[André Joyal]], _The theory of quasi-categories and its applications_ ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+* {#Joyal} [[André Joyal]], _The theory of quasi-categories and its applications_ ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
  
 The version of the definition in ([Joyal](#Joyal)) is also highlighted in
 
