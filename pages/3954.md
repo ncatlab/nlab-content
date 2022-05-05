@@ -93,7 +93,7 @@ Discussion of the interpretation of forcing as the passage to [[classifying topo
 
 * [[Andreas Blass]], Andrej Skedrov, _Classifying topoi and finite forcing_ ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf;jsessionid=8D65C672D70D8E24A5ACD366C1815921?sequence=1))
 
-* {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes pdf](https://www.dropbox.com/s/vk1efw7lsvta80p/Roberts_IHES.pdf?dl=0),  [video recording](https://youtu.be/4AaSySq8-GQ))
+* {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes](https://doi.org/10.4225/55/5b2252e3092af),  [video recording](https://youtu.be/4AaSySq8-GQ))
 
 On [Skedrov 84](#Skedrov84), [[Peter Johnstone]] writes in his review ([The Journal of Symbolic Logic Vol. 50, No. 3 (Sep., 1985), pp. 852-85]( http://www.jstor.org/stable/2274338 )):
 
