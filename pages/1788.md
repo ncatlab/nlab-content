@@ -1,5 +1,140 @@
 
 
+
++-- {: .num_remark #LimitingCones}
+###### Remark
+**([[limit|limiting]] [[cones]])
+
+Unwinding Definition \ref{Limits} of [[limits]] and [[colimits]], it says the following.
+
+First of all, for $d \in \mathcal{D}$ any [[object]] and $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]], a [[natural transformation]] (Def. \ref{NaturalTransformations}) of the form
+
+\[
+  \label{ConeAsNaturalTransformation}
+  const_d \overset{i}{\longrightarrow} F
+\]
+
+has component morphisms
+
+$$
+  \array{
+     d
+     \\
+     \big\downarrow^{\mathrlap{i_c}}
+     \\
+     F(c)
+  }
+$$
+
+in $\mathcal{D}$, for each $c \in \mathcal{C}$, and the naturality condition (eq:Naturality) says that these form a [[commuting diagram]] (Def. \ref{CommutingDiagram}) of the form
+
+\[
+  \label{ConeInComponents}
+  \array{ 
+    && d
+    \\
+    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow} &&
+    F(c_2)
+  }
+\]
+
+for each morphism $c_1 \overset{f}{\to} c_2$ in $\mathcal{C}$. Due to the look of this [[diagram]], one also calls such a natural transformation a _[[cone]]_ over the functor $F$.
+
+Now the [[counit of an adjunction|counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) of the $(const \dashv \underset{\longleftarrow}{\lim})$-[[adjunction]] (eq:LimitAndColimitAdj) is a [[natural transformation]] of the form
+
+\[
+  const_{\underset{\longleftarrow}{\lim} F}
+  \overset{ \phantom{AA} \epsilon_{F} \phantom{AA} }{\longrightarrow}
+  F
+\]
+
+and hence is, in components, a [[cone]] (eq:ConeInComponents) over $F$:
+
+\[
+  \label{LimitCone}
+  \array{ 
+    && \underset{\longleftarrow}{\lim} F
+    \\
+    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow} &&
+    F(c_2)
+  }
+\]
+
+to be called the _limiting cone_ over $F$
+
+But the [[universal property]] of [[adjunctions]] says that this is a very special cone: By Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} the defining property of the limit is equivalently that for every natural transformation of the form (eq:ConeAsNaturalTransformation), hence for every [[cone]] of the form (eq:ConeInComponents), there is a _unique_ natural transformation
+
+$$
+  \array{
+    const_d
+    &\overset{\widetilde i}{\Rightarrow}&
+    const_{ \underset{ \longleftarrow }{\lim} }
+  }
+$$
+
+which, due to constancy of the two functors applied in the naturality condition (eq:Naturality), has a constant component morphism
+
+\[
+  \label{UniversalMorphismForLimit}
+  d 
+    \overset{ \widetilde i }{\longrightarrow}
+  \underset{\longleftarrow}{\lim} F
+\]
+
+such that
+
+$$
+  \array{
+    const_d
+    && \overset{\widetilde i}{\longrightarrow} && 
+    const_{ \underset{\longleftarrow}{\lim} F }
+    \\
+    & {}_{\mathllap{ \epsilon_F }} \searrow && \swarrow_{ \mathrlap{i} }
+    \\
+    && F
+  }
+$$
+
+hence such that (eq:UniversalMorphismForLimit) factors the given [[cone]] (eq:ConeInComponents) through the special cone (eq:LimitCone):
+
+$$
+  \array{ 
+    && d
+    \\
+    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+  \phantom{AAA} = \phantom{AAA}
+  \array{ 
+    && d
+    \\
+    && \big\downarrow^{ \mathrlap{ \widetilde i } }
+    \\
+    && \underset{longleftarrow}{\lim} F
+    \\
+    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
+    \\
+    F(c_1) 
+      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
+    F(c_2)
+  }
+$$
+
+Hence a _limit cone_ is a cone over $F$, such that every other cone factors through it in a unique way.
+
+
+=--
+
+
 +-- {: .num_example #SliceCategory}
 ###### Example
 **([[slice category]])**
