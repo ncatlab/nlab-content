@@ -76,6 +76,8 @@ This concept makese sense not just for [[∞-groups]] in any [[(∞,1)-topos]], 
 
 * [[higher central ∞-group extension]]
 
+* [[L-∞ algebra extension]]
+
 ## Related concepts
 
 * [[universal higher central extension]]
