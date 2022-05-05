@@ -1987,7 +1987,7 @@ $$
   \label{ClosedGaugeParametersBracket}
   [-,-]_{\mathcal{G}}
   \;\colon\;
-  J^\infty_\Sigma( \mathcal{G} \times_\Sigma E)\times J^\infty_\Sigma(\mathcal{G} \times_\Sigma E )
+  J^\infty_\Sigma( \mathcal{G} \times_\Sigma \mathcal{G} \times_\Sigma E )
   \longrightarrow
   J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
 $$
