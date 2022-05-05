@@ -530,8 +530,13 @@ $$
 ## Relation between the two sign rules
 
 ### Strong symmetric monoidal equivalence
+ {#StrongSymmetricMonoidalEquialence}
 
-The two sign rules correspond to two different [[symmetric monoidal category|symmetric braiding]]-[[structures]] on the [[monoidal category]] $Ch(SuperVect)$ of [[chain complexes]] of [[super vector spaces]]. The corresponding two kinds of [[differential graded-commutative superalgebras]] are the [[commutative monoid objects]] with respect to these two choises.
+The two sign rules correspond to two different [[symmetric monoidal category|symmetric braiding]]-[[structures]] on the [[monoidal category]] $Ch(SuperVect)$ of [[chain complexes]] of [[super vector spaces]]. The corresponding two kinds of [[differential graded-commutative superalgebras]] are the [[commutative monoid objects]] with respect to these two choices.
+
+We now show that the two braidings are equivalent (Prop. \ref{EquivalenceTwoSymmetricMonoidalStructuresOnChSuperVect} below), which immediately implies that the two categories of differential graded-commutative algebras are equivalent.
+
+$\,$
 
 +-- {: .num_defn #ChainComplexesOfSuperVectorSpaces}
 ###### Definition
@@ -668,8 +673,10 @@ In both cases this holds because already the relevant [[exponents]] are equal in
 
 =--
 
-+-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
++-- {: .num_prop #EquivalenceTwoSymmetricMonoidalStructuresOnChSuperVect}
 ###### Proposition
+**(the two [[symmetric monoidal category|symmetric monoidal]] [[structures]] on the [[category of chain complexes of super vector spaces]] are equivalence)**
+
 
 The two [[symmetric monoidal category]] [[structures]] $\tau_{Deligne}$ and $\tau_{Bern}$ on the [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} are equivalent
 
@@ -679,44 +686,158 @@ $$
   \tau_{Bern}
 $$
 
-in that the [[identify functor]] on  $Ch(SuperVect)$ equipped with the monoidal [[natural isomorphism]] 
+in that the [[identity functor]] on  $Ch(SuperVect)$ equipped with the following monoidal [[natural isomorphism]] 
 
 $$
-  id
+  \array{
+    id(V) \otimes id(W) \longrightarrow id(V \otimes W)
+    \\
+    v \otimes w
+    \;\mapsto\;
+    (-1)^{ n_v \sigma_w  } \, v \otimes w
+  }
 $$
 
-$$
-  \mu
-  \;\colon\;
-  \alpha_i \otimes \alpha_j
-  \;\mapsto\;
-  (-1)^{ n_i \sigma_j  } \alpha_i \otimes \alpha_j
-$$
-
-
-structure of a [[nLab:strong monoidal functor|strong]] [[symmetric monoidal functor]] 
+becomes a [[nLab:strong monoidal functor|strong]] [[symmetric monoidal functor]] 
 
 $$
   (Ch(SuperVect), \otimes, \tau_{Deligne})
-  \overset{F}{\longrightarrow}
+  \overset{id}{\longrightarrow}
   (Ch(SuperVect), \otimes, \tau_{Bern})
+  \,.
 $$
-
-whose underlying [[functor]] is the [[identity functor]], and 
-with monoidal structure map given by
 
 =--
 
-(...)
+
++-- {: .proof}
+###### Proof
+
+First to see that we have a [[strong monoidal functor]], we need to check the [[associativity]] condition
+
+
+$$
+  \array{
+    (id(x) \otimes id(y)) \otimes id(z)
+      &\underoverset{\simeq}{a_{id(x),id(y),id(z)}}{\longrightarrow}&
+    id(x) \otimes( id(y)\otimes id(z) )
+    \\
+    {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+    \\
+    id(x \otimes y) \otimes F(z)
+     &&
+    id(x) \otimes id(y \otimes z)
+    \\
+    {}^{\mathllap{\mu_{x \otimes y , z} } }\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{ x, y \otimes z  }}}
+    \\
+    id( ( x \otimes y ) \otimes z  )
+      &\underset{id(a_{x,y,z})}{\longrightarrow}&
+    id( x \otimes ( y \otimes z ) )
+  }
+  \,,
+$$
+
+and the [[unitality]] conditions
+
+
+$$
+  \array{
+    1 \otimes id(x)
+      &\overset{\epsilon \otimes id}{\longrightarrow}&
+    id(1) \otimes id(x)
+    \\
+    {}^{\mathllap{\ell_{id(x)}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{1, x }}}
+    \\
+    id(x) 
+      &\overset{id(\ell_x )}{\longleftarrow}&
+    id(1 \otimes x  )
+  }
+$$
+
+and  
+
+$$
+  \array{
+    id(x) \otimes  1
+      &\overset{id \otimes \epsilon }{\longrightarrow}&
+    id(x) \otimes  id(1) 
+    \\
+    {}^{\mathllap{r_{id(x)}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{x, 1 }}}
+    \\
+    id(x) 
+      &\overset{F(r_x )}{\longleftarrow}&
+    id(x \otimes 1  )
+  }
+  \,,
+$$
+
+As in the proof of Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} it is sufficient to check that the signs picked up agree in each cases.
+
+For [[associativity]] this is the condition
+
+$$
+  (-1)^{
+    n_x \sigma_y + (n_x + n_y)\sigma_z
+  }
+  \;=\;
+  (-1)^{
+    n_y \sigma_z + n_x (\sigma_y + \sigma_z)
+  }
+$$
+
+which hold, because it already holds for the [[exponents]] themselves, as an identity in $\mathbb{F}_2$.
+
+Finally, the [[unitality]] condition says that the signs given by $\mu_{1,x}$ and $\mu_{x,1}$ is the the trivial sign $(-1)^0 = 1$. This is indeed the case because the [[tensor unit]] is in degree $(0,even) \in \mathbb{Z} \times (\mathbb{Z}/2)$. 
+
+Now to see that we have a [[symmetric monoidal functor]], we need to show that it intertwines the [[braiding]] isomorphisms
+
+
+$$
+  \array{
+    id(V) \otimes id(W) &\stackrel{\tau_{Bern}}{\to}& id(W) \otimes id(V)
+    \\
+    {}^{\mathllap{\mu_{V,W}}}\Big\downarrow 
+    && 
+    \Big\downarrow^{\mathrlap{\mu_{W,V}}}
+    \\
+    id(V\otimes W) &\stackrel{id(\tau_{Deligne})}{\to}& if(W \otimes V)
+  }
+$$
+
+Here this is equivalent to the following condition on the signs:
+
+$$
+  (-1)^{ (n_v + \sigma_v)(n_w + \sigma_w) + n_w \sigma_v}
+  \;=\;
+  (-1)^{ n_v \sigma_w + n_v n_w + \sigma_v \sigma_w }
+  \,.
+$$
+
+Inspection shows that this is indeed the case. (The two signs of $\tau_{Deligne}$ and $\tau_{Bern}$ differ by the "mixed terms" that are produced in [[distributivity|multiplying out]] $(n_v + \sigma_v)(n_w + \sigma_w)$ and these mixed terms is just what $\mu$ provides.)
+
+
+=--
+
+
 
 ### Equivalence of super Lie algebra cohomology in both conventions
  {#EquivalenceOfSuperLieAlgebraCohomology}
 
 The different choice of signs in the de Rham complex
-[above](#DifferentialFormsInSuperOddConvention) affects those
+[above](#DifferentialFormsInSuperOddConvention) affects the signs
 of any super-[[Chevalley-Eilenberg algebra]], by the identification of elements in the CE-algebra with [[left invariant differential forms]] on the supegroup.
 
-We show that as [[chain complexes]] the two CE-algebras are [[quasi-isomorphism|quasi-isomorphic]] and hence do have the same [[cochain cohomology]], hence that the definition of super-[[Lie algebra cohomology]] is not affected by the different perspective on signs.
+We show now that as [[chain complexes]] the two CE-algebras are [[quasi-isomorphism|quasi-isomorphic]] and hence do have the same [[cochain cohomology]], hence that the definition of super-[[Lie algebra cohomology]] is not affected by the different perspective on signs.
+
+(This follows abstract from Prop. \ref{EquivalenceTwoSymmetricMonoidalStructuresOnChSuperVect}, but we spell it out concretely.)
 
 A chain-isomorphism can be obtained as follows:
 
