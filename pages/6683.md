@@ -30,16 +30,17 @@ Notice that the worldvolume $SU(N)$ gauge group enhancement at an $\mathbb{Z}_k$
 
 More generally, classification of the [[near horizon geometry]] of smooth (i.e. non-[[orbifold]]) $\geq \tfrac{1}{2}$ [[BPS state|BPS]] [[black brane|black]] [[M2-brane]]-solutions of the [[equations of motion]] of [[11-dimensional supergravity]] shows that these are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dimensional]] [[anti de Sitter spacetime]] with a 7-[[dimension|dimensional]] [[spherical space form]] $S^7/{\widehat{G}}$ with [[spin structure]] and $N \geq 4$, for $\widehat{G}$ a [[finite subgroup of SU(2)]] ([MFFGME 09](#MFFGME09), see [here](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)).
 
-| $N$ [[Killing spinors]] <br/> on $S^7/\widehat{G}$  | $\phantom{AA}\widehat{G} =$ | [[spin group|spin]]-lift of [[subgroup]] of <br/>[[isometry group]] of [[7-sphere]] |
-|---------|----------------------------------------------|------|
-| $\phantom{AA}N = 8\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_2$ | [[cyclic group of order 2]] |
-| $\phantom{AA}N = 7\phantom{AA}$ |  ---   | --- |
-| $\phantom{AA}N = 6\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_{k\gt 2}$ | [[cyclic group]] |
-| $\phantom{AA}N = 5\phantom{AA}$ |  $\phantom{AA}2 D_{k+2}$ <br/> $2 T$, $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary tetrahedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |
-| $\phantom{AA}N = 4\phantom{AA}$ |  $\phantom{A}2 D_{k+2}$ <br/> $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |
+| $N$ [[Killing spinors]] on <br/> [[spherical space form]] $S^7/\widehat{G}$  | $\phantom{AA}\widehat{G} =$ | [[spin group|spin]]-lift of [[subgroup]] of <br/>[[isometry group]] of [[7-sphere]] | [[3d superconformal gauge field theory]] <br/> on [[black brane|back]] [[M2-branes]] <br/> with [[near horizon geometry]] $AdS_4 \times S^6/\widehat{G}$ |
+|---------|----------------------------------------------|------|----|
+| $\phantom{AA}N = 8\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_2$ | [[cyclic group of order 2]] | [[BLG model]] |
+| $\phantom{AA}N = 7\phantom{AA}$ |  ---   | --- | ---  |
+| $\phantom{AA}N = 6\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_{k\gt 2}$ | [[cyclic group]] | [[ABJM model]] |
+| $\phantom{AA}N = 5\phantom{AA}$ |  $\phantom{AA}2 D_{k+2}$ <br/> $2 T$, $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary tetrahedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] | [HLLLP 08](#HLLLP08), [BHRSS 08](#BHRSS08) |
+| $\phantom{AA}N = 4\phantom{AA}$ |  $\phantom{A}2 D_{k+2}$ <br/> $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |  |
 
 {#CaseNIs5} The corresponding $N=5$-analogs of the ABJM model have been identified in ([HLLLP 08](#HLLLP08), [BHRSS 08](#BHRSS08), [Aharony-Bergman-Jafferis 08](#AharonyBergmanJafferis08)).
 
+The case $N = 4$ is discussed in [Bagger-Lambert-Mukhi-Papageorgakis 13, section 7.4](#BaggerLambertMukhiPapageorgakis13)
 
 ## Properties
 
@@ -78,6 +79,8 @@ Review includes
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_, Int.J.Mod.Phys.A25:332-350, 2010 ([arXiv;0909.1580](https://arxiv.org/abs/0909.1580))
 
 * Neil B. Copland, _Introductory Lectures on Multiple Membranes_ ([arXiv:1012.0459](https://arxiv.org/abs/1012.0459))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 2013 ([arXiv:1203.3546](https://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
 Discussion of extension to [[boundary field theory]] (describing [[M2-branes]] ending on [[M5-branes]]) includes
 
