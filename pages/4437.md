@@ -27,4 +27,5 @@ See [[cover]], [[covering space]].
 
 [[!redirects coverings]]
 
-
+[[!redirects covering map]]
+[[!redirects covering maps]]
