@@ -49,7 +49,7 @@ In ([ALR 07, theorem 1.23](#ALR07)) is asserted that every effective orbifold $X
 
 ### (Co)homology
 
-It has been noticed that the topological invariants of the underlying topological space of an orbifold as a topological space with an orbifold structure are not appropriate, but have to be corrected leading to [[orbifold Euler characteristics]], orbifold cohomology etc. One of the constructions which is useful in this respect is the inertia orbifold (the inertia stack of the original orbifold) which gives rise to "twisted sectors" in Hilbert space of a quantum field theory on the orbifold, and also to twisted sectors in the appropriate cohomology spaces. A further generalization gives multitwisted sectors. 
+It has been noticed that the topological invariants of the underlying topological space of an orbifold as a topological space with an orbifold structure are not appropriate, but have to be corrected leading to [[orbifold Euler characteristics]], [[orbifold cohomology]] etc. One of the constructions which is useful in this respect is the inertia orbifold (the inertia stack of the original orbifold) which gives rise to "twisted sectors" in Hilbert space of a quantum field theory on the orbifold, and also to twisted sectors in the appropriate cohomology spaces. A further generalization gives multitwisted sectors. 
 
 
 
@@ -85,7 +85,9 @@ See also
 
 * [[stable map]]
 
-* [[orbifold cohomology]], [[Gromov-Witten theory]]
+* [[orbifold cohomology]]
+
+* [[Gromov-Witten theory]]
 
 Orbifolds in [[string theory]]:
 
