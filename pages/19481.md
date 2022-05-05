@@ -969,6 +969,8 @@ The following are examples of [[cosmoi]] (Def. \ref{Cosmos}):
 
 1. [[Grpd]] (Def. \ref{CategoriesOfSmallCategories}) equipped with its [[cartesian closed category]]-structure (Example \ref{GrpdIsACartesianClosedCategory}).
 
+1. [[Cat]] (Def. \ref{CategoriesOfSmallCategories}) equipped with its [[cartesian closed category]]-structure (Example \ref{GrpdIsACartesianClosedCategory}).
+
 
 =--
 
@@ -1098,6 +1100,15 @@ If the [[class]] $Obj_{\mathcal{C}}$ happens to be a [[set]] (hence a [[small se
 **([[Set]]-[[enriched categories]] are plain [[categories]])**
 
 An [[enriched category]] (Def. \ref{TopEnrichedCategory}) over the [[cosmos]] $\mathcal{V} = $ [[Set]], as in Example \ref{ExamplesOfCosmoi}, is the same as a plain [[category]] (Def. \ref{Categories}).
+
+=--
+
++-- {: .num_example #CatEnrichedCategoriesAreStrict2Categories}
+###### Example
+**([[Cat]]-[[enriched categories]] are [[strict 2-categories]])**
+
+An [[enriched category]] (Def. \ref{TopEnrichedCategory}) over the [[cosmos]] $\mathcal{V} = $ [[Cat]], as in Example \ref{ExamplesOfCosmoi}, is the same as a [[strict 2-category]] (Def. \ref{Strict2Categories}).
+
 
 =--
 
