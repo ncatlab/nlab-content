@@ -9,6 +9,8 @@ The _Feynman transform_ is an operation on the category of twisted [[modular ope
 
 The name "Feynman transform" is due to [[Getzler]] and [[Kapranov]].
 
+R. Kaufmann and B. C. Ward have introduced [[Feynman categories]]. Utilizing the pushforward functors defined using left Kan extensions, they define the bar and cobar constructions in the setup of Ab-enriched Feynman categories with some additional structure; assuming certain duality for categories of chain complexes over the coefficient additive category they define Feynman transform as composition of a (co)bar and duality. See Definition 7.11 in their paper Feynman categories
+arXiv:1312.1269. 
 
 ## Literature
 
