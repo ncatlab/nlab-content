@@ -20,7 +20,27 @@
 
 ## Idea
 
-In the context of [[equivariant stable homotopy theory]] one distinguishes, for a [[G-spectrum]] $E$, between the plain  _[[fixed point spectrum]]_ $F^G(X)$ and its _geometric fixed point spectrum_ $\Phi^G(X)$.
+In the context of [[equivariant stable homotopy theory]] and $G$ one distinguishes, for a [[G-spectrum]] $E$, between the plain  _[[fixed point spectrum]]_ $F^G(E)$ and its _geometric fixed point spectrum_ $\Phi^G(E)$. 
+
+Here the terminology "geometric" is in the sense of _[[point-set topology]]_, as opposed to [[homotopy theory]]: If $X$ is a ([[pointed topological space|pointed]]) [[topological space]] equipped with a [[continuous function]] $G$-[[action]] (a [[topological G-space]]), so that one may consider its $G$-[[equivariant suspension spectrum]] $\Sigma^\infty_G X \in G Spectra$, then the _geometric fixed point spectrum_ $\Phi^G(\Sigma^\infty_G X)$ of the latter is equivalent to the plain [[suspension spectrum]] of the plain [[fixed point]]-space $X^G$:
+
+$$
+  \Phi^G\big(  \Sigma^\infty_G X \big) 
+     \;\simeq\;   
+  \Sigma^\infty\big( X^G \big)
+  \,,
+$$
+
+see the characterization in Prop. \ref{AbstractCharacterizationOfGeometricFixedPointSpectra}, below.
+
+In general this is different from (not [[equivalence in an (infinity,1)-category|equivalent]] to) both of the following other notions of fixed point spectra:
+
+1. the plain (really: [[homotopy theory|homotopy theoretic]]) [[fixed point spectrum]] $F^G(\Sigma^\infty_G X)$, which is instead the [[derived functor]] of forming topological fixed points $X \mapsto X^G$, hence which applies this construction only after [[fibrant resolution]]; the difference between the two is described by the _[[tom Dieck splitting theorem]]_, see Prop. \ref{AsWedgeSummandInTomDieckSplitting} below.
+
+1. the [[categorical fixed point spectrum]]...
+
+
+## Definition
 
 A concrete definition of geometric fixed points of an equivariant spectrum is in ([Schwede 15, 7.3](#Schwede15)). A conceptual characterization in terms of [[localization of spectra]] is in ([Mathew-Naumann-Noel 15, def. 6.12](#MathewNaumannNoel15)).
 
@@ -29,7 +49,12 @@ A concrete definition of geometric fixed points of an equivariant spectrum is in
 ### For equivariant suspension spectra
  {#ForEquivariantSuspensionSpectra}
 
-For $X$ a [[topological G-space]] and $\Sigma^\infty_G X$ its [[equivariant suspension spectrum]], its geometric fixed point spectrum is precisely the first summand in 
+
++-- {: .num_prop #AsWedgeSummandInTomDieckSplitting}
+###### Proposition
+**(as a [[wedge sum|wedge summand]] in the [[tom Dieck splitting]])** 
+
+For $X$ a [[topological G-space]] and $\Sigma^\infty_G X$ its [[equivariant suspension spectrum]], there is a canonical comparison morphism (...) 
 
 $$
   \Phi^G(\Sigma^\infty_G X) 
@@ -39,7 +64,7 @@ $$
   F^G(\Sigma^\infty_G X)
 $$
 
-the [[tom Dieck splitting]] of the plain [[fixed point spectrum]]
+which exhibits its geometric fixed point spectrum as precisely the first summand in the [[tom Dieck splitting]] of the plain [[fixed point spectrum]]
 
 $$
   F^G(\Sigma^\infty_G X)
@@ -55,9 +80,26 @@ $$
   \,.
 $$
 
+=--
+
 ([Schwede 15, Example 7.7](#Schwede15))
 
-In fact, the construction of geometric fixed point spectra is uniquely characterized by this property and the property of being [[left derived functor|left derived]] [[strong monoidal functor|strong monoidal]] and preserving [[homotopy colimits]].
+In fact:
+
++-- {: .num_prop #AbstractCharacterizationOfGeometricFixedPointSpectra}
+###### Proposition
+
+The construction of geometric fixed point spectra is essentially uniquely characterized by the  property 
+
+$$
+  \Phi^G\big(  \Sigma^\infty_G X \big) 
+     \;\simeq\;   
+  \Sigma^\infty\big( X^G \big)
+$$
+
+and the property of being [[left derived functor|left derived]] [[strong monoidal functor|strong monoidal]] and preserving [[homotopy colimits]].
+
+=--
 
 ([Blumberg 17, around Def. 2.5.16](#Blumberg17))
 
