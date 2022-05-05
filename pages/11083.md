@@ -1,7 +1,7 @@
 
 > This entry contains one chapter of the material at _[[geometry of physics]]_.
 
-> previous chapters: _[[geometry of physics -- smooth spaces|smooth sets]]_, _[[geometry of physics -- homotopy types|homotopy types]]_
+> previous chapters: _[[geometry of physics -- categories and toposes|categories and toposes]]_, _[[geometry of physics -- smooth spaces|smooth sets]]_,
 
 > next chapter: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- supergeometry|supergeometry]]_, _[[geometry of physics -- prequantum geometry|prequantum geometry]]_
 
