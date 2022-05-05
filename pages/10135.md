@@ -224,11 +224,16 @@ $$
 
 * [[Gromov-Witten theory]]
 
-## References
+
+History
 
 According to [Abramovich 05, p. 42](#Abramovich05):
 
 > On December 7, 1995 [[Maxim Kontsevich]] delivered a history-making lecture at Orsay, titled _String Cohomology_. This is what is now know, after [Chen-Ruan 00](#ChenRuan00), as _orbifold cohomology_, Kontsevich's lecture notes described the orbifold and  [[quantum cohomology]] of a global quotient [[orbifold]]. Twisted sectors, the age grading, and a version of orbifold stable maps for global quotients are all there.
+
+The same lecture also introduced _[[motivic integration]]_.
+
+## References
  
 Discussion of orbifold cohomology in the context of [[Bredon cohomology|Bredon]]/[[global equivariant homotopy theory|global]] [[equivariant cohomology]] includes
 
