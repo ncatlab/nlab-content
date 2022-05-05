@@ -98,6 +98,8 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
 ## Related concepts
 
+* [[tensored and cotensored category]]
+
 * [[copower]], [[(∞,1)-copower]]
 
 * [[pullback-power]]
