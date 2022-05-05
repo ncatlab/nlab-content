@@ -217,6 +217,9 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_ ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
+* Sarkar, arXiv:1808:04597
+
+
 ### Lemaitre-Tolman-Bondi models
 
 * {#Moffat05} [[John Moffat]], _Late-time Inhomogeneity and Acceleration Without Dark Energy_, JCAP 0605 (2006) 001 ([arXiv:astro-ph/0505326](https://arxiv.org/abs/astro-ph/0505326))
