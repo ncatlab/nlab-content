@@ -137,7 +137,7 @@ Also, since [[projective modules]] are [[retracts]] of free modules, we have
 Projective modules over a pid are free. In particular, submodules of projective modules are projective. 
 =-- 
 
-### Smith normal form
+### Normal forms
  {#SmithNormalForm}
 
 +-- {: .num_prop #MatricesOverPrincipalIdealDomainsHaveSmithNormalForm}
@@ -159,6 +159,10 @@ $$
 such that, moreover, each $a_i$ [[divisor|divides]] $a_{i+1}$.
 
 =--
+
+For [[matrices]] with coefficients in the pid of [[integers]] see also
+
+* _[[Hermite normal form]]_.
 
 
 ### Torsion-free modules 
