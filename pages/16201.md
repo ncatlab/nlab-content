@@ -37,9 +37,7 @@ A [[spacetime]] that extremizes the [[Einstein-Hilbert action]] for given [[cosm
 
 ## References
 
-Discussion in the context of corrections to [[black hole entropy]] include
-
-* [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
+### General
 
 Discussion of quadratic curvature currections includes (see also at _[[Starobinsky model of cosmic inflation]]_)
 
@@ -51,9 +49,21 @@ Discussion of [[causal locality]] in the presence of higher curvature correction
 
 * Giuseppe D'Appollonio, [[Paolo Di Vecchia]], [[Rodolfo Russo]], [[Gabriele Veneziano]], _Regge behavior saves String Theory from causality violations_ ([arXiv:1502.01254](http://arxiv.org/abs/1502.01254))
 
+Discussion in the context of corrections to [[black hole entropy]] include
+
+* [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
+
+
+
+### In 11d Supergravity
+
 Discussion of higher curvature corrections to [[11-dimensional supergravity]] includes
 
+* [[Arkady Tseytlin]], _$R^4$ terms in 11 dimensions and conformal anomaly of (2,0) theory_, Nucl.Phys.B584:233-250, 2000 ([arXiv:hep-th/0005072](https://xxx.lanl.gov/abs/hep-th/0005072))
+
 * [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(\ell^3)$_, JHEP0410:046, 2004 ([arXiv:hep-th/0407271](https://arxiv.org/abs/hep-th/0407271))
+
+* {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
 
 * [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
 
@@ -62,5 +72,11 @@ Discussion of higher curvature corrections to [[11-dimensional supergravity]] in
 and from the [[ABJM  model]]:
 
 * Damon J. Binder, Shai M. Chester, Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
+
+Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
+
+* [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
+
+* Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
 
 [[!redirects higher order curvature corrections]]
