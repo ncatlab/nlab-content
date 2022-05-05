@@ -61,6 +61,8 @@ see at _[[membrane triple junction]]_.
 
 ## References
 
+* Douglas J. Smith, _Intersecting brane solutions in string and M-theory_, Class.Quant.Grav.20:R233, 2003 ([arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157))
+
 For [[M-branes]]:
 
 * {#BREJS97} [[Eric Bergshoeff]], M. Roo, E. Eyras, [[Bert Janssen]], J. P. Schaar, _Intersections involving waves and monopoles in eleven dimensions_, Class. Quantum Grav. 14 2757 ([arXiv:hep-th/9704120](https://arxiv.org/abs/hep-th/9704120), [publisher](http://iopscience.iop.org/0264-9381/14/10/005/))
