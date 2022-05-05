@@ -18,15 +18,33 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-The __triangle identities__ or __zigzag identities__ are identities satisfied by the [[unit of an adjunction|unit and counit]] of an [[adjunction]].
+The __triangle identities__ or __zigzag identities__ are identities characterized by the [[unit of an adjunction|unit and counit]] of an [[adjunction]], such as a [[adjoint pair|pair]] of [[adjoint functors]]. These identities _define_, equivalently, the nature of adjunction ([this prop. ](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)).
 
 ## Statement
+ {#Statement}
 
-Given $C, D$ (categories, or otherwise objects of a $2$-[[2-category|category]]) with functors (or otherwise morphisms) $L: C \to D$ and $R : D \to C$ and natural isomorphisms (or otherwise $2$-morphisms) $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$, the triangle identities are the following:
+Consider:
 
+1. $C, D$ be two [[categories]], or, generally, two [[objects]] of a give [[2-category]];
+
+1. $L: C \to D$ and $R : D \to C$ two [[functors]] between these, or generally [[1-morphisms]] in the ambient [[2-category]];
+
+1. $\eta: id_C \Rightarrow R \circ L$ and $\epsilon: L \circ R \Rightarrow id_D$ two [[natural transformations]] or, generally [[2-morphisms]].
+
+This data is called an _[[adjoint pair|pair]] of [[adjoint functors]]_ (generally: an _[[adjunction]]_) if the _triangle identities_ are satisfied, which may be expressed in any of the following equivalent ways:
+
+1. _[As equations](#AsEquations)_
+
+1. _[As diagrams](#AsDiagrams)_
+
+1. _[As string diagrams](#AsStringDiagrams)_
+
+$\,$
 
 ### As equations
+  {#AsEquations}
 
 $$ L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L $$
 and 
@@ -35,44 +53,16 @@ are identities.
 (Here, the composition of the $1$- with the $2$-morphisms is sometimes called [[whiskering]].)
 
 
+
 ### As diagrams
  {#AsDiagrams}
-$
-  R\epsilon . \eta R = 1_R
-$
-  i.e. 
+
+As [[diagrams]] in the ambient [[2-category]], the triangle identities look as follows
 
 $$ 
-  \array{\arrayopts{ \padding{0} }
-    &&&&1_C& 
-    \\
-    &&\cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    \\
-    \cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&1_D&
-  }
-  \quad = \quad D \stackrel{R}{\to} C
-$$
-
-and
-$ 
-  \epsilon L . L\eta = 1_L
-$
- i.e.  
-
-$$ 
+  \array{
+  \epsilon L . L\eta &=& id_L
+  \\
   \array{\arrayopts{ \padding{0} }
     &&1_C& 
     \\
@@ -93,8 +83,42 @@ $$
     \\
     &&&&1_D&
   }
-  \quad = \quad C \stackrel{L}{\to} D
+  & = &  C \stackrel{L}{\to} D
+  }
+  \phantom{AAAAA} \text{and} \phantom{AAAAA}
+  \array{
+    R\epsilon . \eta R &=& id_R
+  \\
+  \array{\arrayopts{ \padding{0} }
+    \\
+    &&&&1_C& 
+    \\
+    &&\cellopts{\colspan{5}}\begin{svg}
+       [[!include adjunction > zigzageta]]
+       \end{svg}\\
+    D
+    & \stackrel{R}{\to}&
+    C
+    & \stackrel{L}{\to}&
+    D
+    & \stackrel{R}{\to}&
+    C
+    \\
+    \cellopts{\colspan{4}}\begin{svg}
+       [[!include adjunction > zigzagepsilon]]
+       \end{svg}
+    \\
+    &&1_D&
+  }
+  &=& D \stackrel{R}{\to} C
+  }
 $$
+
+or, equivalently, like so:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/Adjunction.jpg" width="540">
+</center>
 
 
 ### As string diagrams
@@ -121,7 +145,12 @@ With labels left implicit, this notation becomes very economical:
 
 ## References
 
+Textbook accounts incluce
+
 * {#Borceux94} [[Francis Borceux]], Theorem 3.1.5 and Diagram 3.3 in: _Basic Category Theory_, Vol. 1 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+
+See the references at _[[category theory]]_ for more.
+
 
 
 [[!redirects zigzag identities]]
