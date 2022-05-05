@@ -53,7 +53,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Assume that the statement were not true. This would mean that for every $n \in \mathbb{N}$ there exists a point $x_n \in X$ such that for all $i \in I$ the open ball $B^\circ_{x_n}(1/(n+1))$ is not contained in $U_i$. These points $(x_n)_{n \in \mathbb{N}}$ would constitute a [[sequence]] and so by assumption on $X$ there would exist a sub-sequence $(x_{n_k})_{k \in \mathbb{N}}$ which converges to some $x_\infty \in X$. Hence then there would be some $i_\infty \in I$ with $x_\infty \in U_{i_\infty}$, and this, since $U_{i_0}$ is open, also a positive real number $\epsilon \gt 0$ with $B^\circ_{x_\infty}(\epsilon) \subset U_{i_\infty}$. By convergence of the sub-sequence $(x_{n_k})_k$ we could now choose a $k \in \mathbb{N}$ such that 
+Assume that the statement were not true. This would mean that for every $n \in \mathbb{N}$ there exists a point $x_n \in X$ such that for all $i \in I$ the open ball $B^\circ_{x_n}(1/(n+1))$ is not contained in $U_i$. These points $(x_n)_{n \in \mathbb{N}}$ would constitute a [[sequence]] and so by assumption on $X$ there would exist a sub-sequence $(x_{n_k})_{k \in \mathbb{N}}$ which converges to some $x_\infty \in X$. Hence then there would be some $i_\infty \in I$ with $x_\infty \in U_{i_\infty}$, and this, since $U_{i_\infty}$ is open, also a positive real number $\epsilon \gt 0$ with $B^\circ_{x_\infty}(\epsilon) \subset U_{i_\infty}$. By convergence of the sub-sequence $(x_{n_k})_k$ we could now choose a $k \in \mathbb{N}$ such that 
 
 $$
   \frac{1}{n_k + 1} \lt \frac{\epsilon}{2}
