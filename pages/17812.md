@@ -268,8 +268,12 @@ $$
 for the [[full subcategory]] on ordinary [[Cartesian spaces]] with [[smooth functions]] between them. These are the "abstract coordinate charts" from the discussion at _[[geometry of physics -- smooth sets]]_,
 and so we are evidently entitled to think of the objects in $SuperCartSp$ as **abstract super coordinate systems** and to develop a geometry induced from these.
 
-Recall the two magic algebraic properties of [[smooth functions]] that make the above algebraic description of
-[[differential geometry]] work:
+Recall the three magic algebraic properties of [[smooth functions]] that make the above algebraic description of [[differential geometry]] work:
+
++-- {: .num_prop #FirstTwoMagicPropertiesOfAlgebrasOfSmoothFunctions}
+###### Proposition
+**(first two magic properties of [[algebra of functions|algebras of]] [[smooth functions]])**
+
 
 1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**)
 
@@ -304,6 +308,8 @@ Recall the two magic algebraic properties of [[smooth functions]] that make the 
    of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over a [[Cartesian space]] $X$ are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
 
    ([Nestruev 03, theorem 11.32](smooth+Serre-Swan+theorem#Nestruev03))
+
+=--
 
 There is a third such magic algebraic property of smooth functions, which plays a role now:
 
@@ -1477,7 +1483,8 @@ The result is a system of 9 endofunctors, or 12 if we inclue the [[bottom]] [[ad
 
 We have a system of [[adjoint modalities]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointModality)) and their [[preordering]] ([this Def.](geometry+of+physics+--+categories+and+toposes#PreorderOnModalities)) on [[SuperFormalSmoothSet]] (Def. \ref{FormalSmoothSets}) that is induced (via [this Prop.](geometry+of+physics+--+categories+and+toposes#ModalOperatorsEquivalentToReflectiveSubcategories)) by the system of [[adjoint functors]] in Prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, as follows:
 
-$$
+\[
+  \label{ProgressionOfModalitiesOnSuperFormalSmoothSet}
   \array{
     id &\dashv& id
     \\
@@ -1497,9 +1504,9 @@ $$
     \\
     && && && \emptyset &\dashv& \ast
   }
-$$
+\]
 
-Moreover, the progression provides, at each stage, [[Aufhebung]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Aufhebung), [this Remark](geometry+of+physics+--+categories+and+toposes#TrivialAufhebung)) as indicated.
+Moreover, the progression exhibits [[Aufhebung]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Aufhebung), [this Remark](geometry+of+physics+--+categories+and+toposes#TrivialAufhebung)) at each stage, as indicated.
 
 Finally, the [[rheonomy modality]]  is [[localization at an object|localization at the object]] $\mathbb{R}^{0\vert 1}$ (the [[superpoint]]) in the sense of [this Def.](geometry+of+physics+--+categories+and+toposes#LocalizationAtACollectionOfMorphisms):
 
@@ -1585,14 +1592,21 @@ $$
   }   
 $$
 
-Here we used that on representables $\Re \rightrightarrows \simeq \Re$, which holds by direct inspection: it says that the odd-graded elements in a [[supercommutative superalgebra]] are all nilpotent.
+Here we used that on representables 
+
+$$
+  \Re \overset{\rightrightarrows}{(-)} \simeq \Re(-)
+  \,,
+$$
+
+which holds by direct inspection: it says that the odd-graded elements in a [[supercommutative superalgebra]] are all nilpotent.
 
 Finally for the equivalence
 $$
   Rh \simeq \bigcirc\!\!\!\!\!\!\!\!\mathbb{R}^{0\vert 1}
 $$
 
-the proof is directly analogous to that of the analogous statement in the chapter _[[geometry of physics -- smooth sets|on smooth sets]]_,  [this Prop](geometry+of+physics+--+smooth+sets#ShapeModalityOnSmoothSetsIsR1Localization).
+the proof is directly analogous to that of the analogous statement in the chapter _[[geometry of physics -- smooth sets|on smooth sets]]_,  [this Prop](geometry+of+physics+--+smooth+sets#ShapeModalityOnSmoothSetsIsR1Localization):
 
 As in that proof, the $\mathbb{R}^{0\vert 1}$-[[local objects]] among all [[super formal smooth sets]] are equivalently those which are [[local objects]] with respect to the following [[small set]] of morphisms:
 
@@ -1678,7 +1692,7 @@ $$
 
 
 [Below](#Supermanifolds) we use these operations to identify within all generalized superspaces those that are [[supermanifolds]].
-But first we consider now some important constructions of [[super formal smooth sets]], namely [[mapping spaces]].
+But first we consider now some general important constructions of [[super formal smooth sets]], such as  [[mapping spaces]].
 
 $\,$
 
@@ -2213,10 +2227,11 @@ of the [[sheaf topos]]) is that $\Im X$ is the result obtained from $X$ by **ide
 with each other. In [[algebraic geometry]] this construction is often known as forming the _[[de Rham shape]]_ of $X$
 ([Simpson 96](#de+Rham+space#Simpson96)). Here we will say **[[infinitesimal shape]]**.
 
-Another good perspective on $\Im X$ is the following:
+Another useful perspective on $\Im X$ is the following:
 
 +-- {: .num_defn #DiskBundle}
 ###### Definition
+**([[infinitesimal disk bundle]])**
 
 For $X \in SuperFormalSmoothSet$ (def. \ref{FormalSmoothSets}) then we say that its
 [[infinitesimal disk bundle]] $T^\infty X$ is the left vertical morphism in the following [[pullback]] diagram
@@ -2255,6 +2270,7 @@ $$
 
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
+**([[formally étale morphism]])**
 
 Given $X,Y\in SuperFormalSmoothSet$ then a morphism $f \;\colon\; X\longrightarrow Y$ is called a _[[formally étale morphism]]_ if its
 [[natural transformation|naturality square]] of the [[infinitesimal shape modality]] (prop. \ref{ImAction})
@@ -2502,7 +2518,7 @@ $$
 $$
 
 for the [[supercommutative superalgebra]] which is the [[exterior algebra]] over $C^\infty(x)$ of the $C^\infty(X)$-[[module]]
-$\Gamma_X(E^\ast)$ of [[smooth sections]] (as in the [[smooth Serre-Swan theorem]] spring) of the [[dual vector bundle]] $E^\ast$.
+$\Gamma_X(E^\ast)$ of [[smooth sections]] (as in the [[smooth Serre-Swan theorem]], Prop. \ref{FirstTwoMagicPropertiesOfAlgebrasOfSmoothFunctions}) of the [[dual vector bundle]] $E^\ast$.
 
 The underlying [[functor of points]] of $\Pi E$  (remark \ref{ASheafAsASpace})
 
@@ -2551,54 +2567,11 @@ Below we see that this is not a coincidence, and discuss the formal proof that $
 
 
 
-
-In order to proceed, we need to make the following further observation on the system of projection operators in
-prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, Prop. \ref{ProgressionOfIdempotentEndofunctors}:
-
-+-- {: .num_prop #Sublations}
-###### Proposition
-
-There are the following extra relations between the projection endofunctors in Prop. \ref{ProgressionOfIdempotentEndofunctors} ("[[Aufhebung|Aufhebungs]]"-relations):
-
-* $\sharp \emptyset \simeq \emptyset$ (the [[codiscrete objects]] form a [[dense subtopos]])
-
-* $\rightsquigarrow \Im \simeq \Im$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Write $\mathbf{H} \coloneqq SuperFormalSmoothSet$ for short.
-For any $X \in \mathbf{H}$ and any $U \times \mathbb{D}\in SuperFormalCartSp \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
-
-$$
-  \begin{aligned}
-    \mathbf{H}(U \times \mathbb{D} , \stackrel{\rightsquigarrow}{\Im X})
-    & \simeq
-    \mathbf{H}(\stackrel{\rightrightarrows}{U \times \mathbb{D}} , \Im X)
-    \\
-    &\simeq
-    \mathbf{H}(\Re(\stackrel{\rightrightarrows}{U \times \mathbb{D}}) , X)
-    \\
-    & \simeq
-    \mathbf{H}(U, X)
-    \\
-    & \simeq
-    \mathbf{H}(\Re(U \times \mathbb{D}), X)
-    \\
-    & \simeq \mathbf{H}(U \times \mathbb{D}, \Im X)
-  \end{aligned}
-  \,.
-$$
-
-=--
-
-
 +-- {: .num_prop #BosonicModalityPreservesLocalDiffeomorphism}
 ###### Proposition
+**([[bosonic modality]] preserves [[formally étale morphisms]])**
 
-If $f \;\colon\; X \longrightarrow Y$ is a [[local diffeomorphism]],
+If $f \;\colon\; X \longrightarrow Y$ is a [[formally étale morphism]],
 def. \ref{LocalDiffeomorphisms}, then so is its image
 $\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
 
@@ -2607,13 +2580,32 @@ $\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrighta
 +-- {: .proof }
 ###### Proof
 
-Since the [[bosonic modality]] provides [[Aufhebung]] for $\Re\dashv \Im$ by prop. \ref{Sublations} we have $\rightsquigarrow \Im \simeq \Im$. Moreover $\Im \rightsquigarrow \simeq \Im$ anyway. Finally $\rightsquigarrow$ preserves [[pullbacks]] (being in particular a [[right adjoint]]). Hence hitting a pullback diagram
+By Prop. \ref{SuperSmoothSetsSystemOfAdjunctions} we have equivalences
+
+$$
+  \overset{\rightsquigarrow}{\Im(-)}
+  \;\simeq\;
+  \Im(-)
+  \;\simeq\;
+  \Im \overset{\rightsquigarrow}{(-)}
+  \,.
+$$
+
+The first of these equivalences is the "left [[Aufhebung]]" which is explicit in Prop. \ref{SuperSmoothSetsSystemOfAdjunctions}. The second equivalence is under the [[Yoneda embedding]], equivalent to the "[[adjunct]] equivalence"
+
+$$
+  \overset{\rightrightarrows}{\Re(-)} \;\simeq\; \Re(-)
+$$
+
+which follows from the progression in Prop. \ref{SuperSmoothSetsSystemOfAdjunctions} since $\rightrightarrows$ and $\rightsquigarrow$ have the same [[full subcategory]] of [[modal objects]] $FormalSmoothset \overset{\iota_{sup}}{\hookrightarrow} SuperFormalSmoothSet$, and since $\rightsquigarrow \gt \Re$, by (eq:ProgressionOfModalitiesOnSuperFormalSmoothSet).
+
+Moreover, since $\rightsquigarrow$ [[preserved limit|preserves]] [[pullbacks]] (being a [[right adjoint]], by [this Prop.](geometry+of+physics+--+categories+and+toposes#AdjointsPreserveCoLimits)). Hence hitting a pullback diagram which exhibits a [[formally étale morphism]] $f$ (Def. \ref{LocalDiffeomorphisms})
 
 $$
   \array{
     X &\longrightarrow& \Im X
     \\
-    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
+    \downarrow^{\mathrlap{f}} &(pb)& \downarrow^{\mathrlap{\Im f}}
     \\
     Y &\longrightarrow& \Im Y
   }
@@ -2631,19 +2623,21 @@ $$
   }
 $$
 
+that witnesses $\overset{\rightsquigarrow}{\f}$ as being [[formally étale morphisms]] formally étale.
+
 =--
 
 +-- {: .num_cor }
 ###### Corollary
 
 The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying
-a [[V-manifold]] $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold
+a [[V-manifold]] $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold.
 
 =--
 
 
 
-
+$\,$
 
 
 
@@ -3304,7 +3298,7 @@ The formulation via the axioms of [[differential cohesion]] that we use here fol
 
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations Part I -- Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
-* [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017 ([pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
+* [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017 ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
 
 
 
