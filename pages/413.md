@@ -38,6 +38,8 @@ For $\mathbf{X}$ a supermanifold with function algebra $C^\infty(\mathbf{X})$, t
 
 For more see at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_.
 
+The equivalent of the [[de Rham complex]] in supergeometry is indexed by two indices and so is a [[double complex]]. This first index denotes the form degree, while the second index denotes what is called the *picture number*.
+
 ## Examples {#Examples}
 
 Let $\mathbf{X} = \mathbb{R}^{1|1}$. The [[superalgebra]] of functions on $\mathbf{X}$ is the [[exterior algebra]] that is generated over $C^\infty(\mathbf{R})$ from a single generator $\theta$ in odd degree (the canonical odd coordinate). 
