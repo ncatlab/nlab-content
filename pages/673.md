@@ -6,7 +6,7 @@ I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stac
 
 I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015. For the period July-2017 to February 2018 I was a Lecturer in the School of Mathematical Sciences.
 
-You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](publons.com/a/430214/)
+You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[Wordpress](https://thehighergeometer.wordpress.com/)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](https://publons.com/a/430214/)
 
 If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.[etc]
 
@@ -21,7 +21,7 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
-* _The smooth Hom-stack of an orbifold_, [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016) ([SpringerLink](https://www.springer.com/gp/book/9783319722986) - to be published March 2018). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
+* _The smooth Hom-stack of an orbifold_, In: Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1, doi:[10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3), [arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [MATRIX hosted version](https://www.matrix-inst.org.au/2016-matrix-annals/). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
 
 * _Equivariant bundle gerbes_, [Advances in Theoretical and Mathematical Physics](https://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/)
  21 (2017) no. 4 pp 921-975, doi:[10.4310/ATMP.2017.v21.n4.a3
