@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functorial Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,6 +39,8 @@ The [[FRS-theorem on rational 2d CFT]] provides a complete classification of rat
 ## Related concepts
 
 * [[boundary CFT]]
+
+* [[minimal model CFT]]
 
 ## References
 
