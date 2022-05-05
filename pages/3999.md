@@ -96,7 +96,7 @@ In general neither of these two properties implies the other:
 ###### Example
 **(a compact space which is not sequentially compact)**
 
-Consider the following uncountable power of the [[discrete space]] $2$, i.e., the [[product topological space]] (with its [[Tychonoff topology]])
+Consider the following uncountable power of the [[discrete space]] $2$, namely the [[product topological space]] (with its [[Tychonoff topology]])
 
 $$
   X \coloneqq \underset{f: \mathbb{N} \to 2}{\prod} Disc(\{0,1\})
