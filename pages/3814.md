@@ -66,7 +66,7 @@ $$
   \,,
 $$
 
-where $q_n \in U(1)$ denotes an $n$th [[primitive root of unity]] (e.g. ([HMY 13, p. 2](#HMY13))), i.e. 
+where $q_n \in U(1)$ denotes an $n$th [[primitive root of unity]], i.e. 
 
 $$
   \left(
@@ -77,13 +77,14 @@ $$
   \right) 
   \;\in\;
   U(1) \times SU(2) \times SU(3)
-  \,,
+  \,.
 $$
 
+(See [Baez-Huerta 09, p. 33-36](#BaezHuerta09) for a fairly comprehensive discussion. See also e.g. [HMY 13, p. 2](#HMY13).)
 
 The exact gauge group (eq:ExactGSM) happens to coincide with 
 
-1. $S(U(2) \times U(3)) \subset SU(5)$ -- this is the basis of "[[grand unified theories]]" ([[GUT]]), speculative extensions of the standard model;
+1. $S\big(U(2) \times U(3)\big) \subset SU(5)$ -- this is the basis of "[[grand unified theories]]" ([[GUT]]), speculative extensions of the standard model trying to understand its gauge group as being a [[spontaneously broken symmetry|spontaneously broken]] _[[simple Lie group]]_-[[symmetry]].
 
 1. the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
 
@@ -164,6 +165,9 @@ See
 
 ## References
 
+A clean survey and gentle introduction is given in
+
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
 Textbook accounts include
 
