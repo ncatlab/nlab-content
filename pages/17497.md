@@ -597,7 +597,7 @@ Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor
 
 $$
   \array{
-    Hom_{\mathcal{C}}(1,hom(X\otimes Y, ))
+    Hom_{\mathcal{C}}(1,hom(X\otimes Y, Z))
       &\overset{\simeq}{\longrightarrow}&
     Hom_{\mathcal{C}}(1,hom(X,hom(Y,Z)))
     \\
