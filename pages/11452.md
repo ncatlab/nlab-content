@@ -68,6 +68,13 @@ While $\pi_\bullet(M \mathbb{R})$ is _not_ the [[cobordism ring]] of [[real mani
 
 * [[equivariant cohomology]]
 
+* [[real structure]]
+
+* [[real oriented cohomology theory]]
+
+  * [[KR-theory]]
+
+
 ## References
 
 * {#Atiyah66} [[Michael Atiyah]], _K-theory and reality_, The Quarterly Journal of Mathematics. Oxford. Second Series 17 (1) (1966),: 367&#8211;386, ISSN 0033-5606, MR 0206940 ([doi:10.1093/qmath/17.1.367]( https://doi.org/10.1093/qmath/17.1.367), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/atiyahkr.pdf))
