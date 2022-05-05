@@ -59,6 +59,12 @@ On the other hand, a _big topos_ in which $X$ is incarnated is a [[category of s
 
 In good cases, the intrinsic properties of $X$ do not depend on whether one regards it as a little topos or as an object of a gros topos. For instance at [[cohomology]] in the section <a href="http://ncatlab.org/nlab/show/cohomology#NonabelianSheafCohomology">Nonabelian sheaf cohomology with constant coefficients</a> it is discussed how the [[nonabelian cohomology]] of a [[paracompact space|paracompact]] [[manifold]] $X$ with constant coefficients gives the same answer in each case.
 
+## Related entries
+
+* [[cohesive topos]]
+
+* [[sufficiently cohesive topos]]
+
 
 ## References
 
@@ -78,7 +84,7 @@ The suggestion that a _general notion_ of gros topos is needed goes back to some
 
 * [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7.([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
 
-The axioms 0 and 1 for _toposes of generalized spaces_ given there later became called the axioms for a [[cohesive topos]]
+The axioms 0 and 1 for _toposes of generalized spaces_ given there later became called the axioms for a [[cohesive topos]], together with axiom 2 they make out a [[suffciently cohesive topos]].
 
 Further discussion of this axiomatics for [[gros topos]]es is in
 
