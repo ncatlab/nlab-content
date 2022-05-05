@@ -40,6 +40,9 @@ An open question concerning the characterization of "Toposes of laws of motion" 
 
 Entries with related discussion include _[[geometry of physics]]_ and _[[higher category theory and physics]]_. Refinement to [[higher topos theory]] is discussed at _[[Higher toposes of laws of motion]]_.
 
+## Related entries
+
+* _[[Some Thoughts on the Future of Category Theory]]_
 
 category: reference
 
