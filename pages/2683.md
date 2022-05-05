@@ -61,6 +61,8 @@ This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 * [[twistor space]]
 
+* [[piecewise flat spacetime]]
+
 ## References
 
 Named after [[Hermann Minkowski]]. 
