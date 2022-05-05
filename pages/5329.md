@@ -33,7 +33,7 @@ An [[(∞,1)-category]] is **sifted** if a [[quasi-category]] $K \in sSet$ model
 
 Let $C$ be an [[(∞,1)-category]] such that [[products]] preserve [[sifted (∞,1)-colimits]] (for instance an [[(∞,1)-topos]], see [[universal colimits]]).
 
-Then [[sifted (∞,1)-colimits]] preserve finite products.
+Then [[sifted (∞,1)-colimits]] preserve [[finite products]].
 
 =--
 
