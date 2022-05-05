@@ -94,7 +94,11 @@ There, this is called an "obvious guess" (first line on p. 8). Subsequently,  mo
 
 * {#Myers03} [[Robert Myers]], section 3 of _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
 
-By actual computation in [[open string field theory]] "convincing evidence" (see bottom of p. 22) was found, numerically, in
+Discussion in terms of [[boundary conformal field theory]] is in
+
+* {#FuchsKasteLercheLutkenSchweigert00} [[Jürgen Fuchs]], P. Kaste, [[Wolfgang Lerche]], C. Lutken, [[Christoph Schweigert]], J. Walcher, _Boundary Fixed Points, Enhanced Gauge Symmetry and Singular Bundles on K3_, Nucl.Phys.B598:57-72, 2001 ([arXiv:hep-th/0007145](https://arxiv.org/abs/hep-th/0007145))
+
+By actual computation in [[open string field theory]] "convincing evidence" for the nonabelian [[Yang-Mills theory]] on coincident D-branes was found, numerically, in (see bottom of p. 22)
 
 * {#ColettiSigalovTaylor03} Erasmo Coletti, Ilya Sigalov, [[Washington Taylor]], _Abelian and nonabelian vector field effective actions from string field theory_, JHEP 0309 (2003) 050 ([arXiv:hep-th/0306041](https://arxiv.org/abs/hep-th/0306041))
 
