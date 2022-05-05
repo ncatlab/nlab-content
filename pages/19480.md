@@ -659,7 +659,7 @@ Then there is a [[functor]] (Def. \ref{Functors})
 $$
   C(-)
   \;\colon\;
-  Top_{cpt}
+  Top_{H,cpt}
    \longrightarrow
   C^\ast Alg^{op}
 $$
@@ -680,10 +680,10 @@ $$
   }
 $$
 
-Part of the statement of _[[Gelfand duality]]_ is that this is a [[fully faithful functor]], hence exhibiting a  [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}):
+Part of the statement of _[[Gelfand duality]]_ is that this is a [[fully faithful functor]], hence exhibiting a  [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}), namely that of [[commutative C*-algebras]]:
 
 $$
-  Top_{cpt}
+  Top_{H,cpt}
    \overset{\phantom{AAA}}{\hookrightarrow}
   C^\ast Alg^{op}
   \,.
