@@ -28,7 +28,7 @@ The Catalan numbers $C_n$ count a myriad of different families of objects, inclu
 
 * nonisomorphic ordered (planar) binary [[trees]] with $n$ internal [[vertices]]
 
-* monotonic lattice paths in an $n\times n$ grid which do not cross below the diagonal, or equivalently, [[monotone functions]] $f : [n] \to [n]$ such that $x \le f(x)$ for all $0 \le x \le n$ (or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in the [[simplex category|simplex 2-category]] $\Delta$)
+* monotonic lattice paths in an $n\times n$ grid which do not cross below the diagonal, or equivalently, [[monotone functions]] $f : [n] \to [n]$ such that $f(0) = 0$ and $x \le f(x)$ for all $0 \le x \le n$ (or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in $\Delta_\bot$, the [[2-category]] of non-empty finite ordinals and first-element-and-order-preserving functions, with 2-cells given by the pointwise ordering)
 
 and many, many more besides (see [Stanley](#Stanley2015) for 214 such interpretations).
 
