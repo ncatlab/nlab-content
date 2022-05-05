@@ -59,6 +59,7 @@ Survey of the field of inhomogeneous cosmology and of attitudes in the community
 If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
 
 ## Numerical simulation
+ {#NumericalSimulation}
 
 Numerical simulations of inhomogeneous cosmology are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17). 
 
