@@ -241,7 +241,7 @@ Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-s
 
 Discussion of the [[cosmology]] of intersecting brane models includes (see also at _[[Randall-Sundrum model]]_)
 
-* {#Uranga02} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_ ([arXiv:hep-th/0201209](https://arxiv.org/abs/hep-th/0201209))
+* {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf))
 
 * {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
 
