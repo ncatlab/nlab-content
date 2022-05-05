@@ -29,7 +29,7 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 * [[Peter Aczel]] mentioned a similar concept, the _Structure Identity Principle_, "isomorphic structures have the same structural properties" in Oberwolfach [report 52/2011](www.mfo.de/document/1145/OWR_2011_52.pdf). This seems a priori a little weaker to [[David Roberts|me]], but if we demand that objects should be seen as only having structural properties (as opposed to the category of [[ZF]]-[[sets]]), then we look like we get back the Principle of Isomorphism.
 
-* A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such.
+* A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such (see [AhrensNorth18](#AhrensNorth18)).
 
 * {#evil} Floating around the web (and maybe the $n$Lab) is the idea of half-jokingly referring to a breaking of equivalence invariance as "evil". This is probably meant as a pedagogical way of amplifying that it is to be avoided.
 
@@ -234,6 +234,8 @@ A discussion of the principle of equivalence in the very [[foundations]] of math
 * {#CoquandDanielsson} [[Thierry Coquand]], Nils Anders Danielsson, _Isomorphism is equality_ ([pdf](http://www.cse.chalmers.se/~nad/publications/coquand-danielsson-isomorphism-is-equality.pdf))
 
 * {#Awodey14} [[Steve Awodey]], _Structuralism, Invariance, and Univalence_ (2014) ([pdf](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf))
+
+* {#AhrensNorth18} [[Benedikt Ahrens]], [[Paige Randall North]], _Univalent foundations and the equivalence principle_, ([pdf](https://paigenorth.github.io/ep.pdf))
 
 [[!redirects principle of isomorphism]]
 [[!redirects principle of equivalence]]
