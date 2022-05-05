@@ -4385,7 +4385,7 @@ Conversely, if there is an [[isomorphism]] from $Y$ to a morphism in the image o
 
 +-- {: .num_prop #ReflectionOntoLocalObjectsIsLocalizationWithRespectToLeftAdjoints}
 ###### Proposition
-**([[reflective subcategory|reflection]] onto [[local objects]] in [[localization]] with respect to [[left adjoints]])**
+**([[reflective subcategory|reflection]] onto [[local objects]] is [[localization]] with respect to [[left adjoints]])**
 
 Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Mor_{\mathcal{C}}$ be a [[class]] of [[morphisms]] in $\mathcal{C}$. Then the [[reflective subcategory|reflection]] onto the $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms}) 
 satisfies, if it exists, the [[universal property]] of a [[localization of categories]] (Def. \ref{LocalizationOfACategory}) with respect to _[[left adjoint]]_ functors inverting $S$.
