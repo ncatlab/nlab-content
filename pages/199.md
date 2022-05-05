@@ -63,6 +63,8 @@ $$
 
 category: category
 
+[[!redirects category of vector spaces]]
+[[!redirects categories of vector spaces]]
 
 [[!redirects category of vector bundles]]
 [[!redirects categories of vector bundles]]
