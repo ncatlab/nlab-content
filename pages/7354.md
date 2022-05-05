@@ -33,6 +33,8 @@ and
 
 * [[duality between M-theory and type IIA superstring theory]].
 
+* [[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations]]
+
 * the [[AdS/CFT correspondence]].
 
 ## Overview 
@@ -58,7 +60,7 @@ and
 
 The original article suggesting the relation of 11d sugra to string theory is
 
-* [[Edward Witten]], _[[String Theory Dynamics in Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 An original article collecting all the weak/strong electric/magnetic dualities is 
 
