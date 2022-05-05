@@ -408,7 +408,7 @@ from the [[product category]] of the [[category]] [[CartSp]] of [[Cartesian spac
 
 =--
 
-(see [Braunack-Mayer 18, Def. 3.1.3](#BraunackMayer18)
+([FSS 12, Def. 4.2.1](#FSS12), see [Braunack-Mayer 18, Def. 3.1.3](#BraunackMayer18))
 
 +-- {: .num_prop #LieIntegrationIsRightQuillenFunctor}
 ###### Proposition
