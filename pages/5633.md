@@ -9,6 +9,10 @@ More recently he has been investigating [[quantum sheaf cohomology]].
 
 In ([Sharpe 15](#Sharpe15)) he lays out a general perspective of the role of [[2-group]] and generally [[n-group]] ([[infinity-group]]) global [[higher gauge symmetry]] in [[quantum field theory]] and [[string theory]].
 
+## Some articles
+
+* [[Eric Sharpe]], _Discrete torsion_, Phys.Rev. D68 (2003) 126003 ([arXiv:hep-th/0008154](https://arxiv.org/abs/hep-th/0008154))
+
 * {#Sharpe99} [[Eric Sharpe]], _Discrete Torsion and Gerbes I_ ([arXiv:hep-th/9909108](http://arxiv.org/abs/hep-th/9909108))
 
   _Discrete Torsion and Gerbes II_ ([arXiv:hep-th/9909120](http://arxiv.org/abs/hep-th/9909120))
@@ -23,4 +27,9 @@ In ([Sharpe 15](#Sharpe15)) he lays out a general perspective of the role of [[2
 
 * {#Sharpe15} Eric Sharpe, _Notes on generalized global symmetries in QFT_ ([arXiv:1508.04770](http://arxiv.org/abs/1508.04770))
  
+
+## Some talks
+
+* [[Eric Sharpe]], _Sigma models on gerbes_, talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1864sharpe.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1864shar.mp4))
+
 category: people
