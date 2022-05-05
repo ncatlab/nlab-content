@@ -149,6 +149,8 @@ The basic [[BPS states]] of 11d SuGra are
 
 * [[supergravity]]
 
+* [[12-dimensional supergravity]]
+
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
 * [[7-dimensional supergravity]]
