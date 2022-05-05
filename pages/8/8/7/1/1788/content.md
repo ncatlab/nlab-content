@@ -1,317 +1,324 @@
 
-
-For 
-
-$$
-  \mathcal{X}
-  \;\colon\;
-  \mathcal{C}^{op}
-  \xrightarrow{\;}
-  Grpd_\infty
-$$
-
-an $\infty$-presheaf and
-
-$$
-  \overset{
-    c \in \mathcal{C}
-  }{\int}
-  \mathcal{X}(c)
-  \;\;
-  \in
-  \;\;
-  Grpd_\infty
-$$
-its $\infty$-Grothendieck construction, it ought to be the case that its projection onto the $\infty$-Grothendieck construction of its $n$-truncation is the $\infty$-Grothendieck construction on the system 
-
-$$
-  \big(
-    c,
-    \,
-    x \in \mathcal{X}(c)
-  \big)
-  \;\mapsto\;
-  cn_n
-  \big(
-    \mathcal{X}(c), x
-  \big)
-$$
-
-of $n$-connected covers:
-
 \begin{tikzcd}
-    \overset
-      { \mathclap{ c \in \mathcal{C} } }
-      { \scalebox{1.6}{$\int$} }    
-    \mathcal{X}(c)
-    \ar[rr]
-    \ar[d, "P_n", start anchor={[yshift=2pt]}, end anchor={[yshift=-10pt]}]
-    \ar[drr, phantom, "{\mbox{\tiny(pb)}}"]
-    &&
-    \widehat{\mathrm{Grpd}_{\infty}}
-    \ar[d]
-    \\
-    \overset
-      { \mathclap{ c \in \mathcal{C} } }
-      { \scalebox{1.6}{$\int$} }
-    \tau_n \mathcal{X}(c)
+    \mathcal{S}_1
     \ar[
       rr,
-      "{
-        (c,x)
-        \,\mapsto\,
-        \mathrm{cn}_n
-        \big(
-          \mathcal{X}(c), x
-        \big)
-      }"{swap}
+      shift left=7pt,
+      "{ \ell }"{above}
     ]
     &&
-    \mathrm{Grpd}_\infty
-\end{tikzcd}
-
-
-Is this discussed anywhere?
-
-
-\linebreak
-
-Here some more elaboration:
-
-For $n \in \mathbb{N} \sqcup \{\infty\}$, we write
-
-\begin{tikzcd}
-    \widehat{\mathrm{Grpd}_n}
-    \mathrlap{
-      =: \mathrm{Grpd}_n^{\ast/}
-    }
-    \ar[d]
-    &
-    \\
-    \mathrm{Grpd}_n
-\end{tikzcd}
-
-for the universal fibration of $n$-groupoids.
-
-
-Via the naturality squares
-
-\begin{tikzcd}
-    \widehat{\mathrm{Grpd}_\infty}
-    \ar[d]
-    \ar[r, "\tau_n"]
-    &
-    \widehat{\mathrm{Grpd}_n}
-    \ar[d]
-    \\
-    \mathrm{Grpd}_\infty
-    \ar[r, "\tau_n"]
-    &
-    \mathrm{Grpd}_n
-\end{tikzcd}
-
-we may canonically regard any pointed $\infty$-groupoid 
-$(\mathcal{X}, x) \,\in\, \widehat{\mathrm{Grpd}_\infty}$
-as an element in the homotopy pullback of the $n$th universal fibration along
-$\tau_n$.
-
-\begin{lemma}
-
-The resulting further homotopy pullback along its classifying map is the $n$-connected cover 
-$\mathrm{cn}_n(\mathcal{X},s)$
-of 
-$(\mathcal{X},x)$:
-
-\begin{tikzcd}
-    \mathrm{cn}_n(\mathcal{X},x)
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    \widehat{\mathrm{Grpd}_\infty}
-    \ar[d]
-    \\
-    \ast
+    \mathcal{S}_2
     \ar[
-      r,
-      "{
-        \vdash (\mathcal{X},x)
-      }"{swap}
+      ll,
+      shift left=7pt,
+      "{ r }"{below}
     ]
-    &
-    {}
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    \widehat{\mathrm{Grpd}_n}
-    \ar[d]
-    \\
-    &
-    \mathrm{Grpd}_\infty
-    \ar[r, "\tau_n"]
-    &
-    \mathrm{Grpd}_n
+    \ar[
+      ll,
+      phantom,
+      "{ \scalebox{.6}{$\bot$} }"
+    ]
 \end{tikzcd}
 
-\end{lemma}
-
-\begin{proof}
-
-Since 
-
-1. left fibrations are preserved by pullback
-
-1. a left Fibrations over the $\infty$-groupoid $\ast$ are Kan fibrations
-
-the pullback in question is guaranteed to be an $\infty$-groupoid. Therefore, since passage to the [[core]] is a right adjoint, we may equivalently compute the $\infty$-pullback of cores.
-
-Finally, since $Grpd_\infty$ is [[extensive category|extensive]], we may compute these pullbacks on the respective connected components of the cores. 
-
-In conclusion, this means that our $\infty$-pullback is equivalently the following:
-
-\begin{tikzcd}
-    \mathrm{fib}(\tau_n)
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    \mathcal{X} /\!/ \mathrm{Aut}(\mathcal{X})
-    \ar[
-      d,
-      "{
-        \tau_n /\!/ \mathrm{Aut}(\mathcal{X})
-      }"
-    ]
-    \\
-    \ast
-    \ar[
-      r,
-      "{
-        \vdash x
-      }"{swap}
-    ]
-    &
-    (\tau_n \mathcal{X}) /\!/ \mathrm{Aut}(\mathcal{X})
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    (\tau_n \mathcal{X}) /\!/ \mathrm{Aut}(\tau_n \mathcal{X})
-    \ar[d]
-    \\
-    &
-    B \mathrm{Aut}(\mathcal{X})
-    \ar[r]
-    &
-    B \mathrm{Aut}(\tau_n\mathcal{X})    
+\begin{tikzcd}[column sep=large]
+      \mathrm{PSh}(\mathcal{S}_1)
+      \;\;
+      \ar[
+        rr,
+        shift left=-7pt,
+        "{ \ell_\ast \,\simeq\, r^\ast    }"{description}
+      ]
+      \ar[
+        rr,
+        shift left=32pt-7pt,
+        "{ \ell_! }"{description, pos=.4}
+      ]
+      &&
+      \;\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \ar[
+        ll,
+        shift right=16pt-7pt,
+        "{ \ell^\ast \,\simeq\, r_! }"{description}
+      ]
+      \ar[
+        ll,
+        shift right=-16pt-7pt,
+        "{ r_\ast }"{description, pos=.4}
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=8pt-7pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=24pt-7pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=-8pt-7pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
 \end{tikzcd}
 
 
-That the top right square is a homotopy pullback follows, for instance by the pasting law and the characterization of [[infinity actions|$\infty$-actions]].
-
-That the top left square is homotopy pullback as shown is seen by observing that it is the homotopy colimit of an evident homotopy pullback square of simplicial $\infty$-groupoids, whose right morphism is, evidently, a [[homotopy Kan fibration]]. This implies the claim by [this Prop.](geometric+realization+of+simplicial+topological+spaces#PreservationOfHomotopyLimits). (The same kind of argument also applies to the bottom right square.)
-
-\end{proof}
-
-Now consider the following tower of $\infty$-Grothendieck constructions on the $n$-truncations of an $\infty$-presheaf $\mathcal{X}(-)$, here shown in the first few stages:
-
-\begin{tikzcd}
-    \mathrm{cn}_1
-    \big(
-      \mathcal{X}(c),
-      x
-    \big)
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &[+5pt]
-    \overset
-      { \mathclap{ c \in \mathcal{C} } }
-      { \scalebox{1.6}{$\int$} }
-    \mathcal{X}(c)
-    \ar[r]
-    \ar[d, "P_1", start anchor={[yshift=2pt]}, end anchor={[yshift=-10pt]}]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    \widehat{\mathrm{Grpd}_\infty}
-    \ar[d]
-    \\
-    \ast
-    \ar[
-      r, 
-      "{
-        \vdash 
+$$
+  \begin{aligned}
+      &
+      \mathrm{PSh}(\mathcal{S}_1)
+      \big(
+        X_1
+        ,\,
+        r^\ast(X_2)
+      \big)
+      \\
+      &
+      \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_1)
+      \Big(
+         \underset{
+           \underset{
+             s_1 \to X_1
+           }{\longrightarrow}
+         }{\lim}
+         \,
+        y(s_1)
+        \,
+        ,\,
+        r^\ast
         \big(
-          \mathcal{X}(c),x
+         \underset{
+           \underset{
+             s_2 \to X_2
+           }{\longrightarrow}
+         }{\lim}
+         \,
+        y(s_2)
         \big)
-      }"{swap}
-    ]
-    &
-    \overset
-      { \mathclap{ c \in \mathcal{C} } }
-      { \scalebox{1.6}{$\int$} }
-    \tau_1 \mathcal{X}(c)
-    \ar[d, start anchor={[yshift=+2pt]}, end anchor={[yshift=-12pt]}]
-    \ar[r]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    {}
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    &
-    \widehat{\mathrm{Grpd}_1}
-    \ar[d]
-    \\
-    &
-    \overset
-      { \mathclap{ c \in \mathcal{C} } }
-      { \scalebox{1.6}{$\int$} }
-      \tau_0 \mathcal{X}(c)
-    \ar[d, start anchor={[yshift=2pt]}, end anchor={[yshift=-6pt]}]
-    \ar[r]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    & 
-    {}
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    & 
-    {}
-    \ar[r]
-    \ar[d]
-    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
-    & 
-    \widehat{\mathrm{Set}}
-    \ar[d]
-    \\
-    &
-    \mathclap{\phantom{\scalebox{1.6}{$\int$}}}
-    \mathcal{C}^{\mathrm{op}}
-    \ar[
-      r,
-      "{
-        \mathcal{X}  
-      }"{swap}
-    ]
-    &
-    \mathrm{Grpd}_\infty
-    \ar[
-      r, 
-      "{\tau_1}"{swap}
-    ]
-    &
-    \mathrm{Grpd}_1
-    \ar[
-      r, 
-      "{\tau_0}"{swap}
-    ]
-    &
-    \mathrm{Set}
-\end{tikzcd}
-
-By the pasting law, and the previous diagram, the top left square ought to be as shown, exhibiting the homotopy fibers of $P_1$ as the 1-connected covers as claimed. The same argument would apply to any $P_n$.
-
-
-
+      \Big)
+      \\
+      &
+      \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \mathrm{PSh}(\mathcal{S}_1)
+      \Big(
+        y(s_1)
+        ,\,
+         \underset{
+           \underset{
+             s_2 \to X_2
+           }{\longrightarrow}
+         }{\lim}
+         \,
+        r^\ast
+        \big(
+          y(s_2)
+        \big)
+      \Big)
+      \\
+      &
+      \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \,
+         \underset{
+           \underset{
+             s_2 \to X_2
+           }{\longrightarrow}
+         }{\lim}
+      \mathrm{PSh}(\mathcal{S}_1)
+      \Big(
+        y(s_1)
+        ,\,
+        r^\ast
+        \big(
+          y(s_2)
+        \big)
+      \Big)
+      \\
+      & \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \;
+      \underset{
+        \underset{
+          s_2 \to X_2
+        }{\longrightarrow}
+      }{\lim}
+      \mathcal{S}_2
+      \big(
+        r(s_1)
+        ,\,
+        s_2
+      \big)
+      \\
+      & \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \;
+      \underset{
+        \underset{
+          s_2 \to X_2
+        }{\longrightarrow}
+      }{\lim}
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        y\big(r(s_1)\big)
+        ,\,
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \underset{
+        \underset{
+          s_1 \to X_1
+        }{\longleftarrow}
+      }{\lim}
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        y\big(r(s_1)\big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        y\big(r(s_1)\big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        \mathcal{S}_2
+        \big(
+          (-)
+          ,\,
+          r(s_1)
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+      \mathrm{PSh}(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        \mathcal{S}_2
+        \big(
+          \ell(-)
+          ,\,
+          s_1
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+    PSh(\mathcal{S}_2)
+      \Big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        \ell^\ast
+        \big(
+          y(s_1)
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+    PSh(\mathcal{S}_2)
+      \Big(
+        \ell^\ast
+        \big(
+        \underset{
+          \underset{
+            s_1 \to X_1
+          }{\longrightarrow}
+        }{\lim}
+        y(s_1)
+        \big)
+        ,\,
+        \underset{
+          \underset{
+            s_2 \to X_2
+          }{\longrightarrow}
+        }{\lim}
+        y(s_2)
+      \Big)
+      \\
+      & \;\simeq\;
+    PSh(\mathcal{S}_2)
+      \Big(
+        \ell^\ast
+        (
+          X_1
+        )
+        ,\,
+        X_2
+      \Big)
+  \end{aligned}
+$$
