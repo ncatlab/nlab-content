@@ -20,7 +20,7 @@ A formal language for specifying [[logic|logical]] [[theories]]. Gallina is used
 
 ## References
 
-* _[The Gallina specification language ](http://coq.inria.fr/doc/Reference-Manual003.html)_
+* _[The Gallina specification language ](https://coq.inria.fr/distrib/current/refman/language/gallina-specification-language.html)_
 
 [[!redirects Gallina]]
 
