@@ -253,7 +253,7 @@ $$
   }
 $$
 
-If this looks like a trivial reformulation of textbook material, then because it is a trivial reformulation of textbook material. But introducing such category-theoretic language for making the locality principle in quantum mechanics fully manifest turns out to be rather useful for capturing the full locality of [[local quantum field theory]], which is not in the traditional textbooks. This we come to below.
+If this looks like a trivial reformulation of textbook material, then this is because it is a trivial reformulation of textbook material. But introducing such category-theoretic language for making the locality principle in quantum mechanics fully manifest turns out to be rather useful for capturing the full locality of [[local quantum field theory]], which is not in the traditional textbooks. This we come to below.
 
 | [[physics]] |  [[category theory]] |
 |-------------|----------------------|
