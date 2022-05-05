@@ -275,6 +275,8 @@ The [[topological K-theory]] ring $K(X)$ of any [[topological space]] carries th
 
 This is originally due to [[Alexander Grothendieck]]. See for instance [Wirthmuller 12, section 11](Introduction+to+topological+K-Theory#Wirthmuller12) and see at _[[Adams operations]]_.
 
+Generalizing to [[equivariant K-theory]], the [[representation ring]] of a [[group]] inherits the structure of a Lambda-ring, see [there](representation+ring#LambdaRingStructure).
+
 +-- {: .num_example}
 ###### Example
 
