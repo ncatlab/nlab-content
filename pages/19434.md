@@ -31,6 +31,12 @@ Admissible functors $f$ in this sense in $CAT$ are closed under precomposition n
 Let $\mathcal{K}$ be a [[2-category]] and $A$ be a class of 1-cells. The 1-cells $f\in A$ (and by abuse, the class $A$ as well) are called _admissible_ if for all $f\in A$ and composable 1-cells $g\in \mathcal{K}$,  $f\circ g\in  A$. $f\in A$ and $A$ are called _proto-admissible_ if this closure property holds for $g\in A$.
 =--
 
++-- {: .num_defn #admissible_0cell}
+###### Definition 
+Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if $id_C$ is admissible (resp. proto-admissible).
+
+=--
+
 Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly austere axiomatic dsecription of the presheaf construction.
 
 
