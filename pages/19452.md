@@ -1,5 +1,7 @@
 
-This page is going to be one chapter in _[[geometry of physics]]_.
+> This page is going to be one chapter in _[[geometry of physics]]_.
+
+> next chapter: _[[geometry of physics -- coordinate systems|coordinate systems]]_
 
 > under construction
 
@@ -7,6 +9,7 @@ $\,$
 
 $\,$
 
+[[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]] and are ubiquituous in and indispensible for organizing concpetual mathematical frameworks.
 
 We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]] (such as used in the chapters _[[geometry of physics -- A first idea of quantum field theory|on quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_).
 
@@ -4245,7 +4248,7 @@ $$
   \;\colon\;
   [\mathcal{D}^{op},\mathcal{V}]
     \longrightarrow
-  [\mathcal{V}^{op},\mathcal{V}]  
+  [\mathcal{C}^{op},\mathcal{V}]  
 $$
 
 between the precomposition on [[enriched presheaves]] with one functor and the left/right [[Kan extension]] of the other (Def. \ref{TopologicalLeftKanExtensionBCoend}).
@@ -4601,4 +4604,5 @@ In order to understand the sheaf condition (eq:SheafCondition) better, it is use
 
 (...)
 
-a
+[[!redirects geometry of physics -- categories and toposes]]
+
