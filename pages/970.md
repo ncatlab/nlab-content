@@ -28,7 +28,7 @@ There are some variations in usage depending on the [[foundations]] chosen.  Als
 
 The precise meaning of the above definition depends on the [[foundations]] chosen.
 
-* In [[ZF]], where a *small category* is one whose objects and morphisms form [[sets]], a *large category* is one whose whose objects and morphisms form (perhaps proper) [[classes]].
+* In [[ZF]], where a *small category* is one whose objects and morphisms form [[sets]], a *large category* is one whose objects and morphisms form (perhaps proper) [[classes]].
 
 * In ZF with a specified [[Grothendieck universe]] $U$, where a *small category* is one whose objects and morphisms belong to $U$ (or have cardinalities belonging to $U$), a *large category* means a category whose objects and morphisms are still sets, but not (necessarily) belonging to $U$.  In this foundational system, one rarely considers categories whose objects and morphisms are proper classes.
 
