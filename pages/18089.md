@@ -22,6 +22,12 @@ Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which ever
 
 ## Examples
 
+* A [[poset]]
+
+* The [[path category]] of an acyclic [[quiver]]. 
+
+* A group, $G$, understood as [delooped](group#delooping) to a pointed connected groupoid.
+
 Let $\mathcal{S}$ be a set of subgroups of a group $G$.
 
 *  The *transporter category* $\mathcal{T}_{\mathcal{S}}$ has as its objects the members of $\mathcal{S}$, and morphisms $Hom(H,K) = N_G(H,K) = \{g \in G|{}^{g}H \subseteq K\}$.
