@@ -166,7 +166,7 @@ Denote the poset map $g = (g_1, g_2)$ thus defined by $\lambda(f)$. Let $Path_n$
 The mapping $f \mapsto \lambda(f)$ defines a bijection $Range_n \to Path_n$. 
 =-- 
 
-The inverse mapping takes an element $(g_1, g_2) \in Path_n$ to the mountain range defined by $j \mapsto g_2(j) - g_1(j)$. A key observation is that the injectivity of $g = (g_1, g_2)$ forces each step of the path to go just one step (or block) north or just one block east, so that the difference between $g_2(j+1) - g_1(j+1)$ and $g_2(j) - g_1(j)$ always lies in $\{1, -1\}$. 
+The inverse mapping takes an element $(g_1, g_2) \in Path_n$ to the mountain range defined by $j \mapsto g_2(j) - g_1(j)$. The injectivity of $g = (g_1, g_2)$ forces each step of the path to go just one step (or block) north or just one block east, corresponding to the fact that the difference between $g_2(j+1) - g_1(j+1)$ and $g_2(j) - g_1(j)$ always lies in $\{1, -1\}$. 
 
 
 ## Structural enumeration 
@@ -193,7 +193,7 @@ A more structural derivation can be obtained by counting stay-ahead races, in th
 
 We let the [[cyclic group]] $\mathbb{Z}/(2n+1)$ [[group action|act]] on $S_n$, by precomposing functions $f: [2n] \to \{1, -1\}$ with powers of the cyclic [[permutation]] 
 
-$$(0\; 1\; \ldots\; 2n): [2n] \to [2n].$$ 
+$$\tau = (0\; 1\; \ldots\; 2n): [2n] \to [2n].$$ 
 
 The number of stay-ahead races in $Race_n$ is seen to be $C_n = \frac1{2n+1}\binom{2n+1}{n}$, as soon as we establish the following result. 
 
@@ -210,7 +210,11 @@ $$g(j+1) - g(j) = \tilde{f}(j)$$
 
 for all $j \in \mathbb{Z}$. For example, $g(j) = \sum_{0 \leq i \lt j} \tilde{f}(i)$ for all $j \geq 0$. 
 
-Observe (more later...)
+Observe that $g(j+2n+1) = g(j)+1$ for all $j$, so that the line $L_{g, j}$ with slope $\frac1{2n+1}$ that passes through $(j, g(j))$ also passes through $(j+2n+1, g(j+2n+1))$, but passes through no other $(k, g(k))$ for $j \lt k \lt j+2n+1$ since $g(k)$ is integral but $L_{g, j}(k)$ is not, being strictly between $g(j)$ and $g(j)+1$. This implies that the lines $L_{g, j}$ for $j$ ranging over a period block $\{j, j+1, \ldots, j+2n\}$ are all distinct, i.e., the cyclic group action on these $L_{g, j}$ according to the formula $\tau L_{g, j} = L_{g, j+1}$ is faithful. 
+
+Pick $j$ so that the line $L_j$ is "lowest"; all the lines have the same slope $\frac1{2n+1}$, so that lowest just means $L_j(0)$ is minimal. Minimality implies that that for every other $k \neq j$ within a periodic block, the point $(k, g(k))$ lies above the line $y = L_j(x)$. Translating this picture horizontally by $j$ by considering $g \circ \tau^j$, and then vertically by subtracting $g(j) = (g \circ \tau^j)(0)$, i.e., putting $h = \sigma(f \circ \tau^j)$, this means that all points $(k, h(k))$ for $k = 1, \ldots, 2n+1$ stay above the line $y = L_{h, 0}(x) = \frac1{2n+1}(x)$. In other words, these values $h(k)$ are all positive and $h(2n+1) = 1$: precisely the stay-ahead conditions for $f \circ \tau^j$. Thus the orbit of any $f \in S_n$ contains a stay-ahead race. Moreover, this is the only stay-ahead race in the orbit since the stay-ahead positivity condition is equivalent to the minimality condition on $L_j$, and all the $L_j$ are distinct. 
+
+Finally, the stabilizer of $f$ must be trivial, else we would have $L_{g, j} = L_{g, j+k}$ for $k$ a non-multiple of $2n+1$: as we saw before, this can't happen. 
 =--
 
 ### Method 3
