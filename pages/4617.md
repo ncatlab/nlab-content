@@ -654,7 +654,7 @@ Since $T$ is assumed to be an abelian Lawvere theory, the [T-line object](#Line)
 
 The following proposition provides a model for these Eilenberg-MacLane objects.
 
-Write $\Xi : Ch^\bullet_+ \to Ab^\Delta$ for the dual [[Dold-Kan correspondence]] map. Notice that the free $\mathcal{Ab}$-algebra is $F_{Ab}(*) = \mathbb{Z}$, the free abelian group on a single generator, the [[integer]]. Write $F_{Ab}(*)[n] = \mathbb{Z}[n]$ for the [[cochain complex]] concentrated in degree $n$ on $F_{Ab}(*)$. For $ab_* : Ab \to T Alg$ the left adjoint to the underlying abelian group functor $ab^* : T Alg \to Ab$ we have then thagt $ab_* \Xi (F_{Ab}(*)[n])$ is the cosimplicial $T$-algebra which in degree $k$ is a product of copies of the free $T$-algebra corresponding to the product of copies $\mathbb{Z}$ in $\Xi \mathbb{Z}[n]$.
+Write $\Xi : Ch^\bullet_+ \to Ab^\Delta$ for the dual [[Dold-Kan correspondence]] map. Notice that the free $\mathcal{Ab}$-algebra is $F_{Ab}(*) = \mathbb{Z}$, the free abelian group on a single generator, the [[integers]]. Write $F_{Ab}(*)[n] = \mathbb{Z}[n]$ for the [[cochain complex]] concentrated in degree $n$ on $F_{Ab}(*)$. For $ab_* : Ab \to T Alg$ the left adjoint to the underlying abelian group functor $ab^* : T Alg \to Ab$ we have then that $ab_* \Xi (F_{Ab}(*)[n])$ is the cosimplicial $T$-algebra which in degree $k$ is a product of copies of the free $T$-algebra corresponding to the product of copies $\mathbb{Z}$ in $\Xi \mathbb{Z}[n]$.
 
 +-- {: .num_prop}
 ###### Proposition
