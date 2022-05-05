@@ -85,7 +85,7 @@ Here:
    Ever since the existence of [[nLab:gauge fields]] was understood in the 1920s, it is thus an [[nlab:experiment|experimental]] fact that fundamental physics is described by _[[nLab:higher geometry]]_. 
 
 
-A striking consequence is that, both in [[nLab:higher geometry]] as well as in [[nLab:supergeometry]] and therefore in the [[nLab:geometry of physics|geometry of fundamental physics]], [[nLab:spaces]] generally are _not_ [[nLab:sets]] of [[nLab:points]] (as in the traditional definition of [[nLab:topological spaces]] or [[nLab:differentiable manifolds]]).
+A striking consequence is that, both in [[nLab:higher geometry]] as well as in [[nLab:supergeometry]] and therefore in the [[nLab:geometry of physics|geometry of fundamental physics]], [[nLab:spaces]] generally are _not_ [[nLab:sets]] of [[nLab:points]], as in the traditional definition of [[nLab:topological spaces]] or [[nLab:differentiable manifolds]].
 
 What, then, _is_ the [[nLab:geometry of physics|geometry of fundamental physics]]?
 
