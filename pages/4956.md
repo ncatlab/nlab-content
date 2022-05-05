@@ -54,6 +54,7 @@ Evidently differentiation gives a function $D: C^{n+1}(\mathbb{R}^k) \to C^n(\ma
 This development carries over more generally to [[smooth manifolds]] $X$, which are locally (smoothly) isomorphic to [[Euclidean spaces]] $\mathbb{R}^k$. 
 
 ### Differentiation as a functor 
+ {#AsAFunctor}
 
 _Differentiation_ in more conceptual terms is a [[functor]] $d : Diff \to Diff$ on the [[category]] [[Diff]] of [[smooth manifold]]s that sends
 
