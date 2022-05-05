@@ -2469,7 +2469,7 @@ Let $\mathcal{C} \overset{R}{\longrightarrow} \mathcal{D}$ be a [[functor]] and 
 
 1. $d \overset{\eta_d}{\to} R(c)$ is a [[universal morphism]] into $R(c)$ (Def. \ref{UniversalArrow});
 
-1. $(d, \eta_d)$ is the [[initial object]] in the [[comma category]] $d/R$ (Example \ref{CommaCategoryWithOneSideConstant}).
+1. $(d, \eta_d)$ is the [[initial object]] (Def. \ref{InitialObject}) in the [[comma category]] $d/R$ (Example \ref{CommaCategoryWithOneSideConstant}).
 
 
 =--
@@ -2632,13 +2632,13 @@ The proof of the other statements proceeds analogously.
 
 Every [[right adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
 
-1. [[terminal objects]],
+1. [[terminal objects]] (Def. \ref{InitialObject}),
 
 1. [[monomorphisms]] (Def. \ref{Monomorphism})
 
 Every [[left adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
 
-1. [[initial objects]],
+1. [[initial objects]] (Def. \ref{InitialObject}),
 
 1. [[epimorphisms]] (Def. \ref{Monomorphism}).
 
@@ -2652,7 +2652,7 @@ This is immediate from the adjunction hom-isomorphism (eq:HomIsomorphismForAdjoi
 We consider the first case, the second is [[formal duality|formally dual]].
 So let $R \;\colon\; \mathcal{C} \to \mathcal{D}$ be a [[right adjoint functor]] with [[left adjoint]] $L$.
 
-Let $\ast \in \mathcal{C}$ be a [[terminal object]]. We need to show that for every [[object]] $d \in \mathcal{D}$ the [[hom-set]]  $Hom_{\mathcal{D}}(d,R(\ast)) \simeq \ast$ is a [[singleton]]. But by the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) we have a [[bijection]]
+Let $\ast \in \mathcal{C}$ be a [[terminal object]] (Def. \ref{InitialObject}). We need to show that for every [[object]] $d \in \mathcal{D}$ the [[hom-set]]  $Hom_{\mathcal{D}}(d,R(\ast)) \simeq \ast$ is a [[singleton]]. But by the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) we have a [[bijection]]
 
 $$
   \begin{aligned}
@@ -3325,7 +3325,7 @@ etc.
 ###### Example
 **([[bottom]] and [[top]] [[adjoint modality]])**
 
-Let $\mathcal{C}$ be a [[category]] with both an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$. Then, by Example \ref{InitialAndTerminalObjectInTermsOfAdjunction} there is an [[adjoint triple]] between $\mathcal{C}$ and the [[terminal category]] $\ast$ (Example \ref{InitialCategoryAndTerminalCategory}) of the form
+Let $\mathcal{C}$ be a [[category]] with both an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$ (Def. \ref{InitialObject}). Then, by Example \ref{InitialAndTerminalObjectInTermsOfAdjunction} there is an [[adjoint triple]] between $\mathcal{C}$ and the [[terminal category]] $\ast$ (Example \ref{InitialCategoryAndTerminalCategory}) of the form
 
 $$
   \mathcal{C}
@@ -3581,7 +3581,7 @@ Then $\mathcal{C}$ becomes a [[monoidal category]] (Def. \ref{MonoidalCategory})
      X \otimes Y \;\coloneqq\; X \times Y
    $$
 
-1. taking the [[unit object]] to be the [[terminal object]]
+1. taking the [[unit object]] to be the [[terminal object]] (Def. \ref{InitialObject})
 
    $$
      I \;\coloneqq\; \ast
@@ -5303,6 +5303,122 @@ Hence a _limit cone_ is a cone over $F$, such that every other cone factors thro
 =--
 
 
+
++-- {: .num_example #TerminalObjectIsEmptyLimit}
+###### Example
+**([[terminal object|terminal]]/[[initial object]] is [[empty category|empty]] [[limit]]/[[colimit]])**
+
+Let $\mathcal{C}$ be a [[category]], and let $\ast \in \mathcal{C}$ be an [[object]]. The following are equivalent:
+
+1. $\ast$ is a [[terminal object]] of $\mathcal{C}$ (Def. \ref{InitialObject});
+
+1. $\ast$ is the [[limit]] of [[generalized the|the]] [[empty category|empty]] [[diagram]].
+
+And [[formal dual|formally dual]]: Let $\emptyset \in \mathcal{C}$ be an object. The following are equivalent:
+
+1. $\emptyset$ is an [[initial object]] of $\mathcal{C}$ (Def. \ref{InitialObject});
+
+1. $\emptyset$ is the [[colimit]] of [[generalized the|the]] [[empty category|empty]] [[diagram]].
+
+=--
+
++-- {: .num_prop #InitialObjectIsLimitOverIdentityFunctor}
+###### Example
+**([[initial object]] is [[limit]] over [[identity functor]])**
+
+Let $\mathcal{C}$ be a [[category]], and let $\emptyset \in \mathcal{C}$ be an [[object]]. The following are equivalent:
+
+1. $\emptyset$ is an [[initial object]] of $\mathcal{C}$ (Def. \ref{InitialObject});
+
+1. $\emptyset$ is the [[limit]] (Def. \ref{Limits}) of the [[identity functor]] on $\mathcal{C}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First let $\emptyset$ be an [[initial object]]. Then, by definition, it is the tip of a unique [[cone]] over the identity functor
+
+\[
+  \label{InitialObjectCone}
+  \array{
+    const_{\emptyset}&\phantom{AA}& && \emptyset
+    \\
+    {}^{\mathllap{i^{\emptyset}}}\Downarrow && & {}^{\mathllap{i^{\emptyset}_{c_1}}}\swarrow && \searrow^{\mathrlap{i^{\emptyset}_{c_2}}}
+    \\
+    id_{\mathcal{C}} && c_1 && \underset{f}{\longrightarrow} && c_2
+  }
+\]
+
+We need to show that that every other cone $i^x$
+
+$$
+  \array{
+    const_{x}&\phantom{AA}& && x
+    \\
+    {}^{\mathllap{\mathllap{i^x}}}\Downarrow && & {}^{i^x_{c_1}}\swarrow && \searrow^{\mathrlap{i^x_{c_2}}}
+    \\
+    id_{\mathcal{C}} && c_1 && \underset{f}{\longrightarrow} && c_2
+  }
+$$
+
+factors uniquely through $i^\emptyset$. 
+
+First of all, since the cones are over the identity functor, there is the component $i^x_{\emptyset} \;\colon\; x \to \emptyset$, and it is a morphism of cones. 
+
+To see that this is the unique morphism of cones, consider any morphism of cones $j^x_\emptyset$, hence a morphism in $\mathcal{C}$ such that $i^x_c = i^\emptyset_c  \circ j^x_\emptyset $ for all $c \in \mathcal{C}$. Taking here $c = \emptyset$ yields
+
+$$
+  \begin{aligned}
+    i^x_\emptyset 
+      & = 
+    \underset{ = id_\emptyset }{\underbrace{i^\emptyset_{\emptyset}}} \circ j^x_{\emptyset}
+    \\
+    & = j^x_\emptyset
+    \,,
+  \end{aligned}
+$$
+
+where under the brace we used that $\emptyset$ is initial. This proves that $i^\emptyset$ is the limiting cone.
+
+For the converse, assume now that $i^\emptyset$ is a limiting cone over the identity functor, with labels as in (eq:InitialObjectCone). We need to show that its tip $\emptyset$ is an initial object. 
+
+Now the cone condition applied for any object $x \in \mathcal{C}$ over the morphims $f \coloneqq i^\emptyset_x$ says that 
+
+$$
+  i^{\emptyset}_x \circ i^\emptyset_\emptyset = i^\emptyset_x
+$$
+
+which means that $i^\emptyset_\emptyset$ constitutes a morphism of cones from $i^\emptyset$ to itself. But since $i^\emptyset$ is assumed to be a limiting cone, and since the [[identity morphism]] on $\emptyset$ is of course also a morphism of cones from $i^\emptyset$ to itsely, we deduce that
+
+\[
+  \label{iemptyemptyIsIdempty}
+  i^\emptyset_\emptyset 
+   \;=\;
+  id_{\emptyset}
+  \,.
+\]
+
+Now consider any morphism of the form $\emptyset \overset{f}{\to} x$. Since we already have the morphism $\emptyset \overset{i^\emptyset_x}{\to} x$, to show initiality of $\emptyset$ we need to show that $f = i^\emptyset_x$.
+
+Indeed, the cone condition of $i^\emptyset_x$ applied to $f$ now yields
+
+$$
+  \begin{aligned}
+    i^\emptyset_x
+    & = 
+    f \circ \underset{ = id_{\emptyset} }{\underbrace{i^\emptyset_\emptyset}}
+    \\
+    & =
+    f\,,
+  \end{aligned}
+$$
+
+where under the brace we used (eq:iemptyemptyIsIdempty).
+
+=--
+
+
 +-- {: .num_example #LimitsOfPresheavesAreComputedObjectwise}
 ###### Example
 **([[limits of presheaves are computed objectwise]])**
@@ -5596,7 +5712,7 @@ Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}).
 
 1. The following are equivalent:
 
-   1. $\mathcal{C}$ has a [[terminal object]];
+   1. $\mathcal{C}$ has a [[terminal object]] (Def. \ref{InitialObject});
 
    1. the unique [[functor]] $\mathcal{C} \to \ast$ (Def. \ref{Functors}) to the [[terminal category]] (Example \ref{InitialCategoryAndTerminalCategory}) has a [[right adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
 
@@ -5613,7 +5729,7 @@ Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}).
 
 1. Dually, the following are equivalent:
 
-   1. $\mathcal{C}$ has an [[initial object]];
+   1. $\mathcal{C}$ has an [[initial object]] (Def. \ref{InitialObject});
 
    1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
 
@@ -5835,15 +5951,15 @@ $$
   }
 $$
 
-By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$. But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
+By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$ (by Example \ref{InitialObjectIsLimitOverIdentityFunctor}). But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
 
 =--
 
 +-- {: .num_remark #AdjointFunctorTheorem}
 ###### Remark
-**([[adjoint functor theorem)**
+**([[adjoint functor theorem]])**
 
-Beware the subtle point in Prop. \ref{PointwiseExpressionOfLeftAdjoints}, that the [[comma category]] $c/F$ is in general not a [[small category]] (Def. \ref{SmallCategory}): It has typically "as many" objects as $\mathcal{C}$ has, and $\mathcal{C}$ is not assumed to be small (while of course it may happen to be). But typical categories, such as notably the [[catgegory of sets]] (Example \ref{CategoryOfSets}) are generally guaranteed only to admit limits over [[small categories]]. For this reason, Prop. \ref{PointwiseExpressionOfLeftAdjoints} is rarely useful for _finding_ an [[adjoint functor]] which is not already established to exist by other means.
+Beware the subtle point in Prop. \ref{PointwiseExpressionOfLeftAdjoints}, that the [[comma category]] $c/F$ is in general not a [[small category]] (Def. \ref{SmallCategory}): It has typically "as many" objects as $\mathcal{C}$ has, and $\mathcal{C}$ is not assumed to be small (while of course it may happen to be). But typical categories, such as notably the [[category of sets]] (Example \ref{CategoryOfSets}) are generally guaranteed only to admit limits over [[small categories]]. For this reason, Prop. \ref{PointwiseExpressionOfLeftAdjoints} is rarely useful for _finding_ an [[adjoint functor]] which is not already established to exist by other means.
 
 But there are good sufficient conditions known, on top of the condition that $R$ preserves limits, which guarantee the existence of an adjoint functor, after all. This is the topic of the _[[adjoint functor theorem]]_ (one of the rare instances of useful and non-trivial theorems in mathematics for which issues of [[set theory|set theoretic]] size play a crucial role for their statement and proof).
 
@@ -8673,11 +8789,11 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
 +-- {: .num_prop #PiecesHavePoints}
 ###### Proposition
-**([[pieces have points]], [[discrete objects are concrete]], [[Aufhebung]] of the initial [[adjoint modality]])**
+**([[pieces have points]] $\simeq$ [[discrete objects are concrete]] $\simeq$ [[Aufhebung]] of [[bottom]] [[adjoint modality]])**
 
 Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the following conditions are equivalent:
 
-1. [[pieces have points]]: For every [[object]] $X \in \mathbf{H}$, the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the &#643;-[[unit of an adjunction|unit]]
+1. **[[pieces have points]]**: For every [[object]] $X \in \mathbf{H}$, the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the &#643;-[[unit of an adjunction|unit]]
    
    $$
      \flat X 
@@ -8702,9 +8818,11 @@ Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the fo
    is a [[monomorphism]] (Def. \ref{Monomorphism})
 
 
-1. [[discrete objects are concrete]]: For every [[object]] $X \in \mathbf{H}$, we have that its [[discrete object]] $\flat X$ is a [[concrete object]] (Def. \ref{CohesiveModalities}).
+1. **[[discrete objects are concrete]]**: For every [[object]] $X \in \mathbf{H}$, we have that its [[discrete object]] $\flat X$ is a [[concrete object]] (Def. \ref{CohesiveModalities}).
 
-1. The [[initial object]] is [[codiscrete object|codiscrete]] (Def. \ref{CohesiveModalities}):
+1. **[[Aufhebung]] of [[bottom]] [[adjoint modality]]** 
+
+   The [[adjoint modality]] $\flat \dashv \sharp$ exhibits [[Aufhebung]] (Def. \ref{Aufhebung}) of the [[bottom]] [[adjoint modality]] (Example \ref{InitialAndFinalAdjointModality}), i.e. the [[initial object]] (Def. \ref{InitialObject}) is [[codiscrete object|codiscrete]] (Def. \ref{CohesiveModalities}):
 
    $$
      \sharp \emptyset \;\simeq\; \emptyset
@@ -8742,19 +8860,55 @@ $$
   }
   \mathbf{H}_{conc}
   \array{
-    \overset{\phantom{AAA}}{\longrightarrow}
+    \overset{\phantom{AA}\Gamma \phantom{AA}}{\longrightarrow}
     \\
-    \overset{\phantom{AAA}}{\hookleftarrow}
+    \overset{\phantom{AA}coDisc\phantom{AA}}{\hookleftarrow}
   }
   Set
 $$
+
+If in addition [[discrete objects are concrete]] (Prop. \ref{PiecesHavePoints}), then the full [[adjoint quadruple]] factors through the [[concrete objects]]:
+
+$$
+  \array{
+     \\
+     \phantom{a}
+     \\ 
+     \phantom{A}
+     \\
+     \Gamma \;\dashv\; coDisc
+  }
+  \;\;\colon\;\;
+  \mathbf{H}
+  \array{
+    \phantom{\overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}}
+    \\
+    \phantom{\overset{ \phantom{AA} Disc \phantom{AA} }{\hookleftarrow}}
+    \\
+    \overset{\phantom{AA} conc \phantom{AA}}{\longrightarrow}
+    \\
+    \overset{\phantom{AA} \iota_{conc} \phantom{AA}}{\hookleftarrow}
+  }
+  \mathbf{H}_{conc}
+  \array{
+    \overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}
+    \\
+    \overset{ \phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+    \\
+    \overset{\phantom{AA}\Gamma \phantom{AA}}{\longrightarrow}
+    \\
+    \overset{\phantom{AA}coDisc\phantom{AA}}{\hookleftarrow}
+  }
+  Set
+$$
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For the adjunction on the right, we just need to observe that for every [[set]] $S \in Set$, the [[codiscrete object]] $coDisc(S)$ is [[concrete object|concrete]], which is immediate by [[idempotent monad|idempotency]] of $\sharp$ (Prop. \ref{ModalOpIdempotent}) and the fact that every [[isomorphism]] is also a [[monomorphism]].
+For the adjunction on the right, we just need to observe that for every [[set]] $S \in Set$, the [[codiscrete object]] $coDisc(S)$ is [[concrete object|concrete]], which is immediate by [[idempotent monad|idempotency]] of $\sharp$ (Prop. \ref{ModalOpIdempotent}) and the fact that every [[isomorphism]] is also a [[monomorphism]]. Similarly, the assumption that [[discrete objects are concrete]] says exactly that also $Disc$ factors through $\mathbf{H}_{conc}$.
 
 For the adjunction on the left we claim that the [[left adjoint]] $conc$, (to be called _[[concretification]]_), is given by sending each [[object]] to the [[image]] (Def. \ref{SheafToposEpiMonoFactorization}) of its $(\Gamma \dashv coDisc)$ [[adjunction unit]] $\eta^\sharp$:
 
