@@ -88,15 +88,18 @@ On the other hand, every poset is a poset in an [[opposite poset|opposite]] way,
 
 ### In monoids
 
-There is a notion of ideal in a [[monoid]] (or even [[semigroup]]), or more generally in a [[monoid object]] in any [[monoidal category]] $C$, which generalises the notion of ideal in a ri(n)g or in a (semi)lattice.  That is, if $C$ is [[Ab]], then a monoid in $C$ is a [[ring]]; if $C$ is [[Ab Mon]], then a monoid in $C$ is a [[rig]]; and a [[semilattice]] is a commutative idempotent monoid in [[Set]].  See [[ideal in a monoid]].
+There is a notion of ideal in a [[monoid]] (or even [[semigroup]]), or more generally in a [[monoid object]] in any [[monoidal category]] $C$, which generalises the notion of ideal in a ri(n)g or in a (semi)lattice.  That is, if $C$ is [[Ab]], then a monoid in $C$ is a [[ring]]; if $C$ is [[Ab Mon]], then a monoid in $C$ is a [[rig]]; and a [[semilattice]] is a commutative idempotent monoid in [[Set]].  A left (right) ideal in a monoid (or semigroup) is a subset closed under multiplications with arbitrary elements in the semigroup from the left (right). See [[ideal in a monoid]].
 
 This generalizes all of the above notions of ideal *except* for ideals in prosets that are not (possibly unbounded) join-semilattices.
 
 
 ### In categories
 
-More generally still, passing from monoids to their many-object version there is a notion of ideal in a [[category]], called a _[[sieve]]_.  See there for details.
+More generally still, passing from monoids to their many-object version a right ideal or _[[sieve]]_ in a [[category]] is a subcategory closed under precomposition with morphisms from the entire category, and a cosieve or left ideal is the dual notion closed under postcompositions with morphisms in the entire category.  See [[sieve]].
 
+### In additive categories 
+
+In ringoids (small additive categories) and additive categories in general, a left/right/2-sided ideal is just the ideal (sieve/cosieve) in the sense of categories which is also closed under group operations in hom groups. 
 
 ## Kinds of ideals
 
