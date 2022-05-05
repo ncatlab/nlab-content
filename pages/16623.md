@@ -64,6 +64,13 @@ Discussion specifically for [[M-theory on G2-manifolds]] includes
 
 * {#Curio02} [[Gottfried Curio]], _Superpotentials for M-theory on a $G_2$ holonomy manifold and Triality symmetry_, JHEP 0303:024,2003 ([arXiv:hep-th/0212211](http://arxiv.org/abs/hep-th/0212211))
 
+Discussion related to the [[cosmological constant]] in models of [[M-theory on G2-manifolds]] includes
+
+* {#CarlosLukasMorris04} Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
+
+which concludes that with taking [[non-perturbative effects]] from membrane instantons into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
+
+
 [^footnote]: This relation was pointed out by [[Hisham Sati]].
 
 [[!redirects membrane instantons]]
