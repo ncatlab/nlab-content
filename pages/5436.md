@@ -23,6 +23,7 @@ which is important for us. Unfortunately, in the departments of the applied math
 * [[Runge-Kutta method]]
 * [[symplectic integrator]]
 * [[preconditioner]]
+* [[numerical analysis]]
 
 Wikipedia: [applied mathematics](http://en.wikipedia.org/wiki/Applied_mathematics)
 
