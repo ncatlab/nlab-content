@@ -14,7 +14,7 @@ To appreciate this point, it may be useful to first consider the analogous state
 
 While mathematics is based to a large extent on the notion of a [[set]], the search for the _right_ formulation of [[set theory]] has been a long one. William Lawvere famously argued, in particular as discussed in his book
 
-* F. William Lawvere, R. Rosebrugh, _[Sets for mathematics](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics)_
+* F. William Lawvere, R. Rosebrugh, _[Sets for mathematics](http://books.google.de/books?id=h3_7aZz9ZMoC)_
 
 that the theory of sets is indeed best understood as the theory of the _[[category]]_ [[Set]] of sets: this lore is called the [[ETCS|Elementary Theory of the Category of Sets]] ( _ETCS_ for short.)
 
