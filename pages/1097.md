@@ -43,10 +43,10 @@ $ of open subsets into each other.
 structure of a [[site]], where a collection $\{U_i \to U\}_i$ of morphisms is a cover precisely if their [[union]] in $X$ equals $U$:
 $$ \bigcup_i U_i = U .$$
 
-  The [[category of sheaves]] on $Op(X)$ equipped with this site structure is usually written
+  The [[category of sheaves]] on $Op(X)$ equipped with this site structure is typically referred to as the _[[category of sheaves on a topological space|category of sheaves on the topological space]]_ and denoted
 
   $$
-    Sh(X) := Sh(Op(X))
+    Sh(X) \;\coloneq\; Sh(Op(X))
     \,.
   $$
 
