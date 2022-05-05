@@ -72,15 +72,15 @@ Here:
      x \stackrel{\gamma}{\longrightarrow} y
    $$
    
-   This principle applies also to [[nLab:gauge transformations]] themselves, and thus leads to [[nLab:gauge-of-gauge transformations]] 
+   This principle applies also to [[nLab:gauge transformations]] themselves, and thus leads to [[gauge-of-gauge transformations]] 
 
    <center><img src="https://ncatlab.org/nlab/files/2Cell.jpg" width = "200"></center>
 
-   and so on to ever [[nLab:higher gauge transformations]]:
+   and so on to ever [[higher gauge transformations]]:
 
    <center><img src="https://ncatlab.org/nlab/files/3Cell.jpg" width = "200"></center>
 
-   mathematically reflected by [[nLab:higher homotopies]] in _[[nLab:homotopy types|higher homotopy types]]_.
+   mathematically reflected by [[higher homotopies]] in _[[homotopy types|higher homotopy types]]_.
 
    Ever since the existence of [[nLab:gauge fields]] was understood in the 1920s, it is thus an [[nlab:experiment|experimental]] fact that fundamental physics is described by _[[nLab:higher geometry]]_. 
 
@@ -151,8 +151,6 @@ $\,$
 **Part I) [Geometry](#GEOMETRY)**
 
 1. [Smooth sets](#SmoothSpaces)
-
-1. [Homotopy types](#HomotopyTypes)
 
 1. [Smooth homotopy types](#SmoothnGroupoids)
 
@@ -597,10 +595,6 @@ This chapter is as _[[geometry of physics -- Categories and Toposes]]_
 
 This chapter is at _[[geometry of physics -- smooth sets]]_.
 
-## **Homotopy types**
- {#HomotopyTypes}
-
-This chapter is at _[[geometry of physics -- homotopy types]]_.
 
 ## **Smooth homotopy types**
  {#SmoothnGroupoids}
