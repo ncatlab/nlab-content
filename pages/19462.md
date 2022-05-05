@@ -46,6 +46,10 @@ Several chapters treat their model-theoretic role in
 
 * J. Barwise, [[Solomon Feferman|S. Feferman]] (eds.), _Model-theoretic Logics_ , Springer Heidelberg 1985 (freely available online: [toc](http://projecteuclid.org/euclid.pl/1235417263#toc)) .
 
+In the context of [[Martin-Löf type theory]] they are discussed by
+
+* [[Göran Sundholm|G. Sundholm]], _Constructive Generalized Quantifiers_ , Synthese **79** no.1 (1989) pp.1-12.
+
 For the use of generalized quantifiers in natural language semantics see
 
 * J. Barwise, R. Cooper, _Generalized Quantifiers and Natural Language_ , Linguistics and Philosophy **4** no.2 (1981) pp.159-219.
