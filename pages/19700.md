@@ -46,6 +46,8 @@ such that, moreover, each $a_i$ [[divisor|divides]] $a_{i+1}$.
 
 * [[Hermite normal form]]
 
+* [[Gram-Schmidt process]]
+
 ## References
 
 Lecture notes include
