@@ -92,6 +92,17 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
  {#References}
 
 ### General
+ {#General}
+
+A comprehensive account of the superstring [[S-matrix]] may be obtained from combining the general idea presented in
+
+* {#Polchinski01} [[Joseph Polchinski]], section 12.5 of vol 2 of _String theory_, Cambridge Monographs on Mathematical Physics (2001)
+
+with the technical details laid out in
+
+* {#Witten12} [[Edward Witten]], _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](https://arxiv.org/abs/1209.5461))
+
+* {#Witten13} [[Edward Witten]], _More On Superstring Perturbation Theory: An Overview Of Superstring Perturbation Theory Via Super Riemann Surfaces_ ([arXiv:1304.2832](https://arxiv.org/abs/1304.2832))
 
 Survey of the tree level string scattering amplitudes includes
 
