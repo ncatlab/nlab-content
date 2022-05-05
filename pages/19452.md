@@ -559,7 +559,7 @@ $$
   Set
 $$
 
-is the [[functor]] (Def. \ref{Functors}) out of the [[product category]] (Def. \ref{ProductCategory}) of $\mathcal{C}$ with its [[opposite category]] to the [[category of sets]], which sends a [[pair]] $X,Y \in \mathcal{C}$ of [[objects]] to the [[hom-set]] $Hom_{\mathcal{C}}(X,Y)$ between them, and which sends a [[pair]] of [[morphisms]], with one of them into $X$ and the outher out of $Y$, to the operation of [[composition]] with these morphisms:
+is the [[functor]] (Def. \ref{Functors}) out of the [[product category]] (Def. \ref{ProductCategory}) of $\mathcal{C}$ with its [[opposite category]] to the [[category of sets]], which sends a [[pair]] $X,Y \in \mathcal{C}$ of [[objects]] to the [[hom-set]] $Hom_{\mathcal{C}}(X,Y)$ between them, and which sends a [[pair]] of [[morphisms]], with one of them into $X$ and the other out of $Y$, to the operation of [[composition]] with these morphisms:
 
 $$
   Hom_{\mathcal{C}}
@@ -663,7 +663,7 @@ $$
 Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Obj_{\mathcal{C}}$ be a [[subobject|sub]]-[[class]] of its [[class]] of [[objects]]. The there is a [[category]] $\mathcal{C}_S$ whose class of [[objects]] is $S$, and whose [[morphisms]] are precisely the morphisms of $\mathcal{C}$, between these given objects:
 
 $$
-  Hom_{\mathcal{C}}(s_1, s_2)
+  Hom_{\mathcal{C}_S}(s_1, s_2)
   \;\coloneqq\;
   Hom_{\mathcal{C}}(s_1, s_2)
 $$
