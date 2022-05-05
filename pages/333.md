@@ -80,6 +80,9 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[derived noncommutative geometry]]
 
+[[!include Isbell duality - table]]
+
+
 ## References
 
 ### General
