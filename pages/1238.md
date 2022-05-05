@@ -22,9 +22,9 @@ This entry discusses some  relationships between  [[differential graded algebra]
 
 Here we will look at the relationships between the two topics in the title! We will explore some of the functors linking the two categories.
 
-##The functors $C^*$ and $L_*$.
+## The functors $C^*$ and $L_*$.
 
-####Cochain functors $C^* : DGLA\to CDGA$
+### Cochain functors $C^* : DGLA\to CDGA$
 
 Let $(V,\partial)$ be a differential graded vector space.  We let
 
