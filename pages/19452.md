@@ -184,6 +184,33 @@ Basic examples of [[concrete categories]] include the following:
 
 This is the motivation for the terminology "categories", as the examples in Example \ref{ExamplesOfConcreteCategories} are literally _categories of mathematical structures_. But not all categories are "[[concrete category|concrete]]" in this way.
 
++-- {: .num_defn #Isomorphism}
+###### Definition
+**([[isomorphism]])**
+
+For $\mathcal{C}$ a [[category]] (Def. \ref{Categories}), a [[morphism]] 
+
+$$
+  X \overset{f}{\to} Y \;\;\in Hom_{\mathcal{C}}(X,Y)
+$$ 
+
+is called an _[[isomorphism]]_ if there exists an [[inverse morphism]]
+
+$$
+  Y \overset{f^{-1}}{\longrightarrow} Y \;\; \in Hom_{\mathcal{C}}(Y,X)
+$$
+
+namely a morphism such that the [[compositions]] with $f$ are equal to the [[identity morphisms]] on $X$ and $Y$, respectively
+
+$$
+  f^{-1} \circ f  \;=\; id_X
+  \phantom{AAA}
+  f \circ f^{-1} \;=\; id_Y
+$$
+
+=--
+
+
 There is a range of constructions that provide new categories from given ones:
 
 +-- {: .num_example #OppositeCategory}
@@ -467,7 +494,7 @@ These two statements, expressing categories of [[spaces]] as [[full subcategorie
 
 +-- {: .num_defn #NaturalTransformations}
 ###### Definition
-**([[natural transformation]])**
+**([[natural transformation]] and [[natural isomorphism]])**
 
 Given two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ (Def. \ref{Categories}) and given two [[functors]] from $\mathcal{C}$ to $\mathcal{D}$ (Def. \ref{Functors}), then a _[[natural transformation]]_ from $F$ to $G$
 
@@ -509,6 +536,8 @@ such that
        F(Y) &\underset{\eta_Y}{\longrightarrow}& G(Y)
     }
   \]
+
+If all the component morphisms $\eta_X$ are [[isomorphisms]] (Def. \ref{Isomorphism}), then the natural transformation $\eta$ is called a _[[natural isomorphism]]_.
 
 For 
 
@@ -886,12 +915,12 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 
 
-## Adjunction and duality
+## Adjunctions
 
 
 +-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
 ###### Definition
-**([[adjoint functor|adjunction]])**
+**([[adjoint functors]])**
 
 Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}), and let 
 
@@ -911,7 +940,7 @@ $$
   \mathcal{C}
 $$
 
-if there exists a [[natural isomorphism]] between the [[hom-functors]] of the following form:
+if there exists a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) between the [[hom-functors]] (Example \ref{HomFunctor}) of the following form:
 
 \[
   \label{HomIsomorphismForAdjointFunctors}
@@ -933,7 +962,7 @@ $$
   }
 $$
 
-which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** and the [[image]] $\widetilde f$ of amorphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the adjunct of $\widetilde f$.
+which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is called the _adjunction hom-isomorphism_ and the [[image]] $\widetilde f$ of amorphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the _[[adjunct]]_ of $\widetilde f$.
 
 Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphisms]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
 
@@ -979,5 +1008,483 @@ $$
 $$
 
 =--
+
++-- {: .num_defn #AdjunctionUnitFromHomIsomorphism}
+###### Definition
+**([[adjunction unit]] and [[adjunction counit|counit]] in terms of hom-isomorphism)
+
+Given a pair of [[adjoint functors]] 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{D}
+$$
+
+according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one says that 
+
+1. for any $c \in \mathcal{C}$ the [[adjunct]] of the [[identity morphism]] on  $L(c)$ is the _[[unit of an adjunction|unit morphism]]_ of the adjunction at that object, denoted
+
+   $$
+     \eta_c \coloneqq \widetilde{id_{L(c)}} \;\colon\; c \longrightarrow R(L(c))
+   $$
+
+1. for any $d \in \mathcal{D}$ the [[adjunct]] of the [[identity morphism]] on  $R(d)$ is the _[[counit of an adjunction|counit morphism]]_ of the adjunction at that object, denoted
+
+   $$
+     \epsilon_d \;\colon\; L(R(d)) \longrightarrow d
+   $$
+
+
+
+=--
+
++-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
+###### Proposition
+**(general [[adjuncts]] in terms of [[adjunction unit|unit/counit]])**
+
+Consider a pair of [[adjoint functors]] 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{D}
+$$
+
+according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, with [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ according to Def. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+Then
+
+1. The [[adjunct]] $\widetilde f$ of any morphism $L(c) \overset{f}{\to} d$ is obtained from $R$ and $\eta_c$ as the [[composition|composite]]
+
+   \[
+     \label{AdjunctFormula}
+     \widetilde f 
+     \;\colon\;
+     c 
+       \overset{\eta_c}{\longrightarrow} 
+     R(L(c))
+       \overset{R(f)}{\longrightarrow}
+     R(d)
+   \]
+
+   Conversely, the [[adjunct]] $f$ of any morphism $c \overset{\widetilde f}{\longrightarrow} R(d)$ is obtained from $L$ and $\epsilon_d$ as
+
+   \[
+     \label{ConverseAdjunctFormula}
+     f
+     \;\colon\;
+     L(c) 
+       \overset{L(\widetilde f)}{\longrightarrow} 
+     R(L(d))
+       \overset{\epsilon_d}{\longrightarrow}
+     d
+   \]
+
+1. The [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ are components of [[natural transformations]] of the form
+
+   $$
+     \eta \;\colon\; Id_{\mathcal{C}} \Rightarrow R \circ L
+   $$
+
+   and
+
+   $$
+     \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
+   $$
+
+1. The [[adjunction unit]] and [[adjunction counit]] satisfy the [[triangle identities]], saying that
+
+   $$
+      id_{L(c)}
+      \;\colon\;
+      L(c) 
+        \overset{L(\eta_c)}{\longrightarrow} 
+      L(R(L(c))) 
+        \overset{\epsilon_{L(c)}}{\longrightarrow}
+      L(c)
+   $$
+
+   and
+
+   $$
+     id_{R(d)}
+     \;\colon\;
+     R(d)
+       \overset{\eta_{R(d)}}{\longrightarrow}
+     R(L(R(d)))
+       \overset{R(\epsilon_d)}{\longrightarrow}
+     R(d)
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, consider the [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) in the form 
+
+$$
+  \array{
+    id_{L(c)}
+     \in 
+    &
+    Hom_{\mathcal{D}}(L(c), L(c)) 
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c, R(L(c)))
+    \\
+    &
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(id), f)}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(id, R(f))}}
+    \\
+    &
+    Hom_{\mathcal{D}}(L(c), d)
+    &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}( c, R(d) )
+  }
+$$
+
+and consider the element $id_{L(c_1)}$ in the top left entry. Its image under going down and then right in the diagram is $\widetilde f$, by Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}. On the other hand, its image under going right and then down is $ R(f)\circ \eta_{c}$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown, for the adjunct of $f$.
+
+The converse formula follows analogously.
+
+The third statement follows directly from this by applying these formulas for the [[adjuncts]] twice and using that the result must be the original morphism:
+
+$$
+  \begin{aligned}
+    id_{L(c)}
+    & =
+    \widetilde \widetilde { id_{L(c)} }
+    \\
+    & = \widetilde{ c \overset{\eta_c}{\to} R(L(c))  }
+    \\
+    & = 
+     L(c) 
+       \overset{L(\eta_c)}{\longrightarrow} 
+     L(R(L(c))) 
+       \overset{\epsilon_{L(c)}}{\longrightarrow}
+     L(c)
+  \end{aligned}
+$$
+
+For the second statement, we have to show that for every moprhism $f \colon c_1 \to c_2$ the following [[commuting square|square commutes]]:
+
+$$
+  \array{    
+     c_1 &\overset{f}{\longrightarrow}& c_2
+     \\
+     {}^{\mathllap{\eta_{c_1}}}\big\downarrow 
+       && 
+     \big\downarrow^{\mathrlap{\eta_{c_2}}}
+     \\
+     R(L(c_1))
+      &\underset{ R(L(f)) }{\longrightarrow}&
+     R(L(c_2))
+  }
+$$
+
+To see this, consider the [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) in the form 
+
+$$
+  \array{
+    id_{L(c_2)}
+    \in
+    & Hom_{\mathcal{D}}(L(c_2), L(c_2)) 
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_2, R(L(c_2)))
+    \\
+    &
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(f),id_{L(c_2)})}}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(f, R(id_{L(c_2)}))}}
+    \\
+    &
+    Hom_{\mathcal{D}}(L(c_1),L(c_2))
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c_1,R(L(c_1)))
+  }
+$$
+
+The image of the element $id_{L(c_2)}$ in the top left along the right and down is $ f \circ \eta_{c_2}$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}, while its image down and then to the right is $\widetilde {L(f)} = R(L(f)) \circ \eta_{c_1}$, by the previous statement. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown.
+
+The argument for the naturality of $\epsilon$ is directly analogous.
+
+
+=--
+
++-- {: .num_prop #AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat}
+###### Proposition
+**([[adjoint functors]] equivalent to [[adjunction]] in [[Cat]])**
+
+Two functors
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{}
+  \mathcal{C}
+$$
+
+are an [[adjoint pair]] in the sense that there is a [[natural isomorphism]] (eq:HomIsomorphismForAdjointFunctors) according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, precisely if they participate in an _[[adjunction]]_ in the [[2-category]] [[Cat]], meaning that 
+
+1. there exist [[natural transformations]] 
+
+   $$
+     \eta \;\colon\; Id_{\mathcal{C}} \Rightarrow R \circ L
+   $$
+
+   and
+
+   $$
+     \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
+   $$
+
+2. which satisfy the [[triangle identities]]
+
+   $$
+      id_{L(c)}
+      \;\colon\;
+      L(c) 
+        \overset{L(\eta_c)}{\longrightarrow} 
+      L(R(L(c))) 
+        \overset{\epsilon_{L(c)}}{\longrightarrow}
+      L(c)
+   $$
+
+   and
+
+   $$
+     id_{R(d)}
+     \;\colon\;
+     R(d)
+       \overset{\eta_{R(d)}}{\longrightarrow}
+     R(L(R(d)))
+       \overset{R(\epsilon_d)}{\longrightarrow}
+     R(d)
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That a hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) implies units/counits satisfying the [[triangle identities]] is the statement of the second two items of Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+Hence it remains to show the converse. But the argument is along the same lines as the proof of Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}: We now _define_ forming of adjuncts by the formula (eq:AdjunctFormula). That the resulting assignment $f \mapsto \widetilde f$ is an [[isomorphism]] follows from the computation
+
+$$
+  \begin{aligned}
+    \widetilde {\widetilde f}
+    & =
+    \widetilde{ c \overset{\eta_c}{\to} R(L(c)) \overset{R(f)}{\to} R(d) }
+    \\
+    & =
+    L(c) \overset{L(\eta_c)}{\to} L(R(L(c))) \overset{L(R(f))}{\to} L(R(d)) \overset{\epsilon_d}{\to} d
+    \\ 
+    & = 
+    L(c) \overset{L(\eta_c)}{\to} L(R(L(c)))
+         \overset{ \epsilon_{L(c)} }{\to}  L(c)
+         \overset{f}{\longrightarrow} d
+    \\
+    & =  L(c) \overset{f}{\longrightarrow} d
+  \end{aligned}
+$$
+
+where, after expanding out the definition, we used [[natural transformation|naturality]] of $\epsilon$ and then the [[triangle identity]]. 
+
+Finally, that this construction satisfies the naturality condition (eq:NaturalitySquareForAdjointnessOfFunctors) follows from the functoriality of the functors involved, and the naturality of the unit/counit: 
+
+$$
+  \array{
+    c_2 &\overset{ \eta_{c_2} }{\longrightarrow}& R(L(c_2))
+    \\
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{R(L(g))}}
+    & \searrow^{\mathrlap{ R( L(g) \circ f ) }}
+    \\
+    c_1 
+      &\overset{\eta_{c_1}}{\longrightarrow}& 
+    R(L(c_1))
+     &\overset{R(f)}{\longrightarrow}&
+    R(d_1)
+    \\
+    && & {}_{R( h\circ f)}\searrow & \downarrow^{\mathrlap{ R(h) }}
+    \\
+    && && R(d_2)
+  }
+$$
+
+
+=--
+
+
+
+The condition (eq:HomIsomorphismForAdjointFunctors) on adjoint functors $L \dashv R$ in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} implies in particular that for every [[object]] $d \in \mathcal{D}$ the functor $Hom_{\mathcal{D}}(L(-),d)$ is a _[[representable functor]]_ with _[[representing object]]_ $R(d)$. The following Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} observes that the existence of such [[representing objects]] for all $d$ is, in fact, already sufficient to imply that there is a right adjoint functor.
+
+This equivalent perspective on adjoint functors makes manifest that:
+
+1. adjoint functors are, if they exist, unique up to natural isomorphism, this is Prop. \ref{UniquenessOfAdjoints} below;
+
+1. the concept of adjoint functors makes sense also _[[relative adjoint functor|relative]]_ to a [[full subcategory]] on which representing objects exists, this is the content of Remark \ref{RelativeAdjointFunctors} below.
+
+
++-- {: .num_prop #AdjointFunctorFromObjectwiseRepresentingObject}
+###### Proposition
+**(adjoint functor from objectwise [[representing objects]])**
+
+A [[functor]] $L \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ has a [[right adjoint]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, already if 
+for all [[objects]] $d \in \mathcal{D}$ there is an object $R(d) \in \mathcal{C}$ such that there is a [[natural isomorphism]]
+
+   $$ 
+     Hom_{\mathcal{D}}(L(-),d)
+     \underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}
+     Hom_{\mathcal{C}}(-,R(d))
+     \,,
+   $$
+
+   hence for each [[object]] $c \in \mathcal{C}$ a [[bijection]]
+
+   $$
+     Hom_{\mathcal{D}}(L(c),d)
+     \underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}
+     Hom_{\mathcal{C}}(c,R(d))
+   $$
+
+   such that for each [[morphism]] $g \;\colon\; c_2 \to c_1$, the following [[commuting diagram|diagram commutes]]
+
+   \[
+     \label{HalfNaturalitySquareForAdjointnessOfFunctors}
+     \array{
+       Hom_{\mathcal{D}}(L(c_1),d)
+         &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(c_1,R(d))
+       \\
+       {}^{\mathllap{ Hom_{\mathcal{C}}(L(g),id_d) }}
+       \big\downarrow 
+       &&
+       \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( f, id_{R(d)}  ) }}
+       \\
+       Hom_{\mathcal{D}}(L(c_2),d)
+         &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+       Hom_{\mathcal{C}}(c_2,R(d))
+     }
+   \]
+
+   (This is as in (eq:NaturalitySquareForAdjointnessOfFunctors), except that only naturality in the first variable is required.)
+
+In this case there is a unique way to extend $R$ from a function on [[objects]] to a function on [[morphisms]] such as to make it a [[functor]] $R \colon \mathcal{D} \to \mathcal{C}$ which is [[right adjoint]] to $L$.
+, and hence the statement is that with this, naturality in the second variable is already implied.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that 
+
+1. in the language of [[presheaves]] (Example \ref{CategoryOfPresheaves}) the assumption is that for each $d \in \mathcal{D}$ the presheaf 
+
+   $$
+     Hom_{\mathcal{D}}(L(-),d)
+     \;\in\;
+     [\mathcal{D}^{op}, Set]
+   $$
+
+   is [[representable functor|represented]] (eq:YonedaFunctor) by the object $R(d)$, and [[natural transformation|naturally]] so. 
+
+1. In terms of the [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding})
+
+   $$
+     y 
+       \;\colon\;
+     \mathcal{D}
+      \hookrightarrow
+     [\mathcal{D}^{op}, Set]
+   $$ 
+
+   we have 
+
+   \[
+     \label{YonedanotationForRepresentable}
+     Hom_{\mathcal{C}}(-,R(d))
+     =
+     y(R(d))
+   \]
+
+
+
+The condition (eq:NaturalitySquareForAdjointnessOfFunctors) says equivalently that $R$ has to be such that for all [[morphisms]] $h \;\colon\; d_1 \to d_2 $ the following diagram in the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ [[commuting diagram|commutes]]
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(-),d_1)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-,R(d_1))
+    \\
+    {}^{\mathllap{ Hom_{\mathcal{C}}( L(-) , h ) }}
+    \big\downarrow 
+    &&
+    \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( -, R(h)  ) }}
+    \\
+    Hom_{\mathcal{D}}(L(-),d_2)
+      &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-, R(d_2))
+  }
+$$
+
+This manifestly has a unique solution 
+
+$$
+  y(R(h))
+  \;=\;
+  Hom_{\mathcal{C}}(-,R(h))
+$$ 
+
+for every morphism $h \colon d_1 \to d_2$ under  $y(R(-))$ (eq:YonedanotationForRepresentable). But the [[Yoneda embedding]] $y$ is a [[fully faithful functor]] (Prop. \ref{YonedaEmbedding}), which means that thereby also $R(h)$ is uniquely fixed.
+
+=--
+
++-- {: .num_prop #UniquenessOfAdjoints}
+###### Proposition
+**([[adjoint functors]] are unique up to [[natural isomorphism]])**
+
+The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), if it exists, is unique up to  [[natural isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Suppose the functor $L \colon \mathcal{D} \to \mathcal{C}$ is given, and we are asking for uniqueness of its right adjoint, if it exists. The other case is directly analogous.
+
+Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]
+
+$$
+  \Phi_d
+  \;\colon\;
+  Hom_{\mathcal{C}}(-,R_1(d))
+  \;\simeq\;
+  Hom_{\mathcal{C}}(-,R_2(d))
+$$
+
+As in the proof of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject}, the [[Yoneda lemma]] implies that 
+
+$$
+  \Phi_d \;=\; y( \phi_d )
+$$
+
+for some [[isomorphism]]
+
+$$
+  \phi_d \;\colon\;  R_1(d) \overset{\simeq}{\to} R_2(d)
+  \,.
+$$
+
+But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} implies that the collection of these isomorphisms for each object constitues a [[natural isomorphism]] between the functors.
+
+=--
+
 
 (...)
