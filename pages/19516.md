@@ -1,5 +1,15 @@
 
-> under construction
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -11,91 +21,254 @@ The concept of [[adjoint triples]] generalized form [[adjoint functors]] to [[Qu
 
 ## Definition
 
-A _Quillen adjoint triple_ may be defined to be:
++-- {: .num_defn #QuillenAdjointTriple}
+###### Definition
 
-1. a [[pair]] of [[Quillen adjunction]] 
+Let $\mathcal{C}_1, \mathcal{C}_2, \mathcal{D}$ be [[model categories]], where $\mathcal{C}_1$ and $\mathcal{C}_2$ share the same underlying [[category]] $\mathcal{C}$, and such that the [[identity functor]] on $\mathcal{C}$ constitutes a [[Quillen equivalence]]
 
-   $\mathcal{C}_1 \underoverset{\underset{\phantom{AA}C_1\phantom{AA}}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot_{Qu}} \mathcal{D}_1$
+$$
+  \mathcal{C}_2 
+    \underoverset
+      {\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}}
+      {\overset{ \phantom{AA}id\phantom{AA} }{\longleftarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
+  \mathcal{C}_1
+$$
 
-   and
+Then 
 
-   $\mathcal{D}_2 \underoverset{\underset{R}{\longrightarrow}}{\overset{\phantom{AA}C_2\phantom{AA}}{\longleftarrow}}{\bot_{Qu}} \mathcal{C}_2$
-
-1. a [[pair]] of [[Quillen equivalences]]
-
-   $$
-     \mathcal{C}_2 
-       \underoverset
-         {\underset{\phantom{AAAA}}{\longrightarrow}}
-         {\overset{}{\longleftarrow}}
-         {\simeq_{Qu}}
-     \mathcal{C}_1
-   $$
+1. a [[Quillen adjoint triple]] of the form
 
    $$
-     \mathcal{D}_2 
-       \underoverset
-         {\underset{\phantom{AAAAA}}{\longrightarrow}}
-         {\overset{}{\longleftarrow}}
-         {\simeq_{Qu}}
-     \mathcal{D}_1
-   $$
+     \mathcal{C}_{1/2}
+       \array{
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+         \\
+         \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+         \\
+       }
+     \mathcal{D}
+   $$ 
 
-1. a [[natural isomorphism]] 
+   is a diagram in the [[double category of model categories]] of the form
 
    $$
      \array{
-       Ho(\mathcal{C}_1)
-         &\overset{\mathbb{R}C_1}{\longrightarrow}&
-       Ho(\mathcal{D}_1)
+       && 
+       \mathcal{C}_1
+       &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+       \mathcal{C}_2
        \\
-       \big\downarrow\mathrlap{\simeq}
-       & \swArrow &
-       \big\downarrow\mathrlap{\simeq}
+       && 
+       {}^{\mathllap{ L }}\Big\downarrow 
+       &{}^{\mathllap{\eta}}\swArrow&
+       \Big\downarrow{}^{\mathrlap{id}}
        \\
-       Ho(\mathcal{C}_2)
-         &\underset{\mathbb{L}C_2}{\longrightarrow}&
-       Ho(\mathcal{D}_2)      
+       \mathcal{C}_2    
+        &\overset{ \phantom{A}R\phantom{A} }{\longrightarrow}&
+       \mathcal{D}
+        &\overset{\phantom{A}C\phantom{A}}{\longrightarrow}&
+       \mathcal{C}_1
+       \\
+       {}^{\mathllap{ id }}\Big\downarrow
+       & {}^{\mathllap{\epsilon}}\swArrow &
+       {}^{\mathllap{C}}
+       \big\downarrow
+         &\swArrow_{\mathrlap{id}}& 
+       \big\downarrow{}^{ \mathrlap{ id } }
+       \\
+       \mathcal{C}_2
+       &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
+       \mathcal{C}_2
+       &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
+       \mathcal{C}_2
      }
    $$
 
-   between [[derived functors]] on [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)). 
+   such that $\eta$ is the [[unit of an adjunction]] and $\epsilon$ the [[counit of an adjunction]], thus exhibiting [[Quillen adjunctions]] 
 
-By essential uniqueness of ordinary adjoints, this implies that the two derived adjunctions on [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) combine to an ordinary [[adjoint triple]]
+   $$
+     \array{
+       \mathcal{C}_1
+         \underoverset
+           {\underset{C}{\longleftarrow}}
+           {\overset{L}{\longrightarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+       \\
+       \\
+       \mathcal{C}_2
+         \underoverset
+           {\underset{R}{\longrightarrow}}
+           {\overset{C}{\longleftarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+     }
+   $$
+   
+
+1. a [[Quillen adjoint triple]] of the form
+
+   $$
+     \mathcal{C}_{1/2}
+       \array{
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+         \\
+         \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+         \\
+       }
+     \mathcal{D}
+   $$ 
+
+   is a diagram in the [[double category of model categories]] of the form
+
+   $$
+     \array{
+       \mathcal{C}_2
+       &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+       \mathcal{C}_1   
+       &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+       \mathcal{C}_1
+       \\
+       {}^{\mathllap{id}}
+       \Big\downarrow
+         &{}^{ \mathllap{ id } }\swArrow& 
+       \Big\downarrow{}^{ \mathrlap{ C } }
+        & {}^{ \mathllap{\epsilon} }\swArrow &  
+       \Big\downarrow{}^{\mathrlap{id}}
+       \\
+       \mathcal{C}_2
+       &\underset{ \phantom{A}C\phantom{A} }{\longrightarrow}&
+       \mathcal{D}
+       &\underset{R}{\longrightarrow}&
+       \mathcal{C}_1
+       \\
+       {}^{\mathllap{id}}\Big\downarrow 
+         &{}^{\mathllap{ \epsilon }}\swArrow& 
+       \Big\downarrow{}^{\mathrlap{L}}
+       \\
+       \mathcal{C}_2
+       &\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+       \mathcal{C}_2
+     }
+   $$
+
+   such that $\eta$ is the [[unit of an adjunction]] and $\epsilon$ the [[counit of an adjunction]], thus exhibiting [[Quillen adjunctions]] 
+
+   $$
+     \array{
+       \mathcal{C}_2
+         \underoverset
+           {\underset{C}{\longrightarrow}}
+           {\overset{L}{\longleftarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+       \\
+       \\
+       \mathcal{C}_1
+         \underoverset
+           {\underset{R}{\longleftarrow}}
+           {\overset{C}{\longrightarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+     }
+   $$
+
+If a Quillen adjoint triple of the first kind overlaps with one of the second kind
+
+   $$
+     \mathcal{C}_{1/2}
+       \array{
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L_1 \phantom{= A_a}}{\longrightarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C_1 = L_2}{\longleftarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{R_1 = C_2}{\longrightarrow}
+         \\
+         \overset{\phantom{A_a = } R_2}{\longleftarrow}
+         \\
+       }
+     \mathcal{D}
+   $$ 
+
+we speak of a _Quillen [[adjoint quadruple]]_, and so forth.
+
+=--
+
+## Properties
+
++-- {: .num_prop #QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}
+###### Proposition
+**([[Quillen adjoint triple]] induced [[adjoint triple]] of [[derived functors]] on [[homotopy category of a model category|homotopy categories]])**
+
+Given a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}), the induced [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] form an ordinary [[adjoint triple]]:
 
 $$
-  Ho(\mathcal{C})
-  \;
-    \array{
-      \overset{\phantom{AA}\mathbb{L}L\phantom{AA}}{\longleftarrow}
+  \mathcal{C}_{1/2}
+     \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
       \\
-      \overset{\mathbb{R}C_1 \simeq \mathbb{L}C_2}{\longrightarrow}
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
       \\
-      \overset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longleftarrow}
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
     }
-  \;
-  Ho(\mathcal{D})
-$$
-
-If $\mathcal{C}$ and $\mathcal{D}$ are equipped with the structure of [[simplicial model categories]] with $\mathcal{C}^\circ$ and $\mathcal{D}^\circ$ denoting their [[full subcategories|full]] [[Kan complex]]-[[enriched category|enriched]] subcategories on the fibrant-and-cofibrant object, we should say that a _simplicial Quillen adjoint triple_ are [[simplicial Quillen adjunctions]], as above, together with an [[enriched natural transformation]]
-
-   $$
+  \mathcal{D}
+  \phantom{AAAA}
+  \overset{Ho(-)}{\mapsto}
+  \phantom{AAAA}
+  Ho(\mathcal{C})
      \array{
-       \mathcal{C}^\circ_1
-         &\overset{\mathbb{R}C_1}{\longrightarrow}&
-       \mathcal{D}^\circ_1
-       \\
-       {}^{\mathllap{\simeq}}\big\downarrow
-       & \swArrow &
-       \big\downarrow\mathrlap{}^{\simeq}
-       \\
-       \mathcal{C}^\circ_2
-         &\underset{\mathbb{L}C_2}{\longrightarrow}&
-       \mathcal{D}^\circ_2      
-     }
-   $$
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}C \simeq \mathbb{R}C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  Ho(\mathcal{D})
+$$ 
 
-whose components are [[homotopy equivalences]].
+$\,$
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  \mathcal{D}
+  \phantom{AAAA}
+  \overset{Ho(-)}{\mapsto}
+  \phantom{AAAA}
+  Ho(\mathcal{C})
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}C \simeq \mathbb{R}C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  Ho(\mathcal{D})
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from the fact that passing to [[homotopy categories of model categories]] is a [[double pseudofunctor]] from the [[double category of model categories]] to the [[double category of squares]] in [[Cat]] ([this Prop.](double+category+of+model+categories#HomotopyDoublePseudofunctor)).
+
+=--
 
 
 ## Examples 
@@ -126,7 +299,7 @@ $$
 
 is clearly a [[left Quillen functor]] for the injective model structure, and a [[right Quillen functor]] for the projective model structure.
 
-In summary, this means that in the [[double category of model categories]] we have a 2-cell of the form
+In summary, this means that in the [[double category of model categories]] we have a [[2-morphism]] of the form
 
 $$
   \array{
@@ -147,7 +320,53 @@ $$
 
 Therefore we have a Quillen adjoint triple of the form
 
-(...)
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longrightarrow}{\lim}}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
+      \\
+      \overset{\underset{\longleftarrow}{\lim}}{\longrightarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+
+witnessed by the following diagram in the [[double category of model categories]]
+
+$$
+  \array{
+    && 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}    
+    \\
+    && 
+    {}^{\mathllap{ \underset{\longrightarrow}{\lim} }}\Big\downarrow 
+    &{}^{\mathllap{\eta}}\swArrow&
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}    
+     &\overset{ \phantom{A}\underset{\longleftarrow}{\lim}\phantom{A} }{\longrightarrow}&
+    sSet_{Qu}
+      &\overset{\phantom{A}const\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{ id }}\Big\downarrow
+    & {}^{\mathllap{\epsilon}}\swArrow &
+    {}^{\mathllap{const}}
+    \big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
 
 The induced [[adjoint triple]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) is the [[homotopy colimit]]/[[homotopy limit]] adjoint triple
 
@@ -166,6 +385,109 @@ $$
 $$ 
 
 =--
+
++-- {: .num_example #QuillenAdjointQuadrupleOverSiteWithTerminalObject}
+###### Example
+**([[Quillen adjoint quadruple]] over [[site]] with [[terminal object]])**
+
+If $\mathcal{C}$ has a [[terminal object]] $\ast \in \mathcal{C}$, then 
+
+$$
+  \underset{\longleftarrow}{\lim}
+  = \Gamma
+  \;\colon\;
+  [\mathcal{C}^{op}, sSet]
+  \longrightarrow
+  sSet
+$$
+
+is given by evaluation on that terminal object
+
+$$
+  \Gamma(\mathbf{X}) \coloneqq \mathbf{X}(\ast)  
+$$
+
+and this operation has a further [[right adjoint]]
+
+$$
+  coconst \;\colon\; sSet \longrightarrow [\mathcal{C}^{op}, sSet]
+$$
+
+given by [[right Kan extension]] along the terminal object inclusion.
+
+Hence in this case $\underset{\longleftarrow}{\lim} =\Gamma$ is also a [[left Quillen functor]] on the projective model structure (using that $id : [\mathcal{C}^{op}, sSet_{Qu}]_{proj} \to [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$ is also left Quillen, as above) and hence we get a further Quillen adjoint triple
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj/proj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longleftarrow}{\lim}=\Gamma}{\longrightarrow}
+      \\
+      \overset{coconst}{\longleftarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+ 
+witnessed by the following diagram in the [[double category of model categories]]
+
+
+$$
+  \array{
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}   
+    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{id}}
+    \Big\downarrow
+      &{}^{ \mathllap{ id } }\swArrow& 
+    \Big\downarrow{}^{ \mathrlap{ \underset{\longleftarrow}{\lim}=\Gamma } }
+      & {}^{ \mathllap{\epsilon} }\swArrow &
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{A}\underset{\longleftarrow}{\lim}=\Gamma\phantom{A} }{\longrightarrow}&
+    sSet_{Qu}
+    &\underset{coconst}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{id}}\Big\downarrow 
+      &{}^{\mathllap{ \epsilon }}\swArrow& 
+    \Big\downarrow{}^{\mathrlap{const}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+Hence in this case we have a [[Quillen adjoint quadruple]]
+
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\phantom{AA}\underset{\longrightarrow}{\lim}\phantom{AA}}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\phantom{AA}const\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{ \phantom{AA}\underset{\longleftarrow}{\lim}\phantom{AA} }{\longrightarrow}
+      \\
+      \overset{\phantom{A}coconst\phantom{A} }{\longleftarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+
+witnessing the [[model topos]] over a [[site]] with [[terminal object]] as being [[cohesive (infinity,1)-topos|cohesive]].
+
+=--
+
+
+
 
 [[!redirects Quillen adjoint triples]]
 
