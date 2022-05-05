@@ -23,7 +23,7 @@ If the $\infty$-action is suitably linear in some sense, this is also referred t
 
 ## Definition
 
-We discuss the actions of [[∞-groups]] in an [[(∞,1)-topos]].
+We discuss the actions of [[∞-groups]] in an [[(∞,1)-topos]], following [NSS](#NSS).
 (For [[groupoid ∞-actions]] see there.)
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]].
@@ -1494,6 +1494,7 @@ Closely related discussion of homotopy fiber sequences and homotopy action but i
 * [[Matan Prezma]], _Homotopy normal maps_ ([arXiv](http://arxiv.org/pdf/1011.4708v7.pdf)) 
 
 There, conditions are given for a morphism $A_\bullet \to B_\bullet$ to a [[reduced Segal space]] to have a fixed homotopy fiber, and hence encode an action of the loop group of $B$ on that fiber. 
+
 
 ### For actions of topological groups
  {#ForActionsOfTopologicalGroups}
