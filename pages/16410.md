@@ -52,7 +52,9 @@ A [[no-go theorem]] for [[KK-compactifications]] down to de Sitter spacetime cla
 
 Discussion in [[quantum gravity]] includes
 
-* [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_ ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
+* {#Witten01} [[Edward Witten]], _Quantum Gravity In De Sitter Space_ ([arXiv:hep-th/0106109](http://lanl.arxiv.org/abs/hep-th/0106109))
+
+* {#Rejeraman16} [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_ ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
 
 
 Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] is in
