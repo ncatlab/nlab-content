@@ -2798,7 +2798,7 @@ Topological topological K-theory of [[classifying spaces]] of [[Lie groups]] is 
 
 For references on [[D-branes]] in terms of [[K-theory]] see [there](D-brane#ReferencesKTheoryDescription).
 
-[[!redirects complex K-theory]]
+
 [[!redirects complex K-theory]]
 
 [[!redirects periodic complex K-theory]]
