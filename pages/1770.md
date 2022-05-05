@@ -20,23 +20,11 @@
 
 ## Idea
 
-A _smooth space_ or _smooth set_ as discussed here, is a joint generalization of [[smooth manifolds]] and [[diffeological spaces]]: it is a space that can be _probed_ by smooth [[Cartesian spaces]] (in the sense discussed in the exposition at _[[motivation for sheaves, cohomology and higher stacks]]_).
+The concept of a _smooth set_ or _smoth space_, in the sense discussed here, is a generalization of that of [[smooth manifolds]] beyond that of [[diffeological spaces]]: A smooth set is a [[generalized smooth space]] that may be _probed_ by smooth [[Cartesian spaces]].
 
-Following the logic of [[space and quantity]], a _smooth space_ is, in full generality, a space that may be probed by standard smooth test spaces.
-See [[generalized smooth space]] for more on the general idea and for examples and variations.
+For expository details see at _[[geometry of physics -- smooth sets]]_.
 
-Here standard smooth test spaces may be taken to be [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth [[open balls]] $D^n_{int} \subset \mathbb{R}^n$ or equivalently [[Cartesian spaces]] $\mathbb{R}^n$, one may just as well consider Cartesian spaces test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
-
-+-- {: .num_remark}
-###### Remark
-**Note on terminology.** 
-
-In view of the _[[smooth homotopy types]]_ to be discussed in _[[geometry of physics -- smooth homotopy types]]_, the structures discussed now are properly called _smooth [[0-types]]_ or maybe _smooth [[h-sets]]_ or just _smooth sets_. While this subsumes [[smooth manifolds]] which are indeed sets equipped with (particularly nice) [[smooth structure]], it is common in practice to speak of manifolds as "spaces" (indeed as [[topological spaces]] equipped with smooth structure). Historically the _[[Cartesian space]]_ and _[[Euclidean space]]_ of [[Newtonian physics]] are the archetypical examples of smooth manifolds and modern [[differential geometry]] developed very much via motivation by the study of the _spaces_ in [[general relativity]], namely _[[spacetimes]]_. Unfortunately, in a parallel development the word "space" has evolved in [[homotopy theory]] to mean (just) the [[homotopy types]] _represented_ by an actual [[topological space]] (their [[fundamental infinity-groupoids]]). Ironically, with this meaning of the word "space" the original [[Euclidean spaces]] become equivalent to the point, signifying that the modern meaning of "space" in [[homotopy theory]] is quite orthogonal to the original meaning, and that in homotopy theory therefore one should better stick to "[[homotopy types]]".
-
-Since historically grown terminology will never be fully logically consistent, and since often the less well motivated terminology is more widely understood, we will follow tradition here and take the liberty to use "smooth sets" and "smooth spaces" synonymously, the former when we feel more formalistic, the latter when we feel more relaxed.
-
-=--
-
+Alternatively, the smooth test spaces may be taken to be more generally all [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth [[open balls]] $D^n_{int} \subset \mathbb{R}^n$ or equivalently [[Cartesian spaces]] $\mathbb{R}^n$, one may just as well consider Cartesian spaces test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
 
 
 ## Definition
@@ -142,15 +130,202 @@ $$
 ## Properties
  {#Properties}
 
-### Connectedness, locality, cohesion
+### Cohesion
+ {#Cohesion}
 
-The topos of smooth space is 
++-- {: .num_prop #SmoothSetsFormACohesiveTopos}
+###### Proposition
+**([[smooth sets]] form a [[cohesive topos]])**
 
-* a [[locally connected topos|locally connected]] and [[connected topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Connectedness));
+The [[category]] $SmoothSet$ of [[smooth sets]] ([this Def.](geometry+of+physics+--+smooth+sets#CategoryOfSmoothSets)) is a [[cohesive topos]] (Def. \ref{CohesiveTopos})
 
-* a [[local topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Locality));
+\[
+  \label{SheafToposAdjointQuadruple}
+  SmoothSet
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
+    }
+  Set
+\]
 
-* hence a [[cohesive topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Cohesiveness)).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all (by [this Prop](geometry+of+physics+--+smooth+sets#CategoryOfSmoothSets)) smooth sets indeed form a [[sheaf topos]], over the [[site]] [[CartSp]] of [[Cartesian spaces]] $\mathbb{R}^n$ with [[smooth functions]] between them, and equipped with the [[coverage]] of differentiably-[[good open covers]] ([this def.](geometry+of+physics+--+smooth+sets#DifferentiallyGoodOpenCover))
+
+$$
+  SmoothSet \simeq Sh(CartSp)
+  \,.
+$$
+
+Hence, by Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, it is now sufficient to see that [[CartSp]] is a [[cohesive site]] (Def. \ref{OneCohesiveSite}).
+
+It clearly has [[finite products]]: The [[terminal object]] is the [[point]], given by the 0-[[dimension|dimensional]] [[Cartesian space]]
+
+$$
+  \ast = \mathbb{R}^0
+$$
+
+and the [[Cartesian product]] of two [[Cartesian spaces]] is the Cartesian space whose [[dimension]] is the [[sum]] of the two separate dimensions:
+
+$$
+  \mathbb{R}^{n_1} \times \mathbb{R}^{n_2}
+  \;\simeq\;
+  \mathbb{R}^{ n_1 + n_2 }
+  \,.
+$$
+
+This establishes the first clause in Def. \ref{OneCohesiveSite}. 
+
+For the second clause, consider a differentiably-[[good open cover]] $\{U_i \overset{}{\to} \mathbb{R}^n\}$ ([this def.](geometry+of+physics+--+smooth+sets#DifferentiallyGoodOpenCover)). This being a [[good cover]] implies that its [[Cech groupoid]] is, as an [[internal groupoid]] (via [this remark](geometry+of+physics+--+categories+and+toposes#PresheavesOfGroupoidsAsInternalGroupoidsInPresheaves)), of the form
+
+\[
+  \label{CechGroupoidForCartSp}
+  C(\{U_i\}_i)
+  \;\simeq\;
+  \left( 
+    \array{
+       \underset{i,j}{\coprod} y(U_i \underset{\mathbb{R}^n}{\cap} U_j)
+       \\
+       \big\downarrow \big\uparrow \big\downarrow
+       \\
+       \underset{i}{\coprod} y(U_i)
+    }
+  \right)
+  \,.
+\]
+
+where we used the defining property of [[good open covers]] to identify $y(U_i) \times_X y(U_j) \simeq y( U_i \cap_X U_j )$. 
+
+The [[colimit]] of (eq:CechGroupoidForCartSp), regarded just as a [[presheaf]] of [[reflexive graph|reflexive]] [[directed graph|directed]] [[graphs]] (hence ignoring [[composition]] for the moment), is readily seen to be the [[graph]] of the [[colimit]] of the components (the [[universal property]] follows immediately from that of the component colimits):
+
+
+\[
+  \label{ColimitOfCechGroupoidOverCartSp}
+  \begin{aligned}
+    \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+    C(\{U_i\}_i)
+    & \simeq
+    \left( 
+      \array{
+        \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+         \underset{i,j}{\coprod} y(U_i \underset{\mathbb{R}^n}{\cap} U_j)
+         \\
+         \big\downarrow \big\uparrow \big\downarrow
+         \\
+         \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+         \underset{i}{\coprod} y(U_i)
+      }
+    \right)
+    \\
+    & \simeq
+    \left( 
+      \array{
+         \underset{i,j}{\coprod} 
+         \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+         y(U_i \underset{\mathbb{R}^n}{\cap} U_j)
+         \\
+         \big\downarrow \big\uparrow \big\downarrow
+         \\
+         \underset{i}{\coprod} 
+         \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+         y(U_i)
+      }
+    \right)
+    \\
+    & \simeq
+    \left( 
+      \array{
+         \underset{i,j}{\coprod} \ast
+          \\
+         \big\downarrow \big\uparrow \big\downarrow
+         \\
+         \underset{i}{\coprod} \ast
+      }
+    \right)
+  \end{aligned}
+  \,.
+\]
+
+Here we first used that [[colimits commute with colimits]], hence in particular with [[coproducts]] ([this prop.](geometry+of+physics+--+categories+and+toposes#LimitsCommuteWithLimits)) and then that the colimit of a [[representable presheaf]] is [[generalized the|the]] [[singleton]] set ([this Lemma](geometry+of+physics+--+categories+and+toposes#ColimitOfRepresentableIsSingleton)).
+
+This colimiting [[graph]] carries a unique [[composition]] structure making it a [[groupoid]], since there is at most one morphism between any two objects, and every object carries a morphism from itself to itself. This implies that this groupoid is actually the colimiting groupoid of the Cech groupoid: hence the groupoid obtained from replacing each representable summand in the Cech groupoid by a point.
+
+Precisely this operation on [[Cech groupoids]] of [[good open covers]] of [[topological spaces]] is what _[[Borsuk's nerve theorem]]_ is about, a classical result in [[topology]]/[[homotopy theory]]. This theorem implies directly that the set of [[connected components]] of the groupoid (eq:ColimitOfCechGroupoidOverCartSp) is in [[bijection]] with the set of [[connected components]] of the [[Cartesian space]] $\mathbb{R}^n$, regarded as a [[topological space]]. But this is evidently a [[connected topological space]], which finally shows that, indeed
+
+$$
+  \pi_0
+  \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+    C(\{U_i\}_i)
+  \;\simeq\;
+  \ast
+  \,.
+$$
+
+The second item of the second clause in Def. \ref{OneCohesiveSite} follows similarly, but more easily: The [[limit]] of the [[Cech groupoid]] is readily seen to be, as before, the unique groupoid structure on the limiting underlying graph of presheaves. Since $CartSp$ has a [[terminal object]] $\ast = \mathbb{R}^0$, which is hence an [[initial object]] in the [[opposite category]] $CartSp^{op}$, limits over $CartSp^{op}$ yield simply the evaluation on that object:
+
+\[
+  \label{ColimitOfCechGroupoidOverCartSp}
+  \begin{aligned}
+    \underset{\underset{CartSp^{op}}{\longleftarrow}}{\lim}
+    C(\{U_i\}_i)
+    & \simeq
+    \left( 
+      \array{
+        \underset{\underset{CartSp^{op}}{\longleftarrow}}{\lim}
+         \underset{i,j}{\coprod} y(U_i \underset{\mathbb{R}^n}{\cap} U_j)
+         \\
+         \big\downarrow \big\uparrow \big\downarrow
+         \\
+         \underset{\underset{CartSp^{op}}{\longleftarrow}}{\lim}
+         \underset{i}{\coprod} y(U_i)
+      }
+      \phantom{A}
+    \right)
+    \\
+    & \simeq
+    \left( 
+      \array{
+         \underset{i,j}{\coprod} 
+         Hom_{CartSp}\left( \ast,  U_i \underset{\mathbb{R}^n}{\cap} U_j \right)
+         \\
+         \big\downarrow \big\uparrow \big\downarrow
+         \\
+         \underset{i}{\coprod} 
+         Hom_{CartSp}( \ast, U_i )
+      }
+    \right)
+  \end{aligned}
+  \,.
+\]
+
+Here we used that [[colimits]] (here [[coproducts]]) of [[presheaves]] are computed objectwise, and then the definition of the [[Yoneda embedding]] $y$.
+
+But the [[equivalence relation]] induced by this graph on its set of objects $\underset{i}{\coprod}  Hom_{CartSp}( \ast, U_i )$ precisely identifies pairs of points, one in $U_i$ the other in $U_j$, that are actually the same point of the $\mathbb{R}^n$ being covered. Hence the set of [[equivalence classes]] is the set of points of $\mathbb{R}^n$, which is just what remained to be shown:
+
+$$
+  \pi_0
+  \underset{\underset{CartSp^{op}}{\longleftarrow}}{\lim}
+    C(\{U_i\}_i)
+  \;\simeq\;
+  Hom_{CartSp}(\ast, \mathbb{R}^n)
+  \,.
+$$
+
+
+=--
+
+
+
 
 
 
@@ -222,16 +397,13 @@ Lecture notes are at
 
 * _[[geometry of physics -- smooth sets]]_
 
+Aspects of the category of smooth sets is discussed, with an eye towards its generalization to [[smooth ∞-groupoids]] and their [[homotopy]] [[localization]] in
 
-The [[concrete objects|concrete]] smooth spaces are known as _[[diffeological spaces]]_. See there for more references.
-
-Aspects of the category of smooth spaces is discussed with an eye towards its generalization to [[smooth ∞-groupoids]] and their [[homotopy]] [[localization]] in section 3.4, from page 29 on in
-
-* [[Daniel Dugger]], _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Daniel Dugger]], section 3.4, from page 29 on in:  _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
 
-As a [[cohesive topos]] smooth spaces are discuss in sections 1.2, 1.3 and 3.3 in 
+As a [[cohesive topos]], smooth sets are discussed in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
