@@ -165,7 +165,7 @@ The basic [[BPS states]] of 11d SuGra are
 
 * [[supergravity C-field]], [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
-* [[Ho?ava-Witten theory]]
+* [[Horava-Witten theory]]
 
 * [[M-theory]]
 
@@ -277,6 +277,10 @@ Discussion of [[black branes]] and [[BPS states]] includes
 Discussion of [[black hole]] horizons includes
 
 * [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
+
+See also
+
+* Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ ([arXiv:1805.07506](https://arxiv.org/abs/1805.07506))
 
 ### Scattering amplitudes and Effective action
 
