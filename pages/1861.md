@@ -107,6 +107,8 @@ Now
 
 * [[stable cohomotopy]]
 
+* [[equivariant stable cohomotopy]]
+
 
 ## References
 
