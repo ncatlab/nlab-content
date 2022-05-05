@@ -34,13 +34,15 @@ Notice the existence of the following canonical [[natural transformations]] indu
 +-- {: .num_defn #TransformationFromPointsToPieces}
 ###### Definition
 
-Given a [[cohesive topos]] $\mathcal{E}$ with ($&#643; \dashv \flat$) its ([[shape modality]] $\dashv$ [[flat modality]])-[[adjunction]] of def. \ref{AdjointTriple}, then the [[natural transformation]]
+Given a [[cohesive topos]] $\mathcal{E}$ with ($&#643; \dashv \flat$) its ([[shape modality]] $\dashv$ [[flat modality]])-[[adjunction]], then the [[natural transformation]]
 
 $$
   \flat X \longrightarrow X \longrightarrow &#643; X 
 $$
 
 (given by the [[composition]] of the $\flat$-[[counit of a comonad|counit]] followed by the $&#643;$-[[unit of a monad|unit]]) may be called the transformation **from points to their pieces** or the **points-to-pieces-transformation**, for short.
+
+If this is an [[epimorphism]] for all $X$, we say that _pieces have points_ or that the _[[Nullstellensatz]]_ is verified.
 
 =--
 
@@ -152,3 +154,6 @@ In [[infinitesimal cohesion]] the points-to-pieces transform in an [[equivalence
 
 [[!redirects points-to-pieces-transform]]
 [[!redirects points-to-pieces-transforms]]
+
+[[!redirects pieces have points]]
+[[!redirects pieces-have-points]]
