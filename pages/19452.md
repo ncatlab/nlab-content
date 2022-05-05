@@ -1937,7 +1937,7 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 ###### Definition
 **([[cosmos]])**
 
-A _[[cosmos]] (for [[enriched category theory]])_ is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $\mathcal{V}$ (Def. \ref{SymmetricMonoidalCategory}) which has all [[limits]] and [[colimits]].
+A _[[Jean Benabou|Bénabou]] [[cosmos]] for [[enriched category theory]]_, or just _[[cosmos]]_, for short, is a [[symmetric monoidal category|symmetric]] (Def. \ref{SymmetricMonoidalCategory}) [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}) $\mathcal{V}$  which has all [[limits]] and [[colimits]].
 
 =--
 
