@@ -310,17 +310,18 @@ This shows the first statement. By essential uniqueness of adjoints ([this Prop.
 
 The following is the same argument without using coend-calculus. This argument applies verbatim also, for instance, in [[(infinity,1)-category theory|$\infty$-category theory]] using results from standard sources:
 
-\begin{prop}\label{AdjointPairInducesAdjointQuadrupleUnderKanExtension}
+\begin{prop}
+\label{AdjointPairInducesAdjointQuadrupleUnderKanExtension}
 Given a pair of [[adjoint functors]] between [[small categories]]
 \begin{tikzcd}
-    \mathcal{S}_1
+    \mathcal{S}_2
     \ar[
       rr,
       shift left=7pt,
       "{ \ell }"{above}
     ]
     &&
-    \mathcal{S}_2
+    \mathcal{S}_1
     \ar[
       ll,
       shift left=7pt,
@@ -335,7 +336,7 @@ Given a pair of [[adjoint functors]] between [[small categories]]
 the induced operations of pre-composition on [[categories of presheaves]] are adjoint to each other, $\ell^\ast \,\dashv\, r^\ast$, and their [[adjoint triples]] of [[Kan extensions]] overlap:
 
 \begin{tikzcd}[column sep=large]
-      \mathrm{PSh}(\mathcal{S}_1)
+      \mathrm{PSh}(\mathcal{S}_2)
       \;\;
       \ar[
         rr,
@@ -349,7 +350,7 @@ the induced operations of pre-composition on [[categories of presheaves]] are ad
       ]
       &&
       \;\;
-      \mathrm{PSh}(\mathcal{S}_2)
+      \mathrm{PSh}(\mathcal{S}_1)
       \ar[
         ll,
         shift right=16pt-7pt,
@@ -381,7 +382,11 @@ the induced operations of pre-composition on [[categories of presheaves]] are ad
 \end{tikzcd}
 \end{prop}
 \begin{proof}
-The [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) which is characteristic of the adjunction $\ell^\ast \dashv r^\ast$ is the following sequence of [[natural bijections]]:
+
+{#ProofOfAdjointPairInducesAdjointQuadrupleUnderKanExtension}
+We already know that each functor $f$ by itself induces an [[adjoint triple]] $f_! \dashv f^\ast \dashv f_\ast$, by [[Kan extension]]. Due to essential uniqueness of adjoints ([this Prop.](adjoint+functor#UniquenessOfAdjoints)) it is hence sufficient to show that these two adjoint triples "overlap", in that ($\ell^\ast \simeq r_!$ and equivalently) $\ell_\ast \simeq r^\ast$, hence equivalently that $\ell^\ast \dashv r^\ast$.
+
+Now the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) which is characteristic of the latter adjunction $\ell^\ast \dashv r^\ast$ may be obtained as the following sequence of [[natural bijections]]:
 
 $$
   \begin{aligned}
@@ -638,6 +643,7 @@ $$
       \Big)
   \end{aligned}
 $$
+
 Here we used repeatedly
 
 * the [[co-Yoneda lemma]] in the form
@@ -660,7 +666,7 @@ Here we used repeatedly
 
 * the fact that [[colimits of presheaves are computed objectwise]].
 
-As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjoint triples by essential uniqueness of [[adjoint functors]] ([this Prop.](adjoint+functor#UniquenessOfAdjoints)).
+As before, the adjunction $\ell^\ast \dashv r_!$ implies the overlapping adjoint triples by essential uniqueness of [[adjoint functors]] ([this Prop.](adjoint+functor#UniquenessOfAdjoints)).
 \end{proof}
 
 
