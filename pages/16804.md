@@ -24,7 +24,7 @@ They come in both _rooted_ and _unrooted_ versions.
 
 ### Illustration
 
-A typical graphical representation of a chord diagram is as a [[circle]] with some marked [[points]], and [[lines]] connecting those points &#8212; something like so:
+A typical graphical representation of a chord diagram is as a [[circle]] with some marked [[points]] and [[lines]] connecting those points, something like so:
 <center>
 [[!include chord diagram > chord diagram unlabelled]]
 </center>
