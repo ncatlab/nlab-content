@@ -77,6 +77,8 @@ See _[[equivalence in homotopy type theory]]_.
 
 * [[weak equivalence]]
 
+* [[logical equivalence]]
+
 * [[equivalence of groupoids]], [[equivalence of categories]]
 
 * [[equivalence in a 2-category]]
@@ -92,6 +94,8 @@ See _[[equivalence in homotopy type theory]]_.
 * [[equivalence in homotopy type theory]]
 
 * [[equivalence of (∞,1)-categories]]
+
+[[!include logic symbols -- table]]
 
 
 [[!redirects equivalence]]
