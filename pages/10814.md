@@ -101,7 +101,7 @@ that map a vector in $T^\pm M$ to a $1$-form in $(T^\mp M)^\ast$ and vice-versa.
 
 This can be used to define a new couple of isomorphisms
 $$
-    \Phi^\pm : TM \longleftrightarrow T^\pm M\oplus(T^\pm M)^\ast 
+    \Phi^\pm : TM \longrightarrow T^\pm M\oplus(T^\pm M)^\ast 
 $$
 that maps a vector a vector $X=X_++X_-$ with $X_\pm\in T^\pm M$ into $X_+ + X_-^\flat$.
 
