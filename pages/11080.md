@@ -740,8 +740,9 @@ This is a special case of what the following statement says in generality.
 
 +-- {: .num_prop #TheDifferentiallyGoodOpenCoverCoverage}
 ###### Proposition
+**([[site]] [[CartSp]])**
 
-The differentially good open covers, def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] on [[CartSp]]. 
+The differentially [[good open covers]], Def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] on the [[category]] [[CartSp]] (from Prop. \ref{CartSpCategory}). 
 
 Hence [[CartSp]] equipped with that coverage is a [[site]].
 
@@ -1567,6 +1568,8 @@ $\,$
 ###### Proposition
 **([[smooth sets]] form a [[cohesive topos]])**
 
+The [[site]] [[CartSp]] (Prop. \ref{TheDifferentiallyGoodOpenCoverCoverage}) is a [[cohesive site]] [this Def.](#OneCohesiveSite), hence its [[sheaf topos]] is a [[cohesive topos]] (by [this Prop.](CategoriesOfSheavesOnCohesiveSiteIsCohesive)). Under the identification of Prop. \ref{SmoothSetsAreSheavesOnCartSp}, this means that:
+
 The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) is a [[cohesive topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveTopos))
 
 \[
@@ -1590,16 +1593,8 @@ The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}
 +-- {: .proof}
 ###### Proof
 
-First of all, by Prop. \ref{SmoothSetsAreSheavesOnCartSp}, smooth sets indeed form a [[sheaf topos]], over the [[site]] [[CartSp]]
 
-$$
-  SmoothSet \simeq Sh(CartSp)
-  \,.
-$$
-
-Hence, by Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, it is now sufficient to see that [[CartSp]] is a [[cohesive site]] ([this def.](geometry+of+physics+--+categories+and+toposes#OneCohesiveSite))
-
-It clearly has [[finite products]]: The [[terminal object]] is the [[point]], given by the 0-[[dimension|dimensional]] [[Cartesian space]]
+The category $CartSp$ clearly has [[finite products]]: The [[terminal object]] is the [[point]], given by the 0-[[dimension|dimensional]] [[Cartesian space]]
 
 $$
   \ast = \mathbb{R}^0
@@ -1815,7 +1810,7 @@ $$
   \,.
 $$
 
-This defines a [[category]] $DiffeologicalSpace$ (Def. \ref{geometry+of+physics+--+categories+and+toposes#Categories}) whose [[objects]] are the diffeological spaces, whose [[morphisms]] are the smooth maps between them, with [[composition]] of morphisms the ordinary composition of functions of underlying sets.
+This defines a [[category]] $DiffeologicalSpace$ ([this def.](geometry+of+physics+--+categories+and+toposes#Categories)) whose [[objects]] are the diffeological spaces, whose [[morphisms]] are the smooth maps between them, with [[composition]] of morphisms the ordinary composition of functions of underlying sets.
 
 =--
 
@@ -1824,7 +1819,16 @@ This defines a [[category]] $DiffeologicalSpace$ (Def. \ref{geometry+of+physics+
 
 The category of [[diffeological spaces]] (Def. \ref{DiffeologicalSpace}) is a [[full subcategory]] of the category of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}).
 
-Moreover, in terms of the [[cohesive topos|cohesive]] structure on the category of smooth sets (Prop. \ref{SmoothSetsFormACohesiveTopos}) the diffeological spaces are precisely the _[[concrete objects]]_ ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)) among the [[smooth sets]].
+Moreover, in terms of the [[cohesive topos|cohesive]] structure on the category of smooth sets from Prop. \ref{SmoothSetsFormACohesiveTopos}, the diffeological spaces are precisely the _[[concrete objects]]_ ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)) among the [[smooth sets]].
+
+$$
+  DiffeologicalSpace
+  \simeq
+  SmoothSet_{conc}
+  \hookrightarrow
+  SmoothSet
+  \,.
+$$
 
 =--
 
@@ -1832,21 +1836,22 @@ Moreover, in terms of the [[cohesive topos|cohesive]] structure on the category 
 +-- {: .proof}
 ###### Proof
 
-By exactly the same unwinding of Definitions as in Prop. \ref{SmoothSetsAreSheavesOnCartSp}, the assignment of sets of plots 
+First observe that the assignment of sets of plots 
 
 $$
   U \mapsto \mathbf{X}(U)
 $$
 
-of a diffeological space $\mathbf{X}$, according to Def. \ref{DiffeologicalSpace} constitutes a [[sheaf]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Sheaf)) on the [[site]] $EuclOp$ of [[open subsets]] of [[Euclidean spaces]]:
+of a diffeological space $\mathbf{X}$, according to Def. \ref{DiffeologicalSpace} constitutes a [[sheaf]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Sheaf)) on the [[site]] $EuclOp$ of [[open subsets]] of [[Euclidean spaces]], 
+by the same unwinding of Definitions as in Prop. \ref{SmoothSetsAreSheavesOnCartSp}:
 
-* the third clause in Def. \ref{DiffeologicalSpace} says that the assignment of sets of plots is a [[presheaf]]
+* the third clause in the list of properties in Def. \ref{DiffeologicalSpace} says that the assignment of sets of plots is a [[presheaf]],
 
-* the second clause says that this presheaf satisfies the [[sheaf|sheaf condition]]
+* the second clause in the list of properties says that this presheaf satisfies the [[sheaf|sheaf condition]],
 
-* while the first clause is an extra condition, singling out diffeological spaces among all sheaves.
+* while the first clause in the list of properties is an extra condition, singling out diffeological spaces among all sheaves. 
 
-Under this identification, the definition of a smooth map of diffeological spaces in Def. \ref{DiffeologicalSpace} says that it is equivalently a morphism of presheaves, hence of sheaves. This establishe a [[full subcategory]]-inclusion
+Under this identification, the definition of a smooth map of diffeological spaces in Def. \ref{DiffeologicalSpace} says that it is equivalently a morphism of presheaves of sets of plots between sheaves of sets of plots, and hence a morphism of sheaves. This establishe a [[full subcategory]]-inclusion
 
 $$
   DiffeologicalSpace
@@ -1873,33 +1878,98 @@ where the last equivalence is Prop. \ref{SmoothSetsAreSheavesOnCartSp}.
 
 It remains to see that under this inclusion, the diffeological spaces are identified with the [[concrete objects]] among the smooth set.
 
-By definition, a smooth set $\mathbf{X} \in SmoothSet$ is concrete, precisely if its [[sharp modality|sharp]]-unit is a [[monomorphism]]
+By definition ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)), a smooth set $\mathbf{X} \in SmoothSet$ is [[concrete object|concrete]], precisely if its [[sharp modality|sharp]]-unit is a [[monomorphism]]
 
 $$
   \mathbf{X}  
     \overset{\phantom{A} \eta_X^\sharp \phantom{A}}{\hookrightarrow}
   \sharp \mathbf{X}
+  \,,
+$$ 
+
+which the [[adjunction unit]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)) of the $(\Gamma \dashv coDisc)$-adjunction
+
+$$
+  \mathbf{X}  
+    \overset{\phantom{A} \eta_X \phantom{A}}{\hookrightarrow}
+  coDisc \Gamma \mathbf{X}
+  \,.
 $$ 
 
 Now a morphism of sheaves is a monomorphism, precisely if for each object $U \in CartSp$ in the site, its component function
 
-$$
+\[
+  \label{DecohesAsGammacoDiscUnit}
   \mathbf{X}(U)
     \overset{\phantom{A} \eta_X^\sharp(U) \phantom{A}}{\hookrightarrow}
-  (\sharp \mathbf{X})(U)
-$$ 
+  (coDisc \Gamma \mathbf{X})(U)
+\] 
 
-is an [[injective function]]. By the [[Yoneda lemma]] and adjunction hom-isomorphism, this is equivalently 
+is an [[injective function]] (...). The [[codomain]] of this function may be identified as
 
 $$
+  \begin{aligned}
+    (coDisc \Gamma \mathbf{X}(U))
+    & \simeq
+    Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
+    \\
+    * \simeq
+    Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
+    \\
+    & \simeq
+    Hom_{Set}( U, X )
+    \,,
+  \end{aligned}
+$$
+
+where we first used the [[Yoneda lemma]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#YonedaLemma)), then the adjunction isomorphism ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) of $(\Gamma \dash coDisc)$. 
+
+In the final step we used that the cohesive structure on $SmoothSet$ comes from $CartSp$ being a [[cohesive site]] (Prop. \ref{SmoothSetsFormACohesiveTopos}) and that in this case $\Gamma$ is given by evaluation on the point ([here](geometry+of+physics+--+categories+and+toposes#CohesiveGlobalSectionsGivenByPointEvaluation)), and we wrote
+
+\[
+  \label{UnderlyingSetOfDiffeologicalSpaceAsSmoothSet}
+  X \;\coloneqq\; \Gamma \mathbf{X} = \mathbf{X}(\ast)
+\]
+
+for the set of points in $\mathbf{X}$. Notice that if $\mathbf{X}$ is indeed a [[diffeological space]], then this set is indeed its underlying set, by the first clause in the list of conditions on a diffeological space in Def. \ref{DiffeologicalSpace}.
+
+This shows that (eq:DecohesAsGammacoDiscUnit) being an injection, says equivalently that we have an injection of the form
+
+\[
+  \label{RearrangedDecohesAsGammacoDiscUnit}
   \mathbf{X}(U)
-  \simeq
-  Hom_{SmoothSet}(U, \mathbf{X})
-    \overset{\phantom{AAAA}}{\hookrightarrow}
-  Hom_{SmoothSet}( U , coDisc \Gamma \mathbf{X})
-  \simeq
-  Hom_{Set}(\Gamma U , \Gamma \mathbf{X})
+    \overset{\phantom{A} \eta_X^\sharp(U) \phantom{A}}{\hookrightarrow}
+  Hom_{Set}(U, X)
   \,.
+\] 
+
+This is precisely the form of the second item in Def. \ref{DiffeologicalSpace}.
+
+This shows that every concrete smooth set is a diffeological space. For the converse, it remains to check that if we start with a diffeological space $\mathbf{X}$ with prescribed inclusion function
+
+$$
+  \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
+$$
+
+then (eq:RearrangedDecohesAsGammacoDiscUnit) reproduces this inclusion.
+
+spring
+
+
+By the [[Yoneda lemma]] and adjunction hom-isomorphism, this equals the function
+
+$$
+  \array{
+    Hom_{SmoothSet}(y(U),\mathbf{X})
+    \\
+    \downarrow
+    \\
+    Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
+    \\ 
+    \downarrow 
+    \\
+    Hom_{SmoothSet}( \Gamma(y (U)) )
+  }
 $$ 
 
 This being an injection, hence a subset inclusion, is precisely the condition for $\mathbf{X}(U)$ to be the set of plots of a diffeological space,
