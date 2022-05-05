@@ -57,9 +57,12 @@ $$
 ([Henriques-Gepner 07, p.7](#HenriquesGepner07))
 
 
+
 ## Related concepts
 
 * [[Elmendorf's theorem]]
+
+* [[orbispace cohomology]]
 
 [[!include equivariant homotopy theory -- table]]
 
