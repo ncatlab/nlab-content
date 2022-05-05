@@ -21,7 +21,7 @@
 
 ## Idea
 
-Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]]: [[reflective localization]].
+Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]]: [[reflective localization]]. In fact, left Bousfield localization is a [[Quillen reflection]].
 
 The historically original example is the [[Bousfield localization of spectra]]. But the notion is much more general.
 
@@ -53,7 +53,7 @@ While that's a very simple definition, it turns out that something interesting h
 
 It follows directly that
 
-* $C_{loc}$ has as fibrations a subset of fibrations of $C$
+* $C_{loc}$ has as [[fibrations]] a sub-class of  the fibrations of $C$
 
   $$
     fib_{C_{loc}} = rlp(cof_{C_{loc}} \cap W_{C_{loc}})
@@ -61,7 +61,7 @@ It follows directly that
     \,.
   $$
 
-* $C_{loc}$ has the same acyclic fibrations as $C$
+* $C_{loc}$ has the same [[acyclic fibrations]] as $C$
 
   $$
     fib_{C_{loc}} \cap W_{C_{loc}}
