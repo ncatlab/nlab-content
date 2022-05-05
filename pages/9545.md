@@ -43,6 +43,10 @@ By [[Gelfand duality]], suitable [[topological spaces]] are [[contravariant func
   * [[homotopical structure on C*-algebras]]
 
 
+[[!include Isbell duality - table]]
+
+$\,$
+
 [[!include noncommutative motives - table]]
 
 ## References
