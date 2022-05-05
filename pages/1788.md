@@ -1,4 +1,31 @@
 
+
+$$
+  \array{
+    (id(x) \otimes id(y)) \otimes id(z)
+      &\underoverset{\simeq}{a_{id(x),id(y),id(z)}}{\longrightarrow}&
+    id(x) \otimes( id(y)\otimes id(z) )
+    \\
+    {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+    \\
+    id(x \otimes y) \otimes F(z)
+     &&
+    id(x) \otimes id(y \otimes z)
+    \\
+    {}^{\mathllap{\mu_{x \otimes y , z} } }\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{ x, y \otimes z  }}}
+    \\
+    id( ( x \otimes y ) \otimes z  )
+      &\underset{id(a_{x,y,z})}{\longrightarrow}&
+    id( x \otimes ( y \otimes z ) )
+  }
+  \,,
+$$
+
+
 **[[nLab:signs in supergeometry]]**
 
 |   | $\phantom{A}$Deligne's convention$\phantom{A}$ | $\phantom{A}$Bernstein's convention$\phantom{A}$ |
