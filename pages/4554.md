@@ -368,7 +368,7 @@ $$
    } 
 $$
 
-Since $F(j)$ and $F(r)$ are weak equivalences, we conclude, by one of the axioms for a category with weak equivalences, that $F(f)$ is a weak equivalence. 
+Since $F(j)$ and $F(g)$ are weak equivalences, we conclude, by one of the axioms for a category with weak equivalences, that $F(w)$ is a weak equivalence. 
 
 =--
 
