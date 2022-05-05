@@ -33,7 +33,9 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]]  (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16)).
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
+
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Sarkar et al. 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18).
 
 {#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
@@ -59,7 +61,7 @@ precisely the same range of corrections to redshift vs luminosity as are produce
 
 A similar conclusion is reached in [Sarkar et al. 18](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
 
-> There is a dipole in the recession velocities of host galaxies of supernovae $\Rightarrow$ we are in a "bulk flow" stretching out _well_ beyond the expected scale ($\sim 100 Mpc$) at which the universe is expected to become statistically homogeneous. The inference that the Hubble expansion rate is accelerating may be an artefact of the local bulk flow $[...]$ The "standard" assumptions of exact isotropy and homogeneity are _questionable $[...]$
+> {#SarkarFlowQuote} There is a dipole in the recession velocities of host galaxies of supernovae $\Rightarrow$ we are in a "bulk flow" stretching out _well_ beyond the expected scale ($\sim 100 Mpc$) at which the universe is expected to become statistically homogeneous. The inference that the Hubble expansion rate is accelerating may be an artefact of the local bulk flow $[...]$ The "standard" assumptions of exact isotropy and homogeneity are _questionable $[...]$
 
 
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
@@ -69,7 +71,7 @@ If the apparent small positive [[cosmological constant]] ([[dark energy]]) were 
 ## Numerical simulation
  {#NumericalSimulation}
 
-Numerical simulations of inhomogeneous cosmology are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17). 
+Numerical simulations of inhomogeneous cosmology in the required [[relativistic field theory|relativistic]] accuracy are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17). 
 
 The conclusion in [Montanari-Räsänen 17, p. 20](#MontanariRasanen17) is as follows:
 
@@ -102,7 +104,7 @@ Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical phys
 > An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
 
 
-Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
+Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Sarkar et al. 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
 
 
 
