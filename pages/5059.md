@@ -40,6 +40,7 @@ The Green-Schwarz model of the superstring is in contrast to the _[[NSR-string]]
 The construction of the Green-Schwarz functional was motivated by the desire to find an equivalent alternative formulation in which 
 spacetime supersymmetry is manifest (see e.g. [Schwarz 16, slides 24-25](#Schwarz16)). 
 
+For more discussion see also at _[[geometry of physics -- fundamental super p-branes]]_.
 
 
 ### More details
@@ -837,7 +838,7 @@ Curiously, the light-cone gauge quantization of the GS-string also does wor howe
 (...)
 
 
-## Related concepts
+## Related entries
 
 * [[supersymmetry]]
 
@@ -848,6 +849,8 @@ Curiously, the light-cone gauge quantization of the GS-string also does wor howe
   * [[string]], [[spinning string]], [[superstring]]
 
   * [[membrane]]
+
+* [[geometry of physics -- fundamental super p-branes]]
 
 ## References
 
@@ -1309,3 +1312,7 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 [[!redirects Green-Schwarz sigma-model for super p-branes]]
 [[!redirects Green-Schwarz sigma-models for super p-branes]] 
+
+[[!redirects fundamental super p-brane]]
+[[!redirects fundamental super p-branes]]
+
