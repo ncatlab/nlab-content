@@ -6,18 +6,21 @@ $$
 
 and it has the obvious $U\mathfrak{g}$-module structure by multiplication in the first tensor factor, because $\Lambda^p{\mathfrak{g}}$ is free as a $k$-module.
 
-If $u \in U\mathfrak{g}$ and $x_i\in \mathfrak{g}$ then the differnetial is given by
+If $u \in U\mathfrak{g}$ and $x_i\in \mathfrak{g}$ then the differential is given by
 
-$$
-d(u\otimes x_1 \wedge \cdots \wedge x_p) = 
-$$
-
-$$
+$
+d(u\otimes x_1 \wedge \cdots \wedge x_p) 
  = \sum_{i = 1}^p (-1)^{i+1} u x_i \otimes x_1 \wedge \cdots \wedge \hat{x}_i\wedge \cdots \wedge x_p  
 + \sum_{i\lt j} (-1)^{i+j} u\otimes [x_i, x_j] \wedge \cdots \wedge \hat{x}_i\cdots \wedge \hat{x}_j\cdots \wedge x_p 
-$$
+$
+###Related entries 
+ * [[Lie algebra homology]], 
+* [[Lie algebra cohomology]], 
+* [[Chevalley-Eilenberg cochain complex]] 
 
-See also [[Lie algebra homology]], [[Lie algebra cohomology]], [[Chevalley–Eilenberg cochain complex]] and [[Chevalley–Eilenberg algebra]]. 
+and 
+
+* [[Chevalley-Eilenberg algebra]]. 
 
 
 [[!redirects Chevalley-Eilenberg chain complex]]
