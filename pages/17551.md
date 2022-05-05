@@ -843,7 +843,7 @@ $$
       &\simeq& 
     \underset{\underset{ W \in G/N Rep }{\longrightarrow}}{\lim}
     &
-    Ho(G/N Spaces)\big( S^W, S^W \big)
+    Ho_{G/N Spaces}\big( S^W, S^W \big)
       &\simeq& 
     \mathbb{S}^0_{G/N}(\ast) 
   }
@@ -853,7 +853,7 @@ sending any [[G-set]] $K$ to its [[subset]] $K^N$ of $N$-[[fixed points]] regard
 
 This is clearly surjective. (The irreducible elements on the right are the isomorphism classes of the  [[transitive action|transitive]] $G/N$-[[actions]]  $(G/N)/H$ for $H \subset G/H$, which are canonically also [[G-sets]], hence have a pre-image on the left.)
 
-In order to deduce the genral statement from this special case, we now make use of the fact that Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says that the comparison map for $V = 0$ is one coprojection map of a [[colimit|colimiting]] [[cocone]]-[[diagram]], which for each $G$-[[representation]] $V$ without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) contains a [[cocone]] component of the following form:
+In order to deduce the general statement from this special case, we now make use of the fact that Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says that the comparison map for $V = 0$ is one coprojection map of a [[colimit|colimiting]] [[cocone]]-[[diagram]], which for each $G$-[[representation]] $V$ without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) contains a [[cocone]] component of the following form:
 
 \[
   \label{ColimitingCoconeForComparisonAtTrivialROG}
@@ -870,7 +870,7 @@ In order to deduce the genral statement from this special case, we now make use 
    \\
    A(G/N) 
    &=&
-   (\Sigma^\infty_G S^0)^0_{G/N}(\ast) 
+   (\Sigma^\infty_{G/N} S^0)^0_{G/N}(\ast) 
   }
 \]
 
