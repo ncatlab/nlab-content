@@ -46,6 +46,7 @@ Notice that the [[de Sitter spacetime]] (not anti-de Sitter) does not have a sta
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2 and II.3.3 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
+* [[Antoine Van Proeyen]], sections 4.5, 4.7 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030))
 
 See also the references at _[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)_ 
 
