@@ -17,7 +17,7 @@
 
 ## Idea
 
-An abstractly defined $n$-dimensional [[quantum field theory]] is a consistent assignment of [[state]]-space and correlators to $n$-dimensional [[cobordism]]s with certain structure (topological structure, conformal structure, Riemannian structure, etc. see [[FQFT]]/[[AQFT]]). In an _open-closed QFT_ the cobordisms are allowed to have boundaries. 
+An abstractly defined $n$-dimensional [[quantum field theory]] is a consistent assignment of [[state]]-space and correlators to $n$-dimensional [[cobordism]]s with certain structure (topological structure, conformal structure, Riemannian structure, etc. see [[FQFT]]/[[AQFT]]). In an _open-closed QFT_ the cobordisms are allowed to have [[boundary CFT|boundaries]]. 
 
 In this abstract formulation of QFT a **D-brane** is a type of data assigned by the QFT to boundaries of cobordisms. 
 
@@ -33,7 +33,7 @@ A well understood class of examples is this one: among all 2-dimensional [[confo
 
 In this formulation a type of **brane** of the theory is precisely an $A$-[[module]] in $\mathcal{C}$ (an $A$-[[bimodule]] is a [[bi-brane]] or _defect line_ ):
 
-the 2d cobordisms with boundary on which the theory defined by $A \in \mathcal{C}$ carry as extra structure on their connected boundary pieces a label given by an equivalence class of an $A$-module in $\mathcal{C}$. The assignment of the CFT to such a cobordism with boundary is obtained by
+the 2d cobordisms with [[boundary CFT|boundary]] on which the theory defined by $A \in \mathcal{C}$ carry as extra structure on their connected boundary pieces a label given by an equivalence class of an $A$-module in $\mathcal{C}$. The assignment of the CFT to such a cobordism with boundary is obtained by
 
 * triangulating the cobordism, 
 
@@ -86,7 +86,7 @@ It turns out that if one checks which geometric data corresponds to the $A$-modu
 
 A well-understood case is the [[Wess-Zumino-Witten model]]: for this the target space $X$ is a simple [[Lie group]] $X = G$ and the background field is a [[circle n-bundle with connection|circle 2-bundle with connection]] (a [[bundle gerbe]]) on $G$, representing the background field that is known as the [[Kalb-Ramond field]].
 
-In this case it turns out that branes for the sigma model on $X$ are given in the simplest case by conjugacy classes $D \subset G$ inside the group, and that these carry [[twisted bundle|twisted vector bundle]] with the twist given by the Kalb-Ramond background bundle. These vector bundles are known in the [[string theory]] literature as _[[Chan-Paton vector bundles]]_ . The geometric intuition is that a QFT with certain boundary condition comes from a quantization of spaces of maps $\Sigma \to G$ that are restricted to take the boundary of $\Sigma$ to these submanifolds.
+In this case it turns out that branes for the sigma model on $X$ are given in the simplest case by conjugacy classes $D \subset G$ inside the group, and that these carry [[twisted bundle|twisted vector bundle]] with the twist given by the Kalb-Ramond background bundle. These vector bundles are known in the [[string theory]] literature as _[[Chan-Paton vector bundles]]_ . The geometric intuition is that a QFT with certain [[boundary CFT|boundary condition]] comes from a quantization of spaces of maps $\Sigma \to G$ that are restricted to take the boundary of $\Sigma$ to these submanifolds.
 
 More generally, one finds that the geometric data that corresponds to the branes in the algebraically defined 2d QFT is given by cocycles in the twisted [[differential K-theory]] of $G$. These may be quite far from having a direct interpretation as submanifolds of $G$.
 
@@ -250,6 +250,8 @@ $$
 Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#MaldacenaMooreSeiberg01), [Evslin-Sati 06](#EvslinSati06)).
 
 ## Related concepts
+
+* [[boundary conformal field theory]]
 
 * [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
 
