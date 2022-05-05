@@ -42,7 +42,7 @@ the pullback operation $f^\ast$ is given by
 $$
   f^* \mathbf{d}x^i
   \;\coloneqq\;
-  \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^k} \mathbf{d}\tilde x^j
+  \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
 $$
 
 and hence
