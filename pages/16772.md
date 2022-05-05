@@ -15,7 +15,9 @@
 
 ## Idea
 
-The dihedral group, $D_{2n}$, is most simply seen as the symmetry group of  regular $n$-gon.  It has order $2n$. For instance $D_6$ is the symmetry group of the equilateral triangle and is isomorphic to the symmetric group, $S_3$.
+The dihedral group, $D_{2n}$, is a [[finite group]] of [[order of a group|order]] $2n$. It may be defined as the [[symmetry group]] of a regular $n$-gon. 
+
+For instance $D_6$ is the symmetry group of the equilateral triangle and is [[isomorphism|isomorphic]] to the [[symmetric group]], $S_3$.
 
 For $n \in \mathbb{N}$, $n \geq 1$, the dihedral group $D_{2n}$ is thus the [[subgroup]] of the [[orthogonal group]] $O(2)$ which is generated from the finite [[cyclic group|cyclic]] [[subgroup]] $C_n$ of $SO(2)$ and the [[reflection]] at the $x$-axis (say).  It is a semi-direct product of $C_n$ and a $C_2$ corresponding to that reflection.
 
@@ -24,9 +26,20 @@ Under the further embedding $O(2)\hookrightarrow SO(3)$ the (cyclic and) dihedra
 (see e.g. [Greenless 01, section 2](#Greenless01))
 
 
-###Warnings
 
-There are two conventions in numbering the dihedral groups.  The above is the algebraic convention in which the suffix gives the [[order]] of the group, so 2n, whilst the other geometric convention uses $D_n$ for this group, recording rather the geometric nature of the object of which it is the symmetry group.  Note that there is yet another group denoted $D_n$ mentioned at [[Coxeter group]].
++-- {: .num_remark #NotationConvention}
+###### Remark
+**Warning on notation**
+
+There are two different conventions for numbering the dihedral groups.  
+
+1. The above is the _algebraic convention_ in which the suffix gives the [[order]] of the group: ${\vert D_{2 n}\vert} = 2 n$.
+
+1. In the _geometric convention_ one writes "$D_n$" instead of "$D_{2n}$", recording rather the geometric nature of the object of which it is the symmetry group.  
+
+   Also beware that there is yet another group denoted $D_n$ mentioned at _[[Coxeter group]]_.
+
+=--
 
 ## Properties
 
