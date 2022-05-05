@@ -1839,7 +1839,7 @@ $$
     &\overset{\widetilde {(-)}}{\longrightarrow}&
     Hom_{SmoothSet}( \mathbf{X}, coDisc \Gamma \mathbf{X} )
     \\
-    {}^{\mathllap{ Hom_{SmoothSet}(\Gamma(f), \mathbf{X}) }}
+    {}^{\mathllap{ Hom_{SmoothSet}(\Gamma(f), \Gamma \mathbf{X}) }}
     \big\downarrow
     &&
     \!\!\!\!\!
