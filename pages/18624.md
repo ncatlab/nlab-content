@@ -137,7 +137,7 @@ $$
   (X \stackrel{\omega}{\to} \Omega^n) \in \Omega^n(X)
 $$
 
-to the differential form corresponding to the following composite smooth funtion:
+to the differential form corresponding to the following composite smooth function:
 
 $$
   \tau_\Sigma \omega
@@ -935,7 +935,12 @@ which is the [[phase space]] of $\mathfrak{g}$-[[Chern-Simons theory]], then thi
 
 
 
-[[!redirects transgression of differential forms]]
+[[!redirects transgressions of differential forms]]
+
+[[!redirects transgression of differential n-forms]]
+[[!redirects transgressions of differential n-forms]]
 
 [[!redirects transgression of variational differential forms]]
 [[!redirects transgressions of variational differential forms]]
+
+
