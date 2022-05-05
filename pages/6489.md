@@ -351,7 +351,7 @@ In terms of stability ($\Pi$-stability) of [[B-branes]] of the [[B-model]] [[top
 
 * {#Douglas01} [[Michael Douglas]], _D-branes, categories and $N=1$ supersymmetry, J.Math.Phys. __42__ (2001) 2818&#8211;2843;  
 
-* {#Douglas02} [[Michael Douglas]] _Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
+* {#Douglas02} [[Michael Douglas]],  _Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
 
 * {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
 
