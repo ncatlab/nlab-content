@@ -90,6 +90,8 @@ Discussion of comparison of GUTs to [[experiment]] and [[phenomenology]] include
 
 for non-superymmetric [[model (physics)|models]]:
 
+* L. Lavoura and Lincoln Wolfenstein, _Resuscitation of minimal $SO(10)$ grand unification_, Phys. Rev. D 48, 264 ([doi:10.1103/PhysRevD.48.264](https://doi.org/10.1103/PhysRevD.48.264))
+
 * Guido Altarelli, Davide Meloni, _A non Supersymmetric SO(10) Grand Unified Model for All the Physics below $M_{GUT}$_ ([arXiv:1305.1001](https://arxiv.org/abs/1305.1001))
 
 * Alexander Dueck, Werner Rodejohann, _Fits to $SO(10)$ Grand Unified Models_ ([arXiv:1306.4468](http://arxiv.org/abs/1306.4468))
