@@ -64,7 +64,7 @@ one sees that in a sufficiently cohesive topos power objects $\Omega^X$ are not 
 $$p_!((\Omega^X)^Z)=p_!(\Omega^{X\times Z})=1$$
 and hence it follows that in a sufficiently cohesive topos _every object embeds into a contractible object_.
 
-Conversely, if every power object $\Omega^X$ embeds into a connected object then the power objects $\Omega^X$ will be connected themselves by proposition \ref{connected_retract} below since power objects are injective in general. Whence a topos is sufficiently cohesive iff every object embeds into a connected object iff every object embeds into a contractible object. The last formulation is taken as the definition of sufficient cohesion in Lawvere ([2007](#Law07)).
+Conversely, if every power object $\Omega^X$ embeds into a connected object then the power objects $\Omega^X$ will be connected themselves by proposition \ref{connected_retract} below since power objects are injective in general. Whence a (weakly) cohesive topos is sufficiently cohesive iff every object embeds into a connected object iff every object embeds into a contractible object. The last formulation is taken as the definition of sufficient cohesion in Lawvere ([2007](#Law07)).
 =--
 
 +-- {: .num_remark}
