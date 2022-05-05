@@ -23,7 +23,7 @@ The [[gros toposes]] of such foundational [[generalized spaces]] ought to  have 
 
 =--
 
-There is a further progression of [[adjoint modalities]] (Def. \ref{AdjointModality]) of [[geometry]], including the _infinitesimal_ and the _&eacute;tale_, which are formalized by _[[differential cohesion]]_ (Def. \ref{DifferentialCohesion} below).
+There is a further progression of [[adjoint modalities]] (Def. \ref{AdjointModality}) of [[geometry]], including the _infinitesimal_ and the _&eacute;tale_, which are formalized by _[[differential cohesion]]_ (Def. \ref{DifferentialCohesion} below).
 
 $\,$
 
@@ -221,7 +221,7 @@ Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}). Then the 
 +-- {: .proof}
 ###### Proof
 
-With Example \ref{SmoothFunctionOnSmoothSpace} it only remains to be shown that for each [[set]] $S$ the [[presheaves]] $Disc(S)$ and $coDisc(S)$ are indeed [[sheaves]].
+By example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}  we alreaday have the analogous statement for the [[categories of presheaves]]. Hence it is sufficient to show that the functors $Disc$ and $coDisc$ from Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject} factor through the definition inclusion of the [[category of sheaves]], hence that for each [[set]] $S$ the [[presheaves]] $Disc(S)$ and $coDisc(S)$ are indeed [[sheaves]] (Def. \ref{Sheaf}).
 
 By the formulaton of the [[sheaf|sheaf condition]] via the [[Cech groupoid]] (Prop. \ref{CechGroupoidCoRepresents}), and using the [[adjunction]] hom-isomorphisms ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)) this is readily seen to be equivalent to the two further conditions on a cohesive site (Def. \ref{OneCohesiveSite}):
 
