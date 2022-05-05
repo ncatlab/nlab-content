@@ -2312,7 +2312,7 @@ We discuss how the [[classifying space]] for $\tilde K^0$ is the [[delooping]] o
 **([[classifying space]] of the [[stable unitary group]])**
 
 For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]]
-in dimension $n$, both regarded as [[topological groups]] in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
+in dimension $n$, both regarded as [[topological groups]] in the standard way. Write $B U(n) , B O(n)\in $ [[Top]] for the corresponding [[classifying space]].
 
 Write
 
