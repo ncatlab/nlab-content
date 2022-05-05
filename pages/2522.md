@@ -1041,9 +1041,11 @@ Discussion of the relation between [[supersymmetry and division algebras]] inclu
 
 * {#Schray96} J&#246;rg Schray, _The general classical solution of the superparticle_, Class. Quant. Grav. 13 (1996), 27&#8211;38. ([arXiv:hep-th/9407045](https://arxiv.org/abs/hep-th/9407045))
 
-
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C*$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
+and for superconformal symmetry:
+
+* Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_, Phys.Lett. B539 (2002) 266-276 ([arXiv:hep-th/0203149](https://arxiv.org/abs/hep-th/0203149))
 
 ### Classification
 
