@@ -415,7 +415,6 @@ $$
   \theta^{\alpha_2} \theta^{\alpha_1}
 $$
 
-
 $$
   (s.o.): \;\;\;x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
 $$
@@ -427,8 +426,8 @@ $$
 
 $$
   (s.o.): \;\;\;
-  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
-   = 
+  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2})
+   =
    + (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
 $$
 
