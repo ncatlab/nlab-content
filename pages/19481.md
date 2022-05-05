@@ -959,9 +959,16 @@ A _[[Jean Benabou|Bénabou]] [[cosmos]] for [[enriched category theory]]_, or ju
 
 The following are examples of [[cosmoi]] (Def. \ref{Cosmos}):
 
-1. [[Set]] (Def. \ref{CategoryOfSets}) equipped with its [[cartesian closed category]]-structure (Example \ref{SetIsCartesianClosed})
+1. $Sh(\mathcal{C})$ the [[sheaf topos]] (Def. \ref{Sheaf}) over any [[site]] (Def. \ref{Coverage}) -- by Prop. \ref{PropertiesOfSheafToposes} below.
+
+   In particular:
+
+   1. [[Set]] (Def. \ref{CategoryOfSets}) equipped with its [[cartesian closed category]]-structure (Example \ref{SetIsCartesianClosed})
+
+   1. [[sSet]] $\simeq [\Delta^{op}, Set]$ (Def. \ref{sSet}, Prop. \ref{SimplicialSetsAsPresheavesOnTheSimplexCategory}) 
 
 1. [[Grpd]] (Def. \ref{CategoriesOfSmallCategories}) equipped with its [[cartesian closed category]]-structure (Example \ref{GrpdIsACartesianClosedCategory}).
+
 
 =--
 
