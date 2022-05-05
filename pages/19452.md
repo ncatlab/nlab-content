@@ -2481,6 +2481,24 @@ such that this preserves [[composition]] and [[identity]] morphisms in the evide
 
 =--
 
++-- {: .num_example #EnrichedHomFunctor}
+###### Example
+**([[enriched category theory|enriched]] [[hom-functor]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). Then there is a $\mathcal{V}$-[[enriched functor]] out of the enriched [[product category]] of $\mathcal{C}$ with its enriched [[opposite category]] (Def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) 
+
+$$
+  \mathcal{C}(-,-)
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  \mathcal{V}
+$$
+
+to $\mathcal{V}$, regarded as a $\mathcal{V}$-[[enriched category]] (Example \ref{TopkAsATopologicallyEnrichedCategory}), which sends a [[pair]] of [[objects]] $X,Y \in \mathcal{C}$ to the [[hom-object]] $\mathcal{C}(X,Y) \in \mathcal{V}$, and which acts on morphisms by [[composition]] in the evident way.
+
+=--
+
 +-- {: .num_example #EnrichedPresheaf}
 ###### Example
 **([[enriched presheaves]])**
@@ -2507,7 +2525,15 @@ to the archetypical $\mathcal{V}$-[[enriched category]] from Example \ref{TopkAs
 
 such that composition is respected, in the evident sense.
 
-For every object $c \in \mathcal{C}$, there is an enriched [[representable functor]], denoted $y(c)$ or $\mathcal{C}(c,-)$ which sends objects to
+For every object $c \in \mathcal{C}$, there is an enriched [[representable functor]], denoted 
+
+$$
+  y(c) \;\coloneqq\; \mathcal{C}(c,-) 
+$$
+
+(where on the right we have the enriched hom-functor from Example \ref{EnrichedHomFunctor})
+
+which sends objects to
 
 $$
   y(c)(d) = \mathcal{C}(c,d) \in \mathcal{V}
@@ -2516,6 +2542,7 @@ $$
 and whose action on morphisms is, under the above identification, just the [[composition]] operation in $\mathcal{C}$.
 
 =--
+
 
 More generally, the following situation will be of interest:
 
@@ -3043,8 +3070,6 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 =--
 
-The **proof** of prop. \ref{YonedaReductionTopological} is [[formal dual|formally dual]] to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
-
 Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
 
 +-- {: .num_prop #TopologicalCoYonedaLemma}
@@ -3088,7 +3113,7 @@ $$
   G
 $$
 
-are given by systems of component morphisms
+are in [[natural bijection]] with systems of component morphisms
 
 $$
   \mathcal{C}(c,d) \otimes F(c)
@@ -3096,7 +3121,7 @@ $$
   G(d)
 $$
 
-which satisfy some compatibility conditions in their dependence on $c$ and $d$ ([[enriched natural transformation|natural]] in $d$ and "[[extranatural]]" in $c$). By the [[internal hom]] [[adjunction]], these are equivalent to systems of morphisms of the form
+which satisfy some compatibility conditions in their dependence on $c$ and $d$ ([[enriched natural transformation|natural]] in $d$ and "[[extranatural]]" in $c$). By the [[internal hom]] [[adjunction]], these are in [[natural bijection]] to systems of morphisms of the form
 
 $$
   F(c)
@@ -3104,7 +3129,40 @@ $$
    [\mathcal{C}(c,d), G(d)]
 $$
 
-satisfying the analogous compatibility conditions.
+satisfying the analogous compatibility conditions. By Example \ref{NaturalTransformationsViaEnds} these are in [[natural bijection]] with systems of morphisms
+
+$$
+  F(c) \longrightarrow [\mathcal{C},\mathcal{V}](\mathcal{C}(c,-), G(-))
+$$
+
+natural in $c$
+
+By the [[enriched Yoneda lemma]] (Prop. \ref{YonedaReductionTopological}), these, finally, are in [[natural bijection]] with systems of morphisms 
+
+$$
+  F(c) \longrightarrow G(c)
+$$
+
+natural in $c$. Moreover, all these identifications are also natural in $G$. Therefore, in summary, this shows that there is a [[natural isomorphism]]
+
+$$
+  Hom_{[\mathcal{C},\mathcal{V}]}
+  \left(
+    \overset{c \in \mathcal{C}}{\int} \mathcal{C}(c,-) \otimes F(c)
+    \;,\;
+    (-)
+  \right)
+  \;\simeq\;
+  Hom_{[\mathcal{C},\mathcal{V}]}
+  \left(
+    F,
+    (-)
+  \right)
+  \,.
+$$
+
+With this, the ordinary [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) in the form of the [[Yoneda embedding]] of $[\mathcal{C},\mathcal{V}]$ implies the required isomorphism.
+
 
 =--
 
@@ -3190,7 +3248,7 @@ It is this analogy that gives the name to the following statement:
 ###### Proposition
 **([[Fubini theorem]] for (co)-ends)**
 
-For $F$ a pointed topologically enriched [[bifunctor]] on a small pointed topological [[product category]] $\mathcal{C}_1 \times \mathcal{C}_2$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), i.e.
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}_1, \mathcal{C}_2$ be two $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) and
 
 $$
    F
@@ -3201,10 +3259,12 @@ $$
   \times
   (\mathcal{C}_1 \times\mathcal{C}_2)
   \longrightarrow
-  Top^{\ast/}_{cg}
+  \mathcal{V}
 $$
 
-then its [[end]] and [[coend]] (def. \ref{EndAndCoendInTopcgSmash}) is equivalently formed consecutively over each variable, in either order:
+a $\mathcal{V}$-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor})  from the [[product category]] with [[opposite categories]] (Def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), as shown.
+
+Then its [[end]] and [[coend]] (def. \ref{EndAndCoendInTopcgSmash}) is equivalently formed consecutively over each [[variable]], in either order:
 
 $$
   \overset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
@@ -3247,32 +3307,32 @@ Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
 +-- {: .num_remark #MappingSpacePreservesEnds}
 ###### Remark
 
-Since the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace))
+Since the enriched [[hom-functor]] (Example \ref{EnrichedHomFunctor})
 
 $$
-  Maps(-,-)_\ast
+  \mathcal{C}
   \;\colon\;
-  \left(Top^{\ast/}_{cg}\right)^{op}
+  \mathcal{V}^{op}
   \times
-  Top^{\ast/}_{cg}
+  \mathcal{V}
   \longrightarrow
-  Top^{\ast/}_{cg}
+  \mathcal{V}
 $$
 
-takes [[colimits]] in the first argument and [[limits]] in the second argument to limits ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)), it in particular takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
+takes [[colimits]] in the first argument and [[limits]] in the second argument to limits, it in particular takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
 
 $$
-  Maps( X, \; \int_{c} F(c,c))_\ast
+  \mathcal{C}( X, \; \int_{c} F(c,c))
   \simeq
-  \int_c Maps(X, F(c,c)_\ast)
+  \int_c \mathcal{C}(X, F(c,c))
 $$
 
 and
 
 $$
-  Maps( \int^{c} F(c,c),\; Y  )_\ast
+  \mathcal{C}( \int^{c} F(c,c),\; Y  )
   \simeq
-  \underset{c}{\int} Maps( F(c,c),\; Y )_\ast
+  \underset{c}{\int} \mathcal{C}( F(c,c),\; Y )
   \,.
 $$
 
