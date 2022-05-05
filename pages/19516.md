@@ -1122,7 +1122,7 @@ $$
 
 +-- {: .num_example #QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}
 ###### Example
-**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
+**([[Quillen adjoint quadruple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
 
 Now let 
 
@@ -1239,9 +1239,14 @@ Hence by essential uniqueness of adjoints ([this prop](adjoint}functor#Uniquenes
 
 =--
 
+## Related concepts
+
+* [[adjoint triple]]
+
+* [[adjoint quadruple]]
+
 [[!redirects Quillen adjoint triples]]
 
 [[!redirects Quillen adjoint quadruple]]
 [[!redirects Quillen adjoint quadruples]]
 
-f
