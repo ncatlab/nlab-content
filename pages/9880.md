@@ -138,7 +138,10 @@ becomes
 
 * [perturbation theory -- convergence/divergence](perturbation+theory#DivergenceConvergence)
 
+* [[higher curvature correction]]
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
+
 
 ## References
 
