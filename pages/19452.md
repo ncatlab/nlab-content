@@ -1918,7 +1918,7 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 ###### Definition
 **([[closed monoidal category]])**
 
-Given a [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the [[functor]] $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
+Given a [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a _[[closed monoidal category]]_ if for each $Y \in \mathcal{C}$ the [[functor]] $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
 
 \[
   \label{InternalHomAdjunction}
@@ -2027,6 +2027,7 @@ $$
 
 +-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
 ###### Example
+**([[tensor product]] of [[abelian groups]] is [[monoidal category]]-[[structure]])**
 
 The category [[Ab]] of [[abelian groups]] (as in Example \ref{ExamplesOfConcreteCategories}) becomes a [[symmetric monoidal category]] (Def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
 
@@ -3165,7 +3166,7 @@ Then the $\mathcal{V}$-[[enriched presheaf category]] $[\mathcal{C}, \mathcal{V}
 
    \[
      \label{HomObjectOfEnrichedFunctorCategoryViaEnd}
-     [\mathcal{C}, \mathcal{V}}](F,G)
+     [\mathcal{C}, \mathcal{V}](F,G)
        \;\coloneqq\;
      \int_{c\in \mathcal{C}} [F(c),G(c)]
    \]
@@ -3474,37 +3475,38 @@ Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
 
 +-- {: .num_remark #MappingSpacePreservesEnds}
 ###### Remark
+**([[internal hom]] preserves [[ends]])**
 
-Since the [[enriched hom-functor]] (Example \ref{EnrichedHomFunctor})
+Let $\mathcal{V}$ be a [[cosmos]] (Def. \ref{Cosmos}). Since the [[internal hom]]-functor in $\mathcal{V}$ (Def. \ref{ClosedMonoidalCategory}) preserves [[limits]] in both variables, in particular it preserves [[ends]] (Def. \ref{EndAndCoendInTopcgSmash}) in the second variable, and sends coends in the second variable to ends:
 
-$$
-  \mathcal{C}
-  \;\colon\;
-  \mathcal{V}^{op}
-  \times
-  \mathcal{V}
-  \longrightarrow
-  \mathcal{V}
-$$
-
-takes [[colimits]] in the first argument and [[limits]] in the second argument to limits, it in particular takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
+For all [[small category|small]] $\mathcal{C}$-[[enriched categories]], $\mathcal{V}$-[[enriched functors]] $F \;\colon\; \mathcal{C}^{op} \otimes \mathcal{C} \to \mathcal{V}$ (Def. \ref{TopologicallyEnrichedFunctor}) and all [[objects]] $X \in \mathcal{V}$ we have [[natural isomorphisms]]
 
 $$
-  \mathcal{C}( X, \; \int_{c} F(c,c))
-  \simeq
-  \int_c \mathcal{C}(X, F(c,c))
+  \left[ 
+    X , \int^{c \in \mathcal{C}} F(c,c)
+  \right]
+  \;\simeq\;
+  \int^{c \in \mathcal{C}} 
+  \left[ X, F(c,c) \right]
 $$
 
 and
 
 $$
-  \mathcal{C}( \int^{c} F(c,c),\; Y  )
-  \simeq
-  \underset{c}{\int} \mathcal{C}( F(c,c),\; Y )
+  \left[ 
+    \int_{c \in \mathcal{C}} F(c,c)
+    ,
+    X
+  \right]
+  \;\simeq\;
+  \int^{c \in \mathcal{C}} 
+  \left[ F(c,c), X \right]
   \,.
 $$
 
 =--
+
+
 
 With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] and [[powering]]  [[enriched presheaves]] (Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}):
 
