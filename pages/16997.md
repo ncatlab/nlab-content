@@ -42,6 +42,13 @@ Generalizing to 4-dimensional [[Einstein-Yang-Mills theory]] with [[nonabelian g
 
 * {#MisnerThorneWheeler73} [[Charles Misner]], [[Kip Thorne]], [[John Archibald Wheeler]], pp. 875–876 of _Gravitation_, San Francisco: W. H. Freeman. (1973)
 
+* Pawel O. Mazur, _Black Uniqueness Theorems_, Proceedings of the 11th International Conference on General Relativity and Gravitation, ed. M. A. H. MacCallum, Cambridge University Press, Cambridge 1987, pp. 130-157 ([arXiv:hep-th/0101012](https://arxiv.org/abs/hep-th/0101012))
+
+* J. Lopes Costa, _On black hole uniqueness theorems_, 2010 ([pdf](http://homepage.univie.ac.at/piotr.chrusciel/papers/TeseFinal.pdf))
+
+* [[Stefan Hollands]], Akihiro Ishibashi, _Black hole uniqueness theorems in higher dimensional spacetimes_, Classical and Quantum Gravity, Volume 29, Number 16 ([arXiv:1206.1164](https://arxiv.org/abs/1206.1164))
+
+
 See also
 
 * Wikipedia, _[No-hair theorem](https://en.wikipedia.org/wiki/No-hair_theorem)_
