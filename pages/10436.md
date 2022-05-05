@@ -26,7 +26,7 @@ The _Blakers-Massey theorem_ in the [[homotopy theory]] of [[pointed topological
 
 ### Traditional
 
-This [[obstruction]] is measured by triad homotopy groups $\pi_m(X:A,B)$ for a pointed space $X$ with two subspaces $A,B$ each containing the base point. Here the group structure is defined for $m \geq 3$ and is abelian for $m \geq 4$. There is an exact sequence 
+This [[obstruction]] is measured by triad homotopy groups $\pi_m(X;A,B)$ for a pointed space $X$ with two subspaces $A,B$ each containing the base point. Here the group structure is defined for $m \geq 3$ and is abelian for $m \geq 4$. There is an exact sequence 
 
 $$\cdots \to \pi_{n+1}(X;A,B) \to \pi_n (A, A \cap B) \to^{\epsilon} \pi_n( X,B) \to \pi_n(X;A,B) \to \cdots  $$
 where $\epsilon$ is the excision map. The main result of Blakers and Massey is as follows:
