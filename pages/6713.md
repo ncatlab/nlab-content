@@ -329,6 +329,8 @@ Review of the physical lpicture includes
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
+* {#Evslin06} [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Second Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328))
+
 A textbook account of D-brane charge in ([[twisted K-theory|twisted]]) [[topological K-theory]] is 
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008  ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
