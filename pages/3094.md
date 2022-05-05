@@ -13,6 +13,7 @@
 * table of contents
 {: toc}
 
+
 ## Definition
 
 
@@ -77,7 +78,7 @@ The image on the right shows open subsets in the closed square $[0,1]^2$, regard
 
 Let $U \overset{i}{\longrightarrow} X$ be an [[injective function|injective]] [[continuous function]] between [[topological spaces]]. Then this is a [[topological subspace|subspace inclusion]] (Def. \ref{SubspaceTopology}) precisely if it satisfies the following [[universal property]]: 
 
-* For $Z$ any topological space, a [[function]] $Z \overset{f}{\longrightarrow} U$ is [[continuous function|continuous]] precisely of $i \circ f$ is continuous
+* For $Z$ any topological space, a [[function]] $Z \overset{f}{\longrightarrow} U$ (of underlying [[sets]]) is [[continuous function|continuous]] precisely if the [[composition]] $i \circ f$ is continuous as a function to $X$:
 
   $$
     \array{
@@ -95,7 +96,7 @@ The elementary **proof** is spelled out, for instance, in [Terilla 14, theorem 1
 
 The universal characterization of Prop. \ref{UniversalPropertyOfSupspaceInclusion} lends itself to formalization via axioms for [[cohesion]]:
 
-+-- {: .num_defn}
++-- {: .num_defn #SharpModalityOnTopologicalSpaces}
 ###### Definition
 **([[sharp modality]] on [[topological spaces]])**
 
@@ -130,12 +131,27 @@ $$
 
 for the [[unit of an adjunction|unit]] morphism of this [[adjunction]].
 
+Notice that this means that for any [[topological space]] $Z$, _every_ function of underlying sets
+
+$$
+  Z \longrightarrow \sharp X
+$$
+
+is [[continuous functions]], hence that continuous functions into $\sharp X$ are in [[natural bijection]] to underlying functions of [[sets]]. This is the statement of the adjunction hom-isomorphism:
+
+$$
+  Hom_{Top}( Z, \sharp X )
+  \;\simeq\;
+  Hom_{Set}(\Gamma(Z), \Gamma(X))
+  \,.
+$$
+
 =--
 
 +-- {: .num_prop #UniversalPropertyViaSharpModality}
 ###### Proposition
 
-Let $U \overset{i}{\longrightarrow} X$ be an [[injective function|injective]] [[continuous function]] between [[topological spaces]]. Then this is a [[topological subspace|subspace inclusion]] (Def. \ref{SubspaceTopology}) precisely if its [[naturality square]] of the $\sharp$-[[unit of an adjunction|unit]] 
+Let $U \overset{i}{\longrightarrow} X$ be an [[injective function|injective]] [[continuous function]] between [[topological spaces]]. Then this is a [[topological subspace|subspace inclusion]] (Def. \ref{SubspaceTopology}) precisely if its [[natural transformation|naturality square]] of the $\sharp$-[[unit of an adjunction|unit]] (Def. \ref{SharpModalityOnTopologicalSpaces})
 
 $$
   \array{
@@ -155,6 +171,20 @@ is a [[pullback]] square.
 ###### Proof
 
 By the [[universal property]] of a [[pullback]]/[[fiber product]] and the nature of $\sharp$, we have $U \simeq X \times_{\sharp X} \sharp U$ precisely if continuous functions out of some topological space $Z$ into $U$ are in [[natural bijection]] with continuous functions  $Z \to X$ whose underlying function $Z \to X \to \sharp X$ factors through the underlying function of $i$. This implies the statement by Prop. \ref{UniversalPropertyOfSupspaceInclusion}.
+
+=--
+
++-- {: .num_remark #FormulationInCohesiveHoTT}
+###### Remark
+**(formulation in [[cohesive homotopy type theory]])**
+
+The pullback square of the $\sharp$-unit in Prop. \ref{UniversalPropertyViaSharpModality} should correspond (after generalizing from [[topological spaces]] to suitable [[topological ∞-groupoids]]) to the [[categorical semantics]] of what in [[cohesive homotopy type theory]] is the statement that the [[characteristic function]]
+
+$$
+  \chi_U \;\colon\; X \to Prop
+$$
+
+to the [[universe of propositions]] factors through the universe of [[sharp modality|sharp]]-[[modal types]]. In this form topological subspace inclusions are characterized in [Shulman 15, Remark 3.14](#Shulman15).
 
 =--
 
@@ -225,6 +255,8 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
 * {#Terilla14} [[John Terilla]],  _Notes on categories, the subspace topology and the product topology_ 2014 ([pdf](https://math.mit.edu/~jhirsh/terilla_subspace_quotient.pdf))
+
+* {#Shulman15} [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science 28.6 (2018): 856-941. ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
 
 [[!redirects subspace topology]]
 [[!redirects subspace topologies]]
