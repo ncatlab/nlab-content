@@ -122,6 +122,10 @@ reviewed in
 
 * {#Szabo08} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
 
+Derivation via [[rational parameterized stable homotopy theory]] applied to [[schreiber:The brane bouquet]] is in 
+
+* [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Gauge enhancement of Super M-Branes]]_ ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
+
 
 ### On M-branes at ADE-singularities
 
