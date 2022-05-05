@@ -25,7 +25,9 @@ $$i: C \to Chu(C, d)$$
 
 which realizes $C$ as a [[coreflective subcategory]] of $Chu(C, d)$. Being star-autonomous, $Chu(C, d)$ is self-dual, hence $C^{op}$ also embeds as a full subcategory of $Chu(C, d)$, this time [[reflective subcategory|reflectively]]. 
 
-Many concrete dualities in mathematics can be seen as embedded in a larger ambient self-duality on a Chu construction. This applies in particular to the category of _Chu spaces_, $Chu(Set, 2)$ (see below). 
+Many concrete dualities in mathematics can be seen as embedded in a larger ambient self-duality on a Chu construction. This applies in particular to the category of _Chu spaces_, $Chu(Set, 2)$ (see below).
+
+This construction may be [[categorified]] to what might be called a **2-Chu construction**, producing for example $Chu(Cat, Set)$ (see [Shulman17](#Shulman17)).
 
 
 ## Definition ## 
@@ -92,7 +94,7 @@ $$(a \otimes x, y^a \times_{d^{a \otimes x}} b^x)$$
 
 where the second component is a pullback, and the pairing omitted but obvious. The main thing to check is the presence of a canonical isomorphism 
 
-$$Chu(C, d)(A \otimes X, Y) \cong Chu(C, d)(X, A \multimap)$$ 
+$$Chu(C, d)(A \otimes X, Y) \cong Chu(C, d)(X, A \multimap Y)$$ 
 
 but this is left as an exercise. 
 
@@ -167,6 +169,8 @@ Chu(Set, 2)^{op} & \overset{(-)^*}{\to} & Chu(Set, 2)
 
 The same principle extends to other situations. For example, [[Pontryagin duality]] is fully embedded in the larger duality which obtains on $Chu(Top, S^1)$, where $Top$ is a [[nice category of spaces]]. 
 
+Similarly, the 2-Chu construction, $Chu(Cat, Set)$, exhibits dualities, such as [[Gabriel-Ulmer duality]].
+
 +--{.query}
 Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thinking Boolean algebras is appropriate, as we have $ I \to x^* \wp x $, $ x \otimes x^* \to D $ [where $\wp$ denotes Girard's "par" and $D$ denotes the dualizer], together with appropriate triangular equations, categorifying the inequalities $1 \leq (\neg x) \vee v$ and $x \wedge (\neg x) \leq 0$ in a Boolean algebra. ---Todd
 
@@ -189,6 +193,10 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 * Pratt, [Chu Spaces](http://boole.stanford.edu/pub/coimbra.pdf)
 * [[Michael Barr]], [The Chu construction: history of an idea](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf), in TAC 17 (2006-2007), special volume, _Chu spaces: theory and applications_.
 * [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
+
+For a categorification, see 
+
+* {#Shulman17}, _The 2-Chu Construction_, [blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
 
 category: category
 
