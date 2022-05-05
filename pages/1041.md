@@ -209,13 +209,20 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 ## Examples
 
-* Of course, [[Ab]] is abelian, as is the category of [[modules]] over any [[ring]].
+* Of course, [[Ab]] is abelian, 
 
-* Therefore in particular the category [[Vect]] of vector spaces is an abelian category.
+* the [[category of modules]] over any [[ring]] is abelian
 
-* The category of [[sheaves]] of abelian groups on any [[site]] is abelian.
+* Therefore in particular the category [[Vect]] of vector spaces is an abelian category
 
-* The category of torsion-free abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
+* as is the [[category of representations]] of a [[group]] (e.g. [here](https://unapologetic.wordpress.com/2008/12/15/the-category-of-representations-is-abelian/))
+
+* The [[category of sheaves|category of]] [[sheaves of abelian groups]] on any [[site]] is abelian.
+
+
+Counter-examples:
+
+* The category of [[torsion sub-group}torsion-free]] abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
 
 
 ## Related concepts
