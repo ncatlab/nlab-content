@@ -41,7 +41,7 @@ for all $i$, $\epsilon_i\chi=1$ where $\epsilon_i =\id_B^{\otimes i-1}\otimes\ep
 
 ## Examples
 
-#### Low dimensions
+### Low dimensions
 
 $\chi\in H$ is a 1-cocycle iff it is invertible and [[grouplike element|grouplike]] i.e. $\Delta\chi=\chi\otimes\chi$ (in particular it is counital).  A 2-cocycle is an invertible element $\chi\in H^{\otimes 2}$ satisfying
 
@@ -58,7 +58,7 @@ $$
 
 A counital 3-cocycle is the famous __Drinfel'd associator__ appearing in CFT and quantum group theory. The coherence for monoidal structures can be twisted with the help of Drinfel'd associator; Hopf algebras reconstructing them appear then as quasi-Hopf algebras where the comultiplication is associative only up to twisting by a 3-cocycle in $H$.  
 
-#### For particular Hopf algebras
+### For particular Hopf algebras
 
 If $G$ is a finite group and $H=k(G)$ is the 
 [[Hopf algebra]] of $k$-valued functions on the group, then we recover the usual notions: e.g. the 2-cocycle is a function $\chi:G\times G\to k$ satisfying the cocycle condition
