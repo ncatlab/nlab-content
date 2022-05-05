@@ -33,7 +33,20 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 
 ## Examples
 
-* The binary dihedral group of [[order of a group|order]] 8 is [[isomorphism|isomorphic]] to the [[quaternion group]] $Q_8$.
+### Quaternion group $Q_8$ and triality
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png" width="100"/>
+</div>
+
+The first binary dihedral group $2 D_4$ is [[isomorphism|isomorphic]] to the [[quaternion group]] of order 8:
+
+$$
+  2 D_4 \simeq Q_8
+  \,.
+$$
+
+In the [[ADE-classification]] this is the entry [[D4]].
 
 ## Related concepts
 
