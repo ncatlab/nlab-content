@@ -26,7 +26,7 @@ The classical notion of an [[internal category]] in a category with [[pullbacks]
 
 One typically starts with a monoidal category $M = (M, \otimes, 1)$ which is _regular_ in the sense that it has [[equalizers]] which are preserved by $\otimes$ on both sides. (The monoidal structure does _not_ need be symmetric.)
 
-There is a [[bicategory]] $Comod(M)$ of [[comonoids]] and _bicomodules_ in $M$: this is a special case of the bicategory $Mod(K)$ of [[monads]] and [[module over a monad|bimodules]] in a bicategory $K$, where in this case $K = \mathbf{B} M^{op} = (\mathbf{B} M)^{co}$.  Then an **internal category in $M$** is a [[monad]] in $Comod(M)$.
+There is a [[bicategory]] $Comod(M)$ of [[comonoids]] and _[[bicomodules]]_ in $M$: this is a special case of the bicategory $Mod(K)$ of [[monads]] and [[module over a monad|bimodules]] in a bicategory $K$, where in this case $K = \mathbf{B} M^{op} = (\mathbf{B} M)^{co}$.  Then an **internal category in $M$** is a [[monad]] in $Comod(M)$.
 
 There are two kind of morphisms of noncartesian internal categories: [[functors]] and [[cofunctor|cofunctors]] (which here are *not* the same as [[contravariant functors]]).
 
