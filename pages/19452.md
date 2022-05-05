@@ -7075,7 +7075,7 @@ $$
   \,.
 $$
 
-(That this indeed satisfies the matching condition follows immediately bu the [[functor|functoriality]] of $\mathbf{Y}$.)
+(That this indeed satisfies the matching condition follows immediately by the [[functor|functoriality]] of $\mathbf{Y}$.)
 
 This construction provides a [[function]] of the form
 
@@ -7118,12 +7118,13 @@ The presheaf $\mathbf{Y}$ is called a _[[sheaf]]_ if for every [[object]] $X \in
 
 The [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the [[category of presheaves]] over a given [[site]] $\mathcal{C}$, on those that are sheaves is the _[[category of sheaves]]_, denoted
 
-$$
+\[
+  \label{FullSubcategoryOfSheaves}
   Sh(\mathcal{C})
-    \overset{\phantom{AAAA}}{\hookrightarrow}
-  [\mathcal{c}^{op}, Set]
+    \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+  [\mathcal{C}^{op}, Set]
   \,.
-$$
+\]
 
 A [[category]] which is [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) to a [[category of sheaves]] is called a _[[sheaf topos]]_, or often just _[[topos]]_, for short.
 
@@ -7160,6 +7161,63 @@ $$
 Hence the [[category of sets]] is a [[sheaf topos]].
 
 =--
+
+
+
++-- {: .num_prop #Sheafification}
+###### Proposition
+**([[sheafification]] and [[plus construction]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}). Then the [[full subcategory]]-inclusion (eq:FullSubcategoryOfSheaves) of the [[category of sheaves]] over $\mathcal{C}$ (Def. \ref{Sheaf}) into the [[category of presheaves]] (Example \ref{CategoryOfPresheaves}) has a [[left adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) called _[[sheafification]]_ 
+
+\[
+  Sh(\mathcal{C})
+   \underoverset
+     {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+     {\overset{ L }{\longleftarrow}}
+     {\bot}
+  [\mathcal{C}^{op}, Set]
+  \,.
+\]
+
+
+An explicit formula for [[sheafification]] is given by applying the following "[[plus construction]]" _twice_:
+
+$$
+  L(\mathbf{Y}) \simeq (\mathbf{Y}^+)^+
+  \,.
+$$
+
+Here the [[plus construction]]
+
+$$
+  (-)^+
+  \;\colon\;
+  [\mathcal{C}^{op}, Set]
+    \longrightarrow
+  [\mathcal{C}^{op}, Set]
+$$
+
+is given by forming [[equivalence classes]] of sets of [[matching families]] (Def. \ref{CompatibleElements}) for all possible [[covers]] (Def. \ref{Coverage})
+
+$$
+  \mathbf{Y}^+(X)
+  \;\coloneqq\;
+  \left\{
+    \{U_i \overset{\iota_i}{\to} X\} 
+    \; \text{covering}
+    \;,
+    \phi \in Match\left( \{U_i\}, \mathbf{Y}  \right)
+  \right\}/\sim
+$$
+
+under the [[equivalence relation]] which identifies two such [[pairs]] if the two covers have a joint refinement such that the restriction of the two matching families to that joint refinement coincide.
+
+
+=--
+
+
+$\,$
 
 
 +-- {: .num_example #InducedCoverage}
@@ -7202,6 +7260,8 @@ $$
 $$
  
 =--
+
+
 
 +-- {: .num_prop #ComparisonLemma}
 ###### Proposition
@@ -7307,9 +7367,25 @@ We discuss some of the key properties of [[sheaf toposes]]:
 
 Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its [[sheaf topos]] (Def. \ref{Sheaf}). Then:
 
-1. All [[limits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$, and they are computed as limits of presheaves, via Example \ref{LimitsOfPresheavesAreComputedObjectwise}.
+1. All [[limits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$, and they are computed as limits of presheaves, via Example \ref{LimitsOfPresheavesAreComputedObjectwise}:
 
-1. All [[colimits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$ and they are given by the [[sheafification]] of the same colimits computed in the [[category of presheaves]], via Example \ref{LimitsOfPresheavesAreComputedObjectwise}.
+   $$
+     \iota\left( 
+       \underset{\underset{d}{\longleftarrow}}{\lim} \mathbf{X}_d
+     \right)
+     \;\simeq\;
+       \underset{\underset{d}{\longleftarrow}}{\lim} \iota(\mathbf{X}_d)
+   $$
+
+1. All [[colimits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$ and they are given by the [[sheafification]] (Def. \ref{Sheafification}) of the same colimits computed in the [[category of presheaves]], via Example \ref{LimitsOfPresheavesAreComputedObjectwise}:
+
+   $$
+     \underset{\underset{d}{\longrightarrow}}{\lim} \mathbf{X}_d
+     \;\simeq\;
+     L\left( 
+       \underset{\underset{d}{\longleftarrow}}{\lim} \iota(\mathbf{X}_d)
+     \right)
+   $$
 
 1. The [[cartesian monoidal category|cartesian]] (Example \ref{CartesianMonoidalCategory}) [[closed monoidal category]]-structure (Def. \ref{ClosedMonoidalCategory}) on the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ from Example \ref{CartesianClosedMonoidalnessOfCategoriesOfPresheaves} restricts to sheaves: 
 
