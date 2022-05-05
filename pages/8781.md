@@ -13,3 +13,7 @@ How many plane conics are tangent simultaneously to 5 given plane conics in gene
 * [[Schubert calculus]]
 * wikipedia [enumerative geometry](http://en.wikipedia.org/wiki/Enumerative_geometry)
 * William Fulton, _Introduction to intersection theory in algebraic geometry_, CBMS 54, AMS, 1996, second edition
+
+* [[M. Kontsevich]], _Enumeration of rational curves via torus actions_, [arXiv:hep-th/9405035](https://arxiv.org/abs/hep-th/9405035).
+
+* [[G. Ellingsrud]], [[S. A. Strømme]], _Bott's formula and enumerative geometry_, JAMS vol. 9, num. 1, 1996, [arXiv:alg-geom/9411005](https://arxiv.org/abs/alg-geom/9411005).
