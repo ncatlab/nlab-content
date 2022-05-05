@@ -11,11 +11,12 @@ Secretly introduced [[super L-∞ algebras]] in their [[formal dual]] incarnatio
 * {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in *Istanbul 1982, Proceedings, Group Theoretical Methods In Physics*, 228-247 and CERN Geneva - TH. 3499 ([spire](http://inspirehep.net/record/182644/))
 
 
+
 ## Further writings
 
-on the beginnings of [[supergravity]]:
+ on the beginnings of [[supergravity]]:
 
-* van Nieuwenhuizen _Aspects of supergravity_, 2014 ([pdf](http://media.scgp.stonybrook.edu/presentations/20140109_vanNieuwenhuizen.pdf))
+* {#vanNieuwenhuizen1993} van Nieuwenhuizen _Some personal recollections about the discovery of supergravity_, 1993 ([pdf](http://www.iaea.org/inis/collection/NCLCollectionStore/_Public/30/028/30028372.pdf), [[vanNieuwenhuizen1993.pdf:file]])
 
 Part of this story also appears as
 
