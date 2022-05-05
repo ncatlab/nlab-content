@@ -68,10 +68,15 @@ Review of application in [[string phenomenology]] includes
 
 [[D-branes]] in [[string theory]] [[vacua]] defined by Gepner model SCFTs are discussed, via [[boundary conformal field theory]] in
 
+* {#FuchsSchweigertWalcher00} [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
+
+  (with emphasis on [[GSO projections]])
+
+* {#FuchsKasteLercheLutkenSchweigert00} [[Jürgen Fuchs]], P. Kaste, [[Wolfgang Lerche]], C. Lutken, [[Christoph Schweigert]], J. Walcher, _Boundary Fixed Points, Enhanced Gauge Symmetry and Singular Bundles on K3_, Nucl.Phys.B598:57-72, 2001 ([arXiv:hep-th/0007145](https://arxiv.org/abs/hep-th/0007145))
+
+See also
+
 * [[Andreas Recknagel]], [[Volker Schomerus]], _D-branes in Gepner models_, Nucl.Phys. B531 (1998) 185-225 ([arXiv:hep-th/9712186](http://arxiv.org/abs/hep-th/9712186))
-
-
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
 
 * {#BraunSchaeferNameki05} [[Volker Braun]], Sakura Schafer-Nameki, _D-Brane Charges in Gepner Models_, J.Math.Phys. 47 (2006) 092304 ([arXiv:hep-th/0511100](https://arxiv.org/abs/hep-th/0511100))
 
