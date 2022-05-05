@@ -354,9 +354,9 @@ All these sets of simplicies and face and degeneracy maps between them form the 
 +-- {: .num_defn #SimplicialSet}
 ###### Definition
 
-A **[[nLab:simplicial set]]** $S \in sSet$ is
+A **[[simplicial set]]** $S \in sSet$ is
 
-* for each $n \in \mathbb{N}$ a [[nLab:set]] $S_n \in Set$ -- the **set of $n$-[[nLab:simplices]]**;
+* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
 
 * for each [[nLab:injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[nLab:totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
 
@@ -11893,7 +11893,7 @@ $$
 that regard an $n$-simplex as beign a degenerate ("thin") $(n+1)$-simplex.
 All these sets of simplices and face and degeneracy maps between them form the following structure. 
 
-+-- {: .num_defn #SimplicialSet}
++-- {: .num_defn }
 ###### Definition
 
 A **[[simplicial set]]** $S \in sSet$ is 
@@ -11912,7 +11912,7 @@ such that these functions satisfy the _[[simplicial identities]]_.
 
 =--
 
-+-- {: .num_defn #SimplicialIdentities}
++-- {: .num_defn }
 ###### Definition
 
 The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
@@ -12446,7 +12446,7 @@ respectively.
 =--
 
 
-+-- {: .num_defn #KanComplexes}
++-- {: .num_defn #KanComplexe}
 ###### Definition
 
 A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
