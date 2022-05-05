@@ -7,6 +7,14 @@ This page collects links related to
 
   Lecture Notes in Mathematics, Vol 304, Springer 1972
 
+  ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bk-yellow.pdf))
+
 on [[p-localization]] and [[p-completion]] in [[homotopy theory]].
+
+## related $n$Lab entries
+
+* [[totalization]]
+
+(...)
 
 category: reference
