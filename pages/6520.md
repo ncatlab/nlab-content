@@ -62,6 +62,8 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[Spin(7)-instanton]]
 
+* [[worldsheet instanton]], [[membrane instanton]]
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
 
 
