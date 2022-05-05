@@ -33,10 +33,10 @@ Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be a class of 1-cells. Th
 
 +-- {: .num_defn #admissible_0cell}
 ###### Definition 
-Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if every 1-cell with codomain $C$ is admissible (resp. proto-admissible). We denote the class of (proto-)admissible 0-cells by $|\mathbb{A}|$.
+Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if $id_C$ is admissible (resp. proto-admissible). We denote the corresponding class of 0-cells by $|\mathbb{A}|$.
 =--
 
-Due the closure properties of $\mathbb{A}$ this is equivalent to the simpler statement that $id_C$ is admissible (resp. proto-admissible) which is therefor usually taken as definition but the present formulation has the advantage that it works for [[semi-category|semi-categories]] as well.
+For admissible $\mathbb{A}$, $C\in|\mathbb{A}|$ iff all 1-cells with codomain $C$ are admissible. This formulation has the advantage that it makes sense for [[semi-category|semi-categories]] as well.
 
 Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly concise axiomatic description of the presheaf construction.
 
@@ -52,7 +52,7 @@ $$
       & & C & &
   }
 $$
-We say that $\eta$ (or, by abuse, the diagram) exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ iff for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
+We say that $\eta$ (or, by abuse, the diagram) exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ if for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
 
 We say that a 1-cell $h:B\to D$ _preserves_ this left extension if the following diagram exhibits $h\circ e$ as a left extension of $h\circ f$ along $g$ :
 
@@ -107,13 +107,15 @@ We say that the left lifting is _absolute_ if it is preserved by all 1-cells wit
 
 ## Definition
 
+We are now ready to give the definition of a Yoneda structure:
+
 +-- {: .num_defn #yoneda_structure}
 ###### Definition 
 Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be an admissible class of 1-cells.
 
-A _presheaf construction_ $\mathcal{P}$ for $\mathbb{A}$ assigns to every admissible object $A\in |\mathbb{A}|$ its _object of presheaves_ $\mathcal{P}A\in |\mathcal{K}|$ and an admissible 1-cell $y_A:A\to\mathcal{P}A$ called its _Yoneda morphism_ subject to the following conditions:
+A _presheaf construction_ $\mathcal{P}$ for $\mathbb{A}$ assigns to every admissible object $A\in |\mathbb{A}|$ an object $\mathcal{P}A\in |\mathcal{K}|$ called its _object of presheaves_ and an admissible 1-cell $y_A:A\to\mathcal{P}A$ called its _Yoneda morphism_ subject to the following conditions:
 
-1. (YS1) For each admissible 1-cell $f:A\to B$ with admissible domain $A\in |\mathbb{A}|$ there is given a 2-cell $\chi_f:y_A\Rightarrow e_f\circ f$:
+1. (**YS1**) For each admissible 1-cell $f:A\to B$ with admissible domain $A\in |\mathbb{A}|$ there is given a 2-cell $\chi_f:y_A\Rightarrow e_f\circ f$ such that the following diagram
 
 $$
   \array{
@@ -124,10 +126,9 @@ $$
       & & \mathcal{P}A & &
   }
 $$
+exhibits $f$ as an absolute left lifting of $y_A$ along $e_f$ and $e_f$ as a left extension of $y_A$ along $f$.
 
-exhibiting $f$ as an absolute left lifting of $y_A$ along $e_f$ and $e_f$ as a left extension of $y_A$ along $f$.
-
-2. (YS2) For all $A\in|\mathbb{A}|$, $id_{\mathcal{P}A}$ is the left extension of $y_A$ along itself as exhibited in
+2. (**YS2**) For all $A\in|\mathbb{A}|$, $id_{\mathcal{P}A}$ is the left extension of $y_A$ along itself as exhibited in
 
 $$
   \array{
@@ -139,9 +140,25 @@ $$
   }
 $$
 
-3. (YS3) For 
+3. (**YS3**) For all $i:A\to B$, $j:B\to C$ such that $A,B\in |\mathbb{A}|$ and $i,j\in\mathbb{A}$ the following diagram
 
+$$
+  \array{
+   A &\overset{i}{\rightarrow}& B& \overset{j}{\rightarrow} & C
+  \\
+  {}_{y_A}\downarrow &\overset{\chi_{{y_B}\circ i}}{\Rightarrow}&\downarrow_{y_B}&\overset{\chi_j}{\Rightarrow}\swarrow &{}_{e_j}
+  \\
+  \mathcal{P}A&\underset{e_{y_B\circ i}}{\leftarrow} &\mathcal{P}B& &
+  }
+$$
+
+exhibits $e_{{y_B}i}\circ e_j$ as the left extension of $y_A$ along $j\circ i$.
+
+
+The pair $(\mathbb{A},\mathcal{P})$ is called a _Yoneda structure_ on the 2-category $\mathcal{K}$.
 =--
+
+In cases where we need to keep track of from which Yoneda structure the various structural 1- and 2-cells come from we will use the presheaf construction as a superscript for disambiguation: for Yoneda structure $(\mathbb{A},\mathcal{P})$ we write $y_A^\mathcal{P}$ and $\chi_f^{\mathcal{P}}$ etc.
 
 ## Properties
 
