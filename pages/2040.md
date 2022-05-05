@@ -22,11 +22,14 @@
 
 ## Idea
 
-Quite generally, the term _Mackey functor_ refers to an [[additive functor]] from a ([[subcategory]] of) a [[category of correspondences]] (in a [[disjunctive category]] $\mathcal{C}$) to possibly any other [[additive category]] which however usually is the "base" abelian category. More generally the term now refers to the fairly obvious [[homotopy theory|homotopy theoretic]] or [[higher category theory|higher categorical]] refinements of this concept.
+Generally, the term _Mackey functor_ refers to an [[additive functor]] from a ([[subcategory]] of) a [[category of correspondences]] (in a [[disjunctive category]] $\mathcal{C}$) to possibly any other [[additive category]] which however usually is the "base" abelian category. More generally the term now refers to the fairly obvious [[homotopy theory|homotopy theoretic]] or [[higher category theory|higher categorical]] refinements of this concept.
 
 Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]).
 
-The concept was however introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). Here the [[equivariant homotopy groups]] $\pi_n(E)$ of a (genuine) [[G-spectrum]] $E$ organize into a Mackey functor on $G$-orbits, and this plays a key role in the [[equivariant Whitehead theorem]].  In this context of [[equivariant stable homotopy theory]] Mackey functors were given a full [[(∞,1)-category]]-theoretic formulation in ([Barwick 14](#Barwick14)).
+Specificallu, the concept was introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). Here the underlying [[category of correspondences]] is that in [[finite set|finite]] [[G-sets]], called the _[[Burnside category]]_.  
+
+The [[equivariant homotopy groups]] $\pi_n(E)$ of a (genuine) [[G-spectrum]] $E$ organize into a Mackey functor on the [[Burnside category]] with values in [[abelian groups]]. This plays a key role in the [[equivariant Whitehead theorem]].  In fact, genunine [[G-spectra]] themselves are equivalent to Mackey [[(∞,1)-functors]] from the [[Burnside category]] to the [[(∞,1)-category of spectra]] ([GuillouMay 11](#GuillouMay11), [Barwick 14](#Barwick14)).
+
 
 ## Definition
 
@@ -205,11 +208,13 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
 
 * [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
-* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 * {#Barwick15} [[Clark Barwick]], [[Saul Glasman]], Jay Shah, _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
 
-* {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_ ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
+The generalization of [[K-theory of permutative categories]] to spectral Mackey functors is discussed in
+
+* {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_, Algebraic & Geometric Topology 15.1 (2015): 537-563 ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
 
 Lectures notes include
 
@@ -219,8 +224,11 @@ Application of Mackey functors to the theory of [[motives]] includes
 
 * {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
 
-Categorification to Mackey 2-functors can be found in 
+[[categorification|Categorification]] to Mackey [[2-functors]] is discussed found in 
 
-* [[Paul Balmer]], Ivo Dell'Ambrogio, _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
+* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
 
 [[!redirects Mackey functors]]
+
+[[!redirects spectral Mackey functor]]
+[[!redirects spectral Mackey functors]]
