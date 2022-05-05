@@ -91,9 +91,9 @@ While therefore the premise of perturbative string theory is conceptually sugges
  {#Scales}
 
 
-* [[string tension]] $T = 1/(2\pi \alpha')$
+* [[string tension]] $T = 1/(2\pi \alpha^\prime)$
 
-* string scale $l_s = \sqrt{\alpha'}$
+* [[string length scale]] $l_s = \sqrt{\alpha'}$
 
 * string [[coupling constant]] $g_s = e^\lambda$ 
  
@@ -109,6 +109,7 @@ While therefore the premise of perturbative string theory is conceptually sugges
 
 (see e.g. [arXiv:0908.0333](http://arxiv.org/abs/0908.0333))
 
+see also at _[[non-perturbative effect]]_ the section _[Worldsheet and brane instantons](non-perturbative+effect#WorldsheetAndBraneInstantons)_
 
 
 ## Critical string theories and quantum anomalies
