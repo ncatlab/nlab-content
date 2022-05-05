@@ -269,7 +269,9 @@ Suppose that $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sh
 +-- {: .num_example }
 ###### Example
 
-If $C$ is a category with all [[finite limits]] and if the unique functor $\pi \colon C \to \ast$ to the [[terminal category]] preserves covers (for $\ast$ equipped with the trivial topology/[[coverage]]) then $Sh(C)$ is locally connected. This is because the inclusion of the terminal object $i \colon \ast \to C$ provides a [[right adjoint]] to $\pi$, so that there is an 
+If $C$ is a category with all [[finite limits]] and if the unique functor $\pi \colon C \to \ast$ to the [[terminal category]] is a [[cover-preserving functor]] (for $\ast$ equipped with the trivial topology/[[coverage]]) then $Sh(C)$ is locally connected. 
+(In particular, this holds for presheaf toposes). 
+This is because the inclusion of the terminal object $i \colon \ast \to C$ provides a [[right adjoint]] to $\pi$, so that there is an 
 [[adjoint quadruple]] of functors on [[presheaf categories]]
 
 $$
