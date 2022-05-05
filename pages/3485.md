@@ -412,22 +412,20 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 =--
 
 
-## Related entries
-
-* [[representation theory]], [[linear representation]],
-  [[category of representations]]
-
-* [[covering space]]
-
-* [[Burnside ring]]
-
-* [[groupoidification]]
 
 ## Related concepts
 
+* [[covering space]]
+
 * [[regular representation]]
 
+* [[Burnside ring]], [[stable cohomotopy]]
+
+* [[groupoidification]]
+
 * [[∞-permutation representation]]
+
+* [[permutation D-brane]]
 
 ## References
 
