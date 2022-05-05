@@ -67,6 +67,7 @@ Every  [[Grothendieck topos]] like $Sh(\mathcal{C}, \tau)$ and $PSh(\mathcal{C})
 
 =--
 
+
 +-- {: .num_remark}
 ###### Remark
 
