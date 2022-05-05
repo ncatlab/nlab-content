@@ -22,6 +22,9 @@
 The [[super Yang-Mills theory]] in [[dimension]] 4 with the 
 maximum number $N = 4$ of [[supersymmetries]].
 
+[[!include superconformal symmetry -- table]]
+
+
 ## Properties of 4d SYM
 
 ### Conformal invariance
