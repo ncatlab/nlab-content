@@ -14,6 +14,8 @@
 
 * [[morphism]] / **1-morphism**
 
+  [[horizontal morphism]], [[vertical morphism]]
+
 * [[2-morphism]]
 
 * [[3-morphism]]
