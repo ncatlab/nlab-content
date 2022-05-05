@@ -5,7 +5,7 @@
 
 ## Idea
 
-A __matrix__ is a function $M:[n]\times[m]\rightarrow X$ from the Cartesian product $[n]\times[m]$ to a set $X$.
+A __matrix__ is a [[list]] of lists.
 
 Often one uses the term in a context where one can add and multiply matrices using [[matrix calculus]].
 
