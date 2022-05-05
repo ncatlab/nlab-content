@@ -243,6 +243,8 @@ The following table displays parts of this cascade of field theories which are i
 
     * [string theory FAQ -- What does it mean to say that string theory has a "landscape" of solutions?](string%20theory%20FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
 
+* [[Randall-Sundrum model]]
+
 ## References
  {#References}
 
@@ -280,8 +282,8 @@ A textbook discussion in the context of [[supergravity]] is in
 
 In
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
-  {#CastellaniDAuriaFre}
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+  
 
 the mechanism is discussed around Section V.3.3., page 1186 in volume 2.
 
@@ -291,18 +293,18 @@ The discussion in the [[first order formulation of gravity]] is given in
 
 A formalization of Kaluza-Klein compactification in [[perturbation theory]] formalized by [[factorization algebras]] with values in [[BV-complexes]] is in section 19 of
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
- {#Costello11}
+* {#Costello11} [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+ 
 
 A textbook account of the geometry behind the [[Lorentz force]] in the Kaluza-Klein mechanism (the idea that geodesics on the gauge bundle project to curved trajectories on the base manifold) can be found in the introduction of chapter 1 and in chapters 9 and 10 of:
 
-* David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. 
-  {#Bleecker81}
+* {#Bleecker81} David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. 
+  
 
 An expository talk of the above material from Bleecker can be found in this talk:
 
-* [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
- {#Bartlett13}
+* {#Bartlett13} [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
+ 
 
 Some variant of KK is discussed in 
 
