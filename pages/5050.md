@@ -28,13 +28,37 @@ For details see [[manifold]].
 
 * [[closed manifold]]
 
+## Properties
+
++-- {: .num_prop #SmoothManifoldsWithBoundaryEmbedIntoDiffeologicalSpaces}
+###### Proposition
+**([[manifolds with boundary]] form [[full subcategory]] of [[diffeological spaces]])**
+
+The evident [[functor]]
+
+$$
+  SmthMfdWBdr \overset{\phantom{AAAA}}{\hookrightarrow} DiffeologicalSpaces
+$$
+
+from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundary]] to that of [[diffeological spaces]] is [[fully faithful functor|fully faithful]], hence is a [[full subcategory]]-embedding.
+
+=--
+
+([Igresias-Zemmour 13, 4.16](#IgresiasZemmour13))
+
+
+
+
+
+
 ## References
 
 * [[Dominic Joyce]], _On manifolds with corners_ ([arXiv:0910.3518](http://arxiv.org/abs/0910.3518))
 
-Discussion in the context of [[synthetic differential geometry]] realized in the [[Cahiers topos]] is in
+The [[full subcategory]]-embedding of manifolds with boundary into that of [[diffeological spaces]] is discussed in
 
-* {#Schlegel15} [[Vincent Schlegel]], _Gluing Manifolds in the Cahiers Topos_ ([arXiv:1503.07408](http://arxiv.org/abs/1503.07408))
+* {#IgresiasZemmour13} [[Patrick Iglesias-Zemmour]], section 4.16 of _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
+
 
 
 [[!redirects manifolds with boundary]]
