@@ -856,6 +856,68 @@ The [[sheaf topos]] of [[smooth sets]] from Prop. \ref{SmoothSetsAreSheavesOnCar
 This we now explain and discuss in the remainder of this section.
 
 
++-- {: .num_lemma}
+###### Lemma
+
+There is an [[adjoint quadruple]] of [[functors]] between the [[category of presheaves]] over [[CartSp]] and the [[category of sets]]
+
+$$
+  [CartSp^{op}, Set]
+    \array{
+      \overset{\phantom{AA} \Pi_0 \phantom{AA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} \Gamma \phantom{AA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
+    }
+  [\ast, Set] = Set
+$$
+
+such that 
+
+1. the functor
+
+   $$
+     \Gamma(\mathbf{X}) = Hom(\ast, \mathbf{X}) =  \mathbf{X}(\ast)
+   $$
+
+   sends a [[presheaf]] (pre-smooth set) $\mathbf{X}$ to the set $\mathbf{X}(\ast)$ of its plots on the [[point]] $\ast = \mathbb{R}^0$;
+
+1. $Disc$ and $coDisc$ are [[full and faithful functors]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[CartSp]] has a [[terminal object]], given by the [[point]] $\ast =\mathbb{R}^0 \on CartSp$, there is an [[adjoint pair]] of [[functors]] between $CartSp$ and the [[terminal category]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialCategoryAndTerminalCategory))
+
+$$
+  \ast
+    \underoverset
+    {\underset{}{\hookrightarrow}}
+    {\overset{}{\longleftarrow}}
+    {\bot}
+   CartSp
+$$
+
+whose [[right adjoint]] takes the unique object of the terminal category to that terminal object ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialAndTerminalObjectInTermsOfAdjunction)).
+
+From this it follows (by [this example](geometry+of+physics+--+Categories+and+Toposes#KanExtensionOfAdjointPairIsAdjointQuadruple)) that [[Kan extension]] produces an [[adjoint quadruple]] of functors, with 
+
+1. $\Gamma$ the operation of pre-composition with the terminal object inclusion $\ast \hookrightarrow CartSp$
+
+1. $Disc$ the [[left Kan extension]] along the inclusion $\ast \hookrightarrow CartSp$ of the terminal object. 
+
+The former is manifestly the operation of evaluating on the terminal object.
+Moreover, since the terminal object inclusion is manifestly a [[fully faithful functor]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#FullyFaithfulFunctor)), it follows that also its [[left Kan extension]] $Disc$ is fully faithful  ([this prop.](geometry+of+physics+--+Categories+and+Toposes#LeftKanExtensionAlongFullyFaithfulFunctor)).
+
+This finally implies that also $coDisc$ is fully faithful, by [this prop.](geometry+of+physics+--+Categories+and+Toposes#FullyFaithfulAdjointTriple).
+
+=--
+
 ### Connectedness
  {#ConnectedSmooth0Type}
 
