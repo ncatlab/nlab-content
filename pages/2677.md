@@ -82,6 +82,7 @@ $$
 
 Here in the second step we used the definition of algebraic K-theory for ordinary [[commutative rings]] as the [[K-theory of a permutative category|K-theory of the permutative category]] of modules ([this example](K-theory+of+a+permutative+category#examples#OrdinaryAlgebraicKTheoryFromPermutativeCategoryOfProjectiveModules)), in the second step we used the identification of modules over $\mathbb{F}_1$ with [[pointed set|pointed]] [[finite sets]] from [above](#Modules), and finally we used the identification of the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite set]] with the [[sphere spectrum]] ([this example](K-theory+of+a+permutative+category#StableCohomotopyIsKTheoryOfFinSet)), which is the spectrum representing [[stable cohomotopy]], by definition.
 
+The perspecive that $M \mathbb{F}_1$  should be [[stable cohomotopy]] has been highlighted in ([Deitmar 06, p. 2](#Deitmar06), [Guillot 06](#Guillot06)).
 
 ## Related concepts
 
@@ -102,7 +103,7 @@ After the very first observations by Tits, pioneers were [[Christophe Soulé]] a
 
 * [[Lieven Le Bruyn]], _Looking for $F_{un}$_, [blog](http://www.neverendingbooks.org/looking-for-f_un)
 
-* {#Snyder07} [[Noah Snyder]], _[The field with one element](https://sbseminar.wordpress.com/2007/08/14/the-field-with-one-element/)_, 
+* {#Snyder07} [[Noah Snyder]], _[The field with one element](https://sbseminar.wordpress.com/2007/08/14/the-field-with-one-element/)_, 2007
 
 * Javier L&#243;pez Pe&#241;a, [[Oliver Lorscheid]], _Mapping $F_1$-land:An overview of geometries over the field with one element_, [arXiv/0909.0069](http://arxiv.org/abs/0909.0069)
 
@@ -156,6 +157,12 @@ with details in
 More discussion relating to this includes
 
 * {#LeBruyn13} [[Lieven Le Bruyn]], _Absolute geometry and the Habiro topology_ ([arXiv:1304.6532](http://arxiv.org/abs/1304.6532))
+
+### Relation to stable homotopy theory
+
+* {#Deitmar06} [[Anton Deitmar]], _Remarks on zeta functions and K-theory over $\mathbb{F}_1$_ ([arXiv:math/0605429](https://arxiv.org/abs/math/0605429))
+
+* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](https://arxiv.org/abs/math/0612327))
 
 
 [[!redirects field of one element]]
