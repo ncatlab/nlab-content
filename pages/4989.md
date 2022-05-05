@@ -23,7 +23,7 @@ A **cohesive site** is a small [[site]] whose [[topos of sheaves]] is a [[cohesi
 +-- {: .num_defn}
 ###### Definition
 
-Let $C$ be a small [[site]], i.e. a [[small category]] equipped with a [[coverage]]/[[Grothendieck topology]].  We say that $C$ is a **cohesive site** if
+Let $C$ be a [[small site|small]] [[site]], i.e. a [[small category]] equipped with a [[coverage]]/[[Grothendieck topology]].  We say that $C$ is a **cohesive site** if
 
 1. $C$ has a [[terminal object]].
 
@@ -55,18 +55,24 @@ is a [[cohesive topos]] over [[Set]] for which _cohesive pieces have points_ .
 Following the notation at [[cohesive topos]], we write 
 
 $$
-  (Disc \dashv \Gamma) := (L Const \dashv \Gamma) : Sh(C) \to Set
+  (Disc \dashv \Gamma) 
+    \coloneqq 
+  (L Const \dashv \Gamma) 
+  \;\colon\; 
+  Sh(C) \to Set
 $$
 
 for the [[global section]] [[geometric morphism]], where the [[inverse image]] $Disc$ constructs [[discrete object]]s. We need to exhibit two more adjoints
 
 $$
-  (\Pi_0 \dashv Disc \dashv \Gamma \dashv CoDisc) : Sh(C) \to Set
+  (\Pi_0 \dashv Disc \dashv \Gamma \dashv CoDisc) 
+  \;\colon\; 
+  Sh(C) \to Set
 $$
 
-and show that $\Pi_0$ preserves finite [[product]]s. Finally we need to show that $\Gamma X \to \Pi_0 X$ is an [[epimorphism]] for all $X$.
+and show that $\Pi_0$ preserves [[finite products]]. Finally we need to show that $\Gamma X \to \Pi_0 X$ is an [[epimorphism]] for all $X$.
 
-Firstly, since $C$ is a [[locally connected site]], any constant presheaf is a sheaf.  This implies that the functor $Disc$ has a further [[left adjoint]] given by taking colimits over $C^{op}$, which we denote $\Pi_0$.  Hence $Sh(C)$ is a [[locally connected topos]].
+Firstly, since $C$ is a [[locally connected site]], any constant presheaf is a sheaf.  This implies that the functor $Disc$ has a further [[left adjoint]] given by taking [[colimits]] over $C^{op}$, which we denote $\Pi_0$.  Hence $Sh(C)$ is a [[locally connected topos]].
 
 Moreover, since $C$ is [[cosifted category|cosifted]], $\Pi_0$ preserves finite products.  In particular, $Sh(C)$ is [[connected topos|connected]] and even *strongly connected*.
 
