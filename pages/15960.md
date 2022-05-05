@@ -74,10 +74,6 @@ A computer [[proof assistant]] for working with opetopic type theory is
 
 * [[Eric Finster]], _Orchard_ ([GitHub repository](https://github.com/ericfinster/orchard))
 
-* [[Eric Finster]], _Opetopic_ ([GitHub repository](https://github.com/ericfinster/opetopic)) ([Website](http://opetopic.net/))
-
-An online demo version is at
-
 * [[Eric Finster]], _[Opetope!](http://sma.epfl.ch/~finster/opetope/opetope.html)_ (online opetopic type theory system)
 
 A video tutorial for Orchard is 
@@ -90,3 +86,6 @@ A video tutorial for Orchard is
 
 * [[Eric Finster]], _Orchard 4 - Identities and invertibility_ ([video](http://www.youtube.com/watch?v=DRFjUSaNexQ&list=PLWAw3zSOqFVKZ-LzAq4hQaKIVj8zjtfCs&index=6))
 
+Apparently Orchard is discontinued in favour of an online version of similar functionality:
+
+* [[Eric Finster]], _Opetopic_ ([GitHub repository](https://github.com/ericfinster/opetopic)) ([Website](http://opetopic.net/))
