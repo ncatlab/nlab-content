@@ -140,7 +140,7 @@ If $C$ has finite limits and colimits, then there is a unique map
 $$
  u :  coim f \to im f
 $$
-from its regular coimage to its image such that
+from its regular coimage to its regular image such that
 $$
   f = (c \to coim f \stackrel{u}{\to} im f \to d)
   \,.
