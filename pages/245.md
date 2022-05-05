@@ -204,7 +204,7 @@ For a review of definitions of braided monoidal categories, braided monoidal fun
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
 For an elementary introduction to braided monoidal categories using [[string diagram]]s, see:
-Eventually we should include all these diagrams here, along with the definition of braided monoidal functor and braided monoidal natural transformation! Can anyone help out?
+
 * [[John Baez]] and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf), to appear in _New Structures in Physics_, ed. Bob Coecke. 
 
 +--{.query}
