@@ -72,7 +72,7 @@ to "the" [[category of sets]]. A **rooted tree** is a forest for which $F(0)$ is
 
 In this case, we get from a tree as functor $F$ to a tree as digraph by passing to the [[category of elements]] $El(F)$. The vertices of the digraph are the elements, and the edges are those morphisms of $El(F)$ which map to morphisms $i + 1 \to i$ in $\mathbb{N}^{op}$. Notice that $\mathbb{N}^{op}$ is itself (the free category on) a tree as digraph, one that is terminal in the category of forests. 
 
-In the other direction, starting with a tree as digraph, we define a functor $F \colon \omega^{op} \to Set$ by letting $F(n)$ be the set of vertices $v$ such that the path from $v$ to the root has $n$ edges. The map $F(n+1) \to F(n)$ moves a vertex $v \in F(n+1)$ to the vertex that is one step closer to the root (along the unique path from $v$ to the root). 
+In the other direction, starting with a tree as digraph, we define a functor $F \colon \mathbb{N}^{op} \to Set$ by letting $F(n)$ be the set of vertices $v$ such that the path from $v$ to the root has $n$ edges. The map $F(n+1) \to F(n)$ moves a vertex $v \in F(n+1)$ to the vertex that is one step closer to the root (along the unique path from $v$ to the root). 
 
 The functor description makes it clear that the category of forests is a (presheaf) [[topos]], indeed a [[Grothendieck topos]]; therefore the [[category of trees]], which is equivalent, is also a [[topos]]. 
 
