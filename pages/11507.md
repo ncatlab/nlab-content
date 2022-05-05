@@ -1,5 +1,3 @@
-[[!redirects equivariant -- history]]
-
 < [[equivariant]]
 
 
