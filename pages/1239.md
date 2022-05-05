@@ -94,9 +94,15 @@ More in detail, this yields the following identifications:
 
   * [[module algebra]], [[comodule algebra]], [[Hopf action]], [[measuring]]
 
+* [[representation ring]]
+
+* [[irreducible representation]]
+
 * [[Schur's lemma]]
 
 * [[Young diagram]]
+
+* [[Schur index]]
 
 * [[McKay correspondence]], [[ADE classification]]
 
