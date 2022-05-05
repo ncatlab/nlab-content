@@ -8,6 +8,10 @@
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
+#### Combinatorics
++--{: .hide}
+[[!include combinatorics - contents]]
+=--
 =--
 =--
 
