@@ -80,7 +80,7 @@ One of the original sources is
 
 A high level introduction
 
-* Răzvan Diaconescu, [Intitution Theory](https://www.iep.utm.edu/insti-th/), Internet Encyclopedia of Philosophy
+* Răzvan Diaconescu, [Institution Theory](https://www.iep.utm.edu/insti-th/), Internet Encyclopedia of Philosophy
 
 A monograph on the subject is
 
