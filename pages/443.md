@@ -29,14 +29,14 @@ $Rel$ is the [[category]] whose [[objects]] are [[sets]] and whose [[morphisms]]
 ## Definition
 
 $Rel$ is a category whose  [[objects]] or $0$-cells are [[sets]], whose [[morphisms]] or $1$-cells $X \to Y$ are [[relations]] $R \subseteq X \times Y$, and where the _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined as the usual relational composite:
-$$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z .$$   The _identity_ $1_X: X \to X$ is then the [[equality relation]], in other words the usual diagonal embedding 
-$$\{(x, x): x \in X\} \hookrightarrow X \times X.$$ 
+$$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \subseteq X \times Z .$$   The _identity_ $1_X: X \to X$ is then the [[equality relation]], in other words the usual diagonal embedding 
+$$\{(x, x): x \in X\} \subseteq X \times X.$$ 
 
-Another important operation on relations is _taking the opposite_: any relation $R: X \to Y$ induces a relation 
-$$R^{op} = \{(y, x) \in Y \times X: (x, y) \in R\} \hookrightarrow Y \times X$$ 
-This makes $Rel$ into a [[dagger-category]]: in other words, we have $(S \circ R)^{op} = R^{op} \circ S^{op}$, $1_X^{op} = 1_X$, and $(R^{op})^{op} = R$.
+Another important operation on relations is taking the _opposite_, also known as the _transpose_ or sometimes the _converse_.   Any relation $R: X \to Y$ induces a relation 
+$$R^\dagger = \{(y, x) \in Y \times X: (x, y) \in R\} \subseteq Y \times X$$ 
+This makes $Rel$ into a [[dagger-category]]: in other words, we have $(S \circ R)^\dagger = R^\dagger \circ S^\dagger$, $1_X^\dagger = 1_X$, and $(R^{\dagger})^{\dagger} = R$.
 
-We can enhance $Rel$ to a 2-category, which we can call $\mathbf{Rel}$ to distinguish it from the category, by taking [[2-morphisms]] or $2$-cells $R \Rightarrow S$ to be inclusions of relations.   Since there is at most one 2-morphism between parallel 1-morphisms, $\mathbf{Rel}$ is a [[2-poset]]: that is, an [[enriched category|category enriched]] in the category of [[posets]].
+We can enhance $Rel$ to a 2-category, which we can call $\mathbf{Rel}$ to distinguish it from the mere category, by taking [[2-morphisms]] or $2$-cells $R \Rightarrow S$ to be inclusions of relations.   Since there is at most one 2-morphism between parallel 1-morphisms, $\mathbf{Rel}$ is a [[2-poset]]: that is, an [[enriched category|category enriched]] in the category of [[posets]].
 
 ## Relations and spans
 
@@ -49,33 +49,10 @@ and a relation from $X$ to $Y$ is just a [[subobject]] of the terminal span, in 
 To each span $S$ from $X$ to $Y$, there is a corresponding relation from $X$ to $Y$, defined by taking the [[image]] of the unique morphism of spans $S \to X \times Y$ between $X$ and $Y$. It may be checked that this yields a lax morphism of bicategories 
 $$Span \to Rel$$ 
 
-
-## Relations in a category
-
-More generally, given any [[regular category]] $C$, one can form a 2-category of relations $Rel(C)$ in similar fashion. The objects of $Rel(C)$ are objects of $C$, the morphisms $r: c \to d$ in $Rel(C)$ are defined to be [[subobject|subobjects]] of the terminal span from $c$ to $d$, and 2-cells $r \to s$ are subobject inclusions. To form the composite of $r \subseteq c \times d$ and $s \subseteq d \times e$, one takes the [[image]] of the unique span morphism 
-$$r \times_c s \to c \times e$$ 
-in the category of spans from $c$ to $e$, thus giving a mono into the terminal span from $c$ to $e$. The subobject class of this mono defines the relation 
-$$s \circ r \subseteq c \times e$$ 
-and the axioms of a regular category ensure that $Rel(C)$ is a 2-category with desirable properties. Similar to what was said above, there is again a lax morphism of bicategories 
-$$Span(C) \to Rel(C)$$
-
-There is also a functor 
-$$i: C \to Rel(C)$$ 
-that takes a morphism $f: c \to d$ to the functional relation defined by $f$, i.e., the relation defined by the subobject class of the mono 
-$$\langle 1, f\rangle: c \to c \times d$$
-
-Such functional relations may also be characterized as precisely those 1-cells in $Rel(C)$ which are [[adjunction|left adjoints]]; the right adjoint of $\langle 1, f \rangle$ is the opposite relation $\langle f, 1\rangle$. The unit amounts to a condition 
-$$1_c \subseteq \langle f, 1 \rangle \circ \langle 1, f \rangle$$ 
-which says that the functional relation is _total_, and the counit amounts to a condition 
-$$\langle 1, f \rangle \circ \langle f, 1 \rangle \subseteq 1_d$$ 
-which says the functional relation is _well-defined_. 
-
-
-## Limits and Colimits
+## Limits and colimits##
 
 The category $Rel$ does have [[products]] and [[coproducts]]; they coincide (by self-duality) and are just [[disjoint unions]] of sets. However, otherwise $Rel$ has very few (co)limits; it doesn't even have
-splittings of all idempotents. All symmetric idempotents have splittings, but the
-order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
+splittings of all idempotents. All symmetric idempotents have splittings, but the order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
 split. It follows that it can't have (co)equalisers.
 
 Since the category $Rel$ is the category of _free algebras_ ([[Kleisli
@@ -84,7 +61,7 @@ of a limit of such algebras being free again. To get decent limits,
 one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]],
 viz., the category of complete [[suplattices]].
 
-### Weak Equalizers and Completion###
+### Weak equalizers and completion###
 
 As the category $Rel$ has _[[weak limit|weak]]_ [[equalizers]], one can take its [[exact completion]]. This happens to be the category of complete
 sup-lattices and sup-preserving maps. And the tensor product on $Rel$
@@ -92,7 +69,8 @@ extends to the [[exact completion]].
 
 The Freyd completion of $Rel$, which is equivalent to the category of basic pairs which appear in formal topology, has all limits exactly because $Rel$ has products and weak equalizers. The Freyd completion adds freely a strong factorization system to a(ny) category $C$.  The Freyd completion has products if $C$ has products, and it has equalizers if $C$ has weak equalizers.
 
-### In the Double Category of Relations###
+### In the double category of relations###
+
 If you insert the category $Rel$ into the [[double category]]
 $\mathrm{RRel}$ of sets, mappings and relations, one has a double
 category with all [[double limits]] and colimits. For instance, the
@@ -107,6 +85,7 @@ weak double categories (with the same objects, "strict morphisms",
 colimits.
 
 ## As an enriched category##
+
 Writing $\mathcal{V}$ for the category of [[suplattices]], $Rel$ is a
 $\mathcal{V}$-category (see [[enriched category]]). With that in mind, the parallel:
 
@@ -124,23 +103,41 @@ especially, from coproducts to products, works just as it does in the
 case of [[additive categories]], when it comes to these
 $\mathcal{V}$-categories. 
 
-##In Spans##
+##In spans##
 See [[van Kampen colimit]].
 
-##Mono/Epimorphisms##
+##Mono/epimorphisms##
+
 It is not hard to see that a relation $R \subseteq A \times B$ is a
 [[monomorphism]] $A \to B$ iff the map $\mathcal{P}A \to \mathcal{P}B$
 sending a subset of A to the set of all R-relatives of its members is
 injective; dually for [[epimorphisms]].
 
-## 2-Categorical Aspects##
+## 2-categorical aspects##
 
-Let $\mathbf{Rel}$ be the 2-category with sets as objects, relations as morphisms, and a unique 2-morphism from a relation $
+Recall that we are using $\mathbf{Rel}$ to stand for the 2-category of sets, relations and inclusions.   Various facts about relations can be recast in these terms.  For example, a relation $L : X \to Y$ is a function from $X$ to $Y$ iff it has a right adjoint $R : Y \to X$ in $\mathbf{Rel}$.  In this case, its right adjoint equals its transpose $L^\dagger : Y \to X$.
 
+Similarly, a monad $T : X \to X$ in the 2-category $\mathbf{Rel}$ is exactly a preorder on $X$, since the existence of a unit $i: 1_X \Rightarrow T$ says that $T$ is reflexive and the existence of the multiplication $m: T^2 \Rightarrow T$ says that $T$ is transitive.    This monad has an [[Eilenberg-Moore category|Eilenberg-Moore object]] iff it is an equivalence relation, in which case the Eilenberg-Moore object is the set of equivalence classes of the relation.
 
+## Relations in a category
 
-For example, a monad in the 2-category Rel is exactly a preorder on a set, and has an EM-object iff it is an equivalence relation, in which case the EM-object is the set of equivalence classes of the relation.
+More generally, given any [[regular category]] $C$, one can form a 2-category of relations $\mathbf{Rel}(C)$ in similar fashion. The objects of $\mathbf{Rel}(C)$ are objects of $C$, the morphisms $r: c \to d$ in $\mathbf{Rel}(C)$ are defined to be [[subobject|subobjects]] of the terminal span from $c$ to $d$, and 2-cells $r \to s$ are subobject inclusions. To form the composite of $r \subseteq c \times d$ and $s \subseteq d \times e$, one takes the [[image]] of the unique span morphism 
+$$r \times_c s \to c \times e$$ 
+in the category of spans from $c$ to $e$, thus giving a mono into the terminal span from $c$ to $e$. The subobject class of this mono defines the relation 
+$$s \circ r \subseteq c \times e$$ 
+and the axioms of a regular category ensure that $\mathbf{Rel}(C)$ is a 2-category with desirable properties. Similar to what was said above, there is again a lax morphism of bicategories 
+$$Span(C) \to \mathbf{Rel}(C)$$
 
+There is also a functor 
+$$i: C \to \mathbf{Rel}(C)$$ 
+that takes a morphism $f: c \to d$ to the functional relation defined by $f$, i.e., the relation defined by the subobject class of the mono 
+$$\langle 1, f\rangle: c \to c \times d$$
+
+Such functional relations may also be characterized as precisely those 1-cells in $Rel(C)$ which are [[adjunction|left adjoints]]; the right adjoint of $\langle 1, f \rangle$ is the opposite relation $\langle f, 1\rangle$. The unit amounts to a condition 
+$$1_c \subseteq \langle f, 1 \rangle \circ \langle 1, f \rangle$$ 
+which says that the functional relation is _total_, and the counit amounts to a condition 
+$$\langle 1, f \rangle \circ \langle f, 1 \rangle \subseteq 1_d$$ 
+which says the functional relation is _well-defined_. 
 
 ## Related categories
 
