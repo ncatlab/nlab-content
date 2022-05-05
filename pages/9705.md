@@ -30,7 +30,7 @@ Gromov introduced many techniques of proving the h-principle including the metho
 * M. Gromov, Papers on h-principle: geometric methods for solving partial differential equations/inequalities and the homotopy structure in the spaces of their solutions, [list](http://www.ihes.fr/~gromov/topics/topic2.html) (with some links)
 * Y. Eliashberg, N. Mishachev, _Introduction to the h-principle_, Graduate Studies in Mathematics 48. Amer. Math. Soc. 2002 [gBooks](http://books.google.co.uk/books?isbn=0821832271)
 
-* [[John Francis]], _[The h-principle in topology](http://sites.math.northwestern.edu/~jnkf/classes/hprin/)_ (overview [pdf](http://sites.math.northwestern.edu/~jnkf/classes/hprin/1overview.pdf))
+* [[John Francis]], _[The h-principle in topology](https://sites.math.northwestern.edu/~jnkf/classes/hprin/)_ (overview [pdf](https://sites.math.northwestern.edu/~jnkf/classes/hprin/1overview.pdf))
 
 
 * Andr&#233;s Angel, Johannes Ebert, _Gromov's h-principle and its applications research seminar_, 2010, outline [pdf](http://wwwmath.uni-muenster.de/u/jeber_02/frueherelehre/hprinciple.pdf) (with useful bibliography)
