@@ -15,7 +15,7 @@
 
 ## Idea
 
-Any physical process is supposed to take [[physical states]] into physical states ([[Schrödinger picture]]). If  [[density matrices]] are used to describe [[quantum states]] in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices. So for finite-dimensional state spaces then an process it should be a [[linear map]] of [[vector spaces]] of [[matrices]]
+Any physical process is supposed to take [[physical states]] into physical states ([[Schrödinger picture]]). If  [[density matrices]] are used to describe [[quantum states]] in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices. So for finite-dimensional state spaces a process should be a [[linear map]] of [[vector spaces]] of [[matrices]]
 
 $$
   U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
@@ -70,6 +70,8 @@ $$
 
 is positive.
 
+A _quantum operation_ (or quantum channel) is a map that is both completely positive and trace preserving (often abbreviated to CPTP).
+
 ### In terms of compact closed categories
  {#InTermsOfCompactClosedCategories}
 
@@ -117,7 +119,7 @@ See also [[extremal quantum channels]] and [[graphical quantum channels]].
 
 ## Universal property
 
-The category of natural numbers and quantum channels between them is a [[semicartesian monoidal category]] with the monoidal structure given by multiplication of numbers. Being semicartesian, the monoidal unit (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
+The category of natural numbers and quantum operations between them is a [[semicartesian monoidal category]] with the monoidal structure given by multiplication of numbers. Being semicartesian, the monoidal unit (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
 
 In fact, this category has the universal property of the semicartesian reflection of the monoidal category of isometries. This is the category whose objects are natural numbers, considered as Hilbert spaces, and whose morphisms are isometries between them, where an [[isometry]] $m\to n$ is an $m\times n$ complex matrix $V$ such that $VV*=I$. 
 In detail, the universal property says that for any strict semicartesian monoidal category $\mathcal{D}$ and any monoidal functor $\mathbf{Isometries}\to \mathcal{D}$, there is a unique symmetric monoidal functor making the following diagram commute:
