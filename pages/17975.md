@@ -105,7 +105,7 @@ Comparison to [[experiment]] (observation) is discussed in
 
 * Nilanjan Banik, Adam J. Christopherson, [[Pierre Sikivie]], Elisa Maria Todarello, _New astrophysical bounds on ultralight axionlike particles_, Phys. Rev. D 95, 043542 (2017) ([arXiv:1701.04573](https://arxiv.org/abs/1701.04573))
 
-Claim that the galaxy core-cusp problem is not resolved after all id discussed in
+Claim that the galaxy core-cusp problem is not resolved after all is discussed in
 
 * Heling Deng, Mark P. Hertzberg, Mohammad Hossein Namjoo, Ali Masoumi, _Can Light Dark Matter Solve the Core-Cusp Problem?_ ([arXiv:1804.05921](https://arxiv.org/abs/1804.05921))
 
