@@ -42,7 +42,13 @@ In [[string diagrams]], the trace $Tr(f) : A \to B$ of a morphism $f : A \otimes
 ### Relation to compact closed categories
  {#RelationToCompactClosedCategories}
 
-Given a traced monoidal category $\mathcal{C}$, there is a [[free construction]] completion of it to a [[compact closed category]] $Int(\mathcal{C})$ ([Joyal-Street-Verity 96](#JoyalStreetVerity96)):
+Every [[compact closed category]] is equipped with a canonical trace defined by
+
+$$ Tr_{A,B}^X(f) = A \overset{id\otimes \eta}{\to} A \otimes X \otimes X^* \overset{f \otimes id}{\to} B \otimes X \otimes X^* \overset{id \otimes \varepsilon'}{\to} B$$ 
+
+where $\eta$ is a unit and $\varepsilon'$ is a counit of appropriate [[adjunctions]] (note that the symmetry makes the dual $X^*$ both a right and left adjoint of $X$: the adjunctions are ambidextrous).
+
+Conversely, given a traced monoidal category $\mathcal{C}$, there is a [[free construction]] completion of it to a [[compact closed category]] $Int(\mathcal{C})$ ([Joyal-Street-Verity 96](#JoyalStreetVerity96)):
 
 the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal{C}$, a morphism $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ is given by a morphism of the form $A^+\otimes B^- \longrightarrow A^- \otimes B^+$ in $\mathcal{C}$, and [[composition]] of two such morphisms $(A^+ , A^-) \to (B^+ , B^-)$ and $(B^+ , B^-) \to (C^+ , C^-)$ is given by [[trace|tracing out]] $B^+$ and $B^-$ in the evident way.
 
