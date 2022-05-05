@@ -9,7 +9,7 @@ In the context of [[gauge theory]], _group averaging_ is the idea of turning an 
 
 For groups of gauge transformations which are finite dimensional [[compact Lie groups]] (typical in [[quantum mechanics]]) this just works, but most groups of gauge transformations appearing in [[quantum field theory]] are infinite-dimensional (at best) and non-compact, hence much of the literature on group averaging in gauge theory is concerned with making sense of regularizing the naive prescription.
 
-(Beware the terminology: the _[[gauge group]]_ is frequently finite-dimensiponal and compact (typically in [[Yang-Mills theory]]) but the group of gauge transformations is typically something like the group of suitable functions from spacetime into the gauge group. Some mathematical texts say "gauge group" for "group of gauge transformations", but this is not what physics texts do and should probably better be avoided.)
+(Beware the terminology: the _[[gauge group]]_ is frequently finite-dimensional and compact (typically in [[Yang-Mills theory]]) but the group of gauge transformations is typically something like the group of suitable functions from spacetime into the gauge group. Some mathematical texts say "gauge group" for "group of gauge transformations", but this is not what physics texts do and should probably better be avoided.)
 
 
 ## Related concepts
