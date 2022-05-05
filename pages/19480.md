@@ -3053,6 +3053,39 @@ and composition is given by the evident compositions in $\mathcal{C}$.
 =--
 
 
++-- {: .num_remark #StrictAndWeak2Functors}
+###### Remark
+**([[strict 2-functor|strict]] and [[weak 2-functor|weak]] [[2-functors]])**
+
+Given two [[strict 2-categories]] (Def. \ref{Strict2Categories}) or [[double categories]] (Def. \ref{DoubleCategory}), $\mathcal{C}, \mathcal{D}$, there is an evident notion of _[[2-functor]]_ or _[[double functor]]_ 
+
+$$
+  \mathcal{C} \overset{F}{\longrightarrow} \mathcal{D}
+$$ 
+
+between them, namely [[functions]] on [[objects]], [[1-morphisms]] and [[2-morphsims]] which respect all the [[composition]] operations and [[identity morphisms]].
+
+These are also called _[[strict 2-functors]]_. 
+
+This is in contrast to a more flexible concept of _[[weak 2-functors]]_, often called _[[pseudofunctors]]_, which respect [[composition]] of [[1-morphisms]] only up to invertible [[2-morphisms]] (which themselves are required to satisfy some [[coherence]] condition):
+
+$$
+  \array{
+    && Y
+    \\
+    & {}^{\mathllap{ F(f) }}\nearrow 
+      &\Downarrow{}^{\rho}_{}\simeq& 
+    \searrow^{\mathrlap{F(G)}}
+    \\
+    X && \underset{F(g \circ f)}{\longrightarrow} && Z
+  }
+$$
+
+=--
+
+We will see an important example of a weak double functor in the construction of [[derived functors]] of [[Quillen functors]], below in Prop. \ref{HomotopyDoublePseudofunctor}. 
+
+
 $\,$
 
 ### Equivalences
