@@ -22,6 +22,7 @@ The Jacobi identity is an important equational identity that holds in [[Lie alge
 There is a non-additive non-abelian form of the Jacobi identity that occurs in considering certain examples in [[identities among relations]] in the presentation of certain groups. There it is also called the Hall-Witt identity.
 
 
+
 ## For $1$-algebras
 
 ### Definition
@@ -41,14 +42,14 @@ If the bracket $[-,-]$ is skew-symmetric the Jacobi identity for all triples is 
 the linear map $ad_x = [x,-] : \mathfrak{g} \to \mathfrak{g}$ is a [[derivation]] with respect to the Lie bracket:
 
 $$
-  [x,[a,b]] = [[x,a],b]  + [a,[x,b]]
+  \left[x,\left[a,b\right]\right] = \left[\left[x,a\right],b\right]  + \left[a,\left[x,b\right]\right]
   \,.
 $$
 
 One can also consider right derivations (right Leibniz identity), what is again equivalent in the presence of antisymmetry:
 
 $$
- [[a,b],x] = [[a,x],b]  + [a,[b,x]]
+ \left[\left[a,b\right],x\right] = \left[\left[a,x\right],b\right]  + \left[a,\left[b,x\right]\right]
   \,.
 $$
 
@@ -76,8 +77,8 @@ $$
 When Lie algebras are generalized to [[∞-Lie algebra]]s, the Jacobi identity in terms of the binary bracket is relaxed to hold only up to a [[natural isomorphism]] called the __jacobiator__, $[-,-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_1$,
 
 $$
-  [x,[y,z]] + [y,[z,x]] + [z,[x,y]]  = 
-  \delta [x,y,z]
+  \left[x,\left[y,z\right]\right] + \left[y,\left[z,x\right]\right] + \left[z,\left[x,y\right]\right]  = 
+  \delta \left[x,y,z\right]
   \,,
 $$
 
