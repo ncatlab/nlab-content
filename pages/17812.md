@@ -227,7 +227,7 @@ $$
     g \theta_{j_1}\cdots \theta_{j_l}
   \right)
   & =
-  f \cdot g \; \theta^{i_1}\cdots \theta^{i_k} \theta_{j_1}\cdots \theta_{j_l}
+  f \cdot g \; \theta_{i_1}\cdots \theta_{i_k} \theta_{j_1}\cdots \theta_{j_l}
   \\
   & =
   (-1)^{k l} g\cdot f \; \theta_{j_1}\cdots \theta_{j_l} \theta_{i_1}\cdots \theta_{i_k}
