@@ -136,13 +136,22 @@ More generally there cannot be a nonzero localized observable that annihilates t
 
 The fact that the vacuum vector is cyclic means that any arbitrary state in the vacuum representation can be approximated by measurements in an arbitrary small bounded open region applied to the vacuum vector. This fact is sometimes referred to as the existence of [[vacuum fluctuations]]. A direct consequence of the Reeh-Schlieder theorem is therefore that to any regions $\mathcal{O}_1, \mathcal{O}_2$, no matter how far apart, there are many projections in the corresponding local algebras that are positively correlated in the vacuum state.
 
+## Related theorems
+
+* [[spin-statistics theorem]]
+
+* [[Osterwalder-Schrader theorem]]
+
 ## References ##
+
+* Stephen J. Summers: _Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State_ ([arXiv:0802.1854] (http://de.arxiv.org/abs/0802.1854))
+
+* [[Edward Witten]], section 2 of _Notes on Some Entanglement Properties of Quantum Field Theory_ ([arXiv:1803.04993](https://arxiv.org/abs/1803.04993))
+
+See also
 
 * Wikipedia on the [Reeh-Schlieder Theorem](http://en.wikipedia.org/wiki/Reeh%E2%80%93Schlieder_theorem)
 
-A discussion of the consequences for the physical interpretation of the Reeh-Schlieder theorem and further references can be found here:
-
-* Stephen J. Summers: _Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State_ ([arXiv] (http://de.arxiv.org/abs/0802.1854v2))
 
 The Reeh-Schlieder theorem can be generalized from [[Minkowski spacetime]] to more general [[spacetimes]], see for example:
 
