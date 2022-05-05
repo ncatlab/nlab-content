@@ -379,7 +379,7 @@ Discussion of D-brane [[matrix models]] taking these K-theoretic effects into ac
 
 Discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes the following:
 
-* HugoGarcía-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
+* Hugo García-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
 
 * [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int.J.Mod.Phys.A23:933-974, 2008 ([arXiv:hep-th/0703122](https://arxiv.org/abs/hep-th/0703122))
 
