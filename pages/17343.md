@@ -4527,7 +4527,7 @@ Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since 
 +-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
 
-For $\mathcal{C} \underoverset{\underoverset{R}{\bot}{\longrightarrow}}{\overset{L}{\longleftarrow}}{} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
+For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
 $$
   Ho(\mathcal{C})
@@ -4551,7 +4551,7 @@ By def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} and lemma \ref{HomsOu
 $$
   Hom_{\mathcal{C}}(L X , Y)/_\sim
    \simeq
-  Hom_{\mathcal{C}}(X, R Y)/_\sim
+  Hom_{\mathcal{D}}(X, R Y)/_\sim
   \,.
 $$
 
