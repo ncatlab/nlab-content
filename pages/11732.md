@@ -87,3 +87,6 @@ $$
 * {#Sutherland} Tom Sutherland, _&#201;tale cohomology_ ([pdf](http://www-dimat.unipv.it/sutherland/etale.pdf))
 
 [[!redirects roots of unity]]
+
+[[!redirects primitive root of unity]]
+[[!redirects primitive roots of unity]]
