@@ -21,7 +21,7 @@ A _link diagram_ is, roughly speaking, the combinatorial object obtained by proj
 
 The formal definition of a link diagram is in itself independent of the notion of a [[link]].
 
-\begin{defn} \label{DefinitionConnectedLinkDiagram} A _connected link diagram_ is a [[connected graph|connected]] (undirected) 4-valent [[planar graph]] $G$ equipped with the following data for every vertex $v$ of $G$.
+\begin{defn} \label{DefinitionConnectedLinkDiagram} A _connected link diagram_ is a [[connected graph|connected]] (undirected) 4-valent [[plane graph]] $G$ equipped with the following data for every vertex $v$ of $G$.
 
 1. A choice of division of the four edges incident to $v$ into two pairs, say $(e_{0}, e_{1})$ and $(e_{2}, e_{3})$. We refer to the two edges in the first pair as _over-edges_, and to the two edges $(e_{1}, e_{2})$ in the second pair as _under-edges_.
 
@@ -37,7 +37,7 @@ The formal definition of a link diagram is in itself independent of the notion o
 
 \end{defn}
 
-\begin{rmk} It is important to note that a planar graph consists, by definition, of an abstract [[graph]] together with a _chosen_ embedding into the plane. There exist non-equivalent link diagrams which have the same underlying abstract graph, but for which the embedding in the plane is different. \end{rmk}
+\begin{rmk} It is important to note that a plane graph consists, by definition, of an abstract [[graph]] together with a _chosen_ embedding into the plane. There exist non-equivalent link diagrams which have the same underlying abstract graph, but for which the embedding in the plane is different. \end{rmk}
 
 \begin{terminology} A component of a link diagram which satisfies 1. in Definition \ref{DefinitionLinkDiagram} is typically referred to as an _unknot_, or an _unknotted component_. \end{terminology}
 
