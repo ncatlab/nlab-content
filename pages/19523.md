@@ -27,28 +27,43 @@ This is in contrast to the [[standard model of cosmology]], based on [[FRW model
 
 Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime.
 
-It has been shown that the effect of such backreaction is small or invisible if the inhomogenety is modeled in a Newtonian limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
+It has been shown that the effect of such backreaction is small or invisible if the inhomogeneity is modeled in a Newtonian limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
 ## Effective dark energy from inhomogeneity?
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] or [[dark matter]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Rasanen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Rasanen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16)).
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Rasanen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Rasanen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16)).
 
-Review of the field and of attitudes in the community towards this issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16):
+Qualitatively the effect may be understood as follows:
 
-Numerical simulations of inhomogeneous cosmoloy are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Rasanen 17](#MontanariRasanen17). The latter concludes ([p. 20](#MontanariRasanen17)):
+> In general, underdense regions $[$"voids"$]$ are negatively curved and expand faster than the average, while overdense regions are positively curved and expand slower. ([Rasanen 03, p. 15](#Rasanen03))
+
+> $[...]$ as the volume occupied by $[$inhomogeneous$]$ structures grows (along with the density contrast of typical structures), the expansion rate becomes dominated by voids, since their volume is large ([Rasanen 03, p. 25](#Rasanen03))
+
+Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
+
+If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+
+## Numerical simulation
+
+Numerical simulations of inhomogeneous cosmology are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Rasanen 17](#MontanariRasanen17). 
+
+The conclusion in [Montanari-Rasanen 17, p. 20](#MontanariRasanen17) is as follows:
 
 > $[$the model$]$ shows an increase of the expansion rate of the right order of magnitude, compared to observations, at late times. $[...]$. It is nontrivial that the right order of magnitude in the amplitude and roughly  right timescale of the change in the expansion rate follow simply from the known physics of structure formation. However, the model has shortcomings that would need to be overcome for the results to be more than suggestive.
 
+Dependency of results on the choice of [[gauge fixing]] is highlighted in [ACDDK 17](#ACDDK17):
 
-If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+> We then show numerical results from the fully relativistic weak field $N$-body code _gevolution_. (p.2)
+
+> $[...]$ The conclusion of this work is therefore that there are gauges which are relatively close to what observers measure and in these gauges backreaction is small. We used the example of Poisson gauge, but there would be others, e.g. geodesic light cone gauge [53, 54]. However, comoving synchronous gauge is not well suited to describe observations in the late time clumpy universe.  In this gauge backreaction becomes large and the gauge actually breaks down during structure formation. (p. 4)
 
 
 ## The "backreaction debate"
  {#BackreactionDebate}
 
-A seminal argument that it _is_ consistent to neglect cosmic inhomogeneity was given by [Green-Wald 10](#GreenWald10), [Green-Wald 13](#GreenWald13), [Green-Wald 16](#GreenWald16). This was called into question in [Buchert et al. 15](#BuchertEtAl15), where it is concluded that the issue is more subtle and remains open. The reply to this criticism by [Green-Wald 15](#GreenWald15) is summarized in [Ostrowski-Roukema 15, p. 4](#OstrowskiRoukema15) as follows:
+A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomogeneity was given by [Green-Wald 10](#GreenWald10), [Green-Wald 13](#GreenWald13), [Green-Wald 16](#GreenWald16). This was called into question in [Buchert et al. 15](#BuchertEtAl15), where it is concluded that the issue is more subtle and remains open. The reply to this criticism by [Green-Wald 15](#GreenWald15) is summarized in [Ostrowski-Roukema 15, p. 4](#OstrowskiRoukema15) as follows:
 
 > Green and Wald state that their formalism does not apply to situations when
 
@@ -65,6 +80,9 @@ A particular class of exactly soluable simple examples of inhomogeneous cosmolog
 
 It has been argued (e.g. [Moffat 16, p. 2](#Moffat16)) that the apparent unlikeliness of such a "spatial coincidence" is relativized in view of the observed  "temporal coincidence" that cosmic acceleration seems to start roughly with the onset of [[structure formation]] (the "coincidence problem" of cosmology), and the perceived fine-tuning of the [[cosmological constant]] required in the [[standard model of cosmology]].
 
+However, this may be over-interpreting the realism of these simple models. According to [Rasanen 03, p. 15](#Rasanen03):
+
+> In order to evaluate the importance of backreaction in the real universe, we need statistical knowledge about complex configurations of dust, not exact information about simplified models.
 
 
 
@@ -117,7 +135,7 @@ See also
 
 * {#Celerier00} Marie-Noëlle Célérier, _Do we really see a cosmological constant in the supernovae data?_, Astron.Astrophys.353:63-71,2000
 
-* {#Wetterich01} [[Christoph Wetterich]], _Can Structure Formation Influence the Cosmological Evolution?_, Phys.Rev. D67 (2003) 043513 ([arXiv:astro-ph/0111166](https://arxiv.org/abs/astro-ph/0111166))
+* {#Wetterich01} [[Christof Wetterich]], _Can Structure Formation Influence the Cosmological Evolution?_, Phys.Rev. D67 (2003) 043513 ([arXiv:astro-ph/0111166](https://arxiv.org/abs/astro-ph/0111166))
 
 * {#Schwarz02} Dominik J. Schwarz, _Accelerated expansion without dark energy_ ([arXiv:astro-ph/0209584](https://arxiv.org/abs/astro-ph/0209584))
 
