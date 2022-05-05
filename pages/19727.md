@@ -99,14 +99,16 @@ A mismatch was claimed in
 
 * [Quiroz-Stefanski 01](#QuirozStefanski01)
 
-### For WZW models
+### For rational CFT, WZW models and Gepner models
 
-For [[WZW models]]:
+For [[rational CFT]]
+
+* Sergei E. Parkhomenko, _Free Field Construction of D-Branes in Rational Models of CFT and Gepner Models_ ([arXiv:0802.3445](https://arxiv.org/abs/0802.3445))
+
+Specifically for [[WZW models]]:
 
 * [[Giovanni Felder]], [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Christoph Schweigert]], _The geometry of WZW branes_ ([arXiv:hep-th/9909030](https://arxiv.org/abs/hep-th/9909030))
 
-
-### For Gepner models
 
 For [[Gepner models]]:
 
