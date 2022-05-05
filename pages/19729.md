@@ -17,7 +17,8 @@
 
 ## Idea
 
-In [[string theory]] a _permutation D-brane_ ([Recknagel 02](#Recknagel02)) is a [[fractional D-brane]] whose corresponding [[linear representation]] (representing its [[D-brane charge]] in [[equivariant K-theory]]) is a [[permutation representation]].
+In [[string theory]] a _permutation D-brane_ ([Recknagel 02](#Recknagel02)) is a [[D-brane]] inhabiting the [[diagonal]] of a [[Cartesian product]] space $X$ such that as [[boundary states]] for [[open strings]] these enforce that left/right [[worldsheet]]-fields are glued along some [[permutation]] of these factors.
+
 
 ## Examples
 
@@ -28,6 +29,8 @@ In [[string theory]] a _permutation D-brane_ ([Recknagel 02](#Recknagel02)) is a
 ([Enger-Recknagel-Roggenkamp 05](#EngerRecknagelRoggenkamp05))
 
 ## References
+
+### Basic
 
 The concept was introduced and studied in [[boundary conformal field theory]] in 
 
@@ -45,9 +48,12 @@ Further developments include
 
 * {#EngerRecknagelRoggenkamp05} Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
 
+
 * Gor Sarkissian, _Generalised Permutation Branes on a product of cosets $G_{k_1}/H \times G_{k_2}/H$_, Nucl.Phys.B747:423-435, 2006 ([arXiv:hep-th/0601061](https://arxiv.org/abs/hep-th/0601061))
 
 * [[Stefan Fredenhagen]], [[Matthias Gaberdiel]], _Generalised $N=2$ permutation branes_, JHEP0611:041, 2006 ([arXiv:hep-th/0607095](https://arxiv.org/abs/hep-th/0607095))
+
+
 
 The case for [[orientifolds]] is discussed in
 
@@ -55,6 +61,14 @@ The case for [[orientifolds]] is discussed in
 
 * Kazuo Hosomichi, _Permutation Orientifolds of Gepner Models_, JHEP 0701:081, 2007 ([arXiv:hep-th/0612109](https://arxiv.org/abs/hep-th/0612109))
 
+### Generalised permutation branes
+
+* [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
+
+  > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory.
+
+
+* [[Stefan Fredenhagen]], Cosimo Restuccia, _DBI analysis of generalised permutation branes_, JHEP 1001:065, 2010 ([arXiv:0908.1049](https://arxiv.org/abs/0908.1049))
 
 [[!redirects permutation D-branes]]
 
