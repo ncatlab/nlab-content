@@ -40,7 +40,7 @@ $$
 
 ### For equivariant suspension spectra
 
-For $\Sigma^\infty_G X$ an [[equivariant suspension spectrum]] the fixed point spectrum is given by the [[tom Dieck splitting]] formula
+For $\Sigma^\infty_G X$ an [[equivariant suspension spectrum]] the fixed point spectrum is given by the _[[tom Dieck splitting]]_ formula
 
 $$
   F^G(\Sigma^\infty_G X)
@@ -56,10 +56,11 @@ $$
 
 ## Related concepts
 
-* [[geometric fixed points]]
+* [[geometric fixed point spectrum]]
 
 * [[homotopy fixed points]]
 
+* [[tom Dieck splitting]]
 
 ## References
 
