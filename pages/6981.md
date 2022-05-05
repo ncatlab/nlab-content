@@ -3,15 +3,15 @@
 **[[propositions as types]]**
 +**[[programs as proofs]]**
 +**[[relation between type theory and category theory|relation type theory/category theory]]**
- 
 
- [[logic]]                      |   [[category theory]]                     |  [[type theory]]
---------------------------------|-------------------------------------------|--------------------------------
- [[true]]                       |   [[terminal object]]/[[(-2)-truncated object]]  |  [[h-level 0]]-[[type]]/[[unit type]] 
- [[false]]                      |   [[initial object]]                      |  [[empty type]]
- [[proposition]]                |   [[(-1)-truncated object]]               | [[h-proposition]], [[mere proposition]] 
- [[proof]]                      |   [[generalized element]]                 | [[program]]
- [[cut rule]]                   |   [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]]        |   [[substitution]]
+
+ [[logic]] | [[category theory]] | [[type theory]]
+|---|---|---|
+ [[true]] | [[terminal object]]/[[(-2)-truncated object]] |  [[h-level 0]]-[[type]]/[[unit type]] 
+ [[false]]|   [[initial object]]        |  [[empty type]]
+ [[proposition]]|   [[(-1)-truncated object]]   | [[h-proposition]], [[mere proposition]] 
+ [[proof]] |   [[generalized element]]    | [[program]]
+ [[cut rule]]  |   [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]]        |   [[substitution]]
  [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
 introduction rule for [[implication]]              |   [[unit]] for hom-tensor adjunction            |   [[eta conversion]]
  [[logical conjunction]]                |   [[product]]                   |  [[product type]]
@@ -32,6 +32,3 @@ introduction rule for [[implication]]              |   [[unit]] for hom-tensor a
  [[proof net]] | [[string diagram]] | [[quantum circuit]]
  (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]]
     |  [[synthetic mathematics]]  |  [[domain specific embedded programming language]]  |
-
-
- 
