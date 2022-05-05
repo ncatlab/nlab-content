@@ -92,6 +92,14 @@ $$
 
 =--
 
+$\,$
+
+## Related concepts
+
+[[!include geometries of physics -- table]]
+
+$\,$
+
 ## References
 
 The Cahiers topos was introduced in 
