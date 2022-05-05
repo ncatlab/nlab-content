@@ -41,7 +41,7 @@ See [[conservative morphism]] for a generalization to an arbitrary [[2-category]
 Let $\mathcal{C}$ be a [[category]] with [[pullbacks]]. Given any [[morphism]] $f \colon X \longrightarrow Y$ in $\mathcal{C}$ write
 
 $$
-  f^\ast \colon \mathcal{C}_/Y \longrightarrow \mathcal{C}_{/X}
+  f^\ast \colon \mathcal{C}_{/Y} \longrightarrow \mathcal{C}_{/X}
 $$
 
 for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base change]]). If [[strong epimorphisms]] in $\mathcal{C}$ are preserved by pullback, then the following are equivalent:
