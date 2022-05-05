@@ -1,4 +1,16 @@
-[[!redirects Connes-Lott-Chamseddine model]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -25,12 +37,26 @@ Moreover, the entire field content in one [[generation of fundamental particles|
 
 ## Related entries
 
+* [[Gepner model]]
+
 * [[higher category theory and physics]]: _[Spectral standard model and gravity](higher+category+theory+and+physics#SpecStandModAndGravity)_
 
 
 ## References
 
-The basic mechanism was laid out in
+### Review
+
+Exposition highlighting the relation to [[KK-compactification]] and [[string theory]]-[[perturbative string theory vacuum|vacua]] includes
+
+* {#Schreiber16} [[Urs Schreiber]], _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_, 2016
+
+See also
+
+* Wikipedia, _[Noncommutative standard model](https://en.wikipedia.org/wiki/Noncommutative_standard_model)_
+
+### Original articles
+
+The basic mechanism was originally laid out in
 
 * [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_, Commun.Math.Phys. 182 (1996) 155-176 ([arXiv:hep-th/9603053](https://arxiv.org/abs/hep-th/9603053))
 
@@ -56,10 +82,11 @@ A more succinct version of the axioms of the model is claimed in
 
 * Christian Brouder, Nadir Bizi, Fabien Besnard, _The Standard Model as an extension of the noncommutative algebra of forms_ ([arXiv:1504.03890](https://arxiv.org/abs/1504.03890))
 
-See also
 
-* Wikipedia, _[Noncommutative standard model](https://en.wikipedia.org/wiki/Noncommutative_standard_model)_
+[[!redirects Connes-Lott-Chamseddine model]]
 
 [[!redirects Connes-Lott model]]
 [[!redirects non-commutative standard model]]
+
+
 
