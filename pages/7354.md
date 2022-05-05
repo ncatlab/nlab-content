@@ -29,13 +29,9 @@ Then there are the "string-string dualities":
 
 * [[duality between type I and heterotic string theory]]
 
-Then there are the 
+and 
 
-There is also 
-
-* the relation between [[11-dimensional supergravity]] and the various string theories, see
-
-  * [[F-theory]]
+* [[duality between M-theory and type IIA superstring theory]].
 
 * the [[AdS/CFT correspondence]].
 
