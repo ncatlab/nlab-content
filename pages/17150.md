@@ -19,13 +19,13 @@ This page collects material related to
 
   _Global homotopy theory_
 
-  2015
+  2018 
 
-  ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+  ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectra]].
 
-(The reader interested only in plain [[stable homotopy theory]] takes the collection $\mathcal{F}$ of groups on p. 4 to be trivial throughout, to get just the theory of non-equivariant [[orthogonal spectra]]. See also the Schwede's lecture notes on _[[Symmetric spectra]]_.)
+(The reader interested only in plain [[stable homotopy theory]] takes the collection $\mathcal{F}$ of groups on p. viii to be trivial throughout, to get just the theory of non-equivariant [[orthogonal spectra]]. See also the Schwede's lecture notes on _[[Symmetric spectra]]_.)
 
 See also
 
