@@ -25,6 +25,8 @@ The first nonzero [[homotopy group]] and [[ordinary homology|ordinary]]/[[singul
 ## Hurewicz homomorphism
  {#HurewiczHomomorphismSection}
 
+### For topological spaces
+
 +-- {: .num_defn #HurewiczHomomorphism}
 ###### Definition 
 **(Hurewicz homomorphism)**
@@ -58,6 +60,28 @@ $$
 between [[functors]] $Top^{*/} \to $ [[Ab]].
 
 =--
+
+### For spectra
+ {#ForSpectra}
+
+The above construction has an immediate analog in [[stable homotopy theory]]:
+
+For $R$ a [[ring]], its [[Eilenberg-MacLane spectrum]] is an [[E-infinity ring]] and hence receives a canonical [[unit]] homomorphism $\mathbb{S} \longrightarrow H R$ from the [[sphere spectrum]].
+
+Under [[smash product]] and passing to [[stable homotopy group]], this induces a [[natural transformation]] from [[stable homotopy groups]] of $X$ (its [[stable homotopy homology theory]]) to [[ordinary homology]] of $X$ with [[coefficients]] in $R$:
+
+$$
+  \pi^{st}_\bullet(X)
+  \;\simeq\;
+  \pi_\bullet( \mathbb{S} \wedge X_+ )
+  \longrightarrow
+  \pi_\bullet( H R \weddge X_+ )
+  \simeq
+  H_\bullet(X,R)
+  \,.
+$$
+
+If here the [[Eilenberg-MacLane spectrum]] $H R$ is replaced by any other [[E-infinity ring spectrum]] the analogous construction is called the _[[Boardman homomorphism]]_.
 
 ## Hurewicz theorem
 
@@ -111,10 +135,13 @@ See also
 
 * wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
 
-
 In the generality of the [[Boardman homomorphism]]:
 
 * [[Frank Adams]], Part II.6 of _[[Stable homotopy and generalised homology]]_, 1974
+
+Discussion of the stable Hurewicz homomorphism includes
+
+* [[Akhil Mathew]], _Torsion exponents in stable homotopy and the Hurewicz homomorphism_, Algebr. Geom. Topol. 16 (2016) 1025-1041 ([arXiv:1501.07561](https://arxiv.org/abs/1501.07561))
 
 
 
