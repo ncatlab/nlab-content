@@ -48,6 +48,10 @@ The most familiar example is the category [[Set]], where the objects are sets an
 
   * [[endomorphism]], [[automorphism]], [[monomorphism]], [[epimorphism]]
 
+* [[1-morphism]]
+
+  [[horizontal morphism]], [[vertical morphism]]
+
 * [[2-morphism]]
 
 * [[3-morphism]]
