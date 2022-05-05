@@ -132,7 +132,7 @@ For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactific
 
 ### Relation to intersecting D-brane models
 
-relation to [[intersecting D-brane models]]: e.g. [BLCS 05, section 2.9](intersecting+D-brane+model#BCLS05)
+relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+model#ReferencesLiftToMTheory)
 
 ## Related concepts
 
