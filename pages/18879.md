@@ -11,8 +11,8 @@
 
 ## References
 
-* {#Duetsch18} [[Michael Dütsch]], def 3.19 of _[[From classical field theory
-to perturbative quantum field theory]]_, 2018
+* {#Duetsch18} [[Michael Dütsch]], 
+  def 3.19 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 See also 
@@ -26,6 +26,3 @@ See also
 
 [[!redirects rescaling]]
 [[!redirects rescalings]]
-
-[[!redirects scale]]
-[[!redirects scales]]
