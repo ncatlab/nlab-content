@@ -208,9 +208,13 @@ $$
 
 ## Related statements
 
+* [[limits preserve limits]]
+
 * [[adjoints preserve (co-)limits]]
 
 * [[limits commute with limits]]
+
+* [[limits of presheaves are computed objectwise]]
 
 
 [[!redirects internal hom-functor preserves limits]]
