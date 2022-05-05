@@ -14181,7 +14181,198 @@ $$
 
 =--
 
+This example has some immediate generalizations.
 
+The following is the [[homotopy theory|homotopy-theoretic]] analog of Prop. \ref{TopologicalLeftKanExtensionBCoend}:
+
++-- {: .num_example #QuillenAdjointTripleHomotopyKanExtension}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]], and let 
+
+$$
+  \mathcal{C}
+    \overset{\phantom{AA}F\phantom{AA}}{\longrightarrow}
+  \mathcal{D}
+$$
+
+be a [[functor]] between them. By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  this induces an [[adjoint triple]] between [[categories of simplicial presheaves]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}):
+
+$$
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot}{ \phantom{AA}F_!\phantom{AA}  }{\longrightarrow}
+      \\
+      \underoverset{\bot}{ \phantom{AA}F^\ast\phantom{AA}  }{\longleftarrow}
+      \\
+      \overset{ \phantom{AA}F_\ast\phantom{AA}  }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+where 
+
+$$
+  F^\ast \mathbf{X}
+  \;\coloneqq\;
+  \mathbf{X}(F(-))
+$$
+
+is the operation of precomposition with $F$. This means that $F^\ast$ preserves all objectwise cofibrations/fibrations/weak equivalences. Hence with respect to the projective/injective [[model structures on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}) it is a left/right [[Quillen functor]] (Def. \ref{QuillenAdjunction}) as follows:
+
+1. a [[right Quillen functor]] of the form $[\mathcal{D}^{op}, sSet]_{proj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$;
+
+1. a [[left Quillen functor]] $[\mathcal{D}^{op}, sSet]_{inj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$;
+
+and since $[\mathcal{D}^{op}, sSet]_{proj} \overset{id}{\to} [\mathcal{D}^{op}, sSet]_{inj}$ is also a left Quillen functor (by Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), the second point implies that $F^\ast$ is also 
+
+* a [[left Quillen functor]] $[\mathcal{D}^{op}, sSet]_{proj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$.
+
+In summary this means that we have a [[2-morphism]] in the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) of the following form:
+
+$$
+  \array{
+    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+      &\overset{\phantom{AA}F^\ast\phantom{AA}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{F^\ast}}
+    \Big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \Big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{id}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+To check that the corresponding [[derived natural transformation]] $Ho(id)$ is a [[natural isomorphism]], we need to check (by Prop. \ref{DerivedNaturalTransformationUpToIsos}) that the composites
+
+$$
+  Q_{inj} F^\ast \mathbf{X}
+    \overset{ p_{F^\ast \mathbf{X}} }{\longrightarrow}
+  F^\ast \mathbf{X}
+    \overset{ j_{F^\ast \mathbf{X}} }{\longrightarrow}
+  P_{proj} F^\ast \mathbf{X}  
+$$ 
+
+are invertible in the [[homotopy category of a model category|homotopy category]] $Ho([\mathcal{C}^{op}, sSet_{Qu}]_{inj})$, for all projectively fibrant-cofibrant simplicial presheaves $\mathbf{X}$. But this is immediate, since the two factors are weak equivalences, by definition of [[fibrant resolution|fibrant/cofibrant resolution]].
+
+Hence we have a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) of the form
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+       \underoverset{\bot}{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}
+       \\
+       \underoverset{\bot}{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}
+       \\
+       \underoverset{\bot}{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+
+The corresponding derived [[adjoint triple]] on [[homotopy category of a model category|homotopy categories]] (Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}) is that of _[[homotopy Kan extension]]_:
+
+
+$$
+  Ho([\mathcal{C}^{op}, sSet])
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ \phantom{A}\mathbb{L}F_! \phantom{\simeq A_a}\phantom{A}  }{\longrightarrow}
+      \\
+      \underoverset{\phantom{\simeq A_a} \bot}{ \phantom{A}\mathbb{R}F^\ast \simeq \mathbb{L}F^\ast\phantom{A}  }{\longleftarrow}
+      \\
+      \overset{ \phantom{A} \phantom{A_a \simeq} \mathbb{R}F_\ast\phantom{A}  }{\longrightarrow}
+    }
+  Ho([\mathcal{D}^{op}, sSet])
+$$
+
+=--
+
+The following is the [[homotopy theory|homotopy-theoretic]] analog of Example \ref{KanExtensionOfAdjointPairIsAdjointQuadruple}:
+
++-- {: .num_example #QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
+
+Now let 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a [[adjoint pair|pair]] of [[adjoint functors]]. By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]] (Prop. \ref{KanExtensionOfAdjointPairIsAdjointQuadruple})
+
+$$
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ L_! \phantom{\simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{\bot \phantom{\simeq} \bot }{ L^\ast \simeq R_! }{\longleftarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq}\bot}{ L_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+By Example \ref{QuillenAdjointTripleHomotopyKanExtension}, the top three of these form a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}). To see that the bottom three form another, compatible [[Quillen adjoint triple]], we need to show that the following is a [[2-morphism]] in the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}):
+
+$$
+  \array{
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}   
+    \\
+    {}^{\mathllap{id}}
+    \Big\downarrow
+      &{}^{ \mathllap{ id } }\swArrow& 
+    \Big\downarrow{}^{ R^\ast }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{AA}R^\ast\phantom{AA} }{\longrightarrow}&
+    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  }
+$$
+
+But since $R^\ast \mathbf{X} = \mathbf{X}(R(-))$ is given by precomposition, this functor preserves all object-wise cofibrations/fibrations weak equivalences, and hence is
+
+1. a [[left Quillen functor]] $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{R^\ast}{\to} [\mathcal{D}^{op}, sSet_{Qu}]_{inj}$;
+
+1. a [[right Quillen functor]] $[\mathcal{C}^{op}, sSet_{Qu}]_{proj} \overset{R^\ast}{\to} [\mathcal{D}^{op}, sSet_{Qu}]_{proj}$;
+
+But since also $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{id}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$ is a right Quillen functor, the second point implies that $R^\ast$ is also 
+
+1. a [[right Quillen functor]] $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{R^\ast}{\to} [\mathcal{D}^{op}, sSet_{Qu}]_{proj}$.
+
+This demonstrates the above square.
+
+Hence in conclusion, we have a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}) of the form:
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ L_! \phantom{\simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ L^\ast \simeq R_! }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ L_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+
+=--
 
 
 
@@ -15014,6 +15205,8 @@ We have established above enough [[higher category theory]]/[[homotopy theory]] 
 
 $\,$
 
+### Cohesive $\infty$-Toposes
+
 The following is the analog of Def. \ref{CohesiveTopos}:
 
 +-- {: .num_defn #CohesiveInfinityTopos}
@@ -15119,6 +15312,21 @@ Hence the [[category of simplicial presheaves]] over a [[small category]] with [
 
 +-- {: .proof}
 ###### Proof
+
+The [[Quillen adjoint quadruple]] follows as the special case of Example \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair} applied to the [[adjoint pair]]
+
+$$
+  \ast 
+    \underoverset
+      {\underset{}{\hookrightarrow}}
+      {\overset{}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+given by inclusion of the [[terminal object]] (Example \ref{InitialAndTerminalObjectInTermsOfAdjunction}).
+
+For the record, we spell this out:
 
 The [[adjoint quadruple]] of ordinary [[functors]] exists as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}. 
 
