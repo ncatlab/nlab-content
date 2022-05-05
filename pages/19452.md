@@ -30,6 +30,8 @@ We give here an introduction to the basic concepts and results, aimed at providi
 
 This makes use of the following curious dictionary between [[category theory]]/[[topos theory]] and the [[geometry]] of [[generalized spaces]], which we will explain in detail (following [Grothendieck 65](functorial+geometry#Grothendieck65), [Lawvere 86, p. 17](space+and+quantity#Lawvere86), [[Some Thoughts on the Future of Category Theory|Lawvere 91]]):
 
+{#GeometryOfGeneralizedSpaces}$\,$
+
 | $\phantom{A}$[[category theory]] | Rmk. \ref{PresaheavesAsGeneralizedSpaces}  | $\phantom{A}$[[geometry]] of [[generalized spaces]] |
 |-------|--|---------|
 | $\phantom{A}$[[presheaf]] | Expl. \ref{CategoryOfPresheaves} | $\phantom{A}$[[generalized space]] | 
