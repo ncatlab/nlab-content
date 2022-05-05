@@ -1007,6 +1007,24 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 ### Adjunctions
 
+We discuss four equivalent definitions of [[adjunctions]]:
+
+1. via hom-isomorphism (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below);
+
+1. via [[adjunction unit]] and -[[adjunction counit|counit]] satisfying [[triangle identities]] (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat});
+
+1. via [[representing objects]] (Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject});
+
+1. via [[universal morphisms]] (Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} below).
+
+Then we discuss some key properties:
+
+1. uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints} below),
+
+1. epi/mono/iso-characterization of adjunction (co-)units (Prop. \ref{FullyFaithfulAndInvertibleAdjoints} below).
+
+$\,$
+
 
 +-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
 ###### Definition
@@ -1533,6 +1551,106 @@ for every morphism $h \colon d_1 \to d_2$ under  $y(R(-))$ (eq:YonedanotationFor
 
 =--
 
+We consider one more equivalent characterization of [[adjunctions]]:
+
++-- {: .num_defn #UniversalArrow}
+###### Definition
+**([[universal morphism]])**
+
+Let $\mathcal{C}, \mathcal{D}$ be two [[categories]] (Def. \ref{Categories})
+and let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]] (Def. \ref{Functors})
+
+Then for $c\in \mathcal{C}$ an [[object]], a _[[universal morphism]] from $c$ to $R$_ is
+
+1. an [[object]] $L(c)\in \mathcal{D}$,
+
+1. a [[morphism]] $\eta_c \;\colon\; c \to R(L(c))$, to be called the _[[adjunction unit|unit]]_,
+
+such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors through this unit $\eta_c$ as 
+
+\[
+  \label{UniversalArrowFactorization}
+  f
+  \;=\;
+  \eta_c \circ R(\widetilde f)
+  \phantom{AAAA}
+  \array{
+    && c 
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R(L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d)
+    \\
+    \\
+    L(c) &&\underset{ \widetilde f}{\longrightarrow}&& d
+  }
+\]
+
+for a _unique_ morphism $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the [[adjunct]] of $f$.  
+
+=--
+
++-- {: .num_prop #CollectionOfUniversalArrowsEquivalentToAdjointFunctor}
+###### Proposition
+**(collection of [[universal morphisms]] equivalent to [[adjoint functor]])**
+
+Let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]] (Def. \ref{Functors}). Then the following are equivalent:
+
+1. $R$ has a [[left adjoint]] functor $L \colon \mathcal{C} \to \mathcal{D}$ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets},
+
+
+1. For every [[object]] $c \in \mathcal{C}$ there is a [[universal morphism]] $c \overset{\eta_c}{\longrightarrow} R(L(c))$, according to Def. \ref{UniversalArrow}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume a [[left adjoint]] $L$ is given. Define the would-be universal arrow at $c \in \mathcal{C}$ to be the [[unit of an adjunction|unit of the adjunction]] $\eta_c$ via Def. \ref{AdjunctionUnitFromHomIsomorphism}. Then the statement that this really is a universal arrow is implied by Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+In the other direction, assume that universal arrows $\eta_c$ are given. The uniqueness clause in Def. \ref{UniversalArrow} immediately implies  [[bijections]] 
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(c),d) 
+      &\overset{\simeq}{\longrightarrow}& 
+    Hom_{\mathcal{C}}(c,R(d))
+    \\
+    \left( 
+      L(c) \overset{\widetilde f}{\to} d
+    \right)
+      &\mapsto&
+    \left(
+      c \overset{\eta_c}{\to} R(L(c)) \overset{ R(\widetilde f) }{\to} R(d)
+    \right)
+  }
+$$
+
+Hence to satisfy (eq:HomIsomorphismForAdjointFunctors) it remains to show that these are [[natural transformation|natural]] in both variables. In fact, by Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} it is sufficient to show naturality in the variable $d$. But this is immediate from the functoriality of $R$ applied in (eq:UniversalArrowFactorization): For $h \colon d_1 \to d_2$ any [[morphism]], we have
+
+$$
+  \array{
+    && c 
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R (L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d_1)
+    \\
+    && {}_{\mathllap{ R( h\circ \widetilde f ) }}\searrow && \downarrow^{\mathrlap{R(h)}}
+    \\
+    && && R(d_2)
+  }
+$$
+
+
+=--
+
+
+$\,$
+
+After these equivalent characterizations of [[adjoint functors]], we now consider some of their main properties:
+
 +-- {: .num_prop #UniquenessOfAdjoints}
 ###### Proposition
 **([[adjoint functors]] are unique up to [[natural isomorphism]])**
@@ -1576,7 +1694,7 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 
 +-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
 ###### Proposition
-**(characterization of epi/mono (co-)unit of adjunction)**
+**(characterization of epi/mono/iso (co-)unit of adjunction)**
 
 Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following holds:
 
@@ -1678,13 +1796,6 @@ The proof of the other statements proceeds analogously.
 
 =--
 
-+-- {: .num_prop #FullyFaithfulAdjointTriple}
-###### Proposition
-**([[fully faithful functor|fully faithful]] [[adjoint triple]])**
-
-Let $F \dashv G \dashv H$ be an [[adjoint triple]] of [[adjoint functors]]. Then $F$ is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}) precisely when $H$ is. (see [this prop.](adjoint+triple#FullyFaithful))
-
-=--
 
 
 
@@ -1788,12 +1899,13 @@ which completes this to an [[adjoint equivalence of categories]] (Def. \ref{Adjo
 
 =--
 
+$\,$
 
-### Localization
+### Modalities
 
 +-- {: .num_defn #ReflectiveSubcategory}
 ###### Definition
-**([[reflective subcategory]])**
+**([[reflective subcategory]] and [[coreflective subcategory]])**
 
 A [[fully faithful functor]] 
 
@@ -1803,18 +1915,35 @@ $$
   \mathcal{D}
 $$
 
-hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is called a _[[reflective subcategory]] inclusion_ if this functor has a [[left adjoint]] (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is called 
 
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
-$$
+1. a _[[reflective subcategory]] inclusion_ if this functor has a [[left adjoint]] $L$ def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
 
-Here the [[left adjoint]] is also called the _[[reflector]]_.
+   $$
+     \mathcal{C}
+       \underoverset
+         {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+         {\overset{L}{\longleftarrow}}
+         {\bot}
+     \mathcal{D}
+     \,,
+   $$
+
+   then called the _[[reflector]]_;
+
+1. _[[coreflective subcategory]]_ inclusion if this functor has a [[right adjoint]] $R$ (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+   
+   $$
+     \mathcal{C}
+       \underoverset
+         \underset{R}{\longleftarrow}
+         {\overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+         {\bot}
+     \mathcal{D}
+     \,,
+   $$
+
+   then called the _[[coreflector]]_.
 
 =--
 
@@ -1841,6 +1970,58 @@ of the [[category of sets]] (Example \ref{CategoryOfSets}) into the [[category]]
 
 =--
 
++-- {: .num_prop #}
+###### Proposition
+
+Let 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}). Then the [[composition|composite]]  
+
+$$
+  \bigcirc
+  \;\coloneqq\;
+  \iota \circ L
+  \;\colon\;
+  \mathcal{D} \longrightarrow \mathcal{D}
+$$
+
+equipped with the [[adjunction unit]] [[natural transformation]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
+$$
+  X \overset{\eta_X}{\longrightarrow} \bigcirc X
+$$
+
+is such that every [[morphism]] in $\mathcal{D}$ into an [[object]] in the image of $\iota$ has a _unique_ factorization through $\eta$:
+
+$$
+  \array{
+    && X
+    \\
+    & {}^{\eta_X}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    \bigcirc X && \underset{\exists !}{\longrightarrow} && \iota S
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the special case of Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} for $R = \iota$ being [[fully faithful functor|fully faithful]].
+
+=--
+
+(...)
 
 
 ## Basic notions of Categorical algebra
@@ -4402,6 +4583,15 @@ This is particularly suggestive when $p$ is a [[full subcategory]] inclusion (De
 We collect here statement and proof of some key properties of the various [[universal constructions]] considered above.
 
 $\,$
+
++-- {: .num_prop #FullyFaithfulAdjointTriple}
+###### Proposition
+**([[fully faithful functor|fully faithful]] [[adjoint triple]])**
+
+Let $F \dashv G \dashv H$ be an [[adjoint triple]] of [[adjoint functors]]. Then $F$ is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}) precisely when $H$ is. (see [this prop.](adjoint+triple#FullyFaithful))
+
+=--
+
 
 +-- {: .num_prop #LeftKanExtensionPreservesRepresentableFunctors}
 ###### Proposition
