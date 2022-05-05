@@ -46,3 +46,4 @@ For formalizations see at
 
 [[!redirects parameterized stable homotopy theory]]
 [[!redirects parametrized homotopy theory]]
+[[!redirects parametrised stable homotopy theory]]
