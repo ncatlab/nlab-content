@@ -20,17 +20,15 @@ A [[localization of a category]]/[[localization of an (∞,1)-category|of an (�
 
 In fact every [[reflective subcategory]] inclusion exhibits a reflective localization (Prop. \ref{ReflectiveSubcategoriesAreLocalizations} below).
 
-For reflective localizations the localized category has a particularly useful description (Prop. \ref{ReflectiveLocalizationGivenByLocalObjects} below): It is equivalent to the [[full subcategory]] of _[[local objects]]_ (Def. \ref{LocalObjects} below).
+For reflective localizations the localized category has a particularly useful description (Prop. \ref{ReflectiveLocalizationGivenByLocalObjects} below): It is equivalent to the [[full subcategory]] of _[[local objects]]_ (Def. \ref{LocalObjects} below). 
 
-For a left exact reflective localization, the class of morphisms that is inverted forms a left-[[multiplicative system]]. For the moment see  at _[[geometric embedding]]_ for details on this.
-
-Sometimes reflective localizations are understood as the default concept of localization. Notably [[left Bousfield localizations]] are [[presentable (infinity,1)-category|presentations]] of reflective [[localizations of (∞,1)-categories]].
+Sometimes reflective localizations are understood as the default concept of localization, in fact often reflection onto the [[full subcategory]] of [[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms} below) is understood by default.  Notably [[left Bousfield localizations]] are [[presentable (infinity,1)-category|presentations]] of reflective [[localizations of (∞,1)-categories]].
 
 
 ## Definition
 
-
-
+### Reflective localization
+ {#ReflectiveLoc}
 
 +-- {: .num_defn #CategoryWithWeakEquivalences}
 ###### Definition
@@ -140,6 +138,70 @@ $$
     {\overset{ \phantom{AA} \gamma \phantom{AA} }{\longleftarrow}}
     {\bot}
   \mathcal{C}
+$$
+
+=--
+
+### Reflection onto local objects
+ {#ReflectionOntoLocalObjects}
+
+It turns out (Prop. \ref{ReflectiveLocalizationGivenByLocalObjects}) below, that reflective localizations at a collection $S$ of [[morphisms]] are, when they exist, [[reflective subcategory|reflections]] onto the [[full subcategory]] of _$S$-[[local objects]]_ (Def. \ref{LocalObjects} below). Often this reflection of $S$-[[local objects]] is what one is more interested in than the [[universal property]] of the $S$-[[localization]] according to (Def. \ref{CategoryWithWeakEquivalences}). This _reflection onto local objects_ (Def. \ref{LocalizationAtACollectionOfMorphisms} below) is what is often meant by default with "localization" (for instance in [[Bousfield localization]]).
+
+
++-- {: .num_defn #LocalObjects}
+###### Definition
+**([[local object]])**
+
+Let $\mathcal{C}$ be a [[category]] and let $S \subset Mor_{\mathcal{C}}$ be a set of [[morphisms]]. Then an [[object]] $X \in \mathcal{C}$ is called an _$S$-[[local object]]_ if for all $A \overset{s}{\to} B \; \in S$ the [[hom-functor]] from $s$ into $X$ yields a [[bijection]]
+
+$$
+  Hom_{\mathcal{C}}(s,X)
+  \;\colon\;
+  Hom_{\mathcal{C}}(B,X)
+   \overset{ \phantom{AA} \simeq \phantom{AA} }{\longrightarrow}
+  Hom_{\mathcal{C}}(A,X)
+  \,,
+$$
+
+hence if every morphism $A \overset{f}{\longrightarrow} X$ [[extension|extends]] uniquely along $w$ to $B$:
+
+$$
+  \array{
+    A &\overset{\phantom{A}f\phantom{A}}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{w}}\big\downarrow & \nearrow_{\mathrlap{ \exists! }}
+    \\
+    B
+  }
+$$
+
+We write 
+
+\[
+  \label{FullSubcategoryOfSLocalObjects}
+  \mathcal{C}_S
+  \overset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}
+  \mathcal{C}
+\]
+
+for the [[full subcategory]] of $S$-local objects.
+
+=--
+
++-- {: .num_defn #LocalizationAtACollectionOfMorphisms}
+###### Definition
+**([[reflective subcategory|reflection]] onto [[full subcategory]] of [[local objects]])**
+
+Let $\mathcal{C}$ be a [[category]] and set $S \subset Mor_{\mathcal{C}}$ be a sub-[[class]] of its [[morphisms]]. Then the _reflection onto local $S$-objects_ (often called "localization at the collection $S$" is, if it exists, a [[left adjoint]] $L$ to the [[full subcategory]]-inclusion of the $S$-[[local objects]] (eq:FullSubcategoryOfSLocalObjects):
+
+$$
+  \mathcal{C}_S
+    \underoverset
+      {\underset{\iota}{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,.
 $$
 
 =--
@@ -264,25 +326,10 @@ Finally, since $L$ is [[essentially surjective functor]], by [[idempotent monad|
 
 =--
 
-+-- {: .num_defn #LocalObjects}
-###### Definition
-**([[local object]])**
-
-Let $W \subset \mathcal{C}$ be a [[category with weak equivalences]] (Def. \ref{CategoryWithWeakEquivalences}). Then an [[object]] $X \in \mathcal{C}$ is called a _$W$-[[local object]]_ if for all $A \overset{w}{\to} B \; \in W$ the [[hom-functor]] from $w$ into $X$ yields a [[bijection]]:
-
-$$
-  Hom_{\mathcal{C}}(w,X)
-  \;\colon\;
-  Hom_{\mathcal{C}}(B,X)
-   \overset{ \phantom{AA} \simeq \phantom{AA} }{\longrightarrow}
-  Hom_{\mathcal{C}}(A,X)
-$$
-
-=--
 
 +-- {: .num_prop #ReflectiveLocalizationGivenByLocalObjects}
 ###### Proposition
-**([[reflective localization]] is given by the [[local objects]])**
+**([[reflective localization]] [[reflective subcategory|reflects]] onto [[full subcategory]] of [[local objects]])**
 
 Let $W \subset \mathcal{C}$ be a [[category with weak equivalences]] (Def. \ref{CategoryWithWeakEquivalences}). If its [[reflective localization]] (Def. \ref{LocalizationOfACategory}) exists
 
@@ -295,7 +342,7 @@ $$
   \mathcal{C}
 $$
 
-then $\mathcal{C}[W^{-1}] \overset{\iota}{\hookrightarrow} \mathcal{C}$ is [[equivalence of categories|equivalently]] the inclusion of the [[full subcategory]] on the $W$-[[local objects]] (Def. \ref{LocalObjects}).
+then $\mathcal{C}[W^{-1}] \overset{\iota}{\hookrightarrow} \mathcal{C}$ is [[equivalence of categories|equivalently]] the inclusion of the [[full subcategory]] on the $W$-[[local objects]] (Def. \ref{LocalObjects}), and hence $L$ is equivalently reflection onto the $W$-local objects, according to Def. \ref{LocalizationAtACollectionOfMorphisms}.
 
 =--
 
@@ -362,6 +409,11 @@ Conversely, if there is an [[isomorphism]] from $Y$ to a morphism in the image o
 
 =--
 
+$\,$
+
+* For a left exact reflective localization, the class of morphisms that is inverted forms a left-[[multiplicative system]]. For the moment see  at _[[geometric embedding]]_ for details on this.
+
+
 ## Related concepts
 
 * [[reflective subcategory]], [[coreflective subcategory]]
@@ -372,10 +424,13 @@ Conversely, if there is an [[isomorphism]] from $Y$ to a morphism in the image o
 
 ## References
 
-The concept was originally highligted in
+The concept of refleftive localization was originally highligted in
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
+A formalization in [[homotopy type theory]] of reflection onto local objects is discussed in 
+
+* {#RijkeShulmanSpitters17} [[Egbert Rijke]], [[Michael Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526))
 
 
 [[!redirects reflective localizations]]
