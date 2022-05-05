@@ -10,7 +10,6 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
-### Context
 =--
 =--
 
@@ -238,8 +237,7 @@ For the operadic structure of permutations, see Volume 1, Chapter 1 of:
 
 See also the chapter on "Patterns and permutations" in:
 
-* Étienne Ghys, _A Singular Mathematical Promenade_, August 2017. (arXiv:1612.06373) (author pdf)
-
+* Étienne Ghys, _A Singular Mathematical Promenade_, August 2017. [arXiv:1612.06373](https://arxiv.org/abs/1612.06373) [author pdf](http://perso.ens-lyon.fr/ghys/promenade/)
 
 [[!redirects permutation]]
 [[!redirects permutations]]
