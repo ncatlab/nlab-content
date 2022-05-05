@@ -217,6 +217,7 @@ One can immediately see that a vector bundle is [[slope of a vector bundle|slope
 
 Thus Bridgeland stability generalizes the classical notions of [[stable vector bundle|stability of vector bundles]].
 
+
 ### Over resolutions of ADE-singularities
  {#OverResolutionsOfADESingularities}
 
@@ -231,24 +232,30 @@ Brief review is in [Bridgeland 09, section 6.3](#Bridgeland09).
 
 ## Related concepts
 
-* [[wall crossing]] of [[BPS states]]
+* [[BPS states]]
+
+* [[wall crossing]]
+
+* [[geometric invariant theory]]
+
+
+$\,$
 
 ## References
 
 
-
 ### General
 
-The definition is due to
+The general definition is due to
 
 * {#Bridgeland02} [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345 ([math.AG/0212237](http://arxiv.org/abs/math/0212237))
 
-based on informal arguments about the stability condition ("$\Pi$-stability") for [[B-branes]] of the [[B-model]] [[topological string]], due to [Douglas 01](#Douglas01), [Douglas 02](#Douglas02), [Aspinwall 04](#Aspinwall04).
+generalizing the classical concept of [[slope of a vector bundle|slope]]-[[stable vector bundle|stability of vector bundles]] and of [[modules]] as in 
 
-The [[topolgical space|topology]] on spaces of stability conditions is due to 
+* {#King94} [[Alastair King]], _Moduli of representations of finite dimensional algebras_, The Quarterly Journal of Mathematics 45.4 (1994): 515-530 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.623.649&rep=rep1&type=pdf))
+
+and motivated by informal arguments in [[string theory]] about the "$\Pi$-stability" for [[B-branes]] of the [[B-model]] [[topological string]], due to [Douglas 01](#Douglas01), [Douglas 02](#Douglas02), [Aspinwall 04](#Aspinwall04).
  
-* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009 ([math/0611510](http://arxiv.org/abs/math/0611510))
-
 Further developments include
 
 * R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](http://arxiv.org/abs/0711.3899)
@@ -265,7 +272,11 @@ Further developments include
 
 ### Introduction and review
 
+
 * {#Reineke08} Markus Reineke, _Moduli of representations of quivers_ ([arXiv:0802.2147](https://arxiv.org/abs/0802.2147))
+
+* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009 ([math/0611510](http://arxiv.org/abs/math/0611510))
+
 
 * [[Daniel Huybrechts]], _Introduction to stability conditions_ ([arXiv:1111.1745](https://arxiv.org/abs/1111.1745))
 
