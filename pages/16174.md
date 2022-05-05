@@ -62,6 +62,27 @@ $$
 
 over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself ([Greenlees-May 95, p. 8](#GreenleesMay95)).
 
+### As the endomorphism ring of the additive Burnside category
+
+
+
++-- {: .num_example #BurnsideRingIsEndomorphismRingInBurnsideCategory}
+###### Example
+**([[Burnside ring]] is [[endomorphism ring]] of [[additive Burnside category]])**
+
+The [[endomorphism ring]] of the [[terminal object|terminal]] [[G-set]] (the [[point]] $\ast$ equipped with the, necessarily, [[trivial action]]) in the [[additive Burnside category]] $G Burn_{ad}$ is the _Burnside ring_ $A(G)$:
+
+$$
+  End_{G Burn_{ad}}(\ast, \ast)
+  \;\simeq\;
+  A(G)
+  \,.
+$$
+
+
+=--
+
+
 ### Relation to representation ring
 
 Let $G$ be a [[finite group]]. Consider
