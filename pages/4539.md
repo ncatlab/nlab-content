@@ -3,7 +3,7 @@
 
 (also [[nonabelian homological algebra]])
 
-_[[schreiber:HAI|Introduction]]_
+_[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
 ### Context
 
