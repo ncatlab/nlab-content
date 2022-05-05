@@ -51,13 +51,18 @@ based on
 
   _Discrete Torsion, Quotient Stacks, and String Orbifolds_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
 
+See also
+
+* [[Kiyonori Gomi]], Yuji Terashima, _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
+
 The case of [[heterotic string theory]] is discussed in
 
-* [[Eric Sharpe]]  _Discrete Torsion in Perturbative Heterotic String Theory_, Phys.Rev. D68 (2003) 126005 ([arXiv:hep-th/0008184](https://arxiv.org/abs/hep-th/0008184))
+* [[Eric Sharpe]], _Discrete Torsion in Perturbative Heterotic String Theory_, Phys.Rev. D68 (2003) 126005 ([arXiv:hep-th/0008184](https://arxiv.org/abs/hep-th/0008184))
 
 
 
 ### For the C-field
+ {#ReferencesForTheCField}
 
 The higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]] is discussed in
 
@@ -65,7 +70,11 @@ The higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] 
 
 * Shigenori Seki, _Discrete Torsion and Branes in M-theory from Mathematical Viewpoint_, Nucl.Phys. B606 (2001) 689-698 ([arXiv:hep-th/0103117](https://arxiv.org/abs/hep-th/0103117))
 
+* [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.6.2 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
 and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] [[field theory]] ([[ABJM model]]) in
 
 * [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+
+* [[Mauricio Romo]], _Aspects of ABJM orbifolds with discrete torsion_, J. High Energ. Phys. (2011) 2011 ([arXiv:1011.4733](https://arxiv.org/abs/1011.4733))
 
