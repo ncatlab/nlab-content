@@ -254,6 +254,8 @@ On the other hand, discussion casting doubt on the existence of a large number o
 
 * [[David Kutasov]], Travis Maxfield, Ilarion Melnikov, [[Savdeep Sethi]], _Constraining de Sitter Space in String Theory_, Phys. Rev. Lett. 115, 071305 (2015) ([arXiv:1504.00056](https://arxiv.org/abs/1504.00056))
 
+* Jakob Moritz, Ander Retolaza, Alexander Westphal, _Towards de Sitter from 10D_, Phys. Rev. D 97, 046010 (2018) ([arXiv:1707.08678](https://arxiv.org/abs/1707.08678))
+
 * {#Sethi17} [[Savdeep Sethi]], _Supersymmetry Breaking by Fluxes_ ([arXiv:1709.03554](https://arxiv.org/abs/1709.03554))
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
@@ -272,9 +274,6 @@ Implications of the possible non-existence of de Sitter vacua in string theory a
 
 * [[Frederik Denef]], Arthur Hebecker, Timm Wrase, _The dS swampland conjecture and the Higgs potential_ ([arXiv:1807.06581](https://arxiv.org/abs/1807.06581))
 
-But then:
-
-* Jakob Moritz, Ander Retolaza, Alexander Westphal, _Towards de Sitter from 10D_, Phys. Rev. D 97, 046010 (2018) ([arXiv:1707.08678](https://arxiv.org/abs/1707.08678))
 
 
 
