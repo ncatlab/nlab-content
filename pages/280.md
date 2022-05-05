@@ -154,6 +154,8 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 
   * [[circle action]]
 
+  * [[group action on an n-sphere]]
+
 (...)
 
 ## Related concepts
