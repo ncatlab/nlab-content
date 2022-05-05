@@ -178,4 +178,5 @@ The interpretation of [[stable cohomotopy]] as [[algebraic K-theory]] over $\mat
 [[!redirects Fun]]
 [[!redirects absolute geometry]]
 [[!redirects absolute algebraic geometry]]
+[[!redirects absolute ground field]]
 [[!redirects F1]]
