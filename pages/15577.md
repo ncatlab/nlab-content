@@ -26,9 +26,9 @@ Apparently first introduced in
 
 * [[Alexander Beilinson]] [[Vladimir Drinfeld]], _Chiral algebras_, American Mathematical Society Colloquium Publications *51* (2004)
 
-Reviews include
+Textbook accounts include
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Ran_space)
+* [[Jacob Lurie]], section 5.5.1 of _[[Higher Aklgebra]]_
 
 Rational functions as functions on the Ran space in the sense of functions on the complement of finitely many points as these range over all points, is discussed in
 
@@ -41,6 +41,10 @@ Acyclicity of (some version of) the Ran space of a connected, [[quasi-projective
 Discussion in the context of [[conformal field theory]] includes
 
 * [[Pierre Deligne]], John Morgan, et. al., volume II, part III of _[[Quantum Fields and Strings]]_
+
+See also 
+
+* [Wikipedia](http://en.wikipedia.org/wiki/Ran_space)
 
 
 [[!redirects Ran spaces]]
