@@ -1,3 +1,5 @@
+[[!redirects Е. Б. Богомольний]]
+[[!redirects Е. Б. Богомольний]]
 
 Evgeny Bogomolny
 
