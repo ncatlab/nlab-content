@@ -221,10 +221,6 @@ Comprehensive lecture notes on this are at
 
 * _[[geometry of physics -- perturbative quantum field theory]]_.
 
-Discussion of non-perturbative aspects in this context is in 
-
-* Mojtaba Taslimi Tehrani, Jochen Zahn, _Background independence in gauge theories_ ([arXiv:1804.07640](https://arxiv.org/abs/1804.07640))
-
 
 Discussion of abelian higher gauge theory in terms of [[differential cohomology]] is in
 
