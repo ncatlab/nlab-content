@@ -35,7 +35,7 @@ Piecewise flat spacetimes appear naturally in [[3d quantum gravity|3-dimensional
 
 ## References
 
-### Regge calculuc
+### Regge calculus
 
 * {#Regge61} [[Tullio Regge]], _General relativity without coordinates_,  Nuovo Cim (1961) 19: 558 ([doi:10.1007/BF02733251](https://doi.org/10.1007/BF02733251))
 
