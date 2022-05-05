@@ -6676,7 +6676,7 @@ $$
 
 Now, from (eq:NaturalitySquareForConcretificationUnit), we have a [[commuting square]] as shown. Here the left morphism is an [[epimorphism]] by construction, while the right morphism is a [[monomorphism]] by assumption on $X_2$. With this, the [[(epi, mono) factorization system|epi/mono-factorization]] in Prop. \ref{SheafToposEpiMonoFactorization} says that there is a diagonal [[lift]] which makes _both_ triangles [[commuting diagram|commute]].
 
-It remains to see that the lift is unique with the property of making (just) the top left triangle commute. But this is equivalently the statement that the left morphism is an epimorphism, by Def. \ref{Monomorphism}.
+It remains to see that the lift is unique with just the property of making the top left triangle commute. But this is equivalently the statement that the left morphism is an epimorphism, by Def. \ref{Monomorphism}.
 
 =--
 
