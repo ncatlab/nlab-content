@@ -420,7 +420,11 @@ See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+
 ## References
 
 
-* [[Kenneth Brown]], page 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, 1973 .
+* [[Kenneth Brown]], page 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, 1973.
+
+A version in the setup of $\infty$-cosmoi is Lemma 2.1.6 in 
+
+* Emily Riehl, Dominic Verity, _Fibrations and Yoneda’s lemma in an $\infty$-cosmos_, J. Pure Appl. Alg. __221__:3 (2017), 499-564 [arxiv/1506.05500](http://arxiv.org/abs/1506.05500)
 
 [[!redirects ken brown's lemma]]
 
