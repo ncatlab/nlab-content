@@ -59,7 +59,7 @@ such that
 
 +-- {: .num_example #2CategoryOfModelCategories}
 ###### Definition
-**(the [[2-category]] of [[combinatorial model category|combinatoria]] [[model categories]])**
+**(the [[2-category]] of [[combinatorial model category|combinatorial]] [[model categories]])**
 
 Write 
 
@@ -102,7 +102,7 @@ of the [[2-category]] of [[combinatorial model categories]] (Def. \ref{2Category
 $$
   CombModCat\big[QuillenEquivalences^{-1}\big](\mathcal{C}, \mathcal{D})
   \;\simeq\;
-  ModCat( \mathcal{C}^p, \mathcal{D}^p )\big[\{QuillenHomotpies\}^{-1}\big]
+  ModCat( \mathcal{C}^p, \mathcal{D}^p )\big[\{QuillenHomotopies\}^{-1}\big]
 $$
 
 of the category of [[left Quillen functors]] and [[natural transformations]] between local presentations $\mathcal{C}^p$ and $\mathcal{D}^p$ (Remark \ref{LocalPresentationOfCombinatorialModelCategories}) at those [[natural transformation]] that on [[cofibrant objects]] have components that are [[weak equivalences]] ("Quillen homotopies").
