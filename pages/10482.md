@@ -162,70 +162,18 @@ for all $\alpha,  \beta \in \Omega^\bullet(\mathbb{R}^{p|q})$ of homogeneous $\m
 
 Some examples:
 
-$$
-  x^{a_1} x^{a_2} = + x^{a_2} x^{a_1}
-$$
-
-$$
-  x^a \theta^\alpha = + \theta^\alpha x^a
-$$
-
-$$
-  \theta^{\alpha_1} \theta^{\alpha_2}
-  =
-  -
-  \theta^{\alpha_2} \theta^{\alpha_1}
-$$
-
-
-$$
-  x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
-$$
-
-
-$$
-  \theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
-$$
-
-$$
-  \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
-   = 
-  - (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
-$$
-
-$$
-  \mathbf{d}x^{a_1}
-  \wedge
-  \mathbf{d} x^{a_2}
-  =
-  -
-  \mathbf{d} x^{a_2}
-  \wedge
-  \mathbf{d} x^{a_1}
-$$
-
-
-$$
-  \mathbf{d}x^a
-  \wedge
-  \mathbf{d} \theta^{\alpha}
-  =
-  -
-  \mathbf{d}\theta^{\alpha}
-  \wedge
-  \mathbf{d} x^a
-$$
-
-$$
-  \mathbf{d}\theta^{\alpha_1}
-  \wedge
-  \mathbf{d} \theta^{\alpha_2}
-  =
-  +
-  \mathbf{d}\theta^{\alpha_2}
-  \wedge
-  \mathbf{d} \theta^{\alpha_1}
-$$
+| $\phantom{A}$[[signs in supergeometry|sign rule]]$\phantom{A}$  | $\phantom{A}$[Deligne's](signs+in+supergeometry#TheSignRuleFromInternalization)$\phantom{A}$ | [Bernstein's](signs+in+supergeometry#SuperOddConvention)$\phantom{A}$ | 
+|---|------------------|-------------------|
+| $\phantom{A}$$x^{a} \; x^{b} =$ | $\phantom{A}$$+ x^{b} \; x^{a}$$\phantom{A}$ | $\phantom{A}$$+ x^{b} \; x^{a}$$\phantom{A}$ | 
+| $\phantom{A}$$x^a \;\theta^\alpha =$$\phantom{A}$ | $\phantom{A}$$+ \theta^\alpha \; x^a$$\phantom{A}$ | $\phantom{A}$$+ \theta^\alpha \; x^a$$\phantom{A}$ | 
+| $\phantom{A}$$\theta^{\alpha} \; \theta^{\beta} =$$\phantom{A}$ | $\phantom{A}$$- \theta^{\beta} \; \theta^{\alpha}$$\phantom{A}$ | $\phantom{A}$$ - \theta^{\beta} \; \theta^{\alpha}$$\phantom{A}$ | 
+| $\phantom{A}$$x^{a} (\mathbf{d}x^{a}) =$$\phantom{A}$ | $\phantom{A}$$+ (\mathbf{d}x^{b}) x^{a}$$\phantom{A}$ | $\phantom{A}$$+ (\mathbf{d}x^{b}) x^{a}$$\phantom{A}$ |
+| $\phantom{A}$$\theta^\alpha (\mathbf{d}x^a) =$$\phantom{A}$ | $\phantom{A}$$+ (\mathbf{d}x^a) \theta^\alpha$$\phantom{A}$ | $\phantom{A}$${\color{blue}{-}} (\mathbf{d}x^a) \theta^\alpha$$\phantom{A}$ | 
+| $\phantom{A}$$\theta^{\alpha} (\mathbf{d}\theta^{\beta})  = $$\phantom{A}$ | $\phantom{A}$$- (\mathbf{d}\theta^{\beta}) \theta^{\alpha}$$\phantom{A}$ | $\phantom{A}$${\color{blue}{+}} (\mathbf{d}\theta^{\beta}) \theta^{\alpha}$$\phantom{A}$ | 
+| $\phantom{A}$$ (\mathbf{d}x^{a}) (\mathbf{d} x^{b}) =$$\phantom{A}$ |  $\phantom{A}$$- (\mathbf{d} x^{b}) (\mathbf{d} x^{a})$$\phantom{A}$ | $\phantom{A}$$ - (\mathbf{d} x^{b}) (\mathbf{d} x^{a})$$\phantom{A}$ |
+| $\phantom{A}$$ (\mathbf{d}x^a) (\mathbf{d} \theta^{\alpha}) =$$\phantom{A}$ | $\phantom{A}$$ - (\mathbf{d}\theta^{\alpha}) (\mathbf{d} x^a) $$\phantom{A}$ | $\phantom{A}$$ {\color{blue}{+}} (\mathbf{d}\theta^{\alpha}) (\mathbf{d} x^a) $$\phantom{A}$ |
+| $\phantom{A}$$(\mathbf{d}\theta^{\alpha}) (\mathbf{d} \theta^{\beta}) =$ | $\phantom{A}$$ + (\mathbf{d}\theta^{\beta}) (\mathbf{d} \theta^{\alpha})$$\phantom{A}$ | $\phantom{A}$$ + (\mathbf{d}\theta^{\beta}) (\mathbf{d} \theta^{\alpha})$$\phantom{A}$ |
+{: style='margin:auto}
 
 ### Cohomology of super Minkowski spacetime
 
