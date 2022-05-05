@@ -1,6 +1,7 @@
 [[!redirects category of G sets]]
 [[!redirects category of G sets]]
 [[!redirects category-of-G-sets]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -219,10 +220,17 @@ Let $G$ be a topological group, and let $H$ be a topological group object in $G 
 =--
 Proof is a straightforward check that the continuity conditions match up.
 
-## Related Concepts
+## Related concepts
+
 * [[G-set]]
+
 * [[topological G-space]]
+
+* [[permutation representation]]
+
 * [[Fraenkel-Mostowski model]]
+
+* [[class equation]]
 
 ## References
 
