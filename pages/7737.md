@@ -37,6 +37,8 @@ There are various ways in the literature to make this precise, including:
 
 * [[stratification]]
 
+* [[piecewise flat spacetime]]
+
 ## References
 
 A notion of purely topologically stratified sets was introduced in
