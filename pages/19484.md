@@ -428,7 +428,7 @@ Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the fo
 +-- {: .proof}
 ###### Proof
 
-The comparison morphism $ptp_{\mathbf{H}}$ is a special case of that discussed in Prop. \ref{OppositeExtrmeComparison}. First observe, in the notation there, that
+The comparison morphism $ptp_{\mathbf{H}}$ is a special case of that discussed in Prop. \ref{ComparisonMorphismBetweenOppositeExtremes}. First observe, in the notation there, that
 
 $$
   ptp_{\mathbf{H}} \;\; \text{is epi}
@@ -465,6 +465,56 @@ This establishes the equivalence between the first two items.
 
 =--
 
++-- {: .num_prop #CohesiveSiteSuchThatDiscreteObjectsAreConcrete}
+###### Proposition
+**([[cohesive site]] such that [[pieces have points]]/[[discrete objects are concrete]])**
+
+Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}), such that 
+
+* for every [[object]] $X \in \mathcal{C}$, there is at least one [[morphism]] $\ast \overset{\exists}{\to} X$ from [[generalized the|the]] [[terminal object]] to $X$, hence such that the [[hom set]] $Hom_{\mathcal{C}}(\ast, X)$ is [[inhabited set|non-empty]].
+
+Then the [[cohesive topos]] $Sh(\mathcal{C})$, according to Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, satisfies the equivalent conditions from Prop. \ref{PiecesHavePoints}:
+
+1. [[pieces have points]],
+
+1. [[discrete objects are concrete]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By Prop. \ref{PiecesHavePoints} it is sufficient to show the second condition, hence to check that for each [[set]] $S \in Set$, the canonical morphism
+
+$$
+  Disc(S) \longrightarrow coDisc(S)
+$$
+
+is a [[monomorphism]]. By Prop. \ref{RecognitionOfEpimorphisms} this means equivalently that for each [[object]] $X \in \mathcal{C}$ in the site, the component function
+
+$$
+  Disc(S)(X) \longrightarrow coDisc(S)(X)
+$$
+
+is an [[injective function]].
+
+Now, by the proof of Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, this is the [[diagonal]] function
+
+$$
+  \array{
+    S 
+     & \longrightarrow&
+    Hom_{Set}\left( Hom_{\mathcal{C}}(\ast, X), S \right)
+    \\
+    s &\mapsto& const_s 
+  } 
+$$
+
+This function is [[injective function|injective]] precisely if $Hom_{\mathcal{C}}(\ast, X)$ is [[inhabited set|non-empty]], which is true by assumption.
+ 
+
+=--
 
 +-- {: .num_prop #QuasitoposOfConcreteObjects}
 ###### Proposition
