@@ -43,4 +43,8 @@ and many, many more besides (see [Stanley](#Stanley2015) for 214 such interpreta
 6 of _Enumerative Combinatorics_, vol. 2) 96 pp. [pdf](http://www-math.mit.edu/~rstan/ec/catadd.pdf)
 * {#Stanley2015} Richard P. Stanley, _Catalan numbers_, 215 pp., Cambridge University Press 2015
 
+For an interpretation in terms of [[species]] (or *structure types*) see
+
+* [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_, ([arXiv:math/0004133](https://arxiv.org/abs/math/0004133), p. 19).
+
 [[!redirects Catalan numbers]]
