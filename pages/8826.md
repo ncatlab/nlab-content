@@ -7,7 +7,7 @@
 ##Idea 
 To quote from a book on the subject:
 
-''Multiagent systems are a new paradigm for understanding and building distributed systems, where it is assumed that the computational components are autonomous: able to control their own behaviour in the furtherance of their own goals.''
+>"Multiagent systems are a new paradigm for understanding and building distributed systems, where it is assumed that the computational components are autonomous: able to control their own behaviour in the furtherance of their own goals." ([Wooldridge09](#Wooldridge09))
 
 
 The area is a very wide one and this entry only deals with some generalities especially links between local `knowledge' and more global forms and the models of this that involve the use of [[modal logic]].
@@ -18,7 +18,7 @@ In many studies of distributed systems, a multiagent model is
 used.  
 
 * An agent is a processor, sensor or finite state machine,
-interconnected by a communication network with other `agents'.
+interconnected by a communication network with other 'agents'.
 
 Typically each agent has a local state that is a function of its
 initial state, the messages received from other agents,
@@ -33,23 +33,22 @@ an extension of that basic one, that is, it may have more axioms.
 For instance, the way the various agents are connected influences
 the logic in subtle ways. Suppose that agent 1 sends all its
 information immediately to agents 2 and 3, then if we denote by
-$K_i\phi$, the statement that agent $i$ `knows' proposition
+$K_i \phi$, the statement that agent $i$ 'knows' proposition
 $\phi$, we clearly expect within the logic of that system that
 we have as an axiom:
 
-$$K_1\phi\Rightarrow K_2\phi \wedge K_3\phi,$$
+$$K_1 \phi \Rightarrow K_2\phi \wedge K_3 \phi,$$
 
 in other words, if 1 knows something then we have that both 2 and 3 know it.
 
 
 The logic $S5_n$ is obtained from ordinary [[propositional logic]] by
-adding `knowledge operators', $K_i$ as above. (In the literature
+adding 'knowledge operators', $K_i$, as above. (In the literature
 the notation $K_i\phi$ is often replaced by $\Box_i\phi$.)  It
 models a community of *ideal* knowledge agents who have
 the properties of 
 
-* veridical knowledge (everything they know is
-true), 
+* veridical knowledge (everything they know is true), 
 
 * positive introspection (they know what they know) 
 
@@ -57,8 +56,7 @@ and
 
 *  negative introspection (they know what they do not know). 
 
-These
-properties are reflected in the axiom system for the logic.  For more on this see   the entry [[the logic S5(m)|S5(n)]].
+These properties are reflected in the axiom system for the logic.  For more on this see   the entry [[the logic S5(m)|S5(n)]].
 
 ##Models for these logics 
 
@@ -85,7 +83,7 @@ A set of global states (SGS) for an interpreted system is a subset $S$ of the pr
 
 ###Books
 
-* [[Michael Wooldridge]] _An Introduction to MultiAgent Systems_ Wiley, 2009
+* {#Wooldridge09} [[Michael Wooldridge]], _An Introduction to MultiAgent Systems_ Wiley, 2009
 
 
 ###Articles
