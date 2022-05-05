@@ -5,6 +5,7 @@
 <br/> 
 **on a [[globally hyperbolic spacetime]] such as [[Minkowski spacetime]]:**
 
+
 | name | symbol  | [[wave front set]] | as  [[vacuum expectation value|vacuum exp. value]] <br/> of [[operator-valued distribution|field operators]] | as a [[nonassociative algebra|product]] of <br/> [[operator-valued distribution|field operators]] |
 |---|----|---|---|---|
 | [[causal propagator]] | $\begin{aligned}\Delta_S & =  \Delta_+ - \Delta_- \end{aligned}$ |  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> <br/> $\phantom{A}\,\,\,-$ <br/> <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |$\begin{aligned} & i \hbar \, \Delta_S(x,y) = \\ & \left\langle \;\left[\mathbf{\Phi}(x),\mathbf{\Phi}(y)\right]\; \right\rangle \end{aligned} $ | [[Peierls bracket|Peierls-Poisson bracket]] |
