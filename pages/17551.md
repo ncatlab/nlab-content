@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -103,11 +104,13 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 ([Schwede 15, remark 7.15](#Schwede15), [Blumberg 17, around Def. 2.5.16](#Blumberg17))
 
+More generally:
+
 +-- {: .num_prop #PartialGeometricFixedPoint}
 ###### Proposition/Remark
 **(partial geometric fixed point spectra)**
 
-This generalizes to a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends 
+There is a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends 
 
 $$
   \Phi^H \;\colon\; G Spectra \longrightarrow W_G H Spectra
@@ -136,49 +139,126 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
 
 ([Lewis-May-Steinberger 86, II.9, Def. 9.7, Cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
 
-
+$\,$
 
 
 ### In terms of smashing localization
  {#InTermsOfSmashingLocalization}
 
-We collect some facts from [Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86)
+We collect some facts from [Lewis-May-Steinberger 86, section II.9](#LewisMaySteinberger86).
 
-> currently bare bones, using definitions and notation from [Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86) without further ado
+Throughout, consider a [[finite group]] $G$ and a [[normal subgroup]] $N \subset G$. 
 
-Given a [[finite group]] $G$ and a [[normal subgroup]], 
++-- {: .num_defn}
+###### Definition
+
+We write
 
 $$
   \mathcal{F}[N]
   \;\coloneqq\;
   \big\{
-    N \nsubset H \subset G 
+    N \subset\!\!\!\!\!/ H\; \subset G 
   \big\}
 $$ 
 
-denotes a family of [[subgroups]] of $G$ that do not contain $N$
+for the set of [[subgroups]] of $G$ that do not contain $N$, and
 
+$$
+  \mathcal{F}[N]^'
+  \;\coloneqq\;
+  \big\{
+    N \subset H \subset G 
+  \big\}
+$$ 
+
+for the subset of [[subgroups]] of $G$ that do contain $N$.
+
+=--
+
+([LMS86, p. 107 & bottom of p. 109](#LewisMaySteinberger86))
+
+
++-- {: .num_defn #tildeE}
+###### Definition
+
+There is a [[pointed topological space|pointed]] [[G-space]] 
+
+$$
+  \widetilde E \mathcal{F}[N]
+  \;\in\;
+  G Spaces
+$$
+
+whose [[fixed point spaces]] for [[subgroups]] $H \subset G$ are
+
+$$
+  \big(
+    \widetilde E \mathcal{F}[N]
+  \big)^H
+  \;\simeq\;
+  \left\{
+    \array{
+      \ast 
+        &\vert& 
+      H \in \mathcal{F}[N] 
+        \;\Leftrightarrow\; 
+      \not(N \subset H) 
+      \\
+      S^0 
+        &\vert&
+      H \in \mathcal{F}[N]^' 
+        \;\Leftrightarrow\; 
+      N \subset H 
+    }
+  \right.
+$$
+
+=--
+
+([LMS86, beginning of II.9](#LewisMaySteinberger86))
+
++-- {: .num_defn #FPrimeEquivalences}
+###### Definition
+
+We say that a morphism $f \colon X \to Y$ of [[G-spectra]] is an _$\mathcal{F}[N]^'$-equivalence_ if its [[smash product]] with $\tilde E \mathcal{F}[N]$ (Def. \ref{tildeE})
+
+$$
+  f \wedge id_{\tilde E \mathcal{F}[N]}
+  \;\colon\;
+  X \wedge \tilde E \mathcal{F}[N]
+   \longrightarrow
+  Y \wedge \tilde E \mathcal{F}[N]
+$$
+
+is an equivalence of [[G-spectra]].
+
+=--
+
+[LMS 86, bottom of p. 107](#LewisMaySteinberger86)
 
 +-- {: .num_prop #FPrimeLocalizationIsSmashingLocalization}
 ###### Proposition
 
-The [[localization]] of $G Spectra$ at the $\mathcal{F}'$-equivalences is a [[smashing localization]], given by smashing with 
-
+The [[localization]] of $G Spectra$ at the $\mathcal{F}[N]'$-equivalences (Def. \ref{FPrimeEquivalences}) is a [[smashing localization]], given by smashing with the [[equivariant suspension spectrum]] of $\tilde E \mathcal{F}[N]$ (eq:tildeE)
+ 
 $$
-  \tilde E \mathcal{F}
+  \Sigma^\infty_G \tilde E \mathcal{F}[N]
+  \;\in\;
+  G Spectra
 $$
 
 In particular, we have
 
 $$
-  Hom_{G Spectra}\left( 
-    \tilde E \mathcal{F} X, 
-    \tilde E \mathcal{F} Y
+  Ho_{G Spectra}\left( 
+    \tilde E \mathcal{F}[N] \wedge X, 
+    \tilde E \mathcal{F}[N] \wedge Y
   \right)
   \;\simeq\;
-  Hom_{G Spectra}\left( 
+  Ho_{G Spectra}\left( 
     X, 
-    \tilde E \mathcal{F} Y
+    \tilde E \mathcal{F}[N] \wedge Y
   \right)
 $$
 
@@ -195,21 +275,146 @@ Hence
 $$
   (L_{\mathcal{F}[N]'})_{X,Y}
   \coloneqq
-  Hom_{G Spectra}(X, (S^0 \to \tilde E \mathcal{F}) \wedge Y)
+  Ho_{G Spectra}(X, (S^0 \to \tilde E \mathcal{F}) \wedge Y)
   \;\colon\;
-  Hom_{G Spectra}(X,Y)
+  Ho_{G Spectra}(X,Y)
     \longrightarrow
-  Hom_{L_{\mathcal{F}'} G Spectra}(X,Y)
+  Ho_{L_{\mathcal{F}'} G Spectra}(X,Y)
 $$
 
-is $\mathcal{F}'$-localization.
+is $\mathcal{F}'[N]$-localization on [[hom-objects]].
 
 =--
 
-+-- {: .num_lemma #GeometricFixedPointsInTermsOfPlainFixedPoints}
++-- {: .num_lemma #SmashingWithTildeOnSpaces}
 ###### Lemma
 
-We have an equivalence
+For $X$ and $Y$ [[G-CW-complexes]], the following are [[bijections]] of [[hom-sets]]:
+
+$$
+  \array{
+  \mathrm{Hom}_{Ho(G Spaces)}
+  \big(
+    X, \widetilde E \mathcal{F}[N] \wedge Y
+  \big)
+  &
+  \underoverset{\simeq}{
+    Ho_{G Spaces}
+    \big(
+      X^N \hookrightarrow X, \widetilde E \mathcal{F}[N]
+    \big)
+  }{\longrightarrow}
+   &
+  \mathrm{Hom}_{Ho(G Spaces)}
+  \big(
+    X^N, \widetilde E \mathcal{F}[N] \wedge Y
+  \big)  
+  \\
+  && =
+  \\
+  Ho_{G Spaces}
+  \big( 
+    X^N, Y
+  \big)
+  &
+  \underoverset{\simeq}{
+    Ho_{G Spaces}
+    \big(
+      X^N, (S^0 \to \tilde E \mathcal{F}[N]) \wedge Y 
+    \big)
+    }{\longrightarrow}
+  &
+  \mathrm{Hom}_{Ho(G Spaces)}
+  \big(
+    X^N, \widetilde E \mathcal{F}[N] \wedge Y
+  \big)  
+  \\
+  =
+  \\
+  Ho_{G Spaces}
+  \big( 
+    X^N, Y^N
+  \big)
+  }
+$$
+
+=--
+
+([LMS 86, prop. II 9.3 with remark below the proof](#LewisMaySteinberger86))
+
+
++-- {: .num_cor #SmashingWithTildeEOnspacesEquivalentToRestriction}
+###### Corollary
+
+On [[hom-sets]] of [[G-spaces]] $Ho_{G Spaces}(X,Y)$, [[postcomposition|postcomposing]] with the [[smash product|smashing]] $(S^0 \to \tilde E \mathcal{F}[N]) \wedge Y$ is isomorphic to restricting along $X^N \hookrightarrow X$: The following is a [[commuting square]] (by nature of the [[hom-functor]]) and the right and bottom morphisms are bijections by Lemma \ref{SmashingWithTildeOnSpaces}:
+
+$$
+  \array{
+    Ho_{G Spaces}
+    \big( 
+      X, Y
+    \big)
+    &
+    \overset{ 
+      Ho_{G Spaces}
+      \big( 
+        X^N \hookrightarrow N, Y 
+      \big)  
+    }{ \longrightarrow }
+    &
+    Ho_{G Spaces}\big( X^N, Y \big)
+    &\simeq&
+    Ho_{G Spaces}\big( X^N, Y^N \big)
+    \\
+    {}^{
+      \mathllap{
+        Ho_{G Spaces}( X, (S^0 \to \tilde E \mathcal{F}[N]) \wedge Y )         
+      }
+    }
+    \big\downarrow 
+    &&
+    {}^{\mathllap{\simeq}}\big\downarrow
+    {}^{
+      \mathrlap{
+        Ho_{G Spaces}( X^N, (S^0 \to \tilde E \mathcal{F}[N]) \wedge Y )
+      }
+    }
+    \\
+    Ho_{G Spaces}\big( X, \tilde E \mathcal{F}[N] \wedge Y  \big)
+    &
+      \underoverset
+        {\simeq}
+        {
+          Ho_{G Spaces}
+          \big( 
+            X^N \hookrightarrow X, \tilde E \mathcal{F}[N] \wedge Y 
+          \big)
+        }
+        {\longrightarrow}
+    &
+    Ho_{G Spaces}\big( X^N, \tilde E \mathcal{F}[N] \wedge Y  \big)
+  }
+$$
+
+=--
+
+
+
++-- {: .num_lemma #GeometricFixedPointsInTermsOfPlainFixedPoints}
+###### Lemma
+**(geometric fixed point spectra in terms of homotopy fix point spectra)**
+
+The partial geometric fixed point functor (Prop. \ref{PartialGeometricFixedPoint})
+
+$$
+  \Phi^N 
+  \;\colon\;
+  G Spectra 
+    \longrightarrow
+  G/N Spectra
+$$
+
+is given on [[equivariant suspension spectra]] $\Sigma^\infy_G X$ equivalently by first smashing with $\tilde E \mathcal{F}[N]$ (Def. \ref{tildeE}) followed by forming the partial plain [[fixed point spectrum]]:
 
 $$
   \Phi^N \Sigma^\infty_G X \;\simeq\;
@@ -434,14 +639,14 @@ This component is equal to the following composite of isomorphisms with $\mathca
   \;\colon\;
   E^{\epsilon^\ast \alpha}(\epsilon^\sharp X)
   & =
-  Hom_{G Spectra}\left( 
+  Ho_{G Spectra}\left( 
     \epsilon^\sharp \Sigma^\infty_{G/N} X  
     \;,\;  
     \Sigma^\infty_G S^{\epsilon \alpha} \wedge E
   \right)
   \\
   & \simeq
-  Hom_{G Spectra}\left( 
+  Ho_{G Spectra}\left( 
     \epsilon^\sharp \Sigma^\infty_{G/N} X  
     \;,\;  
     \Sigma^\infty_G S^{\epsilon \alpha} \wedge S^0 \wedge E
@@ -449,14 +654,14 @@ This component is equal to the following composite of isomorphisms with $\mathca
   \\
   & 
   \overset{ L_{\mathcal{F}[N]'} }{\longrightarrow}
-  Hom_{G Spectra}\left( 
+  Ho_{G Spectra}\left( 
     \epsilon^\sharp \Sigma^\infty_{G/N} X  
     \;,\;  
     \Sigma^\infty_G S^{\epsilon \alpha} \wedge \tilde E \mathcal{F}[N]\wedge E
   \right)
   \\
   & \simeq
-  Hom_{G/N Spectra}\left( 
+  Ho_{G/N Spectra}\left( 
      \Sigma^\infty_{G/N} X
     \;,\; 
     \left(    
@@ -467,7 +672,7 @@ This component is equal to the following composite of isomorphisms with $\mathca
   \right)
   \\
   & \simeq
-  Hom_{G/N Spectra}\left( 
+  Ho_{G/N Spectra}\left( 
      \Sigma^\infty_{G/N} X
     \;,\; 
     \left(    
@@ -480,7 +685,7 @@ This component is equal to the following composite of isomorphisms with $\mathca
   \right)
   \\  
   & \simeq
-  Hom_{G/N Spectra}\left( 
+  Ho_{G/N Spectra}\left( 
      \Sigma^\infty_{G/N} X
     \;,\; 
     S^{\alpha}
@@ -579,22 +784,76 @@ Hence with all identifications made explicit, the morphism (eq:SurjectionFromEqu
 
 of $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ with a sequence of [[isomorphisms]], and hence our task is to prove that $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ is a surjection.
 
-We first prove this for the case that $V = 0$. In this case the identification with the [[Burnside ring]] (via [[Burnside ring is equivariant stable cohomotopy of the point|this Prop.]]) applies also to the [[domain]] cohomology group, so that (eq:SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero) becomes simply the projection of [[Burnside rings]]
+We first prove this for the case that $V = 0$. In this case the identification with the [[Burnside ring]] (via [[Burnside ring is equivariant stable cohomotopy of the point|this Prop.]]) applies also to the [[domain]] cohomology group:
 
 $$
-  A(G) \overset{ \phantom{AA} (-)^N \phantom{AA} }{\longrightarrow} A(G/N)
+  \mathbb{S}_G^V(\ast)
+  \;\simeq\;
+  \underset{\underset{V \in G Rep}{\longrightarrow}}{\lim}
+  Ho_{G Spaces}\big(S^V, S^V \big)
+  \simeq A(G)
+  \,,
 $$
 
-{#Hmm} given by... 
+By Prop. \ref{CanonicalComparisonMap} 
+the comparison morphism acts on this by smashing the [[codomain]] of the [[hom-sets]] with $(S^0 \to \tilde E \mathcal{F}[N])$. But by Corollary \ref{SmashingWithTildeEOnspacesEquivalentToRestriction} this is equivalent to restricting to $N$-[[fixed point spaces]] so that (eq:SurjectionFromEquivariantStableCohomotopyInDegreeVToDegreeZero) becomes simply the projection of [[Burnside rings]]
 
-> this should follow formally like so: Prop. \ref{CanonicalComparisonMap} says that the map is $\mathcal{F}[N]'$-localization. then use [LMS 86, prop. 9.3](LewisMaySteinberger86)
+$$
+  \array{
+    A(G) 
+      &\simeq& 
+    \underset{\underset{ V \in G Rep }{\longrightarrow}}{\lim}
+    &
+    Ho_{G Spaces}\big( S^V, S^V \big)
+      &\simeq& 
+    \mathbb{S}^0_G(\ast) 
+    \\
+    {}^{\mathllap{ (-)^N }}\big\downarrow 
+    &&
+    \big\downarrow
+    {}^{{}_{
+    \mathrlap{
+      \array{
+        \underset{\underset{V \in G Rep}{\longrightarrow}}{\lim}
+        Ho_{G Spaces}\big( 
+          S^V, 
+          S^V \wedge (S^0 \to \tilde E\mathcal{F}[E]) 
+        \big) 
+        \\
+        =
+        \\
+        \underset{\underset{V \in G Rep}{\longrightarrow}}{\lim}
+        Ho_{G Spaces}\big( 
+          (S^V)^N \hookrightarrow  S^V, 
+          S^V  
+        \big) 
+      }
+      }
+    }
+    }
+    &
+    &&
+    \big\downarrow{}^{
+      \mathrlap{
+        p_\mathbb{S}^N(\ast)
+      }
+    }
+    \\
+    A(G/N)
+      &\simeq& 
+    \underset{\underset{ W \in G/N Rep }{\longrightarrow}}{\lim}
+    &
+    Ho(G/N Spaces)\big( S^W, S^W \big)
+      &\simeq& 
+    \mathbb{S}^0_{G/N}(\ast) 
+  }
+$$
 
-...sending any [[G-set]] $S$ to its [[subset]] $S^N$ of $N$-[[fixed points]] regarded with its residual $G/N$-[[action]].
+sending any [[G-set]] $K$ to its [[subset]] $K^N$ of $N$-[[fixed points]] regarded with its residual $G/N$-[[action]].
 
 This is clearly surjective. (The irreducible elements on the right are the isomorphism classes of the  [[transitive action|transitive]] $G/N$-[[actions]]  $(G/N)/H$ for $H \subset G/H$, which are canonically also [[G-sets]], hence have a pre-image on the left.)
 
-But Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says that this projection map is also part of a [[colimit|colimiting]] [[cocone]]-[[diagram]], which for each $G$-[[representation]] $V$ without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) contains a [[cocone]] component of the following form:
-
+In order to deduce the genral statement from this special case, we now make use of the fact that Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says that the comparison map for $V = 0$ is one coprojection map of a [[colimit|colimiting]] [[cocone]]-[[diagram]], which for each $G$-[[representation]] $V$ without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}) contains a [[cocone]] component of the following form:
 
 \[
   \label{ColimitingCoconeForComparisonAtTrivialROG}
