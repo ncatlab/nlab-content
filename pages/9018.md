@@ -65,7 +65,7 @@ But when $Y$ is a $G_2$-[[orbifold]] then:
 
 1. at an [[ADE singularity]] there is _[[enhanced gauge symmetry]] in that the [[gauge group]] (which a priori is copies of the [[abelian group]] $U(1)$ of the [[supergravity C-field]]) becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics below is grabbed));
 
-1. at a (non-orbifold) [[conifold singularity]] [[chiral fermions]] appear ([Witten 01, p. 3](#Witten01), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01), [Bourjaily-Espahbodi 08](#BourjailyEspahbodi08)).
+1. at a (non-orbifold) [[conifold singularity]] [[chiral fermions]] appear ([Witten 01, p. 3](#Witten01), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01), [Berglund-Brandhuber 02](#BerglundBrandhuber02),  [Bourjaily-Espahbodi 08](#BourjailyEspahbodi08)).
 
 The conifold singularities are supposed/assumed to be isolated ([Witten 01, section 2](#Witten01)), while the ADE singularities are supposed/assumed to be of codimension-4 in the 7-dimensional fibers ([Witten 01, section 3](#Witten01), [Barrett 06](#Barrett06)).
 
@@ -183,6 +183,8 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 * {#Witten01} [[Edward Witten]], _Anomaly Cancellation On Manifolds Of $G_2$ Holonomy_ ([arXiv:hep-th/0108165](http://arxiv.org/abs/hep-th/0108165))
 
 * {#AcharyaWitten01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+
+* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
 
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
