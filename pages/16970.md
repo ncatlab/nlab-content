@@ -112,14 +112,44 @@ More generally for $H \hookrightarrow G$ a [[subgroup]] then one writes $\pi_\bu
 
 ### Via fixed point spectra
 
-Equivalently, the $k$th $G$-equivariant homotopy group of a $G$-equivariant spectrum $X$ is the plain $k$th homotopy group of its [[fixed point spectrum]] $F^G X$
+Equivalently, the $k$th $G$-equivariant homotopy group of a $G$-equivariant spectrum $E$ is the plain $k$th [[stable homotopy group]] of its [[fixed point spectrum]] $F^G E$
 
-$$
-  \pi_k^G(X) \simeq \pi_k(F^G X)
+\[
+  \label{ViaFixedPointSpectra}
+  \pi_k^G(E) \simeq \pi_k(F^G E)
   \,.
-$$
+\]
 
 (e.g. [Schwede 15, prop. 7.2](#Schwede15))
+
+
+### Via equivariant cohomology of the point
+ {#ViaEquivariantCohomologyOfThePoint}
+
+The identification (eq:ViaFixedPointSpectra) in turn is the [[equivariant cohomology]] of the point, 
+
+$$
+  E^{-k}_G(\ast)
+  \;\coloneqq\;
+  \left[ \epsilon^\sharp \Sigma^k \mathbb{S} , E\right]_G
+  \;\simeq\;
+  \left[ \Sigma^k \mathbb{S}, F^G E \right]
+  \;\simeq\;
+  \pi_k(F^G E)
+$$
+
+due to the [[base change]] [[adjunction]]
+
+$$
+  G Spectra
+    \underoverset
+      { \underset{ F^G }{\longrightarrow} }
+      {\overset{ \epsilon^\sharp }{\longleftarrow}}
+      { \phantom{AA} \bot \phantom{AA} }
+  Spectra
+$$
+
+
 
 ## Examples
 
