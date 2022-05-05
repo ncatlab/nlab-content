@@ -369,7 +369,7 @@ We pronounce these as follows:
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 {: style='margin:auto}
 
 
@@ -922,7 +922,7 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
 +-- {: .num_prop #ProgressionOfModalitiesOnElasticTopos}
 ###### Proposition
-**(progresssion of [[adjoint modalities]] on [[elastic topos]])**
+**(progression of [[adjoint modalities]] on [[elastic topos]])**
 
 Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and consider the corresponding [[adjoint modalities]] which it inherits
 
@@ -933,7 +933,7 @@ Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and c
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 |   |    |   |
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
@@ -1280,7 +1280,7 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
 +-- {: .num_prop #ProgressionOfModalitiesOnElasticTopos}
 ###### Proposition
-**(progresssion of [[adjoint modalities]] on [[solid topos]])**
+**(progression of [[adjoint modalities]] on [[solid topos]])**
 
 Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and consider the [[adjoint modalities]] which it inherits 
 
