@@ -54,7 +54,7 @@ We offer also an _a priori_ motivation: _Category theory is the theory of dualit
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
 
-_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] (Example \ref{AdjointModality} below).
+_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] (Def. \ref{AdjointModality} below).
 
 Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). But natural transformations are what allows us to define, in turn, the concept of _[[adjoint functors]]_, also called _[[adjunctions]]_ between categories. All the deep concepts of category theory (such as _[[representable functors]]_, _[[Yoneda embedding]]_, _[[Kan extensions]]_, hence _[[limits]]_ and _[[colimits]]_, to be introduced below) are special cases of [[adjoint functor]] constructions -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82). Therefore it makes sense to regard category theory, to a large extent, as the **theory of adjunctions**, hence the **theory of duality**:
 
@@ -268,7 +268,6 @@ This is the motivation for the terminology "categories", as the examples in Exam
 
 Some terminology:
 
-
 +-- {: .num_defn #CommutingDiagram}
 ###### Definition
 **([[commuting diagram]])**
@@ -304,6 +303,41 @@ $$
     Y_2 &\underset{\phantom{A}g_2\phantom{A}}{\longrightarrow}&  Z  
   }
 $$
+
+=--
+
++-- {: .num_defn #InitialObject}
+###### Definition
+**([[initial object]] and [[terminal object]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}). Then 
+
+1. an [[object]] $\ast \in \mathcal{C}$ is called a _[[terminal object]]_ if for every other [[object]] $c \in \mathcal{C}$, there is a unique [[morphism]] from $c$ to $\ast$
+  
+   $$
+     c \overset{\exists!}{\longrightarrow} \ast
+   $$
+
+   hence if the [[hom-set]] is a [[singleton]] $\ast \in Set$:
+
+   $$
+     Hom_{\mathcal{C}}(c,\ast) \;\simeq\; \ast
+     \,.
+   $$
+
+1. an [[object]] $\emptyset \in \mathcal{C}$ is called an _[[initial object]]_ if for every other [[object]] $c \in \mathcal{C}$, there is a unique [[morphism]] from $\emptyset$ to $c$
+  
+   $$
+     \emptyset \overset{\exists!}{\longrightarrow} c
+   $$
+
+   hence if the [[hom-set]] is a [[singleton]] $\ast \in Set$:
+
+   $$
+     Hom_{\mathcal{C}}(\emptyset,c) \;\simeq\; \ast
+     \,.
+   $$
+
 
 =--
 
@@ -2593,6 +2627,80 @@ The proof of the other statements proceeds analogously.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+Every [[right adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
+
+1. [[terminal objects]],
+
+1. [[monomorphisms]] (Def. \ref{Monomorphism})
+
+Every [[left adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) preserves
+
+1. [[initial objects]],
+
+1. [[epimorphisms]] (Def. \ref{Monomorphism}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate from the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors), but we spell it out:
+
+We consider the first case, the second is [[formal duality|formally dual]].
+So let $R \;\colon\; \mathcal{C} \to \mathcal{D}$ be a [[right adjoint functor]] with [[left adjoint]] $L$.
+
+Let $\ast \in \mathcal{C}$ be a [[terminal object]]. We need to show that for every [[object]] $d \in \mathcal{D}$ the [[hom-set]]  $Hom_{\mathcal{D}}(d,R(\ast)) \simeq \ast$ is a [[singleton]]. But by the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) we have a [[bijection]]
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{d}}(d,R(\ast))
+    & \simeq 
+    Hom_{\mathcal{C}}(L(d), \ast)
+    \\
+    & \simeq \ast
+    \,,
+  \end{aligned}
+$$
+
+where in the last step we used that $\ast$ is a terminal object, by assumption.
+
+Next let $c_1 \overset{f}{\hookrightarrow} c_2$ be a [[monomorphism]]. We need to show that for $d \in \mathcal{D}$ any [[object]], the [[hom-functor]] out of $d$ yields a monomorphism
+
+$$
+  Hom_{\mathcal{D}}(d, R(f))
+  \;\colon\;
+  Hom_{\mathcal{D}}(d, R(c_1))
+    \hookrightarrow
+  Hom_{\mathcal{D}}(d, R(c_2))
+  \,.
+$$
+
+Now consider the following [[naturality square]] (eq:NaturalitySquareForAdjointnessOfFunctors) of the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors):
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(d, R(c_1))
+    &\simeq&
+    Hom_{\mathcal{C}}(L(d), c_1)
+    \\
+    {}^{ \mathllap{ Hom_{\mathcal{D}}(d,R(f)) } }\big\downarrow 
+      && 
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( L(d),f ) } }_{\mathrlap{mono}}
+    \\
+    Hom_{\mathcal{D}}(d, R(c_2))
+    &\simeq&
+    Hom_{\mathcal{C}}(L(d), c_2)    
+  }
+$$
+
+Here the right vertical [[function]] is an [[injective function]], by assumption on $f$ and the definition of [[monomorphism]]. Since the two horizontal functions are [[bijections]], this implies that also $Hom_{\mathcal{d}}(d,R(f))$ is an injection. 
+
+=--
+
+But the main preservation property of [[adjoint functors]] is that _[[adjoints preserve (co-)limits]]_. This we discuss as Prop. \ref{AdjointsPreserveCoLimits} below, after introducing [[limits]] and [[colimits]] in Def. \ref{Limits} below.
 
 $\,$
 
@@ -3139,8 +3247,8 @@ For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), w
 
 =--
 
-+-- {: .num_example #AdjointModality}
-###### Example
++-- {: .num_defn #AdjointModality}
+###### Definition
 **([[adjoint modality]])**
 
 Let $L \;\dashv\; C \;\dashv\; R $ be an [[adjoint triple]] (Remark \ref{AdjointTriples}) such that $L$ and $R$ are [[fully faithful functors]] (necessarily bothm by Prop. \ref{FullyFaithfulAdjointTriple}). Then, by Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, there are induced [[modal operators]]
@@ -3169,12 +3277,171 @@ $$
   \,.
 $$
 
-A [[formal duality|formally dual]] situation arises when $C$ is [[fully faithful functor|fully faithful]].
+A [[formal duality|formally dual]] situation arises when $C$ is [[fully faithful functor|fully faithful]]. 
+
+=--
+
+
++-- {: .num_defn #PreorderOnModalities}
+###### Definition
+**([[preorder]] on [[modalities]])**
+
+Let $\bigcirc_1$ and $\bigcirc_2$ be two [[modal operators]] on a [[category]] $\mathcal{C}$. By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} these are equivalently characterized by their [[reflective subcategory|reflective]] [[full subcategories]] $\mathcal{C}_{\bigcirc_1}, \mathcal{C}_{\bigcirc}_2 \hookrightarrow \mathcal{C}$ of [[modal objects]].
+
+There is an evident [[preorder]] on [[full subcategories]] of $\mathcal{C}$, given by full inclusions of full subcategories into each other. We write $\mathcal{C}_{\bigcirc_1} \subset \mathcal{C}_{\bigcirc_2}$ if the full subcategory on the left is contained, as a full subcategory of $\mathcal{C}$, in that on the right. Via prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} there is the induced [[preorder]] on [[modal operators]], and we write
+
+$$
+  \bigcirc_1
+  \;\lt\;
+  \bigcirc_2
+  \phantom{AA}
+  iff
+  \phantom{AA}
+  \mathcal{C}_{\bigcirc_1}
+  \;\subset\;
+  \mathcal{C}_{\bigcirc_2}
+  \,.
+$$
+
+There is an analogous [[preorder]] on [[comodal operators]] (Def. \ref{ModalOperator}).
+
+If we have two [[adjoint modalities]] (Def. \ref{AdjointModality}) of the same type (both modal left adjoint or both comodal left adjoint) such that both the modalities and the comodalities are compatibly ordered in this way, we denote this situation as follows:
+
+$$
+  \array{
+    \bigcirc_2 &\dashv& \Box_2
+    \\
+    \vee && \vee
+    \\
+    \bigcirc_1 &\dashv& \bicirc_1
+  }
+$$
+
+etc.
+
+=--
+
++-- {: .num_example #InitialAndFinalAdjointModality}
+###### Example
+**([[bottom]] and [[top]] [[adjoint modality]])**
+
+Let $\mathcal{C}$ be a [[category]] with both an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$. Then, by Example \ref{InitialAndTerminalObjectInTermsOfAdjunction} there is an [[adjoint triple]] between $\mathcal{C}$ and the [[terminal category]] $\ast$ (Example \ref{InitialCategoryAndTerminalCategory}) of the form
+
+$$
+  \mathcal{C}
+    \array{
+      \overset{ \phantom{A} const_\emptyset \phantom{A} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAAA}}{\longrightarrow}
+      \\
+      \overset{ \phantom{A} const_\ast \phantom{A} }{\hookleftarrow}
+    }
+  \ast
+  \,.
+$$
+
+The induced [[adjoint modality]] (Def. \ref{AdjointModality}) is 
+
+$$
+  const_{\emptyset}
+  \;\dashv\;
+  const_\ast
+  \;\;\colon\;\;
+  \mathcal{C} \to \mathcal{C}
+  \,.
+$$
+
+By slight abuse of notation, we will also write this as
+
+\[
+  \label{BottomAdjointModality}
+  \emptyset
+    \;\dashv\;
+  \ast
+  \;\;\colon\;\;
+  \mathcal{C} \to \mathcal{C}
+  \,.
+\]
+
+On the other extreme, for $\mathcal{C}$ any [[category]] whatsoever, the [[identity]] functor on it is [[adjoint functor]] to itself, and constitutes an [[adjoint modality]] (Def. \ref{AdjointModality})
+
+\[
+  \label{AdjointModalityTop}
+  id_{\mathcal{C}}
+  \;\dashv\;
+  id_{\mathcal{C}}
+  \;\;\colon\;\;
+  \mathcal{C} \to \mathcal{C}
+  \,.
+\]
+
+
+Here 
+
+1. (eq:BottomAdjointModality) is the _[[bottom]]_ (or _ground_)
+
+2. (eq:AdjointModalityTop) is the _[[top]]_
+
+in the [[preorder]] on [[adjoint modalities]] according to Def. \ref{PreorderOnModalities}, in that for every [[adjoint modality]] of the form $\bigcirc \dashv \Box$ we have the following:
+
+$$
+  \array{
+    id &\dashv& id
+    \\
+    \vee && \vee
+    \\
+    \bigcirc &\dashv& \Box
+    \\
+    \vee && \vee
+    \\
+    \emptyset &\dashv& \ast  
+  }
+$$
+
 
 
 =--
 
-(...)
++-- {: .num_defn #Aufhebung}
+###### Definition
+**([[Aufhebung]])**
+
+On some [[category]] $\mathcal{C}$, consider an inclusion of [[adjoint modalities]], according to Def. \ref{PreorderOnModalities}:
+
+$$
+  \array{
+    \bigcirc_1 &\dashv& \Box_2
+    \\
+    \vee && \vee
+    \\
+    \bigcirc_1 &\dashv& \Box_1
+  }
+$$
+
+We say that this inclusion provides _[[Aufhebung]] of the opposition_ exhibited by $\bigcirc_1 &\dashv& \Box_1$ if there is also the diagonal inclusion
+
+$$
+  \bigcirc_1 \lt \Box_2
+  \phantom{AAA}
+  equivalently
+  \phantom{AAA}
+  \mathcal{C}_{\bigcirc_1}
+  \subset
+  \mathcal{C}_{\Box_2}
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[top]] [[adjoint modality]] provides [[Aufhebung]] of all oppositions)**
+
+For $\mathcal{C}$ any [[category]], the [[top]] [[adjoint modality]] $id \dashv id$ (Def. \ref{InitialAndFinalAdjointModality}) provides [[Aufhebung]] (Def. \ref{Aufhebung}) of every other [[adjoint modality]].
+
+=--
+
+But already [[Aufhebung]] of the [[bottom]] [[adjoint modality]] is a non-trivial and interesting condition. We consider this below in Prop. \ref{PiecesHavePoints}.
+
 
 $\,$
 
@@ -8347,7 +8614,7 @@ $$
   Set
 $$
 
-induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Example \ref{AdjointModality}):
+induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Def. \ref{AdjointModality}):
 
 $$
   &#643; \dashv \flat \dashv \sharp
@@ -8372,6 +8639,8 @@ We pronounce these as follows:
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+{: style='margin:auto}
+
 
 and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
@@ -8404,7 +8673,7 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
 +-- {: .num_prop #PiecesHavePoints}
 ###### Proposition
-**([[pieces have points]], [[discrete objects are concrete]])**
+**([[pieces have points]], [[discrete objects are concrete]], [[Aufhebung]] of the initial [[adjoint modality]])**
 
 Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the following conditions are equivalent:
 
@@ -8573,7 +8842,7 @@ $$
 ###### Definition
 **([[adjoint triple]] of [[adjoint modality|adjoint]] [[modal operators]] on [[differentially cohesive topos]])**
 
-Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), its [[adjoint quadruple]] of functors to and from the [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}) induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Example \ref{AdjointModality}):
+Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), its [[adjoint quadruple]] of functors to and from the [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}) induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Def. \ref{AdjointModality}):
 
 $$
   \Re \dashv \Im \dashv \&
@@ -8598,6 +8867,7 @@ We pronounce these as follows:
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $\Re \;\coloneqq\; i_! \circ i^\ast$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; i_\ast \circ i^\ast$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; i_\ast \circ i^! $ $\phantom{A}$  |
+{: style='margin:auto}
 
 and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
