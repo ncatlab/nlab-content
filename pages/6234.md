@@ -1,13 +1,3 @@
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Categorical/functorial analysis
-+--{: .hide}
-[[!include Categorical analysis - contents]]
-=--
-=--
-=--
-
 # Categorical/functorial analysis
 * table of contents
 {: toc}
@@ -50,7 +40,7 @@ a smooth function of the parameter $u\in U$.
 
 ## Related concepts
 
-[[Functor of points]]
+[[functor of points|Functor of points]]
 
 ## References
 
