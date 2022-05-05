@@ -2157,7 +2157,7 @@ with $k$ from def. \ref{kfication}.
 +-- {: .proof}
 ###### Proof
 
-We need to show that for $A \subset X$ a $k$-closed subset, then $f^{-1}(A) \subset X$ is closed subset. 
+We need to show that for $A \subset Y$ a $k$-closed subset, then $f^{-1}(A) \subset X$ is closed subset. 
 
 Let $\phi \colon K \longrightarrow X$ be any continuous function out of a compact Hausdorff space $K$. Since $A$ is $k$-closed by assumption, we have that $(f \circ \phi)^{-1}(A) = \phi^{-1}(f^{-1}(A))\subset K$ is closed in $K$. This means that $f^{-1}(A)$ is $k$-closed in $X$. But by the assumption that $X$ is compactly generated, it follows that $f^{-1}(A)$ is already closed.
 
