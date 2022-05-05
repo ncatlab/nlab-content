@@ -103,7 +103,11 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 ([Schwede 15, remark 7.15](#Schwede15), [Blumberg 17, around Def. 2.5.16](#Blumberg17))
 
-{#PartialGeometricFixedPoint} This generalizes to a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends 
++-- {: .num_prop #PartialGeometricFixedPoint}
+###### Proposition/Remark
+**(partial geometric fixed point spectra)**
+
+This generalizes to a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends 
 
 $$
   \Phi^H \;\colon\; G Spectra \longrightarrow W_G H Spectra
@@ -128,6 +132,8 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
   \,.
 \]
 
+=--
+
 ([Lewis-May-Steinberger 86, II.9, cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
 
 
@@ -135,7 +141,7 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
 ### As inversion of Euler classes
  {#AsInversionOfEulerClasses}
 
-We discuss an explicit formula (Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} below, due to [Lewis-May-Steinberger 86](#LewisMaySteinberger86)) that expresses [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in partial geometric fixed point spectra as the [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in the original spectrum, but with certain "[[Euler classes]] [[localization|inverted]]".
+We discuss an explicit formula (Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} below, due to [Lewis-May-Steinberger 86](#LewisMaySteinberger86)) that expresses [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in partial geometric fixed point spectra (Prop. \ref{PartialGeometricFixedPoint}) as the [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in the original spectrum, but with certain "[[Euler classes]] [[localization|inverted]]".
 
 As an application, we show (Example \ref{EquivariantStableCohomotopyOfPointsInNontrivalROGDegree} below) that the [[equivariant stable cohomotopy]] of the point in certain non-trivial [[RO(G)-degrees]] $V$ surjects onto the corresponding partially equivariant stable cohomotopy in degree 0 (the latter being well-understood: given by the [[Burnside ring]]).
 
@@ -198,9 +204,7 @@ and on $G$-[[representations]], to be denoted
 ###### Proposition
 **(partial geometric fixed point cohomology via inversion of Euler classes)**
 
-Let $E \;\in\; G Spectra$ 
-be a [[G-spectrum]] with partial geometric fixed point spectrum
-$\Phi^N E \;\in\; G/N Spectra$
+Let $E \;\in\; G Spectra$ be a [[G-spectrum]] with partial geometric fixed point spectrum $\Phi^N E \;\in\; G/N Spectra$ (Prop. \ref{PartialGeometricFixedPoint})
 and let
 $
   X
@@ -351,7 +355,7 @@ $$
 
 given by... 
 
-> (does this need justification? trace the definition of $\mathcal{F}[N]$ from [Lewis-May-Steinberger 86, bottom of p. 109](#LewisMaySteinberger86))
+> ?? this clearly must be the case, but it still needs a formal argument ??
 
 ...sending any [[G-set]] $S$ to its [[subset]] $S^N$ of $N$-[[fixed points]] regarded with its residual $G/N$-[[action]].
 
