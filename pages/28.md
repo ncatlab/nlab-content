@@ -1,4 +1,3 @@
-
 > This article is about the notion prevalent in [[category theory]] and [[homotopy theory]], also known as a [[Brandt groupoid]] ([Brandt 27](#Brandt27)). For the notion involving a globally defined binary operation, see [[magma]].
 
 
