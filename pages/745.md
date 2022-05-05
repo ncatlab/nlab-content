@@ -160,6 +160,8 @@ In terms of the imagery of [[loop space objects]], the comma category is the cat
 
 * Likewise if $g$ is the identity and $f$ is the inclusion of $c$, then $(f/g)$ is the [[under category|coslice category]] $c/C$.
 
+* A natural transformation $\tau : F \to G$ with $F,G : C\to D$ may be regarded as a functor $T : C\to (F/G)$ with $T(c)=(c,c,\tau_c)$ and $T(f)=(f,f)$. Conversely, any such functor $T$ such that the two projections from $(F/G)$ back to $C$ are both left inverses for $T$ yields a corresponding natural transformation.
+
 ## Properties
 
 ### Functors and comma categories 
