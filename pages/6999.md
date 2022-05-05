@@ -76,7 +76,7 @@ $$
   conc \dashv \iota_{conc}
 $$
 
-exhibits the concrete objects as a [[reflective subcategory]].
+exhibits the concrete objects as a [[reflective subcategory]], the reflector $conc$ being "[[concretification]]".
 
 =--
 
@@ -86,7 +86,7 @@ exhibits the concrete objects as a [[reflective subcategory]].
 
 For the adjunction on the right, we just need to observe that for every [[set]] $S \in Set$, the [[codiscrete object]] $coDisc(S)$ is [[concrete object|concrete]], which is immediate by [[idempotent monad|idempotency]] of $\sharp$ and the fact that every [[isomorphism]] is also a [[monomorphism]].
 
-For the adjunction on the left we claim that the [[left adjoint]] $conc$ ([[concretification]]), is given by sending each [[object]] to the [[image]] of its $(\Gamma \dashv coDisc)$ [[adjunction unit]] $\eta^\sharp$:
+For the adjunction on the left we claim that the [[left adjoint]] $conc$ (_[[concretification]]_), is given by sending each [[object]] to the [[image]] of its $(\Gamma \dashv coDisc)$ [[adjunction unit]] $\eta^\sharp$:
 
 $$
   conc \;\colon\; X \mapsto im(\eta^\sharp_X)
