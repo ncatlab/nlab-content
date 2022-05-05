@@ -62,7 +62,9 @@ The classic textbook is this:
 
 * Kadison, Richard V.; Ringrose, John R., _Fundamentals of the theory of operator algebras I and II_, ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
-These have two accompanying volumes (same title, numbers III and IV) which contain complete solutions to the extensive list of excercises. Highly recommended.
+  These have two accompanying volumes (same title, numbers III and IV) which contain complete solutions to the extensive list of excercises. Highly recommended.
+
+ * Gerard Murphy, _$C^\ast$-algebras and Operator Theory_
 
 One of the founders of the Tomito-Takesaki modular theory has recently published a three volume treatise in the Encyclopaedia of Mathematical Sciences:
 
@@ -72,9 +74,13 @@ Lecture notes with an eye towards application in [[quantum physics]] includes
 
 * [[Klaas Landsman]], _Lecture notes on operator algebras_ (2011) ([pdf](http://www.math.ru.nl/~landsman/oa2011.pdf))
 
-There is also
+For application to [[operator K-theory]] and [[KK-theory]]:
 
-* Wikipedia on [operator algebras] (http://en.wikipedia.org/wiki/Operator_algebras)
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, Cambridge University Press 1986, second ed. 1999 ([pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf))
+
+See also
+
+* Wikipedia, _[Operator algebras] (http://en.wikipedia.org/wiki/Operator_algebras)_
 
 
 category: analysis, noncommutative geometry
