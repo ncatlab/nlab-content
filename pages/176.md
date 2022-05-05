@@ -378,6 +378,10 @@ $$
 
 * [[rational conformal field theory]]
 
+* [[minimal model CFT]]
+
+* [[Gepner model]], [[WZW model]]
+
 * [[conformal net]]
 
 * [[Liouville cocycle]]
