@@ -264,47 +264,6 @@ $\,$
 $\,$
 
 
-+-- {: .num_defn #CategoryWithWeakEquivalences}
-###### Definition
-**([[category with weak equivalences]])**
-
-A **[[category with weak equivalences]]** is
-
-1. a [[category]] $\mathcal{C}$ ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories));
-
-1. a sub-[[class]] $W \subset Mor(\mathcal{C})$ of its [[morphisms]];
-
-such that
-
-1. $W$ contains all the [[isomorphisms]] of $\mathcal{C}$;
-
-1. $W$ is closed under **[[two-out-of-three]]**: in every [[commuting diagram]] in $\mathcal{C}$ of the form
-
-   $$
-     \array{
-         && Y
-         \\
-         & \nearrow&& \searrow
-         \\
-         X
-         &&
-         \longrightarrow
-         &&
-         Z
-     }
-   $$
-
-   if two of the three morphisms are in $W$, then so is the third.
-
-=--
-
-+-- {: .num_remark #SimplicialLocalizationOutlook}
-###### Remark
-**([[simplicial localization]])**
-
-It turns out that a [[category with weak equivalences]], def. \ref{CategoryWithWeakEquivalences}, already determines a [[homotopy theory]]: the one given given by universally forcing weak equivalences to become actual [[homotopy equivalences]]. This may be made precise and is called the _[[simplicial localization]]_ of a category with weak equivalences ([Dwyer-Kan 80a](simplicial+localization#DwyerKanLocalizations), [Dwyer-Kan 80b](simplicial+localization#DwyerKanCalculating), [Dwyer-Kan 80c](simplicial+localization#DwyerKanFunctionComplexes)). However, without further auxiliary structure, these simplicial localizations are in general intractable. The further axioms of a [[model category]] serve the sole purpose of making the universal homotopy theory induced by a [[category with weak equivalences]] be tractable:
-
-=--
 
 +-- {: .num_defn #ModelCategory}
 ###### Definition
@@ -312,9 +271,9 @@ It turns out that a [[category with weak equivalences]], def. \ref{CategoryWithW
 
 A **[[model category]]** is
 
-1. a [[category]] $\mathcal{C}$ with all [[limits]] and [[colimits]] (def. \ref{LimitsAndColimits});
+1. a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) with all [[limits]] and [[colimits]] (Def. \ref{Limits});
 
-1. three sub-[[classes]] $W, Fib, Cof \subset Mor(\mathcal{C})$ of its [[morphisms]];
+1. three sub-[[classes]] $W, Fib, Cof \subset Mor(\mathcal{C})$ of its class of [[morphisms]];
 
 such that
 
@@ -336,9 +295,9 @@ One says:
 
 =--
 
-The form of def. \ref{ModelCategory} is due to ([Joyal, def. E.1.2](#Joyal)). It implies various other conditions that ([Quillen 67](model+category#Quillen67)) demands explicitly, see prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{WeakEquivalencesAreClosedUnderRetracts} below.
+The form of def. \ref{ModelCategory} is due to ([Joyal, def. E.1.2](model+category#Joyal)). It implies various other conditions that ([Quillen 67](model+category#Quillen67)) demands explicitly, see prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{WeakEquivalencesAreClosedUnderRetracts} below.
 
-We now dicuss the concept of [[weak factorization systems]] appearing in def. \ref{ModelCategory}.
+We now dicuss the concept of [[weak factorization systems]] (Def. \ref{WeakFactorizationSystem} below) appearing in def. \ref{ModelCategory}.
 
 
 
@@ -438,6 +397,7 @@ dually:
 
 +-- {: .num_defn #WeakFactorizationSystem}
 ###### Definition
+**([[weak factorization systems]])**
 
 A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
 
@@ -2623,7 +2583,7 @@ Adjunction units and counits turn out to encode the [[adjuncts]] of all other mo
 ###### Definition
 **([[Quillen adjunction]])**
 
-Let $\mathcal{C}, \mathcal{D}$ be [[model categories]]. A pair of [[adjoint functors]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)) between them
+Let $\mathcal{C}, \mathcal{D}$ be [[model categories]]. A pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) between them
 
 $$
   (L \dashv R)
@@ -2788,7 +2748,7 @@ $$
 
 =--
 
-The following is the analog of [[adjoint equivalence of categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointEquivalenceOfCategories)) for [[model categories]].
+The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}) for [[model categories]].
 
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
