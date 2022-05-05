@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,7 +16,7 @@
 
 ## Definition
 
-Given a [[commutative ring]] $R$, an element $e \in R$ is *left cancellative* if $e \cdot a = e \cdot b$ for all $a \in R$ and $b \in R$, then $a = b$. 
+Given a [[commutative ring]] $R$, an [[element]] $e \in R$ is *left cancellative* if $e \cdot a = e \cdot b$ for all $a \in R$ and $b \in R$, then $a = b$. 
 
 $$\mathrm{isLeftCancellative}(e) \coloneqq \forall a,b \in R.(e \cdot a = e \cdot b) \implies (a = b)$$
 
@@ -38,3 +39,7 @@ $$\mathrm{Can}(R) \coloneqq \{e \in M \vert \mathrm{isCancellative}(e)\}$$
 * [[GCD ring]]
 
 * [[inverse ring]]
+
+* [[group of units]]
+
+[[!redirects multiplicative submonoids of cancellative elements]]
