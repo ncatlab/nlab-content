@@ -28,6 +28,8 @@ For details see [[manifold]].
 
 * [[closed manifold]]
 
+* [[asymptotic boundary]]
+
 ## Properties
 
 +-- {: .num_prop #SmoothManifoldsWithBoundaryEmbedIntoDiffeologicalSpaces}
