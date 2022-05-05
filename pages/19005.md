@@ -30,6 +30,8 @@ Definitions of the Coulomb and Higgs branches have been extended to [[N=4 D=3 su
 
 * [[symplectic duality]]
 
+* [[fractional D-brane]], [[McKay correspondence]]
+
 ## References
 
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
