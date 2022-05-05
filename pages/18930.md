@@ -61,7 +61,8 @@ This theorem is usually not explicitly invoked in initiality theorems for type t
 
 ## Examples
 
-Consider the [[cartesian product]] functor, which can be defined by saying that it represents the profunctor $R_{\times} : C^2 $&#8696;$ C$ defined by 
+1. Decategorifying to the poset case, we get that if a function $f : A \to B$ represents a "relational profunctor" $R$ , i.e. a subset $R \subseteq A \times B$ that is downward closed in $A$ and upper closed in $B$, then $f$ is monotone.
+2. Consider the [[cartesian product]] functor, which can be defined by saying that it represents the profunctor $R_{\times} : C^2 $&#8696;$ C$ defined by 
 \[ R_{\times}(a,(b_1,b_2)) = C(a,b_1) \times C(a,b_2) \]
 
 whose action is defined as $R_{\times}(f,(g,h))(k,l) = (g \circ k \circ f, h \circ l \circ f)$.
