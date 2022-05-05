@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
 > This entry is about the generating functions in the sense of algebraic combinatorics. For another notion see [[generating function in classical mechanics]]. 
 
 #Contents#
