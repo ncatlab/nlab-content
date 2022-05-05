@@ -40,7 +40,7 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
   * Similarly, a [[Grothendieck (∞,1)-topos]] is a continuous $(\infty,1)$-category if and only if it is an exponentiable object, in the appropriate sense, in the $(\infty,1)$-category of $(\infty,1)$-toposes and geometric morphisms.
 
-* In general, a locally small category $C$ is continuous if and only if it is a retract of a category of the form $Ind(D)$ where the functors preserve filtered colimits.
+* In general, a [[locally small category]] $C$ is continuous if and only if it is a [[retract]] of a category $Ind(D)$ of [[ind-objects]], where the functors exhibiting the retract preserve [[filtered colimits]].
 
 ## Wavy arrows
 
