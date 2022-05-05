@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -58,6 +57,8 @@ The following are [[semifree differential graded-commutative algebras]]:
 * The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]] or [[L-infinity algebroid]] is a differential-graded-commutative algebra, that of a [[super L-infinity algebra]] is a differential graded-commutative superalgebra.
 
 ## Related concepts
+
+* [[category of dgc-algebras]]
 
 * [[dgc-coalgebra]]
 
