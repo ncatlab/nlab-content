@@ -30,6 +30,14 @@ $$
 
 on the additive group of [[integers]]. As such $\mathbb{Z}_2$ is the special case of a [[cyclic group]] $\mathbb{Z}_p$ for $p = 2$ and hence also often denoted $C_2$.
 
+## Properties
+
+### ADE-Classification
+
+In the [[ADE-classification]] of [[finite subgroups of SU(2)]], the group of order 2 is the smallest non-trivial group, and the smallest in the A-series:
+
+[[!include ADE -- table]]
+
 ## Related concepts
 
 * [[Bockstein homomorphism]]
