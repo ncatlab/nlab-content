@@ -55,7 +55,7 @@ It makes sense for the following to adopt the convention that $A$ is called
 
 (following [[Higher Topos Theory|HTT, p. 6]]).
 
-To generalize this, let now $C$ be an arbitrary [[(∞,1)-category]]. For $X,A$ objects in $C$ write $C(X,A) \in $ [[? Grpd]] for the [[(∞,1)-categorical hom-space]] (if $C$ is given as a [[simplicially enriched category]] then this is just the [[SSet]]-[[hom-object]] which is guaranteed to be a [[Kan complex]]).
+To generalize this, let now $C$ be an arbitrary [[(∞,1)-category]]. For $X,A$ objects in $C$ write $C(X,A) \in $ [[∞Grpd]] for the [[(∞,1)-categorical hom-space]] (if $C$ is given as a [[simplicially enriched category]] then this is just the [[SSet]]-[[hom-object]] which is guaranteed to be a [[Kan complex]]).
 
 Using this, it shall be useful to slightly reformulate the above as follows:
 
