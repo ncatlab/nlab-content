@@ -1,5 +1,20 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
 [[!redirects Initial Θ-data]]
 [[!redirects Initial Θ-data]]
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,9 +27,9 @@ The notion of _initial Θ-theta data_ was introduced by [[Shinichi Mochizuki]] i
 
 In order to understand the definition, we recall a little notation. 
 
-1) Given a field $F$, the notation $E / F$ means that $E$ is a [[field extension]] of $F$. 
+1) Given a [[field]] $F$, the notation $E / F$ means that $E$ is a [[field extension]] of $F$. 
 
-2) Given a field $F$, the notation $\overline{F}$ denotes an [[algebraic closure]] of $F$.  
+2) Given a [[field]] $F$, the notation $\overline{F}$ denotes an [[algebraic closure]] of $F$.  
 
 ## Definition
 
