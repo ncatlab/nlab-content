@@ -47,6 +47,8 @@ $$
 Hom_{schemes}(Spec(R), X).
 $$
 
+When $X = Spec(\mathbb{Z}[t])$, the functor of points is the [[forgetful functor]].
+
 The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_R$ corresponds to a non-affine scheme.
 
 ## Related concepts
