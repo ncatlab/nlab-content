@@ -153,7 +153,7 @@ The rigorous construction via [[causal perturbation theory]] of quantum gravity 
 
 The generalization of this to perturbation about [[AQFT on curved spacetimes|curved spacetimes]] is discussed via [[locally covariant perturbative algebraic quantum field theory]] in
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
+* {#BrunettiFredenhagenRejzner13} [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_, Communications in Mathematical Physics August 2016, Volume 345, Issue 3, pp 741–779 ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
 
 and with applications to [[cosmology]] in
 
