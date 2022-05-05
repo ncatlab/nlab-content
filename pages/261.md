@@ -33,7 +33,7 @@ The quick abstract definition of a simplicial set goes as follows:
 
 A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a [[functor]] $X : \Delta^{op} \to Sets$ from the [[opposite category]] of the [[simplex category]] to the category [[Set]] of [[sets]]; equivalently this a [[simplicial object]] in [[Set]].
 
-Equipped with the standard [[homomorphisms]] of [[presheaves]] as morphisms (namely [[natural transformations]] of the corresponding [[functors]]), simplicial sets form the category [[sSet]] (denoted both  $SSet$ or $sSet$). 
+Equipped with the standard [[homomorphisms]] of [[presheaf|presheaves]] as morphisms (namely [[natural transformation|natural transformations]] of the corresponding [[functors]]), simplicial sets form the category [[sSet]] (denoted both  $SSet$ or $sSet$). 
 
 
 =--
@@ -42,24 +42,30 @@ Explicitly this means the following.
 
 +-- {: .num_defn}
 ###### Definition
+**(simplicial set)**
 
-A **simplicial set** $S \in sSet$ is 
+A **simplicial set** $X \in sSet$ is 
 
-* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
+* for each $n \in \mathbb{N}$ a [[set]] $X_n \in Set$ -- the **set of $n$-[[simplices]]**;
 
 * for each [[injective map]] $\;\delta_i :\: [n-1] \to [n]\;$ of [[totally ordered sets]] ($[n] \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$)
 
-  a [[function]] $\;d_i :\: S_{n} \to S_{n-1}\;$ -- the $i$th **face map** on $n$-simplices ($n \gt 0$ and $0 \leq i \leq n$);
+  a [[function]] $\;d_i :\: X_{n} \to X_{n-1}\;$ -- the $i$th _[[face map]]_ on $n$-simplices ($n \gt 0$ and $0 \leq i \leq n$);
 
 * for each [[surjective map]] $\;\sigma_i :\: [n+1] \to [n]\;$ of totally ordered sets
 
-  a function $\;s_i :\: S_{n} \to S_{n+1}\;$ -- the $i$th **degeneracy map** on $n$-simplices ($n \geq 0$ and $0 \leq i \leq n$);
+  a function $\;s_i :\: X_{n} \to X_{n+1}\;$ -- the $i$th _[[degeneracy map]]_ on $n$-simplices ($n \geq 0$ and $0 \leq i \leq n$);
 
 such that these functions satisfy the _[[simplicial identities]]_.
 
 
 =--
 
+{#SimplicialSetIdea} $\,$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SimplicialSetsIdea.jpg" width="700">
+</center>
 
 ## Remarks
 
@@ -165,6 +171,14 @@ Notice the $Id$-labels, which indicate that the edges and faces labeled by them 
 ## Examples
  {#Examples}
 
+
+### $n$-simplices (Yoneda embeddings)
+
+Let $[n]$ denote the object of the [[simplex category]] $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, typically written as $\Delta[n]$ is an example of a simplicial set. In particular we have $\Delta[n]_m=Hom_\Delta([m],[n])$ and hence $\Delta[n]_m$ is a finite set with $\binom{n+m+1}{n}$ elements.
+
+By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
+
+
 ### Cartesian products of simplices
 
 The non-degenerate [[simplices]] in the simplicial set which is the [[Cartesian product]] 
@@ -198,12 +212,6 @@ In particular any graph is thought of as being built of vertices and edges and s
 ### Directed graphs
 
 A [[directed graph]] (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 \coloneqq V$ to be the set of vertices and $S_1 \coloneqq E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (the latter corresponding to the degenerate 1-simplices).
-
-### $n$-simplices (Yoneda embeddings)
-
-Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, typically written as $\Delta[n]$ is an example of a simplicial set. In particular we have $\Delta[n]_m=Hom_\Delta([m],[n])$ and hence $\Delta[n]_m$ is a finite set with $\binom{n+m+1}{n}$ elements.
-
-By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
 
 ### Nerve of a category
 
@@ -304,8 +312,9 @@ More advanced treatments include
 
 Some more facts about homotopical aspects of simplicial sets are discussed in section 2 of
 
-* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
- {#Cisinski06}
+* {#Cisinski06} [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+ 
+
 
 category: topology
 
