@@ -52,7 +52,7 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 ## References
 
-* [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
+* {#HylandPower07} [[Martin Hyland]], [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
 
 * Anthony Voutas, _The basic theory of monads and their connection to
 universal algebra_ ([pdf](http://cs.anu.edu.au/student/projects/12S1/Reports/Anthony_Voutas_Report.pdf))
@@ -60,3 +60,6 @@ universal algebra_ ([pdf](http://cs.anu.edu.au/student/projects/12S1/Reports/Ant
 * [[Fred Linton]], _An outline of functorial semantics_, LNM 80 ([TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html)).
 
 * [[Max Kelly]] and [[John Power]], _Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads_, JPAA 89, 1993.
+
+* {#BaiGuoLoday11} Chengming Bai, Li Guo, [[Jean-Louis Loday]], _[Proceedings of the China-France Summer Institute on Operads and Universal Algebra](http://andromeda.rutgers.edu/~liguo/OUA10/book.htm)_, World Scientific 2011 ([web](http://andromeda.rutgers.edu/~liguo/OUA10/operadua.html))
+
