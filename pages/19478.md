@@ -100,7 +100,9 @@ Examples of spatial toposes which are not _manifestly_ spatial, by usual their d
 
 [[!redirects category of sheaves on a topological space]]
 [[!redirects categories of sheaves on a topological space]]
+[[!redirects categories of sheaves on topological spaces]]
 
 [[!redirects spatial topos]]
 [[!redirects spatial toposes]]
 [[!redirects spatial topoi]]
+
