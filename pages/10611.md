@@ -109,6 +109,8 @@ $$
 
 ## Related concepts
 
+* [[graded modality]]
+
 * [[de dicto and de re]]
 
 * [[monad (in computer science)]]
