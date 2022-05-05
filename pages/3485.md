@@ -273,11 +273,20 @@ $$
 
 from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burnside ring|virtual G-sets]]  to [[representation ring|virtual linear G-representations]],
 
-1. is [[surjective map|surjective]] for $G$ a [[p-group]],
+1. is [[surjective map|surjective]] for $G$ among one of the following classes of [[finite groups]] (not mutually exclusive)
+
+   1. [[cyclic groups]],
+
+   1. [[symmetric groups]],
+
+   1. [[p-groups]];
+
 
 1. is _not_ [[surjective map|surjective]] for $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8);
 
-1. is [[injective map|injective]] at most if $G$ is a [[cyclic group]];
+1. is [[injective map|injective]] precisely for [[cyclic groups]], 
+
+1. hence is an [[isomorphism]] precisely for cyclic groups.
 
 =--
 
@@ -285,6 +294,9 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burns
 +-- {: .proof}
 ###### Proof
 
+Isomorphy for the case of cyclic groups is spelled out in [tom Dieck 09, Example (4.4.4)](#tomDieck09).
+
+Surjectivity for the case of symmetric groups follows from the theory of [[Young diagrams]], see Example \ref{VirtualPermuationRepresentationOfS4} below for further pointers.
 
 The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
 
@@ -296,9 +308,9 @@ To see that injectivity holds at most for [[cyclic groups]], notice that over $k
 
 1. the number of [[isomorphism classes]] of indecomposable ([[transitive action|transitive]]) [[G-sets]] (i.e. $G$-[[orbit]] types) is the number of [[conjugacy classes]] of _all_ [[subgroups]].
 
-(stolen from [Webster on MO, 2013](https://mathoverflow.net/a/21204/381)).
+([tom Dieck 09, Prop. 4.5.4](#tomDieck09))
 
-This means that for $G$ not a cyclic group we have $dim(A(G)) \gt dim(R(G))$, so that $\beta$ cannot be injective. 
+This means that for $G$ not a cyclic group we have that the [[free abelian group]] $A(G))$ has more [[generators and relations|generators]] than $R(G)$, so that $\beta$ cannot be injective. 
 
 =--
 
@@ -419,11 +431,14 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 
 ## References
 
-Textbook accounts include
+Textbook accounts and lecture notes include
 
 * Charles Curtis, Irving Reiner, from p. 43 on in _Representation theory of finite groups and associative algebras_, AMS 1962
 
 * {#Feit67} [[Walter Feit]], _Characters of Finite Groups_, W. A. Benjamin New York, 1967
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 1.2 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
 
 Original articles include
 
