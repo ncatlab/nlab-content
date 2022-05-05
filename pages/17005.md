@@ -68,7 +68,7 @@ over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy cla
 
 * [[Burnside ring]]
 
-* [[Segal conjecture]]
+* [[Segal conjecture]], [[Sullivan conjecture]]
 
 ## References
 
