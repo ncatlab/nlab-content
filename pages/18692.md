@@ -16,6 +16,8 @@ For developments of his ideas, see
 
 * [[Robin Cockett]] and [[Geoff Cruttwell]], _Connections in tangent categories_, ([arXiv:1610.08774](https://arxiv.org/abs/1610.08774))
 
+* [[Geoff Cruttwell]], [[Rory Lucyshyn-Wright]], _A simplicial foundation for differential and sector forms in tangent categories_, ([arXiv:1606.09080](https://arxiv.org/abs/1606.09080))
+
 Representation of this tangent structure as exponentiation by a tangent vector is given in
 
 * [[Richard Garner]], _An embedding theorem for tangent categories_, ([arXiv:1704.08386](https://arxiv.org/abs/1704.08386))
