@@ -230,7 +230,7 @@ and we refer to the corresponding [[modal objects]] ([this Def.](geometry+of+phy
 
 +-- {: .num_prop #ProgressionOfModalitiesOnElasticTopos}
 ###### Proposition
-**(progresssion of [[adjoint modalities]] on [[solid topos]])**
+**(progression of [[adjoint modalities]] on [[solid topos]])**
 
 Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and consider the [[adjoint modalities]] which it inherits 
 
