@@ -29,13 +29,15 @@ $$
 
 ## Related concepts
 
+[[!include curvature in Riemannian geometry -- table]] 
+
 * [[torsion of a metric connection]]
 
 * [[Weyl tensor]]
 
 * [[Poincare Lie algebra]]
 
-* [[Ricci tensor]], [[scalar curvature]]
+* [[Ricci tensor]]
 
 * [[gravity]]
 
