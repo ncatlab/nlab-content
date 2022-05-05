@@ -441,3 +441,4 @@ Discussion of generalised species:
 [[!redirects (infinity,1) species]]
 [[!redirects ∞-species]]
 [[!redirects combinatorial species]]
+[[!redirects species of structure]]
