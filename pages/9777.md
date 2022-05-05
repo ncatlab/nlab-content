@@ -31,7 +31,11 @@ The [[D-brane]] in [[type II string theory]] of [[dimension]] $8+1$.
 
 As a [[black brane]] the D8 was identified in 
 
-* [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], G. Papadopoulos, [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys.B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+* [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys.B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+
+See also 
+
+* A. Chamblin, M.J. Perry, _Dynamic D8-branes in IIA string theory_ ([arXiv:hep-th/9712112](https://arxiv.org/abs/hep-th/9712112))
 
 A lift to [[M-theory]] is proposed in 
 
