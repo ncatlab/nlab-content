@@ -38,8 +38,8 @@ f&\mapsto&f \circ 1_x\\
 \end{array}
 \right)  \cong id_{B(x,y)} \cong \left(
 \begin{array}{rcl}
-f&\mapsto&1_x\circ f\\
-\theta&\mapsto&1_{1_x} \circ \theta
+f&\mapsto&1_y\circ f\\
+\theta&\mapsto&1_{1_y} \circ \theta
 \end{array}
 \right):B(x,y)\rightarrow B(x,y)$
 *  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
