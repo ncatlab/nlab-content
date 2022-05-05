@@ -30,7 +30,7 @@ According to the [classification of superconformal symmetry](supersymmetry#Class
 
 ...with $(2,0)$-[[supersymmetry]], that contain a [[self-dual higher gauge theory]] whose field configurations are [[connections on a 2-bundle]] (a [[circle n-bundle with connection|circle 2-bundle with connection]] in the abelian case).
 
-In ([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97)) such has been derived, in the abelian case and to low order, as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around the embedding in the asymptotic boundary of the [[AdS-spacetime]] that is the [[near-horizon geometry]] of the [[black brane|black]] M5-brane.
+In ([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97)) such has been derived, in the abelian case and to low order, as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around the embedding in the [[asymptotic boundary]] of the [[AdS-spacetime]] that is the [[near-horizon geometry]] of the [[black brane|black]] M5-brane.
 
 In accord with this the [AdS7-CFT6](AdS-CFT#AdS7CFT6) correspondence predicts that the nonabelian 6d theory is the corresponding theory for $N$ coincident M5-branes.
 
