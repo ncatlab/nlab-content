@@ -47,4 +47,7 @@ Some classes of 3-groups are modeled by  [[2-crossed modules]] or  [[crossed squ
 
 * [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
 
+[[!include homotopy n-types - table]]
 
+
+[[!redirects 3-groups]]
