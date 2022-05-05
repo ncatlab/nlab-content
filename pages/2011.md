@@ -50,6 +50,8 @@ Though some of the basic results, methods and conjectures of differential topolo
 
 * {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
 
+* John Milnor, _Topology from differential viewpoint_
+* James Munkres, Elementary differential geometry 
 * [[Morris Hirsch]], _Differential topology_, Springer GTM 33, [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)
 
 * T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; $\exists$ also 1990 German 2nd edition)
