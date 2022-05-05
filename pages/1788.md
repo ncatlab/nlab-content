@@ -1,4 +1,5 @@
 
+$\bigotimes$
 
 $$
   \array{
