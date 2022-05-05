@@ -72,7 +72,7 @@ The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactifi
 
 [[!include black branes in supergravity -- table]]
 
-More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros-Figueroa 10](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] by a [[finite group|finite]] [[subgroup]] $G_{ADE} \hookrightarrow SU(2)$ of the [[special unitary group]], i.e. a finite group in the [[ADE-classification]]
+{#BlackM2AtADESingularity} More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros-Figueroa 10](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] (hence a [[spherical space form]] in the smooth case) by a [[finite subgroup of SU(2)]] $G_{ADE} \hookrightarrow SU(2)$, i.e. a finite group in the [[ADE-classification]]
 
 [[!include ADE -- table]]
 
@@ -92,9 +92,9 @@ Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$
 
 ## Properties
 
-### M2-branes at ADE-orbifold singularities -- BLG and ABJM
+### Worldvoluem theory -- BLG and ABJM
 
-The worldvolume theory of M2-branes sitting at [[ADE singularities]] is supposed to be described by [[ABJM theory]] and, for the special case of $SU(2)$ gauge group, by the [[BLG model]]. See also at _[[gauge enhancement]]_.
+The [[worldvolume]] [[quantum field theory]] of M2-branes sitting at [[ADE singularities]] (as [above](#BlackM2AtADESingularity)) is supposed to be described by [[ABJM theory]] and, for the special case of $SU(2)$ gauge group, by the [[BLG model]]. See also at _[[gauge enhancement]]_.
 
 ### AdS4-CFT3 duality
 
