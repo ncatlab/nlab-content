@@ -49,6 +49,12 @@ Conversely, generally the [[topological closure]] of every singleton is irreduci
 
 =--
 
+## Strictness of implication
+
+There are many examples of sober spaces which are not Hausdorff. For example, the spectrum of a ring which is not zero-dimensional is sober but not Hausdorff.
+
+Any Hausdorff space is not only [[sober]], but also $T_1$. However, even the converse to this fails. [For example](https://en.wikipedia.org/wiki/Sober_space), let $X$ be the real line with a new point $p$ added, topologized such that any open set in the real line is open, and any cofinite set containing $p$ is open. Then $X$ is sober and $T_1$ but not Hausdorff.
+
 
 ## Related entries
 
