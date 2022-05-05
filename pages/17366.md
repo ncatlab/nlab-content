@@ -48,7 +48,7 @@ Regard $[X,Y]_*$ as a pointed object with basepoint induced by the map $\ast\to 
 
 Let $\mathcal{C}$ be a [[closed monoidal category]] with [[finite limits]] and with [[finite colimits]].
 
-For every pointed object $X \in \mathcal{C}^{\ast}$ the operation of forming the pointed [[mapping space]] out of $X$, and the operation of forming the [[smash product]] with $X$, def. \ref{SmashProductOfPointedObjects} form a pair of [[adjoint functors]]
+For every pointed object $X \in \mathcal{C}^{\ast}$ the operation of forming the pointed [[mapping space]] out of $X$, and the operation of forming the [[smash product#GeneralSmashProduct|smash product]] with $X$, form a pair of [[adjoint functors]]
 
 $$
   (
@@ -79,7 +79,7 @@ The case when $\mathcal{C}$ is [[cartesian monoidal category|cartesian]], or at 
 +-- {: .num_remark}
 ###### Remark
 
-If $\mathcal{C}$ is [[monoidal category|monoidal]] but not [[closed monoidal category|closed]], the same definition \ref{SmashProductOfPointedObjects} of the [[smash product]] makes $\mathcal{C}^{\ast/}$ [[monoidal category|monoidal]] as long as the tensor product of $\mathcal{C}$ preserves finite colimits in each variable separately.  
+If $\mathcal{C}$ is [[monoidal category|monoidal]] but not [[closed monoidal category|closed]], the same definition of the [[smash product#GeneralSmashProduct|smash product]] makes $\mathcal{C}^{\ast/}$ [[monoidal category|monoidal]] as long as the tensor product of $\mathcal{C}$ preserves finite colimits in each variable separately.  
 
 If not, the smash product can fail to be associative. For instance, the smash product on the ordinary category [[Top]] (without any [[nice category of spaces|niceness conditions]] imposed) is not associative.
 
