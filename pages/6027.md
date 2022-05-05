@@ -13,4 +13,6 @@ Length is the [[volume]] of 1-[[dimension]]al spaces.
 
 * [[Compton wavelength]]
 
+* [[string length]]
+
 [[!redirects lengths]]
