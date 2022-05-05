@@ -9,7 +9,7 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 
 ## Related concepts
 
-* [[rotation]], [[boost]]
+* [[reflection]], [[rotation]], [[boost]]
 
 * [[circle group]]
 
