@@ -16,7 +16,7 @@
 
 ## Idea
 
-In any context of [[nLab:higher algebra]] where [[higher central extension]] make sense, one may ask for the _universal_ such. Since an ordinary [[central extension]] of some algebraic object is characterized as the [[initial object]] in the [[category]] of all its central extensions, an evident definition of universal higher central extension is as a suitable initial object in a [[higher category]] of [[higher central extensions]].
+In any context of [[nLab:higher algebra]] where [[higher central extension]] make sense, one may ask for the _universal_ such. Since an ordinary [[universal central extension]] of some algebraic object is characterized as the [[initial object]] in the [[category]] of all its ordinary [[central extensions]], an evident definition of universal higher central extension is as a suitable initial object in a [[higher category]] of [[higher central extensions]].
 
 For higher central extensions in the context of [[discrete infinity-groupoid|discrete]] [[2-groups]] this is considered in [Epa-Ganter 16, Def. 2.4](#EpaGanter16)
 
