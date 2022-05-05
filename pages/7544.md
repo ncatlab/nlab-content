@@ -178,7 +178,7 @@ The construction of $n$-truncations without recursive HITs is in
 
 The construction of natural numbers from propositional resizing and univalence is in
 
-* {#ConstructingNat} HoTT/Coq library, &lt;https://github.com/HoTT/HoTT/blob/master/theories/PropResizing/Nat.v>
+* {#ConstructingNat} HoTT/Coq library, <https://github.com/HoTT/HoTT/blob/master/theories/PropResizing/Nat.v>
  
 
 [[!redirects elementary (∞,1)-topos]]
