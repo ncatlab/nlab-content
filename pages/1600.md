@@ -81,6 +81,12 @@ and another approach is discussed in
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
 
+The relation of orbispaces to [[global equivariant homotopy theory]] is discussed in
+
+* [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
+
+see also
+
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
 
