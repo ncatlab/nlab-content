@@ -560,6 +560,8 @@ The following particular type theories are important enough to (potentially) hav
   * [[Bishop set]], [[predicative topos]]
 
   * [[coercion]]
+
+  * [[intrinsic and extrinsic views of typing]]
  
 * [[relation between category theory and type theory]]
 
