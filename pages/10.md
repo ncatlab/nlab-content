@@ -83,9 +83,9 @@ for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric
 
 More specifically, for any [[cartesian theory]], [[regular theory]] or [[coherent theory]] $\mathbb{T}$ (which in ascending order are special cases of each other and all of geometric theories), the corresponding [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$ comes equipped with the structure of a [[syntactic site]] $(\mathcal{C},\mathbb{T}, J)$ (see there) and the classifying topos for $\mathbb{T}$ is the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$.
 
-Classifying toposes can also be defined over any [[base topos]] $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "[[bounded topos|bounded]] $S$-topos."
+Classifying toposes can also be defined over any [[base topos]] $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "[[bounded topos|bounded]] $S$-topos". The _general existence of classifying toposes_ for geometric theories for bounded $S$-toposes is then intimately connected to the existence of the [[classifying topos for the theory of objects]] which in turn hinges on the existence of a [[natural number object]] in $S$. See [below](#ForObjects) and, for further details, [[classifying topos for the theory of objects]] or Blass ([1989](#blass)).
 
-If the classifying topos of a geometric theory $T$ is a [[presheaf topos]], one called $T$ a _[[theory of presheaf type]]_.
+If the classifying topos of a geometric theory $T$ is a [[presheaf topos]], one calls $T$ a _[[theory of presheaf type]]_.
 
 ## Background on the theory of theories
 
@@ -107,9 +107,9 @@ For instance, to go from a finite products theory $T$ to the corresponding finit
 ### Geometric morphisms equivalent to morphisms of sites
  {#GeometricMorphismsAndMorphismsOfSites}
 
-The fact that classifying toposes are what they all comes down,
-if spelled out explicitly, to the fact that [[geometric morphism]]
-$f : \mathcal{E} \to \mathcal{F}$ of toposes can be identified with certain
+The fact that classifying toposes are what they are all comes down,
+if spelled out explicitly, to the fact that a [[geometric morphism]]
+$f : \mathcal{E} \to \mathcal{F}$ of toposes can be identified with a certain
 morphism of [[site]]s $C_{\mathcal{E}}$, $C_{\mathcal{F}}$  for these toposes, going the other way round, $C_\mathcal{E} \leftarrow C_{\mathcal{F}}$, and having certain properties. If here $C_\mathcal{F}$ is the [[syntactic site]] of some [[theory]] $\mathbb{T}$ and we choose $C_{\mathcal{E}}$ to be the [[canonical site]] of $\mathcal{E}$ (itself equipped with the [[canonical coverage]]) this makes manifest why the geometric morphisms in $\mathcal{F}$ correspond to [[model]]s of $\mathcal{T}$ in $\mathcal{E}$. 
 
 We now say this in precise manner. In the following a _[[cartesian site]]_ means a [[site]] whose underlying category is [[finitely complete category|finitely complete]].
@@ -189,9 +189,10 @@ We list and discuss explicit examples of classifying toposes.
 ### For objects
  {#ForObjects}
 
-The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]], sometimes called the "object classifier" This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _[[classifying topos for the theory of objects]]_.
+The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos for the [[theory of objects]], sometimes called the "object classifier". This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _[[classifying topos for the theory of objects]]_.
 
 For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
+
 
 ### For pointed objects
  {#ForPointedObjects}
@@ -601,6 +602,8 @@ we should expect there to be a topos analog of the total space, $E G$, for the c
 
 * [[representable functor]]
 
+* [[classifying topos for the theory of objects]]
+
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
 
 * [[universal principal bundle]], [[universal principal infinity-bundle]]
@@ -609,17 +612,25 @@ we should expect there to be a topos analog of the total space, $E G$, for the c
 
 * [[classifying (infinity,1)-topos]]
 
+* [[natural number object]]
+
 
 
 ## References
 
 ### General
 
-Standard textbooks reference for classifying topoi of theories 
+Standard textbook references for classifying topoi of theories 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_,
-section D3 {#Johnstone}
+* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. (In particular, sections B4.2 pp.424-432, D3.2 pp.901-910)
+
 * [[Francis Borceux]], _Handbook of categorical algebra_, (in series Enc. Math. Appl.) vol. 3, Categories and sheaves, Cambridge Univ. Press 1994, Ch.4 Classifying toposes
+
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer Heidelberg 1994. (chap. VIII)
+
+The relation between the existence of natural number objects and classifying toposes is discussed in
+
+* {#blass}[[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
 
 The study of classifying spaces of topological categories is described in the monograph
 
