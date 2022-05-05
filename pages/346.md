@@ -86,7 +86,7 @@ The two are essentially equivalent, and the one given here is perhaps a little s
 
 ### A non-unital version
 
-The fact (discussed below) that closed categories, in the above sense, are equivalent to closed [[multicategories]] with unit, suggests that there ought to be a version of closed categories that *don't* necessarily have a unit object $I$.  In fact in this case the definition becomes simpler because we can omit all the $i$'s and $j$'s, but there is an additional wrinkle that we have to include "left evaluation" as a new operation.  Furthermore, it seems that we have to use the Eilenberg-Kelly version of the definition, not the LaPlaza one.
+The fact (discussed below) that closed categories, in the above sense, are equivalent to closed [[multicategories]] with unit, suggests that there ought to be a version of closed categories that *don't* necessarily have a unit object $I$.  In fact in this case the definition becomes simpler because we can omit all the $i$'s and $j$'s, but there is an additional wrinkle that we have to include "left evaluation" as a new operation.  Furthermore, it seems that we have to use the Eilenberg-Kelly version of the definition, not the LaPlaza one; the "underlying set" functor $U:C\to Set$ corresponds to the nullary homsets $C(;-)$ of a multicategory.
 
 A **non-unital closed category** is a [[category]] $C$ together with the following data:
 
@@ -100,7 +100,7 @@ A **non-unital closed category** is a [[category]] $C$ together with the followi
 
 which is required to satisfy the following axioms.
 
-* $U([X,Y]) = C(X,Y)$ strictly and naturally, i.e. $U \circ [-,-] = C(-,-)$ as functors $C^{op}\times C\to Set$.
+* $U([X,Y]) = C(X,Y)$ strictly and naturally, i.e. $U \circ [-,-] = C(-,-)$ as functors $C^{op}\times C\to Set$.  (Note that this can be phrased in accord with the [[principle of equivalence]] by considering $U : C \to Set$ as a [[displayed category]] over $Set$.)
 
 * For any $X,Y\in C$ we have $U(L^X_{Y Y})(1_Y) = 1_{[X,Y]}$.  (Note that $L^X_{Y Y} : [X,X] \to [[X,Y],[X,Y]]$, so $U(L^X_{Y Y})(1_Y) : C(X,X) \to C([X,Y],[X,Y])$.)
 
@@ -114,7 +114,11 @@ which is required to satisfy the following axioms.
   ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
   [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
 
-* Some axiom(s) relating $L$ to $ev$.  For instance, for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [[X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ should equal the functorial action $[f,Z]$ (note that this subsumes the second identity axiom above).
+* Some axiom(s) relating $L$ to $ev$.  For instance, for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [[X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ should equal the functorial action $[f,Z]$ (note that this subsumes the second identity axiom above).  And for any $x\in U(X)$ the following diagram should commute:
+
+  $$\array{ [Y,Z] & \overset{L^X_{Y Z}}{\to} & [[X,Y],[X,Z]]\\
+  & _{[ev_x,Z]}\searrow & \downarrow^{[[X,Y],ev_x]} \\
+  && [[X,Y],Z]} $$
 
 +--{: .standout}
 I haven't worked out exactly what axioms are required here.
