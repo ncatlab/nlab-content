@@ -1,5 +1,5 @@
 
-**Locally presentable categories:** [[cocomplete category|Cocomplete]] possibly-[[large categories]] generated under filtered colimits by [[small object|small]] [[generators]] under [[small colimit|small]] [[relations]].  Equivalently, accessible localizations of free cocompletions.  Accessible categories omit the cocompleteness requirement; toposes add the requirement of a left exact localization.
+**Locally presentable categories:** [[cocomplete category|Cocomplete]] possibly-[[large categories]] generated under [[filtered colimits]] by [[small object|small]] [[generators]] under [[small colimit|small]] [[relations]].  Equivalently, [[accessible functor|accessible]] [[reflective localizations]] of [[free cocompletions]].  Accessible categories omit the cocompleteness requirement; toposes add the requirement of a [[left exact functor|left exact]] localization.
 
 | $\phantom{A}$[[(n,r)-categories]]$\phantom{A}$ | $\phantom{A}$[[toposes]]$\phantom{A}$ | locally presentable | loc finitely pres | localization theorem | [[free cocompletion]] | accessible |
 |--|--|--|--|--|--|--|
