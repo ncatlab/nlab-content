@@ -51,6 +51,7 @@ of that meaning.
 
 ###Related concepts
 * [[coercion]]
+* [[type refinement]]
 
 ###References
 
