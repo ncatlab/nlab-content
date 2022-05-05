@@ -443,8 +443,6 @@ A useful survey is in
 * {#Hess} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 
-
-
 [[!redirects polynomial differential form]]
 [[!redirects polynomial differential forms]]
 
