@@ -18,13 +18,13 @@
 
 
 
-
 ## Idea
 
 $Pr(\infty,1)Cat$ is the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-preserving [[(∞,1)-functors]] between them ([[Lawvere distributions]]).
 
 
 Recall that a [[presentable (∞,1)-category]] is a [[localization of an (∞,1)-category|localization]] of a [[(∞,1)-category of (∞,1)-presheaves]]. In particular it has all small [[colimits]]. An [[(∞,1)-functor]] $C \times D \to E$ from the cartesian [[product]] of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
+
 
 It turns out that there is a _universal_ such bilinear functor
 
