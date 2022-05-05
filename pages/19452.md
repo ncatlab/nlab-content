@@ -4938,18 +4938,69 @@ In order to understand the sheaf condition (eq:SheafCondition) better, it is use
 +-- {: .num_defn #PresheafOfGroupoids}
 ###### Definition
 **([[presheaves of groupoids]])**
-/
-For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}) the [[functor category]] (Example \ref{FunctorCategory}) 
 
-$$
+For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}) consider the [[functor category]] (Example \ref{FunctorCategory}) 
+from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories})
+
+\[
   [\mathcal{C}^{op}, Grpd]
-$$
-
-from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories}) may be thought of as the category of _[[presheaves of groupoids]]_. 
-
-By Example \ref{ExamplesOfCosmoi} we may regard [[Grpd]] as a [[cosmos]] for [[enriched category theory]]. Since the inclusion $Set \hookrightarrow Grpd$ (Example \ref{ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}) is a morphism of cosmoi (...), the category $\mathcal{C}$ may be thought of as a [[Grpd]]-[[enriched category]] (Def. \ref{TopEnrichedCategory}) and then a functor $\mathcal{C}^{op} \to Grpd$ is equivalently a [[Grpd]]-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}).
+  \,.
+\]
+ 
+By Example \ref{ExamplesOfCosmoi} we may regard [[Grpd]] as a [[cosmos]] for [[enriched category theory]]. Since the inclusion $Set \hookrightarrow Grpd$ (Example \ref{ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}) is a [[strong monoidal functor]] (Def. \ref{LaxMonoidalFunctor}) of [[cosmoi]] (Example \ref{ExamplesOfCosmoi}), the plain category $\mathcal{C}$ may be thought of as a [[Grpd]]-[[enriched category]] (Def. \ref{TopEnrichedCategory}) and hence a functor $\mathcal{C}^{op} \to Grpd$ is equivalently a [[Grpd]]-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}).
 
 This means that the plain [[category of functors]] $[\mathcal{C}^{op}, Grpd]$ enriches to [[Grpd]]-[[enriched category]] of [[Grpd]]-[[enriched presheaves]] (Example \ref{EnrichedPresheaf}).
+
+Hence we may speak of _[[presheaves of groupoids]]_.
+
+Notice that from every presheaf of groupoids $\mathbf{Y} \in [\mathcal{C}^{op}, Grpd]$ we may collect its ordinary _presheaf of objects_
+
+$$
+  Obj_{\mathbf{Y}(-)}
+  \in
+  [\mathcal{C}^{op}, Set]
+$$
+
+as well as its _presheaf of morphisms_
+
+$$
+  Mor_{\mathbf{Y}(-)}
+  \;\coloneqq\;
+  \underbrace{
+    \underset{x,y \in Obj_{\mathbf{Y}(-)}}{\coprod}  
+    Hom_{{\mathbf{Y}(-)}}
+  \;\colon\;
+  [\mathcal{C}^{op}, Set]  
+$$
+
+In more abstract language this assignment constitutes an [[equivalence of categories]]
+
+\[
+  \label{InternalGroupoidsPresheavesOfGroupoids}
+  \array{
+    [\mathcal{C}^{op}, Grpd]
+      &\overset{\simeq}{\longrightarrow}&
+    Grpd\left( [\mathcal{C}^{op}, Grpd]\right)
+    \\
+    \mathbf{Y}
+      &\mapsto&
+    \left(
+      Obj_{\mathbf{Y}(-)}
+      , 
+      \underset{
+        Mor_{\mathbf{Y}(-)}
+      }{
+      \underbrace{
+        \underset{x,y \in Obj_{\mathbf{Y}(-)}}{\coprod}  
+        Hom_{{\mathbf{Y}(-)}}
+      }}
+    \right)
+  }
+  \,.
+\]
+
+from [[presheaves of groupoids]] to _[[internal groupoids]]- in the [[category of presheaves]] over $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}).
+
 
 =--
 
@@ -4979,16 +5030,20 @@ which is given over each object of $\mathcal{C}$ by the reflective inclusion of 
 Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}), and $X \in \mathcal{C}$ an [[object]] of that site. For each [[covering]] family $\{ U_i \overset{\iota_i}{\to} X\}$ of $X$ in the given [[coverage]], the _[[Cech groupoid]]_ is the [[presheaf of groupoids]] (Def. \ref{PresheafOfGroupoids})
 
 $$
-  C(\{U_i\}) \;\in\; [\mathcal{C}^{op}, Grpd]
+  C(\{U_i\}) 
+    \;\in\; 
+  [\mathcal{C}^{op}, Grpd]
+  \;\simeq\;
+  Grpd\left( [\mathcal{C}^{op}, Set]  \right)
 $$
 
-whose [[presheaf]] of [[objects]] is the [[coproduct]]
+which, regarded as an [[internal groupoid]] in the [[category of presheaves]] over $\mathcal{C}$, via (eq:InternalGroupoidsPresheavesOfGroupoids), has as [[presheaf]] of [[objects]] the [[coproduct]]
 
 $$
   Obj_{C(\{U_i\})} \;\coloneqq\; \underset{i}{\coprod}  y(U_i)
 $$
 
-of the [[representable presheaf|presheaves represented]] (under the [[Yoneda embedding]], Prop. \ref{YonedaEmbedding}) by the [[covering]] objects $U_i$, and whose [[presheaf]] of [[morphisms]] is the [[coproduct]] over all [[fiber products]] of these:
+of the [[representable presheaf|presheaves represented]] (under the [[Yoneda embedding]], Prop. \ref{YonedaEmbedding}) by the [[covering]] objects $U_i$, and as [[presheaf]] of [[morphisms]] the [[coproduct]] over all [[fiber products]] of these:
 
 $$
   Mor_{C(\{U_i\})} 
@@ -4997,7 +5052,7 @@ $$
   \,.
 $$
 
-This means that for any $V \in \mathcal{C}$ the [[groupoid]] assigned by $C(\{U_i\})$ has as set of objects [[pairs]] consisting of an index $i$ and a morphism $V \overset{\kappa_i}{\to} U_i$ in $\mathcal{C}$, and there is a unique morphism between two such objects 
+This means equivalently that for any $V \in \mathcal{C}$ the [[groupoid]] assigned by $C(\{U_i\})$ has as set of objects [[pairs]] consisting of an index $i$ and a morphism $V \overset{\kappa_i}{\to} U_i$ in $\mathcal{C}$, and there is a unique morphism between two such objects 
 
 $$
   \kappa_i \longrightarrow \kappa_j
@@ -5027,7 +5082,7 @@ precisely if
 
 =--
 
-Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition (eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]]  (Def. \ref{Sheaf})
+Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition (eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]] (Def. \ref{Sheaf}):
 
 +-- {: .num_example #CechGroupoidCoRepresents}
 ###### Proposition
