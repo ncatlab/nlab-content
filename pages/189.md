@@ -13,15 +13,27 @@
 =--
 
 
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
+ {#Idea}
 
-A quiver is a collection of edges which may stretch between (ordered) pairs of "points", called _vertices_.
+A _quiver_ ([Gabriel 72](#Gabriel72)) is a collection of [[edges]] which may stretch between (ordered) [[pairs]] of "points", called _[[vertices]]_.
+Hence a quiver is a kind of [[graph]], often called a [[directed graph]] (or [[digraph]]) by [[category theory|category theorists]]. 
 
-A quiver is like a [[category]] with units and composition forgotten. Indeed, a [[category]] is a quiver with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
+The term "quiver" (German: _K&ouml;cher_) for a _[[directed graph]]_ is due to [Gabriel 72](#Gabriel72), where it says on the first page:
+
+> For such a 4-tuple $\big[$ $V \underoverset{\underset{t}{\longrightarrow}}{\overset{s}{\longrightarrow}}{} E$ $\big]$ we propose the term _quiver_, and not _graph_, since there are already too many notions attached to the latter word.
+
+While therefore, as concepts in themselves, _quiver_ and _directed graph_ are just the same, using the term _quiver_ serves to indicate certain constructions that one is interested in (a _[[concept with an attitude]]_), notably the corresponding _[[quiver representations]]_ which much of the theory revolves around. The key result here is _[[Gabriel's theorem]]_ from the same article [Gabriel 72](#Gabriel72) that introduced the terminology _quiver_.
+
+On the other hand, beware that in [[graph theory]], the term "[[directed graph]]" is often taken to mean that there is at most one edge from one vertex to another. To emphasize that a quiver allows more edges between vertices one may speak of _directed [[pseudographs]]_. See at _[[directed graph]]_ for more.
+
+From yet another perspective, quivers/directed pseudographs are also like [[small categories]] with [[identity morphisms]] and [[composition]] forgotten. Conversely, a [[small category]] may be regarded as a quiver/directed pseudograph equipped with [[extra structure]]. Formally this is witnessed by a [[forgetful functor]] 
 
 $$U\colon Cat \to Quiv$$
 
@@ -30,9 +42,6 @@ where [[Quiv]] is the category of quivers and [[Cat]] is the category of ([[smal
 $$F\colon Quiv \to Cat $$
 
 sending each quiver to the [[free category]] on that quiver.
-
-A quiver is a kind of [[graph]] and is often called a [[directed graph]] (or [[digraph]]) by category theorists.  Beware that in [[graph theory]], the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another, for emphasis that a quiver allows more edges between vertices one also speaks of _directed [[pseudographs]]_. See at _[[directed graph]]_ for more.
-
 
 ## Definitions
 
@@ -140,13 +149,19 @@ If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in stu
 ### Classification 
  {#Classification}
 
-[[Gabriel's theorem]] says that connected quivers with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically close field]]are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]], and that the [[indecomposable object|indecomposable]] [[quiver representations]] are in [[bijection]] with the positive [[root (in representation theory)roots]] in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
+[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected quivers with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically close field]]are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]], and that the [[indecomposable object|indecomposable]] [[quiver representations]] are in [[bijection]] with the positive [[root (in representation theory)roots]] in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
 
 ## Related concepts
 
 * [[quiver gauge theory]]
 
+
 ## References
+
+The concept of quiver in the context of [[quiver represententations]] (and their classification in [[Gabriel's theorem]]) originates with
+
+* {#Gabriel72} [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972) ([doi:10.1007/BF01298413](https://link.springer.com/article/10.1007/BF01298413), [MR332887](http://www.ams.org/mathscinet-getitem?mr=332887) [doi](http://dx.doi.org/10.1007/BF01298413))
+
 
 Some general-purpose references include
 
@@ -156,10 +171,8 @@ Some general-purpose references include
  
 * Alistair Savage, _Finite-dimensional algebras and quivers_ ([arXiv:math/0505082](http://www.arxiv.org/abs/math/0505082)), _Encyclopedia of Mathematical Physics_, eds. J.-P. Fran&#231;oise, G.L. Naber and Tsou S.T., Oxford, Elsevier, 2006, volume 2, pp. 313-320.
 
-Classification results for quivers appeared in 
-
-* {#Gabriel72} [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972) [MR332887](http://www.ams.org/mathscinet-getitem?mr=332887) [doi](http://dx.doi.org/10.1007/BF01298413) 
  
+
 
 Quivers (referred to as _directed pseudographs_) were a tool in parts of the work of Ringel and Youngs in the second half the twentieth century to prove Heawood's formula for every finite genus, cf. e.g. Fig. 2.3 the monograph 
 
