@@ -26,7 +26,7 @@ Hence, [[classical mathematics|classically]], the well-ordering theorem is one o
 
 Given any [[set]] $S$, there exists a [[well-order]] $\prec$ on $S$.
 
-The first proof was given in ([Zermelo 1904](#Zermelo04)). Within the nLab, see [[Zorn's lemma]] where it is shown that under [[classical logic]], the well-ordering principle is equivalent to the [[axiom of choice]] and to Zorn's lemma. 
+The first proof was given in ([Zermelo 1904](#Zermelo04)). Within the nLab, the article [[Zorn's lemma]] gives a standard informal proof that can be formalized in [[ZFC]] under [[classical logic]], as well as the easy argument that conversely, the well-ordering principle (in its classical "least element" form; see below) implies the [[axiom of choice]] and Zorn's lemma. 
 
 
 ## Consequences 
