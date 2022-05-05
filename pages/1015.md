@@ -21,7 +21,6 @@
 
 A __set theory__ is a theory of [[sets]].
 
-
 ## Na&#239;ve vs axiomatic set theory
 
 __Na&#239;ve set theory__ is the basic algebra of the [[subsets]] of any given set $U$, together with a few levels of [[power sets]], say up to 
