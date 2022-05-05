@@ -323,10 +323,10 @@ More details are in  of
 See also almost any text on [[Lie algebra cohomology]] (see the list of references there).
 
 [[!redirects Chevalley--Eilenberg algebra]]
-[[!redirects Chevalley?Eilenberg algebra]]
+[[!redirects Chevalley–Eilenberg algebra]]
 [[!redirects Chevalley-Eilenberg algebras]]
 [[!redirects Chevalley--Eilenberg algebras]]
-[[!redirects Chevalley?Eilenberg algebras]]
+[[!redirects Chevalley–Eilenberg algebras]]
 
 [[!redirects Chevalley-Eilenberg dg-algebra]]
 [[!redirects Chevalley-Eilenberg dg-algebras]]
