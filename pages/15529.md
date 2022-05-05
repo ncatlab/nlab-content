@@ -43,7 +43,7 @@ Below we will see that all [[Grothendieck toposes]] are lex total.
 A lex total category $\mathcal{E}$ is a [[Grothendieck topos]] iff $\mathcal{E}$ has a small set of [[generator|generators]].
 =--
 
-The result was announced by Walters on the [[Isle of Thorns]] in 1976, a proof can be found in Street ([1981](#Street81), p.206). More detailed information on this characterization in particular concerning the size issues involved and the algebraic perspective it avails can be found at [[Grothendieck topos#Streetcharacterization|Grothendieck topos]].
+The result was announced by Walters on the [[Isle of Thorns]] in 1976, a proof can be found in Street ([1981](#Street81), p.206). More detailed information on this characterization in particular concerning the size issues involved and the algebraic perspective it avails can be found at [[Grothendieck topos]] or the [blog posts](#Walters14) by Bob Walters.
 
 ## Related entries
 
@@ -53,7 +53,7 @@ The result was announced by Walters on the [[Isle of Thorns]] in 1976, a proof c
 
 ## Link
 
-* [[Bob Walters]], _Lex total categories and Grothendieck toposes I-IV_ , series of blog posts 2014. ([link](http://rfcwalters.blogspot.com/2014/07/lex-total-categories-and-grothendieck.html))
+* {#Walters14}[[Bob Walters]], _Lex total categories and Grothendieck toposes I-IV_ , series of blog posts 2014. ([link](http://rfcwalters.blogspot.com/2014/07/lex-total-categories-and-grothendieck.html))
 
 ## References
 
