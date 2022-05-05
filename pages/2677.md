@@ -99,7 +99,7 @@ Other approaches include
 
 * {#ConnesConsani08} [[Alain Connes]], [[Caterina Consani]], _On the notion of geometry over $\F_1$_, [arxiv/0809.2926](http://arxiv.org/abs/0809.2926); _Schemes over $\F_1$ and zeta functions_, [arxiv/0903.2024](http://arxiv.org/abs/0903.2024); _Characteristic one, entropy and the absolute point _, in: Noncommutative Geometry, Arithmetic, and Related Topics, 21st Meeting of the Japan-U.S. Math. Inst., Baltimore 2009, JHUP (2012), pp. 75&#8211;139, [arxiv/0911.3537](http://arxiv.org/abs/0911.3537); _From monoids to hyperstructures: in search of an absolute arithmetic_, [arxiv/1006.4810](http://arxiv.org/abs/1006.4810); _On the arithmetic of the BC-system_, [arxiv/1103.4672](http://arxiv.org/abs/1103.4672); _Projective geometry in characteristic one and the epicyclic category_, [arxiv/1309.0406](http://arxiv.org/abs/1309.0406)
 
-* [[M. Marcolli]], [[Ryan Thorngren]], _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/1108.2874)
+* [[M. Marcolli]], [[Ryan Thorngren]], _Thermodynamical semirings_, [arXiv/1108.2874](https://arxiv.org/abs/1108.2874)
 * Bora Yalkinoglu, _On Endomotives, Lambda-rings and Bost-Connes systems_,  With an appendix by Sergey Neshveyev, [arxiv/1105.5022](http://arxiv.org/abs/1105.5022)
 
 The approach in terms of [[Lambda-rings]] due to
