@@ -121,7 +121,7 @@ Discussion in the more general context of [[equivariant cohomology|equivariant]]
 
 Examples of characters of [[finite groups]] are discussed and listed at 
 
-* {#Montaldi08} James Montaldi, _[representations](www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
+* {#Montaldi08} James Montaldi, _[representations](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
 
 [[!redirects character]]
 [[!redirects characters]]
