@@ -96,7 +96,7 @@ As is typical, $n = 1$ is trivial, $n \gt 2$ can be proved from $n = 2$ by [[ind
 
 Unbiased versions of the other definitions are fairly straightforward.  (For prime ideals in a noncommutative rig, the unbiased definition involves a product of the form $a_0 x_0 a_1 x_1 \cdots x_{n-2} a_{n-1} x_{n-1} a_n$; $a_0$ and $a_n$ can be ignored when $n \gt 0$, which is why only $a_1$ appears in the biased definition.  The definition of completely prime ideals in order theory is already unbiased, since $X$ could always be the [[empty set]].)
 
-Sometimes it\'s more fruitful to consider the [[complement]] of a prime ideal.  This is known in [[constructive mathematics]] as an [[anti-ideal]], and this becomes a necessary perspective there, as many common examples fail to satisfy the above definitions constructively.  (To support anti-ideals, a rig must be equipped with a [[tight apartness relation]], which is vacuous in [[classical mathematics]].)
+Sometimes it\'s more fruitful to consider the [[complement]] of a prime ideal.  This is known in [[constructive mathematics]] as an [[anti-ideal]], and this becomes a necessary perspective there, as many common examples fail to satisfy the above definitions constructively.  (To support anti-ideals, a rig must be equipped with a [[tight apartness relation]], which is vacuous in [[classical mathematics]].)  However, the concept is useful even classically.
 
 +-- {: .num_defn #constructive}
 ###### Definition
@@ -110,7 +110,7 @@ Also, $M$ is __completely prime__ if $M$ is proper and $x y$ belongs to $M$ when
 $$ \forall\, x \in R,\; \forall\, y \in R,\; x \in M \;\Rightarrow\; y \in M \;\Rightarrow\; x y \in M .$$
 =--
 
-If we ignore the requirement that $M$ be an anti-ideal, then we say that $M$ is an __m-set__ if it is inhabited and satisfies the binary condition of a prime ideal and __multiplicatively closed__ if it owns $1$ and satisfies the binary condition of a completely prime ideal.  (A proper anti-ideal necessarily owns $1$, but an m-set might not, even though by definition it must be inhabited.)
+If we ignore the requirement that $M$ be an anti-ideal, then we say that $M$ is an __m-system__ if it is inhabited and satisfies the binary condition of a prime ideal and __multiplicatively closed__ if it owns $1$ and satisfies the binary condition of a completely prime ideal.  (A proper anti-ideal necessarily owns $1$, but an m-system might not, even though by definition it must be inhabited.)  Thus, an ideal in a commutative ring is (classically) prime iff its complement is multiplicatively closed (and analogously for noncommutative rings).
 
 
 ## Examples
