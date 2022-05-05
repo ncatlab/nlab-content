@@ -73,6 +73,10 @@ The [[brane intersection]] laws of M-branes are discussed in
 
 * {#Townsend97} [[Paul Townsend]], section 4 of _M-theory from its superalgebra_ ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
 
+Suppposed analogy with D-brane descent in K-theory (see [there](D-brane#OlsenSzabo00)) is discussed here:
+
+* Laurent Houart, Yolanda Lozano, _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](https://arxiv.org/abs/hep-th/0001170))
+
 Further references include
 
 * [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035))
