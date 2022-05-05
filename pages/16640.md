@@ -58,7 +58,7 @@ $${|G|} = {|Z(G)|} \; + \sum_{nontrivial\; orbits x} \frac{{|G|}}{{|Stab(a_x)|}}
 and now since $p$ divides ${|G|}$ as well as each term in the sum over nontrivial orbits, it must also divide ${|Z(G)|}$. In particular, $Z(G)$ has more than one element. 
 =-- 
 
-It follows by [[induction]] that $p$-groups are [[solvable group|solvable]], since the center is a [[normal subgroup]] and the quotient $G/Z(G)$ is also a $p$-group. 
+It follows by [[induction]] that $p$-groups are [[solvable group|solvable]], since the center is a [[normal subgroup]] and the quotient $G/Z(G)$ is also a $p$-group.  Since a group obtained from an abelian group by repeated central extensions is nilpotent, $p$-groups are in fact [[nilpotent group|nilpotent]].
 
 ### Number of fixed points 
 
