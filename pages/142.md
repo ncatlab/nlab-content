@@ -156,9 +156,9 @@ The article
 
 discusses stacks focusing on their dual incarnation as [[Grothendieck fibration]]s.
 
-A [[model category]] presentation of stacks that mimics the way the [[model structure on simplicial presheaves]] models [[∞-stack]]s is discussed in
+A [[model category]] structure on [[presheaves of groupoids]], presenting stack the way the [[model structure on simplicial presheaves]] models [[∞-stacks]] is discussed in
 
-* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_, Israel Journal of Mathematics, 163(1), 93-124 ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
 
 [[!redirects stack*]]
 [[!redirects stacks]]
