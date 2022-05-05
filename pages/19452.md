@@ -184,6 +184,17 @@ Basic examples of [[concrete categories]] include the following:
 
 This is the motivation for the terminology "categories", as the examples in Example \ref{ExamplesOfConcreteCategories} are literally _categories of mathematical structures_. But not all categories are "[[concrete category|concrete]]" in this way.
 
+Some terminology
+
++-- {: .num_defn #SmallCategory}
+###### Definition
+**([[small category]])**
+
+If a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) happens to have as [[class]] $Obj_{\mathcal{C}}$ of [[objects]] an actual [[set]] (i.e. a [[small set]] instead of a [[proper class]]), then $\mathcal{C}$ is called a _[[small category]]_.
+
+=--
+
+
 +-- {: .num_defn #Isomorphism}
 ###### Definition
 **([[isomorphism]])**
@@ -218,7 +229,7 @@ If $\mathcal{C}$ is a [[category]] in which _every_ [[morphism]] is an [[isomorp
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #DeloopingGroupoid}
 ###### Example
 **([[delooping]] [[groupoid]])**
 
@@ -238,7 +249,7 @@ In fact every [[groupoid]] with precisely one object is of the form.
 
 Even though [[groupoids]] (Def. \ref{Groupoid}) are special cases of [[categories]] (Def. \ref{Categories}), the theory of groupoids in itself has a rather different flavour than that of category theory: Part of the [[homotopy hypothesis]]-theorem is that the theory of groupoids is really _[[homotopy theory]]_ for the special case of [[homotopy 1-types]].
 
-(In applications in [[homotopy theory]], groupoids are considered mostly in the case that the [[class]] $Obj_{\mathcal{C}}$ of [[objects]] is in fact a [[set]]: "[[small groupoid]]"). 
+(In applications in [[homotopy theory]], groupoids are considered mostly in the case that the [[class]] $Obj_{\mathcal{C}}$ of [[objects]] is in fact a [[set]]: _[[small groupoids]]_, Def. \ref{SmallCategory}). 
 
 For this reason we will not have more to say about [[groupoids]] here, and instead relegate their discussion to the chapter [[geometry of physics -- homotopy types|on homotopy theory]].
 
@@ -1523,7 +1534,7 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 
 We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _generalized spaces probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose:
 
-If the [[objects]] of $\mathcal{C}$ are thought of as [[spaces]] of sorts, then there is typically a concept of _locality_ in these spaces, reflected by a notion of what it means to _[[cover]]_ a given space by ("smaller") spaces.
+If the [[objects]] of $\mathcal{C}$ are thought of as [[spaces]] of sorts, then there is typically a concept of _locality_ in these spaces, reflected by a notion of what it means to _[[cover]]_ a given space by ("smaller") spaces (a _[[coverage]]_, Def. \ref{Coverage} below).
 
 But if a space $X \in \mathcal{C}$ is covered, say by two other spaces $U_1, U_2 \in \mathcal{C}$, via morphisms 
 
@@ -1557,7 +1568,7 @@ $$
   \right\}
 $$
 
-One could call this the condition of _locality of probes of generalized spaces probeable by objects of $\mathcal{C}$_. But the established terminology is that this is the _[[sheaf|sheaf condition]] on [[presheaves]] over $\mathcal{C}$_. Those presheaves which satisfy this condition are called the _[[sheaves]]_.
+One could call this the condition of _locality of probes of generalized spaces probeable by objects of $\mathcal{C}$_. But the established terminology is that this is the _[[sheaf|sheaf condition]] (eq:SheafCondition) on [[presheaves]] over $\mathcal{C}$_. Those presheaves which satisfy this condition are called the _[[sheaves]]_ (Def. \ref{Sheaf} below).
 
  
 +-- {: .num_remark}
@@ -1565,6 +1576,160 @@ One could call this the condition of _locality of probes of generalized spaces p
 **Warning**
 
 Most (if not all) introductions to [[sheaf theory]] insist on motivating the concept from the special case of sheaves on [[topological spaces]]. This is good motivation for what Grothendieck called "[[petit topos]]"-theory. The motivation above, instead, naturally leads to the "[[gros topos]]"-perspective, which is more useful for discussing the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of [[physics]]. In fact, this is the perspective of _[[functorial geometry]]_ that has been highlighted since [Grothendieck 65](functorial+geometry#Grothendieck65), but which has maybe remained underappreciated.
+
+=--
+
++-- {: .num_defn #Coverage}
+###### Definition
+**([[coverage]] and [[site]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}). Then a _[[coverage]]_ on $\mathcal{C}$ is
+
+* for each [[object]] $X \in \mathcal{C}$ a [[set]] of [[indexed sets]] of [[morphisms]] into $X$
+
+  $$
+    \left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}
+  $$
+
+  called the _[[coverings]]_ of $X$,
+
+such that
+
+* for every [[covering]] $\left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}$ of $X$ and every [[morphism]] $Y \overset{f}{\longrightarrow} X$ there exists a _refining covering_ $\left\{ V_j \overset{\iota_j}{\to} Y \right\}_{j \in J}$ of $Y$, meaning that for each $j \in J$ there exists $i \in I$ and a morphism $V_j \overset{\iota_{j,i}}{\to} U_i$ such that
+
+  $$
+    f \circ \iota_j
+     \;=\;
+    \iota_i \circ \iota_{j,i}
+    \phantom{AAAAAAA}
+    \array{
+      V_j
+        &\overset{\iota_{j,i}}{\longrightarrow}&
+      U_i
+      \\
+      {}^{\mathllap{ \iota_j }}\big\downarrow 
+        && 
+      \big\downarrow{}^{\mathrlap{ \iota_i}}
+      \\
+      Y &\underset{f}{\longrightarrow}& X
+    }
+  $$ 
+
+A [[small category]] $\mathcal{C}$ equipped with a [[coverage]] is called a _[[site]]_.
+
+=--
+
++-- {: .num_prop #CompatibleElements}
+###### Definition
+**([[matching family]])**
+
+Let $\mathcal{C}$ be a [[small category]] equipped with a [[coverage]], hence a [[site]] (Def. \ref{Coverage}) and consider a [[presheaf]] $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) over $\mathcal{C}$.
+
+Given an [[object]] $X \in \mathcal{C}$ and a [[covering]] $\left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}$ of it (Def. \ref{Coverage}) we say that a _[[matching family]]_ (of probes of $\mathbf{Y}$) is a [[tuple]] $(\phi_i \in \mathbf{Y}(U_i))_{i \in I}$ such that for all $i,j \in I$ and [[pairs]] of [[morphisms]] $U_i \overset{\kappa_i}{\leftarrow} V \overset{\kappa_j}{\to} U_j$ satisfying
+
+$$
+  \iota_i \circ \kappa_i
+  \;=\;
+  \iota_j \circ \kappa_j
+  \phantom{AAAAAAAA}
+  \array{
+    && V
+    \\
+    & {}^{\mathllap{\kappa_i}}\swarrow && \searrow^{\mathrlap{\kappa_j}}
+    \\
+    U_i && && U_j
+    \\
+    & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+    \\
+    && X
+  }
+$$
+
+we have 
+
+$$
+  \mathbf{Y}(\kappa_i)(\phi_i)
+  \;=\;
+  \mathbf{Y}(\kappa_j)(\phi_j)
+  \,.
+$$
+
+We write
+
+$$
+  Match\big( 
+    \{U_i\}_{i \in I}
+    \,,\,
+    \mathbf{Y}
+  \big)
+  \;\in\;
+  Set
+$$
+
+for the set of [[matching families]] for the given presheaf and covering.
+
+=--
+
++-- {: .num_example #MatchingFamiliesThatGlue}
+###### Example
+**([[matching families]] that glue)**
+
+Let $\mathcal{C}$ be a [[small category]] equipped with a [[coverage]], hence a [[site]] (Def. \ref{Coverage}) and consider a [[presheaf]] $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) over $\mathcal{C}$.
+
+Given an [[object]] $X \in \mathcal{C}$ and a [[covering]] $\left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}$ of it (Def. \ref{Coverage}), then every element
+
+$$
+  \phi \;\in\; \mathbf{Y}(X)
+$$
+
+induces a [[matching family]] (Def. \ref{CompatibleElements}) by
+
+$$
+  \big( \mathbf{Y}(\iota_i)(\phi)  \big)_{i \in I}
+  \,.
+$$
+
+(That this indeed satisfies the matching condition follows immediately bu the [[functor|functoriality]] of $\mathbf{Y}$.)
+
+This construction provides a [[function]] of the form
+
+\[
+  \label{SheafComparison}
+  \mathbf{Y}(X)
+    \longrightarrow
+  Match\big( 
+    \{U_i\}_{i \in I}
+    \,,\,
+    \mathbf{Y}
+  \big)
+\]
+
+The matching families in the image of this function are hence those [[tuples]] of probes of $\mathbf{Y}$ by the patches $U_i$ of $X$ which _glue_ to a global probe out of $X$.
+
+=--
+
+
+
++-- {: .num_defn #Sheaf}
+###### Definition
+**([[sheaf]])**
+
+Let $\mathcal{C}$ be a [[small category]] equipped with a [[coverage]], hence a [[site]] (Def. \ref{Coverage}) and consider a [[presheaf]] $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) over $\mathcal{C}$.
+
+The presheaf $\mathbf{Y}$ is called a _[[sheaf]]_ if for every [[object]] $X \in \mathcal{C}$ and every [[covering]] $\left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}$ of $X$ _all [[matching families]] glue uniquely_, hence if the comparison morphism (eq:SheafComparison) is a [[bijection]]
+
+\[
+  \label{SheafCondition}
+  \mathbf{Y}(X)
+    \overset{\simeq}{\longrightarrow}
+  Match\big( 
+    \{U_i\}_{i \in I}
+    \,,\,
+    \mathbf{Y}
+  \big)
+  \,.
+\]
+
 
 =--
 
