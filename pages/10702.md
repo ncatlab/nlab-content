@@ -15,12 +15,20 @@
 
 ## Idea
 
-The _Adams operations_ are endo-[[cohomology operations]] on [[topological K-theory]], induced from its [[Lambda-ring]] structure. They are an example of [[power operations]].
+Given a line bundle $L$ over a space $X$ its $k$th tensor power $L^{\otimes k}$ is another line bundle for any $k \in \mathbb{N}$.  The line bundles define certain elements of [[topological K-theory]] group $K(X)$, and there is a unique operation $\psi^k : K(X) \to K(X)$, the _$k$th Adams operation_, such that:
+
+* $\psi^k([L]) = [L^{\otimes k}]$ if $[L]$ is the $K$-theory class of any line bundle,
+
+* $\psi^k : K(X) \to K(X)$ is a group homomorphism, 
+
+* $\psi^k$ is a natural transformation: any map $f: X \to Y$ induces a map $f^* : K(Y) \to K(X)$ on $K$-theory, and $\psi^k \circ f^* = f^* \circ \psi^k$.
+
+More abstractly, Adams operations can be defined on any [[Lambda-ring]]. They are an example of [[power operations]].
 
 ## Definition
  {#Definition}
 
-The Adams operations have an explicit definition in terms of the [[Lambda-ring]] structure on [[topological K-theory]], this we state as def. \ref{DefinitionInTermsOfLambdaRing} below. While explicit, this definition may look contrived on first sight. But it turns out that it satisfied a list of properties, of which two natural ones already uniquely characterize the definition, this is proposition \ref{TheBasicProperties} below.
+The Adams operations have an explicit definition in terms of the [[Lambda-ring]] structure on [[topological K-theory]], this we state as def. \ref{DefinitionInTermsOfLambdaRing} below. While explicit, this definition may look contrived on first sight. But it turns out that it satisfied a list of properties, of which two simple ones already uniquely characterize the Adams operations.  This is proposition \ref{TheBasicProperties} below.
 
 +-- {: .num_prop #LambdaRingStructureOnKTheory}
 ###### Definition
@@ -144,7 +152,7 @@ have the following properties, for all elements $x,y \in K(X)$ and $k, l \in \ma
 
 1. $\psi^k(x + y) = \psi^k(x) + \psi^k(y)$
 
-   ($\psi^k$ is a [[functor|functorial]] [[abelian group]] [[homomorphism]])
+   ($\psi^k$ is a [[natural transformation|natural]] [[abelian group]] [[homomorphism]])
 
 1. $x \,\text{a line} \;\;\Rightarrow\;\; \psi^k(x) = x^k$
 
@@ -152,7 +160,7 @@ have the following properties, for all elements $x,y \in K(X)$ and $k, l \in \ma
 
 1. $\psi^k(x \cdot y) = \psi^k(x) \cdot \psi^k(y)$
 
-   ($\psi^k$ is in fact a [[functor|functorial]] [[ring]] [[homomorphism]])
+   ($\psi^k$ is in fact a [[natural transformation|natural]] [[ring]] [[homomorphism]])
 
 1. $\psi^k(\psi^l(x)) = \psi^{k l}(x)$
 
