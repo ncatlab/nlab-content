@@ -59,6 +59,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * Oliver F. Piattella, _Lecture Notes in Cosmology_ ([arXiv:1803.00070](https://arxiv.org/abs/1803.00070))
 
+* Daniel Baumann, _TASI Lectures on Primordial Cosmology_ ([arXiv:1807.03098](https://arxiv.org/abs/1807.03098))
+
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
 ### In terms of AQFT on curved spacetimes
