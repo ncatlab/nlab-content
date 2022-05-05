@@ -31,6 +31,8 @@ In some literature, the "Rezk-completeness" condition on such categories is omit
 
 ## References
 
+* [[homotopytypetheory:HomePage|HoTT wiki]], _[[homotopytypetheory:category]]_
+
 The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completeness") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
 
 * [[Urs Schreiber]], _[Segal completenes and Univalence](https://golem.ph.utexas.edu/category/2012/05/segalcompleteness_and_univalen.html)_, 2012
