@@ -4593,7 +4593,8 @@ Let $\mathcal{C}$ be a [[small category]] equipped with a [[coverage]], hence a 
 
 Given an [[object]] $X \in \mathcal{C}$ and a [[covering]] $\left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}$ of it (Def. \ref{Coverage}) we say that a _[[matching family]]_ (of probes of $\mathbf{Y}$) is a [[tuple]] $(\phi_i \in \mathbf{Y}(U_i))_{i \in I}$ such that for all $i,j \in I$ and [[pairs]] of [[morphisms]] $U_i \overset{\kappa_i}{\leftarrow} V \overset{\kappa_j}{\to} U_j$ satisfying
 
-$$
+\[
+  \label{MatchingCondition}
   \iota_i \circ \kappa_i
   \;=\;
   \iota_j \circ \kappa_j
@@ -4609,7 +4610,7 @@ $$
     \\
     && X
   }
-$$
+\]
 
 we have 
 
@@ -4800,6 +4801,56 @@ The first of these says that the [[internal language]] is [[dependent type theor
 
 In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]].
 
++-- {: .num_defn #ReflectiveSubcategory}
+###### Definition
+**([[reflective subcategory]])**
+
+A [[fully faithful functor]] 
+
+$$
+  \mathcal{C}
+  \hookrightarrow
+  \mathcal{D}
+$$
+
+hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is called a _[[reflective subcategory]] inclusion_ if this functor has a [[left adjoint]] (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+Here the [[left adjoint]] is also called the _[[reflector]]_.
+
+=--
+
++-- {: .num_example #ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}
+###### Example
+**([[reflective subcategory]] inclusion of [[sets]] into [[small groupoid|small]] [[groupoids]])**
+
+There is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory})
+
+$$
+  Set
+    \underoverset
+     {\underset{\phantom{AAAA}}{\hookrightarrow}}
+     {\overset{\pi_0}{\longleftarrow}}
+     {\bot}
+  Grp
+$$
+
+of the [[category of sets]] (Example \ref{CategoryOfAllSets}) into the [[category]] [[Grpd]] of [[small groupoids|small]] [[groipoids]] (Example \ref{Groupoid}) where
+
+* the [[right adjoint]] [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}) sends a [[set]] $S$ to the [[groupoid]] with set of objects being $S$, and the only [[morphisms]] being the [[identity morphisms]] on these objects (also called the _[[discrete groupoid]]_ on $S$, but this terminology is ambiguous)
+
+* the [[left adjoint]] [[reflector]] sends a [[small groupoid|small]] [[groupoid]] $\mathcal{G}$ to its set of [[connected components]], namely to the set of [[equivalence classes]] under the [[equivalence relation]] on the set of [[objects]], which regards two objects as equivalent, if there is any [[morphism]] between them.
+
+=--
+
 +-- {: .num_defn #PresheafOfGroupoids}
 ###### Definition
 **([[presheaves of groupoids]])**
@@ -4810,7 +4861,7 @@ $$
   [\mathcal{C}^{op}, Grpd]
 $$
 
-from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories}) may be thought of as the category of _[[presheaves of groupoids]]_. In fact fact there is the comparison [[adjunction]] with the actual [[category of presheaves]] (Example \ref{CategoryOfPresheaves})
+from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories}) may be thought of as the category of _[[presheaves of groupoids]]_. In fact there is the [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}) of the [[category of presheaves]] (Example \ref{CategoryOfPresheaves})
 
 $$
   [\mathcal{C}^{op}, Set]
@@ -4821,9 +4872,65 @@ $$
   [\mathcal{C}^{op}, Grpd]
 $$
 
+which is given over each object of $\mathcal{C}$ by the reflective inclusion of [[sets]] into [[groupoids]] (Example \ref{ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}).
+
 =--
 
++-- {: .num_example}
+###### Example
 
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}), and $X \in \mathcal{C}$ an [[object]] of that site. For each [[covering]] family $\{ U_i \overset{\iota_i}{\to} X\}$ of $X$ in the given [[coverage]], the _[[Cech groupoid]]_ is the [[presheaf of groupoids]] (Def. \ref{PresheafOfGroupoids})
+
+$$
+  C(\{U_i\}) \;\in\; [\mathcal{C}^{op}, Grpd]
+$$
+
+whose [[presheaf]] of [[objects]] is the [[coproduct]]
+
+$$
+  Obj_{C(\{U_i\})} \;\coloneqq\; \underset{i}{\coprod}  y(U_i)
+$$
+
+of the [[representable presheaf|presheaves represented]] (under the [[Yoneda embedding]], Prop. \ref{YonedaEmbedding}) by the [[covering]] objects $U_i$, and whose [[presheaf]] of [[morphisms]] is the [[coproduct]] over all [[fiber products]] of these:
+
+$$
+  Mor_{C(\{U_i\})} 
+    \;\coloneqq\; 
+  \underset{i,j}{\coprod}  y(U_i) \times_{y(X)} y(U_j)
+  \,.
+$$
+
+This means that for any $V \in \mathcal{C}$ the [[groupoid]] assigned by $C(\{U_i\})$ has as set of objects [[pairs]] consisting of an index $i$ and a morphism $V \overset{\kappa_i}{\to} U_i$ in $\mathcal{C}$, and there is a unique morphism between two such objects 
+
+$$
+  \kappa_i \longrightarrow \kappa_j
+$$
+
+precisely if 
+
+\[
+  \label{CechMatchingCondition}
+  \iota_i \circ \kappa_i
+  \;=\;
+  \iota_j \circ \kappa_j
+  \phantom{AAAAAAAA}
+  \array{
+    && V
+    \\
+    & {}^{\mathllap{\kappa_i}}\swarrow && \searrow^{\mathrlap{\kappa_j}}
+    \\
+    U_i && && U_j
+    \\
+    & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+    \\
+    && X
+  }
+\]
+
+
+=--
+
+Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition(eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]] (Def. \ref{Sheaf})
 
 (...)
 
