@@ -20,7 +20,7 @@ Stanford Encyclopedia of Philosophy entries:
 
 Other references
 
-* [[Geraldine Brady]] and [[Todd Trimble]] (2000a). A Categorical Interpretation of C. S. Peirce's Propositional Logic Alpha. Journal of Pure and Applied Algebra 149 (2000): 213-239
+* [[Geraldine Brady]] and [[Todd Trimble]] (2000a). A Categorical Interpretation of C. S. Peirce's Propositional Logic Alpha. Journal of Pure and Applied Algebra 149 (2000): 213-239, ([pdf](https://core.ac.uk/download/pdf/82545173.pdf))
 
 * {#BradyTrimble} [[Geraldine Brady]] and [[Todd Trimble]] (2000b). _[[A string diagram calculus for predicate logic|A String Diagram Calculus for Predicate Logic and C. S. Peirce's System Beta]]_, preprint 
 
