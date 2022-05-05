@@ -74,6 +74,7 @@ This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06),
 
 =--
 
+[[!include Segal completion -- table]]
 
 
 
@@ -107,10 +108,25 @@ The resulting interpretation of stable cohomotopy as [[algebraic K-theory]] over
 
 * {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](https://arxiv.org/abs/math/0612327))
 
-
 The [[Kahn-Priddy theorem]] is due to
 
 * {#KahnPriddy72} [[Daniel Kahn]], [[Stewart Priddy]], _Applications of the transfer to stable homotopy theory_, Bull. Amer. Math. Soc. Volume 78, Number 6 (1972), 981-987 ([Euclid](https://projecteuclid.org/euclid.bams/1183534135))
+
+The relation to [[β-rings]] is discussed in 
+
+* E. Vallejo, _Polynomial operations from Burnside rings to representation functors_, J. Pure Appl. Algebra, 65 (1990), pp. 163–190.
+
+* E. Vallejo, _Polynomial operations on stable cohomotopy_, Manuscripta Math., 67 (1990), pp. 345–365
+
+* E. Vallejo, _The free β-ring on one generator, J. Pure Appl. Algebra, 86 (1993), pp. 95–108.
+
+* [Guillot 06](#Guillot06)
+
+see also
+
+* [[Jack Morava]], Rekha Santhanam, _Power operations and absolute geometry_ ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
+
+* {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf))
 
 
 A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivariant stable cohomotopy]] is discussed in
