@@ -181,11 +181,17 @@ but has not been given a correspondingly precise cohomological formulation yet.
 ## References
 
 
-Early discussion in physics language include
+The concept originates with
 
 * {#DouglasGreeneMorrison97} [[Michael Douglas]], [[Brian Greene]], [[David Morrison]], _Orbifold Resolution by D-Branes_, Nucl.Phys.B506:84-106,1997 ([arXiv:hep-th/9704151](https://arxiv.org/abs/hep-th/9704151))
 
 * Diaconescu, [[Michael Douglas]], [[Jaume Gomis]], _Fractional Branes and Wrapped Branes_, JHEP 9802:013,1998 ([arXiv:hep-th/9712230](http://arxiv.org/abs/hep-th/9712230))
+
+based on the analysis of [[perturbative string theory]] on (global) [[orbifold]] [[background field|backgrounds]] in 
+
+* {#DixonHarveyVafaWitten85} [[Lance Dixon]], [[Jeff Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds_, Nuclear Physics B Volume 261, 1985, Pages 678-686 (<a href="https://doi.org/10.1016/0550-3213(85)90593-0">doi:10.1016/0550-3213(85)90593-0</a>)
+
+* {#DixonHarveyVafaWitten86} [[Lance Dixon]], [[Jeff Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds (II)_, Nuclear Physics B Volume 274, Issue 2, 15 September 1986, Pages 285-314 (<a href="https://doi.org/10.1016/0550-3213(86)90287-7">doi:10.1016/0550-3213(86)90287-7</a>)
 
 Survey with an eye towards [[string phenomenology]] is in 
 
