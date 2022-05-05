@@ -394,17 +394,24 @@ This is the differential of $f$ regarded as a map of tangent bundles.
 
 ## References
 
+### General
+
 The [[Kock-Lawvere axiom]] for the [[axiom|axiomatization]] of differentiation in [[synthetic differential geometry]] was introduced in
 
 * {#Kock77} [[Anders Kock]], _A simple axiomatics for differentiation_,  Mathematica Scandinavica Vol. 40, No. 2 (October 24, 1977), pp. 183-193 ([JSTOR](http://www.jstor.org/stable/24491223))
 
+Another [[synthetic mathematics|synthetic]] formalization of the chain rule in [[differential cohesion|differential]] [[cohesive homotopy type theory]] is given in
 
-Discussion of this history of the concept of differentiation, with emphasis on its roots all the way back in [[Zeno's paradoxes of motion]] is in 
-
-* {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
-
+* {#Wellen18} [[Felix Wellen]], section 3 of _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
 Discussion of differential forms as functions on infinitesimal simplices is in 
 
 * {#Stel13} [[Herman Stel]], _Cosimplicial $C^\infty$ rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
  
+
+### History
+
+Discussion of the history of the concept of differentiation, with emphasis on its roots all the way back in [[Zeno's paradoxes of motion]] is in 
+
+* {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
+
