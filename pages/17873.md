@@ -124,10 +124,10 @@ Let $\mathcal{E}$ be a topos. Then all injective objects are connected iff all i
 
 +-- {: .num_prop #exponential_injective}
 ###### Lemma
-Let $I$ be an injective object in a topos $\mathcal{E}$. Then $I^X$ is injective for any object $X$ , or in other words exponentials $(_-)^X$ preserve injective objects.
+Let $I$ be an injective object in a topos $\mathcal{E}$. Then $I^X$ is injective for any object $X$ , or in other words, exponentials $(_-)^X$ preserve injective objects.
 =--
 
-**Proof**. We have to show that for every mono $m:S\rightarrowtail B$ the induced function $m^\ast:Hom(B,I^X)\to Hom(S,I^X)$ is onto. From the exponential adjunction one has the following commutative diagram
+**Proof**. (cf. at [[injective object]](#Adjuncts_Injectives)) We have to show that for every mono $m:S\rightarrowtail B$ the induced function $m^\ast:Hom(B,I^X)\to Hom(S,I^X)$ is onto. From the exponential adjunction one has the following commutative diagram
 
 $$
 \array{
@@ -244,7 +244,7 @@ $$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, 
 (In this case, $h$ is also called an (I-)homotopy between $f$ and $g$.)
 =--
 
-The following result brings together the two crucial ingredients for the equivalence between contractability and connectedness of $\Omega$, namely, the preservation of finit products by $p_!$ and $p_!(\Omega)=1$.
+The following result brings together the two crucial ingredients for the equivalence between contractability and connectedness of $\Omega$, namely, the preservation of finite products by $p_!$ and $p_!(\Omega)=1$.
 
 +-- {: .num_prop #homotopy_components}
 ###### Proposition
@@ -379,11 +379,15 @@ For convenience and summary let us collect all the equivalent formulations of su
 
 +-- {: .num_prop #sufficient_cohesion_equivalences}
 ###### Theorem
-A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$ satisfies the following equivalent conditions:
+(**Lawvere**) A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$ satisfies the following equivalent conditions:
 
 * The [[subobject classifier]] $\Omega\in\mathcal{E}$ is contractible i.e. $p_!(\Omega^X)=1$ for every object $X\in\mathcal{E}$. 'power objects are connected' or '_truth is contractible_'
 
 * The [[subobject classifier]] $\Omega\in\mathcal{E}$ is connected i.e. $p_!(\Omega)=1$. '_truth is connected_'
+
+* $\Omega$ is a connector. '_truth is a connector_'
+
+* $\mathcal{E}$ has a connector.
 
 * Every object $X\in\mathcal{E}$ embeds into a contractible object. '$\mathcal{E}$ _has enough contractible objects_'
 
@@ -391,9 +395,7 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$
 
 * All injective objects are connected. 
 
-* All injective objects are contractible. 
-
-* $\mathcal{E}$ has a connector. $\qed$
+* All injective objects are contractible. $\qed$
 =--
 
 ## Related entries
