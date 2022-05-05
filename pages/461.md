@@ -21,7 +21,7 @@ $$
 
 The empty set can be confusing, because it is a degenerate case. Indeed, it is defined as an exception: every set is [[inhabited set|inhabited]], except the empty set. Nothing belongs to the empty set, but the empty set itself is something. Mathematics students are confused that there is a function from the empty set to itself, and even grown mathematicians will misstate definitions because they forget about the empty set.
 
-In terms of the empty set one can give sense to the [[natural number object|natural number]] expression $0^0$, the [[exponentiation]] of [[zero]] with itself, by defining the [[cartesian closed category|exponential]] $m^n$ to be the [[cardinality]] of the [[hom-set]] $\hom_{Set}([m], [n])$ where $[m]$ is an $m$-element set. Then $0^0 = 1$ because $\emptyset$ is an [[initial object]]. 
+In terms of the empty set one can give sense to the [[natural number object|natural number]] expression $0^0$, the [[exponentiation]] of [[zero]] with itself, by defining the [[cartesian closed category|exponential]] $m^n$ to be the [[cardinality]] of the [[hom-set]] $\hom_{Set}([n], [m])$ where $[m]$ is an $m$-element set. Then $0^0 = 1$ because $\emptyset$ is an [[initial object]]. 
 
 +-- {: .num_remark}
 ###### Remark
