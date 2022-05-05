@@ -22,11 +22,11 @@
 
 A [[topological space]]/[[simplicial set]]/[[homotopy type]]/[[infinity-groupoid]] $X$ is _nilpotent_ if 
 
-1. its [[fundamental group]] is a [[nilpotent groups]] 
+1. its [[fundamental group]] is a [[nilpotent group]] 
 
 1. the canonical [[action]] of $\pi_1(X)$ on all the higher [[homotopy groups]] $\pi_{n \geq 2}(X)$ is nilpotent. 
 
-The first condition means that $\pi_1(X)$ is isomoprphic to an iterated [[central extension]] of [[abelian groups]].
+The first condition means that $\pi_1(X)$ is isomorphic to an iterated [[central extension]] of [[abelian groups]].
 
 The second condition means that each $\pi_{n  \geq 2}(X)$ admits a [[sequence]] of [[subgroups]]
 
