@@ -156,7 +156,7 @@ In the following this language of local morphisms is used to characterize reflec
 ### Characterization of reflectors
  {#CharacterizationOfReflectors}
 
-The following proposition characterizes the _reflectors_ of a reflective $(\infty,1)$-subcategory. (You can read this proposition as an evident statement on the characterization of adjoints, but maybe as a preparation for the proofs to come there is some value in looking at its concrete proof in this special case of an $(\infty,1)$-adjunction.)
+The following proposition characterizes the _reflectors_ of a reflective $(\infty,1)$-subcategory. (You may read this proposition as the characterization of [[adjoint functors]] via [[universal arrows]] (via [this prop.](adjoint+functor#CollectionOfUniversalArrowsEquivalentToAdjointFunctor)), but maybe as a preparation for the proofs to come there is some value in looking at its concrete proof in this special case of an $(\infty,1)$-adjunction.)
  
 +-- {: .num_lemma #UniversalityOfReflectionCounit}
 ###### Lemma
@@ -367,7 +367,7 @@ With that in hand we look at the proof of the above proposition:
 ###### Proof 
 (localization proposition)
 
-The localization lemma gives for each object $c \in C$ a reflector $f : c \to d$ with $d$ $S$-local. By one of the above lemmas, this already gives the reflective embedding
+The localization lemma gives for each object $c \in C$ a reflector $f : c \to d$ with $d$ $S$-local. By lemma \ref{UniversalityOfReflectionCounit}, this already gives the reflective embedding
 
 $$
   D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}} C
@@ -457,7 +457,7 @@ $$
   }
 $$
 
-in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]]. Moreover, by the [behaviour under pullback](http://ncatlab.org/nlab/show/Cartesian+fibration#BehaviourUnderPullback) of [[Cartesian fibration]]s it follows that the above diagram is a [[homotopy pullback]] diagram in the [[model structure for quasi-categories|Joya model structure]] $sSet_{Joyal}$.
+in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]]. Moreover, by the [behaviour under pullback](http://ncatlab.org/nlab/show/Cartesian+fibration#BehaviourUnderPullback) of [[Cartesian fibration]]s it follows that the above diagram is a [[homotopy pullback]] diagram in the [[model structure for quasi-categories|Joyal model structure]] $sSet_{Joyal}$.
 
 
 Use now that [[accessible (infinity,1)-category|accessible quasi-categories]] are stable under [[homotopy pullback]] to conclude that $D_c$ is accessible. Moreover, one can check that $D_c$ has all small colimits. Together this means that $D_c$ is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small [[(∞,1)-limits]] and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$.
