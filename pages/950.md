@@ -18,7 +18,7 @@ Finitism (in the weak sense of not accepting an axiom of infinity) is essentiall
 
 Although often considered an extreme form of constructivism, finitism in the strong sense (actually denying the axiom of infinity) can make [[excluded middle]] and even the [[axiom of choice]] constructively acceptable (and similarly make [[power sets]] predicatively acceptable).  This is because even constructivists agree that these are true in $\Fin\Set$; it\'s the extension of them to [[infinite set]]s that the first constructivists objected to.
 
-__Ultrafinitism__ is an even more extreme form of finitism, in which one doubts the existence even of very large numbers, numbers which in some sense it is not physically possible to write down.  The theory of ultrafinite mathematics is most well developed by [[Edward Nelson]].
+__Ultrafinitism__ is an even more extreme form of finitism, in which one doubts the existence even of very large numbers, numbers which in some sense it is not physically possible to write down.  The theory of ultrafinite mathematics is most well developed by [[Edward Nelson]], although foundational systems such as [[soft linear logic]] can also be argued to have an ultrafinitist flavor.
 
 For the opinionated espousal of finitism (and much else), one can hardly do better than the [Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html) of [[Doron Zeilberger]].
 
