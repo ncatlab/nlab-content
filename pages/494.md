@@ -28,42 +28,191 @@ In the case of [[Cat]], there are a number of equivalent characterizations of an
 
 ### In terms of Hom isomorphism
 
-An adjunction $L\dashv R$ is equivalently given by a [[natural transformation|natural isomorphism]] of [[hom-functors]] $C^{op} \times D \to Set$
++-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
+###### Definition
+**([[adjoint functors]] in terms of [[natural bijections]] of [[hom-sets]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]], and let 
 
 $$
-  Hom_D(L(-),-) \simeq Hom_C(-,R(-))
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{}
+  \mathcal{C}
+$$
+
+be a pair of [[functors]] between them, as shown. Then this is called a _pair of [[adjoint functors]]_ (or an _[[adjoint pair]] of [[functors]]_) with $L$ _[[left adjoint]]_ and $R$ _[[right adjoint]]_, denoted 
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{C}
+$$
+
+if there exists a [[natural isomorphism]] between the [[hom-functors]] of the following form:
+
+$$
+  Hom_{\mathcal{D}}(L(-),-) \;\simeq\; Hom_{\mathcal{C}}(-,R(-))
   \,.
 $$
 
-In other words, for all $c \in C$ and $d \in D$ there is a bijection of sets
+This means that for all [[objects]] $c \in \mathcal{C}$ and $d \in \mathcal{D}$ there is a [[bijection]] of [[hom-sets]]
 
 $$
-  Hom_D(L(c),d) \simeq Hom_C(c,R(d))
+  \array{
+    Hom_{\mathcal{D}}(L(c),d) 
+      &\overset{\simeq}{\longrightarrow}& 
+    Hom_{\mathcal{C}}(c,R(d))
+    \\
+    ( L(c) \overset{f}{\to} d )
+    &\mapsto&
+    (c \overset{\widetilde f}{\to} R(d))
+  }
 $$
 
-naturally in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** and the image of an element under this isomorphism is its [[adjunct]].
+which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** and the [[image]] $\widetilde f$ of amorphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the adjunct of $\widetilde f$.
 
-Naturality here means that for every morphism $g \colon c_2 \to c_1$ and for every morphisms $f\colon d_1\to d_2$, the resulting square
+Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphisms]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
 
 $$
   \array{
     Hom_{D}(L(c_1), d_1) 
-      &\overset{\simeq}{\longrightarrow}&
+      &\underoverset{\simeq}{\phi_{c_1,d_1}}{\longrightarrow}&
     Hom_C(c_1, R(d_1))
     \\
-    {}^{\mathllap{Hom_D(L(g), f)}}\downarrow
+    {}^{\mathllap{Hom_{\mathcal{D}}(L(g), h)}}\big\downarrow
      &&
-    \downarrow^{\mathrlap{Hom_C(g,R(f))}}
+    \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(g, R(h))}}
     \\
     Hom_D(L(c_2),d_2)
-    &\overset{\simeq}{\longrightarrow}&
+    &\underoverset{\simeq}{\phi_{c_2,d_2}}{\longrightarrow}&
     Hom_C(c_2,R(d_2))
   }
 $$ 
 
-[[commuting square|commutes]] (see also at [[hom-functor]] for the definition of the vertical maps here).
+[[commuting square|commutes]] (see also at _[[hom-functor]]_ for the definition of the vertical maps here). 
 
-Given such an adjunction isomorphism, the [[counit of an adjunction|counit]] $\eta$ and [[unit of an adjunction|unit]] $\epsilon$ are recovered as the [[adjuncts]] of identity morphisms.  The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  The triangle identities are precisely what is necessary to ensure that this _is_ an isomorphism.
+Explicitly, this commutativity, in turn, means that for every morphism $f \;\colon\; L(c_1) \to d_1$ with [[adjunct]] $\widetilde f \;\colon\; c_1 \to R(d_1)$, the adjunct of the [[composition]] is
+
+$$
+  \widetilde{
+  \array{
+    L(c_1) &\overset{f}{\longrightarrow}& d_1
+    \\
+    {}^{\mathllap{L(g)}}\uparrow && \downarrow^{\mathrlap{h}}
+    \\
+    L(c_2) && d_2
+  }
+  }
+  \;\;\;=\;\;\;
+  \array{
+    c_1 &\overset{\widetilde f}{\longrightarrow}& R(d_1)
+    \\
+    {}^{\mathllap{g}}\uparrow && \downarrow^{\mathrlap{R(h)}}
+    \\
+    c_2 && R(d_2)
+  }
+$$
+
+=--
+
++-- {: .num_defn #AdjunctionUnitFromHomIsomorphism}
+###### Definition
+**([[adjunction unit]] and [[adjunction counit|counit]] in terms of hom-isomorphism)
+
+Given a pair of [[adjoint functors]] 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{D}
+$$
+according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} one says that 
+
+1. for any $c \in \mathcal{C}$ the [[adjunct]] of the [[identity morphism]] on  $L(c)$ is the _[[unit of an adjunction|unit morphism]]_ of the adjunction at that object, denoted
+
+   $$
+     \eta_c \coloneqq \widetilde{id_{L(c)}} \;\colon\; c \longrightarrow R(L(c))
+   $$
+
+1. for any $d \in \mathcal{D}$ the [[adjunct]] of the [[identity morphism]] on  $R(d)$ is the _[[counit of an adjunction|counit morphism]]_ of the adjunction at that object, denoted
+
+   $$
+     \epsilon_d \;\colon\; L(R(d)) \longrightarrow d
+   $$
+
+
+
+=--
+
++-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
+###### Proposition
+**{general [[adjuncts]] in terms of [[adjunction unit|unit/counit]]}**
+
+Consider a pair of [[adjoint functors]] 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
+  \mathcal{D}
+$$
+
+according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, with [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ according to Def. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
+
+Then
+
+1. The [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ are components of [[natural transformations]] of the form
+
+   $$
+     \eta \;\colon\; Id_{\mathcal{C}} \Rightarrow R \circ L
+   $$
+
+   and
+
+   $$
+     \epsilon \;\colon\; L \circ R \Rightarrow Id_{\mathcal{D}}
+   $$
+
+1. The [[adjunct]] $\widetilde f$ of any morphism $L(c) \overset{f}{\to} d$ is obtained from $R$ and $\eta_c$ as the composite
+
+   $$
+     \widetilde f 
+     \;\colon\;
+     c 
+       \overset{\eta_c}{\longrightarrow} 
+     R(L(c))
+       \overset{R(f)}{\longrightarrow}
+     R(d)
+   $$
+
+   Conversely, the adjunct $f$ of any morphism $c \overset{\widetilde f}{\longrightarrow} R(d)$ is obtained from $L$ and $\epsilon_d$ as
+
+   $$
+     f
+     \;\colon\;
+     L(c) 
+       \overset{L(\widetilde f)}{\longrightarrow} 
+     R(L(d))
+       \overset{\epsilon_d}{\longrightarrow}
+     d
+   $$
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+
+The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  
+
+=--
+
+
+The [[triangle identities]] are precisely what is necessary to ensure that this _is_ an isomorphism.
 
 
 ### In terms of representable functors
@@ -126,10 +275,10 @@ $$
     \\
     & {}^{\mathllap{i_c}}\swarrow && \searrow^{\mathrlap{f}}
     \\
-    R L c &&\underset{R \tilde f}{\to}&& R d
+    R L c &&\underset{R \widetilde f}{\to}&& R d
     \\
     \\
-    L c &&\underset{\tilde f}{\to}&& d
+    L c &&\underset{ \widetilde f}{\to}&& d
   }
 $$
 
