@@ -25,15 +25,22 @@ Notice that the fermionic [[currents]] in [[physics]] (e.g. the [[electron]] den
 
 $$
   \array{
-    fermions & \rightrightarrows &\stackrel{}{\dashv}& \stackrel{\rightsquigarrow}{} & bosons
+    fermions & \rightrightarrows &\stackrel{}{\dashv}& \rightsquigarrow & bosons
   }
 $$
 
+The [[modal objects]] for $\rightsquigarrow$ are the _bosonic objects_.
+
+
 The [[right adjoint]] of the bosonic modality is the _[[rheonomy modality]]_.
+
 
 [[!redirects fermionic modality]]
 
 
 [[!redirects bosonic]]
 [[!redirects fermionic]]
+
+[[!redirects bosonic object]]
+[[!redirects bosonic objects]]
 
