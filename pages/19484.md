@@ -17,14 +17,19 @@ We have seen roughly two different kinds of [[sheaf toposes]]:
 ###### Remark
 **([[cohesion|cohesive]] [[generalized spaces]] as [[foundations|foundations]] of [[geometry]])**
 
-If we aim to lay [[foundations]] for [[geometry]], then we are interested in isolating those kinds of [[generalized spaces]] which have foundational _a priori_ meaning independent of an otherwise pre-configured notion of space.
+If we aim to lay [[foundations]] for [[geometry]], then we are interested in isolating those kinds of [[generalized spaces]] which have foundational _a priori_ meaning, independent of an otherwise pre-configured notion of space.
 Hence we would like to first characterize suitable [[gros toposes]], extract concepts of [[space]] from these, and only then, possibly, consider the [[localic reflection|petit topos-reflections]] of these (Prop. \ref{LocalicReflection} below).
 
 The [[gros toposes]] of such foundational [[generalized spaces]] ought to  have an _[[internal logic]]_ that knows about _[[modalities]] of [[geometry]]_ such as _[[discrete object|discreteness]]_ or _[[concrete object|concreteness]]_. Via the formalization of [[modalities]] in Def. \ref{ModalOperator} this leads to the definiton of [[cohesive toposes]] (Def. \ref{CohesiveTopos}, Prop. \ref{PiecesHavePoints} below, due to [[Some Thoughts on the Future of Category Theory|Lawvere 91]], [Lawvere 07](#cohesive+topos#LawvereAxiomatic)).
 
 =--
 
-There is a further progression of [[adjoint modalities]] (Def. \ref{AdjointModality}) of [[geometry]], including the _infinitesimal_ and the _&eacute;tale_, which are formalized by _[[differential cohesion]]_ (Def. \ref{DifferentialCohesion} below).
+| $\phantom{A}$[[gros topos]]$\phantom{A}$ |  | $\phantom{A}$[[generalized spaces]] obey...$\phantom{A}$ | $\phantom{A}$example:$\phantom{A}$ |
+|-----|---|-------|---|
+| $\phantom{A}$[[cohesion]]$\phantom{A}$ |  Def. \ref{CohesiveTopos} |  $\phantom{A}$principles of [[differential topology]]$\phantom{A}$ | $\phantom{A}$[[geometry of physics -- smooth sets|SmoothSet]]$\phantom{A}$ |
+| $\phantom{A}$[[elastic topos|elasticity]] | Def. \ref{DifferentialCohesion} |$\phantom{A}$principles of [[differential geometry]]$\phantom{A}$ | $\phantom{A}$[[geometry of physics -- manifolds and orbifolds|FormallSmoothset]]$\phantom{A}$ |
+| $\phantom{A}$[[solid topos|solidity]]$\phantom{A}$ | Def. \ref{SuperDifferentialCohesion} | $\phantom{A}$principles of [[supergeometry]]$\phantom{A}$ | $\phantom{A}$[[geometry of physics -- supergeometry|SuperFormalSmoothSet]]$\phantom{A}$ |
+{: style='margin:auto}
 
 $\,$
 
@@ -946,7 +951,7 @@ $$
     \\
     && && \vee && \vee
     \\
-    && && \emptyset &\dashv& id
+    && && \emptyset &\dashv& \ast
   }
 $$
 
@@ -1243,7 +1248,7 @@ We pronounce these as follows:
 
 | $\phantom{A}$ [[fermionic modality]] $\phantom{A}$ | $\phantom{A}$ [[bosonic modality]] $\phantom{A}$ | $\phantom{A}$ [[rheonomy modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
 {: style='margin:auto}
 
 and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
@@ -1291,10 +1296,10 @@ Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 |   |   |   |
 | $\phantom{A}$ **[[reduction modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal shape modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal flat modality]]** $\phantom{A}$ |
-|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{sup} \iota_{inf} \circ \Pi_{inf}Pi_{sup}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Pi_{inf} \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Gamma_{inf}\Gamma_{sup} $ $\phantom{A}$  |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{sup} \iota_{inf} \circ \Pi_{inf}\Pi_{sup}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Pi_{inf} \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Gamma_{inf}\Gamma_{sup} $ $\phantom{A}$  |
 |   |    |    |
 | $\phantom{A}$ **[[fermionic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[bosonic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[rheonomy modality]]** $\phantom{A}$ |
-|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
 {: style='margin:auto}
 
 Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}:
@@ -1305,7 +1310,7 @@ $$
     \\
     \vee && \vee
     \\
-    \rightrightarrows &\bot& \rightsquigarrow &\bot& Rh
+    \rightrightarrows &\dashv& \rightsquigarrow &\dashv& Rh
     \\
     && \vee && \vee
     \\
@@ -1317,7 +1322,7 @@ $$
     \\
     && && && \vee && \vee
     \\
-    && && && \emptyset &\dashv& id
+    && && && \emptyset &\dashv& \ast
   }
 $$
 
