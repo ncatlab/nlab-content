@@ -65,7 +65,18 @@ See also:
 
 ### Experimental observation
 
+Experimental observation of [[Zak phases]]:
+
 * Marcos Atala, Monika Aidelsburger, Julio T. Barreiro, Dmitry Abanin, Takuya Kitagawa, Eugene Demler, Immanuel Bloch: *Direct measurement of the Zak phase in topological Bloch bands*, Nature Physics **9** (2013) 795–800 ([doi:10.1038/nphys2790](https://doi.org/10.1038/nphys2790))
+
+Proposal for experimental realization of [[Berry phases]] around [[codimension]]=2 nodal loci of (time+space inversion symmetric) [[semi-metals]]:
+
+* Dan-Wei Zhang, Y. X. Zhao, Rui-Bin Liu, Zheng-Yuan Xue, Shi-Liang Zhu, Z. D. Wang, *Quantum simulation of exotic PT-invariant topological nodal loop bands with ultracold atoms in an optical lattice*, Phys. Rev. A **93** (2016) 043617  ([arXiv:1601.00371](https://arxiv.org/abs/1601.00371), [doi:10.1103/PhysRevA.93.043617](https://doi.org/10.1103/PhysRevA.93.043617))
+
+  > (see sec II.A, these authors stand out as mentioning the relevant [[KO-theory]])
+
+
+
 
 
 [[!redirects Berry connections]]
