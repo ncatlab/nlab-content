@@ -370,7 +370,7 @@ $$
   A(G) \overset{ \phantom{AA} (-)^N \phantom{AA} }{\longrightarrow} A(G/N)
 $$
 
-given by... 
+{#Hmm} given by... 
 
 > ?? this clearly must be the case, but it still needs a formal argument ??
 
