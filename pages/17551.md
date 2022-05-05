@@ -118,7 +118,7 @@ $$
   \,.
 $$
 
-([Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
+([Lewis-May-Steinberger 86, II.9, cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
 
 
 ## Related concepts
