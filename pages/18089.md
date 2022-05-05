@@ -36,7 +36,7 @@ Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which ever
 
 * A group, $G$, understood as [delooped](group#delooping) to a pointed connected groupoid.
 
-Let $\mathcal{S}$ be a set of subgroups of a group $G$. The following are all EI_categories ([Webb08, p. 4078](#Webb08)):
+Let $\mathcal{S}$ be a set of subgroups of a group $G$. The following are all EI-categories ([Webb08, p. 4078](#Webb08)):
 
 *  The *transporter category* $\mathcal{T}_{\mathcal{S}}$ has as its objects the members of $\mathcal{S}$, and morphisms $Hom(H,K) = N_G(H,K) = \{g \in G|{}^{g}H \subseteq K\}$.
 
@@ -46,7 +46,7 @@ Let $\mathcal{S}$ be a set of subgroups of a group $G$. The following are all EI
 
 ## Representation theory
 
-A finite EI-category contains finitely many morphisms. The [[category algebra]] $k C$ of a finite EI-category, $C$, for a fixed [[base ring]] $k$  and has as [[linear basis|basis]] the set of morphisms in $C$ with multiplication induced by composition of morphisms. It is thus a generalization of the [[group algebra]] of a [[finite group]], the [[path algebra]] of a finite [[quiver]] without oriented cycles or the incidence algebra of a finite poset. There is a stratification of $k C$ of depth equal to the number of isomorphism classes in the category.
+A finite EI-category contains finitely many morphisms. The [[category algebra]] $k C$ of a finite EI-category, $C$, for a fixed [[base ring]] $k$  and has as [[linear basis|basis]] the set of morphisms in $C$ with multiplication induced by composition of morphisms. It is thus a generalization of the [[group algebra]] of a [[finite group]], the [[path algebra]] of a finite [[quiver]] without oriented cycles or the [[incidence algebra]] of a finite poset. There is a stratification of $k C$ of depth equal to the number of isomorphism classes in the category.
 
 The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to the category of $k$-[[linear representations]] of $C$, i.e., the [[functor category]] $Fun(C, Mod k)$.
 
