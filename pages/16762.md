@@ -3,6 +3,10 @@
 
 ...resolution of [[singularities]]...
 
+## Related concept
+
+* [[ADE singularity]]
+
 ## References
 
 * Wikipedia, _[Resolution of singularities](https://en.wikipedia.org/wiki/Resolution_of_singularities)_
