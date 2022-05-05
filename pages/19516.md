@@ -706,7 +706,7 @@ $$
 is a weak equivalence. But we have already seen that $R^\ast$ preserves all weak equivalences, hence this is the case. (In fact, since $\mathbf{X}$ is already fibrant and cofibrant, both the [[fibrant resolution]] morphism $j_{\mathbf{X}}$ as well as the [[cofibrant resolution]] morphism $p_{\mathbf{X}}$ may be taken to be [[identity morphisms]].)
 
 
-Hence in conclusion, we have a [[Quillen adjoint quadruple]]
+Hence, in conclusion, we have a [[Quillen adjoint quadruple]] of the form
 
 $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
@@ -722,6 +722,30 @@ $$
   [\mathcal{D}^{op}, sSet]_{proj}
 $$
 
+Notice that the bottom adjoint triple $R_! \dashv R^\ast \dashv R_{\ast}$ is now realized differently by [[Quillen functors]] than in what results by applying Example \ref{QuillenAdjointTripleHomotopyKanExtension} to $R$: Here $R_!$ is regarded, in particular, as a [[right Quillen functor]] between the projective model structures, while in the second case it is regarded as a [[left Quillen functor]] between the projective model structures.
+But by [this Example](double+category+of+model+categories#DerivedFunctorOfLeftRightQuillenFunctor) this does not affect the [[derived functor]] of $R_!$, up to [[natural isomorphism]]:
+
+$$
+  \array{
+    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+      &\overset{\phantom{A}R_! \simeq L^\ast\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{R_! \simeq L^\ast}}\Big\downarrow 
+      &{}^{id}\swArrow& 
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+      &\underset{\phantom{A}id\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+  }
+  \phantom{AAA}
+  \overset{Ho(-)}{\mapsto}
+  \phantom{AAA}
+  \mathbb{R}_{proj,proj}R_! \simeq \mathbb{L}_{proj,proj} R_!
+$$
+
+Hence by essential uniqueness of adjoints ([this prop](adjoint}functor#UniquenessOfAdjoints)) also the derived functors of $R^\ast$ and of $R_\ast$ agree, up to natural isomorphism, for both ways of regarding it. 
 
 =--
 
