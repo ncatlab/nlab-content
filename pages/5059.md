@@ -1056,10 +1056,14 @@ with further developments discussed in
 
 Discussion of Green-Schwarz strings on [[super anti de Sitter spacetimes]] includes the following.
 
+General:
+
+* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092))
+
+* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
 
 #### $AdS_5$
  {#ReferencesAdS5Background}
-
 
 For the [[superstring]]:
 
@@ -1067,9 +1071,6 @@ For the [[superstring]]:
 
 * [[Gleb Arutyunov]], [[Sergey Frolov]], _Foundations of the $AdS_5 x S^5$ Superstring. Part I_, J. Phys. A 42 (2009) ([arXiv:0901.4937](http://arxiv.org/abs/0901.4937))
 
-* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092))
-
-* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
 
 #### $AdS_4$ and $AdS_7$
  {#ReferencesAdS4Background}
