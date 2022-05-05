@@ -50,6 +50,10 @@ Further dicussion of the coupling to the [[d=4 N=1 supergravity]] background inc
 
 * Carlos Meliveo, _On Supermembrane in $D=4$, multiple M0-brane in $D=11$ and Supersymmetric Higher Spin Theories_ ([arXiv:1312.3512](http://arxiv.org/abs/1312.3512))
 
+See also 
+
+* [[Igor Bandos]], [[Fotis Farakos]], Stefano Lanza, Luca Martucci, [[Dmitri Sorokin]], _Three-forms, dualities and membranes in four-dimensional supergravity_ ([arXiv:1803.01405](https://arxiv.org/abs/1803.01405))
+
 Discussion of strongly coupled 4d physics akin to 11d [[M-theory]] with its [[M2-brane]] includes
 
 * [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod.Phys.Lett.A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
