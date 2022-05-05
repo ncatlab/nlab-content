@@ -5647,6 +5647,23 @@ $$
 
 =--
 
+
+
+
++-- {: .num_prop #RecognitionOfEpimorphisms}
+###### Proposition
+**(recognition of [[epimorphism|epi-]]/[[monomorphism|mono-]]/[[isomorphisms]] of [[sheaves]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) with $Sh(\mathcal{C})$ its [[category of sheaves]] (Def. \ref{Sheaf}). 
+
+Then a [[morphisms]] $f \;\colon\; \mathbf{X} \to \mathbf{Y}$ in $Sh(\mathcal{C})$ is
+
+1. a [[monomorphism]] or [[isomorphism]] precisely if it is so _globally_ in that for each object $U \in \mathcal{C}$ in the site, then the component $f_U \colon \mathbf{X}(U) \to \mathbf{Y}(U)$ is an [[injection]] or [[bijection]] of [[sets]], respectively.
+
+1.  an [[epimorphism]] precisely if it is so _locally_, in that: for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in \mathbf{Y}(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : \mathbf{X}(U_i) \to \mathbf{Y}(U_i)$.
+
+=--
+
 (...)
 
 +-- {: .num_defn #SheafToposAsSubtopos}
