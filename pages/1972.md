@@ -64,6 +64,8 @@ $$
 
 The construction of representations by [[index]]-constructions of $G$-equivariant [[Dirac operators]] ([[push-forward in generalized cohomology|push-forward]] in $G$-[[equivariant K-theory]] to the point) is called _[[Dirac induction]]_.
 
+[[!include Segal completion -- table]]
+
 ### Completion
 
 On the other hand, by the [[Atiyah-Segal completion theorem]] 
