@@ -2119,7 +2119,7 @@ and so on.
 
 This may be combined: For example if $\underline{\mathbb{C}} \oplus_X \Pi $ is the [[direct sum of vector bundles]] of the
 [[trivial vector bundle|trivial]] [[complex line bundle]] with an odd [[spinor bundle]], then a [[generalized element]]
-of $\Gamma_X\left(\underline{\mathbb{C} \oplus_X \Pi S \right)$ is over $\mathbb{R}^{0\vert 1}$ of the form
+of $\Gamma_X\left(\underline{\mathbb{C}} \oplus_X \Pi S \right)$ is over $\mathbb{R}^{0\vert 1}$ of the form
 
 $$
   \sigma = \phi + \psi \theta
