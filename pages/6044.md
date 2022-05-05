@@ -81,7 +81,10 @@ Conversely, given an inner product space $V$ with a binary cross product, the or
 $$ (a,x) (b,y) = (a b - x \cdot y, a y + b x + x \times y) ,$$
 where $K$ is the ground field.
 
-By [[Hurwitz's theorem]], the only finite-dimensional NDAs over $\mathbb{R}$ are $\mathbb{R}$ itself (the [[real numbers]]), $\mathbb{C}$ (the [[complex numbers]]), $\mathbb{H}$ (the [[quaternions]]), and $\mathbb{O}$ (the [[octonions]]).  Thus the limited possibilities for binary cross products are determined by the limited possibilities for NDA structures.
+By [[Hurwitz theorem|Hurwitz's theorem]], the only finite-dimensional NDAs over $\mathbb{R}$ are $\mathbb{R}$ itself (the [[real numbers]]), $\mathbb{C}$ (the [[complex numbers]]), $\mathbb{H}$ (the [[quaternions]]), and $\mathbb{O}$ (the [[octonions]]).  Thus the limited possibilities for binary cross products are determined by the limited possibilities for NDA structures.
+
+
+By one of the deeper strands of mathematics, this classification of something as innocent-looking as cross-products is closely related not just to the existence of [[normed division algebras]] over the [[real numbers]], but also to all of the following: [[parallelizable manifold|parallelizable]] [[n-spheres]], the existence of [[real spin representations]] (see also at _[[supersymmetry and division algebras]]_), and the [[homotopy groups of spheres]] of [[Hopf invariant one]]; see [there](Hopf+invariant+one#RelationToHSpaceStructureAndNormedDivisionAlgebras).
 
 
 ### $(n-1)$-ary
