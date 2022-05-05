@@ -32,7 +32,7 @@ The idea is that on [[finite sets]], whose [[cardinalities]] are [[natural numbe
 
 But the operations on sets on the right directly generalize from [[finite sets]] to general sets, hence from sets whose [[cardinality]] is a [[natural number]] to [[infinite cardinals]]. Therefore cardinal arithmetic is also called a _[[transfinite arithmetic]]_.
 
-### Definition
+## Definitions
 
 For $S$ a [[set]], write ${|S|}$ for its [[cardinality]]. Then the standard operations in the [[category]] [[Set]] induce [[arithmetic]] operations on [[cardinal numbers]]:
 
@@ -84,15 +84,59 @@ The well-ordered cardinals are [[well-order|well-ordered]] by the ordering $\lt$
 The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-ordered cardinal larger than $\kappa$.  Note that (except for finite cardinals), this is different from $\kappa$\'s successor as an [[ordinal number]].  We can also take successors of arbitrary cardinals using the operation of [[Hartog's number]], although this won\'t quite have the properties that we want of a successor without the axiom of choice.
 
 
-## Properties 
+### Remarks 
 
 * It is traditional to write [[ℵ]]${}_0$ for the first [[infinite cardinal]] (the cardinality of the [[natural numbers]]), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu^+}$.
 
 * For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called [[Cantor's theorem]]).  The question of whether $2^{\aleph_0} = \aleph_{1}$ (or more generally whether $2^{\aleph_\mu} = \aleph_{\mu^+}$) is called Cantor's continuum problem; the assertion that this is the case is called the (generalized) [[continuum hypothesis]]. It is known that the continuum hypothesis is undecidable in [[ZFC]]. 
 
-* For every transfinite cardinal $\pi$ we have (using the axiom of choice) $\pi + \pi = \pi$ and $\pi \cdot \pi = \pi$, so addition and multiplication are [[idempotent]].
+## Properties 
 
++-- {: .num_theorem} 
+###### Theorem 
+For every [[infinite cardinal]] $\pi$ we have (using the axiom of choice) $\pi + \pi = \pi$ and $\pi \cdot \pi = \pi$, so addition and multiplication are [[idempotent]]. 
+=-- 
 
++-- {: .proof} 
+###### Proof 
+Since $\pi \leq \pi + \pi = 2 \cdot \pi \leq \pi \cdot \pi$, it suffices to prove $\pi \cdot \pi \leq \pi$. Establishing this is closely analogous to establishing one of the standard bijections $\mathbb{N} \cong \mathbb{N} \times \mathbb{N}$ -- not the one that enumerates along successive diagonals  $x + y = k$ which are spheres in an $L^1$ [[p-norm|metric]] (and which involves additive structure), but one which enumerates along successive spheres in an $L^\infty$ metric (which involves only order structure). 
+
+With this hint in mind, regard $\pi$ as the least [[ordinal]] in its cardinality class (using the [[well-ordering theorem]]), and suppose $\pi$ is a minimal counterexample to the statement. Thus ${|\alpha|}^2 = {|\alpha|}$ for all ordinals $\alpha \lt \pi$. Consider $\pi^3 = \pi \times \pi \times \pi$ in [[lexicographic order]]. This is a well-ordered set, as is the subset 
+
+$$S = \{(x, y, z) \in \pi^3: x = \max(y, z)\}$$ 
+
+under the order inherited from $\pi^3$. Clearly $S \cong \pi^2$ as sets. Under the supposition ${|\pi|} \lt {|\pi|}^2$, the ordinal $\pi$ is isomorphic to one of the [[lower set|initial segments]] 
+
+$$S(a, b, c) \coloneqq \{(x, y, z) \in S: (x, y, z) \lt (a, b, c)\}$$ 
+
+of $S$, say $S(\alpha, \beta, \gamma)$. But then (regarding $\alpha$ as an ordinal less than $\pi$) 
+
+$${|\pi|} = {|S(\alpha, \beta, \gamma)|} \leq {|S(\alpha, \alpha, \alpha)|} = {|\alpha|}^2 = {|\alpha|} \lt {|\pi|}$$ 
+
+which gives a contradiction. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+Conversely, if (relative to ZF or any other standard set theory) we assume that any infinite set can be put in bijection with its cartesian square, then every set can be well-ordered, a result originally due to Tarski. Details may be found at [[Hartogs number]]. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+If one of two non-zero cardinals $\kappa, \lambda$ is infinite, then 
+
+$$\kappa + \lambda = \kappa \cdot \lambda = \max \{\kappa, \lambda\}.$$ 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Clearly, $\kappa \leq \kappa + \lambda$ and $\lambda \leq \kappa + \lambda$, so $\max \{\kappa, \lambda\} \leq \kappa + \lambda$, and similarly for multiplication instead of addition, assuming the cardinals are non-zero. 
+Letting $\mu = \max \{\kappa, \lambda\}$, we also have 
+
+$$\kappa \cdot \lambda \leq \mu \cdot \mu = \mu$$ 
+
+and similarly for addition instead of multiplication. 
+=-- 
 
 ## References
 
