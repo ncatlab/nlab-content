@@ -27,8 +27,7 @@ More generally, let $J$ and $C$ be arbitrary categories.  The __$J$-ary diagonal
 functor of $C$__ is the functor $\Delta_J\colon C\to C^J$ sending each
 object $c$ to the [[constant functor]] $\Delta c$ (the functor having
 value $c$ for each object of $J$ and value $1_c$ for each arrow of
-$J$), and each arrow $f\colon c\to c'$ of $C$ to the [[natural
-transformation]] $\Delta f\colon \Delta c \stackrel{.}{\to} \Delta c'$
+$J$), and each arrow $f\colon c\to c'$ of $C$ to the [[natural transformation]] $\Delta f\colon \Delta c \stackrel{.}{\to} \Delta c'$
 which has the same value $f$ at each object $j$ of $J$. 
 
 
