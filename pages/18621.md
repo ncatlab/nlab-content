@@ -18,7 +18,7 @@
 
 In [[perturbative quantum field theory]] formalized as [[causal perturbation theory]]/[[perturbative AQFT]] the _retarded products_ ([Glaser-Lehmann-Zimmermann 57](#GlaserLehmannZimmermann57), [Steinmann 71](#Steinmann71)) is a system of [[operator-valued distributions]] which are the [[coefficients]] in the [[formal power series]] expression for the [[quantum observables on interacting fields]]. 
 
-If the quantum observables are obtained via [[Bogoliubov's formula]] from the [[S-matrix]] induced by [[time-ordered products]], then the retarded products may be expressed in terms of the [[time-ordered products]]. But the retarded producst may also be [[axiom|axiomatized]] directly ([D&#252;tsch-Fredenhagen 04](#DuetschFredenhagen04)),
+If the quantum observables are obtained via [[Bogoliubov's formula]] from the [[S-matrix]] induced by [[time-ordered products]], then the retarded products may be expressed in terms of the [[time-ordered products]]. But the retarded products may also be [[axiom|axiomatized]] directly ([D&#252;tsch-Fredenhagen 04](#DuetschFredenhagen04)),
 see ([Collini 16, section 2.2](#Collini16)).
 
 
