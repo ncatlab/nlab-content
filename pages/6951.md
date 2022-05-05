@@ -24,7 +24,7 @@ By giving a semantics to formulas written in the [[higher-order logic|higher-ord
 
 Kripke-Joyal semantics provide rules and prescriptions for semantic interpretation for general toposes but these prescriptions may simplify for special classes of toposes e.g. the rules resulting for [[presheaf toposes]] over posets (when restricted to first-order formulas) correspond to the original notion of model for IPL considered by [[Saul Kripke|Kripke]] et al.
 
-There should be a version of Kripke-Joyal semantics for [[homotopy type theory]], as claimed [here](n-types%20cover#in_models). 
+There should be a version of Kripke-Joyal semantics for [[homotopy type theory]], as claimed [here](n-types+cover#InModels). 
 
 ## Formulation
 
