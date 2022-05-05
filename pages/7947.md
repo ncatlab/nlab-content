@@ -1,5 +1,3 @@
-
-
 **higher and integrated [[Kostant-Souriau extensions]]**:
 
 ([[∞-group extension]] of [[∞-group of bisections]] of [[higher Atiyah groupoid]] for $\mathbb{G}$-[[principal ∞-connection]])
@@ -10,7 +8,7 @@ $$
 
 | $n$ | geometry | structure | unextended structure | extension by | quantum extension |  
 |--|--|--|--|--|--|
-| $\infty$ | [[higher prequantum geometry]]  | [[cohesive]] [[∞-group]] | [[Hamiltonian symplectomorphism ∞-group]] |  [[moduli ∞-stack]] of $(\Omega \mathbb{G})$-[[flat ∞-connections]] on $X$ | [[quantomorphism ∞-group]] |
+| $\infty$ | [[higher prequantum geometry]] | [[cohesive]] [[∞-group]] | [[Hamiltonian symplectomorphism ∞-group]] | [[moduli ∞-stack]] of $(\Omega \mathbb{G})$-[[flat ∞-connections]] on $X$ | [[quantomorphism ∞-group]] |
 | 1 | [[symplectic geometry]] | [[Lie algebra]] | [[Hamiltonian vector fields]] | [[real numbers]] | [[Hamiltonians]] under [[Poisson bracket]] | 
 | 1 | |  [[Lie group]] | [[Hamiltonian symplectomorphism group]] | [[circle group]] | [[quantomorphism group]] | 
 | 2 | [[2-plectic geometry]] | [[Lie 2-algebra]] | [[Hamiltonian vector fields]] | [[line Lie n-algebra|line Lie 2-algebra]] | [[Poisson Lie 2-algebra]] | 
