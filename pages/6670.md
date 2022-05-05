@@ -21,7 +21,7 @@ over this diagram.
 
 Equivalently, this is a morphism such that for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism in an (∞,1)-category]] in the [[(∞,1)-category]] [[∞Grpd]].
 
-**Warning**. Such a morphism may fail to satisfy some condition for being a plain _epimorphism_ in an [[(∞,1)-category]] that you might think of; in particular it need not be a [[monomorphism in an (∞,1)-category]].  The idea is that there may not be a good notion of epimorphism in an [[(∞,1)-category]] apart from regular epimorphism.
+**Warning**. Such a morphism may not be an [[epimorphism in an (∞,1)-category]] (i.e. a [[monomorphism in an (∞,1)-category|monomorphism]] in the opposite category).
 
 ## Questions
 
