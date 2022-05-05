@@ -51,11 +51,14 @@ This implies the weak form by applying the functor $\hom(I, -): V \to Set$.
 
 ## References 
 
-The weak form is in section 1.9, the strong form in section 2.4 of
+Textbook accounts include
 
-* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
+* [[Max Kelly]], sect. 1.9 (weak form) and 2.4 (strong from) of _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
 
-Generalization to the case that the enriching monoidal category is not closed or symmetric is in 
+* {#Borceux94} [[Francis Borceux]], theorem 6.3.5 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+
+
+Generalization to the case that the enriching monoidal category is not [[closed monoidal category|closed]] or [[symmetric monoidal category|symmetric]] is in 
 
 * {#Street12} [[Ross Street]], _Skew-closed categories_ ([arXiv:1205.6522](https://arxiv.org/abs/1205.6522))
 
