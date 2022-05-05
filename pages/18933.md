@@ -50,6 +50,8 @@ There are arguments that the phenomenon of [[confinement]] in [[QCD]] will be ex
 
 * [[theta vacuum]]
 
+* [[non-perturbative effect]]
+
 * [[perturbative string theory vacuum]]
 
 * [[landscape of string theory vacua]]
