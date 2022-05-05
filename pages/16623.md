@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -21,11 +20,16 @@ Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [
 Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Atiyah-Witten 01 (4.17)](#AtiyahWitten01), [Curio 02, (2.15)](#Curio02))
 
 $$
-  \exp(i T \int_{\Sigma} (\phi^\ast C + i \ell^{-3} vol(\phi^\ast g)))
+  \exp\left(
+    \int_{\Sigma} 
+    \left(
+      \ell_P^{-3} vol(\phi^\ast g) + i \phi^\ast C 
+    \right)
+  \right)
   \,,
 $$
 
-where $\ell$ is the [[Planck length]] of [[11-dimensional supergravity]], $T = 1/\ell^3$ is the membrane [[tension]], $C$ is the [[background field|background]] [[supergravity C-field]], $g$ the background [[metric]] and $vol$ its [[volume form]], .  
+where $\ell_P$ is the [[Planck length]] of [[11-dimensional supergravity]], $T = 1/\ell^3$ is the membrane [[tension]], $C$ is the [[background field|background]] [[supergravity C-field]], $g$ the background [[metric]] and $vol$ its [[volume form]], .  
 
 ## Properties
 
