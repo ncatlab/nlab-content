@@ -20,7 +20,7 @@
 
 ## Idea
 
-The theory of [[(∞,1)-topos]]es, generalizing [[topos theory]] from [[category theory]] to [[(∞,1)-category theory]].
+The theory of [[(∞,1)-toposes]], generalizing [[topos theory]] from [[category theory]] to [[(∞,1)-category theory]]: "[[geometric homotopy theory]]".
 
 ## Related concepts
 
