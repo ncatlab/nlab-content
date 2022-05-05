@@ -130,6 +130,8 @@ Literature discussing whether or how the [[Higgs field]] might be identified as 
 
 * Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
 
+* Javier Rubio, _Higgs inflation_ ([arXiv:1807.02376](https://arxiv.org/abs/1807.02376))
+
 A popular account in the context of the 2013 [[Plack Collaboration]] results is in 
 
 * [[Matthew Strassler]], _[Cosmic Conflation: The Higgs, The Inflaton, and Spin](http://profmattstrassler.com/2013/03/26/cosmic-conflation-the-higgs-the-inflaton-and-spin/)_
