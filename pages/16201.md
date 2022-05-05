@@ -21,7 +21,7 @@
 
 ## Idea
 
-In the context of [[gravity]] ([[general relativity]]), _higher curvature corrections_ are modificatiosn of the [[Einstein-Hilbert action]] that include not just the linear appearance of the [[scalar curvature]] $R$ but higher scalar powers of the [[Riemann curvature tensor]].
+In the context of [[gravity]] ([[general relativity]]), _higher curvature corrections_ are modifications of the [[Einstein-Hilbert action]] that include not just the linear appearance of the [[scalar curvature]] $R$ but higher scalar powers of the [[Riemann curvature tensor]].
 
 When viewing Einstein-Hilbert [[gravity]] as an [[effective field theory]] valid at low energy, then higher curvature corrections are precisely the terms that may appear at higher energy in pure gravity. Notably the effective field theories induced by [[string theory]] come with infinite towers of higher curvature corrections.
 
