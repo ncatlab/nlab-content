@@ -1,4 +1,14 @@
 __Jarah Evslin__ is an american [[nlab:string theory|string theorist]]. Next week (June 21, 2010) starts the [[Croatian Black Hole School]] organized by him at the sea shore in  Croatia. The registration is basically closed, but we could fit still somebody from Balkans or Eastern Europe if (s)he contacts us right now!
 
 
+## related $n$Lab entries
+
+* [[D-brane]]
+
+* [[topological T-duality]]
+
+* [[twisted K-theory]]
+
+* [[black holes in string theory]]
+
 category: people
