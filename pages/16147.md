@@ -96,6 +96,9 @@ $\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] o
 
 Of course for this story to work, $G$ need not be a group, but could be any [[monoid]].
 
+## Related concepts
+
+* [[enriched presheaf category]]
 
 ## References
 
