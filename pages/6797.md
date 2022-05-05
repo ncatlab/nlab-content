@@ -19,7 +19,13 @@
 
 ## Idea
 
-Higher spin gauge theory ([Vasiliev 96](#Vasiliev96)) is a kind of [[higher gauge theory]] whose [[field (physics)|field content]] is an infinite tower of massless fields of ever higher [[spin]].
+Generally by a _higher spin field theory_ is meant a [[quantum field theory]] that involves [[field (physics)|fields]] of spin $\gt 2$ (recalling that a [[spinor field]] has spin 1/2, a [[gauge field]] has spin 1, a [[gravitino]] field has spin 3/2 and the field of [[gravity]] has spin 2). 
+
+Folklore had it that all higher spin field theories with _[[mass]]-less_ higher spin fields are inconsistent due to negative norm states ("ghost") appearing in their [[quantization]]. (This argument underlies the dominance of $\mathcal{N} = 1$ [[11-dimensional supergravity]], see the introduction to the entry _[[12-dimensional supergravity]]_ for more on this). 
+
+But then it was discovered that there is a gigher spin gauge theory ([Vasiliev 96](#Vasiliev96)) which is a kind of [[higher gauge theory]] whose [[field (physics)|field content]] is an _infinite tower_ of massless fields of ever higher [[spin]].
+
+Ever since the refine folklore says that higher spin theories with a _finite_ number of higher spin field species is inconsistent, but that an infinite tower can fix the problem (...add reference...). 
 
 One way that higher spin gauge theories are thought to naturally arise is as the limiting case of [[string field theory]] when the string's tension is sent to zero ([Henneaux-Teitelboim 87, section 2](#HenneauxTeitelboim87), [Gross 88](#Gross88), [Sagnotti-Tsulaia 03](#SagnottiTsulaia03), [Bonelli 03](#Bonelli03)): The excitation spectrum of the [[string]] [[sigma-model]] contains beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- this is notably so for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common origin in the string, these share intricate relations among each other, which are argued to be described by higher spin gauge theory. (Notice that at least closed bosonic [[string field theory]] is itself already a [[higher gauge theory]], even without sending the tension to zero, see at _[closed string field theory -- As an ∞-Chern-Simons theory](string+field+theory#AsAnInfinityCSTheory)_.)
 
@@ -112,3 +118,9 @@ We list references that discuss the relation of higher spin gauge theory to the 
 * Charlotte Sleight, _Lectures on Metric-like Methods in Higher Spin Holography_ ([arXiv:1701.08360](https://arxiv.org/abs/1701.08360))
 
 [[!redirects higher spin gauge theories]]
+
+[[!redirects higher spin field theory]]
+[[!redirects higher spin field theories]]
+
+[[!redirects higher spin quantum field theory]]
+[[!redirects higher spin quantum field theories]]
