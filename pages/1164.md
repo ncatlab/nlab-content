@@ -119,6 +119,11 @@ See at _[[global equivariant homotopy theory]]_.
 
 ## References
 
+Lecture notes include
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 1.3 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+
 * {#May96} [[Peter May]], section I.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
 A very general setting for the use of orbit categories is described in
