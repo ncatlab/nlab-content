@@ -73,7 +73,7 @@ over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy cla
 
 ## References
 
-The concept originates with 
+The concept was named by Dress, following
 
 * {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf))
 
