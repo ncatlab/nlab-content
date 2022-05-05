@@ -304,108 +304,8 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 # Special Typesetting Features
 
-## How to make comments and ask questions {#query}
-
-In general, the place to make comments and ask questions is on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Some information about the n-Forum can be found on [[nlabmeta:HomePage|nlabmeta]]; just find or create a forum discussion about the page you want to talk about and talk away.
-
-When questions are answered and discussions are resolved at the n-Forum, the *conclusion* should often be recorded on an nLab page.  If it's about a particular page, then of course put it on that page; if it's a general question then it could be recorded on [[HowTo|this How To]] or the [[FAQ]].  As this is a wiki, you can do this recording yourself when your question is answered.
-
-That said, the wiki software does contain a mechanism for putting questions and comments on a wiki page itself: edit the page and put your comment or question in a __query block__ as shown in this example:
-
-    +-- {: .query}
-    How do I ask a question?
-    =--
-
-which produces
-
-+-- {: .query}
-How do I ask a question?
-=--
-
-In general, this is the wrong way to go about asking a question.  When you put a query box on a page, often none of the other contributors will notice it for a long time, so it will take a long time for the question to be answered, and in the meantime it makes the page cluttered and ugly for other readers.  However, *occasionally* it may be appropriate to record a brief question in a query box, if it has already been discussed at the nForum and the conclusion was not satisfactory.  In this case a link to the nForum discussion should be included in the query box in preference to any lengthy detail about the question and discussion.
-
-(Before the n-Forum existed, it was much more common to ask questions using query boxes.  Some such query boxes still remain undiscovered on various pages, but whenever we find one we generally migrate it to the n-Forum.)
-
-
-## How to make a standout box
- {#standout}
-
-If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__.  The mechanism is similar to a query box, although the purpose is different: while a query box is for a temporary question and should be removed once that question is resolved, a standout box is a permanent feature of a page that simply emphasizes a small amount of text.  To make a standout box, write:
-
-    +-- {: .standout}
-    First quantization is a mystery, but second quantization is a functor. 
-    =--
-
-which produces
-
-+-- {: .standout}
-First quantization is a mystery, but second quantization is a functor. 
-=--
-
-
-## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
-
-As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
-
-However, you do not need any password to **see** the stylesheet tweaks on the various webs, so if you see a feature that you would like on one of the other webs (including the main one), then go to the "Edit Web" link at the bottom of that web\'s [[HomePage]] to view the 'Stylesheet tweaks >>'.
-
-
-## How to include one page within another ##
-
-If you have some material at a page called `foo` that you want to include directly in pages called `bar` and `baz`, then type <nowiki><code>[[!include foo]]</code></nowiki> in `bar` and `baz`.  For an example, see how [[contents]] is included at the tope of this page.  Also see how [[contents]] itself has been formatted so that it will appear as a sidebar when included.
-
-Besides such sidebars that appear in many pages, you can also use inclusion to put in something that contains a bunch of ugly code (such as raw <abbr title="scalable vector graphics">SVG</abbr>, see [here](#IncludeSVG)) without mucking up the rest of the page.  That is, you put your messy code in `bar/foo` and then put <nowiki><code>[[!include bar/foo]]</code></nowiki> in `bar`.  Note that this is for something that, logically, should appear within `bar` itself, which is why `bar` appears in the name of the included page.
-
-Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
-
-## How to include SVG figures
- {#IncludeSVG}
-
-To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figures within a page, proceed as following:
-
-1. The $n$Lab has a built-in SVG editor (see [below](#svgedit)). Click on the "`Create SVG graphic`" button to open it. Choose "`Save Image`" from the SVG-Edit menu when you're done. This will close the SVG editor and paste the resulting SVG code back into the Editing window.
-2. If you produce the SVG with a standard SVG editor, save it using, if possible, the two options
-
-   1. save as _plain SVG_
-   1. save as _optimes SVG_
-
-  * You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
-
-    1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
-                  
-      <nowiki>
-      +--{: style="text-align:center"}
-      [[!include SomePage > figureN]]
-      =--
-      </nowiki>
-
-    1. Then type
-
-             http://ncatlab.org/nlab/show/SomePage > figureN
-
-       into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
-
-       Go back to _SomePage_ . The SVG figure should now be displayed there.
-
-See for instance the entry [[comma object]] for an example.
-
-## How to use redirects ##
-
-See [[redirects]].
-
-
-## How to put parentheses in external links ##
-
-Since the mechanism for inserting links uses parentheses to delimit the link, it's not obvious how to put parentheses actually in the link itself.  Since Wikipedia uses them a fair bit, it's worth knowing how to put them in.  The trick is to use the URL codes rather than the actual characters.  URL codes are generally used to send "unsafe" characters in URLs (safe characters are `a`-`zA`-`Z0`-`9$-_.+!\*'(),`).  Although parentheses are actually "safe", due to their special meaning for the markdown filter, to put them in URLs here they need to be treated as "unsafe".  URL codes have the syntax `%hex` where `hex` is the index of the character in the ASCII character set represented as a 2-digit hexadecimal.  Wikipedia (among other places) has a [table](http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters) of the character set from which one can read off the required hexadecimal.  In particular, we see that `(` is `%28` and `)` is `%29`.  Thus
-
-    [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
-
-produces
-
-:  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
-
-
 ## How to make links to subsections of a page ##
+ {#HowToMakeLinksToSubsections}
 
 ### Links to sections
 
@@ -534,6 +434,140 @@ The items in the table of contents will be the section headlines marked by
 Instead of "table of contents" after the asterisk, you can write anything you like: this line will not be displayed but is still required to kick in the CSS that makes this possible. 
 
 It is important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would have a link inside of a link).
+
+
+
+## How to cite and record references
+ {#HowToCiteAndRecordReferences}
+
+At the end of each $n$Lab entry should be a section 
+
+      ## References
+
+or sometimes
+
+      ## Literature
+
+which contains a bullet list of relevant references. A standard way to format an entry is this list is the following:
+
+      * {#LastnameAnotherlastnameYear} [[Firstname Lastname]], [[Anotherfirstname Anotherlastname]], _Title_, Journal, volume, year ([arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy), [doi:xyz](http://doi.xyz))
+
+which comes out as
+
+>  * {#LastnameAnotherlastnameYear} [[HowTo|Firstname Lastname]], [[HowTo|Anotherfirstname Anotherlastname]], _Title_, Journal, volume, year ([arXiv:xxxx.yyyyy](https://arxiv.org/abs/xxxx.yyyyy), [doi:xyz](http://doi.xyz))
+
+
+Given such an item in the list of references, a standard way to reference it from the main text of the entry is as follows:
+
+      see ([Lastname-Anotherlastname Year, theorem 1.3](#LastnameAnotherlastnameYear))
+
+which comes out at 
+
+> see ([Lastname-Anotherlastname Year, theorem 1.3](#LastnameAnotherlastnameYear))
+
+This produces a hyperlink, and in fact such that following it brings up the above bullet item highlighted by a gray box.
+
+
+## How to make comments and ask questions {#query}
+
+In general, the place to make comments and ask questions is on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Some information about the n-Forum can be found on [[nlabmeta:HomePage|nlabmeta]]; just find or create a forum discussion about the page you want to talk about and talk away.
+
+When questions are answered and discussions are resolved at the n-Forum, the *conclusion* should often be recorded on an nLab page.  If it's about a particular page, then of course put it on that page; if it's a general question then it could be recorded on [[HowTo|this How To]] or the [[FAQ]].  As this is a wiki, you can do this recording yourself when your question is answered.
+
+That said, the wiki software does contain a mechanism for putting questions and comments on a wiki page itself: edit the page and put your comment or question in a __query block__ as shown in this example:
+
+    +-- {: .query}
+    How do I ask a question?
+    =--
+
+which produces
+
++-- {: .query}
+How do I ask a question?
+=--
+
+In general, this is the wrong way to go about asking a question.  When you put a query box on a page, often none of the other contributors will notice it for a long time, so it will take a long time for the question to be answered, and in the meantime it makes the page cluttered and ugly for other readers.  However, *occasionally* it may be appropriate to record a brief question in a query box, if it has already been discussed at the nForum and the conclusion was not satisfactory.  In this case a link to the nForum discussion should be included in the query box in preference to any lengthy detail about the question and discussion.
+
+(Before the n-Forum existed, it was much more common to ask questions using query boxes.  Some such query boxes still remain undiscovered on various pages, but whenever we find one we generally migrate it to the n-Forum.)
+
+
+## How to make a standout box
+ {#standout}
+
+If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__.  The mechanism is similar to a query box, although the purpose is different: while a query box is for a temporary question and should be removed once that question is resolved, a standout box is a permanent feature of a page that simply emphasizes a small amount of text.  To make a standout box, write:
+
+    +-- {: .standout}
+    First quantization is a mystery, but second quantization is a functor. 
+    =--
+
+which produces
+
++-- {: .standout}
+First quantization is a mystery, but second quantization is a functor. 
+=--
+
+
+## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
+
+As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
+
+However, you do not need any password to **see** the stylesheet tweaks on the various webs, so if you see a feature that you would like on one of the other webs (including the main one), then go to the "Edit Web" link at the bottom of that web\'s [[HomePage]] to view the 'Stylesheet tweaks >>'.
+
+
+## How to include one page within another ##
+
+If you have some material at a page called `foo` that you want to include directly in pages called `bar` and `baz`, then type <nowiki><code>[[!include foo]]</code></nowiki> in `bar` and `baz`.  For an example, see how [[contents]] is included at the tope of this page.  Also see how [[contents]] itself has been formatted so that it will appear as a sidebar when included.
+
+Besides such sidebars that appear in many pages, you can also use inclusion to put in something that contains a bunch of ugly code (such as raw <abbr title="scalable vector graphics">SVG</abbr>, see [here](#IncludeSVG)) without mucking up the rest of the page.  That is, you put your messy code in `bar/foo` and then put <nowiki><code>[[!include bar/foo]]</code></nowiki> in `bar`.  Note that this is for something that, logically, should appear within `bar` itself, which is why `bar` appears in the name of the included page.
+
+Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
+
+## How to include SVG figures
+ {#IncludeSVG}
+
+To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figures within a page, proceed as following:
+
+1. The $n$Lab has a built-in SVG editor (see [below](#svgedit)). Click on the "`Create SVG graphic`" button to open it. Choose "`Save Image`" from the SVG-Edit menu when you're done. This will close the SVG editor and paste the resulting SVG code back into the Editing window.
+2. If you produce the SVG with a standard SVG editor, save it using, if possible, the two options
+
+   1. save as _plain SVG_
+   1. save as _optimes SVG_
+
+  * You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
+
+    1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
+                  
+      <nowiki>
+      +--{: style="text-align:center"}
+      [[!include SomePage > figureN]]
+      =--
+      </nowiki>
+
+    1. Then type
+
+             http://ncatlab.org/nlab/show/SomePage > figureN
+
+       into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
+
+       Go back to _SomePage_ . The SVG figure should now be displayed there.
+
+See for instance the entry [[comma object]] for an example.
+
+## How to use redirects ##
+
+See [[redirects]].
+
+
+## How to put parentheses in external links ##
+
+Since the mechanism for inserting links uses parentheses to delimit the link, it's not obvious how to put parentheses actually in the link itself.  Since Wikipedia uses them a fair bit, it's worth knowing how to put them in.  The trick is to use the URL codes rather than the actual characters.  URL codes are generally used to send "unsafe" characters in URLs (safe characters are `a`-`zA`-`Z0`-`9$-_.+!\*'(),`).  Although parentheses are actually "safe", due to their special meaning for the markdown filter, to put them in URLs here they need to be treated as "unsafe".  URL codes have the syntax `%hex` where `hex` is the index of the character in the ASCII character set represented as a 2-digit hexadecimal.  Wikipedia (among other places) has a [table](http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters) of the character set from which one can read off the required hexadecimal.  In particular, we see that `(` is `%28` and `)` is `%29`.  Thus
+
+    [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
+
+produces
+
+:  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
+
 
 
 ## How to add a floating table of contents
