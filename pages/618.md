@@ -40,16 +40,16 @@ A **coverage** on a [[category]] $C$ consists of a [[function]] assigning to eac
 
 $$
   \array{
-    V_j &\overset{k}{\to}& U_i
+    V_j &\overset{k}{\longrightarrow}& U_i
     \\
-    \llap{{}^{h_j}}\downarrow & & \downarrow\rlap{^{f_i}}
+    \mathllap{{}^{h_j}}\big\downarrow & & \big\downarrow\mathrlap{^{f_i}}
     \\
-    V &\underset{g}{\to}& U
+    V &\underset{g}{\longrightarrow}& U
   }
   \,.
 $$
 
-The logic here is: $\forall f, \forall g, \exists h, \forall j, \exists k, \exists i, =$.
+The logic here is: $\forall f, \forall g, \exists h, \forall j, \exists i, \exists k,  =$.
 
 =--
 
