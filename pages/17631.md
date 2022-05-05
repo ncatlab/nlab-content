@@ -245,7 +245,7 @@ Since at the $k$th iteration of the algorithm there are exactly $(2k-1)\cdot 2$ 
 
 $$C_n\cdot (n+1)! = (2n-1)!! \cdot 2^n$$
 
-(where $(2n-1)!! = (2n-1)(2n-3)\cdots 1$ is the [[double-factorial]]), which implies that
+(where $(2n-1)!! = (2n-1)(2n-3)\cdots 1 = \frac1{2^n} \frac{(2n)!}{n!}$ is the [[double factorial]]), which implies that
 
 $$C_n = (2n-1)!! \cdot 2^n/(n+1)! = \frac{(2n)!}{n!(n+1)!} \,.$$
 
