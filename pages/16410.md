@@ -46,6 +46,10 @@ See also
 
 * Wikipedia, _[de Sitter space](http://en.wikipedia.org/wiki/De_Sitter_space)_
 
+A [[no-go theorem]] for [[KK-compactifications]] down to de Sitter spacetime claimed in
+
+* {#MaldacenaNunez01} [[Juan Maldacena]], Carlos Nunez, _Supergravity description of field theories on curved manifolds and a no go theorem_, Int.J.Mod.Phys. A16 (2001) 822-855 ([arXiv:hep-th/0007018](https://arxiv.org/abs/hep-th/0007018))
+
 Discussion in [[quantum gravity]] includes
 
 * [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_ ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
