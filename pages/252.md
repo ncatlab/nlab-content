@@ -37,6 +37,7 @@ Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologi
 
 ## Related concepts
 
+* [[enriched hom-functor]]
 
 * **hom-object**
 
