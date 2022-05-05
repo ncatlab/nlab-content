@@ -82,6 +82,7 @@ In the sense of "weakly internalizing in a higher categorical context" we have t
 
 * When understanding higher linear algebra in this sense, there are important $\infty$-categorifications of notions like integral transforms, [[Fourier transform]]s etc. Examples of such categorified linear algebra are [[Fourier-Mukai transform]]s or more generally [[integral transform]]s. A general theory of this is described at [[geometric ∞-function theory]]. Also [[geometric Langlands]] duality fits into this context.
 
+* [categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)
 
 ### As homotopy coherent resolution
 
