@@ -1515,7 +1515,7 @@ $$
   }
 $$
 
-of those observables whose [[Fourier modes]] involve [[wave polarization]] vectors $e$ that vanish when contracted with the
+of those observables whose [[Fourier transform|Fourier modes]] involve [[wave polarization]] vectors $e$ that vanish when contracted with the
 [[wave vector]] $k$, modulo those whose [[wave polarization]] vector $e$ is proportional to the [[wave vector]].
 
 For example if $k = (\kappa, 0, \cdots, \kappa)$, then the corresponding space of transversal polarization vectors may be identified
@@ -1545,7 +1545,7 @@ $$
 ###### Proof
 
 
-The gauge fixed BRST differential (eq:GaussianAveragedLorentzGaugeFixedBRSTOperator) acts on the [[Fourier modes]] of the linear observables (def. \ref{LinearObservables}) as follows
+The gauge fixed BRST differential (eq:GaussianAveragedLorentzGaugeFixedBRSTOperator) acts on the [[Fourier transform|Fourier modes]] of the linear observables (def. \ref{LinearObservables}) as follows
 
 $$
   \array{
@@ -1688,6 +1688,7 @@ By the classes of [[quasi-isomorphisms]] of prop. \ref{ExponentialOfLocalAntibra
 zero is given by the on-shell BRST-cohomology. This is characterized by prop. \ref{BRSTCohomologyOnPolynomialOnShellObservabledOfTheGaussianAveragedLorenzGaugeFixedElectromagneticField}.
 
 =--
+
 
 
 
