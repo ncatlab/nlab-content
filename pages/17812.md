@@ -298,6 +298,13 @@ Recall the two magic algebraic properties of [[smooth functions]] that make the 
 
    is [[fully faithful functor|fully faithful]] (its [[essential image]] being the [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[algebra of functions|algebra of]] [[smooth functions]]).
 
+   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan+theorem#Nestruev03))
+
+   Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
+   of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over a [[Cartesian space]] $X$ are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
+
+   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan+theorem#Nestruev03))
+
 There is a third such magic algebraic property of smooth functions, which plays a role now:
 
 +-- {: .num_defn #DerivationsOfSmoothFunctions}
@@ -347,32 +354,41 @@ then it follows that $\delta$ is the derivation coming from $v_\delta$ under $\G
 
 
 Recall further from _[[geometry of physics -- superalgebra]]_ that the category of [[supercommutative superalgebras]]
-is related to that of ordinary [[commutative algebras]] over $\mathbb{R}$ by an
-[[adjoint cylinder]] ([this prop.](geometry+of+physics+--+superalgebra#InclusionOfCAlgIntosCAlg)):
+is related to that of ordinary [[commutative algebras]] over $\mathbb{R}$ by an [[adjoint cylinder]] ([this prop.](geometry+of+physics+--+superalgebra#InclusionOfCAlgIntosCAlg)):
 
 +-- {: .num_prop #AdjointCylinderOnSuperAffines}
 ###### Proposition
+**([[adjoint modality]] of [[fermionic modality|even fermionic]] and [[bosonic modality|bosonic]] in [[superalgebras]])**
 
 The canonical inclusion of [[commutative algebras]] into [[supercommutative superalgebra|supercommutative superalgebras]] is
-part of an [[adjoint triple]] of the form
+part of an [[fully faithful functor|fully faithful]] [[adjoint triple]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointModality)) of the form
 
 $$
+  (-)_{even}
+  \;\dashv\;
+  \iota^{op}
+  \;\dashv\;
+  (-)/(-)_{odd}
+  \;\;\colon\;\;
   CAlg_k
     \underoverset
-      {\underset{(-)_{even}}{\longleftarrow}}
-      {\overset{(-)/(-)_{odd}}{\longleftarrow}}
-      {\hookrightarrow}
+      {\underset{\phantom{AA}(-)_{even}\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}(-)/(-)_{odd}\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AAA}\iota^{op}\phantom{AAAA}}{\hookrightarrow}}
   sCAlg_k
   \,.
 $$
 
-Here and in the following we display pairs of [[adjoint functors]] such that the [[left adjoint]] is on top
-and the right adjoint is on the bottom.
+(Here and in the following we display pairs of [[adjoint functors]] ([this Def.](geometry+of+physics+–+basic+notions+of+category+theory#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)) such that the [[left adjoint]] is on top and the right adjoint is on the bottom.)
 
-The [[formal dual]] of this statement is that [[affine superschemes]] are related to ordinary [[affine schemes]]
-over $\mathbb{R}$ by an [[adjoint cylinder]] of this form
+The [[formal dual]] ([this Def.](geometry+of+physics+--+categories+and+toposes#OppositeCategory)) of this statement is that [[affine superschemes]] are related to ordinary [[affine schemes]] over $\mathbb{R}$ by an [[adjoint modality]] of this form
 
 $$
+  \overset{\rightrightarrows}{(-)}
+    \;\dashv\;
+  \iota
+    \;\;
+  \overset{\rightsquigarrow}{(-)}
   Aff(Vect_k)
     \underoverset
       {\underset
@@ -395,15 +411,20 @@ $$
         }
         {\longleftarrow}
       }
-      {\hookrightarrow}
+      {\overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}}
   Aff(sVect_k)
   \,.
 $$
 
-(Beware that $\overset{\rightsquigarrow}{(-)}$ is the formal dual of $(-)/(-)_{odd}$, while $\overset{\rightrightarrows}{(-)}$ is the
-formal dual of $(-)_{even}$. That they change position in the diagrams is because we always draw [[left adjoints]] on top of [[right adjoints]] and  the handedness of [[adjoints]] changes as we pass to [[opposite categories]].)
-
 =--
+
+Beware that 
+
+1. $\overset{\rightsquigarrow}{(-)}$ is the [[formal dual]] of $(-)/(-)_{odd}$, 
+
+1. $\overset{\rightrightarrows}{(-)}$ is the [[formal dual]] of $(-)_{even}$. 
+
+That they change position in the diagrams is because we always draw [[left adjoints]] on top of [[right adjoints]] and  the handedness of [[adjoints]] changes as we pass to [[opposite categories]].
 
 
 
@@ -413,7 +434,7 @@ In a [[Feynman diagram]]
 
 1. a single [[fermion]] is denoted by a solid arrow "$\to$" and the functor
 $\overset{\rightrightarrows}{(-)}$ produces a space whose [[algebra of functions]] is generated over
-smooth functions by the product of two fermionic functions;
+smooth functions by the product of _two_ fermionic functions;
 
 1. a single [[boson]] is denoted by a wiggly arrow $\rightsquigarrow$ and the functor
    denoted by this symbol produces a spaces whose [[algebra of functions]] contains only the
@@ -452,7 +473,7 @@ $$
   \left\{a_0  + a_{12} \theta_1 \theta_2 \,\vert a_{12} \in \mathbb{R}\,\right\}
   \\
   &=
-  \mathbb{R}[\epsilon]/(\epsilon^2 = 0)
+  \mathbb{R}[\epsilon]/(\epsilon^2)
   \end{aligned}
 $$
 
@@ -461,39 +482,41 @@ where in the last line we renamed $\theta_1 \theta_2$ to $\epsilon$.
 
 This algebra $\mathbb{R}[\epsilon]/(\epsilon^2)$
 is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thought of as the [[algebra of functions]]
-on a bosonic but [[infinitesimally thickened point]], a 1-dimensional neighbourhood of a point which is "so very small"
-that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be
-even tinier, is actually indistinguishable from zero.
+on a bosonic but [[infinitesimally thickened point]], an [[infinitesimal neighbourhood]] of a point inside the [[real line]] which is "so very small"
+that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be even tinier, is actually indistinguishable from [[zero]].
 
 We will write
 
 $$
-  \mathbb{D}^1 \coloneqq Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
-  \in
+  \mathbb{D}^1 
+    \;\coloneqq\; Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
+  \;\in\;
   Aff(sVect_k)
-  \,.
 $$
+
+for the [[space]] [[formal dual|formally dual]] to this [[algebra of dual numbers]] and think of it as the _1-dimensional first order [[infinitesimal disk]]_.  
 
 
 =--
 
-In generalization of this we make the following definitions
+In generalization of this we make the following definitions:
 
 +-- {: .num_defn #FormalCartSp}
 ###### Definition
+**([[formal Cartesian spaces]])**
 
 Write
 
 $$
-  InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
+  InfPoint \overset{\phantom{AAA}}{\hookrightarrow} CAlg_{\mathbb{R}}^{op}
 $$
 
-for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]]
+for the [[full subcategory]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullSubcategoryOnClassOfObjects)) of the [[opposite category]] ([this Example](geometry+of+physics+--+categories+and+toposes#OppositeCategory)) of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]]
 $\mathbb{D}$ of [[commutative algebras]] over the [[real numbers]] of the form
 
 $$
   \mathcal{O}(\mathbb{D})
-    \coloneqq
+    \;\coloneqq\;
   \mathbb{R}\oplus V
   \,,
 $$
@@ -501,14 +524,22 @@ $$
 with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]]
 over $\mathbb{R}$ (the [[direct sum]] on the right is that of underlying [[vector spaces]], not of algebras).
 
-We call this the category of _[[infinitesimally thickened points]]_.
+We call this the [[category]] of _[[infinitesimally thickened points]]_.
 
-In [[synthetic differential geometry]] these algebras are called **[[Weil algebra|Weil algebras]]**, while in [[algebraic geometry]] they are known as **local [[Artin algebras]]** over $\mathbb{R}$.
+Alternative terminology:
+
+1. In [[synthetic differential geometry]] these algebras are called [[Weil algebra|Weil algebras]]**, 
+
+1. in [[algebraic geometry]] they are known as _[[local ring|local]] [[real numbers|real]] [[Artin algebras]]_.
 
 Write moreover
 
 $$
-  FormalCartSp \coloneqq CartSp \rtimes InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
+  FormalCartSp 
+   \;\coloneqq\; 
+  CartSp \rtimes InfPoint 
+   \overset{\phantom{AAAA}}{\hookrightarrow} 
+  CAlg_{\mathbb{R}}^{op}
 $$
 
 for the [[full subcategory]] on [[formal duals]] $\mathbb{R}^n \times \mathbb{D}$ of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
@@ -524,13 +555,19 @@ with algebras corresponding to infinitesimally thickened points $\mathbb{D}$ as 
 
 =--
 
-This kind of construction is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_ ([[Toposes of laws of motion|Lawvere 97]]).
++-- {: .num_remark #FormalSchemesAndSDG}
+###### Remark
+**([[formal schemes]] and [[synthetic differential geometry]])**
 
-The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCartSp}) is that they co-represent
-[[tangent vectors]] and [[jets]]:
+This kind of construction in Def. \ref{FormalCartSp} is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_ ([[Toposes of laws of motion|Lawvere 97]]), preconfigured already in the prespective of _[[functorial geometry]]_ of [Grothendieck 65](functorial+geometry#Grothendieck65).
 
-+-- {: .num_prop #HomsOutOfFirstOrderInfinitesimalLine}
-###### Proposition
+=--
+
+The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCartSp}) is that they co-represent [[tangent vectors]] and [[jets]]:
+
++-- {: .num_example #HomsOutOfFirstOrderInfinitesimalLine}
+###### Example
+**([[morphisms]] out of [[infinitesimally thickened point]] are [[tangent vectors]])**
 
 Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]]
 (example \ref{EvenPartOfDimTwoSuperpoint}).
@@ -609,20 +646,21 @@ But [[derivations of smooth functions are vector fields]] (prop. \ref{Derivation
 
 =--
 
-We now explore further the relations between Cartesian spaces, formal Cartesian spaces, and super formal Cartesian spaces.
+We now explore further the relations between [[Cartesian spaces]], [[formal Cartesian spaces]], and [[super formal Cartesian spaces]].
 
 +-- {: .num_prop #CartSpCoreflectiveInclusion}
 ###### Proposition
+**([[coreflective subcategory|co-reflection]] of [[Cartesian spaces]] inside [[formal Cartesian spaces]])**
 
-The canonical inclusion $i$ of the category of ordinary [[Cartesian spaces]] into that of [[formal manifold|formal]] [[Cartesian spaces]]
-has a [[left adjoint]] $\Re$
+The canonical inclusion $\iota$ of the [[category]] of ordinary [[Cartesian spaces]] into that of [[formal manifold|formal]] [[Cartesian spaces]]
+has a [[left adjoint]] ([this Def.](geometry+of+physics+–+basic+notions+of+category+theory#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)) $\Re$ ("[[reduction modality|reduction]]")
 
 $$
   CartSp
     \underoverset
-      {\underset{\Re}{\longleftarrow}}
-      {\overset{i}{\hookrightarrow}}
-      {\phantom{AAAA}}
+      {\underset{\phantom{AA}\Re \phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}}
+      {\bot}}}
   FormalCartSp
 $$
 
@@ -633,7 +671,7 @@ $$
   \,.
 $$
 
-Hence $i$ exhibits $CartSp$ as a [[coreflective subcategory]] of that of formal cartesian spaces.
+Hence $\iota$ exhibits $CartSp$ as a [[coreflective subcategory]] ([this Def.](geometry+of+physics+--+categories+and+toposes#ReflectiveSubcategory)) of $FormalCartSp$
 
 We say that $\mathbb{R}^n$ is the **[[reduced scheme]]** of $\mathbb{R}^n \times \mathbb{D}$.
 
@@ -642,7 +680,7 @@ We say that $\mathbb{R}^n$ is the **[[reduced scheme]]** of $\mathbb{R}^n \times
 +-- {: .proof}
 ###### Proof
 
-We check the [[natural isomorphism]] on [[hom-sets]] that characterizes a pair of [[adjoint functors]]:
+We check the [[natural isomorphism]] on [[hom-sets]] that characterizes a pair of [[adjoint functors]] ([here](geometry+of+physics+--+categories+and+toposes#eq:HomIsomorphismForAdjointFunctors)):
 
 By definition, a morphism of the form
 
@@ -660,12 +698,7 @@ $$
   C^\infty(\mathbb{R}^{n_2}) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
 $$
 
-where all elements $v \in V$ are nilpotent, in that there exists $n_v \in \mathbb{N}$
-such that $(v)^{n_v} = 0$. Every algebra homomorphism needs to preserve this
-equation, and hence needs to send nilpotent elements to nilpotent elements. But the
-only nilpotent element in the ordinary function algebra $C^\infty(\mathbb{R}^n)$
-is the zero-function, and so it follows that the above homomorphism has to vanish on all of $V$, hence has
-to factor (necessarily uniquely) through a homomorphism of the form
+where all elements $v \in V$ are nilpotent, in that there exists $n_v \in \mathbb{N}$ such that $(v)^{n_v} = 0$. Every algebra homomorphism needs to preserve this equation, and hence needs to send nilpotent elements to nilpotent elements. But the only nilpotent element in the ordinary function algebra $C^\infty(\mathbb{R}^n)$ is the zero-function, and so it follows that the above homomorphism has to vanish on all of $V$, hence has to factor (necessarily uniquely) through a homomorphism of the form
 
 $$
   \tilde f^\ast
@@ -695,25 +728,23 @@ The above discussion following prop. \ref{AdjointCylinderOnSuperAffines} means t
 
 1. [[formal manifold|formal]] [[Cartesian spaces]] are further generalized to [[super formal Cartesian spaces]].
 
-In order to make this explicit, it is convenient to introduce the following slight generalization of
-[[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}), which are simply [[Cartesian products]]
-of ordinary [[Cartesian spaces]] with an [[infinitesimally thickened point]] that may have both even and
-odd graded elements in its [[algebra of functions]].
+In order to make this explicit, it is convenient to introduce the following slight generalization of [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}), which are simply [[Cartesian products]]
+of ordinary [[Cartesian spaces]] with an [[infinitesimally thickened point]] that may have both even and odd graded elements in its [[algebra of functions]].
 
 
 +-- {: .num_defn #SuperFormalCartSp}
 ###### Definition
+**([[super formal Cartesian spaces]])**
 
 Write
 
 $$
   SuperFormalCartSp
-    \hookrightarrow
+    \overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}
   sCAlg_{\mathbb{R}}^{op}
 $$
 
-for the [[full subcategory]] of that of the [[opposite category]] of [[supercommutative superalgebras]]
-on those of the form
+for the [[full subcategory]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullSubcategoryOnClassOfObjects)) of that of the [[opposite category]] of [[supercommutative superalgebras]] on those of the form
 
 $$
   C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
@@ -723,9 +754,9 @@ where $V$ is a [[nilpotent ideal]] of [[finite number|finite]] [[dimension]] ove
 
 =--
 
-One place where such super formal Cartesian spaces are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97).
-Just as formal Cartesian spaces may be thought of as local model spaces for [[synthetic differential geometry]],
-[[super formal Cartesian spaces]] may be thought of as a model for [[synthetic differential supergeometry]].
+One place in the literature where such [[super formal Cartesian spaces]] are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97). 
+
+Just as formal Cartesian spaces may be thought of as local model spaces for [[synthetic differential geometry]], [[super formal Cartesian spaces]] may be thought of as a model for [[synthetic differential supergeometry]].
 This we come to [below](#SuperSmoothSets).
 
 For completeness it is useful to compare the [[coreflective subcategory|coreflection]] of prop. \ref{CartSpCoreflectiveInclusion}
