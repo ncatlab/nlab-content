@@ -18,29 +18,33 @@ We offer also an _a priori_ motivation: _Category theory is the theory of dualit
 
 _[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]].
 
-Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). But natural transformations are what allows us to define, in turn, the concept of _[[adjoint functors]]_, also called _[[adjunctions]]_ on categories. All the deep concepts of category theory (such as _[[representable functors]]_, _[[Yoneda embedding]]_, _[[Kan extensions]]_, hence _[[limits]]_ and _[[colimits]]_, to be introduced below) are special cases of [[adjoint functor]] constructions -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82). Therefore it makes sense to regard category theory, to a large extent, as the **theory of adjunctions**, hence the **theory of duality**:
-
-
-| $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ Definition $\phantom{A}$ |
-|------------------------|------------|
-| $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$ \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} $\phantom{A}$ |
-| $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ \ref{NaturalTransformations} $\phantom{A}$ |
-| $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ \ref{Functors} $\phantom{A}$ |
-| $\phantom{A}$ [[category]] $\phantom{A}$ | $\phantom{A}$ \ref{Categories} $\phantom{A}$ |
+Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). But natural transformations are what allows us to define, in turn, the concept of _[[adjoint functors]]_, also called _[[adjunctions]]_ between categories. All the deep concepts of category theory (such as _[[representable functors]]_, _[[Yoneda embedding]]_, _[[Kan extensions]]_, hence _[[limits]]_ and _[[colimits]]_, to be introduced below) are special cases of [[adjoint functor]] constructions -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82). Therefore it makes sense to regard category theory, to a large extent, as the **theory of adjunctions**, hence the **theory of duality**:
 
 
 
-The pivotal role of [[adjunctions]] in [[category theory]] ([Lawvere 08](adjoint+functor#fn:1)) and in the [[foundations of mathematics]] ([[Adjointness in Foundations|Lawvere 69]], [[Cohesive Toposes and Cantor's lauter Einsen|Lawvere 94]] ) was particularly amplified by [[F. W. Lawvere]].
-Moreover, [[Lawvere]] saw the future of category theory
-([[Some Thoughts on the Future of Category Theory|Lawvere 91]]) as concerned with [[adjunctions]] expressing systems of archetypical dualities that reveal foundations for [[geometry]] ([Lawvere 07](cohesive+topos#LawvereAxiomatic)) and [[physics]] ([[Toposes of laws of motion|Lawvere 97]]).
-He suggested ([Lawvere 94](objective+and+subjective+logic#Lawvere94)) this as a precise formulation of core aspects of the _theory of everything_
+| $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ [[category theory]] $\phantom{A}$ | [[enriched category theory]] |
+|------------------------|------------|--------------------------|
+| $\phantom{A}$ [[equivalence of categories]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{EquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{EnrichedEquivalenceOfCategories} $\phantom{A}$ |
+| $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$ Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedAdjunction} $\phantom{A}$  |
+| $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{NaturalTransformations} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedNaturalTransformation} $\phantom{A}$ |
+| $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{Functors} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{TopologicallyEnrichedFunctor} $\phantom{A}$ |
+| $\phantom{A}$ [[category]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{Categories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{TopEnrichedCategory} $\phantom{A}$ |
+{: style='margin:auto}
+
+
+
+The pivotal role of [[adjunctions]] in [[category theory]] ([Lawvere 08](adjoint+functor#fn:1)) and in the [[foundations of mathematics]] ([[Adjointness in Foundations|Lawvere 69]], [[Cohesive Toposes and Cantor's lauter Einsen|Lawvere 94]] ) was particularly amplified by [[F. W. Lawvere]][^LawvereOnAdjointFunctors]. Moreover, [[Lawvere]] saw the future of category theory ([[Some Thoughts on the Future of Category Theory|Lawvere 91]]) as concerned with [[adjunctions]] expressing systems of archetypical dualities that reveal foundations for [[geometry]] ([Lawvere 07](cohesive+topos#LawvereAxiomatic)) and [[physics]] ([[Toposes of laws of motion|Lawvere 97]]). He suggested ([Lawvere 94](objective+and+subjective+logic#Lawvere94)) this as a precise formulation of core aspects of the _theory of everything_
 of early 19th century [[philosophy]]: [[Hegel]]'s _[[Science of Logic]]_.
+
+[^LawvereOnAdjointFunctors]: "the universality of the concept
+of adjointness, which was first isolated and named in the conceptual sphere of category theory" ([Lawvere 69](#Lawvere69)) "In all those areas where category theory is actively used the categorical concept of adjoint functor has come to play a key role." (first line from _[An interview with William Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#Interview07)_, paraphrasing the first paragraph of _[Taking categories seriously](William+Lawvere#TakingCategoriesSeriously)_)
+
 
 These days, of course, _[[theories of everything]]_, such as [[string theory]], are understood less ambitiously than Hegel's ontological process,
 as mathematical formulations of fundamental theories of physics, that could conceptually unify the hodge-podge of currently available "standard models" [[standard model of particle physics|of particle physics]] and [[standard model of cosmology|of cosmology]] to a more coherent whole.
 
 The idea of _[[duality in string theory]]_ refers to different perspectives on physics that appear dual to each other while being _equivalent_.
-But one of the basic results of category theory, which we will discuss below, is that equivalence is indeed a special case of adjunction. This allows to explore the possibility that there is more than a coincidence of terms.
+But one of the basic results of category theory (Prop. \ref{EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}, below) is that equivalence is indeed a special case of adjunction. This allows to explore the possibility that there is more than a coincidence of terms.
 
 Of course the usage of the term _[[duality in string theory]]_ is too loose for one to expect to be able to refine each occurrence of the term in the literature to a mathematical adjunction. However, we will see mathematical formalizations of core aspects of
 key string-theoretic dualities, such as _[[topological T-duality]]_ and the _[[duality between M-theory and type IIA string theory]]_, in terms of adjunctions. Indeed, at the heart of these _[[dualities in string theory]]_ is the phenomenon of _[[double dimensional reduction]]_, which turns out to be formalized by one of the most fundamental adjunctions in ([[higher category theory|higher]] [[category theory]] ([[base change]] along the point inclusion into a [[classifying space]]).
@@ -1057,7 +1061,7 @@ $$
 
 +-- {: .num_defn #AdjunctionUnitFromHomIsomorphism}
 ###### Definition
-**([[adjunction unit]] and [[adjunction counit|counit]] in terms of hom-isomorphism)
+**([[adjunction unit]] and [[adjunction counit|counit]])
 
 Given a pair of [[adjoint functors]] 
 
@@ -1528,6 +1532,109 @@ $$
 But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject} implies that the collection of these isomorphisms for each object constitues a [[natural isomorphism]] between the functors (Def. \ref{NaturalTransformations}).
 
 =--
+
+
+
+
+### Equivalences
+
+
++-- {: .num_defn #AdjointEquivalenceOfCategories}
+###### Definition
+**([[adjoint equivalence of categories]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[adjoint equivalence of categories]]_ between them is a [[pair]] [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+such that their [[unit of an adjunction|unit]] $\eta$ and [[counit of an adjunction|counit]] $\epsilon$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) are [[natural isomorphisms]] (as opposed to just being [[natural transformations]])
+
+
+$$
+  \eta\;\colon\; id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  \epsilon\;\colon\;
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+=--
+
+There is also the following, seemingly weaker, notion:
+
++-- {: .num_defn #EquivalenceOfCategories}
+###### Definition
+**([[equivalence of categories]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then an _[[equivalence of categories]]_
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+is a [[pair]] of [[functors]] back and forth, as shown (Def. \ref{Functors}), together with [[natural isomorphisms]] (Def. \ref{NaturalTransformations}) between their [[composition]] and the [[identity functors]]:
+
+$$
+  id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+
+=--
+
+If a functor participates in an equivalence of categories, that functor alone is usually already called an equivalence of categories. If there is any equivalence of categories between two categories, these categories are called _equivalent_.
+
+
++-- {: .num_prop #EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}
+###### Proposition
+**(every [[equivalence of categories]] comes from an [[adjoint equivalence of categories]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then the they are [[equivalence of categories|equivalent]] (Def. \ref{EquivalenceOfCategories}) precisely if there exists an [[adjoint equivalence of categories]] between them (Def. \ref{AdjointEquivalenceOfCategories}).
+
+Moreover, let $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[functor]] (Def. \ref{Functors}) which participates in an [[equivalence of categories]] (Def. \ref{EquivalenceOfCategories}). Then for every functor $L \;\colon\; \mathcal{D} \to \mathcal{C}$ equipped with a [[natural isomorphism]]
+
+$$
+  \eta 
+    \;\colon\;
+  id_{\mathcal{D}}
+    \overset{\simeq}{\Rightarrow}
+  R \circ L
+$$
+
+there exists a [[natural isomorphism]]
+
+$$
+  \epsilon
+  \;\colon\;
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+$$
+
+which completes this to an [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}).
+
+=--
+
 
 
 
@@ -2796,6 +2903,37 @@ $$
 =--
 
 
++-- {: .num_defn #EnrichedEquivalenceOfCategories}
+###### Definition
+**([[enriched category theory|enriched]] [[equivalence of categories]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$, $\mathcal{D}$ be two $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}). Then an _equivalence of enriched categories_
+
+$$
+  \array{
+    \mathcal{C}
+      \underoverset
+        {\underset{R}{\longrightarrow}}
+        {\overset{L}{\longleftarrow}}
+        {\phantom{AA} \simeq \phantom{AA}}
+    \mathcal{D}
+  }
+$$
+
+is a [[pair]] of $\mathcal{V}$-[[enriched functors]] back and forth, as shown (Def. \ref{TopologicallyEnrichedFunctor}), together with $\mathcal{V}$-[[enriched natural isomorphisms]] (Def. \ref{EnrichedNaturalTransformation}) between their [[composition]] and the [[identity functors]]:
+
+$$
+  id_{\mathcal{D}} \overset{\simeq}{\Rightarrow} R \circ L 
+  \phantom{AAA}
+   \text{and}
+  \phantom{AAA}
+  L \circ R \overset{\simeq}{\Rightarrow} id_{\mathcal{C}}
+  \,.
+$$
+
+
+=--
+
 
 ## Universal constructions
 
@@ -3814,3 +3952,4 @@ In order to understand the sheaf condition (eq:SheafCondition) better, it is use
 
 (...)
 
+a
