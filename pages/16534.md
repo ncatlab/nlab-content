@@ -20,6 +20,8 @@
 
 ## Examples
 
+### 1/2 M5-brane
+
 [[M5-brane]] with [[KK-monopole]]:
 
 $$
@@ -35,6 +37,12 @@ $$
 $$
 
 ([BREJS 97 (14)](#BREJS97))
+
+For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
+
+### E-String
+
+See at _[[E-string]]_
 
 ## Related concepts
 
