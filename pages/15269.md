@@ -26,7 +26,7 @@ Take $G\subset \text{SL}_2(\mathbb{C})$ finite. Then, let $\rho_0, ..., \rho_n$ 
 
 ### Interpretation in K-theory
 
-In ([GSZ](#GSZ)) the McKay correspondence is interpreted as an isomorphism on [[K-theory]], based on the observation that the [[representation ring]] of $G$ is equal to the $G$-[[equivariant K-theory]] of $\mathbb{C}^2$. This is isomorphic to the ordinary K-theory of the minimal resolution of the Kleinian singularity, $\mathbb{C}^2\sslash \Gamma$.
+In ([GSZ](#GSZ)) the McKay correspondence is interpreted as an isomorphism on [[K-theory]], based on the observation that the [[representation ring]] of $G$ is equal to the $G$-[[equivariant K-theory]] of $\mathbb{C}^2$. This is isomorphic to the ordinary K-theory of the minimal resolution of the Kleinian singularity, $\mathbb{C}^2\sslash G$.
 
 ## Derived McKay correspondence
 
