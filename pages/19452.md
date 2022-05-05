@@ -1636,6 +1636,111 @@ which completes this to an [[adjoint equivalence of categories]] (Def. \ref{Adjo
 =--
 
 
++-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
+###### Proposition
+**(characterization of epi/mono (co-)unit of adjunction)**
+
+Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following holds:
+
+* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $;
+
+* $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
+
+* $L$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[monomorphism]] $x \hookrightarrow R L x $;
+
+* $L$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[split epimorphism]] $x \to R L x $;
+
+* $R$ is [[full and faithful functor|full and faithful]] 
+  (exhibits a [[reflective subcategory]])
+  precisely if
+  the [[unit of an adjunction|counit]] is a [[natural isomorphism]] 
+  $\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$
+
+* $L$ is [[full and faithful functor|full and faithful]]
+  (exhibits a [[coreflective subcategory]]) precisely if
+  the [[unit of an adjunction|unit]] 
+  is a natural isomorphism 
+  $\eta : Id_C \stackrel{\simeq}{\to} R \circ L$.
+
+* The following are equivalent:
+
+  * $L$ and $R$ are both [[full and faithful functor|full and faithful]];
+
+  * $L$ is an [[equivalence of categories|equivalence]];
+
+  * $R$ is an [[equivalence of categories|equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the characterization of faithful $R$ by epi counit components, notice (as discussed at _[[epimorphism]]_ ) that $L R x \to x$ being an epimorphism is equivalent to the induced [[function]]
+
+$$
+  Hom(x, a) \to Hom(L R x, a)
+$$
+
+being an [[injection]] for all objects $a$. Then use that, by adjointness, we have an isomorphism
+
+$$
+  Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
+$$ 
+
+and that, by the formula for [[adjuncts]] and the [[zig-zag identity]], this is  such that the composite
+
+$$
+ R_{x,a} :  Hom(x,a) \to Hom(L R x, a) \stackrel{\simeq}{\to}
+    Hom(R x, R a)
+$$
+
+is the component map of the functor $R$:
+
+$$
+  \begin{aligned}
+    (x \stackrel{f}{\to} a) & \mapsto 
+    (L R x \to x \stackrel{f}{\to} a)
+    \\
+    & \mapsto 
+    (R L R x \to R x \stackrel{R f}{\to} R a)
+    \\
+    & \mapsto 
+    (R x \to R L R x \to R x \stackrel{R f}{\to} R a)     
+    \\
+    & = (R x \stackrel{R f}{\to} R a)
+  \end{aligned}
+  \,.
+$$
+
+Therefore $R_{x,a}$ is injective for all $x,a$, hence $R$ is faithful, precisely if $L R x \to x$ is an epimorphism for all $x$. The characterization of $R$ full is just the same reasoning applied to the fact that $\epsilon_x \colon L R x \to x$ is a [[split monomorphism]] iff for all objects $a$ the induced function
+\[
+  Hom(x, a) \to Hom(L R x, a)
+\]
+is a surjection.
+
+For the characterization of faithful $L$ by monic units notice that analogously (as discussed at [[monomorphism]]) $x \to R L x$ is a monomorphism if for all objects $a$ the function
+
+$$
+  Hom(a,x ) \to Hom(a, R L x)
+$$
+
+is an injection. Analogously to the previous argument we find that this is equivalent to 
+
+$$
+  L_{a,x} : Hom(a,x ) \to Hom(a, R L x) \stackrel{\simeq}{\to} Hom(L a, L x)
+$$
+
+being an injection. So $L$ is faithful precisely if all $x \to R L x$ are monos. For $L$ full, it's just the same applied to $x \to R L x$ [[split epimorphism]] iff the induced function
+$$
+  Hom(a,x ) \to Hom(a, R L x)
+$$
+is a surjection, for all objects $a$.
+
+The proof of the other statements proceeds analogously.
+
+=--
+
+
 
 
 ## Basic notions of Categorical algebra
@@ -2114,7 +2219,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-For $X \in \mathcal{X}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits by _[[adjoints preserve (co)limits]]_.
+For $X \in \mathcal{X}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits by Prop. \ref{AdjointsPreserveCoLimits}.
 
 For the other case, let $Y \;\colon\; \mathcal{L} \to \mathcal{C}$ be a [[diagram]] in $\mathcal{C}$, and let $C \in \mathcal{C}$ be any object. Then there are isomorphisms
 
@@ -3014,12 +3119,13 @@ $$
 
 is a [[pair]] of $\mathcal{V}$-[[enriched functors]] (Def. \ref{TopologicallyEnrichedFunctor}), as shown, such that there is a $\mathcal{V}$-[[enriched natural isomorphism]] (Def. \ref{EnrichedNaturalTransformation}) between [[enriched hom-functors]] (Def. \ref{EnrichedHomFunctor}) of the form
 
-$$
+\[
+  \label{EnrichedAdjunctionIsomorphism}
   \mathcal{C}(L(-),-)
   \;\simeq\;
   \mathcal{D}(-,R(-))
   \,.
-$$
+\]
 
 =--
 
@@ -3061,6 +3167,55 @@ $$
 ### (Co)Limits
 
 (...)
+
++-- {: .num_prop #AdjointsPreserveCoLimits}
+###### Proposition
+**([[left adjoints preserve colimits and right adjoints preserve limits]])**
+
+Let $(L \dashv R) \colon \mathcal{D} \to \mathcal{C}$ be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then
+
+* $L$ [[preserved limit|preserves]] all [[colimits]] that exist in $\mathcal{C}$, 
+
+* $R$ preserves all [[limits]] in $\mathcal{D}$.  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $y : I \to \mathcal{D}$ be a [[diagram]] whose [[limit]] $\lim_{\leftarrow_i} y_i$ exists. Then we have a sequence of [[natural isomorphism]]s, natural in $x \in C$
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(x, R {\lim_\leftarrow}_i y_i)
+    &  \simeq
+    Hom_{\mathcal{D}}(L x, {\lim_\leftarrow}_i y_i)
+    \\
+    & \simeq
+    {\lim_\leftarrow}_i Hom_{\mathcal{D}}(L x, y_i)
+    \\
+    & \simeq
+    {\lim_\leftarrow}_i Hom_{\mathcal{C}}( x, R y_i)
+    \\  
+    & \simeq
+    Hom_{\mathcal{C}}( x, {\lim_\leftarrow}_i R y_i)
+    \,,
+  \end{aligned}
+$$
+
+where we used the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implies that we have an [[isomorphism]]
+
+$$
+  R {\lim_\leftarrow}_i y_i
+  \simeq
+  {\lim_\leftarrow}_i R y_i
+  \,.
+$$
+
+The argument that shows the preservation of colimits by $L$ is analogous.
+
+=--
+
 
 ### Enriched (co)ends
  {#TopologicalEndsAndCoends}
@@ -3738,6 +3893,10 @@ $$
 
 =--
 
+$\,$
+
+
+### Kan extensions
 
 
 +-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
@@ -3767,51 +3926,51 @@ be a $\mathcal{V}$-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}
 
 1. This [[enriched functor]] $p^\ast$ (eq:PrecompositionFunctorOnEnrichedPresheaves) has a [[enriched adjunction|enriched left adjoint]] $Lan_p$ (Def. \ref{EnrichedAdjunction}), called **left [[Kan extension]]** along $p$
 
-$$
-  [\mathcal{D}, \mathcal{V}]
-    \underoverset
-      {\underset{p^\ast}{\longrightarrow}}
-      {\overset{Lan_p }{\longleftarrow}}
-      {\bot}
-  [\mathcal{C}, \mathcal{V}]
-$$
+   $$
+     [\mathcal{D}, \mathcal{V}]
+       \underoverset
+         {\underset{p^\ast}{\longrightarrow}}
+         {\overset{Lan_p }{\longleftarrow}}
+         {\bot}
+     [\mathcal{C}, \mathcal{V}]
+   $$
 
-which is given objectwise by the [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
+   which is given objectwise by the [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
 
-\[
-  \label{FormulaLeftKanExtensionByCoend}
-  (Lan_p F)
-  \;\colon\;
-  d
-  \;\mapsto \;
-  \overset{c\in \mathcal{C}}{\int}
-   \mathcal{D}(p(c),d) \otimes F(c)
-  \,.
-\]
+   \[
+     \label{FormulaLeftKanExtensionByCoend}
+     (Lan_p F)
+     \;\colon\;
+     d
+     \;\mapsto \;
+     \overset{c\in \mathcal{C}}{\int}
+      \mathcal{D}(p(c),d) \otimes F(c)
+     \,.
+   \]
 
 1. The [[enriched functor]] $p^\ast$ (eq:PrecompositionFunctorOnEnrichedPresheaves) has a [[enriched adjunction|enriched right adjoint]] $Ran_p$ (Def. \ref{EnrichedAdjunction}), called **right [[Kan extension]]** along $p$
 
-$$
-  [\mathcal{C}, \mathcal{V}]
-    \underoverset
-      {\underset{Ran_p}{\longrightarrow}}
-      {\overset{p^\ast}{\longleftarrow}}
-      {\bot}
-  [\mathcal{D}, \mathcal{V}]
-$$
+   $$
+     [\mathcal{C}, \mathcal{V}]
+       \underoverset
+         {\underset{Ran_p}{\longrightarrow}}
+         {\overset{p^\ast}{\longleftarrow}}
+         {\bot}
+     [\mathcal{D}, \mathcal{V}]
+   $$
 
-which is given objectwise by the [[end]] (def. \ref{EndAndCoendInTopcgSmash}):
+   which is given objectwise by the [[end]] (def. \ref{EndAndCoendInTopcgSmash}):
 
-\[
-  \label{FormulaRightKanExtensionByEnd}
-  (Ran_p F)
-  \;\colon\;
-  d
-  \;\mapsto \;
-  \underset{c\in \mathcal{C}}{\int}
-   [\mathcal{D}(d,p(c)), F(c)] 
-  \,.
-\]
+   \[
+     \label{FormulaRightKanExtensionByEnd}
+     (Ran_p F)
+     \;\colon\;
+     d
+     \;\mapsto \;
+     \underset{c\in \mathcal{C}}{\int}
+      [\mathcal{D}(d,p(c)), F(c)] 
+     \,.
+   \]
 
 In summary, this means that the [[enriched functor]] 
 
@@ -3823,14 +3982,15 @@ $$
 
 induces, via [[Kan extension]], an [[adjoint triple]] of [[enriched functors]]
 
-$$ 
+\[
+  \label{KanExtensionAdjointTriple}
   Lan_p \;\dashv\; p^\ast \;\dashv\; Ran_p
   \;\colon\;
   [\mathcal{C},\mathcal{V}]    
      \leftrightarrow
   [\mathcal{D}, \mathcal{V}]
   \,.  
-$$
+\]
 
 =--
 
@@ -3998,8 +4158,207 @@ $$
 
 This is particularly suggestive when $p$ is a [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}). For in that case we may imagine that a representative pair $(c' \to p(c), c \to F)$ is a stand-in for the actual pullback of elements of $F$ along the would-be composite "$c'\to c \to F$", only that this composite need not be defined. But the above equivalence relation is precisely that under which this composite would be invariant.
 
+=--
+
+
++-- {: .num_prop #LeftKanExtensionPreservesRepresentableFunctors}
+###### Proposition
+**([[left Kan extension]] preserves [[representable functors]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}),
+let 
+
+$$ 
+  \mathcal{C}
+  \overset{p}{\longrightarrow}
+  \mathcal{D}
+$$
+
+be a $\mathcal{V}$-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}) between [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}). 
+
+
+Then the [[left Kan extension]] $Lan_p$ (Prop. \ref{TopologicalLeftKanExtensionBCoend}) takes [[representable functor|representable]] [[enriched presheaves]] $\mathcal{C}(c,-) \;\colon\; \mathcal{C} \to \mathcal{V}$ to their image under $p$:
+
+   $$
+     Lan_p \mathcal{C}(c, -) \;\simeq\; \mathcal{D}(p(c), -)
+   $$
+
+   for all $c \in C$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By the [[coend]] forumla (eq:FormulaLeftKanExtensionByCoend) have naturally in $d' \in \mathcal{D}$ the expression
+
+$$
+  \begin{aligned}
+    Lan_p \mathcal{C}(c,-) 
+    \;\colon\;
+    d' 
+    \mapsto 
+     & 
+    \int^{c' \in C} \mathcal{D}(p(c'), d') \otimes \mathcal{C}(c,-)(c')
+    \\
+    & \simeq
+    \int^{c' \in C} \mathcal{D}(p(c'), d') \otimes \mathcal{C}(c,c')
+    \\
+    & \simeq 
+    \mathcal{D}(p(c), d')
+  \end{aligned} 
+  \,,
+$$
+
+where the last step is the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}).
+
+=--
+
+
++-- {: .num_example}
+###### Example
+**([[Kan extension]] of [[adjoint pair]] is [[adjoint quadruple]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$, $\mathcal{D}$ be two [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) and let
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{p}{\longrightarrow}}
+      {\overset{q}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a $\mathcal{V}$-[[enriched adjunction]] (Def. \ref{EnrichedAdjunction}). Then there are $\mathcal{V}$-[[enriched natural isomorphisms]] (Def. \ref{EnrichedNaturalTransformation})
+
+$$
+  (q^{op})^\ast \;\simeq\; Lan_{p^{op}}
+  \;\colon\;
+  [\mathcal{C}^{op},\mathcal{V}]
+    \longrightarrow
+  [\mathcal{D}^{op},\mathcal{V}]  
+$$
+
+$$
+  (p^{op})^\ast \;\simeq\; Ran_{q^{op}}
+  \;\colon\;
+  [\mathcal{D}^{op},\mathcal{V}]
+    \longrightarrow
+  [\mathcal{V}^{op},\mathcal{V}]  
+$$
+
+between the precomposition on [[enriched presheaves]] with one functor and the left/right [[Kan extension]] of the other (Def. \ref{TopologicalLeftKanExtensionBCoend}).
+
+By essential uniqueness of [[adjoint functors]], this means that the two [[adjoint triples]] (eq:KanExtensionAdjointTriple) of $q$ and $p$ 
+
+$$
+  \array{
+    Lan_{q^{op}} &\dashv& (q^{op})^\ast &\dashv& Ran_{q^{op}}
+    \\
+    && Lan_{p^{op}} &\dashv& (p^{op})^\ast &\dashv& Ran_{p^{op}}
+  }
+$$
+
+merge into an [[adjoint quadruple]]
+
+$$
+  \array{
+    Lan_{q^{op}} &\dashv& (q^{op})^\ast &\dashv& (p^{op})^\ast &\dashv& Ran_{p^{op}}
+  }
+  \;\colon\;
+  [\mathcal{C}^{op},\mathcal{V}]
+    \leftrightarrow
+  [\mathcal{D}^{op}, \mathcal{V}]
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For every [[enriched presheaf]] $F \;\colon\; \mathcal{C}^{op} \to \mathcal{V}$ we have a sequence of $\mathcal{V}$-[[enriched natural isomorphism]] as follows
+
+$$
+  \begin{aligned}
+    (Lan_{p^{op}} F)(d)
+      & \simeq
+    \int^{ c \in \mathcal{C} } \mathcal{D}(d,p(c)) \otimes F(c)
+    \\
+    & \simeq
+    \int^{ c \in \mathcal{C} } \mathcal{C}(q(d),c) \otimes F(c)
+    \\
+    & \simeq
+    F(q(d))
+    \\
+    & = \left( (q^{op})^\ast F\right) (d)
+    \,.    
+  \end{aligned}
+$$
+
+Here the first step is the [[coend]]-formula for [[left Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}), the second step if the [[enriched adjunction]]-isomorphism (eq:EnrichedAdjunctionIsomorphism) for $q \dashv p$ and the third step is the [[co-Yoneda lemma]].
+
+This shows the first statement, which, by essential uniqueness of adjoints, implies the following statements.
+
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+**([[left Kan extension]] along [[fully faithful functor]] is [[fully faithful functor|fully faithful]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}),
+let 
+
+$$ 
+  \mathcal{C}
+  \overset{\phantom{AA} p \phantom{AA}}{\hookrightarrow}
+  \mathcal{D}
+$$
+
+be a [[fully faithful functor|fully faithful]] $\mathcal{V}$-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}) between [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}). 
+
+Then for all $c \in \mathcal{C}$
+   
+$$
+  p^* (Lan_p c) \simeq c
+$$ 
+
+and in fact the $(Lan_F \dashv F^*)$-[[unit of an adjunction]] is a [[natural isomorphism]]
+
+$$
+  Id \stackrel{\simeq}{\to} p^* \circ Lan_{p}
+  \,.
+$$ 
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+By the [[coend]] forumla (eq:FormulaLeftKanExtensionByCoend) have naturally in $d' \in \mathcal{D}$ the left Kan extension of any $F \;\colon\; \mathcal{C} \to \mathcal{V}$ on the image of $p$ is
+
+$$
+  \begin{aligned}
+    Lan_p F 
+   \;\colon\; 
+   p(c) 
+   \mapsto
+     & \int^{c' \in C} \mathcal{D}(p(c'), p(c)) \cdot F(c') 
+     \\
+     & \simeq 
+     \int^{c' \in C} \mathcal{C}(c', c) \cdot F(c')
+     \\
+     & \simeq F(c)
+  \end{aligned}
+  \,,
+$$
+
+where in the second step we used the assumption of [[fully faithful functor|fully faithfulness]] of $p$ and in the last step we used the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}).
+
+=--
+
 
 
 ## Basic notions of Topos theory
