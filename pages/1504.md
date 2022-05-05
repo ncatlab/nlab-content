@@ -793,6 +793,32 @@ Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]
 
 * [[Theodore Erler]], _Tachyon Vacuum in Cubic Superstring Field Theory_, JHEP 0801:013,2008 ([arXiv:0707.4591](http://arxiv.org/abs/0707.4591))
 
+### Relation to higher spin gauge theory
+
+The idea that [[higher spin gauge theory]] appears as the limiting case of string field theory where the string tension vanishes goes back to 
+
+* {#HenneauxTeitelboim87} [[Marc Henneaux]], [[Claudio Teitelboim]], section 2 of _First And Second Quantized Point Particles Of Any Spin_, in [[Claudio Teitelboim]], [[Jorge Zanelli]] (eds.) _Santiago 1987, Proceedings, Quantum mechanics of fundamental systems 2_, pp. 113-152. Plenum Press.
+
+* {#Gross88} [[David Gross]], _High-Energy Symmetries Of String Theory_, Phys. Rev. Lett. 60 (1988) 1229.
+
+
+and is further developed for instance in
+
+* {#SagnottiTsulaia03} [[Auguste Sagnotti]], M. Tsulaia, _On higher spins and the tensionless limit of String Theory_, Nucl.Phys.B682:83-116,2004 ([arXiv:hep-th/0311257](http://arxiv.org/abs/hep-th/0311257))
+
+* {#Bonelli03} G. Bonelli, _On the Tensionless Limit of Bosonic Strings, Infinite Symmetries and Higher Spins_, Nucl.Phys. B669 (2003) 159-172 ([arXiv:hep-th/0305155](http://arxiv.org/abs/hep-th/0305155))
+
+* [[Auguste Sagnotti]], M. Taronna, _String Lessons for Higher-Spin Interactions_, Nucl.Phys.B842:299-361,2011 ([arXiv:1006.5242](http://arxiv.org/abs/1006.5242))
+
+* {#Sagnotti11} [[Auguste Sagnotti]], _Notes on Strings and Higher Spins_ ([arXiv:1112.4285](http://arxiv.org/abs/1112.4285)) 
+
+And conversely:
+
+* Rakibur Rahman, Massimo Taronna, _From Higher Spins to Strings: A Primer_ in [[Stefan Fredenhagen]] (ed.) _Introduction to Higher Spin Theory_ ([arXiv:1512.07932](https://arxiv.org/abs/1512.07932))
+
+* [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _String Theory as a Higher Spin Theory_, J. High Energ. Phys. (2016) 2016: 85 ([arXiv:1512.07237](https://arxiv.org/abs/1512.07237), <a href="https://doi.org/10.1007/JHEP09(2016)085">doi:10.1007/JHEP09(2016)085</a>)
+
+
 [[!redirects String field theory]]
 
 [[!redirects open string field theory]]
