@@ -4626,7 +4626,7 @@ if the following equivalent conditions hold.
      \,.
    $$
 
-1. For every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit", hence the composite
+1. For every [[cofibrant object]] $d\in \mathcal{D}$, the [[derived adjunction unit]], hence the composite
 
    $$
      d
@@ -4636,9 +4636,9 @@ if the following equivalent conditions hold.
      R(P(L(d)))
    $$
 
-   (of the [[adjunction unit]] with any fibrant replacement $P$ as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence;
+   (of the [[adjunction unit]] with any [[fibrant replacement]] $P$ as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence;
 
-   and for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite
+   and for every fibrant object $c \in \mathcal{C}$, the [[derived adjunction counit]], hence the composite
 
      $$
        L(Q(R(c)))
@@ -4648,7 +4648,7 @@ if the following equivalent conditions hold.
        c
      $$
 
-     (of the [[adjunction counit]] with any cofibrant replacement as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence in $D$.
+     (of the [[adjunction counit]] with any [[cofibrant replacement]] as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a [[weak equivalence]].
 
 
 1. For every cofibrant object $d \in \mathcal{D}$ and every fibrant object $c \in \mathcal{C}$, a morphism $d \longrightarrow R(c)$ is a weak equivalence precisely if its [[adjunct]] morphism $L(c) \to d$ is:
@@ -4679,7 +4679,7 @@ The conditions in def. \ref{QuillenEquivalence} are indeed all equivalent.
 
 That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other).
 
-To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the morphisms called "derived adjunction (co-)units" above indeed represent the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the homotopy category.
+To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the morphisms called [[derived adjunction unit]] and [[derived adjunction counit]] above indeed represent the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the homotopy category.
 We show this now for the adjunction unit, the case of the adjunction counit is formally dual.
 
 To that end, first observe that for $d \in \mathcal{D}_c$, then the defining commuting square for the left derived functor from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
@@ -4722,7 +4722,7 @@ $$
   Hom_{\mathcal{C}}(L d, P L d)/_\sim
 $$
 
-of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the derived adjunction unit is the $(L \dashv R)$-[[adjunct]] of
+of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the [[derived adjunction unit]] is the $(L \dashv R)$-[[adjunct]] of
 
 $$
   L d
@@ -4775,7 +4775,7 @@ $$
 
 where $P f$ is any lift constructed as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}.
 
-This exhibits the bottom left morphism as the derived adjunction unit, hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
+This exhibits the bottom left morphism as the [[derived adjunction unit]], hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
 
 =--
 
@@ -4799,7 +4799,7 @@ is a weak equivalence.
 
 By prop. \ref{ConditionsForQuillenAdjunctionAreIndeedEquivalent}, generally, $(L \dashv R)$ is a Quillen equivalence precisely if
 
-1. for every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit"
+1. for every cofibrant object $d\in \mathcal{D}$, the [[derived adjunction unit]]
 
    $$
      d
@@ -4811,7 +4811,7 @@ By prop. \ref{ConditionsForQuillenAdjunctionAreIndeedEquivalent}, generally, $(L
 
    is a weak equivalence;
 
-1. for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit"
+1. for every fibrant object $c \in \mathcal{C}$, the [[derived adjunction counit]]
 
    $$
      L(Q(R(c)))
