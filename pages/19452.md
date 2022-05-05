@@ -489,7 +489,38 @@ $$
 
 =--
 
-This allows to make precise the idea of _[[concrete category]]_ from Example \ref{ExamplesOfConcreteCategories}:
+
++-- {: .num_example #FullSubcategoryOnClassOfObjects}
+###### Example
+**([[full subcategory]] on a [[subobject|sub]]-[[class]] of [[objects]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Obj_{\mathcal{C}}$ be a [[subobject|sub]]-[[class]] of its [[class]] of [[objects]]. The there is a [[category]] $\mathcal{C}_S$ whose class of [[objects]] is $S$, and whose [[morphisms]] are precisely the morphisms of $\mathcal{C}$, between these given objects:
+
+$$
+  Hom_{\mathcal{C}}(s_1, s_2)
+  \;\coloneqq\;
+  Hom_{\mathcal{C}}(s_1, s_2)
+$$
+
+with [[identity morphisms]] and [[composition]] defined as in $\mathcal{C}$. Then there is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor})
+
+$$
+  \array{
+    \mathcal{C}_S &\overset{\phantom{AAAA}}{\hookrightarrow}& \mathcal{C}    
+  }
+$$
+
+which is the evident inclsuion on objects, and the [[identity function]] on all [[hom-sets]]. 
+
+This is called the _[[full subcategory]] of $\mathcal{C}$ on the objects in $S$_.
+
+Beware that not every [[fully faithful functor]] is, in components, exactly of this form, but, assuming the [[axiom of choice]], every fully faithful functor is so up to _[[equivalence of categories]]_ (Def. \ref{EquivalenceOfCategories}).
+
+
+=--
+
+
+The concept of _[[faithful functor]]_ from Def. \ref{FullyFaithfulFunctor} allows to make precise the idea of _[[concrete category]]_ from Example \ref{ExamplesOfConcreteCategories}:
 
 +-- {: .num_example #StructuredSetsAndFaithfulFunctors}
 ###### Example
@@ -513,11 +544,44 @@ Conversely, it makes sense to _define_ [[structured sets]] in general to be the 
 ###### Example
 **([[spaces]] seen via their [[algebras of functions]])**
 
+In any given context of [[geometry]], there is typically a [[functor]] which sends any [[space]] of the given kind to its [[algebra of functions]], and which sends an map (i.e. [[homomorphism]]) between the given spaces to the algebra [[homomorphism]] given by precomposition with that map. Schematically:
+
+$$
+  \array{
+    \left\{
+      \text{geometric spaces}
+    \right\}
+    \overset{
+      \text{algebra of functions}
+    }{
+      \longrightarrow
+    }
+    \left\{
+      \text{algebras}
+    \right\}^{op}
+    \\
+    \\
+    X_1 &\mapsto& FunctionsOn(X_1)
+    \\
+    {}^{\mathllap{f}}\big\downarrow && \big\uparrow^{ \phi \mapsto \phi \circ f }
+    \\
+    X_2 &\mapsto& FunctionsOn(X_2)
+  }
+$$
+
+Since the precomposition operation reverses the direction of [[morphisms]], as shown, these are functors from the given [[category]] of [[spaces]] to the _[[opposite category|opposite]]_ (Example \ref{OppositeCategory}) of the relevant category of [[algebras]].
+
+We now mention some concrete examples of this general pattern:
+
+$\,$
+
+**[[topological spaces]] and [[C*-algebras]]**
+
 Consider 
 
-1. the [[category]] [[Top]]${}_{cpt}$ of [[compact topological space|compact]] [[topological spaces]] with [[continuous functions]] between them;
+1. the [[category]] [[Top]]${}_{cpt}$ of [[compact topological space|compact]] [[topological spaces|topological]] [[Hausdorff spaces]] with [[continuous functions]] between them;
 
-1. the category [[C*Alg]] of [[C*-algebras]] over the [[complex numbers]]
+1. the category [[C*Alg]] of [[unital algebra|unital]] [[C*-algebras]] over the [[complex numbers]]
 
 from Example \ref{ExamplesOfConcreteCategories}.
 
@@ -531,7 +595,7 @@ $$
   C^\ast Alg^{op}
 $$
 
-from the former to the [[opposite category]] of the latter (Example \ref{OppositeCategory}) which sends any [[compact topological space|compact]] [[topological space]] $X$ to its [[C*-algebra]] $C(X)$ of [[continuous functions]] $X \overset{\phi}{\to} \mathbb{C}$ to the [[complex numbers]], and which sends every [[continuous function]] between compact spaces to the [[C*-algebra]]-[[homomorphism]] that is given by [[precomposition]]:
+from the former to the [[opposite category]] of the latter (Example \ref{OppositeCategory}) which sends any [[compact topological space|compact]] [[topological space]] $X$ to its [[C*-algebra]] $C(X)$ of [[continuous functions]] $X \overset{\phi}{\to} \mathbb{C}$ with values in the [[complex numbers]], and which sends every [[continuous function]] between compact spaces to the [[C*-algebra]]-[[homomorphism]] that is given by [[precomposition]]:
 
 $$
   C(-)
@@ -551,14 +615,18 @@ Part of the statement of _[[Gelfand duality]]_ is that this is a [[fully faithfu
 
 $$
   Top_{cpt}
-   \hookrightarrow
-  C*Alg^{op}
+   \overset{\phantom{AAA}}{\hookrightarrow}
+  C^\ast Alg^{op}
   \,.
 $$
 
-Similarly, consider
+$\,$
 
-1. the [[category]] [[SmthMfd]]$ of [[smooth manifolds]] with [[smooth functions]] between them;
+**[[smooth manifolds]] and [[real numbers|real]] [[associative algebras]]**
+
+Consider
+
+1. the [[category]] [[SmthMfd]] of [[smooth manifolds]] with [[smooth functions]] between them;
 
 1. the category [[Alg]]${}_{\mathbb{R}}$ of [[associative algebras]] over the [[real numbers]]
 
@@ -595,12 +663,32 @@ The statement of _[[Milnor's exercise]]_ is that this  this is a [[fully faithfu
 
 $$
   SmthMfd
-   \hookrightarrow
+   \overset{\phantom{AAAA}}{
+     \hookrightarrow
+   }
   Alg_{\mathbb{R}}^{op}
   \,.
 $$
 
 These two statements, expressing categories of [[spaces]] as [[full subcategories]] of [[opposite categories]] of categories of [[algebras]], are the starting point for many developments in [[geometry]], such as _[[algebraic geometry]]_, _[[supergeometry]]_, _[[noncommutative geometry]]_ and _[[noncommutative topology]]_.
+
+$\,$
+
+Since a [[fully faithful functor]]/[[full subcategory]]-embedding $\mathcal{C} \hookrightarrow \mathcal{D}$ exhibits the [[objects]] of $\mathcal{D}$ as a consistent generalization of the objects of $\mathcal{C}$, one may turn these examples around and _define_ more general kinds of [[spaces]] as _[[formal duality|formal duals]]_ to certain [[algebras]]:
+
+$\,$
+
+**[[super Cartesian spaces]]**
+
+The [[category]] of **[[super Cartesian spaces]]** is _by definition_, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects})
+
+$$
+  SuperCartSp
+  \overset{\phantom{AAAA}}{\hookrightarrow}
+  Alg_{\mathbb{R}}^{op}
+$$
+
+spring
 
 =--
 
@@ -2723,7 +2811,7 @@ The [[category]] [[Cat]] (Example \ref{CategoriesOfSmallCategories}) of all [[sm
 [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
 
 
-Inside this, the [[full subcategory]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is itself a 
+Inside this, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is itself a 
 [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
 
 In both cases this yields a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a [[cartesian closed category]]: the [[internal hom]] is given by the [[functor category]] construction (Example \ref{FunctorCategory}).
@@ -5116,9 +5204,9 @@ This is particularly suggestive when $p$ is a [[full subcategory]] inclusion (De
 
 =--
 
-### Properties
+### Further properties
 
-We collect here statement and proof of some key properties of the various [[universal constructions]] considered above.
+We collect here further key properties of the various [[universal constructions]] considered above.
 
 $\,$
 
@@ -5774,7 +5862,7 @@ The presheaf $\mathbf{Y}$ is called a _[[sheaf]]_ if for every [[object]] $X \in
   \,.
 \]
 
-The [[full subcategory]] (Def. \ref{FullyFaithfulFunctor}) of the [[category of presheaves]] over a given [[site]] $\mathcal{C}$, on those that are sheaves is the _[[category of sheaves]]_, denoted
+The [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the [[category of presheaves]] over a given [[site]] $\mathcal{C}$, on those that are sheaves is the _[[category of sheaves]]_, denoted
 
 $$
   Sh(\mathcal{C})
@@ -6782,7 +6870,7 @@ $$
   \mathbf{H}
 $$
 
-for its [[full subcategory]] (Def. \ref{FullyFaithfulFunctor}) of [[concrete objects]] (Def. \ref{CohesiveModalities}).
+for its [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of [[concrete objects]] (Def. \ref{CohesiveModalities}).
 
 Then there is a sequence of [[reflective subcategory]]-inclusions (Def. \ref{ReflectiveSubcategory}) that factor the $(\Gamma \dashv coDisc)$-adjunction as
 
