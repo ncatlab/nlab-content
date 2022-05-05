@@ -20,16 +20,11 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
 
-## Idea
+This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or _smooth [[homotopt 0-types|0-types]]_.
 
-This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _smooth sets_ or _smooth spaces_ or _smooth 0-types_.
-
-The definition subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and diffeological spaces.
+The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] spring and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and diffeological spaces.
 
 In fact smooth sets are an early stage in a long sequence of generalized smooth spaces used in [[higher differential geometry]]:
 
@@ -69,21 +64,27 @@ Since historically grown terminology will never be fully logically consistent, a
 
 =--
 
-## **Smooth sets**
- {#SmoothSpaces}
-
 In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the archetypical [[spaces]] of [[differential geometry]]. Here we now define in terms of these the most general _[[smooth sets]]_ that differential geometry can deal with. We also discuss basic properties of these smooth sets, all in the [Mod Layer](#SmoothSpacesLayerMod).
 
 In the [Sem Layer](SmoothSpacesLayerSem) we discuss smooth sets as a _[[topos]]_ and in fact as a _[[cohesive topos]]_. This is essentially the stage on which all of the fellowing developments take place. Or rather, the refinement of this to a _[[(infinity,1)-topos|higher topos]]_ is, which we discuss further below in the chapter _[Smooth ∞-Groupoids](#SmoothnGroupoids)_.
 
 
-### Model Layer
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+
+## Smooth set
  {#SmoothSpacesLayerMod}
 
 In this [Model Layer](geometry+of+physics#Layers) we discuss concretely the definition of [[smooth sets]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
 
 
-#### Plots of smooth sets and their gluing
+### Plots of smooth sets and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
 
 The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out [[coordinate systems]]   inside it, as in [this definition](geometry+of+physics+--+coordinate+systems#CartesianSpaces), and which may be reconstructed by _gluing_ all the possible coordinate systems in it together.
@@ -396,7 +397,7 @@ A smooth set of this form we call a **[[discrete object|discrete smooth set]]**.
 More examples of smooth sets can be built notably by [[intersection|intersecting]] [[images]] of two smooth sets inside a bigger one. In order to say this we first need a formalization of [[homomorphism]] of smooth sets. This we turn to now.
 
 
-#### Homomorphisms of smooth sets
+### Homomorphisms of smooth sets
  {#HomomorphismsOfSmoothSpaces}
 
 We discuss "functions" or "maps" between [[smooth sets]], def. \ref{SmoothSpace}, which preserve the smooth set [[structure]] in a suitable sense. As with any notion of function that preserves structure, we refer to them as _[[homomorphisms]]_.
@@ -445,10 +446,11 @@ $$
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #CategoryOfSmoothSets}
 ###### Definition
+**(the [[category]] _[[SmoothSet]]_ of [[smooth sets]] with [[smooth functions]])**
 
-Write $Smooth0Type$ for the [[category]] whose [[objects]] are [[smooth sets]], def. \ref{SmoothSpace}, and whose [[morphisms]] are homomorphisms of smooth sets, def. \ref{HomomorphismOfSmoothSpaces}.
+Write [[SmoothSet]] or $Smooth0Type$ for the [[category]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Categories)) whose [[objects]] are [[smooth sets]], def. \ref{SmoothSpace}, and whose [[morphisms]] are homomorphisms of smooth sets according to def. \ref{HomomorphismOfSmoothSpaces}.
 
 =--
 
@@ -523,7 +525,7 @@ $$
 =--
 
 
-#### Products and fiber products of smooth sets
+### Products and fiber products of smooth sets
  {#ProductsAndFiberProductsOfSmoothSpaces}
 
 +-- {: .num_defn #ProductOfSmoothSpaces}
@@ -601,7 +603,7 @@ $$
 
 
 
-#### Smooth mapping spaces and smooth moduli spaces
+### Smooth mapping spaces and smooth moduli spaces
  {#SmoothMappingSpaces}
 
 
@@ -730,7 +732,7 @@ $$
 =--
 
 
-#### The smooth moduli space of smooth functions
+### The smooth moduli space of smooth functions
  {#SmoothModuliSpaceOfSmoothFunctions}
 
 
@@ -776,7 +778,7 @@ By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]
 
 
 
-#### Outlook
+### Outlook
  {#SmoothSpacesOutlook}
 
 
@@ -808,141 +810,41 @@ This ends the Model-layer discussion of smooth sets. We now pass to a more advan
 
 =--
 
-### Semantic Layer
+## The topos of smooth sets
  {#SmoothSpacesLayerSem}
+ {#ToposOfSmoothSpaces}
 
-In this [Semantic Layer]{geometry+of+physics#Layers} we mention some basic definitions of [[topos theory]] and discuss the [[topos]] formed by the [[smooth sets]] defined in [smooth sets - Mayer Mod](#SmoothSpacesLayerMod).
+In the language of [[geometry of physics -- categories and toposes|categories and toposes]], we may summarize the concept of [[smooth sets]] as follows:
 
-#### Toposes
- {#Toposes}
++-- {: .num_prop #SmoothSetsAreSheavesOnCartSp}
+###### Proposition
+**([[equivalence of categories]] between [[smooth sets]] and [[sheaves]] on [[CartSp]])**
 
-
-+-- {: .num_defn #SheafToposAsSubtopos}
-###### Definition
-
-A [[sheaf topos]] is [[subtopos]] of [[presheaf topos]]
+There is a canonical [[equivalence of categories]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#EquivalenceOfCategories)) between the [[category]] _[[SmoothSet]]_ of [[smooth sets]] from def. \ref{CategoryOfSmoothSets}, and the [[category of sheaves]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Sheaf)) on the [[category]] [[CartSp]] ([this def.](geometry+of+physics+--+coordinate+systems#CartSpCategory)) equipped with the [[coverage]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Coverage)) of differentiably [[good open covers]] (def. \ref{DifferentiallyGoodOpenCover})
 
 $$
-  Sh(C)
-    \stackrel{\overset{\overline{(-)}}{\leftarrow}}{\hookrightarrow}
-  PSh(C)
+  SmoothSet
+  \;\simeq\;
+  Sh(CartSp)
   \,.
 $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
++-- {: .proof}
+###### Proof
 
-Here the [[left adjoint]] $\overline{(-)}$, which is equivalently
+This is a straightforward matter of matching definitions. We spell it out:
 
-* the [[inverse image]] of the [[geometric embedding]] [[geometric morphism]]
+* A _pre-smooth set_, def. \ref{SmoothPreSpace} is equivalently a [[presheaf]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#CategoryOfPresheaves)) on [[CartSp]] ([this prop.](geometry+of+physics+--+coordinate+systems#CartSpCategory)), hence a [[functor]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Functors)) $X : CartSp^{op} \to Set$ from the [[category]] [[CartSp]] to the [[category of sets]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#CategoryOfAllSets));
 
-* the [[sheafification]] functor
+* a _[[smooth set]]_, def. \ref{SmoothSpace}, is equivalently a presheaf on [[CartSp]] ([this prop.](geometry+of+physics+--+coordinate+systems#CartSpCategory)) which is a [[sheaf]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Sheaf)) with respect to the [[coverage]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Coverage)) of differentially [[good open cover]] (def. \ref{DifferentiallyGoodOpenCover}):
 
-is precisely such that for every [[covering]] $\{U_i \to U\}_{i \in I}$ in the [[site]] $C$ the [[sieve]] inclusion
-
-$$
-  S(\{U_i\}) \hookrightarrow U \;\;\;\; \in PSh(C)
-$$
-
-(a [[dense monomorphism]]) is sent to an [[isomorphism]].
-
-Hence the sheaf topos is the left exact [[localization]] at the covering sieve inclusions.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The [[presheaf topos]] $PSh(C)$ is the [[free cocompletion]] of the [[category]] $C$, hence the category obtained from $C$ by [[free construction|freely]] forming [[colimits]] of its objects.
-
-In contrast, the [[localization]] $Sh(C) \hookrightarrow PSh(C)$ enforces _relations_ between these free colimits.
-
-Therefore in total we may think of $Sh(C)$ as obtained by [[generators and relations]] from the [[site]] $C$:
-
-* the objects of $C$ are the generators;
-
-* the [[coverings]] of $C$ are the relations.
-
-=--
-
-Def. \ref{SheafToposAsSubtopos} is the "external" characterization of sheaf toposes.
-
-More intrinsically we have _[[Giraud's theorem]]_:
-
-+-- {: .num_theorem}
-###### Theorem
-
-A [[sheaf topos]] is equivalently a [[presentable category]] with
-
-1. [[universal colimits]]
-
-1. [[effective quotients]]
-
-1. [[disjoint coproducts]]
-
-=--
-
-This characterization, or rather its refinement to [[(infinity,1)-categories of (infinity,1)-sheaves]], is crucial, below, for the discussion of [[principal bundles]] and their [[associated bundle|associated]] [[fiber bundles]].
-
-For other general considerations we need rather that every [[sheaf topos]] is in particular an _[[elementary topos]]_
-
-+-- {: .num_defn}
-###### Definition
-
-An [[elementary topos]] is
-
-* a [[locally cartesian closed category]]
-
-* with a [[subobject classifier]].
-
-=--
-
-The first of these says that the [[internal language]] is [[dependent type theory]] with [[dependent sum types]] and [[dependent product types]], the second says that its has a [[type of propositions]]. This we turn to in [smooth sets - Syntactic Layer](#SmoothSpacesLayerSyn) below.
-
-#### Subobjects
- {#Subobjects}
-
-* [[subobject]], [[subobject classifier]]
-
-* [[truncated object in an (infinity,1)-topos|(-1)-truncation]]
-
-#### Slice toposes
- {#SliceToposes}
-
-* [[slice topos]]
-
-* [[etale geometric morphism]]
-
-#### Local, connected and cohesive toposes
-
-* [[local topos]]
-
-  * [[concrete object]]
-
-* [[locally connected topos]], [[connected topos]]
-
-  * [[connected object]]
-
-* [[cohesive topos]]
-
-
-#### The topos of smooth sets
- {#ToposOfSmoothSpaces}
-
-+-- {: .num_remark}
-###### Remark
-
-* A _pre-smooth set_, def. \ref{SmoothPreSpace} is equivalently a [[presheaf]] on [[CartSp]], hence a [[functor]] $X : CartSp^{op} \to Set$;
-
-* a _[[smooth set]]_, def. \ref{SmoothSpace}, is equivalently a presheaf on [[CartSp]] which is a [[sheaf]] with respect to the differentially [[good open cover]]-[[coverage]] (def. \ref{DifferentiallyGoodOpenCover}):
-
-  * the set of "glued plots", def. \ref{MatchingFamiliesOfPlots} is the [[descent object]];
+  * the set of "glued plots", def. \ref{MatchingFamiliesOfPlots} is the set of [[matching families]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#CompatibleElements)), also called the _[[descent object]]_;
 
   * the canonical morphism of remark \ref{NaiveDescentMorphism} is the [[descent morphism]];
 
-  * the condition that it be an isomorphism (for each differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}) is the [[descent]]- or [[sheaf]] condition.
+  * the condition that it be an isomorphism (for each differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}) is the [[descent]]- or [[sheaf]] condition ([here](geometry+of+physics+--+Categories+and+Toposes#eq:SheafCondition))
 
 =--
 
@@ -956,7 +858,7 @@ The [[sheaf topos]], def. \ref{SheafToposAsSubtopos}, of [[smooth sets]] enjoys 
 * a [[cohesive topos]]. This we discuss in the remainder of this [Semantic Layer](#LayerSem).
 
 
-##### Connectedness
+### Connectedness
  {#ConnectedSmooth0Type}
 
 The full [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]:
@@ -1071,7 +973,9 @@ By the discussion at [[connected topos]] we could equivalently convince ourselve
 
 =--
 
-##### Locality
+$\,$
+
+### Locality
  {#LocalSmooth0Type}
 
 
@@ -1148,9 +1052,10 @@ is a monomorphism. This is precisely the condition on a sheaf to be a diffeologi
 
 =--
 
+$\,$
 
 
-##### Cohesion
+### Cohesion
  {#CohesionOfTheToposOfSmoothSpaces}
 
 
@@ -1182,115 +1087,5 @@ where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed cat
 
 
 
-### Syntactic Layer
- {#SmoothSpacesLayerSyn}
-
-In this [Syntactic Layer](geometry+of+physics#Layers) we discuss the two further aspects that the [[internal language]] of a [[topos]] adds to the internal language of a just a category with [[finite products]] (which is the [[dependent type theory|dependent]] [[type theory]] with [[unit type]] and [[product type]] discussed in _[Coordinate systems - Syntactic Layer](#CoordinateSystemsLayerSyn)): [[dependent product types]] and a [[type of propositions]].
-
-[[dependent type theory]] $\leftrightarrow$ [[locally cartesian closed category]]
-
-[[type of propositions]] $\leftrightarrow$ [[subobject classifier]]
-
-(...)
-
-
-#### Type theory of a topos
-
-##### Natural deduction rules for dependent product types
- {#NaturalDeductionForDependentProduct}
-
-[[!include dependent product natural deduction - table]]
-
-In the special case that $A$ does not actually deopend on $X$:
-
-[[!include function type natural deduction - table]]
-
-##### Internal logic of a topos
-
-What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (infinity,1)-category|(-1)-truncated objects]] in [[slice categories]], hence of [[monomorphisms]] regarded as objects of slice categories.
-
-(...)
-
-* [[propositions as types]], [[programs as proofs]]
-
-* [[computational trinitarianism]]
-
-* [[type of propositions]]
-
-#### Modal type theory
-
-##### Modalities
-
-* [[modal logic]], [[modal type theory]]
-
-* [[monad (in computer science)]]
-
-##### Sharp modality and Codiscrete types
- {#SharpModalityAndCodiscreteTypes}
-
-+-- {: .num_defn #SharpModalityOfLocalTopos}
-###### Definition
-
-Let $\mathbf{H}$ be a [[local topos]]
-
-$$
-  \mathbf{H}
-   \stackrel{\stackrel{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}}
-  \,.
-$$
-
-Write
-
-$$
-  (\flat \dashv \sharp)
-  \;
-  \colon
-  \;
-  \mathbf{H}
-  \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
-  \, .
-  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}
-  \, \mathbf{H}
-
-$$
-
-for the induced [[adjoint functor|adjoint]] [[monad]] $\sharp$ and [[comonad]] $\flat$. We
-
-* call $\sharp$ the **sharp modality**;
-
-* call $\flat$ the **flat modality**.
-
-=--
-
-The term _modality_ refers to _[[modal logic]]_. (...)
-
-+-- {: .num_remark}
-###### Remark
-
-We refer to $\sharp A$ as the **sharp type** of $A$.
-This may be thought of as referring to the fact that by [[adjunction]] a homomorphism
-$X \to \sharp A$ is equivalently a function
-$\Gamma X \to \Gamma A$ of the underlying sets. This means that smooth maps $X \to \sharp A$ are like maps into $A$ that do _not_ have to respect the cohesive structure on $A$, but instead
-can be arbitrarily "kinky" ("sharp").
-
-=--
-
-This motivates the following terminology.
-
-+-- {: .num_defn #Decohese}
-###### Definition
-
-We write
-
-$$
-  DeCoh_X \colon X \to \sharp X
-$$
-
-For the [[unit of an adjunction|unit]] of the $(\Gamma \vdash coDisc)$-[[adjunction]].
-
-=--
-
-
-(...)
 
 [[!redirects geometry of physics -- smooth spaces]] 
