@@ -76,6 +76,8 @@ and is further discussed in
 
 * A. Anastasiou, L. Borsten, M. J. Duff, M. J. Hughes, A. Marrani, S. Nagy, M. Zoccali, _Twin Supergravities from Yang-Mills Squared_, Phys. Rev. D 96, 026013 (2017) ([arXiv:1610.07192](https://arxiv.org/abs/1610.07192))
 
+* {#ABDNZ18} A. Anastasiou, L. Borsten, M. J. Duff, S. Nagy, M. Zoccali, _BRST squared_ ([arXiv:1807.02486](https://arxiv.org/abs/1807.02486))
+
 [[!redirects KLT relation]]
 
 [[!redirects Yang-Mills squared]]
