@@ -100,6 +100,8 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
   * [[elementary theory of the 2-category of categories]] ([[ETCC]])
 
+  * [[PrCat]]
+
   * [[Operad]]
 
   * [[VCat]]
@@ -107,6 +109,8 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 * [[2Cat]]
 
 * [[(∞,1)Cat]]
+  
+  * [[Pr(∞,1)Cat]]
 
   * [[(∞,1)Operad]]
 
