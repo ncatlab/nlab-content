@@ -303,7 +303,7 @@ Of course, more interesting examples of the gluing construction abound as well. 
 
 * [[Anders Kock|A. Kock]], T. Plewe, _Glueing analysis for complemented subtoposes_ , TAC **2** (1996) pp.100-112. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n9/n9.pdf))
 
-* J. C. Mitchell, A. Scedrov, _Notes on sconing and relators_ , Springer LNCS **702** (1993) pp.352-378. ([ps-draft](ftp://ftp.cis.upenn.edu/pub/papers/scedrov/rel.ps.Z))
+* J. C. Mitchell, A. Scedrov, _Notes on sconing and relators_ , Springer LNCS **702** (1993) pp.352-378. ([ps-draft](ftp://ftp.cis.upenn.edu/pub/papers/scedrov/rel.ps.Z)) [PDF](https://pdfs.semanticscholar.org/ba4e/b38b05470481dc3c912fb37f0598bbda94fe.pdf)
 
 * [[Susan Niefield]], _The glueing construction and double categories_ , JPAA **216** no.8/9 (2012) pp.1827-1836.
 
