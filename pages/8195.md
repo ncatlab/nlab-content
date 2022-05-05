@@ -23,3 +23,5 @@ In other words, for every pair $X,Y$ of objects in $\mathcal{C}$, the hom-catego
 ## Related concepts
 
 * [[homotopy category]]
+
+* [[localization of a 2-category]]
