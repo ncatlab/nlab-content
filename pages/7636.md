@@ -97,7 +97,10 @@ that constitute an [[equivalence of 2-categories]]
 
 $$
   MLDependentTypeTheories
-    \stackrel{\overset{Lang}{\leftarrow}}{\underset{Cont}{\to}}
+    \underoverset
+     {\underset{Cont}{\longrightarrow}}
+     {\overset{Lang}{\longleftarrow}}
+     {\simeq}
   LocallyCartesianClosedCategories
   \,.
 $$
