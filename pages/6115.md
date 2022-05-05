@@ -146,6 +146,10 @@ Discussion as a [[linear homotopy type theory]] is in
 [[!redirects parameterized spectrum]]
 [[!redirects parameterized spectra]]
 
+[[!redirects parametrised spectrum]]
+[[!redirects parametrised spectra]]
+
+
 [[!redirects spectrum bundle]]
 [[!redirects spectrum bundles]]
 
