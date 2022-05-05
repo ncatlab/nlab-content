@@ -33,7 +33,7 @@ Many famous dualities are induced this way, for instance [[Stone duality]] and [
 
 ## Remark on terminology
 
-There are various different terms for "dualizing objects". As recalled on p. 112 of the article by Porst and Tholen below
+There are various different terms for "dualizing objects". As recalled in [Porst-Tholen 91, p. 112](#PorstTholen91)
 
 * Isbell speaks of _objects keeping summer and winter homes_;
 
@@ -127,7 +127,7 @@ Given $U: A \to Set$, $V: B \to Set$, a $(U, V)$-**dualizing object** (or $(U, V
 
 ### Naturally represented adjunctions 
 
-Definition \ref{ambi} is reasonably general and is one of several notions of "schizophrenic object" given in [Dimov-Tholen93](#DT93). A somewhat tighter notion, also considered in [Dimov-Tholen89](#DT89) and [Porst-Tholen](#PT) and which covers many cases that arise in practice, involves initial lifts through the functors $U$, $V$. 
+Definition \ref{ambi} is reasonably general and is one of several notions of "schizophrenic object" given in [Dimov-Tholen93](#DT93). A somewhat tighter notion, also considered in [Dimov-Tholen 89](#DT89) and [Porst-Tholen 91](#PorstTholen91) and which covers many cases that arise in practice, involves initial lifts through the functors $U$, $V$. 
 
 Again, suppose given contravariant adjoint functors $S, T$ with $U S$ and $V T$ representable as above. We have maps 
 
@@ -163,7 +163,7 @@ $$\{B(b, \mathbf{b}) \stackrel{- \cdot_V y}{\to} V \mathbf{b} \stackrel{\omega^{
 admits an initial lift (a diagram of type $\delta_y: S b \to \mathbf{a}$), targeted at $\mathbf{a}$. 
 =-- 
 
-Thus the category of naturally represented adjoint pairs relative to $(U, V)$ is equivalent to the category of natural $(U, V)$-dualizing objects. This is the notion of "schizophrenic object" given by [Porst-Tholen](#PT); a reasonably detailed proof of the equivalence with naturally represented adjoint pairs is given in their Theorem 1.7. 
+Thus the category of naturally represented adjoint pairs relative to $(U, V)$ is equivalent to the category of natural $(U, V)$-dualizing objects. This is the notion of "schizophrenic object" given by [Porst-Tholen 91](#PorstTholen91); a reasonably detailed proof of the equivalence with naturally represented adjoint pairs is given in their Theorem 1.7. 
 
 ## Examples
 
@@ -172,6 +172,8 @@ One easy general example of the notion given in Definition \ref{ambi} is where $
 Further examples appear at 
 
 * [[Stone duality]]
+
+* [[Gelfand duality]] (see at _[[center of an adjunction]]_ the section _[Examples - Gelfand duality](fixed+point+of+an+adjunction#GelfandDuality)_)
 
 * [[star-autonomous category]]
 
@@ -183,18 +185,15 @@ Further examples appear at
 
 ## References
 
-* G. D. Dimov, W. Tholen, _A Characterization of Representable Dualities,_
-In: _Categorical Topology and its Relation to Analysis, Algebra and Combinatorics,_ Prague, Czechoslovakia 22-27 August 1988,  J. Adamek and S. MacLane (eds.), World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357. 
- {#DT89} 
+* {#DT89} G. D. Dimov, [[Walter Tholen]], _A Characterization of Representable Dualities,_ In: _Categorical Topology and its Relation to Analysis, Algebra and Combinatorics,_ Prague, Czechoslovakia 22-27 August 1988,  J. Adamek and S. MacLane (eds.), World Scientific, Singapore, New Jersey, London, Hong Kong, 1989, pp. 336-357. 
+  
 
-* G. D. Dimov, W. Tholen, _Groups of Dualities,_ Trans. Amer. Math. Soc.,
+* {#DT93} G. D. Dimov, [[Walter Tholen]], _Groups of Dualities,_ Trans. Amer. Math. Soc.,
 336 (2), 901-913, 1993. ([pdf](http://www.ams.org/journals/tran/1993-336-02/S0002-9947-1993-1100693-0/S0002-9947-1993-1100693-0.pdf)) 
- {#DT93} 
+  
+* {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)) 
 
-* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)) 
- {#PT} 
-
-* Michael Barr, John F. Kennison, R. Raphael, _Isbell Duality_ ([pdf](http://www.tac.mta.ca/tac/volumes/20/15/20-15.pdf))
+* [[Michael Barr]], John F. Kennison, R. Raphael, _Isbell Duality_ ([pdf](http://www.tac.mta.ca/tac/volumes/20/15/20-15.pdf))
 
 
 [[!redirects dualizing objects]]
