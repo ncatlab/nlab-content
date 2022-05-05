@@ -284,7 +284,6 @@ Even though [[groupoids]] (Def. \ref{Groupoid}) are special cases of [[categorie
 
 For this reason we will not have more to say about [[groupoids]] here, and instead relegate their discussion to the chapter [[geometry of physics -- homotopy types|on homotopy theory]].
 
-
 =--
 
 
@@ -419,9 +418,40 @@ $$
 
 =--
 
++-- {: .num_defn #Monomorphism}
+###### Definition
+**([[monomorphism]] and [[epimorphism]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}). Then a [[morphism]] $X \overset{f}{\to } Y$ in $\mathcal{C}$ is called
+
+* a _[[monomorphism]]_ if for every [[object]] $Z \in \mathcal{C}$ the [[hom-functor]] (Example \ref{HomFunctor}) out of $Z$ takes $f$ to an [[injective function]] of [[hom-sets]]:
+
+  $$
+    Hom_{\mathcal{C}}(Z,f)
+    \;\colon\;
+    Hom_{\mathcal{C}}(Z,X)
+     \overset{\phantom{AAA}}{\hookrightarrow}
+    Hom_{\mathcal{C}}(Z,Y)
+    \,;
+  $$
+
+* an _[[epimorphism]]_ if for every [[object]] $Z \in \mathcal{Z}$ the [[hom-functor]] (Example \ref{HomFunctor}) into $Z$ takes $f$ to an [[injective function]]:
+
+  $$
+    Hom_{\mathcal{C}}( f,Z )
+    \;\colon\;
+    Hom_{\mathcal{C}}(Y, Z)
+      \overset{\phantom{AAA}}{\hookrightarrow}
+    Hom_{\mathcal{C}}(X, Z) 
+    \,.
+  $$
+
+=--
+
+
 +-- {: .num_defn #FullyFaithfulFunctor}
 ###### Definition
-**(Terminology: [[full functor|full]], [[faithful functor|faithful]] and [[fully faithful functors]])**
+**([[full functor|full]], [[faithful functor|faithful]] and [[fully faithful functors]])**
 
 A [[functor]] $F \;\colon\; \mathcal{C} \to \mathcal{D}$ (Def. \ref{Functors}) is called
 
@@ -1699,7 +1729,7 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 
 Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following holds:
 
-* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $;
+* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $ (Def. \ref{Monomorphism});
 
 * $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
 
@@ -1732,19 +1762,20 @@ Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTerms
 +-- {: .proof}
 ###### Proof
 
-For the characterization of faithful $R$ by epi counit components, notice (as discussed at _[[epimorphism]]_ ) that $L R x \to x$ being an epimorphism is equivalent to the induced [[function]]
+For the characterization of faithful $R$ by epi counit components, use from Def. \ref{Monomorphism} that $L R x \to x$ being an epimorphism means that the induced [[function]]
 
 $$
   Hom(x, a) \to Hom(L R x, a)
 $$
 
-being an [[injection]] for all objects $a$. Then use that, by adjointness, we have an isomorphism
+is an [[injection]] for all objects $a$. By the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors)
 
 $$
   Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
+  \,,
 $$ 
 
-and that, by the formula for [[adjuncts]] and the [[zig-zag identity]], this is  such that the composite
+the formula for [[adjuncts]] (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) and the [[triangle identity]] (eq:TriangleIdentities), this is  such that the composite
 
 $$
  R_{x,a} :  Hom(x,a) \to Hom(L R x, a) \stackrel{\simeq}{\to}
@@ -2317,11 +2348,11 @@ For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}),
 
    * it is isomorphic to its own $\bigcirc$-[[image]]: $X \simeq \bigcirc X$,
 
-   * specifically its $\bigcirc$-unit is an isomorphism $\eta_X \;\colon\; X \overset{\simeq}{\to} \bigcirc X$.
+   * specifically its $\bigcirc$-unit is an [[isomorphism]] $\eta_X \;\colon\; X \overset{\simeq}{\to} \bigcirc X$.
 
 1. a _$\bigcirc$-[[modal object|submodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
 
-   * its $\bigcirc$-unit is a monomorphism: $\eta_X \;\colon\; X \hookrightarrow \bigcirc X$.
+   * its $\bigcirc$-unit is a [[monomorphism]] (Def. \ref{Monomorphism}): $\eta_X \;\colon\; X \hookrightarrow \bigcirc X$.
 
 [[formal duality|Dually]]:
 
@@ -2333,11 +2364,11 @@ For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), w
 
    * it is isomorphic to its own $\Box$-[[image]]: $\Box X \simeq X$,
 
-   * specifically its $\Box$-counit is an isomorphism $\epsilon_X \;\colon\; \Box X \overset{\simeq}{\longrightarrow} X$
+   * specifically its $\Box$-counit is an [[isomorphism]] $\epsilon_X \;\colon\; \Box X \overset{\simeq}{\longrightarrow} X$
 
 1. a _$\Box$-[[comodal object|supcomodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
 
-   * its $\Box$-counit is an [[epimorphism]]: $\epsilon_X \;\colon\; \Box X \overset{epi}{\longrightarrow} X$.
+   * its $\Box$-counit is an [[epimorphism]] (Def. \ref{Monomorphism}): $\epsilon_X \;\colon\; \Box X \overset{epi}{\longrightarrow} X$.
 
 
 =--
@@ -5658,11 +5689,74 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) with $Sh(\mathcal{C})$ its
 
 Then a [[morphisms]] $f \;\colon\; \mathbf{X} \to \mathbf{Y}$ in $Sh(\mathcal{C})$ is
 
-1. a [[monomorphism]] or [[isomorphism]] precisely if it is so _globally_ in that for each object $U \in \mathcal{C}$ in the site, then the component $f_U \colon \mathbf{X}(U) \to \mathbf{Y}(U)$ is an [[injection]] or [[bijection]] of [[sets]], respectively.
+1. a [[monomorphism]] (Def. \ref{Monomorphism}) or [[isomorphism]] (Def. \ref{Isomorphism}) precisely if it is so _globally_ in that for each object $U \in \mathcal{C}$ in the site, then the component $f_U \colon \mathbf{X}(U) \to \mathbf{Y}(U)$ is an [[injection]] or [[bijection]] of [[sets]], respectively.
 
-1.  an [[epimorphism]] precisely if it is so _locally_, in that: for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in \mathbf{Y}(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : \mathbf{X}(U_i) \to \mathbf{Y}(U_i)$.
+1.  an [[epimorphism]] (Def. \ref{Monomorphism}) precisely if it is so _locally_, in that: for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such that for all $i \in I$ and every element $y \in \mathbf{Y}(U)$ the element $f(p_i)(y)$ is in the image of $f(U_i) : \mathbf{X}(U_i) \to \mathbf{Y}(U_i)$.
 
 =--
+
++-- {: .num_prop #SheafToposEpiMonoFactorization}
+###### Proposition
+**([[(epi, mono) factorization system|epi/mono-factorization]] through [[image]])**
+
+Let $Sh(\mathcal{C})$ be a [[category of sheaves]] (Def. \ref{Sheaf}). Then every [[morphism]] $f \;\colon\; \mathbf{X} \to \mathbf{Y}$ factors as an [[epimorphism]] followed by a [[monomorphism]] (Def. \ref{Monomorphism}) uniquely up to unique [[isomorphism]]:
+
+$$
+  f
+  \;\colon\;
+  \mathbf{X}
+    \overset{epi}{\longrightarrow}
+  im(f)
+    \overset{mono}{\longrightarrow}
+  \mathbf{Y}
+  \,.
+$$
+
+[[generalized the|The]] [[object]] $im(f)$, as a [[subobject]] of $\mathbf{Y}$, is called the _[[image]]_ of $f$.
+
+In fact this is an [[orthogonal factorization system]], in that for every [[commuting square]] where the left morphism is an [[epimorphism]], and the right one a [[monomorphism]], there exists a unique [[lift]]:
+
+\[
+  \label{EpiMonoOrthogonalLifting}
+  \array{
+    A &\overset{\phantom{AAA}}{\longrightarrow}& B
+    \\
+    {}^{\mathllap{epi}}\big\downarrow 
+      &{}^{\exists!}\nearrow& 
+    \big\downarrow^{\mathrlap{mono}}
+    \\
+    C &\underset{\phantom{AAA}}{\longrightarrow}& D
+  }
+\]
+
+This implies that this is a [[functorial factorization]], in that for every [[commuting square]]
+
+$$
+  \array{
+    \mathbf{X}_1 &\overset{f_1}{\longrightarrow}& \mathbf{Y}_1
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    \mathbf{X}_2 &\underset{f_2}{\longrightarrow}& \mathbf{Y}_2     
+  }
+$$
+
+there is an induced morphism of [[images]] such that the resulting rectangular [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    \mathbf{X}_1 &\overset{epi}{\longrightarrow}& im(f_1) &\overset{mono}{\longrightarrow}& \mathbf{Y}_1
+    \\
+    \big\downarrow && \big\downarrow && \big\downarrow
+    \\
+    \mathbf{X}_2 &\overset{epi}{\longrightarrow}& im(f_2) &\overset{mono}{\longrightarrow}& \mathbf{Y}_2
+  }
+$$
+
+
+
+=--
+
 
 (...)
 
@@ -6465,7 +6559,7 @@ We pronounce these as follows:
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 
-and we refer to the corresspondin [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
 * a [[flat modality|flat]]-[[comodal object]]
 
@@ -6491,12 +6585,100 @@ and we refer to the corresspondin [[modal objects]] (Def. \ref{ModalObjects}) as
 
   is a _[[concrete object]]_.
 
+=--
 
++-- {: .num_prop #QuasitoposOfConcreteObjects}
+###### Proposition
+**([[quasitopos]] of [[concrete objects]] in a [[cohesive topos]])**
+
+For $\mathbf{H}$ a [[cohesive topos]] (Def. \ref{CohesiveTopos}), write
+
+$$
+  \mathbf{H}_{conc} 
+  \overset{ \phantom{AAAA} }{\hookrightarrow}
+  \mathbf{H}
+$$
+
+for its [[full subcategory]] (Def. \ref{FullyFaithfulFunctor}) of [[concrete objects]] (Def. \ref{CohesiveModalities}).
+
+Then there is a sequence of [[reflective subcategory]]-inclusions (Def. \ref{ReflectiveSubcategory}) that factor the $(\Gamma \dashv coDisc)$-adjunction as
+
+$$
+  \Gamma \;\dashv\; coDisc
+  \;\;\colon\;\;
+  \mathbf{H}
+  \array{
+    \overset{\phantom{AA} conc \phantom{AA}}{\longrightarrow}
+    \\
+    \overset{\phantom{AA} \iota_{conc} \phantom{AA}}{\hookleftarrow}
+  }
+  \mathbf{H}_{conc}
+  \array{
+    \overset{\phantom{AAA}}{\longrightarrow}
+    \\
+    \overset{\phantom{AAA}}{\hookleftarrow}
+  }
+  Set
+$$
 
 =--
 
++-- {: .proof}
+###### Proof
 
+For the adjunction on the right, we just need to observe that for every [[set]] $S \in Set$, the [[codiscrete object]] $coDisc(S)$ is [[concrete object|concrete]], which is immediate by Def. \ref{CohesiveModalities} and the fact that every [[isomorphism]] is also a [[monomorphism]].
 
+For the adjunction on the left observe that the [[left adjoint]] $conc$, to be called _[[concretification]]_, is given by sending each [[object]] to the [[image]] (Def. \ref{SheafToposEpiMonoFactorization}) of its $(\Gamma \dashv coDisc)$ [[adjunction unit]] $\eta^\sharp$:
+
+$$
+  conc \;\colon\; X \mapsto im(\eta^\sharp_X)
+  \,.
+$$
+
+The the [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by the [[epimorphism]] in the [[(epi, mono) factorization system|epi/mono-factorization]], via Prop. \ref{SheafToposEpiMonoFactorization}:
+
+\[
+  \label{NaturalitySquareForConcretificationUnit}
+  \array{
+    X_1 
+      &\underoverset{epi}{\eta^{conc}_{X_1}}{\longrightarrow}& 
+    im(\eta^\sharp_{X_1})
+      &\underset{mono}{\longrightarrow}&
+    \sharp X_1
+    \\
+    \big\downarrow && \big\downarrow && \big\downarrow
+    \\
+    X_2 
+      &\underoverset{epi}{\eta^{conc}_{X_2}}{\longrightarrow}& 
+    im(\eta^\sharp_{X_2})
+      &\underset{mono}{\longrightarrow}&
+    \sharp X_2
+  }
+\]
+
+To see this, it is sufficient, by Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}, to show that $\eta^{conc}$ is a [[universal morphism]] in the sense of Def. \ref{UniversalArrow}. Hence consider any morphism $f \;\colon\; X_1 \to X_2$ with $X_2 \in \mathbf{H}_{conc} \hookrightarrow \mathbf{H}$. Then we need to show that there is a unique diagonal morphism as below, that makes the following _top left triangle_ [[commuting diagram|commute]]:
+
+$$
+  \array{
+    X_1 
+      &\overset{\phantom{AA} f \phantom{AA}}{\longrightarrow}& 
+    X_2
+    \\
+    {}^{\mathllap{epi}}\big\downarrow^{\mathrlap{\eta^{conc}_{X_1}}} 
+      &{}^{\mathllap{\exists !}}\nearrow& 
+    \big\downarrow^{\mathrlap{mono}}
+    \\
+    im(\eta^\sharp_{X_1}) 
+      &\underset{}{\longrightarrow}& 
+    \sharp X_2
+  }
+$$
+
+Now, from (eq:NaturalitySquareForConcretificationUnit), we have a [[commuting square]] as shown. Here the left morphism is an [[epimorphism]] by construction, while the right morphism is a [[monomorphism]] by assumption on $X_2$. With this, the [[(epi, mono) factorization system|epi/mono-factorization]] in Prop. \ref{SheafToposEpiMonoFactorization} says that there is a diagonal [[lift]] which makes _both_ triangles [[commuting diagram|commute]].
+
+It remains to see that the lift is unique with the property of making (just) the top left triangle commute. But this is equivalently the statement that the left morphism is an epimorphism, by Def. \ref{Monomorphism}.
+
+=--
 
 (...)
 
