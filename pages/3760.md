@@ -84,7 +84,7 @@ The study of group presentations, their transformations etc. forms part of [[com
 
 ## Presentations of monoids and other algebraic and categorical structures.
 
-The theory of group presentations generalisesto that of presentations of monoids and then to general [[rewriting]] systems.
+The theory of group presentations generalises to that of presentations of monoids and then to general [[rewriting]] systems.
 
 
 
