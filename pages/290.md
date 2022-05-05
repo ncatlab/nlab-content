@@ -1,4 +1,6 @@
 
+> This entry provides some broad pointers. For a detailed introduction see _[[geometry of physics -- perturbative quantum field theory]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -34,7 +36,6 @@ Historically quantum field theory grew out of attempts to combine [[classical fi
 Both these approaches try to capture the notion of a _full_ quantum field theory. On the other hand, much activity in physics is concerned with [[perturbative quantum field theory]]. This is a priori to be thought of as an approximation to a full quantum field theory akin to the approximation of a function by its Taylor series, but not the least because it is often the only available technique, the tools of perturbative quantum field theory are to some extent also taken as a definition of quantum field theory. 
 
 The gap for instance between the formal study of the [[AQFT]] axioms and physics as done in practice by physicists had to a large extent been due to the fact that [[AQFT]] had little to say about perturbative quantum field theory. But recently this has been changing. See [[perturbative quantum field theory]] for more.
-
 
 Recent times have seen major progress in understanding these axiomatizations and connecting them to the structures studied in [[physics]] (see the references below), but still the number of interesting phenomena in quantum field theory that physicists handle semi-rigorously and that are waiting for a fully formal understanding is large.
 
@@ -154,7 +155,7 @@ Ours is the age to figure this out.
 
   * [[Lagrangian]], [[extended Lagrangian]], [[action functional]]
 
-* [[geometry of physics]]
+* [[geometry of physics -- perturbative quantum field theory]]
 
 * [[QFT on non-commutative spacetime]]
 
@@ -169,6 +170,8 @@ The early history of the subject is outlined in
 
 
 Introductions include
+
+* _[[geometry of physics -- perturbative quantum field theory]]_
 
 * [[Arnold Neumaier]], chapter B of _[Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physfaq/physics-faq.html)_
 
