@@ -49,9 +49,15 @@ Discussion of implementation of this in [[Coq]] includes
 
 * [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
 
-Genealization to [[(n,1)-categories]] is discussed in
+Generalization to [[(n,1)-categories]] is discussed in
 
 * {#CapriottiKraus17} [[Paolo Capriotti]], [[Nicolai Kraus]], _Univalent Higher Categories via Complete Semi-Segal Types_ ([arXiv:1707.03693](https://arxiv.org/abs/1707.03693))
+
+and, by different means, in
+
+* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], _A type theory for synthetic $\infty$-categories_ ([arXiv:1705.07442](https://arxiv.org/abs/1705.07442))
+
+* {#Riehl18} [[Emily Riehl]], _The synthetic theory of ∞-categories vs the synthetic theory of ∞-categories_, talk at [Vladimir Voevodsky Memorial Conference 2018](http://www.math.ias.edu/vvmc2018) ([pdf](http://www.math.jhu.edu/~eriehl/Voevodsky.pdf))
 
 
 
