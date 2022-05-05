@@ -145,6 +145,8 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 
 * [[mathematical logic]]
 
+* [[logic symbols]]
+
 * [[type theory]], **logic**
 
 * [[2-type theory]], [[2-logic]]
