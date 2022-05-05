@@ -131,7 +131,9 @@ Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] 
 
 * M. Billo', B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
 
+* {#QuirozStefanski01} N. Quiroz, B. Stefanski Jr, _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
 
+* {#MMR06} Jaydeep Majumder, Subir Mukhopadhyay, Koushik Ray, _Fractional Branes in Non-compact Type IIA Orientifolds_, JHEP0611:008, 2006 ([arXiv:hep-th/0602135](https://arxiv.org/abs/hep-th/0602135))
 
 
 [[!redirects fractional D-branes]]
