@@ -59,6 +59,8 @@ In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  
 
 ## Related concepts
 
+* [[GCD ring]]
+
 * [[Dedekind domain]]
 
 * [[field]], [[field of fractions]]
