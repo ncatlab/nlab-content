@@ -1,4 +1,3 @@
-
 > this entry contains one chapter of _[[geometry of physics]]_. 
 
 > previous chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
