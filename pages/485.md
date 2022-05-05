@@ -22,7 +22,7 @@ The term **exact category** has several different meanings.  This page is about 
 
 ## Definition ##
 
-An **exact category** (in the sense of Barr) is a [[regular category]] in which every [[congruence]] is a [[kernel pair]] (that is, every internal [[equivalence relation]] is _effective_).  Exact categories are also called **effective regular categories**.
+An **exact category** (in the sense of Barr) is a [[regular category]] in which every [[congruence]] is a [[kernel pair]] (that is, every internal [[equivalence relation]] is _[[effective epimorphism|effective]]_).  Exact categories are also called **effective regular categories**.
 
 
 ## Remarks ##
