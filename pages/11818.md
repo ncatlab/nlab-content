@@ -1,4 +1,4 @@
 
-* [webpage](http://www.math.uni-muenster.de/reine/u/baptiste.morin/)
+* [webpage](https://www.math.u-bordeaux.fr/~bmorin/)
 
 category: people
