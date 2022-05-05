@@ -84,11 +84,19 @@ There is an inclusion of the absolute Galois group of the rational numbers into 
 
 ## References
 
+### General
+
 * {#Stix04} [[Jakob Stix]], _The Grothendieck-Teichm&#252;ller group and Galois theory of the rational numbers_, 2004 ([[StiXGaloisAndGT.pdf:file]])
 
 Discussion of the [[p-adic numbers|p-adic]] absolute Galois group as the [[etale fundamental group]] of a [[quotient]] of some [[perfectoid space]] is in 
 
 * {#Weinstein04} [[Jared Weinstein]], _$Gal(\overline{\mathbb{Q}}_p/\mathbb{Q}_p)$ as a geometric fundamental group_ ([arXiv:1404.7192](https://arxiv.org/abs/1404.7192), [workshop](https://www.mathi.uni-heidelberg.de/~G.QpAsPi1geom/))
+
+### In string theory
+
+Discussion in the context of [[string theory]] includes
+
+* [[Gregory Moore]], _Arithmetic and Attractors_ ([arXiv:hep-th/9807087](https://arxiv.org/abs/hep-th/9807087))
 
 category: Galois theory
 
