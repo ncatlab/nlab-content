@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -66,6 +66,10 @@ The RR field derives its name from the way it shows up when the [[supergravity]]
 For a quick review see for instance
 
 * {#Freed00} [[Daniel Freed]], example 2.10 _Dirac charge quantization and generalized differential cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+
+Discussion of the [[NSR-string|NSR]] [[string perturbation theory]] in RR-field background is in 
+
+* {#BerensteinLeigh99} [[David Berenstein]], Robert Leigh, _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D 60, 106002 (1999) ([arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104))
 
 ### Self-duality and quadratic form
  {#ReferencesSelfDuality}
