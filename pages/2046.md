@@ -61,10 +61,13 @@ An [[object]] which is a [[direct sum]] of simple objects is called a **[[semisi
 
 ### In an abelian category
 
-+-- {: .num_prop}
++-- {: .num_prop #SchurLemma}
 ###### Proposition
+**([[Schur's lemma]])**
 
-In an [[abelian category]] $C$, every [[morphism]] between simple objects is either a [[zero morphism]] or an [[isomorphism]]. If $C$ is also [[enriched category|enriched]] in finite-dimensional vector spaces over an [[algebraically closed field]], it follows that $\hom(X, Y)$ has [[dimension]] $0$ or $1$.
+In an [[abelian category]] $C$, every [[morphism]] between simple objects is either a [[zero morphism]] or an [[isomorphism]]. 
+
+If $C$ is also [[enriched category|enriched]] in [[finite-dimensional vector spaces]] over an [[algebraically closed field]], it follows that $\hom(X, Y)$ has [[dimension]] $0$ or $1$.
 
 =--
 
