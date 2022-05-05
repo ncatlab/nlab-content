@@ -185,10 +185,30 @@ This decomposition hence induces an [[action]] of the [[spin group]] $Spin(9,1)$
 
 
 
-### Automorphisms and $E_6$
+### Automorphisms and exceptional Lie groups
  {#Automorphisms}
 
-The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms]] of the vector space underlying the octonionic Albert algebra is  the [[exceptional Lie group]] [[E6]]${}_{(-26)}$. (see e.g. ([Manogue-Dray 09](#ManogueDray09))).
++-- {: .num_prop}
+###### Proposition
+**([[general linear group]] of $Mat_{3\times 3}^{herm}(\mathbb{O})$ preservin [[determinant]] is [[E6]])**
+
+The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms]] of the vector space underlying the octonionic Albert algebra is  the [[exceptional Lie group]] [[E6]]${}_{(-26)}$. 
+
+=--
+
+(see e.g. ([Manogue-Dray 09](#ManogueDray09))).
+
++-- {: .num_prop #JordanAutomorphisms}
+###### Proposition
+**([[Jordan algebra]] [[automorphism group]] of $Mat_{3\times 3}^{herm}(\mathbb{O})$ is [[F4]])**
+
+The [[group]] of [[automorphism]] with resppect to the [[Jordan algebra]] structure on the octonionic Albert algebra is the [[exceptional Lie group]] [[F4]].
+
+=--
+
+(e.g. [Yokota 09, section 2.2](#Yokota09))
+
+
 
 
 ## References
@@ -196,6 +216,8 @@ The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms
 * {#Albert} [[Abraham Adrian Albert]], _On a Certain Algebra of Quantum Mechanics_, Annals of Mathematics, Second Series 35 (1): 65&#8211;73, (1934)(doi:[10.2307/1968118](http://dx.doi.org/10.2307/1968118), [JSTOR](https://www.jstor.org/stable/1968118)).
 
 * {#Baez02} [[John Baez]], [section 3.4](http://math.ucr.edu/home/baez/octonions/node12.html) _$\mathbb{O}P^2$ and the Exceptional Jordan Algebra_ of _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
+
+* {#Yokota09} Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](https://arxiv.org/abs/0902.0431))
 
 * {#ManogueDray09} [[Corinne Manogue]], [[Tevian Dray]], _Octonions, $E_6$, and Particle Physics_, J.Phys.Conf.Ser.254:012005,2010 ([arXiv:0911.2253](http://arxiv.org/abs/0911.2253))
 
