@@ -3360,6 +3360,18 @@ Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). Then
        }
      $$
 
+     which equivalently means that if $Y \in Im(\bigcirc)$ the operation of [[composition|precomposition]] with the unit $\eta_X$ yields a [[bijection]] of [[hom-sets]]
+
+     \[
+       \label{ModalityUnitPrecomposition}
+       (-)\circ \eta_X
+       \;\colon\;
+       Hom_{\mathcal{D}}(\bigcirc X, Y)
+       \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+       Hom_{\mathcal{D}}(X, Y)
+       \,,
+     \]
+
 1. a _[[comodal operator]] on $\mathcal{D}$_ is
 
    1. an [[endofunctor]]
@@ -3399,6 +3411,18 @@ Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). Then
           \mathrlap{\Box X\;\;\;} && \underset{\exists !}{\longleftarrow} && Y \in Im( \Box )
        }
      $$
+
+     which equivalently means that if $Y \in Im(\bigcirc)$ the operation of [[composition|postcomposition]] with the counit $\epsilon_X$ yields a [[bijection]] of [[hom-sets]]
+
+     \[
+       \label{CoModalityCoUnitPostcomposition}
+       \epsilon_X \circ (-)
+       \;\colon\;
+       Hom_{\mathcal{D}}(Y, \Box X)
+       \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+       Hom_{\mathcal{D}}(Y , X)
+       \,,
+     \]
 
 =--
 
