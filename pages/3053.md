@@ -56,6 +56,10 @@ Fibrations and opfibrations on a category $C$ (or more generally an object of a 
 ## Remark
 A bifibration $F:E\to B$ such that $F^{op}:E^{op}\to B$ is a bifibration as well is called a _trifibration_ (cf. Pavlovi&#263; 1990, p.315).
 
+## Bifibration of model categories
+
+In ([CagneMelli&egrave;s](#CagMell)) the authors develop a notion of **Quillen bifibration** which combines the two notions of Grothendieck bifibration and of [[Quillen model structure]], establishing conditions for when in a bifibration model structures on the fibers and on the base combine to give one on the total category. 
+
 ## Bifibration of bicategories
 
 The basic theory of [[2-fibrations]], fibrations of bicategories, is developed in ([Buckley](#Buckley)). One (unpublished) proposal by Buckley and Shulman, for a "2-bifibration", a bifibration of [[bicategories]], is a functor of bicategories that is both a 2-fibration and a 2-opfibration. This should correspond to a pseudofunctor into $2 Cat_{adj}$, just as for 1-categories.  There is a difference from this case, however, in that although a 2-fibration (corresponding to a "doubly contravariant" pseudofunctor $B^{coop} \to 2Cat$) has both cartesian lifts of 2-cells and 1-cells, a 2-opfibration (corresponding to a totally *covariant* pseudofunctor $B\to 2Cat$) has opcartesian lifts of 1-cells but still *cartesian* lifts of 2-cells.
@@ -70,7 +74,7 @@ The basic theory of [[2-fibrations]], fibrations of bicategories, is developed i
 
 ## References
 
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations, [arXiv.1310.0263](http://arxiv.org/abs/1310.0263v1) (2013).
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, ([arXiv.1310.0263](http://arxiv.org/abs/1310.0263v1)).
 
 * [[Dusko Pavlovic|Duško Pavlović]], _Categorical Interpolation: Descent and the Beck-Chevalley Condition without Direct Images_ , pp.306-325  in _Category theory Como 1990_, LNM **1488** Springer Heidelberg 1991.
 
@@ -78,5 +82,8 @@ The basic theory of [[2-fibrations]], fibrations of bicategories, is developed i
  {#vonGlehn}
 
 * [[Mitchell Buckley]], _Fibred 2-categories and bicategories_, ([arXiv:1212.6283](https://arxiv.org/abs/1212.6283)) {#Buckley}
+
+* {#CagMell} [[Pierre Cagne]], [[Paul-André Melliès]], _On bifibrations of model categories_, ([arXiv:1709.10484](https://arxiv.org/abs/1709.10484))
+
 
 [[!redirects bifibrations]]
