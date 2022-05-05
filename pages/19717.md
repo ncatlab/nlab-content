@@ -3,7 +3,7 @@
 * table of contents
 {:toc}
 
-In [[computer science]], originally in database theory, **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure.
+In [[computer science]], originally in database theory, **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The some construction has been devised on numerous occasions ([Hedges](#Hedges)).
 
 ## Definition
 
@@ -28,6 +28,12 @@ $$
 
 They are also [[coalgebra over a comonad|coalgebras]] for the [[store comonad]].
 
+## Generalizations
+
+Many kinds of generalization have been proposed - asymmetric lenses, bimorphic lens, etc.
+
+One generalization considers the lenses from the previous section as _monomorphic_ by contrast to _polymorphic_ lens which go between pairs of types, $\lambda: (S, T) \to (A, B)$, consisting of a view function, $v_{\lambda}: S \to A$, and an update function $u_{\lambda}: S \times B \to T$. Without further conditions, these are known as _bimorphic lenses_. To impose conditions comparable to the lens laws above requires that the types be related.
+
 ##References
 
 * Bohannon, A., Vaughan, J. and Pierce, B. (2006)  Relational Lenses: A language for updatable views. Proceedings of Principles of Database Systems (PODS) 2006
@@ -41,6 +47,6 @@ They are also [[coalgebra over a comonad|coalgebras]] for the [[store comonad]].
 
 * Jeremy Gibbons, [Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
 
-* [[Jules Hedges]], _Lenses for philosophers_, [blog post](https://julesh.com/2018/08/16/lenses-for-philosophers/)
+* {#Hedges} [[Jules Hedges]], _Lenses for philosophers_, [blog post](https://julesh.com/2018/08/16/lenses-for-philosophers/)
 
 * [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
