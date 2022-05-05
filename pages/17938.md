@@ -23,7 +23,7 @@ One may characterize exactly which [[Hausdorff spaces]] arise as the continuous 
 
 One can similarly show that there is a continuous surjection $\mathbb{R}^1 \to \mathbb{R}^2$ from the [[real line]] to the [[plane]] (both regarded as [[Euclidean spaces]] equipped with their [[metric topology]]), and similarly characterize which spaces arise as continuous images of the real line. These are sometimes called *$\sigma$-Peano spaces*. 
 
-Notice that, while of course there is also an injection $\mathbb{R} \to \mathbb{R}^2$, there is _no_ [[homeomorphism]] between these two spaces, or generally between [[Euclidean  spaces]] of differing [[dimension]]. This is the statement of _[[topological invariance of dimension]]_.
+Notice that, while of course there is also an injection $\mathbb{R} \to \mathbb{R}^2$, there is _no_ [[homeomorphism]] between these two spaces, or generally between [[Euclidean spaces]] of differing [[dimension]]. This is the statement of _[[topological invariance of dimension]]_.
 
 ## Construction 
 
