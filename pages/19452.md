@@ -1907,17 +1907,17 @@ $\,$
 ###### Definition
 **([[reflective subcategory]] and [[coreflective subcategory]])**
 
-A [[fully faithful functor]] 
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}) and
 
 $$
   \mathcal{C}
-  \hookrightarrow
+  \overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}
   \mathcal{D}
 $$
 
-hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is called 
+a [[full subcategory]]-inclusion (hence a [[fully faithful functor]] Def. \ref{FullyFaithfulFunctor}). This is called:
 
-1. a _[[reflective subcategory]] inclusion_ if this functor has a [[left adjoint]] $L$ def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+1. a _[[reflective subcategory]] inclusion_ if the inclusion functor $\iota$ has a [[left adjoint]] $L$ def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
 
    $$
      \mathcal{C}
@@ -1931,7 +1931,7 @@ hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is call
 
    then called the _[[reflector]]_;
 
-1. _[[coreflective subcategory]]_ inclusion if this functor has a [[right adjoint]] $R$ (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+1. a _[[coreflective subcategory]]_-inclusion if the inclusion functor $\iota $ has a [[right adjoint]] $R$ (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
    
    $$
      \mathcal{C}
@@ -1970,10 +1970,104 @@ of the [[category of sets]] (Example \ref{CategoryOfSets}) into the [[category]]
 
 =--
 
-+-- {: .num_prop #}
-###### Proposition
 
-Let 
++-- {: .num_defn #ModalOperator}
+###### Definition
+**([[modality]])**
+
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). Then 
+
+1. a _[[modal operator]] on $\mathcal{D}$_ is
+
+   1. an [[endofunctor]] 
+
+      $$
+        \bigcirc \;\colon\; \mathcal{D} \to \mathcal{D}
+      $$
+
+      whose [[full subcategory|full]] [[essential image]] we denote by
+
+      $$
+        Im(\bigcirc) 
+          \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+        \mathcal{D}
+        \,,
+      $$
+
+   1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+ 
+      \[
+        \label{UnitOfAModalOperator}
+        X \overset{\eta_X}{\longrightarrow} \bigcirc X
+      \]
+
+      for all [[objects]] $X \in \mathcal{D}$, 
+      to be called the _unit morphism_;
+
+   such that:
+
+   * for every [[object]] $Y \in Im(\bigcirc) \hookrightarrow \mathcal{D}$ in the [[essential image]] of $\bigcirc$, every [[morphism]] $f$ into $Y$ factors _uniquely_ through the unit (eq:UnitOfAModalOperator)
+
+     $$
+       \array{
+         && X
+         \\
+         & {}^{\mathllap{ \eta_X }}\swarrow && \searrow^{\mathrlap{f}}
+         \\
+         \mathrlap{\bigcirc X\;\;\;\;} && \underset{\exists !}{\longrightarrow} &&  Y & \in Im(\bigcirc)
+       }
+     $$
+
+1. a _[[comodal operator]] on $\mathcal{D}$_ is
+
+   1. an [[endofunctor]] 
+
+      $$
+        \Box \;\colon\; \mathcal{D} \to \mathcal{D}
+      $$
+
+      whose [[full subcategory|full]] [[essential image]] we denote by
+
+      $$
+        Im( \Box ) 
+          \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
+        \mathcal{D}
+      $$
+
+   1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+ 
+      \[
+        \label{CounitOfModalOperator}
+        \Box X \overset{ \epsilon_X }{\longrightarrow} X
+      \]
+
+      for all [[objects]] $X \in \mathcal{D}$, 
+      to be called the _counit morphism_;
+
+   such that:
+
+   * for every [[object]] $Y \in Im( \Box ) \hookrightarrow \mathcal{D}$ in the [[essential image]] of $\Box$, every [[morphism]] $f$ out of $Y$ factors _uniquely_ through the counit (eq:UnitOfAModalOperator)
+
+     $$
+       \array{
+          && X
+          \\    
+          & {}^{\mathllap{\epsilon_X}}\nearrow && \nwarrow^{\mathrlap{f}}
+          \\
+          \mathrlap{\Box X\;\;\;} && \underset{\exists !}{\longleftarrow} && Y \in Im( \Box )
+       }
+     $$
+
+For $\bigcirc$ a [[modal operator]], we call the [[objects]] in $Im( \bigcirc ) \hookrightarrow \mathcal{D}$ its _[[modal objects]]_, and for $\Box$ a [[comodal operator]] we call the [[objects]] in $Im( \Box )$ its _[[comodal objects]]_.
+
+=--
+
+
++-- {: .num_prop #ModalOperatorsEquivalentToReflectiveSubcategories}
+###### Proposition
+**([[modal operators]] equivalent to [[reflective subcatgegories]])**
+
+If 
 
 $$
   \mathcal{C}
@@ -1984,7 +2078,7 @@ $$
   \mathcal{D}
 $$
 
-be a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}). Then the [[composition|composite]]  
+is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}). Then the [[composition|composite]]  
 
 $$
   \bigcirc
@@ -2000,24 +2094,88 @@ $$
   X \overset{\eta_X}{\longrightarrow} \bigcirc X
 $$
 
-is such that every [[morphism]] in $\mathcal{D}$ into an [[object]] in the image of $\iota$ has a _unique_ factorization through $\eta$:
+is a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}).
+
+
+Dually, if
 
 $$
-  \array{
-    && X
-    \\
-    & {}^{\eta_X}\swarrow && \searrow^{\mathrlap{f}}
-    \\
-    \bigcirc X && \underset{\exists !}{\longrightarrow} && \iota S
-  }
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longleftarrow}}
+      {\overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{D}
 $$
+
+is a [[coreflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}). Then the [[composition|composite]]  
+
+$$
+  \Box
+  \;\coloneqq\;
+  \iota \circ R
+  \;\colon\;
+  \mathcal{D} \longrightarrow \mathcal{D}
+$$
+
+equipped with the [[adjunction counit]] [[natural transformation]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
+$$
+  \Box X \overset{ \epsilon_X }{\longrightarrow} X
+$$
+
+is a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}).
+
+Conversely:
+
+If an [[endofunctor]] $\bigcirc \;\colon\; \mathcal{D} \to \mathcal{D}$ with [[natural transformation]] $X \overset{\eta_X}{\to} \bigcirc X$ is a [[modal operator]] on a [[category]] $\mathcal{D}$ (Def. \ref{ModalOperator}), then the inclusion of its [[full subcategory|full]] [[essential image]] is a [[reflective subcategory]] inclusion (Def. \ref{ReflectiveSubcategory}) with [[reflector]] given by the [[corestriction]] of $\bigcirc$ to its image:
+
+$$
+  Im( \bigcirc )
+    \underoverset
+      {\underset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}}
+      {\overset{ \bigcirc }{\longleftarrow}}
+      {}
+  \mathcal{D}
+  \,.
+$$
+
+Dually, if an [[endofunctor]] $\Box \;\colon\; \mathcal{D} \to \mathcal{D}$ with [[natural transformation]] $\Box X \overset{\epsilon_X}{\longrightarrow} X$ is a [[comodal operator]] (Def. \ref{ModalOperator}), then the inclusion of its [[full subcategory|full]] [[essential image]] is a [[coreflective subcategory]] inclusion (Def. \ref{ReflectiveSubcategory}) with [[coreflector]] given by the [[corestriction]] of $\Box$ to its image
+
+$$
+  Im( \Box )
+    \underoverset
+      {\underset{ \Box }{\longleftarrow}}
+      {\overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}}
+      {}
+  \mathcal{D}
+  \,.
+$$
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is the special case of Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} for $R = \iota$ being [[fully faithful functor|fully faithful]].
+The first two statements are immedialy a special case of the characterization of [[adjunctions]] via [[universal morphisms]] in Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}: Using that $R = \iota$ is here assumed to be [[fully faithful functor|fully faithful]], the uniqueness of $\tilde f$ in the [[universal morphism]]-factorization condition (eq:UniversalArrowFactorization)
+
+$$
+  \array{
+    && c 
+    \\
+    & {}^{\mathllap{\eta_c}}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R(L(c)) &&\underset{R (\widetilde f)}{\longrightarrow}&& R(d)
+    \\
+    \\
+    L(c) &&\underset{ \exists ! \, \widetilde f}{\longrightarrow}&& d
+  }
+$$
+
+implies that also $R(\widetilde f) = \iota(widetilde f)$ is the unique morphism making that triangle commute. 
+
+Similarly for the converse: The assumption on a [[modal operator]] $\bigcirc$ is just so as to make its unit $\eta$ be a [[universal morphism]] (Def. \ref{UniversalArrow}) into the inclusion functor $\iota$ of its [[essential image]].
 
 =--
 
