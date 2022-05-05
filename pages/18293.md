@@ -3,6 +3,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 [[arithmetic]] with [[cardinals]]. a kind of [[transfinite arithmetic]]
