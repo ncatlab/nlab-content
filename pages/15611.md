@@ -1,8 +1,23 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-[[non-Euclidean geometry]] for positive curvature.
+[[non-Euclidean geometry]] for [[constant function|constant]] [[positive number|positive]] [[sectional curvature]].
 
 ## Related concepts
 
@@ -13,6 +28,8 @@
 | [[elliptic geometry]]   |
 
 * [[trigonometry]]
+
+* [[spherical space form]]
 
 ## References
 
