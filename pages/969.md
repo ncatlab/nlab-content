@@ -45,7 +45,7 @@ A **localization** of $C$ by $W$ (or "at $W$") is
 
 * a (generally [[large category|large]], see below) [[category]] $C[W^{-1}]$;
 
-* and a functor $Q : C \to C[W^{-1}]$;
+* and a [[functor]] $Q : C \to C[W^{-1}]$;
 
 * such that
 
