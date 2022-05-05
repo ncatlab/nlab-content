@@ -61,6 +61,10 @@ A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[A
 
 * [[division algebra and supersymmetry]]
 
+* [[cross product]]
+
+* [[parallelizable manifold|parallelizable]] [[n-sphere]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 * [[Arf-Kervaire invariant problem]]
