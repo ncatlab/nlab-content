@@ -1709,7 +1709,7 @@ Further exposition includes
 
 * [[Ronnie Brown]], _From groups to groupoids: A brief survey_ at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf), Bulletin of the London Mathematical Society 19(2):113-134, [doi](https://doi.org/10.1112/blms/19.2.113)
 
-Technical discussion is for instance in the following references.
+Technical discussion can be found, for instance, in the following references.
 
 * [[Philip Higgins]], _Presentations of Groupoids, with Applications to Groups_, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
 
