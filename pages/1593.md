@@ -43,6 +43,10 @@ Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes bac
 
 ## Related concepts
 
+* [[fractional D-brane]]
+ 
+  [[permutation D-brane]]
+
 * [[O-plane]]
 
 * [[worldsheet parity operator]]
@@ -52,6 +56,8 @@ Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes bac
 * [[real-oriented cohomology theory]]
 
 * [[higher orientifold]]
+
+
 
 ## References
  {#References}
