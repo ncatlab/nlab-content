@@ -74,7 +74,7 @@ For a Higgs bundle to admit a harmonic metric (...) it needs to be _stable_ (...
 
 ### In nonabelian Hodge theory
 
-In [[nonabelian Hodge theory]] the [[moduli space]] of stable Higgs bundles overa [[Riemann surface]] $X$ is identified with that of  [[special linear group]] $SL(n,\mathbb{C})$ [[irreducible representations]] of its [[fundamental group]] $\pi_1(X)$.
+In [[nonabelian Hodge theory]] the [[moduli space]] of stable Higgs bundles over a [[Riemann surface]] $X$ is identified with that of  [[special linear group]] $SL(n,\mathbb{C})$ [[irreducible representations]] of its [[fundamental group]] $\pi_1(X)$.
 
 ## Examples
 
