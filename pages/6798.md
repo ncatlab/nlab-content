@@ -25,7 +25,7 @@
 =--
 =--
 
-#Comntents#
+#Contents#
 * table of contents
 {:toc}
 
