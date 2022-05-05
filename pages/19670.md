@@ -39,11 +39,14 @@ $$
   \,.
 $$
 
-Moreover, an explicit isomorphism is given by the Lefschetz-Dold index map
+Moreover, an explicit isomorphism is given by the Lefschetz-Dold index map.
 
 =--
 
 This is due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [tom Dieck-Petrie 78](#tomDieckPetrie78), [Lück 05, theorem 1.13](#Lueck05).
+
+From a broader perspective, this statement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]] (e.g. [Schwede 15, theorem 6.14](#Schwede15)), see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra). 
+
 
 ## References
 
@@ -55,3 +58,6 @@ This is due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79,
 
 
 * {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
+
+* {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
