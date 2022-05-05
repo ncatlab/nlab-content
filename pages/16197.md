@@ -57,6 +57,12 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 * {#CompatibilityWithsusybreaking} naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)) notably with a Starobisnky potential naturally induced from [[gravitino condensation]] ([Alexandre-Houston-Mavromatos 14](#AlexandreHoustonMavromatos14)).
 
+<center>
+<img src="https://ncatlab.org/nlab/files/DalianisDiagram.jpg" width="600">
+</center>
+
+> graphics grabbed from [Dalianis 16, p. 8](#Dalianis16)
+
 ## References
 
 ### General
@@ -166,6 +172,8 @@ and is further developed in the following articles:
 
 * Andrea Addazi, [[Sergei Ketov]], _Energy conditions in Starobinsky supergravity_ ([arXiv:1701.02450](https://arxiv.org/abs/1701.02450))
 
+* [[John Ellis]], Dimitri V. Nanopoulos, [[Keith Olive]], _From $R^2$ Gravity to No-Scale Supergravity_, Phys. Rev. D 97, 043530 (2018) ([arXiv:1711.11051](https://arxiv.org/abs/1711.11051))
+
 * Hiroyuki Abe, Yermek Aldabergenov, Shuntaro Aoki, [[Sergei Ketov]], _Massive vector multiplet with Dirac-Born-Infeld and new Fayet-Iliopoulos terms in supergravity_ ([arXiv:1808.00669](https://arxiv.org/abs/1808.00669))
 
 ### Embedding into superstring theory
@@ -182,5 +190,7 @@ Embedding into [[superstring theory]] is discussed in
 * [[Luis Alvarez-Gaume]], [[Alex Kehagias]], [[Costas Kounnas]], [[Dieter Luest]], Antonio Riotto, _Aspects of Quadratic Gravity_ ([arXiv:1505.07657](http://arxiv.org/abs/1505.07657))
 
 * Benedict Broy, David Ciupke, FranciscoG. Pedro, Alexander Westphal, _Starobinsky-Type Inflation from $\alpha'$-Corrections_, JCAP01(2016)001 ([arXiv:1509.00024](https://arxiv.org/abs/1509.00024))
+
+* K. Sravan Kumar, _Inflaton candidates: from string theory to particle physics_, PhD thesis ([arXiv:1808.03701](https://arxiv.org/abs/1808.03701))
 
 [[!redirects Starobinsky inflation]]
