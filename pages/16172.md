@@ -22,22 +22,47 @@ In ([[pseudo-Riemannian geometry|pseudo-]])[[Riemannian geometry]], a _cone_ is 
 
 ## Examples
 
+### Spherical cones
+ {#SphericalCones}
+
+The metric cone on the [[round sphere]] is simply [[Euclidean space]]
+
+$$
+  C(S^n) \simeq \mathbb{R}^{n+1} \setminus \{0\}
+$$
+
+and hence may in fact be continued non-singularly also at the cone tip.
+
+For $G$ a [[finite group]] with a [[free action|free]] [[action]] on the [[round sphere]] $S^n$, the [[quotient space]] $S^n/G$ exists as a [[Riemannian manifold]]. The metric cone $C(S^n/G)$ on this is singular at the origin as soon as $G$ is not the [[trivial group]]. 
+
+If here $G = \mathbb{Z}_n$ is a [[cyclic group]] one says that this cone is obtained from flat [[Euclidean space]] by introducing a "deficit angle".
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ConicalSingularity.jpg" width="300">
+</center>
+
+If one passes beyond [[smooth manifolds]] to [[orbifolds]], then the cone tip in $C(S^n/G)$ may be included. The result is the [[orbifold]] $\mathbb{R}^{n+1}\sslash G$ which is the [[homotopy quotient]] of [[Euclidean space]] by the linear $G$-[[action]] ($G$-[[representation]]).
+
+Such conical singularities appear for instance in the [[far-horizon geometry]] of [[BPS state|BPS]] [[black branes]]. Special cases are [[ADE-singularities]].
+
+
 ### $G_2$-manifolds
  {#ExamplesG2Manifolds}
 
-Three examples of cones that [[simply-connected]] [[G2-manifolds]] seem to be known: cones on $\mathbb{C}P^3$, $SU(3)/U(1)\times U(1)$ and $S^3 \times S^3$. ([Atiyah-Witten 01](#AtiyahWitten01))
+Three examples of cones admitted by [[simply-connected]] [[G2-manifolds]] seem to be known: cones on $\mathbb{C}P^3$, $SU(3)/U(1)\times U(1)$ and $S^3 \times S^3$. ([Atiyah-Witten 01](#AtiyahWitten01))
 
 ## Related concepts
 
 * [[conifold]]
-
-* [[M-theory on G2-manifolds]]
 
 * [[piecewise flat spacetime]]
 
 * [[Sasakian manifold]]
 
 * [[conical space]]
+
+* [[M-theory on G2-manifolds]]
+
 
 ## References
 
