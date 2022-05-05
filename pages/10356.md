@@ -60,11 +60,11 @@ In terms of the [[worldvolume]] [[gauge field theory]] the equivalence (eq:KTheo
 
 is supposed to be exhibited by passage from the [[Higgs branch]] to the [[Coulomb branch]]:
 
-The first key insight is due to [Kronheimer 89](ALE+space#Kronheimer89). He showed that the (resolutions of) the orbifold quotients C^2/Gamma for $\Gamma$ a [[finite subgroup of SU(2)]] are precisely the generic form of the gauge orbits of the direct product of $U(n_i)$-s acting in the evident way on the direct sum of $Hom(C^{n_i}, C^{n_j})$-s, where $i$ and $j$ range over the [[vertices]] of the [[Dynkin diagram]], and $(i,j)$ over its [[edges]].
+The first key insight is due to [Kronheimer 89](ALE+space#Kronheimer89). He showed that the (resolutions of) the orbifold quotients $\mathbb{C}^2/\Gamma$ for $\Gamma$ a [[finite subgroup of SU(2)]] are precisely the generic form of the gauge orbits of the direct product of $U(n_i)$-s acting in the evident way on the direct sum of $Hom(C^{n_i}, C^{n_j})$-s, where $i$ and $j$ range over the [[vertices]] of the [[Dynkin diagram]], and $(i,j)$ over its [[edges]].
 
 This becomes more illuminating when interpreted in terms of [[Yang-Mills theory|Yang-Mills]] [[gauge theory]]: in a "[[quiver gauge theory]]" the [[gauge group]] is a [[direct product group]] of [[circle group]] $U(n_i)$ factors associated with [[vertices]] of a [[quiver]], and the particles which are charged under this gauge group arrange, as a linear representation, into a [[direct sum]] of $Hom(C^{n_i}, C^{n_j})$-s, for each edge of the quiver. 
 
-Pick one such particle, and follow it around as the gauge group transforms it. The space swept out is its gauge orbit, and Kronheimer says that if the quiver is a Dynkin diagram, then this gauge orbit looks like $\mathbb{C}^2/Gamma$.
+Pick one such particle, and follow it around as the gauge group transforms it. The space swept out is its gauge orbit, and Kronheimer says that if the quiver is a Dynkin diagram, then this gauge orbit looks like $\mathbb{C}^2/\Gamma$.
 
 On the other extreme, gauge theories are of interest whose gauge group is not a big direct product, but is a [[simple Lie group]], in the technical sense, such as the [[special unitary group]] $SU(N)$ or the [[exceptional Lie group]] $E_8$. The mechanism that relates the two classes of examples is [[spontaneous symmetry breaking]] ("[[Higgs mechanism|Higgsing]]"): the ground state energy of the field theory may happen to be achieved by putting the fields at any one point in a higher dimensional space of field configurations, acted on by the gauge group, and fixing any one such point "spontaneously" singles out the corresponding [[stabilizer subgroup]]. 
 
