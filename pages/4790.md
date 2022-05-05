@@ -75,6 +75,9 @@ by
 
 > The name "complex group" formerly advocated by me in allusion to line complexes, as these are defined by the vanishing of antisymmetric bilinear forms, has become more and more embarrassing through collision with the word "complex" in the connotation of complex number. I therefore propose to replace it by the corresponding Greek adjective "symplectic." Dickson calls the group the "Abelian linear group" in homage to Abel who first studied it.
 
+On [[homotopy groups]]:
+
+* {#MimuraToda63} Mamoru Mimura, Hiroshi Toda, _Homotopy groups of symplectic groups_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 251-273 ([Euclid:1250524819](https://projecteuclid.org/euclid.kjm/1250524819))
 
 [[!redirects symplectic group]]
 [[!redirects symplectic groups]]
