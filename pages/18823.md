@@ -683,7 +683,7 @@ saying that all [[compactly supported distributions]] arise from linear off-shel
 For **proof** see at _[[distributions are the smooth linear functionals]]_, [this prop.](distributions+are+the+smooth+linear+functionals#CompactlySupportedDistributionsAreTheSmoothLinearFunctionals)
 
 The identification from prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} of linear off-shell observables
-with [[compactly  supported distributions]] makes available powerful tools from [[functional analysis]]. The key fact is the
+with [[compactly supported distributions]] makes available powerful tools from [[functional analysis]]. The key fact is the
 following:
 
 
@@ -3291,8 +3291,6 @@ $$
 
 
 =--
-
-
 
 Below we consider _[[quantum states]]_. These are defined just as in def. \ref{ClassicalState}, only that now the algebra of observables is equipped with another product, which changes the meaning of the product expression $A^\ast A$ and hence the positivity condition in def. \ref{StateOnAStarAlgebra}.
 
