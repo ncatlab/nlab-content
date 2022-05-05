@@ -138,6 +138,113 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
 
 
 
+
+### In terms of smashing localization
+ {#InTermsOfSmashingLocalization}
+
+We collect some facts from [Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86)
+
+> currently bare bones, using definitions and notation from [Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86) without further ado
+
++-- {: .num_prop #FPrimeLocalizationIsSmashingLocalization}
+###### Proposition
+
+The [[localization]] of $G Spectra$ at the $\mathcal{F}'$-equivalences is a [[smashing localization]], given by smashing with 
+
+$$
+  \tilde E \mathcal{F}
+$$
+
+In particular, we have
+
+$$
+  Hom_{G Spectra}\left( 
+    \tilde E \mathcal{F} X, 
+    \tilde E \mathcal{F} Y
+  \right)
+  \;\simeq\;
+  Hom_{G Spectra}\left( 
+    X, 
+    \tilde E \mathcal{F} Y
+  \right)
+$$
+
+
+=--
+
+([Lewis-May-Steinberger 86, Prop. II 9.1, 9.2 & top of p. 109](#LewisMaySteinberger86))
+
++-- {: .num_remark #LocalizationBySmashingWithtildeEF}
+###### Remark
+
+Hence
+
+$$
+  (L_{\mathcal{F}[N]'})_{X,Y}
+  \coloneqq
+  Hom_{G Spectra}(X, (S^0 \to \tilde E \mathcal{F}) \wedge Y)
+  \;\colon\;
+  Hom_{G Spectra}(X,Y)
+    \longrightarrow
+  Hom_{L_{\mathcal{F}'} G Spectra}(X,Y)
+$$
+
+is $\mathcal{F}'$-localization.
+
+=--
+
++-- {: .num_lemma #GeometricFixedPointsInTermsOfPlainFixedPoints}
+###### Lemma
+
+We have an equivalence
+
+$$
+  \Phi^N \Sigma^\infty_G X \;\simeq\;
+  \big(
+    \tilde E \mathcal{F}[N]
+    \;\wedge\;
+    \Sigma^\infty_G X
+  \big)^N
+  \,.
+$$
+
+=--
+
+([Lewis-May-Steinberger 86, Cor. 9.9](#LewisMaySteinberger86))
+
+
+We will also need this here:
+
++-- {: .num_lemma #FixedPointSpectrumOfSmashProduct}
+###### Lemma
+
+For $X$ a [[G-CW-complex]] $E$ a [[G-spectrum|G-]] [[CW-spectrum]] and $N \subset G$ a [[normal subgroup]], the partial $N$-[[fixed point spectrum]] functor on spectra and the plain fixed point functor on spaces are compatible with smash product:
+
+$$
+  \left(
+     \tilde E \mathcal{F}[N]
+     \wedge E 
+     \wedge X
+  \right)^N
+  \;\simeq\;
+  \left(
+     \tilde E \mathcal{F}[N]
+     \wedge E 
+  \right)
+     \wedge X^N
+$$
+
+=--
+
+([Lewis-May-Steinberger 86, prop. II 9.12](#LewisMaySteinberger86))
+
+
+
+
+
+
+
+
 ### As inversion of Euler classes
  {#AsInversionOfEulerClasses}
 
@@ -270,9 +377,10 @@ of $V = V_2 - V_1$.
 
 ([Lewis-May-Steinberger 86, chapter II, prop. 9.13](#LewisMaySteinberger86))
 
-+-- {: .num_defn #CanonicalComparisonMap}
-###### Definition
-**(canonical comparison map to partial geometric fixed point cohomology)**
+
++-- {: .num_prop #CanonicalComparisonMap}
+###### Proposition
+**(comparison map to partial geometric fixed point cohomology)**
 
 Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} provides a canonical comparison morphism, to be denoted
 
@@ -287,9 +395,7 @@ Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} prov
   (\Phi^N E)^\bullet_{G/N}(X)
 \]
 
-from the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in $E$ to the those with [[coefficients]] in the partial geometric fixed point spectrum:
-
-The morphism is the component of the [[colimit|colimiting]] [[cocone]](eq:ColimitConstructionForCohomologyWithCoeffsInPartialGeometricFixedPointSpectra) at stage $V = 0$:
+from the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in $E$ to those with [[coefficients]] in the partial geometric fixed point spectrum: Namely the component of the [[colimit|colimiting]] [[cocone]](eq:ColimitConstructionForCohomologyWithCoeffsInPartialGeometricFixedPointSpectra) at stage $V = 0$:
 
 $$
   \array{
@@ -306,8 +412,104 @@ $$
   }
 $$
 
+This component is equal to the following composite of isomorphisms with $\mathcal{F}[N]'$-localization $L_{\mathcal{F}[N]'}$:
+
+\[
+  \label{LocalizationIsComparisonMorphism}
+  \begin{aligned}
+  p_E^N(X)
+  \;\colon\;
+  E^{\epsilon^\ast \alpha}(\epsilon^\sharp X)
+  & =
+  Hom_{G Spectra}\left( 
+    \epsilon^\sharp \Sigma^\infty_{G/N} X  
+    \;,\;  
+    \Sigma^\infty_G S^{\epsilon \alpha} \wedge E
+  \right)
+  \\
+  & \simeq
+  Hom_{G Spectra}\left( 
+    \epsilon^\sharp \Sigma^\infty_{G/N} X  
+    \;,\;  
+    \Sigma^\infty_G S^{\epsilon \alpha} \wedge S^0 \wedge E
+  \right)
+  \\
+  & 
+  \overset{ L_{\mathcal{F}[N]'} }{\longrightarrow}
+  Hom_{G Spectra}\left( 
+    \epsilon^\sharp \Sigma^\infty_{G/N} X  
+    \;,\;  
+    \Sigma^\infty_G S^{\epsilon \alpha} \wedge \tilde E \mathcal{F}[N]\wedge E
+  \right)
+  \\
+  & \simeq
+  Hom_{G/N Spectra}\left( 
+     \Sigma^\infty_{G/N} X
+    \;,\; 
+    \left(    
+       \Sigma^\infty_G S^{\epsilon^\ast \alpha} 
+         \wedge 
+       \tilde E \mathcal{F}[N] \wedge E
+    \right)^N
+  \right)
+  \\
+  & \simeq
+  Hom_{G/N Spectra}\left( 
+     \Sigma^\infty_{G/N} X
+    \;,\; 
+    \left(    
+      S^{\epsilon^\ast \alpha} 
+    \right)^N
+         \wedge 
+    \left(
+       \tilde E \mathcal{F}[N] \wedge E
+    \right)^N
+  \right)
+  \\  
+  & \simeq
+  Hom_{G/N Spectra}\left( 
+     \Sigma^\infty_{G/N} X
+    \;,\; 
+    S^{\alpha}
+    \wedge 
+    \Phi^N E
+  \right)  
+  \\
+  & =
+  (\Phi^N E)^{\alpha}(X)
+  \end{aligned}
+\]
+
+
 =--
 
+
+
++-- {: .proof}
+###### Proof
+
+This follows from the proof of ([Lewis-May-Steinberger 86, chapter II, prop. 9.13](#LewisMaySteinberger86)). We make this explicit: The proof there says that the comparison map is given by the [[smashing localization|smashing]] with $S^0 \to \tilde E \mathcal{F}$, up to re-identifications:
+
+1. The first equality in (eq:LocalizationIsComparisonMorphism) is the definition of cohomology classes;
+
+1. the second step  is the [[unitor]] isomorphism for the [[tensor unit]] being the [[sphere spectrum]];
+
+1. the third step is smashing with $S^0 \to \tilde E \mathcal{F}[N]$, which is $\mathcal{F}'$-localization by Prop. \ref{FPrimeLocalizationIsSmashingLocalization};
+
+1. the fourth step is the hom-isomorphism for the [[adjoint functor|adjunction]] $( \epsilon^\sharp \dashv (-)^N )$ from (eq:PullbackSpectrum);
+
+1. the fifth step is application of Lemma \ref{FixedPointSpectrumOfSmashProduct};
+
+1. the sixth step is the evident identification $(S^{\epsilon^\ast \alpha})^N = S^\alpha$ in the first smash factor, and is Lemma \ref{GeometricFixedPointsInTermsOfPlainFixedPoints} in the second factor.
+
+1. the seventh step is again the definition of cohomology.
+
+
+=--
+
+$\,$
+
+## Examples
 
 +-- {: .num_example #EquivariantStableCohomotopyOfPointsInNontrivalROGDegree}
 ###### Example
@@ -438,6 +640,7 @@ By the [structure theory of free abelian groups](principal+ideal+domain#Structur
 With this, (eq:Factorization) says that with $p_V$ also $p_{ \Sigma^V_G \mathbb{S}_G }^N(\ast)$ is surjective.
 
 =--
+
 
 
 ## Related concepts
