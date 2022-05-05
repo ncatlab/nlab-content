@@ -84,4 +84,6 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 * [[graded vector space]]
 
+* [[inductive tensor product]]
+
 [[!redirects tensor products of vector spaces]]
