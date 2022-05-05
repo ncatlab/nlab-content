@@ -57,7 +57,7 @@ hence a [[subtopos]] of the [[presheaf topos]].  Moreover, every such subtopos a
 
 =--
 
-This appears for instance as ([Johnstone, corollary 2.1.11](#Johnstone)).  See also [[Lawvere-Tierney topology]].
+This appears for instance as ([Johnstone, corollary C.2.1.11](#Johnstone)).  See also [[Lawvere-Tierney topology]].
 
 +-- {: .proof}
 ###### Proof
