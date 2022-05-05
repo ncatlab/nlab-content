@@ -237,8 +237,8 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 * T. E. Gantner and R. C. Steinlage, _Characterizations of quasi-uniformities_, J. London Math Soc (2) 5 (1972) (defines quasi-uniformities using covers)
  {#GS72}
 
-* M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf#3.1.6) \S3.1.2, \S3.1.6.
-{#naive_tame_topology}
+* {#naive_tame_topology} M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf#3.1.6), arXiv:[1807.06986](https://arxiv.org/abs/1807.06986), Sections 3.1.2, 3.1.6.
+
 
 category: topology
 
