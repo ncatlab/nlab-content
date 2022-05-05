@@ -47,3 +47,4 @@ This appears as [Rezk, 6.1](#Rezk).
 
 
 [[!redirects model toposes]]
+[[!redirects model topoi]]
