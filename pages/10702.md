@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a line bundle $L$ over a space $X$ its $k$th tensor power $L^{\otimes k}$ is another line bundle for any $k \in \mathbb{N}$.  The line bundles define certain elements of [[topological K-theory]] group $K(X)$, and there is a unique operation $\psi^k : K(X) \to K(X)$, the _$k$th Adams operation_, such that:
+Given a [[complex line bundle]] $L$ over a [[space]] $X$ its $k$th tensor power $L^{\otimes k}$ is another line bundle for any $k \in \mathbb{N}$.  The line bundles define certain elements of [[topological K-theory]] group $K(X)$, and there is a unique operation $\psi^k : K(X) \to K(X)$, the _$k$th Adams operation_, such that:
 
 * $\psi^k([L]) = [L^{\otimes k}]$ if $[L]$ is the $K$-theory class of any line bundle,
 
