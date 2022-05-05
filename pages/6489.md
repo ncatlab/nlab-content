@@ -68,7 +68,7 @@ A **stability function** (sometimes also called a _central charge_) is a  [[line
 \] 
 
 from [[Grothendieck group]] $K(\mathcal{A})$ to the [[abelian group|additive group]] of [[complex numbers]], 
-such that for all non-[[zero objects]] $E \subset \mathcal{A}$, the [[image]] $Z(E)$ lies in the [[upper half-plane|semi-upper half plane]] 
+such that for all non-[[zero objects]] $E \in \mathcal{A}$, the [[image]] $Z(E)$ lies in the [[upper half-plane|semi-upper half plane]] 
 
 $$
   H
@@ -306,7 +306,7 @@ Thus Bridgeland stability generalizes the classical notions of [[stable vector b
 For $G_{ADE} \subset SU(2)$ a [[finite subgroup of SU(2)]], 
 let $\tilde X$ be the [[resolution of singularities|resolution]] of the corresponding [[ADE-singularity]]. 
 
-Then the [[connected component]] of the space spring of stability conditions (Def. \ref{StabilityCondition}) on the bounded [[derived category]] of [[coherent sheaves]] over $\tilde X$ can be described explicitly ([Thomas 02](#Thomas02), [Bridgeland 05](#Bridgeland05), [Brav-Thomas 09](#BravThomas09)). 
+Then the [[connected component]] of the space of stability conditions (Def. \ref{StabilityCondition}) on the bounded [[derived category]] of [[coherent sheaves]] over $\tilde X$ can be described explicitly ([Thomas 02](#Thomas02), [Bridgeland 05](#Bridgeland05), [Brav-Thomas 09](#BravThomas09)). 
 
 Specifically for type-A singularities the space of stability conditions (Prop. \ref{SpaceOfStabilityConditions}) is in fact [[connected topological space|connected]] and [[simply-connected topological space]] ([Ishii-Ueda-Uehara 10](#IshiiUedaUehara10)). In fact spaces of stability structures over [[Dynkin quivers]] are [[contractible space|contractible]] ([Qiu-Woold 14](#QiuWoold14))
 
