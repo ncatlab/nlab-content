@@ -61,6 +61,8 @@ Review includes
 
 * {#Resonaances} Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
 
+* {#BertoneHooper16} Gianfranco Bertone, Dan Hooper, _A History of Dark Matter_ ([arXiv:1605.04909](https://arxiv.org/abs/1605.04909))
+
 * {#Hooper18} [[Daniel Hooper]], _In Defense of Dark Matter_, 2018 ([web](http://online.kitp.ucsb.edu/online/cdm-c18/hooper/))
 
 ### Evidence
