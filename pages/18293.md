@@ -6,7 +6,7 @@
 
 ## Idea
 
-[[arithmetic]] with [[cardinals]]. a kind of [[transfinite arithmetic]]
+[[arithmetic|Arithmetic]] with [[cardinals]]. A kind of [[transfinite arithmetic]].
 
 ### Definition
 
