@@ -92,7 +92,7 @@ Divided into two parts:
 
 **Part II) [Physics](#PHYSICS)**
 
-1. [A first idea of quantum field theory](#AFirstIdeaOfQuantumFieldTheory)
+1. [Perturbative quantum field theory](#AFirstIdeaOfQuantumFieldTheory)
 
 1. [Physics in Higher Geometry: Motivation and Survey](#PhysicsMotivationAndSurvey)
 
@@ -628,7 +628,7 @@ this chapter is at _[[geometry of physics -- BPS charges]]_
 
 **II) Physics**
 
-1. [A first idea of quantum field theory](#AFirstIdeaOfQuantumFieldTheory)
+1. [Perturbative quantum field theory](#AFirstIdeaOfQuantumFieldTheory)
 
 1. [Physics in Higher Geometry: Motivation and Survey](#PhysicsMotivationAndSurvey)
 
@@ -646,10 +646,10 @@ this chapter is at _[[geometry of physics -- BPS charges]]_
 =--
 
 
-## **A first idea of quantum field theory**
+## **Perturbative quantum field theory**
  {#AFirstIdeaOfQuantumFieldTheory}
 
-This section is at _[[geometry of physics -- A first idea of quantum field theory]]_.
+This section is at _[[geometry of physics -- perturbative quantum field theory]]_.
 
 
 ## **Physics in Higher Geometry: Motivation and Survey**
