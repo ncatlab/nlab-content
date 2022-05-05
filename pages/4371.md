@@ -255,6 +255,8 @@ More detailed discussion of this is in
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
+* {#Menni18} [[Matías Menni]], _The unity and identity of opposites between decidable objects and double-negation sheaves_ , JSL to appear. ([preprint](https://drive.google.com/file/d/18P2qsihtZG7_eCT5VdjvQ1I7T-U_S7y9/view))
+
 Other useful references include
 
 * {#BlassScedrov83}[[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
