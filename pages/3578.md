@@ -27,9 +27,9 @@ The analog of this for [[quasi-categories]] are
 
 1. [[Cartesian fibration]]s
 
-2. the special case of left/right (Kan-) [[fibrations of quasi-categories]],
+2. the special case of left/right (Kan-) [[fibrations of quasi-categories]]
 
-rspectively. 
+respectively. 
 
 
 ## Definition
