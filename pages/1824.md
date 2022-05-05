@@ -16,7 +16,7 @@
 
 ## Idea
 
-A microbundle is something like an approximation to the notion of [[vector bundle]]: a locally trivial [[bundle]] $E \to X$ of topological spaces that has a [[section]].
+A microbundle is something like an approximation to the notion of [[vector bundle]]: a locally trivial [[bundle]] $E \to X$ of topological spaces that has a [[section]]. Indeed, every vector bundle is an example of a microbundle ([Kupers18, Example 27.2.3](#Kupers18)).
 
 ## Definition
 
@@ -53,6 +53,8 @@ In particular, an __[[isomorphism]] of microbundles__ can be represented by a [[
 
 The main example is the __tangent microbundle__ $(M\times M,p_1,M,i)$ of a topological [[manifold]] $M$ where $p_1:M\times M\to M$ is the projection onto the first factor. If $(U,f)$ is a chart of the manifold $M$ around point $x\in M$ (where $x\inU\subset M$ and $f:U\to R^n$ is a homeomorphism with $h(x)=0$) then define $h:U\times R^n\to U\times U$ by $h(u,v)=(u,f^{-1}(f(v)-u))$. 
 
+If $M$ is a smooth manifold, then the tangent microbundle is equivalent to the tangent bundle ([Kupers18, Example 27.2.3](#Kupers18)). 
+
 
 +--{: .query}
 [[David Roberts]]: A couple of years ago I thought of importing topological groupoids to this concept for the following reason: The tangent microbundle $M\times M$, when $M$ is a manifold, is the groupoid integrating the tangent bundle $TM$ of $M$. If we have a general Lie groupoid, we can form the Lie algebroid, which is a very interesting object. If we have a topological groupoid, it seems to me that there should be a microbundle-like object that acts like the algebroid of that groupoid. This should reduce to the tangent microbundle in the case of the codiscrete groupoid = pair groupoid. Perhaps not all topological groupoids would have an associated algebroid, but those wih source and target maps that are [topological submersions](http://www.google.com.au/url?sa=t&source=web&ct=res&cd=1&url=http%3A%2F%2Fbooks.google.com.au%2Fbooks%3Fid%3DxiZgzmXVy9AC%26pg%3DPA66%26lpg%3DPA66%26dq%3Dtopological%2Bsubmersion%26source%3Dbl%26ots%3D8LFo35R79c%26sig%3Dd6GJNwpOF5BM4FX4ag2Q5jfU5UA%26hl%3Den%26ei%3Db4laSoDhOKfs6gPcxs2VCw%26sa%3DX%26oi%3Dbook_result%26ct%3Dresult%26resnum%3D1&ei=b4laSoDhOKfs6gPcxs2VCw&usg=AFQjCNEfAa7QvOXntdIikSLkvT1X9U2gjQ) probably will.  
@@ -66,9 +68,9 @@ Useful references are for instance
 
 * [[Jacob Lurie]], Spring 2009, [Topics in Geometric Topology](http://www.math.harvard.edu/~lurie/937.html)
 
-and 
-
 * S. Buoncristiano, 2003, [Fragments of geometric topology from the sixties](http://www.emis.de/journals/GT/gtmcontents6.html).
+
+* {#Kupers18} Alexander Kupers, _Lectures on diffeomorphisms groups of manifolds_, ([pdf](http://www.math.harvard.edu/~kupers/teaching/272x/book.pdf))
 
 
 [[!redirects tangent microbundle]]
