@@ -208,7 +208,7 @@ we speak of a _Quillen [[adjoint quadruple]]_, and so forth.
 
 +-- {: .num_prop #QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}
 ###### Proposition
-**([[Quillen adjoint triple]] induced [[adjoint triple]] of [[derived functors]] on [[homotopy category of a model category|homotopy categories]])**
+**([[Quillen adjoint triple]] induces [[adjoint triple]] of [[derived functors]] on [[homotopy category of a model category|homotopy categories]])**
 
 Given a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}), the induced [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] form an ordinary [[adjoint triple]]:
 
