@@ -18,7 +18,7 @@ sending $g$ to $g-1$ is the derived module of $id_G$ aka the derived module of $
 
 For the original version of derived module, see
 
-* R. H. Crowell, _The derived module of a homomorphism_, Advances 
+* [[R. H. Crowell]], _The derived module of a homomorphism_, Advances 
 in Math., 5, (1971), 210&#8211;238. 
 
 For applications in [[arithmetic topology]]
