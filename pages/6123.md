@@ -86,6 +86,13 @@ between the [[category]] of [[associative algebras]] over $R$ and that of [[grou
 
 ## Examples
 
++-- {: .num_example}
+###### Example
+
+The multiplicative group of the [[ring]] of [[integers]] modulo $n$ is the  _[[multiplicative group of integers modulo n]]_.
+
+=--
+
 +-- {: .num_example #idele}
 ###### Example
 
