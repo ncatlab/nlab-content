@@ -32,6 +32,11 @@ The argument is recalled in
 
 * {#SimonPolchinski96} Eric G. Gimon, [[Joseph Polchinski]], section 3 of _Consistency Conditions for Orientifolds and D-Manifolds_, Phys.Rev.D54:1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
+Details are in 
+
+* {#Witten12} [[Edward Witten]], section 9.3 of _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](https://arxiv.org/abs/1209.5461))
+
+
 Textbook accounts include
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
