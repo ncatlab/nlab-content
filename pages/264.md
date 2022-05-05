@@ -106,6 +106,8 @@ where $W$ is the category whose objects are morphisms in $W$ and whose morphisms
 
 * For the homotopy category of [[Cat]], see [[Ho(Cat)]].
 
+* For the homotopy category of that of [[combinatorial model categories]] see [[Ho(CombModCat)]].
+
 ## Related concepts
 
 * [[homotopy category of a model category]]
