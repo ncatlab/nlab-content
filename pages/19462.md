@@ -26,7 +26,7 @@ Their use for the [[semantics|semantic]] analysis of natural language determiner
 
 
 
-A _generalized quantifier_ or an _interpretation of a quantifier symbol_ $Q$ is a mapping $\mu_Q$ from triples of cardinal numbers $\langle \mathfrak{m},\mathfrak{n},\mathfrak{p}\rangle$ such that $\mathfrak{m}+\mathfrak{n}=\mathfrak{p}$ to $\Omega=\{0,1\}$. The satisfaction relation for $Q$ is defined by
+A _generalized quantifier_ or an _interpretation of a quantifier symbol_ $Q$ is a mapping $\mu_Q$ from triples of cardinal numbers $\langle \mathfrak{m},\mathfrak{n},\mathfrak{p}\rangle$ such that $\mathfrak{m}+\mathfrak{n}=\mathfrak{p}$ to $\Omega=\{0,1\}$. The satisfaction relation for $Q$ is defined for structures $\mathfrak{A}$ with carrier $A$ and valuation $x$ by
 
 $$
 \begin{aligned}
@@ -47,6 +47,8 @@ $$
 * The universal quantifier $Q=\forall$ has $\mu_\forall(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{n}=0$.
 
 * The quantifier $Q_\alpha$ "there exist at least $\aleph_\alpha$" is given by $\mu_{Q_\alpha}(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{m}\geq\aleph_{\alpha}\;$.
+
+* The quantifier $Q=\mathsf{W}$ "most" is given by $\mu_{\mathsf{W}}(\mathfrak{m},\mathfrak{n},\mathfrak{p})=1$ iff $\mathfrak{m}>\mathfrak{n}\;$. Note that this uses the second variable as well, whereas $\forall$ or $Q_\alpha$ depend only on $card(\{a\in A:\mathfrak{A}\models_{x(n/a)}\phi\})$.
 
 ## Related entries
 
@@ -86,6 +88,8 @@ For the use of generalized quantifiers in natural language semantics see
 * H. Ben-Yami, _Generalized Quantifiers, and Beyond_ , Logique Et Analyse no.208 (2009) pp.309-326.
 
 * M. Hackl, _On the Grammar and Processing of Proportional Quantifiers: Most Versus More Than Half_ , Natural Language Semantics **17** no.1 (2009) pp.63-98.
+
+* E. Keenan, J. Stavi, _A semantic characterization of natural language determiners_ , Linguistics & Philosophy **9** (1986) pp.253–326.
 
 * D. Westerståhl, _Generalized quantifiers: linguistics meets model theory_ , in Aloni, Dekker (eds.), _The Cambridge Handbook of Semantics_ , Cambridge UP 2014. ([draft](https://www.philosophy.su.se/polopoly_fs/1.165898.1391710202!/menu/standard/file/2013%20CambridgeHandbookGQ.pdf))
 
