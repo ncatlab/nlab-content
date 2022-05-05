@@ -21,12 +21,12 @@ _[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least
 Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). But natural transformations are what allows to define, in turn, the concept of _[[adjoint functors]]_, also called _[[adjunctions]]_ on categories. All the deep concepts of category theory (such as _[[representable functors]]_, _[[Yoneda embedding]]_, _[[Kan extensions]]_, hence _[[limits]]_ and _[[colimits]]_, to be introduced below) are special cases of [[adjoint functor]] constructions -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82). Therefore it makes sense to regard category theory, to a large extent, as the **theory of adjunctions**, hence the **theory of duality**:
 
 
-| hierarchy of concepts  | Definition |
+| $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ Definition $\phantom{A}$ |
 |------------------------|------------|
-| [[adjoint functor|adjunction]] / [[duality]]  | \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} |
-| [[natural transformation]] | \ref{NaturalTransformations} |
-| [[functor]] | \ref{Functors} |
-| [[category]] | \ref{Categories} |
+| $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$\ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}$\phantom{A}$ |
+| $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ \ref{NaturalTransformations} $\phantom{A}$ |
+| $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ \ref{Functors} $\phantom{A}$ |
+| $\phantom{A}$ [[category]] $\phantom{A}$ | $\phantom{A}$ \ref{Categories} $\phantom{A}$ |
 
 
 
@@ -141,6 +141,8 @@ such that:
 
 =--
 
+The archetypical example of a [[category]] is the [[category of sets]]:
+
 +-- {: .num_example #CategoryOfAllSets}
 ###### Example
 **([[Set|category of all sets]])**
@@ -153,10 +155,60 @@ The [[class]] of all [[sets]] with [[functions]] between them is a [[category]] 
 
 * $id_X \in Hom_{Set}(X,X) = $ [[identity function]] on set $X$;
 
-* $\circ_{X_1,X_2,X_3} = \text{ordinary composition of functions}. 
+* $\circ_{X_1,X_2,X_3} = \text{ordinary composition of functions}$. 
 
 =--
 
+More generally all kind of _sets with [[structure]]_, in the sense going back to [[Bourbaki]], form categories, where the [[morphisms]] are the _[[homomorphisms]]_ (whence the name "morphism"!). These are called [[concrete categories]]: 
+
++-- {: .num_example #ExamplesOfConcreteCategories}
+###### Example
+**(basic examples of [[concrete categories]])**
+
+For $\mathcal{S}$ a kind of [[mathematical structure]], there is the [[category]] (Def. \ref{Categories}) $\mathcal{S}Set$ whose [[objects]] are the corresponding [[structured sets]], and whose [[morphisms]] are the corresponding structure [[homomorphisms]], hence the [[functions]] of underlying sets which respect the given structure.
+
+Basic examples of [[concrete categories]] include the following:
+
+| $\phantom{A}$[[concrete category]]$\phantom{A}$ | $\phantom{A}$[[objects]]$\phantom{A}$ | $\phantom{A}$[[morphisms]]$\phantom{A}$ |
+|-----------------------|-------------|---------------|
+| $\phantom{A}$[[Grp]]   | $\phantom{A}$[[groups]]$\phantom{A}$ | $\phantom{A}$[[group homomorphisms]]$\phantom{A}$ |
+| $\phantom{A}$[[Vect]]  | $\phantom{A}$[[vector spaces]]$\phantom{A}$ | $\phantom{A}$[[linear maps]]$\phantom{A}$ |
+| $\phantom{A}$[[Alg]]   | $\phantom{A}$[[algebras]]$\phantom{A}$ | $\phantom{A}$[[algebra homomorphism]]$\phantom{A}$ |
+| $\phantom{A}$[[Top]]  | $\phantom{A}$[[topological spaces]]$\phantom{A}$ |  $\phantom{A}$[[continuous functions]]$\phantom{A}$ |
+| $\phantom{A}$[[Mfd]]${}_{k}$  | $\phantom{A}$[[differentiable manifolds]]$\phantom{A}$ | $\phantom{A}$[[differentiable functions]]$\phantom{A}$ |
+
+=--
+
+This is the motivation for the terminology "categories", as the examples in Example \ref{ExamplesOfConcreteCategories} are literally _categories of mathematical structures_. But not all categories are "[[concrete category|concrete]]" in this way.
+
+There is a range of constructions that provide new categories from given ones:
+
++-- {: .num_example #OppositeCategory}
+###### Example
+**([[opposite category]])**
+
+Let $\mathcal{C}$ be a [[category]]. Then its _[[opposite category]]_ $\mathcal{C}^{op}$ has the same [[objects]] as $\mathcal{C}$, but the direction of the [[morphisms]] is reversed. Accordingly, [[composition]] in the [[opposite category]] $\mathcal{C}^{op}$ is that in $\mathcal{C}$, but with the order of the arguments reversed:
+
+* $Obj_{\mathcal{C}^{op}} \;\coloneqq\; Obj_{\mathcal{C}}$;
+
+* $Hom_{\mathcal{C}^{op}}(X,y) \;\coloneqq\; Hom_{\mathcal{C}}(Y,X)$.
+
+=--
+
+
++-- {: .num_example #ProductCategory}
+###### Example
+**([[product category]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}). Then their _[[product category]]_ $\mathcal{C} \times \mathcal{D}$ has as [[objects]] [[pairs]] $(c,d)$ with $c \in Obj_{\mathcal{C}}$ and $d \in Obj_{\mathcal{D}}$, and as morphisms [[pairs]]  $ (c_1 \overset{f}{\to} c_2) \in Hom_{\mathcal{C}}(c_1,c_2)$, $ (d_1 \overset{g}{\to} d_2) \in Hom_{\mathcal{D}}(d_1,d_2)$, and [[composition]] is defined by composition in each entry:
+
+* $Obj_{\mathcal{C} \times \mathcal{D}} \coloneqq Obj_{\mathcal{C}} \times Obj_{\mathcal{D}}$;
+
+* $Hom_{\mathcal{C} \times \mathcal{D}}( (c_1,d_1), (c_2,d_2) ) \coloneqq  Hom_{\mathcal{C}}(c_1,c_2) \times Hom_{\mathcal{D}}( d_1, d_2 )$
+
+* $(f_2, g_2) \circ (f_1, g_1) \;\coloneqq\; ( f_2 \circ f_1, g_2 \circ g_1 )$
+
+=--
 
 +-- {: .num_defn #Functors}
 ###### Definition
@@ -206,6 +258,97 @@ such that
 =--
 
 
++-- {: .num_example #HomFunctor}
+###### Example
+**([[hom-functor]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}). Then its _[[hom-functor]]_ 
+
+$$
+  Hom_{\mathcal{C}}
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  Set
+$$
+
+is the [[functor]] (Def. \ref{Functors}) out of the [[product category]] (Def. \ref{ProductCategory}) of $\mathcal{C}$ with its [[opposite category]] to the [[category of sets]], which sends a [[pair]] $X,Y \in \mathcal{C}$ of [[objects]] to the [[hom-set]] $Hom_{\mathcal{C}}(X,Y)$ between them, and which sends a [[pair]] of [[morphisms]], with one of them into $X$ and the outher out of $Y$, to the operation of [[composition]] with these morphisms:
+
+$$
+  Hom_{\mathcal{C}}
+  \;\;\colon\;\;\;
+  \array{
+    X_1 & Y_1 
+    \\
+    {}^{\mathllap{g}}\big\uparrow & \big\downarrow^{\mathrlap{h}}
+    \\
+    X_2 & Y_2
+  }
+  \;\;\mapsto\;\;
+  \array{
+    Hom_{\mathcal{C}}(X_1, Y_1)
+    \\
+    \big\downarrow^{ \mathrlap{ f \mapsto h \circ f \circ g  } }
+    \\
+    Hom_{\mathcal{C}}(X_2, Y_2)
+  }
+$$
+
+
+=--
+
++-- {: .num_defn #FullyFaithfulFunctor}
+###### Definition
+**(Terminology: [[full functor|full]], [[faithful functor|faithful]] and [[fully faithful functors]])**
+
+A [[functor]] $F \;\colon\; \mathcal{C} \to \mathcal{D}$ (Def. \ref{Functors}) is called
+
+
+* a _[[full functor]]_ if all its hom-functions are [[surjective functions]] 
+
+  $$
+    Hom_{\mathcal{C}}(X,Y) 
+      \underoverset{surj}{F_{X,Y}}{\longrightarrow} 
+    Hom_{\mathcal{D}}(F(X), F(Y))
+  $$
+
+* a _[[faithful functor]]_ if all its hom-functions are [[injective functions]] 
+
+  $$
+    Hom_{\mathcal{C}}(X,Y) 
+      \underoverset{inj}{F_{X,Y}}{\longrightarrow} 
+    Hom_{\mathcal{D}}(F(X), F(Y))
+  $$
+
+* a _[[fully faithful functor]]_ if all its hom-functions are [[bijective functions]] 
+
+  $$
+    Hom_{\mathcal{C}}(X,Y) 
+      \underoverset{bij}{F_{X,Y}}{\longrightarrow} 
+    Hom_{\mathcal{D}}(F(X), F(Y))
+  $$
+
+=--
+
+This allows to make precise the idea of _[[concrete category]]_ from Example \ref{ExamplesOfConcreteCategories}:
+
++-- {: .num_example #StructuredSetsAndFaithfulFunctors}
+###### Example
+**([[structured sets]] and [[faithful functors]])**
+
+Let $\mathcal{S}$ be a kind of [[mathematical structure]] and let $\mathcal{S} Set$ be the [[category]] of $\mathcal{S}$-[[structured sets]]. Then there is the  [[forgetful functor]]
+
+$$
+  \mathcal{S}Set \longrightarrow Set
+$$
+
+which sends each [[structured set]] to the underlying set ("forgetting" the [[structure]] that it carries), and which sends [[functions]] of sets to themselves. That a [[homomorphism]] of [[structured sets]] is a [[function]] between the underlying sets satisfying a _special condition_ implies that this is a _[[faithful functor]]_ (Def. \ref{FullyFaithfulFunctor}).
+
+Conversely, it makes sense to _define_ [[structured sets]] in general to be the [[objects]] of a [[category]] $\mathcal{C}$ which is equipped with a [[faithful functor]] $\mathcal{C} \overset{faithful}{\longrightarrow} Set$ to the [[category of sets]]. See at _[[structure]]_ for more on this.
+
+=--
+
+
 +-- {: .num_defn #NaturalTransformations}
 ###### Definition
 **([[natural transformation]])**
@@ -225,9 +368,10 @@ is
 
 * for each [[object]] $X \in Obj_{\mathcal{C}}$ a [[morphism]]
 
-  $$
+  \[
+    \label{NaturalTransformationComponent}
     F(X) \overset{ \eta_X }{\longrightarrow} G(X)
-  $$
+  \]
 
 such that
 
@@ -249,7 +393,81 @@ such that
     }
   $$
 
+For 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{G}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {\phantom{AA}\Downarrow \mathrlap{\eta} \phantom{AA}}
+  \mathcal{D}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \mathcal{C}
+    \underoverset
+      {\underset{H}{\longrightarrow}}
+      {\overset{G}{\longrightarrow}}
+      {\phantom{AA}\Downarrow \mathrlap{\rho} \phantom{AA}}
+  \mathcal{D}
+$$
+
+two natural transformations as shown, their _composition_ is the natural transformation
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{H}{\longrightarrow}}
+      {\overset{F}{\longrightarrow}}
+      {\phantom{A}\Downarrow \mathrlap{\rho \circ \eta} \phantom{AAAA}}
+  \mathcal{D}
+$$
+
+whose components (eq:NaturalTransformationComponent) are the [[compositions]] of the components of $\eta$ and $\rho$:
+
+\[
+  \label{NaturalTransformationComposition}
+  (\rho \circ \eta)_X
+  \;\coloneqq\;
+  \rho_{X} \circ \eta_X
+\]
+
 =--
+
+
++-- {: .num_example #FunctorCategory}
+###### Example
+**([[functor category]] and [[category of presheaves]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[categories]] (Def. \ref{Categories}). Then the _[[category of functors]]_ between them, to be denoted $[\mathcal{C}, \mathcal{D}]$, is the [[category]] whose [[objects]] are the [[functors]] $\mathcal{C} \overset{F}{\to} \mathcal{D}$ (Def. \ref{Functors}) and whose [[morphisms]] are the [[natural transformations]] $F \overset{\eta}{\Rightarrow} G$ between functors (Def. \ref{NaturalTransformations}) and whose [[composition]] operation is the composition of natural transformations (eq:NaturalTransformationComposition).
+
+=--
+
++-- {: .num_example #CategoryOfPresheaves}
+###### Example
+**([[category of presheaves]])**
+
+Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), a [[functor]] (Def. \ref{Functors}) of the form
+
+$$
+  F \;\colon\; \mathcal{C}^{op} \longrightarrow Set
+  \,,
+$$
+
+hence out of the [[opposite category]] of $\mathcal{C}$ (Def. \ref{OppositeCategory}), into the [[category of sets]] (Example \ref{CategoryOfAllSets}) is also called a _[[presheaf]]_ (for reasons discussed below) _on $\mathcal{C}$_ or _over $\mathcal{C}$_.
+
+The corresponding [[functor category]] (Example \ref{FunctorCategory})
+
+$$
+  PSh(\mathcal{C})
+  \;\coloneqq\; [\mathcal{C}^{op}, Set]
+$$
+
+is hence called the _[[category of presheaves]]_ over $\mathcal{C}$.
+
+=--
+
 
 +-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
 ###### Definition
