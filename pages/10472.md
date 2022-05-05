@@ -19,7 +19,7 @@
 
 A _pointed topological space_ is a [[topological space]] with a choice of one of its points.
 
-Simplistic as this concept may seem, pointed topological spaces play a central role for instance in [[algebraic topology]] as domains for  [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology theories]] and as an ingredient for the definition of [[spectra]].
+Although  this concept may seem simple, pointed topological spaces play a central role for instance in [[algebraic topology]] as domains for  [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology theories]] and as an ingredient for the definition of [[spectra]].
 
 One reason why pointed topological spaces are important is that the [[category]] which they form is an intermediate stage in the [[stabilization]] of [[homotopy theory]] (the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]]) to [[stable homotopy theory]]:
 
