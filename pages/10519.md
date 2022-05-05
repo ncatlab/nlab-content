@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
 Lagrange inversion denotes a formula for the power series coefficients of the compositional inverse of an analytic function $f$ around $0$ satisfying $f(0)=0$, or of a formal power series in one or several variables. 
 
 Wikipedia: [Lagrange inversion theorem](http://en.wikipedia.org/wiki/Lagrange_inversion_theorem), [formal power series](http://en.wikipedia.org/wiki/Formal_power_series#The_Lagrange_inversion_formula)
