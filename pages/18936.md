@@ -30,6 +30,8 @@ In [[combinatorics]], the definition usually extends to $k = 0$ by setting $0! =
 
 ## Related concepts
 
+* [[double factorial]]
+
 * [[binomial coefficient]], [[multinomial coefficient]]
 
 * [[Gamma function]]
@@ -39,6 +41,8 @@ In [[combinatorics]], the definition usually extends to $k = 0$ by setting $0! =
 * [[exponential series]]
 
 ## References
+
+See also
 
 * Wikipedia, _[Factorial](https://en.wikipedia.org/wiki/Factorial)_
 
