@@ -2722,6 +2722,7 @@ Notice that, at this point, $[\mathcal{C}, \mathcal{D}]$ is a plain [[category]]
 
 +-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
 ###### Definition
+**([[tensoring]] and [[powering]] of [[enriched presheaves]])**
 
 Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, \mathcal{V}]$ its [[functor category]] of [[enriched functors]] (Example \ref{CategoryOfEnrichedFunctors}).
 
@@ -2982,7 +2983,7 @@ Here the object in the middle is just the set of [[indexed sets]] of component m
 
 =--
 
-Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over [[bifunctors]] of the form $Maps(F(-),G(-)))_\ast$ constitute [[hom-spaces]] between pointed [[topologically enriched functors]]:
+Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over [[bifunctors]] of the form $[F(-),G(-))]$ constitute [[hom-spaces]] between pointed [[topologically enriched functors]]:
 
 
 +-- {: .num_defn #PointedTopologicalFunctorCategory}
@@ -3338,47 +3339,50 @@ $$
 
 =--
 
-With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]]  of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
-
+With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] and [[powering]]  [[enriched presheaves]] (Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}):
 
 +-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
 ###### Proposition
+**([[universal property]] of [[tensoring]] and [[powering]] of [[enriched presheaves]])**
 
-For $\mathcal{C}$ a pointed [[topologically enriched category]], there are [[natural isomorphisms]]
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}), with $[\mathcal{C},\mathcal{V}]$ the corresponding [[enriched presheaf|enriched presheaf category]].
+
+Then there are [[natural isomorphisms]]
 
 $$
-  [\mathcal{C},Top^{\ast/}_{cg}]( X \otimes K ,\, Y )
+  [\mathcal{C}, \mathcal{V}]( X \cdot K ,\, Y )
     \;\simeq\;
-  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+  [K,\big( [\mathcal{C}, \mathcal{V}]\left( X, Y \right) \big)]
 $$
 
 and
 
 $$
-  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Maps(K,Y)_\ast)
+  [\mathcal{C}, \mathcal{V}]\left( X,\, Y^K \right)
     \;\simeq\;
-  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))
+  [K, \big( [\mathcal{C}, \mathcal{C}](X,Y) \big) ]
 $$
 
-for all $X,Y \in [\mathcal{C},Top^{\ast/}_{cg}]$ and all $K \in Top^{\ast/}_{cg}$.
+for all $X,Y \in [\mathcal{C},mathcal{V}]$ and all $K \in \mathcal{C}$, 
+where $(-)^K$ is the [[powering]] and $(-)\cdot K$ the [[tensoring]] from Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}.
 
-In particular there is the combined natural isomorphism
+In particular there is the composite natural isomorphism
 
 $$
-  [\mathcal{C}, Top^{\ast/}_{cg}](X \otimes K, Y)
+  [\mathcal{C}, \mathcal{V}](X \cdot K, Y)
    \;\simeq\;
-  [\mathcal{C}, Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
+  [\mathcal{C}, \mathcal{V}]\left( X, Y^K \right)
 $$
 
 exhibiting a pair of [[adjoint functors]]
 
 $$
-  [\mathcal{C}, Top^{\ast/}_{cg}]
+  [\mathcal{C}, \mathcal{V}]
     \underoverset
-      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
-      {\overset{(-) \otimes K}{\longleftarrow}}
+      {\underset{(-)^K}{\longrightarrow}}
+      {\overset{(-) \cdot K}{\longleftarrow}}
       {\bot}
-  [\mathcal{C}, Top^{\ast}_{cg}]
+  [\mathcal{C}, \mathcal{V}]
   \,.
 $$
 
@@ -3387,31 +3391,31 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Via the [[end]]-expression for $[\mathcal{C},Top^{\ast/}_{cg}](-,-)$ from def. \ref{PointedTopologicalFunctorCategory} and the fact (remark \ref{MappingSpacePreservesEnds}) that the pointed mapping space construction $Maps(-,-)_\ast$ preserves ends in the second variable, this reduces to the fact that $Maps(-,-)_\ast$ is the [[internal hom]] in the [[closed monoidal category]] $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence satisfies the internal tensor/hom-adjunction isomorphism (prop. \ref{TensorHomAdjunctionIsoInternally}):
+Via the [[end]]-expression for $[\mathcal{C}, \mathcal{V}](-,-)$ from Example \ref{NaturalTransformationsViaEnds}, and the fact (remark \ref{MappingSpacePreservesEnds}) that the [[internal hom]]-functor ends in the second variable, this reduces to the fact that $[-,-]$ is the [[internal hom]] in the [[closed monoidal category]] $\mathcal{V}$ (Example \ref{TopkAsATopologicallyEnrichedCategory}) and hence satisfies the internal tensor/hom-adjunction isomorphism (prop. \ref{TensorHomAdjunctionIsoInternally}):
 
 $$
   \begin{aligned}
-    [\mathcal{C},Top^{\ast/}_{cg}](X \otimes K, Y)
+    [\mathcal{C}, \mathcal{V}](X \cdot K, Y)
     & =
     \underset{c}{\int}
-    Maps(
-      (X \otimes K)(c),
+    [
+      (X \cdot K)(c),
       Y(c)
-    )_\ast
+    ]
     \\
     & \simeq
     \underset{c}{\int}
-      Maps(X(c) \otimes K, Y(x))_\ast
+      [X(c) \otimes K, Y(x)]
     \\
     & \simeq
     \underset{c}{\int}
-      Maps(K,Maps(X(c), Y(c))_\ast)_\ast
+      [K,[X(c), Y(c)]]
     \\
     & \simeq
-    Maps(K, \underset{c}{\int} Maps(X(c),Y(c)))_\ast
+    [K, \underset{c}{\int} [X(c),Y(c)]]
     \\
     & =
-    Maps(K,[\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+    [K,\left( [\mathcal{C},\mathcal{V}](X,Y)\right)]
   \end{aligned}
 $$
 
@@ -3419,26 +3423,26 @@ and
 
 $$
   \begin{aligned}
-    [\mathcal{C},Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
+    [\mathcal{C}, \mathcal{V}](X, Y^K)
     & =
     \underset{c}{\int}
-      Maps(X(c), (Maps(K,Y)_\ast)(c))_\ast
+      [X(c), Y^K(c)]
     \\
     & \simeq
     \underset{c}{\int}
-     Maps(X(c), Maps(K,Y(c))_\ast)_\ast
+     [ X(c), [K,Y(c)] ]
     \\
     & \simeq
-    \underset{c}{\int} Maps(X(c) \otimes K, Y(c))_\ast
+    \underset{c}{\int} [ X(c) \otimes K, Y(c) ]
     \\
     & \simeq
-    \underset{c}{\int} Maps(K, Maps(X(c),Y(c))_\ast)_\ast
+    \underset{c}{\int} [K, [X(c),Y(c)]]
     \\
     & \simeq
-    Maps(K, \underset{c}{\int} Maps(X(c),Y(c))_\ast)_\ast
+    [K, \underset{c}{\int} [X(c),Y(c)] ]
     \\
     & \simeq
-    Maps(K, [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+    [K, [\mathcal{C}, \mathcal{V}](X,Y]
     \,.
   \end{aligned}
 $$
@@ -3451,31 +3455,31 @@ $$
 ###### Proposition
 **(left Kan extension via coends)**
 
-Let $\mathcal{C}, \mathcal{D}$ be [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) and let
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}),  $\mathcal{C}, \mathcal{D}$ be [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) and let
 
 $$
   p \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
 $$
 
-be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). Then precomposition with $p$ constitutes a functor
+be amn [[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}). Then precomposition with $p$ constitutes a functor
 
 $$
   p^\ast
   \;\colon\;
-  [\mathcal{D}, Top^{\ast/}_{cg}]
+  [\mathcal{D}, \mathcal{V}]
   \longrightarrow
-  [\mathcal{C}, Top^{\ast/}_{cg}]
+  [\mathcal{C}, \mathcal{V}]
 $$
 
-$G\mapsto G\circ p$. This functor has a [[left adjoint]] $Lan_p$, called **left [[Kan extension]]** along $p$
+$G\mapsto G\circ p$. This functor has a [[left adjoint]] $Lan_p$ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), called **left [[Kan extension]]** along $p$
 
 $$
-  [\mathcal{D}, Top^{\ast/}_{cg}]
+  [\mathcal{D}, \mathcal{V}]
     \underoverset
       {\underset{p^\ast}{\longrightarrow}}
       {\overset{Lan_p }{\longleftarrow}}
       {\bot}
-  [\mathcal{C}, Top^{\ast/}_{cg}]
+  [\mathcal{C}, \mathcal{V}]
 $$
 
 which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
@@ -3495,55 +3499,56 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $Maps(-,-)_\ast$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the smash/mapping space adjunction ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
+Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $[-,-]$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the [[internal-hom]] [[adjunction]] (eq:InternalHomAdjunction), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
 
 $$
   \begin{aligned}
-    [\mathcal{D},Top^{\ast/}_{cg}]( Lan_p F, \, G )
+    [\mathcal{D}, \mathcal{V}]( Lan_p F, \, G )
     & =
    \underset{d \in \mathcal{D}}{\int}
-    Maps( (Lan_p F)(d), \, G(d) )_\ast
+    [ (Lan_p F)(d), \, G(d) ]
    \\
    & =
    \underset{d\in \mathcal{D}}{\int}
-   Maps\left(
+   \left[
      \overset{c \in \mathcal{C}}{\int} \mathcal{D}(p(c),d) \otimes F(c)
      ,\;
      G(d)
-   \right)_\ast
+   \right]
     \\
   &\simeq
   \underset{d \in \mathcal{D}}{\int}
   \underset{c \in \mathcal{C}}{\int}
-  Maps(
+  [
     \mathcal{D}(p(c),d) \otimes F(c) \,,\; G(d)
-  )_\ast
+  ]
   \\
   & \simeq
   \underset{c\in \mathcal{C}}{\int}
   \underset{d\in \mathcal{D}}{\int}
-  Maps(F(c),
-    Maps(
+  [F(c),
+    [
      \mathcal{D}(p(c),d) , \, G(d)
-    )_\ast
-  )_\ast
+    ]
+  ]
   \\
   & \simeq
   \underset{c\in \mathcal{C}}{\int}
-  Maps(F(c),
-   \underset{d\in \mathcal{D}}{\int}
-   Maps(
-    \mathcal{D}(p(c),d) , \, G(d)
-   )_\ast
-  )_\ast
+  [F(c),
+    \underset{d\in \mathcal{D}}{\int}
+    [
+      \mathcal{D}(p(c),d) , \, G(d)
+    ]
+  ]
   \\
   & \simeq
   \underset{c\in \mathcal{C}}{\int}
-  Maps(F(c), G(p(c))
-  )_\ast
+  [
+    F(c), G(p(c))
+  ]
   \\
   & =
-  [\mathcal{C}, Top^{\ast/}_{cg}](F,p^\ast G)
+  [\mathcal{C}, \mathcal{V}](F,p^\ast G)
   \end{aligned}
   \,.
 $$
