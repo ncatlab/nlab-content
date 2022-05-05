@@ -267,6 +267,7 @@ from the [[on-shell]] [[space of field histories]] to the [[complex numbers]].
 Similarly there is the space of _off-shell observables_
 
 $$
+ \label{GlobalObservables}
   Obs(E)
   \;\coloneqq\;
   \left[
@@ -2299,10 +2300,10 @@ $$
     \\
     & = \int_{\partial \Sigma_r} (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha
     \\
-    & = \int_{\partial \Sigma_r} (j^\infty_\Sigma ( (-)\vert_\Sigma \circ \Phi_{(-)}) )^\ast\alpha
+    & = \int_{\partial \Sigma_r} (j^\infty_\Sigma ( (-)\vert_{\Sigma_r} \circ \Phi_{(-)}) )^\ast\alpha
     \\
     & =
-    ( (-)\vert_\Sigma \circ \Phi_{(-)} )^\ast \tau_{\partial \Sigma_r}(\alpha)
+    ( (-)\vert_{\Sigma_r} \circ \Phi_{(-)} )^\ast \tau_{\partial \Sigma_r}(\alpha)
     \\
     & =
     (\Phi_{(-)})^\ast ((-)\vert_{\Sigma_r})^\ast \tau_{\partial \Sigma_r}(\alpha)
@@ -2589,7 +2590,7 @@ $$
 $$
 
 which we may identify with the subspace of all observables (eq:GlobalObservables)
-on those that arise as the [[image]] under
+that arises as the [[image]] under
 [[transgression of variational differential forms]] $\tau_\Sigma$ (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 of local observables to [[functionals]] on the [[on-shell]] [[space of field histories]] (eq:OnShellFieldHistories):
 
@@ -2604,7 +2605,7 @@ $$
   \,.
 $$
 
-This is a sub-vector space inside all observables which is however not closed under the pointwise product of observables (eq:ObservablesPointwiseProduct) (unless $E =0). We write
+This is a sub-vector space inside all observables which is however not closed under the pointwise product of observables (eq:ObservablesPointwiseProduct) (unless $ E=0 $). We write
 
 $$
   MultiLocObs(E)
