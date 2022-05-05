@@ -677,6 +677,7 @@ for a unique $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the
 
 =--
 
+(e.g [Borceux, vol 1, Def. 3.1.1](#Borceux))
 
 +-- {: .num_prop #CollectionOfUniversalArrowsEquivalentToAdjointFunctor}
 ###### Proposition
@@ -1264,7 +1265,7 @@ and its fundamental relevance for [[category theory]] was realized due to
 
 For other textbook reference see any of the references listed at _[[category theory]]_, for instance 
 
-* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1. 
+* {#Borceux} [[Francis Borceux]], vol 1, chapter 3 of _[[Handbook of Categorical Algebra]]_, 
 
 * {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
 
