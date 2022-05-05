@@ -160,8 +160,7 @@ A vague version of the above proposed definition is on the very last slide of
 
 See also
 
-* [[Michael Shulman]], [[Peter Lumsdaine]], 2016, _Semantics and syntax of
-higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
+* [[Michael Shulman]], [[Peter Lumsdaine]], 2016, _Semantics and syntax of higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
 
 * {#Joyal14} [[André Joyal]], _What is an elementary higher topos?_, talk at _[Reimagining The Foundations Of Algebraic Topology](https://www.msri.org/workshops/689)_ April 07, 2014 - April 11, 2014_ [web video](https://www.msri.org/workshops/689/schedules/18227) [PDF](https://www.msri.org/workshops/689/schedules/18227/documents/2046/assets/20468) (slides 57-end).  This lecture contains a proposed definition that is not an $(\infty,1)$-category but a presentation of one by a [[model category]]-like structure; this is closer to the type theory, but further from the intended examples.  In particular, there are unresolved coherence questions even as to whether every Grothendieck $(\infty,1)$-topos can be presented by a model in Joyal's sense (in particular, how strict can a universe be made, and can the [[natural numbers object]] be made fibrant).  Other than that, the main difference is that Joyal assumes only one fixed universe.
 
@@ -169,7 +168,7 @@ higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stth
 
 For an alternative definition proven (in Theorem 3.16) to be equivalent to the one given above, see
 
-* Nima Rasekh, _A Theory of Elementary Higher Toposes_, ([arXiv:1805.03805](https://arxiv.org/abs/1805.03805))
+* [[Nima Rasekh]], _A Theory of Elementary Higher Toposes_, ([arXiv:1805.03805](https://arxiv.org/abs/1805.03805))
 
 
 The construction of $n$-truncations without recursive HITs is in
@@ -179,6 +178,12 @@ The construction of $n$-truncations without recursive HITs is in
 The construction of natural numbers from propositional resizing and univalence is in
 
 * {#ConstructingNat} HoTT/Coq library, <https://github.com/HoTT/HoTT/blob/master/theories/PropResizing/Nat.v>
+
+Results holding for elementary (∞,1)-toposes:
+
+* [[Nima Rasekh]], _Yoneda Lemma for Elementary Higher Toposes_, ([arXiv:1809.01736](https://arxiv.org/abs/1809.01736))
+
+* [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734))
  
 
 [[!redirects elementary (∞,1)-topos]]
