@@ -940,6 +940,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 * [[split supersymmetry]]
 
+* [[gauge coupling unification]]
+
 * [[supergeometry]], [[superalgebra]]
   
   * [[supermanifold]]
