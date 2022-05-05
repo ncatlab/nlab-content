@@ -76,7 +76,7 @@ The [[cohomology]] of $\Im X$ has the interpretation of [[crystalline cohomology
 
 Implementation in [[HoTT]] and application to [[Cartan geometry]] is discussed in
 
-* {#Wellen18} [[Felix Wellen]], _[[schreiber:Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+* {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
 
 [[!redirects infinitesimal shape modalities]]
