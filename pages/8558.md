@@ -6,7 +6,7 @@
 
 ## Idea
 
-A _stratification_ of a [[set]] or other object is some kind of decomposition into _strata_ that are often [[order|ordered]] by inclusion, or by [[poset]] determined byb the relationships between the 'strata' as in a [[poset-stratified space]].
+A _stratification_ of a [[set]] or other object is some kind of decomposition into _strata_ that are often [[order|ordered]] by inclusion, or by a [[poset]] determining the relationships between the 'strata' as in a [[poset-stratified space]].
 
 ## Related concepts
 
