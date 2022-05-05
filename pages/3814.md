@@ -48,14 +48,15 @@ $$
 
 of the [[circle group]] with [[special unitary groups]], but is the [[quotient group]] 
 
-$$
+\[
+  \label{ExactGSM}
   G_{SM} 
   \;=\;
   \big(
     U(1) \times SU(2) \times SU(3)
   \big)
   / \mathbb{Z}_6
-$$
+\]
 
 of that by a [[cyclic group]] $\mathbb{Z}_6 \subset U(1) \times SU(2) \times SU(3)$ which is the [[subgroup]] [[generators and relations|generated]] from an element of the form
 
@@ -65,11 +66,26 @@ $$
   \,,
 $$
 
-where $q_n \in U(1)$ denotes an $n$th [[primitive root of unity]].
+where $q_n \in U(1)$ denotes an $n$th [[primitive root of unity]] (e.g. ([HMY 13, p. 2](#HMY13))), i.e. 
 
-(e.g. ([HMY 13, p. 2](#HMY13))).
+$$
+  \left(
+    e^{2 \pi i \tfrac{1}{6}}
+    \;,\; 
+    e^{2 \pi i \tfrac{1}{2}} \mathbf{1}_2\;,\; 
+    e^{2 \pi i \tfrac{1}{3}} \mathbf{1}_3
+  \right) 
+  \;\in\;
+  U(1) \times SU(2) \times SU(3)
+  \,,
+$$
 
-(This exact gauge group happens to coincide with the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]", see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details).
+
+The exact gauge group (eq:ExactGSM) happens to coincide with 
+
+1. $S(U(2) \times U(3)) \subset SU(5)$ -- this is the basis of "[[grand unified theories]]" ([[GUT]]), speculative extensions of the standard model;
+
+1. the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
 
 ## Variations and generalizations
 
