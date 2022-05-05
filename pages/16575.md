@@ -94,11 +94,15 @@ There, this is called an "obvious guess" (first line on p. 8). Subsequently,  mo
 
 * {#Myers03} [[Robert Myers]], section 3 of _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
 
-By actual computation in [[open string field theory]] "convincing evidence" (see bottom of p. 22) was found in
+By actual computation in [[open string field theory]] "convincing evidence" (see bottom of p. 22) was found, numerically, in
 
 * {#ColettiSigalovTaylor03} Erasmo Coletti, Ilya Sigalov, [[Washington Taylor]], _Abelian and nonabelian vector field effective actions from string field theory_, JHEP 0309 (2003) 050 ([arXiv:hep-th/0306041](https://arxiv.org/abs/hep-th/0306041))
 
-while the first actual derivation seems to be due to
+Similar numerical derivation, as well as exact derivation at zero momentum, is in
+
+* [[Nathan Berkovits]], [[Martin Schnabl]], _Yang-Mills Action from Open Superstring Field Theory_, JHEP 0309 (2003) 022 ([arXiv:hep-th/0307019](https://arxiv.org/abs/hep-th/0307019))
+
+The first full derivation seems to be due to
 
 * {#Lee16} [[Taejin Lee]], _Covariant open bosonic string field theory on multiple D-branes in the proper-time gauge_, Journal of the Korean Physical Society December 2017, Volume 71, Issue 12, pp 886–903 ([arXiv:1609.01473](https://arxiv.org/abs/1609.01473))
 
