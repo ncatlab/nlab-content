@@ -87,6 +87,18 @@ Not all [[weak factorization systems]] are functorial, although most (including 
 
 All [[orthogonal factorization systems]] are automatically functorial.
 
+## Properties
+ {#Properties}
+
+* Sufficient conditions in [[enriched category theory]] (in particular [[enriched model category]]-theory) for functorial factorization to exist as an [[enriched functor]] is discussed in [Hirschhorn 02, Theorem 4.3.8](#Hirschhorn02), [Shulman 06, Prop. 24.2](#Shulman06)
+
+## References
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+
+* {#Shulman06} [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_ ([arXiv:math/0610194](https://arxiv.org/abs/math/0610194))
+
 [[!redirects functorial factorizations]]
 
 [[!redirects functorial factorization system]]
