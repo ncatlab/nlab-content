@@ -113,6 +113,11 @@ In ([Dolan 11](#Dolan11)) is indicated a category of "toric [[quasicoherent shea
 
 =--
 
+## Related pages
+
+* [[Day convolution]]
+* [[bunched logic]]
+
 ## References
 
 For references on [[Day convolution]] see there.
