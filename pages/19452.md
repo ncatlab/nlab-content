@@ -35,7 +35,7 @@ This makes use of the following curious dictionary between [[category theory]]/[
  
 The perspective is that of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.) This dictionary implies a wealth of useful tools for handling and reasoning about [[geometry]]:
 
-We discuss [below](#BasicNotionsOfToposTheory) that [[sheaf toposes]], regarded as [[categories]] of [[generalized spaces]], are "convenient contexts" for geometry (Prop. \ref{PropertiesOfSheafToposes} below), in the technical sense that they provide just the right kind of generalization that makes all desireable constructions on spaces actually exist:
+We discuss [below](#BasicNotionsOfToposTheory) that [[sheaf toposes]], regarded as [[categories]] of [[generalized spaces]] via the above disctionary, are "convenient contexts" for geometry (Prop. \ref{PropertiesOfSheafToposes} below), in the technical sense that they provide just the right kind of generalization that makes all desireable constructions on spaces actually exist:
 
 | $\phantom{A}$[[sheaf topos]]$\phantom{A}$ | $\phantom{A}$as [[category]] of [[generalized spaces]] $\phantom{A}$ |
 |-----------------|-----------------|
@@ -46,26 +46,38 @@ We discuss [below](#BasicNotionsOfToposTheory) that [[sheaf toposes]], regarded 
 | $\phantom{A}$[[locally cartesian closed category|local cartesian closure]]: $\phantom{A}$ | $\phantom{A}$contains all [[fiber]]-wise [[mapping spaces]] $\phantom{A}$ |
 {: style='margin:auto}
 
-Notably [[mapping spaces]] play a pivotal role in [[physics]], in the guise of [[spaces of field histories]], but fall outside the applicability of traditional formulations of [[geometry]] based on just [[manifolds]]. But [[topos theory]] ensures their existence and provides the relevant infrastructure, for instance for the construction of [[transgression of differential forms]] to mapping spaces of [[smooth sets]] that is the basis for [[sigma-model]]-[[field theories]].
+Notably [[mapping spaces]] play a pivotal role in [[physics]], in the guise of [[spaces of field histories]], but fall outside the applicability of traditional formulations of [[geometry]] based on just [[manifolds]]. [[topos theory|Topos theory]] provides their existence (Prop. \ref{PropertiesOfSheafToposes} below) and the relevant infrastructure, for example for the construction of [[transgression of differential forms]] to mapping spaces of [[smooth sets]], that is the basis for [[sigma-model]]-[[field theories]]. This is discussed in the following chapters _[[geometry of physics -- smooth sets|on smooth sets]]_ and _[[geometry of physics -- supergeometry|on supergeometry]]_.
  
-Hence one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[geometry of physics]]. Similar comments apply to a wealth of other topics of mathematics.
+In conclusion, one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows to deeply understand and handle the [[geometry of physics]]. Similar comments apply to a wealth of other topics of mathematics.
 
 We offer also an _a priori_ motivation: _Category theory is the theory of duality._
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
 
-_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_ as _[[duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] (Def. \ref{AdjointModality} below).
+_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_ as _[[duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] ([[Some Thoughts on the Future of Category Theory|Lawvere 91]], see Def. \ref{AdjointModality} below), which exhibit a given "[[modality|mode of being]]" of any object $X$ as intermediate between two dual opposite extremes (Prop. \ref{ComparisonMorphismBetweenOppositeExtremes} below):
+
+$$
+  \Box X 
+    \overset{\phantom{AAAA}}{\longrightarrow}
+  X 
+    \overset{\phantom{AAAA}}{\longrightarrow}
+  \bigcirc X
+$$
+
+For example, _[[cohesion|cohesive]]_ [[geometry|geometric]] [[structure]] on [[generalized spaces]] is captured, this way, as [[modality]] in between the [[discrete object|discrete]] and the [[codiscrete object|codiscrete]] (Example \ref{DiscreteTopologicalSpaces}, and Def. \ref{CohesiveTopos} below).
+
+Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). 
 
 <div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/Adjointness.jpg" width="380">
+<img src="https://ncatlab.org/nlab/files/Adjointness.jpg" width="460">
 </div>
 
+But natural transformations are, in turn, exactly the basis for the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below), shown on the left. 
+All _[[universal constructions]]_, the heart of category theory, are special cases of [[adjoint functors]] -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82): This includes the concepts of _[[limits]]_ and _[[colimits]]_ (Def. \ref{Limits} below), [[ends]] and [[coends]] (Def. \ref{EndAndCoendInTopcgSmash} below) [[Kan extensions]] (Prop. \ref{TopologicalLeftKanExtensionBCoend} below), and the behaviour of these constructions, such as for instance the [[free co-completion]] nature of the [[Yoneda embedding]] (Prop. \ref{FreeCocompletion} below). 
 
-Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). But natural transformations are what allows us to define, in turn, the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below). 
+Therefore it makes sense to regard category theory as the **theory of adjunctions**, hence the **theory of duality**:
 
-All the deep concepts of category theory (such as _[[representable functors]]_, _[[Yoneda embedding]]_, _[[Kan extensions]]_, hence _[[limits]]_ and _[[colimits]]_, to be introduced below) are special cases of [[adjoint functor]] constructions -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82). Therefore it makes sense to regard category theory, to a large extent, as the **theory of adjunctions**, hence the **theory of duality**:
-
-
+<br/>
 
 | $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ [[category theory]] $\phantom{A}$ | $\phantom{A}$ [[enriched category theory]] $\phantom{A}$ |
 |------------------------|------------|--------------------------|
@@ -78,7 +90,7 @@ All the deep concepts of category theory (such as _[[representable functors]]_, 
 
 
 
-The pivotal role of [[adjunctions]] in [[category theory]] ([Lawvere 08](adjoint+functor#fn:1)) and in the [[foundations of mathematics]] ([[Adjointness in Foundations|Lawvere 69]], [[Cohesive Toposes and Cantor's lauter Einsen|Lawvere 94]] ) was particularly amplified by [[F. W. Lawvere]][^LawvereOnAdjointFunctors]. Moreover, [[Lawvere]] saw the future of category theory ([[Some Thoughts on the Future of Category Theory|Lawvere 91]]) as concerned with [[adjunctions]] expressing systems of archetypical dualities that reveal foundations for [[geometry]] ([Lawvere 07](cohesive+topos#LawvereAxiomatic)) and [[physics]] ([[Toposes of laws of motion|Lawvere 97]]). He suggested ([Lawvere 94](objective+and+subjective+logic#Lawvere94)) this as a precise formulation of core aspects of the _theory of everything_
+The pivotal role of [[adjunctions]] in [[category theory]] ([Lawvere 08](adjoint+functor#fn:1)) and in the [[foundations of mathematics]] ([[Adjointness in Foundations|Lawvere 69]], [[Cohesive Toposes and Cantor's lauter Einsen|Lawvere 94]] ) was particularly amplified by [[F. W. Lawvere]][^LawvereOnAdjointFunctors]. Moreover, [[Lawvere]] saw the future of category theory ([[Some Thoughts on the Future of Category Theory|Lawvere 91]]) as concerned with [[adjunctions]] expressing systems of archetypical dualities that reveal foundations for [[geometry]] ([Lawvere 07](cohesive+topos#LawvereAxiomatic)) and [[physics]] ([[Toposes of laws of motion|Lawvere 97]], see Def. \ref{CohesiveTopos} and Def. \ref{DifferentialCohesion} below). He suggested ([Lawvere 94](objective+and+subjective+logic#Lawvere94)) this as a precise formulation of core aspects of the _theory of everything_
 of early 19th century [[philosophy]]: [[Hegel]]'s _[[Science of Logic]]_.
 
 [^LawvereOnAdjointFunctors]: "the universality of the concept
