@@ -38,6 +38,10 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 
 * [[n-connected/n-truncated factorization system]].
 
+## References
+
+* {#Borceux94} [[Francis Borceux]], vol 1, section 4.4. of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+
 
 [[!redirects (epi, mono) factorization system]]
 
