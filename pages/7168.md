@@ -77,11 +77,9 @@ First classification results for forms over the [[integers]] were due to
 
 (which speaks of _formas secundi gradus_)
 
-* [[Herrmann Minkowski]], _Grundlagen f&#252;r eine Theorie der quadratischen Formen mit ganzzahligen Koeffizienten, M&#233;moires pr&#233;sent&#233;s par divers savants a l'Acad&#180;emie des Sciences de l'institut national de France_, Tome
-XXIX, No. 2. 1884.
+* [[Hermann Minkowski]], _Grundlagen f&#252;r eine Theorie der quadratischen Formen mit ganzzahligen Koeffizienten, M&#233;moires pr&#233;sent&#233;s par divers savants a l'Acad&#180;emie des Sciences de l'institut national de France_, Tome XXIX, No. 2. 1884.
 
-* [[Herrmann Minkowski]], _Untersuchungen &#252;ber quadratische Formen. Bestimmung der
-Anzahl verschiedener Formen, die ein gegebenes Genus enth&#228;lt_, K&#246;nigsberg 1885; Acta Mathematica 7 (1885), 201&#8211;258
+* [[Hermann Minkowski]], _Untersuchungen &#252;ber quadratische Formen. Bestimmung der Anzahl verschiedener Formen, die ein gegebenes Genus enth&#228;lt_, K&#246;nigsberg 1885; Acta Mathematica 7 (1885), 201&#8211;258
 
 See also
 
