@@ -1685,6 +1685,8 @@ The disadvantage of the simplicial approach is the difficulty of describing mult
 
 * [[groupoid action]], [[groupoid-principal bundle]]
 
+* [[presheaf of groupoids]]
+
 * [[topological groupoid]], [[Lie groupoid]], [[smooth groupoid]]
 
 * [[stack]], [[geometric stack]]
