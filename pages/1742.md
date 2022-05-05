@@ -117,21 +117,26 @@ $$
 or, equivalently, like so:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/Adjunction.jpg" width="540">
+<img src="https://ncatlab.org/nlab/files/Adjointness.jpg" width="540">
 </center>
 
 
 ### As string diagrams
  {#AsStringDiagrams}
 
-In [[string diagrams]], the identities appear as the action of "pulling zigzags straight" (hence the name):
+As [[string diagrams]], the triangle identities appear as the action of "pulling zigzags straight" (hence the name):
 
-[[adjunction-up-string.png:pic]], [[adjunction-down-string.png:pic]].
+<center>
+ [[adjunction-up-string.png:pic]],[[adjunction-down-string.png:pic]].
+</center>
+
 
 With labels left implicit, this notation becomes very economical:
 
-[[adjunction-up-string-minimal.png:pic]], [[adjunction-down-string-minimal.png:pic]].
-
+<center>
+ [[adjunction-up-string-minimal.png:pic]], 
+ [[adjunction-down-string-minimal.png:pic]].
+</center>
 
 ## Related concepts
 
