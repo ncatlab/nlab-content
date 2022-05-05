@@ -147,7 +147,7 @@ $$
     =
     \;
     A(G)
-    \longrightarrow
+     \overset{\beta}{\longrightarrow}
     R(R)
     \;
     =
@@ -156,7 +156,15 @@ $$
 
 from the [[Burnside ring]] of $G$ to its [[representation ring]].
 
-The [[image]] of $K(k[-])$ may be called the _virtual_ linear permutation representations.
+This map is traditionally denoted $\beta$, as shown.
+
+=--
+
++-- {: .num_remark #VirtualLinearPermuationRepresentations}
+###### Remark
+**(virtual linear permutation representations)**
+
+The [[image]] of the comparison morphism $\beta = K(k[-])$ (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) may be called the _virtual_ linear permutation representations. 
 
 =--
 
@@ -190,11 +198,29 @@ $$
 
 from the [[sphere spectrum]] to [[KU]].
 
+Noticing that we may regard [[stable cohomotopy]]/the [[sphere spectrum]] as being the [[algebraic K-theory]] of the "[[field with one element]]" $\mathbb{F}_1$ (see [there](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement))
+
+$$
+  \mathbb{S} \simeq K \mathbb{F}_1
+$$
+
+we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to \mathbb{F}_p \to \mathbb{C}$ followed by the [[comparison map between algebraic and topological K-theory]]:
+
+\[
+  \label{ComparisonInStableHomotopytheoryInStages}
+  \mathbb{S} \simeq K\mathbb{F}_1
+  \to K \mathbb{F}_2 \to \cdots \to K\mathbb{F}_p \to \cdots 
+  \to K\mathbb{C}
+  \to KU
+  \,.
+\]
+
 =--
 
 ## Examples
 
 ### Permutation representations
+ {#ExamplesPermutationRepresentations}
 
 +-- {: .num_example #RegularRepresentation}
 ###### Example
@@ -217,10 +243,68 @@ be the canonical [[action]] of $G$ on itself, by left multiplication in the grou
 =--
 
 ### Virtual permutation representations
+ {#ExamplesVirtualPermutationRepresentations}
 
-For the example that $G = S_n$ is a [[symmetric group]], this construction is analyzed in detail at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_.
+We discuss here examples of the operation of forming _virtual_ linear permutation representations (Remark \ref{VirtualLinearPermuationRepresentations}), regarded as the canonical [[ring homomorphism]]
 
-(...)
+$$
+  A(G) \overset{ \beta = K(k[-]) }{\longrightarrow} R(G)
+$$
+
+from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}. 
+
+For emphasis, notice that among plain [[linear representation]] the linear permutation representations generally form but a tiny sub-class, i.e. generically a [[linear representation]] is _not_ a linear permutation representation. But this statement may change radically as we pass to _virtual_ representations:
+
+If the [[ring homomorphism]] $\beta$ (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) is [[surjective function]], this means that in fact _all_ virtual linear $G$-representation are virtual linear permutation representations. This is not the case for all groups, but it is the case for large classes of groups! This is the content of Prop. \ref{WhenAllVirtualLinearRepsAreVirtualPermutationReps} below.
+
+Notice that when this is the case, it means that the [[representation theory]] of the given group is, in a precise sense, purely _[[combinatorics|combinatorial]]_, or equivalently, in view of (eq:ComparisonInStableHomotopytheoryInStages), that it is fully determined over the [[absolute ground field]] $\mathbb{F}_1$.
+
++-- {: .num_prop #WhenAllVirtualLinearRepsAreVirtualPermutationReps}
+###### Proposition
+**(when all virtual linear reps are virtual permutation reps)**
+
+The comparison morphism
+
+$$
+  A(G) \overset{ \beta = K(k[-]) }{\longrightarrow} R(G)
+$$
+
+from Def. \ref{ComparisonMapBurnsideRingRepresentationRing} 
+
+1. is [[surjective map|surjective]] in the following cases (not all mutually exclusive):
+
+   1. $G$ is a [[p-group]];
+
+   1. $G$ is a [[cyclic group]];
+
+   1. $G = S_4$ the [[symmetric group]] on four elements
+
+1. is _not_ [[surjective map|surjective]] in the following cases:
+
+   1. $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The proof for [[p-groups]] is due to [Segal 72](#Segal72), see also [Feit 67](#Feit67), [Ritter 72](#Ritter72).
+
+The case of [[cyclic groups]] follows from the case of [[p-groups]] by the [[fundamental theorem of cyclic groups]].
+
+For the example that $G = S_4$ a proof is spelled out at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_. See also the example in [Montaldi](#Montaldi) [here](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/S4).
+
+The counter-example $\mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77)
+
+=--
+
+A more general analysis of the [[cokernel]] of $\beta$ is due to [Berz 94](#Berz94), reviewed and expanded on in [Hambleton-Taylor 99](#HambletonTaylor99).
+
+See also the review of the literature in [Bartel-Dokchitser 14, p. 1](#BartelDokchitser14).
+
+Apparently $\beta$ is an [[isomorphism]] precisely if $G$ is a [[cyclic group]] (see [PlanetMath](#PlanetMathRepAndBurn)).
+
 
 ## Related entries
 
@@ -238,6 +322,32 @@ For the example that $G = S_n$ is a [[symmetric group]], this construction is an
 * [[regular representation]]
 
 * [[∞-permutation representation]]
+
+## References
+
+* {#Feit67} [[Walter Feit]], _Characters of Finite Groups_, W. A. Benjamin New York, 1967
+
+* D. L. Johnson, _Minimal Permutation Representations of Finite Groups_, 
+American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor:2373739](https://www.jstor.org/stable/2373739))
+
+* {#Ritter72} J. Ritter, _Ein Induktionssatz fuer rationale Charaktere von nilpotenten Gruppen, J. Reine Angew. Math. 254 (1972), 133–151
+
+* {#Segal72} [[Graeme Segal]], _Permutation representations of finite $p$-groups, Quart. J. Math. Oxford (2) 23 (1972), 375–381 ([web](https://academic.oup.com/qjmath/article/23/4/375/1560108))
+
+* {#Serre77} [[Jean-Pierre Serre]], _Linear Representations of Finite Groups_, Graduate Texts in Math., vol. 42, Springer–Verlag, New York, 1977
+
+* {#Berz94} G. Berz, _Permutationsbasen fuer endliche Gruppen_, Ph.D. thesis, Augsburg, 1994 (Zbl0924.20003)
+
+* {#HambletonTaylor99} I. Hambleton, L. R. Taylor, _Rational permutation modules for finite groups_, Math. Z. 231 (1999), 707–726 ([pdf](https://link.springer.com/content/pdf/10.1007/PL00004749.pdf))
+
+* {#BartelDokchitser14} Alex Bartel, Tim Dokchitser, _Rational representations and permutation representations of finite groups_, Math. Ann. 364 no. 1 (2016), 539-558 ([arXiv:1405.6616](https://arxiv.org/abs/1405.6616))
+
+
+See also
+
+* {#PlanetMathRepAndBurn} [[PlanetMath]], _[representation ring vs burnside ring](https://planetmath.org/RepresentationRingVsBurnsideRing)_
+
+* {#Montaldi} James Montaldi, _[Real representations of finite groups](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_
 
 [[!redirects permutation representation]]
 [[!redirects permutation representations]]
