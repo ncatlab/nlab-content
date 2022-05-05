@@ -38,6 +38,8 @@ The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The
 
 ## Related concepts
 
+* [[anti M-brane]]
+
 [[!include table of branes]]
 
 
