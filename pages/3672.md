@@ -32,7 +32,11 @@ There is a close relationship between
 
 This is based on the fact that in certain dimensions, [[spin group]] [[representation]]s are naturally identified with a $\mathbb{K}^n$, for $\mathbb{K}$ one of the [[normed division algebras]], see at [[spin group]] _[The exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms)_.
 
-For exposition see _[[geometry of physics -- supersymmetry]]_ the section _[Real spin representations via Real alternative division algebra](geometry+of+physics+--+supersymmetry##RealSpinRepresentationViaNormedDivisionAlgebra)_.
+For detailed exposition see 
+
+* _[[geometry of physics -- supersymmetry]]_ the section _[Real spin representations via Real alternative division algebra](geometry+of+physics+--+supersymmetry##RealSpinRepresentationViaNormedDivisionAlgebra)_
+
+* _[[geometry of physics -- fundamental super p-branes]]_
 
 
 [[!include exceptional spinors and division algebras -- table]]
@@ -108,7 +112,11 @@ Normed division algebras are used to describe the construction of [[Lie 2-algebr
 
 * [[John Huerta]], _Division Algebras and supersymmetry III_, ([arXiv:1109.3574](http://arxiv.org/abs/1109.3574))
 
+This is made use of in the [[homotopy theory|homotopy theoretic]] description of [[M-theory]]-structure in 
 
+* [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_, Letters of Mathematical Physics, 2018 ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 [[!redirects division algebras and supersymmetry]]
 
