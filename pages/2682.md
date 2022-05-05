@@ -262,6 +262,8 @@ Implications of the possible non-existence of de Sitter vacua in string theory a
 
 * {#Vafa18} [[Cumrun Vafa]], _Cosmology and the String Swampland_, talk at _[Strings 2018](https://indico.oist.jp/indico/event/5/)_ ([pdf slides](https://indico.oist.jp/indico/event/5/picture/96.pdf), [recording](https://www.youtube.com/watch?v=fU8sJRCRz24&t=1904s))
 
+* [[Frederik Denef]], Arthur Hebecker, Timm Wrase, _The dS swampland conjecture and the Higgs potential_ ([arXiv:1807.06581](https://arxiv.org/abs/1807.06581))
+
 But then:
 
 * Jakob Moritz, Ander Retolaza, Alexander Westphal, _Towards de Sitter from 10D_, Phys. Rev. D 97, 046010 (2018) ([arXiv:1707.08678](https://arxiv.org/abs/1707.08678))
