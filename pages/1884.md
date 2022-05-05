@@ -2690,6 +2690,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
   * [[KR-theory]]
 
+  * [[vectorial bundle]]
+
 * [[groupoid K-theory]]
 
 * [[twisted K-theory]]
