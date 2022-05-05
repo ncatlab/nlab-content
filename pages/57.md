@@ -261,8 +261,11 @@ $$
 
 This divides out [[n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
 
+$\,$
 
-### Integration to a smooth $\infty$-groupoid {#SmoothIntegration}
+### Integration to a smooth $\infty$-groupoid 
+  {#SmoothIntegration}
+ 
 
 We now discuss Lie integration of $\infty$-Lie algebroids to [[smooth ∞-groupoid]]s, [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ over the [[site]] [[CartSp]]${}_{smooth}$.
 
@@ -355,6 +358,123 @@ Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by post
  {#PropertiesHomotopyGroups}
 
 ...([Henriques, theorem 6.4](#Henriques))... remark \ref{SpuriousHomotopyGroups}...
+
+### Quillen adjunction
+ {#QuillenAdjunction}
+
+The [above](#SmoothIntegration) construction of Lie integraton to [[smooth ∞-groupoids]] clearly applies to all [[differential graded-commutative algebras]], not necessarily just those which are [[Chevalley-Eilenberg algebras]] of [[L-∞ algebras]]. (but up to [[weak equivalence]], there is no difference). With this generalization, the higher Lie integration extends to a [[Quillen adjunction]] (Prop. \ref{LieIntegrationIsRightQuillenFunctor} below). In order to state this conveniently, we first make more explicit the [[functor]] assigning smooth families of [[smooth differential forms on simplices]] (Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants} below).
+
+$\,$
+
++-- {: .num_defn #SmoothDifferentialFormsOnSimplicesWithSittingInstants}
+###### Definition
+**(smooth families of [[smooth differential forms on simplices]] with [[sitting instants]])**
+
+For $k \in \mathbb{N}$, write $\Delta^k_{mfd}$ for the [[k-simplex]] canonically regarded as a [[smooth manifold with boundaries and corners]].
+
+For $n \in \mathbb{N}$, regard $\mathbb{R}^n \times \Delta^k_{mfd} \overset{p_1}{to} \mathbb{R}^n$ as the [[trivial bundle|trivial]] [[fiber bundle]] over the [[Cartesian space]] $\mathbb{R}^n$ with [[fiber]] that  smooth [[k-simplex]]. 
+
+Write
+
+$$
+  \Omega^\bullet_{vert}(\mathbb{R}^n \times \Delta^k_{mfd})
+  \hookrightarrow
+  \Omega^\bullet(\mathbb{R}^n \times \Delta^k_{mfd})
+$$
+
+for the [[subobject|sub-]][[dgc-algebra]] of the [[de Rham algebra]] on the [[vertical differential forms]] with respect to this bundle structure.
+
+Moreover, write
+
+$$
+  \Omega^\bullet_{vert, si}\left(\mathbb{R}^n \times \Delta^k_{mfd}\right)
+  \hookrightarrow
+  \Omega^\bullet_{vert}\left(\mathbb{R}^n \times \Delta^k_{mfd}\right)
+$$
+
+for the further [[subobject|sub-]][[dgc-algebra]] on those [[vertical differential forms]] which have [[sitting instants]] towards the [[boundary]] of the [[k-simplex]].
+
+Via [[pullback of differential forms]] this construction provides a [[functor]]
+
+$$
+  \Omega^\bullet_{vert,si}
+  \;\colon\;
+  CartSp \times \Delta
+    \longrightarrow
+  dgcAlg_{\mathbb{R}, conn}^{op}
+$$
+
+from the [[product category]] of the [[category]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between them, with the [[simplex category]], to the [[opposite category|opposite]] of the [[category of connective dgc-algebras]] over the [[real numbers]].
+
+=--
+
+(see [Braunack-Mayer 18, Def. 3.1.3](#BraunackMayer18)
+
++-- {: .num_prop #LieIntegrationIsRightQuillenFunctor}
+###### Proposition
+**(Lie integration is [[right Quillen functor]] to [[smooth ∞-groupoids]])**
+
+There is a [[Quillen adjunction]]
+
+$$
+  [CartSp^{op},sSet_{Qu}]_{proj,loc}
+    \;
+    \underoverset
+      {\underset{ Spec }{\longrightarrow}}
+      {\overset{ \mathcal{O} }{\longleftarrow}}
+      {\phantom{AA}\bot\phantom{AA}}
+    \;
+  dgcAlg^{op}_{\mathbb{R}, \geq 0, proj}
+$$
+
+between
+
+1. the [[projective local model structure on simplicial presheaves]] over [[CartSp]], regarded as a [[site]] via the [[good open cover]] [[coverage]] (i.e. [[locally presentable (∞,1)-category|presenting]] [[smooth ∞-groupoids]]);
+
+1. the [[opposite model category|opposite]] [[projective model structure on connective dgc-algebras]] over the [[real numbers]]
+
+given by [[nerve and realization]] with respect to the [[functor]] of [[smooth differential forms on simplices]]
+$  
+  CartSp \times \Delta
+    \overset{\Omega^\bullet_{vert,si}}{\longrightarrow}
+  dgcAlg_{\mathbb{R}, conn}^{op}
+$ from Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants}:
+
+
+1. the [[right adjoint]] $Spec$ sends a [[dgc-algebra]] $A \in dgcAlg_{\mathbb{R},\geq 0}$ to the [[simplicial presheaf]] which in degree $k$ is the set of [[dg-algebra]]-[[homomorphism]] form $A$ into the [[dgc-algebras]] of [[smooth differential forms on simplices]] $\Omega^\bullet_{si,vert}(-)$ (Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants}):
+
+   $$
+     Spec(A)
+     \;\colon\;
+     \mathbb{R}^n \times \Delta[k]
+     \;\mapsto\;
+     Hom_{dgcAlg_{\mathbb{R}}}
+     \left(
+       A , \Omega^\bullet_{si, vert}(\mathbb{R}^n \times \Delta^k_{mfd})
+     \right)
+   $$
+
+1. the [[left adjoint]] $\mathcal{O}$ is the [[Yoneda extension]] of the [[functor]] $\Omega^\bullet_{vert,si} \;\colon\; CartSp \times \Delta \to dgcAlg_{\mathbb{R},conn}^{op}$ assigning [[dgc-algebras]] of [[smooth differential forms on simplices]] from Def. \ref{SmoothDifferentialFormsOnSimplicesWithSittingInstants},
+
+   hence which acts on a [[simplicial presheaf]] $\mathbf{X} \in [CartSp^{op}, sSet] \simeq [\CartSp^{op} \times \Delta^{op}, Set]$, expanded via the [[co-Yoneda lemma]] as a [[coend]] of [[representable presheaves|representables]], as
+
+   $$
+     \mathcal{O}
+     \;\colon\;
+     \mathbf{X}
+     \simeq
+     \int^{n,k}
+     y(\mathbb{R}^n \times \Delta[k]) \times \mathbf{X}(\mathbb{R}^n)_k
+     \;\mapsto\;
+     \int_{n,k}
+     \underset{\mathbf{X}(\mathbb{R}^n)_k}{\prod}
+     \Omega^\bullet_{si,vert}\left(\mathbb{R}^n \times \Delta^k_{mfd}\right)
+   $$
+
+=--
+
+([Braunack-Mayer 18, theorem 3.1.10](#BraunackMayer18))
+
 
 ## Examples
 
@@ -652,6 +772,8 @@ Fortunately $A$-homotopies form finite codimensional foliation $F$, even though 
 
 * [[dg-nerve]]
 
+* [[function algebras on infinity-stacks]]
+
 [[!include infinitesimal and local - table]]
 
 
@@ -688,7 +810,7 @@ For general [[∞-Lie algebroids]] the general idea of the integration process b
 
 Lie integration of [[dg-modules]] to [[smooth spectrum|smooth]] [[parameterized spectra]] ([[twisted cohomology|twisted]] [[differential cohomology theories]]);
 
-* [[Vincent Braunack-Mayer]], section 3.1 of _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich 2018 ([pdf](https://ncatlab.org/schreiber/show/thesis+Braunack-Mayer#pdf))
+* {#BraunackMayer18} [[Vincent Braunack-Mayer]], section 3.1 of _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich 2018 ([pdf](https://ncatlab.org/schreiber/show/thesis+Braunack-Mayer#pdf))
 
 Discussion of Lie integration of [[Lie algebroids]] by the path method is due to 
 
@@ -734,6 +856,7 @@ A generalization of [[Lie integration]] to conjectural Leibniz groups has been c
 
 * Simon Covez, _The local integration of Leibniz algebras_, [arXiv:1011.4112](http://arxiv.org/abs/1011.4112); _On the conjectural cohomology for groups_, [arXiv:1202.2269](http://arxiv.org/abs/1202.2269); 
 _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](http://tel.archives-ouvertes.fr/docs/00/49/54/69/PDF/THESE_Simon_Covez.pdf)
+
 
 [[!redirects Lie integrations]]
 
