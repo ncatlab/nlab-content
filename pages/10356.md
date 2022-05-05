@@ -167,6 +167,8 @@ but has not been given a correspondingly precise cohomological formulation yet.
 
 ## References
 
+### General
+
 Early discussion in physics language include
 
 * [[Michael Douglas]], [[Brian Greene]], [[David Morrison]], _Orbifold Resolution by D-Branes_, Nucl.Phys.B506:84-106,1997 ([arXiv:hep-th/9704151](https://arxiv.org/abs/hep-th/9704151))
@@ -199,6 +201,13 @@ Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] 
 * {#QuirozStefanski01} N. Quiroz, B. Stefanski Jr, _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
 
 * {#MMR06} Jaydeep Majumder, Subir Mukhopadhyay, Koushik Ray, _Fractional Branes in Non-compact Type IIA Orientifolds_, JHEP0611:008, 2006 ([arXiv:hep-th/0602135](https://arxiv.org/abs/hep-th/0602135))
+
+
+### Relation to permutation branes
+
+Relation to [[permutation branes]]:
+
+* {#EGJ05} Bobby Ezhuthachan, Suresh Govindarajan, T. Jayaraman, _A quantum McKay correspondence for fractional 2p-branes on LG orbifolds_, JHEP 0508 (2005) 050 ([arXiv:hep-th/0504164](https://arxiv.org/abs/hep-th/0504164))
 
 
 [[!redirects fractional D-branes]]
