@@ -47,11 +47,12 @@ which is such that $\mathcal{E} \simeq Sh(\mathcal{C}, \tau)$.
 
 =--
 
-(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](#Borceux94))
+(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](#Borceux94), [Johnstone, C.2.1.11](#Johnstone))
 
 
 +-- {: .num_prop #AccessibleReflection}
 ###### Proposition
+**(accessible embedding is implied)**
 
 In the situation of prop. \ref{GrothendieckToposesAreLexReflectionsOfPresheafToposes}
 it follows that the inclusion $i \colon Sh(\mathcal{C},\tau) \hookrightarrow PSh(\mathcal{C})$ is an [[accessible functor]], hence an [accessible reflective subcategory inclusion](reflective+subcategory#AccessibleReflectiveSubcategories).
@@ -68,10 +69,11 @@ Every  [[Grothendieck topos]] like $Sh(\mathcal{C}, \tau)$ and $PSh(\mathcal{C})
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #GeneralizationToInfinityToposes}
 ###### Remark
+**(generalization to [[(∞,1)-toposes]])**
 
-For [[(infinity,1)-toposes]] the accessibility of the reflection is no longer implied in genral, as in prop. \ref{AccessibleReflection}, but needs to be required. It is however still implied for [[topological localizations]] ([Lurie, prop. 6.2.1.5](#Lurie)). 
+For [[(∞,1)-toposes]] the accessibility of the reflection is no longer implied in general, contrary to prop. \ref{AccessibleReflection} above, but needs to be required. It is however still implied for [[topological localizations]] ([Lurie, prop. 6.2.1.5](#Lurie)). 
 
 =--
 
@@ -79,6 +81,8 @@ For [[(infinity,1)-toposes]] the accessibility of the reflection is no longer im
 ## References
 
 * {#Borceux94} [[Francis Borceux]], vol. 3, section 3.5 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
