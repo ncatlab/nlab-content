@@ -567,40 +567,40 @@ The analysis of the image of $J$ is due to
 
 * [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-I.pdf))
 
-* [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf))
- {#Adams65a}
+* {#Adams65a} [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf))
+ 
 
-* [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-III.pdf))
- {#Adams65b}
+* {#Adams65b} [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-III.pdf))
+ 
 
-* [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
- {#Adams66}
-
-
+* {#Adams66} [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968) ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf))
+ 
 
 
 
-* [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Quillen.pdf))
- {#Quillen71}
 
 
-* [[Dennis Sullivan]], _Genetics of homotopy theory and the Adams conjecture_, Ann. of Math. 100 (1974), 1&#8211;79.
- {#Sullivan74}
+* {#Quillen71} [[Daniel Quillen]], _The Adams conjecture_, Topology. an International Journal of Mathematics 10: 67&#8211;80 (1971) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/Quillen.pdf))
+ 
 
-* [[Robert Switzer]], _Algebraic topology&#8211;homotopy and homology_, Springer-Verlag, New York, 1975.
- {#Switzer75}
+
+* {#Sullivan74} [[Dennis Sullivan]], _Genetics of homotopy theory and the Adams conjecture_, Ann. of Math. 100 (1974), 1&#8211;79.
+ 
+
+* {#Switzer75} [[Robert Switzer]], _Algebraic topology&#8211;homotopy and homology_, Springer-Verlag, New York, 1975.
+ 
 
 The statement of the theorem about the characterization of the image is reviewed in 
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 1, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
- {#RavenelCh1}
+* {#RavenelCh1} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 1, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+ 
 
 see there also around theorem 3.4.16.
 
 The details of the proof are surveyed in 
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 5, _The chromatic spectral sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel5.pdf))
- {#RavenelChapter5}
+* {#RavenelChapter5} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 5, _The chromatic spectral sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel5.pdf))
+ 
 
 
 Tables showing the image of $J$ at low primes are in 
@@ -638,6 +638,19 @@ Generalization to [[equivariant cohomology]] ([[equivariant K-theory]]) is discu
 
 * Christopher French, theorem 2.4 in _The equivariant $J$–homomorphism for finite groups at certain primes_, Algebr. Geom. Topol. Volume 9, Number 4 (2009), 1885-1949 ([euclid:1513797069](https://projecteuclid.org/euclid.agt/1513797069))
 
+### Equivariant enhancement
+
+The generalization to [[equivariant cohomology]] ([[equivariant K-theory]] and the [[equivariant Adams conjecture]]) is discussed in
+
+* [[Tammo tom Dieck]], theorem 11.3.8 in _[[Transformation Groups and Representation Theory]]_ Lecture Notes in Mathematics 766 Springer 1979
+
+* Z. Fiedorowicz, H. Hauschild, [[Peter May]], theorem 0.4 of _Equivariant algebraic K-theory_, _Equivariant algebraic K-theory_, Algebraic K-Theory. Springer, Berlin, Heidelberg, 1982. 23-80 ([pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf))
+
+* Henning Hauschild, [[Stefan Waner]], theorem 0.1 of _The equivariant Dold theorem mod $k$ and the Adams conjecture_, Illinois J. Math. Volume 27, Issue 1 (1983), 52-66. ([euclid:1256065410](https://projecteuclid.org/euclid.ijm/1256065410))
+
+* Kuzuhisa Shimakawa, _Note on the equivariant $K$-theory spectrum_, Publ. RIMS, Kyoto Univ. **29** (1993), 449-453 ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=29&iss=3&rank=5), [doi](https://doi.org/10.2977/prims/1195167052))
+
+* Christopher French, theorem 2.4 in _The equivariant $J$–homomorphism for finite groups at certain primes_, Algebr. Geom. Topol. Volume 9, Number 4 (2009), 1885-1949 ([euclid:1513797069](https://projecteuclid.org/euclid.agt/1513797069))
 
 
 ### Relation to $O$-action on general spectra
@@ -658,3 +671,6 @@ and in the context of the [[cobordism hypothesis]]:
 [[!redirects image of J]]
 [[!redirects image of J-homomorphism]]
 [[!redirects image of the J-homomorphism]]
+
+[[!redirects equivariant J-homomorphism]]
+[[!redirects equivariant J-homomorphisms]]
