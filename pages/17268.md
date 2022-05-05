@@ -1440,3 +1440,4 @@ A proof of the model structure not relying on the [[classical model structure on
 [[!redirects Kan-Quillen model structure on simplicial sets]]
 [[!redirects Kan-Quillen model structure]]
 
+[[!redirects classical model category of simplicial sets]]
