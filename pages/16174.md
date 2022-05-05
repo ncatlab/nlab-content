@@ -100,13 +100,16 @@ Under the identitification
 
    (see [there](representation+ring#AsEquivariantKTheoryOfThePoint))
 
-this should be image of the initial morphism of [[E-infinity ring spectra]]
+this should be the image of the initial morphism of [[E-infinity ring spectra]]
 
 $$
   \mathbb{S} \longrightarrow KU
 $$
 
 from the [[sphere spectrum]] to [[KU]].
+
+For details on this comparison map see at _[[permutation representation]]_, [this section](permutation+representation#ExamplesVirtualPermutationRepresentations).
+
 
 
 ## Related concepts
@@ -151,6 +154,13 @@ See also
 
 * {#GayMorrisMorris} C. D. Gay, G. C. Morris, and I. Morris, _Computing Adams operations on the Burnside ring of a finite group_, J. Reine Angew. Math., 341 (1983), pp. 87–97.
 
+[[!redirects Burnside rings]]
+
 [[!redirects burnside ring]] 
+[[!redirects burnside rings]] 
+
 [[!redirects Burnside rig]] 
+[[!redirects Burnside rigs]] 
+
 [[!redirects burnside rig]] 
+[[!redirects burnside rigs]] 
