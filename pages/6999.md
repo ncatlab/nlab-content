@@ -70,6 +70,14 @@ $$
   Set
 $$
 
+Here morphisms on top are left adjoint to morphisms below, hence
+
+$$
+  conc \dashv \iota_{conc}
+$$
+
+exhibits the concrete objects as a [[reflective subcategory]].
+
 =--
 
 
@@ -82,10 +90,109 @@ For the adjunction on the left we claim that the [[left adjoint]] $conc$ ([[conc
 
 $$
   conc \;\colon\; X \mapsto im(\eta^\sharp_X)
-  \,.
 $$
 
-The [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by the [[epimorphism]] in the [[(epi, mono) factorization system|epi/mono-factorization]], which, being [[orthogonal factorization system|orthogonal]], is [[functorial factorization|functorial]]:
+hence to the object which exhibits the [[(epi, mono) factorization system|epi/mono-factorization]] of $\eta^\sharp_X$
+
+\[
+  \label{ConcretificationUnitFromEpiMonoFactorization}
+  \eta^\sharp_X
+  \;\colon\;
+  X 
+    \underoverset{epi}{ \eta^{conc}_X }{\longrightarrow}
+  conc X
+    \underoverset{mono}{}{\longrightarrow}
+  \sharp X
+  \,.
+\]
+
+First we need to show that $conc X$, thus defined, is indeed concrete, hence that $\eta^\sharp_{im(\eta^\sharp_X)}$ is a monomorphism. For this, consider the following [[naturality square]] of the $\Gamma \dashv coDisc$-adjunction hom-isomorphism
+
+\[
+  \label{ConcNatur}
+  \array{
+    Hom_{Set}( \Gamma im(\eta^\sharp_X), \Gamma im(\eta^\sharp_X) )
+    &\simeq&
+    Hom_{\mathbf{H}}( im(\eta^\sharp_X), \sharp im(\eta^\sharp_X) )
+    \\
+    {}^{ \mathllap{ (-) \circ \Gamma(\eta^{conc}_X) } }\big\downarrow      
+      &&
+    \big\downarrow^{
+      \mathrlap{ (-) \circ \eta^{conc}_X }
+    }
+    \\
+    Hom_{Set}( \Gamma X, \Gamma im(\eta^\sharp_X) )
+    &\simeq&
+    Hom_{\mathbf{H}}( X, \sharp im(\eta^\sharp_X) )    
+  }
+  \phantom{AAAA}
+  \array{
+    \left\{ id_{\Gamma im(\eta^\sharp_X)} \right\}
+      &\longrightarrow&
+    \phantom{\sharp(\eta^{conc}_X) \circ \eta^\sharp_{ X }}
+    \left\{ \eta^{\sharp}_{im(\eta^\sharp_X)} \right\}
+    \\
+    \big\downarrow 
+      && 
+    \phantom{\sharp(\eta^{conc}_X) \circ \eta^\sharp_{ X }}
+    \big\downarrow
+    \\
+    \left\{ \Gamma(\eta^{conc}_X) \right\}
+      &\longrightarrow& 
+    \left\{
+      \underset{
+        iso
+      }{ 
+      \underbrace{
+         \sharp(\eta^{conc}_X)
+      }}
+      \circ \eta^\sharp_{ X }
+      \;=\;
+    \eta^{\sharp}_{ im(\eta^\sharp_X) } \circ \eta^{conc}_X 
+    \right\}
+  }
+\]
+
+By chasing the [[identity morphism]] on $\Gamma im(\eta^\sharp_X)$ through this diagram, as shown by the diagram on the right, we obtain the equality displayed in the bottom right entry, where we used the general formula for [[adjuncts]] and the definition $\sharp \coloneqq coDisc \circ \Gamma$.
+
+But observe that $\Gamma (\eta^{conc}_X)$, and hence also $\sharp(\eta^{conc}_X)$, is an [[isomorphism]], as indicated above: Since $\Gamma$ is both a [[left adjoint]] as well as a [[right adjoint]], it preserves both [[epimorphisms]] as well as [[monomorphisms]], hence it preserves [[image]] factorizations. This implies that $\Gamma \eta^{conc}_X$ is the epimorphism onto the image of $\Gamma( \eta^\sharp_X )$. But by [[idempotent monad|idempotency]] of $\sharp$, the latter is an [[isomorphism]], and hence so is the epimorphism in its image factorization.
+
+Therefore the equality in (eq:ConcNatur) says that 
+
+$$
+  \begin{aligned}
+    \eta^\sharp_{ X } 
+      & =
+    \left( 
+      iso \circ \eta^{\sharp}_{ im(\eta^\sharp_X)} 
+    \right)
+      \circ 
+    \eta^{conc}_X
+    \\
+    & =
+    mono \circ \eta^{conc}_X 
+    \,,
+  \end{aligned}
+$$
+
+where in the second line we remembered that $\eta^{conc}_X$ is, by definition, the epimorphism in the epi/mono-factorization of $\eta^\sharp_X$.
+
+Now the defining property of epimorphisms allows to cancel this commmon factor on both sides, which yields
+
+$$
+  \eta^{\sharp}_{ im(\eta^\sharp_X) }
+  \;=\;
+  iso \circ mono
+  \;=\;
+  mono.
+$$
+
+This shows that $conc X \coloneqq im(\eta^\sharp_X)$ is indeed concret.
+
+It remains to show that this construction is [[left adjoint]] to the inclusion.
+We claim that the [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by $\eta^{conc}$ (eq:ConcretificationUnitFromEpiMonoFactorization). 
+
+To see this, first notice that, since the [[(epi, mono) factorization system|epi/mono-factorization]] is [[orthogonal factorization system|orthogonal]] and hence [[functorial factorization|functorial]], we have [[commuting diagrams]] of the form
 
 \[
   \label{NaturalitySquareForConcretificationUnit}
@@ -106,7 +213,7 @@ The [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by the [[epi
   }
 \]
 
-To see this, it is sufficient, to show that $\eta^{conc}$ is a [[universal morphism]] in the sense discussed at _[[adjoint functors]]_. Hence consider any morphism $f \;\colon\; X_1 \to X_2$ with $X_2 \in \mathbf{H}_{conc} \hookrightarrow \mathbf{H}$. Then we need to show that there is a unique diagonal morphism as below, that makes the following _top left triangle_ [[commuting diagram|commute]]:
+Now to demonstrate the adjunction, it is sufficient, to show that $\eta^{conc}$ is a [[universal morphism]] in the sense discussed at _[[adjoint functors]]_. Hence consider any morphism $f \;\colon\; X_1 \to X_2$ with $X_2 \in \mathbf{H}_{conc} \hookrightarrow \mathbf{H}$. Then we need to show that there is a unique diagonal morphism as below, that makes the following _top left triangle_ [[commuting diagram|commute]]:
 
 $$
   \array{
@@ -141,7 +248,10 @@ It remains to see that the lift is unique with just the property of making the t
 
 ## References
 
-* [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
- {#Shulman}
+See also
+
+* {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
+ 
 
 [[!redirects concrete objects]]
+
