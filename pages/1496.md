@@ -25,7 +25,7 @@ where $1 \leq p \leq \infty$ (this doesn't strictly make sense for $p = \infty$,
 
 However, the theory of these spaces is not much more complicated than that of finite-dimensional vector spaces because they all have the same underlying topology.  When we look at infinite-dimensional examples, however, things become trickier.  Common examples are [[Lebesgue spaces]], [[Hilbert spaces]], and [[sequence spaces]].
 
-In the literature, one most often sees Banach spaces over the field $\mathbb{R}$ of [[real numbers]]; Banach spaces over the field $\mathbb{C}$ of [[complex numbers]] are not much different, since they are also over $\mathbb{R}$.  But people do study them over [[adic numbers]] too.  _Unless otherwise stated, we assume $\mathbb{R}$ below._
+In the literature, one most often sees Banach spaces over the field $\mathbb{R}$ of [[real numbers]]; Banach spaces over the field $\mathbb{C}$ of [[complex numbers]] are not much different, since they are also over $\mathbb{R}$.  But people do study them over [[p-adic numbers]] too.  _Unless otherwise stated, we assume $\mathbb{R}$ below._
 
 
 ## Definitions
