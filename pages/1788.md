@@ -1,5 +1,3 @@
-New test
-
 * [[string tension]] $T = 1/(2\pi \alpha^\prime)$
 
 * [[string length scale]] $l_s = \sqrt{\alpha'}$
