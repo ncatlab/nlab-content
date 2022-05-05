@@ -1,11 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
 * [[Bertrand Russell]],
   _An Essay on the Foundations of Geometry_, Cambridge 1897
 
-In his early philosophical work Russell concerned himself with German idealism, which was at that time propounded in Britain by [[J.M. Ellis McTaggart]], while he studied as well the mathematical innovations of the 19th century. The latter questioned the Kantian view of space---especially in geometry where a developing plethora of new concepts of space, e.g. [[metric space]] or [[Riemannian manifold]] were hardly compatible with Kantian transcendental aesthetics in which there exists a perception ["Anschauung"] of a space such that every space occurs only as a subspace of this space (Kant, [[Critique of Pure Reason]], B § 2):
+In his early philosophical work Russell concerned himself with German [[idealism]], which was at that time propounded in Britain by [[J.M. Ellis McTaggart]], while he studied as well the mathematical innovations of the 19th century. The latter questioned the [[Kant|Kantian]] view of [[space]] -- especially in [[geometry]] where a developing plethora of new concepts of space, e.g. [[metric space]] or [[Riemannian manifold]], were hardly compatible with Kantian transcendental aesthetics in which there exists a perception ["Anschauung"] of a space such that every space occurs only as a subspace of this space (Kant, [[Critique of Pure Reason]], B § 2):
 
 > ... when we talk of divers spaces, we mean only parts of one and the same space.
 
-In the essay under consideration Russell proposes an alternative version of Kants argument that continues the notion of a space, a "form of externality", that is given a priori. About this space three properties can be deduced a priori (constant curvature, finite dimensionality, and existence of straight lines). At the end of his essay Russel recapulates:
+In the essay under consideration Russell proposes an alternative version of Kants argument that continues the notion of a space, a "form of externality", that is given a priori. About this space three properties can be deduced a priori (constant [[curvature]], [[finite number|finite]] [[dimension|dimensionality]], and existence of straight [[lines]]). At the end of his essay Russel recapulates:
+
 
 > ...
 
@@ -15,9 +28,20 @@ In the essay under consideration Russell proposes an alternative version of Kant
 
 > In the present chapter, we completed our proof of the apriority of the projective and equivalent metrical axioms by showing the necessity, for experience, of some form of externality, given by sensation or intuition, and not merely inferred from other data. Without this, we said, a knowledge of diverse but interrelated things, the corner-stone of all experience, would be impossible. ...
 
+## Related entries
+
+* [[space form]]
+
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
+
+
 ## References
 
-* Kant, [[Critique of Pure Reason]], second edition (referenced to as "B") 1787
+* [[Kant]], _[[Critique of Pure Reason]]_, second edition (referenced to as "B") 1787
 
 * [[Bertrand Russell]], _An Essay on the Foundations of Geometry_, Cambridge 1897, [online version](http://bertrandrussellsocietylibrary.org/br-efg/br-efg.html)
 
