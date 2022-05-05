@@ -21,7 +21,7 @@
 
 ## Idea
 
-Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]].
+Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences. It is a special case of a [[localization of model categories]], corresponding to the homotopy-version of the notion of [[localization]] of categories by [[reflective subcategories]]: [[reflective localization]].
 
 The historically original example is the [[Bousfield localization of spectra]]. But the notion is much more general.
 
