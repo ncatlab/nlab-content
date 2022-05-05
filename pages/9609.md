@@ -33,7 +33,16 @@ For $X$ a [[microlinear space]] the synthetic tangent bundle shares many of the 
 
 ## Related concepts
 
+* [[odd tangent bundle]]
+
 * [[kinematic tangent bundle]], [[operational tangent bundle]]
+
+## References
+
+See also
+
+* [[geometry of physics -- supergeometry]] the section _[Super mapping spaces](geometry+of+physics+--+supergeometry#SuperMappingSpaces)_
+
 
 [[!redirects synthetic tangent bundles]]
 [[!redirects synthetic tangent space]]
