@@ -10,7 +10,7 @@ $\,$
 
 We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]] (such as used in the chapters _[[geometry of physics -- A first idea of quantum field theory|on quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_).
 
-One motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]].
+One motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]].
 
 We offer also an _a priori_ motivation: _Category theory is the theory of duality._
 
@@ -34,9 +34,9 @@ The pivotal role of [[adjunctions]] in [[category theory]] ([Lawvere 08](adjoint
 Moreover, [[Lawvere]] saw the future of category theory
 ([[Some Thoughts on the Future of Category Theory|Lawvere 91]]) as concerned with [[adjunctions]] expressing systems of archetypical dualities that reveal foundations for [[geometry]] ([Lawvere 07](cohesive+topos#LawvereAxiomatic)) and [[physics]] ([[Toposes of laws of motion|Lawvere 97]]).
 He suggested ([Lawvere 94](objective+and+subjective+logic#Lawvere94)) this as a precise formulation of core aspects of the _theory of everything_
-of early 19th century [[philosophy]], before it fell out of favour: Hegel's _[[Science of Logic]]_.
+of early 19th century [[philosophy]]: [[Hegel]]'s _[[Science of Logic]]_.
 
-These days, of course, _[[theories of everything]]_, such as [[string theory]], are understood less ambitiously than this ontological process,
+These days, of course, _[[theories of everything]]_, such as [[string theory]], are understood less ambitiously than Hegel's ontological process,
 as mathematical formulations of fundamental theories of physics, that could conceptually unify the hodge-podge of currently available "standard models" [[standard model of particle physics|of particle physics]] and [[standard model of cosmology|of cosmology]] to a more coherent whole.
 
 The idea of _[[duality in string theory]]_ refers to different perspectives on physics that appear dual to each other while being _equivalent_.
@@ -605,7 +605,7 @@ If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a
 Namely, imagine a generalized space $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathcal{X}$". Here the quotation marks are to warn us that, at this point, $\mathbf{X}$ is not defined yet, and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not defined. But we may anyway consider some set
 
 $$
-  \mathbf{X}(c) \;\;\;\; \text{"set of would-be maps to c to X"}
+  \mathbf{X}(c) \;\;\;\; \text{"set of would-be maps from c to X"}
 $$
 
 whose elements we do want to think of maps to $c$ to $X$. 
@@ -621,7 +621,8 @@ $$
      d && \mathcal{X}(c)
   }
   \;\;\;\;\;
-  \text{would-be pre-composition with f of would-be maps into X}
+  \;\;\;\;
+  \text{would-be pre-composition with f}
 $$
 
 which respects composition and identity morphisms. But in summary, this says that what we have defined thereby is actually a _[[presheaf]]_ on $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}), namely a functor
