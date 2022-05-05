@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
 =--
 =--
+=--
+
 
 # Contents
 * table of contents
@@ -25,6 +30,9 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
   * [[hydrogen line]]
 
 * [[FRW model]], [[standard model of cosmology]]
+
+
+* [[inhomogeneous cosmology]]
 
 * [[structure formation]]
 
@@ -62,6 +70,7 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 * Daniel Baumann, _TASI Lectures on Primordial Cosmology_ ([arXiv:1807.03098](https://arxiv.org/abs/1807.03098))
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
+
 
 ### In terms of AQFT on curved spacetimes
 
