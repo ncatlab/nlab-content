@@ -71,3 +71,10 @@ The factorization systems were probably first introduced in
 
 * [[Ross Street]], _Notes on factorization systems_, ([pdf](http://www.maths.mq.edu.au/~street/factoriz.pdf))
 [[!redirects factorization systems]]
+
+A list of elementary examples of factorization systems 
+(associated with the notions of: compact, discrete, connected, and totally disconnected spaces, dense image, induced topology, and separation axioms; finite groups being nilpotent, solvable, torsion-free, p-groups, and prime-to-p groups; injective and projective modules; injective, surjective, and split homomorphisms)
+
+* M. Gavrilovich, [_The unreasonable power of the lifting property in elementary mathematics_](http://mishap.sdf.org/by:gavrilovich/expressive-power-of-lifting-property.pdf)
+
+* M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf)
