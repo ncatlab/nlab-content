@@ -501,7 +501,7 @@ In particular therefore, a category has all limits already if it has all product
 ### Limits in presheaf categories {#limitsinpresheafcat}
 
 Consider limits of functors $F : D^{op} \to PSh(C)$
-with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small category|small category]] $C$.
+with values in the [[category of presheaves]] over a [[category]] $C$.
 
 +-- {: .num_prop #LimitsOfPresheaves}
 ###### Proposition
