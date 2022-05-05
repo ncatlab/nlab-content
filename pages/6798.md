@@ -43,18 +43,21 @@ The existence of super Yang-Mills (SYM) theories of a certain number of [[supers
 This classification may be paired with that for [[supergravity]] theories, to yield a [[magic pyramid]] of super [[Einstein-Yang-Mills theories]].
 
 
-
 ## Examples
 
 Special properties are enjoyed by
 
-* [[N=1 D=4 super Yang-Mills theory]]
+* [[4d superconformal gauge field theory]]
 
-* [[N=2 D=4 super Yang-Mills theory]]
+  * [[N=1 D=4 super Yang-Mills theory]]
+
+  * [[N=2 D=4 super Yang-Mills theory]]
+
+  * [[N=4 D=4 super Yang-Mills theory]] 
+
+* [[topologically twisted D=4 super Yang-Mills theory]]
 
 * [[N=4 D=3 super Yang-Mills theory]]
-
-* [[N=4 D=4 super Yang-Mills theory]] 
 
 * [[D=5 super Yang-Mills theory]]
 
@@ -62,7 +65,6 @@ Special properties are enjoyed by
 
 * [[D=10 super Yang-Mills theory]]
 
-* [[topologically twisted D=4 super Yang-Mills theory]]
 
 See there for more details.
 
