@@ -22,7 +22,7 @@
 
 Generally, the _McKay correspondence_ concerns identifications between [[linear representations]] of [[finite subgroups of SU(2)]], $G \subset SU(2)$ with [[cohomology]] of the [[blow-up]] [[resolution of singularities|resolution]] $\tilde X$ of the corresponding [[ADE-singularity]] [[orbifold]] $X \sslash G \coloneqq \mathbb{C}^2\sslash G$.
 
-A strong version of the McKay correspondence is obtained when the [[cohomology theory]] is taken to be ([[equivariant K-theory|equivariant]]) _[[K-theory]]_ ([Gonzalez-Sprinberg & Verdier 83](#GSV83)): 
+A strong version of the McKay correspondence is obtained when the [[cohomology theory]] is taken be ([[equivariant K-theory|equivariant]]) _[[K-theory]]_ ([Gonzalez-Sprinberg & Verdier 83](#GSV83)): 
 
 Here the McKay correspondence becomes an [[isomorphism]] between the [[equivariant K-theory]] $K_{G_{ADE}}(\ast)$ of an [[ADE-singularity]] (equivalently the [[representation ring]] $R(G_{ADE})$) to the plain [[K-theory]] $K(\tilde X)$ of its [[blow-up]] [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram) $\tilde X$. Much like in [[topological T-duality]], this isomorphism is given by [[integral transform]] ([[Fourier-Mukai transform]]) through the canonical [[correspondence]] that these spaces constitute:
 
@@ -77,12 +77,12 @@ Introductions and surveys include
 Literature collection
 
 * [[Miles Reid]], _[Links to papers on McKay correspondence](homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
-
+ver
 As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
 
-* {#GSV85} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
+* {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
 An analogous discussion for [[derived categories]] of coherent sheaves is in
 
-* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
+* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay VerfdiVercorrespondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
