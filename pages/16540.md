@@ -24,7 +24,7 @@ Let $\mathcal{C}$ be a category. Let $(\mathcal{V},{\otimes})$ be a monoidal cat
 $$ T \otimes_{\mathcal{C}} S \coloneqq \int^c T(c) \otimes S(c). $$
 
 The following slight variation is also important. Let $\mathcal{C}$ be a category. Let $\mathcal{D}$ be a category with all [[coproducts]], so that the [[copower]] $X \cdot d = \coprod_{x \in X} d \in \mathcal{D}$ exists for any set $X$ and any object $d \in \mathcal{D}$. Let $T : \mathcal{C}^\op \to Set$ and $S : \mathcal{C} \to \mathcal{D}$ be functors. Then their tensor product is (if it exists) the coend
-$$ T \otimes_{\mathcal{C}} S \coloneqq \int^c T(c) \cdot S(c). $$
+$$ T \otimes_{\mathcal{C}} S \coloneqq \int^c T(c) \cdot S(c) \in \mathcal{D}. $$
 
 Intuition for the tensor product of functors can be gained by relating it to the tensor product of modules (see the first example below) and by a picture involving gluing specifications (see below).
 
