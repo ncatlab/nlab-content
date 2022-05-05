@@ -38,11 +38,10 @@ Original articles include
 
 * {#Vasiliev96} [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
 
-Reviews and lecture notes include
+Reviews and lecture notes include the following:
 
 * {#Vasiliev03} [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_, 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([arXiv:hep-th/0401177](https://arxiv.org/abs/hep-th/0401177))
  
-
 * [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([arXiv:hep-th/0409260](https://arxiv.org/abs/hep-th/0409260))
 
 * R. Argurio, [[Glenn Barnich]], G. Bonelli, M. Grigoriev (eds.) _Higher spin gauge theories_ Solvay Workshops and Symposia  (2004) ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Solvay1proc.pdf))
@@ -53,7 +52,10 @@ Reviews and lecture notes include
 
 * Rakibur Rahman, Massimo Taronna, _From Higher Spins to Strings: A Primer_ ([arXiv:1512.07932](https://arxiv.org/abs/1512.07932) )
 
-* Pan Kessel, _The Very Basics of Higher-Spin Theory_ ([arXiv:1702.03694](https://arxiv.org/abs/1702.03694))
+* Pan Kessel, _The Very Basics of Higher-Spin Theory_ ([arXiv:1702.03694]
+(https://arxiv.org/abs/1702.03694))
+
+* Ivan Vuković, _Higher spin theory_ ([arXiv:1809.02179](https://arxiv.org/abs/1809.02179))
 
 Further developments include for instance
 
