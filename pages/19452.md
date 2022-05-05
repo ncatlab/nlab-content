@@ -5309,7 +5309,7 @@ precisely if
 
 Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition (eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]] (Def. \ref{Sheaf}):
 
-+-- {: .num_example #CechGroupoidCoRepresents}
++-- {: .num_prop #CechGroupoidCoRepresents}
 ###### Proposition
 **([[Cech groupoid]] co-represents [[matching families]] -- [[codescent]])**
 
@@ -5336,11 +5336,20 @@ between the [[hom-object|hom-groupoid]] of [[Grpd]]-[[enriched presheaves]] (Def
 
 Since hence the Cech-groupoid co-represents the [[descent object]], it is sometimes called the _[[codescent object]]_ along the given covering.
 
-Moreover, under this identification the canonical morphism $C\left( \{U_i\}_i \right) \overset{p_{\{U_i\}_i}}{\longrightarrow} X$ induces the comparison morphism (eq:SheafComparison)
+Moreover, under this identification the canonical morphism 
+
+\[
+  \label{CechResolution}
+  C\left( \{U_i\}_i \right) 
+    \overset{p_{\{U_i\}_i}}{\longrightarrow} 
+  y(X)
+\] 
+
+induces the comparison morphism (eq:SheafComparison)
 
 $$
   \array{    
-    [\mathcal{C}^{op}, Grpd]\left( X, \, \mathbf{Y} \right)
+    [\mathcal{C}^{op}, Grpd]\left( y(X), \, \mathbf{Y} \right)
     & \simeq &
     \mathbf{Y}(X) 
     \\
@@ -5360,7 +5369,27 @@ $$
   \,.
 $$
 
-In conclusion, this means that the [[presheaf]] $\mathbf{Y}$ is a [[sheaf]] (Def. \ref{Sheaf}) precisely if homming Cech groupoid projections into it produces an isomorphism.
+In conclusion, this means that the [[presheaf]] $\mathbf{Y}$ is a [[sheaf]] (Def. \ref{Sheaf}) precisely if homming Cech groupoid projections into it produces an isomorphism:
+
+\[
+  \label{SheafIsLocalObjectWithRespectToCechCovers}
+  \mathbf{Y}
+  \,\text{is a sheaf}
+  \phantom{AAAA}
+  \Leftrightarrow
+  \phantom{AAAA}
+  \left[
+    C\left( \{U_i\}_i \right)
+    \overset{p_{\{U_i\}I}}{\to}
+     y(X)
+    \;,\;
+    \mathbf{Y}
+  \right]
+  \, \text{is iso, for all covering families} \, \{U_i \to X\}
+\]
+
+One also says in this case that $\mathbf{Y}$ is a _[[local object]]
+with respect to [[Cech covers]]_/
 
 =--
 
