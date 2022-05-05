@@ -1087,6 +1087,7 @@ following
 
 * {#Hinich} [[Vladimir Hinich]], _DG coalgebras as formal stacks_, J. Pure Appl. Algebra, 162 (2001), 209-250  ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
  
+
 [[!redirects formal smooth infinity-groupoids]]
 
 [[!redirects formal smooth ∞-groupoid]]
