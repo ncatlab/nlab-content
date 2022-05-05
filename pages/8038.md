@@ -18,7 +18,7 @@
 
 In [[quantum field theory]] scattering amplitudes are the  [[probability amplitudes]] for processes of [[scattering]] of [[fundamental particles]] (or [[fundamental strings]] etc.) off each other. The collection of scattering amplitudes forms the _[[S-matrix]]_. In [[perturbative quantum field theory]] its contributions may be labeled by [[Feynman diagrams]], whence it is also called the _[[Feynman perturbation series]]_.
 
-Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes "where nothing externel scatters" hence for no incoming and no outgoing states. The [[1-loop]] vacuum amplitudes are [[regularization (physics)|regularized]] [[traces]] over [[Feynman propagators]]. These are the incarnations of [[zeta functions]], [[L-functions]] and [[eta functions]] in [[physics]].
+Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes "where nothing external scatters" hence for no incoming and no outgoing states. The [[1-loop]] vacuum amplitudes are [[regularization (physics)|regularized]] [[traces]] over [[Feynman propagators]]. These are the incarnations of [[zeta functions]], [[L-functions]] and [[eta functions]] in [[physics]].
 
 ## Related concepts
 
