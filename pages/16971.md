@@ -20,9 +20,18 @@
 
 ## Idea
 
-Given a $G$-[[equivariant spectrum]], its _fixed point spectrum_ $F^G X$ is the value of the  [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$.
+Given a $G$-[[equivariant spectrum]], its _fixed point spectrum_ $F^G X$ is the plain [[spectrum]] which is value of the [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$.
 
-(e.g. [Schwede 15, def. 7.1](#Schwede15))
+(e.g. [Schwede 15, def. 7.1](#Schwede15), [Mandell-May 02, arojnd thm. 3.3](#MandellMay02))
+
+More generally, for $N \subset G$ a [[normal subgroup]], there is the $N$-fixed point spectrum regarded as $G/N$-spectrum, equivariant under the  remaining [[quotient group]] $G/N$
+
+(e.g. [Mandell-May 02, def. 3.8](#MandellMay02))
+
+These are [[right derived functor|derived]] [[right adjoint]] to the operation of regarding a $G/N$-spectrum as a $G$-spectrum, via the projection $G \to G/N$
+
+([Mandell-May 02, theorem 3.12](#MandellMay02))
+
 
 ## Properties
 
@@ -69,6 +78,11 @@ $$
 
 ## References
 
+* {#MandellMay02} [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
+
+
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+
 
 [[!redirects fixed point spectra]]
