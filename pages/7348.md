@@ -104,6 +104,9 @@ As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\
 An immersion $f : X \to Y$ is precisely a _local [[embedding of smooth manifolds|embeddings]]_: for every point $x \in X$ there is an [[open neighbourhood]] $x \in U \subset X$ such that $f|_U : U \to Y$ is an [[embedding of smooth manifolds]].
 
 
+### Relation to formal immersions
+
+The related concept of [[formal immersion of smooth manifolds]], defined as an injective bundle morphism $T M \to T N$ between tangent bundles, is in some ways easier to study, in the sense that the collection of all such formal immersions, $Imm^f(M, N)$, is simpler to analyze. Then under some conditions on $M$ and $N$ (see there), it is the case that the map $Imm(M, N) \to \Imm^f(M, N)$ is a [[weak homotopy equivalence]].
 
 
 ### Characterization in infinitesimal cohesion
@@ -127,7 +130,6 @@ The analogue between arbitrary [[topological spaces]] (not manifolds) is simply 
 
 * [[embedding of smooth manifolds]]
 
-[[!redirects immersion of smooth manifolds]]
 
 [[!redirects immersion of differentiable manifolds]]
 [[!redirects immersions of differentiable manifolds]]
