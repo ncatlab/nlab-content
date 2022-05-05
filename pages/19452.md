@@ -4677,12 +4677,13 @@ Given an [[object]] $X \in \mathcal{C}$ and a [[covering]] $\left\{ U_i \overset
 
 we have 
 
-$$
+\[
+  \label{GluingCondition}
   \mathbf{Y}(\kappa_i)(\phi_i)
   \;=\;
   \mathbf{Y}(\kappa_j)(\phi_j)
   \,.
-$$
+\]
 
 We write
 
@@ -5053,7 +5054,7 @@ $$
 
 which respect the [[equivalence relation]] induced by the morphisms in the Cech groupoid at $V$. 
 
-Hence the hom-groupoid is a subset of the [[end]] of these [[function sets]]
+Hence the hom-groupoid is a subset of the [[end]] of these [[function sets]]:
 
 $$
   \begin{aligned}
@@ -5087,8 +5088,41 @@ $$
   \end{aligned}
 $$
 
+Here we used: first that the [[internal hom]]-functor turns colimits in its first argument into limits (Prop. \ref{InternalHomPreservesLimits}), then that [[limits commute with limits]], and finally the [[enriched Yoneda lemma]] (Prop. \ref{YonedaReductionTopological}), which here is, via Example \ref{NaturalTransformationsViaEnds}, just the plain [[Yoneda lemma]] (Prop. \ref{YonedaLemma}). The end result is hence the same [[Cartesian product]] set that also the set of matching families is defined to be a subset of, in (eq:SetOfMatching).
 
-spring
+This shows that an element in 
+$ \int_{V \in \mathcal{C}}
+    \left[
+      C\left(\{U_i\}_i\right)(V), \, \mathbf{Y}(V)
+    \right]
+$ is a [[tuple]] $(\phi_i \in \mathbf{Y}(U_i))_i$, subject to some condition. This condition is that for each $V \in \mathcal{C}$ the tuple defines a [[functor]] of [[groupoids]]
+
+$$
+  \array{
+    C\left(\{U_i\}_i\right)(V) 
+      & \longrightarrow & 
+    \mathbf{Y}(V)
+    \\
+    (V \overset{\kappa_i}{\to} U_i)
+    &\mapsto&
+    \kappa_i^\ast \phi_i
+    =
+    \mathbf{Y}(\kappa_i)(\phi_i)
+  }
+$$
+
+By definition of the [[Cech groupoid]], and since the [[codomain]] is a just [[set]] regarded as a [[groupoid]], this is the case precisely if
+
+$$
+  \mathbf{Y}(\kappa_i)(\phi_i)
+  \;=\;
+  \mathbf{Y}(\kappa_j)(\phi_j)
+  \phantom{AAAA}
+  \text{for all}\, i,j
+  \,.
+$$
+
+This is exactly the condition (eq:GluingCondition) that makes $(\phi_i)_i$ a matching family.
 
 =--
 
