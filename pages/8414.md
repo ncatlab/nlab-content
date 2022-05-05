@@ -59,7 +59,7 @@ Given a well-ordered family of well-ordered sets $\{L_i\}_{i: \alpha}$, the prod
 
 +-- {: .proof} 
 ###### Proof 
-Represent elements of $\prod_{i: \alpha} L_i$ as sections $w: \alpha \to \sum_{i: \alpha} L_i$ of the canonical projection $\pi: \sum_{i: \alpha} L_i \to \sum_{i: \alpha} 1 \cong \alpha$. If $S \subseteq \prod_{i: \alpha} L_i$ is an inhabited subset, then its least element is defined recursively as follows: given $j \in \alpha$ and the elements $s(i)$ for $i \lt j$, the element $s(j) \in L_j$ is the least element of the set 
+Represent elements of the set $\prod_{i: \alpha} L_i$ as sections $w: \alpha \to \sum_{i: \alpha} L_i$ of the canonical projection $\pi: \sum_{i: \alpha} L_i \to \sum_{i: \alpha} 1 \cong \alpha$. If $S \subseteq \prod_{i: \alpha} L_i$ is an inhabited subset, then its least element $s$ is defined recursively as follows: given $j \in \alpha$ and elements $s(i)$ for $i \lt j$, the element $s(j) \in L_j$ is the least element of the (nonempty!) set 
 
 $$\{x \in L_j: \exists_{w \in S} \left(\forall_{i \lt j} w(i) = s(i)\right) \wedge w(j) = x\}.$$ 
 
