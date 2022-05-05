@@ -9,7 +9,7 @@ $$
   \mathcal{C}
 $$
 
-which is directly analogous to the operation of [[multiplication]] in an [[associative algebra]] or even just in a [[semigroup]] (or [[monoid]]), just "[[categorification|categorified]]" (Example \ref{CartesianMonoidalCategory} below). This is made precise by the concept of a _[[monoidal category]]_ (Def. \ref{MonoidalCategory} below).
+which is directly analogous to the operation of [[multiplication]] in an [[associative algebra]] or even just in a [[semigroup]] (or [[monoid]]), just "[[vertical categorification|categorified]]" (Example \ref{CartesianMonoidalCategory} below). This is made precise by the concept of a _[[monoidal category]]_ (Def. \ref{MonoidalCategory} below).
 
 This relation between [[category theory]] and [[algebra]] leads to the fields of _[[categorical algebra]]_ and of _[[universal algebra]]_.
 
@@ -1045,7 +1045,7 @@ $$
   \,.
 $$
 
-Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its [[full subcategory]] of [[commutative monoid in a symmetric monoidal category|commutative monoids]].
 
 
 =--
@@ -1585,7 +1585,7 @@ $$
   \,.
 $$
 
-Here the the top square is the [[natural transformation|naturality]] of the right [[unitor]], the middle square commutes by the functoriality of the tensor product $\otimes \;\colon\; \mathcal{C}\times \mathcal{C} \longrightarrow \mathcal{C}$ and the definition of the [[product category]] (spring), while the commutativity of the bottom square is the assumption that $f$ coequalizes $id \otimes \mu$ with $\mu \otimes id$.
+Here the the top square is the [[natural transformation|naturality]] of the right [[unitor]], the middle square commutes by the functoriality of the tensor product $\otimes \;\colon\; \mathcal{C}\times \mathcal{C} \longrightarrow \mathcal{C}$ and the definition of the [[product category]] (Example \ref{ProductCategory}), while the commutativity of the bottom square is the assumption that $f$ coequalizes $id \otimes \mu$ with $\mu \otimes id$.
 
 Here the right vertical composite is $\phi$,  while, by [unitality](#UnitalityMonoid) of $(A,\mu ,e)$, the left vertical composite is the identity on $A$, Hence the diagram says that $\phi \circ \mu = f$, which we needed to show.
 
@@ -1787,6 +1787,275 @@ By commutativity and associativity it follows that $\mu_E$ coequalizes the two i
 Finally one checks that these two constructions are inverses to each other, up to isomorphism.
 
 =--
+
+
+
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+**([[lax monoidal functor]])**
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}). A _[[lax monoidal functor]]_ between them is
+
+1. a [[functor]]
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a [[morphism]]
+
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$
+
+1. a [[natural transformation]]
+
+   $$
+     \mu_{x,y}
+       \;\colon\;
+     F(x) \otimes_{\mathcal{D}} F(y)
+       \longrightarrow
+     F(x \otimes_{\mathcal{C}} y)
+   $$
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow
+         &&
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x)
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}})
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x)
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**.
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}) with [[braidings]] $\tau^{\mathcal{C}}$ and $\tau^{\mathcal{D}}$, respectively, then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+
+compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
+
+$$
+  \array{
+    F_1(x) \otimes_{\mathcal{D}} F_1(y)
+      &\overset{f(x)\otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
+    F_2(x) \otimes_{\mathcal{D}} F_2(y)
+    \\
+    {}^{\mathllap{(\mu_1)_{x,y}}}\downarrow
+     &&
+    \downarrow^{\mathrlap{(\mu_2)_{x,y}}}
+    \\
+    F_1(x\otimes_{\mathcal{C}} y)
+     &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
+    F_2(x \otimes_{\mathcal{C}} y)
+  }
+$$
+
+and
+
+$$
+  \array{
+    && 1_{\mathcal{D}}
+    \\
+    & {}^{\mathllap{\epsilon_1}}\swarrow && \searrow^{\mathrlap{\epsilon_2}}
+    \\
+    F_1(1_{\mathcal{C}})
+     &&\underset{f(1_{\mathcal{C}})}{\longrightarrow}&&
+    F_2(1_{\mathcal{C}})
+  }
+  \,.
+$$
+
+We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax monoidal functors between monoidal categories $\mathcal{C}$ and $\mathcal{D}$, similarly $BraidMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[braided monoidal categories]], and $SymMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[symmetric monoidal categories]].
+
+=--
+
++-- {: .num_remark #SymmetricMonoidalFunctor}
+###### Remark
+
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**.
+
+=--
+
++-- {: .num_prop #MonoidalFunctorComp}
+###### Proposition
+
+For $\mathcal{C} \overset{F}{\longrightarrow} \mathcal{D} \overset{G}{\longrightarrow} \mathcal{E}$ two composable [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) between [[monoidal categories]], then their composite $F \circ G$ becomes a lax monoidal functor with structure morphisms
+
+$$
+  \epsilon^{G\circ F}
+    \;\colon\;
+  1_{\mathcal{E}}
+    \overset{\epsilon^G}{\longrightarrow}
+  G(1_{\mathcal{D}})
+    \overset{G(\epsilon^F)}{\longrightarrow}
+  G(F(1_{\mathcal{C}}))
+$$
+
+and
+
+$$
+  \mu^{G \circ F}_{c_1,c_2}
+  \;\colon\;
+  G(F(c_1)) \otimes_{\mathcal{E}} G(F(c_2))
+   \overset{\mu^{G}_{F(c_1), F(c_2)}}{\longrightarrow}
+  G( F(c_1) \otimes_{\mathcal{D}} F(c_2) )
+    \overset{G(\mu^F_{c_1,c_2})}{\longrightarrow}
+  G(F( c_1 \otimes_{\mathcal{C}} c_2 ))
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+**([[lax monoidal functors]] preserve [[monoid in a monoidal category|monoids]])**
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor between categories of commutative monoids:
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
+
 
 
 $\,$
