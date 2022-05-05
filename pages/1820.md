@@ -268,7 +268,7 @@ of the [[arrow category]] on the weak equivalences is an [[accessible functor|ac
 
 =--
 
-This is due to Smith. A proof appears as ([Dugger, 7.4](#Dugger)). See also ([Barwick, prop. 1.10](#Barwick)).
+This is due to Smith. A proof appears as ([Dugger 01, 7.4](#Dugger01)). See also ([Barwick, prop. 1.10](#Barwick)).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -307,7 +307,7 @@ The following theorem is precisely the model-category theory version of the stat
 
 +-- {: .num_theorem }
 ###### Theorem 
- **(Dan Dugger)**
+**([[Dugger's theorem]])**
 
 Every combinatorial model category $C$ is [[Quillen equivalence|Quillen equivalent]] to a left [[Bousfield localization of model categories|Bousfield localization]] $L_S SPSh(K)_{proj}$ of the global projective [[model structure on simplicial presheaves]] $SPSh(K)_{proj}$ on a [[small category]] $K$
 
@@ -320,7 +320,7 @@ $$
 
 =--
 
-This is ([Dugger, theorem 1.1](#Dugger)) building on results in ([DuggerUniversalHomotopy](#DuggerUniversalHomotopy)).
+This is ([Dugger 01, theorem 1.1](#Dugger01)) building on results in ([DuggerUniversalHomotopy](#DuggerUniversalHomotopy)).
 
 
 +-- {: .proof}
@@ -602,13 +602,13 @@ Smith's theorem appears as proposition ([Lurie, A.2.6.8](#Lurie))  and as ([Barw
 
 Dugger's theorem is due to
 
-* {#Dugger} [[Daniel Dugger]], _Combinatorial model categories have presentations_ ([arXiv](http://arxiv.org/abs/math/0007068))
+* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_ Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
  
 based on results in
 
 * {#DuggerUniversalHomotopy} [[Dan Dugger]], _[[Universal homotopy theories]]_
 
-The [[homotopy category]] of all combinatorial model categories is discussed in
+The [[localization of a 2-category|homotopy 2-category]] of combinatorial model categories at the [[Quillen equivalences]] is discussed in
 
 * Olivier Renaudin, _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:0603339](https://arxiv.org/abs/math/0603339))
  
