@@ -17,7 +17,7 @@
 
 ## Definition
 
-A _paracompact Hausdorff topological space_ is a  [[topological space]] such that that is both a [[Hausdorff topological space]] and a [[paracompact topological space]].
+A _paracompact Hausdorff topological space_ is a  [[topological space]] that is both a [[Hausdorff topological space]] and a [[paracompact topological space]].
 
 
 ## Properties
