@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -46,6 +47,7 @@ Given that the classes of a cofibrantly generated weak factorization system are 
 
 If the category $C$ is just assumed to have all [[colimit]]s then the domains of the maps in $I$ are required to satisfy a smallness condition that says that any morphism from these objects to a sufficiently-large-directed colimit will factor through the base of the colimiting diagram. (See the reference by Hovey below.)
 If the category is required to be a [[locally presentable category]] then no further condition is required (see the other references below).
+
 
 
 +-- {: .un_theorem }
