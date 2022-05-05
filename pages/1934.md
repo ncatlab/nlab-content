@@ -50,6 +50,7 @@ Note that when $S=Top$ with its local-homeomorphism topology, there is a canonic
 
 * One proposed axiomatization of the notion of big topos is that of a [[cohesive topos]].
 
+* In his early papers in the 80s, [[Lawvere]] emphasized the existence of a contractible [[subobject classifier]], a concept which together with the [[adjoint quadruple]] goes under the name [[sufficiently cohesive topos]] in the later axiomatization (modulo some footprint).
 
 ## Examples
 
@@ -64,6 +65,14 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 * [[cohesive topos]]
 
 * [[sufficiently cohesive topos]]
+
+* [[infinitesimal cohesive (infinity,1)-topos]]
+
+* [[quality type]]
+
+* [[étendue]]
+
+* [[locally decidable topos]]
 
 
 ## References
@@ -84,13 +93,19 @@ The suggestion that a _general notion_ of gros topos is needed goes back to some
 
 * [[Bill Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7.([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
 
-The axioms 0 and 1 for _toposes of generalized spaces_ given there later became called the axioms for a [[cohesive topos]], together with axiom 2 they make out a [[suffciently cohesive topos]].
+The axioms 0 and 1 for _toposes of generalized spaces_ given there later became called the axioms for a [[cohesive topos]], together with axiom 2 they make out a [[sufficiently cohesive topos]].
 
 Further discussion of this axiomatics for [[gros topos]]es is in
 
 * [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York (1992)
 
 where a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities") as covariant and contravariant functors out of a distributive category are considered.
+
+The following two papers contain Lawvere's early view of a trichotomy between big toposes vs. étendue and locally decidable toposes as paradigmatic "generalized spaces" with "infinitesimally cohesive" in between, with the latter subsumed into the fine structure of cohesion in more recent versions
+
+* {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
+
+* {#Law91a} [[F. W. Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
 
 The left and right adjoint to the global section functor as a means to identify discrete and codiscrete spaces respectively is also mentioned in
 
