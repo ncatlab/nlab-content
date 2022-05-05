@@ -54,7 +54,7 @@ $$
     \\
     && X_1 &&&& X_2
     \\
-    &&& \searrow &&& \swarrow
+    &&& \searrow && \swarrow
     \\
     &&&& B
   }
@@ -124,6 +124,8 @@ Discussion for non-free torus actions (physically: [[KK-monopoles]]) is in
 Discussion in [[rational homotopy theory]]/[[dg-geometry]] is in
 
 * [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](https://arxiv.org/abs/1208.6048))
+
+and a derivation of the rules of topological T-duality from analysis of the [[super p-brane]] super-cocycles in super rational homotopy theory is given in 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
