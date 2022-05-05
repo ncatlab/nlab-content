@@ -377,6 +377,9 @@ The [[orientals]] relate simplices to [[globes]].
 [[!redirects 2-simplex]]
 [[!redirects 2-simplices]]
 
+[[!redirects 3-simplex]]
+[[!redirects 3-simplices]]
+
 
 [[!redirects n-simplex]]
 [[!redirects n-simplices]]
