@@ -19,6 +19,7 @@
 A _matching family_ of elements is an explicit component-wise characterizaton of a morphism from a [[sieve]] into a general [[presheaf]].
 
 Since such morphisms govern the [[sheaf]] property and the operation of [[sheafification]], these can be discussed in terms of matching families.
+As such, the set of matching families for a given [[covering]] and [[presheaf]] is the corresponding [[descent object]].
 
 
 ## Definition
@@ -53,6 +54,11 @@ Endofunctor $P\mapsto P^+$ extends to a presheaf on $C$ by $P^+(g:d\to c) : (x_f
 The presheaf $P^+$ comes equipped with a canonical natural transformation $\eta:P\to P^+$ which to an element $x\in P(c)$ assigns the equivalence class of the matching family $(P(f)(x))_{f\in Ob(C/c)}$ where the [[maximal sieve]] $Ob(C/c)$ is the class of objects of the slice category $C/c$. 
 
 $\eta$ is a [[monomorphism]] (resp. [[isomorphism]]) of presheaves iff the presheaf $P$ is a [[separated presheaf]] (resp. [[sheaf]]); moreover any morphism $P\to F$ of presheaves, where $F$ is a sheaf, factors uniquely through $\eta:P\to P^+$. For any presheaf $P$, $P^+$ is separated presheaf and if $P$ is already separated then $P^+$ is a sheaf. In particular, for any presheaf $P^{++}$ is a sheaf. A fortiori, $P^+(\eta)\circ\eta:P\to P^{++}$ realizes [[sheafification]]. 
+
+### Co-representation by Cech groupoids
+ {#CoRepresentationByCechGroupoid}
+
+When [[presheaves]] of sets are regarded a [[presheaves of groupoids]], the [[Cech groupoid]] serves to co-represent matching families, hence serves as the _[[codescent object]]_ of the given covering and presheaf. See [there](Čech+groupoid#Codescent) for more.
 
 ## References
 
