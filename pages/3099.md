@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 =--
 =--
 
