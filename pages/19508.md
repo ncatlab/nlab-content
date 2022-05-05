@@ -168,6 +168,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 ## Related concepts
 
+* [[PrCat]], [[Pr(∞,1)Cat]]
+
 * [[Ho(Cat)]]
 
 [[!include locally presentable categories - table]]
