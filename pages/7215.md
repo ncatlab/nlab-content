@@ -23,7 +23,7 @@ A *factorization system over a subcategory* is a common generalization of an [[o
 
 ## Definition
 
-Let $C$ be a subcategory, and let $J$, $E$, and $M$ be [[wide subcategories]] of $C$ with $J\subseteq E$ and $J\subseteq M$.  Given a [[morphism]] $f\colon x\to y$ in $C$, let $Fact^{E,M}_J(f)$ denote the non-full [[subcategory]] of the over-under-category ([[double comma category]]) $(x/C/y)$:
+Let $C$ be a [[category]], and let $J$, $E$, and $M$ be [[wide subcategories]] of $C$ with $J\subseteq E$ and $J\subseteq M$.  Given a [[morphism]] $f\colon x\to y$ in $C$, let $Fact^{E,M}_J(f)$ denote the non-full [[subcategory]] of the over-under-category ([[double comma category]]) $(x/C/y)$:
 
 * whose objects are pairs $x\to z \to y$ such that $x\to z$ is in $E$, $z\to y$ is in $M$, and the composite $x\to y$ is $f$;
 * whose morphisms from $x\to z \to y$ to $x\to z' \to y$ are morphisms $z\to z'$ which are in $J$ and make the two evident triangles commute.
