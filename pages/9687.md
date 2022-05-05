@@ -82,6 +82,10 @@ Discussion of confinement as a result of the [[interacting vacuum]] includes
 
 * {#Rafelski90} [[Johann Rafelski]], _Vacuum structure -- An Essay_, in pages 1-29 of H. Fried, Berndt Müller (eds.) _Vacuum Structure in Intense Fields_, Plenum Press 1990 ([GBooks](https://books.google.de/books?id=5uXcBwAAQBAJ&pg=PA14&lpg=PA14&dq=confinement+%22interacting+vacuum%22&source=bl&ots=xPGYJ-JOc-&sig=AoYbqWQeNRMg6hMSRZjJ3nzq8B0&hl=en&sa=X&ved=0ahUKEwjIgK68-tnYAhVCESwKHThMDykQ6AEIKTAA#v=onepage&q=confinement%20%22interacting%20vacuum%22&f=false))
 
+See also
+
+* {#Simonov18} Yu. A. Simonov, _What is the confinement mechanism in QCD?_ ([arXiv:1804.08946](https://arxiv.org/abs/1804.08946))
+
 ### In super-Yang-Mills theory
  {#ReferencesInSuperYangMillsTheory}
 
@@ -102,6 +106,7 @@ Discussion in the context of the [[AdS-CFT correspondence]] is in
 * [[David Berman]], Maulik K. Parikh, _Confinement and the AdS/CFT Correspondence_, Phys.Lett. B483 (2000) 271-276 ([arXiv:hep-th/0002031](https://arxiv.org/abs/hep-th/0002031))
 
 * Henrique Boschi Filho, _AdS/QCD and confinement_, Seminar at the _Workshop on Strongly Coupled QCD: The confinement problem_, November 2011 ([pdf](http://www.if.ufrj.br/~boschi/pesquisa/seminarios/AdS_QCD_Confinement_UERJ_2011.pdf))
+
 
 [[!redirects confinement]]
 [[!redirects color confinement]]
