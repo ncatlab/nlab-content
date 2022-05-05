@@ -10,7 +10,7 @@ The generalization of the traditional notion to [[symplectomorphism group]] of a
 
 ## Definition
 
-For $\mathbf{H}$ a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]], let $\mathbb{G} \in Grp(\mathbf{H})$ by an [[∞-group]] euipped with [[braided ∞-group]] structure. Write $\mathbf{B}\mathbb{G}_{conn}$ for the corresponding [[moduli ∞-stack]] of $\mathbb{G}$-[[principal ∞-connections]] (see there). For $\nabla \;\colon\; X \to \mathbf{B}\mathbb{G}_{conn}$ a $\mathbb{G}$-[[principal ∞-connection]] on some object $X \in \mathbf{H}$, which here we call a [[prequantum ∞-bundle]]. the corresponding [[quantomorphism ∞-group]] by definition comes with a canonical [[homomorphism]]
+For $\mathbf{H}$ a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]], let $\mathbb{G} \in Grp(\mathbf{H})$ by an [[∞-group]] equipped with [[braided ∞-group]] structure. Write $\mathbf{B}\mathbb{G}_{conn}$ for the corresponding [[moduli ∞-stack]] of $\mathbb{G}$-[[principal ∞-connections]] (see there). For $\nabla \;\colon\; X \to \mathbf{B}\mathbb{G}_{conn}$ a $\mathbb{G}$-[[principal ∞-connection]] on some object $X \in \mathbf{H}$, which here we call a [[prequantum ∞-bundle]]. the corresponding [[quantomorphism ∞-group]] by definition comes with a canonical [[homomorphism]]
 
 $$
   \mathbf{QuantMorph}(\nabla)
