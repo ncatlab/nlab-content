@@ -36,7 +36,7 @@ For the generalisation of this to higher categories, see [[semistrict higher cat
 
 * [[functor]]
 
-* **2-functor** / [[pseudofunctor]]
+* **2-functor** / [[pseudofunctor]] / [[(2,1)-functor]]
 
 * [[n-functor]]
 
