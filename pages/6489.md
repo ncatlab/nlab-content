@@ -232,7 +232,7 @@ A motivating example for the concept of Bridgeland stability is the following cl
 
 Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}$. Let $\mathcal{A}=Coh(X)$ be the [[category]] of [[coherent sheaves]] on $X$. 
 
-In this case Thethe standard stability function (Def. \ref{StabilityFunction}) is 
+In this case the standard stability function (Def. \ref{StabilityFunction}) is 
 
 \[
   \label{StandardStabilityFunctionForVectorBundles}
