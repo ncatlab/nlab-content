@@ -134,7 +134,7 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
 
 =--
 
-([Lewis-May-Steinberger 86, II.9, cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
+([Lewis-May-Steinberger 86, II.9, Def. 9.7, Cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
 
 
 
@@ -473,4 +473,6 @@ With this, (eq:Factorization) says that with $p_V$ also $p_{ \Sigma^V_G \mathbb{
 [[!redirects geometric fixed point]]
 [[!redirects geometric fixed points]]
 
+[[!redirects geometric fixed point functor]]
+[[!redirects geometric fixed point functors]]
 
