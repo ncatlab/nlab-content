@@ -105,13 +105,10 @@ The next two classes of examples are covered in Kelly's book (see references).
 
 ## References
 
-Section 3.7 of
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Max Kelly]], section 3.7 of _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
-Section 6.5 of
-
-* [[Francis Borceux]], _Handbook of categorical algebra, vol. 2_
+* {#Borceux94} [[Francis Borceux]], Vol 2, Section 6.5 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 [[!redirects copowers]]
 
