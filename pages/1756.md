@@ -230,6 +230,8 @@ See also at _[derived functor -- As functors on infinity-categories](derived%20f
 
 * [[Quillen reflection]]
 
+* [[Quillen adjoint triple]]
+
 * [[simplicial Quillen adjunction]]
 
 * [[Quillen equivalence]]
