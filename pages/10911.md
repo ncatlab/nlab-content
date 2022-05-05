@@ -76,6 +76,10 @@ There are claims that numerical computer simulations show that the IKKT model pr
 
 * Yuta Ito, Jun Nishimura, Asato Tsuchiya, _Large-scale computation of the exponentially expanding universe in a simplified Lorentzian type IIB matrix model_ ([arXiv:1512.01923](https://arxiv.org/abs/1512.01923))
 
+See also
+
+* A. Stern, Chuang Xu, _Signature change in matrix model solutions_ ([arXiv:1808.07963](https://arxiv.org/abs/1808.07963))
+
 [[!redirects IIB matrix model]]
 
 [[!redirects IKKT model]]
