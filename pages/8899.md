@@ -38,6 +38,8 @@ Here is a very incomplete list of software available for mathematics, especially
 * [Maple](http://www.maplesoft.com)
 * [[Sage]]
 * [[geogebra]] (dominantly used for educational purposes)
+* [MathCAD](https://www.ptc.com/en/products/mathcad)
+* [Calcpad] (http://calcpad.net)
 
 ###Computational Group Theory
 
