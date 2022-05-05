@@ -51,6 +51,12 @@ and wich omn [[hom-objects]] of $\mathcal{C}^{op} \times \mathcal{C}$ is given b
 
 ## Related concepts
 
+* [[hom-set]], [[hom-object]]
+
+* [[hom-functor]]
+
+* [[enriched hom-functor]], [[internal hom-functor]]
+
 * [[derived hom-functor]]
 
 
