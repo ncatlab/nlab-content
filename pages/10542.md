@@ -190,7 +190,7 @@ This decomposition hence induces an [[action]] of the [[spin group]] $Spin(9,1)$
 
 +-- {: .num_prop}
 ###### Proposition
-**([[general linear group]] of $Mat_{3\times 3}^{herm}(\mathbb{O})$ preservin [[determinant]] is [[E6]])**
+**([[general linear group]] of $Mat_{3\times 3}^{herm}(\mathbb{O})$ preserving [[determinant]] is [[E6]])**
 
 The [[group]] of [[determinant]]-preserving [[linear map|linear]] [[isomorphisms]] of the vector space underlying the octonionic Albert algebra is  the [[exceptional Lie group]] [[E6]]${}_{(-26)}$. 
 
