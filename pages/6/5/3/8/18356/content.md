@@ -47,7 +47,7 @@ which is such that $\mathcal{E} \simeq Sh(\mathcal{C}, \tau)$.
 
 =--
 
-(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](#Borceux94), [Johnstone, C.2.1.11](#Johnstone))
+(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](#Borceux94), [Johnstone, C.2.1.11](#Johnstone), or [Kelly](#Kelly)).
 
 
 +-- {: .num_prop #AccessibleReflection}
@@ -85,5 +85,8 @@ For [[(∞,1)-toposes]] the accessibility of the reflection is no longer implied
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+* {#Kelly} [[Shane Kelly]], _What is the relationship between Grothendieck pretopologies and Grothendieck topologies?_ ([web] (https://www.ms.u-tokyo.ac.jp/~kelly/pdfs/grothendieckTop.pdf)) .
+
 
 [[!redirects sheafification preserves finite limits]]
