@@ -10,8 +10,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -156,7 +154,10 @@ $$
 
 from the [[Burnside ring]] of $G$ to its [[representation ring]].
 
-This map is traditionally denoted $\beta$, as shown.
+This homomorphism is traditionally denoted $\beta$, as shown.
+
+Its [[kernel]] is known as the _Brauer relations_ (e.g. [Bartel-Dokchitser 11](#BartelDokchitser11)). 
+
 
 =--
 
@@ -215,6 +216,8 @@ we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to  \mathbb{
 \]
 
 =--
+
+[[!include Segal completion -- table]]
 
 ## Examples
 
@@ -303,7 +306,7 @@ The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77
 
 To see that injectivity holds precisely for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
 
-1. the number of [[isomorphism classes]] of [[irreducible representations]] of $G$ equals the number of [[conjugacy classes]] of _[[cyclic group|cyclic]]_ [[subgroups]];
+1. the number of [[isomorphism classes]] of [[irreducible representations]] of $G$ equals the number of [[conjugacy classes]] of _[[cyclic group|cyclic]2]_ [[subgroups]];
 
 1. the number of [[isomorphism classes]] of indecomposable ([[transitive action|transitive]]) [[G-sets]] (i.e. $G$-[[orbit]] types) is the number of [[conjugacy classes]] of _all_ [[subgroups]].
 
@@ -315,6 +318,99 @@ This means that for $G$ not a cyclic group we have $dim(A(G)) \gt dim(R(G))$, so
 
 A more general analysis of the [[cokernel]] of $\beta$ is due to [Berz 94](#Berz94), reviewed and expanded on in [Hambleton-Taylor 99](#HambletonTaylor99). See also [Bartel-Dokchitser 14, p. 1](#BartelDokchitser14).
 
++-- {: .num_example #VirtualPermutationRepresentationsOfZ2}
+###### Example
+**([[virtual permutation representations]] of the [[group of order 2]]
+
+Let $G = \mathbb{Z}/2$ be the [[cyclic group|cyclic]] [[group of order 2]].
+
+It has two [[conjugacy classes]] of [[subgroups]], 
+
+1. $H =\mathbb{Z}/2$ the group itself,
+
+1. $H = 1$ the [[trivial group]];
+
+and hence two [[isomorphism classes]] of [[transitive action|transitive]] [[G-sets]]
+
+1. $(\mathbb{Z}/2)/(\mathbb{Z}/2) = \ast$ the [[point]] with the [[trivial action]],
+
+1. $(\mathbb{Z}/2)/1 = \mathbb{Z}/2$ the group itself, with the [[regular action]].
+
+
+The corresponding linear permutation representations (Def. \ref{LinearPermutationRepresentation}) are
+
+1. $k[ (\mathbb{Z}/2)/(\mathbb{Z}/2)] \;\simeq\; \mathbf{1} $, 
+
+   the 1-dimensional [[trivial representation]];
+
+1. $k[ (\mathbb{Z}/2)/1 ] \; \simeq\; \mathbf{1} \oplus \mathbf{1}_{alt}$, 
+
+   the [[direct sum]] of the 1d [[trivial representation]] with the [[alternating representation]].
+
+To see the second item, observe that the non-trivial element $\sigma \in \mathbb{Z}/2$ is represented on $k[\mathbb{Z}/2] \simeq \langle e,\sigma\rangle$ by the [[permutation matrix]]
+
+$$
+  \left(
+    \array{
+      0 & 1
+      \\
+      1 & 0
+    }
+  \right)
+  \,,
+$$
+
+which is [[diagonal matrix|diagonalizable]] over $k = \mathbb{Z}$ with [[eigenvectors]]
+
+1. $\left[\array{ 1 \\ 1 }\right]$ of [[eigenvalue]] $1$, [[linear span|spanning]] the [[trivial representation]] $\mathbf{1}$ of dimension 1;
+
+1. $\left[\array{ 1 \\ -1 }\right]$ of [[eigenvalue]] $-1$, [[linear span|spanning]] the [[alternating representation]] $\mathbf{1}_{alt}$ of dimension 1.
+
+Hence, the [[abelian group]] underlying the [[representation ring]] may be identified with the [[linear span]]
+
+$$
+  R(\mathbb{Z}/2) \;\simeq_k\; \langle \mathbf{1}, \mathbf{1}_{alt}  \rangle
+$$
+
+and the comparison morphism from the [[Burnside ring]] (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) is
+
+$$
+  \array{
+    A(\mathbb{Z}/2)
+    &\overset{ \phantom{AA} \beta \phantom{AA}}{\longrightarrow}&
+    R(\mathbb{Z}/2)
+    \\
+    1\, (\mathbb{Z}/2)/(\mathbb{Z}/2) \;-\; 0\, (\mathbb{Z}/2)/(\mathbb{Z}/2) 
+      &\mapsto& 
+    \mathbf{1}
+    \\
+    1\, (\mathbb{Z}/2)/1 \;-\; 1\, (\mathbb{Z}/2)/(\mathbb{Z}/2)
+      &\mapsto&
+    \mathbf{1}_{alt}
+    \,,
+  }
+$$
+
+which is manifestly an [[isomorphism]], in accord with Prop. \ref{WhenAllVirtualLinearRepsAreVirtualPermutationReps}.
+
+=--
+
++-- {: .num_example #VirtualPermuationRepresentationOfS4}
+###### Example
+**(virtual permutation representation of [[symmetric group]] $S_4$)**
+
+For $G = S_4$ the [[symmetric group]] on four elements, the comparison morphism from the [[Burnside ring]] to the [[representation ring]] (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) 
+
+$$
+  A(S_4)
+  \overset{\beta}{\longrightarrow}
+  R(S_4)
+$$
+
+is a  [[surjective map]] at least over $k =\mathbb{R}$ (see [Montaldi](#Montaldi), bottom of [this page](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/S4)) and $k =\mathbb{C}$ (see at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_).
+
+
+=--
 
 
 ## Related entries
@@ -351,6 +447,8 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 
 * {#HambletonTaylor99} I. Hambleton, L. R. Taylor, _Rational permutation modules for finite groups_, Math. Z. 231 (1999), 707–726 ([pdf](https://link.springer.com/content/pdf/10.1007/PL00004749.pdf))
 
+* {#BartelDokchitser11} Alex Bartel, Tim Dokchitser, _Brauer relations in finite groups_, J. Eur. Math. Soc. 17 (2015), 2473-2512 ([arXiv:1103.2047](https://arxiv.org/abs/1103.2047))
+
 * {#BartelDokchitser14} Alex Bartel, Tim Dokchitser, _Rational representations and permutation representations of finite groups_, Math. Ann. 364 no. 1 (2016), 539-558 ([arXiv:1405.6616](https://arxiv.org/abs/1405.6616))
 
 
@@ -363,8 +461,15 @@ See also
 
 [[!redirects permutation representation]]
 [[!redirects permutation representations]]
+
 [[!redirects linear permutation representation]]
 [[!redirects linear permutation representations]]
 
+[[!redirects virtual permutation representation]]
+[[!redirects virtual permutation representations]]
+
 [[!redirects permutation action]]
 [[!redirects permutation actions]]
+
+[[!redirects Brauer relation]]
+[[!redirects Brauer relations]]
