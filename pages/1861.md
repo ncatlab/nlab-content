@@ -109,6 +109,7 @@ Now
 
 * [[equivariant stable cohomotopy]]
 
+[[!include Segal completion -- table]]
 
 ## References
 
