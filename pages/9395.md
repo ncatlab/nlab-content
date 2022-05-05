@@ -181,12 +181,12 @@ $$
 
 This is well defined by the very property that for [[normed division algebras]] the norm is multiplicative.
 
-Accordingly, the join of two such spheres is naturally parameterized as follows
+Accordingly, the [[join of topological spaces|join]] of two such spheres is naturally parameterized as follows
 
 $$
   S^{n-1}\ast S^{n-1}
   =
-  (S^{n-1}\times I \times S^{n-1})/\sim
+  (S^{n-1}\times I \times S^{n-1})_{/\sim}
   \simeq
   \left\{
     (x,t,y)
@@ -203,7 +203,7 @@ $$
   S^{n-1} \ast S^{n-1} \simeq S^{2n-1}
 $$
 
-Similarly, the suspension is parameterized by 
+Similarly, the [[suspension]] is parameterized by 
 
 $$
   \Sigma S^{n-1}
@@ -227,16 +227,16 @@ $$
 Moreover, in this parameterization the Hopf construction, def. \ref{HopfConstruction}, which is given by 
 
 $$
-  (x,y) \mapsto x \cdot y
+  (x,y) \mapsto x \cdot \overline{y}
 $$
 
-manifestly gives the Hopf fibration map (or rather its negative, by prop. \ref{HopfInvariantFromProductOfDegrees}, since the Hopf fibration is usually defined by $(x,y) \mapsto x \cdot y^{-1}$ in one chart, and by $(x,y) \mapsto x^{-1}\cdot y$ in the other). 
+manifestly gives the Hopf fibration map. 
 
 Notice that it is again the multiplicativity of the norm in division algebras which makes this work: if  ${\vert x \vert}^2 = 2t$ and ${\vert y\vert}^2 = 2 - 2t$ then it follows that
 
 $$
   \begin{aligned}
-     {\vert x \cdot y\vert}^2 + (1- 2t)^2
+     {\vert x \cdot \overline{y}\vert}^2 + (1- 2t)^2
      & = 
      {\vert x \vert}^2 {\vert y \vert}^2
      + (1-2t)^2
@@ -261,7 +261,7 @@ $$
         \,,\;
         {\vert y\vert}^2 = 2 - 2t
      \right\}
-     &\stackrel{{(x,y) \mapsto z \coloneqq x \cdot y}\atop{t \mapsto t}}{\longrightarrow}&
+     &\stackrel{{(x,y) \mapsto z \coloneqq x \cdot \overline{y}}\atop{t \mapsto t}}{\longrightarrow}&
     \left\{
        (z,t)
        \,,\;
@@ -291,6 +291,12 @@ Textbook accounts include
 * {#MosherTangora} [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](http://math.jhu.edu/~anakade1/notes/Dec%202014/Mosher%20and%20Tangora%20Notes/mosher-tangora.pdf))
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+See also 
+
+* {#Moreno04} Guillermo Moreno, _Hopf construction map in higher dimensions_ ([arXiv:math/0404172](https://arxiv.org/abs/math/0404172))
+
+*  Feza Guersey, Chia-Hsiung Tze (4b.2) in _On the role of Division, Jordan and Related algebras in Particle Physics_
 
 Discussion of the situation in [[parameterized homotopy theory]] includes
 
