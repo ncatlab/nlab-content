@@ -114,6 +114,8 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [bit-player](http://bit-player.org/) Math/computer science blog of science writer Brian Hayes (writer for American Scientist)
 
+* "blog on math blogs" <https://blogs.ams.org/blogonmathblogs>
+
 * [category theory](http://community.livejournal.com/category_theory) at community.livejournal (in Russian)
 
 * [Combinatorics and more: Gil Kalai's blog](http://gilkalai.wordpress.com) 
@@ -157,6 +159,8 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 * [Good Math, Bad Math](http://www.goodmath.org/blog/) (largely dedicated to chasing math crackpots; also math exposition)
 
 * [Gowers's weblog](http://gowers.wordpress.com)
+
+* [theHigherGeometer](https://thehighergeometer.wordpress.com) by David Roberts
 
 * [H&#246;chste Zeit, unsern Kurs zu &#228;ndern](http://shenme.de/blog) -- model theory of fields and commutative algebra
 
