@@ -1,4 +1,6 @@
 
+See at _[[conical singularity]]_.
+
 ## Related concepts
 
 * [[singularity]]
