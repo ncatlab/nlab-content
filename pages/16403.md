@@ -2101,6 +2101,7 @@ as an alternative representative of the given commuting square in $Ho(\mathcal{C
 
 +-- {: .num_defn #HomotopicalFunctor}
 ###### Definition
+**([[homotopical functor]])**
 
 For $\mathcal{C}$ and $\mathcal{D}$ two [[categories with weak equivalences]], def. \ref{CategoryWithWeakEquivalences}, then a [[functor]] $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ is called a **[[homotopical functor]]** if it sends weak equivalences to weak equivalences.
 
@@ -2108,6 +2109,7 @@ For $\mathcal{C}$ and $\mathcal{D}$ two [[categories with weak equivalences]], d
 
 +-- {: .num_defn #DerivedFunctorOfAHomotopicalFunctor}
 ###### Definition
+**([[derived functor]])**
 
 Given a [[homotopical functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ (def. \ref{HomotopicalFunctor}) between [[categories with weak equivalences]] whose [[homotopy categories]] $Ho(\mathcal{C})$ and $Ho(\mathcal{D})$ exist (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}), then its ("[[total derived functor|total]]") _[[derived functor]]_ is the functor $Ho(F)$ between these homotopy categories which is induced uniquely, up to unique isomorphism, by their universal property (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}):
 
@@ -2139,7 +2141,7 @@ Therefore one considers the following generalization of def. \ref{DerivedFunctor
 
 +-- {: .num_defn #LeftAndRightDerivedFunctorsOnModelCategories}
 ###### Definition
-**([[derived functors]])**
+**(left and right [[derived functors]])**
 
 Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) into a [[category with weak equivalences]] $\mathcal{D}$ (def. \ref{CategoryWithWeakEquivalences}).
 
@@ -2488,15 +2490,26 @@ $$
   \mathcal{D}
 $$
 
-is called a **[[Quillen adjunction]]** (and $L$,$R$ are called left/right **Quillen functors**, respectively) if the following equivalent conditions are satisfied
+is called a _[[Quillen adjunction]]_, to be denoted
 
-1. $L$ preserves cofibrations and $R$ preserves fibrations;
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot_{Qu}}
+  \mathcal{D}
+$$
 
-1. $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations;
+and $L$, $R$ are called left/right _Quillen functors_, respectively, if the following equivalent conditions are satisfied:
 
-1. $L$ preserves cofibrations and acylic cofibrations;
+1. $L$ preserves [[cofibrations]] and $R$ preserves [[fibrations]];
 
-1. $R$ preserves fibrations and acyclic fibrations.
+1. $L$ preserves [[acyclic cofibrations]] and $R$ preserves [[acyclic fibrations]];
+
+1. $L$ preserves [[cofibrations]] and [[acylic cofibrations]];
+
+1. $R$ preserves [[fibrations]] and [[acyclic fibrations]].
 
 
 =--
@@ -2642,6 +2655,65 @@ $$
 
 =--
 
+The following is the analog of [[adjunction unit]] and [[adjunction counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
++-- {: .num_defn #DerivedAdjunctionUnit}
+###### Definition
+**([[derived adjunction unit]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[model categories]] (Def. \ref{ModelCategory}), and let
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot_{Qu}}
+  \mathcal{D}
+$$
+
+be a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}). Then 
+
+1. a _derived adjunction unit_ at an [[object]] $d \in \mathcal{D}$ is a [[composition]] of the form
+
+   $$
+     Q(d) 
+       \overset{\eta_{Q(d)}}{\longrightarrow}
+     R(L(Q(d)))
+       \overset{R( j_{L(Q(d))} )}{\longrightarrow}
+     R(P(L(Q(d)))
+   $$
+
+   where
+
+   1. $\eta$ is the ordinary [[adjunction unit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism});
+
+   1. $\emptyset \underoverset{\in Cof_{\mathcal{D}}}{i_{Q(d)}}{\longrightarrow} Q(d) \underoverset{\in W_{\mathcal{D}} \cap Fib_{\mathcal{D}}}{p_{Q(d)}}{\longrightarrow} d$ is a [[cofibrant resolution]] in $\mathcal{D}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory});
+
+   1. $L(Q(d)) \underoverset{\in W_{\mathcal{C}} \cap Cof_{\mathcal{C}}}{j_{L(Q(d))}}{\longrightarrow} P(L(Q(d))) \underoverset{\in Fib_{\mathcal{C}}}{q_{L(Q(d))}}{\longrightarrow} \ast$ is a [[fibrant resolution]] in $\mathcal{C}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory});
+
+1. a _derived adjunction counit_ at an object $c \in \mathcal{C}$ is a composition of the form
+
+   $$
+     L(Q(R(P(c))))
+       \overset{ p_{R(P(c))} }{\longrightarrow}
+     L R(P(c)) 
+       \overset{\epsilon_{P(c)}}{\longrightarrow}
+     P(c)
+   $$
+
+   where
+
+   1. $\epsilon$ is the ordinary [[adjunction counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism});
+
+   1. $c \underoverset{\in W_{\mathcal{C}} \cap Cof_{\mathcal{C}}}{j_c}{\longrightarrow} P c \underoverset{\in Fib_{\mathcal{C}}}{q_c}{\longrightarrow} \ast$ is a [[fibrant resolution]] in $\mathcal{C}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory});
+
+   1. $\emptyset \underoverset{\in Cof_{\mathcal{D}}}{i_{R(P(c))}}{\longrightarrow} Q(R(P(c))) \underoverset{\in W_{\mathcal{D}} \cap Fib_{\mathcal{D}}}{p_X}{\longrightarrow} R(P(c))$ is a [[cofibrant resolution]] in $\mathcal{D}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}).
+
+
+
+=--
+
 The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}) for [[model categories]]:
 
 +-- {: .num_defn #QuillenEquivalence}
@@ -2651,24 +2723,22 @@ The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{
 For $\mathcal{C}, \mathcal{D}$ two [[model categories]] (Def. \ref{ModelCategory}),  a [[Quillen adjunction]] (def. \ref{QuillenAdjunction})
 
 $$
-  (L \dashv R)
-  \;\colon\;
   \mathcal{C}
     \underoverset
       {\underset{R}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
-      {\bot}
+      {\bot_{Qu}}
   \mathcal{D}
 $$
 
-is called a **[[Quillen equivalence]]**, to be denoted
+is called a _[[Quillen equivalence]]_, to be denoted
 
 $$
   \mathcal{C}
     \underoverset
       {\underset{R}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
-      {\phantom{{}_{Q}} \simeq_{\mathrlap{Q}}}
+      {\simeq_{\mathrlap{Q}}}
   \mathcal{D}
   \,,
 $$
@@ -2689,19 +2759,19 @@ if the following equivalent conditions hold:
      \,.
    $$
 
-1. For every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit", hence the composite
+1. For every [[cofibrant object]] $d\in \mathcal{D}$, the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit})
 
    $$
      d
-       \overset{\eta}{\longrightarrow}
+       \overset{\eta_d}{\longrightarrow}
      R(L(d))
        \overset{R(j_{L(d)})}{\longrightarrow}
      R(P(L(d)))
    $$
 
-   (of the [[adjunction unit]] with any fibrant replacement $P$ as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence;
+   is a [[weak equivalence]];
 
-   and for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite
+   and for every [[fibrant object]] $c \in \mathcal{C}$, the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit})
 
      $$
        L(Q(R(c)))
@@ -2711,7 +2781,7 @@ if the following equivalent conditions hold:
        c
      $$
 
-     (of the [[adjunction counit]] with any cofibrant replacement as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence in $D$.
+     is a [[weak equivalence]].
 
 
 1. For every cofibrant object $d \in \mathcal{D}$ and every fibrant object $c \in \mathcal{C}$, a morphism $d \longrightarrow R(c)$ is a weak equivalence precisely if its [[adjunct]] morphism $L(c) \to d$ is:
@@ -2742,7 +2812,7 @@ The conditions in def. \ref{QuillenEquivalence} are indeed all equivalent.
 
 That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other).
 
-To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the morphisms called "derived adjunction (co-)units" above indeed represent the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the homotopy category.
+To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the [[derived adjunction unit]]/[[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) indeed represent the [[adjunction unit|adjunction (co-)unit]] of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the [[homotopy category of a model category|homotopy category]].
 We show this now for the adjunction unit, the case of the adjunction counit is formally dual.
 
 To that end, first observe that for $d \in \mathcal{D}_c$, then the defining commuting square for the left derived functor from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
@@ -2785,7 +2855,7 @@ $$
   Hom_{\mathcal{C}}(L d, P L d)/_\sim
 $$
 
-of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the derived adjunction unit is the $(L \dashv R)$-[[adjunct]] of
+of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}) is the $(L \dashv R)$-[[adjunct]] of
 
 $$
   L d
@@ -2838,7 +2908,7 @@ $$
 
 where $P f$ is any lift constructed as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}.
 
-This exhibits the bottom left morphism as the derived adjunction unit, hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
+This exhibits the bottom left morphism as the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}), hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
 
 =--
 
@@ -2863,7 +2933,7 @@ is a [[weak equivalence]].
 
 By prop. \ref{ConditionsForQuillenAdjunctionAreIndeedEquivalent}, generally, $(L \dashv R)$ is a Quillen equivalence precisely if
 
-1. for every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit"
+1. for every [[cofibrant object]] $d\in \mathcal{D}$, the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit})
 
    $$
      d
@@ -2873,9 +2943,9 @@ By prop. \ref{ConditionsForQuillenAdjunctionAreIndeedEquivalent}, generally, $(L
      R(P(L(d)))
    $$
 
-   is a weak equivalence;
+   is a [[weak equivalence]];
 
-1. for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit"
+1. for every [[fibrant object]] $c \in \mathcal{C}$, the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit})
 
    $$
      L(Q(R(c)))
@@ -2885,7 +2955,7 @@ By prop. \ref{ConditionsForQuillenAdjunctionAreIndeedEquivalent}, generally, $(L
      c
    $$
 
-   is a weak equivalence.
+   is a [[weak equivalence]].
 
 Consider the first condition: Since $R$ preserves the weak equivalence $j_{L(d)}$, then by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) the composite in the first item is a weak equivalence precisely if $\eta$ is.
 
@@ -10289,6 +10359,7 @@ Since the fibrations and weak equivalences in the projective model structure (de
 
 +-- {: .num_defn #LeftDerivedFunctorOfColimitFunctor}
 ###### Definition
+**([[homotopy colimit]])**
 
 In the situation of prop. \ref{ColimitIsLeftQuillenOfProjectiveModelStructureOnFunctors} we say that the [[left derived functor]] (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[colimit]] functor is the **[[homotopy colimit]]**
 
@@ -13367,7 +13438,7 @@ $$
 
 First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{SingDetextsAndReflectsFibrations} says in particular that $Sing(-)$ takes [[Serre fibrations]] to [[Kan fibrations]] and prop. \ref{TopologicalRealizationOfsSetLandsInCWComplexes} gives that ${\vert-\vert}$ sends monomorphisms of simplicial sets to [[relative cell complexes]].
 
-Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the derived adjunction unit and counit are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
+Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the [[derived adjunction unit]] and [[derived adjunction counit]] are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
 
 =--
 
@@ -13551,9 +13622,11 @@ In particular every [[representable presheaf]], regarded as a simplicially const
 
 ([[Universal Homotopy Theories|Dugger 00, section 9, lemma 2.7]])
 
+The following is the analog of Def. \ref{Limits}:
+
 +-- {: .num_example #HomotopyLimitOfSimplicialSets}
 ###### Example
-**([[homotopy limit]] of [[simplicial sets]])**
+**([[homotopy limits]] of [[simplicial sets]])**
 
 Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) and consider the [[limit]]/[[colimit]] [[adjoint functors]] (Def. \ref{Limits}) with values in [[simplicial sets]] (Def. \ref{sSet}). These are [[Quillen adjunctions]] (Def. \ref{QuillenAdjunction}) for the injective/projective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), respectively:
 
@@ -13574,7 +13647,8 @@ $$
   \,.
 $$
 
-(Since $const$ evidently preserves weak equivalences in any case, and preserves fibrations for the projective model structure and cofibrations for the injective model structure.)
+This holds because $const$ evidently preserves weak equivalences in any case, and preserves fibrations for the projective model structure and cofibrations for the injective model structure. Since the [[identity functor]] constitutes a [[Quillen equivalence]] between the injective and the projective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}),  this is in fact a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}).
+
 
 The corresponding [[derived functors]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) are called 
 
@@ -13598,6 +13672,7 @@ The corresponding [[derived functors]] (Def. \ref{LeftAndRightDerivedFunctorsOnM
     \longrightarrow
     Ho(sSet)
   $$
+
 
 =--
 
@@ -14284,9 +14359,9 @@ $$
 
 Hence it is sufficient to see that an injectively fibrant simplicial presheaf $\mathbf{X}$ is objectwise a [[Kan complex]]. This is indeed the case, by Prop. \ref{ModelCategoriesOfSimplicialPresheaves}.
 
-To check that (eq:QuillenEquivalenceInABousfLocalization) is actually a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}), we check that the derived adjunction unit and counit are equivalences:
+To check that (eq:QuillenEquivalenceInABousfLocalization) is actually a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}), we check that the [[derived adjunction unit]] and [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) are weak equivalences:
 
-For $X \in sSet$ any simplicial set (necessarily cofibrant), the derived [[adjunction unit]] is 
+For $X \in sSet$ any simplicial set (necessarily cofibrant), the [[derived adjunction unit]] is 
 
 $$
   X 
@@ -14334,7 +14409,7 @@ $$
   \mathbf{X}
 $$
 
-which is hence also a weak equivalence. Hence for the derived adjunction counit
+which is hence also a weak equivalence. Hence for the [[derived adjunction counit]]
 
 $$
   const (Q \mathbf{X})(\mathbb{A}^0)
@@ -14351,6 +14426,37 @@ to be a weak equivalence, it is now sufficient to see that the value of a [[cofi
 $\,$
 
 ## Gros $(\infty,1)$-Toposes
+
++-- {: .num_defn #CohesiveInfinityTopos}
+###### Definition
+**([[cohesive (∞,1)-topos]])**
+
+An [[(∞,1)-topos]] $\mathbf{H}$ (Def. \ref{ModelTopos}) is called a _[[cohesive (∞,1)-topos]]_ if it is presented by a [[model topos]] $[\mathcal{C}^{op}, sSet_{Qu}]_{loc}$ (Def. \ref{ModelTopos}) which admits a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple}) to the [[classical model category of simplicial sets]] (Def. \ref{ClassesOfMorphismsOnsSetQuillen}) of the form
+
+$$
+  \array{
+    [\mathcal{C}^{op}, sSet_{Qu}]
+      \array{
+        \overset{\phantom{AA}\Pi\phantom{AA}}{\longrightarrow}
+        \\
+        \overset{\phantom{A}Disc\phantom{A}}{\longleftarrow}
+        \\
+        \overset{\phantom{AA}\Gamma\phantom{AA}}{\longrightarrow}
+        \\
+        \overset{\phantom{A}coDisc\phantom{A}}{\longleftarrow}
+        \\
+      }
+    sSet_{Qu}
+  }
+$$
+
+such that 
+
+1. $Disc$ and $coDisc$ are [[homotopically fully faithful]] in that the [[derived adjunction units]] (Def. \ref{DerivedAdjunctionUnit}) of $(\Pi \dashv Disc)$ and of $(\Gamma \dashv coDisc)$ are [[weak equivalences]];
+
+1. $\Pi$ preserves [[finite products]].
+
+=--
 
 The following is the analog of Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
 
@@ -14425,10 +14531,36 @@ such that:
      \,.
    $$
 
-Hence the [[category of simplicial presheaves]] over a [[small category]] with [[finite products]], a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveModelTopos}).
-
+Hence the [[category of simplicial presheaves]] over a [[small category]] with [[finite products]], a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveInfinityTopos}).
 
 =--
+
+
++-- {: .proof}
+###### Proof
+
+The [[adjoint quadruple]] of ordinary [[functors]] exists as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}, and by Prop. \ref{ModelCategoriesOfSimplicialPresheaves} we have the injective and projective [[model structure on simplicial presheaves]] related by a  [[Quillen equivalence]] of the form
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\simeq_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}  
+$$
+
+Therefore it remains only to see that each consecutive [[pair]] of [[functors]] constitutes a [[Quillen adjunction]] alternatively for the injective and the projective [[model structure on simplicial presheaves]].
+
+That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}.
+
+Finally, since $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[left Quillen functor]] but also a [[right Quillen functor]] with respect to the injective model structure. 
+
+=--
+
+
+
+
 
 (...)
 
