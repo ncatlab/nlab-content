@@ -379,7 +379,9 @@ A standard text is
 * {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
 
-Other survey includes
+Other accounts include
+
+* {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979
 
 * {#Schwede12} [[Stefan Schwede]], appendix A.4 of of _[[Symmetric spectra]]_ (2012)
 
