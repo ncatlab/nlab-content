@@ -20,3 +20,5 @@ $$
 ## Homotopy groups
 
 Cubical Kan complexes admit a notion of homotopy group. The theory of these homotopy groups can be developed analogously to the theory of homotopy groups of a topological space. See [[homotopy groups of a cubical Kan complex]].
+
+[[!redirects cubical kan complex]]
