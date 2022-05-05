@@ -15,4 +15,5 @@ NB. He used to write his name Matan Prezma.
 category:people
 
 [[!redirects MatanP]]
+[[!redirects Matan Prezma]]
 
