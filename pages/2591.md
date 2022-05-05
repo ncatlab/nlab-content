@@ -52,13 +52,15 @@ For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classi
 
 ## Examples
 
-For the almost degenerate case $n = 2$ there are exceptional [[isomorphisms]] of [[Lie groups]]
+* For the almost degenerate case $n = 2$ there are exceptional [[isomorphisms]] of [[Lie groups]]
 
-$$
-  SO(2) \simeq U(1) \simeq Spin(2)
-$$
+  $$
+    SO(2) \simeq U(1) \simeq Spin(2)
+  $$
 
-with the [[circle group]] and [[spin group]] in dimension 2.
+  with the [[circle group]] and [[spin group]] in dimension 2.
+
+* the case of [[SO(8)]] is special, since in the [[ADE classification]] of [[simple Lie groups]] it corresponds to [[D4]], which makes its [[representation theory]] enjoy _[[triality]]_.
 
 ## Related concepts
 
