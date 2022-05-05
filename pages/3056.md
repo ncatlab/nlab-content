@@ -11,9 +11,9 @@ The notion of _domain opfibration_ is [[duality|dual]] to that of [[codomain fib
 Let $C$ be a [[category]] and $Arr(C)= C^2$ the corresponding [[arrow category]]: the objects in $Arr(C)$ are morphisms in $C$ and the morphisms $(f:x\to x')\to (g:y\to y')$ in $Arr(C)$ are the [[commutative squares]] of the form
 
 $$\array{
-x &\stackrel{v}\to& y\\
+x &\stackrel{u}\to& y\\
 \downarrow\mathrlap{f} &&\downarrow\mathrlap{g}\\
-x' &\stackrel{u}\to& y'
+x' &\stackrel{v}\to& y'
 }$$
 
 with the obvious composition. 
