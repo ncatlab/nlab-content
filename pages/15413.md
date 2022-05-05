@@ -24,20 +24,45 @@ The _covering lifting property_ on a [[functor]] between [[sites]] is a sufficie
 
 ## Definition
 
-Let $C$ and $D$ be [[sites]].
 
 +-- {: .num_defn #clp}
 ###### Definition
+**(covering lifting property)**
 
-A [[functor]] $f \colon C \to D$ is said to have the _covering lifting property_ ([MacLane-Moerdijk, p. 410](#MacLaneMoerdijk)) if for every object $U \in C$ and every [[cover]] $\{q_i : V_i \to f(U)\}$ of $f(U) \in D$, there is a cover $\{p_j : U_j \to U\}$ of $U \in C$ such that $\{f(p_j) : f(U_j) \to f(U)\}$ refines $\{q_i : V_i \to f(U)\}$ (i.e., if every cover of the image of any $U$ under $f$ is refined by the image of a cover of $U$).
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[sites]]. A [[functor]] 
+
+$$
+  F \;\colon\; \mathcal{C} \to \mathcal{D}
+$$ 
+
+is said to have the _covering lifting property_  if for every object $U \in \mathcal{C}$ and every [[cover]] $\{q_i \colon V_i \to F(U)\}$ of $F(U) \in \mathcal{D}$, there is a cover $\{p_j \colon U_j \to U\}$ of $U \in \mathcal{C}$ such that $\{f(U_j) \overset{f(p_j)}{\to} f(U)\}$ refines $\{ V_i \overset{q_i}{\to} f(U)\}$ (i.e., if every cover of the image of any $U$ under $f$ is refined by the image of a cover of $U$).
 
 =--
 
+([MacLane-Moerdijk, p. 410](#MacLaneMoerdijk))
+
 ## Properties
 
-A functor between sites with covering lifting property induces a [[geometric morphisms]] between the corresponding [[sheaf toposes]] covariantly, with [[inverse image]] given by pre-composition with $F$ followed by [[sheafification]]. ([MacLane-Moerdijk, Theorem VII.10.5](#MacLaneMoerdijk))
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
 
-See also: [The Elephant, Proposition C2.3.18](#Elephant).
+
+A functor between sites with covering lifting property (Def. \ref{clp}) induces a [[geometric morphisms]] between the corresponding [[sheaf toposes]] covariantly, 
+
+$$
+  Sh(\mathcal{C})
+    \underoverset
+      {\underset{F_{\ast}}{\longrightarrow}}
+      {\overset{L F^\ast}{\longleftarrow}}
+      {\bot}
+  Sh(\mathcal{D})
+$$
+
+with [[inverse image]] given by pre-composition with $f$ followed by [[sheafification]]. 
+
+=--
+
+([MacLane-Moerdijk, Theorem VII.10.5](#MacLaneMoerdijk), [The Elephant, Proposition C2.3.18](#Elephant)).
 
 ## References
 
