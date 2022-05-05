@@ -17,7 +17,7 @@
 ## Idea 
  {#Idea}
 
-In generality, _homotopy theory_ is the study of mathematical contexts in which [[functions]] or rather ([[homomorphism|homo]]-)[[morphisms]] are equipped with a concept of _[[homotopy]]_ between them, hence with a concept of "equivalent [[deformations]]" of morphisms, and then iteratively with [[homotopies of homotopies]] between those, and so forth. 
+In generality, _homotopy theory_ is the study of mathematical contexts in which [[function|functions]] or rather ([[homomorphism|homo]]-)[[morphism|morphisms]] are equipped with a concept of _[[homotopy]]_ between them, hence with a concept of "equivalent [[deformations]]" of morphisms, and then iteratively with [[homotopies of homotopies]] between those, and so forth. 
 
 For exposition see _[[Introduction to Topology -- 2|Introduction to Basic Homotopy Theory]]_, _[[Introduction to Homotopy Theory]]_, and _[[geometry of physics -- homotopy types]]_.
 
