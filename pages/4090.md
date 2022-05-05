@@ -52,7 +52,7 @@ The dual of this is [[Higher Topos Theory|HTT, prop. 5.3.2.9]].
 
 1. Every [[(∞,1)-equivalence]] is $\kappa$-flat.
 
-1. An $(\infty,1)$-functor equivalent (in the [[(∞,1)-category of (∞,1)-functors]]) to a $\kappa$-flat one is itsels $\kappa$-flat.
+1. An $(\infty,1)$-functor equivalent (in the [[(∞,1)-category of (∞,1)-functors]]) to a $\kappa$-flat one is itself $\kappa$-flat.
 
 =--
 
