@@ -46,6 +46,8 @@ where $p = |P|$ is the cardinality of $P$. This is an example of a _combinatoria
 
 (Notice that we are evaluating the order polynomial at a negative integer, even though the putative definition $\Omega_P(n) = |Hom(P,(n))|$ only makes sense for natural numbers $n$. This is justified because the value of a polynomial on the natural numbers determines its value on arbitrary integers.)
 
+As an example, the strict order polynomial of the 3-element poset $P$ defined above is $\bar{\Omega}_P(n) = \frac{2n^3 - 3n^2 + n}{6}$. Evaluation at $n=2$ confirms that there is exactly one strict monotone map from $P$ to a 2-element linear order (sending both $a$ and $b$ to the first element and $c$ to the second element).
+
 Through [[Möbius inversion]], this equation relating the strict order polynomial to the order polynomial can be connected to the previous one relating the order polynomial to the zeta polynomial. Since the lattice of lower sets $P^\downarrow$ has [[bottom]] and [[top]] elements, we know that
 $$
 \Omega_P(n) = Z_{P^\downarrow}(n-2) = \zeta^n(\emptyset,P)
