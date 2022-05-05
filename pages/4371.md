@@ -227,6 +227,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * [[scattered topos]]
 
+[[!include logic symbols -- table]]
+
 ## References
 
 Informal exposition of double negation with an eye towards [[physics]] is in
