@@ -19,7 +19,7 @@
 
 ## References
 
-A [[supergeometry|supergometric]] interpretation of picture changing operators as part of the geometry of [[super Riemann surfaces]] is given in 
+A [[supergeometry|supergeometric]] interpretation of picture changing operators as part of the geometry of [[super Riemann surfaces]] is given in 
 
 * [[Alexander Belopolsky]], _New Geometrical Approach to Superstrings_ ([arXiv:hep-th/9703183](http://arxiv.org/abs/hep-th/9703183))
 
