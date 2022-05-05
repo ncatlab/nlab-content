@@ -40,7 +40,7 @@ In full beauty these concepts are extremely general and powerful; but the aim he
 a fully general account.
 Therefore we concentrate on the special case where [[spacetime]] is [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime} below), where the [[field bundle]] (def. \ref{FieldsAndFieldBundles} below) is an ordinary [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle} below) and hence the [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is [[locally variational field theory|globally defined]].
 Similarly, when considering [[gauge theory]] we consider just the special case that the [[gauge parameter]]-bundle
-is a [[trivial vector bundle]]  and we concentrate on the case that the gauge symmetries are "closed irreducible" (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
+is a [[trivial vector bundle]]  and we concentrate on the case that the gauge symmetries are "closed irreducible" (def. \ref{GaugeParametersClosed} below).
 But we aim to organize all concepts such that the _structure_ of their generalization to [[AQFT on curved spacetime|curved spacetime]]
 and non-trivial [[field bundles]] is immediate.
 
