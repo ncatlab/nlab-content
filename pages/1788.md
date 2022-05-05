@@ -1,12 +1,32 @@
 
-   $$
-     \array{
-       \mathcal{C}
-       &\overset{R_1}{\longrightarrow}&
-       \mathcal{D}
-       \\
-       {}^{\mathllap{L_1}}\downarrow 
-         &\swArrow_{\mathrlap{\phi}}& 
-       \Downarrow{}^{\mathrlap{L_2}}
-     }
-   $$
+
+$$
+  \array{
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}   
+    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{id}}
+    \Big\downarrow
+      &{}^{ \mathllap{ id } }\swArrow& 
+    \Big\downarrow{}^{ \mathrlap{ \underset{\longleftarrow}{\lim}=\Gamma } }
+      & {}^{ \mathllap{\epsilon} }\swArrow &
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{A}\underset{\longleftarrow}{\lim}=\Gamma\phantom{A} }{\longrightarrow}&
+    sSet_{Qu}
+    &\underset{coconst}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{id}}\Big\downarrow 
+      &{}^{\mathllap{ \epsilon }}\swArrow& 
+    \Big\downarrow{}^{\mathrlap{const}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
