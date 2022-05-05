@@ -3,6 +3,7 @@
 <img src="https://ncatlab.org/schreiber/files/HamburgAnnouncement.jpg" width="850" >
 
 
+
 These notes mean to give an expository but rigorous introduction to the basic concepts of [[relativistic quantum field theory|relativistic]] [[perturbative quantum field theories]], specifically those that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of _[[Lagrangian field theories]]_ -- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]] appearing in the [[standard model of particle physics]].
 
 $\,$
@@ -36,7 +37,7 @@ This is joint work with [[Igor Khavkine]].
 
 In full beauty these concepts are extremely general and powerful; but the aim here is to give a first precise idea of the subject, not
 a fully general account.
-Therefore we concentrate on the special case where [[spacetime]] is [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime} below), where the [[field bundle]] (def. \ref{FieldsAndFieldBundles} below) is an ordinary [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle} below) and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is [[locally variational field theory|globally defined]].
+Therefore we concentrate on the special case where [[spacetime]] is [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime} below), where the [[field bundle]] (def. \ref{FieldsAndFieldBundles} below) is an ordinary [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle} below) and hence the [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is [[locally variational field theory|globally defined]].
 Similarly, when considering [[gauge theory]] we consider just the special case that the [[gauge parameter]]-bundle
 is a [[trivial vector bundle]]  and we concentrate on the case that the gauge symmetries are "closed irreducible" (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
 But we aim to organize all concepts such that the _structure_ of their generalization to [[AQFT on curved spacetime|curved spacetime]]
