@@ -69,4 +69,10 @@ An explicit associator over $\mathbf{C}$ was constructed by [[Drinfeld]] from th
 * [[Formality]] of the [[little 2-disk operad]]
 * Construction of a functorial [[universal finite type invariant]]. 
 
+## References
+
+* [[Vladimir Drinfeld]]. On quasitriangular quasi-Hopf algebras and on a group that is closely connected with Gal($\overline{\mathbf{Q}}/\mathbf{Q}$). _Leningrad Math. J._ 2:4 (1990), 829–860. ([mathnet.ru](http://mi.mathnet.ru/eng/aa199))
+
+* [[Dror Bar-Natan]]. On associators and the Grothendieck-Teichmuller group I. _Selecta Math. (N.S.)_ 4:2 (1998), 183–212. ([pdf](https://www.math.toronto.edu/drorbn/papers/GT1/GT1.pdf))
+
 [[!redirects Drinfeld associators]]
