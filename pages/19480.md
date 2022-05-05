@@ -42,7 +42,7 @@ A _[[category]]_ $\mathcal{C}$ is
 
 1. a [[class]] $Obj_{\mathcal{C}}$, called the _class of [[objects]]_;
 
-1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of [[objects]], a [[set]] $Hom_{\mathcal{C}}(X,Y)$, called the _[[set of morphisms]] from $X$ to $Y$_, of the _[[hom-set]]_, for short.
+1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of [[objects]], a [[set]] $Hom_{\mathcal{C}}(X,Y)$, called the _[[set of morphisms]] from $X$ to $Y$_, or the _[[hom-set]]_, for short.
 
    We denote the elements of this set by arrows like this:
 
@@ -419,7 +419,7 @@ such that
       X_1 \overset{f}{\longrightarrow} X_2 \overset{g}{\longrightarrow} X_3
    $$
 
-   then
+   we have
 
    $$
       F_{X_1, X_3}(g \circ f ) \;=\;  F_{X_2, X_3}(g) \circ F_{X_1,X_2}(f)
@@ -881,7 +881,7 @@ $\,$
 ###### Definition
 **([[natural transformation]] and [[natural isomorphism]])**
 
-Given two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ (Def. \ref{Categories}) and given two [[functors]] from $\mathcal{C}$ to $\mathcal{D}$ (Def. \ref{Functors}), then a _[[natural transformation]]_ from $F$ to $G$
+Given two [[categories]] $\mathcal{C}$ and $\mathcal{D}$ (Def. \ref{Categories}) and given two [[functors]] $F$ and $G$ from $\mathcal{C}$ to $\mathcal{D}$ (Def. \ref{Functors}), then a _[[natural transformation]]_ from $F$ to $G$
 
 $$
   \mathcal{C}
