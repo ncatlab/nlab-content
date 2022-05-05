@@ -64,6 +64,8 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 
 * [[functorial geometry]], [[space and quantity]]
 
+* [[topological site]], [[continuous truth]]
+
 * [[cohesive topos]]
 
   * [[sufficiently cohesive topos]]
