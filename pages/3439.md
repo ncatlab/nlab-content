@@ -55,3 +55,5 @@ Discussion of the [[Peierls brackets]] ([[covariant phase space]]) after gauge f
 
 [[!redirects gauge fixings]]
      
+[[!redirects gauge-fixed]]
+[[!redirects gauge fixed]]
