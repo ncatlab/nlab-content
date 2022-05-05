@@ -318,7 +318,7 @@ Other than the decisions made by the player in control of a game, all moves are 
 
 A game is __valid__ if we have a strategy to win (whether by putting the game in a state where we have won or by guaranteeing that it is forever their turn).  The soundness and completeness of this interpretation is the theorem that $A$ is a valid game if and only if $\vdash A$ is a valid sequent.  (Recall that all questions of validity of sequents can be reduced to the validity of single propositions.)
 
-Game semantics for linear logic was first proposed by [[Andreas Blass]], I believe in [Blass (1992)](#Blass).  The semantics here may or may not be the same as proposed by Blass.
+Game semantics for linear logic was first proposed by [[Andreas Blass]], in [Blass (1992)](#Blass1992).  The semantics here is essentially the same as that proposed by Blass.
 
 
 ## Multiple exponential operators
@@ -362,6 +362,7 @@ All of these justify the rules for the exponentials, so again we see that there 
   * [[relevance logic]]
   * [[bunched logic]]
   * [[separation logic]]
+
 
 ## References
 
@@ -446,8 +447,8 @@ Further discussion of [[linear type theory]] is for instance in
 
 See also
 
-* [[Andreas Blass]], _A game semantics for linear logic_, _Annals of Pure and Applied Logic_ 56: 183--220, 1992.
- {#Blass}
+* [[Andreas Blass]], 1992. _A game semantics for linear logic_. _Annals of Pure and Applied Logic_ 56: 183--220. 1992.
+  {#Blass1992}
 
 *  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied [[fragments]].
 
