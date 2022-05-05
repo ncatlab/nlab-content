@@ -27,6 +27,7 @@ $$
 ## M&#246;bius inversion for posets
 
 ### Incidence algebras and the zeta function
+ {#IncidenceAlgebrasZetaFn}
 
 The **incidence algebra** of a poset $P$ (relative to a [[commutative ring]] $R$) is an [[associative unital algebra]] defined as follows.
 Its elements are functions $f : P \times P\to R$ such that $x \nleq y$ implies $f(x,y) = 0$.
