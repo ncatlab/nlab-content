@@ -52,15 +52,22 @@ Construction and axiomatization of gauge field AQFT via [[homotopy theory]] and 
 
 * {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
 
+
 * {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_, Communications in Mathematical Physics November 2017, Volume 356, Issue 1, pp 19&#8211;64 ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
 
 The [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]] is discussed in
 
 * {#BeniniSchenkelSchreiber17} [[Marco Benini]], [[Alexander Schenkel]], [[Urs Schreiber]], _The stack of Yang-Mills fields on Lorentzian manifolds_ ([arXiv:1704.01378](https://arxiv.org/abs/1704.01378))
 
+
 An [[operad]] for [[local nets of observables]] in [[AQFT]] is considered in
 
 * {#BeniniSchenkelWoike17} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Operads for algebraic quantum field theory_ ([arXiv:1709.08657](https://arxiv.org/abs/1709.08657))
+
+and its [[model structure on algebras over an operad]] (with respect to the [[model structure on chain complexes]]) is discussed in
+
+* {#BeniniSchenkelWoike18} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Homotopy theory of algebraic quantum field theories_ ([arXiv:1805.08795](https://arxiv.org/abs/1805.08795))
+
 
 The [[Boardman-Vogt resolution]] of the [[operad]] for [[local nets of observables]] ([Benini-Schenkel-Woike 17](#BeniniSchenkelWoike17)), lifting it to homotopy AQFT, is considered in
 
