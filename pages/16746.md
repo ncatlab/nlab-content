@@ -135,4 +135,8 @@ An arbitrary product of separable spaces $X_i$ satisfies the countable chain con
 Any finite product of separable spaces $X_i$ is separable and thus satisfies the countable chain condition by Proposition \ref{sep}, so the full product does as well by Proposition \ref{prod}. 
 =-- 
 
+## Related countability properties of topological spaces
+
+[[!include topology - countability axioms]]
+
 [[!redirects countable chain conditions]] 
