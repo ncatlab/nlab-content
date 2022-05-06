@@ -2286,6 +2286,7 @@ It only remains to see that this map is bijective over any $\big[\Sigma^\infty c
 
 \begin{definition}
   \label{LiftedEInvariantDiagrammatically}
+
 The _refined e-invariant_ $\widehat e_{KU}$ is the composite of 
 
 1. the equivalence from Prop. \ref{EFluxesAreCocycleInCofiberTheory} for $E = $ [[KU]],
@@ -2339,11 +2340,13 @@ The _refined e-invariant_ $\widehat e_{KU}$ is the composite of
       [{\color{green}c}]
       ,
       {\color{orange}
-        \widehat e_{\mathbb{C}}(c)
+        \widehat e_{\mathrm{KU}}(c)
       }
     \Big)
 \end{xymatrix}
+
 sending a trivialization of the d-invariant
+
 \begin{xymatrix@=30pt}
     S^{2(n + d) - 1}
     \ar[dd]
@@ -2384,7 +2387,9 @@ sending a trivialization of the d-invariant
       }
      "s"; "t"
 \end{xymatrix}
+
 to the class of this pasting composite:
+
 \begin{xymatrix@R=1.8em@C=24pt}
    S^{2(n + d) - 1}
    \ar[dd]
@@ -2414,17 +2419,22 @@ to the class of this pasting composite:
    \\
    S^{n}
    \ar[dd]
-   \ar[rr]
+   \ar[rr]|-{ \;q_c\; }
    \ar@{}[ddrr]|-{
      \rotatebox[origin=c]{-45}{$\big\Downarrow$}
      \mbox{\tiny (po)}
    }
    \ar@/_.7pc/[drrr]
      |<<<<<{ \;\Sigma^{n} (1^{\mathrm{MU}})\;\; }
-     |>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+     |>>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
    &&
    C_c
    \ar[dd]
+     |>>>>>>{
+       \mathclap{\phantom{\vert^{\vert}}}
+       p_c
+       \mathclap{\phantom{\vert_{\vert}}}
+     }
    \ar@{-->}[dr]|-{
      \vdash
      {
@@ -2437,6 +2447,11 @@ to the class of this pasting composite:
    && &
    \mathrm{KU}^{n}
    \ar[dd]
+     |-{
+       \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+       i^{\mathrm{KU}}
+       \mathclap{\phantom{\vert^{\vert}}}
+     }
    \ar[dr]
      |-{
        \;\mathrm{ch}\;
@@ -2462,6 +2477,11 @@ to the class of this pasting composite:
    &&
    (H^{\mathrm{ev}}\mathbb{Q})^{2n}
    \ar[dd]
+     |-{
+       \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+       i^{H^{\mathrm{ev}}\mathbb{Q}}
+       \mathclap{\phantom{\vert^{\vert}}}
+     }
    \\
    && &
    (\mathrm{KU}/\mathbb{S})^{n}
@@ -2624,10 +2644,121 @@ $\mathbb{Q}/\mathbb{Z}$. It just remains to see that this actually coincides wit
 ### Recovering Adams's construction
   {#DiagrammaticEInvariantRecoveringAdamsConstruction}
 
-Besides inspection of the defining homotopy-pasting diagram below, we just need the following technical lemma:
+\begin{remark}
+  \label{eCInvaiantViaCanonicalSplitting}
+
+Observe that both the classical Adams invariant 
+and diagrammatic construction from Def. \ref{LiftedEInvariantDiagrammatically} above 
+extract a rational number via a canonical splitting
+in both cases retracting onto rational cohomology 
+$\simeq \mathbb{Q}$ in degree $2(n+d)$ (Remark \ref{CanonicalSplittingOfCofiberOfPeriodicRationalCohomology}).
+
+For the classical Adams invariant this is the content of Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace}, which we may summarize more succinctly:
+
+\begin{xymatrix@R=8pt@C=14pt}
+    \widetilde {\mathrm{KU}}{}^{2n}
+    \big(
+      S^{2n}
+    \big)
+    \ar[rr]
+      |-{ \;\mathrm{spl}^{\mathrm{KU}} \circ i_r \; }
+      ^-{
+        \mbox{
+          \tiny
+          \color{green}
+          \bf
+          \begin{tabular}{c}
+            choose lift
+            \\
+            \phantom{a}
+          \end{tabular}
+        }
+      }
+    &&
+    \widetilde {\mathrm{KU}}{}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[rr]
+      |-{ \;\mathrm{ch}\; }
+      ^-{
+        \mbox{
+          \tiny
+          \color{green}
+          \bf
+          \begin{tabular}{c}
+            Chern character
+            \\
+            \phantom{a}
+          \end{tabular}
+        }
+      }
+    &&
+    \widetilde {H^{\mathrm{ev}}\mathbb{Q}}{}^{2n}
+    \big(
+      C_c
+    \big)
+    \ar[rr]
+      |-{  \;p_l \circ  \mathrm{spl}^{H^{\mathrm{ev}}\mathbb{Q}}_0\; }
+      ^-{
+        \mathclap{
+        \mbox{
+          \tiny
+          \color{green}
+          \bf
+          \begin{tabular}{c}
+            projection onto degree $2(n+d)$
+            \\
+            \phantom{A}
+          \end{tabular}
+        }
+        }
+      }
+    &&
+    \widetilde {
+      H\mathbb{Q}
+    }{}^{2(n+d)}(C_c)
+    \ar@{=}[r]
+    &
+    \mathbb{Q}
+    \\
+    \big[
+      G^{\mathrm{KU}}_{2n,\mathrm{unit}}
+    \big]
+    \ar@{|->}[rr]
+    &&
+    \big[
+      \vdash C^{\mathrm{KU}}_{2n-1}\!(c)
+    \big]
+    \ar@{|->}[rr]
+    &&
+    \mathrm{ch}
+    \big[
+      \vdash C^{\mathrm{KU}}_{2n-1}\!(c)
+    \big]
+    \ar@{|->}[rr]
+    &&
+    {\color{orange}
+      \widehat e_{\mathbb{C}}(c)
+    }
+    \cdot
+    \mathrm{ch}
+    \big[
+      \vdash H^{\mathrm{KU}}_{2n-1,\mathrm{unit}}
+    \big]
+    \ar@{|->}[r]
+    &
+    {\color{orange}
+      \widehat e_{\mathbb{C}}(c)
+    }
+\end{xymatrix}
+
+\end{remark}
+
+Therefore we check that these two canonical splittings are compatible:
 
 \begin{lemma}
-  \label{identifyingCofiberRationalCohomoloyOfCofiberSpace}
+  \label{CompatibilityOfTheTwoCanonicalSplittings}
   Given non-trivial 
   $\big[ S^{2(n+d)-1} \xrightarrow{\;c\;} S^{2n}\big] 
   \,\in \, \mathbb{S}_{2d-1}$
@@ -3734,85 +3865,48 @@ the remaining entry and the maps into it must be as claimed:
 \end{proof}
 
 
-\begin{proposition}
-  The refined $\widehat e_{\mathbb{C}}$-invariant from Def. \ref{LiftedEInvariantDiagrammatically}
+\begin{theorem}
+  \label{DiagrammaticeCInavriantReproducedClassicaleCInvariant}
+  The diagrammatic $\widehat e_{\mathrm{KU}}$-invariant 
+  from Def. \ref{LiftedEInvariantDiagrammatically}
+  reproduces the classical Adams $e_{\mathbb{C}}$-invariant.
+\end{theorem}
 
-\begin{xymatrix@=18pt}
-   S^{2(n + d)-1}
-   \ar[dd]_-{ c }
-   \ar[rr]
-   \ar@{}[ddrr]|-{
-     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
-     \mbox{\tiny (po)}
-   }
-   &&
-   \ast
-   \ar[dr]
-   \ar[dd]
-   \\
-   && &
-   \ast
-   \ar[dd]|-{
-     \mathclap{\phantom{\vert^{\vert}}}
-     0
-     \mathclap{\phantom{\vert_{\vert}}}
-   }
-   \\
-   S^{2n}
-   \ar[dd]
-   \ar[rr]
-   \ar@{}[ddrr]|-{
-     \rotatebox[origin=c]{-45}{$\big\Downarrow$}
-     \mbox{\tiny (po)}
-   }
-   \ar@/_.7pc/[drrr]
-     |<<<<<{ \;\Sigma^{2n} (1^{\mathrm{KU}})\;\; }
-     |>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
-   &&
-   C_c
-   \ar[dd]
-   \ar@{-->}[dr]^-{
-     \color{magenta} V_{2n}
-   }
-   &&
-   \\
-   && &
-   \mathrm{KU}^{2n}
-   \ar[dd]
-   \ar[dr]|-{
-     \;\mathrm{ch}\;
-   }
-   \\
-   \ast
-   \ar@/_.7pc/[drrr]|-{ \;0\; }
-   \ar[rr]
-   &&
-   S^{2(n+d)}
-   \ar@{-->}[dr]^-{
-   }
-   &&
-   (H^{\mathrm{ev}}\mathbb{Q})^{2n}
-   \ar[dd]
-   \\
-   && &
-   (\mathrm{KU}/\mathbb{S})^{2n}
-   \ar[dr]
-     |-{
-       \; \mathrm{ch}/\mathbb{S} \;
-     }
-   \\
-   && &&
-   \big(
-     (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
-   \big)^{2n}
-\end{xymatrix}
-
-reproduces the classical $e_{\mathbb{C}}$-invariant.
-\end{proposition}
 \begin{proof}
-By Lemma  \ref{DiagrammaticecInvariantTakesIntegerLattiveValues} the class of this diagram over $[c]$ is a rational number, well-defined modulo integers.
+  The homotopy-commuting rectangle in the 
+  bottom right part of the defining pasting diagram 
+  Def. \ref{LiftedEInvariantDiagrammatically}
+  says that
 
-By Lemma \ref{identifyingCofiberRationalCohomoloyOfCofiberSpace} with Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace}, this number is the Adams $e_{\mathbb{C}}$-invariant.
+  $$
+    p^\ast
+    \Big(
+      \widehat e_{\mathrm{KU}}(c)
+      ,
+      [c]
+    \Big)
+    \;=\;
+    i_\ast
+    \Big(
+      \mathrm{ch}
+      \big[
+        \vdash H^{\mathrm{KU}}_{2n-1}(c)
+      \big]
+    \Big)
+    \,.
+  $$
+
+  By Lemma \ref{CompatibilityOfTheTwoCanonicalSplittings}
+  this means that the image of both sides 
+  along their canonical retractions 
+  (Remark \ref{CanonicalSplittingOfCofiberOfPeriodicRationalCohomology})
+  onto degree=$2(n+d)$ rational cohomology $\simeq \mathbb{Q}$
+  coincide. But by Definition
+  \ref{LiftedEInvariantDiagrammatically} and
+  Remark \ref{eCInvaiantViaCanonicalSplitting},
+  this is the claimed equality 
+  (even at the level of refined invariants, i.e. before forgetting choices of trivializations of the d-invaariant, hence before quotienting by $\mathbb{Q}$).
+
 \end{proof}
 
 \linebreak
