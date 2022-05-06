@@ -56,6 +56,11 @@ Review:
 
 * [[Andre Lukas]], _Line Bundles in String Model Building_, talk at _[StringPhenomenology 2019](https://indico.cern.ch/event/782251/)_ ([indico:782251/contributions/3441850](https://indico.cern.ch/event/782251/contributions/3441850/), [pdf](https://indico.cern.ch/event/782251/contributions/3441850/attachments/1868056/3072624/Lukas.pdf), [[LukasHeteroticLineBundles.pdf:file]])
 
+Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
+
+* Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, JHEP 05 (2018) 045 ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
+
+
 
 [[!redirects heterotic line bundle]]
 
