@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -37,9 +38,17 @@ See at _[[elliptic curve]]_ and at _[[Möbius transformation]]_ for more.
 
 * [[elliptic function]]
 
+* [flat orbifold -- 2-sphere](Riemannian+orbifold#TwoSphereAsFlatOrbifold)
+
 ## References
 
 Named after [[Karl Weierstrass]].
+
+Lecture notes:
+
+* {#Mukase04} Motohico Mulase, Section 1.3 of: _Lectures on the combinatorial structure of the moduli spaces of Riemann surfaces_, 2004 ([[MulaseLecturesModuliRiemannSurfaces.pdf:file]])
+
+See also
 
 * Wikipedia, _[Weierstrass's elliptic functions](https://en.wikipedia.org/wiki/Weierstrass's_elliptic_functions)_
 
