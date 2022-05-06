@@ -130,7 +130,7 @@ Discussion in [[rational homotopy theory]] (for more see at _[[Sullivan model of
 
 * {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
-* {#FelixOpreaTanre16} [[Yves Félix]], John Oprea, Daniel Tanré, Prop. 2.3 in _Lie-model for Thom spaces of tangent bundles_, Proc. Amer. Math. Soc. 144 (2016), 1829-1840 ([pdf](http://www.ams.org/journals/proc/2016-144-04/S0002-9939-2015-12829-8/S0002-9939-2015-12829-8.pdf), [doi:10.1090/proc/12829](https://doi.org/10.1090/proc/12829))
+* {#FelixOpreaTanre16} [[Yves Félix]], John Oprea, [[Daniel Tanré]], Prop. 2.3 in _Lie-model for Thom spaces of tangent bundles_, Proc. Amer. Math. Soc. 144 (2016), 1829-1840 ([pdf](http://www.ams.org/journals/proc/2016-144-04/S0002-9939-2015-12829-8/S0002-9939-2015-12829-8.pdf), [doi:10.1090/proc/12829](https://doi.org/10.1090/proc/12829))
 
 
 [[!redirects spherical fibrations]]
