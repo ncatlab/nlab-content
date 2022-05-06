@@ -166,7 +166,10 @@ See also
 The [[partition function]]/[[elliptic genus]] of the SU(2)/U(1) gauged WZW model is considered in 
 
 * {#Henningson94} [[Måns Henningson]], _N=2 gauged WZW models and the elliptic genus_, Nucl.Phys. B413 (1994) 73-83 ([arXiv:hep-th/9307040](http://arxiv.org/abs/hep-th/9307040))
- 
+
+Emphasis of the special case of abelian gauging in Section 2 of
+
+* {#Forste04} [[Stefan Förste]],  _Deformations of WZW models_, Class. Quant. Grav. 21 (2004) S1517-1522 ([arXiv:hep-th/0312202](https://arxiv.org/abs/hep-th/0312202))
 
 [[!redirects gauged WZW models]]
 
