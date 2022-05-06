@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -109,7 +108,6 @@ See also the examples at _[[operad]]_.
  {#Leinster}
 
 
-[[!redirects multicategories]]
 [[!redirects multicategories]]
 
 [[!redirects pseudomonoidal category]]
