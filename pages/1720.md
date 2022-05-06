@@ -17,6 +17,8 @@
 
 In a [[model category]] fibrations enjoy [[pullback stability]] and cofibrations are stable under [[pushout]], but weak equivalences need not have either property. In a proper model category weak equivalences are also preserved under certain pullbacks and/or certain pushouts.
 
+Put differently, in a proper model category, [[homotopy pullbacks]] and/or pushouts can be computed with less need for [[fibrant replacement|fibrant and/or cofibrant replacement]].
+
 
 
 ## Definition ##
@@ -55,6 +57,9 @@ is a weak equivalence.
 
 =--
 
+\begin{remark}
+The above definition is the way it is usually phrased, but in fact it is equivalent to a seemingly weaker condition that is sometimes easier to check: for right properness it suffices to assume that weak equivalences are preserved by pullback along fibrations *between fibrant objects*.  That is, in the more explicit version above, we are free to assume that $B$ (hence also $C$) is fibrant; this then implies the more general version without this hypothesis.  See Proposition \ref{FibrationsBetweenFibrantObjectsSuffice} below.
+\end{remark}
 
 
 ## Examples 
@@ -197,7 +202,7 @@ Motice that the prop. \ref{GoodPullbacksAndPushouts} applies only (in the right 
 
 One might consider as an "in-between" assumption the situation when only the common codomain of the fibration and the weak equivalence (hence also the domain of the fibration) are fibrant; but it turns out that this apparently-weaker assumption is sufficient to imply full right properness.  This can be found, for instance, as Lemma 9.4 of Bousfield's *On the Telescopic Homotopy Theory of Spaces*.
 
-+-- {: .num_prop}
++-- {: .num_prop #FibrationsBetweenFibrantObjectsSuffice}
 ###### Proposition
 Suppose that in some model category, if $X\to Y$ is a fibration and $Z\to Y$ a weak equivalence, with $Y$ (hence also $X$) fibrant, then the pullback $X\times_Y Z \to X$ is a weak equivalence.  Then the model category is right proper, i.e. the same statement is true without the assumption that $Y$ is fibrant.
 =--
@@ -205,7 +210,7 @@ Suppose that in some model category, if $X\to Y$ is a fibration and $Z\to Y$ a w
 ###### Proof
 Suppose given $X\to Y\leftarrow Z$ where $X\to Y$ is a fibration and $Z\to Y$ a weak equivalence.  Choose a fibrant replacement $Y\to R Y$, and factor $X\to Y \to R Y$ as a weak equivalence $X\to R X$ followed by a fibration $R X \to R Y$.  The assumption now applies to the cospan $R X \to R Y \leftarrow Y$, so that the map $R X \times_{R Y} Y \to R X$ is a weak equivalence.  By 2-out-of-3, the induced map $X \to R X \times_{R Y} Y$ is also a weak equivalence.
 
-Now by Ken Brown's lemma, the pullback functor along $Z\to Y$ preserves weak equivalences between fibrations, and in particular preserves this weak equivalence $X \to R X \times_{R Y} Y$.  Thus, the induced map $X\times_Y Z \to R X \times_{R Y} Z$ is a weak equivalence.  However, $R X \times_{R Y} Z \to R X$ is a weak equivalence by the assumption, so by 2-out-of-3, the map $X\times_Y Z \to X$ is also a weak equivalence, as desired.
+Now by [[Ken Brown's lemma]], the pullback functor along $Z\to Y$ preserves weak equivalences between fibrations, and in particular preserves this weak equivalence $X \to R X \times_{R Y} Y$.  Thus, the induced map $X\times_Y Z \to R X \times_{R Y} Z$ is a weak equivalence.  However, $R X \times_{R Y} Z \to R X$ is a weak equivalence by the assumption, so by 2-out-of-3, the map $X\times_Y Z \to X$ is also a weak equivalence, as desired.
 =--
 
 
