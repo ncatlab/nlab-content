@@ -109,9 +109,9 @@ $$
     +
     c_2 \cdot V_2
     &\mapsto&
-    c_1 \cdot Tr_{V_1}\big( - \big)
+    c_1 \cdot w_{V_1}
     +
-    c_2 \cdot Tr_{V_2}\big( - \big)
+    c_2 \cdot w_{V_2}
   }
 $$
 
@@ -166,19 +166,16 @@ hence a [[weight system]] [[horizontal chord diagrams]] closed to [[Sullivan cho
   \right)
 \]
 
-
-{#M2M5BraneBoundStatesAsWeightSystemsGraphics} Here the first power of the square root reflects the [[volume]] measure on the [[fuzzy 2-sphere]] (by the formula [here](fuzzy+sphere#eq:FuzzyS2Integration)), while the power of $2\,deg$ (which is the number of operators in the [[multi-trace observable]] evaluating the [[weight system]]) gives the normalization ([here](fuzzy+sphere#eq:BasisFunctionsOnFuzzy2Sphere)) of the functions on the fuzzy 2-sphere.
-
 <center>
-<img src="https://ncatlab.org/nlab/files/M2M5BraneBoundStatesAsWeightSystems.jpg" width="800">
+<img src="https://ncatlab.org/nlab/files/M2M5BraneBoundStatesAsWeightSystemsII.jpg" width="800">
 </center>
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="370">
-</div>
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
-The normalization is such that  those [[multi-trace observables]] which come from [[round chord diagrams]] coincide on those [[M2-M5 brane bound states]] 
+{#M2M5BraneBoundStatesAsWeightSystemsGraphics} **Normalization and large $N$ limit.** The first power of the square root in (eq:M2M5BraneBoundStateInWeightSystems) reflects the [[volume]] measure on the [[fuzzy 2-sphere]] (by the formula [here](fuzzy+sphere#eq:FuzzyS2Integration)), while the power of $2\,deg$ (which is the number of operators in the [[multi-trace observable]] evaluating the [[weight system]]) gives the normalization ([here](fuzzy+sphere#eq:BasisFunctionsOnFuzzy2Sphere)) of the functions on the fuzzy 2-sphere.
+
+Hence this normalization is such that the [[single-trace observables]] among the [[multi-trace observables]], hence those which come from [[round chord diagrams]], coincide on those [[M2-M5 brane bound states]] 
 $
   \Psi_{
     \left\{
@@ -187,12 +184,18 @@ $
   }
 $
 for which $N^{(M2)}_i = \delta_i^{i_0} N^{(M2)}$,
-hence those which have a single constitutent [[fuzzy 2-sphere]],  with the shape observables on single fuzzy 2-spheres discussed  [here](fuzzy+sphere#ShapeObservablesAsVassilievInvariants), as shown on the right.
+hence those which have a single constitutent [[fuzzy 2-sphere]],  with the shape observables on single fuzzy 2-spheres discussed  [here](fuzzy+sphere#ShapeObservablesAsVassilievInvariants):
 
-Therefore, with this normalization, the [[limit of a sequence|limits]] $N^{(M2)} \to \infty$ and $N^{(M5)} \to \infty$ should exist in [[weight systems]]. The former trivially so, the latter by the usual convergence ofthe [[fuzzy 2-sphere]] to the [[round sphere|round]] [[2-sphere]] in the [[large N limit]].
+<center>
+<img src="https://ncatlab.org/nlab/files/SingleTraceObservableOnBMNModel.jpg" width="740">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+
+Therefore, with this normalization, the [[limit of a sequence|limits]] $N^{(M2)} \to \infty$ and $N^{(M5)} \to \infty$ of (eq:M2M5BraneBoundStateInWeightSystems) should exist in [[weight systems]]. The former trivially so, the latter by the usual convergence ofthe [[fuzzy 2-sphere]] to the [[round sphere|round]] [[2-sphere]] in the [[large N limit]].
 
 Notice that the [[multi trace observables]] on these states only see the relative [[radii]] of the constitutent [[fuzzy 2-spheres]]: If $N^{(M2)}_i = \delta_i^{i_0} N^{(M2)}$ then the $N^{(M2)}$-dependence of (eq:M2M5BraneBoundStateInWeightSystems) cancels out, reflecting the fact that then there is only a single constituent 2-sphere of which the observable sees only the radius fluctuations, not the absolute radius (proportional to $N^{(M2)}$).
 
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
