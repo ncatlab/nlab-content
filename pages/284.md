@@ -343,7 +343,9 @@ A useful comparison of the four [[model category]] structures on
 
 is in 
 
-* [[Julie Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239))
+* [[Julie Bergner]], _A survey of $(\infty,1)$-categories_,  In: [[John Baez]], [[Peter May]] (eds.),  _[[Towards Higher Categories]]_, The IMA Volumes in Mathematics and its Applications, vol 152, Springer 2007 ([arXiv:math/0610239](http://arxiv.org/abs/math/0610239), [doi:10.1007/978-1-4419-1524-5_2](https://doi.org/10.1007/978-1-4419-1524-5_2))
+
+* [[Julia Bergner]], _Equivalence of models for equivariant $(\infty,1)$-categories_, Glasgow Mathematical Journal, Volume 59, Issue 1 (2016) ([arXiv:1408.0038](https://arxiv.org/abs/1408.0038), [doi:10.1017/S0017089516000136](https://doi.org/10.1017/S0017089516000136))
 
 More discussion of the other two models can be found at
 
@@ -355,7 +357,7 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 
 * [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
 
-* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
+* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_, Algebraic & Geometric Topology 11 (2011) 263–325 ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263))
 
 The presentation of $(\infty,1)$-categories by [[homotopical categories]] and [[model categories]] is discussed in
 
