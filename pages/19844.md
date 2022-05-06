@@ -160,6 +160,8 @@ Emphasis of [[non-perturbative effects]]:
 
 * {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, talk at [Planck 2018](https://indico.desy.de/indico/event/18498/), Bonn 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
 
+* Saeed Kamali, _New physics in inclusive semileptonic $B$ decays including nonperturbative corrections_ ([arXiv:1811.07393](https://arxiv.org/abs/1811.07393))
+
 Emphasis of higher [[loop order]]-effects:
 
 * {#CGMS18} [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Importance of Loop Effects in Explaining the Accumulated Evidence for New Physics in B Decays with a Vector Leptoquark_, Phys. Rev. Lett. 122, 011805 (2019) ([arXiv:1807.02068](https://arxiv.org/abs/1807.02068))
