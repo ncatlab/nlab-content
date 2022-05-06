@@ -25,3 +25,6 @@ General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
 
 [[!redirects AdS2/CFT1]]
 [[!redirects AdS2-CFT1]]
+
+[[!redirects AdS2-CFT1 duality]]
+[[!redirects AdS2/CFT1 duality]]
