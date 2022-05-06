@@ -1,5 +1,9 @@
 **[[monoidal categories]]**
 
+* [[tensor category]]
+
+* [[string diagram]], [[tensor network]]
+
 ## With symmetry
 
 * [[braided monoidal category]]
