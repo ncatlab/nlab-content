@@ -26,6 +26,8 @@ Together with the [[omega-meson]] the sigma is responsible for most of the long-
 
 ## References
 
+### General
+
 Original articles:
 
 * [[Murray Gell-Mann]], M. Lévy, _The axial vector current in beta decay_, Il Nuovo Cimento (1955-1965) volume 16, pages 705–726 (1960) ([doi:10.1007/BF02859738](https://doi.org/10.1007/BF02859738))
@@ -54,7 +56,7 @@ Inclusion of the [[sigma-meson]] into the [[Skyrme model]] for [[baryons]]:
 
 * Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
 
-
+### In holographic QCD
 
 
 Discussion in [[holographic QCD]]:
