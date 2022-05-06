@@ -30,11 +30,16 @@ The original account is:
 
 See also:
 
+
+* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl. Phys. B400:181-210, 1993 ([arxiv:hep-th/9301068](https://arxiv.org/abs/hep-th/9301068))
+
 * [[Michael Douglas]], Keke Li, Matthias Staudacher, _Generalized Two-Dimensional QCD_ ([arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062))
 
-* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl.Phys.B400:181-210, 1993
 
-### On intersecting D-brane models
+* [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ ([arxiv:1405.6727](https://arxiv.org/abs/1405.6727))
+
+
+### On intersecting D-branes
 
 [[geometric engineering of QFT|geometric engineering]] of 2d QCD in [[intersecting D-brane models]] ([[AdS/QCD]]):
 
@@ -58,7 +63,13 @@ and its relation to [[baryons]]:
 
 [[bottom-up and top-down model building|bottom up model building]]
 
-* Emanuel Katz, Takemichi Okui, _The 't Hooft Model As A Hologram_, JHEP 0901:013, 2009 ([arXiv:0710.3402](https://arxiv.org/abs/0710.3402))
+* [[Emanuel Katz]], Takemichi Okui, _The 't Hooft Model As A Hologram_, JHEP 0901:013, 2009 ([arXiv:0710.3402](https://arxiv.org/abs/0710.3402))
+
+in terms of [[worldline formalism]]:
+
+* Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_, 
+ Nuclear Physics B, Volume 852, Issue 1, 1 November 2011, Pages 61-70 ([arxiv:1102.5318](https://arxiv.org/abs/1102.5318))
+
 
 [[!redirects 2d QCD]]
 
