@@ -637,6 +637,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], *Totally Distributive Toposes*, arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
+* {#MM19}[[Francisco Marmolejo|F. Marmolejo]], [[Matías Menni|M. Menni]], *Level $\epsilon$* , arXiv:1909.12757 (2019). ([abstract](https://arxiv.org/abs/1909.12757))
+
 * {#Menni09} [[Matías Menni|M. Menni]], *Algebraic Categories whose Projectives are Explicitly Free*, TAC **22** no.29 (2009) pp.509-541. ([pdf](http://www.tac.mta.ca/tac/volumes/22/20/22-20.pdf))
 
 * {#Menni12} [[Matías Menni|M. Menni]], *Bimonadicity and the Explicit Base Property*, TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
