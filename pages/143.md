@@ -123,7 +123,7 @@ $$
   i_{\{U_i\}} :  S(\{U_i\}) \to j(U)
 $$
 
-that is induced by the [[universal property]] of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_j) \times_{j(U)} j(U_k) \to J(U)$.
+that is induced by the [[universal property]] of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_j) \times_{j(U)} j(U_k) \to j(U)$.
 
 =--
 
