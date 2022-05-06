@@ -62,6 +62,8 @@ which is a statement of the physical phenomenon of _charge conservation_ .
 
 * [[flux]]
 
+* [[dyon]]
+
 * [[Hodge-Maxwell theorem]]
 
 * [[higher electric background charge coupling]]
