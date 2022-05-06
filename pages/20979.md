@@ -1,7 +1,6 @@
 
 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -314,6 +313,8 @@ To see this, use 1) [AF 96, Theorem 5, Condition U2](#AF96) to find that the map
 
 
 * {#AF96} Daniel Altschuler, Laurent Freidel, Theorem 5 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
+
+* [[Le Tu Quoc Thang]], [[Jun Murakami]], Tomotada Ohtsuki, _On a universal perturbative invariant of 3-manifolds_, Topology Volume 37, Issue 3, May 1998, Pages 539-574 (<a href="https://doi.org/10.1016/S0040-9383(97)00035-9">https://doi.org/10.1016/S0040-9383(97)00035-9</a>)
 
 Review:
 
