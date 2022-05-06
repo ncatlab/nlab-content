@@ -100,23 +100,44 @@ Relation to [[black holes in string theory]] and [[random matrix theory]]:
 
 * Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
 
-Discussion of [[chord diagrams]] encoding [[SYK model]] [[correlators]] as representing [[hyperbolic space|hyperbolic]]/[[AdS-CFT|holographic content]]:
+
+### In terms of weight systems on chord diagrams
+ {#ReferencesViaWeightSystems}
+
+Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on [[chord diagrams]] encoding [[SYK model]] [[correlators]]:
+
+(for more see at [[weight systems on chord diagrams in physics]])
+
+* Antonio M. García-García, Yiyang Jia, Jacobus J. M. Verbaarschot, _Exact moments of the Sachdev-Ye-Kitaev model up to order $1/N^2$_, JHEP 04 (2018) 146 ([arXiv:1801.02696](https://arxiv.org/abs/1801.02696))
+
+* [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
+
+
+following:
+
+* László Erdős, Dominik Schröder, _Phase Transition in the Density of States of Quantum Spin Glasses_, D. Math Phys Anal Geom (2014) 17: 9164 ([arXiv:1407.1552](https://arxiv.org/abs/1407.1552))
+
+which in turn follows
+
+* Philippe Flajolet, Marc Noy, _Analytic Combinatorics of Chord Diagrams_, pages 191–201 in Daniel Krob, Alexander A. Mikhalev,and Alexander V. Mikhalev, (eds.), _Formal Power Series and Algebraic Combinatorics_, Springer 2000 ([doi:10.1007/978-3-662-04166-6_17](https://doi.org/10.1007/978-3-662-04166-6_17))
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/ChordDiagramHolographic.jpg" width="400">
 </div>
 
+With emphasis on [[AdS-CFT|holographic content]]:
+
 * [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
 
 * Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
 
-following:
+and specifically in relation to [[Jackiw-Teitelboim gravity]]: 
 
+* [[Andreas Blommaert]], [[Thomas Mertens]], [[Henri Verschelde]], _The Schwarzian Theory - A Wilson Line Perspective_, JHEP 1812 (2018) 022 ([arXiv:1806.07765](https://arxiv.org/abs/1806.07765))
 
-* [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
+* [[Andreas Blommaert]], [[Thomas Mertens]], [[Henri Verschelde]], _Fine Structure of Jackiw-Teitelboim Quantum Gravity_, JHEP 1909 (2019) 066 ([arXiv:1812.00918](https://arxiv.org/abs/1812.00918))
 
-* Antonio M. García-García, Yiyang Jia, Jacobus J. M. Verbaarschot, _Exact moments of the Sachdev-Ye-Kitaev model up to order $1/N^2$_, JHEP 04 (2018) 146 ([arXiv:1801.02696](https://arxiv.org/abs/1801.02696))
-
-
+[[!redirects Sachdev-Ye-Kitaev model]]
 
 [[!redirects SYK model]]
+[[!redirects SYK models]]
