@@ -21,6 +21,16 @@
 * table of contents
 {:toc}
 
+## Idea
+A reflective subcategory is a full subcategory 
+
+$$C \hookrightarrow D$$
+
+such that objects $d$ and morphisms $f \colon d \to d'$ in $D$ have reflections $Td$ and $Tf \colon Td \to Td'$ in $C$. Every object in $D$ looks at its own reflection via a morphism $d \to Td$ and the reflection of an object $c \in C$ is equipped with an isomorphism $Tc \cong c$. A canonical example is the inclusion 
+
+$$\mathrm{Ab} \hookrightarrow \mathrm{Grp}$$
+
+of the [category of abelian groups](https://ncatlab.org/nlab/show/Ab) into the [category of groups](https://ncatlab.org/nlab/show/Grp). A useful property of reflective subcategories is that the inclusion $C \hookrightarrow D$ [creates all limits](https://ncatlab.org/nlab/show/created+limit) of $D$ and $C$ has all colimits which $D$ admits.
 
 ## Definition
 
@@ -202,7 +212,7 @@ From ([Adamek-Rosick&#253;](#AdamekRosicky)) the "only if"-direction follows imm
 
 ### General
 
-A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector.
+A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.5.15](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
@@ -335,6 +345,23 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 =--
 
++-- {: .num_example #CategoryOfCategories}
+###### Example
+
+The subcategory
+$$ \mathsf{Cat} \hookrightarrow \mathsf{sSet}$$
+of the [category of categories](https://ncatlab.org/nlab/show/Cat) into the [category of simplical sets](https://ncatlab.org/nlab/show/SimpSet) is a reflective subcategory [Riehl, example 4.5.14 (vi)](#Riehl). The reflection is given by the [homotopy category functor](https://ncatlab.org/nlab/show/homotopy+category). This implies that $\mathsf{Cat}$ is complete and complete because it inherits all limits and colimits from $\mathsf{sSet}$.
+=--
+
++-- {: .num_example #ModelsOfALawvereTheory}
+###### Example
+
+For any [Lawvere theory](https://ncatlab.org/nlab/show/Lawvere+theory) $T$, its category of models is the category
+$$\mathrm{Prod}(T, \mathsf{Set}) $$
+of product preserving functors into $\mathsf{Set}$ and natural transformations between them. The inclusion 
+$$\mathrm{Prod}(T, \mathsf{Set}) \hookrightarrow [T, \mathsf{Set}]$$
+is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,\mathsf{Set}]$ is complete and cocomplete (limits and colimits are computed pointwise), so is $\mathrm{Prod}(T, \mathsf{Set})$. This implies that many familar algebraic categories such as [$\mathsf{Grp}$](https://ncatlab.org/nlab/show/Grp), [$\mathsf{Mon}$](https://ncatlab.org/nlab/show/category+of+monoids), [$\mathsf{Ring}$](https://ncatlab.org/nlab/show/Ring), etc. are complete and cocomplete as a special case.
+=--
 
 ## Related concepts
 
@@ -356,7 +383,6 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
- 
 
 * {#AdamekRosicky} [[Jiri Adamek|Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
  
@@ -365,6 +391,10 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 
 * cf. the notion of $Q^\circ$-category in the entry [[Q-category]]
+
+* {#Riehl} [[Emily Riehl]], _[[Category Theory in Context]], p. 142, Courier Dover Publications 2017 ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
+
+* {#Buckley} Mitchell Buckley, _Lawvere Theories, 2008 [pdf](http://web.science.mq.edu.au/~street/MitchB.pdf)
 
 The relation of exponential ideals to [[reflective subcategories]] is discussed in section A4.3.1 of 
 
