@@ -88,6 +88,8 @@ $$
 
 ## References
 
+### For ordinary cohomology
+
 Review of the theorem for [[ordinary cohomology]]:
 
 
@@ -95,6 +97,10 @@ Review of the theorem for [[ordinary cohomology]]:
 
 * {#Ebert12} [[Johannes Ebert]], section 2.3 of _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf)) 
 
+### For generalized cohomology
+
 Discussion for [[Whitehead-generalized cohomology|Whitehead-generalized]] [[multiplicative cohomology theories]]:
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 7.4 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.1 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
