@@ -21,6 +21,20 @@ The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler chara
 
 ## Properties
 
+### Whitney sum formula
+ {#WhitneySumFormula}
+
+The Euler class of the [[Whitney sum]] of two [[orthogonal group|oriented]] [[real vector bundles]] to the [[cup product]] of the separate Euler classes:
+
+$$
+  \chi( E \oplus F )
+  \;=\;
+  \chi(E)  \smile \chi(F)
+  \,.
+$$
+
+### Poincaré–Hopf theorem
+
 * [[Poincaré–Hopf theorem]]
 
 ...
