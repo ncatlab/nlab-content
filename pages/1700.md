@@ -483,7 +483,9 @@ See also
 
 * Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. 
 
-* {#Grothendieck75} [[Alexander Grothendieck]], letter to [[Larry Breen]] 12/2/1975 ([web](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/breen1.html))
+* {#Grothendieck75} [[Alexander Grothendieck]], letter to [[Larry Breen]] 17/2/1975 [pdf](https://agrothendieck.github.io/divers/LGB17275en.pdf), [scan](https://agrothendieck.github.io/divers/LGB17275scanen.pdf)
+
+* [[Alexander Grothendieck]], La Longue Marche a Travers la Théorie de Galois [pdf](https://agrothendieck.github.io/galoispoincaregrothendieck/galois.pdf)
 
 category:Galois theory
 [[!redirects Galois theories]]
