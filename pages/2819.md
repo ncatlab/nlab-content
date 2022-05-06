@@ -68,10 +68,17 @@ A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. 
 
 =--
 
+## Properties
 
-## Appearance in a model structure
+### Appearance in a model structure
 
 There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibrations]] and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
+
+There is also a model category whose fibrations are the Hurewicz fibrations and whose weak equivalences are the [[weak homotopy equivalences]], obtained by [[mixed model structure|mixing]] the above model structure with the [[classical model structure on topological spaces]].
+
+### Relation to Serre fibrations
+
+Every Hurewicz fibration is a [[Serre fibration]].  Conversely, [[a Serre fibration between CW-complexes is a Hurewicz fibration]].
 
 ## Abstract Hurewicz fibrations
  {#Abstractly}
