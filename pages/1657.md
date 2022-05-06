@@ -56,9 +56,8 @@ A __measure space__ is a [[measurable space]] equipped with a measure.  There ar
 
 Let $(X, \Sigma)$ be a measurable space.  A __[[probability measure]]__ on $X$ (due to [[Andrey Kolmogorov]]) is a [[function]] $\mu$ from the collection $\Sigma$ of measurable sets to the [[unit interval]] $[0,1]$ such that:
 
-1.  The measure of the [[empty set]] is [[zero]]:  $\mu(\emptyset) = 0$;
-2.  The measure of the entire space is [[one]]:  $\mu(X) = 1$;
-3.  Countable additivity:  $\mu(\bigcup_{i = 1}^{\infty} S_i) = \sum_{i=1}^{\infty} \mu(S_i)$ whenever the $S_i$ are mutually [[disjoint sets|disjoint]].
+1.  The measure of the entire space is [[one]]:  $\mu(X) = 1$;
+2.  Countable additivity:  $\mu(\bigcup_{i = 1}^{\infty} S_i) = \sum_{i=1}^{\infty} \mu(S_i)$ whenever the $S_i$ are mutually [[disjoint sets|disjoint]].
 
 (Part of the latter condition is the requirement that the sum on the right-hand side must converge.)
 
@@ -66,29 +65,30 @@ It is sometimes stated (but in fact follows from the above) that:
 
 *  Finitary additivity:  $\mu(S \cup T) = \mu(S) + \mu(T)$ whenever $S$ and $T$ are disjoint.
 *  $\mu$ is increasing:  $\mu(A) \leq \mu(B)$ if $A \subseteq B$.
+*  The measure of the [[empty set]] is [[zero]]:  $\mu(\emptyset) = 0$;
 
 The first of these conditions will follow for all of the generalised notions of measure below, but the second usually will not. Related query discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2829&Focus=28141#Comment_28141).
 
 
 ### Generalizations
 
-From now on, we drop (2); the next step is to generalize the [[target]] of $\mu$, as follows:
+From now on, we drop the condition $\mu(X)=1$; the next step is to generalize the [[target]] of $\mu$, as follows:
 
-*  Use $[0,\infty]$ (instead of $[0,1]$) for a __positive measure__.
+*  Use $[0,\infty)$ (instead of $[0,1]$) for a (finite) __positive measure__.
 *  Use $\mathbf{R} = {]{-\infty,\infty}[}$ for a (finite) __signed measure__ (alias __charge__).
-*  Use $\mathbf{C}$ for a __complex-valued measure__.
+*  Use $\mathbf{C}$ for a (finite) __complex-valued measure__.
 *  Use an arbitrary [[topological vector space]] $V$ for a __vector-valued measure__.
 *  In principle, one could go further yet; $V$ just needs an analogue of addition with a notion of infinitary sum (such as a [[topological abelian group]] has).  But until someone suggests a useful example, we will leave this to the [[centipede mathematics|centipedes]].
 
-We define a __nonfinite measure__ by replacing the domain of $\mu$ by
+We define an __infinite measure__ by replacing the domain of $\mu$ by
 an ideal $\Sigma'$ of $\Sigma$ such that the following
 saturation condition is satisfied: if $\{S_i\}_{i\in I}$ is a disjoint
 family of elements of $\Sigma'$ and $\sum_{i\in I}|\mu|(S_i)$ exists (and is finite),
 then $\bigcup_{i\in I}S_i\in\Sigma'$.
-With such a modification, the codomain of $\mu$ should no longer have $\infty$ or $-\infty$ in it and the countable additivity condition should now be modified to require
+The countable additivity condition should now be modified to require
 $\bigcup_{i\in I}S_i\in\Sigma'$.
 
-A nonfinite measure $\mu$ is __semifinite__ if for any $S\in\Sigma\setminus\Sigma'$
+An infinite measure $\mu$ is __semifinite__ if for any $S\in\Sigma\setminus\Sigma'$
 there is $T\in\Sigma'$ such that $T\subset S$ and $\mu(T)\gt0$.
 The [[Radon-Nikodym theorem]] shows that semifinite complex-valued
 measures that are absolutely continuous with respect to some fixed
@@ -104,7 +104,7 @@ Some further terms:
 Remarks:
 
 *  The property that $\mu$ is increasing holds for all positive measures but may fail for others.
-*  A positive measure that satisfies (2) must be a probability measure as defined earlier; that is, it satisfies $\mu(S) \leq 1$ for all $S$.
+*  A positive measure $\mu$ that satisfies $\mu(X)=1$ must be a probability measure as defined earlier; that is, it satisfies $\mu(S) \leq 1$ for all $S$.
 *  When $\infty$ is allowed as a value of $\mu$, then the requirement in (3) that the sum converges should be interpreted in this light; that is, the sum may diverge to infinity.  (For a positive measure, therefore, the convergence criterion is vacuous in [[classical mathematics]].)
 *  Notice that $-\infty$ is not allowed as a value for a signed measure.  It would work just as well to allow $-\infty$ and forbid $\infty$.  It is even possible to allow both, but this is a little trickier (because of $-\infty + \infty$), so we deal with it later (at the end of this subsection).
 
@@ -113,6 +113,13 @@ Another possibility is to generalize the [[source]] of $\mu$; instead of using a
 Yet another possibility is to drop countable additivity, replacing it with finite additivity.  The result is a __finitely additive measure__, sometimes called a __charge__ to avoid the [[red herring principle]]; in contrast, the usual sort of measure may be called __countably additive__.  For a charge, one could replace $\Sigma$ with an algebra (or even a ring) of sets; again see [[measurable space]] for these definitions.
 
 Finally, an __extended measure__ takes values in the set $[-\infty,\infty]$ of [[extended real numbers]].  Here we have the problem that, even when considering finite additivity, we might have to add $\infty$ and $-\infty$.  While we might simply require that this never happens (so that at least one of $\mu(S)$ and $\mu(T)$ must be finite if they have opposite signs and $S \cap T = \empty$), this does not include some examples that we want (and in fact it would follow that $\infty$ and $-\infty$ cannot both be values of $\mu$ after all).  To deal with this, we define an extended measure to be a formal difference $\mu^+ - \mu^-$ of positive measures; $\mu(S) = \mu^+(S) - \mu^-(S)$ whenever this is not of the form $\infty - \infty$ and is otherwise undefined.  Note that the set of extended measures on $X$ is a [[quotient set]] of the set of pairs of positive measures; we say that $\mu = \nu$ if $\mu(S) = \nu(S)$ whenever either side is defined, that is if $\mu$ and $\nu$ are the same as [[partial functions]] from $\Sigma$ to $[-\infty,\infty]$.
+
+Any extended measure restricts to an infinite signed measure, taking $\Sigma'\subset\Sigma$
+to be the set of elements of $\Sigma$ with a finite measure.
+Vice versa, an infinite signed measure $\mu$
+canonically extends to an extended measure:
+we can define $\mu_+$ and $\mu_-$ as usual and then take
+the formal difference $\mu_+-\mu_-$.
 
 
 ### Constructive theory
