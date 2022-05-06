@@ -38,7 +38,7 @@ If in addition, one assumes that the coordinate function $X^+$ on spacetime is p
   \,.
 \]
 
-The [[quanatization]] of a [[sigma model]] in this situation is hence called the _discrete light cone quantization_ or _DLCQ_, for short.
+The [[quantization]] of a [[sigma model]] in this situation is hence called the _discrete light cone quantization_ or _DLCQ_, for short.
 
 Often it turns out that [[negative number|negative]] values of $N$ in (eq:LightConeMomentumQuantization) can be neglected or integrated out, so that 
 
@@ -64,6 +64,10 @@ Specifically, applying light-cone gauge quantization to the [[Green-Schwarz sigm
 Alternatively, applying the light cone gauge quantization of the [[Green-Schwarz sigma-model]] of the [[M2-brane]] not on [[Minkowski spacetime]] but, more generally, on 11d [[pp-wave spacetimes]] (which are [[Penrose limits]] of the [[near horizon geometry]] of the [[black brane|black]] [[M2-branes]]/[[M5-branes]]) yields the [[BMN matrix model]].
 
 
+## Related concepts
+
+* [[large N limit]]
+
 ## References
 
 ### General
@@ -73,13 +77,11 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 5.2.1 of: _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
 
 
-### M2-brane on Minkowski spacetime and BFSS matrix model
 
-(...)
+[[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
-### M2-brane on pp-wave background and BMN matrix model
 
-(...)
+
 
 
 [[!redirects light cone gauge quantization]]
@@ -95,6 +97,11 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 [[!redirects discrete light-cone quantizations]]
 [[!redirects discrete lightcone quantizations]]
 
-[[!rediretcs DLCQ]]
+[[!redirects DLCQ]]
 
-
+[[!redirects light cone longitudal]]
+[[!redirects light cone transversal]]
+[[!redirects light-cone longitudal]]
+[[!redirects light-cone transversal]]
+[[!redirects lightcone longitudal]]
+[[!redirects lightcone transversal]]
