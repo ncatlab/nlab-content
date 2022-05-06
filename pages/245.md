@@ -181,6 +181,11 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 
 ## References
 
+Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
+
+* _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
+
+
 The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]]. The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
 
 * {#JoyalStreet86} [[André Joyal]] and [[Ross Street]], [Braided monoidal categories](http://maths.mq.edu.au/~street/JS1.pdf), _Macquarie Math Reports_ **860081** (1986). 
