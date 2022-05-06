@@ -840,6 +840,11 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 * S. S. Afonin, A. D. Katanaeva, E. V. Prokhvatilov, M. I. Vyazovsky, _Deconfinement temperature in AdS/QCD from the spectrum of scalar glueballs_ ([arXiv:2001.07990](https://arxiv.org/abs/2001.07990))
 
 
+
+[[!include holographic Schwinger effect -- references]]
+
+
+
 ### Application to vector meson dominance
 
 Derivation of [[vector meson dominance]] via [[holographic QCD]]:
