@@ -80,7 +80,7 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 * {#GHKKLV15} Abhijit Gadde, Babak Haghighat, Joonho Kim, Seok Kim, Guglielmo Lockhart, [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
-On the [[Green-Schwarz anomaly cancellation]]:
+On the [[Green-Schwarz anomaly cancellation]] in [[D=6 N=(1,0) SCFT]]:
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], _Anomaly polynomial of E-string theories_, J. High Energ. Phys. 2014, 2 (2014) ([arXiv:1404.3887](https://arxiv.org/abs/1404.3887))
 
