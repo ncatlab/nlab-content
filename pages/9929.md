@@ -858,6 +858,8 @@ is a [[Thom class]].
 
 ## References
 
+### General
+
 Textbook accounts include
 
 * [[Frank Adams]], part II, section 2 of: _[[Stable homotopy and generalised homology]]_, 1974
@@ -901,6 +903,20 @@ Refinement to [[equivariant complex oriented cohomology theory]]:
 * [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
 
 * [[Michael Cole]], [[John Greenlees]], [[Igor Kriz]], _The universality of equivariant complex bordism_, Math Z 239, 455–475 (2002) ([doi:10.1007/s002090100315](https://doi.org/10.1007/s002090100315))
+
+### Finite stage orientation
+
+On complex orientation at finite stage and Ravenel's $T(m)$ spectra:
+
+* [[Doug Ravenel]], section 6.5 of: _[[Complex cobordism and stable homotopy groups of spheres]]_
+
+* [[Doug Ravenel]], _The first Adams-Novikov differential for the spectrum $T(m)$_, 2000 ([pdf](https://web.math.rochester.edu/people/faculty/doug/mypapers/first.pdf), [[RavenelAdamsNovikovForTm.pdf:file]])
+
+* Ippei Ichigi, Katsumi Shimomura, _The Modulo Two Homotopy Groups of the $L_2$-Localization of the Ravenel Spectrum_, CUBO A Mathematical Journal
+Vol.10, No 03, (43–55). October 2008 ([cubo:1498](http://revistas.ufro.cl/ojs/index.php/cubo/article/view/1498))
+
+* Xiangjun Wang, Zihong Yuan, _The homotopy groups of $L_2 T(m)/\big(p^{[\tfrac{m}{2}]+2}, v_1 \big)$ for $m \gt 1$_, New York J. Math.24 (2018) 1123–1146 ([pdf](https://nyjm.albany.edu/j/2018/24-55v.pdf))
+
 
 
 [[!redirects complex oriented cohomology theories]]
