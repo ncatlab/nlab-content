@@ -21,6 +21,7 @@ We list archives of **online** books and videos, not the catalogues of physical 
 
 ### Math and physics only (or mainly)
 
+* [mathseminars.org](https://mathseminars.org)
 * [arXiv](http://arxiv.org) archive of free preprints (math, physics, computational linguistics)
 
    * [front](http://front.math.ucdavis.edu) alternative user interface for arXiv
