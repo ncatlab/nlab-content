@@ -399,7 +399,7 @@ The proposal of [Perry-Schwarz 96, Sec. 2](#PerrySchwarz96) is to take this as t
 
 #### Lagrangian density
 
-Therefore one islooking now for a [[Lagrangian density]] whose [[Euler-Lagrange equations]] are (eq:TheEquationOfMotion):
+Therefore one is looking now for a [[Lagrangian density]] whose [[Euler-Lagrange equations]] are (eq:TheEquationOfMotion):
 
 The _Perry-Schwarz-Lagrangian_ is ([PS 96 (17)](#PerrySchwarz96))
 
@@ -650,6 +650,12 @@ The Perry-Schwarz action is due to
 A similar construction but with compactification along the [[timelike]] direction is due to
 
 * {#HenneauxTeitelboim88} [[Marc Henneaux]], [[Claudio Teitelboim]], _Dynamics of chiral (self-dual) $p$-forms_, Physics Letters B Volume 206, Issue 4, 2 June 1988, Pages 650-654 (<a href="https://doi.org/10.1016/0370-2693(88)90712-5">doi:10.1016/0370-2693(88)90712-5</a>)
+
+The [[double dimensional reduction]] to the [[Green-Schwarz sigma-model]] of the [[D4-brane]]:
+
+* [APPS 97, Section 6](#APPS97)
+
+* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
 
 The covariant version via a [[scalar field|scalar]] [[auxiliary field]] is due to 
