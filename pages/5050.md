@@ -93,7 +93,10 @@ On [[cobordism theory]] of [[manifolds with corners]], their [[f-invariant]] and
 * Gerd Laures, _On cobordism of manifolds with corners_, Trans. Amer. Math. Soc. 352 (2000) ([doi:10.1090/S0002-9947-00-02676-3](https://doi.org/10.1090/S0002-9947-00-02676-3))
 
 
+
 [[!redirects manifolds with boundary]]
+[[!redirects manifolds with boundaries]]
+
 
 [[!redirects manifold with corners]]
 [[!redirects manifolds with corners]]
