@@ -32,7 +32,7 @@ The sets in this class can be effectively enumerated by von Neumann ordinals.
 
 
 ## As inner model
-In fact, $L$ is a model of the set theory (consider ZF), namely the smallest transitive containing all the ordinals. Indeed, we can well-order all sets and the axiom of choice holds for $L$ as a model. And even the generalized continuum hypothesis holds for $L$ as a model. 
+In fact, $L$ is a model of the set theory (consider ZF), namely the smallest transitive class containing all the ordinals. Indeed, we can well-order all sets and the axiom of choice holds for $L$ as a model. And even the generalized continuum hypothesis holds for $L$ as a model. 
 Note that properties of sets in the set theory might not hold as seen from within the inner model.
 
 
