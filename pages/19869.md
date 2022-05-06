@@ -112,6 +112,31 @@ Each type former ($\Pi$-types, $\Sigma$-types, etc.) has a collection of rules g
 
 [[!include Initiality Project - Type Theory - Pi-types]]
 
+## Valid Contexts and Telescopes
+
+A (raw) **telescope** $\Delta $ is a (raw) context. A **valid telescope** $\Gamma \vdash \Delta ok$ is defined by another inductively-defined judgment form:
+
+$$\frac{}{\Gamma \vdash \cdot ok}$$
+$$\,$$
+$$\frac{\Gamma \vdash \Delta ok \qquad
+        \Gamma,\Delta \vdash A type \qquad
+        x \notin \Gamma,\Delta}
+    {\Gamma \vdash \Delta,x:A ok}$$
+
+Intuitively, a telescope is an open context. So a **valid context** can now be formalized as the closed special case of a valid telescope, with the single-rule judgment form:
+
+$$\frac{\cdot \vdash \Gamma ok}{\Gamma ok}$$
+
+A valid telescope can also be understood as a valid multi-step context extension. So we have the theorem:
+
+($\Gamma ok$ and $\Gamma \vdash \Delta ok$) if and only if $\Gamma,\Delta ok$.
+
+You can also concatenate telescopes:
+
+($\Gamma \vdash \Delta ok$ and $\Gamma,\Delta \vdash \Delta' ok$) if and only if $\Gamma \vdash \Delta,\Delta' ok$.
+
+In fact, by the definition of context validity, the multi-step context extension is a special case of telescope concatenation.
+
 ## Bidirectional vs Unidirectional
 
 As noted above, there is a canonical correspondence between our bidirectional theory (with any choice of type formers) and a unidirectional one obtained by collapsing both typing judgments $T\Leftarrow A$ and $T\Rightarrow A$ into one $T:A$ (and thereby the mode-switching rule into the conversion rule).
@@ -134,9 +159,6 @@ to get a derivation of $\Gamma \vdash T\Leftarrow B$ as desired.
 
 
 ## Admissible rules
-
-A **telescope** $\Delta $ is a (raw) context. A **valid telescope** $\Gamma \vdash \Delta$ is a telescope $\Delta = (x_1:A_1, \ldots, x_n:A_n)$ such that each judgment
-$\Gamma, x_1:A_1, \ldots, x_k:A_k \vdash x_{k+1} : A_{k+1}$ are derivable. In particular, a valid telescope $\cdot \vdash \Delta$ is a valid context.
 
 Writing $\Gamma \vdash \mathcal{J}$ for one of the [judgments](#judgements), the following rules are admissible by mutual induction on derivations : 
 $$ \frac{\Gamma \vdash \Gamma' \qquad \Gamma, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma' \vdash \mathcal{J}} $$
