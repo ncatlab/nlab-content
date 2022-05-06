@@ -113,9 +113,12 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ([video recording](https://www.youtube.com/watch?v=GhcxtwUJ0TY))
 
-### Homotopy type theory: the logic of homotopy spaces (Mike Shulman)
+### Homotopy type theory: the logic of space (Mike Shulman)
+  {#Shulman}
  
-[[Mike Shulman]] on [[homotopy type theory]] ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+[[Mike Shulman]] _Homotopy type theory: the logic of space_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+
+  (on [[homotopy type theory]])
 
 ## Spaces in classical & quantum mechanics
 
