@@ -47,6 +47,10 @@ A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[f
 
 ## Related concepts
 
+* [[cellular map]]
+
+* [[CW complex]]
+
 * [[vertex]], [[edge]], [[face]]
 
 * [[dimension of a cell complex]]
