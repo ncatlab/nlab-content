@@ -21,7 +21,7 @@
 
 ## Idea
 
-<div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
+<div style="float:right;margin:10px 10px 10px 10px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
 
 The concept of [[adjunction]] as such expresses a [[duality]]. The stronger concept of an _adjoint cylinder_ or _adjoint [[modality]]_ is specifically an [[adjunction]] between [[idempotent monad|idempotent (co-)monads]] and is meant to express specifically a _duality between opposites_. 
 
