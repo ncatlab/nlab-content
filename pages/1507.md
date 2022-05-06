@@ -50,6 +50,14 @@ Then in $\mathcal{T}$ all idempotents split.
 
 ([B&#246;kstedt-Neeman 93, prop. 3.2](#BokstedtNeeman93))
 
++-- {: .num_remark #SchnurerCounterexample}
+###### Remark
+
+Prop. \ref{InTrinagulatedCategoryWithDirectSumsOfTrianglesAllIdempotentsSplit} is false under the weaker hypothesis of only binary/finite [[direct sums]]. 
+A counter-example is in [Schnürer 11, Remark 3.2](#Schnurer11)
+
+=--
+
 ## Related concepts
 
 * [[Cauchy complete category]]
@@ -64,6 +72,7 @@ In [[triangulated categories]]:
 
 * {#BokstedtNeeman93} [[Marcel Bökstedt]], [[Amnon Neeman]], _Homotopy limits in triangulated categories_, Compositio Mathematica, tome 86, no 2 (1993) p. 209-234 ([numdam](http://www.numdam.org/item?id=CM_1993__86_2_209_0))
 
+* {#Schnurer11} Olaf M. Schnürer, _Homotopy categories and idempotent completeness, weight structures and weight complex functors_ ([arXiv:1107.1227](https://arxiv.org/abs/1107.1227))
 
 [[!redirects split idempotents]]
 [[!redirects splitting]]
