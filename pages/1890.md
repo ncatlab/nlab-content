@@ -177,15 +177,16 @@ If the category $C$ is [[monoidal closed]], strength and costrength induce parti
 
 In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denoted by $[-,-]$. Denote the [[unit of an adjunction|unit of the hom-tensor adjunction]] by $\eta_X:X \to [Y,X\otimes Y]$ and the counit (or _evaluation map_, see [[internal hom#EvaluationMap|internal hom - evaluation map]]) by $\epsilon_Y:X\otimes [X,Y]\to Y$.
 
+
 ### Strong monads are enriched monads
 
 (See also the explanation at [[tensorial strength#description|the related discussion for strong endofunctors]].)
 
-First of all, a strong endofunctor $T$ on a closed monoidal category $C$ is "the same thing" as a $C$-enriched endofunctor. To see this, note that an enriched endofunctor amounts to a natural transformation 
+First of all, a [[tensorial strength|strong endofunctor]] $T$ on a closed monoidal category $C$ is "the same thing" as a $C$-[[enriched functor|enriched endofunctor]]. To see this, note that an enriched endofunctor amounts to a [[natural transformation]] 
 $$
 [X,Y] \;\to\; [T X, T Y] .
 $$
-Notice that a map as above, by the hom-tensor adjunction (or [[currying]]) is equivalently specified by a map
+Notice also that a map as above, by the hom-tensor adjunction (or [[currying]]) is equivalently specified by a map
 $$
 [X,Y] \otimes T X \;\to\; T Y.
 $$
@@ -194,12 +195,13 @@ The latter is provided by the strength $t$ as follows,
 {[X,Y]} \otimes T X \ar{r}{t} & T\big({[X,Y]}\otimes X \big) \ar{r}{T\epsilon} & TY.
 \end{tikzcd}
 
-Conversely, given an isomorphism $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a strength as
+Conversely, given a map $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a strength as
 \begin{tikzcd}
-X \otimes T Y \ar{r}{\eta\otimes \mathrm{id}} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
+X \otimes T Y \ar{r}{\eta\otimes TY} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
 \end{tikzcd}
 
-One can verify that these assignments are inverse to each other. Moreover, the strength diagrams for $t$ commute if and only the resulting assigment is indeed an enriched monad, and vice versa. 
+One can verify that these assignments are inverse to each other. Moreover, the [strength diagrams](#concrete_definition) for $t$ commute if and only the resulting assigment is indeed an [[enriched monad]], and vice versa. 
+
 
 #### Example in Set
 
@@ -209,7 +211,7 @@ Given a monad $T$ on [[Set]], the assignment
 $$
 [X,Y] \;\to\; [T X, T Y] 
 $$
-is just the action of $T$ on the morphisms,
+is just the action of $T$ on the [[morphisms]],
 $$
 \mathrm{Hom}(X,Y) \;\to\; \mathrm{Hom}(T X, T Y) .
 $$
@@ -234,7 +236,42 @@ X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T
 
 ### Pointwise structure
 
+(...work in progress...)
+
+\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\otimes X)]} \ar{r}{{[X,T\epsilon]}} & {[X,TY]} 
+\end{tikzcd}
+
 (...)
+
+
+\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+T{[X,A]} \ar{r} & {[X,TA]} \ar{r}{{[X,a]}} & {[X,A]}
+\end{tikzcd}
+
+(...)
+
+\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes B ) 
+\end{tikzcd}
+
+(...)
+
+
+#### Example in Set
+
+(...)
+
+
+
+\begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
+L{[X,A]} \ar{r}{\eta} & {[X,L{[X,A]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,A]}\times X)]} \ar{r}{{[X,L\epsilon]}} & {[X,LA]} \ar{r}{{[X,a]}} & {[X,A]} \\
+{[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto ({[f,g,h]},x) \big) \ar[mapsto]{r} & \big( x\mapsto {[(f,x), (g,x), (h,x)]}\big) \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) \ar[mapsto]{r} & \big( x\mapsto f(x) + g(x) + h(x) \big)
+\end{tikzcd}
+
+(...)
+
+
 
 
 ## Moggi's typing rules and parameterized definition
