@@ -50,3 +50,6 @@ The [[category]] of [[Delta-generated topological spaces]] carries the [[mathema
 
 
 [[!redirects model structure on Delta-generated spaces]]
+
+[[!redirects model structure on D-topological spaces]]
+
