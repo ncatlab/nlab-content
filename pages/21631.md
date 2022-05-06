@@ -67,12 +67,13 @@ Concretely, what makes univalent foundations univalent is the condition, respect
      \underset{
        \color{blue}
        \text{equivalence as terms}
-       \atop
+       \atop \color{blue}
        \text{in the type universe}
      }{
        (A = B)
      }
    $$
+
 
 1. that there exists an [[object classifier]] $Object$ which _reflects objects and their equivalences_, in that for any two objects $A,B$ them being [[equivalence in an (infinity,1)-category|equivalent as objects]]
 is equivalent to their [[classifying maps]] to $Object$ being equivalent ([[homotopy|homotopic]]).
@@ -135,7 +136,7 @@ By the univalence axiom, we often have nice characterizations of "the type of a 
 
 * {#UFIAS12} [[UF-IAS-2012|Univalent Foundations Project]], _Homotopy Type Theory -- Univalent Foundations of Mathematics_ ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf), [[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534))
 
-* {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+* {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404)) doi:[10.1093/oso/9780198853404.001.0001](https://doi.org/10.1093/oso/9780198853404.001.0001)
 
 #### Formalization libraries
 
