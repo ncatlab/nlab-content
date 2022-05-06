@@ -110,6 +110,11 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 * Max Hubner, _5d SCFTs from $(E_n, E_m)$ Conformal Matter_ ([arXiv:2006.01694](https://arxiv.org/abs/2006.01694))
 
 
+* Lakshya Bhardwaj, _Flavor Symmetry of 5d SCFTs, Part 1: General Setup_ ([arXiv:2010.13230](https://arxiv.org/abs/2010.13230))
+
+* Lakshya Bhardwaj, _Flavor Symmetry of 5d SCFTs, Part 2: Applications_ ([arXiv:2010.13235](https://arxiv.org/abs/2010.13235))
+
+
 
 ### From M-theory on Calabi-Yau 3-folds
 
@@ -118,6 +123,9 @@ From [[M-theory on Calabi-Yau 3-folds]]:
 * {#CDS18} Cyril Closset, Michele Del Zotto, Vivek Saxena, _Five-dimensional SCFTs and gauge theory phases: an M-theory/type IIA perspective_ ([arXiv:1812.10451](https://arxiv.org/abs/1812.10451))
 
 * Vivek Saxena, _Rank-two 5d SCFTs from M-theory at isolated toric singularities: a systematic study_, High Energ. Phys. 2020, 198 (2020)  ([arXiv:1911.09574](https://arxiv.org/abs/1911.09574))
+
+
+
 
 
 
