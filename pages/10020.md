@@ -49,7 +49,7 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 The original article on the CS/WZW correspondence is
 
-* {#Witten89} [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
  
 
 Reviews include
