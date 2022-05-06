@@ -4,6 +4,11 @@ Aurelio Carboni was an Italian category theorist, who was based in Como. He died
 
 ## Selected writings
 
+On [[reflective factorization systems]]:
+ 
+* {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+ 
+
 On [[Cartesian bicategories]]:
 
 * [[Aurelio Carboni]], [[Bob Walters]], _Cartesian Bicategories, I_, Journal of Pure and Applied Algebra, Volume 49, Issues 1–2, November 1987,  (<a href="https://doi.org/10.1016/0022-4049(87)90121-6">doi:10.1016/0022-4049(87)90121-6</a>)
