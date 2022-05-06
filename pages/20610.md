@@ -177,3 +177,5 @@ The following lists chapterwise linked lists of keywords to relevant and related
  8. Reflective and [[coreflective subcategories]]
  9. [[Monads]]
  10. Algebras in a category
+
+category: reference
