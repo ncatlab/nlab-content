@@ -134,7 +134,7 @@ Left-lifting is generally rather trickier.  But by invoking fancier categorical 
 
 \end{lemma}
 \begin{proof}
-  See [HKRS15](#HKRS15) and [GKR18](#GKR18) for the lifting of accessible wfs.  Cofibrant generation of a right-lifted wfs follows as in Theorem \ref{SufficientConditions} above, while in the left-lifted case it is Corollary 3.4 of [MR13](#MR13).
+  See [HKRS15](#HKRS15) and [GKR18](#GKR18) for the lifting of accessible wfs.  Cofibrant generation of a right-lifted wfs follows as in Theorem \ref{SufficientConditions} above, while in the left-lifted case it is Remark 3.8 of [MR13](#MR13).
 \end{proof}
 
 This sort of result seems to be necessary for the case of left-lifting; the simpler cofibrantly-generated argument does not dualize as directly.
