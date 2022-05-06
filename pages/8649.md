@@ -56,6 +56,14 @@ A similar charge quantization condition govers [[monopoles]] in [[SU(2)]]-[[Yang
 </center>
 
 
+### For RR-field D-brane charges in K-theory
+
+See at _[[K-theory classification of D-brane charge]]_
+
+### For the C-field in J-twisted Cohomotopy
+
+See at _[supergravity C-field -- shifted flux quantization condition](supergravity+C-field#ShiftedCFieldFluxQuantizationCondition)_
+
 ## Related concepts
 
 * [[monopole]]
