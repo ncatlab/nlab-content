@@ -151,7 +151,7 @@ Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf
 \linebreak
 
 ### Relation to configuration spaces
-  {#RelationToConfigurationSpaces}
+ {#RelationToConfigurationSpaces}
 
 
 +-- {: .num_remark }
