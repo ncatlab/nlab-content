@@ -187,11 +187,11 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
 
-A good exposition of quantum physics from this perspective is in
+Gentle exposition of the basics:
 
 * {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]])
 
-Further introduction to quantum probability theory includes
+Further introduction to quantum probability theory:
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
