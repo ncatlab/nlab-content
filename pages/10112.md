@@ -28,6 +28,8 @@ In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]].
 
 * [[π-meson]]
 
+* [[ρ-meson]]
+
 ## Properties
 
 ### Conceptualization and computation in AdS/QCD
@@ -71,6 +73,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 ## Related concepts
 
 * [[hadron]], [[baryon]]
+
+* [[Skyrmion]]
 
 ## References
 
