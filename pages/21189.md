@@ -107,6 +107,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ## References
 
+### General
+
 Introduction and review:
 
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
@@ -156,10 +158,6 @@ Volume 158, Issue 1, November 1984, Pages 142-210 (<a href="https://doi.org/10.1
 
 * [[Heinrich Leutwyler]], _On the Foundations of Chiral Perturbation Theory_, Annals Phys. 235 (1994) 165-203 ([arXiv:hep-ph/9311274](https://arxiv.org/abs/hep-ph/9311274))
 
-On the [[chiral anomaly]]:
-
-* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377))
-
 
 Specifically for [[kaon]] decay:
 
@@ -168,6 +166,13 @@ Specifically for [[kaon]] decay:
 Further discussion of [[phenomenology]]:
 
 * Prabal Adhikari, Jens O. Andersen, _Quark and pion condensates at finite isospin density in chiral perturbation theory_ ([arXiv:2003.12567](https://arxiv.org/abs/2003.12567))
+
+
+
+
+[[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
 
 
 
