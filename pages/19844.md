@@ -165,6 +165,7 @@ There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard m
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
+
 \linebreak
 
 In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimentally seen  statistical significance:
@@ -207,6 +208,27 @@ In conclusion, with currently available data, the observed flavour anomalies are
 \end{center}
 
 > graphics taken from [Dordei 18, slide 22](#Dordei18)
+
+\begin{imagefromfile}
+  "file_name": "TuningFLavourAnomaliesInterlocking.jpg",
+  "width": 560,
+  "float": "right",
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "from [Tuning 20](#Tuning20)" 
+\end{imagefromfile}
+
+
+While the [[statistical significance]] of the [[flavour anomalies]] in every single decay channel is about $2\sigma -  3 \sigma$, the effects are all compatible with each other, with a high joint/global statistical significance:
+
+> [Garisto 20](#Garisto20): Alone, each notable B physics result is only a few-sigma discrepancy. But taken together, the aggregate of the results is—depending on whom you ask—a 5- to 7-sigma deviation from the standard model estimates. 
+
+
 
 In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
@@ -378,6 +400,7 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
 * {#LHCb200304831} [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
 
+* [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0\to K^{\ast 0} \mu^+ \mu^-$ decay_ ([spire:1784890](https://inspirehep.net/literature/1784890), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
 
 
 ### Review and outlook
@@ -457,6 +480,11 @@ Outlook:
 
 * {#CrivellinHoferichter20} [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
 
+* {#Garisto20} Dan Garisto, _The Era of Anomalies_, [Physics 13, 79 (2020)](https://physics.aps.org/articles/v13/79)
+
+* {#Tuning20} [[Niels Tuning]], _Recent results from LHCb_, Nikhef 2020 ([nikhef event:2253](https://indico.nikhef.nl/event/2253), [pdf](https://indico.nikhef.nl/event/2253/material/slides/0.pdf), [[TuningFlavourAnomaly20.pdf:file]])
+
+  > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
 
 Emphasis of [[non-perturbative effects]]:
 
