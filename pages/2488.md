@@ -722,7 +722,9 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
-Discussion in the context of [[homotopy type theory]] is in 
+Discussion in the context of [[modal type theory|modal]] [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 * {#Brunerie} [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
  
