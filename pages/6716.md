@@ -39,7 +39,7 @@ of the [[group of order 2]]. For $Spin(n)\hookrightarrow GL_1(Cl(\mathbb{R}^n))$
 +-- {: .num_defn #DirectDefinitionOfSpinC}
 ###### Definition
 
-For $n \in \mathbb{N}$, the [[Lie group]] $Spin^c(n)$ is the [[quotient]]
+For $n \in \mathbb{N}$, the [[Lie group]] $Spin^c(n)$ is the [[quotient group]]
 
 $$
   \begin{aligned}
