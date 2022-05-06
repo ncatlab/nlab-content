@@ -41,6 +41,6 @@ Study of categoricity lead historically to the development of the [[stability th
 *  Boris Zilber, _Uncountably categorical theories_, Transl. Math. Monog., Amer. Math. Soc. 1993
 * Rami Grossberg, Monica Vandieren, _Shelah's categoricity conjecture from a successor for tame AECs_, [pdf](https://www.math.cmu.edu/~rami/vp,.pdf)
 * [[Michael Makkai]], Saharon Shelah, _Categoricity of theories $L_{\kappa\omega}$ with $\kappa$ a compact cardinal_, Annals of Pure and Applied Logic 47, 41-97, 1990
-* Christian Espíndola, _An extension of Shelah’s eventual categoricity conjecture to accessible categories with directed colimits_, [arxiv/1906.09169](https://arxiv.org/abs/1906.09169); _A topos-theoretic proof of Shelah’s eventual categoricity conjecture_, Brno, April 30, 2020, video [yt](https://www.youtube.com/watch?v=P8mmP40kSgM), slides [pdf](http://www.math.muni.cz/~bourkej/1ESP/1ESPslides.pdf)
+* Christian Espíndola, _An extension of Shelah’s eventual categoricity conjecture to accessible categories with directed colimits_, [arxiv/1906.09169](https://arxiv.org/abs/1906.09169); _A short proof of Shelah’s eventual categoricity conjecture for AEC’s with interpolation, under GCH_, [arxiv/1909.13713](https://arxiv.org/abs/1909.13713); _A topos-theoretic proof of Shelah’s eventual categoricity conjecture_, Brno, April 30, 2020, video [yt](https://www.youtube.com/watch?v=P8mmP40kSgM), slides [pdf](http://www.math.muni.cz/~bourkej/1ESP/1ESPslides.pdf)
 
 
