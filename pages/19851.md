@@ -44,3 +44,4 @@ If you would like to participate in the [[Initiality Project]], just add your na
 * [[Simon Huber]]
 * [[Andrew Polonsky]]
 * [[Thomas Streicher]]
+* Matt Oliveri
