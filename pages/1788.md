@@ -9,6 +9,7 @@
 
 $\rightharpoonup$
 
-$\llbracket \frac{x}{2} \rrbracket$
+$\llbracket \frac{y}{2} \rrbracket$
 
-$\left( \frac{x}{2} \right)$
+$\esh x$
+
