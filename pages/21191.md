@@ -20,7 +20,7 @@ Introducing the [[IKKT matrix model]]:
 
 and relating it to [[Yang-Mills theory]]:
 
-* H. Aoki, N. Ishibashi, S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
+* H. Aoki, [[Noboyuki Ishibashi]], S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
 
 and to [[closed string field theory]]:
 
