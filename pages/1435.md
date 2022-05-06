@@ -83,3 +83,7 @@ Prop. \ref{CoproductIsTensorProduct} means that tensor product of commutative ri
 
 
 category: category
+
+
+[[!redirects category of commutative rings]]
+[[!redirects categories of commutative rings]]
