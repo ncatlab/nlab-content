@@ -30,6 +30,17 @@ Theories of [[supergravity]] in [[dimension]] $l \lt 11$ always contain a global
 
 For many cases gauged supergravity theories are obtained by [[KK-compactification|dimensional reduction]] from [[11-dimensional supergravity]] or [[type II supergravity]], which themselves do not contain a gauge field but higher degree fields ("fluxes"), the [[supergravity C-field]] and the [[B-field]] respectively. These induce gauged supergravities (e.g. [Samtleben 08, figure 1](#Samtleben08)). The [[gauge groups]] are the [[U-duality]] groups of the compactification (e.g. [Samtleben 08, table 1](#Samtleben08)).
 
+### From double and exceptional field theory
+
+[[Exceptional field theory]] (but also [[double field theory]]) reduces to [[gauged supergravity]] under [[generalised Scherk-Schwarz reduction]], i.e. a dimensional reduction combined with [[U-duality]] (or just [[T-duality]]) twists.
+
+\begin{imagefromfile}
+        "file_name": "gaugedsugraexft.png",
+        "width": 600,
+        "unit": "px",
+        "caption": "Picture grabbed from [Musaev 13](#Musaev13)"
+\end{imagefromfile}
+
 ## Examples
 
 Some examples are discussed at 
@@ -40,12 +51,14 @@ Some examples are discussed at
 
 * [[3-dimensional supergravity]]
 
+
 ## Related concepts
 
 * [[tensor hierarchy]]
 
 * [[embedding tensor]]
 
+* [[double field theory]], [[exceptional field theory]]
 
 
 
@@ -88,5 +101,9 @@ Discussion in the context of the [[D'Auria-Fré formulation of supergravity]] is
 Discussion related to [[orbifold]] singularities includes
 
 * Richard Corrado, Murat Gunaydin, Nicholas P. Warner, Marco Zagermann, _Orbifolds and Flows from Gauged Supergravity_, Phys.Rev.D65:125024,2002 ([arXiv:hep-th/0203057](http://arxiv.org/abs/hep-th/0203057))
+
+Review of the relation with [[double field theory]] and [[exceptional field theory]]:
+
+* {#Musaev13} [[Edvard Musaev]], _U-dualities in Type II string theories and M-theory_, _Symmetry_ 2019, _11_(8), 993 ([arXiv:1311.3331](https://arxiv.org/abs/arXiv:1311.3331), [doi:10.3390/sym11080993](https://doi.org/10.3390/sym11080993))
 
 [[!redirects gauged supergravities]]
