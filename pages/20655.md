@@ -1,6 +1,8 @@
 [[!redirects pregroup]]
 [[!redirects pregroups]]
 [[!redirects pregroup grammars]]
+[[!redirects Pregroup grammar]]
+[[!redirects Pregroup grammars]]
 
 **Pregroup grammar** is a mathematical model of natural language grammar introduced by [[Lambek]], it is part of the [[categorial grammar]] tradition.
 
