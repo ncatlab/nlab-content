@@ -49,7 +49,7 @@ based on
 
   _Discrete Torsion and Gerbes II_ ([arXiv:hep-th/9909120](http://arxiv.org/abs/hep-th/9909120))
 
-  _Discrete Torsion, Quotient Stacks, and String Orbifolds_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
+  _Discrete Torsion, Quotient Stacks, and String Orbifolds_, in _[[Orbifolds in Mathematics and Physics]]_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
 
 See also
 
