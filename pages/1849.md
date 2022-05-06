@@ -711,6 +711,8 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 
 * **supergravity $C$-field**
 
+  * [[C-field tadpole cancellation]]
+
 * [[twisted differential c-structure]]
 
   * [[differential string structure]]
