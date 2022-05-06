@@ -18,14 +18,7 @@
 
 The [[standard model of particle physics]] has the curious property that its content of [[fermions]] appears in three sets of particles that share all properties except that their [[rest mass]] increases drastically from one set to the next. These are called the three "generations" "families" of fermionic particles.
 
-The first generation contains the
-
-| type of [[fundamental particle]] | First [[generation of fundamental particles|generation]] | Second [[generation of fundamental particles|generation]] | Third [[generation of fundamental particles|generation]] |
-|------|------------------|-------------------|------------------|
-| up-type [[quark]] | [[up quark]] | [[charm quark]] | [[top quark]] |
-| down-type [[quark]] | [[down quark]] | [[strange quark]] | [[bottom quark]] |
-| charged [[lepton]] | [[electron]] | [[muon]] | [[tau]] |
-| [[neutrino]] | [[electron neutrino]] | [[muon neutrino]] | [[tau neutrino]] |
+[[!include flavors of fundamental particles -- table]]
 
 Any reason for this striking pattern presently remains mysterious.
 
