@@ -232,7 +232,7 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 
 * [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
 
-* [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(8)]]
+* [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
 
 [[!redirects Spin(3)]]
 
