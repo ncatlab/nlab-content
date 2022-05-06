@@ -24,7 +24,7 @@ The study of [[groups]].
 
 ## Related entries 
 
-* [[group]] [[Grp]]
+* [[group]], [[Grp]]
 
 * [[combinatorial group theory]], [[geometric group theory]]
 
