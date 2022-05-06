@@ -50,6 +50,20 @@ The collection of all string vacua, possibly subject to some assumptions, has co
 
 [[!include states and observables -- content]]
 
+## References
+
+See the references at
+
+* [[string phenomenology]]
+
+* [[landscape of string theory vacua]]
+
+On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] vacua in [[string theory]]:
+
+* Iosif Bena, Krzysztof Pilch, [[Nicholas Warner]], _Brane-Jet Instabilities_ ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
+
+
+
 
 [[!redirects perturbative string theory vacua]]
 
