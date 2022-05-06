@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
 #### Riemannian geometry
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
