@@ -278,7 +278,7 @@ three functors between them and $\eta_1 \;\colon\; F \Rightarrow G$ and $\eta_2 
 conjugation actions/natural isomorphisms between these, there is the composite
 
 $$
-  \eta_2 \colon \eta_1  \;\colon\; F \Rightarrow H
+  \eta_2 \circ \eta_1  \;\colon\; F \Rightarrow H
 $$
 
 with components the composite of the components
@@ -739,7 +739,7 @@ $$
   F\;\colon\; \mathcal{G}_1 \longrightarrow \mathcal{G}_2
 $$
 
-is an _[[equivalence of groupoids|equivalence]]_ it it is an [[isomorphism]]
+is an _[[equivalence of groupoids|equivalence]]_ if it is an [[isomorphism]]
 in the [[homotopy category]] $Ho(Grpd)$ (def. \ref{HomotopyCategoryOfGroupoids}), hence if there exists a homomorphism the
 other way around
 
