@@ -123,9 +123,11 @@ satisfying conditions that certain diagrams (left to the reader) encoding these 
 
 The advantage of this is that it does not require the category $C$ to have internal automorphism group objects for all objects being considered.
 
-As an example, within the category of [[profinite group]]s, not all objects have automorphism groups for which the natural topology is profinite, because of that profinite group actions are sometimes given in this form or are restricted to actions on objects for which the automorphism group is naturally profinite. 
+As an example, only [[locally compact topological space|locally compact topological spaces]] have well-behaved topological automorphism groups, and thus actions of topological spaces on topological spaces must either be restricted to actions on locally compact spaces, or else be defined as above. 
 
-### Actions of a profinite group
+As another example, within the category of [[profinite group|profinite groups]] viewed as topological groups, not all objects have automorphism groups for which the natural topology is profinite. Thus profinite group actions on (the underlying topological space of) a profinite group must either be given in this form, or else be restricted to actions on profinite groups for which the automorphism group is naturally profinite. 
+
+### Actions of a profinite group (on a set)
 
 See [[action of a profinite group]].
 
