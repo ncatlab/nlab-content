@@ -34,6 +34,7 @@ There is a [[Chern character]] map from [[equivariant K-theory]] to [[equivarian
 
 * [[equivariant de Rham cohomology]]
 
+* [[equivariant ordinary differential cohomology]]
 
 [[!include Segal completion -- table]]
 
