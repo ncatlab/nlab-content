@@ -206,6 +206,10 @@ A _$|\Sigma|$-typed $n$-diagram_ is an object of the category obtained by starti
 
 Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ with respect to $\Sigma$. This involves identifying the neighbourhoods of every point, and checking that they agree with the standard type neighbourhoods defined in $\Sigma$. This procedure is explained in Christoph Dorn's PhD thesis referenced below.
 
+## Related entries
+
+[[!include proof assistants and formalization projects -- list]]
+
 ## References
 
 * [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)).
