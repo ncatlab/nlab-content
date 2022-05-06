@@ -36,7 +36,7 @@ plays a role mostly as a subsector of [[D=5 Einstein-Maxwell theory]] and/or of 
 ### Relation between 5d Maxwell theory and massive vector mesons in 4d
  {#RelationBetween5dMaxwellTheoryAndMassiveVectorMesons}
 
-In an abelian version of the way the [[Skyrmion]]-model appears in [[holographic QCD]], the [[Kaluza-Klein reduction]] of [[D=5 Maxwell theory]] to 4d yields a theory of a tower of massive vector particles which may be interpreted as [[vector mesons]] ([Sutcliffe 10, Sec. 3](#Sutcliffe10)):
+In an abelian version of [[hadron Kaluza-Klein theory]], hence the way the [[Skyrmion]]-model, coupled to the tower of [[vector mesons]], appears in [[holographic QCD]], the [[Kaluza-Klein reduction]] of [[D=5 Maxwell theory]] to 4d yields a theory of a tower of massive vector particles which may be interpreted as [[vector mesons]] ([Sutcliffe 10, Sec. 3](#Sutcliffe10)):
 
 #### Flat space model
 
@@ -802,6 +802,8 @@ the assumptions (eq:VanishingzComponentOfVectorPotentialOnSSSpacetime) and (eq:L
 * [[D=5 Einstein-Maxwell theory]]
 
 * [[D=5 super Yang-Mills theory]]
+
+* [[Randall-Sundrum model]]
 
 ## References
 
