@@ -21,7 +21,7 @@ A Markov chain can also be described as a [[coalgebra for an endofunctor|coalgeb
 
 Baez and his students recently defined a generalization, open Markov chains:
 
-* John C. Baez, Brendan Fong, Blake S. Pollard, _A compositional framework for Markov processes_, [arxiv/1508.06448](http://arxiv.org/abs/1508.06448)
+* [[John C. Baez]], [[Brendan Fong]], [[Blake S. Pollard]], _A compositional framework for Markov processes_, [arxiv/1508.06448](http://arxiv.org/abs/1508.06448)
 
 
 category: probability
