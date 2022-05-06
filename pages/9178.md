@@ -33,6 +33,10 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 ## Related concepts
 
+* [[constituent quark]]
+
+  * [[diquark]]
+
 * [[colour charge]], [[flavour (particle physics)]]
 
 * [[quantum chromodynamics]]
