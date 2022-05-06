@@ -17,7 +17,6 @@
 =--
 =--
 
-
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 #Contents#
@@ -1065,12 +1064,26 @@ Computations of flat Chern-Simons/[[Dijkgraaf-Witten theory]] [[action functiona
  {#Zickert 07}
 
 
-###Extension to supergroups
+### Extension to supergroups
 
 * Victor Mikhaylov, _Aspects of Supergroup Chern-Simons Theories_, ([thesis](https://inspirehep.net/record/1466706/))
 
 * Victor Mikhaylov, _Analytic Torsion, 3d Mirror Symmetry,
 And Supergroup Chern-Simons Theories_ ([arXiv:1505.03130](https://arxiv.org/abs/1505.03130))
+
+### On D-brane worldvolumes
+ {#ReferencesOnBraneWorldvolumes}
+
+On [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p-brane]] [[worldvolumes]] (notably on [[D2-branes]]):
+
+* {#Brodie00} [[John Brodie]], _D-branes in Massive IIA and Solitons in Chern-Simons Theory_, JHEP 0111:014, 2001 ([arXiv:hep-th/0012068](https://arxiv.org/abs/hep-th/0012068))
+
+* Yosuke Imamura, _A D2-brane realization of Maxwell-Chern-Simons-Higgs systems_, JHEP 0102:035, 2001 ([arXiv:hep-th/0012254](https://arxiv.org/abs/hep-th/0012254))
+
+* Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy_, JHEP 0906:066, 2009 ([arXiv:0901.0924](https://arxiv.org/abs/0901.0924))
+
+* Gyungchoon Go, O-Kab Kwon, D. D. Tolla, _$\mathcal{N}=3$ Supersymmetric Effective Action of D2-branes in Massive IIA String Theory_, Phys. Rev. D 85, 026006, 2012 ([arXiv:1110.3902](https://arxiv.org/abs/1110.3902))
+
 
 ### Workshops and conferences
 
@@ -1087,3 +1100,5 @@ And Supergroup Chern-Simons Theories_ ([arXiv:1505.03130](https://arxiv.org/abs/
 [[!redirects Chern-Simons functional]]
 
 [[!redirects Chern-Simons field theory]]
+
+[[!redirects Chern-Simons theories]]
