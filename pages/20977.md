@@ -27,6 +27,8 @@ The _Wheels theorem_ says that the [[quantization of 3d Chern-Simons theory|pert
 
 * [[PBW theorem]]
 
+* [[Rozansky-Witten Wilson loop of unknot is A-hat genus]]
+
 ## References
 
 The full proof is due to
