@@ -42,7 +42,7 @@ and LFP is the 2-category of
 
 * [[natural transformations]].
 
-The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models.
+The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models. There are similar dualities for other classes of theory such as [[regular theories]]. 
 
 A version of Gabriel--Ulmer duality for [[enriched category theory]] was proved by [[Max Kelly]] (see [LackTendas](#LackTendas)).
 
