@@ -5,6 +5,12 @@
 
 ## Selected writings
 
+On the [[BTZ black hole]]:
+
+
+* [[Máximo Bañados]], [[Marc Henneaux]], [[Claudio Teitelboim]], [[Jorge Zanelli]], 
+_Geometry of the 2+1 Black Hole_, Phys. Rev. D48: 1506-1525, 1993 ([arXiv:gr-qc/9302012](https://arxiv.org/abs/gr-qc/9302012))
+
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
 * J. D. Brown, [[Marc Henneaux]], _Central charges in the canonical realization of asymptotic symmetries: An example from three dimensional gravity_, Commun. Math. Phys. (1986) 104: 207 ([doi:10.1007/BF01211590](https://doi.org/10.1007/BF01211590))
