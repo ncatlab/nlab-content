@@ -11,9 +11,7 @@ In [[constructive mathematics]], one wants to phrase the condition as $a b \neq 
 
 The [[trivial ring]] is [[too simple to be simple|too simple]] to be an integral domain.  You can see this by phrasing the definition without [[bias]] as: any product of (finitely many) nonzero elements of $R$ (which includes the empty product $1$) must be nonzero.
 
-Another equivalent definition is: an integral domain is any [[subring]] of a [[skewfield]].  Specifically, any integral domain $R$ is a subring of its [[field of fractions]].
-
-Some authors require an integral domain to be [[commutative ring|commutative]], even when they do not require this of rings in general.  Then they are subrings of [[fields]].
+Some authors require an integral domain to be [[commutative ring|commutative]], even when they do not require this of rings in general.  Commutative integral domains are precisely subrings of [[fields]].
 
 In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  In that case, however, a [[zero divisor]] is not what the name literally implies: the definition is that multiplication by a nonzero element (on either side) is injective.  Furthermore, we should add the additional requirement that addition in $R$ is cancellable (that is, addition by any element is injective), to make the analogue of the previous paragraph correct.  Since 'integral domain' is too specific and 'integral ring' is not standard (and means something else in the phrase 'integral ring extension'), it\'s not clear exactly what these should be called; perhaps _integral cancellable rig/semiring_ is sufficiently unambiguous.
 
