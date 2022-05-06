@@ -169,6 +169,12 @@ Argument that dark matter has already be seen across a range of direct detection
 
 * {#KBKK20} Noah Kurinsky, Daniel Baxter, Yonatan Kahn, Gordan Krnjaic, _A Dark Matter Interpretation of Excesses in Multiple Direct Detection Experiments_ ([arXiv:2002.06937](https://arxiv.org/abs/2002.06937))
 
+Rebuttal:
+
+* Alan E. Robinson, Émile Michaud, _Comment on A dark matter interpretation of excesses in multiple direct detection experiments [arXiv:2002.06937]_ ([arXiv:2002.08893](https://arxiv.org/abs/2002.08893))
+
+
+> The result of [Kurinsky et al.](#KBKK20) should not be taken as evidence for dark matter, although it does highlight the ongoing need to investigate the effect of collective modes how [sic] we detect radiation.
 
 
 ### Core-cusp problem
