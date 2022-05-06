@@ -752,7 +752,7 @@ $$
   }
 $$
 
-is ${}^\Box A \simeq A^{hor}$, and the one of 
+is ${}^\Box A' \simeq {A'}^{hor}$, and the one of 
 
 $$
   \array{
@@ -765,10 +765,10 @@ $$
 $$
 
 according to cor. \ref{IntramuralIsos} item 2
-is ${}^\Box A' \simeq {A'}^{vert} = 0$. Together this gives the desired exactness from the assumption that ${A'}^{vert} \simeq 0$ (since all the columns are exact by assumption):
+is ${}^\Box A' \simeq {A'}^{vert}$. Together this gives the desired exactness from the assumption that ${A'}^{vert} = 0$ (since all the columns are exact by assumption):
 
 $$
-  {A'}^{hor} \simeq A'_\Box \simeq ({A'}^{vert} \simeq 0)
+  {A'}^{hor} \simeq A'_\Box \simeq {A'}^{vert} = 0
   \,.
 $$
 
