@@ -328,7 +328,7 @@ $$
 
 (...)
 
-
+[Honecker 01](#Honecker01)
 [Honecker 02](#Honecker02)
 
 review in [Marchesano 03 Sec. 4](#Marchesano03))
@@ -1328,6 +1328,8 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB stri
 * {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
+
+* {#Honecker01} Gabriele Honecker, _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
 
 * {#AFIRU01a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
 
