@@ -225,3 +225,8 @@ on the concept of [[closed categories]].
 [[!redirects left closed monoidal categories]]
 [[!redirects right closed monoidal category]]
 [[!redirects right closed monoidal categories]]
+
+[[!redirects hom-tensor adjunction]]
+[[!redirects hom-tensor adjunctions]]
+[[!redirects hom tensor adjunction]]
+[[!redirects hom tensor adjunctions]]
