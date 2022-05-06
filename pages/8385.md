@@ -26,7 +26,7 @@ Let $C$ and $D$ be [[sites]].
 ###### Definition
 A [[functor]] $f:C\to D$ is a **morphism of sites** if
 
-1. $f$ is [[covering-flat functor|covering-flat]], and
+1. $f$ is [[flat functor#SiteValuedFunctors|covering-flat]], and
 
 1. $f$ preserves covering families, i.e. for every [[covering]] $\{p_i : U_i \to U\}$ of an object $U \in C$, the family $\{f(p_i) : f(U_i) \to f(U)\}$ is a covering of $f(U) \in D$.
 =--
