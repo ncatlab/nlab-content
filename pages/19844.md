@@ -143,8 +143,6 @@ Measurements include
 
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
-* [[LHCb collaboration]], _Measurement of the ratio of branching fractions of the decays $\Lambda^0_b \to \psi(2S)\Lambda$ and $\Lambda^0_b \to J/\psi\Lambda$_ ([arXiv:1902.02092](https://arxiv.org/abs/1902.02092))
-
 Review includes
 
 * Elena Graverini, _Flavour anomalies: a review_, in _Proceedings of the [13th International Conference on Beauty, Charm and Hyperon hadrons (BEACH 2018)](http://inspirehep.net/record/1621649)_ ([arXiv:1807.11373](https://arxiv.org/abs/1807.11373))
