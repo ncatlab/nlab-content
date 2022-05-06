@@ -32,6 +32,7 @@ A category $D$ is a **direct category** if the following *equivalent* conditions
 * $D$ contains no infinite descending chains of nonidentity morphisms $\cdots \to\cdot \to\cdot\to\cdot$ (including cycles of length $\gt 0$).
 * The relation $a\prec b$ on $ob(D)$ defined by "there exists a nonidentity morphism from $a$ to $b$" is [[well-founded relation|well-founded]].
 * There exists a function $d\colon ob(D)\to Ord$, where $Ord$ is the class of [[ordinals]], such that every nonidentity morphism of $D$ raises the degree.
+* There exists an identity-reflecting functor $d : D\to \mathbf{Ord}$, where $\mathbf{Ord}$ is the large poset of ordinals viewed as a category.
 * $D$ is a [[Reedy category]] (in particular an _[[elegant Reedy category]]_) in which $D_-$ consists only of identity maps (or equivalently $D_+$ is all of $D$).
 
 In particular, a [[poset]] is a direct category just when its strict order relation $\lt$ is well-founded.  Thus, direct categories can be seen as a categorification of well-founded relations.
@@ -126,6 +127,8 @@ This subcategory of $Corolla$ is usually *not* full, however.  In particular, fo
 
 * [[Dennis Borisov]], _Comparing definitions of weak higher categories, I_ ([arXiv:0909.2534](http://arxiv.org/abs/0909.2534))
  {#Borisov}
+* [[Clark Barwick]], _On Reedy Model Cateogires_ ([arXiv:0708.2832](https://arxiv.org/abs/0708.2832))
+ {#Barwick}
 
 
 [[!redirects direct category]]
