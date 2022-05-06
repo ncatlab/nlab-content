@@ -1882,7 +1882,7 @@ $$
     \longrightarrow
   \tilde K(X \times Y)
     \overset{i^\ast}{\longrightarrow}
-  \tilde K(X) \oplus \tlde K(Y)
+  \tilde K(X) \oplus \tilde K(Y)
     \to
   0
 $$
@@ -2235,10 +2235,10 @@ to a ring structure on the graded K-groups from def. \ref{GradedKGroups}. This i
 To state this definition, recall that
 
 1. for $X$ a [[pointed topological space]] then the [[diagonal]] map to its [[product topological space]] $X \times X$
-   induced a diagonal to the [[smash product]] $X \wedge Y = (X \times X)/(X \vee Y)$
+   induced a diagonal to the [[smash product]] $X \wedge X = (X \times X)/(X \vee X)$
 
    $$
-     X \overset{\Delta_X}{\longrightarrow} X \times X \overset{q}{\longrightarrow} X
+     X \overset{\Delta_X}{\longrightarrow} X \times X \overset{q}{\longrightarrow} X\wedge X
    $$
 
 1. since [[reduced suspension]] is equivalently [[smash product]] with the [[circle]] $\Sigma X \simeq S^1 \wedge X$,
