@@ -593,3 +593,9 @@ For more see at _[[Freed-Witten anomaly cancellation]]_.
 
 [[!redirects D-brane charge]]
 [[!redirects D-brane charges]]
+
+[[!redirects Dp-brane]]
+[[!redirects Dp-branes]]
+
+
+
