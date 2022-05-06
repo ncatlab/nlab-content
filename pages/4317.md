@@ -101,7 +101,7 @@ The [[coherence law|coherence]] for the [[distributivity law]] in bimonoidal cat
 * G. Kelly, _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics 420, Springer Verlag, Berlin, 1974, pp. 281-375.
  {#Kelly74}
 
-where these categories are called _ring categories_. Discussion with an eye towers the [[K-theory of a bipermutative category]] is in
+where these categories are called _ring categories_. Discussion with an eye towards the [[K-theory of a bipermutative category]] is in
 
 * [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
  {#May}
