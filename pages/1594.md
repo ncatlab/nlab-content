@@ -159,7 +159,7 @@ Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 * {#MoerdijkPronk} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf))
   
 
-* [[Eugene Lerman]], _Orbifolds as stacks?_ ([arXiv](http://arxiv.org/abs/0806.4160))
+* [[Eugene Lerman]], _Orbifolds as stacks?_ ([arXiv:0806.4160](http://arxiv.org/abs/0806.4160))
 
 The [[mapping stacks]] of orbifolds are discussed in
 
