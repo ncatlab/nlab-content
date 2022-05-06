@@ -98,6 +98,8 @@ Work which uses [[modal homotopy type theory]], with, for example,  [[modalities
 
 * [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_, ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
-* [[Felix Wellen]], _Cohesive Covering Theory (Extended Abstract)_, ([pdf](https://hott-uf.github.io/2018/abstracts/HoTTUF18_paper_15.pdf))
+* [[Felix Wellen]], _Cohesive Covering Theory (Extended Abstract)_, ([pdf](https://hott-uf.github.io/2018/abstracts/HoTTUF18_paper_15.pdf));
+
+* [[David Jaz Myers]], _Good Fibrations through the Modal Prism_, ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034))
 
 See also [[schreiber:Some thoughts on the future of modal homotopy type theory]].
