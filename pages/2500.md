@@ -405,6 +405,10 @@ A fair bit of detail on [[supersymmetry]] and on supergravity is in
 The original article that introduced the [[D'Auria-Fre formulation of supergravity]] is
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
+
+The underlying [[super Cartan geometry]] is made fully explicit in:
+
+* [[Konstantin Eder]], _Super Cartan geometry and the super Ashtekar connection_ ([arXiv:2010.09630](https://arxiv.org/abs/2010.09630))
  
 A compendium, of relevant [[action functionals]] and [[equations of motion]] is in 
 
