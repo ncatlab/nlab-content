@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Trigonometry
++-- {: .hide}
+[[!include trigonometry -- contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-The _arctangent_ or _inverse tangent_ is one of the basic functions of [[trigonometry]].  It is the unique [[continuous function|continuous]] [[section]] of the [[tangent function]] whose value at $0 \in \mathbb{R}$ is $0$, and it is an [[analytic function]] on the [[real line]].
+In [[trigonometry]], the _arctangent_ or _inverse tangent_ is one of the basic [[trigonometric functions]].  It is the unique [[continuous function|continuous]] [[section]] of the [[tangent function]] whose value at $0 \in \mathbb{R}$ is $0$, and it is an [[analytic function]] on the [[real line]].
 
 
 ## Related concepts
