@@ -37,6 +37,7 @@ When the [[D-branes]] in question are interpreted as [[flavor branes]], then the
  {#Definition}
 
 ### On $4$-dimensional Minkowski spacetime
+  {#On4dMinkowski}
 
 In the simplest situation of flat 4-dimensional [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and no other [[field (physics)|fields]] besides that of [[electromagnetism]], encoded in a [[Faraday tensor]] [[differential 2-form]]
 
@@ -573,6 +574,10 @@ See also
 Discussion of [[loop order|one-loop corrections]]:
 
 * Garrett Goon, Scott Melville, Johannes Noller, _Quantum Corrections to Generic Branes: DBI, NLSM, and More_ ([arXiv:2010.05913](https://arxiv.org/abs/2010.05913))
+
+Derivation of the first DBI-correction from an [[M5-brane]] model via [super-exceptional geometry](exceptional+generalized+geometry#SuperExceptionalGeometryReferences):
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:super-exceptional M5 flavor|Super-exceptional M5-brane model: Emergence of SU(2)-flavor sector]]_ ([arXiv:2006.00012](https://arxiv.org/abs/2006.00012))
 
 
 
