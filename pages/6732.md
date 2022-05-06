@@ -25,6 +25,8 @@ Notably for [[Yang-Mills theory]] and in particular for [[QCD]], the large $N$-b
 
 At least for the case of [[super Yang-Mills theories]] the full statement of the relation of large-$N$ gauge theory to a [[perturbative string theory]] is the content of the _[[AdS/CFT correspondence]]_, which explains that the effective [[string]] [[worldsheets]] emerging from the [[gauge theory]] propagate in a higher-dimensional asymptotically [[anti-de Sitter spacetime]] (the [[near horizon geometry]] of a [[black brane]]) whose [[asymptotic boundary]] (the [[worldvolume]] of the [[black brane]] itself) is identified with the [[spacetime]] of the original [[gauge theory]].
 
+An extreme case of this large $N$-limit is that of the [[BFSS matrix model]] in [[AdS2/CFT1 duality]] where _all_ spatial dependence of [[field (physics)|fields]] in the higher dimensional spacetime is supposedly encoded in the [[quantum mechanics]] of $N\times N$ [[matrix model|matrices]] as $N\to \infty$. And for the [[IKKT matrix model]] this includes also the temporal dependence.
+
 For non-[[supersymmetry|supersymmetric]] [[gauge theories]] such as [[QCD]] this [[duality in string theory|duality]] still holds in suitably adjusted form such as in the _[[AdS/QCD correspondence]]_. Here the $1/N$-expansion serves to provide a computational tool for describing [[confinement|confined]] [[hadron]] states ([[mesons]] and [[baryons]], hence in particular [[nucleons]] and hence ordinary room-temperature [[matter]]) which are not seen by ordinary [[perturbative quantum field theory|perturbation theory]] in the gauge theory [[coupling constant]] (the [[confinement]]/[[mass gap problem]]).
 
 
