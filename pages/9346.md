@@ -294,7 +294,7 @@ and
 ### Does string theory predict supersymmetry? 
  {#DoesSTPredictSupersymmetry}
 
-To understand this question and its answer, it is important to know that in general symmetries in physics (and in mathematics) come in a _[[local symmetry|local]]_ and in a _[[global symmetry|global]]_ flavor. For instance the _theory_ of [[gravity]] is a theory which has as a _local symmetry_ the [[Lorentz group]]. But any [[model (physics)|model]] of the theory -- a [[spacetime]] -- may or may not have global Lorentz symmetry. In fact, the generic solution to the [[Einstein equations]] has _no_ global Lorentz symmetry left. A global Lorentz symmetry of spacetime with all [[matter]] and [[force]] fields in it would mean that the world looks the same if we arbitrarily translate in some direction, or arbitrarily rotate in some plane. It would be rather bizarre to live in a spacetime with such a property!
+To understand this question and its answer, it is important to know that in general [[symmetries]] in physics (and in mathematics) come in a _[[local symmetry|local]]_ and in a _[[global symmetry|global]]_ flavor. For instance the _theory_ of [[gravity]] is a theory which has as a _local symmetry_ the [[Poincaré group]], including the [[Lorentz group]]. But any [[model (physics)|model]] of the theory -- a [[spacetime]] -- may or may not have global Lorentz symmetry ("[[Killing vector fields]]"). In fact, the generic solution to the [[Einstein equations]] has _no_ global Lorentz symmetry left. Indeed, global Lorentz symmetry of spacetime with all [[matter]] and [[force]] fields in it would mean that the world looks the same if we arbitrarily translate in some direction, or arbitrarily rotate in some plane. It would be rather bizarre to live in a spacetime with such a property!
 
 (Mathematically the distinction is this: given a [[coset space]] $G/H$, then the corresponding _[[Klein geometry]]_ has global $G$-symmetry, while the corresponding _[[Cartan geometries]]_ have local $G$-symmetry.)
 
@@ -559,63 +559,83 @@ Much of this relation of [[string theory]] to [[higher category theory]] was unc
 
 > {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. ([[Edward Witten]], [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf))
 
-For the moment, see at **[[higher category theory and physics]]** and _[[schreiber:Higher Prequantum Geometry]]_ for more.
+For the moment, see the following for more:
 
-* _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_
+* [[Branislav Jurco]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], 
 
-## Further expositions, introductions and lectures
+   _Higher Structures in M-Theory_, 
 
-Other entries on the $n$Lab with related lecture notes, expositions and introductions include the following:
+   Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
 
-* [[geometry of physics]]
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
+  
+   _[[schreiber:The rational higher structure of M-theory]]_ 
 
-* [[fiber bundles in physics]]
+   in _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/) _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018, Fortschritte der Physik, 2019 ([arXiv:1903.02834](https://arxiv.org/abs/1903.02834))
 
-* [[L-infinity algebras in physics]]
+* [[Urs Schreiber]], 
 
-* [[motives in physics]]
+  _[[schreiber:Introduction to Higher Supergeometry]]_
 
-* [[higher category theory and physics]]
+  Lectures at _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_
 
-* [[motivation for sheaves, cohomology and higher stacks]]
-
-* [[motivation for higher differential geometry]]
-
-* [[applications of (higher) category theory]]
-
-* [[twisted smooth cohomology in string theory]]
-
-* [[motivation for higher differential geometry]]
-
-* [[motivation for cohesion]]
-
-* [[Hilbert's sixth problem]]
-
-* [[model theory and physics]]
-
-* [[L-infinity algebras in physics]]
+\linebreak
 
 ## References
+  {#References}
 
-### Other FAQs
+Textbooks on [[string theory]] and [[M-theory]] include the following (for more see at _[[books about string theory]]_):
 
-Other places on the web where some frequently asked questions about string theory are tried to given an educated balanced answer include the following
+* [[Mike Duff]]
 
-* [[Matthew Strassler]], _[Did the LHC Just Rule Out String Theory?!](http://profmattstrassler.com/2013/09/17/did-the-lhc-just-rule-out-string-theory/)_, Sept 2013
+  _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and $M$-theory_, 
 
-### Textbooks and lectures
+  IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
-Textbooks on [[string theory]] and [[quantum field theory]] include
+* {#Polchinski01} [[Joseph Polchinski]], _[[String theory]]_, Cambridge Monographs on Mathematical Physics (2001)
 
-* {#Polchinski01} [[Joseph Polchinski]], _String theory_, Cambridge Monographs on Mathematical Physics (2001)
-
-* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
-[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
 
   _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+* [[Michael Douglas]], [[Elias Kiritsis]] et. al. (eds.), 
+
+  _[[String theory and the real world]]_, 
+
+  Les Houches  Session LXXXVII 2007
+
 * [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ,Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
 
-For more see at 
+* [[Luis Ibáñez]], [[Angel Uranga]], 
 
-* _[[books about string theory]]_
+  _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, 
+
+  Cambridge University Press 2012
+
+* {#West12} [[Peter West]], 
+
+  _[[Introduction to Strings and Branes]]_, 
+
+  Cambridge University Press 2012
+
+* [[Gregory Moore]],
+
+  _[[The Impact of D-Branes on Mathematics]]_,
+
+  talk at [PolchinskiFest 2014](http://online.kitp.ucsb.edu/online/joefest-c14/) ([pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf))
+
+* {#Moore14} [[Gregory Moore]]
+
+  _[[Physical Mathematics and the Future]]_
+
+  talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
+
+
+
+* {#Kane17} [[Gordon Kane]], 
+
+  _String theory and the real world_, 
+
+  Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+
+\linebreak
