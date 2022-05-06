@@ -18,14 +18,18 @@ These play a substantive rôle in [[Shinichi Mochizuki]]'s [[inter-universal Tei
 
 In the following, fix a [[monoidal category]] $V$ and a $V$-[[enriched category]] $C$. Examples to keep in mind for $V$ are the category [[Set]] of sets considered as a [[cartesian monoidal category]], or the category [[G-set]] for a given [[group]] $G$, again with the cartesian monoidal structure.
 
+For the present purpose we say:
+
 +-- {: .num_defn}
 ###### Definition
 
-For $P\colon V\to V$ a [[lax monoidal functor]], the **$P$-poly category** $C^{P poly}$ is the $V$-category with the same objects as $C$, and where the $V$-hom object $C^{P poly}(a,b) := P(C(a,b))$.
+For $P\colon V\to V$ a [[lax monoidal functor]], the **$P$-poly category** $C^{P poly}$ is image of $C$ under the induced [[change of enriching category]]. 
 
-=--
+This means that $C^{P poly}$ is the $V$-category with the same objects as $C$, and where the $V$-hom object $C^{P poly}(a,b) \coloneqq P(C(a,b))$ and with [[composition]], [[associators]] and [[unitors]] the [[images]] of those of $C$ under $P$ suitably composed with the structure morphisms of the lax monoidal functor $P$.
 
-That $C^{P poly}$ really is a $V$-category, i.e. that it has a composition map (that is associative etc) follows from the lax monoidal structure on $P$. Composition is defined to be
+=-- 
+ 
+Spcifically this means that [[composition]] in $C^{P poly}$ is defined to be
 $$
 C^{P poly}(a,b) \otimes C^{P poly}(b,c) = P(C(a,b)) \otimes P(C(b,c)) \to P(C(a,b)\otimes B(b,c)) \to P(C(a,c)) = C^{P poly}(a,c)
 $$
@@ -36,7 +40,7 @@ $$
 satisfies the required conditions again from the properties of $P$.
 
 
-Examples of such functors $P$ are:
+Examples of such [[lax monoidal functors]] $P$ are:
 
 * For $V=Set$ with the cartesian monoidal structure, $C$ an arbitrary category, take $P\colon Set \to Set$ the covariant [[power set]] functor. This is lax monoidal since every pair of subsets $U \subseteq S$ and $V\subseteq T$ gives a subset $U\times V \subseteq S\times T$.
 
