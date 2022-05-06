@@ -40,7 +40,7 @@ For $S \in Set$
 
 * $Codisc(S)$ is the topological space on $S$ whose only open sets are the [[empty set]] and $S$ itself,
 
-  this is called the **codiscrete topology** on $S$ (also _indiscrete topology_ or _trivial topology_ or _chaotic topology_), it is the [[coarser topology|coarsest topology]] on $S$; $Codisc(S)$ is called a _[[codiscrete space]]_.
+  this is called the **codiscrete topology** on $S$ (also _indiscrete topology_ or _trivial topology_ or _chaotic topology_ ([[SGA4|SGA4-1, 1.1.4]])), it is the [[coarser topology|coarsest topology]] on $S$; $Codisc(S)$ is called a _[[codiscrete space]]_.
 
 For an axiomatization of this situation see _[[codiscrete object]]_.
 
