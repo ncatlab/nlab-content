@@ -31,7 +31,8 @@ A [[moduli space]] of [[Calabi-Yau spaces]].
 
 * [[Calabi-Yau cohomology]]
 
-* [[moduli space of elliptic curves]]
+
+[[!include moduli spaces -- contents]]
 
 
 ## References
