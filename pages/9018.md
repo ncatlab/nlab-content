@@ -289,14 +289,17 @@ The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential
 
 * {#BBS07} [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
-Discussion of relation to [[F-theory on CY4-manifolds]] includes
+Discussion of [[duality in string theory|duality]] with [[F-theory on CY4-manifolds]] includes
 
 * {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
 
 * {#Belhaj02} Adil Belhaj, _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_ ([arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208))
 
-
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
+
+Discussion of [[duality in string theory|duality]] with [[heterotic string theory on CY3-manifolds]]:
+
+* {#BraunSchaeferNameki17} [[Andreas Braun]], Sakura Schaefer-Nameki, _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
 The [[moduli space]] is discussed in
 
@@ -355,7 +358,7 @@ and realization of [[GUTs]] in
 
 * [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
 
-The phenomenology of compactifications on Kovalev's compact $G_2$-manifolds ([Kovalev 00](G2+manifold#Kovalev00)) is in
+The phenomenology of compactifications on [[compact twisted connected sum G2-manifolds]] ([Kovalev 00](G2+manifold#Kovalev00)) is in
 
 * {#GHKY17} Thaisa C. da C. Guio, [[Hans Jockers]], [[Albrecht Klemm]], Hung-Yu Yeh, _Effective action from M-theory on twisted connected sum $G_2$-manifolds_ ([arXiv:1702.05435](https://arxiv.org/abs/1702.05435), [talk video](https://lecture2go.uni-hamburg.de/l2go/-/get/v/21906)) 
 
