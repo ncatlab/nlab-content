@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -137,6 +136,7 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 * [[motivic chromatic homotopy theory]]
 
 
+
 ## References 
  {#References}
 
@@ -144,7 +144,7 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 
 A quick idea is given in section 6 of 
 
-* [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
+* [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, pages 57-74 in Part II of: _The Lefschetz Centennial Conference -- Proceedings on Algebraic Topology_, Proceedings of the Lefschetz Centennial Conference held December 10-14, 1984, Contemporary Mathematics 58, American Mathematical Society, 1987.  ([ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]])
 
 A good historical introduction is in 
 
@@ -168,7 +168,7 @@ A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov
 
 A collection of various lecture notes and other material is kept at
 
-* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
+* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](https://www.hiroleetanaka.com/pretalbot2013/index.php)_
 
 Random useful discussion is in 
 
@@ -197,6 +197,8 @@ Categorical [[ultraproducts]] are used to provide asymptotic approximations in
 ### Unstable case
 
 There are also chromatic approximations in ordinary (not [[stabilization|stabilized]]) [[homotopy theory]]:
+
+* [[Aldridge Bousfield]], _Localization and periodicity in unstable homotopy theory_, J. Amer. Math. Soc. 7 (1994), 831-873 ([doi:10.1090/S0894-0347-1994-1257059-7](https://doi.org/10.1090/S0894-0347-1994-1257059-7), [jstor:2152734](https://www.jstor.org/stable/2152734))
 
 * {#Heuts18} [[Gijs Heuts]], _Lie algebras and $v_n$-periodic spaces_ ([arXiv:1803.06325](https://arxiv.org/abs/1803.06325))
 
