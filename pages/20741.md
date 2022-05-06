@@ -31,6 +31,10 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * {#HSTT18} [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and AdS/CFT_,  Phys. Rev. D 98, 046019 (2018) ([arxiv:1802.08313](https://arxiv.org/abs/1802.08313))
 
+A category theoretic treatment of back propagation:
+
+* Brendan Fong, David Spivak, Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455))
+
 
 [[!redirects neural networks]]
 
