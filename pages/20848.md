@@ -16,4 +16,15 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_ ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455))
 
+On [[D6-branes]]/[[KK-monopoles]] in [[M-theory]] discussed via [[G-structure]]:
+
+* [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Adolfo Guarino, _KK-monopoles and $G$-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
+
+On [[de Sitter spacetime]] [[cosmology]] [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
+
+* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
+
+* Souvik Banerjee, [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
+
+
 category: people
