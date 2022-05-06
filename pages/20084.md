@@ -9,6 +9,9 @@
 
 * Marcel Algueró, Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, Javier Virto, _Addendum: "Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data"_ ([arXiv:1903.09578](https://arxiv.org/abs/1903.09578))
 
+* Pere Arnan, [[Andreas Crivellin]], Marco Fedele, Federico Mescia, _Generic Loop Effects of New Scalars and Fermions in $b \to s \ell^+ \ell^-$ and a Vector-like 4th Generation_ ([arXiv:1904.05890](https://arxiv.org/abs/1904.05890))
+
+
 
   (on [[flavour anomalies]] seen at [[LHC]])
 
