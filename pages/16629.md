@@ -20,9 +20,14 @@ A _Kleinian group_ is a [[discrete group|discrete]] [[subgroup]] of the [[projec
 
 * [[Fuchsian group]]
 
+* [[hyperbolic 3-manifolds]]
+
 ## References
 
 * William James Harvey, _Kleinian groups (a survey)_, Séminaire Bourbaki : vol. 1976/77, exposés 489-506,Séminaire Bourbaki no. 19 (1978), Talk no. 491, p. 30-45 ([numdam:SB_1976-1977__19__30_0](http://www.numdam.org/item/SB_1976-1977__19__30_0))
+
+* Gaven J. Martin, _The Geometry and Arithmetic of Kleinian Groups_ ([arXiv:1311.2636](https://arxiv.org/abs/1311.2636))
+
 
 
 See also
