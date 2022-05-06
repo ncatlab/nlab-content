@@ -27,6 +27,8 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 ## Related concepts
 
+* [[equivariant rationalization]]
+
 * [[vector G-space]]
 
 * [[equivariant chain complex]], [[model structure on equivariant chain complexes]]
