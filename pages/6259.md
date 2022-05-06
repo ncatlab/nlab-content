@@ -272,6 +272,11 @@ Surveys include
 
 * {#Szabo12} [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
+An approach based on [[supergeometry]]:
+
+* [[C. A. Cremonini]], [[Pietro Grassi]], _Self-Dual Forms in Supergeometry I: The Chiral Boson_ ([arXiv:2012.10243](https://arxiv.org/abs/2012.10243))
+
+
 ### For the M5-sigma model
 
 The [[sigma-model]] description of the (single) M5-brane of [[Green-Schwarz action functional]]-type was found in covariant form in 
@@ -410,3 +415,5 @@ Review is in ([Szabo 12, section 3.6 and 4.6](#Szabo12)).
 
 [[!redirects higher self-dual gauge field]]
 [[!redirects higher self-dual gauge field]]
+
+[[!redirects self-dual field theory]]
