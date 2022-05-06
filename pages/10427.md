@@ -70,7 +70,7 @@ See also the references at _[[modal type theory]]_.
 
 * {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
 
-* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ [arXiv](https://arxiv.org/abs/1706.07526)
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526))
 
 * [[Mike Shulman]], _[http://homotopytypetheory.org/2015/07/05/modules-for-modalities/](http://homotopytypetheory.org/2015/07/05/modules-for-modalities/)_  (2015)
 
