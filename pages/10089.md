@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[multi-trace operators]] in the [[AdS/CFT correspondence]]:
+
+* [[Eric D'Hoker]], [[Daniel Freedman]], [[Samir Mathur]], A. Matusis, [[Leonardo Rastelli]], _Extremal Correlators in the AdS/CFT Correspondence_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9908160](https://arxiv.org/abs/hep-th/9908160))
+
+
+
 On [[open/closed string duality]]:
 
 * [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
