@@ -70,6 +70,15 @@ See also
 
 See also the references at _[[gravity]]_.
 
+### In relation to thermodynamics
+
+In relation to [[thermodynamics]]
+
+* {#IglesiasSouriau84} [[Patrick Iglesias-Zemmour]], [[Jean-Marie Souriau]] _Heat, cold and Geometry_, in: M. Cahen et al (eds.) Differential geometry and mathematical physics, 37-68, D. Reidel 1983 ([web](http://www.jmsouriau.com/Heat_Cold_And_Geometry_1983.htm), [pdf](http://www.jmsouriau.com/Publications/JMSouriau-PIglesias-HeatColdAndGeometry1983.pdf))
+
+  (on [[thermodynamics]] and [[general relativity]])
+
+
 ### History
 
 * {#Coles01} Peter Coles, _Einstein, Eddington, and the 1919 Eclipse_ ([arxIv:astro-ph/0102462](https://arxiv.org/abs/astro-ph/0102462))
