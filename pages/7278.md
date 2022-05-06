@@ -60,6 +60,12 @@ $$
 
 \linebreak
 
+### Homology
+
+See at _[[homology of iterated loop spaces]]_.
+
+\linebreak
+
 ### Relation to configuration spaces of points
 
 +-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
