@@ -1,5 +1,7 @@
+David Jaz Myers is a graduate student at Johns Hopkins.
 
-* [webpage](https://mathematics.jhu.edu/directory/david-myers/)
+* [personal webpage](http://davidjaz.com/about/)
+* [Johns Hopkins webpage](https://mathematics.jhu.edu/directory/david-myers/)
 
 ## selected writings
 
