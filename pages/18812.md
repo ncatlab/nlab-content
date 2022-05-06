@@ -50,6 +50,8 @@ The collection of all string vacua, possibly subject to some assumptions, has co
 
   * [[vacuum energy]]
 
+  * [[thermal vacuum]], [[KMS state]]
+
   * [[vacuum diagram]]
 
   * [[vacuum stability]]
