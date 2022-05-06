@@ -140,13 +140,13 @@ The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real lin
 
 This is theorem 5.1 in ([Pavlovic–Pratt 1999](#PavlovicPratt)).
 
-There are many ways of setting up this description of $\mathbb{R}^+$, depending on the coalgebra structure $\mathbb{R}^+ \to \omega \cdot \mathbb{R}^+$ chosen. Here is one: identify $\mathbb{R}^+$ with $[1, \infty)$ and $\omega$ with $\mathbb{N}_{\geq 2} = \{n \in \mathbb{N}: n \geq 2\}$. Then define 
+There are many ways of setting up this description of $\mathbb{R}^+$, depending on the coalgebra structure $\mathbb{R}^+ \to \omega \cdot \mathbb{R}^+$ chosen. One is to define 
 
 $$(\alpha, \beta): \mathbb{R}^+ \to \omega \times \mathbb{R}^+$$ 
 
-where $\alpha(x)$ is the smallest integer *strictly* greater than $x$, and $\beta(x) = 1/(\alpha(x) - x)$. Both $\alpha$ and $\beta$ are [[monotone functions]]. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
+where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1$. Then $(\alpha, \beta)$ is a  [[monotone function]]. The stream of integers $a_n = \alpha(\beta^n(x))$ gives a [[continued fraction]] representation of $x$ in the form 
 
-$$x = a_0 - \frac1{a_1 - \frac1{a_2 - \ldots}},$$ 
+$$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is in fact a poset isomorphism if we endow the right-hand side with the [[lexicographic order]]. 
 =--
 
