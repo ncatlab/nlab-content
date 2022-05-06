@@ -120,6 +120,8 @@ One may summarize, that the transcendental logic, in its analytic part, provides
 
 ##### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
 
+###### _Second Section._ On the logical function of the understanding in judgments.
+
 |        |Table of Judgements|               |
 |--------|-------------------|---------------|
 |  $\,$  | __1. Quantity of judgments__ <br/> [[universal quantifier|Universal]] <br/> [[existential quantifier|Particular]] <br/>  Singular | $\,$|
@@ -129,6 +131,8 @@ One may summarize, that the transcendental logic, in its analytic part, provides
 Note that at least in ([Jäsche Logik, 1800](#Jaesche)) the negative and infinite judgements collapse in pure logic:
 
 > Nach dem Principium der Ausschließung jedes Dritten (exclusi tertii) ist die Sphäre eines Begriffs relativ auf eine andre entweder ausschließend oder einschließend. - Da nun die Logik bloß mit der Form des Urteils, nicht mit den Begriffen ihrem Inhalte nach, es zu tun hat: so ist die Unterscheidung der unendlichen von den negativen Urteilen nicht zu dieser Wissenschaft gehörig.
+
+###### _Third Section._ On the pure concepts of the understanding or categories.
 
 "... there arise exactly as many pure concepts of the understanding ... as there were logical functions of all possible judgments in the previous table:" ([A79](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_079.png)/B105 f.)
 
