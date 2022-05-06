@@ -1,4 +1,9 @@
+[[!redirects NikolajKuntner]]
+[[!redirects Nikolaj Kuntner]]
 [[!redirects Nikolaj+Kuntner]]
+[[!redirects Nikolaj-Kuntner]]
+[[!redirects NikolajK]]
+[[!redirects Nikolaj K]]
 [[!redirects Nikolaj+K]]
 [[!redirects Nikolaj-K]]
 
