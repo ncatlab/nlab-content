@@ -93,7 +93,7 @@ In this context the Ryu-Takayanagi formula for holographic entanglement entropy 
 
 ### General
 
-The original article are
+The original articles are
 
 * {#RyuTakayanagi06a} [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Derivation of Entanglement Entropy from AdS/CFT_, Phys. Rev. Lett. 96:181602, 2006 ([arXiv:hep-th/0603001](https://arxiv.org/abs/hep-th/0603001))
 
@@ -103,7 +103,10 @@ A proposal for a conceptual explanation is made in
 
 * {#LewkowyczMaldacena13} Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_, J. High Energ. Phys. (2013) 2013: 90 ([arXiv:1304.4926](https://arxiv.org/abs/1304.4926))
 
-Review is in
+Review:
+
+* [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([https://arxiv.org/abs/0808.3773](https://arxiv.org/abs/0808.3773))
+
 
 * {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Entanglement Entropy: An Overview_, J.Phys.A42:504008,2009 ([arXiv:0905.0932](https://arxiv.org/abs/0905.0932))
 
