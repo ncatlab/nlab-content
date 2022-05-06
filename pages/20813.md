@@ -33,7 +33,7 @@ For [[type IIA string theory]]:
 
 For [[heterotic string theory]]:
 
-* [[Jan Louis]], Danny Martinez-Pedrera, Andrei Micu, _Heterotic compactifications on SU(2)-structure backgrounds_, JHEP 0909:012, 2009 ([arXiv:0907.3799](https://arxiv.org/abs/0907.3799))
+* [[Jan Louis]], Danny Martinez-Pedrera, [[Andrei Micu]], _Heterotic compactifications on SU(2)-structure backgrounds_, JHEP 0909:012, 2009 ([arXiv:0907.3799](https://arxiv.org/abs/0907.3799))
 
 
 [[!redirects M-theory on SU(2)-manifold]]
