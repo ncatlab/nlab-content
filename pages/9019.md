@@ -15,7 +15,7 @@ On [[M-theory on G2-manifolds]]:
 
 * {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, [[Neil Lambert]], _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
 
-* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and four-dimensional physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([doi:10.1088/0264-9381/19/22/301](https://iopscience.iop.org/article/10.1088/0264-9381/19/22/301/meta), [pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
 * {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
 
