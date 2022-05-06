@@ -184,7 +184,7 @@ the flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
  {#TwoSphereAsFlatOrbifold}
  
 
-The [[2-sphere]] arises, in particular, as the [[quotient space]] of the [[torus]] $\mathbb{C}/\mathbb{Z}^2$ by the [[involution]] $z \mapsto -z$, exhibited by the [[Weierstrass elliptic function]] (e.g. [Mukase 04, end of 1.4](Weierstrass+elliptic+function#Mukase04). This realizes the 2-sphere as the underlying coarse space of a [[flat orbifold]] with four singukar points.
+The [[2-sphere]] arises, in particular, as the [[quotient space]] of the [[torus]] $\mathbb{C}/\mathbb{Z}^2$ by the [[involution]] $z \mapsto -z$, exhibited by the [[Weierstrass elliptic function]] (e.g. [Mukase 04, end of 1.4](Weierstrass+elliptic+function#Mukase04). This realizes the 2-sphere as the underlying coarse space of a [[flat orbifold]] with four singular points, called the _[[pillowcase orbifold]]_.
 
 
 
