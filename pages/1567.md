@@ -151,8 +151,7 @@ A distributive lattice that is complete (not necessarily [[completely distributi
     x \wedge (\bigvee_i y_i) = \bigvee_i (x\wedge y_i)
   $$
 
-This property is sufficient to give the lattice [[Heyting algebra]] stucture where the 
-implication $a\Rightarrow b$ (or  [[exponential object]] $b^a$) is: 
+This property is sufficient to give the lattice [[Heyting algebra]] stucture where the implication $a\Rightarrow b$ (or  [[exponential object]] $b^a$) is: 
 
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
 
@@ -184,23 +183,22 @@ Let $FinDistLat$ be the category of finite distributive lattices and lattice hom
 **Proposition.** The [[opposite category]] of $FinDistLat$ is [[equivalence of categories|equivalent]] to $FinPoset$:
 
 $$
-  FinDistLat^{op} \simeq FinPoset
-  \,.
+  FinDistLat^{op} \simeq FinPoset.
 $$
 
-This equivalence is given by the hom-functor
+One direction of this equivalence is given by the hom-functor
 
 $$
   [-,2] \;\colon\; FinDistLat^{op} \stackrel{\simeq}{\to} FinPoset
 $$
 
-where $2$ is the 2-element distributive lattice, and in the other direction by 
+where $2$ is the 2-element distributive lattice and for any $X \in  FinDistLat$, $[X,2]$ is the poset of distributive lattice morphisms from $X$ to $2$.  The other direction is given by 
 
 $$
   [-,2] \;\colon\; FinPoset^{op} \stackrel{\simeq}{\to} FinDistLat
 $$
 
-where $2 = \{0,1\}$ is the 2-element poset with $0 \lt 1$.
+where $2 = \{0,1\}$ is the 2-element poset with $0 \lt 1$ and for any $Y \in \FinPoset$, $[Y,2]$ is the distributive lattice of poset morphisms from $Y$ to $2$.
 
 This __Birkhoff duality__ is (in one form or another) mentioned in many places; the formulation in terms of hom-functors may be found in 
 
