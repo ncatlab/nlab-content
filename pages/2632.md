@@ -383,6 +383,8 @@ Some standard references include
 
 * [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
 
+* [[Klaas Landsman]], _Fundations of Quantum Theory_  Springer 2017 
+
 * P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
 
 * Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_ , Amer. Math. Soc. 2008. 
@@ -392,6 +394,8 @@ Some standard references include
 * F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ 
 
 * [[Valter Moretti]], _Spectral Theory and Quantum Mechanics_ 2nd edition  Springer 2018
+
+* [[Valter Moretti]], _Fundamental Mathematical Structures of Quantum Theory_  Springer 2019
 
 Dicussion of quantum measurement is in
 
