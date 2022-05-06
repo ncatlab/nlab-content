@@ -125,6 +125,10 @@ reviewed in
 * [Fodor-Hoelbling 12, section V of ](#FodorHoelbling12)
 
 
+Discussion specifically of numerical computation of [[from factors]]:
+
+* B.B. Brandt, S. Capitani, M. Della Morte, D. Djukanovic, J. Gegelia, G. von Hippel, A. Juttner, B. Knippschild, H.B. Meyer, H. Wittig, _Form factors in lattice QCD_, Eur. Phys. J. ST 198:79-94, 2011 ([arXiv:1106.1554](https://arxiv.org/abs/1106.1554))
+
 ### Renormalization
 
 A proposal for a rigorous formulation of [[renormalization]] in lattice gauge theory is due to 
