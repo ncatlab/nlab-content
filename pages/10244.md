@@ -26,9 +26,15 @@ A formulation of super-$p$-[[brane]] [[sigma-models]] via maps from a [[worldvol
 
 ## References
 
-Reviews include
+The approach is due to
 
 * [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
+Review includes
+
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
+
+Derivation of [[BPS state|1/2 BPS]] superembedding via [[rational equivariant homotopy theory|rational]] [[ADE-singularity|ADE-]][[equivariant cohomotopy]]:
+
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
