@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,5 +49,4 @@ Reviews and introductions include
 
 [[!redirects thermodynamics limits]]
 
-[[!redirects phase transition]]
-[[!redirects phase transitions]]
+
