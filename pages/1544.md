@@ -433,3 +433,11 @@ Discussion of connection form (mostly on trivial bundles) in [[synthetic differe
 [[!redirects bundles with connection]]
 [[!redirects bundles with connections]]
 
+[[!redirects connection on a circle-bundle]]
+[[!redirects connections on a circle-bundle]]
+[[!redirects connections on circle-bundles]]
+
+[[!redirects connection on a circle bundle]]
+[[!redirects connections on a circle bundle]]
+[[!redirects connections on circle bundles]]
+
