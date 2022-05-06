@@ -20,7 +20,7 @@
 
 The [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[8-manifolds]]. In the low-energy limiting  [[11-dimensional supergravity]] this is KK-compactification to [[3d supergravity]].
 
-Typically this is considered with a [[reduction of the structure group]] on the compactification fiber from [[Spin(8)]] to [[Spin(7)]], in which case one speaks of _M-theory on [[Spin(7)-manifolds]]_. Further reduction to [[G2-structure]] yields [[M-theory on G2-manifolds]].
+Typically this is considered with a [[reduction of the structure group]] on the compactification fiber from [[Spin(8)]] to [[Spin(7)]], in which case one speaks of _M-theory on [[Spin(7)-manifolds]]_ (see the references [below](#ReferencesWithSpin7Structure)). Further reduction to [[G2-structure]] yields [[M-theory on G2-manifolds]].
 
 
 ## Properties
@@ -132,10 +132,6 @@ See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
 
 * {#GukovSparks02} [[Sergei Gukov]], James Sparks, _M-Theory on $Spin(7)$ Manifolds_, Nucl.Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
 
-* [[Sergei Gukov]], James Sparks, David Tong, _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class.Quant.Grav.20:665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
-
-* [[Dimitrios Tsimpis]], _M-theory on eight-manifolds revisited: N=1 supersymmetry and generalized $Spin(7)$ structures_, JHEP 0604 (2006) 027 ([arXiv:hep-th/0511047](https://arxiv.org/abs/hep-th/0511047))
-
 * {#CondeescuMicuPalti14} Cezar Condeescu, Andrei Micu, Eran Palti, _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP04(2014)026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
 * Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, PhysRevD.89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
@@ -149,6 +145,45 @@ See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
 * Elena Mirela Babalic, [[Calin Lazaroiu]], _The landscape of G-structures in eight-manifold compactifications of M-theory_, JHEP11 (2015) 007 ([arXiv:1505.02270](https://arxiv.org/abs/1505.02270))
 
 * Elena Mirela Babalic, [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified G-structures_, JHEP11(2015)174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
+
+### With $Spin(7)$-structure
+  {#ReferencesWithSpin7Structure}
+
+Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (see also at _[[M-theory on G2-manifolds]]_):
+
+* [[Mirjam Cvetic]], [[Gary Gibbons]], H. Lu, [[Christopher Pope]], _New Complete Non-compact Spin(7) Manifolds_, Nucl.Phys.B620:29-54, 2002 ([arXiv:hep-th/0103155](https://arxiv.org/abs/hep-th/0103155))
+
+* Jaydeep Majumder, _Type IIA Orientifold Limit of M-Theory on Compact Joyce 8-Manifold of Spin(7)-Holonomy_, JHEP 0201 (2002) 048 ([arXiv:hep-th/0109076](https://arxiv.org/abs/hep-th/0109076))
+
+* [[Ralph Blumenhagen]], [[Volker Braun]], _Superconformal Field Theories for Compact Manifolds with Spin(7) Holonomy_, JHEP 0112:013, 2001 ([arXiv:hep-th/0111048](https://arxiv.org/abs/hep-th/0111048))
+
+* [[Sergei Gukov]], James Sparks, David Tong, _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class.Quant.Grav.20:665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
+
+* [[Melanie Becker]], Dragos Constantin, [[Sylvester James Gates Jr.]], William D. Linch III, Willie Merrell, J. Phillips, _M-theory on Spin(7) Manifolds, Fluxes and 3D, N=1 Supergravity_, Nucl.Phys. B683 (2004) 67-104 ([arXiv:hep-th/0312040](https://arxiv.org/abs/hep-th/0312040))
+
+* Dragos Constantin, _M-Theory Vacua from Warped Compactifications on Spin(7) Manifolds_, Nucl.Phys.B706:221-244, 2005 ([arXiv:hep-th/0410157](https://arxiv.org/abs/hep-th/0410157))
+
+* Dragos Constantin, _Flux Compactification of M-theory on Compact Manifolds with Spin(7) Holonomy_, Fortsch.Phys. 53 (2005) 1272-1329 ([arXiv:hep-th/0507104](https://arxiv.org/abs/hep-th/0507104))
+
+* [[Dimitrios Tsimpis]], _M-theory on eight-manifolds revisited: N=1 supersymmetry and generalized $Spin(7)$ structures_, JHEP 0604 (2006) 027 ([arXiv:hep-th/0511047](https://arxiv.org/abs/hep-th/0511047))
+
+* S. Salur, O. Santillan, _New Spin(7) holonomy metrics admiting G2 holonomy reductions and M-theory/IIA dualities_, Phys.Rev.D79:086009, 2009 ([arXiv:0811.4422](https://arxiv.org/abs/0811.4422))
+
+* Thomas Bruun Madsen, _Spin(7)-manifolds with three-torus symmetry_, J.Geom.Phys.61:2285-2292, 2011 ([arXiv:1104.3089](https://arxiv.org/abs/1104.3089))
+
+* Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on Spin(7) Manifolds_, JHEP01(2014)112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+
+* Federico Bonetti, [[Thomas Grimm]], Eran Palti, Tom G. Pugh, _F-Theory on Spin(7) Manifolds: Weak-Coupling Limit_, JHEP02(2014)076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
+
+
+* Tom Pugh, _M-theory on $Spin(7)$-manifold duals and their F-theory duals_ (<a href="http://indico.hep.manchester.ac.uk/getFile.py/access?contribId=282&sessionId=7&resId=0&materialId=slides&confId=4221">pdf</a>)
+
+
+* [[Andreas Braun]], Sakura Schaefer-Nameki, _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
+
+  (generalization of [[compact twisted connected sum G2-manifolds]])
+
+
 
 ### M2-brane spacetimes
 
