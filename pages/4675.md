@@ -1022,30 +1022,27 @@ from observation \ref{LongFiberSequenceOnLieAlgebras} of the [[string Lie 2-alge
 
 A discussion of differential string structures in terms of [[bundle 2-gerbe]]s is given in
 
-* [[Konrad Waldorf]], _String Connections and Chern-Simons Theory_, Trans. Amer. Math. Soc. **365** (2013), 4393-4432, doi:[10.1090/S0002-9947-2013-05816-3](https://doi.org/10.1090/S0002-9947-2013-05816-3) arXiv:[0906.0117](http://arxiv.org/abs/0906.0117).
-{#Waldorf}
+* {#Waldorf} [[Konrad Waldorf]], _String Connections and Chern-Simons Theory_, Trans. Amer. Math. Soc. **365** (2013), 4393-4432, ([arXiv:0906.0117](http://arxiv.org/abs/0906.0117), [doi:10.1090/S0002-9947-2013-05816-3](https://doi.org/10.1090/S0002-9947-2013-05816-3))
+
 
 The description of the [[gauge transformation]]s of the [[supergravity C-field]] is in section 3 of
 
-E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
- {#DFM}
+{#DFM}* E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
+ 
 
 The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential string structures as above was given in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], 
-  _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ 
-  {#SSSIII}
+* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],  _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ 
+  
 
 The full Cech-Deligne cocycles induced by this (but not yet the homotopy fibers over them) were discussed in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], 
-  _[[schreiber:Cech cocycles for differential characteristic classes]]_ 
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_ 
 
 The 2-group $String^{\mathbf{c}_2}$ and its differential structurs, etc. are discussed in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
-  _Higher differential $Spin^c$-structures_
- {#FiSaSc}
+* {#FiSaSc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differential $Spin^c$-structures_
+ 
 
 A comprehensive discussion including all the formal background and the applications is attempted at
 
@@ -1055,13 +1052,13 @@ in section 4.2.
 
 The relation to [[quantum anomaly]] cancellation in [[heterotic string theory]] has been first discussed in 
 
-* Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588
- {#Killingback}
+* {#Killingback} Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588
+ 
 
 and given a rigorous treatment in 
 
-* [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
- {#Bunke}
+* {#Bunke} [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
+ 
 
 More discussion on the relation to spin structures on smooth loop space is in
 
