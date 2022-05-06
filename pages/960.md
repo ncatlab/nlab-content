@@ -124,9 +124,41 @@ For more on this see at _[maybe monad -- EM-Category and Relation to pointed obj
 
 ### Of pointed topological spaces
 
-The most common case when $C$ is a category of [[topological spaces]].  In that case, the [[natural transformation|natural]] [[continuous function|map]] $A\wedge (B\wedge C)\to (A\wedge B)\wedge C$ is a [[homeomorphism]] provided $C$ is a [[locally compact Hausdorff space]]. Thus if both $A$ and $C$ are locally compact Hausdorff, then we have the [[associativity]] $A\wedge(B\wedge C)\cong (A\wedge B)\wedge C$. 
+The most common case when $C$ is a category of [[topological spaces]].  In that case, the [[natural transformation|natural]] [[continuous function|map]] $A \wedge (B \wedge C) \to (A\wedge B)\wedge C$ is a [[homeomorphism]] provided $C$ is a [[locally compact Hausdorff space]]. Thus if both $A$ and $C$ are locally compact Hausdorff, then we have the [[associativity]] $A\wedge(B\wedge C)\cong (A\wedge B)\wedge C$. 
 
 Associativity fails in general for the category [[Top]] of all topological spaces; however, it is satisfied for pointed objects in any [[convenient category of topological spaces]], since such a category is cartesian closed.  In particular, the smash product is associative for pointed [[compactly generated spaces]].
+
+
++-- {: .num_prop #OnePointCompactificationAndSmashProduct}
+###### Proposition
+**([[one-point compactification intertwines Cartesian product with smash product]])
+
+On the [[subcategory]] $Top_{LCHaus}$ of [[Top]] on the [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] 
+
+$$
+  (-)^{cpt}
+  \;\colon\;
+  Top_{LCHaus}
+  \longrightarrow 
+  Top^{\ast/}
+$$
+
+sends [[Cartesian products]] ([[product topological spaces]]) to [[smash products]] of [[pointed topological spaces]], hence constitutes a [[strong monoidal functor]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+
+$$
+  \big(
+    X \times Y 
+  \big)^{cpt}
+  \;\simeq\;
+  X^{cpt} \wedge Y^{cpt}
+  \,.
+$$
+
+=--
+
+This is briefly mentioned in [Bredon 93, p. 199](#Bredon93).
+The argument is spelled out in: [MO:a/1645794/](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+
 
 ### Of spectra
 
@@ -144,7 +176,16 @@ See at _[[symmetric smash product of spectra]]_.
 
 ## References
 
-On the general definition of smash products via [[closed monoidal category]] structure on [[pointed objects]]
+Basic accounts:
+
+* {#Bredon93} [[Glen Bredon]], p. 199 of: _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+
+Review:
+
+* {#Cutler20} Tyrone Cutler, _The category of pointed topological spaces_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]])
+
+
+On the general definition of smash products via [[closed monoidal category]] structure on [[pointed objects]]:
 
 * {#ElmendorfMandell07} [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
  
