@@ -19,7 +19,6 @@
 
 ## Idea
 
-
 The third [[stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
 
 $$
@@ -49,6 +48,10 @@ where the generator $[1] \in \mathbb{Z}/24$ is represented by the [[quaternionic
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
+## Properties
+
+### As the third framed bordism group 
+
 Under the [[Pontrjagin-Thom isomorphism]], identifying the [[stable homotopy groups of spheres]] with the [[bordism ring]] $\Omega^{fr}_\bullet$ of [[stable framing|stably framed]] manifolds (see at _[[MFr]]_), this generator is represented by the [[3-sphere]] (with its left-invariant framing induced from the identification with the [[Lie group]] [[SU(2)]] $\simeq$ [[Sp(1)]] )
 
 
@@ -62,6 +65,10 @@ $$
 $$
 
 Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold (e.g. [Wang-Xu 10, Sec. 2.6](#WangXu10), [Bauer 10](#Bauer10), [SP 17](#SP17)).
+
+### Via the fourth $(U,fr)$-bordism group
+
+(...)
 
 ## Related concepts
 
