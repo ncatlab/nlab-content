@@ -20,9 +20,9 @@
 
 ## Idea
 
-For $p$ any [[prime number]], the _$p$-adic [[numbers]]_ $\mathbb{Q}_p$ (or _$p$-adic rational numbers_, for emphasis) are a [[field]] that [[complete field|completes]] the field of [[rational numbers]]. As such they are analogous to [[real numbers]]. A crucial difference is that the reals form an [[archimedean field]], while the $p$-adic numbers form a [[non-archimedean field]].
+For $p$ any [[prime number]], the _$p$-adic [[numbers]]_ (or _$p$-adic rational numbers_, for emphasis) form a [[field]] $\mathbb{Q}_p$ that [[complete field|completes]] the field of [[rational numbers]] with respect to a [[metric]], called the $p$-adic metric. As such they are analogous to [[real numbers]]. A crucial difference is that the reals form an [[archimedean field]], while the $p$-adic numbers form a [[non-archimedean field]].
 
-$p$-Adic numbers play a role in non-archimedean [[analytic geometry]] that is analogous to the role of the [[real numbers]]/[[Cartesian spaces]] in ordinary [[differential geometry]]. 
+Fields of $p$-adic numbers play a role in non-archimedean [[analytic geometry]] that is analogous to the role of the [[real numbers]]/[[Cartesian spaces]] in ordinary [[differential geometry]]. 
 
 Moreover, as such they serve as an approximation technique in [[arithmetic geometry]] over [[prime fields]] $\mathbb{F}_p$ (see e.g. [Lubicz](#Lubicz)).
 
