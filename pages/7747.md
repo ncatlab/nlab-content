@@ -109,7 +109,7 @@ This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence
 
 ### Stable homotopy elements
 
-Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $dim(G)=k$ give rise to elements $[G,\mathcal{L}]$ in the stable homotopy group $\pi_k^s$ of spheres. One can restrict attention to semisimple Lie groups $G$ since this construction behaves well with respect to products, $G \to T\times G/T$ gives a framed diffeomorphism and  $[S^1,\mathcal{L}] \in \pi_1^s$ is the generator. The following facts are assembled from ([Ossa 1982](https://doi.org/10.1016/0040-9383(82%2990013-1)) and ([Minami 2016](http://projecteuclid.org/euclid.jmsj/1468956166))
+Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $dim(G)=k$ give rise to elements $[G,\mathcal{L}]$ in the stable homotopy group $\pi_k^s$ of spheres. One can restrict attention to semisimple Lie groups $G$ since this construction behaves well with respect to products, $G \to T\times G/T$ gives a framed diffeomorphism and  $[S^1,\mathcal{L}] \in \pi_1^s$ is the generator. The following facts are assembled from ([Ossa 1982](#Ossa82)) and ([Minami 2016](#Minami16)).
 
 * For any *semisimple* compact connected Lie group $G$, Ossa proved that $72[G,\mathcal{L}]=0$. In particular the only possible torsion is at the primes 2 and 3.
 
@@ -174,10 +174,19 @@ The [[moduli space of framed surfaces]] is discussed in
 
 * [[Rob Kirby]], [[Paul Melvin]], _Canonical framings for 3-manifolds_, Turkish Journal of Mathematics, volume 23, number 1,1999 ([[KirbyMelvon3Framings.pdf:file]])
  
-The relation to "[[2-framings]]" is duscussed in
+The relation to "[[2-framings]]" is discussed in
 
 * {#Atiyah} [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
 
+### Left invariant framings on compact connected Lie groups
+
+* {#Ossa82} Erich Ossa, Lie groups as framed manifolds, Topology, 21 (1982), 315–323, ([doi](https://doi.org/10.1016/0040-9383%2882%2990013-1))
+
+* {#Minami16} Haruo Minami, _On framed simple Lie groups_, ([pdf](http://projecteuclid.org/euclid.jmsj/1468956166))
+
+For an extension to [[p-compact groups]] see
+
+* [[Tilman Bauer]], _p-compact groups as framed manifolds_, ([paper](https://people.kth.se/~tilmanb/publication/p-compact-groups-as-framed-manifolds/))
 
 
 
