@@ -21,7 +21,7 @@ $$\| f\|_{L_p} = \left(\int_\Omega |f|^p d\mu\right)^{1/p}$$
 
 is finite. For $p = \infty$, one looks at the [[essential supremum]] norm $\|f\|_{L_\infty}$ instead.
 
-For $1\leq p \leq \infty$, and $k\geq 1$ the **Sobolev space** $W^k_p = W^k_p(\Omega)$ or $W^{k,p}(\Omega)$ is the space of measurable functions $f$ on $\Omega$ such that its generalized [[partial derivative]]s $\partial_1^{i_1}\ldots\partial_n^{i_n} f$ (e.g. in the sense of [[generalized function]]s) for all multiindices $i = (i_1,\ldots, i_n)\in\mathbb{Z}^n_{\geq 0}$ with $i_1+\ldots +i_n\leq k$ are in $L_p(\Omega)$. The most important case is the case of the Sobolev spaces $H^k(\Omega) := W^k_2(\Omega)$. Sobolev spaces are particularly important in the theory of partial differential equations. 
+For $1\leq p \leq \infty$, and $k\geq 1$ the **Sobolev space** $W^k_p = W^k_p(\Omega)$ or $W^{k,p}(\Omega)$ is the [[Banach space]] of measurable functions $f$ on $\Omega$ such that its generalized [[partial derivative]]s $\partial_1^{i_1}\ldots\partial_n^{i_n} f$ (e.g. in the sense of [[generalized function]]s) for all multiindices $i = (i_1,\ldots, i_n)\in\mathbb{Z}^n_{\geq 0}$ with $i_1+\ldots +i_n\leq k$ are in $L_p(\Omega)$. The most important case is the case of the Sobolev spaces $H^k(\Omega) := W^k_2(\Omega)$. Sobolev spaces are particularly important in the theory of partial differential equations. 
 
 ## References
 
