@@ -80,11 +80,11 @@ The analogous statement in [[topology]] is:
 
 A proof of the statement appears in
 
-* {#KolarSlovakMichor93} Ivan Kolar, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993) ([web](http://www.emis.de/monographs/KSM/))
+* {#KolarSlovakMichor93} Ivan Kolar, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993) ([book webpage](http://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3))
 
 Discussion that takes the dual algebraic formulation as the very definition of [[smooth functions]] is in
 
-* {#Nestruev03} [[Jet Nestruev]], section 6 of _Smooth manifolds and Observables_, Graduate texts in mathematics 218, 2003
+* {#Nestruev03} [[Jet Nestruev]], section 6 of: _Smooth manifolds and Observables_, Graduate Texts in Mathematics 218, Springer 2003 ([doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871))
 
 The analog of the statement for real algebras refined to [[smooth algebras]] is theorem 2.8 in
 
