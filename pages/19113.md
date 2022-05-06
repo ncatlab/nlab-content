@@ -23,7 +23,10 @@ By a _finite rotation group_ one means a [[finite]] [[subgroup]] of a rotation g
 The finite subgroups of $SO(3)$ and $SU(2)$ follow an [[ADE classification]] (theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} below).
 
 
-## Statement
+
+## Classifcations
+
+### Finite subgroups of $O(3)$, $SO(3)$ and $Spin(3)$
 
 +-- {: .num_theorem #ClassificationOfFiniteSubgroupsOfSO3}
 ###### Theorem
@@ -45,6 +48,17 @@ all the finite subgroups of $SU(2)$ except the odd-order [[cyclic groups]] are t
 
 This goes back to ([Klein 1884, chapter I](#Klein1884)). 
 Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). The proof for the case of $SL(2,\mathbb{C})$ is spelled out in ([Miller-Blichfeldt-Dickson 16](#MillerBlichfeldtDickson16)) reviewed in ([Serrano 14, section 2](#Serrano14)). The proof of the case for $SU(2)$ given the result for $SO(3)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
+
+### Finite subgroups of $O(4)$, $SO(4)$ and $Spin(4)$
+
+For classification of the finite subgroups of $O(4)$ see ([duVal 65](#DuVal65), [Conway-Smith 03](#ConwaySmith03))
+
+For finite subgroups of $Spin(4)$: [MFF 12, appendix B](#MFF12).
+
+### Finite subgroups of $O(5)$
+
+For classification of the finite subgroups of $O(5)$ see [Mecchia-Zimmermann 10](#MecchiaZimmermann10)
+
 
 ## Properties
 
@@ -137,6 +151,8 @@ of Prop. \ref{GroupCohomologyOfFiniteSubgroupsOfSU2}, regarded as expressing [[o
 
 ## Related concepts
 
+* [[regular polytope]], [[regular polyhedron]]
+
 * [[ADE singularity]]
 
 * [[McKay correspondence]]
@@ -147,6 +163,8 @@ of Prop. \ref{GroupCohomologyOfFiniteSubgroupsOfSU2}, regarded as expressing [[o
 
 ## References
   {#References}
+
+### Finite subgroups of $SO(3)$ and $Spin(3)$
 
 The classification in Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} goes back to
 
@@ -185,6 +203,21 @@ The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Pl
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
+### Finite subgroups of $O(4)$
+
+* {#DuVal65} [[Patrick du Val]], _Homographies, Quaternions and Rotations_, Oxford Mathematical Monographs, Clarendon Press (1964)
+
+  also(?): Journal of the London Mathematical Society, Volume s1-40, Issue 1 (1965) ([doi:10.1112/jlms/s1-40.1.569b](https://doi.org/10.1112/jlms/s1-40.1.569b))
+
+* {#ConwaySmith03} [[John Conway]], D. A. Smith, _On quaternions and octonions: their geometry, arithmetic and 
+symmetry_ A K Peters Ltd., Natick, MA, 2003
+
+* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], appendix B of _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
+### Finite subgroups of $O(5)$
+
+* {#MecchiaZimmermann10} Mattia Mecchia, Bruno Zimmermann, _On finite groups acting on homology 4-spheres and finite subgroups of $SO(5)$_, Topology and its Applications 158.6 (2011): 741-747 ([arXiv:1001.3976](https://arxiv.org/abs/1001.3976))
+
 
 [[!redirects classification of the finite rotation groups]]
 
@@ -193,6 +226,20 @@ The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Pl
 
 [[!redirects finite subgroup of SU(2)]]
 [[!redirects finite subgroups of SU(2)]]
+
+
+[[!redirects finite subgroup of O(4)]]
+[[!redirects finite subgroups of O(4)]]
+
+[[!redirects finite subgroup of SO(4)]]
+[[!redirects finite subgroups of SO(4)]]
+
+
+[[!redirects finite subgroup of O(5)]]
+[[!redirects finite subgroups of O(5)]]
+
+[[!redirects finite subgroup of SO(5)]]
+[[!redirects finite subgroups of SO(5)]]
 
 
 [[!redirects classification of finite rotation groups]]
