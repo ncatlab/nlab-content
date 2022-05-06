@@ -154,9 +154,14 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 ### General
 
-General introduction:
+Textbook accounts
 
-* S. Chmutov, Sergei Duzhin, J. Mostovoy, Section 3.4 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628))
+
+* S. Chmutov, Sergei Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
+* [[David Jackson]], [[Iain Moffat]], _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
+
+
 
 For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see:
 
