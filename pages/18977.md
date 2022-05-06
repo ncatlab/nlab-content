@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include philosophy - contents]]
 =--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
 =--
 =--
 
@@ -13,7 +17,15 @@
 * table of contents
 {: toc}
 
+
 ##Idea
+
+
+\begin{center}_Ordo et connexio idearum idem est ac ordo et connexio rerum._[^ref]
+\end{center}
+
+[^ref]: [[Baruch Spinoza|Baruch de Spinoza]], Ethices Pars Secunda, propositio VII.
+
 
 The **principle of compositionality** asserts that the nature of complex structures is entirely determined by that of their simpler parts and the way these are composed.
 
@@ -67,6 +79,15 @@ The principle was promoted in [[linguistics]] via [[Montague semantics]]:
 Montague relied on 
 
 * {#Tarski35} [[Alfred Tarski]], 1935, _The Concept of Truth in Formalized Languages_, in Logic, Semantics, Metamathematics, Indianapolis: Hackett 1983, 2nd edition, 152–278.
+
+A concise and formal discussion of this tradition is
+
+* Theo Janssen, _Compositionality_ , ch.7 of van Benthem/ter Meulen (eds.), _Handbook of Logic and Language_ , North-Holland Amsterdam 1997.
+
+A somewhat critical reassessment of the concept from a mathematical POV is the monograph
+
+* {#Kracht11}[[Marcus Kracht]], _Interpreted Languages and Compositionality_ , Springer Heidelberg 2011.
+
 
 See also
 
