@@ -1,7 +1,11 @@
 
 * [webpage](http://www.maths.ed.ac.uk/~jmf/)
 
+## selected writings
 
+* {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 7: _Riemannian holonomy_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture7.pdf))
+
+  (on [[spin geometry]])
 
 ## Related $n$Lab entries
 
@@ -48,6 +52,8 @@
 * [[super Cartan geometry]]
 
 * [[geometric quantization]]
+
+* [[quaternion-Kähler manifold]]
 
 * [[geometry of physics -- fundamental super p-branes]]
 
