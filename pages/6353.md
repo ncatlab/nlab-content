@@ -24,15 +24,15 @@
 
 ## Idea
 
-A _T-fold_ ([Hull 04](#Hull04)) is supposed to be a kind of [[space]] that locally looks like a [[Riemannian manifold]] equipped with a [[B-field]], but which is glued together from these not just by [[diffeomorphisms]] (as a [[smooth manifold]] is) but also by [[T-duality]] transformations along some [[torus]] [[fibers]].
+A _T-fold_ ([Hull 04](#Hull04)) is supposed to be a kind of [[space]] that locally has [[charts]] which are [[Riemannian manifolds]] equipped with a [[B-field]] (i.e. a [[circle 2-bundle with connection]] or [[bundle gerbe with connection]]) but where the charts are glued together  not just by [[diffeomorphisms]] (as an ordinary [[smooth manifold]] is) but also by [[T-duality]] transformations along some [[torus]] [[fibers]].
 
-The idea is that a T-fold is a [[target space]] for a [[string]] [[sigma-model]] that is only locally a [[Riemannian manifold]] but globally a more general kind of [[geometry]]. In the literature sometimes the term _[[non-geometric backgrounds]]_ is used for such "generalized geometric" backgrounds.
+The idea is that a T-fold is a [[target space]] for a [[string]] [[sigma-model]] that is only locally a [[Riemannian manifold]] but globally a more general kind of [[geometry]], due due [[duality in string theory]]. In the literature sometimes the term _[[non-geometric backgrounds]]_ is used for such "generalized geometric" backgrounds.
 
-It is expected that T-folds should have a description in terms of spaces that locally are [[fiber products]] of one [[torus]] [[fiber bundle]] with its T-dual. (One proposed formalization is that these are the total spaces of [[principal 2-bundles]] for the [[T-duality 2-group]]). 
+It is expected that T-folds should have a description in terms of spaces that locally are [[fiber products]] of one [[torus]] [[fiber bundle]] with its T-dual, as the correspondence spaces considered in [[topological T-duality]]. In the [[rational homotopy theory|rational]]/[[Lie theory|infinitesimal]] approximation this is derived from analysis of [[geometry of physics -- fundamental super p-branes|super p-brane WZ-terms ]] in [FSS 16](#FSS16). A proposal for a (non-supersymmetric) global description of T-folds as total spaces of [[principal 2-bundles]] for the [[T-duality 2-group]] is in [Nikolaus-Waldorf 18](#NikolausWaldorf18).
 
-One may then consider [[local field theory]] on these double torus fibrations, and this is, or is closely related to, what is called _[[double field theory]]_ ([Hull 06](#Hull06)).
+One may then consider [[local field theory]] on these double torus fibrations, and this should be closely related to what is called _[[double field theory]]_ ([Hull 06](#Hull06)).
 
-A mathematical formlization of the idea of T-folds, in terms of [[principal 2-bundles]] for the [[T-duality 2-group]] (hence in [[higher differential geometry]]) is developed in [Nikolaus-Waldorf 18](#NikolausWaldorf18).
+
 
 ## Related concepts
 
@@ -67,8 +67,14 @@ Further developments are in
 
 * Yoan Gautier, [[Chris Hull]], Dan Israël, _Heterotic/type II Duality and Non-Geometric Compactifications_ ([arXiv:1906.02165](https://arxiv.org/abs/1906.02165))
 
+The local [[superspace]] [[supergeometry]] of T-folds is identified in 
 
-A precise global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]] described in the nLab entry _[[T-Duality and Differential K-Theory]]_ is given in 
+* {#FSS16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/) ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3))
+
+see also at _[[topological T-duality]]_.
+
+
+A global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]] as described in _[[T-Duality and Differential K-Theory]]_ is proposed in 
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _T-Duality in K-theory and elliptic cohomology_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
