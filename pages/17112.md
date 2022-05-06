@@ -25,7 +25,9 @@ This page collects linkes related to
 
   _[[Handbook of Algebraic Topology]]_
 
-  (1995)
+  Oxford 1995
+
+  [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7)
 
 on [[parameterized homotopy theory]].
 
