@@ -79,7 +79,7 @@ The theory can be presented (in some sense very parsimoniously) by 10 axioms and
 
 1. $a b \equiv c c \vdash a = b$, 
 
-1. $\vdash \; (\exists x)\; B q a x \wedge a x \equiv b c$ (segment construction: given a line segment $b c$ and a line from $q$ to $a$, one can extend that line in that direction by a segment $a x$ congruent to $b c$), 
+1. $\vdash \; (\exists x)\; B q a x \wedge a x \equiv b c$ (segment construction: given a line segment $b c$ and a line segment from $q$ to $a$, one can extend that line segment in that direction by a segment $a x$ congruent to $b c$), 
 
 1. $a \neq b, B a b c, B a' b' c', a b \equiv a' b', b c \equiv b' c', a d \equiv a' d', b d \equiv b' d' \;\; \vdash \;\; c d \equiv c' d'$ (5 segment axiom), 
 
