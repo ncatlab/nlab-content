@@ -67,7 +67,7 @@ $$ R^i_{\;j} = \frac{1}{2}\partial_l \left(\partial^i(\phi k^l k^j)+\partial_j(\
 $$ (\mathrm{d}F)^0 = \nabla^2\phi = 0 $$
 $$ (\mathrm{d}F)^i = \partial_j \left(\partial^j(\phi k^i)-\partial^i(\phi k^j)\right) = 0$$
 
-* The [[Klein–Gordon equation]] for the scalar field $\Phi$ are
+* The [[Klein-Gordon equation]] for the scalar field $\Phi$ are
 $$\nabla^2\Phi = 0$$
 
 #### Outlook
