@@ -20,9 +20,12 @@
 
 ## Idea
 
-A _neutron_ is certain a [[bound state]] of three [[quarks]], hence a [[baryon]].
+A _proton_ is a [[bound state]] of one [[up quarks]] and two [[down quark]], hence a [[baryon]]. 
 
 The [[bound states]] of [[protons]] and [[neutrons]] (jointly: [[nucleons]]) in turn are the [[nucleus (physics)|nuclei]], the cores of [[atoms]].
+
+
+[[!include flavors of fundamental particles -- table]]
 
 
 ## Related entries
