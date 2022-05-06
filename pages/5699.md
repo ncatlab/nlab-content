@@ -43,7 +43,7 @@ On [[D0-D4-brane bound states]]:
 
 * [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
 
-with emphasis to the resulting [[configuration spaces of points]], as in
+with emphasis on the resulting [[configuration spaces of points]]:
 
 * [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
 
@@ -92,6 +92,23 @@ On [[E-strings]]:
 * {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, Jaemo Park, [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
 * {#GHKKLV15} Abhijit Gadde, Babak Haghighat, Joonho Kim, Seok Kim, Guglielmo Lockhart, [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+
+On [[swampland conjectures]]:
+
+
+* {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
+
+
+* {#OoguriVafa06} [[Hirosi Ooguri]], [[Cumrun Vafa]], _On the Geometry of the String Landscape and the Swampland_, Nucl.Phys.B766:21-33, 2007 ([arXiv:hep-th/0605264](https://arxiv.org/abs/hep-th/0605264))
+
+* {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
+
+
+
+* Jacob McNamara, [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355))
+
+* Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Four Dimensional $\mathcal{N}=4$ SYM and the Swampland_ ([arXiv:1912.06144](https://arxiv.org/abs/1912.06144))
+
 
 ## Related $n$Lab entries
 
