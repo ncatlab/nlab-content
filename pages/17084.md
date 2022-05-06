@@ -55,8 +55,16 @@ Hence, odd dimensional $n$-spheres are [[rational homotopy equivalence|rationall
 
 * [[Serre finiteness theorem]]
 
+* [[Sullivan model of a spherical fibration]]
+
+* [[Sullivan model of mapping space]]
+
+* [[Sullivan model of free loop space]]
 
 [[!redirects rational n-spheres]]
 
 [[!redirects rational sphere]]
 [[!redirects rational spheres]]
+
+[[!redirects Sullivan model of a sphere]]
+[[!redirects Sullivan models of spheres]]
