@@ -33,7 +33,7 @@ $$
 given by
 
 $$
- \mu_X (Q)(U) := \int_{q \in P(X)} ev_U(q) dQ.
+ \mu_X (Q)(U) := \int_{q \in G(X)} ev_U(q) dQ.
 $$
 This makes the [[endofunctor]] $G$ into a [[monad]], and this is the _Giry monad_  on Measurable spaces, as originally given by Lawvere.
 
