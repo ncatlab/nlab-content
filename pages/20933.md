@@ -1,6 +1,6 @@
-[[!redirects cohomology of knot graph complex is weight systems on chord diagrams]]
 
-> under construction
+
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -370,4 +370,12 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 
 * {#CattaneoCottaRamusinoLongoni02} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
 
+Discussion of the [[universal Vassiliev invariant]] of the [[unknot]]:
 
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+
+
+
+[[!redirects universal Vassiliev invariant]]
+
+[[!redirects cohomology of knot graph complex is weight systems on chord diagrams]]
