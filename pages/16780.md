@@ -143,9 +143,11 @@ See also
 * {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
 
 
+
 [[!redirects tetrahedral groups]]
 
 [[!redirects binary tetrahedral group]]
 [[!redirects binary tetrahedral groups]]
 
-[[SL(2,3)]]
+[[!redirects 2T]]
+[[!redirects SL(2,3)]]
