@@ -17,11 +17,9 @@
 
 ## Idea
 
-(...)
+Rozansky-Witten weight systems are [[weight systems]] on [[Jacobi diagrams]] ([[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] on [[round chord diagrams]]) given by [[Rozansky-Witten invariants]] on [[hyperkähler manifolds]], with [[coefficients]] in certain [[Dolbeault cohomology]] [[cohomology groups|groups]].
 
-[[weight systems]] on [[Jacobi diagrams]] ([[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] on [[round chord diagrams]]) given by [[Rozansky-Witten invariants]]
-
-(...)
+For [[compact hyperkähler manifolds]] the induced RW-weight systems take values in the [[ground field]] and hence are actual [[weight systems]].
 
 ## Examples
 
