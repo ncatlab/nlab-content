@@ -96,10 +96,34 @@ There are [[isomorphisms]] of [[Lie groups]]
 
 See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms)_.
 
+
 +-- {: .num_prop}
 ###### Proposition
 
-The [[Lie algebra]] $\mathfrak{su}(2)$ as a [[matrix Lie algebra]] is the sub Lie algebra on those matrices of the form
+The [[maximal torus]] of $SU(2)$ is the [[circle group]] $U(1)$. In the above [[matrix group]] presentation this is naturally identified with the subgroup of matrices of the form
+
+$$
+  \left(
+    \array{
+      t & 0 
+      \\
+      0 & t^{-1}
+    }
+  \right)
+  \;\;
+  with
+  t \in U(1) \hookrightarrow \mathbb{C}
+  \,.
+$$
+
+=--
+
+### Lie algebra
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Lie algebra]] $\mathfrak{su}(2)$ (see also at [[su(2)]]) as a [[complex numbers|complex]] [[matrix Lie algebra]] is the sub Lie algebra on those matrices of the form
 
 $$
   \left(
@@ -117,6 +141,8 @@ $$
 $$
 
 =--
+
+(
 
 +-- {: .num_defn}
 ###### Definition
@@ -170,7 +196,7 @@ These are called the _[[Pauli matrices]]_.
 +-- {: .num_prop}
 ###### Proposition
 
-The [[Pauli matrices]] satisfy the [[commutator]] relations
+The [[Pauli matrices]] satisfy the [[commutator]] [[relations]]
 
 $$
   [\sigma_1, \sigma_2] = \sigma_3
@@ -188,26 +214,8 @@ $$
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
 
-The [[maximal torus]] of $SU(2)$ is the [[circle group]] $U(1)$. In the above [[matrix group]] presentation this is naturally identified with the subgroup of matrices of the form
-
-$$
-  \left(
-    \array{
-      t & 0 
-      \\
-      0 & t^{-1}
-    }
-  \right)
-  \;\;
-  with
-  t \in U(1) \hookrightarrow \mathbb{C}
-  \,.
-$$
-
-=--
+### Coadjoint orbits
 
 +-- {: .num_prop}
 ###### Proposition
