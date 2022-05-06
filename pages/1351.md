@@ -12,7 +12,7 @@
 
 #Idea#
 
-Complicial sets are precisely those [[simplicial set]]s which arise as the [[oriental|omega nerve]] of a [[strict omega-category]].
+Complicial sets are precisely those [[stratified simplicial set]]s which arise as the [[oriental|omega nerve]] of a [[strict omega-category]].
 
 
 
