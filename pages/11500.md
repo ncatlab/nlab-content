@@ -60,6 +60,8 @@ $$\int_0^1 \left[f(\zeta) + \epsilon\,\exp(2\pi\mathrm{i}t) \frac{\partial f(\ze
 
 * [[Cauchy's integral theorem]]
 
+* [[Cauchy's theorems]]
+
 * [[Goursat theorem]]
 
 
