@@ -62,7 +62,7 @@ Review includes
 
 * {#Sachdev18} [[Subir Sachdev]], _The SYK model_, talk at [Aspen Center for Physics](https://www.aspenphys.org/), 2018 ([pdf](http://qpt.physics.harvard.edu/talks/aspen_tutorial18.pdf))
 
-* {#Rosenhaus19} Vladimir Rosenhaus, _An introduction to the SYK model_,  Journal of Physics A: Mathematical and Theoretical, Volume 52, Number 32 ([arrXiv:1807.03334](https://arxiv.org/abs/1807.03334), [doi:10.1088/1751-8121/ab2ce1](https://iopscience.iop.org/article/10.1088/1751-8121/ab2ce1))
+* {#Rosenhaus19} Vladimir Rosenhaus, _An introduction to the SYK model_,  Journal of Physics A: Mathematical and Theoretical, Volume 52, Number 32 ([arXiv:1807.03334](https://arxiv.org/abs/1807.03334), [doi:10.1088/1751-8121/ab2ce1](https://iopscience.iop.org/article/10.1088/1751-8121/ab2ce1))
 
 The model is due to
 
