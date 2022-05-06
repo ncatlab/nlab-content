@@ -37,9 +37,76 @@ The term "K3" is
 
 * All K3 surfaces are [[simply connected]]. 
 
-* The [[Hodge diamond]] is completely determined (even in positive [[characteristic]]) and hence the  [[Hodge-de Rham spectral sequence]] degenerates at $E_1$. This also implies that the [[Betti numbers]] are completely determined as $1, 0, 22, 0, 1$. 
-
 * Over the [[complex numbers]] they are all [[Kähler manifold|Kähler]], and even [[hyperkähler manifold|hyperkähler]].
+
+### Cohomology
+
++-- {: .num_prop}
+###### Proposition
+**([[integral cohomology]] of [[K3-surface]])**
+
+The [[integral cohomology]] of a K3-surface $X$ is 
+
+$$
+  H^n(X,\mathbb{Z})
+  \;\simeq\;
+  \left\{
+  \array{
+    \mathbb{Z} &\vert& n = 0
+    \\
+    0 &\vert& n = 1
+    \\
+    \mathbb{Z}^{22} &\vert& n = 2
+    \\
+    0 &\vert& n = 3
+    \\
+    \mathbb{Z} &\vert& n = 4
+  }
+  \right.
+$$
+
+=--
+
+(e.g. [Barth-Peters-Van den Ven 84, VIII Prop. 3.2](#BarthPetersVandenVen84))
+
++-- {: .num_prop #BettiNumbers}
+###### Proposition
+**([[Betti numbers]] of a [[K3-surface]])**
+
+
+The [[Hodge diamond]] is completely determined (even in positive [[characteristic]]) and hence the  [[Hodge-de Rham spectral sequence]] degenerates at $E_1$. This also implies that the [[Betti numbers]] are completely determined as $1, 0, 22, 0, 1$:
+
+$$
+  \array{
+    && h^{0,0}
+    \\
+    & h^{1,0} && h^{0,1}
+    \\
+    h^{2,0} & & h^{1,1} & & h^{0,2}
+    \\
+    & h^{2,1} & & h^{1,2}
+    \\
+    && h^{2,2}
+  }
+  \;\;\;=\;\;\;
+  \array{
+    && 1
+    \\
+    & 0 && 0
+    \\
+    1 & & 20 & & 1
+    \\
+    & 0 & & 0
+    \\
+    && 
+    1
+  }
+$$
+
+=--
+
+(e.g. [Barth-Peters-Van den Ven 84, VIII Prop. 3.3](#BarthPetersVandenVen84))
+
 
 ### Moduli of higher line bundles and deformation theory
  {#ModuliOfHigherLineBundles}
@@ -78,6 +145,10 @@ Original sources include
 
 * {#Weil79} [[Andre Weil]], Final report on contract AF 18 (603)-57. In Scientific works. Collected papers. Vol. II (1951-1964). 1979.
 
+Textbook accounts include
+
+* {#BarthPetersVandenVen84} W. Barth, C. Peters, A. Van den Ven, chapter VII of _Compact complex surfaces_, Springer 1984
+
 Lecture notes include
 
 * [[Daniel Huybrechts]], _Lectures on K3-surfaces_ ([pdf](http://www.math.uni-bonn.de/people/huybrech/K3Global.pdf))
@@ -95,20 +166,25 @@ Discussion of the [[deformation theory]] of K3-surfaces (of their [[Picard schem
 ### In string theory
   {#InStringTheory}
 
+In [[string theory]], the [[KK-compactification]] of [[type IIA string theory]]/[[M-theory]]/[[F-theory]] on K3-[[fibers]] is supposed to exhibit te [[duality between M/F-theory and heterotic string theory]], originally due to
 
-In [[string theory]]:
+* [[Chris Hull]], [[Paul Townsend]], section 6 of _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+
+* {#Witten95} [[Edward Witten]], section 4 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+Review includes
+
+* {#Aspinwall96} [[Paul Aspinwall]], _K3 Surfaces and String Duality_, in  [[Shing-Tung Yau]] (ed.): _Differential geometry inspired by string theory_ 1-95 ([arXiv:9611137](https://arxiv.org/abs/hep-th/9611137), [spire:426102](http://inspirehep.net/record/426102))
+
+Further discussion includes
 
 * [[Paul Aspinwall]], [[David Morrison]], _String Theory on K3 Surfaces_, in [[Brian Greene]], [[Shing-Tung Yau]] (eds.), _Mirror Symmetry II_, International Press, Cambridge, 1997, pp. 703-716 ([arXiv:hep-th/9404151](https://arxiv.org/abs/hep-th/9404151))
 
 * [[Paul Aspinwall]], _Enhanced Gauge Symmetries and K3 Surfaces_, Phys.Lett. B357 (1995) 329-334 ([arXiv:hep-th/9507012](http://arxiv.org/abs/hep-th/9507012))
 
-* {#Aspinwall96} [[Paul Aspinwall]], _K3 Surfaces and String Duality_, in  [[Shing-Tung Yau]] (ed.): _Differential geometry inspired by string theory_ 1-95 ([arXiv:9611137](https://arxiv.org/abs/hep-th/9611137) [spire:426102](http://inspirehep.net/record/426102))
+Specifically in relation to the putative [[K-theory]]-classification of [[D-brane charge]]:
 
-See also the references at 
-
-* [[duality between F-theory and heterotic string theory]]
-
-* [[duality between M-theory and heterotic string theory]]
+* {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008,2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
 
 Specifically in [[M-theory on G2-manifolds]]:
