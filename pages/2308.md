@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -13,6 +17,14 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Given any notion of _[[cohomology]]_ defined on [[pointed objects]], the corresponding _reduced cohomology_ is that part of the cohomology which vanishes on the basepoint. 
+
+Specifically for [[Whitehead-generalized cohomology theories]] the reduced cohomology is the cohomology relative to the base point, hence is the [[kernel]] of the operation of [[pullback in cohomology|pullback]] to the base point See [below](#RelationToUnreducedCohomology) and see at _[generalized cohomology -- Relation between reduced and unreduced](generalized+Eilenberg-Steenrod+cohomology#RelationBetweenReducedAndUnreduced)_ for more.
+
+
+
 ## Definition
 
 +-- {: .num_defn #ReducedGeneralizedCohomology}
@@ -23,7 +35,11 @@ A **reduced [[cohomology theory]]** is a [[functor]]
 $$
   \tilde E^\bullet 
    \;\colon\; 
-  (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
+  \big(
+    Top^{\ast/}_{CW}
+  \big)^{op} 
+    \longrightarrow 
+  Ab^{\mathbb{Z}}
 $$
 
 from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
@@ -31,11 +47,15 @@ from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-
 $$
   \tilde E 
     \;\colon\; 
-  (X \stackrel{f}{\longrightarrow} Y)
-    \mapsto
-  (\tilde E^\bullet(Y) 
-    \stackrel{f^\ast}{\longrightarrow}
-  \tilde E^\bullet(X))
+  \big(
+    X \stackrel{f}{\longrightarrow} Y
+  \big)
+    \;\mapsto\;
+  \big(
+    \tilde E^\bullet(Y) 
+      \stackrel{f^\ast}{\longrightarrow}
+    \tilde E^\bullet(X)
+  \big)
   \,,
 $$
 
@@ -122,26 +142,35 @@ $$
 $$
 
 ### Relation to unreduced cohomology
+ {#RelationToUnreducedCohomology}
 
-For an unreduced [[cohomology theory]] $E^\bullet$  the induced **reduced cohomology** is
+For an unreduced [[cohomology theory]] $E^\bullet$  the induced **reduced cohomology** is the [[kernel]] of operation of [[pullback in cohomology|pullback]] to the base point.
 
 $$
-  \tilde E^k(X,x_0) \coloneqq E^k(X,\{x_0\}) = ker(H^k(X)\to H^k(\{x_0\}))
+  \tilde E^k(X,x_0) 
+    \;\coloneqq\; 
+  E^k(X,\{x_0\}) 
+    \;=\; 
+  ker\big(
+    H^k(X) \to H^k(\{x_0\}) 
+  \big)
 $$
 
-e.g. [AGP 02, theorem 12.1.12](#AGP02)
+(e.g. [AGP 02, theorem 12.1.12](#AGP02)).
 
-For more see at _[generalized cohomology -- Relation btween reduced and unreduced](generalized+Eilenberg-Steenrod+cohomology#RelationBetweenReducedAndUnreduced)_.
+For more see at _[generalized cohomology -- Relation between reduced and unreduced](generalized+Eilenberg-Steenrod+cohomology#RelationBetweenReducedAndUnreduced)_.
 
 ## Related entries
 
 * [[reduced homology]]
 
+* [[vanishing at infinity]]
+
 ## References
 
 See the references at _[[generalized (Eilenberg-Steenrod) cohomology]]_.
 
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
