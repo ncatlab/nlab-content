@@ -44,11 +44,25 @@ in terms of counting pseudo-holomorphic disks into $X$ whose boundaries
 lie on the given Lagrangian submanifolds, but when intersections are
 nontransverse, the definition of $m_k$ becomes more evasive.
 
-## In quantum field theory and string theory
+## In string theory
+
+### A-Model topological string
 
 In [[string theory]], the Fukaya category of a [[symplectic manifold]] $X$ represents the category of [[D-branes]] in the [[A-model]] -- the [[A-branes]] -- with [[target space]] $X$. For [[Landau-Ginzburg models]], the category of [[A-branes]] is described by [[Fukaya-Seidel categories]].
 
-The assignment that sends a [[symplectic manifold]] to its Fukaya category extends to a [[functor]] on a variant of the [[symplectic category]] with [[Lagrangian correspondences]] as morphisms. This is supposed to be the [[FQFT]] incarnation of [[Donaldson theory]]. See at _[[Lagrangian correspondences and category-valued TFT]]_ for more on this.
+The assignment that sends a [[symplectic manifold]] to its Fukaya category extends to a [[functor]] on a variant of the [[symplectic category]] with [[Lagrangian correspondences]] as morphisms. This is supposed to be the [[FQFT]] incarnation of [[Donaldson theory]]. See at _[[Lagrangian correspondences and category-valued TFT]]_ for more on this and see at _[[homological mirror symmetry]]_.
+
+### Yukawa couplings in intersecting D-brane models
+
+In [[intersecting D-brane models]] Yukawa couplings are encoded by [[worldsheet instantons]] of open strings stretching between the [[brane intersection|intersecting]] [[D-branes]] (see [Marchesano 03, Section 7.5](#Marchesano03)). Mathematically this is encoded by  [[derived hom-spaces]] in a [[Fukaya category]] (see [Marchesano 03, Section 7.5](#Marchesano03)).
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/YukawaFukaya.jpg" width="600">
+\end{center}
+
+> table grabbed from [Marchesano 03](#Marchesano03)
+
 
 ## Related concepts
 
@@ -79,7 +93,7 @@ Discussion of the relation to [[Lagrangian cobordism]] is in
 * [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_ ([arXiv:1109.4835](http://arxiv.org/abs/1109.4835))
   {#NadlerTannaka11}
 
-Relation to [[intersecting D-brane models]]:
+Relation to [[Yukawa couplings]] in [[intersecting D-brane models]]:
 
 * {#Marchesano03} [[Fernando Marchesano]], section 7.5 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
