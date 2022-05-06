@@ -160,7 +160,6 @@ Finally, because $R: Set^{\Delta^{op}} \to Top$ is product-preserving and preser
   [[equivariant triangulation theorem]]
 
 
-
 ## References
 
 See also 
