@@ -7,9 +7,9 @@ I am a PhD student at [Departament of Mathematics](http://www.mat.ufmg.br/posgra
 
 Presently I am mainly interested in (higher) gauge theory, geometric regularity theory, in finding general theorems on emergence between field theories,  in applying categorification methods in algebra and differential geometry, in abstracting standard results and in the axiomatization problem of Astrophysics.
 
-I am a co-founder of a research group on mathematical-physics and categorification, called Algebraic, Categorical and Geometric Methods in Physics (or just Math-Phys-Cat Group). For our website, see [here](https://math-phys.group/).
+I am a co-founder of a research group on mathematical-physics and categorification, called Algebraic, Categorical and Geometric Methods in Physics (or just [Math-Phys-Cat Group](https://ncatlab.org/nlab/show/Math-Phys-Cat)). For our website, see [here](https://math-phys.group/).
 
-You can also find me on: [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR). For my CV, see [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
+You can also find me on: [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [HAL](https://hal.archives-ouvertes.fr/search/index/?q=yuri-ximenes-martins&submit=),  [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR). For my CV, see [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
 
 The best way to contact me is through the email yurixm@ufmg.br. 
 
@@ -93,7 +93,5 @@ Currently I am (co)advising four master students (joint [[Rodney Josué Biezuner
 
 
 category: people
-
-[[Math-Phys-Cat]]
 
 [[!redirects Yuri Martins]]
