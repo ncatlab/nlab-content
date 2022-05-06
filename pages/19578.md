@@ -105,6 +105,12 @@ Relation to [[AdS-CFT duality]]:
 
 * {#Soda10} Jiro Soda, _AdS/CFT on the brane_, Lect.Notes Phys.828:235-270, 2011 ([arXiv:1001.1011](https://arxiv.org/abs/1001.1011))
 
+### Cosmology
+
+Discussion of [[cosmology]] on branes in $\sim$ [[anti de Sitter]]-[[near horizon geometry|throat]] geometries:
+
+* Tetsuya Shiromizu, Daisuke Ida, _Anti-de Sitter no-hair, AdS/CFT and the brane-world_, Phys. Rev. D64 (2001) 044015 ([arXiv:hep-th/0102035](https://arxiv.org/abs/hep-th/0102035))
+
 On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
 
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
