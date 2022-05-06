@@ -29,17 +29,24 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 * [[superpoint]], [[Grassmann algebra]]
 
+* [[determinant]]
+
 * [[superdeterminant]]/[[Berezinian]]
+
+* [[Ausdehnungslehre]]
 
 ## References
 
 The concept is originally due to [[Felix Berezin]].
 
-An exposition of the standard lore is here: 
+Exposition of the standard lore includes
+
+* [[Andreas Wipf]], _Chapter 10: Berezin integral_ ([pdf](https://www.tpi.uni-jena.de/qfphysics/homepage/wipf/lectures/pfad/pfad10.pdf))
 
 * [[Urs Schreiber]], [_Integration over supermanifolds_](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
 
-A general abstract discussion in terms of [[D-module]] theory is in 
+
+A [[general abstract]] discussion in terms of [[D-module]] theory is in 
 
 * [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
 
