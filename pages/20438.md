@@ -27,14 +27,7 @@ A project bringing [[formal proof]] and [[proof assistants]] (particularly [[Lea
 
 ## Related projects
 
-* [[UniMath project]]
-
-* [[ForMath project]]
-
-* [[The QED Project]]
-
-* [[Archive of Formal Proofs]]
-
+[[!include proof assistants and formalization projects -- list]]
 
 ## References
 
