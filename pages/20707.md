@@ -10,9 +10,16 @@ On the [[Drinfeld-Kohno theorem]]:
 * [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002. x+172 pp.
 
 
-On [[loop spaces]] and the [[rational homotopy theory|rational]] [[homotopy groups]] of [[configuration spaces of points]]:
+On [[loop spaces]] and the [[rational homotopy theory|rational]] [[homotopy groups]] and [[rational cohomology]] of [[configuration spaces of points]]:
+
+* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, Contemporary Mathematics 179 (1994): 123-123.
 
 * {#Kohno02} [[Toshitake Kohno]], _Loop spaces of configuration spaces and finite type invariants_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arXiv:math/0211056](https://arxiv.org/abs/math/0211056))
+
+and on the relation of their [[ordinary homology]] to [[Vassiliev invariants]]:
+
+* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, Contemporary Mathematics 179 (1994): 123-123.
+
 
 On [[arithmetic topology]]:
 
