@@ -114,6 +114,10 @@ and specifically discussion of [[leptoquarks]] and possible relation to [[flavou
 
 * Ufuk Aydemir, Djordje Minic, Chen Sun, Tatsu Takeuchi, _$B$-decay anomalies and scalar leptoquarks in unified Pati-Salam models from noncommutative geometry_, JHEP 09 (2018) 117 ([arXiv:1804.05844](https://arxiv.org/abs/1804.05844))
 
+See also:
+
+* Fabien Besnard, _Extensions of the noncommutative Standard Model and the weak order one condition_ ([arXic:2011.02708](https://arxiv.org/abs/2011.02708))
+
 
 
 Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetime]] to the [[4-sphere]] (see also at _[[Cohomotopy]]_) is claimed in
