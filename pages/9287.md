@@ -17,7 +17,7 @@
 
 A _(quasi-)triangular Hopf algebra_ is a [[Hopf algebra]] whose underlying [[bialgebra]] is a [[quasitriangular bialgebra|(quasi-)triangular]].  This means that its [[category of modules]] is not just a [[rigid monoidal category]] but a [[braided monoidal category]]/[[symmetric monoidal category]].
 
-If this rigid symmetric monoidal category in addition satisfies a certain regularity condition (see [here](Deligne%27s+theorem+on+tensor+categories#Regularity)) then the corresponding triangular Hopf algebra is equivalent to a  [[superalgebra|supercommutative]]] Hopf algebra, hence to the [[formal dual]] of a affine algebraic [[supergroup]]. See at _[[Deligne's theorem on tensor categories]]_ for more on this.
+If this rigid symmetric monoidal category in addition satisfies a certain regularity condition (see [here](Deligne%27s+theorem+on+tensor+categories#Regularity)) then the corresponding triangular Hopf algebra is equivalent to a  [[superalgebra|supercommutative]] Hopf algebra, hence to the [[formal dual]] of a affine algebraic [[supergroup]]. See at _[[Deligne's theorem on tensor categories]]_ for more on this.
 
 ## Definition
 
