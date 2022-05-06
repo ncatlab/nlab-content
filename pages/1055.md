@@ -1,4 +1,3 @@
-[[!redirects etale space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -58,7 +57,7 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  
 
 
-To quote from the [Wiktionnaire française](http://fr.wiktionary.org/wiki/%C3%A9tale):
+To quote from the [Wiktionnaire française](https://fr.wiktionary.org/wiki/%C3%A9tale):
 
 > '&#233;tale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
 ('flot' = 'flow' and 'jusant' = 'ebb').
@@ -81,11 +80,13 @@ There is an interesting stanza from a song of L&#233;o Ferr&#233;:
 He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
 
-* [Further reference](http://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling)
+* [Further reference](https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling)
+
 
 ## Related concepts
 
 * [[étale groupoid]], [[étale infinity-groupoid]]
+
 
 ## References
 
@@ -98,13 +99,15 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 [[!redirects étalé spaces]]
 [[!redirects étale space]]
 [[!redirects étale spaces]]
-[[!redirects etalé spaces]]
 [[!redirects etalé space]]
+[[!redirects etalé spaces]]
 [[!redirects espace étalé]]
 [[!redirects espaces étalés]]
+[[!redirects espace etale]]
+[[!redirects espaces etales]]
+
 [[!redirects sheaf space]]
 [[!redirects sheaf spaces]]
+
 [[!redirects display space]]
 [[!redirects display spaces]]
-
-[[!redirects espaces etales]]
