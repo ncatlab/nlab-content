@@ -23,5 +23,9 @@ On [[orbifolds]] in [[mathematical physics]] and in particular in [[string theor
 
 * [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310, American Mathematical Society, 2002
 
+On [[gauged linear sigma-models]]:
+
+* Huijun Fan, Tyler Jarvis, [[Yongbin Ruan]], _A Mathematical Theory of the Gauged Linear Sigma Model_ ([arXiv:1506.02109](https://arxiv.org/abs/1506.02109))
+
 
 category: people
