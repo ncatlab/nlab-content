@@ -98,8 +98,6 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 Literature discussing $E_{11}$ [[U-duality]] and in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]].
 
-* {#West97} [[Peter West]], _$E_{11}$ and M Theory_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
-
 Review includes
 
 * [[Peter West]], section 17.5 of _[[Introduction to Strings and Branes]]_
