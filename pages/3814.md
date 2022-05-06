@@ -101,6 +101,10 @@ Strikingly, this  exact gauge group (eq:ExactGSM) of the standard model of parti
 
 1. ...the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
 
+### Fermion content
+
+[[!include flavors of fundamental particles -- table]]
+
 
 ## Tension with experiment and Incompleteness
  {#TensionWithExperiment}
