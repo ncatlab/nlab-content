@@ -5,7 +5,7 @@
 
 ## Idea
 
-The fundamental theorem of the [[infinitesimal calculus]] (FTC) states that the [[antiderivative]]s and [[indefinite integral]]s of a [[function]] (typically a [[real number|real]]-valued function on a closed [[interval]] in the [[real line]]) are the same.  It is now such a truism that calculus textbooks tend to use 'indefinite integral' to simply mean an antiderivative, but there is a different concept, definable from the [[definite integral]] and sometimes called the *semidefinite* integral, that is really in play here.
+The fundamental theorem of the [[infinitesimal calculus]] (FTC) states that the [[antiderivatives]] and [[indefinite integrals]] of a [[function]] (typically a [[real number|real]]-valued function on a closed [[interval]] in the [[real line]]) are the same.  It is now such a truism that calculus textbooks tend to use 'indefinite integral' to simply mean an antiderivative, but there is a different concept, definable from the [[definite integral]] and sometimes called the *semidefinite* integral, that is really in play here.
 
 The FTC is usually split into two parts.  The first part (sometimes called the second part) states that every indefinite integral is an antiderivative.  The second part (sometimes called the first part) states that every antiderivative is an indefinite integral.  Somewhere in here (usually in the first part) we also want to state that such antiderivatives and indefinite integrals actually exist.  Their uniqueness (such as it is) may also be included.
 
