@@ -30,17 +30,21 @@ Plans for Ethereum future from Ethereum Foundation as of May 2019:
 * Andrew Ashikhmin, Alexey Akhunov, _Red queen's sync protocol for Ethereum_, github/[pdf](https://github.com/yperbasis/silkworm/raw/master/doc/sync_protocol_v1.pdf)
 * [cointelegraph.com/news/an-ethereum-20-proof-of-stake-testnet-blockchain-is-now-live](https://cointelegraph.com/news/an-ethereum-20-proof-of-stake-testnet-blockchain-is-now-live)
 
-### Ethereum Virtual Machine, storage and smart contracting on Ethereum
+### Ethereum virtual machine, storage and smart contracting
 
 * EVM [storage layout](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-2-storage-layout-bc5349cb11b7)
 * [2018/03/09/understanding-ethereum-smart-contract-storage](https://programtheblockchain.com/posts/2018/03/09/understanding-ethereum-smart-contract-storage)
 * solidity [docs](https://solidity.readthedocs.io)
+* solidity "guide", [bitdegree](https://www.bitdegree.org/learn/solidity)
 * [stm](https://abhiroop.github.io/BlockChain-STM), [smart contract misconceptions](https://www.coindesk.com/three-smart-contract-misconceptions), [more storage](https://applicature.com/blog/blockchain-technology/ethereum-smart-contract-storage), [contract call at later time](https://ethereum.stackexchange.com/questions/42/how-can-a-contract-run-itself-at-a-later-time), Where do smart contracts reside in blockchain [stackoverflow](https://stackoverflow.com/questions/42081194/where-do-smart-contracts-reside-in-blockchain-ethereum-or-hyperledger), [chronos](https://www.stateofthedapps.com/dapps/chronos)
 * [viper](https://ethereumclassic.github.io/blog/2017-03-13-viper)
 * A. Unterweger et al. _Lessons learned from implementing a privacy-preserving
 smart contract in Ethereum”_, 2018 9th IFIP Intern. Conf. on
 New Technologies, Mobility and Security (NTMS) Feb. 2018, pp. 1–5
 [doi](https://doi.org/10.1109/NTMS.2018.8328739)
+* Ethereum Alarm Clock [documentation](http://docs.ethereum-alarm-clock.com/en/latest)
+* _How can a contract run itself at a later time?_, [
+ethereum.stackexchange](https://ethereum.stackexchange.com/questions/42/how-can-a-contract-run-itself-at-a-later-time)
 
 ### Others
 
