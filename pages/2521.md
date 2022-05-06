@@ -75,9 +75,13 @@ Introductory lecture notes include
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
-* L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
 
 * [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
+
+Discussion via [[functorial geometry]]:
+
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
+
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
