@@ -14,7 +14,6 @@ on the occasion of Hyman Bass's 65th birthday_, a volume of _Contemporary Mathem
 
 * [[motivic cohomology]]
 
-
 category: people
 
 [[!redirects C. Weibel]]
