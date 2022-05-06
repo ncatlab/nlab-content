@@ -147,3 +147,9 @@ This is a traditional description of the associated bundle in question.
 
 * [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) 
 
+[[!redirects associated bundles]]
+
+[[!redirects associated fiber bundle]]
+[[!redirects associated fiber bundles]]
+
+
