@@ -11,7 +11,7 @@ Here is a very incomplete list of software available for mathematics, especially
 
 ## Category theory
 
-* [Quantomatic](https://sites.google.com/site/quantomatic/)
+* [Quantomatic](http://quantomatic.github.io/)
 * [[TwoVect]]
 * The [Fusion Atlas](http://tqft.net/wiki/Atlas_of_subfactors)
 
