@@ -57,7 +57,7 @@ $$
   \array{
     A &\overset{f}{\longrightarrow}& E
     \\
-    \cup & \nearrow_{\mathrlap{ \widehat{f} }}
+    \cap & \nearrow_{\mathrlap{ \widehat{f} }}
     \\
     X
   }
