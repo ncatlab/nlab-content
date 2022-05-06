@@ -45,6 +45,17 @@ On [[discrete torsion]]:
 
 * [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, _Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier_, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
 
+On [[vortex strings]]:
+
+* [[Amihay Hanany]], [[David Tong]], _Vortices, Instantons and Branes_, JHEP 0307 (2003) 037 ([arXiv:hep-th/0306150](https://arxiv.org/abs/hep-th/0306150))
+
+* [[Amihay Hanany]], [[David Tong]], _Vortex Strings and Four-Dimensional Gauge Dynamics_, JHEP 0404 (2004) 066 ([arXiv:hep-th/0403158](https://arxiv.org/abs/hep-th/0403158))
+
+* {#Tong09} [[David Tong]], _Quantum Vortex Strings: A Review_, Annals Phys. 324:30-52, 2009 ([arXiv:0809.5060](https://arxiv.org/abs/0809.5060))
+
+* [[David Tong]], _Vortices, Strings, and Vortex Strings_ ([[TongVortexStrings.pdf:file]])
+
+
 On [[heterotic M-theory on ADE-orbifolds]]:
 
 * Santiago Cabrera, [[Amihay Hanany]], [[Marcus Sperling]], _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
