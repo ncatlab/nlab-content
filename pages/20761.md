@@ -48,8 +48,7 @@ and a more recent view of duality between Hopf algebra approach and an approach 
 
 Introduction to Ch. 7 says in Timmerman's book says
 
-> Multiplicative unitaries are fundamental to the theory of quantum groups in the set-
-ting of $C^*$-algebras and [[von Neumann algebra]]s, and to generalizations of [[Pontrjagin duality]]. Roughly, a multiplicative unitary is one single map that encodes all structure maps of a quantum group and of its generalized Pontrjagin dual simultaneously.
+> Multiplicative unitaries are fundamental to the theory of quantum groups in the setting of $C^*$-algebras and [[von Neumann algebra]]s, and to generalizations of [[Pontrjagin duality]]. Roughly, a multiplicative unitary is one single map that encodes all structure maps of a quantum group and of its generalized Pontrjagin dual simultaneously.
 
 Woronowicz has introduced managaeble multiplicative unitaries
 
@@ -85,5 +84,13 @@ Kashaev has explained the pentagon relations for quantum [[dilogarithm]] as comi
 The multiplicative unitary representing quantum dilogarithm has been studied analytically, in the disguise of a quantum exponential, in relation to the construction of "noncompact quantum ax+b group" in
 
 * [[S. L. Woronowicz]], _Quantum exponential function_, Reviews in Mathematical Physics __12__:06,  873-920 (2000) [doi](https://doi.org/10.1142/S0129055X00000344)
+
+The formalism is also in
+
+* S. L. Woronowicz, From multiplicative unitaries to quantum groups, Internat. J. Math. 7(1) (1996) 127–149 [doi](https://doi.org//10.1142/S0129167X96000086), MR 1369908
+* P. M. Sołtan, S. L. Woronowicz, _From multiplicative unitaries to quantum groups. II_, J. Funct. Anal
+252(1), 42–67 (2007) [doi](https://doi.org/10.1016/j.jfa.2007.07.006)
+* [[Ralf Meyer]], Sutano Roy, [[S. L. Woronowicz]], _Quantum group-twisted tensor products of $C^*$-algebras_, Int. J. __25__:02, 1450019 (2014) [doi](https://doi.org/10.1142/S0129167X14500190); _Semidirect products of $C^*$-quantum groups: multiplicative unitaries approach_, Commun. Math. Phys. __351__, 249–282 (2017) [doi](https://doi.org/10.1007/s00220-016-2727-3)
+* Ralf Meyer, Sutanu Roy, _Braided multiplicative unitaries as regular objects_, Adv. Stud. Pure Math., Operator Algebras and Mathematical Physics, M. Izumi, Y. Kawahigashi, M. Kotani, H. Matui, N. Ozawa, eds. (Tokyo: Mathematical Society of Japan, 2019) 153 - 178 [doi](https://doi.org/10.2969/aspm/08010153)
 
 The role of quantum torus is here quite clear; later treatments of more general quantum [[dilogarithm]]s influenced by Kontsevich-Soibelman work on [[wall crossing]] and related Goncharov's cluster varieties quantization also witness the appearance of the similar quantum torus. 
