@@ -36,7 +36,7 @@ $$
 
 ## In classical mechanics -- Hamiltonians and Lagrangians
 
-The main application of and the historical root of the notion of Legendre transform (in [[differential geometry]]) is in [[classical physics]] and its formalization by [[symplectic geometry]]. In [[classical mechanics]], the [[Hamiltonian]] function $H$ is a Legendre transform of the [[Lagrangean]] $L$ and vice versa. 
+The main application of and the historical root of the notion of Legendre transform (in [[differential geometry]]) is in [[classical physics]] and its formalization by [[symplectic geometry]]. In [[classical mechanics]], the [[Hamiltonian]] function $H$ is a Legendre transform of the [[Lagrangian]] $L$ and vice versa. 
 
 When one formalizes [[classical mechanics]] as the [[local prequantum field theory]] given by [[prequantized Lagrangian correspondences]], then the Legendre transform is exhibited by the lift from a [[Lagrangian correspondence]] to a [[prequantized Lagrangian correspondence]]. For more on this see at _[The classical action, the Legendre transform and Prequantized Lagrangian correspondences](prequantized+Lagrangian+correspondence#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_.
  
