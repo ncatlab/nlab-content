@@ -56,6 +56,10 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## Related concepts
 
+[[!include superconformal symmetry -- table]]
+
+<br/>
+
 [[!include table of branes]]
 
 ## References
