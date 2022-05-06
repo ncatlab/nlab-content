@@ -34,7 +34,7 @@ In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become no
 
 If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once beyond 5[[standard deviation|σ]] uncertainty), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
 
-Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)).
+Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)).
 
 
 ## Contributions
@@ -88,6 +88,10 @@ Discussion of precision experiment and possible deviation from theory:
 Possible explanation of the anomaly in the anomalous magnetic moments in terms of [[leptoquarks]]:
 
 * {#BauerNeubert15} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
+
+* {#CCDM16} Estefania Coluccio Leskow, Andreas Crivellin, Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
+
+
 
 * {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
 
