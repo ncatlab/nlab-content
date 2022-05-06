@@ -17,7 +17,19 @@
 
 ## Idea 
 
-From the [[nPOV]], a [[cohomology]] set $H(X,A)$ of cohomology classes on an [[object]] $X$ with coefficients in an [[object]] $A$ in an [[(∞,1)-topos]] is the [[decategorification]] of an [[derived hom space|hom ∞-groupoid]] $\mathbf{H}(X,A)$. The objects in this $\infty$-groupoid are called **cocycles** . The morphisms are called _coboundaries_ .
+From the [[nPOV]], a [[cohomology]] set $H(X,A)$ of cohomology classes 
+
+1. on a [[domain]] [[object]] $X$ 
+
+1. with [[coefficients]] in an [[object]] $A$ 
+
+1. in an [[(∞,1)-topos]] $\mathbf{H}$ 
+
+is the [[connected components]]/[[decategorification]] of 
+
+* the [[derived hom space|hom ∞-groupoid]] $\mathbf{H}(X,A)$ -- the [[cocycle space]].
+
+The [[objects]] in this [[cocycle space]] [[∞-groupoid]] $\mathbf{H}(X,A)$ are called **cocycles**; the [[morphisms]] are called _[[coboundaries]]_.
 
 For suitable choices of $\mathbf{H}$ this applies notably to cocycles in
 
