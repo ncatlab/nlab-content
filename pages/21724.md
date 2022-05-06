@@ -1,4 +1,25 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,7 +27,8 @@
 
 ## Idea
 
-The generalization of the [[PL de Rham theorem]] to the [[equivariant PL de Rham complex]] in [[equivariant rational homotopy theory]].
+The equivariant PL de Rham theorem ([Triantafillou 82, Theorem 4.9](#Triantafillou82))
+is the generalization of the [[PL de Rham theorem]] to the [[equivariant PL de Rham complex]] in [[equivariant rational homotopy theory]].
 
 ## Related concepts
 
