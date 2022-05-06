@@ -16,9 +16,14 @@
 
 ## Idea
 
-(...)
+What is known as the _Banach-Tarski paradox_ is the [[theorem]] ([Banach-Tarski 24](#BanachTarski24)) that the [[axiom of choice]] implies that any two [[bounded subsets]] in [[Euclidean space]] of [[dimension]] $d \geq 3$ may be partitioned by a [[finite number]] of  pairwise congruent [[subsets]].
+
+This is perceived as a [[paradox]] due to its counter-intuitive interpretation, which becomes particularly vivd if one takes one of the two bounded subsets to be the [[disjoint union]] of two copied of the other: In this case the theorem says, intuitively, that it is possible to break up any shape in 3d [[Euclidean space]] into a [[finite number]] of pieces, such that re-assembling these pieces suitably yields not just the original shape, but that and an entire other copy of it.
+
+It has been pointed out that it is not just the use of the [[axiom of choice]] that is responsible for this perceived [[paradox]], but also the point-based concept of [[topological spaces]] as such, see the discussion _In point-free topology_ [below](#InPointFreeTopology).
 
 ## In point-free topology
+ {#InPointFreeTopology}
 
 It is argued in ([Simpson 12](#Simpson12)) that the Banach-Tarski paradox disappears if one works in [[point-free topology]], hence with [[locales]] instead of just [[topological spaces]]:
 
@@ -29,6 +34,10 @@ It is argued in ([Simpson 12](#Simpson12)) that the Banach-Tarski paradox disapp
 
 
 ## References
+
+The original article is
+
+* {#BanachTarski24} [[Stefan Banach]], [[Alfred Tarski]], _Sur la décomposition des ensembles de points en parties respectivement congruentes_  Fundamenta Mathematicae (in French). 6: 244–277, 1924 ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm6/fm6127.pdf))
 
 See also:
 
