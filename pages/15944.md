@@ -18,7 +18,7 @@
 
 ## Idea
 
-Arithmetic cryptography is the developing subject that describes [public key cryptography](http://en.wikipedia.org/wiki/Public-key_cryptography) systems based on the use of arithmetic geometry of schemes (or [[global analytic spaces]]) over $\mathbb{Z}$.
+Arithmetic cryptography is the developing subject that describes [public key](http://en.wikipedia.org/wiki/Public-key_cryptography) [[cryptography]] systems based on the use of arithmetic geometry of schemes (or [[global analytic spaces]]) over $\mathbb{Z}$.
 
 There are two well known examples of such systems:
 
