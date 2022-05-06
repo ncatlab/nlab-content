@@ -51,28 +51,34 @@ Review includes
 
 * [[Konstadinos Sfetsos]], _Recent developments in non-Abelian T-duality in string theory_, Fortschr. Phys., Special Issue: Proceedings of the &#x201c;Schools and Workshops on Elementary Particle Physics and Gravity&#x201d; (CORFU 2010), 29 August &#x2013; 12 September 2010, Corfu (Greece) Volume59, Issue11‐12 ([arXiv:1105.0537](https://arxiv.org/abs/1105.0537))
 
-See also
 
-* {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
+Discussion of nonabelian [[T-folds]]:
+
+* Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
 
 Discussion of the duality at the level of [[type II supergravity]] [[equations of motion]] is (using [[Riemannian geometry]] of [[Courant algebroids]]) due to
 
 * [[Branislav Jurco]], [[Jan Vysoky]], _Poisson-Lie T-duality of String Effective Actions: A New Approach to the Dilaton Puzzle_, Journal of Geometry and Physics Volume 130, August 2018, Pages 1-26 ([arXiv:1708.04079](https://arxiv.org/abs/1708.04079))
 
+* [[Pavol Ševera]], [[Fridrich Valach]], _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
+
+and in relation to [[double field theory]]:
+
+* {#Hassler17} [[Falk Hassler]], _Poisson-Lie T-Duality in Double Field Theory_ ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
+
 Discussion within a broader picture of [[duality in physics|dual]] [[higher gauge theories]], including 4d [[electric-magnetic duality]]:
 
 * [[Ján Pulmann]], [[Pavol Ševera]], [[Fridrich Valach]], _A non-abelian duality for (higher) gauge theories_ ([arXiv:1909.06151](https://arxiv.org/abs/1909.06151))
 
+Discussion of non-abelian T-duality from a comprehensive picture of [[higher differential geometry]], relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[type II geometry]], [[exceptional geometry]], etc.:
+
+* [[Luigi Alfonsi]], Section 4 of _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
+
 
 See also
 
-* [[Pavol Ševera]], [[Fridrich Valach]], _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
+* {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
 
-* {#Hassler17} [[Falk Hassler]], _Poisson-Lie T-Duality in Double Field Theory_ ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
-
-Discussion of nonabelian [[T-folds]]:
-
-* Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
 
 Discussion in [[cosmology]]:
 
