@@ -40,6 +40,10 @@ In the first case one speaks of _color branes_, in the second of _flavor branes_
 
 In common constructions of [[holographic QCD]] in the [[large-N limit]] (large number of [[color charges]]) in which the [[AdS/QCD correspondence]] applies, [[color branes]] are modeled  as $N_c \ggt 1$ [[black branes]] while [[flavor branes]] are modeled as $N_f \sim 1$ [[probe branes]] ([Karch-Katz 02](#KarchKatz02)).
 
+From [Ouyang 03, p. 2](#Ouyang03):
+
+>  the important feature seems to be that the added branes must be  extended along the radial [[AdS spacetime|AdS]] direction; then, volume factors suppress the dynamics of the NN strings on these "flavor branes", which then contribute states to the gauge theory with [[global symmetries]] rather than [[gauge symmetries]].
+
 
 ## Examples
 
@@ -104,13 +108,21 @@ The concept of [[flavor branes]] in the context of [[holographic QCD]] properly 
 
 * {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
 
+based on the concept of [[probe branes]] due to
+
+* [[Andreas Karch]], [[Lisa Randall]], Section 3 of: _Open and Closed String Interpretation of SUSY CFT's on Branes with Boundaries_, JHEP 0106:063, 2001 ([arXiv:hep-th/0105132](https://arxiv.org/abs/hep-th/0105132))
+
 Other early discussion:
 
-* [[Peter Ouyang]], _Holomorphic D7-Branes and Flavored $\mathcal{N}=1$ Gauge Theories_, Nucl. Phys. B699:207-225, 2004 ([arXiv:hep-th/0311084](https://arxiv.org/abs/hep-th/0311084))
+* {#Ouyang03} [[Peter Ouyang]], _Holomorphic D7-Branes and Flavored $\mathcal{N}=1$ Gauge Theories_, Nucl. Phys. B699:207-225, 2004 ([arXiv:hep-th/0311084](https://arxiv.org/abs/hep-th/0311084))
 
 * Thomas S. Levi, [[Peter Ouyang]], _Mesons and Flavor on the Conifold_, Phys. Rev. D76:105022, 2007 ([arXiv:hep-th/0506021](https://arxiv.org/abs/hep-th/0506021))
 
+* [[Carlos Nunez]], A. Paredes, A.V. Ramallo, _Flavoring the gravity dual of $\mathcal{N}=1$ Yang-Mills with probes_, JHEP 0312:024, 2003 ([arXiv:hep-th/0311201](https://arxiv.org/abs/hep-th/0311201))
 
+See also:
+
+* Daniel Arean, _Adding flavor on the Higgs branch_, Fortsch. Phys. 56:888-894, 2008 ([arXiv:0805.3447](https://arxiv.org/abs/0805.3447))
 
 
 
