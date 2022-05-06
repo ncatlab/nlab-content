@@ -161,6 +161,9 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
 
+* {#Brambilla14} Brambilla et al., Sections 3-4 in: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+
 * Yong-Liang Ma, Masayasu Harada, Section II.B of: _Lecture notes on the Skyrme model_ ([arXiv:1604.04850](https://arxiv.org/abs/1604.04850), [spire:1448311](https://inspirehep.net/literature/1448311))
 
 See also:
