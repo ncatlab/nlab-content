@@ -147,7 +147,7 @@ $$
 
 of the [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]] (whose [[left adjoint]] is the [[equivariant PL de Rham complex]]-[[functor]]) has the following properties:
 
-* on connected, simply connected, rationally finite equivariant homotopy types $X$ (eq:NilpotentQFiniteHomotopyTypes) the [[derived adjunction unit]] is [[rationalization]]
+* on connected, simply connected, rationally finite equivariant homotopy types $X$ (eq:NilpotentQFiniteHomotopyTypes) the [[derived adjunction unit]] is [[equivariant rationalization]]
 
   $$
     \array{
