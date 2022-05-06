@@ -243,6 +243,8 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 +-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
 ###### Proposition
+**([[iterated loop spaces]] equivalent to [[configuration spaces of points]])**
+
 
 For 
 
@@ -264,7 +266,7 @@ between
 
 1. the configuration space of arbitrary points in $\mathbb{R}^d \times Y$ vanishing at the boundary (Def. \ref{ConfigurationSpacesOfnPoints}) 
 
-1. the $d$-fold [[loop space]] of the $d$-fold [[reduced suspension]] of the [[quotient space]] $Y / \partial Y$ (regarded as a [[pointed topological space]] with basepoint $[\partial Y]$).
+1. the [[iterated loop space|d-fold loop space]] of the $d$-fold [[reduced suspension]] of the [[quotient space]] $Y / \partial Y$ (regarded as a [[pointed topological space]] with basepoint $[\partial Y]$).
 
 In particular when $Y = \mathbb{D}^k$ is the [[closed ball]] of [[dimension]] $k \geq 1$ this gives a [[homotopy equivalence]]
 
@@ -276,11 +278,11 @@ $$
   \Omega^d S^{ d + k }
 $$
 
-with the $d$-fold [[loop space]] of the [[n-sphere|(d+k)-sphere]].
+with the [[iterated loop space|d-fold loop space]] of the [[n-sphere|(d+k)-sphere]].
 
 =--
 
-([May 72, Theorem 2.7](#May72), [Segal 73, Theorem 3](#Segal73))
+([May 72, Theorem 2.7](#May72), [Segal 73, Theorem 3](#Segal73), see [Bödigheimer 87, Example 13](#Boedigheimer87))
 
 
 +-- {: .num_prop #StableSplittingOfMappingSpacesOutOfEuclideanSpace}
