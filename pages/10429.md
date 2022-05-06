@@ -41,6 +41,8 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 * [[phase of matter]]
 
+* [[gapped Hamiltonian]]
+
 * [[TQFT]]
 
 * [[quantum computing]]
