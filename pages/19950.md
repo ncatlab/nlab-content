@@ -388,7 +388,7 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 * Zalman Balanov, _Equivariant hopf theorem_, Nonlinear Analysis: Theory, Methods & Applications Volume 30, Issue 6, December 1997, Pages 3463-3474 (<a href="https://doi.org/10.1016/S0362-546X(97)00020-5">doi:10.1016/S0362-546X(97)00020-5</a>)
 
-* {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
 * Davide L. Ferrario, _On the equivariant Hopf theorem_, _Topology
 Volume 42, Issue 2, March 2003, Pages 447-465_ (<a href="https://doi.org/10.1016/S0040-9383(02)00015-0">doi:10.1016/S0040-9383(02)00015-0</a>)
