@@ -1,5 +1,3 @@
-[[!redirects topological locale]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -80,7 +78,6 @@ The completion of a [[uniform locale]] with a countable basis of uniformity is s
 
 [[!redirects topological locale]]
 [[!redirects topological locales]]
-[[!redirects spatial locale]]
 [[!redirects spatial locales]]
 [[!redirects spacial locale]]
 [[!redirects spacial locales]]
