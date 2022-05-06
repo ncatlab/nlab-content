@@ -19,6 +19,8 @@
 
 The [[permutations]] of a [[set]] $X$ form a [[group]], $S_X$, under [[composition]].  This is especially clear if one thinks of the permutation as a [[bijection]] on $X$, where the multiplication / composition is just composition of [[functions]]. This group is called the _symmetric group_ of $X$ and often denoted $S_X$, $\Sigma_X$, $Sym(X)$ or similar.
 
+The [[subgroups]] of symmetric groups are the _[[permutation groups]]_.
+
 When $X$ is [[the]] [[finite set]] $(n) = \{1,\dots,n\}$, then its symmetric group is a [[finite group]] of [[cardinality]] $n!$ = "$n$ [[factorial]]", and one typically writes $S_n$ or $\Sigma_n$. 
 
 (We will make frequent use of the entry [[permutation]] for some key notation and concepts.)
