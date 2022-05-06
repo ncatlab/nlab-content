@@ -263,7 +263,7 @@ Lecture notes include
 
 Textbook accounts include
 
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of _String Theory and M-Theory: A Modern Introduction_, 2007
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of: _String Theory and M-Theory: A Modern Introduction_, Cambridge University Press 2007 ([doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086))
 
 Further survey includes
 
