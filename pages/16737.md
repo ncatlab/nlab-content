@@ -3,10 +3,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Exceptional structures
-+-- {: .hide}
-[[!include exceptional structures -- contents]]
-=--
 #### Philosophy
 +-- {: .hide}
 [[!include philosophy - contents]]
@@ -15,8 +11,13 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -24,11 +25,15 @@
 
 ## Idea
 
-The [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _universal exceptionalism_ or similar:
+In the [[philosophy of science]], the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _universal exceptionalism_ or similar:
 
-_Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
+> _Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
 
-Prominent sources where this sentiment has been expressed include the following.
+This may be regarded as a facet or version of [[theoretical aestheticism]], in contrast to [[empiricism]].
+
+## Sources
+
+Sources where a sentiment of universal eexceptionalism has been expressed include the following:
 
 [Baez 95](#Baez95), in a context of the role of the [[monster group]] in [[physics]], writes:
 
@@ -109,8 +114,4 @@ to have evidence to the contrary.
 
 * {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
 
-A critical opinion is articulated by [Sabine Hosenfelder](http://sabinehossenfelder.com/index.php)
-
-* [Sabine Hosenfelder](http://sabinehossenfelder.com/index.php), _Lost in Math: How Beauty Leads Physics Astray_, Basic Books 2018. German translation: _Das hässliche Universum: Warum unsere Suche nach Schönheit die Physik in die Sackgasse führt_, Fischer 2018
-
-* Sabine Hosenfelder, _Was läuft falsch in der gegenwärtigen Physik?_, talk at University of Stuttgart, 2019 ([video recording](https://www.youtube.com/watch?v=99hVAu1k6G8))
+[[!redirects theoretical aestheticism]]
