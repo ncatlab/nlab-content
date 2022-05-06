@@ -58,6 +58,10 @@ see at _[[membrane triple junction]]_.
 [Hashimoto 98](#Hashimotop98), see also [Smith 02 (245)](#Smith02)
 
 
+### Dp-D(p+4) brane intersections
+
+[[!include Dp-D(p+4)-brane bound states -- contents]]
+
 ## Related concepts
 
 * [[intersecting D-brane model]]
