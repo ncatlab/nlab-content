@@ -136,7 +136,7 @@ Let $X$ be a [[simplicial set]]. A **Postnikov tower** for $X$ is
 
 =--
 
-This appears for instance as ([GoerssJardine, def VI 3.1](#GoerssJardine)).
+This appears for instance as ([Goerss-Jardine, def VI 3.1](#Goerss Jardine)).
 
 #### Relative version
  {#ForSimplicialSetsRelativeVersion}
@@ -239,14 +239,19 @@ There are three main functorial models for the Postnikov tower of a [[simplicial
 If $X$ is regarded as an [[∞-groupoid]] modeled as a [[Kan complex]], then the [[coskeleton]] sequence
 
 $$
-  X = \lim_n cosk_n X \to \cdots \to cosk_{n+1} X \to cosk_{n} X \to \cdots \to *
+  X 
+  \;\simeq\; 
+  \lim_n
+  \big( 
+     cosk_n X \to \cdots \to cosk_{n+1} X \to cosk_{n} X \to \cdots \to *
+  \big)
 $$
 
 exhibits a Postnikov tower for $X$. 
 
 =--
 
-This is observed for instance in ([ArtinMazur](#ArtinMazur))) or ([DwyerKan](#DwyerKan)). Also see [[coskeleton]] for more details.
+This is observed for instance in ([ArtinMazur](#ArtinMazur)) or ([DwyerKan](#DwyerKan)). Also see [[coskeleton]] for more details.
 
 #### Identification relative to skeleta
  {#IdentificationRelativeSkeleta}
@@ -309,7 +314,7 @@ is an [[isomorphism]], exhibiting $X$ as the [[limit]] ("[[inverse limit]]") ove
 
 =--
 
-This appears for instance as ([GoerssJardine, theorem Vi 2.5](#GoerssJardine)).
+This appears for instance as ([Goerss-Jardine, theorem Vi 2.5](#GoerssJardine)).
 
 ##### Relative Postnikov tower
  {#RelativePostnikovTowerConstruction}
@@ -743,7 +748,7 @@ $$
   \,.
 $$
 
-Let $K(\pi_n (X,v), n)$ be the [[Eilenberg-MacLane object]] on the $n$-[[homotopy group]] of $X$. Then there is a [[weak homotopy equivalence]]
+Let $K(\pi_n (X,v), n)$ be the [[Eilenberg-MacLane object]] on the $n$-th [[homotopy group]] of $X$. Then there is a [[weak homotopy equivalence]]
 
 $$
   K(n) \stackrel{\simeq}{\to} K(\pi_n(X,v),n)
