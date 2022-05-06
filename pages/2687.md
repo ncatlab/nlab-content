@@ -135,6 +135,14 @@
 
 * [[model structure on cosimplicial simplicial sets]]
 
+### for rational $\infty$-groupoids
+
+* [[model structure on dgc-algebras]]
+
+* [[model structure on equivariant dgc-algebras]]
+
+  [[model structure on equivariant chain complexes]]
+
 ### for $n$-groupoids
 
 * [[model structure for n-groupoids|for n-groupoids]]/[[model structure for n-groupoids|for n-types]]
