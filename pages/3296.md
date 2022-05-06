@@ -199,10 +199,12 @@ Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenche
 
 * [[Peter May]], chapter 23 of _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-Exposition with motivation from [[mathematical physics]] includes
+With an eye towards application in [[mathematical physics]]:
 
-* {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes
-from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A%20brief%20introduction%20to%20characteristic%20classes%20from%20the%20differentiable%20viewpoint.pdf))
+* {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes from the differentiable viewpoint_, 2011 ([pdf](http://staff.ustc.edu.cn/~yzhphy/notes/A%20brief%20introduction%20to%20characteristic%20classes%20from%20the%20differentiable%20viewpoint.pdf))
+
+
+* [[Mikio Nakahara]], Chapter 11 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 
 Further texts include
