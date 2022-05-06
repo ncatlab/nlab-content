@@ -29,7 +29,11 @@ Let $C$ be a (non-strict) [[2-category]], and $X\in C$ an [[object]].  Then the 
 
 If $C$ is a [[strict 2-category]], then so is $C/X$.  Moreover, in this case, we can also define the **strict-slice 2-category** to be the subcategory $C/_s X$ of $C/X$ containing all the objects, only those morphisms $(f,\phi)$ such that $\phi$ is an identity, and all 2-morphisms between these.
 
-If, on the other hand, we do not require $\phi : a \to bf$ to be invertible, then we obtain the **lax-slice 2-category** $C\sslash X$ (with evident dual the **colax-slice 2-category**).  This can be regarded as an [[F-category]] whose tight morphisms are those where $\phi$ *is* invertible (or an identity).
+If, on the other hand, we do not require $\phi : a \to b f$ to be invertible, then we obtain the **lax-slice 2-category** $C\sslash X$.  This can be regarded as an [[F-category]] whose tight morphisms are those where $\phi$ *is* invertible (or an identity).
+
+Dually, the morphisms in the **colax-slice 2-category** involve a $\phi : b f \to a$.  It is not clear whether there is a universally accepted convention as to which is the lax-slice and which is the colax-slice; the one adopted here is that used by [Johnson-Yau](#JohnsonYau) and is such that for the lax-slice $C\sslash X$, the canonical transformation
+\begin{tikzcd} C/\!/ X \ar[r] \ar[d] \ar[dr,phantom,"\Downarrow"] & C \ar[d,equals] \\ 1 \ar[r,"X"'] & C \end{tikzcd}
+is a [[lax natural transformation]].
 
 Finally, the subcategory of $C/X$ whose objects are the [[fibration in a 2-category|fibrations]] and whose morphisms are the maps of fibrations is denoted $Fib(X) = Fib_C(X)  = Fib_C/X$, and may be called the **fibrational-slice 2-category**.  Similarly we have the **opfibrational-slice** $Opf(X)$.
 
@@ -44,6 +48,10 @@ When $C$ is a 1-category, the slice, strict-slice, lax- and colax-slice, and fib
 * [[slice category]]
 
 * [[slice (∞,1)-category]]
+
+## References
+
+* {#JohnsonYau} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055))
 
 [[!redirects slice 2-category]]
 [[!redirects slice 2-categories]]
