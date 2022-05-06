@@ -230,6 +230,8 @@ D-posets were first introduced in:
 Theoretical Physics, vol. 34, no. 8, pp. 1297–1302, 1995. {#ChovKop}
 
 
+[[!redirects effect algebras]]
+
 [[!redirects effect]]
 [[!redirects effects]]
 
