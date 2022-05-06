@@ -357,14 +357,12 @@ exist in the literature,
 and functors that can be derived in one of the definitions
 need not be derivable in another.
 
-Typically (in most definitions),
-deriving a [[functor]] $F\colon C\to D$ between
-[[relative categories]] $C$ and $D$
+Typically (in most definitions), deriving a [[functor]] $F\colon C\to D$ between [[relative categories]] $C$ and $D$
 involves replacing $F$ with $F\circ R$,
 where $R\colon C\to C$ is a [[resolution]] functor,
 which is typically require to preserve [[weak equivalences]]
 and be itself a [[weak equivalence]] of [[relative categories]]
-(known as a [[Dweyr-Kan equivalence]] of [[relative categories]]).
+(known as a [[Dwyer-Kan equivalence]] of [[relative categories]]).
 
 A definition with rather good properties
 was given recently by [[Hinich]]
@@ -384,6 +382,69 @@ These definitions do not have such nice theoretical properties
 as the definition considered above.
 For example, they tend to misbehave when we try to derive compositions of functors.
 
-## What is the homotopy category of an ∞-category?  What are its limitations?
+## What is the homotopy category of an (∞,1)-category?  What are its limitations?
+
+The [[homotopy category]] $Ho(C)$ of an [[(∞,1)-category]] $C$
+is obtained by replacing each of the hom [[∞-groupoids]] $hom(x,y)$
+with its set of connected components: $hom_{Ho(C)}(x,y) := \pi_0(hom_C(x,y))$.
+
+This informal description can be formalized in any [model](#models)
+of (∞,1)-categories.
+For instance, for [[relative categories]] we can formally
+invert all [[weak equivalences]], the resulting [[localization]]
+being the [[homotopy category]].
+
+The [[homotopy category]] is a useful tool
+for extracting invariants from a given [[(∞,1)-category]].
+For example, in the [[relative category]] of [[chain complexes]]
+with [[quasi-isomorphisms]] we can compute
+$$Ext^n(A,B)=Ho(Ch)(A,B[n]).$$
+
+However, passing to the [[homotopy category]]
+destroys a tremendous amount of information about the underlying [[(∞,1)-category]].
+In particular, it is rarely possible to recover
+any information about [[(∞,1)-limits]] and [[(∞,1)-colimits]]
+from the [[homotopy category]], other than the case of [[products]] and [[coproducts]].
+Thus, typically the passage to the [[homotopy category]]
+happens near the end of an argument, where one no longer
+needs categorical constructions like limits and colimits.
 
 ## What is a triangulated category?  What are its limitations?
+
+A [[stable (∞,1)-category]] is an [[(∞,1)-category]]
+that admits finite (∞,1)-(co)limits
+and such that [[cartesian squares]] coincide with [[cocartesian squares]]
+and there is a morphism from the [[terminal object]] to the [[initial object]].
+
+As is clear from the definition, being a stable (∞,1)-category
+is a _property_ of an (∞,1)-category.
+Roughly speaking, a _triangulated category_ is the [[homotopy category]]
+of a [[stable (∞,1)-category]] equipped with the additional
+data of a [[homotopy cofiber]] of any morphism.
+
+The above is not quite true.
+In reality, one axiomatizes [[triangulated categories]]
+as [[additive categories]] with additional data of distinguished triangles
+(basically, [[homotopy cofiber]] sequences)
+and suspension functor that satisfies a bunch of axioms.
+Indeed, a counterexample due to Muro, Schwede, and Strickland
+constructs a triangulated category that does not arise
+as the [[homotopy category]] of an (∞,1)-category.
+
+Much work was put into rectifying this defect of triangulated categories.
+The resulting constructions are generically known as “enhancements”
+and include notions such as [[pretriangulated dg-categories]]
+and [[stable derivators]].
+
+These definitions are rather complicated when compared
+to [[stable (∞,1)-categories]], and [[derivators]] still suffer
+from the same problems as [[homotopy categories]],
+albeit on a higher level.
+
+Thus, [[stable (∞,1)-categories]] due to their simplicity
+and generality can be reasonably seen as an “ultimate enhancement”
+of triangulated categories that does not suffer from their defects.
+
+The most developed [model](#models) for [[stable (∞,1)-categories]]
+is stable [[quasicategories]], a detailed treatment
+can be found in Chapter 1 of [[Lurie]]'s [[Higher Algebra]].
