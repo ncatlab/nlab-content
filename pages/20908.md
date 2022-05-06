@@ -56,7 +56,7 @@ $$
 
 =--
 
-(
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -128,6 +128,15 @@ $$
 
 =--
 
+Another common basis in use is the _[[Cartan-Weyl basis]]_
+
+$$
+  \begin{aligned}
+    \sigma^\pm & \coloneqq \sigma_2 \pm  i \sigma_3
+    \\
+    \sigma^0 & \coloneqq \sigma_1
+  \end{aligned}
+$$
 
 ### Complexification
  {#Complexification}
