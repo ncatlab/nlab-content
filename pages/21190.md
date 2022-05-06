@@ -29,5 +29,10 @@ On [[gravitation]], [[gauge theory]] and [[differential geometry]]:
 
 * [[Tohru Eguchi]], Peter Gilkey, Andrew Hanson, _Gravitation, gauge theories and differential geometry_, Physics Reports __66__:6 (1980) 213&#8212;393 ([pdf](http://empg.maths.ed.ac.uk/Activities/GT/EGH.pdf))
 
+On [[E-strings]]:
+
+* [[Tohru Eguchi]], Kazuhiro Sakai, _Seiberg-Witten Curve for the E-String Theory_, JHEP 0205:058, 2002 ([arXiv:hep-th/0203025](https://arxiv.org/abs/hep-th/0203025))
+
+
 
 category: people
