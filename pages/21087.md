@@ -59,6 +59,10 @@ On the [[logical equivalence]] between the [[four-colour theorem]] and a stateme
 * David Jorrin, Nicolas Kovensky, Martin Schvellinger,  _Towards $1/N$ corrections to deep inelastic scattering from the gauge/gravity duality_, JHEP 04 (2016) 113 ([arXiv:1601.01627](https://arxiv.org/abs/1601.01627))
 
 
+Discussion of [[small N corrections]] via a [[lattice QFT]]-Ansatz on the AdS side of [[AdS2/CFT1]]:
+
+* Richard C. Brower, Cameron V. Cogburn, A. Liam Fitzpatrick, Dean Howarth, Chung-I Tan, _Lattice Setup for Quantum Field Theory in $AdS_2$_ ([arXiv:1912.07606](https://arxiv.org/abs/1912.07606))
+
 #### Via conformal bootstrap
 
 
@@ -96,6 +100,9 @@ Specifically for the [[AdS/QCD correspondence]]:
 
 [[!redirects 1/N correction]]
 [[!redirects 1/N corrections]]
+
+[[!redirects small N correction]]
+[[!redirects small N corrections]]
 
 
 
