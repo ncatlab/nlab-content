@@ -199,6 +199,20 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
+### As correlators in the SYK model
+ {#ReferencesSYKModelCorrelators}
+
+Discussion of [[chord diagrams]] encoding [[SYK model]] [[correlators]] as representing [[hyperbolic space|hyperbolic]]/[[AdS-CFT|holographic content]]:
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ChordDiagramHolographic.jpg" width="300">
+</div>
+
+* {#BINT18} [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
+
+
+* {#Narovlansky19} Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, Nazareth 2019 ([pdf](http://phsites.technion.ac.il/talks/fifth-israeli-indian-conference-on-string-theory2019/Narvolansky.pdf), [[NarovlanskySYK19.pdf:file]])
+
 
 [[!redirects chord diagrams]]
 [[!redirects rooted chord diagram]]
