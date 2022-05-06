@@ -22,7 +22,7 @@
 ## Idea 
  {#Idea}
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] flavour universality_ (LFU). A possible violation of lepton universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] flavour universality_ (LFU). A possible violation of lepton flavour universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
 Flavor universality pertains in particular to [[scattering amplitude|decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
