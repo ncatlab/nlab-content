@@ -65,6 +65,35 @@ A significant result due to Joyal and Tierney is that for any Grothendieck topos
 
 Then, using methods of descent theory, Joyal and Tierney deduce that every Grothendieck topos is equivalent to the category $B G$ of continuous discrete representations of a [[localic groupoid]] $G$. (Their result is relativized so as to hold internally over any Grothendieck topos $S$ as base.) This should be regarded as a major extrapolation of Grothendieck's [[Galois theory]] (as in [[SGA]] 1), where it is shown that the [[etale topos]] of a field $k$ is equivalent to the category of continuous discrete representations of the fundamental [[pro-group]] $Gal(\bar{k}/k)$, where $\bar{k}$ denotes the separable closure of $k$. It was a watershed event for the penetration of localic methods in topos theory. 
 
+## In a logical perspective
+
+Recall that a [[geometric theory]] $\mathbb{P}$ over a signature with no sort symbols is called [[propositional theory|propositional]]. Such a signature can contain at most 0-ary relation symbols but lacks variables and, accordingly, $\mathbb{P}$ admits only sequents over the empty context consisting of nested conjunctions or (infinitary) disjunctions of such relation symbols - in other words, logic boils down to [[propositional logic]].
+
+Propositional theories have the pecularity that their classifying toposes always exist regardless of the availability of a [[natural numbers object]] in the base topos (cf. for details&references see at [[classifying topos]]).
+
+
+
++-- {: .num_prop #localicclasifiespropositional}
+###### Proposition
+
+Localic toposes correspond exactly to [[classifying topos|classifying toposes]] of propositional theories.
+=--
+
+This appears in Johnstone (2002, D3.1.14, p.897f.).
+
+Given a locale $L$, the **theory of completely prime filters** $\mathbb{P}_L$ has a 0-ary relation symbols $F_x$ for each $x\in L$, thought to express the proposition that $x$ is contained in the [[filter]] $F$, and the following sequents:
+
+* $\top\vdash F_1$ ,
+
+* $F_x\wedge F_y\vdash F_{x\wedge y}$ for all pairs $x,y\in L$,
+
+* $F_x\vdash \bigvee_{i\in I} F_{y_i}$ whenever $x=\bigvee_{i\in I}y_i$ is  in $L$.
+
+In $Set$ models of $\mathbb{P}_L$ correspond precisely to completely prime filters i.e. the multiplicatively closed subsets of $L$ containing $1$ that are inaccessible by infinite joins ($(\bigvee y_i)\in F$ implies $y_i\in F$ for some $i$).
+
+The relation between $L$ and $\mathbb{P}_L$ is that $Sh(L)\simeq Set[\mathbb{P}_L]$.
+
+Conversely, given a propositional theory $\mathbb{P}$, the [[Lindenbaum-Tarski algebra]] of classes of provably equivalent formulas over $\mathbb{P}$ together with the entailment order yields a locale $L_{\mathbb{P}}$ such that $Sh(L_\mathbb{P})$ classifies $\mathbb{P}$.
 
 ## Generalizations
 
