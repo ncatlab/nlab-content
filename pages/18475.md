@@ -53,6 +53,8 @@ theory and gravity.
 
 ## References
 
+### General
+
 
 Textbook:
 
@@ -69,11 +71,29 @@ Reviews and lectures:
 
 * [[Subir Sachdev]], _Condensed matter and AdS/CFT_ ([arXiv:1002.2947](http://arxiv.org/abs/1002.2947))
 
+
+* K. Schalm and R. Davison, _A simple introduction to AdS/CFT
+and its application to condensed matter physics_,  D-ITP Advanced Topics in Theoretical Physics Fall 2013, ([[SchalmDavisonAdSCFT.pdf:file]])
+
+
+
+### Application to quantum chromodynamics
+
+Discussion of [[quantum chromodynamics]] via [[AdS/CFT in condensed matter physics]] (see also at [[AdS/QCD]]):
+
 * Yuri V. Kovchegov, _AdS/CFT applications to relativistic heavy ion collisions: a brief review_ ([arXiv:1112.5403](http://arxiv.org/abs/1112.5403))
+
+* {#SantiagodeCompostela18} _[Holography and Extreme Chromodynamics](http://igfae.usc.es/~holoquark2018/)_, Santiago de Compostela, July 2018
+
+### Application to superconductivity
+
+Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
+
+* [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary 
+ Horowitz]], _Building an AdS/CFT superconductor_, Phys. Rev. Lett. 101:031601, 2008 ([arXiv:0803.3295](https://arxiv.org/abs/0803.3295))
 
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
-* {#SantiagodeCompostela18} _[Holography and Extreme Chromodynamics](http://igfae.usc.es/~holoquark2018/)_, Santiago de Compostela, July 2018
 
 [[!redirects AdS/CFT in condensed matter physics]]
 
