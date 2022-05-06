@@ -34,7 +34,7 @@ Let $(X,d)$ be a [[metric space]] which is [[sequentially compact topological sp
 Assume that $(X,d)$ were not totally bounded. This would mean that there existed a [[positive number|positive]] [[real number]] $\epsilon \gt 0$ such that for every [[finite set|finite]] [[subset]] $S \subset X$ we had that $X$ is not the [[union]] of the [[open balls]] of [[radius]] $\epsilon$ around the elements of this finite subset
  
 $$
-  X \neq \underset{s \in S}{\cup} B^\circ_x(\epsilon)
+  X \neq \underset{s \in S}{\cup} B^\circ_s(\epsilon)
   \,.
 $$
 
