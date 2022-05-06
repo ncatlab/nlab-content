@@ -10,9 +10,31 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[meson]].
+
+
+## Properties
+
+### Relation to Skyrmions
+
+The [[skyrmion]]-model (see there) realizes [[baryons]] as [[solitons]]/[[instantons]] in a cloud of pions.
+
+## Related concepts
+
+* [[B-meson]]
 
 ## References
+
 
 * Wikipedia, _[Pion](https://en.wikipedia.org/wiki/Pion)_
 
 [[!redirects pions]]
+
+[[!redirects π-meson]]
+[[!redirects π-mesons]]
