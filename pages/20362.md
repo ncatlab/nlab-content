@@ -66,13 +66,14 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
 * {#Petri18} Nicolò Petri, slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+
 
 * Jay Armas, Vasilis Niarchos, Niels A. Obers, Section 2 of _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
 
-Further [[bound states]] of [[M2-branes]]/[[M5-branes]] to [[giant gravitons]]:
 
-* {#CaminoRamallo01} J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
+
+
 
 ### Reduction to D$p$-D$(p+2)$-brane bound states
 
@@ -90,6 +91,15 @@ Argument, using the [[ABJM model]], that the apparent [[fuzzy 3-sphere]] geometr
 * [[Sanjaye Ramgoolam]], _Fuzzy geometry of membranes in M-theory_, 2009 ([[RamgoolamFuzzyGeometry.pdf:file]])
 
 * [[Horatiu Nastase]], [[Constantinos Papageorgakis]], _Bifundamental Fuzzy 2-Sphere and Fuzzy Killing Spinors_, SIGMA 6:058, 2010 ([arXiv:1003.5590](https://arxiv.org/abs/1003.5590))
+
+### Relation to giant gravitons
+
+Relation to [[giant gravitons]]:
+
+
+* {#CaminoRamallo01} J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
+* Shinji Hirano, Yuki Sato, _Giant graviton interactions and M2-branes ending on multiple M5-branes_, JHEP 05 (2018) 065 ([arXiv:1803.04172](https://arxiv.org/abs/1803.04172))
 
 
 
