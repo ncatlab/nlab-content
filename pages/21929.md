@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include algebraic topology - contents]]
 =--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 =--
 =--
 
@@ -43,6 +47,8 @@ If $E$ be a [[multiplicative cohomology theory]] satisfying the flatness assumpt
 * [[d-invariant]], [[e-invariant]]
 
 * [[manifold with corners]]
+
+* [[MUFr]]
 
 
 ## References
