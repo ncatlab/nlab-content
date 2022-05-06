@@ -219,7 +219,7 @@ This is ([StrSp, lemma 2.3.16](#StrSp)).
 ### Object classifier
  {#ObjectClassifier}
 
-If $Obj_\kappa \in \mathbf{H}$ is an [[object classifier]] for $\kappa$-[[small objects]], then the [[projection]] $Obj_\Kappa \times X \o X$ regarded as an object in the slice is a $\kappa$-small object classifier in $\mathbf{H}_{/X}$.
+If $Obj_\kappa \in \mathbf{H}$ is an [[object classifier]] for $\kappa$-[[small objects]], then the [[projection]] $Obj_\Kappa \times X \to X$ regarded as an object in the slice is a $\kappa$-small object classifier in $\mathbf{H}_{/X}$.
 
 ### In homotopy type theory
  {#InHomotopyTypeTheory}
