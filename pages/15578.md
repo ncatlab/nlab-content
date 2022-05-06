@@ -62,8 +62,18 @@ Nilpotency is involved in sufficient conditions for many important constructions
 
 * [[p-complete homotopy type]]
 
+\linebreak
+
+* [[rational homotopy theory]]
+
+  * [[Sullivan model]]
+
+  * [[rational fiber lemma]]
+
 
 ## References
+
+See the references at _[[nilpotent topological space]]_
 
 Review includes
 
