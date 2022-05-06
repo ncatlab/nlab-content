@@ -459,7 +459,7 @@ $$
 
 are [[smooth functions]] on the jet bundle of $E$,
 locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}), and such that the [[Lie derivative]]
-of the [[Lagrangian density]] along $R(e)$ is a [[total spacetime derivative]], which by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) mean in components that
+of the [[Lagrangian density]] along $R(e)$ is a [[total spacetime derivative]], which by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) means in components that
 
 $$
   \left(
