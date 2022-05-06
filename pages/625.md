@@ -31,7 +31,7 @@ It is the second of these definitions that often generalises better to higher ca
 I \ar[r, swap, "\phi"] & B
 \end{tikzcd}
 
-in $\mathsf{Cat}$, where $I$ is the [[free-standing isomorphism]], there is a unique functor $l: I \rightarrow E$ such that the following diagram in $\mathsf{Cat}$ commutes. 
+in $\mathsf{Cat}$, where $I$ is the [[free-standing isomorphism]], there is a functor $l: I \rightarrow E$ such that the following diagram in $\mathsf{Cat}$ commutes. 
 
 \begin{tikzcd}
 1 \ar[r, "e"] \ar[d, swap, "0"] & E \ar[d, "p"] \\
@@ -69,7 +69,7 @@ X \ar[r, "f"] \ar[d, swap, "id \times 0"] & E \ar[d, "p"] \\
 X \times I \ar[r, swap, "g"] & B
 \end{tikzcd}
 
-in $\mathsf{Cat}$, where $I$ is the [[free-standing isomorphism]], there is a unique functor $l: X \times I \rightarrow E$ such that the following diagram in $\mathsf{Cat}$ commutes. 
+in $\mathsf{Cat}$, where $I$ is the [[free-standing isomorphism]], there is a  functor $l: X \times I \rightarrow E$ such that the following diagram in $\mathsf{Cat}$ commutes. 
 
 \begin{tikzcd}
 X \ar[r, "f"] \ar[d, swap, "id \times 0"] & E \ar[d, "p"] \\
