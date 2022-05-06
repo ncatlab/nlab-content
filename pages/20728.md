@@ -74,7 +74,7 @@ The term "probability monad" was coined by Giry herself (see [here](#giry80)).
   <td markdown="1">[[Meas]]</td>
   <td markdown="1">[[probability measures]]</td>
   <td markdown="1">initial [[σ-algebra]] of evaluation maps</td>
-  <td markdown="1">...</td>
+  <td markdown="1">Full characterization unknown. [[Giry monad#algebras_over_the_giry_monad|See also here]].</td>
   <td markdown="1">[Lawvere '62](#lawvere62), [Giry '80](#giry80)</td>
  </tr>
  <tr>
@@ -82,7 +82,7 @@ The term "probability monad" was coined by Giry herself (see [here](#giry80)).
   <td markdown="1">[[Polish space|Pol]]</td>
   <td markdown="1">[[Borel measure|Borel probability measures]]</td>
   <td markdown="1">[[initial topology]] of integration maps</td>
-  <td markdown="1">...</td>
+  <td markdown="1">Full characterization unknown. [[Giry monad#algebras_over_the_giry_monad|See also here]].</td>
   <td markdown="1">[Giry '80](#giry80)</td>
  </tr>
  <tr>
