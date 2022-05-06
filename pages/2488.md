@@ -113,6 +113,16 @@ By the [characterization of homotopy fiber of functor categories](http://ncatlab
 this is equivalent to saying that $f$ is $k$-truncated when it is so regarded as an
 object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$. (See also [[Higher Topos Theory|HTT, rem. 5.5.6.12]].)
 
+Unwinding the definitions and applying the long exact sequence of homotopy groups, we have
++-- {: .num_prop }
+###### Proposition
+For $n \geq -1$, a morphism $f : X \to Y$ of ∞-groupoids is $n$-truncated
+iff, for every point $x \in X$, we have $\pi_{n+1}(X, x) \to \pi_{n+1}(Y, f(x))$ is monic and for every $k \geq n+2$, $\pi_k(X, x) \to \pi_k(Y, f(x))$ is an isomorphism.
+
+$f$ is $(-2)$-trunacated iff it is a weak homotopy equivalence.
+=--
+
+
 ### In terms of categorical homotopy groups 
 
 At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[categorical homotopy groups in an (∞,1)-topos]]:
