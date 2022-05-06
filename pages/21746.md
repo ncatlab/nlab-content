@@ -60,7 +60,7 @@ A Grothendieck topos $Set(\mathbb{T})\;$, respectively the [[geometric theory]] 
 
 In other words, a topos is contractible if its identity map is homotopic to a constant map and a geometric theory $\mathbb{T}$ is contractible iff its classifying topos $Set(\mathbb{T})$ is. 
 
-Note incidentally, that this requires by definition the existence of a [[point of a topos|point]] of $Set(\mathbb{T})$, or in other words, the existence of a "classical" i.e. $Set$-based $\mathbb{T}$-model. In particular, since there exist ([[Boolean topos|Boolean]]) [[point of a topos#toposes without points|toposes without points]] there exist (Boolean) geometric theories that are not contractible.
+Notice incidentally, that this requires by definition the existence of a [[point of a topos|point]] of $Set(\mathbb{T})$, or in other words, the existence of a "classical" i.e. $Set$-based $\mathbb{T}$-model. In particular, since there exist ([[Boolean topos|Boolean]]) [[point of a topos#toposes without points|toposes without points]] there exist (Boolean) geometric theories that are not contractible.
 
 The correspondance between geometric theories and Grothendieck toposes together with the correspondance between their models and geometric morphisms similarly affords the transposition of other homotopic concepts to the realm of geometric logic.
 
@@ -122,10 +122,6 @@ An overview of homotopy theory done in this "toposophical" context is
 
 * {#B00}[[Tibor Beke]], _Homotopoi_ , ms. University of Massachusetts Lowell (2000). ([dvi](http://faculty.uml.edu/tbeke/topos.dvi))
 
-A good source for the classical cohomology theory of toposes is chapter 8 of
-
-* {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
-
 The following paper explores the topos of sheaves on the unit interval as abstract interval object
 
 * {#MW86} [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected locally connected toposes are path-connected_ , Trans. AMS **295** no.2 (1986) pp.849-859.
@@ -133,3 +129,7 @@ The following paper explores the topos of sheaves on the unit interval as abstra
 A proof of the homotopy equivalence of certain _petit_ and _gros_ toposes can be found on p.415f in
 
 * {#MM94}[[Saunders Mac Lane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994.
+
+A good source for the classical cohomology theory of toposes is chapter 8 of
+
+* {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York (1977). (Also available as Dover Reprint, Mineola 2014)
