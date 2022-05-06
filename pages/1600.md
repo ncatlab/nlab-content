@@ -91,5 +91,8 @@ The relation between the two versions (arbitrary group homomorphisms or subgroup
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
+See also
+
+* {#Lurie} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
 
 [[!redirects orbispaces]]
