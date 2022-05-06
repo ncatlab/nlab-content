@@ -335,9 +335,9 @@ $$
       p_2
       -
       \big(\tfrac{1}{2}p_1\big)^2
-      -
-      2 \chi
     \right)
+    -
+    \tfrac{1}{2}\chi
     ,
     \;
     \chi,
@@ -431,13 +431,22 @@ $$
     \chi 
       & \mapsto 
       -
-      \tfrac{1}{4}p_2 
-      - \big(\tfrac{1}{4}p_1\big)^2
-      - \tfrac{1}{2}\chi
+      \tfrac{1}{4}
+      \big(
+        p_2 
+        - \big(\tfrac{1}{2}p_1\big)^2
+      \big)
+      + 
+      \tfrac{1}{2}\chi
     \\
-      \tfrac{1}{4}p_2 
-      - \big(\tfrac{1}{4}p_1\big)^2
-      - \tfrac{1}{2}\chi
+      \tfrac{1}{4}
+      \big(
+        p_2 
+        - 
+        \big(\tfrac{1}{2}p_1\big)^2
+      \big)
+      - 
+      \tfrac{1}{2}\chi
     & \mapsto 
       -
       \chi
@@ -476,34 +485,16 @@ $$
     \Big) 
     \\
     & =
-      -
-      \big(
-        \tfrac{1}{4}p_2 
-        - \big(\tfrac{1}{4}p_1\big)^2
-        - \tfrac{1}{2}\chi
-      \big)
-      + \big(\tfrac{1}{4}p_1\big)^2
-      +
-      \tfrac{1}{2}
-      \big(
-        \tfrac{1}{4}p_2 
-        - \big(\tfrac{1}{4}p_1\big)^2
-        + \tfrac{1}{2}\chi
-      \big)
-    \\
-    & =
-      -
-      \tfrac{1}{2}
-      \big(
-        \tfrac{1}{4}p_2 
-        - \big(\tfrac{1}{4}p_1\big)^2
-        - \tfrac{1}{2}\chi
-      \big)
-      + 
-      \big(\tfrac{1}{4}p_1\big)^2
-      +
-      \tfrac{1}{2}
-      \chi
+    -\chi
+    + 
+    \big(\tfrac{1}{4}p_1\big)^2
+    -
+    \tfrac{1}{2}
+    \big(
+      \tfrac{1}{4}p_2 
+      - \big(\tfrac{1}{4}p_1\big)^2
+      - \tfrac{1}{2}\chi
+    \big)
   \end{aligned}
 $$
 
