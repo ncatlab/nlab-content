@@ -80,6 +80,13 @@ $$
 This leads to what is called [[geometric engineering of quantum field theory]] on the [[worldvolume]] of these branes (following [Hanany-Witten 97](#HananyWitten97), review includes [Fazzi 17](#Fazzi17)).
 
 
+#### D4-branes ending on NS5-branes
+
+see [Witten 97](#Witten97)
+
+<img src="https://ncatlab.org/nlab/files/NS5-D4.jpg" width="440"/>
+
+> graphics grabbed from [EGKRS 00](#EGKRS00)
 
 #### D6-branes ending on NS5-branes
   {#D6BranesEndingOnNS5Branes}
@@ -238,9 +245,13 @@ The [[brane intersection|intersection]] laws with [[black brane|black]] [[D-bran
 
 * {#ArgurioEnglertHouart97} R. Argurio, [[François Englert]], L. Houart, _Intersection Rules for $p$-Branes_, Phys. Lett. B398:61-68, 1997 ([arXiv:hep-th/9701042](https://arxiv.org/abs/hep-th/9701042))
 
+* {#Witten97} [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_, Nucl.Phys.B500:3-42,1997 ([arXiv:hep-th/9703166](https://xxx.lanl.gov/abs/hep-th/9703166))
+
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
 
 * {#EGKRS00} Shmuel Elitzur, Amit Giveon, [[David Kutasov]], Eliezer Rabinovici, Gor Sarkissian, _D-Branes in the Background of NS Fivebranes_, JHEP 0008 (2000) 046 ([arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052))
+
+
 
 Review includes
 
