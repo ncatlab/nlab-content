@@ -107,6 +107,9 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * Lakshya Bhardwaj, _More 5d KK theories_ ([arXiv:2005.01722](https://arxiv.org/abs/2005.01722))
 
+* Max Hubner, _5d SCFTs from $(E_n, E_m)$ Conformal Matter_ ([arXiv:2006.01694](https://arxiv.org/abs/2006.01694))
+
+
 
 ### From M-theory on Calabi-Yau 3-folds
 
