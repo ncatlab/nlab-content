@@ -373,6 +373,7 @@ Writeups on the topic include
 
 * {#Rijke19} [[Egbert Rijke]], _Introduction to Homotopy Type Theory_ (2019) ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
 
+* {#Rijke19b} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
 
 An introduction to the notion of [[equivalence]] in HoTT is in
 
