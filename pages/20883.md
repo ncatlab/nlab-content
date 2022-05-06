@@ -280,6 +280,9 @@ Essentially this observation (specifically for [[SYK-model]]-like systems and wi
 
 * [[metric Lie algebra]]
 
+* [[Rozansky-Witten weight system]]
+
+
 ## References
 
 ### General
