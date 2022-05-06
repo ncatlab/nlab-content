@@ -18,7 +18,7 @@ Again in all these cases, the forgetful functor, $U:\mathcal{C}\to Set_*$ factor
 
 ###Definition
 
-(Work in progress)
+(Revision in progress)
 
 
  A _category of interest_, $\mathbb{X}$, is a [[variety of algebras|variety]] of [[universal algebras]] whose theory contains 
