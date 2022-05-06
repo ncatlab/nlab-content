@@ -1,7 +1,7 @@
 [[!redirects Felix Wellen]]
 My name changed from Felix Wellen.
 
-* [website](http://www.andrew.cmu.edu/user/fwellen/)
+* [Old website at CMU](http://www.andrew.cmu.edu/user/fwellen/)
 
 * _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ 
 
