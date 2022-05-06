@@ -19,6 +19,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc} 
@@ -29,7 +30,7 @@ In the [[philosophy of science]] and particularly the _[[philosophy of physics]]
 
 > _Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
 
-This may be regarded as a facet or version of [[theoretical aestheticism]], in contrast to [[empiricism]].
+This may be contrasted with [[empiricism]].
 
 ## Sources
 
@@ -114,4 +115,3 @@ to have evidence to the contrary.
 
 * {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
 
-[[!redirects theoretical aestheticism]]
