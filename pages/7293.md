@@ -372,6 +372,8 @@ See at _[[Hopf invariant one theorem]]_.
 
 ## Related concepts
 
+* [[cohomology operation]]
+
 * [[Bockstein homomorphism]],
 
 * [[Wu class]]
@@ -382,12 +384,12 @@ See at _[[Hopf invariant one theorem]]_.
 
 The operations were first defined in 
 
-* [[Norman Steenrod]], _Products of cocycles and extensions of mappings_, Annals of mathematics (1947)
+* [[Norman Steenrod]], _Products of cocycles and extensions of mappings_, Annals of Mathematics Second Series, Vol. 48, No. 2 (Apr., 1947), pp. 290-320 ([jstor:1969172](https://www.jstor.org/stable/1969172))
 
 The axiomatic definition appears in
 
-* [[Norman Steenrod]], [[David Epstein]], _Cohomology operations_, Annals of mathematics studies, Princeton University Press (1962)
- {#SteenrodEpstein}
+* {#SteenrodEpstein} [[Norman Steenrod]], [[David Epstein]], _Cohomology operations_, Annals of Mathematics Studies, Princeton University Press (1962) ([jstor:j.ctt1b7x52h](https://www.jstor.org/stable/j.ctt1b7x52h))
+ 
 
 Lecture notes on Steenrod squares and the [[Steenrod algebra]] include
 
