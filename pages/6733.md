@@ -698,4 +698,5 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 [[!redirects M5-brane]]
 [[!redirects M5-branes]]
 
+[[!redirects M5]]
 
