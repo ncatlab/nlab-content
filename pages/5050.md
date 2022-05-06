@@ -73,7 +73,7 @@ On [[cobordism theory]] of [[MUFr]]-[[manifolds with boundaries]], their [[e-inv
 
 ### On manifolds with corners
 
-* [[Klaus Jänich]], Section 1.2 of: _On the classification of $O(n)$-manifolds. Math. Ann. 176, 53–76 (1968) ([doi:10.1007/BF02052956](https://doi.org/10.1007/BF02052956))
+* [[Klaus Jänich]], Section 1.2 of: _On the classification of $O(n)$-manifolds_, Math. Ann. 176, 53–76 (1968) ([doi:10.1007/BF02052956](https://doi.org/10.1007/BF02052956))
 
 
 * [[Dominic Joyce]], _On manifolds with corners_ ([arXiv:0910.3518](http://arxiv.org/abs/0910.3518))
