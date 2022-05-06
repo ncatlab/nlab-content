@@ -622,7 +622,7 @@ In each of the situations in a double complex shown below, if the direction _per
      \array{
        A^{vert} &\stackrel{\simeq}{\to}& A_{\Box}
        \\
-       {}^\Box A &\stackrel{\simeq}{\to}& A^{vert}
+       {}^\Box A &\stackrel{\simeq}{\to}& A^{hor}
      }
    $$
 
@@ -641,7 +641,7 @@ Applying cor. \ref{ExtramuralIso} to $0 \to B$ yields ${}^\Box B \simeq 0_\Box =
 
 $$
   \array{
-    0 
+    \bullet 
     \\
     \downarrow
     \\
@@ -668,7 +668,7 @@ $$
     \\
     && \downarrow
     \\
-    && B &\to& 0
+    && B &\to& \bullet
   }
 $$
 
