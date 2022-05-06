@@ -126,6 +126,10 @@ Enhanced to a [[defect field theory]]:
 
 * [[Dongmin Gang]], [[Nakwoo Kim]], Mauricio Romo, Masahito Yamazaki, _Aspects of Defects in 3d-3d Correspondence_, J. High Energ. Phys. (2016) ([arXiv:1510.05011](https://arxiv.org/abs/1510.05011))
 
+More in:
+
+* Jin-Beom Bae, [[Dongmin Gang]], Jaehoon Lee, _3d $\mathcal{N}=2$ minimal SCFTs from Wrapped M5-branes_, JHEP 08 (2017) 118 ([arXiv:1610.09259](https://arxiv.org/abs/1610.09259))
+
 ### Knot invariants
 
 For discussion of [[knot invariants]]:
