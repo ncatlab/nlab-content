@@ -19,7 +19,7 @@
 
 ## Definition
 
-An __$H$-space__ ("H" for [[Heinz Hopf|Hopf]], as in _[[Hopf construction]]_) is a [[magma]] [[internalization|internal to]] the [[classical homotopy category]] of [[topological spaces]] [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of [[pointed topological spaces]],  which has a [[unit]] up to [[homotopy]]. 
+An __$H$-space__ ("H" for [[Heinz Hopf|Hopf]], as in _[[Hopf construction]]_) is a [[magma]] [[internalization|internal to]] the [[classical homotopy category]] of [[topological spaces]] [[Ho(Top)]], or in the homotopy category $Ho(Top)_*$ of [[pointed topological spaces]],  which has a [[unit]] up to [[homotopy]]. 
 
 Similarly:
 
