@@ -69,6 +69,8 @@ Cartesian categories may be [[freely generated]] from sets, categories, signatur
 
 * [[semicartesian monoidal category]]
 
+* [[cocartesian monoidal category]]
+
 * [[monoidal category with diagonals]]
 
 * [[relevance monoidal category]]
