@@ -35,6 +35,12 @@ For the moment see at _[[volume conjecture]]_.
 
 * [[hyperbolic 3-space]]
 
+* [[hyperbolic solid torus]]
+
+  * [[BTZ black hole]]
+
+  * [[thermal AdS3]]
+
 * [[knot complement]] of [[hyperbolic knot]]
 
 
