@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In the philosophy of the [[Grothendieck]] school, one starts with some category $C$ of "local models" of spaces, equips it with a subcanonical Grothendieck topology, $\tau$, and enlarges $C$ to some category of sheaves of sets on the site $(C,\tau)$ playing the role of *spaces*. There are further generalizations to stacks and so on.
+In the philosophy of the [[Grothendieck]] school, one starts with some [[category]] $C$ of "local models" of [[spaces]], equips it with a [[subcanonical topology|subcanonical]] [[Grothendieck topology]], $\tau$, and enlarges $C$ to some category of [[sheaf|sheaves of sets]] on the [[site]] $(C,\tau)$ playing the role of *spaces*. There are further generalizations to [[stacks]] and so on.
 
 When doing this, we often find that properties of "local model spaces" $X\in C$ have to be extended to properties of arbitrary spaces (i.e. sheaves on $(C,\tau)$).  In fact it is most natural to do this in a *relative* situation, i.e. to talk about properties of _morphisms_ rather than properties of _objects_, with an object $X$ regarded as the morphism $X\to 1$.  Thus, one of the main steps in the construction of the theory is to extend good classes of morphisms of local models to the category of spaces. Grothendieck axiomatizes the situation, actually for general presheaves.
 
