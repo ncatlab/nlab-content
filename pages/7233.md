@@ -516,6 +516,9 @@ Discussion of [[G2-orbifolds]] includes
 
 * [[Bobby Acharya]], [[Andreas Braun]], Eirik Eik Svanes, Roberto Valandro,  _Counting Associatives in Compact $G_2$ Orbifolds_ ([arXiv:1812.04008](https://arxiv.org/abs/1812.04008))
 
+* Daniel Platt, _Existence of torsion-free $G_2$-structures on resolutions of $G_2$-orbifolds using weighted Hölder norms_ ([arXiv:2011.00482](https://arxiv.org/abs/2011.00482))
+
+
 ### Moduli
 
 Discussion of the [[moduli space]] of $G_2$-structures includes
