@@ -117,6 +117,8 @@ The maximal torus of the [[special orthogonal group]] $SO(2n)$ and $SO(2n+1)$ is
 
 ## Related concepts
 
+* [[maximal subgroup]]
+
 * [[maximal compact subgroup]]
 
 * [[Cartan subalgebra]]
