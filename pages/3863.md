@@ -11,7 +11,7 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -50,6 +50,13 @@ See at _[[Witten genus]]_.
 For [[D=3 N=1 super Yang-Mills theory]]:
 
 * [[Edward Witten]], _Supersymmetric Index Of Three-Dimensional Gauge Theory_, in: [[The many faces of the superworld]]_ ([arXiv:hep-th/9903005](https://arxiv.org/abs/hep-th/9903005))
+
+### For $D=3$ $\mathcal{N}=2$ SYM
+
+For [[D=3 N=2 super Yang-Mills theory]]:
+
+* [[Mathew Bullimore]], Andrea E. V. Ferrari, Heeyeon Kim, _The 3d Twisted Index and Wall-Crossing_ ([arXiv:1912.09591](https://arxiv.org/abs/1912.09591))
+
 
 ### For $D=3$ $\mathcal{N}=4$ SYM
 
