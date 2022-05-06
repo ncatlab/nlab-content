@@ -34,11 +34,10 @@ On the face of it, this is a special case of the general situation, although in 
 A more general version is this:  If a set is equipped with two binary operations with [[identity elements]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
 
 1.  the other is also a homomorphism with respect to the first;
-2.  each also preserves the other\'s identity;
-3.  the identities are the same;
-4.  the operations are the same;
-5.  the operation is commutative;
-6.  the operation is associative.
+1.  the identities are the same;
+1.  the operations are the same;
+1.  the operation is commutative;
+1.  the operation is associative.
 
 This can also be [[internalisation|internalised]] in any [[monoidal category]].
 
@@ -57,23 +56,19 @@ We prove the list of results from above in order:
 
 1.  Simply read the basic equation backwards to see that $\circ$ is a homomorphism with respect to $*$.
 
-2.  Now if $1_*$ is the identity of $*$ and $1_\circ$ is the identity of $\circ$, we have
-$$ 1_\star \circ 1_\star = (1_\star \circ 1_\star) * 1_\star = (1_\star \circ 1_\star) * (1_\star \circ 1_\circ) = (1_\star * 1_\star) \circ (1_\star * 1_\circ) = 1_\star \circ 1_\circ = 1_\star .$$
-A similar argument proves the other half.
-
-3.  Then
+1.  Then
 $$ 1_\star = 1_\star * 1_\star = (1_\star \circ 1_\circ) * (1_\circ \circ 1_\star) = (1_\star * 1_\circ) \circ (1_\circ * 1_\star) = 1_\circ \circ 1_\circ = 1_\circ ,$$
 so the identities are the same; we will now write this identity simply as $1$.
 
-4.  Now
+1.  Now
 $$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b ,$$
 so the operations are the same; we will write them both with concatenation.
 
-5.  Then
+1.  Then
 $$ a b = (1 a) (b 1) = (1 b) (a 1) = b a ,$$
 so this operation is commutative.
 
-6.  Finally,
+1.  Finally,
 $$ (a b) c = (a b) (1 c) = (a 1) (b c) = a (b c) ,$$
 so the operation is associative.
 =--
