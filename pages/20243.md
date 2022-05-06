@@ -315,7 +315,7 @@ The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Exampl
 
 * {#HarveyLawson82} [[Reese Harvey]], [[H. Blaine Lawson]], theorem 1.38 of _Calibrated geometries_, Acta Math. Volume 148 (1982), 47-157 ([Euclid:1485890157](https://projecteuclid.org/euclid.acta/1485890157))
 
-* {#BryantHarvey89} [[Robert Bryant]], Reese Harvey, (3.19) in _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
+* {#BryantHarvey89} [[Robert Bryant]], [[Reese Harvey]], (3.19) in _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
 
 * {#GluckMackenzieMorgan95} Herman Gluck, Dana Mackenzie, Frank Morgan, (5.20) in _Volume-minimizing cycles in Grassmann manifolds_, Duke Math. J. Volume 79, Number 2 (1995), 335-404 ([euclid:1077285156](https://projecteuclid.org/euclid.dmj/1077285156))
 
@@ -330,6 +330,7 @@ The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Exampl
 * {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
 
 [[!redirects Sp(2).Sp(1)]]
+[[!redirects Spin(5).Spin(3)]]
 
 [[!redirects Spn.Sp1]]
 
