@@ -255,6 +255,10 @@ There is a [[Chern character]] map from equivariant K-theory to [[equivariant or
 
 * [[McKay correspondence]]
 
+* [[equivariant ordinary cohomology]]
+
+* [[equivariant ordinary differential cohomology]]
+
 
 ## References
  {#References}
