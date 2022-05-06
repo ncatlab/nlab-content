@@ -67,6 +67,8 @@ As [[black brane]] [[supergravity]]-solutions:
 
 * {#BSU09} Pierre Binetruy, Misao Sasaki, Kunihito Uzawam, _Dynamical D4-D8 and D3-D7 branes in supergravity_, Phys. Rev. D80:026001, 2009 ([arXiv:0712.3615](https://arxiv.org/abs/0712.3615))
 
+* [[Oren Bergman]], Diego Rodriguez-Gomez, Section 2.3 of: _5d quivers and their $AdS_6$ duals_, J. High Energ. Phys. (2012) 2012: 171 ([arXiv:1206.3503](https://arxiv.org/abs/1206.3503))
+
 * {#VanPol15} Bert Van Pol, Section 5 of: _Aspects of D-branes in supergravity_, thesis 2015 ([pdf](http://inspirehep.net/record/1404388/files/bertvanpol-phdthesis.pdf), [[VanPolThesis15.pdf:file]])
 
 * {#DibitettoPetri18} Giuseppe Dibitetto, Nicolò Petri, _Surface defects in the D4-D8 brane system_, J. High Energ. Phys. (2019) 2019: 193 ([arXiv:1807.07768](https://arxiv.org/abs/1807.07768))
