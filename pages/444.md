@@ -394,7 +394,7 @@ In particular in light of their generalization to nerves of higher categories, d
     }
     \right|
     (f_1, f_2) \in Mor(D) {}_t \times_s Mor(D)
-  \right\}$ is the collection of composable morphisms in $\mathcal{C}$: the 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose to morphisms);
+  \right\}$ is the collection of composable morphisms in $\mathcal{C}$: the 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose two morphisms);
 
 * $N(\mathcal{C})_3 =
     \left\{
