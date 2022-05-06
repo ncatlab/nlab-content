@@ -8,7 +8,11 @@ On the [[bag model of quark confinement]] in relation to the [[Skyrmion model]]:
 
 * {#BrownRho88} G. E. Brown, [[Mannque Rho]], _The Chiral Bag_, Comments Nucl. Part. Phys. 18 (1988) no.1, 1-29 ([spire:18025](http://inspirehep.net/record/18025))
 
-Inclusion of further heavy [[flavor (particle physics)|flavors]] beyond [[strange quark]]/[[kaons]], namely [[charm quarks]]/[[D-mesons]] and [[bottom quarks]]/[[B-mesons]], into the [[Skyrme model]]:
+Inclusion of further heavy [[flavor (particle physics)|flavors]], namle [[strange quark]]/[[kaons]], [[charm quarks]]/[[D-mesons]] and [[bottom quarks]]/[[B-mesons]], into the [[Skyrme model]]:
+
+* N. N. Scoccola, D. P. Min, H.Nadeau, [[Mannque Rho]], _The strangeness problem: An $SU(3)$ skyrmion with vector mesons_, Nuclear Physics A Volume 505, Issues 3–4, 25 December 1989, Pages 497-524 (<a href="https://doi.org/10.1016/0375-9474(89)90029-8">doi:10.1016/0375-9474(89)90029-8</a>)
+
+* [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _Charmed baryons as soliton - D meson bound states_, Phys. Lett.B 251 (1990) 597-602 ([spire:297771](https://inspirehep.net/literature/297771), <a href="https://doi.org/10.1016/0370-2693(90)90802-D">doi:10.1016/0370-2693(90)90802-D</a>)
 
 * [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
 
