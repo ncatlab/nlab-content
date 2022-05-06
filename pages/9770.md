@@ -22,6 +22,45 @@ By the [[Hirzebruch-Riemann-Roch theorem]] the [[index]] of the [[Dolbeault oper
 
 ## Properties
 
+### Relation to Thom class and Chern character
+
++-- {: .num_prop #RationalToddClassIsChernCharacterOfThomClass} 
+###### Proposition
+**([[rational Todd class is Chern character of Thom class]])**
+
+Let $V \to X$ be a [[complex vector bundle]] over a [[compact topological space]]. Then the [[Todd class]] $Td(V) \,\in\, H^{ev}(X; \mathbb{Q})$ of $V$ in [[rational cohomology]] equals the [[Chern character]] $ch$ of the [[Thom class]] $th(V) \,\in\, K\big( Th(V) \big)$ in the [[complex topological K-theory]] of the [[Thom space]] $Th(V)$, when both are compared via the [[Thom isomorphisms]] $\phi_E \;\colon\; E(X) \overset{\simeq}{\to} E\big( Th(V)\big)$:
+
+$$
+  \phi_{H\mathbb{Q}}  
+  \big( 
+    Td(V)
+  \big) 
+  \;=\;
+  ch\big( th(V) \big)
+  \,.
+$$
+
+More generally , for $x \in K(X)$ any class, we have
+
+$$
+  \phi_{H\mathbb{Q}}  
+  \big(
+    ch(x)
+    \cup
+    Td(V)
+  \big) 
+  \;=\;
+  ch\big( \phi_{K}(x) \big)
+  \,,
+$$
+
+which specializes to the previous statement for $x = 1$.
+
+=--
+
+([Karoubi 78, Chapter V, Theorem 4.4](#Karoubi78))
+
+
 ### Relation to the Adams e-invariant
  {#RelationToAdamsEInvariant}
 
@@ -161,6 +200,8 @@ Original articles:
   English translation: Section 3 of _Topological Methods in Algebraic Topology_, Classics in Mathematics, vol 131. Springer 1995 ([doi:10.1007/978-3-642-62018-8_4](https://doi.org/10.1007/978-3-642-62018-8_4))
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Sections 12, 13 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+* {#Karoubi78} [[Max Karoubi]], Chapter V.4 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 Review:
 
