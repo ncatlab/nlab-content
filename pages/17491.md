@@ -5,14 +5,20 @@ This page collects material related to
 
   _Rings, modules and algebras in stable homotopy theory_ 
 
-  AMS Mathematical Surveys and Monographs Volume 47 
+  Mathematical Surveys and Monographs Volume 47 
+
+  AMS 1997
 
   [ISBN:978-0-8218-4303-1](https://bookstore.ams.org/surv-47-s)
 
   [pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf)
 
-on [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc. This was the first to give a symmetric [[monoidal model category]] of [[spectra]] (called [[S-modules]]), in which $A_\infty$ and $E_\infty$-[[ring spectra]] could be defined as ordinary monoids and modules. 
-The book is sometimes referred to as *EKMM* for short, after the initials of its authors.
+on [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc. 
+
+(Sometimes referred to as *EKMM* for short, after the initials of its authors.)
+
+This was the first account to give a [[symmetric monoidal category of spectra]] (here modered as "[[S-modules]]"), in which $A_\infty$ and $E_\infty$-[[ring spectra]] could be defined as ordinary [[monoids]] and their [[modules]].
+ 
 
 #Contents#
 * table of contents
