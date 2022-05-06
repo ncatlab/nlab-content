@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Characteristic polynomial and Cayley-Hamilton theorem. 
@@ -7,18 +21,20 @@ See also _[[determinant]]_.
 
 +-- {: .num_lemma}
 ###### Lemma 
-Let $R$ be a commutative ring, and let $A$ be an $n \times n$ matrix with entries in $R$. Then there exists an $n \times n$ matrix $\tilde{A}$ with entries in $R$ such that $A \tilde{A} = \tilde{A} A = \det(A) \cdot I_n$. 
+
+Let $R$ be a [[commutative ring]], and let $A$ be an $n \times n$ [[matrix]] with entries in $R$. Then there exists an $n \times n$ matrix $\tilde{A}$ with entries in $R$ such that $A \tilde{A} = \tilde{A} A = \det(A) \cdot I_n$. 
+
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-We may as well take $R$ to be the polynomial ring $\mathbb{Z}[a_{i j}]_{1 \leq i, j \leq n}$, since we are then free to interpret the indeterminates $a_{i j}$ however we like along a ring map $\mathbb{Z}[a_{i j}] \to R$. Let $A$ denote the corresponding generic matrix. 
+We may as well take $R$ to be the [[polynomial ring]] $\mathbb{Z}[a_{i j}]_{1 \leq i, j \leq n}$, since we are then free to interpret the indeterminates $a_{i j}$ however we like along a ring map $\mathbb{Z}[a_{i j}] \to R$. Let $A$ denote the corresponding generic matrix. 
 
 Guided by Cramer's rule (see [[determinant]]), put 
 
 $$\tilde{A}_{j i} = \det(a_1, \ldots, e_i, \ldots a_n),$$ 
 
-the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. If we pretend $A$ is invertible, then we know $A \tilde{A} = \det(A) \cdot I_n = \tilde{A} A$ by Cramer's rule. We claim this holds for general $A$. 
+the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. If we pretend $A$ is invertible, then we know $A \tilde{A} = \det(A) \cdot I_n = \tilde{A} A$ by [[Cramer's rule]]. We claim this holds for general $A$. 
 
 Indeed, we can interpret this as a [[polynomial]] equation in $\mathbb{C}[a_{i j}]$ and check it there. As an equation between polynomial functions on the space of matrices $A \in Mat_n(\mathbb{C}) = Spec(\mathbb{C}[a_{i j}])$, it holds on the dense subset $GL_n(\mathbb{C}) \hookrightarrow Mat_n(\mathbb{C})$. Therefore, by continuity, it holds on all of $Mat_n(\mathbb{C})$. But a polynomial function equation with coefficients in $\mathbb{C}$ implies the corresponding polynomial identity, and the proof is complete. 
 =-- 
