@@ -25,10 +25,10 @@
 In [[knot theory]] by the _4-term relations_ or _4T-relations_, for short, one means the following [[relations]] in the [[linear span]] of [[chord diagrams]]:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/4TRelationsForRoundChordDiagrams.jpg" width="450">
+<img src="https://ncatlab.org/nlab/files/4TRelationsForRoundChordDiagrams.jpg" width="340">
 </center>
 
-([Bar-Natan 95, Def. 1.6 & Figure 1](#BarNatan95))
+([Bar-Natan 95, Def. 1.6](#BarNatan95))
 
 These are the relations respected by [[weight systems]] on chord diagrams.
 
