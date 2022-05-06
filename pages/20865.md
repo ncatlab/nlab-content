@@ -196,6 +196,20 @@ $$
 This is stated as [Kohno 02, Theorem 4.2](#Kohno02).
 
 
+\linebreak
+
+Combining the above two propositions
+
+1. [[weight systems are associated graded of Vassiliev invariants]],
+
+1. [[weight systems are cohomology of loop space of configuration space]]
+
+we get this situation:
+
+
+<img src="https://ncatlab.org/nlab/files/VassilievInvInCohOfLoopSpacesOfConfigSpaces.jpg" width="600">
+
+
 ### Weight systems from Lie algebras
 
 (...)
