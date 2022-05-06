@@ -47,13 +47,10 @@ A faithful functor [[reflected limit|reflects]] [[epimorphisms]] and [[monomorph
 
 ## Related concepts
 
-* [[essentially surjective functor]]
+[[!include properties of functors -- contents]]
 
-* [[full functor]]
 
-* [[full and faithful functor]]
 
-* [[equivalence of categories]]
 
 [[!redirects faithful]]
 [[!redirects faithful functors]]
