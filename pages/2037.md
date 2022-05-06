@@ -129,7 +129,7 @@ The relation in Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} imply 
   \phantom{AA}
   a (b \ell)   
   \;=\;
-  \cdots
+  (b a) \ell
 \]
 
 \linebreak
@@ -425,6 +425,9 @@ Review and introduction:
 * {#Baez02} [[John Baez]], _[The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)_, in _[The octonions](http://math.ucr.edu/home/baez/octonions/)_, Bull. Amer. Math. Soc. 39 (2002), 145-205, [doi](http://dx.doi.org/10.1090/S0273-0979-01-00934-X)
 
 * [[John Baez]], _[This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)_
+
+* [[Tevian Dray]], [[Corinne Manogue]], Section 5.1 of: _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
+
 
 See also
 
