@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[D=3 N=2 super Yang-Mills theory]]:
+
+* [[Jan de Boer]], [[Kentaro Hori]], [[Yaron Oz]], _Dynamics of N=2 Supersymmetric Gauge Theories in Three Dimensions_, Nucl. Phys. B500:163-191, 1997 ([arXiv:hep-th/9703100](https://arxiv.org/abs/hep-th/9703100))
+
+
 On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
