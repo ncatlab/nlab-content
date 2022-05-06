@@ -1,7 +1,8 @@
 
-* [website](http://math.mit.edu/~clarkbar/index.html)
+* [website](https://www.maths.ed.ac.uk/~cbarwick/)
 
-# related $n$Lab entries #
+
+### related $n$Lab entries 
 
 * [[Bousfield localization]]
 
@@ -12,6 +13,10 @@
 * [[cyclotomic spectrum]]
 
 * [[Parametrized Higher Category Theory and Higher Algebra]]
+
+### Writings
+
+* [The future of homotopy theory](https://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf)
 
 category: people
 
