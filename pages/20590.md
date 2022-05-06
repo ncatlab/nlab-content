@@ -1,7 +1,11 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A Moore machine is a particular type of finite state automaton.
+A _Moore machine_ is a particular type of [[finite state automaton]].
 
 ## Definition
 
