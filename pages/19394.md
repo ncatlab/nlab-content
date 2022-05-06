@@ -61,6 +61,8 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 ## Related concepts
 
+* [[D=6 N=(1,0) SCFT]]
+
 [[!include KK-compactifications of M-theory -- table]]
 
 \linebreak
@@ -77,6 +79,10 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 * {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
 * {#GHKKLV15} Abhijit Gadde, Babak Haghighat, Joonho Kim, Seok Kim, Guglielmo Lockhart, [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+
+On the [[Green-Schwarz anomaly cancellation]]:
+
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], _Anomaly polynomial of E-string theories_, J. High Energ. Phys. 2014, 2 (2014) ([arXiv:1404.3887](https://arxiv.org/abs/1404.3887))
 
 ### In F-theory
 
