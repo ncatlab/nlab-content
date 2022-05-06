@@ -90,6 +90,18 @@ Discussion in [[F-theory]]:
 
 * Jie Gu, Babak Haghighat, [[Albrecht Klemm]], Kaiwen Sun, Xin Wang, _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_ ([arXiv:1911.11724](https://arxiv.org/abs/1911.11724))
 
+### In heterotic M-theory on ADE-orbifolds
+
+Discussion in [[heterotic M-theory on ADE-orbifolds]], where the [[M5-branes]] parallel to an [[MO9]] sit on an [[MK6]]/[[D6-brane]] on an [[ADE-singularity]]:
+
+* {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], around (6.13) in _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GKSTY5BraneParallelToO8.jpg" width="300">
+</center>
+
+
+
 ### Relation to D$p$-D$(p+2)$-brane bound states
 
 The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (eventually motivating the [[BLG model]]/[[ABJM model]]):
