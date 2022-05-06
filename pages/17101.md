@@ -29,3 +29,5 @@
 category: people
 
 [[!redirects Ioan Mackenzie James]]
+
+[[!redirects Ioan M. James]]
