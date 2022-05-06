@@ -140,6 +140,13 @@ The role of the D8 in the [[K-theory]]-classification of [[D-branes]] is discuss
 
 ### Lift to M-theory
 
-A lift of D8-branes to [[M-theory]] [[M-branes]] is proposed in 
+A lift of [[D8-branes]] to [[M-theory]] [[M-branes]] by [[generalized Scherk-Schwarz reduction]], relating to [[D7-branes]] in [[F-theory]], is proposed in 
 
 * {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
+
+Relation of [[heterotic M-theory]] to [[type I' string theory]] with [[D8-branes]] at [[O8-planes]], via a sequence of [[dualities in string theory]]:
+
+* [[Ofer Aharony]], Zohar Komargodski, Assaf Patir, _The Moduli Space and M(atrix) Theory of 9d $\mathcal{N} =1$ Backgrounds of M/String Theory_ ([arXiv:hep-th/0702195](https://arxiv.org/abs/hep-th/0702195))
+
+
+
