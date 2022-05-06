@@ -47,19 +47,31 @@ Where the [[quantum anomaly]]-cancellation for the heterotic string involves the
 
 ## References
 
+
 The heterotic [[NS5-brane]] was found as a [[black brane]] in [[heterotic string theory]] in 
 
 * {#Strominger91} [[Andrew Strominger]], _Heterotic solitons_, Nucl.Phys. B343 (1990) 167-184 Nucl.Phys. B353 (1991) 565 ([spire](http://inspirehep.net/record/27900))
+
+Discussion of the heterotic [[NS5-brane]] as a [[Green-Schwarz sigma-model]] and its fermion [[worldvolume]] [[quantum anomaly]]:
+
+* [[Kurt Lechner]], [[Mario Tonin]], _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
+
+* J. Mourad, _Anomalies of the $SO(32)$ five-brane and their cancellation_, Nucl.Phys. B512 (1998) 199-208 ([arxiv:hep-th/9709012](https://arxiv.org/abs/hep-th/9709012))
+
+* {#Lechner10} [[Kurt Lechner]], _Quantum properties of the heterotic five-brane_, Phys.Lett.B693:323-329, 2010 ([arxiv:1005.5719](https://arxiv.org/abs/1005.5719))
+
+
+* J. A. Dixon, [[Mike Duff]], [[Jan Plefka]], _Putting the string/fivebrane duality to the test_ ([arXiv:hep-th/9208055](http://arxiv.org/abs/hep-th/9208055))
+
 
 Review of the history of the dual heterotic string conjecture is in
 
 * [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_ IoP 1999
 
-The worldvolume fermion [[quantum anomaly]] of the super-fivebrane is discussed in
 
-* [[Kurt Lechner]], [[Mario Tonin]], _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
 
-* J. A. Dixon, [[Mike Duff]], [[Jan Plefka]], _Putting the string/fivebrane duality to the test_ ([arXiv:hep-th/9208055](http://arxiv.org/abs/hep-th/9208055))
+
+
  
 On p. 3 and 4 the latter reviews the worldsheet description of the relevant terms for the string and then look at the corresponding situation for the 5-brane on p. 6.
 
