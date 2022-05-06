@@ -24,7 +24,7 @@
 
 ## Idea
 
-_Inductive families_ generalize [[inductive types]]. Instead of defining a single type inductively, one simultaneously defines a whole family of types. An alternative term is "Indexed inductive definition".
+_Inductive families_ generalize [[inductive types]]. Instead of defining a single type inductively, one simultaneously defines a whole family of types. An alternative term is "indexed inductive definition".
 
 A simple example of an inductive family is the type of vectors Vect n indexed by the dimension n. This is defined by two constructors: one for the empty vector of dimension 0, and another for the operation which constructs a vector of dimension n+1 by adding a component to a vector of dimension n. The family of finite types Fin n (indexed by n) can also be defined as an inductive family: the constructor 0 is in any Fin n, and there is a successor operation which constructs an element in Fin (n+1) from an element in Fin n.
 
