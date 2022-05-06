@@ -41,7 +41,7 @@ A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-d
 
    Notice that the [[complex numbers]] have 2 distinct [[continuous function|continuous]] [[automorphisms]], given, over $\mathbb{R}$, by $e \mapsto \pm e$ (see at _[[automorphism of the complex numbers]]_).
 
-   On the other hand, the [[ring of dual numbers]] has a continuous automorphism $e \mapsto k e$ for each $k \in \mathbb{R} \setminus \{e\}$. But the  latter space is [[homotopy equivalence|homotopy equivalent]] to two points, corresponding to the [[connected components]] of, again, $e \mapsto \pm e$. 
+   On the other hand, the [[ring of dual numbers]] has a continuous automorphism $e \mapsto k e$ for each $k \in \mathbb{R} \setminus \{0\}$. But the  latter space is [[homotopy equivalence|homotopy equivalent]] to two points, corresponding to the [[connected components]] of, again, $e \mapsto \pm e$. 
 
    Maybe $e \mapsto \pm e$ are also the two non-trivial continuous automorphisms of the [[perplex numbers]]. 
 
