@@ -329,6 +329,8 @@ This and much more history is recalled in
 
 * [[Colin McLarty]], _Elementary categories, elementary toposes_. 
 
+* [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
+ 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_  
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1--3. 
