@@ -181,6 +181,10 @@ the flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 
 > graphics grabbed from [Bettiol-Derdzinski-Piccione 18](#BettiolDerdzinskiPiccione18)
 
+### Flat compact 3-dimensional orbifolds
+
+Many flat compact oriented 3-dimensional orbifolds have coarse underlying topllogical space the [[3-sphere]] ([Dunbar 88](#Dunbar88))
+
 ### Flat compact 4-dimensional orbifolds
  {#FlatCompact4dOrbifolds}
 
@@ -285,6 +289,11 @@ In 2 dimensions
 
 * {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
 
+#### Of dimension 3
+
+* {#Dunbar88} [[William Dunbar]], _Geometric orbifolds_, Rev. Mat. Univ. Complutense Madr. 1, No.1-3, 67-99 (1988)
+
+
 
 #### Of dimension 4
 
@@ -301,7 +310,7 @@ In the context of [[RR-field tadpole cancellation]] for [[intersecting D-brane m
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB string theory]], hence for [[D9-branes]] and [[D5-branes]]:
 
 
-* Eric G. Gimon, [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+* [[Eric Gimon]], [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
 * {#GimonJohnson96} Eric Gimon, [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
 
