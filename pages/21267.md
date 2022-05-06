@@ -13,7 +13,7 @@ In one of the first textbooks on homotopy theory,
 _An introduction to homotopy theory_ by [[Peter J. Hilton]] (1953),
 one reads:
 
-> Since the introduction of -[[homotopy groups]] by [[Hurewicz]] in 1935, homotopy theory has been occupying an increasingly prominent place in the field of [[algebraic topology]]. Important new advances are continually being made in the subject by various workers; and the recent developments emanating from
+> Since the introduction of [[homotopy groups]] by [[Hurewicz]] in 1935, homotopy theory has been occupying an increasingly prominent place in the field of [[algebraic topology]]. Important new advances are continually being made in the subject by various workers; and the recent developments emanating from
 the French school of topologists underline the desirability of having available a basic introduction to homotopy theory
 suitable for those who wish to undertake research in the subject
 and for those who wish to be in a position to understand the
@@ -146,18 +146,243 @@ encode the relevant notion of “sameness”.
 
 ## Why do we need models in homotopy theory?
 
-## What is homotopy type theory?
+The short answer is: we do not know how to work without models.
+
+A good example is the notion of an [[(∞,1)-category]],
+which exists at the [[Platonic]] level,
+and whose “shadows” (using Plato's terminology)
+in the world of rigorous mathematics
+have been exhibited as various models of [[(∞,1)-categories]]:
+[[relative categories]], [[quasicategories]], [[Segal categories]],
+[[complete Segal spaces]], [[simplicial categories]], etc.
+
+However, the concept of [[(∞,1)-categories]] per se
+resists formalization in a satisfactory way.
+[[Homotopy type theory]] may succeed one day on this path,
+but so far no working definition has been exhibited yet.
 
 ## What is an ∞-category or (∞,1)-category?
 {#infinity}
 
-## How are model categories related to other models of ∞-categories?
+An (∞,1)-category is a category [[enriched]] in (homotopy) spaces.
+
+This can be formalized in many different ways.
+For example, if we [model](#models) homotopy spaces
+by [[simplicial sets]] with [[simplicial weak equivalences]],
+then we can consider categories enriched in [[simplicial sets]],
+equipped with [[Dwyer–Kan equivalences]],
+which are [[enriched functors]] that induced a [[simplicial weak equivalence]]
+on each mapping [[simplicial set]],
+and after passing to the [[homotopy category]]
+(which in this case amounts to replacing each mapping [[simplicial set]]
+with its set of connected components),
+we get an [[equivalence of categories]].
+
+As one can see from this description, there are substantial
+[modeling](#models) issues related to (∞,1)-categories.
+
+Other [models](#models) for (∞,1)-categories include
+[[relative categories]], [[quasicategories]], [[Segal categories]],
+[[complete Segal spaces]], etc.
+
+All these models are equivalent in a precise sense:
+we can organize each of them into a [[Quillen model category]]
+so that all resulting [[model categories]] are [[Quillen equivalent]].
+
+The term “[[∞-category]]” has two different meanings:
+it can either mean (∞,1)-category,
+or (more recently) it can mean a [[quasicategory]] (as used in [[Lurie]]'s books,
+for example).
+
+## Are quasicategories model-independent?
+
+No, for example, the set (or [[class]]) of 0-simplices of a [[quasicategory]]
+does not have any model-independent meaning.
+
+Unfortunately, one often sees the adjective “model-independent”
+(ab)used to mean that only constructions that
+are meaningful on the level of underlying [[(∞,1)-categories]]
+are used in a particular argument with [[quasicategories]].
+Of course, there is nothing special about [[quasicategories]]
+in this context: we often write “model-independent” arguments
+of such type also in [[model categories]], for example.
+
+## What is homotopy type theory?
+
+See [[homotopy type theory FAQ]] for a detailed explanation.
+Here we only offer a highly impressionistic description.
+
+Consider the traditional mathematical setup for (homotopy) spaces
+[modeled](#models) by [[simplicial sets]] and [[simplicial weak equivalences]]:
+we start with [[first-order logic]], introduce [[Zermelo-Fraenkel axioms]],
+then define [[simplicial sets]] and [[simplicial weak equivalences]].
+
+[[Homotopy type theory]] replaces this entire stack with a flavor of [[type theory]] that aims to axiomatize
+homotopy types (known in the field simply as types)
+directly, without these intermediate steps.
+In particular, [[first-order logic]] is subsumed
+into [[type theory]].
+The latter (very) roughly resembles [[ETCS]]
+in how it chooses to formulate things like existence
+of (co)products of sets etc., i.e., these concepts
+are formulated in a categorical way rather than through
+constructions like [[Kuratowski pairs]] etc.
+
+More fundamentally, the meaning of equality sign $=$
+is altered: now $A=B$ (very) roughly means the the space
+of paths from the point $A$ to the point $B$ in whatever
+ambient space contains the points $A$ and $B$.
+Very roughly, if this space is empty, we could interpret this as $A\ne B$
+and if it is nonempty, we could interpret this as $A=B$.
+However, [[homotopy type theory]] preserves the whole homotopy type
+of the path space and not just whether it is empty or not.
+The (Platonic) meaning of the equality sign is thus fundamentally enhanced
+and [[homotopy type theory]] explains how to manipulate such
+enhanced equalities.
+
+This setup allows us to talk about homotopy types directly,
+without using models.
+Furthermore, the analog of weak equivalences in this setting
+behaves similar to [[isomorphisms]] (with a caveat that [[equality]]
+is now understood in the enhanced sense).
+In particular, every equivalence is invertible,
+unlike (say) [[simplicial weak equivalences]], which need not be.
+
+Much has been achieved on this path,
+including a new proof of the [[Blakers-Massey theorem]] that
+led to new classical consequences after being
+instantiated in [[(∞,1)-toposes]].
+
+However, one serious obstacle to adopting this approach
+in mainstream [[homotopy theory]] is that there is currently (April 2020)
+no working definition of an [[(∞,1)-category]],
+although research is being conducted in this direction.
 
 ## What is homotopical algebra?
+{#halg}
 
-## What is the relationship between category theory and homotopy theory?
+[[Homotopical Algebra]] is the title of a 1967 book by [[Daniel Quillen]] that introduced [[model categories]].
+
+Ever since then this term has been used to describe
+research in the area of [[model categories]].
+
+It is often hard to separate homotopical algebra
+from homotopy theory.
+Typically, “homotopical algebra” is used
+to refer to arguments that use notions from [[model categories]]
+rather explicitly, as opposed to (say) [[quasicategorical]] argument.
+We do note that setting up the theory of [[quasicategories]]
+relies heavily on [[homotopical algebra]] and much
+of Lurie's [[Higher Topos Theory]] is devoted
+to rather subtle aspects of [[homotopical algebra]].
+
+## How are model categories related to other models of ∞-categories?
+
+If we discard [[cofibrations]] and [[fibrations]]
+from the data of a [[model category]],
+we get a [[relative category]].
+[[Relative categories]] are one of many equivalent [models](#models)
+for [[(∞,1)-categories]], so any [[model category]]
+has an underlying [[(∞,1)-category]].
+
+Since the underlying [[(∞,1)-category]]
+only depends on [[weak equivalences]] and not on [[cofibrations]] or [[fibrations]],
+we deduce that two [[model categories]] with the same [[weak equivalences]],
+but different [[cofibrations]] or [[fibrations]]
+have the same underlying [[(∞,1)-category]].
+
+Thus, the data of [[cofibrations]] and [[fibrations]]
+merely enhances the given presentation of an [[(∞,1)-category]]
+as a [[relative category]] with additional data
+that helps to organize various computation,
+e.g., to [derive functors](#derived).
+
+However, the ultimate answer to any computation with [[model categories]]
+that makes sense on the level of underlying [[(∞,1)-categories]]
+does not depend on the choice of [[cofibrations]] and [[fibrations]],
+although its specific [model](#models) certainly does.
+
+Another important aspect of the relation between [[model categories]]
+and [[(∞,1)-categories]] is that a [[model category]]
+must satisfy additional (co)completeness conditions.
+In the original definition by [[Quillen]],
+a [[model category]] must be finitely (co)complete,
+and its (co)fibrations need not be closed under [[retracts]].
+In this case, the underlying [[(∞,1)-category]]
+admits finite ∞-(co)limits.
+In the revised definition by [[Kan]],
+a [[model category]] must be (co)complete,
+and its (co)fibrations must be closed under [[retracts]].
+In this case, the underlying [[(∞,1)-category]]
+admits small ∞-(co)limits.
+Finally, Hovey's definition additionally requires factorizations
+to be functorial.
+This condition does not seem to alter the class of underlying [[(∞,1)-categories]].
+
+## What is the relationship between (higher) category theory and homotopy theory?
+
+[[Homotopy theory]] serves as a foundation for much of modern (higher) [[category theory]].  For instance, the proof of equivalence of various models
+of [[(∞,n)-categories]] heavily relies on [homotopical algebra](#halg).
+It is difficult to draw a sharp boundary between the two subjects; [[(∞,1)-categories]] could definitely be seen as being part of both, for example.
+
+[[Homotopy theory]] also somewhat implicitly permeates classical [[category theory]].  For example, the correct notion of a [[pullback]] for diagrams
+of [[categories]] is not the strict [[pullback]],
+but rather incorporates an additional isomorphism
+between the images of two given objects.
+But this is precisely the [[homotopy pullback]]
+in the category of [[small categories]]
+equipped with the [[natural model structure]].
 
 ## What is a derived functor?
+{#derived}
+
+Just as [[relative categories]] [model](#models) [[(∞,1)-categories]],
+we can expect functors between [[relative categories]]
+to [model](#models) [[(∞,1)-functors]].
+
+The easiest way to perform such [modeling](#models)
+is to require functors to preserve [[weak equivalences]].
+This indeed works perfectly well.
+However, many functors arising in practice,
+such as the tensor product of [[chain complexes]]
+(with [[quasi-isomorphisms]] as [[weak equivalences]])
+does not satisfy such a strong condition.
+
+“Deriving” is a process that [models](#models) [[(∞,1)-functors]]
+via functors between [[relative categories]] that need not
+preserve [[weak equivalences]].
+
+Multiple nonequivalent definitions of [[derived functors]]
+exist in the literature,
+and functors that can be derived in one of the definitions
+need not be derivable in another.
+
+Typically (in most definitions),
+deriving a [[functor]] $F\colon C\to D$ between
+[[relative categories]] $C$ and $D$
+involves replacing $F$ with $F\circ R$,
+where $R\colon C\to C$ is a [[resolution]] functor,
+which is typically require to preserve [[weak equivalences]]
+and be itself a [[weak equivalence]] of [[relative categories]]
+(known as a [[Dweyr-Kan equivalence]] of [[relative categories]]).
+
+A definition with rather good properties
+was given recently by [[Hinich]]
+and relies on converting a given functor $F\colon C\to D$
+into a [[cocartesian fibration]] (or [[cartesian fibration]])
+over the category $\{0\to1\}$, and
+equipping the total category of this fibration
+with an obvious notion of weak equivalence.
+If the resulting functor of relative categories
+is a (co)cartesian fibration of relative categories,
+we can convert it to a functor $C\to D$ that preserves
+[[weak equivalences]], which is the (left or right) [[derived functor]] of $F$.
+
+Other (older) definitions involve [[Kan extensions]]
+along [[localization]] functors to [[homotopy categories]].
+These definitions do not have such nice theoretical properties
+as the definition considered above.
+For example, they tend to misbehave when we try to derive compositions of functors.
 
 ## What is the homotopy category of an ∞-category?  What are its limitations?
 
