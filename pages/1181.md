@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Natural numbers object
 * table of contents
 {: toc}
@@ -270,6 +271,10 @@ TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints
 * {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
+
+In [[elementary (infinity,1)-toposes]]:
+
+* [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734))
  
 
 
