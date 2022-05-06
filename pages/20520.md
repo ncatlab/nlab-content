@@ -18,7 +18,7 @@ Graded monads are also known as **parametric** monads. The grading idea may also
 
 1. For graded monads relevant for probability theory see ([Perrone](#Perrone)).
 
-1. Given the strict action of a monoidal category, $\mathcal{M}$ on a category $B$, and an adjunction
+1. Given the strict action of a monoidal category, $\mathcal{M}$ on a category $\mathcal{B}$, and an adjunction
 
 \begin{center}
   \begin{tikzcd}
@@ -29,7 +29,7 @@ Graded monads are also known as **parametric** monads. The grading idea may also
      \arrow[l, shift right=6pt, "L"']
   \end{tikzcd}
 \end{center}
-then $\mathcal{A}$ inherits a lax action of $\mathcal{M}$ and is hence a graded monad. Every lax action can be generated from a strict action in this way ([FKM 16](#FKM)).
+then $\mathcal{A}$ inherits a lax action of $\mathcal{M}$ and is hence a graded monad. Every lax action can be generated from a strict action in this way. Initial and terminal such resolutions of a lax action then generalize the $\mathcal{M} \cong 1$ situation in which is a monad is resolved into adjunctions with the [[Kleisli category|Kleisli]] and [[Eilenberg-Moore category|Eilenberg-Moore]] categories ([FKM 16](#FKM)).
 
 ## Related concepts
 
