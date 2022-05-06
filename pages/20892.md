@@ -11,6 +11,7 @@ We discuss occurrences of [[weight systems]] on [[chord diagrams]]/[[Jacobi diag
 
    1. [In AdS2/CFT1, JT-gravity/SYK-model](#ReferencesWeightSystemsInSYKModel)
 
+
    1. [In Dp-D(p+2) brane intersections](#ReferencesWeightSystemsInDpDp2BraneIntersections)
 
 
@@ -19,7 +20,13 @@ We discuss occurrences of [[weight systems]] on [[chord diagrams]]/[[Jacobi diag
 
 Since [[weight systems are the associated graded of Vassiliev invariants]], and since [[Vassiliev invariants]] are [[knot invariants]] arising as certain [[correlators]]/[[Feynman amplitudes]] of [[Chern-Simons theory]] in the presence of [[Wilson lines]], there is a close relation between [[weight systems]] and [[quantization of 3d Chern-Simons theory|quantum Chern-Simons theory]].
 
+
 Historically this is the original application of [[chord diagrams]]/[[Jacobi diagrams]] and their [[weight systems]], see also at _[[graph complex]]_ and _[[Kontsevich integral]]_.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/BarNatanChernSimonsChordDiagrams.jpg" width="300">
+</div>
+
 
 * {#BarNatan91} [[Dror Bar-Natan]], _Perturbative aspects of the Chern-Simons topological quantum field theory_, thesis 1991 ([spire:323500](http://inspirehep.net/record/323500), [proquest:303979053](https://search.proquest.com/docview/303979053), [[BarNatanPerturbativeCS91.pdf:file]])
 
@@ -83,6 +90,11 @@ and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravit
 #### In D$p$/D$(p+2)$-brane intersections
  {#ReferencesWeightSystemsInDpDp2BraneIntersections}
  
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphereII.jpg" width="300">
+</div>
+
+
 Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observables]] on the [[fuzzy funnel]]/[[fuzzy sphere]] [[non-commutative geometry]] of [[Dp-D(p+2)-brane intersections]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
 [[Yang-Mills monopoles]]):
 
@@ -93,5 +105,6 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 * [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
 
 
