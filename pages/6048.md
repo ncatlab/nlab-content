@@ -283,6 +283,19 @@ Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra
 
 * [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
+### Dyonic membranes
+ {#ReferencesDyonic}
+
+[[dyon|dyonic]]$\,$[[black brane|black]] [[M2-branes]] ([[M5-branes]] [[wrapped brane|wrapped]] on a [[3-manifold]], see also at _[NS5-branes -- D2/D4/NS5-bound states](NS5-brane#ReferencesNS5D4D2BoundStates)_):
+
+* {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
+
+* [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
+
+* {#Petri18} Nicolò Petri, slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
+
+
+
 [[!redirects M2-branes]]
 
 [[!redirects M2 brane]]
