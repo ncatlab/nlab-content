@@ -63,6 +63,8 @@ $$
 
 * [[congruence subgroup]]
 
+* [[special linear Lie algebra]]
+
 ## References
 
 * {#Lang02} [[Serge Lang]], _Algebra_, $3^{rd}$ edition, Springer 2002 ([pdf](https://math24.files.wordpress.com/2013/02/algebra-serge-lang.pdf))
