@@ -79,6 +79,8 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 * [[big bang]]
 
+* [[comoving time]]
+
 * [[cosmic inflation]]
 
 * [[standard model of cosmology]]
