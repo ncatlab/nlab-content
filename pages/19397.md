@@ -54,7 +54,7 @@ Discussion of [[free actions|free]] [[group actions on spheres]] by [[finite gro
 
 Discussion of [[circle group]]-actions on spheres includes
 
-* {FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
+* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanré]], _Algebraic Models in Geometry_, Oxford University Press 2008
 
 
 The subgroups of [[special orthogonal group|SO(8)]] which act freely on $S^7$ have been classified in 
