@@ -252,6 +252,9 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 [[!include table of branes]]
 
 
+\linebreaK
+
+
 ## References
 
 ### As a black brane
@@ -366,7 +369,7 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 ### NS5/D4/D2 bound states
  {#ReferencesNS5D4D2BoundStates}
 
-[[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]
+[[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]] (see also at _[M2-branes -- Dyonic membranes](M2-brane#ReferencesDyonic)_)
 
 * {#MitraRoy00} Indranil Mitra, Shibaji Roy, _(NS5,Dp) and (NS5,D(p+2),Dp) bound states of type IIB and type IIA string theories_, JHEP 0102:026, 2001 ([arXiv:hep-th/0011236](https://arxiv.org/abs/hep-th/0011236))
 
