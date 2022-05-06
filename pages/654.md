@@ -36,7 +36,7 @@ The first of these may be thought of as motivating the notion of
 
 * [Kapranov-Voevodsky $2$-vector space](#KV2VectorSpace) 
 
-the second that of of 
+the second the notion of
 
 * [Baez-Crans $2$-vector spaces](#BaezCrans2VectorSpaces)
 
