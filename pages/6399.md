@@ -5,6 +5,7 @@ Michael Green is professor for theoretical [[physics]] at Cambridge. Together wi
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Green_%28physicist%29)
 
+
 ## Quotes
 
 On the computation of the [[anomaly cancellation]] now known as the [[Green-Schwarz mechanism]] in [[heterotic string theory]] (also known as [The First Superstring Revolution](http://theory.caltech.edu/people/jhs/strings/str133.html)):
@@ -15,6 +16,10 @@ On the computation of the [[anomaly cancellation]] now known as the [[Green-Schw
 
 ## Selected writings
 
+Popular exposition of [[string theory]]:
+
+* {#Green86} [[Michael Green]], _Superstrings_, Scientific American
+Scientific American Vol. 255, No. 3 (September 1986), pp. 48-63 ([jstor:24976036](https://www.jstor.org/stable/24976036))
 
 
 On the [[Green-Schwarz superstring]]:
