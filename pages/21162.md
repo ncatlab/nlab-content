@@ -28,6 +28,9 @@ Examples of quarkonia:
 
 ## References
 
+* Zebo Tang, _Quarkonium production: An experimental overview_ ([arXiv:2002.10793](https://arxiv.org/abs/2002.10793))
+
+
 See also
 
 * Wikipedia, _[Quarkonium](https://en.m.wikipedia.org/wiki/Quarkonium)_
