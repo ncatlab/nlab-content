@@ -19,9 +19,11 @@
 
 A _graph complex_ is a certain [[cochain complex]] [[linear span|spanned]] by [[equivalence classes]] of certain labeled [[directed graphs]], whose [[differential]] encodes the operation of contracting away [[edges]] in a graph.
 
-A concrete implementation of this general idea, 
-originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14),
-is often referred to by default as _the graph complex_ and yields, for $\Sigma$ a [[smooth manifold]] often taken to be [[Euclidean space]], a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
+Two similar but different classes of examples are usually referred to as just "the graph complex". Given a [[smooth manifold]] $\Sigma$, often taken to be [[Euclidean space]] $\mathbb{R}^D$, these are the following:
+
+**1) $Graphs\big( \Sigma\big)$ -- Graph complex models of [[configuration spaces of points]]**  
+
+originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14) a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
 
 $$
   Graphs_n\big( \Sigma \big)
@@ -123,14 +125,89 @@ $$
 
 This was originally sketched in [Kontsevich 92, p. 11-12](#Kontsevich92). A detailed construction and proof was laid out in [Lambrechts-Volić 14](#LambrechtsVolic14). Other authors have claimed various generalizations of this result, generalizing [[Euclidean space]] $\mathbb{R}^D$ to more general [[smooth manifolds]], possibly [[manifold with boundary|with boundary]].
 
- 
+\linebreak
+
+**2) $KnotGraphs\big( \Sigma\big)$ -- Graph complex models of [[spaces of knots]]**  
+
+originally sketched in [Kontsevich 93, Section 5](#Kontsevich93), worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni02)spring 
+
+\[
+  \label{TheQuasiIsomorphism}
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{graph complex}
+      \\
+      \text{of n-point Feynman diagrams}
+      \\
+      \text{for Chern-Simons theory}
+      \\
+      \text{with knots in} \; \Sigma 
+    }
+  }{
+    KnotGraphs_n(\Sigma)
+  }
+  \underoverset{
+  }
+  {
+    \color{blue}
+    \array{
+      \text{assign Feynman amplitudes}
+      \\
+      \text{of Chern-Simons theory}
+      \\
+      \phantom{A}
+    }
+  }
+  {
+    \longrightarrow
+  }
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{de Rham algebra}
+      \\
+      \text{of space of knots}
+      \\
+      \text{in}\; \Sigma
+      \\
+      \text{(higher Vassiliev knot invariants)}
+    }
+  }{
+  \Omega^\bullet_{PA}
+  \big(
+    Emb(S^1,  \Sigma \big)
+  \big)
+  }
+  \,.
+\]
+
+(...)
+
+This yields higher [[Vassiliev knot invariants]].
+
+(...) 
 
 
 ## Definition
  {#GraphComplex}
 
+### Overview
+ {#NonDependenceOnSigma}
 
-In general, the definition of a graph complex depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomology of the [[configuration space of points]] in $\Sigma$
+There are two different classes of (Kontsevich) graph complexes, modelling the [[real cohomology]] of, respectively,
+
+1. [[configuration spaces of points]];
+
+1. [[spaces of knots]].
+
+Their definitions are almost identical, except for some small but crucial difference in the definition of degrees and labels of edges.
+
+In addition, the definition of a graph complex depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomology of the [[configuration space of points]] in $\Sigma$
 
 $$
   Graphs\big( \Sigma \big)
@@ -183,8 +260,6 @@ The full graph complexes/configuration spaces are just the [[direct sum]]/[[unio
 
 The precise form of these relations is the content of the theorems discussed below. Before stating this in detail, we make some general remarks on how the situation depends on $\Sigma$:
 
-### Overview: (Non-)Dependence on the manifold $\Sigma$
- {#NonDependenceOnSigma}
 
 Beware that the graphs $[\Gamma] \in Graphs_n(\Sigma)$ themselves are _not_ going to carry an embedding into the manifold $\Sigma$, they are just abstract graphs. But the construction of the above correspondence to the cohomology of the configuration space of points is given by associating with a graph the corresponding [[correlator as differential form on configuration space of points|correlator]] in a [[Chern-Simons theory|Chern-Simons]] [[perturbative quantum field theory]] on the space $\Sigma$.
 
@@ -1261,7 +1336,7 @@ Discussion of the graph complex as computing higher order [[Vassiliev invariants
 
 * {#CattaneoCottaRamusinoLongoni02} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
 
-* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218), [doi:10.1142/S0218216505004019](http://dx.doi.org/10.1142/S0218216505004019), [math.GT/0307218](http://arxiv.org/abs/math/0307218), [MR2006g:58021](http://www.ams.org/mathscinet-getitem?mr=2006g:58021))
+* {#CattaneoCottaRamusinoLongoni05} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218), [doi:10.1142/S0218216505004019](http://dx.doi.org/10.1142/S0218216505004019), [math.GT/0307218](http://arxiv.org/abs/math/0307218), [MR2006g:58021](http://www.ams.org/mathscinet-getitem?mr=2006g:58021))
 
 Reviewed in:
 
