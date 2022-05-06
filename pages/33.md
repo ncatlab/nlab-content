@@ -84,6 +84,14 @@ In the sense of "weakly internalizing in a higher categorical context" we have t
 
 * [categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)
 
+* [[(∞,1)-category theory|(∞,1)-]]categorification of [[differential calculus]] is [[Goodwillie calculus]]
+
+  [[(∞,1)-category theory|(∞,1)-]]categorification of [[derivative]] is [[Goodwillie derivative]]
+
+  [[(∞,1)-category theory|(∞,1)-]]categorification of [[chain rule]] is [[Goodwillie chain rule]]
+  
+  etc.
+
 ### As homotopy coherent resolution
 
 The above process of categorification by coherently weak internalization into higher categorical contexts can be made systematic at least in some cases.
