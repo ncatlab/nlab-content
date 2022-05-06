@@ -66,7 +66,11 @@ The original articles are
 * {#HananyWitten97} [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
 
 
-Reviews include
+Review:
+
+* [[Amit Giveon]], [[David Kutasov]], _Brane Dynamics and Gauge Theory_, Rev. Mod. Phys. 71:983-1084, 1999 ([arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067))
+
+  (emphasis on the [[s-rule]])
 
 * [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) [pdf](http://edoc.hu-berlin.de/dissertationen/physik/karch-andreas/PDF/Karch.pdf)
 
