@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-(e.q. [Henneaux-Teitelboim 92, (15.52)](#HenneauxTeitelboim92), [Rejzner 16, remark 7.7](#Rejzner16)).
+(e.q. [Henneaux-Teitelboim 92, (15.25)](#HenneauxTeitelboim92), [Rejzner 16, remark 7.7](#Rejzner16)).
 
 This may be understood as a special case of the quantum-correction of the [[BV-differential]] by the [[BV-operator]] in [[pQFT]], which is hence also called the _[[Schwinger-Dyson operator]]_; see [there](BV-operator#SchwingerDysonEquation).
 
