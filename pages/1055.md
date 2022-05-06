@@ -98,6 +98,8 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 [[!redirects étalé spaces]]
 [[!redirects étale space]]
 [[!redirects étale spaces]]
+[[!redirects etalé spaces]]
+[[!redirects etalé space]]
 [[!redirects espace étalé]]
 [[!redirects espaces étalés]]
 [[!redirects sheaf space]]
