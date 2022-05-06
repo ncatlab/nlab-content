@@ -86,7 +86,7 @@ talks about "stacked covers": these are useful for 'decomposing' numerable cover
 
 +-- {: .query}
 
-[[arsmath|walt]] I think there is a related notion in general topology called a "normal cover".  It must be strictly more general for non-Hausdorff spaces, since you don't have partitions of unity in that setting.  I haven't seen the details written down anywhere, but Dold mentions the connection in passing.
+[[arsmath|walt]] There is a notion in general topology called a "normal cover" which may be the same thing.  Dold mentions the connection in passing.  The equivalence can be found as Theorem 1.2 in Morita and Hoshina, Extensions of Mappings, II.
 
 =--
 
