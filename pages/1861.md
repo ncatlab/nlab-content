@@ -745,6 +745,8 @@ Cohomotopy sets of [[projective spaces]]:
 
 Cohomotopy sets of [[4-manifolds]]:
 
+* Nobuo Shimada, _Homotopy classification of mappings of a 4-dimensional complex into a 2-dimensional sphere_, Nagoya Math. J., Volume 5 (1953), 127-144 ([euclid:nmj/1118799399](https://projecteuclid.org/euclid.nmj/1118799399))
+
 * [[Daniel Freed]], [[Karen Uhlenbeck]], Appendix B of: _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161))
