@@ -37,6 +37,11 @@ See also
 
 * Wikipedia, _[Pion](https://en.wikipedia.org/wiki/Pion)_
 
+Discussion via the [[AdS/QCD correspondence]]:
+
+* Domenec Espriu, Alisa Katanaeva, _Effects of bulk symmetry breaking on AdS/QCD predictions_ ([arXiv:2001.08723](https://arxiv.org/abs/2001.08723))
+
+
 [[!redirects pions]]
 
 [[!redirects pi meson]]
