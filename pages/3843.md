@@ -21,11 +21,9 @@
 ## Definition
 
 A [[functor]]
-
 $$
   F\colon C\to D
 $$ 
-
 is a **$\kappa$-accessible functor** (for $\kappa$ a [[regular cardinal]]) if $C$ and $D$ are both $\kappa$-[[accessible categories]] and $F$ preserves $\kappa$-[[filtered colimit]]s.  $F$ is an **accessible functor** if it is $\kappa$-accessible for some regular cardinal $\kappa$.
 
 ## Properties
@@ -43,6 +41,19 @@ In particular, for any accessible functor $F$ there are arbitrarily large cardin
 ### Preserving presentable objects
 
 For any accessible functor $F$, there are arbitrarily large cardinals $\kappa$ such that $F$ is $\kappa$-accessible and preserves $\kappa$-[[presentable objects]].  Indeed, this can be achieved simultaneously for any set of accessible functors.  See [Adamek-Rosicky, Theorem 2.19](#AdamekRosicky).
+
+### Images of accessible functors
+
+\begin{theorem}
+Assuming the existence of a [[proper class]] of [[strongly compact cardinals]],
+the following are equivalent for the image $K$ of an accessible functor:
+
+* $K$ is [[complete]];
+* $K$ is [[cocomplete]];
+* $K$ is [[locally presentable]].
+
+\end{theorem}
+
 
 ## Related concepts
 
@@ -63,9 +74,12 @@ The theory of accessible 1-categories is described in
 * [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
 
+Images of accessible functors are considered in
+
+* [[Jiří Rosický]], _More on directed colimits of models_.
+
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
 
 [[!redirects accessible functors]]
