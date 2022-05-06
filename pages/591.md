@@ -5,13 +5,13 @@
 
 ## Definition
 
-A [[category]] $C$ is **cocomplete** if it has all small [[colimit|colimits]]: that is, if every [[diagram]] 
+A [[category]] $C$ is **cocomplete** if it has all [[small diagram|small]] [[colimit|colimits]]: that is, if every [[small diagram]] 
 
 $$ F: D \to C$$
 
-where $D$ is a [[small category]] has a colimit in $C$.
+where $D$ is a [[small category]] has a [[colimit]] in $C$.
 
-The most natural morphisms between cocomplete categories are the [[cocontinuous functor|cocontinuous functors]].
+The most natural [[morphisms]] between cocomplete categories are the [[cocontinuous functor|cocontinuous functors]].
 
 ## Remarks
 
@@ -23,6 +23,13 @@ The most natural morphisms between cocomplete categories are the [[cocontinuous 
 
 Many familiar categories of mathematical structures are cocomplete: to name just a few examples, [[Set]], [[Grp]], [[Ab]], [[Vect]] and [[Top]] are cocomplete.
 
+## Related concepts
+
+* [[complete category]]
+
+* [[bicomplete category]]
+
+* [[M-complete category]]
 
 [[!redirects |cocomplete category]]
 [[!redirects cocomplete categories]]
