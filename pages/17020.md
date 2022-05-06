@@ -22,7 +22,7 @@
 
 An [[object]] in the [[global equivariant stable homotopy theory]].
 
-Hene a [[spectrum]] compatibly equipped wih the structure of a $G$-[[equivariant spectrum]] as $G$ ranges over a suitable given class of [[groups]].
+Hence a [[spectrum]] compatibly equipped with the structure of a $G$-[[equivariant spectrum]] as $G$ ranges over a suitable given class of [[groups]].
 
 ## Examples
 
