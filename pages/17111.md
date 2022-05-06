@@ -755,7 +755,7 @@ To record some aspects of the [[linear representation|linear]] [[representation 
 
 * [[Euler angles]]
 
-* [[SU(3)]], [[SU(4)]]
+* [[SU(3)]], [[SU(4)]], [[SU(5)]]
 
 [[!include low dimensional rotation groups -- table]]
 
