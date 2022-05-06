@@ -131,8 +131,8 @@ See also [[commutative algebraic theory#ClosedMonoidalStructureOnAlgebras|closed
 
 * [[monoidal monad]], [[commutative monad]], [[strong monad]], [[commutative algebraic theory]]
 * [[tensor product]], [[tensor product of modules]], [[multilinear map]], [[representable multicategory]]
+* [[internal hom of algebras over a commutative monad]]
 * [[monoidal category]], [[closed category]], [[closed monoidal category]]
-
 
 
 ## References
