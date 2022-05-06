@@ -343,6 +343,9 @@ Constant, and the Arrow of Time_, 2011 ([pdf](http://www.ctc.cam.ac.uk/stephen70
 
 For more on this see the references at _[[multiverse]]_ and _[[eternal inflation]]_.
 
+### Landscape of de Sitter vacua (or not)
+ {#ReferencesDeSitter}
+
 On the other hand, discussion casting doubt on the existence of a large number of [[de Sitter spacetime]] [[perturbative string theory vacua]] includes the following:
 
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
@@ -354,6 +357,10 @@ On the other hand, discussion casting doubt on the existence of a large number o
 * Jakob Moritz, Ander Retolaza, Alexander Westphal, _Towards de Sitter from 10D_, Phys. Rev. D 97, 046010 (2018) ([arXiv:1707.08678](https://arxiv.org/abs/1707.08678))
 
 * {#Sethi17} [[Savdeep Sethi]], _Supersymmetry Breaking by Fluxes_ ([arXiv:1709.03554](https://arxiv.org/abs/1709.03554))
+
+  re-amplified in:
+
+  [[Savdeep Sethi]], _Hope or No Hope for a String Landscape?_, talk at [StringPheno2019](https://indico.cern.ch/event/782251/) ([pdf](https://indico.cern.ch/event/782251/contributions/3441886/attachments/1870138/3076971/3_Sethi.pdf), [[SethiLandscape2019.pdf:file]])
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_, International Journal of Modern Physics D, Vol. 27, No. 12, 1830007 (2018)  ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120), [doi:10.1142/S0218271818300070](https://doi.org/10.1142/S0218271818300070))
 
