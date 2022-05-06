@@ -24,4 +24,44 @@ Review references:
 * {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
 
 
+
+#Contents#
+* table of contents
+{:toc}
+
+## The simplicial Algebra $\nabla$
+
+* [[polynomial differential forms on simplices]]
+
+* [[PL de Rham complex]]
+
+## The polynomial de Rham Theory
+
+* [[PL de Rham theorem]]
+
+## Multiplicative structure and the Eilenberg-Moore theorem
+
+## A Quillen Homotopy Theory for DG Algebras
+
+* [[model structure on connective dgc-algebras]]
+
+## Function Spaces for DG Algebras
+
+## The Homotopy Relation for DG Algebras
+
+## Minimal DG Algebras
+
+* [[minimal Sullivan model]]
+
+## The de Rham functors and their Adjoints
+
+* [[Quillen adjunction between simplicial sets and connective dgc-algebras]]
+
+## The Sulliuvan-de Rham Equivalence Therem
+
+* [[rational homotopy theory]]
+
+## Proof of the Sulliuvan-de Rham Equivalence Therem
+
+
 category: reference
