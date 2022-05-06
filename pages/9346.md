@@ -567,19 +567,19 @@ For the moment, see the following for more:
 
    _Higher Structures in M-Theory_, 
 
-   Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
+   Introduction to _[[Higher Structures in M-Theory 2018]]_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
   
    _[[schreiber:The rational higher structure of M-theory]]_ 
 
-   in _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/) _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018, Fortschritte der Physik, 2019 ([arXiv:1903.02834](https://arxiv.org/abs/1903.02834))
+   in _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik, 2019 ([arXiv:1903.02834](https://arxiv.org/abs/1903.02834))
 
 * [[Urs Schreiber]], 
 
   _[[schreiber:Introduction to Higher Supergeometry]]_
 
-  Lectures at _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_
+  Lectures at _[[Higher Structures in M-Theory 2018]]_
 
 \linebreak
 
