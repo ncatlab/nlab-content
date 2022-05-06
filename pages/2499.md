@@ -205,7 +205,7 @@ The [[∞-Chern-Weil theory]] of [[connections on ∞-bundles]] is about
 
 1. the generalization from globally defined differential form data -- which are connections on _trivial_ [[principal ∞-bundle]]s -- to connections on arbitrary [[principal ∞-bundle]]s.
 
-The D'Auria-Fr&#233;-formalism -- after this re-interpretation -- is about the first of these points. So as an immediate gain of our reformlation of D'Auria-Fr&#233;-formalism in terms of [[connections on ∞-bundles]]s we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are possibly globally topologically nontrivial. Physicists speak of **instanton solutions**.
+The D'Auria-Fr&#233;-formalism -- after this re-interpretation -- is about the first of these points. So as an immediate gain of our reformulation of D'Auria-Fr&#233;-formalism in terms of [[connections on ∞-bundles]] we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are possibly globally topologically nontrivial. Physicists speak of **instanton solutions**.
 
 In fact, the [[∞-Lie theory]]-reformulation exhibits the D'Auria-Fr&#233;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
 
@@ -287,7 +287,7 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 A [[gauge transformation]] of a field configuration
 
 $$
-  \phi : T X \to inn(\mathfrak{g}
+  \phi : T X \to inn(\mathfrak{g})
 $$
 
 is a diagram
