@@ -152,6 +152,8 @@ There is presently no known example of an elementary $(\infty,1)$-topos which is
 
 * [[homotopy type theory]]
 
+* [[Awodey's conjecture]]
+
 ## References
 
 A vague version of the above proposed definition is on the very last slide of 
