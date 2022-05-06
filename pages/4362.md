@@ -17,7 +17,19 @@
 This entry is about the article
 
 
-* [[Dan Freed]], _Dirac charge quantization and generalized differential cohomology_, Surveys in Differential Geometry, Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
+* [[Daniel Freed]], 
+
+  _Dirac charge quantization and generalized differential cohomology_, 
+
+  Surveys in Differential Geometry, 
+
+  Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 
+
+  [arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220)
+
+  [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6)
+
+  [spire:537392](https://inspirehep.net/literature/537392)
 
 This discusses how [[differential cohomology]] -- specifically [[ordinary differential cohomology]] and [[differential K-theory]] -- is the correct formalism for describing [[gauge fields]] and [[higher gauge fields]] in [[physics]] and [[string theory]] (such as [[higher U(1)-gauge fields]] like the [[electromagnetic field]], the [[Kalb-Ramond field]] and the [[supergravity C-field]], and also the [[RR-field]]) and the [[quantum anomaly]]  of  their [[action functionals]].
 
