@@ -32,6 +32,23 @@ $$
 
 where the generator $[1] \in \mathbb{Z}/24$ is represented by the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$.
 
+\begin{imagefromfile}
+        "file_name": "K3CobordismBetween24ThreeSpheres.jpg",
+        "web": "nlab",
+        "width": 260,
+        "unit": "px",
+        "float": "right",
+        "margin": {
+            "top": -40,
+            "right": 0,
+            "bottom": 20,
+            "left": 20,
+            "unit": "px"
+        },
+        "alt": "homotopy pasting diagram exhibiting the homotopy Whitehead integral",
+        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+\end{imagefromfile}
+
 Under the [[Pontrjagin-Thom isomorphism]], identifying the [[stable homotopy groups of spheres]] with the [[bordism ring]] $\Omega^{fr}_\bullet$ of [[stable framing|stably framed]] manifolds (see at _[[MFr]]_), this generator is represented by the [[3-sphere]] (with its left-invariant framing induced from the identification with the [[Lie group]] [[SU(2)]] $\simeq$ [[Sp(1)]] )
 
 
@@ -57,6 +74,7 @@ Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bor
 * {#SP17} [[Chris Schommer-Pries]], answer to _Nilpotence of the stable Hopf map via framed cobordism_, 2017 ([MO:a/218053/381](https://mathoverflow.net/a/218053/381))
 
   (see also [[Tilman Bauer]]'s [MO:a/44885/381](https://mathoverflow.net/a/44885/381))
+
 
 [[!redirects 3rd stable homotopy group of spheres]]
 
