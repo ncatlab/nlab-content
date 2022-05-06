@@ -96,6 +96,8 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 * Finite-dimensional modules over $\mathbb{H}$, the [[quaternions]].
 
+* [[simple Lie algebras]] with the negative of the [[Killing form]].
+
 
 ## Related concepts
 
