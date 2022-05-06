@@ -116,7 +116,7 @@ $\bottom\;\coloneqq\;tru = fls \in Bool$
 
 "Squash" of $A$:
 
-$\{A\}\;\coloneqq\;\{\underline{\;}:\top | A\}$
+$\lfloor A \rfloor\;\coloneqq\;\{\underline{\;}:\top | A\}$
 
 ## Rules
 
@@ -276,7 +276,7 @@ $$\begin{gathered}
 
 ### PER
 
-The rules for PER comprehension are made simpler by the fact that we required $R$ to be a pseudo-PER in the formation rule. The idea is that ($(t1 = t2 \in \{x1 = x2 | R\;x1\;x2\}) \leftrightarrow \{R\;t1\;t2\}$), using the squash type constructor defined above. So comprehension and equality are almost inverse; you just lose the computational content of the equivalence proof.
+The rules for PER comprehension are made simpler by the fact that we required $R$ to be a pseudo-PER in the formation rule. The idea is that ($(t1 = t2 \in \{x1 = x2 | R\;x1\;x2\}) \leftrightarrow \lfloor R\;t1\;t2 \rfloor$), using the squash type constructor defined above. So comprehension and equality are almost inverse; you just lose the computational content of the equivalence proof.
 
 $$\begin{gathered}
 \frac{\Gamma \vdash \{x1 = x2 | R\}\,type \qquad
@@ -421,9 +421,9 @@ No, that doesn't work. The extra complexity has to do with making the axiomatiza
 
 Based on the ability to reason about membership, in addition to equality, other types can be defined that seem like semantic judgments. For example, $\prec$, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ were [defined above](#SemJudg). But what kinds of things are these semantic judgments in general?
 
-A lenient answer is that semantic judgments are type (families) $J$ such that ($\{J\} \to J$) is inhabited. That is, the squash-stable types. All such types are isomorphic to equality types, and are the regular subobjects, if you consider a Nuprl-style system as a category. (In a [[relation between type theory and category theory#DependentTypeTheory|manner analogous to ETT]], using inhabitedness of equality types to determine equality of morphisms.)
+A lenient answer is that semantic judgments are type (families) $J$ such that ($\lfloor J \rfloor \to J$) is inhabited. That is, the squash-stable types. All such types are isomorphic to equality types, and are the regular subobjects, if you consider a Nuprl-style system as a category. (In a [[relation between type theory and category theory#DependentTypeTheory|manner analogous to ETT]], using inhabitedness of equality types to determine equality of morphisms.)
 
-A stricter definition of semantic judgments is that they are type (families) $J$ such that ($\{J\} \lt\!\!:\;J$). Types formed with equality, squash itself, $\prec$, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ are always judgments in this strict sense. These types are extensionally equal to equality types (for example, this one: $(\lambda x.x) \in J$) in the following sense:
+A stricter definition of semantic judgments is that they are type (families) $J$ such that ($\lfloor J \rfloor \lt\!\!:\;J$). Types formed with equality, squash itself, $\prec$, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ are always judgments in this strict sense. These types are extensionally equal to equality types (for example, this one: $(\lambda x.x) \in J$) in the following sense:
 
 $$A \approx B\;\coloneqq\;A \lt\!\!:\;B \wedge B \lt\!\!:\;A$$
 
