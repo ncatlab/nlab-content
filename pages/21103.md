@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
