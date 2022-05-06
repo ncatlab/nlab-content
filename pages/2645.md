@@ -261,58 +261,10 @@ In general, this will not respect the differentials, hence not be a morphism of 
 
 ## References
 
-The [[differential geometry|differential-geometric]] "Chern-Weil"-construction (evaluating [[curvature 2-forms]] of [[connection on a principal bundle|connections]] in [[invariant polynomials]]) is due to
-
-* [[Henri Cartan]], Section 7 of: _Cohomologie réelle d'un espace fibré principal différentiable. I : notions d'algèbre différentielle, algèbre de Weil d'un groupe de Lie _,   Séminaire Henri Cartan, Volume 2  (1949-1950), Talk no. 19, May 1950  ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
-
-  \linebreak
-
-  [[Henri Cartan]], Section 7 of: _Notions d'algèbre différentielle; applications aux groupes de Lie et aux variétés o&ugrave; opère un groupe de Lie_, in: Centre Belge de Recherches Mathématiques, _Colloque de Topologie (Espaces Fibrés) Tenu &agrave; Bruxelles du 5 au 8 juin 1950_, Georges Thon 1951 ([GoogleBooks](https://books.google.de/books/about/Colloque_de_topologie_espaces_fibres.html?id=sagqHQAACAAJ&redir_esc=y))
-
-  \linebreak
-
-  (These two articles have the same content, with the same section outline, but not the same wording. The first one is a tad more detailed.)
+[[!include Chern-Weil homomorphism -- references]]
 
 
-and around equation (10) of:
-
-* {#Chern50} [[Shiing-shen Chern]], _Differential geometry of fiber bundles_, in: Proceedings of the International Congress of Mathematicians, Cambridge, Mass., (August-September 1950), vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952) ([[Chern-DifferentialGeometryOfFiberBundles.pdf:file]], [full proceedings vol 2 pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.2/ICM1950.2.ocr.pdf))
-
-It is the independence of this construction under the choice of connection which [Chern 50](#Chern50) atributes (below (10)) to 
-
-
-* [[André Weil]], _Géométrie différentielle des espaces fibres_, unpublished, item [1949e] in: _André Weil Oeuvres Scientifiques / Collected Papers_, vol. 1 (1926-1951), 422-436, Springer 2009 ([ISBN:978-3-662-45256-1](https://www.springer.com/gp/book/9783662452561))
-
-But the main result of [Chern 50](#Chern50) is that this differential-geometric "Chern-Weil" construction is equivalent to the topological ([[homotopy theory|homotopy theoretic]]) construction of pulling back the [[universal characteristic classes]] from the [[classifying space]] $B G$ along the [[classifying map]] of the given [[principal bundle]]:
-
-This claim is equation (15) in [Chern 50](#Chern50), using (quoting from the same page):
-
-> methods initiated by [[Eli Cartan|E. Cartan]] and recently developed with success by [[Henri Cartan|H. Cartan]], [[Claude Chevalley|Chevalley]], [[Jean-Louis Koszul|Koszul]], [[Jean Leray|Leray]], and [[André Weil|Weil]] [13]
-
-Here reference 13 is:
-
-* [[Jean-Louis Koszul]], _Homologie et cohomologie des algebres de Lie_, Bull. Soc. Math. France vol. 78 (1950) pp. 65-127 ([numdam:BSMF_1950__78__65_0](http://www.numdam.org/item/BSMF_1950__78__65_0))
-
-Later, an independent proof of the universal topological "Chern-Weil"-construction $inv(\mathfrak{g}) \to H^\bullet(B G)$ is given in:
-
-* [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
-
-Review:
-
-* [[Shiing-Shen Chern]], [[James Simons]], Section 2 of: _Characteristic Forms and Geometric Invariants_, Annals of Mathematics Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69 ([jstor:1971013](https://www.jstor.org/stable/1971013))
-
-  (in the context of [[Chern-Simons forms]])
-
-* Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
-
-
-Textbook accounts:
-
-* [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
-
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
-
-Review:
+More review:
 
 * [[Fei Han]], _Chern-Weil theory and some results on classic genera_ ([pdf](http://math.berkeley.edu/~alanw/240papers03/han.pdf))
 
@@ -326,7 +278,7 @@ Some standard monographs are
 
 * [[Mikhail Postnikov]], _&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; &#1087;&#1086; &#1075;&#1077;&#1086;&#1084;&#1077;&#1090;&#1088;&#1080;&#1080;. &#1057;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088; 4, &#1044;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1075;&#1077;&#1086;&#1084;&#1077;&#1090;&#1088;&#1080;&#1103;_ &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;, 1988	
 
-* [[Raoul Bott|R. Bott]], L. W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
+* [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
 * V. Guillemin, S. Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
 
