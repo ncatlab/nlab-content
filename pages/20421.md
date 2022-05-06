@@ -26,7 +26,7 @@ For example:
 
 * A $(1 \times 0)$-category, as well as a $(0 \times 1)$-category, is precisely a [[category]].  More generally, $(n\times 0)$-categories and $(0\times n)$-categories are precisely $n$-categories.
 * A $(1 \times 1)$-category is precisely a [[double category]] (either strict or weak).
-* A $(1 \times 1 \times 1)$-category is precisely a [[triple category]] (that is, a category internal to double categories, or a double category internal to categories --- which again could be strict or weak).
+* Generalizing to a 3rd axis, a $(1 \times 1 \times 1)$-category is precisely a [[triple category]], that is, a category internal to (categories internal to categories), i.e. a catgory internal to double categories, or a double category internal to categories --- which again could be strict or weak.
 * An $(n \times 1)$-category is what [[Michael Batanin|Batanin]] calls a [[monoidal n-globular category]].
 
 An $(n \times k)$-category has $(n + 1)(k + 1)$ kinds of cells.
