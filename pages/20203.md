@@ -153,6 +153,11 @@ On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[S
 
 Discussion in terms of [[G-structures]]:
 
+* {#IshamPope88} [[Chris Isham]], [[Christopher Pope]], _Nowhere Vanishing Spinors and Topological Obstructions to the Equivalence of the NSR and GS Superstrings_, Class. Quant. Grav. 5 (1988) 257 ([spire:251240](http://inspirehep.net/record/251240), [doi:10.1088/0264-9381/5/2/006](https://doi.org/10.1088/0264-9381/5/2/006))
+
+  (focus on [[Spin(7)-structure]])
+
+
 * {#CondeescuMicuPalti14} Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
 * Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with $SU(4)$ structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
