@@ -15,6 +15,8 @@ On [[AdS/CFT]] for $AdS_3/CFT_2$:
 
 * Andrea Dei, [[Lorenz Eberhardt]], _Correlators of the symmetric product orbifold_ ([arXiv:1911.08485](https://arxiv.org/abs/1911.08485))
 
+* [[Lorenz Eberhardt]], _$AdS_3/CFT_2$ at higher genus_ ([arXiv:2002.11729](https://arxiv.org/abs/2002.11729))
+
 
 
 
