@@ -160,6 +160,8 @@ $$
 
 * [[Spin(4)]]
 
+* [[Spin(6)]]
+
 ## References
 
 * {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
