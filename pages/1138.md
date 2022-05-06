@@ -248,11 +248,12 @@ On the other hand, the extension
 $(f^{-1})^\ddagger : PSh(Y) \to PSh(X)$ sends $F \in PSh(Y)$ to
 
 $$
-  f^\dagger F : U \mapsto colim_{(f^{-1}(V) \to U) \in (f^{-1},const_U)} F(V)
+  f^\ddagger F : U \mapsto lim_{(f^{-1}(V) \to U) \in (f^{-1},const_U)} F(V)
   \,.
 $$
 
 This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $U$  _containing_ it.
+This corresponds to taking the [[Kan extension|right Kan extension]] instead of the left one. Notice, however, that this does not define a valid functor into $Sh X$ in general, since now $f_* \vdash f^\ddagger$ and thus the above proof doesn't carry over.
 
 ## Related concepts
 
