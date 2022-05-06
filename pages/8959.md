@@ -111,11 +111,11 @@ The clause for elements is:
 
 * if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(f,a'):B$, then $f:A\to B$.  In other words, the collection of elements of type $A\to B$ is the collection of terms $f$ such that for any $a=a':A$ we have $app(f,a)=app(f,a'):B$.
 
-This is not an inductive definition as we had for the natural numbers; it is merely a simple definition.  On the other hand, we are now using the fact that the function mapping types to their collections of elements is recursively defined, since in order to make this definition, we must invoke it at $A$ and $B$.
-
-For equality, of course we have:
+For equality, we have:
 
 * if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(g,a'):B$, then $f=g:A\to B$.
+
+These are not inductive definitions as we had for the natural numbers; they are merely simple definitions.  On the other hand, we are now using the fact that the function mapping types to their collections of element pairs is recursively defined, since in order to make this definition, we must invoke it at $A$ and $B$. The negative occurrence of $a=a':A$ in this clause (and similar occurrences in other clauses for higher order types) is the reason why the whole explanation cannot just be defined by mutual induction.
 
 ### Identity types
 
@@ -124,13 +124,13 @@ Then to explain the [[identity type]], we add to the inductive definition of "$A
 
 * If $A$ is a type, $a:A$ and $b:A$, and $C \Rightarrow Id_A(a,b)$, then $C$ is a type.
 
-Here we are finally using the fact that typehood and elements are defined by induction-recursion: this clause in the *inductive* definition of typehood must refer to the value of the *recursive* elementhood function at some smaller type.
+Here we are finally using the fact that typehood and elements are defined by induction-recursion: this clause in the *inductive* definition of typehood refers to the value of the *recursive* elementhood function at some smaller type.
 
 The clause for elements is:
 
 * If $A$ is a type, $a:A$, $b:A$, and $C \Rightarrow Id_A(a,b)$, then $p:C$ just if $a=b:A$ and $p \Rightarrow refl$.  So, the collection of elements of $\Id_A(a,b)$ contains something only if $a=b:A$, in which case it contains precisely those terms which reduce to refl.
 
-Here we use not only the fact that elementhood is recursively defined, but that it is defined by mutual recursion with equality.  The clause for equality is:
+The clause for equality is:
 
 * If $A$ is a type and $a:A$, $b:A$, and $C \Rightarrow Id_A(a,b)$, then $p=q:C$ just if $a=b:A$, $p\Rightarrow refl$, and $q\Rightarrow refl$.
 
