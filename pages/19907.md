@@ -44,7 +44,7 @@ A proof was sketched in
 
 A full proof is spelled out in
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
