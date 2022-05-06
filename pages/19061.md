@@ -60,3 +60,7 @@ See also
 [[!redirects nonabelian T-duality]]
 
 [[!redirects non-abelian T-duality]]
+
+Poisson-Lie T-duality can also be made manifest at the level of [[type II supergravity ]] in the framework of [[double field theory]] on group manifolds. Using this framework both the NS/NS sector and the R/R sector are captured. It allowed to derive the transformation of the R/R fields for full Poisson-Lie T-duality for the first time.
+
+* [[Falk Hassler]], Poisson-Lie T-Duality in Double Field Theory, ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
