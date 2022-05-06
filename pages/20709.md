@@ -24,6 +24,9 @@ By _rational cohomology_ one usually means [[ordinary cohomology]] with [[ration
 
 Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, its rational cohomology $H^\bullet\big(-, \mathbb{Q}\big)$ is what is computed by the [[Cech cohomology]] or [[singular cohomology]] or [[sheaf cohomology]] of $X$ with coefficients in $\mathbb{Q}$.
 
+## Properties
+
+* [[PL de Rham theorem]]
 
 ## Related concepts
 
