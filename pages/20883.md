@@ -265,6 +265,9 @@ etc.
 <img src="https://ncatlab.org/nlab/files/SingleTraceOprtrAsWeightSystemOnChordDiagram.jpg" width="830">
 </center>
 
+> graphics from [Sati-Schreiber 19]()
+
+
 The values of the traces in the last line are
 the values of the [[Lie algebra weight system]] $w_C$ on the [[chord diagram]] which reflects the Wick-contractions modulo cyclic permutation.
 
