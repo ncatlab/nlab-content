@@ -376,6 +376,10 @@ encoded by type II geometry.
 
 * [[exceptional generalized geometry]]
 
+* [[non-geometric string theory vacua]]
+
+* [[T-folds]]
+
 * [[twisted smooth cohomology in string theory]]
 
 ## References
