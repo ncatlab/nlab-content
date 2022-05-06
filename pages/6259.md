@@ -311,7 +311,7 @@ Self-duality for higher abelian gauge fields (in [[ordinary differential cohomol
 
 Original reference on self-dual/chiral fields include
 
-* [[Xavier Bekaert]], [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
+* [[Xavier Bekaert]], [[Marc Henneaux]], _Comments on Chiral $p$-Forms_,  Int. J. Theor. Phys. 38:1161-1172, 1999 ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
 
 * [[Mans Henningson]], [[Bengt Nilsson]], Per Salomonson, _Holomorphic factorization of correlation functions in (4k+2)-dimensional (2k)-form gauge theory_ ([arXiv:hep-th/9908107](http://arxiv.org/abs/hep-th/9908107))
 
@@ -330,7 +330,7 @@ A precise formulation of the phenomenon in terms of [[ordinary differential coho
 
 * [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], _The Uncertainty of Fluxes_  Commun. Math. Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
 
-* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ ,  Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_,  Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
 * {#BBSS15} Christian Becker, [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. 349, 361 (2017) ([arXiv:1511.00316](https://arxiv.org/abs/1511.00316))
 
@@ -354,20 +354,10 @@ Discussion of [[S-duality]] in 6d self-dual higher gauge theory via [[non-commut
 * {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. 92:240-251, 2015 ([arXiv:1404.2257](https://arxiv.org/abs/1404.2257))
 
  
-
-Discussion of the [[quantum anomaly]] of self-dual theories is in
-
-* Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
-
-* Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
-
-(see also at [[M5-brane]] the [References on anomaly cancellation](M5-brane#ReferencesAnomalyCancellation)).
-
 Discussion of the [[conformal blocks]] and [[geometric quantization]] of self-dual higher gauge theories is in 
 
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
 
-* Samuel Monnier, _Geometric quantization and the metric dependence of the self-dual field theory_ ([arXiv:1011.5890](http://arxiv.org/abs/1011.5890))
 
 
 
@@ -394,7 +384,7 @@ for [[type I superstring theory]], and for [[type II superstring theory]] in
 
 * {#MW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
 
-* {#MPS11} [[Stefan Müller-Stach]], Chris Peters, Vasudevan Srinivas, _Abelian varieties and theta functions associated to compact Riemannian manifolds; constructions inspired by superstring theory_,Journal de math&#233;matiques pures et appliqu&#233;es 98.5 (2012): 542-573 ([arXiv:1105.4108](http://arxiv.org/abs/1105.4108), [pdf slides](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf))
+* {#MPS11} [[Stefan Müller-Stach]], Chris Peters, Vasudevan Srinivas, _Abelian varieties and theta functions associated to compact Riemannian manifolds; constructions inspired by superstring theory_, Journal de math&#233;matiques pures et appliqu&#233;es 98.5 (2012): 542-573 ([arXiv:1105.4108](http://arxiv.org/abs/1105.4108), [pdf slides](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf))
 
 
 with more refined discussion in [[twisted differential K-theory|twisted differential]] [[KR-theory]] in
