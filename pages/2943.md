@@ -38,29 +38,53 @@ One of the basic characteristics of a thermodynamical system is its [[temperatur
 
 ### General
 
-A formalization in terms of [[symplectic geometry]] is in chapter IV "Statistical mechanics" of
 
-* [[Jean-Marie Souriau]], _Structure of dynamical systems. A symplectic view of physics_ . Translated from the French by C. H. Cushman-de Vries. Translation edited and with a preface by R. H. Cushman and G. M. Tuynman. Progress in Mathematics, 149. Birkh&#228;user Boston, Inc., Boston, MA, 1997
+Introductions:
 
-as well as in 
+* John Denker, _Modern Thermodynamics_, ([web](http://www.av8n.com/physics/thermo), [pdf](http://www.av8n.com/physics/thermo-laws.pdf))
+
+Mathematically rigorous treatments:
+
+* Constantin Carathéodory, _Untersuchung über die Grundlagen der Thermodynamik_, Math. Annalen 67, 355-386
+
+
+* Elliott H. Lieb, Jakob Yngvason, _The Physics and Mathematics of the Second Law of Thermodynamics_, Phys.Rept. 310 (1999) 1-96 ([arXiv:cond-mat/9708200](https://arxiv.org/abs/cond-mat/9708200))
+
+* Elliott H. Lieb, Jakob Yngvason, _A Guide to Entropy and the Second Law of Thermodynamics_, Notices Amer. Math. Soc., 45, (1998) 571-581 ([arXiv:math-ph/9805005](https://arxiv.org/abs/math-ph/9805005))
+
+See also
+
+* Wikipedia: [thermodynamics](http://en.wikipedia.org/wiki/Thermodynamics), [fundamental thermodynamic relation](http://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation)
+
+* Azimuth Project, _[Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)_
+
+
+### In terms of symplectic geometry (Souriau)
+
+A formalization of thermodynamics in terms of [[symplectic geometry]] is due to
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
+
+* {#IglesiasSouriau84} [[Patrick Iglesias-Zemmour]], [[Jean-Marie Souriau]] _Heat, cold and Geometry_, in: M. Cahen et al (eds.) Differential geometry and mathematical physics, 37-68, D. Reidel 1983 ([web](http://www.jmsouriau.com/Heat_Cold_And_Geometry_1983.htm), [pdf](http://www.jmsouriau.com/Publications/JMSouriau-PIglesias-HeatColdAndGeometry1983.pdf), [doi:978-94-009-7022-9_5](https://doi.org/10.1007/978-94-009-7022-9_5))
+
+* [[Jean-Marie Souriau]], chapter IV "Statistical mechanics" of _Structure of dynamical systems. A symplectic view of physics_ . Translated from the French by C. H. Cushman-de Vries. Translation edited and with a preface by R. H. Cushman and G. M. Tuynman. Progress in Mathematics, 149. Birkh&#228;user Boston, Inc., Boston, MA, 1997
+
+Review includes
+
+* {#Marle16} Charles-Michel Marle, _From tools in symplectic and Poisson geometry to Souriau's theories of statistical mechanics and thermodynamics_, Entropy 2016, 18(10), 370 ([arXiv:1608.00103](https://arxiv.org/abs/1608.00103))
+
 
 The Souriau model of thermodynamics has been extented for "geometric science of information" (Koszul information geometry) with a general definition of [[Fisher metric]], Euler-Poincar&#233; equation and variational definition of Souriau thermodynamics, as in:
 
 * Frederic Barbaresco, _Koszul information geometry and Souriau geometric, temperature_, Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16,  4521-4565 (2014) [pdf](http://www.mdpi.com/1099-4300/16/8/4521/pdf); _Symplectic structure of information geometry: Fisher metric and Euler-Poincar&#233; equation of Souriau Lie group thermodynamics_, GSI'15, Springer LCNS __9389__, 529-540 (2015) [doi](https://doi.org/10.1007/978-3-319-25040-3_57) 
 
-See also
+* {#Amari87} Shun-ichi Amari, Chapter 2: _Differential Geometrical Theory of Statistics_ in _Differential geometry in statistical inference_, Institute of Mathematical Statistics Lecture Notes - Monograph Series 1987, 19-94 ([euclid:1215467059](https://projecteuclid.org/euclid.lnms/1215467059))
 
-* wikipedia: [thermodynamics](http://en.wikipedia.org/wiki/Thermodynamics), [fundamental thermodynamic relation](http://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation)
-
-* Azimuth Project, _[Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)_
 
 * A. Bravetti, C. S. Lopez-Monsalvo, F. Nettel, _Contact symmetries and Hamiltonian thermodynamics_, [arxiv/1409.7340](http://arxiv.org/abs/1409.7340)
 
-For an thorough introduction to common misconceptions at an elementary level:
 
-* John Denker. _Modern Thermodynamics_. [web](http://www.av8n.com/physics/thermo), [pdf](http://www.av8n.com/physics/thermo-laws.pdf).
+### Irreversible thermodynamics
 
 A survey of [[irreversible thermodynamics]] is in 
 
@@ -96,6 +120,7 @@ See also
 * Sean A. Hayward, _Relativistic thermodynamics_ ([arXiv:gr-qc/9803007](https://arxiv.org/abs/gr-qc/9803007))
 
 * Paul Frampton, Stephen D.H. Hsu, Thomas W. Kephart, David Reeb, _What is the entropy of the universe?_, Class. Quant. Grav.26:145005, 2009 ([arXiv:0801.1847](https://arxiv.org/abs/0801.1847))
+
 
 ### Further generalizations 
 
