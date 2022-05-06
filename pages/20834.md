@@ -61,7 +61,7 @@ However, debate remains over whether the apparently observed [[cosmological cons
 
 1. The authors of [KLKCR 19](#KLKCR19) claim that temporal evolution of [[supernovae]] luminosity had been underappreciated, which makes the apparent evidence for a [[positive number|positive]] [[cosmological constant]] completely go away. Earlier, [NGS 16](#NielsenGuffantiSarkar16) had pointed out that even with the established interpretation of the data, a vanishing [[cosmological constant]] is not excluded by the data.
 
-1. Since around 2000 many authors have argued that the apparent [[cosmological constant]] may be an artifact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). 
+1. Since around 2000 authors have argued that the apparent [[cosmological constant]] may be an artifact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). 
 
    While it is uncontroversial that [[inhomogeneous cosmology|cosmic inhomogeneity]] does have a measurable effect on cosmic expansion, the general current consensus seems to be that it is too small to explain all of the dark energy of the [[standard model of cosmology]]. But in view of the first item above, this would be a moot point.
 
@@ -76,7 +76,7 @@ In the extreme case, if re-analysis of the data, combined with effects of [[inho
 
 It is then interesting to notice that also the [[closed manifold|closed]] spatial slices found in the model [above](#ClosedSpatialSlices) have recently been argued to be preferred by observational data ([VMS 19](#VMS19)).
 
-That available experimental data supports neigher a cosmological constant nor open spatial slices is further argued in [Di Valentino-Melchiorri-Silk 20](#ValentinoMelchiorriSilk20).
+That available experimental data supports neither a cosmological constant nor open spatial slices is further argued in [Di Valentino-Melchiorri-Silk 20](#ValentinoMelchiorriSilk20).
 
 
 ## Related concepts
