@@ -145,6 +145,11 @@ Lecture notes:
 
 * {#Zupan19} Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
 
+With an emphasis on the [[neutrino]]-sector:
+
+* Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_ ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610))
+
+
 See also
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Flavour_(particle_physics)">Flavour (particle physcs)</a>
