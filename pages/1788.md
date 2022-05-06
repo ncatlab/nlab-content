@@ -152,7 +152,7 @@ $$
   \;\;\;\;
   \in
   \;
-  H^{ev}\big( C_f; \, \mathbb{Q} \big)/H^{ev}\big( C_f; \, \mathbb{Z} \big)
+  H^{ev}\big( C_f; \, \mathbb{Q} \big)/H^{2(n+n')}\big( C_f; \, \mathbb{Z} \big)
 $$
 
 in [[ordinary cohomology|ordinary]] [[rational cohomology]] [[modulo]] [[integral cohomology]].
@@ -200,4 +200,49 @@ $$
 Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$.
 
 (...)
+
+
+$$
+  \cdots
+  \to
+  Maps(X,B^n \mathbb{Z})
+  \longrightarrow
+  Maps(X,B^n \mathbb{Q})
+  \longrightarrow
+  Maps(X,B^n \mathbb{Q}/\mathbb{Z})
+  \longrightarrow
+  Maps(X,B^{n+1} \mathbb{Z})
+  \longrightarrow
+  Maps(X,B^{n+1} \mathbb{Q})
+  \to \cdots
+$$
+
+$$
+  \cdots
+  \to
+  H^n(X; \mathbb{Z})
+  \longrightarrow
+  H^n(X; \mathbb{Q})
+  \longrightarrow
+  H^n(X; \mathbb{Q}/\mathbb{Z})
+  \longrightarrow
+  H^{n+1}(X; \mathbb{Z})
+  \longrightarrow
+  H^{n+1}(X; \mathbb{Q})
+  \to 
+  \cdots
+$$
+
+$$
+  0 \to
+  H^n(X; \mathbb{Q})
+  /
+  H^n(X; \mathbb{Z})
+  \longrightarrow
+  H^n(X; \mathbb{Q}/\mathbb{Z})
+  \longrightarrow
+  H^{n+1}(X; \mathbb{Z})
+  \longrightarrow
+  H^{n+1}(X; \mathbb{Q})
+$$
 
