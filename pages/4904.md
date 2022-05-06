@@ -318,9 +318,9 @@ But they do satisfy the assumptions of proposition \ref{QuillenCriterion} ([Quil
 
 The classical reference for the [[transferred model structure]] on simplicial $T$-algebras is
 
-* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, Lectures Notes in Mathematics 43, Springer Verlag, Berlin, (1967)
+* {#Quillen67} [[Daniel Quillen]], Section II.4 item 5 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
-with some extra remarks in
+with some further remarks in
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
 
