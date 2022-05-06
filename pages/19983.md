@@ -14,7 +14,7 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * {#Fresse18} [[Benoit Fresse]], _Little discs operads, graph complexes and Grothendieck--Teichmüller groups_, in [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1811.12536](https://arxiv.org/abs/1811.12536))
 
-* [[Paul Balmer]], _A guide to tensor-triangulated classification_, ([pdf](http://www.math.ucla.edu/~balmer/Pubfile/HTHandbook-tt-guide.pdf))
+* [[Paul Balmer]], _A guide to tensor-triangular classification_, ([pdf](http://www.math.ucla.edu/~balmer/Pubfile/HTHandbook-tt-guide.pdf))
 
 * [[Daniel Isaksen]], [[Paul Arne Østvær]], _Motivic stable homotopy groups_, ([arXiv:1811.05729](https://arxiv.org/abs/1811.05729))
 
