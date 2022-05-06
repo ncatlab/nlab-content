@@ -61,6 +61,9 @@ Discussion of solitonic [[black brane]] solutions in terms of EFT includes
 Discussion for [[E11]] includes
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
- 
+
+Generalization to exceptional [[super-spacetimes]]:
+
+* Daniel Butter, [[Henning Samtleben]], [[Ergin Sezgin]], _$E_{7(7)}$-Exceptional Field Theory in Superspace_ ([arXiv:1811.00038](https://arxiv.org/abs/1811.00038))
 
 [[!redirects exceptional field theories]]
