@@ -124,6 +124,9 @@ Review (with emphasis on [[holographic light front QCD]]):
 
 * {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
+* [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
+
+
 
 
 ### Via octonions
