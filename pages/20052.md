@@ -127,7 +127,7 @@ For the problem of [extending valuations to measures](#extending_valuations_to_m
 
 * Mauricio Alvarez Manilla, Abbas Edalat, and Nasser Saheb-Djahromi, _An extension result for continuous valuations_, 1998. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066105802105#!).
 
-* {#mthesis} Mauricio Alvarez Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000. [Link here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwimwZ2P1fTfAhWxtIsKHcMoB8AQFjAAegQIBBAC&url=http%3A%2F%2Fwww.cs.tufts.edu%2F~nr%2Fcs257%2Farchive%2Fmauricio-alvarez-manilla%2Fpublic.ps.gz&usg=AOvVaw38Hpk__TIWXKxUqAssXN3E).
+* {#mthesis} Mauricio Alvarez Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000. [Link here](http://www.cs.tufts.edu/~nr/cs257/archive/mauricio-alvarez-manilla/public.ps.gz).
 
 * Klaus Keimel and Jimmie D. Lawson, _Measure extension theorems for_
 $T_0$ _spaces_, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0166864104002755).
