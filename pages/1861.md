@@ -18,15 +18,29 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Where [[homotopy groups]] are groups of [[homotopy classes]] of maps  out [[spheres]], $\pi_n(X)\coloneqq [S^n \to X]$, cohomotopy groups are groups of homotopy classes _into_ spheres, $\pi^n(X) \coloneqq [X \to S^n]$.
+_Cohomotopy cohomology theory_ $\pi^\bullet$ is the ([[non-abelian cohomology|non-abelian]]) [[generalized cohomology theory]] whose [[cocycle spaces]] are [[spaces of maps]] into an [[n-sphere]], hence whose [[cohomology classes]] are [[homotopy classes]] of [[maps]] into an [[n-sphere]]: 
 
-If instead one considers mapping into the [[stabilization]] of the spheres, hence into (some [[suspension spectrum|suspension]] of) the [[sphere spectrum]], then one speaks of _[[stable cohomotopy]]_. In other words, the [[generalized (Eilenberg-Steenrod) cohomology]] theory which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is _stable cohomotopy_.
+$$
+  \pi^n(X) \;\coloneqq\; \pi_0 Maps\big( X, S^n\big) 
+$$
+
+So dually to how [[homotopy groups]] are groups of [[homotopy classes]] of maps out of [[spheres]], $\pi_n(X)\coloneqq [S^n \to X]$, Cohomotopy sets are sets of homotopy classes of maps _into_ spheres, $\pi^n(X) \coloneqq [X \to S^n]$, whence the name.
+
+If instead one considers mapping into the [[stabilization]] of the spheres, hence into (some [[suspension spectrum|suspension]] of) the [[sphere spectrum]], then one speaks of _[[stable Cohomotopy]]_
+
+$$
+  \mathbb{S}(X) \;\coloneqq\; Maps(X , \Sigma^\infty S^0)
+  \,.
+$$
+
+In other words, the [[generalized (Eilenberg-Steenrod) cohomology]] theory which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is _[[stable Cohomotopy]]_.
 
 In this vein, regarding terminology: the concept of [[cohomology]] (as discussed there) in the very general sense of [[non-abelian cohomology]], is about [[homotopy classes]] of maps _into_ any object $A$ (in some [[(∞,1)-topos]]). In this way, general non-abelian cohomology is sort of dual to homotopy, and hence might generally be called co-homotopy. This is the statement of _[[Eckmann-Hilton duality]]_. The duality between homotopy (groups) and co-homotopy proper may then be thought of as being the special case of this where $A$ is taken to be a sphere. 
 
@@ -221,7 +235,6 @@ Now
 
 ## Related concepts
 
-
 [[!include flavours of cohomotopy -- table]]
 
 $\,$
@@ -242,6 +255,14 @@ Original articles include
 
 * [[Jan Jaworowski]], _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae 50 (1962), 393-402 ([doi:10.4064/fm-50-4-333-340](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/4), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm50/fm50133.pdf))
 
+
+See also 
+
+* Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
+
+* [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
+
+
 The relation between cohomotopy classes of manifolds to the [[cobordism group]] is discussed for instance in 
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
@@ -252,11 +273,19 @@ Further discussion includes
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
 
-See also 
+### Cohomotopy cocycle spaces
 
-* Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
+Discussion of Cohomotopy [[cocycle spaces]] (i.e. [[spaces of maps]] into an [[n-sphere]]):
 
-* [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
+* {#Hansen74} [[Vagn Lundsgaard Hansen]], _The homotopy problem for the components in the space of maps on the $n$-sphere_, Quart. J. Math. Oxford Ser. (3) 25 (1974), 313-321 ([DOI:10.1093/qmath/25.1.313](https://doi.org/10.1093/qmath/25.1.313))
+
+* {#Hansen81} [[Vagn Lundsgaard Hansen]], _On Spaces of Maps of $n$-Manifolds Into the $n$-Sphere_, Transactions of the American Mathematical Society
+Vol. 265, No. 1 (May, 1981), pp. 273-281 ([jstor:1998494](https://www.jstor.org/stable/1998494))
+
+Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rational model of mapping spaces]]_):
+
+* {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
+
 
 
 ### Equivariant Cohomotopy
@@ -290,3 +319,11 @@ and in terms of [[twisted cohomotopy]]:
 [[!redirects cohomotopy groups]]
 
 [[!redirects Cohomotopy]]
+
+[[!redirects cohomotopy cohomology ]]
+[[!redirects cohomotopy cohomology theory]]
+
+[[!redirects Cohomotopy cohomology ]]
+[[!redirects Cohomotopy cohomology theory]]
+
+
