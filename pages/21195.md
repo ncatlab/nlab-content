@@ -21,7 +21,9 @@
 
 ## Idea
 
-An [[effective field theory|effective]] [[model (in theoretical physics)]] of [[hadrons]] ([[confinement|confined]] [[quarks]]) [[interaction|interacting]] with [[photons]].
+An [[effective field theory|effective]] [[model (in theoretical physics)]] of [[hadrons]] ([[confinement|confined]] [[quarks]]) [[interaction|interacting]] with [[photons]],
+
+based on the assumption that -[[vector mesons]] dominate the [[interaction]] of [[hadrons]] with [[photons]] (i.e. with [[electromagnetism]]).
 
 ## Properties
 
