@@ -54,7 +54,7 @@ The equivalence of the first three points is [[Higher Topos Theory|HTT, lemma 3.
 
 Suppose that $f_* : Core(SSet(\Delta^1, C)) \to Core(SSet(\Delta^1, D))$ is an equivalence. For each object $d \in D_0$, there is an edge $\varphi : c \to c'$ in $C_1$ such that $f_*(\varphi) \simeq id_d$. This implies $f(c) \simeq d$ and thus $f_*(id_c) \simeq id_d$, and that $\varphi \simeq id_c$.
 
-Thus, $f_*$ restricts to an equivalence between the subcomplexes consisting of the connected components of the identity morphisms. But these subcomplexes can be identified with the degeneracies $Core(X) \to Core(SSet(\Delta^1, X))$, and thus the induced map $Core(C) \to Core(D)$ is an equivalence.
+Thus, $f_*$ restricts to an equivalence between the subcomplexes consisting of the connected components of the identity morphisms. But for any quasi-category $X$, this subcomplex is $\Core(X)^{\Delta^1} \subseteq \Core(X^{\Delta^1})$, and the degeneracy $\Core(X) \to \Core(X)^{\Delta^1}$ is an equivalence. Thus, the induced map $Core(C) \to Core(D)$ is an equivalence.
 
 =--
 
