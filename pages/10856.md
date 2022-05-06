@@ -1,7 +1,13 @@
 
 ## Related entries
 
-* [[thermodynamics]], [[thermal quantum field theory]]
+* [[thermodynamics]], 
+
+* [[thermal quantum field theory]]
+
+  * [[KMS state]]
+
+  * [[Wick rotation]]
 
 * [[entropy]], [[energy]]
 
