@@ -25,6 +25,8 @@ This _large $N$ limit_ often has remarkable properties, often revealing an other
 
 Notably for [[Yang-Mills theory]] and in particular for [[QCD]], the large $N$-behaviour is exhibited by rewriting the [[Feynman amplitudes]] in [['t Hooft double line notation]]. If the [['t Hooft coupling]] $g^2 N$  is held fixed as $N\to \infty$, this turns out to organize the gauge theory's [[Feynman perturbation series]] by the [[Euler characteristic]]/[[genus of a surface|genus]] of emerging [[string theory|string]] [[worldsheet]] [[surfaces]], with genus 0 ([[planar graphs]]) dominating in the large $N$ limit, whence also called the _[[planar limit]]_.
 
+([[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04)).
+
 At least for the case of [[super Yang-Mills theories]] the full statement of the relation of large-$N$ gauge theory to a [[perturbative string theory]] is the content of the _[[AdS/CFT correspondence]]_, which explains that the effective [[string]] [[worldsheets]] emerging from the [[gauge theory]] propagate in a higher-dimensional asymptotically [[anti-de Sitter spacetime]] (the [[near horizon geometry]] of a [[black brane]]) whose [[asymptotic boundary]] (the [[worldvolume]] of the [[black brane]] itself) is identified with the [[spacetime]] of the original [[gauge theory]].
 
 An extreme case of this large $N$-limit is that of the [[BFSS matrix model]] in [[AdS2/CFT1 duality]] where _all_ spatial dependence of [[field (physics)|fields]] in the higher dimensional spacetime is supposedly encoded in the [[quantum mechanics]] of $N\times N$ [[matrix model|matrices]] as $N\to \infty$. And for the [[IKKT matrix model]] this includes also the temporal dependence.
@@ -113,24 +115,44 @@ Further discussion:
 
 * [[Gary Horowitz]], [[Hirosi Ooguri]], _Spectrum of large $N$ gauge theory from supergravity_, hep-th/9802116
 
-* {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
-
-
-* Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
-
-### Unoriented case
-
 * S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
 
   (for [[Chern-Simons theory]] and [[topological string theory]])
 
 * Hiroyuki Fuji, Yutaka Ookouchi, _Confining Phase Superpotentials for $SO/Sp$ Gauge Theories via Geometric Transition_, JHEP 0302:028, 2003 ([arXiv:hep-th/0205301](https://arxiv.org/abs/hep-th/0205301))
 
-* {#ItaNiederOz02} Harald Ita, Harald Nieder, [[Yaron Oz]], _Perturbative Computation of Glueball Superpotentials for $SO(N)$ and $USp(N)$_, JHEP 0301:018, 2003 ([arXiv:hep-th/0211261](https://arxiv.org/abs/hep-th/0211261))
 
 
+* {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
 
-* {#GaumisKapustin04} [[Jaume Gomis]], [[Anton Kapustin]], _Two-Dimensional Unoriented Strings And Matrix Models_, JHEP 0406 (2004) 002 ([https://arxiv.org/abs/hep-th/0310195](https://arxiv.org/abs/hep-th/0310195))
+
+* Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
+
+### Open/closed string duality
+
+On the role of [[open/closed string duality]] in interpreting the [[large N limit]]:
+
+* {#GopakumarVafa98} [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
+
+
+* {#GaiottiRastelli05} [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
+
+> Nowadays we interpret $[$ the [['t Hooft double line notation]] $]$ quite literally as the perturbative expansion of an open string theory, either because the full open string theory is just equal to the gauge
+theory (as e.g. for Chern-Simons theory [27]), or because we take an appropriate
+low-energy limit (as e.g. for N = 4 SYM [31]).
+
+> The general speculation [1] is that upon summing over the number of holes, (1.1) can be recast as the genus expansion for some closed string theory of coupling $g_s = g_{YM}^2$. This speculation is sometimes justified by appealing to the intuition that diagrams with
+a larger and larger number of holes look more and more like smooth closed Riemann surfaces. This intuition is perfectly appropriate for the double-scaled matrix models, where the finite N theory is interpreted as a discretization of the closed Riemann surface; to recover the continuum limit, one must send $N\to \infty$ and tune $t$ to the
+critical point $t_c$ where diagrams with a diverging number of holes dominate.
+
+>  However, in AdS/CFT, or in the Gopakumar-Vafa duality [2], $t$ is a free parameter, corresponding on the closed string theory side to a geometric modulus. The intuition described above clearly goes wrong here. 
+
+> A much more fitting way in which the open/closed duality may come about in these cases is for each fatgraph of genus g and
+with h holes to be replaced by a closed Riemann surface of the same genus g and with h punctures: each hole is filled and replaced by a single closed string insertion.
+
+* {#Gopakumar04} [[Rajesh Gopakumar]], _Free Field Theory as a String Theory?_, Comptes Rendus Physique 5 (2004) 1111-1119 ([hep-th/0409233](https://arxiv.org/abs/hep-th/0409233))
+
+
 
 
 
