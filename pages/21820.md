@@ -39,10 +39,8 @@ Further proofs:
 * [[Kefeng Liu]], _On elliptic genera and theta-functions_, Topology Volume 35, Issue 3, July 1996, Pages 617-640 (<a href="https://doi.org/10.1016/0040-9383(95)00042-9">doi:10.1016/0040-9383(95)00042-9</a>)
 
 
- 
 
-* Anand Dessai, Rainer Jung, _On the Rigidity Theorem for Elliptic Genera_, Transactions of the American Mathematical Society
-Vol. 350, No. 10 (Oct., 1998), pp. 4195-4220 (26 pages) ([jstor:117694](https://www.jstor.org/stable/117694))
+* [[Anand Dessai]], Rainer Jung, _On the Rigidity Theorem for Elliptic Genera_, Transactions of the American Mathematical Society Vol. 350, No. 10 (Oct., 1998), pp. 4195-4220 (26 pages) ([jstor:117694](https://www.jstor.org/stable/117694))
 
 
 * [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](https://arxiv.org/abs/math/9912089))
