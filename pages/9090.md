@@ -23,6 +23,8 @@ The [[derived category]] of a category [[quasi-coherent sheaves]].
 
 ## References
 
+### General
+
 * [[Alexei Bondal|A. I. Bondal]], D. O. Orlov, _Derived categories of coherent sheaves_, Proc. Internat. Congress of Mathematicians vol. II 46--54 (Beijing, 2002) 
 [djvu:134K](http://www.mathunion.org/ICM/ICM2002.2/Main/icm2002.2.0047.0056.ocr.djvu) [pdf:881K](http://www.mathunion.org/ICM/ICM2002.2/Main/icm2002.2.0047.0056.ocr.pdf)
 
@@ -38,6 +40,12 @@ The [[derived category]] of a category [[quasi-coherent sheaves]].
 {#KatzarkovKontsevichPantev}
 
 * [[Valery Lunts]], Olaf M. Schnuerer, _New enhancements of derived categories of coherent sheaves and applications_, [arXiv](http://arxiv.org/abs/1406.7559).
+
+### In Rozansky-Witten theory
+
+On [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]] for [[Lie algebra objects]] in the [[derived category of quasi-coherent sheaves]], and unified [[Wheels theorem]]:
+
+* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 
 [[!redirects derived categories of coherent sheaves]]
