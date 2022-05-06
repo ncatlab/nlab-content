@@ -3,7 +3,7 @@
 
 ## Idea
 
-For a category $C$, a **polymorphism** is a collection of morphisms with common source and target, considered as a morphism in a new category $C^{poly}$ with the same objects, but with hom-sets $C^{poly}(a,b) := P(C(a,b))$, the [[power set]] of the original hom-sets.
+For a category $C$, a **poly-morphism** is a collection of morphisms with common source and target, considered as a morphism in a new category $C^{poly}$ with the same objects, but with hom-sets $C^{poly}(a,b) := P(C(a,b))$, the [[power set]] of the original hom-sets.
 
 These play a substantive rôle in [[Shinichi Mochizuki]]'s [[inter-universal Teichmüller theory]].
 
@@ -38,9 +38,9 @@ $$
 U\mapsto g\cdot U = \{g\cdot x \in S \mid x\in U\}.
 $$
 
-When we are in the first case, $V=Set$ and $P$ the power set functor, so that $C$ is a plain category, then we shall refer to $C^{P poly}$ as just $C^{poly}$, and its morphisms as poly-morphisms.
+When we are in the first case, $V=Set$ and $P$ the power set functor, so that $C$ is a plain category, then we shall refer to $C^{P poly}$ as just $C^{poly}$, and its morphisms as **poly-morphisms**.
 
-A **poly-isomorphism** of $C$ is defined to be a poly-morphism of the [[core]] of $C$, so that it is a collection of _invertible_ arrows. Note that these are **not** the isomorphisms in $C^{poly}$: all the isomorphisms in $C^{poly}$ come from $C$.
+A **poly-isomorphism** of $C$ is defined to be a poly-morphism of the [[core]] of $C$, so that it is a collection of _invertible_ arrows of $C$. Note that these are **not** the isomorphisms in $C^{poly}$: all the isomorphisms in $C^{poly}$ come from $C$.
 
 ## References
 
