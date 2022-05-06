@@ -29,9 +29,9 @@ $$ProfiniteSet^op \to Set$$
 such that the natural map
 $$T(S\sqcup S')\to T(S)\times T(S')$$
 is a bijection for any [[profinite sets]] $S$ and $S'$,
-whereas the natural map
+whereas the natural fork
 $$T(S)\to T(S')\rightrightarrows T(S'\times_S S')$$
-is a bijection for any surjection of [[profinite sets]] $S'\to S$.
+is a [[equalizer fork]] for any surjection of [[profinite sets]] $S'\to S$.
 \end{definition}
 
 ## Related concepts
