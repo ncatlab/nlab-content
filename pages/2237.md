@@ -302,6 +302,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[equivariant bundle]], [[equivariant connection]] 
 
+* [[equivariant differential topology]]
+
 * [[equivariant stable homotopy theory]], [[global equivariant stable homotopy theory]]
 
 * [[equivariant rational homotopy theory]], [[rational equivariant stable homotopy theory]]
