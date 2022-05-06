@@ -1,4 +1,3 @@
-[[!redirects tensor networks]]
 
 
 +-- {: .rightHandSide}
@@ -22,30 +21,58 @@
 
 
 ## Idea
+ {#Idea}
 
 The term _tensor network_ has become popular in [[quantum physics]] for essentially what in [[mathematical physics]] is known as _[[Penrose notation]]_ and in [[monoidal category|monoidal]] [[category theory]] is referred to as _[[string diagrams]]_.
 
-The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but then mainly via its use in [[holographic entanglement entropy]].
+The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but mainly via its use for representing [[entangled states]] in the  discussion of [[renormalization]] of [[non-perturbative effects]] in [[solid state physics]] ([Swingle 09](#Swingle09), [Swingle 13](#Swingle13)) and the resulting discovery of the relation to [[holographic entanglement entropy]].
 
-Here _tensor network_ is [[concept with an attitude]], in that it is (just) a [[string diagram]], but with 
+In this context, a _tensor network_ is a _[[string diagram]] [[concept with an attitude|with an attitude]], in that it is (just) a [[string diagram]], but with 
 
 1. the [[tensor product]] of all its external [[objects]] regarded as a [[space of states]] of a [[quantum system]];
 
 1. the [[element]] in that [[tensor product]] defined by the string diagram regarded a a [[state]] ([[wave function]]) of that quantum system.
 
-For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded [[Hilbert space]] via the given [[inner product]] on $\mathfrak{g}$, then an example of a tensor network state is the following:
+For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _tree tensor network state_ is the following:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="400">
+<img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="300">
+</center>
+
+The [[quantum states]] arising this way are generically highly [[entangled state|entangled]]: roughly they are the more entangled the more [[vertices]] there are in the corresponding tensor network.
+
+Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special role in the [[AdS/CFT correspondence]], either as
+
+1. a kind of [[lattice QFT]]-approximation to an actual [[boundary field theory|boundary]] [[CFT]] [[quantum state]], 
+
+1. as the [[p-adic geometry|p-adic geometric]] incarnation of [[anti de Sitter spacetime]] in the [[p-adic AdS/CFT correspondence]],
+
+1. as a reflection of actual [[crystal]]-site quantum states in [[AdS/CFT in solid state physics]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BruhatTitsTreeTensorNetworkStateFromMetricLie.jpg" width="300">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holographic entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). For more on this see [below](#ForHolographicEntanglementEntropy).
+
+\linebreak
+
+## For holographic entanglement entropy
+ {#ForHolographicEntanglementEntropy}
+
+>  under construction
+
+Appearance in [[renormalization]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SwingleRenormalizationTensorNetwork.jpg" width="600"></a>
 </center>
 
 
+> from [Swingle 09](#Swingle09)
 
-## For finite quantum mechanics in $\dagger$-compact categories
-
-Application to [[finite quantum mechanics in terms of dagger-compact categories]]... (see there).
-
-## For holographic entanglement entropy
 
 Application to [[holographic entanglement entropy]] (...)
 
@@ -62,6 +89,11 @@ Application to [[holographic entanglement entropy]] (...)
 > graphics grabbed from [Harlow 18](#Harlow18)
 
 In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]] has an exact proof [PYHP 15, Theorem 2](#PYHP15).
+
+## For finite quantum mechanics in $\dagger$-compact categories
+
+Application to [[finite quantum mechanics in terms of dagger-compact categories]]... (see there).
+
 
 ## Related concepts
 
@@ -132,3 +164,12 @@ See also
 Discussion in relation to [[higher parallel transport]]:
 
 * {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_ ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139))
+
+
+
+[[!redirects tensor networks]]
+
+[[!redirects tensor network state]]
+[[!redirects tensor network states]]
+
+
