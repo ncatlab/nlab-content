@@ -27,6 +27,8 @@ This page collects material related to the book
 
   American Mathematical Society, 1996
 
+  [doi:10.1112/S0024609397263459](https://doi.org/10.1112/S0024609397263459)
+
 on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
 
 > The approach to stable homotopy presented in this book originated with graduate courses taken by the author at the University of Chicago from 1966 to 1970 given by [[Frank Adams]], Arunas Liulevicius and [[Peter May]]. The content of the  lectures by Adams have been published in $[$Adams: _[[Stable homotopy and generalised homology]]_ (1974)$]$. However, the content of the courses given by Liulevicius on bordism and by May on characteristic classes and on the Adams spectral sequence have not been published. Most of the material in the first four chapters has been given by the author as graduate courses at Yale University, Purdue University and the University of Western Ontario. (Kochmann, p. 13)
