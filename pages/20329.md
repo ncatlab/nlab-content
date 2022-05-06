@@ -18,7 +18,7 @@
 
 ## Definition
 
-Given two [[groups]] $G_1$ and $G_2$ and a joint [[subgroup]] $C \overset{\iota_i}{\hookrightarrow} Z(G_i)$ in each of their [[centers]], then the corresponding ("external") _central product_ is the [[quotient group]]
+Given two [[groups]] $G_1$ and $G_2$ and a joint [[subgroup]] $C \xhookrightarrow{\iota_i} Z(G_i)$ in each of their [[centers]], then the corresponding ("external") _central product_ is the [[quotient group]]
 
 $$
   G_1 \circ G_2
@@ -28,13 +28,13 @@ $$
   \big)/_{diag} C
 $$
 
-of the [[direct product group]] $G_1 \times G_2$ by the [[diagonal]] subgroup $C \overset{(\iota_1, \iota_2)}{\hookrightarrow} G_1 \times G_2$.
+of the [[direct product group]] $G_1 \times G_2$ by the [[diagonal]] subgroup $C \xhookrightarrow{(\iota_1, \iota_2)} G_1 \times G_2$.
 
 ([Gornestein 80, p. 29](#Gornestein80))
 
 Beware that there is no widely accepted conventnotation for the central product, and that most notational conventions supporess the choices of central subgroups involved.  The "$\circ$"-notation is popular in [[finite group]]-theory, while in [[Riemannian geometry]] people tend to use "$\cdot$" (see [[Sp(n).Sp(1)]]) or no symbol at all.
 
-Also beware that most texts insists on stating the choices as that of two separate subgroups $C_i \overset{\iota_i}{\hookrightarrow} G_i$ together with an [[isomorphism]] $C_1 \underoverset{\simeq}{\phi}{\longrightarrow} C_2$ between them.
+Also beware that most texts insists on stating the choices as that of two separate subgroups $C_i \xhookrightarrow{\iota_i} G_i$ together with an [[isomorphism]] $C_1 \xrightarrow[\simeq]{\phi} C_2$ between them.
 
 ## Examples
 
