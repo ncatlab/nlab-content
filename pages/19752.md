@@ -51,3 +51,5 @@ $\,$
 
 
 * Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
+
+category: character tables
