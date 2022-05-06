@@ -64,7 +64,9 @@ The term "Jacobi diagram" ([Chmutov-Duzhin-Mostovoy 11, Chapter 5](#ChmutovDuzhi
 
 ## Related concepts
 
-* [[Vassiliev invariants]]
+* [[weight system]]
+
+* [[Vassiliev invariant]]
 
 ## References
 
@@ -86,6 +88,7 @@ Lecture notes
 
 Textbook accounts
 
-* {#ChmutovDuzhinMostovoy11} S. Chmutov, Sergei Duzhin, J. Mostovoy, Chapter 5 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 5 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
 
 * {#JacksonMoffat19} [[David Jackson]], [[Iain Moffat]], Section 13 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
