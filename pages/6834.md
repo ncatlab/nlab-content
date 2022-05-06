@@ -154,6 +154,11 @@ For foundations of higher gauge theory formalized in [[homotopy type theory]] se
 
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
 
+For higher gauge theory in [[condensed matter physics]] see
+
+* Chenchang Zhu, Tian Lan, Xiao-Gang Wen, _Topological non-linear σ-model, higher gauge theory, and a realization of all 3+1D topological orders for boson systems_, ([arXiv:1808.09394](https://arxiv.org/abs/1808.09394))
+
+* J.P. Ang, Abhishodh Prakash, _Higher categorical groups and the classification of topological defects and textures_, ([ arXiv:1810.12965](https://arxiv.org/abs/1810.12965))
 
 
 [[!redirects higher gauge fields]]
