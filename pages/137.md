@@ -109,7 +109,7 @@ The following are equivalent:
 
 * $f$ is a [[monomorphism]] in the [[opposite category]] $C^{op}$;
 
-* postcomposition with $f$ is a monomorphism in [[Set]]: that is, for all $c \in C$, $f \circ - : Hom(c,x) \to Hom(c,y)$ is an [[injection]];
+* precomposition with $f$ is a monomorphism in [[Set]]: that is, for all $c \in C$, $- \circ f : Hom(y,c) \to Hom(x,c)$ is an [[injection]];
 
 * the [[commuting diagram]] 
   $$
