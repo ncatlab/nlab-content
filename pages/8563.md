@@ -74,6 +74,12 @@ See at _[[tensor product of abelian categories]]_ for more.
 
 * [[tensor product]]
 
+* [[tensor product of abelian groups]]
+
+* [[tensor product of modules]]
+
+* [[tensor product of algebras over a commutative monad]]
+
 * [[Hochschild cohomology]]
 
 
