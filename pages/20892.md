@@ -47,13 +47,13 @@ Reviewed in:
 #### For single trace operators in AdS/CFT duality
  {#ForSingleTraceOperatorsInAdSCFTDuality}
 
-Interpretation of [[Lie algebra weight systems]] on [[chord diagrams]] as certain [[single trace operators]], in partcular in application to [[black hole thermodynamics]]
+Interpretation of [[Lie algebra weight systems]] on [[chord diagrams]] as certain [[single trace operators]], in particular in application to [[black hole thermodynamics]]
 
 
 * [[Micha Berkooz]], [[Prithvi Narayan]], [[Joan Simón]], Section 2.1 of _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
 
 
-##### In $AdS_2/CFT_1$, JT-gravity/SYK-model
+#### In $AdS_2/CFT_1$, JT-gravity/SYK-model
   {#ReferencesWeightSystemsInSYKModel}
 
 Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on [[chord diagrams]] as [[SYK model]] [[single trace operators]]:
