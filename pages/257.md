@@ -46,7 +46,13 @@ In a model category the data of weak equivalences is accompanied by further auxi
 If the model category happens to be a [[combinatorial simplicial model category]] $\mathbf{A}$ it [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category|category]] $\mathbf{A}^\circ$ in the form of a [[simplicially enriched category]] given by the full [[SSet]]-[[enriched category|enriched subcategory]] on objects that are both fibrant and cofibrant.
 
 
+
 ## Definition
+
+The following is a somewhat terse account. For a more detailed exposition see  at _[[Introduction to Homotopy Theory]]_ the section _[Abstract homotopy theory](Introduction+to+Homotopy+Theory#ModelCategoryTheory)_.
+
+<br>
+
 
 +-- {: .num_defn #ModelStructure}
 ###### Definition
@@ -281,6 +287,8 @@ Given a model category structure, any two of the three classes of special morphi
 * given $W$ and $F$, we have $C = LLP(W \cap F)$;
 
 * given $C$ and $F$, we find $W$ as the class of morphisms which factor into a morphism in $C \cap W$ followed by a morphism in $F \cap W$.
+
+(Here $RLP(S)$ denotes the class of morphisms with the [[right lifting property]] against $S$ and $LLP(S)$ denotes the class of morphisms with the [[left lifting property]] against $S$.)
 
 =--
 
