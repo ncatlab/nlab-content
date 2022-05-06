@@ -110,7 +110,8 @@ A fun scan of the (pre-)history of the [[stable homotopy category]] is in
 
 Quick surveys include
 
-* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
+
+* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](https://people.math.binghamton.edu/malkiewich/stable.pdf), [[MalkiewichStableHomotopyCategory.pdf:file]])
 
 * [[Dylan Wilson]], _Introduction to stable homotopy theory_ ([pdf](https://etale.site/livetex/wcatss/sht1.pdf), [[WilsonStableHomotopyTheory.pdf:file]])
 
