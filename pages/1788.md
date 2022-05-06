@@ -1,5 +1,18 @@
 
+The code
 
+
+      [[topos]] [[topos]]
+
+gets rendered as:
+
+[[topos]] [[topos]]
+
+\linebreak
+
+\linebreak
+
+$XX$ [[topos]] $X$
 
 Consider the 5d metric
 
