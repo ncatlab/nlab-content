@@ -193,6 +193,11 @@ Review includes
 
 * {#TroddenCarroll} Mark Trodden, Sean Carroll, TASI Lectures: Introduction to Cosmology _[4.9 Baryon Number violation](http://ned.ipac.caltech.edu/level5/Sept03/Trodden/Trodden4_9.html)_ 
 
+
+* James M. Cline, _Baryogenesis_, lectures at Les Houches Summer School, Session 86: Particle Physics and Cosmology: the Fabric of Spacetime, 7-11 Aug. 2006 ([arXiv:hep-ph/0609145](https://arxiv.org/abs/hep-ph/0609145))
+
+
+
 * {#Shu08} Jing Shu, section 7 of _Connecting LHC Signals with Deep Physics at the TeV Scale and Baryogenesis_ 2008
 
 Discussion with focus on [[QCD]]-effects:
