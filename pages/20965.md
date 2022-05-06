@@ -27,4 +27,9 @@ Relation to [[black holes in string theory]] and [[random matrix theory]]:
 
 * Tomoki Nosaka, Tokiro Numasawa, _Quantum Chaos, Thermodynamics and Black Hole Microstates in the mass deformed SYK model_ ([arXiv:1912.12302](https://arxiv.org/abs/1912.12302))
 
+See also
+
+* Yuri D. Lensky, Xiao-Liang Qi, Pengfei Zhang, _Size of bulk fermions in the SYK model_ ([arXiv:2002.01961](https://arxiv.org/abs/2002.01961))
+
+
 
