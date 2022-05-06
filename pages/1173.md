@@ -52,16 +52,16 @@ Semilattices and semilattice homomorphims form a [[concrete category]] [[SemiLat
 
 ## The free join-semilattice on a poset
 
-There is a category $JSemiLatt$ with join-semilattices as objects and homomorphisms of these as morphisms, and a forgetful functor to the category of posets:
+There is a category [[SemiLat]] with join-semilattices as objects and homomorphisms of these as morphisms, and a forgetful functor to the category of posets:
 
 $$
-U \colon JSemiLatt \to Poset 
+U \colon SemiLat \to Poset 
 $$
 
 This has a left adjoint
 
 $$
-F \colon Poset \to JSemiLatt
+F \colon Poset \to SemiLat
 $$
 
 where for any poset $P$, the join-semilattice $F(P)$ is the poset of finitely generated downsets of $P$, ordered by inclusion.   Here a **downset** of a poset $P$ is a subset $S \subseteq P$ such that 
