@@ -227,7 +227,7 @@ $$
   }
 $$
 
-be an [[monad|algebra over]] our monad. In components this is an object $T P$ equipped with a morphism $\rho_P : T P \to P$.
+be an [[monad|algebra over]] our monad. In components this is an object $P$ equipped with a morphism $\rho_P : T P \to P$.
 
 The object $T P \in [I,C]_Y$ is given by
 
