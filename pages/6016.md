@@ -4,6 +4,11 @@ Murray Gell-Mann was an American physicist (1929-2019), best known for his work 
 
 ## Selected writings
 
+Introducing [[vector meson dominance]]:
+
+* [[Murray Gell-Mann]], Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
+
+
 Introducing the [[quark]] [[model (in theoretical physics)|model]]/[[quantum chromodynamics]]:
 
 * {#GellMann64} [[Murray Gell-Mann]], _A Schematic Model of Baryons and Mesons_, Phys. Lett. 8 (1964) 214-215 ([spire:11880](http://inspirehep.net/record/11880), <a href="https://doi.org/10.1016/S0031-9163(64)92001-3">doi:10.1016/S0031-9163(64)92001-3</a>)
