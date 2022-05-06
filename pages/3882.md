@@ -13,6 +13,8 @@
 
 ##Publications (selected)
 
+* Andrew P. Tonks, On the Eilenberg-Zilber Theorem for crossed complexes. J. Pure Appl. Algebra, 179~(1-2) (2003) 199–220,
+
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], and Andrew Tonks. _Homotopy linear algebra_. Proc. Roy. Soc. Edinburgh Sect. A, 148(2):293–325, 2018.
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], and Andrew Tonks. _Groupoids and Faà di Bruno formulae for Green functions in bialgebras of trees_. Adv. Math., 254:79–117, 2014. 
