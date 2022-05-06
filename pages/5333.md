@@ -425,6 +425,13 @@ A kind of unusual boundary condition for heterotic strings, (analogous to open [
 
 * [[Joseph Polchinski]], _Open Heterotic Strings_, JHEP 0609 (2006) 082 ([arXiv:hep-th/0510033](http://arxiv.org/abs/hep-th/0510033))
 
+
+
+[[!include flavor on heterotic M5-branes -- references]]
+
+
+
+
 [[!redirects heterotic superstring]]
 [[!redirects heterotic superstrings]]
 
