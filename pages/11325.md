@@ -53,7 +53,11 @@ The original article:
 
 Review:
 
-* [[Roger Penrose]], _The Question of Cosmic Censorship_, Journal of Astrophysics and Astronomy, Vol. 20, p.233, 1999 ([doi:10.1007/BF02702355](https://doi.org/10.1007/BF02702355), [web](http://adsabs.harvard.edu/full/1999JApA...20..233P)) in 
+* [[Roger Penrose]], _The Question of Cosmic Censorship_, Journal of Astrophysics and Astronomy, Vol. 20, p.233, 1999 ([doi:10.1007/BF02702355](https://doi.org/10.1007/BF02702355), [web](http://adsabs.harvard.edu/full/1999JApA...20..233P)) 
+
+* [[Klaas Landsman]], _Singularities, black holes, and cosmic censorship: A tribute to Roger Penrose_ ([arXiv:2101.02687](https://arxiv.org/abs/2101.02687))
+
+
 
 See also:
 
