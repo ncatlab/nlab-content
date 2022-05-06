@@ -83,6 +83,10 @@ See also
 * {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
 
 
+* Francesco Bascone, Franco Pezzella, Patrizia Vitale, _Poisson-Lie T-Duality of WZW Model via Current Algebra Deformation_ ([arXiv:2004.12858](https://arxiv.org/abs/2004.12858))
+
+
+
 Discussion in [[cosmology]]:
 
 * Ladislav Hlavatý, Ivo Petr, _Poisson-Lie plurals of Bianchi cosmologies and Generalized Supergravity Equations_ ([arxiv:1910.08436](https://arxiv.org/abs/1910.08436))
