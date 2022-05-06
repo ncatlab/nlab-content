@@ -58,7 +58,8 @@ $$
 
 The [[Feynman amplitude]] of the process is proportional to
 
-$$
+\[
+  \label{FeynmanAmplitudedRadiativeDalitzDecay}
   \epsilon^{\mu_1 \mu_2 \nu \kappa}
   \underset{ 
     photon 
@@ -81,7 +82,7 @@ $$
     dilepton
   }{
     \underbrace{
-      \overline{L} \!\cdot\! \gamma_\kappa  \!\cdot\! L
+      \overline{L} \!\cdot\! \gamma_\kappa  \!\!\cdot\! L
     }
   }
   \underset{
@@ -93,7 +94,7 @@ $$
       \tfrac{1}{(p_1 + p_2)^2}
     }
   }
-$$
+\]
 
 where 
 
@@ -103,12 +104,29 @@ where
 
 * $p_\mu$ is the [[momentum]] of the (pseudo-)[[scalar meson]],
 
-* $\overline{L} \!\cdot\! \gamma_\kappa  \!\cdot\! L$ is the [[lepton current]]
+* $\overline{L} \!\cdot\! \gamma_\kappa  \!\!\cdot\! L$ is the [[lepton current]]
 
 * $p_1, p_2$ are the momenta of the two [[leptons]], hence $(p_1 + p_2)$ is that of the [[virtual particle|virtual]] [[photon]] mediating the decay.
 
 (see [Yia-Sang 09, (9)](#YiaSang09) (symbol definition on p. 12), also e.g. [KKN 02, p. 2](#KKN02), [KKN06, p. 6](#KKN06) ).
 
+
++-- {: .num_remark} 
+###### Remark
+
+The corresponding [[interaction]] [[Lagrangian density]] for the [[Feynman amplitude]] (eq:FeynmanAmplitudedRadiativeDalitzDecay) (hence essentially its [[Fourier transform]] times the [[volume form]]) is (all on 4d [[Minkowski spacetime]])
+
+\[
+  \label{LagrangianDensityForRadiativeDalitzDecay}
+  \mathbf{L}_{rad}
+  \;\sim\;
+  d A \wedge d \pi^0 \wedge (\overline{L} \!\cdot\!\gamma_\mu \!\!\cdot\! L) d x^\mu
+  \,,
+\]
+
+where $A = A_\mu d x^\mu$ is the [[differential 1-form]] defined by the [[photon]] [[field (physics)|field]] (the [[gauge symmetry]]-[[connection on a principal bundle|connection]]-form), $\pi^0$ is the function ([[scalar field]]) which is the neutral component of the [[pion]] [[field (physics)|field]] and $d$ denotes is the [[de Rham differential]].
+
+=--
 
 ### Semileptonic Dalitz decay
 
@@ -127,9 +145,10 @@ More generally, one speaks of (generalized) Dalitz decays for the analogous proc
   } 
 \end{imagefromfile}
 
-The [[Feynman amplitude]] of the process is, analogous to before, proportional to
+The [[Feynman amplitude]] of the process is, directly analogous to (eq:FeynmanAmplitudedRadiativeDalitzDecay), proportional to
 
-$$
+\[
+  \label{FeynmanAmplitudedSemileptonicDalitzDecay}
   \epsilon^{\mu_1 \mu_2 \nu \kappa}
   \underset{ 
     {vector}
@@ -154,7 +173,7 @@ $$
     dilepton
   }{
     \underbrace{
-      \overline{L} \!\cdot\! \gamma_\kappa  \!\cdot\! L
+      \overline{L} \!\cdot\! \gamma_\kappa  \!\!\cdot\! L
     }
   }
   \underset{
@@ -166,7 +185,7 @@ $$
       \tfrac{1}{(p_1 + p_2)^2}
     }
   }
-$$
+\]
 
 where 
 
@@ -176,11 +195,52 @@ where
 
 * $p_\mu$ is the [[momentum]] of the (pseudo-)[[scalar meson]],
 
-* $\overline{L} \!\cdot\! \gamma_\kappa  \!\cdot\! L$ is the [[lepton current]]
+* $\overline{L} \!\cdot\! \gamma_\kappa  \!\!\cdot\! L$ is the [[lepton current]]
 
 * $p_1, p_2$ are the momenta of the two [[leptons]], hence $(p_1 + p_2)$ is that of the [[virtual particle|virtual]] [[photon]] mediating the decay.
 
-(e.g. [Wachs 00, (2.60)](#Wachs00),  [GLMY 19, (2)](#GLMY19))
+(e.g. [Wachs 00, (2.60)](#Wachs00),  [FLQY 12](#FLQY12), [GLMY 19, (2)](#GLMY19))
+
+
+
++-- {: .num_remark} 
+###### Remark
+
+The corresponding [[interaction]] [[Lagrangian density]] for the [[Feynman amplitude]] (eq:FeynmanAmplitudedSemileptonicDalitzDecay) (hence essentially its [[Fourier transform]] times the [[volume form]]) is
+
+\[
+  \label{LagrangianDensityForSemileptonicDalitzDecay}
+  \mathbf{L}_{sem}
+  \;\sim\;
+  d V \wedge d \pi \wedge (\overline{L} \!\cdot\!\gamma_\mu \!\!\cdot\! L) d x^\mu
+  \,,
+\]
+
+where $V = V_\mu d x^\mu$ is the [[differential 1-form]] defined by the [[vector meson]] [[field (physics)|field]] (the [[hidden local symmetry]]-[[connection on a principal bundle|connection]]-form), $P$ is the [[scalar field]] function which is the neutral component of the [[scalar meson]] [[field (physics)|field]] and $d$ denotes is the [[de Rham differential]].
+
+
+=--
+
+
++-- {: .num_remark} 
+###### Remark
+
+
+Up to possibly a global sign, it does not matter whether $q_\mu$ in (eq:FeynmanAmplitudedRadiativeDalitzDecay) or (eq:FeynmanAmplitudedSemileptonicDalitzDecay) is taken to be the wave vector of the external photon/vector meson (as stated for instance in [Yia-Sang 09, (9)](#YiaSang09)) or of the interval virtual photon, equivalently of the dilepton pair (as stated for instance in [FLQY 12](#FLQY12), [GLMY 19, (2)](#GLMY19)): Due to momentum conservation at the first interaction vertex their difference is proportional to the momentum $p_\mu$ of the scalar meson, and due to anti-symmetry of the [[Levi-Civita symbol]] this difference vanishes inside the above expression.
+
+Equivalently, in terms of the [[Lagrangian density]] (eq:LagrangianDensityForSemileptonicDalitzDecay), this equivalence is reflected by Lagrangian densities defined only up to [[total derivative]]:
+
+$$
+  \begin{aligned}
+  & 
+  d V \wedge d \pi \wedge (\overline{L} \!\cdot\!\gamma_\mu \!\cdot\! L) d x^\mu
+  \\
+  & \sim\;
+  V \wedge d \pi \wedge d (\overline{L} \!\cdot\!\gamma_\mu \!\cdot\! L) \wedge d x^\mu
+  \end{aligned}
+$$
+
+=--
 
 
 ## References
@@ -209,6 +269,11 @@ Of [[pions]] and [[eta-mesons]]:
 
 * Sergi González-Solís, _Single and double Dalitz decays of $\pi^0$, $\eta$ and $\eta'$ mesons_, Nuclear and Particle Physics Proceedings Volumes 258–259, January–February 2015, Pages 94-97 ([doi:10.1016/j.nuclphysbps.2015.01.021](https://doi.org/10.1016/j.nuclphysbps.2015.01.021))
 
+Of [[pions]], [[eta-mesons]] and [[omega-mesons]]:
+
+* {#Berghauser10} Henning Berghäuser, _Investigation of the Dalitz decays and the electromagnetic form factors of the $\eta$ and $\pi^0$-meson_, 2010 ([spire:1358057](https://inspirehep.net/literature/1358057))
+
+   
 
 
 Discussion of Dalitz decay of [[quarkonium]]:
@@ -216,6 +281,8 @@ Discussion of Dalitz decay of [[quarkonium]]:
 * {#YiaSang09} Yu Jia, Wen-Long Sang, _Observation prospects of leptonic and Dalitz decays of pseudoscalar quarkonia_, JHEP 0910:090, 2009 ([arXiv:0906.4782](https://arxiv.org/abs/0906.4782))
 
 Of [[charmonium]]:
+
+* {#FLQY12} Jinlin Fu, Hai-Bo Li, Xiaoshuai Qin, Mao-Zhi Yang, _Study of the electromagnetic transitions $J/\psi \to P l^+ l^-$ and probe dark photon_,  Modern Physics Letters A Vol. 27, No. 38, 1250223 (2012) ([arXiv:1111.4055](https://arxiv.org/abs/1111.4055) [doi:10.1142/S0217732312502239](https://doi.org/10.1142/S0217732312502239))
 
 * _Study of the Dalitz decay $J/\psi \to e^+e^- \eta$_, Phys. Rev. D 99, 012006 (2019) ([arXiv:1810.03091](https://arxiv.org/abs/1810.03091))
 
@@ -228,8 +295,15 @@ Of [[upsilon-mesons]]:
 
 [[!redirects Dalitz decays]]
 
+[[!redirects Dalitz pair]]
+[[!redirects Dalitz pairs]]
 
+[[!redirects radiative Dalitz decay]]
+[[!redirects radiative Dalitz decays]]
 
+[[!redirects semileptonic Dalitz decay]]
+[[!redirects semileptonic Dalitz decays]]
 
   
+
 
