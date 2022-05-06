@@ -130,6 +130,11 @@ On the [[Green-Schwarz anomaly cancellation]] in [[D=6 N=(1,0) SCFT]]:
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], _Anomaly polynomial of E-string theories_, J. High Energ. Phys. 2014, 2 (2014) ([arXiv:1404.3887](https://arxiv.org/abs/1404.3887))
 
+See also:
+
+* Sung-Soo Kim, Yuji Sugimoto, Futoshi Yagi, _Surface defects on E-string from 5-brane webs_, JHEP 12(2020) 183 ([arXiv:2008.06428](https://arxiv.org/abs/2008.06428))
+
+
 ### In F-theory
 
 Discussion in [[F-theory]]:
