@@ -42,3 +42,4 @@ category: people
 
 [[!redirects Dan Kan]]
 [[!redirects D. M. Kan]]
+[[!redirects Kan]]
