@@ -162,6 +162,10 @@ See also
 
 * [[Hiro Lee Tanaka]], _Manifold calculus is dual to factorization homology_, at [Talbot 2012:_ Calculus of functors](http://math.mit.edu/conferences/talbot/2012/_2012.php) ([pdf](http://math.mit.edu/conferences/talbot/2012/notes/14_Tanaka_FactorizationHomology%28hiro%29.pdf))
 
+Generalization to [[orbifolds]]:
+
+* [[Tim Weelinck]], _Equivariant factorization homology of global quotient orbifolds_ ([arXiv:1810.12021](https://arxiv.org/abs/1810.12021), [talk pdf](https://www.maths.ed.ac.uk/~tweelinck/efhqsp.pdf))
+
 Some applications are
 
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization  homology_, [arXiv:1405.6696](http://arxiv.org/abs/1405.6696).
@@ -185,7 +189,6 @@ A [[duality]] theorem for factorization homology, generalizing [[Poincare dualit
 Discussion in the context of [[extended TQFT]] appears in 
 
 * [[Claudia Scheimbauer]], _Factorization homology as a fully extended topological field theory_ ([pdf](https://people.maths.ox.ac.uk/scheimbauer/ScheimbauerThesis.pdf))
-
 
 * [Videos from  from the BIRS Workshop 15w5125](http://www.birs.ca/events/2015/5-day-workshops/15w5125/videos) on _Factorizable Structures in Topology and Algebraic Geometry_.
 
