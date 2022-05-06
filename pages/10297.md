@@ -44,9 +44,11 @@ The appearance of self-dual string in six dimensions with an [[ADE classificatio
 
 Further discussion includes
 
+* [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
+
 * P.S. Howe, [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl.Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014))
 
-* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
+* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
 
 * {#HoheneggerIqbal13} Stefan Hohenegger, [[Amer Iqbal]], _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
 
