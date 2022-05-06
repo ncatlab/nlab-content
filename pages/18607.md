@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On the [[non-abelian DBI action]] for [[intersecting branes]] with non-abelian [[gauge enhancement]] on their worldvolume:
+
+* [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
+
+
 On [[holographic entanglement entropy]]:
 
 * [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
