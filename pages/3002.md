@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-This definition gives us the correct notion of __magma homomorphism__, __[[semigroup]] homomorphsim__, and __[[group]] homomorphism__, but it is actually a bit of a coincidence that it works for groups.  It does *not* give the correct definition of [[monoid]] homomorphism, since it doesn\'t properly treat the [[identity elements]].  (However, the correct notion of monoid [[isomorphism]] can still be constructed from this inadequate definition of homomorphism.)
+This definition gives us the correct notion of __magma homomorphism__, __[[semigroup]] homomorphism__, and __[[group]] homomorphism__, but it is actually a bit of a coincidence that it works for groups.  It does *not* give the correct definition of [[monoid]] homomorphism, since it doesn\'t properly treat the [[identity elements]].  (However, the correct notion of monoid [[isomorphism]] can still be constructed from this inadequate definition of homomorphism.)
 
 A __rng homomorphism__ is a function between [[rngs]] that is a homomorphism for both the additive group and the multiplicative semigroup.  (For [[rings with identity]], this is again inadequate.)
 
