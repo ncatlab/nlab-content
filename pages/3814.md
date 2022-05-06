@@ -125,7 +125,7 @@ Not quite in tension with the standard model, but still possibly pointing to una
 
 * [[Higgs field]]-[metastability](Higgs+field#MassAndVacuumInstability).
 
-Then there are experimental phenomena which are known to be implied by the standard model by way of computer simulatrion ([[lattice QCD]]), but which are not conceptually understood:
+Then there are experimental phenomena which are known to be implied by the standard model by way of computer simulation ([[lattice QCD]]), but which are not conceptually understood:
 
 * [[confinement]] ([[mass gap problem]])
 
