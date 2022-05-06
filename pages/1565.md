@@ -68,9 +68,7 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[ring]], [[near-ring]]
 
-* [[tropical geometry]]
-
-* [[tropical semiring]]
+* [[tropical geometry]], [[tropical semiring]]
 
 * [[idempotent semiring]]
 
@@ -90,6 +88,8 @@ Some rigs which are neither rings nor distributive lattices include:
 * [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv:
 1108.2874](http://arxiv.org/abs/1108.2874)
 * wikipedia [semiring](http://en.wikipedia.org/wiki/Semiring)
+* J. Jun, S. Ray, J. Tolliver, _Lattices, spectral spaces, and closure operations on idempotent semirings_, [arxiv/2001.00808](https://arxiv.org/abs/2001.00808)
+
 
 [[!redirects rigs]]
 
