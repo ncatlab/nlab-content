@@ -307,9 +307,9 @@ A textbook account is in
 
 The concept of twisted K-theory originates in 
 
-* {#Karoubi68} [[Max Karoubi]], _Alg&#232;bres de Clifford et K-th&#233;orie._ Ann. Sci. Ecole Norm. Sup. (4), pp. 161-270 (1968).
+* {#Karoubi68} [[Max Karoubi]], _Alg&#232;bres de Clifford et K-th&#233;orie._ Ann. Sci. Ecole Norm. Sup. (4), pp. 161-270 (1968) ([numdam:ASENS_1968_4_1_2_161_0](http://www.numdam.org/item/ASENS_1968_4_1_2_161_0))
 
-* [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
+* [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam:PMIHES_1970__38__5_0](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
 
 which discusses twists of $KO$ and $KU$ over some $X$ by elements in $H^0(X,\mathbb{Z}_2) \times H^1(X,\mathbb{Z}_2) \times H^3(X, \mathbb{Z})$.
 
