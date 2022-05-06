@@ -105,7 +105,16 @@ See also
 
 * Reinhard Alkofer, H. Reinhardt, H. Weigel, U. Zuckert, _The Isoscalar vector meson omega in the Nambu-Jona-Lasinio soliton_, Phys. Lett. B298 (1992) 132-140 ([spire:343052](http://inspirehep.net/record/343052), <a href="https://doi.org/10.1016/0370-2693(93)91719-4">doi:10.1016/0370-2693(93)91719-4</a>)
 
+Experimental detection:
+
+* Cheng-Qun Pang, Ya-Rong Wang, Jing-Fu Hu, Tian-Jie Zhang, Xiang Liu, _Study of the $\omega$ meson family and newly observed $\omega$-like state $X(2240)$_ ([arXiv:1910.12408](https://arxiv.org/abs/1910.12408))
+
+
+See also:
+
 * Wikipedia, _[Omega meson](https://en.wikipedia.org/?title=Omega_meson)_
+
+### In the Skyrme model
 
 Original proposal for inclusion of the [[ω-meson]] into the [[Skyrme model]]:
 
