@@ -56,6 +56,7 @@ In the category of $T_0$ [[topological spaces]] (see at _[[separation axiom]]_),
 [[!redirects Scott-open subspace]]
 [[!redirects Scott-open subspaces]]
 
+[[!redirects Scott continuity]]
 [[!redirects Scott continuous]]
 [[!redirects Scott-continuous]]
 [[!redirects Scott continuous function]]
