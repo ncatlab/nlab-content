@@ -45,6 +45,9 @@ Textbook accounts include
 
 * {#Hoermander90} [[Lars Hörmander]], theore 2.3.6 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
+Enhancement to a linear splitting of [[restriction]] maps on [[spaces of sections]] of [[vector bundles]]:
+
+* {#RobertsSchmeding18} [[David Roberts]], [[Alexander Schmeding]], _Extending Whitney's extension theorem: nonlinear function spaces_ ([arXiv:1801.04126](https://arxiv.org/abs/1801.04126))
 
 See also
 
