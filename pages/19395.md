@@ -36,9 +36,9 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 
 | $d$ | [[super anti de Sitter spacetime]] |
 |-----|---|
-| 4 | $\;\;\;\;\frac{OSp(8/4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
-| 5 | $\;\;\;\;\frac{SU(2,2/5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
-| 7 | $\;\;\;\;\frac{OSp(6,2/4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
+| 4 | $\;\;\;\;\frac{OSp(8\vert 4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
+| 5 | $\;\;\;\;\frac{SU(2,2\vert 5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
+| 7 | $\;\;\;\;\frac{OSp(6,2\vert 4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
 
 
 * The supersphere $S^{2|2}$ is the super coset space $UOSp(1|2)/U(1)$.
