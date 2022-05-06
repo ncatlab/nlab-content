@@ -25,6 +25,10 @@ On [[electric-magnetic duality]]:
 
 * [[Cumrun Vafa]], _Geometric Origin of Montonen-Olive Duality_, Adv.Theor.Math.Phys.1:158-166, 1998 ([arXiv:hep-th/9707131](https://arxiv.org/abs/hep-th/9707131))
 
+On a [[mysterious duality]]:
+
+* {#INV01} [[Amer Iqbal]], [[Andrew Neitzke]], [[Cumrun Vafa]], _A mysterious duality_, ([arXiv:hep-th/0111068](https://arxiv.org/abs/hep-th/0111068))
+
 On [[M-theory on S1/G_HW times H/G_ADE]] and [[D=6 N=(1,0) SCFT]]:
 
 * {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
