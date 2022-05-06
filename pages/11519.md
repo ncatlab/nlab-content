@@ -64,9 +64,9 @@ This also shows that $S^V$ is a [[smooth manifold]] with smooth $G$-[[action]].
 
 +-- {: .num_prop #RepresentationSpheresAreGCWComplexes}
 ###### Proposition
-**($G$-[[representation spheres]] are [[G-CW-complexes]])**
+**([[G-representation spheres]] are [[G-CW-complexes]])**
 
-For $G$ a [[finite group]] and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] $G$-[[linear representation]], the [[representation sphere]] $S^V$ admits the structure of a [[G-CW-complex]].
+For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] [[orthogonal representation|orthogonal]] $G$-[[linear representation]], the [[representation sphere]] $S^V$ admits the structure of a [[G-CW-complex]].
 
 =--
 
@@ -75,10 +75,14 @@ Proof idea: By Prop. \ref{RepresentationSpheresAsUnitSpheres} we may realize $S^
 The argument in the larger generality of $G$ a [[compact Lie group]]: e.g. proof of Prop. B.43 in [this](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3AF92C4A288F9A831EEBEC8C1C8CC661/9781108425810apx2_735-792.pdf/equivariant_spaces.pdf)
 
 
+
 ## References
 
 * {#Blumberg17} [[Andrew Blumberg]], Example 1.1.5 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 
 [[!redirects representation spheres]]
+
+[[!redirects G-representation sphere]]
+[[!redirects G-representation spheres]]
 
