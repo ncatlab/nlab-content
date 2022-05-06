@@ -128,6 +128,18 @@ The computation of the anomalous magnetic dipole moment of the [[electron]] in [
 
 * {#Scharf95} [[Günter Scharf]], section 3.10, culminating in (3.10.20), of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
+### QCD contribution
+
+Discussion of [[QCD]] contributions via [[lattice QCD]]:
+
+
+* Sz. Borsanyi, Z. Fodor, J. N. Guenther, C. Hoelbling, S. D. Katz, L. Lellouch, T. Lippert, K. Miura, L. Parato K. K. Szabo, F. Stokes, B. C. Toth, Cs. Torok, L. Varnhorst:
+
+  _Leading-order hadronic vacuum polarization contribution to the muon magnetic moment from lattice QCD_ ([arXiv:2002.12347](https://arxiv.org/abs/2002.12347))
+
+> Surprisingly, our result eliminates the need to invoke new physics to explain the measurement of $(g_\mu - 2)$.
+
+
 
 ### Gravity contributions
 
