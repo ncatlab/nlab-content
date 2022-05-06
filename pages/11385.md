@@ -21,18 +21,18 @@
 
 ## Idea
 
-Power operations are [[cohomology operations]] in [[multiplicative cohomology theory]] which are higher-degree analogs of [[cup product]]-squares [[symmetric algebra|symmetrized]] in the right [[homotopy theory|homotopy-theoretic sense]].
+In [[algebraic topology]], _power operations_ are [[cohomology operations]] in [[multiplicative cohomology theory]] which are higher-degree analogs of [[cup product]]-squares [[symmetric algebra|symmetrized]] in the appropriate [[homotopy theory|homotopy-theoretic sense]].
 
 +-- {: .num_remark #AsPDerivations}
 ###### Remark
 
 At least to some extent, power operations may be understood as the [[higher algebra]]-generalization of the ordinary $p$-power map $(-)^p$ on a [[commutative ring]], the one that appears in the definition of [[Fermat quotients]], [[p-derivations]] and [[Frobenius morphisms]].
 
-See for instance [Lurie, from remark 2.2.7 on](#Lurie)) for relation to the [[Frobenius homomorphism]] and see the example [below](#OnK1LocalKUAlgebras). See ([Guillot 06](#Guillot06), [Morava-Santhanam 12](#MoravaSanthanam)) for further discussion and speculation in this direction.
+See for instance [Lurie, from remark 2.2.7 on](#Lurie) for relation to the [[Frobenius homomorphism]] and see the example [below](#OnK1LocalKUAlgebras). See [Guillot 06](#Guillot06), [Morava-Santhanam 12](#MoravaSanthanam) for further discussion and speculation in this direction.
 
 =--
 
-For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[homotopy type]]), a map $a\;\colon\;X \to E$ is a [[cocycle]] in the [[cohomology]] of $X$ with [[coefficients]] in $E$. 
+For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[homotopy type]]), a map $a\;\colon\;X \to E$ is a [[cocycle]] in the [[Whitehead-generalized cohomology]] of $X$ with [[coefficients]] in $E$. 
 
 The $n$-th [[cup product]] power of this $a$ is the composite
 
@@ -41,7 +41,7 @@ $$
   \,,
 $$
 
-where the second map is the product operation in $E$. Since this is by assumption commutative up to coherent higher homotopy, this map factors through the [[homotopy quotient]] by the [[∞-action]] of the [[symmetric group]] $\Sigma_n$
+where the second map is given the product operation in the [[ring spectrum]] $E$. Since this is, by assumption, commutative up to coherent higher homotopy, this map factors through the [[homotopy quotient]] by the [[∞-action]] of the [[symmetric group]] $\Sigma_n$
 
 $$
   a^n 
@@ -67,7 +67,7 @@ The cohomology class of this $E$-cocycle on $X \times B \Sigma_n$ is the $n$-th 
 
 On [[ordinary cohomology]] over a [[topological space]], the power operations are the [[Steenrod operations]];
 
-  Specifically for $n = 2$ and $E = H \mathbb{Z}_2$ then the second (symmetric) power of $a \in H(X,\mathbb{Z}_2)$ is an element in $H^\bullet(\mathbb{R}P^\infty \times X, \mathbb{Z}_2) \simeq H^\bullet(X,\mathbb{Z}_2)[x]$ and the [[coefficients]] of this [[polynomial]] in $x$ are the [[Steenrod operations]] on $a$.
+Specifically for $n = 2$ and $E = H \mathbb{Z}_2$ then the second (symmetric) power of $a \in H(X,\mathbb{Z}_2)$ is an element in $H^\bullet(\mathbb{R}P^\infty \times X, \mathbb{Z}_2) \simeq H^\bullet(X,\mathbb{Z}_2)[x]$ and the [[coefficients]] of this [[polynomial]] in $x$ are the [[Steenrod operations]] on $a$.
 
 For $p \gt 2$ there are the Steenrod power operations (e.g. [Rognes 12, around theorem 3.3](#Rognes12)).
 
