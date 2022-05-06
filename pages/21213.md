@@ -76,7 +76,7 @@ $$
   \end{aligned}
 $$
 
-([Nambu 57, (a)](#Nambu57), [FFHNR 67](#FFHNR67))
+([Nambu 57, (a)](#Nambu57), [FFHNR 67](#FFHNR67), [Dolinsky et al. 89, (5)](#Dolinsky89))
 
 ## Related concepts
 
@@ -125,6 +125,8 @@ On [[omega-meson]] [[decay modes]]:
 
 * W. Deinet A. Menzione H.Müller, H. M.Staudenmaier, S.Buniatov, D.Schmitt, _Neutral decay modes of the $\omega^0$-meson_, Physics Letters B
 Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10.1016/0370-2693(69)90479-1">doi:10.1016/0370-2693(69)90479-1</a>)
+
+* {#Dolinsky89} S. I. Dolinsky, et al., _Radiative Decays of $\rho$ and $\omega$ Mesons_, Z. Phys. C42 (1989) 511 ([spire:264694](http://inspirehep.net/record/264694), [doi:10.1007/BF01557655](https://doi.org/10.1007/BF01557655))
 
 * J. T. Dakin, M. G. Hauser, M. N. Kreisler, R. E. Mischke, _Measurement of the Branching Ratios for ω Neutral Decays_, Phys. Rev. D 6, 2321 (1972) ([doi:10.1103/PhysRevD.6.2321](https://doi.org/10.1103/PhysRevD.6.2321))
 
