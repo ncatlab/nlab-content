@@ -401,16 +401,21 @@ See also
 
 * Wikipedia, _[AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)_
 
-Review of [[lattice gauge theory]]-numerics:
+Review of [[Yangian]] symmetry:
 
+* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J. Phys. A44: 263001, 2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+
+### Lattice gauge theory computations
+
+Review of [[lattice gauge theory]]-numerics for the [[AdS-CFT correspondence]]:
 
 * {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_
 ([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
 
-Review of [[Yangian]] symmetry:
+Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the [[BMN matrix model]] for [[lattice gauge theory]]-computations in [[D=4 N=4 SYM]] and for numerical checks of the [[AdS-CFT correspondence]]:
 
+* {#HIKNT13} Masazumi Honda, Goro Ishiki, Sang-Woo Kim, Jun Nishimura, Asato Tsuchiya, _Direct test of the AdS/CFT correspondence by Monte Carlo studies of N=4 super Yang-Mills theory_, JHEP 1311 (2013) 200 ([arXiv:1308.3525](https://arxiv.org/abs/1308.3525))
 
-* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J. Phys. A44: 263001, 2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
 
 ### On single trace operators
 
