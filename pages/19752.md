@@ -45,3 +45,5 @@ $\,$
 * GroupProps, _[Linear representation theory of binary octahedral group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_binary_octahedral_group)_
 
 * [[James Montaldi]], _[Real representations -- Binary cubic -- 2O](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic#BinOct)_
+
+* Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
