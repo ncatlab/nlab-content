@@ -19,13 +19,7 @@
 
 ## Related concepts
 
-* [[Dp-D(p+4)-brane bound state]]
-
-  * [[D0-D4 brane bound state]]
-
-  * [[D1-D5 brane bound state]]
-
-  * [[D4-D8 brane bound state]]
+[[!include brane bound states -- table]]
 
 
 ## References
