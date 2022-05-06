@@ -12,6 +12,8 @@
 
   [[MP-theory|MP]], [[MR-theory|MR]]
 
+  [[MUFr]]
+
 * [[MSp]]
 
 * [[algebraic cobordism]]
