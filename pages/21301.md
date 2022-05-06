@@ -97,7 +97,9 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 
 ### Review
 
-Review (with emphasis on [[holographic light front QCD]]):
+Review (with emphasis [[holographic light front QCD]]):
+
+* [[Guy de Téramond]], _Superconformal and Supersymmetric Constraints to Hadron Masses in Light-Front Holographic QCD_, Trento 2017 ([[TeramondHadronSupersymmetry2017.pdf:file]])
 
 * {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
