@@ -27,7 +27,7 @@ The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set 
 
 The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for _new axioms_ of set theory. This position has been voiced famously in [G&#246;del (1947)](#Goedel47) from a [[platonism|platonist perspective]].
 
-[[William Lawvere|W. Lawvere]] in 2003 interpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of _Woodin_, $CH$ is actually conjectured to be false. [[Solomon Feferman|S. Feferman]] has argued more recently that $CH$ is essentially _mathematically indefinite_ and has made notions of 'indefiniteness' explicit that indeed enable to back this point of view with technical results (cf. [Feferman (2011)](#Feferman11)).
+[[William Lawvere|W. Lawvere]] in [2003](#Lawvere03) interpreted Cantor's original point of view as saying that $CH$ holds for 'sufficiently structureless' sets and, accordingly, viewed G&#246;del's 1938 result as a proof of $CH$, whereas in [[Patrick Dehornoy|P. Dehornoy]]'s 2003 reinterpretation based on work of _Woodin_, $CH$ is actually conjectured to be false. [[Solomon Feferman|S. Feferman]] has argued more recently that $CH$ is essentially _mathematically indefinite_ and has made notions of 'indefiniteness' explicit that indeed enable to back this point of view with technical results (cf. [Feferman (2011)](#Feferman11)).  Similarly, [[Joel David Hamkins]] has argued (cf. [Hamkins 2012](#Hamkins12)) that under the [[set-theoretic multiverse|multiverse]] view of set theory, $CH$ is settled by our extensive knowledge of models of set theory satisfying both $CH$ and $\neg CH$ which all seem fully set-theoretic, so that no principle implying either one can possibly be considered 'obviously true'.
 
 The attempt to give categorical accounts of the [[forcing]] methods introduced by Cohen provided a strong impetus in the development of (elementary) [[topos theory]] in the work of [[Peter Freyd|Freyd]], [[Miles Tierney|Tierney]], Lawvere and later Scedrov. The following exposition follows this categorical  approach.
 
@@ -180,11 +180,13 @@ On the other hand, the behavior of the power operation on [[regular cardinal|sin
 
 * {#Feferman11}[[Solomon Feferman]], _The Continuum Hypothesis is neither a definite mathematical problem nor a definite logical problem_ , Harvard lectures 2011. ([pdf](http://math.stanford.edu/~feferman/papers/CH_is_Indefinite.pdf))
 
+* {#Hamkins12} [[Joel David Hamkins]], *The set-theoretic multiverse*, Review of Symbolic Logic 5:416-449 (2012), [arxiv](https://arxiv.org/abs/1108.4223)
+
 * M.C. Fitting, _Intuitionistic Logic, Model Theory and Forcing_, North-Holland Amsterdam 1969. 
 
 * {#Goedel47}[[K. Gödel]], _What is Cantor's continuum problem?_ , Am. Math. Monthly **54** no. 9 (1947) pp.515-25. ([pdf](http://www.personal.psu.edu/ecb5/Courses/M475W/Readings/Week06-Sep30-IntoTheTwentiethCentury/01-WhatisCantorsContinuumProblembyKurtGodel.pdf))
 
-* [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
+* {#Lawvere03} [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (sections VI.2, VI.3)
 
