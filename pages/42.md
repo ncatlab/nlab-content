@@ -110,3 +110,9 @@ In this perspective picture number is an extra grading on [[differential forms o
 * C.A. Cremonini, [[Pietro Grassi]], S. Penati, _Supersymmetric Wilson Loops via Integral Forms_ ([arXiv:2003.01729](https://arxiv.org/abs/2003.01729))
 
   (for super-[[Wilson lines]])
+
+See also:
+
+* Sergio L. Cacciatori, Simone Noja, Riccardo Re, _The Unifying Double Complex on Supermanifolds_ ([https://arxiv.org/abs/2004.10906](https://arxiv.org/abs/2004.10906))
+
+
