@@ -146,7 +146,7 @@ h:R[t1,t2] \vdash c \Vdash C
 {c \Vdash C}
 \end{gathered}$$
 
-## Judgment-level reasoning
+## Judgment-level reasoning {#JudgReason}
 
 Reasoning at the judgment level using this logical framework is not as convenient as having a type checker for terms, or even as convenient as having a Nuprl-like proof refiner that extracts the realizers. But it's very straightforward and expressive. It can be used to prove derived rules, and other facts about derivability that aren't of the form to be rules. For example, you can show that adding a certain new rule would allow deriving a contradiction.
 
@@ -251,7 +251,7 @@ All but the last point also apply—via propositions-as-types—to a style of pa
 
 The last point—about respect for equality, except when dealing with elements of a particular type—seems very peculiar to PER semantics. You don't need PER semantics to get those other "Frege phenomena", and you don't need PER semantics to get implicit respect for extensional equality, but the way they interact in PER semantics is quite extraordinary.
 
-### "Non-negatable" Types
+### "Non-negatable" Types {#NonNegate}
 
 We have [seen](#DiffPresup) that just because a judgment form is representable as a type operation doesn't mean that that type operation gets you a valid type in all the situations you might want. In the most extreme case of this, the type is only meaningful when it's true. In other words, the type presupposes itself. Karl Crary [called](#KCThesis) these types "non-negatable", since they're intuitively either true or nonsense, never false. Assuming a non-negatable type with a type-level implication is guaranteed to be useless, since you must prove it in order to safely assume it.
 
@@ -495,6 +495,16 @@ This formulation based on a truth predicate is a close analogue of the formulati
 * Classical propositions represented as computations in Frege structures correspond to types represented as computations in CompLF.
 
 * The truth predicate ($T$) of this "truth theory" formulation expresses what we called [combined truth](#CombTruth). It thus corresponds (modulo propositions-as-types) to the typing judgment form ($\Vdash$) of CompLF. Rather than have a primitive "is a proposition" predicate, the truth theory uses ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$), which works in part due to classical logic. This corresponds to the type validity judgment form.
+
+Kahle's paper is very much about the representability of formulas as propositions in Frege structures, which corresponds to the representability of framework formulas as squashed types in CompLF [discussed above](#JudgReason). With Frege structures, there's a strong metatheorem about representability; Kahle calls it "Proposition 5". This allows representing any formula with only positive occurrences of $T$. By adding universes to Frege structures, Kahle stratifies the propositions, allowing for negative occurrences of combined truth for lower lever propositions. (TODO: Double check this.)
+
+(It seems that there's nothing as strong as Proposition 5 available for CompLF. For example, there doesn't seem to be a way to express disjunction of combined truth in CompLF. The disjunction available in CompLF is only a type when both disjuncts are. Frege structures have a "parallel or" that's (combined) true when either disjunct is.)
+
+Since proposition validity ($P(x)\;\coloneqq\;T(x) \vee T(\dot{\not} x)$) uses only positive occurrences of $T$, it's representable. Namely, ($T(\dot{\not}(\dot{\not} x \dot{\wedge} x)) \leftrightarrow (T(x) \vee T(\dot{\not} x))$). So with appropriate definitions of disjunction and implication for classical logic, the representation could also be ($x \dot{\vee} \dot{\not} x$) or ($x \dot{\to} x$). So the idea is essentially the same as representing [type validity](#TpOK) as a type in CompLF: use some tautology that mentions the thing that should be valid.
+
+In Frege structures, too, proposition validity is [non-negatable](#NonNegate). In Frege structures, this can be expressed quite clearly as $\not T(\dot{\not}(x \dot{\to} x))$. In Frege structures terminology, this is saying that ($x \dot{\to} x$) is "not false". It's either "true" (combined true) or not a proposition.
+
+So intuitively, the problem with representing negative occurrences of $T$ without stratification is that this allows assuming proposition validity in a proposition. But you can't, since proposition validity is non-negatable.
 
 ### Fitch-Scott Partial Logic
 
