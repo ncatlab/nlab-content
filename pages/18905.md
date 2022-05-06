@@ -177,7 +177,7 @@ A systematic development of Euclidean [[renormalization|renormalized]] [[perturb
 * {#Berghoff14b} [[Marko Berghoff]], _Wonderful compactifications in quantum field theory_,  Communications in Number Theory and Physics Volume 9 (2015) Number 3 ([arXiv:1411.5583](https://arxiv.org/abs/1411.5583))
 
 
-### Thermal quantum field theory:
+### Thermal quantum field theory
 
 A good introduction is in 
 
@@ -275,6 +275,10 @@ The expansion of thermal field theory around the [[infinite-temperature thermal 
 and specifically with an eye to discussion of the [[quark-gluon plasma]] in
 
 * {#BlaizotIancuRebhan03} Jean-Paul Blaizot, Edmond Iancu, Anton Rebhan, _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
+
+General discussion for [[QCD]]:
+
+* Jacopo Ghiglieri, Aleksi Kurkela, Michael Strickland, Aleksi Vuorinen, _Perturbative Thermal QCD: Formalism and Applications_ ([arXiv:2002.10188](https://arxiv.org/abs/2002.10188))
 
 
 See also
