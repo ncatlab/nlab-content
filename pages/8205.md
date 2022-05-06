@@ -29,7 +29,7 @@
 ## Idea
  {#Idea}
 
-Beyond the speculative hypothetized role of [[string theory]] as a physical theory of [[fundamental strings]] that constitute the observed [[fundamental particles]] in the [[standard model of particle physics]], the theory has shed light on many aspects of [[quantum field theory]] as such, both on the conceptual structure of QFT as well as on concrete theories and their concrete properties such as of. This entry lists such instances of string theory results having led to insights in non-stringy physics and in particular into experimentally confirmed physics, such as [[QCD]] in the [[standard model of particle physics]].
+Beyond the speculative hypothesized role of [[string theory]] as a physical theory of [[fundamental strings]] that constitute the observed [[fundamental particles]] in the [[standard model of particle physics]], the theory has shed light on many aspects of [[quantum field theory]] as such, both on the conceptual structure of QFT as well as on concrete theories and their concrete properties. This entry lists such instances of string theory results having led to insights in non-stringy physics and in particular into experimentally confirmed physics, such as [[QCD]] in the [[standard model of particle physics]].
 
 > Le plus court chemin entre deux v&#233;rit&#233;s dans le domaine r&#233;el passe par le domaine complexe. 
 
@@ -57,7 +57,7 @@ The [[worldline formalism]] for expressing QFT [[scattering amplitudes]] in an e
 
 Example:
 
-The first calculuation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)), where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
+The first calculation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)), where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
 
 * {#Nepomechie83} R.I. Nepomechie, _Remarks on quantized Yang-Mills theory in 26 dimensions_, Physics Letters B Volume 128, Issues 3–4, 25 August 1983, Pages 177-178 Phys. Lett. B128 (1983) 177 (<a href="https://doi.org/10.1016/0370-2693(83)90385-4">doi:10.1016/0370-2693(83)90385-4</a>)
 
