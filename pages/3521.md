@@ -22,7 +22,7 @@ It is a model for the [[path space object]] of $X$, --or rather: the union of al
 In the latter case an $n$-cell in the path space is a morphism to $X$ from the simplicial cone over the $n$-simplex modeled as the [[pushout]] $(\Delta[n] \times \Delta[1]) \coprod_{\Delta[n]} \Delta[0]$.
 This is the simplicial set obtained by forming the simplicial cylinder over $\Delta[n]$ and then contracting one end to the point. 
 
-Contrary to that, an $n$-simplex in the d&#233;calage of $X$ is a orphism to $X$ from the cone over $\Delta[n]$ modeled simply by the [[join of simplicial sets]] $\Delta[n] \star \Delta[0]$. 
+Contrary to that, an $n$-simplex in the d&#233;calage of $X$ is a morphism to $X$ from the cone over $\Delta[n]$ modeled simply by the [[join of simplicial sets]] $\Delta[n] \star \Delta[0]$. 
 
 This is a much smaller model for the cone. In fact $\Delta[n]\star \Delta[0] = \Delta[n+1]$ is just the $(n+1)$-simplex. On the other hand, the above pushout-construction produces simplicial sets with many $(n+1)$-simplices, the one that one "expects", but glued to others with some degenerate edges. Accordingly, there is, for $n \geq 1$, a proper inclusion
 
