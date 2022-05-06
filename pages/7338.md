@@ -13,6 +13,14 @@ On [[ADE-singularities]] in [[string theory]]:
 
 * [[Kenneth Intriligator]], _New String Theories in Six Dimensions via Branes at Orbifold Singularities_, Adv. Theor. Math. Phys.1:271-282, 1998 ([arXiv:hep-th/9708117](https://arxiv.org/abs/hep-th/9708117))
 
+On [[D=3 N=4 super Yang-Mills theories]] with [[compact hyperkähler manifold]] [[Coulomb branches]] obtained by [[KK-compactification]] of [[little string theories]]:
+
+* {#Intriligator99} [[Kenneth Intriligator]], _Compactified Little String Theories and Compact Moduli Spaces of Vacua_, Phys. Rev. D61:106005, 2000 ([arXiv:hep-th/9909219](https://arxiv.org/abs/hep-th/9909219))
+
+On the [[Hopf-Wess-Zumino term]] and the [[Whitehead integral formula]] for [[M5-branes]]:
+
+* {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, N=(2,0) Field Theories_, Nucl.Phys. B581 (2000) 257-273 ([arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205))
+
 
 ## Related $n$Lab entries
 
