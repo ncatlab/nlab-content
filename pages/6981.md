@@ -28,7 +28,7 @@
 | [[completely presented set]] | [[discrete object]]/[[0-truncated object]]    | [[h-level 2]]-[[type]]/[[preset]]/[[h-set]] |
 | [[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] |
 | [[universe]] | [[object classifier]] | [[type of types]] |
-| [[modality]] | [[closure operator]], ([[idempotent monad|idemponent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
+| [[modality]] | [[closure operator]], ([[idempotent monad|idempotent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
 | [[linear logic]] | ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]] |
 | [[proof net]] | [[string diagram]] | [[quantum circuit]] |
 | (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]] |
