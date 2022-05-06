@@ -1,4 +1,3 @@
-[[!redirects Dihedral group of order 6]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
