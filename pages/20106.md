@@ -48,6 +48,9 @@ See also
 
 [[flavour anomalies]]:
 
+* [[Belle collaboration]], _Measurement of the $\tau$ lepton polarization and $R(D^\ast)$ in the decay $\bar B \to D^\ast \tau^- \bar \nu_\tau$ with one-prong hadronic τ decays at Belle_ ([arXiv:1709.00129](https://arxiv.org/abs/1709.00129))
+
+
 * {#Adamczyk19} Karol Adamczyk, _Semitauonic B decays at Belle/Belle II_, Proceedings of the [10th International Workshop on the CKM Unitarity Triangle](https://ckm2018.physi.uni-heidelberg.de/) (CKM 2018), Heidelberg, Germany, September 17-21, 2018 ([arXiv:1901.06380](https://arxiv.org/abs/1901.06380))
 
 [[!redirects Belle]]
