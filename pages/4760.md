@@ -185,7 +185,9 @@ we have
 
 * [[nerve]]
 
-* **geometric nerve**
+* **geometric nerve of a bicategory**
+
+* [[geometric nerve of a tricategory]]
 
 * [[∞-nerve]]
 
