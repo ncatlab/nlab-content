@@ -47,9 +47,18 @@ $$
 $$
 That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open subspaces of $X$", and a **[[continuous map]]** $f\colon X \to Y$ of locales is a frame homomorphism $f^*\colon O(Y) \to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
-It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [[posets]] $f_*\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.  This has the arrow pointing in the "right" direction, at the cost of a less direct definition.  (In [[predicative mathematics]], we must explicitly add into this definition that $f_*$ has a left adjoint; compare the definition of [[geometric morphism]] one level up.)
+It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [[posets]] $f_*\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.  This has the arrow pointing in the "right" direction, at the cost of a less direct definition.  (In [[predicative mathematics]], we must explicitly add into this definition that $f_*$ has a left adjoint; compare the definition of [[geometric morphism]] one level up.) 
 
-This category is naturally enhanced to a [[2-category]]:
++-- {: .num_remark} 
+###### Remark 
+The map $f_\ast: O(X) \to O(Y)$ is of course *not* the "direct image" along $f$, rather it is a kind of dual to direct image, taking an open $u \in O(X)$ to the join 
+
+$$\bigvee_{v \in O(Y): f^\ast(v) \leq u} v$$ 
+
+For [[topological spaces]] in [[classical mathematics]], denoting the [[complementation]] operator by $\neg$ and the [[interior]] operator by $int$, we have $f_\ast(u) = int(\neg f(\neg u))$ where $f$ on the right denotes the ordinary set-theoretic direct image. 
+=--
+
+The category $Locale$ is naturally enhanced to a [[2-category]]:
 +-- {: .num_defn}
 ###### Definition
 
