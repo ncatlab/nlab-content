@@ -105,6 +105,8 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 ### In Chern-Simons theory
 
+See at [[perturbative quantization of 3d Chern-Simons theory]]/[[Vassiliev knot invariants]].
+
 Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
 
 * E. Guadagnini, _Surgery rules in quantum Chern-Simons field theory_, Nuclear Physics B
@@ -122,6 +124,10 @@ For more see
 
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
 
+
+In [[Chern-Simons theory as a topological string theory]]:
+
+* [[Hirosi Ooguri]], [[Cumrun Vafa]], _Knot Invariants and Topological Strings_, Nucl. Phys. B 577:419-438, 2000 ([arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123))
 
 [[!include Jones polynomial as Wilson loop observable -- references]]
 
