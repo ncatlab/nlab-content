@@ -83,7 +83,7 @@ and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravit
 #### In D$p$/D$(p+2)$-brane intersections
  {#ReferencesWeightSystemsInDpDp2BraneIntersections}
  
-Discussion of [[weight systems]] on [[chord diagrams]] as observables on the [[fuzzy funnel]]/[[fuzzy sphere]] [[non-commutative geometry]] of [[Dp-D(p+2)-brane intersections]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
+Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observables]] on the [[fuzzy funnel]]/[[fuzzy sphere]] [[non-commutative geometry]] of [[Dp-D(p+2)-brane intersections]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
 [[Yang-Mills monopoles]]):
 
 * [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
