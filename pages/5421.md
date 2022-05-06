@@ -1,13 +1,18 @@
-The notion of context-free grammar, now used in [[linguistics]], [[computer science]] and [[mathematics]], was introduced in the works of [[Noam Chomsky]]. 
 
+# Context-free grammar
 * table of contents
 {: toc}
+
+## Idea
+
+The notion of context-free grammar, now used in [[linguistics]], [[computer science]] and [[mathematics]], was introduced in the works of [[Noam Chomsky]]. 
+
 
 ## Definition
 
 We write $X + Y$ for the [[disjoint union]] of two sets and use vector notation and the Kleene star $\vec{v} \in X^\star$ to denote sequences in the [[free monoid]].
 
-A context-free grammar is a tuple $(\Sigma, N, R, s)$ where $\Sigma$ and $X$ are finite sets called the _vocabulary_ (also called the _terminals_) and the _non-terminals_ respectively, $R \subseteq X \times (X + \Sigma)^\star$ is a finite set of _production rules_ and $s \in X$ is called the _start symbol_.
+A context-free grammar is a tuple $(\Sigma, X, R, s)$ where $\Sigma$ and $X$ are finite sets called the _vocabulary_ (also called the _terminals_) and the _non-terminals_ respectively, $R \subseteq X \times (X + \Sigma)^\star$ is a finite set of _production rules_ and $s \in X$ is called the _start symbol_.
 
 The _language_ of a context-free grammar is given by $L(G) = \{ \vec{u} \in V^\star \vert s \to_R \vec{u} \}$ where the rewriting relation $(\to_R) \subseteq (V + X)^\star \times (V + X)^\star$ is traditionally defined as the transitive closure of the following directed graph:
 
@@ -27,6 +32,7 @@ That is, a string $\vec{u} \in \Sigma^\star$ is _grammatical_ whenever there exi
 Note that context-free grammar is weakly equivalent to [[Lambek|Lambek's]] [[pregroup grammar]] i.e. they generate the same class of languages, see:
 
 *  {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
+
 
 ## Early sources
 
