@@ -37,7 +37,9 @@ Similar Hopf terms can be considered in all dimensions $4k+2$ ([TN 89](#TN89)).
 
 ## References
 
-Hopf-Wess-Zumino terms in general are discussed in
+The general concept of Hopf-Wess-Zumino terms was considered in 
+
+* {#WilczekZee84} [[Frank Wilczek]] and [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. 51, 2250, 1983 ([doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250))
 
 * {#TN89} Hsiung Chia Tze, Soonkeon Nam, _Topological Phase Entanglements of Membrane Solitons in Division Algebra $\sigma$ Models With a Hopf Term_, Annals Phys. 193 (1989) 419-471 ([spire:25058](http://inspirehep.net/record/25058/), <a href="https://doi.org/10.1016/0003-4916(89)90005-5">doi:10.1016/0003-4916(89)90005-5</a>)
 
