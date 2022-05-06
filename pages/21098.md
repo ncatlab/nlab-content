@@ -56,7 +56,7 @@ Denote this object by $[A,B]_T$.
 (See [Brandenburg, Remark 6.4.1](#Brandenburg2014), as well as the original work [Kock '71, Section 2](#Kock71closed).)
 
 
-+-- {: .num_theorem #sealthms}
++-- {: .num_theorem}
 ###### Theorem
 ([Kock '71, Theorem 2.2](#Kock71closed))
 Let $C$ be a [[closed category]] with [[equalizers]], and $(T,\mu,\eta)$ a [[commutative monad]] on $C$. 
