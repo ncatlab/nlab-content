@@ -15,10 +15,18 @@ On [[orientifolds]] and [[RR-field tadpole cancellation]]
 
 * {#CveticShiuUranga01} [[Mirjam Cvetic]], [[Gary Shiu]], [[Angel Uranga]], _Chiral Four-Dimensional $N=1$ Supersymmetric Type IIA Orientifolds from Intersecting D6-Branes_, Nucl. Phys. B615:3-32,2001 ([arXiv:hep-th/0107166](http://arxiv.org/abs/hep-th/0107166))
 
+and with [[KO-theory]]-classification:
+
+* {#MaidenShiuStefanski06} John Maiden, [[Gary Shiu]], [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
+
 
 On [[intersecting D-brane models]] in [[string phenomenology]]:
 
 * {#BCLS05} [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, [[Gary Shiu]], _Towards Realistic Intersecting D-Brane Models_, Ann. Rev. Nucl. Part. Sci. 55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
+
+and with [[flux compactification]]:
+
+* {#MarchesanoShiu04} [[Fernando Marchesano]], [[Gary Shiu]], _Building MSSM Flux Vacua_, JHEP0411:041, 2004 ([arXiv:hep-th/0409132](https://arxiv.org/abs/hep-th/0409132))
 
 
 On [[MSSM]] model building:
