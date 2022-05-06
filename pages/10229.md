@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _meter_  or _metre_ (in European spelling) is a [[physical unit]] of [[length]].
+The _meter_  or _metre_ (in European spelling) is a [[physical unit]] of [[length]]. It is defined by taking the fixed numerical value of the speed of light in vacuum $c$ to be $299792458$ when expressed in the [[physical unit|unit]] $m\cdot s^{-1}$, where the [[second]] is previously defined.
 
 ## Related concepts
 
