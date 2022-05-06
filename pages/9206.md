@@ -32,6 +32,14 @@ $D = 5$ SYM may be regarded as the [[worldvolume]] field theory on the [[D4-bran
 
 For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]] [[fiber]], hence as [[worldvolume]] theory of the [[double dimensional reduction]] of the [[M5-brane]] (see also at [[Perry-Schwarz Lagrangian]]), see the references [below](#ReferencesRelationToD=6SCFT).
 
+## Related entries
+
+* [[D=4 super Yang-Mills theory]]
+
+* [[D=6 super Yang-Mills theory]]
+
+* [[D=10 super Yang-Mills theory]]
+
 ## References
 
 ### General 
@@ -41,6 +49,8 @@ For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circ
 * Arthur Hebecker, _5D Super Yang-Mills Theory in 4D Superspace, Superfield Brane Operators, and Applications to Orbifold GUTs_ ([arXiv:hep-ph/0112230](https://arxiv.org/abs/hep-ph/0112230))
 
 * [[Clay Cordova]], [[Daniel Jafferis]], _Five-Dimensional Maximally Supersymmetric Yang-Mills in Supergravity Backgrounds_ ([arXiv:1305.2886](https://arxiv.org/abs/1305.2886))
+
+* Shuichi Yokoyama, _Supersymmetry Algebra in Super Yang-Mills Theories_, JHEP09(2015)211 ([arXiv:1506.03522](https://arxiv.org/abs/1506.03522))
 
 * I.L. Buchbinder, E.A. Ivanov, I.B. Samsonov, _Low-energy effective action in $5D$, $\mathcal{N}=2$ supersymmetric gauge theory_, Nuclear Physics B
 Volume 940, March 2019, Pages 54-62 ([arXiv:1812.07206](https://arxiv.org/abs/1812.07206))
