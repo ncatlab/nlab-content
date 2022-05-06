@@ -361,6 +361,11 @@ Lecture notes on these articles are in
 
 * Ben Knudsen, Scott Slinker, Paul VanKoughnett, Brian Williams, and [[Dylan Wilson]], _Thom spectra reading course_ ([web](http://www.math.northwestern.edu/~bwill/thom/))
 
+Interpretation of the  [[algebraic K-theory]] $K(R)$ of a [[ring spectrum]] $R$ (see at _[[iterated algebraic K-theory]]_) as the [[Grothendieck group]] of [[(∞,1)-module bundles]] over $R$: 
+
+* [[John Lind]], _Bundles of spectra and algebraic K-theory_, Pacific J. Math. 285 (2016) 427-452 ([arXiv:1304.5676](https://arxiv.org/abs/1304.5676), [doi:10.2140/pjm.2016.285.427](https://doi.org/10.2140/pjm.2016.285.427))
+
+
 [[!redirects (∞,1)-vector bundle]]
 
 [[!redirects (infinity,1)-vector bundles]]
