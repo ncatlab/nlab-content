@@ -37,6 +37,18 @@
 
 Type I string theory is [[type II string theory]] on [[orientifold]] [[spacetimes]] (at [[O-planes]]).
 
+## Properties
+
+### Tadpole cancellation and $SO(32)$-GUT
+ {#TadpoleCancellationAndSO32GUT}
+
+For type I string theory on flat [[target spacetime]] [[orientifolds]] $\mathbb{R}^{9,1}$
+[[RR-field tadpole cancellation]] requires 32 [[D-branes]] to cancel the [[O-plane charge]] of -32 ([here](orientifold+plane#OPlaneChargeForFlatOrientifolds)).
+
+Discussion of type-i [[string phenomenology]] and [[grand unified theory]] based on $SO(32)$ type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
+
+
+
 ## Related concepts
 
 [[!include string theory and cohomology theory -- table]]
@@ -66,7 +78,22 @@ Related lecture notes / slides include
 
 * [[Daniel Freed]], _Dirac charge quantiation, K-theory, and orientifolds_, talk at a workshop _Mathematical methods in general relativity and quantum field theories_, November, 2009 ([pdf](http://www.ma.utexas.edu/users/dafr/paris_nt.pdf))
 
-* [[Greg Moore]], _The RR-charge of an orientifold_ ([ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
+* {#Moore10} [[Greg Moore]], _The RR-charge of an orientifold_, Oberwolfach talk 2010 ([pdf](https://www.physics.rutgers.edu/~gmoore/Oberwolfach_June2010_FINAL.pdf), [[MooreOrientifold2010.pdf:file]], [ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
+
+### Phenomenology
+ {#Phenomenology}
+
+Type I [[string phenomenology]] and discussion of [[GUT]]s based on $SO(32)$ type I strings:
+
+* {#MMRB86} H.S. Mani, A. Mukherjee, R. Ramachandran, A.P. Balachandran, _Embedding of $SU(5)$ GUT in $SO(32)$ superstring theories_, Nuclear Physics B Volume 263, Issues 3–4, 27 January 1986, Pages 621-628 (<a href="https://doi.org/10.1016/0550-3213(86)90277-4">arXiv:10.1016/0550-3213(86)90277-4</a>)
+
+* {#IbanezMunozRigolin98} [[Luis Ibáñez]], C. Muñoz, S. Rigolin, _Aspects of Type I String Phenomenology_, Nucl.Phys. B553 (1999) 43-80 ([arXiv:hep-ph/9812397](https://arxiv.org/abs/hep-ph/9812397))
+
+* {#Dudas00} Emilian Dudas, _Theory and Phenomenology of Type I strings and M-theory_, Class. Quant. Grav.17:R41-R116, 2000 ([arXiv:hep-ph/0006190](https://arxiv.org/abs/hep-ph/0006190))
+
+
+* {#Yamatsu17} Naoki Yamatsu, _String-Inspired Special Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2017, Issue 10, 1  ([arXiv:1708.02078](https://arxiv.org/abs/1708.02078), [doi:10.1093/ptep/ptx135](https://doi.org/10.1093/ptep/ptx135))
+
 
 ### Duality
 
