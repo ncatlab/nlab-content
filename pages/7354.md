@@ -76,6 +76,10 @@ string-QFT duality
 
 * [[AdS/QCD correspondence]]
 
+### QFT-QFT duality
+
+* [[3d-3d correspondence]]
+
 ## Overview 
  {#Overview}
 
