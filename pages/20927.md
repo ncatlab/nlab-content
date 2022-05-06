@@ -506,7 +506,7 @@ From here on a myriad of references followed up. Review includes:
 
 The full generalized axioms on the M2-brane 3-algebra and first insights into their relation to [[Lie algebra representations]] of [[metric Lie algebras]] is due to
 
-* {#CherkisSaemann08} [[Sergey Cherkis]], [[Christian Saemann]], _Multiple M2-branes and Generalized 3-Lie algebras_, Phys. Rev. D78:066019, 2008 ([arXiv:0807.0808](https://arxiv.org/abs/0807.0808))
+* {#CherkisSaemann08} [[Sergey Cherkis]], [[Christian Saemann]], Section 4 of: _Multiple M2-branes and Generalized 3-Lie algebras_, Phys. Rev. D78:066019, 2008 ([arXiv:0807.0808](https://arxiv.org/abs/0807.0808))
 
 The full identification of M2-brane 3-algebras with dualizable [[Lie algebra representations]] over [[metric Lie algebras]] is due to
 
