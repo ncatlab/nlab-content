@@ -205,7 +205,7 @@ The Simons-Sullivan model is due to
 
 The basic article for the Bunke-Schick model is
 
-* {#BunkeSchickReferences} [[Ulrich Bunke]], [[Thomas Schick]], _Smooth K-Theory_ ([arXiv:0707.0046](http://arxiv.org/abs/0707.0046))
+* {#BunkeSchickReferences} [[Ulrich Bunke]], [[Thomas Schick]], _Smooth K-Theory_, Astérisque 328 (2009), 45-135 ([arXiv:0707.0046](http://arxiv.org/abs/0707.0046), [numdam:AST_2009__328__45_0](http://www.numdam.org/item/?id=AST_2009__328__45_0))
 
 A survey talk is
 
