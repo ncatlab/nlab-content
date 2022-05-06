@@ -221,6 +221,13 @@ See also
 [[!include WZW term of QCD chiral perturbation theory -- references]]
 
 
+### Inclusion of baryons
+
+Explicit inclusion of [[baryons]]:
+
+* Elizabeth Jenkins, Aneesh V. Manohar, _Baryon chiral perturbation theory using a heavy fermion lagrangian_, Physics Letters B Volume 255, Issue 4, 21 February 1991, Pages 558-562 (<a href="https://doi.org/10.1016/0370-2693(91)90266-S">doi:10.1016/0370-2693(91)90266-S</a>)
+
+
 
 ### Inclusion of leptons
 
