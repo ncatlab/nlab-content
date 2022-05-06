@@ -3,12 +3,14 @@
 The X-ray transform is the operator
 $$Xf(l) := \int_l f\,d\lambda(x),$$
 where $l\subset\mathbb{R}^n$ is a line, and $\lambda$ the Lebesgue measure on the line. The manifold $M_n$ can be represented as
-$$M_n = \{(\sigma, x)\in S^{n-1}\times\mathbb{R}^n \mid \langle x,\omega\rangle = 0\},$$
-where $(\sigma,x)$ represents a line that passes through $x$ with direction $\sigma$. It is an open problem to determine the exponents $1\le p,q,r\le\infty$ for which the following inequality holds:
+$$
+M_n = \{(\sigma, x)\in \mathbb{P}^{n-1}\times\mathbb{R}^n \mid \langle x,\sigma\rangle = 0\};
+$$
+here $\mathbb{P} := S^{n-1}/\{\pm\}$ is the space of lines in $\mathbb{R}^n$ that pass through the origin, and $(\sigma,x)$ represents a line that passes through $x$ with direction $\sigma$. We endow $M_n$ with a measure $\mu$ invariant under rigid motions. It is an open problem to determine the exponents $1\le p,q,r\le\infty$ for which the following inequality holds:
 $$
 \left\Vert Xf\right\Vert_{L^q(\sigma\mapsto L^r_x(\mathbb{R}^{n-1}))} \le C\left\Vert f\right\Vert_{L^p(\mathbb{R}^n)}.
 $$
-For brevity we will write $L^q_\omega L^r_x := L^q(\sigma\mapsto L^r_x(\mathbb{R}^{n-1}))$.
+For brevity we will write $L^q_\sigma L^r_x := L^q(\sigma\mapsto L^r_x(\mathbb{R}^{n-1}))$.
 
 We can write the X-ray transform of a function $f\in C_c^\infty(\mathbb{R}^n)$ as
 $$
@@ -24,7 +26,7 @@ here $\delta_{\{x\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\m
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Drury's $\frac{n+1}{2}$-Point)
+**(Drury's $L^{\frac{n+1}{2},1}\to L^{n+1,\infty}$ Inclusion)
 
 If $E\subset \mathbb{R}^n$ is a measurable set, and $1_E$ is the characteristic function of $E$, then
 \[
@@ -53,7 +55,7 @@ $$
 \label{eqProofDruryLowerBush}
 \lambda\vert F\vert \le \int_F Xf\,d\mu = \int fX^*1_F \,dx \le \left\Vert X^*1_F\right\Vert_\infty\left\Vert f\right\Vert_1.
 $$
-This established a lower bound for $\left\Vert X^*1_F\right\Vert_\infty$, and we will get now an upper bound.
+This establishes a lower bound for $\left\Vert X^*1_F\right\Vert_\infty$, and we will get now an upper bound.
 
 Choose a point $x_0$ such that $X^*1_F(x_0)\ge \frac{1}{2}\left\Vert X^*1_F\right\Vert_\infty$ ---$x_0$ is the center of the _Bourgain's bush_. By translation symmetry we can assume that $x_0 = 0$. If $\delta_0$ is the Dirac delta centered at the origin, then
 $$
