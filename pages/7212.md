@@ -43,4 +43,6 @@ theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv
 
 * [[U-duality]]
 
+* [[exceptional generalized geometry]]
+
 category: people
