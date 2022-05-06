@@ -26,6 +26,10 @@ Freed's work revolves around the mathematical ingredients and foundations of mod
 
 ## Selected writings
 
+On [[instantons]] and [[4-manifolds]]:
+
+* [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
+
 On [[quantum anomalies]] via [[index theory]]:
 
 * [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families. I. Metrics and connections on determinant bundles_ , Comm. Math. Phys. 106 (1986), no. 1, 159&#8211;176 ([doi:10.1007/BF01210930](https://doi.org/10.1007/BF01210930), [euclid:1104115586](https://projecteuclid.org/euclid.cmp/1104115586))
