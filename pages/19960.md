@@ -22,6 +22,8 @@
 
 ## Idea
 
+[[geometric engineering of QFT|geometric engineering]] of [[QCD]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]]
+
 The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, away from these special points in field theory space the correspondence does not completely break down, but continues to apply in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
 
 Notably [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type [[duality in string theory|dual]] [[supergravity]]-[[observables]].
@@ -108,6 +110,10 @@ For review see [Sugimoto 16](#Sugimoto16), also [Rebhan 14, around (18)](#Rebhan
 </center>
 
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
+
+
+Equivalently, these baryon states are the [[Yang-Mills instantons]] on the [[D8-brane]] giving the [[D4-D8 brane bound state]] ([Sakai-Sugimoto 04, 5.7](#SakaiSugimoto04)) as a special case of the general situation for [[Dp-D(p+4)-brane bound states]] (e.g. [Tong 05, 1.4](Dp-D(p+4)-brane bound state#Tong05)).
+
 
 This already produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
 
