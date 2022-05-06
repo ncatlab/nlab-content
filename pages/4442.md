@@ -304,6 +304,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[p-adic AdS-CFT]]
 
+* [[dS/CFT correspondence]]
+
 [[!include table of branes]]
 
 \linebreak
