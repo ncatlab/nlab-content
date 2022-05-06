@@ -854,9 +854,12 @@ A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie gro
 
 * [[equivariant ordinary differential cohomology]]
 
+* [[equivariant PL de Rham complex]], [[equivariant PL de Rham theorem]]
+
 * [[gauged WZW model]]
 
 * [[action Lie algebroid]], [[BRST complex]]
+
 
 ## References
   {#References}
