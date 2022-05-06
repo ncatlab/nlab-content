@@ -93,7 +93,7 @@ fibration" should be defined using right homot equivs.
 ### From univalence
  {#FromUnivalenceReferences}
 
-The argument that adding [[univalence]] (plus universe resizing) to [[Martin-Löf type theory]] implies the existence of quotient types is attributed to Voevodsky in places like here: [pdf, slides 41 & 61](http://benedikt-ahrens.de/talks/IRIT_slides.pdf).
+The argument that adding [[univalence]] (plus universe resizing) to [[Martin-Löf type theory]] implies the existence of quotient types is attributed to Voevodsky in places like here: [pdf, slides 41 & 61](http://benediktahrens.net/talks/IRIT_slides.pdf).
   
 Voevodsky's own account of this seems to be entirely in his Coq-code repository here:
 
