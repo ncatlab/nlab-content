@@ -28,7 +28,9 @@ The idea of eternal cosmic inflation has been argued to provide a possible way t
 
 For more on this see at _[[multiverse]]_.
 
+## Related concepts
 
+* [[false vacuum eternal inflation]]
 
 ## References
 
