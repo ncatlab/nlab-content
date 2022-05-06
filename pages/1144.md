@@ -548,7 +548,7 @@ for $(A,d) \in dgcAlg_{\geq 0}$ any [[dgc-algebra]]  and for $V$ some [[graded v
 
 1. there is a [[well ordered set]] $J$ indexing a [[linear basis]] $\{v_\alpha \in V| \alpha \in J\}$ of $V$;
 
-1. writing $V_{\lt \beta} \coloneqq span(v_\alpha | \alpha \lt \beta)$ then for all basis elements $v_\beta$ we have that
+1. writing $V_{\lt \beta} \coloneqq span(v_\alpha | \alpha \lt \beta)$ we have for all basis elements $v_\beta$ that
 
   $$
     d' v_\beta \in A \otimes \wedge^\bullet V_{\lt \beta}
