@@ -43,7 +43,22 @@ We then define simultaneously the following [[predicates]], where $a,b,A$ are [[
 
 The definition is by [[induction-recursion]].  We define the property "$A$ is a type" *inductively*, and simultaneously we define *recursively* two functions on such $A$, one giving the collection of terms of type $A$, and the other giving the collection of pairs of terms considered equal as elements of $A$.  Note that each such collection may itself be a prior inductive definition.
 
-The clauses which we include in each case depend on what type constructors we want to put into our type theory; in each case the base notion of untyped computation must include corresponding operators.  Here are three paradigmatic examples.
+The definition is intended to satisfy some properties:
+
+* Equality:
+  * $a:A$ if and only if $a=a:A$. (Reflexivity)
+  * If $a=b:A$ then $b=a:A$. (Symmetry)
+  * If $a=b:A$ and $b=c:A$ then $a=c:A$. (Transitivity)
+
+* Reverse reduction:
+  * If $V\;type$ and $A \Rightarrow V$ then $A\;type$.
+  * The other judgment forms similarly respect reverse reduction in all positions.
+
+By reflexivity, the specification of which terms have a type is technically redundant. It is just reiterating the reflexivity instances of equality. So for this meaning explanation, the recursive part of the definition is assigning types their meaning as [[partial equivalence relations]] (PERs) on terms.
+
+The reverse reduction properties are saying that the relevant information about a term comes from the value it reduces to. Meaning explanations provide a sense in which type theory is about computational behavior. For this system, the computational behavior of a term is to return a value. Note however that not all terms reduce to a value, for example, the $\Omega$ combinator: $(\lambda x.x\,x) (\lambda x.x\,x)$.
+
+The clauses we should include in the inductive-recursive definition depend on what type constructors we want to put into our type theory; in each case the base notion of untyped computation must include corresponding operators.  Here are three paradigmatic examples.
 
 ### Natural numbers
 
