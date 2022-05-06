@@ -31,6 +31,7 @@ On [[intersecting brane|coincident]] [[D-branes]], where one expects [[gauge enh
 A widely used proposal is due to [Tseytlin 97](#Tseytlin97), [Myers 99](#Myers99), but a derivation from [[string theory]] of this non-abelian DBI action is lacking; and it is in fact known to be in conflict, beyond the first few orders of correction terms, with effects argued elsewhere in the string theory literature ([Hashimoto-Taylor 97](#HashimotoTaylor97), [Bain 99](#Bain99), [Bergshoeff-Bilal-Roo-Sevrin 01](#BergshoeffBilalRooSevrin01)). The issue remains open.
 
 ## Definition
+ {#Definition}
 
 In the simplest situation of flat 4-dimensonal [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and no other [[field (physics)|fields]] besides that of [[electromagnetism]], encoded in a [[Faraday tensor]] [[differential 2-form]]
 
@@ -82,6 +83,7 @@ $$
   \,.
 $$
 
+
 +-- {: .num_lemma}
 ###### Lemma
 
@@ -92,9 +94,33 @@ $$
   \;=\;
   - 1 
   +  
- \tfrac{1}{6} (F \wedge \star F) / dvol 
+ \tfrac{1}{6} 
+ \underset{
+   \mathclap{
+   {\color{blue}\text{Lagrangian of}}
+   \atop
+   {\color{blue}\text{elecromagnetism}}   
+   }
+ }{
+   \underbrace{
+     (F \wedge \star F) 
+  }
+  }
+  / dvol 
   +
- ( (F\wedge F) / \mathrm{dvol} )^2
+    \underset{
+      {\color{blue}\text{correction}}
+      \atop
+      {\color{blue}\text{term}}
+    }{
+    \underbrace{
+      \big( 
+        4! 
+        (F\wedge F) 
+        / \mathrm{dvol} 
+      \big)^2
+    }
+    }
   \,,
 $$
 
@@ -196,7 +222,7 @@ $$
   &
   \phantom{\; =} +
   \underset{
-    = (F \wedge F  / \mathrm{dvol})^2
+    = ( 4! (F \wedge F)  / \mathrm{dvol})^2
   }{
   \underbrace{
   \tfrac{1}{4!}
@@ -215,21 +241,104 @@ $$
   \tfrac{1}{6} (F \wedge \star F) / \mathrm{dvol}
     +
   \big( 
-    (F\wedge F) / \mathrm{dvol}
+    4! (F\wedge F) / \mathrm{dvol}
   \big)^2
   \end{aligned}
 $$
 
 In the first line we used the expression of the [[determinant]] via the [[Levi-Civita symbol]] ([here](determinant#eq:DeterminantInTermsOfLCSymbols)) with the [[Einstein summation convention]] being understood throughout.
-Then we multiplied out the terms, collecting those with the same number of factors of $\eta$ (of $F$) using that under exchange of the order of factors both [[Levi-Civita symbols]] give a sign, which hence cancel. Of the four terms that appear, the first and the last are themselves the plain [[determinants]] of $\eta$ and of $F$, respectively. 
+Then we multiplied out the terms, collecting those with the same number of factors of $\eta$ (of $F$), using that under exchange of the order of factors both [[Levi-Civita symbols]] give a sign, which hence cancel. Of the five terms that appear, the first and the last are themselves the plain [[determinants]] of $\eta$ and of $F$, respectively (again by [that formula](determinant#eq:DeterminantInTermsOfLCSymbols)).
 
 We discuss the identifications of the resulting four summands shown under the braces:
 
-* (first summand) The determining of $\eta$ equals -1 by definition.
+* (first summand) The determinant of $\eta$ equals -1 by definition.
 
-* (second summand) If we exchange indices $(a_i \leftrightarerow b_i)$ the form of this summand remains unchanged, also the factors $\eta_{a_i b_i}$ do not change, since $\eta$ is a [[symmetric matrix]], by definition. But the single factor of $F$ changes by a sign, since the components of a [[differential 2-form]] constitute a [[skew-symmetric matrix]]. In summary this says that the second terms is equal to minus itself, and hence has to be [[zero]].
+* (second summand) If we exchange indices $(a_i \leftrightarrow b_i)$ the form of this summand remains unchanged, also the factors $\eta_{a_i b_i}$ do not change, since $\eta$ is a [[symmetric matrix]], by definition. But the single factor of $F$ changes by a sign, since the components of a [[differential 2-form]] constitute a [[skew-symmetric matrix]]. In summary this says that the second term is equal to minus itself, and hence has to be [[zero]].
 
-* (third summand) ...
+* (third summand) Consider this term first with $\eta$ relaced by the [[identity matrix]] (to be indicated by a [[Kronecker delta]] $(\delta_{a b})$). Observe then that the contraction not involving any factor of $F$ yields
+
+  $$
+    \epsilon^{a_1 a_2 a_3 a_4} 
+      \delta_{a_1 b_1} \delta_{a_2 b_2}
+    \epsilon^{b_1 b_2 b_3 b_4}
+    \;=\;
+    2 \delta^{a_3 a_4}_{b_3 b_4}
+    \,,
+  $$
+
+  where the symbol on the right is defined to be
+
+  \[
+    \label{TheRelativeLCTensor}
+    \delta^{a_3 a_4}_{b_3 b_4}
+    \;\coloneqq\;
+    \left\lbrace
+    \array{
+      +1 &\vert& a_3 \neq a_4 \;\text{and}\; a_3 = b_3 \;\text{and}\; a_4 = b_4
+      \\
+      -1 &\vert& a_3 \neq a_4 \;\text{and}\; a_3 = b_4 \;\text{and}\; a_4 = b_3
+      \\
+      \phantom{+}0 &\vert& \text{otherwise}      
+    }
+    \right.
+  \]
+
+  Hence the full expression (with $\eta$ still replaced by $\delta$) is
+
+  $$
+    \tfrac{2\cdot 2}{4!} 
+    \delta^{a_3 a_4}_{b_3 b_4} 
+    F_{a_3 b_3} F_{a_4 b_4}
+    \;=\;
+    - \sum_{a, b} F_{a b} F_{a b}
+  $$
+
+  where we used that due to the [[skew-symmetric matrix|skew-symmetry]] of $F$ the first case in (eq:TheRelativeLCTensor) does not contribute, only the second case does.
+
+  Now it just remains to translate this back to the situation at hand where we use $\eta$ instead of $\delta$: This just differs by a minus sign in the component with both indices corresponding to the temporal direction, while this is also the case for which raising an index on $F$ picks up a minus sign. Since _either_ of these cases contributes in each summand, there is a global minus sign.
+
+ 
+* (fourth summand) Since this involves three factors of $F$ which jointly pick up one minus sign when the indices on each of them are exchanged simultaneously, this vanishes by the same kind of skew-symmetry argument as for the second term.
+
+* (fifth summand) Since this is the [[determinant]] of a [[skew-symmetric matrix]], the [[Pfaffian]]-theorem ([here](Pfaffian#eq:DeterminantIsPfaffianSquared)) says that this term equals the square of the [[Pfaffian]] of $F$, which is (by [this](Pfaffian#eq:PfaffianInTermsOfLCTensor) formula)
+
+  $$
+    Pf(F)
+    \;=\;
+    \tfrac{1}{4 \cdot 4!}
+    \epsilon^{a_1 b_1 a_2 b_2} F_{a_1 b_1} F_{a_2 b_2}
+  $$
+
+  This is proportial to the coefficient of the [[wedge product]]
+  of $F$ with itself, relative to the [[volume form]]:
+
+  $$
+    \begin{aligned}
+      F \wedge F
+      & = \;
+      \big(
+        \tfrac{1}{2}F_{a_1 b_1} d x^{a_1} \wedge d x^{b_1}
+      \big)
+      \wedge
+      \big(
+        \tfrac{1}{2}F_{a_2 b_2} d x^{a_2} \wedge d x^{b_2}
+      \big)
+      \\
+      & = \;
+      \tfrac{1}{4} F_{a_1 b_1} F_{a_2 b_2} d x^{a_1} \wedge d x^{b_1} \wedge d x^{a_2} \wedge d x^{b_2}
+      \\
+      & = \;
+      \tfrac{1}{4} F_{a_1 b_1} F_{a_2 b_2} 
+      \epsilon^{a_1 b_1 a_2 b_2}
+      \,
+      dvol   
+      \\
+      & = 
+      4! Pf(F)
+      \,
+      dvol   
+    \end{aligned}
+  $$
 
 =--
 
