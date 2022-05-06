@@ -434,13 +434,18 @@ The concept goes back to
 
 Non-compact $G_2$-manifolds were first  constructed in
 
-* [[Robert Bryant]], ; S.M. Salamon,  (1989), _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850.
+* [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
 
-[[compact topological space|Compact]] $G_2$-manifolds were first found in 
+[[compact topological space|Compact]] $\,G_2$-manifolds were first found in 
 
-* {#Joyce96}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2, 1996 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
+* {#Joyce96}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2, 1996 ([Euclid:jdg/1214458109](https://projecteuclid.org/euclid.jdg/1214458109))
  
 * {#Joyce00} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+
+Review in 
+
+* [[Dominic Joyce]], _Compact Riemannian manifolds with exceptional holonomy_, Surveys in Differential Geometry
+Volume 6 (2001) ([doi:10.4310/SDG.2001.v6.n1.a3](https://dx.doi.org/10.4310/SDG.2001.v6.n1.a3))
 
 The sufficiency of spin structure for $G_2$-structure is due to
 
@@ -452,7 +457,7 @@ and the [[compact twisted connected sum G2-manifolds]] due to
 
 Review includes
 
-* {#Klemm17} [[Albrecht Klemm]], _Effective Action from M-theory ontwisted connected sums_, talk at Ascona Monte Verita, 6 July 2017 ([pdf](http://conf.itp.phys.ethz.ch/string17/talks/Klemm.pdf))
+* {#Klemm17} [[Albrecht Klemm]], _Effective Action from M-theory on twisted connected sums_, talk at Ascona Monte Verita, 6 July 2017 ([pdf](http://conf.itp.phys.ethz.ch/string17/talks/Klemm.pdf))
 
 More compact examples are constructed in 
 
