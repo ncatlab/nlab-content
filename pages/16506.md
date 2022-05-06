@@ -35,7 +35,7 @@ In the context of [[monads in computer science]] this monad is called the _reade
 
 ### Algebras
 
-The reader monad does not generally arise from a [[monadic adjunction]]. [[algebra over a monad|Algebras]] may not be easily characterizable. When $W$ is a 2 element set, algebras correspond to [[idempotent]] [[semigroups]], also known as _rectangular bands_.
+The reader monad does not generally arise from a [[monadic adjunction]]. [[algebra over a monad|Algebras]] may not be easily characterizable. When $W$ is a 2 element set, algebras correspond to [[idempotent]] [[semigroups]], also known as _[[rectangular band|rectangular bands]]_.
 
 ### Relation to the writer comonad and state monad
 
