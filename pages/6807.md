@@ -91,7 +91,7 @@ The original articles are
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_,  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
 
-* [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:https://arxiv.org/abs/hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
+* [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
 
 * {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv. Theor. Math. Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
 
