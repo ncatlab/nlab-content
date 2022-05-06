@@ -270,6 +270,8 @@ Textbook accounts:
 
 * [[David Jackson]], [[Iain Moffat]], _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
+* {#Lescop20} [[Christine Lescop]], _Invariants of links and 3-manifolds from graph configurations_ ([arXiv:2001.09929](https://arxiv.org/abs/2001.09929))
+
 
 Further review:
 
