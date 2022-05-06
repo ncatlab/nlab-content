@@ -99,6 +99,12 @@ See _[[ekpyrotic cosmology]]_.
 
 * Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arXiv:1902.03951](https://arxiv.org/abs/1902.03951))
 
+With emphasis on the [[Schwinger effect]]:
+
+* Jerome Martin, _Inflationary Perturbations: the Cosmological Schwinger Effect_, Lect. Notes Phys. 738:193-241, 2008 ([arXiv:0704.3540](https://arxiv.org/abs/0704.3540), [doi:10.1007/978-3-540-74353-8_6](https://doi.org/10.1007/978-3-540-74353-8_6))
+
+See also:
+
 * Wikipedia, _[Inflation (cosmology)](http://en.wikipedia.org/wiki/Inflation_%28cosmology%29)_
 
 ### Original articles
