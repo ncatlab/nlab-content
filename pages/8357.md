@@ -52,5 +52,11 @@ The [[LHCb]] experiment on [[B-meson]] decays (see also at _[[flavour anomaly]]_
 
 * [lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html)
 
+Outlook on results such as [[flavour anomalies]], search for [[leptoquarks]] etc.
+
+* [[Salvatore Rappoccio]], _The experimental status of direct searches for exotic physics beyond the standard model at the Large Hadron Collider_, Reviews in Physics 4 (2019) 100027 ([arXiv:1810.10579](https://arxiv.org/abs/1810.10579))
+
 [[!redirects Large Hadron Collider]]
+
+[[!redirects ATLAS collaboration]]
 
