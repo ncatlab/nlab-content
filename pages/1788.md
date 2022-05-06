@@ -1,110 +1,130 @@
 
-#### At a $2 I$-orientifold singularity
-  {#At2ISingularity}
-
-For $G = 2 I$ the [[binary icosahedral group]] (whose [[order of a group|order]] is ${\vert 2I \vert} = 120$), the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.10](#BurtonSatiSchreiber18)):
-
-| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ | $\left[\langle g_7\rangle\right]$ | $\left[\langle g_78\rangle\right]$ |
-|--|--|--|--|--|--|--|--|--|--|
-| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
-| $\chi_{V_2} =$ | $\phantom{-}4$ |  $\phantom{-}4$ |  $\phantom{-}1$ | $\phantom{-}0$ |  $-1$ | $-1$ | $\phantom{-}1$ | $-1$ | $-1$ |
-| $\chi_{V_3} =$ | $\phantom{-}5$ |  $\phantom{-}5$ |  $-1$ | $\phantom{-}1$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-1$ | $\phantom{-}0$ | $\phantom{-}0$ |
-| $\chi_{V_4} =$ | $\phantom{-}6$ |  $\phantom{-}6$ |  $\phantom{-}0$ | $-2$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}0$ | $\phantom{-}1$ | $\phantom{-}1$ |
-| $\chi_{V_5} =$ | $\phantom{-1}\mathllap{12}$ |  $\phantom{-1}\mathllap{-12}$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}2$ | $\phantom{-}2$ | $\phantom{-}0$ | $-2$ | $-2$ |
-| $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $-2$ | $-2$ | $-2$ | $\phantom{-}2$ | $\phantom{-}2$ |
-| $\chi_{V_7} =$ | $\phantom{-}8$ |  $-8$ |  $-4$ | $\phantom{-}0$ |  $-2$ | $-2$ | $\phantom{-}4$ | $\phantom{-}2$ | $\phantom{-}2$ |
 
 
-One sees by not so immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
++-- {: .num_example #ASimpleExample}
+###### Example
+**(equivariant degree-1 Cohomotopy of the circle)**
+
+Let $G = \mathbb{Z}_2$ be the [[cyclic group]] of [[order of a group|order]] 2. Consider the [[circle]] 
 
 $$
-  V 
-  \;=\;
-  n
-  \Big(
-    1 \cdot V_1
-    + 
-    4 \cdot V_2
-    + 
-    5 \cdot V_3
-    + 
-    3 \cdot V_4
-    + 
-    3 \cdot V_5 
-    + 
-    2 \cdot V_6 
-    + 
-    1 \cdot V_7 
-  \Big)
-  \,,
-  \phantom{AAA}
-  n \in \mathbb{Z}
+  S^1 
+  \simeq 
+  S(\mathbb{R}^2)
+$$ 
+
+equipped with the $\mathbb{Z}_2$-[[action]] whose [[involution]] element $\sigma$ [[reflection|reflects]] one of the two [[coordinate functions|coordinates]] of the ambient [[Cartesian space]] 
+
+$$
+  \sigma \;\colon\; (x_1,x_2) \mapsto (x_1, -x_2)
+  \,.
 $$
 
+Equivalently, if we identify 
 
-whose minimal [[positive number|positive]] [[mass]] (net brane number) is
+\[
+  \label{CircleAsQuaotientOfRByZ}
+  S^1
+  \;\simeq\;
+  \mathbb{R}/\mathbb{Z}
+\]
+
+then the involution action is
 
 $$
   \begin{aligned}
-    M_{2I}
-      & =
-    dim(V) 
+    \sigma
+    \;\colon\;
+    t 
+    \mapsto
+    &
+    \phantom{\sim}
+    1 - t 
     \\
-      & =
-    \chi_V([\langle e\rangle]) 
-    \\
-      & =
-      1 \cdot 1
-      + 
-      4 \cdot 4
-      + 
-      5 \cdot 5
-      + 
-      3 \cdot 6
-      + 
-      3 \cdot 12
-      + 
-      2 \cdot 8
-      + 
-      1 \cdot 8
-      \\
-      & 
-      =
-      120
-  \end{aligned}
+    & \sim
+    \phantom{1} - t
+  \end{aligned} 
+  \,.
 $$
+
+This means that the [[fixed point space]] is the [[0-sphere]]
+
+$$
+  \big( S^1\big)^{\mathbb{Z}_2}
+  \;\simeq\;
+  S^0
+$$
+
+being two antipodal points on the circle, which in the presentation (eq:CircleAsQuaotientOfRByZ) are labeled $\{0,1/2\} \simeq S^0$.
+
+Notice that the map
+
+$$
+  \array{
+    S^1 &\overset{n}{\longrightarrow}& S^1
+    \\
+    t &\mapsto& n\cdot t
+  }
+$$
+
+of constant parameter speed and [[winding number]] $n \in \mathbb{N}$ is equivariant for this $\mathbb{Z}_2$-[[action]] on both sides:
+
+\begin{center}
+\begin{xymatrix}
+  t 
+    \ar@{|->}[r] 
+    \ar@{|->}[d]_{\sigma}
+    & 
+  n\cdot t
+    \ar@{|->}[d]^{\sigma}
+  \\
+  -t 
+    \ar@{|->}[r] 
+    & 
+  -n \cdot t
+\end{xymatrix}
+\end{center}
+
+Take this circle to be both the [[domain]] space $X$ as well as the [[coefficient]] [[n-sphere|1-sphere]].
+
+By Prop. \ref{EquivariantPT} the equivariant homotopy classes of maps $S^1 \to S^1$ correspond to [[submanifolds]] of $S^0$ of [[codimension]] 0 with respect to $S^0$, but equivariantly framed with respect to the ambient $S^1$ -- hence in lowest degree simply of [[subsets]] of $S^0$. 
+
+Indeed, under passage to [[fixed points]] any
+
+$$
+  S^1 \overset{f}{\longrightarrow} S^1 
+$$
+
+induces a map
+
+$$
+  S^0 
+    \overset{
+      \big( f\big)^{\mathbb{Z}_2}
+    }{\longrightarrow} 
+  S^0
+  \simeq \{0,1\}
+$$
+
+and we may regard this as encoding the [[subset]] of $S^0$ which is the [[preimage]] of the chosen non-[[basepoint]] $1 \in S^0$.
+
+Hence
+
+1. the [[empty set|empty]] subset $\varnothing \subset S^0$ corresponds to the [[constant function]] $S^1 \to \{0\} \hookrightarrow S^1$;
+
+1. the full subset $S^0 = S^0$ corresponds to the [[constant function]] $S^1 \to \{1\} \hookrightarrow S^1$;
+
+1. the intermediate subset $\{1\} \subset S^0$ corresponds to the [[identity function]] $S^1 \overset{id}{\longrightarrow} S^1$.
+
+Notice that it is only the last case that is homotopically non-trivial after forgetting the equivariance.
+
+(...)
+
+=--
 
 
 
 ***
-
-Let 
-
-\begin{tikzcd}
-  R_{\mathbb{C}}(-)
-  \arrow[r, phantom, "\colon" marking]
-  &
-  \mathrm{FinGrp}^{\mathrm{op}}
-  \arrow[rr]
-    &&
-  \mathrm{CRing}
-  \\
-  &
-  G
-  \arrow[rr, phantom, "\mapsto" marking]
-  \arrow[d, "\phi"]
-  &&
-  R_{\mathbb{C}}\big(G\big)
-  \\
-  &
-  G'
-  \arrow[rr, phantom, "\mapsto" marking]
-  &&
-  R_{\mathbb{C}}\big(G'\big)
-  \arrow[u, "\phi^\ast"]
-\end{tikzcd}
-
-be the [[functor]] from the [[opposite category]] of the [[category]] [[FinGrp]] of [[finite groups]] to the [[category]] [[CRing]] of [[commutative rings]], which sends a group to its [[representation ring]] and a [[group homomorphism]] to the corresponding [[restricted representation]]-assignment.
 
 \begin{centre}
 
