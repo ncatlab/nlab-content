@@ -25,6 +25,8 @@ In other words, a copresheaf on $C$ is just a [[functor]] $C \to Set$. One speak
 
 * [[cosheaf]]
 
+* [[Isbell duality]]
+
 
 
 [[!redirects copresheaves]]
