@@ -81,7 +81,7 @@ The following graphics shows how the three perspectives arise from [[KK-compacti
 
 > from [GKSTY 02](#GKSTY02)
 
-If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "[[half-brane]]" with only one copy of [[D6-branes]] ending on it:
+If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "[[half-brane]]" -- the [[half M5-brane]] -- with only one copy of [[D6-branes]] ending on it:
 
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
@@ -134,8 +134,7 @@ See the references [below](#ReferencesGeometricEngineeringOfDIs6NIs1SCFT), for e
 
 \linebreak
 
-* [[D4-D8 brane bound states]]
-
+[[!include Dp-D(p+4)-brane bound states -- contents]]
 
 
 ## References
