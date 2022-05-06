@@ -21,7 +21,7 @@
 ## Idea
 
 
-The _M5-brane elliptic genus_ is the [[elliptic genus]] imagined to arise as the [[M5-brane]] [[partition function]] when the [[M5-brane]] [[worldvolume]]-theory is seen as a [[2d SCFT]] after [[KK-compactification]] on a [[4-manifold]]/[[complex surface]] ([[AGT correspondence]]).
+The _M5-brane elliptic genus_ is the [[elliptic genus]] imagined to arise as the [[M5-brane]] [[partition function]] when the [[M5-brane]] [[worldvolume]]-theory is seen as a [[2d SCFT]] after [[KK-compactification]] on a [[4-manifold]]/[[complex surface]] (as in the [[AGT correspondence]]).
 
 ## Related concepts
 
@@ -35,6 +35,8 @@ The _M5-brane elliptic genus_ is the [[elliptic genus]] imagined to arise as the
 
 
 ## References
+
+### M5-brane elliptic genus
 
 
 A [[2d SCFT]] argued to describe the  [[KK-compactification]] of the [[M5-brane]] on a [[4-manifold]] (specifically: a [[complex surface]]) originates with
@@ -53,9 +55,20 @@ Further discussion in:
 
 * [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
 
-On the elliptic genus of [[M-strings]] inside [[M5-branes]]:
+### M-string elliptic genus
 
-* [[Stefan Hohenegger]], [[Amer Iqbal]],  _M-strings, Elliptic Genera and $\mathcal{N}=4$ String Amplitudes_,Fortschritte der PhysikVolume 62, Issue 3 ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
+On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
+
+* [[Stefan Hohenegger]], [[Amer Iqbal]],  _M-strings, Elliptic Genera and $\mathcal{N}=4$ String Amplitudes_, Fortschritte der PhysikVolume 62, Issue 3 ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
+
+### E-string elliptic genus
+
+On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
+
+* Wenhe Cai, Min-xin Huang, Kaiwen Sun, _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. 2015, 79 (2015).
+([arXiv:1411.2801](https://arxiv.org/abs/1411.2801), <a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>)
+
+* {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
 
 
@@ -63,4 +76,7 @@ On the elliptic genus of [[M-strings]] inside [[M5-branes]]:
 
 [[!redirects M-string elliptic genus]]
 [[!redirects M-string elliptic genera]]
+
+[[!redirects E-string elliptic genus]]
+[[!redirects E-string elliptic genera]]
 
