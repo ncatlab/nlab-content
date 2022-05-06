@@ -234,7 +234,7 @@ For a more precise statement, see [Ayoub, Scholie 1.4.2](#Ayoub).
 $SH$ is a stable homotopy functor.
 =--
 
-This is essentially proved in [Morel-Voevodsky](#MorelVoevodsky). In fact, something stronger is expected to be true:
+This is essentially proved in [Morel-Voevodsky 99](#MorelVoevodsky99). In fact, something stronger is expected to be true:
 
 +-- {: .num_theorem}
 ###### Expected Theorem
@@ -438,24 +438,25 @@ See [[algebraic cobordism]].
 
 ## References
 
-The original "textbook" references are
+### General
+
+The original references are
 
 * [[Vladimir Voevodsky]], $\mathbf{A}^1$-Homotopy Theory. Proceedings of the International Congress of Mathematicians, Vol. I (Berlin, 1998). Doc. Math. 1998, Extra Vol. I, 579&#8211;604 (electronic).  [web](http://www.math.uiuc.edu/documenta/xvol-icm/00/Voevodsky.MAN.html)
 
-* [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_ K-theory, 0305 ([web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
-{#MorelVoevodsky}
+* {#MorelVoevodsky99} [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_, Publications Mathématiques de l'IHÉS, Volume 90 (1999), p. 45-143  ([Numdam:PMIHES_1999__90__45_0](http://www.numdam.org/item/?id=PMIHES_1999__90__45_0) [K-Theory:0305](http://www.math.uiuc.edu/K-theory/0305/) )
 
-* [[Fabien Morel]], _$\mathbb{A}^1$-algebraic topology over a field_, LNM 2052, 2012, ([pdf](http://www.mathematik.uni-muenchen.de/~morel/A1TopologyLNM.pdf))
-{#Morel}
+
+* {#Morel} [[Fabien Morel]], _$\mathbb{A}^1$-algebraic topology over a field_, LNM 2052, 2012, ([pdf](http://www.mathematik.uni-muenchen.de/~morel/A1TopologyLNM.pdf))
+
 
 Readable introductions to the subject are:
 
-* [[Bjørn Ian Dundas]], [[Marc Levine]], [[P.A. Østvær]], [[Oliver Röndigs]], [[Vladimir Voevodsky]], _Motivic Homotopy Theory: Lectures at a Summer School in Nordfjordeid, Norway, August 2002_, Springer, Universitext, (2006).
+* [[Bjørn Ian Dundas]], [[Marc Levine]], [[Paul Arne Østvær]], [[Oliver Röndigs]], [[Vladimir Voevodsky]], _Motivic Homotopy Theory: Lectures at a Summer School in Nordfjordeid, Norway, August 2002_, Springer, Universitext, (2006) ([doi:10.1007/978-3-540-45897-5](https://www.springer.com/de/book/9783540458951))
 
 * [[Marc Levine]], _Motivic Homotopy Theory_, Milan j. math (2008), ([pdf](http://www.math.unam.mx/javier/levine.pdf))
 
 * [[Fabien Morel]], _An introduction to $\mathbb{A}^1$ homotopy theory_, ICTP Trieste July 2002 ([directory](http://publications.ictp.it/lns/vol15/vol15toc.html), [pdf](http://www.ictp.it/%7Epub_off/lectures/lns015/Morel/Morel.pdf), [ps](http://www.ictp.it/%7Epub_off/lectures/lns015/Morel/Morel.ps))
-
 
 * [[Fabien Morel]], _On the motivic &#960;&#8320; of the sphere spectrum_ ([ps](http://www.mathematik.uni-muenchen.de/~morel/Newton.ps))
 
