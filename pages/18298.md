@@ -1771,7 +1771,7 @@ For $X$ a [[topological space]], then for every topological vector bundle $E \to
 +-- {: .proof}
 ###### Proof
 
-By [[local trivialization|local trvializability]] of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$.
+By [[local trivialization|local trvializability]] of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X \times I\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$.
 
 By finiteness of $J_x$, the [[intersection]]
 
@@ -1785,7 +1785,7 @@ $$
   \{ p_{[0,1]}(V_i) \subset I \}_{i \in J_x}
 $$
 
-is an open cover of $[0,1]$ such that the given vector bundle trivializes over each element of $\{V_x \times p_{[0,1]}(U_i)\}_{i \in J_x}$.
+is an open cover of $[0,1]$ such that the given vector bundle trivializes over each element of $\{U_x \times p_{[0,1]}(V_i)\}_{i \in J_x}$.
 
 By the nature of the Euclidean [[metric topology]] each [[open subset]] of $[0,1]$ is a union of intervals. So we may pass to a [[refinement]] of this cover of $[0,1]$ such that each element is a single interval. Again by compactness of $[0,1]$, this refinement has a finite subcover
 
