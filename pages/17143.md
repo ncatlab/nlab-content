@@ -398,7 +398,7 @@ $$
 
 where the maps denoted $c_k$ are any representatives of the Chern classes of the same name, under the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}. Here the homotopy in the top square exhibits the fact that $c_1^E$ is a complex orientation, while the homotopy in the bottom square exhibits the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
 
-Now since $M U$ is a [[CW-spectrum]], the total left vertical morphism here is a (Serre-)cofibration, hence a [[Hurewicz cofibration]], hence satisfies the [[homotopy extension property]]. This means precisely that we may find a map $f_{2n+1} \colon M U_{2(n+1)} \longrightarrow E_{2(n+1)}$ homotopic to the given representative $c_{n+1}$ such that the required square commutes strictly.
+Now since $M U$ is a [[CW-spectrum]], the total left vertical morphism here is a [[classical model structure on topological spaces|Serre-cofibration]], hence a [[Hurewicz cofibration]], hence satisfies the [[homotopy extension property]]. This means precisely that we may find a map $f_{2n+1} \colon M U_{2(n+1)} \longrightarrow E_{2(n+1)}$ homotopic to the given representative $c_{n+1}$ such that the required square commutes strictly.
 
 =--
 
