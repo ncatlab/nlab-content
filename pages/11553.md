@@ -6,6 +6,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
+=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
@@ -44,7 +48,7 @@ From the abstract of ([Donagi 98](#Donagi98)).
 ### Non-reducible heterotic $E_8$-gauge backgrounds
  {#NonReducibleHeteroticGaugeBackgrounds}
 
-There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic string theory]] involves an [[E8]]-[[principal connection]] which is not reducible to $Spin(16)/\mathbb{Z}_2$ ([Distler-Sharpe 10, section 5](#DistlerSharpe10)), while in fact the traditional construction of the heterotic [[worldsheet]] theory only covers this case. In ([Distler-Sharpe 10, section 7-8](#DistlerSharpe10)) it is argued that therefore a more general formulation of [[heterotic string theory]] needs to involve [[parameterized WZW models]]. See also at _[heterotic string -- Properties -- General gauge backgrounds and parameterized WZW models](http://ncatlab.org/nlab/show/heterotic+string+theory#GeneralGaugeBackgroundsAndParameterizedWZWModels)_.
+There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic string theory]] involves an [[E8]]-[[principal connection]] which is not [[reduction of the structure group|reducible]] to [[SemiSpin(16)]] ([Distler-Sharpe 10, section 5](#DistlerSharpe10)), while in fact the traditional construction of the heterotic [[worldsheet]] theory only covers this case. In ([Distler-Sharpe 10, section 7-8](#DistlerSharpe10)) it is argued that therefore a more general formulation of [[heterotic string theory]] needs to involve [[parameterized WZW models]]. See also at _[heterotic string -- Properties -- General gauge backgrounds and parameterized WZW models](http://ncatlab.org/nlab/show/heterotic+string+theory#GeneralGaugeBackgroundsAndParameterizedWZWModels)_.
 
 
 ## Related concepts
