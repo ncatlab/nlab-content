@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, it does not completely break away from these special points in field theory space, but applies in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
+The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, away from these special points in field theory space the correspondence does not completely break down, but continues to apply in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
 
 Notably [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type dual [[gravity]]-observables, for instance the [[shear viscosity]] of the [[quark-gluon plasma]]. 
 
@@ -26,7 +26,7 @@ This perspective is hence called the _AdS/QCD-correspondence_ or _holographic QC
 ## Models 
  {#Models}
 
-In approaches to $AdS/QCD$ one distinguishes [[bottom-up model building]] -- where the ambition is to first set up a globally consistent ambient [[intersecting D-brane model]] where a [[Yang-Mills theory]] at least similar to [[QCD]] arises on suitable [[D-branes]] ([[geometric engineering of gauge theories]]) -- from [[bottom-up model building]] approaches which are more cavalier about global consistency and first focus on accurately fitting the intended [[phenomenology]] of [[QCD]] as the [[asymptotic boundary|asymptotic]] [[boundary field theory]] of [[gravity]]+[[gauge theory]] on some [[anti de Sitter spacetime]]. (Eventually both these approaches should meet "in the middle" to produce a [[model (in theoretical physics)|model]] which is both [[standard model of particle physics|realistic]] as well as globally consistent as a [[string vacuum]]; see also at _[[string phenomenology]]_.)
+In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- where the ambition is to first set up a globally consistent ambient [[intersecting D-brane model]] where a [[Yang-Mills theory]] at least similar to [[QCD]] arises on suitable [[D-branes]] ([[geometric engineering of gauge theories]]) -- from [[bottom-up model building]] approaches which are more cavalier about global consistency and first focus on accurately fitting the intended [[phenomenology]] of [[QCD]] as the [[asymptotic boundary|asymptotic]] [[boundary field theory]] of [[gravity]]+[[gauge theory]] on some [[anti de Sitter spacetime]]. (Eventually both these approaches should meet "in the middle" to produce a [[model (in theoretical physics)|model]] which is both [[standard model of particle physics|realistic]] as well as globally consistent as a [[string vacuum]]; see also at _[[string phenomenology]]_.)
 
 <center>
 <img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
@@ -35,9 +35,9 @@ In approaches to $AdS/QCD$ one distinguishes [[bottom-up model building]] -- whe
 >  graphics grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](bottom-up+and+top-down+model+building#AldazabalIbanezQuevedoUranga00)
 
 
-### Top-down model
+### Top-down models
 
-A populor [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05). This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
+A popular [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05). This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
