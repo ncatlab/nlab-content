@@ -2,6 +2,36 @@
 [[!redirects multiplicative unitaries]]
 [[!redirects fundamental operator]]
 
+### Idea
+
+While the following idea is originally in operator setup and with an involution, consider the following. Let $H$ be a finite-dimensional vector space.
+Consider the invertible operator $W : H\otimes H \to H\otimes H$ satisfying the pentagon identity
+
+$$
+W_{1 2} W_{1 3} W_{2 3} = W_{2 3} W_{1 2}
+$$
+in the space of linear endomorphisms of $H\otimes H\otimes H$. Then the formula
+
+$$
+\Delta(h) = W (h\otimes 1) W^{-1} 
+$$ 
+
+define a coassociative coproduct on $H$. Usually we replace the structure of the coproduct with knowing $W$, which can be easier to define in infinite-dimensional analogues when the coproduct needs to take values in some hard to manage completions. 
+
+for all $h\in H$. For finite-dimensional Hopf algebras $W(g\otimes h) = g_{(1)}\otimes g_{(2)} h$ and $W^{-1}(g\otimes h) = g_{(1)}\otimes (S g_{(2)}) h$ and then we can reproduce the antipode via the formula 
+
+$$
+S h = (\epsilon\otimes id)\circ W^{-1}(h\otimes - )
+$$
+
+We can also make a discussion in terms of the dual space $H^*$. Then the coproduct on $H^*$ which is dual to the product on $H$ is also obtained from $W$ by the formula
+
+$$
+\Delta_{H^*}(\psi) = W^{-1} (1\otimes\psi) W
+$$
+
+### Literature and further directions
+
 In the setup of operator algebras the multiplicative unitaries were introduced (following some ideas from George's Kac's noncommutative Tannaka-Krein duality setup) in
 
 * Saad Baaj, Georges Skandalis, _Unitaires multiplicatifs et dualité pour les produits croisés de $C^*$-algèbre_, Annales scientifiques de l'École Normale Supérieure __26__:4 (1993) 425-488  [numdam](https://doi.org/10.24033/asens.1677); _Transformations pentagonales (Pentagonal transformations)_, Comptes Rendus de l'Académie des Sciences, I - Mathematics __327__:7 (1998) 623-628 [doi](https://doi.org/10.1016/S0764-4442(99)80090-1)
