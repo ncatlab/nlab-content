@@ -45,6 +45,12 @@ Given a wide subcategory $\mathcal{W}$ in this sense, one can consider the minim
 
 The [[surjection]] $W$ becomes an [[injection]] when restricted to [[functorially finite]] torsion classes, and is often a [[bijection]] between functorially finite torsion classes and functorially finite wide subcategories; see [Marks-Stovicek 15](#MarksStovicek15).
 
+## Examples
+
+### General
+
+Given any category $C$, the maximal sub-groupoid of $C$ is the subcategory consisting of all objects of $C$ but with morphisms only the isomorphisms of $C$. This is the [[core]] of a category, and it is a wide subcategory.
+
 ## References
 
 ### General
