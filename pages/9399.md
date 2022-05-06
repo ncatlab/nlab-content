@@ -21,6 +21,7 @@
 ## Definition
 
 Let $F,G:C\to D$ be [[functors]].  A [[natural transformation]] $\alpha:F\to G$ is **equifibered** (also called **cartesian**) if for any [[morphism]] $f:x\to y$ in $C$, the naturality square
+
 $$\array{ F x & \overset{F f}{\to} & F y\\
   ^{\alpha_x}\downarrow & & \downarrow^{\alpha_y} \\
   G x & \underset{G f}{\to} & G y}
@@ -55,7 +56,7 @@ In the context of [[category theory]] the concept is discussed in
 * [[Aurelio Carboni]] and [[Peter Johnstone]], *Connected limits, familial representability and Artin glueing*, Mathematical Structures in Computer Science, Vol. 5 Iss. 4, Cambridge U. Press (December 1995), 441-459. 
 ([doi:10.1017/S0960129500001183](https://doi.org/10.1017/S0960129500001183) [web](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/div-classtitleconnected-limits-familial-representability-and-artin-glueingdiv/54E93903F7D7321B98B64AE7CB3E7AE0)) 
 
-* [[Tom Leinster]], *Higher Operads, Higher Categories*, Cambridge University Press 2003. ([arXiv link](https://arxiv.org/abs/math/0305049)) 
+* [[Tom Leinster]], *Higher Operads, Higher Categories*, Cambridge University Press 2003. ([arXiv:math/0305049](https://arxiv.org/abs/math/0305049)) 
 
 In the context of [[(infinity,1)-categories]] (with an eye towards [[(infinity,1)-toposes]]) the concept is considered in
 
