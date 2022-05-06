@@ -244,6 +244,11 @@ Discussion of the $G$-equivariant complex coborism ring includes
 
 [[!redirects cobordism rings]]
 
-
 [[!redirects cobordism group]]
 [[!redirects cobordism groups]]
+
+[[!redirects bordism ring]]
+[[!redirects bordism rings]]
+[[!redirects bordism group]]
+[[!redirects bordism groups]]
+
