@@ -26,6 +26,11 @@ See also
 
 * Wikipedia, _[Kaon](https://en.m.wikipedia.org/wiki/Kaon)_
 
+Via [[chiral perturbation theory]]:
+
+* V. Cirigliano, G. Ecker, H. Neufeld, A. Pich, J. Portoles, _Kaon Decays in the Standard Model_, Rev. Mod. Phys. 84 (2012) 399 ([arXiv:1107.6001](https://arxiv.org/abs/1107.6001))
+
+
 ### Flavour anomalies
 
 On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scattering|decays]]:
