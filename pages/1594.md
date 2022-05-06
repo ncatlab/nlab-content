@@ -152,6 +152,8 @@ Survey of basic orbifold theory:
 
 * {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
 
+* Francisco C. Caramello Jr, _Introduction to orbifolds_ ([arXiv:1909.08699](https://arxiv.org/abs/1909.08699))
+
 See also
 
 * Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
