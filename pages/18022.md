@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Homotopy theory
+#### Rational homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include differential graded objects - contents]]
 =--
 #### Stable Homotopy theory
 +--{: .hide}
@@ -307,5 +307,8 @@ Application to mathematical analysis of [[duality between M-theory and type IIA 
 
 
 
-
 [[!redirects rational parametrized stable homotopy theory]]
+
+[[!redirects parametrized rational stable homotopy theory]]
+
+
