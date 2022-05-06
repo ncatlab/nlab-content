@@ -43,9 +43,9 @@ and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady9
 
 ## Related concepts
 
-* [[Lie algebra weight system]]
-
 * [[D=3 N=4 super Yang-Mills theory]]
+
+[[!include chord diagrams and weight systems -- table]]
 
 ## References
 
