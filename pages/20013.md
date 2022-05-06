@@ -119,7 +119,7 @@ $$
 
 ### General
 
-The following says that the [[Burnside character]] plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]], a similarity one might explain by the identification of sets as modules over the ['field with one element'](field+with+one+element#Modules):
+The following says that the [[Burnside character]] plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]]:
 
 +-- {: .num_prop #BurnsideCharacterIsInjective}
 ###### Proposition
