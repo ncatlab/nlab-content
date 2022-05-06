@@ -22,7 +22,7 @@
 
 Bayesian [[reasoning]] is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  It relies on an interpretation of probabilities as expressions of an agent's uncertainty about the world, rather than as concerning some notion of objective chance in the world. The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]], where knowledge of the truth or falsity of a proposition  corresponds to adopting the extreme probabilities $1$ and $0$. 
 
-Several advantages to this interpretation have been proposed. For one thing, it is possible to have (rational) degrees of belief about a wide range of propositions, including matters which are settled, yet unknown. For example, it is possible to speak of the probability of the value of a constant of nature falling within a given interval on the basis of various pieces of evidence, or of the outcome of a coin that has already been tossed. This interpretation of probability beyond limiting frequences leads, so advocates such as [[Edwin Jaynes]] claim, to a more integrated treatment of probability theory and statistics.
+Several advantages to this interpretation have been proposed. For one thing, it is possible to have (rational) degrees of belief about a wide range of propositions, including matters which are settled, yet unknown. For example, it is possible to speak of the probability of the value of a constant of nature falling within a given interval on the basis of various pieces of evidence, or of the outcome of a coin that has already been tossed. This interpretation of probability beyond limiting frequencies leads, so advocates such as [[Edwin Jaynes]] claim, to a more integrated treatment of probability theory and statistics.
 
 ## Dutch Book justification
 
@@ -92,11 +92,14 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 
 ## References
 
-* {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003.
+### General
+
 
 * {#Jaynes} [[Edwin Jaynes]], _Probability Theory: The Logic of Science_, Cambridge University Press, 2003.
 
 * {#Polya} [[George Polya]], _Mathematics and Plausible Reasoning: Vol. II: Patterns of Plausible Inference_, Princeton University Press, 1954.
+
+* {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003, Chap. 4.
 
 * {#DF80} [[Persi Diaconis]] and David Freedman, "De Finetti's theorem for Markov chains." Annals of Probability, 8(1), 115-130, 1980.
 
@@ -106,15 +109,32 @@ See also
 
 * Wikipedia, _[Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference)_
 
+### Category-theoretic treatment
+
 Placing Bayesian inference in a category theoretic setting occurs in
 
-* [[Kirk Sturtz]] _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
+* [[Kirk Sturtz]], _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
 
 * [[Jared Culbertson]], [[Kirk Sturtz]] _Bayesian machine learning via category theory_, ([arXiv:1312.1445](https://arxiv.org/abs/1312.1445))
 
-Discussion of applications in [[astronomy]] and [[cosmology]] includes
 
-* [[Jörg Rachen]] _Bayesian Classification of Astronomical Objects -- and what is behind it_ ([arXiv:1302.2429](http://arxiv.org/abs/1302.2429))
+
+### Bayesian inference in physics
+
+Discussion of applications in [[astronomy]], [[cosmology]] and [[particle physics]] includes
+
+* [[Jörg Rachen]], _Bayesian Classification of Astronomical Objects -- and what is behind it_ ([arXiv:1302.2429](http://arxiv.org/abs/1302.2429))
+
+* [[Roberto Trotta]], _Bayesian Methods in Cosmology_, ([arXiv:1701.01467](https://arxiv.org/abs/1701.01467))
+
+* {#Lyons13} Louis Lyons, _Bayes and Frequentism: a Particle Physicist's perspective_, ([arXiv:1301.1273](https://arxiv.org/abs/1301.1273))
+
+* Joshua Landon, Frank X. Lee, Nozer D. Singpurwalla, _A Problem in Particle Physics and Its Bayesian Analysis_, ([arXiv:1201.1141](https://arxiv.org/abs/1201.1141))
+
+
+
+
+ 
 
 
 
