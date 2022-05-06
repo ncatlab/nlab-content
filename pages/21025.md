@@ -1,6 +1,10 @@
 
 \linebreak
 
+This page collects material related to:
+
+\linebreak
+
 [mtheorymath.org](http://mtheorymath.org)
 
 A **conference series on [[M-theory]] and [[mathematics]]**.
@@ -32,23 +36,6 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-\linebreak
-
-**Scientific Committee:**
-
-* [[Michael Duff]]
-
-* [[Neil Lambert]]
-
-* [[Christian Saemann]]
-
-* [[Hisham Sati]]
-
-* [[Urs Schreiber]]
-
-* [[Ashoke Sen]]
-
-* [[Meng-Chwan Tan]]
 
 \linebreak
 
