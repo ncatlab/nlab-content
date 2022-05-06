@@ -36,6 +36,11 @@ Review and discussion includes
 * Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_, in: [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics
 Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
 
+Discussion in comparison to [[knot|knotted]] states in [[superconductors]]:
+
+* Filipp N. Rybakov, Julien Garaud, Egor Babaev, _Kelvin knots in superconducting state_, Phys. Rev. B 100, 094515 (2019) ([arXiv:1807.02509](https://arxiv.org/abs/1807.02509))
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -73,5 +78,7 @@ For more on this see at _[baryogenesis -- Exposition](baryogenesis#Exposition)_.
 ## Related entries
 
 * [[William Clifford]], _[[On the Space-Theory of Matter]]_
+
+* [[Skyrmion]]
 
 category: reference
