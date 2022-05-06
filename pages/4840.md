@@ -98,23 +98,23 @@ More generally:
 ###### Proposition
 **(Stokes theorem for [[fiber integration]])**
 
-If $U$ is any [[smooth manifold]] and $\omega \in \Omega^\bullet(U \times \sigma)$ is a differential form on the [[Cartesian product]], then with respect to [[fiber integration|fiber-wise]] [[integration of differential forms]] 
+If $U$ is any [[smooth manifold]] and $\omega \in \Omega^\bullet(U \times \Sigma)$ is a differential form on the [[Cartesian product]], then with respect to [[fiber integration|fiber-wise]] [[integration of differential forms]] 
 
 $$
-  \int_\sigma \;\colon\;
-  \Omega^{\bullet + dim(\sigma)}(U \times \sigma)
+  \int_\Sigma \;\colon\;
+  \Omega^{\bullet + dim(\Sigma)}(U \times \Sigma)
     \longrightarrow
   \Omega^\bullet(U)
 $$
 
-along $U \times \sigma \overset{pr_1}{\to} U$ we have
+along $U \times \Sigma \overset{pr_1}{\to} U$ we have
 
 $$
-  \int_\sigma d \omega
+  \int_\Sigma d \omega
   \;=\;
-  \int_{\partial_\sigma} \omega
+  \int_{\partial_\Sigma} \omega
   +
-  (-1)^{dim(\sigma)} d \int_\sigma \omega 
+  (-1)^{dim(\Sigma)} d \int_\Sigma \omega 
   \,.
 $$
 
