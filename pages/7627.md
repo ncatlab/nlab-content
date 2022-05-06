@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Fields and quanta
++-- {: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
 > under construction
 
 #Contents#
@@ -8,6 +18,13 @@
 ## Idea
 
 If [[particles]] specied are identified [[simple objects]] of a [[DHR category]], then the elements of the corresponding [[dual object]] are called **antiparticles**.
+
+## Examples
+
+| [[fundamental particle]] | [[antiparticle]] | 
+|--------------------------|------------------|
+|  [[electron]]            |  [[positron]]    |
+|  ....                    |   ...            |
 
 ## Related concepts
 
