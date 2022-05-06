@@ -91,6 +91,21 @@ Without the assumption of [[proper action]] in Prop. \ref{FixedLociOfSmoothPrope
 
 
 
++-- {: .num_prop #GActionOnNormalBundleToFixedLocus}
+###### Proposition/Definition
+**($G$-action on [[normal bundle]] to [[fixed locus]])**
+
+Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+
+Then linearization of the $G$-action aroujnd the [[fixed locus]] $X^G \subset X$ equips the [[normal bundle]] $N_X\left( X^G\right)$ with [[smooth function|smooth]] and [[fiber]]-wise [[linear map|linear]]  $G$-[[action]].
+
+=--
+
+(as in [Crainic-Struchiner 13, Example 1.7](#CrainicStruchiner13))
+
+
+
+
 ## Related concepts
 
 * [[equivariant homotopy theory]]
@@ -109,4 +124,5 @@ Without the assumption of [[proper action]] in Prop. \ref{FixedLociOfSmoothPrope
 
 * {#Kankaanrinta07} [[Marja Kankaanrinta]], _Equivariant collaring, tubular neighbourhood and gluing theorems for proper Lie group actions_,     Algebr. Geom. Topol. Volume 7, Number 1 (2007), 1-27 ([euclid:agt/1513796653](https://projecteuclid.org/euclid.agt/1513796653))
 
+* {#CrainicStruchiner13} Marius Crainic, Ivan Struchiner, _On the linearization theorem for proper Lie groupoids_,  Annales scientifiques de l'École Normale Supérieure, Série 4, Volume 46 (2013) no. 5, p. 723-746 ([doi:10.24033/asens.2200](https://doi.org/10.24033/asens.2200))
 
