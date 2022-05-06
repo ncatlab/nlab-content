@@ -19,7 +19,7 @@
 
 ## Idea
 
-A dual of the [[graviton]] under [[electric-magnetic duality]] (e.g. [Curtright 85](#Curtright85), [Hull 01](#Hull01), [Bekaert-Boulanger-Henneaux 02](#BekaertBoulangerHenneaux02), [Godazger-Godazger-Nicolai 13, section 2.2](#GodazgerGodazgerNicolai13)).
+By _dual graviton_ one refers to the dual of the [[graviton]] under [[electric-magnetic duality]] (e.g. [Curtright 85](#Curtright85), [Hull 01](#Hull01), [Bekaert-Boulanger-Henneaux 02](#BekaertBoulangerHenneaux02), [Godazger-Godazger-Nicolai 13, section 2.2](#GodazgerGodazgerNicolai13)).
 
 Dual gravitons have been considered in particular for manifestly EM-duality-symmetric formulations of [[supergravity]] [[Lagrangians]]. See for instance ([de Wit-Nicolai 13, section 6](#deWitNicolai13)) and see at _[3-d supergravity -- possible gaugings](3-dimensional+supergravity#PossibleGaugings)_.
 
@@ -34,10 +34,9 @@ The dual graviton was maybe first discussed in
 
 then further in
 
+* {#Hull01} [[Chris Hull]], _Duality in Gravity and Higher Spin Gauge Fields_, JHEP 0109:027, 2001 ([arXiv:hep-th/0107149](http://arxiv.org/abs/hep-th/0107149))
 
-* {#Hull01} [[Chris Hull]], _Duality in Gravity and Higher Spin Gauge Fields_, JHEP 0109:027,2001 ([arXiv:hep-th/0107149](http://arxiv.org/abs/hep-th/0107149))
-
-* {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], Nicolas Boulanger, [[Marc Henneaux]], _Consistent deformations of dual formulations of linearized gravity: A no-go result_, Phys.Rev. D67 (2003) 044010 ([arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278))
+* {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], Nicolas Boulanger, [[Marc Henneaux]], _Consistent deformations of dual formulations of linearized gravity: A no-go result_, Phys. Rev. D67 (2003) 044010 ([arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278))
 
 * {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
 
