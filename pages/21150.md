@@ -98,6 +98,15 @@ On deriving the [[Cheshire cat principle]] of the [[quark bag model]] from [[AdS
 
 * Holger Bech Nielsen, [[Ismail Zahed]], _The Cheshire Cat Principle from Holography_ ([doi:10.1142/9789814280709_0017](https://doi.org/10.1142/9789814280709_0017), [arXiv:0904.0429](https://arxiv.org/abs/0904.0429)), Chapter 17 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+\linebreak
+
+**Chapter 18** 
+
+On deriving [[baryon]]-[[masses]] from [[holographic QCD]]:
+
+* {#PomarolWulzer09} Alex Pomarol, Andrea Wulzer, _Baryon physics in a five-dimensional model of hadrons_ ([arXiv:0904.2272](https://arxiv.org/abs/0904.2272)), Chapter 18 in: [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+
 (...)
 
 category: reference
