@@ -26,7 +26,7 @@ the idea that [[dependent type theory]] with intensional [[identity types]] ([[M
 
 From [Awodey 09, p. 13](#Awodey09), [Awodey 10, p. 15](#Awodey10):
 
-> The homotopy interpretation of Martin-Löf type theory into Quillen model categories, and the related results on type-theoretic constructions of higher groupoids, are analogous to basic results interpreting extensionaltype theory and higher-order logic in (1-)toposes, and clearly indicate that the logic of higher toposes, and therewith of higher homotopy theory, is a form of intensional type theory.
+> The homotopy interpretation of Martin-Löf type theory into Quillen model categories, and the related results on type-theoretic constructions of higher groupoids, are analogous to basic results interpreting extensional type theory and higher-order logic in (1-)toposes, and clearly indicate that the logic of higher toposes, and therewith of higher homotopy theory, is a form of intensional type theory.
 
 A concise statement would be that the [[internal logic of an (∞,1)-topos|internal logic of (∞,1)-toposes]] is [[homotopy type theory]], though there is fine print involved.
 
