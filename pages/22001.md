@@ -1,4 +1,22 @@
-__Picard-Vessiot theory__ is the [[Galois theory]] of homogeneous linear [[ordinary differential equation]]s. A version for homogeneous linear difference equations has also been developed. Alternatively, terms differential Galois theory and difference Galois theory have also been used.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+__Picard-Vessiot theory__ is the [[Galois theory]] of homogeneous linear [[ordinary differential equations]]. A version for homogeneous linear difference equations has also been developed. Alternatively, terms differential Galois theory and difference Galois theory have also been used.
 
 ## Literature
 
