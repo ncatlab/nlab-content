@@ -68,7 +68,7 @@ A 2-category in which all 1-morphisms and 2-morphisms are invertible is a [[2-gr
 
   * 2-morphisms are [[natural transformation]];
 
-    vertical composition of 2-morphisms is the [[Godement product]].
+    horizontal composition of 2-morphisms is the [[Godement product]].
 
   This happens to be a [[strict 2-category]].
 
