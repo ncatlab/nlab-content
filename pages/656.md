@@ -64,7 +64,7 @@ For $R$ a [[commutative ring]], write $BMod_R$ for the [[category]] whose
 
 * [[objects]] are triples $(A,B,N)$ where $A$ and $B$ are $R$-[[associative algebra|algebras]] and where $N$ is an $A$-$B$-[[bimodule]];
 
-* [[morphisms]] are triples $(f,g, \phi)$ consisting of two algebra [[homomorphisms]] $f \colon A \to A'$ and $B \colon B \to B'$ and an [[intertwiner]] of $A$-$B'$-bimdules $\phi \colon N \cdot g \to f \cdot N'$. This we may depict as a 
+* [[morphisms]] are triples $(f,g, \phi)$ consisting of two algebra [[homomorphisms]] $f \colon A \to A'$ and $B \colon B \to B'$ and an [[intertwiner]] of $A$-$B'$-bimodules $\phi \colon N \cdot g \to f \cdot N'$. This we may depict as a 
 
   $$
     \array{
