@@ -37,9 +37,9 @@ Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15
 
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
-Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension: [Bolejko 17](#Bolejko17).
+Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension is in [Bolejko 17](#Bolejko17).
 
-From [Koksbang 19, p. 3](#Koksbang19)
+From [Koksbang 19, p. 3](#Koksbang19):
 
 > Cosmic backreaction is particularly interesting because it in principle has the potential to explain the apparent accelerated expansion of the Universe without introducing any exotic [[dark energy]] component as well as possibly being able to mimic [[dark matter]].
 
