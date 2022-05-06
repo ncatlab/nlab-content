@@ -189,7 +189,7 @@ elementary extension of $(\mathbb{N}, &lt;)$.
 ## References {#sec:org926dcee}
 
 -   {#Gitman}Victoria Gitman, [An introduction to nonstandard models
-    of arithmetic](https://boolesrings.org/victoriagitman/2015/04/22/an-introduction-to-nonstandard-models-of-arithmetic)
+    of arithmetic](https://victoriagitman.github.io/talks/2015/04/22/an-introduction-to-nonstandard-model-of-arithmetic.html)
 
 -   R. Kossak and J. H. Schmerl, The structure of models of Peano arithmetic, The Clarendon Press, Oxford University Press, Oxford, 2006, vol. 50. 
 
