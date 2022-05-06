@@ -48,7 +48,7 @@ $F^{op} : D \to C$.
 Here are some important examples of colimits:
 
 * A colimit of the [[diagram|empty diagram]] is an [[initial object]].
-* A colimit of a diagram consisting of two (or more) objects is their [[coproduct]].
+* A colimit of a diagram consisting of two (or more) objects and no nontrivial morphisms is their [[coproduct]].
 * A colimit of a [[span]] is a [[pushout]].
 * A colimit of two (or more) [[parallel morphisms]] is a [[coequalizer]].
 
