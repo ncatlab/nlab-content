@@ -14,6 +14,12 @@ On [[single trace operators]] in the [[AdS/CFT correspondence]]:
 
 * [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
 
+On [[double trace operators]] in [[AdS/CFT]]:
+
+* [[Steven Gubser]], Indrajit Mitra, _Double-trace operators and one-loop vacuum energy in AdS/CFT_, Phys. Rev. D67 (2003) 064018 ([arXiv:hep-th/0210093](https://arxiv.org/abs/hep-th/0210093))
+
+* [[Steven Gubser]], [[Igor Klebanov]], _A universal result on central charges in the presence of double-trace deformations_, Nucl. Phys. B656 (2003) 23-36 ([arXiv:hep-th/0212138](https://arxiv.org/abs/hep-th/0212138))
+
 On the [[p-adic AdS/CFT correspondence]]:
 
 * [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_ ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
