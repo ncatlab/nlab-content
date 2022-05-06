@@ -36,6 +36,12 @@ Here the morphism from the [[graph complex]] to the [[de Rham complex]] of the [
 
 This idea of a proof was sketched in [Kontsevich 99](#Kontsevich99), a full account is due to [Lambrechts-Volic 14](#LambrechtsVolic14).
 
+
+## Related concepts
+
+* [[Kontsevich formality]]
+
+
 ## References
 
 A proof was sketched in
