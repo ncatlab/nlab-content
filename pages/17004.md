@@ -101,7 +101,7 @@ The basic concept appears in
 
 The identification of stable cohomotopy with the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite set]] is due to 
 
-* {#Segal74} [[Graeme Segal]], _Catgeories and cohomology theories_, Topology vol 13 (1974)  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
+* {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
 see also
 
