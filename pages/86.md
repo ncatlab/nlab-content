@@ -189,7 +189,7 @@ This means that Lagrangian BV formalism is nothing but a way of describing close
 #### Integration over manifolds by BV-cohomology
  {#IntegrationOverManifoldsByBVCohomology}
 
-The following proposition about integration of differential $n$-forms is the archetype for interpreting cohomology in BV-complexes in terms of [[integration]]. See also at _[[cohomological interpretation]]_.
+The following proposition about integration of differential $n$-forms is the archetype for interpreting cohomology in BV-complexes in terms of [[integration]]. 
 
 +-- {: .num_example}
 ###### Example
@@ -197,6 +197,8 @@ The following proposition about integration of differential $n$-forms is the arc
 On the [[open ball]] of [[dimension]] $n$, the [[integration of differential forms]] of compact support $\int \;\colon\; \Omega^n_{cp} \to \mathbb{R}$ is equivalently given by the projection onto the [[quotient]] by the exact forms, hence by passing to [[cochain cohomology]] in the truncated [[de Rham complex]] $C^\infty(B^n) \to \cdots \to \Omega^{n-1}(B^n) \to \Omega^n(B^n)$.
 
 =--
+
+See at _[[kernel of integration is the exact differential forms]]_ for details.
 
 This "integration without integration" is discussed in more detail at _[[Lie integration]]_.
 
