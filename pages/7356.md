@@ -187,6 +187,7 @@ A large number of realizations of the exact field content of the [[standard mode
 
 
 ## References
+ {#References}
 
 ### General
 
@@ -292,6 +293,7 @@ Realization to the [[6d (2,0)-supersymmetric QFT]] is discussed in
 * {#HeckmannMorrisonVafa13} Jonathan Heckman, [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
 
 ### Phenomenology and model building
+ {#ReferencesPhenomnenology}
 
 A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory, in particular [[GUTs]]:
 
@@ -307,10 +309,14 @@ A large body of literature is concerned with particle physics [[string phenomeno
 * {#Zoccarato14} Gianluca Zoccarato, _Yukawa couplings at the point
 of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
 
-* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 
-[pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf)
+Discussion of the _exact_ [[gauge group]] of the [[standard model of particle physics]], $G = \big( SU(3) \times SU(2) \times U(1)\big)/\mathbb{Z}_6 $ including its $\mathbb{Z}_6$-[[quotient group|quotient]] (see [there](standard+model+of+particle+physics#GaugeGroup)) and the exact [[fermion]] field content, realized in F-theory is in
 
-A large number of realizations of the exact field content of the [[standard model of particle physics]] (or rather [[MSSM]]) in [[F-theory]] is claimed to be realized in
+* Denis Klevers, Damian Kaloni Mayorga Pena, Paul-Konstantin Oehlmann, Hernan Piragua, Jonas Reuter, _Denis Klevers, Damian Kaloni Mayorga Pena, Paul-Konstantin Oehlmann, Hernan Piragua, Jonas Reuter_, JHEP01(2015)142 ([arXiv:1408.4808](https://arxiv.org/abs/1408.4808))
+
+* {#CveticLin17} [[Mirjam Cvetic]], Ling Lin, section 3.3 of _The global gauge group structure of F-theory compactifications with $U(1)$s_ ([arXiv:1706.08521](https://arxiv.org/abs/1706.08521))
+
+
+Based on this large number of realizations of the exact field content of the [[standard model of particle physics]] (or rather [[MSSM]]) in [[F-theory]] is claimed to be realized in
 
 * {#CveticHalversonLinLiuTian19} [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
