@@ -191,11 +191,11 @@ We have
 
   * $Spin(1) \simeq O(1)$
 
-  * $Spin(2) \simeq U(1) \simeq SO(2) \simeq S^1$ (the [[circle group]])
+  * [[Spin(2)]] $\simeq U(1) \simeq SO(2) \simeq S^1$ ([[SO(2)]], the [[circle group]], see also at _[[real Hopf fibration]]_)
 
     the projection $Spin(2)\to SO(2)$ corresponds to $S^1\stackrel{\cdot 2}{\longrightarrow} S^1$, see also at _[[Theta characteristic]]_
 
-  * $Spin(3) \simeq Sp(1) \simeq SU(2) \simeq S^3$ (the [[special unitary group]] [[SU(2)]]
+  * [[Spin(3)]] $\simeq Sp(1) \simeq SU(2) \simeq S^3$ (the [[special unitary group]] [[SU(2)]]
 
     the inclusion $Spin(2) \hookrightarrow Spin(3)$ corresponds to the canonical $S^1 \hookrightarrow S^3$ (see e.g. [Gorbunov-Ray 92](#GorbunovRay92))
 
