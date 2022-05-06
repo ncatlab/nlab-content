@@ -1,5 +1,5 @@
 
-> For discussion of standard circular chord diagrams see at _[[chord diagram]]_.
+> For discussion of standard round chord diagrams see at _[[chord diagram]]_.
 
 ***
 
