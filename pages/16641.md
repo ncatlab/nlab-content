@@ -11,6 +11,10 @@ On the [[BFSS matrix model]] ([[M-theory]] as [[D0-brane]] [[quantum mechanics]]
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
 
+On longitudinal [[M5-branes]] in the [[BFSS matrix model]]:
+
+* [[Tom Banks]], [[Nathan Seiberg]], [[Stephen Shenker]], _Branes from Matrices_, Nucl. Phys. B490:91-106, 1997 ([arXiv:hep-th/9612157](https://arxiv.org/abs/hep-th/9612157))
+
 
 On the [[NSR superstring]] as [[2d CFT]]:
 
