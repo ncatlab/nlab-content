@@ -410,6 +410,42 @@ for $\Sigma'$ somehow by pulling things out of that (relatively) complicated PER
 
 ### Type Validity {#TpV}
 
+We can define a utility type constructor to add a type validity condition to another type, while leaving its PER unmodified:
+
+$TpV(A | B)\;\coloneqq\;TpOK(B) \supset A$
+
+Intuitively, we want some kind of validity-level conjunction, so it's unintuitive that this definition uses implication (non-dependent intersection). But for validity, intersection *is* actually a conjunction. (That's another way to see why type-level implications mess up reasoning about combined truth.)
+
+If we used
+
+$TpV(A | B)\;\coloneqq\;\{\underline{\;}:A | TpOK(B)\} \qquad (wrong)$
+
+it would only add the validity condition ($\underline{\;}:A \vdash B\,type$). And if we used
+
+$TpV(A | B)\;\coloneqq\;TpOK(B) \wedge A \qquad (wrong)$
+
+it would squash $A$, so the PER would generally not be the same. ($TpOK(B) \supset A$) is not the only way to do it, but it seems like a good way to do it.
+
+Here are the derived rules for $TpV$:
+
+$$\begin{gathered}
+\frac{A\,type \qquad B\,type}{TpV(A | B)\,type} \\
+\\
+\frac{TpV(A | B)\,type}{A\,type} \qquad
+\frac{TpV(A | B)\,type}{B\,type} \\
+\\
+\\
+\frac{B\,type \qquad a \Vdash A}{a \Vdash TpV(A | B)} \\
+\\
+\frac{a \Vdash TpV(A | B)}{a \Vdash A}
+\end{gathered}$$
+
+With $TpV$, we can complete the definition of $\Sigma$ types as suggested above:
+
+$\Sigma x:A.B[x]\;\coloneqq\;TpV(\Sigma' x:A.B[x]\;|\;\Pi x:A.B[x])$
+
+Combining the inversion rules for $TpV$ and $\Pi$, we get the desired inversion rules for $\Sigma$. Inversion rules for $\Sigma'$ are not needed at all. In general, there seems to be no use for inversion rules for PER comprehension.
+
 ### Custom Presuppositions
 
 ## References
