@@ -45,7 +45,13 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 * [[colour charge]], [[flavour (particle physics)]]
 
-* [[chiral perturbation theory]]
+* [[confinement]]
+
+  * [[quark bag model]], [[Cheshire cat principle]]
+
+  * [[chiral perturbation theory]]
+
+  * [[AdS/QCD]]
 
 * [[quark-gluon plasma]]
 
