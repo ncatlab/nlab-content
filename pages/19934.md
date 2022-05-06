@@ -232,7 +232,7 @@ On [[Riemannian orbifolds]]:
 
 * Christian Lange, _Orbifolds from a metric viewpoint_, Geom Dedicata (2020) ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472), [doi:10.1007/s10711-020-00521-x](https://doi.org/10.1007/s10711-020-00521-x))
 
-* {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
+* {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, [[Paolo Piccione]], _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
 
 The [[isometry group]] of [[Riemannian orbifolds]]:
 
