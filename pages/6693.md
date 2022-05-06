@@ -1,7 +1,13 @@
 
 * [webpage](http://www.math.uic.edu/people/profile?mscsid=bous)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[rational homotopy theory]]:
+
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _On PL deRham theory and rational homotopy type_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+
+## Related $n$Lab entries
 
 * [[rational homotopy theory]]
 
