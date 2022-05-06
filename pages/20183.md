@@ -139,12 +139,12 @@ where
 
 Moreover, if the [[spherical fibration]] $E \to X$ happens to be the [[unit sphere bundle]] $E = S(V)$ of a [[real vector bundle]] $V \to X$, then
 
-1. the class of $\omega_{2k}$ is $1/2$ the rationalized [[Euler class]] $\chi(V)$ of $V$:
+1. the class of $\omega_{2k}$ is $1/2$ the rationalized [[Euler class]] $\chi(\widehat V)$ of the corresponding (...) rank [[reduction of the structure group|reduction]] $\widehat V$ of $V$:
 
    $$
      \big[ \omega_{2k} \big]
      \;=\;
-     \tfrac{1}{2}\chi(V)
+     \tfrac{1}{2}\chi\big( \widehat V \big)
      \;\in\;
      H^{2k}\big( X, \mathbb{Q} \big)
    $$
