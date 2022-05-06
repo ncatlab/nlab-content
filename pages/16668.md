@@ -38,7 +38,7 @@ A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesia
 
 * [[double field theory]]
 
-* [[gauged supergravity]], [[tensor hierarchy]]
+* [[gauged supergravity]], [[tensor hierarchy]], [[embedding tensor]]
 
 * [[universal exceptionalism]]
 
@@ -75,3 +75,5 @@ Generalization to exceptional [[super-spacetimes]]:
 * Daniel Butter, [[Henning Samtleben]], [[Ergin Sezgin]], _$E_{7(7)}$-Exceptional Field Theory in Superspace_ ([arXiv:1811.00038](https://arxiv.org/abs/1811.00038))
 
 [[!redirects exceptional field theories]]
+[[!redirects Exceptional field theories]]
+[[!redirects Exceptional field theory]]
