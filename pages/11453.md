@@ -270,6 +270,8 @@ Other early accounts include
 
 * [[Sunil Mukhi]], Nemani V. Suryanarayana, _Gravitational Couplings, Orientifolds and M-Planes_, JHEP 9909 (1999) 017 ([arXiv:hep-th/9907215](https://arxiv.org/abs/hep-th/9907215))
 
+* Yoshifumi Hyakutake, Yosuke Imamura, [[Shigeki Sugimoto]], _Orientifold Planes, Type I Wilson Lines and Non-BPS D-branes_, JHEP 0008 (2000) 043 ([arXiv:hep-th/0007012](https://arxiv.org/abs/hep-th/0007012))
+
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
 Textbook accounts:
@@ -288,7 +290,7 @@ O-Plane charge in the presence of [[discrete torsion]]:
 
 * [Hanany-Kol 00](#HananyKol00)
 
-* {#BergmanGimonSugimoto01} [[Oren Bergman]], Eric Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
+* {#BergmanGimonSugimoto01} [[Oren Bergman]], [[Eric Gimon]], [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
 * Atish Dabholkar, Jaemo Park, _Strings on Orientifolds_, Nucl. Phys. B477 (1996) 701-714 ([arXiv:hep-th/9604178](https://arxiv.org/abs/hep-th/9604178))
 
@@ -328,7 +330,7 @@ Lift to [[M-theory]] ([[MO5]], [[MO9]]):
 
 * {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
 
-* {#Gimon98} Eric G. Gimon, _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226), [spire:472499](http://inspirehep.net/record/472499))
+* {#Gimon98} [[Eric Gimon]], _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226), [spire:472499](http://inspirehep.net/record/472499))
 
 * {#AKY98} Changhyun Ahn, Hoil Kim, Hyun Seok Yang, _$SO(2N)$ $(0,2)$ SCFT and M Theory on $AdS_7 \times \mathbb{R}P^4$_, Phys.Rev. D59 (1999) 106002 ([arXiv:hep-th/9808182](https://arxiv.org/abs/hep-th/9808182))
 
