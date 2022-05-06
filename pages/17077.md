@@ -3,7 +3,7 @@
 
 * [[wedge sum]]
 
-* [[end#wedge|wedge]] as in the definition of an end.
+* [[end#explicit_definition|wedge]] as in the definition of an end.
 
 category: disambiguation
 
