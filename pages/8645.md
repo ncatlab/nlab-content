@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,7 +18,7 @@
 
 The name for an  [[instanton]] [[gauge field]] configuration in $SU(2)$-[[Yang-Mills theory]] (describing the [[weak nuclear force]]).
 
-The BPTS construction considers -- on a 4-dimensional [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to the Euclidean $\mathbb{R}^4$ -- [[gauge field]] configurations for [[gauge group]] the [[special unitary group]] $SU(2)$ that have vanishing [[field strength]] outside some finite radius. These are then equivalently configurations on the 4-[[sphere]]. The BPTS instanton is the $SU(2)$-gauge field whose underlying $SU(2)$-[[principal bundle]]  has [[second Chern class]]=instanton number equal to $\pm1 \in \mathbb{Z} \simeq H^4(S^4, \mathbb{Z})$.
+The BPST construction considers -- on a 4-dimensional [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to the Euclidean $\mathbb{R}^4$ -- [[gauge field]] configurations for [[gauge group]] the [[special unitary group]] $SU(2)$ that have vanishing [[field strength]] outside some finite radius. These are then equivalently configurations on the 4-[[sphere]]. The BPST instanton is the $SU(2)$-gauge field whose underlying $SU(2)$-[[principal bundle]]  has [[second Chern class]]=instanton number equal to $\pm1 \in \mathbb{Z} \simeq H^4(S^4, \mathbb{Z})$.
 
 The physics literature typically focuses on describing this $SU(2)$-bundle in terms of the [[Cech cohomology|Cech cocycle]] which after [[covering]] the 4-sphere with two 4-[[balls]] (two "hemispheres") is given by an $SU(2)$-valued transition function on the intersection of these two balls, which has the [[homotopy type]] of the 3-sphere. Since also the [[manifold]] underlying the [[special unitary group|special unitary]] [[Lie group]] $SU(2)$ is [[diffeomorphism|diffeomorphic]] to $S^3$, this allows to encode the classes of $SU(2)$-[[principal bundles]]/$SU(2)$-instantons on $S^4$ in terms of [[homotopy classes]] of maps $S^3 \to S^3$, and this is what much of the literature focuses on.
 
@@ -51,12 +52,11 @@ For surveys and introductions see the references at _[[Yang-Mills instanton]]_.
 
 [[!redirects BPST-instanton]]
 
-[[!redirects BPTS instanton]]
+
 [[!redirects BPST instanton]]
 
 [[!redirects BPST-instantons]]
-[[!redirects BPTS-instantons]]
 
-[[!redirects BPTS instantons]]
+
 [[!redirects BPST instantons]]
 
