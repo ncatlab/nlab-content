@@ -80,7 +80,7 @@ subject to the following axioms:
 
 * WD2, "triangle inequality": Let A, B, C be chambers and $\delta$(A, B) = w, $\delta$(C, A) = s, then $\delta$(C, B) = either w or sw. If in addition $l_S$(sw) = $l_S$(w) + 1, then $\delta$(C, B) = sw.
 
-* WD3, "TODO: insert analogy here": Let A, B be chambers and $\delta$(A, B) = w, then for any s $\in$ S there is a chamber C such that $\delta$(C, A) = s and $\delta$(C, B) = sw
+* WD3, "existence of geodesics": Let A, B be chambers and $\delta$(A, B) = w, then for any s $\in$ S there is a chamber C such that $\delta$(C, A) = s and $\delta$(C, B) = sw
 
 This definition is equivalent from the one usually given from the simplicial viewpoint, but we will not prove that here, see e.g. the book by Abramenko and Brown in the introductory references.
 In the following paragraphs we will explain a few simple consequences of this definition, and introduce concepts that will allow us to identify the chambers and their "distance" relation with vertices and edges of a graph respectively (TODO: not done yet).
