@@ -43,7 +43,7 @@ To get the large (or "global") axiom of choice (that any surjection between prop
 
 [^choice]:This contrasts with Cantor's attitude towards the axiom of choice which he used implicitly but never thematised explicitly. In fact, the full explicit awareness of the use of the axiom choice in mathematics had to await the controversy over Zermelo's well-ordering theorem in 1904 (with some anticipation by G. Peano and B. Levi earlier).
 
-Consequently, the well-ordering principle ended as 'a very strange claim' second on [[Hilbert's problems|Hilbert's millenium list]] of open problems in mathematics in 1900. Then in 1904, the Hungarian mathematician J. K&#246;nig announced a proof that the [[continuum]] could not be well-ordered but had to retract the proof.
+Consequently, the well-ordering principle ended as 'a very strange claim' second on [[Hilbert's problems|Hilbert's millennium list]] of open problems in mathematics in 1900. Then in 1904, the Hungarian mathematician J. K&#246;nig announced a proof that the [[continuum]] could not be well-ordered but had to retract the proof.
 
 Soon afterwards in 1904, [[Ernst Zermelo]] finally gave a proof using the [[axiom of choice]] following a suggestion by E. Schmidt. The proof, albeit correct, was met with heavy criticism by prominent mathematicians so that Zermelo published a new proof and a defense of the contested axiom of choice in 1908.
 
