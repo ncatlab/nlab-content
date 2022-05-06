@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -62,6 +61,10 @@ On [[AdS/CFT in condensed matter physics]]:
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
+Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid state physics]]:
+
+* Gregory Bentsen, Tomohiro Hashizume, Anton S. Buyskikh, Emily J. Davis, Andrew J. Daley, [[Steven Gubser]], Monika Schleier-Smith, _Treelike interactions and fast scrambling with cold atoms_, Phys. Rev. Lett. 123, 130601 (2019) ([arXiv:1905.11430](https://arxiv.org/abs/1905.11430))
+
 ### Examples and applications
 
 Discussion of possible realization of the [[SYK-model]] in [[condensed matter physics]]:
@@ -88,3 +91,5 @@ Examples:
 
 [[!redirects solid body]]
 [[!redirects solid bodies]]
+
+[[!redirects solid-state physics]]
