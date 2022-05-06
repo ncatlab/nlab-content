@@ -21,7 +21,9 @@
 A __weak model category__ is a [[premodel category]] that satisfies the following two [[axioms]]:
 
 1. __Cylinder axiom__: Every [[cofibration]] $A\to X$ from a [[cofibrant object]]
-to a [[fibrant object]] admits a __relative strong cylinder object__ $$X\sqcup_A X\to I_A X\to X,$$ where the left map is a [[cofibration]] and its first component $X\to I_A X$
+to a [[fibrant object]] admits a __relative strong cylinder object__ 
+$$X\sqcup_A X\to I_A X\to X,$$ 
+where the left map is a [[cofibration]] and its first component $X\to I_A X$
 is an [[acyclic cofibration]].
 
 1. __Path object axiom__: Every [[fibration]] $A\to X$ from a [[cofibrant object]] to a [[fibrant object]] admits a __relative strong path object__
