@@ -726,10 +726,10 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 
 The state-of-the-art in the literature concerning attempts to find the correct mathematical model for the supergravity C-field seems to be
 
-* {#DFM} E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [book doi](https://doi.org/10.1017/CBO9780511721489))
+* {#DFM} E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489))
  
 
-A summary and rview of this is in 
+A summary and review of this is in 
 
 * [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_ ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
 
@@ -748,7 +748,7 @@ See also section 4.3.4 of
 
 A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- and its cancellation -- is in
 
-* [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_ , Communications in mathematical physics,  Volume 263, Number 1, 89-132, DOI: 10.1007/s00220-005-1482-7  ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
+* {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics, Volume 263, Number 1, 89-132, ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7))
 
 Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]) includes
 
