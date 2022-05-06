@@ -20,7 +20,7 @@
 
 ## Idea
 
-[Brown-Comenetz 76](#BrownComenetz76) introduced the [[spectrum]] $I_{\mathbb{Q}/\mathbb{Z}}$ which [[Brown representability theorem|represents]] the [[cohomology theory]] that assigns to a [[spectrum]] $X$ the [[algebraic dual|algberaic]] [[Pontrjagin duals]] $Hom_{\mathbb{Z}}(\pi_{- \ast} X, \mathbb{Q}/\mathbb{Z})$ of its [[homotopy groups]] with respect to [[Q/Z]].
+[Brown-Comenetz 76](#BrownComenetz76) introduced the [[spectrum]] $I_{\mathbb{Q}/\mathbb{Z}}$ which [[Brown representability theorem|represents]] the [[cohomology theory]] that assigns to a [[spectrum]] $X$ the [[algebraic dual|algebraic]] [[Pontrjagin duals]] $Hom_{\mathbb{Z}}(\pi_{- \ast} X, \mathbb{Q}/\mathbb{Z})$ of its [[homotopy groups]] with respect to [[Q/Z]].
 
 If $X$ is a spectrum whose [[stable homotopy groups]] are [[finite groups]], then the natural "double-duality" map $X \to I_{\mathbb{Q}/\mathbb{Z}} I_{\mathbb{Q}/\mathbb{Z}} X$ (the [[unit of a monad|unit]] of the corresponding [[continuation monad]]) is an [[equivalence in an (infinity,1)-category|equivalence]] (see at _[[dualizing object in a closed category]]_).
 
