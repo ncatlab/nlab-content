@@ -60,7 +60,11 @@ In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a m
 
 ## References
 
-The definition is due to
+The definition seems to first appear in
+
+* [[Pieter Hofstra]] and [[Federico De Marchi]], _Descent for Monads_, in  Theory and Applications of Categories, Vol. 16, No. 24, 2006, pp. 668–699.  ([TAC](http://www.tac.mta.ca/tac/volumes/16/24/16-24abs.html))
+
+though they claim others had this idea already. It also appears (independently) in
 
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
  
