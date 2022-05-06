@@ -32,9 +32,9 @@ The construction of $\to_R^*$ can be seen as the free [[preorder|preordered]] [[
 
 [[context free grammar|Context free grammars]] are defined in the same way as unrestricted grammars, but they only allow rules with a single non-terminal symbol as domain. In that particular case, the grammatical derivations are trees with the start symbol as root and the words as leaves.
 
-In [[categorial grammar|categorial grammars]], monoidal categories are replaced by [[biclosed monoidal category]]. The derivations are trees with two kinds of rules: 1) a finite language-dependent _dictionary_ of rules $w \to \alpha$ with $w \in V$ and $\alpha \in X^*$ and 2) an infinite number of language-agnostic rules for each [[higher order logic|higher order type]].
+In [[categorial grammar|categorial grammars]], monoidal categories are replaced by [[biclosed monoidal category]]. The derivations are trees with two kinds of rules: 1) a finite language-dependent _dictionary_ of rules $w \to t$ with $w \in V$ and $t \in F(X)$, for $F(X)$ the free residuated monoid (see [Lambek (1958)](#Lambek58)) and 2) an infinite number of language-agnostic rules, for the application of each [[higher order logic|higher order type]].
 
-Similarly [[pregroup grammar|pregroup grammars]] are constructed from  a dictionary with types coming from a [[rigid monoidal category|rigid monoidal categories]]. The rewrite rules are the counit maps $x^* \otimes x \to 1$ and $x \otimes {}^*x \to 1$ for each non-terminal symbol $x \in X$, the derivations are [[string diagram|planar string diagrams]].
+Similarly, [[pregroup grammar|pregroup grammars]] are constructed from a dictionary with types coming from a free pregroup $P(X)$. The rewrite rules are the counit maps $x^* \otimes x \to 1$ and $x \otimes {}^*x \to 1$, canceling a non-terminal symbol $x \in P(X)$ with its left and right adjoints $x^*$ and ${}^*x$. The derivations are planar [[string diagrams]] in a [[rigid monoidal category]], the counit maps are drawn as cup-shaped wires connecting the words in a sentence.
 
 ## History
 
@@ -52,4 +52,6 @@ A third, equivalent, formulation was proved to be [[decidability|undecidable]] i
 * {#Thue14} Axel Thue. Probleme Uber Veränderungen von Zeichenreihen Nach Gegebenen Regeln. (1914)
 * Emil L. Post. Recursive Unsolvability of a problem of Thue. Journal of Symbolic Logic (1947)
 * A Markov. On certain insoluble problems concerning matrices. In Doklady Akad (1947)
+* {#Lambek58} J. Lambek. The mathematics of sentence structure. American Mathematics Monthly (1958)
+* J. Lambek. Type grammar revisited. Logical Aspects of Computational Linguistics (1999)
 
