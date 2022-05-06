@@ -89,7 +89,9 @@ see _[[G2-orbifold]]_
 
 * {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
 
+Discussion of [[gravity]] and maybe [[quantum gravity]] on orbifolds:
 
+* Helio V. Fagundes, Teofilo Vargas, _Orbifolds, Quantum Cosmology, and Nontrivial Topology_ ([arXiv:gr-qc/0611048](https://arxiv.org/abs/gr-qc/0611048))
 
 ### Flat orbifolds
 
