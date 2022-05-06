@@ -29,5 +29,10 @@ and on its analog of [[holographic entanglement entropy]]:
 
 * Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
 
+See also
+
+* Takeshi Morita, Hiroki Yoshida, _A Critical Dimension in One-dimensional Large-N Reduced Models_ ([arXiv:2001.02109](https://arxiv.org/abs/2001.02109))
+
+
 
 [[!include D1-D3 intersections in AdS2-CFT1 -- references]]
