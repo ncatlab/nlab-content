@@ -72,6 +72,7 @@ By [[transitive action|transitivity]] of the [[action]] on $G/H$ a $G$-equivaria
 
 Of particular interest are the marks of the [[transitive action|transitive]] [[G-sets]], i.e. those [[isomorphism|isomorphic]] to sets $G/H$ of [[coset]], for $H\subset G$ a [[subgroup]].  These arrange into a _table of marks_:
 
+
 +-- {: .num_defn #TableOfMarks}
 ###### Definition
 **([[table of marks]])**
@@ -109,7 +110,6 @@ $$
   \,.
 $$
 
-
 =--
 
 ## Properties
@@ -126,6 +126,21 @@ The Burnside character (eq:BurnsideCharacter) is [[injective function|injective]
 
 (e.g. [tomDieck 79, Prop. 1.2.2](#tomDieck79), [tomDieck 09, Prop. 5.1.1](#tomDieck09))
 
+
++-- {: .num_prop #TableOfMarksIsInvertibleUpperTriangular}
+###### Proposition
+**([[table of marks]] is [[upper-triangular matrix|upper-triangular]] [[invertible matrix]])**
+
+Ordering the [[conjugacy classes]] $[H_i]$ of [[subgroups]] of $G$ by inclusion, the [[table of marks]] (Def. \rep{TableOfMarks}) becomes an [[upper-triangular matrix]] over the [[integers]] with non-[[zero]] entries on the diaginal. Therefore it is in particular an [[invertible matrix]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the [[subgroup]] $H_i \subset G$ has any [[fixed points]] in $G/H_j$ means equivalently that $H_i$ is [[conjugation action|conjugate]] to a subgroup of the [[stabilizer group]] of $[e] = e H_j \in G/H_j$, which is $H_j$.
+
+=--
 
 
 ## Related concepts
