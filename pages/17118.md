@@ -52,7 +52,7 @@ then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [
 
 =--
 
-([Čadek-Vanžura 97, Theorem 8.1 with Remark 8.2](#CadekVanzura97))
+([Čadek-Vanžura 98, Theorem 8.1 with Remark 8.2](#CadekVanzura98))
 
 +-- {: .num_remark}
 ###### Remark
@@ -75,7 +75,7 @@ Review includes
 
 Discussion of [[characteristic classes]]:
 
-* {#CadekVanzura97} [[Martin Čadek]], Jiří Vanžura, _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
+* {#CadekVanzura98} [[Martin Čadek]], Jiří Vanžura, _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
 See also
 
