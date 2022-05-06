@@ -83,6 +83,7 @@ See also
 
 [[!redirects quaternion]]
 [[!redirects quaternions]]
+[[!redirects quaternionic]]
 
 [[!redirects quaternion number]]
 [[!redirects quaternion numbers]]
