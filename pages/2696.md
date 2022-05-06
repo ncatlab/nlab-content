@@ -66,9 +66,45 @@ Of course, this statement can be reformulated using
 homotopy groups like the version for topological spaces,
 but the above statement is more practical.
 
+\begin{remark}
+In the above criterion, the boundary inclusion
+$$\partial\Delta^n\to\Delta^n$$
+can be replaced by any weakly equivalent [[cofibration]].
+\end{remark}
+
+\begin{remark}
 If $X$ or $Y$ is not a [[Kan complex]],
 one can formulate a similar criterion
 using [[barycentric subdivisions]] of $\partial\Delta^n$ and $\Delta^n$.
+A [[simplicial map]] $f\colon X\to Y$ between [[simplicial sets]]
+is a [[weak homotopy equivalence]] if and only if
+for any $k\ge0$ and for any $a$ and $b$ that make the following square commute
+$$\array{
+Sd^k \partial\Delta^n&\stackrel{a}{\to}&X\\
+\downarrow^{Sd^k \iota}&{}^{\exists d}\nearrow&\downarrow^f\\
+Sd^k \Delta^n &\stackrel{b}{\to}&Y\\
+}
+$$
+there is $l\ge k$ such that in the outer rectangle in the diagram
+$$\array{
+Sd^l \partial\Delta^n&\to&Sd^k \partial\Delta^n&\stackrel{a}{\to}&X\\
+\downarrow^{Sd^l \iota}&&\downarrow^{Sd^k \iota}&&\downarrow^f\\
+Sd^l \Delta^n &\to&Sd^k \Delta^n &\stackrel{b}{\to}&Y\\
+}
+$$
+we can find a diagonal arrow
+$$d\colon Sd^l \Delta^n \to X$$
+that makes the upper triangle in the diagram
+$$\array{
+Sd^l \partial\Delta^n&\stackrel{a}{\to}&X\\
+\downarrow^{Sd^l \iota}&{}^{\exists d}\nearrow&\downarrow^f\\
+Sd^l \Delta^n &\stackrel{b}{\to}&Y\\
+}
+$$
+commutative and the lower triangle commutative up to a homotopy
+$$h\colon Sd^l(\Delta^1\times\Delta^n)\to Y$$
+that is constant on the boundary $Sd^l(\Delta^1\times\partial\Delta^n)$.
+\end{remark}
 
 ## Equivariant version
 
