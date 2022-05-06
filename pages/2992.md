@@ -47,17 +47,25 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 ## Related concepts
 
 * [[natural number]]
+
 * [[integer]]
+
 * **rational number**
 
   * a finite [[field extension]] of $\mathbb{Q}$ is called a _[[number field]]_
 
   * [[dyadic rational number]]
+
+* [[Q/Z]]
    
 * [[algebraic number]]
+
 * [[Gaussian number]]
+
 * [[irrational number]]
+
 * [[real number]]
+
 * [[p-adic number]]
 
 * [[rational numbers object]]
