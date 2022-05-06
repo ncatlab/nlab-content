@@ -216,6 +216,9 @@ Discussion of [[cocycle spaces]] in [[rational Cohomotopy]] (see also at _[[rati
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
 
+* J.-B. Gatsinzi, _Rational Gottlieb Group of Function Spacesof Maps into an Even Sphere_, International Journal of Algebra, Vol. 6, 2012, no. 9, 427 - 432 ([pdf](http://www.m-hikari.com/ija/ija-2012/ija-9-12-2012/gatsinziIJA9-12-2012.pdf))
+
+
 ### On super-spaces
 
 The observation that the [[equations of motion]] of the [[supergravity C-field]] and its dual in [[D=11 N=1 supergravity]] characterize it as a [[cocycle]] in rational 4-Cohomotopy:
