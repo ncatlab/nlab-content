@@ -64,7 +64,9 @@ Etc.
 
 ## Related concepts
 
-* [[hom-space]]
+* [[hom-space]], [[space of maps]]
+
+* [[Cohomotopy charge map]]
 
 [[!include homotopy-homology-cohomology]]
 
