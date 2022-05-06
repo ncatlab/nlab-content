@@ -67,10 +67,10 @@ $x+\frac{x}{e^x-1}=\frac{x e^x}{e^x -1}=\frac{-x}{e^{-x}-1}$ this only changes t
 
 ## Properties
 
-__Clausen-von Staudt congruence__ says
+The __von Staudt-Clausen theorem__ states that
 
 $$
-B_n + \sum_{p|n} \frac{1}{p} \in\mathbb{Z}
+B_{2n} + \sum_{p-1|2n} \frac{1}{p} \in\mathbb{Z}.
 $$
 
 ## Related concepts
