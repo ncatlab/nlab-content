@@ -24,7 +24,7 @@ The _classifying topos of a localic groupoid_ $\mathcal{G}$ is a an incarnation 
 
 ## Definition
 
-A [[localic groupoid]] is a [[groupoid object]] $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ [[internalization|internal to]] [[locales]]/Grothendieck-[[(0,1)-toposes]]. If both $\mathcal{G}_0$ and $\mathcal{G}_1$ happen to be [[spatial locales]], hence [[topological spaces]], then this is a _[[topological groupoid]]_
+A [[localic groupoid]] is a [[groupoid object]] $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ [[internalization|internal to]] [[locales]]/Grothendieck-[[(0,1)-toposes]]. If both $\mathcal{G}_0$ and $\mathcal{G}_1$ happen to be [[spatial locales]], hence [[topological spaces]], then this is a _[[topological groupoid]]_.
 
 Let $N_\bullet \mathcal{G} : \Delta^{op} \to Locales$ be the [[simplicial object]] in locales given by the [[nerve]] of $\mathcal{G}$. By applying the [[sheaf topos]] functor  $Sh : Locale \to Topos$ to this, we obtain  a [[simplicial object|simplicial]] [[topos]] $Sh(N \mathcal{G}) : [n] \mapsto Sh(N_n \mathcal{G})$. Let $tr_2 Sh(N \mathcal{G})$ be its [[simplicial skeleton|2-truncation]], then the [[2-limit|2-colimit]]
 
