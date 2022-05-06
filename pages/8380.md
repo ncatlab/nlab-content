@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -23,9 +27,10 @@ In [[computer science]], a _monad_ describes a "notion of computation".  Formall
 
 * is in a way that is [[associativity law|associative]] in the evident sense and [[unit law|unital]] with respect to a given unit function called $pure_X : X \to T(X)$, to be thought of as taking a value to the pure computation that simply returns that value.
 
-This is essentially the same structure as a [[monad]] in [[category theory]], but presented differently; see below for the precise relationship.
+This is essentially the same structure as a _[[monad]]_ in the sense of [[category theory]], but presented differently; see below for the precise relationship.
 
 ### For imperative programs in functional programming
+ {#ForImperativeProgramsInFunctionalProgramming}
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
@@ -102,22 +107,27 @@ Various monads are _definable_ in terms of the the standard type-forming operati
 
 * A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _[[state monad]]_ for mutable states of type S.
 
-* The [[maybe monad]] is the operation $X \mapsto X \coprod \ast$. The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
+* The **[[maybe monad]]** is the operation $X \mapsto X \coprod \ast$. The idea here is that a function $X \longrightarrow Y$ in its [[Kleisli category]] is in the original category a function of the form $X \longrightarrow Y \coprod \ast $ so either returns indeed a value in $Y$ or else returns the unique element of the [[unit type]]/[[terminal object]] $\ast$. This is then naturally interpreted as "no value returned", hence as indicating a "failure in computation".
 
-* The [[continuation monad]] for a given type $S$ acts by $X \mapsto [[X,S],S]$.
+* The **[[continuation monad]]** for a given type $S$ acts by $X \mapsto [[X,S],S]$.
 
 * A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer comonad]].
 
-  Given a [[type]] $W$, then the [[reader monad]] is the operation of forming the [[function type]] $[W,-] = (W\to (-))$; the [[writer monad]] and the [[writer comonad]] are the operations of forming the [[product type]] $W\times (-)$, and the composite of writer followed by reader is the [[state monad]] $[W, W \times (-)]$.
+  Given a [[type]] $W$, the **[[reader monad]]** is the operation of forming the [[function type]] $[W,-] = (W\to (-))$; the [[writer monad]] and the **[[writer comonad]]** are the operations of forming the [[product type]] $W\times (-)$, and the composite of writer followed by reader is the [[state monad]] $[W, W \times (-)]$.
 
   When $W$ carries the structure of a [[monoid object]] then writer also inherits the structure of a monad (on top of being a comonad) and converse for reader.
 
 Other monads may be supplied "axiomatically" by the programming language, 
+
 This includes
 
 * the [[IO monad]] in [[Haskell]].
 
-* The [[completion monad]] may be used, as in [[constructive analysis]], for dealing for instance with [[real numbers]].
+* The **[[completion monad]]** may be used, as in [[constructive analysis]], for dealing for instance with [[real numbers]].
+
+See also:
+
+* **[[state monad]]**
 
 * Equipping [[homotopy type theory]] (say implemented as a programming language concretely in [[Coq]] or [[Agda]]) with two axiomatic [[idempotent monads]], denoted $\sharp$ and $\Pi$, with some additional data and relations, turns it into _[[cohesive homotopy type theory]]_. See also _[[modal type theory]]_.
 
@@ -155,6 +165,7 @@ There is also
 
 * [[monad (in linguistics)]]
 
+
 ## References
 
 ### General
@@ -175,7 +186,7 @@ Expositions of monads in computer science include
 
 * [[Philip Wadler]], _Monads for functional programming_ in _Lecture notes for the Marktoberdorf Summer School on Program Design Calculi_, Springer Verlag 1992
 
-* [[Philip Mulry]], _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
+* Philip Mulry, _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
 
 * John Hughes, section 2 of _Generalising Monads to Arrows_, Science of Computer Programming (Elsevier) 37 (1-3): 67&#8211;111. (2000) ([pdf](http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271600&_user=10&_pii=S0167642399000234&_check=y&_origin=search&_zone=rslt_list_item&_coverDate=2000-05-31&wchp=dGLzVlk-zSkWb&md5=fa91ab4ffc136b0cedc52318c7c249be&pid=1-s2.0-S0167642399000234-main.pdf))
 
@@ -184,6 +195,10 @@ Expositions of monads in computer science include
 * {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, ([pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf))
 
 * {#Riehl17} [[Emily Riehl]], _A categorical view of computational effects_, 2017 ([pdf](http://www.math.jhu.edu/~eriehl/compose.pdf))
+
+See also:
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)">Monad (functional programming)</a>_
 
 The specification of monads in [[Haskell]] is at
 
@@ -196,7 +211,7 @@ and an exposition of [[category theory]] and monads in terms of Haskell is in
 A comparison of monads with [[applicative functors]] (also known as idioms)
 and with [[arrows (in computer science)]] is in 
 
-* [[Exequiel Rivas]], _Relating Idioms, Arrows and Monads from Monoidal Adjunctions_, ([arXiv:1807.04084](https://arxiv.org/abs/1807.04084))
+* Exequiel Rivas, _Relating Idioms, Arrows and Monads from Monoidal Adjunctions_, ([arXiv:1807.04084](https://arxiv.org/abs/1807.04084))
 
 Generalization from [[monads]] to [[relative monads]] is discussed in
 
