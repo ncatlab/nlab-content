@@ -82,10 +82,10 @@ A [[homomorphism]] of $\lambda$-structures is defined to be a [[homomorphism]] o
 +-- {: .num_example}
 ###### Example
 
-There exists a $\lambda$-ring structure on the ring $1+ R[ [t] ]$ of 
+There exists a $\lambda$-ring structure on the ring $1+ tR[ [t] ]$ of 
 [[power series]] with constant term $1$ where
 
-a) addition on $1+R[ [t] ]$ is defined to be multiplication of power series
+a) addition on $1+tR[ [t] ]$ is defined to be multiplication of power series
 
 b) multiplication is defined by
 
