@@ -25,6 +25,8 @@ In the context of [[philosophy]], **definite description** concerns the use of t
 
 as asserting the unique existence of someone who is currently king of France and who is bald. This means that the statement uttered now is false, since there is no such person. Other philosophers, such as Peter Strawson, have taken this sentence to be meaningless due to its reliance on a false presupposition.
 
+For a treatment of definite description using the resources of [[homotopy type theory]], which allows also for the use of [[generalized the]], see [Corfield 17](#Corfield17).
+
 
 ## Related entries
 
@@ -35,3 +37,5 @@ as asserting the unique existence of someone who is currently king of France and
 * Stanford Encyclopedia of Philosophy, [descriptions](https://plato.stanford.edu/entries/descriptions/)
 
 * [[Bertrand Russell]], _On Denoting_, Mind, 14, 1905, pp. 479–493.
+
+* [[David Corfield]], _[Expressing 'The Structure of' in Homotopy Type Theory](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory)_, Synthese, 2017.
