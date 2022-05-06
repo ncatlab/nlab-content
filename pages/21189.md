@@ -109,6 +109,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 Introduction and review:
 
+* [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
+
 * Volker Koch, _Aspects of Chiral Symmetry_, Int. J. Mod. Phys. E6 (1997) 203-250 ([arXiv:nucl-th/9706075](https://arxiv.org/abs/nucl-th/9706075))
 
 
