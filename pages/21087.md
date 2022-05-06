@@ -102,6 +102,8 @@ Discussion of [[small N corrections]] specifically in [[holographic QCD]]:
 
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
+* Salvatore Baldino, [[Stefano Bolognesi]], Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
+
 
 
 ### In 2d QCD
