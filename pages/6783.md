@@ -36,16 +36,16 @@ Random matrix theory applies to [[black holes in string theory]]:
 
 via the [[SYK model]]:
 
-* Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
+* Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], [[Phil Saad]], [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
 
 via the [[BFSS matrix model]]:
 
 * {#DuSahakian18} Haoxing Du, Vatche Sahakian, _Emergent geometry from stochastic dynamics, or Hawking evaporation in M(atrix) theory_ ([arXiv:1812.05020](https://arxiv.org/abs/1812.05020))
 
 
-via [[Jackiw-Teitelboim gravity]]:
+via [[AdS/CFT]] for [[Jackiw-Teitelboim gravity]]:
 
-* {#SaadShenkerStanford19} Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], _JT gravity as a matrix integral_ ([arXiv:1903.11115](https://arxiv.org/abs/1903.11115))
+* {#SaadShenkerStanford19} [[Phil Saad]], [[Stephen Shenker]], [[Douglas Stanford]], _JT gravity as a matrix integral_ ([arXiv:1903.11115](https://arxiv.org/abs/1903.11115))
 
 * {#StanfordWitten19} [[Douglas Stanford]], [[Edward Witten]], _JT Gravity and the Ensembles of Random Matrix Theory_ ([arXiv:1907.03363](https://arxiv.org/abs/1907.03363))
 
