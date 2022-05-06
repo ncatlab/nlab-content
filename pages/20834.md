@@ -120,9 +120,9 @@ A detailed implementation of the idea in [[F-theory on Spin(7)-manifolds]] is de
 ### Phenomenology
  {#ReferencesPhenomenology}
 
-The [[standard model of cosmology]], as per 2020, with its [[positive number|positive]] [[dark energy]]-desity and open spatial slices contradicts the vanishing [[cosmological constant]] and preferred [[closed manifold|closed]] ([[3-sphere|spherical]]) spatial slices of [[Witten's Dark Fantasy]]. 
+The [[standard model of cosmology]], as per 2020, with its [[positive number|positive]] [[dark energy]]-density and open spatial slices contradicts the vanishing [[cosmological constant]] and preferred [[closed manifold|closed]] ([[3-sphere|spherical]]) spatial slices of [[Witten's Dark Fantasy]]. 
 
-It may very well be that [[Witten's Dark Fantasy]] is [[phenomenology|phenomenologicaly]] unviable. But it is interesting to notice that there is recent and very recent astrophysical analysis which claims problems with exavtly these two aspects of the [[standard model of cosmology]]. If these contrarian authors are actually right, then [[Witten's Dark Fantasy]] is exactly the kind of model needed to match observation.
+It may very well be that [[Witten's Dark Fantasy]] is [[phenomenology|phenomenologicaly]] unviable. But it is interesting to notice that there is recent and very recent astrophysical analysis which claims problems with exactly these two aspects of the [[standard model of cosmology]]. If these contrarian authors are actually right, then [[Witten's Dark Fantasy]] is exactly the kind of model needed to match observation.
 
 #### Dark energy or not?
  {#ReferencesDarkEnergy}
