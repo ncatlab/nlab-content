@@ -62,11 +62,15 @@ For example, in the category [[Grp]] of (possibly nonabelian) groups one has a s
 
 * [[homotopy extension property]]
 
+* [[Kan extension]]
+
+* [[lifts and extensions]]
+
 ## References
 
-General discussion with an eye twoards [[algebraic topology]] and the [[Tietze extension theorem]]:
+General discussion with an eye towards [[algebraic topology]] and the [[Tietze extension theorem]]:
 
-* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_, Advances in Mathematics Volume 8, Issue 3, June 1972, Pages 371-416 (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>)
+* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_, Advances in Mathematics Volume 8, Issue 3, June 1972, Pages 371-416 (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
 
 
 
