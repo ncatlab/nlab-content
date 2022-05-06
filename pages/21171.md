@@ -23,7 +23,7 @@ and a simplex consisting of the last $(q+1)$ vertices,
 with $p+q$ being the dimension of the original simplex.
 
 \begin{definition}
-(Definition 2.10(a) in \cite{Cochain}.)
+(Definition 2.10(a) in [McClure-Smith 01](#Cochain).)
 Given a surjection $f\colon\{1,\ldots,m\}\to\{1,\ldots,k\}$
 and a simplex $\sigma\colon\Delta^p\to X$,
 define
@@ -78,10 +78,10 @@ and for $m=3$ (the sequence 121) we recover $\cup_1$.
 
 ## References
 
-\bibitem{Cochain}
-[[James E. McClure]], [[Jeffrey H. Smith]],
-_Multivariable cochain operations and little $n$-cubes_,
-[arXiv:math/0106024v3](https://arxiv.org/abs/math/0106024v3).
+
+* {#Cochain} [[James E. McClure]], [[Jeffrey H. Smith]],
+_Multivariable cochain operations and little $n$-cubes_
+([arXiv:math/0106024](https://arxiv.org/abs/math/0106024))
 
 
 [[!redirects generalized cup products]]
