@@ -329,12 +329,12 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 #### With ADE orbifold structure
  {#WithADEOrbifoldStructure}
 
-When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. $G_2$-[[orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a fibration by a [[K3 surface]] $X_{K3}$. 
+When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a fibration by a [[K3 surface]] $X_{K3}$. 
 
-For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a $G_2$-orbifold.
+For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]].
 ([Acharya 98, p.3](#Acharya98)). (For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].)
 
-In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local $G_2$-orbifolds are discussed in some detail in ([Atiyah-Witten 01](#AtiyahWitten01)). Families of examples are constructed in [Reidegeld 15](#Reidegeld15).
+In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local [[G2-orbifolds]] are discussed in some detail in ([Atiyah-Witten 01](#AtiyahWitten01)). Families of examples are constructed in [Reidegeld 15](#Reidegeld15).
 
 Codimension-4 ADE singularities in $G_2$-manifolds are discussed in ([Acharya-Gukov 04, section 5.1](AcharyaGukov04), [Barrett 06](#Barrett06)).
 
@@ -445,7 +445,7 @@ For more see the references at _[[exceptional geometry]]_.
 ### $G_2$-Orbifolds
  {#ReferencesG2Orbifolds}
 
-Discussion of $G_2$-[[orbifolds]] includes
+Discussion of [[G2-orbifolds]] includes
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
@@ -519,6 +519,9 @@ For more on this see at _[[M-theory on G2-manifolds]]_
 [[!redirects G2-structure]]
 [[!redirects G2 structures]]
 [[!redirects G2-structures]]
+
+[[!redirects G2-holonomy]]
+[[!redirects G2-holonomies]]
 
 [[!redirects weak G2-holonomy]]
 [[!redirects weak G2 holonomy]]
