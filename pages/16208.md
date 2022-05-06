@@ -47,7 +47,8 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
 ## Related concepts
 
-* [[Xena project]]
+[[!include proof assistants and formalization projects -- list]]
+
 
 ## References
 
