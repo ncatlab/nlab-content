@@ -36,7 +36,7 @@ The BFSS matrix model was argued to arise in several seemingly rather different 
 
 > graphics grabbed from [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)
 
-In any case, the BFSS matrix model ends up being a [[quantum mechanics|quantum mechanical]] system whose bosonic degrees of freedom are a set of 9+1 large [[matrices]]. These play the role of would-be [[coordinate functions]] and their [[eigenvalues]] may be in interpreted as points in a [[non-commutative geometry|non-commutative]] [[spacetime]] thus defined.
+In any case, the BFSS matrix model ends up being a [[quantum mechanics|quantum mechanical]] system whose bosonic degrees of freedom are a set of 9+1 large [[matrices]]. These play the role of would-be [[coordinate functions]] and their [[eigenvalues]] may be interpreted as points in a [[non-commutative geometry|non-commutative]] [[spacetime]] thus defined.
 
 There is also the [[IKKT matrix model]], which takes this one step further by reducing one dimension further down to [[D(-1)-branes]] in [[type IIB string theory]]. 
 
