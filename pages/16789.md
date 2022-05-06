@@ -659,6 +659,8 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 ## References
 
+### General
+
 * {#FreedmanGompfMorrisonWalker09} [[Michael Freedman]], [[Robert Gompf]], [[Scott Morrison]], [[Kevin Walker]], _Man and machine thinking about the smooth 4-dimensional Poincar&#233; conjecture_, Quantum Topology, Volume 1, Issue 2 (2010), pp. 171-208 ([arXiv:0906.5177](http://arxiv.org/abs/0906.5177))
 
 * {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois Journal of Mathematics, volume 44, number 4 (2000) ([arXiv:math/0004141](https://arxiv.org/abs/math/0004141))
@@ -669,13 +671,20 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
 
+### Branched covers
+
+All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  [[4-sphere]]:
+
+* {#Piergallini95} [[Riccardo Piergallini]], _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
+
+* {#IoriPiergallini02} Massimiliano Iori, [[Riccardo Piergallini]], _4-manifolds as covers of the 4-sphere branched over non-singular surfaces_, Geom. Topol. 6 (2002) 393-401 ([arXiv:math/0203087](https://arxiv.org/abs/math/0203087))
+
+
 Speculative remarks on the possible role of maps from [[spacetime]] to the [[4-sphere]] in some kind of [[quantum gravity]] via [spectral geometry](spectral+triple)  are in 
 
 * [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, section 4 of _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
 
-reviewed in
-
-* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, Foundations of Mathematics and Physics One Century After Hilbert. Springer, Cham, 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470))
+* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, Foundations of Mathematics and Physics One Century After Hilbert. Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470))
 
 * [[Alain Connes]], from 58:00 to 1:25:00 in _Why Four Dimensions and the Standard Model Coupled to Gravity - A Tentative Explanation From the New Geometric Paradigm of NCG_, talk at IHES, 2017 ([video recording](https://www.youtube.com/watch?v=qVqqftQ92kA))
 
