@@ -1,8 +1,16 @@
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/Domenico Fiorenza at M-Theory Mathematics 2020.jpg" width="280">
-</div>
-
+\begin{imagefromfile}
+    "file_name": "Domenico Fiorenza at M-Theory Mathematics 2020.jpg",
+    "float": "right",
+    "width": 280,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
 
 * [website](http://www.mat.uniroma1.it/~fiorenza/)
 
