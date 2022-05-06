@@ -28,6 +28,13 @@
 
 ## References
 
+Textbook account
+
+* {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, corollary 15.3.4 of _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
+
+
+See also
+
 * Wikipedia, _[Brouwer fixed-point theorem](https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem)_
 
 Discussion in [[cohesive homotopy type theory]] is in
