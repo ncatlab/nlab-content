@@ -39,7 +39,7 @@ See also
 
 * [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
 
-* [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra
+* {#Wilson09} [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra
 Volume 322, Issue 6, 15 September 2009, Pages 2186-2190, ([pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf)), ([slides](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
 
 
