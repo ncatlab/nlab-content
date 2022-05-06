@@ -47,6 +47,8 @@ Review includes
 
 * [[Joel Primack]], _Dark Matter and Structure Formation in the Universe_, Chapter 1 of _Formation of Structure in the Universe_, Proceedings of the Jerusalem Winter School 1996, edited by A. Dekel and J.P. Ostriker ([arXiv:astro-ph/9707285](https://arxiv.org/abs/astro-ph/9707285))
 
+* [[Daniel Baumann]], _The big bang and the origin of structure_, 2019 ([web](https://www.dropbox.com/s/as3vb4jpv65822k/BigHistory-2019.pdf?dl=0), [[BaumannStructureFormation2019.pdf:file]])
+
 Galaxy formation:
 
 * Julio Navarro, _Simulations of Galaxy Formation:  the State of the Art_ ([pdf](http://www.physics.ox.ac.uk/iau311/navarro_iau311.pdf))
