@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Vassiliev knot invariants
 * table of contents
 {: toc}
@@ -82,7 +83,7 @@ Conversely, one can ask which functions on chord diagrams come from finite type 
 
 The original articles are
 
-* [[V. A. Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
+* [[Viktor Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
 
 * {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
@@ -112,6 +113,17 @@ Concrete computations:
 * Jan Kneissler, _On spaces of connected graphs III: The Ladder Filtration_, Jour. of Knot Theory and its Ramif. vol. 10, no. 5 (2001), 675-686 ([arXiv:math/0301020](https://arxiv.org/abs/math/0301020))
 
 * [[Pierre Vogel]], _Algebraic structures on modules of diagrams_, Journal of Pure and Applied Algebra Volume 215, Issue 6, June 2011, Pages 1292-1339 ([pdf](https://webusers.imj-prg.fr/~pierre.vogel/diagrams.pdf))
+
+### Relation to Jones polynomial:
+
+Relation to the [[Jones polynomial]]:
+
+* Joan S. Birman; Xiao-Song Lin, _Knot polynomials and Vassiliev's invariants_,  Inventiones mathematicae (1993) Volume: 111, Issue: 2, page 225-270 ([https://dml:144077](https://eudml.org/doc/144077))
+
+Relation to other polynomial [[knot invariants]]:
+
+* Myeong-Ju Jeong, Chan-Young Park, _Polynomial invariants and Vassiliev invariants_, Geom. Topol. Monogr. 4 (2002) 89-101 ([arxiv:math/0211045](https://arxiv.org/abs/math/0211045))
+
 
 
 
