@@ -32,6 +32,8 @@ The theory of [[(∞,1)-toposes]], generalizing [[topos theory]] from [[category
 
 * [[higher topos theory]]
 
+* [[Awodey's conjecture]]
+
 ## References
 
 An quick introduction is in part 3, 4 of
