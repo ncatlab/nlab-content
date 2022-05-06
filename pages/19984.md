@@ -34,13 +34,13 @@ The image at the top-right shows a 3d surface diagram of one side of the [[penta
 
 ### Contributors ###
 
-The underlying formal theory of [[associative n-categories|associative _n_-categories]] is due to [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [Christopher Douglas](https://www.maths.ox.ac.uk/people/christopher.douglas) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/). The proof assistant has been implemented by [Lukas Heidemann](https://github.com/zrho) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/), based on further theoretical work by [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [David Reutter](https://www.cs.ox.ac.uk/people/david.reutter/) and 
-[Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/).
+The proof assistant is based on the theory of [[associative n-categories|associative _n_-categories]], which has been worked on by [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [Christopher Douglas](https://www.maths.ox.ac.uk/people/christopher.douglas), [David Reutter](https://www.cs.ox.ac.uk/people/david.reutter/) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/). The proof assistant has been implemented by [Lukas Heidemann](https://github.com/zrho), [Nick Hu](https://github.com/NickHu) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/).
 
 ## References
 
-* [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf))
+* [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)).
 
-* [[Christoph Dorn]], _Associative $n$-categories_ PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf), [arXi:1812.10586](https://arxiv.org/abs/1812.10586))
+* [[Christoph Dorn]], _Associative $n$-categories_ PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf), [arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
 
+* [[Jamie Vicary]], _Strictly associative and unital higher categories_, talk at the _[2018 Midland Graduate School Christmas Seminar](http://www.cs.bham.ac.uk/~axj/2018-mgs-xmas.html)_ ([pdf](http://www.cs.bham.ac.uk/~axj/files/mgs-xmas-2018-Jamie.pdf)).
 
