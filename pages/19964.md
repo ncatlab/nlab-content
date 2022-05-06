@@ -289,6 +289,9 @@ Further development:
 
 * [[Carlos Naya]], K. Oles, _Background fields and self-dual Skyrmions_ ([arXiv:2004.07069](https://arxiv.org/abs/2004.07069))
 
+* C. Adam, K. Oles, A. Wereszczynski, _The Dielectric Skyrme model_ ([arXiv:2005.00018](https://arxiv.org/abs/2005.00018))
+
+
 
 
 [[scattering amplitudes]]:
