@@ -69,7 +69,7 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 
 Sufficient conditions for a limit-preserving functor $R : C \to D$ to be a [[right adjoint]] include:
 
-* $C$ is [[complete category|complete]] and [[locally small category|locally small]], and $D$ satisfies the [[solution set condition]].  
+* $C$ is [[complete category|complete]] and [[locally small category|locally small]], and $R$ satisfies the [[solution set condition]].  
 
   This is Freyd's original version, sometimes called the "**General Adjoint Functor Theorem**".
 
