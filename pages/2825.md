@@ -1,7 +1,7 @@
 
 * [website](http://www.math.uiuc.edu/~rezk/)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 in [[higher algebra]]/[[stable homotopy theory]]
 
@@ -17,13 +17,15 @@ in [[higher category theory]]:
 
 * [[(∞,n)-category]]
 
-* [[higher topos theory]]
+
 
 * [[Theta space]]/[[(n,r)-category]]
 
 in [[higher topos theory]]:
 
 * [[(∞,1)-topos]]
+
+* [[higher topos theory]]
 
 * [[global equivariant homotopy theory]]
 
