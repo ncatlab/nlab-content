@@ -268,7 +268,12 @@ For some of the details see at _[[regular semicategory]]_ and the references the
 
 * [[regular semicategory]]
 
+\linebreak
+
 ## References
+ {#References}
+
+For general references see any text on [[category theory]], as listed in the references [there](category+theory#References).
 
 The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Saunders Mac Lane]] at Paris Gare du Nord:
 
