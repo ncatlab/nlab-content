@@ -72,7 +72,7 @@ For [[ring spectra]]:
 * {#May77} [[Peter May]], Prop. VII 4.3 in: _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
 
 
-* {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_,  Proc. Amer. Math. Soc. 136 (2008), 707-714  ([arXiv:math/0506422v2](http://arxiv.org/abs/math/0506422), [doi:10.1090/S0002-9939-07-08984-8](https://doi.org/10.1090/S0002-9939-07-08984-8))
+* {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_,  Proc. Amer. Math. Soc. 136 (2008), 707-714  ([arXiv:math/0506422](http://arxiv.org/abs/math/0506422), [doi:10.1090/S0002-9939-07-08984-8](https://doi.org/10.1090/S0002-9939-07-08984-8))
 
 
 * {#Lurie} [[Jacob Lurie]], 7.1.3.11-13 in: _[[Higher Algebra]]_
