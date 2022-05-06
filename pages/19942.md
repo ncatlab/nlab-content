@@ -52,5 +52,10 @@ Realization of the [[quark-gluon plasma]] at the [[RHIC]] [[experiment]] has ten
 
 * K. Adcox, et al., _Formation of dense partonic matter in relativistic nucleus–nucleus collisions at RHIC: experimental evaluation by the PHENIX collaboration_ Nuclear Physics A 757.1-2 (2005): 184-283.
 
+Exposition and review:
+
+* Maria Elena Tejeda-Yeomans, _Heavy-ion physics: freedom to do hot, dense, exciting QCD_ ([arXiv:2004.13812](https://arxiv.org/abs/2004.13812))
+
+
 [[!redirects Relativistic Heavy Ion Collide]]
 
