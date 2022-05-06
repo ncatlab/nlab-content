@@ -9,6 +9,8 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,7 +47,7 @@ Using the [[(∞,1)-Grothendieck construction]] the notion of cograph of a funct
 
 ### In terms of hom-equivalences
 
-+-- {: .num_defn}
++-- {: .num_defn #InTermsOfHomEquivalences}
 ###### Definition
 **(in terms of hom equivalence induced by unit map)**
 
@@ -75,14 +77,14 @@ In terms of the concrete incarnation of the notion of $(\infty,1)$-category by t
 
 In this form this definition appears as [[Higher Topos Theory|HTT, def. 5.2.2.7]].
 
-### In terms of cographs / heteromorphisms
+### In terms of cographs/heteromorphisms
  {#InTermsOfCographsHeteromorphisms}
 
 We discuss here the quasi-category theoretic analog of _[Adjoint functors in terms of cographs](cograph+of+a+functor#AdjointFunctorsInTermsOfCographs)_ ([[heteromorphisms]]).
 
 We make use here of the explicit realization of the [[(∞,1)-Grothendieck construction]] in its incarnation for [[quasi-categories]]: here an [[(∞,1)-functors]] $L : D \to C$ may be regarded as a map $\Delta[1]^{op} \to $ [[(∞,1)Cat]], which corresponds under the Grothendieck construction to a [[Cartesian fibration]] of [[simplicial sets]] $coGraph(L) \to \Delta[1]$. 
 
-+-- {: .num_defn}
++-- {: .num_defn #InTermsOfCoCartesianFibrations}
 ###### Definition
 **(in terms of Cartesian/coCartesian fibrations)**
 
@@ -100,22 +102,42 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 =--
 
+### In the homotopy 2-category
+  {#InTheHomotopy2Category}
+
++-- {: .num_defn #InTermsOfTheHomotopy2Category}
+###### Definition
+**(in terms of the homotopy 2-category)**
+
+A pair of [[adjoint (∞,1)-functors]] is an [[adjunction]] in the [[homotopy 2-category of (∞,1)-categories]].
+
+=--
+
+
+This is [Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15)
+
+For the equivalence to the other definitions see [Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15).
+
 
 ## Properties
-
-The two different definition above are indeed equivalent:
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ and $D$ [[quasi-categories]], the two definitions of adjunction, in terms of Hom-equivalence induced by unit maps and in terms of Cartesian/coCartesian fibrations are equivalent.
+For $C$ and $D$ [[quasi-categories]], the two definitions of adjunction, 
+
+1. in terms of Hom-equivalence induced by unit maps (Def. \ref{InTermsOfHomEquivalences}) 
+
+1. in terms of Cartesian/coCartesian fibrations (Def. \ref{InTermsOfCoCartesianFibrations})
+
+are equivalent.
 
 =--
 
+This is [[Higher Topos Theory|HTT, prop 5.2.2.8]].
+
 +-- {: .proof}
 ###### Proof
-
-This is [[Higher Topos Theory|HTT, prop 5.2.2.8]].
 
 First we discuss how to produce the unit for an adjunction from the data of a correspondence $K \to \Delta[1]$ that encodes an $\infty$-adjunction $(f \dashv g)$.
 
@@ -526,11 +548,11 @@ A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{
 
 A study of adjoint functors between [[quasi-categories]] is given in
 
-* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
+* {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
 and further discussion, including also that of [[(∞,1)-monads]] is in 
 
-* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, Advances in Mathematics, Volume 286, 2 January 2016, Pages 802-888 ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279), [doi:10.1016/j.aim.2015.09.011](https://doi.org/10.1016/j.aim.2015.09.011))
 
 A textbook development in the context of [[infinity-cosmoi]] can be found in
 
