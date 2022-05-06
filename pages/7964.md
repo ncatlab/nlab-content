@@ -33,7 +33,7 @@ This is determined by a [[local minimum]] of the Higgs [[potential energy|potent
 \end{imagefromfile}
 
 
-{#Curiously} Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)): spring
+{#Curiously} Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)): 
 
 \begin{imagefromfile}
   "file_name": "HiggsVacuumStabilityIII.png",
@@ -77,6 +77,31 @@ However [[quantum tunneling]]/[[vacuum decay]] is an intrinsically [[non-perturb
 > graphics grabbed form [Schwartz 15, slide 44](#Schwartz15)
 
 \linebreak
+
+
+### Possible causes of the near criticality
+ {#PossibleCausesOfNEarCriticality}
+
+Given, by the [above](#MassAndVacuumInstability) discussion, that the parameters of the Higgs field are observed to be inside a special reason of their potential parameter space, it is natural to speculate that there is some mechanism that enforces or at least prefers this position.
+
+In [BDGGSSS 13, Section 5.2](#BDGGSSS13) is speculation that for dynamics over a [[landscape of string theory vacua|landscape of vacua]] critical points may generally serve as attractors.
+
+More specifically, [Isidori-Pattori 17](#IsidoriPattori17) claims that, under reasonable assumptions (including [[gauge coupling unification]], but excluding "[[naturalness]]") [[supersymmetry|supersymmetric]]-extensions of the [[standard model of particle physics]] ([[MSSM]]) predict a parameter range for the [[top quark]] and Higgs field [[mass]] that is close to coinciding with the corresponding parameter space for Higgs field near criticality:
+
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "IsidoriPattoriViable.jpg",
+  "width": 600
+\end{imagefromfile}
+\end{center}
+
+
+> graphics grabbed from [Isidori-Pattori 17](#IsidoriPattori17)
+
+That [[supersymmetry]], possibly in a [[G2-MSSM]], would be a natural mechanism behind the near criticality of the Higgs field was also claimed in [Kane 18, "Clue 4"](#Kane18).
+
+
 
 ### Cosmological instability?
  {#CosmologicalInstability}
@@ -250,11 +275,18 @@ Review includes
 * {#AFS18} Anders Andreassen, William Frost, Matthew D. Schwartz, _Scale Invariant Instantons and the Complete Lifetime of the Standard Model_, Phys. Rev. D 97, 056006 (2018) ([arXiv:1707.08124](https://arxiv.org/abs/1707.08124))
 
 
-Speculation about what this near-criticality of the Higgs vacuum could be pointing to is in
+Speculation about what this near-criticality of the Higgs vacuum could be pointing to:
+
+attractor mechanism in a [[landscape of string theory vacua|landscape of vacua]]:
 
 * {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_, JHEP12(2013)089 ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
-as well as [Kane 17, "Clue 4"](#Kane17).
+an [[supersymmetry|supersymmetric]]-extension of the [[standard model of particle physics]] (e.g. [[MSSM]], [[G2-MSSM]], ...)
+
+* {#IsidoriPattori17} Gino Isidori, Andrea Pattori, _On the tuning in the $(m_h, m_t)$ plane: Standard Model criticality vs. High-scale SUSY_, Physics Letters B Volume 782, 10 July 2018, Pages 551-558 ([arXiv:1710.11060](https://arxiv.org/abs/1710.11060))
+
+
+as well as [Kane 18, "Clue 4"](#Kane18).
 
 Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmological]] evolution ([[inflation]]) include the following:
 
