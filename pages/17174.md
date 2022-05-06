@@ -153,9 +153,9 @@ such that
 
      \[
        \label{AssumptionOnFiberCohomologyInELerayHirschTheorem}
-       H^\bullet(F;\, R)
+       E_{-\bullet}(F;)
        \simeq
-       R
+       E_{-\bullet}
        \langle 
          \iota_x^\ast \alpha_1, \cdots, \iota_x^\ast \alpha_n 
        \rangle
@@ -208,6 +208,7 @@ then:
 ## Examples
 
 ### Complex-oriented cohomology of the twistor fibration
+ {#ComplexOrientedCohomologyOfTwistorFibration}
 
 Let $E$ be a [[Whitehead-generalized cohomology theory]] equipped with [[complex oriented cohomology|complex orientation]] in the form of a [[first Chern class|first]] [[Conner-Floyd-Chern class]] 
 
@@ -259,7 +260,7 @@ whence the [[cohomology group]] is
     \big(c^E_1\big)^2,\,
     \cdots
     ,\,
-    \big(c^E_1\big)^n,\,
+    \big(c^E_1\big)^n
   \big\rangle
   \;\;\;
   \in
@@ -315,8 +316,7 @@ $$
 over [[quaternionic projective space]] $\mathbb{H}P^{k}$,
 whose [[fiber]]-inclusion is ([[homotopy|homotopic]] to) the canonical inclusion $\mathbb{C}P^1 \hookrightarrow \mathbb{C}P^n$ (see [there](complex+projective+space#Definition)).
 
-For $k = 1$ this is also known as the _[[twistor fibration]]_.
-For $k = \infty$ this is the fibration of [[classifying spaces]]
+E.g. for $k = 1$ this is also known as the _[[twistor fibration]]_; while for  $k = \infty$ this is the fibration of [[classifying spaces]]
 
 $$
   \array{
@@ -332,16 +332,108 @@ $$
     \\
     &&
     B SU(2)
+    \,.
   }
 $$
 
-Therefore, by (eq:ECohomologyGroupOfComplexProjectiveSpace), the assumption (eq:AssumptionOnFiberCohomologyInELerayHirschTheorem) of the $E$-Leray-Hirsch theorem ([above](#StatementInGeneralizedCohomology)) is met if we take the classes (eq:GeneratorsInELerayHirschTheorem) to be the [[cup product|cup powers]] $(c^E_1)^n$, and the $E$-Leray-Hirsch theorem says that:
-
-(...)
+Therefore, by (eq:ECohomologyGroupOfComplexProjectiveSpace), the assumption (eq:AssumptionOnFiberCohomologyInELerayHirschTheorem) of the $E$-Leray-Hirsch theorem ([above](#StatementInGeneralizedCohomology)) is met if we take the classes (eq:GeneratorsInELerayHirschTheorem) to be the [[cup product|cup powers]] $(c^E_1)^n$. Now the $E$-Leray-Hirsch theorem says that:
 
 
+\begin{xymatrix@R=14pt@C=30pt}
+    \mathbb{C}P^1
+    \ar[rr]
+    &&
+    \mathbb{C}P^3
+    \ar[rr]
+    &&
+    \mathbb{H}P^1
+    \\
+    E^\bullet
+    \big(
+      \mathbb{C}P^1
+    \big)
+    \ar@{=}[d]
+    \ar@{<<-}[rr]
+    &
+    &
+    E
+    {}^{\bullet}
+    \big(
+      \mathbb{C}P^3
+    \big)
+    \ar@{=}[d]
+    \ar@{<-^{)}}[rr]
+    &&
+    E
+    {}^{\bullet}
+    \big(
+      \mathbb{H}P^1
+    \big)
+    \ar@{=}[d]
+    \\
+    E^\bullet(\ast)
+    \big\langle
+      1, c^E_1
+    \big\rangle
+    \ar@/_2pc/@{<<-}[ddrr]
+    &&
+    E^\bullet(\ast)
+    \big\langle
+      1, c^E_1, (c^E_1)^2, (c^E_1)^3
+    \big\rangle
+    &&
+    E^\bullet(\ast)
+    \big\langle
+      1,\,
+      \scalebox{.7}{$\tfrac{1}{2}$} p^E_1
+    \big\rangle
+    \ar@/^2pc/@{^{(}->}[ddll]
+    \\
+    {\phantom{A}} \atop {\phantom{A}}
+    \\
+    &&
+    E^\bullet(\ast)
+    \big\langle
+      1,\,
+      c^E_1,\,
+      \scalebox{.7}{$\tfrac{1}{2}$} p^E_1,\,
+      \scalebox{.7}{$\tfrac{1}{2}$} p^E_1
+      \cdot c^E_1
+    \big\rangle
+    \ar[uu]
+      ^-{\simeq}
+      _-{
+        \scalebox{.7}{$
+          \begin{array}{ccc}
+            1 
+              & 
+            c^E_1
+              & 
+            ...
+            \\
+            \scalebox{.65}{
+               \rotatebox{90}{$\mapsto$}
+            }
+            &
+            \scalebox{.65}{
+               \rotatebox{90}{$\mapsto$}
+            }
+            &
+            \scalebox{.65}{
+               \rotatebox{90}{$\mapsto$}
+            }
+            \\
+            1
+            &
+            c^E_1
+            &
+            \scalebox{.7}{$\tfrac{1}{2}$} p^E_1,\,
+          \end{array}
+        $}
+      }
+\end{xymatrix}
 
-(...)
+
 
 ## Related concepts
 
