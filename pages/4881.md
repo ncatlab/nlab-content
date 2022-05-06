@@ -36,10 +36,10 @@ As a [[topological space]] this is the [[quotient topological space]] obained fr
 > graphics grabbed from [Lawson 03](#Lawson03)
 
 
-More generally, for $n \in \mathbb{N}$ any [[natural number]], the $n$-torus is
+More generally, for $n \in \mathbb{N}$ any [[natural number]], the _$n$-torus_ is
 
 $$
-  T := \mathbb{R}^n / \mathbb{Z}^n
+  T \coloneqq \mathbb{R}^n / \mathbb{Z}^n
   \,.
 $$ 
 
@@ -103,4 +103,17 @@ Discussion of the [[homotopy type]] of the torus in [[homotopy type theory]] is 
 
 
 [[!redirects tori]]
+
+[[!redirects 2-torus]]
+[[!redirects 2-tori]]
+
+[[!redirects 3-torus]]
+[[!redirects 3-tori]]
+
+[[!redirects 4-torus]]
+[[!redirects 4-tori]]
+
+[[!redirects n-torus]]
+[[!redirects n-tori]]
+
 
