@@ -81,6 +81,14 @@ In the [[large N limit]]:
 
 * {:Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
+### Skyrmion model
+
+The [[Skyrmion]]-model for baryons (see there for more references):
+
+* {#Weigel08} Herbert Weigel, _Chiral Soliton Models for Baryons_,  Lecture Notes in Physics book series, volume 743, Springer 2008 ([doi:10.1007/978-3-540-75436-7](https://doi.org/10.1007/978-3-540-75436-7))
+
+* {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
 ### In Witten-Sakai-Sugimoto model for AdS-QCD
 
 Realization of [[baryons]] as [[wrapped brane|wrapped]] [[D4-branes]]/[[M5-branes]] via the [[AdS/QCD correspondence]]/[[Witten-Sakai-Sugimoto model]]:
