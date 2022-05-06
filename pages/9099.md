@@ -325,8 +325,7 @@ and around (3.23) of
 
 In 
 
-* [[Jan de Boer]], Paul de Medeiros, Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
- {#deBoerEtAl}
+* [[Jan de Boer]], [[Paul de Medeiros]], Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080)) {#deBoerEtAl}
 
 this is put into the context of [[topological M-theory]] (see around equation (2) in the introduction).
 
@@ -344,7 +343,7 @@ Formulation in [[extended TQFT]] is discussed in
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
 
-
+[[!redirects D=7 Chern-Simons theory]]
 
 [[!redirects 7-dimensional Chern-Simons theory]]
 [[!redirects 7d Chern-Simons theories]]
