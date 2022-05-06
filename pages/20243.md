@@ -136,7 +136,15 @@ with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8
 
 (e.g. [Čadek-Vanžura 97, p. 4](#CadekVanzura97))
 
+### Lift to $Sp(n) \times Sp(1)$
+
+([Marchiafava-Romani 76](#MarchiafavaRomani76), [Salamon 82, around Def. 2.1](#Salamon82))
+
+(...)
+
 \linebreak
+
+
 
 ## Examples
 
@@ -495,7 +503,11 @@ More on the [[cohomology]] of $Sp(n)\cdot Sp(1)$ and its [[classifying space]]:
 
 * [[Dmitri Alekseevskii]] S. Marchiafava, _Quaternionic structures on a manifold and subordinated structures_, Annali di Matematica pura ed applicata (1996) 171: 205 ([doi:10.1007/BF01759388](https://doi.org/10.1007/BF01759388))
 
+Discussion of the lift to $Sp(n) \times Sp(1)$ appears in 
 
+* {#MarchiafavaRomani76} S. Marchiafava, G. Romani, _Sui fibrati con struttura quaternionale generalizzata_, Ann. Mat. Pura Appl. (IV) CVII, 131-157 (1976) ([doi:10.1007/BF02416470](https://doi.org/10.1007/BF02416470))
+
+* {#Salamon82} [[Simon Salamon]], around Def. 2.1 in _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
 
 ### $Sp(2)\cdot Sp(1)$
  {#ReferencesSp2Sp1}
