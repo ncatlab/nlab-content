@@ -27,6 +27,8 @@ A statement about sufficient data for extensions of a [[smooth function]] from a
 
 * [[Tietze extension theorem]]
 
+* [[Taimanov theorem]]
+
 * [[Steenrod-Wockel approximation theorem]]
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
