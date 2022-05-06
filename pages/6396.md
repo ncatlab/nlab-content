@@ -27,6 +27,10 @@ On the [[Green-Schwarz superstring]]:
 
 * {#GreenSchwarz84b} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285 ([spire:196623](http://inspirehep.net/record/196623), <a href="https://doi.org/10.1016/0550-3213(84)90030-0">doi:10.1016/0550-3213(84)90030-0</a>)
 
+Review of the [[Green-Schwarz superstring]] on $Ads_5 \times S^5$ in light of the [[AdS/CFT correspondence]]:
+
+* [[John Schwarz]], _The $AdS_5 \times S^5$ Superstring_ ([arXiv:2004.09661](https://arxiv.org/abs/2004.09661))
+
 On the [[self-dual string]]:
 
 * [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
@@ -63,8 +67,12 @@ On the history of [[string theory]]:
 
 * [[spinning string]]
 
+* [[Green-Schwarz superstring]]
+
 * [[Green-Schwarz sigma-model]]
 
 * [[Green-Schwarz mechanism]]
+
+* [[Perry-Schwarz action]]
 
 category: people
