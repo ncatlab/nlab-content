@@ -25,7 +25,7 @@
 
 ## Idea
 
-The [[equivariant cohomology|equivariant]] [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[equivariant sphere spectrum]] may also be called _equivariant stable cohomotopy_, as it is the [[equivariant stable homotopy theory]] version of [[stable cohomotopy]], hence of [[cohomotopy]].
+The [[equivariant cohomology|equivariant]] [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[equivariant sphere spectrum]] may also be called _equivariant stable cohomotopy_, as it is the [[equivariant stable homotopy theory]] version of [[stable cohomotopy]], hence of [[cohomotopy]]. This is to be thought of as the first order [[Goodwillie-Taylor tower|Goodwillie approximation]] of plain ("unstable") [[equivariant cohomotopy]].
 
 Just as the plain [[sphere spectrum]] is a distinguished object of plain [[stable homotopy theory]], so the [[equivariant sphere spectrum]] is distinguished in [[equivariant stable homotopy theory]] and hence so is equivariant stable cohomotopy theory.
 
@@ -99,9 +99,6 @@ Relation to [[Segal-Carlsson completion theorem]]:
 
 * Noe Barcenas, _Nonlinearity, Proper Actions and Equivariant Stable Cohomotopy_ ([arXiv:1302.1712](https://arxiv.org/abs/1302.1712))
 
-Discussion of unstable equivariant [[cohomotopy]] is in 
-
-* {#Cruickshank03} James Cruickshank, _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
 
 A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivariant stable cohomotopy is discussed in
@@ -112,9 +109,20 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivaria
 
 * Christian Okonek, Andrei Teleman, _Cohomotopy Invariants and the Universal Cohomotopy Invariant Jump Formula_, J. Math. Sci. Univ. Tokyo 15 (2008), 325-409 ([pdf](http://www.matmor.unam.mx/~barcenas/nonlinearity.pdf))
 
-Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational]] equivariant [[cohomotopy]] is in 
+Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational]]  [[equivariant cohomotopy]] is in 
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
+[[!redirects equivariant stable Cohomotopy]]
+
 [[!redirects equivariant stable cohomotopy theory]]
 [[!redirects equivariant stable cohomotopy theories]]
+
+[[!redirects equivariant stable Cohomotopy theory]]
+[[!redirects equivariant stable Cohomotopy theories]]
+
+
+[[!redirects stable equivariant cohomotopy]]
+[[!redirects stable equivariant Cohomotopy]]
+
+
