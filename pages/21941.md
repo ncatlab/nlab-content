@@ -52,6 +52,59 @@ which specializes to the previous statement for $x = 1$.
 
 ([Karoubi 78, Chapter V, Theorem 4.4](#Karoubi78))
 
+
++-- {: .num_remark} 
+###### Remark
+
+By the discussion at _[[universal complex orientation on MU]]_ we have:
+
+For $V$ a [[complex vector bundle]] with [[Thom space]] $Th(V)$, its [[Thom class]] in any [[complex-oriented cohomology theory]] $E$ is classified by the composite
+
+$$
+  Th(V) 
+    \longrightarrow
+  M U
+   \overset{\sigma^E}{\longrightarrow}
+  E 
+  \,,
+$$
+
+where $\sigma$ represents the complex orientation as a map of [[homotopy-commutative ring spectra]] on the [[Thom spectrum]] [[MU]].
+ 
+In this perspective via classifying morphisms of [[ring spectra]], the statement of Prop. \ref{RationalToddClassIsChernCharacterOfThomClass} becomes that the Todd character is the composite of the complex orientation $\sigma^E$ with the [[Chern character]]
+
+$$
+  Td 
+    \;\colon\;
+  M \mathrm{U}
+    \overset{ \sigma^{KU} }{\longrightarrow}
+  KU 
+    \overset{ ch }{\longrightarrow}
+  H^{ev}\mathbb{Q}
+$$
+
+
+
+In particular, on [[cohomology rings]] $E_\bullet \coloneqq \pi_\bullet(E) \coloneqq  \widetilde E(S^\bullet)$ this composite of ring spectrum maps is the _[[Todd genus]]_ on the [[complex cobordism ring]], factored as
+
+$$
+  Td_{2\bullet}
+  \;\colon\;
+  \Omega^\mathrm{U}_{2\bullet}
+  \;=\;
+  (M\mathrm{U})_{2\bullet}
+    \overset{ }{\longrightarrow}
+  KU_{2\bullet}
+    \overset{ch_{2\bullet}}{\longrightarrow}
+  \mathbb{Q}
+  \,.
+$$
+
+=--
+
+(see [Smith 73, p. 303 (3 of 10)](#Smith73))
+
+
 ## Related theorems
 
 * [[e-invariant is Todd class of cobounding (U,fr)-manifold]]
