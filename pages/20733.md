@@ -22,6 +22,14 @@
 
 (...)
 
+## Properties
+
+### In string theory
+
+Transversally intersecting [[Dp-D(p+2)-brane bound states]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
+
+([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99))
+
 ## Related concepts
 
 * [[Yang-Mills instanton]]
@@ -35,6 +43,8 @@
 * [[moduli space of monopoles]]
 
 ## References
+
+### General
 
 The original articles;
 
@@ -55,6 +65,29 @@ The Nahm Transform_ ([dspace:1874/285043](https://dspace.library.uu.nl/handle/18
 See also
 
 * Wikipedia, _[Nahm equations](https://en.m.wikipedia.org/wiki/Nahm_equations)_
+
+
+### In string theory
+
+
+
+
+For transversal [[D1-D3-brane bound states]]:
+
+* {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
+
+
+* [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
+
+For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
+
+* Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
+
+
+With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
+
+* {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
 
 [[!redirects Nahm transforms]]
 
