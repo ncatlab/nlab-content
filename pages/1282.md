@@ -137,18 +137,18 @@ The [[initial object]] in $Set$ is a set $X$ such that there is a unique map fro
 (...)
 
 #### General colimits
-The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
+The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} F(d)$: 
   $$ 
     colim F \simeq \left(\coprod_{d\in D} F(d)\right)/_\sim \,, 
   $$
   where the equivalence relation $\sim$ is that which is _generated_ by 
   $$
-    ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists (f : d \to d') with F(f)(x) = x')
+    ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists (f : d \to d') \quad with F(f)(x) = x')
   \,.
   $$
   If $D$ is a [[filtered category]] then the resulting equivalence relation can be described as follows:
   $$
-    ((x \in F(d)) \sim (x' \in F(d')))\quad iff \quad (\exists d'', (f : d \to d''), (g: d' \to d'') with F(f)(x) = F(g)(x'))
+    ((x \in F(d)) \sim (x' \in F(d')))\quad iff \quad (\exists d'', (f : d \to d''), (g: d' \to d'') \quad with F(f)(x) = F(g)(x'))
   \,.
   $$
   (If $D$ is not filtered, then this description doesn't yield an equivalence relation.)
