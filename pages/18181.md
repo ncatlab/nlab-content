@@ -50,7 +50,7 @@ Since Kant this intuition has been dropped mostly by geometers in favor of the f
 
 Actually, all three possibilities discussed by Kant appear in modern mathematics:
 
-1. the "discursive, or .., general conception" is just the most common way to describe a space by a list of axioms, e.g. a [[topological space]] or a [[metric space]].
+1. the "discursive, or ..., general conception" is just the most common way to describe a space by a list of axioms, e.g. a [[topological space]] or a [[metric space]].
 
 1. a space that "antecede this one all-embracing space, as the component parts from which the aggregate can be made up" (German: "vor dem einigen allbefassenden Raume gleichsam als dessen Bestandtheile (daraus seine Zusammensetzung möglich sei) vorhergehen"). A modern concept that matches this description quite well is the concept of a [[classifying space]], that does not contain each member of a certain class of spaces as a subspace, but from which "antecede" each such space by [[pullback]].
 
@@ -76,8 +76,7 @@ In the development of Kant's distinction between general logic and transcendenta
 
 ###### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
 
-###### _Second Chapter._ On the Deduction of the Pure Concepts of
-the Understanding ("Transcendental Deduction")
+###### _Second Chapter._ On the Deduction of the Pure Concepts of the Understanding ("Transcendental Deduction")
 
 ###### {#deductionA}_A edition:_ Transcendental Deduction
 
