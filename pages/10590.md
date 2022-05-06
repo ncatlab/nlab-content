@@ -1,6 +1,6 @@
 
 
-* [webpage at Princeton](https://web.math.princeton.edu/~smorel/)
+* [webpage at ENS Lyon](http://perso.ens-lyon.fr/sophie.morel/)
 
 *  [Wikipedia (English)](http://en.wikipedia.org/wiki/Sophie_Morel)
 
