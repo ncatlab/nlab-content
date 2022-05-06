@@ -23,6 +23,8 @@ For more see _[[chiral perturbation theory]]_.
 
 * [[Walecka model]]
 
+* [[hadron supersymmetry]]
+
 
 ## References
 
