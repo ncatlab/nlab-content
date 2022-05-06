@@ -1647,6 +1647,9 @@ That these relations characterize the cohomology of the knot-graph complex in th
 
 > graphics grabbed from [Koytcheff-Munson-Volic 13](#KoytcheffMunsonVolic13)
 
+### Cohomology of knot graph complex is weight systems on chord diagrams
+
+[[cohomology of knot graph complex is weight systems on chord diagrams]]
 
 
 ## Further applications
@@ -1827,6 +1830,12 @@ More:
 [[!redirects graph cohomology group]]
 [[!redirects graph cohomology groups]]
 
+[[!redirects knot graph complex]]
+[[!redirects knot graph complexes]]
+
+
 [[!redirects knot-graph complex]]
 [[!redirects knot-graph complexes]]
+
+
 
