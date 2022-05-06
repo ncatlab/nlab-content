@@ -45,7 +45,12 @@ $DI(4) = $ [[G3]] corresponds to the finite $\mathbb{Z}_2$-reflection group whic
 
 ## Examples
 
+* Let $G$ be any compact Lie group whose component group $\pi_0(G)$ is a $p$-group. Define $B \hat{G} = (B G)_p$. Then $\hat{G}$ is a $p$-compact group.
+
+* (Sullivan) The $\mathbb{F}_p$-local sphere $(S^{n-1})_p$, where $n \gt 2$ is an integer dividing $p-1$.
+
 * [[Dwyer-Wilkerson H-space]]
+
 
 ## References
 
