@@ -666,6 +666,10 @@ An [[enriched category|enriched]] version is discussed in
 
 * {#BeardsleyWong18} [[Jonathan Beardsley]], Liang Ze Wong, *The Enriched Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1804.03829) 2018
 
+A [[monoidal category|monoidal]] version is discussed in
+
+* {#MoellerVasilakopoulou19} Joe Moeller, Christina Vasilakopoulou, *Monoidal Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1809.00727) 2019
+
 
 [[!redirects Grothendieck constructions]]
 [[!redirects enriched Grothendieck construction]]
