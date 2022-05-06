@@ -1,3 +1,5 @@
+[[!redirects Euclidean-generated infinity-groupoid]]
+[[!redirects Euclidean-generated infinity-groupoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,15 +22,16 @@
 
 ## Idea 
 
-A _Euclidean-generated $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[Euclidean topology]].
+A _D-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form [[D-topology]], as in [[D-topological spaces]]/[[Delta-generated topological spaces]]. The latter are among the [[concrete object|concrete]] [[0-truncated object in an (infinity,1)-category|0-truncated]] D-topological $\infty$-groupoids, containing, in particular, the [[topological manifolds]].
 
-Examples of [[1-truncated]] type are [[topological groupoid]]s/[[topological stack]]s whose topologies are detectable by maps out of [[Euclidean topology|Euclidean topologies]], for instance [[internal groupoid]]s in [[topological manifold]]s. 
+Examples of [[1-truncated object in an (infinity,1)-category|1-truncated objects]] in D-topological $\infty$-groupoifds are [[topological groupoids]]/[[topological stacks]] which are presented by [[internal groupoids]] in [[D-topological spaces]] (hence degree-wise [[concrete object|concrete]]). 
 
-More generally, every [[simplicial topological space]] whose topology is degreewise detectable by Euclidean topologies canonically identifies with a Euclidean-topological $\infty$-groupoid. Various constructions with simplicial toppological spaces find their natural home in this [[(∞,1)-topos]]. For instance 
+More generally, every [[simplicial topological space]] whose topology is degreewise [[D-topological space|D-topological]] canonically presents a D-topological $\infty$-groupoid. Various constructions with simplicial toppological spaces find their natural home in this [[(∞,1)-topos]]. For instance:
 
 * [[geometric realization of simplicial topological spaces|geometric realization of simplicial topological manifolds]] is equivalently the image $\Pi(X)$ of the corresponding Euclidean-topological $\infty$-groupoid $X$ under the canonical [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]. 
 
 * topological [[simplicial principal bundle]]s over topological [[simplicial group]]s are the corresponding [[principal ∞-bundle]]s in $ETop\infty Grpd$ classified by its [[cohomology|internal cohomology]].
+
 
 
 ## Definition
@@ -993,7 +996,7 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 ## Related concepts
 
-* [[Euclidean-generated space]]
+* [[D-topological space space]], [[diffeological space]]
 
 * [[cohesive (∞,1)-topos]]
 
