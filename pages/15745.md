@@ -16,8 +16,7 @@
 
 ## Idea
 
-The [[isometry group]] of a [[Euclidean space]].
-
+A 10 dimensional Lie group, the relativistic counterpart of which is the 10 dimensional [[Poincare group]]. Both include the [[isometry group]] of [[Euclidean space]]. Moreover, both have important linear representations including actions on tangents of trajectories (i.e. velocities), which - in case of the Galilean group - shift all but one (i.e. the spatial) components like a translation.
 
 ## Related concepts
 
