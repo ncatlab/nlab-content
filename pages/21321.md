@@ -13,6 +13,10 @@ On [[kaon]] [[decay]] in relation to the [[chiral anomaly]]:
 
 * [[Gerhard Ecker]], [[Helmut Neufeld]], [[Antonio Pich]], _Non-leptonic kaon decays and the chiral anomaly_, Nuclear Physics B Volume 413, Issues 1–2, 31 January 1994, Pages 321-352 (<a href="https://doi.org/10.1016/0550-3213(94)90623-8">doi:10.1016/0550-3213(94)90623-8</a>)
 
+On [[flavour physics]], [[CP violation]] and [[flavour anomalies]]:
+
+* [[Antonio Pich]], _Flavour Dynamics and Violations of the CP Symmetry_, Lectures at the 2017 and 2019 CERN - Latin-American Schools of High-Energy Physics ([arXiv:1805.08597](https://arxiv.org/abs/1805.08597))
+
 On [[flavour anomalies]]:
 
 * [[Antonio Pich]], _Flavour Anomalies_, PoS LHCP2019 (2019) 078 ([arxiv:1911.06211](https://arxiv.org/abs/1911.06211), [spire:1765034](https://inspirehep.net/literature/1765034))
