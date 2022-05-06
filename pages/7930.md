@@ -1164,10 +1164,14 @@ real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{Z
 Define a real [[linear map]]
 
 $$
-  \Gamma \;\colon\; \mathbb{R}^{dim_{\mathbb{R}}(\mathbb{K})+1,1} \simeq End_{\mathbb{R}}(\mathbb{K}^4)
+  \Gamma 
+    \;\colon\; 
+  \mathbb{R}^{dim_{\mathbb{R}}(\mathbb{K})+1,1} 
+  \longrightarrow
+  End_{\mathbb{R}}(\mathbb{K}^4)
 $$
 
-from (the real vector space underlying) [[Minkowski spacetime]] to real [[linear maps]] on $\mathbb{K}^4$
+from (the real vector space underlying) [[Minkowski spacetime]] to real [[linear maps|linear]] [[endomorphisms]] on $\mathbb{K}^4$
 
 $$
   \Gamma(A)
@@ -1190,8 +1194,7 @@ $$
 $$
 
 Here on the right we are using the isomorphism from prop. \ref{SpacetimeAsMatrices} for identifying
-a spacetime vector with a $2 \times 2$-matrix, and we are using the trace reversal $\widetilde(-)$
-from def. \ref{TraceReversal}.
+a spacetime vector with a $2 \times 2$-matrix, and we are using the trace reversal $\widetilde{(-)}$ from def. \ref{TraceReversal}.
 
 =--
 
