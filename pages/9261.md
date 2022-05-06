@@ -19,7 +19,7 @@
 
 
 
-The _statistical signifcance_ of a [[measurement]] outcome $x$ of some [[variable]] $X$ is a measure of how unlikely it is that this outcome would be observed if $X$ were a [[random variable]] under given default assumptions, the latter often called the "standard model" or the "null hypothesis" and denoted $H_0$. Hence a high statistical significance of the observed value $x$ _suggests_ that the default assumptions, hence the "standard model" or the "null hypothesis", might be inaccurate and hence "to be rejected", or, rather, to be replaced by an improved assumption/model/hypothesis $H_1$ under which the observation $x$ becomes implied with higher probability.
+The _statistical significance_ of a [[measurement]] outcome $x$ of some [[variable]] $X$ is a measure of how unlikely it is that this outcome would be observed if $X$ were a [[random variable]] under given default assumptions, the latter often called the "standard model" or the "null hypothesis" and denoted $H_0$. Hence a high statistical significance of the observed value $x$ _suggests_ that the default assumptions, hence the "standard model" or the "null hypothesis", might be inaccurate and hence "to be rejected", or, rather, to be replaced by an improved assumption/model/hypothesis $H_1$ under which the observation $x$ becomes implied with higher probability.
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://ncatlab.org/nlab/files/StatisticalSignificance.jpg" width="270" /></div>
 
@@ -47,16 +47,23 @@ In [[particle physics]],it has become customary to require statistical significa
 
 ## In other sciences
 
-
-For instance, in a drug trial where those taking drug $A$ fare on average better than those on drug $B$, one might calculate the likelihood that such an effect would be found by chance given that the two drugs were in fact equally effective. 
+In pharmacology, for instance, hypothesis testing at some significance level is used in drug trials. Where those taking drug $A$ fare on average better than those on drug $B$, one might calculate the likelihood that such an effect would be found by chance given that the two drugs were in fact equally effective. 
 
 
 ## Possible misuse
  {#PossibleMisuse}
 
-There have been a number of criticisms of the uses to which $p$-values have been put in scientific practice (e.g., [ZilMcCl 08](#ZilMcCl08)), especially by [[Bayesianism|Bayesian]] statisticians (see, e.g., [Jaynes 03, sec 9.1.1](#Jaynes03)). 
+There have been a number of criticisms of the uses to which $p$-values have been put in scientific practice (e.g., [ZilMcCl 08](#ZilMcCl08)). The American Statistical Association has published a statement on $p$-values ([WassLaz 16](#WassLaz16)), claiming that 
 
-Bayesians are typically critical of the use of statistical significances for its incoherence and argue that background knowledge should be employed to allow model comparison, see, for instance ([D'Agostini 03](#DAgostini03)).
+> the widespread use of 'statistical significance' (generally interpreted as '$p \leq 0.05$') as a license for making a claim of a scientific finding (or implied truth) leads to considerable distortion of the scientific process.
+
+## Frequentist versus Bayesian statistics
+
+On a more fundamental level, [[Bayesianism|Bayesian]] statisticians have taken issue with the frequentist practice of hypothesis testing (see, e.g., [Jaynes 03, sec 9.1.1](#Jaynes03), [D'Agostini 03](#DAgostini03)). 
+
+A useful comparison of the frequentist and Bayesian approaches as employed in particle physics, and a call for their reconciliation, is in ([Lyons 13](#Lyons13)):
+
+> for physics analyses at the CERN’s LHC, the aim is, at least for determining parameters and setting upper limits in searches for various new phenomena, to use both approaches; similar answers would strengthen confidence in the results, while differences suggest the need to understand them in terms of the somewhat different questions that the two approaches are asking. It thus seems that the old war between the two methodologies is subsiding, and that they can hopefully live together in fruitful cooperation.
 
 ## References 
 
@@ -64,13 +71,15 @@ Review includes
 
 * {#Sinervo02} Pekka K. Sinervo, _Signal Significance in Particle Physics_, in Proceedings of _Advanced Statistical Techniques in Particle Physics_  Durham, UK, March 18-22, 2002 ([arXiv:hep-ex/0208005](https://arxiv.org/abs/hep-ex/0208005), [spire:601052](http://inspirehep.net/record/601052))
 
+* {#Lyons13} Louis Lyons, _Bayes and Frequentism: a Particle Physicist's perspective_, ([arXiv:1301.1273](https://arxiv.org/abs/1301.1273))
+
 * {#Jaynes03} Edwin Jaynes, _Probability theory: The logic of science_, Cambridge University Press, 2003.
 
 See also
 
 * Wikipedia, _[Statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)_
 
-
+* {#WassLaz16} Ronald Wasserstein, Nicole Lazar, _The ASA's Statement on p-Values: Context, Process, and Purpose_, The American Statistician 70(2), 2016, pp. 129-133. 
 
 * Leland Wilkinson and Task Force on Statistical Inference, Statistical methods in psychology journals: guidelines and explanations, American Psychologist 54 (1999), 594&#8211;604, [pdf](http://www.apa.org/pubs/journals/releases/amp-54-8-594.pdf)
 
