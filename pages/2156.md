@@ -18,7 +18,7 @@
 
 ## Idea
 
-An __inner product space__ ("scalar product") is a [[vector space]] $V$ equipped with a (conjugate)-symmetric [[bilinear form|bilinear]] or [[sesquilinear form]]: a [[linear map]] from the [[tensor product]] $V \otimes V$ of $V$ with itself, or of $V$ with its [[dual module]] $\bar{V} \otimes V$  to the [[ground ring]] $k$.
+An __inner product space__ ("scalar product", i.e. with values in [[scalars]]) is a [[vector space]] $V$ equipped with a (conjugate)-symmetric [[bilinear form|bilinear]] or [[sesquilinear form]]: a [[linear map]] from the [[tensor product]] $V \otimes V$ of $V$ with itself, or of $V$ with its [[dual module]] $\bar{V} \otimes V$  to the [[ground ring]] $k$.
 
 One often studies _positive-definite_ inner product spaces; for these, see [[Hilbert space]].  Here we do not assume positivity (positive semidefiniteness) or definiteness (nondegeneracy). See also [[bilinear form]]. 
 
