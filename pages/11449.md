@@ -28,6 +28,8 @@ This is supposed to be the [[generalized cohomology theory]] which measures [[D-
 
 * [[KR-theory]]
 
+* [[quaternionic oriented cohomology theory]]
+
 [[!include string theory and cohomology theory -- table]]
 
 
