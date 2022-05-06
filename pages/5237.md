@@ -386,6 +386,7 @@ Discussion of the [[closed monoidal category]] structure on a category of algebr
 [[!redirects category of commutative monoids]]
 
 [[!redirects Mon]]
+[[!redirects AbMon]]
 [[!redirects CMon]]
 
 category: category
