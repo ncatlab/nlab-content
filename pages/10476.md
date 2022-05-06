@@ -67,7 +67,7 @@ In particular the theorem hence asserts that the $G$-[[equivariant homotopy theo
 ## Model category presentation / Quillen equivalence
  {#ModelCategoryPresentation}
 
-A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou](#Guillou), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
+A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou 06](#Guillou), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
 
 +-- {: .num_defn}
 ###### Definition
@@ -84,7 +84,7 @@ A _cellular fixed point functor_ on $\mathcal{C}$ is ...
 
 =--
 
-([Guillou, def. 3.7](#Guillou))
+([Guillou 06, def. 3.7](#Guillou))
 
 +-- {: .num_example}
 ###### Example
@@ -101,7 +101,7 @@ The [[fixed point spaces]]-functors on the following kinds of model categories a
 
 =--
 
-([Guillou, section 4](#Guillou))
+([Guillou 06, section 4](#Guillou))
 
 
 +-- {: .num_defn}
@@ -111,7 +111,7 @@ For $\mathcal{C}$ a [[cofibrantly generated model category]] with cellular fixed
 
 =--
 
-([Guillou, theorem 3.12](#Guillou))
+([Guillou 06, theorem 3.12](#Guillou))
 
 
 Write $Orb_G$ for the [[orbit category]] of $G$.
@@ -147,7 +147,7 @@ $$
 
 =--
 
-([Guillou, prop. 3.15](#Guillou))
+([Guillou 06, prop. 3.15](#Guillou), [Stephan 13, Theorem 3.17](#Stephan13))
 
 ## Generalizations
 
