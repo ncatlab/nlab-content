@@ -31,6 +31,8 @@ On computation of Yukawa coupling in [[heterotic string theory]]:
 
 and in [[intersecting D-brane models]] of [[type II string theory]] via [[Fukaya categories]]:
 
+* {#CremadesIbanezMarchesano03} D. Cremades, [[Luis Ibáñez]], [[Fernando Marchesano]], _Yukawa couplings in intersecting D-brane models_, JHEP 0307 (2003) 038 ([arXiv:hep-th/0302105](https://arxiv.org/abs/hep-th/0302105))
+
 * {#Marchesano03} [[Fernando Marchesano]], section 7 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
 [[!redirects Yukawa couplings]]
