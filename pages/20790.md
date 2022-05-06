@@ -38,10 +38,17 @@ See also:
 
 * [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ ([arxiv:1405.6727](https://arxiv.org/abs/1405.6727))
 
+### In Ads/CFT
+
+In view of [[AdS/CFT duality]] and [[holographic entanglement entropy]]:
+
+* William Donnelly, Sydney Timmerman, Nicolás Valdés-Meller, 
+_Entanglement entropy and the large $N$ expansion of two-dimensional Yang-Mills theory_ ([arxiv:1911.09302](https://arxiv.org/abs/1911.09302))
+
 
 ### On intersecting D-branes
 
-[[geometric engineering of QFT|geometric engineering]] of 2d QCD in [[intersecting D-brane models]] ([[AdS/QCD]]):
+Specifically [[geometric engineering of QFT|geometric engineering]] of 2d QCD in [[intersecting D-brane models]] ([[AdS/QCD]]):
 
 #### Top-down
 
