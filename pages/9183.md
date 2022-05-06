@@ -199,6 +199,9 @@ Discussion of computer simulation of [[dark matter]] [[structure formation]] on 
 
 * {#GarrisonKimmel18} Shea Garrison-Kimmel, _Next-generation Galaxy Formation Simulations with FIRE_, 2018 ([video recording](https://youtu.be/sSkrm66uDvw))
 
+See also
+
+* Jie Wang, Sownak Bose, Carlos S. Frenk, Liang Gao, Adrian Jenkins, Volker Springel, Simon D. M. White, _Universality in the structure of dark matter haloes over twenty orders of magnitude in halo mass_ ([arXiv:1911.09720](https://arxiv.org/abs/1911.09720))
 
 ### Galaxy rotation curves
 
