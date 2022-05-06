@@ -100,6 +100,8 @@ It is quite possible that there are errors or omissions in this list, although t
 
 * Any [[strict 2-category]] is a bicategory in which the unitors and associator are identities.  This includes [[Cat]], [[MonCat]], the algebras for any strict [[2-monad]], and so on, at least as classically conceived.
 
+* A [[monoidal category]] $M$ may be regarded as a bicategory $B M$ with a single object $\bullet$. The objects $A$ of $M$ become 1-cells $[A]: \bullet \to \bullet$ of $B M$; these are composed across the 0-cell $\bullet$ using the definition $[A] \circ_0 [B] = [A \otimes B]$, using the monoidal product $\otimes$ of $M$. The identity 1-cell $\bullet \to \bullet$ is $[I]$, where $I$ is the monoidal unit of $M$. The morphisms $f: A \to B$ become 2-cells $[f]: [A] \to [B]$ of $B M$. The associativity and unit constraints of the monoidal category $M$ transfer straightforwardly to associativity and unit data of the bicategory $B M$. The construction is a special case of [[delooping]] (see there). 
+
 * Categories, [[anafunctor]]s, and natural transformations, which is a more appropriate definition of [[Cat]] in the absence of the [[axiom of choice]], form a bicategory that is not a strict 2-category.  Indeed, without the axiom of choice, the proper notion of bicategory is [[anabicategory]].
 
 * [[ring|Rings]], [[bimodule]]s, and bimodule homomorphisms are the prototype for many similar examples.  Notably, we can generalize from rings to [[enriched category|enriched categories]].
