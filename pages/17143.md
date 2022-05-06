@@ -33,7 +33,7 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 ##### Conner-Floyd-Chern classes are Thom classes
 
-We discuss that for $E$ a [[complex oriented cohomology theory]], then the $n$th universal [[Conner-Floyd-Chern class]] $c^E_n$ is in fact a universal [[Thom class]] for rank $n$ [[complex vector bundles]]. On the one hand this says that the choice of a [[complex oriented cohomology theory|complex orientation]] on $E$ indeed universally [[orientation in generalized cohomology|orients]] all [[complex vector bundles]]. On the other hand, we interpret this fact [below](#ComplexOrientationAsRingSpectrumMaps) as the [[unitality]] condition on a [[homomorphism]] of [[homotopy commutative ring spectra]] $M U \to E$ which represent that universal orienation.
+We discuss that for $E$ a [[complex oriented cohomology theory]], the $n$th universal [[Conner-Floyd-Chern class]] $c^E_n$ is in fact a universal [[Thom class]] for rank $n$ [[complex vector bundles]]. On the one hand this says that the choice of a [[complex oriented cohomology theory|complex orientation]] on $E$ indeed universally [[orientation in generalized cohomology|orients]] all [[complex vector bundles]]. On the other hand, we interpret this fact [below](#ComplexOrientationAsRingSpectrumMaps) as the [[unitality]] condition on a [[homomorphism]] of [[homotopy commutative ring spectra]] $M U \to E$ which represent that universal orienation.
 
 +-- {: .num_lemma #SphereBundleBunminus1}
 ###### Lemma
@@ -137,15 +137,18 @@ Therefore the [[Thom space]] of the universal complex line bundle is:
 $$
   \begin{aligned}
     Th( E U(1) \underset{U(1)}{\times} \mathbb{C} )
-    & \coloneqq
+    & 
+    \;\coloneqq\;
     D( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     /
     S( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     \\
-    & \overset{\in W_{cl}}{\longrightarrow}
+    & 
+    \;\overset{\in W_{cl}}{\longrightarrow}\;
     D( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     \\
-    & \overset{\in W_{cl}}{\longrightarrow}
+    & 
+    \;\overset{\in W_{cl}}{\longrightarrow}\;
     B U(1)
   \end{aligned}
   \,.
@@ -158,7 +161,7 @@ $$
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of $B U(n)$ relative $B U(n-1)$:
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theory, the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of $B U(n)$ relative $B U(n-1)$:
 
 $$
   \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
@@ -191,11 +194,12 @@ $$
   \begin{aligned}
     \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
     & 
-    =
+    \;=\;
     E^\bullet( D(E U(n) \underset{U(n)}{\times} \mathbb{C}^n), S(E U(n) 
 \underset{U(n)}{\times} \mathbb{C}^n) )
     \\
-    & \simeq
+    & 
+    \;\simeq\;
     E^\bullet( B U(n), B U(n-1))
   \end{aligned}
   \,.
@@ -265,8 +269,7 @@ For the present purpose:
 +-- {: .num_defn #StrictComplexOrientation}
 ###### Definition
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then
-a _[[complex oriented cohomology theory|complex orientation]]_ on $E$ is a choice of element
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theory, a _[[complex oriented cohomology theory|complex orientation]]_ on $E$ is a choice of element
 
 $$
  c_1^E \in E^2(B U(1))
