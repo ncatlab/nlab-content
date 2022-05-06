@@ -824,6 +824,11 @@ A comprehensive and clean account of the classical aspects is in
 
   * _Remarks on Chern-Simons theory_ Bulletin (New Series) of the AMS, Volume 46, Number 2, April 2009, Pages 221&#8211;254S 0273-0979(09)01243-9 ([arXiv](http://arxiv.org/abs/0808.2507))
 
+Relation to [[knot theory]]:
+
+* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
+
+
 See also 
 
 * {#CattaneoMnev08} [[Alberto Cattaneo]], [[Pavel Mnev]], _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836, 2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
