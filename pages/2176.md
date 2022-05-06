@@ -1,3 +1,3 @@
-The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Differential_Logic_:_Introduction).
+The material previously on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Differential_Logic_%E2%80%A2_Introduction).
 
 [[!redirects Differential Logic]]
