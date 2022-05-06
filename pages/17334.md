@@ -43,8 +43,8 @@ According to Melli&#232;s and Zeilberger ([MZ13](#MZ13)),
 
 >One of the difficulties in giving a clear mathematical definition of the "topic" of type theory is that the word "type" is actually used with two very different intuitive meanings and technical purposes in mind:
 
-> 1. Like the syntactician's parts of speech, as a way of defining the grammar of well-formed expressions.
-> 1. Like the semanticist's predicates, as a way of identifying subsets of expressions with certain desirable properties.
+> (1). Like the syntactician's parts of speech, as a way of defining the grammar of well-formed expressions.
+> (2). Like the semanticist's predicates, as a way of identifying subsets of expressions with certain desirable properties.
 
 >These two different views of types are often associated respectively with Alonzo Church and Haskell Curry (hence "types &#224; la Church" and "types &#224; la Curry"), while the late John Reynolds referred to these as the intrinsic and the extrinsic interpretations of types ([Rey00](#Rey00)). In the intrinsic view, all expressions carry a type, and there is no need (or even sense) to consider the meaning of "untyped" expressions; while in the extrinsic view, every expression carries an independent meaning, and typing judgments serve to assert some property
 of that meaning.
