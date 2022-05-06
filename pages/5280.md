@@ -226,6 +226,8 @@ More examples and discussion can be found at this Secret Blogging Seminar [post]
 
 In a [celebrated work](#Gowers), [[Timothy Gowers]] gave a negative solution in the case of [[Banach spaces]].
 
+Martin Escardó has announced a proof of CSB in the base theory of [[Martin-Löf dependent type theory]] with the added assumption of [[function extensionality]] and [[excluded middle]], and supplied an [[Agda]] proof ([Escardó 2020](#Escardo20)). There is a slight subtlety in that "injection" is replaced by "embedding", where the latter is defined to be a map whose fibres are [[subsingletons]]. This implies that CSB holds for [[homotopy types]]/$\infty$-groupoids.
+
 
 ## Name
 
@@ -245,6 +247,8 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 {#MM}
 
 * {#PB19} Pierre Pradic, Chad E. Brown, *Cantor-Bernstein implies Excluded Middle*, [arxiv](https://arxiv.org/abs/1904.09193), 2019
+
+* {#Escardo20} Martín Hötzel Escardó, _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, [blog post](https://homotopytypetheory.org/2020/01/26/the-cantor-schroder-bernstein-theorem-for-%e2%88%9e-groupoids/) (2020), [Agda proof](https://www.cs.bham.ac.uk/~mhe/agda-new/CantorSchroederBernstein.html)
 
 
 [[!redirects Cantor-Schroeder-Bernstein theorem]]
