@@ -218,6 +218,12 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 ## Model structures on the category of double categories
 
+The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Moser, Sarazola, and Verdugo (I)](#MSV2Cat), [Moser, Sarazola, and Verdugo (II)](#MSVHInvar), and [Moser](#MoserInf).
+
+Eventually this page should describe all of these and their relationships, but for the moment we mention only another one called the "gregarious" model structure; see [Campbell](#CampbellGreg).
+
+### Gregarious model structure
+
 The __gregarious model structure__ on the category of double categories is defined uniquely by the following two properties:
 
 * Every double category is fibrant.
@@ -245,12 +251,7 @@ $u\colon a\to b$ is a vertical morphism,
 and we have double cells $\eta\colon u\circ id_a\to f\circ id_a$
 and $\epsilon\colon id_b \circ f \to id_b \circ u$.
 
-The gregarious model structure is not the only model structure
-on the category of double categories.
-There are two more model structures due to Moser, Sarazola, and Verdugo,
-both of which have the same class of weak equivalences,
-which contains the above weak equivalences.
-One of these model structures is conjectured to be a [[left Bousfield localization]] of the gregarious model structure.
+The two model structures due to Moser, Sarazola, and Verdugo have the same class of weak equivalences, which contains the gregarious weak equivalences.  One of these model structures is conjectured to be a [[left Bousfield localization]] of the gregarious model structure.
 
 ## Related pages
 
@@ -293,6 +294,17 @@ See also
 
 * {#Myers16} David Jaz Myers, _String Diagrams For Double Categories and (Virtual) Equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
 
+Model structures on the category of double categories are discussed in:
+
+* {#FPPModel} Thomas M. Fiore, Simona Paoli, Dorette A. Pronk, *Model Structures on the Category of Small Double Categories*, [arxiv](https://arxiv.org/abs/0711.0473), 2007
+
+* {#MSV2Cat} Lyne Moser, Maru Sarazola, Paula Verdugo, *A 2Cat-inspired model structure for double categories*, [arxiv](https://arxiv.org/abs/2004.14233), 2020
+
+* {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo, *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
+
+* {#CampbellGreg} Alexander Campbell, *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf)
+
+* {#MoserInf} Lyne Moser, *A double (∞,1)-categorical nerve for double categories*, [arxiv](https://arxiv.org/abs/2007.01848), 2020
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
