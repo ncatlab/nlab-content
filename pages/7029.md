@@ -27,6 +27,9 @@ of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  th
 
 Equivalently, an action is free when for any pair of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g * x = y$.
 
+Beware the similarity to and difference with [[effective action]]: a free action is effective, but an effective action need not be free.
+
+
 A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_.
 
 ## Examples
@@ -47,7 +50,7 @@ A free action that is also [[transitive action|transitive]] is called _[[regular
 
 * [[universal principal bundle]]
 
-* [[transitive action]], [[free action]], [[semi-free action]], [[regular action]],
+* [[transitive action]], [[effective action]], [[free action]], [[semi-free action]], [[regular action]],
 
 * [[proper action]], [[properly discontinuous action]]
 
