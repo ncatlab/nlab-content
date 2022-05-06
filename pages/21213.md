@@ -50,11 +50,41 @@ $$
 
 with the [[chiral anomaly|chirally anomalous]] [[baryon current]] $B \coloneqq \star tr( (U^{-1} d U) \wedge (U^{-1} d U) \wedge (U^{-1} d U) )$, with $U$ is the exponential of the [[pion]]-[[field (physics)|field]] ([Adkins-Nappi 84, (1) and (2)](#AdkinsNappi84), [Park-Vento 09, (5.5.43) and above (5.5.50)](#ParkVento09)).
 
+This gives a [[decay mode]]
+
+$$
+  \omega \to \pi^+ + \pi^- + \pi^0
+$$
+
+(the "charged decay")
+
+### Other decay modes
+
+Then there is the "neutral decay"
+
+$$
+  \omega \to \pi^0 + \gamma
+$$
+
+seen in [[experiment]] as
+
+$$
+  \begin{aligned}
+    \omega & \to \pi^0 + \gamma 
+    \\  
+    & \to \gamma + \gamma + \gamma
+  \end{aligned}
+$$
+
+([FFHNR 67](#FFHNR67))
+
 ## Related concepts
 
 * [[pion]], [[rho-meson]]
 
 ## References
+
+### General
 
 See also
 
@@ -71,6 +101,21 @@ Further discussion:
 Review:
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
+
+### Decay modes
+
+On [[omega-meson]] [[decay modes]]:
+
+* Stanley M. Flatté, Darrell O. Huwe, Joseph J. Murray, Janice Button-Shafer, Frank T. Solmitz, M. Lynn Stevenson, and Charles Wohl, _Decay Properties of the $\omega$ Meson_, Phys. Rev. 145, 1050 – Published 27 May 1966 ([doi:10.1103/PhysRev.145.1050](https://doi.org/10.1103/PhysRev.145.1050))
+
+* {#FFHNR67} M. Feldman, W. Frati, R. Gleeson, J. Halpern, M. Nussbaum, S. Richert, _Neutral Decay of the $\omega$ Meson_, Phys. Rev. 159, 1219 (1967) ([doi10.1103/PhysRev.159.1219](https://doi.org/10.1103/PhysRev.159.1219), [spire:52556](http://inspirehep.net/record/52556))
+
+* W. Deinet A. Menzione H.Müller, H. M.Staudenmaier, S.Buniatov, D.Schmitt, _Neutral decay modes of the $\omega^0$-meson_, Physics Letters B
+Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10.1016/0370-2693(69)90479-1">doi:10.1016/0370-2693(69)90479-1</a>)
+
+* J. T. Dakin, M. G. Hauser, M. N. Kreisler, R. E. Mischke, _Measurement of the Branching Ratios for ω Neutral Decays_, Phys. Rev. D 6, 2321 (1972) ([doi:10.1103/PhysRevD.6.2321](https://doi.org/10.1103/PhysRevD.6.2321))
+
+* Florian Jonas, _Measurement of $\omega$ and $\eta$ mesons via their three pion decay with ALICE in pp collisions at $\sqrt{s} = t TeV$_, 2018 ([cds:2653176](https://cds.cern.ch/record/2653176))
 
 [[!redirects ω-mesons]]
 
