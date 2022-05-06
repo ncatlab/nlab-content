@@ -93,7 +93,11 @@ Work conducted in homotopy type theory:
 
 * [[Martín Hötzel Escardó]], _The Cantor-Schröder-Bernstein Theorem for ∞-groupoids_, ([arXiv:2002.07079](https://arxiv.org/abs/2002.07079))
 
-* [Tom de Jong](https://www.cs.bham.ac.uk/~txd880/), [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/), _Domain Theory in Constructive and Predicative Univalent Foundations_, (Published in [CSL 2021 LIPIcs proceedings](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=13462), extended version available at [arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
+
+* [[Tom de Jong]], [[Martín Hötzel Escardó]], _Domain Theory in Constructive and Predicative Univalent Foundations_, in: _29th EACSL Annual Conference on Computer Science Logic_, [CSL 2021](https://csl2021.fmf.uni-lj.si/), LIPIcs proceedings 183, 2021 ([doi:10.4230/LIPIcs.CSL.2021.28](https://doi.org/10.4230/LIPIcs.CSL.2021.28), [arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
+
+  > (on [[domain theory]])
+
 
 * [[Martín Hötzel Escardó]] and [Cory Knapp](https://github.com/cmknapp), _Partial Elements and Recursion via Dominances in Univalent Type Theory_, ([LIPIcs:2017:7682](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
 
@@ -117,3 +121,5 @@ Work which uses [[modal homotopy type theory]], with, for example,  [[modalities
 * [[David Jaz Myers]], _Good Fibrations through the Modal Prism_, ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034))
 
 See also [[schreiber:Some thoughts on the future of modal homotopy type theory]].
+
+[[!redirects mathematics presented in HoTT]]
