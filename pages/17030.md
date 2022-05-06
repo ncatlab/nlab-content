@@ -33,6 +33,12 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 * [[model structure on equivariant dgc-algebras]]
 
+* [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]]
+
+* [[fundamental theorem of equivariant rational homotopy theory]]
+
+\linebreak
+
 * [[rational homotopy theory]]
 
 * [[rational stable homotopy theory]]
