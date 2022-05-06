@@ -133,3 +133,12 @@ The interplay with colimits is discussed in
 [[!redirects complete small categories]]
 [[!redirects small complete category]]
 [[!redirects small complete categories]]
+
+[[!redirects complete small category is a poset]]
+[[!redirects complete small categories are posets]]
+[[!redirects cocomplete small category is a poset]]
+[[!redirects cocomplete small categories are posets]]
+[[!redirects small complete category is a poset]]
+[[!redirects small complete categories are posets]]
+[[!redirects small cocomplete category is a poset]]
+[[!redirects small cocomplete categories are posets]]
