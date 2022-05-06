@@ -165,7 +165,7 @@ $$
   \array{
   G \simeq G \times \{p\} &\stackrel{(Id, p)}{\to}& G \times P
   \\
-  \downarrow^{\mathrlap{\rho(-,p)}} && \downarrow^{\mathrlap{\langle \rho, \pi_2}}
+  \downarrow^{\mathrlap{\rho(-,p)}} && \downarrow^{\mathrlap{\langle \rho, \pi_2 \rangle}}
   \\
   P \times \{p\} &\stackrel{(Id,p)}{\to}& P \times P
   }
