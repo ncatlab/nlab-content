@@ -38,6 +38,8 @@ via the [[SYK model]]:
 
 * Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], [[Phil Saad]], [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
 
+* Yiyang Jia, Jacobus J. M. Verbaarschot, _Spectral Fluctuations in the Sachdev-Ye-Kitaev Model_ ([arXiv:1912.11923](https://arxiv.org/abs/1912.11923))
+
 via the [[BFSS matrix model]]:
 
 * {#DuSahakian18} Haoxing Du, Vatche Sahakian, _Emergent geometry from stochastic dynamics, or Hawking evaporation in M(atrix) theory_ ([arXiv:1812.05020](https://arxiv.org/abs/1812.05020))
