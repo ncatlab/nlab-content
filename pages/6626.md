@@ -127,7 +127,7 @@ $$
   !_X \coloneqq \Sigma_X \circ R_X
 $$
 
-is (the [[dependent type theory|dependent]] version of) the canonical [[categorical semantics|categorical interpretation]] of the [[!-modality]] of [[linear logic]]. See at _[dependent linear type theory --  The canonical co-modality](http://ncatlab.org/nlab/show/dependent+linear+type+theory#TheCanonicalComodality)_ for more.
+is (the [[dependent type theory|dependent]] version of) the canonical [[categorical semantics|categorical interpretation]] of the [[exponential modality]] of [[linear logic]]. See at _[dependent linear type theory --  The canonical co-modality](http://ncatlab.org/nlab/show/dependent+linear+type+theory#TheCanonicalComodality)_ for more.
 
 ### The comprehensive factorization system
 
