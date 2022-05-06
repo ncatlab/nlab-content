@@ -133,9 +133,9 @@ The longitude of the component to which the arc $a$ belongs is $b^{-1}$. The lon
 
 \end{example} 
 
-\begin{rmk} The longitude of a component of an oriented link diagram is unique up to [[cyclic permutation]]: the longitude obtained using any one choice of $p$ is a cyclic permutation of the longitude obtained using any other choice of $p$. 
+\begin{rmk} The longitude of a component of an oriented link diagram is unique up to [[rotation permutation]]: the longitude obtained using any one choice of $p$ is a rotation permutation of the longitude obtained using any other choice of $p$. 
 
-When it comes to 3-manifolds, for example when describing the [[fundamental group]], everything is typically invariant under cyclic permutation. Thus it is usual to speak of _the_ longitude of a component of an oriented link diagram. \end{rmk}
+When it comes to 3-manifolds, for example when describing the [[fundamental group]], everything is typically invariant under rotation permutation. Thus it is usual to speak of _the_ longitude of a component of an oriented link diagram. \end{rmk}
 
 category: knot theory
 
