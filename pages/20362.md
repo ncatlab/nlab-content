@@ -23,7 +23,8 @@ in particular [[dyon|dyonic]]$\,$[[black brane|black]] [[M2-branes]], i.e. [[M5-
 
 ### Image in type II string theory
 
-For the [[type II string theory]]-version see at _[[NS5-brane]]_ the section _[NS5/D4/D2 bound states](NS5-brane#NS5D4D2BoundStates)_.
+Under suitable [[duality between M-theory and type IIA string theory]] the M2/M5brane bound states become [[Dp-D(p+2)-brane bound states]] ([Basu-Harvey 05](#BasuHarvey05)).
+
 
 ### Relation to giant gravitons
 
@@ -52,6 +53,7 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
 ## References
 
+### General
 
 * {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
 
@@ -72,6 +74,15 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 Further [[bound states]] of M2/[[M5-branes]] to [[giant gravitons]]:
 
 * {#CaminoRamallo01} J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
+### Reduction to D$p$-D$(p+2)$-brane bound states
+
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (eventually motivating the [[BLG model]]/[[ABJM model]]):
+
+* {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
 
 [[!redirects M2-M5 brane bound states]]
 
