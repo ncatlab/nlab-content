@@ -356,7 +356,7 @@ This and much more history is recalled in
 
 * [[Tom Leinster]], _[Basic Category Theory](http://www.maths.ed.ac.uk/~tl/bct/)_, 2014
 
-* [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/727/context.pdf))
+* [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
 
 * {#FongSpivak18} Brendan Fong, [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
 
