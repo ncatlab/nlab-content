@@ -1106,7 +1106,9 @@ Other references are
 
 * Dwyer, Hirschhorn, Kan, Smith, _Homotopy limit functors in model categories and homotopical categories_.  Defines global homotopy limits in homotopical categories and computes them using local constructions.
 
-* [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_, [math.CT/0610194](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories. (a query on this paper is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=354&Focus=21275#Comment_21275))
+* [[Michael Shulman]], _Homotopy limits and colimits and enriched homotopy theory_, [math.CT/0610194](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories, where the domain category is also allowed to be enriched.
+
+* Sergey Arkhipov, Sebastian Ørsted, *Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories*, [arxiv](https://arxiv.org/abs/1807.03266).  A version of [Weighted limits in simplicial homotopy theory](#Gambino10) that doesn't require simplicial enrichment.
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limits]].
 
