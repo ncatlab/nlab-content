@@ -168,6 +168,10 @@ Original articles include
 
 * {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. 32, 438, 1974 ([doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438))
 
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+
+  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
+
 See also
 
 * Wikipedia, _[Pati-Salam model](https://en.wikipedia.org/wiki/Pati%E2%80%93Salam_model)_
