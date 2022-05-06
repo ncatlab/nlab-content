@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[Grothendieck construction]] may be lifted from [[categories]] to [[model categories]], where it is serve as a presentation for the [[(infinity,1)-Grothendieck construction]].
+The [[Grothendieck construction]] may be lifted from [[categories]] to [[model categories]], where it serves as a presentation for the [[(infinity,1)-Grothendieck construction]].
 
 ## Definition
 
