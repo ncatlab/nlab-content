@@ -75,7 +75,7 @@ $$
 
 =--
 
-This appears for instance as ([MacLaneMoerdijk, theorem VII 2](#MacLaneMoerdijk)).
+This appears for instance as ([MacLaneMoerdijk, theorem VII.5.2](#MacLaneMoerdijk)).
 
 ### In localic sheaf toposes
 
