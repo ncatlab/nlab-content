@@ -47,3 +47,6 @@ Discussion of the D-topology for [[mapping spaces]]:
 [[!redirects diffeological topology]]
 [[!redirects diffeological topologies]]
 
+[[!redirects continuous diffeology]]
+[[!redirects continuous diffeologies]]
+
