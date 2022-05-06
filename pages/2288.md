@@ -118,6 +118,9 @@ Quick surveys include
 
 Lecture notes include
 
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
+
 * [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_
 
 * [[David Barnes]], [[Constanze Roitzheim]], _Foundations of Stable Homotopy Theory_, Cambridge University Press 2020 ([doi:10.1017/9781108636575](https://doi.org/10.1017/9781108636575))
