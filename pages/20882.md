@@ -126,6 +126,8 @@ $$
 
 where the last line shows the equivalence to the [[Jacobi identity]] on the [[Lie algebra object]] itself in the case that the Lie action is the [[adjoint action]].
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 In the language of [[Jacobi diagrams]] this is called the _[[STU-relation]]_.
 and is the reason behind the existence of [[Lie algebra weight systems]] in [[knot theory]]. For more see also at _[[metric Lie representation]]_.
 
