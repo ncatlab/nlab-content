@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,10 +22,11 @@
 ## Idea 
  {#Idea}
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] flavour universality_ (LFU). A possible violation of lepton universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
-See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
+Flavor universality pertains in particular to [[scattering amplitude|decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
+Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[scattering amplitude|decays]] of [[mesons]] that contain a $b$ -- [[B-mesons]], denoted $B$ --
 
 \begin{center}
 \begin{imagefromfile}
@@ -33,13 +35,35 @@ See [Alonso 19](#Alonso19) for general introduction to an audience with basic ba
 \end{imagefromfile}
 \end{center}
 
-> graphics grabbed from [Cartelle 18](#Cartelle18)
+> graphics grabbed from [Cartelle 18](#Cartelle18) -- here $s$ denotes a [[strange quark]]
+
+or as [[scattering amplitude|decays]] of [[baryons]] that contain a $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
+
+Hence flavour universality in the [[standard model of particle physics]] demands, for example, that the _[[ratios]]_ of decay rates (branching fractions) of [[B-mesons]] into [[electrons]] are the same as into [[muons]], hence that the [[ratio]] 
+
+$$
+  R_K
+  \;=\;
+  \frac{ 
+    B \to K \mu^+ \mu 
+  }{
+    B \to K e^+ e^-
+  }
+$$
+
+(where $K$ is a "strange meson", a [[meson]] containing a [[strange quark]])
+
+is essentially equal to 1. Any [[statistical significance|significant]] departure of this [[observable]] from 1 would be a _flavour anomaly_ and would mean that there are fundamental processes at play which are not described by the current [[standard model of particle physics]] ("New Physics").
+
+Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undicovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with high-luminosity/high-precision [[experiments]], complementary to the traditional high-energy direct detection measurements.
+
+See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
 
 
 ## Statistical significance
  {#StatisticalSignificance}
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various channels by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various decay channels and by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
 
 \begin{center}
 \begin{imagefromfile}
@@ -238,9 +262,9 @@ Indeed, [[leptoquark]] models preferred by the flavour anomalies are also a cand
 
 ### General
 
-Early suggestion to look for relevant channels are due to 
+Early suggestion to look at the $R_K$ channel at [[LHCb]] are due to 
 
-* {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
+* {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](http://cds.cern.ch/record/1027442), [pdf](http://cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
 
 General introduction to the issue is in 
 
@@ -261,7 +285,7 @@ See also
 
 
 
-Comprehensive overview of the latest world-avereaged results to be found at:
+Comprehensive overview of the latest world-averaged results to be found at:
 
 * {#HFLAV} _[Heavy Flavour Averaging group](https://hflav.web.cern.ch/)_ (HFLAV)
 
@@ -296,11 +320,14 @@ Comprehensive overview of the latest world-avereaged results to be found at:
 
 * {#LHCb19} [[LHCb collaboration]], _Lepton flavour universality in charged-current $B$ decays_ ([arXiv:1907.01500](https://arxiv.org/abs/1907.01500))
 
-* [[LHCb collaboration]], _Test of lepton universality with $\Lambda^0_b\to p K^-\ell^+\ell^-$ decays_ ([arXiv:1912.08139](https://arxiv.org/abs/1912.08139))
+* {#LHCb191208139} [[LHCb collaboration]], _Test of lepton universality with $\Lambda^0_b\to p K^-\ell^+\ell^-$ decays_ ([arXiv:1912.08139](https://arxiv.org/abs/1912.08139))
 
   also:
 
-  CERN courier, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_
+  CERN courier, _[Debut for baryons in flavour puzzle](https://cerncourier.com/a/debut-for-baryons-in-flavour-puzzle/)_, 20 Dec. 2019
+
+  CERN news, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_, 15 Jan 2020
+
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
 
