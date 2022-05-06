@@ -1,4 +1,3 @@
-[[!redirects exotic 7-spheres]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -9,6 +8,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -32,8 +32,8 @@ The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \m
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
 For the [[7-sphere]], it is the [[cyclic group]] $Z/{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
 
-For review see for instance ([Kreck 10, chapter 19](#Kreck10), [McEnroe 
-15](#McEnroe15)). 
+Review includes ([Kreck 10, chapter 19](#Kreck10), [McEnroe 
+15](#McEnroe15), [Joachim-Wraith](#JoachimWraith)). 
 
 ## Examples
 
@@ -69,3 +69,14 @@ See also
 ### In M-theory
 
 * {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv.Theor.Math.Phys.3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
+
+
+[[!redirects exotic 7-spheres]]
+
+
+[[!redirects Brieskorn sphere]]
+[[!redirects Brieskorn spheres]]
+
+[[!redirects Milnor sphere]]
+[[!redirects Milnor spheres]]
+
