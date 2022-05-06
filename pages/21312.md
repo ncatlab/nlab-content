@@ -16,6 +16,8 @@ Review:
 * [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], 
 _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
 
+* [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
+
 
 
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
