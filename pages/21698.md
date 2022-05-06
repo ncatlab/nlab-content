@@ -23,7 +23,7 @@
 
 ### General
 
-The construction of [[algebraic K-theory]] $K(R)$, originallt defined for [[rings]] $R$, generalizes to [[ring spectra]]. But algebraic K-theory is itself [[Brown representability theorem|represented]] by a ring spectrum, so that this construction may then be iterated to yield _iterated algebraic K-theories_ $K(K(R))$, $K(K(K(R)))$, etc.
+The construction of [[algebraic K-theory]] $K(R)$, originally defined for [[rings]] $R$, generalizes to [[ring spectra]]. But algebraic K-theory is itself [[Brown representability theorem|represented]] by a ring spectrum, so that this construction may then be iterated to yield _iterated algebraic K-theories_ $K(K(R))$, $K(K(K(R)))$, etc.
 
 The [[red-shift conjecture]] says that this iteration plays a special role in [[chromatic homotopy theory]].
 
@@ -33,7 +33,7 @@ The construction of iterated algebraic K-theory has received particular attentio
 
 Here the first iterated stage $K(ku)$ is related to [[BDR 2-vector bundles]] essentially like [[ku]] is related to ordinary [[complex vector bundles]].
 
-The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-theory has been shown to accomodate a generalization of the [[Fourier-Mukai transform|Fourier-Mukai]]-type transform on [[twisted K-theory]] that is given by [[topological T-duality]], generalizing it to [[spherical T-duality]].
+The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-theory has been shown to accommodate a generalization of the [[Fourier-Mukai transform|Fourier-Mukai]]-type transform on [[twisted K-theory]] that is given by [[topological T-duality]], generalizing it to [[spherical T-duality]].
 
 ## Properties
 
