@@ -127,6 +127,10 @@ Similar material can also be found in
 
 [^fine]: A bouquet of circles is the [[coproduct]] of a collection of circles, each with a basepoint, in the category of [[pointed spaces]]. In other words, a [[pushout|wide pushout]] in [[Top]] of inclusions of a 1-point space into circles, with the evident pointing. 
 
+Discussion in [[homotopy type theory]]/[[univalent foundations]] (see also [[mathematics presented in HoTT]]):
+
+* {#Swan20} [[Andrew Swan]], _On the Nielsen-Schreier Theorem in Homotopy Type Theory_ ([arXiv:2010.01187](https://arxiv.org/abs/2010.01187))
+
 
 [[!redirects Nielsen's theorem]]
 [[!redirects Nielsen theorem]]
