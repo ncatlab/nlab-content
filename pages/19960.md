@@ -129,9 +129,7 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 
 > graphics grabbed from [GKMMN 10](#GKMMN10)
 
-
-
-
+These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18).
 
 
 
@@ -142,6 +140,8 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 ### General
 
 Review:
+
+* {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://xxx.lanl.gov/abs/hep-th/0212193))
 
 * {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int.J.Mod.Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
 
@@ -253,6 +253,9 @@ Original articles:
 
 * Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
 
+* {#SonnenscheinWeissman18} Jacob Sonnenschein, Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
+
+
 ### Application to baryons as solitons/Skyrmions
  {#ReferencesBaryonsSkyrmions}
 
@@ -329,6 +332,13 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 
 * Luigi Cappiello, _What does Holographic QCD predict for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
 
+
+### Application to Higgs field
+  {#ReferencesApplicationToHiggsField}
+
+Application to [[Higgs field]]:
+
+* {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
 
 
 [[!redirects AdS/QCD correspondence]]
