@@ -30,6 +30,8 @@
 
 ## References
 
+Named after [[Jeffrey Goldstone]].
+
 See also
 
 * Wikipedia, _[Goldstone boson](https://en.wikipedia.org/wiki/Goldstone_boson)_
