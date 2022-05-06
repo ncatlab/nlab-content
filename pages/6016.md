@@ -1,3 +1,4 @@
+Murray Gell-Mann was an American physicist (1929-2019), best known for his work on the classification of elementary particles and their interactions.
 
 * [Wikipedia entry](#http://de.wikipedia.org/wiki/Murray_Gell-Mann)
 
