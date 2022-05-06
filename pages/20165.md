@@ -44,6 +44,7 @@ and also reproduces well the baryonic [[Tully-Fisher relation]] ([El-Badry et al
 
 More in detail, [[galaxy rotation curves]] exhibit a close correlation between [[angular velocity]] and total _visible_ enclosed math at any given [[radius]], called the _[[radial acceleration relation]]_ (RAR) or _[[mass-discrepancy acceleration relation]]_. This, too, is reproduced in [[cold dark matter]]-[[model (in theoretical physics)]]  computer simulation ([Santos-Santos et al. 15](#SantosSantosEtAl15), [Cintio-Lelli 15](#CintioLelli15), [Keller-Wadsley 16](#KellerWadsley16), [Ludlow et al 16](#LudlowEtAl16)). These early simulations were not found conclusive in [Lelli et al 16, section 8.2](#LelliEtAl16). But more detailed analysis ([PSF 18](#PSF18)) and more refined simulation [Dutton-Maccio-Obreja-Buck 19](#DuttonMaccioObrejaBuck19) has then been claimed to confirm the statement.
 
+A conceptual explanation via stellar feedback is discussed in [GBFH19](#GBFH19).
 
 
 
@@ -77,6 +78,10 @@ On the [[mass-discrepancy acceleration relation]]:
 Critical comments on the early simulations in
 
 * {#LelliEtAl16} Federico Lelli, Stacy S. McGaugh, James M. Schombert, Marcel S. Pawlowski, section 8.2 of _One Law To Rule Them All: The Radial Acceleration Relation of Galaxies_ ([arXiv:1610.08981](https://arxiv.org/abs/1610.08981))
+
+Conceptual explanation via stellar feedback:
+
+* {#GBFH19} Michael Y. Grudić, Michael Boylan-Kolchin, Claude-André Faucher-Giguère, [[Philip Hopkins]], _Stellar feedback sets the universal acceleration scale in galaxies_ ([arxiv:1910.06345](https://arxiv.org/abs/1910.06345))
 
 
 [[!redirects Tully-Fisher relations]]
