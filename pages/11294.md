@@ -25,7 +25,7 @@ There are numerous ways of defining $e$. One is
 
 $$e \coloneqq \sum_{n \geq 0} \frac1{n!} = 1 + 1 + \frac1{2!} + \frac1{3!} + \ldots.$$ 
 
-Perhaps more important than the [[constant function|constant]] $e$ is the standard [[exponential function]] (defined for all [[complex numbers]] $x$) 
+This can be interpreted as the [[groupoid cardinality]] for $core(FinSet)$. Perhaps more important than the [[constant function|constant]] $e$ is the standard [[exponential function]] (defined for all [[complex numbers]] $x$) 
 
 $$\exp(x) = \sum_{n \geq 0} \frac{x^n}{n!}$$ 
 
