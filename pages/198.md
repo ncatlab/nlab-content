@@ -77,6 +77,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 ## Related concepts
 
+* [[quiver variety]]
+
 * [[action]], [[∞-action]]
 
 * [[module]], [[∞-module]]
