@@ -17,7 +17,7 @@
 
 Recall the notion of a [[Grothendieck fibration]]: a [[functor]] $p \colon E \to B$ whose fibres $E_b$ are (contravariantly) functorial in $b \in B$.
 
-This idea may be generalized to work in any suitable [[2-category]], although if the 2-category is not [[strict 2-category|strict]], then one has to generalize instead the non-strict notion of [[Street fibration]].  The generalized definition can be given in any of several equivalent ways, in such a way that
+This idea may be generalized to work in any suitable [[2-category]] $K$, although if the 2-category is not [[strict 2-category|strict]], then one has to generalize instead the non-strict notion of [[Street fibration]].  The generalized definition can be given in any of several equivalent ways, in such a way that
 
 +-- {: .standout #ElemFibSpecializesToCat }
 
