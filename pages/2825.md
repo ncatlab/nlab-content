@@ -7,6 +7,10 @@ Introducing [[model toposes]]/[[(∞,1)-toposes]]:
 
 * {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
+Review of [[higher topos theory]]:
+
+* [[Charles Rezk]], _Lectures on Higher Topos Theory_, Leeds 2019 ([pdf](https://faculty.math.illinois.edu/~rezk/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]])
+
 
 On [[complete Segal spaces]]:
 
