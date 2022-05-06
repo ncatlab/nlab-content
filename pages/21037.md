@@ -13,4 +13,12 @@ On [[heterotic M-theory on ADE-orbifolds]]:
 
 * {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
+On [[baryons]] and [[mesons]] in [[holographic QCD]]:
+
+* {#BISY98} A. Brandhuber, N. Itzhaki, [[Jacob Sonnenschein]], [[Shimon Yankielowicz]],  _Baryons from Supergravity_, JHEP 9807:020, 1998 ([arxiv:hep-th/9806158](https://arxiv.org/abs/hep-th/9806158))
+
+
+* {#SonnenscheinWeissman18} [[Jacob Sonnenschein]], Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
+
+
 category: people
