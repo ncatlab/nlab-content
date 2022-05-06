@@ -1,4 +1,22 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 # Prefix Orders
+* table of contents
 {: toc}
 
 ## Idea ##
@@ -67,7 +85,7 @@ In this way, prefix ordered sets form a [[category]] [[Pfx]]. Furthermore, they 
 
 * [[partial order]]
 * In some books on order theory, a partially ordered set that is downward well-ordered is used as a characterization of a [[tree]]. Prefix orders relax this definition to downward total orders.
-* Any partial order can be viewed as an Alexandroff topology. When viewing prefix orders as an Alexandroff topology, the history preserving maps translate to continuous open maps.
+* Any partial order can be viewed as an [[Alexandroff topology]]. When viewing prefix orders as an Alexandroff topology, the history preserving maps translate to continuous open maps.
 
 ## References ##
 
