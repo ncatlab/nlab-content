@@ -6,13 +6,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### String theory
-+-- {: .hide}
-[[!include string theory - contents]]
-=--
 #### Duality in string theory
 +-- {: .hide}
 [[!include duality in string theory -- contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
@@ -229,7 +229,17 @@ Discussion of [[string phenomenology]] in Horava-Witten theory:
 [[!redirects Horava--Witten theory]]
 
 [[!redirects duality between M-theory and heterotic string theory]]
+[[!redirects duality between heterotic string theory and M-theory]]
+
 [[!redirects duality heterotic string theory and M-theory]]
+
 
 [[!redirects duality between M-theory and type I string theory]]
 [[!redirects duality between type I string theory and M-theory]]
+
+[[!redirects HET - M]]
+[[!redirects HET - M duality]]
+
+[[!redirects M - HET]]
+[[!redirects M - HET duality]]
+
