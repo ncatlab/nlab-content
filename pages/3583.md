@@ -5,7 +5,11 @@
 
 ## Disambiguation
 
-There are few mutually unrelated notions denoted by "crystal" in mathematics. One can of course talk about mathematical models of physical crystals and their geometry, this will presumably not be a subject of attention in $n$lab. Another, is an intermediary notion leading to [[crystal basis|crystal bases]] of [[Kashiwara]] and of Lusztig, thus one associates a crystal to a [[quantized enveloping algebra]]. Finally, there are **crystals due Grothendieck** to which this entry is dedicated.
+There are few mutually unrelated notions denoted by "crystal" in mathematics. 
+
+One can of course talk about mathematical models of physical crystals and their geometry.
+
+ Another, is an intermediary notion leading to [[crystal basis|crystal bases]] of [[Kashiwara]] and of Lusztig, thus one associates a crystal to a [[quantized enveloping algebra]]. Finally, there are **crystals due Grothendieck** to which this entry is dedicated.
 
 
 ## Overview
@@ -23,9 +27,16 @@ But Grothendieck considered not only descent for quasicoherent sheaves but also 
 Moreover this has also a crystalline version: **crystals of affine schemes**. This corresponds to a nonlinear version of [[D-modules]], called **[[D-schemes]]** (also called [[diffieties]] by Vinogradov). As D-modules correspond to solutions of systems of linear [[differential equations]], D-schemes correspond to systems of nonlinear ones. One has also analytic version (analytic D-spaces). One can do more general crystals, e.g. of affine schemes. 
 
 
-## Related entries and references
+## Related entries
+
+* [[crystalline cohomology]]
 
 * [[Grothendieck connection]], [[D-module]], [[p-connection]]
+
+* [[quasicrystal]]
+
+## References
+
 * [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_, notes in [[Dennis Gaitsgory]]'s seminar, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
 * [[Dennis Gaitsgory]], Nick Rozenblyum, _Crystals and D-modules_, [arxiv/1111.2087](http://arxiv.org/abs/1111.2087)
 * A. [[Beilinson]], V. Drinfel'd, _Chiral algebras_ contains a section on D-schemes.
