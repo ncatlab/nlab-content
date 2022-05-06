@@ -6,7 +6,9 @@ His current research interests are in [[directed homotopy theory]] and other asp
 
 ###References
 
-* [Publications and preprints](https://people.math.osu.edu/krishnan.118/) 
+* For general [Publications and preprints](https://people.math.osu.edu/krishnan.118/) 
 (follow the link in the top right of that page.)
+
+* _Triangulations of Conal Manifolds_, [arxiv](https://arxiv.org/abs/1909.01971)
 
 category: people
