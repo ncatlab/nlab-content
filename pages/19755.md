@@ -17,7 +17,7 @@
 
 ##Idea 
 
-The set of [[permutations]] of a set, $X$, form a group, $S_X$, under composition.  This is especially clear if one thinks of the permutation as a [[bijection]] on $X$, where the multiplication / composition is just composition of functions. This group may be denoted $S_X$, $\Sigma_X$, $Sym(X)$, or $X!$.
+The set of [[permutations]] of a set, $X$, form a [[group]], $S_X$, under composition.  This is especially clear if one thinks of the permutation as a [[bijection]] on $X$, where the multiplication / composition is just composition of functions. This group may be denoted $S_X$, $\Sigma_X$, $Sym(X)$, or $X!$.
 
 When $X$ is [[the]] [[finite set]] $(n) = \{1,\dots,n\}$, then its symmetric group is a [[finite group]] of [[cardinality]] $n!$ = "$n$ [[factorial]]", and one typically writes $S_n$ or $\Sigma_n$. 
 
@@ -101,15 +101,21 @@ which relates this symmetric group to the [[braid group]], **Br 3**, and to the 
 
 ##Related entries
 
-* [[permutation]]
+* [[permutation]], [[permutation representation]]
 
 * [[braid group]]
 
 
 
-##References
+## References
 
-* [Symmetric group](https://en.wikipedia.org/wiki/Symmetric_group) in Wikipedia.
+Textbook accounts include
+
+* {#Sagan01} Bruce Sagan, _The symmetric group_, Springer 2001 ([pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
+
+See also 
+
+* Wikipedia, _[Symmetric group](https://en.wikipedia.org/wiki/Symmetric_group)_
 
 
 
