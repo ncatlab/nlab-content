@@ -27,9 +27,8 @@ The lift to [[11d supergravity]]/[[M-theory]] of 3-string junctions is supposed 
 
 ## Related concepts
 
-* [[intersecting brane]]
+[[!include brane bound states -- table]]
 
-* [[5-brane web]]
 
 ## References
 
