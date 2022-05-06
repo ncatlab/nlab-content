@@ -104,7 +104,7 @@ Many proofs rely explicitly on the [[double negation]] rule by first supposing t
 
 In fact, the only problem is Lemma \ref{sqrt}.  This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
 
-Most varieties of [[constructive mathematics]] (including that in [[Errett Bishop]]\'s book) nevertheless accept the FTA, because the needed square roots follow from [[weak countable choice]] ($WCC$, which is a consequence of either excluded middle or [[countable choice]]).  A fully choice-free constructive proof also exists for the [[Cauchy real number|Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by $WCC$).
+Most varieties of [[constructive mathematics]] (including that in [[Errett Bishop]]\'s book) nevertheless accept the FTA, because the needed square roots follow from [[weak countable choice]] ($WCC$, which is a consequence of either excluded middle or [[countable choice]]). A fully choice-free constructive proof by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) also exists for the [[modulated Cauchy real number|modulated Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]).
 
 [[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
@@ -144,9 +144,9 @@ The Reverse Mathematical treatment is given in
 * Kazuyuki Tanaka and Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
 {#TK2005}
 
-A [[constructive mathematics|constructive]] algebraic proof of the fundamental theorem of algebra for the [[Cauchy real numbers]] without choice princples such as [[weak countable choice]]
+A [[constructive mathematics|constructive]] algebraic proof of the fundamental theorem of algebra for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]
 
-* Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
+* {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
 A full formalization in the [[Coq]] [[proof assistant]] is in
 
