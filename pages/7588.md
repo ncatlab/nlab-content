@@ -15,11 +15,11 @@
 
 ## Idea
 
-__Point-free topology__ refers to various formulations of [[topology]] that are not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  What they generally have in common is that instead the points are described as models of a [[geometric theory]]. This change has some important consequences.
+__Point-free topology__ refers to various formulations of [[topology]] that are not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  What they generally have in common is that instead the points are described as [[models]] of a [[geometric theory]]. This change has some important consequences.
 
-First, it conveniently describes the points not only in one's favourite category of sets, but also in arbitrary [[Grothendieck topos|Grothendieck toposes]].
+First, it conveniently describes the points not only in one's favourite [[category of sets]], but also in arbitrary [[Grothendieck topos|Grothendieck toposes]].
 
-Second, it opens up the possibility of using predicate geometric theories, to obtain generalized spaces (the classifying toposes) in the sense of Grothendieck.
+Second, it opens up the possibility of using predicate geometric theories, to obtain generalized spaces (the [[classifying toposes]]) in the sense of Grothendieck.
 This article will mostly concern itself with the ungeneralized point-free spaces, corresponding to propositional geometric theories.
 
 The phrase "point-free topology" is often taken as synonymous with _pointless topology_ [Johnstone 83](#Johnstone83). However, let us reserve "pointless" for approaches that avoid mentioning points and refer directly to the geometric theory presentation and structures deriving from it.
