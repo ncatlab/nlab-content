@@ -39,7 +39,7 @@ of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyc
 
 * [[weak equivalences|Weak equivalences]] are preserved by definition of the [[model structure]] on topological spaces, which is [[transferred model structure|transferred]] from [[simplicial sets]].
 
-* [[Cofibrations]] (and hence [[acyclic cofibrations]]) are preserved because all cofibrations of topological spaces are injective maps, injective maps are preserved, and all injective maps of simplicial sets are cofibrations.
+* [[Cofibrations]] (and hence [[acyclic cofibrations]]) are preserved because all cofibrations of topological spaces are [[injective functions]], injective maps are preserved, and all injective maps of simplicial sets are cofibrations.
 
 * [[fibrations|Fibrations]] and [[acyclic fibrations]] are preserved because the singular complex functor is a [[right Quillen functor]].
 
