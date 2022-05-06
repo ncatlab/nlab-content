@@ -22,13 +22,13 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $C$ a [[monoidal category]], the **category of [[monoids]]** $Mon(C)$  in $C$ is the [[category]] whose
+For $C$ a [[monoidal category]], the **category of [[monoid in a monoidal category|monoids]]** $Mon(C)$  in $C$ is the [[category]] whose
 
-* [[objects]] are [[monoids]] in $C$;
+* [[objects]] are [[monoid in a monoidal category|monoids]] in $C$;
 
 * [[morphism]]s are morphisms in $C$ of the underlying objects that respect the monoid structure.
 
-Similarly for the **category of [[commutative monoids]]** $CMon(C)$, if $C$ is symmetric monoidal.
+Similarly for the **category of [[commutative monoid in a symmetric monoidal category|commutative monoids]]** $CMon(C)$, if $C$ is symmetric monoidal.
 
 =--
 
@@ -159,7 +159,7 @@ Suppose that $\mathcal{C}$ is
 
 * that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
 
-Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{C})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{C})$ of _[[commutative monoid in a symmetric monoidal category|commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
 
 $$
   U(B \coprod_A C) \simeq  B \otimes_A C 
