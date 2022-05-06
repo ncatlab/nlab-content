@@ -40,13 +40,40 @@ A 7-dimensional 3-Sasakian manifold carries a 1-parameter family of $G_2$-[[G2 m
 
 ## Related concepts
 
+
+* [[contact manifold]]
+
 * [[conifold]]
 
 * [[5-manifold]]
 
 ## References
 
+The concept goes back to
+
+* [[Shigeo Sasaki]], _On differentiable manifolds with certain structures which are closely related to almost contact structure I_, Tohoku Math. J. (2) 12 (1960), 459-476 ([euclid:1178244407](https://projecteuclid.org/euclid.tmj/1178244407))
+
+* [[Shigeo Sasaki]], Y. Hatakeyama, _On differentiable manifolds with contact metric structures_, J. Math. Soc. Japan 14 (1962), 249-271 ([euclid:1261060580](https://projecteuclid.org/euclid.jmsj/1261060580))
+
+An early set of lecture notes is
+
+* [[Shigeo Sasaki]], _Almost contact manifolds, Part 1_, Lecture Notes, Mathematical Institute, Tohoku University (1965).
+
+* [[Shigeo Sasaki]], _Almost contact manifolds, Part 2_, Lecture Notes, Mathematical Institute, Tohoku University (1967).
+
+* [[Shigeo Sasaki]], _Almost contact manifolds, Part 3_, Lecture Notes, Mathematical Institute, Tohoku University (1968).
+
+> Even today, after 40 years, the breath, depth and the relative completeness of the Sasaki lectures is truly quite remarkable. $[...]$ As it is, the notes are not easily available and, consequently, not well-known. ([Boyer-Galicki 07, p. 1](#BoyerGalicki07))
+
+
+
+Modern accounts include
+
+* {#BoyerGalicki07} Charles Boyer, Krzysztof Galicki, _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007
+
 * {#Sparks10} [[James Sparks]], _Sasaki-Einstein Manifolds_, Surv. Diff. Geom. 16 (2011) 265-324 ([arXiv:1004.2461](https://arxiv.org/abs/1004.2461))
+
+* Charles Boyer, _Sasakian geometry: The recent work of Krzysztof Galicki_ ([arXiv:0806.0373](https://arxiv.org/abs/0806.0373))
 
 See also
 
@@ -73,6 +100,8 @@ In [[M-theory]]:
 
 
 [[!redirects Sasakian manifolds]]
+
+[[!redirects Sasakian geometry]]
 
 [[!redirects Sasaki-Einstein manifold]]
 [[!redirects Sasaki-Einstein manifolds]]
