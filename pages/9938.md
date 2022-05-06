@@ -96,10 +96,12 @@ An alternate construction was noted by Priddy
 
 * [[Stewart Priddy]], _A cellular construction of BP and other irreducible spectra_, [Math. Z.](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002423782) 173 (1980), pp 29-34.
 
-A textbook account is in section 4 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)) of
+A textbook accounts:
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+* {#Ravenel} [[Doug Ravenel]], section 4 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)) in: _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
  
+* {#Rudyak98} [[Yuli Rudyak]], Section IX.6 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
+
 
 The truncated version is discussed in
 
