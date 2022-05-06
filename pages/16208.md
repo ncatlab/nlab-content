@@ -27,6 +27,11 @@ Lean libraries for [[HoTT]] include:
 
 * [github.com/gebner/hott3](https://github.com/gebner/hott3)
 
+and implementation in [[Lean]] is in 
+
+* [github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral) ([[spectral sequences]])
+
+
 ## References
 
 * Lean website ([leanprover.github.io](https://leanprover.github.io))
@@ -36,6 +41,8 @@ Lean libraries for [[HoTT]] include:
 * [[Jeremy Avigad]],  [[Leonardo de Moura]],  Soonho Kong, _Theorem Proving in Lean_ ([pdf](https://leanprover.github.io/tutorial/tutorial.pdf))
 
 * [[Floris van Doorn]], _[The Lean Theorem Prover](http://homotopytypetheory.org/2015/12/02/the-proof-assistant-lean/)_, 2015
+
+* {#LewisMoura16} Robert Y. Lewis, [[Leonardo de Moura]], _Automation and Computation in the Lean Theorem Prover_, contribution to _[HaTT 2016: Hammers for Type Theories](https://hatt2016.inria.fr/)_, 2016 ([pdf](https://hatt2016.inria.fr/files/2016/06/HaTT_2016_paper_7-5.pdf))
 
 * {#Hales18} [[Thomas Hales]], _[A Review of the Lean Theorem Prover](https://jiggerwit.wordpress.com/2018/09/18/a-review-of-the-lean-theorem-prover/)_, September 2018
 
