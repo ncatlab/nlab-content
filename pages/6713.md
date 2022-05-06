@@ -337,7 +337,13 @@ The idea that the physics of D-branes is described by [[topological K-theory]] o
 
 See also at _[[anti-D-brane]]_.
 
-But actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed some subtleties:
+{#KTheorySubtleties} But there remain conceptual issues with the proposal that D-brane  charge is in K-theory, as highlighted for in
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.5 and 4.6.5 of  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
+* {#Evslin06} [[Jarah Evslin]], section 8 of _What Does(n't) K-theory Classify?_, Second Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328))
+
+In particular, actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed some subtleties:
 
 * [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
 
@@ -356,8 +362,6 @@ Further review and discussion of D-brane charge in K-theory includes the followi
 * [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
-
-* {#Evslin06} [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Second Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328))
 
 A textbook account of D-brane charge in ([[twisted K-theory|twisted]]) [[topological K-theory]] is 
 
