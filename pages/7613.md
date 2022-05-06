@@ -154,6 +154,12 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 
 ## Related entries
 
+* [[supergravity C-field]]
+
+  * [[shifted C-field flux quantization]]
+
+  * [[C-field tadpole cancellation]]
+
 * [[F-theory]]
 
 * [[topological M-theory]], [[bosonic M-theory]]
@@ -163,12 +169,6 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]], [[M-theory super Lie algebra]]
 
 * [[Horava-Witten theory]], [[M9-brane]]
-
-* [[M-theory on G2-manifolds]]
-
-  * [[G2-MSSM]]
-
-* [[M-theory on 8-manifolds]]
 
 * [[Diaconescu-Moore-Witten anomaly]]
 
