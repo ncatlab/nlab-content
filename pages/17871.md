@@ -29,6 +29,12 @@ The [[periodic cohomology theory|2-periodic]] version of [[complex cobordism coh
 There is an analogue of the [[Landweber exact functor theorem]] for [[even cohomology theory|even]] 2-[[periodic cohomology theories]], with [[MU]] replaced by [[MP]] ([Lurie lecture 18, prop. 11](#LurieLect18)).
 
 
+## Related concepts
+
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
+
 
 ## References
 
