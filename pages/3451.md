@@ -224,6 +224,6 @@ Specifically, the restriction $\mathbf{B}\Omega_x \Pi(X) \hookrightarrow \Pi(X) 
 
 ## References
 
-* [[eom]], _[Monodromy transformation](http://eom.springer.de/m/m064700.htm)_
+* [[eom]], _[Monodromy transformation](https://encyclopediaofmath.org/wiki/Monodromy_transformation)_
 
 [[!redirects monodromies]]
