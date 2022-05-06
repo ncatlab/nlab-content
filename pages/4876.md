@@ -315,6 +315,8 @@ on [[quantization]] of the WZW model, see at
 
 ## Related concepts
 
+* [[exponentiated pion field]]
+
 * [[geometry of physics -- WZW terms]]
 
 * [[current algebra]], [[affine Lie algebra]]
@@ -564,6 +566,11 @@ Discussion of [[symmetry protected topological order]] phases of matter in [[sol
 [[!redirects WZW terms]]
 [[!redirects WZW-term]]
 [[!redirects WZW-terms]]
+
+[[!redirects Wess-Zumino-Witten term]]
+[[!redirects Wess-Zumino-Witten terms]]
+[[!redirects Wess-Zumino-Witten-term]]
+[[!redirects Wess-Zumino-Witten-terms]]
 
 
 [[!redirects WZW gerbe]]
