@@ -1,4 +1,66 @@
 
+$$
+  \gamma_\Omega
+  \;=\;
+  \left(
+    \array{
+      0_{16} & 1_{16}
+      \\
+      -1_{16} & 0_{16}
+    }
+  \right)
+$$
+
+$$
+  (\gamma_\Omega)^{-1}
+  \;=\;
+  \gamma_\Omega
+$$
+
+$$
+  \gamma_{1}
+  \;=\;
+  
+  diag
+  \big(
+    \array{
+      1_8, & i_{8}, & -1_{8}, & -i_{8}
+    }
+  \big)
+$$
+
+$$
+  (\gamma_{\Omega})^{-1}
+  \gamma_1
+  (\gamma_{\Omega})
+  \;=\;
+  \gamma_1
+$$
+
+$$
+  (\gamma_{\Omega})^{-1}
+  (A)^{T}
+  (\gamma_{\Omega})
+  \;=\;
+  -A
+$$
+
+$$
+  \begin{aligned}
+    (\gamma_\Omega A)^T
+    & =
+    (A)^T (\gamma_\Omega)^T
+    \\
+    & =
+    -
+    (A)^T (\gamma_\Omega)
+    \\
+    & =
+    (\gamma_\Omega) (A)
+  \end{aligned}
+$$
+
+\linebreak
 
 $$
   e_{b_1 b_2}
