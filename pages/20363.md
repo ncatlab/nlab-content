@@ -34,6 +34,10 @@ $$T(S)\to T(S')\rightrightarrows T(S'\times_S S')$$
 is an [[equalizer]] for any surjection of [[profinite sets]] $S'\to S$.
 \end{definition}
 
+[Scholze, p.7](#Scholze) modifies this definition to deal with size issues. For any uncountable strong limit cardinal $\kappa$, the category of $\kappa$-condensed sets is the category of sheaves on the site of profinite sets of cardinality less than $\kappa$, with finite jointly surjective families of maps as covers. 
+
+The category of condensed sets is the (large) colimit of the category of $\kappa$-condensed sets along the filtered poset of all uncountable strong limit cardinals $\kappa$.
+
 ## Related concepts
 
 * [[pyknotic set]]
@@ -44,7 +48,7 @@ is an [[equalizer]] for any surjection of [[profinite sets]] $S'\to S$.
 
 ## References
 
-* [[Peter Scholze]], _Lectures on condensed mathematics_, [PDF](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
+* {#Scholze} [[Peter Scholze]], _Lectures on condensed mathematics_, [PDF](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
 
 [[!redirects condensed sets]]
 [[!redirects condensed object]]
