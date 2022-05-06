@@ -129,6 +129,7 @@ $$
 for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02, (5.5)](#BilalDerendingerSfetos)), saying that $\phi \propto \star F_7$ exhibits [weak G2-holonomy](G2+manifold#WeakG2Holonomy) with weakness parameter given by the component of the  [[C-field]] on $X_4$.
 
 ### Confinement?
+ {#Confinement}
 
 An idea for a strategy towards a proof of [[confinement]] in [[N=1 D=4 super Yang-Mills theory]] via two different but conjecturally equivalent realizations as [[M-theory on G2-manifolds]] has been given in [Atiyah-Witten 01, section 6](#AtiyahWitten01), review is in [Acharya-Gukov 04, section 5.3](#AcharyaGukov04).
 
@@ -160,6 +161,8 @@ Now the lore of [[M-theory on G2-manifolds]] predicts that [[KK-compactification
 1.  on $X_{1,\Gamma}$ yields a 4d theory without massless fields (since there are no massless modes on the [[covering space]] $S^3$ of $X_{1,\Gamma}$)
 
 1. on the [[ADE-singularity]] $X_{2,\Gamma}$ yields [[non-abelian group|non-abelian]] [[Yang-Mills theory]] in 4d coupled to [[chiral fermions]].
+
+both of these [[duality in string theory|dual]] by thinking of them in two different ways as [[M-theory on 8-manifold|M-theory on the 8-manifold]] [[HP^2]] ([Atiyah-Witten 01, p. 75 onwards](#AtiyahWitten01)).
 
 So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
 
