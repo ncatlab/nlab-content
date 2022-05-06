@@ -75,6 +75,8 @@ Regarding just the underlying [[endofunctor]] of the maybe monad, its [[initial 
 
 * [[continuation monad]]
 
+* [[successor monad]]
+
 ## References
 
 * {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
