@@ -327,7 +327,7 @@ Discussion relating to K-theory of [[homotopy quotients]]/[[Borel constructions]
 
 * [[Jacob Lurie]], around p. 11 of _[[A Survey of Elliptic Cohomology]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
 
-Discussion of the [[adjoint action]]-equivariant K-theory of suitable [[Lie groups]] in in 
+Discussion of the [[twisted ad-equivariant K-theory]] of [[compact Lie groups]]:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]_.
 
