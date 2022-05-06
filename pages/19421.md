@@ -33,15 +33,17 @@ If $A$ is the polynomial ring $\mathbb{Z}[x]$, and $a$ is $x$, then $A_{a}$ is 
 =--
 
 
-[[!redirects localisation of a commutative ring at an element ]]
 [[!redirects localisation of a commutative ring at an element]]
 [[!redirects localization of a commutative ring at an element]]
+[[!redirects localisation of a commutative ring away from an element]]
 [[!redirects localization of a commutative ring away from an element]]
 
 [[!redirects localisation of a ring at an element]]
 [[!redirects localization of a ring at an element]]
+[[!redirects localisation of a ring away from an element]]
 [[!redirects localization of a ring away from an element]]
 
 [[!redirects localisation at an element]]
 [[!redirects localization at an element]]
+[[!redirects localisation away from an element]]
 [[!redirects localization away from an element]]
