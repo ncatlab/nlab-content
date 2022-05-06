@@ -393,3 +393,5 @@ Discussion of [[M-brane]] [[charge quantization]] in [[equivariant cohomotopy]]:
 
   ([[equivariant rational homotopy theory|rational equivariant]] cohomotopy)
 
+[[!redirects equivariant Cohomotopy]]
+
