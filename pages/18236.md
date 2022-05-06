@@ -5,6 +5,8 @@
 
 * [[trigonometry]]
 
+* [[Euler angle]]
+
 ## References
 
 * Wikipedia, _[Angle](https://en.wikipedia.org/wiki/Angle)_
