@@ -379,7 +379,7 @@ More discussion is in
 
 The following paper proves that $\Theta$ is a test category
 
-* [[Denis-Charles Cisinski]], [[Georges Maltsiniotis]], _La cat&#233;gorie $\Theta$ de Joyal est une cat&#233;gorie test_ , JPAA **215** no.5 (2011) pp.962-982. ([draft](webusers.imj-prg.fr/~georges.maltsiniotis/ps/dec_web.pdf))
+* [[Denis-Charles Cisinski]], [[Georges Maltsiniotis]], _La cat&#233;gorie $\Theta$ de Joyal est une cat&#233;gorie test_ , JPAA **215** no.5 (2011) pp.962-982. ([pdf](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/theta.pdf), in French)
 &#8206;
 
 Discussion of embedding of $\Theta$ into strict $n$-categories is in 
