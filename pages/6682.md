@@ -38,6 +38,9 @@ On [[orientifolds]], [[RR-field tadpole cancellation]] and orientifolds of [[K3]
 
 * [[Eric Gimon]], [[Joseph Polchinski]], _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
+  (specifically for [[D5-D9 brane bound states]] [[duality between heterotic and type I string theory|dual]] to [[small instantons]] in [[heterotic string theory]])
+
+
 On [[AdS/CFT duality]]:
 
 * [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_, [gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037)
