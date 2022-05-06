@@ -110,6 +110,9 @@ Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on 
 
 * Antonio M. García-García, Yiyang Jia, Jacobus J. M. Verbaarschot, _Exact moments of the Sachdev-Ye-Kitaev model up to order $1/N^2$_, JHEP 04 (2018) 146 ([arXiv:1801.02696](https://arxiv.org/abs/1801.02696))
 
+* Yiyang Jia, Jacobus J. M. Verbaarschot, Section 4 of: _Large $N$ expansion of the moments and free energy of Sachdev-Ye-Kitaev model, and the enumeration of intersection graphs_, JHEP 11 (2018) 031 ([arXiv:1806.03271](https://arxiv.org/abs/1806.03271))
+
+
 * [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
 
 
