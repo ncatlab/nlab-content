@@ -1207,7 +1207,7 @@ A [[homomorphism]] between groupoids is the obvious: a [[function]] between thei
 
 For example if $f \;\colon\; X \to Y$ is a [[continuous function]] between topological spaces, then postcomposition of [[paths]] with this function induces a groupoid homomorphism $f_\ast \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)$ between the [[fundamental groupoids]] from above.
 
-Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grp]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a genralization of [[group theory]].
+Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a genralization of [[group theory]].
 
 However, for groupoids more than for groups one is typically interested in "[[conjugation actions]]" on homomorphisms. These are richer for groupoids than for groups, because one may conjugate with a different morphism at each object. If we think of groupoids as special cases of [[categories]], then these "conjugation actions on homomorphisms" are _[[natural transformations]]_ between [[functors]].
 
@@ -1659,7 +1659,7 @@ $$
 be two composable homotopies. We need to show that
 
 $$
-  F_3 \cdot (\eta_2 \circ \eta_1 \cdot F_1
+  F_3 \cdot (\eta_2 \circ \eta_1) \cdot F_1
   =
   ( F_3 \cdot \eta_2 \cdot F_1 ) \circ ( F_3 \cdot \eta_1 \cdot F_1 )
   \,.
@@ -1669,7 +1669,7 @@ Now for $x$ any object of $\mathcal{G}_1$ we find
 
 $$
   \begin{aligned}
-    (F_3 \cdot (\eta_2 \circ \eta_1 \cdot F_1)(x)
+    (F_3 \cdot (\eta_2 \circ \eta_1) \cdot F_1)(x)
       & \coloneqq
     F_2((\eta_2 \circ \eta_1)(F_1(X)))
       \\
@@ -1677,7 +1677,7 @@ $$
    F_3( \eta_2(F_1(x)) \circ \eta_1 (F_1(x)))
      \\
      &=
-    F_2( \eta_2(F_1(x)) ) \circ F_2( \eta_1(F_1(X)) )
+    F_3( \eta_2(F_1(x)) ) \circ F_3( \eta_1(F_1(X)) )
       \\
      & =
     (( F_3 \cdot \eta_2 \cdot F_1 ) \circ ( F_3 \cdot \eta_1 \cdot F_1 ))(x)
@@ -1872,9 +1872,9 @@ $$
     \;\colon\;
   ( F_3 \cdot (-)\cdot F_1 )
     \;\Rightarrow\;
-  (  F'_3 (-) \cdot  F'_1 )
+  (  F^\prime_3 \cdot (-) \cdot  F^\prime_1 )
   \;\colon\;
-    Hom_{Grpd}(\mathcal{G}_2,\mathcal{G}_2)
+    Hom_{Grpd}(\mathcal{G}_2,\mathcal{G}_3)
       \longrightarrow
     Hom_{Grpd}(\mathcal{G}_1, \mathcal{G}_4)
   \,.
@@ -1920,7 +1920,7 @@ $$
   F\;\colon\; \mathcal{G}_1 \longrightarrow \mathcal{G}_2
 $$
 
-is an _[[equivalence of groupoids|equivalence]]_ it it is an [[isomorphism]]
+is an _[[equivalence of groupoids|equivalence]]_ if it is an [[isomorphism]]
 in the [[homotopy category]] $Ho(Grpd)$ (def. \ref{HomotopyCategoryOfGroupoids}), hence if there exists a homomorphism the
 other way around
 
