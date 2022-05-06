@@ -32,12 +32,14 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 ## Formalization and Relation to mathematical duality
  {#Formalization}
 
+
 One should beware that the use of the word "duality" in physics is in general different from concepts called "[[duality]]" in [[mathematics]].
 
 For instance in [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains. This more closely resembles the mathematical concept of [[Morita equivalence]], see [Relation to Morita equivalence](#Morita). However, in some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. 
 
-One way to pseudo-formalize accurately most of what is usually meant by "duality" in physics might instead be the following.
+One way to accurately formalize most of what is usually meant by "duality" in physics might instead be the following.
 
+### General formulation
 
 Write $LagrangianData$ for a [[moduli stack]] of [[prequantum field theory]] data consisting of species of [[field (physics)|fields]] and of [[Lagrangians]]/[[action functionals]] defined  on these.
 
@@ -190,14 +192,49 @@ b) quantization is the result of forming the [[homotopy quotient]] of the space 
 
 It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] that these two perspectives are equivalent.
 
-##Relation to Morita equivalence
-{#Morita}
+### Examples
+
+For a concrete example, consider the class of [[Chern-Simons theories]] and [[Rozanzky-Witten theories]]. As [[Lagrangian field theories]] they are very different, but after [[perturbative quantum field theory|perturbative quantization]], their [[Lagrangian density|Lagrangian data]] maps to the same  abstract vector space of [[quantum observables]]: the [[Vassiliev knot invariants]].
+
+Concretely, in these cases the map from [[Lagrangian density|Lagrangian data]] to [[quantum observables]] is given by the assignment of [[weight systems]] on [[Jacobi diagrams]], namely
+
+1) [[Lie algebra weight systems]] for [[Chern-Simons theory]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AssignLieAlgebraWeightSystems.jpg" width="440">
+</center>
+
+2) [[Rozansky-Witten weight systems]] for [[Rozansky-Witten theory]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AssignRozanskyWittenWeightSystems.jpg" width="440">
+</center>
+
+and the corresponding [[Wilson loop]] [[quantum observables]] are the evaluation of these [[weight systems]] on the [[universal Vassiliev invariant]]
+
+1) 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariantsIII.jpg" width="800">
+</center>
+
+2) 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfRozanskyWittenKnotInvariantsIII.jpg" width="800">
+</center>
+
+
+
+
+## Relation to Morita equivalence
+ {#Morita}
 
 According to [[Albert Schwarz]],
 
->I am convinced that the mathematical notion of Morita equivalence of associative algebras and its generalization for differential associative algebras should be regarded as the mathematical foundation of dualities in string/M-theory. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
+>I am convinced that the mathematical notion of [[Morita equivalence]] of [[associative algebras]] and its generalization for [[differential algebra|differential associative algebras]] should be regarded as the mathematical foundation of [[duality in string theory|dualities in string/M-theory]]. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
 
-Schwarz showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+Schwarz showed that [[KK-compactifications]] on [[Morita equivalent|Morita equivalent]] [[noncommutative tori]] are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
 
 [BMRS08](#BMRS08) discusses an axiomatic definition of [[topological T-duality]] generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
