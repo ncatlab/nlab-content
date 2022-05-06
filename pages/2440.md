@@ -350,15 +350,17 @@ $$
 
 * [[super q-Schur algebra]]
 
+* For every [[topological space]] of the [[weak homotopy type]] of a [[CW-complex]], the [[Whitehead product]] makes its [[homotopy groups]] into a super Lie algebra over the [[ring]] of [[integers]].
+
 * higher super Lie algebras
 
-  Just as [[Lie algebra]]s are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
+  Just as [[Lie algebras]] are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
 
   * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
 ## Related entries
 
-* [[Haag??opusza?ski?Sohnius theorem]]
+* [[Haag–Łopuszański–Sohnius theorem]]
 
 * [[geometry of physics -- supersymmetry]]
 
