@@ -150,6 +150,11 @@ Discussion in [[complex geometry]] includes
 
 * {#BiquerdHoering08} O. Biquard, A. H&#246;ring, _K&#228;hler geometry and Hodge theory_, 2008 ([pdf](http://math.unice.fr/~hoering/hodge/hodge.pdf))
 
+With an eye towards application in [[supergravity]] and [[string theory]]:
+
+* {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], Appendix A of _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
+
+
 [[!redirects Hodge star]]
 [[!redirects Hodge star operator]]
 [[!redirects Hodge star operators]]
