@@ -31,9 +31,11 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 
 ## Properties
 
-### As U-duality group of 1d supergravity
+### As U-duality group of 1d M-theory
+ {#AsUDualityOf1dMTheory}
 
-$E_{10}$ is conjectured (e.g. [Nicolai 08](#Nicolai08)) to be the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 1 dimension.
+$E_{10}$ is conjectured (e.g. [Nicolai 08](#Nicolai08)) to be the [[U-duality]] group (see there) of [[M-theory]] [[KK-compactification|compactified]] to 1 dimension (see also [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]]).
+
 
 [[!include U-duality -- table]]
 
