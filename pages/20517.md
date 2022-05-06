@@ -274,6 +274,10 @@ Now we ask $v^5$ (eq:FiberVectorField) to be an [[isometry]]. This means that
   =
   -
   \theta^5 \wedge \star
+  \;:\;
+  \Omega^3\big( \Sigma^6\big)
+  \longrightarrow
+  \Omega^4\big( \Sigma^6 \big)
 \]
 
 and hence (eq:CartanCalculusPerrySchwarzLagrangian) becomes
