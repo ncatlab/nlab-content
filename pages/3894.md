@@ -398,7 +398,7 @@ In relation to [[torsion constraints in supergravity]]:
 
 * {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
-as a way of speaking about [[Calabi-Yau structure]]:
+As a way of speaking about [[Calabi-Yau structure]] and [[generalized Calabi-Yau structure]]:
 
 * {#Prins16} [[Daniël Prins]], _On flux vacua, $SU(n)$-structures and generalised complex geometry_, Université Claude Bernard -- Lyon I, 2015.  ([arXiv:1602.05415](https://arxiv.org/abs/1602.05415), [tel:01280717](https://tel.archives-ouvertes.fr/tel-01280717))
 
