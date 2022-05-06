@@ -500,7 +500,12 @@ The categorical semantics of differential linear logic is introduced in:
 
 [[!redirects classical linear logic]]
 [[!redirects classical linear logics]]
-
-
+[[!redirects CLL]]
 [[!redirects intuitionistic linear logic]]
+[[!redirects ILL]]
 [[!redirects multiplicative intuitionistic linear logic]]
+[[!redirects MILL]]
+[[!redirects multiplicative linear logic]]
+[[!redirects MLL]]
+[[!redirects multiplicative-additive linear logic]]
+[[!redirects MALL]]
