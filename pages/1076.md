@@ -560,7 +560,7 @@ Similar axioms were already given in
 
 A comprehensive monograph is 
 
-* {#Neeman01} [[Amnon Neeman]], _Triangulated Categories_, Princeton University Press (2001)
+* {#Neeman01} [[Amnon Neeman]], _Triangulated Categories_, Annals of Mathematics Studies 213, Princeton University Press 2001 ([pulisher](https://press.princeton.edu/titles/7102.html), [pdf](http://www.mi-ras.ru/~akuznet/homalg/Neeman%20Triangulated%20categories.pdf))
 
 Discussion of the relation to [[stable model categories]] originates in 
 
@@ -575,11 +575,13 @@ Other surveys include
 
 * [[Jacob Lurie]], section 3 of _[[Stable Infinity-Categories]]_,
 
-* [[Behrang Noohi]], _Lectures on derived and triangulated categories_ ([arXiv:0704.1009](http://arxiv.org/abs/0704.1009)).
+* {#Noohi08} [[Behrang Noohi]], _Lectures on derived and triangulated categories_, pp. 383-418 in [[Masoud Khalkhali]], [[Matilde Marcolli]] (eds.), _An Invitation to Noncommutative Geometry_, World Scientific  (2008) ([doi:10.1142/9789812814333_0006](https://doi.org/10.1142/9789812814333_0006) [arXiv:0704.1009](http://arxiv.org/abs/0704.1009)).
 
 * [[Fernando Muro]] ([pdf](http://personal.us.es/fmuro/htag.pdf))
 
 * {#Schwede} [[Stefan Schwede]], _Triangulated categories_ ([pdf](https://math.berkeley.edu/~aaron/atf/triangulated-categories.pdf))
+
+* _[[Introduction to Stable homotopy theory]] --  [Triangulated structure](Introduction+to+Stable+homotopy+theory+--+1-1#TriangulatedStructure)_
 
 A survey of formalisms used in [[stable homotopy theory]] to present the triangulated [[homotopy category]] of a [[stable (∞,1)-category]] is in
 
