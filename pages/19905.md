@@ -536,6 +536,8 @@ That this should be the case was originally suggested in [Kontsevich 94](#Kontse
 
 * [[Feynman amplitude on compactified configuration space of points]]
 
+* [[Hilbert scheme]]
+
 ## References
 
 The [[compactification]] of [[configuration spaces of points]] was first considered for two points in 
@@ -546,7 +548,7 @@ The [[compactification]] of [[configuration spaces of points]] was first conside
 
 and then more generally in
 
-* {#FultonMacPherson94} William Fulton, Robert MacPherson, _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994 ([jstor:2946631](https://www.jstor.org/stable/2946631))
+* {#FultonMacPherson94} [[William Fulton]], [[Robert MacPherson]], _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994 ([jstor:2946631](https://www.jstor.org/stable/2946631))
 
 based on the general method of [[resolution of singularities]] due to 
 
