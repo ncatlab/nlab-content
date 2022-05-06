@@ -408,6 +408,8 @@ The dependent type theory which results from this structure "has no nontrivial d
 
 * [[relation between type theory and category theory]]
 
+* [[Awodey's conjecture]]
+
 ## References
 
 Another overview can be found in the [HoTT wiki](https://ncatlab.org/homotopytypetheory/show/semantics).
