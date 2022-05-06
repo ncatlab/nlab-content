@@ -51,6 +51,10 @@ $$
 
 * [[exotic smooth structure]]
 
+* [[twisted connected sum]]
+
+* [[twisted connected sum G2-manifolds]]
+
 ## References
 
 See also
