@@ -90,6 +90,8 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 * [[heterotic M-theory on ADE-orbifolds]]
 
+* [[E-string]]
+
 [[!include brane bound states -- table]]
 
 
@@ -120,3 +122,9 @@ Discussion as [[Yang-Mills instantons]] ("small instantons"):
 
 [[!redirects half M5-brane]]
 [[!redirects half M5-branes]]
+
+
+[[!redirects heterotic M5-brane]]
+[[!redirects heterotic M5-branes]]
+
+
