@@ -407,7 +407,7 @@ Consider
 
 * $W : D^{op} \to Set$ another functor;
 
-* $el W \to D^{op}$ the [[category of elements]] of $W$.
+* $el W$ the [[category of elements]] of $W$.
 
 +-- {: .num_prop}
 ###### Proposition
