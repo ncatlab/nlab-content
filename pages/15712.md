@@ -39,3 +39,4 @@ On the [[selection monad]]:
 category: people
 
 [[!redirects Martin Escardo]]
+[[!redirects Martín Hötzel Escardó]]
