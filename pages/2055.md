@@ -8,7 +8,7 @@
 =--
 =-- 
 
-This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for a list of societies and institutions see [[math institutions]]. A higher level branch page is [[math resources]]. Math is here just a mnemo, this page partains also to the related areas of interest for $n$Lab like LaTeX, physics, philosophy, theoretical computer science etc. 
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for a list of societies and institutions see [[math institutions]]. A higher level branch page is [[math resources]]. Math is here just a mnemo, this page pertains also to the related areas of interest for $n$Lab like LaTeX, physics, philosophy, theoretical computer science etc. 
 
 For a quick introduction to math blogging, see
 
@@ -17,6 +17,9 @@ For a quick introduction to math blogging, see
   blog discussion about this piece: [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
 
 See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web), the directory of many math blogs with alerts on recent updates [www.mathblogging.org](http://www.mathblogging.org).
+
+For a decent list of online seminars see [mathseminars.org](https://mathseminars.org)
+
 +-- {: .standout}
 
 Please [[How to get started|help]] with improving this page:
@@ -38,7 +41,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 
 ## Mathematics
-
 
 ### Wikis and online encyclopaedias
 
