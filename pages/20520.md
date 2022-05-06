@@ -47,6 +47,6 @@ then $\mathcal{A}$ inherits a lax action of $\mathcal{M}$ and is hence a graded 
 
 * Ulrich Dorsch, Stefan Milius and Lutz Schröder, _Graded Monads and Graded Logics for the Linear Time – Branching Time Spectrum_, ([arXiv:1812.01317](https://arxiv.org/abs/1812.01317))
 
-* {#Perrone} Paolo Perrone, _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](https://personal-homepages.mis.mpg.de/perrone/phdthesis.pdf))
+* {#Perrone} Paolo Perrone, _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
 * {#OrchPet} [[Dominic Orchard]], Tomas Petricek, _Embedding effect systems in Haskell_, ([pdf](https://www.doc.ic.ac.uk/~dorchard/publ/haskell14-effects.pdf))
