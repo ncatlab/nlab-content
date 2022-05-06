@@ -143,7 +143,7 @@ Specifically
 
 So the refined Chern-Weil homomorphism provides a large family of [[nLab:gauge theory|gauge]] [[nLab:quantum field theories]] of Chern-Simons type in odd [[nLab:dimension]]s whose field configurations are always [[nLab:connection on a bundle|connections]] on [[nLab:principal bundle]]s and whose [[nLab:Lagrangian]]s are [[nLab:Chern-Simons element]]s on a [[nLab:Lie algebra]].
 
-But the notion of [[nLab:invariant polynomial]]s and [[nLab:Chern-Simons element]]s naturally exists much more generally for [[nLab:L-∞ algebra]]s, and even more generally for [[nLab:L-∞ algebroid]]s. We claim here that in this fully general case there is still a natural analog of the Chern-Weil homomorphism -- which we call the _[[nLab:∞-Chern-Weil homomorphism]]_ . Accordingly this gives rise to a wide class of [[nLab:action functional]]s for [[nLab:gauge theory|gauge]] [[nLab:quantum field theories]], which may be called _[[schreiber:∞-Chern-Simons theories]_.
+But the notion of [[nLab:invariant polynomial]]s and [[nLab:Chern-Simons element]]s naturally exists much more generally for [[nLab:L-∞ algebra]]s, and even more generally for [[nLab:L-∞ algebroid]]s. We claim here that in this fully general case there is still a natural analog of the Chern-Weil homomorphism -- which we call the _[[nLab:∞-Chern-Weil homomorphism]]_ . Accordingly this gives rise to a wide class of [[nLab:action functional]]s for [[nLab:gauge theory|gauge]] [[nLab:quantum field theories]], which may be called _[[schreiber:∞-Chern-Simons theories]]_.
 
 
 ## Generalizations
