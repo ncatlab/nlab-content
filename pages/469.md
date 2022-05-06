@@ -52,7 +52,7 @@ The object $[b,c]$ is called the **[[internal hom]]** of $b$ and $c$. This is co
 
 ### Cartesian closed monoidal category
 
-If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]] (and so in particular [[symmetric monoidal category|symmetric monoidal]]), then $C$ is called **cartesian closed**.  In this case the internal hom is often called an **[[exponential object]]** and written $c^b$.
+If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]] (and so in particular [[symmetric monoidal category|symmetric monoidal]]), then $C$ is called **[[cartesian closed]]**.  In this case the internal hom is often called an **[[exponential object]]** and written $c^b$.
 
 ### Left-, right- and bi-closed monoidal category
 
@@ -168,7 +168,11 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
   * [[closed monoidal functor]]
 
+  * [[internal hom]]
+
   * [[indexed closed monoidal category]]
+
+  * [[cartesian closed category]], [[exponential object]]
 
 * [[string diagram]], [[Kelly-Mac Lane diagram]], [[linguistics|natural language syntax]]
 
