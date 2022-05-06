@@ -95,8 +95,7 @@ See also
 
 Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
 
-
-* Kenji Mohri, _Kähler Moduli Space of a D-Brane at Orbifold Singularities_, Commun. Math. Phys. 202 (1999) 669-699 ([arXiv:hep-th/9806052](https://arxiv.org/abs/hep-th/9806052))
+* [[Kenji Mohri]], _Kähler Moduli Space of a D-Brane at Orbifold Singularities_, Commun. Math. Phys. 202 (1999) 669-699 ([arXiv:hep-th/9806052](https://arxiv.org/abs/hep-th/9806052))
 
 * [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
 
