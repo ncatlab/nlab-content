@@ -133,14 +133,14 @@ For $X$ a [[manifold]] or a [[topological space]], the $MU$-homology [[group]] $
 See [Ravenel chapter 1, section 2](#Ravenel).
 
 For more information, see the article [[bordism homology theory]],
-which treats the oriented case; the [[complex-oriented]] case is similar.
+which treats the oriented case; the case of (stable almost) complex structure is similar.
 
 ### $MU$-cohomology of a manifold: cobordisms in $X$
 
 $MU$-cohomology groups of a manifold $M$ can be expressed
-in terms of bordisms given by proper [[complex-oriented]] maps into $M$.
+in terms of bordisms given by proper [complex-oriented maps](cobordism+cohomology+theory#ComplexOrientedMaps) into $M$.
 
-For more information, see the article [[cobordism cohomology theory]].
+For more information, see the article _[[cobordism cohomology theory]]_.
 
 ### $MU$-homology of $MU$: Hopf algebroid structure on dual Steenrod algebra
 
