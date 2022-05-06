@@ -211,7 +211,7 @@ Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relatio
 
 * {#Verbitsky} [[Misha Verbitsky]], "Hyperkähler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
 
-* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds_, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55 ([numdam:ASENS_1986_4_19_1_31_0](http://www.numdam.org/item/ASENS_1986_4_19_1_31_0/))
+* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds_, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55 ([numdam:ASENS_1986_4_19_1_31_0](http://www.numdam.org/item/ASENS_1986_4_19_1_31_0/))
 
 See also
 
