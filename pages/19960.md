@@ -509,12 +509,16 @@ Discussion of the [[theta angle]] via the the [[graviphoton]] in the [[higher WZ
 
 *  Si-wen Li, around (3.1) of _The theta-dependent Yang-Mills theory at finite temperature in a holographic description_ ([arXiv:1907.10277](https://arxiv.org/abs/1907.10277))
 
+### Application to the QCD trace anomaly
+
+Application to the [[QCD trace anomaly]]:
+
+* Jose L. Goity, Roberto C. Trinchero, _Holographic models and the QCD trace anomaly_, Phys. Rev. D 86, 034033, 2012 ([arXiv:1204.6327](https://arxiv.org/abs/1204.6327))
 
 ### Application to QCD phases
  {#ReferencesColourSuperconductivity}
 
-Application to [[phase of matter|phases]] of QCD
-
+Application to [[phase of matter|phases]] of [[QCD]]
 
 to [[colour superconductivity]]:
 
