@@ -24,7 +24,7 @@
 
 The _pushout-product axiom_ is a compatibility condition between 
 
-1. a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal]] structure 
+1. a [[closed monoidal category|closed]]$\,$[[monoidal category|symmetric monoidal]] structure 
 
 2. a [[model category]] structure
 
