@@ -42,10 +42,15 @@ There is also the [[IKKT matrix model]], which takes this one step further by re
 See also at _[[membrane matrix model]]_.
 
 ## Open problems
+ {#OpenProblems}
 
 In the 90s there was much excitement about the BFSS model, as people hoped it might provide a definition of [[M-theory]]. It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speech](M-theory#Witten14), last paragraph.) 
 
-However, while the BFSS matrix model clearly sees something M-theoretic, just as clearly it is not the full answer. Notably it needs for its definition an ambient Minkowski background, a light cone limit and a peculiar scaling of [[string coupling]] over [[string length]], all of which means that it pertains to a particular corner of a full theory. 
+However, while the BFSS matrix model clearly sees something M-theoretic, just as clearly it is not the full answer. Notably it needs for its definition an ambient asympototic Minkowski background, a light cone limit and a peculiar scaling of [[string coupling]] over [[string length]], all of which means that it pertains to a particular corner of a full theory. 
+
+From [Nicolai-Helling 98, p. 2](#NicolaiHelling98):
+
+> Despite the recent excitement, however, we do not think that M(atrix) theory and the $d= 11$ supermembrane in their present incarnation are already the final answer in the search for M-Theory, even though they probably are important pieces of the puzzle. There are still too many ingredients missing that we would expect the final theory to possess. For one thing, we would expect a true theory of quantum gravity to exhibit certain pregeometrical features corresponding to a “dissolution” of space-time and the emergence of some kind of non-commutative geometry at short distances; although the matrix model does achieve that to some extent by replacing commuting coordinates by non-commuting matrices, it seems to us that a still more radical departure from conventional ideas about space and time may be required in order to arrive at a truly background independent formulation (the matrix model “lives” in nine _flat_ transverse dimensions only). Furthermore, there should exist some huge and so far completely hidden symmetries generalizing not only the duality symmetries of extended supergravity and string theory, but also the principles underlying general relativity.
 
 Then, even assuming that in this corner all the crucial [[generalized (Eilenberg-Steenrod) cohomology|cohomological]] aspects of [[D-brane]] and [[M-brane]] charges (in [[twisted differential K-theory]], [[twisted cohomotopy]] etc.) are secretly encoded in the matrix model, somehow, none of this is manifest, making the matrix model spit out numbers about a conceptually elusive theory in close analogy to how [[lattice QCD]] produces numbers without informing us about the actual conceptual nature of [[confinement|confined]] [[hadron]] physics.
 
@@ -53,7 +58,7 @@ Furthermore, there are technical open issues, such as the open question whether 
 
 A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ ([here](https://ncatlab.org/nlab/show/Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
 
-> A good start $[$on defining M-theory$]$ was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[$...$]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
+> A good start $[$with defining M-theory$]$ was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[$...$]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
 
 > If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of M-theory is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
 
@@ -128,7 +133,7 @@ Relation to the [[6d (2,0)-supersymmetric QFT]]:
 
 The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume]] theory is discussed in
 
-* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
+* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_, In: [[Mike Duff]], [[Ergin Sezgin]], [[Brian Greene]] et. al. (eds.) _[Nonperturbative aspects of strings, branes and supersymmetry](https://doi.org/10.1142/9789814527651)_, World Scientific 1999 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
 
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
