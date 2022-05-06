@@ -53,7 +53,7 @@ and [[enriched natural isomorphisms]]
 
 1. $\alpha_{abcd}: \int^x (P(x,a\diamond b)\otimes P(d,x\diamond c)) \to \int^x(P(x,b\diamond c)\otimes P(d,a\diamond x))$
 
-satisfying the pentagon and unit axioms for promonoidal categories. Explicitly, writting $P^{A}_{B,C}$ for $P(A,B;C)$, $\mathsf{h}^{A}_{B}$ for $\mathrm{Hom}_{A^\mathrm{op}}(A,B)$, $J_X$ for $J(X)$, and $\diamond$ for composition of profunctors, we require the following conditions to hold:
+satisfying the pentagon and unit axioms for promonoidal categories. Explicitly, writting $P^{A}_{B,C}$ for $P(A,B;C)$, $\mathsf{h}^{A}_{B}$ for $\mathrm{Hom}_{A}(A,B)$, $J_X$ for $J(X)$, and $\diamond$ for composition of profunctors, we require the following conditions to hold:
 
 1. **The triangle identity for promonoidal categories.** For each $A,B,C\in\mathrm{Obj}(A)$, the [[diagram]]
 
