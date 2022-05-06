@@ -15,7 +15,13 @@
 
 ## Idea
 
-The _sigma-meson_, now also called the _$f_0(500)$-resonance_, is the lightest [[Lorentz group|Lorentz]]-[[scalar]] and [[isospin]]-[[scalar]] [[meson]]. Together with the [[omega-meson]] the sigma is responsible for most of the long-range [[interaction]] between [[baryons]], exhibiting the residual [[strong nuclear force]] between them.
+The _sigma-meson_, now also called the _$f_0(500)$-resonance_, is the lightest [[Lorentz group|Lorentz]]-[[scalar]] and [[isospin]]-[[scalar]] [[meson]]. 
+
+Together with the [[omega-meson]] the sigma is responsible for most of the long-range [[interaction]] between [[baryons]], exhibiting the residual [[strong nuclear force]] between them (as modeled by [[Walecka model]] and [[quantum hadrodynamics]]).
+
+## Related concepts
+
+* [[Walecka model]]
 
 
 ## References
