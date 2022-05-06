@@ -165,6 +165,10 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 * Mykola Dedushenko, Yale Fan, Silviu Pufu, Ran Yacoby, Section E.2 of: _Coulomb Branch Quantization and Abelianized Monopole Bubbling_, JHEP 10 (2019) 179 ([arXiv:1812.08788](https://arxiv.org/abs/1812.08788))
 
+Discussion in the context of [[Witten indices]] and [[K-theory|K-theoretic]] [[enumerative geometry]]:
+
+* [[Andrei Okounkov]], _Lectures on K-theoretic computations in enumerative geometry_ ([arXiv:1512.07363](https://arxiv.org/abs/1512.07363))
+
 
 
 [[!redirects Hilbert schemes]]
