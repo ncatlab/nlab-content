@@ -34,7 +34,11 @@ More in detail, there are variants of the tetrahedral group corresponding to the
 
 * the _rotational tetrahedral group_ $T \hookrightarrow SO(3)$ is the restriction to [[orientation]]-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[alternating group]] $A_4$;
 
-* next the _binary tetrahedral group_ $2T$ is the [[double cover]], hence the lift of $T$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
+* next the _binary tetrahedral group_ $2T$ is the [[double cover]], hence the lift of $T$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]], this is equivalently the [[special linear group]] over the [[prime field]] $\mathbb{F}_3$
+
+  $$
+    2T \simeq SL(2,\mathbb{F}_3)
+  $$
 
 * then there is a [[string 2-group]] lift $String_{2T} \hookrightarrow String_{SU(2)}$ of the tetrahedral group to a _[[Platonic 2-group]]_ ([Epa 10](#Epa10), [Epa-Ganter 16](#EpaGanter16))
 
@@ -109,6 +113,10 @@ See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[q
 The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
 
 
+## Related concepts
+
+* [[GL(2,3)]]
+
 ## References
 
 Discussion in the context of [[classification of finite rotation groups]] goes back to:
@@ -139,3 +147,5 @@ See also
 
 [[!redirects binary tetrahedral group]]
 [[!redirects binary tetrahedral groups]]
+
+[[SL(2,3)]]
