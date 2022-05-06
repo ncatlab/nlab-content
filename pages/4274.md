@@ -450,6 +450,19 @@ A survey of elliptic string genera with more context within [[string theory]] an
 * {#Dijkgraaf98} [[Robbert Dijkgraaf]], _Fields, strings, matrices and symmetric products_, lecture notes 1998 ([pdf](http://www.cgtp.duke.edu/ITP99/dijkgraaf/sym.pdf))
 
 
+### For M5-branes
+
+Discussion of the [[Witten genus]] as an [[M5-brane]] [[partition function]] seen under an [[AGT correspondence]]:
+
+* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
+
+
+
+
+
+
+
+
 [[!redirects Witten genera]]
 
 [[!redirects twisted Witten genus]]
