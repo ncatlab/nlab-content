@@ -113,7 +113,11 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 ## Related concepts
 
+* [[univalent foundations for mathematics]]
+
+
 * [[synthetic mathematics]]
+
 
 \section{Philosophical musings}
 
