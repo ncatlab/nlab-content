@@ -45,13 +45,14 @@ The degree of Vassiliev invariants defines a filtration on the space of knots (a
 
 =--
 
-## Properties ##
+## Properties
+
+### Relation to Chord diagrams and weight systems
 
 A function which is constant on nonsingular knots may be extended to a Vassiliev invariant of degree 0 by applying the [[Vassiliev skein relations]], and conversely, any Vassiliev invariant of degree 0 must be constant on nonsingular knots.  Likewise, any Vassiliev invariant of degree 1 must be constant on nonsingular knots.
 
-## Chord diagrams and weight systems ##
 
-Any singular knot $f : S^1 \to \mathbb{R}^3$ with $n$ distinct double points $x_1,\dots,x_n \in \mathbb{R}^3$ gives rise to a [[chord diagram]] of order $n$, consisting of the circle $S^1$ with a chord connecting each pair of points $f^{-1}(x_1), \dots, f^{-1}(x_n)$.
+Any [[singular knot]] $f : S^1 \to \mathbb{R}^3$ with $n$ distinct double points $x_1,\dots,x_n \in \mathbb{R}^3$ gives rise to a [[chord diagram]] of order $n$, consisting of the circle $S^1$ with a chord connecting each pair of points $f^{-1}(x_1), \dots, f^{-1}(x_n)$.
 
 The importance of this construction for singular knots comes from the fact that any finite type invariant determines a function on chord diagrams:
 
@@ -64,15 +65,92 @@ Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a 
 
 Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _weight systems_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "1-term relation" (or "framing independence") and the "4-term relation": see Theorem 1 of [Bar-Natan 95](#BarNatan95) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)).
 
-## Examples ##
+### Relation to homology of loop spaces of configuration spaces of points
+  {#RelationToHomologOfLoopSpacesOfConfigurationSpaces}
 
-1. The $n$th coefficient of the Conway polynomial is a Vassiliev invariant of order $\le n$.
+We discuss the relation between Vassiliev invariants and the [[Euler characteristic]] of the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]]:
+
+For $n, q \in \mathbb{N}$ and $q \geq 1$, write 
+
+1. $Conf_n\big( \mathbb{R}^{q+2} \big)$ for the [[configuration space of points|configuration space of n ordered points]] in [[Euclidean space]] $mathbb{R}^{q+2}$;
+
+1. $\Omega Conf_n\big( \mathbb{R}^{q+2} \big)$ for the corresponding [[based loop space]] (for any choice of base point);
+
+1. $H_\bullet\Big(\Omega Conf_n\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)$ for the [[ordinary homology]] of this loop space, with [[coefficients]] in the [[complex numbers]];
+
+1. $\chi H_\bullet\Big(\Omega Conf_n\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)$ for the [[Euler characteristic]]-series of the homology 
+
+
+Write also
+
+1. $V^n_k$ for the [[complex vector space]] of [[Vassiliev invariants]] of order $k$ for [[pure braids]] with $n$ strands;;
+
+1. $A^n_k$ for the [[complex vector space]] spanned by the horizontal [[chord diagrams]] with $n$ vertical strands modulo the "horizontal 4T relation"
+
+such that there is an [[linear isomorphism]]
+
+$$
+  V^n_k/V^n_{k-1}
+  \simeq
+  (A^n_k)^\ast
+$$
+
+between the [[quotient vector space]] of [[Vassiliev invariants]] and the [[dual vector space]] of [[chord diagrams]].
+
+Then:
+
+The [[Euler characteristic]]-series (...) of the homology of the loop spaces of configuration spaces 
+
+$$
+  \chi H_\bullet\Big(\Omega Conf_n\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)
+  \;=\;
+  \Big[
+  \big(
+    1 - t^q
+  \big)
+  \cdot 
+  \big(
+    1 - 2 t^q
+  \big)
+  \cdots
+  \big(
+    1 - (n-1) t^q
+  \big)
+  \Big]^{-1}
+$$
+
+and is related to the complex [[dimensions]] of spaces of Vassiliev invariants according to 
+
+$$
+  \chi 
+  H_\bullet
+  \Big(
+    \Omega Conf_n\big( \mathbb{R}^{3} \big), \mathbb{C} 
+  \Big)
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum}
+  dim_{\mathbb{C}}\big( A^n_k \big) 
+  t^k
+$$
+
+([Cohen-Gitler 01, Prop. 9.1](#CohenGitler01), based on [Cohen 76](#Cohen76) and [Kohno 94](#Kohno94))
+
+
+
+## Examples
+
+1. The $n$th coefficient of the [[Conway polynomial]] is a Vassiliev invariant of order $\le n$.
+
+(...)
 
 ## Related concepts ## 
 
 * [[knot theory]]
+
 * [[Jones polynomial]]
+
 * [[Kontsevich integral]]
+
 * [[singularity]] 
 
 
@@ -124,7 +202,18 @@ Relation to other polynomial [[knot invariants]]:
 
 * Myeong-Ju Jeong, Chan-Young Park, _Polynomial invariants and Vassiliev invariants_, Geom. Topol. Monogr. 4 (2002) 89-101 ([arxiv:math/0211045](https://arxiv.org/abs/math/0211045))
 
+### Relation to homology of loop spaces of configuration spaces
 
+Relation to the [[Euler characteristic]] of the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]]
+
+
+* {#CohenGitler01} [[Fred Cohen]], [[Samuel Gitler]], _Loop spaces of configuration spaces, braid-like groups, and knots_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel 2001 ([doi:10.1007/978-3-0348-8312-2_7](https://doi.org/10.1007/978-3-0348-8312-2_7))
+
+based on 
+
+* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, Contemporary Mathematics 179 (1994): 123-123.
+
+* {#Cohen76} [[Fred Cohen]], _The homology of $\mathcal{C}_{n+1}$-Spaces, $n \geq 0$. In: The Homology of Iterated Loop Spaces. Lecture Notes in Mathematics, vol 533. Springer, Berlin, Heidelberg  1976 ([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
 
 
 ### As Chern-Simons amplitudes
