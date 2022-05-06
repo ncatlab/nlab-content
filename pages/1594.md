@@ -166,6 +166,8 @@ Survey of basic orbifold theory:
 * [[Ieke Moerdijk]], [[Janez Mrčun]], Section 2.4 of: _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics  __91__, 2003. x+173 pp. ISBN: 0-521-83197-0 ([doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450))
 
 
+* {#BoyerGalicki07} [[Charles Boyer]], [[Krzysztof Galicki]], Chapter 4 of: _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007 ([doi:10.1093/acprof:oso/9780198564959.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198564959.001.0001/acprof-9780198564959))
+
 * {#Kaye07} Adam Kaye, _Two-Dimensional Orbifolds_, 2007 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2007/REUPapers/FINALFULL/Kaye.pdf))
 
 * Michael Davis, _Lectures on orbifolds and reflection groups_, 2008 ([pdf](https://math.osu.edu/sites/math.osu.edu/files/08-05-MRI-preprint.pdf))
