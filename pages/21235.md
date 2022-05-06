@@ -16,6 +16,15 @@ Relation to the [[DBI-action]] of a probe brane in [[AdS/CFT]]:
 
 * Yoshiki Sato, Kentaroh Yoshida, _Holographic description of the Schwinger effect in electric and magnetic fields_,  J. High Energ. Phys. 2013, 111 (2013) ([arXiv:1303.0112](https://arxiv.org/abs/1303.0112))
 
+* Yoshiki Sato, Kentaroh Yoshida, _Holographic Schwinger effect in confining phase_, JHEP 09 (2013) 134 ([arXiv:1306.5512](https://arxiv.org/abs/1306.5512)
+
+* Yoshiki Sato, Kentaroh Yoshida, _Universal aspects of holographic Schwinger effect in general backgrounds_, JHEP 12 (2013) 051 ([arXiv:1309.4629](https://arxiv.org/abs/1309.4629))
+
+* Daisuke Kawai, Yoshiki Sato, Kentaroh Yoshida, _The Schwinger pair production rate in confining theories via holography_, Phys. Rev. D 89, 101901 (2014) ([arXiv:1312.4341](https://arxiv.org/abs/1312.4341))
+
+
+
+
 Relation to [[DBI-action]] of [[flavor branes]] in [[holographic QCD]]:
 
 * {#HashimotoOka13} [[Koji Hashimoto]], [[Takashi Oka]], _Vacuum Instability in Electric Fields via AdS/CFT: Euler-Heisenberg Lagrangian and Planckian Thermalization_, JHEP 10 (2013) 116 ([arXiv:1307.7423](https://arxiv.org/abs/1307.7423))
@@ -42,6 +51,9 @@ See also:
 * Zi-qiang Zhang, Xiangrong Zhu, De-fu Hou, _Effect of gluon condensate on holographic Schwinger effect_, Phys. Rev. D 101, 026017 (2020) ([arXiv:2001.02321](https://arxiv.org/abs/2001.02321))
 
 Review:
+
+* Daisuke Kawai, Yoshiki Sato, Kentaroh Yoshida, _A holographic description of the Schwinger effect in a confining gauge theory_, International Journal of Modern Physics A Vol. 30, No. 11, 1530026 (2015) ([arXiv:1504.00459](https://arxiv.org/abs/1504.00459))
+
 
 * [[Akihiko Sonoda]], _Electromagnetic instability in AdS/CFT_, 2016 ([spire:1633963](http://inspirehep.net/record/1633963), [[Sonoda16.pdf:file]])
 
