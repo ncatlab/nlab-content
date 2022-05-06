@@ -316,3 +316,6 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 [[!redirects Dp/D(p+2)-brane intersection]]
 [[!redirects Dp/D(p+2)-brane intersections]]
 
+[[!redirects Dp/D(p+2)-brane bound states]]
+[[!redirects Dp/D(p+2)-brane bound state]]
+
