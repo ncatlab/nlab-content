@@ -17,7 +17,7 @@
 
 ##The Knot Group of a Knot##
 
-The **knot group**, $G(K)$, of a [[knot]] $K$ is the [[fundamental group]] of the complement of the knot.  Taking this apart, the knot, $K$, is an embedding of $S^1$ into $\mathbb{R}^3$ or $S^3$. We tend to abuse terminology and to think (and to write) of $K$ as  the image of the embedding rather than the embedding itself.  We can therefore write $\mathbb{R}^3 \setminus K$ for the space outside the knot, i.e. its complement.  This is clearly arcwise connected so we do not need to worry about a choice of base point any point will do.  We make the 
+The **knot group**, $G(K)$, of a [[knot]] $K$ is the [[fundamental group]] of the [[knot complement|complement of the knot]].  Taking this apart, the knot, $K$, is an embedding of $S^1$ into $\mathbb{R}^3$ or $S^3$. We tend to abuse terminology and to think (and to write) of $K$ as  the image of the embedding rather than the embedding itself.  We can therefore write $\mathbb{R}^3 \setminus K$ for the space outside the knot, i.e. its complement.  This is clearly arcwise connected so we do not need to worry about a choice of base point any point will do.  We make the 
 
 +-- {: .un_defn}
 ###### Definition
