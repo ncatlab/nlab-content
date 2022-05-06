@@ -19,13 +19,20 @@
 
 ## Idea
 
-The Poincaré–Hopf theorem says that given a [[vector field]] $v \in \Gamma(T X)$ with isolated vanishing points $\{x_i\}$ on a [[differential manifold]] $X$, the [[sum]] over over the $x_i \in X$ of the [[degree of a continuous function|degrees]] of the vector in the vicinity of these points, regarded as [[cohomotopy]] classes 
+The Poincaré–Hopf theorem says that for any [[vector field]] $v \in \Gamma(T X)$ with a [[finite set]] of isolated vanishing points $\{x_i\}$ on an [[orientation|orientable]] [[compact topological space|compact]] [[differential manifold]] $X$, the [[sum]] over the $x_i \in X$ of the [[degree of a continuous function|degrees]] of the vector in the vicinity of these points, regarded as [[cohomotopy]] classes 
 
 $$
-  v/{\vert v\vert} 
+  v/{\vert v\vert}_{\vert x_i} 
   \;\colon\;
   \partial D_{x_i} \longrightarrow S(T_{x_i} X)
-  \,,
+$$
+
+and called the _Poincaré–Hopf [[index]]_ of $f$ at $x_i$
+
+$$
+  ind_{x_i}(v)
+  \;\coloneqq\;
+  deg\big(  v/{\vert v\vert}_{\vert {x_i} } \big)
 $$
 
 is given by the [[Euler characteristic]], hence by the value of the [[Euler class]] on the [[tangent bundle]]:
@@ -40,11 +47,26 @@ $$
     \atop
     { x_i }
   }{\sum}
-  deg\big(  v/{\vert v\vert}_{\vert {x_i} } \big)
+  ind_{x_i}(v)
   \,.
 $$
 
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "PHIndices.jpg",
+  "width": 570
+\end{imagefromfile}
+\end{center}
+
+
 In particular, the existence of a nowhere vanishing [[vector field]] (for which the above [[sum]] is empty) implies that the [[Euler characteristic]] vanishes.
+
+## Related concepts
+
+* [[Hopf degree theorem]]
+
+* [[Gauss-Bonnet theorem]]
 
 ## References
 
@@ -52,11 +74,23 @@ Named after [[Henri Poincaré]] and [[Heinz Hopf]].
 
 Review includes
 
-* Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf))
+* Alex Wright, Kael Dixon, _The Poincaré–Hopf theorem_ ([pdf](https://pdfs.semanticscholar.org/cd21/dbffb8cbc3a3636c40a58cb921789b0eaac9.pdf))
+
+* Ariel Hafftka, _Differential topology and the Poincaré–Hopf theorem_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Hafftka.pdf))
+
+Discussion in a broader perspective of [[K-theory]] and [[index theorems]]:
+
+* Omar Mohsen, _Poincaré–Hopf theorem and groupoids_ ([pdf](https://webusers.imj-prg.fr/uploads//omar.mohsen/Poincare-Hopf.pdf), [[MohsenPHIndex.pdf:file]])
+
 
 A comment on the version for complex vector fields is in 
 
 * Howard Jacobowitz, _Non-vanishing complex vector fields and the Euler characteristic_ ([arXiv:0901.0893](https://arxiv.org/abs/0901.0893)) 
+
+Generalization to [[orbifolds]]:
+
+* Christopher Seaton, _Two Gauss–Bonnet and Poincaré–Hopf theorems for orbifolds with boundary_, Differential Geometry and its Applications
+Volume 26, Issue 1, February 2008, Pages 42-51 ([doi:10.1016/j.difgeo.2007.11.002](https://doi.org/10.1016/j.difgeo.2007.11.002))
 
 See also
 
@@ -66,3 +100,8 @@ See also
 [[!redirects Poincaré-Hopf theorem]]
 [[!redirects Poincare–Hopf theorem]]
 [[!redirects Poincare-Hopf theorem]]
+
+[[!redirects Poincaré–Hopf index theorem]]
+[[!redirects Poincaré-Hopf index theorem]]
+[[!redirects Poincare–Hopf index theorem]]
+[[!redirects Poincare-Hopf index theorem]]
