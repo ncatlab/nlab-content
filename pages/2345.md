@@ -114,7 +114,7 @@ P(A)\rtwocell^{P(g)}_{P(g)}{\;\;\;\;\;\;1_{P(g)}} \drtwocell<5.5>_{P(g)\;\;\;\;\
 
 \end{xymatrix} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  \begin{xymatrix@R30mm@C35mm}
 
-P(B) \rtwocell^{P(1_C)}_{1_{P(C)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_C)\circ P(f)}{\;\;\;\;\;\;\;\gamma_{f,1_B}} & P(B) \dtwocell<4>^{\;\;\;\;P(f)}_{P(f)\;\;\;\;}{1_{P(f)}} \\ & P(C)
+P(B) \rtwocell^{P(1_B)}_{1_{P(B)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_C)\circ P(f)}{\;\;\;\;\;\;\;\gamma_{f,1_B}} & P(B) \dtwocell<4>^{\;\;\;\;P(f)}_{P(f)\;\;\;\;}{1_{P(f)}} \\ & P(C)
 
 \end{xymatrix}
 
