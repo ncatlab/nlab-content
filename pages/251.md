@@ -218,7 +218,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 ## Model structures on the category of double categories
 
-The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Moser, Sarazola, and Verdugo (I)](#MSV2Cat), [Moser, Sarazola, and Verdugo (II)](#MSVHInvar), and [Moser](#MoserInf).
+The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo (I)](#MSV2Cat), and [Moser, Sarazola, and Verdugo (II)](#MSVHInvar).
 
 Eventually this page should describe all of these and their relationships, but for the moment we mention only another one called the "gregarious" model structure; see [Campbell](#CampbellGreg).
 
@@ -245,13 +245,7 @@ A __gregarious equivalence__ is a [[companion pair]] $(f,u)$ of morphisms in $A$
 such that $f$ is an equivalence in the horizontal [[2-category]] of $A$
 and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
-A __companion pair__ is a pair $(f,u)$,
-where $f\colon a\to b$ is a horizontal morphism,
-$u\colon a\to b$ is a vertical morphism,
-and we have double cells $\eta\colon u\circ id_a\to f\circ id_a$
-and $\epsilon\colon id_b \circ f \to id_b \circ u$.
-
-The two model structures due to Moser, Sarazola, and Verdugo have the same class of weak equivalences, which contains the gregarious weak equivalences.  One of these model structures is a [[left Bousfield localization]] of the gregarious model structure.
+The two model structures described in the two papers by Moser, Sarazola, and Verdugo have the same class of weak equivalences, which contains the gregarious weak equivalences.  One of these model structures, which was discovered independently by [Campbell](#CampbellGreg), is a [[left Bousfield localization]] of the gregarious model structure.
 
 ## Related pages
 
@@ -296,15 +290,15 @@ See also
 
 Model structures on the category of double categories are discussed in:
 
-* {#FPPModel} Thomas M. Fiore, Simona Paoli, Dorette A. Pronk, *Model Structures on the Category of Small Double Categories*, [arxiv](https://arxiv.org/abs/0711.0473), 2007
+* {#FPPModel} Thomas M. Fiore, Simona Paoli, Dorette A. Pronk, [Model structures on the category of small double categories](https://doi.org/10.2140/agt.2008.8.1855), _Algebraic & Geometric Topology_ **8** (2008) 1855–1959.
+
+* {#FPThomason} Thomas M. Fiore, Simona Paoli, [A Thomason model structure on the category of small $n$-fold categories](http://doi.org/10.2140/agt.2010.10.1933), _Algebraic & Geometric Topology_ **10** (2010) 1933–2008. 
 
 * {#MSV2Cat} Lyne Moser, Maru Sarazola, Paula Verdugo, *A 2Cat-inspired model structure for double categories*, [arxiv](https://arxiv.org/abs/2004.14233), 2020
 
+* {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf), 2020
+
 * {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo, *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
-
-* {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf)
-
-* {#MoserInf} Lyne Moser, *A double (∞,1)-categorical nerve for double categories*, [arxiv](https://arxiv.org/abs/2007.01848), 2020
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
