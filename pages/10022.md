@@ -26,12 +26,12 @@ Holographic entanglement entropy refers to the expression of [[entanglement entr
 For [[quantum field theories]] that are exhibited as [[boundary field theories]] on the [[asymptotic boundary]] $A$ of an approximately [[anti de Sitter spacetime]] via some approximation to [[AdS-CFT duality]] (for instance for [[QCD]] via [[AdS-QCD duality]]) their [[entanglement entropy]] of a given [[bounded set|bounded domain]] $B\subset A$ turns out to be proportional to the [[area]] of the minimal-area [[surface]] inside the [[bulk]] spacetime that has the same [[boundary]] $\partial B$ (see [Nishioka-Ryu-Takayanagi 09 (3.3)](#NishiokaRyuTakayanagi09) for review of the formula and [Lewkowycz-Maldacena 13](#LewkowyczMaldacena13) for a conceptual explanation). 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/RyuTakayanagiFormula.jpg" width="400"></a>
+<img src="https://ncatlab.org/nlab/files/RyuTakayanagiFormula.jpg" width="520"></a>
 </center>
 
 > graphics grabbed from [Nishioka-Ryu-Takayanagi 09](#NishiokaRyuTakayanagi09)
 
-This relation is known as the _Ryu-Takayanagi formula_ ([Ryu-Takayanagi 06a](#RyuTakayanagi06a), [Ryu-Takayanagi 06b](#RyuTakayanagi06b)) for holographic computation of entabglement entropy, or _holographic entanglement entropy_, for short.
+This relation is known as the _Ryu-Takayanagi formula_ ([Ryu-Takayanagi 06a](#RyuTakayanagi06a), [Ryu-Takayanagi 06b](#RyuTakayanagi06b)) for holographic computation of entanglement entropy, or _holographic entanglement entropy_, for short.
 
 This is a generalization of the proportionality of [[black hole entropy]] to the area of its [[event horizon]]. Indeed, [[AdS-CFT duality]] applies to the [[near horizon geometry]] of [[black branes]], the higher-dimensional generalizations of [[black holes]] and reduces 4d black holes under suitable [[KK-compactification]] (see also at _[[black holes in string theory]]_)
 
@@ -54,7 +54,7 @@ Various properties of [[entanglement entropy]] find immediate geometric interpre
 
 ### Emergence of bulk spacetime from boundary information theory
 
-Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10 suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
+Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10) suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
 
 Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("tensor networks")
 
