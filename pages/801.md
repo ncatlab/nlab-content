@@ -83,9 +83,12 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[homotopy sphere]]
 
+* [[equivariant homotopy type]]
+
 [[!include notions of type]]
 
 [[!include homotopy n-types - table]]
+
 
 
 
