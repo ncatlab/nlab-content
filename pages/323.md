@@ -284,14 +284,7 @@ If $f\colon X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, the
 
 ## Related concepts
 
-* [[fiber product]], [[base change]]
-
-* [[wide pullback]]
-
-* [[lax pullback]], [[comma object]]
-
-
-* [[(∞,1)-pullback]], [[homotopy pullback]]
+[[!include notions of pullback -- contents]]
 
 ## References
 
