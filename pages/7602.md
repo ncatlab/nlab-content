@@ -20,15 +20,19 @@ Just as a symmetric multicategory with one object is also called an [[operad]], 
 
 ## Properties
 
-### Relation to PROPs
+### Relation to properads
 
-A (multicolored) [[PROP]] can also be described as a polycategory; what distinguishes a polycategory from a PROP is that in a polycategory, we can only compose along one object at once.  That is, we have a composition operation
+(Coloured) [[properads]] are similar to polycategories: what distinguishes a polycategory from a properad is that in a polycategory, we can only compose along one object at once.  That is, we have a composition operation
 
 $$\circ_D \colon Hom(A,B;C,D,E) \times Hom(F,D,G; H) \to Hom(F,A,B,G; C,H,E)$$
 
 but not an operation such as
 
 $$\circ_{B,C} \colon Hom(A; B,C) \times Hom(B,C; D) \to Hom(A,D).$$
+
+In a properad (and also a [[PROP]]), we allow composition along multiple objects at once. This is analogous to the definition of (coloured) [[operads]] in terms of partial composition or multiple composition. However, though both kinds of operads are equivalent, there exist coloured properads that are not equivalent to polycategories. For instance, if we have polymorphisms $f : A \to B, B$ and $g : B, B \to C$, we can form the composite $g \circ f : A \to C$ in a properad, but not a polycategory.
+
+PROPs, in addition to having the multiple composition operator of properads, also have a tensoring operator (given by the action of $\otimes$ on morphisms) that allows for "composition" of nonconnected operations.
 
 ### Internal logic
 
@@ -45,6 +49,14 @@ Some categorical structures that are normally defined in a monoidal category can
 ## Generalizations
 
 Just as [[multicategories]] are a special case of [[generalized multicategories]], which can be defined relative to any suitable [[monad]], polycategories are a special case of [[generalized polycategories]], which can be defined relative to any suitable [[pseudo-distributive law]].
+
+## Related concepts
+
+* [[dioperad]]
+* [[PROP]]
+* [[properad]]
+* [[multicategory]]
+* [[operad]]
 
 ## References
 
