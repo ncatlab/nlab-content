@@ -21,7 +21,8 @@
 ## Idea 
  {#Idea}
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _[[flavour (in particle physics)|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
+
 
 \begin{center}
 \begin{imagefromfile}
@@ -165,6 +166,10 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 ### General
 
+Early suggestion to look for relevant channels are due to 
+
+* {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
+
 Measurements include
 
 * [[LHCb collaboration]], _Differential branching fractions and isospin asymmetries of $B \to K^{(\ast)}\mu^+ \mu^-$ decays_, JHEP 06 (2014) 133 ([arXiv:1403.8044](https://arxiv.org/abs/1403.8044))
@@ -273,16 +278,21 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 ### Possible explanations/models
 
-#### General EFT [parameterization
+#### General EFT parameterization
 
 * {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits to $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
 
 
 * Srimoy Bhattacharya, Aritra Biswas, Zaineb Calcuttawala, Sunando Kumar Patra, _An in-depth analysis of $b \to c(s)$ semileptonic observables with possible $\mu \to \tau$ mixing_ ([arXiv:1902.02796](https://arxiv.org/abs/1902.02796))
 
-
-
 * {#ACDGMM19} Marcel Algueró, Bernat Capdevila, Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, _What $R_K$ and $Q_5$ can tell us about New Physics in $b \to s \ell \ell$ transitions?_ ([arXiv:1902.04900](https://arxiv.org/abs/1902.04900))
+
+* Marcel Algueró, Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, Javier Virto, _Addendum: "Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data"_ ([arXiv:1903.09578](https://arxiv.org/abs/1903.09578))
+
+* Ashutosh Kumar Alok, Amol Dighe, Shireen Gangal, Dinesh Kumar, _Continuing search for new physics in $b \to \mu s s$ decays: two operators at a time_ ([arXiv:1903.09617](https://arxiv.org/abs/1903.09617))
+
+* Marco Ciuchini, António M. Coutinho, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality_ ([arXiv:1903.09632](https://arxiv.org/abs/1903.09632))
+
 
 
 #### Leptoquarks
