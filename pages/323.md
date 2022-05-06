@@ -73,6 +73,8 @@ Since this universal property expresses the concept of pullback purely arrow-the
 
 ### In category theory
 
+####As a limit
+
 A **pullback** is a [[limit]] of a [[diagram]] like this:
 
 \begin{center}
@@ -97,6 +99,48 @@ and [[generalized the|the]] object $x$ is also called the **pullback**. It is we
 The last commutative square above is called a __pullback square__.
 
 The concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in the [[opposite category]] $C^{op}$.
+
+####Nuts and bolts
+
+Let $\mathcal{C}$ be a category, with $f:a\to c$ and $g:b\to c$ coterminal arrows in $\mathcal{C}$ as below
+
+\begin{center}
+  \begin{tikzcd}
+    a \ar[rd, "f"'] &   & b \ar[ld, "g"] \\
+                    & c
+  \end{tikzcd}
+\end{center}
+
+A **pullback** of $f$ and $g$ consists of an object $x$ together with arrows $p_a:x\to a$ and $p_b:x\to b$ such that the following diagram commutes universally
+
+\begin{center}
+  \begin{tikzcd}
+                    & x \ar[ld, "p_a"'] \ar[rd, "p_b"] \\
+    a \ar[rd, "f"'] &   & b \ar[ld, "g"]               \\
+                    & c
+  \end{tikzcd}
+\end{center}
+
+This means that for any other object $x'$ with arrows $p'_a:x'\to a$ and $p'_b:x'\to b$ such that 
+
+\begin{center}
+  \begin{tikzcd}
+                    & x' \ar[ld, "p'_a"'] \ar[rd, "p'_b"] \\
+    a \ar[rd, "f"'] &   & b \ar[ld, "g"]               \\
+                    & c
+  \end{tikzcd}
+\end{center}
+
+commutes, there exists a unique arrow $u:x'\to x$ such that
+
+\begin{center}
+  \begin{tikzcd}
+                    & x' \ar[ld, "p'_a"'] \ar[rd, "p'_b"] \ar[d, "u", dotted] \\
+    a & x \ar[l, "p_a"'] \ar[r, "p_b"]  & b               \\
+  \end{tikzcd}
+\end{center}
+
+commutes.
 
 ### In type theory
 
