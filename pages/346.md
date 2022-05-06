@@ -215,7 +215,7 @@ Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]]
 They were shown to be equivalent to closed unital [[multicategories]] here:
 
 * Oleksandr Manzyuk, _Closed categories vs. closed multicategories_, [arXiv](http://arxiv.org/abs/0904.3137), 2009
- {#Manzyuk09}
+ {#Manzyuk09}, [TAC 26, 2012] (http://www.tac.mta.ca/tac/volumes/26/5/26-05abs.html)
 
 You can get some of the idea from a [post by Owen Biesel at the $n$-Caf&#233;](http://golem.ph.utexas.edu/category/2009/02/monoidal_closed_categories_and.html#c022133).
 
