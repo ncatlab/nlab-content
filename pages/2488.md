@@ -349,7 +349,7 @@ $k$-truncated objects/morphisms to $k$-truncated objects/morphisms.
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop. 5.5.6.1.6]].
+This is [[Higher Topos Theory|HTT, prop. 5.5.6.16]].
 
 
 +-- {: .proof}
