@@ -20,6 +20,9 @@
 
 
 
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -62,7 +65,7 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[groupoid algebra]]
 
-* [[noncommutative torus]]
+* [[noncommutative torus]], [[fuzzy sphere]]
 
 * [[noncommutative scheme]]
 
