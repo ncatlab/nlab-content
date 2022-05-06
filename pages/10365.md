@@ -13,6 +13,12 @@ A [[condensate]] of [[bosons]].
 
 * [[Bose-Einstein condensate dark matter]]
 
+* [[superfluid]]
+
+* [[superconductivity]]
+
+* [[tachyon condensation]]
+
 
 ## References
 
