@@ -43,6 +43,10 @@ For [[metals]] the chemical potential is not inside a gap, and a valence sub-bun
 
 As a [[sub-bundle]] of the full a Hilbert space bundle of a quantum system, the valence bundle is naturally identified not up to [[isomorphism]] but up to ambient isomorphism, hence up to [[Murray-von Neumann equivalence]]. In fact, it has been argued to be physically classified by its class in [[topological K-theory]] (i.e. the [[Grothendieck group completion]] of the [[semigroup]] of Murray-von Neumann equivalence classes under [[direct sum of vector bundles]]), or rather by the [[twisted equivariant K-theory]] reflecting the material's [[quantum symmetries]]. This is the statement of the *[[K-theory classification of topological phases of matter]]*.
 
+## Related concepts
+
+* [[fiber bundle in physics]]
+
 ## References
 
 The valence/conduction *bands* are discussed in any text on [[solid state physics]].
