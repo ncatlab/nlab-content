@@ -44,6 +44,38 @@ One might then say that this class of endofunctors is algebraically compact.
 A leading example is where $C$ is $V$-[[enriched category|enriched]], in which case we might restrict attention to $V$-endofunctors. For example, the $\mathbf{cpo}$-enriched category of pointed [[cpo]]'s and strict maps is $\mathbf{cpo}$-algebraically compact.
 =--
 
+Recall that a [[cpo]] is an $\omega$-chain-complete partial order. 
+The category $\mathbf{cpo}$ comprises cpo's and continuous maps. 
+A cpo is _pointed_ if it has a bottom element, and a continuous map is _strict_ if it preserves the bottom elements. 
+
++-- {: .num_proposition}
+###### Proposition  
+
+The category $\mathbf{cpo}_{\bot!}$ of pointed [[cpo]]'s and strict continuous maps is algebraically compact as a $\mathbf{cpo}$-enriched category. 
+
+=--
+
++-- {: .proof}
+###### Proof sketch.
+
+In a poset-enriched category, an embedding-projection pair is a retract 
+$e:X \to Y$, $p: Y\to X$ such that $p e=id$ and $e p\leq id$. 
+
+Let $F:\mathbf{cpo}_{\bot!}\to \mathbf{cpo}_{\bot!}$ be an endofunctor. 
+Consider the chain of projections 
+
+$$1 \xleftarrow{p} F(1) \xleftarrow{F(p)} F(F(1)) \xleftarrow{F(F(p))} \dots$$
+
+We consider the limit $D$ of this sequence of projections as a poset, which is already a pointed cpo. 
+
+Because $1$ is also an initial object, each of these projections in the chain forms an embedding-projection pair, and we have a sequence 
+$$1 \xrightarrow{e} F(1) \xrightarrow{F(e)} F(F(1)) \xrightarrow{F(F(e))}\dots$$
+One can show that $D$ can also be regarded as a colimit of this sequence of embeddings. 
+
+Now we use the universal properties of limits and colimits to show that $D$ is an initial algebra and final coalgebra of $F$. 
+
+=--
+
 ## Mixed variance domain equations and minimal solutions
 
 Let $T:C^{op}\times C\to C$ be a [[bifunctor]]. A _solution_ for $T$ is an object $X$ together with an isomorphism 
