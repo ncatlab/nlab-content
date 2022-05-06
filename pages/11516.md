@@ -21,6 +21,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 In the context of [[topology]], a _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ (often, but crucially not always, taken to be a [[finite group]]).
@@ -48,10 +49,67 @@ On the other hand there is also the standard homotopy theory of [[infinity-actio
 
 
 ## Examples
+  {#Examples}
 
-* [[G-CW complex]]
+We dscuss some classes of examples of [[G-spaces]].
 
-* [[representation sphere]]
+### Euclidean $G$-spaces
+ {#EuclideanGSpace}
+
+Let $V \in RO(G)$ be an [[orthogonal group|orthogonal]] [[linear representation]] of a [[finite group]] $G$ on a [[real vector space]] $V$.
+Then the underlying [[Euclidean space]] $\mathbb{R}^V$ inherits the [[mathematical structure|structure]] of a [[G-space]]
+
+\begin{xymatrix}
+   \mathbb{R}^V\ar@(ul,ur)^G
+\end{xymatrix}
+
+### Representation spheres
+
+
+Let $V \in RO(G)$ be an [[orthogonal group|orthogonal]] [[linear representation]] of a [[finite group]] $G$ on a [[real vector space]] $V$.
+Then the [[one-point compactification]] of the underlying [[Euclidean space]] $\mathbb{R}^V$ inherits the [[mathematical structure|structure]] of a [[G-space]] with the [[one-point compactification|point at infinity]] a [[fixed point]]. This is called the _$V$-[[representation sphere]]_
+
+\begin{xymatrix}
+   S^V\ar@(ul,ur)^G
+   \ar@{}[r]|-{:=}
+   &
+   \big( \mathbb{R}^V\ar@(ul,ur)^G\big)^{\mathrm{cpt}}
+\end{xymatrix}
+
+
+### Representation tori
+
+Let $V \in RO(G)$ be an [[orthogonal group|orthogonal]] [[linear representation]] of a [[finite group]] $G$ on a [[real vector space]] $V$.
+
+If $G$ is the [[point group]] of a [[crystallographic group]] inside the [[Euclidean group]] 
+
+$$
+  N \rtimes G
+  \hookrightarrow
+  Iso(\mathbb{R}^V)
+$$
+
+then the $G$-[[action]] on the Euclidean space $\mathbb{R}^V$ descends the the [[quotient]] by the [[action]] of the translational [[normal subgroup]] [[lattice in a vector space|lattice]] $N$ ([this Prop.](crystallographic+group#InducedPointGroupActionOnTorus)). The resulting $G$-space is an [[n-torus]] with $G$-action, which might be called the _[[representation torus]]_ of $V$
+
+\begin{xymatrix}
+   \mathbb{R}^V\ar@(ul,ur)^G
+   \ar@{}[r]|-{:=}
+   &
+   \big( \mathbb{R}^V\ar@(ul,ur)^G\big)/N
+\end{xymatrix}
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=13">
+<img src="https://ncatlab.org/schreiber/files/ExamplesOfLinearRepsAndInducedGSpaces.jpg" width="690">
+</a>
+</center>
+
+> graphics grabbed from [SS 19](equivariant+Hopf+degree+theorem#SatiSchreiber19)
+
+
+### G-CW complexes
+
+See at _[[G-CW complex]]_.
 
 
 ## Related concepts
