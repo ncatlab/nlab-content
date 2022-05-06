@@ -31,13 +31,23 @@ Often considered in the special case of [[twisted ad-equivariant K-theory]].
 
 * [[twisted ad-equivariant K-theory]]
 
+* [[twisted ad-equivariant Tate K-theory]]
 
 ## References
 
+In a context of [[orbifold K-theory]]:
+
+* {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
+
+
 With an eye towards [[twisted ad-equivariant K-theory]]:
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1
-([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+
+The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
+
+* Noe Barcenas, Jesus Espinoza, [[Bernardo Uribe]], Mario Velasquez, _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society
+Volume 61 Issue 1 ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
 
 
 On [[equivariant principal bundles]] with structure group the [[projective unitary group]], providing twists for [[twisted equivariant K-theory]]:
