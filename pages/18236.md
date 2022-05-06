@@ -28,3 +28,6 @@
 
 [[!redirects arc length]]
 [[!redirects arc lengths]]
+
+[[!redirects arclength]]
+[[!redirects arclengths]]
