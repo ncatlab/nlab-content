@@ -267,6 +267,10 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [nu
 
 Much further material is also in Giraud's book on nonabelian cohomology. 
 
+In a [[model theory|model theoretic]] context of [[definable set]]s, principal homogeneous spaces are studied in
+
+* [[Anand Pillay]], _Remarks on Galois cohomology and definability_, The Journal of Symbolic Logic __62__:2 (1997) 487-492 [doi](https://doi.org/10.2307/2275542)
+
 See also
 
 * MathOverflow, _[torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)_
