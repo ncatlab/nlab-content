@@ -80,6 +80,9 @@ Here we are showing
 
 ## Related concepts
 
+* [[fuzzy funnel]]
+
+\linebreak
 
 [[!include brane bound states -- table]]
 
