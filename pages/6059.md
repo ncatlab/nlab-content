@@ -49,6 +49,10 @@ and specifically the need for twisted differential K-theory for the description 
 
 * {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
+Actual constructions appear with
+
+* [[Alan Carey]], [[Jouko Mickelsson]], [[Bai-Ling Wang]], _Differential Twisted K-theory and Applications_, Journal of Geometry and Physics, Volume 59, Issue 5, May 2009, Pages 632-653 ([arXiv:0708.3114](https://arxiv.org/abs/0708.3114), [doi:10.1016/j.geomphys.2009.02.002](https://doi.org/10.1016/j.geomphys.2009.02.002))
+
 Review in
 
 * [[Ulrich Bunke]], [[Thomas Schick]], Section 7 in: _Differential K-theory: A survey_, in:  [[Christian Bär]], Joachim Lohkamp, Matthias Schwarz (eds.), _Global Differential Geometry_, Springer 2012 ([doi:10.1007/978-3-642-22842-1](https://doi.org/10.1007/978-3-642-22842-1))
@@ -57,7 +61,6 @@ Review in
 A definition and proof of its pertinent properties of [[twisted differential cohomology]] in general and of twisted differential K-theory in particular is due to
 
 * {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_ ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231))
-
 
 
 
