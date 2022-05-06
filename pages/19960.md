@@ -819,6 +819,11 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 
 * Matteo Rinaldi, _Double parton correlations in mesons within AdS/QCD soft-wall models: a first comparison with lattice data_ ([arXiv:2003.09400](https://arxiv.org/abs/2003.09400))
 
+### Flux string breaking
+
+* Oleg Andreev, _String Breaking, Baryons, Medium, and Gauge/String Duality_ ([arXiv:2003.09880](https://arxiv.org/abs/2003.09880))
+
+
 
 ### Glueball physics
 
