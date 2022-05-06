@@ -265,7 +265,7 @@ The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completi
 
 * [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
 
-* {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 
+* {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
 
 * {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946
  
@@ -313,7 +313,7 @@ Discussion of the [[adjoint action]]-equivariant K-theory of suitable [[Lie grou
 
 Discussion of K-theory of [[orbifolds]] is for instance in section 3 of 
 
-* Alejandro Adem, Johanna Leida, Yongbin Ruan, _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* [[Alejandro Adem]], Johanna Leida, [[Yongbin Ruan]], _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 Discussion of [[differential K-theory]] of [[orbifolds]]:
 
