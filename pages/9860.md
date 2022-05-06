@@ -46,6 +46,10 @@ A [[Lagrangian correspondence]] between [[symplectic manifolds]], regarded as [[
 
 =--
 
+## Morita Equivalence
+
+One may also impose additional conditions on $i_1$ and $i_2$. Suppose $i_1$ and $i_2$ are Poisson and anti-Poisson maps that are complete, constant rank with connected, simply-connected fibers satisfying the symplectic orthogonality of $i_1^\ast C^\infty (X_1)$ and $i_2^\ast C^\infty (X_2)$. Then this gives the notion of Morita equivalence between $X_1$ and $X_2$ as Poisson manifolds.
+
 ## Related concepts
 
 * [[symplectic category]]
