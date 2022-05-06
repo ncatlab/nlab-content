@@ -3,6 +3,16 @@
 
 ## Selected writings
 
+On [[toric duality]]:
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _D-brane gauge theories from toric singularities and toric duality, Nucl. Phys. B 595 (2001) 165 ([arXiv:hep-th/0003085](https://arxiv.org/abs/hep-th/0003085))
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _Phase structure of D-brane gauge theories and toric duality_ , J. High Energy Phys. 08 (2001) 040 ([hep-th/0104259](https://arxiv.org/abs/hep-th/0104259))
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], [[Angel Uranga]], _Toric duality as Seiberg duality and brane diamonds, J. High Energy Phys. 12 (2001) 035 ([hep-th/0109063](https://arxiv.org/abs/hep-th/0109063))
+
+* [[Bo Feng]], S. Franco, [[Amihay Hanany]], [[Yang-Hui He]], _Unhiggsing the del Pezzo_, J. High Energy Phys. 08 (2003) 058 ([hep-th/0209228](https://arxiv.org/abs/hep-th/0209228))
+
 
 On [[quiver gauge theories]] and [[D-branes]]:
 
