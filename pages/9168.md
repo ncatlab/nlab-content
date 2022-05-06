@@ -887,6 +887,8 @@ $$
 
 ## Related concepts
 
+* [[pseudo-scalar field]]
+
 * [[wave equation]], [[Klein-Gordon equation]]
 
 * [[causal propagator]], [[Feynman propagator]]
