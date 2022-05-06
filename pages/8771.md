@@ -33,6 +33,12 @@ To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stack
 
 *  The [[tropical semiring|tropical algebra]] and the [[max-plus algebra]] are idempotent semirings.
 
+## Related concepts
+
+* [[ring]]
+* [[rig]]
+* [[idempotent semifield]]
+
 
 [[!redirects idempotent semiring]]
 [[!redirects idempotent semirings]]
