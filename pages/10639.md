@@ -64,6 +64,10 @@ See [this MO discussion](http://mathoverflow.net/q/178113/381).
 
 * [[equivariant elliptic cohomology]]
 
+* [[twisted ad-equivariant K-theory]]
+
+* [[twisted ad-equivariant Tate K-theory]]
+
 * [[Loop Groups and Twisted K-Theory]]
 
 
