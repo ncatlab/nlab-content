@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Fields and quanta
 +--{: .hide}
-[[!include physicscontents]]
+[[!include fields and quanta - table]]
+=--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -24,7 +29,9 @@ In this sense [[chiral perturbation theory]] is the archetype of quantum hadrody
 
 * [[Walecka model]]
 
-* [[hadron supersymmetry]]
+* [[hadron supersymmetry]], [[hadron Kaluza-Klein theory]]
+
+  * [[flavor branes]]
 
 * [[leptonic decay]]
 
