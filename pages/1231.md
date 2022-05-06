@@ -155,4 +155,9 @@ Lecture Notes in Mathematics __1479__, 1991, pp 57-86
 
 * [[Jonathan Beardsley]], [[Maximilien Péroux]], _Koszul Duality in Higher Topoi_ ([arXiv:1909.11724](https://arxiv.org/abs/1909.11724))
 
+
+A form of Koszul duality for dg-categories has been given by Holstein and Lazarev.
+
+* [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
+
 [[!redirects Koszul dual]]
