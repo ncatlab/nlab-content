@@ -46,12 +46,13 @@ The suggestion that the Riemann hypothesis might have a proof that is an analogu
 
 Experimental checks of the Riemann hypothesis with computers:
 
-* R. P. Brent, J. van de Lune, H. J. J. te Riele and D. T. Winter, _On the Zeros of the Riemann Zeta Function in the Critical Strip. II_, Mathematics of Computation Mathematics of Computation Vol. 39, No. 160 (Oct., 1982), pp. 681-688 ([doi:10.2307/2007345 ](https://www.jstor.org/stable/2007345))
+* R. P. Brent, J. van de Lune, H. J. J. te Riele and D. T. Winter, _On the Zeros of the Riemann Zeta Function in the Critical Strip. II_, Mathematics of Computation Vol. 39, No. 160 (Oct., 1982), pp. 681-688 ([doi:10.2307/2007345 ](https://www.jstor.org/stable/2007345))
 
-* Xavier Gourdon, _The $10^{13}$ first zeros of the Riemann Zeta function,
-and zeros computation at very large height_, 2004 ([pdf](http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeros1e13-1e24.pdf))
+* A. M. Odlyzko, _The $10^{22}$-nd zero of the Riemann zeta function_, in Lapidus et al. (eds.) proceedings of AMS special session on _Dynamical, Spectral, and Arithmetic Zeta Functions_, 1999 ([pdf](http://www.dtc.umn.edu/~odlyzko/doc/zeta.10to22.pdf))
 
-* David J. Platt, _Isolating some non-trivial zeros of zeta_, Math. Comp. 86 (2017), 2449-2467 ([doi:10.1090/mcom/3198 ](https://doi.org/10.1090/mcom/3198 ))
+* {#Gourdon04} Xavier Gourdon, _The $10^{13}$ first zeros of the Riemann Zeta function, and zeros computation at very large height_, 2004 ([pdf](http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeros1e13-1e24.pdf), [webpage](http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeroscompute.html))
+
+* David J. Platt, _Isolating some non-trivial zeros of zeta_, Mathematics of Computation 86 (2017), 2449-2467 ([doi:10.1090/mcom/3198 ](https://doi.org/10.1090/mcom/3198 ))
 
 
 
