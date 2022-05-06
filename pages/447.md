@@ -261,6 +261,52 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
  & \cong & R(X) \times R(Y)
 }$$
 
+
+### A construction of Drinfeld of geometric realization as Hom([0,1],-)
+
+
+[Drinfeld, On the notion of geometric realization](https://arxiv.org/abs/math/0304064) provides a conceptual explanation of preserving finite limits, and
+"reformulates the definitions so that the following facts become obvious:
+
+* geometric realization commutes with finite projective limits (e.g., with Cartesian products);
+
+* the geometric realization of a simplicial set ... (resp. cyclic set) is 
+equipped with an action of the group of orientation preserving homeomorphisms 
+of the segment $I := [0, 1]$ ... (resp. the circle $S^ 1$)." 
+(quote from the paper)
+
+A draft [M.Gavrilovich, K.Pimenov. Geometric realisation as a Skorokhod semi-continuous path space endofunctor](http://mishap.sdf.org/Skorokhod_Geometric_Realisation.pdf) 
+attempts to further reformulate this by showing that, in a certain precise sense, 
+geometric realisation is an endofunctor of a certain category $sF$ of simplicial sets equipped 
+with extra structure of topological nature (a notion of smallness). The underlying
+endofunctor of $sSets$ is 
+$$HHom ( Hom_{preorders}(-, [0,1]_\leq), Y_.) $$ 
+
+The category $sF$ contains simplicial sets, topological and uniform spaces as full subcategories, 
+and has forgetful functors $sF\to sSets$, $sF\to Top$, and $sF\to UniformSpaces$ such that
+the following compositions are identity:
+$sSets\to sF\to sSets$, $Top\to sF\to Top$, and $UniformSpaces\to sF\to UniformSpaces$. 
+Moreover, this endofunctor seems to 
+have the right adjoint, defined by the usual construction. 
+
+Here are some details. The category $sF$ may be thought as the category of simplicial sets with 
+ extra structure of topological nature, a notion of smallness. 
+ Formally it is just the category of simplicial objects in the category of [[filters]]. 
+ The endofunctor $HHom ( Hom_{preorders}(-, [0,1]_\leq), Y_.):sF\to sF $ 
+ above is the inner hom of sSets equipped with an extra structure motivated by Skorokhod/Levi-Prokhorov convergence. 
+ The precise claim is that the geometric realisation of sSets factors as 
+$$ sSets  \to sF \to sF \to Top $$
+
+ To gain some intuition, consider $Y_.=\Delta_n=Hom(-,[n])$ the standard simplex. Then
+ by Remark  2.4.1-2 of [Grayson](http://www.math.uiuc.edu/~dan/Courses/2003/Spring/416/GraysonKtheory.pdf)
+ the standard geometric simplex is the set of monotone functions $[0.1]\to [n]$
+ $$Hom_{preorders}([0,1]_\leq), [n] ) = Hom ( Hom_{preorders}(-, [0,1]_\leq), \Delta_n )$$
+ equipped with a metric 
+ $$\dist(f,g)=\inf \{ \epsilon: \forall x \exists y ( f(x)=f(y) ) \wedge  \forall y \exists x ( f(x)=g(y) ) \}$$
+ reminiscent of Skorokhod metric in probability theory. 
+Now instead of $\Delta_n$ take an arbitrary simplicial set, and rewrite the definition of Skorokhod convergence in terms of the notion of smallness in $sF$.
+
+
 ### Geometric realization preserves fibrations
 
 \begin{theorem}
