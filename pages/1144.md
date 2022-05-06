@@ -1197,12 +1197,11 @@ The original articles are
 
 Survey and review includes
 
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], Jean-Claude Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
+* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015
 
-* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], Jean-Claude Thomas, _Rational Homotopy Theory II_, World Scientific 2015
-
-  (this second valume generalizes to the case of non-[[simply connected topological spaces]])
+  (this second volume generalizes to the case of non-[[simply connected topological spaces]])
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
