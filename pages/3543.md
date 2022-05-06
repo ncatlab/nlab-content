@@ -64,6 +64,8 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
 
 ([Bousfield-Kan 72, p. 133-140](#BousfieldKan72), [Bousfield-Gugenheim 76, 11.1](#BousfieldGugenheim76), [Hess 06, Def. 1.4 with Def. 1.7](#Hess06))
 
+(notice here that $\mathbb{Q} \otimes_{\mathbb{Z}} \mathbb{Q}\,\simeq\, \mathbb{Q}$, e.g. [here](http://www-users.math.umn.edu/~garrett/m/algebra/exercises/s19.pdf#page=2))
+
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
 In [[rational homotopy theory]] one considers
