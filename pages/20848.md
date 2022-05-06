@@ -26,6 +26,11 @@ On [[de Sitter spacetime]] [[cosmology]] [[brane world models]] in ambient $\sim
 
 * Souvik Banerjee, [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
 
+
+On [[AdS2/CFT1]] in [[massive type IIA string theory]]:
+
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_2$ solutions and their massive IIA origin_, JHEP 05 (2019) 107 ([arXiv:1811.11572](https://arxiv.org/abs/1811.11572))
+
 On [[AdS2/CFT1]] on [[D1-D3 brane intersections]]:
 
 * [[Giuseppe Dibitetto]], Yolanda Lozano, [[Nicolò Petri]], Anayeli Ramirez, _Holographic Description of M-branes via $AdS_2$_ ([arXiv:1912.09932](https://arxiv.org/abs/1912.09932))
