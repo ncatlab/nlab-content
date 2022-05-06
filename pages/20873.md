@@ -42,7 +42,13 @@ For $n \in \mathbb{N}$, write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal
 
 Given a [[horizontal chord diagram]] on $n$ strands and given any choice of [[cyclic permutation]] of $n$ elements, the [[trace of horizontal to round chord diagrams]] is the [[round chord diagram]] obtained by gluing the ends of the strands according to the cyclic permutation, and retaining the chords in the evident way.
 
-The following graphics shows basic examples of the trace operation for [[cyclic permutation]] of strands one step to the right:
+The following shows an example of the trace operation for [[cyclic permutation]] of strands one step to the left:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagram.jpg" width="600">
+</center>
+
+The following are the analogous traces of the four types of horizontal chord diagrams appearing in the [[4T relation]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="800">
