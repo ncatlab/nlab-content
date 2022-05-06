@@ -112,16 +112,17 @@ This gives the multiplication table on the right, where any two consecutive arro
 +-- {: .num_example #FixedLocusOfe4e5e6e7}
 ###### Example
 
-The following computation shows that the [[fixed point set]] inside the [[octonions]] $\mathbb{O}$ of the operation of consecutive left multiplication by the generators $\mathrm{e}_4$, $\mathrm{e}_5$, $\mathrm{e}_6$ $\mathrm{e}_7$ (according to Def. \ref{QuaternionCompatibleComponentDefinition}) is the [[linear subspace]] of [[quaternions]] (see [HSS 18, Lemma 4.13](#HSS18) for application of this fact to [[M-branes]]):
+The following computation shows the operation of consecutive left multiplication by the generators $\mathrm{e}_4$, $\mathrm{e}_5$, $\mathrm{e}_6$ $\mathrm{e}_7$ (according to Def. \ref{QuaternionCompatibleComponentDefinition}) on any octonion
+$x = q + p \ell$ ($q,p \in \mathbb{H}$) is by reversal of the sign of the $\ell$-component, hence has as [[fixed point|fixed]] [[linear subspace]] the [[quaternions]] (see [HSS 18, Lemma 4.13](#HSS18) for application of this fact to [[M-branes]]):
 
 $$
   \begin{aligned}
     \mathrm{e}_4
     \Big(
     \mathrm{e}_5
-    \big( 
-      \mathrm{e}_6  
-      (\mathrm{e}_7 x) 
+    \big(
+      \mathrm{e}_6
+      (\mathrm{e}_7 x)
     \big)
     \Big)
     & =
@@ -131,7 +132,7 @@ $$
     \Big(
       (j \ell)
       \big(
-        (k \ell) 
+        (k \ell)
         x
       \big)
     \Big)
@@ -144,7 +145,7 @@ $$
     \Big(
       (j \ell)
       \big(
-        (k \overline{x}) 
+        (k \overline{x})
         \ell
       \big)
     \Big)
@@ -172,21 +173,57 @@ $$
     \ell
     \bigg)
     \\
-    & = 
+    & =
     \big(
-      (x k)
+      (
+       \underset{
+         \mathclap{
+           q + p \ell
+         }
+       }{
+         \underbrace{
+           x 
+         }
+       }
+      k)
       j
     \big)
     i
-      \\
-      & =
-      \left\{
-        \begin{array}{ccc}
-          \phantom{-}\, x & \text{if} & x \in \mathbb{H}\phantom{\ell} \hookrightarrow \mathbb{O}
-          \\
-          - x & \text{if} & x \in \mathbb{H}\ell \hookrightarrow \mathbb{O}
-        \end{array}
-      \right.
+    \\
+    & =
+    q k j i
+    + 
+    \Big(
+      \big( 
+        (q \ell) k
+      \big) 
+      j
+    \Big) 
+    i
+    \\
+    & = 
+    q
+    \underset{
+      = 1
+    }{ 
+    \underbrace{
+      k j i
+    }
+    }
+    -
+    (p
+      \underset{
+        = 1
+      }{
+        \underbrace{
+          k j i
+        }
+      }
+    ) \ell
+    \\
+    & =
+    q - p \ell
+    \,.
   \end{aligned}
 $$
 
