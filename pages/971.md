@@ -219,10 +219,14 @@ of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
-Accessible categories in the context of [categorical model theory](model+theory#CategoricalModelTheory) are further discussed in
+Some recent developments in the theory of accessible categories can be found in a series of papers on [categorical model theory](model+theory#CategoricalModelTheory) and [[abstract elementary classes]] (many of which also contain some results about arbitrary accessible categories), such as:
 
+* [[Tibor Beke]], [[Jiří Rosický]], *Abstract elementary classes and accessible categories*, 2011, [arxiv](https://arxiv.org/abs/1005.2910)
 
-* [[Tibor Beke]], [[Jiří Rosický]], _Abstract elementary classes and accessible categories_, 2011   ([pdf](http://www.math.muni.cz/~rosicky/papers/elem7.pdf))
+* Michael Lieberman, Jiří Rosický, Sebastien Vasey, *Internal sizes in μ-abstract elementary classes*, [arxiv](https://arxiv.org/abs/1708.06782)
+
+* Michael Lieberman, Jiří Rosický, Sebastien Vasey , *Set-theoretic aspects of accessible categories*, [arxiv](https://arxiv.org/abs/1902.06777)
+
 
 
 [[!redirects accessible categories]]
