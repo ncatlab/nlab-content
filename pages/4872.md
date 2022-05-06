@@ -37,6 +37,10 @@
   * [[Seifert surface]]
   * [[virtual knot theory]]
 
+  * [[Dehn surgery]], [[Kirby calculus]]
+
+  * [[volume conjecture]]
+
 [edit this sidebar](http://ncatlab.org/nlab/edit/knot+theory+-+contents)
 
 category: knot theory
