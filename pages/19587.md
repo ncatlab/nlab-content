@@ -59,7 +59,7 @@ $$
 $$
 where the unlabeled arrow is the homotopy colimit of a morphism of diagrams over $S(\partial \Delta[k-1])$ given by the maps 
 $$(X,x)^\sigma \xrightarrow{\sim} X^{\dim(\sigma)+1} \xrightarrow{p_{\dim(\sigma)+1}} fil_{\dim(\sigma)+1}$$
-for each simplex $\sigma$ of the boundary simplicial complex $\partial \Delta[k-1]$ of the standard $(k-1)$-simplex.  
+for each simplex $\sigma$ of the boundary simplicial complex $\partial \Delta[k-1]$ of the standard $(k-1)$-simplex. The homotopy colimit $fil_\infty$ of the sequence of maps $fil_0 \stackrel{j_1}{\to} fil_1 \stackrel{j_2}{\to} \ldots$ is called the **James construction** on $(X, x)$. 
 =-- 
 
 +-- {: .num_prop #TypeOfJames}
