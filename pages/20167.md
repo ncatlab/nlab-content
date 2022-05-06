@@ -153,26 +153,28 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 As a special case of the [[equivariant Hopf degree theorem]] (Theorem \ref{EquivariantHopfDegreeTheorem}), we obtain the following:
 
 
+
 +-- {: .num_prop #EquivariantHomotopyOfSVInRODegreeV}
 ###### Proposition
 **([[equivariant cohomotopy]] of [[representation sphere]] $S^V$ in [[RO(G)-degree]] $V$)**
 
 
-  Let $G \in \mathrm{Grp}_{\mathrm{fin}}$
-  and $V \in \mathrm{RO}(G)$ with $V^G = 0$.
-  Then the bipointed [[equivariant cohomotopy]] 
-  of the [[representation sphere]] $S^V$ 
-  in [[RO(G)-degree]] $V$ is
-  the [[Cartesian product]] of one copy of the [[integers]] for
-  each [[isotropy group|isotropy]] subgroup (eq:IsotropySubgroups) of $G$ in $S^V$
-  except the full subgroup $G \subset G$
+Let $G \in \mathrm{Grp}_{\mathrm{fin}}$ and $V \in \mathrm{RO}(G)$. Then the pointed [[equivariant cohomotopy]]  of the [[representation sphere]] $S^V$  in [[RO(G)-degree]] $V$ is the [[Cartesian product]] of one copy of the [[integers]] for each _proper_ [[isotropy group|isotropy]] subgroup (eq:IsotropySubgroups) $H \underset{\neq}{\subset} G$ in $S^V$, and a copy of $\mathbb{Z}_2$ or $\mathbb{Z}$ depending on whether $V^G = 0$ or not:
 
 $$
   \array{
-      \pi^V\left( S^V\right)^{\{0,\infty\}/}
+      \pi^V\left( S^V\right)^{\{\infty\}/}
       &
         \overset{\simeq}{\longrightarrow}
       &
+      \left\{
+        \array{
+          \mathbb{Z}_2 &\vert& V^G = 0
+          \\
+          \mathbb{Z} &\vert& \text{otherwise}
+        }
+      \right\}
+      \times
       \underset{
         {
           {
@@ -203,24 +205,33 @@ $$
       \Big)
   }
 $$
-  where on the right 
-  $$
-    \mathrm{deg}
-    \Big(
-      \big(
-        S^V
-      \big)^H
-      \overset{
-        c^H
-      }{\longrightarrow}
-      \big(
-        S^V
-      \big)^H
-    \Big)
-    \in \mathbb{Z}
-  $$
-  is the [[integer]] [[winding number]] of the underlying [[continuous function]]
-  of $c$ ([[corestriction|co]])[[restriction|restricted]] to $H$-[[fixed points]], and part of the claim is  that this is an integer multiple of the order of the [[Weyl group]] $W_G(H)$ (eq:WeylGroup) up to an offset
+
+where on the right 
+
+$$
+  \mathrm{deg}
+  \Big(
+    \big(
+      S^V
+    \big)^H
+    \overset{
+      c^H
+    }{\longrightarrow}
+    \big(
+      S^V
+    \big)^H
+  \Big)
+  \in 
+  \left\{
+    \array{
+      \mathbb{Z} &\vert& dim\left(V^H\right) \gt 0
+      \\
+      \mathbb{Z}_2 &\vert& dim\left( V^H\right) = 0
+    }
+  \right\}
+$$
+
+is the [[winding number]] of the underlying [[continuous function]] of $c$ ([[corestriction|co]])[[restriction|restricted]] to $H$-[[fixed points]], and part of the claim is  that in the cases with $dim\left( V^H\right) \gt 0$ this is an integer multiple of the order of the [[Weyl group]] $W_G(H)$ (eq:WeylGroup) up to an offset
 
 $$
   \mathrm{offs}(f,H) 
@@ -243,7 +254,7 @@ This follows as a special case of the equivariant Hopf degree theorem (Theorem \
 
 The list of assumptions there is satisfied because [[G-representation spheres are G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
 
-This equivariant Hopf degree theorem is stated above under the simplifying assumption that the dimension of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ is 0, with $\left( S^V\right)^G = S^0$. Then, our assumption of bipointedness uniquely fixes the choice of map $S^0 \overset{c^G}{\longrightarrow} S^0$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
+This equivariant Hopf degree theorem is stated above under the simplifying assumption that the dimension of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ may be 0, with $\left( S^V\right)^G = S^0$. This gives a choice in $\mathbb{Z}_2$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
 
 =--
 
@@ -456,6 +467,15 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 
 <br/>
+
+
+## Applications
+
+* [[Burnside ring is equivariant stable cohomotopy of the point]]
+
+<br/>
+
+
 
 ## Related statements
 
