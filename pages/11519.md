@@ -1,4 +1,3 @@
-[[!redirects representation spheres]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -29,10 +28,20 @@ Given a linear [[representation]] of a [[group]] ([[topological group]]) $G$ in 
 Representation spheres induce the [[looping and delooping]] which is used in 
 [[RO(G)-grading|RO(G)-graded]] [[equivariant cohomology]] theory, [[Brown representability theorem|represented]] by [[genuine G-spectra]] in [[equivariant stable homotopy theory]].
 
-## Construction
+## Properties
+
+
+### Equivariant stereographic projection
  {#Construction}
 
-To construct a representation sphere $S^V$ associated to a $G$-representation $V$, one can consider the [[unit sphere]] $S(\mathbb{R}\oplus V)$ where $\mathbb{R}$ carries the trivial representation. Then the [[stereographic projection]] homeomorphism
+
++-- {: .num_prop #RepresentationSpheresAsUnitSpheres}
+###### Proposition
+**([[representation spheres]] of $V$ are [[unit spheres]] in $\mathbb{R} \oplus V$)**
+
+Let $G$ be a [[finite group]] and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] [[linear representation]] of $G$.
+
+Conside the [[unit sphere]] $S(\mathbb{R}\oplus V)$ where $\mathbb{R}$ carries the [[trivial representation]]. Then the [[stereographic projection]] homeomorphism
 
 $$
   S(\mathbb{R}\oplus V)\setminus \{(1,\mathbf{0})\}
@@ -40,14 +49,31 @@ $$
   V
 $$ 
 
-is manifestly $G$-equivariant, with its inverse exhibiting $S(\mathbb{R}\oplus V)$ as the one-point compactification of $V$, hence
+is manifestly $G$-equivariant, with its inverse exhibiting $S(\mathbb{R}\oplus V)$ as the [[one-point compactification]] of $V$, hence
 
 $$
   S^V \simeq_G S(\mathbb{R}\oplus V)
   \,.
 $$
 
-This also makes it clear that for $G$ a [[Lie group]], $S^V$ is represented by a [[smooth manifold]] with smooth $G$-[[action]].
+This also shows that $S^V$ is a [[smooth manifold]] with smooth $G$-[[action]].
+
+=--
+
+### $G$-CW-Complex structure
+
++-- {: .num_prop #RepresentationSpheresAreGCWComplexes}
+###### Proposition
+**($G$-[[representation spheres]] are [[G-CW-complexes]])**
+
+For $G$ a [[finite group]] and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] $G$-[[linear representation]], the [[representation sphere]] $S^V$ admits the structure of a [[G-CW-complex]].
+
+=--
+
+Proof idea: By Prop. \ref{RepresentationSpheresAsUnitSpheres} we may realize $S^V$ as the unit sphere $S(\mathbb{R} \oplus V)$. Consider then the [[convex hull]] of all the points $\pm g(b_i) \in \mathbb{R} \oplus V$, for $g \in G$ and $\{b_1, b_2, \cdots, b_{n+1}\}$ a [[linear basis]] of $\mathbb{R} \oplus V$. This induces an equivariant triangulation of $S(\mathbb{R} \oplus V)$, whose cells constitute the required [[G-CW-complex]] structure.
+
+The argument in the larger generality of $G$ a [[compact Lie group]]: e.g. proof of Prop. B.43 in [this](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3AF92C4A288F9A831EEBEC8C1C8CC661/9781108425810apx2_735-792.pdf/equivariant_spaces.pdf)
+
 
 ## References
 
