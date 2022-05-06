@@ -23,6 +23,10 @@ What has come to be called _nonabelian T-duality_ ([Ossa-Quevedo 92](#OssaQueved
 It has been proven that these generalized T-dualities are are/induce equivalences of the corresponding [[string]] [[sigma-models]] at the level of [[classical field theory]]. However it seems to be open, and in fact questionable, that away from standard [[T-duality]] this yields an equivalence at the level of [[worldsheet]] [[quantum field theories]], hence it is open whether Poisson-Lie/non-abelian T-duality is really a duality operation on [[perturbative string theory vacua]].
 
 
+Poisson-Lie T-duality may also be made manifest at the level of [[type II supergravity ]] in the framework of [[double field theory]] on [[Lie group|group manifolds]]. Using this framework both the NS/NS sector and the R/R sector are captured, and this allows to derive the transformation of the [[RR fields]] for full Poisson-Lie T-duality ([Hassler 17](#Hassler17)).
+
+
+
 ## Related $n$Lab entries
 
 * [[topological T-duality]]
@@ -57,10 +61,10 @@ See also
 
 * [[Pavol Ševera]], Fridrich Valach, _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
 
+* {#Hassler17} [[Falk Hassler]], _Poisson-Lie T-Duality in Double Field Theory_ ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
+
+
 [[!redirects nonabelian T-duality]]
 
 [[!redirects non-abelian T-duality]]
 
-Poisson-Lie T-duality can also be made manifest at the level of [[type II supergravity ]] in the framework of [[double field theory]] on group manifolds. Using this framework both the NS/NS sector and the R/R sector are captured. It allowed to derive the transformation of the R/R fields for full Poisson-Lie T-duality for the first time.
-
-* [[Falk Hassler]], Poisson-Lie T-Duality in Double Field Theory, ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
