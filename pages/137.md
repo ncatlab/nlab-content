@@ -53,6 +53,16 @@ Finally, this means that $f$ is an epimorphism in a [[category]] $\mathcal{C}$ p
 
 ## Examples
 
+### General
+
++-- {: .num_example}
+###### Example
+
+Every [[isomorphism]] is both an epimorphism and a [[monomorphism]].
+
+=--
+
+
 +-- {: .num_example #EpimorphismsOfSets}
 ###### Example
 **(epimorphisms of sets)**
@@ -69,33 +79,41 @@ But beware that in categories of sets with [[extra structure]], epimorphisms nee
 ###### Example
 **(epimorphisms of rings)**
 
-In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, then every surjective ring homomorphisms is an epimorphism, but not every epimorphism is surjective. 
-
-A counterexample is the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into the ring of [[rational numbers]]. This is an injective epimorphism of rings.
+In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, then every surjective ring homomorphisms is an epimorphism, 
 
 For more see for instance at [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_.
+
 
 =--
 
 Often, though, the surjections correspond to a stronger notion of epimorphism.
 
-+-- {: .num_example}
-###### Example
-
-Every [[isomorphism]] is both an epimorphism and a [[monomorphism]].
-
-=--
 
 But beware that the converse fails:
 
-+-- {: .num_example}
-###### Example
 
-A morphism that is both an epimorphism and a [[monomorphism]] need not be an [[isomorphism]].
+### Examples of monos that are epi but not iso
+ {#ExamplesOfMonosThatAreEpiButNotIso}
 
-For instance in the categories [[Ring]] or [[CRing]] as in example \ref{EpimorphismsOfRings}, then the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into that of [[rational numbers]] is both a monomorphism and an epimorphism, but clearly not an isomorphism.
+The following lists some examples of [[morphisms]] that are both [[monomorphisms]] and [[epimorphisms]], but not necessarily [[isomorphisms]].
 
-=--
+\begin{example}
+
+In the [[category]] of [[Hausdorff topological spaces]], the inclusion $A \hookrightarrow X$ of a [[dense subspace]] is an [[epimorphism]].
+
+\end{example}
+
+See [this Prop.](Hausdorff+space#DenseSubspaceInclusionsAreEpimorphismsAmongHausdorffSpaces) for proof.
+
+
+\begin{example}
+ \label{InclusionOfIntegersIntoRationalsIsEpimorphismOfRings}
+  
+In [[unital ring|unital]] [[Rings]], the canonical inclusion $\mathbb{Z} \overset{i}{\hookrightarrow} \mathbb{Q}$ of the [[integers]] into the [[rational numbers]] is an [[epimorphism]].
+
+\end{example}
+
+See [this Prop.](Ring#InclusionOfIntegersIntoRationalsIsEpimorphismOfRings) for proof.
 
 
 ## Properties
