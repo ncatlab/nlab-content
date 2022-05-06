@@ -35,7 +35,7 @@
 
 ## Idea
 
-Type I string theory is [[type II string theory]] on [[orientifold]] [[spacetimes]] (at [[O9-planes]]).
+Type I string theory is [[type IIB string theory]] on [[orientifold]] [[spacetimes]], hence on [[O9-planes]]. Its [[T-duality|T-dual]], called type I' string theory, is  [[type IIA string theory]] on [[O8-planes]], which under the [[duality between M-theory and type IIA string theory]] is M-theory [[KK-compactification|KK-compactified]] on the [[orientifold]] $S^1 \times S^1 \sslash \mathbb{Z}_2$
 
 $$
   \array{
@@ -43,7 +43,7 @@ $$
     \\
     {}^{ \mathllap{S^1 \times S^1/\mathbb{Z}_2 }}\big\downarrow
     \\
-    I' &\underset{T}{\longrightarrow}& I
+    I' &\underset{T}{\leftrightarrow}& I
   }
 $$
 
@@ -59,9 +59,78 @@ Under the [[duality between type I and heterotic string theory]] this translates
 
 Discussion of type-I [[string phenomenology]] and [[grand unified theory]] based on [[SO(32)]] type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
 
-### String-string dualities
+### Dualities
 
-* [[duality between type I and heterotic string theory]]
+#### String-string dualities
+
+See at _[[duality between type I and heterotic string theory]]_
+
+#### Horava-Witten theory
+
+One considers the [[KK-compactification]] of [[M-theory]] on a [[cyclic group of order 2|Z/2]]-[[orbifold]] of a [[torus]], hence of the [[Cartesian product]] of two [[circles]] 
+
+$$  
+  \array{
+    & S^1_A &\times& S^1_B
+    \\
+    \text{radius}: &  R_{11} && R_{10}
+  }
+$$
+
+such that the reduction on the first factor $S^1_A$ corresponds to the [[duality between M-theory and type IIA string theory]], hence so that subsequent [[T-duality]] along the second factor yields [[type IIB string theory]] (in its [[F-theory]]-incarnation). Now the diffeomorphism which exchanges the two circle factors and hence should be a symmetry of M-theory is interpreted as [[S-duality]] in [[type II string theory]]:
+
+$$
+  IIB \overset{S}{\leftrightarrow} IIB
+$$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HoaravaWittenCompactifications.jpg" width="500">  
+</center>
+
+
+> graphics taken from [Horava-Witten 95, p. 15](#HoravaWitten95) 
+
+If one considers this situation additionally with a $\mathbb{Z}/2\mathbb{Z}$-[[orbifold]] quotient of the first circle factor, one obtains the [[duality between M-theory and heterotic string theory]] ([[Horava-Witten theory]]). If instead one performs it on the second circle factor, one obtains [[type I string theory]].
+
+Here in both cases the [[involution]] [[action]] is by [[reflection]] of the circle at a line through its center. Hence if we identify $S^1 \simeq \mathbb{R} / \mathbb{Z}$ then the action is by multiplication by /1 on the [[real line]].
+
+In summary:
+
+M-theory on
+
+* $(S^1_A \sslash \mathbb{Z}_2 ) \times S^1_B$ yields [[heterotic string theory]]
+
+* $S^1_A \times \left( S^1_B \sslash \mathbb{Z}_2 \right)$ yields [[type I string theory]]
+
+Hence the [[S-duality]] that swaps the two circle factors corresponds to _[[duality between type I and heterotic string theory]]_. 
+
+
+
+$$
+  \array{
+     HE 
+       &\overset{KK/\mathbb{Z}^A_2}{\leftrightarrow}& 
+     M 
+       &\overset{KK/\mathbb{Z}^B_2}{\leftrightarrow}& 
+     I'
+     \\
+     \mathllap{T}\updownarrow
+     &&  && 
+     \updownarrow \mathrlap{T}  
+     \\
+     HO 
+     && \underset{\phantom{A}S\phantom{A}}{\leftrightarrow} && 
+     I
+  }
+$$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HoravaWittenCompactificationsII.jpg" width="500">  
+</center>
+
+> graphics taken from [Horava-Witten 95, p. 16](#HoravaWitten95) 
+
+
 
 ## Related concepts
 
@@ -74,6 +143,11 @@ Discussion of type-I [[string phenomenology]] and [[grand unified theory]] based
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4.3 of of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+Relation to [[M-theory]] (via [[Horava-Witten theory]]):
+
+* {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
+
+* {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
 
 A comprehensive discussion of the ([[differential cohomology|differential]]) [[cohomology|cohomological]] nature of general type II/type I [[orientifold]] backgrounds is in 
 
@@ -96,6 +170,8 @@ Related lecture notes / slides include
 ### Type I'
 
 * {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: _The Many Faces of the Superworld, pp. 388-397_ (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
+
+* Justin R. David, Avinash Dhar, Gautam Mandal, _Probing Type I' String Theory Using D0 and D4-Branes_, Phys. Lett. B415 (1997) 135-143 ([arXiv:hep-th/9707132](https://arxiv.org/abs/hep-th/9707132))
 
 ### Phenomenology
  {#Phenomenology}
