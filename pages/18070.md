@@ -588,7 +588,7 @@ $$
 
 =--
 
-This is due to [Arnold 69](#Arnold69), [Cohen 73](#Cohen73). See also [Lambrechts-Tourtchine 09](#LambrechtsTourtchine09).
+This is due to [Arnold 69](#Arnold69), [Cohen 73](#Cohen73). See also [Lambrechts-Tourtchine 09, Section 3](#LambrechtsTourtchine09).
 
 See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohomology](Fulton-MacPherson+operad#deRhamCohomology)_.
 
@@ -645,6 +645,7 @@ $$
   \Big(
     Conf_n\big( \mathbb{R}^D \big)  
   \Big)
+  \otimes_{\mathbb{Z}} \mathbb{Q}
   \phantom{AAA}
   i \neq j \in \{1, \cdots, n\}
   \,,
@@ -661,7 +662,7 @@ subject to the following [[generators and relations|relations]]:
 =--
 
 
-This is due to [Kohno 02](#Kohno02). See also [Lambrechts-Tourtchine 09](#LambrechtsTourtchine09).
+This is due to [Kohno 02](#Kohno02). See also [Lambrechts-Tourtchine 09, Section 3](#LambrechtsTourtchine09).
 
 
 
