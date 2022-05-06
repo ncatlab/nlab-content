@@ -25,6 +25,8 @@ Via the identification of [[D-brane charge]] in [[K-theory]], the K-theoretic [[
 
 * [[M5-brane instanton]]
 
+* [[giant graviton]]
+
 * in the [[Witten-Sakai-Sugimoto model]] (see there) for [[non-perturbative field theory|non-perturbative]] [[quantum chromodynamics]] [[baryons]] appear as wrapped [[D4-branes]]
 
 <center>
