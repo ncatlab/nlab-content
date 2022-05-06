@@ -5,7 +5,7 @@
 
 ## Idea
 
-__Random matrix__ is a matrix-valued [[random variable]]. __Random matrix theory__ studies mainly the behaviour of eigenvalues and various functions of random matrices; as such it has large importance in physics. 
+A __random matrix__ is a matrix-valued [[random variable]]. __Random matrix theory__ studies mainly the behaviour of eigenvalues and various functions of random matrices; as such it has large importance in physics. 
 
 ## Related entries
 
@@ -30,11 +30,22 @@ Transl. from Russian (Vi&#353;&#269;a &#352;kola, Kiev 1980, [MR82h:60002](http:
 *  Greg W. Anderson, Alice Guionnet, Ofer Zeitouni, An Introduction to Random Matrices, Cambridge Studies in Advanced Mathematics
 
 ### In string/M-theory
+  {#ReferencesStringTheory}
 
-Random matrix theory applied to the [[BFSS matrix model]] for studying [[black holes in string theory]]:
+Random matrix theory applies to [[black holes in string theory]]:
+
+via the [[SYK model]]:
+
+* Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
+
+via the [[BFSS matrix model]]:
 
 * {#DuSahakian18} Haoxing Du, Vatche Sahakian, _Emergent geometry from stochastic dynamics, or Hawking evaporation in M(atrix) theory_ ([arXiv:1812.05020](https://arxiv.org/abs/1812.05020))
 
+
+via [[Jackiw-Teitelboim gravity]]:
+
+* {#StanfordWitten19} [[Douglas Stanford]], [[Edward Witten]], _JT Gravity and the Ensembles of Random Matrix Theory_ ([arXiv:1907.03363](https://arxiv.org/abs/1907.03363))
 
 [[!redirects random matrix theory]]
 [[!redirects random matrices]]
