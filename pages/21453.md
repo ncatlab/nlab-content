@@ -1,0 +1,1 @@
+[__MathOverflow__](https://mathoverflow.net/) is a website created in September 2009 by [[Anton Geraschenko]] and a group of UC Berkeley PhD students.  It uses the same software as StackOverflow and was named after it.
