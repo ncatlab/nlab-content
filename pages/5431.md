@@ -24,3 +24,13 @@
 * [My homepage at St Peter's College](http://www.spc.ox.ac.uk/Staff/69/Staff.html?StaffId=292) 
 * [Biamonte] (http://qubit.org/jacob-biamonte.html) (My homepage!)
 * [ISI Foundation](http://www.thequantumnetwork.org/)
+
+
+## Selected writings
+
+On [[tensor networks]]:
+
+* [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
+
+* [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
+
