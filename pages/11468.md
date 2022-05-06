@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -116,6 +115,11 @@ Discussion of [[tachyon condensation]] in $p$-adic string theory includes
 See also
 
 * {#BGZ16} Miriam Bocardo-Gaspar, H. García-Compeán, W. A. Zúñiga-Galindo, _Regularization of p-adic String Amplitudes, and Multivariate Local Zeta Functions_ ([arXiv:1611.03807](https://arxiv.org/abs/1611.03807))
+
+
+Relation to [[gravity]] and the [[Riemann zeta function]]:
+
+* An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
 
 
 [[!redirects adelic string theory]]
