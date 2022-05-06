@@ -54,7 +54,14 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 
 <br/>
 
-[[energy]] $\,$ [[scales]]:
+
+[[energy]] and [[length scales]] in the [[observable universe]] (from [[cosmological constant|cosmic]] scales, over [[fundamental particle]]-[[masses]] around the [[electroweak symmetry breaking]] to [[GUT scale]] and [[Planck scale]]):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ScalesInFundamentalPhysics.jpg" width="700">
+</center>
+
+> graphics grabbed from [Zupan 19](flavour+in+particle+physics#Zupan19)
 
 
 \begin{center}
