@@ -8,6 +8,8 @@
 =--
 =--
 
+Named after [[Ernst Leonard Lindelöf]].
+
 #Contents#
 * table of contents
 {:toc}
@@ -30,13 +32,9 @@ A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a
 
 ## Related properties
 
-[[!include topology - global countability axioms]]
+[[!include topology - countability axioms]]
 
 ## References
-
-Named after [[Ernst Leonard Lindelöf]].
-
-See also 
 
 * Wikipedia, _[Lindel&#246;f space](https://en.wikipedia.org/wiki/Lindel%C3%B6f_space)_
 
