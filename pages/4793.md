@@ -68,6 +68,10 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 ## Related concepts
 
+* [[quaternionic vector space]]
+
+* [[quaternionic vector bundle]]
+
 * [[SL(2,H)]]
 
 [[!include exceptional spinors and division algebras -- table]]
