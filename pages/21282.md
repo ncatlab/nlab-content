@@ -107,6 +107,14 @@ For [[baryons]] one has:
 [[!redirects light and heavy meson]]
 [[!redirects light and heavy mesons]]
 
+[[!redirects heavy vector meson]]
+[[!redirects light vector meson]]
+[[!redirects heavy vector mesons]]
+[[!redirects light vector mesons]]
+[[!redirects light and heavy vector meson]]
+[[!redirects light and heavy vector mesons]]
+
+
 [[!redirects heavy hadron]]
 [[!redirects light hadron]]
 [[!redirects heavy hadrons]]
