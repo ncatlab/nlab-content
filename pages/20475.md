@@ -13,7 +13,7 @@
 
 A proposal for a formalization of the concept of chaos in terms of [[adjoint modalities]] is in
 
-* [[William Lawvere]], _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/87s.pdf))
+* [[William Lawvere]], _Functorial Remarks on the General Concept of Chaos_ , IMA Preprint 87, 1984 ([pdf](https://www.ima.umn.edu/sites/default/files/87s.pdf))
 
 See also
 
