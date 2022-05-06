@@ -357,17 +357,25 @@ defines $E$ over $R = \mathbb{Z}[Y_Z,\epsilon, \delta]$.
 
 The corresponding [[formal group law]] is **Euler's formal group law**
 
-$$
-  f(x,y) = \frac{x\sqrt{1- 2 \delta y^2 + \epsilon y^4}
-   + y \sqrt{1- 2 \delta x^2 + \epsilon x^4}}
+\[
+  \label{EulerFormalGroupLaw}
+  f(x,y) 
+    \;=\; 
+  \frac{
+    x
+    \sqrt{1- 2 \delta y^2 + \epsilon y^4}
+    + 
+    y 
+    \sqrt{1- 2 \delta x^2 + \epsilon x^4}
+  }
   {1- \epsilon x^2 y^2}
-$$
+\]
 
-if $\Delta := \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-trivial elliptic curve.
+if $\Delta \coloneqq \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-trivial elliptic curve.
 
 =--
 
-If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ ([[additive group|additive]] or [[multiplicative group|multiplicative]] formal group law corresponding to [[integral cohomology]] and [[K-theory]], respectively).
+If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ ([[additive group|additive]] or [[multiplicative group|multiplicative]] formal group law corresponding to [[ordinary cohomology]] and [[topological K-theory]] [[KU]], respectively).
 
 ### Relation to elliptic cohomology 
 
@@ -433,7 +441,10 @@ See also
 
   (review of general elliptic curves in the context of [[elliptic genera]], [[elliptic spectra]] and the [[string orientation of tmf]])
 
-An elementary discussion of [[associativity]] of the [[formal group law]] of elliptic curves is in
+Discussion of the [[formal group law]] of elliptic curves:
+
+* Antonia W. Bluher, _Formal groups, elliptic curves, and some theorems of Couveignes_, in: J.P. Buhler (eds.) _Algorithmic Number Theory_ ANTS 1998. Lecture Notes in Computer Science, vol 1423. Springer 1998 ([arXiv:math/9708215](https://arxiv.org/abs/math/9708215), [doi:10.1007/BFb0054887]( https://doi.org/10.1007/BFb0054887))
+
 
 * {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves Stefan Friedl_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
 
