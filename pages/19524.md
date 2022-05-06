@@ -30,6 +30,28 @@ On [[inhomogeneous cosmology]]:
 
   exposition in _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+, 2016
 
+
+* {#HeinesenBuchert20} Asta Heinesen, [[Thomas Buchert]], _Solving the curvature and Hubble parameter inconsistencies through structure formation-induced curvature_ ([arXiv:2002.10831](https://arxiv.org/abs/2002.10831))
+
+  p. 14:
+
+  > a natural and consistent explanation of 
+
+  > (i) dark energy, 
+
+  > (ii) the coincidence problem (here conceptually,not quantitatively),
+
+  > (iii) positive initial curvature, 
+
+  > (iv) the small matter density cosmological parameterfound in local probes of the matter density, 
+
+  > (v) the large angular diameter distance tothe CMB consistent with JLA supernova sample parameter constraints, 
+
+  > and (vi) the local expansion rate measurements (removal of the 'Hubble tension').
+
+  > We believe that this model architecture needs convincing arguments to be rejected as a physically viable show-case, on the basis of which the model ingredients can be improved in order to build a physical cosmology in the future.
+
+
 ## Related $n$Lab entries
 
 * [[inhomogeneous cosmology]]
