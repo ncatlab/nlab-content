@@ -7,7 +7,7 @@
 
 * [[(infinity,1)-module bundle]], [[twisted Umkehr map]]
 
-## Publictions
+## Publications
 
 PhD thesis:
 
