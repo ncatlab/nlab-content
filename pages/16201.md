@@ -74,7 +74,7 @@ Discussion of higher curvature corrections to [[11-dimensional supergravity]] in
 
 * Anirban Basu, _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
 
-* {#SoueresTsimpis17} Bertrand Souères, Dimitrios Tsimpis, _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
+* {#SoueresTsimpis17} Bertrand Souères, [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
 
 and from the [[ABJM  model]]:
