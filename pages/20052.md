@@ -65,7 +65,17 @@ Valuations on locales are used in the [[topos approach to quantum mechanics]] an
 
 ### Dirac valuation
 
-Let $X$ be a topological space, and let $x\in X$ be a point. The **Dirac valuation** at $x$, which we denote by $\delta_x$, maps an open set $U\subseteq X$ to $1$ if $x\in U$, and to $0$ otherwise.
+Let $X$ be a topological space, and let $x\in X$ be a point. The **Dirac valuation** at $x$, which we denote by $\delta_x$, maps an open set $U\subseteq X$ to
+$$
+\delta_x(U) \;\coloneqq\; 
+\begin{cases}
+1 & x\in U \\
+0 & x\notin U.
+\end{cases}
+$$ 
+
+These are the valuation analogue of [[Dirac measures]], and give the unit map of [[valuation monads]].
+Note the analogy with [[neighborhood filters]]: Dirac measures can be considered a quantitative analogue thereof.
 
 ### Simple valuations
 
@@ -202,6 +212,17 @@ This includes in particular every [[metric space]], and every compact Hausdorff 
 
 The more general question of whether one can extend a finite continuous valuation to a Borel measure on any sober space, at the present time, is still open. 
 
+### Particular cases
+
+* Every Dirac valuation can be extended to the corresponding [[Dirac measure]].
+
+* The pushforward of an extendable valuation along a [[continuous map]] is again extendable, and the resulting [[measure]] is the [[pushforward measure]] of the extension. (Equivalently, the restriction of measures to valuations is a [[natural transformation]]).
+
+* The above specializes to the fact that marginals of extendable valuations are extendable, and the resulting measure is the [[marginal measure]]. 
+
+* Somewhat conversely, the product of extendable valuations is extendable, and the resulting measure is the [[product measure]] of the extensions.
+
+* The integration, given by the multiplication map $E: P P X \to P X$ of the [[extended probabilistic powerdomain]], maps extendable valuations to extendable valuations, and the resulting measure is the integral of the extension. Therefore there is a [[monad#the_bicategory_of_monads|morphism of monads]] exhibiting [[τ-additive measures]] as a submonad of valuations. (See also [[extended probabilistic powerdomain#the_measure_monad_on_top|the measure monad on Top]].)
 
 ## See also
 
