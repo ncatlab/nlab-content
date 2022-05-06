@@ -555,49 +555,5 @@ An axiomatic desciption of $Top$ along the lines of [[ETCS]] for [[Set]] is disc
 
 category: category
 
+[[!redirects TopologicalSpaces]]
 [[!redirects category of topological spaces]]
-
-{:data
-key=Top
-name="\(\mathbf{Top\}\)"
-desc="Topological spaces with continuous functions"
-small=no
-locally small=yes
-concrete=yes
-topos=""
-abelian=no
-complete=yes
-co-complete=yes
-imp_enrich="\(\mathbf{Set\}\)"
-imp_monoidal=""
-imp_adj="Kolmogorov-Quotient+Embedding of \(\mathbf{Top\}_0\); Stone-&#268;ech-Compactification+Embedding of \(\mathbf{Comp\}\); forgetful functor+discrete topology; indiscrete topology+forgetful functor"
-imp_equ=""
-Mono=Injections
-Epi=Surjections
-Ext-Mono=Embeddings
-Ext-Epi=""
-Reg-Mono=Embeddings
-Reg-Epi=""
-Eq=""
-Co-Eq=""
-Co-Retr=""
-Retr="Morphism onto a subspace where every element of the codomain is a fixpoint"
-Bim=Coarsements
-Iso=Homeomorphisms
-Const="Constant maps"
-Co-Const="\(\emptyset \to X\)"
-Null="\(\emptyset \to X\)"
-Gen="Non-empty spaces"
-Co-Gen="Spaces containing a discrete subspace of card. 2"
-Init="\(\emptyset\)"
-Term="\(\{x\\\}\)"
-Zero=none
-Empty="\(\emptyset\)"
-Co-Empt=none
-Strong-Init=none
-Strong-Term="\(\{x\\\}\)"
-Prod="Product topology"
-Co-Prod="Disjoint union (topological sum)"
-Equal=""
-Co-Equal=""
-}
