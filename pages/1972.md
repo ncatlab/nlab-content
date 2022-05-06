@@ -258,10 +258,6 @@ The [[Adams operations]] and [[Lambda-ring]]-structure on representation rings a
 
 * [[Michael Boardman]], _Adams operations on Group representations_, 2007 ([pdf](http://www.math.jhu.edu/~jmb/note/adamrept.pdf))
 
-
-* Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
-
-
-* {#Meir17} Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
+* {#Meir17} Ehud Meir, [[Markus Szymik]], _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
 
 [[!redirects representation rings]]
