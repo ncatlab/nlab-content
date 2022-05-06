@@ -55,6 +55,8 @@ In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-
 
 * [[equivalence of (∞,1)-categories]], [[adjoint (∞,1)-functor]]
 
+[[!include properties of functors -- contents]]
+
 
 ## References
 
