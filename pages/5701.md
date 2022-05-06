@@ -16,6 +16,11 @@ On the [[3d-3d correspondence]]:
 
 * Sungbong Chun, [[Sergei Gukov]], Sunghyuk Park, Nikita Sopenko, _3d-3d correspondence for mapping tori_ ([arxiv:1911.08456](https://arxiv.org/abs/1911.08456))
 
+On [[Rozansky-Witten theory]]:
+
+* [[Sergei Gukov]], Po-Shen Hsin, Hiraku Nakajima, Sunghyuk Park, Du Pei, Nikita Sopenko, _Rozansky-Witten geometry of Coulomb branches and logarithmic knot invariants_ ([arXiv:2005.05347](https://arxiv.org/abs/2005.05347))
+
+
 
 category: people
 
