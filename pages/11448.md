@@ -35,7 +35,9 @@
 
 ## Idea
 
-Type I string theory is [[type IIB string theory]] on [[orientifold]] [[spacetimes]], hence on [[O9-planes]]. Its [[T-duality|T-dual]], called type I' string theory, is  [[type IIA string theory]] on [[O8-planes]], which under the [[duality between M-theory and type IIA string theory]] is M-theory [[KK-compactification|KK-compactified]] on the [[orientifold]] $S^1 \times S^1 \sslash \mathbb{Z}_2$
+What is called _type I string theory_ is [[type IIB string theory]] on [[orientifold]] [[spacetimes]], hence on [[O9-planes]]. 
+
+Its [[T-duality|T-dual]], called _type I' string theory_, is  [[type IIA string theory]] on [[O8-planes]], which under the [[duality between M-theory and type IIA string theory]] is M-theory [[KK-compactification|KK-compactified]] on the [[orientifold]] $S^1 \times S^1 \sslash \mathbb{Z}_2$ (see also _[[M-theory on S1/G_HW times H/G_ADE]]_):
 
 $$
   \array{
@@ -49,15 +51,30 @@ $$
 
 ## Properties
 
-### Tadpole cancellation and $SO(32)$-GUT
+### Tadpole cancellation and $SO(32)$-GUT in Type I
  {#TadpoleCancellationAndSO32GUT}
 
 For type I string theory on [[flat orbifold|flat]] ([[toroidal orbifold|toroidal]]) [[target spacetime]] [[orientifolds]] $\mathbb{R}^{9,1}$
-[[RR-field tadpole cancellation]] requires 32 [[D-branes]] to cancel the [[O-plane charge]] of -32 ([here](orientifold+plane#OPlaneChargeForFlatOrientifolds)).
+(i.e. for [[type IIB string theory]] on flat toroidal [[O9-planes]])
+[[RR-field tadpole cancellation]] requires 32 [[D-branes]] (see [this Remark](orientifold+plane#ContingOfDBranesOnOrientifolds) for counting D-branes in [[orientifolds]]) to cancel the [[O-plane charge]] of -32 ([here](orientifold+plane#OPlaneChargeForFlatOrientifolds)).
 
 Under the [[duality between type I and heterotic string theory]] this translates to the [[semi-spin group|semi-spin]] [[gauge group]] [[SemiSpin(32)]] of [[heterotic string theory]].
 
 Discussion of type-I [[string phenomenology]] and [[grand unified theory]] based on [[SO(32)]] type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
+
+### Tadpole cancellation and $SO(16) \times SO(16)$-GUT in Type I'
+
+For type I' string theory on [[flat orbifold|flat]] ([[toroidal orbifold|toroidal]]) [[target spacetime]] [[orientifolds]] $X^{8,1} \times \mathbb{S}^1/\mathbb{Z}_2$
+(i.e. for [[type IIA string theory]] on two flat toroidal [[O8-planes]])
+[[RR-field tadpole cancellation]] requires 16 [[D-branes]] (see [this Remark](orientifold+plane#ContingOfDBranesOnOrientifolds) for counting D-branes in [[orientifolds]]) on each of the two [[O8-planes]] to cancel the total [[O-plane charge]] of $-32 = 2 \cdot (-16)$ ([here](orientifold+plane#OPlaneChargeForFlatOrientifolds)).
+
+Discussion of [[Spin(16)]]-[[GUT]] phenomenology:
+
+(...)
+
+
+(...)
+
 
 ### Dualities
 
