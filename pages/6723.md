@@ -3,6 +3,15 @@
 
 ## Selected writings
 
+On [[black holes in string theory]] via the [[BFSS matrix model]]:
+
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett.80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
+
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
+
+* [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B416:62-66,1998 ([arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108))
+
+
 On the [[pp-wave spacetime]] [[Penrose limit]] of the [[AdS5-CFT4 correspondence]]:
 
 * N. Itzhaki, [[Igor Klebanov]], [[Sunil Mukhi]], _PP Wave Limit and Enhanced Supersymmetry in Gauge Theories_, JHEP 0203 (2002) 048 ([arXiv:hep-th/0202153](https://arxiv.org/abs/hep-th/0202153))
