@@ -23,6 +23,8 @@ for any ordinal $\alpha$ ($0$, successor, or limit).
 
 The elements of the constructible universe are called __[[constructible sets]]__; the idea is similar to the [[constructible sets]] in topology and algebraic geometry. 
 
+[[AnonymousCoward]]: Does there exist a [[structural set theory]] definition of a constructible set and the constructible universe?
+
 
 ## Properties
 
