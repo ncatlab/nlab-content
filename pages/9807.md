@@ -329,7 +329,7 @@ This [[dgc-algebra]] is called the _Weil model_ for $G$-equivariant de Rham coho
 #### The Cartan model
  {#TheCartanModel}
 
-The Cartan model follows from the Weil model [above](#TheWeilModel) by algebraically solving the horizontality constraint (eq:WeilModelHorizontalForms). This we discuss first [below](#LabelCartanViaHorizontalProjection). Then we summarize state the resulting dgc-algebra further [below](#CartanModelDirectDefinition).
+The Cartan model follows from the Weil model [above](#TheWeilModel) by algebraically solving the horizontality constraint (eq:WeilModelHorizontalForms). This we discuss first [below](#LabelCartanViaHorizontalProjection). Then we describe the resulting dgc-algebra further [below](#CartanModelDirectDefinition).
 
 Reviews include ([Mathai-Quillen 86, Sec. 5](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
 
