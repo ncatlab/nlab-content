@@ -246,9 +246,6 @@ Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
 [[!redirects WIMP]]
 [[!redirects WIMPs]]
 
-[[!redirects weakly interacting massive particle]]
-[[!redirects weakly interacting massive particles]]
-
 [[!redirects core-cusp problem]]
 [[!redirects core-cusp problems]]
 
