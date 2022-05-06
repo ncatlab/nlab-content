@@ -111,7 +111,7 @@ In [[Haskell]], the traditional way to model that a program may depend on random
 
 A treatment of _opacity_ in [[linguistics]] via the function monad
 
-* [[Gianluca Giorgolo]], [[Ash Asudeh]], _Monads as a Solution for Generalized Opacity_, [pdf](http://users.ox.ac.uk/~cpgl0036/pdf/giorgolo-asudeh-eacl2014.pdf)
+* [[Gianluca Giorgolo]], [[Ash Asudeh]], _Monads as a Solution for Generalized Opacity_, [paper](https://www.aclweb.org/anthology/W14-1403/)
 
 * [[Gianluca Giorgolo]], [[Ash Asudeh]], _Perspectives_, Semantics and Pragmatics, vol. 9, [paper](http://semprag.org/article/view/sp.9.21)
 
