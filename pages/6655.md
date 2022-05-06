@@ -223,7 +223,7 @@ One should note carefully that this "is" only "the axiom of choice" under the ab
 ###### Remark
 
 In the [[categorical semantics]] of this expression, using the 
-[[propositions-as-types]] logic corresponds roughly to working with the [[subobject lattices]] in the [[ex/lex completion]] of a [[locally cartesian closed category]]; the ALC then follows since every object of the original category becomes [[projective object|projective]] in its ex/lex completion.
+[[propositions-as-types]] logic corresponds roughly to working with the [[subobject lattices]] in the [[ex/lex completion]] of a [[locally cartesian closed category]]; the ACL then follows since every object of the original category becomes [[projective object|projective]] in its ex/lex completion.
 
 =--
 
