@@ -18,6 +18,10 @@
 
 The [[Lie algebra]] $\mathfrak{su}(n)$ of the [[special unitary group]] $SU(n)$. Canonically identified with [[matrices]] with [[complex number]] entries that are skew-hermitean and have vanishing [[trace]].
 
+## Examples
+
+* [[su(2)]]
+
 ## Related concepts
 
 * [[unitary Lie algebra]]
@@ -26,6 +30,10 @@ The [[Lie algebra]] $\mathfrak{su}(n)$ of the [[special unitary group]] $SU(n)$.
 
 * [[special linear Lie algebra]]
 
+## References
 
+Textbook accounts:
+
+* Walter Pfeifer, _The Lie algebras $\mathfrak{su}(N)$_, Birkhäuser Verlag 2003 ([doi:10.1007/978-3-0348-8097-8](https://doi.org/10.1007/978-3-0348-8097-8))
 
 [[!redirects special unitary Lie algebras]]
