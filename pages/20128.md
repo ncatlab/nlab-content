@@ -46,6 +46,8 @@ As a possible solution to the [[flavour anomalies]]:
 
 * P. Ko, Takaaki Nomura, Chaehyun Yu, _$b \to s \mu^+ \mu^-$ anomalies and related phenomenology in $U(1)_{B_{3-x_\mu L_\mu - x_\tau L_\tau}}$ flavor gauge models_ ([arXiv:1902.06107](https://arxiv.org/abs/1902.06107))
 
+* Joe Davighi, _Connecting neutral current $B$ anomalies with the heaviness of the third family_, Contribution to the [2019 QCD session](http://moriond.in2p3.fr/2019/QCD/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06073](https://arxiv.org/abs/1905.06073))
+
 
 
 [[!redirects Z'-bosons]]
