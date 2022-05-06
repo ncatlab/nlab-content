@@ -106,7 +106,7 @@ Removing the magnifying glass, what one sees with the bare eye depends on how on
 
 * The physicist says that what he sees is a singular point, but a point after all. This is the plain [[quotient]]  $\ast = \ast / G$. 
 
-* The Lie geometer says that what he sees is a point transforming under the $G$-[[action]] that fixes it, hence the [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
+* The Lie geometer says that what she sees is a point transforming under the $G$-[[action]] that fixes it, hence the [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
 
 These are two [[adjoint modality|opposite extreme aspects]] of the orbifold singularity $\mathbb{B}G$, but the orbifold singularity itself is more than both of these aspects. The real nature of an orbifold singularity is in fact a point, not a big [[classifying space]] $\mathbf{B} G$ (recall that already $\mathbf{B}\mathbb{Z}_2 = \mathbb{R}P^\infty$), but it is a point that also remembers the group [[action]], for that characterizes how the singularity is being singular.
 
