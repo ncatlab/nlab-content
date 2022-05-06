@@ -57,8 +57,7 @@ There is a _different_ model structure on [[Cat]] in which weak equivalences are
 
 The original reference is
 
-*  [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_,
-Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) <a href="http://archive.numdam.org/article/CTGDC_1980__21_3_305_0.pdf">numdam scan</a>
+*  [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) <a href="http://archive.numdam.org/article/CTGDC_1980__21_3_305_0.pdf">numdam scan</a>
 
 A correction to this article was made in
 
@@ -68,12 +67,11 @@ There it was clarified that every cofibrant object in the Thomason model structu
 
 A useful review of the Thomason model structure and a generalization of the model structure to [[n-fold category|n-fold categories]] is given in 
 
-* Thomas M. Fiore, [[Simona Paoli]], _A Thomason Model Structure on the Category of Small n-fold Categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
+* Thomas M. Fiore, [[Simona Paoli]], _A Thomason model structure on the category of small n-fold categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
 
 The following article gives a large class of categories which are [[fibrant]] in the Thomason model structure.
 
-* [[Lennart Meier]], [[Viktoriya Ozornova]], _Fibrancy of partial model categories_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2
-([arXiv:1408.2743](https://arxiv.org/abs/1408.2743), [doi:10.4310/HHA.2015.v17.n2.a5](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a5))
+* [[Lennart Meier]], [[Viktoriya Ozornova]], _Fibrancy of partial model categories_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2.  ([arXiv:1408.2743](https://arxiv.org/abs/1408.2743), [doi:10.4310/HHA.2015.v17.n2.a5](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a5))
 
 * [[Lennart Meier]], _Fibrancy of (Relative) Categories_, talk at _Young Topologists Meeting 2014_ ([slides pdf](http://www.staff.science.uu.nl/~meier007/Kopenhagen2014.pdf))
 
@@ -83,4 +81,4 @@ Some posets that are cofibrant in the Thomason model structure are studied in
 
 The analog of the Thomason model structure for the _stable_ case -- an equivalence between connective [[stable homotopy theory]] and [[nerve]]s of [[symmetric monoidal categories]] -- is discussed in 
 
-* [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
+* [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_, Theory and Applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
