@@ -250,7 +250,7 @@ For
 
 1. $Y$ a [[manifold]], with [[inhabited set|non-empty]] [[manifold with boundary|boundary]] so that  $Y / \partial Y$ is [[connected topological space|connected]],
 
-the [[scanning map]] constitutes a [[homotopy equivalence]]
+the electric field map/[[scanning map]] constitutes a [[homotopy equivalence]]
 
 $$
   Conf\left( 
@@ -307,7 +307,7 @@ between
 
 1. the [[direct sum]] (hence: [[wedge sum]]) of [[suspension spectra]] of the [[configuration space of points|configuration spaces]] of a fixed number of points in $\mathbb{R}^d \times Y$, vanishing at the boundary and distinct already as points in $\mathbb{R}^d$ (also Def. \ref{ConfigurationSpacesOfnPoints}).
 
-Combined with the [[stabilization]] of the [[scanning map]] [[homotopy equivalence]] from Prop. \ref{ScanningMapEquivalenceOverCartesianSpace} this yields a [[stable weak homotopy equivalence]]
+Combined with the [[stabilization]] of the electric field map/[[scanning map]] [[homotopy equivalence]] from Prop. \ref{ScanningMapEquivalenceOverCartesianSpace} this yields a [[stable weak homotopy equivalence]]
 
 $$
   Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
@@ -416,9 +416,9 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 
 
-### Scanning map and cohomotopy
+### Electric field map/Scanning map and cohomotopy
 
-The [[scanning map]] and hence the relation of configuration spaces to [[cohomotopy]] goes back to 
+The electric field map/[[scanning map]] and hence the relation of configuration spaces to [[cohomotopy]] goes back to 
 
 * {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
@@ -441,6 +441,13 @@ See also
 
 * Shingo Okuyama, Kazuhisa Shimakawa, _Interactions of strings and equivariant homology theories_, ([arXiv:0903.4667](https://arxiv.org/abs/0903.4667))
 
+For relation to [[instantons]] via [[topological Yang-Mills theory]]:
+
+* {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
+
+In speculation regarding [[Galois theory]] over the [[sphere spectrum]]:
+
+* {#MoravaBeardsly17} [[Jack Morava]], [[Jonathan Beardsley]], _Toward a Galois theory of the integers over the sphere spectrum_,  Journal of Geometry and Physics Volume 131, September 2018, Pages 41-51 ([arXiv:1710.05992](https://arxiv.org/abs/1710.05992))
 
 
 ### Algebra structure over little $dim(X)$-disk operad
@@ -491,11 +498,11 @@ The configuration spaces of a space $X$ appear as the [[Goodwillie derivatives]]
 
 A [[compactification]] of configuration spaces of points was introduced in 
 
-* William Fulton, Robert MacPherson, _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994.
+* [[William Fulton]], [[Robert MacPherson]], _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994.
 
 and an [[operad]]-[[structure]] defined on it ([[Fulton-MacPherson operad]]) in 
 
-* [[Ezra Getzler]], [[John Jones]], _Operads, homotopy algebra and iterated integrals for double loop spaces_.
+* [[Ezra Getzler]], [[John Jones]], _Operads, homotopy algebra and iterated integrals for double loop spaces_ ([arXiv:hep-th/9403055](https://arxiv.org/abs/hep-th/9403055))
 
 Review includes
 
