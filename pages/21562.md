@@ -10,8 +10,6 @@ The _walking equivalence_ (as in "[[walking structure]]") or _free-standing equi
 
 \begin{rmk} The [[1-morphism|arrow]] $i: 0 \rightarrow 1$ is an [[equivalence]], whose inverse-up-to-isomorphism is the arrow $i^{-1}:1 \rightarrow 0$. \end{rmk}
 
-\begin{rmk} The [[2-morphism|2-arrows]] $\iota_{0}: i^{-1} \circ i \rightarrow id(0)$ and $\iota_{1}: i \circ i^{-1} \rightarrow id(1)$ are [[2-isomorphism|2-isomorphisms]], whose inverses are the 2-arrows $\iota_{0}^{-1}$ and $\iota_{1}^{-1}$. \end{rmk}
-
 \begin{rmk} The free-standing equivalence is a [[(2,1)-category]]. \end{rmk}
 
 \section{Representing of equivalences}
