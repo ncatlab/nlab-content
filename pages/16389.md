@@ -76,6 +76,11 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 5.2.1 of: _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
 
+See also
+
+* Philip D. Mannheim, _Light-front quantization is instant-time quantization_ ([arXiv:1909.03548](https://arxiv.org/abs/1909.03548))
+
+
 
 
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
