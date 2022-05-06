@@ -101,7 +101,7 @@ and some of the EGA and SGA links are at this [html](http://www.cmls.polytechniq
 
 David Madore has prepared a detailed table of contents of EGA:
 
-* [Detailed table of contents of EGA](http://www.dma.ens.fr/~madore/ega-toc.pdf)
+* [Detailed table of contents of EGA](https://math.berkeley.edu/~mhaiman/math256-fall13-spring14/EGA-contents.pdf)
 
 A translated table of contents has been prepared by Mark Haiman, available at
 
@@ -109,7 +109,7 @@ A translated table of contents has been prepared by Mark Haiman, available at
 
 along with synopsises, in English, of many sections at
 
-* [[Mark Haiman]], [English synopsises of most of EGA I and II](http://math.berkeley.edu/~mhaiman/math256/)
+* [[Mark Haiman]], [English synopsises of most of EGA I and II](https://math.berkeley.edu/~mhaiman/math256-fall18-spring19/#ega)
 
 Daniel Murfet has written notes for parts of EGA, see
 
