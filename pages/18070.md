@@ -20,18 +20,97 @@ In [[mathematics]] typically by default the term "configuration space" of a [[to
 
 In principle many other kinds of configurations and the spaces these form may be referred to by "configuration space", notably in [[physics]] the usage is in a broader sense, see at _[[configuration space (physics)]]_.
 
+
 ## Definition
   {#Definition}
 
+Several variants of configuration spaces of points are of interest. They differ in whether
+
+1. points are linearly ordered or not;
+
+1. points are labeled in some labelling space;
+
+1. points vanish on some subspace or if their labels are in some subspace.
+
+Here are some of these variant definitions:
+
++-- {: .num_defn #OrderedUnlabeledConfigurations}
+###### Definition
+**(ordered unlabled configurations of a fixed number of points)**
+
+Let $X$ be a [[closed manifold|closed]] [[smooth manifold]].
+For $n \in \mathbb{N}$ write
+
+$$
+  \underset{ {}^{\{1,\cdots, n\}} }{ Conf }
+  \big( 
+    X
+  \big)
+  \;\coloneqq\;
+  \big(
+    X
+  \big)^n
+  \setminus
+  \mathbf{\Delta}^n_X
+$$
+
+for the [[complement]] of the [[fat diagonal]] inside the $n$-fold [[Cartesian product]] of $X$ with itself.
+
+This is the space of ordered but otherwise unlabeled configurations of $n$ points_ in $X$.
+
+=--
+
+
++-- {: .num_defn #UnorderedUnlabeledConfigurations}
+###### Definition
+**(unordered unlabled configurations of a fixed number of points)**
+
+Let $X$ be a [[closed manifold|closed]] [[smooth manifold]],
+For $n \in \mathbb{N}$ write
+
+$$
+  \begin{aligned}
+    Conf_n
+    \big(
+      X
+    \big)
+    &
+    \coloneqq
+    \;
+    \Big(
+      \underset{{}^{1,\cdots,n}}{Conf} 
+      \big(
+        X
+      \big)
+    \big) / Sym(n)
+    \\
+    &
+    =\;
+    \Big(
+      \big(
+        X
+      \big)^n
+      \setminus
+      \mathbf{\Delta}^n_X
+    \Big) / Sym(n)
+  \end{aligned}
+$$
+
+for the [[quotient space]] of the ordered configuration space (Def. \ref{OrderedUnlabeledConfigurations}) by the evident [[action]] of the [[symmetric group]] $Sym(n)$ via [[permutation]] of the [[ordering]] of the points.
+
+This is the space of unordered and unlabeled configurations of $n$ points_ in $X$.
+
+ 
+=--
 
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
-**([[configuration spaces of points]])**
+**(unordered labeled configurations of a fixed number of points)**
 
 Let $X$ be a [[manifold]], possibly with [[manifold with boundary|boundary]].
 For $n \in \mathbb{N}$, the
- _**configuration space of $n$ points** in $X$ disappearing at the boundary_ is the [[topological space]]
+ _**configuration space of $n$ unordered points** in $X$ disappearing at the boundary_ is the [[topological space]]
   $$
     \mathrm{Conf}_{n}(X)
     \;\coloneqq\;
@@ -46,12 +125,9 @@ For $n \in \mathbb{N}$, the
   $$
   where
   $\mathbf{\Delta}_X^n : = \{(x^i) \in X^n | \underset{i,j}{\exists} (x^i = x^j) \}$  is the [[fat diagonal]] in $X^n$
-  and where $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X$ inside
-  $X^n$.
+  and where $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X$ inside $X^n$.
   
-  More generally, let $Y$ be another [[manifold]], possibly with [[manifold with boundary|boundary]].
-  For $n \in \mathbb{N}$, the
-  _**configuration space of $n$ points** in $X \times Y$ vanishing at the boundary and distinct as points in $X$_ is the [[topological space]]
+  More generally, let $Y$ be another [[manifold]], possibly with [[manifold with boundary|boundary]]. For $n \in \mathbb{N}$, the _**configuration space of $n$ points** in $X \times Y$ vanishing at the boundary and distinct as points in $X$_ is the [[topological space]]
   $$
     \mathrm{Conf}_{n}(X,Y)
     \;\coloneqq\;
@@ -530,15 +606,11 @@ We discuss aspects of the [[rational homotopy type]] of configuration spaces of 
 ###### Proposition
 **([[real cohomology]] of configuration spaces of ordered points in [[Euclidean space]])**
 
-The [[real cohomology|real]] [[cohomology ring]] of the configuration spaces 
+The [[real cohomology|real]] [[cohomology ring]] of the configuration spaces $\underset{{}^{\{1,\cdots,n\}}}{Conf}\big( \mathbb{R}^D\big)$
+(Def. \ref{OrderedUnlabeledConfigurations}) 
+of $n$ ordered unlabeled points  in [[Euclidean space]] $\mathbb{R}^D$ 
 
-$$
-  Conf_n\big( \mathbb{R}^D \big) 
-  \;\coloneqq\;
-  \big( \mathbb{R}^D \big)^n \setminus FatDiag
-$$
-
-of $n$ ordered points in [[Euclidean space]] $\mathbb{R}^D$ is [[generators and relations|generated]] by elements 
+is [[generators and relations|generated]] by elements in degree $D-1$
 
 $$ 
   \omega_{i j}
@@ -546,7 +618,14 @@ $$
   \in
   H^2
   \Big(
-    Conf_n\big( \mathbb{R}^D \big),
+    \underset{
+      {}^{\{1, \cdots, n\}}
+    }{
+      Conf
+    }
+    \big( 
+      \mathbb{R}^D
+    \big),
     \mathbb{R}
   \Big)
 $$
@@ -555,18 +634,43 @@ for $i, j \in \{1, \cdots, n\}$
 
 subject to these three [[generators and relations|relations]]:
 
-1. $\omega_{i j} = (-1)^D \omega_{j i} $;
+1. **(anti-)symmetry)**
 
-1. $\omega_{i j} \wedge \omega_{i j} \;=\; 0$;
+   $$\omega_{i j} = (-1)^D \omega_{j i} $$
 
-1. $\omega_{i j} \wedge \omega_{j k} + \omega_{j k} \omega_{k i} + \omega_{k i} \wedge \omega_{i j} = 0$.
+1. **nilpotency**
+
+   $$\omega_{i j} \wedge \omega_{i j} \;=\; 0$$
+
+1. **3-term relation**
+
+   $$
+     \omega_{i j} 
+       \wedge 
+     \omega_{j k} 
+       + 
+     \omega_{j k}
+       \wedge 
+     \omega_{k i} 
+       + 
+     \omega_{k i} 
+       \wedge 
+     \omega_{i j} 
+       = 
+     0
+   $$
 
 Hence:
 
 $$
   H^\bullet
   \Big(
-    Conf_n\big( \mathbb{R}^D \big),
+    \underset{
+      {}^{\{1,\cdots,n\}}
+    }{Conf}
+    \big( 
+      \mathbb{R}^D 
+    \big),
     \mathbb{R}
   \Big)
   \;\simeq\;
@@ -588,7 +692,8 @@ $$
 
 =--
 
-This is due to [Arnold 69](#Arnold69), [Cohen 73](#Cohen73). See also [Lambrechts-Tourtchine 09, Section 3](#LambrechtsTourtchine09).
+This is due to [Cohen 76](#Cohen76), following  [Arnold 69](#Arnold69), [Cohen 73](#Cohen73). See also [Félix-Tanré 03, Section 2](#FelixTanre03)
+[Lambrechts-Tourtchine 09, Section 3](#LambrechtsTourtchine09).
 
 See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohomology](Fulton-MacPherson+operad#deRhamCohomology)_.
 
@@ -598,7 +703,8 @@ See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohom
 ###### Remark
 **([[real cohomology]] of the configuration space in terms of [[graph cohomology]])**
 
-In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered [[configuration space of points]] $Conf_n\big( \mathbb{R}^D\big)$ the three relations in Prop. \ref{RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace} are incarnated as follows:
+In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered unlabled [[configuration space of points]] 
+$\underset{{}^{\{1,\cdots,n\}}}{Conf}\big( \mathbb{R}^D\big)$ the three relations in Prop. \ref{RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace} are incarnated as follows:
 
 1. a graph changes sign when one of its edges is reversed ([this Def.](graph+complex#SignRulesForGraphs))
 
@@ -607,6 +713,9 @@ In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered
 1. the graph coboundary of a single trivalent internal vertex ([this Example](graph+complex#ThreeTermRelation)).
 
 =--
+
+
+
 
 \linebreak
 
@@ -820,11 +929,14 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
+* {#Cohen76} [[Fred Cohen]], _The homology of $C_{n+1}$-Spaces, $n \geq 0$, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics, vol 533. Springer 1976([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
+
+
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
 
-* [[Yves Félix]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
+* [[Yves Félix]], [[Jean-Claude Thomas]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
 
-* [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
+* {#FelixTanre03} [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
 
 
 * Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
@@ -837,7 +949,7 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * Christoph Schiessl, _Integral cohomology of configuration spaces of the sphere_ ([arxiv:1801.04273](https://arxiv.org/abs/1801.04273))
 
-* [[Roberto Pagaria]], _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
+* Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
 
 
 
