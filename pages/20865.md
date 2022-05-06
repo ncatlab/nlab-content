@@ -23,7 +23,7 @@ Similarly, in [[braid group]]-theory, a _horizontal weight system_ is an assignm
  
 ## Definition
 
-### Weight systems (round)
+### Round weight systems
 
 +-- {: .num_defn #LinearSpanOfChordDiagramsModulo4T}
 ###### Definition
@@ -183,7 +183,7 @@ hence the $k$-[[vector space]] of horizontal weight systems is the [[dual vector
 
 
 
-## Properties
+## Constructions of weight systems
 
 ### Lie algebra weight systems
  {#LieAlgebraWeightSystems}
@@ -196,9 +196,15 @@ Examples of [[weight systems]] which are _not_ [[Lie algebra weight systems]] ar
 
 Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given in [Vogel 11](Lie+algebra+weight+system#Vogel11).
 
+### Stringy weight systems
+
+[[stringy weight systems]]
+
 ### Rozansky-Witten weight systems
 
 [[Rozansky-Witten weight systems]]
+
+## Properties
 
 
 ### As the associated graded space of Vassiliev invariants
