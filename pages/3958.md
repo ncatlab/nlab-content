@@ -349,17 +349,25 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 ## References
 
+
 Textbook accounts include
 
-* [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
 
-* {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+* {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
-* John Lee, _[Introduction to Smooth Manifolds](http://www.math.washington.edu/~lee/Books/smooth.html)_, Springer Graduate Texts in Mathematics 218 ([pdf of chapter 1](http://www.math.washington.edu/~lee/Books/Smooth/c01.pdf))
 
 * {#KolarSlovakMichor93} [[Ivan Kolar]], [[Jan Slovak]] and [[Peter Michor]], _Natural operations in differential geometry_, 1993, 1999 ([web](http://www.emis.de/monographs/KSM/))
 
-* Jet Nestruev, _Smooth Manifolds and Observables_ , Springer LNM **220** Heidelberg 2003.
+* {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+
+
+* [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
+
+* Jet Nestruev, _Smooth Manifolds and Observables_ , Springer LNM **220** Heidelberg 2003 ([doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871))
+
+
+* John Lee, _Introduction to Smooth Manifolds__, Springer Graduate Texts in Mathematics 218 2006/2013 ([doi:10.1007/978-1-4419-9982-5](https://link.springer.com/book/10.1007/978-1-4419-9982-5) [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/))
+
 
 Smooth manifolds are defined as locally ringed spaces in
 
