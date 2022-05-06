@@ -44,7 +44,13 @@ $$
 where the second map is the product operation in $E$. Since this is by assumption commutative up to coherent higher homotopy, this map factors through the [[homotopy quotient]] by the [[∞-action]] of the [[symmetric group]] $\Sigma_n$
 
 $$
-  a^n \;\colon\; X \times \ast //\Sigma_n \longrightarrow   X^n//\Sigma_n \longrightarrow E
+  a^n 
+    \;\colon\; 
+  X \times \ast \sslash \Sigma_n 
+   \longrightarrow   
+  X^n \sslash \Sigma_n 
+    \longrightarrow 
+  E
   \,.
 $$
 
@@ -73,16 +79,17 @@ On an [[infinite loop space]] the power operations are the [[Kudo-Araki-Dyer-Las
 
 In the context of  [[complex K-theory]] power operations are the [[Adams operations]].
 
+
 ### On $K(1)$-local $KU$-algebras
  {#OnK1LocalKUAlgebras}
 
 > From [this MO comment](http://mathoverflow.net/a/178627/381) by [[Akhil Mathew]]:
 
-Let $R$ be a [[K(n)-local stable homotopy theory|K(1)-local]] [[E-∞ ring]] under ([[p-completion|p-adic]]) [[complex K-theory]] [[KU]]. Then there exists a basic power operation $\theta: \pi_0 R \to \pi_0 R$ (see [Hopkins](#Hopkins)) such that : 
+Let $R$ be a [[K(n)-local stable homotopy theory|K(1)-local]] [[E-∞ ring]] under ([[p-completion|p-adic]]) [[complex K-theory]] [[KU]]. Then there exists a basic power operation $\theta \colon \pi_0 R \to \pi_0 R$ (see [Hopkins](#Hopkins)) such that : 
 
-*  $\psi(x) \stackrel{\mathrm{def}}{=} x^p + p \theta(x)$ defines a ring homomorphism from $\pi_0 R \to \pi_0 R$.
+*  $\psi(x) \stackrel{\mathrm{def}}{=} x^p + p \theta(x)$ defines a [[ring homomorphism]] from $\pi_0 R \to \pi_0 R$.
 
-* $\theta$ satisfies all the identities needed to make $\psi$ a ring-homomorphism after "division by p." For instance $\psi(x+y) = \psi(x) + \psi(y)$ implies that 
+* $\theta$ satisfies all the identities needed to make $\psi$ a ring-homomorphism after "division by $p$." For instance $\psi(x+y) = \psi(x) + \psi(y)$ implies that 
 
   $$
     \theta(x+y) = \theta(x) + \theta(y) + \frac{x^p - y^p - (x+y)^p}{p}
@@ -95,7 +102,7 @@ Let $R$ be a [[K(n)-local stable homotopy theory|K(1)-local]] [[E-∞ ring]] und
 
 This is a "$\theta$-algebra."/[[p-derivation]] as in remark \ref{AsPDerivations} above.
 
-Note in particular that $\psi$ is a lift of the [[Frobenius homomorphism]]. There are generalizations of $\psi, \theta$ at higher [[chromatic levels]], too, and there is a modular interpretation of the resulting algebraic structure in ([Rezk 09](#Rezk09)).
+Notice that $\psi$ is, in particular, a lift of the [[Frobenius homomorphism]]. There are generalizations of $\psi, \theta$ at higher [[chromatic levels]], too, and there is a modular interpretation of the resulting algebraic structure in ([Rezk 09](#Rezk09)).
 
 By ([Strickland 98](#Strickland98)) we have that if $G$ is the [[formal group]] associated to a [[Morava E-theory]], then Frobenius lifts (twhich corresponds to degree $p^k$ subgroups of $G$) are classified by maps into $E^0(B \Sigma_{p^r})/I_{t r}$ where $I_{t r}$ is the transfer ideal. So, for example, the map $\psi$ above corresponds to a universal map $KU^0 \to KU^0(B \Sigma_p)/I_{t r} \simeq KU^0$.
 
