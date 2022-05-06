@@ -1,9 +1,9 @@
 
 
-* [[nucleus]] (in [[point-free topology]])
+* [[nucleus]] in [[point-free topology]]
 
-* [[nucleus (physics)]]
+* [[atomic nucleus]] in [[nuclear physics]]
 
-* [[nucleus of a profunctor]] between enriched categories
+* [[nucleus of a profunctor]] in [[enriched category theory]]
 
 category: disambiguation
