@@ -153,6 +153,8 @@ where we inserted the normalization factor $\frac{1}{2}$.
 
 * [[Dennis trace]], [[cyclotomic trace]]
 
+* [[trace of horizontal to round chord diagrams]]
+
 ## References
 
 The categorical notion of trace in a monoidal category is due to
