@@ -57,7 +57,7 @@ For the case of poly-morphisms the relevant [[lax monoidal functors]] are [[powe
 ###### Examples
 **([[lax monoidal functor|lax monoidal]] [[power set]]-[[functors]])
 
-* For $V=$[[Set]] equipped with its [[cartesian monoidal category]] [[structure]], $C$ an arbitrary category, take $F \coloneqq P \;\colon\; Set \to Set$ the covariant [[power set]] functor. This is lax monoidal since every [[pair]] of [[subsets]] $U \subseteq S$ and $V\subseteq T$ gives a subset $U\times V \subseteq S\times T$.
+* For $V=$[[Set]] equipped with its [[cartesian monoidal category]] [[structure]], $C$ an arbitrary [[locally small category]], take $F \coloneqq P \;\colon\; Set \to Set$ to be the [[covariant functor|covariant]] [[power set]] functor. This is lax monoidal since every [[pair]] of [[subsets]] $U \subseteq S$ and $V\subseteq T$ gives a subset $U\times V \subseteq S\times T$.
 
 * For $G$ a group, $V=$[[GSet]] with the [[cartesian monoidal category]] [[structure]], $C$ a [[enriched category|category enriched in]] [[G-sets]], let $F \coloneqq P\;\colon\; GSet \to GSet$ also be the covariant [[power set]] functor, but for $S$ a $G$-set, equip $P(S)$ with the $G$-[[action]]
 $$
@@ -102,9 +102,10 @@ Hence a poly-isomorphism is a collection of _[[invertible morphisms]]_ of $C$.
 
 =--
 
+
 ## References
 
-The construction for enrichment in plain sets is considered (without the category-theoretic formulation) in:
+The above construction for enrichment in plain sets is considered (without the above [[category theory|category-theoretic]] formulation) in:
 
 * {#Mochizuki12} [[Shinichi Mochizuki]], section 0 of _Inter-universal Teichm&#252;ller theory I, Construction of Hodge theaters_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf))
 
