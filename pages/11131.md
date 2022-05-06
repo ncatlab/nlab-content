@@ -21,7 +21,7 @@
 
 ## Idea
 
-Constructive analysis is the incarnation of [[analysis]] in [[constructive mathematics]]. Also known as _[[computable analysis]]_ (see there for more).
+Constructive analysis is the incarnation of [[analysis]] in [[constructive mathematics]].  It is related to, but distinct from, _[[computable analysis]]_; the latter is developed in [[classical logic]] explicitly using [[computability theory]], whereas constructive analysis is developed in [[constructive logic]] where the computation is implicitly built-in.
 
 In applications in [[computer science]] one uses for instance the _[[completion monad]]_ for _exact_ computations with [[real numbers]] (as opposed to floating point arithmetic. Therefore one also sometimes speaks of _exact analysis_. See also at _[[computable real number]]_.
 
