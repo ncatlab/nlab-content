@@ -20,7 +20,17 @@ In overview papers ([Cohn-Gordon](#Cohn-Gordon), [Asudeh](#Asudeh)), it is propo
 1. Interrogatives: the set monad
 1. Performatives: the [[IO monad]]
 
+* {#Cohn-Gordon} Reuben Cohn-Gordon, _Monad Transformers for Natural Language:Combining Monads to Model Effect Interaction_, [pdf](https://reubenharry.github.io/docs/monads.pdf)
 
+
+In both of the following papers ([Burke] (#Burke)), it is claimed that hyperintensionality can be analysed via monads and applicatives, and in the second paper cross-sentential intensional anaphora is modelled using continuations:
+
+*  {#Burke} Luke Burke, _Monads for hyperintensionality? A situation semantics for hyperintensional side effects and intra-sentential anaphora
+_, [pdf]
+(https://www.aclweb.org/anthology/W19-1104.pdf)
+
+*   {#Burke} Luke Burke, _P-HYPE: A monadic situation semantics for hyperintensional side effects_, [pdf]
+(https://semanticsarchive.net/Archive/Tg3ZGI2M/Burke.pdf)
 
 ## Related concepts
 
