@@ -239,6 +239,8 @@ If we use instead a different logic over the same type theory, such as [[bracket
 
 ## Related concepts
 
+* [[initiality conjecture]]
+
 [[!include notions of type]]
 
 ##References
