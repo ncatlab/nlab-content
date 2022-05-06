@@ -108,7 +108,7 @@ $$
   \,.
 $$
 
-One may take care of the existence of these conjugation actions/natutaral transformation in two way:
+One may take care of the existence of these conjugation actions/natural transformation in two ways:
 
 1. If one quotients them out, i.e. if one identifies two groupoid homomorphisms that differ by a conjugation action, then the resulting [[category]] of groupoids and classes of homomorphisms is called the _[[homotopy category]]_ $Ho(Grpd)$ of [[Grpd]] (def. \ref{HomotopyCategoryOfGroupoids} below). This is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the [[classical homotopy category]] of [[topological spaces]] on those that are ([[CW-complexes]] and) [[homotopy 1-types]], i.e. those for which the [[fundamental groupoid]] is the _only_ homotopy invariant, with all higher [[homotopy groups]] being trivial:
 
