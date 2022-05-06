@@ -19,7 +19,7 @@
 
 ## Idea
 
-Hurewicz cofibrations are a kind of [[cofibrations]] of [[topological spaces]], hence a kind of [[continuous function]] satisfying certain [[extension]] properties. 
+Hurewicz cofibrations are a kind of [[cofibration]] of [[topological spaces]], hence a kind of [[continuous function]] satisfying certain [[extension]] properties. 
 
 In [[point-set topology]] Hurewicz cofibrations are often just called _cofibrations_. If their [[image]] is a [[closed subspace]] they are called _[[closed cofibrations]]_.
 
