@@ -1,4 +1,6 @@
 
+$\left\vert \nabla \phi \right\vert = const$
+
 | $n=$ | 1 | 2 | 3 | 4 | 
 |--|--|--|--|--|
 | $DI(n)=$ | [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
