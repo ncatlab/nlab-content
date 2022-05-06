@@ -143,13 +143,6 @@ Evidence for dark matter on large cosmic scales is extremely strong, see the abo
 
 (...)
 
-* Pieter van Dokkum et.al. _A galaxy lacking dark matter_, Nature volume 555, 2018 pages 629–632 ([arXiv:1803.10237](https://arxiv.org/abs/1803.10237), [doi:10.1038/nature25767](https://www.nature.com/articles/nature25767))
-
-> Regardless of the formation history of NGC1052–DF2, its existence has implications for the dark matter paradigm. Our results demonstrate that dark matter is separable from galaxies, which is (under certain circumstances) expected if it is bound to baryons through nothing but gravity. The "[[bullet cluster]]" demonstrates that dark matter does not always trace the bulk of the baryonic mass, which in clusters is in the form of gas.  NGC1052–DF2 enables us to make the complementary point that dark matter does not always coincide with galaxies either:  it is a distinct "substance" that may or may not be present in a galaxy.   Furthermore,  and paradoxically, the existence of NGC1052–DF2 may falsify alternatives to dark matter. In theories such as [[MOND]] and the recently proposed emergent gravity paradigm a "dark matter" signature should always be detected, as it is an unavoidable consequence of the presence of ordinary matter. In fact, it had been argued previously that the apparent absence of galaxies such as NGC1052–DF2 constituted a falsification of the standard cosmological model, and evidence for modified gravity.
-
-followup:
-
-* Shany Danieli, Pieter van Dokkum, Charlie Conroy, Roberto Abraham, Aaron J. Romanowsky, _Still Missing Dark Matter: KCWI High-Resolution Stellar Kinematics of NGC1052-DF2_ ([arXiv:1901.03711](https://arxiv.org/abs/1901.03711))
 
 
 Outlook on prospect of direct detection of dark matter, as of 2018:
