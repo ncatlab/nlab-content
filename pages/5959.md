@@ -45,7 +45,7 @@ For Morel's theory see
 The initial reference to Quick's work is : 
 
  
-* G. Quick, _Profinite homotopy theory_[pdf](http://www.math.uiuc.edu/documenta/vol-13/17.pdf)
+* G. Quick, _Profinite homotopy theory_, [PDF](https://eudml.org/doc/55986)
 
 but a correction to an error in the proof of the main result was included in
 
