@@ -23,14 +23,34 @@ A (natural-model-style) **category with families** (abbreviated **CwF**) consist
 $$\array{ y(\Gamma.A) & \to & Tm \\ \downarrow &&\downarrow \\ y\Gamma & \xrightarrow{A} & Ty. } $$
 =--
 
+Note that an algebraic representation for $of$ can be equivalently expressed as choice of a right adjoint $\mathsf{ext}$ for the corresponding functor of [[category of elements|categories of elements]] $el(Tm) \to el(Ty)$.
+
 We consider categories with families as set-level structures (in particular, as [[strict categories]]), with morphism between them that preserve all the structure "on the nose" rather than merely up to isomorphism.
 
 +--{: .un_defn}
 ###### Definition
 Let $C$ and $D$ be CwFs.  A **CwF morphism** is a functor $F:C\to D$, preserving the specified terminal objects (on the nose), together with a commutative square in $[C^{op},Set]$:
 $$\array{ Tm_C & \to & F^*(Tm_D) \\ \downarrow & & \downarrow \\ Ty_C & \to & F^*(Ty_D) }$$
-such that (TODO)
+such that, for all $\Gamma \in C$, and $A : y\Gamma \to C$, the square
+$$
+\array{
+y(F(\Gamma.A)) & \to & Tm_D \\
+\downarrow & & \downarrow \\
+y(F(\Gamma)) & \to & Ty_D
+}
+$$
+is equal (on the nose) to the chosen pullback square corresponding to the morphism $y(F(\Gamma)) \to Ty_D$.
 =--
+
+The last condition can be reformulated in terms of categories of elements by requiring that the square of categories and functors
+$$
+\array{
+el(Ty^C) & \to & el(Ty^D) \\
+\downarrow & & \downarrow \\
+el(Tm^C) & \to & el(Tm^D)
+}
+$$
+commutes strictly, where the vertical maps are the $\mathsf{ext}$ functors corresponding to the chosen algebraic representations.
 
 This defines a category $\mathbf{CwF}$ of categories with families and their morphisms, in which we aim to construct an initial object.
 
