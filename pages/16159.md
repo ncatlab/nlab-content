@@ -57,7 +57,7 @@ In [[homotopy type theory]], the assertion of this equivalence is a special case
 
 ## History
 
-Specializing to the case where one of the propositions is 'true', [[George Boole]] can be thought to be talking about propositional extensionality when he writes ([Boole 1853, p. 53](#Boole1853)):
+Specializing to the case where one of the propositions is 'true', [[George Boole]] can be taken (see [Voevodsky 14, slide 8](#Voevodsky14)) to be talking about propositional extensionality when he writes ([Boole 1853, p. 53](#Boole1853)):
 
 > If instead of the proposition, "The sun shines," we say, "It is true that the sun shines," we then speak not directly of things, but of a proposition concerning things, viz., of the proposition "The sun shines." And, therefore, the proposition in which we thus speak is a secondary one.  Every primary proposition may thus give rise to a secondary proposition, viz., to that secondary proposition which asserts its truth, or declares its falsehood.
 
@@ -69,7 +69,7 @@ Later this became [[Alfred Tarski]]'s _material adequacy condition_, also known 
 
 (see _[Wikipedia -- Semantic theory of truth -- Tarski's theory](https://en.wikipedia.org/wiki/Semantic_theory_of_truth#Tarski.27s_Theory)_)
 
-This may be regarded as the above equivalence of propositional extensiomnaly for the case that $Q \coloneqq$ [[true]]:
+This may be regarded as the above equivalence of propositional extensionality for the case that $Q \coloneqq$ [[true]]:
 
 $$
   ('P' = 'true') \simeq (P \simeq true)
