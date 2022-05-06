@@ -23,6 +23,7 @@ Specifically, if $X$ is a [[smooth manifold]] and $\Sigma \overset{\iota}{\hookr
 
 A [[submanifold]] equipped with such normal framing is a _normally framed submanifold_ (e.g. [Kosinski 93, IX (2.1)](#Kosinski93)).
 
+
 ## Properties
 
 ### Pontryagin-Thom isomorphism
@@ -43,6 +44,8 @@ $$
 $$
 
 (e.g. [Kosinski 93, IX Theorem (5.5)](#Kosinski93))
+
+In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[cobordism groups]] in sufficiently high [[codimension]] (essentially given by [[disjoint union]] of [[submanifolds]]) this way induces a group structure on the cohomotopy sets in sufficiently high degree.
 
 
 ## Related concepts
