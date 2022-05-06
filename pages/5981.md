@@ -116,3 +116,6 @@ An exposition on the relation between free variables and [[universal quantificat
 
 [[!redirects dependent variable]]
 [[!redirects dependent variables]]
+
+[[!redirects metavariable]]
+[[!redirects metavariables]]
