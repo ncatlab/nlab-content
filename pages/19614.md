@@ -76,6 +76,8 @@ See also
 
 * {#AmbjornJurkiewiczLoll00} J. Ambjorn, J. Jurkiewicz, R. Loll, _A non-perturbative Lorentzian path integral for gravity_, Phys.Rev.Lett. 85 (2000) 924-927 ([arXiv:hep-th/0002050](https://arxiv.org/abs/hep-th/0002050))
 
+* R. Loll, _Quantum Gravity from Causal Dynamical Triangulations: A Review_ ([arXiv:1905.08669](https://arxiv.org/abs/1905.08669))
+
 [[!redirects piecewise flat spacetimes]]
 
 [[!redirects Regge calculus]]
