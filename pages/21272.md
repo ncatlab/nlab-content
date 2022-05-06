@@ -21,6 +21,8 @@ A [[vector meson]]:
 
 The [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [[fundamental representation|doublet]], [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
 
+Together with the [[kaons]], which are the corresponding [[scalar mesons]], these are also called the _[[K-mesons]]_ (alongide [[D-mesons]] and [[B-mesons]], etc.)
+
 [[!include flavors of fundamental particles -- table]]
 
 ## Properties
