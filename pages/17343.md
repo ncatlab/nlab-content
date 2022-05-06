@@ -3266,7 +3266,7 @@ $$
   \,.
 $$
 
-* A **right homotopy** $\eta \colon f \Rightarrow_R g$ is a morphism $\eta \colon X \to Path(Y)$ to some [[path space object]] of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, such that this [[commuting diagram|diagram commutes]]:
+* A **right homotopy** $\eta \colon f \Rightarrow_R g$ is a morphism $\eta \colon X \to Path(Y)$ to some [[path space object]] of $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, such that this [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
@@ -3390,7 +3390,7 @@ Def. \ref{HomotopyCategoryOfAModelCategory} is well defined, in that composition
 Fix any morphism $X \overset{f}{\to} Y$ between fibrant-cofibrant objects. Then for precomposition
 
 $$
- (-) \circ [f] \;\colon\; Hom_{Ho(\mathcal{C})}(Y,Z) \to Hom_{Ho(\mathcal{C}(X,Z))}
+ (-) \circ [f] \;\colon\; Hom_{Ho(\mathcal{C})}(Y,Z) \to Hom_{Ho(\mathcal{C})}(X,Z)
 $$
 
 to be well defined, we need that with $(g\sim h)\;\colon\; Y \to Z$ also $(f g \sim f h)\;\colon\; X \to Z$. But by prop \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations} we may take the homotopy $\sim$ to be exhibited by a right homotopy $\eta \colon Y \to Path(Z)$, for which case the statement is evident from this diagram:
