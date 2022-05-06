@@ -21,7 +21,7 @@ For classes of [[gauge theories]], such as ([[super Yang-Mills theory|super]]) [
 
 This _large $N$ limit_ often has remarkable properties, often revealing an otherwise hidden relation to [[perturbative string theories]] with the parameter $1/N$ proportional to the [[string coupling constant]].
 
-Notably for [[Yang-Mills theory]] and in particular for [[QCD]], the large $N$-behaviour is exhibited by rewriting the [[Feynman amplitudes]] in [['t Hooft double line notation]]. If the [['t Hooft coupling]] $g^2 N$  is held fixed as $N\to \infty$, this turns out to organize the gauge theory's [[Feynman perturbation series]] by the [[genus of a surface|genus]] of emerging [[string theory|string]] [[worldsheet]] [[surfaces]], with genus 0 ([[planar graphs]]) dominating in the large $N$ limit, whence also called the _[[planar limit]]_.
+Notably for [[Yang-Mills theory]] and in particular for [[QCD]], the large $N$-behaviour is exhibited by rewriting the [[Feynman amplitudes]] in [['t Hooft double line notation]]. If the [['t Hooft coupling]] $g^2 N$  is held fixed as $N\to \infty$, this turns out to organize the gauge theory's [[Feynman perturbation series]] by the [[Euler characteristic]]/[[genus of a surface|genus]] of emerging [[string theory|string]] [[worldsheet]] [[surfaces]], with genus 0 ([[planar graphs]]) dominating in the large $N$ limit, whence also called the _[[planar limit]]_.
 
 At least for the case of [[super Yang-Mills theories]] the full statement of the relation of large-$N$ gauge theory to a [[perturbative string theory]] is the content of the _[[AdS/CFT correspondence]]_, which explains that the effective [[string]] [[worldsheets]] emerging from the [[gauge theory]] propagate in a higher-dimensional asymptotically [[anti-de Sitter spacetime]] (the [[near horizon geometry]] of a [[black brane]]) whose [[asymptotic boundary]] (the [[worldvolume]] of the [[black brane]] itself) is identified with the [[spacetime]] of the original [[gauge theory]].
 
@@ -64,7 +64,7 @@ Lecture notes:
 
 * [[Gerard 't Hooft]], _Large $N$_, workshop lecture ([hep-th/0204069](http://arxiv.org/abs/hep-th/0204069))
 
-* A. V. Manohar, _Large $N$ QCD_, Les Houches Lecture 2004, ([https://arxiv.org/abs/hep-ph/9802419](https://arxiv.org/abs/hep-ph/9802419), [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf))
+* A. V. Manohar, _Large $N$ QCD_, Les Houches Lecture 2004, ([https://arxiv.org/abs/hep-ph/9802419](arXiv:hep-ph/9802419), [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf))
 
 * Markus Gross, _Large $N$_, 2006 ([[GrossLargeN.pdf:file]])
 
@@ -107,8 +107,6 @@ Further discussion:
 * [[Gary Horowitz]], [[Hirosi Ooguri]], _Spectrum of large $N$ gauge theory from supergravity_, hep-th/9802116
 
 * {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
-
-
 
 
 * Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
