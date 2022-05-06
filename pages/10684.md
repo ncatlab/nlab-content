@@ -14,12 +14,11 @@
 =--
 
 
-
-This entry collected pointers related to the book
+This entry collects pointers related to the book
 
 * [[Doug Ravenel]]
 
-  _Complex cobordism and stable homotopy groups of spheres_
+  **Complex cobordism and stable homotopy groups of spheres**
 
   Academic Press Orland (1986)
 
@@ -226,6 +225,19 @@ See also
 ## Chapter 6. Morava Stabilizer Algebras 
 
 * [[Morava stabilizer group]]
+
+### 1. The Change-of-Rings Isomorphism
+
+### 2. The Structure of $\Sigma(n)$
+
+### 3. The Cohomology of $\Sigma(n)$
+
+### 4. The Odd Primary Kervaire Invariant Elements
+
+### 5. The Spectra $T(m)$
+
+* [[Ravenel's spectra]]
+
 
 ## Chapter 7. Computing Stable Homotopy Groups with the Adams-Novikov Spectral Sequence
 
