@@ -14,10 +14,10 @@ in **Set** but not in **Pos** since the bijections in **Set** all send $\omega$ 
 
 ##Definition
 
-Let $P$ be a poset. We say that another poset $Q$ has the same **order type** as $P$ iff there exists an order preserving bijection $P\cong Q$, or equivalently an iso $P\cong Q\in {Hom}_{Pos}$. We define an equivalence relation $\sim$ on posets by 
+Let $P$ be a poset. We say that another poset $Q$ has the same **order type** as $P$ iff there exists an order preserving bijection $P\cong Q$, or equivalently an $\lq\lq$isomorphism" $P\cong Q\in {Hom}_{Pos}$. We define an equivalence relation $\sim$ on posets by 
 
 \begin{centre}
-$P\sim Q\iff \exists f:P\cong Q\in {Hom}_{Pos}$,
+$P\sim Q\iff \exists f\text{testing 123}:P\cong Q\in {Hom}_{Pos}$,
 \end{centre}
 
 and we define the **order type** of $P$, denoted $ot(P)$, to be either the equivalence class $\sim/P$ or an arbitrary representative of the equivalence class $\sim/P$ depending on context.
