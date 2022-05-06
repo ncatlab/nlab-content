@@ -17,7 +17,7 @@
 ## Idea
 
 __Isabelle__ is a [[proof assistant]]. Its main application is _[[HOL]]_. Related proof assistants are HOL4, [[HOL Light]], HOL Zero, and ProofPower. These are programmed, as Isabelle itself, in ML.
-In contrast to other proof assistants Isabelle is based on classical [[set theory|set theoretic]] [[foundation of mathematics|foundations]].
+In contrast to other proof assistants, Isabelle is based on classical [[set theory|set theoretic]] [[foundation of mathematics|foundations]].
 The [[Archive of Formal Proofs]] is an online library of proofs formalized  in Isabelle.
 
 ## Other proof assistants
