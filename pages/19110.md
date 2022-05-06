@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -44,7 +45,7 @@ and reflected in [[target spacetime]] by non-trivial total [[RR-field]] [[flux]]
 
 > graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
 
-This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Gimon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
+This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Gimon-Polchinski 96, section 3](#GimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
 
 Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key consistency condition in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
@@ -56,10 +57,10 @@ Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theor
 
 But the situation seems to remain somewhat inconclusive (see also [Moore 14, p. 21-22](#Moore14)).
 
-## For fractional D-branes at orbifold singularities
+## In toroidal orientifolds
  {#ForFractionalDBranes}
 
-More details are understood in the special case of [[fractional D-branes]] stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
+More details are understood in the special case of [[toroidal oribifold|toroidal orientifolds]] where [[fractional D-branes]] may be stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
 
 ### In terms of equivariant K-theory / the representation ring
  {#InTermsOfEquivariantKTheory}
@@ -68,7 +69,7 @@ In this case tadpole cancellation conditions are given by [[representation theor
 
 Detailed review of this is 
 
-in [Buchel-Shiu-Tye 99, Section II.A](#BuchelShiuTye99) for [[K3]]-orientifolds $\mathbb{T}^4/\mathbb{Z}_N^{DE}$, following [Simon-Polchinski 96, Section 2](#SimonPolchinski96), 
+in [Buchel-Shiu-Tye 99, Section II.A](#BuchelShiuTye99) for [[K3]]-orientifolds $\mathbb{T}^4/\mathbb{Z}_N^{DE}$, following [Simon-Polchinski 96, Section 2](#GimonPolchinski96), 
 
 also in [Marchesano 03, Section 4](#Marchesano03), based on [ABIU 99](#ABIU99), [Honecker 02](#Honecker02).
 
@@ -308,10 +309,33 @@ $$
 $$
 
 
+### D5/D9-branes in $\mathbb{T}^4/\mathbb{Z}_{0,2,4}-orientifolds$
+
+(...)
+
+[Gimon-Polchinski 96](#GimonPolchinski96)
+[Gimon-Johnson 96](#GimonJohnson96)
+[Buchel-Shiu-Tye 99](#BuchelShiuTye99)
 
 
+(...)
 
-### Examples
+### D4/D8-branes in $\mathbb{T}^2 \times \mathbb{T}^4/\mathbb{Z}_n$-orientifolds
+
+(...)
+
+[AFIRU 01a](#AFIRU01a), [AFIRU 01b](#AFIRU01b)
+
+(...)
+
+
+[Honecker 02](#Honecker02)
+
+review in [Marchesano 03 Sec. 4](#Marchesano03))
+
+(...)
+
+### Examples of non-compact singularities
  {#ExamplesForFractionalDBranes}
 
 We discuss more explicitly the solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]] at [[orbifold]] [[singularities]] for [[isotropy group]] one of  the [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]], 
@@ -1231,7 +1255,7 @@ The issue was first highlighted in
 
 The argument is recalled in
 
-* {#SimonPolchinski96} Eric G. Gimon, [[Joseph Polchinski]], section 3 of _Consistency Conditions for Orientifolds and D-Manifolds_, Phys.Rev.D54:1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+* {#GimonPolchinski96} Eric G. Gimon, [[Joseph Polchinski]], section 3 of _Consistency Conditions for Orientifolds and D-Manifolds_, Phys.Rev.D54:1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
 Details are in 
 
@@ -1255,10 +1279,6 @@ Critical outlook in
 
 * {#Moore14} [[Gregory Moore]] p. 21-22 of _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
-Details on the example of [[K3]] [[orientifolds]]:
-
-* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
-
 
 See also
 
@@ -1267,7 +1287,6 @@ See also
 
 * {#Uranga00} [[Angel Uranga]], _D-brane probes, RR tadpole cancellation and K-theory charge_, Nucl.Phys.B598:225-246, 2001 ([arXiv:hep-th/0011048](https://arxiv.org/abs/hep-th/0011048))
 
-* {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
 * Maria E. Angulo, David Bailin, Huan-Xiong Yang, _Tadpole and Anomaly Cancellation Conditions in D-brane Orbifold Models_,  	Int.J.Mod.Phys.A18:3637-3694, 2003 ([arXiv:hep-th/0210150](https://arxiv.org/abs/hep-th/0210150))
 
@@ -1313,6 +1332,8 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA stri
 * {#AFIRU01a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
 
 * {#AFIRU01b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
+
+* {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
 
 
