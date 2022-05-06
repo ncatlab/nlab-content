@@ -155,6 +155,10 @@ Note in particular that, somewhat surprisingly, the **associativity** in a unita
 
 * [[shelf]]
 
+* [[band]]
+
+* [[rectangular band]]
+
 * [[Aufhebung]]
 
 * [[graph]]
