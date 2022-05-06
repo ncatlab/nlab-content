@@ -292,6 +292,8 @@ An introduction to some of the concepts can be also found in:
 
 * {#thesisperrone} [[Paolo Perrone]], _Categorical probability and stochastic dominance in metric spaces_, PhD thesis, Chapter 1. ([pdf](http://www.paoloperrone.org/phdthesis.pdf))
 
+* [[Tobias Fritz]] and [[Paolo Perrone]], _Monads, partial evaluations, and rewriting_, MFPS 34, 2020 - Section 6. ([arXiv](https://arxiv.org/abs/1810.06037))
+
 
 [[!redirects probability monad]]
 [[!redirects probability monads]]
