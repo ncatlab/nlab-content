@@ -60,15 +60,21 @@ In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a m
 
 ## References
 
-The definition seems to first appear in
+The notion of indexed monoidal category has been rediscovered many times by different people in different contexts.  Some references include:
+
+* M. F. Gouzou and R. Grunig, *Fibrations relatives*, Seminaire de Theorie des
+Categories, dirige par J. Benabou, November 1976
+
+* A. Asperti and A. Corradini. A categorical modal for logic programs: indexed monoidal categories. In:J.W. de Bakker and W.P. de Roever, Ed. REX Workshop, 110–137, Lecture Notes in ComputerScience, Vol. 666. Springer Verlag, New York-Berlin, 1993.
+
+* G. Amato and J. Lipton.Indexed categories and bottom-up semantics of logic programs. Lecture Notesin Computer Science, Vol. 2250. Springer Verlag, New York-Berlin, 2001
 
 * [[Pieter Hofstra]] and [[Federico De Marchi]], _Descent for Monads_, in  Theory and Applications of Categories, Vol. 16, No. 24, 2006, pp. 668–699.  ([TAC](http://www.tac.mta.ca/tac/volumes/16/24/16-24abs.html))
 
-though they claim others had this idea already. It also appears (independently) in
-
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
- 
 
+* {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
+ 
 Discussion of [[traces]] and of [[dual objects]] in indexed monoidal categories is in
 
 * [[Kate Ponto]], [[Mike Shulman]], _Duality and traces in indexed monoidal categories_, ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555),  [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html))
@@ -77,14 +83,13 @@ This also presents a [[string diagram]] calculus for indexed monoidal categories
 
 * {#BradyTrimble98} Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_ (1998)
 
-Generalization to [[enriched categories]] is in
+which is made rigorous in
 
-* {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
- 
-Also would be useful
+* Cary Malkiewich and [[Kate Ponto]], _Coherence for indexed symmetric monoidal categories_, [arxiv:1811.12873](https://arxiv.org/abs/1811.12873)
+
+Also possibly relevant is:
 
 * {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_ ([arXiv:1809.00727](http://arxiv.org/abs/1809.00727))
- 
 
 
 [[!redirects indexed monoidal category]]
