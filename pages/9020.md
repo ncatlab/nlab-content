@@ -28,6 +28,13 @@ $$
 
 of two copies of [[G2]].
 
+## Properties
+
+### As exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ## Related concepts
 
 * [[G2-manifold]]
