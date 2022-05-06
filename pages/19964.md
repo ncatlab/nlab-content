@@ -193,6 +193,8 @@ In this context the Skyrme model becomes equivalent to a model of [[baryons]] by
 
 * [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|non-perturbative]] [[QCD]]
 
+[[!include effective field theories of nuclear physics -- contents]]
+
 
 ## History
 
