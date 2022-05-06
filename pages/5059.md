@@ -936,6 +936,10 @@ discussed in
 
 * {#Rabin87} [[Jeffrey Rabin]], _Supermanifold Cohomology and the Wess-Zumino Term of the Covariant Superstring Action_, Commun Math. Phys. 108, 375-389 (1987) ([Euclid:1104116532](https://projecteuclid.org/euclid.cmp/1104116532))
 
+* B. Milewski, _Superstrings from sigma models_,  Classical and Quantum Gravity, Volume 4, Number 3 (1987)
+
+* A.P. Isaev, E.A. Ivanov, _On Sigma Model Formulation of Green-Schwarz Superstring_, Mod.Phys.Lett. A4 (1989) 351-359 ([spire:266793](http://inspirehep.net/record/266793), [doi:10.1142/S0217732389000423](https://www.worldscientific.com/doi/abs/10.1142/S0217732389000423)) 
+
 * {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989) ([spire](http://inspirehep.net/record/284635?ln=en))
 
 an with its [[infinity-Lie theory|Lie theoretic]] meaning
