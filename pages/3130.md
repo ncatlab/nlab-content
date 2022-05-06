@@ -183,12 +183,20 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ### Chern character on K-theory
 
-Discussion of the Chern character on [[topological K-theory]]:
+Original Discussion of the Chern character on complex [[topological K-theory]]:
+
+* {#Hirzebruch56} [[Friedrich Hirzebruch]], Section 12.1 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
+
+* {#BorelHirzebruch58} [[Armand Borel]], [[Friedrich Hirzebruch]], Section 9.1 in: _Characteristic Classes and Homogeneous Spaces, I_, American Journal of Mathematics Vol. 80, No. 2 (Apr., 1958), pp. 458-538 ([jstor:2372795](https://www.jstor.org/stable/2372795))
 
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], Section 1.10 in: _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), <a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
+* {#Hilton71} [[Peter Hilton]], _General cohomology theory and K-theory_, London Mathematical Society Lecture Note Series 1, Cambridge University Press (1971) ([doi:10.1017/CBO9780511662577](https://doi.org/10.1017/CBO9780511662577))
 
-A characterization of Chern-character maps for [[K-theory]] is in
+
+Further discussion 
+
+* Helge Maakestad, _Notes on the Chern-character_ ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060))
 
 * [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
 
@@ -201,8 +209,21 @@ Discussion for [[equivariant K-theory]]:
 
 ### Chern-Dold character on generalized cohomology
 
+The identification of rational [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] as [[ordinary cohomology]] with [[coefficients]] in the rationalized [[stable homotopy groups]] is due to
 
-The Chern-Dold character for [[generalized (Eilenberg-Steenrod) cohomology theory]] is made fully explicit in 
+* {#Dold56} [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Matematika, 9:2 (1965), 8–14; Colloq. algebr. Topology, Aarhus Universitet, 1962, 2–9 ([mathnet:mat350](http://mi.mathnet.ru/eng/mat350)), reprinted in: J. Adams & G. Shepherd (Authors), _Algebraic Topology: A Student's Guide_ (London Mathematical Society Lecture Note Series, pp. 166-177). Cambridge: Cambridge University Press 1972 ([doi:10.1017/CBO9780511662584.015](https://doi.org/10.1017/CBO9780511662584.015)) 
+
+reviewed in
+
+* [Hilton 71, Theorem 3.18](#Hilton71)
+
+* {#Rudyak98} [[Yuli Rudyak]], II.7.13 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
+
+
+* {#Gross19} Jacob Gross, _The homology of moduli stacks of complexes_ ([arXiv:1907.03269](https://arxiv.org/abs/1907.03269))
+
+
+The combination of [Dold 56](#Dold56) to the Chern-Dold character on [[generalized (Eilenberg-Steenrod) cohomology theory]] is due to
 
 * {#Buchstaber70} [[Victor Buchstaber]], _The Chern–Dold character in cobordisms. I_, 
 
@@ -210,11 +231,20 @@ The Chern-Dold character for [[generalized (Eilenberg-Steenrod) cohomology theor
 
   English translation: Mathematics of the USSR-Sbornik, Volume 12, Number 4, AMS 1970 ([doi:10.1070/SM1970v012n04ABEH000939](https://iopscience.iop.org/article/10.1070/SM1970v012n04ABEH000939))
 
+Review in 
 
+* [Hilton 71, p. 50](#Hilton71)
+
+That the Chern-Dold character reduces to the original Chern character on K-theory is
+
+* [Hilton 71, Theorem 5.8](#Hilton71).
+
+
+That the Chern-Dold character is given by rationalization of representing spectra is made fully explicit in 
 
 * {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], Section 2.1: _Twisted iterated algebraic K-theory and topological T-duality for sphere bundles_, Ann. K-Th. 5 (2020) 1-42 ([arXiv:1601.06285](https://arxiv.org/abs/1601.06285))
 
-It also appears, somewhat less explicit, in the following articles (all in the context of [[differential cohomology]]):
+This rationalization construction appears also (without attribution to [#Hilton 71](#Hilton71) or [Buchstaber 70](#Buchstaber70) or [Dold 56](#Dold56)) in the following articles (all in the context of [[differential cohomology]]):
 
 * {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], Section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_, ([math.AT/0211216](http://arxiv.org/abs/math.AT/0211216)).
 
@@ -224,27 +254,16 @@ It also appears, somewhat less explicit, in the following articles (all in the c
 
 * {#Upmeier14} Markus Upmeier, _Refinements of the Chern-Dold Character: Cocycle Additions in Differential Cohomology_,  J. Homotopy Relat. Struct. 11, 291–307 (2016). ([arXiv:1404.2027](https://arxiv.org/abs/1404.2027), [doi:10.1007/s40062-015-0106-y](https://doi.org/10.1007/s40062-015-0106-y))
 
-
 * {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, Algebr. Geom. Topol. Volume 19, Number 4 (2019), 1631-1710. ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231), [euclid:euclid.agt/1566439272](https://projecteuclid.org/euclid.agt/1566439272))
-
-
-This is all based on 
-
-* {#Dold56} [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Matematika, 9:2 (1965), 8–14; Colloq. algebr. Topology, Aarhus Universitet, 1962, 2–9 ([mathnet:mat350](http://mi.mathnet.ru/eng/mat350)), reprinted in: J. Adams & G. Shepherd (Authors), _Algebraic Topology: A Student's Guide_ (London Mathematical Society Lecture Note Series, pp. 166-177). Cambridge: Cambridge University Press 1972 ([doi:10.1017/CBO9780511662584.015](https://doi.org/10.1017/CBO9780511662584.015)) 
-
-reviewed in
-
-* {#Rudyak98} [[Yuli Rudyak]], II.7.13 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
-
-
-* {#Gross19} Jacob Gross, _The homology of moduli stacks of complexes_ ([arXiv:1907.03269](https://arxiv.org/abs/1907.03269))
 
 
 The observation putting this into the general context of [[differential cohomology diagrams]] (see there) of [[stable homotopy types]] in [[cohesion]] is due to
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], section 4.4. of _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-based on [Bunke-Gepner 13](#BunkeGepner13)
+based on [Bunke-Gepner 13](#BunkeGepner13).
+
+
 
 
 
