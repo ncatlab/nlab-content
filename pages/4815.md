@@ -134,6 +134,11 @@ If the apparent small positive [[cosmological constant]] were but an artifact of
 
 ### Observation
 
+(...)
+
+### Non-Observation
+ {#NonObservation}
+
 Cautioning against the interpretation of type Ia [[supernovae]] as indicative of a small positive cosmoplogical constant ([[de Sitter spacetime]]) as in the current [[standard model of cosmology]] includes the following (see also at [[inhomogeneous cosmology]]):
 
 * [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav. 40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
@@ -143,6 +148,13 @@ Cautioning against the interpretation of type Ia [[supernovae]] as indicative of
 * Koushik Dutta, Ruchika, Anirban Roy, Anjan A. Sen, M.M. Sheikh-Jabbari, _Negative Cosmological Constant is Consistent with Cosmological Data_ ([arXiv:1808.06623](https://arxiv.org/abs/1808.06623))
 
 * Rui-Yun Guo, Jing-Fei Zhang, Xin Zhang, _Can the $H_0$ tension be resolved in extensions to ΛCDM cosmology?_ ([arXiv:1809.02340](https://arxiv.org/abs/1809.02340))
+
+* Yijung Kang, Young-Wook Lee, Young-Lo Kim, Chul Chung, Chang Hee Ree, _Early-type Host Galaxies of Type Ia Supernovae. II. Evidence for Luminosity Evolution in Supernova Cosmology_, Astrophysical Journal  ([arXiv:1912.04903](https://arxiv.org/abs/1912.04903))
+
+  exposition in
+
+  _[New evidence shows that the key assumption made in the discovery of dark energy is in error](https://phys.org/news/2020-01-evidence-key-assumption-discovery-dark.amp?__twitter_impression=true)_
+
 
 
 ### In pAQFT
@@ -216,9 +228,7 @@ Discussion of the cosmological constant as an artefact of [[inhomogeneous cosmol
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
 
 
-See also 
-
-* Wikipedia, _[Inhomogeneous cosmology](https://en.wikipedia.org/wiki/Inhomogeneous_cosmology)_
+See also at _[[inhomogeneous cosmology]]_.
 
 
 ### The "cosmological constant problem"
