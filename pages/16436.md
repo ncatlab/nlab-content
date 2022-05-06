@@ -42,6 +42,8 @@ Notice that the [[de Sitter spacetime]] (not anti-de Sitter) does not have a sta
 
 * [[super Minkowski spacetime]]
 
+* [[AdS/CFT correspondence]], [[AdS/QCD correspondence]]
+
 ## References
 
 General discussion includes
