@@ -180,6 +180,11 @@ The following book contains an extensive discussion of chord diagrams associated
 
 * {#Ghys16} &#201;tienne Ghys, _A Singular Mathematical Promenade_, preliminary version of December 2016. ([arXiv:1612.06373](https://arxiv.org/abs/1612.06373)) ([author pdf](http://perso.ens-lyon.fr/ghys/articles/Promenade.pdf))
 
+On [[Vassiliev invariants]] of [[braid group|braids]] via [[chord diagrams]]:
+
+* [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
+
+
 ### In string theory
 
 Relation of [[Dp-D(p+2)-brane bound states]]/[[Yang-Mills monopoles]] to [[knot invariants]] via [[chord diagrams]]:
