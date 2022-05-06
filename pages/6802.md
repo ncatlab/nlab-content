@@ -32,6 +32,8 @@ For small string coupling its [[worldvolume]] theory is [[super Yang-Mills theor
 
 * [[D1-D3 brane bound state]]
 
+* [[D3-D5 brane bound state]]
+
 
 ## Related concepts
 
