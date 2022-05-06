@@ -35,3 +35,8 @@ Hints of [[flavour anomalies]] indicate that something peculiar may be going on 
 * Wikipedia, _[Bottom quark](https://en.wikipedia.org/wiki/Bottom_quark)_
 
 [[!redirects bottom quarks]]
+
+[[!redirects beauty quark]]
+[[!redirects beauty quarks]]
+
+
