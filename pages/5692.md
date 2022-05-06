@@ -28,7 +28,7 @@ By the [[looping and delooping]]-equivalence, this is [[equivalence of (∞,1)-c
 ## Definition
 
 
-+-- {: .num_def #ReducedSimplicialSet}
++-- {: .num_defn #ReducedSimplicialSet}
 ###### Definition
 
 A _[[reduced simplicial set]]_ is a [[simplicial set]] $S$ with a single vertex:
@@ -41,6 +41,7 @@ $$
 Write $sSet_0 \subset $ [[sSet]] for the [[full subcategory]] of the category of [[simplicial sets]] on those that are reduced.
 
 =--
+
 
 +-- {: .num_prop #TheModelStructure}
 ###### Proposition
@@ -182,10 +183,10 @@ $$
 The [[simplicial loop space]] functor $G$ and the delooping functor $ \overline{W}(-)$ (discussed at [[simplicial group]]) constitute a [[Quillen equivalence]]
 
 $$
-  (G \dashv \bar W) \colon 
+  (G \dashv \overline{W}) \colon 
     sGr 
       \underoverset
-        {\underset{\bar W}{\longrightarrow}}
+        {\underset{\overline{W}}{\longrightarrow}}
         {\overset{G}{\longleftarrow}}
         {\bot}
     sSet_0
