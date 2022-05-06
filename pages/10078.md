@@ -44,6 +44,7 @@ Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was 
 > graphics grabbed from [Schubert 96](#Schubert96)
 
 
+
 Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formlism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
 
 <img src="http://ncatlab.org/nlab/files/worldlineformalismoverview.jpg">
