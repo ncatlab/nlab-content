@@ -75,7 +75,7 @@ where
 
 * the [[Grassmannian]] $G_2(\mathbb{C}^4)$ of [[planes]] in complexified 4d [[Minkowski spacetime]];
 
-* the **twistor space** is the [[complex projective space]] $\mathbb{C}P^3 = Gr_1(\mathbb{C}^4)$;
+* the **twistor space** is the [[complex projective 3-space]] $\mathbb{C}P^3 = Gr_1(\mathbb{C}^4)$;
 
 * the correspondence space $Gr_{1, 2}(\mathbb{C}^4)$ is the space of lines in planes in $\mathbb{C}^4$.
 
@@ -240,7 +240,7 @@ $$
 
 (where the parenthesis denote symmetrization of indices).
 
-In summary then the possible momentum and angular momentum $(p^i, M^{i j})$ of massless chiral particles in 4d Minkowski spacetime is parameterized precisely by pair of spinors
+In summary, the possible momentum and angular momentum $(p^i, M^{i j})$ of massless chiral particles in 4d Minkowski spacetime is parameterized precisely by pair of spinors
 
 $$
   Z = 
@@ -260,7 +260,7 @@ $$
   \,,
 $$
 
-an element of the 3-dimensional [[complex projective space]], called _twistor space_.
+an element of the [[complex projective 3-space]], called _twistor space_.
 
 
 ### Twistor space
