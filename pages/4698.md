@@ -57,10 +57,15 @@ A geodesic which does globally minimize distance between its end points is calle
 
 * [[prime geodesic]]
 
+* [[geodesic completeness]]
 
-## Links and literature
+* [[totally geodesic submanifold]]
 
 * [[variational calculus]]
+
+
+## References
+
 
 * en.wikipedia: [geodesic](http://en.wikipedia.org/wiki/Geodesic) 
 * Springer [[eom]]: Yu. A. Volkov, [Geodesic line](http://eom.springer.de/G/g044120.htm); Yu. A. Volkov, [Geodesic coordinates](http://eom.springer.de/G/g044060.htm); [Geodesic distance](http://eom.springer.de/G/g044080.htm); V.A. Zalgaller, [Geodesic geometry](http://eom.springer.de/G/g044100.htm); D.V. Anosov, [Geodesic flow](http://eom.springer.de/G/g044090.htm)
