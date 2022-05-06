@@ -133,7 +133,7 @@ Associativity fails in general for the category [[Top]] of all topological space
 ###### Proposition
 **([[one-point compactification intertwines Cartesian product with smash product]])
 
-On the [[subcategory]] $Top_{LCHaus}$ of [[Top]] on the [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] 
+On the [[subcategory]] $Top_{LCHaus}$ in [[Top]] of [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] (Prop. \ref{OnePointCompactificationFunctor})
 
 $$
   (-)^{cpt}
@@ -143,7 +143,23 @@ $$
   Top^{\ast/}
 $$
 
-sends [[Cartesian products]] ([[product topological spaces]]) to [[smash products]] of [[pointed topological spaces]], hence constitutes a [[strong monoidal functor]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+
+1. sends [[coproducts]], hence [[disjoint union topological spaces]], to [[wedge sums]] of [[pointed topological spaces]];
+
+1. sends [[Cartesian products]], hence [[product topological spaces]], to [[smash products]] of [[pointed topological spaces]];
+
+hence constitutes a [[strong monoidal functor]] for both [[monoidal category|monoidal]] structures of these [[distributive monoidal categories]] in that there are [[natural transformation|natural]] [[homeomorphism]]
+
+$$
+  \big(
+    X \sqcup Y 
+  \big)^{cpt}
+  \;\simeq\;
+  X^{cpt} \vee Y^{cpt}
+  \,,
+$$
+
+and
 
 $$
   \big(
@@ -157,7 +173,7 @@ $$
 =--
 
 This is briefly mentioned in [Bredon 93, p. 199](#Bredon93).
-The argument is spelled out in: [MO:a/1645794/](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
 
 
 ### Of spectra
