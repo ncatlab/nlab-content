@@ -36,7 +36,7 @@ A Calabi-Yau variety can be described algebraically as a [[smooth scheme|smooth]
 
 If the base field is $\mathbb{C}$, then one can form the analyticification of $X$ and obtain a [[compact space|compact]] [[manifold]] that satisfies the first given definition.
 
-Beware that there are slighlty different (and inequivalent) definitions in use. Notably in some contexts only the trivialization of the [[canonical bundle]] is required, but not the vanishing of the $H^{0 \lt \bullet \lt n}(X,\mathcal{O}_X)$. To be explicit on this one sometimes speaks for emphasis of "strict" CY varieties when including this condition.
+Beware that there are slightly different (and inequivalent) definitions in use. Notably in some contexts only the trivialization of the [[canonical bundle]] is required, but not the vanishing of the $H^{0 \lt \bullet \lt n}(X,\mathcal{O}_X)$. To be explicit on this one sometimes speaks for emphasis of "strict" CY varieties when including this condition.
 
 ## Examples
 
