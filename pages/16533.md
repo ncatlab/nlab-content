@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[bound state]] of [[D1-branes]] with [[D5-branes]]. 
+The [[bound state]] of [[D1-branes]] with [[D5-branes]]. A special case of [[Dp-D(p+4)-brane bound states]].
 
 Plays a central role in the discussion of [[black holes in string theory]].
 
@@ -25,9 +25,15 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 * [[M2-M5 brane bound state]]
 
-* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
+* [[Dp-D(p+4)-brane bound state]]
 
-* [[D4-D8 brane bound state]]
+  * [[D0-D4 brane bound state]]
+
+  * [[D1-D5 brane bound state]]
+
+  * [[D4-D8 brane bound state]]
+
+* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
 * [[bound state]]
 
@@ -44,3 +50,6 @@ Plays a central role in the discussion of [[black holes in string theory]].
 [[!redirects D1-D5 brane bound states]]
 
 [[!redirects D1-D5 brane system]]
+
+[[!redirects D1-D5-brane bound state]]
+[[!redirects D1-D5-brane bound states]]
