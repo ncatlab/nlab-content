@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -161,7 +162,11 @@ Review and exposition:
 
 With [[global symmetry]]:
 
-* Sukhwinder Singh, [[Guifre Vidal]], _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
+* Sukhwinder Singh, Robert N. C. Pfeifer, [[Guifre Vidal]], _Tensor network decompositions in the presence of a global symmetry_, Phys. Rev. A82:050301, 2010 ([arXiv:0907.2994](https://arxiv.org/abs/0907.2994))
+
+* Sukhwinder Singh, Robert N. C. Pfeifer, [[Guifre Vidal]], _Tensor network states and algorithms in the presence of a global $U(1)$ symmetry_, Phys. Rev. B 83, 115125 (2011) ([arXix:1008.4774](https://arxiv.org/abs/1008.4774))
+
+* {#SinghVidal12} Sukhwinder Singh, [[Guifre Vidal]], _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
 
 
 Further resources:
@@ -279,6 +284,8 @@ Relation to [[spin chains]]:
 ### Applcation to lattice gauge theory
 
 Application to [[lattice gauge theory]]:
+
+* [[Luca Tagliacozzo]], Alessio Celi, Maciej Lewenstein, _Tensor Networks for Lattice Gauge Theories with continuous groups_, Phys. Rev. X 4, 041024 (2014) ([arXiv:1405.4811](https://arxiv.org/abs/1405.4811))
 
 * {#BBCCCDFJLMMRRTVV19} M.C. Bañuls, R. Blatt, J. Catani, A. Celi, J.I. Cirac, M. Dalmonte, L. Fallani, K. Jansen, M. Lewenstein, S. Montangero, C.A. Muschik, B. Reznik, E. Rico, [[Luca Tagliacozzo]], K. Van Acoleyen, [[Frank Verstraete]], U.-J. Wiese, M. Wingate, J. Zakrzewski, P. Zoller: 
 
