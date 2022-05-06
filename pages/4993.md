@@ -80,7 +80,7 @@ is open in $Y$, so this set is upward-closed and intersects $\Sigma$, so that $X
 
 The proof of the theorem above was extracted from 
 
-* Martin Escardo, Intersections of compactly many open sets are open, 2009 [(pdf)](http://www.cs.bham.ac.uk/~mhe/papers/compactness-submitted.pdf)
+* [[Martín Escardó]], Intersections of compactly many open sets are open, 2009 [(pdf)](http://www.cs.bham.ac.uk/~mhe/papers/compactness-submitted.pdf)
 
 See also [this exchange](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice) at Math Overflow, where the question was raised as to whether the [[axiom of choice]] (or possibly a weaker choice principle like the [[ultrafilter theorem]]) is required to prove the equivalence of these two notions of compactness (examination of the proofs above show it is not). 
 
