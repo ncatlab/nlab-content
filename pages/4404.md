@@ -198,23 +198,25 @@ The relevance of exotic smooth structure to [[physics]] is tantalizing but remai
 
 #### General relativity
 
-The original argument that exotic spheres are to be regarded as [[instantons]] of [[gravity]] is in
+The argument that [[exotic spheres]] are to be regarded as [[gravitational instantons]]:
 
-* {#Witten85} [[Edward Witten]], p. 12 of _Global gravitational anomalies_, Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
+* {#Witten85} [[Edward Witten]], p. 12 of: _Global gravitational anomalies_, Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
+
+* Randy A. Baadhio, _On the global gravitational instanton and soliton that are homotopy spheres_, Journal of Mathematical Physics 32, 2869 (1991) ([doi:10.1063/1.529078](https://doi.org/10.1063/1.529078))
 
 Further discussion of exotic $4$-manifolds from the [[general relativity]] point of view is in 
 
 * [[Carl Brans]], Duane Randall, _Exotic differentiable structures and general relativity_ Gen. Rel. Grav., 25 (1993) 205--220
 
-* [[Carl Brans]] _Exotic smoothness and physics_ J. Math. Phys. 35, (1994), 5494--5506.
+* [[Carl Brans]], _Exotic smoothness and physics_ J. Math. Phys. 35, (1994), 5494--5506.
 
 The following paper contained a first proof to localize exotic smoothness in an exotic $\mathbb{R}^4$:
 
-* [[Carl Brans]] _Localized exotic smoothness_ Class. Quant. Grav., 11, (1994), 1785--1792.
+* [[Carl Brans]], _Localized exotic smoothness_ Class. Quant. Grav., 11, (1994), 1785--1792.
 
 A more philosophical discussion can be found in:
 
-* [[Carl Brans]] _Absolute spacetime: the twentieth century ether_ Gen. Rel. Grav. 31, (1999),  597--609
+* [[Carl Brans]], _Absolute spacetime: the twentieth century ether_ Gen. Rel. Grav. 31, (1999),  597--609
 
 
 
@@ -255,7 +257,7 @@ The relation between TQFT and differential-topological invariants of smooth mani
 #### String theory
  {#ReferencesInStringTheory}
 
-An argument for interpreting exotic smooth spheres as [[instantons]] of [[gravity]] and to cancel the gravitational anomalies of [[string theory]] is in ([Witten 85](#Witten85)).
+An argument for interpreting exotic smooth spheres as [[gravitational instantons]] and to cancel the gravitational [[anomalies]] of [[string theory]] is in ([Witten 85](#Witten85)).
 
 The influence of exotic smoothness for [[Kaluza-Klein mechanism|Kaluza-Klein models]] was discussed here:
 
