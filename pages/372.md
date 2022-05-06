@@ -141,7 +141,7 @@ Obviously $I$ has at least one morphism to every other object $X\in C$, namely $
 
 =-- 
 
-+-- {: .num_theorem #LimitOverIdentityFunctorIsInitialObjecty} 
++-- {: .num_theorem #LimitOverIdentityFunctorIsInitialObject} 
 ###### Theorem 
 
 An object $I$ in a [[category]] $C$ is initial iff $I$ is the [[limit]] of the [[identity functor]] $Id_C$. 
