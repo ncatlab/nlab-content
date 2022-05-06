@@ -30,7 +30,7 @@ The proof assistant is still under development, and is not yet released for gene
 
 Homotopy construction in _homotopy.io_ is enabled by two basic mechanisms: _contraction_, which makes the geometry locally more singular; and _expansion_, which makes the geometry locally more generic. These local moves are then propagated to the surrounding geometry by [[pushout]] and [[pullback]] operations, 'dragging' neighbouring parts of the composite, and allowing the construction of nontrivial [[homotopies]]. It is an open question whether these contraction and expansion moves are capable of generating all possible homotopies in every dimension.
 
-The image at the top-right shows a 3d surface diagram of one side of the [[pentagon equation]].
+The image at the top-right shows a 3d surface diagram of one side of the [[pentagon equation]] ([_live workspace_](http://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/side-of-pentagon.html)).
 
 ### Contributors ###
 
@@ -40,7 +40,7 @@ The proof assistant is based on the theory of [[associative n-categories|associa
 
 * [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf)).
 
-* [[Christoph Dorn]], _Associative $n$-categories_ PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf), [arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
+* [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf), [arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
 
 * [[Jamie Vicary]], _Strictly associative and unital higher categories_, talk at the _[2018 Midland Graduate School Christmas Seminar](http://www.cs.bham.ac.uk/~axj/2018-mgs-xmas.html)_ ([pdf](http://www.cs.bham.ac.uk/~axj/files/mgs-xmas-2018-Jamie.pdf)).
 
