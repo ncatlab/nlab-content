@@ -57,7 +57,7 @@ based on
 
 See also
 
-* [[Kiyonori Gomi]], Yuji Terashima, _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
+* [[Kiyonori Gomi]], [[Yuji Terashima]], _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
 
 The case of [[heterotic string theory]] is discussed in
 
