@@ -1,0 +1,56 @@
+[[!redirects hyperbolic 3-manifolds]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[Riemannian manifold]] which is both a [[3-manifold]] and a [[hyperbolic manifold]] is a _hyperbolic 3-manifold_.
+
+## Properties
+
+### Volume conjecture
+
+See _[[volume conjecture]]_.
+
+> Adjust the following text
+
+There is a curious relation of [[volumes]] of hyperbolic 3-manifolds to the [[action functional]] of [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] ([[volume conjecture]]).
+
+Let $G$ be a [[Lie group]] and $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ a [[cocycle]] in degree-3 (generalized) [[Lie group cohomology]]. Write $\flat G$ for the underlying [[discrete group]] and $\flat \mathbf{c} \colon \mathbf{B} \flat G \to \mathbf{B}^3 \flat U(1)$ for the induced [[cocycle]] in ordinary (discrete) [[group cohomology]], $[\flat \mathbf{c}] \in H^3_{Grp}(G_{disc},U(1)_{disc})$.
+
+Then for $\Sigma$ a [[closed manifold]] of [[dimension]] 3, a map (of [[smooth infinity-groupoids]]) $\Sigma \to \mathbf{B}\flat G$ is a [[flat connection|flat]] $G$-[[principal connection]] on $\Sigma$ and the composite
+
+$$
+  [\Sigma, \mathbf{B}\flat G]
+  \stackrel{[\Sigma, \flat \mathbf{c}]}{\to}
+  [\Sigma, \mathbf{B}^3 \flat U(1)]
+  \stackrel{\int_{\Sigma}}{\to}
+  U(1)
+$$
+
+is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restricted to $G$-[[flat connections]], or equivalently is the action functional of $\flat G$-[[Dijkgraaf-Witten theory]].
+
+Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence for [[Chern-Simons theory with complex gauge group]], it turns out that the [[imaginary part]] of this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
+
+
+
+## References
+
+* Wikipedia, _[Hyperbolic 3-manifold](https://en.wikipedia.org/wiki/Hyperbolic_3-manifold)_
