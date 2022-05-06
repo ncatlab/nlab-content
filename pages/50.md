@@ -107,12 +107,9 @@ This failure of Lie III for [[Lie groupoid|Lie groupoids]], i.e. for [[internal 
 
 One such choice is given by replacing manifolds by [[differentiable stack]]s.
 
-## Generalization of Lie's theorems to stacky Lie groupoids
+## Related concepts
 
-The generalization of Lie's theorems from Lie groups to to [[Lie theory for stacky Lie groupoids|stacky Lie groupoids]] is discussed
-in 
-
-* Chenchang Zhu, _Lie II theorem for Lie algebroids via stacky Lie groupoids_, ([arXiv](http://arxiv.org/abs/math/0701024)).
+* [Lie's third theorem for Leibniz algebras](Leibniz+algebra#LieThirdTheorem)
 
 ## References
 
