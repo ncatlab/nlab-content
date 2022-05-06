@@ -10,7 +10,12 @@ Since rig categories are categorical analogs of associative and commutative semi
 
 One will thus need to define [[overconvergent global analytic geometry|overconvergent global analytic spaces]] over a given rig $\infty$-category, rational domains in them, and compare the associated $G$-topology with the usual $G$-topology of overconvergent analytic geometry. Generalizing directly Haran's definition of the rig of integers of $(\mathbb{R},|\cdot|_\infty)$, we will then give examples of rig $\infty$-category with a well defined notion of rig $\infty$-category of analytic functions, and use them to define natural Arakelov-type compactifications of strict overconvergent global analytic spaces over $(\mathbb{Z},|\cdot|_\infty)$.
 
-To be able to complete non-additive rig categories, we will have to replace seminorms by rig metrics (metrics on morphism spaces that are compatible with the rig category structure). We will then define a category of rational domain rig categories that will be the building blocks of analytic ring categories and analytic ringed spaces. All these constructions will be compatible with the standard flow on metrics and absolute value given by taking $t$-th power for $t\in \mathbb{R}_+^*$.
+To be able to complete non-additive rig categories, we will have to replace seminorms by rig metrics (metrics on morphism spaces that are compatible with the rig category structure). There are rig categories associated to rings, but also to Banach rings, and for the last ones, there may be various natural choices, based on the type of modules in use. The notion of morphism will be imposed by the necessity of having a natural morphism
+$$
+(\Z_\eta,\|\cdot \|_2)\to (\Z_\eta,\|\cdot\|_2)^t
+$$
+for every $t\geq 1$.
+We will then define a category of rational domain rig categories that will be the building blocks of analytic ring categories and analytic ringed spaces. The definitions proposed in the coming Sections is not clearly adapted to the setting of Banach rings, because the metric enrichment should be done on the full infinity groupoid of morphisms in a rig category (and this last point is yet a problematic issue). All these constructions will be compatible with the standard flow on metrics and absolute value given by taking $t$-th power for $t\in \mathbb{R}_+^*$.
 
 ## Seminormed and metrized ring $\infty$-categories
 
