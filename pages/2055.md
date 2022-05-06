@@ -392,8 +392,6 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Mathematics in Australia](http://austmaths.wordpress.com)
 
-* [Numb3rs](http://www.atsweb.neu.edu/math/cp/blog)
-
 * [Out of print math](http://outofprintmath.blogspot.com)
 
 * [Wild About Math](http://wildaboutmath.com/)
@@ -403,8 +401,6 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
 
 * [Transient Dynamic](http://robclewley.github.io/) (A blog on next-gen computational tools for mathematical modeling in complex systems, especially dynamical systems models)
-
-* [Teachmathfree](http://www.teachmathfree.com/) (A blog on math concepts, school mathematics & useful formula, tricks, shortcuts, games, vedic mathematics concepts & faster mathematical computation.)
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
