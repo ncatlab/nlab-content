@@ -15,7 +15,7 @@ Deligne-Illusie, Pure Appl. Math. Quat. __4__ (2008), 785–875.
 * D. Kaledin, Spectral sequences for cyclic homology, in Algebra, Geometry and
 Physics in the 21st Century (Kontsevich Festschrift), Birkhäuser, Progress in Math.
 __324__ (2017), 99–129.
-* D. Kaledin, A. Konovalov, K. Salmagambetov, _Spectral algebras and non-commutative Hodge-to-de Rham degeneration_, [arxiv/1906.09518](https://arxiv.org/abs/1906.09518)
+* D. Kaledin, A. Konovalov, K. Magidson, _Spectral algebras and non-commutative Hodge-to-de Rham degeneration_, [arxiv/1906.09518](https://arxiv.org/abs/1906.09518)
 
 [[!redirects Hodge to de Rham spectral sequence degeneration]]
 [[!redirects degeneration of Hodge to de Rham spectral sequence]] 
