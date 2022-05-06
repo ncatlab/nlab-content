@@ -166,6 +166,15 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s with O8s](intersecting+D-brane+model#IntersectionOfD6WithO8)_.
 
+#### Webs
+
+corresponding [[brane webs]]:
+
+
+<img src="https://ncatlab.org/nlab/files/WebNS5D6.jpg" width="600"/>
+
+
+> graphics grabbed from (Kimura 16 [pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2016/slides/kimura.pdf))
 
 ### Relation to Khovanov homology
 
