@@ -23,7 +23,16 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 ## Related concepts
 
+* [[M2-M5 brane bound state]]
+
+* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
+
+
+* [[bound state]]
+
 * [[brane intersection]]
+
+* [[wrapped brane]]
 
 ## References
 
