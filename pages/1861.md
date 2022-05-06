@@ -672,6 +672,10 @@ Discussion of Cohomotopy [[cocycle spaces]] (i.e. [[spaces of maps]] into an [[n
 * {#Hansen81} [[Vagn Lundsgaard Hansen]], _On Spaces of Maps of $n$-Manifolds Into the $n$-Sphere_, Transactions of the American Mathematical Society
 Vol. 265, No. 1 (May, 1981), pp. 273-281 ([jstor:1998494](https://www.jstor.org/stable/1998494))
 
+* [[Victor Vassiliev]], _Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials_ ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
+
+
+
 Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rational model of mapping spaces]]_):
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
