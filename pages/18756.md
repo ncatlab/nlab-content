@@ -23,11 +23,9 @@ The [[speed]] of [[light]]; a [[physical unit]].
 
 * [[Michelson-Morley experiment]]
 
-* [[Planck's constant]]
-
-* [[Compton wavelength]]
-
 * [[special relativity]], [[general relativity]]
+
+[[!include fundamental scales -- contents]]
 
 ## References
 
