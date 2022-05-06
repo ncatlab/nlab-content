@@ -325,6 +325,12 @@ where $\chi_i$ is the classifying map of $i$) and therefore strong.
 
 [[!redirects pushout]]
 [[!redirects pushouts]]
+[[!redirects pushout diagram]]
+[[!redirects pushout diagrams]]
+[[!redirects cocartesian diagram]]
+[[!redirects cocartesian diagrams]]
+[[!redirects cocartesian square]]
+[[!redirects cocartesian squares]]
 
 [[!redirects cofibred coproduct]]
 [[!redirects cofibred coproducts]]
