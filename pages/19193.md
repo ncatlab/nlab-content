@@ -110,7 +110,7 @@ Increasing the predictive power of galaxy formation simulations
 
   * [visualization](https://fire.northwestern.edu/visualizations/)
 
-* Shea Garrison-Kimmel, _Next-generation Galaxy Formation Simulations with FIRE_, 2018 ([video recording](https://youtu.be/sSkrm66uDvw))
+* {#GarrisonKimmel18} Shea Garrison-Kimmel, _Next-generation Galaxy Formation Simulations with FIRE_, 2018 ([video recording](https://youtu.be/sSkrm66uDvw))
 
 * {#Fitts16} Fitts et al. _FIRE in the Field: Simulating the Threshold of Galaxy Formation_, Mon.Not.Roy.Astron.Soc.471:3547-3562, 2017 ([arXiv:1611.02281](https://arxiv.org/abs/1611.02281))
 
