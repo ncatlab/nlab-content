@@ -54,8 +54,7 @@ See the references at _[[model structure on dgc-algebras]]_.
 
 category: category
 
-[[!redirects category of dgc-algebras]]
-[[!redirects categories of dgc-algebras]]
+[[!redirects dgcAlgebras]]
 
 [[!redirects category of dgc-algebras]]
 [[!redirects categories of dgc-algebras]]
