@@ -163,6 +163,8 @@ Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#
 
 * A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
 
+* Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
+
 ### QED contributions
 
 The computation of the anomalous magnetic dipole moment of the [[electron]] in [[QED]] is spelled out (via [[causal perturbation theory]]) in 
