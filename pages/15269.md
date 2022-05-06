@@ -94,7 +94,12 @@ Introductions and surveys include
 
 * Graham Leuschke, _The McKay correspondence_ ([pdf](http://www.leuschke.org/uploads/McKay-total.pdf))
 
+* Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
+
 * Drew Armstrong, _Lectures on the McKay correspondence_, 2015 ([pdf scan of notes](http://www.math.miami.edu/~armstrong/Talks/McKay_Talca.pdf))
+
+* Max Lindh, _An Introduction to the McKay Correspondence
+Master Thesis in Physics_ ([pdf](http://www.diva-portal.org/smash/get/diva2:1184051/FULLTEXT01.pdf))
 
 * [[John Baez]], _The Geometric McKay Correspondence_, ([Part I](https://golem.ph.utexas.edu/category/2017/06/the_geometric_mckay_correspond.html), [Part II](https://golem.ph.utexas.edu/category/2017/07/the_geometric_mckay_correspond_1.html))
 
