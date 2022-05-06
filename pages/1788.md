@@ -1,1 +1,45 @@
-[[Networks of category theorists]]
+
+$$
+  TopologicalSpaces
+  \underoverset
+    {
+      \underset{
+        Cdfflg
+      }{\longrightarrow}
+    }
+    {
+      \overset{
+         Dtplg
+      }{\longleftarrow}
+    }
+    {\phantom{AA}\bot\phantom{AA}}
+  DiffeologicalSpaces
+$$
+
+$$
+  TopologicalSpaces
+  \underoverset
+    {
+      \underset{
+       Cdfflg
+      }{\longrightarrow}
+    }
+    {
+      \overset{
+      }{\hookleftarrow}
+    }
+    {\phantom{AA}\bot\phantom{AA}}
+  DeltaGeneratedSpaces
+  \underoverset
+    {
+      \underset{
+      }{\hookrightarrow}
+    }
+    {
+      \overset{
+       Dtplg
+      }{\longleftarrow}
+    }
+    {\phantom{AA}\bot\phantom{AA}}
+  DiffeologicalSpaces
+$$
