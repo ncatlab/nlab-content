@@ -96,6 +96,10 @@ Exposition with an eye towards [[quantum gravity]] is in
 
 * {#Witten15} [[Edward Witten]], _What every physicist should know about string theory_, talk at [Strings2015](https://strings2015.icts.res.in)  ([pdf](https://strings2015.icts.res.in/talkDocuments/26-06-2015-Edward-Witten.pdf), [[WittenWorldlineFormalism.pdf:file]], [video recording](https://www.youtube.com/watch?v=H0jLD0PphTY))
 
+Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
+
+* [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
+
 Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
 
 * Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_, 
