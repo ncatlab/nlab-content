@@ -104,7 +104,7 @@ $$p_1 i_1=id,$$
 $$p_2 i_2=id,$$
 $$i_1 p_1 i_2 p_2 = i_2 p_2 i_1 p_1.$$
 
-See Definition 3.1 in \cite{Karvonen}.
+See Definition 3.1 in [Karvonen](#Karvonen).
 
 
 ## Semiadditive categories 
