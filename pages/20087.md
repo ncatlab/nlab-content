@@ -10,6 +10,11 @@ On [[gauge-Higgs unification]]:
 
 * {#Manton79} [[Nicholas Manton]], _A new six-dimensional approach to the Weinberg-Salam model_, Nuclear Physics B Volume 158, Issue 1, 8 October 1979, Pages 141-153 (<a href="https://doi.org/10.1016/0550-3213(79)90192-5">doi:10.1016/0550-3213(79)90192-5</a>)
 
+On [[Yang-Mills monopoles]]:
+
+* {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
+
+
 On constructing [[Skyrmions]] from [[instantons]]:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
