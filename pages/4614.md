@@ -910,6 +910,8 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 ## References
 
+### General
+
 The first occurence of the definition of geometric realization of simplicial topological spaces seems to be
 
 * {#Segal68} [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
@@ -970,7 +972,7 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 * Hirschhorn, *Model categories and their localizations*, AMS Mathematical Surveys and Monographs No. 99, 2003
 
-The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
+The (fat) geometric realization of ([[nerves]] of) [[topological groupoid]]s is discussed in section 2.3 of
 
 * {#GepnerHenriques07} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([arXiv:math/0701916](https://arxiv.org/abs/math/0701916))
 
@@ -994,12 +996,19 @@ Geometric realization of general [[Cech nerve]]s is discussed in
 
 * {#DuggerIsaksen} [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
 
+### (Non-)Compatibility with homotopy pullbacks
+ {#ReferencesCompatibilityHomotopyPullback}
 
-The behaviour of fibrations under geometric realization and the preservation of [[homotopy pullback]]s under geometric realization is discussed in
+Discussion of sufficiant conditions for geometric realization to be compatible with [[homotopy pullbacks]]:
 
 * D. Anderson, _Fibrations and geometric realization_ , 
-Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
+Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
 
+* {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_, 2014 ([pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]])
+
+* Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
+
+  (expanded version of [Rezk 14](#Rezk14))
 
 
 [[!redirects geometric realization of a simplicial space]]
