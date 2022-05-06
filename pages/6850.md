@@ -26,6 +26,9 @@ This page lists some (online) resources for the topic of [[physics]].
 
   research-level theoretical physics
 
+* [Bartleby](https://www.bartleby.com/)
+
+  basic and research-level Physics, and other STEM subjects
 
 ## Related entries 
 
