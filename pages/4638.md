@@ -20,7 +20,13 @@ On the [[D-topology]] on [[diffeological spaces]]:
 
 On the [[homotopy theory]] of [[diffeological spaces]] via their [[cohesion|cohesive]] [[shape modality|shape]]:
 
-* [[J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+* [[J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 
+(2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+
+On [[localization of a space|localization]] (in [[algebraic topology]]) formulated in [[modal homotopy type theory|modal]] [[homotopy type theory]]:
+
+* [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
+
 
 Proof of the [[Hurewicz theorem]] in [[homotopy type theory]], hence in general [[(∞,1)-toposes]]:
 
