@@ -45,7 +45,9 @@ $$
 
 for all $x,y,z \in \mathbb{g}$. This follows from the cyclic invariance of the [[trace]]],
 
-For complex Lie algebras, nondegeneracy of the Killing form is equivalent to [[semisimple Lie algebra|semisimplicity]] of $\mathfrak{g}$. For [[simple object|simple]] complex Lie algebras, any invariant nondegenerate symmetric bilinear form is proportional to the Killing form. 
+For complex Lie algebras $\mathfrak{g}$, nondegeneracy of the Killing form (i.e. being the metric making $\mathfrak{g}$ a [[metric Lie algebra]]) is equivalent to [[semisimple Lie algebra|semisimplicity]] of $\mathfrak{g}$. 
+
+For [[simple object|simple]] complex Lie algebras, any invariant nondegenerate symmetric bilinear form is proportional to the Killing form. 
 
 ## Generalizations
 
