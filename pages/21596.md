@@ -87,7 +87,7 @@ To understand how $Relax$ avoids quantification in the equality formation rule, 
 
 ### Greatest partition that's a superset
 
-There's another way to think about $Relax$. ($Comp \prec A$) is saying that any type $A$ is a [[subquotient]] of $Comp$. A subquotient can be decomposed as a subset followed by a quotient, or as a quotient followed by a subset. So what happens if you decompose some arbitrary type $A$ in these ways?
+There's another way to think about $Relax$. Every type is a [[subquotient]] of $Comp$. A subquotient can be decomposed as a subset followed by a quotient, or as a quotient followed by a subset. So what happens if you decompose some arbitrary type $A$ in these ways?
 
 It turns out there's a unique subset of $Comp$ of which $A$ is a quotient. It's ($Comp \cap A$), the type of computations that are also elements of $A$.
 
