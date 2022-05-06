@@ -624,7 +624,7 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
 
   talk at [PolchinskiFest 2014](http://online.kitp.ucsb.edu/online/joefest-c14/) ([pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf))
 
-* {#Moore14} [[Gregory Moore]]
+* {#Moore14} [[Gregory Moore]],
 
   _[[Physical Mathematics and the Future]]_
 
