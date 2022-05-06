@@ -105,6 +105,10 @@ The **language** of $\Sigma$ is the initial interpretation.
 
 (To be expanded upon and cleaned up...)
 
+## References
+
+* Categorical Logic and Type Theory, Bart Jacobs
+
 
 [[!redirects signatures in logic]]
 [[!redirects signature in logic]]
