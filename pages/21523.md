@@ -34,11 +34,15 @@ This denotes the ([[homotopy cofiber|homotopy]]-)[[cofiber]] of the inclusion mo
 This construction is typically understood by default in the context of [[motivic homotopy theory]] working over the [[Nisnevich site]] ([VRO 07, Remark 2.22](#VRO07)).
 But the construction principle is clearly more general.
 
+The Tate sphere gives rise to [[Tate twist|Tate twists]] in [[Weil cohomology theory|Weil cohomology theories]] such as [[étale cohomology]]. In formal constructions of categories of [[motive|motives]], one typically needs to 'invert the Tate sphere' in some sense in order to capture/represent Tate twists correctly. This is the case both for the [[stable motivic homotopy category|stable motivic homotopy categories]] à la [[Vladimir Voevodsky|Voevodsky]], where one more precisely inverts the operation of smashing with the Tate sphere, and for the category of [[pure motive|pure motives]], where one inverts the [[Lefschetz motive]].
+
 ## Related concepts
 
 * [[motivic homotopy theory]]
 
 * [[n-sphere]]
+
+* [[Tate twist]]
 
 ## References
 
