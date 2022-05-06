@@ -39,11 +39,9 @@ For more discussion of this see <a href="http://ncatlab.org/nlab/show/Lie+infini
 ###### Definition
 
 For $G$ a [[Lie group]] the **groupoid of $Lie(G)$-valued differential forms** is as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]], the [[sheaf]] of groupoids
-
 $$
   \bar \mathbf{B}G := G TrivBund_\nabla(-) := [P_1(-), \mathbf{B}G]
 $$
-
 that to a smooth test space $U \in Diff$ assigns the [[functor category]] $[P_1(U),\mathbf{B}G]$ of smooth functors (functors internal to [[smooth spaces]]) from the [[path groupoid]] $P_1(U)$ of $U$ to the one-object [[delooping]] groupoid $\mathbf{B}G$.
 =--
 
@@ -64,7 +62,7 @@ Here $\bar \theta$ is the right invariant [[Maurer-Cartan form]] on $G$. A commo
 
 =--
 
-A proof is in [SchrWalI](#http://arxiv.org/abs/0705.0452).
+A proof is in [SchrWalI](https://arxiv.org/abs/0705.0452).
 
 ### Differential nonabelian cohomology 
 
