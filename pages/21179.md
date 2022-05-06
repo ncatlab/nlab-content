@@ -1,3 +1,4 @@
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,13 +14,27 @@ There's both a *local* and *global* version of this idea. Let $X$ be a derived p
 
 - $\mathbb{L}_X \in QCoh(X)$. The global cotangent complex.
 
-In the case that $X$ is a nice geometric object (e.g. an n-geometric stack), $\mathbb {L}_{X, x}$ can be viewed as the (derived) cotangent space at a point, and $\mathbb {L}_X$ the global cotangent bundle.
+In the case that $X$ is a nice geometric object (e.g. an n-[[geometric stack]]), $\mathbb {L}_{X, x}$ can be viewed as the (derived) cotangent space at a point, and $\mathbb {L}_X$ the global cotangent bundle.
 
 That being said, the global cotangent complex exist for a much broader class of prestacks $X$ than just the geometric ones, allowing one to talk about the "existence of a good deformation theory everywhere" even when the moduli problem is not representable.
 
 
 
 ## Universal Properties
+
+### Ideas & Summary
+
+Before diving into the various variants of cotangent complexes, we summarize their relationships here.
+
+- Local cotangent complex can be obtained from global tangent complex by restriction (when the latter exists)
+- The absolute tangent complexes can be obtained from the relative ones by considering the morphism $X \to pt$. 
+
+We've already explained the global/local distinction above, we briefly discuss the absolute/relative distinction now.
+
+In algebraic geometry, relative notions are notions about families. e.g. flatness/smoothness/etaleness over a base scheme/stack. Relative cotangent complexes encode deformation theory of families. Of course these are analogous to relative cotangent bundles in differential geometry.
+
+We also note that even if one is only interested in finding an absolute cotangent complex, some of the most useful computational lemmas require you to compute relative cotangent complexes. Hence the notion is truly ubiquitous in deformation theory.
+
 
 ### Local Case
 
@@ -54,4 +69,11 @@ Hence this construction translates the geometric situation on the left to the *l
 
 ### Global Case
 
-## Properties
+### Relative Case
+
+
+## Basic Properties
+
+### Cotangent Exact Sequence
+
+### Excision
