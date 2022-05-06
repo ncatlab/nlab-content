@@ -103,7 +103,7 @@ $$
 
 to be thought of as coming from two consecutive steps of [[spontaneous symmetry breaking]], the first one down to $H_1$ at some [[energy]]-scale $E_1$, and the second at some lower energy scale $E_2 \lt E_1$.
 
-Then we say that vacuum defects at energy $E_2$ of codimension-$k$ which wind around an element $\pi_k(H_1/H_2)$ are **metastable** if they become unstabe at energy $E_1$, hence if their image in $\pi_k(H_0/H_2)$ is trivial.
+Then we say that vacuum defects at energy $E_2$ of codimension-$k$ which wind around an element $\pi_k(H_1/H_2)$ are **metastable** if they become unstable at energy $E_1$, hence if their image in $\pi_k(H_0/H_2)$ is trivial.
 
 So if we add to the singular cobordism category the $k$-morphism which is the $k$-dimenional unit cube with an open $k$-[[ball]] removed, then the boundary field data for metastable codimension $n-k$-defects is
 
