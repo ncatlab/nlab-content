@@ -59,7 +59,8 @@ Cf. Johnstone ([1977](#J77), p. 203; [2002](#J02), p.425), Mac Lane-Moerdijk ([1
 
 Note that the second equality determines the class of $\mathbb{T}$-model homomorphisms once the $\mathbb{T}$-models in the arrow categories $\mathcal{E}^2$ are known.
 
-**Remark**: This e.g. precludes the existence of geometric theories $\mathbb{T}^{op}$ or $\mathbb{T}^\times$ with the property that, given a geometric theory $\mathbb{T}$, the category of models $Mod_{\mathbb{T}^{op}}(\mathcal{E})$ and $Mod_{\mathbb{T}^{\times}}(\mathcal{E})$ coincide with the [[opposite category]] $Mod_{\mathbb{T}}(\mathcal{E})^{op}$ or the [[twisted arrow category]] $Mod_{\mathbb{T}}(\mathcal{E})^\times$ for any [[Grothendieck topos]], respectively. In particular, since the (geometric) theory of morphisms $\mathbb{O}^2$ (see the examples below) assigns the [[arrow category]] $\mathcal{E}^2$ as category of models to a Grothendieck topos $\mathcal{E}$ no geometric theory can assign all Grothendieck toposes $\mathcal{E}$ their [[twisted arrow category]] $\mathcal{E}^\times$ as category of models because the class of models coincides with the class of models for the theory of morphisms. $\qed$
+**Remark**:
+  This e.g. precludes the existence of geometric theories $\mathbb{T}^{op}$ or $\mathbb{T}^\times$ with the property that, given a geometric theory $\mathbb{T}$, the category of models $Mod_{\mathbb{T}^{op}}(\mathcal{E})$ and $Mod_{\mathbb{T}^{\times}}(\mathcal{E})$ coincide with the [[opposite category]] $Mod_{\mathbb{T}}(\mathcal{E})^{op}$ or the [[twisted arrow category]] $Mod_{\mathbb{T}}(\mathcal{E})^\times$ for any [[Grothendieck topos]], respectively. In particular, since the (geometric) theory of morphisms $\mathbb{O}^2$ (see the examples below) assigns the [[arrow category]] $\mathcal{E}^2$ as category of models to a Grothendieck topos $\mathcal{E}$ no geometric theory can assign all Grothendieck toposes $\mathcal{E}$ their [[twisted arrow category]] $\mathcal{E}^\times$ as category of models because the class of models coincides with the class of models for the theory of morphisms. $\qed$
 
 Since $\mathcal{E}^2=\mathcal{E}\times Set^2$ in general and the [[Sierpinski topos]] $Set^2$ is [[exponentiable topos|exponentiable]], one gets
 
@@ -72,6 +73,13 @@ or in other words
 
 The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model homorphisms is $Set[\mathbb{T}^2]= Set[\mathbb{T}]^{(Set^2)}$.
 =--
+
+**Remark**:
+ It is worthwhile to muse a bit how "squaring" fares as a theory operator with respect to the various subdoctrines of [[geometric logic]]:
+since it does not introduce logical operators like infinitary disjunctions or quantors unless the operators were already present in $\mathbb{T}$, one sees that the formats of the more expressive subdoctrines like Horn, [[regular logic|regular]], and [[coherent logic]] are respected by the passage to $\mathbb{T}^2$.
+Also, the square of a [[localic topos|propositional theory]] i.e. one over a signature lacking sort symbols, is again propositional - this implies e.g. via the above corollary that the exponentiation of a [[localic topos]] by $Set^2$ is again a localic topos.
+The order sensitive subdoctrines like [[essentially algebraic theory|cartesian]] or [[disjunctive logic]] are also respected.
+One case where squaring does not preserve the subdoctrine is [[Lawvere theory|1-sorted algebraic logic]] since then $\mathbb{T}^2$ is necessarily 2-sorted.$\qed$
 
 ## Examples
 
