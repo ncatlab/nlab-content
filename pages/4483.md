@@ -18,14 +18,20 @@
 
 It is well known that you cannot divide by [[zero]], lest you be doomed to [[trivial ring|triviality]].  Conversely, in a [[field]], you *can* divide by anything *except* zero.  But this rule can be misleading, since it\'s possible that (even) an ordinary number can be zero when you don\'t expect it!  The _characteristic_ of a field states when (if ever) this happens.
 
-It is straightforward to generalise from fields to other [[rings]], and even [[rigs]].
-See also [[characteristic zero]].
+It is straightforward to generalise from fields to other [[rings]], and even [[rigs]]. See also [[characteristic zero]].
 
 ## Definition
+
+### For rings
 
 Let $K$ be a [[rig]] (possibly a [[ring]], possibly a [[commutative ring]], possibly even a [[field]]).  Then there exists a unique [[homomorphism]] $\phi_K\colon \mathbb{N} \to K$ to $K$ from the [[initial object|initial]] rig, which is the rig $\mathbb{N}$ of [[natural numbers]].  The [[kernel]] of $\phi_K$ is an [[ideal]] of $\mathbb{N}$, which (by a well-known property of $\mathbb{N}$) is a [[principal ideal]] with a unique generator.  This generator is the __characteristic__ of $K$, denoted $\char K$.
 
 If $K$ is a ring, then we may use $\phi_K\colon \mathbb{Z} \to K$ instead, where $\mathbb{Z}$ is the ring of [[integers]].  However, in this case, the kernel will usually have two generators, in which case we pick the positive one to get the same result as above.
+
+### For $E_\infty$-rings
+
+The concept of the characteristic has been generalized to [[E-∞ rings]] ([Szymik 12](#Szymik12), [Szymik 13](#Szymik13), [Baker 14](#Baker14)).
+
 
 
 ## Properties
@@ -45,13 +51,7 @@ If $n$ is a positive natural number, then the characteristic of $\mathbb{N}/n = 
 
 For $n = 0$, $\mathbb{N}/0 = \mathbb{N}$, $\mathbb{Z}/0 = \mathbb{Z}$, and the prime field $\mathbb{F}_0 = \mathbb{Q}$ (the field of [[rational numbers]]) are no longer all the same, but they still all have characteristic $0$.  Every [[ordered field]] has characteristic $0$.  The [[real numbers]] and [[complex numbers]] each form fields of characteristic $0$.
 
-## Characteristic of an $E_{\infty}$-ring
 
-Recently the concept of the characteristic has been extended to [[E-∞ rings]]
-
-* Markus Szymik, _Commutative S-algebras of prime characteristics and applications to unoriented bordism_, [arXiv:1211.3239](http://arxiv.org/abs/1211.3239)
-* Markus Szymik,  _String bordism and chromatic characteristics_, [arXiv:1312.4658](http://arxiv.org/abs/1312.4658)
-* Andrew Baker, _Characteristics for $E_\infty$ ring spectra_, [arXiv:1405.3695](http://arxiv.org/abs/1405.3695)
 
 
 ## Related concepts
@@ -59,6 +59,17 @@ Recently the concept of the characteristic has been extended to [[E-∞ rings]]
 * [[freshman's dream]]
 
 * [[characteristic zero]], [[positive characteristic]]
+
+## References
+
+Discussion for [[E-∞ rings]]:
+
+* {#Szymik12} [[Markus Szymik]], _Commutative S-algebras of prime characteristics and applications to unoriented bordism_ ([arXiv:1211.3239](http://arxiv.org/abs/1211.3239))
+
+* {#Szymik13} [[Markus Szymik]],  _String bordism and chromatic characteristics_ ([arXiv:1312.4658](http://arxiv.org/abs/1312.4658))
+
+* {#Baker14} [[Andrew Baker]], _Characteristics for $E_\infty$ ring spectra_ ([arXiv:1405.3695](http://arxiv.org/abs/1405.3695))
+
 
 [[!redirects characteristic]]
 [[!redirects characteristics]]
