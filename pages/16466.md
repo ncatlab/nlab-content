@@ -663,25 +663,34 @@ for the [[full subcategory]] on those $L \in \mathcal{C}$ which are [[invertible
 
 Accordingly any [[braiding]] on $(\mathcal{C}, \otimes,1)$ restricts to a braiding on $(Line(\mathcal{C}), \otimes, 1)$. Hence it is sufficient to show that there is an essentially unique non-trivial symmetric braiding on $(Line(\mathcal{C}), \otimes, 1)$, and that this is the restriction of a braiding on $(\mathcal{C}, \otimes, 1)$.
 
-Now $(Line(\mathcal{C}, \otimes , 1))$ is necessarily a [[groupoid]] (the "[[Picard groupoid of a monoidal category|Picard groupoid]]" of $\mathcal{C}$) and in fact is what is called a _[[2-group]]_. As such we may regard it equivalently as a [[homotopy 1-type]] with group structure, and as such it it is equivalent to its [[delooping]]
+Consider furthermore the [[groupoid]] [[core]] (non-[[full subcategory|full]] [[subcategory]] including all the [[isomorphisms]])
 
 $$
-  B_\otimes Line(\mathcal{C})
+  Line(\mathcal{C}, \otimes , 1)_{iso}
+  \;\in\;
+  2 Grp
+$$  
+
+The [[tensor product]] now makes this a  _[[2-group]]_, known as the "[[Picard groupoid of a monoidal category|Picard groupoid]]" of $\mathcal{C}$. As such we may regard it equivalently as a [[homotopy 1-type]] with group structure, and as such it it is equivalent to its [[delooping]]
+
 $$
+  B_\otimes Line(\mathcal{C})_{iso}
+$$
+
 
 regarded as a [[pointed homotopy type]]. (See at _[[looping and delooping]]_).
 
 The [[Grothendieck group]] of $(\mathcal{C}, \otimes, 1)$ is
 
 $$
-  \pi_0(Line(\mathcal{C}))
+  \pi_0(Line(\mathcal{C})_{iso})
     \simeq
-  \pi_1(B Line(\mathcal{C}))
+  \pi_1(B Line(\mathcal{C})_{iso})
 $$
 
 the [[fundamental group]] of the delooping space.
 
-Now a symmetric braiding on $Line(\mathcal{C})$ is precisely the structure that makes it a [[symmetric 2-group]] which is equivalently the structure of a second [[delooping]] $B^2 Line(\mathcal{C})$ (for the braiding) and then a third delooping $B^3 Line(\mathcal{C})$ (for the symmetry), regarded as a [[pointed homotopy type]].
+Now a symmetric braiding on $Line(\mathcal{C})_{iso}$ is precisely the structure that makes it a [[symmetric 2-group]] which is equivalently the structure of a second [[delooping]] $B^2 Line(\mathcal{C})$ (for the braiding) and then a third delooping $B^3 Line(\mathcal{C})$ (for the symmetry), regarded as a [[pointed homotopy type]].
 
 This way we have rephrased the question equivalently as a question about the possible [[k-invariants]] of spaces of this form.
 
@@ -705,7 +714,7 @@ $$
 In other words
 
 $$
-  \pi_0(Line(Vect^{\mathbb{Z}/2})) \simeq \mathbb{Z}/2
+  \pi_0(Line(Vect^{\mathbb{Z}/2})_{iso}) \simeq \mathbb{Z}/2
   \,.
 $$
 
