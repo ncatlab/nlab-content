@@ -29,10 +29,6 @@ Equivalently, a topological space is sequential iff it is a [[quotient space]] (
 
 ## Examples 
 
-* Every [[Frechet–Uryson space]] is a sequential space.
-
-* Every topological space satisfying the [[first-countable space|first countability axiom]] is Frechet--Uryson, hence a sequential space.  In particular, this includes any [[metrizable space]] .
-
 * Every [[quotient object|quotient]] of a sequential space is sequential.  In particular, every [[CW complex]] is also a sequential space.  (Conversely, every sequential space is a quotient of a metrizable space, giving the alternative definition).
 
 
@@ -54,6 +50,10 @@ For example, to prove that the [[real line]] is sequential as a topological spac
 The usual proof that the real line (or any first-countable topological space) is sequential uses [[excluded middle]] and [[countable choice]]:  Supposing that $A$ is not open, consider $x \in A$ such that $x \notin Int(A)$, pick for each $\delta = 1/n$ (or for each of the countably many basic neighbourhoods $U_n$ of $x$ in a general first-countable space) a point $y_n$ such that $d(x,y_n) \lt 1/n$ (or such that $y_n \in U_n$) but $y_n \notin A$ (which must exist since none of these balls/neighbourhoods are contained in $A$), note that $\lim_n y_n = x$, and get a contradiction.
 
 For this reason, constructive analysis often requires the use of general [[nets]] (or [[filters]]) in situations where classical analysis can get by with sequences.  (It is trivially true, in any topological space, that a set $A$ is open if every *net* that converges to an element $x$ of $A$ belongs eventually to $A$, or equivalently that $A$ belongs to any filter that converges to $x$; you just use the [[neighbourhood filter]] of $x$.)
+
+## Related countability properties
+
+[[!include topology - countability axioms]]
 
 
 ## References 
