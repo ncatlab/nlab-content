@@ -75,6 +75,8 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 
 * [[QCD cosmology]]
 
+* [[quarkonium]]
+
 ## References
 
 ### General
