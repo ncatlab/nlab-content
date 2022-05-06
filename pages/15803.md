@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -93,6 +94,8 @@ See also [physics.stackexchange.com/a/306242/5603](https://physics.stackexchange
 
 ## References
 
+### General
+
 The orginal observation is due to
 
 * [[Stephen Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_, Physical Review 177 (5): 2426. (1969)
@@ -109,9 +112,8 @@ Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) fro
 
 * G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
 
-Details for 2-[[flavor (particle physics)|flavor]] [[quantum chromodynamics]]:
 
-* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377))
+
 
 
 Review includes
@@ -147,7 +149,19 @@ Application to [[baryogenesis]] is due to
 
 * [[Gerard 't Hooft]], _Computation of the quantum effects due to a four-dimensional pseudoparticle_, Phys. Rev. D14:3432-3450 (1976).
 
+### The anomalous WZW term of chiral perturbation theory
 
+The [[chiral anomaly|anomalous]] [[WZW term]] of [[QCD]]-[[chiral perturbation theory]]/[[quantum hadrodynamics]]:
+
+* [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous Ward identities_, Phys. Lett. B 37 (1971) 95-97 ([spire:67330](https://inspirehep.net/literature/67330), <a href="https://doi.org/10.1016/0370-2693(71)90582-X">doi:10.1016/0370-2693(71)90582-X</a>)
+
+
+* {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
+
+* C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopv Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
+
+
+* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
 
 
 [[!redirects chiral anomalies]]
