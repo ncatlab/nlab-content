@@ -176,6 +176,9 @@ Perhaps surprisingly, this adjunction is even a *simplicially enriched* adjuncti
 
 * [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 
+* [[Dai Tamaki]], [[Akira Kono]], Appendix A.1 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+
 * {#RSS01} [[Charles Rezk]], [[Stefan Schwede]], and [[Brooke Shipley]], *Simplicial structures on model categories and functors*, [arxiv](https://arxiv.org/abs/math/0101162)
 
 [[!redirects simplicial objects]]
