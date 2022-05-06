@@ -113,6 +113,8 @@ Relation of [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[
 
 * [[Koji Hashimoto]], [[Taro Kimura]], _Band spectrum is D-brane_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 1 ([arXiv:1509.04676](https://arxiv.org/abs/1509.04676))
 
+* Charlotte Kristjansen, Gordon W. Semenoff, _The D3-probe-D7 brane holographic fractional topological insulator_, JHEP10 (2016) 079 ([arXiv:1604.08548](https://arxiv.org/abs/1604.08548))
+
 [[!redirects Dp-D(p+4)-brane bound states]]
 
 
