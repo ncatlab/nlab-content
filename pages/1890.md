@@ -325,7 +325,7 @@ L{[X,A]} \ar{r} & {[X,LA]} \ar{r}{{[X,a]}} & {[X,A]} \\
 {[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) \ar[mapsto]{r} & \big( x\mapsto f(x) + g(x) + h(x) \big)
 \end{tikzcd}
 
-In other words, functions into a monoid for canonically a monoid under _pointwise addition_ (or multiplication).  
+In other words, functions into a monoid form canonically a monoid under _pointwise addition_ (or multiplication).  
 
 
 ## Moggi's typing rules and parameterized definition
