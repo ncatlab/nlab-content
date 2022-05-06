@@ -308,6 +308,10 @@ $$
   \,.
 $$
 
+### D4/NS5/D6
+
+J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
+
 
 ### D5/D9-branes in $\mathbb{T}^4/\mathbb{Z}_{0,2,4}-orientifolds$
 
@@ -320,7 +324,7 @@ $$
 
 (...)
 
-### D4/D8-branes in $\mathbb{T}^2 \times \mathbb{T}^4/\mathbb{Z}_n$-orientifolds
+### D6/D8-branes in $\mathbb{T}^2 \times \mathbb{T}^4/\mathbb{Z}_n$-orientifolds
 
 (...)
 
@@ -331,9 +335,10 @@ $$
 [Honecker 01](#Honecker01)
 [Honecker 02](#Honecker02)
 
-review in [Marchesano 03 Sec. 4](#Marchesano03))
 
 (...)
+
+
 
 ### Examples of non-compact singularities
  {#ExamplesForFractionalDBranes}
