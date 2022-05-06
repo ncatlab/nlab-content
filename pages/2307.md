@@ -7,10 +7,6 @@
 +--{: .hide}
 [[!include cobordism theory -- contents]]
 =--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
-=--
 =--
 =--
 
