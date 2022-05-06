@@ -168,6 +168,8 @@ valid in LF/P) of various kinds of foundations of mathematics. Then it compares 
 Some old discussions from this page archived [here](http://nforum.mathforge.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
 
 
+[[!redirects mathematical foundation]]
+[[!redirects mathematical foundations]]
 
 
 [[!redirects foundation]]
