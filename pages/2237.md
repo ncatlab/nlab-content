@@ -14,6 +14,10 @@
 =--
 
 
+
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,116 +26,9 @@
 ## Idea
  {#Idea}
 
-_Equivariant cohomology_ is [[cohomology]] in the presence of and taking into account [[group]]-[[actions]] (and generally [[∞-group]] [[∞-actions]]) both on the domain space and on the [[coefficients]]. This is particularly interesting, and traditionally considered, for some choice of "geometric" [[cohomology]], hence cohomology inside an [[(∞,1)-topos]] possibly richer than that of [[geometrically discrete ∞-groupoids]].
+_Equivariant cohomology_ is [[cohomology]] in the presence of and taking into account [[group]]-[[actions]] (and generally [[∞-group]] [[∞-actions]]) both on the domain space and on the [[coefficients]]. 
 
-We now first describe the idea of forming equivariant cohomology as such in an ambient [[(∞,1)-topos]] $\mathbf{H}$ 
-
-* _[Equivariance](#IdeaEquivariance)_
-
-and then afterwards indicate what this amounts to in someimportant special cases of choices of $\mathbf{H}$
-
-* _[Geometricity](#IdeaGeometricity)_
-
-### Equivariance
- {#IdeaEquivariance}
-
-In the simplest situation the group action on the [[coefficients]] is trivial and one is dealing with cohomology of [[spaces]] $X$ that are equipped with a $G$-action ([[G-spaces]]). Here a [[cocycle]] in equivariant cohomology is an ordinary cocycle $c \in \mathbf{H}(X,A)$ on $X$, together with an [[equivalence]] $c \simeq g^\ast c$ [[coherence|coherently]] for each [[generalized element]] $g$ of $G$, hence is a cocycle which is $G$- _invariant_ , but only up to coherent choices of [[equivalences]].  Diagrammatically this means that where a non-equivariant [[cocycle]] on $X$ with [[coefficients]] in $A$ is just a map $c \colon X \to A$ (see at _[[cohomology]]_) an equivariant cocycle is a natural system of [[diagrams]] of the form
-
-$$
-  \array{
-    X &\stackrel{c}{\longrightarrow}& A
-    \\
-    {}^{\mathllap{\rho_X(g)}}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{=}}
-    \\
-    X &\underset{c}{\longrightarrow}& A
-  }
-$$
-
-
-Standard examples of this kind of equivariant cocycles are traditional [[equivariant bundles]] or cocycles in [[equivariant de Rham cohomology]]. This kind of equivariant cocycle is the same as just a single cocycle on the [[homotopy quotient]] $X//G$. Since a standard model for homotopy quotients is the [[Borel construction]], this kind of equivariant cohomology with trivial $G$-action on the coefficients is also called **Borel equivariant cohomology**.
-
-In general the group $G$ also acts on the [[coefficients]] $A$, and then an equivariant cocycle is a map $c \;\colon\; X \to A$ which is invariant, up to equivalence, under the _joint_ action of $G$ on base space and coefficients. Diagrammatically this is a natural system of diagrams of the form
-
-$$
-  \array{
-    X &\stackrel{c}{\longrightarrow}& A
-    \\
-    {}^{\mathllap{\rho_X(g)}}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\rho_A(g)}}
-    \\
-    X &\underset{c}{\longrightarrow}& A
-  }
-  \,.
-$$
-
-More concisely this means that an equivariant cocycle is a [[homotopy fixed point]] of the non-equivariant [[cocycle]] [[∞-groupoid]] $\mathbf{H}(X,A)$:
-
-$$
-  H^G(X,A) \simeq \pi_0(\mathbf{H}(X,A)^G)
-  \,.
-$$
-
-By the discussion at _[[∞-action]]_ one may phrase this abstractly as follows: spaces and coefficients with $G$-[[∞-action]] are objects in the [[slice (∞,1)-topos]] of the ambient [[(∞,1)-topos]] $\mathbf{H}$
-
-$$
-  G Act_\infty(\mathbf{H})\simeq \mathbf{H}_{/\mathbf{B}G}
-  \,,
-$$
-
-and $G$-equivariant cohomology is the [[dependent product]] [[base change]] along
-
-$$
-  \underset{\mathbf{B}G}{\prod} \;\colon\; \mathbf{H}_{/\mathbf{B}G} \longrightarrow \mathbf{H} 
-$$
-
-of [[internal homs]] in the slice over $\mathbf{B}G$:
-
-$$
-  H^G(X,A) \simeq \pi_0 \Gamma \left( 
-    \underset{\mathbf{B}G}{\prod} [X,A]
-  \right)
-  \,.
-$$
-
-(This formally recovers the above special case of Borel-equivariant cohomology by the dual incarnation of the [[projection formula]] (the one denoted $\overline{\gamma}$ at _[Wirthm&#252;ller context -- The comparison maps](Wirthm&#252;ller+context#TheComparisonMaps)_), according to which $\prod_{\mathbf{B}G}[\rho_X,A]\simeq [\sum_{\mathbf{B}G} \rho_X,A] \simeq [X//G,A]$.)
-
-Hence equivariant cohomology is a natural generalization of [[group cohomology]], to which it reduces when the base space is a point.
-
-If here the cohomology is to be $\mathbb{Z}$-graded this means that the coefficients $A$ are the stages in a [[spectrum object]] in  $\mathbf{H}_{/\mathbf{B}G}$, which is a [[spectrum with G-action]]. These are hence the [[coefficients]] for equivariant [[generalized (Eilenberg-Steenrod) cohomology]]. (More generally one considers [[genuine G-spectra]] in [[equivariant stable homotopy theory]], see e.g. [Greenlees-May, p. 16](#GreenleesMay))).
-
-Among the simplest non-trivial example of this $G$-equivariance with joint action on domain and coefficients is [[real-oriented cohomology|real oriented]] [[generalized cohomology theory]] such as notably [[KR-theory]], which is equivariance with respect to a $\mathbb{Z}_2$-action. This appears notably in [[type II string theory]] on [[orientifold]] backgrounds, where the extra group action on the coefficients is exhibited by what is called the [[worldsheet parity operator]]. The word "[[orientifold]]" is modeled on that of "[[orbifold]]" to reflect precisely this extra action (on coefficients) of non-Borel $\mathbb{Z}_2$-equivariant cohomology.
-
-Similarly, [[equivariant K-theory]] is [[topological K-theory]] not just over spaces with $G$-action, but of vector bundles whose fibers are $G$-[[representations]], and such that the $G$-action on the base intertwines that on the fibers.
-
-
-On the other extreme, when the $G$-action on the domain space happens to be trivial and only the coefficients have nontrivial $G$-action, then a cocycle in equivariant cohomology is a system of the form
-
-$$
-  \array{
-    X &\stackrel{c}{\longrightarrow}& A
-    \\
-    {}^{=}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\rho_A(g)}}
-    \\
-    X &\underset{c}{\longrightarrow}& A
-  }
-$$
-
-and hence is equivalently a map
-
-$$
-  c \;\coloneqq\; X \longrightarrow A^G
-$$
-
-to the [[homotopy fixed points]] $A^G$ of the coefficients (formed in $\mathbf{H}$! See [below](#IdeaGeometricity) for different incarnations ). 
-
-
-Hence we have in summary:
-
-[[!include equivariant cohomology -- table]]
-
-### Geometricity 
- {#IdeaGeometricity}
-
-Exactly what the above comes down to depends on the choice of ambient [[(∞,1)-topos]] $\mathbf{H}$ and of the way that $G$ is regarded as an [[∞-group]] object of $\mathbf{H}$. Some important choices are the following:
+Exactly what this comes down to depends on the choice of ambient [[(∞,1)-topos]] $\mathbf{H}$ and of the way that $G$ is regarded as an [[∞-group]] object of $\mathbf{H}$. Some important choices are the following:
 
 * **"coarse" equivariance.** For $\mathbf{H} = $ [[∞Grpd]] $\simeq L_{whe}$ [[Top]], and $G$ a [[discrete group]], regarded via its [[delooping]] groupoid/[[classifying space]] $\mathbf{B}G \in \mathbf{H}$, then $\mathbf{H}_{/\mathbf{B}G}$ is [[presentable (∞,1)-category|presented]] by the [[Borel model structure]] on the category of [[simplicial sets]] equipped with $G$-action. (This is also called the _coarse_ [[equivariant homotopy theory]], in view of the next examples). This theory only knows [[homotopy quotients]] and [[homotopy fixed points]] of $G$ (in particular cofibrant replacement in the [[Borel model structure]] is indeed given by the [[Borel construction]] and so Borel equivariant cohomology theory appears here whenever the [[coefficients]] have trivial $G$-action). In the case tha the domain itself is the points with trivial $G$-action then the equivariant cohomology here is precisely the [[group cohomology]] of $G$.
 
@@ -141,10 +38,6 @@ Exactly what the above comes down to depends on the choice of ambient [[(∞,1)-
 See at _[[Elmendorf's theorem]]_ for details. By the discussion there every object in the fine model structure if fibrant and cofibrant replacement here is given by passage to [[G-CW complexes]], so that the [[derived hom spaces]] computing cohomology are the ordinary $G$-[[fixed points]] of the [[mapping spectra]] from such as [[G-CW complex]] into the coefficient spectrum (this is traditionally motivated via detour through [[genuine G-spectra]], see e.f. [Greenlees-May, equation (3.7)](#GreenleesMay)).
 
   Cohomology with [[Eilenberg-MacLane object]]-[[coefficients]] in $PSh_\infty(Orb)_{/\mathbf{B}G}$ is what [[Glen Bredon]] originally considered as what is now called _[[Bredon cohomology]]_. 
-
-* **fully geometric equivariance.** More complete geometric information is retained if one takes $\mathbf{H} = $ [[ETop∞Grpd]] or $= $[[Smooth∞Grpd]], which by the discussion at [[canonical topology]] means to not only test on [[moduli stacks]] $\mathbf{B}G$ of [[compact Lie groups]] (as in the [[global equivariant indexing category]]) but on _all_ topological/[[smooth ∞-stacks]]. Then again $G$ itself embeds canonically, and now its equivariant cohomology now is refined Segal-Brylinski-[[Lie group cohomology]] (see the discussion there).
-
-In general one may (and should) consider equivariant cohomology for any ambient [[(∞,1)-topos]] $\mathbf{H}$ and any [[∞-group]] object $G \in Grp(\mathbf{H})$. But traditional literature on [[equivariant homotopy theory]]/equivariant cohomology considers specifically only the choice $\mathbf{H} = PSh_\infty(Orb)$ (and only somewhat implicitly,in fact traditional literature explicitly considers $\infty$-presheaves on the $G$-[[orbit category]] $Orb_G$. This relates to the above via the [standard](over-%28infinity%2C1%29-topos#SheavesOnBigSite) equivalence $PSh_\infty(Orb)_{/\mathbf{B}G} \simeq PSh_\infty(Orb_{/\mathbf{B}G}) \simeq PSh_\infty(Orb_G)$. 
 
 ## Presentations
 
