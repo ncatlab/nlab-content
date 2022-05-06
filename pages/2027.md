@@ -24,6 +24,8 @@ An integral domain $R$ is an __[[Ore domain]]__ if the set of all nonzero elemen
 
 * [[Dedekind domain]]
 
+* [[field of fractions]]
+
 
 [[!redirects integral domain]]
 [[!redirects integral domains]]
