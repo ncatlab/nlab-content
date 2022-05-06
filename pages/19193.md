@@ -100,6 +100,7 @@ There are various computer simulations for structure formation, listed below. Re
 * {#VogelsbergerEtAl14} Mark Vogelsberger, Shy Genel, Volker Springel, Paul Torrey, Debora Sijacki, Dandan Xu, Greg Snyder, Dylan Nelson, Lars Hernquist, _Introducing the Illustris Project: simulating the coevolution of dark and visible matter in the Universe_ ([arXiv:1405.2921](https://arxiv.org/abs/1405.2921))
 
 #### FIRE
+ {#ReferencesFIRE}
 
 [[galaxy]] formation
 
@@ -120,6 +121,8 @@ Increasing the predictive power of galaxy formation simulations
 [[galactic rotation curves]] qualitatively reproduced in [Hopkins 17, Figure 4, Figure 5](#Hopkins17)
 
 baryonic [[Tully-Fisher relation]] qualitatively reproduced in [El-Badry 18, Figure 4](#ElBadry18)
+
+* Daniel Angles-Alcazar, _Multi-scale physical modeling in galaxy formation and evolution_, 2019 ([web](http://www.simonsfoundation.org/event/cca-seminar-daniel-angles-alcazar/))
 
 [[!redirects galaxy formation]]
 
