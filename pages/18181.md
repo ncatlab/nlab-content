@@ -36,7 +36,7 @@ For Kant space is not a concept but an intuition, more precisely an intuition, "
 
 > 3. Space is no discursive, or as we say, general conception of the relations of things, but a pure intuition. For, in the first place, we can only represent to ourselves one space, and, when we talk of divers spaces, we mean only parts of one and the same space. Moreover, these parts cannot antecede this one all-embracing space, as the component parts from which the aggregate can be made up, but can be cogitated only as existing in it. Space is essentially one, and multiplicity in it, consequently the general notion of spaces, of this or that space, depends solely upon limitations. ...
 
-The intuition (in the ordinary sense) Kant has concerning space is similar to a number theorist who considers "the" [[natural number|natural numbers]] as the object of her studies, though certainly she certainly has limitations in specifying what she means. Indeed, common way to do so have limitation: for instance, one can not uniquely determine the natural numbers by a list of axioms, as [[incompleteness theorem|Gödel's fist incompleteness theorem]] demonstrates, nor is it satisfying to describe the natural numbers by a concrete model, because there are several ways to do so.
+The intuition (in the ordinary sense) Kant has concerning space is similar to a number theorist who considers "the" [[natural number|natural numbers]] as the object of her studies, though she certainly has limitations in specifying what she means. Indeed, common way to do so have limitation: for instance, one can not uniquely determine the natural numbers by a list of axioms, as [[incompleteness theorem|Gödel's fist incompleteness theorem]] demonstrates, nor is it satisfying to describe the natural numbers by a concrete model, because there are several ways to do so.
 
 Due to his intuition that there is "one" space, Kant discards the first two out of the three possibilities he discusses.
 Since Kant this intuition has been dropped mostly by geometers in favor of the first introducing pioneering concepts like [[On the hypotheses which underlie geometry|Riemannian manifolds in 1854]]. In his very early work [[Bertrand Russell]] tried to adapt Kant's work to this new view (see [[An Essay on the Foundations of Geometry]]).
@@ -56,7 +56,7 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 #### Transcendental Logic
 
 Achourioti and van Lambalgen (June and November 2011) offered a formalization of Kant's logic in terms of [[geometric logic]].
-For the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
+In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
 ###Transcendental Doctrine of Methods
 
