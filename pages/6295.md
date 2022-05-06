@@ -19,14 +19,14 @@
 
 ## Idea
 
-A Jordan--Lie algebra is a [[quantum deformation]] of a [[Poisson algebra]], consisting of a single [[vector space]] with compatible structures of both a [[Jordan algebra]] and a [[Lie algebra]].  Secretly, they are the same thing as [[complexification|complexified]] $*$-[[star-algebras]].  If we add an appropriate [[topological structure]], then we get a Jordan--Lie--[[Banach algebra]] (corresponding to complex Banach $*$-algebras), of which the $JLB$-algebras (corresponding to $C^*$-[[C-star algebra|algebras]]) and $JLBW$-algebras (corresponding to [[von Neumann algebras]]) are important special cases.
+A Jordan--Lie algebra is a [[quantum deformation]] of a [[Poisson algebra]], consisting of a single [[vector space]] with compatible structures of both a [[Jordan algebra]] and a [[Lie algebra]].  Secretly, this is the same thing as a [[complexification|complexified]] $*$-[[star-algebras]].  If we add an appropriate [[topological structure]], then we get a Jordan--Lie--[[Banach algebra]] (corresponding to complex Banach $*$-algebras), of which the $JLB$-algebras (corresponding to $C^*$-[[C-star algebra|algebras]]) and $JLBW$-algebras (corresponding to [[von Neumann algebras]]) are important special cases.
 
-In traditional [[strict deformation quantization]] the outcome of [[quantization]] of [[Poisson algebras]] is regarded to be a non-commutative but associative complex $*$-[[star-algebra|algebra]] (such as a $C^*$-[[C-star-algebra|algebra]]).  But any such induces a Jordan--Lie algebra (consisting of its [[self-adjoint elements]]) by letting the Jordan product be the symmetrized product and the [[Lie bracket]] the [[commutator]] (times $\mathrm{i}/2$). There is a condition relating the [[associator]] of the Jordan product to the Lie bracket, which makes $JLB$-algebras effectively the same as $C^*$-algebras, the only difference being that the single associative product is explicitly regarded as inducing the two products of a $JLB$-algebra. For more on this separation of the Lie-algebra and the Jordan-algebra aspect of quantization see at _[[order-theoretic structure in quantum mechanics]]_.
+In traditional [[strict deformation quantization]], the outcome of [[quantization]] of [[Poisson algebras]] is regarded to be a non-commutative but associative complex $*$-[[star-algebra|algebra]] (such as a $C^*$-[[C-star-algebra|algebra]]).  But any such induces a Jordan--Lie algebra (consisting of its [[self-adjoint elements]]) by letting the Jordan product be the symmetrized product and the [[Lie bracket]] the [[commutator]] (times $\mathrm{i}/2$). There is a condition relating the [[associator]] of the Jordan product to the Lie bracket, which makes $JLB$-algebras effectively the same as $C^*$-algebras, the difference being that the single associative product is explicitly regarded as inducing the two products of a $JLB$-algebra. For more on this separation of the Lie-algebra and the Jordan-algebra aspect of quantization see at _[[order-theoretic structure in quantum mechanics]]_.
 
 
 ## Definitions and elementary properties
 
-Let $K$ be a [[formally real field]] (in particular, $1/2 \in K$), and let $q \in K$ be a scalar.  (Most of what we say here works over more general fields or even [[commutative rings]], but there are arguments that the usual notion of [[Jordan algebra]] is inappropriate already for fields of characteristic $2$, so I don\'t want to pretend to more generality than we can justify.  Indeed, there does not yet seem to be any published literature on Jordan--Lie algebras that doesn\'t set $K$ to the field $\mathbb{R}$ of [[real numbers]].)
+Let $K$ be a [[formally real field]] (in particular, $1/2 \in K$), and let $q \in K$ be a scalar.  (Most of what we say here works over more general fields or even [[commutative rings]], but there are arguments that the usual notion of [[Jordan algebra]] is inappropriate already for fields of characteristic $2$, so I don\'t want to pretend to more generality than we can justify.  Indeed, there does not yet seem to be any published literature on Jordan--Lie algebras that doesn\'t set $K$ to the field $\mathbb{R}$ of [[real numbers]].)  Since $K$ is a [[field]], $q$ is either zero or invertible, and some things will depend on which it is.
 
 A __Jordan--Lie algebra__ (over $K$ with deformation constant $q$) consists of a $K$-[[vector space]] $A$ equipped with two [[bilinear operators]] $(-)\circ(-)$ and $[{-},{-}]$, respectively called the _[[Jordan product]]_ and the _[[Lie bracket]]_, satisfying the following identities:
 
@@ -34,12 +34,12 @@ A __Jordan--Lie algebra__ (over $K$ with deformation constant $q$) consists of a
 * alternation (anticommutativity) of the Lie bracket: $[x, x] = 0$, or equivalently (using bilinearity and that $1/2 \in K$) $[x, y] = -[y, x]$;
 * the Jacobi identity (self-derivation of the Lie bracket): $[x, [y, z]] = [[x, y], z] + [y, [x, z]]$, or equivalently (using anticommutativity) $[x, [y, z]] + [y, [z, x]] + [z, [x, y]] = 0$;
 * derivation of the Lie bracket over the Jordan product: $[x, y \circ z] = [x, y] \circ z + y \circ [x, z]$;
-* the associator identity: $x \circ (y \circ z) = (x \circ y) \circ z + h^2 [y, [x, z]]$, or equivalently (using anticommutativity) $(x \circ y) \circ z - x \circ (y \circ z) = h^2 [[x, z], y]$.
+* the associator identity: $x \circ (y \circ z) = (x \circ y) \circ z + q^2 [y, [x, z]]$, or equivalently (using anticommutativity) $(x \circ y) \circ z - x \circ (y \circ z) = q^2 [[x, z], y]$.
 
 Note that the last two axioms (and alternation) prove the Jordan identity: first,
 $$ [x, x \circ x] = [x, x] \circ x + x \circ [x, x] = 0 ;$$
 then (writing $x^2$ for $x \circ x$),
-$$ x \circ (y \circ x^2) - (x \circ y) \circ x^2 = h^2 [y, [x, x^2]] = 0 .$$
+$$ x \circ (y \circ x^2) - (x \circ y) \circ x^2 = q^2 [y, [x, x^2]] = 0 .$$
 Thus, $A$ is a [[Jordan algebra]] under the Jordan product, and of course $A$ is a [[Lie algebra]] under the Lie bracket.  (In a similar way, we can prove the Jacobi identity from the associator identity if $q$ is cancellable; but we state the Jacobi identity separately to cover when $q = 0$ as well.)
 
 As usual for Jordan algebras, we write $x^n$ for an $n$-fold product of $x$ under the Jordan product; this is unambiguous since Jordan algebras are always power-associative.  (And of course, an $n$-fold Lie bracket is always zero for $n \gt 1$.)  Even more generally the un[[bias]]ed form of the Jordan identity is that multiplication by $x^m$ and by $x^n$ commute:
@@ -54,7 +54,9 @@ A Jordan--Lie algebra is __unital__ if the Jordan product has   an [[identity el
 
 Then we may also interpret $x^0$ as $1$.  Note that $[x, 1] = 0$ too (a special case of $[x^m, x^n] = 0$), proved by examining $[x, 1 \circ 1]$.
 
-If $K$ is a [[normed field]], then a __Jordan--Lie--Banach algebra__ consists of a $K$-[[Banach space]] $A$ equipped with a [[short linear operator|short]] [[bilinear operator]] (as the Jordan product) and a [[densely defined linear operator|densely defined]] bilinear operator (as the Lie bracket) making the domain of the Lie bracket into a Jordan--Lie algebra as above.  Then (using continuity) $A$ is also a [[Jordan–Banach algebra]] under the Jordan product.  A Jordan--Lie--Banach algebra is __unital__ if the Jordan algebra has a unit and $\|1\| \leq 1$ (in which case $\|1\| = 1$ if $A$ is nontrivial).
+If $K$ is a [[normed field]], then a __Jordan--Lie--Banach algebra__ consists of a $K$-[[Banach space]] $A$ equipped with a [[short linear operator|short]] [[bilinear operator]] (as the Jordan product) and a [[densely defined linear operator|densely defined]] bilinear operator (as the Lie bracket) making the domain of the Lie bracket into a Jordan--Lie algebra as above.
+
+Typically, although the Lie bracket is allowed to be unbounded, it will be bounded when $q \gt 0$.  (This is a theorem for $JLB$-algebras below.)  Using continuity to prove all of the axioms, $A$ is also a [[Jordan–Banach algebra]] under the Jordan product.  A Jordan--Lie--Banach algebra is __unital__ if the Jordan algebra has a unit and $\|1\| \leq 1$ (in which case $\|1\| = 1$ if $A$ is nontrivial).  Note that Jordan--Lie--Banach algebras (besides the $JLB$-algebras below) don\'t seem to appear in the literature; this terminology is analogous to that of Jordan--Banach algebras.
 
 A __$JLB$-algebra__ is a Jordan--Lie--Banach algebra satisfying the following additional identities:
 
@@ -63,58 +65,59 @@ A __$JLB$-algebra__ is a Jordan--Lie--Banach algebra satisfying the following ad
 
 Then $A$ is a [[JB-algebra]] under the Jordan product.
 
-As with any $JB$-algebra, we don\'t need to explicitly state that the Jordan product is short (nor its identity in the unital case), as this can be proved using the $B$-identity and the [[polarization identities]].  (Conversely, if we do state that the product is short, then we only need the $\leq$ half of the $B$-identity in addition, or we can even combine it with positivity as ${\|x\|^2} \leq {\|x^2 + y^2\|}$.)  We can also prove (by induction on $\lceil\log_2 n\rceil$) that $|x^n| = |x|^n$ (except for $n = 0$ in the trivial algebra).
+As with any $JB$-algebra, we don\'t need to explicitly state that the Jordan product is short (nor that $\|1\| \leq 1$ in the unital case), as this can be proved using the $B$-identity and the [[polarization identities]].  (Conversely, if we do state that the product is short, then we only need the $\leq$ half of the $B$-identity in addition, or we can even combine it with positivity as ${\|x\|^2} \leq {\|x^2 + y^2\|}$.)  We can also prove (by induction on $\lceil\log_2 n\rceil$) that $|x^n| = |x|^n$ (except for $n = 0$ in the trivial algebra).
+
+When $q \gt 0$, we should also be able to prove that Lie bracket is bounded by $1/q$, but I don\'t see the proof.  (A naive look at the associator identity suggests a bound of $\sqrt{2}/q$, but it\'s not clear to me whether $[[x,z],y]$ is sufficently general to prove this.)  Then extending by continuity, we may assume that the Lie bracket is defined everywhere.
 
 Positivity generalizes to any number of terms on either side (as long as the right-hand side has more, of course).  (However, I don\'t see how to prove this without going through the [[functional calculus]] to prove that every sum of squares has a [[square root]].)  Thus, a $JB$-algebra is [[formally real algebra|formally real]]: if $\sum_i x_i^2 = 0$, then each $x_i = 0$ (because the norms lie in a formally real field).
 
-Following the established terminology for $JB$-algebras, a _$JLC$-algebra_ may be defined as a *concrete* $JLB$-algebra, that is one equipped with a faithful representation (see [below](#representations)) on a [[Hilbert space]], or equivalently a real [[subalgebra]] of $SA(H)$ (see [below](#examples)) that is closed in the [[operator topology]].  However, like $C^*$-algebras (but unlike general $JB$-algebras), every $JLB$-algebra may be so represented and this term seems not to be used.
+Following the established terminology for $JB$-algebras, a __$JLC$-algebra__ may be defined as a *concrete* $JLB$-algebra, that is one equipped with a faithful representation (see [below](#representations)) on a [[Hilbert space]], or equivalently a real [[subalgebra]] of $SA(H)$ (see [below](#examples)) that is closed in the [[operator topology]].  However, like $C^*$-algebras (but unlike general $JB$-algebras), every $JLB$-algebra may be so represented and this term seems not to be used.
 
-Finally, a __$JLBW$-algebra__ is a $JLB$-algebra with an [[identity element]] whose underlying Banach space is equipped with a (necessarily unique) [[predual]], and _$JLW$-algebra_ is further equipped with a faithful representation (or equivalently is a $JC$-algebra which includes the identity and is closed in the [[weak operator topology]]).  Again, every abstract algebra may be made concrete, although neither term seems to be established in the literature yet.
+Finally, a __$JLBW$-algebra__ is a unital $JLB$-algebra whose underlying Banach space is equipped with a (necessarily unique) [[predual]], and a __$JLW$-algebra__ is further equipped with a faithful representation (or equivalently is a $JC$-algebra which includes the identity and is closed in the [[weak operator topology]]).  Again, every abstract $JLBW$-algebra may be made concrete, so we really only need one term in practice, although neither seems to be established in the literature yet.
 
 
 ## Relation to Poisson algebras {#poisson}
 
 If $q = 0$, then the Jordan product becomes associative; in fact, a Jordan--Lie algebra with $q = 0$ is precisely a commutative [[Poisson algebra]].  On the other hand, if $q \ne 0$, then dividing the Lie bracket by $q$ gives a Jordan--Lie algebra with $q = 1$, so the only thing that really matters about $q$ is whether or not it is zero.  In this way, a Jordan--Lie algebra may be seen as a [[quantum deformation]] of a Poisson algebra.  (In the [[physics|physical]] interpretation, $q$ here is the [[Dirac constant]] $\hbar$.)
 
-Similarly, a Jordan--Banach algebra with $q = 0$ is a commutative Banach algebra equipped with a Poisson bracket (typically unbounded), and similarly for the more specialized versions; then the $q \gt 0$ case is a quantum deformation of such Poisson--Banach algebras.
+Similarly, a Jordan--Banach algebra with $q = 0$ is a commutative Banach algebra equipped with a Poisson bracket (typically unbounded), and similarly for the more specialized versions; then the $q \gt 0$ case is a quantum deformation of such Poisson--Banach algebras.  We can see from this why the Lie bracket cannot be expected to be defined on an entire $JLB$-algebra when $q = 0$, since Poisson brackets in typical exmamples of Poisson algebras are unbounded in the obvious norms.
 
 
 ## Relation to $C^*$-algebras {#cstar}
 
-For a $JLB$-algebra with $q = 1$, the Jordan product and Lie bracket are respectively the real-symmetrized and imaginary-antisymmetrized parts of an associative operation on the [[complexification]] of $A$, defining a complex $C^*$-[[C-star-algebra|algebra]]; and every $C^*$-algebra likewise defines a $JLB$-algebra with $q = 1$ consisting of its [[Hermitian operator|Hermitian]] elements.
+For a $JLB$-algebra with $q \gt 0$, the Jordan product and Lie bracket are respectively the real-symmetrized and imaginary-antisymmetrized parts of an associative operation on the [[complexification]] of $A$, defining a complex $C^*$-[[C-star-algebra|algebra]]; and every $C^*$-algebra likewise defines a $JLB$-algebra for any $q \gt 0$ consisting of its [[Hermitian operator|Hermitian]] elements.  Up to a point, we can make this work with $q = 0$ as well.
 
-Specifically, starting with a $JLB$-algebra $A$, we write $A \oplus A$ formally as $A + \mathrm{i} A$, on which we define the following operations:
+Specifically, starting with a $JLB$-algebra $A$ with deformation constant $q$, we write $A \oplus A$ formally as $A + \mathrm{i} A$, on which we define the following operations:
 
-* norm: ${\|a + \mathrm{i} b\|} \coloneqq \sqrt{{\|a\|^2} + {\|b\|^2}}$,
+* norm: ${\|a + \mathrm{i} b\|} \coloneqq \sqrt{{\|a\|^2} + {\|b\|^2}}$ (so we have $A \oplus_2 A$ as a Banach space),
 * addition: $(a + \mathrm{i} b) + (c + \mathrm{i} d) \coloneqq (a + c) + \mathrm{i} (b + d)$,
-* opposite: $-(a + \mathrm{i} b) \coloneqq (-a) + \mathrm{i} (-b)$,
+* opposite: $-(a + \mathrm{i} b) \coloneqq (-a) + \mathrm{i} (-b)$ (which we write as $-a - \mathrm{i} b$ as usual),
 * zero: $0 \coloneqq 0 + \mathrm{i} 0$,
 * scalar multiplication: $(x + \mathrm{i} y) (a + \mathrm{i} b) = (x a - y b) + \mathrm{i} (x b + y a)$ (for $x + \mathrm{i} y$ a [[complex number]]),
-* involution: $(a + \mathrm{i} b)^* \coloneqq a + \mathrm{i} (-b)$,
-* multiplication: $(a + \mathrm{i} b) (c + \mathrm{i} d) \coloneqq (a \circ c + [a, d] + [b, c] - b \circ d) + \mathrm{i} (-[a, c] + a \circ d + b \circ c + [b, d])$.
+* involution: $(a + \mathrm{i} b)^* \coloneqq a + \mathrm{i} (-b) = a - \mathrm{i} b$,
+* multiplication: $(a + \mathrm{i} b) (c + \mathrm{i} d) \coloneqq (a \circ c + q [a, d] + q [b, c] - b \circ d) + \mathrm{i} (-q [a, c] + a \circ d + b \circ c + q [b, d])$.
+
+The multiplication rule is based on $a b = (a \circ b) + \mathrm{i} (q [a, b])$ for $a, b \in A + \mathrm{i} \{0\}$.
 
 If the Jordan product of the $JLB$-algebra has an identity $1$, then so does the $C^*$-algebra:
 
 * $1 \coloneqq 1 + \mathrm{i} 0$.
 
-Conversely, starting with a $C^*$-algebra $A$, we form the subspace $sa(A) = \{x\colon A \;|\; x^* = x\}$, on which we define the following operations (under each of which $sa(A)$ is closed):
+Conversely, starting with a $C^*$-algebra $A$ and a *nonzero* constant $q \ne 0$, we form the subspace $sa(A) = \{x\colon A \;|\; x^* = x\}$, on which we define the following operations (under each of which $sa(A)$ is closed):
 
 * norm, addition, opposite, zero, scalar multiplication (by [[real numbers]] only): by [[restriction]],
 * Jordan product: $a \circ b \coloneqq \frac{1}{2} a b + \frac{1}{2} b a$,
-* Lie bracket: $[a, b] \coloneqq \frac{1}{2} \mathrm{i} a b - \frac{1}{2} \mathrm{i} b a$.
+* Lie bracket: $[a, b] \coloneqq \frac{1}{2q} \mathrm{i} a b - \frac{1}{2q} \mathrm{i} b a$.
+
+We can write the resulting $JLB$-algebra as $sq_q(A)$ with $q = 1$ as the default value of $q$.
 
 If the $C^*$-algebra has an identity, then this is also an identity for the Jordan product (so $1$ is also defined by restriction).
 
-This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras with $q = 1$, which in fact (I hope!) form an [[equivalence of categories|adjoint equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras (which I would expect to be a short linear map that preserves both products) and thus a [[category]] $JLB Alg$ equivalent to $C^* Alg$.
-
-Then real $JLBW$-algebras are equivalent to complex $W^*$-[[W-star-algebra|algebras]].
-
-If you start with a $JLB$-algebra with $q \ne 1$ (including $q = 0$, that is a Poisson $B$-algebra), then you can still get a complex $C^*$-algebra by modifying the definition of multiplication:
-$$ (a + \mathrm{i} b) (c + \mathrm{i} d) \coloneqq (a \circ c + q [a, d] + q [b, c] - b \circ d) + \mathrm{i} (-q [a, c] + a \circ d + b \circ c + q [b, d]) .$$
-Then if $q \ne 0$, you can recover the original $JLB$-algebra with a modified definition of the Lie bracket:
-$$ [a, b] \coloneqq \frac{1}{2q} \mathrm{i} a b - \frac{1}{2q} \mathrm{i} b a .$$
+This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras with fixed $q \ne 0$, which in fact (I hope!) form an [[equivalence of categories|adjoint equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras (which I would expect to be a short linear map that preserves both products) and thus a [[category]] $JLB Alg$ equivalent to $C^* Alg$.
 
 In particular, for a fixed $q \ne 0$, the category of $JLB$-algebras with one value of $q$ is equivalent to the category of $JLB$-algebras with another value of $q$ (since both are equivalent to complex $C^*$-algebras), but we have only a functor from $JLB$-algebras with $q = 0$ to any other category.  (And this is not a very interesting functor, since it simply throws away the original Lie bracket and replaces it with zero.)
+
+Also, real $JLBW$-algebras (with fixed $q \ne 0$) are equivalent to complex $W^*$-[[W-star-algebra|algebras]].
 
 
 ## Examples {#examples}
