@@ -1136,7 +1136,7 @@ Application to QCD [[QFT with defects|with defects]]:
 
 Application to [[thermal field theory|thermal]] [[QCD]]:
 
-* Vikas Yadav, Aalok Misra, _Towards Thermal QCD from M theory at Intermediate 't Hooft Coupling (and IR $SU(3)$/$G_2$/$SU(4)$,$Spin(7)$-Structure Torsion Classes of Six-/Seven-/Eight-Folds)_ ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
+* Vikas Yadav, Aalok Misra, _Towards Thermal QCD from M theory at Intermediate 't Hooft Coupling and G-Structure Classification of Non-supersymmetric Underlying Geometries_ ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
 
 
 
