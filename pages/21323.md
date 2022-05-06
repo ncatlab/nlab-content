@@ -72,6 +72,8 @@ This is in contrast to
 
 ## Related concepts
 
+* [[Dalitz decay]]
+
 * [[flavour anomaly]]
 
 * leptonic conversion decay: [Landsberg 85, (3.3)](#Landsberg85)
