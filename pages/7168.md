@@ -47,7 +47,7 @@ A more general __quadratic map__ (or _homogeneous_ quadratic map to be specific)
 
 From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-u,-)$.  See there for more.)
 
-Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called _positive definite_ or _negative definite_ if $q(v) \gt 0$ or $q(v) \lt 0$, respectively, for all $v \neq 0$.
+Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called _positive definite_ or _negative definite_ if $q(v) \gt 0$ or $q(v) \lt 0$, respectively, for all $v \neq 0$.  See [[definiteness]] for more options.
 
 
 ## Related concepts
@@ -67,6 +67,7 @@ Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called 
 * [[quadratic refinement]]
 
 * [[polynomial observable]]
+
 
 ## References
  {#References}
