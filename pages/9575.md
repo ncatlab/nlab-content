@@ -23,9 +23,9 @@ A model structure on relative categories was constructed by Barwick and Kan [201
 
 ## Definition
 
-A **relative category** $C$ is a pair $(und C, weq C)$, where $und C$ is a [[category]] and $W$ is a [[wide subcategory]]. A morphism in $weq C$ is said to be a **weak equivalence** in $C$. A **relative functor** $f : C \to D$ is a [[functor]] $f : und C \to und D$ that preserves weak equivalences in the obvious sense.
+A **relative category** $C$ is a [[pair]] $(und C, weq C)$, where $und C$ is a [[category]] and $W$ is a [[wide subcategory]]. A [[morphism]] in $weq C$ is said to be a **[[weak equivalence]]** in $C$. A **relative functor** $f : C \to D$ is a [[functor]] $f \colon und C \to und D$ that preserves weak equivalences in the obvious sense.
 
-The **homotopy category** of a relative category $C$ is the ordinary category $Ho C$ obtained from $und C$ by [[localization|freely inverting]] the weak equivalences in $C$. 
+The **[[homotopy category]]** of a relative category $C$ is the ordinary category $Ho C$ obtained from $und C$ by [[localization|freely inverting]] the weak equivalences in $C$. 
 
 ## Refinements
 
