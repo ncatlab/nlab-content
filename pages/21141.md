@@ -49,4 +49,6 @@
 
 * Manfred Riedel, _Sprache und Vernunft. Grundmodell der transzendentalen Grammatik in Kants Lehre vom Kategoriengebrauch_ , pp.44-60 in Riedel, _Urteilskraft und Vernunft_ , Suhrkamp Frankfurt am Main 1989.
 
+* Jürgen Villiers, _Kant und das Problem der Sprache - Die historischen und systematischen Gründe für die Sprachlosigkeit der Transzendentalphilosophie_ , Verlag am Hockgraben Konstanz 1997.
+
 * Anonymous (i.e. [[Stephan Wannowski]]), _Philosophische Principien einer allgemeinen Sprachlehre nach Kant und Sacy, in einer ausführlichen Recension der Grundsätze des Letztern_ , Nicolovius Königsberg 1805. ([online version Bayrische Staatsbibliothek](https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10583079_00005.html))
