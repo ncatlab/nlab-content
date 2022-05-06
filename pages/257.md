@@ -286,7 +286,7 @@ Given a model category structure, any two of the three classes of special morphi
 
 * given $W$ and $F$, we have $C = LLP(W \cap F)$;
 
-* given $C$ and $F$, we find $W$ as the class of morphisms which factor into a morphism in $C \cap W$ followed by a morphism in $F \cap W$.
+* given $C$ and $F$, we find $W$ as the class of morphisms which factor into a morphism in $LLP(F)$ followed by a morphism in $RLP(C)$.
 
 (Here $RLP(S)$ denotes the class of morphisms with the [[right lifting property]] against $S$ and $LLP(S)$ denotes the class of morphisms with the [[left lifting property]] against $S$.)
 
