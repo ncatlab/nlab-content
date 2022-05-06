@@ -87,7 +87,9 @@ an [[exceptional collection]] in the [[derived category]] of [[coherent sheaves]
 
 Review and discussion of further details includes
 
-* [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
+* {#He04} [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
+
+* {#He18} [[Yang-Hui He]], _Quiver Gauge Theories: Finitude and Trichotomoty_, Mathematics 2018, 6(12), 291 ([doi:10.3390/math6120291](https://doi.org/10.3390/math6120291))
 
 * {#BergmnProudfoot04} [[Aaron Bergman]], [[Nicholas Proudfoot]], _Moduli Spaces for D-branes at the Tip of a Cone_, JHEP0603:073, 2006 ([arXiv:hep-th/0510158](http://arxiv.org/abs/hep-th/0510158))
 
