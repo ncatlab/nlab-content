@@ -98,7 +98,7 @@ where on p. 143 it says about the _Shorter Logic_:
 
 > Particularity and individuality are related as "abstract" and "concrete", respectively. The particular is the "abstract individual". The individual is the "concrete particular". The universal is their union, and may be either "abstract" or "concrete". The so-called "concrete universal" is Hegel's gold standard for conceptual thought $[$...$]$.
 
-For a discussion of proponents of the concrete universal in British philosophy, see
+For a discussion of proponents of the concrete universal in British philosophy, and of their divergences from, and continuities with, Hegelian thought, see
 
 * Robert Stern, _Hegel, British idealism, and the curious case of the concrete universal_, British Journal for the History of Philosophy 15(1) 2007: 115 &#8211; 153 ([pdf](http://www.sheffield.ac.uk/polopoly_fs/1.101730!/file/concrete-universal-published.pdf))
 
