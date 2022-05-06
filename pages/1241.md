@@ -164,6 +164,10 @@ It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]
 
 (...)
 
+review in [Britto 17](#Britto17)
+
+(...)
+
 #### The $E_7$-GUT (?)
 
 (...)
@@ -293,6 +297,8 @@ Introduction to GUTs aimed more at mathematicians include
 * {#Witten86} [[Edward Witten]], section 1 and 2 of _Physics and geometry_, Proceedings of the international congress of mathematicians, 1986 ([pdf](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0267.0306.ocr.pdf)) 
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
+
+* {#Britto17} Vivian Anthony Britto, _A mathematical construction of $E_6$ grand unified theory_, Munich 2017 ([pdf](https://www.theorie.physik.uni-muenchen.de/TMP/theses/thesisbritto.pdf), [[BrittoGUT.pdf:file]])
 
 
 
