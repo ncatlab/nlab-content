@@ -69,7 +69,7 @@ Then the _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is
   }
 \]
 
-Here 
+Here:
 
 * $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]];
 
