@@ -121,6 +121,11 @@ Discussion of [[boundary conditions]] leading to [[brane intersection]] laws wit
 
 * {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
 
+As a [[matrix model]],:
+
+* {#MohammedMuruganNastase10} Asadig Mohammed, Jeff Murugan, [[Horatiu Nastase]], _Looking for a Matrix model of ABJM_, Phys. Rev. D82:086004, 2010 ([arXiv:1003.2599](https://arxiv.org/abs/1003.2599))
+
+
 
 Review includes
 
