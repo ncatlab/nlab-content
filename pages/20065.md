@@ -49,7 +49,7 @@ See [HKRS](#HKRS15) and its correction in [GKR](#GKR18) for details.  In particu
 * [[algebraic weak factorization system]]
 * [[accessible model structure]]
 
-[[!includes algebraic model structures - table]]
+[[!include algebraic model structures - table]]
 
 ## References
 
