@@ -214,4 +214,9 @@ See also:
 
 * Andres Luna, Silvia Nagy, Chris White, _The convolutional double copy: a case study with a point_ ([arXiv:2004.11254](https://arxiv.org/abs/2004.11254))
 
+Discussion for [[D=11 supergravity]]:
+
+* [[David Berman]], Kwangeon Kim, Kanghoon Lee, _The Classical Double Copy for M-theory from a Kerr-Schild Ansatz for Exceptional Field Theory_ ([arXiv:2010.08255](https://arxiv.org/abs/2010.08255))
+
+
 
