@@ -1,5 +1,6 @@
 
 ### Perturbative quantum Chern-Simons theory
+ {#ReferencesPerturbativeCSTheory}
 
 Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization of Chern-Simons theory]] (via [[Kontsevich integrals]]/[[knot graph cohomology]] on [[Jacobi diagrams]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]] and yielding [[universal Vassiliev invariant|universal]][[Vassiliev invariants]]):
 
