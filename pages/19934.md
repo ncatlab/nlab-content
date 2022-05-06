@@ -39,22 +39,107 @@ Every flat orbifold whose underlying [[metric space]] is [[connected topological
 ([Ratcliffe 06, 13.3.10](#Ratcliffe06))
 
 
-\begin{center}
-<img src="https://ncatlab.org/nlab/files/Z2OrbifoldSingularity.jpg" width="600">
-\end{center}
-
-> graphics grabbed from [Blumenhagen-Lüst-Theisen 13](#BlumenhagenLustTheisen13)
-
 
 
 ## Examples
 
 ### Non-compact orbifolds
 
-Basic examples of Riemannian orbifolds are [[conical singularities]] such as [[ADE-singularities]].
+Basic examples of non-compact Riemannian orbifolds are [[conical singularities]]. 
 
-### General compact orbifolds
+In the flat case these are [[homotopy quotients]] of the form $V\sslash G$ for $G$ a [[finite group]] and $V \in RO(G)$ a [[finite-dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] [[linear representation]] of $G$. 
 
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/Z2OrbifoldSingularity.jpg" width="600">
+\end{center}
+
+> graphics grabbed from [Blumenhagen-Lüst-Theisen 13](#BlumenhagenLustTheisen13)
+
+For $V = \mathbb{H}$ equipped with the canonical action of [[finite subgroups of SU(2)]] these are the [[ADE-singularities]].
+
+
+### Compact flat orbifolds from crystallographic groups
+ {#CompactFlatOrbifoldsFromCrystallographicGroups}
+
+
+
++-- {: .num_example #CompactFlatOrbifoldFromCrystallographicGroup}
+###### Example
+**([[compact topological space|compact]] [[flat orbifolds]] from [[crystallographic groups]])**
+
+Let $E$ be a [[Euclidean space]] and $S \subset Iso(E)$ a [[crystallographic group]] [[action|acting]] on it, with translational [[normal subgroup]] [[lattice (discrete subgroup)|lattice]] $N \subset S$ and corresponding [[point group]] $G = S/N$. 
+
+$$
+  \array{
+    & 
+    1 && 1
+    \\
+    & \downarrow && \downarrow
+    \\
+    {\text{normal subgroup}
+    \atop
+    \text{lattice of translations}}
+    & 
+    N &\subset& E
+    &
+    {\text{translation} \atop \text{group}}
+    \\
+    &
+    \big\downarrow && \big\downarrow 
+    \\
+    {\text{crystallographic} \atop \text{group}}
+    &
+    S &\subset& Iso(E)
+    &
+    {\text{Euclidean}
+    \atop
+    \text{isometry group}}
+    \\
+    &
+    \big\downarrow && \big\downarrow 
+    \\
+    {\text{point} \atop \text{group}}
+    &
+    G &\subset& O(E) 
+    &
+    {\text{orthogonal} \atop \text{group}}
+    \\
+    &
+    \downarrow && \downarrow
+    \\
+    &
+    1 && 1
+  }
+$$
+
+Then the [[action]] of $G$ on $E$ descends to the [[quotient space]] [[torus]] $E/N$ ([this Prop.](crystallographic+group#InducedPointGroupActionOnTorus))
+
+$$
+  \array{
+    E 
+      &\overset{g}{\longrightarrow}&
+    E
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    E/N 
+      &\underset{g}{\longrightarrow}& 
+    E/N
+  }
+$$
+
+The resulting [[homotopy quotient]] $(E/N)\sslash G$ is a compact flat orbifold.
+
+
+=--
+
+
+
+The following is the class of special cases of 
+Example \ref{CompactFlatOrbifoldFromCrystallographicGroup} for [[point group]] being the [[involution]]-[[action]] by [[reflection]] at a point:
 
 +-- {: .num_example #CoordinateReflectionOnNTorus}
 ###### Example
@@ -84,7 +169,8 @@ In applications to [[string theory]] orbifolds of the form $\mathbb{R}^{p,1} \ti
 ### Flat compact 2-dimensional orbifolds
  {#FlatCompact2DimensionalOrbifolds}
 
-The flat [[compact topological space|compact]]  2-dimensional orbifolds may be classified as [[homotopy quotients]] of the [[2-torus]] by [[wallpaper groups]] (for review see e.g. [Guerreiro 09](#Guerreiro09)):
+In 2 dimensions the [[crystallographic groups]] are the "[[wallpaper groups]]". Hence, as a special case of Example \ref{CompactFlatOrbifoldFromCrystallographicGroup},
+the flat [[compact topological space|compact]]  2-dimensional orbifolds may be classified as [[homotopy quotients]] of the [[2-torus]] by [[wallpaper groups]] (for review see e.g. [Guerreiro 09](#Guerreiro09)):
 
 
 <center>
@@ -97,7 +183,7 @@ The flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 ### Flat compact 4-dimensional orbifolds
  {#FlatCompact4dOrbifolds}
 
-The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _[[Kummer surface]]_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](#BettiolDerdzinskiPiccione18))
+The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _[[Kummer surface]]_ $T^4 \sslash \mathbb{Z}_2$ -- the special case of Example \ref{CoordinateReflectionOnNTorus} for $d = 4$. This is a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](#BettiolDerdzinskiPiccione18))
 
 
 \begin{center}
