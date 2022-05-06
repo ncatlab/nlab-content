@@ -45,6 +45,12 @@ Grassmann also had a profound influence on the thought of [[Gottlob Frege]]. See
 
 * Hermann Grassmann, _Die Lineale [[Ausdehnungslehre]] ein neuer Zweig der Mathematik, dargestellt und durch Anwendungen auf die übrigen Zweige der Mathematik, wie auchauf die Statik, Mechanik, die Lehre vom Magnetismus und die Krystallonomie erläutert_, Leipzig: Otto Wiegand, 1844. English translation in Grassmann 1915.
 
+This was revised in a second edition published 18 years later:
+
+* Hermann Grassmann, _Die Ausdehnungslehre: Vollständig und in strenger Form bearbeitet_, Berlin: Enslin, 1862. English translation, 2000, by Lloyd Kannenberg, Extension Theory, American Mathematical Society.
+
+Other writings include
+
 * Hermann Grassmann, _Geometrische Analyse geknüpft an die von Leibniz erfundenegeometrische Charakteristik. Gekrönte Preisschrift, Leipzig: Wiedmann, 1847. English translation in Grassmann 1915.
 
 * Hermann Grassmann, _Lehrbuch der Arithmetik für höhere Lehranstalten_, Berlin: Enslin, 1861.
