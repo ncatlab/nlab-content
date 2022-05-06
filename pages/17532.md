@@ -51,7 +51,7 @@ For a topological group $G$, we write $G^\delta$ for the discrete version of $G$
 
 +-- {: .num_prop}
 ###### Proposition
-The inclusion $i_G: G Set \to G^\delta Set$ has a left adjoint $r_G: G^\delta \to G Set$.
+The inclusion $i_G: G Set \to G^\delta Set$ has a right adjoint $r_G: G^\delta \to G Set$.
 =--
 
 +-- {: .proof}
