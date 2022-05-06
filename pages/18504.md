@@ -55,7 +55,7 @@ Note in particular that we do *not* require the morphisms of the category to be 
 
 ### As monoids in a presheaf category
 
-Let $\mathbf{Cospan}_\Delta$ be the free hypergraph category on [[generators and relations|generators]] $\Delta$. The objects are [[lists]] of [[elements]] of $\Delta$, or equivalently [[pairs]] $(m,l)$ of a [[natural number]] $m$ and a labelling $l\colon m\to \Delta$. The morphisms are compatible [[cospans]] of [[functions]] (up to [[isomorphism]]). 
+Let $\mathbf{Cospan}_\Delta$ be the free hypergraph category on [[generators and relations|generators]] $\Delta$. The objects are [[lists]] of [[elements]] of $\Delta$, or equivalently [[pairs]] $(m,l)$ of a [[natural number]] $m$ and a labelling $l\colon \big[ m \big] \to \Delta$. The morphisms are compatible [[cospans]] of [[functions]] (up to [[isomorphism]]). 
 
 +-- {: .un_prop}
 ###### Theorem 
