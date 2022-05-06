@@ -261,7 +261,7 @@ General discussion in the context of [[BRST-BV formalism]] (breaking of the [[qu
 
 * W. Troost, P. van Nieuwenhuizen, A. van Proeyen, _Anomalies and the Batalin-Vilkovisky lagrangian formalism_ ([web](http://adsabs.harvard.edu/abs/1990NuPhB.333..727T))
 
-* P.S. Howe, U. Lindstr&#246;m and P. White, _Anomalies And Renormalization In The BRST-BV Framework_ , Phys. Lett. B246 (1990) 430.
+* [[Paul Howe]], [[Ulf Lindström]], P. White, _Anomalies And Renormalization In The BRST-BV Framework_ , Phys. Lett. B246 (1990) 430.
 
 * J. Paris, W. Troost, _Higher loop anomalies and their consistency conditions in nonlocal regularization_ , Nucl. Phys. B482 (1996) 373 ([arXiv:hep-th/9607215](http://arxiv.org/abs/hep-th/9607215))
 
