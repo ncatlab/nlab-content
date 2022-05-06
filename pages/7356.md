@@ -312,7 +312,7 @@ Realization to the [[6d (2,0)-supersymmetric QFT]] is discussed in
 
 A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory, in particular [[GUTs]]:
 
-* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
+* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194), [spire:780946](https://inspirehep.net/literature/780946))
 
 * [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_, JHEP 0901:058,2009 ([arXiv:0802.3391](http://arxiv.org/abs/0802.3391))
 
