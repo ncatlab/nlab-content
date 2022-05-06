@@ -21,9 +21,6 @@ relative bordism theories:
 
 * [[MOFr]], [[MUFr]], [[MSUFr]]
 
-algebraic:
-
-* [[algebraic cobordism]]
 
 [[equivariant bordism homology theory|equivariant bordism theory]]:
 
@@ -38,6 +35,10 @@ algebraic:
 * [[global equivariant mO]], 
 
 * [[global equivariant mU]]
+
+algebraic:
+
+* [[algebraic cobordism]]
  
 
 [[!redirects cobordism cohomology theories -- contents]]
