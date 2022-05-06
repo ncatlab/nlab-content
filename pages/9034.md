@@ -109,7 +109,7 @@ See also at _[Spin Grassmannians](Spn.Sp1#SpinGrassmannians)_.
 
 * {#GluckMackenzieMorgan95} Herman Gluck, Dana Mackenzie, Frank Morgan,  _Volume-minimizing cycles in Grassmann manifolds_, Duke Math. J. Volume 79, Number 2 (1995), 335-404 ([euclid:1077285156](https://projecteuclid.org/euclid.dmj/1077285156))
 
-* {#OrneaPiccini00} Liviu Ornea, Paolo Piccinni, _Cayley 4-frames and a quaternion-Kähler reduction related to $Spin(7)$_, Proceedings of the International Congress of Differential Geometry in the memory of A. Gray, held in Bilbao, Sept. 2000 ([arXiv:math/0106116](https://arxiv.org/abs/math/0106116))
+* {#OrneaPiccini00} Liviu Ornea, [[Paolo Piccinni]], _Cayley 4-frames and a quaternion-Kähler reduction related to $Spin(7)$_, Proceedings of the International Congress of Differential Geometry in the memory of A. Gray, held in Bilbao, Sept. 2000 ([arXiv:math/0106116](https://arxiv.org/abs/math/0106116))
 
 * [[Mikhail Katz]], [[Steven Shnider]], _Cayley 4-form, comass, and triality isomorphisms_ ([arXiv:0801.0283](http://arxiv.org/abs/0801.0283))
 
