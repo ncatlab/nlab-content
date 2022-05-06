@@ -45,6 +45,11 @@ On the [[moduli spaces of monopoles]]:
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], J. T. Stuart and M. Tabor, _Low-Energy Scattering of Non-Abelian Magnetic Monopoles_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 315, No. 1533, New Developments in the Theory and Application of Solitons (Aug. 13, 1985), pp. 459-469 ([jstor:37546](https://www.jstor.org/stable/37546))
 
+On [[knot theory]] and [[Chern-Simons theory]]:
+
+* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
+
+
 On [[skyrmions]]:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
