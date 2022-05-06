@@ -73,7 +73,7 @@ A useful review of the Thomason model structure and a generalization of the mode
 The following article gives a large class of categories which are [[fibrant]] in the Thomason model structure.
 
 * [[Lennart Meier]], [[Viktoriya Ozornova]], _Fibrancy of partial model categories_,
-[pdf](http://people.virginia.edu/~flm5z/PartialModCats.pdf), [slides](http://people.virginia.edu/~flm5z/Kopenhagen2014.pdf).
+[pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/hha/2015/0017/0002/HHA-2015-0017-0002-a005.pdf), [slides](http://www.staff.science.uu.nl/~meier007/Kopenhagen2014.pdf).
 
 Some posets that are cofibrant in the Thomason model structure are studied in
 
