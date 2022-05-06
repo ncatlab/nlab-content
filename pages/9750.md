@@ -310,11 +310,15 @@ The above "brane scan" table showing the double dimensional reduciton pattern of
 
 
 
-### Reduction of 5-brane to 4-brane
+### Reduction of M5-brane to D4-brane
+
+The [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
 
 * [[Paul Townsend]], _D-branes from M-branes_, Phys. Lett. B373 (1996) 68-75 ([arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062))
 
-* Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
+* {#APPS97a} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
 
