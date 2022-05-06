@@ -32,7 +32,7 @@ Given a sequence of partitions, $\mathcal{P}_n=\{0=t_0\lt...\lt t_{n-1}\lt t\}$,
 
 $$\lim_{n\to\infty}\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+D^{\ell-1}f(X_{t_k})X^{\ell}_{t_k t_{k+1}}\colon = \int_0^t f(X_S)\otimes d\mathbf{X}_s$$
 
-The collection $\mathbf{X}=(X^1,...,X^\ell)$ is called a rough path of order $\ell$. We say that $(f(X),Df(X),...,\frac{1}{(\ell-1)!}D^{\ell-1}f(X))$ is controlled by $\mathbf{X}$.
+The collection $\mathbf{X}=(X^1,...,X^\ell)$ is called a rough path of order $\ell$. We say that $(f(X),Df(X),...,D^{\ell-1}f(X))$ is controlled by $\mathbf{X}$.
 
 \section{Example}
 
