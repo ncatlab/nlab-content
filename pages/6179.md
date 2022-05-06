@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-Montonen-Olive duality asserts that the quantum field theories induced from one such parameter value and another one obtained from it by an action of $SL(2,\mathbb{Z})$ on the upper half plane are equivalent.
+Montonen-Olive duality asserts that the quantum field theories induced from one such parameter value and another one obtained from it by an [[action]] of [[SL(2,Z)]] on the [[upper half plane]] are equivalent.
 
 This is actually not quite true for ordinary Yang-Mills theory, but seems to be true for [[N=2 D=4 super Yang-Mills theory]].
 
