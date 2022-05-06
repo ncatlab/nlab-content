@@ -57,6 +57,8 @@ This implies that a dg-algebra is, more concretely, a graded algebra $A$ equippe
 
   $d (a \cdot b) = (d a) \cdot b + (-1)^k a \cdot (d b)$.   
 
+The dg-algebras form a category, [[dgAlg]].
+
 
 ### Detailed component definition
 
