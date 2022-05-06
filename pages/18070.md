@@ -243,6 +243,8 @@ Models for the [[ordinary cohomology]] of configuration in terms of [[graph comp
 
 * {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
 
+[[!redirects configuration space of points]]
+[[!redirects configuration spaces of points]]
 
 [[!redirects scanning map]]
 [[!redirects scanning maps]]
