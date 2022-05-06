@@ -167,21 +167,22 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 ## References
 
 
-* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
+* Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
 
-* Luciano Boi, _Geometrical and topological foundations of theoretical physics: From gauge theories to string program_, 2003 ([pdf](http://www.emis.de/journals/HOA/IJMMS/2004/33-361777.pdf))
-
-* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Springer "Lecture Notes in Physics", 188 (1983) ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910))
+* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Springer "Lecture Notes in Physics", 188 (1983) ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://link.springer.com/book/10.1007/3-540-12724-0))
 
 * P. Balachandran, G. Marmo, B.-S. Skagerstam, A. Stern, _Classical Topology and Quantum States_ (World Scientific, Singapore, 1991).
 
-* Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
+* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000 ([doi:10.1142/2524](https://doi.org/10.1142/2524))
 
 
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
-Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+* Luciano Boi, _Geometrical and topological foundations of theoretical physics: From gauge theories to string program_, 2003 ([pdf](http://www.emis.de/journals/HOA/IJMMS/2004/33-361777.pdf))
+
+
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_,  Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 * {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
 
 
 category: motivation
