@@ -35,6 +35,8 @@
 
   * [[B-meson]]
 
+  * [[kaon]]
+
 * [[baryon]]
 
   * [[nucleon]]
