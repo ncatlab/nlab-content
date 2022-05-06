@@ -19,7 +19,11 @@
 
 ## Idea
 
+
+
 Where a [[vector]] specifies a _direction_ and a _magnitude_, a _bivector_ specifies a _plane_ and a magnitude.
+
+A _bivector_ is a [[multivector]]_ of degree 2.
 
 ## Definition
 
@@ -68,6 +72,6 @@ Discussion of [[Clifford algebra]] and [[exterior algebra]] that amplifies the r
 
 See also
 
-* wikipedia, [bivector](http://en.wikipedia.org/wiki/Bivector)
+* Wikipedia, _[Bivector](http://en.wikipedia.org/wiki/Bivector)_
 
 [[!redirects bivectors]]
