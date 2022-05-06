@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the [[standard model of particle physics]] the _charm quark_ is the up-type [[quark]] in the second [[generation of fermions]]. 
+In the [[standard model of particle physics]] the _charm quark_ is the up-type [[quark]] in the second [[generation of fermions]], a [[heavy quark]].
 
 
 ## Related concepts
@@ -25,6 +25,8 @@ In the [[standard model of particle physics]] the _charm quark_ is the up-type [
 [[!include flavors of fundamental particles -- table]]
 
 ## References
+
+### General
 
 See also
 
@@ -38,5 +40,10 @@ On indirect searches for New Physics (i.e. [[phenomenology]] beyond the [[standa
 and via [[flavour anomalies]]:
 
 * [[Alexey Petrov]], _Theory of rare charm decays into leptons_ ([arXiv:1704.03862](https://arxiv.org/abs/1704.03862))
+
+
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
+
+
 
 [[!redirects charm quarks]]
