@@ -486,3 +486,10 @@ Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/ab
 [[!redirects Cayley–Dickson algebras]]
 [[!redirects Cayley--Dickson algebra]]
 [[!redirects Cayley--Dickson algebras]]
+
+[[!redirects Dickson double]]
+[[!redirects Dickson doubles]]
+[[!redirects Dickson double construction]]
+[[!redirects Dickson double constructions]]
+
+
