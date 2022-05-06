@@ -62,7 +62,7 @@ There are obvious natural transformations $1 \Rightarrow R$ and $L \Rightarrow 1
 
 ##Definition##
 
-A AWFS on a category $K$ consists of a pair $(L,R)$ where $L$ is a comonad and $R$ is a monad, whose underlying pointed endofunctors arise from a functorial factorization $E$. Some authors (Garner) also require that the canonical natural transformation $LR \Rightarrow RL$, whose domain and codomain components are given by the comultiplication and multiplication maps, is a distributive law of the comonad over the monad. This amounts to the requirement that a pentagon involving the comultiplication and multiplication maps commutes.
+A AWFS on a category $K$ consists of a pair $(L,R)$ where $L$ is a comonad and $R$ is a monad, whose underlying pointed endofunctors arise from a functorial factorization $E$. Some authors (Garner) also require that the canonical natural transformation $L R \Rightarrow R L$, whose domain and codomain components are given by the comultiplication and multiplication maps, is a distributive law of the comonad over the monad. This amounts to the requirement that a pentagon involving the comultiplication and multiplication maps commutes.
 
 We refer to the $L$-coalgebras as the **left class** of the AWFS and the $R$-algebras as the **right class**. When we forget the algebra structures, we obtain classes of maps in $K$. The retract closures of these classes form a WFS called the **underlying WFS** of this AWFS.
 
