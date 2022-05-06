@@ -167,6 +167,8 @@ $$\begin{gathered}
 
 ### Miscellaneous
 
+$$\frac{x:T \in \Gamma}{\Gamma \vdash x \Vdash T}$$
+
 The untyped beta conversion rules have the same role as Nuprl's direct computation rules:
 
 $$\begin{gathered}
