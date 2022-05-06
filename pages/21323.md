@@ -17,7 +17,7 @@
 
 In the context of [[quantum hadrodynamics]], the [[decay]]-mode of a [[meson]] via the [[weak interaction]] (i.e. by exchange of a [[W-boson]] or [[Z-boson]]) into a [[pair]] of [[leptons]] is called (shown are [[Feynman diagrams]] of example decays of [[kaons]]):
 
-* a **purely leptonic decay** or **fully leptonic decay** if no further [[particle]] is among the decay products:
+* a **purely leptonic decay** or **fully leptonic decay** (see also: _[[vector meson dominance]]_) if, besides the [[dilepton]], no further [[particle]] is among the decay products:
 
 
 \begin{imagefromfile}
@@ -106,6 +106,14 @@ Discussion of [[leptonic decays]] of [[pions]]:
 
 * Dinko Pocanic, Emil Frlez, Andries van der Schaaf, _Experimental study of rare charged pion decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 41, Number 11 ([arXiv:1407.2865](https://arxiv.org/abs/1407.2865))
 
+#### Purely leptonic decays
+
+See at _[[vector meson dominance]]_.
+
+* {#PillerWeise90} G. Piller, [[Wolfram Weise]], _Vector meson dominance: Selected topics_ 1990 ([spire310958](https://inspirehep.net/literature/310958), [[PillerWeiseVMD.pdf:file]])
+
+
+
 
 #### Raditive leptonic decays
 
@@ -170,6 +178,11 @@ Discussion of [[leptonic decays]] in view of observed [[flavour anomalies]]:
 
 [[!redirects fully leptonic decay]]
 [[!redirects fully leptonic decays]]
+
+[[!redirects purely leptonic decay]]
+[[!redirects purely leptonic decays]]
+
+
  
 [[!redirects semileptonic decay]]
 [[!redirects semileptonic decays]]
