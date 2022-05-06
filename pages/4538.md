@@ -488,7 +488,7 @@ In [Ada69](#Ada69), Adams works in a very general setting. On this page, we shal
 There are two statements that one would like to hold. These are not themselves theorems, rather the theorem would say "Under certain conditions, these statements hold". The statements are the following.
 
 +-- {: .num_uct #ucta .thremark }
-###### UCT1
+####### UCT1
 
 There is a [[spectral sequence]]
 $$
@@ -501,7 +501,7 @@ $$
 =--
 
 +-- {: .num_uct #uctb .thremark }
-###### UCT2
+####### UCT2
 
 There is a [[spectral sequence]]
 $$
@@ -518,7 +518,7 @@ For finite [[CW-complexes]] then we can derive two further statements from the a
 For a finite CW-complex $X$, we can apply [UCT1](#ucta) and [UCT2](#uctb) to $D X$ in place of $X$ and then use the various isomorphisms relating the cohomologies of $X$ and $D X$ to reformulate them in terms of $X$. We thus get the following statements.
 
 +-- {: .num_uct #uctc .thremark }
-###### UCT3
+####### UCT3
 
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
@@ -531,7 +531,7 @@ $$
 =--
 
 +-- {: .num_uct #uctd .thremark }
-###### UCT4
+####### UCT4
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Ext^{p,*}_{E^{*}} (E^{*}(X), F_{*}) \xRightarrow[p]{}    F_{*}(X)
@@ -547,7 +547,7 @@ $$
 A particularly important special case of these statements is when we have a [[topological space]], say $Y$, and a [[cohomology theory]], $E^{*}(-)$. Then we define a new homology theory $F_{*}(-)$ by $F_{*}(X) = E_{*}(X \wedge Y)$ and a new cohomology theory $G^{*}(-)$ by $G^{*}(X) = E^{*}(X \wedge Y)$. These are representable, the homology theory by $Y \wedge E$ and the cohomology theory by the function spectrum $F(Y,E)$. Putting these into the statements of the universal coefficient theorem, we obtain similar statements for the [[Künneth theorem]].
 
 +-- {: .num_kt #kta .thremark }
-###### KT1
+####### KT1
 There is a spectral sequence
 $$
 \Tor_{p,*}^{E_{*}} (E_{*}(X), E_{*}(Y)) \xRightarrow[p]{}    E_{*}(X \wedge Y)
@@ -559,7 +559,7 @@ $$
 =--
 
 +-- {: .num_kt #ktb .thremark }
-###### KT2
+####### KT2
 There is a spectral sequence
 $$
 \Ext_{E_{*}}^{p,*}(E_{*}(X), E^{*}(Y)) \xRightarrow[p]{}    E^{*}(X \wedge Y)
@@ -571,7 +571,7 @@ $$
 =--
 
 +-- {: .num_kt #ktc .thremark }
-###### KT3
+####### KT3
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Tor_{p,*}^{E^{*}} (E^{*}(X), E^{*}(Y)) \xRightarrow[p]{}    E^{*}(X \wedge Y)
@@ -583,7 +583,7 @@ $$
 =--
 
 +-- {: .num_kt #ktd .thremark }
-###### KT4
+####### KT4
 For $X$ a finite CW-complex, there is a spectral sequence
 $$
 \Ext^{p,*}_{E^{*}} (E^{*}(X), E_{*}(Y)) \xRightarrow[p]{}    E_{*}(X \wedge Y)
