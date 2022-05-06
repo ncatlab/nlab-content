@@ -9,13 +9,6 @@ Here is a very incomplete list of software available for mathematics, especially
  * [swMATH](http://www.swmath.org/)
  * [Oberwolfach References on Mathematical Software](http://orms.mfo.de)
 
-## Category theory
-
-* [Quantomatic](http://quantomatic.github.io/)
-* [[TwoVect]]
-* The [Fusion Atlas](http://tqft.net/wiki/Atlas_of_subfactors)
-* [[Catlab.jl]]
-
 ## Proof assistants
 
 * [[Coq]]
@@ -34,6 +27,7 @@ Here is a very incomplete list of software available for mathematics, especially
 ## Quantum computation
 
 * [[Quipper]]
+* [PyZX](https://github.com/Quantomatic/pyzx)
 
 ## Computer algebra systems
 
@@ -64,6 +58,23 @@ Here is a very incomplete list of software available for mathematics, especially
 ###Computational Higher-dimensional Discrete Algebra
 
 * [CHDA Homepage](http://www.maths.bangor.ac.uk/chda/intro.html)
+
+
+### Category theory
+
+* [[TwoVect]]
+* The [Fusion Atlas](http://tqft.net/wiki/Atlas_of_subfactors)
+* [[Catlab.jl]]
+
+### Globular n-categories
+
+* [[Globular]], up to 4-categories
+* [[homotopy.io]]
+
+### Monoidal categories
+
+* [Quantomatic](http://quantomatic.github.io/)
+* [[DisCoPy]]
 
 ### Programming Environments
 
