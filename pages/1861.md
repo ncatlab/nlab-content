@@ -666,9 +666,6 @@ Further discussion includes
 
 * [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
 
-In relation to [[quaternionic line bundles]] over [[5-manifolds]]:
-
-* Panagiotis Konstantis, _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications Volume 23 (2021) Number 1 ([arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9))
 
 
 
@@ -681,6 +678,15 @@ Cohomotopy sets of [[projective spaces]]:
 Cohomotopy sets of [[4-manifolds]]:
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161))
+
+Cohomotopy sets of [[Thom spaces]]:
+
+* [[Thomas Rot]], _Homotopy classes of proper maps out of vector bundles_,  Arch. Math. 114, 107–117 (2020 ([arXiv:1808.08073](https://arxiv.org/abs/1808.08073), [doi:10.1007/s00013-019-01372-z](https://doi.org/10.1007/s00013-019-01372-z))
+
+In relation to [[quaternionic line bundles]] over [[5-manifolds]]:
+
+* [[Panagiotis Konstantis]], _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications Volume 23 (2021) Number 1 ([arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9))
+
 
 Cohomotopy sets of [[spin structure|spin]]-manifolds in co-degree 1:
 
