@@ -427,6 +427,8 @@ $$
 
 * [[definite globalization of WZW terms]]
 
+* [[higher structures]]
+
 ## References
 
 See also the references at _[[n-plectic geometry]]_ and at _[[higher geometric quantization]]_
