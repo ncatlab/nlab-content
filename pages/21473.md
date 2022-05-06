@@ -28,7 +28,7 @@ A _generalized Scherk-Schwarz reduction_ is performed by introducing twisting $G
 
 $$ T^{A_1 \dots A_n}(x,y,\tilde{y}) = E^{A_1}_{\;\;M_1}(y,\tilde{y}) \cdots E^{A_n}_{\;\;M_n}(y,\tilde{y}) T^{M_1\dots M_n}(x) $$
 
-on any (generalized) tensor field $T^{A_1 \dots A_n}$ on the extended space.
+on any generalized [[tensor field]] $T^{A_1 \dots A_n}$ on the extended space. The $G$-valued matrices $E^{A}_{\;\;M}(y,\tilde{y})$ can be seen as generalized [[frame fields]] for the internal manifold.
 
 ## Related concepts
 
