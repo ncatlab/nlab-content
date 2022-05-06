@@ -91,8 +91,6 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 
 
 
-This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
-
 {#PontrjaginThomConstructionGraphics}$\,$
 
 <center>
@@ -108,6 +106,18 @@ For example:
 <center>
 <img src="https://ncatlab.org/nlab/files/nCohomotopyOfEuclideanNSpace.jpg" width="840">
 </center>
+
+This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
+
+With the [[equivariant Hopf degree theorem]] the above example has the following $\mathbb{Z}_2$-[[equivariant homotopy theory|equivariant]] version (see [there](equivariant+Hopf+degree+theorem#EquivariantCohomotopyOfRepresentationSpheres)):
+
+{#EquivariantnCohomotopyOfEuclideanNOrientifoldIllustration}$\,$
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/EquivariantNCohomotopyOfEuclideanNOrientifold.jpg" width="840">
+</center>
+
 
 
 ### Relation to configuration spaces
