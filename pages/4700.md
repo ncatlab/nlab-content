@@ -12,7 +12,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -40,7 +39,7 @@ which is [[quasi-isomorphism|quasi-isomorphic]] to the [[de Rham cohomology]], a
 
 
 $$
-  \Omega^\bullet_{salg}
+  \Omega^\bullet_{PA}
   \big(
     Conf_n
     \big( 
@@ -57,7 +56,8 @@ of (the [[Fulton-MacPherson compactification]] of) the [[configuration space of 
 
 The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given by sending each graph to the corresponding [[Feynman amplitude]] in [[free field theory|free]] [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory]] on $X$, by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]:
 
-$$
+\[
+  \label{TheQuasiIsomorphism}
   Graphs_n(D)
   \underoverset{
     \simeq_{\mathrlap{qi}}
@@ -77,12 +77,12 @@ $$
   {
     \longrightarrow
   }
-  \Omega^\bullet_{salg}
+  \Omega^\bullet_{PA}
   \big(
     Conf_n\big(  \mathbb{R}^D \big)
   \big)
   \,.
-$$
+\]
 
 This means that for each [[edge]] in a [[graph]] a [[Chern-Simons propagator]] is assigned, and for each of $n_{int} \in \mathbb{N}$ internal [[vertices]] the [[fiber integral]] of the adjacent [[Chern-Simons propagators]] along the canonical [[fibration]] of [[configuration spaces of points]]:
 
@@ -207,7 +207,7 @@ If we also agree to
 then the ingredients of these graphs are as shown in the following figure:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/GraphComplexIngredients.jpg" width="800">
+<img src="https://ncatlab.org/nlab/files/GraphComplexIngredients.jpg" width="880">
 </center>
 
 The following shows some very simple examples of graphs, depicted this way:
@@ -277,7 +277,7 @@ $$
 ([Lambrechts-Volić 14, Def. 6.5 & Def. 6.5](#LambrechtsVolic14))
 
 <center>
-<img src="https://ncatlab.org/nlab/files/GraphComplexSignsFromOrientation.jpg" width="620">
+<img src="https://ncatlab.org/nlab/files/GraphComplexSignsFromOrientation.jpg" width="450">
 </center>
 
 
@@ -293,16 +293,13 @@ $$
 ###### Example
 **(the "3-term relation")**
 
-In the [[graph complex]] the [[differential]] of the [[graph]] as shown on the left below (the vertices on the horizontal line are the external vertices, that above the line is internal) is a linear combination as shown on the right:
+The image of the single trivalent vertex under the differential of the graph complex is the following:
 
-$\phantom{AAA}\array{ \partial \\ \phantom{A} \\ \phantom{a}}$
-<img src="https://ncatlab.org/nlab/files/TrivializationOfThreeTermIdentity.jpg" width="100">
-$\phantom{A}\array{ = \\ \phantom{A} \\ \phantom{a} }\phantom{A}$
-<img src="https://ncatlab.org/nlab/files/ThreeTermIdentity.jpg" width="300">
+<center>
+<img src="https://ncatlab.org/nlab/files/GraphComplexThreeTermRelation.jpg" width="800">
+</center>
 
-> graphics grabbed from [Lambrechts-Volić 14, Figure 1 & Figure 2](#LambrechtsVolic14)
-
-Under the [[quasi-isomorphism]] from the [[graph complex]] to the [[de Rham complex]] on the [[Fulton-MacPherson compactification]] of a [[configuration space of points]] given by sending each [[graph]] to its [[Chern-Simons propagator|Chern-Simons]] [[Feynman amplitude on compactified configuration spaces of points]] ([this Prop.](Fulton-MacPherson+operad#QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM)) this relation becomes the "3-term relation" ([this Prop.](Fulton-MacPherson+operad#DeRhamCohomologyOfFMCompactification)):
+Under the [[quasi-isomorphism]] (eq:TheQuasiIsomorphism) from the [[graph complex]] to the [[de Rham complex]] on the [[Fulton-MacPherson compactification]] of a [[configuration space of points]] given by sending each [[graph]] to its [[Chern-Simons propagator|Chern-Simons]] [[Feynman amplitude on compactified configuration spaces of points]] ([this Prop.](Fulton-MacPherson+operad#QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM)) this relation becomes the "3-term relation" ([this Prop.](Fulton-MacPherson+operad#DeRhamCohomologyOfFMCompactification)):
 
 $$
      \left[g_{i j}\right] \wedge \left[ g_{j k} \right]
@@ -325,9 +322,9 @@ $$
   \,.
 $$
 
-
 =--
 
+([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
 
 
 ## Properties
