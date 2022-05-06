@@ -61,6 +61,14 @@ See also
 [[!redirects internal central product of groups]]
 [[!redirects internal central products of groups]]
 
+[[!redirects central product group]]
+[[!redirects central product groups]]
+
+[[!redirects external central product group]]
+[[!redirects external central product groups]]
+
+[[!redirects internal central product group]]
+[[!redirects internal central product groups]]
 
 [[!redirects central product]]
 [[!redirects central products]]
@@ -70,6 +78,5 @@ See also
 
 [[!redirects internal central product]]
 [[!redirects internal central products]]
-
 
 
