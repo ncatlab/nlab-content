@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -40,7 +51,7 @@ $$
   \,.
 $$
 
-This integer $h(\phi)$ is called the _Hopf invariant_ of $\phi$.
+This integer $h(\phi) \in \mathbb{Z}$ is called the _Hopf invariant_ of $\phi$.
 
 It depends on the choices made only up to sign. In particular it has a well-defined image $[h(\phi)] \in \mathbb{F}_2 = \mathbb{Z}/2\mathbb{Z}$, and as such it is the [[Steenrod square]] 
 
@@ -91,11 +102,21 @@ The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) sta
 
 ## References
 
-* Wikipedia, _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
-
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
 * Michael Crabb, [[Andrew Ranicki]], _The geometric Hopf invariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
 
+See also:
+
+* Wikipedia, _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
+
+
+Discussion via [[differential forms]]/[[rational homotopy theory]]:
+
+* [[J. H. C. Whitehead]], _An expression of Hopf ’s invariant as an integral_, Proc. Nat. Acad. Sci. U. S. A.33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
+
+* [[André Haefliger]], p. 3 of _Whitehead products and differential forms_, In: P.A. Schweitzer (ed.), _Differential Topology, Foliations and Gelfand-Fuks Cohomology_, Lecture Notes in Mathematics, vol 652. Springer 1978 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+
+* Dev Sinha, Ben Walter, _Lie coalgebras and rational homotopy theory II: Hopf invariants_ ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084))
 
 [[!redirects Hopf invariants]]
