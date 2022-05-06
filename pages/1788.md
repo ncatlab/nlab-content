@@ -1,5 +1,7 @@
 {#top}
 
+$\ldots$
+
 1. Indented block with citation at end
 > I would have written you a shorter letter, but I didn't have enough time.
 
