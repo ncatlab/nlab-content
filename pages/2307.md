@@ -62,6 +62,11 @@ Original articles include
 
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+  > (relating [[complex cobordism theory]] to [[topological K-theory]] and the [[e-invariant]])
+
+
 Survey:
 
 * [[Victor Buchstaber]], _Cobordisms in problems of algebraic topology_,  J Math Sci 7, 629–653 (1977) ([doi:10.1007/BF01084983](https://doi.org/10.1007/BF01084983))
