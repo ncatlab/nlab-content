@@ -45,7 +45,7 @@ $$\array{
 ## Examples
  {#Examples}
 
-Examples of distributive monoidal categories include the following:
+Beyond [[distributive categories]], examples of distributive monoidal categories include the following:
 
 * [[Ab]], the category of [[abelian groups]] equipped with the [[tensor product of abelian groups]]
 
@@ -56,6 +56,10 @@ Examples of distributive monoidal categories include the following:
 * $k$[[Vect(X)]], the category of ([[topological vector bundles|topological]]) [[vector bundles]] for $X$ some ([[topological space|topological]]) [[space]], equipped with the [[tensor product of vector bundles]].
 
 In all these cases the coproduct is the respective [[direct sum]] (e.g. [[direct sum of vector bundles]] in the last case).
+
+Also:
+
+* the category of [[pointed topological spaces]] with respect to forming [[smash product]] and [[wedge sum]] (e.g. [Hatcher, Section 4.F](algebraic+topology#Hatcher)).
 
 
 ## Properties
