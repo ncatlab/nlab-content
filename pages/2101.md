@@ -53,7 +53,7 @@ Abstractly, one may *define* an [[algebraic category]] to be a category equipped
 
 ## Semantics-structure adjunction
 
-The relationship between monads and adjunctions itself constitutes an adjunction called the **semantics-structure adjunction**. Explicitly, for a category $C$ there exist functors $Str:Cat_{/C}^*\to Mon(C):Sem$ with $Str\dashv Sem$ where $Cat_{/C}^*$ denotes the full subcategory of $Cat_{/C}$ consisting of functors admitting a codensity monad; $Str$ sends a functor to its corresponding codensity monad and $Sem$ sends a monad to the forgetful functor from its E-M category to $C$. Intuitively speaking we may think of a monad as a kind of structure with which the objects of $\mathcal{C}$ can be equipped presented in a syntax-independent way, and we may think of the E-M category of a monad (viewed as a syntax independent presentation of an equational theory) as the category of models of this theory, which is often referred to by logicians as the semantics of the theory. For more on this, see for instance section 5 of ([Tannaka duality for comonoids in cosmoi](#DanielSchäppi1)).
+The relationship between monads and adjunctions itself constitutes an adjunction called the **semantics-structure adjunction**. Explicitly, for a category $C$ there exist functors $Str:Cat_{/C}^*\to Mon(C):Sem$ with $Str\dashv Sem$ where $Cat_{/C}^*$ denotes the full subcategory of $Cat_{/C}$ consisting of functors admitting a codensity monad; $Str$ sends a functor to its corresponding codensity monad and $Sem$ sends a monad to the forgetful functor from its E-M category to $C$. Intuitively speaking we may think of a monad as a kind of structure with which the objects of $\mathcal{C}$ can be equipped presented in a syntax-independent way, and we may think of the E-M category of a monad (viewed as a syntax independent presentation of an equational theory) as the category of models of this theory, which is often referred to by logicians as the semantics of the theory. For more on this, see for instance section 5 of ([Schäppi 2009](#DanielSchäppi1)).
 
 
 ## Related pages
@@ -67,13 +67,13 @@ The relationship between monads and adjunctions itself constitutes an adjunction
 
 Discussion for [[quasi-categories]] is around definition 6.1.15 and definition 7.1.6 in
 
-* [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
- {#RiehlVerity13}
+* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
-* Daniel Schäppi, _Tannaka duality for comonoids in cosmoi_ ([arXiv:0911.0977](https://arxiv.org/abs/0911.0977))
- {#DanielSchäppi1}
 
-* [Semantics-structure adjunction](https://mathoverflow.net/questions/320698/semantics-structure-adjunction)
+* {#DanielSchäppi1} Daniel Schäppi, _Tannaka duality for comonoids in cosmoi_ ([arXiv:0911.0977](https://arxiv.org/abs/0911.0977))
+
+
+* Alec Rhea ([MO user page](https://mathoverflow.net/users/92164/alec-rhea)), _Semantics-structure adjunction_, URL (version: 2019-01-13): <https://mathoverflow.net/q/320698>
 
 
 [[!redirects semantics-structure adjunction]]
