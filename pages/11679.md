@@ -38,6 +38,8 @@ This is what enters the condition on _[[stable coherent sheaves]]_.
 
 ## Related concepts
 
+* [[slope filtration]]
+
 * [[degree of a coherent sheaf]]
 
 * [[rank of a coherent sheaf]]
