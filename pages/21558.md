@@ -2,7 +2,7 @@
 
 \section{Idea}
 
-The _walking isomorphism_ or _free-standing isomorphism_ is the [[category]] (in fact a [[groupoid]]) which 'represents' [[isomorphism|isomorphisms]] in a category.
+The _walking isomorphism_ or _free-standing isomorphism_ or _interval groupoid_ is the [[category]] (in fact a [[groupoid]]) which 'represents' [[isomorphism|isomorphisms]] in a category.
 
 The word "walking" is because it's a "[[walking structure]]".
 
@@ -14,6 +14,8 @@ The word "walking" is because it's a "[[walking structure]]".
 
 \begin{rmk} The free-standing isomorphism is a groupoid. \end{rmk}
 
+\begin{rmk} The free-standing isomorphism can also be described as the [[free groupoid]] on the [[interval category]], that is to say, the walking arrow. Because it is an [[interval object]] for [[Cat]] and [[Grpd]], it is also known as the _interval groupoid_.\end{rmk}
+
 \section{Representing of isomorphisms}
 
 \begin{prpn} Let $\mathcal{A}$ be a category. Let $\mathcal{I}$ denote the free-standing isomorphism. Let $f$ be an arrow of $\mathcal{A}$ which is an [[isomorphism]]. Then there is a unique [[functor]] $F: \mathcal{I} \rightarrow \mathcal{A}$ such that the arrow $0 \rightarrow 1$ of $\mathcal{I}$ maps under $F$ to $f$. \end{prpn}
@@ -21,3 +23,4 @@ The word "walking" is because it's a "[[walking structure]]".
 \begin{proof} Immediate from the definitions. \end{proof}
 
 [[!redirects free-standing isomorphism]]
+[[!redirects interval groupoid]]
