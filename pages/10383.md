@@ -18,7 +18,7 @@
 =--
 
 
-#Contents#
+#Fiber Bundles in Physics#
 * table of contents
 {:toc}
 
