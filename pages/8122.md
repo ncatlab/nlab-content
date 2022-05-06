@@ -97,25 +97,22 @@ As far as I can tell, the Hilbert-space cross norm $\sigma$ doesn\'t apply to ar
 Looking only at the general theory of cross norms, the projective and injective cross norms appear naturally:
 
 +-- {: .num_prop #topbot}
-###### Proposition
+###### Proposition [(Ryan Proposition 6.1)](#Ryan)
 
-If $\chi$ is any uniform cross norm, $V$ and $W$ are any Banach spaces, and $x$ is any element of $V \otimes W$, then
-$$ {\|x\|_\epsilon} \leq {\|x\|_\chi} \leq {\|x\|_\pi} .$$
+Let $V$ and $W$ be Banach spaces and $\chi$ be any norm on $V \otimes W$. Then $\chi$ is a cross norm if and only if
+$$ {\|x\|_\epsilon} \leq {\|x\|_\chi} \leq {\|x\|_\pi},$$
+for every $x \in V \otimes W$.
 =--
 
-That is, we have a [[poset]] of uniform cross norms, and the projective and injective cross norms are (respectively) the [[top]] and [[bottom]] of this poset.
+That is, we have a [[poset]] of cross norms, and the projective and injective cross norms are (respectively) the [[top]] and [[bottom]] of this poset.
 
-Although $\sigma$ is not a uniform cross norm, it relates to $\epsilon$ and $\pi$ in the same way:
+We therefore obtain the following relationship between $\epsilon$, $\sigma$, and $\pi$:
 
 +-- {: .num_prop}
-###### Proposition
+###### Corollary
 
 If $V$ and $W$ are Hilbert spaces and $x$ is an element of $V \otimes W$, then
 $$ {\|x\|_\epsilon} \leq {\|x\|_\sigma} \leq {\|x\|_\pi} .$$
-=--
-
-+-- {: .query}
-Actually, this would all be simpler if Propostion \ref{topbot} applied to *arbitrary* cross norms and not just uniform ones.  Perhaps it does.  Or perhaps $\sigma$ extends to a uniform cross norm on all of $Ban$; that would also make things simpler.  I don\'t know.
 =--
 
 Of course, any cross norm $\chi$ on $V$ and $W$ allows us to form the Banach space $V {\displaystyle\hat{\otimes}_\chi} W$, which may reasonably be called a __tensor product__ of $V$ and $W$; that\'s why we care.
@@ -126,7 +123,7 @@ Of course, any cross norm $\chi$ on $V$ and $W$ allows us to form the Banach spa
 The __Schmidt decomposition__ is a way of expressing a pure state in the tensor product of two Hilbert spaces in terms of states of the two components:
 
 +-- {: .num_theorem}
-###### Theorem [Nielsen and Chuang Theorem 2.7](#NielsenChuang)
+###### Theorem [(Nielsen and Chuang Theorem 2.7)](#NielsenChuang)
 
 Let $A$ and $B$ be finite-dimensional Hilbert spaces.  Let $|\psi\rangle$ be a [[pure state]] of $A \otimes B$.  Then there exist [[orthonormal family|orthonormal families]] $\{ |i_A \rangle \}_i$ in $A$ and $\{ |i_B \rangle \}_i$ in $B$, and non-negative real numbers $\lambda_i$, such that
 \[ |\psi\rangle = \sum_i \lambda_i |i_A \rangle \otimes |i_B\rangle \]
@@ -154,6 +151,8 @@ We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\s
 ## References
 
 * M. Nielsen and I. Chuang.  _Quantum Computation and Quantum Information_.  Cambridge University Press.  2000.  {#NielsenChuang}
+
+* R. Ryan.  _Introduction to Tensor Products of Banach Spaces_.  Springer Monographs in Mathematics. Springer-Verlag London. 2002.  {#Ryan}
 
 Many facts taken from Wikipedia:
 
