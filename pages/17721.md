@@ -43,6 +43,8 @@ Inductive-inductive types are related to [[inductive-recursive types]]. Importan
 
 The consistency of the framework used for the elimination (e.g. in the [[theorem prover]] [[Agda]]) is not so clear, as it allows the definition of a universe containing a code for itself. There is an axiomatisation of the new principle in such a way that the resulting type theory is consistent, as proved by constructing a set-theoretic model; see [Forsberg-Setzer 10](#ForsbergSetzer10).
 
+[Hugunin](#Hugunin19) provides a reduction of an inductive-inductive type to an inductive type. This construction is conjectured to generalize to all inductive-inductive types. The construction is done in [[cubical type theory]] and hence is consistent with [[homotopy type theory]].
+
 ## Higher inductive inductive types ##
 
 Experiments with higher inductive inductive types (elaborate versions of [[higher inductive types]]) are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook). As they are at the set level, these are instances of quotient inductive-inductive types; see [QIIT](#QIIT). An experimental syntax for HIITs by [Kaposi and Kovacs](#KaposiKovacs).
@@ -65,6 +67,9 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 * {#QIIT}  Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
 * {#KaposiKovacs} Ambrus Kaposi and András Kovács, _A Syntax for Higher Inductive-Inductive Types_, [PDF](http://drops.dagstuhl.de/opus/volltexte/2018/9190/), 2018
+
+* {#Hugunin19} Jasper Hugunin, _Constructing Inductive-Inductive Types in Cubical Type Theory_, [PDF](https://link.springer.com/chapter/10.1007/978-3-030-17127-8_17)
+
 
 Parts of the above text are taken from 
 
