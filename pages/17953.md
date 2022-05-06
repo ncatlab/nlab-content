@@ -99,23 +99,31 @@ Polarization of [[fractional D-branes]]:
 
 ### Polarization of M2-branes into M5-branes
 
-The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of ([[fuzzy 3-sphere|fuzzy]]) [[3-sphere]]-shape:
+The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of ([[fuzzy 3-sphere|fuzzy]]) [[3-sphere]]-shape ([[M2-M5 brane bound states]]):
 
 * [[Iosif Bena]], _The M-theory dual of a 3 dimensional theory with reduced supersymmetry_, Phys. Rev. D62:126006, 2000 ([arXiv:hep-th/0004142](https://arxiv.org/abs/hep-th/0004142))
 
 
+
+
+
 * Masato Arai, [[Claus Montonen]], Shin Sasaki, _Vortices, Q-balls and Domain Walls on Dielectric M2-branes_, JHEP 0903:119, 2009 ([arXiv:0812.4437](https://arxiv.org/abs/0812.4437))
 
-* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 6.4 of: _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
-
 * [[Iosif Bena]], [[Mariana Graña]], Stanislav Kuperstein, Stefano Massai, _Tachyonic Anti-M2 Branes_, JHEP 1406:173, 2014 ([arXiv:1402.2294](https://arxiv.org/abs/1402.2294))
-
-
-
 
 With emphasis on the role of the [[Page charge]]/[[Hopf WZ term]]:
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
+
+Via the [[mass-deformed ABJM model]]:
+
+* [[Jaume Gomis]], Diego Rodriguez-Gomez, [[Mark Van Raamsdonk]], [[Herman Verlinde]], _A Massive Study of M2-brane Proposals_, JHEP 0809:113, 2008 ([arXiv:0807.1074](https://arxiv.org/abs/0807.1074))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 6.4 of: _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+
+
+
 
 The corresponding D2-NS5 bound state under [[duality between M-theory and type IIA string theory]]:
 
