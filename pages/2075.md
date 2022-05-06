@@ -41,7 +41,7 @@ An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if 
 
 * For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|equivalence of Kan complexes]] (a [[homotopy equivalence]]).
 
-* The induced morphism $f_* : Core(SSet(\Delta^n, C)) \to Core(SSet(\Delta^n, D))$ is an equivalence of Kan complexes for $n=0,1$
+* The induced morphism $f_* : Core(SSet(\Delta^1, C)) \to Core(SSet(\Delta^1, D))$ is an equivalence of Kan complexes.
 
 =--
 
@@ -50,7 +50,11 @@ An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if 
 
 The equivalence of the first three points is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
-Equivalence with the fourth point is given in [Cisinki](#Cisinki), theorem 3.9.2.
+[Cisinki](#Cisinki), theorem 3.9.2, shows the third point can be weakened to taking just $K = \Delta^0, \Delta^1$, so to show equivalence with the fourth point, it suffices to show the $K = \Delta^1$ case implies the $K = \Delta^0$ case.
+
+Suppose that $f_* : Core(SSet(\Delta^1, C)) \to Core(SSet(\Delta^1, D))$ is an equivalence. For each object $d \in D_0$, there is an edge $\varphi : c \to c'$ in $C_1$ such that $f_*(\varphi) \simeq id_d$. This implies $f(c) \simeq d$ and thus $f_*(id_c) \simeq id_d$, and that $\varphi \simeq id_c$.
+
+Thus, $f_*$ restricts to an equivalence between the subcomplexes consisting of the connected components of the identity morphisms. But these subcomplexes can be identified with the degeneracies $Core(X) \to Core(SSet(\Delta^1, X))$, and thus the induced map $Core(C) \to Core(D)$ is an equivalence.
 
 =--
 
