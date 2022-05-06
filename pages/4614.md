@@ -500,7 +500,7 @@ hence this composite is also a weak homotopy equivalence.
 +-- {: .num_prop}
 ###### Proposition
 
-Let $X_\bullet$ be a [[simplicial topological space]] which degreewise a [[cofibrant object]] in the [[classical model structure on topological spaces]], hence which is degreewise a [[retract]] of a [[cell complex]] (for instance: degreewise a [[CW-complex]]). 
+Let $X_\bullet$ be a [[simplicial topological space]] which is degreewise a [[cofibrant object]] in the [[classical model structure on topological spaces]], hence which is degreewise a [[retract]] of a [[cell complex]] (for instance: degreewise a [[CW-complex]]). 
 
 Then its [[fat geometric realization]] models the [[homotopy colimit]] over $X_\bullet \;\colon\; \Delta^{op} \longrightarrow Top_{Quillen}$ in the [[classical model structure on topological spaces]]:
 
