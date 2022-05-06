@@ -35,7 +35,7 @@ one for each morphism $x^{\otimes m} \to x^{\otimes n}$, reflecting the monoidal
 
 ## Examples 
 
-The [[simplex]] category $\Delta$ is a PRO whose models are [[monoid]]s in monoidal categories. Similarly, $\Delta^{op}$ is a PRO whose models are [[comonoid]]s. 
+The [[augmented simplex category]] $\Delta_a$ is a PRO whose models are [[monoid]]s in monoidal categories. Similarly, $\Delta_a^{op}$ is a PRO whose models are [[comonoid]]s. 
 
 The [[cube]] category is a PRO whose models are objects $X$ equipped with "elements" $x_0, x_1: I \to X$ and a projection $p: X \to I$ which is a retraction of both $x_0$ and $x_1$, where $I$ denotes the monoidal unit. 
 
