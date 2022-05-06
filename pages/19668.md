@@ -33,7 +33,7 @@ Chapter 4: Permutation representations
 
 [Chapter 5: The Burnside ring of a compact Lie group](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Lie.pdf)
 
-Chapter 7: Equivariant homology and cohomolgy
+[Chapter 7: Equivariant homology and cohomolgy](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-homology.pdf)
 
 * [[equivariant cohomology]]
 
