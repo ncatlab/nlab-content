@@ -20,6 +20,10 @@ Twisted ordinary differential cohomology is [[twisted differential cohomology]] 
 
 ## Related concepts
 
+* [[twisted ordinary cohomology]]
+
+* [[ordinary differential cohomology]]
+
 * [[equivariant ordinary differential cohomology]]
 
 * [[twisted differential K-theory]]
