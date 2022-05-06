@@ -68,6 +68,12 @@ string-fivebrane duality
 
 * [[duality between F-theory and heterotic string theory|F - HET]]
 
+### Open/closed string duality
+
+[[open/closed string duality]]
+
+* [[KLT relations]]
+
 ### String-QFT duality
 
 string-QFT duality
