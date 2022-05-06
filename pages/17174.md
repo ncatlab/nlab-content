@@ -38,7 +38,7 @@ $$
   }
 $$
 
-be a topological $F$-[[fiber bundle]] and let $R$ be a [[commutative ring]]. 
+be an $F$-[[fiber bundle]] in [[Top]] and let $R$ be a [[commutative ring]]. 
 
 If there exists a [[finite set]] of elements 
 
@@ -88,9 +88,13 @@ $$
 
 ## References
 
-e.g.
+Review of the theorem for [[ordinary cohomology]]:
+
 
 * [[Alan Hatcher]], _[Algebraic topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002, theorem 4D.1 on p. 432 ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATch4.4.pdf))
 
 * {#Ebert12} [[Johannes Ebert]], section 2.3 of _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf)) 
 
+Discussion for [[Whitehead-generalized cohomology|Whitehead-generalized]] [[multiplicative cohomology theories]]:
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 7 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__, Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
