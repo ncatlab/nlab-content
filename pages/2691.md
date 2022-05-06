@@ -45,15 +45,51 @@ We discuss the projective model structure on
 
 For $k$ a [[field]] of [[characteristic zero]], write 
 
-$$
+\[
+  \label{CategoryOfdgcAlgebras}
   dgcAlg^{\geq 0}_{k}
-$$ 
+  \;\in\;
+  Categories
+\]
 
-for the [[category]] of [[differential graded-commutative algebras]] over $k$ in non-negative degrees, equivalently the category of [[commutative monoids]] in the [[symmetric monoidal category]] $Ch^{\geq 0}(k)$ of [[cochain complexes]] in non-negative degrees, equipped with the [[tensor product of chain complexes]].
+for the [[category]] of [[associative unital algebra|unital]] [[differential graded-commutative algebras]] over $k$ in non-negative degrees, equivalently the category of [[commutative monoids]] in the [[symmetric monoidal category]] $Ch^{\geq 0}(k)$ of [[cochain complexes]] in non-negative degrees, equipped with the [[tensor product of chain complexes]].
 
 =--
 
 ([Gelfand-Manin 96, V.3.1](#GelfandManin96))
+
++-- {: .num_example}
+###### Example
+**([[initial object|initial]] and [[terminal object]])**
+
+In $dgcAlg^{\geq 0}_{k}$ (eq:CategoryOfdgcAlgebras):
+
+1. the [[initial object]] is the ground field algebra $k$;
+
+1. the [[terminal object]] is the zero algebra $0$ (which is indeed a unital algebra).
+
+=--
+
+(Beware that this is incorrectly stated in [Gelfand-Manin 96, p. 335](#GelfandManin96))
+
+More generally:
+
++-- {: .num_example}
+###### Example
+**([[coproducts]] and [[products]])**
+
+In $dgcAlg^{\geq 0}_{k}$ (eq:CategoryOfdgcAlgebras):
+
+1. the [[coproduct]] is given by the [[tensor product of algebras]];
+
+   (see at _[pushouts of commutative monoids](category+of+monoids#PushoutOfCommutativeMonoids)_)
+
+1. the [[product]] is given by [[direct sum]] on underlying [[graded vector spaces]]
+
+   (since the [[forgetful functor]] is a [[right adjoint]]).
+
+=--
+
 
 +-- {: .num_defn #dgcCochainAlgebraInNonNegDegreeOfFiniteType}
 ###### Definition
