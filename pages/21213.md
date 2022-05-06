@@ -20,7 +20,7 @@
 In [[nuclear physics]], specifically in the [[chiral perturbation theory]] of [[quantum chromodynamics]], the _omega-meson_ is the [[isospin]]-[[trivial representation|singlet]] [[vector meson]] [[field (physics)|field]] in the first-[[generation of fermions]], i.e. a [[bound state]] of an [[up quark]] and a [[down quark]] (a [[light meson]]):
 
 \begin{imagefromfile}
-    "file_name": "FirstGenerationMesonFields.jpg",
+    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
     "width": 500,
     "unit": "px",
     "margin": {
