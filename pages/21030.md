@@ -58,8 +58,9 @@ The original articles:
 * [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
 
 
+In relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
 
-
+* {#Lin04} [[Hai Lin]], _The Supergravity Dual of the BMN Matrix Model_, JHEP 0412:001, 2004 ([arXiv:hep-th/0407250](https://arxiv.org/abs/hep-th/0407250))
 
 
 
@@ -67,20 +68,6 @@ Discussion of the [[large N limit]]:
 
 * Corneliu Sochichiu, _Continuum limit(s) of BMN matrix model: Where is the (nonabelian) gauge group?_, Phys.Lett. B574 (2003) 105-110 ([arXiv:hep-th/0206239](https://arxiv.org/abs/hep-th/0206239))
 
-
-Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix model:
-
-* Minos Axenides, Emmanuel Floratos, Georgios Linardopoulos, _M2-brane Dynamics in the Classical Limit of the BMN Matrix Model_, Phys. Lett. B773 (2017) 265 ([arXiv:1707.02878](https://arxiv.org/abs/1707.02878))
-
-Discussion of [[thermodynamics]], [[phase transitions]] and [[thermal field theory]] of the BMN matrix model:
-
-* Miguel S. Costa, Lauren Greenspan, Joao Penedones, [[Jorge Santos]], _Thermodynamics of the BMN matrix model at strong coupling_, JHEP 03 (2015) 069 ([arXiv:1411.5541](https://arxiv.org/abs/1411.5541))
-
-* Yuhma Asano, Veselin G. Filev, Samuel Kováčik, Denjoe O'Connor, _The non-perturbative phase diagram of the BMN matrix model_, JHEP 1807 (2018) 152 ([arXiv:1805.05314](https://arxiv.org/abs/1805.05314))
-
-In relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
-
-* {#Lin04} [[Hai Lin]], _The Supergravity Dual of the BMN Matrix Model_, JHEP 0412:001, 2004 ([arXiv:hep-th/0407250](https://arxiv.org/abs/hep-th/0407250))
 
 See also
 
@@ -92,6 +79,22 @@ See also
 * [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
 
 * Yuhma Asano, Samuel Kováčic, Denjoe O'Connor, _The Confining Transition in the Bosonic BMN Matrix Model_ ([arXiv:2001.03749](https://arxiv.org/abs/2001.03749))
+
+
+
+### Thermodynamics
+
+
+Discussion of [[thermodynamics]], [[phase transitions]] and [[thermal field theory]] of the BMN matrix model:
+
+* Miguel S. Costa, Lauren Greenspan, Joao Penedones, [[Jorge Santos]], _Thermodynamics of the BMN matrix model at strong coupling_, JHEP 03 (2015) 069 ([arXiv:1411.5541](https://arxiv.org/abs/1411.5541))
+
+* Yuhma Asano, Veselin G. Filev, Samuel Kováčik, Denjoe O'Connor, _The non-perturbative phase diagram of the BMN matrix model_, JHEP 1807 (2018) 152 ([arXiv:1805.05314](https://arxiv.org/abs/1805.05314))
+
+Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix model:
+
+* Minos Axenides, Emmanuel Floratos, Georgios Linardopoulos, _M2-brane Dynamics in the Classical Limit of the BMN Matrix Model_, Phys. Lett. B773 (2017) 265 ([arXiv:1707.02878](https://arxiv.org/abs/1707.02878))
+
 
 
 ### KK-compactification from $D=4$ $\mathcal{N}=4$ SYM
