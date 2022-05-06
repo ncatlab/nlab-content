@@ -49,6 +49,8 @@ What convinced the community that [[11-dimensional supergravity]] really is the 
 
 ## Related concepts
 
+* [[graviphoton]]
+
 * [[duality in string theory]]
 
 * [[duality between F-theory and heterotic string theory]]
