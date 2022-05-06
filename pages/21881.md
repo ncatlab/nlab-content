@@ -268,7 +268,7 @@ If $E$ is a [[multiplicative cohomology theory|multiplicative]]
 
   (see also [Laughton 08, Example 2.2.7](#Laughton08))
 
-* Among quaternionic oriented cohomology theories, [[quaternionic cobordism]] is universal in the analogous fashion to complex cobordism ([Laughton 08, Example 2.2.9](#Laughton08))
+* Among quaternionic oriented cohomology theories, [[quaternionic cobordism]] is universal in the fashion analogous to the [[universal complex orientation on MU]] ([Laughton 08, Example 2.2.9](#Laughton08))
 
 ## Related concepts
 
