@@ -218,12 +218,11 @@ Relation of Mackey functors to [[sheaves with transfer]] in the theory of [[moti
 
 The general concept of spectral Mackey functors
 
-* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([doi:10.1016/j.aim.2016.08.043](https://doi.org/10.1016/j.aim.2016.08.043), [arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 * {#Barwick15} [[Clark Barwick]], [[Saul Glasman]], Jay Shah, _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
 
 * {#Glasman15} [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized Arone-Ching theorem_ ([arXiv:1507.01976](https://arxiv.org/abs/1507.01976), [talk notes pdf](http://www-users.math.umn.edu/~sglasman/strattalk.pdf))
-
 
 #### In equivariant stable homotopy theory
 
@@ -231,9 +230,9 @@ The construction of [[equivariant stable homotopy theory]] in terms of spectral 
 
 * {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
 
-* [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+* [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_, Algebr. Geom. Topol. 17 (2017) 3259-3339 ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
-* {#Nardin12} [[Denis Nardin]], section 2.6 and appendix A of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+* {#Nardin12} [[Denis Nardin]], section 2.6 and appendix A of _Stability and distributivity over orbital ∞-categories_, 2012 ([hdl.handle.net/1721.1/112895]( http://hdl.handle.net/1721.1/112895), [pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
 
 The generalization of [[K-theory of permutative categories]] to spectral Mackey functors is discussed in
 
