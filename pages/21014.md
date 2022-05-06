@@ -18,7 +18,7 @@ Via their [[worldline formalism|fattening]] to [[ribbon graphs]], Sullivan chord
 
 ## References
 
-* [[Moira Chas]], [[Dennis Sullivan]], _Closed string operators in topology leading to Lie bialgebras and higher string algebra_,  In: O.A. Laudal , R. Piene (eds.) _The Legacy of Niels Henrik Abel_, Springer, Berlin, Heidelberg, 2004 ([arXiv:math/0212358](https://arxiv.org/abs/math/0212358), [doi:10.1007/978-3-642-18908-1_27](https://doi.org/10.1007/978-3-642-18908-1_27))
+* [[Moira Chas]], [[Dennis Sullivan]], _Closed string operators in topology leading to Lie bialgebras and higher string algebra_,  In: O.A. Laudal , R. Piene (eds.) _The Legacy of Niels Henrik Abel_, Springer 2004 ([arXiv:math/0212358](https://arxiv.org/abs/math/0212358), [doi:10.1007/978-3-642-18908-1_27](https://doi.org/10.1007/978-3-642-18908-1_27))
 
 * [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_, In: [[Graeme Segal]], [[Ulrike Tillmann]] (eds.) _Topology, Geometry and Quantum Field Theory_, LMS, Lecture Notes Series 308, 2004 ([arXiv:math/0303003](https://arxiv.org/abs/math/0303003), [doi:10.1017/CBO9780511526398.008](https://doi.org/10.1017/CBO9780511526398.008))
 
