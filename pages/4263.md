@@ -54,6 +54,18 @@ The terms 'topological locale' and 'spatial locale' can be confusing; they sugge
 
 The really clear term for a topological locale is 'locale with enough points to separate the opens', but 'locale with enough points' should be unambiguous.  However, it is still a bit long.  The shortest term, 'spatial locale', is probably also the most common.  Occasionally one sees 'spacial' instead of 'spatial', but this might just be a misspelling.
 
+
+## Criteria for spatiality
+
+Assuming the [[axiom of choice]], [[locally compact locales]] are spatial.
+In particular, [[compact regular locales]] are locally compact, hence automatically spatial.
+[[Coherent locales]] are also spatial.
+
+More generally, the meet of a countable family
+of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial.
+
+The completion of a [[uniform locale]] with a countable basis of uniformity is spatial.
+
 ## Related concepts
 
 * [[spatial topos]], [[localic topos]]
