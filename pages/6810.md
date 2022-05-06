@@ -120,6 +120,12 @@ Explicit compactifications are discussed in
 
 * [[Jerome Gauntlett]], Nakwoo Kim, Stathis Pakis, [[Daniel Waldram]], _M-Theory solutions with AdS factors_ ([arXiv:hep-th/0202184](http://arxiv.org/abs/hep-th/0202184))
 
+See also
+
+
+* Giuseppe Dibitetto, Nicolò Petri, _BPS objects in D=7 supergravity and their M-theory origin_, J. High Energ. Phys. (2017) 2017: 41 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
+
+
 ### D'Auria-Fré formulation of supergravity
 
 Discussion in the [[D'Auria-Fré formulation of supergravity]] is in
