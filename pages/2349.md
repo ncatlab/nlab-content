@@ -28,7 +28,7 @@ The dual concept is _[[codiagonal]]_ .
 
 Recall that the [[diagonal subset|diagonal]] of a [[set]] is a [[subset]] of its [[cartesian product|cartesian square]] $X^2$.  If $X$ is now an object in some [[cartesian monoidal category]] $C$, then the diagonal of $X$ is now a [[subobject]] of its [[product|categorial square]] $X^2$.  (Actually, $C$ need not be cartesian monoidal, as long as the product $X \times X$ exists.)
 
-Specifically, the __diagonal morphism__ of $X$ is a morphism $\Delta_X: X \to X^2$ given (using the universal property of the product) by the [[identity morphism]] from $X$ to itself, taken twice.  That is, $\Delta_X$ is the universal solution to
+Specifically, the __diagonal morphism__ of $X$ is [[generalized the|the]] morphism $\Delta_X: X \to X^2$ to the [[cartesian product ]] of $X$ with itself given (using the [[universal property]] of the [[cartesian product]]) by the [[identity morphism]] from $X$ to itself, taken twice.  That is, $\Delta_X$ is the universal solution to
 $$ \array {
                             &          & X \\
                             & \swarrow & \downarrow _ { \Delta _ X } & \searrow \\
