@@ -137,6 +137,8 @@ A maximal compact subgroup may not exist at all without the almost connectedness
 
 * [[compact Lie group]]
 
+* [[maximal subgroup]]
+
 * [[maximal torus]]
 
 * [[reduction and lift of structure groups]]
