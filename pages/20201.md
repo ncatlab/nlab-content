@@ -19,6 +19,8 @@
 
 ## Idea
 
+### Statement
+
 In [Awodey 09](#Awodey09), [Awodey 10](#Awodey10) was first expressed 
 the idea that [[dependent type theory]] with intensional [[identity types]] ([[Martin-Löf dependent type theory]]), viewed as [[homotopy type theory]], is in similar relation to the concept of [[(∞,1)-toposes]] as [[extensional type theory]] is to the ordinary concept of [[toposes]] (as discussed at [[relation between type theory and category theory]]).
 
@@ -30,7 +32,7 @@ A concise statement would be that the [[internal logic of an (∞,1)-topos|inter
 
 Following this suggestion, the weaker form of this idea, ignoring the [[univalence|univalent]] [[type universe]] and relating to the broader class of [[locally Cartesian closed (∞,1)-categories]], was stated more concretely as a conjecture in [Joyal 11](#Joyal11).
 
-Very roughly, this is about the following table of correspondences (for more see at [[relation between type theory and category theory]]):
+Roughly, this is about the following table of correspondences (for more see at [[relation between type theory and category theory]]):
 
 | [[internal logic]]/[[type theory]] | [[higher category theory|higher]] [[category theory]] |
 |-----|--------|
@@ -38,15 +40,22 @@ Very roughly, this is about the following table of correspondences (for more see
 | [[homotopy type theory]] | [[locally Cartesian closed (∞,1)-categories]] |
 | [[homotopy type theory]] with [[univalence|univalent]] [[type universes]] | [[elementary (∞,1)-toposes]] |
 
-A proof of the weaker conjecture, in form of the statement that every [[locally presentable (∞,1)-category|locally presentable]] [[locally Cartesian closed (∞,1)-category]] is presented by a suitable [[type theoretic model category]] which provides [[categorical semantics]] for [[homotopy type theory]], was proven in [Shulman 12, Example 2.16](#Shulman12), following [Cisinski 12](#Cisinski12).
 
-Generalizing this to a proof of the full conjecture required finding "strict" models for the [object classifier](object+classifier#DetailsObjClassf) by strict [[type universes]]. A series of article [Shulman 12](#Shulman12) [Shulman 13](#Shulman13) showed that this is possible in an increasing class of special cases. A proof of the general case was finally announced in [Shulman 19](#Shulman19).
+### Proof
+
+A [[proof]] of the weaker version of the conjecture, in form of the statement that every [[locally presentable (∞,1)-category|locally presentable]] [[locally Cartesian closed (∞,1)-category]] is presented by a suitable [[type theoretic model category]] which provides [[categorical semantics]] for [[homotopy type theory]], was proven in [Shulman 12, Example 2.16](#Shulman12), following [Cisinski 12](#Cisinski12).
+
+Generalizing this to a proof of the full conjecture required finding "strict" models for the [object classifier](object+classifier#DetailsObjClassf) by strict [[type universes]]. A series of article ([Shulman 12](#Shulman12), [Shulman 13](#Shulman13)) showed that this is possible in an increasing class of special cases. 
+
+A proof of the general case was finally announced in [Shulman 19](#Shulman19).
 
 For more see at _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_.
 
 
 
 ## References
+
+### Statement
 
 The idea is due to 
 
@@ -57,6 +66,8 @@ The idea is due to
 A pronounced statement of the weaker version was highlighted in
 
 * {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+
+### Proof
 
 The proof of the weaker version (that every [[locally Cartesian closed (∞,1)-category]] has a presentation by a suitable [[type-theoretic model category]] which provides [[categorical semantics]] for [[homotopy type theory]]) is due, independently, to Example 2.16 of 
 
