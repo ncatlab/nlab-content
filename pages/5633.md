@@ -35,6 +35,10 @@ On [[heterotic string]] [[perturbative string theory vacua|vacua]]:
 
 * [[Eric Sharpe]], _Recent developments in heterotic compactifications_, AMS/IP Stud. Adv. Math. 44 (2008) 209-230 ([arXiv:0801.4080](https://arxiv.org/abs/0801.4080))
 
+On [[elliptic genera]] of [[Landau-Ginzburg models]]:
+
+* [[Matthew Ando]], [[Eric Sharpe]], _Elliptic genera of Landau-Ginzburg models over nontrivial spaces_, Adv. Theor. Math. Phys. 16 (2012) 1087-1144 ([arXiv:0905.1285](https://arxiv.org/abs/0905.1285))
+
 
 On [[duality in string theory]] in view of [[category theory]] and [[higher geometry]]:
 
