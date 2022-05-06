@@ -31,7 +31,7 @@ Like [[vertical categorification|categorification]] or [[horizontal categorifica
 
 ## Examples
 
-* [[monoid|Monoids]] can be internalized in the doctrine of [[monoidal category|monoidal categories]].  For example:
+* [[monoid|Monoids]] can be internalized in the doctrine of [[monoidal category|monoidal categories]] ([[monoid objects]]).  For example:
 
   * A [[ring]] is a monoid internal to [[Ab]] with its usual tensor product.
 
@@ -81,7 +81,15 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 ## Examples
 
-* [[monoid object]], [[group object]], [[ring object]], [[monoid object in an (∞,1)-category]]
+* [[monoid object]], 
+
+* [[group object]], 
+
+* [[ring object]], 
+
+* [[monoid object in an (∞,1)-category]]
+
+* [[Lie algebra object]]
 
 * [[internal category]], [[internal diagram]], [[internal groupoid]], [[groupoid object in an (∞,1)-category]], [[category object in an (∞,1)-category]]
 
