@@ -35,6 +35,18 @@ where $1$ is the [[terminal category]] and $I$ is the [[interval category]].  No
 
 An inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **coinserter** in $K$.
 
+## Example: the strict 2-category of categories
+
+In the strict 2-category of categories, inserters can be concretely described as follows.
+
+The input data is two categories, $A$ and $B$,
+and two functors, $F,G\colon A\to B$.
+The objects of the inserter are pairs $(X,b)$, where $X\in A$
+and $b\colon F(A)\to G(A)$.
+Morphisms $(X,b)\to(X',b')$ are morphisms $f\colon X\to X'$ such that
+$b'\circ F(f)=G(f)\circ b$.
+The functor from the inserter to $A$ discards the data of $b$.
+
 ## Properties
 
 * Any inserter is a [[faithful morphism]], and also a [[conservative morphism]], but not in general a [[fully faithful morphism]].
