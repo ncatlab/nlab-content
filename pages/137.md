@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[category theory]] concept of _epimorphism_ is a generalization or strengthening of the concept of _[[surjective functions]]_ between [[sets]] (example \ref{EpimorphismsOfSets} below).
+In [[category theory]], the concept of _epimorphism_ is a generalization or strengthening of the concept of _[[surjective functions]]_ between [[sets]] (example \ref{EpimorphismsOfSets} below).
 
 The [[formal duality|formally dual concept]] is that of _[[monomorphism]]_, similarly related to the concept of [[injective function]].
 
