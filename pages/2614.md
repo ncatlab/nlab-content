@@ -21,8 +21,13 @@ Similarly, a topos may be two-valued without being [[Boolean topos|Boolean]], an
 
 Generally speaking, two-valuedness is an external property, and booleanness is an internal property.
 
+## Related entries
 
-[[!redirects two-valued logic]]
+* [[two-valued topos]]
+
+* [[well-pointed topos]]
+
+[[!redirects Two-valued logic]]
 [[!redirects two-valued context]]
 [[!redirects two-valued category]]
-[[!redirects two-valued topos]]
+
