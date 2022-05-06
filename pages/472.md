@@ -24,7 +24,7 @@ such that $\sigma e_0 = \sigma e_1 = Id_C$.
 
 ##Cylindrical model structures
 
-[[Richard Williamson]] has developed a way to build a model structure from the simple point of departure of a structured interval in a monoidal category - more generally, a structured cylinder and a structured co-cylinder in a category. This is given in his [thesis](http://rwilliamson-mathematics.info/cylindrical_model_structures.pdf) and also in the ArXiv article listed below.
+[[Richard Williamson]] has developed a way to build a model structure from the simple point of departure of a structured interval in a monoidal category - more generally, a structured cylinder and a structured co-cylinder in a category. This is given in ([Williamson 2013](#Williamson13)).
 
 #References#
 
@@ -44,7 +44,7 @@ Cylinder functors also form one of the key elements in Baues' approach to [[alge
 
 Cylindrical model structures are discussed in
 
-* [Cylindrical model structures: ArXiv 3104.0867](http://arxiv.org/abs/1304.0867)
+* {#Williamson13} Richard Williamson, _Cylindrical model structure_, PhD thesis, available as arXiv:[3104.0867](https://arxiv.org/abs/1304.0867)
 
 
 
