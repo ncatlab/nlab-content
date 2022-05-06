@@ -200,21 +200,30 @@ and generalization to [[equivariant cohomology]] is discussed in
 * Colin Rourke, Brian Sanderson, _Equivariant Configuration Spaces_, 62(2), October 2000, pp. 544-552 ([pdf](http://wrap.warwick.ac.uk/828/1/WRAP_Rourke_Equivariant_configuration.pdf))
 
 
-Reviews include
-
-
-* {#FrancisLect17} [[John Francis]], _The H-Principle Lecture 17: The sheaf of configuration spaces and the scanning map_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/17configmapping.pdf))
-
-* {#FrancisLect18} [[John Francis]], _The H-Principle Lecture 18: The proof of McDuff's theorem First part_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/18mcduff1.pdf))
-
-
-
-
 See also
 
 * [[Sadok Kallel]], _Particle Spaces on Manifolds and Generalized Poincaré Dualities_ ([arXiv:math/9810067](https://arxiv.org/abs/math/9810067)) 
 
 * Shingo Okuyama, Kazuhisa Shimakawa, _Interactions of strings and equivariant homology theories_, ([arXiv:0903.4667](https://arxiv.org/abs/0903.4667))
+
+### Stable splitting of mapping spaces
+
+The appearance of configuration spaces as summands in [[stable splittings of mapping spaces]] is originally due to
+
+* {#Snaith74} [[Victor Snaith]],  _A stable decomposition of $\Omega^n S^n X$_, Journal of the London Mathematical Society 7 (1974), 577 - 583 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/snaiths.pdf))
+
+An alternative proof is due to 
+
+* {#Cohen80} [[Ralph Cohen]], _Stable proof of stable splittings_, Math. Proc. Camb. Phil. Soc., 1980, 88, 149 ([doi:10.1017/S030500410005742X](https://doi.org/10.1017/S030500410005742X), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/247D9F951F8AB99000E4FF6CB2DB9EA2/S030500410005742Xa.pdf/div-class-title-stable-proofs-of-stable-splittings-div.pdf))
+
+Review and generalization is in 
+
+* [Boedigheimer 87](#Boedigheimer87)
+
+and the relation to the [[Goodwillie-Taylor tower]] of mapping spaces is pointed out in 
+
+* [Arone 99](#Arone99)
+
 
 
 ### In Goodwillie-calculus
@@ -226,6 +235,7 @@ The configuration spaces of a space $X$ appear as the [[Goodwillie derivatives]]
 * {#Arone99} [[Greg Arone]], _A generalization of Snaith-type filtration_, Transactions of the American Mathematical Society 351.3 (1999): 1123-1150. ([pdf](https://www.ams.org/journals/tran/1999-351-03/S0002-9947-99-02405-8/S0002-9947-99-02405-8.pdf))
 
 * {#Ching05} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
 
 ### Relation to graph complexes
 
