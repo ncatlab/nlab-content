@@ -1,3 +1,5 @@
+$\psi \mapsto P\psi$
+
 $\ldots$
 
 [[!-modality]]
