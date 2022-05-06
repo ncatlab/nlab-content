@@ -15,8 +15,11 @@ Let $k$ be a [[commutative ring]] and $G$ a [[linear order|linearly]] [[ordered 
 
 +--{: .un_defn}
 ###### Definition
-The **Novikov ring** of $k$ with value group $G$ is the ring of functions $f:G\to k$ such that for any $g\in G$ the set $\{ x\in G \mid x \lt g \wedge f(x)\neq 0\}$ is finite.
+The **Novikov ring** of $k$ with value group $G$ is the ring of functions $f:G\to k$ such that for any $y\in G$ the set $\{ x\in G \mid x \lt y \wedge f(x)\neq 0\}$ is finite.  Such functions are added pointwise, and multiplied by the formula
+$$ (f\cdot g)(z) = \sum_{x+y=z} f(x) \cdot g(y). $$
 =--
+
+Left-finiteness of the support of $f$ and $g$ implies that the above sum is finite.  Specifically, if $g\neq 0$ then since $G$ is totally ordered, there is a least $y_0$ such that $g(y_0)\neq 0$.  Then the set $\{ x\mid x \le z-y_0 \wedge f(x)\neq 0\}$ is finite, and hence so is its subset $\{ x \mid \exists y. x+y = z \wedge f(x)\neq 0 \wedge g(y)\neq 0 \}$.  Note that this depends on the fact that $G$ is totally ordered and a group; a partially ordered monoid would not suffice.
 
 Notationally, we write such a function as $\sum_{x\in G} f(x)\, t^x$ for $t$ a formal variable.  If $k$ is a [[field]], then so is the Novikov ring.
 
