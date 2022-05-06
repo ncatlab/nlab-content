@@ -34,6 +34,8 @@ Arises from
 
 * [[D=6 supergravity]]
 
+* [[D=5 super Yang-Mills theory]]
+
 ## References
 
 ### Geometric engineering on 5-branes
