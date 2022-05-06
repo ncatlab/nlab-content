@@ -1,6 +1,4 @@
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -32,11 +30,7 @@ Since every [[category]] is also an [[(n,r)-category]] for $n,r \geq 1$, we may 
 
 ### Interval groupoid
 
-The interval _[[groupoid]]_ is a combinatorial model for the undirected [[interval]].
-
-It is the [[free groupoid]] on the interval category, where the morphism $0 \to 1$ is an [[isomorphism]]. Accordingly the interval groupoid has a second nontrivial morphism, the [[inverse]] $1 \to 0$.
-
-This is the _undirected_ [[interval object]] in [[Cat]] and in [[Grpd]].
+Inverting the single non-identity arrow of the interval category, we obtain the [[interval groupoid]], which is an (undirected) [[interval object]] in [[Cat]] and [[Grpd]].
 
 ## Applications
 
@@ -110,7 +104,6 @@ The analogous statements are true in [[higher category theory]].
 
 [[!redirects 2]]
 [[!redirects I]]
-[[!redirects interval groupoid]]
 [[!redirects walking arrow]]
 [[!redirects walking morphism]]
 
