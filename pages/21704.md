@@ -21,11 +21,17 @@
 
 Where the [[projective model structure on connective dgc-algebras]] models the [[rational homotopy theory]] of rationally [[finite type]] [[nilpotent topological spaces]] (by the [[fundamental theorem of dg-algebraic rational homotopy theory]]), its $G$-[[equivariant cohomology|equivariant]] enhancement ([Scull 08](#Scull08)) models $G$-[[equivariant rational homotopy theory]] of [[topological G-spaces]]:
 
-Using [[Elmendorf's theorem]], the underlying [[category]] is that of [[diagrams]] of connective [[dgc-algebras]] parametrized over the [[orbit category]] of $G$. A key technical aspect of this generalization is that not all [[objects]] are [[injective object|injective]] anymore, but otherwise the definitions and properties of the model structure proceed in analogy to [Bousfield-Gugenheim](model+structure+on+dg-algebras#BousfieldGugenheim76)'s [[projective model structure on connective dgc-algebras]]. Notably, the [[minimal cofibrations]] coincide with the equivariant [[minimal Sullivan models]] earlier considered by [Triantafillou 82](#Triantafillou82).
+Using [[Elmendorf's theorem]], the underlying [[category]] is that of [[diagrams]] of connective [[dgc-algebras]] parametrized over the [[orbit category]] of $G$: _$G$-[[equivariant dgc-algebras]]_. A key technical aspect of this generalization is that not all [[objects]] are [[injective object|injective]] anymore, but otherwise the definitions and properties of the model structure proceed in analogy to [Bousfield-Gugenheim](model+structure+on+dg-algebras#BousfieldGugenheim76)'s [[projective model structure on connective dgc-algebras]]. Notably, the [[minimal cofibrations]] coincide with the equivariant [[minimal Sullivan models]] earlier considered by [Triantafillou 82](#Triantafillou82).
 
 ## Related concepts
 
 * [[vector G-space]]
+
+* [[equivariant chain complex]], [[model structure on equivariant chain complexes]]
+
+* [[equivariant dgc-algebra]]
+
+* [[equivariant PL de Rham complex]]
 
 * [[equivariant cohomology]]
 
