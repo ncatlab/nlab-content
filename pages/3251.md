@@ -102,6 +102,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 ## Related concepts
 
+* [[equivariant differential topology]]
+
 * [[global equivariant homotopy theory]]
 
 * [[rational equivariant stable homotopy theory]]
