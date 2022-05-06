@@ -1,5 +1,5 @@
 
-> This entry is about the class of [[topological spaces]] satifiying the Baire category theorem. For *the* Baire space used in computable analysis, descriptive set theory, etc, see instead at _[[Baire space of sequences]]_.
+> This entry is about the class of [[topological spaces]] satisfying the Baire category theorem. For *the* Baire space used in computable analysis, descriptive set theory, etc, see instead at _[[Baire space of sequences]]_.
 
 # Baire spaces
 * table of contents
