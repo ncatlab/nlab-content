@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
+#### Functorial Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 #### String theory
 +-- {: .hide}
@@ -19,13 +23,26 @@
 
 ## Idea
 
-The _AGT correspondence_ ([AGT 09](#AGT09)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  (from which the [[super Yang-Mills theory]] is obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
+The _AGT correspondence_ ([AGT 09](#AGT09)) is a relation between 
+
+1. the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] 
+
+1. [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  
+
+Here the idea is that $C_{g,n}$  is the [[super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
+
+In particular, the [[N=2 D=4 super Yang-Mills theory]] is a [[quiver gauge theory]] and the correspondence matches the shape of its [[quiver]]-diagram to the [[genus of a surface|genus]] and punctures of the [[Riemann surface]]:
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AGTQuiver.jpg" width="400">
+</center>
 
 More generally, this construction yields something like a decomposition of the [[6d (2,0)-superconformal QFT]] into a [[2d SCFT]] "with values in [[super Yang-Mills theory|4d SYM field theory]]" (e.g. [Tachikawa 10, slide 25 (33 of 54)](#Tachikawa10)). Hence composition with any kind of suitable invariant of the 4d field theories yields an actual [[2d SCFT]], for instance taking the superconformal index in 4d yields a [[2d TQFT]] ([GPRR 10](#GPRR10)). In this picture of "4d-SYM field theory-valued [[2d SCFT]]" one has the following correspondences:
 
 * the [[complex structure]] in 2d is the [[coupling constants]] and [[theta angles]] etc in the 4d [[super Yang-Mills theory]];
 
-* the [[mapping class group]] (large conformal transformations) in 2d is the (generalized) [[S-duality]] of the 4d theory.
+* the [[mapping class group]] (large [[conformal transformations]]) in 2d is the (generalized) [[S-duality]] of the 4d theory.
 
 ## Related concepts
 
@@ -39,7 +56,9 @@ The original articles are
 
 * {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
 
-* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], Lett.Math.Phys.91:167-197, 2010, _Liouville Correlation Functions from Four-dimensional Gauge Theories_ ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+
+* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_ ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
 
 The [[2d TQFT]] obtained from this by forming the 4d index is discussed in 
 
