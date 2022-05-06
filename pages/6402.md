@@ -39,6 +39,12 @@ While advertized as "A course for mathematicians", experience shows that it is n
 
 More in detail: this is a long collection of (in parts) long lectures by many top string theorists and also by some genuine top mathematicians. Correspondingly it covers a lot of ground, while still being introductory. Especially towards the beginning there is a strong effort towards trying to formalize or at least systematize much of the standard lore. But one can see that eventually the task of doing that throughout had been overwhelming. Nevertheless, this is probably the best source that there is out there. If you only ever touch a single book on string theory, touch this one.
 
+\linebreak
+
+See also at _[[string theory FAQ]]_
+
+\linebreak
+
 #Contents#
 * table of contents
 {:toc}
