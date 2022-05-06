@@ -52,4 +52,6 @@ on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectr
 
 * [[global equivariant bordism homology theory]]
 
+* [[orthogonal space]]
+
 category: reference
