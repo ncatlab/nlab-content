@@ -89,9 +89,35 @@ The exact gauge group (eq:ExactGSM) happens to coincide with
 
 1. the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
 
+
+## Tension with experiment and Incompleteness
+ {#TensionWithExperiment}
+
+The standard model of particle physics is supported by a tremendous level of confirmation by [[experiment]], lately by the [[LHC]] experiment. But there are indictations of discrepancies, pointing to "new physics". See at 
+
+* [[flavour anomaly]]
+
+* [[anomalous magnetic moment]] -- [anomalies](anomalous+magnetic+moment#Anomalies).
+
+Not quite in tension with the standard model, but still possibly pointing to unaccounted effects is the 
+
+* [[Higgs field]]-[metastability](Higgs+field#MassAndVacuumInstability).
+
+Then there are experimental phenomena which are known to be implied by the standard model by way of computer simulatrion ([[lattice QCD]]), but which are not conceptually understood:
+
+* [[confinement]] ([[mass gap problem]])
+
+Finally there is the evident and notorious fact that the standard model simply does not include any [[quantum field theory]] of the fourth known fundamental [[force]], [[gravity]]. See at
+
+* [[quantum gravity]]
+
+for more on this.
+
+<br/>
+
 ## Variations and generalizations
 
-There is a plethora of attempts and suggestions for variations and generalizations of the standard model into models that are conceptually more satisfying from the point of view of models in theoretical physics. 
+There is a plethora of attempts and suggestions for variations and generalizations of the standard model into models that may resolve the tension with experiment mentioned [above](#TensionWithExperiment) and which may be conceptually more satisfying from the point of view of models in theoretical physics. 
 
 ### Kaluza--Klein theory
 
