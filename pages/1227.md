@@ -80,7 +80,9 @@ For any $F \in PSh(C)$ the following are equivalent:
 
 1. $F$ is a $\kappa$-filtered colimit in $PSh(C)$ of a diagram in $C$;
 
-1. $F$ belongs to $Ind_\kappa(C)$;
+1. $F$ belongs to $Ind_\kappa(C)$.
+
+ If, furthermore, $C$ admits $\kappa$-small colimits, then the above are equivalent to
 
 1. $F : C^{op} \to \infty Grpd$ preserves $\kappa$-small limits.
 
