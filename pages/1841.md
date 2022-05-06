@@ -421,7 +421,7 @@ For undergraduate lectures including experimental material see
 
 The [[Lorentz group|Lorentz]]-[[invariants]] of the [[electromagnetic field]]:
 
-* C.A. Escobar, L. F. Urrutia, _The invariants of the electromagnetic field_ ([arXiv:1309.4185](https://arxiv.org/abs/1309.4185))
+* C. A. Escobar, L. F. Urrutia, _The invariants of the electromagnetic field_, Journal of Mathematical Physics 55, 032902 (2014) ([arXiv:1309.4185](https://arxiv.org/abs/1309.4185))
 
 
 
