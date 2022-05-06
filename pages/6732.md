@@ -1,11 +1,23 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In theoretical physics, one often considers [[gauge theory]] models whose symmetries are groups of large matrices, e.g. $U(N)$ or $O(N)$. The limit of such theories for $N\to \infty$ has often remarkable properties and [[string theory|string-like]] features. 
+In [[theoretical physics]], one often considers [[gauge theory]] models whose symmetries are groups of large matrices, notably in the [[special unitary group]] $SU(N)$. The [[limit of a sequence|limit]] of such theories for $N\to \infty$ ("large [[number of colours]]-limit") has often remarkable properties and [[string theory|string-like]] features. 
 
 This limit is sometimes appearing in its own right, but sometimes it is just considered as an approximation for a system with fixed finite $N$. One of the features is that in the large N limit is that non-planar Feynman diagrams loose their importance and that the correlation functions satisfy certain decoupling/factorization rule. The behaviour is studied in terms of expansion in $1/N$ whose square has a simialr role to Planck constant in [[semiclassical approximation]] limit of quantum mechanics. 
 
