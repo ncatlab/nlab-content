@@ -17,7 +17,8 @@ $$R e
   }
 $$
 
-they immediately generalize to make sense on [[Minkowski spacetime]] of any dimension $D$, and in fact to any [[pseudo-Riemannian manifold]]. The case of $D =5$-Maxwell theory plays a role mostly as a subsector of [[D=5 Einstein-Maxwell theory]] and/or of [[D=5 super Yang-Mills theory]], as well as a pre-image under [[Kaluza-Klein compactification]] of [[massive Yang-Mills theory]] in 4-dimensions.
+they immediately generalize to make sense on [[Minkowski spacetime]] of any dimension $D$, and in fact to any [[pseudo-Riemannian manifold]]. The case of $D =5$-Maxwell theory (hence [[D=5 Yang-Mills theory]] with [[U(1)]]-[[gauge group]])
+plays a role mostly as a subsector of [[D=5 Einstein-Maxwell theory]] and/or of [[D=5 super Yang-Mills theory]], as well as a pre-image under [[Kaluza-Klein compactification]] of [[massive Yang-Mills theory]] in 4-dimensions.
 
 ## Properties
 
