@@ -314,7 +314,7 @@ of [[Cat]] on non-empty finite [[linear orders]] regarded as categories, meaning
 ###### Definition
 
 For $\mathcal{C}$ a [[small category]] its _nerve_ 
-$N(\mathcal{C})$ is the [[simplicial set]] give by
+$N(\mathcal{C})$ is the [[simplicial set]] given by
 
 
 $$
