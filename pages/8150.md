@@ -488,3 +488,9 @@ For instance section 2.7 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+[[!redirects tensor products of chain compexes]]
+
+[[!redirects tensor product of cochain complexes]]
+[[!redirects tensor products of cochain complexes]]
+
+
