@@ -311,7 +311,7 @@ of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tues
 
 Discussion of the _exact_ [[gauge group]] of the [[standard model of particle physics]], $G = \big( SU(3) \times SU(2) \times U(1)\big)/\mathbb{Z}_6 $ including its $\mathbb{Z}_6$-[[quotient group|quotient]] (see [there](standard+model+of+particle+physics#GaugeGroup)) and the exact [[fermion]] field content, realized in F-theory is in
 
-* Denis Klevers, Damian Kaloni Mayorga Pena, Paul-Konstantin Oehlmann, Hernan Piragua, Jonas Reuter, _Denis Klevers, Damian Kaloni Mayorga Pena, Paul-Konstantin Oehlmann, Hernan Piragua, Jonas Reuter_, JHEP01(2015)142 ([arXiv:1408.4808](https://arxiv.org/abs/1408.4808))
+* Denis Klevers, Damian Kaloni Mayorga Pena, Paul-Konstantin Oehlmann, Hernan Piragua, Jonas Reuter, _F-Theory on all Toric Hypersurface Fibrations and its Higgs Branches_, JHEP01(2015)142 ([arXiv:1408.4808](https://arxiv.org/abs/1408.4808))
 
 * {#CveticLin17} [[Mirjam Cvetic]], Ling Lin, section 3.3 of _The global gauge group structure of F-theory compactifications with $U(1)$s_ ([arXiv:1706.08521](https://arxiv.org/abs/1706.08521))
 
