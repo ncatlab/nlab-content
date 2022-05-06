@@ -27,6 +27,9 @@ If $Supp(f) \subset X$ is a [[compact subspace]], then one says that $f$ has _[[
 
 * [[support of a distribution]]
 
+### In field theoy
+
+* [[spacetime support]]
 
 ### In topos theory and type theory
 
