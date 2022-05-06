@@ -240,6 +240,8 @@ In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this
 
 * [[integral Wu structure]], [[twisted Wu structure]]
 
+* [[shifted C-field flux quantization]]
+
 * [[Pontryagin class]], [[Stiefel-Whitney class]], [[one-loop anomaly polynomial I8]]
 
 * [[Euler class]]
