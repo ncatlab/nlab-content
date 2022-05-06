@@ -24,7 +24,7 @@ The _volume conjectures_ are a class of [[conjectures]] (slightly differing in g
 
 For a few special cases of 3-manifolds there are explicit [[proofs]] of the volume conjecture(s). Besides this there is an abundance of [[computer experiment|numerical evidence]] for the volume conjectures, using computer algebra such as [[SnapPy]] (see also [Zickert 07](#Zickert07)). In fact experimentation with these numerics is what has been driving the formulation of further variants of the volume conjecture. 
 
-Hence [[experimental mathematics]] strongly suggests that the volume conjectures are true. But a conceptual explanation (let alone [[proof]]) in terms of [[quantum field theory]] remanins open ([Witten 14, bottom of p. 4](#Witten14)).
+Hence [[experimental mathematics]] strongly suggests that the volume conjectures are true. But a conceptual explanation (let alone [[proof]]) in terms of [[quantum field theory]] has remained open ([Witten 14, bottom of p. 4](#Witten14)). But an explanation in terms of [[wrapped brane|wrapped]] [[M5-branes]] ([[3d-3d correspondence]]) is claimed in [Gang-Kim-Lee 14, 3.2](#GangKimLee14).
 
 
 ### For $SU(2)$ on knot complements
@@ -151,6 +151,11 @@ A conceptual explanation of the volume conjecture via [[analytically continued C
 (but it seems that as a sketch or strategy for a rigorous proof, it didn't catch on).
 
 
+In terms of [[M5-branes]] [[wrapped brane|wrapped]] on the [[hyperbolic 3-manifold]] ([[3d-3d correspondence]]):
+
+* Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, j.physletb.2014.04.051 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
+
+* {#GangKimLee14} Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of 3d-3d correspondence at Large N_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
 
 
