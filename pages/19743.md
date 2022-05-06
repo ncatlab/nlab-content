@@ -24,7 +24,18 @@ $$
   \,.
 $$
 
+
+
 ## Properties
+
+### General 
+ {#General}
+
+Besides the [[cyclic group]] $\mathbb{Z}/4$ of [[order of a group|order]] 4, the Klein group $\mathbb{Z}/2 \times \mathbb{Z}/2$ is the only other [[group]] of [[order]] 4, up to [[isomorphism]].
+
+In particular the Klein group is _not_ itself a [[cyclic group]], and it is in fact the smallest non-[[trivial group|trivial]] [[group]] which is not a [[cyclic group]].
+
+### ADE-Classification
 
 In the [[ADE-classification]] of [[finite subgroups of SO(3)]], the Klein four-group is the smallest in the D-series, labeled by [[D4]].
 
