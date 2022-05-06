@@ -72,7 +72,7 @@ A remarkable and perhaps surprising result (and surprisingly not better known!) 
 
 The proof we present below is adapted (with minor changes) from a [proof](http://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/) given by [[Chris Schommer-Pries]]. See also this MathOverflow [thread](http://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique), particularly the [answer](http://mathoverflow.net/a/46471/2926) given by [[Steve Lack]] (with a pertinent comment by [[Denis-Charles Cisinski]]). 
 
-[^fine]: Along similar lines, one can [prove](http://www.math.harvard.edu/~oantolin/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
+[^fine]: Along similar lines, one can [prove](https://www.matem.unam.mx/~omar/notes/modelcatsets.html) (assuming AC) that there are nine -- count 'em, nine -- Quillen model structures on $Set$. 
 
 #### Proof 
 
