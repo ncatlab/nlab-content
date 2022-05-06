@@ -160,7 +160,7 @@ One sees easily in low degrees that this does look like the a [[pseudofunctor]] 
      \right)     
    $$ 
 
-   which means that $F$ does not necessarily respect the [[composition]] of moprhisms, but instead does introduce [[homotopies]] $F(f,g)$ for very pairs of composable morphisms, which measure how $F(g)\circ F(f)$ differs from $F(g \circ f)$. These are precisely the homotopies that one sees also in an ordinary [[pseudofunctor]]. But for our $(\infty,1)$-functor there are now also higher and higher homotopies:
+   which means that $F$ does not necessarily respect the [[composition]] of morphisms, but instead does introduce [[homotopies]] $F(f,g)$ for very pairs of composable morphisms, which measure how $F(g)\circ F(f)$ differs from $F(g \circ f)$. These are precisely the homotopies that one sees also in an ordinary [[pseudofunctor]]. But for our $(\infty,1)$-functor there are now also higher and higher homotopies:
 
 1. the 3-cells of $N(C)$ are triples of composable morphisms $(f,g,h)$ in $C$. They are sent by $F$ to a tetrahedron that consists of a homotopy-of-homotopies from the $F(f,g) \cdot F( h , g\circ f )$ to $F(g, h) \cdot F(f , h \circ g)$;
 
