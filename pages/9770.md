@@ -158,6 +158,8 @@ Original articles:
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Section 3 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
+  English translation: Section 3 of _Topological Methods in Algebraic Topology_, Classics in Mathematics, vol 131. Springer 1995 ([doi:10.1007/978-3-642-62018-8_4](https://doi.org/10.1007/978-3-642-62018-8_4))
+
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Sections 12, 13 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 Review:
