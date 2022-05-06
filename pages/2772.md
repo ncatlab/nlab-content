@@ -46,11 +46,9 @@ An [[(∞,1)-functor]] which is both full and faithful as well as an [[essential
 
 ## Related concepts
 
-* [[full functor]], [[faithful functor]],  [[full and faithful functor]], [[essentially surjective functor]]
 
-* [[essentially surjective (∞,1)-functor]],
+[[!include properties of functors -- contents]]
 
-* [[equivalence of (∞,1)-categories]]
 
 
 ## References 
