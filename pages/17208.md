@@ -76,7 +76,7 @@ $$
 $$
 =--
 
-The following equivalent characterizations are immediate but use#ful:
+The following equivalent characterizations are immediate but useful:
 
 +-- {: .num_prop #ComplexProjectiveSpaceAsGrassmannian}
 ###### Proposition
@@ -116,7 +116,7 @@ For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiv
 
 To see the second characterization from def. \ref{ComplexProjectiveSpace}:
 
-With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], then every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with
+With ${\vert -\vert} \colon \mathbb{C}^{n} \longrightarrow \mathbb{R}$ the standard [[norm]], we have that every element $\vec z \in \mathbb{C}^{n+1}$ is identified under the defining equivalence relation with
 
 $$
   \frac{1}{\vert \vec z\vert}\vec z \in S^{2n+1} \hookrightarrow \mathbb{C}^{n+1}
@@ -134,8 +134,7 @@ $$
   }
 $$
 
-where the top horizontal and the two vertical functions are continuous, and where the bottom function is
-is a bijection.  Since the diagonal composite is also continuous, the nature of the [[quotient space topology]]
+where the top horizontal and the two vertical functions are [[continuous function|continuous]], and where the bottom function is a [[bijection]].  Since the diagonal [[composition|composite]] is also continuous, the nature of the [[quotient space topology]]
 implies that the bottom function is also continuous. To see that it is a [[homeomorphism]] it hence remains to 
 see that it is an [[open map]] (by [this prop.](homeomorphism#HomeoContinuousOpenBijection)).
 
@@ -170,7 +169,7 @@ The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassm
 +-- {: .num_prop #CellComplexStructureOnComplexProjectiveSpace}
 ###### Proposition
 
-There is a [[CW-complex]] structure on complex projective space $\mathbb{C}P^n$ (def. \ref{ComplexProjectiveSpace}) for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by attaching a single cell of dimension $2(n+1)$ with attaching map the [[projection]] $S^{2n+1} \longrightarrow \mathbb{C}P^n$ from prop. \ref{ComplexProjectiveSpaceAsS1Quotient}:
+There is a [[CW-complex]] structure on complex projective space $\mathbb{C}P^n$ (def. \ref{ComplexProjectiveSpace}) for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by [[attaching space|attaching]] a single cell of dimension $2(n+1)$ with [[attaching map]] the [[projection]] $S^{2n+1} \longrightarrow \mathbb{C}P^n$ from prop. \ref{ComplexProjectiveSpaceAsS1Quotient}:
 
 $$
   \array{
