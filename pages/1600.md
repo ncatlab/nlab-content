@@ -81,11 +81,13 @@ and another approach is discussed in
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
 
-The relation of orbispaces to [[global equivariant homotopy theory]] is discussed in
+Yet another description is due to
 
-* [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
+* Alexander Körschgen, _A Comparison of two Models of Orbispaces_, Homology, Homotopy and Applications, vol. 20(1), 2018, pp.329--358 ([arXiv:1612.04267](https://arxiv.org/abs/1612.04267))
 
-see also
+* [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) 
+
+The relation between the two versions (arbitrary group homomorphisms or subgroup inclusions) is discussed in
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
