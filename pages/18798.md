@@ -23,6 +23,8 @@ See at _[[trigonometric function]]_.
 
 * [[sine]]
 
+* [[arccos]]
+
 * [[exponential]]
 
 * [[Euler's formula]]
