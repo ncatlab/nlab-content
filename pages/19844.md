@@ -321,6 +321,14 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
  
 * {#AHMSN19} A. Arbey, T. Hurth, F. Mahmoudi, D. Martinez Santos, S. Neshatpour, _Update on the $b \to s$ anomalies_ ([arXiv:1904.08399](https://arxiv.org/abs/1904.08399))
 
+
+* Pouya Asadi, David Shih, _Maximizing the Impact of New Physics in $b \to c \tau \nu$ Anomalies_,  ([arXiv:1905.03311](https://arxiv.org/abs/1905.03311))
+
+* J. E. Chavez-Saab, Marxil Sánchez, Genaro Toledo, _$R_{D^\ast}$ or $R_{D_\pi}$: closing the theoretical gap?_ ([arXiv:1905.03394](https://arxiv.org/abs/1905.03394))
+
+* Suman Kumbhakar, Ashutosh Kumar Alok, Dinesh Kumar, S Uma Sankar, _Resolving $R_D$ and $R_{D^\ast}$ anomalies_ ([arXiv:1905.03513](https://arxiv.org/abs/1905.03513))
+
+
 #### Leptoquarks
 
 Attempts to explain the anomaly include
