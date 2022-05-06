@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[associative algebra]] of [[matrices]] over some [[ring]] under [[matrix multiplication]] is the coresponding _matrix algebra_.
+The [[associative algebra]] of [[square matrices]] over some [[ring]] under [[matrix multiplication]] is the coresponding _matrix algebra_.
 
 ## Properties
 
@@ -30,5 +30,9 @@ The algebra of $n \times n$-matrices is equivalently the [[groupoid convolution 
 ### Norms
 
 The matrix algebra over a [[normed ring]] is naturally itself a normed ring. See at _[normed ring -- Examples -- matrix ring](http://ncatlab.org/nlab/show/normed+ring#MatrixRing)_.
+
+## Related concept
+
+* [[square matrix]]
 
 [[!redirects matrix algebras]]
