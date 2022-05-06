@@ -25,7 +25,7 @@
 ## Definitions
 
 Classically:
-+-- {: .num_defn #classical}
+ +-- {: .num_defn #classical}
 ###### Definition
 
 A **field** is a [[commutative ring]] in which every nonzero element has a multiplicative [[inverse]] and $0 \neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero).
@@ -44,7 +44,7 @@ Fields are (arguably) not a purely [[algebra|algebraic]] notion in that they don
 +-- {: .num_defn #discrete}
 ###### Definition
 
-If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.  In addition to $0\neq 1$, this condition means that every element is either $0$ or invertible.
+If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.  This condition means that every element is either $0$ or invertible, and it also implies that $0\neq 1$.
 =--
 
 Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]]; for this reason [Johnstone](#Johnstone77) calls such fields **geometric fields**.  A disadvantage is that this axiom is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[rational number|rational]] (or even [[algebraic number|algebraic]]) numbers and by the [[finite field]]s as usual.
