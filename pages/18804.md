@@ -14,7 +14,7 @@ $$
 
 ## Related concepts
 
-* [[cotan]]
+* [[cotangent function]]
 
 * [[arctan]]
 
@@ -24,7 +24,7 @@ $$
 
 ## References
 
-* Wikipedia, _[Triginometric functions -- tan](https://en.wikipedia.org/wiki/Trigonometric_functions#tan)_
+* Wikipedia, _[Trigonometric functions -- tan](https://en.wikipedia.org/wiki/Trigonometric_functions#tan)_
 
 
 [[!redirects tangent functions]]
