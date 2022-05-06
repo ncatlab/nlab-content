@@ -88,7 +88,7 @@ Other papers mentioned above:
 
 * {#Waaldijk} [[Frank Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
 
-* [[Fred Richman]] (2000). [Constructive mathematics without choice](http://math.fau.edu/richman/HTML/nsf.htm).
+* [[Fred Richman]] (2000). [Constructive mathematics without choice](http://math.fau.edu/richman/html/nsf.htm).
  {#Richman00}
 
 For more about the localic approach, see:
