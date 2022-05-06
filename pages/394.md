@@ -53,17 +53,9 @@ $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $
 
 ## Related concepts
 
-* [[full functor]]
+[[!include properties of functors -- contents]]
 
-* [[faithful functor]]
 
-* [[full and faithful functor]]
-
-* [[surjective on objects functor]]
-
-* [[equivalence of categories]]
-
-* [[essentially surjective (∞,1)-functor]]
 
 [[!redirects essentially surjective functor]]
 [[!redirects essentially surjective functors]]
