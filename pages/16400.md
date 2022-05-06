@@ -25,4 +25,19 @@ This page collects material related to the book
 
 which introduces [[set theory]] and the [[foundations of mathematics]] from a practical and [[categorical logic|category theoretic]] point of view known as _[[structural set theory]]_ ("informal [[ETCS]]").
 
+## related entries
+
+* [[Paul Taylor]]
+
+  _[[Practical Foundations of Mathematics]]_
+
+  ([web](http://www.paultaylor.eu/~pt/prafm/index.html))
+
+* [[Robert Harper]],
+
+  _[[Practical Foundations for Programming Languages]]_,
+
+  Cambridge University Press (2016), ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
+
+
 category: reference
