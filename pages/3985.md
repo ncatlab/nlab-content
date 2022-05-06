@@ -99,7 +99,7 @@ Notice that the class of $S$-equivalences always contains $S$ itself. Hence pass
 
 For $C$ an [[(∞,1)-category]] with small [[(∞,1)-colimits]], a class $S \subset C_1$ of morphisms in $C$ is said to be **strongly saturated** if its satisfies the following three conditions
 
-1. It is stable under [[pushout]]s;
+1. It is stable under [[pushout]]s along arbitrary morphisms of $C$;
 
 1. The full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] $Func(\Delta[1], C)$ on $S$ has all [[(∞,1)-colimit]]s;
 
