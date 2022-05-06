@@ -76,7 +76,7 @@ is the right adjoint $i_\ast$ to $i^\ast: O(X) \to O(U)$.
 ######Proof 
 This is well-known. Indeed, for $V \in O(X)$ we have 
 
-$$\frac{V \subseteq int_X(W \cup \neg U) \qquad \text{in _O(X)_}}{V \subseteq W \cup \neg U \qquad \text{in _P(X)_}}$$ 
+$$\frac{V \subseteq int_X(W \cup \neg U) \qquad \text{in} \: O(X)}{V \subseteq W \cup \neg U \qquad \text{in} \: P(X)}$$ 
 
 but the last condition is equivalent to having $U \cap V \subseteq W$ in $P(X)$, or to $i^\ast(V) = U \cap V \subseteq W$ in $O(X)$. 
 =-- 
