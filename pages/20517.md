@@ -79,7 +79,22 @@ Write
   v^5 \in \Gamma( T \Sigma^6 )
 \]
 
-for the [[vector field]] which reflects the infinitesimal [[circle group]]-[[action]] on (eq:FibrationWorldvolume).
+for the [[vector field]] which reflects the infinitesimal [[circle group]]-[[action]] on (eq:FibrationWorldvolume). We will write
+
+$$
+  \mathcal{L}_{v^5}
+  \;=\;
+  \big[d, \iota_{v^5} \big]
+  \;\colon\;
+  \Omega^\bullet\big( \Sigma^6 \big)
+  \longrightarrow
+  \Omega^\bullet\big( \Sigma^6  \big)
+$$
+
+for the [[Lie derivative]] of [[differential forms]] along $v^5$, and make use of [[Cartan's magic formula]] expressing it as an [[anit-commutator]], as show.
+
+
+
 
 With the notation ([PS 96 (5)](#PerrySchwarz96))
 
