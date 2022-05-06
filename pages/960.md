@@ -140,7 +140,7 @@ See at _[[symmetric smash product of spectra]]_.
 
 * [[pointed mapping space]]
 
-* While the smash product is not Cartesian, it does [[monoidal category with diagonals|admit diagonals]].
+* While the smash product is not cartesian, it does [[monoidal category with diagonals|admit diagonals]].
 
 ## References
 
