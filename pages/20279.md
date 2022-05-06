@@ -10,6 +10,14 @@
 
 * [[octonions]]
 
+* [[composition algebra]]
+
+* [[G2]]
+
+* [[Jordan algebra]]
+
+* [[Albert algebra]]
+
 * [[triality]]
 
 * [[exceptional Lie group]]
