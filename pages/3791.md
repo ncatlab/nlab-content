@@ -9,6 +9,13 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 (See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
 
+
+On [[noncommutative tori]]:
+
+* [[Marc Rieffel]], [[Albert Schwarz]], _Morita equivalence of multidimensional noncommutative tori_, Int. J. Math. 10 (1999) 289-299 ([arXiv:math/9803057](https://arxiv.org/abs/math/9803057))
+
+
+
 On [[Morita equivalence]] and [[duality in physics]]/[[duality in string theory]]:
 
 * {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_ ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
