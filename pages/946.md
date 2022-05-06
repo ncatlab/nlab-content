@@ -10,6 +10,7 @@
 =--
 
 
+
 # The specialisation topology
 * table of contents
 {: toc}
@@ -128,19 +129,33 @@ This appears as ([Caramello, p. 55](#Caramello)).
 ###### Remark
 
 By the definition of the [[2-category]] [[Locale]] (see there), this means that $AlexPoset$ consists of those morphisms which have _right_ adjoints in [[Locale]].
+
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
 The functor $Alex\colon Poset \to Locale$ factors through $AlexLocale$ and exhibits an [[equivalence of categories]]
+
 $$
-  Alex\colon Poset \stackrel{\simeq}{\to} AlexLocale.
+  Alex
+   \colon 
+  Poset 
+    \stackrel{\simeq}{\to} 
+  AlexLocale  
+  \,.
 $$
-The inverse functor $$AlexLocale\to Poset$$
+
+The inverse functor 
+
+$$
+  AlexLocale \to Poset
+$$
+
 sends a locale $L$ to the [[poset]] of supercompact elements of $L$ (defined above)
-and morphism $f\colon L\to L'$ to the restriction of $f_!$
+and a morphism $f\colon L\to L'$ to the restriction of $f_!$
 to supercompact elements (which are preserved by $f_!$).
+
 =--
 
 This appears as ([Caramello, theorem 4.2](#Caramello)).
@@ -149,7 +164,8 @@ This appears as ([Caramello, theorem 4.2](#Caramello)).
 ###### Proposition
 
 
-The category of Alexandroff locales is equivalent to that of [[completely distributive lattice|completely distributive]] [[algebraic lattice]]s. 
+The [[category]] of Alexandroff locales is [[equivalence of categories|equivalent]] to that of [[completely distributive lattice|completely distributive]] [[algebraic lattices]]. 
+
 =--
 
 This appears as ([Caramello, remark 4.3](#Caramello)).
