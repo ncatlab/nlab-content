@@ -96,7 +96,8 @@ Further discussion includes
 
 * {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
 
-* Ben Heidenreich, [[Matthew Reece]], Tom Rudelius, _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
+* [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
+
 
 
 See also 
@@ -123,5 +124,9 @@ One question is if [[de Sitter spacetime]]-vacua belong to the swampland or not:
 
 * [[Frederik Denef]], Arthur Hebecker, Timm Wrase, _The dS swampland conjecture and the Higgs potential_ ([arXiv:1807.06581](https://arxiv.org/abs/1807.06581))
 
+* {#Danielsson18} [[Ulf Danielsson]], _The quantum swampland_ ([arXiv:1809.04512](https://arxiv.org/abs/1809.04512))
 
+  (argues that the issue with [[string theory|stringy]] de Sitter [[moduli stabilization]] raised in [Sethi 17](#Sethi17) is related to the de Sitter instability seen in QFT, according to the references [above](de+Sitter+spacetime#InPerturbativeQuantumGravity))
 
+[[!redirects swampland conjecture]]
+[[!redirects swampland conjectures]]
