@@ -27,7 +27,7 @@ Linear logic is sometimes thought of as being a logic for arguing about resource
 
 **Linear logic** is a [[substructural logic]] in which the [[contraction rule]] and the [[weakening rule]] are omitted, or at least have their applicability restricted.  
 
-In the original definition of ([Girard 87](#Girard)) linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton-Bierman-de Paiva-Hyland 92](#BentonBiermanPaivaHyland92), [Hyland-de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly-Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
+In the original definition of ([Girard 87](#Girard)) linear logic is the [[internal logic]] of/has [[categorical semantics]] in [[star-autonomous categories]] ([Seely 89, prop. 1.5](#Seely)). But more generally _linear logic_ came to refer to the [[internal logic]] of any possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (then usually called _multiplicative intuitionistic linear logic_ -- _MILL_) or even [[polycategory]] ([Szabo 78](#Szabo78) see the [history section](linear%20type%20theory#HistoryCategoricalSemantics) and see also [de Paiva 89](#dePaiva89), [Blute 91](#Blute91), [Benton--Bierman--de Paiva--Hyland 92](#BentonBiermanPaivaHyland92), [Hyland--de Paiva 93](#HylandPaiva93), [Bierman 95](#Bierman95), [Barber 97](#Barber97), [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09)). Under this interpretation, _[[proof nets]]_ (or the associated [[Kelly–Mac Lane graphs]]) of linear logic are similar to [[string diagrams]] for monoidal categories.  
 
 Indeed, these more general senses of linear logic still faithfully follow the original motivation for the term "linear" as connoting "resource availability" explained below (and in [Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
 
@@ -173,7 +173,7 @@ It is also a theorem that negation (except for the negations of propositional va
 
 The logical rules for [[negation]] can then be proved.
 
-In this way, linear logic in the original sense (interpreted in [[star-autonomous categories]])  has a perfect [[de Morgan duality]]. But observe that more general variants (interpreted in more general [[symmetric monoidal categories]]) need not, see for instance ([Hyland-de Paiva 93](#HylandPaiva93)).  
+In this way, linear logic in the original sense (interpreted in [[star-autonomous categories]])  has a perfect [[de Morgan duality]]. But observe that more general variants (interpreted in more general [[symmetric monoidal categories]]) need not, see for instance ([Hyland--de Paiva 93](#HylandPaiva93)).  
 
 We can also restrict attention to sequents with one term on either side as follows:  $\Gamma \vdash \Delta$ is valid if and only if $\bigotimes \Gamma \vdash \parr \Delta$ is valid, where $\bigotimes(A, B, C) \coloneqq A \otimes B \otimes C$, etc, and similarly for $\parr$ (using implicitly that these are associative, with identity elements to handle the [[empty sequence]]).
 
@@ -206,7 +206,7 @@ One can also consider adding additional rules to linear logic.  For instance, by
 
 [[linear-non-linear logic |Linear-non-linear logic]] is an equivalent presentation of intuitionistic linear logic that decomposes the $!$ modality into an adjunction between a cartesian logic and a linear one in which cartesian variables can also appear.
 
-Some models of linear logic allow for a _codereliction_ operation, which allows for one to take the "linear approximation" of a proof $!(A) \to B$. These models lead to the development of _differential linear logic_, the categorical semantics of which was laid out in ([Blute-Cockett-Seely](#Blute-Cockett-Seely06)).
+Some models of linear logic allow for a _codereliction_ operation, which allows for one to take the "linear approximation" of a proof $!(A) \to B$. These models lead to the development of _differential linear logic_, the categorical semantics of which was laid out in ([Blute--Cockett--Seely](#Blute-Cockett-Seely06)).
 
 ## Categorial semantics
 
@@ -356,7 +356,7 @@ $$ \forall\, q \in \mathbb{Q},\; (x \# q) $$
 
 That such pairs of statements commonly arise is a truism in constructive mathematics.  The point of the antithesis interpretation is that the pair $(P^+, P^-)$ may be derived systematically from a single statement $P^{\mathrm{L}}$ in linear logic.  And this is a [[sound interpretation]], in that any reasoning valid in linear logic (or even [[affine logic]]) will be constructively valid for both statements; that is, if $P^{\mathrm{L}} \vdash Q^{\mathrm{L}}$ in linear logic, then $P^+ \vdash Q^+$ and $Q^- \vdash P^-$ in constructive logic.  Therefore, as long as the reasoning is linear (or at least affine), one can prove intuitionistic theorems about both at once.
 
-The antithesis interpretation also explains why there are often both weak and strong versions of $P^-$ (or even $P^+$ sometimes), having especially to do with the interpretation of [[disjunction]].  This comes up already in defining what a [[set]] is, because of the nature of the [[equality relation]] on a set $S$.  As in the example about about rational and irrational real numbers, every set should also be equipped with an antithesis [[inequality relation]] $\#$, and the axioms for this may be derived from the axioms for an equality relation.  The [[transitive relation|transitivity]] axiom for equality has two obvious interpretations in linear logic, which lead to two different interpretations in intuitionistic logic as axioms for $\#$, a weak version (intepreting $\parr$) stating (for elements $x, y, z$ of $S$) that if $x \# z$, then $y \# z$ if $x = y$, and $x \# y$ if $y = z$; and a strong version (interpreting $\oplus$) stating that if $x \# z$, then $x \# y$ or $y \# z$.  (The weak version really does follow from the strong version because we also automatically have that $x = y$ and $x \# y$ can never both be true.)  Ultimately, the weak version says only that $\ne$ is an [[inequality relation]] on the set $S$, while the strong version says that $\ne$ is an [[apartness relation]].
+The antithesis interpretation also explains why there are often both weak and strong versions of $P^-$ (or even $P^+$ sometimes), having especially to do with the interpretation of [[disjunction]].  This comes up already in defining what a [[set]] is, because of the nature of the [[equality relation]] on a set $S$.  As in the example about about rational and irrational real numbers, every set should also be equipped with an antithesis [[inequality relation]] $\#$, and the axioms for this may be derived from the axioms for an equality relation.  The [[transitive relation|transitivity]] axiom for equality has two obvious interpretations in linear logic, which lead to two different interpretations in intuitionistic logic as axioms for $\#$: a weak version (intepreting $\parr$) stating (for elements $x, y, z$ of $S$) that if $x \# z$, then $y \# z$ if $x = y$, and $x \# y$ if $y = z$; and a strong version (interpreting $\oplus$) stating that if $x \# z$, then $x \# y$ or $y \# z$.  (The weak version really does follow from the strong version because we also automatically have that $x = y$ and $x \# y$ can never both be true.)  Ultimately, the weak version says only that $\ne$ is an [[inequality relation]] on the set $S$, while the strong version says that $\ne$ is an [[apartness relation]].
 
 Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint subsets.
 
@@ -413,7 +413,7 @@ The [[categorical semantics]] of linear logic in [[star-autonomous categories]] 
 
 and for the special case of [[quantales]] in 
 
-* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41-64.
+* [[David Yetter]], _Quantales and (noncommutative) linear logic_, Journal of Symbolic Logic 55 (1990), 41--64.
  {#Yetter90}
 
 The more general case of of multiplicative intuitionistic linear logic interpreted more generally in [[symmetric monoidal categories]] was systematically developed in
@@ -429,13 +429,13 @@ More recent articles exploring this include
  {#dePaiva89}
 
 * [[Richard Blute]], _Linear logic, coherence, and dinaturality_, Dissertation, University of Pennsylvania 1991, published in Theoretical Computer Science archive
-Volume 115 Issue 1, July 5, 1993  Pages 3 - 41 
+Volume 115 Issue 1, July 5, 1993  Pages 3--41 
  {#Blute91}
 
 * Nick Benton, Gavin Bierman, [[Valeria de Paiva]], [[Martin Hyland]], _Term assignments for intuitionistic linear logic_. Technical report 262, Cambridge 1992 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.8666), [ps](http://www.cs.bham.ac.uk/~vdp/publications/tr262.ps))
  {#BentonBiermanPaivaHyland92}
 
-* [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp.273-291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
+* [[Martin Hyland]], [[Valeria de Paiva]], _Full Intuitionistic Linear Logic_ (extended abstract). Annals of Pure and Applied Logic, 64(3), pp. 273--291, 1993. ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/fill.pdf))
  {#HylandPaiva93}
 
 * G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
@@ -493,7 +493,7 @@ Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logic
 
 * Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
 
-Discussion for [[matrix factorization]] in [[Landau-Ginzburg models]] is in
+Discussion for [[matrix factorization]] in [[Landau–Ginzburg models]] is in
 
 * {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
 
@@ -511,14 +511,14 @@ Systems of Nets_ ([pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.p
 
 The categorical semantics of differential linear logic is introduced in:
 
-* [[Richard Blute]], [[Robin Cockett]], [[Robert Seely]], _Differential Categories_, Mathematical structures in computer science 16.6 (2006): 1049-1083.([pdf](https://pdfs.semanticscholar.org/82b0/f9533b451d174f407b35e1c39e2376138ac2.pdf)) 
+* [[Richard Blute]], [[Robin Cockett]], [[Robert Seely]], _Differential Categories_, Mathematical structures in computer science 16.6 (2006): 1049--1083. ([pdf](https://pdfs.semanticscholar.org/82b0/f9533b451d174f407b35e1c39e2376138ac2.pdf)) 
 {#Blute-Cockett-Seely06}
 
 
 The antithesis interpretation is
 
 * [[Michael Shulman]], 2018. _Linear logic for constructive mathematics_. [arXiv:1805.07518](https://arxiv.org/abs/1805.07518).
-  {#Shulman2018}
+{#Shulman2018}
 
 (This is a prepublication version that does not yet include the name 'antithesis interpretation', which was suggested by a referee.  We must link to the published version when available.)
 
