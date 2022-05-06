@@ -668,7 +668,7 @@ $$
   E \coloneqq H \mathbb{Z}/p\mathbb{Z}
 $$ 
 
-be the corresponding [[Moore spectrum]]. Then a spectrum which corresponds to a [[chain complex]] under the [stable Dold-Kan corespondence](module+spectrum#StableDoldKanCorrespondence) is $E$-local, def. \ref{AcyclicAndLocal}, if that chain complex has [[chain homology]] groups being $\mathbb{Z}[p^{-1}]$-modules.
+be the corresponding [[Eilenberg-MacLane spectrum]]. Then a spectrum which corresponds to a [[chain complex]] under the [stable Dold-Kan corespondence](module+spectrum#StableDoldKanCorrespondence) is $E$-local, def. \ref{AcyclicAndLocal}, if that chain complex has [[chain homology]] groups being $\mathbb{Z}[p^{-1}]$-modules.
 
 The $E$-localization of a spectrum in this case is  _[[p-completion]]_.
 
