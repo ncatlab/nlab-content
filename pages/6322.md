@@ -35,6 +35,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
 * [[lattice QCD]]
 
+* [[AdS/QCD correspondence]]
+
 * [[quantum field theory]]
 
   * [[gauge theory]]
