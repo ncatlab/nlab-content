@@ -79,18 +79,25 @@ The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactifi
 
 Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$ on $S^7$ is via the canonical action of $SU(2)$ as in the [[quaternionic Hopf fibration]] ([Medeiros-Figueroa 10](#MedeirosFigueroa10)), while for $\mathcal{N} = 4$ then there is an extra twist to the action  ([MFFGME 09](#MFFGME09)). See the table [below](#WorldvolumeTheory).
 
+
 #### In the presence of 4-flux
+ {#BlackM2BranesInThePresenceOfG4Flux}
 
-In the presence of [[C-field]] [[flux]] $G_4$, the electric [[flux density]] of [[M2-branes]] is not $G_7 \coloneqq \star G_4$ alone, but the combination (e.g. [BLMP 13, p. 21](#BaggerLambertMukhiPapageorgakis13))
+In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux density]] of [[M2-branes]] is not $G_7 \coloneqq \star G_4$ alone, but receives corrections, first due to the quadratic [[C-field]] self-interaction in [[D=11 supergravity]], but then also due to the [[shifted C-field flux quantization]] expected in [[M-theory]]:
 
-$$
-  \widetilde G_7 
+\linebreak
+
+**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination ([Duff-Stelle 91 (43)](#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](#BaggerLambertMukhiPapageorgakis13)):
+
+\[
+  \label{FirstCorrectionToG7}
+  \widetilde G'_7 
   \;\coloneqq\;
   G_7 + \tfrac{1}{2} C_3 \wedge G_4
   \,,
-$$
+\]
 
-where the second term subtracts the magnetic flux induced by the self-intersection of the [[field]], and also ensures that the full expression is a [[closed differential form]]:
+where the second term subtracts the electric flux induced by the self-intersection of the [[field]], and also ensures that the full expression is a [[closed differential form]] if the naive [[11d supergravity]] [[equations of motion]] hold:
 
 $$
   d \widetilde G_7
@@ -99,6 +106,49 @@ $$
   \,.
 $$
 
+But in fact (eq:FirstCorrectionToG7) does not quite make general sense, for two reasons:
+
+1. In general $G_4 = 0$ is not an admissible condition and is not the actual vanshing of the [[C-field]], due to the [[shifted C-field flux quantization]].
+
+1. Even if $G_4$ happens to be intregrally quantizaed (if $\tfrac{1}{4}p_1$ is interal) the appearance of a globally defined [[C-field]] potential $C_3$ in (eq:FirstCorrectionToG7),means that the total [[flux]] actually does vanish after all.
+
+\linebreak
+
+**Charge-quantized $\widetilde G_7$-flux with [[shifted C-field flux quantization]]** ([FSS 19b, Prop. 4.3](#FSS19b), [FSS 19c, Section 4](#FSS19c))
+
+Both of these issues are solved if the [[C-field]] is taken to be [[charge quantization|charge quantized]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]). This gives the corrected formula 
+
+\[
+  \label{FullCorrectionToG7}
+  \widetilde G_7 
+  \;\coloneqq\;
+  h^\ast G_7 + \tfrac{1}{2} H_3 \wedge h^\ast \widetilde G_4
+\]
+
+where
+
+<div style="float:right;margin:0 10px 10px 0;">
+<a href="">
+<img src="https://ncatlab.org/schreiber/files/6dWZFromHomotopyLifting.jpg" width="440" />
+</a></div>
+
+1. the expression lives on the [[homotopy pullback]] of the [[Sp(2)]]-[[parametrized homotopy theory|parametrized]] [[quaternionic Hopf fibration]] 
+
+   $$
+     h \coloneqq h_{\mathbb{H}}\sslash Sp(2)
+   $$ 
+
+   to [[spacetime]], along the [[twisted Cohomotopy]]-[[cocycle]] that represents the [[C-field]] under [[schreiber:Hypothesis H]];
+
+1. $\widetilde G_4 \coloneqq h^\ast G_4 + \tfrac{1}{4}h^\ast p_1(\nabla)$ is the integral [[shifted C-field flux quantization|shifted C-field]] pulled back to that 3-[[spherical fibration]] over spacetime;
+
+1. $d H_3 = h^\ast G_4 - \tfrac{1}{4}h^\ast p_1(\nabla)$ trivializes not the C-field itself, but its pullback, and not absolutely but relative to the background charge implied by [[shifted C-field flux quantization]].
+
+With the corrected 7-flux in [[twisted Cohomotopy]] it becomes true that 
+
+1. the integral of $G_7$ around the [[7-sphere]] linking a [[black brane|black]] [[M2-brane]] is always [[integer]] ([FSS 19c, Theorem 4.6](#FSS19c));
+
+1. this integer satisfies the [[C-field tadpole cancellation condition]] ([FSS 19b, Section 4.6](#FSS19b)).
 
 
 
@@ -184,6 +234,8 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ### As a fundamental brane (GS-type $\sigma$-model)
 
+#### Classical
+
 The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) first appears in 
 
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
@@ -224,7 +276,7 @@ around the time when [[M-theory]] became accepted due to
 
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
-#### Regularization and relation to BFSS
+#### Quantization and BFSS-matrix model
 {#RegularizationReferences}
 
 The proposed regularization, due to [deWit-Hoppe-Nicolai 88](#deWitHoppeNicolai88), of area-preserving diffeomorphisms on the [[membrane]] [[worldvolume]]
@@ -239,13 +291,11 @@ by [[SU(n)|SU(N)]]-matrices and the resulting equivalence of the [[quantization]
 
 ### As a black brane
 
-#### Fluxless
-
 The back membrane solution of [[11-dimensional supergravity]] was found in
 
-* [[Mike Duff]], [[Kellogg Stelle]], _Multimembrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386?ln=en))
+* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
-Its regularity throught the [[event horizon]] is due to
+Its regularity throughout the [[event horizon]] is due to
 
 * {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys.Lett.B332:321-328,1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
 
@@ -297,7 +347,7 @@ Other recent developments are discussed in
 
 * [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
 
-* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](#http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
 * [[Nathan Berkovits]], _Towards Covariant Quantization of the Supermembrane_ ([arXiv:hep-th/0201151](http://arxiv.org/abs/hep-th/0201151))
 
@@ -320,13 +370,14 @@ Discussion of general phenomena of [[M-branes]] in [[higher geometry]] and [[gen
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
+Discussion of $G7$-[[charge quantization]] in the fluxed case:
 
-#### Fluxed
+ {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
-* [Bagger-Lambert-Mukhi-Papageorgakis 13, p. 21](#BaggerLambertMukhiPapageorgakis13)
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
-(...)
+
  
 
 ### Dualities
