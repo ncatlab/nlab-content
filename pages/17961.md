@@ -1,7 +1,13 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+
+
 ## Idea
 
-The refinement of [[rational homotopy theory]] as chains in [[ordinary cohomology]] with [[rational number]] [[coefficients]] are lifted to chains with [[integer]] coefficients.
+_Integral chains homotopy theory_ is the refinement of [[rational homotopy theory]] as chains in [[ordinary cohomology]] with [[rational number]] [[coefficients]] are lifted to chains with [[integer]] coefficients.
 
 ## References
 
