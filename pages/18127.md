@@ -924,6 +924,7 @@ Definition \ref{FundamentalGroupoidAndFundamentalGroup} intentionally offers two
 defintion.
 
 The first, the _[[fundamental groupoid]]_ is canonically given, without choosing a
+
 basepoint. As a result, it is a structure that is not quite a [[group]] but, slightly more generally, a "[[groupoid]]"
 (a "group with many objects"). We discuss the concept of [[groupoids]] [below](#Groupoid).
 
@@ -2517,19 +2518,33 @@ $\,$
 **([[covering space]])**
 
 Let $X$ be a [[topological space]].
-A _[[covering space]]_ of $X$ is a [[continuous function]]
+A _[[covering space]]_ over $X$ is a [[continuous function]]
 
 $$
   p \colon E \longrightarrow X
 $$
 
-such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted
-to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$
-to the [[product topological space]] ([this example](Introduction+to+Topology+--+1#ProductTopologicalSpace)) of $U_i$
-with the [[discrete topological space]] ([this example](Introduction+to#topology+--+1#CoDiscreteTopology)) on a [[set]] $F_i$,
+that is [[local trivialization|locally trivial]] in that there exists:
 
-In summary this says that $p \colon E \to X$ is a covering space if there exists a [[pullback]] [[diagram]] in [[Top]]
-of the form
+1. an [[open cover]] $\underset{i \in I}{\sqcup}U_i \to X$,
+
+1. for each $i \in I$ a set $F_i$ and a [[homeomorphism]] over $U_i$
+
+$$
+  \array{
+     U_i \times Disc(F_i) && \overset{\simeq}{\longrightarrow} && \p^{-1}(U_i)
+    \\
+    & {}_{\mathllap{pr_1}}\searrow && \swarrow_{\mathrlap{p|_{U_i}}}
+    \\
+    && U_i
+  }
+$$
+
+   from the [[product topological space]] ([this example](Introduction+to+Topology+--+1#BinaryProductTopologicalSpace)) of $U_i$
+with the [[discrete topological space]] ([this example](Introduction+to+Topology+--+1#CoDiscreteTopology)) on $F_i$ to $p|_{U_i}$.
+
+
+In other words $p \colon E \to X$ is a covering space if there exists a [[pullback|pullback diagram]] in [[Top]] of the form
 
 $$
   \array{
@@ -2542,7 +2557,7 @@ $$
   \,.
 $$
 
-For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called the _[[leaves]]_ of the covering at $x$.
+For $x \in U_i \subset X$ a point, the elements in $F_x  = F_i$ are called the _[[leaves]]_ of the covering at $x$.
 
 Given two covering spaces $p_i \colon E_i \to X$ , then a [[homomorphism]] between them is
 a [[continuous function]] $f \colon E_1 \to E_2$ between the total covering spaces, which respects
@@ -2595,7 +2610,7 @@ $$
 
 is called a _trivialization_ of $E \overset{p}{\to} X$.
 
-It is in this sense that evry coverin space $E$ is, by definition, locally trvializable.
+It is in this sense that evry covering space $E$ is, by definition, locally trvializable.
 
 =--
 
@@ -2610,15 +2625,15 @@ It is in this sense that evry coverin space $E$ is, by definition, locally trvia
 
 Regard the [[circle]] $S^1 = \{ z \in \mathbb{C}  \;\vert\; {\vert z\vert} = 1 \}$ as the [[topological subspace]]
 of elements of unit [[absolute value]] in the [[complex plane]].
-For $k \in \mathbb{N}$, consider the continuous function
+For $k \in \mathbb{N}^{+}$, consider the continuous function
 
 $$
   p \coloneqq (-)^k \;\colon\; S^1 \longrightarrow S^1
 $$
 
-given by taking a complex number to its $k$th power. This may be thought of as the
+given by taking a complex number to its $k$-th power. This may be thought of as the
 result of "winding the circle $k$ times around itself".
-Precisely, for $k \geq 1$ this is a [[covering space]]
+Precisely, this is a [[covering space]]
 (def. \ref{CoveringSpace}) with $k$ leaves at each point.
 
 > graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
@@ -2690,7 +2705,7 @@ If $p \colon E \to X$ is a covering space projection, then $p$ is an [[open map]
 +-- {: .proof}
 ###### Proof
 
-By definition of covering space there exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ and [[homeomorphisms]] $p^{-1}(U_i) \simeq U_i \times Disc(F_i)$ for all $i \in I$. Since the [[projections]] out of a [[product topological space]] are [[open maps]] ([this prop.](product+topological+space#ProjectionsAreOpenMaps)), it follows that $p$ is an open map when restricted to any of the $p^{-1}(U_i)$. But a general open subset $W \subset E$ is the union of its restrictions to these subspaces:
+By definition of covering space there exists an [[open cover]] $\{U_i \subset X\}_{i \in I}$ and [[homeomorphisms]] $p^{-1}(U_i) \simeq U_i \times Disc(F_i)$ for all $i \in I$. Since the [[projections]] out of a [[product topological space]] are [[open maps]] ([this prop.](Introduction+to+Topology+--+1#ProjectionsAreOpenContinuousFunctions)), it follows that $p$ is an open map when restricted to any of the $p^{-1}(U_i)$. But a general open subset $W \subset E$ is the union of its restrictions to these subspaces:
 
 $$
   W = \underset{i \in I}{\cup} (W \cap p^{-1}(U_i))
@@ -3738,7 +3753,7 @@ $$
 ###### Example/Definition
 **([[group representations]] are [[groupoid representations]] of [[delooping]] [[groupoids]])**
 
-If here $\mathcali{G} = B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
+If $\mathcal{G} = B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
 a [[groupoid representation]] of $B G$ is a _[[group representation]]_ of $G$ (def. \ref{GroupoidRepresentation}), and one writes
 
 $$
@@ -3751,23 +3766,22 @@ For each object $x \in X$ the canonical inclusion of the delooping groupoid of t
 (from def. \ref{InGrupoidAutomorphismGroup})
 
 $$
-  inc_x \;\colon\; B Aut_{\math} \hookrightarrow \mathcal{G}
+  inc_x \;\colon\; B Aut_{\mathcal{G}}(x) \hookrightarrow \mathcal{G}
 $$
 
 induces by precomposition a homomorphism of representation groupoids:
 
 $$
-  Hom(inc_x, Core(\mathcal{C}))
+  inc_x^*
     \;\colon\;
-  Rep(\mathcal{G}, \mathcal{C})
+  Rep(\mathcal{G})
     \longrightarrow
-  Rep(Aut_{\mathcal{G}}(x), \mathcal{C})
+  Rep(B Aut_{\mathcal{G}}(x))
   \,.
 $$
 
 We say that a groupoid representation is _faithful_ or _free_ if for all objects $x$
-its restriction to a group representation of $Azt_{\mathcal{G}}(x)$ this way is transitive or free,
-respectively.
+its restriction to a group representation of $Aut_{\mathcal{G}}(x)$ this way is transitive or free, respectively.
 
 Here the representation $\rho$ of a group $G$ on some set $S$
 
@@ -4758,4 +4772,3 @@ Lecture notes include
 $\,$
 
 $\,$
-
