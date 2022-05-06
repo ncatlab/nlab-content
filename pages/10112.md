@@ -166,6 +166,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[vector meson]]
 
+* [[XYZ particle]]
+
 * [[hadron]], [[baryon]]
 
 * [[Skyrmion]]
