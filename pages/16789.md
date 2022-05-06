@@ -682,7 +682,7 @@ All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  
 
 Speculative remarks on the possible role of maps from [[spacetime]] to the [[4-sphere]] in some kind of [[quantum gravity]] via [spectral geometry](spectral+triple)  are in 
 
-* [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, section 4 of _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
+* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, section 4 of _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
 
 * {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, Foundations of Mathematics and Physics One Century After Hilbert. Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470))
 
