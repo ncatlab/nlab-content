@@ -115,7 +115,7 @@ In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram correspon
 ### Tangent Structure as abstract Weil Prolongation
 
 
-There is a vast literature on the notion of a "Weil functor". A particularly important theorem is that every product preserving endofunctor on the category of smooth manifolds is given by a ``prolongation'' operation with a Weil algebra. To simplify this section, we will only consider the case of tangent categories with negatives - see Leung's thesis to see the generalization to commutative rigs.
+There is a vast literature on the notion of a "Weil functor". A particularly important theorem is that every product preserving endofunctor on the category of smooth manifolds is given by a prolongation operation with a Weil algebra. To simplify this section, we will only consider the case of tangent categories with negatives - see Leung's thesis to see the generalization to commutative rigs.
 
 #### Weil Algebras
 
@@ -192,6 +192,8 @@ of $\mathsf{Weil}_1$.
 
 ### Tangent Structure as a Weighted Limit
 
+
+Using a theorem due to [[Richard Wood]], a
 ## References
 
 The definition is due to
