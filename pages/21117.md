@@ -38,6 +38,8 @@ See also
 
 * Alexander Jahn, Marek Gluza, Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
+* [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
+
 [[!redirects quantum error correction code]]
 [[!redirects quantum error correction codes]]
 
