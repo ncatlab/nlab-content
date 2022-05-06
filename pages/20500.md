@@ -25,6 +25,9 @@ The original expression due to [Whitehead 47](#Whitehead47) (see [Bott-Tu 82, Pr
 
 More generally the homotopy Whitehead formula applies to general [[cocycles]] in [[cohomotopy]]. Its existence was suggested in [Haefliger 78, p. 17](#Haefliger78), worked out for the case of maps from the [[3-sphere]] to the [[2-sphere]] in [Griffith-Morgan 81, Section 14.5](#GriffithMorgan13) and stated generally but without proof in [Sinha-Walter 13, Example 1.9](#SinhaWalter13). A transparent proof of the general expression via lifts in [[cohomotopy]] through [[Hopf fibrations]] is in [FSS 19](#FSS19), relating the expression to the [[Hopf-Wess-Zumino term]] of the [[M5-brane]].
 
+## Related concepts
+
+* [[functional cup product]]
 
 ## References
 
@@ -46,7 +49,7 @@ More generally the homotopy Whitehead formula applies to general [[cocycles]] in
 
 * {#SinhaWalter13} [[Dev Sinha]], [[Ben Walter]], _Lie coalgebras and rational homotopy theory II: Hopf invariants_, Trans. Amer. Math. Soc. 365 (2013), 861-883  ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084), [doi:10.1090/S0002-9947-2012-05654-6](https://doi.org/10.1090/S0002-9947-2012-05654-6))
 
-* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, 2019 ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. 2020 ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
 [[!redirects Whitehead integral formulas]]
