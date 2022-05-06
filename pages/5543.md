@@ -104,6 +104,11 @@ See the dicussion [here](https://nforum.ncatlab.org/discussion/7220/dense-subsit
 
   * Similarly for $C = $ [[Diff]] the category of [[paracompact topological space|paracompact]] [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site: every such smooth manifold has a _differentiably_ [[good open cover]] (see there): a good cover by open balls each of which are [[diffeomorphic]] to a [[Cartesian space]].
 
+## Warning
+
+Replacing [[sheaves]] by [[(∞,1)-sheaves]] of [[spaces]] produces a strictly stronger notion.
+See [[(∞,1)-comparison lemma]] for a sufficient criterion for a dense inclusion of [[(∞,1)-sites]].
+
 ## Remark
 
 There is also the notion of _[[dense subcategory]]_, which is however only remotly related to the concept of a _dense sub-site_ by both vaguely invoking the topological concept of a [[dense subspace]].
@@ -111,6 +116,8 @@ There is also the notion of _[[dense subcategory]]_, which is however only remot
 ## Related entries
 
 * [[comparison lemma]]
+
+* [[(∞,1)-comparison lemma]]
 
 * [[covering lifting property]]
 
