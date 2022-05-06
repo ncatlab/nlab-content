@@ -184,6 +184,11 @@ The [[p-localization]] of $MU$ decomposes into the
 
 * {#Stong68} [[Robert Stong]], Chapter VII of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
+* {#ConnerSmith69} [[Pierre Conner]], [[Larry Smith]], _On the complex bordism of finite complexes_, Publications Mathématiques de l'IHÉS, Tome 37 (1969) , pp. 117-221 ([numdam:PMIHES_1969__37__117_0](http://www.numdam.org/item/?id=PMIHES_1969__37__117_0))
+
+* [[Larry Smith]], _On Realizing Complex Bordism Modules: Applications to the Stable Homotopy of Spheres_, American Journal of Mathematics Vol. 92, No. 4 (Oct., 1970), pp. 793-856 ([doi:10.2307/2373397](https://doi.org/10.2307/2373397))
+
+
 * {#Landweber70} [[Peter Landweber]], _On the complex bordism and cobordism of infinite complexes_, Bull. Amer. Math. Soc. Volume 76, Number 3 (1970) ([Euclid](http://projecteuclid.org/euclid.bams/1183531832)) 
 
 * {#Adams74} [[Frank Adams]], _Stable homotopy theory and generalized homology_, Chicago lectures in mathematics, 1974
