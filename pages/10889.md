@@ -28,6 +28,6 @@ What is called _effective homology_ is the study of (effective) [[algorithms]] f
 
 ## References
 
-* Francis Sergeraert, _Effective homology, a survey_ ([pdf](http://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Survey.pdf))
+* [[Francis Sergeraert]], _Effective homology, a survey_ ([pdf](http://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Survey.pdf))
 
 [[!redirects effective homology theory]]
