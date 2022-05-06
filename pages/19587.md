@@ -67,6 +67,16 @@ for each simplex $\sigma$ of the boundary simplicial complex $\partial \Delta[k-
  For $(X,x)$ a pointed space, if $(X,x)$ is path-connected, then $fil_\infty \simeq \Omega\Sigma X$.
 =--
 
+## Properties
+
+### Relation to configuration spaces
+
+The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]] to the [[configuration space (mathematics)|configuration space]] $C(\mathbb{R}^1, X)$ of points in the [[real line]] with "[[charges]]" taking values in $X$.
+
+(e.g. [Bödigheimer 87, Example 9](#Boedigheimer87))
+
+
+
 ## References
 
 
@@ -80,10 +90,17 @@ Review includes
 
 * Wikipedia, _[James reduced product](https://en.wikipedia.org/wiki/James_reduced_product)_
 
+Discussion via [[configuration space (mathematics)|configuration spaces]] includes
+
+* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
+
+
 Discussion via [[homotopy type theory]] includes the following
 
 * {#Brunerie13} [[Guillaume Brunerie]] _The James Construction and $\pi_4(S^3)$_, talk at the Institute of Advanced Studies on March 27, 2013 ([recording](https://video.ias.edu/univalent/1213/0327-GuillaumeBrunerie))
 
 * {#Brunerie17} [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_ ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307))
+
+
 
 [[!redirects James constructions]]
