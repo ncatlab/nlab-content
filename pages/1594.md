@@ -179,19 +179,25 @@ Survey of applications in [[mathematical physics]] and notably in [[string theor
 
 
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
-
  
 
 * {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
 
-* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
-  
+* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
 * {#Lerman08} [[Eugene Lerman]], _Orbifolds as stacks?_, Enseign. Math. (2), 56 3-4 (2010) ([arXiv:0806.4160](http://arxiv.org/abs/0806.4160), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
+
+Discussion of the corresponding perspective in [[algebraic geometry]], via [[Deligne-Mumford stacks]]:
+
+* {#Kresch09} [[Andrew Kresch]], _On the geometry of Deligne-Mumford stacks_ ([doi:10.5167/uzh-21342](https://doi.org/10.5167/uzh-21342), [pdf](https://www.zora.uzh.ch/id/eprint/21342/1/geodm.pdf)), in:  D. Abramovich, A. Bertram, L. Katzarkov, R. Pandharipande, M. Thaddeus (eds.) _Algebraic Geometry: Seattle 2005_, Proceedings of Symposia in Pure Mathematics 80, Providence, Rhode Island: American Mathematical Society 2009, 259-271 ([pspum-80-1](https://bookstore.ams.org/pspum-80-1))
+
 
 The [[mapping stacks]] of orbifolds are discussed in
 
 * W. Chen, _On a notion of maps between orbifolds_, I. Function spaces, Commun. Contemp. Math. 8 (2006), no. 5, 569&#8211;620.
+
+* {#RobertsVozzo18} [[David Roberts]], [[Raymond Vozzo]], _The Smooth Hom-Stack of an Orbifold_, In : Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1. Springer, Cham (2018) ([arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [doi:10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3))
+
 
 Orbifolds often appear as [[moduli spaces]] in differential geometric setting:
 
