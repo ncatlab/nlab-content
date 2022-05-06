@@ -1,6 +1,12 @@
+> For the concept of the same name in [[functional analysis]] see at [[Smith space (functional analysis)]].
+
+#Contents#
+* table of contents
+{:toc}
+
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-In 1966, [J. Wolfgang Smith](http://www.ams.org/mathscinet/search/author.html?mrauthid=541554) studied the following [[generalized smooth space|extension of the notion of a smooth manifold]].
+In 1966, J. Wolfgang Smith studied the following [[generalized smooth space|extension of the notion of a smooth manifold]].
 
 +-- {: mynumdef #SmithSp}
 ###### Definition
@@ -12,5 +18,5 @@ A _plot_ of $(X, \mathcal{F})$ is a continuous map $\phi : U \to X$ with domain 
 The closure condition is that if a continuous map $f: X \to \mathbb{R}$ has the property that whenever $\phi: U \to X$ is a plot for $(X, \mathcal{F})$ then $f \circ \phi \in C^\infty(U)$ then $f \in \mathcal{F}$.
 =--
 
-# References #
-* [The de Rham theorem for general spaces.](http://www.ams.org/mathscinet-getitem?mr=202154) 1966
+## References ##
+* [[J. Wolfgang Smith]], _The de Rham theorem for general spaces_, Tohoku Math. J. (2), Volume 18, Number 2 (1966), 115-137, ([project euclid](https://projecteuclid.org/euclid.tmj/1178243443))
