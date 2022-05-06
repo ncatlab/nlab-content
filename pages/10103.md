@@ -106,7 +106,7 @@ The same is true for the monad on enriched graphs whose algebras are categories 
 
 ## References
 
-* [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [spnet](https://selectedpapers.net/arxiv/1106.1977)
+* [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [[TAC]] 28(26), 2013, ([tac](http://www.tac.mta.ca/tac/volumes/28/26/28-26abs.html))
  {#Weber}
 
 [[!redirects distributive monoidal categories]]
