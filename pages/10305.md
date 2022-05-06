@@ -22,7 +22,7 @@
 
   (at [[temperatures]] that these bound states decay one speaks of a _[[quark gluon plasma]]_)
 
-  * [[mesons]] are bound states of specifically of two [[quarks]]
+  * [[mesons]] are bound states specifically of two [[quarks]]
 
     * [[pions]], [[rho-mesons]] and [[omega-mesons]] are bound states of an [[up quark]] with a [[down quark]]
 
@@ -31,7 +31,7 @@
     * [[B-mesons]] are bound states of a [[bottom quark]] with either an [[up quark]] or a [[down quark]] or a [[strange quark]] or a [[charm quark]]
 
 
-  * [[baryons]] are bound states specifically of three [[quarks]]
+  * [[baryons]] are bound states specifically of three [[quarks]], or rather of one [[quark]] and a [[diquark]]
 
     * [[nuclei]] are bound states of three among the [[up quarks]] and the [[down quarks]]
 
