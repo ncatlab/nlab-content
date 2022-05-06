@@ -33,9 +33,9 @@ Work conducted in homotopy type theory:
 
 * [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_, ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315)) 
 
-* [[Nicolai Kraus]], [[Thorsten Altenkirch]], Free Higher Groups in Homotopy Type Theory, ([arXiv:1805.02069](https://arxiv.org/abs/1805.02069)) 
+* [[Nicolai Kraus]], [[Thorsten Altenkirch]], _Free Higher Groups in Homotopy Type Theory_, ([arXiv:1805.02069](https://arxiv.org/abs/1805.02069)) 
 
-* [[Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], Localization in Homotopy Type Theory, ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))  
+* [[Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))  
 
 * [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_, ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307))
 
@@ -45,11 +45,11 @@ Work conducted in homotopy type theory:
 
 > Construction of the [[quaternionic Hopf fibration]]
 
-* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], Cellular Cohomology in Homotopy Type Theory, ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191)) 
+* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191)) 
 
 * [[Ulrik Buchholtz]], [[Egbert Rijke]], _The real projective spaces in homotopy type theory_, ([arXiv:1704.05770](https://arxiv.org/abs/1704.05770)) 
 
-* [[Robert Graham]], Synthetic Homology in Homotopy Type Theory, ([arXiv:1706.01540](https://arxiv.org/abs/1706.01540))  
+* [[Robert Graham]], _Synthetic Homology in Homotopy Type Theory_, ([arXiv:1706.01540](https://arxiv.org/abs/1706.01540))  
 
 * [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_, ([arXiv:1606.05916](https://arxiv.org/abs/1606.05916))
 
