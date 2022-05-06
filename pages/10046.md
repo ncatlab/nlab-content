@@ -66,13 +66,17 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 * Continuous lattices are those [[complete lattices]] for which taking [[suprema]] of directed subsets commutes with taking [[infima]] of arbitrary subsets. 
 
-* A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale|locally compact]], or equivalently [[exponentiable object|exponentiable]] in the [[category of locales]].  A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an inflattice morphism) is Scott-continuous.
-
 * The [[forgetful functor]] $U$ from the category of continuous lattices to the [[category of sets]] is [[monadic functor|monadic]] if we use Scott-continuous inflattice morphisms. Here the left adjoint of $U$ takes a set $X$ to the lattice of [[filters]] on $X$ (that is filters in the [[power set]] Boolean algebra $P X$). For more, see [[filter monad]]. 
 
 * The category of continuous lattices is [[cartesian closed category|cartesian closed]] if we use all Scott-continuous functions.  This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
 
 * Every continuous lattice is a [[Baire lattice]].
+
+## Examples
+
+* A [[locale]] is called [[locally compact locale|locally compact]] just when the coressponding [[frame]] is a continuous lattice. This is equivalently to being an [[exponentiable object|exponentiable]] in the [[category of locales]]. A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an [[inflattice]] morphism) is [[Scott topology|Scott-continuous]].
+
+* As a consequence the [[category of open subsets|lattice of open subsets]] of a topological space is a continuous lattice if and only if the [[sobrification]] of the topological space is [[locally compact]] (i.e. the topology has a basis of compact neighborhoods).
 
 
 ## Related pages
