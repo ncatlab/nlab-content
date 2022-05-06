@@ -3,6 +3,10 @@ $\omega$ $\rho$ $\phi$
 
 $\ell$
 
+$\Upsilon$
+
+$\eta$
+
 $\mathbb{O}$
 
 $q \in \mathbb{H}$
