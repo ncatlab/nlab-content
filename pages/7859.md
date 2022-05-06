@@ -369,6 +369,10 @@ Systematic discussion of Brauer groups in [[derived algebraic geometry]] is in
 
 * {#AntieauGepner12} [[Benjamin Antieau]], [[David Gepner]], _Brauer groups and &#233;tale cohomology in derived algebraic geometry_, Geom. Topol. 18 (2014) 1149-1244 ([arXiv:1210.0290](http://arxiv.org/abs/1210.0290))
 
+For the Brauer-Picard 2-group of a tensor category, see
+
+* [[Alexei Davydov]], [[Dmitri Nikshych]], _Braided Picard groups and graded extensions of braided tensor categories_, ([arXiv:2006.08022](https://arxiv.org/abs/2006.08022))
+
 [[!redirects Brauer groups]]
 
 [[!redirects bigger Brauer group]]
