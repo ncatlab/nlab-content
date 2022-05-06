@@ -814,6 +814,11 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 * Kazuo Ghoroku, Akihiro Nakamura, Tomoki Taminato, Fumihiko Toyoda, _Holographic Penta and Hepta Quark State in Confining Gauge Theories_,
 JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 
+#### Parton distribution functions
+
+
+* Matteo Rinaldi, _Double parton correlations in mesons within AdS/QCD soft-wall models: a first comparison with lattice data_ ([arXiv:2003.09400](https://arxiv.org/abs/2003.09400))
+
 
 ### Glueball physics
 
