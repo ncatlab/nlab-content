@@ -147,113 +147,20 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By one of the axioms for a category of fibrant objects, there is a commutative diagram 
+We can construct the following diagram:
 
-$$
-   \array{
-      Y &  \overset{c}{\to}                    & Y^I \\
-         &  \underset{\Delta}{\searrow} & \downarrow e \\
-         &                                                 & Y \times Y 
-   }
-$$
+\begin{tikzcd}
+X \arrow[rdd, "{(id,f)}", bend right] \arrow[rrrd, "f", bend left] \arrow[rd, "\exists ! j", dashed] &                                                                                                                                                          &                                            &                                         \\
+                                                                                                     & Z \arrow[d, "\pi_1^Z"] \arrow[r, "\pi_0^Z"] \arrow[dr, phantom, "\lrcorner", very near start]                                                            & Y^I \arrow[d, "e"]                         & Y \arrow[l, "c"'] \arrow[ld, "\Delta"'] \\
+                                                                                                     & X \times Y \arrow[r, "f \times id"] \arrow[d, "\pi_0^{X \times Y}"] \arrow[ld, "\pi_1^{X \times Y}"']  \arrow[dr, phantom, "\lrcorner", very near start] & Y \times Y \arrow[d, "\pi_0^{Y \times Y}"] &                                         \\
+Y                                                                                                    & X \arrow[r, "f"]                                                                                                                                         & Y                                          &                                        
+\end{tikzcd}
 
-in $\mathcal{C}$ in which $c$ is a weak equivalence, and in which $e$ is a fibration. 
+The triangle on the right exists with $c$ a weak equivalence and $e$ a fibration, as categories of fibrant objects have path objects. As $e$ is a fibration, we can pullback along $f \times id$ to get the upper-left pullback square. By the universal property of this pullback square, we can produce a unique $X \overset j \to Z$ which makes the top half of the diagram commute.
 
-Since $e$ is a fibration, there is, by one of the axioms for a category of fibrant objects, a cartesian square in $\mathcal{C}$ as follows.
+We let $g$ be the composite $Z \overset{\pi_1^Z} \to X \times Y \overset{\pi_1^{X \times Y}} \to Y$ so that $g \circ j = f$; these are fibrations due to being a pullback of the fibration $e$ and a product projection (Fact 1), so their composite $g$ is a fibration too.
 
-$$
-   \array{
-      Z                            &  \overset{u_{0}}{\to} & Y^I \\
-      u_{1} \downarrow &                                      & \downarrow e \\
-      X \times Y               & \underset{f \times id}{\to}  & Y \times Y 
-   }
-$$
-
-Let $g : Z \to Y$ be $p_{Y} \circ u_{1}$, where $p_{Y} : X \times Y \to Y$ is the projection arrow. 
-
-Since $e$ is a fibration, we have, by one of the axioms for a category of fibrant objects, that $u_{1}$ is a fibration. By Fact 1, the arrow $p_{Y}$ is a fibration. Since a composition of fibrations in a category of fibrant objects is a fibration, we deduce that $g$ is a fibration.
-
-The following diagram in $\mathcal{C}$ commutes.
-
-$$
-   \array{
-      X                                  &  \overset{c \circ f}{\to}      & Y^I \\
-      (id, f) \downarrow &                                             & \downarrow e \\
-      X \times Y                     & \underset{f \times id}{\to} & Y \times Y \\ 
-   }
-$$
-
-By the universal property of a pullback, we deduce that there is an arrow $j : X \to Z$ such that the diagrams 
-
-$$
-   \array{
-      X                                  &  \overset{f}{\to}            & Y \\
-      j \downarrow                &                                        & \downarrow c \\
-      Z                     & \underset{u_{0}}{\to}  & Y^I \\ 
-   }
-$$
-
-and 
-
-$$
-   \array{
-      X &  \overset{j}{\to}                             & Z \\
-         &   \underset{(id, f)}{\searrow} & \downarrow u_{1} \\
-         &                                                         & X \times Y
-   }
-$$
-
-in $\mathcal{C}$ commute. By the commutativity of the second of these diagrams, and the fact that the diagram 
-
-$$
-   \array{
-      X &  \overset{id \times f}{\to}  & X \times Y \\
-          &  \underset{id}{\searrow} & \downarrow p_{X} \\
-          &                                           & X 
-   }
-$$
-
-in $\mathcal{C}$ commutes, the diagram 
-
-$$
-   \array{
-      X &  \overset{j}{\to}                & Z \\
-         &  \underset{id}{\searrow} & \downarrow r \\
-         &                                           & X 
-   }
-$$
-
-in $\mathcal{C}$ commutes.
-
-Let $r : Z \to X$ be $p_{X} \circ u_{1}$, where $p_{X} : X \times Y \to X$ is the projection arrow. 
-
-Let 
-
-$$
-Y \overset{p_{0}}{\leftarrow} Y \times Y \overset{p_{1}}{\rightarrow} Y
-$$ 
-
-be a product diagram in $\mathcal{C}$. The following diagram in $\mathcal{C}$ is a cartesian square. 
-
-$$
-   \array{
-      X \times Y               &  \overset{f \times id }{\to} & Y  \times Y \\
-      p_{X} \downarrow &                                            & \downarrow p_{0} \\
-      X                            &  \underset{f}{\to}              & Y \\ 
-   }
-$$
-
-Thus the following diagram in $\mathcal{C}$ is a cartesian square. 
-
-$$
-   \array{
-      Z                    &  \overset{u_{0}}{\to} & Y^I \\
-      r \downarrow &                                      & \downarrow p_{0} \circ e \\
-      X                    & \underset{f}{\to}         & Y \\ 
-   }
-$$
-
-By Fact 2, the arrow $p_{0} \circ e$ is a trivial fibration. By one of the axioms for a category of fibrant objects, we deduce that $r$ is a trivial fibration. 
+We let $r$ be the composite $Z \overset{\pi_1^Z} \to X \times Y \overset{\pi_0^{X \times Y}} \to X$ so that $r \circ j = id_X$. As the upper square and lower square are both pullback squares, $r$ is the pullback of the morphism $Y^I \overset{e} \to Y \overset{\pi_0^{Y\times Y}} \to Y$ (which is an acyclic fibration by Fact 2), hence $r$ is also an acyclic fibraiton.
 
 =--
 
