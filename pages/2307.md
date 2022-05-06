@@ -26,8 +26,14 @@ On the other hand, [[framed manifold|framed]] cobordism cohomology theory ($M G$
 See at those entries for more.
 
 
-## Related concepts
+## Examples
 
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
+
+
+## Related concepts
 
 * the refinement of cobordism cohomology theory to [[differential cohomology]] is [[differential cobordism cohomology]].
 
@@ -37,9 +43,6 @@ See at those entries for more.
 
 * [[Adams-Novikov spectral sequence]]
 
-\linebreak
-
-[[!include flavours of cobordism cohomology theories -- table]]
 
 \linebreak
 
