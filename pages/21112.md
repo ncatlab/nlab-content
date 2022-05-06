@@ -41,6 +41,19 @@ it validates the [[Ryu-Takayanagi formula]] for [[holographic entanglement entro
 
 ## References
 
+### General
+
 * {#Casselman14} Bill Casselman, _The Bruhat-Tits tree of $\mathrm{SL}(2)$_, 2014 ([pdf](https://pdfs.semanticscholar.org/3cc6/b53850a03003204f1225c780cf29ab625a6c.pdf), [[CasselmanOnBruhatTitsTree2014.pdf:file]])
+
+### In $p$-adic string theory
+
+Suggestion that the [[disk]] [[worldsheet]] of the [[open string|open]] [[p-adic string]] is to be identified with the [[Bruhat-Tits tree]] $T_p$:
+
+* [[Anton Zabrodin]], _Non-Archimedean strings and Bruhat-Tits trees_, Comm. Math. Phys.
+Volume 123, Number 3 (1989), 463-483 ([euclid.cmp/1104178891](https://projecteuclid.org/euclid.cmp/1104178891))
+
+Suggestion to identify the [[Bruhat-Tits tree]] $T_p$ with [[anti de Sitter spacetime]] in the [[p-adic AdS/CFT correspondence]]:
+
+* [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_, Communications in Mathematical Physics volume 352, pages 1019–1059 (2017) ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
 
 [[!redirects Bruhat-Tits trees]]
