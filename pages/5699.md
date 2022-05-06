@@ -8,7 +8,11 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Cumrun_Vafa)
 
 
-## Selected talks
+
+
+
+## Selected writings
+ {#SelectedWritings}
 
 Introducing [[Gopakumar-Vafa duality]]:
 
@@ -16,13 +20,6 @@ Introducing [[Gopakumar-Vafa duality]]:
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _Topological Gravity as Large N Topological Gauge Theory_, Adv. Theor. Math. Phys. 2:413-442, 1998 ([arXiv:hep-th/9802016](https://arxiv.org/abs/hep-th/9802016))
 
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
-
-
-
-
-On [[mirror symmetry]], [[topological string theory]] and a [[mysterious duality]]:
-
-* {#Vafa00} [[Cumrun Vafa]], _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
 
 
 On [[geometric engineering of quantum field theory]]:
@@ -45,18 +42,16 @@ On [[topological string theory]]:
 * {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological strings and their physical applications_, talk at [Simons Workshop in Mathematics and Physics 2004](http://insti.physics.sunysb.edu/conf/simonsworkII/) ([hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178))
 
 
-* _[Strings, and the magic of extra dimensions](http://www.icts.res.in/lecture/1/details/1632/)_, public talk at [ICTS](http://www.icts.res.in/home/), Bangalore, June 2013 ([pdf slides](http://www.icts.res.in/media/uploads/Lecture/Slides/Cumrun%20Vafa.pdf), [video](http://www.icts.res.in/media/uploads/Lecture/Slides/Cumrun%20Vafa.pdf))
-
-* {#Vafa18} _F-theory, Black holes and topological strings_, talk at [ift 2018](https://www.ift.uam-csic.es/en/content/f-theory-black-holes-and-topological-strings), ([pdf](https://workshops.ift.uam-csic.es/files/221/Vafa.pdf), [recording](https://www.youtube.com/watch?v=Fmri3ke8Q-g))
 
 
 
-## Selected writings
- {#SelectedWritings}
+
 
 On the [[large N limit]]:
 
 * M. Bershadsky, Z. Kakushadze, [[Cumrun Vafa]], _String expansion as large $N$ expansion of gauge theories_, Nucl.Phys. B523 (1998) 59-72 ([hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>)
+
+* {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
 
 * S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
 
@@ -135,6 +130,16 @@ On [[swampland conjectures]]:
 * Jacob McNamara, [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355))
 
 * Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Four Dimensional $\mathcal{N}=4$ SYM and the Swampland_ ([arXiv:1912.06144](https://arxiv.org/abs/1912.06144))
+
+## Selected talks
+
+On [[mirror symmetry]], [[topological string theory]] and a [[mysterious duality]]:
+
+* {#Vafa00} [[Cumrun Vafa]], _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
+
+* _[Strings, and the magic of extra dimensions](http://www.icts.res.in/lecture/1/details/1632/)_, public talk at [ICTS](http://www.icts.res.in/home/), Bangalore, June 2013 ([pdf slides](http://www.icts.res.in/media/uploads/Lecture/Slides/Cumrun%20Vafa.pdf), [video](http://www.icts.res.in/media/uploads/Lecture/Slides/Cumrun%20Vafa.pdf))
+
+* {#Vafa18} _F-theory, Black holes and topological strings_, talk at [ift 2018](https://www.ift.uam-csic.es/en/content/f-theory-black-holes-and-topological-strings), ([pdf](https://workshops.ift.uam-csic.es/files/221/Vafa.pdf), [recording](https://www.youtube.com/watch?v=Fmri3ke8Q-g))
 
 
 ## Related $n$Lab entries
