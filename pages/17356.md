@@ -282,7 +282,7 @@ Math. **54** no.3 (1951), pp.425-505. ([pdf](http://www.college-de-france.fr/med
 
 General introductions of the cube category and of cubical sets are in 
 
-* {#JardineLecture} [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) [PDF](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
+* {#JardineLecture} [[Rick Jardine]], _Cubical sets_, Lecture 12 in [Fields Lectures on simplicial presheaves](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf) (unpublished).
  
 
 * [[Sjoerd Crans]], section 2 of _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
