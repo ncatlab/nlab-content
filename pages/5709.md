@@ -1365,7 +1365,7 @@ Review includes
 
 * Riccardo Penco, _An Introduction to Effective Field Theories_ ([arXiv:2006.16285](https://arxiv.org/abs/2006.16285))
 
-* C. P. Burgess, _Introduction to effective field theory_, Cambridge University Press 2020 ([ISBN:9781139048040](https://www.cambridge.org/core/books/introduction-to-effective-field-theory/A9CDB35F4AA7921E3A9CFD573EBA8B64))
+* C. P. Burgess, _Introduction to effective field theory_, Cambridge University Press 2020 ([arXiv:hep-th/0701053](https://arxiv.org/abs/hep-th/0701053), [ISBN:9781139048040](https://www.cambridge.org/core/books/introduction-to-effective-field-theory/A9CDB35F4AA7921E3A9CFD573EBA8B64))
 
 A classical textbook adopting the EFT perspective is
 
