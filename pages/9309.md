@@ -29,6 +29,9 @@ In this context the [[action functional]] corresponding to Born-Infeld theory ar
 On [[intersecting brane|coincident]] [[D-branes]], where one expects [[gauge enhancement]] of the [[Chan-Paton gauge field]] to a [[non-abelian group|non-abelian]] [[gauge group]], a further generalization of the DBI-action to non-abelian [[gauge fields]] is expected to be an analogous [[deformation]] of that of non-abelian [[Yang-Mills theory]].
 A widely used proposal is due to [Tseytlin 97](#Tseytlin97), [Myers 99](#Myers99), but a derivation from [[string theory]] of this non-abelian DBI action is lacking; and it is in fact known to be in conflict, beyond the first few orders of correction terms, with effects argued elsewhere in the string theory literature ([Hashimoto-Taylor 97](#HashimotoTaylor97), [Bain 99](#Bain99), [Bergshoeff-Bilal-Roo-Sevrin 01](#BergshoeffBilalRooSevrin01)). The issue remains open.
 
+When the [[D-branes]] in question are interpreted as [[flavor branes]], then the maximal/critical value of the [[electric field]] which arises from the [[DBI-action]] has been argued to reflect, via [[holographic QCD]], the [[Schwinger limit]] beyond which the [[vacuum polarization]] caused by the [[electromagnetic field]] leads to [[deconfinement]] of [[quarks]] ([Semenoff-Zarembo 11](#SemenoffZarembo11), [Hashimoto-Oka 13](#HashimotoOka13), [Hashimoto-Oka-Sonoda 14a](#HashimotoOkaSonoda14a), [Hashimoto-Oka-Sonoda 14b](#HashimotoOkaSonoda14b)).
+
+
 ## Definition
  {#Definition}
 
@@ -451,9 +454,12 @@ For actual derivation of [[gauge enhancement]] on coincident D-branes see the re
 
 Discussion of the [[DBI-action]] for [[flavor brane|flavor branes]] in [[holographic QCD]]:
 
+
 * [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], Section 6 of: _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
 
-* [[Koji Hashimoto]], Takashi Oka, Akihiko Sonoda, _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
+
+
+[[!include holographic Schwinger effect -- references]]
 
 
 [[!include DBI-action higher curvature corrections -- references]]
