@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _second_ is a [[physical unit]] of [[time]].
+The _second_ is a [[physical unit]] of [[time]]. It is defined by taking the fixed numerical value of the caesium [[frequency]] $\Delta \nu_{Cs}$, the unperturbed ground-state hyperfine transition frequency of the caesium-133 [[atom]], to be $9192631770$ when expressed in the [[physical unit|unit]] $Hz$, which is equal to $s^{-1}$
 
 ## Related concepts
 
