@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+
+Introducing [[Kaluza-Klein monopoles]]:
+
+* {#GrossPerry83} [[David Gross]], [[Malcolm Perry]], _Magnetic Monopoles in Kaluza-Klein Theories_,  Nucl. Phys. B226 (1983) 29 (<a href="https://doi.org/10.1016/0550-3213(83)90462-5">doi:10.1016/0550-3213(83)90462-5</a>)
+
+
 On the [[Perry-Schwarz action]] for [[self-dual higher gauge fields]] in 6dand the [[M5-brane]] [[Green-Schwarz sigma-model]] upon [[KK-compactification]] to 5-dimensions:
 
 * {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
