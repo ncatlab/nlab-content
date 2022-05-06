@@ -26,3 +26,5 @@ In [[thermodynamics]] the _equation of state_ of a system is an [[equation]] tha
 See also:
 
 * Wikipedia, _[Equation of state](https://en.wikipedia.org/wiki/Equation_of_state)_
+
+[[!redirects equations of state]]
