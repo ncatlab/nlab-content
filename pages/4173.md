@@ -60,6 +60,9 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
+* José Natário, _Mathematical relativity_ ([arXiv:2003.02855](https://arxiv.org/abs/2003.02855))
+
+
 For some introductory exposition, see 
 
 * [[John Baez]], [The General Relativity Tutorial](http://math.ucr.edu/home/baez/gr/gr.html)
