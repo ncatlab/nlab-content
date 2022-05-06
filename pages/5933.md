@@ -16,7 +16,19 @@
 
 This entry is about the article
 
-* [[William Lawvere]], _Some Thoughts on the Future of Category Theory_, in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_, [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
+* [[William Lawvere]], 
+
+  _Some Thoughts on the Future of Category Theory_
+
+  ([doi:10.1007/BFb0084208](https://link.springer.com/chapter/10.1007/BFb0084208))
+
+  In: A. Carboni, M. Pedicchio, G. Rosolini (ed.s) 
+
+  _Category Theory_, 
+
+  [[Como|Proceedings of the International Conference held in Como]], 
+
+  Lecture Notes in Mathematics 1488, Springer (1991)
 
 about the formalization of the "[[objective logic]]" of [[Hegel|Hegelian]] [[metaphysics]] ([[Science of Logic]]) and in particular (implicitly) the notion of [[cohesive toposes]]. (See there for further references and other background material).
 
