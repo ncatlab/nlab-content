@@ -90,7 +90,7 @@ Accurate visualization of many astronomical phenomena is at
 
 * [en.spaceengine.org](#http://en.spaceengine.org)
 
-Visualization of the speed of light in relation to distances in the solar system:
+Visualization of the [[speed of light]] in relation to distances in the solar system:
 
 * [www.techexplorist.com/3-animations-provided-nasa-scientist-suggests-the-speed-of-light-frustratingly-slow/20215/](https://www.techexplorist.com/3-animations-provided-nasa-scientist-suggests-the-speed-of-light-frustratingly-slow/20215/)
 
