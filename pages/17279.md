@@ -31,7 +31,7 @@ Original articles include
 
 * {#JentschuraZinnJustin04} Jentschura, [[Jean Zinn-Justin]], Phys. Lett. B 596 (2004), 138-144
 
-* {#DunneUnsal14} Gerald V. Dunne, Mithat Unsal, _Uniform WKB, Multi-instantons, and Resurgent Trans-Series_, Phys. Rev. D 89, 105009 (2014) ([arXiv:1401.5202](https://arxiv.org/abs/1401.5202))
+* {#DunneUnsal14} [[Gerald Dunne]], Mithat Unsal, _Uniform WKB, Multi-instantons, and Resurgent Trans-Series_, Phys. Rev. D 89, 105009 (2014) ([arXiv:1401.5202](https://arxiv.org/abs/1401.5202))
 
 A clear account is in 
 
@@ -50,8 +50,7 @@ Review includes
 
 * {#Costin17} Ovidiu Costin, _The Mathematical Theory of Resurgence and Resummation, and Their Applications in Mathematics and Physics_, 2017 ([web](http://online.kitp.ucsb.edu/online/resurgent_c17/costin/))
 
-* Gerald Dunne, _Introduction to Resurgence, Trans-series and
-Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
+* [[Gerald Dunne]], _Introduction to Resurgence, Trans-series and Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
 
 
 Part of the above text is taken from
