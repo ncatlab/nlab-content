@@ -125,7 +125,6 @@ for its [[automorphism group]], a [[finite group]] whose [[order of a group|orde
   \,.
 \]
 
-
 Write 
 
 \[
@@ -328,8 +327,21 @@ from [[weight systems]] on [[Jacobi diagrams]] ([[chord diagrams modulo 4T are J
 
 According to [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02) this map is a [[bijection]] 
 
-> (though for proof of this isomorphism property [CCRL 02](#CattaneoCottaRamusinoLongoni02) points to [AF 96](#AF96) and it's maybe not so clear from which statement there this follow).
+> (though for proof of this isomorphism property [CCRL 02](#CattaneoCottaRamusinoLongoni02) points to [AF 96](#AF96) and it's maybe not so clear which statement there implies this).
 
+## Relation to Wilson-loop-/Vassiliev-knot- observables in Chern-Simons theory
+ {#Relation}
+
+<center>
+<img src="https://ncatlab.org/nlab/files/UniversalWilsonLoopObservable.jpg" width="700">
+</center>
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariants.jpg" width="800">
+</center>
+
+> graphics taken from [Sati-Schreiber 19b]()
 
 ## References
 
