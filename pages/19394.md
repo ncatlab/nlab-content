@@ -82,9 +82,10 @@ See at _[[E-string elliptic genus]]_.
 
 E-strings as [[M5-branes]] [[wrapped brane|wrapped]] on a [[half K3]]:
 
+* J. A. Minahan, D. Nemeschansky, [[Nicholas Warner]], _Partition Functions for BPS States of the Non-Critical $E_8$ String_, Adv. Theor. Math. Phys.1:167-183, 1998 ([arXiv:hep-th/9707149](https://arxiv.org/abs/hep-th/9707149))
 
-* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], N. P. Warner, 
-_E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
+
+* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], [[Nicholas Warner]], _E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
 
 * [[Amer Iqbal]], _A note on E-strings_, Adv. Theor. Math. Phys. 7 (2003) 1-23 ([arXiv:hep-th/0206064](https://arxiv.org/abs/hep-th/0206064))
 
