@@ -324,9 +324,16 @@ Since momentum maps generalize [[energy]]-functionals, they provide a covariant 
 
 * [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
 
+* [[Jean-Marie Souriau]],Mécanique statistique, groupes de Lie et cosmologie. In Colloques int. du CNRS; numéro 237; Aix-en-Provence, France, 1974; pp. 24–28, 59–113. English translation by F. Barbaresco, April, 2020. Available online: https://www.academia.edu/42630654/Statistical_Mechanics_Lie_Group_and_Cosmology_
+1_st_part_Symplectic_Model_of_Statistical_Mechanics(access on 20 April 2020)
+
 Review includes
 
 * {#Marle16} Charles-Michel Marle, _From tools in symplectic and Poisson geometry to Souriau's theories of statistical mechanics and thermodynamics_, Entropy 2016, 18(10), 370 ([arXiv:1608.00103](https://arxiv.org/abs/1608.00103))
+
+* Barbaresco, F.; Gay-Balmaz, F. Lie Group Cohomology and (Multi)Symplectic Integrators: New Geometric Tools for Lie Group Machine Learning Based on Souriau Geometric Statistical Mechanics. Entropy 2020, 22, 498. https://www.mdpi.com/1099-4300/22/5/498
+
+* Koszul, J.-L., Introduction to Symplectic Geometry, SPRINGER, 2019
 
 
 [[!redirects moment maps]]
