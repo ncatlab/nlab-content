@@ -71,7 +71,7 @@ See also
 ### In string theory
   {#ReferencesInStringTheory}
 
-[[M-theory on 8-manifolds|M-theory on the 8-manifold]] $\mathbb{H}P^2$, hence on a [[quaternion-Kähler manifold]] of dimension 8 with [[holonomy]] [[Sp(2).Sp(1)]], is considered in
+[[M-theory on 8-manifolds|M-theory on the 8-manifold]] $\,\mathbb{H}P^2$, hence on a [[quaternion-Kähler manifold]] of dimension 8 with [[holonomy]] [[Sp(2).Sp(1)]], is considered in
 
 * [[Michael Atiyah]], [[Edward Witten]], p. 75 onwards in  _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
