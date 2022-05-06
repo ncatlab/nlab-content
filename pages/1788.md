@@ -1,4 +1,3 @@
-
 What is the class in $\pi_4(S^3) \simeq \mathbb{Z}_2$ of the map
 
 $$
