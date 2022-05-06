@@ -21,7 +21,7 @@
 ## Definition
 
 We work in a category $C$ that is assumed to be a [[Heyting pretopos]]
-with a [[natural numbers object]].
+with a [[natural numbers object]]. Following [Joyal-Moerdijk](#JM), we have the following definition. 
 
 \begin{definition}
 A __class of open maps__ (with collection) in $C$
@@ -86,6 +86,6 @@ of any class category is an [[elementary topos]].
 
 ## References
 
-* [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1.
+* {#JM} [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1. 
 
 * [[Steve Awodey]], _An outline of algebraic set theory_.
