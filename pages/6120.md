@@ -70,6 +70,8 @@ There is a generalization for $X$ an [[orbifold]] due to ([Satake](#Satake)).
 
 ## References
 
+Named after [[Carl Friedrich Gauss]].
+
 The Chern-Gauss-Bonnet theorem goes back to 
 
 * [[ Shiing-shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_ , Annals, 45 (1944), 747-752.
