@@ -81,6 +81,8 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
 
 * Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], and Eike Ritter, _Categorical and Kripke Semantics for Constructive S4 Modal Logic_ ([pdf](http://www.cs.nott.ac.uk/~nza/papers/Alechina++:01a.pdf))
 
+* Gavin M. Bierman and Valeria de Paiva, _On an Intuitionistic Modal Logic_ Studia Logica volume 65, pages 383–416 (2000) ([pdf] (https://www.researchgate.net/profile/Valeria-De-Paiva/publication/226515897_On_An_Intuitionistic_Modal_Logic/links/00b4951ed416906ccc000000/On-An-Intuitionistic-Modal-Logic.pdf))
+
 * [[Alex Simpson]], _The proof theory and semantics of intuitionistic modal logic_ ([pdf] (https://era.ed.ac.uk/handle/1842/407))
 
 More on $S4$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
