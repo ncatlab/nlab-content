@@ -69,7 +69,7 @@ Write
 
 Now:
 
-* $\Gamma$ is a [[lax monoidal functor]], the lax monoidal structure $\gamma_{A,B} \;\colon\; \Gamma(A) \otimes \Gamma(B) \to \Gamma(A \otimes B)$ being induced [dually](oplax+monoidal+functor#OplaxAdjointToLax) by the [[Eilenberg-Zilber map]];
+* $\Gamma$ is a [[lax monoidal functor]], the lax monoidal structure $\gamma_{A,B} \;\colon\; \Gamma(A) \otimes \Gamma(B) \to \Gamma(A \otimes B)$ being induced [dually](oplax+monoidal+functor#OplaxAdjointToLax) by the [[Alexander-Whitney map]];
 
 * $U$ is a [[strong monoidal functor]];
 
