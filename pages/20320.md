@@ -24,7 +24,13 @@ This is in contrast to the "universe view", which
 
 > asserts that there is an absolute background set concept, with a corresponding absolute set-theoretic universe in which every set-theoretic question has a definite answer.
 
-The multiverse is at least informally analogous to such categorical notions as [[Topos]], the [[2-category]] of [[toposes]], with each topos regarded as a universe of ("variable") sets.
+The set-theoretic multiverse is at least informally analogous to such categorical notions as [[Topos]], the [[2-category]] of [[toposes]], with each topos regarded as a universe of ("variable") sets. See at _[[topos theory]]_ and at _[[categorical logic]]_ for more on this.
+
+## Related (or unrelated) concepts
+
+* [[multiverse]] (in [[cosmology]])
+
+
 
 ## References
 
