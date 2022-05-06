@@ -6317,7 +6317,7 @@ $\,$
 
 
 Underlying most of the [[dualities in string theory]] is the phenomenon of  "[[double dimensional reduction]]"
-([Duff-Howe-Inami-Stelle 87](double dimensional reduction#DuffHoweInamiStelle87)), so called because:
+([Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)), so called because:
 
 1. the [[dimension]] of [[spacetimes]] is reduced by [[Kaluza-Klein compactification]] on a [[fiber]] $F$;
 
@@ -6349,7 +6349,7 @@ $\,$
 
 
 The original example of [[double dimensional reduction]]
-([Duff-Howe-Inami-Stelle 87](double dimensional reduction#DuffHoweInamiStelle87)) is supposed to underly the [[duality in string theory|duality]] between [[M-theory]] and [[type IIA string theory]]. In this case
+([Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)) is supposed to underly the [[duality in string theory|duality]] between [[M-theory]] and [[type IIA string theory]]. In this case
 
 * [[spacetime]] $X_{11}$ is an 11d [[circle]]-[[fiber bundle]] locally of the form $X_{11} =  X_{10} \times S^1$ over a 10d base spacetime;
 
