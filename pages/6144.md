@@ -98,6 +98,40 @@ $$\mu^{\bar*}(A)=\sup\{\mu^*(C)\mid C\subset A, \mu^*(C) is finite\}.$$
 Vice versa, given $M$, we can reconstruct $\mu$ as the integral
 with respect to $M$.
 
+## Pushforwards of Radon measures
+
+\begin{definition}
+Suppose $X$ and $Y$ are [[Hausdorff topological spaces]]
+and $\mu=(m,M)$ is a Radon measure on $X$.
+A map of sets $H\colon X\to Y$ is __Lusin $\mu$-measurable__
+if for any compact $K\subset X$ and $\epsilon\gt0$
+there is a compact $K'\subset K$ such that $\mu(K\setminus K')\lt\epsilon$
+and the restriction of $H$ to $K'$ is continuous.
+We say that $H$ is __$\mu$-proper__ if, in addition,
+every point of $Y$ has a neighborhood whose inverse image
+is $\mu$-integrable.
+\end{definition}
+
+For example, continuous maps are Lusin $\mu$-measurable for any $\mu$.
+
+Lusin $\mu$-measurable maps form a [[sheaf]] with respect to $X$.
+
+Any Lusin $\mu$-measurable map is Borel $\mu$-measurable
+(meaning preimages of Borel sets are $\mu$-measurable sets).
+
+If $Y$ is [[metrizable]] and [[separable]], then any Borel $\mu$-measurable
+map is Lusin $\mu$-measurable.
+
+Step functions and lower semicontinuous maps are always Lusin $\mu$-measurable.
+
+\begin{definition}
+Suppose $H\colon X\to Y$ is a $\mu$-proper map.
+The pushforward measure $H_*\mu$ is a Radon measure on $Y$ defined as follows.
+Given a [[Borel subset]] $B\subset Y$, we set
+$$H_*\mu(B)=\mu^\bullet(H^*(B)).$$
+This yields a Radon measure $m$ on $Y$.
+\end{definition}
+
 ## Properties
 
 * If a Radon measure is $\sigma$-finite then it is regular (i.e. both inner and outer regular) on all Borel subsets. 
