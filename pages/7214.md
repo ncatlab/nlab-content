@@ -23,7 +23,7 @@ The category of $\Delta$-generated spaces is [[coreflective subcategory|coreflec
 
 ## References
 
-$\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a nice category of spaces for homotopy theory.  A proof that they are locally presentable is in:
+$\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a nice category of spaces for homotopy theory.  A proof that the category of $\Delta$-generated spaces is locally presentable is in:
 
 * [[Lisbeth Fajstrup]] and [[Jiří Rosický]], *A convenient category for directed homotopy*, TAC 21 no. 1, [online](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html)
 
