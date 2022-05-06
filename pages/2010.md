@@ -26,6 +26,7 @@ There is also the term _set-theoretic topology_, but that tends to allude to add
 
 ## Related entries
 
+* [[Introduction to Topology -- 1|Basic introduction to general topology]]
 * [[geometry]], [[higher geometry]]
 
 ## References
