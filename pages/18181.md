@@ -241,7 +241,7 @@ While in view of the transcendental object: it
 Starting from the description of the [A deduction](#deductionA) above Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) suggested a formalization of Kant's logic in terms of [[geometric logic]].
 The idea is to assign each moment of time, i.e. impression, a [[model]]. Then a directed system of such models represents the syntheses of apprehension and reproduction. Taking the limit along this directed system ("synthesis of recognition") gives the concept. Geometric implications come into play as they are exactly the formulas whose truth is stable under taking the limit.
 
-Although the natural category for interpreting [[geometric logic]] is a [[topos]], Achourioti and van Lambalgen work only in [[Set]] for technical convenience. From a philosophical point of view they remark that the underlying category should have additional structure. They elaborate on a specific finite set model of their interpretation, for which they can show a completness theorem. We will state their main results with small reformulations.
+Although the natural category for interpreting [[geometric logic]] is a [[geometric category]] (e.g. a [[topos]]), Achourioti and van Lambalgen work only in [[Set]] for technical convenience. From a philosophical point of view they remark that the underlying category should have additional structure. They elaborate on a specific finite set model of their interpretation, for which they can show a completness theorem. We will state their main results with small reformulations.
 
 ...
 
