@@ -23,6 +23,8 @@
 
 In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
+See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
+
 
 \begin{center}
 \begin{imagefromfile}
@@ -216,6 +218,10 @@ Indeed, [[leptoquark]] models preferred by the flavour anomalies are also a cand
 Early suggestion to look for relevant channels are due to 
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
+
+General introduction to the issue is in 
+
+* {#Alonso19} Rodrigo Alonso, _Lepton (non-) unversality in (flavor changing) neutral current B decays_, Proceedings of [FPCP2019](https://fpcp2019.triumf.ca/) ([arXiv:1907.01716](https://arxiv.org/abs/1907.01716))
 
 Comprehensive overview of the latest world-avereaged results to be found at:
 
