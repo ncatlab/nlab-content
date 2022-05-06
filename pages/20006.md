@@ -1,0 +1,1 @@
+I am Praphulla Koushik. I am a research scholar in School of Mathematics, IISER Thiruvananthapuram, India. I am interested in Differential geometry, Algebraic geometry, Category theory.
