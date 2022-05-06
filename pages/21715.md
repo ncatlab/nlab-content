@@ -400,12 +400,20 @@ $$
   }
 $$
 
-is an [[injective object]].
+is an [[injective object]] (degreewise, in fact).
 
 =--
 
 ([Triantafillou 82, Prop. 4.3](#Triantafillou82))
 
++-- {: .num_cor } 
+###### Corollary
+
+Any [[equivariant PL de Rham complex]] (Def. \ref{EquivariantPLDeRhamComplex}) is a [[fibrant object]] in the [[model structure on equivariant connective dgc-algebras]].
+
+=--
+
+(also [Scull 08, Lemma 5.2](#Scull08))
 
 ## Related concepts
 
