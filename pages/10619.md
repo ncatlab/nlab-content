@@ -1697,7 +1697,10 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$ (which is multiplicative
     \ar[r]
     &
     0
+    \,,
 \end{xymatrix}
+
+where on the left we used our assumption that $d \neq 0$.
 
 \end{remark}
 
@@ -2567,12 +2570,29 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
         S^{2(n+d)}
       \big)
       \ar[dd]
+        |-{
+          \mathclap{\phantom{\vert^{\vert}}}
+          p^\ast
+          \mathclap{\phantom{\vert_{\vert}}}
+        }
       \ar@{=}[dr]
       \\
       &&
       &
       \mathbb{Q} \oplus \mathbb{S}_{2d-1}
-      \ar[dd]
+      \ar[dd]|-{
+          \scalebox{.68}{$
+            \left(
+            \!\!
+            \begin{array}{cc}
+              \mathrm{id} & \cdot
+              \\
+              0 & \cdot
+            \end{array}
+            \!\!
+            \right)
+          $}
+      }
       \\
       \big(
         \widetilde { H^{\mathrm{ev}}\mathbb{Q} }
@@ -2581,7 +2601,7 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
         C_c
       \big)
       \ar@{=}[dr]
-      \ar[rr]
+      \ar[rr]|-{ \;i_\ast\; }
       &&
       \big(
         \widetilde { (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S} }
@@ -2591,22 +2611,43 @@ Besides inspection of the defining homotopy-pasting diagram below, we just need 
       \big)
       \ar@{=}[dr]
       \\
-      & 
+      &
       \mathbb{Q} \oplus \mathbb{Q}
       \ar[rr]
+        |-{
+          \;
+          \scalebox{.68}{$
+            \left(
+            \!\!
+            \begin{array}{cc}
+              \mathrm{id} & \cdot
+              \\
+              0 & \cdot
+            \end{array}
+            \!\!
+            \right)
+          $}
+          \;
+        }
       &&
-      \mathbb{Q} \oplus 
+      \mathbb{Q} \oplus
       \big(
         \mathbb{Q}/\mathbb{Z}
-        \oplus
+        \oplus'
         \mathbb{S}_{2d-1}/\mathbb{Z}
       \big)
+      \,.
   \end{xymatrix}
-  such that both morphisms are the identity on the first 
-  $\mathbb{Q}$-summand.
 \end{lemma}
 
-Here $\mathbb{S}_{2d-1}/\mathbb{Z}$ is the [[cofiber]] of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$.
+Here:
+
+* $\mathbb{S}_{2d-1}/\mathbb{Z}$ denotes the [[cofiber]] of $\mathbb{Z} \xrightarrow{\;c\;} \mathbb{S}_{2d-c}$;
+
+* the symbol $\oplus'$ denotes some possibly non-trivial [[group extension|extension]], left undetermined, of [[Q/Z]] by $\mathbb{S}_{d-1}/\mathbb{Z}$, and vice versa;
+
+* the [[matrices]] act as usual, on row vectors by [[matrix multiplication]] from the right.
+
 
 \begin{proof}
 Consider the diagram which is the image under $\pi_0 \mathrm{Maps}^{\ast/}(-,-)$ of the sequences
@@ -3302,7 +3343,13 @@ Now recognizing [[split exact sequences]] using the vanishing [[Ext]]-groups $Ex
     \hspace{+52pt}
 \end{xymatrix}
 
-From this, the remaining entry must be
+From this, and using again $\mathrm{Ext}^1(-,\mathbb{Q}) = 0$
+together with 
+$\mathrm{Ext}^1(-, A \oplus B ) 
+  \simeq 
+  \mathrm{Ext}^1(-,A) \oplus \mathrm{Ext}^1(-,B)$
+(by [this Prop.](Ext#ExtCompatibleWithDirectSumsAndProducts)),
+the remaining entry and the maps into it must be as claimed:
 \begin{xymatrix@=18pt}
     {\phantom{
     \widetilde {\mathbb{S}}{}^{2n}
@@ -3310,11 +3357,11 @@ From this, the remaining entry must be
       S^{2n+1}
     \big)
     }}
-    \hspace{-28pt}
+    \hspace{-23pt}
     \mathclap{
      \mathbb{S}_{1} \oplus 0
     }
-    \hspace{+28pt}
+    \hspace{+23pt}
     \ar[d]
     \ar[r]
     &
@@ -3324,11 +3371,11 @@ From this, the remaining entry must be
       S^{2n+1}
     \big)
     }}
-    \hspace{-43pt}
+    \hspace{-38pt}
     \mathclap{
       0
     }
-    \hspace{+43pt}
+    \hspace{+38pt}
     \ar[r]
     \ar[d]
     &
@@ -3338,11 +3385,11 @@ From this, the remaining entry must be
       S^{2n+1}
     \big)
     }}
-    \hspace{-53pt}
+    \hspace{-48pt}
     \mathclap{
       0 \oplus \mathbb{Z}
     }
-    \hspace{+53pt}
+    \hspace{+48pt}
     \ar[d]
     \ar[r]
     &
@@ -3352,13 +3399,13 @@ From this, the remaining entry must be
       S^{2n+1}
     \big)
     }}
-    \hspace{-35pt}
+    \hspace{-30pt}
     \mathclap{
       0 \oplus \mathbb{Z}
     }
-    \hspace{+35pt}
+    \hspace{+30pt}
     \ar[d]
-      |-{
+      _-{
         \mathclap{\phantom{\vert^{\vert}}}
         c
         \mathclap{\phantom{\vert_{\vert}}}
@@ -3370,12 +3417,12 @@ From this, the remaining entry must be
       S^{2(n+d)}
     \big)
     }}
-    \hspace{-37pt}
+    \hspace{-32pt}
     \mathclap{
       \mathbb{S}_{2d} \oplus 0
     }
-    \hspace{+37pt}
-    \ar[r]|<<<{ \;0\; }
+    \hspace{+32pt}
+    \ar[r]^-{ \;0\; }
     \ar[d]
     &
     {\phantom{
@@ -3384,11 +3431,11 @@ From this, the remaining entry must be
       S^{2(n+d)}
     \big)
     }}
-    \hspace{-46pt}
+    \hspace{-41pt}
     \mathclap{
       \mathbb{Q} \oplus 0
     }
-    \hspace{+46pt}
+    \hspace{+41pt}
     \;
     \ar[r]
     \ar[d]
@@ -3399,24 +3446,37 @@ From this, the remaining entry must be
       S^{2(n+d)}
     \big)
     }}
-    \hspace{-50pt}
+    \hspace{-45pt}
     \mathclap{
       \mathbb{Q} \oplus \mathbb{S}_{2d-1}
     }
-    \hspace{+50pt}
+    \hspace{+45pt}
     \ar[r]
     \ar[d]
+      _-{
+        \scalebox{.65}{$
+          \left(
+          \!\!
+          \begin{array}{cc}
+            \mathrm{id} & \cdot
+            \\
+            0 & \cdot
+          \end{array}
+          \!\!
+          \right)
+        $}
+      }
     &
     {\phantom{
     \widetilde {\mathbb{S}}{}^{2n+1}
     \big(
       S^{2(n+d)}
     \big)}}
-    \hspace{-35pt}
+    \hspace{-30pt}
     \mathclap{
       0 \oplus \mathbb{S}_{2d-1}
     }
-    \hspace{+35pt}
+    \hspace{+30pt}
     \ar[d]
     \ar[r]
     &
@@ -3426,17 +3486,17 @@ From this, the remaining entry must be
       S^{2(n+d)}
     \big)
     }}
-    \hspace{-52pt}
+    \hspace{-47pt}
     \mathclap{
       0
     }
-    \hspace{+52pt}
+    \hspace{+47pt}
     \ar[d]
     \\
       (\mathbb{S}_{2d}/\mathbb{S}_1)
       \oplus
       \mathbb{Z}
-    \ar[d]|-{
+    \ar[d]_-{
       \mathclap{\phantom{\vert^{\vert}}}
       0 \,\oplus\, \mathrm{ord}(c)
       \mathclap{\phantom{\vert_{\vert}}}
@@ -3449,13 +3509,26 @@ From this, the remaining entry must be
       C_c
     \big)
     }}
-    \hspace{-35pt}
+    \hspace{-30pt}
     \mathclap{
       \mathbb{Q} \oplus \mathbb{Q}
     }
-    \hspace{+35pt}
+    \hspace{+30pt}
     \;
     \ar[r]
+      ^-{
+        \scalebox{.65}{$
+          \left(
+          \!\!
+          \begin{array}{cc}
+            \mathrm{id} & \cdot
+            \\
+            0 & \cdot 
+          \end{array}
+          \!\!
+          \right)
+        $}
+      }
     \ar[d]
     &
       \color{magenta}
@@ -3464,7 +3537,7 @@ From this, the remaining entry must be
       \!
       \big(
         \mathbb{Q}/\mathbb{Z}
-        \oplus
+        \oplus'
         \mathbb{S}_{2d-1}/\mathbb{Z}
       \big)
     \ar[r]
@@ -3481,11 +3554,11 @@ From this, the remaining entry must be
       C_c
     \big)
     }}
-    \hspace{-41pt}
+    \hspace{-36pt}
     \mathclap{
       0
     }
-    \hspace{+41pt}
+    \hspace{+36pt}
     \\
     {\phantom{
     \widetilde {\mathbb{S}}{}^{2n}
@@ -3493,13 +3566,13 @@ From this, the remaining entry must be
       S^{2n}
     \big)
     }}
-    \hspace{-24pt}
+    \hspace{-19pt}
     \mathclap{
       0 \oplus \mathbb{Z}
     }
-    \hspace{+24pt}
+    \hspace{+19pt}
     \ar[d]
-      |-{
+      _-{
         \mathclap{\phantom{\vert^\vert}}
         c
         \mathclap{\phantom{\vert_\vert}}
@@ -3515,11 +3588,11 @@ From this, the remaining entry must be
       S^{2n}
     \big)
     }}
-    \hspace{-37pt}
+    \hspace{-32pt}
     \mathclap{
       0 \oplus \mathbb{Q}
     }
-    \hspace{+37pt}
+    \hspace{+32pt}
     \ar[r]
     \ar[d]
     &
@@ -3529,11 +3602,11 @@ From this, the remaining entry must be
       S^{2n}
     \big)
     }}
-    \hspace{-48pt}
+    \hspace{-43pt}
     \mathclap{
       0 \oplus \mathbb{Q}/\mathbb{Z}
     }
-    \hspace{+48pt}
+    \hspace{+43pt}
     \ar[r]
     &
     {\phantom{
@@ -3542,11 +3615,11 @@ From this, the remaining entry must be
       S^{2n}
     \big)
     }}
-    \hspace{-30pt}
+    \hspace{-25pt}
     \mathclap{
       0
     }
-    \hspace{+30pt}
+    \hspace{+25pt}
     \\
     {\phantom{
     \widetilde {\mathbb{S}}{}^{2n}
@@ -3554,11 +3627,11 @@ From this, the remaining entry must be
       S^{2(n+d)-1}
     \big)
     }}
-    \hspace{-29pt}
+    \hspace{-24pt}
     \mathclap{
       0 \oplus \mathbb{S}_{2d-1}
     }
-    \hspace{+29pt}
+    \hspace{+24pt}
     \ar[r]
     &
     {\phantom{
@@ -3567,11 +3640,11 @@ From this, the remaining entry must be
       S^{2(n+d)-1}
     \big)
     }}
-    \hspace{-52pt}
+    \hspace{-47pt}
     \mathclap{
       0
     }
-    \hspace{+52pt}
+    \hspace{+47pt}
 \end{xymatrix}
 
 \end{proof}
@@ -3766,7 +3839,7 @@ With this diagrammatic formulation of the e-invariant, the Conner-Floyd theorem 
    \big)^{2n}
 \end{xymatrix}
 
-using that [[the rational Todd class is the Chern character of the Thom class]] and that this identification is represented by a corresponding factorization of maps of multiplicative cohomology theories, as show (e.g. [Smith 73, Section 1](rational+Todd+class+is+Chern+character+of+Thom+class#Smith73))
+using that [[the rational Todd class is the Chern character of the Thom class]] and that this identification is represented by a corresponding factorization of maps of multiplicative cohomology theories, as shown (e.g. [Smith 73, Section 1](rational+Todd+class+is+Chern+character+of+Thom+class#Smith73))
 
 
 \linebreak
