@@ -11,8 +11,6 @@
 =--
 
 
-> under construction
-
 #Contents#
 * table of contents
 {:toc}
@@ -40,6 +38,42 @@ is to make clear that explicit examples of the duality are
 known in various dimensions and that they are found by
 using string theory as a bridge between quantum field
 theory and gravity.
+
+## Properties
+
+### Description by tensor networks
+
+Discussion of [[renormalization]] and [[entangled states]]  of [[non-perturbative effects]] in [[solid state physics]] proceeds via [[tensor networks]] ([Swingle 09](#Swingle09), [Swingle 13](#Swingle13)) and the resulting discovery of the relation to [[holographic entanglement entropy]].
+
+In this context, a _[[tensor network]]_ is a _[[string diagram]] [[concept with an attitude|with an attitude]], in that it is (just) a [[string diagram]], but with 
+
+1. the [[tensor product]] of all its external [[objects]] regarded as a [[space of states]] of a [[quantum system]];
+
+1. the [[element]] in that [[tensor product]] defined by the string diagram regarded a a [[state]] ([[wave function]]) of that quantum system.
+
+For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _tree tensor network state_ is the following:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="300">
+</center>
+
+The [[quantum states]] arising this way are generically highly [[entangled state|entangled]]: roughly they are the more entangled the more [[vertices]] there are in the corresponding tensor network.
+
+Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special role in the [[AdS/CFT correspondence]], either as
+
+1. a kind of [[lattice QFT]]-approximation to an actual [[boundary field theory|boundary]] [[CFT]] [[quantum state]], 
+
+1. as the [[p-adic geometry|p-adic geometric]] incarnation of [[anti de Sitter spacetime]] in the [[p-adic AdS/CFT correspondence]],
+
+1. as a reflection of actual [[crystal]]-site quantum states in [[AdS/CFT in solid state physics]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BruhatTitsTreeTensorNetworkStateFromMetricLie.jpg" width="300">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holographic entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). For more on this see [below](#ForHolographicEntanglementEntropy).
 
 ## Related concepts
 
@@ -107,7 +141,11 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 * Alexander Jahn, Zoltán Zimborás, Jens Eisert, _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
 
 
+
 [[!redirects AdS/CFT in condensed matter physics]]
+
+[[!redirects AdS/CFT correspondence in codensed matter physics]]
+[[!redirects AdS-CFT correspondence in codensed matter physics]]
 
 [[!redirects AdS/CMT]]
 [[!redirects AdS-CMT]]
@@ -120,6 +158,8 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 
 [[!redirects AdS/CFT in solid state physics]]
 [[!redirects AdS-CFT in solid state physics]]
+[[!redirects AdS/CFT correspondence in solid state physics]]
+[[!redirects AdS-CFT correspondence in solid state physics]]
 
 
 
