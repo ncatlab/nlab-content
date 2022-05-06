@@ -38,7 +38,7 @@ Martin Escardo has given the following translations between the two fields;
 | [[convergent sequence]] | map out of $\mathbb{N}_\infty$ (see below) |
 | [[compact set]] | exhaustively searchable set, in a finite number of steps |
 
-It should be stressed that the concepts on the right are not the *only* ways to represent the topological concepts on the left in type theory.  For instance, in [[cohesive homotopy type theory]] there is a notion of "discrete space" that has nothing to do with decidable equality (in particular, in homotopy type theory a type with decidable equality is necessarily an [[hset]], whereas discrete spaces don't need to be hsets).
+It should be stressed that the concepts on the right are not the *only* ways to represent the topological concepts on the left in type theory.  For instance, in [[cohesive homotopy type theory]] there is a notion of "discrete space" that has nothing to do with decidable equality (in particular, in homotopy type theory a type with decidable equality is necessarily an [[h-set]], whereas discrete spaces don't need to be h-sets).
 
 ## Semantics
 
