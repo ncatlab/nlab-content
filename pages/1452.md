@@ -5,19 +5,23 @@
 
 ## Idea
 
-The analytic-synthetic distinction has a long history stretching back to the ancient Greeks. It has come to mean different things according to the discipline in which it employed.
+The analytic-synthetic distinction has a long history stretching back to the ancient Greeks. It has come to mean different things according to the discipline in which it is employed, but each use can trace its origins to the classical version.
 
-In the classical world, thinkers such as Aristotle, Euclid, Pappus and Proclus, used these terms to distinguish between methods of enquiry. A **synthetic** solution to a problem relies on reasoning from first principles, the kind of reasoning we see in Euclid's _Elements_. An **analytic** solution operates by working backwards from the solution to see what needs to be the case. This might make contact with things already known from first principles, or lead to new such principles. Often analytical discovery was written up in synthetic fashion.
+In the classical world, thinkers such as Aristotle, Euclid, Pappus and Proclus, used these terms to distinguish between methods of enquiry. A **synthetic** solution to a problem relies on reasoning from first principles, the kind of reasoning we see displayed in Euclid's _Elements_. The solution is thought to be _put together_ (σύνθεσις). The kinds of first principle allowed are definitions, common notions and postulates, the latter being concerned with the specific subject matter at hand. By contrast, an **analytic** solution operates by working backwards from the solution to see what needs to be the case. Thus it analyses, or _unravels_ (ἀναλύω), the problem. This exercise might then make contact with things already known from first principles, or lead to new such principles. Often analytic discovery was written up in synthetic fashion.
 
-In the seventeenth century, [[Descartes]] understood the distinction in the same way. When asked by Mersennes why he did not present his philosophical arguments in the synthetic fashion, he replied that he considered presentation according to the analytic method as more persuasive.
+In the seventeenth century, [[Descartes]] understood the distinction in the same way. When asked by Mersennes why he did not present his philosophical arguments in the synthetic fashion, he replied that he considered presentation according to the analytic method as more persuasive. This allowed the reader to see the necessity of the first principles reached, for instance, famously the _Cogito_, 'I think therefore I am'.
 
-His approach to geometry via coordinates allowed him to resolve open questions from Pappus and others. Since it could be seen as operating according to an analytic method, it was named _analytic geometry_.
+Descartes' approach to geometry via coordinates allowed him to resolve open questions bequeathed by Pappus and others from the ancient world (see [Domski](#Domski)). Since it could be seen as operating according to an analytic method, it was named _analytic geometry_.
 
 ## Analytic-synthetic distinction in philosophy
+
+Something on Leibniz here.
 
 In [[philosophy]] the distinction has come to be applied to propositions. An _analytic_ proposition for [[Kant]] meant a proposition whose predicate concept is contained in its subject concept. A famous example is 'All bachelors are unmarried.' This is sometimes glossed today as _true by virtue of definition_. By contrast, in a _synthetic_ proposition the predicate concept is not contained in the subject content. Kant gives the example 'All bodies are heavy.'
 
 With the introduction of his new logic, [[Frege]] defines analyticity in terms of a proposition's logical form. Where Kant had taken $5+7=12$ as synthetic, Frege now saw it as analytic by virtue of his logicist analysis of number as a class of equinumerous concepts.
+
+Martin-L&ouml;f's account here.
 
 ## Analytic and synthetic geometry
 
@@ -33,3 +37,7 @@ He continues
 
 * [[synthetic mathematics]]
 * [[synthetic differential geometry]]
+
+## References
+
+* {#Domski} Mary Domski, _Descartes’ Mathematics_, ([SEP](https://plato.stanford.edu/entries/descartes-mathematics))
