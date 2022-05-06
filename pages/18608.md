@@ -72,7 +72,7 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 > Experimentally, there is a large number of facts that lack a detailed qualitative and quantitative explanation. The most spectacular manifestation of our lack of theoretical understanding of QCD is the failure to observe the elementary degrees of freedom, quarks and gluons, as free asymptotic states (color con- finement) and the occurrence, instead, of families of massive mesons and baryons (hadrons) that form approximately linear Regge trajectories in the mass squared. The internal, partonic structure of hadrons, and nucleons in particular, is still largely mysterious. Since protons and neutrons form almost all the visible matter of the Universe, it is of basic importance to explore their static and dynamical properties in terms of quarks and gluons interacting according to QCD dynamics. 
 
 
-Of course various partial approaches exist, notable computer-[[experiment]].
+Of course various partial approaches exist, notably computer-[[experiment]] in [[lattice QCD]]. (Such computer-checks of the mass-gap problem are analogous to computer checks of the [[Riemann hypothesis]], see [there](Riemann+hypothesis#ReferencesComputerChecks))
 High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulations are reported here:
 
 * S. Durr, Z. Fodor, J. Frison, C. Hoelbling, R. Hoffmann, S.D. Katz, S. Krieg, T. Kurth, L. Lellouch, T. Lippert, K.K. Szabo, G. Vulvert,
