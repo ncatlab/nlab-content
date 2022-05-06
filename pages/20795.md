@@ -241,6 +241,12 @@ and as transversal [[D6-D8-brane bound states]] on a [[half NS5-brane]] in [[typ
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
+Making explicit the completion of the $\mathfrak{su}(2)_{\mathbb{C}} \simeq \mathfrak{sl}(2,\mathbb{C})$-representation to a $\mathfrak{gl}(2,\mathbb{C})$-representation by adjoining the gauge field component $A_y$ to the scalar fields $\vec X$:
+
+* [Gaiotto-Witten 08, Section 3.1.1](#GaiottoWitten08)
+
+* [[Sergey Cherkis]], _Instantons on Gravitons_, around (21) in: Commun. Math. Phys. 306:449-483, 2011 ([arXiv:1007.0044](https://arxiv.org/abs/1007.0044))
+
 
 #### Relation to Vassiliev braid invariants
  {#ReferencesRelationToKnotInvariants}
