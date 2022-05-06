@@ -150,6 +150,17 @@ This classifies (abelian versions of) [[connection on a bundle|connections]] on 
 
 By generalizing the notion of [[Chern character]] to richer $(\infty,1)$-toposes, one obtains by the same token a notion of [[schreiber:differential cohomology in an (∞,1)-topos]] encoding connections on general [[principal ∞-bundle]]s and associated [[schreiber:∞-vector bundle]]s.
 
+\linebreak
+
++-- {: .standout}
+
+**Slogan.**
+
+Thousands of definitions of notions of cohomology and its variants. From the [[nPOV]], just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. 
+
+=--
+
+\linebreak
 
 ## Definition {#Definition}
 
