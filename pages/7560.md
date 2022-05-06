@@ -5,11 +5,13 @@
 
 ## Idea
 
-In [[ordinal arithmetic]], the ordinal sum is a natural addition on ordered sets and so provides a useful tool when manipulating [[simplicial sets]]. In ordinal sum you 'first put one of the two ordinals and then the other', so that the elements of the second ordinal are all bigger than those in the first one.
+In [[ordinal arithmetic]], the ordinal sum is a natural addition on ordered sets.  This is particularly well behaved when considering _finite_ ordinals and so provides a useful tool when manipulating [[simplicial sets]]. With infinite ordinals as well the properties are subtler and so care has to be taken.
 
-The ordinal sum induces the operation of [[join of simplicial sets]] endowing $sSet$ with the structure of a [[monoidal category]].
+The basic idea is that in ordinal sum you 'first put one of the two ordinals and then the other', so that the elements of the second ordinal are all bigger than those in the first one.
 
-## Ordinals as simplicial sets
+Restricted to $\Delta_a$ and thus to finite ordinals, the ordinal sum induces the operation of [[join of simplicial sets]] endowing the category, $sSet_+$, of augmented simplicial sets with the structure of a [[monoidal category]]. 
+
+##Recall: Finite ordinals as simplicial sets
 
 The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite [[total order|totally ordered]] [[set]]s, _including_ the [[empty set]], which we write in this context as
 
@@ -33,10 +35,17 @@ and so on, so that $[n] = \{ 0 \lt \ldots \lt n\}$
 
 This counting is off by one compared to the [[cardinality]] of these sets. 
 
+ 
 
-## Definition
+(We will restrict for the moment to finite ordinals and thus to the category $\Delta_a$.)
 
-The monoidal structure on $\Delta_a$ that we are interested in now is, at the level of the sets, just the [[disjoint union]], but we have to consider the order on that union. If we have $[n]$ and $[m]$, we form the union of the two sets, where we know the order on two elements we keep it, but if we have two elements one, $i$, say, from the $[n]$ and the other, $j$, from $[m]$ we put $i \lt j$.
+The monoidal structure on $\Delta_a$  is, at the level of the sets, just the [[disjoint union]], but we  consider the order on that union. 
+
+##The definition (initially for finite ordinals)
+
+If we have $[n]$ and $[m]$, we form the union of the two sets, where we know the order on two elements we keep it, but if we have two elements one, $i$, say, from the $[n]$ and the other, $j$, from $[m]$ we put $i \lt j$.
+
+###Example 
 
 As an example, consider $[1] = \{ 0 \lt 1\}$ and $[2] =  \{\overline{0} \lt \overline{1} \lt \overline{2}\}$, where the overlines are just so that we can keep track of where the different elements come from. We form the union of the two sets and the rule says that anything without an overline is less than anything with one.  This gives a linear order
 $$[1] \oplus [2] = \{0 \lt 1 \lt \overline{0} \lt \overline{1} \lt \overline{2}\},$$
@@ -49,11 +58,18 @@ $$
   \,,
 $$
 
-but remember there is also the order to keep track of.
+but must remember there is also the order to keep track of.
 
-This operation extends to give the **ordinal sum** structure  on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) making it a [[monoidal category]], whose monoidal product is the $\oplus$ operation described above.
+This operation extends to give the **ordinal sum** structure  on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) making it a [[monoidal category]], whose monoidal product is the $\oplus$ operation described above.  Note however that $[m]\oplus [n]$ and $[n]\oplus [m]$, although isomorphic are not _naturally_ so.
 
-Warning: this [[monoidal structure]] is [[symmetric monoidal category|symmetric]] for finite ordinals (of course), but not for infinite ones!   In that case there may be no order preserving maps from $[i] \oplus [j]$ to $[j] \oplus [i]$ for $i \neq j$, let alone isomorphisms.
+
+##Ordinal sum in general
+If we consider ordinals that may not be finite then clearly the idea of ordinal sum generalises, so, for ordinals, $\alpha$ and $\beta$,  $\alpha\oplus \beta$ is the set  $\alpha\sqcup \beta$ with total order in which elements in either part are ordered as originally, but where any $a\in \alpha$ is less than and $b\in \beta$. 
+
+If either ordinal is infinite, this may lead to $\alpha\oplus \beta$ and $\beta\oplus \alpha$ not being isomorphic.  For instance, $[0]\oplus\omega$ is isomorphic to $\omega$ itself, but $\omega\oplus [0]$ has a greatest element, i.e. the $0$ in $[0]$-summand, so clearly there can be no isomorphism between the two ordinals.  
+
+We thus give a *warning*: 
+the [[monoidal structure]] given by ordinal sum is not a symmetric monoidal category structure even when restricted to  the subcategory of finite ordinals. If one extends to consider infinite ordinals, there may even be no order preserving maps at all from $[i] \oplus [j]$ to $[j] \oplus [i]$ for $i \neq j$, let alone isomorphisms.
 
 ## Ordinal sum of categories
 
