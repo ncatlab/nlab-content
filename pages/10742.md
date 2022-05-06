@@ -12,8 +12,12 @@ On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-t
 
 On [[Kaluza-Klein compactification]] in [[supergravity]]:
 
-
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
+
+
+On [[G2-conifolds]]:
+
+* [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
 
 
 On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G2-manifolds]]:
