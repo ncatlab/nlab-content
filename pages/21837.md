@@ -72,7 +72,7 @@ Tentative formulation via [[conformal nets]]:
 
 
 ##### H-string elliptic genus
-
+{#ReferencesEllipticGeneraAsPartitionFunctionsOfHStrings}
 
 The interpretation of [[equivariant elliptic genera]] as [[partition functions]] of [[parametrized WZW models]] in [[heterotic string theory]]:
 
@@ -85,6 +85,7 @@ The interpretation of [[equivariant elliptic genera]] as [[partition functions]]
 
 
 ##### M5-brane elliptic genus
+{#ReferencesEllipticGeneraAsPartitionFunctionsOfM5Branes}
 
 On the [[M5-brane elliptic genus]]:
 
@@ -106,13 +107,23 @@ Further discussion in:
 
 
 ##### M-string elliptic genus
+{#ReferencesEllipticGeneraAsPartitionFunctionsOfMStrings}
 
 On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
 
 * [[Stefan Hohenegger]], [[Amer Iqbal]],  _M-strings, Elliptic Genera and $\mathcal{N}=4$ String Amplitudes_, Fortschritte der PhysikVolume 62, Issue 3 ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
 
+* [[Stefan Hohenegger]], [[Amer Iqbal]], Soo-Jong Rey, _M String, Monopole String and Modular Forms_, Phys. Rev. D 92, 066005 (2015) ([arXiv:1503.06983](https://arxiv.org/abs/1503.06983))
+
+
+
+
+* M. Nouman Muteeb, _Domain walls and M2-branes partition functions: M-theory and ABJM Theory_ ([arXiv:2010.04233](https://arxiv.org/abs/2010.04233))
+
+
 
 ##### E-string elliptic genus
+{#ReferencesEllipticGeneraAsPartitionFunctionsOfEStrings}
 
 On the [[elliptic genus]] of [[E-strings]] as [[wrapped brane|wrapped]] [[M5-branes]]:
 
