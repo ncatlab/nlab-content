@@ -52,6 +52,11 @@ Under [[AdS-CFT|AdS7/CFT6]] the 6d $(2,0)$-superconformal QFT is supposed to be 
 
 See [[AdS/CFT correspondence]] for more on this.
 
+
+### Realization of quantum chromodynamics
+
+See at _[[AdS-QCD correspondence]]_.
+
 ### Solitonic 1-branes
 
 The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the point of view of the ambient [[11-dimensional supergravity]] these are the boundaries of [[M2-branes]] ending on the [[M5-branes]]. ([GGT](#GGT))
@@ -231,5 +236,11 @@ a summary of
 [[!redirects 6d (2,0)-superconformal field theory]]
 [[!redirects 6d (2,0)-superconformal field theories]]
 
+[[!redirects 6d (2,0)-superconformal SCFT]]
+[[!redirects 6d (2,0)-superconformal SCFTs]]
+
 [[!redirects 6d superconformal gauge field theory]]
 [[!redirects 6d superconformal gauge field theories]]
+
+
+
