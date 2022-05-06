@@ -1,22 +1,15 @@
-+-- {: .query}
 
-Please, feel free to leave a comment.
- 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include Category theory content]]
+=--
+=--
 =--
 
-
-<div class="rightHandSide toc">
-[[!include Category theory content]]
-</div>
-
-
-
-
 \tableofcontents
-
-
-
-
 
 ##Main definitions##
 
@@ -624,7 +617,6 @@ is closed under transfinite op-compositions.
 ######Definition
 We shall say that a class of maps $\mathcal{C}$ in a cocomplete category
 $\mathbf{E}$ is  **cellular** if it satisfies the following conditions:
-
 * $\mathcal{C}$ contains the isomorphisms and is closed under composition,
 * $\mathcal{C}$ is closed under transfinite compositions;
 * $\mathcal{C}$ is closed under cobase changes.
