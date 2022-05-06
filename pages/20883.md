@@ -43,47 +43,10 @@ Eventually, a (counter-)example of a weight system which at least does not arise
 
 #### On horizontal chord diagrams
 
-However, for [[horizontal chord diagrams]] the situation is clear-cut: [[all horizontal weight systems are Lie algebra weight systems]]. We state this as Prop. \ref{AllHorizontalWeightSystemsAreslNWeightSystems} below, but first to recall the ingredients:
+For [[horizontal chord diagrams]] we have: _[[all horizontal weight systems are partitioned Lie algebra weight systems]]_. 
 
-For $\mathfrak{g}$ a [[metric Lie algebra]], write  
+([Bar-Natan 96](#BarNatan96))
 
-1)  $\mathfrak{g}Mod_{/\sim}$ for its [[set]] of [[isomorphism classes]] of [[finite dimensional vector space|finite dimensional]] [[Lie algebra representations]] ([[Lie modules]])
-
-2) $\mathfrak{g}Mod_{/\sim} \overset{ w_{(-)} }{\longrightarrow} \mathcal{W}_{pb}$ for the [[function]] that sends a Lie module $C$ to the corresponding [[Lie algebra weight system]] $w_C$ on [[horizontal chord diagrams]];
-
-3)
-
-\[
-  \label{LinearExtensionOfMapAssigningLieWeightSystemsToModules}
-   Span\big(\mathfrak{g}Mod_{/\sim}\big) 
-     \overset{ w_{(-)} }{\longrightarrow} 
-  \mathcal{W}_{pb}
-\] 
-
-for the linear extension of this function to the [[linear span]] of [[isomorphism classes]] of [[Lie modules]].
-
-
-+-- {: .num_prop #AllHorizontalWeightSystemsAreslNWeightSystems}
-###### Proposition
-([[all horizontal weight systems are Lie algebra weight systems]])
-
-For $N \geq 2$ consider the [[special linear Lie algebra]] $\mathfrak{sl}(N)$, canonically regarded as a [[metric Lie algebra]] via its  [[Killing form]]. 
-
-Then the space $\mathcal{W}_{pb} \coloneqq (\mathcal{A}^{pb})^\ast$ of [[weight systems]] on [[horizontal chord diagrams]] is [[linear span|spanned]] by $\mathfrak{sl}(N)$-[[Lie algebra weight systems]], in that the linear extension (eq:LinearExtensionOfMapAssigningLieWeightSystemsToModules) of the function assigning $\mathfrak{sl}(N)$-[[Lie algebra weight systems]] is an [[epimorphism]]:
-
-$$
-  Span
-  \big(
-    \mathfrak{sl}(N) Mod_{/\sim}
-  \big)
-  \underoverset{\color{blue}epi}{ \;\;\; w_{(-) \;\;\;} }{\longrightarrow}
-  \mathcal{W}_{pb}
-  \,.
-$$
-
-=--
-
-This is due to [Bar-Natan 96, Corollary 2.6](#BarNatan96).
 
 ### As expectation values of single trace observables
  {#AsExpectationValuesOfSingleTraceOperators}
