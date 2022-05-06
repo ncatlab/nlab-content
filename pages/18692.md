@@ -53,7 +53,7 @@ A tangent structure $\mathbb{T}$ on a category $\mathbb{X}$ is a tuple:
 $$
   \left(
     T: \mathbb{X} \to \mathbb{X}, p: T \Rightarrow \mathsf{id},
-    0: \mathsf{id} \Rightarrow \mathbb{X}, +: T {}_p\times_p T \Rightarrow R,
+    0: \mathsf{id} \Rightarrow T, +: T \times_p T \Rightarrow T,
     \ell: T \Rightarrow T^2, c: T^2 \Rightarrow T^2
   \right)
 $$
@@ -103,7 +103,7 @@ Denote pullback powers of $p$ as $T_n(M)$.
 
 In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram corresponds to $\ell: T \Rightarrow TT$ being a cosemigroup. The second diagram corresponds to $c: TT \Rightarrow TT$ acting as a symmetry, and the third and fourth diagrams state that $\ell$ is a symmetric cosemigroup.
 
-* Universality of the vertical lift:Define the map $\mu := T(+) \circ \langle \ell \circ \pi_0, 0 \circ \pi_1 \langle$, we require the following diagram be a pullback
+* Universality of the vertical lift: Define the map $\mu := T(+) \circ \langle \ell \circ \pi_0, 0_T \circ \pi_1 \rangle$, we require the following diagram be a pullback:
 
 \begin{center}
     \begin{tikzcd}
