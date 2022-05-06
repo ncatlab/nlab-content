@@ -41,7 +41,7 @@ So the fundamental groupoid gets rid of the choice of basepoint for the fundamen
 
 ### Topologizing the fundamental groupoid
 
-The fundamental groupoid $\Pi_1(X)$ can be made into a [[topological groupoid]] (i.e. a [[internal groupoid|groupoid internal]] to [[Top]]) when $X$ is [[path-connected space|path-connected]], [[locally path-connected space|locally path-connected]] and [[semi-locally simply connected space|semi-locally simply connected]]. This is a special case of 10.5.8 of Topology and Groupoids. 
+The fundamental groupoid $\Pi_1(X)$ can be made into a [[topological groupoid]] (i.e. a [[internal groupoid|groupoid internal]] to [[Top]]) when $X$ is [[path-connected space|path-connected]], [[locally path-connected space|locally path-connected]] and [[semi-locally simply connected space|semi-locally simply connected]]. This is a special case of ([Brown 06, 10.5.8](#Browno6)). 
 This construction is closely linked with the construction of a [[universal covering space]] for a path-connected pointed space. The object space of this groupoid is just the space $X$.
 
 +-- {: .query}
@@ -109,7 +109,7 @@ topological groupoid, _Proc. Edinburgh Math. Soc._ 19 (1975)
 * R. Brown and O. Mucuk,  The monodromy groupoid of a Lie
 groupoid, _Cah. Top. G\'eom. Diff. Cat_. 36 (1995) 345-369.
 
-* R. Brown, _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
+* {#Brown06} [[Ronnie Brown]], _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
 Relations with group theory are discussed in: 
 
