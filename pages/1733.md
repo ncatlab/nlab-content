@@ -114,6 +114,10 @@ Lecture notes:
 
 * [[Gereon Quick]], _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014
 
+Survey of various subjects in algebraic topology:
+
+* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
+
 Survey with relation to [[differential topology]]:
 
 * [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
@@ -129,9 +133,6 @@ Some interactive 3D demos can be found at
 * [[Neil Strickland]], *Interactive pages for Algebraic Topology*, [web site](http://neil-strickland.staff.shef.ac.uk/courses/MAS435/demos/)
 
 
-A comprehensive survey of various subjects in algebraic topology is in
-
-* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
 
 Further online resources include
 
