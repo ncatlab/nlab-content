@@ -215,6 +215,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[equivariant elliptic cohomology]]
 
+* [[equivariant complex oriented cohomology theory]]
+
 * [[orbifold cohomology]]
 
 * [[Chen-Ruan cohomology]], [[delocalized equivariant cohomology]]
