@@ -21,9 +21,7 @@
 
 ## Idea
 
-The term _stack_, is a traditional synonym for _[[2-sheaf]]_ or often just _[[(2,1)-sheaf]]_ (see there for more details).
-
-It is also often used more restrictively as a synonym for _[[(2,1)-sheaf]].
+The term _stack_, is a traditional synonym for _[[2-sheaf]]_ or often, more restrictively, as a synonym for _[[(2,1)-sheaf]]_ (see there for more details).
 
 This is part of a whole hierarchy of [[higher category theory|higher categorical]] generalizations of the notion of _[[sheaf]]_. A [[(2,1)-sheaf]] / stack is equivalently a [[1-truncated]] [[(∞,1)-sheaf]]/[[∞-stack]].
 
