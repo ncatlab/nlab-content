@@ -173,6 +173,8 @@ In [[perturbative string theory]], orbifolds as [[target spaces]] for a [[string
 
 and then further developed notably in 
 
+* {#DVVV89} [[Robbert Dijkgraaf]], [[Cumrun Vafa]], [[Erik Verlinde]], [[Herman Verlinde]], _The operator algebra of orbifold models_, Comm. Math. Phys. Volume 123, Number 3 (1989), 485-526.
+
 * [[Eric Zaslow]], _Topological orbifold models and quantum cohomology rings_, Comm. Math. Phys. 156 (1993), no. 2, 301&#8211;331.
 
 See also the references at _[[fractional D-brane]]_.
