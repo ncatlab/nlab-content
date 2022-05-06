@@ -219,7 +219,7 @@ For the more ambitious matching of the spectrum of the dilatation operator of [[
 
 Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [ABP 18](#ABP18).
 
-Exact duality check also in the stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19](#EberhardtGaberdiel19)
+Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b)
 
 ## Formalizations
 
@@ -347,29 +347,34 @@ Review of [[Yangian]] symmetry includes
 
 * [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
 
-### $AdS_4 / CFT_3$
 
 
-* {#EberhardtGaberdiel19]} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Strings on $AdS_3 \times S^3 \times S^3 \times S^1$_ ([arXiv:1904.01585](https://arxiv.org/abs/1904.01585))
+### On $AdS_2 / CFT_1$
+ {#ReferencesAdS2CFT1}
+
+An exact correspondence of the symmetric [[orbifold]] [[CFT]] of [[Liouville theory]] with a string theory on $AdS_3$ is claimed in:
+
+* {#EberhardtGaberdiel19a} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _String theory on $AdS_3$ and the symmetric orbifold of Liouville theory_ ([arXiv:1903.00421](https://arxiv.org/abs/1903.00421))
+
+* {#EberhardtGaberdiel19b} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Strings on $AdS_3 \times S^3 \times S^3 \times S^1$_ ([arXiv:1904.01585](https://arxiv.org/abs/1904.01585))
 
 
-### $AdS_2 / CFT_1$
 
+### On $AdS_3 / CFT_2$
 
 Via [[Jackiw-Teitelboim gravity]]:
 
 * {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
 
 
-
-### $AdS_3 / CFT_2$
+### On $AdS_4 / CFT_3$
 
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
   
 
 
 
-### $AdS_5 / CFT_4$
+### On $AdS_5 / CFT_4$
 
 * {#BeisertEtAl10} N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_, Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
 
@@ -379,7 +384,8 @@ Computing dual [[string scattering amplitudes]] by AdS/CFT beyond the [[planar l
 
 * {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
 
-### $AdS_7 / CFT_6$
+
+### On $AdS_7 / CFT_6$
 
 We list references specific to $AdS_7/CFT_6$.
 
