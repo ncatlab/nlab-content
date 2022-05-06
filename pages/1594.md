@@ -150,6 +150,9 @@ Survey of basic orbifold theory:
 
 * {#Snowden11} Andrew Snowden, _Introduction to orbifolds_, 2011 ([pdf](https://ocw.mit.edu/courses/mathematics/18-904-seminar-in-topology-spring-2011/final-paper/MIT18_904S11_finlOrbifolds.pdf))
 
+* {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
+
+
 Textbook account:
 
 * {#Ratcliffe06} John Ratcliffe, _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Springer 2006
