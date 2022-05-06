@@ -1,6 +1,3 @@
-[[!redirects leptoquarks]]
-
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,19 +17,19 @@
 
 ## Idea
 
-What is called _leptoquakrs_ are hypothetical [[fundamental particles]] which share properties both of the [[quarks]] as well as the [[leptons]] in the [[standard model of particle physics]].
+What is called _leptoquarks_ are hypothetical [[fundamental particles]] which share properties both of the [[quarks]] as well as the [[leptons]] in the [[standard model of particle physics]].
 
 ## Properties
 
 ### Experimental hints
 
-The existence of leptquarks could potentially explain 
+The existence of leptoquarks could potentially explain 
 
 1. the apparently observed [[flavour anomalies]]
 
    ([Bauer-Neubert 16](#BauerNeubert16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
 
-1. the apparently obserrved [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([Müller 18](#Mueller18))
+1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([Müller 18](#Mueller18))
 
 ### Experimental constraints
 
