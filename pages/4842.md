@@ -233,9 +233,8 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 ## Related concepts ## 
 
-* [[chord diagram]], [[Jacobi diagram]]
+[[!include chord diagrams and weight systems -- table]]
 
-* [[weight system]]
 
 * [[Kontsevich integral]]
 
