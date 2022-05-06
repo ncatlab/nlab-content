@@ -1119,4 +1119,9 @@ Formulation in [[homotopy type theory]]:
 [[!redirects Whitehead generalized cohomology theory]]
 [[!redirects Whitehead generalized cohomology theories]]
 
+[[!redirects Whitehead-generalized cohomology]]
+[[!redirects Whitehead-generalized cohomology theory]]
+[[!redirects Whitehead-generalized cohomology theories]]
+
+
 
