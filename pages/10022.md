@@ -22,6 +22,7 @@
 Holographic entanglement entropy refers to the expression of [[entanglement entropy]] of [[quantum field theories]] expressed "holographically" via a version of [[AdS-CFT duality]] in terms of the [[geometry]] of a higher-dimensional [[bulk]] [[spacetime]]
 
 ### Ryu-Takayanagi formula
+ {#RyuTakayanagiFormula}
 
 For [[quantum field theories]] that are exhibited as [[boundary field theories]] on the [[asymptotic boundary]] $A$ of an approximately [[anti de Sitter spacetime]] via some approximation to [[AdS-CFT duality]] (for instance for [[QCD]] via [[AdS-QCD duality]]) their [[entanglement entropy]] of a given [[bounded set|bounded domain]] $B\subset A$ turns out to be proportional to the [[area]] of the minimal-area [[surface]] inside the [[bulk]] spacetime that has the same [[boundary]] $\partial B$ (see [Nishioka-Ryu-Takayanagi 09 (3.3)](#NishiokaRyuTakayanagi09) for review of the formula and [Lewkowycz-Maldacena 13](#LewkowyczMaldacena13) for a conceptual explanation). 
 
@@ -56,7 +57,7 @@ Various properties of [[entanglement entropy]] find immediate geometric interpre
 
 Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10) suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
 
-Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("tensor networks")
+Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("tensor networks", [Swingle 12](#Swingle12), and quantum error correction codes [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18) for review).
 
 
 <center>
@@ -71,6 +72,7 @@ Talking this perspective to the extreme suggests a description of [[bulk]] [[spa
 
 > graphics grabbed from [Harlow 18](#Harlow18)
 
+In this context the Ryu-Takayanagi formula for holographic entanglement entropy ([above](#RyuTakayanagiFormula)) has an exact proof [PYHP 15, Theorem 2](#PYHP15).
 
 ## Related concepts
 
@@ -125,7 +127,20 @@ Review is in
 * [[Mark Van Raamsdonk]], _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
 TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elementary Particle Physics 2015 Theoretical Advanced Study Institute in Elementary Particle Physics ([arXiv:1609.00026](https://arxiv.org/abs/1609.00026))
 
+Development of this idea in terms of [[tensor networks]] is due to 
+
+* {#Swingle12} Brian Swingle, _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304))
+
+and further in terms of quantum error correcting codes due to 
+
+* {#ADH14} Ahmed Almheiri, Xi Dong, Daniel Harlow, _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
+
+* {#PYHP15} Fernando Pastawski, Beni Yoshida, [[Daniel Harlow]], John Preskill, _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
+
+reviewed in
+
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
+
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
