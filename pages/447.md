@@ -256,6 +256,10 @@ The geometric realization of a [[Kan fibration]] is a [[Serre fibration]].
 This is shown in [Quillen 68](#Quillen68).
 \end{proof}
 
+This result implies that the geometric realization functor preserves all five classes
+of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyclic cofibrations]],
+[[fibrations]], and [[acyclic fibrations]].
+
 ### Induced properties of the fibrant replacement
 
 The previous two sections show that the geometric realization preserves finite limits and fibrations.  Since its right adjoint, the singular complex functor $Top \to sSet$, also preserves both (much more trivially), and since all objects of $Top$ are fibrant and the adjunction is simplicially enriched, it follows that the composite $sSet \to Top \to sSet$ is a simplicially enriched [[fibrant replacement functor]] on $sSet$ that additionally preserves both finite limits and fibrations.
@@ -276,6 +280,8 @@ The previous two sections show that the geometric realization preserves finite l
   * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
 
 * [[totalization]]
+
+* [[singular complex functor]]
 
 ## References
 
