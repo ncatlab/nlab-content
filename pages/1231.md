@@ -100,7 +100,7 @@ formulas for the [[six operations]] on D-modules.
 
 ##Categorical Koszul duality
 
-A form of Zoszul duality with dg algebras replaced by dg categories has been developed by Holstein and Lazarev. In this, the Koszul dual of a dg category $\mathcal{D}$, given by a bar construction, $B\mathcal{D}$ is a pointed curved coalgebra; see
+A form of Koszul duality with dg algebras replaced by dg categories has been developed by Holstein and Lazarev. In this, the Koszul dual of a dg category $\mathcal{D}$, given by a bar construction, $B\mathcal{D}$ is a pointed curved coalgebra; see
 
  * [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 
