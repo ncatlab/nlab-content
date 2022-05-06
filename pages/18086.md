@@ -11,15 +11,16 @@ A [[quotient]] of the [[torus]], taken in the sense of [[noncommutative geometry
 
 ### As a Lie groupoid
 
-The __noncommutative torus__ with parameter $\theta\in\mathrm{U}(1)$
-is the [[groupoid quotient]] of $\mathrm{U}(1)$
-by the action of the discrete group $\mathbf{Z}$ of [[integers]],
-where the element $1\in\mathbf{Z}$ acts by multiplication by $\theta$.
+The __noncommutative torus__ with parameter $\theta \in \mathrm{U}(1)$
+is the [[groupoid quotient]] of the [[circle group]] $\mathrm{U}(1)$
+by the [[action]] of the [[discrete group]] $\mathbf{Z}$ of [[integers]],
+where the element $1 \in \mathbf{Z}$ acts by [[multiplication]] by $\theta$.
 
-Here we can take $\theta=\exp(2\pi i \hbar)$, where $\hbar$ is [[Planck's constant]].
+Here we can take $\theta = \exp(2\pi i \hbar)$, where $\hbar$ is [[Planck's constant]].
 
 The following [[Lie groupoid]] is [[Morita equivalent]] to the above
 [[Lie groupoid]]:
+
 take the [[groupoid quotient]] of $\mathrm{U}(1)^2$ (i.e., a [[torus]])
 by the action of the [[Lie group]] $\mathbf{R}$ of [[real numbers]]
 such that
@@ -49,7 +50,27 @@ Furthermore, two noncommutative tori with paremeters $\theta_1$ and $\theta_2$
 are [[Morita equivalent]] if and only if $\theta_1$ and $\theta_2$
 are in the same orbit with respect to the action of $\mathrm{GL}(2,\mathbf{Z})$
 on $\mathrm{U}(1)$ defined as follows:
-$${a\;b\atop c\;d}\exp(2\pi i \alpha)=\exp\left(2\pi i {(a\alpha+b) / (c\alpha+d)}\right).$$
+
+$$
+  \left[
+    \array{
+      a & b 
+      \\
+      c & d
+    }
+  \right]
+  \cdot
+  \exp(2\pi i \alpha)
+  \;\coloneqq\;
+  \exp
+  \left(
+    2\pi i 
+    \frac
+      {a\alpha + b}
+      {c\alpha + d}
+  \right)
+  \,.
+$$
 
 ## Related concepts
 
@@ -59,7 +80,7 @@ $${a\;b\atop c\;d}\exp(2\pi i \alpha)=\exp\left(2\pi i {(a\alpha+b) / (c\alpha+d
 
 ## References
 
-* [[Marc A. Rieffel]], _C∗-algebras associated with irrational rotations_, Pacific Journal of Mathematics 93:2 (1981), 415–429.  [doi](http://dx.doi.org/10.2140/pjm.1981.93.415)
+* [[Marc A. Rieffel]], _C∗-algebras associated with irrational rotations_, Pacific Journal of Mathematics 93:2 (1981), 415–429 ([doi:10.2140/pjm.1981.93.415](http://dx.doi.org/10.2140/pjm.1981.93.415))
 
 * Wikipedia, _[Noncommutative torus](https://en.wikipedia.org/wiki/Noncommutative_torus)_
 
