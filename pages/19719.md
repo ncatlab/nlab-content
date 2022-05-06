@@ -47,6 +47,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Kenji Maillard]]
 * [[Andrew Swan]]
 * [[Stephan Spahn]]
+* [[Matthew Weaver]]
 * [[Jonathan Weinberger]]
 
 ## Plans
