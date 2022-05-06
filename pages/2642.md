@@ -88,7 +88,7 @@ $$
 
 =--
 
-(e.g. [tom Dieck 09 (1.1.6), (1.1.8)](representation+theory#tomDieck09))
+(e.g. [tom Dieck 09 (1.1.6), (1.1.8)](#tomDieck09))
 
 ***
 
@@ -106,6 +106,10 @@ $$
   In [[Wigner classification]] the irreps of the [[spacetime]] symmetry groups are identified with [[elementary particle]] species.
 
 ## References
+
+See any text on [[representation theory]], for instance
+
+* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
 See also
 
