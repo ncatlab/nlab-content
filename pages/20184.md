@@ -209,7 +209,7 @@ $$
 
 ## Related concepts
 
-* [[Spin(2)]], [[Spin(3)]], [[Spin(5)]], [[Spin(6)]], [[Spin(8)]]
+* [[Spin(2)]], [[Spin(3)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
 
 ## References
 
