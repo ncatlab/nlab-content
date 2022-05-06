@@ -44,6 +44,8 @@ Here are some other reasons why the empty space should not be considered (path-)
 
 * The statement that a product $X\times Y$ is connected if and only if its components $X$ and $Y$ are connected fails if the empty set is regarded as connected.
 
+* A general result, e.g., in the theory of combinatorial species, is that the logarithm of exponential generating functions of some type of objects should be the exponential generating function for the connected objects of that type. Since this logarithm has no constant term, this suggests the empty object should not count as connected. This result is also known in the physics literature as the linked-cluster theorem.
+
 See [[too simple to be simple]] for general theory.
 
 
