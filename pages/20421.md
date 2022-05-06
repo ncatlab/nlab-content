@@ -20,13 +20,13 @@
 
 ## Idea
 
-An _$(n \times k)$-category_ (read "n-by-k category") is an [[n-category]] [[internalization|internal]] to a $k$-category.
+An _$(n \times k)$-category_ (read "n-by-k category") is an [[n-category]] [[internalization|internal]] to a $k$-category.  The term is "generic" in that it does not specify the level of strictness of the $n$-category and the $k$-category.
 
 For example:
 
-* A $(1 \times 0)$-category, as well as a $(0 \times 1)$-category, are precisely [[categories]].
-* A $(1 \times 1)$-category is precisely a [[double category]].
-* A $(1 \times 1 \times 1)$-category is precisely a [[triple category]] (that is, a category internal to a double category).
+* A $(1 \times 0)$-category, as well as a $(0 \times 1)$-category, is precisely a [[category]].  More generally, $(n\times 0)$-categories and $(0\times n)$-categories are precisely $n$-categories.
+* A $(1 \times 1)$-category is precisely a [[double category]] (either strict or weak).
+* A $(1 \times 1 \times 1)$-category is precisely a [[triple category]] (that is, a category internal to double categories, or a double category internal to categories --- which again could be strict or weak).
 * An $(n \times 1)$-category is what [[Michael Batanin|Batanin]] calls a [[monoidal n-globular category]].
 
 An $(n \times k)$-category has $(n + 1)(k + 1)$ kinds of cells.
@@ -40,7 +40,13 @@ Under suitable [[fibrant object|fibrancy]] conditions, a $(n \times k)$-category
 
 ## Relationships
 
-* Every $(1 \times 2)$-categories canonically gives rise to a $(2 \times 1)$-category. (Cor. 3.11 in **[DH10](#DH10)**)
+At least in some cases, if the structure is sufficiently strict or sufficiently fibrant, we can shift cells from $k$ to $n$.  For instance:
+
+* A sufficiently strict $(1 \times 2)$-category canonically gives rise to a $(2 \times 1)$-category. (Cor. 3.11 in **[DH10](#DH10)**)
+
+* Any double category (i.e. a $(1\times 1)$-category) has an underlying 2-category.
+
+* A sufficiantly fibrant $(2\times 1)$-category has an underlying tricategory (i.e. $(3\times 0)$-category).
 
 
 ## Related concepts
