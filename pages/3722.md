@@ -147,7 +147,7 @@ $$
 ###### Proposition
 **(closure of a finite union is the union of the closures)**
 
-For $I$ a [[finite set]] and $\{U_i \subset X\}_{i \in I}$ is a finite set of subsets of a topological space, then
+For $I$ a [[finite set]] and $\{U_i \subset X\}_{i \in I}$ a finite set of subsets of a topological space, we have
 
 $$
   Cl(\underset{i \in I}{\cup}U_i)
@@ -171,7 +171,7 @@ $$
   Cl(\underset{i \in I}{\cup}U_i)
 $$
 
-because if every neighbourhood of a point intersects all the $U_i$, then every neighbourhood intersects their union.
+because if every neighbourhood of a point intersects some $U_i$, then every neighbourhood intersects their union.
 
 The other direction
 
