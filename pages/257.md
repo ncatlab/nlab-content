@@ -441,7 +441,7 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 The concept originates in 
 
-* {#Quillen67} [[Daniel Quillen]], chapter I _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+* {#Quillen67} [[Daniel Quillen]], chapter I _Axiomatic homotopy theory_ in  _[[Homotopical Algebra]]_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
 
 An account is in
 
