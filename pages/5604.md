@@ -26,7 +26,8 @@ A **complete small category** (or **small complete category**) is a [[category]]
 
 ## In classical logic
 
-In the presence of [[classical logic]], complete small categories reduce to [[complete lattices]] by the following theorem of [[Peter Freyd]].
+In the presence of [[classical logic]], complete small categories reduce to [[complete lattices]] by the following theorem due to [Freyd 64, p. 78](#Freyd64).
+.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -45,6 +46,8 @@ $$x \to \prod_{f \in Mor(D)} y$$
 has [[cardinality]] at least $2^{|Mor(D)|} \gt {|Mor(D)|}$, which is a contradiction. 
 
 =--
+
+This basic fact has profound implications for instance for the [[adjoint functor theorem]]. See there for more.
 
 
 ## In Grothendieck toposes
@@ -87,16 +90,20 @@ Note that to model polymorphic simple type theory such as [[System F]], it is no
 
 In contrast, something more like a true complete small category may be necessary to model an impredicative dependent type theory such as the [[calculus of constructions]] with a proof-relevant impredicative sort (traditionally called "Set"), where the impredicative universe admits [[Pi-types]] with *arbitrary* domain.
 
+## Related concepts
+
+* [[adjoint functor theorem]]
+
 
 ## References
 
 Freyd's theorem appears as exercise D in ch.3 (p.78) in
 
-* [[Peter Freyd]], *Abelian Categories*, Harper & Row New York 1964. (Reprinted with author's comment as [TAC reprints no. 3 (2003)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html))
+* {#Freyd64} [[Peter Freyd]], *Abelian Categories*, Harper & Row New York 1964. (Reprinted with author's comment as [TAC reprints no. 3 (2003)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3abs.html))
 
 The original reference for the complete small categories in the effective topos is:
 
-* {#Hyland88} A small complete category, [[Martin Hyland]], Annals of Pure and Applied Logic 40 (1988), [pdf](https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/smallcomplete88.pdf)
+* {#Hyland88} [[Martin Hyland]], _A small complete category_, Annals of Pure and Applied Logic 40 (1988) ([pdf](https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/smallcomplete88.pdf))
 
 It was expanded further in the following paper, which discusses the strong/weak completeness issue and the relation to stacks in more detail:
 
