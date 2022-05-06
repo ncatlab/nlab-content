@@ -83,7 +83,7 @@ A __quasi-Hopf algebra__ is a quasibialgebra with a suitable notion of antipode.
 
 ### Twisting quasibialgebras by 2-cochains
 
-The associator $\phi$ is a 3-cocycle in the sense of bialgebra cohomology theory of Majid. The abelian cohomology would add a coboundary of 2-cochain to get a cohomologous 3-cocycle. In nonabelian case, however, the twist by an invertible 2-cochain is done in a nonabelian way, described by Drinfeld and generalized by Majid to $n$-cochains.
+The associator $\phi$ is a counital 3-cocycle in the sense of bialgebra cohomology theory of Majid. The 3-cocycle condition is the pentagon for $\phi$. The abelian cohomology would add a coboundary of 2-cochain to get a cohomologous 3-cocycle. In nonabelian case, however, the twist by an invertible 2-cochain is done in a nonabelian way, described by Drinfeld and generalized by Majid to $n$-cochains.
 
 Thus, for a bialgebra $A$, and fixed $n$, the
 $i$-th coface
@@ -91,14 +91,14 @@ $$
 \partial^i  = id_{A^{\otimes (i-1)}}\otimes \Delta \otimes \id_{A^{\otimes (n-i)}} : A^{\otimes n}\to A^{\otimes (n+1)}, 
 $$
 for $1\leq i\leq n$, and $\partial^0 = 1\otimes id_{A^{\otimes n}}$, $\partial^n = 
-id_{A^{\otimes n}}\otimes 1$. Majid defines
+id_{A^{\otimes n}}\otimes 1$. For $F\in H^{\otimes n}$, Majid defines
 $$
-\partial^+ = \prod_{i\,\,\,\,even} \partial^i,\,\,\,\,\,\partial^- = \prod_{i\,\,\,\,odd} \partial^i,
+\partial^+ F = \prod_{i\,\,\,\,even} (\partial^i F),\,\,\,\,\,\partial^- F = \prod_{i\,\,\,\,odd} (\partial^i F),
 $$
-and then if $F\in A^{\otimes n}$ is a cochain then its coboundary is $\delta F = (\partial^+ F)(\partial^- F^{-1})$, which is automatically an $(n+1)$-cochain. 
+where the products are in the order of ascending $i$. If $F\in A^{\otimes n}$ is a cochain then its coboundary is $\delta F = (\partial^+ F)(\partial^- F^{-1})$, which is automatically an $(n+1)$-cochain. 
 If $Fin A^{\otimes n}$ is an $n$-cochain and $\phi\in A^{\otimes (n+1)}$ is an $(n+1)$-cochain then one defines a cochain twist $\phi^F$ of $\phi$ by $F$ by the formula
 $$
-\phi^F = (\partial^+ F)\phi(\partial^- F).
+\phi^F = (\partial^+ F)\phi(\partial^- F^{-1}).
 $$
 Drinfeld proved that for $n=2$ the following is true. Given a quasiabialgebra $A = (A,m,\eta,\Delta,\epsilon,\phi)$ and a 2-cochain $F$, the data
 $A^F = (A,m,\eta,F\Delta(-)F^{-1},\epsilon,\phi^F)$ is also a quasibialgebra. Furthermore, categories of representations $A-mod$ and $A^F-mod$ are monoidally equivalent reflecting the idea that cohomologous cocycles lead to nonessential categorical effects. If $(A,R)$ is quasitriangular quasibialgebra then we can twist the
