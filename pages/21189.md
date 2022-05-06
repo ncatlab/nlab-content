@@ -138,9 +138,9 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
 
-
 * Volker Koch, _Aspects of Chiral Symmetry_, Int. J. Mod. Phys. E6 (1997) 203-250 ([arXiv:nucl-th/9706075](https://arxiv.org/abs/nucl-th/9706075))
 
+* Barry R. Holstein, _A Brief Introduction to Chiral Perturbation Theory_, Czech. J. Phys. 50S4:9-23, 2000 ([arXiv:hep-ph/9911449](https://arxiv.org/abs/hep-ph/9911449))
 
 * [[Stefan Scherer]], _Introduction to Chiral Perturbation Theory_, Adv. Nucl. Phys. 27 (2003) 277 ([arXiv:hep-ph/0210398](https://arxiv.org/abs/hep-ph/0210398))
 
