@@ -66,8 +66,10 @@ A **structured cospan** is then a ($1$-)morphism in such a category, that is, a 
 * [[hypergraph category]]
 
 ## References ##
-Structured cospan categories were invented by Baez, Courser and Vasilakopolou. An introductory talk was given by Courser at the 4th Symposium on Compositional Structures:
+Structured cospan categories were invented by [[John C. Baez]], [[Kenny Courser]], and [[Christina Vasilakopoulou]]. An introductory talk was given by Courser at the 4th Symposium on Compositional Structures:
 
-* Kenny Courser, _Structured cospans_ ([web](http://math.ucr.edu/home/baez/SYCO4/courser_syco4.pdf))
+* [[Kenny Courser]], _Structured cospans_ ([web](http://math.ucr.edu/home/baez/SYCO4/courser_syco4.pdf))
+
+* [[John C. Baez]], [[Kenny Courser]], _Structured cospans_,  ([arXiv:1911.04630](https://arxiv.org/abs/1911.04630))
 
 [[!redirects structured cospans]]
