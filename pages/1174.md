@@ -71,6 +71,10 @@ $$
 $$
 (\beta\circ\alpha)_M = G_2(\alpha_M)\circ \beta_{F_1(M)}
 $$
+that can be rewritten using the [morphismwise notation](natural+transformations#morphismwiseDefn) into:
+$$
+(\beta\circ\alpha)_M = \beta(\alpha_M)
+$$
 that is:
 $$
   \array{
