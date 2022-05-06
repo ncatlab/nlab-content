@@ -18,7 +18,13 @@
 
 The [[special orthogonal group]] in [[dimension]] 16.
 
+
+
 ## Related concepts
 
 [[!include low dimensional rotation groups -- table]]
+
+
+* [[type I' string theory]]
+
 
