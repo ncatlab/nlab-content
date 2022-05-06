@@ -16,11 +16,11 @@
 
 ## Idea
 
-The concept of [[Chern classes]] of [[complex vector bundles]], as [[universal characteristic classes]] in [[ordinary cohomology]], generalizes to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66](#ConnerFloyd66), [Adams 74](#Adams74)), review includes ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 4 and 5](#Lurie10)):
+The concept of [[Chern classes]] of [[complex vector bundles]], as [[universal characteristic classes]] in [[ordinary cohomology]], generalizes to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66, Section 7](#ConnerFloyd66), [Adams 74, Section I.4](#Adams74), review in [Kochmann 96, Section 4.3](#Kochmann96), [Lurie 10, Lectures 4 and 5](#Lurie10)):
 
-for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]]. See at _[complex oriented cohomology -- the cohomology ring of BU(n)](complex+oriented+cohomology+theory#TheCohomologyRingOfBUn)_.
+For $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]]. See also at _[complex oriented cohomology -- the cohomology ring of BU(n)](complex+oriented+cohomology+theory#TheCohomologyRingOfBUn)_.
 
-The generalized Chern classes serve as the generalized [[Thom classes]] that make every [[complex vector bundle]] have [[orientation in generalized cohomology]] with respect to any [[complex oriented cohomology theory]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
+The Conner-Floyd Chern classes in top degree serve as the generalized [[Thom classes]] that make every [[complex vector bundle]] have [[orientation in generalized cohomology]] with respect to any [[complex oriented cohomology theory]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
 
 ## Definition
  {#Definition}
@@ -300,7 +300,7 @@ because this means that (eq:DefiningConditionOnConnerFloydChernClasses) has a un
 
 But (eq:ECohomologyOfProjectiveBundle) holds on $\mathbb{C}P^n$ after [[pullback in cohomology|pullback]] along $fib_x$ (by standard arguments in [[complex oriented cohomology theory]], e.g. [Lurie 10, Lecture 4, Example 8](#LurieLecture)) and hence holds on $P(\mathcal{V})$ by the generalized-cohomology version of the [[Leray-Hirsch theorem]] ([Conner-Floyd 66, Thm. 7.4](#ConnerFloyd66)).
 
-Since this construction is natural, one find the following universal classes:
+Since this construction is natural, one finds the following [[universal characteristic classes]] in $E$-cohomology:
 
 +-- {: .num_prop #ConnerFloyedClasses}
 ###### Proposition
@@ -334,9 +334,9 @@ An early account in a broader context of [[complex oriented cohomology theory]]:
 
 * {#Adams74} [[Frank Adams]], part I.4, part II.2, part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
 
-More recent textbook and lecture notes include
+More recent accounts:
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], Section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
