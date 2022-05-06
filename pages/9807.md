@@ -944,6 +944,12 @@ based on the [[simplicial de Rham complex]]
 
 * {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
 
+Discussion of [[equivariant de Rham cohomology]] with emphasis on [[characteristic forms]] and [[ordinary equivariant differential cohomology]]:
+
+* [[Andreas Kübel]], [[Andreas Thom]], _Equivariant characteristic forms in the Cartan model and Borel equivariant cohomology_ ([arXiv:1508.07847](https://arxiv.org/abs/1508.07847))
+
+* [[Andreas Kübel]], [[Andreas Thom]], _Equivariant Differential Cohomology_, Trans. Amer. Math. Soc. 370 (2018), 8237-8283  ([arXiv:1510.06392](https://arxiv.org/abs/1510.06392), [doi:10.1090/tran/7315](https://doi.org/10.1090/tran/7315))
+
 Review with emphasis on [[equivariant localization]] formulas:
 
 * [[Vasily Pestun]], _Review of localization in geometry_ ([arXiv:1608.02954](https://arxiv.org/abs/1608.02954)), chapter in: [[Vasily Pestun]], [[Maxim Zabzine]] (eds.) _Localization techniques in quantum field theories_,  J. Phys. A: Math. Theor. 50 440301, 2017 ([doi:10.1088/1751-8121/aa63c1](https://iopscience.iop.org/article/10.1088/1751-8121/aa63c1), [arXiv:1608.02952](https://arxiv.org/abs/1608.02952), [full pdf](http://pestun.ihes.fr/pages/LocalizationReview/LocQFT.pdf))
