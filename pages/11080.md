@@ -1681,7 +1681,7 @@ where we used that
 
 But on the right this is now a morphisms of [[limits]] induced by morphism of [[diagrams]] which is objectwise an [[bijection]], as shown, and hence is a [[bijection]]) itself.
 
-Hence we are reduced to showing that the [[local objects]] with respect to (eq:RnTimesR1Projections) are the discrete smooth sets. But by [[induction]] over $n \in \mathbb{N}$, locality with respect to (eq:(eq:RnTimesR1Projections)) means equivalently locality with respect to 
+Hence we are reduced to showing that the [[local objects]] with respect to (eq:RnTimesR1Projections) are the discrete smooth sets. But by [[induction]] over $n \in \mathbb{N}$, locality with respect to (eq:RnTimesR1Projections) means equivalently locality with respect to 
 
 $$
   \left\{ 
