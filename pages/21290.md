@@ -10,7 +10,7 @@ where $l\subset\mathbb{R}^n$ is a line, and $\lambda$ the Lebesgue measure on th
 $$
 M_n = \{(\sigma, x)\in \mathbb{P}^{n-1}\times\mathbb{R}^n \mid \langle x,\sigma\rangle = 0\};
 $$
-here $\mathbb{P} := S^{n-1}/\{\pm\}$ is the space of lines in $\mathbb{R}^n$ that pass through the origin, and $(\sigma,x)$ represents a line that passes through $x$ with direction $\sigma$. We endow $M_n$ with a measure $\mu$ invariant under rigid motions. It is an open problem to determine the exponents $1\le p,q,r\le\infty$ for which the following inequality holds:
+here $\mathbb{P}^{n-1} := S^{n-1}/\{\pm\}$ is the space of lines in $\mathbb{R}^n$ that pass through the origin, and $(\sigma,x)$ represents a line that passes through $x$ with direction $\sigma$. We endow $M_n$ with a measure $\mu$ invariant under rigid motions. It is an open problem to determine the exponents $1\le p,q,r\le\infty$ for which the following inequality holds:
 $$
 \left\Vert Xf\right\Vert_{L^q(\sigma\mapsto L^r_x(\mathbb{R}^{n-1}))} \le C\left\Vert f\right\Vert_{L^p(\mathbb{R}^n)}.
 $$
@@ -24,7 +24,7 @@ where $\delta_{l} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{x\in\mathbb{R
 
 The operator dual to $X$, _i.e._ $\int Xh\,f\,d\mu = \int h\,X^*f\,dx$, acts on functions $f$ in $M_n$ as
 $$
-X^*f = \int f\delta_{\{x\}}(l)\,d\mu(l);
+X^*f(x) = \int f\delta_{\{x\}}(l)\,d\mu(l);
 $$
 here $\delta_{\{x\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$  ---this is a distribution in $M_n$, do not confuse with the usual Dirac delta $\delta_x$ centered at $x$. The distribution $\delta_{\{x\}}$ is the restriction of the measure $\mu$ in $M_n$ to the set of lines passing through $x\in\mathbb{R}^n$.
 
