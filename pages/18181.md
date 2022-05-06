@@ -136,7 +136,7 @@ Note that at least in ([Jäsche Logik, 1800](#Jaesche)) the negative and infinit
 |        |Table of Categories|               |
 |--------|-------------------|---------------|
 |  $\,$  | __1. Of Quantity__ <br/> Unity <br/> Plurality <br/> Totality | $\,$|
-| __2. Of Quality__ <br/> Reality<br/> [[negation|Negation]]<br/> Limitation | $\,$ | __3. Of Relation__<br/> Of Inherence and Subsistence (*substantia et accidens*)<br/> Of Causality and Dependence (cause and effect)<br/> Of Community (reciprocity between agent and patient) |
+| __2. Of Quality__ <br/> Reality<br/> $\qquad$ <br/> [[negation|Negation]]<br/> $\qquad$ <br/> Limitation<br/> $\qquad$  | $\,$ | __3. Of Relation__<br/> Of Inherence and Subsistence<br/> $\qquad$  (*substantia et accidens*)<br/> Of Causality and Dependence <br/> $\qquad$ (cause and effect)<br/> Of Community (reciprocity<br/> $\qquad$ between agent and patient) |
 |   | __4. Of [[modality|Modality]]__<br/> [[possibility|Possibility]]<br/> Existence - Non-existence<br/> Necessity - Contingency |   |
 
 
