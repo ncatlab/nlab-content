@@ -541,20 +541,25 @@ Discussion of $G$-structures in [[supergeometry]] includes
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
+  (on [[Killing spinors]] as super-[[Killing vectors]])
 
 ### In supergravity 
 
 Discussion in [[supergravity]] and [[superstring theory]]:
 
+In relation to [[BPS states]]/partial reduction of [[supersymmetry]]:
+
 * [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
 
-* Cezar Condeescu, Andrei Micu, Eran Palti, _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arxiv:1311.5901](https://arxiv.org/abs/1311.5901))
+* Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arxiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
 
 
 * {#Papadopoulos18} [[George Papadopoulos]], _Geometry and symmetries of null G-structures_ ([arXiv:1811.03500](https://arxiv.org/abs/1811.03500))
 
-See also at _[[torsion constraints in supergravity]]_.
+In relation to [[torsion constraints in supergravity]]:
+
+* [Lott 90](#Lott90)
 
 ### In complex geometry
 
