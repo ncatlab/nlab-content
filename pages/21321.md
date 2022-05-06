@@ -13,6 +13,10 @@ On [[kaon]] [[decay]] in relation to the [[chiral anomaly]]:
 
 * [[Gerhard Ecker]], [[Helmut Neufeld]], [[Antonio Pich]], _Non-leptonic kaon decays and the chiral anomaly_, Nuclear Physics B Volume 413, Issues 1–2, 31 January 1994, Pages 321-352 (<a href="https://doi.org/10.1016/0550-3213(94)90623-8">doi:10.1016/0550-3213(94)90623-8</a>)
 
+On [[electroweak symmetry breaking]] and the [[Higgs boson]]/[[Higgs field]]:
+
+* [[Antonio Pich]], _Electroweak Symmetry Breaking and the Higgs Boson_, [Acta Phys. Pol. B 47, 151](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=47&N=1#151) (2016) ([arXiv:1512.08749](https://arxiv.org/abs/1512.08749))
+
 On [[flavour physics]], [[CP violation]] and [[flavour anomalies]]:
 
 * [[Antonio Pich]], _Flavour Dynamics and Violations of the CP Symmetry_, Lectures at the 2017 and 2019 CERN - Latin-American Schools of High-Energy Physics ([arXiv:1805.08597](https://arxiv.org/abs/1805.08597))
