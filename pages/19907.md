@@ -40,7 +40,7 @@ This idea of a proof was sketched in [Kontsevich 99](#Kontsevich99), a full acco
 
 A proof was sketched in
 
-* {#Kontsevich99} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
+* {#Kontsevich99} [[Maxim Kontsevich]], section 3, around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
 A full proof is spelled out in
 
