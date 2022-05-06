@@ -26,6 +26,8 @@ More generally, an _equivariant morphism_ is a [[homomorphism]] of $G$-[[actions
 [[!redirects equivariant function]]
 [[!redirects equivariant functions]]
 
+[[!redirects equivariant map]]
+[[!redirects equivariant maps]]
 
 [[!redirects equivariant morphism]]
-[[!redirects equivariant morphism]]
+[[!redirects equivariant morphisms]]
