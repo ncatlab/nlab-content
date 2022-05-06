@@ -27,7 +27,7 @@ Note that in this generality, a given morphism may or may not have an image, alt
 
 ## Definition
 
-Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorphisms in $C$, and let $f: c \to d$ be a [[morphism]] in $C$.  The ($M$)-**image** of $f$ is the smallest $M$-[[subobject]] $im(f) \hookrightarrow d$ through which $f$ factors (if it exists). The factorizing morphism $c \to im(f)$ is sometimes called the **corestriction** of $f$ (or **coastriction**, see [mathoverflow](http://mathoverflow.net/questions/29911/whats-the-notation-for-a-function-restricted-to-a-subset-of-the-codomain/65813#65813)):
+Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorphisms in $C$, and let $f: c \to d$ be a [[morphism]] in $C$.  The ($M$)-**image** of $f$ is the smallest $M$-[[subobject]] $im(f) \hookrightarrow d$ through which $f$ factors (if it exists). The factorizing morphism $c \to im(f)$ is sometimes called the **[[corestriction]]** of $f$ (or **coastriction**, see [mathoverflow](http://mathoverflow.net/questions/29911/whats-the-notation-for-a-function-restricted-to-a-subset-of-the-codomain/65813#65813)):
 
 In other words, it is a factorization $c \overset{e}{\to} im(f) \overset{m}{\to} d$ of $f$ (i.e. $f = m e$) such that $m\in M$, and given any other factorization $f = m' e'$ with $m'\in M$, we have $m \subseteq m'$ as subobjects of $C$ (i.e. $m$ factors through $m'$, $m = m' k$ for some $k$).  Such a factorization is unique up to unique isomorphism, if it exists.
 
@@ -248,7 +248,6 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 
 
 [[!redirects images]]
-[[!redirects corestriction]]
 [[!redirects regular image]] 
 [[!redirects regular coimage]] 
 
