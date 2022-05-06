@@ -59,6 +59,7 @@ In particular, the canonical [[group]] [[structure]] on [[cobordism groups]] (es
 
 This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
 
+This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
 
 ### Relation to configuration spaces
   {#RelationToConfigurationSpaces}
@@ -128,9 +129,10 @@ Now
 
 ## Related concepts
 
-* [[stable cohomotopy]]
 
-* [[equivariant stable cohomotopy]]
+[[!include flavours of cohomotopy -- table]]
+
+$\,$
 
 [[!include Segal completion -- table]]
 
@@ -166,6 +168,8 @@ See also
 ### Equivariant Cohomotopy
 
 Discussion of the [[equivariant cohomology]]-version of cohomotopy ([[equivariant cohomotopy]]):
+
+* {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
 * {#Cruickshank03} James Cruickshank, _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
 
