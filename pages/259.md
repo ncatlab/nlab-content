@@ -165,23 +165,20 @@ Vogt's main theorem involved a category of [[homotopy coherent diagram|homotopy 
 
 [[Jean-Marc Cordier]] in
 
-* [[J.-M. Cordier]], _Sur la notion de diagramme homotopiquement coh&#233;rent_, Cahiers de Top. 
-G&#233;om. Diff., 23, (1982), 93 &#8211;112,
+* [[J.-M. Cordier]], _Sur la notion de diagramme homotopiquement coh&#233;rent_, Cahiers de Top. G&#233;om. Diff., 23, (1982), 93 &#8211;112,
 
 defined the [[homotopy coherent nerve]] of any [[simplicially enriched category]]. This generalised the [[nerve]] of an ordinary category. In 
 
-* [[J.-M. Cordier]] and [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, 
-Math. Proc. Cambridge Philos. Soc., 100, (1986), 65&#8211;90, 
+* [[J.-M. Cordier]] and [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc., 100, (1986), 65&#8211;90, 
 
 it was shown that this homotopy coherent nerve was a quasi-category if the simplicial enrichment was by Kan complexes.
 
 A systematic study of SSet-enriched categories in this context is in
 
-* J-M Cordier, [[Tim Porter]] _Homotopy coherent category theory_ Trans. Amer. Math. Soc. 349
-(1997), no. 1, 1-54. ([pdf](http://www.ams.org/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+* J-M Cordier, [[Tim Porter]] _Homotopy coherent category theory_ Trans. Amer. Math. Soc. 349 (1997), no. 1, 1-54. ([pdf](http://www.ams.org/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
 
  
-The importance of quasi-categories as a basis for [[category theory]] has been particularly emphasized in the work by [[André Joyal]]
+The importance of quasi-categories as a basis for [[category theory]] has been particularly emphasized in  work by [[André Joyal]]
 
 * [[André Joyal]], _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
 
