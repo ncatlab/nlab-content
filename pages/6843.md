@@ -34,6 +34,10 @@ On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solut
 
 * {#FFS17} [[José Figueroa-O’Farrill]], Andrea Santi, _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. 349 (2017), 627-660 ([arXiv:1511.08737](https://arxiv.org/abs/1511.08737))
 
+On [[torsion of a G-structure|torsion of G-structures]] for kinematical groups:
+
+* [[José Figueroa-O'Farrill]], _On the intrinsic torsion of spacetime structures_ ([arXiv:2009.01948](https://arxiv.org/abs/2009.01948))
+
 
 ## Related $n$Lab entries
 
