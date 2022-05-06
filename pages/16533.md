@@ -25,15 +25,9 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 * [[M2-M5 brane bound state]]
 
-* [[Dp-D(p+4)-brane bound state]]
-
-  * [[D0-D4 brane bound state]]
-
-  * [[D1-D5 brane bound state]]
-
-  * [[D4-D8 brane bound state]]
-
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
+
+[[!include Dp-D(p+4)-brane bound states -- contents]]
 
 * [[bound state]]
 
