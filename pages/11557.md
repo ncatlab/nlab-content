@@ -51,7 +51,7 @@ For [[elliptic cohomology]] with the [[SO orientation of elliptic cohomology]] $
 
 ## Refereces
 
-* {#ConnerFloyd66} P. Conner, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf))
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf))
 
 * {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610.
 
