@@ -53,7 +53,7 @@ Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics
 
 * {#Kaiser00} Roland Kaiser, equation (12) in: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
 
-Including [[heavy mesons]], 
+Including [[heavy mesons]]: 
 
 specifically [[kaons]]:
 
@@ -61,7 +61,14 @@ specifically [[kaons]]:
 
 * [[Igor Klebanov]], equation (99) of: _Strangeness in the Skyrme model_, in: D. Vauthrin, F. Lenz, J. W. Negele,  _Hadrons and Hadronic Matter_, Plenum Press 1989 ([doi:10.1007/978-1-4684-1336-6](https://link.springer.com/book/10.1007/978-1-4684-1336-6))
 
-and similarly [[D-mesons]] and [[B-mesons]]:
+* N. N. Scoccola, D. P. Min, H. Nadeau, [[Mannque Rho]], equation (2.20) in: _The strangeness problem: An $SU(3)$ skyrmion with vector mesons_, Nuclear Physics A Volume 505, Issues 3–4, 25 December 1989, Pages 497-524 (<a href="https://doi.org/10.1016/0375-9474(89)90029-8">doi:10.1016/0375-9474(89)90029-8</a>)
+
+
+specifically [[D-mesons]]:
+
+(...)
+
+and [[B-mesons]]:
 
 * [[Mannque Rho]], D. O. Riska, N. N. Scoccola, above (2.1) in: _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
 
