@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _arctangent_ or _inverse tangent_ is one of the basic functions of [[trigonometry]].  It is a [[section]] of the [[tangent function]], [[analytic function|analytic]] on the [[real line]].
+The _arctangent_ or _inverse tangent_ is one of the basic functions of [[trigonometry]].  It is the unique [[continuous function|continuous]] [[section]] of the [[tangent function]] whose value at $0 \in \mathbb{R}$ is $0$, and it is an [[analytic function]] on the [[real line]].
 
 
 ## Related concepts
