@@ -23,7 +23,7 @@
 
 > ([Ranada-Trueba 01, p. 200](On+Vortex+Atoms#RanadaTrueba01))
 
-A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field theories]]. The concept exists quite generally (see [Rho-Zahed 16](#RhoZahed16)), but its original use ([Skyrme 62](#Skyrme62)), and still one of the most important ones, is as a model for _[[baryons]]_ in a putative theory of [[non-perturbative quantum field theory|non-perturbative]] [[quantum chromodynamics]], the formulation of the latter being by and large an open problem (due to [[confinement]], see [[mass gap problem]]). Here in QCD a Skyrmion is specifically a topologically non-trivial field configuration of the [[pion]] [[field (physics)|field]] in [[non-perturbative quantum field theory|non-perturbative]]  [[QCD]].
+A _Skyrmion_ is a [[soliton]] in certain ([[flavour physics|flavour]]) [[gauge field theories]]. The concept exists quite generally (see [Rho-Zahed 16](#RhoZahed16)), but its original use ([Skyrme 62](#Skyrme62)), and still the most important one, realizes _[[baryons]]_ and [[atomic nuclei]] as [[solitons]] in the [[light meson]]-[[field (physics)|fields]] of [[chiral perturbation theory]], thus serving as a putative theory of [[non-perturbative quantum field theory|non-perturbative]] [[quantum chromodynamics]], the formulation of the latter being by and large an open problem (due to [[confinement]], see _[[mass gap problem]]_). 
 
 
 \begin{center}
