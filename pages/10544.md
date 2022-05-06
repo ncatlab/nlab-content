@@ -2,9 +2,17 @@ I am an italian PhD; it's difficult to summarize my interests, but since I disco
 
 I'm a former student of [[Domenico Fiorenza]]. I owe him my mathematical everything.
 
-I am currently a postdoc at Masaryk University (Brno)
+I've been a postdoc in all these places:
 
-[This](http://www.math.muni.cz/~loregianf/) is my personal website. Write me an email!
+* University of Western Ontario, (CA)
+* Masaryk University (CZ)
+* Max Planck Institute for Mathematics (D)
+* Center of Mathematics, University of Coimbra (PT)
+
+
+Here's a list of the papers I've written: [link](https://arxiv.org/search/math?searchtype=author&query=Loregian%2C+F)
+
+[This](http://tetrapharmakon.github.io) is my personal website. Write me an email!
 
 ## related $n$Lab entries
 
