@@ -29,8 +29,10 @@ $$
   G^{ab} \;\; \text{is trivial}
 $$
 
+
 ## Examples
 
+The [[trivial group]] is perfect, trivially.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -48,14 +50,18 @@ In fact, up to [[isomorphism]], the [[binary icosahedral group]] is the unique [
 
 =--
 
+Since $2I \simeq SL_2(\mathbb{F}_5)$ ([this prop.](icosahedral+group#IsomorphismToSL25)), this is a special case of the following class of examples, in fact it is smallest example from this class:
+
 +-- {: .num_prop} 
 ###### Proposition 
-The [[special linear group]] $SL_n(F)$ is perfect for any field $F$ and any $n \geq 1$, except for the cases $SL_2(\mathbb{Z}/(2))$ and $SL_2(\mathbb{Z}/(3))$. 
+
+The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\mathbb{F}$ and any $n \geq 1$, except for the cases $SL_2(\mathbb{Z}/(2))$ and $SL_2(\mathbb{Z}/(3))$. 
+
 =-- 
  
 +-- {: .num_prop} 
 ###### Proposition 
-The quotient of a perfect group is again perfect. 
+The [[quotient group]] of a perfect group is again perfect. 
 =-- 
 
 This last assertion is easy to see: $G$ is perfect if it has no nontrivial abelian quotients. If a quotient $H$ had a nontrivial abelian quotient, then so would $G$. 
