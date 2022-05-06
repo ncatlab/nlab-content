@@ -276,16 +276,15 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 ## References
 
-* {#Law63}[[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis Columbia University 1963. (Published with an author's comment as
-TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
+* {#Law63}[[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_, Ph.D. thesis Columbia University 1963. (Published with an author's comment as: TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
-* {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_ , pp.20-29 in LNM **1488** Springer Heidelberg 1991.
+* {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_, pp.20-29 in LNM **1488** Springer Heidelberg 1991.
 
-* {#Blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
+* {#Blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_, Algebra Universalis **26** (1989) pp.341-345.
 
-* {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
+* {#JT77}[[Peter Johnstone]], _Topos Theory_, Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
 
-* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
+* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
 
 In [[elementary (infinity,1)-toposes]]:
 
