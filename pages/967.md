@@ -61,7 +61,7 @@ $(\mathcal{O} \dashv Spec)$-[[adjunction]] discussed at _[[Isbell duality]]_ and
 
 * Total categories satisfy a very satisfactory [[adjoint functor theorem]]: any colimit-preserving functor from a total category to a locally small category has a [[right adjoint]].
 
-* Although the definition refers explicitly only to colimits, every total category is also [[complete category|complete]], i.e. has all small limits.  It also has some large limits.  In fact, it has "all possible" large limits that a locally small category can have: if $F\colon D\to C$ is a functor such that $lim_d Hom_C(X,F d)$ is a small set for all $X\in C$, then $F$ has a limit.
+* Although the definition refers explicitly only to colimits, every total category is also [[complete category|complete]], i.e. has all small limits (this is a categorification of the fact that every cocomplete [[partial order]] is also complete).  It also has some large limits.  In fact, it has "all possible" large limits that a locally small category can have: if $F\colon D\to C$ is a functor such that $lim_d Hom_C(X,F d)$ is a small set for all $X\in C$, then $F$ has a limit.
 
 * A total category $\mathcal{C}$ is [[cartesian closed category|cartesian closed]] iff $L$ preserves binary products (cf. [Wood 1982](#Wood82), thm. 9).
 
