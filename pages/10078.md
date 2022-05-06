@@ -21,7 +21,7 @@ Traditionally the [[Feynman perturbation series]]/[[scattering amplitudes]] in [
 
 In contrast, in what is called the _worldline formalism_ of [[perturbative quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives _on_ the Feynman graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
 
-One may think of this as making explicit the [[edges]] in a [[Feynman diagram] as corresponding to [[virtual particles]]].
+One may think of this as making explicit the [[edges]] in a [[Feynman diagram]] as corresponding to [[virtual particles]]].
 
 Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which realizes the [[Feynman propagator]] $\Delta_F(x,y)$ as a [[path integral]] for a [[relativistic particle]] travelling from $y$ to $x$.
 
@@ -109,6 +109,8 @@ Further development includes
 * Peng Dai, [[Warren Siegel]], _Worldline Green Functions for Arbitrary Feynman Diagrams_, Nucl.Phys.B770:107-122,2007 ([arXiv:hep-th/0608062](https://arxiv.org/abs/hep-th/0608062))
 
 * S. A. Franchino-Viñas, S. Mignemi, _Worldline Formalism in Snyder Spaces_ ([arXiv:1806.11467](https://arxiv.org/abs/1806.11467))
+
+* Olindo Corradini, Maurizio Muratori, _String-inspired Methods and the Worldline Formalism in Curved Space_ ([arXiv:1808.05401](https://arxiv.org/abs/1808.05401))
 
 A list of more literature is at
 
