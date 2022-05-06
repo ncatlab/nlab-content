@@ -14,6 +14,18 @@ On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
 
 
+On the equivalence of [[M2-brane 3-algebras]] to [[Lie algebra representations]] over [[metric Lie algebras]]:
+
+* {#MFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+
+
+On the [[ADE classification]] of [[black brane|black]] [[BPS state|BPS]]-[[M2-brane]] solutions to [[D=11 supergravity]] (via [[spherical space forms]] of the [[7-sphere]]):
+
+* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+
+* {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
+
 ## Related $n$Lab entries
 
 * [[exceptional Lie algebra]], [[exceptional Lie group]], [[F4]]
