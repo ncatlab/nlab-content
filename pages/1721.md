@@ -1068,6 +1068,7 @@ More references relating to the [[nPOV]] on cohomology include:
 
 * [[Jacob Lurie]],  _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
+
 [[!redirects generalized Eilenberg-Steenrod cohomology]]
 [[!redirects generalized Eilenberg?Steenrod cohomology]]
 [[!redirects generalized (Eilenberg?Steenrod) cohomology]]
@@ -1094,13 +1095,6 @@ More references relating to the [[nPOV]] on cohomology include:
 [[!redirects Eilenberg--Steenrod cohomology theory]]
 
 [[!redirects Eilenberg-Steenrod axioms]]
-
-[[!redirects generalized cohomology theory]]
-[[!redirects generalized cohomology theories]]
-[[!redirects generalised cohomology theory]]
-[[!redirects generalised cohomology theories]]
-[[!redirects cohomology theories]]
-[[!redirects cohomology theory]]
 
 [[!redirects generalized (Eilenberg-Steenrod) cohomology theory]]
 [[!redirects generalized (Eilenberg-Steenrod) cohomology theories]]
