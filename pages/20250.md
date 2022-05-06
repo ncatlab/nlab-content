@@ -45,7 +45,7 @@ where
 
 =--
 
-This is a special case of [Brown 82, theorem 1.5](#Brown82)
+This is a special case of [Brown 82, theorem 1.5](#Brown82), which is also reviewed as [Rudolph-Schmidt 17, Thm. 4.2.23 with Remark 4.2.25](#RudolphSchmidt17).
 
 
 \linebreak
@@ -273,4 +273,7 @@ On the [[integral cohomology]] of the [[classifying space]]:
 
 * {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society, Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
 
+reviewed in 
+
+* {#RudolphSchmidt17} Gerd Rudolph, Matthias Schmidt, around Theorem 4.2.23 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
