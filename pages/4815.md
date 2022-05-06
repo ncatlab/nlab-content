@@ -176,7 +176,16 @@ Discussion specifically for the [[standard model of cosmology]] is in
 * {#Hack13} [[Thomas-Paul Hack]], _The Lambda CDM-model in quantum field theory on curved spacetime and Dark Radiation_ ([arXiv:1306.3074](https://arxiv.org/abs/1306.3074))
 
 
-### In inhomogeneous cosmology
+### From higher curvature corrections
+ {#ReferencesFromHigherCurvatureCorrections}
+
+Effective dark energy from [[higher curvature corrections]], as in the [[Starobinsky model of cosmic inflation]]:
+
+* Michal Artymowski, Zygmunt Lalak, _Inflation and dark energy from $f(R)$ gravity_, JCAP09(2014)036 ([arXiv:1405.7818](https://arxiv.org/abs/1405.7818))
+
+* Michal Artymowski, Zygmunt Lalak, Marek Lewicki, _Inflation and dark energy from $f(R)$ gravity_ ([arXiv:1510.04864](https://arxiv.org/abs/1510.04864))
+
+### From inhomogeneous cosmology
 
 Discussion of the cosmological constant as an artefact of [[inhomogeneous cosmology]] (see there for more) includes the following
 
