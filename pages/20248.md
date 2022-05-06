@@ -19,6 +19,8 @@ The [[special orthogonal group]] in [[dimension]] 4.
 
 ## Properties
 
+### Exceptional isomorphisms
+
 +-- {: .num_prop #TheExceptionalIso}
 ###### Proposition
 
@@ -62,9 +64,67 @@ where
 
 =--
 
+
+### Cohomology
+
++-- {: .num_prop}
+###### Proposition
+
+
+The [[integral cohomology]] [[cohomology ring|ring]] of the [[classifying space]] $B SO(4)$ is
+
+$$
+  H^\bullet
+  \big(
+    p_1, \chi, W_3, W_5
+  \big)
+  /
+  \big( 
+    2 W_3, 2 W_5, W_3 \smile W_5
+  \big)
+$$
+
+where 
+
+* $p_1$ is the [[first Pontryagin class]]
+
+* $\chi$ is the [[Euler class]],
+
+* $W_3, W_5$ are the [[integral Stiefel-Whitney classes]].
+
+Notice that the [[cup product]] of the [[Euler class]] with itself is the [[second Pontryagin class]]
+
+$$
+  \chi \smile \chi \;=\; p_2
+  \,,
+$$
+
+which therefore, while present, does not appear as a separate generator:
+
+=--
+
+This is a special case of [Brown 82, Theorem 1.5](#Brown82), reviewed for instance as [Rudolph-Schmidt 17, Thm. 4.2.23 with Rmk. 4.2.25](#RudolphSchmidt17).
+
+\linebreak
+
 ## Related concepts
 
 [[!include low dimensional rotation groups -- table]]
+
+
+## References
+
+See also
+
+* Wikipedia, _[Rotations in 4-dimensional Euclidean space](https://en.wikipedia.org/wiki/Rotations_in_4-dimensional_Euclidean_space)_
+
+On the [[integral cohomology]] of the [[classifying space]]:
+
+* {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society, Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
+
+reviewed in 
+
+* {#RudolphSchmidt17} Gerd Rudolph, Matthias Schmidt, around Theorem 4.2.23 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
 
 [[!redirects SO4]]
