@@ -50,11 +50,15 @@ where $vol_{\Sigma}$ is the (induced) [[volume form]] on the [[worldsheet]] $\Si
 
 ### Relation to Planck length and string coupling
 
-For discussion of relation to [[Planck length]] and string [[coupling constant]] see at [[non-perturbative effect]] the section _[Worldsheet and brane instantons](non-perturbative+effect#WorldsheetAndBraneInstantons)_
+For discussion of relation to [[Planck length]] and [[string coupling constant]] see at [[non-perturbative effect]] the section _[Worldsheet and brane instantons](non-perturbative+effect#WorldsheetAndBraneInstantons)_
 
 ### Vanishing tension limit
 
 In the [[limit of a sequence|limit]] $T_s \to 0$, $\ell_s \to \infty$ of vanishing string tension, [[string field theory]] is supposed to become Vasiliev's [[higher spin gauge theory]]. See there for more.
+
+## Related concepts
+
+* [[string coupling constant]]
 
 ## References
 
