@@ -23,7 +23,7 @@ The [[canonical model structure]] on [[Cat]] is a [[model structure]] which enca
 _[[joyalscatlab:Model structures on Cat|Catlab]]_ for the theory 
 of this structure. 
 
-Assuming the [[axiom of choice]], the canonical model is the _unique_ model structure on $Cat$ such that the weak equivalences are categorical equivalences (thus justifying the word 'canonical').  It is different than the [[Thomason model structure]], where weak equivalences are functors that give a weak equivalence of simplicial sets when we take the [[nerve]].
+Assuming the [[axiom of choice]], the canonical model is the _unique_ model structure on $Cat$ such that the weak equivalences are categorical equivalences (thus justifying the word 'canonical').  It is different from the [[Thomason model structure]], where weak equivalences are functors that give a weak equivalence of simplicial sets when we take the [[nerve]].
 
 On this page we give a concise construction of the canonical model structure, as well as two variants that make sense in the absence of the full [[axiom of choice]].
 
