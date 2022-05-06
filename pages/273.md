@@ -233,6 +233,8 @@ The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic gr
 
 * Nicolas Addington, _Fiber bundles and nonabelian cohomology_, 2007 ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
 
+* {#Mitchell11} Stephen Mitchell, around Theorem 7.4 in: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
+
 *  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
 
 Discussion in a context of [[nonabelian Hodge theory]]:
