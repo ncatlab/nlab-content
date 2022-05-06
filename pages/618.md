@@ -46,7 +46,7 @@ $$
     \\
     V &\underset{g}{\longrightarrow}& U
   }
-  \,.
+  \;\;.
 $$
 
 The logic here is: $\forall f, \forall g, \exists h, \forall j, \exists i, \exists k,  =$.
