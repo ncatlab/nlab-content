@@ -55,7 +55,7 @@ As with the category-theoretic understanding of many other branches of mathemati
 * {#HylandPower07} [[Martin Hyland]], [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
 
 * Anthony Voutas, _The basic theory of monads and their connection to
-universal algebra_ ([pdf](http://cs.anu.edu.au/student/projects/12S1/Reports/Anthony_Voutas_Report.pdf))
+universal algebra_ ([pdf](https://pdfs.semanticscholar.org/98c0/ca084f561160b6ddc11c6d64df18b6594b5b.pdf))
 
 * [[Fred Linton]], _An outline of functorial semantics_, LNM 80 ([TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html)).
 
