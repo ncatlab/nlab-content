@@ -222,7 +222,7 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 Counter-examples:
 
-* The category of [[torsion sub-group}torsion-free]] abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
+* The category of [[torsion subgroup|torsion-free]] abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
 
 
 ## Related concepts
