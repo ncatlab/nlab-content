@@ -3,7 +3,7 @@ This page collects links related to
 
 * [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], 
 
-  **Natural operators in differential geometry** 
+  **Natural operations in differential geometry** 
 
   Springer 1993
 
@@ -57,3 +57,5 @@ on [[differential geometry]] with particular emphasis on [[natural bundles]].
 
 
 category: reference
+
+[[!redirects Natural operators in differential geometry]]
