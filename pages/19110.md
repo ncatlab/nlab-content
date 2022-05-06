@@ -66,7 +66,11 @@ More details are understood in the special case of [[fractional D-branes]] stuck
 
 In this case tadpole cancellation conditions are given by [[representation theory|representation theoretic]] [[equations]], constraining the [[character of a linear representation|characters]] of the [[linear representations]] corresponding to the [[fractional D-branes]].
 
-Detailed review of this is in [Marchesano 03, Section 4](#Marchesano03), based on [ABIU 99](#ABIU99), [Honecker 02](#Honecker02).
+Detailed review of this is 
+
+in [Buchel-Shiu-Tye 99, Section II.A](#BuchelShiuTye99) for [[K3]]-orientifolds $\mathbb{T}^4/\mathbb{Z}_N^{DE}$, following [Simon-Polchinski 96, Section 2](#SimonPolchinski96), 
+
+also in [Marchesano 03, Section 4](#Marchesano03), based on [ABIU 99](#ABIU99), [Honecker 02](#Honecker02).
 
 Let $G$ be a [[finite group]]. Let 
 
@@ -284,7 +288,7 @@ Now the tadpole cancellation condition is that (all representations are real and
   \,.
 \]
 
-(e.g. [Buchel0Shiu-Tye 99 (18)](#BuchelShiuTye99))
+this is ([Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99))
 
 By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the only possible solution of this is the $n$th multiple of the [[regular representation]], if $dim(O)$ is $n$ times the dimension of the regular representation.
 
@@ -1249,13 +1253,14 @@ Critical outlook in
 
 * {#Moore14} [[Gregory Moore]] p. 21-22 of _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
+Details on the example of [[K3]] [[orientifolds]]:
+
+* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
 
 See also
 
 * {#ABIU99} G. Aldazabal, D. Badagnani, [[Luis Ibáñez]], [[Angel Uranga]], _Tadpole versus anomaly cancellation in $D=4,6$ compact IIB orientifolds_, JHEP 9906:031, 1999 ([arXiv:hep-th/9904071](https://arxiv.org/abs/hep-th/9904071))
-
-* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
 
 * {#Uranga00} [[Angel Uranga]], _D-brane probes, RR tadpole cancellation and K-theory charge_, Nucl.Phys.B598:225-246, 2001 ([arXiv:hep-th/0011048](https://arxiv.org/abs/hep-th/0011048))
