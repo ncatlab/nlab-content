@@ -64,6 +64,8 @@ $\,$
 
 ## Related concepts
 
+* [[supernova]]
+
 * [[Schwarzschild radius]]
 
 * [[Kruskal–Szekeres coordinates]]
