@@ -48,6 +48,28 @@ $u\bot_X v$ if $(v\circ u)\in F$. However, not all the useful orthogonalities ar
 $(X,\{trace_X\}^\perp,\{trace_X\}^{\perp\perp})\to (Y,\{trace_Y\}^\perp,\{trace_Y\}^{\perp\perp})$ is the same thing as a [[quantum operation]], i.e. a completely positive trace preserving map.
 * [[Frölicher spaces]]: Let $C=Set$, let $I=I^*=\mathbb{R}$, and let $u\bot_X v$ if $(v\circ u):\mathbb{R}\to\mathbb{R}$ is smooth. In other words, the focus $F\subseteq C(\mathbb{R},\mathbb{R})$ comprises the smooth maps.
 
+## General double gluing
+
+Let $C$ be any (symmetric) [[polycategory]] and $E$ a co-subunary polycategory (i.e. all morphisms have codomain arity 0 or 1), and let $L:C\to Chu(E)$ be a polycategory functor.  We consider $C$ as a vertically discrete [[double polycategory]] and $L$ as a functor $C\to \mathbb{C}hu(E)$ into the [[double Chu construction]].  Similarly, consider $Chu(E)$ as a vertically discrete double polycategory, including into $\mathbb{C}hu(E)$ as the horizontal polycategory.
+
+The **double gluing** polycategory is then the [[comma double category|comma double]] polycategory (i.e. the [[comma object]] in the 2-category of polycategories)
+\begin{tikzcd}
+  Gl(L) \ar[d] \ar[r] \ar[dr,phantom,"\Downarrow"] & Chu(E) \ar[d] \\
+  C \ar[r,"L"'] & \mathbb{C}hu(E)
+\end{tikzcd}
+
+Note that:
+
+1. If $C$ is a multicategory (i.e. a co-unary polycategory), then so is $Gl(L)$.
+
+2. If $E$ has a counit that is terminal so that $Chu(E) = Chu(E,1)$, $C$ is a representable multicategory (i.e. a symmetric monoidal category), and $E$ is representable and closed with products so that $Chu(E,1)$ is a $\ast$-autonomous category, then polycategory functors $C\to Chu(E)$ are equivalent to pairs of a lax symmetric monoidal functor $L:C\to E$ and a functor $K:C\to E^{op}$ together with a "contraction" $L(R) \otimes K(R\otimes S) \to K(S)$ satisfying a few axioms.  This is how the definition is phrased in [Hyland and Schalk](#HylandSchalk).
+
+3. If $C$ is a $\ast$-polycategory, then $\ast$-polycategory functors $L:C\to Chu(E)$ are equivalent to functors $U_{\le 1} C\to E$ where $U_{\le 1} C$ is the underlying co-subunary polycategory of $C$.  If $E$ has a counit that is terminal so that $Chu(E) = Chu(E,1)$, then these are equivalent to multicategory functors $U_{=1} C \to E$.  In particular, we can double-glue along any lax symmetric monoidal functor with $\ast$-autonomous domain.
+
+If $C$ and $E$ are closed and representable with sufficient limits and colimits, then one can show (similarly to the conditions for a Chu construction to be representable) that $Gl(L)$ is also representable (as a multicategory or a polycategory, respectively) and closed.  Thus, double gluing can produce closed symmetric monoidal and $\ast$-autonomous categories.
+
+The case of double gluing along hom-functors, discussed above, is the case when $E=Set$ so that $Chu(E,1)$ is $\ast$-autonomous, as above, and $L(X) =C(I,X)$ with $K(X) = C(X,I^*)$, together with a restriction that the gluing morphisms be monic (and the additional "orthogonality" restriction.
+
 ## References
 
 * [[Martin Hyland]] and Andrea Schalk, _Glueing and orthogonality for models of linear logic_, Theoretical Computer Science 294 (2003) 183–231 ([pdf](https://core.ac.uk/download/pdf/21173316.pdf))
