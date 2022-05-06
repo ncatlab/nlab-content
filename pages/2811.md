@@ -7,6 +7,13 @@ On the [[rational homotopy type]] of [[configuration spaces of points]]:
 
 * [[Igor Kriz]], _On the Rational Homotopy Type of Configuration Spaces_, Annals of Mathematics Second Series, Vol. 139, No. 2 (Mar., 1994), pp. 227-237 ([jstor:2946581](https://www.jstor.org/stable/2946581))
 
+On [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc.:
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]],
+_[[Rings, modules and algebras in stable homotopy theory]]_, 
+Mathematical Surveys and Monographs Volume 47, AMS 1997 ([ISBN:978-0-8218-4303-1](https://bookstore.ams.org/surv-47-s), [pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
+
+
 On [[equivariant complex oriented cohomology theory]] and [[equivariant formal group laws]]:
 
 * [[Michael Cole]], [[John Greenlees]], [[Igor Kriz]], _Equivariant Formal Group Laws_, Proceedings of the LMS, Volume81, Issue2 (2000)([doi:10.1112/S0024611500012466]( https://doi.org/10.1112/S0024611500012466))
