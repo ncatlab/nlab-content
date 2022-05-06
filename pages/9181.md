@@ -39,6 +39,8 @@
 
   * [[ω-meson]]
 
+  * [[σ-meson]]
+
   * [[B-meson]]
 
   * [[kaon]]
