@@ -40,6 +40,10 @@ Introductory lecture notes:
 
 * {#Mortberg19} [[Anders Mörtberg]], _Cubical methods in HoTT/UF_, 2019 ([pdf](http://staff.math.su.se/anders.mortberg/papers/cubicalmethods.pdf))
 
+Exposition in view of [[synthetic homotopy theory]]:
+
+* {#MortbergPujet20} [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
+
 Original articles:
 
 * {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
@@ -55,7 +59,7 @@ Original articles:
 
 * [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Internal parametricity for cubical type theory_ ([PDF](http://www.cs.cmu.edu/~ecavallo/works/parametric-cubical.pdf))
 
-* [[homotopytypetheory:Evan Cavallo]], [[Anders Mörtberg]], [[Andrew W Swan]], _Unifying Cubical Models of Univalent Type Theory_, 2019, [PDF](https://github.com/mortberg/gen-cart/blob/master/conference-paper.pdf)
+* [[homotopytypetheory:Evan Cavallo]], [[Anders Mörtberg]], Andrew W Swan, _Unifying Cubical Models of Univalent Type Theory_, 2019, [PDF](https://github.com/mortberg/gen-cart/blob/master/conference-paper.pdf)
 
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
 
