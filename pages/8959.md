@@ -39,11 +39,11 @@ We then define simultaneously the following [[predicates]], where $a,b,A$ are [[
 
 * $A$ is a type, often written $A\;type$.
 * $a$ has type $A$, written $a:A$.
-* $a$ and $b$ are equal terms of type $A$, written $a=b:A$.
+* $a$ and $b$ are equal elements of type $A$, written $a=b:A$.
 
-The definition is by [[induction-recursion]].  We define the property "$A$ is a type" *inductively*, and simultaneously we define *recursively* two functions assigning to each type $A$ the collection of terms of type $A$ and the collection of pairs of equal terms of type $A$, respectively.  Moreover, each such collection may itself be defined inductively.
+The definition is by [[induction-recursion]].  We define the property "$A$ is a type" *inductively*, and simultaneously we define *recursively* two functions on such $A$, one giving the collection of terms of type $A$, and the other giving the collection of pairs of terms considered equal as elements of $A$.  Note that each such collection may itself be a prior inductive definition.
 
-The clauses which we include in each case depend on what types we want to put into our type theory; in each case the base notion of untyped computation must include a corresponding structure.  Here are three paradigmatic examples.
+The clauses which we include in each case depend on what type constructors we want to put into our type theory; in each case the base notion of untyped computation must include corresponding operators.  Here are three paradigmatic examples.
 
 ### Natural numbers
 
