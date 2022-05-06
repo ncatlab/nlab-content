@@ -8,6 +8,8 @@ By analogy with [[graded algebra]], a **$\mathcal{M}$-graded monad** in a catego
 
 Equivalently, a $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [delooping](https://ncatlab.org/nlab/show/delooping#deloopings_of_higher_categorical_structures) (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
 
+A further generalization is to category-valued monads, lax functors from any category to $Cat$ ([OrchWadEad](#OrchWadEad)).
+
 Graded monads are also known as **parametric** monads. The grading idea may also be applied to [[comonads]].
 
 ## Examples
@@ -55,10 +57,12 @@ A *useful feature* of such constructions is that the multiplication of the grade
 
 * Ulrich Dorsch, Stefan Milius and Lutz Schröder, _Graded Monads and Graded Logics for the Linear Time – Branching Time Spectrum_, ([arXiv:1812.01317](https://arxiv.org/abs/1812.01317))
 
-* {#Perrone} Paolo Perrone, _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
+* {#Perrone} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
 * {#FPKan} [[Tobias Fritz]] and Paolo Perrone, _A Criterion for Kan Extensions of Lax Monoidal Functors_, ([arXiv:1809.10481](https://arxiv.org/abs/1809.10481)).
 
 * {#FPKant} [[Tobias Fritz]] and Paolo Perrone, _A Probability Monad as the Colimit of Spaces of Finite Samples_, ([arXiv:1712.05363](https://arxiv.org/abs/1712.05363)).
 
 * {#OrchPet} [[Dominic Orchard]], Tomas Petricek, _Embedding effect systems in Haskell_, ([pdf](https://www.doc.ic.ac.uk/~dorchard/publ/haskell14-effects.pdf))
+
+* {#OrchWadEad} Dominic Orchard, Philip Wadler, Harley Eades, _Unifying graded and parameterised monads_, ([arXiv:2001.10274](https://arxiv.org/abs/2001.10274))
