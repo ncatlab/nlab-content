@@ -37,6 +37,9 @@ The _equivariant Chern character_ is the generalization of the [[Chern character
 
 * [[equivariant rationalization]]
 
+* [[delocalized equivariant cohomology]]
+
+* [[Chen-Ruan cohomology]]
 
 ## References
 
