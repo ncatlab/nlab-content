@@ -41,7 +41,7 @@ From [Crivellin 18, p. 2](#Crivellin18):
 
 ### Experimental constraints
 
-Constraints on the possible parameter space for leptoquarks from [[LHC]] data ([BGGSS 18](#BGGSS18), [BSS 18](#BSS18))
+Constraints on the possible parameter space for leptoquarks from [[LHC]] data ([BGGSS 18](#BGGSS18), [BSS 18](#BSS18), [ATLAS 19](#ATLAS19))
 
 
 ### Theoretical conceptualization
@@ -78,6 +78,9 @@ Constraints from [[experiment]] ([[LHC]]):
 
 * {#BSS18} Aritra Biswas, Avirup Shaw, Abhaya Kumar Swain, _Collider signature of $V_2$ Leptoquark with $b \to s$ flavour observables_ ([arXiv:1811.08887](https://arxiv.org/abs/1811.08887))
 
+* {#Rapoccio18} [[Salvatore Rappoccio]], section 6 of _The experimental status of direct searches for exotic physics beyond the standard model at the Large Hadron Collider_, Reviews in Physics 4 (2019) 100027 ([arXiv:1810.10579](https://arxiv.org/abs/1810.10579))
+
+* {#ATLAS19} [[ATLAS collaboration]], _Searches for scalar leptoquarks and differential cross-section measurements in dilepton-dijet events in proton-proton collisions at a centre-of-mass energy of s√ = 13 TeV with the ATLAS experiment _ ([arXiv:1902.00377](https://arxiv.org/abs/1902.00377))
 
 ### Relation to flavour anomalies
 
