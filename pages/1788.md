@@ -58,7 +58,7 @@ and
 $$
 \begin{array}{ccccc}
 Q(c,c)&&&& Q(c',c')\\
-&\underset{Q(c,f)}\nwarrow&& \underset{Q(f,c')}\nearrow& \\
+&\underset{Q(c,f)}\searrow&& \underset{Q(f,c')}\swarrow& \\
 &&Q(c,c')&&
 \end{array}
 $$
@@ -72,7 +72,7 @@ $$
 P(c,c) &&&& P(c',c')\\
 \!\!\!\!{\color{red} \alpha_c\downarrow} &&&&\,\,\,\,\,\,\,{\color{red}\downarrow\alpha_{c'}} \\
 Q(c,c)&&&& Q(c',c')\\
-&\underset{Q(c,f)}\nwarrow&& \underset{Q(f,c')}\nearrow& \\
+&\underset{Q(c,f)}\searrow&& \underset{Q(f,c')}\swarrow& \\
 &&Q(c,c')&&
 \end{array}
 $$
@@ -127,13 +127,13 @@ $$
 _Corollary (hom commutes with all ends):_ As a consequence of the fact that $\int_c Q$ is a limit, there is an isomorphism
 
 $$
-\hom_C\Big(y, \int_c P(c,c)\Big) \cong \int_c \hom_C(y, P(c,c))
+\hom_C\Big(y, \int_c P(c,c)\Big) \cong \int_c \hom_C(y, P(c,c)) \qquad\qquad{(ccnt)}
 $$
 
 Dually,
 
 $$
-\hom_C\Big( \int^c P(c,c), y \Big )\cong \int_c \hom_C(P(c,c), y).
+\hom_C\Big( \int^c P(c,c), y \Big )\cong \int_c \hom_C(P(c,c), y). \qquad\qquad{(ccnt)}
 $$
 
 There's only a mystery to uncover, before we start doing some explicit computations: why are co/ends denoted as integrals? The notation dates back to Yoneda, and it is essentially motivated by the fact that an end behaves like an integral:
@@ -143,7 +143,7 @@ _Theorem (Fubini rule):_ Let $P : C^{op}\times C \times D^{op}\times D \to E$ be
 $$
 \int^c\left(\int^d P(c,c,d,d)\right) \cong
 \int^{(c,d)}P(c,d,c,d)
-\cong \int^d\left(\int^c P(c,c,d,d)\right)
+\cong \int^d\left(\int^c P(c,c,d,d)\right) \qquad\qquad{(Fub)}
 $$
 
 in the sense that if one of the three objects exists, so do the other two, and they are all canonically isomorphic (the category $C^{op}\times C \times D^\text{op}\times D$ is of course equal to $(C\times D)^\text{op}\times( C \times D)$). Similarly, there is such a rule for ends.
@@ -167,18 +167,22 @@ _Proof._ The slickest proof I know for this goes as follows: assume all coend ex
 _Theorem (Natural transformations as an end)_ Let $F,G : C \to D$ be two functors; then, there is an isomorphism
 
 $$
-Nat(F,G) \cong \int_c \hom_D(F c,G c)
+Nat(F,G) \cong \int_c \hom_D(F c,G c) \qquad\qquad{(nat)}
 $$
 
 _Proof._ There is a natural choice for a wedge $\omega : Nat(F,G) \to \hom(F c,G c)$, that sends a natural transformation to its $c$-component; it remains to show that this is indeed a terminal wedge. Given another wedge $\alpha : A \to \hom(F c, G c)$, the wedge condition translates into the equation
 $$
-godgaoi
+\begin{array}{ccc} 
+A &\overset{\alpha_{a c}}\to& \hom(F c,G c) \\
+{}_{\alpha_{a c'}}\downarrow && \downarrow_{G f \circ -} \\
+\hom(F c', G c') &\underset{- \circ F f}\to & \hom(F c, G c')
+\end{array}
 $$
 valid for every $a\in A$; but this is only a convoluted way to say that for every $a\in A$ the family
 $$
 \{\alpha_{a,c} : F c \to G c\}
 $$
-is a natural transformation. 
+is a natural transformation.
 
 
 Two important remarks:
@@ -187,11 +191,11 @@ Two important remarks:
 
 2. Even in non-additive setting, one can easily see that a natural transformation $\alpha : F \Rightarrow G$ is a map that equalizes the action of $F,G$ on arrows; this means that the following diagram
 $$
-Nat(F,G) \to bla \rightrightarrows ble
+Nat(F,G) \to \prod_{c\in C} \hom(F c, G c) \underset{Gf_*}{\overset{Ff^*}\rightrightarrows} \prod_{c\to c'} \hom(F c, G c')
 $$
 is an equalizer; there is nothing special here, as for _every_ functor $T : C^{op}\times C \to D$ there is a similar equalizer diagram
 $$
-goaghaud
+\int_c T(c,c) \to  \prod_{c\in C} T(c,c) \underset{Gf_*}{\overset{Ff^*}\rightrightarrows} \prod_{c\to c'} T(c, c')
 $$
 
 Now for the Yoneda lemma:
@@ -211,9 +215,9 @@ _Proof._ The proof is a lengthy but completely straightforward "derivation rule"
 $$
  \begin{array}{rl}
   Nat(\text{Lan}_G F, H) &\textstyle \cong \int_a  \hom(\text{Lan}_G F( a ), H  a ) \\
-  def  & \textstyle \cong \int_a     \hom\Big( \int^C \hom(G c, a )\times F c, H a  \Big)  \\
+    & \textstyle \cong \int_a     \hom\Big( \int^c \hom(G c, a )\times F c, H a  \Big)  \\
   Fub  & \textstyle \cong \int_{ a  c} \hom\Big( \hom(G c, a )\times F c, H a  \Big)         \\
-  ccc  & \textstyle \cong \int_{ a  c} \hom\Big( F c,[\hom(G c, a ), H a ] \Big)       \\
+    & \textstyle \cong \int_{ a  c} \hom\Big( F c,[\hom(G c, a ), H a ] \Big)       \\
   ccnt & \textstyle \cong \int_c    \hom\Big( F c,\int_a  [\hom(G c, a ), H a ] \Big)   \\
   nat  & \textstyle \cong \int_c    \hom\Big( F c,Nat(\hom(G c,-), H) \Big)      \\
   nat  & \textstyle \cong \int_c    \hom\Big( F C,H G C \Big) = Nat(F, H G)   \\
@@ -250,7 +254,7 @@ A bimodule is also called a profunctor, a distributor, a correspondence, a span,
 
     > Jean Bénabou, who invented the term and originally used “profunctor,” now prefers “distributor,” which is supposed to carry the intuition that a distribut*or* generalizes a funct*or* in a similar way to how a distribution generalizes a function.
 
-    There's in fact a beautiful story about this: Lawvere defined a notion of [distribution](https://ncatlab.org/nlab/show/Lawvere+distribution) between toposes that is in fact precisely a profunctor when the cateories are presheaf toposes.
+    There's in fact a beautiful story about this: Lawvere defined a notion of [distribution](https://ncatlab.org/nlab/show/Lawvere+distribution) between toposes, such that the points of a topos $p : Set \to \mathcal{E}$ behave like Dirac delta functions, and such that distributions between presheaf toposes are exactly profunctors.
 
 - they are called _correspondences_ or _spans_ because of the [Grothendieck construction](https://ncatlab.org/nlab/show/Grothendieck+construction): every presheaf $P : D^{op}\times C \to Set$ has a category of elements $El(P)$ that in this case is a discrete fibration over $D^{op}\times C$
 
