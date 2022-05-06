@@ -30,11 +30,12 @@ In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html),
 
 \linebreak
 
-In interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-5) (2019):
+[[Edward Witten]] in interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-5), 2019 (quote from 21:15 - 21:46):
 
-> I actually believe that string / M-theory is on  the right track toward a deeper explanation.  But at a very fundamental level it’s not well  understood. And I’m not even confident that  we have a good concept of what sort of thing is  missing or where to find it.
+> {#WhatIsMissing} I actually believe that string/M-theory is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
 
-(at 21:15)
+\linebreak
+
 
 ## Fields medal work
  {#FieldMedalWork}
@@ -81,7 +82,7 @@ and
 
   on the [[quantization]] of 3d [[Chern-Simons theory]], its [[Jones polynomial]] [[knot invariant]] [[quantum observables]] and its [[holographic principle|holographic]] relation to the quantization of the [[WZW model]] (the [[string]] propagating on a suitable [[Lie group]] [[manifold]]).
 
-## related $n$Lab entries 
+## Related $n$Lab entries 
 
 * [[string theory]], [[M-theory]]
 
