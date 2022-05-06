@@ -36,7 +36,7 @@ A *motivating example* is a [[geometric theory]] as follows. Its signature has o
 
 ("$s^{i}(0)$" is not a term in the formal language, but $i$ indexes an inductively defined sequence of formulae "$n=s^{i}(0)$".)
 
-In any model (in a Grothendieck topos) the interpretation of $N$ is uniquely isomorphic to  an nno, so the nno can be characterized uniquely up to isomorphism by geometry theory - something that would be impossible in finitary first-order logic. There is essentially only one model, and this theory is equivalent to the empty theory. What this illustrates is that a sort for the nno can be added "for free" to any theory - and this is consistent with the fact that nno's are preserved by inverse image functors.
+In any model (in a Grothendieck topos) the interpretation of $N$ is uniquely isomorphic to an [[natural numbers object|nno]], so the nno can be characterized uniquely up to isomorphism by geometry theory - something that would be impossible in finitary first-order logic. There is essentially only one model, and this theory is equivalent to the empty theory. What this illustrates is that a sort for the nno can be added "for free" to any theory - and this is consistent with the fact that nno's are preserved by inverse image functors.
 
 List objects ($List X$ is the set of finite sequences of elements from $X$) can similarly be added "for free", and in fact the same goes for free constructions for [[cartesian theory|cartesian theories]]. Thus such constructors can be added as a type theoretic adjunct to geometric logic without altering its expressive power. Since geometric type theory also includes [[quotient types]], the constructions are similar to quotient inductive types.
 
