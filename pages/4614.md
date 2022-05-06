@@ -363,7 +363,9 @@ $$
 
 =--
 
-A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof has been given by Tammo tom Dieck. A recent paper treating the special case where $X_\bullet$ is the nerve of a [[topological category]], and each $X_n$ is of the [[homotopy type]] of a [[CW-complex]], is in ([Wang 2017](#Wang17)).
+A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof has been given by [[Tammo tom Dieck]]. 
+
+A recent paper treating the special case where $X_\bullet$ is the nerve of a [[topological category]], and each $X_n$ is of the [[homotopy type]] of a [[CW-complex]], is [Wang 2017](#Wang17), [Wang 18](#Wang18).
 
 ### Compatibility with limits
 
@@ -415,6 +417,9 @@ See ([Gepner-Henriques 07, Remark 2.23](#GepnerHenriques07)).
 
 ### Relation to the homotopy colimit
   {#RelationToHomotopyColimit}
+
+
+#### For proper simplicial spaces
 
 Recall that a simplicial topological space is proper if it is Reedy cofibrant relative to the [[Strøm model structure]] on [[Top]], in which the weak equivalences are the honest [[homotopy equivalences]].  Nevertheless, in certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[Quillen model structure on topological spaces]] in which the weak equivalences are the [[weak homotopy equivalences]].
 
@@ -486,6 +491,29 @@ Since the definition of $\hocolim$ doesn't depend on the choice of an objectwise
 By naturality, the above composite is also equal to the composite
 $$ \hocolim X_\bullet = N(D/ -) \otimes_D Q X_\bullet \to N(D/ -) \otimes_D X_\bullet \xrightarrow{Bousfield-Kan} {|X_\bullet|}; $$
 hence this composite is also a weak homotopy equivalence.
+
+\linebreak
+
+#### For degreewise cofibrant simplicial spaces
+ {#RelationToHomotopyColimitForDegreewiseCofibrationSimplicialSpaces}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X_\bullet$ be a [[simplicial topological space]] which degreewise a [[cofibrant object]] in the [[classical model structure on topological spaces]], hence which is degreewise a [[retract]] of a [[cell complex]] (for instance: degreewise a [[CW-complex]]). 
+
+Then its [[fat geometric realization]] models the [[homotopy colimit]] over $X_\bullet \;\colon\; \Delta^{op} \longrightarrow Top_{Quillen}$ in the [[classical model structure on topological spaces]]:
+
+$$
+  \left\Vert X_\bullet \right\Vert
+  \;\simeq_{whe}\;
+  hocolim X_\bullet
+  \,.
+$$
+
+=--
+
+This is claimed in [Wang 18, Theorem 4.3, Remark 4.4](#Wang18).
 
 
 ## Examples and Applications
@@ -933,8 +961,9 @@ An original reference on geometric realization of simplicial topological spaces 
 
 A proof that ordinary and fat geometric realisation give homotopic spaces, for the special case of the nerve of a topological category is in
 
-* {#Wang2017} Yi-Sheng Wang, _Fat realization and Segal's classifying space_, arXiv:[1710.03796](https://arxiv.org/abs/1710.03796)
+* {#Wang17} Yi-Sheng Wang, _Fat realization and Segal's classifying space_ ([arXiv:1710.03796](https://arxiv.org/abs/1710.03796))
 
+* {#Wang18} Yi-Sheng Wang, _Geometric realization and its variants_ ([arXiv:1804.00345](https://arxiv.org/abs/1804.00345))
 
 A standard textbook reference is chapter 11 of
 
