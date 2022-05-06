@@ -1,3 +1,5 @@
+[[!redirects 5-dimensional supergravity]]
+[[!redirects 5-dimensional supergravity]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
