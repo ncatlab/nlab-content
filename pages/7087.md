@@ -64,7 +64,7 @@ such that the [[morphisms]] in $W$
 ###### Definition
 **([[localization of a category]])**
 
-Let $W \subset \mathcal{C}$ be a [[category with weak equivalences]] (Def. \ref{CategoryWithWeakEquivalences}). Then the _[[localization of a category|localization]]_ of $\mathcal{C}$ at $W$ is, if it exsists
+Let $W \subset \mathcal{C}$ be a [[category with weak equivalences]] (Def. \ref{CategoryWithWeakEquivalences}). Then the _[[localization of a category|localization]]_ of $\mathcal{C}$ at $W$ is, if it exists
 
 1. a [[category]] $\mathcal{C}[W^{-1}]$
 
@@ -475,7 +475,7 @@ Thus the essentially unique factorization of $F$ through $L$ now follows by Prop
 
 ## References
 
-The concept of refleftive localization was originally highligted in
+The concept of reflective localization was originally highlighted in
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
