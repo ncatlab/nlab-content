@@ -5,7 +5,7 @@
 
 ## Idea
 
-Due to [[Paul Taylor]], Abstract Stone Duality (ASD) is a reaxiomatisation of the notions of [[topological space]] and [[continuous function]] in [[general topology]] in terms of a [[lambda calculus|∞-calculus]] of computable continuous functions and predicates that is both [[constructive mathematics|constructive]] and [[computable mathematics|computable]]. It thus forms one approach to [[synthetic topology]].
+Due to [[Paul Taylor]], Abstract Stone Duality (ASD) is a reaxiomatisation of the notions of [[topological space]] and [[continuous function]] in [[general topology]] in terms of a [[lambda calculus|lambda-calculus]] of computable continuous functions and predicates that is both [[constructive mathematics|constructive]] and [[computable mathematics|computable]]. It thus forms one approach to [[synthetic topology]].
 
 The topology on a space is treated not as a discrete [[lattice]], but as an [[exponential object]] of the same [[category]] as the original space, with an associated &#955;-calculus (which includes an [[internalization|internal]] lattice structure). Every expression in the &#955;-calculus denotes both a continuous function and a program. ASD does not use the [[Set|category of sets]] (or any [[topos]]), but the [[full subcategory]] of [[overt space|overt]] [[discrete space|discrete]] objects plays this role (an overt object is the dual to a [[compact space|compact]] object), forming an [[arithmetic universe]] (a [[pretopos]] with [[lists]]) with general [[recursion]]; an optional 'underlying set' axiom (which is not [[predicative mathematics|predicative]]) will make this a topos.
 
