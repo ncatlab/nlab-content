@@ -22,6 +22,9 @@ On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] 
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Grassi]], _Super Quantum Mechanics in the Integral Form Formalism_, Ann. Henri Poincaré (2018) 19: 1385 ([arXiv:1706.04704](https://arxiv.org/abs/1706.04704))
 
+On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fre formulation of supergravity]], ...):
+
+* [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
 
 
 category: people
