@@ -28,6 +28,9 @@ By a _diquark_ one refers to a [[bound state]] of two [[constituent quarks]] _in
 
 ## References
 
+* Martin Oettel, _Baryons as Relativistic Bound States of Quark and Diquark_ ([arXiv:nucl-th/0012067](https://arxiv.org/abs/nucl-th/0012067), [spire:538966](https://inspirehep.net/literature/538966))
+
+
 See also
 
 * Wikipedia, _[Diquark](https://en.m.wikipedia.org/wiki/Diquark)
