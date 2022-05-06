@@ -63,6 +63,17 @@ A [[Grothendieck topos]] $\mathcal{E}$ is an exponentiable object in the 2-categ
 
 This result is due to Johnstone-Joyal ([1982](#JJ82)) and occurs as theorem 4.4.5 of Johnstone ([2002, p.748](#J02)).
 
++-- {: .num_prop}
+###### Proposition
+Exponentiability is a local property:
+
+1. If a [[Grothendieck topos]] $\mathcal{E}$ is exponentiable so is $\mathcal{E}/X$ for any object $X\in\mathcal{E}$.
+2. If $\mathcal{E}/X$ is exponentiable and  $X\to 1$ is an epimorphism, then $\mathcal{E}$ is exponentiable as well.
+
+=--
+
+This occurs as lemma 4.2 in Johnstone-Joyal ([1982](#JJ82), p.281).
+
 ## Examples
 
 * Since [[locally finitely presentable categories]] are [[continuous category|continuous]] and [[coherent topos|coherent toposes]] are locally finitely presentable (cf. Johnstone ([2002, p.915](#J02))) it follows that _coherent toposes are exponentiable_. This can be viewed as an avatar of the fact that (locally) compact topological spaces behave well with respect to mapping spaces.
