@@ -1155,6 +1155,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 ## Related concepts
 
+* [[PL de Rham complex]]
+
 * [[rational cohomology]]
 
 * [[rational Cohomotopy]]
