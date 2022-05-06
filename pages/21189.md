@@ -276,14 +276,11 @@ Further application of the antisymmetric tensor representation of vector mesons 
 
 
 
-
-
 [[!redirects chiral symmetry breaking]]
 
 [[!redirects chiral symmetry]]
 [[!redirects chiral symmetries]]
 
-[[!redirects baryon chiral perturbation theory]]
 
 
 
