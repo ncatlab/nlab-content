@@ -662,18 +662,18 @@ The unstable [[Pontrjagin-Thom theorem]] identifying [[cobordism classes]] of [[
 
 Further discussion includes
 
-* [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781))
+* [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
 
 
 ### Examples 
 
 Cohomotopy sets of [[projective spaces]]:
 
-* {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
+* {#West71} Robert West, _Some Cohomotopy of Projective Space_, Indiana University Mathematics Journal Vol. 20, No. 9 (March, 1971), pp. 807-827 ([jstor:24890146](https://www.jstor.org/stable/24890146))
 
 Cohomotopy sets of [[4-manifolds]]:
 
-* {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
+* {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161))
 
 
 ### Cohomotopy cocycle spaces
