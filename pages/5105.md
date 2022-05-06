@@ -22,7 +22,7 @@ An **equivalence of $2$-categories** is the appropriate notion of [[equivalence 
 * [[2-functors]] ${}\;F\colon C\to D$ and $G\colon D\to C$, and
 * [[pseudonatural transformations]] ${}\;G \circ F \to Id_C$ and $F \circ G \to Id_D$ which are themselves [[equivalences]], i.e. there are pseudonatural transformations forming their inverses up to isomorphism.
 
-The definition makes sense, and is used, both in the case that the two 2-functors involved are strict (i.e. one is working in the category of (weak or strict!) 2-categories and strict 2-functors between them), and in the case that they are weak. 
+The definition makes sense, and is used, both in the case that $F$ is strict, and in the case that it is weak. Note however that in this case $G$ should be allowed to be weak: see Example 3.1 in [Lack2002](#Lack2002).
 
 In the literature this sort of equivalence is often called a **biequivalence**, as it has traditionally been associated with [[bicategories]], the standard algebraic definition of weak $2$-category.  There is a stricter notion of equivalence for strict $2$-categories, which traditionally is called just a *$2$-equivalence* and which on the nLab is called a [[strict 2-equivalence]].
 
@@ -58,6 +58,8 @@ In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-
 
 
 ## References
+
+* {#Lack2002} [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory 26, No. 2, 171-205 (2002). [Zentralblatt review](https://zbmath.org/?q=an%3A1017.18005) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html) 
 
 * {#Zheng12} Weizhe Zheng, prop. 1.6 of _Gluing pseudofunctors via $n$-fold categories_ ([arXiv:1211.1877](http://arxiv.org/abs/1211.1877))
 
