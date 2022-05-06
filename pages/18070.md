@@ -26,11 +26,7 @@ In principle many other kinds of configurations and the spaces these form may be
 ###### Definition
 **(configuration space of particles with labels)**
 
-Let 
-
-1. $(X, \infty)$ be a [[pointed topological space|pointed]] [[smooth manifold]] of [[dimension]]
-
-1. $(A, 0)$ a [[pointed topological space|pointed]] [[CW-complex]].
+Let $(X, \infty)$ and $(A, 0)$ be [[pointed topological spaces]].
 
 Then the _configuration space of points in $X$ with labels in $A$_
 
@@ -86,8 +82,17 @@ is the [[quotient space]] of the [[disjoint union]] of the [[Cartesian products]
 ### Cocycle spaces and the Scanning map
  {#CocycleSpacesAndScanningMap}
 
++-- {: .num_prop #ScanningMapEquivalence}
+###### Proposition
+**([[scanning map]] [[homotopy equivalence|equivalence]])**
 
-For $X$ a [[compact topological space|compact]] [[manifold]] and $A$ a [[pointed topological space]] ("[[charge]] [[coefficients]]"), there is the [[scanning map]]
+In the context of Def. \ref{ConfigurationSpaceOfParticleswithLabels} let now 
+
+1. $(X,\infty)$ be a [[compact topological space|compact]] [[pointed topological space|pointed]] [[smooth manifold]],
+
+1. $(A,0)$ a [[pointed topological space|pointed]] [[CW-complex]].
+
+Then there is a [[continuous function]], called the _[[scanning map]]_
 
 $$
   Conf(X, A)
@@ -95,13 +100,27 @@ $$
   \Gamma( S_X(T X)\wedge_X A  )
 $$
 
-from the configuration space of points in $X$ with charge in $A$ and [[continuous function|continuous]] [[sections]] of the [[spherical fibration]] induced by the [[tangent bundle]] of $X$ [[fiber]]-wise [[smash product|smashed]] with the [[coefficients]] $A$.
+(from the configuration space of points in $X$ with charge in $A$ (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) to the [[space of sections|space of]] [[continuous function|continuous]] [[sections]] of the [[spherical fibration]] induced by the [[tangent bundle]] of $X$ (the [[J-homomorphism]], [this Prop.](J-homomorphism#SphericalFibrationsOfVectorBundlesClassifiedViaJ)) [[fiber]]-wise [[smash product|smashed]] with the [[coefficient]] space $A$)
 
-Under mild conditions, this is a [[homotopy equivalence]].
+which is a [[homotopy equivalence]] if $X$ or $A$ is [[connected topological space|connected]].
+
+=--
 
 This is due to ([McDuff 75](#McDuff75)), for review see ([Bödigheimer 87, Prop. 2](#Boedigheimer87), [Francis Lecture 17, Theorem 1.1](#FrancisLect17)).
 
-If here $A = S^n$ is an [[n-sphere]]  regarded as [[coefficients]] for [[non-abelian cohomology]], then this equivalence identifies the configuration space with the [[cocycle]] space/[[infinity-groupoid]] of $\tau_X$-[[twisted cohomology|twisted]] [[cohomotopy]] in degree $\tau + n$, where $\tau_X \coloneqq [S_X(T X)]$ is the class of the [[spherical fibration]] of the tangent bundle.
+(As discussed there, the statement holds also under somewhat weaker assumptions than stated here.)
+
++-- {: .num_remark }
+###### Remark
+**(configuration spaces and [[twisted cohomology|twisted]] [[cohomotopy]])**
+
+In the case that the coefficient space in Def. \ref{ConfigurationSpaceOfParticleswithLabels} is an [[n-sphere]] 
+
+$$
+  A \;\coloneqq\; S^n
+$$  
+
+regarded as [[coefficients]] for [[non-abelian cohomology]], then the scanning map equivalence (Prop. \ref{ScanningMapEquivalence}) identifies the configuration space with the [[cocycle]]-space/-[[infinity-groupoid]] of $\tau_X$-[[twisted cohomology|twisted]] [[cohomotopy]] in degree $\tau + n$, where $\tau_X \coloneqq [S_X(T X)]$ is the class of the [[spherical fibration]] of the tangent bundle.
 
 In particular if $X$ is a [[parallelizable manifold]]/[[framed manifold]], then $\tau_X = dim(X)$ and the equivalence identifies the configuration space with the plain [[cohomotopy]] of $X$ in degree $dim(X) + n$:
 
@@ -111,6 +130,11 @@ $$
   Maps( X, S^{dim(X) + n} )
   \,.
 $$
+
+
+=--
+
+
 
 
 ## Examples
@@ -125,6 +149,29 @@ Let $X= \mathbb{R}^\infty$. Then
 
 
 * the _ordered_ configuration space of $n$ points, equipped with the canonical $\Sigma(n)$-[[action]], is a model for the $\Sigma(n)$-[[universal principal bundle]].
+
+### Points on $n$-spheres and the sphere spectrum
+ {#PointsOnNSpheresAndTheSphereSpectrum}
+
++-- {: .num_example}
+###### Example
+
+The configuration space (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) 
+of the [[n-sphere]] with labels in any $A$ is identified by the [[scanning map]]-equivalence (Prop. \ref{ScanningMapEquivalence}) with the $n$-fold [[loop space]] of the $n$-fold [[suspension]] of $A$:
+
+$$
+  Conf(S^n,A)
+  \;\simeq\;
+  \Omega^n \Sigma^n A
+$$
+
+hence the [[colimit]] over $n$ yields the degree-0 space of the [[suspension spectrum]] of $A$ (the [[sphere spectrum]] when $A = S^0$ is the [[0-sphere]]). 
+
+=--
+
+(e.g. [Bödigheimer 87, Example 13](#Boedigheimer87))
+
+
 
 ### James construction
 
@@ -174,4 +221,11 @@ The configuration spaces of a space $X$ appear as the [[Goodwillie derivatives]]
 * {#Arone99} [[Greg Arone]], _A generalization of Snaith-type filtration_, Transactions of the American Mathematical Society 351.3 (1999): 1123-1150. ([pdf](https://www.ams.org/journals/tran/1999-351-03/S0002-9947-99-02405-8/S0002-9947-99-02405-8.pdf))
 
 * {#Ching05} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
+
+[[!redirects scanning map]]
+[[!redirects scanning maps]]
+
+[[!redirects scanning map equivalence]]
+[[!redirects scanning map equivalences]]
 
