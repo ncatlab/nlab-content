@@ -91,6 +91,8 @@ _KO-theory is the first Weiss-derivative (in [[orthogonal calculus]]) of the K-t
 
 * [[comparison map between algebraic and topological K-theory]]
 
+* [[KU-local stable homotopy theory]]
+
 [[!include string theory and cohomology theory -- table]]
 
 
