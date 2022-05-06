@@ -20,7 +20,7 @@
 
 ## Idea
 
-Generally, for $G$ a [[finite group]] and $V$ a [[linear representation]] of $G$ on a [[finite dimensional vector space|finite dimensional]] [[complex vector space]], the _McKay quiver_ or _McKaey graph_ associated with $V$ is the [[quiver]] whose [[vertices]] correspond to the [[irreducible representations]] $\rho_i$ of $G$ and which has $a_{i j} \in \mathbb{N}$ [[edges]] between the $i$th and the $j$th vertex, for $a_{i j}$ the [[coefficients]] in the expansion into [[irreps]] of the [[tensor product of representations]] of $V$ with these irreps:
+Generally, for $G$ a [[finite group]] and $V$ a [[linear representation]] of $G$ on a [[finite dimensional vector space|finite dimensional]] [[complex vector space]], the _McKay quiver_ or _McKay graph_ associated with $V$ is the [[quiver]] whose [[vertices]] correspond to the [[irreducible representations]] $\rho_i$ of $G$ and which has $a_{i j} \in \mathbb{N}$ [[edges]] between the $i$th and the $j$th vertex, for $a_{i j}$ the [[coefficients]] in the expansion into [[irreps]] of the [[tensor product of representations]] of $V$ with these irreps:
 
 $$
   V \otimes \rho_i
