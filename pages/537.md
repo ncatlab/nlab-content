@@ -47,8 +47,10 @@ An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to 
 
 ## Examples
 
-* In the category of sets, all coproducts are disjoint. 
-* A category having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]]. For further concrete examples of categories where all coproducts are disjoint, see [[extensive category#examples|extensive category]]. 
+* In the category $Set$ of sets and functions, the coproduct is given by [[disjoint union]] and is, unsurprisingly, disjoint. In the category $Pfn$ of sets and [[partial function|partial functions]] the coproduct is equally  given by disjoint union and total injections and is disjoint as well.
+ 
+* Since having all finitary disjoint coproducts is half of the condition for a category to be [[extensive category|extensive]], extensive categories provide a plethora of [[extensive category#examples|examples for categories with disjoint finite coproducts]]. In the preceding discussion $Set$ instantiates this case whereas $Pfn$ does not: since the initial object $\emptyset$ in $Pfn$ is not [[strict initial object|strict]], the latter category is not extensive.
+
 * Non-example: the [[interval category]]  $\left\{
     0 \to 1
   \right\}$ has coproducts but is they are not all disjoint: $1+1=1$. 
