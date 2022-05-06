@@ -205,7 +205,8 @@ See also
 
 * Wikipedia, _[Meson](http://en.wikipedia.org/wiki/Meson)_
 
-* Wikipedia, _[Vector meson](https://en.wikipedia.org/wiki/Vector_meson)_
+
+* Yi Zhang, _[Mesons](http://snst-hu.lzu.edu.cn/zhangyi/ndata/Meson.html)
 
 The [[pole approximation]]:
 
