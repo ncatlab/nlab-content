@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -13,24 +13,26 @@
 =--
 =--
 
-#Contents#
+# Contents #
 * table of contents
-{:toc}
+{: toc}
 
-## Idea
 
-The _factorisation lemma_ ([Brown 73](#Brown73), prop. \ref{TheFactorizationLemma} below) is a fundamental tool in the theory of [[categories of fibrant objects]] ([[formal dual|dually]]: [[cofibration category|of cofibrant objects]]). It mimics one half of the _factorisation axioms_ in a [[model category]] in that it asserts that every morphisms may be factored as, in particular, a weak equivalence followed by a fibration.
+## Idea ##
 
-A key corollary of the factorization lemma is the statement, widely known as _Ken Brown's lemma_ (prop. \ref{KenBrownLemma} below) which says that for a functor from a category of fibrant objects  to be a [[homotopical functors]], it is sufficient already that it sends acyclic fibrations to weak equivalences. 
+The _factorization lemma_ ([Brown 73](#Brown73), prop. \ref{TheFactorizationLemma} below) is a fundamental tool in the theory of [[categories of fibrant objects]] ([[formal dual|dually]]: [[cofibration category|of cofibrant objects]]). It mimics one half of the _factorization axioms_ in a [[model category]] in that it asserts that every morphism may be factored as, in particular, a weak equivalence followed by a fibration.
+
+A key corollary of the factorization lemma is the statement, widely known as _Ken Brown's lemma_ (prop. \ref{KenBrownLemma} below) which says that for a functor from a category of fibrant objects  to be a [[homotopical functor]], it is sufficient already that it sends acyclic fibrations to weak equivalences. 
 
 For more background, see also at _[[Introduction to Stable homotopy theory -- P|Introduction to classical homotopy theory]]_ [this lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma).
 
-## Factorisation lemma
+
+## Factorization lemma ##
 
 Let $\mathcal{C}$ be a [[category of fibrant objects]].
 
 +-- {: .num_prop}
-###### Fact
+###### Proposition
 
 Let 
 
@@ -64,7 +66,7 @@ By one of the axioms for a category of fibrant objects, it follows from 1) and 2
 =--
 
 +-- {: .num_prop}
-###### Fact
+###### Proposition
 
 Let $X$ be an object of $\mathcal{C}$. Let 
 
@@ -113,7 +115,7 @@ An entirely analogous argument demonstrates that $e_{1}$ is a weak equivalence.
 
 +-- {: .num_prop #TheFactorizationLemma}
 ###### Proposition
-**(factorization lemma)**
+**(Factorization lemma)**
 
 Let $f : X \to Y$ be an arrow of $\mathcal{C}$. There is a commutative diagram 
 
@@ -279,7 +281,8 @@ and the fact that $r$ is a weak equivalence, we have, by one of the axioms for a
 
 =--
 
-## Ken Brown's lemma
+
+## Ken Brown's lemma ##
 
 +-- {: .num_prop #KenBrownLemma}
 ###### Proposition
@@ -412,19 +415,19 @@ presents the [[homotopy pullback]] of the original diagram.
 
 See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+pullback#ConcreteConstructions)_ at _[[homotopy pullback]]_ for more details on this.
 
-## Examples
+
+## Examples ##
 
 * For $G$ an [[∞-group]] object in $C$ with [[delooping]] $\mathbf{B}G$, applying the factorization lemma to the point inclusion $* \to \mathbf{B}G$ yields a morphism $* \stackrel{\simeq}{\to} \mathbf{E}G \stackrel{p}{\to} \mathbf{B}G$. This exhibits a [[universal principal ∞-bundle]] for $G$. 
 
 
-## References
+## References ##
 
-
-* [[Kenneth Brown]], page 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, 1973.
+* {#Brown73} [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, 1973, p. 4
 
 A version in the setup of $\infty$-cosmoi is Lemma 2.1.6 in 
 
-* Emily Riehl, Dominic Verity, _Fibrations and Yoneda’s lemma in an $\infty$-cosmos_, J. Pure Appl. Alg. __221__:3 (2017), 499-564 [arxiv/1506.05500](http://arxiv.org/abs/1506.05500)
+* {#RiehlV17} [[Emily Riehl]], [[Dominic Verity]], _Fibrations and Yoneda’s lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra, 221:3, 2017, pp. 499--564 ([arXiv:1506.05500](http://arxiv.org/abs/1506.05500))
 
 [[!redirects ken brown's lemma]]
 
