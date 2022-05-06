@@ -1,3 +1,8 @@
+#contents#
+* table of contents
+{:toc}
+
+
 PhD student in theoretical physics at the [Centre for Research in String Theory](https://www.qmul.ac.uk/spa/strings/) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
 
 ## Research
@@ -26,6 +31,12 @@ On other global geometric aspects of theoretical physics (e.g. [[classical doubl
 
 * {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
+## Invited talks
+
+* _Global Double Field Theory is Higher Kaluza-Klein Theory_, regular seminar at Max Planck Institute for Gravitational Physics (Albert Einstein Institute), Potsdam, 16th March 2020.
+
+* _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
+
 
 ## Related $n$Lab entries
 
@@ -38,7 +49,7 @@ On other global geometric aspects of theoretical physics (e.g. [[classical doubl
 * [[generalized complex geometry]], [[exceptional geometry]], [[type II geometry]]
 
 * [[Kaluza-Klein compactification]]
-  *[[Kaluza-Klein monopole]]
+  * [[Kaluza-Klein monopole]]
 
 category: people
 
