@@ -259,6 +259,9 @@ The argument via a [[Serre spectral sequence]] for a relative fibration seems to
 
 Textbook accounts include
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Chapter 1 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+
 * {#Kochman96} [[Stanley Kochman]], section 2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Rudyak98} [[Yuli Rudyak]], chapter V of _Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
