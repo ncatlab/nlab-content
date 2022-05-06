@@ -5,7 +5,7 @@
 
 ## Idea
 
-A kind of [[linear logic]].
+A kind of [[linear logic]] in which the [[!-modality]] is indexed by, say, the natural numbers to indicate the availability of the number of copies of a premise.
 
 ## Related concepts
 
