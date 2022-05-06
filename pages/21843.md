@@ -152,6 +152,9 @@ On the SU-bordism ring structure away from 2:
 
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
+* {#Stong68} [[Robert Stong]], Chapter X of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html))
+
+
 Survey:
 
 * [[Sergei Novikov]], p. 218 in: _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
