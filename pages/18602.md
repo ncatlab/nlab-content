@@ -30,9 +30,11 @@ Similarly there is the anomalous magenetic moment $g_\mu - 2$ of the [[muon]] an
 ## Anomalies
  {#Anomalies}
 
-In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become notorious for apparently showing a noticeable _discrepancy_ between [[theory (physics)|theoretic prediction]] from the [[standard model of particle physics]] and its value as determined in [[experiment]]. The discrepancy is now found to be around 3.5[[standard deviation|σ]] ([DHMZ 17](#DHMZ17)) or 4[[standard deviation|σ]] ([Jegerlehner 18a](#Jegerlehner18a), [Jegerlehner 18b](#Jegerlehner18b)). Recent measurements may even show a possible deviation around 2.5 [[standard deviation|σ]] for the electron's anomalous magnetic moment (see [Falkowski 18](#Falkowski18)).
+In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become notorious for apparently showing a noticeable _discrepancy_ between [[theory (physics)|theoretic prediction]] from the [[standard model of particle physics]] and its value as determined in [[experiment]]. The discrepancy is now found to be around 3.5[[standard deviation|σ]] ([DHMZ 17](#DHMZ17)) or 4[[standard deviation|σ]] ([Jegerlehner 18a](#Jegerlehner18a)). Recent measurements may even show a possible deviation around 2.5 [[standard deviation|σ]] for the electron's anomalous magnetic moment (see [Falkowski 18](#Falkowski18)). Details depend on understanding of [[non-perturbative effects]] ([Jegerlehner 18b, section 2](#Jegerlehner18b)).
 
 If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once beyond 5[[standard deviation|σ]] uncertainty), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
+
+
 
 ## Contributions
 
@@ -124,6 +126,9 @@ The basic relevant [[Feynman diagrams]] are worked out here:
 
 [[!redirects anomalous magnetic dipole moment]]
 [[!redirects anomalous magnetic dipole moments]]
+
+[[!redirects electron anomalous magnetic moment]]
+[[!redirects muon anomalous magnetic moment]]
 
 [[!redirects anomalous magnetic moment of the electron]]
 [[!redirects anomalous magnetic dipole moment of the electron]]
