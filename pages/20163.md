@@ -30,10 +30,10 @@ Now by the Yoneda lemma, $w_\beta\in Y(c)$ corresponds to a map of presheaves $y
 
 ## References
 
-* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie|Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
  {#Cisinski06}
 
-* [[Denis-Charles Cisinski]], _Faisceaux localement asph ́eriques_ (preliminary version), 2003, [pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf)
+* [[Denis-Charles Cisinski]], _Faisceaux localement asphériques_ (preliminary version), 2003, [pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf)
  {#Cisinski03}
 
 [[!redirects cellular models]]
