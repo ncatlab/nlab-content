@@ -87,13 +87,14 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 
 ### Coset space structure
+ {#LabelCosetSpaceStructure}
 
 
 
 +-- {: .num_prop #nSphereAsCosetSpace}
 ###### Proposition
 
-The n-spheres are [[coset spaces]] of [[orthogonal groups]]
+For $n \in \mathbb{N}$ the [[n-spheres]] are [[coset spaces]] of [[orthogonal groups]]
 
 $$
   S^n \;\simeq\; O(n+1)/O(n)
@@ -120,15 +121,44 @@ $$
 $$
 
 
+=--
 
++-- {: .proof}
+###### Proof
 
+Fix a [[unit vector]] in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
 
+=--
+
+Similarly, the analogous argument for [[unit spheres]] inside (the [[real vector spaces]] underlying) [[complex vector spaces]], we have
+
++-- {: .num_prop #OddDimSphereAsSpecialUnitaryCoset}
+###### Proposition
+
+For $k \in \mathbb{N}$ the [[n-sphere|(2k+1)-sphere]] $S^{2k+1}$ is the [[coset space]] of [[special unitary groups]]:
+
+$$
+  S^{2k+1}
+  \;\simeq\;
+  SU(k+1)/SU(k)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[isomorphisms]] in Prop. \ref{nSphereAsCosetSpace} and Prop. \ref{OddDimSphereAsSpecialUnitaryCoset} above hold in the [[category]] of [[topological spaces]] ([[homeomorphisms]]), but in fact also in the [[category]] of [[smooth manifolds]] ([[diffeomorphisms]]) and even in the [[category]] of [[Riemannian manifolds]] ([[isometries]]).
+
+But notice that there are sporadically other [[coset space]] realizations of some [[n-spheres]] which are [[homeomorphisms]], but not necessarily [[isometries]] ("[[squashed spheres]]") or not even [[diffeomorphisms]] ("[[exotic spheres]]"). 
+
+For examples see _[7-sphere -- Coset space realization](#7-sphere#CosetSpaceRealization)_.
 
 =--
 
 
-For fix a [[unit vector]] in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
-
+\linebreak
 
 ### Parallelizability
 
@@ -249,6 +279,7 @@ where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS
 
 
 See also the [[ADE classification]] of such actions on the [[7-sphere]] (as discussed there)
+
 
 ### Geometric structures on spheres
 
