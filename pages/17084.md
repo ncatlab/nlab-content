@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 #### Rational homotopy theory
 +--{: .hide}
 [[!include differential graded objects - contents]]
