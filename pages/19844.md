@@ -742,6 +742,9 @@ In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 * T. Hurth, F. Mahmoudi, S. Neshatpour, _Model independent analysis of the angular observables in B0→K∗0μ+μ− and B+→K∗+μ+μ−_ ([arXiv:2012.12207](https://arxiv.org/abs/2012.12207))
 
 
+* Jorge Alda, Jaume Guasch, Siannah Penaranda, _Anomalies in B mesons decays: A phenomenological approach_ ([arXiv:2012.14799](https://arxiv.org/abs/2012.14799))
+
+
 
 
 #### Leptoquarks
