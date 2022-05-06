@@ -125,5 +125,6 @@ for further discussion of the smooth [[nLab:shape modality]] of cohesion (the [[
 [[!redirects Pi-closed morphisms]]
 
 [[!redirects cohesive shape]]
+[[!redirects cohesive shapes]]
 
 
