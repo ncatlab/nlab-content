@@ -151,7 +151,7 @@ A groupoid object $A : \Delta^{op} \to C$ is the **[[Cech nerve]]** of a morphis
 
 This is [[Higher Topos Theory|HTT, below prop. 6.1.2.11]].
 
-If $A$ is the [[?ech nerve]] of a morphism $A_0 \to A_{-1}$  
+If $A$ is the [[Cech nerve]] of a morphism $A_0 \to A_{-1}$  
 then the groupoid object is [[delooping|deloopable]] in the groupoid sense.
 
 +-- {: .num_defn #EffectiveGroupoid}
