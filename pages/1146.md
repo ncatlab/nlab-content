@@ -233,7 +233,7 @@ from which a series of others follow:
 ## Relation to homotopy colimits
 
 The total complex of the double complex induced by a [[chain map]]
-is a model for the [[mapping cone]] of that map, see at _[mapping cone -- via double comples](mapping+cone#ConeViaDoubleComplex) for more.
+is a model for the [[mapping cone]] of that map, see at _[mapping cone -- via double complexes](mapping+cone#ConeViaDoubleComplex) for more.
 
 [[!redirects double complexes]]
 
