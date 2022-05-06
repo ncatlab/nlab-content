@@ -13,13 +13,14 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Ising model_ is a simple [[model (in theoretical physics)]] of [[physical systems]] roughly similar to ferromagnets. Its configurations are functions on a lattice with values in $\{-1,+1\}$, roughly to be thought of as the magnetic polarizations of elementary magnets in a crystal lattice.
+The _Ising model_ is a simple [[lattice model|lattice]] [[model (in theoretical physics)]] of [[physical systems]] roughly similar to ferromagnets. Its configurations are functions on a lattice with values in $\{-1,+1\}$, roughly to be thought of as the magnetic polarizations of elementary magnets in a crystal lattice.
 
 The Ising model gained importance as a toy model in theoretical [[physics]]. It is about the simplest possible model that allows methods of [[Euclidean field theory|Euclidean]] [[quantum field theory]] in [[statistical physics]] and the study of [[critical phenomena]]. In fact at a critical [[temperature]] and in [[dimension]] 2 the model exibits the behaviour of a [[2d CFT|2d]][[conformal field theory]], one of the examples of [[rational conformal field theory]].
 
