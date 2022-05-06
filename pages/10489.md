@@ -7,12 +7,17 @@ The term "logos" is used
 
 * in [Joyal 08](#Joyal08) as a synonym for _[[quasi-category]]_ ([[(∞,1)-category]]).
 
+* In [Joyal 2015](#Joyal15) and [Anel–Joyal 2019](#AnelJoyal19) for an object of the opposite of the category of [[toposes]].
 
 ## References
 
 * {#FreydScedrov} [[Peter Freyd]], Andre Scedrov, _[[Categories, Allegories]]_
  
 * {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+
+* {#Joyal15} [[André Joyal]], _A crash course in topos theory : the big picture_, lecture series at Topos à l'IHÉS, 2015 [Video 1](https://www.youtube.com/watch?v=Ro8KoFFdtS4), [Video 2](https://www.youtube.com/watch?v=4vxzK4LjFlY), [Video 3](https://www.youtube.com/watch?v=u_cl0qiJxWY), [Video 4](https://www.youtube.com/watch?v=xzyxgJBNW8w). 
+
+* {#AnelJoyal19} [[Mathieu Anel]] and [[André Joyal]], _Topo-logie_, preprint, 2019 ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
 
 Discussion of relation to [[taoism]]:
 
