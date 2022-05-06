@@ -11,11 +11,13 @@ In his own words:
 
 (from [Montague 70a](#Montague70a))
 
+## Related entries
 
+* [[dependent type theoretic methods in natural language semantics]]
 
 ## References
 
-* {#Montague70a} Richard Montague, _Universal Grammar_, Theoria 36 (3):373--398 (1970)
+* {#Montague70a} Richard Montague, _Universal Grammar_, Theoria 36 (3):373--398 (1970) ([doi:10.1111/j.1755-2567.1970.tb00434.x](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-2567.1970.tb00434.x))
 
 * {#Montague70b} Richard Montague, _English as a formal language_, Linguaggi nella societa e nella tecnica. Edizioni di Communita. pp. 188-221 (1970)
 
@@ -30,8 +32,6 @@ See also:
 
 * Wikipedia, _[Montague grammar](https://en.m.wikipedia.org/wiki/Montague_grammar)_
 
-##Related entries
 
-* [[dependent type theoretic methods in natural language semantics]]
 
 [[!redirects Montague grammar]]
