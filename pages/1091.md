@@ -539,6 +539,8 @@ See also
 * A. Carboni, G. Kelly, R. Wood, _A 2-categorical approach to change of base and geometric morphisms I_ ([numdam](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_1/CTGDC_1991__32_1_47_0/CTGDC_1991__32_1_47_0.pdf))
 
 [[!redirects change of base]]
+[[!redirects changes of base]]
+[[!redirects base changes]]
 
 [[!redirects base change geometric morphism]]
 [[!redirects base change geometric morphisms]]
