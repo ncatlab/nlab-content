@@ -63,10 +63,14 @@ For $n \in \mathbb{N}$ and for $R \in $ [[CRing]] a [[commutative ring]], the [[
 
 
 $$
-  \big( R\langle \mathcal{D}^{pb}\rangle, conc \big)
+  \big( R\langle \mathcal{D}^{pb}\rangle, \circ \big)
 $$
 
-under concatenation of strands.
+under [[concatenation]] of strands. For example:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AlgebraStrucOnSpanofHorizontalChordDiagrams.jpg" width="500">
+</center>
 
 
 ### The 2T- and 4T-relations
@@ -85,7 +89,7 @@ and the [[4T relations]]:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram4TRelation.jpg" width="600">
 </center>
 
-In terms of the [[commutator]] [[Lie algebra]] of the algebra $\big( R\langle \mathcal{D}^{pb}\rangle, conc \big)$ of horizontal chord diagrams, these are the [[infinitesimal braid relations]].
+In terms of the [[commutator]] [[Lie algebra]] of the [above](#AlgebraOfHorizontalChordDiagrams) algebra $\big( R\langle \mathcal{D}^{pb}\rangle, \circ \big)$ of horizontal chord diagrams, these are the [[infinitesimal braid relations]].
 
 One writes
 
@@ -104,10 +108,10 @@ for the [[quotient algebra]] of horizontal chord diagrams by these relations.
 An $R$-[[linear map]] from the [[quotient module]] (eq:QuotientModule) tr $R$
 is called a _[[weight system]]_ on horizontal chord diagrams (of $n$ strands), or maybe a _[[horizontal weight systems]]_.
 
-Hence for $R = k$ a [[field]], the [[vector space]] of all horizontal weight systems is the [[dual vector space]]
+Hence for $R = k$ a [[field]], the [[vector space]] of all horizontal weight systems is the degreewise [[dual vector space]]
 
 $$
-  \mathcal{W}^{pb}
+  \mathcal{W}_{pb}
   \;\coloneqq\;
   \big(
     \mathcal{A}^{pb} 
