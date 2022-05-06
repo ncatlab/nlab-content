@@ -62,7 +62,7 @@ These inductive definitions can be formalized by choosing a particular [[type th
 
 It may happen that a judgment $J$ is only derivable under the assumptions of certain other judgments $J_1,\dots, J_2$.  In this case one writes
 $$ J_1,\dots,J_n \;\vdash J.$$
-Often, however, it is convenient to incorporate hypotheticality into judgments themselves, so that $ J_1,\dots,J_n \;\vdash J $ becomes a single _[[hypothetical judgment]]_.  It can then be a consquence of other judgments, or (more importantly) a hypothesis used in concluding other judgments.  For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
+Often, however, it is convenient to incorporate hypotheticality into judgments themselves, so that $ J_1,\dots,J_n \;\vdash J $ becomes a single _[[hypothetical judgment]]_.  It can then be a consequence of other judgments, or (more importantly) a hypothesis used in concluding other judgments.  For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
 $$ \frac{\phi \;\vdash\; \psi}{\vdash\; \phi\Rightarrow\psi}$$
 with a hypothetical judgment as its hypothesis.  See [[natural deduction]] for a more extensive discussion.
 
@@ -90,7 +90,7 @@ Foundational discussion of the notion of _judgement_ in [[formal logic]] is in
 
 
 
-* {#Martin-L&#246;f83} [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, leture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+* {#Martin-L&#246;f83} [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, lecture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
  
 
 * {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/raw/master/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
