@@ -100,9 +100,17 @@ Characterization of $G$-spectra [via excisive functors]() on [[G-spaces]] is in 
 
 ## Properties
 
+
 ### Relation to spectra with $G$-action
 
 (e.g. [Carlsson 92, p. 14](#Carlsson92), [GreenleesMay, p.16](#GreenleesMay))
+
+### Relation to Borel-equivariant spectra
+
+In the general context of ([[global equivariant stable homotopy theory|global]]) [[equivariant stable homotopy theory]], [[Borel equivariant cohomology|Borel-equivariant]] spectra are those which are _right induced_ from plain [[spectra]], hence which are in the [[essential image]] of the [[right adjoint]] to the [[forgetful functor]] from [[equivariant spectra]] to plain [[spectra]].
+
+([Schwede 18, Example 4.5.19](#Schwede18))
+
 
 ### Equivariant stable Whitehead theorem
  {#EquivariantWhitehead}
@@ -161,8 +169,12 @@ Lecture notes include
 
 * {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
-
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_
+
+See also
+
+* {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_ 2018  ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+
 
 Relation to [[Mackey functors]]:
 
