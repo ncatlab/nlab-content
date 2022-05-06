@@ -109,13 +109,16 @@ See also:
 
 
 
-
-
-
-
-
-
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
+
+
+
+### In $p$-adic AdS/CFT
+
+
+Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CFT correspondence]]:
+
+* Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
 
 [[!redirects BTZ black holes]]
 
