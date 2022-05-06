@@ -223,7 +223,7 @@ as consisting precisely of those objects in $Cat/C$ that are
 We recall the definition of the [[bicategory]] of Grothendieck fibrations 
 and [[pseudofunctor]]s and then state the main equivalence theorem.
 
-#### The bicategory of pseudofunctors.
+#### The bicategory of pseudofunctors
 
 A [[pseudofunctor]] from a 1-[[category]] $C$ to a [[2-category]] ([[bicategory]]) $A$ is nothing but a (non-strict) [[2-functor]] between bicategories, with the ordinary category regarded as a special bicategory.
 
