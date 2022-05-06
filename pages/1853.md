@@ -243,6 +243,10 @@ See for instance section 3.2 of
 * Hatcher, _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html) [pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
 
 
+### In Whitehead-generalized cohomology
+
+For the cup product in [[multiplicative cohomology theory|multiplicative]] [[Whitehead-generalized cohomology theories]]... see [here](suspension+spectrum#SmashMonoidalDiagonals).
+
 ## In abelian sheaf cohomology ##
 
 Traditionally the cup product is considered for 
