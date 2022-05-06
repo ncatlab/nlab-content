@@ -377,7 +377,7 @@ Complete proof of the classification of the finite subgroups of $SO(3)$ is also 
 
 Based on the classification of the finite subgroups of $SO(3)$, full proof of that of the finite subgroups of $SU(2)$ is spelled out in
 
-* {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
+* {#Keenan03} [[Adam Keenan]], _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
 
 See also
 
