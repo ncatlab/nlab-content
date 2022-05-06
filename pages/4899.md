@@ -22,7 +22,7 @@ See also [[math blogs]], [[math archives]] and the top page [[math resources]]. 
 * [imu](http://www.mathunion.org) International Mathematical Union
 * [ems](http://www.emis.de) European Mathematical Society
 * [siam](https://www.siam.org) Society for industrial and applied mathematics
-* long [list of math societies](http://www.mathontheweb.org/mathweb/mi-sao.html) at (former metric conversion) [unit converter](https://www.easyunitconverter.com) 
+* long [list of math societies](http://www.mathontheweb.org/mathweb/mi-sao.html) at (former metric conversion) 
 * [list of mathematics departments](http://www.mathontheweb.org/mathweb/mi-depts.html) at Math On the Web
 
 ## Main research institutes
