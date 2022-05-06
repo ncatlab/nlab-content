@@ -344,8 +344,8 @@ $$
   \,.
 $$
 
-On the right this is the term in the form in which the conserved quantity obtained from the Nother theorem is traditionally written
-(using that given a [[Lagrangian]] $L$ we have $p_i = \frac{\delta L}{\delta (\dot q^i)}$).
+The term on the right is in the form in which the conserved quantity obtained from Noether's theorem is traditionally written
+(using that, given a [[Lagrangian]] $L$, we have $p_i = \frac{\delta L}{\delta (\dot q^i)}$).
 
 
 ## Examples
