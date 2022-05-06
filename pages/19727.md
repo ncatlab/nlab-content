@@ -125,8 +125,6 @@ For [[rational CFT]], specifically [[Gepner models]] and [[WZW models]]
 * [[Giovanni Felder]], [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Christoph Schweigert]], _The geometry of WZW branes_ ([arXiv:hep-th/9909030](https://arxiv.org/abs/hep-th/9909030))
 
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
-
 * [Braun & Schaefer-Nameki 05](#BraunSchaeferNameki05)
 
 ### On orbifolds
