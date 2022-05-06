@@ -205,11 +205,15 @@ See also
 
 ### Equivariant Cohomotopy
 
-Discussion of the [[equivariant cohomology]]-version of cohomotopy ([[equivariant cohomotopy]]):
+Discussion of the [[stable cohomotopy|stable]] cohomotopy ([[framed manifold|framed]] [[cobordism cohomology theory]]) in the [[equivariant cohomology]]-version of cohomotopy ([[equivariant cohomotopy]]):
 
 * {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
-* {#Cruickshank03} James Cruickshank, _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+
+and in the [[twisted cohomology]]-version ([[twisted cohomotopy]])
+
+* {#Cruickshank03} [[James Cruickshank]], Section 7 of _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
 
 
 Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational equivariant]] cohomotopy:
@@ -218,9 +222,9 @@ Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy th
 
 and in terms of [[twisted cohomotopy]]:
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ 
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
-
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
 
