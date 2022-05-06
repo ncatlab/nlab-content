@@ -28,11 +28,13 @@ The construction is closely related to the following basic fact relating [[self-
 
 ## Details
 
-### For the self-dual field and trivial target space metric
+### For the free self-dual field and trivial target space metric
+ {#ForTheFreeSelfDualField}
 
-We review the definitions from [Perry-Schwarz 96](#PerrySchwarz96),
-for the [[worldvolume]] [[Lagrangian density]] of just the [[self-dual higher gauge field]] on a [[circle principal bundle]]-[[worldvolume]] for would-be [[target space]] being [[Minkowski spacetime]].
+We review the definitions from [Perry-Schwarz 96, Section 2 "The Free Theory"](#PerrySchwarz96) (following [Henneaux-Teitelboim 88](#HenneauxTeitelboim88)), for the [[worldvolume]] [[Lagrangian density]] of just the [[free field|free]] [[self-dual higher gauge field]] on a [[circle principal bundle]]-[[worldvolume]] for would-be [[target space]] being [[Minkowski spacetime]]. 
+
 In doing so, we translate to [[coordinate chart|coordinate]]-invariant [[Cartan calculus]]-formalism and generalized to [[KK-compactification]] on possibly non-[[trivial bundle|trivial]] [[circle principal bundle]]:
+
 
 #### Worldvolume and self-duality
 
@@ -625,9 +627,13 @@ These are of course [[Maxwell's equations]] on $\Sigma^5$.
 
 
 
-### For the full M5-brane sigma model
+### For the full interacting M5-brane sigma model
+ {#TheFullInteractingModel}
+
+The full interacting PS Lagrangian  ([PS 96 (63)](#PerrySchwarz96)) has more terms..
 
 (...)
+
 
 ([Schwarz 97](#Schwarz97), [APPS 97](#APPS97))
 
