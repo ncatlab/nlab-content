@@ -267,7 +267,9 @@ Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]
 
 ### Relation to AdS/CFT
 
-* {#ChesterPerlmutter18} Shai M. Chester, Eric Perlmutter, _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+Relation to [[AdS/CFT]] and [[conformal bootstrap]]:
+
+* {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
 
 ### Cohomological considerations
