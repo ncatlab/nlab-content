@@ -60,9 +60,18 @@ Specifically in relation to [[Donaldson-Thomas theory]]:
 
 
 
+
+
 See also
 
 * Jian Zhou, _K-Theory of Hilbert Schemes as a Formal Quantum Field Theory_ ([arXiv:1803.06080](https://arxiv.org/abs/1803.06080))
+
+#### On K3 surfaces
+
+Discussion of the [[Hilbert scheme of points]] on [[K3-surfaces]] with an eye towards [[Rozansky-Witten theory]]:
+
+
+* [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
 
 
 [[!redirects Hilbert schemes]]
