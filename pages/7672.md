@@ -530,8 +530,9 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 * [[scanning map equivalence]]
 
-## References
+\linebreak
 
+## References
 
 ### General
 
@@ -543,9 +544,9 @@ Lecture notes include
 
 * [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
 
-* [[Akhil Mathew]], _Notes on the J-homomorphism_ ([pdf](http://people.fas.harvard.edu/~amathew/j.pdf))
+* [[Akhil Mathew]], _Notes on the J-homomorphism_, 2012 ([pdf](http://math.uchicago.edu/~amathew/j.pdf), [[MathewJHomomorphism.pdf:file]])
 
-
+* Arpon Raksit, _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf))
 
 Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
 
