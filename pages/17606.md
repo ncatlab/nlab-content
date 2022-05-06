@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _Platonic 2-group_ ([Epa 10](#Epa10)) is a [[2-group]] [[infinity-group extension|higher extension]] of a "Platonic group" in the [[ADE classification]], i.e. of a [[finite subgroup of SO(3)]] or else of its [[double cover]], hence a [[finite subgroup of SU(2)]].
+A _Platonic 2-group_ ([Epa 10](#Epa10)) is a [[2-group]] [[infinity-group extension|higher extension]] of a "Platonic group" in the [[ADE classification]], i.e. of a [[finite subgroup of SO(3)]]; or else of its [[double cover]], hence of [[finite subgroup of SU(2)]].
 
 [[!include ADE -- table]]
 
@@ -52,6 +52,9 @@ where $i$ is the canonical inclusion of [[roots of unity]], $i: \mathbb{Z}/{|G|}
 
 
 ([Epa-Ganter 16, prop. 4.1](#EpaGanter16))
+
+See also at _[[finite subgroup of SU(2)]] -- [Discrete torsion](finite+rotation+group#DiscreteTorsion)_
+
 
 ## References
 
