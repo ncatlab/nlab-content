@@ -27,13 +27,11 @@
 
 ## __Introduction__ and Prefaces
 
-## __I. Transcendental Doctrine of Elements__
-
-### __First Part.__ Transcendental Aesthetics
+## __I. Transcendental Doctrine of Elements.__ __1st Part.__ Transcendental Aesthetics
 
 > The science of all the principles of sensibility a priori, I call transcendental aesthetic.* There must, then, be such a science forming the first part of the transcendental doctrine of elements, in contradistinction to that part which contains the principles of pure thought, and which is called transcendental logic. 
 
-#### __First Secton.__ On Space.
+### __First Secton.__ On Space.
 
 For Kant space is not a concept but an intuition, more precisely an intuition, "which serves for the foundation of all external intuitions". Kant develops this view in the following steps (A[24](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_024.png)-[25](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_025.png)/B38-40)
 
@@ -60,14 +58,14 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 
 
-#### __Second Section.__ On Time.
+### __Second Section.__ On Time.
 
 "Time is nothing other than the form of inner sense, i.e., of the intuition of our self and our inner state." ([A33](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_033.png)/B50)
 
-### __Second Part.__ Transcendental Logic
+## __I. Transcendental Doctrine of Elements.__ __2nd Part.__ Transcendental Logic
 
 
-#### __Introduction.__ The Idea of a Transcendental Logic. 
+### __Introduction.__ The Idea of a Transcendental Logic. 
 
 In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
@@ -110,19 +108,19 @@ In the development of Kant's distinction between general logic and transcendenta
 
     The purpose of this paragraph is to narrow down the scope of transcendental logic, applying the division established in the last paragraph. From [A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-3/B87:
 
->The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object ...
+> The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object ...
 
-$ \, $
-: <span style="font-size:18px;">One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form which truth has to have as it necessarily relates to objects. Kant continues ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88):</span>
+
+One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form which truth has to have as it necessarily relates to objects. Kant continues ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88):</span>
 
 > [Transcendental logic] should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].
 
 
-#### __First Division.__ The Transcendental Analytic
+### __First Division.__ The Transcendental Analytic
 
-##### __First Book.__ The Analytik of Concepts
+#### __First Book.__ The Analytik of Concepts
 
-###### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
+##### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
 
 Table of judgements
 
@@ -137,120 +135,114 @@ Note that at least in ([Jäsche Logik, 1800](#Jaesche)) the negative and infinit
 > Nach dem Principium der Ausschließung jedes Dritten (exclusi tertii) ist die Sphäre eines Begriffs relativ auf eine andre entweder ausschließend oder einschließend. - Da nun die Logik bloß mit der Form des Urteils, nicht mit den Begriffen ihrem Inhalte nach, es zu tun hat: so ist die Unterscheidung der unendlichen von den negativen Urteilen nicht zu dieser Wissenschaft gehörig.
 
 
-###### _Second Chapter._ On the Deduction of the Pure Concepts of the Understanding ("Transcendental Deduction")
+##### _Second Chapter._ On the Deduction of the Pure Concepts of the Understanding [Transcendental Deduction]
 
-###### {#deductionA}_A edition:_ Transcendental Deduction
+Kant explains the transcendental deduction as follows:
 
-In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B" deduction). Concepts are created in three steps:
+> I therefore call the explanation of the way in which concepts can relate to objects a priori their __transcenden­tal deduction__. (B117)
 
-1. "On the synthesis of __apprehension in the intuition.__" ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
+Kant begins by describing the way in which the manifold of intuition is combined:
 
-    All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png))
+> Yet the __combination__ (conjunctio) of a manifold in general can never come to us through the senses, and therefore cannot already be contained in the pure form of sensible intuition; for it is an act of the spontaneity of the power of representation. (B129) 
 
-    "Every intuition [Anschauung] contains a manifold in itself."([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) The mind distinguishes between every moment of impression.
+He justifies the transcendental unity in the following sentence:
 
-    We want a  _Unity of intuition_ to come from these impressions.
-    This process is called _Synthesis of apprehension_:
+> I am therefore conscious of the identi­cal self in regard to the manifold of the representations that are given to me in an intuition because I call them all together __my__ representa­tions, which constitute __one__. (B135)
 
-    * Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this ma be called a limiting process.
+Presupposing that the human understanding only operates with concepts  rather than with intuitions, Kant can define "understanding" in the following way: 
 
-    * In order to have _One representation_ such a limiting process must have occured.
+> __Understanding__ is, generally speaking, the faculty of __cognitions__. (B137)
 
-    * This process has to happen a priori.
+To advance his argument, Kant then needs the synthetic unity, because:
 
+> The synthetic unity of con­sciousness is ... an objective condition of all cognition, ... (B138)
 
-1. "On the synthesis of __reproduction in the imagination.__" ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
+Now a question regarding the purpose of the categories arises, since for Kant 
 
-    "It is ... a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule [beständige Regel]." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
+> [The Categories] are only rules for an understanding whose entire capacity consists in thinking, i.e., in the action of bringing the synthesis of the manifold that is given to it in intuition from elsewhere to the unity of apperception, which therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object." (B145)
 
-    The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a function in one direction.
+While "Space and time are valid, as conditions of the possibility of how objects can be given to us, no further than for objects of the senses, hence only for ex­perience." (B148) the categories are rules regarding how understanding may occur.
 
+The following quote enlightens the connection between natural laws, which Kant describes as derivable from nature, and the categories, which are conditions of possible experience:
 
-    This is formulated in the __Law of reproduction__:
+> Particular laws, because they concern em­pirically determined appearances, __cannot__ be __completely derived__ from the categories, although they all stand under them. (B165)
 
-    * the appearances of objects are associated with the _manifold_ of their representation
+In the end Kant arrives at the result that "Consequently no a priori cognition is possible for us except solely of objects of possible experience."(B166)
 
-    * the similar limiting process as in the synthesis of apprehension has to occur
+#####{#deductionA} _Second Chapter_ __[A]__. On the a priori grounds for the possibility of experience. [A deduction]
 
+In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B deduction"). Concepts are created in three steps:
 
-1. "On the synthesis of __recognition in the concept.__" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
+###### _A.I.II.I.I.II.II.I On the synthesis of __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
 
-    If that which we think of  is the same, it has to give rise to the same representation.
+All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png))
 
-    We have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
+> Every intuition [Anschauung] contains a manifold in itself.([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) The mind distinguishes between every moment of impression.
 
-    "The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the manifold of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition." ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
+We want a  _Unity of intuition_ to come from these impressions.
+This process is called _Synthesis of apprehension_:
 
-    for that we need:
+* Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this ma be called a limiting process.
 
-    * A rule, which guarantees that the reproduction happens a priori and can always be exhibited. This is called "unity of rule".
+* In order to have _One representation_ such a limiting process must have occured.
 
-    * The concept in which the representations unite. ("All cognition requires a concept", [A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png))
-
-
-    To sum up crucial features: transcendental apperception
-
-    * must precede all experiences, i.e. has to be a priori
-
-    * is a pure, original, unchanging consciousness
-
-    * Grounds a priori concepts (similar as Space and Time grounds the intuition of sensibility)
+* This process has to happen a priori.
 
 
-    While in view of the transcendental object: it
+###### _A.I.II.I.I.II.II.II_ On the synthesis of __reproduction in the imagination.__ ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
-    * Is the object in which the trancendental apperception grounds a priori concepts
+> It is ... a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule [beständige Regel]. ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
-    * Its pure concept is that, which in all of our empirical concepts in general can provide relation to an object, i.e., objective reality.
-
-    * Cannot contain any determined intuition at all - just the that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object.
+The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a function in one direction.
 
 
-###### {#deductionB}_B edition:_ Transcendental Deduction
+This is formulated in the __Law of reproduction__:
 
-1. "__On the a priori grounds for the possibility of experience__"([B116)
+* the appearances of objects are associated with the _manifold_ of their representation
 
-    Kant explains the transcendental deduction as follows:
-
-    "I therefore call the explanation of the way in which concepts can relate to objects a priori their __transcenden­tal deduction__" (B117).
+* the similar limiting process as in the synthesis of apprehension has to occur
 
 
-1. "__Transcendental deduction of the pure concepts of the understanding__"(B129)
+###### _A.I.II.I.I.II.II.III_ On the synthesis of __recognition in the concept.__ ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 
-    Kant begins by describing the way in which the manifold of intuition is combined:
+If that which we think of  is the same, it has to give rise to the same representation.
 
-    "Yet the __combination__ (conjunctio) of a manifold in general can never come to us through the senses, and therefore cannot already be contained in the pure form of sensible intuition; for it is an act of the spontaneity of the power of representation"(B129). 
+We have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 
-    He justifies the transcendental unity in the following sentence:
+> The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the manifold of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition. ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
 
-    "I am therefore conscious of the identi­cal self in regard to the manifold of the representations that are given to me in an intuition because I call them all together __my__ representa­tions, which constitute __one__."(B135).
+for that we need:
 
-    Presupposing that the human understanding only operates with concepts  rather than with intuitions, Kant can define "understanding" in the following way: 
+* A rule, which guarantees that the reproduction happens a priori and can always be exhibited. This is called "unity of rule".
 
-    "__Understanding__ is, generally speaking, the faculty of __cognitions__."(B137)
-
-    To advance his argument, Kant then needs the synthetic unity, because:
-
-    "The synthetic unity of con­sciousness is ... an objective condition of all cognition, ..."(B138).
-
-    Now a question regarding the purpose of the categories arises, since Kant 
-
-    "[The Categories] are only rules for an understanding whose entire capacity consists in thinking, i.e., in the action of bringing the synthesis of the manifold that is given to it in intuition from elsewhere to the unity of apperception, which therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object."(B145).
-
-    While "Space and time are valid, as conditions of the possibility of how objects can be given to us, no further than for objects of the senses, hence only for ex­perience."(B148) the categories are rules regarding how understanding may occur.
-
-    The following quote enlightens the connection between natural laws, which Kant describes as derivable from nature, and the categories, which are conditions of possible experience:
-
-    "Particular laws, because they concern em­pirically determined appearances, __cannot__ be __completely derived__ from the categories, although they all stand under them."(B165)
-
-    In the end Kant arrives at the result that "Consequently no a priori cognition is possible for us except solely of objects of possible experience."(B166)
+* The concept in which the representations unite. ("All cognition requires a concept", [A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png))
 
 
-#### Achourioti and van Lambalgen's formalization
+To sum up crucial features: transcendental apperception
 
-Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a formalization of Kant's logic in terms of [[geometric logic]].
+* must precede all experiences, i.e. has to be a priori
 
-## __II. Transcendental Doctrine of Methods__
+* is a pure, original, unchanging consciousness
+
+* Grounds a priori concepts (similar as Space and Time grounds the intuition of sensibility)
+
+
+While in view of the transcendental object: it
+
+* Is the object in which the trancendental apperception grounds a priori concepts
+
+* Its pure concept is that, which in all of our empirical concepts in general can provide relation to an object, i.e., objective reality.
+
+* Cannot contain any determined intuition at all - just the that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object.
+
+
+
+
+### Achourioti and van Lambalgen's formalization
+
+Strarting from the description of the [A deduction](#deductionA) above Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) suggested a formalization of Kant's logic in terms of [[geometric logic]].
+
+## __II. Transcendental Doctrine of Methods.__
 
 
 ## On Aristotelian logic
