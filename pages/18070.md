@@ -839,7 +839,7 @@ Let $X$ be
 
 * of [[dimension]] $dim(X) \geq 2$.
 
-Then for all $n \in \mathbb{N}$ there are canonical inclusion [[maps]]
+Then for all $n \in \mathbb{N}$ there are inclusion [[maps]]
 
 $$
   Conf_n
