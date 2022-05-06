@@ -256,13 +256,23 @@ In general, this will not respect the differentials, hence not be a morphism of 
 
 * [[Sullivan model of classifying space]]
 
+* [[Chern-Weil homomorphism]]
 
 
 ## References
 
 The [[differential geometry|differential-geometric]] "Chern-Weil"-construction (evaluating [[curvature 2-forms]] of [[connection on a principal bundle|connections]] in [[invariant polynomials]]) is due to
 
-* [[Henri Cartan]], Section 7 of: _Cohomologie réelle d'un espace fibré principal différentiable. I : notions d'algèbre différentielle, algèbre de Weil d'un groupe de Lie _,   Séminaire Henri Cartan, Volume 2  (1949-1950), Talk no. 19, 10 p.  ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
+* [[Henri Cartan]], Section 7 of: _Cohomologie réelle d'un espace fibré principal différentiable. I : notions d'algèbre différentielle, algèbre de Weil d'un groupe de Lie _,   Séminaire Henri Cartan, Volume 2  (1949-1950), Talk no. 19, May 1950  ([numdam:SHC_1949-1950__2__A18_0](http://www.numdam.org/item/?id=SHC_1949-1950__2__A18_0))
+
+  \linebreak
+
+  [[Henri Cartan]], Section 7 of: _Notions d'algèbre différentielle; applications aux groupes de Lie et aux variétés o&ugrave; opère un groupe de Lie_, in: Centre Belge de Recherches Mathématiques, _Colloque de Topologie (Espaces Fibrés) Tenu &agrave; Bruxelles du 5 au 8 juin 1950_, Georges Thon 1951 ([GoogleBooks](https://books.google.de/books/about/Colloque_de_topologie_espaces_fibres.html?id=sagqHQAACAAJ&redir_esc=y))
+
+  \linebreak
+
+  (These two articles have the same content, with the same section outline, but not the same wording. The first one is a tad more detailed.)
+
 
 and around equation (10) of:
 
