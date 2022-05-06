@@ -39,7 +39,7 @@ The [[ordinary cohomology]] of the [[classifying space]]/[[delooping]] $B G_3$ w
 
 ([Dwyer-Wilkerson 93, Theorem 1.1](#DwyerWilkerson93))
 
-As such $G_3$ is the last in a series of [[infinity-groups]] whose [[classifying spaces]]/[[deloopings]] have as mod 2 [[cohomology ring]] the mod 2 [[Dickson invariants]] for rank $n$, which starts with three ordinary [[compact Lie groups]]:
+As such, $G_3$ is the last in a series of [[infinity-groups]] whose [[classifying spaces]]/[[deloopings]] have as mod 2 [[cohomology ring]] the mod 2 [[Dickson invariants]] for rank $n$, which starts with three ordinary [[compact Lie groups]]:
 
 | $n=$ | 1 | 2 | 3 | 4 | 
 |--|--|--|--|--|
