@@ -7,7 +7,7 @@
 
 ## Selected writings
 
-On [[classifying spaces]] and [[spectral sequences]] (and introducing the "[[Segal conditions]]", see also at [[complete Segal space|complete]] [[Segal space]]):
+On [[classifying spaces]] and [[spectral sequences]] (and introducing the "[[Segal conditions]]", see also at _[[complete Segal space|complete]] [[Segal space]]_):
 
 * {#Segal} [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
 
