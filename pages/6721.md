@@ -91,7 +91,7 @@ JHEP02(2004)070
 
 Seiberg duality for [[gauge group]]s which are [[exceptional Lie group]]s:
 
-* [[Jacques Distler]], Andreas Karch, _$N=1$ Dualities for Exceptional Gauge Groups and Quantum Global Symmetries_ ([arXiv:hep-th/9611088](http://arxiv.org/abs/hep-th/9611088))
+* [[Jacques Distler]], [[Andreas Karch]], _$N=1$ Dualities for Exceptional Gauge Groups and Quantum Global Symmetries_ ([arXiv:hep-th/9611088](http://arxiv.org/abs/hep-th/9611088))
 
 
 But see
