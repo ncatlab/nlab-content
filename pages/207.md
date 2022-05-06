@@ -136,14 +136,13 @@ Texts on [[type theory]] typically deal with the subtleties of the notion of _eq
 
 Besides 
 
-* [[Kurt Gödel]] _[[Dialectica]]_ , 
+* [[Kurt Gödel]], _Über eine bisher noch nicht benützte Erweiterung des finiten Standpunktes_. Dialectica (1958), pp. 280–287, 
 
-which might be the first paper to mention intensional equality
-(and the fact that it should be decidable), another reference is 
+which might be the first paper to mention intensional equality (and the fact that it should be decidable), there is
 
-*[[Dick de Bruijn]], _[[Automath]]_, 
+* [[Nicolaas de Bruijn]], _[[Automath]]_, 
 
-which makes a distinction between definitional equality and "book" equality.
+where de Bruijn makes a distinction between definitional equality and "book" equality.
 
 
 [[!redirects equal]]
