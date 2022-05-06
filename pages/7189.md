@@ -19,7 +19,7 @@
 A standard result in the theory of [[monad|monads]] says that every [[adjunction]] $F\dashv G:\mathcal{B}\to\mathcal{A}$ with unit $\eta$ and counit $\epsilon$ yields a monad $\langle 
 G\circ F,\;\eta,\;1_G\ast\epsilon\ast 1_F\rangle$ on $\mathcal{A}$. Similarly, it is possible to attach a monad $\mathbb{T}^G$, called the **codensity monad**, to a functor $G:\mathcal{B}\to\mathcal{A}$, when the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ has a left adjoint.
 
-The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[dense functor|codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
+The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
 
 
 
@@ -41,7 +41,7 @@ That this indeed defines a monad follows from the universal properties of the Ka
 
 ## Examples
 
-
+* The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
 ....
 
 
@@ -91,6 +91,10 @@ The role in shape theory is discussed in
 * D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
 
 * J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+
+For a description of the [[giry monad]] as a codensity monad, see
+
+* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
 
 Other references include
 
