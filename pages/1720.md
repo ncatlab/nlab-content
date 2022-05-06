@@ -160,7 +160,7 @@ Then there exists a morphism of simplicial theories $T \to S$ such that
 =--
 
 
-This is the content of ([Rezk 00](#Rezk00))
+This is the content of ([Rezk 02](#Rezk02))
 
 
 
@@ -450,11 +450,12 @@ The following are equivalent:
 1. If $f$ is any weak equivalence in $M$, then $\Sigma_f \dashv f^*$ is a Quillen equivalence.
 =--
 
+This is [Rezk 02, Proposition 2.5](#Rezk02).
+
 In other words, $M$ is right proper iff all slice categories have the "correct" Quillen equivalence type.
 
 Since whether or not a Quillen adjunction is a Quillen equivalence depends only on the classes of weak equivalences, not the fibrations and cofibrations, it follows that being right proper is really a property of a [[homotopical category]].  In particular, if one model structure is right proper, then so is any other model structure on the same category with the same weak equivalences.
 
-See [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041294).
 
 
 ### Local cartesian closure
@@ -497,8 +498,7 @@ See also
 
 * {#Rezk98} [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
  
-
-* {#Rezk00} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065))
+* {#Rezk02} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_, Topology and its Applications, Volume 119, Issue 1, 2002, Pages 65-94, [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0166864101000578?via%3Dihub), ([math/0003065](http://arxiv.org/abs/math/0003065))
 
 * {#Nikolaus10} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv:1003.1342](http://arxiv.org/abs/1003.1342))
 
