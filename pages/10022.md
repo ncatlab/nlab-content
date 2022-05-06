@@ -115,7 +115,7 @@ Review:
 
 Survey talks include
 
-* Robert Myers, _Holographic entanglement entropy_,  ([pdf slides](http://www.lpt.ens.fr/IMG/pdf/Myers.pdf))
+* [[Robert Myers]], _Holographic entanglement entropy_,  ([pdf slides](http://www.lpt.ens.fr/IMG/pdf/Myers.pdf))
 
 * Shinsei Ryu, _Holographic geometry in Entanglement Renormalization_ ([pdf slides](http://icmt.illinois.edu/Workshops/JointWorkshopPerimeter/Ryu-PI-ICMT-2012.pdf))
 
@@ -212,7 +212,7 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
 
-Nicely reviewed in (Their explicit objective is to present these results for people with minimal background in this problem.)
+Nicely reviewed in (aimed at readers with minimal background in this problem):
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_					([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
 
