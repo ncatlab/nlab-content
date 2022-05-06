@@ -141,7 +141,8 @@ The standard reference is section C3.3 of
 
 Further references include
 
-* [[Olivia Caramello]], _Syntactic Characterizations of Properties of Classifying Toposes_ , TAC **26** no.6 (2012) pp.176-193. ([pdf](http://www.tac.mta.ca/tac/volumes/26/6/26-06.pdf)) {#Cara12}
+* [[Olivia Caramello]], _Syntactic Characterizations of Properties of Classifying Toposes_ , TAC **26** no.6 (2012) pp.176-193. ([pdf](http://www.tac.mta.ca/tac/volumes/26/6/26-06.pdf))
+  {#Cara12}
 
 * [[Jonathon Funk]], _The locally connected coclosure of a Grothendieck topos_, JPAA **137** (1999) pp.17-27.
   {#Funk}
