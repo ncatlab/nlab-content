@@ -1,5 +1,12 @@
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://grahamfarmelo.com/wp-content/uploads/2019/07/Mike-Portrait-28_900.jpg" width="180"> 
+</div>
 
-Michael Duff is professor of theoretical physics at Imperial College London. He made foundational contributions to [[string theory]] and [[M-theory]].
+\linebreak
+
+Michael Duff is professor of theoretical physics at Imperial College London. $\;\;$
+
+He made foundational contributions to [[string theory]] and [[M-theory]]. $\;\;$
 
 * [personal webpage](http://michaelduff.weebly.com)
 
@@ -7,9 +14,12 @@ Michael Duff is professor of theoretical physics at Imperial College London. He 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Duff)
 
-Among his former students is [[Hisham Sati]].
+\linebreak
 
-* Graham Fermelo, _The universe speaks in numbers -- Interview 14: with [[Mike Duff]]_ ([web](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/))
+Among Duff's former students is [[Hisham Sati]].
+
+\linebreak
+
 
 ## Quotes
 
@@ -37,8 +47,23 @@ On the open problem of formulating [[M-theory]]:
 
 > future historians may judge the period 1984-95 as a time when theorists were like boys playing by the sea shore, and diverting themselves with the smoother pebbles or prettier shells of perturbative ten-dimensiorial superstrings while the great ocean of non-perturbative eleven-dimensional M-theory lay all undiscovered before them. 
 
+Interview with [[Mike Duff]] by Graham Fermelo, _The universe speaks in numbers -- Interview 14_ ([web](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/)):
+
+> {#WeDontKnowWhatItIs} (7:04) The problem we face is that we have a patchwork understanding of M-theory, like a quilt. We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is. 
+
+> In a certain sense, and this is not a popular statement, I think it's premature to be asking: "What are the empirical consequences", because it's not yet in a mature enough state, where we can sensibly make falsifiable prediction.
+
 
 ## Selected writing
+
+On [[double dimensional reduction]] of the [[super-membrane]] (the [[M2-brane]]) to the [[Green-Schwarz superstring]]:
+
+* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
+
+On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]]:
+
+* {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
+
 
 On [[Kaluza-Klein compactification]]
 
@@ -49,9 +74,6 @@ and specifically in [[supergravity]]:
 
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
 
-On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]]:
-
-* {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
 On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
