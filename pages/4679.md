@@ -28,7 +28,7 @@ Since the two [[Lie group]]s differ by an discrete group $\mathbb{Z}_2$, these t
 
 ### In the classification of Lie algebras
 
-For $n \gt 2$, $\mathfrak{so}(n)$ is a [[simple Lie algebra]], either $\mathfrak{d}_{n/2}$ when $n$ is even or $\mathfrak{b}_{(n-1)/2}$ when $n$ is odd.  For $n = 2$, $\mathfrak{so}(n)$ is the [[line]], an [[abelian Lie algebra]], which is also a [[simple object]] in [[LieAlg]] but is not counted as a simple Lie algebra.  For $n \lt 2$, $\mathfrak{so}(n)$ is the [[trivial Lie algebra]] (which is [[too simple to be simple]] by any standard).
+For $n \gt 2$, except for $n = 4$, where $\mathfrak{so}(4)\cong\mathfrak{so}(3)\oplus\mathfrak{so}(3)$, $\mathfrak{so}(n)$ is a [[simple Lie algebra]], either $\mathfrak{d}_{n/2}$ when $n$ is even or $\mathfrak{b}_{(n-1)/2}$ when $n$ is odd.  For $n = 2$, $\mathfrak{so}(n)$ is the [[line]], an [[abelian Lie algebra]], which is also a [[simple object]] in [[LieAlg]] but is not counted as a simple Lie algebra.  For $n \lt 2$, $\mathfrak{so}(n)$ is the [[trivial Lie algebra]] (which is [[too simple to be simple]] by any standard).
 
 ### Relation to Clifford algebra
 
