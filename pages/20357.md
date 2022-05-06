@@ -16,11 +16,11 @@
 ## Definition
 
 A **Stonean space** is a [[compact space|compact]], [[Hausdorff space|Hausdorff]] [[extremally disconnected]] [[topological space]].
-Stonean spaces form a [[category]] if we take continuous [[open maps]]
-as morphisms.
+Stonean spaces form a [[category]] if we take [[continuous function|continuous]] [[open maps]]
+as [[morphisms]].
 
 Thus, the category of Stonean spaces is a (nonfull)
-[[subcategory]] of the category of [[Stone spaces]] and continuous maps.
+[[subcategory]] of the category of [[Stone spaces]] and [[continuous maps]].
 
 As a consequence of [[Stone duality]], the [[category]] of Stonean spaces is contravariantly [[equivalence of categories|equivalent]] to the category
 of [[complete Boolean algebras]] and continuous homomorphisms.
