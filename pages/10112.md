@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -44,7 +43,7 @@ The mesons in the first [[generation of fermions]], being [[bound states]] of [[
 
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
