@@ -71,4 +71,4 @@ The original reference, which constructs the natural model structure and its lif
 
 The projective and injective model structures on diagrams, and the relation between pseudo-limits and homotopy limits, are discussed in the following (especially section 6).
 
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)
+* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)
