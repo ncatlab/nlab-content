@@ -45,7 +45,7 @@ $$\array{
   \downarrow & & \downarrow\\
   \Pi_E B & \to & B^E \\
   \downarrow & & \downarrow\\
-  1 & \xrightarrow{id_A} & A^A
+  1 & \xrightarrow{id_E} & E^E
 }$$
 The lower square and outer rectangle are easily seen to be pullbacks, hence so is the upper square.  Since epimorphisms are closed under pullback, the other implication follows.
 =--
