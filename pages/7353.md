@@ -20,6 +20,8 @@ On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mil
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
 
-  (relation to [[Hilbert schemes]])
+Discussion of [[Euler numbers]] of [[Hilbert schemes of points]]:
+
+* [[Hiraku Nakajima]], _Euler numbers of Hilbert schemes of points on simple surface singularities and quantum dimensions of standard modules of quantum affine algebras_ ([arXiv:2001.03834](https://arxiv.org/abs/2001.03834))
 
 category: people
