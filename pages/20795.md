@@ -36,8 +36,37 @@
 
 Parallel: dissolves ([Gava-Narain-Sarmadi 97](#GavaNarainSarmadi97))
 
-### Transversal intersection -- Yang-Mills monopoles
+### Transversal intersection 
  {#TransverseIntersection}
+
+
+#### The s-rule
+
+What has come to be known as the _[[s-rule]]_ is the conjecture that the configuration of [[Dp-D(p+2)-brane bound states]] with the [[D-brane|Dp-branes]] stretching from the [[D-brane|D(p+2)-branes]] to  [[NS5-branes]], can be [[supersymmetry|supersymmetric]] only if at most one D$p$-brane ends on any one D$(p+2)$-brane.
+
+For [[D4-D6 brane intersections]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D4D6BraneInsersectionSubjectToSRule.jpg" width="700">
+</center>
+
+> graphics grabbed from [Fazzi 17](D4-D6-brane+intersection#Fazzi17)
+
+For [[D6-D8 brane intersections]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionsSubjetToSRule.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17](D6-D8-brane+intersection#Fazzi17)
+
+
+<img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
+
+> graphics grabbed from [Gaiotto-Tomasiello 14](D6-D8-brane+intersection#GaiottoTomasiello14)
+
+
+#### Yang-Mills monopoles
 
 Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
 
