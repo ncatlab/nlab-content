@@ -84,6 +84,10 @@ Similarly, the category of [[Stone space]]s is algebraic, but not monadic or bou
 
 ## References
 
+The original definitions can be found in
+
+* [[F. William Lawvere]], _Algebraic theories, algebraic categories, and algebraic functors_. 1965 Theory of Models (Proc. 1963 Internat. Sympos. Berkeley), 413–418. North-Holland, Amsterdam.
+
 Our definitions are taken from
 
 *  **AHS**: [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]; _Abstract and Concrete Categories: [[The Joy of Cats]]_, Sections 23 &amp; 24; [web](http://katmat.math.uni-bremen.de/acc).
