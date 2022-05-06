@@ -518,6 +518,16 @@ After forgetting the action of the Adams operations via (eq:ForgetfulFunctorFrom
   \,.
 \]
 
+Notice that the [[isomorphism]] (eq:UnderlyingAbelianGroupOfKTheoryOfCofiberSpace) depends on a choice of [[splitting]] of short exact sequence (eq:ShortExactSequenceForComplexTopologicalKTheory) in [[Ab]], where any two choices $V_{2n}$, $V'_{2n}$ differ by a multiple $s \in \mathbb{Z}$ of $V_{2(n + n')}$:
+
+\[
+  \label{DependenceOfDegree2nGeneratorOnChoiceOfSplitting}
+  V'_{2n}
+  \;=\;
+  V_{2n} + s \cdot V_{2(n + n')}
+  \,.
+\]
+
 =--
 
 Conversely, this means that all the information in the extension (eq:ShortExactSequenceForComplexTopologicalKTheory) is in how the Adams operations act on the K-theory of the cofiber space:
@@ -564,12 +574,13 @@ $$
 
 of the only other generator $V_{2(n + n')}$ (eq:UnderlyingAbelianGroupOfKTheoryOfCofiberSpace). This $\mu$ is the only part of the data that is not completely fixed by the Adams module structure, and which may depend on the map $f$.
 
-We say that the _[[Adams e-invariant]] of $f$_ as an element in [[Q/Z]] is this multiple $\mu$, normalized as follows:
+We say that the _[[Adams e-invariant]] of $f$_ is this multiple $\mu$, normalized as a [[rational number]] as follows, and then regarded modulo addition of [[integers]] as an element in [[Q/Z]]:
 
 \[
   \label{eInvariantAsRationalNumberModuloIntegers}
   e_{\mathbb{C}}(f)
   \;\coloneqq\;
+  \left[
   \frac{
     \mu_k(f)
   }{
@@ -578,6 +589,7 @@ We say that the _[[Adams e-invariant]] of $f$_ as an element in [[Q/Z]] is this 
       k^{n'} - 1
     \big)
   }
+  \right]
   \;\;
   \in
   \;\;
@@ -592,7 +604,12 @@ We say that the _[[Adams e-invariant]] of $f$_ as an element in [[Q/Z]] is this 
 **(e-invariant as rational number modulo integers is well defined)**
 
 The e-invariant $e_{\mathbb{C}}(f)$ (eq:eInvariantAsRationalNumberModuloIntegers) from Def. \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloIntegers}
-is well-defined, in that it is independent of the choice of $k$ on the right of (eq:eInvariantAsRationalNumberModuloIntegers).
+is well-defined, in that it is 
+
+1. independent of the choice of splitting $\Sigma^{2n} 1 \,\mapsto\, V_{2n}$ in (eq:UnderlyingAbelianGroupOfKTheoryOfCofiberSpace);
+
+1. independent of the choice of $k$ on the right of (eq:eInvariantAsRationalNumberModuloIntegers).
+
 
 
 =--
@@ -600,7 +617,56 @@ is well-defined, in that it is independent of the choice of $k$ on the right of 
 +-- {: .proof}
 ###### Proof
 
-Use the commutativity 
+**On 1.**  Under a different choice of splitting, $V_{2n}$ changes to (eq:DependenceOfDegree2nGeneratorOnChoiceOfSplitting)
+
+$$
+  V'_{2n} \;=\; V_{2n} + s \cdot V_{2(n + n')}
+$$
+
+for some $s \in \mathbb{Z}$. By inspection of (eq:ActionOfAdamsOperationsOnCofiberSpace) this implies that $\mu_k(f)$ changes to
+
+$$
+  \mu'_k(f)
+  \;=\;
+  \mu_k(f) + s \cdot \big( k^{n + n'} - k^n \big) 
+  \,;
+$$
+
+and so in (eq:eInvariantAsRationalNumberModuloIntegers) we have
+
+$$
+  e'_{\mathbb{C}}(f)
+  \;=\;
+  \left[
+  \frac{
+    \mu'_k(f)
+  }{
+    k^n(k^{n'} -1 )
+  }
+  \right]
+  \;=\;
+  \left[
+  \frac{
+    \mu_k(f)
+  }{
+    k^n(k^{n'} -1 )
+  }  
+  + s
+  \right]
+  \;=\;
+  \left[
+  \frac{
+    \mu_k(f)
+  }{
+    k^n(k^{n'} -1 )
+  }  
+  \right]
+  \;=\;
+  e_{\mathbb{C}}(f)
+  \,.
+$$
+
+**On 2.** Use the commutativity 
 (eq:ActionPropertyOfAbstractAdamsOperations) of the Adams operation 
 together with the formula (eq:ActionOfAdamsOperationsOnCofiberSpace)  to find for any $k_1, k_2 \,\in\, \mathbb{N}$:
 
@@ -819,7 +885,7 @@ $$
 $$
 
 
-Since the [[Adams operations are compatible with the Chern character]], this means equivalently that under the [[Chern character]] map $ch$ we have in [[ordinary cohomology|ordinary]] [[rational cohomology]]:
+Since the [[Adams operations are compatible with the Chern character]], this means equivalently that under the [[Chern character]] map $ch$ we have:
 
 $$
   \psi^k_H 
@@ -829,9 +895,12 @@ $$
      ch
      \big(
        V_{2 n} 
-       -
-       e(f)
-       \cdot
+     \big)
+     -
+     e(f)
+     \cdot
+     ch
+     \big(
        V_{2(n + n')}
      \big) 
      &
@@ -841,19 +910,24 @@ $$
      &
        \cdot 
      & 
-     ch
      \big(
+     ch
+     (
        V_{2 n} 
-       -
-       e(f)
-       \cdot
+     )
+     -
+     e(f)
+     \cdot
+     ch
+     (
        V_{2(n + n')}
-     \big) 
+     ) 
+     \big)
      \\
      ch
-     \big(
+     (
        V_{2(n+n')} 
-     \big)
+     )
      &
        \mapsto
      & 
@@ -862,16 +936,18 @@ $$
        \cdot 
      & 
      ch
-     \big(
+     (
         V_{2 (n + n')}
-     \big)
+     )
    }
   \right.
   \;\;\;\;
   \in
   \;
-  H^{ev}\big( C_f; \, \mathbb{Q} \big)
+  H^{ev}\big( C_f; \, \mathbb{Q} \big)/H^{ev}\big( C_f; \, \mathbb{Z} \big)
 $$
+
+in [[ordinary cohomology|ordinary]] [[rational cohomology]] [[modulo]] [[integral cohomology]].
 
 But since the [[eigenvectors]] of $\psi^k_H $ to [[eigenvalue]] $k^r$ are precisely the classes in $H^{2r}\big( C_f;\, \mathbb{Q} \big) \,\subset\, H^{ev}\big( C_f;\, \mathbb{Q} \big)$ (see [there](Adams+operations+compatible+with+the+Chern+character#eq:AdamsOperationOnOrdinaryCohomologyInDegree2r)), this means that
 
@@ -882,37 +958,38 @@ $$
   \big)
   \;\;=\;\;
   \underset{
-    \in \; H^{2n}\big( C_f; \, \mathbb{Q} \big)
+    \in \; H^{2n}\big( C_f; \, \mathbb{Q}/\mathbb{Z} \big)
   }{
     \underbrace{
        ch
        \big(
-          V_{2n}
-          - 
-          e(f)
-          \cdot
-          V_{2(n+n')}
+         V_{2n} 
+       \big)
+       - 
+       e(f)
+       \cdot
+       ch
+       \big(
+         V_{2(n+n')}
        \big)
     }
   }
   \;+\;
   \underset{
-    \in \; H^{2(n + n')}\big( C_f; \, \mathbb{Q} \big)
+    \in \; H^{2(n + n')}\big( C_f; \, \mathbb{Q}/\mathbb{Z} \big)
   }{
     \underbrace{
+       e(f)
+       \cdot
        ch
        \big(
-          e(f)
-          \cdot
-          V_{2(n+n')}
+         V_{2(n+n')}
        \big)
     }
   }
 $$
 
-Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$
-
-(...)
+Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$.
 
 
 
