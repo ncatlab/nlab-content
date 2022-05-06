@@ -87,7 +87,7 @@ More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$
 $$\rho: \mathbf{B} M \to C $$
 where $\mathbf{B} M$ is (again) $M$ regarded as a one-object category.
 
-The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$.
+The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$. When $C$ is $Set$ this is called [[MSet]].
 
 ### Actions of a category
 
