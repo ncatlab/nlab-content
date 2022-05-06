@@ -24,11 +24,11 @@ Two similar but different classes of examples are usually referred to by default
 
 Given a [[smooth manifold]] $\Sigma$, often taken to be [[Euclidean space]] $\mathbb{R}^D$, there is
 
-1. a [graph complex model for the real cohomology of the configuration space of points](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints) in $\Sigma$
+1. a [graph complex model for the real cohomology of the unlabeled ordered configuration space of points](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints) in $\Sigma$
 
 1. a [graph complex model for the real cohomology of the space of knots](#IdeaGraphComplexModelForSpacesOfKnots) in $\Sigma$.
 
-In both cases, the graphs are interpreted as [[Feynman diagrams]] for [[Chern-Simons theory]] and the map which identifies these with [[cocycles]] in [[real cohomology]] of either the [[configuration space of points]] or the [[space of knots]] is given by sending a Feynman diagram to its [[Feynman amplitude]]. In the first case this is an [[n-point function]], [[correlator as differential form on configuration space of points|regarded as a differential form on the configuration space]] of $n$-points, while in the second case this is a [[vacuum amplitude]] depending on the [[isotopy]] [[equivalence class|class]] of the  [[Wilson loop]] encoded by the [[knot]] -- a [[Vassiliev knot invariant]].
+In both cases, the graphs are interpreted as [[Feynman diagrams]] for [[Chern-Simons theory]] and the map which identifies these with [[cocycles]] in [[real cohomology]] of either the (unlabeled & ordered) [[configuration space of points]] or the [[space of knots]] is given by sending a Feynman diagram to its [[Feynman amplitude]]. In the first case this is an [[n-point function]], [[correlator as differential form on configuration space of points|regarded as a differential form on the configuration space]] of $n$-points, while in the second case this is a [[vacuum amplitude]] depending on the [[isotopy]] [[equivalence class|class]] of the  [[Wilson loop]] encoded by the [[knot]] -- a [[Vassiliev knot invariant]].
 
 \linebreak
 
@@ -37,11 +37,11 @@ In both cases, the graphs are interpreted as [[Feynman diagrams]] for [[Chern-Si
 \linebreak
 
 
-### Model for configuration spaces of points
+### Model for ordered configuration spaces of points
  {#IdeaGraphComplexModelsForConfigurationSpacesOfPoints}
 
 
-The graph complex model for [[configuration spaces of points]] was originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in detail in [Lambrechts-Volić 14](#LambrechtsVolic14) for $\Sigma = \mathbb{R}^D$ a [[Euclidean space]]. Other authors have claimed generalization to $\Sigma$ a [[closed manifold]] ([Campos-Willwacher 16](#CamposWillwacher16)) possibly [[manifold with boundary|with boundary]] ([Campos-Idrissi-Lambrechts-Willwacher 18](#CamposIdrissiLambrechtsWillwacher18)).
+The graph complex model for unlabeled & ordered [[configuration spaces of points]] was originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in detail in [Lambrechts-Volić 14](#LambrechtsVolic14) for $\Sigma = \mathbb{R}^D$ a [[Euclidean space]]. Other authors have claimed generalization to $\Sigma$ a [[closed manifold]] ([Campos-Willwacher 16](#CamposWillwacher16)) possibly [[manifold with boundary|with boundary]] ([Campos-Idrissi-Lambrechts-Willwacher 18](#CamposIdrissiLambrechtsWillwacher18)).
 
 Here we denote this version of the graph complex by "$Graphs$", in contrast to "$KnotGraphs$" for the other model, discussed further [below](#IdeaGraphComplexModelForSpacesOfKnots).
 
@@ -125,16 +125,16 @@ The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regardin
     \array{
       \phantom{A}
       \\
-      \text{de Rham algebra}
+      \text{de Rham algebra of}
       \\
-      \text{of the configuration space of n points}
+      \text{ordered configuration space}
       \\
-      \text{in}\; \Sigma
+      \text{of n points in}\; \Sigma
     }
   }{
   \Omega^\bullet
   \big(
-    \underset{{}^{1,\cdots,n}}{Conf}\big(  \Sigma \big)
+    \underset{{}^{ \{1,\cdots,n \} }}{Conf}\big(  \Sigma \big)
   \big)
   }
   \,.
