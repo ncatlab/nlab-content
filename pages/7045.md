@@ -165,10 +165,9 @@ A formal proof in [[homotopy type theory]] that the type of [[homotopy n-types]]
 
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed ∞-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
-[[!redirects types of types]]
+Relation to [[injective types]]:
 
-[[!redirects universe of types]]
-[[!redirects universes of types]]
+* {#Escardo19} [[Martín Escardó]], _Injectives types in univalent mathematics_ ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211))
 
 
 See also
@@ -178,6 +177,13 @@ See also
 * {#SEP} Stanford Encyclopedia of Philosophy,  _[Type theory -- Extensions of type systems, Polymorphism, Paradoxes](http://plato.stanford.edu/entries/type-theory/#6)_
 
 * {#Luo11} [[Zhaohui Luo]], _Contextual analysis of word meanings in type-theoretical semantics_, in Pogodalla, Prost (eds.) _Logical Aspects of Computational Linguistics_, 2011 ([pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL11.pdf))
+
+
+[[!redirects types of types]]
+
+[[!redirects universe of types]]
+[[!redirects universes of types]]
+
 
 
 [[!redirects Type]]
