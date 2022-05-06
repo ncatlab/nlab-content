@@ -23,9 +23,9 @@ In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_,
 
 ### General idea
 
-Every [[Lagrangian field theory|Lagrangian]] [[perturbative quantum field theory]] has an S-matrix associated with its (after [[renormalization]]), usually thought of as a [[perturbation series]] over [[Feynman diagrams]] extracted from the [[Lagrangian density]]. The rigorous construction of this as an [[operator-valued distribution]] is the content of _[[causal perturbation theory]]_ ([Epstein-Glaser 73](#EpsteinGlaser73)).
+Every [[Lagrangian field theory|Lagrangian]] [[perturbative quantum field theory]] has an S-matrix associated with it (after [[renormalization]]), usually thought of as a [[perturbation series]] over [[Feynman diagrams]] extracted from the [[Lagrangian density]]. The rigorous construction of this as an [[operator-valued distribution]] is the content of _[[causal perturbation theory]]_ ([Epstein-Glaser 73](#EpsteinGlaser73)).
 
-But there are also S-matrices not arising from a local field theory, for instance the [[string scattering amplitudes]].
+But there are also S-matrices not fundamentally arising from a [[local field theory]], notably the [[string scattering amplitudes]].
 
 There have been attempts to _define_ [[perturbative quantum field theory]] by directly [[axiom|axiomatizing]] properties of the S-matrix, without requiring concepts of [[field (physics)|fields]] in [[spacetime]]. This perspective goes back to ([Heisenberg 43](#Heisenberg43)) and was vocally promoted in [[Geoffrey Chew]]'s "bootstrap program" (a textbook account is in [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
@@ -7610,6 +7610,8 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 
 ## References
 
+### General
+
 Early work basing [[perturbative quantum field theory]] on the concept of the S-matrix is
 
 * {#Heisenberg43} [[Werner Heisenberg]], Zeitschrift für Physik 120, 513, 1943
@@ -7620,7 +7622,7 @@ An account of the history of the contributions by [[Tullio Regge]] is in
 
 * {#Bottino18} Alessandro Bottino, _A retrospective look at Regge poles_ ([arXiv:1807.02456](https://arxiv.org/abs/1807.02456))
 
-Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]] but via analyticity axioms) is
+Textbook accounts of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]] but via analyticity axioms):
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
 
@@ -7737,6 +7739,25 @@ See also
 An entertaining account of some of the history and the sociology of S-matrix theory is on the first pages of
 
 * {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
+
+### Classification of long-range forces
+ {#ClassificationOfLongRangeForces}
+
+Classification of possible long-range [[forces]], hence of [[scattering]] processes of [[mass|massless]] [[field (physics)|fields]], by classification of suitably factorizing and decaying [[Poincaré group|Poincaré]]-[[invariant]] [[S-matrices]] depending on particle spin, leading to uniqueness statements about [[Maxwell theory|Maxwell]]/[[photon]]-, [[Yang-Mills theory|Yang-Mills]]/[[gluon]]-, [[gravity]]/[[graviton]]- and [[supergravity]]/[[gravitino]]-[[interactions]]:
+
+* [[Steven Weinberg]], _Feynman Rules for Any Spin. 2. Massless Particles_, Phys. Rev. 134 (1964) B882 ([doi:10.1103/PhysRev.134.B882](https://doi.org/10.1103/PhysRev.134.B882))
+
+* [[Steven Weinberg]], _Photons and Gravitons in $S$-Matrix Theory: Derivation of Charge Conservationand Equality of Gravitational and Inertial Mass_, Phys. Rev. 135 (1964) B1049 ([doi:10.1103/PhysRev.135.B1049](https://doi.org/10.1103/PhysRev.135.B1049))
+
+* [[Steven Weinberg]], _Photons and Gravitons in Perturbation Theory: Derivation of Maxwell’s and Einstein’s Equations,” Phys. Rev. 138 (1965) B988 ([doi:10.1103/PhysRev.138.B988](https://doi.org/10.1103/PhysRev.138.B988))
+
+* Paolo Benincasa, Freddy Cachazo, _Consistency Conditions on the S-Matrix of Massless Particles_ ([arXiv:0705.4305](https://arxiv.org/abs/0705.4305))
+
+* David A. McGady, Laurentiu Rodina, _Higher-spin massless S-matrices in four-dimensions_, Phys. Rev. D 90, 084048 (2014) ([arXiv:1311.2938](https://arxiv.org/abs/1311.2938), [doi:10.1103/PhysRevD.90.084048](https://doi.org/10.1103/PhysRevD.90.084048))
+
+Quick review:
+
+* [[Daniel Baumann]], _What long-range forces are allowed?, 2019 ([[BaumannLongRange19.pdf:file]])
 
 
 
