@@ -1,8 +1,190 @@
 
+Let $n \in \mathbb{N}$. Let
+
+$$
+  \array{
+    & \mathbb{C}P^n
+    \\
+    &
+    \nearrow
+    &
+    \big\downarrow {}^{ c_1^E }
+    \\
+    \mathbb{C}P^1
+    &\underset{\Sigma^2 (1^E)}{\longrightarrow}&
+    E_2
+  }
+$$
+
+be a rank-$(n+1)$ complex orientation.
+
+For $\mathcal{V} \longrightarrow X$ a [[complex vector bundle]] of [[rank of a vector bundle|rank]] $n + 1$ consider the diagram
+
+$$
+  \array{
+    &&
+    \mathcal{V}' 
+      \oplus
+    \mathcal{L}_{{}_{P(\mathcal{V})}}
+    &\longrightarrow&
+    \mathcal{V}
+    \\
+    &&
+    \big\downarrow
+    & 
+      {}^{_{(pb)}} 
+    &
+    \big\downarrow
+    \\
+    \mathbb{C}P^n
+    &
+      \underset{
+        fib_x
+      }{
+        \longrightarrow
+      }
+    &
+    P(\mathcal{V})
+    &
+      \underset
+        {\pi}
+        {\longrightarrow}
+    &
+    X
+    \\
+    &&
+    \big\{
+      \underset{
+        \mathclap{
+          1 
+          + 
+          \cdots 
+          + 
+          c^E_{n}(\mathcal{V}')
+          + 
+          0
+        }
+      }{
+        \underbrace{
+          c^E(\mathcal{V}')
+        }
+      }
+      \cdot
+      \big(
+        1 + c^E_1(\mathcal{L})
+      \big)
+    \big\}    
+    &
+    \underset{
+      \pi^\ast
+    }{
+      \longleftarrow
+    }
+    &
+    \big\{
+      c^E(\mathcal{V})
+    \big\}
+    \\
+  }
+$$  
+
+where 
+
+$$
+  P\mathcal{V}) 
+  \;\coloneqq\;  
+  \big(
+    \mathcal{V} \setminus \{ X \times \{0\} \} 
+  \big) / \mathbb{C}^\times
+  \;\simeq\; 
+  S(\mathcal{V})/\mathrm{U}(1)
+$$
+
+is the [[projective bundle]] of $\mathcal{V}$, with [[typical fiber]] the [[complex projective spaces]] $\mathbb{C}P^n$.
+
+$$
+  c^E(\mathcal{V}')
+  \;=\;
+  \pi^\ast 
+  c^E(\mathcal{V})
+  \cdot
+  \big(
+    1 + c_1^E(\mathcal{L}) 
+  \big)^{-1}
+  \;\coloneqq\;
+  \pi^\ast
+  \big(
+    c^E(\mathcal{V})
+  \big)
+  \cdot
+  \underset{i}{\sum} 
+  (-1)^k 
+  \big(
+    c_1^E(\mathcal{L})
+  \big)^k
+$$
+
+Hence in degree $2(n+1)$:
+
+$$
+  0
+  \;=\;
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{n+1}(\mathcal{V})
+    }
+  \big)
+  -
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{n}(\mathcal{V})
+    }
+  \big)
+  \cdot
+  {\color{orange}
+    c_1^E(\mathcal{L})
+  }
+  + 
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{n-1}(\mathcal{V})
+    }
+  \big)
+  \cdot
+  {\color{orange}
+  \big(
+    c_1^E(\mathcal{L})
+  \big)^2
+  }
+  - 
+  \cdots
+  + 
+  (-1)^{n+1}
+  {\color{orange}
+    \big(
+      c_1^E(\mathcal{L}) 
+    \big)^{n+1}
+  }
+$$
+
+
+
+$$
+  (1 + p)
+  \cdot
+  \underset{k}{\sum}
+  (-1)^k 
+  \cdot
+  p^k
+$$
+
 M$\Omega$SU(k)
 
 
-* [[Mladen Bestvina]] (notes by [[Adam Keenan]]), Chapter 16 in _Differentiable Topology and Geometry_, 2002 ([pdf](http://www.math.utah.edu/~keenan/manifoldsnotes.pdf), [[BestvinaKeenanDifferentialTopology.pdf:file]])
+* [[Mladen Bestvina]] (notes by [[Adam Keenan]]), Chapter 16 in _Differentiable Topology and Geometry, 2002 ([pdf](http://www.math.utah.edu/~keenan/manifoldsnotes.pdf), [[BestvinaKeenanDifferentialTopology.pdf:file]])
 
 
 $$
