@@ -96,7 +96,7 @@ $$
   \,.
 $$
 
-Dually, a **[[co-cone]]** under the diagram is $Q$ equipped with morphisms $q_i \colon X_i \longrightarrow Q$ such that all these triangles commute
+Dually, a **[[co-cone]]** under the diagram is $Q$ equipped with morphisms $q_i \colon X_i \longrightarrow Q$ such that all these triangles commute:
 
 $$
   \array{
@@ -132,7 +132,7 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[set]] of [[topological spa
 +-- {: .num_example #TopologicalSubspace}
 ###### Example
 
-For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
+For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{initial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
 
 $$
   \iota_S
