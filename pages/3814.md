@@ -179,6 +179,16 @@ See
 
   * [[non-perturbative quantum field theory]]
 
+* [[forces]]
+
+  * [[electromagnetism]]
+
+  * [[strong nuclear force]]
+
+  * [[weak nuclear force]]
+
+    * [[CKM matrix]]
+
 * [[chiral fermions]]
 
 * [[generation of fundamental particles]]
@@ -193,11 +203,24 @@ See
 
 * [[gauge coupling unification]]
 
-* [[LHC]]
+* relevant [[experiments]]
+
+  * [[LHC experiment]]
+
+  * [[LHCb experiment]]
+
+  * [[Belle collaboration]]
+
+* anomalies
+
+  * [anomalous magnetic moment of the muon](anomalous magnetic moment#Anomalies)
+
+  * [[flavour anomaly]]
+
+  * [[V_cb puzzle]]
 
 * [[phenomenology]], [[hierarchy problem]]
 
-* [[flavour anomaly]]
 
 * [[MSSM]]
 
