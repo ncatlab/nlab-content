@@ -47,7 +47,7 @@ $$
   \mathcal{H} \coloneqq L^2(\wedge^\bullet T^\ast X)
 $$
 
-be the space of [[square integrable]] [[sections]] of the [[exterior bundle]]. Write $\mathcal{D} = d + d^\ast$ for the [[Kähler-Dirac operator]] and $\mathcal{F} = \mathcal{D} (1 + \mathcal{D}^2)^{-1/2}$. Then $(\mathcal{H}, \mathcal{F})$ is a [[Fredholm module|Fredholm]]-[[Hilbert module]] which hence represents an element
+be the space of [[square integrable function|square integrable]] [[sections]] of the [[exterior bundle]]. Write $\mathcal{D} = d + d^\ast$ for the [[Kähler-Dirac operator]] and $\mathcal{F} = \mathcal{D} (1 + \mathcal{D}^2)^{-1/2}$. Then $(\mathcal{H}, \mathcal{F})$ is a [[Fredholm module|Fredholm]]-[[Hilbert module]] which hence represents an element
 
 $$
   [d_X + d^\ast_X] \in KK(C_\tau(X), \mathbb{C})
@@ -82,3 +82,5 @@ $$
 * {#KK} [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, vol. 91, p.147 ([web](http://adsabs.harvard.edu/abs/1988InMat..91..147K))
 
 * [[Christopher Douglas]], _On the Twisted K-Homology of Simple Lie Groups_, Topology 45 (2006), 955-988 ([arXiv:math/0402082](https://arxiv.org/abs/math/0402082))
+
+[[!redirects K-homology theory]]
