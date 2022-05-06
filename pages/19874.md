@@ -57,6 +57,11 @@ Leptoquarks naturally arise in [[grand unified theories]] (..., [Murayama-Yanagi
 
 * Achintya Rao, _[The hunt for leptoquarks is on](https://home.cern/news/news/physics/hunt-leptoquarks)_, 2018
 
+Leptoquark [[effective field theory]]:
+
+* Valerio Gherardi, David Marzocca, Elena Venturini, _Matching scalar leptoquarks to the SMEFT at one loop_ ([arXiv:2003.12525](https://arxiv.org/abs/2003.12525))
+
+
 See also 
 
 * Wikipedia, _[Leptoquark](https://en.wikipedia.org/wiki/Leptoquark)_
