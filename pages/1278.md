@@ -132,7 +132,7 @@ where
 
 For more details on this see at _[[differential function complex]]_.
 
-### Characterization following Bunke--Schick
+### Characterization following Bunke-Schick
 
 > The following are old notes once taken in a talk by [[Thomas Schick]] at _[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]_. Needs to be brushed-up, polished, improved, rewritten...
 
@@ -431,7 +431,7 @@ and
 
 A first systematic account characterizing and constructing stable differential cohomology in terms of [[homotopy fiber products]] of bare [[spectra]] with [[differential form]] data (which is really the homotopy-theoretic refinement of one of right square in the [[differential cohomology diagram]]) was given in
 
-* {#HopkinsSinger02} [[Mike Hopkins]] and [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv:math/0211216](http://arxiv.org/abs/math/0211216))
+* {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_, J. Differential Geom. Volume 70, Number 3 (2005), 329-452.   ([arXiv:math/0211216](http://arxiv.org/abs/math/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
 
 motivated by applications in [[higher gauge theory]] and [[string theory]], as explained further in 
 
@@ -443,9 +443,18 @@ with further reviews including
 
 * [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
-Comprehensive lecture notes on the developments up to this stage are in
+The homotopy-pullback definition of differential generalized cohomology from 
 
-* {#Bunke12} [[Ulrich Bunke]], _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
+* [Hopkins-Singer 02, Section 4.1](#HopkinsSinger02)
+
+is picked up in
+
+* [[Ulrich Bunke]], [[David Gepner]], Section 2.2 of: _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](https://arxiv.org/abs/1306.0247))
+
+* {#Bunke12} [[Ulrich Bunke]], Section 4.3 of: _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
+
+* [Bunke-Nikolaus-Völkl 13, Section 4.4](#BunkeNikolausVoelkl13)
+
 
 The suggestion that differential cohomology is naturally the intrinsic [[cohomology]] of those [[(∞,1)-toposes]] which are [[cohesive (∞,1)-topos|cohesive]] appeared in
 
@@ -453,7 +462,7 @@ The suggestion that differential cohomology is naturally the intrinsic [[cohomol
 
 and the observation that indeed every [[stable homotopy type]] in a [[cohesive (∞,1)-topos]] canonically sits inside a [[differential cohomology diagram]] is due to 
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_,  J. Homotopy Relat. Struct. 11, 1–66 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
 
 
@@ -465,7 +474,7 @@ and the observation that indeed every [[stable homotopy type]] in a [[cohesive (
 
 * Simons Center Workshop on Differential Cohomology January 10, 2011- January 14, 2011 ([web](http://www.scgp.stonybrook.edu/?q=node/21))
 
-* {#DG18} [[Daniel Grady]], _Differential cohomology and Applications_, talk at _Geometry, Topology & Physics_, NYU Abu Dhabi, April 2018 ([[DiffCohomologyAndApplications18.pdf:file]])
+* {#DG18} Daniel Grady, _Differential cohomology and Applications_, talk at _Geometry, Topology & Physics_, NYU Abu Dhabi, April 2018 ([[DiffCohomologyAndApplications18.pdf:file]])
 
 
 [[!redirects differential cohomology theory]]
