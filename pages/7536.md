@@ -14,6 +14,13 @@ Review:
 * [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
 
+On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] identified as [[integrable system|integrable]] [[spin chains]] with respect to the [[dilatation opetator]], and the correspondence of their spectrum with the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] under the [[AdS/CFT correspondence]]:
+
+
+* {#BeisertFrolovStaudacherTseytlin03} [[Niklas Beisert]], [[Sergey Frolov]], [[Matthias Staudacher]], [[Arkady Tseytlin]], _Precision Spectroscopy of AdS/CFT_, JHEP 0310:037, 2003 ([arXiv:hep-th/0308117](https://arxiv.org/abs/hep-th/0308117))
+
+
+
 
 ## Related $n$Lab entries
 
