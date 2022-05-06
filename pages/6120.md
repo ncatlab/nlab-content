@@ -98,7 +98,7 @@ Expositions include
 
 The generalization to [[orbifold]]s is considered in
 
-* {#Satake} Ichiro Satake, _The Gauss-Bonnet Theorem for V-manifolds_ J. Math. Soc. Japan Volume 9, Number 4 (1957), 464-492.  ([ProjectEclid](http://projecteuclid.org/euclid.jmsj/1261153826))
+* {#Satake} [[Ichiro Satake]], _The Gauss-Bonnet Theorem for V-manifolds_ J. Math. Soc. Japan Volume 9, Number 4 (1957), 464-492.  ([ProjectEclid](http://projecteuclid.org/euclid.jmsj/1261153826))
  
 
 Generalization to [[orbifolds]]:
