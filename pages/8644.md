@@ -137,6 +137,11 @@ See also the survey in
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
 
+On possible experimental signatures at the [[LHC]]:
+
+* Simone Amoroso, Deepak Kar, Matthias Schott, _How to discover QCD Instantons at the LHC_ ([arXiv:2012.09120](https://arxiv.org/abs/2012.09120))
+
+
 Detailed argument for the [[theta-vacuum]] structure from [[chiral symmetry breaking]] is offered in 
 
 * [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
