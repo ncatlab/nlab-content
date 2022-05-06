@@ -16,6 +16,7 @@ These surfaces admit [[metrics]] of positive [[scalar curvature]].
 
 Homology in degree 2: $dim H_2(\mathbb{B}_k, \mathbb{R}) = k+ 1$; a natural basis to choose is $\{H, E_1, \ldots, E_k\}$, where the $E_a$ are the "exceptional curves" obtained by blow-ups and $H$ represents the pullback of the generator of $dim H_2(\mathbb{P}^2, \mathbb{R})$ under the projection $\pi: \mathbb{B}_k \to\mathbb{B}_0  = \mathbb{P}^2$ which simply collapses each exceptional curve $E_a$ to the corresponding point $p_a \in \mathbb{P}$.
 
+This has an integral statement as well. The orthogonal complement to the canonical class in the integral $H_2$ is isomorphic to a root lattice $R_r$. These are given as $E_8$, $E_7$, $E_6$, $D_5$, $A_4$ or $A_2 \times A_1$ depending on the value of $k$.
 
 ##Related concept
 
