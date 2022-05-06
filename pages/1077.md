@@ -61,7 +61,7 @@ $$
 $$
 
 where the last and first morphisms are the [[projections]] and [[co-projections]], respectively, and 
-where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$. Thus $r_{c_1, c_2} = (Id_{c_1}, 0_{1,2}) \coprod (0_{2,1}, Id_{c_2})$, where $(f, g): d \to a \times b$ denotes the map induced by $f : d \to a$ and $g : d \to b$.
+where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$. Thus $r_{c_1, c_2} = (Id_{c_1}, 0_{1,2}) \sqcup (0_{2,1}, Id_{c_2})$, where $(f, g): d \to a \times b$ denotes the map induced by $f : d \to a$ and $g : d \to b$.
 
 =--
 
@@ -73,7 +73,7 @@ If the morphism $r_{c_1,c_2}$ in def. \ref{TheCanonicalComparisonMorphism}, is a
 If $r_{c_1,c_2}$ is an isomorphism for all objects $c_1, c_2 \in \mathcal{C}$ and hence a [[natural isomorphism]] 
 
 $$
-  r \;\colon\; (-)\coprod (-) \stackrel{\simeq}{\longrightarrow} (-) \times (-)
+  r \;\colon\; (-)\sqcup (-) \stackrel{\simeq}{\longrightarrow} (-) \times (-)
 $$
 
 then $\mathcal{C}$ is called a [semiadditive category](#SemiadditiveCategories).
@@ -124,7 +124,7 @@ An [[additive category]], although normally defined through the theory of [[enri
 Given a category $\mathcal{C}$ with [[zero morphisms]], one may imagine equipping it with the [[structure]] of a chosen [[natural isomorphism]]
 
 $$
-  \psi_{(-),(-)} : (-)\coprod (-) \stackrel{\simeq}{\longrightarrow} (-)\times(-)
+  \psi_{(-),(-)} : (-)\sqcup (-) \stackrel{\simeq}{\longrightarrow} (-)\times(-)
   \,.
 $$
 
@@ -135,7 +135,7 @@ $$
 ([Lack 09, proof of theorem 5](#Lack09)). 
 If a [[category]] $\mathcal{C}$ with finite [[coproducts]] and [[products]] carries any [[natural isomorphism]] $\psi_{(-),(-)}$ from [[coproducts]] to [[products]], then 
 $$ \array {
-  c_1\coprod c_2 & \overset{\psi_{c_1, 0} + \psi_{0, c_2}}\rightarrow & c_1 \coprod c_2 \\
+  c_1\sqcup c_2 & \overset{\psi_{c_1, 0} + \psi_{0, c_2}}\rightarrow & c_1 \sqcup c_2 \\
     & \searrow^{r_{c_1, c_2}}           & \downarrow^{\psi_{c_1, c_2}} \\
     &                        & c_1 \times c_2
 } $$
