@@ -82,16 +82,21 @@ Volume 32, Number 4 (2002), 1071-1100. ([Euclid](http://projecteuclid.org/euclid
 
 * math overflow, what is the generic poset used in forcing really?, [web](http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really)
 
-### In terms of sheaves and classifying toposes
+### In terms of classifying toposes
  {#ReferencesInTermsOfClassifyingToposes}
 
-Discussion of the interpretation of forcing as the passage to [[classifying toposes]] includes
+On the interpretation of forcing via [[classifying toposes]]:
 
-* {#MakkaiReyes77} [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_,  Lecture Notes in Mathematics Volume 611, Springer 1977
+* [[Myles Tierney]], _Forcing Topologies and Classifying Topoi_, pages 211-219 in: [[Alex Heller]], [[Myles Tierney]] (eds.) _Algebra, Topology, and Category Theory: A Collection of Papers in Honor of Samuel Eilenberg_, Academic Press 1976  ([doi:10.1016/C2013-0-10841-0](https://doi.org/10.1016/C2013-0-10841-0))
+
+* {#MakkaiReyes77} [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_,  Lecture Notes in Mathematics Volume 611, Springer 1977 ([doi:10.1007/BFb0066201](https://doi.org/10.1007/BFb0066201))
+
+* {#Johnstone77} [[Peter Johnstone]], pages 270, 273, 348, 353 of: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
+
 
 * [[Andreas Blass]], Andrej Ščedrov, _Classifying topoi and finite forcing_, 1982 ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/25225/0000666.pdf))
 
-* {#Scedrov84} Andrej Ščedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984; 93 pp
+* {#Scedrov84} Andrej Ščedrov, _Forcing and classifying topoi_, Memoirs of the American Mathematical Society 1984 ([ISBN:978-1-4704-0705-6](https://bookstore.ams.org/memo-48-295/))
 
 * J. Benavides, _The logic of sheaves, sheaf forcing and the independence of the Continuum Hypothesis_ ([arXiv:1111.5854](https://arxiv.org/abs/1111.5854))
 
