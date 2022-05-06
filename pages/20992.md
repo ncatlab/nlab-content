@@ -81,7 +81,7 @@ With an eye towards [[Rozansky-Witten theory]] ([[ground field]]-valued [[Rozans
 
 * {#RobertsWillerton06} [[Justin Roberts]], [[Simon Willerton]], p. 17 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
-* {#Sawon04} [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
+* {#Sawon04} [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifolds_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
 
 [[!redirects compact hyperkähler manifolds]]
 
