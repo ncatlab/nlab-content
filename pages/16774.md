@@ -57,10 +57,16 @@ $$
   }
 $$
 
+
 ## Definition 
  {#Definition}
 
 Regard the [[icosahedron]], determined uniquely up to [[isometry]] on $\mathbb{R}^3$ as a regular convex [[polyhedron]] with $20$ faces, as a [[metric space|metric]] subspace $S$ of $\mathbb{R}^3$. Then the *icosahedral group* may be defined as the group of [[isometries]] of $S$. 
+
+The binary tetrahedral group $2I$ is, up to [[isomorphism]], the multiplicative subgroup of the [[monoid]] of [[quaternions]] consisting of  the 8 unit [[quaternions]] $\pm 1$, $\pm i$, $\pm j$, $\pm k$ and the 16 unit quaternions given by 
+$\frac1{2}(\varepsilon_0 1 + \varepsilon_1 i + \varepsilon_2 j + \varepsilon_3 k)$ where $(\varepsilon_0, \ldots, \varepsilon_3) \in \{-1, 1\}^4$. 
+
+(These are also the [[vertices]] that span the [[24-cell]] as a  convex [[regular polytope]] in $\mathbb{R}^4$).
 
 More to be added. 
 
