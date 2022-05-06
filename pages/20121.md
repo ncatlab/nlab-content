@@ -162,6 +162,33 @@ The last statement may similarly be seen as the complementary special case of  (
 
 =--
 
+### Special character values
+ {#SpecialCharacterValues}
+
+
++-- {: .num_prop #CharactersAreCyclotomicIntegers}
+###### Proposition
+**([[characters are cyclotomic integers]])
+
+Let $G$ be a [[finite group]], and let $V$ be a [[finite-dimensional vector space|finite-dimensional]] [[linear representation]] over a [[ground field]] $k$
+
+Then the values of the [[character of a representation|character]] $\chi_V \colon G \to k$ of $V$ are [[cyclotomic integers]] over $k$, for some [[root of unity]].
+
+=--
+
+(see e.g. [Naik](#characters+are+cyclotomic+integers#Naik))
+
+In particular it follows that:
+
++-- {: .num_prop}
+###### Proposition
+
+If the [[ground field]] $k$ in Prop. \ref{CharactersAreCyclotomicIntegers} has [[characteristic zero]], then a [[character of a linear representation]] which takes values in the [[rational numbers]] $\mathbb{Q} \hookrightarrow k$ in fact already takes values in the [[integers]] $\mathbb{Z} \hookrightarrow\mathbb{Q} \hookrightarrow k$.
+
+=--
+
+(see e.g. [Yang](#characters+are+cyclotomic+integers#Yang))
+
 
 ## Related concepts
 
@@ -195,7 +222,7 @@ for review see
 
 Examples of [[characters of linear representations]] of [[finite groups]] are discussed and listed at 
 
-* {#Montaldi08} James Montaldi, _[representations](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
+* {#Montaldi08} [[James Montaldi]], _[representations](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
 
 
 [[!redirects characters of linear representations]]
