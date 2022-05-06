@@ -135,10 +135,13 @@ to get a derivation of $\Gamma \vdash T\Leftarrow B$ as desired.
 
 ## Admissible rules
 
+A **telescope** $\Delta $ is a (raw) context. A **valid telescope** $\Gamma \vdash \Delta$ is a telescope $\Delta = (x_1:A_1, \ldots, x_n:A_n)$ such that each judgment
+$\Gamma, x_1:A_1, \ldots, x_k:A_k \vdash x_{k+1} : A_{k+1}$ are derivable. In particular, a valid telescope $\cdot \vdash \Delta$ is a valid context.
+
 Writing $\Gamma \vdash \mathcal{J}$ for one of the [judgments](#judgements), the following rules are admissible by mutual induction on derivations : 
-$$ \frac{\Gamma, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma' \vdash \mathcal{J}} $$
+$$ \frac{\Gamma \vdash \Gamma' \qquad \Gamma, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma' \vdash \mathcal{J}} $$
 $$\,$$
-$$ \frac{\Gamma, x:A, y:B, \Gamma' \vdash \mathcal{J} \qquad y \notin FV(A)}{\Gamma, y:B, x:A, \Gamma' \vdash \mathcal{J}} $$
+$$ \frac{\Gamma \vdash B\,type \qquad \Gamma, x:A, y:B, \Gamma' \vdash \mathcal{J}}{\Gamma, y:B, x:A, \Gamma' \vdash \mathcal{J}} $$
 $$\,$$
 $$ \frac{\Gamma, x:A, y:A, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma'[x/y] \vdash \mathcal{J}[x/y]} $$
 $$\,$$
