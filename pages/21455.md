@@ -131,22 +131,23 @@ The concept in [[gauged supergravity]] originates with
 
 * {#NicolaiSamtleben00} [[Hermann Nicolai]], [[Henning Samtleben]], _Maximal gauged supergravity in three dimensions_, Phys. Rev. Lett. 86 (2001) 1686-1689 ([arXiv:hep-th/0010076](https://arxiv.org/abs/hep-th/0010076))
 
+For a review of the relation with [[double field theory]] and [[exceptional field theory]] see
+
+* {#HohmSamtleben19} [[Henning Samtleben]], [[Olaf Hohm]], _Higher Gauge Structures in Double and Exceptional Field Theory_, Contribution to Proceedings of _[[Higher Structures in M-Theory 2018]]_ ([arXiv:1903.02821](https://arxiv.org/abs/1903.02821), [doi:10.1002/prop.201910008](https://doi.org/10.1002/prop.201910008))
+
 For further references see at _[[tensor hierarchy]]_.
 
 The mathematical formulation above is due to 
 
 * {#Lavau17} [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
 
-See also
+with further discussion in:
 
 * {#LavauPalmkvist19} [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
 
 * {#LavauStasheff19} [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
 
-For a review of the relation with [[double field theory]] and [[exceptional field theory]] see
 
-* {#HohmSamtleben19} [[Henning Samtleben]], [[Olaf Hohm]], _Higher Gauge Structures in Double and Exceptional
-Field Theory_ ([arXiv:1903.02821](https://arxiv.org/abs/1903.02821))
 
 
 [[!redirects embedding tensors]]
