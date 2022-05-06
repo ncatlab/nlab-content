@@ -59,7 +59,7 @@ Special properties are enjoyed by
 
 * [[3d superconformal gauge field theory]]
 
-  * [[D=3 N=2 super Yanf-Mills theory]]
+  * [[D=3 N=2 super Yang-Mills theory]]
  
   * [[D=3 N=4 super Yang-Mills theory]]
 
