@@ -92,6 +92,9 @@ See also
 
 * [[Pierre Ramond]], _Neutrinos and Particle Physics Models_ ([arXiv:1902.01741](https://arxiv.org/abs/1902.01741))
 
+* M.C. Gonzalez-Garcia, _Neutrino Masses and Mixing_ ([arXiv:1902.04583](https://arxiv.org/abs/1902.04583))
+
+
 And more on this in relation to [[GUT]] models includes
 
 * {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf))
