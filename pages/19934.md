@@ -264,6 +264,8 @@ In the context of [[Mathieu moonshine]] from [[string]] [[sigma models]] on [[K3
 
 In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau compactifications]] of [[heterotic string theory]] to 4d)
 
+* Jens Erler, [[Albrecht Klemm]], _Comment on the Generation Number in Orbifold Compactifications_, Commun. Math. Phys. 153:579-604, 1993 ([arXiv:hep-th/9207111](https://arxiv.org/abs/hep-th/9207111))
+
 * [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv.Theor.Math.Phys.12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
 
 * S. Reffert, _Toroidal Orbifolds: Resolutions, Orientifolds and Applications in String Phenomenology_ ([arXiv:hep-th/0609040](https://arxiv.org/abs/hep-th/0609040))
