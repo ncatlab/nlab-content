@@ -122,7 +122,45 @@ that takes products of $n \times n$ [[matrices]] to products in $k$. The determi
 
 By following the definitions above, we can give an explicit formula: 
 
-$$\det(A) = \sum_{\sigma \in S_n} sgn(\sigma) \prod_{i = 1}^n a_{i \sigma(i)}.$$ 
+$$
+  \det(A)  
+    \;=\; 
+  \sum_{\sigma \in S_n} sgn(\sigma) \prod_{i = 1}^n a_{i \sigma(i)}
+  \;
+$$ 
+
+
+This may equivalently be written using the [[Levi-Civita symbol]] $\epsilon$ and the [[Einstein summation convention]] as
+
+\[
+  \label{DeterminantInTermsOfLCSymbol}
+  \det(A)  
+    \;=\; 
+    a_{1 j_1}
+    a_{2 j_2}
+    \cdots
+    a_{n j_n}
+    \,
+    \epsilon^{j_1 j_2 \cdots j_n}
+\]
+
+which in turn may be re-written more symmetrically as
+
+\[
+  \label{DeterminantInTermsOfLCSymbols}
+  \det(A)  
+    \;=\; 
+    \epsilon^{ i_1 i_2 \cdots i_n }
+    \,
+    a_{i_1 j_1}
+    a_{i_2 j_2}
+    \cdots
+    a_{i_n j_n}
+    \,
+    \epsilon^{j_1 j_2 \cdots j_n}
+\]
+
+
 
 ## Properties
 
