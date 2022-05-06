@@ -33,7 +33,7 @@ Also, the wedge sum also makes sense for any [[family]] of pointed objects, not 
 +-- {: .num_defn }
 ###### Definition
 
-For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] $\mathcal{C}$ with [[colimits]], their _wedge sum_ $\bigvee_i X_i$ is the [[pushout]] in $\mathcal{C}$
+For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] $\mathcal{C}$, their _wedge sum_ $\bigvee_i X_i$ is the [[pushout]] in $\mathcal{C}$
 
 $$
   \bigvee_i X_i \coloneqq (\coprod_i X_i) \coprod_{\coprod_{i} *} *
@@ -49,12 +49,13 @@ $$
      \\
      * &\to& \bigvee_i X_i
   }
-  \,.
+  \,,
 $$
 
+if this exists.
 =--
 
-Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAndColimits)) this is just the [[coproduct]] in the [[undercategory]] $\mathcal{C}^{\ast/}$ of [[pointed objects]].
+Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAndColimits)) this is just the [[coproduct]] in the [[undercategory]] $\mathcal{C}\backslash\ast$ of [[pointed objects]].
 
 
 ## Examples
@@ -62,6 +63,11 @@ Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAn
 * A wedge sum of pointed [[circles]] is also called a **bouquet** of circles. See for instance at _[[Nielsen-Schreier theorem]]_.
 
 * For $X$ a [[CW complex]] with [[filtered topological space]] structure $X_0 \hookrightarrow \cdots \hookrightarrow \X_k \hookrightarrow X_{k+1} \hookrightarrow \cdots \hookrightarrow X$ the quotient topological spaces $X_{k+1}/X_k$ are wedge sums of $(k+1)$-spheres.
+
+
+## References
+
+* [Wikipedia/en](https://en.wikipedia.org/wiki/Wedge_sum) has discussion about the commonly studied case in $Top$.
 
 
 [[!redirects wedge sum]]
