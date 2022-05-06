@@ -91,6 +91,49 @@ See also at _[[glueball]]_.
 
 A good qualitative and moderate quantitative explanation of confinement in [[quantum chromodynamics]] is found in [[intersecting D-brane models]], specifically in the [[Witten-Sakai-Sugimoto model]] which [[geometric engineering of QFT|geometrically engineers]] [[QCD]] on [[D4-D8 brane bound states]].
 
+ ([Sakai-Sugimoto 04](Ads/QCD#SakaiSugimoto04), [Sakai-Sugimoto 05](Ads/QCD#SakaiSugimoto05))
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Erlich 09, section 1.1](Ads/QCD#Erlich09)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/IntersectingBranesSSWModel.jpg" width="700">
+</center>
+
+> graphics grabbed from [Rebhan 14](Ads/QCD#Rebhan14)
+
+
+
+In this [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] the [[hadrons]] in [[QCD]] correspond to [[string theory|string-theoretic]]-phenomena in the [[bulk field theory]]:
+
+1. the [[mesons]] ([[bound states]] of 2 [[quarks]]) correspond to [[open strings]] in the bulk, whose two endpoints on the [[asymptotic boundary]] correspond to the two quarks
+
+1. [[baryons]] ([[bound states]] of $N_c$ [[quarks]]) appear in two different but equivalent ([Sugimoto 16, 15.4.1](Ads/QCD#Sugimoto16)) guises:
+
+   1. as [[wrapped brane|wrapped]] [[D4-branes]] with $N_c$ [[open strings]] connecting them to the [[D8-brane]]
+
+      ([Witten 98b](Ads/QCD#Witten98b), [Gross-Ooguri 98, Sec. 5](Ads/QCD#GrossOoguri98), [BISY 98](Ads/QCD#BISY98), [CGS98](Ads/QCD#CGS98))
+
+   1. as [[skyrmions]] 
+
+      ([Sakai-Sugimoto 04, section 5.2](Ads/QCD#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](Ads/QCD#SakaiSugimoto05), see [Bartolini 17](Ads/QCD#Bartolini17)). 
+
+For review see [Sugimoto 16](Ads/QCD#Sugimoto16), also [Rebhan 14, around (18)](Ads/QCD#Rebhan14).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
+</center>
+
+> graphics grabbed from [Sugimoto 16](Ads/QCD#Sugimoto16)
+
+
+Equivalently, these baryon states are the [[Yang-Mills instantons]] on the [[D8-brane]] giving the [[D4-D8 brane bound state]] ([Sakai-Sugimoto 04, 5.7](Ads/QCD#SakaiSugimoto04)) as a special case of the general situation for [[Dp-D(p+4)-brane bound states]] (e.g. [Tong 05, 1.4](Dp-D%28p%2B4%29-brane+bound+state#Tong05)).
+
+
 For more on this see at
 
 * _[[AdS/QCD correspondence]]_
