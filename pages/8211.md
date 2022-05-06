@@ -2,25 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
+=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
-#### Duality
-+-- {: .hide}
-[[!include duality - contents]]
-=--
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
-=--
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
@@ -39,6 +27,8 @@ Since closed string excitations induce [[gravity]] while open string excitations
 
 * [[duality in physics]]
 
+* [[duality in string theory]]
+
 * [[KLT relations]]
 
 * [[AdS/CFT correspondence]]
@@ -47,6 +37,8 @@ Since closed string excitations induce [[gravity]] while open string excitations
 
 ## References
 
-* J. Khoury, [[Herman Verlinde]], _On Open/Closed String Duality_ ([arXiv:hep-th/0001056](http://arxiv.org/abs/hep-th/0001056))
+* [[Justin Khoury]], [[Herman Verlinde]], _On Open/Closed String Duality_ ([arXiv:hep-th/0001056](http://arxiv.org/abs/hep-th/0001056))
 
-* Leonardo Rastelli, _Lectures on open/closed string duality_ ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf))
+* [[Leonardo Rastelli]], _Lectures on open/closed string duality_, PiTP 2004 ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf), [[RastelliStringDuality.pdf:file]])
+
+
