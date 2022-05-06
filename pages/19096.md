@@ -11,6 +11,8 @@ On [[de Sitter spacetimes]] in the [[landscape of string theory vacua]] (or not)
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_, International Journal of Modern Physics D, Vol. 27, No. 12, 1830007 (2018)  ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120), [doi:10.1142/S0218271818300070](https://doi.org/10.1142/S0218271818300070))
 
+Specifically on [[de Sitter spacetime]] [[cosmology]] [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
+
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
 * Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
