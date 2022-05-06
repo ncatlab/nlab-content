@@ -178,26 +178,27 @@ If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultraf
 
 ## References 
 
-* R. B&#246;rger, _Coproducts and Ultrafilters_ , JPAA **46** (1987) pp.35-47. 
+* R. B&#246;rger, _Coproducts and Ultrafilters_, JPAA **46** (1987) pp.35-47. 
 
-* E. Manes, _Algebraic Theories_ , Graduate Texts in Mathematics **26**, Springer-Verlag, 1976. 
+* E. Manes, _Algebraic Theories_, Graduate Texts in Mathematics **26**, Springer-Verlag, 1976. 
 
-* G. Richter, Axiomatizing the Category of Compact Hausdorff Spaces, Categories at Work (ed. Herrlich and Porst), Heldermann-Verlag (1991), 199-215. [(link)](http://www.heldermann.de/R&E/RAE18/ctw12.pdf)
+* G. Richter, _Axiomatizing the Category of Compact Hausdorff Spaces_, Categories at Work (ed. Herrlich and Porst), Heldermann-Verlag (1991), 199-215. [(link)](http://www.heldermann.de/R&E/RAE18/ctw12.pdf)
 
-* [[Tom Leinster]], _Post to the categories list_ . [(link)](http://permalink.gmane.org/gmane.science.mathematics.categories/6703)
+* [[Tom Leinster]], _Post to the categories list_. [(link)](http://permalink.gmane.org/gmane.science.mathematics.categories/6703)
 
-* [[Todd Trimble]], _Post to A Dialogue on Infinity_ . [(link)](http://dialinf.wordpress.com/2009/01/21/ultraproducts-the-category-theoretic-way/#comment-219)
+* [[Todd Trimble]], _Post to A Dialogue on Infinity_. [(link)](http://dialinf.wordpress.com/2009/01/21/ultraproducts-the-category-theoretic-way/#comment-219)
 
-* [[Bill Lawvere]], _Post to the categories list_ . [(link)](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00128.html)
+* [[Bill Lawvere]], _Post to the categories list_. [(link)](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00128.html)
 
-* [[Tom Leinster]], _Definition of ultrafilter_ .([blog post](http://golem.ph.utexas.edu/category/2011/07/definitions_of_ultrafilter.html))
+* [[Tom Leinster]], _Definition of ultrafilter_. [(blog post)](http://golem.ph.utexas.edu/category/2011/07/definitions_of_ultrafilter.html)
 
-* H. Volger, _Ultrafilters, ultrapowers and finiteness in a topos_ , JPAA **6** (1975) pp.345-356.
+* [[Tom Leinster]], _Where do ultrafilters come from?_ [(blog post)](https://golem.ph.utexas.edu/category/2012/09/where_do_ultrafilters_come_fro.html)
 
-\bibitem{Garner}
-Richard Garner,
-_Ultrafilters, finite coproducts and locally connected classifying toposes_,
-[arXiv:1808.08687](https://arxiv.org/abs/1808.08687).
+* [[Tom Leinster]], _Codensity and the ultrafilter monad_, TAC **28** (2013) pp.332-370. [(TAC)](http://www.tac.mta.ca/tac/volumes/28/13/28-13.pdf) [arXiv:1209.3606](https://arxiv.org/abs/1209.3606).
+
+* H. Volger, _Ultrafilters, ultrapowers and finiteness in a topos_, JPAA **6** (1975) pp.345-356.
+
+* [[Richard Garner]], _Ultrafilters, finite coproducts and locally connected classifying toposes_. [arXiv:1808.08687](https://arxiv.org/abs/1808.08687).
 
 
 [[!redirects ultrafilter]]
