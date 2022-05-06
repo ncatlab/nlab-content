@@ -10,4 +10,4 @@ $$\frac{\Gamma \vdash S \Leftarrow A \qquad \Gamma \vdash T \equiv S : A\qquad \
 
 $$\,$$
 
-$$\frac{\Gamma \vdash A\,type \qquad \Gamma \vdash T \equiv S : A \qquad \Gamma \vdash A \equiv B}{\Gamma \vdash T \equiv S : B}$$ 
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma \vdash T \equiv S : A \qquad \Gamma \vdash A \equiv B type}{\Gamma \vdash T \equiv S : B}$$
