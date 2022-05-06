@@ -150,10 +150,7 @@ A [[category]] is equivalently
 
 * a [[simplicial set]] which satisfies the [[weak Kan complex]] conditions strictly:
 
-* hence a [[directed homotopy type theory|directed homotopy type]] which is "1-truncated";
-
-
-* 
+* hence a [[directed homotopy type theory|directed homotopy type]] which is "1-truncated"
 
 
 ### Generalizations
