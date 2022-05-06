@@ -23,7 +23,7 @@ On a semiring there is a partial order given by
 
 $$ x \leq y : \iff x + y = y. $$
 
-To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stackrel{y \leq z}{=} y + z \stackrel{x \leq y}{=} (x + y) + z = x + (y + z) \stackrel{y \leq z}{=} x + z $. The addition is a [[join]] with respect to this partial order. The partial order is preserved by multiplication.
+To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stackrel{y \leq z}{=} y + z \stackrel{x \leq y}{=} (x + y) + z = x + (y + z) \stackrel{y \leq z}{=} x + z $. Due to idempotence the addition is a [[join]] with respect to this partial order, take a $z$ such that $z\leq x$ and $z\leq y$, then $ x + y = (x + z) + (y + z) = x + y + z$. The partial order is preserved by multiplication.
 
 ## Examples
 
