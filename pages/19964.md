@@ -3,13 +3,16 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
 =--
 =--
 =--
 
+
+
+#Contents#
 
 #Contents#
 * table of contents
@@ -117,7 +120,9 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 ### As a holographic boundary theory
  {#AsBoundaryFieldTheory}
 
-With suitable care, the Skyrme model [above](#Definition) arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17), see also [Sutcliffe 10](#Sutcliffe10)).
+With suitable care, the Skyrme model [above](#Definition) arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17).
+
+This is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89), as highlighted in [Sutcliffe 10](#Sutcliffe10).
 
 In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as an [[intersecting D-brane model]] described by [[AdS-QCD correspondence]].
 
@@ -130,8 +135,11 @@ In this context the Skyrme model becomes equivalent to a model of [[baryons]] by
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
 
 
-<br/>
+\linebreak
 
+### As the ultimate bag model
+
+> The [[Skyrmion]] is the ultimate [[soliton|topological]] [[quark bag model|bag model]] with zero size bag radius, lending further credence to the [[Cheshire cat principle]]. ([Nielsen-Zahed 09](Cheshire+cat+principle#NielsenZahed09))
 
 
 
