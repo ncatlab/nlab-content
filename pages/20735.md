@@ -78,10 +78,21 @@ from the moduli space (eq:ModuliSpaceOfkInstantons) of $k$ magnetic monopoles to
 
 * [[Nahm transform]], [[Bogomolny equation]]
 
+[[!include moduli spaces -- contents]]
+
+
 ## References
+
+### General
 
 * {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_  M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
+### In string theory
+
+The moduli space of monopoles appears in the [[KK-compactification]] of the [[M5-brane]] on a complex surface ([[AGT-correspondence]]):
+
+* Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
 [[!redirects moduli spaces of monopoles]]
