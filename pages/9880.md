@@ -43,7 +43,7 @@ Related is _[[resurgence theory]]_. See also at _[perturbation theory -- Diverge
 
 ### Confinement and the mass gap
 
-A central example of a non-perturbative effect is [[confinement]] (hence the "mass gap") in [[Yang-Mills theory]]. Perturbation theory is not suited to explain this (e.g [Espiru 94, section 7](http://arxiv.org/abs/hep-ph/9410287)).
+A central example of a non-perturbative effect is [[confinement]] (hence the "[[mass gap problem]]") in [[Yang-Mills theory]]. Perturbation theory is not suited to explain this (e.g [Espiru 94, section 7](http://arxiv.org/abs/hep-ph/9410287)).
 
 ### Worldsheet and brane instantons in string/M-theory
  {#WorldsheetAndBraneInstantons}
@@ -141,6 +141,8 @@ becomes
 * [[higher curvature correction]]
 
 * [[interacting vacuum]]
+
+* [[proton spin crisis]]
 
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
 
