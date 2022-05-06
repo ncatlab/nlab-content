@@ -24,4 +24,18 @@ For more see at _[[quantum anomaly]]_.
 
 * [[tadpole cancellation]]
 
+## References
+
+### General
+
+(...)
+
+### In the standard model of particle physics
+
+Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
+
+* Nakarin Lohitsiri, [[David Tong]], _Hypercharge Quantisation and Fermat's Last Theorem_ ([arXiv:1907.00514](https://arxiv.org/abs/1907.00514))
+
+  (relating to [[Fermat's last theorem]])
+
 [[!redirects anomaly cancellations]]
