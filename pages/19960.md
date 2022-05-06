@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -35,7 +36,7 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 >  graphics grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](bottom-up+and+top-down+model+building#AldazabalIbanezQuevedoUranga00)
 
 
-### Top-down models
+### Top-down: Sakai-Sugimoto model
  {#TopDownModels}
 
 A good [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Witten 98](#Witten98), see [Rebhan 14](#Rebhan14) for review. 
@@ -64,6 +65,39 @@ The further introduction of [[intersecting D-brane model|intersecting]] [[D8-bra
 </center>
 
 > graphics grabbed from [Rebhan 14](#Rebhan14)
+
+
+In this [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] the [[hadrons]] in [[QCD]] correspond to [[string theory|string-theoretic]]-phenomena in the [[bulk field theory]]:
+
+1. the [[mesons]] ([[bound states]] of 2 [[quarks]]) correspond to [[open strings]] in the bulk, whose two endpoints on the [[asymptotic boundary]] correspond to the two quarks
+
+1. [[baryons]] ([[bound states]] of $N_c$ [[quarks]]) appear in two different but equivalent ([Sugimoto 16, 15.4.1](#Sugimoto16)) guises:
+
+   1. as [[wrapped brane|wrapped]] [[D4-branes]] with $N_c$ [[open strings]] connecting them to the [[D8-brane]]
+
+      ([Witten 98b](#Witten98b), [Gross-Ooguri 98](#GrossOoguri98))
+
+   1. as [[skyrmions]] 
+
+      ([Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), see [Bartolini 17](#Bartolini17)). 
+
+For review see [Sugimoto 16](#Sugimoto16), also [Rebhan 14, around (18)](#Rebhan14).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
+</center>
+
+> graphics grabbed from [Sugimoto 16](#Sugimoto16)
+
+This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonSpectrumInSakaiSugimoto.jpg" width="700">
+</center>
+
+> graphics grabbed from [Sugimoto 16](#Sugimoto16)
+
 
 
 ### Bottom-up models
@@ -96,14 +130,9 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 > graphics grabbed from [GKMMN 10](#GKMMN10)
 
 
-## Properties
 
-### Baryons as solitons/Skyrmions
- {#BaryonsAsSolitons}
 
-In the [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] ([above](TopDownModels)) [[baryons]] appear as [[solitons]]/[[skyrmions]] ([Bartolini 17](#Bartolini17)). 
 
-See [Rebhan 14, around (18)](#Rebhan14) for brief review and see the References [below](#ReferencesBaryonsSkyrmions) for more
 
 
 
@@ -200,7 +229,7 @@ Original articles:
 
 * {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys.Rev.D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
 
-* Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
+* {#HSSY07} Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
 
 * Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
 
@@ -227,7 +256,17 @@ Original articles:
 ### Application to baryons as solitons/Skyrmions
  {#ReferencesBaryonsSkyrmions}
 
-Specifically application to [[baryon]] physics via [[solitons]]/[[Skyrmions]]:
+Specifically application to [[baryon]] physics via [[Skyrmions]] and (equivalently) [[wrapped brane|wrapped]] [[D4-branes]]:
+
+Review:
+
+* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+Original articles
+
+* {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
+
+* {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large N Gauge Theory Dynamics as Seen by String Theory_, Phys.Rev.D58:106002,1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
 
 * Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
 
