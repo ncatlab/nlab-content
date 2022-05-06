@@ -133,6 +133,13 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 
 
+## Related concepts
+
+* [[holographic entanglement entropy]]
+
+* [[AdS-CFT in condensed matter physics]]
+
+* [[lattice QCD]]
 
 
 ## References
@@ -343,11 +350,15 @@ Application to [[Higgs field]]:
 
 * {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
 
+[[!redirects AdS-QCD correspondences]]
 
 [[!redirects AdS/QCD correspondence]]
 
 [[!redirects AdS-QCD]]
 [[!redirects AdS/QCD]]
+
+[[!redirects AdS-QCD duality]]
+[[!redirects AdS-QCD dualities]]
 
 [[!redirects Sakai-Sugimoto model]]
 [[!redirects Sakai-Sugimoto models]]
