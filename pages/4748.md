@@ -38,12 +38,12 @@ $$
 
 In every such there is a notion of [[connection on an ∞-bundle]] and of its higher parallel transport.
 
-A typical context considered (more or less explicitly) in the literature is $\mathbf{H} = $ [[?LieGrpd]], the cohesive $(\infty,1)$-topos of [[∞-Lie groupoid|smooth ∞-groupoids]]. But other choices are possible. (See also the [Examples](#Examples).)
+A typical context considered (more or less explicitly) in the literature is $\mathbf{H} = $ [[Smooth∞Grpd]], the cohesive $(\infty,1)$-topos of [[∞-Lie groupoid|smooth ∞-groupoids]]. But other choices are possible. (See also the [Examples](#Examples).)
 
 
 ### Higher parallel transport
 
-Let $A$ be an [[∞-Lie groupoid]] such that morphisms $X \to A$ in [[?LieGrpd]] classify the $A$-[[principal ∞-bundle]]s under consideration. Write $A_{conn}$ for the differential refinement described at [[∞-Lie algebra valued form]], such that lifts
+Let $A$ be an [[∞-Lie groupoid]] such that morphisms $X \to A$ in [[Smooth∞Grpd]] classify the $A$-[[principal ∞-bundle]]s under consideration. Write $A_{conn}$ for the differential refinement described at [[∞-Lie algebra valued form]], such that lifts
 
 $$
   \array{
@@ -540,7 +540,7 @@ If one presents $\Pi$ by $Sing : Top \to sSet_{Quillen}$ as above, then one may 
 
 
 We may embed this example into the smooth context by regarding $Aut(F)$ as a [[discrete space|discrete]] [[∞-Lie groupoid]] as discussed in the section
-[Flat ∞-Parallel transport in ?LieGrpd](#InLieGrpd).
+[Flat ∞-Parallel transport in Smooth∞Grpd](#InLieGrpd).
 
 For that purpose let
 
@@ -551,9 +551,9 @@ $$
   \infty Grpd \simeq Top
 $$
 
-be the [[global section]] [[(∞,1)-geometric morphism]] of the  [[cohesive (∞,1)-topos]] [[?LieGrpd]].
+be the [[global section]] [[(∞,1)-geometric morphism]] of the  [[cohesive (∞,1)-topos]] [[Smooth∞Grpd]].
 
-We may reflect the [[∞-group]] $Aut(F)$ into this using the [[constant ∞-stack]]-functor $Disc$ to get the discrete [[∞-Lie group]] $Disc Aut(F)$. Let then $X$ be a [[paracompact topological space|paracompact]] [[smooth manifold]], regarded naturally as an object of [[?LieGrpd]]. Then we can consider [[cocycle]]s/classifying morphisms
+We may reflect the [[∞-group]] $Aut(F)$ into this using the [[constant ∞-stack]]-functor $Disc$ to get the discrete [[∞-Lie group]] $Disc Aut(F)$. Let then $X$ be a [[paracompact topological space|paracompact]] [[smooth manifold]], regarded naturally as an object of [[Smooth∞Grpd]]. Then we can consider [[cocycle]]s/classifying morphisms
 
 $$
   X \to \mathbf{B} Disc Aut(F)
@@ -565,7 +565,7 @@ now in the smooth context of $\infty LieGrpd$.
 +-- {: .un_prop}
 ###### Proposition
 
-The [[∞-groupoid]] of $F$-fibrations in [[Top]] is equivalent to the $\infty$-groupoid of $Disc Aut(F)$-[[principal ∞-bundle]]s in [[?LieGrpd]]:
+The [[∞-groupoid]] of $F$-fibrations in [[Top]] is equivalent to the $\infty$-groupoid of $Disc Aut(F)$-[[principal ∞-bundle]]s in [[Smooth∞Grpd]]:
 
 $$
   \infty LieGrpd(X, \mathbf{B} Disc Aut(F))
@@ -594,7 +594,7 @@ always exists.
 +-- {: .proof}
 ###### Proof
 
-The first statement is a special case of that spelled out at [[?LieGrpd]] and [[nonabelian cohomology]]. The second follows using that in a [[∞-connected (∞,1)-topos|connected]] [[locally ∞-connected (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]].
+The first statement is a special case of that spelled out at [[Smooth∞Grpd]] and [[nonabelian cohomology]]. The second follows using that in a [[∞-connected (∞,1)-topos|connected]] [[locally ∞-connected (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]].
 
 =--
 
@@ -686,7 +686,7 @@ Applications are discussed in
 
 Parallel transport for [[circle n-bundles with connection]] is discussed generally in 
 
-* [[Kiyonori Gomi]] and Yuji Terashima, _Higher dimensional parallel transport_ Mathematical Research Letters 8, 25&#8211;33 (2001) ([pdf](http://mrlonline.org/mrl/2001-008-001/2001-008-001-004.pdf))
+* [[Kiyonori Gomi]], [[Yuji Terashima]], _Higher dimensional parallel transport_ Mathematical Research Letters 8, 25&#8211;33 (2001) ([pdf](http://mrlonline.org/mrl/2001-008-001/2001-008-001-004.pdf))
 
 * David Lipsky, _Cocycle constructions for topological field theories_ (2010) ([[LipskyThesis.pdf:file]])
 
