@@ -32,7 +32,7 @@ $$I^2=J^2=K^2=I J K=-1.$$
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
-## Related conepts
+## Related concepts
 
 * [[Kähler manifold]], **hyper-K&#228;hler manifold**, [[quaternionic Kähler manifold]]
 
