@@ -60,7 +60,12 @@ Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Then
 
 ## References
 
-The termonology _chaotic topology_ appears for instance in 
+The termonology _chaotic topology_ is motivated in
+
+* [[William Lawvere]], _Functorial remarks on the general concept of chaos_ ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf)) via footnote 3 of [pdf](https://pdfs.semanticscholar.org/217f/fec083913671c3396f3fff953e126bb37a0d.pdf)
+
+
+and appears for instance in 
 
 * [[The Stacks Project]], _[Example 7.6.6](https://stacks.math.columbia.edu/tag/07GE)_
 
