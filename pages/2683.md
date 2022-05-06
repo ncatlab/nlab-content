@@ -47,6 +47,9 @@ Minkowski spacetimes is a [[gravitational stability|stable]] solution of the vac
 This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 
+[[!include Hodge star operator on Minkowski spacetime -- section]]
+
+
 ## Related entries
 
 * [[Minkowski metric]]
