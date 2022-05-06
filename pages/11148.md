@@ -82,7 +82,7 @@ Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal
 
   (relation to [[holographic entanglement entropy]])
 
-* Ingmar Akira Saberi, around Figure 4.3 of: _Knots, Trees, and Fields: Common Ground Between Physics and Mathematics_ ([doi:10.7907/Z9VX0DHZ](https://thesis.library.caltech.edu/9896), [pdf](https://thesis.library.caltech.edu/9896/1/Saberi_Ingmar_2016.pdf))
+* [[Ingmar Saberi]], around Figure 4.3 of: _Knots, Trees, and Fields: Common Ground Between Physics and Mathematics_ ([doi:10.7907/Z9VX0DHZ](https://thesis.library.caltech.edu/9896), [pdf](https://thesis.library.caltech.edu/9896/1/Saberi_Ingmar_2016.pdf))
 
   (with generalization to [[p-adic string theory]])
 
