@@ -132,19 +132,19 @@ In some cases, pro-objects in a category $\mathcal{C}$ can be viewed as actual l
 
 \begin{prpn} \label{PropositionCategoriesEquivalentToProC} Let $\mathcal{C}$ be a category, and let $\mathcal{A}$ be a category with [[cofiltered limit|cofiltered limits]] and [[cofiltered colimit|cofiltered colimits]]. Suppose that there exists a [[fully faithful functor]] $R: \mathcal{C} \rightarrow \mathcal{A}$. Then $pro-\mathcal{C}$ is [[equivalence of categories|equivalent]] to the full subcategory $pro^{\mathcal{A}}-\mathcal{C}$ of $\mathcal{A}$ whose objects are isomorphic to $lim(R \circ D)$ for some diagram $D$ in $\mathcal{C}$ (this can be given a constructive interpretation according to whether the reader prefers to avoid the axiom of choice in the proof), where $lim$ is the limit functor for diagrams in $\mathcal{A}$.
 
-An equivalence of categories is given by the functor $pro-\mathcal{C} \rightarrow pro^{\mathcal{A}}-\mathcal{C}$ which on objects sends a pro-object $d: \mathcal{D} \rightarrow \mathcal{C}$ to the limit of the functor $R \circ d: \mathcal{D} \rightarrow \mathcal{A}$, and on arrows sends the limit of the diagram 
+An equivalence of categories is given by the functor $pro-\mathcal{C} \rightarrow pro^{\mathcal{A}}-\mathcal{C}$ which on objects sends a pro-object $d: \mathcal{D} \rightarrow \mathcal{C}$ to the limit of the functor $R \circ d: \mathcal{D} \rightarrow \mathcal{A}$, and on arrows sends the limit of the diagram in the category of sets
 
 $$
 Hom_{\mathcal{C}}\left(d_{1}(-), d_{2}(-) \right) 
 $$
 
-to the limit of the diagram 
+to the limit of the diagram in the category of sets
 
 $$
 Hom_{\mathcal{A}}\left(R \circ d_{1}(-), R \circ d_{2}(-) \right),  
 $$
 
-using the natural transformation arising from applying $R$, and then applying the natural isomorphism between the limit of the above diagram and the set
+using the natural transformation arising from applying $R$, and then applies the natural isomorphism between the limit of the above diagram and the limit of the diagram in the category of sets
 
 $$
 Hom_{\mathcal{A}}\left(colim \left(R \circ d_{1}(-) \right), lim \left( R \circ d_{2}(-) \right) \right.
@@ -167,11 +167,11 @@ $$
 is in fact a natural isomorphism. Since, by definition, the objects of $pro^{\mathcal{A}}-\mathcal{C}$ are exactly those isomorphic to those arising by applying the functor $pro-\mathcal{C} \rightarrow pro^{\mathcal{A}}-\mathcal{C}$ to the objects of pro-$\mathcal{C}$, it follows immediately that this functor is one half of an equivalence of categories. 
 \end{proof}
 
-\begin{example} \label{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} Let $\mathcal{C}$ be the category [[Grp]] of groups, and let $\mathcal{D}$ be the category $\mathsf{Top-Grp}$ of [[topological group|topological groups]]. The fully faithful functor $\mathsf{Set} \rightarrow \mathsf{Top}$ sending a set to the [[discrete topological space]] on this set gives rise to a fully faithful functor $\mathsf{Grp} \rightarrow \mathsf{Top-Grp}$. Then Proposition \ref{PropositionCategoriesEquivalentToProC} implies that the category pro-$\mathsf{FinGrp}$ of pro-objects in $\mathsf{FinGrp}$, that is to say of [[profinite group|profinite groups]], is equivalent to the full sub-category of topological groups whose objects are obtained as a cofiltered limit of finite groups (viewed as topological groups via the discrete topology). \end{example}
+\begin{example} \label{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} Let $\mathcal{C}$ be the category [[Grp]] of groups, and let $\mathcal{A}$ be the category $\mathsf{Top-Grp}$ of [[topological group|topological groups]]. The fully faithful functor $\mathsf{Set} \rightarrow \mathsf{Top}$ sending a set to the [[discrete topological space]] on this set gives rise to a fully faithful functor $\mathsf{Grp} \rightarrow \mathsf{Top-Grp}$. Then Proposition \ref{PropositionCategoriesEquivalentToProC} implies that the category pro-$\mathsf{FinGrp}$ of pro-objects in $\mathsf{FinGrp}$, that is to say of [[profinite group|profinite groups]], is equivalent to the full sub-category of topological groups whose objects are obtained as a cofiltered limit of finite groups (viewed as topological groups via the discrete topology). \end{example}
 
-\begin{rmk} \label{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} Though it is less well-known, one can in Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} evidently replace $\mathsf{Top}$ in with any category $\mathcal{D}$ for which there is a fully faithful functor $\mathsf{Set} \rightarrow \mathcal{D}$ which preserves finite products. See [[discrete object]] for one general setting in which such a functor exists. For example, one can take $\mathcal{D}$ to be the category [[sSet]] of [[simplicial set|simplicial sets]]. \end{rmk}
+\begin{rmk} \label{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} Though it is less well-known, one can in Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} evidently replace $\mathsf{Top}$ in with any category $\mathcal{A}$ for which there is a fully faithful functor $\mathsf{Set} \rightarrow \mathcal{A}$ which preserves finite products. See [[discrete object]] for one general setting in which such a functor exists. For example, one can take $\mathcal{D}$ to be the category [[sSet]] of [[simplicial set|simplicial sets]]. \end{rmk}
 
-\begin{rmk} Both Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} and Remark \ref{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} generalise from $\mathsf{Grp}$ to any [[finite product theory]], that is to say to the category of models of a [[finite product sketch]]. They generalise further to any [[finite limit theory]], that is to say to the category of models of  a [[finite limit sketch]], if the functor $\mathsf{Set} \rightarrow \mathcal{D}$ moreover preserves finite limits. \end{rmk}
+\begin{rmk} Both Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} and Remark \ref{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} generalise from $\mathsf{Grp}$ to any [[finite product theory]], that is to say to the category of models of a [[finite product sketch]]. They generalise further to any [[finite limit theory]], that is to say to the category of models of  a [[finite limit sketch]], if the functor $\mathsf{Set} \rightarrow \mathcal{A}$ moreover preserves finite limits. \end{rmk}
 
 ## Examples
 
