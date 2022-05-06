@@ -17,7 +17,21 @@ It suffices to require preservation of [[suprema]] of [[directed subsets]].
 
 With this notion of morphisms, complete Boolean algebras form a category.
 
-## Stone duality
+## Relation to Stonean locales and Boolean locales
+
+The category of complete Boolean algebras is equivalent
+to the category of [[Boolean locales]]
+and [[Stonean locales]].
+The latter fact is also known as the (localic) __Stonean duality__.
+
+In presence of the [[axiom of choice]],
+the category of [[Stonean locales]] is equivalent
+to the category of [[Stonean spaces]],
+so the latter is contravariantly equivalent to the category
+of complete Boolean algebras.
+The latter fact is also known as the (traditional) __Stonean duality__.
+
+## Stonean duality
 
 The [[Stone duality]] establishes a [[contravariant equivalence]]
 of [[categories]] between the category of [[Boolean algebras]]
@@ -52,6 +66,11 @@ There is no free complete Boolean algebra on countably many generators.
 =-- 
 
 As a consequence, $CompBoolAlg$ is not cocomplete (otherwise there would exist a countable coproduct of copies of $P(P 1)$, which is ruled out by the previous theorem). 
+
+## Related concepts
+
+* [[Boolean locale]]
+* [[Stonean locale]]
 
 ## References
 
