@@ -14,11 +14,12 @@
 
 ## Idea
 
-[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _connective cover_ construction.
+[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra $E \mapsto E \langle 0 \rangle$ is called the _connective cover_ construction.
 
-The connective cover  [[(∞,1)-functor|functor]] extends from plain spectra to [[E-∞ ring spectra]] ([May 77, Prop. VII 4.3](#May77)), though besides this canonically inherited ring structure the connective cover may sometimes carry other ring structures ([Baker-Richter 05](#BakerRichter05)). 
+The connective cover  [[(∞,1)-functor|functor]] extends from plain spectra to [[E-∞ ring spectra]] ([May 77, Prop. VII 4.3](#May77), [Lurie, Prop. 7.1.3.13](#Lurie)), such that the coreflection $E \langle0\rangle \longrightarrow E$ is a [[homomorphism]] of [[E-∞ rings]].
 
-See also [Lurie, prop. 7.1.3.13](#Lurie) (?).
+Besides a canonically inherited ring structure, the connective cover may sometimes carry further ring structures ([Baker-Richter 05](#BakerRichter05)). 
+
 
 ## Examples
 
@@ -42,7 +43,7 @@ For [[ring spectra]]:
 * {#BakerRichter05} [[Andrew Baker]], [[Birgit Richter]], _Uniqueness of $E_\infty$-structures for connective covers_,  Proc. Amer. Math. Soc. 136 (2008), 707-714  ([arXiv:math/0506422v2](http://arxiv.org/abs/math/0506422), [doi:10.1090/S0002-9939-07-08984-8](https://doi.org/10.1090/S0002-9939-07-08984-8))
 
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#Lurie} [[Jacob Lurie]], 7.1.3.11-13 in: _[[Higher Algebra]]_
 
 
 [[!redirects connective covers]]
