@@ -46,11 +46,9 @@ as well as in
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
 
-Souriau model of thermodynamics has been extented for Geometric Science of Information (Koszul information geometry) with a general definition of Fisher Metric, Euler-Poincar&#233; Equation and variational definition of Souriau Thermodynamics, as given in:
+Souriau model of thermodynamics has been extented for "geometric science of information" (Koszul information geometry) with a general definition of [[Fisher metric]], Euler-Poincar&#233; equation and variational definition of Souriau thermodynamics, as in:
 
-* Frederic Barbaresco, Koszul Information Geometry and Souriau Geometric, Temperature / Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16, pp. 4521-4565, August 2014. (http://www.mdpi.com/1099-4300/16/8/4521/pdf)
-
-* Frederic Barbaresco, Symplectic Structure of Information Geometry: Fisher Metric and Euler-Poincar&#233; Equation of Souriau Lie Group Thermodynamics, GSI'15,Vol.9389, Springer LCNS, pp. 529-540, 2015. (http://link.springer.com/chapter/10.1007/978-3-319-25040-3_57) 
+* Frederic Barbaresco, _Koszul information geometry and Souriau geometric, temperature_, Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16,  4521-4565 (2014) [pdf](http://www.mdpi.com/1099-4300/16/8/4521/pdf); _Symplectic structure of information geometry: Fisher metric and Euler-Poincar&#233; equation of Souriau Lie group thermodynamics_, GSI'15, Springer LCNS __9389__, 529-540 (2015) [doi](https://doi.org/10.1007/978-3-319-25040-3_57) 
 
 See also
 
@@ -93,7 +91,7 @@ but Tolman's approach has been called into question, see e.g.
 
 See also
 
-* Nils Andersson, _General Relativistic Thermo-Dynamics_, survey talk 2014 ([pdf](http://www.dpg-physik.de/dpg/pbh/aktuelles/pdf/Andersson.pdf))
+* Nils Andersson, _General relativistic thermo-dynamics_, survey talk 2014 ([pdf](http://www.dpg-physik.de/dpg/pbh/aktuelles/pdf/Andersson.pdf))
 
 * Sean A. Hayward, _Relativistic thermodynamics_ ([arXiv:gr-qc/9803007](https://arxiv.org/abs/gr-qc/9803007))
 
