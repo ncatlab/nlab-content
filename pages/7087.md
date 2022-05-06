@@ -16,7 +16,7 @@
 
 ## Idea
 
-A [[localization of a category]]/[[localization of an (∞,1)-category|of an (∞,1)-category]] is called **reflective** if its [[localization functor]] has a [[fully faithful functor|fully faithful]] [[right adjoint]], hence if it the reflector of a [[reflective subcategory]]/[[reflective sub-(∞,1)-category]]-inclusion.
+A [[localization of a category]]/[[localization of an (∞,1)-category|of an (∞,1)-category]] is called **reflective** if its [[localization functor]] has a [[fully faithful functor|fully faithful]] [[right adjoint]], hence if it is the reflector of a [[reflective subcategory]]/[[reflective sub-(∞,1)-category]]-inclusion.
 
 In fact every [[reflective subcategory]] inclusion exhibits a reflective localization (Prop. \ref{ReflectiveSubcategoriesAreLocalizations} below).
 
