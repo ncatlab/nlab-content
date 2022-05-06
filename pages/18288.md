@@ -34,6 +34,18 @@ Normal covers are also known as [[numerable covers]],
 since they are precisely the [[open covers]] that admit
 a subordinate [[partition of unity]].
 
+## In pointfree topology
+
+Any [[completely regular locale]] has a largest [[uniformity]],
+the [[fine uniformity]], which consists of all normal covers.
+
+If a [[completely regular locale]] admits a [[complete uniformity]],
+then the [[fine uniformity]] is complete.
+
+A [[locale]] is [[paracompact]] if and only if it admits a [[complete uniformity]].
+In this case, we can take the [[fine uniformity]].
+
+
 ## Examples
 
 * [[metric spaces are fully normal]]
@@ -45,6 +57,10 @@ a subordinate [[partition of unity]].
 ## Related conceps
 
 * [[numerable cover]]
+
+* [[paracompact space]]
+
+* [[paracompact locale]]
 
 * [[separation axiom]]
 
