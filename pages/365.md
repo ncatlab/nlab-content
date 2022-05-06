@@ -637,6 +637,8 @@ $$
 
 * {#Hirschorn} Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
+* Jiri Rosicky, Walter Tholen , *Factorization, Fibration and Torsion*, [arxiv](https://arxiv.org/abs/0801.0063) (2007)
+
 
 [[!redirects weak factorization systems]]
 
