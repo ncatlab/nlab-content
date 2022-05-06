@@ -272,12 +272,12 @@ $$
 
 =--
 
+([Adams 62, Thm. 5.1. (vi)](Adams+operations#Adams62), review in [Karoubi 78, Chapter V, Theorem 3.27](Adams+operations#Karoubi78), [Maakestad 06, Thm. 4.9](#Maakestad06))
+
 +-- {: .proof}
-###### Proof
+###### Proof idea
 
 Use the exponentional-formula for the [[Chern character]] with the  [[splitting principle]].
-
-Detailed review is  [Maakestad 06, Thm. 4.9](#Maakestad06)
 
 =--
 
