@@ -5,7 +5,7 @@
 
 ## Idea
 
-The notion of [[projective space]] $\mathbb{O}P^n$ over the [[octonions]] makes sense for $n \,\in\, \{ 0,1,2 \}$.
+The notion of [[projective space]] $\mathbb{O}P^n$ over the [[octonions]] $\mathbb{O}$ makes sense for $n \,\in\, \{ 0,1,2 \}$ (but not beyond, see e.g. [Voelkel 16, Sec. 1.3](#Voelkel16)).
 
 ## Properties
 
@@ -46,6 +46,10 @@ See also at _[[cell structure of projective spaces]]_.
 ## References
 
 * {#Lackman19} Malte Lackmann, _The octonionic projective plane_ ([arXiv:1909.07047](https://arxiv.org/abs/1909.07047))
+
+See also
+
+* {#Voelkel16} [[Konrad Voelkel]], _Motivic cell structures for projective spaces over split quaternions_, 2016 ([freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content))
 
 [[!redirects octonionic projective spaces]]
 
