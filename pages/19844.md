@@ -308,6 +308,9 @@ Early suggestion to look at the $R_K$ channel at [[LHCb]] are due to
 
 General introduction to the issue is in 
 
+* Simone Bifani, Sebastien Descotes-Genon, Antonio Romero Vidal, Marie-Helene Schune, _Review of Lepton Universality tests in B decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 46, Number 2 (2018) ([arXiv:1809.06229](https://arxiv.org/abs/1809.06229))
+
+
 * {#Alonso19} Rodrigo Alonso, _Lepton (non-) unversality in (flavor changing) neutral current B decays_, Proceedings of [FPCP2019](https://fpcp2019.triumf.ca/) ([arXiv:1907.01716](https://arxiv.org/abs/1907.01716))
 
 and for [[charm quark]] physics in
