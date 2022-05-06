@@ -70,7 +70,7 @@ Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-
 
 * {#BaguetHohmSamtleben15} Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _$E_{6(6)}$ Exceptional Field Theory: Review and Embedding of Type IIB_ ([arXiv:1506.01065](http://arxiv.org/abs/1506.01065))
 
-Discussion of solitonic [[black brane]] solutions in terms of EFT includes
+Discussion of solitonic [[black brane]] (and [[exotic brane]]) solutions in terms of EFT includes
 
 * {#BermanRudolph14} [[David Berman]], [[Felix Rudolph]], _Strings, Branes and the Self-dual Solutions of Exceptional Field Theory_ ([arXiv.1412.2768](http://arxiv.org/abs/1412.2768))
 
