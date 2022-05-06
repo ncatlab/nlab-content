@@ -88,7 +88,7 @@ $$
 
 is the [[group cohomology]] of $G$ with [[coefficients]] in $V$.
 
-However, this definition does _not_ reflect [[Bredon cohomology|Bredon]]-[[equivariant cohomology]] around the orbifold singularities. Instead, it really given (geometric/stacky refinement) of _[[cohomology with local coefficients]]_.
+However, this definition does _not_ reflect [[Bredon cohomology|Bredon]]-[[equivariant cohomology]] around the orbifold singularities. Instead, it really given (geometric/stacky refinement) of _[[cohomology with local fcoefficients]]_.
 
 
 $\,$
@@ -186,7 +186,8 @@ $$
 
 This is a [[cohesive (∞,1)-topos]] over the [[base (∞,1)-topos]] $\mathbf{H}$ in that the [[global section]]-[[geometric morphisms]] enhances to an [[adjoint quadruple]] of [[adjoint (∞,1)-functors]]
 
-$$
+\[
+  \label{SingularitiesAdjointQuadruple}
   \big(
     \Pi_{sing}
     \dashv
@@ -200,7 +201,7 @@ $$
   \mathbf{H}_{sing}
     \leftrightarrow
   \mathbf{H}
-$$
+\]
 
 such that
 
@@ -390,18 +391,89 @@ By the [[(n-connected, n-truncated) factorization system]], a [[1-morphism]] in 
 
 +-- {: .num_example}
 ###### Example
-**([[faithful functors]] are the [[n-truncated object in an (infinity,1)-category|0-truncated]]-[[morphisms]] between [[groupoids]])
+**(on [[groupoids]] [[(n-connected, n-truncated) factorization system|(0-connected, 0-truncated)]] is [[(eso and full, faithful) factorization system|(eso and full, faithful)]])**
 
-In the [[(∞,1)-topos]] [[∞Groupoids]] a morphism between 1-truncated objects ([[groupoids]]) is 0-truncated precisely if, regarded as a [[functor]] between [[small categories]], is a [[faithful functor]].
+In the [[(∞,1)-topos]] [[∞Groupoids]] the [[n-truncated object in an (infinity,1)-category|1-truncated objects]] are equivalently [[groupoids]] in the sense of [[small categories]] with all [[morphisms]] [[invertible morphism|invertible]]
+
+$$
+  Groupoids \simeq \infty Groupoids_{\leq 1} \hookrightarrow \infty Groupoids
+$$
+
+Under this identification the [[1-morphisms]] between 1-truncated objects correspond equivalently [[functors]], and we have that these [[1-morphisms]] are
+
+1. [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if they correspond to [[faithful functors]];
+
+1. [[n-connected object of an (infinity,1)-topos|0-connected]] precisely if they correspond to [[essentially surjective functor|essentially surjective]] and [[full functors]].
+
+In particular a morphism of [[delooping]] groupoids
+
+$$
+  \array{
+     B G'
+     \\
+     \downarrow^{\mathrlap{B p}}
+     \\
+     B G
+  }
+$$
+
+is 0-connected precisely if the corresponding [[group homomorphism]] $p \colon G' \to G$ is [[surjective function|surjective]].
 
 =--
 
-Therefore one might say "[[faithful morphism]]" for every [[n-truncated object in an (infinity,1)-category|0-truncated]] morphism in an [[(∞,1)-topos]]. But the terminology "faithful" is used with other meanings, too:
+Therefore one might say "[[faithful morphism]]" for every [[n-truncated object in an (infinity,1)-category|0-truncated]] morphism in an [[(∞,1)-topos]]. But the terminology "faithful" is used with other meanings, too, and we need to refer to these variants
+
++-- {: .num_defn #SingularitiesFaithful}
+###### Definition
+**($Singularities$-faithful morphisms)**
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing} \coloneqq Sh_\infty\left( Singularities, \mathbf{H}\right)$ its [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}. We say that a morphism
+$\mathcal{X} \overset{f}{\to} \mathcal{Y}$ in $\mathbf{H}_{sing}$ is _$Singularities$-faithful_ if its has the [[right lifting property]] against morphisms of the form
+
+\[
+  \label{Singularities0Connected}
+  \left(
+    \array{
+      \mathbb{B}G'
+      \\
+      \downarrow^{\mathrlap{\mathbb{B}p}}
+      \\
+      \mathbb{B}G
+    }
+  \right)
+  \;\in\;
+  Singularities \overset{Yoneda}{\hookrightarrow} 
+  Sh_\infty\left(
+    Singularities,
+    \infty Groupoids
+  \right)
+  \overset{Disc}{\hookrightarrow}
+  Sh_\infty\left(
+    Singularities,
+    \mathbf{H}
+  \right)
+  \;=\;
+  \mathbf{H}_{sing}
+\]
+
+where $p \;\colon\; G' \to G$ is a _[[surjective function|surjective]]_ [[group homomorphism]].
+
+=--
+
+For the case $\math{H} =$ [[∞Groupoids]] this is the definition of _faithful maps_ in [Rezk 14. Prop. 3.4.1](#Rezk14).
+
+> It seems that the morphisms (eq:Singularities0Connected) are not 0-connected in $Sh_\infty(Singularities, \infty Groupoids)$. Them being 0-connected should come down to the statement that for $p \colon G' \to G$ a surjective group homomorphism and $H \subset G$ any subgroup, there always is a lift of $H$ to $G'$ and that any two such lifts are conjugate to each other, in $G'$. But already the first condition fails in general, since not every epimorphism of groups is a split epimorphism.
+
+> Nevertheless and in any case we have the following, which is all we will need:
 
 +-- {: .num_example}
 ###### Example
 
-(...)
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}. 
+
+If a morphism $X \overset{f}{\to} Y$ in $\mathbf{H}$ is [[n-truncated object in an (infinity,1)-category|0-truncated]], then its image under $coDisc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ is $Singularities$-faithful (Def. \ref{SingularitiesFaithful}).
+
+This follows directly by the adjunctions (eq:SingularitiesAdjointQuadruple), the relations (eq:ShapeOfOrbifoldSingularity) and the fact spring
 
 
 =--
