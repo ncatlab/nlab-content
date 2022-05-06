@@ -776,7 +776,7 @@ Given such an orbifold, we say that its _underlying [[geometric stack|geometric 
 
 where on the right we used (eq:ShapeOfOrbifoldSingularity).
 
-If $\mathbf{H}$ is moreover [[differential cohesion|differentially cohesive]] and $V \in Grp(\mathbf{H})$ is a [[∞-group|group object]], then an orbifold $\mathcal{X}$ is called a _$V$-orbifold_ if is underlying [[geometric stack|geometric groupoid]] $\flat_{sing}\left( \mathcal{X}\right)$ (eq:OrbifoldUnderlyingGroupoid) is a [[V-manifold]].
+If $\mathbf{H}$ is moreover [[differential cohesion|differentially cohesive]] and $V \in Grp(\mathbf{H})$ is a [[∞-group|group object]], then an orbifold $\mathcal{X}$ is called a _$V$-orbifold_ if its underlying [[geometric stack|geometric groupoid]] $\flat_{sing}\left( \mathcal{X}\right)$ (eq:OrbifoldUnderlyingGroupoid) is a [[V-manifold]].
 
 =--
 
@@ -854,7 +854,7 @@ $$
   \;\in\;
   \left( 
     Smooth\infty Groupoids_{sing}
-  \right)_{/\mathbf{B}G}
+  \right)_{/\mathbb{B}G}
   \,.
 $$
 
