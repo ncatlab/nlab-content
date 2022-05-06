@@ -207,7 +207,7 @@ Similarly, the existence (non-existence) of non-trivial solutions (Example \ref{
   k^{ConjCl(G)-1}
 \]
 
-is no longer (is still) [[injective function|injective]].
+is no longer (is still) [[injective function|injective]] away from multiples of the regular rep.
 
 
 =--
