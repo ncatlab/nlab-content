@@ -44,6 +44,10 @@ Real-world [[physical systems]] that show behaviour described by the Ising model
 
 * {#Wolf} W. P. Wolf, _The Ising model and real magnetic materials_, Braz. J. Phys. vol.30 no.4 S&#227;o Paulo Dec. 2000 ([web](http://www.scielo.br/scielo.php?script=sci_arttext&pid=s0103-97332000000400030))
 
+See also
+
+* Wikipedia, _[Ising model](https://en.wikipedia.org/wiki/Ising_model)_
+
 Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT]] based on the [[Turaev-Viro model]], similar to the [[CS-WZW correspondence]], and the phenomenon of [[Kramers-Wannier duality]], is in:
 
 
@@ -53,6 +57,9 @@ Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT
 
 * {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
 
+3d version:
+
+* {#Behan18} Connor Behan, _Bootstrapping the long-range Ising model in three dimensions_,  Journal of Physics A: Mathematical and Theoretical, Volume 52, Number 7 ([arXiv:1810.07199](https://arxiv.org/abs/1810.07199), [doi:10.1088/1751-8121/aafd1b](https://iopscience.iop.org/article/10.1088/1751-8121/aafd1b))
  
 
 [[!redirects Ising models]]
