@@ -39,7 +39,7 @@ Let
 
 * $A \subset X^G \subset X$ a [[fixed point|G-fixed]] [[topological subspace]] of $X$,
 
-* $E$ be a [[Euclidean space|Euclidean]] [[topological G-spaces]],
+* $E$ be a [[finite-dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] $G$-[[linear representation]], regarded as a [[Euclidean space|Euclidean]] [[topological G-space]],
 
 * $A \overset{f}{\longrightarrow} E$ a $G$-[[equivariant function|equivariant]] [[continuous function]].
 
@@ -49,7 +49,7 @@ If
 
 [[or]]
 
-* $X$ is a [[normal topological space]] and $A \subset X$ is a [[closed subspace]] 
+* $X$ is a [[normal topological space]] [[and]] $A \subset X$ is a [[closed subspace]] 
 
 then $f$ has an [[extension]] to an [[equivariant function|equivariant]] [[continuous function]] $\widehat f$ on all of $X$.
 
@@ -78,6 +78,10 @@ $$
 * {#Palais60} [[Richard Palais]], Theorem 1.4.3 in: _The classification of $G$-spaces_, Memoirs of the American Mathematical Society, Number 36, 1960 ([pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf))
 
 * {#Jaworowski73} [[Jan Jaworowski]], _Equivariant extensions of maps_, Pacific J. Math. Volume 45, Number 1 (1973), 229-244 ([euclid:1102947720](https://projecteuclid.org/euclid.pjm/1102947720))
+
+* {#Jaworowski73b} [[Jan Jaworowski]], _Extending equivariant maps for compact Lie group actions_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 698-701 ([euclid:1183534741](https://projecteuclid.org/euclid.bams/1183534741))
+
+* {#Jaworowski76} [[Jan Jaworowski]], _Extensions of $G$-maps and euclidean $G$-retracts_, Math Z (1976) 146: 143 ([doi:10.1007/BF01187702](https://doi.org/10.1007/BF01187702))
 
 * {#Jaworowski81} [[Jan Jaworowski]], _An equivariant extension theorem and $G$-retracts with a finite structure_, Manuscripta Math (1981) 35: 323 ([doi:10.1007/BF01263266](https://doi.org/10.1007/BF01263266))
 
