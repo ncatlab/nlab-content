@@ -130,3 +130,6 @@ A short introduction can be found in
 [[!redirects test categories]]
 [[!redirects strict test category]]
 [[!redirects strict test categories]]
+[[!redirects weak test category]]
+[[!redirects weak test categories]]
+[[!redirects Grothendieck homotopy theory]]
