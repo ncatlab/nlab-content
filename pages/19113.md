@@ -143,6 +143,8 @@ of Prop. \ref{GroupCohomologyOfFiniteSubgroupsOfSU2}, regarded as expressing [[o
 
 * [[Platonic 2-group]]
 
+* [[wallpaper group]]
+
 ## References
   {#References}
 
