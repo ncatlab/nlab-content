@@ -68,18 +68,18 @@ Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a fo
 
 #### __Introduction.__ The Idea of a Transcendental Logic. [General Logic and Transcendental Logic]
 
-I. On logic in general.
-The Purpose of I. (B74-79) is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
+I. On logic in general. (B74-9) (A50-5)
+The Purpose of I. is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
 
-To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. (The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”,”aesthetics” and “logic”.) (B74-76)
-Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. (The termini defined are “general logic”, and “particular logic”.)(B76) 
-General logic is then again subdivided into pure general logic which only deals with the pure, meaning a priori principles of thinking in general and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us” which are only given a posteriori. (The termini defined are “general but pure logic” and “general but empirical logic”.) (B77)
+To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. (The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”,”aesthetics” and “logic”.) (B74-6) (A50-2)
+Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. (The termini defined are “general logic”, and “particular logic”.)(B76) (A52)
+General logic is then again subdivided into pure general logic which only deals with the pure, meaning a priori principles of thinking in general and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us” which are only given a posteriori, and which can all be given only empirically (The termini defined are “general but pure logic” and “general but empirical logic”.) (B77-9) (A53-5)
 
-II. On transcendental logic.
-The Purpose of II. (B79 – B82) is to establish the concept of transcendental logic, in contrast to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in
-general. Transcendental logic, contains the “rules of pure thinking of an object” (B80).
-Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. (B80f)
-Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. (B81f)
+II. On transcendental logic. (B79-82) (A55-7)
+The Purpose of II. is to establish the concept of transcendental logic, in contrast to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in
+general. Transcendental logic, contains the “rules of pure thinking of an object” (B80) (A55).
+Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. (B80-81) (A56 - 57)
+Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. (B81-2) (A56-7)
 
 III. On the division of general logic into analytic and dialectic.
 The purpose of III. (B82-86) is to establish general logic as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
