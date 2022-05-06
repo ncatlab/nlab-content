@@ -54,8 +54,8 @@ $$ (\epsilon\otimes A)\Delta(a) = a = (A\otimes\epsilon)\Delta(a), \,\,\,\,\,\,a
 $$
 (A\otimes\epsilon\otimes A)\phi = 1.
 $$
-It follows that $(\epsilon\otimes\epsilon\otimes A)\phi
- = 1 = (A\otimes\epsilon\otimes\epsilon)\phi$.
+It follows that $(\epsilon\otimes A\otimes A)\phi
+ = 1 = (A\otimes A\otimes\epsilon)\phi$.
 
 The category of left $A$-modules is a monoidal category, namely the coproduct is used to define the action of $A$ on the tensor product of modules $(M,\nu^M)$, $(N,\nu^N)$:
 
