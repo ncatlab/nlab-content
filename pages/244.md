@@ -162,9 +162,13 @@ Notice that this is _almost_ the complete analog in [[stable homotopy theory]] o
 
 (This is currently being investigated by Elmendorf, Nikolaus and maybe others.)
 
-However, a subcategory of $SymmMonCat$ whose objects are Permutative categories and maps are strict symmetric monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a [[permutative category]].
+However, a subcategory of $SymmMonCat$ whose objects are Permutative categories and maps are strict symmetric monoidal functors, denoted by $Perm$  has a model category structure  which is transferred from the natural model category structure on $Cat$, see [Sharma](#Sharma). This model category structure is combinatorial, left-proper and a $Cat$-model category structure. It is referred to as the natural model category structure on $Perm$. The [[coherence theorem]] for symmetric monoidal categories states that each symmetric monoidal category is equivalent to a [[permutative category]].
 
+### Relation to $\Gamma$-categories
 
+The aforementioned natural model category of permutative categories is NOT a symmetric monoidal closed model category. This shortcoming was overcome in [Sharma] by constructing a Quillen equivalent [[model category]] which is symmetric monoidal closed.
+A (unnormalized) $\Gamma$-category is a functor from $\Gamma^{op}$ to $Cat$, where $\Gamma^{op}$ is a skeletal category of finite based sets and based maps.
+The category of $\Gamma$-categories and natural transformations, denoted by $\Gamma$$Cat$, is a symmetric monoidal closed category under the [[Day convolution]] product. The aforementioned symmetric monoidal closed model category is constructed in [Sharma](#Sharma) as a left-Bousfield localization of the projective model category structure on $\Gamma$$Cat$. A $\Gamma$-category is fibrant in this model category if it satisfies the Segal's condition in which case it is referred to as a coherently commutative monoidal category. The main result of [Sharma](#Sharma) is that an unnormalized version of the classical Segal's nerve functor is the right [[Quillen functor]] of a [[Quillen equivalence]] between the natural model category of permutative categories and the symmetric monoidal closed model category of coherently commutative monoidal categories.
 
 
 ### As algebras over the little $k$-cubes operad
@@ -257,7 +261,7 @@ More discussion is in
 
 * {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arxiv](https://arxiv.org/abs/1211.3678), 2014
 
-* [[Amit Sharma]], _Symmetric monoidal categories and $\Gamma$-categories_
+* Amit Sharma, _Symmetric monoidal categories and $\Gamma$-categories_
 Theory and applications of Categories, Vol. 35, No. 14, (2020) pp. 417-512
  {#Sharma}
 
