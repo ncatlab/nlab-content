@@ -11,6 +11,7 @@
 $$F:A\to B\quad\text{and}\quad G:C\to D.$$
 
 >Then $\alpha(F):C\to D$ is a functor and we'd probably also want **2-component** functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ such that the following diagram commutes
+
 $$ 
   \array{ 
     A 
@@ -27,6 +28,7 @@ $$
     \stackrel{G}{\to} & D 
   }
 $$
+
 >If this is not a natural transformation, is there another name for it?
 
 >When $A = C$ and $B = D$, this should coincide with the usual definition. If so, why don't we define natural transformation in this more general way? It seems more "natural" to me.
@@ -144,6 +146,7 @@ Here is my attempt to formalize an alternative definition:
 >##Definition##
 
 >Given categories $A$,$B$,$C$,$D$ and functors $F:A\to B$,$G:C\to D$ a __natural transformation__ $\alpha:F \Rightarrow G$ 
+
 $$ 
   \array{ 
     A 
@@ -160,7 +163,9 @@ $$
     \stackrel{G}{\to} & D 
   }
 $$
+
 >assigns functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ called **component functors** and for any morphism $f:x\to y$ in $A$ assigns morphisms $\alpha_x:\alpha_D\circ F(x)\to G\circ\alpha_C(x)$ and $\alpha_y:\alpha_D\circ F(y)\to G\circ\alpha_C(y)$ in $D$ called **component morphisms** such that the following diagram commutes in $D$:
+
 $$ 
   \array{ 
     \alpha_D\circ F(x) 
@@ -199,6 +204,7 @@ I wrote the definition down intentionally so that the composite _is_ a natural t
 >##Definition##
 
 >Given categories $A$,$B$,$C$,$D$ and functors $F:A\to B$,$G:C\to D$ a __sheet transformation__ $\alpha:F \Rightarrow G$ 
+
 $$ 
   \array{ 
     A 
@@ -215,8 +221,11 @@ $$
     \stackrel{G}{\to} & D 
   }
 $$
+
 >assigns functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ called **component functors** such that
+
 $$\alpha_D\circ F\Rightarrow G\circ\alpha_C$$
+
 >is a **natural transformation**.
 
 ***
