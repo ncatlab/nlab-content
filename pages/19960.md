@@ -731,9 +731,12 @@ important research topics in fundamental science, and tremendous efforts have be
 ### Application to QCD phases
  {#ReferencesColourSuperconductivity}
 
-Application to [[phase of matter|phases]] of [[QCD]]
+Application to [[phase of matter|phases]] of [[QCD]]:
 
-to [[colour superconductivity]]:
+* R. Narayanan, H. Neuberger, _A survey of large $N$ continuum phase transitions_, PoSLAT 2007:020, 2007 ([arXiv:0710.0098](https://arxiv.org/abs/0710.0098))
+
+
+To [[colour superconductivity]]:
 
 * Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans, _A Holographic Description of Colour Superconductivity_ ([arXiv:1803.03107](https://arxiv.org/abs/1803.03107))
 
