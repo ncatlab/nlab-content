@@ -29,7 +29,7 @@ On [[M-theory on 8-manifolds]]:
 
 and specifically in terms of [[G-structures]]:
 
-* Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, PhysRevD.89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
+* [[Daniël Prins]], [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, PhysRevD.89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
 On [[topological twists]]:
 
