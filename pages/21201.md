@@ -73,6 +73,11 @@ Review:
 
 * Masako Bando, Taichiro Kugo, Koichi Yamawaki, _Nonlinear realization and hidden local symmetries_, Physics Reports Volume 164, Issues 4–5, July 1988, Pages 217-314 (<a href="https://doi.org/10.1016/0370-1573(88)90019-1">doi:10.1016/0370-1573(88)90019-1</a>)
 
+With emphasis on [[Skyrmions]] involving [[vector mesons]]:
+
+* Yong-Liang Ma, Ghil-Seok Yang, Yongseok Oh, Masayasu Harada, _Skyrmions with vector mesons in the hidden local symmetry approach_, Phys. Rev. D87:034023, 2013 ([arXiv:1209.3554](https://arxiv.org/abs/1209.3554))
+
+
 Interpretation/derivation in [[holographic QCD]]:
 
 * D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
