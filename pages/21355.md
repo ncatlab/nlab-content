@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[quantum hadrodynamics]], _charmonium_ refers to a [[meson]] which is a [[bound state]] of a [[charm quark]] and its [[antiparticle]] (charm [[quarkonium]]).
+In [[quantum hadrodynamics]], _charmonium_ $J/\psi$ is the [[charm quark|charm]]-form of _[[quarkonium]]_: a [[meson]] which is a [[bound state]] of a [[charm quark]] and its [[antiparticle]].
 
 ## References
 
@@ -29,3 +29,9 @@ On the [[Dalitz decay]] of charmonium:
 * _Study of the Dalitz decay $J/\psi \to e^+e^- \eta$_, Phys. Rev. D 99, 012006 (2019) ([arXiv:1810.03091](https://arxiv.org/abs/1810.03091))
 
 [[!redirects charmonia]]
+
+[[!redirects J/ψ-meson]]
+[[!redirects J/ψ-mesons]]
+
+[[!redirects J/ψ meson]]
+[[!redirects J/ψ mesons]]
