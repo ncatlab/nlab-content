@@ -17,6 +17,10 @@ On [[flavour anomalies]]:
 
 * [[Antonio Pich]], _Flavour Anomalies_, PoS LHCP2019 (2019) 078 ([arxiv:1911.06211](https://arxiv.org/abs/1911.06211), [spire:1765034](https://inspirehep.net/literature/1765034))
 
+On [[right-handed neutrinos]] in relation to [[flavor anomalies]]:
+
+* Rusa Mandal, Clara Murgui, Ana Peñuelas, [[Antonio Pich]], _The role of right-handed neutrinos in $b \to c \tau \bar \nu$ anomalies_ ([arXiv:2004.06726](https://arxiv.org/abs/2004.06726))
+
 
 
 
