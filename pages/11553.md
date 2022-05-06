@@ -1,4 +1,8 @@
 
+> This entry is about [[M-theory]]/[[F-theory]] [[KK-compactification|compactified]] on [[K3-surfaces]]. For [[M-theory]] on [[MO9]]-planes see instead at _[[Hořava-Witten theory]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,9 +22,9 @@
 
 A [[duality in string theory]]:
 
-[[F-theory]] "[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|KK-compactified]] on a 2-[[torus]]. 
+[[F-theory]] "[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|KK-compactified]] on a [[2-torus]]. 
 
-More generally, [[F-theory]] on a [[complex manifold|complex]] $n$-dimensional $X$ fibered $X\to B$ with elliptic [[K3]]-fibers is supposed to be equivalent to [[heterotic string theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau manifold]] $Z \to B$ of [[complex manifold|complex]] [[dimension]] $(n-1)$.
+More generally, [[F-theory]] on a [[complex manifold|complex]] $n$-dimensional $X$ fibered $X\to B$ with elliptic [[K3]]-[[fibers]] is supposed to be equivalent to [[heterotic string theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau manifold]] $Z \to B$ of [[complex manifold|complex]] [[dimension]] $(n-1)$.
 
 A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
 
@@ -50,13 +54,40 @@ There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic strin
 
 ## References
 
-The observation of the relation between the two theories originates (together with the observation of [[M-theory]]) in
+### For type IIA and M-theory
 
-* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+The conjectured duality between [[type IIA string theory]] [[KK-compactification|KK-compactified]] on [[K3]] times an [[n-torus]] and [[heterotic string theory]] on the $(n+2)$-torus is originally due to
+
+* [[Chris Hull]], [[Paul Townsend]], section 6 of _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
 
 * {#Witten95} [[Edward Witten]], section 4 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
-Further details were worked out in 
+
+Review includes
+
+* [[Paul Aspinwall]], [[David Morrison]], _String Theory on K3 Surfaces_, in [[Brian Greene]], [[Shing-Tung Yau]] (eds.), _Mirror Symmetry II_, International Press, Cambridge, 1997, pp. 703-716 ([arXiv:hep-th/9404151](https://arxiv.org/abs/hep-th/9404151))
+
+
+* {#Aspinwall96} [[Paul Aspinwall]], _K3 Surfaces and String Duality_, in  [[Shing-Tung Yau]] (ed.): _Differential geometry inspired by string theory_ 1-95 ([arXiv:9611137](https://arxiv.org/abs/hep-th/9611137) [spire:426102](http://inspirehep.net/record/426102))
+
+Further discussion includes
+
+* [[Paul Aspinwall]], _Enhanced Gauge Symmetries and K3 Surfaces_, Phys.Lett. B357 (1995) 329-334 ([arXiv:hep-th/9507012](http://arxiv.org/abs/hep-th/9507012))
+
+* [[Eric Bergshoeff]], C. Condeescu, G. Pradisi, F. Riccioni, _Heterotic-Type II duality and wrapping rules_, JHEP12(2013)057 ([arXiv:1311.3578](https://arxiv.org/abs/1311.3578))
+
+Specifically in [[M-theory on G2-manifolds]]:
+
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] section 6.4 of _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
+Specifically in relation to [[Moonshine]]:
+
+* [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
+
+
+### For F-theory
+
+Discussion for [[F-theory]] includes
 
 * {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl.Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
 
@@ -83,4 +114,7 @@ The issue with non-reducible $E_8$-gauge connections is highligted in
 * {#DistlerSharpe10} [[Jacques Distler]], [[Eric Sharpe]], section 5 of _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
 
+[[!redirects duality between F-theory and heterotic string theory]]
+
 [[!redirects F/M-theory on elliptically fibered Calabi-Yau 2-folds]]
+
