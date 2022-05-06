@@ -688,11 +688,11 @@ for a unique $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the
 ###### Proposition
 **([[universal morphisms]] are [[initial objects]] in the [[comma category]])**
 
-Let $\mathcal{C} \overset{R}{\longrightarrow} \mathcal{D}$ be a [[functor]] and $d \in \mathcal{D}$ an [[object]]. Then the following are equivalent:
+Let $R: \mathcal{D} \to \mathcal{C}$ be a [[functor]] and $c \in \mathcal{C}$ an [[object]]. Then the following are equivalent:
 
-1. $d \overset{\eta_d}{\to} R(c)$ is a [[universal morphism]] into $R(c)$ (Def. \ref{UniversalArrow});
+1. $c \overset{\eta_c}{\to} R(d)$ is a [[universal morphism]] into $R(d)$ (Def. \ref{UniversalArrow});
 
-1. $(d, \eta_d)$ is the [[initial object]] in the [[comma category]] $d/R$.
+1. $(c, \eta_c)$ is the [[initial object]] in the [[comma category]] $c/R$.
 
 
 =--
