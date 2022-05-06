@@ -239,14 +239,11 @@ which depends in a definite way on the degrees of $c^K$ for  all isotropy groups
 +-- {: .proof}
 ###### Proof
 
-  This follows as a special case of the equivariant Hopf degree theorem 
-  (Prop. \ref{EquivariantHopfDegreeTheorem}). 
+This follows as a special case of the equivariant Hopf degree theorem (Prop. \ref{EquivariantHopfDegreeTheorem}). 
 
-  The list of assumptions there is satisfied because [[representation spheres]] are [[G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
+The list of assumptions there is satisfied because [[representation spheres]] are [[G-CW-complexes]] ([this Prop.](representation+sphere#RepresentationSpheresAreGCWComplexes)), and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
 
-  This equivariant Hopf degree theorem
-  is stated above under the simplifying assumption that the dimension
-  of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ is 0, with $\left( S^V\right)^G = S^0$. Then, our assumption of bipointedness uniquely fixes the choice of map $S^0 \overset{c^G}{\longrightarrow} S^0$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
+This equivariant Hopf degree theorem is stated above under the simplifying assumption that the dimension of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ is 0, with $\left( S^V\right)^G = S^0$. Then, our assumption of bipointedness uniquely fixes the choice of map $S^0 \overset{c^G}{\longrightarrow} S^0$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
 
 =--
 
