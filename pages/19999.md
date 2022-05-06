@@ -104,9 +104,15 @@ Hence a poly-isomorphism is a collection of _[[invertible morphisms]]_ of $C$.
 
 ## References
 
-Poly-morphisms are considered in section 0 of:
+The construction for enrichment in plain sets is considered (without the category-theoretic formulation) in:
 
-* {#Mochizuki12} [[Shinichi Mochizuki]], _Inter-universal Teichm&#252;ller theory I, Construction of Hodge theaters_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf))
+* {#Mochizuki12} [[Shinichi Mochizuki]], section 0 of _Inter-universal Teichm&#252;ller theory I, Construction of Hodge theaters_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf))
+
+The construction for enrichment in [[posets]] is considered in
+
+* Alveen Chand, [[Ittay Weiss]], _An ordered framework for partial multivalued functors_, Computer Science and Engineering (APWC on CSE), 2015 2nd Asia-Pacific World Congress on Computer Science ([arXiv:1511.00746](https://arxiv.org/abs/1511.00746))
+
+
 
 
 [[!redirects poly-morphisms]]
