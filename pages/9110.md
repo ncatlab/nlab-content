@@ -41,7 +41,7 @@ If $X_7 = S^7/G_{ADE}$ is an [[orbifold]] of the round [[7-sphere]] by an finite
 
 The original article is 
 
-* {#FreundRubin80} [[Peter Freund]] and M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980).
+* {#FreundRubin80} [[Peter Freund]], M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980). (<a href="https://doi.org/10.1016/0370-2693(80)90590-0">doi:10.1016/0370-2693(80)90590-0</a>)
 
 Early developments include:
 
