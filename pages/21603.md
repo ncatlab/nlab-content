@@ -205,7 +205,7 @@ As a practical matter, presuppositions don't validate themselves, so a proof ass
 
 If the presuppositions can be checked automatically, the presupposition policy is not so visible to the user, but it's still there. When trying to represent judgment-level assertions as types though, the details of the presupposition policy become important.
 
-Getting back to ($\Pi t:\top.(t \in A) \to (t \in B)$) failing to correspond to ($\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$), the problem is now that the forms of implication generally don't correspond, due to the implicit requirement to check that the type-level implication is a valid type. Assuming a *type* incurs an obligation to show that the expression is in fact a type, while assuming a *judgment* has no implicit obligation.
+Getting back to ($\Pi t:\top.(t \in A) \to (t \in B)$) failing to correspond to ($\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$), the problem is that the forms of implication generally don't correspond, due to the implicit requirement to check that the type-level implication is a valid type. Assuming a *type* incurs an obligation to show that the expression is in fact a type, while assuming a *judgment* has no implicit obligation.
 
 #### Type Expressions differing only in their Presuppositions
 
