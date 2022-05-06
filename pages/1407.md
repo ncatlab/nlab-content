@@ -522,5 +522,6 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 [[!redirects superstring theories]]
 
 [[!redirects perturbative string theory]]
+[[!redirects perturbative string theories]]
 
 
