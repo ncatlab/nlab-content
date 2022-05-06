@@ -87,6 +87,7 @@ Of course, if $L$ preserves all pullbacks (i.e. it is [[left exact reflection|le
 
 
 
+
 [[!redirects semi-left-exact reflection]]
 [[!redirects semi-left-exact reflections]]
 [[!redirects semi left exact reflection]]
