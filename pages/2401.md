@@ -49,7 +49,7 @@ The term possibly originates with Riemann, who was the first to study what are n
 
 ### Coarse moduli space 
 
-A **coarse moduli space** for a [[presheaf]] $(Sch/\mathbb{C})^{op} \to Set$ on complex [[scheme]]s is a [[scheme]] $M \in Sch/\mathbb{C}$ equipped with a morphism 
+A **coarse moduli space** for a [[presheaf]] $F:(Sch/\mathbb{C})^{op} \to Set$ on complex [[scheme]]s is a [[scheme]] $M \in Sch/\mathbb{C}$ equipped with a morphism 
 
 $$
   \Psi_M : F \to h_M
