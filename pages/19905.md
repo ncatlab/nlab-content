@@ -45,7 +45,7 @@ This means that a point on the [[boundary]] of the Fulton-MacPherson compactific
 
 More abstractly one may sum this up succinctly by saying that the ASFM-compactification is the  [[blowup]] of the [[fat diagonal]] inside the [[Cartesian products]] of the base space with itself. 
 
-In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points", but this is heuristics and unrelated to actual [[infinitesimal neighbourhoods]] in [[synthetic differential geometry]]: the Axelrod-Singer-Fulton-MacPherson compactifications are plain [[topological spaces]], not [[object]] in a [[smooth topos]].
+In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points". While there may be some formal relation to actual [[infinitesimal neighbourhoods]] in (for example) [[synthetic differential geometry]], we point out the Axelrod-Singer-Fulton-MacPherson compactifications as defined below are plain [[topological spaces]] or manifolds with corners in some sense, not [[objects]] in [[smooth topos]] in the usual sense. 
 
 ## Definition
 
@@ -78,12 +78,12 @@ $$
     Emb\left( \{1, \cdots, n\}, \mathbb{R}^d \right)/\left( \mathbb{R}^d \rtimes \mathbb{R}_{\gt 0}\right)
   \right)
   \;=\;
-  n \cdot d - n - 1
+  n \cdot d - d - 1
 $$
 
-while for $n \leq 1$ the quotient is the [[point space]] (of [[dimension of a manifold|dimension]] 0)
+while for $n \leq 1$ the quotient is the [[point space]] (of [[dimension of a manifold|dimension]] 0).
 
-Now for [[pair]] $i \neq j \in \{1, \cdots, n\}$ of distinct consider the [[continuous function]]
+Now for a [[pair]] $i \neq j \in \{1, \cdots, n\}$ of distinct indices, consider the [[continuous function]]
 
 \[
   \label{ProjectionsToBoundarySpheres}
@@ -105,7 +105,7 @@ Now for [[pair]] $i \neq j \in \{1, \cdots, n\}$ of distinct consider the [[cont
 
 which takes each configuration to the [[direction]] of the [[vector]] between the $i$th and the $j$th point in the configuration.
 
-Moreover, for each [[triple]] $i,j,k$ of mutually distinct labels, consider the [[continuous function]]
+Moreover, for each [[triple]] $i,j,k$ of mutually distinct indices, consider the [[continuous function]]
 
 $$
   \array{
