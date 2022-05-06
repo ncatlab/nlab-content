@@ -23,7 +23,7 @@ $$
   \Gamma(\mathcal{S}^-(X))
 $$
 
-given by composing the action of the [[covariant derivative]] on [[sections]] with the [[symbol map]]. This is an [[elliptic operator]]. The [[index of a Dirac operator|index]] of this operator is called the **$\hat A$-[[genus]]**.
+given by [[composition|composing]] the action of the [[covariant derivative]] on [[sections]] with the [[symbol map]]. This is an [[elliptic operator]]. The [[index of a Dirac operator|index]] of this operator is called the **$\hat A$-[[genus]]**.
 
 ### In terms of the universal $Spin$-orientation of $KO$
 
