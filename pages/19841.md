@@ -10,7 +10,7 @@ The key idea is that of _proof of work_. Think of a blockchain simply as a [[lis
 
 The key points are the following.
 
-1. The cryptographic hash with the required properties is hard to create, where 'hard' means requiring significant computational resources and takes time (e.g. something like [[prime]] factorisation). Use of these computational resources to create the hash is referred to as 'proof of work'.
+1. The cryptographic hash with the required properties is hard to create, where 'hard' means requiring significant computational resources and taking time (e.g. something like [[prime]] factorisation). Use of these computational resources to create the hash is referred to as 'proof of work'.
 
 1. The hash of $B_{i+1}$ depends on the hash of $B_{i}$. 
 
