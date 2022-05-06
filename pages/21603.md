@@ -148,7 +148,9 @@ h:R[t1,t2] \vdash c \Vdash C
 
 ## Judgment-level reasoning
 
-Reasoning at the judgment level using this metalanguage is not as convenient as having a type checker for terms, or even as convenient as having a Nuprl-like proof refiner that extracts the realizers. But it's very straightforward and expressive.
+Reasoning at the judgment level using this metalanguage is not as convenient as having a type checker for terms, or even as convenient as having a Nuprl-like proof refiner that extracts the realizers. But it's very straightforward and expressive. It can be used to prove derived rules, and other facts about derivability that aren't of the form to be rules. For example, you can show that adding a certain new rule would allow deriving a contradiction.
+
+Many unusual phenomena of Nuprl-like systems become clearer when analyzed in terms of judgment-level reasoning.
 
 ### Vs reasoning about Reflected Judgments
 
@@ -158,14 +160,28 @@ For example, consider the metalanguage formula:
 
 $$\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$$
 
-The puzzle is to find a type (assuming ($A\,type$) and ($B\,type$)) that's provably inhabited if and only if that formula is derivable. In more detail, we want some metalanguage function $R$ such that:
+The puzzle is to find, assuming ($A\,type$) and ($B\,type$), a type that's provably inhabited if and only if that formula is derivable. In more detail, we want some metalanguage function $R$ such that:
 
 $$\forall A,B.(A\,type) \Rightarrow (B\,type) \Rightarrow
 ((\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)) \Leftrightarrow (\exists p.p \Vdash R(A,B)))$$
 
 A couple of perhaps-plausible-looking solutions for $R(A,B)$ are ($\Pi t:Comp.(t \in A) \to (t \in B)$) and ($\Pi t:\top.(t \in A) \to (t \in B)$). But both of these are wrong. The first is too weak (you get left-to-right only) and the second is not even a type (which makes existence of an element too strong).
 
-The metalanguage formula we're trying to represent turns out to be asserting that $A$ is a subtype of $B$. So we can take $R(A,B)$ to be ($A \lt\!\!:\;B$). In fact, the first wrong answer is what we called "inclusion" ($\subseteq$).
+The metalanguage formula we're trying to represent turns out to be asserting that $A$ is a subtype of $B$, since it can be read as a special case of the subsumption rule:
+
+$$\frac{t \Vdash A}{t \Vdash B}$$
+
+So we can take $R(A,B)$ to be ($A \lt\!\!:\;B$). In fact, the first wrong answer is what we called "inclusion" ($\subseteq$).
+
+#### Open vs "Closed Terms"
+
+So how come ($\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$) and ($\Pi t:Comp.(t \in A) \to (t \in B)$) don't correspond? I mean, the intuitive reason is that subtyping is not just member inclusion, it must also preserve equations. But what is the formal reason? We have the fact that
+
+$$\forall p.(a \Vdash A) \Leftrightarrow (p \Vdash a \in A)$$
+
+so the difference between ($\Vdash$) and ($\in$) is not the mismatch. The mismatch turns out to be the quantifiers used.
+
+#### Strong vs Weak Negation
 
 FIXME: Move to a different section:
 
