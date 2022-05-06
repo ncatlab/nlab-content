@@ -468,7 +468,7 @@ Review is in
 
 * {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
-* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanre, _Algebraic models in geometry_, Oxford graduate texts in mathematics 17 (2008)
+* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanre]], _Algebraic models in geometry_, Oxford graduate texts in mathematics 17 (2008)
 
 * A. Yu. Onishchenko and Th. Yu. Popelensky, _Rational cohomology of the free loop space of a simply connected 4-manifold_, J. Fixed Point Theory Appl. 12 (2012) 69&#8211;9 ([DOI 10.1007/s11784-013-0100-0](http://link.springer.com/article/10.1007/s11784-013-0100-0))
 
