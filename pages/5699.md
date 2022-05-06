@@ -10,6 +10,15 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 ## Selected talks
 
+Introducing [[Gopakumar-Vafa duality]]:
+
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _Topological Gravity as Large N Topological Gauge Theory_, Adv. Theor. Math. Phys. 2:413-442, 1998 ([arXiv:hep-th/9802016](https://arxiv.org/abs/hep-th/9802016))
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
+
+
+
 
 On [[mirror symmetry]], [[topological string theory]] and a [[mysterious duality]]:
 
