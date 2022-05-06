@@ -106,6 +106,17 @@ This is a special case of [Brown 82, Theorem 1.5](#Brown82), reviewed for instan
 
 \linebreak
 
+### Homotopy groups
+
+The [[homotopy groups]] of $SO(4)$ in low degrees are
+
+
+| $G$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $SO(4)$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}^{\oplus 2}$ | $\mathbb{Z}_{2}^{\oplus 2}$ | $\mathbb{Z}_{2}^{\oplus 2}$ | $\mathbb{Z}_{12}^{\oplus 2}$ | $\mathbb{Z}_{2}^{\oplus 2}$ | $\mathbb{Z}_{2}^{\oplus 2}$ | $\mathbb{Z}_{3}^{\oplus 2}$ | $\mathbb{Z}_{15}^{\oplus 2}$|$\mathbb{Z}_{2}^{\oplus 2}$ |$\mathbb{Z}_{2}^{\oplus 4}$  | $\mathbb{Z}_2^{\oplus 2}\oplus\mathbb{Z}_{12}^{\oplus 2}$ | $\mathbb{Z}_2^{\oplus 4}\oplus\mathbb{Z}_{84}^{\oplus 2}$ | $\mathbb{Z}_2^{\oplus 4}$ | 
+
+\linebreak
+
 ## Related concepts
 
 [[!include low dimensional rotation groups -- table]]
