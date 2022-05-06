@@ -59,7 +59,7 @@ When the idea of "Witten's dark fantasy" was proposed in [Witten 95a](#Witten95a
 
 However, debate remains over whether the apparently observed [[cosmological constant]] is actually real:
 
-1. The authors of [KLKCR 19](#KLKCR19) claim that temporal evolution of [[supernovae]] luminosity had been underappreciated, which makes the apparent evidence for a [[positive number|positive]] [[cosmological constant]] completely go away. Earlier [NGS 16](#NielsenGuffantiSarkar16) had pointed out that even with the established interpretation of the data, a vanishing [[cosmological constant]] is not excluded by the data.
+1. The authors of [KLKCR 19](#KLKCR19) claim that temporal evolution of [[supernovae]] luminosity had been underappreciated, which makes the apparent evidence for a [[positive number|positive]] [[cosmological constant]] completely go away. Earlier, [NGS 16](#NielsenGuffantiSarkar16) had pointed out that even with the established interpretation of the data, a vanishing [[cosmological constant]] is not excluded by the data.
 
 1. Since around 2000 many authors have argued that the apparent [[cosmological constant]] may be an artefact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). 
 
