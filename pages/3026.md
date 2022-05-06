@@ -481,6 +481,9 @@ So let $X$ be a locally compact Hausdorff space. By prop. \ref{OnePointExtension
 
 * [[configuration space (mathematics)]]
 
+* [Yang-Mills instanton -- SU(2)-instantons from the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)_
+
+
 ## References
 
 The concept goes back to 
