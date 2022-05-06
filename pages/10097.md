@@ -17,7 +17,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -53,15 +52,13 @@ An outlook as of 2013 is in
 
 * [[Tyler Lawson]], in section 3 of _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
 
-Previous work motivating the conjecture was the study of the [[algebraic K-theory]] $K(KU)$ of the [[complex K-theory spectrum]] $KU$ (also thought of as the [[classifying space]] for [[BDR 2-vector bundles]]) in 
+Previous work motivating the conjecture was the study (see also at _[[iterated algebraic K-theory]]_) of the [[algebraic K-theory]] $K(ku)$ of the [[complex K-theory spectrum]] $ku$ (also thought of as the [[classifying space]] for [[BDR 2-vector bundles]]) in 
 
 * {#BaasDundasRognes07} [[Nils Baas]], [[Bjørn Dundas]], [[Birgit Richter]], [[John Rognes]], _Ring completion of rig categories_ ([arXiv:0706.0531](http://arxiv.org/abs/0706.0531))
 
 which was motivated by the desire to turn [[topological K-theory]] into "a form of" [[elliptic cohomology]] by a kind of [[categorification]].
 
-See also
-
-* [[Christian Ausoni]], _On the algebraic K-theory of the complex K-theory spectrum_ ([arXiv:0902.2334](http://arxiv.org/abs/0902.2334))
+For more see the references at _[[iterated algebraic K-theory]]_.
 
 [[!redirects red shift conjecture]]
 [[!redirects redshift conjecture]]
