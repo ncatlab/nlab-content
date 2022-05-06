@@ -25,6 +25,8 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 For more see at _[[geometry of physics -- supergeometry]]_.
 
+Supergeometry may defined over an arbitrary commutative ring ([Schwarz and Shapiro 06](#SchwarzShapiro)).
+
 ## Related concepts
 
 * [[signs in supergeometry]]
@@ -97,8 +99,9 @@ A summary/review is in the appendix of
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
   
+Generalization to supergeometry over an arbitrary commutative ring, in particular $p$-adic rings, is given in
 
-* [[Albert Schwarz]], I- Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
+* {#SchwarzShapiro} [[Albert Schwarz]], I. Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
 
 
 A review of all this as geometry in the [[topos]] over the category of [[superpoints]] is in
