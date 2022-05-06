@@ -17,10 +17,11 @@
 
 The concept of a [[special linear group]] $SL(2,K)$ with $K = \mathbb{O}$ the [[octonions]] does not quite make sense, due to the failure of the [[octonions]] to be an [[associative algebra]]. 
 
-Nevertheless, the pattern of the [[special linear groups]] of the other three [[real numbers|real]] [[normed division algebras]] suggests that for some suitably adjusted concept of "special linear group", it should make sense to speak of $SL(2,\mathbb{O})$, after all, and be essentially the [[spin group]] $Spin(9,1)$:
+Nevertheless, the pattern of the [[special linear groups]] of the other three [[real numbers|real]] [[normed division algebras]] suggests that for some suitably adjusted concept of "special linear group", it should make sense to speak of $SL(2,\mathbb{O})$, after all, and that it should essentially be essentially the [[spin group]] $Spin(9,1)$:
 
 [[!include exceptional spinors and division algebras -- table]]
 
+One proposal for making sense of $SL(2,\mathbb{O})$ is due to [Hitchin 18](#Hitchin18)
 
 ## References
 
