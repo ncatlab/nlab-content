@@ -60,8 +60,36 @@ hence the [[quotient group]] by the [[subgroup]]
 
 (e.g. [Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
 
-Similarly for $Spin(n_1) \cdot Spin(n_2)$, etc.
+A similar definition yields 
 
+$$
+  Spin(n_1) \cdot Spin(n_2)
+  \;\coloneqq\;
+  \big(
+    Spin(n_1)
+    \times 
+    Spin(n_2)
+  \big)/\mathbb{Z}_2
+$$
+
+for 
+
+$$
+  \mathbb{Z}_2
+  \;\simeq\;
+  \big\{
+    (1,1), (-1,-1)
+  \big\}
+  \;\hookrightarrow\;
+  Spin(n_1) \times Spin(n_1)
+  \,.
+$$
+
+Sometimes one sees the notation further generalized to include cases such as
+
+* $Spin(n) \cdot U(1) = $ [[Spin^c]].
+
+\linebreak
 
 ## Properties
 
