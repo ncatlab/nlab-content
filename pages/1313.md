@@ -34,8 +34,8 @@ An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian 
 
 The above is actually a complete definition, but here we spell it out.
 
-Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]]s with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __[[evaluation map]]__ $ev: X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e: Z \times Y \to X$, there exists a unique map $u: Z \to X^Y$ such that
-$$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
+Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]]s with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __[[evaluation map]]__ $\mathrm{ev}\colon X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e\colon Z \times Y \to X$, there exists a unique map $u\colon Z \to X^Y$ such that
+$$ Z \times Y \stackrel{u \times \mathrm{id}_Y}\to X^Y \times Y \stackrel{\mathrm{ev}}\to X $$
 equals $e$.
 
 The map $u$ is known by various names, such as the _exponential transpose_ or *[[currying]]* of $e$.  It is sometimes denoted $\lambda(e)$ in a hat tip to the [[lambda-calculus]], since in the [[internal logic]] of a cartesian closed category this is the operation corresponding to $\lambda$-abstraction.  It is also sometimes denoted $e^\flat$ (as in music notation), being an instance of the more general notion of [[adjunct]] or [[mate]].
@@ -72,14 +72,14 @@ In the cartesian closed category [[Set]] of [[set]]s, for $X,S \in Set$ to sets,
 Restricted to [[finite set]]s and under the [[cardinality]] operation $|-| : FinSet \to \mathbb{N}$ this induces an exponentiation operation on [[natural number]]s
 
 $$
-  |X^S| = |X|^{|S|}
+  \left|X^S\right| = |X|^{|S|}
   \,.
 $$
 
 This exponentiation operation on numbers $(-)^{(-)} : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ is therefore the [[decategorification]] of the canonically defined [[internal hom]] of sets. It sends numbers $a,b \in \mathbb{N}$ to the product
 
 $$
-  a^b = a \times a \times \cdots \times a \;\; (b \; factors)
+  a^b = a \times a \times \cdots \times a \;\; (b \; \text{factors})
   \,.
 $$
 
