@@ -33,7 +33,7 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 * [[Liouville integrability]], [[integrable PDE]], [[soliton]] 
 
-* [[Bethe ansatz]]
+* [[spin chain]], [[Bethe ansatz]]
 
 * [[quasitriangular bialgebra]], [[Yangian]], [[quantum group]] 
 
