@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -291,6 +292,82 @@ For type 1 the $\mathbb{Z}/2\mathbb{Z}$-grading lifts to an $\mathbb{Z}$-grading
 
 reviewed e.g. in ([Farmer 84, p. 25,26](#Farmer84), [Minwalla 98, section 4.1](#Minwalla98)).
 
+
+### Relation to dg-Lie algebras
+ {#RelationToDGLieAlgebras}
+
+A [[dg-Lie algebra]] $(\mathfrak{g}, \partial, [-,-])$ may be understood equivalently as a [[super Lie algebra]] 
+
+$$
+  (\mathfrak{g} = \mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}, [-,-,])
+$$ 
+
+equipped with 
+
+1. a [[lift]] of the $\mathbb{Z}_2$-[[graded vector space|grading]] of the underlying [[vector space]] to a $\mathbb{Z}$[-graded vector space](graded+vector+space#SpecialCaseOfZGradedVectorSpaces) through the projection $\mathbb{Z} \to \mathbb{Z}/2\mathbb{Z} = \mathbb{Z}_2$, hence
+
+   $$
+     \mathfrak{g}_{even}
+     \;\simeq\;
+     \underset{n }{\oplus} \mathfrak{g}_{2n}
+     \,,
+     \phantom{AAA}
+     \mathfrak{g}_{odd}
+     \;\simeq\;
+     \underset{n }{\oplus} \mathfrak{g}_{2n+1}
+   $$
+
+   such that 
+
+   $$
+     [-,-] \;\colon\; \mathfrak{g}_{n_1} \otimes \mathfrak{g}_{n_2} \longrightarrow \mathfrak{g}_{n_1 + n_2}
+   $$
+
+1. an element $Q \in \mathfrak{g}_{-1}$  
+
+   such that 
+
+   \[
+     \label{NilpotencyOfQ}
+      [Q,Q] = 0
+   \]
+
+(See also at "[[NQ-supermanifold]]".)
+
+Given this, define the [[differential]] to be the [[adjoint action]] by $Q$:
+
+$$
+  \partial \;\coloneqq\; [Q,-]
+  \,.
+$$
+
+That this differential squares to 0 follows by the super-Jacobi identity (eq:GradedJacobiIdentity) and by the nilpotency (eq:NilpotencyOfQ):
+
+$$
+  [Q,[Q,-] ]
+  \;=\;
+  [ \underset{= 0}{\underbrace{[Q,Q]}}, -  ] - [  Q, [Q, -]  ]
+  \phantom{AA}
+  \Rightarrow
+  \phantom{AA}
+  [ Q,[Q,-] ] = 0
+$$
+
+and the [[derivation]]-property of the differential over the bracket follows again with the super Jacobi identity (eq:GradedJacobiIdentity):
+
+$$
+  [Q,[x,y] ]
+  \;=\;
+  [ [Q,x],y]
+  + (-1)^{deg(x)} [x, [Q,y] ]
+  \,.
+$$
+
+
+
+
+
+
 ## Examples
  {#Examples}
 
@@ -365,10 +442,10 @@ $$
 
 
 
-### $\mathbb{Z}$-graded Super-Lie algebra extension of $\mathfrak{gl}(V)$
+### Embedding tensors and tensor hierarchy
  {#SuperLieAlgebraInducedFromVectorSpace}
 
-The following example is highlighted in [Palmkvist 13, 3.1](#Palmkvist13) (reviewed more clearly in [Lavau-Palmkvist 19, 2.4](#LavauPalmkvist19)) where it is atributed to I. L. Kantor (1970).
+The following example is highlighted in [Palmkvist 13, 3.1](tensor+hierarchy#Palmkvist13) (reviewed more clearly in [Lavau-Palmkvist 19, 2.4](tensor+hierarchy#LavauPalmkvist19)) where it is attributed to I. L. Kantor (1970).
 
 +-- {: .num_defn #TheSuperLieAlgebraInducedFromVectorSpace}
 ###### Definition
@@ -379,19 +456,21 @@ Define a $\mathbb{Z}$-[[graded vector space]]
 
 $$
   \widehat V \;\in \; Vect_k^{\mathbb{Z}}
+  \,,
 $$
 
-concentrated in degrees $\leq 1$ [[recursion|recursively]] as follows:
+concentrated in degrees $\leq 1$, [[recursion|recursively]] as follows:
 
-For $n =1$ we have
+For $n =1$ we set
 
 $$
   \widehat V_{1}
   \;\coloneqq\;
   V
+  \,.
 $$
 
-and for $n \leq 0 \in \mathbb{Z}$, the component space in degree $n-1$ is the vector space of [[linear maps]] from $V$ to the component space in degree $n$:
+For $n \leq 0 \in \mathbb{Z}$, the component space in degree $n-1$ is taken to be the vector space of [[linear maps]] from $V$ to the component space in degree $n$:
 
 $$
   \widehat V_{n-1}
@@ -477,26 +556,6 @@ $$
 
 
 Hence (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is already implied by (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) if the bracket is to satisfy the super Jacobi identity (eq:GradedJacobiIdentity).
-
-=--
-
-+-- {: .num_example #LieBracketOnglInsideSuperLieAlgebraInducedFromVectorSpace}
-###### Example
-
-For $f,g \in \widehat V_0 = Hom_k(V,V)$ (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace) we have that the bracket in Def. \ref{SuperLieAlgebraInducedFromVectorSpace} is 
-
-$$
-  [f,g](v)
-  \;=\;
-  [f,g(v)] - [g,f(v)]
-  \;=\;
-  f(g(v)) - g(f(v))
-$$
-
-(by combining (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) with (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace)).
-
-This is the [[Lie bracket]] of the [[general linear Lie algebra]] $\mathfrak{gl}(V)$, as indicated on the right in (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace).
-
 
 =--
 
@@ -680,6 +739,110 @@ $$
 =--
 
 
++-- {: .num_example #LieBracketOnglInsideSuperLieAlgebraInducedFromVectorSpace}
+###### Example
+
+For $f,g \in \widehat V_0 = Hom_k(V,V)$ (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace) we have that the bracket on $\widehat V$ in Def. \ref{SuperLieAlgebraInducedFromVectorSpace} restricts to
+
+$$
+  [f,g](v)
+  \;=\;
+  [f,g(v)] - [g,f(v)]
+  \;=\;
+  f(g(v)) - g(f(v))
+$$
+
+(by combining (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) with (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace)).
+
+This is the [[Lie bracket]] of the [[general linear Lie algebra]] $\mathfrak{gl}(V)$, as indicated on the right in (eq:ExplicitComponentSpacesOfSuperLieAlgebraInducedFromVectorSpace).
+
+=--
+
++-- {: .num_prop #EmbeddingTensorViaSuperLieAlgebraInducedFromVectorSpace}
+###### Proposition
+**([[embedding tensors]] are square-0 elements in $\widehat{V}$)**
+
+Let $k$ be a [[ground field]] of [[characteristic zero]].
+
+An element in degree -1 of the [[super Lie algebra]] $\widehat V$ from Def. \ref{SuperLieAlgebraInducedFromVectorSpace}, 
+
+$$
+  \Theta \in \widehat V_{-1} \simeq Hom_{k}(V, \mathfrak{gl}(V))
+  \,,
+$$
+
+which by Example \ref{LieBracketOnglInsideSuperLieAlgebraInducedFromVectorSpace} is identified with a [[linear map]] 
+
+$$
+  \Theta \;\colon\; V \longrightarrow \mathfrak{g} \coloneqq \mathfrak{gl}(V)
+$$
+
+from $V$ to the [[general linear Lie algebra]] on $V$, is square-0 (eq:NilpotencyOfQ) precisely if it is an _[[embedding tensor]]_, in that:
+
+$$
+  [\Theta, \Theta]
+  \;=\;
+  0
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  [\Theta(v_1), \Theta(v_2) ]
+  \;=\;
+  \Theta( \rho_{\Theta(v)1)}(v_2) )
+  \,.
+$$
+
+Here on the right, $[-,-]$ denotes the [[Lie bracket]] in $\mathfrak{gl}(V)$, while $\rho$ denotes the canonical [[Lie algebra action]] of $\mathfrak{gl}(V)$ on $V$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By unwinding of the definition (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) and (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) and using again Example \ref{LieBracketOnglInsideSuperLieAlgebraInducedFromVectorSpace} we compute as follows:
+
+$$
+  \begin{aligned}
+    \big( \tfrac{1}{2} [Q,Q](v_1) \big)(v_2)
+    & =
+    [Q, Q(v_1)](v_2)
+    \\
+    & =
+    [Q, 
+      \underset{
+        \mathclap{
+          = \rho_{\Theta(v_1)}(v_2)   
+        }
+      }
+      {
+        \underbrace{
+          (Q(v_1))(v_2)
+        }
+      }
+    ] 
+    - 
+    [Q(v_1), Q(v_2)]
+    \\
+    & =
+    \Theta( \rho_{\Theta(v_1)}(v_2) )
+    -
+    [ \Theta(v_1), \Theta(v) ]
+  \end{aligned}
+$$
+
+
+=--
+
++-- {: .num_prop #EmbeddingTensorsInduceTensorHierarchies}
+###### Remark
+**([[embedding tensors]] induce [[tensor hierarchies]])**
+
+In view of the relation between [[super Lie algebras]] and [[dg-Lie algebras]] ([above](#RelationToDGLieAlgebras)), Prop. \ref{EmbeddingTensorViaSuperLieAlgebraInducedFromVectorSpace} says that every choice of an [[embedding tensor]] for a [[faithful representation]] on a [[vector space]] $V$ induces a [[dg-Lie algebra]] 
+$(\widehat V, [-,-], \partial \coloneqq [\Theta, -])$.
+
+According to [Palmkvist 13, 3.1](tensor+hierarchy#Palmkvist13), [Lavau-Palmkvist 19, 2.4](tensor+hierarchy#LavauPalmkvist19) this [[dg-Lie algebra]] (or some extension of some sub-algebra of it) is the _[[tensor hierarchy]]_ associated with the embedding tensor.
+
+=--
 
 ## Related entries
 
