@@ -506,7 +506,7 @@ In Frege structures, too, proposition validity is [non-negatable](#NonNegate). W
 
 So intuitively, the problem with representing negative occurrences of $T$ without stratification is that that would entail assuming proposition validity in a proposition. But you can't, since proposition validity is non-negatable.
 
-### Fitch-Scott Partial Logic
+### Fitch-Scott Partial Logic {#FSLogic}
 
 [[Dana Scott]] wrote [a note](#ScottComb) in which he sketched a system very similar to Frege structures. This was prior to Peter Aczel's paper that coined "Frege structures". Scott attributes key ideas of the system to Fitch, who worked on foundational logics based on combinators.
 
@@ -565,7 +565,7 @@ Finally, Scott sketches a sort of universe hierarchy, based on stratifying the c
 
 At the same time as Scott's note, [Kripke came out with](#KripkeTruth) a "theory of truth" very much like Fitch's idea to use partial logic to avoid paradox. Kripke followed the style of Tarski's notion of truth predicate, rather than use combinators or lambda calculus. Formulas can be Gödel numbered in first-order arithmetic, and this numbering allows formulating Tarski's T-schema, saying that any formula is logically equivalent to the truth predicate applied to the Gödel number of the formula.
 
-Just as Fitch-Scott logic and Frege structures allow defining recursive formulas using the untyped lambda calculus/combinators, Gödel numbers and the T-schema allow for recursive formulas by combining the truth predicate with [quining][]. You might say Frege structures provide [[type of types#RussellStyle|Russell-style]] recursive formulas while Kripke's theory provides [[type of types#TarskiStyle|Tarski-style]] recursive formulas. Either way, you can formulate "This sentence is false.", and the liar paradox is avoided by not assigning that formula a truth value.
+Just as Fitch-Scott logic and Frege structures allow defining recursive formulas using the untyped lambda calculus/combinators, Kripke's theory allows them by combining the truth predicate with [quining][]. You might say Frege structures provide [[type of types#RussellStyle|Russell-style]] recursive formulas while Kripke's theory provides [[type of types#TarskiStyle|Tarski-style]] recursive formulas. Either way, you can formulate "This sentence is false.", and the liar paradox is avoided by not assigning that formula a truth value.
 
 [quining]: https://en.wikipedia.org/wiki/Quine_(computing)
 
