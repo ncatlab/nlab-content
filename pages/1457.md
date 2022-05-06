@@ -89,6 +89,8 @@ Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|c
 
 (The requisite axioms for an enriched groupoid do not make sense when the enriching category is not cartesian, but one might argue that since in a poset "they would commute automatically anyway", it makes sense to call any poset-enriched $\dagger$-category also an "enriched groupoid".  However, perhaps it makes more sense just to speak about enriched $\dagger$-categories.)
 
+In the presence of the symmetry axiom, the "separation" axiom "$x=y$ if $d(x,y)=0$" is equivalent to [[skeletal category|skeletality]] of an enriched category.  That is, a pseudo-metric space is a metric space precisely when it is skeletal.  But in the non-symmetric case, this separation axiom is stronger than skeletality; the latter would say only "$x=y$ if $d(x,y)=d(y,x)=0$".  That is, a quasi-pseudo-metric space can be skeletal without being a quasi-metric space, at least the way the latter term is usually used.
+
 Note that like any kind of enriched category, Lawvere metric spaces are [[monads]] in a [[bicategory]] of "matrices", whose objects are sets and whose morphisms from $X$ to $Y$ are functions $d:X\times Y \to [0,\infty]$.  This sort of perspective can be generalized to many other kinds of topological structures; an exposition can be found in the book [Monoidal topology](#HST).
 
 The category of metric spaces and categories of random maps as generalised metric spaces were studied in the [thesis](#Meng) of Lawvere's student Xiao-qing Meng. 
