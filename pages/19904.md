@@ -1,12 +1,16 @@
 
 * [webpage](https://uclouvain.be/fr/repertoires/pascal.lambrechts)
 
-## selected writings
+## Selected writings
+
+On [[graph complex]]-models for [[configuration spaces of points]]:
 
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
+* {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
 
-## related $n$Lab entries
+
+## Related $n$Lab entries
 
 * [[configuration space of points]]
 
