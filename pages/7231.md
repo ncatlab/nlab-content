@@ -71,7 +71,11 @@ See for instance the introduction of ([Joyce](#Joyce)).
 The inclusion $G_2 \hookrightarrow GL(7)$ of def. \ref{As2PlectomorphismsOnR7} factors through the [[special orthogonal group]]
 
 $$
-  G_2 \hookrightarrow SL(7) \hookrightarrow GL(7)
+  G_2 
+    \hookrightarrow 
+  SO(7) 
+    \hookrightarrow 
+  GL(7)
   \,.
 $$
 
