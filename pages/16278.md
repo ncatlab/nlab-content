@@ -31,7 +31,7 @@ For Hegel's relation to [[Meister Eckhart]], see [there](Meister+Eckhart#Relatio
 
 The philosopher [[Bertrand Russell]] concerned himself with mysticism and was, according to himself, influenced by a "mathematical mysticism" in his younger years. 
 
-In his essay "Mysticism and Logic" ([Russell 1918]({#Russell18)) Russell understands mysticism as "the attempt to conceive the world as a whole by means of thought". He gives four characteristics of it:
+In his essay "Mysticism and Logic" ([Russell 1918](#Russell18)) Russell understands mysticism as "the attempt to conceive the world as a whole by means of thought". He gives four characteristics of it:
 
 1. "belief in insight as against discursive knowledge"
 1. a belief in unity of everything
@@ -44,7 +44,7 @@ In the autobiographical book _Portraits from Memory_ the passage
 
 > Mathematics ... deals with the world of ideas and has in consequence an exactness and perfection which is absent from the everyday world. This kind of mathematical mysticism, which Plato derived from Pythagoras, appealed to me.
 
-may serve as an example how Russell was influenced in young age by the exposure to mathematics; more poetically it is expressed in the essay _The Study of Mathematics_ published along with _Mysticism and Logic_ ([Russell 1918]({#Russell18))
+may serve as an example how Russell was influenced in young age by the exposure to mathematics; more poetically it is expressed in the essay _The Study of Mathematics_ published along with _Mysticism and Logic_ ([Russell 1918](#Russell18))
 
 > Mathematics, rightly viewed, possesses not only truth, but supreme beauty---a beauty cold and austere, like that of sculpture, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show. The true spirit of delight, the exaltation, the sense of being more than man, which is the touchstone of the highest excellence, is to be found in mathematics as surely as in poetry. ... Real life is, to most men, a long second-best, a perpetual compromise between the ideal and the possible; but the world of pure reason knows no compromise, no practical limitations, no barrier to the creative activity embodying in splendid edifices the passionate aspiration after the perfect from which all great works springs.
 
