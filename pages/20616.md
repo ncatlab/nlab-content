@@ -24,7 +24,7 @@ In this presentation of coherence spaces, we can regard $u$ as a relation $1\to 
 
 Let $C$ be a [[symmetric monoidal category]] with an object $I^*$, and let a family $\perp_X\subseteq C(I,X)\times C(X,I^*)$ of relations be given. (For coherence spaces, let $C=Rel$ and $I=I^*$ and $\perp$ be as above. 
 
-Let $X$ be an object of $C$. The relation $\perp$ defines a [[Galois connection]] between $C(I,X)$ and $C(X,I^*)$ in the usual way: for ${U}\subseteq C(I,X)$ we have ${U}^\perp = \{ v \in C(X,I^*) \mid \forall u\in {U}. u\perp v \}$, and likewise for ${V}\subseteq C(X,J)$ we have ${V}^\perp = \{ u \in C(I,X) \mid \forall v\in {V}. u\perp v \}$.
+Let $X$ be an object of $C$. The relation $\perp$ defines a [[Galois connection]] between $C(I,X)$ and $C(X,I^*)$ in the usual way: for ${U}\subseteq C(I,X)$ we have ${U}^\perp = \{ v \in C(X,I^*) \mid \forall u\in {U}. u\perp v \}$, and likewise for ${V}\subseteq C(X,I^*)$ we have ${V}^\perp = \{ u \in C(I,X) \mid \forall v\in {V}. u\perp v \}$.
 
 We define a **tight orthogonality space** $(X,U,V)$ to be an object $X\in C$ together with ${U}\subseteq C(I,X)$ and ${V}\subseteq C(X,I^*)$ that is a fixed point of this Galois connection, ${U}^\perp = {V}$ and ${V}^\perp= U$.  
 A **morphism** between tight orthogonality spaces $(X_1,{U_1},{V_1})\to (X_2,{U_2},{V_2})$ is a morphism $f\in C(X_1,X_2)$ such that
