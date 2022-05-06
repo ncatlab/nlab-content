@@ -155,7 +155,7 @@ See the article by Selinger below for more examples.
 
 Introductions to and surveys of string diagram calculus:
 
-* {#Selinger} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([arXiv:0908.334](http://arxiv.org/abs/0908.3347))
+* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
 
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
@@ -248,7 +248,7 @@ See also these:
 * [[David Yetter]], _Framed tangles and a theorem of Deligne on braided deformations of tannakian categories_ In M. Gerstenhaber and [[Jim Stasheff]] (eds.) _Deformation Theory and Quantum Groups with Applications to Mathematical Physics_, Contemporary Mathematics 134, pages 325&#8211;349. Americal Mathematical Society,
 1992.
 
-For more on the history of the notion see the bibliography in ([Selinger 09](#Selinger)).
+For more on the history of the notion see the bibliography in ([Selinger 09](#Selinger09)).
 
 
 ### Details
