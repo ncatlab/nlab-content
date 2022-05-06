@@ -4,16 +4,22 @@
 
 ## Selected writings
 
+On [[duality between type I and heterotic string theory]]:
+
+* [[Oren Bergman]], [[Matthias Gaberdiel]], G. Lifschytz, _String Creation and Heterotic-Type I' Duality_, Nucl. Phys. B524 (1998) 524-544 ([arXiv:hep-th/9711098](https://arxiv.org/abs/hep-th/9711098))
+
+On the [[ABJM model]]:
+
 * {#ABJM08} [[Ofer Aharony]], [[Oren Bergman]], Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
 
-  ([[ABJM model]])
 
 * {#AharonyBergmanJafferis08} [[Ofer Aharony]], [[Oren Bergman]], Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+
+On [[D-brane charge]] in [[K-theory]] on [[orientifolds]]:
 
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
-  (on [[D-brane charge]] in [[K-theory]] on [[orientifolds]])
 
 ## Related $n$Lab entries
 
