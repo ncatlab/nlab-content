@@ -377,7 +377,7 @@ The first appearance in print of the definition was in
 
 Later the definition was applied tentatively for the construction of weak $n$-cateories of cobordisms in
 
-* [[Eugenia Cheng]] and [[Nick Gurski]], _Towards an $n$-category of cobordisms_, Theory and Applications of Categories,  Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+* [[Eugenia Cheng]] and [[Nick Gurski]], _Towards an $n$-category of cobordisms_, Theory and Applications of Categories, Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
 
 This article first reviews the original definition
 
@@ -393,7 +393,7 @@ A comparison of Trimble's definition with that of a [[Batanin omega-category]] i
 
 Weak ω-category construction via terminal coalgebras
 
-* [[Eugenia Cheng]] and [[Tom Leinster]], _Weak ω-categories via terminal coalgebras_ ([arXiv](https://arxiv.org/abs/1212.5853))
+* [[Eugenia Cheng]] and [[Tom Leinster]], _Weak ω-categories via terminal coalgebras_ ([arXiv](https://arxiv.org/abs/1212.5853)), published as _Weak $\infty$-categories via terminal coalgebras_, Theory and Applications of Categories,  Vol. 34, 2019, No. 34, pp 1073-1133. ([tac](http://www.tac.mta.ca/tac/volumes/34/34/34-34abs.html))
 
 ## Discussion
 
