@@ -44,6 +44,18 @@ Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global
 
 > A morphism $f:A\rightarrow B$ in $\mathcal{C}$ is a surjection or a surjective morphism if, given any global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$. 
 
+
++-- {: .num_prop}
+###### Proposition
+In a category $\mathcal{C}$ with a [[terminal object]] $1$, the unique morphism $!:A\rightarrow 1$ is a surjection. 
+=--
+
++-- {: .proof}
+###### Proof
+By definition of a terminal object, for every object $A$ there exists a unique morphism $!:A\rightarrow 1$, and the identity morphism is the unique global element $1_{1}:1\rightarrow 1$. The composite of a global element $x:1\rightarrow A$ with the function $!:A\rightarrow 1$ results in a function $! \circ x:1\rightarrow 1$, which by definition of a terminal object is the same as $1_{1}:1\rightarrow 1$. Since $! \circ x = 1_{1}$, for every object $A$, $!:A\rightarrow 1$ is a surjection. 
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 In a category $\mathcal{C}$ with a [[terminal object]] $1$ such that $1$ is a [[separator]], every surjection is an [[epimorphism]]. 
@@ -56,12 +68,12 @@ For any surjection $f:A\rightarrow B$, suppose there are parallel morphisms $g, 
 
 +-- {: .num_prop}
 ###### Proposition
-In a category $\mathcal{C}$ with a [[terminal object]] $1$ and binary [[equalisers]] such that every [[surjection]] has a [[section]] (axiom of choice for surjections), the terminal object $1$ is a [[separator]]. 
+In a category $\mathcal{C}$ with a [[terminal object]] $1$ and binary [[equalisers]] such that every [[surjection]] is a [[split epimorphism]] (axiom of choice for surjections), the terminal object $1$ is a [[separator]]. 
 =--
 
 +-- {: .proof}
 ###### Proof
-Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$. One could construct an equaliser $f:eq(g,h)\rightarrow B$, which implies that $g \circ f = h \circ f$ and that for any element $x\in eq(g,h)$, $g \circ f \circ x = h \circ f \circ x$. This implies that for every global element $y:1\rightarrow B$, $y = f \circ x$, and the equaliser $f:eq(g,h)\rightarrow B$ is a surjection. Since every surjection has a section $i:B\rightarrow eq(g,h)$ such that $f \circ i = 1_{B}$, the identity morphism on $B$, $g \circ f \circ i = h \circ f \circ i$, $g \circ 1_{B} = h \circ 1_{B}$, and $g = f$. Because for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$ implies $g = h$, the terminal object $1$ is a [[separator]].
+Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$. One could construct an equaliser $f:eq(g,h)\rightarrow B$, which implies that $g \circ f = h \circ f$ and that for any element $x\in eq(g,h)$, $g \circ f \circ x = h \circ f \circ x$. This implies that for every global element $y:1\rightarrow B$, there exists a global element $x\in eq(g,h)$ where $y = f \circ x$, and the equaliser $f:eq(g,h)\rightarrow B$ is a surjection. Since every surjection is a [[split epimorphism]], $f$ has a section $i:B\rightarrow eq(g,h)$ such that $f \circ i = 1_{B}$, the identity morphism on $B$, $g \circ f \circ i = h \circ f \circ i$, $g \circ 1_{B} = h \circ 1_{B}$, and $g = f$. Because for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$ implies $g = h$, the terminal object $1$ is a [[separator]].
 =--
 
 ### Duals of surjections
