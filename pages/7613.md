@@ -229,7 +229,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
-[Duff 19, USC interview](Michael+Duff#WeDontKnowWhatItIs):
+[Duff 19, USN interview](Michael+Duff#WeDontKnowWhatItIs):
 
 > The problem we face is that we have a patchwork understanding of M-theory, like a quilt. We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is. 
 
