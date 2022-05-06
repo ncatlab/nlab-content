@@ -75,7 +75,7 @@ Interview with [[Mike Duff]] by Graham Fermelo, _The universe speaks in numbers 
 \linebreak
 
 
-[[Duff interview at M-Theory-Mathematics 2020]]:
+{#Duff20} [[Duff interview at M-Theory-Mathematics 2020]]:
 
 > (06:59) But the matrix model itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
 
