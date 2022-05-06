@@ -18,6 +18,10 @@ __Propositional logic__, also called __$0$th-order logic__ and __sentential logi
 
 Compare [[predicate logic]], or $1$st-order logic, and [[higher-order logic]].  Note that while one can have *free* variables in $0$th-order logic, one cannot really do anything with them; each $P(x)$ in a $0$th-order proposition might as well be thought of as atomic.
 
+This can be understood more cleanly in the language of many-sorted logic, where each variable has to have a specified sort.
+Then ordinary predicate logic has exactly one sort, usually unnamed.
+Propositional logic is for a signature with no sorts, hence no variables at all.
+
 A __propositional calculus__, also called __sentential calculus__, is simply a system for describing and working with propositional logic.  The precise form of such a calculus (and hence of the logic itself) depends on whether one is using [[classical logic]], [[intuitionistic logic]], [[linear logic]], etc; see those articles for details.
 
 ## Related concepts
