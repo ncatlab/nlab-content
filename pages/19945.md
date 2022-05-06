@@ -1,6 +1,6 @@
 ## Idea
 
-An idempotent semifield is an [[idempotent semiring]] that has a zero and in which every non-zero element is invertible. Or, in other words, a [[skewfield]] in which an element may not have a negative but is always idempotent with respect to multiplication.
+An idempotent semifield is an [[idempotent semiring]] that has a zero and in which every non-zero element is invertible. Or, in other words, a [[skewfield]] in which an element may not have a negative but is always idempotent with respect to addition.
 
 ## Definition
 
