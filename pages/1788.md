@@ -116,3 +116,7 @@ Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in exist
 
 * {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
 
+ - $0 = s(n) \vdash_{n} \bot$
+  - $s(n) = s(n') \vdash_{n n'} n=n'$
+  - $\top \vdash_{n} \bigvee_{i} n=\underset{i}{\underbrace{s \dots s}}(0)$
+
