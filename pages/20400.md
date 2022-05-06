@@ -1,7 +1,7 @@
 
 ## Idea
 
-Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable]] [[type checking]] based on subsumptive [[equality types]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just unpublished metatheory development, but information may appear here.
+Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable type checking]] based on subsumptive [[equality types]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just Matt Oliveri's unpublished metatheory development, but information may appear here.
 
 ## Syntax
 
@@ -18,7 +18,7 @@ terms ($t$, $a$, $b$, $f$, $T$, $A$, $B$, $R$, ...)` ::=`
 
 * $a = b \in C \qquad$ (equality type)
 * $\Pi x:A.B \qquad$ (dependent function type)
-* $\cap x:A.B \qquad$ (family intersection type)
+* $\bigcap x:A.B \qquad$ (family intersection type)
 * $Comp \qquad$ (type of computations ([[realizers]]))
 * $\{x:A | B\} \qquad$ (subset/separation type)
 * $\{x = y | R\} \qquad$ ([[PER]] comprehension type)
@@ -26,9 +26,9 @@ terms ($t$, $a$, $b$, $f$, $T$, $A$, $B$, $R$, ...)` ::=`
 
 To be added: an infinite type.
 
-contexts ($\Gamma$, ...)` ::= . | `$\Gamma,x:T$
+contexts ($\Gamma$, ...)` ::= `$\cdot$` | `$\Gamma,x:T$
 
-As usual, the rules will make liberal use of informal list operations to work with contexts.
+As usual, the rules may make liberal use of informal list operations to work with contexts.
 
 ### Judgment forms
 
@@ -77,7 +77,7 @@ Note: ($A \lt\!\!:\;B$) ought to be logically equivalent to ($A \subseteq B \wed
 
 $A \sqsubseteq B\;\coloneqq\;A \subseteq B \wedge B \prec A$
 
-Note the reversal of $\prec$ in $\sqsubseteq$, compared to $\lt\!\!:$. As relations on types, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ ought to be preorders. $\prec$ is intransitive.
+Note the reversal of $\prec$ in $\sqsubseteq$, compared to $\lt\!\!:$. As relations on types, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ ought to be preorders. $\prec$ is not transitive.
 
 #### Computations
 
