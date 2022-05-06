@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-This means in particular that $ker(p)$ is "commutative" (e.g. a [[commutative algebra]] or [[abelian group]] or [[Lie algebra]] with vanishing [[Lie bracket]] etc.), but it means in addition that the elements of $ker(p)$ commute noit just among themselves, but also with all other elements of $\widehat A$.
+This means in particular that $ker(p)$ is "commutative" (e.g. a [[commutative algebra]] or [[abelian group]] or [[Lie algebra]] with vanishing [[Lie bracket]] etc.), but it means in addition that the elements of $ker(p)$ commute not just among themselves, but also with all other elements of $\widehat A$.
 
 
 Typically central extensions by some commutative algebraic object $ker(p)$ are classified by the suitable degree-2 [[cohomology group]] $H^2(A,ker(p))$ of $A$ with [[coefficients]] in $ker(p)$. In fact, typically there is an embedding of the situation into [[homotopical algebra]]/[[higher algebra]] such that this [[cohomology group]] is given by the [[homotopy classes]] of morphisms to a second [[delooping]] object $B ker(p)$ (in the context of [[groups]]: the [[delooping]] [[2-group]])
@@ -83,7 +83,7 @@ See also
 
 Discussion of application in [[physics]]:
 
-* G. M. Tuynman, W. A. Wiegenbrinck, _Central extensions and physics_ ([pdf](http://math.univ-lille1.fr/~gmt/PaperFolder/CentralExtensions.pdf))
+* G. M. Tuynman, W. A. Wiegenbrinck, _Central extensions and physics_, J. Geom. Physics 4:2(1987), 207–258.([doi](https://doi.org/10.1016/0393-0440%2887%2990027-1))
 
 
 
