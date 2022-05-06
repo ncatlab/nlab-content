@@ -31,6 +31,10 @@ $B$-theorists claim they have science on the side, in particular the [[theory of
 
 ## Related concepts
 
+* [[proper time]]
+
+* [[comoving time]]
+
 * [[frequency]]
 
 * [[second]], [[year]]
