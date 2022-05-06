@@ -165,6 +165,8 @@ Note in particular that, somewhat surprisingly, the **associativity** in a unita
 
 * {#brown00}K. S. Brown, _Semigroups, Semirings, and Markov Chains_ , J. Theor. Prob. **13** no.3 (2000) pp.871-938. 
 
+* R. Guitart, _Autocategories: II. Autographic algebras_ , Cah. Top. Géom. Diff. Cat. **LV** (2014) pp.151-160.  
+
 * N. Kimura, _The structure of idempotent semigroups I_ , Pacific
 Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
 
