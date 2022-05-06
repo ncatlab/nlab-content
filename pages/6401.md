@@ -38,11 +38,11 @@ Mostly however "superspace" is used for [[superspacetimes]], and here mostly for
 
 The concept of superspace in physics (together with that of [[superfields]]) is due to
 
-* [[Abdus Salam]] J.A. Strathdee, _Supergauge Transformations_, Nucl.Phys. B76 (1974) 477-482 ([spire](http://inspirehep.net/record/89208))
+* [[Abdus Salam]], [[John Strathdee]], _Supergauge Transformations_, Nucl.Phys. B76 (1974) 477-482 ([spire:89208](http://inspirehep.net/record/89208))
 
-* [[Abdus Salam]] J.A. Strathdee, Physical Review D11, 1521-1535 (1975)
+* [[Abdus Salam]], [[John Strathdee]], _Superfields and Fermi-Bose symmetry_, Physical Review D11, 1521-1535 (1975) ([doi:10.1142/9789812795915_0051](https://doi.org/10.1142/9789812795915_0051))
 
-(which considered superspace if dimension $d = 4$ with number of supersymmetries $N = 2$, hence the [[supermanifold]] $\mathbb{R}^{4\vert \mathbf{4}+ \mathbf{4}}$, or rather the [[super Minkowski spacetime]] $\mathbb{R}^{3,1\vert \mathbf{4}+ \mathbf{4}}$)
+(which considered superspace of dimension $d = 4$ with number of supersymmetries $N = 2$, hence the [[supermanifold]] $\mathbb{R}^{4\vert \mathbf{4}+ \mathbf{4}}$, or rather the [[super Minkowski spacetime]] $\mathbb{R}^{3,1\vert \mathbf{4}+ \mathbf{4}}$)
 
 A textbook account is
 
