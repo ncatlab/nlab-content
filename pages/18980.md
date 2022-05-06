@@ -27,6 +27,8 @@ In the [[standard model of particle physics]], a _lepton_ is a [[fermion]] that 
 
 * [[anomalous magnetic moment]]
 
+* [[baryon-lepton symmetry]]
+
 ## Related concepts
 
 * [[dilepton]]
