@@ -21,6 +21,27 @@
 
 +-- {: .num_prop}
 ###### Proposition
+
+For $D, n \in \mathbb{N}$, the [[ordinary homology]], with [[coefficients]] in some [[ground field]] $\mathbb{F}$, of the [[based loop space]] of the [[ordered configuration space of points]] in the [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^D$ is [[isomorphism|isomorphic]] to the [[universal enveloping algebra]] $(\mathcal{A}^{pb})^\bullet$ of the [[Lie algebra]] given by the [[infinitesimal braid relations]]:
+
+$$
+  H_\bullet
+  \big(
+    \Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}
+    ;
+    \mathbb{F}
+  \big)
+  \;\simeq\;
+  (\mathcal{A}^{pb})^\bullet
+  \,.
+$$
+
+Here $\mathcal{A}^{pb}$ is equivalently the [[associative algebra]] of [[horizontal chord diagrams]] [[quotient vector space|modulo]] the [[2T relations]] and [[4T relations]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
 **(integral [[horizontal weight systems]] are [[integral cohomology]] of [[based loop space]] of [[ordered configuration space of points]] in [[Euclidean space]])**
 
 For [[ground ring]] $R = \mathbb{Z}$ the [[integers]], there is, for each [[natural number]] $n$, a canonical [[isomorphism]] of [[graded abelian groups]] between 
