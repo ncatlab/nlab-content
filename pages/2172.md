@@ -1,3 +1,3 @@
-The material previously referred to on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Logical_Graphs).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Logical_Graphs).
 
 [[!redirects Logical Graph]]
