@@ -97,6 +97,13 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 <img src="https://ncatlab.org/nlab/files/PontrjaginThomConstructionI.jpg" width="800">
 </center>
 
+Here the [[normal framing]] of the submanifolds plays the role of the [[charge]] in [[Cohomotopy]] which they carry:
+
+{#nCohomotopyChargeOfSubmanifoldsIsNormalFraming}$\,$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/nCohomotopyChargeOfSubmanifoldsIsNormalFraming.jpg" width="800">
+</center>
 
 For example:
 
