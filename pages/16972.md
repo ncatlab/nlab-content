@@ -263,7 +263,7 @@ See also at _[[equivariant stable cohomotopy]]_
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of 
 $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
-* {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
+* {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995) ([doi:10.1017/CBO9780511470912](https://doi.org/10.1017/CBO9780511470912))
 
 * {#HasudaTomizawa09} Machiko Hatsuda, Shinya Tomizawa, _Coset for Hopf fibration and Squashing_, Class.Quant.Grav.26:225007, 2009 ([arXiv:0906.1025](https://arxiv.org/abs/0906.1025))
 
