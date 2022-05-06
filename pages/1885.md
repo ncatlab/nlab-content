@@ -16,7 +16,7 @@
 
 ## Idea
 
-The **Moore space** $M(G, n)$, where $G$ is an [[abelian group]] and $n \geq 1$, is a [[topological space]] which has non-trivial (reduced) [[homology group]]  $G$ precisely only in dimension $n$. 
+The **Moore space** $M(G, n)$, where $G$ is an [[abelian group]] and $n \geq 1$, is a [[topological space]] which has non-trivial (reduced) [[homology group]]  $G$ precisely only in dimension $n$ and is simply connected if $n \geq 2$. 
 
 (This is somewhat dual to the notion of [[Eilenberg-MacLane space]], which instead has nontrivial [[homotopy group]] in one single dimension.)
 
