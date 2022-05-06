@@ -44,7 +44,10 @@ The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-
 ### Higgs inflation
  {#HiggsInflation}
 
-The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variations are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. See below at _[References -- Higgs inflation](#ReferencesHiggsInflation)_.
+The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variations are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. 
+
+In particular, the near-criticality of the Higgs potential (see [there](Higgs+field#Curiously)) has been argued to be just the right condition to makle Higgs inflation viable [Jegerlehner 13](#Jegerlehner13), [Jegerlehner 14](#Jegerlehner14), [Jegerlehner 15](#Jegerlehner15), [Jegerlehner 18](#Jegerlehner18), for review see also [Rubio 18 ](#Rubio18).
+
 
 ### Axion inflation
 
@@ -52,7 +55,12 @@ see _[[axion inflation]]_
 
 ### Higher curvature inflation (Starobinsky model)
 
-see _[[Starobinsky model of cosmic inflation]]_
+It is possible that instead of the inflaton being a fundamental [[scalar field]], it is an effective result of [[higher curvature corrections]] to [[gravity]].
+
+The first such $R^2$ correction leads to the _[[Starobinsky model of cosmic inflation]]_, which sits right in the middle of the parameter space preferred by the PLANCK satellite data.
+
+Discussion of inflationary effects of ever higher curvature corrections includes [Arciniega-Edelstein-Jaime 18](#ArciniegaEdelsteinJaime18), [ABCEHJ 18](#ABCEHJ18).
+
 
 ## Related concepts
 
@@ -119,6 +127,15 @@ see _[[Starobinsky model of cosmic inflation]]_
 
 * {#PlanckCollaboration15} [[Planck Collaboration]], _Planck 2015, Overview of results_ ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_I_Overview_Products_Results.pdf/14d90465-03c2-4e3c-b8d1-73181248673d))
 
+### Inflation from higher curvature corrections
+
+Besides the references at _[[Starobinsky model of cosmic inflation]]_ the following discuss inflation driven by [[higher curvature corrections]]:
+
+* {#ArciniegaEdelsteinJaime18} Gustavo Arciniega, Jose D. Edelstein, Luisa G. Jaime, _Towards purely geometric inflation and late time acceleration_ ([arXiv:1810.08166](https://arxiv.org/abs/1810.08166))
+
+* {#ABCEHJ18} Gustavo Arciniega, Pablo Bueno, Pablo A. Cano, Jose D. Edelstein, Robie A. Hennigar, Luisa G. Jaimem, _Geometric Inflation_ ([arXiv:1812.11187](https://arxiv.org/abs/1812.11187))
+
+
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
 
@@ -132,7 +149,7 @@ Literature discussing whether or how the [[Higgs field]] might be identified as 
 
 * Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
 
-* Javier Rubio, _Higgs inflation_ ([arXiv:1807.02376](https://arxiv.org/abs/1807.02376))
+* {#Rubio18} Javier Rubio, _Higgs inflation_, Front. Astron. Space Sci. 5:50 (2019) ([arXiv:1807.02376](https://arxiv.org/abs/1807.02376))
 
 A popular account in the context of the 2013 [[Plack Collaboration]] results is in 
 
@@ -142,11 +159,11 @@ Discussion of Higgs inflation with emphasis on relation to the [near-criticality
 
 * {#Jegerlehner13} [[Fred Jegerlehner]], _The hierarchy problem of the electroweak Standard Model revisited_ ([arXiv:1305.6652](https://arxiv.org/abs/1305.6652))
 
-* [[Fred Jegerlehner]], _Higgs inflation and the cosmological constant_, Acta Phys.Polon. B45 (2014) 1215-1254 ([arXiv:1402.3738](https://arxiv.org/abs/1402.3738))
+* {#Jegerlehner14} [[Fred Jegerlehner]], _Higgs inflation and the cosmological constant_, Acta Phys.Polon. B45 (2014) 1215-1254 ([arXiv:1402.3738](https://arxiv.org/abs/1402.3738))
 
 * [[Fred Jegerlehner]], _About the role of the Higgs boson in the evolution of the early universe_ ([arXiv:1406.3658](https://arxiv.org/abs/1406.3658))
 
-* [[Fred Jegerlehner]], _The hierarchy problem and the cosmological constant problem in the Standard Model_ ([arXiv:1503.00809](https://arxiv.org/abs/1503.00809))
+* {#Jegerlehner15} [[Fred Jegerlehner]], _The hierarchy problem and the cosmological constant problem in the Standard Model_ ([arXiv:1503.00809](https://arxiv.org/abs/1503.00809))
 
 * {#Jegerlehner18} [[Fred Jegerlehner]], _The Hierarchy Problem and the Cosmological Constant Problem Revisited -- A new view on the SM of particle physics_ ([arXiv:1812.03863](https://arxiv.org/abs/1812.03863))
 
