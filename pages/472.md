@@ -65,7 +65,7 @@ Cylinder functors also form one of the key elements in Baues' approach to [[alge
 
 * [[Hans-Joachim Baues]], _Combinatorial Homotopy and 4-Dimensional Complexes_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991).
 
-* [[Hans-Joachim Baues]], _Homotopy Types_, in I.M.James, ed., _Handbook of Algebraic Topology_, 1--72, Elsevier, (1995).
+* [[Hans-Joachim Baues]], _Homotopy Types_, in I.M.James, ed., _[[Handbook of Algebraic Topology]]_, 1--72, Elsevier, (1995).
 
 Cylindrical model structures are discussed in
 
