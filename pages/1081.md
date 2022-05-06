@@ -82,7 +82,7 @@ the **homology** $H_n(V)$ of $V$ in degree $n$ is the object
 
 $$
   \begin{aligned}
-    im(ker \delta_{n-1} \to  V_n \to coker \delta) 
+    im(ker \delta_{n-1} \to  V_n \to coker \delta_{n}) 
     & \simeq
     coker(im \delta_n \to ker \delta_{n-1})
     \\
