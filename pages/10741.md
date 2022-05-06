@@ -85,6 +85,8 @@ The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) sta
 
 ## Related concepts
 
+* [[Hopf degree theorem]]
+
 * [[EHP spectral sequence]]
 
 ## References
