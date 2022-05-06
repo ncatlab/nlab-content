@@ -116,13 +116,13 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_ ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455))
 
 
-* Yolanda Lozano, Niall T. Macpherson, Carlos Nunez, Anayeli Ramirez, $1/4$ BPS $AdS_3/CFT_2$ ([arxiv:1909.09636](https://arxiv.org/abs/1909.09636))
+* [[Yolanda Lozano]], Niall T. Macpherson, Carlos Nunez, [[Anayeli Ramirez]], $1/4$ BPS $AdS_3/CFT_2$ ([arxiv:1909.09636](https://arxiv.org/abs/1909.09636))
 
 
-* Yolanda Lozano, Niall T. Macpherson, Carlos Nunez, Anayeli Ramirez, _Two dimensional $N=(0,4)$ quivers dual to $AdS_3$ solutions in massive IIA_ ([arxiv:1909.10510](https://arxiv.org/abs/1909.10510))
+* [[Yolanda Lozano]], Niall T. Macpherson, Carlos Nunez, [[Anayeli Ramirez]], _Two dimensional $N=(0,4)$ quivers dual to $AdS_3$ solutions in massive IIA_ ([arxiv:1909.10510](https://arxiv.org/abs/1909.10510))
 
 
-* Yolanda Lozano, Niall T. Macpherson, Carlos Nunez, Anayeli Ramirez, _$AdS_3$ solutions in massive IIA, defect CFTs and T-duality_ ([arxiv:1909.11669](https://arxiv.org/abs/1909.11669))
+* [[Yolanda Lozano]], Niall T. Macpherson, Carlos Nunez, [[Anayeli Ramirez]], _$AdS_3$ solutions in massive IIA, defect CFTs and T-duality_ ([arxiv:1909.11669](https://arxiv.org/abs/1909.11669))
 
 * Kostas Filippas, _Non-integrability on $AdS_3$ supergravity_ ([arxiv:1910.12981](https://arxiv.org/abs/1910.12981))
 
