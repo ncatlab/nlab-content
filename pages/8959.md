@@ -20,7 +20,7 @@
 
 ## Idea
 
-[[Per Martin-Löf]]'s **meaning explanations of type theory** provide a way to justify the correctness of the rules of [[type theory]].  The meaning of the judgements of type theory are defined by [[computation]] of closed terms to [[canonical form]] in some untyped notion of computation, such as a lambda calculus extended with constants for the [[term introduction|constructors]] and [[term elimination|eliminators]] of type theory.
+[[Per Martin-Löf]]'s **meaning explanations of type theory** provide a way to justify the correctness of the rules of [[type theory]].  The meaning of the [[judgements]] of type theory are defined by [[computation]] of closed [[terms]] to [[canonical form]] in some untyped notion of [[computation]], such as a [[lambda calculus]] extended with constants for the [[term introduction|constructors]] and [[term elimination|eliminators]] of type theory.
 
 From a technical/mathematical point of view, the meaning explanations give rise to a [[realizability model]] of type theory, where realizers are terms in some untyped notion of computation, such as an extended lambda calculus.  That is, it can be regarded as a description of how types are assigned to untyped computations.  However, the term "meaning explanations" also refer to the "philosophical" or "pre-mathematical" component, which regards this as an "explanation" of the "constructive validity" of the [[judgements]] of the type theory.
 
