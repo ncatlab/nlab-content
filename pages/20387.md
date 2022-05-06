@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Trigonometry
++-- {: .hide}
+[[!include trigonometry -- contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
