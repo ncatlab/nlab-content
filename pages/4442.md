@@ -413,6 +413,35 @@ To [[black hole]] interiors:
 > The [[SYK model]] gives us a glimpse into the interior of an [[extremal black hole]]...That's the feature of SYK that I find most interesting...It is a feature this model has, that I think no other model has
 
 
+#### To the quark-gluon plasma
+
+Applications of AdS-CFT to the [[quark-gluon plasma]] of [[QCD]]:
+
+
+
+Expositions and reviews include
+
+* Pavel Kovtun, _Quark-Gluon Plasma and String Theory_, RHIC news (2009) ([blog entry](http://www.bnl.gov/rhic/news/091107/story2.asp))
+
+* Makoto Natsuume, _String theory and quark-gluon plasma_ ([arXiv:hep-ph/0701201](http://arxiv.org/abs/hep-ph/0701201))
+
+* [[Steven Gubser]], _Using string theory to study the quark-gluon plasma: progress and perils_ ([arXiv:0907.4808](http://arxiv.org/abs/0907.4808))
+
+* {#Biagazzi12} Francesco Biagazzi, A. l. Cotrone, _Holography and the quark-gluon plasma_, AIP Conference Proceedings 1492, 307 (2012) ([doi:10.1063/1.4763537]( https://doi.org/10.1063/1.4763537), [slides pdf](http://cp3-origins.dk/content/movies/2013-01-14-bigazzi.pdf))
+
+Holographic discussion of the [[shear viscosity]] of the quark-gluon plasema goes back to
+
+* {#PolicastroSonStarinets01} [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
+
+
+Other original articles include:
+
+* Hovhannes R. Grigoryan, Paul M. Hohler, Mikhail A. Stephanov, _Towards the Gravity Dual of Quarkonium in the Strongly Coupled QCD Plasma_ ([arXiv:1003.1138](http://arxiv.org/abs/1003.1138))
+
+* Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+
+
+
 #### To particle physics
 
 * [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
@@ -420,11 +449,9 @@ To [[black hole]] interiors:
 #### To condensed matter physics
  {#ToCondensedMatterPhysics}
 
-Application of [[AdS-CFT in condensed matter physics]] goes back to
+On [[AdS-CFT in condensed matter physics]]:
 
-* {#PolicastroSonStarinets01} [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
-
-A comprehensive textbook account is in
+Textbook account
 
 * {#HartnollLucasSachdev16} Sean A. Hartnoll, Andrew Lucas, [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
