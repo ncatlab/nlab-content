@@ -103,7 +103,7 @@ Existence follows by integer row reduction of integer matrices, see e.g. [Gilber
 
 Integer row reduction for integer matrices via [[greatest common divisors]] is explained for instance in 
 
-* {#GilbertPathria90} William Gilbert, Anu Pathria, _Linear Diophantine Equations_, 1990 ([pdf](https://www.math.uwaterloo.ca/~wgilbert/Research/GilbertPathria.pdf), [[GilbertPathria90.pdf:file]])
+* {#GilbertPathria90} William Gilbert, Anu Pathria, _Linear Diophantine Equations_, Dept. Pure Math. Univ. Waterloo, Ontario, Canada, 1990 ([pdf](https://www.math.uwaterloo.ca/~wgilbert/Research/GilbertPathria.pdf), [[GilbertPathria90.pdf:file]])
 
 Discussion of the general theory of integer matrices includes
 
