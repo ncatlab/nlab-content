@@ -60,7 +60,7 @@ IR non-finiteness is not physically fatal. For instance if a [[perturbation theo
 
 ### Open-closed scattering duality and KLT relations
 
-The [[open/closed string duality]] implies certain relations in string scattering amplitudes that in the point-particle limit induces relations between [[scattering amplitudes]] in [[Yang-Mills theory]] and in [[gravity]]. These are the _[[KLT relations]]_ in [[QFT]].
+The [[open/closed string duality]] implies certain relations in string scattering amplitudes that in the point-particle limit induces relations between [[scattering amplitudes]] in [[Yang-Mills theory]] and in [[gravity]]. These are the _[[KLT relations]]_ in [[QFT]]. See in particular [Mafra-Schlotterer 18a](#MafraSchlotterer18a), [Mafra-Schlotterer 18b](#MafraSchlotterer18b), [Mafra-Schlotterer 18c](#MafraSchlotterer18c).
 
 ### Twistor string amplitudes and MHV amplitudes in Yang-Mills theory
 
@@ -94,7 +94,7 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
 ### General
  {#General}
 
-A comprehensive account of the superstring [[S-matrix]] may be obtained from combining the general idea presented in
+A comprehensive account of the [[superstring]] [[S-matrix]] may be obtained from combining the general idea presented in
 
 * {#Polchinski01} [[Joseph Polchinski]], section 12.5 of vol 2 of _String theory_, Cambridge Monographs on Mathematical Physics (2001)
 
@@ -110,23 +110,42 @@ Survey of the tree level string scattering amplitudes includes
 
 * [[Katrin Becker]], [[Melanie Becker]], Ilarion V. Melnikov, Daniel Robbins, Andrew B. Royston, _Some tree-level string amplitudes in the NSR formalism_, JHEP 12 (2015) 010 ([arXiv:1507.02172](http://arxiv.org/abs/1507.02172))
 
-Survey of the presence and role of divergencies includes
-
-* [[Ashoke Sen]], _Ultraviolet and Infrared Divergences in Superstring Theory_ ([arXiv:1512.00026](http://arxiv.org/abs/1512.00026))
-
 See also 
 
 * {#Moore93} [[Gregory Moore]], _Symmetries of the Bosonic String S-Matrix_ ([arXiv:hep-th/9310026](https://arxiv.org/abs/hep-th/9310026))
 
-Discussion of superstring scattering amplitudes in terms of [[pure spinors]]:
-
-* Carlos R. Mafra, Oliver Schlotterer, _Towards the n-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
-
-* Carlos R. Mafra, Oliver Schlotterer, _Towards the n-point one-loop superstring amplitude II: Worldsheet functions and their duality to kinematics_ ([arXiv:1812.10970](https://arxiv.org/abs/1812.10970))
-
-* Carlos R. Mafra, Oliver Schlotterer, _Towards the n-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
-
 For more references see also at _[[string theory results applied elsewhere]]_.
+
+
+### Superstring scattering
+
+A review of superstring scattering amplitudes is in the last section of ([Staessens-Vernocke 10](#StaessensVernocke10)). A general discussion of the problem of superstring amplitudes is in 
+
+* [[Eric D'Hoker]] [[Duong Phong]], _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
+
+* [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
+
+See also
+
+* Corinne de Lacroix, Harold Erbin, [[Ashoke Sen]], _Analyticity and Crossing Symmetry of Superstring Loop Amplitudes_ ([arXiv:1810.07197](https://arxiv.org/abs/1810.07197))
+
+Survey of the presence and role of divergences includes
+
+* [[Ashoke Sen]], _Ultraviolet and Infrared Divergences in Superstring Theory_ ([arXiv:1512.00026](http://arxiv.org/abs/1512.00026))
+
+
+Discussion of superstring scattering amplitudes in terms of [[pure spinors]] with emphasis on [[KLT relations]] is in
+
+* {#MafraSchlotterer18a} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
+
+* {#MafraSchlotterer18b} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude II: Worldsheet functions and their duality to kinematics_ ([arXiv:1812.10970](https://arxiv.org/abs/1812.10970))
+
+* {#MafraSchlotterer18c} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
+
+For more see also at _[[superstring field theory]]_, such as
+
+* Corinne de Lacroix, Harold Erbin, Sitender Pratap Kashyap, [[Ashoke Sen]], Mritunjay Verma, _Closed Superstring Field Theory and its Applications_,  International Journal of Modern Physics AVol. 32, No. 28n29, 1730021 (2017) ([arXiv:1703.06410](https://arxiv.org/abs/1703.06410))
+
 
 
 ### Higher order corrections
@@ -155,11 +174,6 @@ There are also arguments in
 
 #### Superstring
 
-A review is in the last section of ([Staessens-Vernocke 10](#StaessensVernocke10)). A general discussion of the problem of superstring amplitudes is in 
-
-* [[Eric D'Hoker]] [[Duong Phong]], _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
-
-* [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
 
 Finiteness of heterotic and type II superstring $n$-point functions in flat spacetime is argued for in
 
