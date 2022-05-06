@@ -327,7 +327,7 @@ Moreover, these are [[Quillen adjunctions]]: the first with respect to the [[pro
 
 ## References
 
-* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_ , Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003), 103-153 ([arXiv:math/0108143](https://arxiv.org/abs/math/0108143), <a href="https://doi.org/10.1016/S0040-9383(02)00006-X">doi:10.1016/S0040-9383(02)00006-X</a> [pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
 
 
 [[!redirects stable rational homotopy theory]]
