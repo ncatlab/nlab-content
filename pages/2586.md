@@ -281,7 +281,9 @@ The [[Whitehead tower]] of the [[orthogonal group]] looks like
 
 $\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
 
-Another extension of $SO$ is the [[spin^c group]].
+* [[spin^c group]], [[spin^h group]]
+
+* [[metaplectic group]]
 
 * [[semi-spin group]]
 
