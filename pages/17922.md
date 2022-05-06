@@ -18,6 +18,8 @@ Let $N$ be a [[real spin representation]] and let $(x^a, \theta^\alpha)$ be the 
 
 * $e^a \coloneqq \mathbf{d} x^a + \overline{\theta} \Gamma^a \mathbf{d} \theta$.
 
+For more see at _[[geometry of physics -- supersymmetry]]_.
+
 ## Related concepts
 
 * [[super Cartan geometry]]
