@@ -32,9 +32,9 @@ The construction of $\to_R^*$ can be seen as the free [[preorder|preordered]] [[
 
 [[context free grammar|Context free grammars]] are defined in the same way as unrestricted grammars, but they only allow rules with a single non-terminal symbol as domain. In that particular case, the grammatical derivations are trees with the start symbol as root and the words as leaves.
 
-In [[categorial grammar|categorial grammars]], monoidal categories are replaced by [[biclosed monoidal category]]. The derivations are still trees but there is an infinite number of rewrite rules.
+In [[categorial grammar|categorial grammars]], monoidal categories are replaced by [[biclosed monoidal category]]. The derivations are trees with two kinds of rules: 1) a finite language-dependent _dictionary_ of rules $w \to \alpha$ with $w \in V$ and $\alpha \in X^*$ and 2) an infinite number of language-agnostic rules for each [[higher order logic|higher order type]].
 
-In [[pregroup grammar|pregroup grammars]], the derivations are the diagrams in a free [[rigid monoidal category]].
+Similarly [[pregroup grammar|pregroup grammars]] are constructed from  a dictionary with types coming from a [[rigid monoidal categoriy|rigid monoidal categories]]. The rewrite rules are the counit maps $x^* \otimes x \to 1$ and $x \otimes {}^*x \to 1$ for each non-terminal symbol $x \in X$, the derivations are [[string diagram|planar string diagrams]].
 
 ## History
 
