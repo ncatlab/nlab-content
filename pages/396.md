@@ -24,6 +24,8 @@ between [[hom sets]] is [[bijective]].  "Full and faithful" is sometimes shorten
 
 * Together with [[bo functor|bijective-on-objects functors]], fully faithful  functors form an [[bo-ff factorization system|orthogonal factorization system]] on $Cat$; see [[bo-ff factorization system]]. More invariantly, pair them with [[essentially surjective functor]]s to get a bicategorial factorization system.
 
+* In particular, fully faithful functors are stable under [[pullback]].
+
 * A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) [[reflected limit|reflects]] all [[limits]] and [[colimits]], also all [[isomorphisms]] (is a [[conservative functor]]).  This is evident from inspection of the defining [[universal property]].
  {#FullSubcategoryInclusionsReflectCoLimits}
 
