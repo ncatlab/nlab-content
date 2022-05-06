@@ -117,7 +117,7 @@ See also
 
 * {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
 
-* [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies Volume 39 (1980).
+* [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies Volume 39 (1980) ([ISBN:9780080871509](https://www.elsevier.com/books/introduction-to-algebraic-geometry-and-algebraic-groups/demazure/978-0-444-85443-8))
 
 * [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
 
