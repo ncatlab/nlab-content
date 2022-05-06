@@ -36,19 +36,19 @@ The $n$-simplices of this are just _[[singular simplex|singular n-simplices]]_ g
 The singular complex functor preserves all five classes
 of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyclic cofibrations]],
 [[fibrations]], and [[acyclic fibrations]].
-[[Weak equivalences]] are preserved by definition of the [[model structure]] on topological
+[[weak equivalences|Weak equivalences]] are preserved by definition of the [[model structure]] on topological
 spaces, which is [[transferred model structure|transferred]] from [[simplicial sets]].
 [[Cofibrations]] (and hence [[acyclic cofibrations]]) are preserved
 because all cofibrations of topological spaces are injective maps,
 injective maps are preserved,
 and all injective maps of simplicial sets are cofibrations.
-[[Fibrations]] and [[acyclic fibrations]] are preserved because the singular complex
+[[fibrations|Fibrations]] and [[acyclic fibrations]] are preserved because the singular complex
 functor is a [[right Quillen functor]].
 
 
 ### Relation to geometric realization
 
-Together with its [[adjoint functor|adjoint]] -- [[geometric realization]] $|-| : sSet \to Top$ -- the functor $Sing : Top \to sSet$ is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the [[model structure on simplicial sets]] that is sometimes called the [[homotopy hypothesis]]-theorem.
+Together with its [[adjoint functor|adjoint]]—[[geometric realization]] $|-| : sSet \to Top$—the functor $Sing : Top \to sSet$ is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the [[model structure on simplicial sets]] that is sometimes called the [[homotopy hypothesis]]-theorem.
 
 ### Relation to ordinary (co)homology
 
