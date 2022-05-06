@@ -53,7 +53,7 @@ If $\aleph(X)$ denotes the [[Hartogs number]] of $X$, then we also have:
 
 The concept appeared as exercise 7.1.6 in 
 
-* Karel Hrdacek and Thomas Jech, _Introduction to Set Theory_, 3rd Edition, Marcel Dekker (1999)
+* Karel Hrbacek and Thomas Jech, _Introduction to Set Theory_, 3rd Edition, Marcel Dekker (1999)
 
 [Note: the exercise is also in chapter 8 in the 1984 2nd edition, not sure about the 1st edition]
 
