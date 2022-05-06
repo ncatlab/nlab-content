@@ -269,6 +269,9 @@ The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\inf
 
 ## Related concepts
 
+* [[global quotient orbifold]], [[quotient stack]], [[homotopy quotient]]
+
+
 * the [[groupoid cardinality]] of action groupoids is given by the [[class formula]]
 
 ## References
