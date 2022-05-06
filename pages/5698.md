@@ -21,6 +21,10 @@ On [[Vassiliev invariants of braids]] via [[chord diagrams]]:
 
 * [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
+Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] on [[chord diagrams]]:
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070), [[BarNatanGaroufaldis96.pdf:file]])
+
 
 On the [[universal Vassiliev invariant]] of the [[unknot]]:
 
@@ -38,7 +42,7 @@ On the [[cochain cohomology]] of [[graph complexes]]:
 
 
 
-## Eelated $n$Lab entries
+## Related $n$Lab entries
 
 * [[knot theory]]
 
