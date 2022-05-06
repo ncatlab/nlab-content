@@ -22,6 +22,13 @@ Sometimes more generally, exceptional geometry is understood to study [[spaces]]
 
 \linebreak
 
+## Properties
+
+### In terms of twisted Cohomotopy
+
+[[!include coset space structure on n-spheres -- table]]
+
+
 ## Related concepts
 
 * [[exceptional Lie group]]
