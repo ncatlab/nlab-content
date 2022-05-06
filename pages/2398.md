@@ -158,7 +158,7 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 Standard textbook references include
 
-* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Springer 1982 (where?)
+* [[Raoul Bott]], [[Loring Tu]], Thm. 8.9 & Prop. 10.6 of: _[[Differential Forms in Algebraic Topology]]_, Springer 1982
 
 * [[M M Postnikov]], Lectures on geometry, vol. III, Differentiable manifolds  
 
