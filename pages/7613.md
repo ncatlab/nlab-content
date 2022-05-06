@@ -303,9 +303,17 @@ problem. One would eventually hope for a microscopic formulation of M-theory whi
 
 Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]] [[M5-branes]] (and thus the [[gauge enhancement]] on [[coincident brane|coincident]] [[D4-branes]] under [[duality between M-theory and type IIA string theory]]) remains an open problem:
 
+
+[Moore 12, p. 77](6dN20SCFT#Moore12):
+
+> The IR dynamics of $N$ coincident M5 branes $[...]$ remains largely mysterious.
+
+
 [Lambert 12, p. 49](BLG+model#Lambert12):
 
 > The M5-brane theory remains an important open problem.
+
+
 
 [Hu 13, p. 1](6dN20SCFT#Hu13):
 
