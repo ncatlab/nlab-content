@@ -63,7 +63,7 @@ $$
   }
 $$
 
-which is the composite of the [[counit of a comonad|counit of the comodality]] and the [[unit of a monad|unit of the modality]].
+which is the composite of the [[counit of a comonad|counit of the comodality]] and the [[unit of a monad|unit of the modality]] ([Lawvere-Rosebrugh 03, p. 245](#LawvereRosebrugh03)).
 
 If for two [[level of a topos|levels]] the next one contains the [[modal types]] of the [[idempotent comonad]] of the former, then [[Lawvere]] speaks of "[[Aufhebung]]" (see there for more).
 
@@ -487,6 +487,7 @@ pages 43-56, 1994.
 
 * {#Lawvere00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](https://www.mta.ca/~cat-dist/archive/2000/00-11))
 
+* {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], p. 245 of: _[[Sets for Mathematics]]_,  Cambridge UP  2003 ([doi:10.1017/CBO9780511755460](https://doi.org/10.1017/CBO9780511755460), [book homepage](http://www.mta.ca/~rrosebru/setsformath/), [GoogleBooks](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf))
 
 
 ### In terms of adjoint pairs of modal operators
