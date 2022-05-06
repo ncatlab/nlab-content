@@ -16,7 +16,7 @@
 
 ## Idea
 
-A [[homomorphism]] between [[schemes]] is said to be _(locally) of finite type_ it it behaves like a [[finite number|finite]] [[covering space]].
+A [[homomorphism]] between [[schemes]] is said to be _(locally) of finite type_ if it behaves like a [[finite number|finite]] [[covering space]].
 
 ## For schemes
 
