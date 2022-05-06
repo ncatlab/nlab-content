@@ -52,6 +52,16 @@ In summary ([Kusenko 15](#Kusenko15)):
 
 > $[$The$]$ conclusion is that the best theoretical fit to measured parameters, including the Higgs and top-quark masses, points to a metastable Universe. However, their analysis also concludes that values of parameters are closer to a region of absolute stability than suggested by previous studies: it is possible for the Universe to be fully stable (and for the standard model to work all the way up to the Planck scale), if the true values of measured parameters are only 1.3 standard deviations away from the current best estimates.
 
+However [[quantum tunneling]]/[[vacuum decay]] is an intrinsically [[non-perturbative effect]] which needs careful treatment beyond [[perturbative quantum field theory]] (e.g. [AFFS 17](#AFFS17))
+
+<center>
+<img src="https://ncatlab.org/nlab/files/NonPerturbativeTunneling.jpg" width="600"/>
+</center>
+
+> graphics grabbed form [Schwartz 15, slide 44](#Schwartz15)
+
+
+
 $\,$
 
 ### Cosmological instability?
@@ -179,6 +189,14 @@ with a more precise analysis due to
 
 * {#BKPV15} A. V. Bednyakov, B. A. Kniehl, A. F. Pikelner, and O. L. Veretin, _Stability of the Electroweak Vacuum: Gauge Independence and Advanced Precision_, Phys. Rev. Lett. 115, 201802 ([arXiv:1507.08833](https://arxiv.org/abs/1507.08833), [doi:10.1103/PhysRevLett.115.201802](https://doi.org/10.1103/PhysRevLett.115.201802))
 
+Careful discussion of the stability issue under [[renormalization]] is in 
+
+* Anders Andreassen, William Frost, Matthew D. Schwartz, _Consistent Use of the Standard Model Effective Potential_, Phys. Rev. Lett. 113, 241801 (2014) ([arXiv:1408.0292](https://arxiv.org/abs/1408.0292))
+
+and with emphasis on [[non-perturbative effects]] in [[quantum tunneling]]/[[vacuum decay]] 
+
+* {#AFFS17} Anders Andreassen, David Farhi, William Frost, Matthew D. Schwartz, _Precision decay rate calculations in quantum field theory_, Phys. Rev. D 95, 085011 (2017) ([arXiv:1604.06090](https://arxiv.org/abs/1604.06090))
+
 Review includes
 
 * {#Kusenko15} Alexander Kusenko, _[Are We on the Brink of the Higgs Abyss?](https://physics.aps.org/articles/v8/108)_, Physics 8, 108 (2015)
@@ -187,13 +205,16 @@ Review includes
 
 * Holger Gies, _Vacuum stability and the mass of the Higgs boson_, 2015 ([pdf](http://physik.uni-graz.at/~dk-user/talks/Gies_20150828.pdf))
 
-* {#AFS18} Anders Andreassen, William Frost, Matthew D. Schwartz, _Scale Invariant Instantons and the Complete Lifetime of the Standard Model_, Phys. Rev. D 97, 056006 (2018) ([arXiv:1707.08124](https://arxiv.org/abs/1707.08124))
+* {#Schwartz15} Matthew Schwartz, _Do we know if our universe is stable?_, Rutgers Seminar 2015 ([pdf](https://www.physics.rutgers.edu/het/video/schwartz15a.pdf))
 
+* {#Strumia17} [[Alessandro Strumia]], _Higgs and Vacuum (In)Stability_, talk at GGI 2017 ([pdf](https://indico.cern.ch/event/660870/contributions/2746200/attachments/1538374/2411246/2017-HiggsDecay.pdf))
+
+* {#AFS18} Anders Andreassen, William Frost, Matthew D. Schwartz, _Scale Invariant Instantons and the Complete Lifetime of the Standard Model_, Phys. Rev. D 97, 056006 (2018) ([arXiv:1707.08124](https://arxiv.org/abs/1707.08124))
 
 
 Speculation about what this near-criticality of the Higgs vacuum could be pointing to is in
 
-* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, Alessandro Strumia, section 7 of _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
+* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
 as well as [Kane 17, "Clue 4"](#Kane17).
 
@@ -205,7 +226,7 @@ Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmologica
 
 * {#HKSZ14} Anson Hook, John Kearney, Bibhushan Shakya, Kathryn M. Zurek, _Probable or Improbable Universe? Correlating Electroweak Vacuum Instability with the Scale of Inflation_, J. High Energ. Phys. (2015) 2015: 61 ([arXiv:1404.5953](https://arxiv.org/abs/1404.5953))
 
-* {#EGMRSST15} Jose R. Espinosa, [[Gian Giudice]], Enrico Morgante, Antonio Riotto, Leonardo Senatore, Alessandro Strumia, Nikolaos Tetradis, _The cosmological Higgstory of the vacuum instability_ ([arXiv:1505.04825](https://arxiv.org/abs/1505.04825))
+* {#EGMRSST15} Jose R. Espinosa, [[Gian Giudice]], Enrico Morgante, Antonio Riotto, Leonardo Senatore, [[Alessandro Strumia]], Nikolaos Tetradis, _The cosmological Higgstory of the vacuum instability_ ([arXiv:1505.04825](https://arxiv.org/abs/1505.04825))
 
 * {#EKSYZ16} William E. East, John Kearney, Bibhushan Shakya, Hojin Yoo, Kathryn M. Zurek, _Spacetime Dynamics of a Higgs Vacuum Instability During Inflation_, Phys. Rev. D 95, 023526 (2017) ([arXiv:1607.00381](https://arxiv.org/abs/1607.00381))
 
