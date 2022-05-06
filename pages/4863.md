@@ -410,9 +410,6 @@ Discussion in [[higher differential geometry]] of Kaluza-Klein compactification 
 [[!redirects KK-compactification]]
 [[!redirects KK-compactifications]]
 
-[[!redirects KK-compactification]]
-[[!redirects KK-compactifications]]
-
 [[!redirects KK compactification]]
 [[!redirects KK compactifications]]
 
