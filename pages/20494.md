@@ -68,7 +68,7 @@ Note the proof that a split pushout defines a pushout square in the category in 
 
 ## Examples
 
-In their study of [[generalized Reedy categories]], Berger and Moerdijk introduce the notion of an **Eilenberg-Zilber category**, one of the axioms of which demands that spans of split epimorphisms admit absolute pushouts. In practice, this seems to be the case because the pushout of these split epimorphisms is a split epimorphism as above, often with an additional section $v$ of $n$ satisfying the additional equation that $v m = q s$.
+In their study of [[generalized Reedy categories]], Berger and Moerdijk introduce the notion of an [[Eilenberg-Zilber category]], one of the axioms of which demands that spans of split epimorphisms admit absolute pushouts. In practice, this seems to be the case because the pushout of these split epimorphisms is a split epimorphism as above, often with an additional section $v$ of $n$ satisfying the additional equation that $v m = q s$.
 
 
 ## References
