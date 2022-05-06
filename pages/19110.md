@@ -113,9 +113,9 @@ On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself car
 Now the tadpole cancellation condition is that (all representations are real and) this O-plane charge is cancelled, an [[affine space|affine]] version of the previous condition
 
 $$
-  \chi_{V}\left(g_{\geq 1}\right) 
+  \chi_{V}\left(g_{k \geq 1}\right) 
     + 
-  \chi_{O}\left( g_{\geq 1} \right) \;=\; 0
+  \chi_{O}\left( g_{k \geq 1} \right) \;=\; 0
   \,.
 $$
 
@@ -125,15 +125,46 @@ $$
 
 ### Examples
 
-We discuss the solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for various [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]].
+We discuss the solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]] at [[orbifold]] [[singularities]] for [[isotropy group]] one of  the [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]], 
 
-For these groups, by [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that's where we solve it.
+$$
+  G_{DE}
+  \;\subset\;
+  SU(2)
+$$
+
+hence those in the [[ADE-classification|D- and E-series]], hence the [[binary dihedral groups]] $2 D_{2n}$ and the three exceptional cases: [[2T]], [[2O]] and [[2I]].
+
+For these groups, by [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) the [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice of the corresponding [[ADE-singularity]], namely of the [[equivariant KO-theory]]=[[representation ring|real representation ring]]
+
+$$
+  KO^0_{G_{DE}}(\ast)
+  \;=\;
+  RO\left( G_{DE} \right)
+  \,.
+$$
+
+ Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that is where we may and do solve it, below.
+
+We find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the homogenous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $n \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We find that in all cases the [[mass]] of these in non-vanishing, and hence one of the two has [[positive number|positive]] [[mass]], the other [[negative number|negative]] [[mass]] (net [[fractional D-brane]] [[anti D-brane]]).  Picking the [[positive number|positive]] [[mass]] generators for definiteness, we find the following result:
+
+
+| [[singularity]] | [[mass]] |
+|----|-----|
+| $2 D_4$ | $8$ | 
+| $2 D_6$ | $12$ |
+| $2 D_{8}$ | $16$ | 
+| $2 D_{10}$ | $20$ | 
+| $2 D_{12}$ | $24$ | 
+| $2 D_{14}$ | $28$ | 
+| $2 D_{16}$ | $32$ | 
+
 
 
 #### At a $2 D_4$-orientifold singularity
  {#At2d4Singularity}
 
-For $G = 2 D_4 = Q_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_4\vert}$ (equivalently: the [[quaternion group]]), the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.1](#BurtonSatiSchreiber18))
+For $G = 2 D_4 = Q_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_4\vert}$ (equivalently: the [[quaternion group]]), the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.1](#BurtonSatiSchreiber18)):
 
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | 
@@ -164,12 +195,15 @@ $$
   n \in \mathbb{Z}
 $$
 
-whose minimal [[mass]] (net brane number) is
+whose minimal [[positive number|positive]] [[mass]] (net brane number) is
 
 
 $$
   \begin{aligned}
+    M_{2 D_4}
+    & =
     dim(V)
+    \\
     & = 
     \chi_V\left( [\langle e\rangle]\right) 
     & =
@@ -180,10 +214,11 @@ $$
 $$
 
 
+
 #### At a $2 D_6$-orientifold singularity
   {#At2D6Singularity}
 
-For $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.2](#BurtonSatiSchreiber18))
+For $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.2](#BurtonSatiSchreiber18)):
 
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |
@@ -201,44 +236,47 @@ $$
   \;=\;
   n
   \Big(
-    3 V_1 
+    1 \cdot V_1 
       +
-    3 V_2
+    1 \cdot V_2
       + 
-    3 V_3
+    2 \cdot V_3
       + 
-    2 V_4
+    1 \cdot V_4
       + 
-    2 V_5
+    1 \cdot V_5
   \Big)
   \,,
   \phantom{AAA}
   n \in \mathbb{Z}
 $$
 
-whose minimal [[mass]] (net brane number) is
+whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
 
 $$
   \begin{aligned}
+    M_{2 D_6}
+    & =
     dim(V) 
+    \\
       & =
     \chi_V([\langle e\rangle]) 
     \\
       & =
-      3 \cdot 1
+      1 \cdot 1
         +
-      3 \cdot 1
-        + 
-      3 \cdot 2
+      1 \cdot 1
         + 
       2 \cdot 2
         + 
-      2 \cdot 4
+      1 \cdot 2
+        + 
+      1 \cdot 4
       & 
       \\
       & 
       =
-      24
+      12
   \end{aligned}
 $$
 
@@ -246,7 +284,7 @@ $$
 #### At a $2 D_8$-orientifold singularity
   {#At2D8Singularity}
 
-For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_8\vert} = 16$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.3](#BurtonSatiSchreiber18))
+For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_8\vert} = 16$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.3](#BurtonSatiSchreiber18)):
 
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |
@@ -283,11 +321,14 @@ $$
   n \in \mathbb{Z}
 $$
 
-whose minimal [[mass]] (net brane number) is
+whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
 
 $$
   \begin{aligned}
+    M_{2 D_8}
+     & =
     dim(V) 
+    \\
       & =
     \chi_V([\langle e\rangle]) 
     \\
@@ -311,14 +352,313 @@ $$
   \end{aligned}
 $$
 
+#### At a $2 D_{10}$-orientifold singularity
+  {#At2D10Singularity}
+
+For $G = 2 D_{10}$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_{10}\vert} = 20$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.4](#BurtonSatiSchreiber18)):
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |  $\left[\langle g_7\rangle\right]$ |
+|--|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $-1$ | $-1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_3} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}2$ | $\phantom{-}2$ | $-2$ | $-2$ |
+| $\chi_{V_4} =$ | $\phantom{-}4$ |  $\phantom{-}4$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-1$ | $-1$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-2$ | $-2$ | $\phantom{-}2$ | $\phantom{-}2$ |
+
+
+
+
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{10}$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1 
+      +
+    1 \cdot V_2
+      + 
+    1 \cdot V_3
+      + 
+    2 \cdot V_4
+      + 
+    1 \cdot V_5
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    M_{2 D_{10}}
+      & =
+    dim(V) 
+    \\
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      1 \cdot 1
+        +
+      1 \cdot 1
+        + 
+      1 \cdot 2
+        + 
+      2 \cdot 4
+        + 
+      1 \cdot 8
+      & 
+      \\
+      & 
+      =
+      20
+  \end{aligned}
+$$
+
+#### At a $2 D_{12}$-orientifold singularity
+  {#At2D12Singularity}
+
+For $G = 2 D_{12}$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_{12}\vert} = 24$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.5](#BurtonSatiSchreiber18)):
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |  $\left[\langle g_7\rangle\right]$ | $\left[\langle g_8\rangle\right]$ |
+|--|--|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ | $-1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_3} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ | $\phantom{-}1$ | $-1$ | $\phantom{-}1$ | $-1$ | $-1$ |
+| $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $-1$ | $-1$ | $\phantom{-}1$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-1$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}2$ | $-1$ | $-1$ | $-1$ |
+| $\chi_{V_6} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-1$ | $\phantom{-}0$ | $\phantom{-}0$ | $-2$ | $-1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_7} =$ | $\phantom{-}4$ |  $-4$ |  $\phantom{-}4$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $-4$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_8} =$ | $\phantom{-}8$ |  $-8$ |  $-4$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}4$ | $\phantom{-}0$ | $\phantom{-}0$ |
+
+
+
+
+
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{12}$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1 
+      +
+    1 \cdot V_2
+      + 
+    1 \cdot V_3
+      + 
+    1 \cdot V_4
+      + 
+    2 \cdot V_5
+      + 
+    2 \cdot V_6
+      + 
+    1 \cdot V_7
+      + 
+    1 \cdot V_8
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    M_{2 D_{12}}
+      & =
+    dim(V) 
+    \\
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      1 \cdot 1 
+        +
+      1 \cdot 1
+        + 
+      1 \cdot 1
+        + 
+      1 \cdot 1
+        + 
+      2 \cdot 2
+        + 
+      2 \cdot 2
+        + 
+      1 \cdot 4
+        + 
+      1 \cdot 8
+      & 
+      \\
+      & 
+      =
+      24
+  \end{aligned}
+$$
+
+
+
+
+#### At a $2 D_{14}$-orientifold singularity
+  {#At2D14Singularity}
+
+For $G = 2 D_{14}$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_{14}\vert} = 28$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.6](#BurtonSatiSchreiber18)):
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |  $\left[\langle g_7\rangle\right]$ | $\left[\langle g_8\rangle\right]$ | $\left[\langle g_9\rangle\right]$ |
+|--|--|--|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $-1$ | $-1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_3} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}2$ | $\phantom{-}2$ | $\phantom{-}2$ | $-2$ | $-2$ | $-2$ |
+| $\chi_{V_4} =$ | $\phantom{-}6$ |  $\phantom{-}6$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-1$ | $-1$ | $-1$ | $-1$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-1}\mathllap{12}$ |  $\phantom{-1}\mathllap{-12}$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-2$ | $-2$ | $-2$ | $\phantom{-}2$ | $\phantom{-}2$ | $\phantom{-}2$ |
+
+
+
+
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{14}$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1 
+      +
+    1 \cdot V_2
+      + 
+    1 \cdot V_3
+      + 
+    2 \cdot V_4
+      + 
+    1 \cdot V_5
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    M_{2 D_{14}}
+      & =
+    dim(V) 
+    \\
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      1 \cdot 1
+        +
+      1 \cdot 1
+        + 
+      1 \cdot 2
+        + 
+      2 \cdot 6
+        + 
+      1 \cdot 12
+      \\
+      & 
+      =
+      28
+  \end{aligned}
+$$
+
+
+
+#### At a $2 D_{16}$-orientifold singularity
+  {#At2D16Singularity}
+
+For $G = 2 D_{16}$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_{16}\vert} = 32$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.7](#BurtonSatiSchreiber18)):
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |  $\left[\langle g_7\rangle\right]$ | $\left[\langle g_8\rangle\right]$ | $\left[\langle g_9\rangle\right]$ |$\left[\langle g_9\rangle\right]$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $-1$ | $-1$ | $-1$ | $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $-1$ | $-1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $-1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $-1$ | $-1$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}2$ | $-2$ | $-2$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_6} =$ | $\phantom{-}4$ |  $\phantom{-}4$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-4$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_7} =$ | $\phantom{-1}\mathllap{16}$ |  $\phantom{-1}\mathllap{-16}$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
+
+
+
+
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{16}$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1 
+      +
+    1 \cdot V_2
+      + 
+    1 \cdot V_3
+      + 
+    1 \cdot V_4
+      + 
+    2 \cdot V_5
+      + 
+    2 \cdot V_6
+      + 
+    1 \cdot V_7
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    M_{2 D_{16}}
+      & =
+    dim(V) 
+    \\
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      1 \cdot 1   
+        +
+      1 \cdot 1
+        + 
+      1 \cdot 1
+        + 
+      1 \cdot 1
+        + 
+      2 \cdot 2
+        + 
+      2 \cdot 4
+        + 
+      1 \cdot 16
+      \\
+      & 
+      =
+      32
+  \end{aligned}
+$$
+
 
 
 #### At a $2 T$-orientifold singularity
   {#At2TSingularity}
 
-For $G = 2 T$ the [[binary tetrahedral group]], the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.8](#BurtonSatiSchreiber18))
-
-
+For $G = 2 T$ the [[binary tetrahedral group]] (whose [[order of a group|order]] is ${\vert 2T \vert} =24$), the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.8](#BurtonSatiSchreiber18)):
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |
 |--|--|--|--|--|--|--|--|
@@ -352,11 +692,14 @@ $$
 $$
 
 
-whose minimal [[mass]] (net brane number) is
+whose minimal [[positive number|positive]] [[mass]] (net brane number) is
 
 $$
   \begin{aligned}
+    M_{2I}
+      & =
     dim(V) 
+    \\
       & =
     \chi_V([\langle e\rangle]) 
     \\
@@ -375,6 +718,85 @@ $$
       & 
       =
       24
+  \end{aligned}
+$$
+
+
+
+#### At a $2 O$-orientifold singularity
+  {#At2OSingularity}
+
+For $G = 2 O$ the [[binary octahedral group]] (whose [[order of a group|order]] is ${\vert 2O \vert} = 48$), the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.9](#BurtonSatiSchreiber18)):
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ | $\left[\langle g_7\rangle\right]$ |
+|--|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $-1$ | $\phantom{-}1$ | $-1$ | $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-1$ | $\phantom{-}2$ |  $\phantom{-}0$ | $-1$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_4} =$ | $\phantom{-}3$ |  $\phantom{-}3$ |  $\phantom{-}0$ | $-1$ |  $\phantom{-}1$ | $\phantom{-}0$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-}3$ |  $\phantom{-}3$ |  $\phantom{-}0$ | $-1$ |  $-1$ | $\phantom{-}0$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_7} =$ | $\phantom{-}8$ |  $-8$ |  $-4$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}4$ | $\phantom{-}0$ | $\phantom{-}0$ |
+
+
+
+One sees by not so immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2O$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1
+    + 
+    1 \cdot V_2
+    + 
+    2 \cdot V_3
+    + 
+    3 \cdot V_4
+    + 
+    3 \cdot V_5 
+    + 
+    2 \cdot V_6 
+    + 
+    1 \cdot V_7 
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+
+whose minimal [[positive number|positive]] [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    M_{2O}
+      & =
+    dim(V) 
+    \\
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      1 \cdot 1
+      + 
+      1 \cdot 1
+      + 
+      2 \cdot 2
+      + 
+      3 \cdot 3
+      + 
+      3 \cdot 3
+      + 
+      2 \cdot 8
+      + 
+      1 \cdot 8
+      & 
+      \\
+      & 
+      =
+      48
   \end{aligned}
 $$
 
