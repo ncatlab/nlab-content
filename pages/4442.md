@@ -164,9 +164,26 @@ See the _[References -- Applications -- In condensed matter physics](#ToCondense
 
 [[!include gauge theory from AdS-CFT -- table]]
 
+## Checks
+ {#Checks}
+
+[[AdSCFTFrolovTseytlinLimitCheck.jpg:file]]
+
+Detailed checks have been performed matching the spectrum of the dilatation operator of [[N=4 D=4 super Yang-Mills theory]] to the corresponding spectrum of the [[Green-Schwarz superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ are reported in [Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)
+
+[[AdSCFTFrolovTseytlinLimitCheck.jpg:file]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AdSCFTFrolovTseytlinLimitCheck.jpg" width="600">
+</center>
+
+> graphics grabbed from [Escobedo 12](#Escobedo12) spring
+
 ## Formalizations
 
-The full formalization of AdS/CFT is still very much out of reach. 
+The full formalization of AdS/CFT is still very much out of reach, but maybe mostly for lack of trying. 
+
+But see [Anderson 04](#Anderson04).
 
 One proposal for a formalization of a toy version in the context of [[AQFT]] is [[Rehren duality]]. However, it does not seem that this actually formalizes AdS-CFT, but something else.
 
@@ -208,13 +225,15 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 The original articles are
 
 * {#Maldacena97} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); 
- 
+
 
 * {#Maldacena97} [[Juan Maldacena]], _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
+
+The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generating functions]] for [[bondary field theory|boundary]] [[correlators]]/[[n-point functions]] is due to
+
+* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _Gauge theory correlators from non-critical string theory_, Physics Letters B428: 105&#8211;114 (1998),  [hep-th/9802109](http://arxiv.org/abs/hep-th/9802109)
+
  
-
-The relevance of this was amplified in
-
 * [[Edward Witten]], _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics 2: 253&#8211;291, 1998, [hep-th/9802150](http://arxiv.org/abs/hep-th/9802150)
 
 Detailed discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in AdS target spaces induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] (see _[[singleton representation]]_) includes
@@ -225,7 +244,7 @@ Detailed discussion of how [[Green-Schwarz action functionals]] for super $p$-br
 
 Further details were provided in
 
-* {#Giraldo12] Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
+* {#Giraldo12} Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
 
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
@@ -235,7 +254,8 @@ See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schw
 Surveys and introductions include
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
- 
+
+* {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
 
 * [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
 
@@ -257,8 +277,6 @@ Surveys and introductions include
 Further references include:
 
 * Gary T. Horowitz, [[Joseph Polchinski]], _Gauge/gravity duality_, [gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037)
-
-* S. S. Gubser, I. R. Klebanov, A. M. Polyakov, _Gauge theory correlators from non-critical string theory_, Physics Letters B428: 105&#8211;114 (1998),  [hep-th/9802109](http://arxiv.org/abs/hep-th/9802109).
  
 
 * [[Edward Witten]], _Three-dimensional gravity revisited_, [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
@@ -282,8 +300,10 @@ Review of [[Yangian]] symmetry includes
 
 ### $AdS_5 / CFT_4$
 
-* N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
-Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
+* {#BeisertEtAl10} N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_, Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
+
+* {#Escobedo12} Jorge Escobedo, _Integrability in AdS/CFT: Exact Results for Correlation Functions_, 2012 ([spire:1264432](http://inspirehep.net/record/1264432))
+
 
 ### $AdS_7 / CFT_6$
 
