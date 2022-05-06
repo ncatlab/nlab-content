@@ -105,7 +105,7 @@ This is a special case of the general statement that $k$-[[truncated]] morphisms
 +-- {: .num_prop}
 ###### Proposition
 
-In an (∞,1)-topos, monomorphisms are stable under [[(∞,1)-pushout]]: if 
+In an [[(∞,1)-topos]], monomorphisms are stable under [[(∞,1)-pushout]]: if 
 
 $$
   \array{
