@@ -36,4 +36,9 @@ The identity natural transformations are themselves the [[identity morphisms]] f
 * [[identity of indiscernibles]]
 
 
+[[!redirects identity natural transformations]]
+
 [[!redirects identity transformation]]
+[[!redirects identity transformations]]
+
+
