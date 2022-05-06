@@ -62,15 +62,15 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 computes the [[Stone spectrum]] of the [[Boolean algebra]] of [[clopen subsets]]
 of a [[topological space]].
 Its algebras are precisely the [[Stone spaces]].
-(Sipoș \cite[Theorem 2]{Sipos}.)
+([Sipoș, Theorem 2](#Sipos)).
+
 
 * The codensity monad of the inclusion $N \to Top$, where
 $N$ denotes the [[full subcategory]] of [[Top]] consisting
 of arbitrary [[small products]] of the [[Sierpinski space|Sierpiński space]],
 is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]].
 Its algebras are precisely the [[sober spaces]].
-(Sipoș \cite[Theorem 6]{Sipos}.)
-
+([Sipoș, Theorem 6](#Sipos))
 
 ## Properties
 
@@ -134,7 +134,7 @@ Other references include
 
 * [[Jiří Adámek]], [[Lurdes Sousa]], _D-Ultrafilters and their Monads_, ([arXiv:1909.04950](https://arxiv.org/abs/1909.04950))
 
-* [[Andrei Sipos]], _Codensity and Stone spaces_, ([arXiv:1409.1370](https://arxiv.org/abs/1409.1370))
+* {#Sipos} [[Andrei Sipos]], _Codensity and Stone spaces_, ([arXiv:1409.1370](https://arxiv.org/abs/1409.1370))
 
 [[!redirects codensity monads]]
 [[!redirects density comonad]]
