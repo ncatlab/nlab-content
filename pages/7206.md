@@ -91,6 +91,10 @@ Discussion of the splitting-decomposition analogous to that for the [[M-theory s
 
 * [[Lucrezia Ravera]], _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_ ([arXiv:1801.08860](https://arxiv.org/abs/1801.08860))
 
+See also
+
+* Salih Kibaroğlu, Oktay Cebecioğlu, _$D=4$ supergravity from the Maxwell-Weyl superalgebra_ ([arXiv:1812.09861](https://arxiv.org/abs/1812.09861))
+
 ### On $N=8$ $d=4$ supergravity
 
 
