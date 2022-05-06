@@ -134,7 +134,7 @@ This result is due to Johnstone-Joyal ([1982, p.257](#JJ82)) and occurs as theor
 
 Since the theory $\mathbb{O}_\ast$ is an extension of $\mathbb{O}$, it can be treated relatively as an internal theory in $\mathcal{S}[\mathbb{O}]$. There it is just the theory of elements of the generic set $G$, in other words the propositional theory for the discrete space of $G$. Discrete spaces are always got as slice toposes, so $\mathcal{S}[\mathbb{O}_\ast]$ is equivalent to
 
-$$[FinSet, Set]/G\simeq \underset{FinSet^{op}}{\int} G\;.$$
+$$[FinSet, Set]/G\simeq [(\underset{FinSet^{op}}{\int} G)^{op},Set]\;.$$
 
 $G$ is the inclusion functor $FinSet \to Set$, mapping each natural number $n$ to its finite cardinal $\{0,\ldots,n-1\}$.
 
