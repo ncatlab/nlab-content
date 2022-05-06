@@ -27,7 +27,7 @@
 
 In general, **canonical model structures** are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed), which are intended to capture the correct "categorical" theory of these categories.
 
-The archetypical examples are the _[[canonical model structure on categories]]_ and the _[[canonical model structure on groupoids]]_.
+The archetypical examples are the _[[canonical model structure on categories]]_ and the _[[canonical model structure on groupoids]]_. Categorifying these, one has [[canonical model structure on 2-categories|canonical model structures on 2-categories]].
 
 Canonical model structures are sometimes called "folk" model structures, but the appropriateness of this term is very [questionable](https://nforum.ncatlab.org/discussion/649), especially in the cases $n \gt 1$.  Other alternatives are 'endogenous', 'standard', 'natural', and 'categorical'.
 
@@ -79,6 +79,8 @@ We had some blog discussion about this at
 
 * [[canonical model structure on Grpd]]
 
+* [[canonical model structure on 2Cat]]
+
 * [[canonical model structure on Operad]]
 
 * [[model structure on strict omega-categories]]
@@ -114,7 +116,7 @@ See also
 
 * [[Andre Joyal]], _[[joyalscatlab:Model structures on Cat]]_
 
-The canonical model structures for 2-categories and bicategories are due to 
+The [[canonical model structure on 2-categories|canonical model structures for 2-categories and bicategories]] are due to 
 
 * [[Steve Lack]],
 
