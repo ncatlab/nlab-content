@@ -38,9 +38,15 @@ For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds
 
 ## References
 
-* [[Katrin Becker]], [[Melanie Becker]], _Katrin Becker, Melanie Becker_, Nucl.Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
+* {#Witten95} [[Edward Witten]], _Strong Coupling and the Cosmological Constant_, Mod.Phys.Lett.A10:2153-2156, 1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
+
+  (on possible relation to the [[cosmological constant]])
+
+* [[Katrin Becker]], [[Melanie Becker]], _M-Theory on Eight-Manifolds_, Nucl.Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
 
 * [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl.Phys.B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
+
+* {#GukovSparks02} [[Sergei Gukov]], James Sparks, _M-Theory on $Spin(7)$ Manifolds_, Nucl.Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
 
 * [[Sergei Gukov]], James Sparks, David Tong, _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class.Quant.Grav.20:665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
 
