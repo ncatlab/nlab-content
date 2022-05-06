@@ -1,8 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
 A kind of [[soliton]].
+
+## Examples
+
+[[!include flux quantization in superconductors -- section]]
+
 
 ## Related concepts
 
