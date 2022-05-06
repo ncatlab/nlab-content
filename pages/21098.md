@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Mapping spaces
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
