@@ -112,7 +112,7 @@ has a [[left adjoint]]
 
   Prop 15.4 (2) of [StabCat](http://arxiv.org/abs/math/0608228).
 
-* stabilization is _not_ in general functorial. It's failure of being functorial, and approximations to it, are studied in [[Goodwillie calculus]].
+* stabilization is _not_ in general functorial on all of $(\infty, 1)Cat$. It's failure of being functorial, and approximations to it, are studied in [[Goodwillie calculus]].
 
 ## Examples
 
