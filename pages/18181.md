@@ -118,7 +118,7 @@ In the development of Kant's distinction between general logic and transcendenta
 
 ###### {#deductionA}_A edition:_ Transcendental Deduction
 
-In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left our in the the corresponding part of the second edition ("B" deduction). Concepts are created in three steps:
+In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the the corresponding part of the second edition ("B" deduction). Concepts are created in three steps:
 
 1. "On the synthesis of apprehension in the intuition" ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png)).
 
@@ -133,19 +133,19 @@ In the first edition Kant provides a more thorough description on how the format
 
     * In order to have _One representation_ such a limiting process must have occured.
 
-    * This process has to happen "a priori".
+    * This process has to happen a priori.
 
 
 1. "On the synthesis of reproduction in the imagination" ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png)).
 
-    "It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel]." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
+    "It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel]." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
-    The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a fuction in one direction.
+    The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a function in one direction.
 
 
-    This is formulted in the __Law of reproduction__:
+    This is formulated in the __Law of reproduction__:
 
-    * the appearances of objects are associated with the manifold of their representation
+    * the appearances of objects are associated with the _manifold_ of their representation
 
     * the similar limiting process as in the synthesis of apprehension has to occur
 
@@ -160,23 +160,23 @@ In the first edition Kant provides a more thorough description on how the format
 
     for that we need:
 
-    * A rule, which guarantees that the reproduction happens "a priori" and can always be exhibited. This is called "unity of rule".
+    * A rule, which guarantees that the reproduction happens a priori and can always be exhibited. This is called "unity of rule".
 
-    * The concept in which the representations unite. ("All cognition requiers a concept"([A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png)))
+    * The concept in which the representations unite. ("All cognition requires a concept"([A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png)))
 
 
     To sum up crucial features: transcendental apperception
 
-    * must precede all experiences, i.e. has to be "a piori"
+    * must precede all experiences, i.e. has to be a priori
 
     * is a pure, original, unchanging consciousness
 
-    * Grounds "a priori" concepts (similar as Space and Time grounds the intuition of sensibility)
+    * Grounds a priori concepts (similar as Space and Time grounds the intuition of sensibility)
 
 
     While in view of the transcendental object: it
 
-    * Is the object in which the trancendental apperception grounds "a priori" concepts
+    * Is the object in which the trancendental apperception grounds a priori concepts
 
     * Its pure concept is that, which in all of our empirical concepts in general can provide relation to an object, i.e., objective reality.
 
