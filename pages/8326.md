@@ -236,7 +236,7 @@ Hence a function of the form $E \longrightarrow B$ is equivalently an instance/t
 
 > The individual $b$ is an instance of the general concept $B$.
 
-of for short just
+or for short just
 
 > Individual $b$ is $B$.
 
@@ -435,7 +435,7 @@ A general abstract way to express a kind of quality carried by types is to posit
 
 For instance for formalizing realistic physics one needs to determine _[[nLab:boson|bosonic]]_ and _[[nLab:boson|fermionic]]_  moments (we come to this [below](#Externalization)), and one way of doing so is by considering a [[nLab:projection]] operation that projects every space of fields to its purely bosonic [[nLab:body]] (lemma \ref{SequenceOfSites} below).
 
-Generally, for $X$ a type, then $\bigcirc X$ is to be the result of projecting out some pure quality of $X$. This being a projection means that $\bigcirc X  \simeq \bigcirc \bigcirc X$. For this to be [[nLab:constructive]], we need to specify a specific comparison map that gives this equivalence. Hence we say a _moment projection_ is an operation $\bigcirc$ on the type system together with [[nLab:natural transformation|natural functions]] $X \to \bigcirc X$ such that $\bigcirc(X \to \bigcirc X)$ is an [[nLab:equivalence]] $\bigcirc \stackrel{\simeq}{\longrightarrow} \bigcirc \bigcirc X$.
+Generally, for $X$ a type, then $\bigcirc X$ is to be the result of projecting out some pure quality of $X$. This being a projection means that $\bigcirc X  \simeq \bigcirc \bigcirc X$. For this to be [[nLab:constructive]], we need to specify a specific comparison map that gives this equivalence. Hence we say a _moment projection_ is an operation $\bigcirc$ on the type system together with [[nLab:natural transformation|natural functions]] $X \to \bigcirc X$ such that $\bigcirc(X \to \bigcirc X)$ is an [[nLab:equivalence]] $\bigcirc X \stackrel{\simeq}{\longrightarrow} \bigcirc \bigcirc X$.
 
 In categorical semantics this means essentially that $\bigcirc$ is an _[[nLab:idempotent monad]]_ on the type system $\mathbf{H}$.
 
@@ -1190,7 +1190,7 @@ We ask this to have definite negation, def. \ref{CompleteOpposition}. This means
 1. $\flat \to &#643;$ is [[nLab:epimorphism|epi]] on [[nLab:0-types]] --- the [[nLab:points-to-pieces transform]] is onto.
 
 
-Together this are the axioms of _[[nLab:cohesion]]_ as considered in ([Lawvere 07](#Lawvere07)). (There it is additionally asked that $&#643;$ preserves binary [[nLab:Cartesian products]].)
+Together these are the axioms of _[[nLab:cohesion]]_ as considered in ([Lawvere 07](#Lawvere07)). (There it is additionally asked that $&#643;$ preserves binary [[nLab:Cartesian products]].)
 
 The intuition is that positing these qualites on a type system makes it, or rather its types $X$, behave like a [[nLab:cohesive]] [[nLab:substance]] where points $\flat X$ are separate but held together by a cohesive attraction which, when the opposing repulsion is removed and only pure $&#643;$-moment is retained, makes them collapse to the components $&#643; X$.
 
@@ -1280,13 +1280,13 @@ $$
 
 expresses.
 
-Recall that the [[nLab:Brown representability theorem]] from [[nLab:stable homotopy theory]]:
+Recall the [[nLab:Brown representability theorem]] from [[nLab:stable homotopy theory]]:
 
 +-- {: .num_prop }
 ###### Proposition
 
 
-[[nLab:stable homotopy types]] $E$ are equivalently [[nLab:generalized cohomology theories]] $E^\bullet$ via
+[[nLab:stable homotopy types|Stable homotopy types]] $E$ are equivalently [[nLab:generalized cohomology theories]] $E^\bullet$ via
 
 $$
   E^\bullet(X) = [X,S]
@@ -1343,7 +1343,7 @@ $$
 
 Now, cocycles in [[nLab:differential cohomology]] are the mathematical incarnation of [[nLab:field (physics)|physical fields]] in (stable) [[nLab:higher gauge theory]] (e.g. [[nLab:Dirac charge quantization and generalized differential cohomology|Freed 00]]). Hence the existence of the opposing moments $&#643; \dashv \flat \dashv \sharp$ means that types carry _gauge measure_.
 
-From the [[nLab:gauge theory|gauge theoretic]] perpective the $\flat$-moment is that exhibited by [[nLab:flat infinity-connections]], its negative $\overline{\flat}$ moment is that exhibited by infinity-connections given by just differential form data. For [[nLab:ordinary differential cohomology]], [[nLab:differential K-theory]] etc. this is the "[[nLab:rational homotopy theory|rational]]" aspect.
+From the [[nLab:gauge theory|gauge theoretic]] perspective the $\flat$-moment is that exhibited by [[nLab:flat infinity-connections]], its negative $\overline{\flat}$ moment is that exhibited by infinity-connections given by just differential form data. For [[nLab:ordinary differential cohomology]], [[nLab:differential K-theory]] etc. this is the "[[nLab:rational homotopy theory|rational]]" aspect.
 
 Hence in summary we have found determinations as follows.
 
@@ -1480,7 +1480,7 @@ $$
 In total, so far these are the axioms of [[nLab:differential cohesion]] ([dcct](#dcct)).
 Using these one may naturally axiomatize [[nLab:local diffeomorphism]] (def. \ref{LocalDiffeomorphisms} below), [[nLab:jet bundles]] and related concepts.
 
-Hence with these moments posited, types now now qualities of [[nLab:synthetic differential geometry]]. On top of just [[nLab:cohesion|cohesively]] sticking to each other, the terms in the types now may feel a tighter differential connectedness, we have now a rigidly _[[nLab:elasticity|elastic]]_ [[nLab:substance]].
+Hence with these moments posited, types now have qualities of [[nLab:synthetic differential geometry]]. On top of just [[nLab:cohesion|cohesively]] sticking to each other, the terms in the types now may feel a tighter differential connectedness, we have now a rigidly _[[nLab:elasticity|elastic]]_ [[nLab:substance]].
 
 ##### Solid substance
 
@@ -1905,7 +1905,7 @@ is equivalently a [[nLab:cocycle]] of degree $p+2$ in the [[nLab:group cohomolog
 +-- {: .num_defn #FormRefinementOfCocycle}
 ###### Definition
 
-Given a group cocycle $\mathbf{c}$ and a [[nLab:Hodge filtration]], then a refinement of the Hodge filtration along the group cocycle is a choice of 0-trucated extensive $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g})$ fitting into a square
+Given a group cocycle $\mathbf{c}$ and a [[nLab:Hodge filtration]], then a refinement of the Hodge filtration along the group cocycle is a choice of 0-truncated extensive $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g})$ fitting into a square
 
 $$
   \array{
