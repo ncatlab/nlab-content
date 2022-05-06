@@ -1,4 +1,64 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{:toc}
+
+[[!redirects Theory of flat functors]]
+[[!redirects theory of continuous flat functors]]
+[[!redirects theory of J-continuous flat functors]]
+
+
+## Idea
+
+The **theory of J-continuous flat functors** on a [[site]] $(\mathcal{C},J)$, or more concisely the theory of flat functors on $\mathcal{C}$, is the [[geometric theory]] $\mathbb{T}_J^{\mathcal{C}}$ whose models in a Grothendieck topos $\mathcal{E}$ correpond precisely to J-continuous flat functors $\mathcal{C}\to\mathcal{E}$ and, by well known representation theorems, to [[geometric morphisms]] $\mathcal{E}\to Sh(\mathcal{C},J)$ whence $\mathbb{T}_J^{\mathcal{C}}$ provides a uniform albeit (in general) uneconomical axiomatization of the [[geometric theory]] classified by $Sh(\mathcal{C},J)$.
+
+## Definition
+
+Let $(\mathcal{C},J)$ be a small site. The **theory of J-continuous flat functors** is given by the following geometric theory $\mathbb{T}_J^{\mathcal{C}}$ over the signature $\Sigma$ which has sorts (symbols) $\lceil A\rceil$ for every object $A$ of $\mathcal{C}$ and function symbols $\lceil f\rceil :\lceil A\rceil\to\lceil B\rceil$ for every function $f:A\to B$:
+
+* axioms $\top\vdash_x \lceil f\rceil(x)=x$ for all identity morphisms $f$.
+
+* axioms $\top_x\lceil f\rceil(x)=\lceil h(\lceil g\rceil (x))$ for all triples $f,g,h$ with $f=g\circ h$.
+
+* an axiom $\top\vdash\Bigvee_{A\in\mathcal{C}} \exists x:A \top$.
+
+* axioms $\top_{x:A,y:B}\Bigvee_{A\overset{f}{\leftarrow} C\overset{g}{\rightarrow B}}\exists z:C(\lceil f\rceil (z:C)=x:A\wedge \lceil g\rceil (z:C)=y:B)$ where the disjunction ranges over all cones on the discrete digram consisting of $a$ and $B$.
+
+## Examples
+
+* Let $(\emptyset,\emptyset)$ be the empty site. Then the signature $\Sigma$ is empty and only the third condition takes hold, yielding $\mathbb{T}_\emptyset^{\emptyset}=\{\top\vdash\bot$ i.e. the empty topos $Sh(\emptyset,\emptyset)=\mathbb{1}$ classifies the **inconsistent theory** whose models are precisely the [[initial objects]].
+
+
+## Related entries
+
+* [[flat functor]]
+
+* [[geometric theory]]
+
+* [[Diaconescu's theorem]]
+
+* [[theory of objects]]
+
+## References
+
+* [[Olivia Caramello]], _Lattices of theories_ , arXiv:0905.0299 (2009). ([abstract](https://arxiv.org/abs/0905.0299), p.11)
+
+* [[Olivia Caramello]], _Theories, Sites, Toposes_ , Oxford UP 2018. (p.58f)
+
+* [[Peter Johnstone]], _Sketches of an Elephant vol.II_ , Oxford UP 2002. (p.897)
+
 The code
 
       [[topos]] [[topos]]
