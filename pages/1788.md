@@ -13,3 +13,5 @@ C
 \end{tikzcd}
 
 \begin{tikzcd} A \ar[r] & B \end{tikzcd}
+
+[[Spaces as infinity-groupoids.pdf:file]]
