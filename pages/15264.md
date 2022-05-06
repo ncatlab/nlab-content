@@ -35,6 +35,8 @@ See also
 
 Computer simulation of galaxy [[structure formation]]:
 
+* Julio Navarro, _Simulations of Galaxy Formation:  the State of the Art_ ([pdf](http://www.physics.ox.ac.uk/iau311/navarro_iau311.pdf))
+
 * [FIRE: Feedback In Realistic Environments
 Increasing the predictive power of galaxy formation simulations
 ](https://fire.northwestern.edu/)
@@ -53,6 +55,9 @@ Increasing the predictive power of galaxy formation simulations
 [[galactic rotation curves]] qualitatively reproduced in [Hopkins 17, Figure 4, Figure 5](#Hopkins17)
 
 baryonic [[Tully-Fisher relation]] qualitatively reproduced in [El-Badry 18, Figure 4](#ElBadry18)
+
+
+* [[Justin Read]] et al. _EDGE I: the mass-metallicity relation as a critical test of galaxy formation physics_ ([arXiv:1904.02723](https://arxiv.org/abs/1904.02723))
 
 
 [[!redirects galaxies]]
