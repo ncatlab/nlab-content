@@ -95,9 +95,12 @@ the _unshuffle_ side of shuffles is used.
 
 ## References
 
-$(p,q)$-shuffles (called _$(s,t)$-permutations_) are discussed in section 2.2.3 of
+$(p,q)$-shuffles are discussed in:
 
-* {#AguiarMahajan10} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], [[Stephen Chase]], [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf))
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], On the groups $H(\Pi,n)$, I, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor](https://www.jstor.org/stable/1969820))
+
+* {#AguiarMahajan10} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], [[Stephen Chase]], [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf)) (See section 2.2.3.)
 
 The two dual equivalent characterizations of $(p,q)$-shuffles (called _shuffles of linear trees_ or _shuffles of linear orders_) are discussed in section 1.1 of
 
