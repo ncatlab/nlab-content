@@ -1052,11 +1052,13 @@ The [[linear map]] $d$ in Def. \ref{DifferentialOnGraphs} makes the [[graded vec
 
 We say that a graph $\Gamma$ (Def. \ref{Graphs}) is a _vanishing graph_ if at least one of the following conditions applies
 
-* $\Gamma$ contains a [[tadpole]] (Example \ref{GraphsWithDirectLoopsVanish});
+* ([[tadpole]]) $\Gamma$ contains an edge $e$ with $s(e) = t(e)$ (Example \ref{GraphsWithDirectLoopsVanish});
 
-* $\Gamma$ contains a less than trivalent internal vertex, hence an internal vertex with less than 3 edges attached to it;
+* (less than trivalent) $\Gamma$ contains an internal vertex $v \in Verts_{int}$ that is less than trivalent, hence an internal vertex with less than 3 edges attached to itl
 
-* $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element;
+* (parallel edges) $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element;
+
+* (not connected to external vertex) $\Gamma$ contains an internal vertex which is not connected, via some path of edges, to an external vertex.
 
 Write 
 
@@ -1116,9 +1118,11 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 
 +-- {: .num_defn #TheZeroCocycle}
 ###### Example
-**(The 0-Cocycle in $Graphs_0(\mathbb{R}^3)$)**
+**(A 9-Cocycle in $Graphs_3(\mathbb{R}^3)$)**
 
-The _Peace Symbol_ graph in degree 0 (Example \ref{TrivalenGraphs}) is closed in the graph complex:
+The _Peace Symbol_ graph in degree 9 is closed in the graph complex:
+
+> the vertices 1,2 ,3 must be marked external, ...
 
 <center>
 <img src="https://ncatlab.org/nlab/files/The0CocycleInTheGraphComplex.jpg" width="800">
@@ -1136,19 +1140,6 @@ generate $H^0\Big( \mathrm{Graphs}_0\big( \mathbb{R}^3\big)\Big)
 
 =--
 
-Similarly:
-
-+-- {: .num_defn #TheZeroCocycleInGraphs1}
-###### Example
-**(The 0-Cocycle in $Graphs_1(\mathbb{R}^3)$)**
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/TheZeroCocycleInGraphs1.jpg" width="500">
-</center>
-
-
-=--
 
 \linebreak
 
