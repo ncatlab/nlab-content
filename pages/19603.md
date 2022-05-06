@@ -69,6 +69,14 @@ Work conducted in homotopy type theory:
 
 * Kristina Sojakova, _The equivalence of the torus and the product of two circles in homotopy type theory_, ([arXiv:1510.03918](https://arxiv.org/abs/1510.03918))
 
+* [[Ulrik Buchholtz]], _Higher Structures in Homotopy Type Theory_, ([arXiv:1807.02177](https://arxiv.org/abs/1807.02177))
+
+* Nicolai Kraus, Jakob von Raumer,_Path Spaces of Higher Inductive Types in Homotopy Type Theory_, ([arXiv:1901.06022](https://arxiv.org/abs/1901.06022))
+
+* Ulrik Buchholtz, Egbert Rijke, _The long exact sequence of homotopy $n$-groups_, ([arXiv:1912.08696](https://arxiv.org/abs/1912.08696))
+
+
+
 
 ### Modal homotopy type theory
 
