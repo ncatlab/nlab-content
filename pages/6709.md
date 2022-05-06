@@ -149,7 +149,7 @@ More generally, the SW classes are then given by the [[Chern character]]. See fo
 
 * [[Chern class]]
 
-* [[Pontryagin class]]
+* [[Pontryagin class]], [[Wu class]], [[one-loop anomaly polynomial I8]]
 
 * [[orthogonal calculus]]
 
