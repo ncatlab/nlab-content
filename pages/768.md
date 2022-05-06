@@ -908,15 +908,22 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ## References
 
-Original accounts include
+Original articles
 
-* {#CartanSchwartz63} [[Henri Cartan]], [[Laurent Schwartz]], _Le th&#233;or&#233;me d'Atiyah-Singer_ S&#233;minaire 1963/1964. New York:  Benjamin 1967. 
+* [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series, Vol. 63, No. 3 (May, 1956), pp. 430-436 ([jstor:1970012](https://www.jstor.org/stable/1970012))
  
+* [[Graeme Segal]], _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
+
+* [[Norman Steenrod]], _Milgram's classifying space of a topological group_, Topology Volume 7, Issue 4, November 1968, Pages 349-368 (<a href="https://doi.org/10.1016/0040-9383(68)90012-8">doi:10.1016/0040-9383(68)90012-8</a>)
+
+* [[Jim Stasheff]], _H-spaces and classifying spaces: foundations and recent developments_, Algebraic topology (Proc. Sympos. Pure Math., Vol. XXII, Univ. Wisconsin, Madison, Wis., 1970), Providence, R.I.: American Mathematical Society (1971) pp. 247–272
+
 Textbook accounts on classifying spaces for [[vector bundles]] include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#May} [[Peter May]], chapter 23 of _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
 
 * {#Hatcher} [[Allen Hatcher]], section 1.2 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
