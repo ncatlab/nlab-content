@@ -27,6 +27,8 @@ On [[M-theory on 8-manifolds]]:
 
 * [[Dimitrios Tsimpis]], _M-theory on eight-manifolds revisited: N=1 supersymmetry and generalized $Spin(7)$ structures_, JHEP 0604 (2006) 027 ([arXiv:hep-th/0511047](https://arxiv.org/abs/hep-th/0511047))
 
+and specifically in terms of [[G-structures]]:
+
 * Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, PhysRevD.89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
 
