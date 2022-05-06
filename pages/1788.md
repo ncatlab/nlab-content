@@ -34,7 +34,7 @@ Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in exist
 |-----------------------|
 | [Satake 56, Thm 1](#Satake56): $H_{Sa}^\bullet(\mathcal{X}) = H^\bullet\big(Shp \circ Snglr(\mathcal{X}),\mathbb{R}\big)$ | 
 |  **cohomology of $Smth(\mathcal{X})$**   |
-| [Moerdijk-Pronk 99](#MoerdijkPronk99): $H^\bullet_{MP}\big( \mathcal{X}, \mathcal{A} \big) = H^\bullet\big( Shp\circ Smth(\mathcal{X}), A \big)$ <br/>    |
+| [Moerdijk-Pronk 99](#MoerdijkPronk99), [ALR 07  Def. 1.56](#ALR07): $H^\bullet_{MP}\big( \mathcal{X}, \mathcal{A} \big) = H^\bullet\big( Shp\circ Smth(\mathcal{X}), A \big)$ <br/>    |
 | **cohomology of $Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)$** |
 | [Chen-Ruan 00](#ChenRuan00): $H^\bullet_{CR}(\mathcal{X}) \coloneqq H^\bullet\Big( Shp \circ Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)  ,\mathbb{K}\Big)$ <br/> (see [Clader 14, p. 4, p.7](#Clader14)) <br/> [Moe 02, p. 18](#Moerdijk02):  $H^\bullet_{CR}(\mathcal{X}) = H^\bullet\big( Shp \circ Snglr(\mathcal{X}), R_{\mathbb{K}}(Isotr(-))  \big)$  <br/> [Honkasalo 88, Thm. 6.4](#Honkasalo88), [Honkasalo 90, Thm. 5.5](#Honkasalu90): $\cdots = H^\bullet_G\big(X, something \big) $ |  
 
@@ -57,6 +57,8 @@ Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in exist
 * {#ChenRuan00} [[Weimin Chen]], [[Yongbin Ruan]], _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 ([arXiv:math/0004129](https://arxiv.org/abs/math/0004129))
 
 * {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
+
+* {#ALR07} A. Adem, J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 
 * {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093)) 
