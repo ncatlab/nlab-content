@@ -73,12 +73,11 @@ A detailed review of the motivic [[cosmic Galois group]] [[action]] on the space
 
 Discussion of motivic structure in [[periods]] in [[scattering amplitudes]] is also the lecture
 
-* [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827)); S. Bloch, H. Esnault, D. Kreimer, _On motives associated to graph polynomials_ [pdf](http://www.math.uchicago.edu/~bloch/graphpoly050928b.pdf); Spencer Bloch, Pierre Vanhove, _The elliptic dilogarithm for the sunset graph_, IHES preprint P-13-24, [pdf](http://preprints.ihes.fr/2013/P/P-13-24.pdf)
-* Conference _Amplitudes and Periods_, Dec 3-7, 2012, IH&#201;S, &lt;http://pagesperso.ihes.fr/~vanhove/QFT2012> (has online videos of talks) 
+* [[Spencer Bloch]], _Dilogarithm motives appearing in physics_ ([video](http://blip.tv/pifagorov/spencer-bloch-dilogarithm-motives-arising-in-physics-3854827)); S. Bloch, H. Esnault, D. Kreimer, _On motives associated to graph polynomials_ [pdf](http://www.math.uchicago.edu/~bloch/graphpoly050928b.pdf); Spencer Bloch, Pierre Vanhove, _The elliptic dilogarithm for the sunset graph_, IHES preprint P-13-24, [pdf](http://preprints.ihes.fr/2013/P/P-13-24.pdf).
 
 See also the material linked at
 
-* Conference _Amplitudes and Periods_, Dec 3-7, 2012, IH&#201;S ([web](http://pagesperso.ihes.fr/~vanhove/QFT2012))
+* Conference _Amplitudes and Periods_, Dec 3-7, 2012, IH&#201;S ([web](http://pagesperso.ihes.fr/~vanhove/QFT2012)) (videos of talks).
 
 More recent developments on motivic structures in [[scattering amplitudes]] include for instance
 
