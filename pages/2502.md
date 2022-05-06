@@ -325,10 +325,9 @@ A rigorous classification of these cocycles was later given in
 
 A classification of some special cases of signature/supersymmetry of this is also in the following (using a computer algebra system):
 
-* Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv:1011.4731](http://arxiv.org/abs/1011.4731)) 
+* [[Mikhail Movshev]], [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries_ ([arXiv:1011.4731](http://arxiv.org/abs/1011.4731)) 
 
-* Michael Movshev, [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries and of super Poincar&#233; Lie algebra_, Nuclear Physics B
-Volume 854, Issue 2, 11 January 2012, Pages 483&#8211;503 ([arXiv:1106.0335](http://arxiv.org/abs/1106.0335))
+* [[Mikhail Movshev]], [[Albert Schwarz]], Renjun Xu, _Homology of Lie algebra of supersymmetries and of super Poincar&#233; Lie algebra_, Nuclear Physics B Volume 854, Issue 2, 11 January 2012, Pages 483&#8211;503 ([arXiv:1106.0335](http://arxiv.org/abs/1106.0335))
 
 For applications of this classification see also at _[[Green-Schwarz action functional]]_ and at _[[brane scan]]_.
 
