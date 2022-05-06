@@ -318,7 +318,7 @@ Given any category with attributes $C$, def. \ref{CategoryWithAttributes},  poss
 
 1. The [[morphisms]] $(A_0,\dots,A_n) \to (B_0,\dots,B_m)$ in $cxt(C)$ are the morphisms $1.A_0.A_1.\cdots.A_n \to 1.B_0.B_1.\cdots.B_m$ in $C$.  
 
-All the rest of the structure on $cxt(C)$ is induced in an evident way from $C$.
+All the rest of the structure on $cxt(C)$ is induced in an evident way from $C$.  This construction is in fact right adjoint to the inclusion of contextual categories in categories with attributes; see [Kapulkin-Lumsdaine, Proposition 4.4](#KapulkinLumsdaine16).
 
 =--
 
@@ -370,11 +370,12 @@ For $C$ a [[locally cartesian closed category]] $C$, it becomes a model for [[de
 +-- {: .num_remark}
 ###### Remark
 
-It turns out that for modeling additional [[type-forming operations]], however, not all splitting constructions are created equal.  
+It turns out that for modeling additional [[type-forming operations]], however, not all splitting constructions are created equal.
 
-Given $E\to C$, one classical construction (due to [[John Power]]) defines $E'\to C$, where an object of $E'$ over $\Gamma\in C$ consists of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), but it seems impossible to define dependent sums and products on it in a strict way.
+Given $E\to C$, one construction due to [[Benabou]] (called the "right adjoint splitting"), defines $E'\to C$, where the objects of $E'$ over $\Gamma\in C$ are functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers may be extended in this case was proven by [[Martin Hofmann]] for [[dependent sums]] and [[dependent products]] and the [[identity types]] of [[extensional type theory]].  But this is not generally possible for the identity types of [[intensional type theory]] (particularly not their [[term elimination|eliminator]]), which do not have a 1-categorical universal property and hence are not stable under pullback up to isomorphism.
 
-A better choice is a construction due to [[Benabou]], which defines the objects of $E'$ over $\Gamma\in C$ to be functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers may be extended in this case was proven by [[Martin Hofmann]] for [[dependent sums]] and [[dependent products]] and [[extensional type theory|extensional]] [[identity types]], and by [[Michael Warren]] in the case of [[intensional type theory|intensional]] [[identity types]] (but not for the [[term elimination|eliminator]]).
+A different construction (due to [[John Power]], called the "left adjoint splitting") defines an object of $E'$ over $\Gamma\in C$ to consist of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), and it was proven by [Lumsdaine and Warren](#LumsdaineWarren13) that essentially all type formers can be extended to it from $E$.
+
 
 =--
 
@@ -501,15 +502,17 @@ Strictification is discussed in
 
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
 
-* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 
+* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _The local universes model: An overlooked coherence construction for dependent type theory_, [arXiv:1411.1736](https://arxiv.org/abs/1411.1736), ACM Transactions on Computational Logic.
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
 
 * {#Awodey2018} [[Steve Awodey]]. (2018). *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, 28(2), 241-286. [PDF](https://arxiv.org/pdf/1406.3219.pdf)
 
-A comparison of various models, internally in type theory, is in
+Comparisons of various models can be found in
 
 * [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Categorical structures for type theory in univalent foundations*, [arxiv](https://arxiv.org/abs/1705.04310)
+
+* {#KapulkinLumsdaine16} [[Chris Kapulkin]] and [[Peter LeFanu Lumsdaine]], *The homotopy theory of type theories*, [arXiv:1610.00037](https://arxiv.org/abs/1610.00037)
 
 Recent work on abstract definitions of (models of) type theory include:
 
