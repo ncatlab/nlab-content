@@ -151,6 +151,10 @@ Tim Campion: I've attempted to fix these errors. Hopefully it's all right now.
 [[!redirects strong separators]]
 [[!redirects strong generator]]
 [[!redirects strong generators]]
+[[!redirects strong separating set]]
+[[!redirects strong separating sets]]
+[[!redirects strong generating set]]
+[[!redirects strong generating sets]]
 
 [[!redirects dense separator]]
 [[!redirects dense separators]]
