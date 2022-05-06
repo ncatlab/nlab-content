@@ -50,6 +50,8 @@ which may be more familiar to some readers.
 
 ## Related concepts
 
+* [[Wick's theorem]]
+
 * [[Feynman diagram]]
 
 * [[statistical significance]]
