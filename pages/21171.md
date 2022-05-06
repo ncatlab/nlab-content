@@ -1,9 +1,12 @@
-\tableofcontents
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
-Steenrod's generalized cup products generalize the usual simplicial [[cup products]]
-on [[simplicial cochains]].
+Steenrod's _generalized cup products- generalize the usual simplicial [[cup products]] on [[simplicial cochains]].
 
 Taken together, all generalized cup products organize into the [[sequence operad]].
 This operad is an [[E-infinity operad]] and it acts on [[simplicial cochains]],
@@ -67,9 +70,13 @@ In particular for $m=2$ (the sequence 12) we recover the [[cup product]]
 and for $m=3$ (the sequence 121) we recover $\cup_1$.
 \end{remark}
 
+
 ## References
 
 \bibitem{Cochain}
 [[James E. McClure]], [[Jeffrey H. Smith]],
 _Multivariable cochain operations and little $n$-cubes_,
 [arXiv:math/0106024v3](https://arxiv.org/abs/math/0106024v3).
+
+
+[[!redirects generalized cup products]]
