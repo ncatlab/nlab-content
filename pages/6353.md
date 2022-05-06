@@ -63,6 +63,9 @@ Further developments are in
 
 * [[Dieter Lüst]], Stefano Massai, Valent&#237; Vall Camell, _The monodromy of T-folds and T-fects_ ([arXiv:1508.01193](http://arxiv.org/abs/1508.01193))
 
+* Yoan Gautier, [[Chris Hull]], Dan Israël, _Heterotic/type II Duality and Non-Geometric Compactifications_ ([arXiv:1906.02165](https://arxiv.org/abs/1906.02165))
+
+
 A precise global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]] described in the nLab entry _[[T-Duality and Differential K-Theory]]_ is given in 
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _T-Duality in K-theory and elliptic cohomology_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
