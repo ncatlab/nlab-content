@@ -1,4 +1,3 @@
-[[!redirects galactic rotation curves]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,7 +19,7 @@
 
 ## Idea
 
-The _Tully-Fisher relation_ is a relation between the asymptotic behaviour of [[galaxy rotation curves]] and their total visible [[baryon|baryonic]] [[mass]]. 
+In [[astronomy]], the _Tully-Fisher relation_ is a relation between the asymptotic behaviour of [[galaxy rotation curves]], witnessed by the width of their [[21cm hydrogen line]], and the total visible [[baryon|baryonic]] [[mass]] of the [[galaxies]]. 
 
 For most observed [[galaxies]] their rotation curves do not follow the predictions of standard [[gravity]] applied to the visible [[baryon|baryonic]] [[mass]] distribution in the galaxy. This has led to the speculation that either there is further invisible but gravitating [[dark matter]] making up most of the mass of galaxies, or the laws of [[gravity]] are modified on galactic scales ("[[MOND]]"). 
 
@@ -56,4 +55,8 @@ Computer simulation of [[dark matter]] [[structure formation]] on [[galaxy]]-sca
 * {#ElBadry18} El-Badry et al. _Gas Kinematics in FIRE Simulated Galaxies Compared to Spatially Unresolved HI Observations_, Monthly Notices of the Royal Astronomical Society, Volume 477, Issue 2, 21 June 2018, Pages 1536–1548 ([arXiv:1801.03933](https://arxiv.org/abs/1801.03933), [doi:10.1093/mnras/sty730](https://doi.org/10.1093/mnras/sty730))
 
 
+[[!redirects Tully-Fisher relations]]
+
+[[!redirects baryonic Tully-Fisher relation]]
+[[!redirects baryonic Tully-Fisher relations]]
 
