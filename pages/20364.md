@@ -19,7 +19,7 @@
 
 ## Idea and definition
 
-Pyknotic sets aim to provide a convenient setting
+Pyknotic sets (from the ancient Greek πυκνός, meaning thick, dense, or compact) aim to provide a convenient setting
 in the framework of [[homotopical algebra]] for working with algebraic objects that have some sort of [[topological space|topology]] on them.
 
 \begin{definition}
