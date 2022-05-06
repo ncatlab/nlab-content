@@ -64,6 +64,9 @@ This equivalence can be exploited to relate the [[exponential generating functio
 A tree in the form of an _undirected_ graph together with a chosen vertex can be regarded as a rooted tree in digraph form (with root the chosen vertex), by orienting all edges in the direction of paths going to the root. The category of rooted trees has very nice categorical properties not shared by the category of unrooted trees; see the following section. 
 
 
+### As ordered sets
+In order theory, a tree is described by a [[partial order]] with the added property that it is downward well ordered. Let $S$ be a [[partially ordered set]], then $S$ is a tree when for each $x \in S$ the downward closure or history $x^- = \{ y \mid y \leq x \}$ is a [[well ordered]] subset of $S$. If instead of a well-order we find that $x^-$ is only totally ordered (meaning that points in the tree do not have a distinguished successor) we say that $S$ is [[prefix ordered]].
+
 ### As functors 
 
 Let $\mathbb{N}$ be the [[totally ordered set]] of natural numbers $0 \leq 1 \leq 2 \leq \ldots$, viewed as a [[category]]. A **rooted forest** is a [[presheaf]] on $\mathbb{N}$, i.e., a functor 
