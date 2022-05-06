@@ -628,7 +628,7 @@ $$
 $$
 
 that induces functors between toposes as in prop. \ref{BohrFunctoriality}.
-Then the fact that $f$ is a morphisms of $C^\ast$-toposes implies 
+Then the fact that $f$ is a morphism of $C^\ast$-toposes implies 
 algebra homomorphisms
 
 $$
@@ -1064,7 +1064,7 @@ The [[functor|functoriality]] of Bohrification is observed in
 * [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_ ([arXiv:1003.3618](http://arxiv.org/abs/1003.3618))
  {#vdBergHeunen}
 
-The application of the [[double negation topology]] to make Bohrification coinicide with ordinary [[Gelfand duality]] on commutative $C^*$-algebras is discussed in 
+The application of the [[double negation topology]] to make Bohrification coincide with ordinary [[Gelfand duality]] on commutative $C^*$-algebras is discussed in 
 
 * [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_ in Cooper, Kashefi, Panangaden (eds.) _Developments in computational models_ (DCM 2010)([arXiv:1006.1432](http://arxiv.org/abs/1006.1432))
 {#Spitters06}
@@ -1082,14 +1082,13 @@ The original suggestion to interpret the [[Kochen-Specker theorem]] in the topos
 * {#IshamDoering07} [[Andreas Döring]], [[Chris Isham]], _A Topos Foundation for Theories of Physics_  ([arXiv:quant-ph/0703060](http://arxiv.org/abs/quant-ph/0703060), [arXiv:quant-ph/0703062](http://arxiv.org/abs/quant-ph/0703062), [arXiv:quant-ph/0703066](http://arxiv.org/abs/quant-ph/0703066))
   
 
-Disucssion of aspects of the process of [[quantization]] in terms of Bohr toposes is in 
+Discussion of aspects of the process of [[quantization]] in terms of Bohr toposes is in 
 
 * Kunji Nakayama, _Sheaves in Quantum Topos Induced by Quantization_ ([arXiv:1109.1192](http://arxiv.org/abs/1109.1192))
 
 A variant of the Bohr topos construction meant to take more of the topology of the underlying $C^\ast$-algebra into account has been suggested for finite-dimensional $C^\ast$-algebra in 
 
-* Guillaume Raynaud, _Fibred contextual quantum physics_, PhD thesis, Uni-
-versity of Birmingham, 2014. ([web](http://www.cs.bham.ac.uk/~sjv/grpage.php))
+* Guillaume Raynaud, _Fibred contextual quantum physics_, PhD thesis, University of Birmingham, 2014. ([web](http://www.cs.bham.ac.uk/~sjv/grpage.php))
 
 and generalized to arbitrary $C^\ast$-algebras in 
 
