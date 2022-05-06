@@ -13,10 +13,10 @@
 =--
 =--
 
-# Contents
+
+#Contents#
 * table of contents
 {: toc}
-
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/AdSSlicingByHyperbolic.jpg" width="400">
@@ -134,25 +134,33 @@ and as such validates the [[Ryu-Takayanagi formula]] for [[holographic entanglem
 
 ### General
 
-* [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+Reviews:
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Ingemar Bengtsson]], _Anti-de Sitter space_, lecture notes ([pdf](http://www.physto.se/~ingemar/Kurs.pdf))
+* [[Ingemar Bengtsson]], _Anti-de Sitter space_, lecture notes 1998 ([[Bengtsson98.pdf:file]])
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-
-* C. Frances, _The conformal boundary of anti-de Sitter space-times_, in  _AdS/CFT correspondence: Einstein metrics and their conformal boundaries_ , 205--216, IRMA Lect. Math. Theor. Phys., 8, Eur. Math. Soc., Z&#252;rich, 2005 ([pdf](http://mahery.math.u-psud.fr/~frances/ads-cft2.pdf))
+* [[Matthias Blau]], chapter 38 of: _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 * [[Gary Gibbons]], _Anti-de-Sitter spacetime and its uses_ ([arXiv:1110.1206](http://arxiv.org/abs/1110.1206))
 
-* {#Natsuume15} [[Makoto Natsuume]], section 6 of _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
+* {#Natsuume15} [[Makoto Natsuume]], section 6 of: _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
+
+* Leszek M. Sokolowski, _The bizarre anti-de Sitter spacetime_, International Journal of Geometric Methods in Modern Physics 13 no.9 (2016) 1630016 ([arXiv:1611.01118](https://arxiv.org/abs/1611.01118))
 
 
-* Wikipedia (English): [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
+See also:
+
+* Wikipedia, _[anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)_
+
+Further discussion:
 
 * Abdelghani Zeghib, _On closed anti de Sitter spacetimes_, Math. Ann. 310, 695&#8211;716 (1998) ([pdf](http://www.umpa.ens-lyon.fr/~zeghib/Anti.de.Sitter.pdf))
 
-* Leszek M. Sokolowski, _The bizarre anti-de Sitter spacetime_, International Journal of Geometric Methods in Modern Physics 13 no.9 (2016) 1630016 ([arXiv:1611.01118](https://arxiv.org/abs/1611.01118))
+
+* C. Frances, _The conformal boundary of anti-de Sitter space-times_, in  _AdS/CFT correspondence: Einstein metrics and their conformal boundaries_ , 205--216, IRMA Lect. Math. Theor. Phys., 8, Eur. Math. Soc., Z&#252;rich, 2005 ([pdf](http://mahery.math.u-psud.fr/~frances/ads-cft2.pdf))
+
+* Jiri Podolsky, Ondrej Hruska, _Yet another family of diagonal metrics for de Sitter and anti-de Sitter spacetimes_, Phys. Rev. D 95, 124052 (2017) ([arXiv:1703.01367](https://arxiv.org/abs/1703.01367))
 
 Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]]  (which is already periodic in _real_ time) to [[Euclidean field theory]] with periodic _imaginary_ time is in
 
