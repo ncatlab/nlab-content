@@ -22,14 +22,14 @@ where
 $$I \leftarrow E \to B\to J$$
 are maps of spaces.
 
-Polynomial functors are closed under compositions \cite[Theorem 2.1.8]{GHK}.
+Polynomial functors are closed under compositions ([GHK, Theorem 2.1.8](#GHK)).
 
 A functor $F\colon S/I\to S/J$
 is polynomial
-if and only if it is [[accessible]] and preserves weakly contractible limits,
+if and only if it is [[accessible functor|accessible]] and preserves weakly contractible limits,
 the latter referring to limits indexed by categories whose [[nerve]]
 is a weakly contractible [[simplicial set]],
-see \cite[Theorem 2.2.3(ii)]{GHK}.
+see ([GHK, Theorem 2.2.3(ii)](#GHK)).
 
 Recall that an $(\infty,1)$-functor $F\colon C\to D$
 is a local right adjoint functor
@@ -39,7 +39,7 @@ is a [[right adjoint functor]].
 
 A functor $F\colon S/I\to S/J$
 is polynomial if and only if it is a local right adjoint functor,
-see \cite[Theorem 2.2.3(iii)]{GHK}.
+see ([GHK, Theorem 2.2.3(iii)](#GHK)).
 
 
 
@@ -49,7 +49,7 @@ see \cite[Theorem 2.2.3(iii)]{GHK}.
 
 ## References
 
-\bibitem{GHK} [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
+{#GHK} [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
 
 [[!redirects polynomial ∞-functors]]
 [[!redirects polynomial (∞,1)-functor]]
