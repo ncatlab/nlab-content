@@ -78,21 +78,22 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 The characterization of the free compact closed category over a closed symmetric monoidal category is described in
 
-* {#Day1977} [[Brian Day]], _Note on compact closed categories_, J. Austral. Math. Soc. 24 (Series A), 309-311 (1977)
+* {#Day1977} [[Brian Day]], _Note on compact closed categories_, J. Austral. Math. Soc. 24 (Series A), 309-311 (1977) doi:[10.1017/S1446788700020334](https://doi.org/10.1017/S1446788700020334)
 
 Discussion of [[coherence]] in compact closed categories is due to
 
-* [[Max Kelly]], M.L. Laplaza, _Coherence for compact closed categories_,  Journal of Pure and Applied Algebra 19: 193&#8211;213 (1980)
+* [[Max Kelly]], M.L. Laplaza, _Coherence for compact closed categories_,  Journal of Pure and Applied Algebra 19: 193&#8211;213 (1980), doi:[10.1016/0022-4049(80)90101-2](https://doi.org/10.1016/0022-4049%2880%2990101-2).
 
 The relation to [[quantum operations]] and [[completely positive maps]] is discussed in
 
 * Peter Selinger, _Dagger compact closed categories and
-completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf)_
+completely positive maps_, Electronic Notes in Theoretical Computer Science
+**170** (2007) Pages 139-163, doi:[10.1016/j.entcs.2006.12.018](https://doi.org/10.1016/j.entcs.2006.12.018)
 
 The relation to [[traced monoidal categories]] is discussed in
 
-* [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf))
- {#JoyalStreetVerity96}
+* {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf)), doi:[10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)
+
 
 
 * Wikipedia, _[Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category)_ .
