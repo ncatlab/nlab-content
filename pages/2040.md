@@ -163,6 +163,8 @@ For this kind of cohomology, there is equivariant [[Serre spectral sequence]] ([
 
 ## References
 
+### Plain Mackey functors
+
 The original article is
 
 * {#Dress71} A. W. M. Dress, _Notes on the theory of representations of finite groups. Part I: The Burnside ring of a finite group and some AGN-applications, Bielefeld_, 1971, 
@@ -204,14 +206,17 @@ See also
 
 * {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
 
+Relation of Mackey functors to [[sheaves with transfer]] in the theory of [[motives]]:
 
-The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey functors]] is due to 
+* {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
 
-* {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+[[categorification|Categorification]] to Mackey [[2-functors]] is discussed found in 
 
-* [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
 
-* {#Nardin12} [[Denis Nardin]], section 2.6 of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+### Spectral Mackey functors
+
+The general concept of spectral Mackey functors
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
@@ -219,18 +224,26 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
 
 * {#Glasman15} [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized Arone-Ching theorem_ ([arXiv:1507.01976](https://arxiv.org/abs/1507.01976), [talk notes pdf](http://www-users.math.umn.edu/~sglasman/strattalk.pdf))
 
+
+#### In equivariant stable homotopy theory
+
+The construction of [[equivariant stable homotopy theory]] in terms of spectral Mackey functors is originally due to 
+
+* {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+
+* [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+
+* {#Nardin12} [[Denis Nardin]], section 2.6 and appendix A of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+
 The generalization of [[K-theory of permutative categories]] to spectral Mackey functors is discussed in
 
 * {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_, Algebraic & Geometric Topology 15.1 (2015): 537-563 ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
 
+#### In Goodwillie calculus
 
-Application of Mackey functors to the theory of [[motives]] includes
+Discussion of [[Goodwillie calculus]] via [[spectral Mackey functors]]
 
-* {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
-
-[[categorification|Categorification]] to Mackey [[2-functors]] is discussed found in 
-
-* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
+* {#Glasman16} [[Saul Glasman]], _Goodwillie calculus and Mackey functors_  ([arXiv:1610.03127](https://arxiv.org/abs/1610.03127))
 
 [[!redirects Mackey functors]]
 
