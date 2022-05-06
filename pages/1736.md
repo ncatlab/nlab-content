@@ -53,7 +53,9 @@ A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the foll
 
 * For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
-* 1. The [[derived adjunction unit]] is a weak equivalence, in that for every cofibrant object $c\in C$, the composite $c \overset{\eta_c}{\to} R(L(c)) \to R(L(c)^{fib})$ (of the [[adjunction unit]] with a [[fibrant replacement]] $R(L(c) \stackrel{\simeq}{\to} L(c)^{fib})$) is a weak equivalence in $C$, 
+* The following two conditions hold:
+
+  1. The [[derived adjunction unit]] is a weak equivalence, in that for every cofibrant object $c\in C$, the composite $c \overset{\eta_c}{\to} R(L(c)) \to R(L(c)^{fib})$ (of the [[adjunction unit]] with a [[fibrant replacement]] $R(L(c) \stackrel{\simeq}{\to} L(c)^{fib})$) is a weak equivalence in $C$, 
 
   1. The [[derived adjunction counit]] is a weak equivalence, in that for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \overset{\epsilon_d}{\to} d$ (of the [[adjunction counit]] with [[cofibrant replacement]] $L(R(d)^{cof} \stackrel{\simeq}{\to} R(d))$) is a weak equivalence in $D$.
 
@@ -71,7 +73,7 @@ Here are further characterizations:
 +-- {: .num_prop #InCaseTheRightAdjointCreatesWeakEquivalences}
 ###### Proposition
 
-If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $R(f)$ is) then $(L \dashv R)$ is a Quillen equivalence precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
+If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ the [[right adjoint]] $R$ "[[created limit|creates]] weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $R(f)$ is) then $(L \dashv R)$ is a Quillen equivalence precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
 
 $$
   d \overset{\eta}{\longrightarrow} R (L (d))
