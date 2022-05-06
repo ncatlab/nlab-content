@@ -35,7 +35,7 @@
 
 #### __First Secton.__ On Space.
 
-For Kant space is not a concept but an intuition, more precisely an intuition, "which serves for the foundation of all external intuitions". Kant develops this view in the following steps (A24-25/B38-40)
+For Kant space is not a concept but an intuition, more precisely an intuition, "which serves for the foundation of all external intuitions". Kant develops this view in the following steps (A[24](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_024.png)-[25](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_025.png)/B38-40)
 
 >  1. Space is not a conception which has been derived from outward experiences. For, in order that certain sensations may relate to something without me (that is, to something which occupies a different part of space from that in which I am); in like manner, in order that I may represent them not merely as without, of, and near to each other, but also in separate places, the representation of space must already exist as a foundation. ...
 
@@ -69,7 +69,7 @@ Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a fo
 #### __Introduction.__ The Idea of a Transcendental Logic. (General Logic and Transcendental Logic) 
 
 I. On logic in general.
-The Purpose of I. (B74-B79) is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
+The Purpose of I. (B74-79) is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
 
 To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. (The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”,”aesthetics” and “logic”.) (B74-76)
 Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. (The termini defined are “general logic”, and “particular logic”.)(B76) 
@@ -82,7 +82,7 @@ Kant then notes the difference between cognition a priori and transcendental cog
 Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. (B81f)
 
 III. On the division of general logic into analytic and dialectic.
-The purpose of III. (B82-B86) is to establish general logic as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
+The purpose of III. (B82-86) is to establish general logic as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
 To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” (B82)
 Now, using this supposition as a premise, he attempts to prove the self-contradictory nature of a “certain and general criterion of truth of any cognition” (B82) according to the following schema:
     
@@ -96,7 +96,7 @@ On the other hand, "general logic, which is merely a __canon__ for judging, has 
 
 IV. On the division of transcendental logic into the transcendental analytic and dialectic. 
 
-The purpose of  IV. (B87-B88) is to narrow down the scope of transcendental logic, applying the division established in III. .
+The purpose of  IV. (B87-88) is to narrow down the scope of transcendental logic, applying the division established in III. .
 The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object” (B87)
 
 One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects.
@@ -120,11 +120,11 @@ In the development of Kant's distinction between general logic and transcendenta
 
 In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left our in the the corresponding part of the second edition ("B" deduction). Concepts are created in three steps:
 
-1. "On the synthesis of apprehension in the intuition" (A98).
+1. "On the synthesis of apprehension in the intuition" ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png)).
 
-    All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"(A99)
+    All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png))
 
-    "Every intuition[Anschauung] contains a manifold in itself."(A99) The mind distinguishes between every moment of impression.
+    "Every intuition[Anschauung] contains a manifold in itself."([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) The mind distinguishes between every moment of impression.
 
     We want a  _Unity of intuition_ to come from these impressions.
     This process is called _Synthesis of apprehension_:
@@ -136,9 +136,9 @@ In the first edition Kant provides a more thorough description on how the format
     * This process has to happen "a priori".
 
 
-1. "On the synthesis of reproduction in the imagination" (A100).
+1. "On the synthesis of reproduction in the imagination" ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png)).
 
-    "It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel]." (A100)
+    "It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel]." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
     The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a fuction in one direction.
 
@@ -150,19 +150,19 @@ In the first edition Kant provides a more thorough description on how the format
     * the similar limiting process as in the synthesis of apprehension has to occur
 
 
-1. "On the synthesis of recognition in the concept" (A103).
+1. "On the synthesis of recognition in the concept" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)).
 
     If that which we think of  is the same, it has to give rise to the same representation.
 
-    We have __one__ concept: "It is this __one__ consciousness that unifies the _manifold_ that has been suc­cessively intuited, and then also reproduced, into one representation." [A103]
+    We have __one__ concept: "It is this __one__ consciousness that unifies the _manifold_ that has been suc­cessively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 
-    "The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the _manifold_ of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition."[A105]
+    "The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the _manifold_ of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition." ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
 
     for that we need:
 
     * A rule, which guarantees that the reproduction happens "a priori" and can always be exhibited. This is called "unity of rule".
 
-    * The concept in which the representations unite. ("All cognition requiers a concept"(A106))
+    * The concept in which the representations unite. ("All cognition requiers a concept"([A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png)))
 
 
     To sum up crucial features: transcendental apperception
@@ -190,7 +190,7 @@ In the first edition Kant provides a more thorough description on how the format
 
 Regarding [[Aristotelian logic]]:
 
-> _Concepts [Begriffe] ... serve as predicates of possible judgements._ ([[Critique of Pure Reason]] A69/B94)
+> _Concepts [Begriffe] ... serve as predicates of possible judgements._ ([A69](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_069.png)/B94)
 
 Compare to the identification of concepts with the [[types]] in the sense of [[type theory]], see the references [here](Science+of+Logic#ReferencesConceptLogicAsTypeTheory).
 
