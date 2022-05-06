@@ -24,14 +24,26 @@
 In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _flavor anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/bsllprocesses.jpg" width="570">
+\begin{imagefromfile}
+  "file_name": "bsllprocesses.jpg",
+  "width": 570
+\end{imagefromfile}
 \end{center}
 
 > graphics grabbed from [Cartelle 18](#Cartelle18)
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
-</div>
+\begin{imagefromfile}
+  "file_name": "FlavourAnomalyAt4Sigma.jpg",
+  "width": 320,
+  "float": "right",
+  "margin": {
+    "top": 0,
+    "right": 10,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  } 
+\end{imagefromfile}
 
 ## Statistical significance
  {#StatisticalSignificance}
@@ -49,13 +61,19 @@ Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) th
 
 
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/LyonsThresholdForBMesonDecayAnomaly.jpg" width="600"> 
+\begin{imagefromfile}
+  "file_name": "LyonsThresholdForBMesonDecayAnomaly.jpg",
+  "width": 600
+\end{imagefromfile}
 \end{center}
 
 > table taken from [Lyons 13b, p. 4](#Lyons13b)
 
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/DorigoThresholdForBMesonDecayAnomaly.jpg" width="600"> 
+\begin{imagefromfile}
+  "file_name": "DorigoThresholdForBMesonDecayAnomaly.jpg",
+  "width": 600
+\end{imagefromfile} 
 \end{center}
 
 > table taken from [Dorigo 15, p. 16](#Dorigo15)
@@ -63,14 +81,17 @@ Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) th
 In conclusion, with currently available data, the observed flavour anomalies are possible signs of New Physics beyond the current [[standard model of particle physics]].
 
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/DordeiConclusion.jpg" width="740"> 
+\begin{imagefromfile}
+  "file_name": "DordeiConclusion.jpg",
+  "width": 740
+\end{imagefromfile} 
 \end{center}
 
 > graphics taken from [Dordei 18, slide 22](#Dordei18)
 
 In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
-<br/>
+\linebreak
 
 ## Possible models
 
@@ -158,7 +179,7 @@ Review includes
 
 * {#Cartelle18} Paula Alvarez Cartelle on behalf of the [[LHCb collaboration]], _New results on flavor anomalies at LHCb_, April 2018 ([pdf](https://cds.cern.ch/record/2311960/files/FlavourAnomaliesLHCbAlvarez.pdf))
 
-* {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 (<a href="https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf">pdf</a>)
+* {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 ([pdf](https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf))
 
 * Vera Lüth, _A Challenge to Lepton Universality in B Meson Decays_, Invited tall at [7th Symposium on Symmetries in Subatomic Physics (SSP 2018)](https://indico.cern.ch/event/651952/) at RWTH Aachen University (Germany), June 11-15, 2018 ([arXiv:1808.02587](https://arxiv.org/abs/1808.02587))
 
@@ -330,4 +351,3 @@ and as possible explanation also of the anomalies seen in the [[ANITA experiment
 
 [[!redirects flavor anomaly]]
 [[!redirects flavor anomalies]]
-
