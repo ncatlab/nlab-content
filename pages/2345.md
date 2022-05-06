@@ -32,7 +32,7 @@ Here we present explicitly the definition for the middling notion of a pseudofun
 
 ####Pseudofunctor between strict $2$-categories
 
-Let $\mathfrak{C}$ and $\mathfrak{D}$ be strict [[2-categories]]. A pseudofunctor $F:\mathfrak{C}\to\mathfrak{D}$ consists of
+Let $\mathfrak{C}$ and $\mathfrak{D}$ be strict [[2-categories]]. A pseudofunctor $P:\mathfrak{C}\to\mathfrak{D}$ consists of
 
 * A function $P:Ob_\mathfrak{C}\to Ob_\mathfrak{D}$.
 
@@ -46,7 +46,7 @@ $P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B)).$
 
 We will generally write the function and functors as $P$.
 
-* For each pair triplet of objects $A,B,C\in{\bf Ob}_\mathfrak{C}$, a natural isomorphism
+* For each triplet of objects $A,B,C\in Ob_\mathfrak{C}$, a natural isomorphism
 
 \begin{centre}
 
@@ -58,13 +58,13 @@ We will generally write the function and functors as $P$.
 
 \end{centre}
 
-whose components are $2$-cell isomorphisms $\gamma_{f,g}:P(g)\circ P(f) \Rightarrow P(g\circ f)$ as below 
+whose components are $2$-cell isomorphisms $\gamma_{f,g}:P(f\circ g) \Rightarrow P(f)\circ P(g)$ as below 
 
 \begin{centre}
 
 \begin{xymatrix@C20mm}
 
-P(A) \rtwocell_{P(g)\circ P(f)}^{P(g\circ f)}{\;\;\;\;\gamma_{f,g}} & P(C)
+P(A) \rtwocell_{P(f)\circ P(g)}^{P(f\circ g)}{\;\;\;\;\gamma_{f,g}} & P(C)
 
 \end{xymatrix}
 
@@ -82,7 +82,7 @@ P(A) \rtwocell_{P(g)\circ P(f)}^{P(g\circ f)}{\;\;\;\;\gamma_{f,g}} & P(C)
 
 \end{centre}
 
-where $1$ denotes the terminal category and $id_A$ is the identity-selecting functor at $A$. This amounts to a $2$-cell isomorphism $\iota_{_*}:1_{P(A)}\Rightarrow P(1_A)$ as below
+where $1$ denotes the terminal category and $id_A$ is the identity-selecting functor at $A$. Its component is a $2$-cell isomorphism $\iota_{_*}:P(1_A)\Rightarrow 1_{P(A)}$ as below
 
 \begin{centre}
 
@@ -94,13 +94,13 @@ P(A) \rtwocell_{1_{P(A)}}^{P(1_A)}{\;\;\;\;\iota_*} & P(A)
 
 \end{centre}
 
-These are subject to the following two axioms:
+These are subject to the following axioms:
 
 1. For any composable triplet of $1$-cells $(f,g,h)\in Ob_{\mathfrak{C}(C,D)}\times Ob_{\mathfrak{C}(B,C)}\times Ob_{\mathfrak{C}(A,B)}$ we have that 
 
 \begin{centre}
 
-$\gamma_{f\circ g,h}\circ(\gamma_{f,g}\star 1_{P(h)})=\gamma_{f,g\circ h}\circ(1_{P(f)}\star\gamma_{g,h}),$
+$(\gamma_{f,g}\star 1_{P(h)})\circ\gamma_{f\circ g,h}=(1_{P(f)}\star\gamma_{g,h})\circ\gamma_{f,g\circ h},$
 
 \end{centre}
 
@@ -110,7 +110,7 @@ where $\circ$ denotes vertical composition and $\star$ denotes horizontal compos
 
 \begin{xymatrix@R20mm@C20mm}
 
-P(f)\circ P(g)\circ P(h) \ar@2{->}[d]_{\gamma_{f,g}\star 1_{P(h)}} \ar@2{->}[r]^{1_{P(f)}\star\gamma_{g,h}} & P(f)\circ P(g\circ h)\ar@2{->}[d]^{\gamma_{f,g\circ h}} \\ P(f\circ g)\circ P(h)\ar@2{->}[r]_{\gamma_{f\circ g,h}} & P(f\circ g\circ h)
+P(f)\circ P(g)\circ P(h) & \ar@2{->}[l]_{1_{P(f)}\star\gamma_{g,h}} P(f)\circ P(g\circ h) \\ P(f\circ g)\circ P(h) \ar@2{->}[u]^{\gamma_{f,g}\star 1_{P(h)}} & \ar@2{->}[l]^{\gamma_{f\circ g,h}} \ar@2{->}[u]_{\gamma_{f,g\circ h}} P(f\circ g\circ h)
 
 \end{xymatrix}
 
@@ -120,13 +120,13 @@ P(f)\circ P(g)\circ P(h) \ar@2{->}[d]_{\gamma_{f,g}\star 1_{P(h)}} \ar@2{->}[r]^
 
 \begin{centre}
 
-$\iota_B\star 1_{P(g)}=\gamma_{1_B,g},$
+$\iota_B\star 1_{P(g)}=\gamma_{1_B,g}^{-1},$
 
 \end{centre}
 
 \begin{centre}
 
-$1_{P(f)}\star\iota_B=\gamma_{f,1_B},$
+$1_{P(f)}\star\iota_B=\gamma_{f,1_B}^{-1},$
 
 \end{centre}
 
@@ -136,11 +136,11 @@ as illustrated by the commutative $2$-cell diagrams below
 
 \begin{xymatrix@R30mm@C35mm}
 
-P(A)\rtwocell^{P(g)}_{P(g)}{\;\;\;\;\;\;1_{P(g)}} \drtwocell<5.5>_{P(g)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_B)\circ P(g)}{\;\;\;\;\;\;\;\gamma_{1_B,g}} & P(B) \dtwocell^{\;\;\;\;\;\;P(1_B)}_{1_{P(B)\;\;\;\;\;\;}}{\iota_B} \\ & P(B)
+P(A)\rtwocell^{P(g)}_{P(g)}{\;\;\;\;\;\;1_{P(g)}} \drtwocell<5.5>_{P(g)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\; P(1_B)\circ P(g)}{\;\;\;\;\;\;\;\gamma_{1_B,g}^{-1}} & P(B) \dtwocell^{\;\;\;\;\;\;P(1_B)}_{1_{P(B)\;\;\;\;\;\;}}{\iota_B} \\ & P(B)
 
 \end{xymatrix} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  \begin{xymatrix@R30mm@C35mm}
 
-P(B) \rtwocell^{P(1_B)}_{1_{P(B)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_C)\circ P(f)}{\;\;\;\;\;\;\;\gamma_{f,1_B}} & P(B) \dtwocell<4>^{\;\;\;\;P(f)}_{P(f)\;\;\;\;}{1_{P(f)}} \\ & P(C)
+P(B) \rtwocell^{P(1_B)}_{1_{P(B)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\; P(f)\circ P(1_B)}{\;\;\;\;\;\;\;\gamma_{f,1_B}^{-1}} & P(B) \dtwocell<4>^{\;\;\;\;P(f)}_{P(f)\;\;\;\;}{1_{P(f)}} \\ & P(C)
 
 \end{xymatrix}
 
