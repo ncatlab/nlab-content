@@ -3,17 +3,32 @@
 * table of contents
 {: toc}
 
-The "rising sea" is a metaphor invented by [[Alexander Grothendieck]]Grothendieck; it is also the name of a website of Daniel Murfet with notes on algebraic geometry as developed in the school of Grothendieck. 
+The "rising sea" is a metaphor due to [[Alexander Grothendieck]] (see the quote [below](#Idea)), meaning to illuminate how the development of [[general abstract]] theory eventually brings with it effortless solutions to [[concrete particular]] problems, much like a hard nut may be cracked not immediately by sheer punctual force, but eventually by genly immersing it into a whole body of water.
+
+Following this metaphor, "The Rising Sea" was chosen as the name of a website of [[Daniel Murfet]] with notes on [[algebraic geometry]] as developed in the school of Grothendieck. 
+
 
 ## Idea
+ {#Idea}
 
 As a metaphor for his approach of problem solving via theory building, [[Alexander Grothendieck]] once referred to the how the rising sea slowly but eventually surrounds solid land masses. This metaphor became more or less proverbial as "The Rising Sea" analogy.
 
-> The unknown thing to be known appeared to me as some stretch of earth or hard marl, resisting penetration... the sea advances insensibly in silence, nothing seems to happen, nothing moves, the water is so far off you hardly hear it.. yet it finally surrounds the resistant substance. [Grothendieck  [[Récoltes et semailles]], 1985&#8211;1987, pp. 552-3-1
+From [Grothendieck 85, pp. 552-3-1](#Grothendieck85):
+
+> I can illustrate the second approach with the same image of a nut to be opened. 
+
+> The first analogy that came to my mind is of immersing the nut in some softening liquid, and why not simply water? From time to time you rub so the liquid penetrates better,and otherwise you let time pass. The shell becomes more flexible through weeks and months -- when the time is ripe, hand pressure is enough, the shell opens like a perfectly ripened avocado!
+
+> A different image came to me a few weeks ago. 
+
+> The unknown thing to be known appeared to me as some stretch of earth or hard marl, resisting penetration... the sea advances insensibly in silence, nothing seems to happen, nothing moves, the water is so far off you hardly hear it.. yet it finally surrounds the resistant substance. 
+
+
+For more see ([MacLarty 03](#MacLarty03)).
 
 ## Website 
 
-Daniel Murfet has written a body of useful notes on fundamentals of [[algebraic geometry]], [[commutative algebra]], and [[category theory]], which can be found at his website [The Rising Sea](http://therisingsea.org/). 
+[[Daniel Murfet]] has written a body of useful notes on fundamentals of [[algebraic geometry]], [[commutative algebra]], and [[category theory]], which can be found at his website [The Rising Sea](http://therisingsea.org/). 
 
 ## Related entries 
 
@@ -24,7 +39,10 @@ Grothendieck's metaphor is also discussed at
 
 ## References
 
-* [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
+* {#Grothendieck85} [[Alexander Grothendieck]], _[[Récoltes et semailles]]_, 1985-1987, 
+
+
+* {#MacLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
 
 
 category: reference
