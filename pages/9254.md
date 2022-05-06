@@ -59,6 +59,7 @@ and to analysis of [[phase transitions]]:
 
 
 ### Persistency
+  {#ReferencesPersistency}
 
 Discussion of [[persistent homology|persistent]] [[Cohomotopy]] as an improvement over homological [[well groups]]:
 
