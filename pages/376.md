@@ -66,7 +66,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the discusson at _[[overcategory]]-[Limits and colimits](overcategory#LimitsAndColimits)_ the product in the slice $\mathcal{C}_{/X}$ of two objects $\langle E_1 \stackrel{f_1}{\longrightarrow} X\rangle$ and $\langle E_2 \stackrel{f_2}{\longrightarrow} X\rangle$ is given by the [[pullback]] $f_1^* E_2 = f_2^* E_1$ in $\mathcal{C}$, regarded again as a morphism over $X$. More formally this means that the product with $\langle E \stackrel{f}{\to} X\rangle $ is given by the composite
+By the discussion at _[[overcategory]]-[Limits and colimits](overcategory#LimitsAndColimits)_ the product in the slice $\mathcal{C}_{/X}$ of two objects $\langle E_1 \stackrel{f_1}{\longrightarrow} X\rangle$ and $\langle E_2 \stackrel{f_2}{\longrightarrow} X\rangle$ is given by the [[pullback]] $f_1^* E_2 = f_2^* E_1$ in $\mathcal{C}$, regarded again as a morphism over $X$. More formally this means that the product with $\langle E \stackrel{f}{\to} X\rangle $ is given by the composite
 
 $$ 
   (-) \times_{\mathcal{C}_{/X}} \langle E \stackrel{f}{\to} X\rangle
