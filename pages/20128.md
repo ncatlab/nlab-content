@@ -64,6 +64,8 @@ Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoqu
 
 * A. Karozas, G. K. Leontaris, I. Tavellaris, N. D. Vlachos, _On the LHC signatures of $SU(5) \times U(1)'$ F-theory motivated models_ ([arXiv:2007.05936](https://arxiv.org/abs/2007.05936))
 
+* [[Ben Allanach]], _$U(1)_{B_3-L_2}$ Explanation of the Neutral Current $B$−Anomalies_ ([arXiv:2009.02197](https://arxiv.org/abs/2009.02197))
+
 
 
 
