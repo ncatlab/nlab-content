@@ -169,15 +169,10 @@ See at _[[Beilinson regulator]]_.
 
 Given a ring $R$, then there is a natural morphism of [[spectra]]
 
-$$
-  \array{
-     && \mathbf{TC}(R)
-     \\
-      & \nearrow & \downarrow
-     \\
-     \mathbf{K}(R) &\longrightarrow& \mathbf{THH}(R)
-  }
-$$
+\begin{tikzcd}
+& TC(R) \arrow[d]\\
+K(R) \arrow[ru] \arrow[r] & THH(R)\\
+\end{tikzcd}
 
 from the algebraic K-theory spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for algebraic K-theory.
 
