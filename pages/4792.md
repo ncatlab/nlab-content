@@ -44,6 +44,8 @@ The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real n
 
    1. $e_j e_i  = -e_k$
 
+{#FanoPlaneDiagram} $\,$
+
 <img src="https://ncatlab.org/nlab/files/OctonionMultiplicationTable.jpg" width="400" alt="octonion multiplication table">
 
 > (graphics grabbed from [Baez 02](#Baez02))
