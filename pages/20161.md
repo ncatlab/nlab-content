@@ -57,6 +57,8 @@ If each $F_k$ is a model category (not even necessarily cofibrantly generated) a
 
 * {#Spitzweck10} [[Markus Spitzweck]], _Homotopy limits of model categories over inverse index categories_, 2010, [doi](https://doi.org/10.1016/j.jpaa.2009.08.001)
 
+* Johnson, Mark W. _On modified Reedy and modified projective model structures_. Theory Appl. Categ. 24 (2010), No. 8, 179–208.
+
 * {#Harpaz18} [[Yonatan Harpaz]], _Lax limits of model categories_, [pdf](https://www.math.univ-paris13.fr/~harpaz/lax_limits.pdf)
 
 * {#Balzin18} Edouard Balzin, _Reedy Model Structures in Families_, [arXiv:1803.00681](https://arxiv.org/abs/1803.00681)
