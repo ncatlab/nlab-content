@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[supersymmetry and division algebras]], the corresponding [twistor space](twistor+space#TwistorSpace) and its [[anti de Sitter spacetime|AdS]] version:
+
+* [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
+
 
 On [[branes]] in [[exceptional generalized geometry]]:
 
