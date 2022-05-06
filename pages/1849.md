@@ -854,6 +854,11 @@ It turns out that the [[shifted C-field flux quantization condition]] is natural
 ## References
  {#References}
 
+The C-field originates as the $A_{\mu\nu\rho}$-field in 
+
+* {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. 76B (1978) 409 (<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>)
+
+
 The [[shifted C-field flux quantization condition]] was originally proposed in
 
 * {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. 22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
@@ -889,7 +894,7 @@ Discussion with [[Dirac charge quantization]] of the C-field in [[twisted Cohomo
 
 and in [[equivariant Cohomotopy]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], _[[Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
  
 
 Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]) includes
