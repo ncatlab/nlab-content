@@ -47,6 +47,8 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[geodesic completeness]]
 
+* [[totally geodesic submanifold]]
+
 * The analog in [[complex geometry]] is the notion of [[Kähler manifold]].
 
 * [[vielbein field]], [[Riemannian metric]], [[affine connection]], 
