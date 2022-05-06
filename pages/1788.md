@@ -1,4 +1,23 @@
 
+Duality is duality.
+
+Let $\mathfrak{g} = \mathfrak{su}(2)$ and consider complex representations.
+
+Then $\mathfrak{g}$-weight system are 
+
+1. observables on CS/RW theory;
+
+1. states of BMN matrix model.
+
+In the second case, chord diagrams are the observables.
+
+| | [[anti de Sitter spacetime|AdS]] [[3d gravity]] | [[BMN matrix model]] | 
+|--|--|--|
+| [[observables]] | [[weight systems]] <br/> commutative/classical | [[chord diagrams]] <br/> non-commutative/quantum | 
+| [[states]] |  |  [[weight systems]]  | 
+
+
+
 For $n \in \mathbb{N}$ write 
 
 \[
