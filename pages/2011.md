@@ -36,6 +36,12 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 ## Entries in differential topology
 
+* [[Hopf degree theorem]], [[equivariant Hopf degree theorem]]
+
+* [[Poincaré–Hopf theorem]]
+
+* [Pontrjagin-Thom theorem](cohomotopy#RelationToCobordismGroup)
+
 * [[Sard's theorem]], [[transversality]], [[Thom's transversality theorem]]
 
 * [[Reeb sphere theorem]]
