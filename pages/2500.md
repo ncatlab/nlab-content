@@ -382,7 +382,12 @@ Lecture notes include
 
 * [[Joachim Gomis]], _Three lectures on Supergravity_ ([pdf slides](http://www.fis.puc.cl/~jalfaro/supergravity/Three%20Lectures%20on%20Supergravity.pdf))
 
-Furrther surveys include
+On [[Kaluza-Klein compactification]] in supergravity:
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
+
+
+Further surveys include
 
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
 
