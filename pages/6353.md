@@ -40,6 +40,8 @@ A mathematical formlization of the idea of T-folds, in terms of [[principal 2-bu
 
 * [[non-geometric string theory vacua]]
 
+* [[doubled geometry]], [[type II geometry]]
+
 * [[double field theory]]
 
 
@@ -82,5 +84,3 @@ Discussion for [[nonabelian T-duality]]:
 [[!redirects super T-fold]]
 [[!redirects super T-folds]]
 
-[[!redirects doubled geometry]]
-[[!redirects doubled geometries]]
