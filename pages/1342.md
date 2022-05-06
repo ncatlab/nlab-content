@@ -542,26 +542,37 @@ In some context the descent condion may algebraically be encoded in an [[adjunct
 
 * [[A. Grothendieck]], M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ ([[SGA1]]), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203); published  version Documents Math&#233;matiques __3__, Soci&#233;t&#233; Math&#233;matique de France, Paris 2003)
 *  [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512) pp. 1--104 in Barbara Fantechi, Lothar G&#246;ttsche, Luc Illusie, Steven L. Kleiman, Nitin Nitsure, Angelo Vistoli, _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. 2005. x+339 pp. [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001) 
+
+
 * [[Jacob Lurie]], _[[Descent Theorems]]_
  
 * Daniel Sch&#228;ppi, _Descent via Tannaka duality_, [arxiv/1505.05681](http://arxiv.org/abs/1505.05681)
 
-A deep connection between the concept of monadicity and descent is proved in: 
+
+The connection between the concept of monadicity and descent is proved in: 
 
 * [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
 
+
+Making good use of this connection, we have: 
+
+* {#JanelidzeTholen04}[[George Janelidze]], [[Walter Tholen]], _Facets of Descent III_, Applied Categorical Structures __12__ (2004) 461–-477
+
+
+
+A survey, with lots of new results, of the categorical perspective on descent theory can be found in: 
+
+* [[George Janelidze]], [[Manuela Sobral]], [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
 
 
 Further developments with categorical perspectives and generalizations can be found in:
 
 
-*{#JanelidzeTholen97}[[George Janelidze]], [[Walter Tholen]], _Facets of Descent II_, Applied Categorical Structures __5__:3 (1997) 229-248
-
-* [[George Janelidze]], [[Manuela Sobral]], [[Walter Tholen]], _Beyond Barr exactness: effective descent morphisms_, Ch. 8 of Categ. Foundations, (eds. Maria Cristina Pedicchio, Walter Tholen) Enc. Math. Appl. 2003
+* {#JanelidzeTholen97}[[George Janelidze]], [[Walter Tholen]], _Facets of Descent II_, Applied Categorical Structures __5__:3 (1997) 229-248
 
 * [[Ross Street]], _Categorical and combinatorial aspects of descent theory_, [arXiv:math.CT/0303175](http://arxiv.org/abs/math.CT/0303175)
 
-* [[Fernando Lucatelli Nunes]], *Pseudo-Kan extensions and descent theory*, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
+* [[Fernando Lucatelli Nunes]], *Pseudo-Kan extensions and descent theory*, 2018, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
 
 
 
