@@ -53,10 +53,12 @@ It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [
 +-- {: .num_remark} 
 ###### Remark 
 The map $f_\ast: O(X) \to O(Y)$ is of course *not* the "direct image" along $f$, rather it is a kind of dual to direct image, taking an open $u \in O(X)$ to the join 
-
 $$\bigvee_{v \in O(Y): f^\ast(v) \leq u} v$$ 
 
 For [[topological spaces]] in [[classical mathematics]], denoting the [[complementation]] operator by $\neg$ and the [[interior]] operator by $int$, we have $f_\ast(u) = int(\neg f(\neg u))$ where $f$ on the right denotes the ordinary set-theoretic direct image. 
+
+Alternatively, $f_*(u)$ can also be described as the largest open subset of $Y$
+whose preimage in $X$ is a subset of $u$.
 =--
 
 
