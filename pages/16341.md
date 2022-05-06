@@ -48,7 +48,27 @@ $$
 
 and the **left and right unit laws**:
 
-![A pic](http://upload.wikimedia.org/wikipedia/commons/1/10/Monoid_unit.png)
+$$
+\array{
+  & I \otimes M
+  & \stackrel{\eta \otimes 1}{\longrightarrow}
+  & M \otimes M
+  & \stackrel{1 \otimes \eta}{\longleftarrow}
+  & M \otimes I
+  \\
+  &
+  & {}_{\lambda}\searrow
+  & {}_{\mu}\downarrow
+  & \swarrow_{\rho}
+  &
+  \\
+  &
+  &
+  & M
+  &
+  &
+}
+$$
 
 Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
 
@@ -63,9 +83,37 @@ $f \circ \eta = \eta'$
 
 corresponding to the commutative diagrams;
 
-![A pic](https://upload.wikimedia.org/wikipedia/commons/0/07/Category_monoids_mu.svg)
+$$
+\array{
+  & M \otimes M
+  & \stackrel{f \otimes f}{\longrightarrow}
+  & M' \otimes M'
+  \\
+  & {}_{\mu}\downarrow
+  &
+  & \downarrow_{\mu'}
+  \\
+  & M
+  & \stackrel{f}{\longrightarrow}
+  & M'
+}
+$$
 
-![A pic](https://upload.wikimedia.org/wikipedia/commons/c/cd/Category_monoids_eta.svg)
+$$
+\array{
+  & I
+  & \stackrel{\eta}{\longrightarrow}
+  & M
+  \\
+  &
+  & {}_{\eta'}\searrow
+  & \downarrow_{f}
+  \\
+  &
+  &
+  & M'
+}
+$$
 
 ## As categories with one object
 
