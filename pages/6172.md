@@ -20,6 +20,14 @@ There are two methods of searching the nLab:
    1. It uses _regular expressions_.
    1. It searches the _source_ of each page.
 
+1. **Formula Search**:  [nLab Formula Search](https://nlabsearch.mathweb.org/) provides an instance of the [MathWebSearch](https://search.mathweb.org) engine for nLab. 
+To use it enter a formula query (LaTeX with query variables of the
+form `?a`, `?b`, ...) into the central input box (or just select one of the
+examples), wait until the MathML has been rendered (query variables are
+red), and hit search. If you click on one of the hits, you get a URL,
+which puts you into nLab and highlights the formula hit (in gray).
+
+
 1. **An external search engine.** Most search engines allow you to restrict the search to a single site.  The best site to use for the nLab is `http://ncatlab.org/nlab`.  The distinguishing characteristics of an external search are:
    1. Most just search for alphanumeric characters.
    1. It searches the _rendered version_ of each page.
@@ -31,6 +39,17 @@ There are two methods of searching the nLab:
  *Search the nLab using Google:*
  <form  name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q" style="display: inline"/><input type="hidden" name="as_sitesearch" value="http://ncatlab.org/nlab/"/></form>
 =--
+
+## Formula Search 
+
+[MathWebSearch](https://search.mathweb.org) (MWS) is a content-based search engine for mathematical formulae.
+It indexes MathML formulae, using a technique derived from automated theorem proving: Substitution Tree Indexing.
+
+As the project is still under development, the authors would be happy to hear
+your feedback. If you have some comments you can leave it [here]
+(https://nforum.ncatlab.org/discussion/9792/formula-search/#Item_0). If you
+have a bug report or a feature request please open a issue on the github
+[repository](https://github.com/MathWebSearch/mws-frontend).
 
 
 ## Regular Expressions
