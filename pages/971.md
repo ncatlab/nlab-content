@@ -34,7 +34,7 @@ A [[locally small category]] $C$ is **$\kappa$-accessible** for a [[regular card
 
 1.  there is a [[set]] of $\kappa$-[[compact objects]] that generate the category under $\kappa$-directed colimits.
 
-Then $C$ is an **accessible category** if there exists a $\kappa$ so that it is $\kappa$-accessible.
+Then $C$ is an **accessible category** if there exists a $\kappa$ such that it is $\kappa$-accessible.
 
 =--
 
