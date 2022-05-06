@@ -261,7 +261,6 @@ As a special case of the [[equivariant Hopf degree theorem]] (Theorem \ref{Equiv
 ###### Proposition
 **([[equivariant cohomotopy]] of [[representation sphere]] $S^V$ in [[RO(G)-degree]] $V$)**
 
-
 Let $G \in \mathrm{Grp}_{\mathrm{fin}}$ and $V \in \mathrm{RO}(G)$. Then the pointed [[equivariant cohomotopy]]  of the [[representation sphere]] $S^V$  in [[RO(G)-degree]] $V$ is the [[Cartesian product]] of one copy of the [[integers]] for each _proper_ [[isotropy group|isotropy]] subgroup (eq:IsotropySubgroups) $H \underset{\neq}{\subset} G$ in $S^V$, and a copy of $\mathbb{Z}_2$ or $\mathbb{Z}$ depending on whether $V^G = 0$ or not:
 
 $$
@@ -270,6 +269,21 @@ $$
       &
         \overset{\simeq}{\longrightarrow}
       &
+      \underset{
+        {
+          {
+              {H \in \mathrm{Isotr}_{S^V}(G)}
+          }
+        }
+      }{\prod}
+      \;\;
+      {\vert W_G(H)\vert } \cdot 
+      \pi^{\left( V^H\right)}
+      \left(
+        S^{\left( V^H \right)}
+      \right)
+      \\
+      && =
       \left\{
         \array{
           \mathbb{Z}_2 &\vert& V^G = 0
