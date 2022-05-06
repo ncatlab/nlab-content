@@ -24,37 +24,14 @@ A _hyperbolic space_ is the analog of a [[Euclidean space]] as one passes from [
 
 A _hyperbolic manifold_ is a [[Riemannian manifold]] $(X,g)$ of constant [[sectional curvature]] $-1$.
 
+Of particular interest are [[hyperbolic 3-manifold|hyperbolic 3-manifolds]].
+
 ## Properties
 
 ### Zeta functions
 
 There are canonical [[zeta functions]] associated with suitable (odd-dimensional) hyperbolic manifolds, see at _[[Selberg zeta function]]_ and _[[Ruelle zeta function]]_.
 
-### Relation to Chern-Simons theory
-
-There is a curious relation of [[volumes]] of hyperbolic 3-manifolds to the [[action functional]] of [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]].
-
-Let $G$ be a [[Lie group]] and $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ a [[cocycle]] in degree-3 (generalized) [[Lie group cohomology]]. Write $\flat G$ for the underlying [[discrete group]] and $\flat \mathbf{c} \colon \mathbf{B} \flat G \to \mathbf{B}^3 \flat U(1)$ for the induced [[cocycle]] in ordinary (discrete) [[group cohomology]], $[\flat \mathbf{c}] \in H^3_{Grp}(G_{disc},U(1)_{disc})$.
-
-Then for $\Sigma$ a [[closed manifold]] of [[dimension]] 3, a map (of [[smooth infinity-groupoids]]) $\Sigma \to \mathbf{B}\flat G$ is a [[flat connection|flat]] $G$-[[principal connection]] on $\Sigma$ and the composite
-
-$$
-  [\Sigma, \mathbf{B}\flat G]
-  \stackrel{[\Sigma, \flat \mathbf{c}]}{\to}
-  [\Sigma, \mathbf{B}^3 \flat U(1)]
-  \stackrel{\int_{\Sigma}}{\to}
-  U(1)
-$$
-
-is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restricted to $G$-[[flat connections]], or equivalently is the action functional of $\flat G$-[[Dijkgraaf-Witten theory]].
-
-Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence for [[Chern-Simons theory with complex gauge group]], it turns out that the [[imaginary part]] of this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
-
-For $n = 2$ this is well understood conceptually. For $n \geq 3$ it has been checked by the [[computer algebra]] system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)), but the conceptual reason remains unclear.
-
-The combination $CS(\omega) + i vol$ is also called the _[[complex volume]]_  or _[[Cheeger-Simons class]]_ of a hyperbolic 3-manifold (e.g. [Neumann 11, section 2.3](#Neumann11). [Garoufalidis-Thurston-Zickert 11](#GaroufalidisThurstonZickert11)). 
-
-(It is maybe noteworthy that the same kind of combination appears as the contribution of [[membrane instantons]].)
 
 ### Mostow rigidity theorem
 
@@ -73,6 +50,8 @@ A Riemannian manifold
 See also
 
 * [[hyperbolic geometry]]
+
+* [[hyperbolic link]]
 
 * [[volume conjecture]]
 
@@ -94,22 +73,9 @@ See also
 * Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
 
 * Wikipedia, _[Hyperbolic space](https://en.wikipedia.org/wiki/Hyperbolic_space)_
-
-The relation of volumes of hyperbolic 3-manifolds to [[analytically continued Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] is discussed in 
-
-* {#Neumann03} [[Walter Neumann]], _Extended Bloch group and the Cheeger-Chern-Simons class_, Geom. Topol. 8 (2004) 413-474 ([arXiv:math/0307092](http://arxiv.org/abs/math/0307092))
-
-* {#Zickert07} [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
-
-* {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
-
-* {#GaroufalidisThurstonZickert11} Stavros Garoufalidis, [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
   
 
 [[!redirects hyperbolic manifolds]]
-
-[[!redirects hyperbolic 3-manifold]]
-[[!redirects hyperbolic 3-manifolds]]
 
 [[!redirects hyperbolic space]]
 [[!redirects hyperbolic spaces]]
