@@ -383,6 +383,9 @@ A guided walk through the basics of HoTT and then the formal proof in [[Coq]] th
 
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
 
+Gentle invitation to some basics:
+
+* {#Bauer19} [[Andrej Bauer]], _What is an explicit bijection?_, talk at [FPSAC 2019](http://fpsac2019.fmf.uni-lj.si/) ([slides pdf](http://videolectures.net/site/normal_dl/tag=1244258/FPSAC2019_bauer_explicit_bijection_01.pdf), [video recording](http://videolectures.net/FPSAC2019_bauer_explicit_bijection/))
 
 ### General
 
