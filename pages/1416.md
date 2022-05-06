@@ -51,7 +51,7 @@ Spelled out explicitly, this means that $E : C \to Set$ is flat precisely if the
 
 +-- {: .num_prop}
 ###### Proposition
-When $C$ is [[small category|small]] and has finite limits, a functor $F\colon C\to Set$ is $Set$-valued flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to Set$ preserves finite limits.
+When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is $Set$-valued flat if and only if its [[Yoneda extension]] $[C^{op},Set] \to Set$ preserves finite limits.
 =--
 
 This partially explains the terminology "flat", since the Yoneda extension is a sort of [[tensor product of functors|tensoring with]] $F$, and a [[flat module]] is one such that tensoring with it preserves finite limits.
