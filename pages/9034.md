@@ -76,6 +76,8 @@ $$
 
 ([Harvey-Lawson 82, Theorem 1.38](#HarveyLawson82), see also [Bryant-Harvey 89, (3.19)](#BryantHarvey89), [Gluck-Mackenzie-Morgan 95, (5.20)](#GluckMackenzieMorgan95))
 
+See also at _[Spin Grassmannians](Spn.Sp1#SpinGrassmannians)_.
+
 
 ## Related concepts
 
