@@ -35,7 +35,7 @@ B & \underset{id}{\to} & B}
 ^{id} \downarrow & ^{\psi}\swArrow & \downarrow^f \\
 A & \underset{f'}{\to} & B }
 $$
-such that $\psi \circ_h \phi = id_f$ and $\phi \circ_v \psi = id_{f'}$, where $\circ_h$ and $\circ_v$ denote horizontal and vertical composition of 2-cells.
+such that $\phi \circ_h \psi = id_{f'}$ and $\phi \circ_v \psi = id_{f}$, where $\circ_h$ and $\circ_v$ denote horizontal and vertical composition of 2-cells.
 
 Given such a companion pair, we say that $f$ and $f'$ are **companions** of each other.
 
