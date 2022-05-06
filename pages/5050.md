@@ -60,6 +60,8 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries 
 
 ## References
 
+* [[Klaus Jänich]], Section 1.2 of: _On the classification of $O(n)$-manifolds. Math. Ann. 176, 53–76 (1968) ([doi:10.1007/BF02052956](https://doi.org/10.1007/BF02052956))
+
 
 * _Manifolds with boundary_ ([pdf](http://math.ucr.edu/~res/math260s10/manwithbdy.pdf), [[ManifoldsWithBoundary.pdf:file]])
 
@@ -72,6 +74,12 @@ The [[full subcategory]]-embedding of manifolds with boundaries and corners into
 * {#GurerIglesiasZemmour17} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on corners_, 2017  ([pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-DFOC.pdf))
 
 * {#GurerIZ19} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on manifolds with boundary and corners_, Indagationes Mathematicae, Volume 30, Issue 5, September 2019, Pages 920-929 ([doi:10.1016/j.indag.2019.07.004](https://doi.org/10.1016/j.indag.2019.07.004))
+
+
+On [[cobordism theory]] of [[manifolds with corners]], their [[f-invariant]] and their appearance in the second line of the [[Adams-Novikov spectral sequence]]:
+
+* Gerd Laures, _On cobordism of manifolds with corners_, Trans. Amer. Math. Soc. 352 (2000) ([doi:10.1090/S0002-9947-00-02676-3](https://doi.org/10.1090/S0002-9947-00-02676-3))
+
 
 [[!redirects manifolds with boundary]]
 
