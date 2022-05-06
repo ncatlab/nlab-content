@@ -27,7 +27,7 @@ $$
 
 where $E_s(\cdots)$ denotes the [[expectation value]] under the measure $s \in S$ of the function $x \mapsto  v(log s)_x w(log s)_x$ on $X$.
 
-For instance ([Amari, (2.1)](#AmariTextbook)).
+For instance ([Amari, Section 2.1](#AmariTextbook)).
 
 ## References
 
@@ -61,3 +61,16 @@ A brief introduction with more references is
 
 * Cosma Shalizi, _Information geometry_ ([webpage](http://www.cscs.umich.edu/~crshalizi/notabene/info-geo.html))
  {#Shalizi}
+
+Several people have noted an equivalence between statistic inference as parametric model selection and statistical mechanics on a statistical manifold, e.g., 
+
+* [[Vijay Balasubramanian]], _Statistical Inference, Occam’s Razor and Statistical Mechanics on the Space of Probability Distributions_, Neural Comp.9(2)(1997) 349–368, ([arXiv:cond-mat/9601030](https://arxiv.org/abs/cond-mat/9601030)).
+
+The interpretation of a [[quantum field theory]] as a probability distribution on the space of field configurations so as to allow the conversion of techniques from information geometry to analogous measures of proximity between QFTs is in
+
+* [[Vijay Balasubramanian]], [[Jonathan Heckman]], Alexander Maloney, _Relative Entropy and Proximity of Quantum Field Theories_, ([arXiv:1410.6809](https://arxiv.org/abs/1410.6809))
+
+A treatment of collective statistical inference as resulting in the partition function of a non-linear [[sigma model]] is in
+
+* [[Jonathan Heckman]], _Statistical Inference and String Theory_, ([arXiv:1305.3621](https://arxiv.org/abs/1305.3621))
+
