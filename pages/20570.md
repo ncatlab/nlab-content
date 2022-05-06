@@ -32,6 +32,8 @@ Notice that near-[[extremal black holes]] have been observed in nature, by the C
 
 ## Related concepts
 
+* [[SYK model]]
+
 * [[Liouville theory]]
 
 ## References
@@ -56,7 +58,7 @@ Further development:
 ### AdS/CFT Holography
  {#ReferencesHolography}
 
-In [[AdS/CFT]] For $AdS_2/CFT_1$:
+In [[AdS/CFT]] For [[AdS2/CFT1]]:
 
 * {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
 
@@ -79,8 +81,14 @@ Application to [[near horizon geometry]] of near-[[extremal black holes]]:
 * {#MTV18} Upamanyu Moitra, [[Sandip Trivedi]], V. Vishal, _Near-Extremal Near-Horizons_ ([arXiv:1808.08239](https://arxiv.org/abs/1808.08239))
 
 
+### Lift to string/M-theory
+
+Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravity]] on the [[worldvolume]] of [[D1-D5 brane bound states]] or [[M2-M5 brane bound states]]:
+
+* Yue-Zhou Li, Shou-Long Li, H. Lu, _Exact Embeddings of JT Gravity in Strings and M-theory_, Eur. Phys. J. C (2018) 78: 791 ([arXiv:1804.09742](https://arxiv.org/abs/1804.09742))
 
 
+[[!redirects JT-gravity]]
 
 
 [[!redirects JT gravity]]
