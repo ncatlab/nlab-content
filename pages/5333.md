@@ -38,21 +38,27 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 A priori the [[worldsheet]] [[2d SCFT]] describing the quantum heterotic string has $N=(1,0)$ [[supersymmetry]]. Precisely if the corresponding [[target space]] [[effective field theory]] has $N=1$ supersymmetry does the worldsheet theory enhance to $N=(2,0)$ supersymmetry. See at _[[2d (2,0)-superconformal QFT]]_ and at _[[Calabi-Yau manifolds and supersymmetry]]_ for more on this.
 
 ### Dualities
+ {#Dualities}
 
 Some [[duality in string theory]] involving the heterotic string:
-
-#### Duality with M-theory
-
-For the moment see at _[[Horava-Witten theory]]_.
-
-#### Duality with F-theory, type II string theory
-
-For [[duality between F-theory and heterotic string theory]] see there
-and see [references below](#DualityWithFTheory).
 
 #### Duality with type I string theory
 
 * [[duality between heterotic and type I string theory]]
+
+#### Duality with type II string theory
+
+See _[[duality between heterotic and type II string theory]]_.
+
+#### Duality with M-theory
+
+See _[[duality between heterotic string theory and M-theory]]_
+
+#### Duality with F-theory
+
+See _[[duality between heterotic string theory and F-theory]] 
+
+and see [references below](#DualityWithFTheory).
 
 
 ### Partition function and Witten genus
