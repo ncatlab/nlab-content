@@ -200,7 +200,7 @@ Basic introductions include
 
 * Joel Feldman, _Taylor series and asymptotic expansions_ lecture notes [pdf](http://www.math.ubc.ca/~feldman/m321/asymptotic.pdf)
 
-* R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](http://web2.clarkson.edu/projects/subramanian/ch527/supplem/asympt.pdf))
+* R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](https://web2.clarkson.edu/projects/subramanian/ch561/notes/Asymptotic%20Expansions.pdf))
 * Richard Chapling, _Asymptotic methods_, 2016 ([pdf](http://people.ds.cam.ac.uk/rc476/asymptoticmethods/am_notes.pdf))
 
 
