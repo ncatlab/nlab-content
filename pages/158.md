@@ -31,6 +31,22 @@ The collection of all $\infty$-groupoids forms the [[(∞,1)-category]] [[∞Grp
 
 Special cases of $\infty$-groupoids include [[groupoid]]s, [[2-groupoid]]s, [[3-groupoid]]s, [[n-groupoid]]s, [[delooping]]s of [[group]]s, [[2-group]]s, [[∞-group]]s.
 
+## Terminology
+
+The term ∞-groupoid is sometimes considered to be too unwieldy,
+and many alternatives have been suggested or used.
+
+[[Dustin Clausen]] and [[Peter Scholze]] use the term “anima” (plural: anima), in particular in relation to [[condensed mathematics]].
+Reference: [nCafe](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057623).
+
+The word “space” is often (ab)used to mean ∞-groupoid,
+but this usage was [condemned](https://nforum.ncatlab.org/discussion/4781/against-spaces-in-homotopy-theory/) by others.
+
+“Homotopy type” is quite close in meaning to “∞-groupoid”,
+but morphsims of homotopy types are mere homotopy classes
+of maps of ∞-groupoids.
+
+
 
 ## Properties
 
