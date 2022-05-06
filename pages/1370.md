@@ -1,14 +1,18 @@
-[[!redirects Andre Joyal]]
-[[!redirects Andre Joyal]]
+
+
+
 Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du Qu&#233;bec &#224; Montr&#233;al. 
 
 His wide mathematical work, is mainly in [[category theory]], [[topos theory]] and abstract [[homotopy theory]]. His works include a wide generalization of [[Galois theory]] with [[Myles Tierney]], the combinatorial ideas of "Joyal's [[species]]", discovery of the category structure on the collection of Conway combinatorial [[game theory|games]], the discovery of Kripke-Joyal semantics, a series of works (mainly with [[Ross Street]]) about (braided, tortile etc.) [[monoidal category|monoidal categories]] prompted partly by methods and motivation in theoretical physics, much of his work for about last 30 years centered on developing the theory of [[quasicategory|quasicategories]], after the first ideas of Boardman and Vogt. In the 1980s Joyal invented a Quillen [[model category]] [[model structure for quasi-categories|structure on the category of simplicial sets]] (and [[model structure on simplicial presheaves|categories of simplicial presheaves]]). Joyal and J. Kock more recently proved [[Simpson's conjecture]] (on higher categories via weak units) in categorical dimension 3. 
 
 Joyal  promoted [[quasi-categories]], greatly extending their theory, as a basis for [[(∞,1)-category theory]].
 
-Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new project at [[joyalscatlab:HomePage|joyalscatlab]].
+Joyal has contributed to the $n$Lab as 'joyal'; he once began a project at [[joyalscatlab:HomePage|joyalscatlab]].
 
 [webpage](http://professeurs.uqam.ca/professeur?c=joyal.andre), [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
+
+
+## Selected writings
 
 * A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp. (historical $n$lab note: according to MR756176 (86d:18002) featured review by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
 
@@ -51,8 +55,8 @@ Libr. 259, pages 29&#8211;68. Dordrecht: Kluwer Academic Publishers, 1997.
 
 category: people
 
+
+[[!redirects Andre Joyal]]
 [[!redirects André Joyal]]
 [[!redirects A. Joyal]]
 [[!redirects Joyal]]
-[[!redirects André]]
-[[!redirects Andre]]
