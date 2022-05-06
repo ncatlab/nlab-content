@@ -532,14 +532,22 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 
 ## Examples
+ {#Examples}
+
+
+* Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
 
 * The [[geometric realization]] of any locally finite [[simplicial set]] is a CW-complex ([Milnor 57](#Milnor57)). 
 
-  * In particular in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
+  * In particular, in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
 
-* any [[compact space|noncompact]] [[smooth manifold]] of [[dimension]] $n$ is [[homotopy equivalence|homotopy equivalent]] to an $(n-1)$-dimensional CW-complex. ([Napier-Ramachandran](#NapierRamachandran)).
 
-* Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
+* Every [[projective space]] over the [[real numbers]], [[complex numbers]] or [[quaternions]] has the structure of a [[CW-complex]] with a single cell i in each dimension $k$, $2k$ or $4k$, respectively. See at _[[cell structure of K-projective space]]_.
+
+* Every [[compact topological space|compact]] [[smooth manifold]] admits a smooth [[triangulation]] and hence a CW-complex structure. In the generality of manifolds with group actions see at  _[G-CW complex -- G-manifolds](G-CW+complex#GManifolds)_.
+
+* Every noncompact [[smooth manifold]] of [[dimension]] $n$ is [[homotopy equivalence|homotopy equivalent]] to an $(n-1)$-dimensional CW-complex. ([Napier-Ramachandran](#NapierRamachandran)).
+
 
 ## Related concepts
 
