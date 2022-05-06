@@ -461,9 +461,20 @@ Review includes
 
 This underlies the models of configuration spaces by [[graph complexes]], see there for more.
 
+### Cohomology of configuration spaces
+ {ReferencesCohomology}
+
+General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configuration spaces of points includes
+
+* [[Carl-Friedrich Bödigheimer]], F. Cohen, L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
+
+* [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization homology_, Algebr. Geom. Topol. 17 (2017) 3137-3187 ([arXiv:1405.6696](https://arxiv.org/abs/1405.6696))
+
+* Christoph Schiessl, _Cohomology of Configuration Spaces_ ([pdf](https://people.math.ethz.ch/~cschiess/thesis.pdf))
+
 ### Cohomology modeled by graph complexes
 
-That the [[de Rham cohomology]] of (the [[Fulton-MacPherson compactification]] of) configuration spaces of points may be modeled by [[graph complexes]] (exhibiting [[formality of the little n-disk operads]]) is due to
+That the [[de Rham cohomology]] of (the [[Fulton-MacPherson compactification]] of) configuration spaces of points may be modeled by [[graph complexes]] (exhibiting [[formality of the little n-disk operad]]) is due to
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
