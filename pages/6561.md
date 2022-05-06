@@ -106,7 +106,7 @@ Derivation of the abelian 6d theory to low order as the small fluctuations of th
 
 Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
 
-* [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_ ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467))
+* {#HeckmanRudelius18} [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
 
 General survey includes
 
