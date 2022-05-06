@@ -1,5 +1,5 @@
 
-* [webpage](http://www.math.uni-bielefeld.de/~ambrogio/)
+* [webpage](https://math.univ-lille1.fr/~dellambr/)
 
 ## Related $n$Lab entries
 
