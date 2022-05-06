@@ -20,7 +20,7 @@
 
 A **double category** $D$ is an [[internal category]] in [[Cat]].   Similarly, a **double groupoid** is an internal [[groupoid]] in [[Grpd]].
 
-However, these definitions obscure the essential symmetry of the concepts.  We think of a double category $D_1 \rightrightarrows D_0$ as having
+However, these definitions obscure the essential symmetry of the concepts.  We think of a double category $D_1 \rightrightarrow D_0$ as having
 
 * *[[objects]]*: the objects  of $D_0$
 * *[[vertical morphisms]]*: the morphisms of $D_0$
