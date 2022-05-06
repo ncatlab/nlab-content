@@ -29,6 +29,8 @@ Work conducted in homotopy type theory:
 
 * [[HoTT book]]
 
+* [[Dan Licata]], [[Michael Shulman]], _Calculating the Fundamental Group of the Circle in Homotopy Type Theory_, ([arXiv:1301.3443](https://arxiv.org/abs/1301.3443))
+
 * [[Favonia|Kuen-Bang Hou (Favonia)]], [[Robert Harper]], _Covering Spaces in Homotopy Type Theory_, ([pdf](https://favonia.org/files/cover-types2016.pdf)).
 
 * [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_, ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315)) 
