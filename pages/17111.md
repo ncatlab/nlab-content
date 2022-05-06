@@ -242,6 +242,12 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 
 [[!include low dimensional rotation groups -- table]]
 
+## References
+
+See also
+
+* Wikipedia, _<a href="https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)">Representation theory of SU(2)</a>_
+
 
 [[!redirects Spin(3)]]
 
