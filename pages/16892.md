@@ -21,7 +21,7 @@
 
 
 ##Idea
-A number of researchers are using [[dependent type theory]] as a formal tool to understand [[linguistics|natural language]]. Some are using in particular [[homotopy type theory]].
+A number of researchers are using [[dependent type theory]] as a formal tool to understand [[natural language]]. Some are using in particular [[homotopy type theory]].
 
 ## History
 
