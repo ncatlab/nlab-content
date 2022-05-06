@@ -105,6 +105,13 @@ for the operation that reads in a [[finite number|finite]] [[tuple]] $k \coloneq
 
 which takes a [[horizontal chord diagram]] with $n$ strands to the [[linear combination]] of chord diagrams obtained by replacing its $i$-th strand by $k_i$ strands for all $i$ and then summing over all ways of re-attaching chords, with any vertex previously on some strand $i$ now to be put on one of the $k_i$ strands ([Bar-Natan 96, Def. 2.2](#BarNatan96)).
 
+For example:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramPartitioning.jpg" width="600">
+</center>
+
+
 
 \linebreak
 
