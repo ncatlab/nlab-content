@@ -155,7 +155,7 @@ Discussion about the use of the term "weak enrichment" above is at _[[weak enric
 
 See also the references at [[2-category]].
 
-* Power, A. J. _A general coherence result._
+* [[A. J. Power]],  _A general coherence result._
 J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
 
 * {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
