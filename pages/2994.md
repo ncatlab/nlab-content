@@ -52,6 +52,13 @@ It should also be noticed that such endofunctions $[p/q]$ on $\mathbb{P}^1(k)$ a
 * [[power series]]
 
 
+## References
+
+On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
+
+* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
+
 [[!redirects rational functions]]
 
 [[!redirects ring of rational functions]]
