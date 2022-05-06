@@ -51,8 +51,22 @@ The **internal hom** of $A$ and $B$ in $C^T$ is defined to be the [[equalizer]] 
 \end{tikzcd}
 where $a^*:[A,B]\to [T A,B]$ is the internal precomposition with $a:T A\to A$, and $b_*:[T A,T B]\to [T A,B]$ is the internal postcomposition with $b:T B\to B$.
 
+Denote this object by $[A,B]_T$.
 
-(See [Brandenburg, Remark 6.4.1](#Brandenburd2014), as well as the original work [Kock '71, Section 2](#Kock71closed).)
+(See [Brandenburg, Remark 6.4.1](#Brandenburg2014), as well as the original work [Kock '71, Section 2](#Kock71closed).)
+
+
++-- {: .num_theorem #sealthms}
+###### Theorem
+([Kock '71, Theorem 2.2](#Kock71closed))
+Let $C$ be a [[closed category]] with [[equalizers]], and $(T,\mu,\eta)$ a [[commutative monad]] on $C$. 
+Then $[-,-]_T$ makes the [[Eilenberg-Moore category]] $C^T$ itself a [[closed category]], with
+
+* [[unit object]] given by the free algebra $T1$, where $1$ is the unit object of $C$;
+* All the structure maps induced by those of $C$. 
+=--
+
+
 
 ### Interpretation
 
