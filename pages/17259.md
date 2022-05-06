@@ -15,6 +15,9 @@ Introducing the [[Chern-Dold character]] (specifically for [[complex cobordism c
 
 * [[Victor Buchstaber]], A. P. Veselov, _Chern-Dold character in complex cobordisms and abelian varieties_ ([arXiv:2007.05782](https://arxiv.org/abs/2007.05782))
 
+On [[cobordism cohomology theory]]:
+
+* [[Victor Buchstaber]], _Cobordisms in problems of algebraic topology_,  J Math Sci 7, 629–653 (1977) ([doi:10.1007/BF01084983](https://doi.org/10.1007/BF01084983))
 
 
 ## Related $n$Lab entries
