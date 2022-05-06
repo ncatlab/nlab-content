@@ -34,7 +34,7 @@ We will want a couple of preliminary definitions.  Fix a [[probability space]] $
 
 If $A$ is a [[measurable subset]] of $X$, then the __surprisal__ or __self-[[information]]__ of $A$ (with respect to $\mu$) is
 $$ \sigma_\mu(A) \coloneqq -\log \mu(A) .$$
-Notice that, despite the minus sign in this formula, $\sigma$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$); more precisely, $\sigma$ takes values in $[0,infty]$.  The term 'surprisal' is intended to suggest how surprised one ought to be upon learning that the event modelled by $A$ is true: from no surprise for an event with probability $1$ to infinite surprise for an event with probability $0$.
+Notice that, despite the minus sign in this formula, $\sigma$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$); more precisely, $\sigma$ takes values in $[0,\infty]$.  The term 'surprisal' is intended to suggest how surprised one ought to be upon learning that the event modelled by $A$ is true: from no surprise for an event with probability $1$ to infinite surprise for an event with probability $0$.
 
 The __expected surprisal__ of $A$ is then
 $$ h_\mu(A) \coloneqq \mu(A) \sigma_\mu(A) = -\mu(A) \log \mu(A) = -\log(\mu(A)^{\mu(A)}) $$
@@ -42,13 +42,13 @@ $$ h_\mu(A) \coloneqq \mu(A) \sigma_\mu(A) = -\mu(A) \log \mu(A) = -\log(\mu(A)^
 
 We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $256$ (for the byte, which is $8$ bits), $3$ (for the trit), $\mathrm{e}$ (for the nat or neper), $10$ (for the bel, originally a unit of relative power intensity in telegraphy, or ban, dit, or hartley), and $\root{10}{10}$ (for the decibel, $1/10$ of a bel).  In applications to [[statistical physics]], common bases are exactly (since 2019) 
 $$
-\mathrm{e}^{10^{29}/1\,380\,649} \approx 10^{10^{22.49770102862230}} \qquad \text{(for the joule per kelvin)},
+\mathrm{e}^{10^{29}/1\,380\,649} \approx 10^{10^{22.497\,701\,028\,622\,30}} \qquad \text{(for the joule per kelvin)},
 $$ 
 or
 $$
-104\,600\,000\,000\,000/207\,861\,565\,453\,831 \approx 0.503219533498765757\ldots \qquad \text{(for the calorie per mole-kelvin)},
+\mathrm{e}^{104\,600\,000\,000\,000/207\,861\,565\,453\,831} \approx 1.654\,037\,938\,063\,167\,336 \qquad \text{(for the calorie per mole-kelvin)},
 $$
-and so on.
+and so on; although $\mathrm{e}$ is common in theoretical work (and then the unit of measurement is said to be [[Boltzmann's constant]] rather than the nat or neper).
 
 
 #### Almost partitions
