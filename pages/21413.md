@@ -20,13 +20,31 @@
 
 ## Idea
 
-Non-perturbative [[branes]] in [[non-perturbative string theory]], describing [[non-geometric backgrounds]].
+Exotic branes are non-perturbative [[branes]] in [[non-perturbative string theory]], describing [[non-geometric backgrounds]].
+
+\begin{imagefromfile}
+        "file_name": "exotic_branes.jpg",
+        "web": "nlab",
+        "width": 800,
+        "height": 475,
+        "unit": "px",
+        "alt": "exotic branes"
+\end{imagefromfile}
+>Figure grabbed from ([BMO19](#BMO19)). <<A comparison of the objects covered by the geometric solutions (backed by orange hashing) and non-geometric solutions (backed by green hashing) out of all the [[branes]] down to codimension-$2$ and $0\leq\alpha\leq -2$, as well as their [[M-theory]] lifts. Red lines denote [[T-duality]], blue lines denote lifts/reductions and black lines denote [[S-dualities]].>>
+
+## Related concepts
+
+* [[non-geometry]], [[T-fold]]
+
+* [[double field theory]]
 
 ## References
 
 * Jan de Boer, Masaki Shigemori, _Exotic Branes in String Theory_ ([arXiv:1209.6056](https://arxiv.org/abs/1209.6056))
 
 * [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ ([arXiv:1409.6314](https://arxiv.org/abs/1409.6314))
+
+* {#BMO19} [[David Berman]], Edvard Musaev, Ray Otsuki, _Exotic Branes in M-Theory_ ([arXiv:1903.10247](https://arxiv.org/abs/1903.10247))
 
 [[!redirects exotic branes]]
 [[!redirects Exotic branes]]
