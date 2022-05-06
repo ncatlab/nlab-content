@@ -20,4 +20,10 @@ The _$f_1$-meson_ is the [[light meson|light]] [[meson]] which (in the [[Wigner 
 
 This is the [[chiral partner]] of the [[omega-meson]].
 
+## References
+
+* Su Houng Lee, _Observing chiral partners in nuclear  medium_ ([[LeeChiralPartners.pdf:file]])
+
+* [[Robert Pisarski]], p. 1 of: _Where does the Rho Go? Chirally Symmetric Vector Mesons in the Quark-Gluon Plasma_, Phys. Rev. D52 (1995) 3773-3776 ([arXiv:hep-ph/9503328](https://arxiv.org/abs/hep-ph/9503328))
+
 [[!redirects f1-mesons]]
