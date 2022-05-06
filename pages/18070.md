@@ -34,6 +34,8 @@ Several variants of configuration spaces of points are of interest. They differ 
 
 Here are some of these variant definitions:
 
+### Ordered unlabeled points
+
 +-- {: .num_defn #OrderedUnlabeledConfigurations}
 ###### Definition
 **(ordered unlabled configurations of a fixed number of points)**
@@ -60,6 +62,9 @@ This is the space of ordered but otherwise unlabeled configurations of $n$ point
 
 =--
 
+\linebreak
+
+### Unordered unlabeled points
 
 +-- {: .num_defn #UnorderedUnlabeledConfigurations}
 ###### Definition
@@ -99,10 +104,52 @@ $$
 for the [[quotient space]] of the ordered configuration space (Def. \ref{OrderedUnlabeledConfigurations}) by the evident [[action]] of the [[symmetric group]] $Sym(n)$ via [[permutation]] of the [[ordering]] of the points.
 
 This is the space of unordered and unlabeled configurations of $n$ points_ in $X$.
-
  
 =--
 
+The configuration space of unodered unlabeled configurations of $n$ points (Def. \ref{OrderedUnlabeledConfigurations}) is naturally a [[topological subspace]] of the [[space of finite subsets]] of [[cardinality]] $\leq n$
+
+\[
+  \label{InjectionOfUnorderedConfigurationSpaceOfPoints}
+  Conf_n(X)
+  \hookrightarrow
+  \exp^n(X)
+\]
+
+
++-- {: .num_prop #UnorderedConfigurationSpaceInSpaceOfFiniteSubsets}
+###### Proposition
+
+Let $X$ be an [[inhabited set|non-empty]] [[regular topological space]] and $n \geq 2 \in \mathbb{N}$.
+
+Then the injection (eq:InjectionOfUnorderedConfigurationSpaceOfPoints)
+
+\[
+  \label{UnorderedConfigurationSpaceOpenSubsetInQuotientOfSpacesOfFiniteSubsets}
+  Conf_n(X)
+  \hookrightarrow
+  \exp^n(X)/\exp^{n-1}(X)
+\]
+
+of the [[unordered configuration space of n points]] of $X$ (Def. \ref{OrderedUnlabeledConfigurations}) into the [[quotient space]] of the [[space of finite subsets]] of cardinality $\leq n$ by its subspace of subsets of cardinality $\leq n-1$ is an [[open subspace]]-inclusion.
+
+Moreover, if $X$ is [[compact topological space|compact]], then so is $\exp^n(X)/\exp^{n-1}(X)$ and the inclusion (eq:UnorderedConfigurationSpaceOpenSubsetInQuotientOfSpacesOfFiniteSubsets) exhibits the [[one-point compactification]] $\big(  Conf_n(X) \big)^{+} $ of the configuration space:
+
+$$
+  \big( 
+    Conf_n(X)
+  \big)^{+}
+  \;\simeq\;
+  \exp^n(X)/\exp^{n-1}(X)
+  \,.
+$$
+
+=--
+
+([Handel 00, Prop. 2.23](#Handel00), see also [Félix-Tanré 10](#FelixTanre10))
+
+
+### Unordered labeled points
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
@@ -842,10 +889,11 @@ General accounts:
 
   (in [[algebraic topology]])
 
+In relation to the [[space of finite subsets]]:
 
+* {#Handel00} David Handel, _Some Homotopy Properties of Spaces of Finite Subsets of Topological Spaces_, Houston Journal of Mathematics, Electronic Edition Vol. 26, No. 4, 2000 (<a href="https://www.math.uh.edu/~hjm/pdf26(4)/08handel.pdf">pdf</a>[hjm:Vol26-4](https://www.math.uh.edu/~hjm/Vol26-4.html))
 
-
-
+* {#FelixTanre2010} [[Yves Félix]], [[Daniel Tanré]] _Rational homotopy of symmetric products and Spaces of finite subsets_, Contemp. Math 519 (2010): 77-92 ([pdf](http://tanre.org/Pro/Articles_files/SpnFiniteDef.pdf))
 
 
 
@@ -1052,8 +1100,21 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 
 
 
-[[!redirects configuration space of points]]
 [[!redirects configuration spaces of points]]
+[[!redirects configuration space of n points]]
+[[!redirects configuration spaces of n points]]
+
+
+[[!redirects ordered configuration space of points]]
+[[!redirects ordered configuration spaces of points]]
+[[!redirects ordered configuration space of n points]]
+[[!redirects ordered configuration spaces of n points]]
+
+[[!redirects unordered configuration space of points]]
+[[!redirects unordered configuration spaces of points]]
+[[!redirects unordered configuration space of n points]]
+[[!redirects unordered configuration spaces of n points]]
+
 
 [[!redirects configuration space (mathematics)]]
 [[!redirects configuration spaces (mathematics)]]
