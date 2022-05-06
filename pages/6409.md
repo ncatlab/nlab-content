@@ -24,7 +24,7 @@
 
 > A **valuation** is a [[function]] on a [[field]] that provides a measure of size or multiplicity of elements of the field. They generalize to commutative [[algebra]] the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in [[complex analysis]], the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
 
-Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized [[absolute values]]) which look more like norms, and their equivalence classes, [[place]]s. See at _[[absolute value]]_ for more on this common sense.
+Sometimes one also discusses *exponential* (or *multiplicative*) *valuations* (also called valuation functions, and viewed as generalized [[absolute values]]) which look more like [[norms]], and their [[equivalence classes]], [[places]]. See at _[[absolute value]]_ for more on this common sense.
 
 
 See also [[discrete valuation]] and [[valuation ring]].
