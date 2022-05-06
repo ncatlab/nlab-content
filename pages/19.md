@@ -430,7 +430,7 @@ Enthusiastic, mostly nontechnical talk given by a probability theorist, made for
 
 Discussion of the relation to and motivation from the [[philosophy of mathematics]] includes 
 
-*  [[Colin McLarty]] _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
+*  [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
 
 
 [[!redirects abstract nonsense]]
