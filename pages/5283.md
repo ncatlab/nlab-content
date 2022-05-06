@@ -73,12 +73,16 @@ The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]] and m
 
 A more general discussion of this phenomenon in ([CattaneoFiorenzaLongoni](CattaneoFiorenzaLongoni)). Even more generally, see [[Poincaré duality]] for [[Hochschild cohomology]].
 
+## Related concepts
+
+* [[bivector]]
+
 
 ## References
 
 The isomorphisms between the de Rham complex and the complex of polyvector field is reviewed for instance on p. 3 of
 
-* Thomas Willwacher, Damien Calaque _Formality of cyclic cochains_ ([arXiv:0806.4095](http://arxiv.org/abs/0806.4095))
+* [[Thomas Willwacher]], [[Damien Calaque]], _Formality of cyclic cochains_ ([arXiv:0806.4095](http://arxiv.org/abs/0806.4095))
 {#WillwacherCalaque}
 
 and in section 2 of 
