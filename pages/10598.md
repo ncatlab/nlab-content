@@ -27,13 +27,24 @@ These are cofibrant spaces used in $G$-[[equivariant homotopy theory]].
 
 ## Examples
 
-### Smooth $G$-manifolds
+### $G$-Manifolds
 
-If a [[compact Lie group]] $G$ acts on a [[compact topological space|compact]] [[smooth manifold]] $X$, then the manifold admits an equivariant triangulation. In particular it has the structure of a G-CW complex. 
+The _[[equivariant triangulation theorem]] says that
+if a [[compact Lie group]] $G$ acts on a [[compact topological space|compact]] [[smooth manifold]] $X$, then the manifold admits an [[equivariant triangulation]]. In particular it thus has the structure of a G-CW complex. 
 
 ([Illman 83, theorem 7.1, corollary 7.2](#Illman83)) Recalled as ([ALR 07, theorem 3.2](#ALR07)). See also [Waner 80, p. 6](#Waner80) who attributes this to [Matumoto 71](#Matumoto71)
 
 Moreover, if the manifold does have a [[manifold with boundary|boundary]], then its G-CW complex may be chosen such that the boundary is a G-subcomplex. ([Illman 83, last sentence above theorem 7.1](#Illman83))
+
+In particular:
+
++-- {: .num_prop #RepresentationSpheresAreGCWComplexes}
+###### Proposition
+**([[G-representation spheres are G-CW-complexes]])**
+
+For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] $G$-[[linear representation]], the [[representation sphere]] $S^V$ admits the structure of a [[G-CW-complex]].
+
+=--
 
 
 ## Properties
@@ -69,6 +80,8 @@ See also
 * Jay Shah, _Equivariant algebraic topology_, [pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf)
 
 * {#Illman83} [[Sören Illman]], _The equivariant triangulation theorem for actions of compact Lie groups_, Math. Ann. 262 (1983), no. 4, 487&#8211;501 ([web](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002323249))
+
+* {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 * {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
