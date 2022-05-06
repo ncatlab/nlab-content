@@ -17,6 +17,8 @@
 
 An **open subspace** $U$ of a [[space]] $X$ is a [[subspace]] of $X$ whose elements are "stable to small perturbations", or can be "observed to belong to $U$ by measurements with finite precision".
 
+When ordered by inclusion the open subspaces form a poset, the [[frame of opens]].
+
 ## Definition
 
 Depending on what sort of "space" $X$ is, this may be defined in different ways.
