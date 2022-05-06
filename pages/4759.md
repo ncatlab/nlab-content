@@ -561,8 +561,7 @@ Since $(\mu_k^\ast \otimes \mu_{n-k}^\ast)$ is a monomorphism by lemma \ref{From
 
 Under the [[Atiyah-Segal completion]] map [[linear representations]] of a [[group]] $G$ induce K-theory classes on the [[classifying space]] $B G$. Their Chern classes are hence invariants of the [[linear representations]] themselves.
 
-See at _[[equivariant K-theory]]_ the section _[Chern classes of linear representations](equivariant+K-theory#ChernClassesOfLinearRepresentations)_.
-
+See at _[[characteristic class of a linear representation]]_ for more.
 
 ## Related concepts 
 
