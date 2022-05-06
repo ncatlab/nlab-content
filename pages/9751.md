@@ -15,6 +15,11 @@ On the [[superembedding approach]] for [[Green-Schwarz sigma-models]]:
 
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
 
+On [[kappa-symmetry]] explained via the [[superembedding approach]]:
+
+* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], V. Tkach and [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A4 (1989) 901-908 ([spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064))
+
+
 
 On the [[Green-Schwarz action functional]] for the [[M5-brane]]:
 
