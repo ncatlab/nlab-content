@@ -189,9 +189,10 @@ $$
 
 of a [[representation]] $V \in R(G)$ correspondes to the [[RR-field]] [[charge]] 
 
-$$
+\[
+  \label{RRChargeOfFractionalDBraneInGTwistedSector}
   Q_V(g) \;=\; \frac{ \chi_V(g) }{ {\vert G \vert} }
-$$
+\]
 
 of the corresponding fractional D-brane in the $g$-[[twisted sector]].
 
