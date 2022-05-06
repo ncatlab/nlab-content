@@ -36,6 +36,16 @@ On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergr
 
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
+
+On [[type I' string theory]] and [[geometric engineering of QFT]] on [[D3-D5 brane intersections]] subject to the [[s-rule]]:
+
+* [[Constantin Bachas]], [[Michael Green]], Adam Schwimmer, Section 2.3 of: _$(8,0)$ Quantum mechanics and symmetry enhancement in type I' superstrings_, JHEP 9801 :006, 1998 ([arXiv:hep-th/9712086](https://arxiv.org/abs/hep-th/9712086))
+
+and related to the [[Pauli exclusion principle]]:
+
+* [[Constantin Bachas]], [[Michael Green]], _A Classical Manifestation of the Pauli Exclusion Principle_, JHEP 9801 (1998) 015 ([arXiv:hep-th/9712187](https://arxiv.org/abs/hep-th/9712187))
+
+
   
 
 ## Related $n$Lab entries
