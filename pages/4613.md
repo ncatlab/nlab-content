@@ -94,9 +94,7 @@ The special meaning in the context of [[Chern-Weil theory]] in [[differential ge
 
 * {#CheegerSimons} [[Jeff Cheeger]],  [[James Simons]], _Differential characters and geometric invariants_, pages 50&#8211;80 in: _Geometry and Topology_, Lecture Notes in Mathematics, vol 1167. Springer (1985)  ([pdf](http://numr.wdfiles.com/local--files/differential-cohomology/cheeger-simons.pdf), [doi:10.1007/BFb0075212](https://doi.org/10.1007/BFb0075212))
  
-
-
-Reviews of that include
+Review:
 
 * {#FreedCSII} [[Dan Freed]], _Classical Chern-Simons theory II_ ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
 
@@ -108,11 +106,23 @@ Reviews of that include
 
 Lecture notes on secondary cohomology classes in [[differential cohomology]] for flat connections is presented in
 
-* {#Bunke12} Ulrich Bunke, _Differential cohomology_, arXiv:[1208.3961](https://arxiv.org/abs/1208.3961)
+* {#Bunke12} [[Ulrich Bunke]], _Differential cohomology_, arXiv:[1208.3961](https://arxiv.org/abs/1208.3961)
 
 Discussion in complex [[algebraic geometry]] is in 
 
 * {#BlochEsnault97} [[Spencer Bloch]], [[Hélène Esnault]], _Algebraic Chern-Simons theory_, American Journal of Mathematics, Volume 119, Number 4, August 1997, pp. 903-952 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/39-algebraic-chern-simons.pdf))
+
+Discussion of secondary classes being [[torsion elements]]:
+
+* [[Alexander Reznikov]], _All regulators of flat bundles are torsion_, Annals of Mathematics Second Series, Vol. 141, No. 2 (Mar., 1995), pp. 373-386 (14 pages) ([arXiv:dg-ga/9407006](https://arxiv.org/abs/dg-ga/9407006), [jstor:2118525](https://www.jstor.org/stable/2118525))
+
+* [[Alexander Reznikov]], _Rationality of secondary classes_, J. Differential Geom., Volume 43, Number 3 (1996), 674-692. ([arXiv:dg-ga/9407007](https://arxiv.org/abs/dg-ga/9407007), [euclid:jdg/1214458328](https://projecteuclid.org/euclid.jdg/1214458328))
+
+
+* Jaya N. Iyer, [[Carlos Simpson]], _Regulators of canonical extensions are torsion: the smooth divisor case_ ([arXiv:0707.0372](https://arxiv.org/abs/0707.0372))
+
+* [[Hélène Esnault]],  _Algebraic Differential Characters of Flat Connections with Nilpotent Residues_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) _Algebraic Topology_, Abel Symposia, vol 4. Springer 2009 ([doi:10.1007/978-3-642-01200-6_5](https://doi.org/10.1007/978-3-642-01200-6_5))
+
 
 Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory is in
 
