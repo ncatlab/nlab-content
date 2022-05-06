@@ -12,6 +12,19 @@ Sullivan chord diagrams are like [[Jacobi diagrams]], but with possibly more tha
 
 Via their [[worldline formalism|fattening]] to [[ribbon graphs]], Sullivan chord diagrams parametrize certain operations in [[string topology]] and [[action|act]] on [[Hochschild homology]]/[[cyclic homology]].
 
+## Properties
+
+### Relation to horizontal chord diagrams
+ {#RelationToHorizontalChordDiagrams}
+
+One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[horizontal chord diagrams]] by closing up strands after acting with a [[permutation]] with $p$ cycles ([[orbits]])
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ClosingHorizontalChordDToSullivanChordDiagrams.jpg" width="800">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 ## Related concepts
 
 [[!include chord diagrams and weight systems -- table]]
