@@ -31,6 +31,7 @@ The dual $\mathbb{F}_p$ Steenrod algebra is a special case of a [[commutative Ho
 
 The [[Ext]]-groups between [[comodules]] for these [[commutative Hopf algebroids]] $E_\bullet(E)$ prominently appear on the second page of the $E$-[[Adams spectral sequence]], see there for more.
 
+
 ## Definition
 
 ### For ordinary cohomology
@@ -45,7 +46,7 @@ This is due to ([May 70, 11.8](#May70)). A review is in ([Ravenel, appendix 1, t
 
 In particular for $E$ a suitable [[E-infinity ring]], its self-[[generalized homology]] $E_\bullet(E)$ form a (graded-)[[commutative Hopf algebroid]] over $E_\bullet$.
 
-See at _[Hopf algebroid structure -- For generalized cohomology](#HopfAlgebroidstructureForGeneralized) below._
+See at _[Hopf algebroid structure -- For generalized cohomology](#HopfAlgebroidstructureForGeneralized)_ below. For more see at _[[Adams spectral sequence]] -- [The first page](Adams+spectral+sequence#FirstPageAndHopfAlgebroid)_.
 
 ## Properties
 
@@ -571,3 +572,9 @@ its relation to the $E^2$-term in the
 
 [[!redirects dual Steenrod algebra]]
 [[!redirects dual Steenrod algebras]]
+
+[[!redirects E-Steenrod algebra]]
+[[!redirects E-Steenrod algebras]]
+[[!redirects dual E-Steenrod algebra]]
+[[!redirects dual E-Steenrod algebras]]
+
