@@ -28,7 +28,7 @@ In [[topological homotopy theory]], the _fundamental theorem of covering spaces_
 
 This is a basic instance of the general principle of [[Galois theory]]. 
 
-It follows in particular that for [[connected topological space|connected]] $X$ then the [[automorphism group]] of the [[universal covering space]] of $X$ coincides with the [[fundamental group]] $\pi_1(X,x)$ itself (for any basepojtn $x$). This often yields a convient means to determine the [[fundamental group]] of $X$ in the first place.
+It follows in particular that for [[connected topological space|connected]] $X$ then the [[automorphism group]] of the [[universal covering space]] of $X$ coincides with the [[fundamental group]] $\pi_1(X,x)$ itself (for any basepoint $x$). This often yields a convenient means to determine the [[fundamental group]] of $X$ in the first place.
 
 
 ## Statement
@@ -62,7 +62,7 @@ between the [[category of covering spaces]], and the category  of [[permutation 
 +-- {: .proof}
 ###### Proof
 
-With the standard definitions of the two functors, both are infact inverse [[isomorphisms]] of categories instead of just [[equivalences of categories]] (meaning that the required [[natural isomorphisms]] from the composites of the two functors to the [[identity functor]] are componentwise [[equalities]]), which establishes the claim right away. For definiteness, we make this explicit:
+With the standard definitions of the two functors, both are in fact inverse [[isomorphisms]] of categories instead of just [[equivalences of categories]] (meaning that the required [[natural isomorphisms]] from the composites of the two functors to the [[identity functor]] are componentwise [[equalities]]), which establishes the claim right away. For definiteness, we make this explicit:
 
 Given $\rho \in Set^{\Pi_1(X)}$ a [[permutation representation]],
 we need to exhibit a [[natural isomorphism]] of permutation representations.
@@ -138,7 +138,7 @@ $$
   }
 $$
 
-and hence this means that the top and bottom horizontal morphism are in fact equal. Directz unwiinding of the definitions shows that this is indeed the case.
+and hence this means that the top and bottom horizontal morphism are in fact equal. Direct unwinding of the definitions shows that this is indeed the case.
 
 
 Conversely, given $E \in Cov(X)$ a covering space, we need to exhibit a natural isomorphism of covering spaces of the form
@@ -156,7 +156,7 @@ By the assumption that $X$ is [[locally path-connected topological space|locally
 
 It remains to see that $\epsilon_E$ is itself natural in $E$. But as for the converse direction, since the components of $\epsilon_E$ are in fact equalities, this follows by direct unwinding of the definitions.
 
-This establishes an equivalence as required In fact this is an [[adjoint equivalence]].
+This establishes an equivalence as required. In fact this is an [[adjoint equivalence]].
 
 
 
