@@ -16,7 +16,7 @@
 
 ## Idea
 
-An _exotic meson_ is a [[hadron]] of [[baryon number]] [[zero]] which however, in contrast to actual [[mesons]], has [[Wigner classification]] given be an [[isospin]] and [[Lorentz group|Lorentz]]-[[spin group]]   [[linear representation|representation]] which is _not_ a [[direct summand]] of a [[tensor product of representations]] of that of a [[quark]]-[[pair]].
+An _exotic meson_ is a [[hadron]] of [[baryon number]] [[zero]] which however, in contrast to actual [[mesons]], has [[Wigner classification]] given by an [[isospin]] and [[Lorentz group|Lorentz]]-[[spin group]]   [[linear representation|representation]] which is _not_ a [[direct summand]] of a [[tensor product of representations]] of that of a [[quark]]-[[pair]].
 
 Hence the existence of exotic mesons is not readily explained by the [[QCD]]-based [[constituent quark model]] of [[quantum hadrodynamics]],  where [[mesons]] are [[bound states]] of two quarks (and [[baryons]] of three).
 
