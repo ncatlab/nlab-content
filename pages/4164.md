@@ -115,7 +115,7 @@ The proof that the vacuum vector is cyclic given in the previous paragraph makes
 
 1. Strong representation of the translation subgroup and the spectrum condition.
 
-Note that we do not needed the representation of the whole Poincare group, but really only that of the translations.
+Note that we do not need the representation of the whole Poincare group, but really only that of the translations.
 
 2. isotony,
 
@@ -164,7 +164,7 @@ About work to avoid the Reeh-Schlieder theorem and its counter intuitive implica
 The observation that the Reeh-Schlieder property describes what elsewhere is called the _operator-state correspondence_ is made explicit for instance in footnote 14 on page 34 of
 
 * [[Bert Schroer]], _Particle Physics and QFT at the Turn of the Century:
-Old principles with new concepts_ ([pdf](http://biblioteca.cat.cbpf.br/pub/apub/nf/2000/nf01900.pdf))
+Old principles with new concepts ([pdf](http://cds.cern.ch/record/367824/files/9810080.pdf))
 {#Schroer}
 
 [[!redirects Reeh-Schlieder Theorem]]
