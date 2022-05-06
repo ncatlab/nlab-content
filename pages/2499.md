@@ -43,7 +43,7 @@ Accordingly, low dimensional [[supergravity]] without [[extended supersymmetry]]
 
 What D'Auria-Fr&#233; implicitly observe (not in this [[homotopy theory|homotopy theoretic]] language though, that was developed in [Sati-Schreiber-Stasheff 08](#SSS), [Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10), [Fiorenza-Sati-Schreiber 13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]]. This is the refinement of [[super-Cartan geometry]] to [[higher Cartan geometry]].
 
-This [[higher Cartan geometry|higher]] [[super Cartan geometry]]-description of [[supergravity]] is what D'Auria-Fr&#233; called the _gemetric approach to supergravity_ or _geometric supergravity_ (e.g. [D'Auria 20](#DAuria20)). 
+This [[higher Cartan geometry|higher]] [[super Cartan geometry]]-description of [[supergravity]] is what D'Auria-Fr&#233; called the _geometric approach to supergravity_ or _geometric supergravity_ (e.g. [D'Auria 20](#DAuria20)). 
 
 
 [[!include local and global geometry - table]]
@@ -134,9 +134,9 @@ In fact, when $\mathfrak{g}$ is concentrated in non-positive degree (so that $\w
 
 Already D'Auria and Fr&#233; themselves, and afterwards other authors, have tried to better understand the intrinsic conceptual meaning of their [[dg-algebra]] formalism that happened to be so useful in [[supergravity]]: 
 
-the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **[[soft group manifold]]s**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the [[Maurer-Cartan form]]s of left-invariant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan form has vanishing [[curvature]] (= [[field strength]]) these equations for supergravity fields have a possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
+The idea arose and then became popular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **[[soft group manifold]]s**. This is motivated by the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the [[Maurer-Cartan form]]s of left-invariant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan form has vanishing [[curvature]] (= [[field strength]]) these equations for supergravity fields have a possibly non-vanishing [[field strength]]. It is proposed in the "FDA"-literature that these generalized Maurer-Cartan equations describe generalized or "softened" group manifolds.
 
-However, even when the field strengths _do_ vanish the remaining collection of differential forms does not constrain the base manifold to be a group. Rather, if the field strengths vanish we have a natural interpretation of the remaining differential form data as being flat [[∞-Lie algebroid valued differential forms]], given by a morphism
+However, even when the field strengths _do_ vanish, the remaining collection of differential forms does not constrain the base manifold to be a group. Rather, if the field strengths vanish we have a natural interpretation of the remaining differential form data as being flat [[∞-Lie algebroid valued differential forms]], given by a morphism
 
 $$
   A : T X \to \mathfrak{g}
