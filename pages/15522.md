@@ -27,7 +27,10 @@ If we think of $\Sigma$ as retrievable from its [[field]] of [[meromorphic funct
 
 ## Properties
 
-By the [[Riemann existence theorem]], every connected compact [[Riemann surface]] admits the [[structure]] of a branched cover of the Riemann sphere. ([MO discussion](http://mathoverflow.net/a/53286/381))
+### Riemann surfaces
+ {#RiemannSurfaces}
+
+By the [[Riemann existence theorem]], every [[connected topological space|connected]] [[compact topological space|compact]] [[Riemann surface]] admits the [[structure]] of a branched cover of the Riemann sphere. ([MO discussion](http://mathoverflow.net/a/53286/381))
 
 
 ## References
