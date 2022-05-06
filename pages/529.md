@@ -219,7 +219,7 @@ Lecture notes include
 
 The [[universal localization]] of group rings (see also at _[[Snaith's theorem]]_) is discussed in
 
-* [[M. Farber]], [[P. Vogel]], _The Cohn localization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
+* [[M. Farber]], [[Pierre Vogel]], _The Cohn localization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
 
 * Davidson, Nicholas, _Modules Over Localized Group Rings for Groups Mapping Onto Free Groups_ (2011). Boise State University Theses and Dissertations. Paper 170. ([web](http://scholarworks.boisestate.edu/td/170/))
 
