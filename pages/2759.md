@@ -33,6 +33,8 @@ There is a [[duality]] between [[syntax]] and [[semantics]].
 
 * [[computational trinitarianism]]
 
+* [[initiality conjecture]]
+
 ## References
 
 For [[first order logic]]:
