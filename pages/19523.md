@@ -122,6 +122,7 @@ Similarly [Adamek 18, slide 14](#Adamek18) on simulations obtained with [[gevolu
 > - may nevertheless be relevant for precision cosmology with
 future surveys
 
+For more see also the pointers in [Räsänen 18, slide 7](#Rasanen18).
 
 ## The "backreaction debate"
  {#BackreactionDebate}
@@ -262,7 +263,7 @@ See also
 * {#Ostrowski19} Jan Ostrowski, _Green and Wald formalism: The aftermath of the "backreaction debate"_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org)
 ([[OstrowskiBackreactionDebate19.pdf:file]])
 
-* [[Syksy Räsänen]], _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
+* {#Rasanen18} [[Syksy Räsänen]], _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
 
 
 
