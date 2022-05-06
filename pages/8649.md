@@ -30,7 +30,7 @@
 
 If the field of [[electromagnetism]] serves as a [[background gauge field]] for electrically charged [[quantum mechanics|quantum]] [[particles]] it is subject to a _quantization condition_: Outside the locus of any [[magnetic charge]] -- for instance a magnetic [[monopole]] [[topological defect]] -- the [[electromagnetic field]] must be a [[circle bundle with connection|connection on a principal U(1) bundle]] whose [[first Chern class]] is the discrete measure for the units of magnetic charge. Equivalently this means that the [[electromagnetic field]] is a [[cocycle]] in [[ordinary differential cohomology]] of degree 2.
 
-In the underlying topological sector ("[[monopole]]"/"[[instantons]]"-sector) this is [[integral cohomology]] in degree-2, whose [[classifying space]] is euqivalently the [[infinite complex projective space]] $B U(1) \simeq \mathbb{C}P^\infty$:
+In the underlying topological sector ("[[monopole]]"/"[[instantons]]"-sector) this is [[integral cohomology]] in degree-2, whose [[classifying space]] is equivalently the [[infinite complex projective space]] $B U(1) \simeq \mathbb{C}P^\infty$:
 
 {#Illustration} $\,$
 
