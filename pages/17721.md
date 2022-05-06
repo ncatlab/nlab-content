@@ -72,3 +72,4 @@ Parts of the above text are taken from
 
 [[!redirects Inductive Inductive Type]]
 [[!redirects induction-induction]]
+[[!redirects inductive-inductive types]]
