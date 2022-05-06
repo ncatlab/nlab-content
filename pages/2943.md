@@ -69,6 +69,8 @@ A formalization of thermodynamics in terms of [[symplectic geometry]] is due to
 
 * [[Jean-Marie Souriau]], chapter IV "Statistical mechanics" of _Structure of dynamical systems. A symplectic view of physics_ . Translated from the French by C. H. Cushman-de Vries. Translation edited and with a preface by R. H. Cushman and G. M. Tuynman. Progress in Mathematics, 149. Birkh&#228;user Boston, Inc., Boston, MA, 1997
 
+* [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
+
 Review includes
 
 * {#Marle16} Charles-Michel Marle, _From tools in symplectic and Poisson geometry to Souriau's theories of statistical mechanics and thermodynamics_, Entropy 2016, 18(10), 370 ([arXiv:1608.00103](https://arxiv.org/abs/1608.00103))
