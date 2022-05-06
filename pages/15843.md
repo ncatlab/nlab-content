@@ -24,9 +24,14 @@ On [[Sp(2).Sp(1)]]-[[G-structure|structures]] and related issues:
 
 * {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December (2010), Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
+Discussion of [[homotopy groups]] in [[computational topology]]:
+
+* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, [[Lukáš Vokřínek]], [[Uli Wagner]], _Polynomial-time computation of homotopy groups and Postnikov systems in fixed dimension_, SIAM J. Comput., 43(5), 1728–1780  ([arXiv:1211.3093](https://arxiv.org/abs/1211.3093), [doi:10.1137/120899029](https://doi.org/10.1137/120899029))
+
+
 On [[cohomotopy]]-sets in [[computational topology]]:
 
-* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, Francis Sergeraert, Lukáš Vokřínek, Uli Wagner, _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
+* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, Francis Sergeraert, [[Lukáš Vokřínek]], [[Uli Wagner]], _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
 
 
 ## related $n$Lab entries
