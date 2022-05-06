@@ -1,7 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A hypothetical fourth [[generation of fundamental particles]] ([[fermions]]), beyond the three currently observed.
+
+Still consistent with experiment, suggested by flavour physics, and implied by [[Spin(16)]], $Spin(18)$-[[GUT]].
 
 ## References
 
@@ -13,6 +30,7 @@ Exposition:
 
 
 ### Experimental constraints
+ {#ReferencesExperimentalConstraints}
 
 * Alexander Lenz, _Constraints on a fourth generation of fermions from Higgs Boson searches_, Adv. High Energy Phys. 2013 (2013) 910275 ([doi:10.1155/2013/910275](https://doi.org/10.1155/2013/910275))
 
@@ -30,10 +48,15 @@ Motivation from [[flavour (particle physics)|flavour]]-physics ([[B-meson]] deca
 
 ### In string/grand-unified theory
 
-In [[Spin(16)]]-[[GUT]] ("SO(16)-GUT"):
-
+In [[Spin(16)]]- and [[Spin(18)]]-[[GUT]] ("SO(16)-, SO(18)-GUT"):
 
 * {#WilczekZee82} [[Frank Wilczek]], [[Anthony Zee]], _Families from spinors_, Phys. Rev. D 25, 553 (1982) ([doi:10.1103/PhysRevD.25.55310.1103/PhysRevD.25.553](https://doi.org/10.1103/PhysRevD.25.553))
+
+* {#SenjanovicWilczekZee84} Goran Senjanović, [[Frank Wilczek]], [[Anthony Zee]], _Reflections on mirror fermions_,  Physics Letters B Volume 141, Issues 5–6, 5 July 1984, Pages 389-394 Physics Letters B (<a href="https://doi.org/10.1016/0370-2693(84)90269-7">doi:10.1016/0370-2693(84)90269-7</a>)
+
+* Homero Martínez, Alejandra Melfo, Fabrizio Nesti, Goran Senjanović, _Three Extra Mirror or Sequential Families: a Case for Heavy Higgs and Inert Doublet_, Phys. Rev. Lett.106:191802, 2011 ([arXiv:1101.3796](https://arxiv.org/abs/1101.3796))
+
+* {#diLucio11} Luca di Lucio, p. 44 of: _Aspects of Symmetry Breaking inGrand Unified Theories_, 2011 ([pdf](https://www.sissa.it/tpp/phdsection/AlumniThesis/Luca%20Di%20Luzio.pdf))
 
 
 In [[heterotic string theory]]:
