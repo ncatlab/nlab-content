@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -129,11 +130,11 @@ The very last equivalence in (eq:ChernDoldCharacter) is due to [Dold 56, Cor. 4]
 
 One place where this neat state of affairs (eq:ChernDoldCharacter) is made fully explicit is [Lind-Sati-Westerland 16, Def. 2.1](#LindSatiWesterland16). Many other references leave this statement somewhat in between the lines (e.g. [Buchstaber 70](#Buchstaber70), [Upmeier 14](#Upmeier14)) and, in addition, often without reference to Dold (e.g. [Hopkins-Singer 02, Sec. 4.8](#HopkinsSinger02), [Bunke 12, Def. 4.45](#Bunke12), [Bunke-Gepner 13, Def. 2.1](#BunkeGepner13), [Bunke-Nikolaus 14, p. 17](#BunkeNikolaus14)).
 
-Beware that some authors say _Chern-Dold character_ for the full map in (eq:ChernDoldCharacter) (e.g. 
+Beware that some authors say _[[Chern-Dold character]]_ for the full map in (eq:ChernDoldCharacter) (e.g. 
 [Buchstaber 70](#Buchstaber70), 
 [Upmeier 14](#Upmeier14), [Lind-Sati-Westerland 16, Def. 2.1](#LindSatiWesterland16)), while other authors mean by this only that last equivalence in (eq:ChernDoldCharacter) (e.g. [Rudyak 98, II.3.17](#Rudyak98), [Gross 19, Def. 2.5](#Gross19)).
 
-Examples of Chern-Dold characters: 
+Examples of [[Chern-Dold characters]]: 
 
 * [[Chern character]] on [[KU]];
 
@@ -232,7 +233,7 @@ reviewed in
 * {#Gross19} Jacob Gross, _The homology of moduli stacks of complexes_ ([arXiv:1907.03269](https://arxiv.org/abs/1907.03269))
 
 
-The combination of [Dold 56](#Dold56) to the Chern-Dold character on [[generalized (Eilenberg-Steenrod) cohomology theory]] is due (for [[complex cobordism cohomology]]) to
+The combination of [Dold 56](#Dold56) to the [[Chern-Dold character]] on [[generalized (Eilenberg-Steenrod) cohomology theory]] is due (for [[complex cobordism cohomology]]) to
 
 * {#Buchstaber70} [[Victor Buchstaber]], _The Chern–Dold character in cobordisms. I_, 
 
@@ -265,7 +266,7 @@ This rationalization construction appears also (without attribution to [#Hilton 
 
 * {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, Algebr. Geom. Topol. Volume 19, Number 4 (2019), 1631-1710. ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231), [euclid:euclid.agt/1566439272](https://projecteuclid.org/euclid.agt/1566439272))
 
-More on the Chern-Dold character on [[complex cobordism cohomology]]:
+More on the [[Chern-Dold character]] on [[complex cobordism cohomology]]:
 
 * [[Victor Buchstaber]], A. P. Veselov, _Chern-Dold character in complex cobordisms and abelian varieties_ ([arXiv:2007.05782](https://arxiv.org/abs/2007.05782))
 
@@ -275,10 +276,17 @@ The observation putting this into the general context of [[differential cohomolo
 
 based on [Bunke-Gepner 13](#BunkeGepner13).
 
+Further generalization of the [[Chern-Dold character]] to [[non-abelian cohomology]]:
 
-The Chern-Dold character in [[equivariant cohomology]]:
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
+
+
+The [[equivariant Chern-Dold character]] in [[equivariant cohomology]]:
 
 * [[Wolfgang Lück]], _Chern characters for proper equivariant homology theories and applications to K- and L-theory_, Journal für die reine und angewandte Mathematik, Volume 2002: Issue 543 ([doi:10.1515/crll.2002.015](https://doi.org/10.1515/crll.2002.015), [pdf](https://www.him.uni-bonn.de/lueck/data/eh.pdf))
+
+* [[Wolfgang Lück]], _Equivariant Cohomological Chern Characters_, International Journal of Algebra and Computation, Vol. 15, No. 05n06, pp. 1025-1052 (2005) ([arXiv:math/0401047](https://arxiv.org/abs/math/0401047), [doi:10.1142/S0218196705002773](https://doi.org/10.1142/S0218196705002773))
+
 
 * [[Wolfgang Lück]], _Equivariant Chern characters_, 2006 ([pdf](https://www.him.uni-bonn.de/lueck/data/goettingen_equi_Chern061130trans.pdf), [[LuckEquivariantChernCharacters.pdf:file]])
 
@@ -305,19 +313,4 @@ See also
 
 [[!redirects Chern characters]]
 
-[[!redirects Chern character map]]
-[[!redirects Chern character maps]]
-
-[[!redirects Chern-Dold character]]
-[[!redirects Chern-Dold characters]]
-
-[[!redirects Chern-Dold character map]]
-[[!redirects Chern-Dold character maps]]
-
-
-[[!redirects Dold-Chern character]]
-[[!redirects Dold-Chern characters]]
-
-[[!redirects Dold-Chern character map]]
-[[!redirects Dold-Chern character maps]]
 
