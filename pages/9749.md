@@ -132,7 +132,7 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 
 ## History
 
-The Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every [[adjoint functor|adjoint pair]] gives rise to a [[monad]].  
+The adjunction underlying the Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the full recognition of the relationship between [[monads]] and [[adjunctions]]. Although P. Huber had already shown in 1961 that every [[adjoint functor|adjoint pair]] gives rise to a [[monad]], it wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, made the essential equivalence of both concepts manifest.  
 
 Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62) to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union. This appendix was intended to provide a reasonable framework for arms control verification protocols ([Lawvere 20](#Lawvere20)).
 
