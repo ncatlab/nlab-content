@@ -49,10 +49,9 @@ Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \ne
 
 The arrangements of the proofs below are based in part on the treatments by Conway and Smith, and by Springer and Veldkamp (see references below). 
 
-+-- {: .num_prop}
-######Proposition (Scaling)
+\begin{proposition} (Scaling)
 $\langle u v, u w \rangle = N(u)\langle v, w \rangle$ and $\langle u w, v w \rangle = \langle u, v \rangle N(w)$
-=--
+\end{proposition}
 
 +-- {: .proof}
 ######Proof 
@@ -66,10 +65,9 @@ $$N(u v + u w) = N(u v) + 2\langle u v, u w \rangle + N(u w) = N(u)N(v) + 2\lang
 and the result follows by cancellation and division by $2$. 
 =--
 
-+-- {: .num_prop}
-######Proposition (Exchange)
+\begin{proposition} (Exchange)
 $\langle u v, w x \rangle = 2\langle u, w \rangle \langle v, x \rangle - \langle u x, w v \rangle$
-=--
+\end{proposition}
 
 +-- {: .proof}
 ######Proof
@@ -94,10 +92,9 @@ Observe that $\bar{v} = v$ just when $v$ is a scalar multiple of the identity. B
 
 The next few propositions develop properties of conjugation. 
 
-+-- {: .num_prop}
-######Proposition (Adjointness)
+\begin{proposition} (Adjointness)
 $\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$. $\langle w, u v \rangle = \langle \bar{u} w, v \rangle$ and $\langle w, u v \rangle = \langle w\bar{v}. u \rangle$. 
-=-- 
+\end{proposition}
 
 +-- {: .proof}
 ######Proof
@@ -108,10 +105,9 @@ $$\langle u v, w \rangle = 2\langle u, w \rangle \langle v, e \rangle - \langle 
 The second adjointness equation is proved similarly; the final two come from symmetry of the form.  
 =--
 
-+-- {: .num_prop} 
-######Proposition (Involution) 
+\begin{proposition} (Involution) 
 $v = \bar{\bar{v}}$ for all $v$. 
-=-- 
+\end{proposition} 
 
 +-- {: .proof}
 ######Proof 
@@ -122,20 +118,18 @@ $$\langle u, v \rangle = \langle u\bar{v}, e \rangle = \langle u, \bar{\bar{v}} 
 and the result follows from nondegeneracy. 
 =-- 
 
-+-- {: .num_prop} 
-######Proposition (Unitarity) 
+\begin{proposition} (Unitarity) 
 $\langle u, v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar{v} \rangle$.  
-=-- 
+\end{proposition}
 
 +-- {: .proof} 
 ######Proof 
 $\langle u, v \rangle = \langle e, \bar{u}v \rangle = \langle \bar{v}, \bar{u} \rangle = \langle \bar{u}, \bar{v} \rangle$ where the last equation is symmetry of the bilinear form. 
 =-- 
 
-+-- {: .num_prop}
-######Proposition (Anti-automorphism) 
+\begin{proposition} (Anti-automorphism) 
 $\bar{u} \bar{v} = \widebar{v u}$. 
-=-- 
+\end{proposition}
 
 +-- {: .proof}
 ######Proof 
@@ -148,10 +142,9 @@ using involution and unitarity. The result follows from nondegeneracy of the for
 
 By the involution and anti-automorphism properties, we see that $\bar{v}v$ is fixed under conjugation: is "real". Better yet, 
 
-+-- {: .num_prop}
-######Proposition (Reality)
+\begin{proposition} (Reality)
 $\bar{u} \cdot (u v) = N(u)v$. 
-=-- 
+\end{proposition} 
 
 +-- {: .proof}
 ######Proof 
@@ -180,11 +173,9 @@ This has as further consequence the fact that an algebra admits at most one norm
 
 A final corollary of **Reality** is 
 
-+-- {: .num_prop} 
-######Proposition (Alternative law) 
-
+\begin{proposition} (Alternative law) 
 $u \cdot (u v) = u^2 \cdot v$ and $u \cdot v^2 = (u v) \cdot v$. 
-=--
+\end{proposition}
 
 +-- {: .proof} 
 ######Proof 
@@ -241,20 +232,18 @@ Consequently, if $\langle u + \alpha v, w \rangle = 0$ for all $w \in W$, we mus
 
 Now we want to show that the double $W + \alpha W$ is closed under multiplication, hence forms a composition subalgebra. It follows immediately from all this that, starting from the trivial composition subalgebra $k \cdot e$ of dimension 1, $dim(V)$ must be a power of 2, and in fact we will see later that the only possible dimensions are 1, 2, 4, and 8. Indeed, the possible structures of composition algebras are very tightly constrained. 
 
-+-- {: .num_prop}
-######Proposition (Conjugation on the double)
+\begin{proposition} (Conjugation on the double)
 We have $\widebar{u + \alpha v} = \bar{u} - \alpha v$. Consequently, $\alpha v = - \widebar{\alpha v} = - \bar{v} \bar{\alpha} = \bar{v} \alpha$, and $\widebar{\alpha} = -\alpha$.  
-=--
+\end{proposition}
 
 +-- {: .proof} 
 ######Proof
 $\widebar{\alpha v} = 2\langle \alpha v, e \rangle e - \alpha v = -\alpha v$. 
 =--
 
-+-- {: .num_theorem}
-######Theorem (Closure under multiplication)
+\begin{thm} (Closure under multiplication) 
 For all $u, v, w, x \in W$, $(u + \alpha v)(w + \alpha x) = (u w - \lambda x \bar{v}) + \alpha (w v + \bar{u} x)$.
-=--
+\end{thm}
 
 +-- {: .proof}
 ######Proof
@@ -367,12 +356,10 @@ $$a + b i + c j + d k \mapsto a - b i - c j - d k$$
 
 Thus, we have established the [[Hurwitz theorem]]
 
-+-- {: .num_theorem}
-######Theorem (Hurwitz) 
-
+\begin{thm} (Hurwitz) 
 The only [[division algebra|division]] composition algebras over the [[real numbers]] $\mathbb{R}$ are the [[real numbers]], [[complex numbers]], [[quaternions]], and [[octonions]]. 
 
-=-- 
+\end{thm}
 
 
 #### Split composition algebras
