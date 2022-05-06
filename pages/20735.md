@@ -107,6 +107,18 @@ See also
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
+### Relation to braids
+
+Relation to [[braid groups]]:
+
+* [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
+
+* [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
+
+
+
+
 ### In string theory
 
 In [[string theory]] [[Yang-Mills monopoles]] are [[geometric engineering of QFT|geometrically engineeted]] as transversally [[intersecting brane|intersecting]] [[Dp-D(p+2)-brane bound states]]:
@@ -114,6 +126,13 @@ In [[string theory]] [[Yang-Mills monopoles]] are [[geometric engineering of QFT
 For transversal [[D1-D3-brane bound states]]:
 
 * {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
+
+* [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
+
+* Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering_ ([arxiv:hep-th/0402163](https://arxiv.org/abs/hep-th/0402163))
+
+* Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
+
 
 For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
