@@ -34,7 +34,16 @@ There are interesting conditions and applications of the preorder on the sets of
 
 ## Examples
 
-* Every [[Grothendieck topos]] is well-powered (by the existence of a [[subobject classifier]] and the smallness of [[hom sets]]).
+* Every [[Grothendieck topos]] (indeed, every [[locally small category|locally small]] [[elementary topos]]) is well-powered (by the existence of a [[subobject classifier]] and the smallness of [[hom sets]]).
+
+* More generally, every [[locally presentable category]] is well-powered, since it is a full reflective subcategory of a presheaf topos, so its subobject lattices are subsets of those of the latter.
+
+* Every locally presentable category, indeed every [[accessible category]] with [[pushouts]], is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AR).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-powered then there exist arbitrarily large [[measurable cardinals]].
+
+## References
+
+* {#AR} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+
 
 [[!redirects well powered category]]
 [[!redirects well-copowered category]]
