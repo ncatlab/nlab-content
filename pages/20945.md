@@ -40,3 +40,8 @@ Relation to the [[K-theory classification of topological phases of matter]] via 
 * Charlotte Kristjansen, Gordon W. Semenoff, _The D3-probe-D7 brane holographic fractional topological insulator_, JHEP10 (2016) 079 ([arXiv:1604.08548](https://arxiv.org/abs/1604.08548))
 
 [[!redirects D3-D7 brane bound states]]
+
+[[!redirects D3-D7 brane intersection]]
+[[!redirects D3-D7 brane intersections]]
+
+
