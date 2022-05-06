@@ -32,7 +32,7 @@ A _Bohr topos_ is a [[topos]] associated with any [[quantum mechanical system]],
 
 * the [[quantum observables]] and [[quantum states]] of the [[quantum mechanical system]], hence its [[quantum probability theory]], 
 
-are equivalenly 
+are equivalently 
 
 * the [[classical physics|classical]] [[observables]] and classical [[states]], hence its classical [[probability theory]], 
 
