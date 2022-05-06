@@ -30,7 +30,9 @@ There are various astronomical observations that suggest the existence of dark m
 
 1. Simulations of [[structure formation]] in the universe seem to require existence of dark matter in order to reproduce results compatible with observation.
 
-Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "[[weakly interacting massivle particle|weakly interacting massive particles]]" ("[[WIMP]]"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]]. In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
+Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "[[weakly interacting massivle particle|weakly interacting massive particles]]" ("[[WIMP]]"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]].
+Certain [[neutrino]]-dark matter scenarios are being discussed ([Neutrino White 16](#NeutrinoWhite16))
+ In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
 
 ## Properties
 
@@ -135,6 +137,9 @@ Discussion of possible matter representations that could serve as dark matter:
 
 * Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl.Phys.B753:178-194, 2006 ([arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090))
 
+Discxussion of [[neutrino]]-dark matter: 
+
+* {#NeutrinoWhite16} _A White Paper on keV Sterile Neutrino Dark Matter_,  Journal of Cosmology and Astroparticle Physics, Volume 2017, January 2017 ([arXiv:1602.04816](https://arxiv.org/abs/1602.04816))
 
 ### Evidence
  {#Evidence}
