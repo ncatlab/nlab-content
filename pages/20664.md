@@ -47,6 +47,7 @@ The D4-D8 system is the [[intersecting D-brane model]] underlying the [[Witten-S
 > graphics grabbed from [Rebhan 14](#Rebhan14)
 
 ### As instantons on the D8-brane
+  {#AsInstantonsOnTheD8Brane}
 
 Generally, due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F \wedge F \rangle$ in the [[Green-Schwarz sigma model]] for [[D-brane|D(p+4)-branes]], [[Yang-Mills instantons]] in the [[Chan-Paton gauge field]] on $D (p+4)$-branes are equivalently [[Dp-D(p+4)-brane bound states]] (see e.g. [Polchinski 96, 5.4](#Polchinski96), [Tong 05, 1.4](#Tong05)).
 
@@ -161,6 +162,9 @@ Discussion specifically of [[D1-D5-brane bound states]]
 
 [[!redirects D4-D8-brane intersection]]
 [[!redirects D4-D8-brane intersections]]
+
+[[!redirects D4/D8 brane bound state]]
+[[!redirects D4/D8 brane bound states]]
 
 [[!redirects D4/D8-brane intersection]]
 [[!redirects D4/D8-brane intersections]]
