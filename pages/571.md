@@ -53,6 +53,8 @@ Finally, $f$ being a monomorphism in a [[category]] $\mathcal{C}$ means equivale
 
 ## Examples
 
+### General
+
 +-- {: .num_example #MonomorphismsInSet}
 ###### Example
 **(monomorphisms in $Set$)
@@ -70,14 +72,27 @@ Every [[isomorphism]] is both a monomorphism and an [[epimorphism]].
 
 But beware that the converse fails:
 
-+-- {: .num_example}
-###### Example
 
-A morphism that is both a monomorphism and an [[epimorphism]] need not be an [[isomorphism]].
+### Examples of monos that are epi but not iso
+ {#ExamplesOfMonosThatAreEpiButNotIso}
 
-For instance in the categories [[Ring]] or [[CRing]], then the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into that of [[rational numbers]] is both a monomorphism and an epimorphism, but clearly not an isomorphism.
+The following lists some examples of [[morphisms]] that are both [[monomorphisms]] and [[epimorphisms]], but not necessarily [[isomorphisms]].
 
-=--
+\begin{example}
+
+In the [[category]] of [[Hausdorff topological spaces]], the inclusion $A \hookrightarrow X$ of a [[dense subspace]] is an [[epimorphism]].
+
+\end{example}
+
+See [this Prop.](Hausdorff+space#DenseSubspaceInclusionsAreEpimorphismsAmongHausdorffSpaces) for proof.
+
+\begin{example}
+  
+In [[unital ring|unital]] [[Rings]], the canonical inclusion $\mathbb{Z} \overset{i}{\hookrightarrow} \mathbb{Q}$ of the [[integers]] into the [[rational numbers]] is an [[epimorphism]].
+
+\end{example}
+
+See [this Prop.](Ring#InclusionOfIntegersIntoRationalsIsEpimorphismOfRings) for proof.
 
 
 ## Properties
