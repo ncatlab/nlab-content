@@ -219,7 +219,7 @@ The [[RR-field]] in [[type II string theory]] are self-dual. Since the RR-fields
 
 (Of course one may, as a warmup, "approximate" K-theory classes on a 10-manifold by integral cohomology lifts of the degree-5 component of their [[Chern character]] and hence discuss that as abelian self-dual higher gauge theory in dimension 10. This is discussed in ([Witten 99, section 4](#Witten99))).
 
-The relevant analog of the [[intermediate Jacobian]] for K-tehory on a 10-manifold is naturally taken to be
+The relevant analog of the [[intermediate Jacobian]] for K-theory on a 10-manifold is naturally taken to be
 
 $$
   K(X)\otimes_{\mathbb{Z}} \mathbb{R}/ K(X)
