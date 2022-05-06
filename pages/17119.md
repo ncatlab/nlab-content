@@ -57,8 +57,9 @@ and two exceptional examples ([O'Grady 99](#OGrady99), [O'Grady 03](#OGrady03)
 
 ### Coulomb- and Higgs-branches of $D=3$ $\mathcal{N} =4 $ SYM
 
-Both the [[Coulomb branches]] and the [[Higgs branches]] of [[D=3 N=4 super Yang-Mills theory]] are [[hyperkähler manifolds]]. In special cases they are [[compact hyperkähler manifolds]] ([Seiberg-Witten 96](#SeibergWitten96), see 
-e.g. [dBHOO 96](D=3+N=4+super+Yang-Mills+theory#dBHOO96)).
+Both the [[Coulomb branch]] and the [[Higgs branch]] of [[D=3 N=4 super Yang-Mills theories]] are [[hyperkähler manifolds]] ([Seiberg-Witten 96](D%3D3+N%3D4+super+Yang-Mills+theory#SeibergWitten96), see e.g. [dBHOO 96](D=3+N=4+super+Yang-Mills+theory#dBHOO96)).
+In special cases they are [[compact hyperkähler manifolds]]
+([Intriligator 99](D=3+N=4+super+Yang-Mills+theory#Intriligator99)).
 
 
 
