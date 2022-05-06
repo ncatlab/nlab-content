@@ -1,0 +1,18 @@
+
+**[[rotation groups]] in low [[dimensions]]**
+
+| [[special orthogonal group|sp. orth. group]] | [[spin group]] | [[pin group]] | 
+|------------------------------|----------------|---------------|
+| [[SO(2)]] | [[Spin(2)]] |  [[Pin(2)]] | 
+| [[SO(3)]] | [[Spin(3)]] |             |
+| [[SO(4)]] | [[Spin(4)]] |             | 
+|           | [[Spin(5)]] |             |
+|           | [[Spin(6)]] |             | 
+|           | [[Spin(7)]] |             | 
+| [[SO(8)]] | [[Spin(8)]] |             | 
+
+see also 
+
+* [[Sp(n).Sp(1)]]
+
+* [[finite rotation groups]]
