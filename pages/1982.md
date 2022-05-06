@@ -35,6 +35,11 @@ Measure theory is very much having a central role in studying so called [[ergodi
 
 There is a generalization, the noncommutative measure theory, which is more or less the study of [[von Neumann algebra]], see [Connes (1995)](#Connes1995).
 
+## Related concepts
+
+* [[expectation value]]
+
+* [[valuation (measure theory)]]
 
 ## References
 
