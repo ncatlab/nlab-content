@@ -19,7 +19,7 @@ This entry is about the book
 
   Springer (1967) 
  
-  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+  ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
 on _[[homotopy theory]]_ and specifically the [[calculus of fractions]] for constructing [[homotopy categories]].
 
