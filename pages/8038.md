@@ -51,7 +51,7 @@ Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes
 
 * [[motives in physics]]
 
-* [[the little n-disk operad is formal]]
+* [[graph complex]], [[formality of the little n-disk operad]]
 
 
 ## References
