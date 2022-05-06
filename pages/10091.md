@@ -71,7 +71,7 @@ In addition to the open string tachyon [[condensation]] discussed in the referen
 
 * A. Adams, [[Joseph Polchinski]] and [[Eva Silverstein]], _Don't panic! Closed string tachyons in ALE space-times,_ JHEP 0110 (2001) 029 ([arXiv:hep-th/0108075](http://arxiv.org/abs/hep-th/0108075)).
 
-* R. Rabadan and J. Simon, _M theory lift of brane anti-brane systems and localized closed string tachyons_, JHEP 0205 (2002) 045 ([arXiv:hep-th/0203243](http://arxiv.org/abs/hep-th/0203243)).
+* R. Rabadan and [[Joan Simon]], _M theory lift of brane anti-brane systems and localized closed string tachyons_, JHEP 0205 (2002) 045 ([arXiv:hep-th/0203243](http://arxiv.org/abs/hep-th/0203243)).
 
 * [[Ángel Uranga]], _Localized instabilities at conifolds_, ([arXiv:hep-th/0204079](http://arxiv.org/abs/hep-th/0204079)).
 
