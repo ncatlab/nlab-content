@@ -19,7 +19,7 @@
 
 ## Idea
 
-As [[monoidal categories]] are a [[vertical categorification]] of [[monoids]], *actegories* are a [[vertical categorification]] of *actions* of a monoid.
+As [[monoidal categories]] are a [[vertical categorification]] of [[monoids]], *actegories* are a [[vertical categorification]] of *[[actions]]* of a monoid.
 So given a monoidal category $(C,\otimes,I,l,r,a)$ an actegory is another category $D$ with a notion of "tensor by object of $C$", i.e., a functor:
 
 $$\oslash : C \times D \to D$$
@@ -42,10 +42,10 @@ The notion of $C$-action (hence a $C$-actegory) is easily extendable to [[bicate
 
 ## References
 
-* Bodo Pareigis, _Non-additive ring and module theory I. General theory of monoids_, Publ. Math. Debrecen 24 (1977), 189--204. MR 56:8656; _Non-additive ring and module theory II. C-categories, C-functors, and C-morphisms_, Publ. Math. Debrecen 24 (351--361) 1977. 
+* [[Bodo Pareigis]], _Non-additive ring and module theory I. General theory of monoids_, Publ. Math. Debrecen 24 (1977), 189--204. MR 56:8656; _Non-additive ring and module theory II. C-categories, C-functors, and C-morphisms_, Publ. Math. Debrecen 24 (351--361) 1977. 
 
-* M. Kelly, G. Janelidze, _A note on actions of a monoidal category_, Theory and Applications of Categories, Vol. 9, 2001, No. 4, pp 61--91 [link](http://www.tac.mta.ca/tac/volumes/9/n4/9-04abs.html)
+* [[Max Kelly]], [[George Janelidze]], _A note on actions of a monoidal category_, Theory and Applications of Categories, Vol. 9, 2001, No. 4, pp 61--91 [link](http://www.tac.mta.ca/tac/volumes/9/n4/9-04abs.html)
 
 * P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521&#8211;563 (remark: actegories with action in the strong monoidal sense)
 
-* Z. &#352;koda, _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
+* [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
