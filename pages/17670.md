@@ -86,6 +86,22 @@ A more succinct version of the axioms of the model is claimed in
 
 * Christian Brouder, Nadir Bizi, Fabien Besnard, _The Standard Model as an extension of the noncommutative algebra of forms_ ([arXiv:1504.03890](https://arxiv.org/abs/1504.03890))
 
+Introduction of a [[scalar field]] to fix the prediction of the [[Higgs particle]] [[mass]]:
+
+* {#ChamseddineConnes12} [[Ali Chamseddine]], [[Alain Connes]], _Resilience of the Spectral Standard Model_, JHEP 1209 (2012) 104 ([arXiv:1208.1030](https://arxiv.org/abs/1208.1030))
+
+Implementation of [[Pati-Salam model]] ($SU(5)$-[[GUT]]):
+
+* [[Ali Chamseddine]], [[Alain Connes]], Walter D. van Suijlekom, _Beyond the Spectral Standard Model: Emergence of Pati-Salam Unification_, JHEP 1311 (2013) 132 ([arXiv:1304.8050](https://arxiv.org/abs/1304.8050))
+
+* Hosein Karimi Khozani, _Symmetry Breaking and Proton Decay in Spectral Pati-Salam Model_ ([arXiv:1905.04533](https://arxiv.org/abs/1905.04533))
+
+and specifically discussion of [[leptoquarks]] and possible relation to [[flavour anomalies]]:
+
+* Ufuk Aydemir, Djordje Minic, Chen Sun, Tatsu Takeuchi, _$B$-decay anomalies and scalar leptoquarks in unified Pati-Salam models from noncommutative geometry_, JHEP 09 (2018) 117 ([arXiv:1804.05844](https://arxiv.org/abs/1804.05844))
+
+
+
 Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetime]] to the [[4-sphere]] is claimed in
 
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXiv:1409.2471](https://arxiv.org/abs/1409.2471))
