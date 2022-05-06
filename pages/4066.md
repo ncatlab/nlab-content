@@ -101,7 +101,7 @@ in Combinatorics, Paul Erd&#337;s is Eighty, Bolyai Society Mathematical Studies
 
 * {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
   
-* [[Andre Henriques]] ([H4 of the monster](http://mathoverflow.net/questions/69222/h4-of-the-monster))
+* [[Andre Henriques]], _[$H^4$ of the monster](http://mathoverflow.net/questions/69222/h4-of-the-monster)_
 
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
 " alt="The Monster" /></div>
