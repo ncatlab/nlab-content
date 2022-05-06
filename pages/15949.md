@@ -28,7 +28,7 @@ Robinson arithmetic, also denoted by Q, is a [[first-order theory]] whose [[sign
 
 There is no [[induction scheme]].
 
-One sometimes adds axioms for [[order]]; however, this is also definable.  Specifically, $x \lt y$ may be defined to mean that $y = s(z) + x$ for some $z$; and $x \leq y$ may be defined to mean that $y = z + x$ for some $z$.
+One sometimes adds axioms for [[order]]; however, this is also definable.  (Citation in Wikipedia; I can\'t quite make it work.)
 
 
 ## Theorems
