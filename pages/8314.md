@@ -203,4 +203,7 @@ Discussion of the cyclic group in the context of the [[classification of finite 
 [[!redirects cyclic group]]
 [[!redirects cyclic groups]]
 
-[[!redirects cyclic group of order 2]]
+[[!redirects infinite cyclic group]]
+[[!redirects infinite cyclic groups]]
+
+
