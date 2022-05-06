@@ -40,6 +40,9 @@ But since from the point of view of the 3d Chern-Simons theory the [[polarizatio
 
 This flat connection is the Knizhnik-Zamolodchikov connection. This was maybe first realized and explained in ([Witten 89](#Witten89)).
 
+## Definition
+
+[[!include Knizhnik-Zamolodchikov-Kontsevich construction -- definition]]
 
 
 ## Related entries
