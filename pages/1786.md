@@ -25,7 +25,7 @@ Similarly:
 
 An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
 
-An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
+An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if it also has [[inverses]] up to homotopy.
 
 An **$H$-ring** is a [[ring object]] in (pointed) [[Ho(Top)]].
 
