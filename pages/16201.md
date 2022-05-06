@@ -29,6 +29,76 @@ In the context of [[cosmology]], higher curvature corrections are a candidate fo
 
 A [[spacetime]] that extremizes the [[Einstein-Hilbert action]] for given [[cosmological constant]] and _arbitrary_ higher curvature correction is called a _[[universal spacetime]]_.
 
+## Examples
+
+### For 11d Supergravity
+
+A systematic analysis of the possible [[supersymmetry|supersymmetric]] [[higher curvature corrections]] of [[D=11 supergravity]] makes the [[I8]]-[[characteristic class|characteristic 8-form]] 
+
+\[
+  I_8(R)
+  \;\coloneqq\;
+  \tfrac{1}{48}
+  \Big(
+    p_2(R) \;-\; \big( \tfrac{1}{2} p_1(R)\big)^2
+  \Big)
+  \;\; 
+  \in
+  \Omega^8
+\]
+
+(a [[differential form]] built from the [[Riemann curvature]], expressing a polynomial in the first and second [[Pontryagin classes]], see at _[[I8]]_) appear as the higher curvature correction at order $\ell^6$, where $\ell$ is the [[Planck length]] in 11d ([Souères-Tsimpis 17, Section 4](#SoueresTsimpis17)).
+
+At this order, the [[equation of motion]] for the [[supergravity C-field]] [[flux]] $G_4$ and its dual $G_7$ is ([Souères-Tsimpis 17, (4.3)](#SoueresTsimpis17))
+
+\[
+  \label{11dSugraBIAtOrder6}
+  d G_7(\ell)
+  \;=\;
+  -\tfrac{1}{2}
+  G_4(\ell) \wedge G_4(\ell)
+  + 
+  \ell^6 I_8(R)
+  \,,
+\]
+
+where the flux forms themselves appear in their higher order corrected form as [[power series]] in the [[Planck length]]
+
+$$
+  G_4(\ell)
+  \;=\;
+  G_4 + \ell^6 G_4^{(1)} + \cdots
+$$
+
+$$
+  G_7(\ell)
+  \;=\;
+  G_7 + \ell^6 G_7^{(1)} + \cdots
+$$
+
+([Souères-Tsimpis 17, (4.4)](#SoueresTsimpis17))
+
+Beware that this is not the lowest order [[higher curvature correction]]: there is already one at $\mathcal{O}(\ell^3)$, given by $\ell^3 G_4 \wedge \tfrac{1}{2}p_1(R)$ ([Souères-Tsimpis 17, Section 3.2](#SoueresTsimpis17)). Hence the full correction at $\mathcal{O}(\ell^3)$ should be the further modification of (eq:11dSugraBIAtOrder6) to
+
+\[
+  \label{11dSugraBIAtOrder6}
+  d G_7(\ell)
+  \;=\;
+  -\tfrac{1}{2}
+  G_4(\ell) \wedge 
+  \big( 
+    G_4(\ell)
+    -
+    \tfrac{1}{2} p_1(R)
+  \big)
+  + 
+  \ell^6 I_8(R)
+  \,,
+\]
+
+
+
+
 ## Related concepts
 
 * [[universal spacetime]]
