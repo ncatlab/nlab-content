@@ -40,6 +40,10 @@ In [[nuclear physics]], specifically in the [[chiral perturbation theory]] of [[
 
 ## Properties
 
+### Nuclear binding
+
+Together with the [[sigma-meson]] the omega is responsible for most of the long-range [[interaction]] between [[baryons]], exhibiting the residual [[strong nuclear force]] between them (as modeled by [[Walecka model]] and [[quantum hadrodynamics]]).
+
 ### Coupling to baryon current
 
 The [[interaction]] term of the omega-meson in the [[Lagrangian density]] is by contraction 
