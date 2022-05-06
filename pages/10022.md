@@ -184,13 +184,21 @@ Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally o
 
 * Martin Ammon, Alejandra Castro, Nabil Iqbal, _Wilson Lines and Entanglement Entropy in Higher Spin Gravity_, JHEP 10 (2013) 110 ([arXiv:1306.4338](https://arxiv.org/abs/1306.4338))
 
+* Alejandra Castro, Stephane Detournay, Nabil Iqbal, [[Eric Perlmutter]], _Holographic entanglement entropy and gravitational anomalies_, JHEP 07 (2014) 114 ([arXiv:1405.2792](https://arxiv.org/abs/1405.2792))
+
+
+* Mert Besken, Ashwin Hegde, Eliot Hijano, [[Per Kraus]], _Holographic conformal blocks from interacting Wilson lines_, JHEP 08 (2016) 099 ([arXiv:1603.07317](https://arxiv.org/abs/1603.07317))
+
+
 * Andreas Blommaert, Thomas G. Mertens, Henri Verschelde, _The Schwarzian Theory - A Wilson Line Perspective_, JHEP 1812 (2018) 022 ([arXiv:1806.07765](https://arxiv.org/abs/1806.07765))
 
 * [[Eric D'Hoker]], [[Per Kraus]], _Gravitational Wilson lines in $AdS_3$_ ([arXiv:1912.02750](https://arxiv.org/abs/1912.02750))
 
 
 
-* Ashwin Dushyantha Hegde, _Role of Wilson Lines in 3D Quantum Gravity_ ([spire:1763572](http://inspirehep.net/record/1763572))
+* Ashwin Dushyantha Hegde, _Role of Wilson Lines in 3D Quantum Gravity_, 2019 ([spire:1763572](http://inspirehep.net/record/1763572))
+
+* Xing Huang, Chen-Te Ma, Hongfei Shu, _Quantum Correction of the Wilson Line and Entanglement Entropy in the $AdS_3$ Chern-Simons Gravity Theory_ ([arXiv:1911.03841](https://arxiv.org/abs/1911.03841))
 
 
 
