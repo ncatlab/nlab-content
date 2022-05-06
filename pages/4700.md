@@ -11,6 +11,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,7 +21,7 @@
 ## Graph complex
  {#GraphComplex}
 
-### Via grafting of graphs
+Roughly:
 
 Consider the [[complex vector space]] $\mathcal{G}$ [[linear span|spanned]] by the [[isomorphism classes]] of [[orientation|oriented]] [[ribbon graphs]] [[quotient|modulo]] the [[relation]] $(\Gamma,-\sigma) = - (\Gamma, \sigma)$ where $\sigma$ is an [[orientation]] on the [[graph]] $\Gamma$. 
 
@@ -39,186 +40,8 @@ This function $\partial$ is indeed a differential, in that it satisfies $\partia
 
 The resulting [[chain complex]] $(\mathcal{G}_\bullet, \partial)$ is called the _graph complex_. Its [[chain homology]] $H_\bullet(\mathcal{G}, \partial)$ is called _graph homology_.
 
-([Kontsevich 94, pages 11-12](#Kontsevich94))
+This is originally due to ([Kontsevich 94, pages 11-12](#Kontsevich94)). For a detailed and careful account see [Lambrechts-Volic 14, section 6](#LambrechtsVolic14).
 
-### Via Poincaré duality pairing  
- {#ViaPoincareDualityPairing}
-
-+-- {: .num_defn #GraphComplexOfCartesianSpace}
-###### Definition
-**(graph complex via Poincaré pairing)**
-
-For $n, N, D \geq 1  \in \mathbb{N}$, let 
-
-* $V$ be a [[finite-dimensional vector space|finite-dimensional]] [[real vector space|real]] [[graded vector space]] of [[dimension]] $N$;
-
-* equipped with a non-degenerate [[inner product]]
-
-  $$
-    g \;\colon\; V \otimes V \longrightarrow \mathbb{R}
-  $$
-
-  of degree $-D$
-
-* equipped with an "[[augmentation]]" [[linear map]]
-
-  $$
-    \epsilon \;\colon\; V \longrightarrow \mathbb{R}
-  $$
-
-  whose [[kernel]] is to be denoted
-
-  $$
-    \overline{V} \;\coloneqq\; ker(\epsilon)
-    \,.
-  $$
-
-Choose a [[linear basis]]  $\{e_i\}_{i \in \{1, 2, \cdots, N\}}$ of $V$ such that $\{e_2, \cdots, e_N\}$ is a linear basis for $\overline{V}$. Write $\{g^{\alpha \beta}\}$ for the components of the inner product in this basis
-
-$$
-  g^{\alpha \beta} 
-    \;\coloneqq\;
-  g(e_\alpha, e_\beta)
-  \,.
-$$
-
-On the [[graded-commutative algebra]] 
-
-$$
-  \mathbb{R}\left[
-     \{e_i\},
-     \{s^{i j}\}
-  \right]
-$$
-
-[[generators and relations|generated]] by 
-
-1. generators $e^i_\alpha$ for $\alpha \in \{1, \cdots N\}$, $i \in \{1, \cdots, N\}$ of degree that of the respective basis element $e_\alpha$ as above,
-
-1. generators $s^{i j}$ for $1 \leq i, j \leq n$, of degree $D - 1$, subject to 
-
-   $$
-     s^{i j} \;=\; (-1)^D s^{j i}
-   $$
-
-define a [[differential]] (a graded [[derivation]] of degree 1 with $d \circ d = 0$)
-
-$$
-  d 
-  \;\colon\;
-  \mathbb{R}\left[
-     \{e_i\},
-     \{s^{i j}\}
-  \right]
-  \longrightarrow
-  \mathbb{R}\left[
-     \{e_i\},
-     \{s^{i j}\}
-  \right]
-$$
-
-by
-
-$$
-  \begin{aligned}
-    d e^j_\alpha  
-      & \coloneqq 0
-    \\
-    d s^{i j} 
-      & \coloneqq 
-      \underset{\alpha, \beta}{\sum} g^{\alpha \beta} e^i_\alpha e^j_\beta
-  \end{aligned}
-  \,.
-$$
-
-This defines a [[differential graded-commutative algebra]]. 
-Its [[quotient]] algebra, 
-which identifies the generators not in $\overline{V}$ with the [[unit]],
-
-\[
-  \label{GraphComplexOfPoincareDualityVectorSpace}
-  {}^\ast Gra_{(V,g)}(n)
-  \;\coloneqq\;
-  \left( 
-  \mathbb{R}\left[
-     \{e_i\},
-     \{s^{i j}\}
-  \right]
-  ,\, d
-  \right)/( e^j_1 - 1 )
-\]
-
-is the _pre-graph complex_ of $(V, g)$. (This is independent, up to [[isomorphism]] of the choice of linear basis used in this presentation of the algebra.)
-
-We may identify a homogeneous element 
-
-$$
-  e^1_\alpha e^1_\beta s^{1 2} e^2_{\gamma} \cdots e^n_\delta
-  \;\in\;
-  {}^\ast Gra_{(V,g)}
-$$
-
-with a [[graph]] with $n$ [[vertices]], whose 1st [[vertex]] carries the labels $\alpha$ and $\beta$, the second carries the label $\gamma$, etc. and with an [[edge]] for the $i$th vertex to the $j$th vertex for every factor $s^{i j}$.
-
-In terms of this identification of homogeneous elements in ${}^\ast Gra_{(V,g)}(n)$ with graphs, the [[differential]] $d$ is the [[linear dual]] of a map $\Delta$ on the vector space spanned by graphs which acts by 
-
-1. picking a [[pairs]] $(\omega,\nu)$ of labels of vertices,
-
-1. removing these labels, replacing them with an edge between the corresponding vertices, and weihting the result by the pairing of the two labels
-
-1. summing up the resulting over all choice of pairs.
-
-<center>
-<img src="https://ncatlab.org/nlab/files/GraphComplex1.jpg" width="400">   
-</center>
-
-Now for $X$ a [[closed manifold]] of [[dimension]] $D$, set
-
-1. $V \coloneqq H^\bullet(X,\mathbb{R}) \simeq  H^\bullet_{dR}(X)$ its [[ordinary cohomology]] with [[coefficients]] in the [[real numbers]] (equivalently, by the [[de Rham theorem]], the [[de Rham cohomology]] of $X$);
-
-1. $\epsilon \;\colon\; H^\bullet(X,\mathbb{R}) \longrightarrow H^0(X,\mathbb{R}) \simeq \mathbb{R}$ the [[projection]] onto the cohomology in degree 0 (the [[constant functions]] on $X$);
-
-1. $g \coloneqq Poin \;\colon\; H^\bullet(X, \mathbb{R}) \otimes H^\bullet(X, \mathbb{R}) \longrightarrow \mathbb{R}$  the [[Poincaré duality]]-pairing.
-
-Then the _graph complex of the closed manifold $X$_ is the graph complex (eq:GraphComplexOfPoincareDualityVectorSpace) of the cohomology of $X$ equipped with the [[Poincaré duality]]-pairing
-
-$$
-  {}^\ast Gra_X
-  \;\coloneqq\;
-  {}^\ast Gra_{(H^\bullet(X,\mathbb{R}), Poin)}
-  \,.
-
-$$
-
-Next, define ${}^\ast TwGra_X$ roughly (...) as above, but with some of the vertices declared "internal" and made indistinguishable (no labels), and equipped with the above differential plus a differential which comes from a linear dual of the map that 
-
-1. picks a vertex $v$
-
-1. adds a new internal vertex and an edge from it to $v$
-
-1. reconnects the original edges coincident to $v$ in all possible ways with either $v$ or the new internal vertex
-
-1. sums over all ways of doing this.
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/GraphComplex2.jpg" width="280">   
-</center>
-
-
-Finally, the actual graph complex ${}^{\ast}Graph_X$ is the quotient of that which identifies all [[vacuum diagrams]] $\mathcal{G}$ (i.e. those with only internal vertices) with their with their partition function $Z_X(\mathcal{G})$:
-
-$$
-  {}^\ast Graphs_X 
-  \;\coloneqq\;
-  \mathbb{R} \otimes_{{}Z_X} {}^\ast TwGra_X
-  \,.
-$$
-
-
-=--
-
-This definition is due to [Campos-Willwacher 16, section 3](#CamposWillwacher16) using constructions from [Willwacher 10, appendix](#Willwacher10), following [Kontsevich 99b, around Def. 15 and Lemma 3](#Kontsevich99b).
 
 
 
@@ -300,7 +123,7 @@ Various versions of the definition of the graph complex were introduced in
 
 Decent review of the graph complex as a model for the [[de Rham cohomology]] of the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] (exhibiting the [[formal smooth manifold|formality]] of the [[little n-disk operads]]) is in
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
