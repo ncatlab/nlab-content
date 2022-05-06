@@ -165,9 +165,9 @@ Discussion of $G$-equivariant homotopy groups for $G = \mathbb{Z}/2$ is in
 
 * [[Peter Landweber]], _On Equivariant Maps Between Spheres with Involutions_, Annals of Mathematics Second Series, Vol. 89, No. 1 (Jan., 1969), pp. 125-137 ([jstor]( http://www.jstor.org/stable/1970812))
 
-* {#ArakiIriye82} Sh&#244;r&#244; Araki, Kouyemon Iriye, _Equivariant stable homotopy groups of spheres with involutions. I_, Osaka J. Math. Volume 19, Number 1 (1982), 1-55. ([Euclid:1200774828](http://projecteuclid.org/euclid.ojm/1200774828))
+* {#ArakiIriye82} Sh&#244;r&#244; Araki, [[Kouyemon Iriye]], _Equivariant stable homotopy groups of spheres with involutions. I_, Osaka J. Math. Volume 19, Number 1 (1982), 1-55. ([Euclid:1200774828](http://projecteuclid.org/euclid.ojm/1200774828))
 
-* {#Iriye82} Kouyemon Iriye, _Equivariant stable homotopy groups of spheres with involutions. II_, Osaka J. Math. Volume 19, Number 4 (1982), 733-743 ([euclid:1200775536](https://projecteuclid.org/euclid.ojm/1200775536))
+* {#Iriye82} [[Kouyemon Iriye]], _Equivariant stable homotopy groups of spheres with involutions. II_, Osaka J. Math. Volume 19, Number 4 (1982), 733-743 ([euclid:1200775536](https://projecteuclid.org/euclid.ojm/1200775536))
 
 * {#DuggerIsaksen16} [[Daniel Dugger]], [[Daniel Isaksen]], _$\mathbb{Z}/2$-equivariant and R-motivic stable stems_, Proceedings of the American Mathematical Society 145.8 (2017): 3617-3627 ([arXiv:1603.09305](https://arxiv.org/abs/1603.09305))
 
