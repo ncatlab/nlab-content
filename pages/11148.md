@@ -62,6 +62,9 @@ See also:
 * Aritra Ghosh, Chandrasekhar Bhamidipati, _Thermodynamic geometry and interacting microstructures of BTZ black holes_ ([arXiv:2001.10510](https://arxiv.org/abs/2001.10510))
 
 
+See also:
+
+* Wikipedia, _[BTZ black hole](http://en.wikipedia.org/wiki/BTZ_black_hole)_
 
 
 ### Euclidean BTZ black holes
@@ -91,9 +94,16 @@ Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal
 
   (with generalization to [[p-adic string theory]])
 
+
+
 See also:
 
-* Wikipedia, _[BTZ black hole](http://en.wikipedia.org/wiki/BTZ_black_hole)_
+* Zhen-Ming Xu, Bin Wu, Wen-Li Yang, _Thermodynamic curvature and isoperimetric inequality for the charged BTZ black hole_ ([arXiv:2002.00117](https://arxiv.org/abs/2002.00117))
+
+  (not Euclidean, but thermodynamic)
+
+
+
 
 
 
