@@ -210,5 +210,5 @@ This appears as ([Goerss-Jardine, ch. V prop. 6.3](#GoerssJardine)).
 
 A standard textbook reference is chapter V of
 
-* {#GoerssJardine} [[Paul Goerss]], [[John Frederick Jardine]], _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Chapter V in: _[[Simplicial homotopy theory]]_
 
