@@ -150,7 +150,7 @@ defines a complex orientation of $H\mathbb{Z}$.
 ###### Example
 **([[topological K-theory]])**
 
-For $E = KU$ complex [[topological K-theory]], then the class of the image of the the [[universal complex line bundle]] $\mathcal{O}(1)$ in [[reduced K-theory]] is a complex orientation.
+For $E = KU$ complex [[topological K-theory]], then the class of the image of the [[universal complex line bundle]] $\mathcal{O}(1)$ in [[reduced K-theory]] is a complex orientation.
 
 The induced [[formal group law]] (by prop. \ref{ComplexOrientedCohomologyTheoryFormalGroupLaw}) is the [[multiplicative formal group law]]. 
 
