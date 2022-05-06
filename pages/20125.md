@@ -33,7 +33,7 @@ In this context, a _tensor network_ is a _[[string diagram]] [[concept with an a
 
 1. the [[element]] in that [[tensor product]] defined by the string diagram regarded a a [[state]] ([[wave function]]) of that quantum system.
 
-For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _tree tensor network state_ is the following:
+For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _[[tree tensor network state]]_ is the following:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="300">
@@ -53,7 +53,7 @@ The following is an example of what is called a [[matrix product state]]:
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
-Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special role in the [[AdS/CFT correspondence]], either as
+The [[tree tensor network states]] in the form of [[Bruhat-Tits trees]] play a special role in the [[AdS/CFT correspondence]], either as
 
 1. a kind of [[lattice QFT]]-approximation to an actual [[boundary field theory|boundary]] [[CFT]] [[quantum state]], 
 
@@ -67,6 +67,8 @@ Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special r
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+(As in [HMSS 16](p-adic+AdS/CFT+correspondence#HMSS16), [HLM 19](p-adic+AdS/CFT+correspondence#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](p-adic+AdS/CFT+correspondence#HMPS18)?)
+
 For [[tensor network states]] dual to tesselations of [[hyperbolic space]] and made from [[perfect tensors]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
 
 
@@ -76,7 +78,7 @@ General tensor network states are mixtures of the above examples. For instance i
 <img src="https://ncatlab.org/nlab/files/BTZTensorNetworksStateFromLieAlgebra.jpg" width="350">
 </center>
 
-
+(As in [ESZ 19](p-adic+AdS/CFT+correspondence#ESZ19).)
 
 \linebreak
 
