@@ -51,6 +51,46 @@ For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one i
 
 Hence, odd dimensional $n$-spheres are [[rational homotopy equivalence|rationally homotopy equivalent]] to [[Eilenberg-MacLane spaces]] $K(\mathbb{Z},n)$, while even-dimensional spheres are not.
 
+## Applications
+
+### Hopf invariant
+
++-- {: .num_prop #RecognitionFromSullivanModels}
+###### Proposition
+
+By standard results in [[rational homotopy theory]], every [[continuous function]]
+
+$$
+  S^{4k-1} \overset{\phi}{\longrightarrow} S^{2k}
+$$
+
+corresponds to a unique [[dgc-algebra]] [[homomorphism]] 
+
+$$
+  CE
+  \big( 
+    \mathfrak{l}S^{4k-1}
+  \big)
+  \overset{ CE(\mathfrak{l}\phi) }{\longleftarrow}
+  CE
+  \big( 
+    \mathfrak{l}S^{2k}
+  \big)
+$$
+
+between [[Sullivan models]] [[rational n-sphere|of n-spheres]].
+
+The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is the [[Hopf invariant]] $HI(\phi)$ of $\phi$:
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "HopfInvariantFromSullivanModels.jpg",
+  "width": 530
+\end{imagefromfile}
+\end{center}
+
+=--
+
 ## Related concepts
 
 * [[Serre finiteness theorem]]
