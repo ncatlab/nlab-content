@@ -16,7 +16,7 @@
 ## Idea
 
 In [[quantum hadrodynamics]], the _$\Phi$-[[meson]]_ is a
-the [[Lorentz group|Lorentz]] [[scalar]] and [[isospin]] [[vector representation|vector]] [[bound state|bound]] from 
+the [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [[scalar]] [[bound state|bound]] from 
 
 1. an [[up-quark|up]] or [[down-quark]] (from the [[first generation of fundamental particles]])
 
@@ -25,7 +25,7 @@ the [[Lorentz group|Lorentz]] [[scalar]] and [[isospin]] [[vector representation
 Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
