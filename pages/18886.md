@@ -18,4 +18,4 @@ An [[experiment]] designed for detection and analysis of [[neutrinos]], also [[p
 
 ## Related entries
 
-* [[LHC]], [[LIGO]], [[EDGES]]
+* [[LHC]], [[LIGO]], [[EDGES]], [[RHIC]]
