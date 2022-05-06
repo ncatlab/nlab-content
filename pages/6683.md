@@ -115,6 +115,11 @@ Review includes
 * {#Lambert18} [[Neil Lambert]], _M-Branes: Lessons from M2’s and Hopes for M5’s_,  talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
 
 
+Discussion of [[Montonen-Olive duality]] in [[D=4 super Yang-Mills theory]] via [[ABJM-model]] as [[D3-brane]] model after [[double dimensional reduction]] followed by [[T-duality]]:
+
+* [[Koji Hashimoto]], Ta-Sheng Tai, Seiji Terashima, _Toward a Proof of Montonen-Olive Duality via Multiple M2-branes_, JHEP 0904:025, 2009 ([arxiv:0809.2137](https://arxiv.org/abs/0809.2137))
+
+
 Discussion of extension to [[boundary field theory]] (describing [[M2-branes]] ending on [[M5-branes]]) includes
 
 * {#BermanThomson09} [[David Berman]], Daniel Thompson, _Membranes with a boundary_, Nucl.Phys.B820:503-533,2009 ([arXiv:0904.0241](http://arxiv.org/abs/0904.0241))
