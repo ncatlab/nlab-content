@@ -86,7 +86,7 @@ the quotient groupoid
 
 $$ (\Gamma \rtimes \, G)/N$$
 
-where $N$ is the normal closure in $\Gamma \rtimes \, G$ of all
+where $N$ is the [[normal closure]] in $\Gamma \rtimes \, G$ of all
 elements $(1_x,g)$. Details are in the book reference below (but the
 conventions are not quite the same).
 
