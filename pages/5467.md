@@ -38,8 +38,9 @@ Note that properties of sets in the set theory might not hold as seen from withi
 
 ## Relation to the von Neumann universe
 
-By $L=V$, set theories refer to the collapsing of the von Neumann universe $V$ to the "thinner" $L$. The question wether $L\neq V$ can not be decided in ZF. If $L\neq V$ then we still do not know how, without an axiom of choice, to produce specific sets that are not constructible. 
-Given the independence, one may add $L=V$ as an axiom. However, note that formally stating that axiom is more technical (involving ordinals, etc.) than the standard set theory axioms. Moreover, by its restrictiveness, that axiom also rules out many other popular studied axioms.
+By $L=V$, set theories refer to the collapsing of the von Neumann universe $V$ to the "thinner" $L$. The question of whether $L\neq V$ can not be decided in ZF. If $L\neq V$ then we still do not know how, without an axiom of choice, to produce specific sets that are not constructible.
+
+Given the independence, one may add $L=V$ as an axiom. However, note that formally stating that axiom is more technical (involving ordinals, etc.) than the standard set theory axioms. Moreover, by its restrictiveness, that axiom also rules out many other popular studied axioms (e.g. it is inconsistent with the existence of "large" [[large cardinals]] such as [[measurable cardinals]] and above).
 
 
 ## Links
