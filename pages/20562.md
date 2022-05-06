@@ -13,13 +13,16 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-Categorical compositional distributional semantics, also known as **DisCoCat** for short, uses category theory to combine the benefits of two very different approaches to [[linguistics]]: [[categorial grammar]] and [distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics). Specifically, it uses the fact that [[pregroups]] and the category of finite-dimensional real [[vector space|vector spaces]] are both examples of [[rigid monoidal category|rigid monoidal categories]]. Semantics for [[pregroup grammars]] may then be given as a strong [[monoidal functor]], which allows sentence meanings to be computed from word meanings by linear algebra, compositionally on the grammatical structure of the sentence.
+Categorical compositional distributional semantics, also known as **DisCoCat** for short, uses category theory to combine the benefits of two very different approaches to [[linguistics]]: [[categorial grammar]] and [[distributional semantics]]. 
+
+Specifically, it uses the fact that [[pregroups]] and the category of finite-dimensional real [[vector space|vector spaces]] are both examples of [[rigid monoidal category|rigid monoidal categories]]. Semantics for [[pregroup grammars]] may then be given as a strong [[monoidal functor]], which allows sentence meanings to be computed from word meanings by linear algebra, compositionally on the grammatical structure of the sentence.
 
 DisCoCat was first introduced in [Coecke, Sadrzadeh and Clark 2010](#Coecke10).
 
@@ -87,6 +90,10 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 
 * [[game theory|Games]] to model dialogue and Wittgenstein's [[language game|language games]] ([Hedges and Lewis 2018](#Hedges18))
 
+## Related entries
+
+* [[DisCoPy]]
+
 # References
 
 * [Linguistics using category theory](https://golem.ph.utexas.edu/category/2018/02/linguistics_using_category_the.html) on the n-category café
@@ -95,19 +102,20 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 
 * [Meeting the Dialogue Challenge](https://golem.ph.utexas.edu/category/2019/06/meeting_the_dialogue_challenge.html) on the n-category café
 
-* {#Coecke10} [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]] and [[Stephen Clark]], _Mathematical foundations for a compositional distributional model of meaning_. Lambek Festschrift, special issue of Linguistic Analysis, 2010. ([arXiv:1003.4394](https://arxiv.org/abs/1003.4394))
+* {#Coecke10} [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]] and Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_. Lambek Festschrift, special issue of Linguistic Analysis, 2010. ([arXiv:1003.4394](https://arxiv.org/abs/1003.4394))
 
-* {#Preller14} [[Anne Preller]], _From logical to distributional methods_. QPL 2013. ([arXiv:1412.8527](https://arxiv.org/abs/1412.8527))
+* {#Preller14} Anne Preller, _From logical to distributional methods_. QPL 2013. ([arXiv:1412.8527](https://arxiv.org/abs/1412.8527))
 
-* {#Bolt16} [[Josef Bolt]], [[Bob Coecke]], [[Fabrizio Genovese]], [[Martha Lewis]], [[Daniel Marsden]] and [[Robin Piedeleu]], _Interacting conceptual spaces I: Grammatical composition of concepts_, SLPCS 2016 ([arXiv:1703.08314](https://arxiv.org/abs/1703.08314)
+* {#Bolt16} Josef Bolt, [[Bob Coecke]], Fabrizio Genovese, Martha Lewis, Daniel Marsden and Robin Piedeleu, _Interacting conceptual spaces I: Grammatical composition of concepts_, SLPCS 2016 ([arXiv:1703.08314](https://arxiv.org/abs/1703.08314)
 
-* {#Felice19} [[Giovanni de Felice]], [[Konstantinos Meichanetzidis]] and [[Alexis Toumi]], _Functorial Question Answering_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
+* {#Felice19} Giovanni de Felice, Konstantinos Meichanetzidis and [[Alexis Toumi]], _Functorial Question Answering_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
 
-* {#Hedges18} [[Jules Hedges]] and [[Martha Lewis]], _Towards functorial language-games_, CAPNS 2018. ([arXiv:1807.07828](https://arxiv.org/abs/1807.07828))
+* {#Hedges18} [[Jules Hedges]] and Martha Lewis, _Towards functorial language-games_, CAPNS 2018. ([arXiv:1807.07828](https://arxiv.org/abs/1807.07828))
 
 The category $DisCoCat$ and it's relationship to the product space representation is discussed in:
 
-* [[Tai-Danae Bradley]], [[Martha Lewis]], [[Jade Master]], and [[Brad Theilman]] 
+* [[Tai-Danae Bradley]], Martha Lewis, [[Jade Master]], and Brad Theilman 
 _Translating and Evolving: Towards a Model of Language Change in DisCoCat_ [arXiv:1811.11041](https://arxiv.org/abs/1811.11041)
 
 [[!redirects DisCoCat]]
+
