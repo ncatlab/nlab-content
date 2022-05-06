@@ -230,7 +230,7 @@ let $f = (f^* \dashv f_*) : \mathcal{E} \underoverset{f_*}{f^*}{\leftrightarrows
 If $\mathcal{E}$ is a [[sheaf topos]], then there is a unique [[geometric morphism]] $(\Delta \dashv \Gamma): \mathcal{E} \underoverset{\Gamma}{\Delta}{\leftrightarrows} Set$, the [[global section]] geometric morphism, with the [[inverse image]] being the [[locally constant sheaf]] functor, it follows that 
 
 $$
-  \Delta(\mathbb{N}) \cong \Delta(\sum_{n: \mathbb{N}} 1) \cong \sum_{n: N} \Delta 1 \cong \sum_{n: \mathbb{N}} 1,
+  \Delta(\mathbb{N}) \cong \Delta\left(\sum_{n: \mathbb{N}} 1\right) \cong \sum_{n: N} \Delta 1 \cong \sum_{n: \mathbb{N}} 1,
 $$ 
 
 with the evident successor and constant $0$, is the natural nunbers object in $\mathcal{E}$.  
