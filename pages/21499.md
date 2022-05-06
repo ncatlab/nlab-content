@@ -1,4 +1,6 @@
-This page collects the various networks and communities, in the largest possible sense, of mathematicians and non mathematicians whose research is category-theory oriented.
+
+
+This page collects the various networks and communities, in the largest possible sense, of mathematicians and non-mathematicians whose research is [[category theory]]-oriented.
 
 It is by no means a comprehensive list, in strict alphabetic order.
 
@@ -10,3 +12,6 @@ It is by no means a comprehensive list, in strict alphabetic order.
 
 
 Feel free to continue the list!
+
+
+[[!redirects Networks of category theorists]]
