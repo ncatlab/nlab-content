@@ -181,7 +181,7 @@ Hence all [[Morita morphisms]], def. \ref{MoritaMorphism}, to the pair groupoid 
 +-- {: .num_defn #GroupoidAction}
 ###### Definition
 
-For $\mathcal{G}_\bullet \in Grpd_\infty(\mathbf{H})$ a [[groupoid object in an (∞,1)-category|groupoid object]], $P \in \mathbf{H}$ any object equipped with a morphsim $a \colon P \to \mathcal{G}_0$ to the object of objects of $\mathcal{G}$, a **$\mathcal{G}_\bullet$-[[groupoid ∞-action]]** on $X$ with **anchor** $a$ is a [[groupoid object in an (∞,1)-category|groupoid]] $(X//\mathcal{G})_\bullet$ over $\mathcal{G}_\bullet$ of the form
+For $\mathcal{G}_\bullet \in Grpd_\infty(\mathbf{H})$ a [[groupoid object in an (∞,1)-category|groupoid object]], $X \in \mathbf{H}$ any object equipped with a morphism $a \colon X \to \mathcal{G}_0$ to the object of objects of $\mathcal{G}$, a **$\mathcal{G}_\bullet$-[[groupoid ∞-action]]** on $X$ with **anchor** $a$ is a [[groupoid object in an (∞,1)-category|groupoid]] $(X//\mathcal{G})_\bullet$ over $\mathcal{G}_\bullet$ of the form
 
 $$
   \array{  
@@ -268,7 +268,7 @@ $$
 +-- {: .num_example #LieGroupoidPrincipalBundle}
 ###### Example
 
-Let $f_\bullet \colon X_\bullet \to \mathcal{G}_\bullet$ be a morphism of 1-groupoid objects, say of [[Lie groupoids]]. Then as discussed at _[[homotopy pullback]]_ the [[(∞,1)-pullback]] of the [[atlas]] $\mathcal{G}_0 \to \mathcal{G}$ along the [[realization]] $f$ is computed as the 1-categorical [[pullback]]
+Let $f_\bullet \colon X_\bullet \to \mathcal{G}_\bullet$ be a morphism of 1-groupoid objects, say of [[Lie groupoids]]. Then, as discussed at _[[homotopy pullback]]_, the [[(∞,1)-pullback]] of the [[atlas]] $\mathcal{G}_0 \to \mathcal{G}$ along the [[realization]] $f$ is computed as the 1-categorical [[pullback]]
 
 $$
   \array{
@@ -386,7 +386,7 @@ Finally then for $\mathcal{X}_\bullet$ and $\mathcal{G}_\bullet$ two Lie groupoi
 +-- {: .num_defn }
 ###### Definition
 
-For $\mathcal{X}_\bullet, \mathcal{G}_\bullet \in Grpd_\infty(\mathbf{H})$ two [[groupoid object in an (infinity,1)-category|groupoid objects]] and $f \colon \mathcal{X} \to \mathcal{G}$ a [[Morita morphism]] between them, def. \ref{MoritaMorphism}, we say that the corresponding **$\mathcal{X}_\bullet-\mathcal{G}_\bullet$-bibundle** $\mathcal{P}(f)$ is the $\mathcal{G}_\bullet$-[[groupoid-principal bundle]] $f^\ast \mathcal{G}_0$ pulled back to canonical [[atlas]] of $\mathcal{X}$ and equipped with the induced $\mathcal{X}_\bullet$-[[groupoid action]]:
+For $\mathcal{X}_\bullet, \mathcal{G}_\bullet \in Grpd_\infty(\mathbf{H})$ two [[groupoid object in an (infinity,1)-category|groupoid objects]] and $f \colon \mathcal{X} \to \mathcal{G}$ a [[Morita morphism]] between them, def. \ref{MoritaMorphism}, we say that the corresponding **$\mathcal{X}_\bullet-\mathcal{G}_\bullet$-bibundle** $\mathcal{P}(f)$ is the $\mathcal{G}_\bullet$-[[groupoid-principal bundle]] $f^\ast \mathcal{G}_0$ pulled back to the canonical [[atlas]] of $\mathcal{X}$ and equipped with the induced $\mathcal{X}_\bullet$-[[groupoid action]]:
 
 
 $$
@@ -394,7 +394,7 @@ $$
     \mathcal{P}(f)& \coloneqq& p^* \mathcal{X}_0 &\to&
     f^* \mathcal{G}_0&\to& \mathcal{G}_0
     \\
-    && \downarrow &\pb\infty& \downarrow^{\mathrlap{p}} &pb_\infty& \downarrow
+    && \downarrow &\pb_\infty& \downarrow^{\mathrlap{p}} &pb_\infty& \downarrow
     \\
     && \mathcal{X}_0
     &\to&
@@ -419,9 +419,9 @@ $$
   \,,
 $$
 
-since $\mathcal{P}(f)$ is the pullback of a $\mathcal{G}_\bullet$-principal bundle (modualted by the bottom composite map in the above diagram). 
+since $\mathcal{P}(f)$ is the pullback of a $\mathcal{G}_\bullet$-principal bundle (modulated by the bottom composite map in the above diagram). 
 
-On the other hand the $\mathcal{X}_\bullet$-action on $\mathcal{P}(f)$ is not principal over $\mathcal{G}_0$ -- unless $f$ is an [[equivalence in an (infinity,1)-category]] (hence a ([[Morita equivalence|Morita]]) from $\mathcal{X}_\bullet$ to $\mathcal{G}_\bullet$.) It is instead always principal over $f^\ast \mathcal{G}_0$.
+On the other hand the $\mathcal{X}_\bullet$-action on $\mathcal{P}(f)$ is not principal over $\mathcal{G}_0$ -- unless $f$ is an [[equivalence in an (infinity,1)-category]] (hence a ([[Morita equivalence]]) from $\mathcal{X}_\bullet$ to $\mathcal{G}_\bullet$.) It is instead always principal over $f^\ast \mathcal{G}_0$.
 
 =--
 
@@ -429,7 +429,7 @@ Thus we arrive at an equivalent, however more basic definition of Lie groupoid b
 +-- {: .num_defn }
 ###### Definition
 
-Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-**bibundle** is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute. If the $G$-action also gives arise to a principal bundle over $H_0$, then $E$ induces a [[Morita equivalence]] between $G$ and $H$ and it is sometimes called a **Morita bibundle** in this case.
+Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-**bibundle** is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute. If the $G$-action also gives rise to a principal bundle over $H_0$, then $E$ induces a [[Morita equivalence]] between $G$ and $H$ and it is sometimes called a **Morita bibundle** in this case.
 =--
 
 +-- {: .num_example }
