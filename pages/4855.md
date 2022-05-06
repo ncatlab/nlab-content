@@ -350,9 +350,10 @@ It may be helpful to unpack the above definition a bit.
 =--
 
 +-- {: .un_remark}
-###### Remark (collars)
+###### Remark 
+**([[collars]])**
 
-This construction gives "collared simplices" in much the same sense as in [[collared cobordism]] and in [[A1-homotopy]]: 
+This construction gives "collared simplices" in much the same sense as in [[collar|collared]] [[cobordism]] and in [[A1-homotopy]]: 
 
 there is no condition that the morphisms $0,1  : {*} \to I$ "hit a boundary point" -- whatever that may mean
  in $C$ -- of $I$. For instance in a [[lined topos]] $I$ is canonically chosen to be the given line object and will hence typically "extended indefinitely" beyond these points. 
