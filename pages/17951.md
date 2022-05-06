@@ -40,3 +40,6 @@ A suggestion for how to relate bosonic M-theory to actual [[M-theory]] is in
 
 * Michael Rios, Alessio Marrani, David Chester, _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_ ([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
 
+Relation to the [[Monster group]], [[Moonshine]] and the [[Monster vertex operator algebra]]:
+
+* Alessio Marrani, Michael Rios, David Chester, _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
