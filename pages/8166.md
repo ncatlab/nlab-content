@@ -36,11 +36,15 @@ It is generally understood that models are approximations to reality. The prover
 
 ### In particle physics
 
+In [[particle physics]]:
+
 * [[standard model of particle physics]]
 
 * [[Connes-Lott-Chamseddine model]]
 
 * [[Grand Unified Theory]]
+
+* [[composite Higgs model]]
 
 * [[MSSM]]
 
@@ -48,7 +52,7 @@ It is generally understood that models are approximations to reality. The prover
 
 ### In cosmology
 
-[[cosmology]]
+In [[cosmology]]
 
 * [[standard model of cosmology]]
 
