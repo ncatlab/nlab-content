@@ -40,6 +40,8 @@
 
 * [[Spin(4)]], [[Spin(5)]], [[Spin(8)]]
 
+* [[triality]]
+
 * [[quaternion-Kähler manifold]]
 
 * [[Euler class]]
