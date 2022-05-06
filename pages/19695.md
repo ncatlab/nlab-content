@@ -44,3 +44,7 @@ In [[equivariant stable homotopy theory]] the concept of fixed point spaces bran
 
 
 [[!redirects fixed point spaces]]
+
+[[!redirects fixed point set]]
+[[!redirects fixed point sets]]
+
