@@ -25,6 +25,16 @@
 
 ## Properties
 
+### Classification of simple Lie groups
+
+[[classification of simple Lie groups]]:
+
+<center>
+<img src="http://jakobschwichtenberg.com/wp-content/uploads/2016/10/dynkinclassification.jpg">
+</center>
+
+> graphics grabbed from [Schwichtenberg](http://jakobschwichtenberg.com/classification-of-simple-lie-groups/)
+
 ### ADE-Classification
 
 Those Dynkin diagrams in the [[ADE classification]] are the following
