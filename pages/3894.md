@@ -523,7 +523,7 @@ Textbook accounts include
 
 Surveys include
 
-* {#Alekseevskii} D. V: Alekseevskii, _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
+* {#Alekseevskii} [[Dmitry Vladimirovich Alekseevsky]], _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
 
 * [Wikipedia](http://en.wikipedia.org/wiki/G-structure)
 
