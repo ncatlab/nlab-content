@@ -1,9 +1,7 @@
+[[!redirects metrisable spaces have countably locally discrete bases]]
 
 
-## Statement
-
-
-Recall:
+## Definitions
 
 +-- {: .num_defn #LocallyFiniteCover}
 ###### Definition
@@ -26,6 +24,9 @@ Then a _[[refinement]]_ of this open cover is a set of open subsets $\{V_j \subs
 
 =--
 
+
+## Statement
+
 \begin{theorem}
 Every open cover of a metric space has a [[countably locally discrete set of subsets|$\sigma$-locally discrete]] [[refinement]]. 
 \end{theorem}
@@ -35,11 +36,13 @@ Every metric space $X$ has a $\sigma$-locally discrete base.
 \end{corollary}
 
 \begin{proof}
-Set $\mathcal{U}_n \coloneqq \{ \text{open ball of radius } 1/n \text{  around } x \mid x \in X \}$. For each $N$ let $\mathcal{V}_n$ be a $\sigma$-locally discrete refinement of $\mathcal{U}_n$. By a diagonal argument the family $\mathcal{V} \coloneqq \bigcup_n \mathcal{V}_n$ is also $\sigma$-locally discrete. Moreover $\mathcal{V}$ is a base since for each point $x$ the balls of radius $1/n$ form a [[neighborhood base]].
+Set $\mathcal{U}_n \coloneqq \{ \text{open ball of radius }\; 1/n \;\text{ around }\;\, x \mid x \in X \}$. For each $N$ let $\mathcal{V}_n$ be a $\sigma$-locally discrete refinement of $\mathcal{U}_n$. By a diagonal argument the family $\mathcal{V} \coloneqq \bigcup_n \mathcal{V}_n$ is also $\sigma$-locally discrete. Moreover $\mathcal{V}$ is a base since for each point $x$ the balls of radius $1/n$ form a [[neighborhood base]].
 \end{proof}
 
 
 ## Related statements
+
+* [[metrization theorem]]
 
 * [[metric spaces are paracompact]]
 
@@ -57,6 +60,6 @@ Set $\mathcal{U}_n \coloneqq \{ \text{open ball of radius } 1/n \text{  around }
 
 ## References
 
-* Ryszard Engelking, _General Topology_, Heldermann Verlag Berlin, 1989.
+* [[Ryszard Engelking]], _General Topology_, Heldermann Verlag Berlin, 1989.
 
 * K. Kuratowski, _Topology_, 2014, vol. 1.
