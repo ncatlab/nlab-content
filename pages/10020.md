@@ -119,11 +119,15 @@ Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] o
 
 * [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036))
 
+In the context of [[holography as Koszul duality]]:
+
+* [[Kevin Costello]], [[Natalie Paquette]], _Twisted Supergravity and Koszul Duality: A case study in $AdS_3$_ ([arXiv:2001.02177](https://arxiv.org/abs/2001.02177))
+
+
 See also
 
 * Stefano Speziali, _Spin 2 fluctuations in 1/4 BPS AdS3/CFT2_ ([arxiv:1910.14390](https://arxiv.org/abs/1910.14390))
 
-* [[Kevin Costello]], [[Natalie Paquette]], _Twisted Supergravity and Koszul Duality: A case study in $AdS_3$_ ([arXiv:2001.02177](https://arxiv.org/abs/2001.02177))
 
 
 [[!include AdS3-CFT2 on D1-D5 branes -- references]]
