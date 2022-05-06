@@ -17,6 +17,13 @@
 
 What is called the _21cm hydrogen line_ or just _hydrogen line_ is the signature of the [[electromagnetic radiation]] of [[wavelength]] about 21[[cm]] which is emitted by [[hydrogen]] [[atoms]] when the [[electrons]] in their shell change [[quantum state]] from the "triplet" to the singlet [[ground state]].
 
+## In astrononmy
+
+In [[astronomy]], the _[[Tully-Fisher relation]]_ is a relation between the asymptotic behaviour of [[galaxy rotation curves]], witnessed by the width of their [[21cm hydrogen line]], and the total visible [[baryon|baryonic]] [[mass]] of the [[galaxies]]. 
+
+
+## In cosmology
+
 In the context of [[cosmology]] it has been argued ([Higan-Rees 79](#HiganRees79)) that observation of a absorption at the 21cm hydrogen line in the [[cosmic microwave background]] would be a signal from the time when the first [[stars]] formed and ignited, a cosmological epoch not otherwise accessible to observation. A claim of detection of this signal by the [[EDGES]] [[experiment]] appeared in [BRMMM 18](#BRMMM18).
 
 ## Related entries
