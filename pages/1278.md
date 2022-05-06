@@ -189,7 +189,7 @@ $$
  }
 $$
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Given cohomology theory $E^\bullet$, a smooth refinement
@@ -228,7 +228,7 @@ that gives the above kind of exact sequence.
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 If $E^*$ is multiplicative, we say $\hat E^*$ is multiplicative with 
@@ -242,7 +242,7 @@ $$
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 $\hat E$ has $S^1$-integration if there is a natural (in $M$) transformation
@@ -265,7 +265,7 @@ $$
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Ordinary cohomology theories are supposed to be homotopy
@@ -274,7 +274,7 @@ cohomology is not.
 =--
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 Given $\hat E$ a smooth cohomology theory. 
 The **homotopy formula**:
@@ -289,13 +289,13 @@ $$
 $$
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 $ker(R)$ (i.e. flat cohomology) is a homotopy invariant
 functor.
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 $\hat H{flat} := ker(R)$
 =--
@@ -331,8 +331,9 @@ A calculation: $\hat H^1_{flat}(pt) = \hat H^1(pt) = \mathbb{R}/\mathbb{Z} = \ha
 =--
 
 
-+-- {: .un_theorem}
-###### Theorem (Hopkins--Singer)
++-- {: .num_theorem}
+###### Theorem 
+(Hopkins--Singer)
 
 For each generalized cohomology theory $E^*$ 
 a differential version  $\hat E^*$ as in the above definition does exist.
@@ -340,12 +341,12 @@ a differential version  $\hat E^*$ as in the above definition does exist.
 Moreover $\hat E_{flat}^* = E \mathbb{R}/\mathbb{Z}^{\bullet -1}$.
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 It's not evident how to obtain more structure like multiplication.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Using geometric models, multiplicative smooth extensions
 with $S^1$-integration are constructed for
@@ -357,10 +358,9 @@ with $S^1$-integration are constructed for
 =--
 
 
-+-- {: .un_theorem}
-###### Uniqueness theorem (Bunke--Schick)
-
-(Simons--Sullivan proved this for ordinary integral cohomology.)
++-- {: .num_theorem}
+###### Theorem 
+(Uniqueness theorem due to Bunke--Schick. Simons--Sullivan proved this for ordinary integral cohomology.)
 
 Assume $E^*$ is _rationally even_, meaning that
 
@@ -379,7 +379,7 @@ If $\hat E, \tilde E$ are multiplicative, then this isomorphism is,
 as well.
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 If we don't require compatibility with $S^1$-integration, then there
