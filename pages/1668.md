@@ -921,6 +921,12 @@ T(T A \times T B) & \stackrel{T\alpha}{\to} & T T(A \times B) & \\
 
 This construction carries over to the wider context of monoidal monads, see [[tensor product of algebras over a commutative monad]].
 
+
+## Examples
+
+See (more generally) [[commutative monad|examples of commutative monads]].
+
+
 ## References
 
 The notion of commutative algebraic theory was formulated in terms of [[monads]] by [[Anders Kock]].
