@@ -46,10 +46,23 @@ The frame is a presentation-independent representation of the theory. It can be 
 
 * In [[formal topology]], one studies a set $B$ of *[[base for a topology|basic]]* open subspaces, with a _cover relation_ $a\triangleleft U$ between elements and subsets of $B$, to show when one basic open is covered by a family of others. There are various flavours of this. $\triangleleft$ may be the full cover relation or a generating part, and there may sometime be included the extra structure of a [[positivity predicate|positivity]]. In each case the formal topology has the structure of a [[posite]] and so gives rise to a geometric theory of flat continuous functors. Its propositional  symbols are $\phi_a$ for each $a\in B$. The axioms are -
 
-(To be continued)
+  - $\top \vdash \bigvee_{a\in B} \phi_a$
+
+  - $\phi_a \wedge \phi_b \vdash \bigvee\{\phi_c\mid c\triangleleft\{a\} \wedge c\triangleleft\{b\}\}$
+
+  - $\phi_a \vdash \bigvee_{b\in U}\phi_{b}$ (if $a\triangleleft U$)
+
+The models are known as _formal points_.
+
+## Pointwise reasoning
+
+The traditional way of doing topology using points may be called __pointwise topology__. Obviously that is natural in point-set topology, but for point-free there is an apparent problem: there may not be enough of them.
+
+It is possible to reason in an entirely _pointless_ style, without reference to the points.
+For instance with locales, the 
 
 
-In contrast, the traditional way of doing topology using points may be called __pointwise topology__.
+
 
 
 ## Definition
