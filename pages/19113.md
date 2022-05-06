@@ -87,7 +87,7 @@ $$
   }
 $$
 
-exhibiting the [[even number|even]] [[order of a group|order]] [[cyclic groups]] as subgroups of [[Spin(2)]], including the the minimal case of the [[group of order 2]]
+exhibiting the [[even number|even]] [[order of a group|order]] [[cyclic groups]] as subgroups of [[Spin(2)]], including the minimal case of the [[group of order 2]]
 
 $$
   \array{
