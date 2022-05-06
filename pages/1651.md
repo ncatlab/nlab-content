@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[topological space]] is called **locally path-connected** if it has a [[basis of the topology|basis]] of [[path-connected space|path-connected]] [[neighbourhoods]]. In other words, if for every point $x$ and [[neighbourhood]] $V \ni x$, there exists a path-connected neighbourhood $U \subsubset V$ that contains $x$.
+A [[topological space]] is called **locally path-connected** if it has a [[basis of the topology|basis]] of [[path-connected space|path-connected]] [[neighbourhoods]]. In other words, if for every point $x$ and [[neighbourhood]] $V \ni x$, there exists a path-connected neighbourhood $U \subset V$ that contains $x$.
 
 
 
@@ -32,7 +32,7 @@ Let $X$ be a locally path connected space. Then the path connected component $P_
 +-- {: .proof}
 ###### Proof
 
-It is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths that $V_y \subset P_x$.
+It is sufficient to show that every point $y \in P_x$ has a [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which is path connected. It follows by concatenation of paths that $V_y \subset P_x$.
 
 =--
 
