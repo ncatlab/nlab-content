@@ -32,7 +32,11 @@ $$
 
 where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| \coloneqq Hom_C({*}, U)$ of points underlying the object $U$ in the [[concrete site]] $C$.
 
-For the category of concrete sheaves $Conc(Sh(C))$, the [[global sections]] functor $Hom_{Conc(Sh(C))}(1,-):Conc(Sh(C))\to Set$ is [[faithful functor|faithful]], i.e. $Conc(Sh(C))$ is a [[concrete category]]. 
+For the category of concrete sheaves $Conc(Sh(C))$, the [[global sections]] functor 
+
+$$Hom_{Conc(Sh(C))}(1,-):Conc(Sh(C))\to Set$$ 
+
+is [[faithful functor|faithful]], i.e. $Conc(Sh(C))$ is a [[concrete category]]. 
 
 ## Definition
 
@@ -163,7 +167,7 @@ On the other hand, comparison with the [previous definition](#ConcSheafOnConcSit
 
 
 
-So the concrete sheaves on $C$ are precisely the [[separated presheaf|separated objects]] for this [[Lawvere-Tierney topology]] on $Sh(C)$ that corresponds to the subtopos $Codisc : S \hookrightarrow Sh(C)$.  
+So the concrete sheaves on $C$ are precisely the [[separated presheaf|separated objects]] for this [[Lawvere-Tierney topology]] on $Sh(C)$ that corresponds to the subtopos $Codisc : Set \hookrightarrow Sh(C)$.  
 
 
 
