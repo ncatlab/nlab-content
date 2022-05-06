@@ -2289,9 +2289,9 @@ Let $\{G_i\}_{i \in I}$ and $\{H_j\}_{j \in J}$ be sets of [[groups]] and consid
 $$
   F
     \;\colon\;
-  \underset{i \in I}{sqcup} G_i
+  \underset{i \in I}{\sqcup} B G_i
     \longrightarrow
-  \underset{j \in J}{\sqcup} H_j
+  \underset{j \in J}{\sqcup} B H_j
 $$
 
 between the corresponding disjoint unions of [[delooping]] groupoids (example \ref{GroupoidFromDelooping}).
@@ -2320,7 +2320,7 @@ $$
   \beta \;\colon\; F \circ G \Rightarrow id
 $$
 
-are in each separate [[delooping]] groupoid $B H_j$ of the form
+are in each separate [[delooping]] groupoid $B G_i$ (resp. $B H_j$) of the form
 
 $$
   \array{
@@ -2340,7 +2340,7 @@ $$
   }
 $$
 
-since there is only a single object. But this means $F_{i,i}$ and $F_{j,j}$ are group isomorphisms.
+since there is only a single object. But this means $F_{i,i}$ and $G_{j,j}$ are group isomorphisms.
 
 =--
 
@@ -2462,21 +2462,7 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 
 1. $F$ is an [[equivalence of groupoids]] (def. \ref{EquivalenceOfGroupoids});
 
-1. $F$ is a [[weak homotopy equivalence]] in that
-
-   1. it induces an [[bijection]] of sets of [[connected]] components (def. \ref{GroupoidConnectedComponents});
-
-      $$
-        \pi_0(F) \;\colon\; \pi_0(\mathcal{G}_1) \overset{\simeq}{\longrightarrow} \pi_0(\mathcal{G}_0)
-        \,,
-      $$
-
-  1. for each object $x \in \mathcal{G}_1$ it induces an isomorphis of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup}):
-
-     $$
-       F_{x,x} \;\colon\; Aut_{\mathcal{G}_1}(x) \overset{\simeq}{\longrightarrow} Aut_{\mathcal{G}_2}(F_0(x))
-       \,.
-     $$
+1. $F$ is a [[weak homotopy equivalence]] (def. \ref{GroupoidWeakHomotopyEquivalence}).
 
 =--
 
