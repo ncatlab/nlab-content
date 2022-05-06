@@ -132,7 +132,7 @@ $$
      \text{doubly} \atop { \text{dimensionally reduced} \atop \text{fluxes} }
   }{
   \underbrace{
-    \mathbf{H}(X \;,\; [G,A]/G)
+    \mathbf{H}_{/\mathbf{B}G}(X \;,\; [G,A]/G)
   }
   }
 $$
