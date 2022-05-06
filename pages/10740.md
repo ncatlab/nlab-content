@@ -78,6 +78,8 @@ The original proof that the only maps of Hopf invariant one are the [[Hopf const
 
 * {#Adams60} [[Frank Adams]], _On the non-existence of elements of Hopf invariant one_, Ann. Math., Vol. 72, No. 1,  72 (1): 20&#8211;104, (1960) ([jstor:1970147](http://www.jstor.org/stable/1970147))
 
+* {#Adams66} [[John Adams]], Section 8 of: _On the groups $J(X)$ IV_, Topology 5: 21,(1966)   ([pdf](http://math.unice.fr/~cazanave/Gdt/ImJ/J-IV.pdf), <a href="https://doi.org/10.1016/0040-9383(66)90004-8">doi:10.1016/0040-9383(66)90004-8</a>)
+
 and made use of the [[classical Adams spectral sequence]]. 
 
 Review:
@@ -96,24 +98,25 @@ Another proof that instead uses [[topological K-theory]], [[Adams operations]] a
 
 * {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf), [doi:10.1093/qmath/17.1.31](https://doi.org/10.1093/qmath/17.1.31))
 
-This is reproduced/reviewed in:
+see also [Adams 66, Sections 7, 8](#Adams66).
+
+Review of the [[Hopf invariant one problem]] via [[Adams operations]] in [[topological K-theory]]:
 
 * {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], section 12 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 12 of: _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 * {#Hatcher} [[Allen Hatcher]], section 2.3 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+* [[Akhil Mathew]], _[K-Theory and the Hopf invariant](https://amathew.wordpress.com/2012/01/08/k-theory-and-the-hopf-invariant/)_, 2012
 
 * [[Gereon Quick]], _The Hopf invariant one problem via K-theory_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([pdf](https://ncatlab.org/nlab/files/QuickHopfInvariant.pdf))
 
 * [[Ulrich Pennig]], _[K-theory and the Hopf invariant](http://wwwmath.uni-muenster.de/reine/u/topos/lehre/SS2015/KTheorie-Hopf/Hopf_eng.html)_ 
 
-Review of this K-theoretic approach includes:
-
-* [[Akhil Mathew]], _[K-Theory and the Hopf invariant](https://amathew.wordpress.com/2012/01/08/k-theory-and-the-hopf-invariant/)_
+* [[Akhil Mathew]], _[K-Theory and the Hopf invariant](https://amathew.wordpress.com/2012/01/08/k-theory-and-the-hopf-invariant/)_, 2012
 
 * Ishan Banerjee, _The Hopf invariant one problem_, 2016 ([pdf](http://math.uchicago.edu/~may/REU2016/REUPapers/Banerjee.pdf))
 
