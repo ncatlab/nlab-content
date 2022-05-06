@@ -18,6 +18,7 @@ We keep these lists:
 * [[math archives]] -- links to archives of writings and video lectures in areas of relevance to the $n$lab (including physics, philosophy)
 * [[math resources by individuals]] -- links to math resource webpages of individuals in areas of importance to the $n$lab
 * [[list of mathematics software]]
+* [[lists of journals]]
 
 Some other lists are:
 
