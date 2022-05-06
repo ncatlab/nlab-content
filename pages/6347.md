@@ -58,11 +58,19 @@ A more detailed analysis of these type II anomalies is in ([DFMI](#DFMI)) and ([
 
 * [[intersecting D-brane models]]
 
-### Relation to M-theory
+### Dualities
 
-* [[duality between M-theory and type IIA string theory]]
+Some [[dualities in string theory]] involving [[type II string theory]]:
 
-### F-theory description
+#### Duality with heterotic string theory
+
+See _[[duality between type II and heterotic string theory]]_.
+
+#### Duality with M-theory
+
+See _[[duality between type IIA string theory and M-theory]]_.
+
+#### Duality with F-theory 
 
 See _[[F-theory]]_.
 
@@ -163,7 +171,7 @@ An exposition is at
 
 Description of type II backgrounds in terms of [[generalized complex geometry]]/[[Courant Lie 2-algebroids]] is in 
 
-* Mariana Grana, Francesco Orsi, _N=1 vacua in Exceptional Generalized Geometry_ ([arXiv:1105.4855](http://arxiv.org/abs/1105.4855))
+* [[Mariana Grana]], Francesco Orsi, _$N=1$ vacua in Exceptional Generalized Geometry_ ([arXiv:1105.4855](http://arxiv.org/abs/1105.4855))
 
 ### Holography
 
