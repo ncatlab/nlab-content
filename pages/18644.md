@@ -75,6 +75,7 @@ Discussion from the point of view of [[causal perturbation theory]] / [[perturba
 
 * {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
 
+* {#Duch19} [[Paweł Duch]], _Infrared problem in perturbative quantum field theory_ ([arXiv:1906.00940](https://arxiv.org/abs/1906.00940))
 
 
 Further developments include
