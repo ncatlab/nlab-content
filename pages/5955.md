@@ -118,11 +118,16 @@ An ordinary [[vector bundle]] is a [[bundle]] of $k$-[[module]]s for $k$ some [[
 
 ## References
 
-An early account is
+The notion of homotopy module spectra ([[module objects]] in the [[stable homotopy category]]):
 
 * {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
-A comprehensive general discussion in terms of [[symmetric spectra]] is in
+Review:
+
+* [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]] -- [Homotopy ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra)_, 2016
+
+
+Discussion in terms of [[symmetric spectra]]:
 
 * {#Schwede12} [[Stefan Schwede]], chapter IV _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
