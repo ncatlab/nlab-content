@@ -43,6 +43,11 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 * [[Paul Aspinwall]], [[Tom Bridgeland]], Alastair Craw, [[Michael Douglas]], Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
 
+See also
+
+* [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_, talk at [PolchinskiFest 2014](http://online.kitp.ucsb.edu/online/joefest-c14/) ([pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf))
+
+* {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
 ## Mainstream physics monographs
  {#MainstreamPhysicsMonographs}
@@ -63,6 +68,7 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 * [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press 2006, 2007
 
+* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
 ### More advanced
 
