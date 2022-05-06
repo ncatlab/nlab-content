@@ -61,13 +61,29 @@ The original article is
 
 * {#Skyrme62} Tony Skyrme, _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
-Fruther developments and review:
+Further developments and review:
 
 * {#RhoZahed16} M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 See also
 
 * Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
+
+
+### Relation to instantons, calorons, solitons, monopoles
+
+The construction of Skyrmions from [[instantons]] is due to 
+
+* {#AtiyahManton89} [[Michael Atiyah]], N S Manton, _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+
+The relation between skyrmions, [[instantons]], [[calorons]], [[solitons]] and [[monopoles]] is usefully reviewed and further developed in 
+
+* {#Cork18a} [[Josh Cork]], _Calorons, symmetry, and the soliton trinity_, PhD thesis, University of Leeds 2018 ([web](http://etheses.whiterose.ac.uk/22097/))
+
+* {#Cork18b} [[Josh Cork]], _Skyrmions from calorons_, J. High Energ. Phys. (2018) 2018: 137 ([arXiv:1810.04143](https://arxiv.org/abs/1810.04143))
+
+
+
 
 ### In string theory
 
