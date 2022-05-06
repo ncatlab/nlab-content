@@ -84,17 +84,17 @@ For $\phi:k\to k'$ the ''base change'' functor $(-)\otimes_k k':co Psh(M_k)\to c
 
 Now we come to the definition of not necessarily affine k-schemes
 
-For a $k$-functor $X\in coPsh(M_k)$ and $E\subseteq O(X)=M_k(X,O_k)$ a set of functions on $X$, Definition in [[k-ring]], we define
+For a $k$-functor $X\in coPsh(M_k)$ and $E\subseteq O(X)$ a set of functions on $X$, we define
 
-$$V(E)(R):=\{x\in X(R) | f\in E, f(x)=0\}$$
+$$V(E)(R):=\{x\in X(R) |\forall f\in E, f(x)=0\}$$
 
 and
 
-$$D(E)(R):=\{x\in X(R)|f\in E, \text{the } \ f(x) \ \text{ generate the unit ideal of} R\}$$
+$$D(E)(R):=\{x\in X(R)|f\in E, \;\text{ the } \; f(x) \; \text{ generate the unit ideal of } \; R\}$$
 
 For a transformation $u:Y\to X$ of $k$-functors and $Z\subseteq X$ a subfunctor we define
 
-$$u^{-1}(Z)(U):=\{y\in Y(R)|u(Y)\in Z(R)\}$$
+$$u^{-1}(Z)(R):=\{y\in Y(R)|u(y)\in Z(R)\}$$
 
 A subfunctor $Y\subseteq X$ is called _open subfunctor_ resp. _closed subfunctor_ if for every transformation $u:T\to X$ we have $u^{-1}(Y)$ is of the form $V(E)$ resp. $D(E)$.
 
