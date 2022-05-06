@@ -37,7 +37,7 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 
 ### Top-down models
 
-A popular [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05). This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
+A popular [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05), see [Rebhan 14](#Rebhan14) for review. This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
@@ -80,6 +80,8 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * Joshua Erlich, _An Introduction to Holographic QCD for Nonspecialists_,  Contemporary Physics ([arXiv:1407.5002](https://arxiv.org/abs/1407.5002))
 
+* Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
+
 General approach:
 
 * Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
@@ -88,7 +90,15 @@ The top-down Sakai-Sugimoto model is due to
 
 * {#SakaiSugimoto04} Tadakatsu Sakai, Shigeki Sugimoto, _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
-* {#SakaiSugimoto05} Tadakatsu Sakai, Shigeki Sugimoto, _More on a holographic dual of QCD_,  	Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+* {#SakaiSugimoto05} Tadakatsu Sakai, Shigeki Sugimoto, _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+
+further developed in 
+
+* Lorenzo Bartolini, Stefano Bolognesi, Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
+
+reviewed in 
+
+* {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
 The bottom-up hard-wall model is due to
 
@@ -116,7 +126,11 @@ Original articles:
 
 * {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys.Rev.D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
 
+* Hiroyuki Hata, Tadakatsu Sakai, Shigeki Sugimoto, Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
+
 * Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
+
+* [[Koji Hashimoto]], Tadakatsu Sakai, Shigeki Sugimoto, _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog.Theor.Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
 
 * Thomas Gutsche, Valery E. Lyubovitskij, Ivan Schmidt, Alfredo Vega, _Nuclear physics in soft-wall AdS/QCD: Deuteron electromagnetic form factors_, Phys. Rev. D 91, 114001 (2015) ([arXiv:1501.02738](https://arxiv.org/abs/1501.02738))
 
@@ -131,6 +145,8 @@ Original articles:
 * Alfredo Vega, M. A. Martin Contreras, _Melting of scalar hadrons in an AdS/QCD model modified by a thermal dilaton_ ([arXiv:1808.09096](https://arxiv.org/abs/1808.09096))
 
 * Meng Lv, Danning Li, Song He, _Pion condensation in a soft-wall AdS/QCD model_ ([arXiv:1811.03828](https://arxiv.org/abs/1811.03828))
+
+* Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
 
 ### Application to glueball physics
 
