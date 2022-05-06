@@ -32,9 +32,11 @@ Interpretation as [[Skyrmion]]/[[baryon current]]:
 * {#RhoEtAl16} [[Mannque Rho]] et al., _Introduction_, In: [[Mannque Rho]] et al. (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 
-Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]]:
+Concrete form for $N$-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 2d:
 
 * C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopv Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
+
+Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d:
 
 
 * {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
