@@ -203,7 +203,7 @@ A discussion of representable functors in the context of enriched category theor
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
-A query discussion on differences between representable functor and representation of a functor is archived [here](http://nforum.mathforge.org/discussion/4497/representable-functor/?Focus=36753#Comment_36753).
+A query discussion on differences between representable functor and representation of a functor is archived [here](https://nforum.ncatlab.org/discussion/4497/representable-functor/).
 
 
 [[!redirects representable functor]]
