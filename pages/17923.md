@@ -25,11 +25,7 @@
 
 The _rank_ of a [[Lie group]] is the [[dimension]] of any one of its [[Cartan subgroups]], hence equivalently the dimension of any one of the [[Cartan subalgebras]] of its [[Lie algebra]].
 
-## Properties
-
-### For compact connected Lie groups
-
-For [[connected topological space|connected]] [[compact Lie groups]] then a Cartan subgroup is a [[maximal torus]] and hence in this case the rank of the Lie group is the dimension of any one of its maximal tori.
+For [[connected topological space|connected]] [[compact Lie groups]], a Cartan subgroup is a [[maximal torus]], and hence in this case the rank of the Lie group is the dimension of any one of its maximal tori.
 
 ## Related concepts
 
