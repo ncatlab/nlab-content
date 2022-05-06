@@ -88,12 +88,16 @@ $$
 
 This is due to [Bar-Natan 95, Theorem 6](#BarNatan95). See also [Chmutov-Duzhin-Mostovoy 11, 5.3](#ChmutovDuzhinMostovoy11)
 
+> graphics from [Sati-Schreiber 19]()
+
+
 The key step of the **proof** is to observe that the [[STU-relations]] imply the [[4T-relations]] as follows:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/STURelationImplies4TRelation.jpg" width="350">
 </center>
 
+> graphics from [Sati-Schreiber 19]()
 
 ## Application
 
