@@ -15,7 +15,7 @@ $$
 
 The cotangent is the [[logarithmic derivative]] of the [[sine function]]: 
 
-$$\cot x = (\log \sin x)'.$$ 
+$$\cot x = (\log (\sin x))'.$$ 
 
 Applying this observation to the Euler-Weierstrass product formula for the sine: 
 
@@ -43,3 +43,4 @@ This expansion was used by Eisenstein as a starting point for developing the the
 [[!redirects cotangent functions]]
 [[!redirects cotan]] 
 [[!redirects cot]]
+[[!redirects cotangent]]
