@@ -94,9 +94,14 @@ Principles singling out heterotic models with three generations of fundamental p
 
 * [[Philip Candelas]], [[Xenia de la Ossa]], [[Yang-Hui He]], Balazs Szendroi, _Triadophilia: A Special Corner in the Landscape_, Adv.Theor.Math.Phys.12:2,2008 ([arXiv:0706.3134](http://arxiv.org/abs/0706.3134))
 
-See also 
+Discussion of non-[[supersymmetry|supersymmetric]]: [[GUT]] models:
 
-* Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
+* Alon E. Faraggi, Viktor G. Matyas, Benjamin Percival, _Classification of Non-Supersymmetric Pati-Salam Heterotic String Models_ ([arXiv:2011.04113](https://arxiv.org/abs/2011.04113))
+
+
+
+See also:
+
 
 * {#AngelantonjFlorakis18} Carlo Angelantonj, Ioannis Florakis, _GUT Scale Unification in Heterotic Strings_ ([arXiv:1812.06915](https://arxiv.org/abs/1812.06915))
 
@@ -117,6 +122,10 @@ Discussion of [[string phenomenology]] for the [[SemiSpin(32)]]-[[heterotic stri
 * {#Yamatsu17} Naoki Yamatsu, _String-Inspired Special Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2017, Issue 10, 1  ([arXiv:1708.02078](https://arxiv.org/abs/1708.02078), [doi:10.1093/ptep/ptx135](https://doi.org/10.1093/ptep/ptx135))
 
 * Jihn E. Kim, _Grand unfication models from $SO(32)$ heterotic string_ ([arXov:2008.00367](https://arxiv.org/abs/2008.00367))
+
+On [[heterotic line bundle models]]:
+
+* Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
 
 
 
