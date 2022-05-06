@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,23 +25,26 @@ Complex projective 3-space $\mathbb{C}P^3$ is the [[complex projective space]] $
 
 Complex projective space has the following [[coset space]]-realizations:
 
-$$
-  \mathbb{C}P^3
-  \;\simeq\;
-  SO(5)/U(2)
-$$
+* [[special orthogonal group]] in dimension 5 quotiented by [[unitary group]] in complex dimension 2:
 
-([[special orthogonal group]] in dimension 5 by [[unitary group]] in complex dimension 2) 
+  $$
+    \mathbb{C}P^3
+    \;\simeq\;
+    SO(5)/U(2)
+  $$
+ 
+* [[Sp(2)]] quotiented by [[Sp(1)]] [[direct product group|times]] [[circle group]]:
 
-$$
-  \mathbb{C}P^3
-  \;\simeq\;
-  Sp(2)/U(1)\times SU(2)
-$$
+  $$
+    \mathbb{C}P^3
+    \;\simeq\;
+    Sp(2)/
+    \big(
+      Sp(1)_L \times \mathrm{U}(1)_R
+    \big)
+  $$
 
-([[Sp(2)]] by [[circle group]] [[direct product group|times]] [[SU(2)]])
-
-(e.g. [Zandi 88, 7](#Zandi88) [Butruille 06, p. 2](#Butruille06))
+  (e.g. [Zandi 88, 7](#Zandi88), [Butruille 06, p. 2](#Butruille06))
 
 
 ### Calabi-Penrose fibration
