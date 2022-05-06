@@ -30,7 +30,7 @@ Traditionally RR-tadpole cancellation is discussed in [[ordinary cohomology]], t
 
 Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
 
-But the situation seems to remain somewhat inconclusive.
+But the situation seems to remain somewhat inconclusive (see also [Moore 14, p. 21-22](#Moore14)).
 
 ## For fractional D-branes at orbifold singularities
  {#ForFractionalDBranes}
@@ -125,6 +125,11 @@ $$
 
 ### Examples
 
+We discuss the solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for various [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]].
+
+For these groups, by [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that's where we solve it.
+
+
 #### At a $2 D_4$-orientifold singularity
  {#At2d4Singularity}
 
@@ -139,9 +144,7 @@ For $G = 2 D_4 = Q_8$ the [[binary dihedral group]] of [[order of a group|order]
 | $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | 
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | 
 
-By [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
-
-One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
 
 $$
   V 
@@ -191,9 +194,7 @@ For $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\v
 | $\chi_{V_4} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ |
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}2$ |
 
-By [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
-
-One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
 
 $$
   V 
@@ -248,7 +249,7 @@ $$
 For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_8\vert} = 16$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.3](#BurtonSatiSchreiber18))
 
 
-| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_5\rangle\right]$ |
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |
 |--|--|--|--|--|--|--|--|
 | $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |$\phantom{-}1$ |
 | $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $\phantom{-}1$ | $-1$ | $-1$ |
@@ -257,9 +258,6 @@ For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\v
 | $\chi_{V_5} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
 | $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
 
-
-
-By [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
 
 One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_8$ is
 
@@ -315,6 +313,73 @@ $$
 
 
 
+#### At a $2 T$-orientifold singularity
+  {#At2TSingularity}
+
+For $G = 2 T$ the [[binary tetrahedral group]], the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.8](#BurtonSatiSchreiber18))
+
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ |
+|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |$\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-1$ | $-1$ |  $\phantom{-}2$ | $-1$ | $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}3$ |  $\phantom{-}3$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $-1$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_4} =$ | $\phantom{-}4$ |  $-4$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}0$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $-2$ |  $\phantom{-}0$ | $\phantom{-}2$ | $\phantom{-}2$ |
+
+
+One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2T$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1
+    + 
+    1 \cdot V_2
+    + 
+    3 \cdot V_3
+    + 
+    2 \cdot V_4
+    + 
+    1 \cdot V_5 
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+
+whose minimal [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    dim(V) 
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+        1 \cdot 1
+        + 
+        1 \cdot 2
+        + 
+        3 \cdot 3
+        + 
+        2 \cdot 4
+        + 
+        1 \cdot 4
+      & 
+      \\
+      & 
+      =
+      24
+  \end{aligned}
+$$
+
+
+
 ## References
 
 The issue was first highlighted in
@@ -329,7 +394,6 @@ Details are in
 
 * {#Witten12} [[Edward Witten]], section 9.3 of _Superstring Perturbation Theory Revisited_ ([arXiv:1209.5461](https://arxiv.org/abs/1209.5461))
 
-
 Textbook accounts include
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
@@ -341,6 +405,10 @@ Quick illustrations include:
 
 
 * [slide 18 here](http://www2.kek.jp/theory-center/project/string2higgsflavor/wp-content/uploads/2016/08/part-2.pdf)
+
+Critical outlook in
+
+* {#Moore14} [[Gregory Moore]] p. 21-22 of _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
 
 
