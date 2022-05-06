@@ -21,7 +21,7 @@
 As a model for an [[(∞,1)-category]] a [[simplicially enriched category]] may be thought of as a [[semi-strict infinity-category|semi-strictification]] of a [[quasi-category]]: composition along 0-cells is strictly associative and unital.
 
 The [[quasi-category]] corresponding to a simplicial category $C$ is its
-[[homotopy coherent nerve]] $N$
+[[derived functor|derived]] [[homotopy coherent nerve]] $N$
 
 $$
   sSet Cat \stackrel{\overset{|-|}{\leftarrow}}{\underset{N}{\to}} sSet
@@ -32,11 +32,13 @@ $$
 
 ### Via homotopy coherent nerve
 
-For $C$ any [[SSet]]-[[enriched category]], the canonical morphism
+For $C$ an (fibrant, probably) [[SSet]]-[[enriched category]], the canonical morphism
 
   $$ 
     |N(C)| \to C
   $$
+
+  (or possibly rather the [[derived adjunction counit]])
 
   is an equivalence in that it is essentially surjective on the underlying homotopy categories and a weak equivalence of simplicial sets hom-wise (...details/links...)
 
@@ -63,7 +65,7 @@ On the latter the $\bar W$-functor is defined as the composite
 
 $$
   \bar W 
-   :
+   \colon
   Cat^\Delta
    \stackrel{N^\Delta}{\to}
   sSet^\Delta
