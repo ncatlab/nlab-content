@@ -28,7 +28,7 @@ $$ \array {
 } $$
 commutes.  We say that $f$ __preserves__ the operations.
 
-It is fairly straightforward to define a model (and homomorphisms) in any [[cartesian monoidal category]] $C$, replacing [[Set]] in the two paragraphs above.  But note that the operations and axioms still form sets, not objects of $C$; the theory $T$ is independent of the modelling category.  In any case, given any theory $T$ and any cartesian monoidal category $C$, the models of $T$ in $C$ (as [[objects]]) and the homomorphisms between them (as [[morphisms]]) for a [[category]], which is the the __variety of $T$-algebras in $C$__.
+It is fairly straightforward to define a model (and homomorphisms) in any [[cartesian monoidal category]] $C$, replacing [[Set]] in the two paragraphs above.  But note that the operations and axioms still form sets, not objects of $C$; the theory $T$ is independent of the modelling category.  In any case, given any theory $T$ and any cartesian monoidal category $C$, the models of $T$ in $C$ (as [[objects]]) and the homomorphisms between them (as [[morphisms]]) form a [[category]], which is the the __variety of $T$-algebras in $C$__.
 
 
 ## Generalisations
