@@ -1,4 +1,3 @@
-
 * [personal website](http://andreghenriques.com/)
 
 * [university website](https://www.maths.ox.ac.uk/people/andre.henriques)
