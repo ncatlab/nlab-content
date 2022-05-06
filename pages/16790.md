@@ -384,6 +384,8 @@ $$
 
 and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as indeed that of the [[ADE classification|A-type]] $\mathbb{Z}_N$-action ([Asano 00, around (18)](#Asano00)).
 
+[[!include KK-monopole geometries -- table]]
+
 
 
 ## Related concepts
