@@ -106,8 +106,7 @@ The incarnation of $KU$ and $KO$ as a [[symmetric spectrum]] is discussed in
 
 and the structure of a [[symmetric ring spectrum]] on $KO$ is discussed in
 
-* {#Joachim01} [[Michael Joachim]], _A symmetric ring spectrum representing
-$KO$-theory_, Topology 40 (2001) 299-308
+* {#Joachim01} [[Michael Joachim]], _A symmetric ring spectrum representing $KO$-theory_, Topology 40 (2001) 299-308
 
 The structure of a homotopy [[ring spectrum]] on $KU$ is discussed in 
 
