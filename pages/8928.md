@@ -72,12 +72,14 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 ## References
  {#References}
 
-### Introductions and Review
+A careful non-technical exposition is in
 
 * Sebastian De Haro, Jeroen van Dongen, Manus Visser, [[Jeremy Butterfield]], _Conceptual Analysis of Black Hole Entropy in String Theory_ ([arXiv:1904.03232](https://arxiv.org/abs/1904.03232))
 
 * Jeroen van Dongen, Sebastian De Haro, Manus Visser, [[Jeremy Butterfield]], _Emergence and Correspondence for String Theory Black Holes_ ([arXiv:1904.03234](https://arxiv.org/abs/1904.03234))
 
+
+### Introductions and Review
 
 * [[Juan Maldacena]], _Black Holes in String Theory_, PhD thesis 1996 ([arXiv:hep-th/9607235](http://arxiv.org/abs/hep-th/9607235))
 
