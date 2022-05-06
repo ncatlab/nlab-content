@@ -156,6 +156,21 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 [[!include generalized uniform structures - table]]
 
+### A semigroup related to metric spaces
+
+Let us call _most general nonnegative real metrics_ (MGNRM) the precategory of all extended nonnegative ($\mathbb{R}_{+}\cup\{+\infty\}$) real functions (on some fixed set) of two arguments and the "composition" operation
+\[ (\sigma\circ\rho)(x,z) = \inf_{y\in\mho}(\rho(x,y)+\sigma(z,y)) \]
+and _most general nonnegative real metric_ an element of this precategory.
+
+So metric spaces are elements of a certain precategory (or a semgroup, if we limit to a fixed set).
+
+Furthermore, every binary relation can be represented as a distance that equals to zero for related elements and $+\infty$ for non-related. So a function is a special case of a MGNRM.
+
+If we follow [[Victor Porton]]'s definition of generalized continuity, then generalized continuous functions for metric spaces are exactly [contractions](short+map).
+
+See [book](#Porton).
+
+
 ## References
 
 * Wikipedia, _[Metric space](https://en.wikipedia.org/wiki/Metric_space)_
@@ -166,6 +181,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 * {#Meng} [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
  
 
+* {#Porton} [[Victor Porton]], _[Algebraic General Topology: Book 3: Algebra](https://mathematics21.org/the-algebra-of-general-topology/)_
 
 
 [[!redirects metric space]]
