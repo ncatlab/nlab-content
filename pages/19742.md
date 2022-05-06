@@ -120,17 +120,9 @@ This is due to [Quillen 71](#Quillen71), [Čadek-Vanžura 95](#CadekVanzura95), 
 
 ## Related concepts
 
-* [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
+[[!include low dimensional rotation groups -- table]]
 
-* [[Spin(3)]]
-
-* [[Spin(4)]]
-
-* [[Spin(5)]]
-
-* [[Spin(6)]]
-
-* [[Spin(7)]]
+\linebreak
 
 ## References
 
