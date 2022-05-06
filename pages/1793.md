@@ -93,13 +93,18 @@ $Ch_{\bullet \geq 0 }(\mathcal{A})$ (in non-negative degree) whose
 
 * weak equivalences are [[quasi-isomorphisms]];
 
-* fibrations are the morphisms that are [[epimorphisms]] in $R$[[Mod]] in each _positive_ degree;
+* fibrations are the morphisms that are [[epimorphisms]] in $R$[[Mod]] in each _[[positive number|positive]]_ degree;
 
 * cofibrations are degreewise [[monomorphisms]] with degreewise [[projective object|projective]] [[cokernel]];
 
 called the **projective model structure**.
 
 =--
+
+The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
+([Quillen II, Section 4, pages II.4.11, II.4.12](#Quillen)).
+An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dungan)).
+
 
 ##### Injective structure on cochain complexes
  {#InjectiveStructureOnCochainComplexes}
@@ -121,9 +126,6 @@ called the **injective model structure**.
 
 =--
 
-The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
-([Quillen II, section 4](#Quillen)).
-An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dungan)).
 
 +-- {: .num_remark }
 ###### Remark
