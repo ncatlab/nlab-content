@@ -17,6 +17,12 @@ On [[holographic QCD]]:
 
 * {#AHI12} Sinya Aoki, [[Koji Hashimoto]], Norihiro Iizuka, _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
 
+On the [[DBI-action]] for [[flavor brane|flavor branes]] in [[holographic QCD]]:
+
+
+* [[Koji Hashimoto]], Takashi Oka, Akihiko Sonoda, _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
+
+
 On the analogy between [[AdS/CFT duality]] and [[deep learning]]:
 
 * {#HashimotoEtAl18} [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and Holographic QCD_, Phys. Rev. D 98, 106014 (2018) ([arXiv:1809.10536](https://arxiv.org/abs/1809.10536))
