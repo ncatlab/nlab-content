@@ -39,7 +39,7 @@ The original definition is due to [[Peter May]] and was given in his book ([The 
 
 This definition is essentially that of an [[enriched category]], only that the [[hom-object]]s are allowed to go from more than one object to a given output object.
 
-There is a more abstract way to encode all this simply as a [[monoid]] in a suitable ambient [[monoidal category]]. This more abstract definition we discuss below in [A detailed conceptual treatment](#Conceptual).
+There is a more abstract way to encode all this simply as a [[monoid in a monoidal category|monoid]] in a suitable ambient [[monoidal category]]. This more abstract definition we discuss below in [A detailed conceptual treatment](#Conceptual).
 
 
 ### Plain operads {#PedestrianDefOperad}
@@ -278,7 +278,7 @@ and it is clear from our discussion above that substitution is a monoidal produc
 
 We are at last ready for the one-sentence **definition**: 
 
-A ($Set$-based) **operad** is a [[monoid]] in the [[monoidal category]] $(Psh(\mathbb{P}), \circ, I)$. 
+A ($Set$-based) **operad** is a [[monoid in a monoidal category|monoid]] in the [[monoidal category]] $(Psh(\mathbb{P}), \circ, I)$. 
 
 ### Remarks 
 
