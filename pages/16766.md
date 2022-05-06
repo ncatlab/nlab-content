@@ -23,9 +23,9 @@
 
 A degree-$p$ _calibration_ of an oriented [[Riemannian manifold]] $(X,g)$ is a [[differential p-form]] $\omega \in \Omega^p(X)$ with the property that 
 
-1. it is closed $d \omega = 0$;
+1. it is [[closed differential form|closed]] $d \omega = 0$;
 
-1. evaluated on any oriented $p$-dimensional subspace of any [[tangent space]] of $X$, it is less than or equal to the induced degree-$p$ [[volume form]], with equality for at least one choice of subspace.
+1. evaluated on any oriented $p$-dimensional subspace of any [[tangent space]] of $X$, it is less than or equal to the induced degree-$p$ [[volume form]], with [[equality]] for at least one choice of subspace.
 
 A Riemannian manifold equipped with such a calibration is also called a _calibrated geometry_ ([Harvey-Lawson 82](#HarveyLawson82)) or similar.
 
@@ -84,6 +84,8 @@ More generally for $X$ an $n$-dimensional [[Riemannian manifold]] with a [[covar
 ## Examples
 
 * The globalization of the [[associative 3-form]] of a [[G2-manifold]] is a calibration. A calibrated submanifold in this case is also called an [[associative submanifold]].
+
+* The [[Cayley 4-form]] on [[Spin(7)-manifolds]].
 
 ## References
 
