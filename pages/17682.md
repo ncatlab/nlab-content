@@ -18,6 +18,7 @@ In an overview paper [Asudeh](#Asudeh), it is proposed that the following topics
 ## Related concepts
 
 * [[monad (in computer science)]]
+* [[dependent type theoretic methods in natural language semantics]]
 
 ##References
 
