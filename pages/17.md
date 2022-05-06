@@ -314,21 +314,21 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 When you create a section header, you can add an HTML anchor tag to it with the following syntax:
 
-     ## Heading {#anchorname}
+     <nowiki>## Heading {#anchorname}</nowiki>
 
 __Note that the tag must be placed at the end.__ Then you can make a link to it using the syntax:
 
-     [[some page#anchorname|link text]]
+     <nowiki>[[some page#anchorname|link text]]</nowiki>
 
 If the link is to the same page then the page name can be omitted by using the syntax:
 
-     [link text](#anchorname)
+     <nowiki>[link text](#anchorname)</nowiki>
 
 __Note that a single bracket link with only an anchor doesn't function correctly when viewing a particular revision or a difference between revisions.__
 
 {#strange}Strangely single bracket link texts allow math expressions while double bracket texts don't. For example
 
-    [$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos). 
+    <nowiki>[$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos).</nowiki>
 
 produces
 
