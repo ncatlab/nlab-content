@@ -106,6 +106,8 @@ Review includes
 
 * [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev. Mod. Phys. 73:419-462, 2001 ([arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126))
 
+* {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+
 A review of further developments is in 
 
 * [[David Berenstein]], _Classical dynamics and thermalization in holographic matrix models_, talk at Leiden, October 2012 ([pdf](http://www.lorentzcenter.nl/lc/web/2012/514/presentations/Berenstein.pdf))
