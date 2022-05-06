@@ -97,7 +97,7 @@ The algebra diagrams
 
 say equivalently that for all $a\in A$ and $m,n\in M$,
  $$
- 1\cdot a= a, \qquad (mn)\cdot a = m\cdot (n\cdot a) .
+ 1\cdot a= a, \qquad (m n)\cdot a = m\cdot (n\cdot a) .
  $$
 
  In other words, a $T_M$-algebra is exactly a set equipped with an $M$-[[action]] in the traditional group-theoretical sense.
