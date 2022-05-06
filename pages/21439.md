@@ -4,7 +4,7 @@
 
 ## Idea
 
-Given a [[coherent space]], $X$, a new topology may be constructed by taking as basic open subsets the closed sets of $X$ with [[quasicompact]] complements. This space $X^{\vee}$ is called the _Hochster dual_ of $X$. $X^{\vee}$ is also coherent and $X^{\vee \vee} = X$. 
+Given a [[coherent space]], $X$, a new topology may be constructed by taking as [[topological base|basic open subsets]] the closed sets of $X$ with [[quasicompact]] complements. This space $X^{\vee}$ is called the _Hochster dual_ of $X$. The space $X^{\vee}$ is also coherent and $X^{\vee \vee} = X$. 
 
 ## References
 
