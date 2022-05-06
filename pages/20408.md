@@ -53,8 +53,11 @@
 
   * [[AdS-QCD correspondence]]
 
-
 * [[Chern-Simons theory as topological string theory]]
+
+* [[classical double copy]] (relating [[gravity]], [[Kalb-Ramond field]] and [[dilaton]] to [[gauge theory]])
+
+  (an [[open/closed string duality]])
 
 **QFT-QFT duality**:
 
