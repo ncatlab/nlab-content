@@ -24,6 +24,10 @@ The _Chen-Ruan cohomology_ ([Chen-Ruan 00](#ChenRuan00)) of an [[orbifold]] $\ma
 
 Chen-Ruan cohomology is motivated from the role that [[orbifolds]] play as [[target spaces]] in [[perturbative string theory]], as in the algebraic operation of orbifolds [[2d CFTs]].
 
+## Related concepts
+
+* [[orbifold K-theory]]
+
 ## References
 
 ### General
@@ -34,10 +38,10 @@ The concept originates in:
 
 Review:
 
- {#ALR07} A. Adem, J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 
 [[!include traditional orbifold cohomology -- references]]
 
 
-[[!redirects Chen-Ruan orbifold cohomology]]]
+[[!redirects Chen-Ruan orbifold cohomology]]
