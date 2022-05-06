@@ -102,6 +102,8 @@ which is required to satisfy the following axioms.
 
 * $U([X,Y]) = C(X,Y)$ strictly and naturally, i.e. $U \circ [-,-] = C(-,-)$ as functors $C^{op}\times C\to Set$.  (Note that this can be phrased in accord with the [[principle of equivalence]] by considering $U : C \to Set$ as a [[displayed category]] over $Set$.)
 
+* For any $x\in U(X)$ and $f\in C(X,Y) = U([X,Y])$ we have $U(ev_x)(f) = U(f)(x)$ in $U(Y)$.
+
 * For any $X,Y\in C$ we have $U(L^X_{Y Y})(1_Y) = 1_{[X,Y]}$.  (Note that $L^X_{Y Y} : [X,X] \to [ [X,Y],[X,Y]]$, so $U(L^X_{Y Y})(1_Y) : C(X,X) \to C([X,Y],[X,Y])$.)
 
 * For any $X,Y\in C$ the composite $[X,Y] \xrightarrow{L^X_{X Y}} [ [X,X],[X,Y]] \xrightarrow{ev_{1_X}} [X,Y]$ is the identity.
