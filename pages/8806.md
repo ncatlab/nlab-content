@@ -53,6 +53,8 @@ See at _[[Koszul-Malgrange theorem]]_.
 
 * [[real vector bundle]]
 
+* [[quaternionic vector bundle]]
+
 ## References
 
 * Emery Thomas, _Complex structures on real vector bundles_ ([JSTOR]( http://www.jstor.org/stable/2373409))
