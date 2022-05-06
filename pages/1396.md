@@ -28,6 +28,8 @@ The __identity functor__ on a [[category]] $C$ is the [[functor]] $id_C: C \to C
 
 * [[inverse functor]]
 
+* [[identity natural transformation]]
+
 * [[Goodwillie derivatives of the identity functor]]
 
 
