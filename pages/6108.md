@@ -68,7 +68,7 @@ A [[brane]] for a LG model is given by a [[matrix factorization]] of its superpo
 
 Original articles are
 
-* [[Cumrun Vafa]] Nicholas P. Warner, _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51
+* {#VafaWarner89} [[Cumrun Vafa]], [[Nicholas Warner]], _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51 (<a href="https://doi.org/10.1016/0370-2693(89)90473-5">doi:10.1016/0370-2693(89)90473-5</a>)
 
 * [[Brian Greene]], [[Cumrun Vafa]], _Calabi-Yau Manifolds and Renormalization Group Flows_, Nucl.Phys. B324 (1989) 371
 
