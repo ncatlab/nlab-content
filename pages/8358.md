@@ -31,19 +31,23 @@ The input datum for forming a realizability topos is a [[partial combinatory alg
 
 ## Constructions 
 
-There are a number of approaches toward constructing realizability toposes. One is through [[tripos]] theory, and another is through assemblies. 
+There are a number of approaches toward constructing realizability toposes. One is through [[tripos]] theory, and another is through assemblies (actually the latter is a family of related approaches).
+
+Let $A$ be a [[partial combinatory algebra|PCA]] --- in [[Set]], for simplicity, but similar constructions usually work over other base toposes.
 
 
 ### Via tripos theory 
 
-See [[tripos]].
+There is a [[tripos]] whose base category is $Set$ and for which the preorder $P_A(X)$ of $X$-indexed predicates is the set $P(A)^X$ of functions from $X$ to the [[powerset]] $P(A)$ of $A$.  The order relation sets $\phi \le \psi$ if there exists $a\in A$ such that $b\in \phi(x)$ implies $a\cdot b \in \psi(x)$ for all $x$; note that $a$ must be chosen uniformly across all $x\in X$.
+
+Applying the tripos-to-topos construction to this tripos produces the realizability topos over $A$.  See [[tripos]] for details.
 
 
 ### Via assemblies 
 
 +-- {: .num_defn} 
 ###### Definition 
-Let $A$ be a [[partial combinatory algebra|PCA]]. An ($A$-)**partitioned assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to A$. A **morphism** $X \to Y$ between partitioned assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that $a[x]_X$ is defined for all $x \in X$ and $a[x]_X = [f(x)]_Y$. The category of partitioned assemblies is denoted $Pass_A$. 
+ An ($A$-)**partitioned assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to A$. A **morphism** $X \to Y$ between partitioned assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that $a[x]_X$ is defined for all $x \in X$ and $a[x]_X = [f(x)]_Y$. The category of partitioned assemblies is denoted $Pass_A$. 
 =-- 
 
 +-- {: .num_prop} 
