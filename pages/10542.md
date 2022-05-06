@@ -513,6 +513,10 @@ under the lift through (eq:IdentifyingU1SU2inSU3).
 
 \end{proof}
 
+## Related concepts
+
+* [[Kantor-Koecher-Tits construction]] $\rightarrow$ [[E7]]
+
 
 ## References
 
