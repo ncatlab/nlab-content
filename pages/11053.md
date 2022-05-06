@@ -77,3 +77,7 @@ An alternate exposition of the theory, using the presentations by [[model catego
 An exposition in the style of To&#235;n-Vezzosi but in the language of [[(infinity,1)-categories]] can be found in
 
 * [[Mauro Porta]], Tony Yue Yu, _Higher analytic stacks and GAGA theorems_, [arXiv:1412.5166](http://arxiv.org/abs/1412.5166).
+
+For an extension of homotopical algebraic geometry from $\infty$-stacks valued in $Spc$ to those valued in augmentation categories, a special class of [[generalized Reedy categories]], see.
+
+* Scott Balchin, _Augmented Homotopical Algebraic Geometry_, ([arXiv:1711.02640](https://arxiv.org/abs/1711.02640))
