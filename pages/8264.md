@@ -136,6 +136,9 @@ See _[[ekpyrotic cosmology]]_.
 
 * {#PlanckCollaboration15} [[Planck Collaboration]], _Planck 2015, Overview of results_ ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_I_Overview_Products_Results.pdf/14d90465-03c2-4e3c-b8d1-73181248673d))
 
+* Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arxiv:1902.03951](https://arxiv.org/abs/1902.03951))
+
+
 ### Inflation from higher curvature corrections
 
 Besides the references at _[[Starobinsky model of cosmic inflation]]_ the following discuss inflation driven by [[higher curvature corrections]]:
