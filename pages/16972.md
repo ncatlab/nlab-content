@@ -256,7 +256,7 @@ See also at _[[equivariant stable cohomotopy]]_
 
 ## References
 
-* {#GluckWarnerZiller86} Herman Gluck, Frank Warner, Wolfgang Ziller, _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198
+* {#GluckWarnerZiller86} Herman Gluck, Frank Warner, Wolfgang Ziller, _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198 ([ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations))
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of 
 $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
