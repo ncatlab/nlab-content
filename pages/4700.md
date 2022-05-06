@@ -1821,6 +1821,14 @@ More:
 
 * {#KoroshkinWillwacherZivkovic14} Anton Khoroshkin, [[Thomas Willwacher]], Marko Živković, _Differentials on graph complexes_ ([arXiv:1411.2369](https://arxiv.org/abs/1411.2369))
 
+### More
+
+In relation to [[Feynman rules]]:
+
+* Marko Berghoff, [[Dirk Kreimer]], _Graph complexes and Feynman rules_ ([arXiv:2008.09540](https://arxiv.org/abs/2008.09540))
+
+
+
 
 [[!redirects graph complexes]]
 
