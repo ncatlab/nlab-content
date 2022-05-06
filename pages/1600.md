@@ -85,7 +85,7 @@ Yet another description is due to
 
 * {#Koerschgen16} Alexander Körschgen, _A Comparison of two Models of Orbispaces_, Homology, Homotopy and Applications, vol. 20(1), 2018, pp.329--358 ([arXiv:1612.04267](https://arxiv.org/abs/1612.04267))
 
-* {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) 
+* {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_, Mathematische Zeitschrift 294 (2020), 71-107 ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
 The relation between the two versions (arbitrary group homomorphisms or subgroup inclusions) is discussed in
 
