@@ -512,7 +512,16 @@ under the lift through (eq:IdentifyingU1SU2inSU3).
 
 ## References
 
+The original article is
+
 * {#Albert} [[Abraham Adrian Albert]], _On a Certain Algebra of Quantum Mechanics_, Annals of Mathematics, Second Series 35 (1): 65&#8211;73, (1934)(doi:[10.2307/1968118](http://dx.doi.org/10.2307/1968118), [JSTOR](https://www.jstor.org/stable/1968118)).
+
+A textbook account is in 
+
+
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
+Further discussion:
 
 * {#Baez02} [[John Baez]], [section 3.4](http://math.ucr.edu/home/baez/octonions/node12.html) _$\mathbb{O}P^2$ and the Exceptional Jordan Algebra_ of _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
 
