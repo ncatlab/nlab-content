@@ -39,11 +39,11 @@ For formalizations see at
 
 ## References
 
-* [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_ in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
+* [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
 
 A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
 
-* {#MaySigurdsson06} [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_, 2006
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_, 2006
   
 A formulation of aspects of this in [[(∞,1)-category theory]] is in 
 
@@ -59,3 +59,4 @@ Discussion of convenient [[model category]] [[presentable (infinity,1)-category|
 [[!redirects parameterized stable homotopy theory]]
 [[!redirects parametrized homotopy theory]]
 [[!redirects parametrised stable homotopy theory]]
+[[!redirects parametrized stable homotopy theory]]
