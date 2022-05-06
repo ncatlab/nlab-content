@@ -18,9 +18,15 @@
 
 * [[glueballs]] are bound states of [[gluons]]
 
-* [[hadrons]] are bound states of [[quarks]]
+* [[mesons]] are bound states of two [[quarks]]
+
+  * [[kaons]] ate [[bound states]] of a [[strange quark]] with an [[up quark|up-]] or [[down quark|down-]] ([[antiparticle|anti-]])[[quark]]
+
+* [[hadrons]] are bound states of three [[quarks]]
 
   (at temperature high enough that these bound states decay, one speaks of a _[[quark-gluon plasma]]_)
+
+
 
 * [[atomic nuclei]] are bound states of certain [[hadrons]], namely of [[protons]] and [[neutrons]] ([[nucleons]])
 
