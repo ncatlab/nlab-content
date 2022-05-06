@@ -39,6 +39,12 @@ Theoretically, the observer outside an event horizon will observe [[Bekenstein-H
 
 ## References
 
+
+Resolved image of the direct vicinity of the [[event horizon]] of the [[black hole]] in the center of the [[galaxy]] [[Messier 87]]:
+
+* {#EHT19} [[Event Horizon Telescope Collaboration]], _First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole_,  The Astrophysical Journal Letters, Volume 875, Number 1, 2019 ([doi:10.3847/2041-8213/ab0ec7](https://iopscience.iop.org/article/10.3847/2041-8213/ab0ec7))
+
+
 Discussion of event horizons of [[black holes]] in terms of [[AdS/CFT]] is in
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
