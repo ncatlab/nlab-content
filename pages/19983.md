@@ -22,6 +22,8 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[Wolfgang Lueck]], _Assembly Maps_ ([arXiv:1805.00226](https://arxiv.org/abs/1805.00226))
 
+* [[Mark Behrens]], _Topological modular and automorphic forms_ ([arXiv:1901.07990](https://arxiv.org/abs/1901.07990))
+
 * ...
 
 ## Related entries
