@@ -59,6 +59,8 @@ We can take these conditions a and b to define, respectively, the notions of [[c
 
 * [[comparison lemma]]
 
+* [[dense subsite]]
+
 ## References
 
 * [[Marc Hoyois]], _A quadratic refinement of the Grothendieck-Lefschetz-Verdier trace formula_. [arXiv:1309.6147](https://arxiv.org/abs/1309.6147)
