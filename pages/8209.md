@@ -86,6 +86,7 @@ Realization of the quark-gluon plasma at the [[RHIC]] [[experiment]] has tentati
 
 
 ### Description via AdS/CFT
+ {#ReferencesViaAdSCFT}
 
 Description via [[AdS/CFT]] (see at [[string theory results applied elsewhere]]):
 
