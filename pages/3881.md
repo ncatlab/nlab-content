@@ -5,7 +5,11 @@
 
 * [[homotopy BV-algebra]]
 
+##Selected writings
+
+* [[Jean-Louis Loday]] and Bruno Vallette, _Algebraic Operads_, Grundlehren der mathematischen Wissenschaften,
+Volume 346, Springer-Verlag (2012).
+
 
 category: people
 
-[[!redirects Bruno Valette]
