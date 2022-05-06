@@ -64,4 +64,7 @@ On [[model (in theoretical physics)|model building]] with realistic [[Yukawa cou
 [[!redirects family of fermions]]
 [[!redirects families of fermions]]
 
+[[!redirects first generation of fundamental particles]]
+[[!redirects second generation of fundamental particles]]
+
 
