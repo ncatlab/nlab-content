@@ -76,7 +76,7 @@ collecting survey articles on subjects in [[algebraic topology]]
 
 1. H-spaces with finiteness conditions (J.P. Lin).  
 
-1. Co-H-spaces (M. Arkowitz). 
+1. [[co-H-space|Co-H-spaces]] ([[Martin Arkowitz]]). 
 
 1. Fibration and product decompositions in nonstable homotopy theory (F.R. Cohen).
 
