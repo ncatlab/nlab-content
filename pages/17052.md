@@ -88,7 +88,7 @@ The concept was introduced in
 
 * {#HarringtonShepard77} Barry J. Harrington, Harvey K. Shepard, _Euclidean solutions and finite temperature gauge theory_, Nuclear Physics B Volume 124, Issue 4, 27 June 1977, Pages 409-412 (<a href="https://doi.org/10.1016/0550-3213(77)90413-8">doi:10.1016/0550-3213(77)90413-8</a>)
 
-* {#HarringtonShepard78} Barry J. Harrington, Harvey K. Shepard, _Periodic Euclidean solutions and the finite-temperature Yang-Mills gas_, Phys. Rev. D 17, 2122 &#8211; April 1978 ([publisher](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.17.2122))
+* {#HarringtonShepard78} Barry J. Harrington, Harvey K. Shepard, _Periodic Euclidean solutions and the finite-temperature Yang-Mills gas_, Phys. Rev. D 17, 2122 &#8211; April 1978 ([doi:10.1103/PhysRevD.17.2122](https://doi.org/10.1103/PhysRevD.17.2122))
 
 Further development includes
 
