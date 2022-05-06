@@ -297,6 +297,10 @@ For $\mathcal{C}$ an [[(∞,1)-category]], $X \;\colon\; \mathcal{D} \longrighta
 
 For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
 
+## Examples
+
+* [[pointed homotopy types]]
+
 
 ## Related concepts
 
@@ -369,3 +373,12 @@ Section 1.2.9 of
 [[!redirects slice (∞,1)-categories]]
 [[!redirects slice (infinity,1)-category]]
 [[!redirects slice (infinity,1)-categories]]
+
+[[!redirects coslice-(∞,1)-category]]
+[[!redirects coslice-(∞,1)-categories]]
+
+[[!redirects coslice (∞,1)-category]]
+[[!redirects coslice (∞,1)-categories]]
+[[!redirects coslice (infinity,1)-category]]
+[[!redirects coslice (infinity,1)-categories]]
+
