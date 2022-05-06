@@ -443,13 +443,21 @@ Closed string field theory has been argued to arise from the [[dynamics]] of [[W
 
 ### General
 
-* [[Leonardo Rastelli]], _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
 
-A textbook-like account is in
+Introduction and survey:
+
+* [[Leonardo Rastelli]], _String Field Theory_ in _Encyclopedia of Mathematical Physics_ ([arXiv:hep-th/0509129](http://arxiv.org/abs/hep-th/0509129))
 
 * W. Siegel, _Introduction to string field theory_ ([arXiv:hep-th/0107094](http://arxiv.org/abs/hep-th/0107094))
 
 * [[Ashoke Sen]], _String Field Theory as World-sheet UV Regulator_ ([arXiv:1902.00263](https://arxiv.org/abs/1902.00263))
+
+* {#Erbin20a} [[Harold Erbin]], _String Field Theory – A Modern Introduction_, 2020 ([pdf](http://www.lpthe.jussieu.fr/~erbin/files/reviews/book_string_theory.pdf))
+
+* {#Erbin20b} [[Harold Erbin]], _String theory: a field theory perspective_, 2020 ([pdf](http://www.lpthe.jussieu.fr/~erbin/files/reviews/string_theory.pdf))
+
+* [[Harold Erbin]], _[String Field Theory -- Website](http://string-field-theory.org/)_
+
 
 ### Bosonic string field theory
  {#ReferencesBosonicSFT}
