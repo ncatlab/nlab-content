@@ -134,7 +134,7 @@ In this generality, and under the name "generalized metric Lie 3-algebras", this
 
 ### Equivalence to metric Lie representations
 
-For the following, let the[[ground field]] be the [[real numbers]] and take all [[vector spaces]] involved to be [[real vector space|real]] and [[finite-dimensional vector spaces|finite-dimensional]].
+For the following, let the [[ground field]] be the [[real numbers]] and take all [[vector spaces]] involved to be [[real vector space|real]] and [[finite-dimensional vector spaces|finite-dimensional]].
 
 For definiteness, we make the following explicit:
 
@@ -202,7 +202,7 @@ this forming of adjuncts is equivalently the yoga of "raising and lowering of in
 
 \[
   \label{ComponentsOfMetricOng}
-  g_{a b} \;\coloneqq\; g(t_a, t_b)
+  g_{a b} \;\coloneqq\; g(t_a, t_b) \,.
 \]
 
 Specifically, given the basis component $(\rho_a{}^{i}{}_j)_{a,i,j}$ of the [[Lie algebra representation|Lie action]] $\mathfrak{g} \otimes V \overset{\rho}{\longrightarrow} V$, defined by
@@ -225,7 +225,7 @@ by contracting the original component (eq:ComponentsOfLieAction) with the compon
 
 \[
   \label{ComponentsOfAdjunctOfLieAction}
-  \tilde \rho^a{}_{i j})_{a,i,j}
+  (\tilde \rho^a{}_{i j})_{a,i,j}
   \;=\;
   g_{l j} k^{a b} \, \rho_b{}^l{}_i
 \]
