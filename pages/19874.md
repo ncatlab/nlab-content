@@ -194,6 +194,11 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
 
+* Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _Lessons from the $B^{0,+} \to B^{\ast, 0,+} \mu^+ \mu^-$ angular analysis_ ([arXiv:2011.01212](https://arxiv.org/abs/2011.01212))
+
+
+> In the Standard Model Effective Theory (SMEFT) [41, 42], the significance of NewPhysics from the global $b \to s \ell^+ \ell^-$ analysis increases with the inclusion of new data, reaching a maximum of almost 6σ for the simple hypothesis of a non-vanishing $[$[[leptoquark]] contribution$]$.
+
 
 
 and within [[Randall-Sundrum models]]
