@@ -70,7 +70,13 @@ Discussion in terms of [[topos theory]] is in
 * {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
 
 
+See also
+
+* Wikipedia, _[Tomita–Takesaki theory](https://en.wikipedia.org/wiki/Tomita%E2%80%93Takesaki_theory)_
+
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
+
 [[!redirects Tomita theory]]
 [[!redirects Tomita-Takesaki theory]]
+
