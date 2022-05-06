@@ -114,7 +114,7 @@ The original text is
 
 announced in
 
-* [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([Euclid](https://projecteuclid.org/euclid.bams/1183528794))
+* {#Bredon67} [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([educlid:1183528794](https://projecteuclid.org/euclid.bams/1183528794))
 
 Reviews include
 
@@ -149,4 +149,4 @@ For [[orbifolds]] there is a generalization of $K$-theory which is closely relat
 
 * Alejandro Adem, Yongbin Ruan, _Twisted Orbifold K-Theory_, Commun.Math.Phys. 237 (2003) 533-556, [doi:10.1007/s00220-003-0849-x](http://dx.doi.org/10.1007/s00220-003-0849-x) ([arXiv:0107.5168](http://front.math.ucdavis.edu/0107.5168))
 
-
+[[!redirects Bredon equivariant cohomology]]
