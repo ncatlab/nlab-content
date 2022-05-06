@@ -300,3 +300,38 @@ Because computational equivalence does not respect typed equality, except for th
 That identity is often not known to be a type doesn't get in the way of assuming it with *judgment-level* implication. For example, you can prove derived rules showing that identity is symmetric and transitive. Indeed, identity is in some sense the "real" equality of judgment-level reasoning: it's intuitively a relation on *terms*, not elements of a type; it's an equivalence relation; and it rewrites in any open type expression, not just valid type families.
 
 (TODO: Explain how many presuppositions arise from intensional type equality, and that equality of identity types is extensional, making them valid when they're pointwise true. Maybe on another page.)
+
+## Checking Mode
+
+The sanity rule says that the usual formal typing judgment ($a \Vdash A$) implies type validity ($A\,type$). This is analogous to the *admissible* sanity rule of unidirectional typing rules:
+
+$$\frac{\Gamma\,ctx \qquad \Gamma \vdash a\,:\,A}{\Gamma \vdash A\,type}$$
+
+In a unidirectional type checker, type validity being a conclusion of sanity goes well with the type expression itself being an output of the type checker. In a [[bidirectional typechecking|bidirectional type checker]], there are two modes: "synthesizing mode" inputs a term and (if it succeeds) outputs a type it has, and "checking mode" inputs a term and a type, and checks the term against the type.
+
+Although CompLF's primitive rules are not algorithmic, we can think of the typing judgment ($a \Vdash A$) as corresponding to the synthesizing mode of bidirectional typing, due to the sanity rule. This section defines another formal judgment form (metalanguage predicate) to correspond to the checking mode, and derives rules that propagate type validity bidirectionally.
+
+### Basics
+
+Here is the defined judgment:
+
+$A \ni a\;\coloneqq\;(A\,type) \Rightarrow (a \Vdash A)$
+
+The intuition is that a derivation of ($a \Vdash A$) includes a derivation of ($A\,type$), which is accessed using the sanity rule. So any rule that concludes with a judgment of form ($a \Vdash A$) is effectively outputting a derivation of type validity as well as typing.
+
+By defining ($A \ni a$) as an implication assuming type validity, a rule that concludes with a judgment of that form will be implicitly taking the type validity judgment as an extra premise, and inputting a derivation of it. (Intuitively, ($A \ni a$) inputs *and* outputs type validity, but it doesn't matter because ($X \Rightarrow (X \wedge Y)$) is equivalent to ($X \Rightarrow Y$).)
+
+So synthesizing mode ($a \Vdash A$) outputs type validity, while checking mode ($A \ni a$) inputs it. We can immediately derive the rules that change direction:
+
+$$\frac{a \Vdash A}{A \ni a} \qquad
+\frac{A\,type \qquad A \ni a}{a \Vdash A}$$
+
+The rule on the left has type validity coming in from both directions. For algorithmic rules, the types themselves would be coming in, and they would need to be compared. The rule here would just mean to check that they're syntactically equal, and an algorithm for dependent type checking would usually do something much smarter. But since these rules are not algorithmic, we just do the stupid thing for illustration purposes.
+
+The rule on the right explicitly takes type validity, and propagates it out in both directions. In algorithmic rules, the type itself would need to be given to the rule via a type annotation on the term in the conclusion.
+
+Here's a more interesting direction change rule using subsumption:
+
+$$\frac{t \Vdash A \qquad A \lt\!\!:\;B \ni p}{B \ni t}$$
+
+Deriving this rule, we receive the validity of $A$ from the first premise, and the validity of $B$ from the conclusion, form the validity of ($A \lt\!\!:\;B$) in order to use the second premise, which lets us change $t$ from an $A$ to a $B$.
