@@ -78,7 +78,7 @@ and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] 
 
 * [[Neil Lambert]], [[David Tong]], _Membranes on an Orbifold_, Phys.Rev.Lett.101:041602, 2008 ([arXiv:0804.1114](https://arxiv.org/abs/0804.1114))
 
-* {#AharonyBergmanJafferis08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+* {#AharonyBergmanJafferis08} [[Ofer Aharony]], [[Oren Bergman]], Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
 
 * [[Mauricio Romo]], _Aspects of ABJM orbifolds with discrete torsion_, J. High Energ. Phys. (2011) 2011 ([arXiv:1011.4733](https://arxiv.org/abs/1011.4733))
 
