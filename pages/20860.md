@@ -111,11 +111,11 @@ $$
   \end{aligned}
 $$
 
-## Related concepts
+## Related theorems
 
-* [[Vassiliev invariant]]
+* [[weight systems are associated graded of Vassiliev invariants]]
 
-* [[graph complex]]
+* [[weight systems are cohomology of loop space of configuration space]]
 
 ## References
 
