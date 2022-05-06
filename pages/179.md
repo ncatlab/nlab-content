@@ -1299,7 +1299,7 @@ The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as ye
 
 Possibly the first explicit appearance of the idea of $\infty$-Lie algebroids recognized in their full [[Lie theory|Lie theoretic]] meaning is
 
-* [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
+* [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
 
 which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan model|Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _[[topological space]]s_ by [[dg-algebras]]. That these spaces can be regarded as [[∞-groupoids]] and as [[∞-Lie groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also [[Lie integration]], [[rational homotopy theory in an (∞,1)-topos]] and [[function algebras on ∞-stacks]].
 
