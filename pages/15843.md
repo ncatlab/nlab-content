@@ -20,6 +20,8 @@
 
 ## related $n$Lab entries
 
+* [[8-manifold]]
+
 * [[quaternion-Kähler manifold]]
 
 * [[Sp(n).Sp(1)]]
