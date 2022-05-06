@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 \tableofcontents
 
 \section{Introduction}
 
-A _permutation group_ is, roughly speaking, a [[set]] of [[permutations]] which is closed under composition and which includes the identity permutation. Permutation groups are of historical significance: they were the first groups to be studied. 
+A _permutation group_ is, roughly speaking, a [[set]] of [[permutations]] which is closed under [[composition]] and which includes the [[identity morphism|identity]] permutation. Hence these are the [[subgroups]] of [[symmetric groups]]. Permutation groups are of historical significance: they were the first groups to be studied. 
 
-By [[Cayley's theorem]], all groups are in fact isomorphic to permutation groups.
+By [[Cayley's theorem]], all ([[discrete group|discrete]]) [[groups]] are in fact [[isomorphism|isomorphic]] to permutation groups.
 
 \section{Formal definition and examples}
 
