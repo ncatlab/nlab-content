@@ -104,7 +104,7 @@ Relation to [[black holes in string theory]] and [[random matrix theory]]:
 ### In terms of weight systems on chord diagrams
  {#ReferencesViaWeightSystems}
 
-Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on [[chord diagrams]] encoding [[SYK model]] [[correlators]]:
+Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on [[chord diagrams]] encoding [[SYK model]] [[single trace observables]]:
 
 (for more see at [[weight systems on chord diagrams in physics]])
 
