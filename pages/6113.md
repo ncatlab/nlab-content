@@ -55,9 +55,11 @@ More abstractly this follows from general properties of [[stabilization]] when r
 
 
 
-### Recognition and diagonals
 
-(...)
+[[!include smash-monoidal diagonals -- section]]
+
+
+
 
 ## Related concepts
 
