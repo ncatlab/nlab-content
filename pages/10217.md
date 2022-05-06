@@ -202,7 +202,7 @@ See also the discussion in [[list-arithmetic pretoposes]]
 
 * [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_, Theory and Applications of Categories, Vol. 24, 2010, No. 3, pp 39-83. ([TAC](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
 
-* {#vanDijkOldenziel20} Joost vaan Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
+* {#vanDijkOldenziel20} Joost van Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
 
 
 [^fine1]: Assuming that the theory is consistent. If the theory is inconsistent, then it can prove falsity and thence anything, including any internal statements of consistency. 
