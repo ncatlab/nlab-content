@@ -466,6 +466,8 @@ This rheonomy constraint is equivalent to what elsewhere is called "superspace c
 See also at _[[rheonomy modality]]_.
 
 #### Details
+
+> under construction
  
 Let $\mathbf{H} =$  [[SuperFormalSmooth∞Groupoids]].
 
@@ -656,11 +658,83 @@ of globally defined [[Cartan connection]]-forms, meaning that their [[super viel
 +-- {: .num_prop }
 ###### Proposition
 
-A sufficient condition for the subset (eq:GlobalCartanConnectionForms) to be rhenonmic (Def. \ref{RheonomicSetOfDifferentialForms}) is that the components of the [[curvature]]-forms with any odd-graded indices are linear combinations of the components of the curvature forms without odd-graded indices.
+A sufficient condition for the subset (eq:GlobalCartanConnectionForms) to be rheonomic(Def. \ref{RheonomicSetOfDifferentialForms}) is that the components of the [[curvature]]-forms with any odd-graded indices are linear combinations of the components of the curvature forms without odd-graded indices.
 
 =--
 
 ([Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.30)](#CastellaniDAuriaFre))
+
+
++-- {: .proof}
+###### Proof
+
+Let
+
+$$
+  \Omega^\bullet(X) 
+  \overset{\mu}{\longleftarrow}
+  W(\mathfrak{g})
+$$
+
+be a given form. Choosing any basis $\{P_a, Q_\alpha\}$ of $\mathfrak{g}$, $\mu$ has components
+
+$$
+  \begin{aligned}
+    \mu 
+    & 
+    = \mu\big( (x^a), (\theta^\alpha) \big)  
+    \\
+    & = 
+    \mu_a\big( (x^a), (\theta^\alpha) \big) d x^a
+    +
+    \mu_\alpha\big( (x^a), (\theta^\alpha) \big) d \theta^\alpha
+  \end{aligned}
+  \,.
+$$
+
+We have to show,  under the assumption that there existlinear maps
+
+$$
+  \Big(
+    \phi_{\alpha a}^{b c}
+    \;\colon\;
+    \mathfrak{g}
+    \to \mathfrak{g}
+  \Big)_{a,b,c, \alpha}
+$$
+
+with
+
+$$
+  \big( F_{\mu}\big)_{\alpha a}
+  \;=\;
+  \phi_{\alpha a}^{b c} \left( \big(F_\mu\big)_{b c} \right)
+$$
+
+that $\mu$ is uniquely determined already by the component $\mu_a\big( (x^a), (\theta^\alpha = 0)  \big)$. For this it is sufficent to show that all component functions
+
+1. $\mu_a\big( (x^a), (\theta^\alpha)  \big)$
+
+1. $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$
+
+may be expressed as functions of the $\mu_a\big( (x^a), (\theta^\alpha = 0) \big)$.
+
+
+**1)**
+
+By the nilpotency of the odd-graded coordinates $\theta^\alpha$, we have that $\mu$ is a [[multilinear map]] in the $\theta^\alpha$. 
+
+Hence, by [[induction]], assume that the  $k$-linear part $\mu_a\big( (x^a), (\theta^\alpha)_{k lin}  \big)$ in the $\theta^\alpha$ of $\mu_a\big( (x^a), (\theta^\alpha)  \big)$ is fixed by. It is then sufficient to show that also the $(k+1)$-linear term $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ is fixed.
+
+This is evidently equivalent to the statement that all the [[derivatives]] of $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ by any $\theta^{\alpha_{k+1}}$ evaluated at $\theta^{\alpha_{k+1}} = 0$ are fixed. 
+
+The key point is that by the assumption that we have a Cartan connection, these derivatives are proportional to a sum of $\big( F_\omega\big)_{\alpha_{k+1} a}$
+
+(...)
+
+
+
+=--
 
 (...)
 
