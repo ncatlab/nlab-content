@@ -30,7 +30,7 @@ $$
   Top^{\ast/}
 $$
 
-sends [[Cartesian products]] ([[product topological spaces]]) to [[smash products]] of [[pointed topological spaces]], hence constitutes a [[strong monoidal functor]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+sends [[product topological spaces]] to [[smash products]] of [[pointed topological spaces]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
 
 $$
   \big(
@@ -40,6 +40,8 @@ $$
   X^{cpt} \wedge Y^{cpt}
   \,.
 $$
+
+Hence $(-)^{cpt}$ constitutes a [[strong monoidal functor]] from $Top_{LCHaus}$ regarded as a [[monoidal category]] via forming [[product topological spaces]] (which, beware, are not the [[Cartesian product]] here, due to the restriction to proper maps) to $Top^{\ast/}$ regarded as a monoidal category via the [[smash product]].
 
 =--
 
