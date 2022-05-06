@@ -200,7 +200,7 @@ By going through the proof that ordinary categories of presheaves are toposes, o
 Let $C$ a finite category. Then the category of finite presheaves $[C^{op},FinSet]$ is a topos. $\qed$
 =--
 
-Note, that the category $[G,FinSet]$ of finite $G$-sets is topos even when the group $G$ is infinite! In this case it is crucial that $\Omega =\{\emptyset , G\}$ in $[G,Set]$ is a finite set.
+Note, that the category $[G,FinSet]$ of finite $G$-sets is a topos even when the group $G$ is infinite! In this case it is crucial that $\Omega =\{\emptyset , G\}$ in $[G,Set]$ is a finite set.
 
 (Cf. [Borceux (1994, p.299)](#Borceux3))
 
@@ -228,7 +228,7 @@ Standard references are
 
 * {#Borceux3} [[Francis Borceux]], _Handbook of Categorical Algebra 3 : Categories of Sheaves_ , Cambridge UP 1994.
 
-* {#KS06} Masaki Kashiwara, Pierre Schapira, _Categories and Sheaves_ , Springer Heidelberg 2006.
+* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_ , Springer Heidelberg 2006.
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
 
