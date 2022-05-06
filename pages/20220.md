@@ -21,7 +21,7 @@ In [[M-theory]] [[KK-compactification|compactified]] on 8-dimensional [[compact 
 
 $$
   N_{M2}
-  -
+  \;+\;
   \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
   \;=\;
   \underset{
@@ -65,7 +65,7 @@ is the [[Euler class]] (see [this Prop.](Spin7-manifold#CharacteristicClassesFor
 
 $$
   N_{M2}
-  -
+  \;+\;
   \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
   \;=\;
   \tfrac{1}{24}\chi[X^8]
