@@ -22,6 +22,11 @@ On the [[Hopf-Wess-Zumino term]] and the [[Whitehead integral formula]] for [[M5
 * {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, N=(2,0) Field Theories_, Nucl.Phys. B581 (2000) 257-273 ([arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205))
 
 
+On the [[Green-Schwarz mechanism]] in [[D=6 N=(1,0) SCFT]]:
+
+* [[Kenneth Intriligator]], _$6d$, $\mathcal{N}=(1,0)$ Coulomb Branch Anomaly Matching_, J. High Energ. Phys. 2014, 162 (2014) ([arXiv:1408.6745](https://arxiv.org/abs/1408.6745), <a href="https://doi.org/10.1007/JHEP10(2014)162">doi:10.1007/JHEP10(2014)162</a>)
+
+
 ## Related $n$Lab entries
 
 * [[string theory]]
