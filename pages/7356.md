@@ -216,7 +216,7 @@ A more recent survey is
 
 Lecture notes include
 
-* {#Morrison04} [[David Morrison]], _TASI Lectures on Compatification and Duality_ ([arXiv:hep-th/0411120](http://arxiv.org/abs/hep-th/0411120))
+* {#Morrison04} [[David Morrison]], _TASI Lectures on Compactification and Duality_ ([arXiv:hep-th/0411120](http://arxiv.org/abs/hep-th/0411120))
 
 * [[Timo Weigand]], _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
 
@@ -227,8 +227,7 @@ Lecture notes include
 
 Textbook accounts include
 
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of _String 
-Theory and M-Theory: A Modern Introduction_, 2007
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
 Further survey includes
 
@@ -308,7 +307,8 @@ A large body of literature is concerned with particle physics [[string phenomeno
 * {#Zoccarato14} Gianluca Zoccarato, _Yukawa couplings at the point
 of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
 
-* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
+* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 
+[pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf)
 
 A large number of realizations of the exact field content of the [[standard model of particle physics]] (or rather [[MSSM]]) in [[F-theory]] is claimed to be realized in
 
