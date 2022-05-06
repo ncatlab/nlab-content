@@ -20,6 +20,10 @@ Relation of the [[GSO projection]] to the [[K-theory classification of topologic
 
 * Justin Kaidi, Julio Parra-Martinez, [[Yuji Tachikawa]], _Topological Superconductors on Superstring Worldsheets_ ([arXiv:1911.11780](https://arxiv.org/abs/1911.11780))
 
+On the [[WZW term]] in [[chiral perturbation theory]]:
+
+* Yasunori Lee, [[Kantaro Ohmori]], [[Yuji Tachikawa]], _Revisiting Wess-Zumino-Witten terms_ ([arXiv:2009.00033](https://arxiv.org/abs/2009.00033))
+
 
 ## Related entries
 
