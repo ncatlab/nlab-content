@@ -119,9 +119,9 @@ There is a [[model category]] structure on non-negatively graded [[cochain compl
 
 * weak equivalences are [[quasi-isomorphisms]];
 
-* cofibrations are the morphisms that are [[monomorphisms]] in $R Mod$ in each _positive_ degree;
+* cofibrations are the morphisms that are [[monomorphisms]] in $R Mod$ in each _[[positive number|positive]]_ degree;
 
-* fibrations are degreewise [[epimorphism]]s with [[injective object|injective]] [[kernel]],
+* fibrations are degreewise [[epimorphisms]] with [[injective object|injective]] [[kernel]],
 
 called the **injective model structure**.
 
@@ -970,6 +970,8 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 
 ## Related concepts
 
+* [[model structure on equivariant chain complexes]]
+
 * [[model structure on chain complexes of super vector spaces]]
 
 * [[model structure on dg-modules]]
@@ -1123,3 +1125,5 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 
 [[!redirects projective model structure on chain complexes]]
 [[!redirects injective model structure on chain complexes]] 
+
+[[!redirects injective model structure on connective cochain complexes]]
