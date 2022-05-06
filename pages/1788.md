@@ -16,6 +16,78 @@
 =--
 =--
 
+$$
+  \array{
+    B String^{c_2}
+    &\longrightarrow& 
+    \overset{
+      \mathclap{
+        {\color{blue}unitary}
+        \atop
+        {
+          {\color{blue}gauge}
+          \atop
+          {\color{blue}symmetry}
+        }
+      }
+    }{
+      B SU(n)
+    }
+    \\
+    \Bigg\downarrow
+    &
+    \underset{
+      \mathclap{
+        {\color{magenta}GS\;mechanism}
+      }
+    }{
+      \swArrow
+    }
+    &
+    \Bigg\downarrow {}^{\mathrlap{ 
+      c_2 
+      \mathrlap{
+        {\color{green}gauge}
+        \atop
+        {\color{green}instantons}
+      }
+    }}
+    \\
+    \underset{
+      \mathclap{
+        {\color{blue} orthogonal}
+        \atop
+        {
+          {\color{blue}spacetime}
+          \atop
+          {\color{blue}symmetry}
+        }
+      }
+    }{
+      B Spin(d) 
+    }
+    &
+    \underset{ 
+      \underset{
+        \mathclap{
+          {\color{green}grav.}
+          \atop
+          {\color{green}instantons}
+        }
+
+      }{
+        \tfrac{1}{2}p_1 
+      }
+    }{
+      \longrightarrow
+    }
+    &
+    B^4 \mathbb{Z}
+  }
+$$
+
+$\ldots$
+
 \tableofcontents
 
 ##Definition##
