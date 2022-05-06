@@ -280,7 +280,7 @@ with the $d$-fold [[loop space]] of the [[n-sphere|(d+k)-sphere]].
 
 =--
 
-([Segal 73, Theorem 3](#Segal73))
+([May 72, Theorem 2.7](#May72), [Segal 73, Theorem 3](#Segal73))
 
 
 +-- {: .num_prop #StableSplittingOfMappingSpacesOutOfEuclideanSpace}
@@ -403,12 +403,11 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 
 
-
 ### Scanning map and cohomotopy
 
 The [[scanning map]] and hence the relation of configuration spaces to [[cohomotopy]] goes back to 
 
-* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972
+* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
 * {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
 
