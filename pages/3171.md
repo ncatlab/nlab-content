@@ -2,7 +2,9 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Henri_Cartan)
 
-The proceedings of the famous Cartan's seminar are now online at [numdam](http://numdam.org/numdam-bin/feuilleter?j=SHC&sl=0).
+* [[John Frank Adams]], _The work of M. H. Cartan in its relation with homotopy theory_, Colloque analyse et topologie,Astérisque no. 32-33 (1976), p. 29-41 ([numdam:AST_1976__32-33__29_0/](http://www.numdam.org/item/AST_1976__32-33__29_0/))
+
+The proceedings of Cartan's famousseminar are now online at [numdam](http://numdam.org/numdam-bin/feuilleter?j=SHC&sl=0).
 
 ## Selected writings
 
