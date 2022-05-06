@@ -74,17 +74,17 @@ This construction is equivalent to the construction by Dedekind cuts, at least a
 
 See [[Cauchy real number]] and [[generalized Cauchy real number]] for more.
 
-### The initial sequentially Cauchy complete archimedean field
+### The initial sequentially modulated Cauchy complete archimedean field
 
-There is a well-known algebraic (more or less) characterisation of the real line as the 'initial sequentially Cauchy complete archimedean field'.  This can be interpreted as follows:
+There is an algebraic (more or less) characterisation of the real line as the 'initial sequentially modulated Cauchy complete archimedean field'.  This can be interpreted as follows:
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
-*  An archimedean field is __[[sequentially Cauchy complete]]__ if all [[Cauchy sequences]] in the field [[converge]].
-*  A sequentially Cauchy complete archimedean field is __initial__ if it is an [[initial object]] in the category of sequentially Cauchy complete archimedean fields.
+*  An archimedean field is __[[sequentially modulated Cauchy complete]]__ if all [[Cauchy sequences]] in the field with a $\mathbb{N}$-[[modulus of convergence]] [[converge]].
+*  A sequentially modulated Cauchy complete archimedean field is __initial__ if it is an [[initial object]] in the category of sequentially modulated Cauchy complete archimedean fields.
 
-The initial sequentially Cauchy complete ordered field results in the [[HoTT book real numbers]]. 
+The initial sequentially modulated Cauchy complete ordered field results in the [[HoTT book real numbers]]. 
 
 ### The Dedekind complete ordered field
 
