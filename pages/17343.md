@@ -2065,11 +2065,13 @@ and we saw first aspects of their interplay via [[lifting properties]].
 
 A fundamental insight due to ([Quillen 67](#Quillen67)) is that in fact _all_ constructions in [[homotopy theory]] are elegantly expressible via just the abstract interplay of these classes of morphisms. This was distilled in ([Quillen 67](#Quillen67)) into a small set of [[axioms]] called a **[[model category]] structure** (because it serves to make all [[objects]] be _models_ for [[homotopy types]].)
 
-This _abstract homotopy theory_ is the royal road for handling any flavor of [[homotopy theory]], in particular the [[stable homotopy theory]] that we are after in _[[Introduction to Stable homotopy theory -- 1|Part 1]]_. Here we discuss the basic constructions and facts in abstract homotopy theory, then [below](#TheClassicalModelStructureOfTopologicalSpaces) we conclude section P1) by showing that the above system of classes of maps of topological spaces is indeed an example.
+This _abstract homotopy theory_ is the royal road for handling any flavor of [[homotopy theory]], in particular the [[stable homotopy theory]] that we are after in _[[Introduction to Stable homotopy theory -- 1|Part 1]]_. Here we discuss the basic constructions and facts in abstract homotopy theory, then [below](#TheClassicalModelStructureOfTopologicalSpaces) we conclude this _Introduction to Homotopy Theory_  by showing that topological spaces equipped with the above system of classes continuous functions is indeed an example of _abstract homotopy theory_ in this sense.
+
+<br>
 
 **Literature** ([Dwyer-Spalinski 95](#DwyerSpalinski95))
 
-$\,$
+<br>
 
 
 +-- {: .num_defn #CategoryWithWeakEquivalences}
