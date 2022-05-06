@@ -137,14 +137,13 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 
 Lawvere's original manuscript, written as an appendix to a proposal to the Arms Control and Disarmament Agency, is available here:
 
-* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]])
+* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962  ([[lawvereprobability1962.pdf:file]])
 
-Note that the statement of origin on p.1 is wrong.
+  (notice that the statement of origin on p.1 is wrong)
 
-The monad made its way into print then with
+The monad made its way into print with
 
-* {#Giry80} Mich&#232;le Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982.
+* {#Giry80} [[Michèle Giry]], _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982 ([doi:10.1007/BFb0092872](https://doi.org/10.1007/BFb0092872))
 
 In the paper, there are allegedly a few minor [[analysis|analytically]] incorrect points and gaps in proofs, observed by later authors. 
 
@@ -196,10 +195,7 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 
 * Jared Culbertson and Kirk Sturtz, _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
 
-
-[[Elisabeth Burroni]] discusses the Giry monad in:
-
-* {#Burroni09}[[Elisabeth Burroni]], _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([journal page](http://www.tac.mta.ca/tac/volumes/22/7/22-07abs.html))
+* {#Burroni09} Elisabeth Burroni, _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([journal page](http://www.tac.mta.ca/tac/volumes/22/7/22-07abs.html))
 
 where she derives stochastic [[automata]] as algebras for a suitable [[distributive law]]
  on the monoid and Giry monads. 
