@@ -407,6 +407,14 @@ Discussion for [[Spin(16)]] and [[Spin(18)]] GUT group ("[[SO(16)]]" and "[[SO(1
 
 * {#Guigan19} Michael McGuigan, _Dark Horse, Dark Matter: Revisiting the $SO(16) \times SO(16)'$ Nonsupersymmetric Model in the LHC and Dark Energy Era_ ([arXiv:1907.01944](https://arxiv.org/abs/1907.01944))
 
+#### $E_8$-GUT
+
+* Alfredo Aranda, Francisco J. de Anda, Stephen F. King, _Exceptional Unification of Families and Forces_ ([arXiv:2005.03048](https://arxiv.org/abs/2005.03048))
+
+* Alfredo Aranda, Francisco J. de Anda, _Complete $E_8$ Unification in 10 Dimensions_ ([arXiv:2007.13248](https://arxiv.org/abs/2007.13248))
+
+
+
 ### In string theory
 
 Introductory overview to GUTs in [[string theory]] is in 
