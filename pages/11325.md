@@ -48,6 +48,11 @@ A formalization and proof of one version of the hypothesis, and discussion of re
 
 * {#Etesi12} [[Gabor Etesi]], _A proof of the Geroch-Horowitz-Penrose formulation of the strong cosmic censor conjecture motivated by computability theory_ ([arXiv:1205.4550](http://arxiv.org/abs/1205.4550))
 
+See also
+
+* Shahar Hod, _A proof of the strong cosmic censorship conjecture_ ([arXiv:2012.01449](https://arxiv.org/abs/2012.01449))
+
+
 A counterexample in 4 dimensions was found in
 
 * {#CrisfordSantos17} Toby Crisford, [[Jorge Santos]], _Violating weak cosmic censorship in AdS$_4$_, Phys. Rev. Lett. 118, 181101 (2017) ([arXiv:1702.05490](https://arxiv.org/abs/1702.05490))
