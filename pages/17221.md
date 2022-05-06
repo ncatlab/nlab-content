@@ -27,7 +27,8 @@ This page collects material related to the book
 
   American Mathematical Society, 1996
 
-  [doi:10.1112/S0024609397263459](https://doi.org/10.1112/S0024609397263459)
+  [cds:2264210](https://cdsweb.cern.ch/record/2264210)
+
 
 on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
 
