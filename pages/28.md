@@ -815,7 +815,7 @@ is called a _[[weak homotopy equivalence]]_ if
    1. for each object $x$ of $\mathcal{G}_1$ the morphism
 
       $$
-        F_{x,x} \;\colon\; Aut_{\mathcal{G}_1}(x) \overset{\simeq}{\longrightarrow} Aut_{\mathcal{G}_2}(F_0(X))
+        F_{x,x} \;\colon\; Aut_{\mathcal{G}_1}(x) \overset{\simeq}{\longrightarrow} Aut_{\mathcal{G}_2}(F_0(x))
       $$
 
       is an [[isomorphism]] of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup})
@@ -1501,7 +1501,7 @@ Assuming the [[axiom of choice]] then the following are equivalent:
         \,,
       $$
 
-  1. for each object $x \in \mathcal{G}_1$ it induces an isomorphis of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup}):
+  1. for each object $x \in \mathcal{G}_1$ it induces an isomorphism of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup}):
 
      $$
        F_{x,x} \;\colon\; Aut_{\mathcal{G}_1}(x) \overset{\simeq}{\longrightarrow} Aut_{\mathcal{G}_2}(F_0(x))
