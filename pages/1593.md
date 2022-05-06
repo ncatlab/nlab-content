@@ -138,7 +138,7 @@ For instance the [[O4-plane]] lifts to the [[MO5-plane]].
 The concept originates around
 
 
-* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758), [pdf scan](https://lib-extopc.kek.jp/preprints/PDF/1989/8905/8905564.pdf))
+* {#DaiLinPolchinski89} Jin Dai, [[Robert Leigh]], [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod. Phys. Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758), [pdf scan](https://lib-extopc.kek.jp/preprints/PDF/1989/8905/8905564.pdf))
 
 
 
@@ -151,7 +151,7 @@ Early accounts include
 
 Traditional lecture notes include
 
-* Atish Dabholkar, _Lectures on Orientifolds and Duality_ ([arXiv:hep-th/9804208](https://arxiv.org/abs/hep-th/9804208))
+* [[Atish Dabholkar]], _Lectures on Orientifolds and Duality_, In *Trieste 1997, High energy physics and cosmology* 128-191 ([arXiv:hep-th/9804208](https://arxiv.org/abs/hep-th/9804208), [spire:454332](https://inspirehep.net/literature/454332))
 
 * Carlo Angelantonj, [[Augusto Sagnotti]], _Open Strings_, Phys. Rept. 371:1-150,2002; Erratum ibid.376:339-405, 2003 ([arXiv:hep-th/0204089](https://arxiv.org/abs/hep-th/0204089))
 
@@ -240,7 +240,7 @@ More on this in section 3.3.10 of
 
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB string theory]], hence for [[D9-branes]] and [[D5-branes]]:
 
-* Eric G. Gimon, [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+* [[Eric Gimon]], [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
 * {#GimonJohnson96} [[Eric Gimon]], [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
 
@@ -250,7 +250,7 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB stri
 
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
 
-* {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
+* {#ParkUranga98} [[Jaemo Park]], [[Angel Uranga]], _A Note on Superconformal $\mathcal{N}=2$ theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
 
 
 * {#AFIRU00a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
