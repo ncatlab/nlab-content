@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -66,6 +65,8 @@ $$
     1 && 1
   }
 $$
+
+(This perspective on crystallographic groups is known as [[Bieberbach's first theorem]], see for instance [Tolcachier 19, Theorem 2.3](#Tolcachier19), also [Freed-Moore 13, (0.2)](#FreedMoore13).)
 
 If the [[short exact sequence]] on the left [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, $S$ is called a _symmorphic space group_.
 
@@ -140,13 +141,15 @@ Volume 50, 1972, Pages 16-60 (<a href="https://doi.org/10.1016/S0079-8169(08)609
 
 * {#BrownBulowNeubuserWondratschekZassenhaus78} H. Brown, R. Bülow, J. Neubüser, H. Wondratschek, H. Zassenhaus, _Crystallographic Groups of Four-Dimensional Space_, John Wiley, New York, 1978. 
 
-* Daniel R. Farkas, _Crystallographic groups and their mathematics_, Rocky Mountain J. Math. Volume 11, Number 4 (1981), 511-552 ([doi:10.1216/RMJ-1981-11-4-511](https://projecteuclid.org/euclid.rmjm/1250128489))
+* {#Farkas81} Daniel R. Farkas, _Crystallographic groups and their mathematics_, Rocky Mountain J. Math. Volume 11, Number 4 (1981), 511-552 ([doi:10.1216/RMJ-1981-11-4-511](https://projecteuclid.org/euclid.rmjm/1250128489))
 
 * {#ChuprunovKuntsevich88} E. V. Chuprunov, T. S. Kuntsevich, _$n$-Dimensional space groups and regular point systems_, Comput. Math. Applic. Vol. 16, No. 5-8, pp. 537-543, 1988 (<a href="https://doi.org/10.1016/0898-1221(88)90243-X">doi:10.1016/0898-1221(88)90243-X</a>)
 
 * D. Weigel, T. Phan and R. Veysseyre, _Crystallography, geometry and physics in higher dimensions. III. Geometrical symbols for the 227 crystallographic point groups in four-dimensional space_, Acta Cryst. (1987). A43, 294-304 ([doi:10.1107/S0108767387099367](https://doi.org/10.1107/S0108767387099367))
 
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
+* {#Tolcachier19} Alejandro Tolcachier, _Holonomy groups of compact flat solvmanifolds_ ([arXiv:1907.02021](https://arxiv.org/abs/1907.02021))
 
 * [[GAP]] package, _The Crystallographic Groups Catalog_ ([web](http://www.math.rwth-aachen.de/~Greg.Gamble/gap4r3/pkg/crystcat/htm/CHAP001.htm))
 
@@ -177,3 +180,6 @@ See also
 
 [[!redirects representation torus]]
 [[!redirects representation tori]]
+
+[[!redirects Bieberbach's first theorem]]
+
