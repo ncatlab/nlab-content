@@ -1,4 +1,4 @@
-Topologist and author of 
+Hans-Joachim Baues (d. May 8, 2020) was a German topologist and the author of 
 
 *  _[[Algebraic Homotopy]]_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989); 
 *  _[[Combinatorial Homotopy and 4-Dimensional Complexes]]_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991);
@@ -6,7 +6,7 @@ Topologist and author of
 *  _Homotopy type and homology_, Oxford University Press, 1996
 * (with Antonio Quintero) _Infinite Homotopy Theory_,  K-monographs in mathematics, Volume 6, Kluwer, 2001;
 
-amongst others.
+among other works.
 
 A part of his work has developed the ideas of  [[Henry Whitehead|Whitehead's]] basic programme for [[algebraic homotopy]], using a mix of [[cofibration category|cofibration categories]] and categories with a particular type of [[cylinder functor]], that he calls [[I-category|I-categories]]. These are treated in separate entries. 
 
