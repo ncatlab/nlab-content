@@ -26,7 +26,7 @@ Part of the issue is that confinement is a [[non-perturbative effect]] (e.g [Esp
 ## The open problem of confinement
  {#OpenProblem}
 
-While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that [[confinement]] takes place, a real theoretical understanding has been missing (though [[AdS-QCD]] is now on a good track). This is the _confinement problem_. The same problem from the point of view of [[mathematics]] is called the _[[mass gap problem|mass gap]] [Millenium Problem](quantization+of+Yang-Mills+theory#ReferencesNonperturbativeTheoryAndMassGap)_. A related problem is the _[flavor problem](flavor+problem#TheFlavorProblem)_.
+While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that [[confinement]] takes place, a real theoretical understanding has been missing (though [[AdS-QCD]] is now on a good track). This is the _confinement problem_. The same problem from the point of view of [[mathematics]] is called the _[[mass gap problem|mass gap]] [Millennium Problem](quantization+of+Yang-Mills+theory#ReferencesNonperturbativeTheoryAndMassGap)_. A related problem is the _[flavor problem](flavor+problem#TheFlavorProblem)_.
 
 The following is a list of quotes highlighting the open problem of confinement:
 
