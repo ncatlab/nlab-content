@@ -464,6 +464,11 @@ Since most well-behaved model categories are equivalent to a model category in w
 However, if a [[Cisinski model category]] is right proper, then the $(\infty,1)$-category which it presents must be [[locally cartesian closed (∞,1)-category|locally cartesian closed]].  Conversely, any locally cartesian closed (∞,1)-category has a presentation by a right proper Cisinski model category; see [[locally cartesian closed (∞,1)-category]] for the proof.
 
 
+## Related pages
+
+* [[semi-left-exact left Bousfield localization]]
+
+
 ## References ##
 
 The concept originates in 
