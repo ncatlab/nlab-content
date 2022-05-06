@@ -650,6 +650,10 @@ Its covariantisation via a [[scalar field|scalar]] [[auxiliary field]] is due to
 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
 
+Speculations about non-abelian generalizations (for several coincident M5-branes):
+
+* Chong-Sun Chu, _A proposal for the worldvolume action of multiple M5-branes_, 2013 ([pdf](http://hep.phy.ntnu.edu.tw/old_version/talks/2013/2013-05-09Chong-SunChu.pdf))
+
 
 [[!redirects Perry-Schwarz actions]]
 
