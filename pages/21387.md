@@ -1,6 +1,6 @@
 __Homotopical Algebra__ is a book by [[Quillen]] that introduced [[model categories]].
 
-Lecture Notes in Mathematics 43, 1967, Springer.
+Lecture Notes in Mathematics 43, 1967, Springer. doi:[10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)
 
 Contents
 
@@ -24,7 +24,7 @@ Chapter II. Examples of simplicial homotopy theories
 
 1. [[Topological spaces]], [[simplicial sets]], and [[simplicial groups]]
 
-1. sA as a [[model category]]
+1. $sA$ as a [[model category]]
 
 1. Homology and cohomology
 
