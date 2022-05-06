@@ -23,9 +23,12 @@ Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $
 
 <center>
 <a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
-<img src="https://ncatlab.org/nlab/files/CohomotopyChargeAsymptoticDistance.jpg" width="630">
+<img src="https://ncatlab.org/nlab/files/CohomotopyChargeAsymptoticDistanceII.jpg" width="630">
 </a>
 </center>
+
+> graphics grabbed from [SS 19](Cohomotopy+charge#SatiSchreiber19)
+
 
 For maximal codimension $n$, hence for 0-dimensioonal [[submanifolds]], hence for [[configuration space of points|configurations of points]], this is alternatively known as the "electric field map" ([Salvatore 01](cohomotopy+charge#Salvatore01) following [Segal 73, Section 1](cohomotopy+charge#Segal73), see also [Knudsen 18, p. 49](cohomotopy+charge#Knudsen18)) or the "scanning map" ([Kallel 98](cohomotopy+charge#Kallel98)).
 
