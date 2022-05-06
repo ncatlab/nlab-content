@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _super-embedding formalism_ ([Sorokin 99](#Sorokin99)) is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely withing [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
+The _super-embedding formalism_ ([Sorokin 99](#Sorokin99)) is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/pBraneEmbedding.jpg" width="800">
@@ -41,7 +41,7 @@ If
 
 1. $\Sigma$ denotes a [[supermanifold|super]]-[[worldvolume]] of a [[super p-brane]] locally modeled on [[super-Minkowski spacetime]] $\mathbb{R}^{p,1\vert \mathbf{N}/2}$
 
-1. so that a [[sigma-model]] [[field (physics)|field]] configuration for a [[super p-brane]] of shape $\Sigma$ to popagate in $X$ is a morphism of [[supermanifolds]] of the form
+1. so that a [[sigma-model]] [[field (physics)|field]] configuration for a [[super p-brane]] of shape $\Sigma$ to propagate in $X$ is a morphism of [[supermanifolds]] of the form
 
    $$
      \array{
@@ -71,7 +71,7 @@ $$
   \,.
 $$
 
-Notice here the assumption that the number of odd directions on the [[worldvolume]] is half that of the [[target spacetime]]. This is the default assumption for fundamental [[super p-branes]], and it directly reflects the statement that the corrresponding [[black brane]] solutions are $1/2$ [[supergravity]] [[BPS states]].
+Notice here the assumption that the number of odd directions on the [[worldvolume]] is half that of the [[target spacetime]]. This is the default assumption for fundamental [[super p-branes]], and it directly reflects the statement that the corresponding [[black brane]] solutions are $1/2$ [[supergravity]] [[BPS states]].
 
 For example, consider the embedding 
 
