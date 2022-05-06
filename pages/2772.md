@@ -39,7 +39,7 @@ to indicate this.
 
 ## Properties
 
-A full and faithful $(\infty,1)$-functor is precisely a [[monomorphism in an (∞,1)-category|monomorphism]] in [[(∞,1)Cat]], hence a [[truncated object in an (∞,1)-category|(-1)-truncated]] morphism.
+Every full and faithful $(\infty,1)$-functor is a [[monomorphism in an (∞,1)-category|monomorphism]] in [[(∞,1)Cat]], but being a full and faithful $(\infty,1)$-functor is a stronger condition. An $(\infty,1)$-functor $F$ is a monomorphism if and only if it induces a [[monomorphism in an (∞,1)-category|monomorphism]] on $\mathrm{Hom}$-spaces and every equivalence $FX \simeq FY$ is in the effective image of $F$ (see [this MathOverflow question](https://mathoverflow.net/questions/345686/monomorphisms-in-mathcalc-at-infty/345700)).
 
 An [[(∞,1)-functor]] which is both full and faithful as well as an [[essentially surjective (∞,1)-functor]] is an [[equivalence of (∞,1)-categories]].
 
