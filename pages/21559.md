@@ -22,7 +22,7 @@ Elements of $J$ are supercommutative, that is, $a \cdot b = (-1)^{|a|\cdot|b|} b
 
 ## Classification
 
-Simple Jordan superalgebras over an [[algebraically closed field]] of [[characteristic 0]] were classified by Kac ([Kac 77](#Kac77)). The only exceptional finite-dimensional example is the 10-dimensional Jordan superalgebra $K_{10}$.
+Simple Jordan superalgebras over an [[algebraically closed field]] of [[characteristic 0]] were classified by Kac ([Kac 77](#Kac77)). The only [[exceptional structure|exceptional]] finite-dimensional example is the 10-dimensional Jordan superalgebra $K_{10}$.
 
 ## References
 
