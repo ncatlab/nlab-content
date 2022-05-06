@@ -41,6 +41,14 @@ A different criticism regards the algorithm itself. If nodes were to co-operate 
 
 {#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
 
+A foundational/mathematical introductory book from the point of view of (building) a distributed computing system is
+
+* Roger Wattenhofer, _The science of the blockchain_, 115 pp. Inverted Forest Publishing 2016
+
+A comprehensive guide for architects of blockchain applications with an attempt at certain level of abstraction of central concepts is
+
+* Xiwei Xu, Ingo Weber, Mark Staples, _Architecture for blockchain applications_, Springer 2019
+
 For a more comprehensive list of references see [[zoranskoda:blockchain]] (at zoranskoda). 
 
 category: computer science, applications
