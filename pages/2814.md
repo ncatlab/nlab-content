@@ -258,6 +258,8 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 ## References
 
+* Marcelo Aguiar and Swapneel Mahajan, _Monoidal functors, species and Hopf algebras_. ([pdf](http://pi.math.cornell.edu/~maguiar/a.pdf))
+
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
