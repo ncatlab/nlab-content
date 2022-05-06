@@ -1,5 +1,5 @@
 
-* [webpage](https://www.math.ubc.ca/~mstephan/)
+* [webpage](https://sites.google.com/view/mstephan/home)
 
 ## related $n$Lab entries
 
