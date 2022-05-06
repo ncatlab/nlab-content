@@ -485,7 +485,7 @@ Then the general problems that a Universal Coefficient Theorem should apply to a
 
 In [Ada69](#Ada69), Adams works in a very general setting. On this page, we shall work in a more restricted situation (as spelled out in Note 2 in Adams' lectures). We assume that $E^{*}(-)$ is the [[generalised cohomology theory]] associated to a [[commutative ring spectrum]], $E$. The cohomology theory $F^{*}(-)$ is assumed to come from a left [[module-spectrum]] over $E$, which we shall denote by $F$. We do not assume that $F$ is itself a ring spectrum. Following Adams, we shall also assume that all our cohomology and homology theories are [[reduced cohomology|reduced]].
 
-There are two statements that one would like to hold. These are not themselves theorems, rather the theorem would say ''Under certain conditions, these statements hold''. The statements are the following.
+There are two statements that one would like to hold. These are not themselves theorems, rather the theorem would say "Under certain conditions, these statements hold". The statements are the following.
 
 +-- {: .num_uct #ucta .thremark }
 ###### UCT1
