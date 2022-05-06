@@ -201,9 +201,13 @@ The root of the problem is that ($f \Vdash \Pi x:A.B[x]$) is not interderivable 
 
 The full presupposition of ($f \Vdash \Pi x:A.B[x]$) is ($(\Pi x:A.B[x])\,type$). That ($f \Vdash \Pi x:A.B[x]$) is interderivable with ($(A\,type) \wedge (x:A \vdash f\,x \Vdash B[x])$), and not ($(\Pi x:A.B[x])\,type \wedge (x:A \vdash f\,x \Vdash B[x])$), ($(\Pi x:A.B[x])\,type \Rightarrow (x:A \vdash f\,x \Vdash B[x])$), or something even weirder, is due to the "presupposition policy" the judgment forms are using. (Is there a better term for this?) (Technically, ($(\Pi x:A.B[x])\,type \wedge (x:A \vdash f\,x \Vdash B[x])$) is also interderivable, but it redundantly checks ($x:A \vdash B[x]\,type$).)
 
-As a practical matter, presuppositions don't validate themselves, so a proof assistant needs some policy on when/how they get validated. In Nuprl-like systems, the presuppositions are all instances of the type validity judgment. Although they generally cannot be checked automatically, as mentioned in the [idea section](#idea), propagation of type validity resembles type propagation in a type checker. Presuppositions of judgments and a policy for handling them can be addressed using *partial logics*: logics in which formulas may not be meaningful propositions. The case in type theory is the possibility of type expressions that don't denote a valid type. Validity/definedness of type expressions is propagated differently than elements of the types are. Different formation and inversion rules for type constructors turn out to correspond to different styles of type (validity) propagation, and provide a policy for handling presuppositions. This is discussed in more detail later.
+As a practical matter, presuppositions don't validate themselves, so a proof assistant needs some policy on when/how they get validated. In Nuprl-like systems, the presuppositions are all instances of the type validity judgment. Although they generally cannot be checked automatically, as mentioned in the [idea section](#idea), propagation of type validity resembles type propagation in a type checker.
 
-If the presuppositions can be checked automatically, the presupposition policy is not so visible to the user, but it's still there. When trying to represent judgment-level assertions as types though, the details of the presupposition policy become important.
+Validity/definedness of type expressions is propagated differently than elements of the types are. Various formation and inversion rules for type constructors, combined with various typing judgment forms, yield various styles of type (validity) propagation, and provide a policy for handling presuppositions. This is a running theme of this page.
+
+A related approach to presupposition policy comes from *partial logics*: logics in which formulas may not be meaningful propositions, in the sense that they fail to denote a truth value. The case in type theory is the possibility of type expressions that are not valid, in that they don't denote a semantic type. But classical partial logics provide a different perspective on non-denoting formulas, which avoids having any primitive validity judgment. This is discussed in [later sections](#PartLogic).
+
+If the presuppositions can be checked automatically (as in most dependent type checkers), the presupposition policy is not so visible to the user, but it's still there. When trying to represent judgment-level assertions as types though, the details of the presupposition policy become important.
 
 Getting back to ($\Pi t:\top.(t \in A) \to (t \in B)$) failing to correspond to ($\forall t.(t \Vdash A) \Rightarrow (t \Vdash B)$), the problem is that the forms of implication generally don't correspond, due to the implicit requirement to check that the type-level implication is a valid type. Assuming a *type* incurs an obligation to show that the expression is in fact a type, while assuming a *judgment* has no implicit obligation.
 
@@ -478,7 +482,7 @@ As an (admittedly pretty boring) application of $PreSup$, we can define a "Marti
 
 $a1 =_A a2\;\coloneqq\;TpV(a1 = a2 \in A\;|\;PreSup(a1 \in A \wedge a2 \in A))$
 
-## Partial Logic
+## Partial Logic {#PartLogic}
 
 This section sketches the connection between dependent type theory and partial logic. The idea of the connection is that both styles of system handle presuppositions in essentially the same way.
 
