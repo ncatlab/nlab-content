@@ -31,10 +31,16 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 on [[cohomology]] and [[twisted cohomology]] structures in [[string theory]]/[[M-theory]]. See also _[[twisted smooth cohomology in string theory]]_.
 
+On [[modular equivariant elliptic cohomology]] in [[type II string theory]]/[[F-theory]]:
+
 * {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([Euclid](http://projecteuclid.org/euclid.atmp/1091543172), [arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
  
+* {#KrizSati04b} [[Igor Kriz]], [[Hisham Sati]], _Type IIB String Theory, S-Duality, and Generalized Cohomology_, Nucl.Phys. B715 (2005) 639-664 ([arXiv:hep-th/0410293](http://arxiv.org/abs/hep-th/0410293))
 
- on the [[Diaconescu-Moore-Witten anomaly]] interpreted in [[integral Morava K-theory]]:
+* {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
+
+
+On the [[Diaconescu-Moore-Witten anomaly]] interpreted in [[integral Morava K-theory]]:
 
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
 
