@@ -28,7 +28,7 @@ The argument for this in ([AH-M-N-V 06, section 2.2](#ArkaniHamedMotlNicolisVafa
 
 The weak gravity conjecture was originally motivated from [[string theory]], which is argued to validate the "weak gravity" assumption.
 
-In ([AH-M-N-V 06, section 4](#ArkaniHamedMotlNicolisVafa06)) it is argued that the closed [[superstring]] excitattion states in [[heterotic string theory]] [[KK-compactification|KK-compactified]] on to 4d satisfy the condition $m/{\vert q\vert} \lt 1$:
+In ([AH-M-N-V 06, section 4](#ArkaniHamedMotlNicolisVafa06)) it is argued that the closed [[superstring]] excitation states in [[heterotic string theory]] [[KK-compactification|KK-compactified]] on to 4d satisfy the condition $m/{\vert q\vert} \lt 1$:
 
 <img src="https://ncatlab.org/nlab/files/WeakGravityConjectureHetStates.jpg" width="600">
 
@@ -62,8 +62,13 @@ Review is in
 
 
 Further discussion includes
+ {#FurtherDiscussion}
+
+* Yu Nakayama, Yasunori Nomura, _Weak Gravity Conjecture in AdS/CFT_, Phys. Rev. D 92, 126006 (2015) ([arXiv:1509.01647](https://arxiv.org/abs/1509.01647))
 
 * Clifford Cheung, Junyu Liu, Grant N. Remmen, _Proof of the Weak Gravity Conjecture from Black Hole Entropy_ ([arXiv:1801.08546](https://arxiv.org/abs/1801.08546))
+
+* Miguel Montero, _A Holographic Derivation of the Weak Gravity Conjecture_,  JHEP 03 (2019) 157 ([arXiv:1812.03978](https://arxiv.org/abs/1812.03978))
 
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Repulsive Forces and the Weak Gravity Conjecture_ ([arXiv:1906.02206](https://arxiv.org/abs/1906.02206))
 
