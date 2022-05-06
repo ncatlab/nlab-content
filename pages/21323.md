@@ -85,7 +85,7 @@ All this is in contrast to
 
 ### General
 
-* {#Landsberg85} L. G. Landsberg, _Electromagnetic decays of light mesons_, Physics Reports Volume 128, Issue 6, November 1985, Pages 301-376 (<a href="https://doi.org/10.1016/0370-1573(85)90129-2">doi:10.1016/0370-1573(85)90129-2</a>
+* {#Landsberg85} L. G. Landsberg, _Electromagnetic decays of light mesons_, Physics Reports Volume 128, Issue 6, November 1985, Pages 301-376 (<a href="https://doi.org/10.1016/0370-1573(85)90129-2">doi:10.1016/0370-1573(85)90129-2</a>)
 
 
 * R. Casalbuoni, A. Deandrea, N. Di Bartolomeo, F. Feruglio, R. Gatto, G. Nardulli, _Phenomenology of Heavy Meson Chiral Lagrangians_, Phys. Rept. 281:145-238, 1997 ([arXiv:hep-ph/9605342](https://arxiv.org/abs/hep-ph/9605342))
