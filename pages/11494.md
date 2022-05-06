@@ -5,7 +5,11 @@ This page collects resources related to
 
   _The Unreasonable Effectiveness of Mathematics in the Natural Sciences_
 
-  1960
+  Richard Courant lecture in mathematical sciences delivered at New York University, May 11, 1959. 
+
+  Communications on Pure and Applied Mathematics. 13: 1–14 (1960)
+
+  [doi:10.1002/cpa.3160130102](https://doi.org/10.1002/cpa.3160130102)
 
   [Wikipedia entry](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences)
 
