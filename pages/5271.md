@@ -65,6 +65,9 @@ Analysis in [[classical field theory]] in terms of [[supergeometry]] is in
 
 * {#Freed01} [[Daniel Freed]], lecture 4 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
+The [[pure spinor]] superparticle:
+
+* [[Nathan Berkovits]], Eduardo Casali, Max Guillen, Lionel Mason, _Notes on the $D=11$ pure spinor superparticle_ ([arXiv:1905.03737](https://arxiv.org/abs/1905.03737))
 
 
 [[!redirects superparticles]]
