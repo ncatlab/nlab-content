@@ -75,6 +75,11 @@ On the history of [[string theory]]:
 
   (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
 
+Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]:
+
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String Theory and M-Theory: A Modern Introduction_, Cambridge University Press 2006 ([doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086))
+
+
 ## related entries
 
 * [[string theory]]
