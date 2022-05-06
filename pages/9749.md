@@ -31,7 +31,7 @@ The Giry monad is defined on the category of [[measurable spaces]], assigning to
 $$
 ev_U \colon G(X) \to [0,1]
 $$ 
-sending a probability measure $P$ to $P(U)$, where $U$ ranges over all the measurable sets of $X$. The unit of the monad sends a point $x \in X$ to the Dirac measure at $x$, $\delta_x$, while the counit of the monad is defined by the natural transformation 
+sending a probability measure $P$ to $P(U)$, where $U$ ranges over all the measurable sets of $X$. The unit of the monad sends a point $x \in X$ to the [[Dirac measure]] at $x$, $\delta_x$, while the counit of the monad is defined by the natural transformation 
 $$
   \mu_{X}: G(G(X)) \to G(X)
 $$
