@@ -66,7 +66,7 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 * [[domain of holomorphy]], [[Stein manifold]], [[Oka manifold]]
 
-* [[Dolbeault complex]]
+* [[Dolbeault cohomology]], [[Bott-Chern cohomology]]
 
 * [[holomorphic symplectic manifold]]
 
