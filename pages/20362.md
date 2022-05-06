@@ -76,6 +76,15 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
+### KK-reduction  to JT gravity
+
+Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravity]] on the [[worldvolume]] of [[D1-D5 brane bound states]] or [[M2-M5 brane bound states]]:
+
+* Yue-Zhou Li, Shou-Long Li, H. Lu, _Exact Embeddings of JT Gravity in Strings and M-theory_, Eur. Phys. J. C (2018) 78: 791 ([arXiv:1804.09742](https://arxiv.org/abs/1804.09742))
+
+* Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
+
+
 
 [[!redirects M2-M5 brane bound states]]
 
