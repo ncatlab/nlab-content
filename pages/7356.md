@@ -260,7 +260,7 @@ and the corresponding [[gauge enhancement]] in
 
 with more details including
 
-* Zurab Kakushadze, Gary Shiu, S.-H. Henry Tye, _Type IIB Orientifolds, F-theory, Type I Strings on Orbifolds and Type I - Heterotic Duality_, Nucl.Phys. B533 (1998) 25-87 ([arXiv:hep-th/9804092](http://arxiv.org/abs/hep-th/9804092))
+* Zurab Kakushadze, [[Gary Shiu]], S.-H. Henry Tye, _Type IIB Orientifolds, F-theory, Type I Strings on Orbifolds and Type I - Heterotic Duality_, Nucl.Phys. B533 (1998) 25-87 ([arXiv:hep-th/9804092](http://arxiv.org/abs/hep-th/9804092))
 
 This is further expanded on in
 
