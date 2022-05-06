@@ -621,7 +621,7 @@ The development of that to [[homotopy type theory]] followed insights by ([Hofma
 
 A survey of the history of type theory is in 
 
-* Stanford Encyclopedia of Mathematics, _[Type theory](http://plato.stanford.edu/entries/type-theory/)_
+* Stanford Encyclopedia of Philosophy, _[Type theory](http://plato.stanford.edu/entries/type-theory/)_
 
 Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
 
