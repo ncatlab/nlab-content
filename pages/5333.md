@@ -126,6 +126,8 @@ See also at _[[torsion constraints in supergravity]]_.
 
   * [[type II string theory]]
 
+  * [[type 0 string theory]]
+
   * [[landscape of string theory vacua]]
 
   * [[supersymmetry and Calabi-Yau manifolds]]
