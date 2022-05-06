@@ -95,3 +95,4 @@ The result on projective spaces stems from
 
 [[!redirects extremally disconnected space]]
 [[!redirects extremally disconnected spaces]]
+[[!redirects extremally disconnected]]
