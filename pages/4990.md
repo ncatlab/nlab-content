@@ -63,7 +63,7 @@ This means that the [[inverse image functor]] $L Const\colon Set \to Sh(C)$ has 
 ###### Proof
 
 
-By remark \ref{ConstantPresheavesAreSheaves} it follows that the constant *[[presheaf]]* functor $Const \colon Set \to Psh(C)$ has a [[left adjoint]] given by taking [[colimits]] along $C^{op}$ (this is one of the equivalent _definitions_ of the colimit operatiion.) Since constant presheaves on $C$ are sheaves, $L Const$ is just a factorization of $Const$ through $Sh(C)$, and thus it also has a left adjoint given by the colimit operation.
+By remark \ref{ConstantPresheavesAreSheaves} it follows that the constant *[[presheaf]]* functor $Const \colon Set \to Psh(C)$ has a [[left adjoint]] given by taking [[colimits]] along $C^{op}$ (this is one of the equivalent _definitions_ of the colimit operation.) Since constant presheaves on $C$ are sheaves, $L Const$ is just a factorization of $Const$ through $Sh(C)$, and thus it also has a left adjoint given by the colimit operation.
 
 =--
 
