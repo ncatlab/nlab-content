@@ -16,7 +16,7 @@
 
 ## Definition
 
-Given two [[monoidal categories]] $(V_1,\otimes_1, I_1)$ and $(V_2, \otimes_2, I_2)$ used for enrichement in [[enriched category theory]] (for instance two [[Bénabou cosmoi]]) a [[lax monoidal functor]] between them
+Given two [[monoidal categories]] $(V_1,\otimes_1, I_1)$ and $(V_2, \otimes_2, I_2)$ used for enrichment in [[enriched category theory]] (for instance two [[Bénabou cosmoi]]), a [[lax monoidal functor]] between them
 
 $$
   F 
@@ -66,7 +66,7 @@ The adjunction $Cat \rightleftarrows K Cat$ described above (...) is a special c
 **([[poly-morphisms]])**
 
 For $F =P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of base functor $P_\ast \;\colon\;
- Cat \to Cat$ sends plain [[categories]] to plain categories. For $C$ any category, the morphisms of $C^{poly} \coloneqq P\ast(C)$ are called the _[[poly-morphisms]]_ of $C$ in [Mochizuki 12, section 0](poly-morphism#Mochizuki12)
+ Cat \to Cat$ sends plain [[categories]] to plain categories. For $C$ any category, the morphisms of $C^{poly} \coloneqq P\ast(C)$ are called the _[[poly-morphisms]]_ of $C$ in [Mochizuki 12, section 0](poly-morphism#Mochizuki12).
 
 =--
 
