@@ -442,7 +442,7 @@ $$
 
 This is famously the formula introduced and used by Bousfield and Kan (but there originally missing the necessary condition that $F$ be objectwise cofibrant). See [[Bousfield-Kan map]].
 
-##### Homotopy pushouts
+#### Homotopy pushouts
 
 Let in the above general formula $D = \{a \leftarrow c \to b\}$ be the [[walking]] [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushouts**.
 
@@ -488,6 +488,7 @@ $$
   F(1) \to F(0) \leftarrow F(2)
 $$
 satisfies
+
 * $F(i)$ is fibrant for all $i$;
 * and either $F(1) \to F(0)$ or $F(2) \to F(0)$ is a fibration;
 
