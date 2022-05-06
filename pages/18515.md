@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
+#### Vacua
++-- {: .hide}
+[[!include vacua -- contents]]
+=--
 =--
 =--
 
