@@ -29,15 +29,15 @@ In the [[Sakai-Sugimoto model]] of [[holographic QCD]] the [[D=5 Yang-Mills theo
 
 * {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
-* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
-
-  * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 * {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
 Extensive review of this [[holographic QCD|holographic]]/[[Kaluza-Klein theory|KK-theoretic]]-realization of [[quantum hadrodynamics]] from [[D=5 Yang-Mills theory]] is in:
 
-* [[Mannque Rho]], [[Ismail Zahed]] (eds.)  _[[The Multifaceted Skyrmion]]_,  World Scientific, Second edition, 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+* {#RhoEtAl16} [[Mannque Rho]], [[Ismail Zahed]] (eds.)  _[[The Multifaceted Skyrmion]]_,  World Scientific, Second edition, 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+  * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
 
 
 Via the realization of [[D4/D8 brane bound states]] as [[instantons]] in the [[D8-brane]] [[worldvolume]]-theory (see [there](DpDpPlus4BraneBoundState#AsYangMillsInstantons) and [there](D4-D8+brane+bound+state#AsInstantonsOnTheD8Brane)), this relates also to the model of [[baryons]] as [[wrapped brane|wrapped]] [[D4-branes]], originally due to
@@ -48,7 +48,7 @@ Via the realization of [[D4/D8 brane bound states]] as [[instantons]] in the [[D
 
 An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]], now on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]], is discussed in:
 
-* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
+* {#IvanovaLechtenfeldPopov18} [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
 
 following
 
