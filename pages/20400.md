@@ -272,6 +272,23 @@ $$\begin{gathered}
 
 ### PER
 
+The rules for PER comprehension are made simpler by the fact that we required $R$ to be a pseudo-PER in the formation rule. The idea is that ($(t1 = t2 \in \{x1 = x2 | R\;x1\;x2\}) \leftrightarrow \{R\;t1\;t2\}$), using the squash type constructor defined above. So comprehension and equality are almost inverse; you just lose the computational content of the equivalence proof.
+
+$$\begin{gathered}
+\frac{\Gamma \vdash \{x1 = x2 | R\}\,type \qquad
+\Gamma \vdash t2 \Vdash Comp \qquad
+\Gamma \vdash p \Vdash R[t1,t2/x1,x2]}
+{\Gamma \vdash q \Vdash t1 = t2 \in \{x1 = x2 | R\}} \\
+\\
+\frac{\begin{array}{l}
+\Gamma \vdash C\,type \qquad
+\Gamma \vdash R[t1,t2/x1,x2]\,type \\
+\Gamma \vdash p \Vdash t1 = t2 \in \{x1 = x2 | R\} \\
+\Gamma,z:R[t1,t2/x1,x2] \vdash c \Vdash C \qquad z \notin FV(c)
+\end{array}}
+{\Gamma \vdash c \Vdash C}
+\end{gathered}$$
+
 ### Booleans
 
 ## References
