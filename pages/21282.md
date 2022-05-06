@@ -121,4 +121,7 @@ For [[baryons]] one has:
 [[!redirects light and heavy baryon]]
 [[!redirects light and heavy baryons]]
 
+[[!redirects light lepton]]
+[[!redirects light leptons]]
+
 
