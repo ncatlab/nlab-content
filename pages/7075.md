@@ -116,6 +116,27 @@ $$
   (z_0, z_1) \mapsto (2 z_0 z_1^* , {|z_0|}^2 - {|z_1|}^2).
 $$
 
+### Realization via quaternions
+ {#RealizationViaQuaternions}
+
+Alternatively, we may regard $S^3 \simeq S(\mathbb{H})$ as the [[unit sphere]] in the [[quaternions]] and $S^2 \simeq S\left( \mathbb{H}_{\mathrm{im}}\right)$ as the unit wphere in the [[imaginary part|imaginary]] quaternions. Under this identification, the complex Hopf fibration is equivalently represented by
+
+$$
+  \array{
+    S(\mathbb{H})
+    &\longrightarrow&
+    S\left( \mathbb{H}_{\mathrm{im}}\right)
+    \\
+    q 
+      &\mapsto&
+    q \cdot \mathbf{i} \cdot \overline{q}
+  }
+$$
+
+where $\mathbf{i} \in S\left( \mathbb{H}_{\mathrm{im}}\right)$ is any unit imaginary quaternion.
+
+
+
 ### Realization via the Hopf construction
 
 Regard $S^1 = U(1)$ as equipped with its [[circle group]] structure. This makes $S^1$ in particular an [[H-space]]. The Hopf fibration $S^1 \to S^3 \to S^2$  is the [[Hopf construction]] applied to this H-space.
