@@ -84,7 +84,7 @@ Review includes
 
 * {#Rognes12} [[John Rognes]], around lemma 4.14, theorem 4.15 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
-* Joseph Victor, Section 2.4 of _Stable Homotopy Groups of Spheres and The HopfInvariant One Problem_, 2013 ([pdf](http://mathematics.stanford.edu/wp-content/uploads/2013/08/Victor-Honors-Thesis-2013.pdf))
+* Joseph Victor, Section 2.4 of _Stable Homotopy Groups of Spheres and The Hopf Invariant One Problem_, 2013 ([pdf](http://mathematics.stanford.edu/wp-content/uploads/2013/08/Victor-Honors-Thesis-2013.pdf))
 
 Further comments on the impact of this proof on the development of [[stable homotopy theory]] includes
 
