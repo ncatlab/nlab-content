@@ -155,6 +155,9 @@ Cautioning against the interpretation of type Ia [[supernovae]] as indicative of
 
   _[New evidence shows that the key assumption made in the discovery of dark energy is in error](https://phys.org/news/2020-01-evidence-key-assumption-discovery-dark.amp?__twitter_impression=true)_
 
+* Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Cosmic Discordance: Planck and luminosity distance data exclude LCDM_ ([arXiv:2003.04935](https://arxiv.org/abs/2003.04935))
+
+
 
 ### In pAQFT
  {#ReferencedInpAQFT}
