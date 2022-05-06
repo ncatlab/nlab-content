@@ -45,13 +45,9 @@ The expression (eq:TheTerm) controls certain [[quantum anomaly cancellation]] in
 
 ## Related concepts
 
-* [[Pontryagin classes]]
+* [[Pontryagin classes]], [[Stiefel-Whitney classes]], [[Wu classes]], [[Euler class]]
 
-* [[Stiefel-Whitney classes]]
-
-* [[Wu classes]]
-
-* [[Euler class]]
+* [[C-field tadpole cancellation]]
 
 
 ## References
