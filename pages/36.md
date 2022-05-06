@@ -81,9 +81,9 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 ## Examples
 
-* [[monoid object]], [[group object]], [[ring object]]
+* [[monoid object]], [[group object]], [[ring object]], [[monoid object in an (∞,1)-category]]
 
-* [[internal category]], [[internal diagram]], [[internal groupoid]], [[groupoid object in an (∞,1)-category]]
+* [[internal category]], [[internal diagram]], [[internal groupoid]], [[groupoid object in an (∞,1)-category]], [[category object in an (∞,1)-category]]
 
 * [[internal (co-)limit]]
 
