@@ -51,9 +51,14 @@ Possible [[model (in theoretical physics)]] that have been suggested might expla
 
 * University of Hawaii, _[ANITA Webpage](https://www.phys.hawaii.edu/~anita/)_
 
+
+Review:
+
+* {#Wissel20} Stephanie Wissel, _Prospects in UHE Neutrino Astronomy_, talk at [NEUTRINO 2020](https://conferences.fnal.gov/nu2020/), June 2020 ([pdf](https://indico.fnal.gov/event/43209/contributions/187883/attachments/130573/159213/Wissel_UHEnus_Neutrino2020.pdf), [[WisselNeutrino2020.pdf:file]])
+
 See also
 
-* Wikipedia, _[Antarctic Impulse Transient Antenna](https://en.wikipedia.org/wiki/Antarctic_Impulse_Transient_Antenna)_
+* Wikipedia, _[Antarctic Impulse Transient Antenna](https://en.wikipedia.org/wiki/Antarctic_Impulse_Transient_Antenna)_, 
 
 On the potentially anomalous events recorded:
 
@@ -68,5 +73,9 @@ Speculation that [[leptoquarks]] could (not only explain the [[flavour anomalies
 * {#ChauhanMohanty18} Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
 * P. S. Bhupal Dev, Rukmani Mohanta, Sudhanwa Patra, Suchismita Sahoo, _Unified explanation of flavor anomalies, radiative neutrino mass and ANITA anomalous events in a vector leptoquark model_ ([arXiv:2004.09464](https://arxiv.org/abs/2004.09464))
+
+Critical discussion:
+
+* {#Anchordoqui19} L. A. Anchordoqui et al. _The pros and cons of beyond standard model interpretations of ANITA events_, PoS ICRC2019 (2020) 884, 884 ([arXiv:1907.06308](https://arxiv.org/abs/1907.06308), [spire:1744116](https://inspirehep.net/literature/1744116))
 
 [[!redirects Antarctic Impulsive Transient Antenna]]
