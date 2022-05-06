@@ -7,6 +7,11 @@ Paul Townsend is professor for theoretical [[physics]] at Cambridge.
 
 ## Selected writings
 
+On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
+
+* A. Achucarro, [[Paul Townsend]], _A Chern-Simons Action for Three-Dimensional anti-De Sitter Supergravity Theories_, Phys. Lett. B180 (1986) 89 (<a href="https://doi.org/10.1016/0370-2693(86)90140-1">doi:10.1016/0370-2693(86)90140-1</a>, [spire:21208](http://inspirehep.net/record/21208))
+
+
 On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
 * [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
