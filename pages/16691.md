@@ -52,3 +52,9 @@ Claims that proton decay may be entirely avoided in [[GUTs]] after all are discu
   (claims that many [[string theory]] and [[supergravity]] models have this property)
 
 * {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Phys. Rev. Lett. 119, 241801 (2017) ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
+
+Discussion in  [[SemiSpin(32)]]-[[heterotic string|heterotic]] [[string phenomenology]]:
+
+* Saul Ramos-Sanchez, Section 5.4 of _Towards Low Energy Physics from the Heterotic String_,   Fortsch. Phys. 10:907-1036, 2009 ([arXiv:0812.3560](https://arxiv.org/abs/0812.3560))
+
+
