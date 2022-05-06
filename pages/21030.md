@@ -72,8 +72,9 @@ The original articles:
 
 * [[Nakwoo Kim]], [[Jeong-Hyuck Park]], _Superalgebra for M-theory on a pp-wave_, Phys.Rev. D66 (2002) 106007 ([arXiv:hep-th/0207061](https://arxiv.org/abs/hep-th/0207061))
 
+Review:
 
-
+* {#Ydri18} [[Badis Ydri]], Section 3.10 in: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
 In relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
 
