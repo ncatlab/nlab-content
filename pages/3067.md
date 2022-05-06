@@ -6,7 +6,7 @@ A pseudomonoid in the [[cartesian monoidal category|cartesian]] monoidal 2-categ
 
 Just as a monoid in a monoidal category $C$ can be equivalently defined as a [[monad]] in the corresponding one-object [[2-category]] $\mathbf{B}C$ (the [[delooping]] of $C$), so a pseudomonoid in a monoidal 2-category $C$ can equivalently be defined as a [[pseudomonad]] in the corresponding one-object [[3-category]] $\mathbf{B}C$.
 
-# Variations
+## Variations
 
 * A **map pseudomonoid** is a pseudomonoid whose multiplication and unit are [[bicategory of maps|maps]], i.e. [[left adjoints]].  This is a more appropriate notion for monoidal bicategories whose morphisms are [[profunctors]], since maps therein can be identified (modulo [[Cauchy completion]]) with [[functors]].
 
@@ -21,9 +21,16 @@ Other more special kinds of pseudomonoid are generalizations of special kinds of
 
 Eventually these should probably have their own pages.
 
+## Properties
+
+The 2-category of symmetric pseudomonoids in a monoidal 2-category has (weak) 2-coproducts given by the tensor product of underlying objects (analogously to how the category of [[commutative monoids]] in a monoidal category has coproducts given by the tensor product of the underlying objects).  This is proven in [Schaeppi, Appendix A](#Schaeppi).
+
 ##References##
 
 *Ross Street and Brian Day, [Monoidal Bicategories and Hopf Algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492), Advances in Mathematics, Volume 129, Issue 1, 15 July 1997, Pages 99-157. 
+
+* {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arxiv](https://arxiv.org/abs/1211.3678), 2014
+
 
 [[!redirects pseudomonoid]]
 [[!redirects pseudomonoids]]
