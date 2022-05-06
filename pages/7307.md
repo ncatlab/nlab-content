@@ -48,7 +48,7 @@ For $V$ a suitable [[monoidal model category]], the category of $V$-enriched sym
 ###### Definition
 
 
-Every [[locally small category]] $C$ may be regarded as a coloured symmetric operation $j_!(C)$ over set, with the objects of $C$ and coulours, and with only unary operation, these being the morphisms in the category
+Every [[locally small category]] $C$ may be regarded as a coloured symmetric operation $j_!(C)$ over set, with the objects of $C$ and colours, and with only unary operation, these being the morphisms in the category
 
 $$
   j_!(C)(c_1, \cdots, c_n ; c)
