@@ -136,7 +136,7 @@ $$\tan(z) = \textstyle \frac{z}{1 - \textstyle \frac{z^2}{3 - \textstyle \frac{z
 
 The basic inference was that $\tan(z)$ must therefore be irrational for rational values of $z$, and since $\tan(\pi/4) = 1$, it follows that $\pi/4$ is irrational. This was not a completely rigorous proof since Lambert had failed to prove the irrationality of certain infinite continued fractions, but Legendre provided the missing lemma in 1806. Actually [Legendre](#Leg) proves more: applying his lemma to the continued fraction for $\sqrt{q}\; \tan(\sqrt{q})$ (derived from the above), he shows this expression is irrational for rational $q$, and therefore not even $\pi^2$ can be rational. He goes on to speculate that $\pi$ is in fact transcendental. 
 
-The transcendence of $\pi$ was finally established by Lindemann in 1882, by adapting methods of Hermite who had established the transcendence of [[e]] in 1873. This definitively proved the impossibility of solving the problem of "squaring the circle" by means of ruler-and-compass constructions. A far more general theorem was then established by Weierstrass: 
+The transcendence of $\pi$ was finally established by Lindemann in 1882, by adapting methods of [[Charles Hermite]] who had established the transcendence of [[e]] in 1873. This definitively proved the impossibility of solving the problem of "squaring the circle" by means of ruler-and-compass constructions. A far more general theorem was then established by Weierstrass: 
 
 +-- {: .num_theorem #LindWeier} 
 ###### Theorem 
