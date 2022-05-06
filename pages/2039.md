@@ -62,7 +62,7 @@ $$
   \,.
 $$
 
-In this form ordinary Bredon cohomology is expressed in ([Bredon 67a, p. 3](#Bredon 67a) [Bredon 67b, Theorem (2.11), (6.1)](#Bredon67b)), review in in ([Greenlees-May, p. 10](#GreenleesMay)).
+In this form ordinary Bredon cohomology is expressed in ([Bredon 67a, p. 3](#Bredon67a), [Bredon 67b, Theorem (2.11), (6.1)](#Bredon67b)), review in in ([Greenlees-May, p. 10](#GreenleesMay)).
 
 The definition of Bredon cohomology which is more popular ([Bredon 67a, p. 2](#Bredon67a), [Bredon 67b, I.6](#Bredon67b)) is a [[chain complex]]-model for this: regarding $X$ again as a presheaf on the [[orbit category]], define a presheaf of chain complexes
 
