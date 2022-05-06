@@ -295,6 +295,14 @@ For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ fr
 
 due to ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_, and [[Charles Rezk]], appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
 
+## Examples
+
+### Goodwillie derivatives of the identity functor
+
+The Goodwillie derivatives of the [[identity functor]] on  [[pointed topological spaces]], form an [[operad]] in [[spectra]] ([Ching 05](#Ching05)).
+
+See at _[[Goodwillie derivatives of the identity functor]]_ 
+
 ## Related concepts
 
 * [[Goodwillie spectral sequence]]
@@ -354,7 +362,7 @@ A [[model category]] presentation for [[n-excisive functors]] is given in
 
 * [[Georg Biedermann]], [[Boris Chorny]], Oliver R&#246;ndigs, _Calculus of functors and model categories_, Adv. Math., __214__, n. 1 (2007) 92--115, [doi](http://dx.doi.org/10.1016/j.aim.2006.10.009), [math.AT/0601221](http://arxiv.org/abs/math/0601221)
 
-* [[Gregory Arone]] and Michael Ching, _Operads And Chain Rules For The Calculus Of Functors_, [preprint](http://www.math.uga.edu/~mching/Work/chain-rule-spaces-final.pdf)
+* [[Gregory Arone]], [[Michael Ching]], _Operads And Chain Rules For The Calculus Of Functors_, [preprint](http://www.math.uga.edu/~mching/Work/chain-rule-spaces-final.pdf)
 
 * {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae February 1999, Volume 135, Issue 3, pp 743-788  ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
 
@@ -389,5 +397,9 @@ February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.ed
 
 On the relation to [[configuration space (mathematics)|configuration spaces]]:
 
-* Michael Ching, _Calculus of Functors and Configuration Spaces_ ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+* {#Ching05} [[Michael Ching]], _Bar constructions for topological operads and the Goodwillie derivatives of the identity_, Geom. Topol. 9 (2005) 833-934 ([arXiv:math/0501429](https://arxiv.org/abs/math/0501429))
 
+* {#Ching05b} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
+[[!redirects Goodwillie derivative]]
+[[!redirects Goodwillie derivatives]]
