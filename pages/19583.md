@@ -78,7 +78,7 @@ with further discussion in
 
 Further developments in
 
-* Biao Lian, S. L. Sondhi, Zhenbin Yang, _The chiral SYK model_ ([arXiv:1906.03308](https://arxiv.org/abs/1906.03308))
+* Biao Lian, S. L. Sondhi, [[Zhenbin Yang]], _The chiral SYK model_ ([arXiv:1906.03308](https://arxiv.org/abs/1906.03308))
 
 * Alexandre Streicher, _SYK Correlators for All Energies_ ([arxiv:1911.10171](https://arxiv.org/abs/1911.10171))
 
