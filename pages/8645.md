@@ -41,7 +41,7 @@ The physics literature typically focuses on describing this $SU(2)$-bundle in te
 
 The original articles are
 
-* A. A. Belavin, A.M. Polyakov, A.S. Schwartz, Yu.S. Tyupkin, _Pseudoparticle solutions of the Yang-Mills equations_, Phys. Lett. B 59 (1), 85-87 (1975) <a href="http://dx.doi.org/10.1016/0370-2693(75)90163-X">doi</a>
+* {#BelavinPolyakovSchwartzTyupkin75} A. A. Belavin, [[Alexander Polyakov]], A.S. Schwartz, Yu.S. Tyupkin, _Pseudoparticle solutions of the Yang-Mills equations_, Phys. Lett. B 59 (1), 85-87 (1975) <a href="http://dx.doi.org/10.1016/0370-2693(75)90163-X">doi</a>
 
 * A. A. Belavin, V.A. Fateev, A.S. Schwarz, Yu.S. Tyupkin, _Quantum fluctuations of multi-instanton solutions_, Phys. Lett. B 83 (3-4), 317-320 (1979) <a href="http://dx.doi.org/10.1016/0370-2693(79)91117-1">doi</a>
 
