@@ -32,7 +32,7 @@ Then the corresponding _tautological equivariant line bundle_ $\mathcal{L}_V$ is
 
 $$
   \array{
-    \mathcal{L}_v
+    \mathcal{L}_V
     & \coloneqq & 
     \frac{
       (V \setminus \{0\}) \times k^\ast
