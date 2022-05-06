@@ -446,7 +446,7 @@ The contextual core (example \ref{ContextualFromAttributes}) of the slice of the
 However, the naive definition of the big model above suffers from the same coherence issues as the standard models in individual lcc categories:
 Lcc functors preserve lcc structure (i.e. type formers) up to isomorphism, but not necessarily up to equality.
 These coherence problems can be resolved by working with a suitable model categorical presentation of the $(2, 1)$-category of lcc categories, lcc functors and natural isomorphisms.
-Note that the [[model category]] presenting a higher category is unique up to zick-zack of Quillen equivalences, but that the underlying 1-categories of these model categories can vary non-trivially.
+Note that the [[model category]] presenting a higher category is unique up to zig-zag of Quillen equivalences, but that the underlying 1-categories of these model categories can vary non-trivially.
 Because coherence issues are ultimately about equations in the underlying 1-category, we can thus hope that some model categories presenting the category of lcc categories will be better behaved than others for our purpose.
 
 One possible way to construct such a well-behaved model category is as follows (see ([Bidlingmaier 2020](#Bidlingmaier20)) for details):
