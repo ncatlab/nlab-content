@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $p$ a [[prime number]], then the _Fermat quotient_ of any [[integer]] $a$ is the quotient
+For $p$ a [[prime number]], the _Fermat quotient_ of any [[integer]] $a$ is the quotient
 
 $$
   \partial_p a \coloneqq
