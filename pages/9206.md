@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[super Yang-Mills theory]] in [[dimension]] 5.
+[[super Yang-Mills theory]] on [[spacetimes]] of [[dimension]] $D=5$, hence the [[supersymmetry|supersymmetric]] version of [[D=5 Yang-Mills theory]].
 
 ## Properties
 
