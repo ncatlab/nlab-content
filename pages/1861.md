@@ -656,6 +656,11 @@ Further discussion includes
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
 
+* [[Martin Čadek]], Marek Krčál, Jiří Matoušek, Francis Sergeraert, Lukáš Vokřínek, Uli Wagner, _Computing all maps into a sphere_, Journal of the ACM,
+Volume 61 Issue 3, May 2014
+Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
+
+
 ### Cohomotopy cocycle spaces
 
 Discussion of Cohomotopy [[cocycle spaces]] (i.e. [[spaces of maps]] into an [[n-sphere]]):
