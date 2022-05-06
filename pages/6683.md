@@ -57,6 +57,28 @@ Discussion of [[boundary conditions]] of the BLG model, leading to [[brane inter
 
 ## References
 
+### Precursors
+
+Precursor considerations in
+
+* [[John Schwarz]], _Superconformal Chern-Simons Theories_ ([arXiv:arXiv:hep-th/0411077](https://arxiv.org/abs/hep-th/0411077)
+
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
+
+* [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+This inspired the [[BLG model]]:
+
+* {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
+
+* [[Jonathan Bagger]], [[Neil Lambert]], _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_, Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
+
+
+
+### General
+
 The original article on the $N=6$-case is
 
 * {#ABJM08} [[Ofer Aharony]], [[Oren Bergman]], [[Daniel Jafferis]], [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
@@ -68,15 +90,7 @@ and for [[discrete torsion]] in the [[supergravity C-field]] in
 
   (on [[fractional M2-brane|fractional M2-branes]])
 
-inspired by the $N=8$-case of the [[BLG model]]
-
-* {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
-
-* [[Jonathan Bagger]], [[Neil Lambert]], Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
-
-with precursor considerations in
-
-* [[John Schwarz]], _Superconformal Chern-Simons Theories_ ([arXiv:arXiv:hep-th/0411077](https://arxiv.org/abs/hep-th/0411077)
+inspired by the $N=8$-case of the [[BLG model]] ([Bagger-Lambert 06](#BaggerLambert06))
 
 The $N=5$-case is discussed in
 
