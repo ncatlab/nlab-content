@@ -8,6 +8,7 @@
 
 [[!include superconformal symmetry -- table]]
 
+
 ## Related concepts
 
 * [[super Yang-Mills theory]]
@@ -23,6 +24,8 @@
   * [[topologically twisted D=4 super Yang-Mills theory]]
 
 * [[geometric engineering of quantum field theory]]
+
+[[!include superconformal symmetry -- table]]
 
 
 ## References
@@ -52,4 +55,10 @@ The [[KK-compactification]] of the [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[
 
 [[!redirects N=1 D=4 sYM]]
 
+
+
 [[!redirects D=4 N=1 super Yang-Mills]]
+
+[[!redirects N=1 D=4 SYM]]
+[[!redirects D=4 N=1 SYM]]
+
