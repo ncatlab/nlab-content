@@ -40,7 +40,7 @@ In this context, a _tensor network_ is a _[[string diagram]] [[concept with an a
 
 1. the [[element]] in that [[tensor product]] defined by the string diagram regarded as a [[state]] ([[wave function]]) of that quantum system.
 
-For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _[[tree tensor network state]]_ is the following:
+For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as a [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _[[tree tensor network state]]_ is the following:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="300">
@@ -76,7 +76,7 @@ The [[tree tensor network states]] in the form of [[Bruhat-Tits trees]] play a s
 
 (As in [HMSS 16](p-adic+AdS/CFT+correspondence#HMSS16), [HLM 19](p-adic+AdS/CFT+correspondence#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](p-adic+AdS/CFT+correspondence#HMPS18)?)
 
-For [[tensor network states]] dual to tesselations of [[hyperbolic space]] and made from [[perfect tensors]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
+For [[tensor network states]] dual to tesselations of [[hyperbolic space]] and made from [[perfect tensors]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks of _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
 
 
 General tensor network states are mixtures of the above examples. For instance in ... is the suggestion that [[BTZ black holes]] are encoded by networks that look like [[Bruhat-Tits trees]] towards the boundaries and like [[matrix product states]] towards the interior:
