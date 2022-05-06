@@ -271,6 +271,6 @@ See also
 
 On the [[integral cohomology]] of the [[classifying space]]:
 
-* {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society, Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:](https://www.jstor.org/stable/2044298))
+* {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society, Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
 
 
