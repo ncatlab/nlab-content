@@ -167,7 +167,10 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
+Properties of monoids expressed through properties of their [[toposes]] of [[presheaves]]:
+
+* Jens Hemelaer, Morgan Rogers, _Monoid Properties as Invariants of Toposes of Monoid Actions_, [arXiv:2004.10513](https://arxiv.org/abs/2004.10513).
+
 
 [[!redirects monoid]]
 [[!redirects monoids]]
-
