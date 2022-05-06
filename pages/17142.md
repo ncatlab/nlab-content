@@ -1322,22 +1322,34 @@ The first condition is guaranteed by [[Sard's theorem]], the second by [[Thom's 
 
 ## References
 
-Due to 
+The unstable [[Pontrjagin-Thom theorem]] identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]]:
+
+* [[Lev Pontrjagin]], _Classification of continuous maps of a complex into a sphere_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
+
+* [[John Milnor]], Chapter 7 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+
+Discussion of the early history:
+
+* [Kosinski 93, Section IX.9](#Kosinski93)
+
+
+The stable and structured version:
 
 * {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86 ([digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259))
 
-* {#Pontrjagin55} [[Lev Pontrjagin]], Section II.6 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
-
-Reviews include
+Review:
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-Further lecture notes include
+Further lecture notes:
 
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf)),  Lecture 4 _Transversality_ (notes by I. Bobkova) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/4transversality.pdf))
-
 
 * {#Malkiewich11} [[Cary Malkiewich]], section 3 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
