@@ -309,6 +309,12 @@ Relation to [[Cayley plane]]-[[fiber bundles]] is discussed in
 
 * {#McTague11} [[Carl McTague]], _The Cayley plane and String bordism_ ([arXiv:1111.4520](http://arxiv.org/abs/1111.4520))
 
+On manifolds with [[SU(2)]]-[[action]]:
+
+* [[Anand Dessai]], _The Witten genus and $S^3$-actions on manifolds_, 1994 ([pdf](https://homeweb.unifr.ch/dessaia/pub/papers/MZpreprint6_Witten_S3.pdf), [[DessaiWittenGenusS3.pdf:file]])
+
+
+
 ### Relation to Kac-Weyl characters of loop group representations
  {#ReferencesRelationToKacWeylCharacters}
 
@@ -428,7 +434,7 @@ The twisted Witten genus in the present of [[background gauge field]] hence for 
 
 based on formulas from 
 
-* [[Qingtao Chen]], [[Fei Han]], _Elliptic Genera, Transgression and Loop Space Chern-Simons Forms_ ([arXiv:math/0611104](http://arxiv.org/abs/math/0611104))
+* [[Qingtao Chen]], [[Fei Han]], _Elliptic Genera, Transgression and Loop Space Chern-Simons Forms_, Communications in Analysis and Geometry Volume 17 (2009) Number 1 ([arXiv:math/0611104](http://arxiv.org/abs/math/0611104), [doi:10.4310/CAG.2009.v17.n1.a4]( https://dx.doi.org/10.4310/CAG.2009.v17.n1.a4))
 
 For the moment see the references at _[[string^c structure]]_ for more on this.
 
