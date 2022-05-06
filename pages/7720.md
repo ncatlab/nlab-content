@@ -64,8 +64,12 @@ $$
 
 The notion was introduced in
 
-* [[Nigel Hitchin]], _Generalised Calabi-Yau Manifolds_, Quart. J. Math. Oxford Ser. 54:281-308, (2003) ([math.DG/0209099](http://arxiv.org/abs/math.dg/0209099))
- {#Hitchin}
+* {#Hitchin} [[Nigel Hitchin]], _Generalised Calabi-Yau Manifolds_, Quart. J. Math. Oxford Ser. 54:281-308, (2003) ([math.DG/0209099](http://arxiv.org/abs/math.dg/0209099))
+ 
+Relation to (non-[[integrable G-structure|integrable]]) [[G-structure]] for $G = $ [[SU(n)]] (see also at _[[MSU]]_):
+
+* {#Prins16} [[Daniël Prins]], _On flux vacua, $SU(n)$-structures and generalised complex geometry_, Université Claude Bernard -- Lyon I, 2015.  ([arXiv:1602.05415](https://arxiv.org/abs/1602.05415), [tel:01280717](https://tel.archives-ouvertes.fr/tel-01280717))
+
 
 The role of generalized CY-manifolds as (factors of) [[target spaces]] in [[string theory]] is discussed for instance in 
 
@@ -81,3 +85,7 @@ The role of generalized CY-manifolds as (factors of) [[target spaces]] in [[stri
 
 [[!redirects generalized Calabi-Yau space]]
 [[!redirects generalized Calabi-Yau spaces]]
+
+[[!redirects generalized Calabi-Yau structure]]
+[[!redirects generalized Calabi-Yau structures]]
+
