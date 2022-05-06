@@ -31,4 +31,4 @@ The proof using [[epsilontic analysis]] is spelled out for instance in
 
 
 [[!redirects polynomials are continuous functions]]
-
+[[!redirects polynomials are continuous]]
