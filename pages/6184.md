@@ -13,10 +13,20 @@ There are also Verlinde formulas in algebraic geometry (proved by Faltings) and 
 
 ## References
 
-Faltings
+See also [[fusion ring]].
 
-Mukai moduli space book
+* [[Gerd Faltings]], _A proof for the Verlinde formula_ 1994
+
+A good introduction is in
+
+* [[Shigeru Mukai]], _An introduction to invariants and moduli_, Cambridge Univ. Press 2003 
 
 Dowker, _On Verlinde's formula for the dimensions of vector bundles on moduli spaces_, [iopscience](http://iopscience.iop.org/0305-4470/25/9/033)
+
+* Juergen Fuchs, Christoph Schweigert, _A representation theoretic approach to the WZW Verlinde formula_, 1997
+
+A generalization to logarithmic CFTs has been suggested in
+
+* Thomas Creutzig, Terry Gannon, _Logarithmic conformal field theory, log-modular tensor categories and modular forms_ J. Phys. A __50__, 404004 (2017) [doi](https://doi.org/10.1088/1751-8121/aa8538)
 
 [[!redirects Verlinde formulas]]
