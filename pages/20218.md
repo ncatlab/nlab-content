@@ -51,4 +51,10 @@ Let $X$ be a [[sober space|sober]] [[topological space]]. Then the lattice of op
 
 ## References
 
+The concept appeared in
+
  * Karl H. Hofmann, _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. 
+
+For a textbook reference see
+
+ * G. Gierz, K. H. Hofmann, K. Keimel, J. D. Lawson, M. Mislove, D. S. Scott, _Continuous Lattices and Domains_ 2003, Vol. 93 of _Encyclopedia of Mathematics and its Applications_.
