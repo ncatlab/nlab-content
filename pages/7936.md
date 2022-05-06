@@ -25,21 +25,11 @@ For details see at _[geometric quantization -- Space of quantum states](geometri
 
 ## Related concepts
 
-* [[space of states]]
+[[!include states and observables -- content]]
 
-  * [[wave function]]
+\linebreak
 
-  * [[probability amplitude]]
 
-* [[superposition]], [[quantum interference]]
-
-* [[entanglement]]
-
-* [[quantum operator (in geometric quantization)]]
-
-* [[collapse of the wave function]]
-
-* [[plane wave]]
 
 [[!include Isbell duality - table]]
 
