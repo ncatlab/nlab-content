@@ -73,6 +73,10 @@ an **[[accessible functor]]**  if there exists a $\kappa$ such that $C$ and $D$ 
 ## Properties 
  {#Properties}
 
+### Raising the index of accessibility
+
+If $C$ is $\lambda$-accessible and $\lambda\unlhd\mu$ (see [[sharply smaller cardinal]]), then $C$ is $\mu$-accessible.  Thus, any accessible category is $\mu$-accessible for arbitrarily large cardinals $\mu$.
+
 ### Stability under various constructions
 
 +-- {: .num_prop}
