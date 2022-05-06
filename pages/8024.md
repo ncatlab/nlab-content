@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[knot invariants]] from [[Yang-Mills theory]]:
+
+* [[Davide Gaiotto]], [[Edward Witten]], _Knot Invariants from Four-Dimensional Gauge Theory_, Advances in Theoretical and Mathematical Physics, Volume 16 (2012) Number 3 ([arxiv:1106.4789](https://arxiv.org/abs/1106.4789))
+
 On the [[AGT correspondence]]:
 
 * {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
