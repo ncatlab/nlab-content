@@ -30,6 +30,8 @@ See the references at _[[chiral perturbation theory]]_
 
 ### General
 
+* [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
+
 * Brian D. Serot, John Dirk Walecka, _Recent Progress in Quantum Hadrodynamics_ ([arXiv:nucl-th/9701058](http://arxiv.org/abs/nucl-th/9701058))
 
 
