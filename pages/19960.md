@@ -409,11 +409,20 @@ Application to [[Higgs field]]:
 
 * {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
 
-### Application to axioms and strong CP-problem
+### Application to axions and strong CP-problem
 
 Realization of [[axions]] and solution of [[strong CP-problem]]:
 
 * Francesco Bigazzi, Alessio Caddeo, Aldo L. Cotrone, Paolo Di Vecchia, Andrea Marzolla, _The Holographic QCD Axion_ ([arXiv:1906.12117](https://arxiv.org/abs/1906.12117))
+
+
+### Application to colour superconductivity
+ {#ReferencesColourSuperconductivity}
+
+Application to [[colour superconductivity]]:
+
+* _A Holographic Description of Colour Superconductivity_, Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans
+https://arxiv.org/abs/1803.03107
 
 [[!redirects AdS-QCD correspondences]]
 
