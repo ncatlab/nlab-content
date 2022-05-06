@@ -1,5 +1,3 @@
-[[!redirects cartesian theory]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,32 +12,3 @@
 * table of contents
 {:toc}
 
-## Idea
-
-A [[theory]] in [[cartesian logic]].
-
-## Definition
-
-...
-
-## Related concepts
-
-* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], **cartesian theory**
-
-* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
-
-* [[coherent category]], [[coherent functor]], [[coherent logic]], [[coherent theory]], [[coherent coverage]], [[coherent topos]]
-
-* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
-
-* [[lextensive category]], [[disjunctive logic]]
-
-## References
-
-Cartesian theories were introduced under different names in the early seventies by [[John Isbell]], [[Peter Freyd]] and [[Michel Coste]] (cf. [Johnstone 1979](#Johnstone79)). A standard source is Johnstone ([2002](#Johnstone02)).
-
-* {#Freyd02}[[Peter Freyd]], _Cartesian Logic_ , Theor. Comp. Sci. **278** (2002) pp.3-21.
-
-* {#Johnstone79}[[Peter Johnstone]], _A Syntactic Approach to Diers' Localizable Categories_ , pp.466-478 in Springer LNM **753** Heidelberg 1979.
-
-* {#Johnstone02}[[Peter Johnstone]], _Sketches of an [[Elephant]] II_ , Oxford UP 2002. (Around D1.3.4 p.833)
