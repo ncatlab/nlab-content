@@ -1195,6 +1195,8 @@ The original articles are
 
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
 
+* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+
 
 Survey and review includes
 
@@ -1208,12 +1210,12 @@ Survey and review includes
 
 * {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
+* [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press 2008 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520))
 
-* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
 * [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
 
-* {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_, ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245))
+* {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
 
 
 
