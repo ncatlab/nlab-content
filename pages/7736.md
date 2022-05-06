@@ -11,6 +11,14 @@ On [[gaugino condensation]] in [[heterotic string theory]] and [[Horava-Witten t
 
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Five-Branes and Supersymmetry Breaking in M-Theory_, JHEP 9904:009, 1999 ([arXiv:hep-th/9901017](https://arxiv.org/abs/hep-th/9901017))
 
+
+On [[string phenomenology]] in [[heterotic M-theory]]:
+
+* {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
+
+* {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
+
+
 On the [[F-theory]]-perspective on [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
