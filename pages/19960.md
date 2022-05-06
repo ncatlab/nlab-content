@@ -750,7 +750,7 @@ See also
 * S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
 
 
-* Daisuke Fujii, [[Atsushi Hosaka]], _Heavy baryons in holographic QCD with higher dimensional degrees of freedom_ ([arXiv:2003.13415](https://arxiv.org/abs/2003.13415))
+
 
 
 
@@ -980,7 +980,7 @@ See also
 
 * {#ABBCN18} Riccardo Argurio, Matteo Bertolini, Francesco Bigazzi, Aldo L. Cotrone, Pierluigi Niro, _QCD domain walls, Chern-Simons theories and holography_, J. High Energ. Phys. (2018) 2018: 90 ([arXiv:1806.08292](https://arxiv.org/abs/1806.08292))
 
-* Nicolas Kovensky, Andreas Schmitt, _Heavy Holographic QCD_ ([arxiv:1911.08433](https://arxiv.org/abs/1911.08433))
+
 
 
 ### Application to meson physics
@@ -1011,6 +1011,17 @@ Relating to [[holographic entanglement entropy]]:
 Application to QCD [[QFT with defects|with defects]]:
 
 * Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
+
+
+### Heavy flavor in holographic QCD
+
+Discussion of [[heavy flavor]] in [[holographic QCD]]:
+
+
+* Nicolas Kovensky, Andreas Schmitt, _Heavy Holographic QCD_ ([arxiv:1911.08433](https://arxiv.org/abs/1911.08433))
+
+* Daisuke Fujii, [[Atsushi Hosaka]], _Heavy baryons in holographic QCD with higher dimensional degrees of freedom_ ([arXiv:2003.13415](https://arxiv.org/abs/2003.13415))
+
 
 
 [[!redirects AdS-QCD correspondences]]
