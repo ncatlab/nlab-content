@@ -122,7 +122,7 @@ $\,$
 The construction of [[perturbative quantum field theories]] around a given [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free field]] [[vacuum]]
 is equivalently, by [this prop.](S-matrix#InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization), the construction of [[S-matrices]] $\mathcal{S}(g S_{int} + j A)$ in the sense of [[causal perturbation theory]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) for the given [[local observable|local]] [[interaction]]
 $g S_{int} + j A$. By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} the construction of these
-[[S-matrices]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] (remark \ref{TimeOrderedProductOfFixedInteraction} and def. \ref{ExtensionOfDistributions} below) of the corresponding $k$-ary [[time-ordered products]] of the [[interaction]] to the locus of coinciding interaction points. An inductive construction of the
+[[S-matrices]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] (remark \ref{TimeOrderedProductOfFixedInteraction} and def. \ref{ExtensionOfDistributions} below) of the corresponding $k$-ary [[time-ordered products]] of the [[interaction]] to the locus of coinciding interaction points (the [[fat diagonal]]). An inductive construction of the
 [[S-matrix]] this way is called _[[Epstein-Glaser renormalization|Epstein-Glaser-("re"-)normalization]]_ ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
 
 By paying attention to the [[scaling degree of distributions|scaling degree]] (def. \ref{ScalingDegree} below)
@@ -1364,7 +1364,7 @@ Then:
 
    hence of the corresponding [[perturbative QFTs]], by [this prop.](S-matrix#InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization),   is, [[induction|inductively]] in $k \in \mathbb{N}$, a [[finite dimensional vector space|finite dimensional]] [[affine space]],
    parameterizing the [[extension of distributions|extension]] of the [[time-ordered product]] $T_k$ to the locus of
-   coinciding interaction points.
+   coinciding interaction points (the [[fat diagonal]]).
 
 =--
 
