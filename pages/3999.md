@@ -46,12 +46,15 @@ The following is a list of properties of and pertaining to sequentially compact 
 2. The [[Eberlein-Smulian theorem|Eberlein–Šmulian theorem]] states that in a [[Banach space]], for a subset with regard to the [[weak topology]], compactness and sequentially compactness are both equivalent to the weaker notion of [[countably compact space|countable compactness]].
 
 3. A [[countable set|countable]] product of sequentially compact spaces is again sequentially compact.
+
 +-- {: .proof} 
 ###### Proof 
 Let $\{X_j\}$ be a countable family of sequentially compact spaces.  Let 
 $$\pi_k: \prod_j X_j \to X_k$$ 
-denote the $k^{th}$ projection, and let $(x(n))$ be a sequence in $\prod X_j$. We build a sequence of nested subsequences $S_j = x_j(n)$ as follows. For $j = 1$, choose a subsequence $S_1$ of the given sequence $(x_n)$ such that $x_1(1) = x(1)$ and such that $\pi_1(S_1)$ converges to a point $y_1 \in X_1$. Then, supposing that $S_j$ has been constructed, choose S_{j+1}$ to be a subsequence of $S_j$ that starts off the same way as $S_j$, 
+denote the $k^{th}$ projection, and let $(x(n))$ be a sequence in $\prod X_j$. We build a sequence of nested subsequences $S_j = x_j(n)$ as follows. For $j = 1$, choose a subsequence $S_1$ of the given sequence $(x_n)$ such that $x_1(1) = x(1)$ and such that $\pi_1(S_1)$ converges to a point $y_1 \in X_1$. Then, supposing that $S_j$ has been constructed, choose $S_{j+1}$ to be a subsequence of $S_j$ that starts the same way as $S_j$ for the first $j$ steps, 
+
 $$x_{j+1}(1) = x_j(1), \ldots, x_{j+1}(j) = x_j(j),$$ 
+
 and such that $\pi_{j+1}(S_{j+1})$ converges to $y_{j+1} \in X_{j+1}$. By the [[axiom of dependent choice]], we may suppose these choices have been made for all $j$, and then we form the diagonal sequence $S$ given by $x_j(j)$. This is a subsequence of each $S_j$, and so $\pi_j(S)$ converges to $y_j$ for every $j$, hence $S$ converges to the point $(y_j) \in \prod_j X_j$, and we have produced the desired convergent subsequence. 
 =-- 
 
