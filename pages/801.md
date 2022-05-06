@@ -81,6 +81,8 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[stable homotopy type]]
 
+* [[homotopy sphere]]
+
 [[!include notions of type]]
 
 [[!include homotopy n-types - table]]
@@ -93,7 +95,7 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 There are some useful points made in:
 
-* [[H. J. Baues]], _[[Homotopy Types]]_, in  _[[Handbook of Algebraic Topology]]_, (edited by [[I. M. James]]), North Holland, 1995.
+* [[H. J. Baues]], _[[Homotopy Types]]_, in  _[[Handbook of Algebraic Topology]]_, (edited by [[Ioan Mackenzie James]]), North Holland, 1995.
 
 
 [[!redirects homotopy types]]
