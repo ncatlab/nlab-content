@@ -15,9 +15,12 @@ A Baire lattice is a [[lattice|lattice theoretic]] abstraction of the [[Baire sp
 
 ## Definitions
 
-Recall that a [[complete lattice]] is a [[partial order|poset]] which has all small [[join|joins]] and [[meet|meets]]. For $a, b \in L$, we say that $a$ is __way below__ $b$ and write $a \ll b$ if whenever $S \subseteq L$ is a [[directed subset]] and $b \leq \bigvee S$ (where $\bigvee S$ denotes the [[join]] of $S$), then there exists $s \in S$ with $a \leq s$. Further we say that $L$ is __continuous__ if for every $a\in L$, the subset
+Recall that a [[complete lattice]] is a [[partial order|poset]] which has all small [[join|joins]] and [[meet|meets]]. For $a, b \in L$, we say that $a$ is __way below__ $b$ and write $a \ll b$ if whenever $S \subseteq L$ is a [[directed subset]] and $b \leq \bigvee S$ (where $\bigvee S$ denotes the [[join]] of $S$), then there exists $s \in S$ with $a \leq s$. Further we say that $L$ is __[[continuous lattice|continuous]]__ if for every $a\in L$, the subset
 $$ \Downarrow (a) \coloneqq \{ b \in L | b \ll a \} $$
 is directed and has join $a$.
+
+For example the [[category of open subsets|lattice of open subsets]] of a topological space is a continuous lattice if and only if the [[sobrification]] of the topological space is [[locally compact]] (i.e. the topology has a basis of compact neighborhoods).
+
 
 \begin{defn}
 An element $p \in L$ is called __irreducible__ if $a \vee b = p$ implies $p = a$ or $p = b$.
@@ -38,6 +41,7 @@ A [[complete lattice]] $L$ is called a __Baire lattice__ if for any countable fa
 \begin{theorem}
 Every continuous lattice is a Baire lattice.
 \end{theorem}
+
 
 ## Example
 
