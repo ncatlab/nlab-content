@@ -245,7 +245,7 @@ A standard textbook reference is chapter 4 of
 
 The equivalence to the [[Fulton-MacPherson operad]] is due to 
 
-* {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
+* {#Salvatore01} [[Paolo Salvatore]], _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
 
 Proof that [[the little n-disk operad is formal]] was sketched by [[Maxim Kontsevich]] and spelled out in
 
