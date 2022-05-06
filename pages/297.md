@@ -2631,3 +2631,6 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 [[!redirects Functorial quantum field theories]]
 [[!redirects functorial quantum field theory]]
 [[!redirects functorial quantum field theories]]
+
+[[!redirects functorial QFT]]
+
