@@ -14,5 +14,5 @@ Annals of Math. (2) 69 1959 223--246.
 
 V. A. Smirnov, Simplicial and operadic methods in algebraic topology, Translations of mathematical monographs 198, AMS, Providence, Rhode Island 2001. 
 
-K. Lefevre-Hasegawa [thesis](http://arxiv.org/pdf/math/0310337v1.pdf) (Paris, 2003). 
+Kenji Lefèvre-Hasegawa, _Sur les $A_\infty$-catégories_, [thesis](http://arxiv.org/pdf/math/0310337v1.pdf), (Université Denis Diderot – Paris 7, Paris, November 2003).  Corrections, by B. Keller, available [here]( http://people.math.jussieu.fr/~keller/lefevre/publ.html).
 
