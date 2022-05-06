@@ -123,7 +123,7 @@ $$
   S \to sSet(\lim_\to Y, S)
 $$
 
-is a weak equivalence. This is the case for all $S$ precisely if $\lim_\to S$ is [[contractible]], which is precisely our assumption on $Y$.
+is a weak equivalence. This is the case for all $S$ precisely if $\lim_\to Y$ is [[contractible]], which is precisely our assumption on $Y$.
 
 =--
 
