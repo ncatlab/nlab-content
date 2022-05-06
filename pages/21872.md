@@ -26,7 +26,7 @@ generates are [[semilinearity|semilinear]], it is parsable in polynomial time, i
 
 * multiple agreement $L1 = \{ a^n b^n c^n | a, b, c \in V, n \in \mathbb{N} \},$
 * crossed dependency $L2 = \{ a^n b^m c^n d^m | a, b, c, d \in V, m, n \in \mathbb{N} \}$,
-* duplication $L3 = \{ww | w \in V^\star\}$.
+* duplication $L3 = \{w w | w \in V^\star\}$.
 
 ## References
 
