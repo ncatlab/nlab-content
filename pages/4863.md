@@ -145,16 +145,17 @@ One example of KK-reduction where the full mapping stack appears is the reductio
 ## Examples
 
 ### Reductions of pure gravity with realistic gauge groups
+ {#ReductionsOfPureGravity}
 
 The [[gauge group]] of the [[experiment|experimentally]] verified [[standard model of particle physics]] is a [[quotient]] of the [[product]] of the [[special unitary groups]] $SU(3)$ and $SU(2)$ and the [[circle group]] $U(1)$.
 
 In ([Witten 81](#Witten81)) it was observed that the minimal [[dimension]] of a [[fiber]] $F$ for the KK-reduction to yield the [[gauge group]] $SU(3) \times SU(2) \times U(1)$ is $d_F = 7$ . This may be a meaningless numerical coincidence, but might be -- and was regarded as being -- remarkable: because it means that the minimum total dimension of a KK-compactification $X \times F$ that could yield a realistic model of observed physics is $4 + 7 = 11$. This is the uniquely specified dimensional of the maximal [[supergravity]] model: [[11-dimensional supergravity]].
 
-While there are many 7-[[dimension|dimensional]] [[manifolds]] $F$ that do yield the desired [[gauge group]] of the [[standard model of particle physics|standard model]], ([Witten 81](#Witten81)) also shows that for none of them does the remaining [[field (physics)|field]] content of the [[standard model of particle physics|standard model]] -- the [[fermions]] and the [[Higgs field]] -- come out correctly.
+While there are many 7-[[dimension|dimensional]] [[manifolds]] $F$ that do yield the desired [[gauge group]] of the [[standard model of particle physics|standard model]], [Witten 81](#Witten81) also shows that for none of them does the remaining [[field (physics)|field]] content of the [[standard model of particle physics|standard model]] -- the [[fermions]] and the [[Higgs field]] -- come out correctly, due to lack of [[chiral fermions]].
 
-Largely due to this result, the original pure Kaluza-Klein ansatz that starts with just pure [[Einstein gravity]] with no other [[field (physics)|fields]]) is nowadays regarded as a non-viable to produce the [[standard model of particle physics]]. But one can further play with the idea and consider more flexible [[model (physics)|models]] that still exhibit the essence of KK-reduction in parts. 
+Largely due to this result, the original pure Kaluza-Klein ansatz that starts with just pure [[Einstein gravity]] with no other [[field (physics)|fields]]) is nowadays regarded as non-viable route towards the [[standard model of particle physics]]. But one can further play with the idea and consider more flexible [[model (physics)|models]] that still exhibit the essence of KK-reduction in parts. 
 
-Notably the [[11-dimensional supergravity]] mentioned above contains more [[field (physics)|fields]] than just the field of [[gravity]]. Specifically it contains the [[supergravity C-field]] which is a [[higher gauge theory|higher]] analog of the [[electromagnetic field]]. KK-reductions of [[11-dimensional supergravity]] and of its conjectured [[M-theory]] [[UV-completion]] for instance on [[G2-manifold]] fibers turn out to be able to yield [[model (physics)|models]] which come at least very close to the [[standard model of particle physics]]. This we come to [below](#KKReductionOf11dSupergravity), see also at _[[duality between M-theory and type IIA string theory]]_.
+Notably the [[11-dimensional supergravity]] mentioned above contains more [[field (physics)|fields]] than just the field of [[gravity]]. Specifically it contains the [[supergravity C-field]] which is a [[higher gauge theory|higher]] analog of the [[electromagnetic field]]. KK-reductions of [[11-dimensional supergravity]] and of its conjectured [[M-theory]] [[UV-completion]] for instance on [[G2-manifold]] fibers turn out to be able to yield [[model (physics)|models]] which come at least very close to the [[standard model of particle physics]] when considered on [[orbifold]] spacetimes. This we come to [below](#KKReductionOf11dSupergravity), see also at _[[duality between M-theory and type IIA string theory]]_.
 
 ### Reductions of type II supergravity
  {#ReductionsOfTypeIISupergravity}
@@ -282,7 +283,7 @@ A survey of the history of the role of the KK-mechanism in theoretical physics i
 
 The seminal analysis of the semi-realistic KK-reductions is in 
 
-* {#Witten81} [[Edward Witten]], _Search for a realistic Kaluza-Klein theory_, Nuclear Physics B Volume 186, Issue 3, 10 August 1981, Pages 412-428 
+* {#Witten81} [[Edward Witten]], _Search for a realistic Kaluza-Klein theory_, Nuclear Physics B Volume 186, Issue 3, 10 August 1981, Pages 412-428 ([spire:10244](inspirehep.net/record/10244), <a href="https://doi.org/10.1016/0550-3213(81)90021-3">doi:10.1016/0550-3213(81)90021-3</a>)
 
 
 A brief discussion aimed at mathematicians of the KK-reduction of [[gauge fields]] is in 
