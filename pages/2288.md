@@ -112,7 +112,7 @@ Quick surveys include
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
 
-* [[Dylan Wilson]], _Introduction to stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/wcatss/sht1.pdf))
+* [[Dylan Wilson]], _Introduction to stable homotopy theory_ ([pdf](https://etale.site/livetex/wcatss/sht1.pdf), [[WilsonStableHomotopyTheory.pdf:file]])
 
 * [[Aaron Mazel-Gee]], _An introduction to spectra_ ([pdf](https://math.berkeley.edu/~aaron/writing/an-introduction-to-spectra.pdf))
 
@@ -120,7 +120,7 @@ Lecture notes include
 
 * [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_
 
-* [[David Barnes]], [[Constanze Roitzheim]], _Foundations of Stable Homotopy Theory_ ([pdf](https://www.kent.ac.uk/smsas/personal/csrr/stablemodelcatsCUP.pdf))
+* [[David Barnes]], [[Constanze Roitzheim]], _Foundations of Stable Homotopy Theory_, Cambridge University Press 2020 ([doi:10.1017/9781108636575](https://doi.org/10.1017/9781108636575))
 
 See also
 
