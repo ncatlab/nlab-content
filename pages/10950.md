@@ -23,6 +23,17 @@
 
 The [[philosophy]] of [[physics]].
 
+## Sentiments
+
+* [[theoretical aestheticism]]
+
+  [[universal exceptionalism]]
+
+* [[empiricism]]
+
+* [[idealism]]
+
+
 ## Related concepts
 
 * [[coordination]], [[measurement problem]]
