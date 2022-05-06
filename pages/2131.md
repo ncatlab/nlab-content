@@ -40,7 +40,7 @@ In [[higher category theory]] [[topological space]]s $X$ are often, via the [[ho
 Following the [[duality]] of [[space and quantity]], the concept dual to $\infty$-space is [[∞-quantity]]. See there for more details.
 
 
-# Referemces #
+# References #
 
 One place where the conceptual usefulness of interpreting categories internal to [[smooth space]]s as smooth **2-spaces** (and de-emphasizing conceptually their _realization_ as simplicial sheaves) has been particularly amplified is the work
 
