@@ -25,18 +25,21 @@ The most important consequence of a Reedy structure on $R$ is the existence of a
 
 ## Definition
 
-A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|lluf subcategories]] $R_+$ and $R_-$ and a [[function]] $d:ob(R) \to \alpha$ called _degree_, where $\alpha$ is an [[ordinal number]], such that:
+A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategories]] $R_+$ and $R_-$ and a [[total ordering]] on the objects of $R$, defined by a _degree_ function $d:Ob(R) \to \alpha$, where $\alpha$ is an [[ordinal number]], such that:
 
 * Every nonidentity morphism in $R_+$ raises degree,
 * Every nonidentity morphism in $R_-$ lowers degree, and
 * Every morphism $f$ in $R$ factors uniquely as a map in $R_-$ followed by a map in $R_+$.
 
+That is, we have two subcategories $R_+$ and $R_-$, such that all arrows in $R_+$ are degree-raising (more precisely, non-degree-lowering) and all arrows in $R_+$ are degree-lowering, and every arrow in $R$ is uniquely decomposible as a degree-lowering followed by a degree-raising.
 
 ## Examples
 
-* Any ordinal $\alpha$, considered as a [[poset]] and hence a category, is a Reedy category with $\alpha_+=\alpha$, $\alpha_-$ the [[discrete category]] on $ob(\alpha)$, and $d$ the identity.
+* Any ordinal $\alpha$, considered as a [[poset]] and hence a category, is a Reedy category with $\alpha_+=\alpha$, $\alpha_-$ the [[discrete category]] on $Ob(\alpha)$, and $d$ the identity.
 
-* The [[opposite category|opposite]] of any Reedy category is a Reedy category; simply exchange $R_+$ and $R_-$.
+* The [[opposite category|opposite]] of any Reedy category is a Reedy category: use the same degree function, and exchange $R_+$ and $R_-$.
+
+* The integers regarded as a poset is NOT a Reedy category, since it is not well-founded in either direction.
 
 * [[Theta category|Joyal's category]],   $\Theta$, is also a Reedy category.
 
@@ -47,16 +50,15 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|
 
 The prototypical examples of Reedy categories are the [[simplex category]] $\Delta$ and its opposite $\Delta^{op}$.  More generally, for any [[simplicial set]] $X$, its [[category of simplices]] $\Delta/X$ is a Reedy category.
 
-The Reedy category structure on $\Delta$ is a follows
+The Reedy category structure on $\Delta$ is defined by:
+
+* The degree function $d: Ob(\Delta) \to \mathbb{N}$ is defined by $[k] \mapsto k$. 
 
 * a map $[k] \to [n]$ is in $\Delta_+$ precisely if it is injective;
 
 * a map $[n] \to [k]$ is in $\Delta_-$ precisely if it is surjective.
 
-(...)
- 
-
-
+And the Reedy category structure on $\Delta^{op}$ is defined by switching $\Delta_+$ and $\Delta_-$.
 
 ## Related notions
 
