@@ -17,7 +17,7 @@
 
 ## Idea
 
-_Monodromy_ is the name for the [[action]] of the the [[homotopy group (of an ∞-stack)|homotopy groups]] of a [[space]] $X$ on [[fibers]] of [[covering spaces]] or [[locally constant ∞-stacks]] on $X$.
+_Monodromy_ is the name for the [[action]] of the [[homotopy group (of an ∞-stack)|homotopy groups]] of a [[space]] $X$ on [[fibers]] of [[covering spaces]] or [[locally constant ∞-stacks]] on $X$.
 
 
 ## In point-set topology
