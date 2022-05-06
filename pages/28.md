@@ -1316,7 +1316,7 @@ Let $\{G_i\}_{i \in I}$ and $\{H_j\}_{j \in J}$ be sets of [[groups]] and consid
 $$
   F
     \;\colon\;
-  \underset{i \in I}{sqcup} G_i
+  \underset{i \in I}{\sqcup} G_i
     \longrightarrow
   \underset{j \in J}{\sqcup} H_j
 $$
