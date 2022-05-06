@@ -125,7 +125,7 @@ This is [[Higher Topos Theory|HTT, cor. 4.1.2.6]].
 
 A morphism $p : K' \to K$ of [[simplicial set]]s is final precisely if for every [[quasicategory]] $C$
 
-*  and for every morphism $\bar F : K^{\triangleright} \to C$ that exibits a [[colimit in a quasi-category|colimit co-cone in]] $C$, also $(K')^\triangleright \stackrel{p}{\to} K^{\triangleright} \stackrel{\bar F}{\to} C$ is a colimit co-cone.
+*  and for every morphism $\bar F : K^{\triangleright} \to C$ that exhibits a [[colimit in a quasi-category|colimit co-cone in]] $C$, also $(K')^\triangleright \stackrel{p}{\to} K^{\triangleright} \stackrel{\bar F}{\to} C$ is a colimit co-cone.
 
 and equivalently precisely if
 
