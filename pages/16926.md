@@ -1,8 +1,15 @@
+[[!redirects 10-dimensional supergravity]]
 
 
 10-[[dimension|dimensional]] [[supergravity]]
 
 * [[type II supergravity]]
+
+  * [[type IIA supergravity]]
+  
+    * [[massive type IIA supergravity]]
+
+  * [[type IIB supergravity]]
 
 * [[heterotic supergravity]]
 
