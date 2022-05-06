@@ -66,6 +66,9 @@ The corresponding statement for [[MU]] is considerably more subtle, see _[[Milno
 
 * {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86
 
+* {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
+
+
 Review includes
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 and section 3.7 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
