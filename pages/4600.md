@@ -17,9 +17,9 @@
 
 Ordinary differential cohomology is the [[differential cohomology]]-refinement of [[ordinary cohomology]], for instance realized as [[singular cohomology]].
 
-Every [[generalized (Eilenberg-Steenrod) cohomology]]-theory has a refinement to [[differential cohomology]]. By _ordinary differential cohomology_ one refers, for emphasis, to the differential refinement of _ordinary [[integral cohomology]]_ , hence of the [[cohomology theory]] represented by the [[Eilenberg-MacLane spectrum]] $K(-,\mathbb{Z})$. To the extent that [[integral cohomology]] is often just called _cohomology_ if the context is clear, _ordinary differential cohomology_ is often called just _differential cohomology_ .
+Every [[generalized (Eilenberg-Steenrod) cohomology]]-theory has a refinement to [[differential cohomology]]. By _ordinary differential cohomology_ one refers, for emphasis, to the differential refinement of _ordinary [[integral cohomology]]_ , hence of the [[cohomology theory]] represented by the [[Eilenberg-MacLane spectrum]] $K(-,\mathbb{Z})$. To the extent that [[integral cohomology]] is often just called _cohomology_ when the context is clear, _ordinary differential cohomology_ is often called just _differential cohomology_ .
 
-Ordinary differential cohomology classifies [[circle n-bundles with connection]]. In low degree this are ordinary [[circle bundle]]s with [[connection on a bundle|connection]]. In the next degree this are [[circle 2-group]] [[principal 2-bundles]] / [[bundle gerbes]] with [[connection on a 2-bundle|2-connection]].
+Ordinary differential cohomology classifies [[circle n-bundles with connection]]. In low degree these are ordinary [[circle bundle]]s with [[connection on a bundle|connection]]. In the next degree they are [[circle 2-group]] [[principal 2-bundles]] / [[bundle gerbes]] with [[connection on a 2-bundle|2-connection]].
 
 
 
@@ -33,9 +33,9 @@ Here we write $H_{diff}^\bullet(X)$ for the ordinary differential cohomology gro
  {#CurvatureAndCharClass}
  {#AbstractProperties}
 
-There are two [[natural transformation|natural]] morphism
+There are two [[natural transformation|natural]] morphisms:
 
-1. underlying [[characteristic class]] 
+1. The underlying [[characteristic class]] 
 
    $$
      c : H_{diff}^\bullet(X) \to H^\bullet(X,\mathbb{Z})
@@ -47,7 +47,7 @@ There are two [[natural transformation|natural]] morphism
 
    * for $H^3_{diff}(X)$ this is called the [[Dixmier-Douady class]] of the corresponding [[bundle gerbe]].
 
-1. [[curvature]] 
+1. The [[curvature]] 
 
    $$
     F : H_{diff}^\bullet(X) \to \Omega^\bullet_{cl}(X)
@@ -57,7 +57,7 @@ There are two [[natural transformation|natural]] morphism
 
 
 
-The following is either a definition, if regarded as an axiomatic characterization of ordinary differential cohomology, or it is an proposition, if regarded as a property of one of the [models](#Models).
+The following is either a definition, if regarded as an axiomatic characterization of ordinary differential cohomology, or it is a proposition, if regarded as a property of one of the [models](#Models).
 
 Let $X$ be a [[smooth manifold]] and $n \in \mathbb{N}$ with $n \geq 1$ Write
 
