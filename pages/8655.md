@@ -246,14 +246,14 @@ To the extent that all observables of these theories, on the [[3-sphere]], are [
 
 
 
-## Relation to Morita equivalence
+### Relation to Morita equivalence
  {#Morita}
 
-According to [[Albert Schwarz]],
+According to [Schwarz 04](#Schwarz04):
 
->I am convinced that the mathematical notion of [[Morita equivalence]] of [[associative algebras]] and its generalization for [[differential algebra|differential associative algebras]] should be regarded as the mathematical foundation of [[duality in string theory|dualities in string/M-theory]]. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
+> I am convinced that the mathematical notion of [[Morita equivalence]] of [[associative algebras]] and its generalization for [[differential algebra|differential associative algebras]] should be regarded as the mathematical foundation of [[duality in string theory|dualities in string/M-theory]]. 
 
-Schwarz showed that [[KK-compactifications]] on [[Morita equivalence|Morita equivalent]] [[noncommutative tori]] are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+[[Albert Schwarz|Schwarz]] showed that [[KK-compactifications]] on [[Morita equivalence|Morita equivalent]] [[noncommutative tori]] are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
 
 [BMRS08](#BMRS08) discusses an axiomatic definition of [[topological T-duality]] generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
@@ -263,11 +263,14 @@ Morita theoretic ideas are also involved in [[factorization homology]], the [[bl
 
 ## Duality after compactification
 
+Informal comments on a possible general picture of duality in physics arising from [[duality in string theory]], especially after [[KK-compactification]], from [Brennan, Carta &amp; Vafa 17, p. 7](duality+in+string+theory#BrennanCartaVafa17):
+
 > Since we have seen that the full [[string theories]] are all interrelated by a sequence of [[duality in string theory|dualities]], one would expect that their [[KK-compactification|compactifications]] are also related by dualities. As it turns out, these relations are so abundant that we can make the following observation:
 
 > **"Conjecture"**: Whenever the [[dimension]], [[number of supersymmetries|number of preserved supercharges]], and [[chiral fermion|chiralities]] of two different [[string theory vacuum|compactifications of string theory]] match, there are choices of [[KK-compactification|compactification geometries]] such that they are dual descriptions of the same physical theory.
 
-> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory. ([Brennan, Carta &amp; Vafa 17, p. 7](duality+in+string+theory#BrennanCartaVafa17))
+> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory.
+
 
 
 ## Related concepts
@@ -280,27 +283,54 @@ There is also a duality in the _description_ of physics:
 
 ## References
 
-* {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_ ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+### General
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
+* {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
+
+
+### As Morita equivalence
+
+On the idea that duality in physics may be captured by the notion of [[Morita equivalence]]:
+
+* {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_ ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
 
 * {#Pioline99} B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_ ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
- 
-* {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
 
-* [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
+See also
+
+* {#Schwarz04} [[Albert Schwarz]], _My Life In Science_, 2004 ([pdf](https://www.math.ucdavis.edu/~schwarz/bion.pdf), [[AlbertSchwarzLifeInScience.pdf:file]])
+
+Specifically concerning [[T-duality]]:
+
+* {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_ ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
 
 * {#BMRS08} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-branes, KK-theory and duality on noncommutative spaces_, ([pdf](http://eprints.soton.ac.uk/46524/1/D-branes,_KK-theory_and__duality_on_noncommutative_spaces_BRMS_Published_JoP.pdf))
+
+Specifically concerning [[mirror symmetry]]:
 
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
 
 
-* {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_ ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
+See also more general discussion of [[Morita equivalence]]:
+
+* {#BZBJ15} [[David Ben-Zvi]], Adrien Brochier, David Jordan, _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_, ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
+
+* {#MW10} [[Scott Morrison]], [[Kevin Walker]], _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
+
+* {#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
 
 
-* {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
+### Duality in string theory
 
+On [[duality in string theory]] (but see there fore more):
+
+* {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
+
+* [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
+
+ 
 
 
 [[!redirects dualities in physics]]
