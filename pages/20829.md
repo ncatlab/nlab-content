@@ -32,3 +32,6 @@ See also
 
 
 [[!redirects down quarks]]
+
+[[!redirects down-quark]]
+[[!redirects down-quarks]]
