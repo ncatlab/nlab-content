@@ -424,6 +424,10 @@ Comprehension categories are defined in
 
 * [[Bart Jacobs]], *Comprehension categories and the semantics of type dependency*, Theoret. Comput. Sci. 107 (1993), no. 2, 169--207
 
+A 2-categorical treatment of variant kinds of comprehension category is given in 
+
+* [[Paul-André Melliès]], Nicolas Rolland, _Comprehension and quotient structures in the language of 2-categories_, ([arXiv:2005.10015](https://arxiv.org/abs/2005.10015))
+
 A correspondence with orthogonal factorization systems is discussed in
 
 * Clemens Berger, Ralph M. Kaufmann, *Comprehensive factorisation systems* ([pdf](https://arxiv.org/abs/1710.09438))
