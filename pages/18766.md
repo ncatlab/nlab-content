@@ -45,7 +45,7 @@ A MALL hyperdoctrine models predicate classical linear logic without exponential
 A **linear-nonlinear hyperdoctrine** is a MALL hyperdoctrine $L$ together with a [[first-order hyperdoctrine]] $M$ and a fiberwise [[monoidal adjunction]] $F : M \rightleftarrows L : G$.
 =--
 
-A linear-nonlinear hyperdoctrine models full predicate classical linear logic, with the [[!-modality]] modeled as the comonad $F G$ and $?$ as its de Morgan dual.
+A linear-nonlinear hyperdoctrine models full predicate classical linear logic, with the [[exponential modality]] modeled as the comonad $F G$ and $?$ as its de Morgan dual.
 
 ## References
 
