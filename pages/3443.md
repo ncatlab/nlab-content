@@ -2,7 +2,7 @@
 
 * [website](http://rwilliamson-mathematics.info/)
 
-* [thesis](http://rwilliamson-mathematics.info/cylindrical_model_structures.pdf)
+* [thesis](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html)
 ## Related $n$Lab entries
 
 * [[cylinder functor]]
