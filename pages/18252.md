@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,7 +21,8 @@ The canonical [[line bundle]] over a [[projective space]] is sometimes called it
 
 ## Definition
 
-### Bare definition
+
+### Definition
   {#BareDefinition}
 
 Let $k$ be a [[field]] (or more generally a [[ring]]) and $n \in \mathbb{N}$ a [[natural number]].
@@ -77,9 +79,10 @@ Here:
 
 * $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space]] by the [[diagonal action]];
 
-* and $k^\ast$ is $k$ equipped with the dual $k^\times$-action
+* and $k^\ast$ is $k$ equipped with the _dual_ $k^\times$-action
 
-  $$
+  \[
+    \label{DualActionOnk}
     \array{
       k^\times \times k^\ast 
       &\longrightarrow&
@@ -87,7 +90,7 @@ Here:
       \\
       (g,z) &\mapsto& z/g
     }
-  $$
+  \]
 
 * so that, for $z \neq 0$,
 
@@ -105,7 +108,27 @@ Here:
     }
   $$
 
-Moreover, the horizontal map to $k^{n+1}$ in (eq:TautologicalBundleProjection) exhibits the total space of the tautological bundle as the "[[blow-up]]" of the origin of $k^{n+1}$.
+This is "tautological" in the sense that the [[fiber]] of the bundle over a point $[v]$ in the projective base space, which is the name of the line through some vector $v$, consists of all the points $z \cdot v$ on that line -- as made explicit by the horizontal map in (eq:TautologicalBundleProjection).
+
+The further [[corestriction]] of that horizontal map to $k^{n+1}$
+
+$$
+    \mathcal{L}_{k P^n}
+    \coloneqq 
+    \frac{
+      (k^{n+1} \setminus \{0\}) \times k^\ast
+    }{
+      k^\times
+    }
+    \overset{
+      [v,z]
+      \mapsto
+       v \cdot z
+    }{\longrightarrow}
+    k^{n+1}
+$$
+
+exhibits the total space of the tautological bundle as the "[[blow-up]]" of the origin of $k^{n+1}$.
 
 {#Illustration} The following illustration shows the tautological [[real line bundle]] over 1-dimensional [[real projective space]], but the general picture is "the same", up to higher dimensionality of all spaces involved:
 
@@ -115,12 +138,87 @@ Moreover, the horizontal map to $k^{n+1}$ in (eq:TautologicalBundleProjection) e
 \end{imagefromfile}
 
 
+### Dual tautological line bundle
+ {#DualTautologicalLineBundle}
+
+The [[dual vector bundle|dual line bundle]] of the tautological line bundle is 
+
+\[
+  \label{DualTautologicalBundleProjection}
+  \array{
+    \mathcal{L}^\ast_{k P^n}
+    & \coloneqq & 
+    \frac{
+      (k^{n+1} \setminus \{0\}) \times k
+    }{
+      k^\times
+    }
+    &
+    \overset{
+      [v,z]
+      \mapsto
+      [ (v , z) ]
+    }{\hookrightarrow}
+    &
+    \frac{
+      k^{n+2} \setminus \{0\}
+    }{
+      k^\times
+    } 
+    &
+    =
+    \,
+    k P^{n+1}   
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow {}^{\mathrlap{
+       \frac{id \times pt}{ k^\times }
+    }}
+    \\
+    k P^n
+    &=&
+    \frac{
+      (k^{n+1} \setminus \{0\}) \times \ast
+    }{
+      k^\times
+    }
+  }
+\]
+
+with [[typical fiber]] $k$ instead of $k^\ast$, meaning that the [[action]] of $k^\times$ on the fibers is now the direct multiplication action, instead of the dual action (eq:DualActionOnk).
+
+The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topological spaces|embeds]] the [[complement]] of the single point $[(v=0,1)] \in k P^{n+1}$. That point however is the [[limit of a sequence|limit]] as $z \to \infty$, hence is the image of the base point as (eq:DualTautologicalBundleProjection) [[extension|extends]] to a map on the [[Thom space]] of the dual tautological line bundle:
+
+$$
+  Th
+  \left(
+    \mathcal{L}^\ast_{k P^n}
+  \right)
+    \underoverset
+    {\simeq}
+    {
+      [v,z]
+      \mapsto
+      \left\{
+      \array{
+        [(0,1)] &\vert& z = \infty
+        \\
+        [ (v , z) ] &\vert& else
+      }
+      \right.
+    }{\longrightarrow}
+   k P^{n+1}
+  \,.
+$$
+
+
 ### As a topological line bundle
   {#AsAtopologicalLieBundle}
 
-We discuss the tautological line bundle as a [[topological vector bundle]]. Hence let $k$ be the [[topological field]] either
+We make fully explicit how the tautological line bundle is a [[topological vector bundle]]. Hence regard $k$ as a [[topological field]], either
 
-* $k = \mathbb{R}$ the [[real numbers]]
+* $k = \mathbb{R}$ the [[real numbers]],
 
 * or $k = \mathbb{C}$ the [[complex numbers]]
 
