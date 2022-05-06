@@ -27,7 +27,7 @@ Corrections and streamlining of the computations:
 * H. Kawai, S.-H. H. Tye, 
 _Chiral anomalies, effective lagrangians and differential geometry_, Physics Letters B Volume 140, Issues 5–6, 14 June 1984, Pages 403-407 (<a href="https://doi.org/10.1016/0370-2693(84)90780-9">doi:10.1016/0370-2693(84)90780-9</a>)
 
-* J. L. Mañes, _Differential geometric construction of the gauged Wess-Zumino action_, Nuclear Physics B Volume 250, Issues 1–4, 1985, Pages 369-384 (<a href="https://doi.org/10.1016/0550-3213(85)90487-0>doi:10.1016/0550-3213(85)90487-0</a>)
+* J. L. Mañes, _Differential geometric construction of the gauged Wess-Zumino action_, Nuclear Physics B Volume 250, Issues 1–4, 1985, Pages 369-384 (<a href="https://doi.org/10.1016/0550-3213(85)90487-0">doi:10.1016/0550-3213(85)90487-0</a>)
 
 * Tomáš Brauner, Helena Kolešová, _Gauged Wess-Zumino terms for a general coset space_, Nuclear Physics B Volume 945, August 2019, 114676 ([doi:10.1016/j.nuclphysb.2019.114676](https://doi.org/10.1016/j.nuclphysb.2019.114676))
 
@@ -45,7 +45,7 @@ Interpretation as [[Skyrmion]]/[[baryon current]]:
 
 Concrete form for $N$-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 2d:
 
-* C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopv Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
+* C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopy Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
 
 Concrete form for 2 [[flavor physics|flavors]] in 4d:
 
