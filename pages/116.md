@@ -261,6 +261,8 @@ For more see [[counterexamples in algebra]].
 
   * [[cogroup]]
 
+  * is a commutative pregroup as mentioned in [[pregroup grammar]]
+
 * [[ring]], [[ring object]]
 
 * [[automorphism group]], [[automorphism 2-group]], [[automorphism ∞-group]],
