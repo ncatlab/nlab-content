@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-functor|fully faithful]] [[inverse image]] (such as a [[cohesive (∞,1)-topos]]), the extra [[left adjoint]] $\Pi$ to the [[inverse image]] $Disc$ of the [[global sections]] [[geometric morphism]] $\Gamma$ induces a  [[higher modality]] $&#643; \coloneqq Disc \circ \Pi$, which sends an [[object]] to something that may be regarded equivalently as its [[geometric realization]] or its [[fundamental ∞-groupoid]] (see at _[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]_). In either case $&#643; X$ may be thought of as the _[[shape]]_ of $X$ and therefore one may call $&#643;$ the _shape modality_.  It forms an [[adjoint modality]] with the [[flat modality]] $\flat \coloneqq Disc \circ \Gamma$.
+In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-functor|fully faithful]] [[inverse image]] (such as a [[cohesive (∞,1)-topos]]), the extra [[left adjoint]] $\Pi$ to the [[inverse image]] $Disc$ of the [[global sections]] [[geometric morphism]] $\Gamma$ induces a  [[higher modality]] $&#643; \coloneqq Disc \circ \Pi$, which sends an [[object]] to something that may be regarded equivalently as its [[geometric realization]] or its [[fundamental ∞-groupoid]] (see at _[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]_ and at _[[shape via cohesive path ∞-groupoid]]_). In either case $&#643; X$ may be thought of as the _[[shape]]_ of $X$ and therefore one may call $&#643;$ the _shape modality_.  It forms an [[adjoint modality]] with the [[flat modality]] $\flat \coloneqq Disc \circ \Gamma$.
 
 
 
@@ -96,7 +96,6 @@ Then for $X\in H$ the locally constant ∞-stacks $E\in \L\Const(X)$, regarded a
 If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham space]] functor $\Im$ satisfies the above assumptions. The $\Im$-closed morphisms are precisely the [[formally étale morphisms]].
 
 ## Related entries
-
 
 * [[shape]]
 
