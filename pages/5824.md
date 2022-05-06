@@ -97,3 +97,4 @@ such that the vertical arrows are all monic, the squares on the right are serial
 [[!redirects pasting law for pullbacks]]
 [[!redirects pasting law for pushouts]]
 [[!redirects pasting law]]
+[[!redirects pullback lemma]]
