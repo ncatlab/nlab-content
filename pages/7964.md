@@ -182,6 +182,10 @@ The original articles explaining what is now called the Higgs mechanism by [[spo
   
 While all these articles essentially describe the Higgs mechanism, apparently only the one by Peter Higgs explicitly points out that this mechanism predicts the existence of a new, then unobserved, boson, the one therefore now called the _Higgs boson_.
 
+Review includes
+
+* Sally Dawson, Christoph Englert, Tilman Plehn, _Higgs Physics: It ain't over till it's over_, Physics Reports ([arXiv:1808.01324](https://arxiv.org/abs/1808.01324))
+
 The general theory of [[spontaneous symmetry breaking]] is reviewed in
 
 * Jeremy Bernstein, _Spontaneous symmetry breaking, gauge theories, the Higgs mechanism and all that_, Rev. Mod. Phys. 46, 7&#8211;48 (1974)  ([pdf](http://www.calstatela.edu/faculty/kaniol/p544/rmp46_p7_higgs_goldstone.pdf))
