@@ -59,5 +59,8 @@ Proposal of a non-abelian [[DBI-action]] via $T \bar T$-deformation:
 
 [[!redirects TT deformations]]
 
+[[!redirects TT-deformation]]
+[[!redirects TT-deformations]♧
+
 [[!redirects T-barT deformation]]
 [[!redirects T-barT deformations]]
