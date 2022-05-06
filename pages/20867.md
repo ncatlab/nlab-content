@@ -34,10 +34,63 @@ In [[knot theory]], by the _STU-relations_, one means the following [[relations]
 ## Properties
 
 ### Relation to weight systems and Lie algebra objects
+ {#RelationToLieAlgebraObjects}
 
 By definition, the STU-relations are the relations respected by [[weight systems]] on [[Jacobi diagrams]].
 
-When regarded as relations of [[string diagrams]], the STU relations characterize the [[Jacobi identity]] for [[Lie algebra objects]], or more generally the action-property of [[Lie modules]]. This is the reason behind the existence of [[Lie algebra weight systems]].
+When regarded as relations of [[string diagrams]], the STU relations characterize the [[Jacobi identity]] for [[Lie algebra objects]], or more generally the [[Lie action property]] of [[Lie modules]]: 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/LieActionPropertyAsSTURelation.jpg" width="500">
+</center>
+
+$$
+  \begin{aligned}
+    \Leftrightarrow
+    &
+    \;\;\;\;\;
+    \rho(f(x,y),z) \;=\; \rho(y,\rho(x,z)) - \rho(x,\rho(y,z))
+    \\
+    \underset{
+      {f = [-,-]}
+      \atop
+      {Lie\;bracket}
+    }{
+      \Leftrightarrow
+    }
+    &
+    \;\;\;\;\;
+    \underset{
+       {Lie\;action\;property}
+    }{
+    \underbrace{
+      \rho([x,y],z) \;=\; \rho(y,\rho(x,z)) - \rho(x,\rho(y,z))
+    }
+    }
+    \\
+    \underset{
+      {\rho = -[-,-]}
+      \atop
+      {adjoint\;action}
+    }{
+      \Leftrightarrow
+    }
+    &
+    \;\;\;\;\;
+    \underset{
+       {Jacobi\;identity}
+    }{
+    \underbrace{
+      [[x,y],z] \;=\; - [y,[x,z]] + [x,[y,z]]
+    }
+    }
+  \end{aligned}
+$$
+
+
+This is the reason behind the existence of [[Lie algebra weight systems]].
+
+
 
 
 ### Relation to 4T-relations
