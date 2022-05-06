@@ -135,8 +135,7 @@ For a short and precise introduction see
 
 and for a [[Fukaya category]]-oriented introduction see chapter 1 in 
 
-* P. Seidel,  _Fukaya category and Picard-Lefschetz theory_,
-<a href="http://web.archive.org/web/20070807231549/http://www.math.uchicago.edu/~seidel">draft version</a>
+* P. Seidel,  _Fukaya category and Picard-Lefschetz theory_
 
 A very detailed treatment of $A_\infty$-categories is a recent book 
 
@@ -158,6 +157,13 @@ More [[category theory]] and [[homotopy theory]] of $A_\infty$-categories is dis
 * {#LefevreHasegawa03} Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_ ([arXiv:math/0310337](http://arxiv.org/abs/math/0310337))
 
 * [[Bruno Valette]], _Homotopy theory of homotopy algebras_ ([pdf](http://math.unice.fr/~brunov/HomotopyTheory.pdf))
+
+See also 
+
+* Yong-Geun Oh, [[Hiro Lee Tanaka]], _$A_\infty$-categories, their $\infty$-categories, and their localizations_ ([arXiv:2003.05806](https://arxiv.org/abs/2003.05806))
+
+
+
 
 ### For $A_\infty$-categories in the wider sense ##
 
