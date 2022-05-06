@@ -729,7 +729,7 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanré]], _Algebraic Models in Geometry_, Oxford University Press 2008
 
-* {#MF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MF12} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 * {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
 
