@@ -246,7 +246,7 @@ the following relations:
 ### With exotic boundary 7-spheres
  {#ExoticBoundary7Spheres}
 
-Consider $S^4$ the [[4-sphere]] and $D^4$ be the 4-[[disk]], the latter a [[manifold with boundary]]. Then a $D^4$-[[fiber bundle]] over $S^4$ is an 8-dimensional [[manifold with boundary]]. 
+Consider $S^4$ the [[4-sphere]] and let $D^4$ denote the 4-[[disk]] regarded as a [[manifold with boundary]]. Then a $D^4$-[[fiber bundle]] over $S^4$ is an 8-dimensional [[manifold with boundary]]. 
 
 By the [[clutching construction]], such bundles are classified by [[homotopy classes]] of maps
 
@@ -273,7 +273,7 @@ $$
   \big)
 $$
 
-Here the left hand side must be an [[integer]], which the right hand side is not an integer for all choices of [[pairs]] $(m,n)$. This means that for these choices the [[boundary]] [[7-sphere]] is not [[diffeomorphism|diffeomorphic]] to the standard smooth 7-sphere -- it is instead an [[exotic 7-sphere]].
+Here the left hand side must be an [[integer]], while the right hand side is not an integer for all choices of [[pairs]] $(m,n)$. This means that for these choices the [[boundary]] [[7-sphere]] is not [[diffeomorphism|diffeomorphic]] to the standard smooth 7-sphere -- it is instead an [[exotic 7-sphere]].
 
 (see [Joachim-Wraith, p. 2-3](#JoachimWraith))
 
