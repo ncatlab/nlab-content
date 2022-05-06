@@ -215,6 +215,7 @@ See _[[categorical semantics of homotopy type theory]]_.
 
 * [[categorical model of dependent types]]
 
+* [[Awodey's conjecture]]
 
 
 ## References
