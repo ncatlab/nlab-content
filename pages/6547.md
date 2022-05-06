@@ -87,6 +87,8 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 ## References
 
+### General
+
 The classification in [[Berger's theorem]] is due to
 
 * {#Berger} M. Berger, _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des
@@ -113,7 +115,11 @@ See also
 
 * {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
 
+### In supergravity and string theory
 
+Discussion of special holonomy manifolds in [[supergravity]] and [[superstring theory]] as fiber-spaces for [[KK-compactifications]] preserving some [[number of supersymmetries]]:
+
+* [[Steven Gubser]], _Special holonomy in string theory and M-theory_, In [[Steven Gubser]], Joseph Lykken (eds.) _Strings, Branes and Extra Dimensions - TASI 2001_, World Scientific 2004 ([arXiv:hep-th/0201114](https://arxiv.org/abs/hep-th/0201114), [doi:10.1142/5495](https://doi.org/10.1142/5495))
 
 
 [[!redirects manifold with special holonomy]]
