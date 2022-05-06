@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### $\infty$-Chern-Weil theory
+#### Chern-Weil theory
 +-- {: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -246,7 +246,7 @@ Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F 
 
 * [[contact instanton]]
 
-* [[Nahm transform]]
+* [[Bogomolny equation]], [[Nahm transform]]
 
 * [[caloron]]
 
