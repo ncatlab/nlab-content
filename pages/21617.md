@@ -17,11 +17,71 @@
 
 ## Idea
 
-A _lens space_ is an example of a [[3-manifold]], the simplest after the [[3-sphere]] $S^{3}$ and $S^{2} \times S^{1}$. Lens spaces are the only 3-manifolds with [[finite group|finite]], [[cyclic group|cyclic]], [[trivial group|non-trivial]] [[fundamental group]]. Proving the reverse direction of this (that a 3-manifold with such a fundamental group must be a lens space) is closely related to the [[Poincaré conjecture]].
+A _lens space_ is the [[quotient space]] 
 
-Lens spaces are very important in [[geometric topology]]. They offer the simplest examples of [[smooth manifolds]] which cannot be distinguished by [[homotopy theory]].
+$$
+  L\big(n,\{l_i\}_{i=0}^d\big)
+  \;\coloneqq\;
+  S^{2d+1} / \mathbb{Z}_n
+  \;\coloneqq\;
+  S
+  \big(
+    \mathbb{C}_{l_0}
+    \oplus
+    \cdots
+    \oplus
+    \mathbb{C}_{l_d}
+  \big)
+  / \mathbb{Z}_n
+$$
 
-There is a lens space $L(p,q)$ for every [[pair]] of [[integers]] $p$ and $q$, which can be constructed by [[Dehn surgery]] on an [[unknot]] with coefficient $-\frac{p}{q}$. One can instead construct $L(p,q)$ by an _integral_ Dehn surgery on the framed 'generalised Hopf link' 
+
+of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$; specifically, 
+under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] underlying $\mathbb{C}^{d+1}$, 
+by the [[action]] induced from a [[linear representation]] of the form
+
+$$
+  \array{
+    \mathbb{Z}_n 
+      \times
+    \mathbb{C}^{d+1} 
+    &
+      \overset{
+      }{
+        \longrightarrow
+      } 
+    &
+    \mathbb{C}^{d+1}
+    \\
+    \big(
+      [k], (z_0, \cdots, z_{d}) 
+    \big)
+    &\mapsto&
+    \Big(
+      \exp( 2 \pi \mathrm{i} \tfrac{l_0}{n} ) \cdot z_0
+      ,
+      \cdots
+      ,
+      \exp( 2 \pi \mathrm{i} \tfrac{l_d}{n} ) \cdot z_d
+    \Big)
+  }
+$$
+
+for [[natural numbers]] $l_i$ with $gcd(1,n) = 1$.
+
+Often this is considered by default for $2d + 1 = 3$, in which case lens spaces are examples of [[3-manifolds]], and as such are in some sense the simplest after the [[3-sphere]] $S^{3}$ and the [[product manifold]] $S^{2} \times S^{1}$ of the [[2-sphere]] with the [[circle]]. 
+
+## Properties
+
+### Homotopy theory
+
+Lens spaces are the only [[3-manifolds]] with [[finite group|finite]], [[cyclic group|cyclic]], [[trivial group|non-trivial]] [[fundamental group]]. The reverse direction of this statement (that a 3-manifold with such a fundamental group must be a lens space) is closely related to the [[Poincaré conjecture]].
+
+Lens spaces are important in [[geometric topology]]. They offer the simplest examples of [[smooth manifolds]] which cannot be distinguished by [[homotopy theory]].
+
+### Via Dehn surgery
+
+The 3-dimensional lens space $L(p,q) \coloneqq L(p, \{1,q\})$, for [[coprime integers]] $p$ and $q$, can be constructed by [[Dehn surgery]] on an [[unknot]] with coefficient $-\frac{p}{q}$. One can instead construct $L(p,q)$ by an _integral_ Dehn surgery on the framed 'generalised Hopf link' 
 
 \begin{centre}
   \begin{tikzpicture}
@@ -46,6 +106,10 @@ $$
 a_{1} - \frac{1}{a_{2} - \frac{1}{\cdots - \frac{1}{a_{n}}}}
 $$
 
+## Related concepts
+
+* [[Seifert 3-manifold]]
+
 ## References
 
 See also
@@ -54,8 +118,17 @@ See also
 
 * Wikipedia, _[Lens space](https://en.wikipedia.org/wiki/Lens_space)_.
 
-For [[orbifolds]]:
+In the context of [[orbifolds]]:
 
 * Siddhartha Gadgil, _Equivariant framings, lens spaces and contact structures_, Pacific Journal of Mathematics, Vol. 208 (2003), No. 1, 73–84 ([doi:10.2140/pjm.2003.208.73](http://dx.doi.org/10.2140/pjm.2003.208.73))
+
+* Michel Boileau, Steven Boyer, Radu Cebanu, Genevieve S. Walsh, Section 3 of: _Knot commensurability and the Berge conjecture_, Geom. Topol. 16 (2012) 625-664 ([arXiv:1008.1034](https://arxiv.org/abs/1008.1034))
+
+On the [[3d-3d correspondence]] for lens spaces:
+
+* [[Du Pei]], Chapter III of: _3d-3d correspondence for Seifert manifolds_, 2016 ([spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a))
+
+
+
 
 [[!redirects lens spaces]]
