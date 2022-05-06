@@ -164,9 +164,9 @@ An analogous discussion for inclusion of [[omega-mesons]] is in [Gudnason-Speigh
 ### As a holographic boundary theory
  {#AsBoundaryFieldTheory}
 
-With suitable care, the Skyrmions in 4d spacetime [above](#Definition) are the [[AdS-CFT|holographic]] reduction of [[instantons]] 5d [[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17).
+The Skyrmions in 4d spacetime [above](#Definition), with [[vector meson]]-contributions included, are the [[AdS-CFT|holographic]]/[[KK-theory]] reduction of [[instantons]] in [[D=5 Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17).
 
-This phenomenon is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89), this is highlighted in [Sutcliffe 10](#Sutcliffe10), [Sutcliffe 15](#Sutcliffe15).
+This phenomenon is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89), this is highlighted and developed in [Sutcliffe 10](#Sutcliffe10), [Sutcliffe 15](#Sutcliffe15).
 
 In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as a [[D4-D8-brane intersection|D4/D8]-[[intersecting D-brane model]] described by the [[AdS-QCD correspondence]] ("[[holographic QCD]]").
 
@@ -436,6 +436,14 @@ For a closer look at the underlying computations, see
 Review is in
 
 * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+An alternative scenario with [[M5-branes]] instead of [[D4/D8-brane intersections]]:
+
+* Tatiana A. Ivanova, [[Olaf Lechtenfeld]], Alexander D. Popov, _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
+
+
+
+
 
 
 [[!redirects skyrmions]]
