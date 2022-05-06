@@ -39,7 +39,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], the [[Belle experiment]] and the BaBar experiment (see references [below](#References)).
 
 
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
 
 > graphics grabbed from [Dey 18](#Dey18)
 
@@ -75,6 +75,7 @@ In any case, further and more sensitive experiments are needed to  confirm and e
 ## Possible models
 
 Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the [[standard model of particle physics]] that could possibly explain the flavour anomalies (if indeed they are real) includes the following:
+
 
 ### Leptoquarks
  {#Leptoquarks}
@@ -207,13 +208,11 @@ Original articles include:
 
 * Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
 
-* {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits fOrigto $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
 
 * {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_ ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516))
 
 * Domagoj Leljak, Blazenka Melic, Monalisa Patra, _On lepton flavour universality in semileptonic $B_c \to \eta_c, J/\psi$ decays_ ([arXiv:1901.08368](https://arxiv.org/abs/1901.08368))
 
-* Srimoy Bhattacharya, Aritra Biswas, Zaineb Calcuttawala, Sunando Kumar Patra, _An in-depth analysis of $b \to c(s)$ semileptonic observables with possible $\mu \to \tau$ mixing_ ([arXiv:1902.02796](https://arxiv.org/abs/1902.02796))
 
 Cautionary remarks include
 
@@ -226,6 +225,18 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 * {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
 
 ### Possible explanations/models
+
+#### General EFT [parameterization
+
+* {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits to $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
+
+
+* Srimoy Bhattacharya, Aritra Biswas, Zaineb Calcuttawala, Sunando Kumar Patra, _An in-depth analysis of $b \to c(s)$ semileptonic observables with possible $\mu \to \tau$ mixing_ ([arXiv:1902.02796](https://arxiv.org/abs/1902.02796))
+
+
+
+* {#ACDGMM19} Marcel Algueró, Bernat Capdevila, Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, _What $R_K$ and $Q_5$ can tell us about New Physics in $b \to s \ell \ell$ transitions?_ ([arXiv:1902.04900](https://arxiv.org/abs/1902.04900))
+
 
 #### Leptoquarks
 
