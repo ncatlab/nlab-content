@@ -66,7 +66,8 @@ But this action is not an [[effective group action]]: Precisely the diagonal cen
 
 There is then a [[commuting diagram]] of [[Lie groups]]
 
-$$
+\[
+  \label{CompatibilityDiagram}
   \array{
     Sp(2) \times Sp(1)
     &\longrightarrow&
@@ -78,10 +79,44 @@ $$
     &\longrightarrow&
     SO(8)
   }
-$$
+\]
 with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8)]], respectively, the left morphism being the defining [[quotient]] projection and the right morphism the [[double cover]] morphism that defines the [[spin group]].
 
 (e.g. [Čadek-Vanžura 97, p. 4](#CadekVanzura97))
+
+## Examples
+
+### $n = 1$, the group $SO(4)$
+
+The case of $Sp(n)\cdot Sp(1)$ for $n = 1$ is special, as in this case the canonical inclusion $Sp(n)\cdot Sp(1) \hookrightarrow SO(4n)$ becomes an [[isomorphism]]
+
+$$
+  Sp(1)\cdot Sp(1)
+  \;\simeq\;
+  SO(4)
+$$
+
+with the [[special orthogonal group]] [[SO(4)]],
+and hence the compatibility diagram (eq:CompatibilityDiagram) now exhibits at the top the exceptional isomorphism $Sp(1) \times Sp(1) \simeq $ [[Spin(4)]] (see [there](Spin4#ExceptionalIsomorphisms))
+
+\[
+  \label{CompatibilityDiagram}
+  \array{
+    Sp(1) \times Sp(1)
+    &\overset{\simeq}{\longrightarrow}&
+    Spin(4)
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    Sp(1) \cdot Sp(1)    
+    &\overset{\simeq}{\longrightarrow}&
+    SO(4)
+  }
+\]
+
+## Related concepts
+
+[[!include low dimensional rotation groups -- table]]
 
  
 ## References
@@ -91,3 +126,6 @@ with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8
 
 
 See also the references at _[[quaternion-Kähler manifold]]_.
+
+[[!redirects Sp(2).Sp(1)]]
+
