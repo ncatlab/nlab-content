@@ -1290,9 +1290,9 @@ Based on this, one argues to obtains an effective approximation to a given more 
 ([Pich, section 2.3](#Pich))
 
 
-### Chiral perturbation theory
+### For nuclear physics
 
-[[chiral perturbation theory]] is an effective approximation of [[QCD]] in the light [[quark]] sector.
+[[!include effective field theories of nuclear physics -- contents]]
 
 
 ### Heavy quark effective field theory
@@ -1306,12 +1306,15 @@ On [[neutrino]] [[masses]] and the [[standard model of particle physics]] as an 
 > I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](#Weinberg09))
 
 
+
 ### String theory and gravity coupled to gauge theory
  {#StringTheoryAndGravityCoupledToGaugeTheory}
 
 The [[string scattering amplitudes]] for [[superstrings]] are finite (fully proven so for low loop order and with various plausibility arguments for higher loop order, see at _[[string scattering amplitudes]]_ for more), hence define a UV-complete [[S-matrix]]. The corresponding low energy effective field theories are theories of [[supergravity]] coupled to [[gauge theory]]. ([[type II supergravity]], [[heterotic supergravity]]).
 
 See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#WhatIsStringTheory)_.
+
+
 
 ## Related concepts
 
