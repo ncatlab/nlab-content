@@ -23,7 +23,13 @@
 
 In the context of the [['t Hooft double line construction]] and the [[AdS/CFT correspondence]] with $N_c \in \mathbb{N}$ [[color charge|colors]], the _small $N$ region_ or _large $1/N_c$ limit_ is the situation _away from_ the [[large N limit]]. In this large $1/N_c$ limit [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N_c$) and/or [[M-theory]]-corrections (for small [[color charge|$N_c$]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]] are relevant.
 
-In application to [[phenomenology]], the small $N_c$ region (and hence [[M-theory]]) is what is ultimately relevant for the [[AdS/QCD correspondence]], given that [[quantum chromodynamics]] has a small number $N_c^{QCD} = 3$ of [[quark]] [[color charge|colors]].
+In application to [[phenomenology]], the small $N_c$ region (and hence [[M-theory]]) is what is ultimately relevant for the [[AdS/QCD correspondence]], given that [[quantum chromodynamics]] has a small number $N_c^{QCD} = 3$ of [[quark]] [[color charge|colors]]:
+
+<center>
+<a href="https://ncatlab.org/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf#page=8">
+<img src="https://ncatlab.org/schreiber/files/ProblemQCDToProblemM230120.jpg" width="670">
+</a>
+</center>
 
 ## References
 
