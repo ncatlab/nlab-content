@@ -127,6 +127,8 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * The categories of [[crossed module|crossed modules]], [[crossed complex]]es, and their friends are semi-abelian; see example 4.2.6 of the Van der Linden paper referenced below.
 
+* the category of cocommutative Hopf algebras over a field. Was proven in papers by Gran/Kadjo/Vercruysse and Gran/Sterck/Vercruyse
+
 ## Properties
 
 ### General
