@@ -283,6 +283,8 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 * [[arithmetic pretopos]]
 
+* [[integers object]]
+
 ## References
 
 * {#Law63}[[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_, Ph.D. thesis Columbia University 1963. (Published with an author's comment as: TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
