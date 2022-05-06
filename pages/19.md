@@ -421,6 +421,8 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
+* [[André Joyal]]'s exposition in CatLab: [[joyalscatlab:Categories]]
+
 ### Videos 
 
 * The Catsters, Videos on various topics in category theory. ([YouTube link](https://www.youtube.com/user/TheCatsters))
