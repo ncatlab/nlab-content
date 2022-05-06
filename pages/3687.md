@@ -99,9 +99,9 @@ Other reviews include
 
   _Dirichlet branes and mirror symmetry_, 
 
-  Clay Mathematics Monogrph Volume 4, Amer. Math. Soc. Clay Math. Institute 2009 
+  Clay Mathematics Monograph Volume 4, Amer. Math. Soc. Clay Math. Institute 2009 
 
-  ([pdf](http://www2.maths.ox.ac.uk/cmi/library/monographs/cmim04.pdf))  (very readable!)
+  ([pdf](http://www.claymath.org/library/monographs/cmim04c.pdf), [pdf](http://www2.maths.ox.ac.uk/cmi/library/monographs/cmim04.pdf))  (very readable!)
 
 The relation to [[T-duality]] was established in
 
