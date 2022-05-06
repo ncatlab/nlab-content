@@ -1,7 +1,6 @@
 [[!redirects modified Bernoulli numbers]]
 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,6 +20,12 @@
 
 A variant of the [[Bernoulli numbers]] introduced in [Zagier 98](#Zagier98).
 
+## Properties
+
+### Periodicity
+
+The modified Bernoulli numbers are 12-peridic [Zagier, (A.4) (A.18)](#ZagierProperties).
+
 
 ## References
 
@@ -30,7 +35,13 @@ Introduced in
 
 * {#Zagier98} [[Don Zagier]], _A modified Bernoulli number_, Nieuw Archief voor Wiskunde, 16:63–72, 1998 ([[ZagierModifiedBernoulli.pdf:file]])
 
+
+* [[Don Zagier]], _Hecke operators and periods of modular forms_, Israel Math. Conf. Proc., 3 (1990), 321–336 ([hdl:21.11116/0000-0004-3936-0](http://hdl.handle.net/21.11116/0000-0004-3936-0))
+
 Further discussion in
+
+* {#ZagierProperties} [[Don Zagier]], _Curious and Exotic Identities for Bernoulli
+Numbers_ ([[ZagierPropertiesBernoulli.pdf:file]])
 
 * Atul Dixit, Victor H. Moll, Christophe Vignat, _The Zagier modification of Bernoulli numbers and a polynomial extension. Part I_ ([arXiv:1209.4110](https://arxiv.org/abs/1209.4110))
 
