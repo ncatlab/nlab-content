@@ -296,6 +296,12 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 * Marco Ciuchini, António M. Coutinho, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality_ ([arXiv:1903.09632](https://arxiv.org/abs/1903.09632))
 
 
+* Jason Aebischer, Wolfgang Altmannshofer, Diego Guadagnoli, Meril Reboud, Peter Stangl, David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
+
+* Alakabha Datta, Jacky Kumar, David London, _The $B$ Anomalies and New Physics in $b \to s e^+ e^-$_ ([arXiv:1903.10086](https://arxiv.org/abs/1903.10086))
+
+* Ashutosh Kumar Alok, Dinesh Kumar, Suman Kumbhakar, S Uma Sankar, _Impact of $D^\ast$ polarization measurement on solutions to $R_D$-$R_{D^\ast}$ anomalies_ ([arXiv:1903.10486](https://arxiv.org/abs/1903.10486))
+
 
 #### Leptoquarks
 
@@ -364,6 +370,8 @@ and as possible explanation also of the anomalies seen in the [[ANITA experiment
 [[composite Higgs boson]]:
 
 * {#Marzocca18} David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
+
+* [[Andreas Crivellin]], Dario Müller, Christoph Wiegand, _$b \to s \ell^+ \ell^-$ Transitions in Two-Higgs-Doublet Models_ ([arXiv:1903.10440](https://arxiv.org/abs/1903.10440))
 
 [[dark matter]]:
 
