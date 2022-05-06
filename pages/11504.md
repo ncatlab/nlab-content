@@ -55,7 +55,14 @@ In this perspective picture number is an extra grading on [[differential forms o
 * C. A. Cremonini, [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
 
   (with an eye towards [[super Chern-Simons theory]])
+
+
+Via [[pure spinors]]:
+
+* Andrei Mikhailov, Dennis Zavaleta, _Geometrical framework for picture changing operators in the pure spinor formalism_ ([arXiv:2003.13995](https://arxiv.org/abs/2003.13995))
+
  
+
 [[!redirects picture changing operators]]
 
 [[!redirects picture number]]
