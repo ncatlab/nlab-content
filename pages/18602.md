@@ -160,6 +160,8 @@ Possible explanation of the anomaly in the anomalous magnetic moments in terms o
 
 Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]] and the [[flavour anomalies]]:
 
+* Geneviève Bélanger, Cédric Delaunay, Susanne Westhoff, _A Dark Matter Relic From Muon Anomalies_,  Phys. Rev. D 92, 055021 (2015) ([arXiv:1507.06660](https://arxiv.org/abs/1507.06660))
+
 * {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
 
 * Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
@@ -174,7 +176,7 @@ Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#
 
 * K.S. Babu, P.S. Bhupal Dev, Sudip Jana, Anil Thapa, _Unified Framework for $B$-Anomalies, Muon $g-2$, and Neutrino Masses_ ([arXiv:2009.01771](https://arxiv.org/abs/2009.01771))
 
-
+* Sang Quang Dinh, Hieu Minh Tran, _Muon $g-2$ and semileptonic $B$ decays in BDW model with gauge kinetic mixing_ ([arXiv:2011.07182](https://arxiv.org/abs/2011.07182))
 
 
 Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
