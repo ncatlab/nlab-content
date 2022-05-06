@@ -636,9 +636,23 @@ More is in
 
 * {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
 
-See also
+Discussion of equivariant Tate K-theory:
+
+For simply connected  [[compact Lie groups]]:
 
 * Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
+
+following 
+
+* [[Nitu Kitchloo]], [[Jack Morava]], Section 5 of: _Thom Prospectra for Loopgroup representations_ ([arXiv:math/0404541](https://arxiv.org/abs/math/0404541))
+
+For [[finite groups]]:
+
+* Thomas Dove, _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+
+
+
+
 
 ### Relation to $\infty$-line bundles
 
