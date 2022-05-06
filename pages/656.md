@@ -82,7 +82,7 @@ For $R$ a [[commutative ring]], write $BMod_R$ for the [[category]] whose
 +-- {: .num_remark }
 ###### Remark
 
-As this notation suggests, $BMod_R$ is naturally the vertical category of a [[pseudo double category]] whose horizontal composition is given by tensor product of bimodules. spring
+As this notation suggests, $BMod_R$ is naturally the vertical category of a [[pseudo double category]] whose horizontal composition is given by tensor product of bimodules. 
 
 =--
 
