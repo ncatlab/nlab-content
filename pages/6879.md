@@ -19,9 +19,9 @@
 
 ## Idea
 
-A [[classical field theory]] with [[action functional]] having the standard kinetic term non-derivative interactions has stable, time-independent solutions where all fields are constant on a value that is a local minimum of the interaction term potential energy (if any). 
+A [[classical field theory]] with [[action functional]] having the standard [[kinetic action]] and non-derivative [[interactions]] has stable, time-independent solutions to its [[equations of motion]] where all [[field (physics)|fields]] are [[constant function|constant]] on a value that is a local [[minimum]] of the interaction term [[potential energy]] (if any). 
 
-In the corresponding [[quantum field theory]], however, a state that is initially concentrated this way on a local minimum which is not also a global minimum is not time-independent, but will exhibit [[quantum tunneling]] behaviour by which the fields "tunnel" through the local potential barrier into the global minimum. Therefore one speaks of a _false [[vacuum]]_ in this case.
+In the corresponding [[quantum field theory]], however, a [[state]] that is initially concentrated this way on a local minimum which is not also a global minimum is not time-independent, but will exhibit [[quantum tunneling]] behaviour by which the fields "tunnel" through the local potential barrier into the global minimum. Therefore one speaks of a _false [[vacuum]]_ in this case.
 
 ## Examples
 
