@@ -1,7 +1,6 @@
 ## Idea
 
 Formally, a cotopology of a topological space $(X, \mathcal{T})$ is a coarser topology $\mathcal{T}^*$ on the same set $X$ that does not forget too many sets.
-The approach was introduced by J. D. Weston.
 It can be used to generalize the [[Baire category theorem]] and to characterize [[topologically complete space|topological completeness]]. The pair of both topologies, the original and the coarser one, constitute an example of a [[bitopological space]].
 
 
@@ -36,14 +35,15 @@ A space that admits only Hausdorff cospaces is equivalently an H-closed space, i
 
 ## References
 
-The concept first appeared in
+The concept principally appeared in
 
 * J. D. Weston, _On the comparison of topologies_ 1956, Journal of the London Mathematical Society, vol. s1-32 no. 3, pp. 342-354.
 
-De Groot used it to give a unifying and generalizing version of the [[Baire category theorem]]
+De Groot made cotopologies popular by giving a unifying and generalizing version of the [[Baire category theorem]]
 
 * de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767.
 
+In this context some _Colloquium co-topologie_ at the _Mathematisch Centrum_, today _[Centrum Wiskunde & Informatica](https://www.cwi.nl/)_ in Amsterdam in 1964 is mentioned.
 Further developments include
 
 * Aarts, de Groot, McDowell, _Cotopology for metrizable spaces_ 1970, Duke Mathematical Journal vol. 37.
