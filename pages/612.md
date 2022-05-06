@@ -1,6 +1,6 @@
 Jacob Lurie is a mathematician at the Institute for Advanced Study.
 
-* [website](http://www.math.harvard.edu/~lurie/)
+* [website](https://www.math.ias.edu/~lurie)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jacob_Lurie)
 
