@@ -301,6 +301,9 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 The [[global orbit category]] $Orb$ is considered in 
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
+
+* {#Lurie} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+
   
 Global unstable equivariant homotopy theory is discussed as a [[localization]] of the category of "orthogonal spaces" (the unstable version of [[orthogonal spectra]]) in
 
