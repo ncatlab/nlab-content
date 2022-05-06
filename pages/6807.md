@@ -69,10 +69,11 @@ A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _
 
 There are furcher technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense (see the references below [below](#ReferencesGroundStateProblem)).
 
-
 ## Related concepts
 
 * [[IKKT matrix model]]
+
+* [[BMN matrix model]]
 
 * [[membrane matrix model]]
 
@@ -87,7 +88,7 @@ There are furcher technical open issues, such as the open question whether the t
 
 The original articles are
 
-* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
+* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_,  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
 
 * {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv. Theor. Math. Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
 
@@ -159,7 +160,8 @@ For a new attempt and pointers to previous attempts see
 * L. Boulton, M.P. Garcia del Moral, A. Restuccia, _The ground state of the D=11 supermembrane and matrix models on compact regions_, Nuclear Physics B
 Volume 910, September 2016, Pages 665-684 ([arXiv:1504.04071](https://arxiv.org/abs/1504.04071))
 
-* L. Boulton, M.P. Garcia del Moral, A. Restuccia, _Measure of the potential valleys of the supermembrane theory_ ([arXiv:1811.05758](https://arxiv.org/abs/1811.05758))
+* L. Boulton, M.P. Garcia del Moral, A. Restuccia, _Measure of the potential valleys of the supermembrane theory_, Physics Letters B
+Volume 797, 2019, 134873 ([arXiv:1811.05758](https://arxiv.org/abs/1811.05758))
 
 ### Graviton scattering
  {#ReferencesGravitonScattering}
