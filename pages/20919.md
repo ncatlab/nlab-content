@@ -36,6 +36,8 @@ The graphics on the right shows all linear chord diagrams with precisely four [[
 
 Closing up the line of a linear chord diagram to a [[circle]] and remembering the [[ordering]] of vertices only op to [[cyclic permutation]], it becomes a _[[round chord diagram]]_, usually just called a [[chord diagram]]. Conversely, a linear chord diagram is equivalently a round chord diagram with one of its [[vertices]] singled out.
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 ## Applications
 
 ### Wick's theorem
@@ -56,6 +58,7 @@ For example, for $n = 4$, [[Wick's theorem]] says this:
 <center>
 <img src="https://ncatlab.org/nlab/files/WickTheoremViaLiearChordDiagrams.jpg" width="600">
 </center>
+
 
 
 ## Related concepts
