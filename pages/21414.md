@@ -1,6 +1,4 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,6 +13,15 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Weak model categories are a relaxation of [[model categories]],
+even weaker than [[semimodel categories]],
+that still allow for a rich theory largely analogous
+to that of [[model categories]].
+
+In particular, one can construct left and right [[Bousfield localizations]]
+in this setting without [[properness]] assumptions.
 
 ## Definition
 
@@ -47,6 +54,11 @@ that satisfy a right (left) lifting property with respect to the class of cofibr
 1.  The two classes of [[weak equivalence]] corresponding
 to the left and right induced [[semimodel structures]] coincide.
 
+## Properties
+
+Every [[combinatorial]] weak model category can
+be connected to a [[combinatorial model category]]
+by a zigzag of [[Quillen equivalences]].
 
 ## References
 
