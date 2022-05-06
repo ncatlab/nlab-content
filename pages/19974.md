@@ -8,7 +8,7 @@ On [[orientifolds]] and [[RR-field tadpole cancellation]]:
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], Eric Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
 
-On the [[Sakai-Sugimoto model]] for [[holographic QCD]]
+On the [[Sakai-Sugimoto model]] for [[holographic QCD]] ([[geometric engineering of QFT|geometric engineering]] of [[QCD]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]]):
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
