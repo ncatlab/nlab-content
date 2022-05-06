@@ -25,8 +25,8 @@
 
 ## Related concepts
 
-* [[superposition]]
+[[!include states and observables -- content]]
 
-* [[entanglement]]
+
 
 [[!redirects quantum interferences]]
