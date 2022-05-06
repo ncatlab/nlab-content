@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -70,6 +69,37 @@ the generator in $\left\{ \array{ H_{2n+1}\big( SO(n+1), \mathbb{Q} \big) \simeq
 
 See at _[[Sullivan model of a spherical fibration]]_ for more on this.
 
++-- {: .num_prop #RationalCohomologyOfIteratedLoopSpaceOf2kSphere}
+###### Proposition     
+**([[rational cohomology]] of [[iterated loop space]] of the [[n-sphere|2k-sphere]])**
+
+Let 
+
+$$
+  1 \leq D \lt n = 2k \in \mathbb{N}
+
+$$ 
+
+(hence two [[positive number|positive]] [[natural numbers]], one of them required to be [[even number|even]] and the other required to be smaller than the first) and consider the [[iterated loop space|D-fold loop space]] $\Omega^D S^n$ of the [[n-sphere]]. 
+
+Its [[rational cohomology|rational]] [[cohomology ring]] is the [[free construction|free]] [[graded-commutative algebra]] over $\mathbb{Q}$ on one [[generators and relations|generator]] $e_{n-D}$ of degree $n - D$ and one generator $a_{2n - D - 1}$ of degree $2n - D - 1$:
+
+$$
+  H^\bullet
+  \big(
+    \Omega^D S^n
+    ,
+    \mathbb{Q}
+  \big)
+  \;\simeq\;
+  \mathbb{Q}\big[ e_{n - D}, a_{2n - D - 1} \big] 
+  \,.
+$$  
+
+=--
+
+([Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
+
 ## Related concepts
 
 [[!include Sullivan models -- examples]]
@@ -78,14 +108,29 @@ See at _[[Sullivan model of a spherical fibration]]_ for more on this.
 
 ## References
 
+### Rational cohomology of mapping spaces
+
+On [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]]:
+
+* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structur eof Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+
 ### Sullivan models for mapping spaces
  {#ReferencesSullivanModelsForMappingSpaces}
+
+Discussion of [[Sullivan models]] and models via [[L-∞ algebra]]:
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
 
 * {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
+* [[Urtzi Buijs]], [[Aniceto Murillo]], _Basic constructions in rational homotopy theory of function spaces_,  Annales de l'Institut Fourier, Volume 56 (2006) no. 3, p. 815-838 ([doi:10.5802/aif.2201](https://doi.org/10.5802/aif.2201))
+
+* [[Urtzi Buijs]], [[Aniceto Murillo]], _The rational homotopy Lie algebra of function spaces_, Comment. Math. Helv. 83 (2008), 723–739 ([pdf](https://pdfs.semanticscholar.org/d404/657ccc24b0c06434086485d3e528e0316e26.pdf))
+
+* [[Alexander Berglund]], _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2 ([arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16))
+
 * {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
+
 
 ### Spectral sequence for rational homotopy of mapping spaces
 
