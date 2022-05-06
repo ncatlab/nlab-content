@@ -174,7 +174,7 @@ For F-theory a fairly advanced [[model (physics)|model]] building and [[string p
 
 Via the relation between [[supersymmetry and Calabi-Yau manifolds]] there is particular interest in F-theory compactified on [[Calabi-Yau variety|Calabi-Yau spaces]] of ([[complex manifold|complex]]) [[dimension]] 4. For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
 
-A large number of realizations of the exact field content of the [[standard model of particle physics]] is claimed to be realized in in F-theory in [Cvetic-Halverson-Lin-Liu-Tian 19](#CveticHalversonLinLiuTian19).
+A large number of realizations of the exact field content of the [[standard model of particle physics]] (or rather the [[MSSM]]) is claimed to be realized in in F-theory in [Cvetic-Halverson-Lin-Liu-Tian 19](#CveticHalversonLinLiuTian19).
 
 
 ## Related concepts
@@ -310,7 +310,7 @@ of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tues
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
 
-A large number of realizations of the exact field content of the [[standard model of particle physics]] in [[F-theory]] is claimed to be realized in
+A large number of realizations of the exact field content of the [[standard model of particle physics]] (or rather [[MSSM]]) in [[F-theory]] is claimed to be realized in
 
 * {#CveticHalversonLinLiuTian19} [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
