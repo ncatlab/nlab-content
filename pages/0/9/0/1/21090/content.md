@@ -140,8 +140,15 @@ Markov categories as defined here appear in:
 
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
-* [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
-* [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, [arXiv:2010.07416](https://arxiv.org/abs/2010.07416)
+* [[Tobias Fritz]] and [[Eigil Fjeldgren Rischel]], _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+
+* [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], [[Eigil Fjeldgren Rischel]], _Representable Markov categories and comparison of statistical experiments in categorical probability_. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
+
+* [[Tobias Fritz]], [[Tomáš Gonda]], [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
+
+* [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, 2022. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
+
+* [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
 See also the references therein.
 
