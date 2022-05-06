@@ -21,7 +21,7 @@
 
 ## Definition
 
-Given a [[category]] $C$, a __subcategory__ $D$ consists of a subcollection of the collection of [[object|objects]] of $C$ and a subcollection of the collection of [[morphism|morphisms]] of $D$ such that:
+Given a [[category]] $C$, a __subcategory__ $D$ consists of a subcollection of the collection of [[object|objects]] of $C$ and a subcollection of the collection of [[morphism|morphisms]] of $C$ such that:
 
 * If the morphism $f : x \to y$ is in $D$, then so are $x$ and $y$.
 
