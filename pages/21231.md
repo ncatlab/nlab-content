@@ -7,7 +7,7 @@
 +--{: .hide}
 [[!include fields and quanta - table]]
 =--
-#### Qunantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -408,13 +408,15 @@ This was argued in [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82).
 
 ## Properties
 
-### Critical electric field strength
+
+
+### Schwinger limit -- Critical electric field strength 
  {#CriticalFieldStrength}
 
 From (eq:SchwingerEffectAtGeneralFieldStrengthForWeakCoupling) 
 one deduces a critical [[electric field|electric]] [[field strength]] $\mathcal{E}_{crit}$ which sets the [[scale]] beyond which the [[vacuum polarization]] due to the [[Schwinger effect]] counteracts the ambient electric field and/or leads to [[vacuum decay]]. 
 
-As a [[Lorentz group|Lorentz]] [[invariant]] (eq:LorentzInvariantFieldStrenghts) this critical field strength is:
+As a [[Lorentz group|Lorentz]] [[invariant]] (eq:LorentzInvariantFieldStrenghts) this _[[Schwinger limit]]_ for the [[electric field|electric]] [[field strength]] is:
 
 \[
   \label{CriticalFieldStrengthLorentzInvariant}
@@ -424,10 +426,53 @@ As a [[Lorentz group|Lorentz]] [[invariant]] (eq:LorentzInvariantFieldStrenghts)
     m^2 c^3
   }{
     e \hbar
-  }
+  }  
 \]
 
 ([Dunne 04, (1.3)](#Dunne04), [Martin 07, (40)](#Martin07))
+
+Here 
+
+* $e$ is the [[charge]] of the [[charged particles]],
+
+* $m$ is the [[mass]] of the [[charged particles]],
+
+* $c$ is the [[speed of light]],
+
+* $\hbar$ is [[Planck's constant]].
+
+This is such that the corresponding [[Lorentz force]] 
+
+$$
+  F_{crit}
+  \; \coloneqq \;
+  e
+  \, 
+  \mathcal{E}_{crit}
+$$
+
+acting over the [[Compton wavelength]] $\lambda_{Comp} \;\coloneqq\; \frac{\hbar }{m c}$ equals the [[rest energy]] $m c^2$ of the given [[charged particle]]:
+
+$$
+  \begin{aligned}
+    &
+    F_{crit} \lambda_{Comp}
+    \; = \;
+    m c^2
+    \\
+    \Leftrightarrow
+    \;\;\;
+    &
+    \mathcal{E}_{crit}
+    \; = \;
+    \frac{
+      m c^2
+    }{
+      e \lambda_{Comp}
+    }
+  \end{aligned}
+$$
+
 
 Expressing (eq:CriticalFieldStrengthLorentzInvariant) in terms of the corresponding critical value $E_{crit}$ of the actual [[electric field|electric]] [[field strength]] (eq:ActualFieldStrengths) in the given Lorentz frame yields ([Hashimoto-Oka-Sonoda 14b, (2.17)](#HashimotoOkaSonoda14b), [check](https://www.wolframalpha.com/input/?i=solve+for+e+%3A+c++%3D+Sqrt%5B+Sqrt%5B+%281%2F4%29*%28+e%5E2+-+b%5E2+%29%5E2+%2B+%28p%5E2%29*%28e%5E2%29+%5D+%2B+%281%2F2%29*+%28e%5E2+-+b%5E2%29++%5D+)):
 
@@ -566,9 +611,6 @@ In [[quantum hadrodynamics]]:
 
 
 [[!redirects Schwinger effects]]
-
-[[!redirects Schwinger limit]]
-[[!redirects Schwinger limits]]
 
 [[!redirects holographic Schwinger effect]]
 [[!redirects holographic Schwinger effects]]
