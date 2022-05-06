@@ -105,7 +105,7 @@ Master Thesis in Physics_ ([pdf](http://www.diva-portal.org/smash/get/diva2:1184
 
 Literature collection
 
-* [[Miles Reid]], _[Links to papers on McKay correspondence](homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
+* [[Miles Reid]], _[Links to papers on McKay correspondence](http://homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
 
 As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
 
