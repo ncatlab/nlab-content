@@ -61,7 +61,7 @@ An atomic geometric morphism is also a [[locally connected geometric morphism]].
 +-- {: .proof}
 ###### Proof
 
-By <a href="http://nlab.mathforge.org/nlab/show/logical+functor#LeftRightAdjoint">this proposition</a> a logical morphism with a [[right adjoint]] has also a [[left adjoint]].
+By <a href="https://ncatlab.org/nlab/show/logical+functor#LeftRightAdjoint">this proposition</a> a logical morphism with a [[right adjoint]] has also a [[left adjoint]].
 
 =--
 
