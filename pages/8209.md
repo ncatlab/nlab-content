@@ -41,6 +41,10 @@ It has been proposed ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) 
 
 At yet higher energies, the quark-gluon plasma is eventually supposed to be weakly [[coupling constant|coupled]] again, due to [[asymptotic freedom]] (e.g. [Blaizot 03](#Blaizot03))
 
+## Related concepts
+
+* The quark-gluon plasma is naturally studied in terms of [[infinite-temperature thermal field theory]] ([Blaizot-Iancu-Rebhan 03, section 2.2.4](#BlaizotIancuRebhan03), [Blaizot 04, around p. 17](#Blaizot04))
+
 ## References
 
 ### General
@@ -49,11 +53,14 @@ At yet higher energies, the quark-gluon plasma is eventually supposed to be weak
 
 * Roman Pasechnik, Michal Šumbera, _Phenomenological Review on Quark-Gluon Plasma: Concepts vs. Observations_, Universe 2017, 3(1), 7 ([arXiv:1611.01533](https://arxiv.org/abs/1611.01533))
 
-* {#Blaizot03} Jean-Paul Blaizot, Edmond Iancu, Anton Rebhan, _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
+* {#BlaizotIancuRebhan03} Jean-Paul Blaizot, Edmond Iancu, Anton Rebhan, _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
+
+* {#Blaizot04} Jean-Paul Blaizot, around p. 17 of _Thermodynamics of the high temperature Quark-Gluon Plasma_, AIP Conf. Proc. 739, 63-96 (2004) ([doi:10.1063/1.1843592](https://doi.org/10.1063/1.1843592))
 
 See also
 
 * Wikipedia, _[Quark-Gluon plasma](http://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma)_
+
 
 ### Non-perturbative aspects
 
