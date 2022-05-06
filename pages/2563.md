@@ -21,6 +21,9 @@ and generally in terms of [[Berezin integration]]:
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _The Hodge Operator Revisited_ ([arXiv:1511.05105](https://arxiv.org/abs/1511.05105))
 
+On [[D=7 supergravity]]:
+
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
 
 On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] ([[integration over supermanifolds]], [[picture changing operators]]):
 
