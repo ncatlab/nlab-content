@@ -73,7 +73,7 @@ This receives good motivation from the fact that [[stable (infinity,1)-categries
 
 ## Some history 
 
-In the early works of the Moscow school ([[Kapranov]], [[Alexei Bondal|Bondal]], [[Dmitri Orlov|Orlov]], [[Kontsevich]]) one replaces a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also noncommutative deformations of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore [[noncommutative derived algebraic geometry]] (and even noncommutative motives). 
+In the early works of the Moscow school ([[Kapranov]], [[Alexei Bondal|Bondal]], [[Dmitri Orlov|Orlov]], [[Kontsevich]]) one replaces a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also noncommutative deformations of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore [[noncommutative derived algebraic geometry]] (and even [[noncommutative motives]]). 
 
 Notice that the [[derived category]] of coherent sheaves on a variety does _not_ remember all the structure of the original variety hence derived geometry loses often some information (sometimes not); thus derived algebraic geometry is sometimes easier than nonderived. 
 
