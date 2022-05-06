@@ -70,6 +70,10 @@ The [[n-torus]] for $n \geq 3$ is not a [[cyclic group|cyclic]] branched over of
 
 * {#HirschNeumann75} U. Hirsch, W. D. Neumann, _On cyclic branched coverings of spheres_, Math. Ann. (1975) 215: 289 ([doi:10.1007/BF01343895](https://doi.org/10.1007/BF01343895))
 
+Relation to [[orbifolds]]:
+
+* Benoît Claudon, _Gamma-reduction for smooth orbifolds_, Manuscripta Mathematica 127, 4 (2008) 521-532 ([arXiv:0801.4677](https://arxiv.org/abs/0801.4677))
+
 [[!redirects branched covers]]
 
 [[!redirects branched covering]]
