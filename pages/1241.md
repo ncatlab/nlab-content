@@ -150,7 +150,9 @@ It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]
 
 Many GUT models imply that the [[proton]] -- which in the [[standard model of particle physics]] is a stable [[bound state]] (of [[quarks]]) -- is in fact unstable, albeit with an extremely long mean liftetime, and hence may decay (e.g. [KM 14](#KM14)). [[experiment|Experimental]] searches for such _[[proton decay]]_ (see there for more) put strong bounds on this effect and hence heavily constrain or rule out many [[GUT]] [[model (physics)|models]].
 
-But in recent years it is claimed that there are in fact realistic $SU(5)$ [[GUT]] [[model (physics)|models]] that do not imply any [[proton decay]], quite generically so for [[MSSM]]-models ([Mütter-Ratz-Vaudrvange 16](#MuetterRatzVaudrvange16)), but also for a non-supersymmetric model  ([Fornal-Grinstein 17](#FornalGrinstein17), [Fornal-Grinstein 18](#FornalGrinstein18)).
+But in recent years it is claimed that there are in fact realistic $SU(5)$ [[GUT]] [[model (physics)|models]] that do not imply any [[proton decay]], quite generically so for [[MSSM]]-models ([Mütter-Ratz-Vaudrvange 16](#MuetterRatzVaudrvange16)), but also for non-supersymmetric models  ( [Fornal-Grinstein 17](#FornalGrinstein17), [Fornal-Grinstein 18](#FornalGrinstein18), in particular in [[gauge-Higgs grand unification]] such as [[Spin(11)]]- ("[[SO(11)]]"-) and [[Spin(12)]]- ("[[SO(12)]]"-) models: ([Hosotani-Yamatsu 15](#HosotaniYamatsu15), [Furui-Hosotani-Yamatsu 16, Sec. 2.6](#FuruiHosotaniYamatsu16) [Hosotani 17, Section 6](#Hosotani17)).
+
+
 
 ### Relation to neutrino masses
  {#RelationToNeutrinoMasses}
@@ -334,6 +336,9 @@ Discussion for [[Spin(11)]] GUT group ("[[SO(11)]]"):
 * {#HosotaniYamatsu15} Yutaka Hosotani, Naoki Yamatsu, _Gauge–Higgs grand unification_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 11, November 2015 ([doi:10.1093/ptep/ptv153](https://doi.org/10.1093/ptep/ptv153), [doi:10.1093/ptep/ptw116](https://doi.org/10.1093/ptep/ptw116))
 
 * {#FuruiHosotaniYamatsu16} Atsushi Furui, Yutaka Hosotani, Naoki Yamatsu, _Toward Realistic Gauge-Higgs Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 9, September 2016, 093B01 ([arXiv:1606.07222](https://arxiv.org/abs/1606.07222))
+
+* {#Hosotoni16} Yutaka Hosotani, _Gauge-Higgs EW and Grand Unification_, International Journal of Modern Physics AVol. 31, No. 20n21, 1630031 (2016)  ([arXiv:1606.08108](https://arxiv.org/abs/1606.08108))
+
 
 * {#Hosotani17} Yutaka Hosotani, _New dimensions from gauge-Higgs unification_ ([arXiv:1702.08161](https://arxiv.org/abs/1702.08161))
 
