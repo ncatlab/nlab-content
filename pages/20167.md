@@ -40,7 +40,7 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 =--
 
-(e.g. [Kosinski 93, IX (5.8)](#Kosinski93), [Kobin 16, 7.5](#Kobin16))
+([Pontrjagin 55, Sec. 9](#Pontrjagin55), review in [Kosinski 93, IX (5.8)](#Kosinski93), [Kobin 16, 7.5](#Kobin16))
 
 <br/>
 
@@ -646,7 +646,7 @@ Textbook accounts:
 
 * {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 13.3 of: _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
 
-* {#Kosinski93} [[Antoni Kosinski]], chapter IX of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX, Cor. 5.8 of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
 
 * [[John Milnor]], p. 62 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
 
