@@ -1,4 +1,21 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,9 +34,9 @@
 
 The concept originates with
 
-* [[Bernard de Wit]], [[Henning Samtleben]], _Gauged maximal supergravities and hierarchies of nonabelian vector-tensor systems_, Fortsch. Phys. 53 (2005) 442-449 ([arXiv:hep-th/0501243](https://arxiv.org/abs/hep-th/0501243))
+* {#deWitSamtleben05} [[Bernard de Wit]], [[Henning Samtleben]], _Gauged maximal supergravities and hierarchies of nonabelian vector-tensor systems_, Fortsch. Phys. 53 (2005) 442-449 ([arXiv:hep-th/0501243](https://arxiv.org/abs/hep-th/0501243))
 
-* [[Bernard de Wit]], [[Henning Samtleben]], _The end of the $p$-form hierarchy_, JHEP 0808:015, 2008 ([arXiv:0805.4767](https://arxiv.org/abs/0805.4767))
+* {#deWitSamtleben08} [[Bernard de Wit]], [[Henning Samtleben]], _The end of the $p$-form hierarchy_, JHEP 0808:015, 2008 ([arXiv:0805.4767](https://arxiv.org/abs/0805.4767))
 
 See also
 
