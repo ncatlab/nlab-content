@@ -43,7 +43,7 @@ With emphasis on the [[worldvolume]] [[D=3 N=4 super Yang-Mills theory]]:
 
 With emphasis on the relation to [[Nahm's equation]] and [[fuzzy funnel]] [[noncommutative geometry]]:
 
-* {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+* {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in $\mathcal{N} = 4$ Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
 
 With derivation of the [[s-rule]]:
 
