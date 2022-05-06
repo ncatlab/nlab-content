@@ -19,7 +19,7 @@ Stimulated by Kontsevich's 1997 letters to [[Victor Ginzburg]] and Witten, [[Kap
 
 (...)
 
-### As KK-compactification of M5-brane workdvolume
+### As KK-compactification of M5-brane worldvolume
 
 Rozansky-Witten theory may be identified with [[topological twist|topologically twisted]] [[KK-compactification]] of the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] ([Gukov-Putrov-Vafa 17, Sections 3.2 and 4.2](#GukovPutrovVafa17))
 
