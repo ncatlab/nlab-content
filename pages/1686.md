@@ -271,7 +271,7 @@ Therefore for a bounded spectral sequence for each $n$ there is $L(n) \in \mathb
 We claim then that the limit term of the bounded spectral sequence is in position $(p,q)$ given by the value $E^r_{p,q}$ for 
 
 $$
-  r \gt max(  p-L(p+q-1), q + 1 - L(p+q+1) )
+  r \gt max(  p-L(p+q-1), q + 1 - T(p+q+1) )
   \,.
 $$
 
@@ -640,7 +640,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Cartan-Leray spectral sequence]] converging to the [[homology]] of a [[quotient space]]
 
-* [[Čech-to-derived functor spectral sequence]] from [[Čech cohomology]] to [[abelian sheaf cohomology]]
+* [[Čech-to-derived functor spectral sequence]] from [[Čech cohomology]] to [[abelian sheaf cohomology]]
  
 * [[change of rings spectral sequences]] for calculating [[Tor]] and [[Ext]] groups of modules
 
