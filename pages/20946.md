@@ -32,3 +32,9 @@ and similarly for 3d flat-space holography:
 * Rudranil Basu, [[Max Riegler]], _Wilson Lines and Holographic Entanglement Entropy in Galilean Conformal Field Theories_, Phys. Rev. D 93, 045003 (2016) ([arXiv:1511.08662](https://arxiv.org/abs/1511.08662))
 
 * [[Wout Merbis]], [[Max Riegler]], _Geometric actions and flat space holography_ ([arXiv:1912.08207](https://arxiv.org/abs/1912.08207))
+
+Discussion for 3d [[de Sitter spacetime]]:
+
+* Alejandra Castro, Philippe Sabella-Garnier, Claire Zukowski, _Gravitational Wilson Lines in 3D de Sitter_ ([arXiv:2001.09998](https://arxiv.org/abs/2001.09998))
+
+
