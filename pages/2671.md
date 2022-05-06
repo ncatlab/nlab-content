@@ -163,11 +163,11 @@ Careful discussion of [[observables]] in gravity is in
 
 ### Non-renormalizability
 
-The result that gravity is not [[renormalization|renormalizable]] is due to
+The result that gravity is not [[renormalizable interaction|renormalizable]] is due to:
 
-* {#tHooftVelrman74} [[Gerard 't Hooft]] and [[Martinus Veltman]], _One loop divergencies in the theory of gravitation_, Ann. Inst. Poincar &#233; 20 (1974) 69.
+* {#tHooftVelrman74} [[Gerard 't Hooft]], [[Martinus Veltman]], _One loop divergencies in the theory of gravitation_, Ann. Inst. Poincar &#233; 20 (1974) 69 ([numdam:AIHPA_1974__20_1_69_0](AIHPA_1974__20_1_69_0))
 
-Review includes
+Review:
 
 * [[Zvi Bern]], _Perturbative quantum gravity and its relation to gauge theory_, Living reviews in relativity, [www.livingreviews.org/Articles/Volume5/2002-5bern](www.livingreviews.org/Articles/Volume5/2002-5bern)
 .
