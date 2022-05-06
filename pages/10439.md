@@ -43,8 +43,14 @@ $B$-theorists claim they have science on the side, in particular the [[theory of
 
 ## References
 
+See also
+
 * Wikipedia, _[Proper time](http://en.wikipedia.org/wiki/Proper_time)_
 
-* [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
+
+On [[Tomita-Takesaki modular flow]] as emergent [[time]] evolution in [[quantum physics]] ([[AQFT]]):
+
+* {#Longo19} [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
+
 
 [[!redirects proper time]]
