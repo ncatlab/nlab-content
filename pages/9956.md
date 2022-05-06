@@ -15,7 +15,7 @@ About the formulation [[string theory]]/[[M-theory]] in terms of [[generalized g
 
 * [[David Berman]], [[Malcolm Perry]], _Generalized Geometry and M theory_ ([arXiv:1008.1763](https://arxiv.org/abs/1008.1763))
 
-About the global geometry of [[double field theory]]:
+About the global geometry of [[double field theory]]/[[exceptional field theory]]:
 
 * [[David Berman]], [[Martin Cederwall]], Axel Kleinschmidt, Daniel C. Thompson, _The gauge structure of generalised diffeomorphisms_ ([arXiv:1208.5884](https://arxiv.org/abs/1208.5884))
 
@@ -28,14 +28,16 @@ About [[Ehlers transformation]] being the double copy of [[S-duality]] in [[clas
 
 ## Related $n$Lab entries
 
-* [[double field theory]]
+* [[double field theory]], [[exceptional field theory]]
 
 * [[exotic branes]], [[T-folds]], [[non-geometry]]
 
-* [[exceptional generalized geometry]]
+* [[generalized geometry]], [[exceptional generalized geometry]]
 
 * [[confinement]] in [[AdS-CFT]] ([[string theory results applied elsewhere]])
 
 * [[classical double copy]]
+
+[[!redirects David S. Berman]]
 
 category: people
