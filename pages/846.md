@@ -490,9 +490,11 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 
 ## Examples {#Examples}
 
-Recall that the join of simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of [[Day convolution]] products). 
+Recall that the join of augmented simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of [[Day convolution]] products).
 
 This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, this allows one to compute joins of horns with simplices.
+
+As an operation on simplicial sets, $S \star T$ merely commutes with connected colimits (since these preserve the property of having trivial augmentation). However, for each $S$, the natural inclusion $S \cong S \star \varnothing \to S \star T$ induces a functor $S \star (-) : sSet \to S/sSet$ that does preserve colimits. Similarly, $(-) \star T : sSet \to T/sSet$ preserves colimits.
 
 ### Joins with the point: cones
 
