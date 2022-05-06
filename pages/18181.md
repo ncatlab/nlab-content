@@ -92,9 +92,9 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
-* Achourioti and van Lambalgen June 2011, _A formalization of Kant's transcendental logic_. 
+* Achourioti and van Lambalgen, _A formalization of Kant's transcendental logic_. (June 2011). 
 
-* Achourioti and van Lambalgen November 2011 (Video), [_The Completeness of Kant's Table of Judgments & Consequences for Philosophy of Mathematics_](https://www.youtube.com/watch?v=gPAZcxAGRVs).
+* Achourioti and van Lambalgen, _The Completeness of Kant's Table of Judgments & Consequences for Philosophy of Mathematics_. Talk given at the Munich Center for Mathematical Philosophy (November 2011). [Video](https://www.youtube.com/watch?v=gPAZcxAGRVs).
 
 category: reference
 
