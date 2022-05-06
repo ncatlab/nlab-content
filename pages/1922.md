@@ -66,35 +66,52 @@ Suppose every neighbourhood of $a$ meets every neighbourhood of $b$; by $T_0$ (a
 =--
 Since every Hausdorff space is $T_0$, a less ambiguous term for a $T_3$ space is a __regular Hausdorff space__.
 
-
 It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(V) \subset U$; we write $V \subset\!\!\!\!\subset U$ in that case and say that $V$ is __well inside__ $U$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
 +-- {: .num_defn #locale}
 ###### Definition
 Given sets $U, V$, then $V \subset\!\!\!\!\subset U$ iff there exists an open set $G$ such that $V \cap G = \empty$ but $U \cup G = X$.  Then $X$ is regular iff, given any open set $U$, $U$ is the union of all of the open sets that are well inside $U$.
 =--
-This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space]]s.  (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
+This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space|compact Hausdorff spaces]]. (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
 
-
-The condition that a space $X$ be regular is related to the __regular open sets__ in $X$, that is those open sets $G$ such that $G$ is the interior of its own closure.  (In the [[Heyting algebra]] of open subsets of $X$, this means precisely that $G$ is its own [[double negation]]; this immediately generalises the concept to locales.)  Basically, we start with a neighbourhood $U$ of $x$ and reduce that to a closed neighbourhood $Cl(V)$ of $x$; then $Int(Cl(V))$ is a regular open set.
-
-This is enough to characterise regular spaces, as follows:
-+-- {: .num_defn #basis}
++-- {: .num_defn #closed_basis}
 ###### Definition
-Given a neighbourhood $U$ of $x$, there is a closed neighbourhood of $x$ that is contained in $U$.  Equivalently, $x$ has a regular open neighbourhood contained in $U$.  In other words, the closed neighbourhoods of $x$, or equivalently the regular open neighbourhoods of $x$, form a local base (a base of the [[neighbourhood filter]]) at $x$.
+Given a neighbourhood $U$ of $x$,
+there is a closed neighbourhood of $x$ that is contained in $U$.
+Equivalently, $x$ has an open neighbourhood well inside $U$.
+In other words, the closed neighbourhoods of $x$
+form a local base (a base of the [[neighbourhood filter]]) at $x$.
 =--
 
-
-In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
+In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}. Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
 
 
 ## Variations
 
-Definition \ref{basis} suggests a slightly weaker condition, that of a __semiregular space__:
+The condition that a space $X$ be regular
+is related to the __regular open sets__ in $X$,
+that is those open sets $G$ such that $G$ is the interior of its own closure.
+(In the [[Heyting algebra]] of open subsets of $X$,
+this means precisely that $G$ is its own [[double negation]];
+this immediately generalises the concept to locales.)
+
++-- {: .num_cor #regular_basis}
+###### Definition
+For any regular space $X$,
+the regular open sets form a basis for the topology of $X$.
+=--
+
++-- {: .proof}
+###### Proof
+For any closed neighbourhood $V$ of $x \in X$,
+the interior $Int(V)$ is a regular open neighbourhood of $x$.
+Using Definition \ref{closed_basis} finishes the proof.
+=--
+
+Corollary \ref{regular_basis} suggests a slightly weaker condition, that of a __semiregular space__:
 +-- {: .un_defn}
 ###### Definition (of semiregular)
 The regular open sets form a basis for the topology of $X$.
 =--
-
 
 As we\'ve seen above, a regular $T_0$ space ($T_3$) is [[Hausdorff space|Hausdorff]] ($T_2$); we can also remove the $T_0$ condition from the latter to get $R_1$:
 +-- {: .un_defn}
