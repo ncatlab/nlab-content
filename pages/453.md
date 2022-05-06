@@ -114,7 +114,7 @@ Interpreting the posets as categories, the same example works for $Cat$, and als
 
 However: 
 
-* If $T$ is a [[Mal'cev theory]] (e.g., the theory of groups), then the category $Top^T$ of $T$-models in [[Top]] is regular. This is because coequalizer maps in $Top^T$ are necessarily open surjections, and open surjections are stable under pullback. 
+* If $T$ is a [[Mal'cev theory]] (e.g., the theory of groups), then the category $Top^T$ of $T$-models in [[Top]] is regular. This is because for $T$ Mal'cev, coequalizer maps in $Top^T$ are necessarily open surjections, and open surjections are stable under pullback. 
 
 ## Properties
 
