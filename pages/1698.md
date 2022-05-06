@@ -1029,11 +1029,17 @@ The first exhaustive study of these is due to
 
 whence the terminology _Puppe sequences_.
 
+
 Classical textbook accounts include
 
 * {#Switzer75} [[Robert Switzer]], around 2.57 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+Lecture notes:
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 1 of: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 The construction in the axiomatic homotopy theory of [[model categories]] is due to 
 
