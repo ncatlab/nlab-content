@@ -78,15 +78,14 @@ $$
 
 ## Related entries
 
-* [[Planck mass]]
-
 * [[quantum gravity]]
 
-* [[string length]]
-
-* [string theory -- scales](string+theory#scales)
+* [string theory -- scales](string+theory#Scales)
 
 * [[near-horizon geometry]]
+
+[[!include fundamental scales -- contents]]
+
 
 ## References
 
