@@ -150,7 +150,7 @@ $$
   \end{aligned}
 $$
 
-where in the last step we used (eq:ConditionalExpectation).
+where in the last step we used (eq:RealIdempotent).
 
 This says that _assuming_ that $P$ has been observed in the [[pure state]] $\vert \psi\rangle$, then the corresponding [[conditional expectation values]] are the same as actual [[expectation values]] but for the new pure state $\vert P \psi \rangle$.
 
