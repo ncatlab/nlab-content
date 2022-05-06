@@ -115,7 +115,7 @@ This definition is an affine version of the less standard definition of a vector
 
 #### One ternary operation
 
-In the affine case (in contrast to the vector space case), it turns out that if $2$ is invertible the "addition" $(x,y,z)\mapsto x-y+z$ can be recovered from the "scalar multiplication" $(r,x,y)\mapsto r x + (1-r)y$ by $\mu(x,y,z) = \Lambda_2(y,\Lambda_{1/2}(x,y))$.  Thus, in this case we can define an affine space over $k$ to be a set $A$ together with a single operation $\Lambda\colon k\times A\times A\to A$ such that the axioms for the two-ternary-operations definition are satisfied with this definition of $\mu$.
+In the affine case (in contrast to the vector space case), it turns out that if $2$ is invertible the "addition" $(x,y,z)\mapsto x-y+z$ can be recovered from the "scalar multiplication" $(r,x,y)\mapsto r x + (1-r)y$ by $\mu(x,y,z) = \Lambda_2(y,\Lambda_{1/2}(x,z))$.  Thus, in this case we can define an affine space over $k$ to be a set $A$ together with a single operation $\Lambda\colon k\times A\times A\to A$ such that the axioms for the two-ternary-operations definition are satisfied with this definition of $\mu$.
 
 However, we can also simplify the requisite axioms in this presentation.  The following axioms are easier to state if we write $\Lambda_r(x,y)$ as $(1-r) x + r y$, or equivalently as $r x + s y$, where we require $r+s=1$ for the expression to be defined.
 
