@@ -26,12 +26,18 @@ and
 
 * $\lambda:Q\to B$, the _state output function_.
 
-These determine an _output response function_, $\omega_\mathbf{A}:A^*\to B^*$ and a _characteristic function_ $\chi_\mathbf{A}:A^*\to B$.
+These determine an _output response function_, $\omega_\mathbf{A}:A^*\to B^*$ and a _characteristic function_ $\chi_\mathbf{A}:A^*\to B$ that picks out the language recognised by the machine.
 
 Here we have, as usual, denoted by $A^*$ the [[free monoid]] (of all strings of symbols) over the 'alphabet' $A$, etc.
 
-##Related entry
+##Related entries
 
 * [[Mealy machine]]
+
+* [[automaton]]
+
+##References
+
+* [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press, see also [here](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf) for a shorter version in the form of Course Notes.
 
 [[!redirects Moore machines]]
