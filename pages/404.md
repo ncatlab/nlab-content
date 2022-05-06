@@ -65,3 +65,5 @@ are the same as [[natural transformations]] between functors between $X$ and $Y$
 
 [[!redirects arrow category]]
 [[!redirects arrow categories]]
+[[!redirects category of morphisms]]
+[[!redirects categories of morphisms]]
