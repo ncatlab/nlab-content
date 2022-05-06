@@ -93,7 +93,7 @@ It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]
 
 Many GUT models imply that the [[proton]] -- which in the [[standard model of particle physics]] is a stable [[bound state]] (of [[quarks]]) -- is in fact unstable, albeit with an extremely long mean liftetime, and hence may decay (e.g. [KM 14](#KM14)). [[experiment|Experimental]] searches for such _[[proton decay]]_ (see there for more) put strong bounds on this effect and hence heavily constrain or rule out many [[GUT]] [[model (physics)|models]].
 
-Recently it was claimed that there are in fact realistic [[GUT]] [[model (physics)|models]] that do not imply any [[proton decay]] ([Mütter-Ratz-Vaudrvange 16](#MuetterRatzVaudrvange16), [Fornal-Grinstein 17](#FornalGrinstein17)).
+But in recent years it was claimed that there are in fact realistic $SU(5)$ [[GUT]] [[model (physics)|models]] that do not imply any [[proton decay]], quite generically so for [[MSSM]]-modelks ([Mütter-Ratz-Vaudrvange 16](#MuetterRatzVaudrvange16)), but also for a non-supersymmetric model  ([Fornal-Grinstein 17](#FornalGrinstein17), [Fornal-Grinstein 18](#FornalGrinstein18)).
 
 ### Relation to neutrino masses
  {#RelationToNeutrinoMasses}
@@ -265,6 +265,8 @@ Claim that [[proton decay]] may be entirely avoided:
   (claims that many [[string theory]] and [[supergravity]] models have this property)
 
 * {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
+
+* {#FornalGrinstein18} Bartosz Fornal, Benjamin Grinstein, _Grand Unified Theory with a Stable Proton_, Int. J. Mod. Phys. A 33 (2018) 1844013 ([arXiv:1808.00953](https://arxiv.org/abs/1808.00953))
 
 Claim that [[threshold corrections]] can considerably alter (decrease) proton decay rate predictions in non-supersymmetric GUTs:
 
