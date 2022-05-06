@@ -112,14 +112,18 @@ Observe that in the special case that $X = G$ equipped with its canonical right 
 ## References
   {#References}
 
-The Weil model is discussed for instance in 
+Review is in 
+
+* Oliver Goertsches, Leopold Zoller, _Equivariant de Rham Cohomology: Theory and Applications_, São Paulo J. Math. Sci. (2019) ([arXiv:1812.09511](https://arxiv.org/abs/1812.09511), [doi:10.1007/s40863-019-00129-4](https://doi.org/10.1007/s40863-019-00129-4))
+
+Early discussion of the Weil model includes
 
 * {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_. Topology 23, 1 (1984)
  
 
 A good account of the Cartan model is in 
 
-* {#MathaiQuillen86} [[Varghese Mathai]], , [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986) 
+* {#MathaiQuillen86} [[Varghese Mathai]], , [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
  
 
 A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model) is in
