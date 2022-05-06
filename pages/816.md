@@ -254,5 +254,9 @@ In
 
 * [[Emily Riehl]], _Weighted limits and colimits_ (2008) ([pdf](http://www.math.jhu.edu/~eriehl/weighted.pdf)) is given an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.jhu.edu/~eriehl/weighted.pdf#page=4) (in a form a bit more general than the one above).
 
+The analogous notion of weighted [[(infinity,1)-limit]] is discussed in
+
+* Martina Rovelli, _Weighted limits in an (∞,1)-category_, 2019, [arxiv:1902.00805](https://arxiv.org/abs/1902.00805)
+
 [[!redirects weighted limits]]
 
