@@ -68,10 +68,9 @@ equipped with
 *  for each $f,g,h\colon a \to b$, $\eta\colon f \Rightarrow g$, and $\theta\colon g \Rightarrow h$, a _vertical composite_ $\theta \bullet \eta\colon f \Rightarrow h$,
 *  for each $a,b,c$, $f\colon a \to b$, $g,h\colon b \to c$, and $\eta\colon g \Rightarrow h$, a _left whiskering_ $\eta \triangleleft f\colon g \circ f \Rightarrow h \circ f$,
 *  for each $a,b,c$, $f,g\colon a \to b$, $h\colon b \to c$, and $\eta\colon f \Rightarrow g$, a _right whiskering_ $h \triangleright \eta \colon h \circ f \Rightarrow h \circ g$,
-*  for each $f\colon a \to b$, a _left unitor_ $\lambda_f\colon f \circ \id_a \Rightarrow f$ and an _inverse left unitor_ $\bar{\lambda}_f\colon f \Rightarrow f \circ \id_a$,
-*  for each $f\colon a \to b$, a _right unitor_ $\rho_f\colon \id_b \circ f \Rightarrow f$, and an _inverse right unitor_ $\bar{\rho}_f\colon f \Rightarrow \id_b \circ f$, and
+*  for each $f\colon a \to b$, a _left unitor_ $\lambda_f\colon \id_b \circ f \Rightarrow f$, and an _inverse left unitor_ $\bar{\lambda}_f\colon f \Rightarrow \id_b \circ f$,
+*  for each $f\colon a \to b$, a _right unitor_ $\rho_f\colon f \circ \id_a \Rightarrow f$ and an _inverse right unitor_ $\bar{\rho}_f\colon f \Rightarrow f \circ \id_a$, and
 *  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, an _associator_ $\alpha_{f,g,h}\colon h \circ (g \circ f) \Rightarrow (h \circ g) \circ f$ and an _inverse associator_ $\bar{\alpha}_{f,g,h}\colon (h \circ g) \circ f \Rightarrow h \circ (g \circ f)$,
-
 such that
 
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\eta \bullet \Id_f$ and $\Id_g \bullet \eta$ both equal $\eta$,
@@ -79,16 +78,16 @@ such that
 *  for each $a \overset{f}\to b \overset{g}\to c$, the whiskerings $\Id_g \triangleleft f$ and $g \triangleright \Id_f$ both equal $\Id_{g \circ f }$,
 *  for each $f\colon a \to b$ and $g \overset{\eta}\Rightarrow h \overset{\theta}\Rightarrow i\colon b \to c$, the vertical composite $(\theta \triangleleft f) \bullet (\eta \triangleleft f)$ equals the whiskering $(\theta \bullet \eta) \triangleleft f$,
 *  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h\colon a \to b$ and $i\colon b \to c$, the vertical composite $(i \triangleright \theta) \bullet (i \triangleright \eta)$ equals the whiskering $i \triangleright (\theta \bullet \eta)$,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\lambda_g \bullet (\eta \triangleleft \id_a)$ and $\eta \bullet \lambda_f$ are equal,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\rho_g \bullet (\id_b \triangleright \eta)$ and $\eta \bullet \rho_f$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\rho_g \bullet (\eta \triangleleft \id_a)$ and $\eta \bullet \rho_f$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\lambda_g \bullet (\id_b \triangleright \eta)$ and $\eta \bullet \lambda_f$ are equal,
 *  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the vertical composites $\alpha_{f,g,i} \bullet (\eta \triangleleft (g \circ f))$ and $((\eta \triangleleft g) \triangleleft f) \bullet \alpha_{f,g,h}$ are equal,
 *  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the vertical composites $\alpha_{f,h,i} \bullet (i \triangleright (\eta \triangleleft f))$ and $((i \triangleright \eta) \triangleleft f) \bullet \alpha_{f,g,i}$ are equal,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the vertical composites $\alpha_{g,h,i} \bullet (i \triangleright (h \triangleright \eta))$ and $((i \circ h) \triangleright \eta) \bullet \alpha_{f,h,i}$ are equal,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleright \eta) \bullet (\theta \triangleleft f)$ and $(\theta \triangleleft g) \bullet (h \triangleright \eta)$ are equal,
-*  for each $f\colon a \to b$, the vertical composites $\lambda_f \bullet \bar{\lambda}_f\colon f \Rightarrow f$ and $\bar{\lambda}_f \bullet \lambda_f\colon f \circ \id_a \Rightarrow f \circ \id_a$ equal the appropriate identity $2$-morphisms,
-*  for each $f\colon a \to b$, the vertical composites $\rho_f \bullet \bar{\rho}_f\colon f \Rightarrow f$ and $\bar{\rho}_f \bullet \rho_f\colon \id_b \circ f \Rightarrow \id_b \circ f$ equal the appropriate identity $2$-morphisms,
+*  for each $f\colon a \to b$, the vertical composites $\lambda_f \bullet \bar{\lambda}_f\colon f \Rightarrow f$ and $\bar{\lambda}_f \bullet \lambda_f\colon \id_b \circ f \Rightarrow \id_b \circ f$ equal the appropriate identity $2$-morphisms,
+*  for each $f\colon a \to b$, the vertical composites $\rho_f \bullet \bar{\rho}_f\colon f \Rightarrow f$ and $\bar{\rho}_f \bullet \rho_f\colon f \circ \id_a \Rightarrow f \circ \id_a$ equal the appropriate identity $2$-morphisms,
 *  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the vertical composites $\alpha_{f,g,h} \bullet \bar{\alpha}_{f,g,h}\colon (h \circ g) \circ f \Rightarrow (h \circ g) \circ f$ and $\bar{\alpha}_{f,g,h} \bullet \alpha_{f,g,h}\colon h \circ (g \circ f) \Rightarrow h \circ (g \circ f)$ equal the appropriate identity $2$-morphisms,
-*  for each $a \overset{f}\to b \overset{g}\to c$, the vertical composite $(\lambda_g \triangleleft f) \bullet \alpha_{f,\id_b,g}$ equals the whiskering $g \triangleright \rho_f$, and
+*  for each $a \overset{f}\to b \overset{g}\to c$, the vertical composite $(\rho_g \triangleleft f) \bullet \alpha_{f,\id_b,g}$ equals the whiskering $g \triangleright \lambda_f$, and
 *  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d \overset{i}\to e$, the vertical composites $((\alpha_{g,h,i} \triangleleft f) \bullet \alpha_{f,h \circ g,i}) \bullet (i \triangleright \alpha_{f,g,h})$ and $\alpha_{f,g,i \circ h}\bullet \alpha_{g \circ f,h,i} $ are equal.
 
 It is quite possible that there are errors or omissions in this list, although they should be easy to correct.  The point is not that one would *want* to write out the definition in such elementary terms (although apparently I just did anyway) but rather that one *can*.
