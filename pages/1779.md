@@ -47,7 +47,7 @@ This is the [[internal nerve]] of the [[internal groupoid]] corresponding to the
 
 The notion of &#268;ech nerve makes sense in any [[(∞,1)-category]] with [[limit in a quasi-category|(∞,1)-pullbacks]].
 
-Consider a morphism $f: A /rightarrow B$  in an $(\infty,1)$-category $M$. The Cech nerve of that morphism is, by definition, the [[augmented simplicial object]] in $M$ obtained by the [[right Kan extension]] of that morphism (regarded as a functor from the obvious category into $M$) along the inclusion of the first two objects into the augmented simplicial category. See Lurie HTT 6.1.2.11. One can show that this gives a [[groupoid object]] in $M$. The Cech nerve is essentially unique by uniqueness of adjoint $\infty-$ functors.
+Consider a morphism $f: A \rightarrow B$  in an $(\infty,1)$-category $M$. The Cech nerve of that morphism is, by definition, the [[augmented simplicial object]] in $M$ obtained by the [[right Kan extension]] of that morphism (regarded as a functor from the obvious category into $M$) along the inclusion of the first two objects into the augmented simplicial category. See Lurie HTT 6.1.2.11. One can show that this gives a [[groupoid object]] in $M$. The Cech nerve is essentially unique by uniqueness of adjoint $\infty-$ functors.
 
 See [[groupoid object in an (∞,1)-category]].
 
