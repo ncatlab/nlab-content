@@ -79,7 +79,7 @@ There are many properties of locally compact Hausdorff abelian groups that impli
 
 * If $A$ is connected and compact, $\widehat{A}$ is torsion-free and discrete.
 
-* If $A$ is a Lie group, $\widehat{A}$ has finite rank.
+* If $A$ is a Lie group, $\widehat{A}$ has finite rank. (There must be a mistake here. $\mathbb{R}$ is a Lie group but $ \hat{\mathbb{R}} $ is isomorphic to $ \mathbb{R} $, which has infinite rank. It is enough to add the condition of compactness, but that just reduces to the case where $A$ is the product of a torus and a finite abelian group.)
 
 * If A has finite rank, $\widehat{A}$ is a Lie group.
 
