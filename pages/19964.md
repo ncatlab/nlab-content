@@ -393,6 +393,8 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 
 * Christoph Adam, Alberto García Martín-Caro, Miguel Huidobro García, Ricardo Vázquez, Andrzej Wereszczynski, _A new consistent Neutron Star Equation of State from a Generalized Skyrme model_ ([arXiv:2006.07983](https://arxiv.org/abs/2006.07983))
 
+* Christoph Adam, Alberto García Martín-Caro, Miguel Huidobro, Ricardo Vázquez, Andrzej Wereszczynski, _Quasi-universal relations for generalized Skyrme stars_ ([arXiv:2011.08573](https://arxiv.org/abs/2011.08573))
+
 
 
 With [[higher curvature corrections]] included ([[Starobinsky model of cosmic inflation|Starobinsky model]]):
