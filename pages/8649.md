@@ -26,10 +26,13 @@
 
 ## Idea
 
+### For monopole charges in electromagnetism
+
 If the field of [[electromagnetism]] serves as a [[background gauge field]] for electrically charged [[quantum mechanics|quantum]] [[particles]] it is subject to a _quantization condition_: Outside the locus of any [[magnetic charge]] -- for instance a magnetic [[monopole]] [[topological defect]] -- the [[electromagnetic field]] must be a [[circle bundle with connection|connection on a principal U(1) bundle]] whose [[first Chern class]] is the discrete measure for the units of magnetic charge. Equivalently this means that the [[electromagnetic field]] is a [[cocycle]] in [[ordinary differential cohomology]] of degree 2.
 
-{#Illustration} $\,$
+In the underlying topological sector ("[[monopole]]"/"[[instantons]]"-sector) this is [[integral cohomology]] in degree-2, whose [[classifying space]] is euqivalently the [[infinite complex projective space]] $B U(1) \simeq \mathbb{C}P^\infty$:
 
+{#Illustration} $\,$
 
 <center>
 <img src="https://ncatlab.org/nlab/files/DiracChargeQuantizationII.jpg" width="640">
@@ -37,7 +40,20 @@ If the field of [[electromagnetism]] serves as a [[background gauge field]] for 
 
 This goes back to an insight due to [Dirac 31](#Dirac31), See [Heras 18](#Heras18) for traditional elementary review. See [Frankel](#Frankel) and [Mangiarotti-Sardanashvily 00](#MangiarottiSardanashvily00) for exposition of the modern picture in terms of [[fiber bundles in physics]]. See [Freed 00, Section 2](#Freed00) for review in terms of [[differential cohomology]] with outlook to generalization to [[higher gauge fields]] in [[string theory]] (more on which in the references [below](#ReferencesForBFieldAndRRFields)).
 
-On the locus of the magnetic charge itself the situation is more complex. There the [[magnetic current]] is given by a cocycle in [[ordinary differential cohomology]] of degree 3 (with compact support) and now the electromagnetic field is a connection on a [[twisted bundle]].
+On the locus of the magnetic charge itself the situation is more complex. There the [[magnetic current]] is given by a cocycle in [[ordinary differential cohomology]] of degree 3 (with compact support) and now the electromagnetic field is a connection on a [[twisted bundle]] ([Freed 00, Section 2](#Freed00)).
+
+\linebreak
+
+### For monopole charges in non-abelian Yang-Mills theory
+
+A similar charge quantization condition govers [[monopoles]] in [[SU(2)]]-[[Yang-Mills theory]], see at _[[moduli space of monopoles]]_. Here the [[Atiyah-Hitchin charge quantization]] ([Atiyah-Hitchin 88, Theorem 2.10](#AtiyahHitchin88)) says that the [[moduli space]] of [[monopoles]] is the [[holomorphic function|complex]]-[[rational function|rational]] 2-[[Cohomotopy]] of an asymptotic 2-sphere enclosing the monopoles:
+
+{#IllustrationAtiyahHitchinQuantization} $\,$
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AtiyahHitchinChargeQuantizationII.jpg" width="640">
+</center>
 
 
 ## Related concepts
@@ -45,6 +61,8 @@ On the locus of the magnetic charge itself the situation is more complex. There 
 * [[monopole]]
 
   * [[Dirac monopole]], [[Yang monopole]]
+
+* [[moduli space of monopoles]]
 
 \linebreak
 
@@ -74,6 +92,16 @@ Review:
 See also 
 
 * Wikipedia, _[Dirac's quantization](https://en.wikipedia.org/wiki/Magnetic_monopole#Dirac%27s_quantization)_
+
+### For the weak nuclear force field
+
+Discussion of the [[moduli space of monopoles]] for [[SU(2)]]-[[Yang-Mills theory]] ([[weak nuclear force]]):
+
+* {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_  M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
+
+* {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
+
 
 ### For the B-field and RR-field in string theory
  {#ReferencesForBFieldAndRRFields}
