@@ -52,7 +52,7 @@ $$
 \nu \big( \sup_{\lambda} x_\lambda \big) = \sup_\lambda \nu(x_\lambda) .
 $$
 
-Note that, differently from measures, there is no explicit mention of [[complements]]. Moreover, the continuity condition can be interpret, measure-theoretically, both as an analogue of $\sigma$-additivity, and as an analogue of a regularity condition (more precisely it corresponds to [[τ-additivity]]).
+Note that, differently from measures, there is no explicit mention of [[complements]]. Moreover, the continuity condition can be interpreted, measure-theoretically, both as an analogue of $\sigma$-additivity, and as an analogue of a regularity condition (more precisely it corresponds to [[τ-additivity]]).
 See [[correspondence between measure and valuation theory]] for more on this.
 
 ### Valuations on locales and topological spaces
@@ -168,7 +168,7 @@ This integral satisfies analogous properties to the Lebesgue integral, such as [
 
 ## Monads of valuations
 
-Just as there are several [[monad|monads]] of measures (such as the [[Giry monad]]), there are a number of analogous monads of valuations.
+Just as there are several [[monads of measures]] (such as the [[Giry monad]]), there are a number of analogous [[monads]] of valuations.
 The most famous are
 
 * The [[extended probabilistic powerdomain]] on the [[Top|category of topological spaces]], which was introduced by [Heckmann 96](#Heckmann96). 
@@ -217,9 +217,9 @@ The more general question of whether one can extend a finite continuous valuatio
 
 * {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
+* Mauricio Alvarez-Manilla, Achin Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
 
-* {#algebras} Jean Goubault-Larrecq and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
+* {#algebras} [[Jean Goubault-Larrecq]] and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
 ([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
 * {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
@@ -246,15 +246,15 @@ Integration on locales can be found in
 
 For the problem of [extending valuations to measures](#extending_valuations_to_measures), see
 
-* Mauricio Alvarez Manilla, Abbas Edalat, and Nasser Saheb-Djahromi, _An extension result for continuous valuations_, 1998 (<a href="https://doi.org/10.1016/S1571-0661(05)80210-5">doi:10.1016/S1571-0661(05)80210-5</a>)
+* Mauricio Alvarez-Manilla, Abbas Edalat, and Nasser Saheb-Djahromi, _An extension result for continuous valuations_, 1998 (<a href="https://doi.org/10.1016/S1571-0661(05)80210-5">doi:10.1016/S1571-0661(05)80210-5</a>)
 
-* {#Manilla00} Mauricio Alvarez Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000 ([ps.gz](http://www.cs.tufts.edu/~nr/cs257/archive/mauricio-alvarez-manilla/public.ps.gz))
+* {#Manilla00} Mauricio Alvarez-Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000 ([ps.gz](http://www.cs.tufts.edu/~nr/cs257/archive/mauricio-alvarez-manilla/public.ps.gz))
 
 *  {#Manilla02} Mauricio Alvarez-Manilla, _Extension of valuations on locally compact sober spaces_, Topology and its Applications Volume 124, Issue 3, 20 October 2002, Pages 397-433 (<a href="https://doi.org/10.1016/S0166-8641(01)00249-8">doi:10.1016/S0166-8641(01)00249-8</a>)
 
 
 
-* Klaus Keimel and Jimmie D. Lawson, _Measure extension theorems for_
+* [[Klaus Keimel]] and [[Jimmie D. Lawson]], _Measure extension theorems for_
 $T_0$ _spaces_, 2004 ([doi:10.1016/j.topol.2004.02.019](https://doi.org/10.1016/j.topol.2004.02.019))
 
 [[!redirects continuous valuation]]
