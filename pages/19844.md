@@ -120,7 +120,7 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 
 > graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
 
-Similarly [Smith 20](#Smith20), [Lopes 20](#Lopes20) (on behalf of the [[LHCb collaboration]]):
+Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (see also [Lopes 20](#Lopes20), [CERN Courier 200311](#CERNCourir200311)):
 
 \begin{center}
 \begin{imagefromfile}
@@ -360,7 +360,9 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
 
-* [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641))
+* {#LHCb200304831} [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
+
+
 
 ### Review and outlook
 
@@ -406,8 +408,15 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#Smith20} Eluned Smith on behalf of the [[LHCb collaboration]], _Update of the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ angular analysis at LHCb_, 2020 ([[SmithatLHCbOnFlavourAnomalies2020.pdf:file]])
 
+  (on [LHCb2003.04831](#LHCb200304831))
 
 * {#Lopes20} Ana Lopes, _[New LHCb analysis still sees previous intriguing results](https://home.cern/news/news/physics/new-lhcb-analysis-still-sees-previous-intriguing-results)_, CERN News 2020
+
+  (on [LHCb2003.04831](#LHCb200304831))
+
+* {#CERNCourir200311} CERN Courier, _[Anomalies persist in flavour-changing B decays](https://cerncourier.com/a/anomalies-persist-in-flavour-changing-b-decays/)_, March 13 2020
+
+  (on [LHCb2003.04831](#LHCb200304831))
 
 Outlook:
 
