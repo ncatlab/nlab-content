@@ -125,7 +125,7 @@ $$
 
 where $X\to Path(X)$ is a weak equivalence. This is called a **good path object** if in addition $Path(X) \to X \times X$ is a fibration.
 
-* A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X X \sqcup X \to X$ as
+* A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X: X \sqcup X \to X$ as
 
 $$
   \Delta_X
