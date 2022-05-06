@@ -1,10 +1,10 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Category theory
-+--{: .hide}
-[[!include category theory - contents]]
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
 =--
 =--
 =--
@@ -51,17 +51,17 @@ A (relative) PCA $A$ is a combinatory complete partial applicative system in a c
 
 =--
 
-Note however that every PCA in a Turing category $\mathcal{C}$ is a Turing object for $\mathcal{C}$. 
+Note however that not every relative PCA in a Turing category $\mathcal{C}$ is a Turing object for $\mathcal{C}$. 
 
 ### Basic properties
 
-The arithmetical representation of a (partial) function $f : \mathbf{N} \rightarrow \mathbf{N}$ as a member of the recursive enumeration of relations $\varphi_i \subset {\bf N} \times {\bf N}$ is universal, and this representation satisfies the Kleene [[recursion theorems]]:
+The arithmetical representation of a (partial) function $f : \mathbf{N} \rightarrow \mathbf{N}$ as a member of the recursive enumeration of relations $\varphi_i \subset \mathbf{N} \times \mathbf{N}$ is universal, and this representation satisfies the Kleene [[recursion theorems]]:
 
 $\bullet$ (smn) Let $f: \mathbf{N} \rightarrow \mathbf{N}$ be a partial computable function. Then there is a partial computable function $s : \mathbf{N} \rightarrow \mathbf{N}$ such that $f(\langle i, n \rangle) = f_{s(i)} (n)$.
 
 $\bullet$ (utm) There is a partial computable function $U : \mathbf{N} \rightarrow \mathbf{N}$ such that $U(\langle i, n \rangle ) = f_i (n)$.
 
-As can be nearly read off the definition above, these properties hold with respect to any Turing object. This is part of the overall motivation for Turing categories, since they provide a more model-independent setting both for stating the main theorems of recursion theory, while also allowing the ``intrinsic meaning" of different constructions in computability theory to stand out. For example, in [[Type II computability]] (or [[function realizability]]) it turns out that _function computability_ with respect to the PCA $\mathbf{N}^\mathbf{N}$ (either as [[Kleene's second algebra]] or the [[Baire space]]) has the topological meaning of _continuity_. Hence, despite the universal availability of G\"{o}del-encodings of all "$A$-computations" for an appropriate data type $A$ into $\mathbf{N}$-computations (a form of the [[Church-Turing thesis]]), the theory of Turing categories and their applications to categorical realizability models, for example, are intended to give the intrinsic meaning of computational mathematics without resorting to such a universal representation, much like the success story of Type II computability.
+As can be nearly read off the definition above, these properties hold with respect to any Turing object. This is part of the overall motivation for Turing categories, since they provide a more model-independent setting both for stating the main theorems of recursion theory, while also allowing the ``intrinsic meaning" of different constructions in computability theory to stand out. For example, in [[Type II computability]] (or [[function realizability]]) it turns out that _function computability_ with respect to the PCA $\mathbf{N}^\mathbf{N}$ (either as [[Kleene's second algebra]] or the [[Baire space of sequences]]) has the topological meaning of _continuity_. Hence, despite the universal availability of Gödel-encodings of all "$A$-computations" for an appropriate data type $A$ into $\mathbf{N}$-computations (a form of the [[Church-Turing thesis]]), the theory of Turing categories and their applications to categorical realizability models, for example, are intended to give the intrinsic meaning of computational mathematics without resorting to such a universal representation, much like the success story of Type II computability.
 
 ## More Examples 
 
@@ -77,3 +77,5 @@ As can be nearly read off the definition above, these properties hold with respe
 
 [[!redirects turing category]]
 [[!redirects turing-categories]]
+[[!redirects Turing category]]
+[[!redirects turing categories]]
