@@ -19,15 +19,7 @@ In [[quantum theory]] the [[state]] of a [[physical system]] is given by a [[vec
 
 ## Related concepts
 
-* [[wave function]], [[probability amplitude]]
-
-* [[superselection sector]]
-
-* [[space of states]]
-
-* [[quantum interference]]
-
-* [[entanglement]]
+[[!include states and observables -- content]]
 
 
 
