@@ -24,6 +24,12 @@ In [[nuclear physics]] ([[quantum chromodynamics]]) the _bag model_ is an _ad ho
 
 The _[[Cheshire cat principle]]_ is the observation that this "bag" is not actually [[observable]].
 
+The Cheshire Cat Principle follows in [[holographic QCD]], where the baryons are holographically realized as [[Skyrmions]]:
+
+> The [[Skyrmion]] is the ultimate [[soliton|topological]] [[quark bag model|bag model]] with zero size bag radius, lending further credence to the [[Cheshire cat principle]]. ([Nielsen-Zahed 09](#NielsenZahed09))
+
+
+
 ## Related concepts
 
 * [[QCD]]
@@ -35,5 +41,9 @@ The _[[Cheshire cat principle]]_ is the observation that this "bag" is not actua
 ## References
 
 * Julius Kuti, Section 3 of: _Quark confinement and the quark model_, CERN - JINR School of Physics, Nafplion, Greece, 22 May - 4 Jun 1977, pp.79-128 (CERN-1977-018) ([doi:10.5170/CERN-1977-018.79](http://cds.cern.ch/record/878468), [[KutiQuarkModel.pdf:file]])
+
+From the point of view of [[holographic QCD]]:
+
+* {#NielsenZahed09} Holger Bech Nielsen, [[Ismail Zahed]], _The Cheshire Cat Principle from Holography_ ([doi:10.1142/9789814280709_0017](https://doi.org/10.1142/9789814280709_0017), [arXiv:0904.0429](https://arxiv.org/abs/0904.0429)), Chapter 17 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 [[!redirects bag model of quark confinement]]
