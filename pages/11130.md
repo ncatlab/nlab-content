@@ -197,8 +197,8 @@ Discussion of the Nullstellensatz in terms of [[cohesion]]:
 
 * {#Lawvere11} [[William Lawvere]], _[MO comment on the general abstract Nullstellensatz](http://mathoverflow.net/a/52894/381)_ (2011)
 
-* {#Lawvere15} [[F. William Lawvere]], _Birkhoff's Theorem from a geometric
-perspective: A simple example_, Categories and General Algebraic Structures with Applications, Vol. 4, No. 1 (2015) pp. 1&#8211;7. ([pdf](http://www.cgasa.ir/pdf_12425_5ddf468d82aad53ce2e8ee88dd3bf84d.html))
+* {#Lawvere15}[[F. William Lawvere]], _Birkhoff's Theorem from a geometric
+perspective: A simple example_ , Categories and General Algebraic Structures with Applications, Vol. 4, No. 1 (2015) pp. 1&#8211;7. ([pdf](http://www.cgasa.ir/pdf_12425_5ddf468d82aad53ce2e8ee88dd3bf84d.html))
  
 * {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63 ([TAC](http://tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
