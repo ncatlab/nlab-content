@@ -5,6 +5,19 @@
 
 ## Selected writings
 
+Introducing [[holographic light front QCD]]:
+
+* [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. 102:081601, 2009 ([arXiv:0809.4899](https://arxiv.org/abs/0809.4899))
+
+* [[Stanley Brodsky]], [[Guy de Teramond]], _Light-Front Hadron Dynamics and AdS/CFT Correspondence_, Phys. Lett. B582:211-221, 2004 ([arXiv:hep-th/0310227](https://arxiv.org/abs/hep-th/0310227))
+
+Review:
+
+* [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], 
+_Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
+
+
+
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
 
 * {#dTDB14}  [[Guy de Teramond]], [[Hans Günter Dosch]], [[Stanley Brodsky]], _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
