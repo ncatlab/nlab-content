@@ -33,7 +33,7 @@ $$
   \,,
 $$
 
-where $N_f \in \{ 2,3 \}$ is the [[number]] of [[flavour (particle physics)|flavours]] of light [[quarks]] that are being considered, and where the subscripts indicate the left/right-handed [[chiral spinor]]-components of quarks whose [[flavour (particle physics)|flavours]] are being mixed by these [[group]] [[actions]]. This [[symmetry group]] is hence also called _chiral symmetry. Accordingly, its [[symmetry breaking]] to the [[diagonal morphism|diagonal]] [[subgroup]]
+where $N_f \in \{ 2,3 \}$ is the [[number]] of [[flavour (particle physics)|flavours]] of light [[quarks]] that are being considered, and where the subscripts indicate the left/right-handed [[chiral spinor]]-components of quarks whose [[flavour (particle physics)|flavours]] are being mixed by these [[group]] [[actions]]. This [[symmetry group]] is hence also called _chiral symmetry_. Accordingly, its [[symmetry breaking]] to the [[diagonal morphism|diagonal]] [[subgroup]]
 
 $$
   SU(N_f)_V
@@ -41,7 +41,7 @@ $$
   SU(N_f)_L \times SU(N_f)_R
 $$
 
-(the subscrpt "$V$" is for "vector") either explicitly by [[positive number|positive]] [[quark]] [[masses]] or [[spontaneous symmetry breaking|spontaneously]] by a [[vacuum expectation value]] $\langle \bar q q\rangle = \langle \bar q_L q_R\rangle + \langle \bar q_R q_L\rangle$, is called _[[chiral symmetry breaking]]. This is the origin of the term _chiral perturbation theory_.
+(the subscript "$V$" is for "vector") either explicitly by [[positive number|positive]] [[quark]] [[masses]] or [[spontaneous symmetry breaking|spontaneously]] by a [[vacuum expectation value]] $\langle \bar q q\rangle = \langle \bar q_L q_R\rangle + \langle \bar q_R q_L\rangle$, is called _[[chiral symmetry breaking]]. This is the origin of the term _chiral perturbation theory_.
 
 (...)
 
