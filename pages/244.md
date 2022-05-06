@@ -129,7 +129,7 @@ There is a [[strict 2-category]] $SymmMonCat$ with:
 ### As models for connective spectra
   {#ModelsForConnectiveSpectra}
 
-The [[nerve]] of a symmetric monoidal category is always an  [[infinite loop space]], hence the degree-0-space of a [[connective spectrum]]. One calls this also the [[K-theory]] spectrum of the symmetric monoidal category:
+The [[group completion]] of the [[nerve]] of a symmetric monoidal category is always an  [[infinite loop space]], hence the degree-0-space of a [[connective spectrum]]. One calls this also the [[K-theory]] spectrum of the symmetric monoidal category:
 
 $$
   \array{
