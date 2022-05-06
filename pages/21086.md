@@ -74,7 +74,7 @@ demonstrated analytically.
 
 ## Deconfinement
 
-* [[quark-gluon plasme]]
+* [[quark-gluon plasma]]
 
 * [[holographic QCD]]
 
