@@ -121,6 +121,8 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 * [[homeomorphism]]
 
 * **homotopy equivalence**, [[weak homotopy equivalence]]
+
+  * [[equivalence in homotopy type theory]]
   
   * [[n-equivalence]]
 
