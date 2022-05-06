@@ -1024,7 +1024,7 @@ Since the image of the functor $A/X \to PSh(A)$ is in representables, which are 
 +-- {: .num_defn #CellularModel}
 ###### Definition
 
-A **cellular model** on $PSh(A)$ is a choice of a [[small set]] $I \subset Mor(PSh(A))$ of [[monomorphisms]], such that the [[class]] of all monomorphisms is generated from it
+A **[[cellular model]]** on $PSh(A)$ is a choice of a [[small set]] $I \subset Mor(PSh(A))$ of [[monomorphisms]], such that the [[class]] of all monomorphisms is generated from it
 
 $$
   Monos = LLP(RLP(I))
@@ -1086,7 +1086,7 @@ The set $I$ can be chosen to consist of morphisms into [[quotient objects]] of [
 
 =--
 
-([Cisinski 06, prop. 1.2.27](#Cisinski06)).
+([Cisinski 06, prop. 1.2.27](#Cisinski06)), also sketched at [[cellular model]].
 
 +-- {: .proof}
 ###### Proof
@@ -1580,7 +1580,11 @@ Further developments are in
 
 * [[Rick Jardine]], _Categorical homotopy theory_ (2003) ([K-theory](http://www.math.uiuc.edu/K-theory/0669/)) 
 
-* [[Marc Olschok]], _On constructions of left determined model structures_, PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf)) 
+* [[Marc Olschok]], _On constructions of left determined model structures_, PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf))
+
+Some work on generalizing from presheaf toposes to all toposes is in
+
+* [[Denis-Charles Cisinski]], _Faisceaux localement asph ́eriques_ (preliminary version), 2003, [pdf](http://www.mathematik.uni-regensburg.de/cisinski/mtest2.pdf)
 
 See also
 
