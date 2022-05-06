@@ -147,7 +147,14 @@ Seet also at _[[cubical structure in M-theory]]_.
   * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
 
 
-### Many more
+### Via AdS/CFT
+
+The [[AdS-CFT duality]] for the [[black brane|black]][[M5-brane]] may be turned around to deduce from the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] [[scattering amplitudes]] in the 11-dimensional [[bulk]]-spacetime, hence in putative M-theory. While the [[6d (2,0)-superconformal QFT]] is not completely known, [[conformal invariance]] and [[supersymmetry]] tightly constrains it ("[[conformal bootstrap]]") and does allow to extract results.
+
+This approach to computing putative M-theory scattering amplitudes is due to  ([ChesterPerlmutter18](#ChesterPerlmutter18)).
+
+
+### More
 
 (...)
 
@@ -258,6 +265,10 @@ Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]
 * Sophie de Buyl, _Kac-Moody Algebras in M-theory_, PhD thesis ([pdf](http://theses.ulb.ac.be/ETD-db/collection/available/ULBetd-06072006-153117/unrestricted/kmalgebrasinmth.pdf))
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+### Relation to AdS/CFT
+
+* {#ChesterPerlmutter18} Shai M. Chester, Eric Perlmutter, _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
 
 ### Cohomological considerations
