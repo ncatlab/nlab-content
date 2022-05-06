@@ -5,7 +5,7 @@
 
 ## Idea 
 
-Around the nLab and elsewhere, one occasionally sees an expression "the walking _____" where the blank is some mathematical concept. This is a colloquial way of referring to an archetypal model of the concept or type, and usually refers to a free or initial context in which such a type can be interpreted. The term is believed to have been introduced by [[James Dolan]] (see the reference below). 
+Around the nLab and elsewhere, one occasionally sees an expression "the walking _____" where the blank is some mathematical concept. This is a colloquial way of referring to an archetypal model of the concept or type, and usually refers to a free or initial context in which such a type can be interpreted. The term is believed to have been introduced by [[James Dolan]] (see the reference below). Sometimes, "the free-living _____" is alternatively used.
 
 ## Definition
 
@@ -91,3 +91,4 @@ On the other hand, there are also cases where this argument does not apply.  For
 [[!redirects walking structures]]
 [[!redirects walking object]]
 [[!redirects walking objects]]
+[[!redirects free-living]]
