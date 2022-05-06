@@ -52,6 +52,8 @@ The [[WZW term]] [[interaction]] with the [[photon]] and [[kaon]]:
 
 ## References
 
+### General
+
 * {#NamChoiHosakaKim06} Seung-il Nam, Ki-Seok Choi, Atsushi Hosaka, Hyun-Chul Kim, _Test of the reaction mechanism for $\gamma N \to K \Lambda(1520)$ using the polarized photon_ ([arXiv:hep-ph/0611213](https://arxiv.org/abs/hep-ph/0611213))
 
 
@@ -60,6 +62,8 @@ S. Ozaki, H. Nagahiro, A. Hosaka, _Magnetic interaction induced by the anomaly i
 
 * {#ICMB16} Andrej Ilner, Daniel Cabrera, Christina Markert, Elena Bratkovskaya, _$K^\ast$ vector meson resonances dynamics in heavy-ion collisions_, Phys. Rev. C 95, 014903 (2017) ([arXiv:1609.02778](https://arxiv.org/abs/1609.02778), [doi:10.1103/PhysRevC.95.014903](https://doi.org/10.1103/PhysRevC.95.014903))
 
+
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
 
 
 
