@@ -56,6 +56,7 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries 
 
 * [[closed manifold]]
 
+* [[MUFr]]
 
 
 ## References
@@ -82,6 +83,10 @@ The [[full subcategory]]-embedding of manifolds with boundaries and corners into
 * {#GurerIglesiasZemmour17} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on corners_, 2017  ([pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-DFOC.pdf))
 
 * {#GurerIZ19} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on manifolds with boundary and corners_, Indagationes Mathematicae, Volume 30, Issue 5, September 2019, Pages 920-929 ([doi:10.1016/j.indag.2019.07.004](https://doi.org/10.1016/j.indag.2019.07.004))
+
+On [[MUFr]] [[cobordism theory]] of [[manifolds with boundary]]:
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 16 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 On [[cobordism theory]] of [[manifolds with corners]], their [[f-invariant]] and their appearance in the second line of the [[Adams-Novikov spectral sequence]]:
 
