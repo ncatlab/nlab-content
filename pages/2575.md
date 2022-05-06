@@ -1087,7 +1087,12 @@ On 3d [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p
 
 * Gyungchoon Go, O-Kab Kwon, D. D. Tolla, _$\mathcal{N}=3$ Supersymmetric Effective Action of D2-branes in Massive IIA String Theory_, Phys. Rev. D 85, 026006, 2012 ([arXiv:1110.3902](https://arxiv.org/abs/1110.3902))
 
-Specifically on [[D8-branes]] in the context of [[geometric engineering of QFT|geometric engineering]] of [[2d QCD]] ([[AdS/QCD]]):
+Specifically on [[D8-branes]] in the context of [[geometric engineering of QFT|geometric engineering]] of [[QCD]] ([[AdS/QCD]]):
+
+* Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
+
+
+and of [[2d QCD]] ([[AdS/QCD]]):
 
 * Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
 
