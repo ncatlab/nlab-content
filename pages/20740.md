@@ -1,0 +1,1 @@
+A **2-polycategory** is a [[polycategory]] enriched over [[Cat]].  It can be identified with a [[double polycategory]] with only identity vertical arrows.
