@@ -102,7 +102,7 @@ Discussion of [[permutation D-branes]] for Gepner models, via [[boundary conform
 
 Gepner model [[orientifolds]]:
 
-* Brandon Bates, [[Charles Doran]], Koenraad Schalm, _Crosscaps in Gepner Models and the Moduli space of T2 Orientifolds_ ([arXiv:hep-th/0612228](https://arxiv.org/abs/hep-th/0612228))
+* Brandon Bates, [[Charles Doran]], Koenraad Schalm, _Crosscaps in Gepner Models and the Moduli space of T2 Orientifolds_, Advances in Theoretical and Mathematical Physics, Volume 11, Number 5, 839-912, 2007 ([arXiv:hep-th/0612228](https://arxiv.org/abs/hep-th/0612228))
 
 Specifically [[string phenomenology]] and the [[landscape of string theory vacua]] of Gepner model [[orientifold]] compactifications:
 
