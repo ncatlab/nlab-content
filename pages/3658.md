@@ -182,12 +182,12 @@ $a$ and $a^*$ are the annihilation and creation operators on $F_s(H)$, that is $
 $\Psi$ is a distribution solution of the [[Klein-Gordon equation]] by construction, that is for every test function $f$ we get
 
 $$
-\Psi((\Box + m) f) = 0
+\Psi((\Box + m^2) f) = 0
 $$
 
 The reason for this is that
 $$
-\mathcal{F}{[(\Box + m) f]} = (-p^2 + m^2) f = 0 \; \text{on} \; X^+_m
+\mathcal{F}{[(\Box + m^2) f]} = (-p^2 + m^2) f = 0 \; \text{on} \; X^+_m
 $$
 
 ### Further examples
