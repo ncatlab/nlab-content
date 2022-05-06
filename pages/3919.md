@@ -47,7 +47,9 @@ For more see at _[[cosmological constant]]_ [here](cosmological+constant#InPertu
 
 To some extent the problem of AQFT on curved spacetime was formulated in 
 
-* {#Dyson72} [[Freeman Dyson]] _Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
+* {#Dyson72} [[Freeman Dyson]],_Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
+
+  > $\,$
 
   > $[$ the [[Haag-Kastler axioms]] $]$  taken  together  with  the  axioms  defining  a  C*-algebra  are  a  distillation  into  abstract  mathematical  language  of  all  the   general  truths  that  we  have  learned  about  the  physics  of  microscopic   systems  during  the  last  50 years. They  describe a  mathematical  structure of  great  elegance  whose  properties  correspond  in  many  respects  to  the facts  of  experimental  physics.  In  some  sense,  the  axioms  represent  the most  serious  attempt  that  has  yet  been  made  to  define  precisely  what physicists mean by the words "observability, causality, locality, relativistic invariance," which  they are constantly  using  or  abusing  in their  everyday speech. $[$...$]$ I  therefore  propose  as  an  outstanding  opportunity  still  open  to  the  pure mathematicians, to  create a mathematical structure preserving the  main   features of the Haag-Kastler axioms but possessing E-invariance instead of P-invariance. 
 
@@ -73,14 +75,13 @@ Foundations for [[perturbative quantum field theory]] on curved spacetimes in te
 
 * {#HollandsWald04} [[Stefan Hollands]], [[Robert Wald]], _Conservation of the stress tensor in perturbative interacting quantum field theory in curved spacetimes_, Rev.Math.Phys. 17 (2005) 227-312 ([arXiv:gr-qc/0404074](https://arxiv.org/abs/gr-qc/0404074))
 
-The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ([[locally covariant perturbative quantum field theory]]) is due to
+The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ([[locally covariant perturbative quantum field theory]]) is due to:
 
 * {#BrunettiFredenhagen01} [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_, Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ , Proceedings of the Kompaktkurs "Quantenfeldtheorie auf gekruemmten Raumzeiten" held at Universitaet Potsdam, Germany, in 8.-12.10.2007, organized by C. Baer and K. Fredenhagen ([arXiv:0901.2063](http://arxiv.org/abs/0901.2063))
 
-
-Reviews with emphasis on this AQFT-point of view include
+Reviews with emphasis on the AQFT-local-nets point of view:
 
 * [[Robert Wald]], _The Formulation of Quantum Field Theory in Curved Spacetime_ ([arXiv:0907.0416](https://arxiv.org/abs/0907.0416))
 
@@ -88,9 +89,12 @@ Reviews with emphasis on this AQFT-point of view include
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _QFT on curved spacetimes: axiomatic framework and examples_ ([arXiv:1412.5125](http://arxiv.org/abs/1412.5125))
 
+There is also a complementary approach via [[OPEs]]:
+
+* [[Stefan Hollands]], [[Robert Wald]], _Axiomatic quantum field theory in curved spacetime_, Commun. Math. Phys. 293:85-125, 2010 ([arXiv:0803.2003](https://arxiv.org/abs/0803.2003))
 
 
-Papers about the application of [[microlocal analysis]] include
+On the application of [[microlocal analysis]]:
 
 * Alexander Strohmaier, [[Rainer Verch]], Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0202003)).
 
