@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 A __hyperstonean space__ (French: espace hyperstonien)
