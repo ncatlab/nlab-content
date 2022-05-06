@@ -19,9 +19,17 @@
 
 ## Idea
 
-An analog of [[enriched category]] in [[higher category theory]].
+An analog of [[enriched category]] in [[higher category theory]]. Enrichment in a monoidal category $(V,\otimes,I)$ requires composition morphisms
+$$Hom (A,B) \otimes Hom(B,C) \to Hom(A,C)$$
+and identity morphisms
+$$I \to Hom(A,A)$$
+in $V$ satisfying the axioms of associativity and unitality. To weakly enrich, we wish to have the axioms of associativity and unitality hold up to coherent 2-morphisms. To accomplish this we can replace $V$ with a [[monoidal bicategory]] which has sufficient structure to accommodate this. This describes one approach to weakly enriching in the 2-dimensional case. For higher values of n we need to replace $V$ with a weak n-category. 
 
 ## Definition
+
+A category weakly enriched in a [[monoidal bicategory]] $W$ is called a $W$-bicategory. The data of a $W$-bicategory $C$ includes the data of an ordinary enriched category in the [[decategorification]] of $W$. In addition, $C$ must contain associator and unitor 2-morphisms in $W$ which fill the appropriate diagrams of composition and unit 1-morphisms. These 2-cells are required to satsify higher dimensional coherence axioms.
+
+Note that this should not be confused with a [[category enriched in a bicategory]] which allows for multiple bases of enrichment. A $Cat$-bicategory is an ordinary bicategory. Many examples come from weakly enriching in the [[monoidal 2-category]] $V$-$Cat$ of categories enriched in $V$.
 
 In the context of [[(∞,1)-category theory]] see at
 _[[enriched (∞,1)-category]]_.
@@ -67,6 +75,10 @@ $$
 
 
 ## References
+
+$W$-bicategories are briefly explained in Section 4 of
+
+* [[Richard Garner]], [[Nick Gurski]], The low-dimensional structures formed by tricategories, [arXiv:0711.1761](https://arxiv.org/abs/0711.1761)
 
 Section 4.2.1 of 
 
