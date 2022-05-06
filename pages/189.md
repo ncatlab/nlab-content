@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -149,16 +150,18 @@ If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in stu
 ### Classification 
  {#Classification}
 
-[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected quivers with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically close field]]are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]], and that the [[indecomposable object|indecomposable]] [[quiver representations]] are in [[bijection]] with the positive [[root (in representation theory)roots]] in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
+[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected quivers with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]]are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]], and that the [[indecomposable object|indecomposable]] [[quiver representations]] are in [[bijection]] with the positive [[root (in representation theory)|roots]] in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
 
 ## Related concepts
+
+* [[McKay quiver]], [[McKay correspondence]]
 
 * [[quiver gauge theory]]
 
 
 ## References
 
-The concept of quiver in the context of [[quiver represententations]] (and their classification in [[Gabriel's theorem]]) originates with
+The concept of quiver in the context of [[quiver representation]] (and their classification in [[Gabriel's theorem]]) originates with
 
 * {#Gabriel72} [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972) ([doi:10.1007/BF01298413](https://link.springer.com/article/10.1007/BF01298413), [MR332887](http://www.ams.org/mathscinet-getitem?mr=332887) [doi](http://dx.doi.org/10.1007/BF01298413))
 
@@ -188,12 +191,12 @@ Quivers embedded in surfaces are studied in:
 
 A special kind of quiver (finite, no loops, no parallel arcs) is treated in
 
-* {#DG2nd} [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
+* {#DG2nd} Gregory Gutin, Jørgen Bang-Jensen: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
 
 
 
-* [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
-{#GeneralizedGraphs}
+* {#GeneralizedGraphs} [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
+
 
 [[!redirects quiver]]
 [[!redirects quivers]]
