@@ -71,6 +71,7 @@ For [[M-branes]]:
 
 * {#Townsend97} [[Paul Townsend]], section 4 of _M-theory from its superalgebra_ ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
 
+* Sergey A. Cherkis, _Supergravity Solution for M5-brane Intersection_ ([arXiv:hep-th/9906203](https://arxiv.org/abs/hep-th/9906203))
 
 
 [[!redirects brane intersections]]
