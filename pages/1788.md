@@ -23,3 +23,5 @@ $$
 $$
 
 <br>
+
+[[!include monoidal category > pentagon]]
