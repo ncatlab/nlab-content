@@ -78,7 +78,7 @@
 
 ### Implications ###
 
-* [[metrisable spaces have countably locally discrete bases|a metric space has a $\sigma$-locally discrete base]]
+* [[open covers of metric spaces have open countably locally discrete refinements|a metric space has a $\sigma$-locally discrete base]]
 
 * [[Nagata-Smirnov metrization theorem]]
 
