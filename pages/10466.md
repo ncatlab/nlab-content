@@ -80,7 +80,7 @@ $$
   Orb \longrightarrow Glo
 $$
 
-for the non-full [[sub-(∞,1)-category]] of the global indexing category, def. \ref{GlobalIndexingCategory}, on the [[injection|injective]] group homomorphisms.
+for the non-[[full sub-(∞,1)-category|full]] [[sub-(∞,1)-category]] of the global indexing category, def. \ref{GlobalIndexingCategory}, on the [[injection|injective]] group homomorphisms.
 
 =--
 
