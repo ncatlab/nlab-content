@@ -86,6 +86,47 @@ $$
   \,.
 $$
 
+([Atiyah 61, appendix, ite, (7)](#Atiyah61))
+
+More explicitly, via the formula for the [[determinant]] as a [[polynomial]] in [[traces]] of powers (see [there](determinant#eq:DeterminantAsPolynomialInTracesOfPowers)) this means that the first Chern class of the $n$-dimensional representation $V$ is expressed in terms of its [[character]] $\chi_V$ as
+
+\[
+  \label{FirstChernClassOfRepresentationInTermsOfTheCharacter}
+  c_1(V)
+  =
+  \chi_{\left(\wedge^n V\right)}
+  \;\colon\;
+  g
+  \;\mapsto\;
+  \underset{ 
+     { k_1,\cdots, k_n \in \mathbb{N} }
+     \atop
+     { \underoverset{\ell = 1}{n}{\sum} \ell k_\ell = n }
+  }{\sum}
+  \underoverset{ l = 1 }{ n }{\prod} 
+  \frac{ (-1)^{k_l + 1} }{ l^{k_l} k_l !  }
+  \left(\chi_V(g^l)\right)^{k_l}
+\]
+
+For example, for a representation of dimension $n = 2$ this reduces to 
+
+$$
+  c_1(V)
+  =
+  \chi_{V \wedge V}
+  \;\colon\;
+  g
+  \;\mapsto\;
+  \frac{1}{2}
+  \left( 
+    \left( \chi_V(g)\right)^2
+    -
+    \chi_V(g^2)
+  \right)
+$$
+
+(see also e.g. [tom Dieck 09, p. 45](representation+theory#tomDieck09))
+
 $\,$
 
 #### Equivariant $KO$ and the real representation ring
@@ -215,7 +256,7 @@ The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completi
 
 * {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 
 
-* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946 (41 #4575
+* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946
  
 and for [[algebraic K-theory]] to
 
