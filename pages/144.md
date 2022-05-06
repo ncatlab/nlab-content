@@ -70,9 +70,9 @@ As indicated in [Lawvere 86, from p. 17 on](#Lawvere86)
 
 which underlies much of mathematics is at its heart controlled by the following elementary [[category theory|category theoretic]] reasoning:
 
-Let $S$ be some category whose objects we want to think of as certain simple spaces on which we want to model more general kinds of spaces. For instance $S = \Delta$, the simplicial category, or $S = $ [[CartSp]]. 
+Let $S$ be some category whose objects we want to think of as certain simple spaces on which we want to model more general kinds of spaces. For instance $S = \Delta$, the [[simplicial category]], or $S = $ [[CartSp]], the category of $\mathbb{R}^n$ and smooth maps between them. 
 
-An ordinary [[manifold]], for instance, is a space required to be _locally isomorphic_ to an object in $S = CartSp$. But more generally, a space $X$ modeled on $S$ need only be _probeable_ by objects of $S$, giving a rule which to each test object $U \in S$ assigns the collection of admissible maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $S$. Such an assignment is nothing but a [[presheaf]] on $S$, i.e. a contravariant functor
+An ordinary [[manifold]], for instance, is a space required to be _locally isomorphic_ to an object in $S = CartSp$. But more generally, a space $X$ modeled on $S$ need only be _probeable_ by objects of $S$, giving a rule with which, to each test object $U \in S$, we assign the set of probing maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $S$. Such an assignment is nothing but a [[presheaf]] on $S$, i.e. a contravariant functor
 $$
   X : S^{op} \to Set
   \,.
@@ -84,19 +84,23 @@ $$
 $$
 Of course this is an extremely general notion of spaces modeled on $S$. 
 
-We have the [[Yoneda lemma|Yoneda embedding]]  $S \hookrightarrow Spaces_S$ and using this we can say that the collection of _functions_ on a generalized space $X$ with values in $U \in S$ is 
+For example, any smooth manifold $M$ is a presheaf on CartSp by $F_M:= Hom_{Man}(-, M): CartSp^{op} \to Set$, where we consider CartSp as a full subcategory of Man, the category of [[smooth manifold|smooth manifolds]] and smooth maps between them. $F_M$ maps each $\mathbb{R}^n$ to the set of all the smooth ways that $\mathbb{R}^n$ can probe $M$.
+
+In particular, every object in $S$ is a space modeled on $S$, by the [[Yoneda lemma|Yoneda embedding]] $S \hookrightarrow Spaces_S$, whereby every object $X$ in $S$ is embedded as $Hom_S(-, X)$. That is, any object in $S$ is nothing but a consistent way to be probed by all the objects in $S$. 
+
+Now take a space $X$ modeled on $S$, and consider the set of _quantities_ on $X$ with values in $U \in S$. It should be
 $$
   C(X,U) := Hom_{Spaces_S}(X,U)
   \,.
 $$
-This assignment is manifestly covariant in $U$, and hence more generally we can consider the functions on $X$, $C(X)$ to be a copresheaf on $S$, namely a covariant functor
+This defines a covariant functor $C(X) := Hom_{Spaces_S}(X,-): S \to Sets$. More generally, we can consider the S-valued quantities on $X$ to be a copresheaf on $S$, namely a covariant functor
 $$
-  C(X) := Hom(X,-) : S \to Sets
+  C(X): S \to Sets
   \,.
 $$
-One can think of $C(X)$ as being a generalized quantity which may be _co-probed_ by objects of $S$.
+One can think of $C(X)$ as a generalized quantity which may be _co-probed_ by objects of $S$.
 
-In this vein, one can say, generally, that co-presheaves on $S$ are generalized quantities modeled on $S$, and we write
+In this vein, one can say, generally, that copresheaves on $S$ are generalized quantities modeled on $S$, and we write
 $$
   Quantities_S := CoPSh(S)
   \,.
@@ -110,10 +114,10 @@ $$
   \,.
 $$
 
-In  total this yields an adjoint pair of functors between generalized spaces and generalized quantities:
+In  total this yields an adjoint pair of contravariant functors between generalized spaces and generalized quantities:
 
 $$
-  Spaces_S
+  Spaces_S^{op}
 \stackrel{\stackrel{C(-)}{\to}}{\stackrel{Spec(-)}{\leftarrow}}
   Quantities_S
   \,.
