@@ -65,15 +65,19 @@ Similar but non-dependent type theory software includes _[[Haskell]]_.
 
 * [Coq home page](http://coq.inria.fr/)
 
-* {#jsCoq} [jsCoq](https://x80.org/rhino-coq/), a read-to-use online Coq environment
+* {#jsCoq} [JsCoq](https://x80.org/rhino-coq/), a ready-to-use online Coq environment
 
-* [Cocorico](http://coq.inria.fr/cocorico), the Coq wiki
+* {#jsHoTTCoq} [JsHoTTCoq](https://x80.org/rhino-hott/), a ready-to-use online [[HoTT]] Coq environment
 
-A web-based version of Coq for [[HoTT]] and online documentation can be found [here](https://github.com/HoTT/HoTT/wiki).
+* {#CoqWiki} [Cocorico](http://coq.inria.fr/cocorico), the Coq wiki
 
-* A [discussion](http://r6.ca/blog/20091101T231201Z.html) about Coq's predicativity issues.
+* [HoTT Coq wiki](https://github.com/HoTT/HoTT/wiki)
 
 * [history of Coq](https://github.com/coq/coq/blob/beedccef9ddc8633c705d7c5ee2f1bbbb3ec8a47/dev/doc/README-V1-V5)
+
+* Russell O’Connor, _[Believing In-Consistency](http://r6.ca/blog/20091101T231201Z.html)_
+
+  (on issues of [[predicative mathematics|predicativity]])
 
 ### Learning Coq
 
@@ -89,6 +93,8 @@ Yet properly learning Coq can be quite daunting, luckily the right material can 
 
  
 ### Applications to formal mathematics
+
+On [[ForMath]]:
 
 * {#ForMath} [[Thierry Coquand]], _ForMath: Formalisation of Mathematics_ research project ([web](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath))
   
