@@ -95,8 +95,15 @@ The [[geometric engineering of QFT]] on flavor branes (as in the [[Witten-Sakai-
 
 ### General
 
+Discussion of flavor branes (in the context of [[holographic QCD]]):
 
 * {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
+
+* Peter Ouyang, _Holomorphic D7-Branes and Flavored $\mathcal{N}=1$ Gauge Theories_, Nucl. Phys. B699:207-225, 2004 ([arXiv:hep-th/0311084](https://arxiv.org/abs/hep-th/0311084))
+
+* Thomas S. Levi, Peter Ouyang, _Mesons and Flavor on the Conifold_, Phys. Rev. D76:105022, 2007 ([arXiv:hep-th/0506021](https://arxiv.org/abs/hep-th/0506021))
+
+
 
 
 
