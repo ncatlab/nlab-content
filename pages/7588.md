@@ -15,9 +15,39 @@
 
 ## Idea
 
-__Point-free topology__ (often referred to as _pointless topology_ [Johnstone 83](#Johnstone83)  ) is any formulation of [[topology]] not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  (A pointless space must still be this set with [[extra stuff]], of course, as long as there is a [[functor]] mapping a space to its set of points.)  Pointless topology *has* points, but they are not fundamental; and a particular [[space]] may well have no points and yet be far from [[empty space|empty]].
+__Point-free topology__ refers to various formulations of [[topology]] that are not based on the notion of [[topological space]] as a [[set]] of [[points]] equipped with [[extra structure]].  What they generally have in common is that instead the points are described as models of a [[geometric theory]]. This change has some important consequences.
 
-In [[locale theory]], for example, one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion.  In [[formal topology]], one studies a set of *[[base for a topology|basic]]* open subspaces (with the extra structure of a [[posite]] with [[positivity predicate|positivity]], although the [[isomorphisms]] of formal spaces don\'t respect these sets).
+First, it conveniently describes the points not only in one's favourite category of sets, but also in arbitrary [[Grothendieck topos|Grothendieck toposes]].
+
+Second, it opens up the possibility of using predicate geometric theories, to obtain generalized spaces (the classifying toposes) in the sense of Grothendieck.
+This article will mostly concern itself with the ungeneralized point-free spaces, corresponding to propositional geometric theories.
+
+The phrase "point-free topology" is often taken as synonymous with _pointless topology_ [Johnstone 83](#Johnstone83). However, let us reserve "pointless" for approaches that avoid mentioning points and refer directly to the geometric theory presentation and structures deriving from it.
+
+## Examples
+
+* In [[locale theory]], one studies the set of [[open subspaces]] (with the extra structure of a [[frame]]) as the fundamental notion. If $A$ is the frame, then the geometric theory is that of completely prime filters of $A$. It has a propositional symbol $\phi_a$ for each element of $A$, and axioms -
+
+  - $\phi_a \vdash \phi_b$ (if $a \leq b$)
+
+  - $\top \vdash \phi_1$
+
+  - $\phi_a \wedge \phi_b \vdash \phi_{a\wedge b}$
+
+  - $\phi_{\bigvee_i a_i} \vdash \bigvee_i \phi_{a_i}$
+
+This simply makes a direct correspondence between the algebra of $A$ and the geometric logic. Of course it also corresponds to the finite intersections and arbitrary unions of open sets, which shows how geometric logic is matched to topology.
+
+The classifying topos is the topos of sheaves over $A$.
+
+The frame is a presentation-independent representation of the theory. It can be recovered from the theory as the Lindenbaum algebra of formulae modulo equivalence.
+
+* A presentation of a frame by generators and relations corresponds more directly to a general propositional geometric theory. The generators are the signature (propositional symbols) and the relations can be straightforwardly converted to axioms.
+
+* In [[formal topology]], one studies a set $B$ of *[[base for a topology|basic]]* open subspaces, with a _cover relation_ $a\triangleleft U$ between elements and subsets of $B$, to show when one basic open is covered by a family of others. There are various flavours of this. $\triangleleft$ may be the full cover relation or a generating part, and there may sometime be included the extra structure of a [[positivity predicate|positivity]]. In each case the formal topology has the structure of a [[posite]] and so gives rise to a geometric theory of flat continuous functors. Its propositional  symbols are $\phi_a$ for each $a\in B$. The axioms are -
+
+(To be continued)
+
 
 In contrast, the traditional way of doing topology using points may be called __pointwise topology__.
 
