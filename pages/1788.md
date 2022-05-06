@@ -1,6 +1,6 @@
 $\ldots$
 
-[[!-modulaity]]
+[[!-modality]]
 
 ***
 
