@@ -234,10 +234,6 @@ This means that the [[Sullivan model|Sullivan differential]] is
 
 for some [[rational number]] $c \in \mathbb{Q}$.
 
-Here on the right the [[wedge product]] is that corresponding to the ordinary wedge product of [[differential forms]].
-
-How does this relate to the normalization of the wedge product $\Phi$ in (eq:WedgeProductNormalization)?
-
 Notice that with the normalization in (eq:WedgeProductNormalization) we 
 have
 
@@ -287,60 +283,17 @@ $$
 
 where in the bottom row we used the Whitehead product (eq:WhiteheadProductOf2Sphere).
 
-Hence $c' = 1$:
+Hence $c = 1$:
 
 $$
-  d_{S^2} vol_3 \;=\; 1 \cdot \Phi\big( vol_{S^2}, vol_{S^2} \big)
+  d_{S^2} vol_3 
+  \;=\; 
+  - vol_{S^2} \wedge vol_{S^2} 
   \,.
 $$
 
-Now what is the right hand side really, in terms of the usual wedge product of differential forms?
-In other words: what is $c$ in (eq:GenericDifferentialForSullivanModelOf2Sphere)?
 
-
-With the usual normalization of the wedge product of differential forms, shouldn't we have
-
-$$
-  vol_{S^2} 
-    \wedge 
-  vol_{S^2} 
-  \big( 
-    id_{S^2} 
-      \wedge 
-    id_{S^2} 
-  \big)
-  \;=\;
-  1
-$$
-
-?
-
-Hence that
-
-$$
-  vol_{S^2} \wedge vol_{S^2} 
-  \;=\; 
-  \tfrac{1}{2} \Phi\big( vol_{S^2}, vol_{S^2} \big)
-$$
-
-?
-
-
-If that is the case, it would follow that
-
-$$
-  d_{S^2} vol_{S^3}
-  \;=\;
-  2 \cdot vol_{S^2} \wedge vol_{S^2} 
-$$
-
-and hence that $c = \pm 2$
-
-? 
-
-(The sign is not the issue, just the scale.)
-
-But [Félix-Halperin-Thomas 00, Example 1 on p. 178](#FelixHalperinThomas00) has $c = -1$.
+See also [Félix-Halperin-Thomas 00, Example 1 on p. 178](#FelixHalperinThomas00).
 
 
 ## References
