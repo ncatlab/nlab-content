@@ -138,7 +138,7 @@ $$
   \,.
 $$
 
-The [[presheaf]]-valued limit always exists; iff this presheaf is [[representable functor|representable]] by an object $\lim F$ of $F$, then this is the **limit** of $F$:
+The [[presheaf]]-valued limit always exists; iff this presheaf is [[representable functor|representable]] by an object $\lim F$ of $C$, then this is the **limit** of $F$:
 
 $$
   Hom(c, \lim F)
