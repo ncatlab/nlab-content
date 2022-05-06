@@ -18,7 +18,7 @@
 
 ## Idea
 
-The collection of [[spectra]] form an [[(∞,1)-category]] $Sp(\infty Grpd)$ which is in fact a [[stable (∞,1)-category]]. Indeed, it is the _[[universal property]]_ [[stabilization]] of the $(\infty,1)$-category [[∞Grpd]], equivalently of the [[simplicial localization]] of the category [[Top]] at the [[weak homotopy equivalences]].
+The collection of [[spectra]] forms an [[(∞,1)-category]] $Sp(\infty Grpd) =  $ [[Spectra]], which is in fact a [[stable (∞,1)-category]]. Indeed, it is the _[[universal property]]_ [[stabilization]] of the $(\infty,1)$-category [[∞Grpd]], equivalently of the [[simplicial localization]] of the category [[Top]] at the [[weak homotopy equivalences]].
 
 $Sp(\infty Grpd)$ plays a role in [[stable homotopy theory]] analogous to the role played by the 1-[[category]] [[Ab]] of [[abelian groups]] in [[homological algebra]], or rather of the [[category of chain complexes]] $Ch_\bullet(Ab)$ of abelian groups.
 
@@ -36,6 +36,11 @@ $$
 $$
 
 ## Properties
+
+
+[[!include finite homotopy limits of spectra -- section]]
+
+
 
 ### Monoidal structure
 
@@ -66,7 +71,7 @@ There are several [[presentable (infinity,1)-category|presentations]] of the $(\
 
 ## References
 
-the stable $(\infty,1)$-category of spectra is described in chapter 1 of
+The stable $(\infty,1)$-category of spectra is described in chapter 1 of
 
 * [[Jacob Lurie]], [[Higher Algebra]]
 
