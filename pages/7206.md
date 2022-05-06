@@ -61,7 +61,7 @@ Minmal 4d Supergravity was the first [[supergravity]] theory to be constructed, 
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
 
-See also at _[supergravity -- History](supergravity+History)_.
+See also at _[supergravity -- History](supergravity#History)_.
 
 
 
