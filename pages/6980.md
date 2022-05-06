@@ -107,9 +107,9 @@ Libraries of [[formal proofs]] formalized in some [[proof assistant]]:
 
 * [[proof theory]]
 
-* [[proof management system]]
+[[!include proof assistants and formalization projects -- list]]
 
-* [[ForMath]], [[MathScheme]]
+
 
 ## References
 
