@@ -38,7 +38,7 @@ _Pursuing Stacks_ is an influential manuscript written by [[Alexander Grothendie
 
 Further ideas in a later manuscript, [[Les Derivateurs]], were made available by [[Georges Maltsiniotis]]. A main theme is the [[homotopy coherent diagram|homotopy theory of diagrams]]. 
 
-Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Quillen]], dated 19-02-1983, who did not respond. The work then proceeds as a sort of research diary of about 600 pages, including many back-trackings and corrections.  The ideas presented have proved hugely influential even to this day in [[homotopy theory]], [[higher category theory]] and [[higher geometry]], and indeed many of them have now been thoroughly worked over, 'pursued' and published (see below).  We  note however that this does not mean "Pursuing stacks" did not contain many rigorously worked notions and results itself. On the other hand one of the values of the document is to show how Grothendieck goes about developing his ideas, and he was insistent that the document should be published, if at all,  "as is", so that young people could see that even well known people could make errors.  
+Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Quillen]], dated 19-02-1983, who did not respond. The work then proceeds as a sort of research diary of about 600 pages, including many back-trackings and corrections.  The ideas presented have proved hugely influential even to this day in [[homotopy theory]], [[higher category theory]] and [[higher geometry]], and indeed many of them have now been thoroughly worked over, 'pursued' and published (see below).  We  note however that this does not mean "Pursuing stacks" did not contain many rigorously worked notions and results itself. On the other hand one of the values of the document is to show how Grothendieck went about developing his ideas, and he was insistent that the document should be published, if at all,  "as is", so that young people could see that even well known people could make errors.  
 
 #Contents#
 * table of contents
@@ -46,7 +46,8 @@ Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Qu
 
 ## Download
 
-For an account of the origins of the manuscript, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm), where a large downloadable .ps file may be found. 
+For an account of the origins of the manuscript, see [Ronnie Brown's account](https://groupoids.org.uk/pstacks.html), where a large downloadable .ps file may be found; see the note for February 7, 2013 on that webpage (but the links are, at the moment, dead, so use the one in the next line here.
+
 Scanned copies of the original typescript are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB), [here](http://www.math.umn.edu/~messing/docs/) (djvu and pdf - 252MB), or [here](http://preschema.com/pursuing-stacks/) (png images) (some of these links seem no longer to work!). [Page](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps.html) by Maltsiniotis.
 
 There is now a set of [LaTeX files on GitHub](https://github.com/thescrivener/PursuingStacks) with corresponding [PDFs on GitHub Pages](https://thescrivener.github.io/PursuingStacks/). The original source tarball is still here, but an administrator should delete it: [[PursuingStacks.tar.gz:file]].
