@@ -1,6 +1,22 @@
-A form of [[PBW theorem]] says that the symmetric algebra and the universal algebra of a Lie algebra $g$ are isomorphic as vector spaces (in fact coalgebras and $g$-modules). However this is not an isomorphism of algebras, but rather an isomorphism of filtered coalgebras. One can compose the PBW isomorphism with an additional automorphism to get an isomorphism of vector spaces which restricts to isomorphism of __algebras__ when restricted to the subalgebras of $g$-invariant functions. 
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+## Idea
+
+A form of [[PBW theorem]] says that the [[symmetric algebra]] and the [[universal enveloping algebra]] of a [[Lie algebra]] $g$ are isomorphic as vector spaces (in fact coalgebras and $g$-modules). However this is not an isomorphism of algebras, but rather an isomorphism of filtered coalgebras. One can compose the PBW isomorphism with an additional automorphism to get an isomorphism of vector spaces which restricts to isomorphism of __algebras__ when restricted to the subalgebras of $g$-invariant functions. 
 
 The original proof by Duflo is rather case by case, using the structure theory of Lie algebras. Kontsevich in 1998 gave a new proof which generalizes to some geometric situations in deformation quantization and which refines to a fact at the [[derived geometry|derived]] level (expressed in terms of an isomorphism at the level of [[Hochschild cohomology]]). At the level of derived geometry this expresses the property of certain derived exponential map constructed using [[Hochschild-Kostant-Rosenberg map]] precomposed by a square root of the Todd class in appropriate setup. This has prompted a series of articles by Markarian, Caldararu, Chen and others to explain the appearance of Todd class (or related [[Atiyah class]]). Refinements and analogues include [[Kashiwara-Vergne conjecture]]. 
+
+
+## Related concepts
+
+* [[Wheels theorem]]
+
+## References
 
 * M. Duflo, _Op&#233;rateurs diff&#233;rentiels bi-invariants sur un groupe de Lie_, Ann. Sci. &#201;cole Norm. Sup. (4) 10 (1977), 265&#8211;288 [MR56:3188](http://www.ams.org/mathscinet-getitem?mr=56:3188) [numdam](http://numdam.org/numdam-bin/fitem?id=ASENS_1977_4_10_2_265_0) 
 * Damien Calaque, Carlo A. Rossi, _Lectures on Duflo isomorphisms in Lie algebra and complex geometry_, European Math. Soc. 2011
