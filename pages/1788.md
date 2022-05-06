@@ -1,143 +1,46 @@
 
-+-- {: .num_prop #HodgeStarFollowedByHodgeStar}  
-###### Proposition
-**([[homotopy colimit]] over a [[representable functor]] is [[n-truncated object in an (∞,1)-category|contractible]])**
 
-Let $\mathcal{C}$ be a [[small (∞,1)-category]] and consider an [[∞Groupoids|∞-groupoid]]-valued [[(∞,1)-functor]] $F \colon \mathcal{C} \to Groupoids_\infty$ which is representable, i.e. in the image of the [[(∞,1)-Yoneda embedding]] $F \simeq y C$: 
+Notions of orbifold cohomology
 
-$$
-  \array{
-    \mathcal{C}
-    &
-    \overset{
-      \phantom{AA}
-      y
-      \phantom{AA}
-    }{\longrightarrow}
-    &
-    Func
-    \big(
-      \mathcal{C}^{op},
-      Groupoids_\infty
-    \big)
-    \\
-    C &\mapsto&
-    y C
-    \mathrlap{
-      \coloneqq
-       \mathcal{C}(-,C)
-    }
-  }
-$$
-
-Then the [[(∞,1)-colimit]] over this [[(∞,1)-functor]] is contractible, i.e. is the point, the [[terminal object in an (∞,1)-category|terminal object]] in [[∞Groupoids]]:
+Let 
 
 $$
-  \underset{
-    \underset{\mathcal{C}}{\longrightarrow}
-  }{\lim}
-   (y C)
-   \;\simeq\;
-   \ast
-$$
+  \mathcal{X}
+  \;\coloneqq\;
+  OrbSnglr\big(  X \!\sslash\! G \big)
+$$ 
 
-=--
+be the global quotient [[orbifold]] supposed to correspond to a [[smooth manifold]] $X$ equipped with the [[action]] of a [[finite group]] $G$ (for definiteness, and to avoid inessential technical fine-print).
 
-+-- {: .proof}
-###### Proof
+Write
 
-The terminal $\infty$-groupoid $\ast$ is characterized by the fact that for each $S \in Groupoids_\infty$ we have $Groupoids_\infty(\ast, S) \simeq S$.
-Therefore it is suffucicient to show that $\underset{\longrightarrow}{\lim}\big(y C\big)$ has the same property:
+* $Snglr(\mathcal{X}) = X/G$ for its naive quotient space, 
 
+  traditionally regarded as [[topological space]] (namely the [[quotient topological space]] of the [[topological G-space]] underlying $X$),
 
-$$
-  \begin{aligned}
-  Groupoids_\infty
-  \left(
-    \underset{\longrightarrow}{\lim}
-    \big(
-      y C
-    \big)
-    ,
-    S
-  \right)
-  & \simeq\;
-  Func(
-    \mathcal{C}^{op}
-    ,\,
-    Groupoids_\infty
-  )
-  \left(
-    y C
-    ,
-    const S
-  \right)
-  \\
-  & \simeq\;
-  (const S)(C)
-  \\
-  & \simeq\;
-  S
-  \end{aligned}
-$$
+  though this quotient does exist also in [[diffeological spaces]], which would be the more appropriate [[category]] to regard it in ([IKZ 10](#IKZ10));
 
-Here the first step is the [[(∞,1)-adjunction]]
+* $Smth(\mathcal{X}) = X \sslash G$ for its [[homotopy quotient]] space,
 
-$$
-  Func
-  \big(
-    \mathcal{C}^{op},
-    Groupoids_\infty
-  \big)
-  \underoverset
-    {
-      \underset{const}{\longleftarrow}
-    }
-    {
-      \overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}
-    }
-    {\phantom{AA}\bot\phantom{AA}}
-  \Groupoids_\infty
-$$
+  traditionally regarded as a [[topological space]] (namely the [[Borel construction]] on the [[topological G-space]] underlying X),
 
-and the second step is the [[(∞,1)-Yoneda lemma]]
+  though this homotopy quotient does exists also in [[differentiable stacks]]/[[smooth groupoids]], which is the more appropriate [[(2,1)-category]] to regard it in ([MP97](#MoerdijkPronk97)).
 
-=--
+Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in existing literature are actually invariants just of $Snglr(\mathcal{X})$ or just of $Smth(\mathcal{X})$, and mostly just of their underlying topological spaces -- the closest to an exception to this rule is Chen-Ruan cohomology, which however is also just the cohomology of a naive quotient, just of a different orbifold (the [[inertia orbifold]]):
 
-\linebreak
-
-\linebreak
-
-\linebreak
-
-\linebreak
-
-\linebreak
+| cohomology of $Snglr(\mathcal{X})$   |   cohomology of $Smth(\mathcal{X})$   |
+|-----------------------|---------------------------------|
+| Satake: $H^\bullet_{dR}(\mathcal{X}) \simeq H^\bullet\big(Snglr(\mathcal{X}),\mathbb{R}\big)$ |  |
+|  -- | --  |
+| Chen-Ruan: $H^\bullet_{CR}(\mathcal{X}) \simeq H^\bullet\Big( Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)  ,\mathbb{R}\Big)$ <br/> (see [Clader 14, p. 4, p.7](#Clader14))|   | 
 
 
-\linebreak
 
-\linebreak
+## References
 
-\linebreak
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
 
-\linebreak
+* {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093)) 
 
-\linebreak
-
-
-$$
-  \array{
-     \mathcal{C}(D,C) && 
-       \overset{
-         (D \overset{f}{\to}C)^\ast
-       }{\longleftarrow}
-     && \mathcal{C}(C,C)
-     \\
-     & \searrow && \swarrow
-     \\
-     &&
-     \{C \overset{id}{\to}C\}
-  }
-$$
+* {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
 
