@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-This is of interest already for $F \simeq \ast$, as then it expresses generalized cohomology in terms of cordinary cohomology with coefficients in the base cohomology ring. 
+This is of interest already for $F \simeq \ast$, as then it expresses generalized cohomology in terms of ordinary cohomology with coefficients in the base cohomology ring. 
 
 +-- {: .num_remark #NoteOnTerminology}
 ###### Remark
