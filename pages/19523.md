@@ -24,7 +24,7 @@ What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmo
 
 This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous (an assumption also known as the _cosmological principle_). 
 
-Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Ellis 18](#Ellis18).
+Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Buchert-Räsänen 11](#BuchertRasanen11), [Ellis 18](#Ellis18).
 
 It has been shown that the effect of such backreaction is small or invisible if the inhomogeneity is modeled in a non-[[relativistic field theory|relativistic]] (i.e. Newtonian) limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
@@ -95,7 +95,9 @@ If the apparent small positive [[cosmological constant]] ([[dark energy]]) were 
 ## Numerical simulation
  {#NumericalSimulation}
 
-[[computer experiment|Numerical simulations]] of inhomogeneous cosmology in the required [[relativistic field theory|relativistic]] accuracy have been in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17), [Adamek 18](#Adamek18)
+[[computer experiment|Numerical simulations]] of inhomogeneous cosmology in the required [[relativistic field theory|relativistic]] accuracy is in its infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but includes the following results: 
+[ADDK 13](#ADDK13), 
+[Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17), [Adamek 18](#Adamek18) ("[[gevolution]]").
 
 The conclusion in [Montanari-Räsänen 17, p. 20](#MontanariRasanen17) is as follows:
 
@@ -109,7 +111,7 @@ Dependency of results on the choice of [[gauge fixing]] is highlighted in [ACDDK
 
 The simulations in [Odderskov-Koksbang-Hannestad 16](#OdderskovKoksbangHannestad16), [Macpherson-Lasky-Price 18](#MacphersonLaskyPrice18) show noticeable but small effects of inhomogeneity, possibly explaining parts but not all of the measured discrepancy reported in [Riess et. al. 16](#RiessEtAl16).
 
-Similarly [Adamek 18, slide 14](#Adamek18):
+Similarly [Adamek 18, slide 14](#Adamek18) on simulations obtained with [[gevolution]]:
 
 > Backreaction is a real phenomenon that...
 
@@ -217,11 +219,11 @@ See also
 
 * {#BuchertLarenaAlimi06} [[Thomas Buchert]], Julien Larena, Jean-Michel Alimi, _Correspondence between kinematical backreaction and scalar field cosmologies - the 'morphon field'_, Class. Quant. Grav.23:6379-6408, 2006 ([arXiv:gr-qc/0606020](https://arxiv.org/abs/gr-qc/0606020))
 
-* {#Rasanen08} Syksy Räsänen, _Evaluating backreaction with the peak model of structure formation_, JCAP 0804:026,2008 ([arXiv:0801.2692](https://arxiv.org/abs/0801.2692))
+* {#Rasanen08} [[Syksy Räsänen]], _Evaluating backreaction with the peak model of structure formation_, JCAP 0804:026,2008 ([arXiv:0801.2692](https://arxiv.org/abs/0801.2692))
 
 * {#KolbMarraMatarrese10} Edward W. Kolb, Valerio Marra, Sabino Matarrese, _Cosmological background solutions and cosmological backreactions_, Gen.Rel.Grav.42:1399-1412, 2010 ([arXiv:0901.4566](https://arxiv.org/abs/0901.4566))
 
-* {#Rasanen10} Syksy Räsänen, _Backreaction as an alternative to dark energy and modified gravity_ ([arXiv:1012.0784](https://arxiv.org/abs/1012.0784))
+* {#Rasanen10} [[Syksy Räsänen]], _Backreaction as an alternative to dark energy and modified gravity_ ([arXiv:1012.0784](https://arxiv.org/abs/1012.0784))
 
 * {#GreenWald10} Stephen R. Green, [[Robert Wald]], _A new framework for analyzing the effects of small scale inhomogeneities in cosmology_, Phys.Rev.D83:084020, 2011 ([arXiv:1011.4920](https://arxiv.org/abs/1011.4920))
 
@@ -230,6 +232,9 @@ See also
 * {#GreenWald11} Stephen R. Green, [[Robert Wald]], _Newtonian and Relativistic Cosmologies_, Phys.Rev.D85:063512, 2012 ([arXiv:1111.2997](https://arxiv.org/abs/1111.2997))
 
 * {#GreenWald13} Stephen Green, [[Robert Wald]], _Examples of backreaction of small scale inhomogeneities in cosmology_, Phys.Rev.D87:124037, 2013 ([arxiv:1304.2318](https://arxiv.org/abs/1304.2318))
+
+* {#ADDK13} Julian Adamek, David Daverio, Ruth Durrer, Martin Kunz, _General Relativistic N-body simulations in the weak field limit_, Phys. Rev. D 88, 103527 (2013) ([arxiv:1308.6524](https://arxiv.org/abs/1308.6524))
+
 
 * {#GreenWald15} Stephen R. Green, [[Robert Wald]], _Comments on Backreaction_ ([arXiv:1506.06452](https://arxiv.org/abs/1506.06452))
 
@@ -244,7 +249,7 @@ See also
 * {#GreenWald16} Stephen Green, [[Robert Wald]], _A Simple, Heuristic Derivation of our "No Backreaction" Results_, Classical and Quantum Gravity, Volume 33, Number 12, 2016 ([arXiv:1601.06789](https://arxiv.org/abs/1601.06789))
 
 
-* {#MontanariRasanen17} Francesco Montanari, Syksy Räsänen, _Evaluating backreaction with the ellipsoidal collapse model_, JCAP12(2017)008 ([arXiv:1710.02451](https://arxiv.org/abs/1710.02451))
+* {#MontanariRasanen17} Francesco Montanari, [[Syksy Räsänen]], _Evaluating backreaction with the ellipsoidal collapse model_, JCAP12(2017)008 ([arXiv:1710.02451](https://arxiv.org/abs/1710.02451))
 
 * {#Coley18} [[Alan Coley]], section 3.5 of _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
@@ -257,7 +262,7 @@ See also
 * {#Ostrowski19} Jan Ostrowski, _Green and Wald formalism: The aftermath of the "backreaction debate"_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org)
 ([[OstrowskiBackreactionDebate19.pdf:file]])
 
-* Syksy Räsänen, _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
+* [[Syksy Räsänen]], _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
 
 
 
@@ -272,7 +277,7 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 
 * {#Schwarz02} Dominik J. Schwarz, _Accelerated expansion without dark energy_ ([arXiv:astro-ph/0209584](https://arxiv.org/abs/astro-ph/0209584))
 
-* {#Rasanen03} Syksy Räsänen, _Dark energy from backreaction_, JCAP 0402:003, 2004 ([arXiv:astro-ph/0311257](https://arxiv.org/abs/astro-ph/0311257))
+* {#Rasanen03} [[Syksy Räsänen]], _Dark energy from backreaction_, JCAP 0402:003, 2004 ([arXiv:astro-ph/0311257](https://arxiv.org/abs/astro-ph/0311257))
 
 
 * {#AlnesAmarzguiouiGron06} H. Alnes, M. Amarzguioui and O. Gron, _An inhomogeneous alternative to dark energy?_, Phys. Rev. D 73, 083519 (2006) ([arXiv:astro-ph/0512006](https://arxiv.org/abs/astro-ph/0512006))
@@ -292,7 +297,7 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * Michael Blomqvist, _Inhomogeneous cosmologies with clustered dark energy or a local matter void_,  2010 ([web](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A353689&dswid=2010))
 
 
-* {#BuchertRasanen11} [[Thomas Buchert]], Syksy Räsänen, _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
+* {#BuchertRasanen11} [[Thomas Buchert]], [[Syksy Räsänen]], _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
 
 * {#SmollerTempleVogler14} Joel Smoller, Blake Temple, Zeke Vogler, _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A, 2017 ([arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [10.1098/rspa.2016.0887](http://rspa.royalsocietypublishing.org/content/473/2207/20160887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553))
 
