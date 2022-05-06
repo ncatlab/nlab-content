@@ -73,3 +73,4 @@ Review includes
 
 For more see at _[[ABJM model]]_.
 
+[[!redirects D=3 SYM]]
