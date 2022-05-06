@@ -15,6 +15,9 @@ On [[equivariant elliptic genera]] in [[equivariant elliptic cohomology]]:
 
 * [[Matthew Ando]], [[Maria Basterra]], _The Witten genus and equivariant elliptic cohomology_, Math Z 240, 787–822 (2002) ([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
 
+* [[Matthew Ando]], [[John Greenlees]], _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
+
+
 On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomology]]:
 
 * {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
