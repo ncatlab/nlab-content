@@ -1141,11 +1141,11 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 Original references include
 
-* [[Jean-Marie Souriau]], _Structure des systemes dynamiques_ Dunod, Paris (1970)
+* {#Souriau69} [[Jean-Marie Souriau]], _[Structure des systemes dynamiques](http://www.jmsouriau.com/structure_des_systemes_dynamiques.htm)_, Dunod, Paris (1970)
 
   Translated and reprinted as (see section V.18 for geometric quantization):
 
-  [[Jean-Marie Souriau]], _Structure of dynamical systems - A symplectic view of physics_, Brikh&#228;user (1997)
+  [[Jean-Marie Souriau]], _Structure of dynamical systems - A symplectic view of physics_, Brikh&#228;user (1997) ([doi:10.1007/978-1-4612-0281-3](https://link.springer.com/book/10.1007/978-1-4612-0281-3))
 
 * [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_, Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
 
