@@ -226,9 +226,14 @@ $$
   \array{
     a &\overset{}{\longrightarrow}& b
     \\
-    {}^{\mathllap{f^\ast g}}\downarrow & & \downarrow^{g}
+    {}^{\mathllap{f^\ast g}}
+    \downarrow 
+    & & 
+    \downarrow^{\mathrlap{g}}
     \\
-    c &\underset{f}{\longrightarrow}& d
+    c 
+      &\underset{f}{\longrightarrow}& 
+    d
   }
 $$
 
