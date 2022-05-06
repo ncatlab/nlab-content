@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -216,11 +215,14 @@ Some of the major examples are treated in
 * S. Niefield, _Cartesianness: topological spaces, uniform spaces and affine schemes_, J. Pure Appl. Algebra __23__ (1982) 147-167 <a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi</a>
 
 
+[[!redirects cartesian closed]]
 [[!redirects cartesian closed category]]
 [[!redirects cartesian closed categories]]
-[[!redirects cartesian closed]]
 [[!redirects closed cartesian category]]
 [[!redirects closed cartesian categories]]
-
 [[!redirects Cartesian closed category]]
 [[!redirects Cartesian closed categories]]
+[[!redirects cartesian-closed category]]
+[[!redirects cartesian-closed categories]]
+[[!redirects Cartesian-closed category]]
+[[!redirects Cartesian-closed categories]]
