@@ -1,6 +1,6 @@
 
 
-* [webpage](https://www.imj-prg.fr/~simon.henry/)
+* [webpage](http://www.normalesup.org/~henry/)
 
 ## Selected writings
 
