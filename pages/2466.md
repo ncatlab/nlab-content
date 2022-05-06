@@ -1,1 +1,1 @@
-The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Precursors_of_Category_Theory).
+The material previously on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Precursors_Of_Category_Theory).
