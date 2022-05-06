@@ -70,7 +70,7 @@ In the special case that $\mathcal{C}$ has a single object and is hence (if thou
 
 +-- {: .num_example #Underlying}
 ###### Example
-For any a monoidal category $V$, the functor $V(I,-): V \to Set$ is lax monoidal, hence induces a 2-functor from $V Cat$ to $Cat$.  This assigns to any $V$-enriched category, $\mathcal{C}$, its _underlying ordinary category_, usually denoted $\mathcal{C}_0$, defined by $\mathcal{C}_0(x,y) = V(I, hom(x,y))$.
+For any a monoidal category $V$, the functor $V(I,-): V \to Set$ is lax monoidal, hence induces a 2-functor from $V Cat$ to $Cat$.  This assigns to any $V$-enriched category, $\mathcal{C}$, its [[underlying ordinary category]], usually denoted $\mathcal{C}_0$, defined by $\mathcal{C}_0(x,y) = V(I, hom(x,y))$.
 =--
 
 +-- {: .num_example #FreeCats}
