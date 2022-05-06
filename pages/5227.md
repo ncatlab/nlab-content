@@ -69,7 +69,7 @@ The functions $pre$ and $post$ can be [[curried]] to write a Petri net as a pair
 
 \begin{centre}
 \begin{tikzcd} 
-E \ar[r,shift left=.5ex,"pre"] \ar[r,shift right=.5ex,"post",swap] & \mathbb{N} [P]
+E \ar[r,shift left=.5ex,"\mathrm{pre}"] \ar[r,shift right=.5ex,"\mathrm{post}",swap] & \mathbb{N} [P]
 \end{tikzcd}
 \end{centre}
 
