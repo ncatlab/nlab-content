@@ -329,3 +329,4 @@ This implies the claim.
 [[!redirects unitary group]]
 [[!redirects unitary groups]]
 
+[[!redirects U(n)]]
