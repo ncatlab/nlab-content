@@ -152,6 +152,20 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 
 (...)
 
+## The open problem of formulating M-theory
+
+The tight web of hints and plausiblity checks notwithstanding, an actual formulation of M-theory as an actual theory remains an open problem. 
+
+This is not outrageous in itself: In [[mathematics]] there are good examples of cases where a collection of situations was or is suspected to be limiting cases of a single unified theory, without that theory itself having been or being known. 
+
+One example of this is the putative theory of [[arithmetic geometry]] "over the absolute [[ground field|base]] [[field with one element]]". In this [[analogy]], the various [[perturbative string theories]] ([[heterotic string theory|HET]], [[type I string theory|type I]], [[type IIA string theory|IIA]], [[type IIB string theory|IIB]] and their [[KK-compactifications]]) correspond to [[arithmetic geometry|arithmetic geometries]] over [[ground field|base]] [[prime field]] $\mathbb{F}_p$ for $p \geq 2$, and the putative M-theory corresponds to the putative theory of the [[field with one element]] that unifies all this, by describing it at a deeper level (literally: a deeper base).
+
+On the other hand, parts of the physics-minded literature tends to forget or downplay the [[conjecture|conjectural]] nature of many assumptions or leaps of faiths that are being made when it comes to discussion of [[D-brane]]/[[M-brane]] dynamics and generally of [[non-perturbative effects]] in string theory. 
+
+The following is a collection of quotes from authors that highlight the open problem
+
+
+
 ## Related entries
 
 * [[supergravity C-field]]
