@@ -269,3 +269,7 @@ General discussion of the [[Kac-Moody groups]] arising in this context is for in
 String theory [[partition functions]] as [[automorphic forms]] for U-duality groups are discussed in 
 
 * {#GRV10} [[Michael Green]], Jorge G. Russo, Pierre Vanhove, _Automorphic properties of low energy string amplitudes in various dimensions_ ([arXiv:1001.2535](http://arxiv.org/abs/1001.2535))
+
+[[!redirects U-duality]]
+[[!redirects U-duality groups]]
+
