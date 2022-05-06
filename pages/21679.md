@@ -14,6 +14,9 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The fundamental [[theorem]] of [[rational homotopy theory]] modeled by [[dgc-algebras]].
 
 
 ## Preliminaries
@@ -123,7 +126,7 @@ $$
     {\bot}
   Ho
   \big(
-    HoSimplicialSets_{Qu}
+    SimplicialSets_{Qu}
   \big)
 $$
 
@@ -184,7 +187,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
       {\simeq}
     Ho
     \big(
-      HoSimplicialSets_{Qu}
+      SimplicialSets_{Qu}
     \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
   $$
 
@@ -192,6 +195,13 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
 =--
 
 ([Bousfield-Gugenheim 76, Theorems 9.4 & 11.2](#BousfieldGugenheim76))
+
+
+## Related concepts
+
+* [[fundamental theorem of equivariant dg-algebraic rational homotopy theory]]
+
+
 
 ## References
 
