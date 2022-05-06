@@ -362,8 +362,9 @@ Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-
 
 * {#Mayes19} [[Van Eric Mayes]], _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
 
-* {#GemillHowingtonMayes19} Jordan Gemmill, Evan Howington, Van E. Mayes, _One String to Rule Them All: Neutrino Masses and Mixing Angles_ ([arXiv:1907.07106](https://arxiv.org/abs/1907.07106))
+* {#GemillHowingtonMayes19} Jordan Gemmill, Evan Howington, [[Van Eric Mayes]], _One String to Rule Them All: Neutrino Masses and Mixing Angles_ ([arXiv:1907.07106](https://arxiv.org/abs/1907.07106))
 
+* Tianjun Li, Adeel Mansha, Rui Sun, _Revisiting the Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1910.04530](https://arxiv.org/abs/1910.04530))
 
 
 ### Lift to M-theory
