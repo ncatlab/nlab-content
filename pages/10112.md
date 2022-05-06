@@ -213,6 +213,10 @@ See the references at _[[chiral perturbation theory]]_.
 
 
 
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
+
+
+
 ### In the large $N$ limit
 
 In the [[large N limit]]:
