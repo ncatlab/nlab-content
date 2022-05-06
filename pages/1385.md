@@ -123,11 +123,11 @@ $$
 1. for every $D \in Pr(\infty,1)Cat$, composition with $f$ produces an [[equivalence of (∞,1)-categories]] 
 
 $$
-  Func_{(\infty,1)}^L(C_1 \otimes \cdots \otimes C_n)
+  Func_{(\infty,1)}^L(C_1 \otimes \cdots \otimes C_n,D)
   \stackrel{\simeq}{\to}
-  Func^{L}_{(\infty,1)}(C_1 \times \cdots \times C_n)
+  Func^{L}_{(\infty,1)}(C_1 \times \cdots \times C_n,D)
   \hookrightarrow
-  Func^{}_{(\infty,1)}(C_1 \times \cdots \times C_n)
+  Func^{}_{(\infty,1)}(C_1 \times \cdots \times C_n,D)
 $$
 
 onto the full [[sub-(∞,1)-category]] of those functors, that preserves colimits in each argument.
