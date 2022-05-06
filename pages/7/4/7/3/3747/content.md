@@ -126,13 +126,23 @@ For non-modulated Cauchy sequences and reals, there are additional problems even
 
 (Actually, Lubarsky writes using [[Heyting-valued sets]] on topological spaces rather than classifying toposes of propositional [[geometric theories]], but it seems almost certain to me that his results can be rephrased as the above.)
 
+## Locators
+
+* The set of all [[Dedekind real numbers]] with a $\mathbb{Q}$-indexed [[locator]] is the set of all [[modulated Cauchy real numbers]]. 
+
+* The set of all [[interval cuts]] on $\mathbb{Q}$ with a $\mathbb{Q}$-indexed locator is the set of all [[modulated Cauchy real numbers]]
+
+* That every Dedekind real number has a $\mathbb{Q}$-indexed locator implies that they coincide with the [[modulated Cauchy real numbers]] as well as the weak [[limited principle of omniscience]]. 
+
+## Algebraic closure
+
+The [[algebraic closure]] of the modulated Cauchy real numbers is the modulated Cauchy [[complex numbers]]; i.e. the [[fundamental theorem of algebra]] is true for the modulated Cauchy real numbers. 
 
 ## Generalisations
 
 Although the notion of [[metric space]] doesn\'t make sense until we know what real numbers are, once we have these, we can recognise that the rational numbers form a metric space $\mathbb{Q}$ and the real numbers were constructed from them in a way that makes reference only to the metric-space structure of $\mathbb{Q}$.  Thus, this procedure may be generalised to any metric space to produce its [[complete metric space|completion]].
 
 We can also interpret $\mathbb{Q}$ as a [[uniform space]] or even as a [[Cauchy space]] and define analogous notions of completion for these.  However, these require us (in general) to use generalised Cauchy sequences, that is Cauchy [[nets]], even in classical mathematics.  (Of course, without [[weak countable choice]], we should use nets even for metric spaces.)
-
 
 ## Motivation
 
@@ -151,6 +161,7 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 * [[generalized Cauchy real number]]
 * [[HoTT book real number]]
 * [[prealgebra real number]]
+* [[locator]]
 
 ## References
 
@@ -162,6 +173,12 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 
 * [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, [doi](https://doi.org/10.1016/j.entcs.2006.09.012)
  {#Lubarsky}
+
+* Auke Booij, *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+
+A [[constructive mathematics|constructive]] algebraic proof of the [[fundamental theorem of algebra]] for the [[modulated Cauchy real numbers]] without choice princples such as [[weak countable choice]]
+
+* Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
 
 Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in 
 
