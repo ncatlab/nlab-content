@@ -671,6 +671,8 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
 
+* Selman Akbulut, _Homotopy 4-spheres associated to an infinite order loose cork_ ([arXiv:1901.08299](https://arxiv.org/abs/1901.08299))
+
 ### Branched covers
 
 All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  [[4-sphere]]:
