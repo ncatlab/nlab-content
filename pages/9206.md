@@ -90,6 +90,8 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * [[Chris Hull]], [[Neil Lambert]], _Emergent Time and the M5-Brane_, JHEP06(2014)016 ([arXiv:1403.4532](https://arxiv.org/abs/1403.4532))
 
+* Chiung Hwang, Joonho Kim, Seok Kim, Jaemo Park, Section 3.4.2 of: _General instanton counting and 5d SCFT_ ([arxiv:1406.6793](https://arxiv.org/abs/1406.6793))
+
 * [[Andreas Gustavsson]], _Five-dimensional Super-Yang-Mills and its Kaluza-Klein tower_. JHEP01(2019)222 ([arXiv:1812.01897](https://arxiv.org/abs/1812.01897))
 
 * [[Neil Lambert]], Sec. 3.1 and 3.4.3. of _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf))
