@@ -152,3 +152,6 @@ and also at
 
 [[!redirects N=4 D=4 sYM]]
 
+[[!redirects D=4 N=4 SYM]]
+[[!redirects D=4 N=4 super Yang-Mills]]
+
