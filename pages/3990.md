@@ -1,4 +1,4 @@
-# Split coequalisers
+# Split coequalizers
 * table of contents
 {: toc}
 
@@ -8,7 +8,15 @@ For purposes of this page, a [[fork]] (some might say a "cofork") in a [[categor
 
 $$ A \;\underoverset{f}{g}{\rightrightarrows}\; B \overset{e}{\rightarrow} C $$
 
-such that $e f = e g$.  A **split coequalizer** is a fork together with morphisms $s\colon C\to B$ and $t\colon B\to A$ such that $e s = 1_C$, $s e = g t$, and $f t = 1_B$.  This is equivalent to saying that the morphism $(f,e)\colon g \to e$ has a [[section]] in the [[arrow category]] of $C$.
+such that $e f = e g$.  A **split coequalizer** is a fork together with morphisms $s\colon C\to B$ and $t\colon B\to A$ as below
+
+\begin{center}\begin{tikzcd}
+A \ar[r,shift left,"f"] \ar[r,shift right,"g"'] &
+B \ar[r,"e"] \ar[l,bend right=40,"t"'] & 
+C \ar[l,bend right=40,"s"']
+\end{tikzcd}\end{center}
+
+such that $e s = 1_C$, $s e = g t$, and $f t = 1_B$.  This is equivalent to saying that the morphism $(f,e)\colon g \to e$ has a [[section]] in the [[arrow category]] of $C$.
 
 ## Related concepts
 
