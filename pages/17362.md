@@ -60,4 +60,6 @@ Consider the [[type theory|type theoretic]] expression $\sum_{x: man} \sum_{y: d
 
 * [[Aarne Ranta]], _Type-theoretical grammar_, Oxford University Press (1994)
 
+* [[Aarne Ranta]], _Type theory and the informal language of mathematics_, TYPES '93: Proceedings of the international workshop on Types for proofs and programs, pp. 352–365, ([pdf](/nlab/files/InfLang.pdf))
+
 [[!redirects syntactic sugar]]
