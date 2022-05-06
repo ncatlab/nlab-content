@@ -32,7 +32,7 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 ## Examples
 
-* [[electron]], [[quark]]
+[[!include flavors of fundamental particles -- table]]
 
 ## Related entries
 
