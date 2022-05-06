@@ -94,6 +94,8 @@ The restriction of the Kalb-Ramond field in the 10-dimensional [[spacetime]] to 
 
 * [[discrete torsion]]
 
+* [[h1-meson]], [[b1-meson]]
+
 [[!include table of branes]]
 
 ## References {#References}
