@@ -9,6 +9,9 @@ On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
 * {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
+On the [[Hopf-Wess-Zumino term]] of the [[M5-brane]]:
+
+* {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
 
 On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G2-manifolds]]:
 
