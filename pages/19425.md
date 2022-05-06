@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +38,7 @@ On either side of the [[duality in string theory|duality]], this is the setup th
 
 On the type IIB-side this is argued in ([Witten95a, section 1](#Witten95a)), for [[ADE singularities]] in the [[K3-surface]].
 
-On the M-theory side, ([Witten 95b, p. 9-10](#Witten95b)) identifies the $\mathbb{Z}_2$-[[orbifold]] singularity with the worldvolume of [[M5-branes]]. Placing this furthermore inside the [[ADE singularity]] locus of a [[MK6-brane]] should be the corresponding setup (any reference saying this explicitly, i.e. speaking about $M5 \cap (MK6 @ ADE)$ ?)
+On the M-theory side, ([Witten 95b, p. 9-10](#Witten95b)) identifies the $\mathbb{Z}_2$-[[orbifold]] singularity with the worldvolume of [[M5-branes]]. Placing this furthermore inside the [[ADE singularity]] locus of a [[MK6-brane]] should be the corresponding setup (any reference saying this explicitly, i.e. speaking about M5 $\cap$ (MK6 at ADE) ?)
 
 
 ## References
