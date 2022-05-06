@@ -94,6 +94,14 @@ Interview with [[Mike Duff]] by Graham Fermelo, _The universe speaks in numbers 
 
 ## Selected writing
 
+On [[KK-compactification]] of [[11-dimensional supergravity]] on a [[squashed sphere|squashed]] [[7-sphere]] with [[G2-holonomy]] ([[M-theory on G2-manifolds]]):
+
+* {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 (1983) ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
+
+* [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Spontaneous Supersymmetry Breaking by the Squashed Seven-Sphere_, Phys. Rev. Lett. 50, 2043 (1983) ([doi:10.1103/PhysRevLett.50.2043](https://doi.org/10.1103/PhysRevLett.50.2043), [erratum](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.846))
+
+
+
 On [[double dimensional reduction]] of the [[super-membrane]] (the [[M2-brane]]) to the [[Green-Schwarz superstring]]:
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
