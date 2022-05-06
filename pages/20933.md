@@ -22,6 +22,47 @@ The [[cochain cohomology]] of the framed [[knot graph complex]] (sometimes calle
 
 $$
   \underset{
+    \phantom{a}
+    \atop
+    {
+      {\color{blue}framed\;weight\;systems\;on}
+      \atop
+      {\color{blue}round\;chord\;diagrams}
+    }
+  }{
+    \mathcal{W}^\bullet
+  }
+  \;\simeq\;
+  \underset{
+    \phantom{a}
+    \atop
+    {
+      {\color{blue}\weight\;systems\;on}
+      \atop
+      {\color{blue}Jacobi\;diagrams}
+    }
+  }{
+    \mathcal{W}^\bullet
+  }
+  \underoverset
+  {
+   \;\;\;\simeq\;\;\;
+  }
+  {
+    (w,\mathcal{K})
+    \mapsto
+    \left\langle
+      Tr_{{}_{w}}
+      \text{P}\exp
+      \left(
+        \int_{\mathcal{K}} A
+      \right)
+    \right\rangle
+  }
+  {
+    \longrightarrow
+  }
+  \underset{
     \mathclap{
     {\phantom{a}}
     \atop
@@ -37,52 +78,13 @@ $$
     \mathcal{G}
   \big)_3
   }
-  \underoverset
-  {
-   \;\;\;\simeq\;\;\;
-  }
-  {
-    \left\langle
-      Tr_{{}_{V}}
-      \text{P}\exp
-      \left(
-        \int_{\mathcal{K}} A
-      \right)
-    \right\rangle
-  }
-  {
-    \longleftarrow
-  }
-  \underset{
-    \phantom{a}
-    \atop
-    {
-      {\color{blue}\weight\;systems\;on}
-      \atop
-      {\color{blue}Jacobi\;diagrams}
-    }
-  }{
-    \mathcal{W}^\bullet
-  }
-  \;\simeq\;
-  \underset{
-    \phantom{a}
-    \atop
-    {
-      {\color{blue}framed\;weight\;systems\;on}
-      \atop
-      {\color{blue}round\;chord\;diagrams}
-    }
-  }{
-    \mathcal{W}^\bullet
-  }
 $$
 
 This statement is made explicit as [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02), where it is noticed that this is implicit in statement and proof of [AF 96, Theorem 1](#AF96) (where in turn the argument is attributed to [Kohno 94](#Kohno94)!)
 
 Moreover: 
 
-If $w \in \mathcal{W}$ is a [[weight system]] and $D \in \mathcal{D}$ is a [[Jacobi diagram]] such that $w(D) \neq 0$, then $\phi(w) \in Graphs$ contains a non-vanishing multiple of $D$ as a summand.
+If $w \in \mathcal{W}$ is a [[weight system]] and $D \in \mathcal{D}$ is a [[Jacobi diagram]] such that $w(D) \neq 0$, then its image $\left\langle Tr_{{}_{w}} \text{P}\exp \left( \int_{(-)} A \right) \right\rangle$ under the above isomorphism contains a non-vanishing multiple of $D$ as a summand.
 
 This is made explicit as [CCRL 02, Remark 7.7](#CattaneoCottaRamusinoLongoni02) and again this is implicit in the statement of [AF 96, Theorem 1](#AF96).
 
@@ -234,6 +236,7 @@ The element
 \[
   \label{WisonLoopObservable}
     \left\langle
+      Tr_{(-)}
       \text{P}\exp
       \left(
         \int_{(-)} A
@@ -265,6 +268,7 @@ is closed
 $$
   d_{\mathcal{G}} 
   \left\langle
+      Tr_{(-)}
     \text{P}\exp
       \left(
         \int_{(-)} A
@@ -283,6 +287,7 @@ Hence (eq:WisonLoopObservable) defines a [[cochain cohomology]]-[[cohomology  cl
 $$
   \begin{aligned}
     \left\langle
+      Tr_{(-)}
       \text{P}\exp
       \left(
         \int_{(-)} A
@@ -311,6 +316,7 @@ $$
   \mathcal{W}^\bullet
   \overset{
     \left\langle
+      Tr_{(-)}
       \text{P}\exp
       \left(
         \int_{(-)} A
