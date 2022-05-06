@@ -252,5 +252,7 @@ For the applications of derived categories in [[algebraic geometry]], see
 
 [[!redirects derived (infinity,1)-category]]
 [[!redirects derived (infinity,1)-categories]]
+[[!redirects derived (∞,1)-category]]
+[[!redirects derived (∞,1)-categories]]
 [[!redirects derived dg-category]]
 [[!redirects derived dg-categories]]
