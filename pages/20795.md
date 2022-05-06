@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,7 +36,7 @@
 
 Parallel: dissolves ([Gava-Narain-Sarmadi 97](#GavaNarainSarmadi97))
 
-### Transversal intersection -- Monopoles
+### Relation to monopoles -- Transversal intersection
  {#TransverseIntersection}
 
 Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
@@ -61,9 +73,16 @@ Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|g
 
 ## References
 
+### For parallel intersection
+
 For parallel intersection:
 
 * {#GavaNarainSarmadi97}  E. Gava, K.S. Narain, M.H. Sarmadi, _On the Bound States of $p$- and $(p+2)$-Branes_, Nucl. Phys. B504 (1997) 214-238 ([arxiv:hep-th/9704006](https://arxiv.org/abs/hep-th/9704006))
+
+### Relation to monopoles
+ {#ReferencesRelationToMonopoles}
+
+On transversal [[brane intersection|intersection]] of D$p$/D$(p+2)$-branes as [[Yang-Mills monopoles]]:
 
 For transversal [[D1-D3-brane bound states]]:
 
@@ -85,12 +104,24 @@ For transversal [[D6-D8-brane bound states]] (with an eye towards [[AdS/QCD]]):
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([https:arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
 
 
-
-
-
 With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
+
+### Relation to knot invariants
+ {#ReferencesRelationToKnotInvariants}
+
+Relation of [[Dp-D(p+2)-brane bound states]] ([hence](#ReferencesRelationToMonopoles)
+[[Yang-Mills monopoles]]) to [[knot invariants]] via [[chord diagrams]]:
+
+* S. Ramgoolam, B. Spence, S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+
+* S. McNamara, Constantinos Papageorgakis, S. Ramgoolam, B. Spence, Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+
+* Constantinos Papageorgakis, p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
+
 
 [[!redirects Dp-D(p+2)-brane bound states]]
 
