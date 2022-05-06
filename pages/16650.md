@@ -8,7 +8,7 @@ A Euclidean domain is an integral domain which admits a form of the Euclidean qu
 
 ## Definition 
 
-A **Euclidean domain** is an [[integral domain]] $A$ for which there exists a function $d: A \setminus \{0\} \to \mathbb{N}$ to the [[natural numbers]], often called a *degree function*, such that given $f, g \in A$ with $g \neq 0$, there exists unique $q, r \in A$ such that $f = q \cdot g + r$ and either $r = 0$ or $d(r) \lt d(g)$. (One may harmlessly stipulate that $d(0) = 0$; what to do with the zero element varies from author to author.) 
+A **Euclidean domain** is an [[integral domain]] $A$ for which there exists a function $d: A \setminus \{0\} \to \mathbb{N}$ to the [[natural numbers]], often called a *degree function*, such that given $f, g \in A$ with $g \neq 0$, there exist $q, r \in A$ such that $f = q \cdot g + r$ and either $r = 0$ or $d(r) \lt d(g)$. (One may harmlessly stipulate that $d(0) = 0$; what to do with the zero element varies from author to author.) 
 
 Some authors also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a, b$. There is no loss of generality in assuming it; every Euclidean domain admits such a degree function $d'$, defining $d'(a) = \min \{d(a b): b \in A, b \neq 0\}$. We'll use it freely below, if and when we need to. 
 
