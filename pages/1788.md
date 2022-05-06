@@ -51,5 +51,10 @@
 	\arrow[Rightarrow, from=2-5, to=1-4, bend right, "\substack{\text{Nagata-Smirnov metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" right]
 	\arrow[Rightarrow, from=5-1, to=3-3, "\text{AC}" {description, near end}, "\text{if $X$ paracompact}" {near start, below right}]
 \end{tikzcd}
-
+\begin{tikz}[remember picture, overlay]
+        \node[rectangle, draw, blue,
+                fit={(tikz@f@1-1-1) (tikz@f@1-1-3)  (tikz@f@1-2-2)}
+            ] 
+        {};
+\end{tikz}
 
