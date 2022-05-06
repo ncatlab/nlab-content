@@ -201,6 +201,10 @@ The general case is considered here:
 
 * [[Thomas Streicher]], _Universes in Toposes_ , pp.78-90 in L. Crosilla, P. Schuster (eds.), _From Sets and Types to Topology and Analysis: Towards Practicable Foundations for Constructive Mathematics_ , Oxford UP 2005. ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz),[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.pdf))
 
+See also
+
+* Christian Maurer, _Universes in Topoi_ , pp.285-296 in F. W. Lawvere, C. Maurer, G. C. Wraith (eds.), _Model Theory and Topoi_ , LNM **445** Springer Heidelberg 1975.
+
 
 [[!redirects universe in a topos]]
 [[!redirects universes in a topos]]
