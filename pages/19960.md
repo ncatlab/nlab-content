@@ -2,10 +2,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Physics
+###Context###
+#### Duality in string theory
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include duality in string theory -- contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
