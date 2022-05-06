@@ -71,7 +71,7 @@ The ($t\,:\,T$) form can be translated to this system as either ($t \Vdash T$) o
 
 ### Abbreviations
 
-#### Semantic Judgment Forms
+#### Semantic Judgment Forms {#SemJudg}
 
 $a \in A\;\coloneqq\;a = a \in A$
 
@@ -407,9 +407,33 @@ $$\frac{\Gamma \vdash T\,type}{\Gamma \vdash t1 = t2 \in T\,type}$$
 
 No, that doesn't work. The extra complexity has to do with making the axiomatization work for open terms. Consider the type $I\;\coloneqq\;\{x = y | x \in Bool \wedge y \in Bool\}$. Then $tru = fls \in I$. But then consider ($x:I \vdash tru = x \in Bool\,type$). The simple formation rule would derive it, but it doesn't make sense, because ($tru = tru \in Bool$) and ($tru = fls \in Bool$) are different types, although $tru$ and $fls$ are the same $I$. The problem is that equality of types and elements is generally different from equality of computations, and we want well-typed open terms to respect equality of elements. The respect-based equality formation rule doesn't derive the bad type family because you'd need to find some type $T$ such that ($x:I \vdash x \Vdash T$) and ($T \prec Bool$). But if ($x:I \vdash x \Vdash T$), then $T$ considers $tru$ and $fls$ equal, while if ($T \prec Bool$), then it doesn't. This inability to treat variables as computations is the sense in which variables are intrinsically typed: although elements are all realized by computations, an arbitrary element generally cannot be used as a computation, so reasoning about membership is constrained.
 
+### Other semantic judgments
+
+Based on the ability to reason about membership, in addition to equality, other types can be defined that seem like semantic judgments. For example, $\prec$, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ were [defined above](#SemJudg). But what kinds of things are these semantic judgments in general?
+
+A lenient answer is that semantic judgments are type (families) $J$ such that ($\{J\} \to J$) is inhabited. That is, the squash-stable types. All such types are isomorphic to equality types, and are the regular subobjects, if you consider a Nuprl-style system as a category. (In a [[relation between type theory and category theory#DependentTypeTheory|manner analogous to ETT]], using inhabitedness of equality types to determine equality of morphisms.)
+
+A stricter definition of semantic judgments is that they are type (families) $J$ such that ($\{J\} \lt\!\!:\;J$). Types formed with equality, squash itself, $\prec$, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ are always judgments in this strict sense. These types are extensionally equal to equality types (for example, this one: $(\lambda x.x) \in J$) in the following sense:
+
+$$A \approx B\;\coloneqq\;A \lt\!\!:\;B \wedge B \lt\!\!:\;A$$
+
+This definition of extensional equality is motivated by the "subsumption" (derived) rule:
+
+$$\frac{\Gamma \vdash t \Vdash A \qquad
+\Gamma \vdash A \lt\!\!:\;B}
+{\Gamma \vdash t \Vdash B}$$
+
+So $\approx$ gives us subsumptions in both directions.
+
+Thus, the semantic judgments in the strict sense are regular subobjects defined in a convenient way so that they have an element if and only if they're basically $\top$. $\approx$ is itself a semantic judgment. Also:
+
+$$(A \approx B) \approx (A \sqsubseteq B \wedge B \sqsubseteq A)$$
+
+However, ($A \subseteq B \wedge B \subseteq A$) is generally weaker. For example, $\top$ and $Comp$ have the same members (computations) but are not extensionally equal, or even isomorphic.
+
 ## PER theory
 
-## More admissible rules
+## More admissible/derived rules
 
 ### Fun with subsets
 
