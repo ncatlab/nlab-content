@@ -582,8 +582,9 @@ More recent discussion is in
 
 * [[Richard Garner]], _The Isbell monad_ , Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
 
-* [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_,
-Fundamenta Informaticae 103 (2010), 203&#8211;218.
+* [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_, Fundamenta Informaticae 103 (2010), 203&#8211;218.
+
+* {#DL19} Ivan Di Liberti, [[Fosco Loregian]], _On the Unicity of Formal Category Theories_ , arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
 
 Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
 
