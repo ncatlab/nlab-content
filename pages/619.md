@@ -350,7 +350,7 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 The subcategory
 $$ \mathsf{Cat} \hookrightarrow \mathsf{sSet}$$
-of the [category of categories](https://ncatlab.org/nlab/show/Cat) into the [category of simplical sets](https://ncatlab.org/nlab/show/SimpSet) is a reflective subcategory [Riehl, example 4.5.14 (vi)](#Riehl). The reflection is given by the [homotopy category functor](https://ncatlab.org/nlab/show/homotopy+category). This implies that $\mathsf{Cat}$ is complete and complete because it inherits all limits and colimits from $\mathsf{sSet}$.
+of the [category of categories](https://ncatlab.org/nlab/show/Cat) into the [category of simplical sets](https://ncatlab.org/nlab/show/SimpSet) is a reflective subcategory [Riehl, example 4.5.14 (vi)](#Riehl). The reflection is given by the [homotopy category functor](https://ncatlab.org/nlab/show/homotopy+category). This implies that $\mathsf{Cat}$ is complete and cocomplete because it inherits all limits and colimits from $\mathsf{sSet}$.
 =--
 
 +-- {: .num_example #ModelsOfALawvereTheory}
