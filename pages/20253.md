@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,7 +22,7 @@ A [[manifold]] of [[dimension]] 8.
 
 ### G-Structures
 
-+-- {: .num_prop}
++-- {: .num_prop #Spin5StructureOnConnected8Manifolds}
 ###### Proposition
 **([[Spin(5)]]-[[G-structure|structure]] on [[8-manifolds]])**
 
@@ -31,6 +32,7 @@ Let $X$ be a [[closed manifold|closed]] [[connected topological space|connected]
 
    $$
      w_2 \;=\; 0 
+     \,,
      \phantom{AAA}
      w_6 \;=\; 0
    $$
@@ -60,6 +62,156 @@ Let $X$ be a [[closed manifold|closed]] [[connected topological space|connected]
 =--
 
 ([Čadek-Vanžura 97, Corollary 5.5](#CadekVanzura97))
+
+\linebreak
+
++-- {: .num_prop #Spin4StructureOnClosed8dSpinManifolds}
+###### Proposition
+**([[Spin(4)]]-[[G-structure|structure]] on [[8-manifolds]])**
+
+Let $X$ be a [[closed manifold|closed]] [[connected topological space|connected]] [[spin structure|spin]] [[8-manifold]]. Then $X$ has [[G-structure]] for $G =$ [[Spin(4)]] 
+
+\[
+  \label{Spin4Structure}
+  \array{
+    && 
+    B Spin(4)
+    \\
+    & 
+      {}^{\mathllap{ \widehat{T X} }}
+      \nearrow
+    &
+    \big\downarrow
+    \\
+    X 
+    &
+    \underset{T X}{\longrightarrow}
+    &
+    B Spin(8)
+  }
+\]
+
+if and only if the following conditions are satisfied:
+
+1. the sixth [[Stiefel-Whitney class]] of the [[tangent bundle]] vanishes
+
+   $$
+     w_6(T X) \;=\; 0
+   $$
+
+1. the [[Euler class]] of the [[tangent bundle]] vanishes 
+
+   $$
+     \chi_8(T X)
+     \;=\;
+     0
+   $$
+
+1. the [[I8]]-term evaluated on $X$ is divisible as:
+
+   $$
+    \tfrac{1}{32}
+     \Big(
+        p_2 
+        - 
+        \big(
+          \tfrac{1}{2}
+          \big(
+            p_1
+          \big)^2
+        \big) 
+     \Big)
+     \;\in\;
+     \mathbb{Z}
+   $$
+
+1. there [[existential quantifier|exists]] an [[integer]] $k \in \mathbb{Z}$ such that
+
+   1. $p_2 = (2k - 1)^2 \left( \tfrac{1}{2} p_1 \right)^2$;
+
+   1. $\tfrac{1}{3} k (k+2) p_2[X] \;\in\; \mathbb{Z}$.
+
+
+Moreover, in this case we have for $\widehat T X$ a given [[Spin(4)]]-[[G-structure|structure]] as in (eq:Spin4Structure) and setting
+
+\[
+  \label{TildeG4}
+  \widetilde G_4
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \chi_4(\widehat{T X}) 
+   + 
+  \tfrac{1}{4}p_1(T X)
+\]
+
+for $\chi_4$ the [[Euler class]] on $B Spin(4)$ (which is an integral class, by [this Prop.](Spin4#IntegralCohomologyOfClassifyingSpace))
+
+the following relations:
+
+1. $\tilde G_4$ (eq:TildeG4) is an integer multiple of the [[first fractional Pontryagin class]] by the factor $k$ from above:
+
+   $$
+     \widetilde G_4
+     \;=\;
+     k \cdot \tfrac{1}{2}p_1
+   $$
+
+1. The (mod-2 reduction followed by) the [[Steenrod operation]] $Sq^2$ on $\widetilde G_4$ (eq:TildeG4) vanishes:
+
+   $$
+     Sq^2
+     \left(
+       \widetilde G_4
+     \right)
+     \;=\;
+     0
+   $$
+
+1. the shifted square of $\tilde G_4$ (eq:TildeG4) evaluated on $X$ is a multiple of 8:
+
+   $$
+     \tfrac{1}{8}
+     \left(
+       \left( 
+         \widetilde G_4
+       \right)^2
+       -
+       \widetilde G_4 \big( \tfrac{1}{2} p_1\big)[X]  
+     \right)
+     \;\in\;
+     \mathbb{Z}
+   $$
+
+
+1. The [[I8]]-term is related to the shifted square of $\widetilde G_4$ by
+
+   $$
+    4
+    \Big(
+      \left(
+         \widetilde G_4
+       \right)^2
+       -
+       \widetilde G_4 
+       \left( 
+         \tfrac{1}{2}p_1
+       \right)
+     \Big)
+     \;=\;
+     \Big(
+       p_2 
+       - 
+       \big(
+         \tfrac{1}{2}p_1
+       \big)^2
+     \Big)
+   $$
+
+=--
+
+([Čadek-Vanžura 98a, Cor. 4.2 with Cor. 4.3](#CadekVanzura98a))
+
+\linebreak
 
 ## Related concepts
 
