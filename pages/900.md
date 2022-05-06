@@ -18,8 +18,8 @@ A **pro-object** of a [[category]] $C$ is a "formal [[filtered category|cofilter
 
 The category of pro-objects of $C$ is written $pro$-$C$. Such a category is sometimes called a __pro-category__, but notice that that is *not* the same thing as a pro-object in [[Cat]].
 
-"Pro" is short for "projective". 
-( _[[projective limit|Projective limit]]_ is an older term for _[[limit]]_.) It is in contrast to "ind" in the dual notion of [[ind-object]], standing for "inductive", (and corresponding to _[[inductive limit]]_, the old term for _[[colimit]]_).  In some (often older) sources, the term 'projective system' is used more or less synonymously for pro-object.
+"Pro" is short for "projective" 
+([[projective limit]] is an older term for [[limit]]). It is in contrast to "ind" in the dual notion of [[ind-object]], standing for "inductive", (and corresponding to [[inductive limit]], the old term for [[colimit]]).  In some (often older) sources, the term 'projective system' is used more or less synonymously for pro-object.
 
 The definition of arrows in the category of pro-objects in $\mathcal{C}$ is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
