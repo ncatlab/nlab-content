@@ -94,6 +94,8 @@ See also
 
 * Wikipedia, _[Stone&#8211;&#268;ech compactification](http://en.wikipedia.org/wiki/Stone&#8211;&#268;ech_compactification)_
 
+[[!redirects Stone–Cech compactification]]
+
 [[!redirects Stone-∞ech compactification]]
 [[!redirects Stone-Cech compactification]]
 [[!redirects Stone?ech compactification]]
