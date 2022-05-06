@@ -124,7 +124,7 @@ $$
 <img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
 
 
-If we take the defining boundary inclusion $\iota_n \colon S^{n-1} \to D^n$ itself as an attaching map, then we are gluing two $n$-disks to each other along their common boundary $S^{n-1}$. The result is the $(n+1)$-sphere:
+If we take the defining boundary inclusion $\iota_n \colon S^{n-1} \to D^n$ itself as an attaching map, then we are gluing two $n$-disks to each other along their common boundary $S^{n-1}$. The result is the $n$-sphere:
 
 $$
   \array{
