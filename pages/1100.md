@@ -47,7 +47,7 @@ $$
   \,.
 $$
 
-If the localization in is a [[topological localization]] then $\mathbf{H}$ is an **[[(∞,1)-category of (∞,1)-sheaves]]**.
+If the above localization is a [[topological localization]] then $\mathbf{H}$ is an **[[(∞,1)-category of (∞,1)-sheaves]]**.
 
 =--
 
