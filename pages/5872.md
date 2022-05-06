@@ -19,6 +19,11 @@ On [[topological T-duality]]:
 
 * [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv:hep-th/0401168](http://arxiv.org/abs/hep-th/0401168))
 
+On [[analytic torsion]] and [[twisted de Rham cohomology]]:
+
+* [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
+
+
 On [[spherical T-duality]]:
 
 
