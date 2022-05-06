@@ -374,7 +374,7 @@ A groupal $E_1$-algebra -- hence an groupal [[A-∞ algebra]] object in $\mathbf
 =--
 
 +-- {: .num_theorem #LoopingDeloopingForHigherStacks}
-###### Theorem (k-tuply monoidal $\infty$-stacks)
+###### Theorem
 
 Let $k \gt 0$, let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{H}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathbf{H}_{*}$ of [[pointed objects]], spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|homotopy sheaves]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
 
@@ -389,10 +389,10 @@ between the pointed $(k-1)$-[[connected]] objects and the groupal [[Ek-algebra]]
 This is _[[Higher Algebra|Higher Algebra, theorem 5.2.6.10]]_
 
 
-Specifically for $\mathbf{H} = $ [[Top]], this reduces to the classical theorem by [[Peter May]]
+Specifically for $\mathbf{H} = $ [[Top]], this reduces to the following classical theorem due to [[Peter May]], known as the [[May recognition theorem]].
 
 +-- {: .num_theorem}
-###### Theorem ([[May recognition theorem]])
+###### Theorem
 
 Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $Y$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
 
