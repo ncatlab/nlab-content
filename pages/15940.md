@@ -1,1 +1,1 @@
-* Contact email: dan [at] covariant.me
+* Contact email: dfrumin at cs dot ru dot nl
