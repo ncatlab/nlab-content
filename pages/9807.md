@@ -674,11 +674,14 @@ The resulting [[dgc-algebra]] $(\Omega^\bullet(G,\mathfrak{g}^\ast[1])^G, d)$ is
 ## References
   {#References}
 
-Due to 
+Originally due to
 
 * {#Cartan50} [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibré principal_, Colloque de topologie (espaces fibrés). Bruxelles, 1950
 
-Review is in 
+Review includes
+
+* {#Meinrenken06} [[Eckhard Meinrenken]], _Equivariant cohomology and the Cartan model_, in: _Encyclopedia of Mathematical Physics_, Pages 242-250 Academic Press 2006 ([pdf](http://www.math.toronto.edu/mein/research/enc.pdf), [doi:10.1016/B0-12-512666-2/00344-8](https://doi.org/10.1016/B0-12-512666-2/00344-8))
+
 
 * Oliver Goertsches, Leopold Zoller, _Equivariant de Rham Cohomology: Theory and Applications_, São Paulo J. Math. Sci. (2019) ([arXiv:1812.09511](https://arxiv.org/abs/1812.09511), [doi:10.1007/s40863-019-00129-4](https://doi.org/10.1007/s40863-019-00129-4))
 
