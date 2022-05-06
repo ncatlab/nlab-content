@@ -14,6 +14,8 @@ Frequently in material set theory one takes everything to be a [[pure set]], inc
 
 * [[cumulative hierarchy]]
 
+* [[set-theoretic multiverse]]
+
 ## References
 
 Relation to [[structural set theory]] is discussed in
