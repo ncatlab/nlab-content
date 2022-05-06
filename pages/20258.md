@@ -67,6 +67,8 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 * {#JoachimWraith} [[Michael Joachim]], D. J. Wraith, _Exotic spheres and curvature_ ([pdf](https://ivv5hpp.uni-muenster.de/u/joachim/exo.pdf))
 
+* [[Niles Johnson]], _Visualizing 7-manifolds_, 2012 ([nilesjohnson.net/seven-manifolds.html](https://nilesjohnson.net/seven-manifolds.html))
+
 See also
 
 * Wikipedia, _[Exotic sphere](https://en.wikipedia.org/wiki/Exotic_sphere)_
