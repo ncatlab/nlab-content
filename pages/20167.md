@@ -247,6 +247,158 @@ This equivariant Hopf degree theorem is stated above under the simplifying assum
 
 =--
 
+
++-- {: .num_example #EquivariantCohomotopyOfRepresentationSphereOfSignRepresentationInThatDegree}
+###### Example
+**([[equivariant cohomotopy]] of $S^{\mathbb{R}_{sgn}}$ in [[RO(G)-degree]] the [[sign representation]] $\mathbb{R}_{sgn}$)
+
+Let $G = \mathbb{Z}_2$ the [[cyclic group of order 2]] and $\mathbb{R}_{sgn} \in RO(\mathbb{Z}_2)$ its 1-dimensional [[sign representation]]. 
+
+Under equivariant [[stereographic projection]] ([here](representation\+sphere#Construction)) the corresponding [[representation sphere]] $S^{\mathbb{R}_{sgn}}$ is equivalently the [[unit circle]]
+
+$$
+  S^1 
+  \simeq 
+  S(\mathbb{R}^2)
+$$ 
+
+equipped with the $\mathbb{Z}_2$-[[action]] whose [[involution]] element $\sigma$ [[reflection|reflects]] one of the two [[coordinate functions|coordinates]] of the ambient [[Cartesian space]] 
+
+$$
+  \sigma \;\colon\; (x_1,x_2) \mapsto (x_1, -x_2)
+  \,.
+$$
+
+Equivalently, if we identify 
+
+\[
+  \label{CircleAsQuaotientOfRByZ}
+  S^1
+  \;\simeq\;
+  \mathbb{R}/\mathbb{Z}
+\]
+
+then the involution action is
+
+$$
+  \begin{aligned}
+    \sigma
+    \;\colon\;
+    t 
+    \mapsto
+    &
+    \phantom{\sim}
+    1 - t 
+    \\
+    & \sim
+    \phantom{1} - t
+  \end{aligned} 
+  \,.
+$$
+
+This means that the [[fixed point space]] is the [[0-sphere]]
+
+$$
+  \big( S^1\big)^{\mathbb{Z}_2}
+  \;\simeq\;
+  S^0
+$$
+
+being two antipodal points on the circle, which in the presentation (eq:CircleAsQuaotientOfRByZ) are labeled $\{0,1/2\} \simeq S^0$.
+
+Notice that the map
+
+\[
+  \label{ConstantParameterFunctionFromSignRepresentationSphereToItself}
+  \array{
+    S^1 &\overset{n}{\longrightarrow}& S^1
+    \\
+    t &\mapsto& n\cdot t
+  }
+\]
+
+of constant parameter speed and [[winding number]] $n \in \mathbb{N}$ is equivariant for this $\mathbb{Z}_2$-[[action]] on both sides:
+
+\begin{center}
+\begin{xymatrix}
+  t 
+    \ar@{|->}[r] 
+    \ar@{|->}[d]_{\sigma}
+    & 
+  n\cdot t
+    \ar@{|->}[d]^{\sigma}
+  \\
+  -t 
+    \ar@{|->}[r] 
+    & 
+  -n \cdot t
+\end{xymatrix}
+\end{center}
+
+Now the restriction of the map $(-)\cdot \in \mathbb{Z}$ from (eq:ConstantParameterFunctionFromSignRepresentationSphereToItself) to the [[fixed points]] 
+
+$$
+  \array{
+    S^0 = \left( S^{\mathbb{R}_{sgn}}\right) 
+    &\hookrightarrow&
+    S^{\mathbb{R}_{sgn}}
+    \\
+    {}^{ \mathllap{  \left( \cdot n\right)^{\mathbb{Z}_2} } }
+    \big\downarrow 
+      && 
+    \big\downarrow^{\mathrlap{\cdot n}}
+    \\
+    S^0 = \left( S^{\mathbb{R}_{sgn}}\right) 
+    &\hookrightarrow&
+    S^{\mathbb{R}_{sgn}}
+  }
+$$
+
+sends (0 to 0 and) $1/2$ to either $1/2$ or to $0$, depending on whether the [[winding number]] is [[odd number|odd]] or [[even number|even]]:
+
+$$
+  \array{
+     S^0 
+       &\overset{ \left(\cdot n\right)^{\mathbb{Z}_2} }{\longrightarrow}&
+     S^0
+     \\
+     1/2 &\mapsto&
+     \left\{
+       \array{
+         1/2 &\vert& n \;\text{is odd}
+         \\
+         0 &\vert& n \text{is even}
+       }
+     \right.
+  }
+$$
+
+Hence if the restriction to the [[fixed locus]] is taken to be the [[identity function|identity]] (bipointed [[equivariant cohomotopy]]) then, in accord with Prop. \ref{EquivariantHomotopyOfSVInRODegreeV} there remains the [[integer]] worth of equivariant [[homotopy classes]], where each integer $k \in \mathbb{Z}$ corresponds to the odd winding integer $1 + 2k$
+
+$$
+  \array{
+    \pi^{\mathbb{R}_{sgn}}
+    \left(
+      S^{\mathbb{R}_{sgn}}
+    \right)^{\{0,\infty\}/}
+    &\simeq&
+    2 \cdot \mathbb{Z} + 1 
+    &\simeq& 
+   \mathbb{Z}
+    \\
+    \left[
+      \mathbb{R}/\mathbb{Z} \overset{c}{\to} \mathbb{R}/\mathbb{Z}
+    \right]_{{0 \mapsto 0} \atop {1/2 \mapsto 1/2}}
+    &\mapsto&
+    deg(c)
+    &\mapsto&
+    \big( deg(c) - 1\big)/2
+  }
+$$
+
+=--
+
+
 <br/>
 
 ## Related statements
