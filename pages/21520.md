@@ -28,6 +28,14 @@ Chen-Ruan cohomology is motivated from the role that [[orbifolds]] play as [[tar
 
 * [[orbifold K-theory]]
 
+## Properties
+
+### Relation to delocalized and Bredon equivariant cohomology
+
+[[!include incarnations of rational equivariant topological K-theory -- table]]
+
+\linebreak
+
 ## References
 
 ### General
