@@ -183,7 +183,7 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 The Chern-Dold character for [[generalized (Eilenberg-Steenrod) cohomology theory]] is made fully explicit in 
 
-* {#Buchstaber70} V. M. Buchstaber, _The Chern–Dold character in cobordisms. I_, 
+* {#Buchstaber70} [[Victor Buchstaber]], _The Chern–Dold character in cobordisms. I_, 
 
   Russian original: Mat. Sb. (N.S.), 1970 Volume 83(125), Number 4(12), Pages 575–595 ([mathnet:3530](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=3530&option_lang=eng))
 
