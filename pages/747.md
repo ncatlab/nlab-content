@@ -57,7 +57,7 @@ More precisely
 
 * the [[global model structure on simplicial presheaves]] on a category is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-presheaves]];
 
-* the [[?ech model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]];
+* the [[Čech model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]];
 
 * the [[local model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the _hypercompletion_ of the [[(∞,1)-category of (∞,1)-sheaves]] (see the discussion at [[hypercover]]).
 
@@ -402,7 +402,7 @@ Since the fibrancy condition in the global projective model structure is simple 
 
 On the other hand the cofibrancy condition on objects is entirely _trivial_ in the global and local injective model structure: since a cofibration there is just an objectwise cofibration, and since every [[simplicial set]] is cofibrant, every object is injective cofibrant.
 
-But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[?ech nerve]]s of any _[[good cover]]_ (see below for more details) is a projectively cofibrant object.
+But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[Čech nerve]]s of any _[[good cover]]_ (see below for more details) is a projectively cofibrant object.
 
 A **cofibrant replacement** functor in the local projective structure  is discussed in 
 
@@ -474,7 +474,7 @@ This is in the proof of lemma 2.7 in section 9 of
 
 If $Y \to X$ is an acyclic fibration in the local projective model structure with $X$ a representable and $Y$ cofibration in the above way, it is called a **[[split hypercover]]** .
 
-All [[?ech nerve]]s $C(\{U_i\})$ coming from an [[open cover]] have split degeneracies. The condition that the Cech nerve be degreewise a coproduct of representables is a condition akin to that of [[good open cover]]s (which is precisely the special case for $C = $ [[CartSp]]). This is then a split hypercover of _height_ 0.
+All [[Čech nerve]]s $C(\{U_i\})$ coming from an [[open cover]] have split degeneracies. The condition that the Čech nerve be degreewise a coproduct of representables is a condition akin to that of [[good open cover]]s (which is precisely the special case for $C = $ [[CartSp]]). This is then a split hypercover of _height_ 0.
 
 =--
 
@@ -483,7 +483,7 @@ All [[?ech nerve]]s $C(\{U_i\})$ coming from an [[open cover]] have split degene
 ###### Definition
 **(good cover)**
 
-A [[?ech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **[[good cover]]** if it is degreewise a coproduct of [[representable functor|representable]]s.
+A [[Čech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **[[good cover]]** if it is degreewise a coproduct of [[representable functor|representable]]s.
 
 =--
 
