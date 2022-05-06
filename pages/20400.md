@@ -37,6 +37,8 @@ A *program logic* provides predicates and proof rules about programs, and this p
 
 Using [[propositions as types]], many dependent type systems support specifications, in addition to types. But with the restriction to syntactic type checking, types and specifications remain distinct notions in practice.
 
+(Many proof assistants have a feature called "program extraction" that converts term definitions into an *external* program. Using program extraction, syntactic dependent typing of terms can match the flexibility of specifications for external programs. This doesn't provide any additional flexibility for terms themselves, though. (The realizer extraction mechanism described below is analogous to program extraction, but with terms as the *output* of realizer extraction, not the input.))
+
 By taking types to denote (certain) [[PER]]s on terms, Nuprl provides an [[intrinsic and extrinsic views of typing|extrinsic]] notion of type that subsumes program specifications. So Nuprl has a type system, and its types provide the flexibility of program verification; but it seems that Nuprl doesn't provide the convenience of a type system with a type checking algorithm.
 
 From a naive perspective, it can't be done. Type checking Nuprl would be undecidable, but more importantly, it would require automatically coming up with proofs of true mathematical statements, and there's no good way to do that.
