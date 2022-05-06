@@ -171,7 +171,7 @@ The term showed  in [[string theory]]/[[M-theory]] [[anomaly cancellation]] in
 
 * {#VafaWitten95} [[Cumrun Vafa]], [[Edward Witten]], _A One-Loop Test Of String Duality_, Nucl.Phys.B447:261-270, 1995 ([arXiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053))
 
-* {#DuffLiuMinasian95} [[Mike Duff]], James T. Liu, [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nucl.Phys. B452 (1995) 261-282 ([arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126))
+* {#DuffLiuMinasian95} [[Mike Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nucl.Phys. B452 (1995) 261-282 ([arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126))
 
 * {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J.Geom.Phys.22:103-133, 1997 ([arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234))
 
