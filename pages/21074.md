@@ -61,7 +61,9 @@ Via [[chiral perturbation theory]]:
 * V. Cirigliano, G. Ecker, H. Neufeld, A. Pich, J. Portoles, _Kaon Decays in the Standard Model_, Rev. Mod. Phys. 84 (2012) 399 ([arXiv:1107.6001](https://arxiv.org/abs/1107.6001))
 
 
-* S.Ozaki, H. Nagahiro, A. Hosaka, _Magnetic interaction induced by the anomaly in kaon-photoproductions_, Physics Letters B Volume 665, Issue 4, 24 July 2008, Pages 178-181 ([doi:10.1016/j.physletb.2008.06.020](https://doi.org/10.1016/j.physletb.2008.06.020))
+On [[kaon]]-[[K*-meson]]-[[photon]] [[interaction]] via the [[WZW term]]:
+
+* S. Ozaki, H. Nagahiro, [[Atsushi Hosaka]], Equations (3) and (9) in: _Magnetic interaction induced by the anomaly in kaon-photoproductions_, Physics Letters B Volume 665, Issue 4, 24 July 2008, Pages 178-181 ([arXiv:0710.5581](https://arxiv.org/abs/0710.5581), [doi:10.1016/j.physletb.2008.06.020](https://doi.org/10.1016/j.physletb.2008.06.020))
 
 
 [[!include Skyrme hadrodynamics with heavy mesons -- references]]
