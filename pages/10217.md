@@ -179,7 +179,7 @@ Indeed, let $R$ be a formula that represents the unary predicate $\neg Prov$, an
 
 A brief review discussion explicitly in the context of [[type theory]]/[[topos theory]] is in 
 
-* Erik Gregersen, _[Internal lanuage](http://www.britannica.com/EBchecked/topic/369221/foundations-of-mathematics/35468/Internal-language)_, Encylcopedia Britannica
+* Erik Gregersen, _[Internal lanuage](http://www.britannica.com/EBchecked/topic/369221/foundations-of-mathematics/35468/Internal-language)_, Encyclopedia Britannica
 
 A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is given in
 
@@ -201,6 +201,9 @@ A _bref survol technique_ of G&#246;del's theorem within the landscape of [[Hilb
 See also the discussion in [[list-arithmetic pretoposes]]
 
 * [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_, Theory and Applications of Categories, Vol. 24, 2010, No. 3, pp 39-83. ([TAC](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
+
+* {#vanDijkOldenziel20} Joost vaan Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
+
 
 [^fine1]: Assuming that the theory is consistent. If the theory is inconsistent, then it can prove falsity and thence anything, including any internal statements of consistency. 
 
