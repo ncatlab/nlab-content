@@ -51,6 +51,7 @@ Notice that:
 * The [[axiom of choice]] is consistent with the univalent foundations of mathematics and may be assumed separately.
 
 ## Overview of the basic concepts
+ {#OverviewOfTheBasicConcepts}
 
 A map $f:A\to B$ is an [[equivalence]] if it has a [[section]] and a [[retraction]]. The [[univalence axiom]] asserts that for any two types $A,B:\mathcal{U}$, the canonical map $(A=B)\to (A\simeq B)$ obtained via the induction principle of the [[identity type]], is an equivalence.
 
