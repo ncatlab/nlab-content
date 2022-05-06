@@ -24,22 +24,23 @@ By [[Lie integration]] semisimple Lie algebras correspond to [[Lie group]]s that
 
 ## Properties
 
-Every semisimple Lie algebra is a [[reductive Lie algebra]].
+* Every semisimple Lie algebra is a [[reductive Lie algebra]].
 
-A Lie algebra $\mathfrak{g}$ is semisimple precisely if the [[Killing form]] [[invariant polynomial]]
+* A Lie algebra $\mathfrak{g}$ is semisimple precisely if the [[Killing form]] [[invariant polynomial]]
 
-$$
-  \langle x,y \rangle \coloneqq tr (ad_x \circ ad_y)
-$$
+  $$
+    \langle x,y \rangle \coloneqq tr (ad_x \circ ad_y)
+  $$
 
-is non-degenerate as a [[bilinear form]] (hence making $\mathfrak{g}$ a [[metric Lie algebra]]).
+  is non-degenerate as a [[bilinear form]] (hence making $\mathfrak{g}$ a [[metric Lie algebra]]).
 
-The corresponding cocycle $\langle -,[-,-]\rangle$ in [[Lie algebra cohomology]] is the one that classifies the [[string Lie 2-algebra]]-extension of $\mathfrak{g}$.
+  The corresponding cocycle $\langle -,[-,-]\rangle$ in [[Lie algebra cohomology]] is the one that classifies the [[string Lie 2-algebra]]-extension of $\mathfrak{g}$.
 
+* [[Jacobson-Morozov theorem]]
 
 ## Classification
 
-Since we can classify [[simple Lie algebras]], we can classify semisimple Lie algebras; for each simple Lie algebra, we simply indicate how many times it appears in the direct-sum decomposition.  (There is a theorem to prove here: that the decomposition of a semisimple Lie algebra is unique.)
+Since [[simple Lie algebras]] have a classification, so do semisimple Lie algebras: for each simple Lie algebra, we simply indicate how many times it appears in the direct-sum decomposition.  (There is a theorem to prove here: that the decomposition of a semisimple Lie algebra is unique.)
 
 ## Related concepts
 
