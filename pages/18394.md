@@ -47,7 +47,7 @@ further developments include
 
 * Aarts, de Groot, McDowell, _Cotopology for metrizable spaces_ 1970, Duke Mathematical Journal vol. 37.
 
-* G. E. Strecker and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969,  Proceedings of the American Mathematical Society
+* [[George Strecker]] and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969, Proceedings of the American Mathematical Society
 Vol. 21 No. 3.
 
 
