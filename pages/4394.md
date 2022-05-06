@@ -72,7 +72,7 @@ __[(3)](#coupled1) and $\mathcal{T}$ regular $\implies$ [(2)](#regular2):__
 Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Set $V \coloneqq Cl^*(V')$. This set is obviously a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood of $x$. Due to property [(3)](#coupled1) $V \subset Cl(V')$. Since also $Cl(V') \subset \widetilde{U'}$, we have $V \subset U$. This is to say that $V$ is the $\mathcal{T}$-neighborhood we sought.
 
 __[(5)](#cotopology2) and $\mathcal{T}$ regular $\implies$ [(2)](#regular2):__
-Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). We apply property [(5)](#cotopology2) to ...
+Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Due to property [(5)](#cotopology2) the closed set $\widetilde{U'}$ contains a $\mathcal{T}^*$-closed neighborhood of $x$. This is the neighborhood we sought. 
 
 __[(5)](#cotopology2) and $\mathcal{T}^* \subset \mathcal{T}$ $\implies$ [(4)](#coupled2):__
 ...
