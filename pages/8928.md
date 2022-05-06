@@ -158,9 +158,11 @@ More recent developments include
 
 * Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
 
-
-
 * Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
+
+* Francesco Benini, Paolo Milan, _Black holes in 4d $\mathcal{N} = 4$ Super-Yang-Mills_ ([arXiv:1812.09613](https://arxiv.org/abs/1812.09613))
+
+* H. L. Dao, Parinya Karndumri, _Supersymmetric $AdS_5$ black holes and strings from 5D $N=4$ gauged supergravity_ ([arXiv:1812.10122](https://arxiv.org/abs/1812.10122))
 
 ### Discussion in BFSS matrix theory
 
