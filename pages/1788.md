@@ -1,6 +1,91 @@
 
+Consider the 5d metric
+
+$$
+  g
+  \;=\;
+  H^{+1} \, \eta_{\mu \nu} d x^\mu \otimes d x^\nu 
+    + 
+  H^{-1} d z \otimes d z
+$$
+
+for $H$ a function of $z$.
+
+Notice
+
+$$
+  \sqrt{
+    \left\vert
+      det (g_{\kappa_1 \kappa_2})
+    \right\vert
+  }
+  \;=\;
+  H^{3/2}
+$$
+
+Consider $A$ a 1-form pulled back from 4d, and in Lorenz gauge ($d \star A = 0$). Then:
+
+$$
+  \begin{aligned}
+    \star d \star d A
+    & =\;
+    H^{-3/2} 
+    \partial_\mu 
+    \left(
+      H^{3/2} H^{-1-1} \eta^{\mu \nu} \partial_\nu A
+    \right)
+    +
+    H^{-3/2}
+    \partial_z
+    \left(
+      H^{3/2} H^{1-1} \partial_z A
+    \right)
+    \\
+    & =
+    H^{-2} \eta^{\mu \nu}\partial_\mu \partial_\nu f
+    +
+    H^{-3/2}
+    \partial_z
+    \left(
+      H^{3/2} \partial_z A
+    \right)
+  \end{aligned}
+$$
+
+and hence
+
+$$
+  \begin{aligned}
+    & 
+    \; \star d \star d A \;=\; 0
+    \\
+    \Leftrightarrow
+    &
+    \;
+    \eta^{\mu \nu}\partial_\mu \partial_\nu A
+    +
+    H^{+1/2}
+    \partial_z
+    \left(
+      H^{3/2} \partial_z A
+    \right)
+  \end{aligned}
+$$
+
+\linebreak
+
+$$
+    \eta^{\mu \nu}\partial_\mu \partial_\nu \partial_z f
+    +
+    \tfrac{5}{2}
+    \tfrac{1}{2}(H^2)''
+    \partial_z f
+    +
+    (H^2 + \tfrac{1}{2}(H^2)') \partial^2_z f
+$$
 
 
+\linebreak
 
 $$
   d B + Tr(d \pi \wedge d \pi \wedge d \pi)
