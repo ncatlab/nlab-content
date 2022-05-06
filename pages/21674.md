@@ -106,7 +106,7 @@ The [[cochain cohomology]] of the PL de Rham complex is _PL de Rham cohomology_
 
 ### Relation to simplicial sets
 
-+-- {: .num_prop} 
++-- {: .num_prop #QuillenAdjunctionBetweenSimplicialSetsAndConnectivedgcAlgebras} 
 ###### Proposition
 **([[Quillen adjunction between simplicial sets and connective dgc-algebras]])**
 
@@ -178,6 +178,79 @@ $$
 =--
 
 ([Bousfield-Gugenheim 76, Theorem 2.2](#BousfieldGugenheim76))
+
+### Relation to rational homotopy type
+
+
++-- {: .num_defn #NilpotententFiniteRationalHomotopyTypes} 
+###### Definition
+**(nilpotent and finite rational homotopy types)**
+
+Write
+
+\[
+  \label{NilpotentFiniteRationalHomotopyTypes}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)
+\]
+
+for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy category]] of the [[classical model structure on simplicial sets]]) on those [[homotopy types]] $X$ which are
+
+* [[rational spaces|rational]]
+
+* and in addition
+
+  * [[connected topological space|connected]]: $\pi_0(X) = \ast$
+
+  * [[nilpotent space|nilpotent]]: $\pi_1(X)$ is a [[nilpotent group]]
+
+  * rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \nig) \lt \infty$ for all $n \in \mathbb{N}$.
+
+Similarly, write
+
+\[
+  \label{NilpotentFiniteTypedgcAlgebras}
+  Ho
+  \big(
+     DiffGradedCommAlgebras^{\geq 0}_{\mathbb{Q}}
+  \big)_{fin}^{\geq 1}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     DiffGradedCommAlgebras^{\geq 0}_{\mathbb{Q}}
+  \big)
+\]
+
+for the [[full subcatgeory]] of the [[homotopy category]] of the [[projective model structure on connective dgc-algebras]] on those [[dgc-algebras]] $A$ which are
+
+* connected: $H^0(A) \simeq \mathbb{Q}$
+
+* [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(A) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+
+=--
+
+([Bousfield-Gugenheim 76, 9.2](#BousfieldGugenheim76))
+
+
++-- {: .num_pro #FundamentalTheoremOfdgAlgebraicRationalHomotopyTheory} 
+###### Proposition
+**([[fundamental theorem of dg-algebraic rational homotopy theory]])**
+
+(...)
+
+=--
+
 
 
 ### Relation to smooth de Rham complex
