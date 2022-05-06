@@ -99,14 +99,14 @@ $$
    &\stackrel{B_{x,y \otimes z}}{\to}&
    (y \otimes z) \otimes x
    \\
-   \downarrow^{B_{x,y}\otimes Id}
+   \downarrow^{B_{x,y}\otimes 1_z}
    &&&&
    \downarrow^{a_{y,z,x}}
    \\
    (y \otimes x) \otimes z
    &\stackrel{a_{y,x,z}}{\to}&
    y \otimes (x \otimes z)
-   &\stackrel{Id \otimes B_{x,z}}{\to}&
+   &\stackrel{1_y \otimes B_{x,z}}{\to}&
    y \otimes (z \otimes x)
   }
 $$
