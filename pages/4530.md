@@ -34,13 +34,15 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 
 [[complex analytic geometry]] is closely related to [[algebraic geometry]] over the [[complex numbers]]. See at _[[GAGA]]_ for more on this. 
 
-## Related entries
+## Related concepts
 
 * [[analytic geometry]], [[GAGA]]
 
 * [[complex analytic topology]]
 
 * [[complex manifold]], [[almost complex manifold]]
+
+  [[complex surface]], [[complex curve]]
 
   [[Kähler manifold]], [[hyper-Kähler manifold]]
 
@@ -53,6 +55,7 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 * [[Arakelov geometry]]
 
 * [[higher complex analytic geometry]], [[derived complex analytic space]]
+
 
 ## References
 
