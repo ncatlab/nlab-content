@@ -500,10 +500,14 @@ See also
  
 * {#Rezk02} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_, Topology and its Applications, Volume 119, Issue 1, 2002, Pages 65-94, (<a href="https://doi.org/10.1016/S0166-8641(01)00057-8">doi:10.1016/S0166-8641(01)00057-8</a>, [arXiv:math/0003065](http://arxiv.org/abs/math/0003065))
 
-
-
 * {#Nikolaus10} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv:1003.1342](http://arxiv.org/abs/1003.1342))
 
+Examples of nonproper model structures can be found in
+
+* [[Simon Henry]], _Counter-example to the existence of left Bousfield localization of combinatorial model category_ [MathOverflow](https://mathoverflow.net/questions/325383/counter-example-to-the-existence-of-left-bousfield-localization-of-combinatorial)
+
+* [[Simon Henry]], _Examples of non-proper model structure_,
+[MathOverflow](https://mathoverflow.net/questions/339084/examples-of-non-proper-model-structure)
 
 [[!redirects proper model categories]]
 
