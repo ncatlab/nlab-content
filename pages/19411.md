@@ -15,6 +15,10 @@ On [[C-field tadpole cancellation]]:
 
 * {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
 
+On the [[pp-wave spacetime]] [[Penrose limit]] of the [[AdS5-CFT4 correspondence]]:
+
+* N. Itzhaki, [[Igor Klebanov]], [[Sunil Mukhi]], _PP Wave Limit and Enhanced Supersymmetry in Gauge Theories_, JHEP 0203 (2002) 048 ([arXiv:hep-th/0202153](https://arxiv.org/abs/hep-th/0202153))
+
 
 On multiple [[M2-branes]] and their worldvolume [[BLG model]]/[[ABJM model]]:
 
