@@ -20,11 +20,12 @@ $K$ ranging over compact subsets of $G$. Recall that a [[Radon measure]] on $G$ 
 
 $$\int_G : C_c(G) \to \mathbb{R}$$ 
 
-This defines a measure $\mu$ on the $\sigma$-algebra of Borel sets in the usual sense of [[measure theory]], where 
+Such a Radon measure defines a measure $\mu$ on the $\sigma$-algebra of Borel sets in the usual sense of [[measure theory]], where 
 
 $$\mu(B) = sup \left\{\int_G f : supp(f) = K \subseteq B, \rho_K(f) = 1 \right\}$$ 
 
 In this context, a (left) **Haar integral** on $G$ is a nonzero such linear functional $\int_G$ such that
+$$ \int_G f \geq 0 \text{ when } f \geq 0$$
 $$ \int_G f^g = \int_G f$$
 for each $f \in C_c(G)$ and each $g \in G$, where $f^g : G \rightarrow \mathbb{R}$ sends $x$ to $f(gx)$.
 
@@ -46,6 +47,7 @@ Let $C(G_{fin})$ be the ring of set-maps from $G_{fin}$ to $R$. $G$ acts on $C(G
 $$\int_{G_{fin}} f + g = \int_{G_{fin}} f + \int_{G_{fin}} g \forall f, g \in C(G_{fin}) $$
 $$\int_{G_{fin}} a f = a \int_{G_{fin}} f \forall f \in C(G_{fin}) \forall a \in R$$
 $$\int_{G_{fin}} f^g = \int_{G_{fin}} f \forall f \in C(G_{fin}) \forall g \in G$$
+$$\int_{G_{fin}} f \geq 0 \text{ when } f \geq 0 \forall f \in C(G_{fin}) $$
 
 What corresponds to the Haar measure on $G$ is simply cardinality (though we must appropriately divide by the cardinality of $G$, to get a function $\mu_{fin} : P(G) \rightarrow R$ from the power set of $G$ to $R$ sending $S$ to $\frac{|S|}{|G|}$).
 
@@ -68,13 +70,19 @@ $$
     C(G_{fin}) \stackrel{f \mapsto \frac{1}{|G_{fin}|} \sum_{g \in G} f(g)}{\longrightarrow} \mathbb{R}
 $$
 
-**Remark:** Define a map $C(G \times G) \rightarrow \mathbb{R}$ sending $f$ to $\int_{g \in G} f(g, g)$. This appears pleasingly similar to the coend $\int^{g  \in C} f(g, g)$ for a functor $f : C \times C^{op} \rightarrow \text{Set}$. Define a map $C(G \times G) \times C(G \times G) \rightarrow C(G \times G)$ sending $(f_1, f_2)$ to the map sending $g_1, g_2$ to $\int_{h \in G} f_1(g_1, h)f_2(h, g_2)$. This bears a similarity to the composition of [[profunctors]] $f_1, f_2 : C \times C^{op} \rightarrow \text{Set}$, $f_1 \circ f_2(g_1, g_2) = \int^{h \in G} f_1(g_1, h) \otimes f_2(h, g_2)$. 
+**Remark:** Define a map $C(G \times G) \rightarrow \mathbb{R}$ sending $f$ to $$\int_{g \in G} f(g, g)$$
+This appears pleasingly similar to the coend 
+$$\int^{g  \in C} f(g, g)$$
+for a functor $f : C \times C^{op} \rightarrow \text{Set}$. Define a map $\circ : C(G \times G) \times C(G \times G) \rightarrow C(G \times G)$, where
+$$f_1 \circ f_2 (g_1, g_2) = \int_{h \in G} f_1(g_1, h)f_2(h, g_2)$$
+This bears a similarity to the composition of [[profunctors]] $f_1, f_2 : C \times C^{op} \rightarrow \text{Set}$,
+$$f_1 \circ f_2(g_1, g_2) = \int^{h \in G} f_1(g_1, h) \otimes f_2(h, g_2)$$ 
 
 ##Existence and Uniqueness
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by Weil. A proof by be found in these online [notes](http://simonrs.com/HaarMeasure.pdf) by Rubinstein-Salzedo. 
  
-We here give a lesser known proof of the existence of the Haar integral, specifically on compact hausdorff groups $G$, which uses convex sets and the Krein Milman theorem instead of measure theory. Let $G \text{-Ban}$ be the category of Banach representations of $G$ (see "Analogy with the Finite Case").
+We here give a lesser known proof of the existence of the Haar integral, specifically on compact hausdorff groups $G$, which uses convex sets and the Krein Milman theorem instead of measure theory. While the proof is only two paragraphs, it does not show positivity of the Haar Integral, making this a proof of the existence of a generalized Haar measure. Let $G \text{-Ban}$ be the category of Banach representations of $G$ (see "Analogy with the Finite Case").
 
 $C_c(G) = C(G)$ is such a Banach representation. We may view $\mathbb{R}$ as a Banach representation of $G$ as well, where $gz = z$ for each $z \in \mathbb{R}$ and each $g \in G$. $\mathbb{R}$ embeds into $C(G)$ as constant functions. We may then consider the exact sequence
 $$0 \rightarrow \mathbb{R} \rightarrow C(G) \rightarrow C(G)/ \mathbb{R} \rightarrow 0$$
