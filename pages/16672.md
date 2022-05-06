@@ -25,7 +25,7 @@ On [[de Sitter spacetime]] (or not) among the [[landscape of string theory vacua
 
   [[Savdeep Sethi]], _Hope or No Hope for a String Landscape?_, talk at [StringPheno2019](https://indico.cern.ch/event/782251/) ([pdf](https://indico.cern.ch/event/782251/contributions/3441886/attachments/1870138/3076971/3_Sethi.pdf), [[SethiLandscape2019.pdf:file]])
 
-On a non-abelian [[DBI action]] via [[T-barT deformation]]:
+On a non-abelian [[DBI action]] via [[TT deformation]]:
 
 * T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
 
