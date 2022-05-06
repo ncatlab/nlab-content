@@ -49,4 +49,4 @@ Since closed string excitations induce [[gravity]] while open string excitations
 
 * J. Khoury, [[Herman Verlinde]], _On Open/Closed String Duality_ ([arXiv:hep-th/0001056](http://arxiv.org/abs/hep-th/0001056))
 
-* Leonardo Rastelli, _Lectures on open/closed string duality_ ([pdf](http://www.sns.ias.edu/pitp/2004/IASrastelli.pdf))
+* Leonardo Rastelli, _Lectures on open/closed string duality_ ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf))
