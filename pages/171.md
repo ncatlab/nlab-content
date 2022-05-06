@@ -1,4 +1,4 @@
-Brown and Golasinski gave a [[homotopy theory|model category structure]] on the category of [[crossed complexes]] in
+Brown and Golasinski gave a [[model category structure]] on the category of [[crossed complexes]] in
 
 * [[Ronald Brown]] and [[Marek  Golasinski]], _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 30 no. 1 (1989), p. 61-82 ([pdf](http://www.numdam.org/item?id=CTGDC_1989__30_1_61_0))
 
@@ -14,5 +14,4 @@ See also
 
 * [[Dimitri Ara ]]; [[Fran&#231;ois M&#233;tayer]],  The Brown-Golasi&#324;ski model structure on strict ∞-groupoids revisited. Homology Homotopy Appl. 13 (2011), no. 1, 121&#8211;142.
 
-* [[George Maltsiniotis]] La cat&#233;gorie cubique avec connexions est une cat&#233;gorie
-  test stricte. Homology, Homotopy Appl. (11)  (2) (2009) 309 -- 326.
+* [[George Maltsiniotis]] La cat&#233;gorie cubique avec connexions est une cat&#233;gorie test stricte. Homology, Homotopy Appl. (11)  (2) (2009) 309 -- 326.
