@@ -41,22 +41,23 @@ Various [[dg-algebras]] are used to model the corresponding $G$-equivariant de R
 
 * _[the Weil model](#TheWeilModel)_
 
+* _[the Kalkman model](#TheKalkmanModel)_
+
 * _[the Cartan model](#TheCartanModel)_
 
-* _[the Kalkman model](#TheKalkmanModel)_
 
 #### The Weil model
  {#TheWeilModel}
 
-reviews include ([Atiyah-Bott 84](#AtiyahBott84), [Kalkman 93, section 2.1](#Kalkman93))
 
 Let $\big( W(\mathfrak{g}), d_W \big)$ denote the [[Weil algebra]] of $\mathfrak{g}$. If $\{t_a\}$ is a [[linear basis]] for $\mathfrak{g}$ 
 
-$$
+\[
+  \label{LinearBasisForG}
   \mathfrak{g}
   \;=\;
   span\big(  \{t_a\} \big)
-$$
+\]
 
 with induced structure constants for the [[Lie bracket]] being $\big\{f_{b c}^a\big\}_{a,b,c}$ 
 
@@ -66,7 +67,7 @@ $$
 
 (using the [[Einstein summation convention]] throughout)
 
-then the [[Weil algebra]] is explicitly given by
+then the [[Weil algebra]] is the [[dgc-algebra]] explicitly given by [[generators and relations]] as follows:
 
 \[
   \label{ExplicitWeilAlgebra}
@@ -115,9 +116,10 @@ Now consider the [[tensor product of algebras|tensor product of]] [[dgc-algebras
   \,.
 \]
 
-On this consider the following joint [[Cartan calculus]] operations: for each basis element a graded [[derivation]] of degree -1 (contraction)
+On this consider the following joint [[Cartan calculus]] operations: for each basis element $t_a$ (eq:LinearBasisForG) a graded [[derivation]] of degree -1 (contraction)
 
-$$
+\[
+  \label{WeilModelContractionOperation}
   \iota_a
   \;\colon\;
   \Big(
@@ -137,12 +139,12 @@ $$
     \otimes
     W(\mathfrak{g})
   \Big)^{\bullet - 1 }
-$$
+\]
 
 and a graded derivation of degree 0 (generalized [[Lie derivative]])
 
-
-$$
+\[
+  \label{WeilModelLieDerivative}
   \mathcal{L}_a
   \;\colon\;
   \Big(
@@ -162,11 +164,12 @@ $$
     \otimes
     W(\mathfrak{g})
   \Big)^{\bullet}
-$$
+\]
 
-defined on $\omega \in \]Omega^\bullet(X)$ any [[differential form]] and $t^a, r^a$ as in (eq:ExplicitWeilAlgebra) as follows
+defined on $\omega \in \Omega^\bullet(X)$ any [[differential form]] and $t^a, r^a$ as in (eq:ExplicitWeilAlgebra) as follows
 
-$$
+\[
+  \label{WeilModelContractionOnGenerators}
   \iota_a \;\colon\;
   \left\{
     \begin{aligned}
@@ -177,11 +180,12 @@ $$
       r^b & \mapsto 0
     \end{aligned}
   \right.
-$$
+\]
 
 and
 
-$$
+\[
+  \label{WeilModelLieDerivativeOnGenerators}
   \mathcal{L}_a 
   \;\colon\;
   \left\{
@@ -193,7 +197,7 @@ $$
       r^b & \mapsto f_{a c}^b r^c
     \end{aligned}
   \right.
-$$
+\]
 
 
 where 
@@ -216,6 +220,113 @@ is the [[vector field]] on $X$ which is the [[derivative]] of the [[action]] $\r
 
 and where $\iota_{v^a}$ is ordinary contraction of [[vector fields]] into [[differential forms]] and $\mathcal{L}_{v^a} = [d_{dR}, \iota-{v^a}]$ is [[Lie derivative]] of differential forms.
 
+With this one defines the sub-[[dgc-algebra]] of _basic differential forms_, which are those in the joint [[kernel]] of all these derivations (eq:WeilModelContractionOperation) and (eq:WeilModelLieDerivative)
+
+$$
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{basic}
+  \overset{
+    ker\big( \{\iota_a\}_a, \{\mathcal{L}_a\}_a \big)
+  }{\hookrightarrow}
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{basic}
+$$
+
+Since the [[differential]] $d_{dR} + d_W$ (eq:TensorProductOfdeRhamAlgebraWithWeilAlgebra) graded-commutes with $\iota_a$ to $\mathcal{L}_a$ (by definition and by [[Cartan's magic formula]]) and hence graded-commutes with the [[Lie derivative]] $\mathcal{L}_a$ itself, it restricts to this joint [[kernel]], thus defining a sub-[[dgc-algebra]] (just no longer [[semi-free dg-algebra|semi-free]], in generaL)
+
+\[
+  \label{WeilModel}
+  \Big(
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{basic}
+  , 
+  d_{dR} + d_W
+  \Big)
+\]
+
+This [[dgc-algebra]] is called the _Weil model_ for $G$-equivariant de Rham cohomology of $X$. 
+
+([Atiyah-Bott 84](#AtiyahBott84), see e.g. [Kalkman 93, Sec.2.1](#Kalkman93), [Miettinen 96, Sec. 2](#Miettinen96)).
+
+
+#### The Kalkman/BRST model
+ {#TheKalkmanModel}
+
+Consider the Weil model (eq:WeilModel) but equipped instead with the alternative [[differential]]
+
+$$
+  d_{K}
+  \;\coloneqq\;
+  d
+  \;+\;
+  d_W
+  \;+\;
+  t^a \wedge \mathcal{L}_a
+  \;-\;
+  r^a \wedge \iota_a
+$$
+
+with $t^a$, $r^a$ from (eq:ExplicitWeilAlgebra) and $\iota_a$ from (eq:WeilModelContractionOnGenerators) and $\mathcal{L}_a$ from (eq:WeilModelLieDerivativeOnGenerators).
+
+This [[dgc-algebra]]
+
+\[
+  \label{WeilModel}
+  \Big(
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{basic}
+  , 
+  d_K
+  \coloneqq
+  d_{dR} + d_W 
+  +
+  t^a \wedge \mathcal{L}_a
+  -
+  r^a \wedge \iota_a
+  \Big)
+\]
+
+is called the _[[BRST-complex|BRST]]-model_ in ([Kalkman 93, section 3](#Kalkman93), see e.g. [Miettinen 96](#Miettinen96)) or now the _Kalkman model_ by some authors, for the $G$-equivariant de Rham cohomology of $X$.
+
+This is [[quasi-isomorphism|quasi-isomorphic]] to the Weil model (eq:WeilModel), the [[quasi-isomorphism]] given by [[conjugation]] with the [[exponential]] $exp\big(  t^a \wedge \iota_a \big)$ ([Kalkman 93, section 3](#Kalkman93))
+
+$$
+  \begin{aligned}
+    d_K
+    \;=\;
+    \exp\big(  -t^a \wedge \iota_a \big)
+    \big(
+      d_{dR} + d_W 
+    \big)
+    \exp\big( t^a \wedge \iota_a \big)
+  \end{aligned}
+$$
+
+(...)
 
 
 #### The Cartan model
@@ -270,12 +381,6 @@ The resulting [[dg-algebra]] $(\Omega^\bullet(G,\mathfrak{h}^\ast[1])^G, d_{CE}(
 
 Observe that in the special case that $X = G$ equipped with its canonical right [[action]] of $H \coloneqq G$ on itself, this construction reduces to that of the [[Weil algebra]] $W(\mathfrak{g})$, whose cohomology is trivial (is concentrated in degree 0, where it is $\mathbb{R}$).
 
-#### The Kalkman model
- {#TheKalkmanModel}
-
-([Kalkman 93, section 3](#Kalkman93))
-
-(...)
 
 
 ## Related concepts
