@@ -354,8 +354,11 @@ The [[formal Brauer group]] is
 
 ### As a fiber space in string compactifications
 
-See _[[duality between heterotic and type II string theory]]_
+See 
 
+* [[duality between heterotic and type II string theory]]
+
+* [[M-theory on Sp(1)-manifolds]]
 
 ## Related concepts
 
