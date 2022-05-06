@@ -93,7 +93,7 @@ See [the table below](#detailed_list) for more details.
  </tr>
  <tr>
   <th markdown="1">[[Radon monad#the_ordered_case|ordered Radon monad]]</th>
-  <td markdown="1">[[compact ordered spaces]]</td>
+  <td markdown="1">[[compact ordered spaces#categories_of_compact_ordered_spaces|CompOrd]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] (or [[continuous valuations]])</td>
   <td markdown="1">[[weak topology]] w.r.t. continuous functions, [[stochastic order]]</td>
   <td markdown="1">[[compact]] [[convex subsets]] of [[ordered vector space|ordered]] [[locally convex topological vector spaces]]</td>
