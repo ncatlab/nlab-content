@@ -155,6 +155,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * [[Andreas Crivellin]], Francesco Saturnino, _Correlating Tauonic B Decays to the Neutron EDM via a Scalar Leptoquark_ ([arXiv:1905.08257](https://arxiv.org/abs/1905.08257))
 
+* {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
+
 
 and within [[Randall-Sundrum models]]
 
