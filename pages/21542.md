@@ -33,7 +33,7 @@ Let $\Sigma^2$ be the signature containing a pair of new sort symbols $X^0$, $X^
 
 The **theory of $\mathbb{T}$-model homomorphisms** is the theory $\mathbb{T}^2$ over the signature $\Sigma^2$ with the following sequents:
 
- A pair of sequents $\varphi^0\vdash \psi^0$, $\varphi^1\vdash \psi^1$ for any sequent $\varphi\vdash \psi$ in $\mathbb{T}$ where the new sequents result from replacing the function and relation symbols in $\varphi\vdash \psi$ with their 0-indexed, resp. 1-indexed pendants. Plus a sequent
+ A pair of sequents $\varphi^0\vdash \psi^0$, $\varphi^1\vdash \psi^1$ for any sequent $\varphi\vdash \psi$ in $\mathbb{T}$ where the new sequents result from replacing the function and relation symbols in $\varphi\vdash \psi$ with their 0-indexed, resp. 1-indexed pendants where necessary[^prop]. Plus a sequent
 
 :$\top\vdash f_Y(g^0(x_1,\dots,x_n))=g^1(f_{X_1}(x_1),\dots,f_{X_n}(x_n))$
 
@@ -43,7 +43,7 @@ resp.
 
 for any pair $g^0$, $g^1$ of function symbols (corresponding to $g:X_1\times\dots\times X_n\to Y$ in $\Sigma$), resp. any pair $R^0$, $R^1$ of relation symbols (corresponding to $R\rightarrowtail X_1\times\dots\times X_n$ in $\Sigma$), in $\Sigma^2$.
 
-
+[^prop]:  It is understood that variables and contexts are updated with the new sorts e.g. the sequent $\top\vdash_{x:S} x=x$ yields two sequents $\top\vdash_{x:S^0} x=x$ and $\top\vdash_{x:S^1} x=x$ and $\top\vdash \big (\forall x:S\big ) x=x$ yields $\top\vdash \big (\forall x:S^0\big ) x=x$ and $\top\vdash \big (\forall x:S^1\big ) x=x$ etc. In case, the sequent $\varphi\vdash\psi$ contains nothing to update (e.g. the sequent $\top\vdash\bot$) one just takes the old sequent as the "new pair".
 
 ## Properties
 
@@ -75,7 +75,7 @@ The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model ho
 
 ## Examples
 
-* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetics at 0 and 1. 
+* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetic at 0 and 1. 
 
 * Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. Clearly, its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$ and, accordingly, $\mathbb{O}^2$ is called the **theory of morphisms**.
 
