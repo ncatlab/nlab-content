@@ -19,6 +19,8 @@ It's true that to be completely precise about the *entire* passage from "mathema
 
 We suppose given an infinite set $Var$, whose elements we call *variables*.
 
+Experts will know that there are many ways to deal with variable binding in type theory, including "named variables", "de Bruijn indices", "de Bruijn levels", "locally nameless variables", and so on.  We are using "named variables" (the set $Var$ is the names).  The reason is that our goal is expositional and sociological, and named variables keep the syntax as close as possible to what "users" of type theory are familiar with.  Since we are humans writing for humans to read, we don't want to deal explicitly with de Bruijn indices, and neither do we want to pretend that we are using de Bruijn indices when we aren't *really* using them.
+
 We will also frequently use *meta-variables*.  These are simply ordinary mathematical variables in the "metatheory", i.e. the ordinary informal mathematics we are using in which to define and prove things about type theory.  Single upper-case roman letters will usually be meta-variables ranging over raw terms, such as in the inductive clauses below like "if $A$ and $B$ are raw terms, so is $A\times B$."  Single lower-case roman letters will usually be meta-variables ranging over variables (i.e. elements of $Var$), as in inductive clauses below such as "if $A,B,M$ are raw terms and $x$ is a variable, then $\lambda (x:A.B). M$ is a raw term."
 
 ## Constants
