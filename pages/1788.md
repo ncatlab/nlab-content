@@ -1,600 +1,197 @@
- 
-In these item lists, the first items on the _second_ level have too little vertical spacing above them:
 
-* aaa
+Write 
 
-  * aab
+\[  
+  \label{SmashMonoidalCategoryOfPointedTopologicalSpaces}
+  \big( PointedTopologicalSpaces, S^0, \wedge \big)
+  \;\;\in\;
+  SymmetricMonoidalCategories
+\] 
 
-  * abb
+* for the [[category]] of [[pointed topological spaces]] (with respect to some [[convenient category of topological spaces]] such as [[compactly generated topological spaces]] or [[D-topological spaces]]) 
 
-* bbb
+* regarded as a [[symmetric monoidal category]] with tensor product the [[smash product]] and unit the [[0-sphere]] $S^0 \,=\, \ast_+$.
 
-  * bbc
+This category also has a [[Cartesian product]], given on pointed spaces $X_i = (\mathcal{X}_i, x_i)$ with underlying $\mathcal{X}_i \in TopologicalSpaces$ by
 
-* ccc
+\[
+  \label{CartesianProductOfPointedTopologicalSpaces}
+  X_1 \times X_2
+  \;=\;
+  (\mathcal{X}_1, x_1) \times (\mathcal{X}_2, x_2)
+  \;\coloneqq\;
+  \big(
+    \mathcal{X}_1 \times \mathcal{X}_2
+    ,
+    (x_1, x_2)
+  \big)
+  \,.
+\]
 
+But since this [[smash product]] is a non-trivial [[quotient topological space|quotient]] of the Cartesian product
 
-* [[category]]
+\[
+  \label{SmashProductOfPointedSpacesQuotientDefinition}
+  X_1 \wedge X_1 
+    \,\coloneqq\, 
+  \frac{X_1 \times X_2}{ X_1 \vee X_2 }
+\]
 
-  * [[enriched category]]
+it is not itself [[cartesian monoidal category|cartesian]], but just a [[symmetric monoidal category|symmetric monoidal]]. 
 
-* [[functor]]
+However, via the quotienting (eq:SmashProductOfPointedSpacesQuotientDefinition), it still inherits, from the [[diagonal morphisms]] on underlying topological spaces
 
-* [[natural transformation]]
+\[
+  \label{CartesianDiagonalOnTopologicalSpaces}
+  \array{
+    \mathcal{X}
+    &\overset{ \Delta_{\mathcal{X}} }{\longrightarrow}&
+    \mathcal{X} \times \mathcal{X}
+    \\
+    x &\mapsto& (x,x)
+  }
+\]
 
-and this one:
+a suitable notion of [[monoidal category with diagonals|monoidal diagonals]]:
 
-* [[long exact sequence in homology]]
+\begin{definition}\label{SmashMonoidalDiagonal}
+  [Smash monoidal diagonals]
 
-  * [[long exact sequence in chain homology]]
+For $X \,\in\, PointedTopologicalSpaces$, let $D_X \;\colon\; X \longrightarrow X \wedge X$ be the [[composition|composite]] 
 
-* [[long exact sequence of homotopy groups]]
-
-
-
-$F:\: \mathcal{C} \to \mathcal{D}$
-
-
-
-\begin{definition}[Set of trivializations of the d-invariant]
-  \label{SetOfTrivializationsOfTheDInvariant}
-  For $E$ a [[multiplicative cohomology theory]] 
-  and $n, d \in \mathbb{N}$,
-  write
-  \begin{equation}
-    \label{SetOfTrivializationsOfdInvariant}
-    \begin{aligned}
-    H_{n-1}\!Fluxes^E\!\big( S^{n+d-1} \big)
+\begin{xymatrix@C=7pt}
+    X 
+    \ar@/_1.6pc/[rrrrr]|-{ \;D_X\; }
+    \ar[rr]^-{\Delta_X}
+    &&
+    X \times X 
+    \ar[rr]
+    &&
+    \frac{X \times X}{ X \vee X}
+    \ar@{}[r]|-{ =: }
     &
-    \;\coloneqq\;
-    \underset{
-      [c] \in \mathbb{S}_{d-1}
-    }{\sqcup}
-    \pi_0
-    \mathrm{Paths}_0^{c^\ast (1^E)}
-    \Big(
-    \mathrm{Maps}^{\ast/}\!
-      \big(
-        S^{n+d-1}
-        \,,\,
-        E^{n}
-      \big)
-    \Big)
-    \end{aligned}
-  \end{equation}
-  for the [[set]] of [[tuples]] consisting of the 
-  [[stable Cohomotopy]] class 
-  $\big[ G^{\mathbb{S}}_{n}\!(c) \big]$ 
-  of a [[map]] $S^{n+d-1} \xrightarrow{\;c\;}S^{n}$
-  and the [[2-homotopy]] class 
-  $\big[ H^E_{n-1}\!(c) \big]$
-  of a trivialization (if any) of its
-  [[d-invariant]] $c^\ast(1^E)$ in $E$-cohomology.    
-
-So an element of $H_{n-1}\!Fluxes^E\!\big( S^{n+d-1} \big)$ (eq:SetOfTrivializationsOfdInvariant) is the [[2-homotopy]] class relative the boundary of a [[homotopy coherent diagram]]of the following form:
-
-\begin{xymatrix@C=75pt@R=36pt}
-      S^{n+d-1}
-      \ar[rr]_>>{\ }="s"
-      \ar[d]
-        |-{
-          \mathclap{\phantom{\vert^{\vert}}}
-          c
-          \mathclap{\phantom{\vert_{\vert}}}
-        }
-      \ar[dr]|-{
-        G^{\mathbb{S}}_{n}\!(c)
-      }
-      ^>>>>>{\ }="t"
-      &&
-      \ast
-      \ar[d]
-        |-{
-          \mathclap{\phantom{\vert^{\vert}}}
-          0
-          \mathclap{\phantom{\vert_{\vert}}}
-        }
-      \\
-      S^{n}
-      \ar@/_1.3pc/[rr]|-{ \;\Sigma^{n}(1^E)\; }
-      \ar[r]|-{
-        \;
-        \Sigma^{n}
-        (1^{\mathbb{S}})
-        \;
-      }
-      &
-      \mathbb{S}^{n}
-      \ar[r]|-{
-        \;
-        (e^E)^{n}
-        \;
-      }
-      &
-      E^{n}
-      %
-      \ar@{==>}
-        |-{
-          \;
-          \color{orange}
-          H^E_{n-1}\!(c)
-          \;
-        }
-        "s"; "t"
+    X \wedge X
 \end{xymatrix}
+
+of the Cartesian [[diagonal morphism]] (eq:CartesianProductOfPointedTopologicalSpaces) with the [[coprojection]] onto the defining [[quotient space]] (eq:SmashProductOfPointedSpacesQuotientDefinition).
 
 \end{definition}
 
-\begin{definition}[Unit cofiber cohomology theory]
-  \label{UnitCofiberCohomologyTheory}
+It is immediate that:
 
-For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overset{ e^E }{\longrightarrow} E$ we denote the corresponding [[homotopy cofiber]]-theory as follows:
+\begin{proposition}
+  \label{SmashMonoidalDiaginalsAreMonoidalDiagonals}
+  The smash monoidal diagonal $D$ (Def. \ref{SmashMonoidalDiagonal})
+  makes the [[symmetric monoidal category]] $\big( PointedTopologicalSpaces, S^0, \wedge \big)$ of [[pointed topological spaces]] with [[smash product]] a [[monoidal category with diagonals]], in that
 
-\begin{xymatrix@C=50pt@R=12pt}
+1. $D$ is a [[natural transformation]];
 
-    \mathbb{S}
-    \ar[dd]
-      ^>>{\ }="t"
-    \ar[rr]
-      ^-{
-        \;1^E\;
-      }
-      _>>{\ }="s"
-    &&
-    \overset{
-      \mathclap{
-      \raisebox{4pt}{
-        \tiny
-        \color{blue}
-        \bf
-        \begin{tabular}{c}
-          $E$-cohomology
-        \end{tabular}
-      }
-      }
-    }{
-      E
-    }
-    \ar[dd]
-      _-{
-        \mathclap{\phantom{\vert^{\vert^{\vert}}}}
-        i^E
-        \mathclap{\phantom{\vert_{\vert}}}
-      }
-      ^>>{\ }="t2"
-    \ar[rr]
-      ^-{
-      }
-      _>>{\ }="s2"
-    &&
-    \ast
-    \ar[dd]
-    \\
-    {\phantom{A}}
-    \\
-    \ast
-    \ar[rr]
-    &&
-    \underset{
-      \mathclap{
-      \raisebox{-4pt}{
-        \tiny
-        \color{blue}
-        \bf
-        \begin{tabular}{c}
-          $E$-cofiber
-          \\
-          cohomology
-          \\
-          theory
-        \end{tabular}
-      }
-      }
-    }{
-      E/\mathbb{S}
-    }
-    \ar[rr]
-      |-{ \;\partial^E\; }
-      _-{
-        \mbox{
-          \tiny
-          \color{green}
-          \bf
-          \begin{tabular}{c}
-            \phantom{-}
-            \\
-            boundary
-            \\
-            operation
-          \end{tabular}
-        }
-      }
-    &&
-    \underset{
-      \mathclap{
-      \raisebox{-6pt}{
-        \tiny
-        \color{blue}
-        \bf
-        \begin{tabular}{c}
-          shifted stable
-          \\
-          Cohomotopy
-        \end{tabular}
-      }
-      }
-    }{
-      \Sigma \mathbb{S}
-    }
-    \,,
-    &
-    {\phantom{AAA}}
-    %
-    \ar@{=>}^-{ \mbox{\tiny\rm(po)} }
-      "s"; "t"
-    \ar@{=>}^-{ \mbox{\tiny\rm(po)} }
-      "s2"; "t2"
-
-
-\end{xymatrix}
-
-
-\end{definition}
-
-
-
-\begin{proposition}[Trivializations of d-invariant are classes in cofiber theory]
-  \label{EFluxesAreCocycleInCofiberTheory}
-  There is a [[bijection]] between the set
-  (eq:SetOfTrivializationsOfdInvariant)
-  of trivializations of the d-invariant
-  and the [[cohomology group]] of the unit cofiber theory
-  $E\!/\mathbb{S}$ (Def. \ref{UnitCofiberCohomologyTheory}):
+1. $S^0 \overset{\;\;D_{S^0}\;\;}{\longrightarrow} S^0 \wedge S^0$ is an [[isomorphism]].
   
-\begin{xymatrix@=18pt}    
-     \Big(
-       \big[
-         G^{\mathbb{S}}_n\!(c)
-       \big]
-       \,,\,
-       \big[
-         H^E_{n-1}\!(c)
-       \big]
-      \Big)
-    \ar@{|->}[dd]
-    &
-     \overset{ \mathllap{
-        \mbox{
-          \tiny
-          \bf
-          \begin{tabular}{c}
-          \end{tabular}
-        }
-      }}{
-      H_{n-1}\mbox{\rm{Fluxes}}^E\!
-      \big(
-        S^{n + d - 1}
-      \big)
-      }
-      \ar[rr]^-{ \simeq }
-      \ar[dd]
-      &&
-      \big(
-        E \!/\mathbb{S}
-      \big)_{d}
-      \ar[dd]^{\partial}
-      \\
-      \\
-        \big[
-          G^{\mathbb{S}}_n\!(c)
-        \big]
-      &
-      \widetilde {\mathbb{S}}{}^{n}
-      \big(
-        S^{n+d-1}
-      \big)
-      \ar@{=}[rr]
-      &&
-      \mathbb{S}_{d-1}
-\end{xymatrix}
-  compatible with the fibrations
-  of both over the underlying stable Cohomotopy classes
-  $
-    \widetilde {\mathbb{S}}{}^d
-    \big( S^{n + d - 1}\big)
-    \,\simeq\, 
-    \mathbb{S}_{d-1}
-  $.
 \end{proposition}
 
-We give two proofs: A quick abstract one and a more explicit one. The latter is closer to the old argument of [Conner-Floyd 66, Thm. 16.2](MUFr#ConnerFloyd66) (there for $E/\mathbb{S} = $ [[MUFr]], see there for more)
+While elementary in itself, this has the following profound consequence:
 
-\begin{proof}[quick abstract]
+\begin{remark}[Suspension spectra have diagonals]
 
-By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}Fluxes^E\big( S^{n+d-1} \big)$ is equivalently the class of a homotopy [[cone]] with tip $\Sigma^{n+d-1} \mathbb{S}$ over the [[cospan]] formed by the ring spectrum unit $e^E$ and the [[zero morphism]]. By the [[universal property]] of [[homotopy fibers]] this is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to 
-$fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} E/\mathbb{S}$. This implies the claim, by 
+Since the [[suspension spectrum]]-[[functor]] 
 
 $$
-  \pi_0
-  Maps
-  \Big(
-    \Sigma^{n+d - 1}\mathbb{S}
-    \,,\,
-    \Sigma^{n-1} (E/\mathbb{S})
-  \Big)
-  \;\simeq\;
-  (E/\mathbb{S})_{d}
+  \Sigma^\infty
+  \;\colon\;
+  PointedTopologicalSpaces
+   \longrightarrow
+  HighlyStructuredSpectra
+$$
+
+is a [[strong monoidal functor]] from [[pointed topological spaces]] (eq:SmashMonoidalCategoryOfPointedTopologicalSpaces) to any standard category of [[highly structured spectra]] (by [this Prop.](Introduction+to+Stable+homotopy+theory+--+1-2#SmashProductOfFreeSpectra)) it follows that _[[suspension spectra]] have [[monoidal category with diagonals|monoidal diagonals]]_, in the form of [[natural transformations]]
+
+\[
+  \label{SmashMonoidalDiagonalOnSuspensionSpectra}
+  \Sigma^\infty X
+  \overset{
+    \;\;
+    \Sigma^\infty(D_X)
+    \;\;
+  }{\longrightarrow}
+  \big(
+    \Sigma^\infty X
+  \big)
+    \wedge
+  \big(
+    \Sigma^\infty X
+  \big)  
+\]
+
+to their respective [[symmetric smash product of spectra]].
+
+For example, given a [[Whitehead-generalized cohomology theory]] $\widetilde E$ [[Brown representability theorem|represented]] by a  [[ring spectrum]]  
+
+$$
+  \big(E, 1^E, \bullet^E \big)
+  \;\;
+  \in
+  \;
+  SymmetricMonoids
+  \big(
+    Ho(Spectra), \mathbb{S}, \wedge 
+  \big)
+$$
+
+the smash-monoidal diagonal structure (eq:SmashMonoidalDiagonalOnSuspensionSpectra) on suspension spectra serves to define the [[cup product]] $(-)\cup (-)$ on the corresponding [[multiplicative cohomology theory|multiplicative cohomology theory structure]]:
+
+$$
+  \begin{aligned}
+  &
+  \big[
+    \Sigma^\infty X
+    \overset{c_i}{\longrightarrow}
+    \Sigma^{n_i} E
+  \big] 
+  \,\in\, {\widetilde E}{}^{n_i}(X) 
+  \\
+  &
+  \Rightarrow
+  [c_1] \cup [c_2]
+  \;\;
+    \coloneqq
+  \Big[
+    \Sigma^\infty X
+    \overset{
+      \Sigma^\infty(D_X)
+    }{\longrightarrow}
+    \big(
+      \Sigma^\infty X
+    \big)
+      \wedge
+    \big(
+      \Sigma^\infty X
+    \big)
+    \overset{
+      ( c_1 \wedge c_2 )
+    }{\longrightarrow}
+    \big(
+      \Sigma^{n_1} E
+    \big)
+      \wedge
+    \big(
+      \Sigma^{n_2} E
+    \big)  
+    \overset{
+      \bullet^E
+    }{\longrightarrow}
+    \Sigma^{n_1 + n_2}E
+  \Big]
+  \;\;\;
+  \in
+  \widetilde E^{n_1+n+2}(X)
   \,.
+  \end{aligned}
 $$
 
 
-\end{proof}
-
-\begin{proof}[more explicit, Conner-Floyd-style]
-
-Let
-$\big[ S^{n + d - 1} \overset{c}{\longrightarrow} S^{n} \big] \;\in\; \pi^n\big(S^{n+d-1}\big)$ be a given class in Cohomotopy.
-We need to produce a map of the form
-
-\begin{xymatrix@R=10pt}
-    {
-      \color{orange}
-      H^E_{n-1}\!(c)
-    }
-    \ar@{}[rr]|-{\longmapsto}
-    &&
-    M^d
-    \\
-    H_{n-1}\mbox{Fluxes}(X)_c
-    \ar[rr]
-    \ar[dd]
-    &&
-    \big(
-      E\!/\mathbb{S}
-    \big)_d
-    \ar[dd]^-{ \partial }
-    \\
-    {\phantom{A}}
-    \\
-    \big\{
-      [
-        \Sigma^\infty c
-      ]
-    \big\}
-    \;
-    \ar@{^{(}->}[rr]
-    &&
-    \;
-    \mathbb{S}_{d-1}
-\end{xymatrix}
-
-and show that it is a bijection onto this fiber, hence that the square is [[cartesian square|cartesian]]. To this end, we discuss the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]], all of whose cells are homotopy cartesian:
-
-\begin{xymatrix@R=15pt@C=60pt}
-    \Sigma^\infty S^{n + d - 1}
-    \ar[dd]_-{
-      \Sigma^\infty
-      {\color{green}
-        c
-      }
-    }
-    \ar[rr]
-    &&
-    \ast
-    \ar[dd]
-    \\
-    \\
-    \Sigma^\infty S^{n}
-    \ar[dd]
-    \ar[rr]|-{ 
-      %\;\Sigma^\infty q_c\; 
-    }
-    \ar@/_1.4pc/[rrr]
-      |<<<<<<<<<<<<<<<<<<<{
-        \; \Sigma^{n}(e^{E}) \;
-      }
-    &&
-    \Sigma^\infty C_c
-    \ar[dd]|<<<<{ \phantom{A} }
-    \ar@{-->}[r]
-    \ar@{}[r]
-    |-{
-      \scalebox{.7}{$
-        \begin{array}{c}
-          \vdash
-          {\color{orange}
-            H^E_{n-1}\!(c)
-          }
-          \\
-          {\phantom{a}}
-        \end{array}
-      $}
-    }
-    \ar@/^2pc/[rr]
-    &
-    \Sigma^n E
-    \ar[r]
-    \ar[dd]
-    &
-    \ast
-    \ar[dd]
-    \\
-    \\
-    \ast
-    \ar[rr]
-    &&
-    \Sigma^{\infty\scalebox{.6}{$+1$}} S^{n + d - 1}
-    \ar[r]^-{
-      \color{magenta}
-      M^{d}
-    }
-    \ar@/_1.2pc/[rr]|-{
-      \;
-      \Sigma^{\infty\scalebox{.5}{$+1$}}
-      {\color{green}
-        c
-      }
-      \;
-    }
-    &
-    \Sigma^{n}(E\!/\mathbb{S})
-    \ar[r]^{ \partial }
-    &
-    \Sigma^{\infty\scalebox{.6}{$+1$}} S^{n}
-\end{xymatrix}
-
-For given $H^E_{n-1}\!(c)$, this diagram is constructed as follows
-(where we say "square" for any {\it single} cell and "rectangle" for the pasting composite of any adjacent {\it pair} of them):
-
-* The two squares on the left are the stabilization of the homotopy pushout squares defining the cofiber space $C_c$ and the suspension of $S^{n + d - 1}$
-
-* The bottom left rectangle (with $\Sigma^n(e^E)$ at its top)
-is the homotopy pushout defining $\Sigma^n(E\!/\mathbb{S})$.
-
-* The classifying map for the given $(n-1)$-flux, shown as a dashed arrow,
-completes a co-cone under the bottom left square. Thus the map ${\color{magenta}M^d}$ forming the bottom middle square is uniquely implied by the homotopy pushout property of the bottom left square.
-Moreover, the [[pasting law]] implies that this bottom middle square is itself homotopy cartesian.
-
-* The bottom right square is the homotopy pushout defining $\partial$.
-
-* By the [[pasting law]] it follows that also the bottom right rectangle is homotopy cartesian, hence that, after the two squares on the left, it exhibits the third step in the long homotopy cofiber sequence of $\Sigma^\infty c$. This means that its total bottom morphism is $\Sigma^{\infty + 1} c$, and hence that $\partial \big[ M^d \big] = [c]$.
 
 
-In conclusion, these construction steps yield a map map $H^E_{n-1}\!(c) \mapsto M^d$ which is as required in (eq:TheMapFromEFluxes).
-
-It only remains to see that this map is bijective over any $\Sigma^\infty c$: So assume conversely that $M^d$ is given, and with it the above diagram  except for the dashed arrow. But since the bottom right square is homotopy cartesian, a dashed morphism is uniquely implied. By its uniqueness, this reverse assignment $M^{2d} \mapsto H^E_{n-1}\!(c)$ must be the inverse of the previous construction.
-
-\end{proof}
+\end{remark}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{xymatrix@=17pt}
-    S^{2(n + d)-1}
-    \ar@/^1.7pc/[drr]_-{\ }="s"
-    \ar@/_1.7pc/[drr]^-{\ }="t"
-    \\
-    &&
-    \;
-    \big(
-      (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
-    \big)^{2n}
-    %
-    \ar@{=>}
-      %_{ {\color{magenta} e_{\mathbb{C}}(c)} }
-      ^-{
-        \!\!
-        \mathrm{Td}
-        [
-          {\color{magenta}M^{2d}}
-        ]
-      }
-    "s"; "t"
-\end{xymatrix}
-
-
-
-\begin{xymatrix@C=12pt}
-    0
-    \ar[r]
-    &
-    \big(
-      \widetilde {H^{\mathrm{ev}}\mathbb{Q}}
-    \big)
-    {}^{2n}
-    \big(
-      S^{2(n+d)}
-    \big)
-    \ar[rr]
-    \ar@{=}[d]
-    &&
-    \big(
-      \widetilde {(H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}}
-    \big)
-    {}^{2n}
-    \big(
-      S^{2(n+d)}
-    \big)
-    \ar[rr]
-    \ar[d]|-{
-      \hspace{2.7pt}
-      \scalebox{.7}{
-        \rotatebox{-90}{$
-          \,
-          \simeq
-          \,
-        $}
-      }
-    }
-    &&
-    \widetilde {\mathbb{S}}
-    {}^{2n+1}
-    \big(
-      S^{2(n+d)}
-    \big)
-    \ar[r]
-    \ar@{=}[d]
-    &
-    0
-    \\
-    0
-    \ar[r]
-    &
-    \mathbb{Q}
-    \;
-    \ar@{^{(}->}[rr]
-    &&
-    \mathbb{Q}
-    \oplus
-    \mathbb{S}_{2d-1}
-    \ar@{->>}@[red][rr]
-    &&
-    \mathbb{S}_{2d-1}
-    \ar[r]
-    &
-    0
-\end{xymatrix}
-
-\begin{xymatrix@C=1.5em}
-    S^{2(n + d)-1}
-    \ar@/^1.7pc/[drr]_-{\ }="s"
-    \ar@/_1.7pc/[drr]^-{\ }="t"
-    \\
-    &&
-    \;
-    \big(
-      (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
-    \big)^{2n}
-    %
-    \ar@{=>}
-      %_{ {e_{\mathbb{C}}(c)} }
-      ^-{
-        \!\!
-        \mathrm{Td}
-        [
-          {M^{2d}}
-        ]
-      }
-    "s"; "t"
-\end{xymatrix}
