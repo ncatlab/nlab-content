@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,6 +19,10 @@
 The [[Einstein equations]] for [[gravity]] in [[dimension]] $\geq 5$ admit [[black hole]] solutions whose [[event horizon]] is not [[homeomorphism|homeomorphic]] to an [[n-sphere]], but has different topology. In particular in 5d-gravity and [[5d supergravity]] there are solutions with topology $S^1 \times S^2$. These are called _black rings_.
 
 Their [[KK-reduction]] down to 4 dimensions yields again ordinary black holes. This plays a central role in the discussion of [[black holes in string theory]].
+
+## Related concepts
+
+* [[D=5 Einstein-Maxwell theory]]
 
 ## References
 
