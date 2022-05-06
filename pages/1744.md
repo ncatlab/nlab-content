@@ -209,13 +209,12 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 ## References
 
-The role of $(n+1)$-coskeleta as modelling [[n-truncated object of an (infinity,1)-category|n-truncation]]/[[Postnikov towers]] is maybe first stated in
+
+* [[Peter May]], Section II.8 of: _Simplicial objects in algebraic topology_, The University of Chicago Press 1967 ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html))
 
 * [[William Dwyer]], [[Dan Kan]], Section 1.2 (vi) of: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 139-146 ( <a href="https://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>, [pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
-Textbook accounts:
-
-* [[Peter May]], Section II.8 of: _Simplicial objects in algebraic topology_, The University of Chicago Press 1967 ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html))
+See also
 
 * [[Paul Goerss]] and [[J. F. Jardine]], _[[Simplicial homotopy theory]]_, number 174 in Progress in Mathematics, Birkh&#228;user (1999) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
