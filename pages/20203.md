@@ -157,6 +157,10 @@ Discussion in terms of [[G-structures]]:
 
   (focus on [[Spin(7)-structure]])
 
+* {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
+
+  (focus on [[Spin(7)-structure]])
+
 
 * {#CondeescuMicuPalti14} Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
