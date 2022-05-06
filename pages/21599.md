@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[smooth manifold]] $X$, by a _tangential structure_ one typically understands (e.g. [GMWT 09, Sec. 5](cobordism+category#GMWT)) a [[lift]] of the [[classifying map]] $X \overset{\vdash}{\longrightarrow} B GL(n)$ of its [[tangent bundle]]  through any prescribed [[map]] $B \overset{f}{\longrightarrow} B GL(n)$ into the [[classifying space]] of the [[general linear group]], up to [[homotopy]]:
+Given a [[smooth manifold]] $X$, by a _tangential structure_ one typically understands (e.g. [GMWT 09, Sec. 5](GMWT09)) a [[lift]] of the [[classifying map]] $X \overset{\vdash}{\longrightarrow} B GL(n)$ of its [[tangent bundle]]  through any prescribed [[map]] $B \overset{f}{\longrightarrow} B GL(n)$ into the [[classifying space]] of the [[general linear group]], up to [[homotopy]]:
 
 $$
   \array{
@@ -263,13 +263,19 @@ The tangential structures corresponding to lifts through the [Whitehead tower of
 ## References
 
 
-The concept of topological $G$-structure (i.e. [[tangential structure]], lifts of homotopy classes of classifying maps) originates with [[cobordism theory]]. Early expositions in terms of [(B,f)-structures](#InTermsOfBfStructures) include
+The concept of tangential structure originates with [[cobordism theory]], originally under the name _$(B,f)$-structures_:
+ 
+* {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277 ([doi:10.1090/S0002-9947-1963-0156357-4](https://doi.org/10.1090/S0002-9947-1963-0156357-4))
 
-* {#Lashof63} [[Richard Lashof]], _Poincar&#233; duality and cobordism_, Trans. AMS 109 (1963), 257-277
+* {#Stong68} [[Robert Stong]], beginning of chapter II of: _Notes on Cobordism theory_, 1968,
 
-* {#Stong68} [[Robert Stong]], beginning of chapter II of _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+  reprinted as: Princeton Legacy Library, Princeton University Press 2016 ([ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+The terminology "tangential structure" became popular around
+
+* {#GMWT09} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]],[[Michael Weiss]], Section 5 of: _The homotopy type of the cobordism category_, Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
 
 
 [[!redirects (B,f)-structure]]
