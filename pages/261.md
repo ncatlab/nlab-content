@@ -167,7 +167,7 @@ $$
   \,.
 $$
 
-Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin. They depend on lower dimensional features,  (however notice however that a simplicial set by itself is not equipped with any notion of composition of simplices, nor really, therefore, of identities.  See [[quasicategory]] for a kind of simplicial set which does have such notions and [[simplicial T-complex]] for more on the intuitions behind this idea of "thinness").
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin. They depend on lower dimensional features,  (notice however that a simplicial set by itself is not equipped with any notion of composition of simplices, nor really, therefore, of identities.  See [[quasicategory]] for a kind of simplicial set which does have such notions and [[simplicial T-complex]] for more on the intuitions behind this idea of "thinness").
 
 
 ## Examples
