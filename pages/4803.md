@@ -74,6 +74,11 @@ following the proposal towards the end of
 
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
+Further duscussion:
+
+* Krzysztof A. Meissner, [[Hermann Nicolai]], _Supermassive gravitinos and giant primordial black holes_ ([arXiv:2007.11889](https://arxiv.org/abs/2007.11889))
+
+
 
 
 
