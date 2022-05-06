@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 #### Gravity
 +--{: .hide}
 [[!include gravity contents]]
@@ -9,10 +13,6 @@
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
-=--
-#### Fields and quanta
-+--{: .hide}
-[[!include fields and quanta - table]]
 =--
 =--
 =--
@@ -24,9 +24,9 @@
 
 ##Idea
 
-It is the [superpartner](http://ncatlab.org/nlab/show/supersymmetry) of the [dilaton](http://ncatlab.org/nlab/show/dilaton). It combines with the [axion](http://en.wikipedia.org/wiki/Axion) to form a complex scalar field.
+By _dilatino_ one refers to  a [[superpartner]] of the [[dilaton]]. 
 
-##Ambiguity of the nomenclature
+## Ambiguity of the nomenclature
 
 In [[supergravity]] literature there is an ambiguity in the nomenclature relatively to the [[dilatino]] field. 
 
@@ -37,6 +37,6 @@ In [[supergravity]] literature there is an ambiguity in the nomenclature relativ
 
 ##References
 
-* {#DFGT08} D'Auria, Fre', Grassi, Trigiante _Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds_ [arXiv:0803.1703](https://arxiv.org/abs/0803.1703)
+* {#DFGT08} [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro Grassi]], Trigiante, _Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds_ [arXiv:0803.1703](https://arxiv.org/abs/0803.1703)
 
 [[!redirects gravitello]]
