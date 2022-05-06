@@ -20,7 +20,7 @@
 
 ## Idea
 
-In the context of [[supergeometry]], the supersphere $S^{n \vert m}$ is the supersubmanifold of the superspace $\mathbb{R}^{n \vert m}$ of points at a fixed distance from the origin.
+In the context of [[supergeometry]], the supersphere $S^{n \vert m}$ is the supersubmanifold of the superspace $\mathbb{R}^{n+1 \vert m}$ of points at a fixed distance from the origin.
 
 ## Coset representations
 
