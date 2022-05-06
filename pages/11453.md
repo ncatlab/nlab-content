@@ -142,7 +142,7 @@ or equivalently
 | $O5^-$ | $-\phantom{1}2$ | $\mathbb{T}^4$  |  $16$ | 
 | $O4^-$ | $-\phantom{1}1$ | $\mathbb{T}^5$  |  $32$ |
 
-In particular the O4-plane has negative unit charge (in [[physical unit|units]] of [[D4]]-[[D-brane charge|brane charge]] $q_{D4}$), so that the total charge of $-32$ here comes entirely from the [[number]] $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
+In particular the [[O4-plane]] has negative unit charge (in [[physical unit|units]] of [[D4]]-[[D-brane charge|brane charge]] $q_{D4}$), so that the total charge of $-32$ here comes entirely from the [[number]] $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
 
 O-plane charges of different dimension may be present
 
@@ -181,7 +181,7 @@ A proposal for a formalization of a much more general formula for O-plane charge
 ### Duality with M-Theory
  {#DualityWithMTheory}
 
-The possible O-planes in [[M-theory]] are $MO1$ ($\leftrightarrow$[[M-wave]]), $MO5$ ($\leftrightarrow$[[M5-brane]]) and [[MO9]] ([Hanany-Kol 00 around (3.2)](#HananyKol00), [HSS 18, Prop. 4.7](#HSS18)).
+The possible O-planes in [[M-theory]] are $MO1$ ($\leftrightarrow$[[M-wave]]), [[MO5]] ($\leftrightarrow$[[M5-brane]]) and [[MO9]] ([Hanany-Kol 00 around (3.2)](#HananyKol00), [HSS 18, Prop. 4.7](#HSS18)).
 
 Under the [[duality between M-theory and type IIA string theory]] the O8-plane is identified with the [[MO9]] of [[Horava-Witten theory]]:
 
@@ -191,7 +191,7 @@ Under the [[duality between M-theory and type IIA string theory]] the O8-plane i
 
 > graphics grabbed from [GKSTY 02, section 3](#GKSTY02)
 
-while the O4-plane is dual to the $MO5$ ([Hori 98](#Hori98), [Gimon 98, Sec. III](#Gimon98), [AKY 98, Sec. II B](#AKY98), [Hanany-Kol 00, 3.1.1](#HananyKol00)) 
+while the [[O4-plane]] is dual to the [[MO5]] ([Hori 98](#Hori98), [Gimon 98, Sec. III](#Gimon98), [AKY 98, Sec. II B](#AKY98), [Hanany-Kol 00, 3.1.1](#HananyKol00)) 
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/O4PlanesFromMO5.jpg" width="500"/>
