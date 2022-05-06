@@ -192,8 +192,7 @@ A monograph on quantales:
 
 {#automata}Relations with automata and process semantics
 
-* [[Samson Abramsky]],  [[Steve Vickers]], _Quantales, observational logic and process
-semantics_, Math. Struct. in Comput. Sci. __3__  (1993) 161-227. [doi](https://doi.org/10.1017/S0960129500000189), [CiteSeer<sup>X</sup>](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.210.1485)
+* [[Samson Abramsky]],  [[Steve Vickers]], _Quantales, observational logic and process semantics_, Math. Struct. in Comput. Sci. __3__  (1993) 161-227. [doi](https://doi.org/10.1017/S0960129500000189), [CiteSeer<sup>X</sup>](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.210.1485)
 
 
 Connections to operator algebras and etale groupoids is discussed in 
