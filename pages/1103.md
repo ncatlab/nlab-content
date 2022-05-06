@@ -220,6 +220,8 @@ Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology 
 
 ## Related concepts
 
+* [[differential algebra]]
+
 ### Model category structure
 
 There is a standard [[model category]] structure on $dgAlg$.See [[model structure on dg-algebras]].
