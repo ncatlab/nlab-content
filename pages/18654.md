@@ -36,7 +36,7 @@ From the point of view of the [[quark]]-[[model (in theoretical physics)|model]]
 Hence, in the sense of the [[Wigner classification]], the pion field transforms in the [[sign representation]] of the [[Lorentz group]]/[[Pin group]] (is a spacetime [[pseudoscalar]]) and in the [[adjoint representation]] of the [[isospin]] [[group]] [[SU(2)]]
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
