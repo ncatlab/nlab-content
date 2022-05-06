@@ -48,5 +48,10 @@ Logic_, Springer (2002)
 * Florian Rabe and Mihnea Iancu, _A Formalized Set-Theoretical Semantics of
 Isabelle/HOL_ ([pdf](https://kwarc.info/people/frabe/Research/RI_isabelle_10.pdf))
 
+Implementation of [[homotopy type theory]] in Isabelle:
+
+* {#Chen19} Joshua Chen, _An Implementation of Homotopy Type Theory in Isabelle/Pure_ ([arXiv:1911.00399](https://arxiv.org/abs/1911.00399))
+
+
 
 category: software
