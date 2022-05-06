@@ -30,13 +30,13 @@
 
 The operation of [[stabilization]] that sends an [[(∞,1)-category]] $C$ to the [[stable (∞,1)-category]] $Stab(C)$ does not in general extend to a functor.
 
-We may think of this operation as the analog of _linearizing_ a space. Turning an [[(∞,1)-functor]] $F : C \to D$ into a functor $Stab(C) \to Stab(D)$ is not unlike performing a first order Taylor expansion of a function.
+We may think of this operation as the analog of _linearizing_ a space. Turning an [[(∞,1)-functor]] $F \colon C \to D$ into a functor $Stab(C) \to Stab(D)$ is not unlike performing a first order [[Taylor expansion]] of a function, whence one speaks here of [[Goodwillie-Taylor towers]].
 
 This is what Goodwillie calculus studies.
 
-Let $F: \mathcal{C} \to \mathcal{D}$ (where $\mathcal{C}$ and $\mathcal{D}$ are each either $Top_*$, the category of [[pointed topological spaces]], or $Spec$, the category of [[spectra]]) be a pointed homotopy functor. Associate with $F$ a sequence of spectra, called the derivatives of $F$, denoted by $\partial_1 F, \partial_2 F,\cdots, \partial_n F, \cdots$, or, collectively, by $\partial_* F$. For each $n$ the spectrum $\partial_n F$ has a natural action of the symmetric group $\Sigma_n$. Thus, $\partial_* F$ is a symmetric sequence of spectra.
+Let $F: \mathcal{C} \to \mathcal{D}$ (where $\mathcal{C}$ and $\mathcal{D}$ are each either $Top_*$, the category of [[pointed topological spaces]], or $Spec$, the category of [[spectra]]) be a pointed homotopy functor. Associate with $F$ a sequence of spectra, called the derivatives of $F$, denoted by $\partial_1 F, \partial_2 F,\cdots, \partial_n F, \cdots$, or, collectively, by $\partial_* F$. For each $n$ the spectrum $\partial_n F$ has a natural [[action]] of the [[symmetric group]] $\Sigma_n$. Thus, $\partial_\bullet F$ is a [[symmetric sequence]] of spectra.
 
-The derivatives of $F$ contain substantial information about the homotopy type of $F$. We can form a sequence of 'approximations' to $F$ together with natural transformations forming a *[[Goodwillie-Taylor tower]]*. This tower takes the form
+The Goodwillie-derivatives of $F$ contain substantial information about the homotopy type of $F$. We can form a sequence of 'approximations' to $F$ together with natural transformations forming a *[[Goodwillie-Taylor tower]]*. This tower takes the form
 
 $$
 F \to \cdots \to P_n F \to P_{n-1} F \to \cdots\to P_0 F
@@ -302,6 +302,10 @@ due to ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[t
 The Goodwillie derivatives of the [[identity functor]] on  [[pointed topological spaces]], form an [[operad]] in [[spectra]] ([Ching 05](#Ching05)).
 
 See at _[[Goodwillie derivatives of the identity functor]]_ 
+
+### Goodwillie derivatives of mapping spaces
+
+See at _[[stable splitting of mapping spaces]]_.
 
 ## Related concepts
 
