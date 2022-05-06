@@ -112,6 +112,7 @@ Lecture notes:
 
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
+The graphics above are taken from [Sati-Schreiber 19]().
 
 [[!redirects 4T relations]]
 
