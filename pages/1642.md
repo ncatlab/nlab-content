@@ -104,6 +104,8 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[cancellative semigroup]]
 
+* [[weakly reductive semigroup]]
+
 * [[semiring]]
 
 * [[semi-category]], [[semi-simplicial set]], [[semi-Segal space]]
