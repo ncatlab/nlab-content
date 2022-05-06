@@ -70,6 +70,9 @@ $\Pi$-closed morphisms are a right class of an [[orthogonal factorization system
 
 A consequence of the previous property is that the class of $&#643;$-closed morphisms gives rise to an admissible structure in the sense of [[structured (infinity,1)-topos|structured spaces]] on an (∞,1)-connected (∞,1)-topos, hence they serve as a class of a kind of [[open maps]].
 
+### Shape via cohesive path ∞-groupoid
+
+See at _[[shape via cohesive path ∞-groupoid]]_.
 
 ## Examples
 
