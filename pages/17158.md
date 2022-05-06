@@ -30,7 +30,7 @@ In ancient times, _Musica Universalis_ or _Music of the Spheres_ referred to a p
 
 <div style="float:right;margin:0 10px 10px 0;"> <img src="https://ncatlab.org/nlab/files/KeplerPlatonic.jpg" width="200" />  </div>
 
-[[Johannes Kepler]] proposed that this is governed by the shape of the [[platonic solid|Platonic solids]] ([Kepler 1596](#Kepler1596)).
+[[Johannes Kepler]] proposed that this is governed by the shape of the [[platonic solid|Platonic solids]] ([Kepler 1596](#Kepler1596)). (See also at _[[multiverse]]_.)
 
 
 ### Modern idea
