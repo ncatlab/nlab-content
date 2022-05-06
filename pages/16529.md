@@ -27,7 +27,7 @@ G&#246;del's encoding of an unprovability predicate into [[Peano arithmetic]] $P
 
 ### Set-theoretic reflection principles
 
-A _reflection principle_ in [[set theory]] states that it is possible to find [[sets]] that resemble the [[class]] of all sets that are constructed in some ways; in other words, any statement true of the universe $V$ already holds at some intial segment $V_\alpha$. This can be interpreted as saying that no first-order property can distinguish the set-theoretic universe from the extensions of all its member sets thereby suggesting the _expansiveness_ or strong infinity of the universe: $V$ gets 'arbitrarily large'.
+A _reflection principle_ in [[set theory]] states that it is possible to find [[sets]] that resemble the [[class]] of all sets that are constructed in some ways; in other words, any statement true of the universe $V$ already holds at some initial segment $V_\alpha$. This can be interpreted as saying that no first-order property can distinguish the set-theoretic universe from the extensions of all its member sets thereby suggesting the _expansiveness_ or strong infinity of the universe: $V$ gets 'arbitrarily large'.
 
 The first reflection principles go back to [[Richard Montague|R. Montague]] and A. L&#233;vy around 1960. It emerged from their work that reflection principles can supplant the traditional axioms of [[Zermelo-Fraenkel set theory]], e.g. the [[axiom of replacement]] (cf. [Bell-Machover 1977](#BellMach77), p.495). This capacity and the intuition that they express 'completeness' make them interesting candidates in the quest for new axioms of set theory (cf. [Koellner 2009](#Koell09)).
 
