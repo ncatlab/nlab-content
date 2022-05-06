@@ -54,7 +54,7 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 
 * The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
 
-* The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad.
+* The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad. Its algebras are [[compact Hausdorff spaces]]. 
 
 * The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite ([Avery 17, Proposition 2.7.10](#Avery17)).
 
