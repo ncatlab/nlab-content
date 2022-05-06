@@ -177,7 +177,7 @@ moreover, every [[integral modular function]] arises in this way.
 
 * [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
-Finally a hint supporting the conjetcure (at least in its previous form concerning [[2d SCFT]]):
+Finally a hint supporting the conjecture (at least in its previous form concerning [[2d SCFT]]):
 
 *  [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
 
