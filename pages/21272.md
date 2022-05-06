@@ -19,9 +19,22 @@
 
 A [[vector meson]]:
 
-The [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [[fundamental representation|doublet]], [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
+The [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [[fundamental representation|doublet]], [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].  Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
 
 Together with the [[kaons]], which are the corresponding [[scalar mesons]], these are also called the _[[K-mesons]]_ (alongide [[D-mesons]] and [[B-mesons]], etc.)
+
+\begin{imagefromfile}
+    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
 
 [[!include flavors of fundamental particles -- table]]
 
