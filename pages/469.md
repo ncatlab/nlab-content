@@ -118,6 +118,10 @@ $$
 
  * The category [[Ab]] of [[abelian groups]] with its [[tensor product of abelian groups]] is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
 
+ * The category of [[modules]] over a given [[commutative ring]] with its usual tensor product is closed monoidal. This is one of the first hom-tensor adjunctions that appeared in algebra.
+
+ * Generalizing the examples above, given a closed monoidal category $C$ with [[equalizers]] and [[coequalizers]] and a [[commutative monad]] $T$, the category of [[algebra over a monad|$T$-algebras]] inherits a closed monoidal structure. See [[tensor product of algebras over a commutative monad]].
+
 * A [[discrete category|discrete]] monoidal category (i.e., a [[monoid]]) is left closed iff it is right closed iff every object has an inverse (i.e., it is a [[group]]).
 
 * The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed monoidal (in fact, [[compact closed]]) category with one object, with both the tensor and internal hom defined (on morphisms) using the multiplication operation $f \otimes g = [f,g] = f g$.  Conversely, any closed monoidal category with one object must be isomorphic to one constructed from a commutative monoid. (See [Eilenberg and Kelly (1965)](#EilenbergKelly65), IV.3, p.553.)
