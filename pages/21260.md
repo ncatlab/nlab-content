@@ -109,3 +109,12 @@ Volume 485, Issues 3–4, August 1988, Pages 589-605 (<a href="https://doi.org/1
 Inclusion of the [[sigma-meson]]:
 
 * Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
+
+For analysis of [[neutron star]] [[equation of state]]:
+
+* David Alvarez-Castillo, Alexander Ayriyan, Gergely Gábor Barnaföldi, Hovik Grigorian, Péter Pósfay, _Studying the parameters of the extended $\sigma$-$\omega$ model for neutron star matter_ ([arXiv:2006.03676](https://arxiv.org/abs/2006.03676))
+
+
+
+
+
