@@ -3,6 +3,11 @@ Dirk Hofmann is Associate Professor at the Department of Mathematics of the Univ
 
 * [webpage](http://sweet.ua.pt/dirk/)
 
+## Thesis
+
+* D. Hofmann, _Natürliche Dualitäten und das verallgemeinerte Stone-Weierstraß-Theorem_, Ph.D. Thesis, University of Bremen, 1999.
+
+
 ##Selected papers
 
 * Dirk Hofmann and Pedro Nora,
