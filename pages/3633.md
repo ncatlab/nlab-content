@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
@@ -15,9 +19,7 @@
 
 ## Idea
 
-What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a solution to a problem on [[Minkowski spacetime]] from the solution to a related problem in [[Euclidean space]], or more generally relating a problem on [[Lorentzian manifold|Lorentzian]] [[spacetimes]] to one on [[Riemannian manifolds]].  It is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values.
-
-Specifically, in [[quantum field theory]] Wick rotation -- when it applies -- relates [[relativistic field theory]] with [[Euclidean field theory]].
+What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a construction in [[relativistic field theory]] on [[Minkowski spacetime]] or, more generally, on [[Lorentzian manifolds]], from a related construction in [[Euclidean field theory]] on [[Riemannian manifolds]]. This is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values.
 
 In some special cases Wick rotation has been rigorously understood and takes the form of a [[theorem]]. Notably the _[[Osterwalder-Schrader theorem]]_ gives a precise meaning to Wick rotation for [[quantum field theory]] on [[Minkowski spacetime]] formalized by the [[axioms]] of [[AQFT]].
 
