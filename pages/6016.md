@@ -15,6 +15,9 @@ On [[grand unified theories]], [[naturalness]], [[D=4 N=8 supergravity]], [[supe
 
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
+* [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, (reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669))
+
+
 ## Related $n$Lab entries
 
 * [[quark]], [[QCD]]
