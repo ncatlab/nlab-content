@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -35,6 +34,23 @@ where $\mathcal{P}$ is the "path-ordering operator" and $A_\mu$ are the componen
 For $G$ a suitable [[Lie group]] (compact, semi-simple and simply connected) the Wilson loops of $G$-[[principal connections]] are equivalently the [[partition functions]] of a [[1-dimensional Chern-Simons theory]].
 
 This appears famously in the formulation of [[Chern-Simons theory]] [with Wilson lines](Chern-Simons+theory#WithWilsonLineObservables). More detailes are at _[[orbit method]]_.
+
+### As the universal Vassiliev invariant
+
+The un-traced [[Wilson loop observable]] of [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons theory]] is the [[universal Vassiliev invariant]] (see there for more):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/UniversalWilsonLoopObservable.jpg" width="700">
+</center>
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariants.jpg" width="800">
+</center>
+
+
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 
 ### Relation to defects
 
