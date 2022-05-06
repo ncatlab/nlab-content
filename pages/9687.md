@@ -372,3 +372,8 @@ For review see
 [[!redirects confinement]]
 [[!redirects color confinement]]
 [[!redirects colour confinement]]
+
+[[!redirects deconfinement]]
+[[!redirects color deconfinement]]
+[[!redirects colour deconfinement]]
+
