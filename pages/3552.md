@@ -339,6 +339,10 @@ Review and application:
 [[!redirects Sullivan minimal algebra]]
 [[!redirects Sullivan minimal algebras]]
 
+[[!redirects relative Sullivan model]]
+[[!redirects relative Sullivan models]]
+
+
 [[!redirects relative Sullivan algebra]]
 [[!redirects relative Sullivan algebras]]
 
