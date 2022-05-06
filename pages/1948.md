@@ -47,7 +47,7 @@ If either of these choices defines a model structure on $[D,C]$, we call it the 
 
 The projective model structure can be regarded as a right-[[transferred model structure]].  This yields the following basic result on its existence.
 
-+-- {: .un_theorem}
++-- {: .num_theorem #CofGenProj}
 ###### Theorem
 Suppose that
 
@@ -79,34 +79,29 @@ Note that $C$ need not be cofibrantly generated (and the 2-trivial model structu
 
 In the case when $C$ is an [[accessible model category]], i.e. it is a [[locally presentable category]] and its constituent [[weak factorization systems]] have [[accessible functor|accessible]] realizations as [[functorial factorizations]], we have the following general result from [Moser](#Moser) (the unenriched case appears in [HKRS15](#HKRS15) and [GKR18](#GKR18)).
 
-\begin{theorem}
+\begin{theorem}\label{Accessible}
 Let $\mathbf{S}$ be a [[locally presentable base]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-enriched category that is an [[accessible model category]], and $D$ a small $\mathbf{S}$-category.  Then:
 
-1. If [[copowers]] by the hom-objects $D(x,y)$ preserve trivial cofibrations, then the projective model structure on $[D,C]$ exists.
-1. If [[copowers]] by the hom-objects $D(x,y)$ preserve cofibrations, then the injective model structure on $[D,C]$ exists.
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve trivial cofibrations, then the projective model structure on $[D,C]$ exists and is accessible.
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve cofibrations, then the injective model structure on $[D,C]$ exists and is accessible
 
 \end{theorem}
 
-Note that if $C$ is [[combinatorial model category|combinatorial]], i.e. locally presentable and cofibrantly generated (hence accessible), this result reduces to the previous one in the projective case.  However, not every accessible model structure is combinatorial (e.g. the [[Hurewicz model structure on chain complexes]]), so in that sense this result is more general.  On the other hand, not every cofibrantly generated model category is locally presentable (e.g. the [[classical model structure on topological spaces]]), so the previous theorem is more general in that sense.
 
-Moreover, this theorem does not, as stated, imply that the projective or injective model structures are cofibrantly generated even if $C$ is.  So in the combinatorial case, the previous theorem also proves more.
+### Combinatorial case
 
+Every [[combinatorial model category]] (i.e. locally presentable and cofibrantly generated) is accessible, so Theorem \ref{Accessible} shows that both model structures exist, and Theorem \ref{CofGenProj} shows that the projective model structure is cofibrantly generated, hence also combinatorial.  In fact the injective model structure is also combinatorial, although the proof is much more involved, because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  This was first proven by in [[Higher Topos Theory|HTT, prop. A.2.8.2 and A.3.3.2]] under strong assumptions on the enriching category (in particular that all objects are cofibrant), and later generalized by [Makkai and Rosicky](#MR13) to essentially the following:
 
-### Injective case
+\begin{theorem}\label{Combinatorial}
+Let $\mathbf{S}$ be a [[locally presentable base]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-enriched category that is a [[combinatorial model category]], and $D$ a small $\mathbf{S}$-category.  Then:
 
-Showing that injective model structures are cofibrantly generated is subtler, mainly because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  The following is probably the most general known result.
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve trivial cofibrations, then the projective model structure on $[D,C]$ exists and is combinatorial.
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve cofibrations, then the injective model structure on $[D,C]$ exists and is combinatorial.
 
-+-- {: .un_theorem}
-###### Theorem
-If $\mathbf{S}$ is an [[excellent model category]], $C$ is a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]], and $D$ is a small $\mathbf{S}$-enriched category, then the injective model structure on $[D,C]$ exists and is again combinatorial.
-=--
-+-- {: .proof}
-###### Proof
-In the unenriched case, this is [[Higher Topos Theory|HTT, prop. A.2.8.2]].  The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following it.
-=--
-
-Note that one of the axioms of an [[excellent model category]] is that all objects are cofibrant; thus the assumption that $C$ is an $\mathbf{S}$-model category implies that copowers by the (cofibrant) objects $D(x,y)$ preserve cofibrations and trivial cofibrations.  So the assumptions of this theorem are subsumed by Moser's; but Moser's theorem does not imply that the injective model structure is combinatorial if $C$ is, so in that regard Lurie's result proves more.
-
+\end{theorem}
+\begin{proof}
+It suffices to construct the factorizations, which follows from [MR13, Remark 3.8](#MR13) about left-lifting combinatorial weak factorization systems.
+\end{proof}
 
 ## Properties
 
@@ -330,6 +325,10 @@ The use of accessible model structures to construct both projective and injectiv
 It was generalized to enriched diagrams in
 
 * {#Moser} [[Lyne Moser]], *Injective and Projective Model Structures on Enriched Diagram Categories*, [arXiv:1710.11388](https://arxiv.org/abs/1710.11388)
+
+The more general result above on combinatoriality of injective model structures follows from Remark 3.8 of
+
+* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
 
 See also 
 
