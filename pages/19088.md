@@ -31,4 +31,10 @@ This page collects material related to the book
 
 on [[string theory phenomenology]], such as via [[intersecting D-brane models]] in [[type II string theory]].
 
+\linebreak
+
+See also at _[[string theory FAQ]]_
+
+
+
 category: reference
