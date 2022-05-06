@@ -69,7 +69,13 @@ Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geomet
 
 * Tatsuo Azeyanagi, Masanori Hanada, Tomoyoshi Hirata, _On Matrix Model Formulations of Noncommutative Yang-Mills Theories_, Phys.Rev.D78:105017,2008 ([arXiv:0806.3252](http://arxiv.org/abs/0806.3252))
 
-Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] IKKT model are in 
+Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKKT matrix model]]:
+
+* [[Harold Steinacker]], _Higher-spin gravity and torsion on quantized space-time in matrix models_ ([arXiv:2002.02742](https://arxiv.org/abs/2002.02742))
+
+
+
+Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
 
 * M. Fukuma, H. Kawai, Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
 
