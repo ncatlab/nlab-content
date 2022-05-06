@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[(∞,1)-category theory]] the typical notion of [[filtered object]] in [[category theory]] simplifies: instead of a [[sequential diagram]] of [[monomorphism]] it is just any [[tower diagram]].
+In [[(∞,1)-category theory]] the typical notion of [[filtered object]] in [[category theory]] simplifies: instead of a [[sequential diagram]] of [[monomorphisms]], it is just any [[tower diagram]].
 
 ## Definition
 
