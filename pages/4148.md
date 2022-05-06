@@ -55,6 +55,8 @@ A category $\mathcal{C}$ is **strongly protomodular** when it is protomodular an
 
 * {#BournJan03} Dominique Bourn, George Janelidze, _Characterization of protomodular varieties of universal algebras_, ([TAC](http://www.tac.mta.ca/tac/volumes/11/6/11-06abs.html))
 
+* {#Bourn2017} Dominique Bourn, [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017
+
 [[!redirects protomodular categories]]
 [[!redirects Bourn-protomodular]]
 [[!redirects Bourn-protomodular category]]
