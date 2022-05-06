@@ -454,7 +454,7 @@ The notion of _bundle gerbe_ as such was introduced in
 
 Early texts also include
 
-* [[David Chatterjee]], _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
+* [[David Chatterjee]], _On Gerbs_, 1998 ([pdf](https://people.maths.ox.ac.uk/hitchin/files/StudentsTheses/chatterjee.pdf))
 
 (notice that the title here suppresses one "e" intentionally);
 
