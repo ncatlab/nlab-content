@@ -19,7 +19,7 @@
 
 ## Definition
 
-An [[initial object]] $\emptyset$ is called a **[[strict initial object]]** if any [[morphism]] $x\to \emptyset$ must be an [[isomorphism]].  
+An [[initial object]] $\emptyset$ is called a **strict initial object** if any [[morphism]] $x\to \emptyset$ must be an [[isomorphism]].  
 
 ## Examples
 
