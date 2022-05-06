@@ -2163,7 +2163,7 @@ In ([Lawvere 07, def. 1](#LawvereAxiomatic)) this situation is said to exhibit $
 
 It follows that there is an infinite sequence of adjoints, in particular that there is $coDisc^{\mathcal{P}} \coloneqq Disc^{\mathcal{P}}$ [[right adjoint]] to $\Gamma^{\mathcal{P}}$, which by the discussion at [[adjoint triple]] is also a [[full and faithful functor]], and that $\Pi_0^{\mathcal{P}}$ preserves [[finite products]] (in fact all [[limits]]). 
 
-So the above adjoints makes $\mathcal{P}$ be a cohesive topos over the [[base topos]] $\mathcal{E}$ with the special property that $\Pi_0^{\mathcal{P}} \simeq \Gamma^{\mathcal{P}}$. In words this says that in $\mathcal{P}$ every cohesive neighbourhood contains precisely one point. This is a characteristic of [[infinitesimally thickened points]].
+So the above adjoints makes $\mathcal{P}$ be a cohesive topos over the [[base topos]] $\mathcal{S}$ with the special property that $\Pi_0^{\mathcal{P}} \simeq \Gamma^{\mathcal{P}}$. In words this says that in $\mathcal{P}$ every cohesive neighbourhood contains precisely one point. This is a characteristic of [[infinitesimally thickened points]].
 
 See at _[[infinitesimal cohesion]]_ for more on this.
 
@@ -2276,7 +2276,7 @@ the term _category of Being_ is used for a notion resembling that of a cohesive 
 
 and specifically the term "cohesion" probably from
 
-* [[Georg Hegel]], part II "Philosophy of Nature", second section "Phyiscs", B c) "cohesion", in _[[Encyclopedia of the Philosophical Sciences]]_
+* [[Georg Hegel]], part II "Philosophy of Nature", second section "Physics", B c) "cohesion", in _[[Encyclopedia of the Philosophical Sciences]]_
 
 
 In 
