@@ -51,6 +51,7 @@ $$
 
 is ordinary (non-equivariant) [[projective space]] of [[dimension]] $n$ over $k$.
 
+
 ### Representation spheres
 
 +-- {: .num_prop #OneDimensionalRepresentationSpheresAsProjectiveLine}
