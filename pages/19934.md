@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -178,8 +177,16 @@ the flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 <img src="https://ncatlab.org/nlab/files/CompactFlat2dOrbifolds.jpg" width="600">
 </center>
 
-
 > graphics grabbed from [Bettiol-Derdzinski-Piccione 18](#BettiolDerdzinskiPiccione18)
+
+
+#### 2-sphere
+ {#TwoSphereAsFlatOrbifold}
+ 
+
+The [[2-sphere]] arises, in particular, as the [[quotient space]] of the [[torus]] $\mathbb{C}/\mathbb{Z}^2$ by the [[involution]] $z \mapsto -z$, exhibited by the [[Weierstrass elliptic function]] (e.g. [Mukase 04, end of 1.4](Weierstrass+elliptic+function#Mukase04). This realizes the 2-sphere as the underlying coarse space of a [[flat orbifold]] with four singukar points.
+
+
 
 ### Flat compact 3-dimensional orbifolds
 
@@ -207,7 +214,7 @@ Also $\mathbb{T}^4\sslash\mathbb{Z}_4$ gives a toroidal orbifold. As [[orientifo
 #### 4-Sphere
  {#4SphereAsFlatOrbifold}
 
-The [[complex projective space]] $\mathbb{C}P^2$ is an orbifold quotient of the [[4-torus]] (see [this MO comment](https://mathoverflow.net/a/213009/381)), in generalization of how the [[Weierstrass elliptic function]] exhibits the [[Riemann sphere]] as $\mathbb{T}^2/\mathbb{Z}_2$.
+The [[complex projective space]] $\mathbb{C}P^2$ is an orbifold quotient of the [[4-torus]] (see [this MO comment](https://mathoverflow.net/a/213009/381)), in generalization of how the [[Weierstrass elliptic function]] exhibits the [[Riemann sphere]] as $\mathbb{T}^2/\mathbb{Z}_2$ ([above](TwoSphereAsFlatOrbifold)).
 
 A further $\mathbb{Z}_2$-quotient of $\mathbb{C}P^2$ gives the [[4-sphere]] (see at _[4-sphere as quotient of complex projective plane](4-sphere#AsAQuotientOfTheComplexProjectivePlane)_).
 
