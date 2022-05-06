@@ -17,7 +17,7 @@ $$
   \zeta(s_1, \cdots , s_k)
   =
   \underset{n_1 \gt n_2 \gt \cdots \gt n_k\gt 0}{\sum}
-  n_1^{-s_1} \cdots h_n^{-s_k}
+  n_1^{-s_1} \cdots n_k^{-s_k}
   \,.
 $$
 
