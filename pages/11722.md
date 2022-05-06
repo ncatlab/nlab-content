@@ -10,7 +10,7 @@
 =--
 
 
-Theorem named by [[Pavel Urysohn|Urysohn]].
+Theorem named after [[Pavel Urysohn|Urysohn]].
 
 * table of contents
 {: toc}
