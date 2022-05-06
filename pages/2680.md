@@ -24,7 +24,7 @@
 
 Hamiltonian mechanics is a formulation of [[mechanics]] in which the basic datum in a mechanical system is a function $H$, the [[Hamiltonian]] of the system, which gives the total energy in the system in terms of the [[position|positions]] and [[momentum|momenta]] of the objects in the system.
 
-More abstractly, the Hamiltonian is a function on [[phase space]], a [[manifold]] whose coordinates are [[generalized position|generalised]] positions $q^i$ and momenta $p_i$.  (Compare this to [[Lagrangean mechanics]], in which the [[Lagrangean]] is a function on [[state space]], whose coordinates are generalised positions and [[velocity|velocities]].)  So to do Hamiltonian mechanics properly, you must 'mind your $p$s and $q$s' (blame [[John Baez]] for this pun).
+More abstractly, the Hamiltonian is a function on [[phase space]], a [[manifold]] whose coordinates are [[generalized position|generalised]] positions $q^i$ and momenta $p_i$.  (Compare this to [[Lagrangian mechanics]], in which the [[Lagrangian]] is a function on [[state space]], whose coordinates are generalised positions and [[velocity|velocities]].)  So to do Hamiltonian mechanics properly, you must 'mind your $p$s and $q$s' (blame [[John Baez]] for this pun).
 
 To begin with, we often take phase space to be the [[cotangent bundle]] of [[configuration space]].  (Compare that state space is the [[tangent bundle]] of configuration space.)  This comes equipped with a natural $2$-[[differential form|form]]
 $$ \omega = \sum_i \mathrm{d}p_i \wedge \mathrm{d}q^i ,$$
