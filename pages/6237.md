@@ -120,6 +120,8 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 * [[character ring]]
 
+* [[table of marks]]
+
 ## References
 
 Character rings of [[compact Lie groups]] are discussed in 
