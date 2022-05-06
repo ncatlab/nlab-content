@@ -33,6 +33,10 @@ The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-
 
 ([Linde 82](#Linde), [Albrecht-Steinhardt 82](#AlbrechtSteinhardt))
 
+### Eternal inflation
+
+* [[eternal inflation]]
+
 ### Chaotic inflation
 
 [[chaotic inflation]]
