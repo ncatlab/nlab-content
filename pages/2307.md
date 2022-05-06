@@ -33,21 +33,18 @@ See at those entries for more.
 
 * [[cobordism theory determining homology theory]]
 
-* [[MU]], [[MSU]]
-
-* [[MO]], [[MSO]], [[MSpin]]
-
-* [[MR-theory]]
-
-* [[MP-theory]]
-
 * [[equivariant complex cobordism cohomology theory]]
-
-* [[algebraic cobordism]], [[algebraic cobordism spectrum]]
 
 * [[Adams-Novikov spectral sequence]]
 
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
+\linebreak
+
 [[!include chromatic tower examples - table]]
+
 
 ## References
 
@@ -61,7 +58,7 @@ Original articles include
  
 * {#Novikov60} [[Sergei Novikov]], _Some problems in the topology of manifolds connected with the theory of Thom spaces_, Dokl. Akad. Nauk. SSSR. 132 (1960), 1031&#8211;1034 (Russian). 
 
-* {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sb. (N.S.) 57 (99) (1962), 407&#8211;442.
+* {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
  
 Textbook accounts include
 
