@@ -156,7 +156,26 @@ $$
   \,.
 $$
 
-The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_ ([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08), [Douglas-Park-Schnell 14](duality+between+M%2FF-theory+and+heterotic+string+theory#DouglasParkSchnell14)). 
+The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. 
+
+\begin{imagefromfile}
+        "file_name": "K3CobordismBetween24ThreeSpheres.jpg",
+        "web": "nlab",
+        "width": 260,
+        "unit": "px",
+        "float": "right",
+        "margin": {
+            "top": -40,
+            "right": 0,
+            "bottom": 20,
+            "left": 20,
+            "unit": "px"
+        },
+        "alt": "homotopy pasting diagram exhibiting the homotopy Whitehead integral",
+        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+\end{imagefromfile}
+
+Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_ ([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08), [Douglas-Park-Schnell 14](duality+between+M%2FF-theory+and+heterotic+string+theory#DouglasParkSchnell14)). 
 
 Under [[T-duality]] this translates to 24 [[D6-branes]] in [[type IIA string theory]] on [[K3]] ([Vafa 96, Footnote 2 on p. 6](#Vafa96)).
 
