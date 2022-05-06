@@ -1,3 +1,4 @@
+[[!redirects Feynman amplitude on compactified configuration space of points]]
 [[!redirects Feynman amplitude on compactified configuration spaces of points]]
 [[!redirects Feynman amplitudes on compactified configuration spaces of points]]
 
@@ -24,7 +25,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] an alternative to regarding [[propagators]]/[[Feynman amplitudes]] as [[distributions of several variables]] with [[singularities]] at (in particular) coincident points, one may [[pullback of distributions|pull-back]] these distributions to [[smooth functions]]/[[differential forms]] on [[Fulton-MacPherson compactifications]] of [[configuration spaces]] of points and study their [[renormalization]] from this perspective. Vaguely analogous to the perspective of [[wavefront sets]], this perspective amounts to recording around each potentially singular point an [[n-sphere]] worth of extra [[direction of a vector|directional]] information carried by the [[Feynman amplitude]] in the vicinity of the point.
+In [[Euclidean field theory]] an alternative to regarding [[propagators]]/[[correlators]] as [[distributions of several variables]] with [[singularities]] on the [[fat diagonal]], one may [[pullback of distributions|pull-back]] these distributions to [[smooth functions]]/[[differential forms]] on ([[Fulton-MacPherson compactifications]] of) [[configuration spaces]] of points and regard them in this incarnation, in particular discuss their [[renormalization]] from this perspective. Vaguely analogous to the perspective of [[wavefront sets]], this perspective amounts to recording around each potentially singular point an [[n-sphere|(d-1)-sphere]] worth of extra [[direction of a vector|directional]] information carried by the [[correlator]]/[[Feynman amplitude]] in the vicinity of the point.
 
 A general and systematic discussion of [[perturbative quantum field theory]] and its [[renormalization]] from this perspective is offered in [Berghoff 14a](#Berghoff14a), [Berghoff 14b](#Berghoff14b) (albeit presently only for [[Euclidean quantum field theory]], not for [[relativistic quantum field theory]]).
 
@@ -57,11 +58,20 @@ and highlighted as a means to obtain [[graph complex]]-models for the [[de Rham 
 * {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
 
 
-A systematic development of [[perturbative quantum field theory]] with [[Feynman amplitudes]] considered as [[smooth functions]] on [[Fulton-MacPherson compactifications]]/[[wonderful compactifications]] of [[configuration spaces of points]] and more generally of subspace arrangements is due to 
+A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative quantum field theory]] with [[n-point functions]] considered as [[smooth functions]] on [[Fulton-MacPherson compactifications]]/[[wonderful compactifications]] of [[configuration spaces of points]] and more generally of subspace arrangements is due to 
 
 * {#BergbauerBrunettiKreimer09} [[Christoph Bergbauer]], [[Romeo Brunetti]], [[Dirk Kreimer]], _Renormalization and resolution of singularities_ ([arXiv:0908.0633](https://arxiv.org/abs/0908.0633))
 
 * {#Berghoff14a} [[Marko Berghoff]], _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
 
 * {#Berghoff14b} [[Marko Berghoff]], _Wonderful compactifications in quantum field theory_,  Communications in Number Theory and Physics Volume 9 (2015) Number 3 ([arXiv:1411.5583](https://arxiv.org/abs/1411.5583))
+
+
+[[!redirects correlator as differential form on configuration space of points]]
+[[!redirects correlators as differential forms on configuration space of points]]
+
+[[!redirects correlator as differential form on a configuration space of points]]
+[[!redirects correlator as a differential form on a configuration space of points]]
+[[!redirects correlators as differential forms on a configuration space of points]]
+[[!redirects correlators as differential forms on configuration spaces of points]]
 
