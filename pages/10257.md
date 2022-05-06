@@ -107,6 +107,8 @@ Review:
 
 * {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) _[[Handbook of K-Theory]]_, Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
 
+* [[Dai Tamaki]], [[Akira Kono]], Section 4.2 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
 For a list of proofs of Bott periodicity, see
 
 * _Proofs of Bott periodicity_, [MO](https://mathoverflow.net/q/8800/447)
