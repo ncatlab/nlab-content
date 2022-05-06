@@ -45,6 +45,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
+* [[LHCb collaboration]], _Measurement of the ratio of the $B^0 \to D^{\ast -} \tau^+ \vu_\tau$ and $B^0 \to D^{\ast - \mu^+ \nu_\mu}$ branching fractions using three-prong τ-lepton decays_ ([arXiv:1708.08856](https://arxiv.org/abs/1708.08856))
+
+
 * {#Cartelle18} Paula Alvarez Cartelle on behalf of the [[LHCb collaboration]], _New results on flavor anomalies at LHCb_, April 2018 ([pdf](https://cds.cern.ch/record/2311960/files/FlavourAnomaliesLHCbAlvarez.pdf))
 
 * {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 (<a href="https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf">pdf</a>)
