@@ -20,8 +20,8 @@ Bitopological spaces and bicontinuous maps form a [[category]] $BiTop$.
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
 The topology $\mathcal{T}$ is __regular with respect to__ $\mathcal{T}^*$ if  one of the following two equivalent conditions holds
 
-1. There is a $\mathcal{T}$-[[neighborhood base]] consisting  of $\mathcal{T}^*$-closed sets; 
-1. for all $x\in X$ and all $\mathcal{T}$-opens containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ such that $ V \subset U$.
+1. For each point $x$ there is a $\mathcal{T}$-[[neighborhood base]] consisting  of $\mathcal{T}^*$-closed sets; 
+1. for all $x\in X$ and all $\mathcal{T}$-opens containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ of $x$ such that $ V \subset U$.
 
 A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise regular__ if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$ and wise versa.
 =--
