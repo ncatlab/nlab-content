@@ -33,7 +33,13 @@ There is an evident generalization to natural transformations between [[higher c
 
 ## Properties
 
-Given a functor $G:C\to D$, if $C$ has a [[terminal object]] $1$, then to give a functor $F$ and an equifibered transformation $F\to G$ is equivalent to giving a single object $F1$ and a morphism $F1 \to G1$.  The rest of $F$ can then be constructed uniquely by taking pullbacks.  This construction is important in the theory of [[clubs]].
+* Given a functor $G:C\to D$, if $C$ has a [[terminal object]] $1$, then to give a functor $F$ and an equifibered transformation $F\to G$ is equivalent to giving a single object $F1$ and a morphism $F1 \to G1$.  The rest of $F$ can then be constructed uniquely by taking pullbacks.  This construction is important in the theory of [[clubs]].
+
+
+
+[[!include colimits of equifibered transformations -- section]]
+
+
 
 ## Related pages
 
@@ -47,7 +53,7 @@ Given a functor $G:C\to D$, if $C$ has a [[terminal object]] $1$, then to give a
 In the context of [[category theory]] the concept is discussed in
 
 * [[Aurelio Carboni]] and [[Peter Johnstone]], *Connected limits, familial representability and Artin glueing*, Mathematical Structures in Computer Science, Vol. 5 Iss. 4, Cambridge U. Press (December 1995), 441-459. 
-doi: https://doi.org/10.1017/S0960129500001183. ([web](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/div-classtitleconnected-limits-familial-representability-and-artin-glueingdiv/54E93903F7D7321B98B64AE7CB3E7AE0)) 
+([doi:10.1017/S0960129500001183](https://doi.org/10.1017/S0960129500001183) [web](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/div-classtitleconnected-limits-familial-representability-and-artin-glueingdiv/54E93903F7D7321B98B64AE7CB3E7AE0)) 
 
 * [[Tom Leinster]], *Higher Operads, Higher Categories*, Cambridge University Press 2003. ([arXiv link](https://arxiv.org/abs/math/0305049)) 
 
@@ -63,3 +69,6 @@ In the context of [[(infinity,1)-categories]] (with an eye towards [[(infinity,1
 [[!redirects equifibred natural transformations]]
 [[!redirects cartesian natural transformation]]
 [[!redirects cartesian natural transformations]]
+
+
+
