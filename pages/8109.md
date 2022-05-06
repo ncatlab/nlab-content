@@ -177,7 +177,7 @@ A collection of various lecture notes and other material is kept at
 
 Random useful discussion is in 
 
-* [[Jon Beardsley]], _[Chromotopy](http://chromotopy.org/)_
+* [[Eric Peterson]], _[Chromotopy](http://chromotopy.org/)_
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
 
