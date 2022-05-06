@@ -17,7 +17,7 @@
 
 ## Idea
 
-concept in [[thermodynamics]]/[[condensed matter physics]]
+(...) concept in [[thermodynamics]]/[[condensed matter physics]] (...)
 
 ## Examples
 
@@ -41,6 +41,16 @@ See also
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Phase_(matter)">Phase_(matter)</a>_
 
+* Wikipedia, _[State of matter](https://en.wikipedia.org/wiki/State_of_matter)_
+
+* Wikipedia, _[Phase diagram](https://en.wikipedia.org/wiki/Phase_diagram)_
+
 [[!redirects phases of matter]]
 
 [[!redirects phase (matter)]]
+
+[[!redirects state of matter]]
+[[!redirects states of matter]]
+
+[[!redirects phase diagram]]
+[[!redirects phase diagrams]]
