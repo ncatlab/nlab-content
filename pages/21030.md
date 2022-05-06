@@ -66,6 +66,12 @@ The original articles:
 
 * [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
 
+* [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Protected Multiplets of M-Theory on a Plane Wave_, JHEP 0209:021, 2002 ([arXiv:hep-th/0207050](https://arxiv.org/abs/hep-th/0207050))
+
+* [[Nakwoo Kim]], [[Jeong-Hyuck Park]], _Superalgebra for M-theory on a pp-wave_, Phys.Rev. D66 (2002) 106007 ([arXiv:hep-th/0207061](https://arxiv.org/abs/hep-th/0207061))
+
+
+
 
 In relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
 
