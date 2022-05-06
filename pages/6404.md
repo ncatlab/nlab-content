@@ -58,7 +58,7 @@ Similar comments apply to [[type II superstring theory]], where $N=1$ target spa
 
 ### Non-perturbative description
 
-The above analysis in [[string perturbation theory]] is expected to find a non-perturbative lift to [[M-theory]]/[[F-theory]]. Under this lift, compactification on a Calabi-Yau complex-3-fold (CY3) lifts to compactification on a [[G2-manifold]]/CY4-fold, respectively:
+The above analysis in [[perturbative string theory]] is expected to find a non-perturbative lift to [[M-theory]]/[[F-theory]]. Under this lift, compactification on a Calabi-Yau complex-3-fold (CY3) lifts to compactification on a [[G2-manifold]]/CY4-fold, respectively:
 
 [[!include N=1 susy compactifications -- table]]
 
@@ -81,7 +81,7 @@ The above analysis in [[string perturbation theory]] is expected to find a non-p
 ## References
  {#References}
 
-The idea originates in 
+The idea, in the context of [[heterotic string theory on CY3-manifolds]], originates in 
 
 * {#CandelasHorowitzStromingerWitten85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
 
