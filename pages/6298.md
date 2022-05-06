@@ -1,16 +1,25 @@
-__Monsky-Washnitzer cohomology__ is a cohomology theory for [[affine scheme|affine algebraic schemes]] over fields of characteristic $p\gt 0$ introduced in
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+_Monsky-Washnitzer cohomology_ is a [[cohomology theory]] for [[affine scheme|affine algebraic schemes]] over [[fields]] of [[positive characteristic]].
+
+## References
+
+The original articles:
 
 * P. Monsky, G. Washnitzer, _Formal cohomology. I._
 Ann. of Math. (2) 88 1968 181&#8211;217, [MR248141](http://www.ams.org/mathscinet-getitem?mr=248141), [doi](http://dx.doi.org/10.2307/1970571) 
+
 * P. Monsky, _Formal cohomology. II. The cohomology sequence of a pair_, Ann. of Math. (2) 88 1968 218&#8211;238, [MR244272](http://www.ams.org/mathscinet-getitem?mr=244272), [doi](http://dx.doi.org/10.2307/1970572)
----
-## Monsky-Washnitzer cohomology
 
-Kiran Kedlaya is interested in this.
+See also:
 
-category: Other Information
----
-## Monsky-Washnitzer cohomology
 
 [MathSciNet](http://www.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=&co4=AND&pg5=TI&s5=&co5=AND&pg6=PC&s6=&co6=AND&pg7=ALLF&s7=%22Monsky-Washnitzer+cohomology%22&co7=AND&Submit=Search&dr=all&yrop=eq&arg3=&yearRangeFirst=&yearRangeSecond=&pg8=ET&s8=All)
 
@@ -22,22 +31,5 @@ category: Other Information
 
 [arXiv: Abstract search](http://front.math.ucdavis.edu/search?a=&t=&q=%22Monsky-Washnitzer+cohomology%22&c=&n=25&s=Abstracts)
 
-category: Search results
----
-## Monsky-Washnitzer cohomology
 
-AG (Algebraic geometry)
 
----
-## Monsky-Washnitzer cohomology
-
-Charp
-
----
-## Monsky-Washnitzer cohomology
-
-Van der Put article (el)
-
-category: Paper References
-
-nLab page on [[nlab:Monsky-Washnitzer cohomology]]
