@@ -1,7 +1,9 @@
 
 
 
-* This page is about functors between [[linear categories]].  For other notions of "linear functor," see [[Goodwillie calculus]] and [[polynomial functor]].
+* This page is about functors between [[linear categories]].  For other notions of "linear functor," see [[Goodwillie calculus]] and [[polynomial functor]]. 
+
+* There is a notion of map between [[linearly distributive categories]] called [[linearly distributive functor]], which is often shortened to "linear functor."
 
 ***
 
