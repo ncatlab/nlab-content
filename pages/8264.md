@@ -44,9 +44,9 @@ The experimental data ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP-
 ### Higgs inflation
  {#HiggsInflation}
 
-The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variations are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. 
+The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variations are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]] (see e.g. [Atkins 12](#Atkins12), [Kamada 12](#Kamada12), [Kehagias 12](#Kehagias12)).
 
-In particular, the near-criticality of the Higgs potential (see [there](Higgs+field#Curiously)) has been argued to be just the right condition to makle Higgs inflation viable [Jegerlehner 13](#Jegerlehner13), [Jegerlehner 14](#Jegerlehner14), [Jegerlehner 15](#Jegerlehner15), [Jegerlehner 18](#Jegerlehner18), for review see also [Rubio 18 ](#Rubio18).
+In particular, the near-criticality of the Higgs potential (see [there](Higgs+field#Curiously)) has been argued to be just the right condition to make Higgs inflation viable ([Jegerlehner 13](#Jegerlehner13), [Jegerlehner 14](#Jegerlehner14), [Jegerlehner 15](#Jegerlehner15), [Jegerlehner 18](#Jegerlehner18)), for review see also [Rubio 18 ](#Rubio18).
 
 
 ### Axion inflation
@@ -141,11 +141,11 @@ Besides the references at _[[Starobinsky model of cosmic inflation]]_ the follow
 
 Literature discussing whether or how the [[Higgs field]] might be identified as the inflaton field includes
 
-* Michael Atkins, _Could the Higgs boson be the inflaton?_, talk (Match 2012) ([pdf](http://indico.cern.ch/getFile.py/access?resId=0&materialId=slides&confId=180122))
+* {#Atkins12} Michael Atkins, _Could the Higgs boson be the inflaton?_, talk (March 2012) ([pdf](http://indico.cern.ch/getFile.py/access?resId=0&materialId=slides&confId=180122))
 
-* Kohei Kamada, _Generalized Higgs inflation models_, talk at PLANCK 2012 (May 2012)([pdf](http://planck12.fuw.edu.pl/talks/kamada.pdf))
+* {#Kamada12} Kohei Kamada, _Generalized Higgs inflation models_, talk at PLANCK 2012 (May 2012)([pdf](http://planck12.fuw.edu.pl/talks/kamada.pdf))
 
-* [[Alex Kehagias]], _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
+* {#Kehagias12} [[Alex Kehagias]], _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
 
 * Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
 
