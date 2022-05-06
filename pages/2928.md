@@ -16,9 +16,10 @@ Where this makes sense, an __anti-involution__ is an [[antihomomorphism]] instea
 
 Two involutions $f, g : X \to X$ [[commutative diagram|commute]] if and only if their composition $f g$ is also an involution, as displayed by the following algebra:
 
-$$f g = f (f g f g ) g = (f f) g f (g g) = g f$$
+$$f g = g f \implies (f g) (f g) = (f g) (g f) = f (g g) f = f f = 1$$
 
-$$(f g)(f g) = f (g f) g = f (f g) g = (f f)(g g)= 1$$
+$$(f g) (f g) = 1 \implies f g = f ((f g) (f g)) g = (f f) (g f) (g g) = g f$$
+
 
 ### Fixed point free involutions
 
