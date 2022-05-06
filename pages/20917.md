@@ -37,7 +37,7 @@
 
 * [[circle]] 
 
-  ([[real projective space]] $\,\mathbb{R}P^1$)
+  * [[real projective space]] $\,\mathbb{R}P^1$
 
 * [[2-sphere]]
 
@@ -66,3 +66,7 @@
 * [[8-sphere]]
 
   * [[octonionic projective space]] $\,\mathbb{O}P^1$
+
+* [[15-sphere]]
+
+
