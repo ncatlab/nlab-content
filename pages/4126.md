@@ -43,7 +43,7 @@ to the [[real number]]s, satisfying two conditions:
 +-- {: .num_remark}
 ###### Remark
 
-This has the following equivalent reformulationo, which is crucial for the sheaf-theoretic interpretation discussed below.
+This has the following equivalent reformulation, which is crucial for the sheaf-theoretic interpretation discussed below.
 
 Observed that if $\hat{A}_{1}$ and $\hat{A}_{2}$ commute, then it follows from the [[spectral theorem]] that there exists an operator $\hat{C}$ and [[continuous functions]] $h_{1}$ and $h_{2}$ such that $\hat{A}_{1}=h_{1}(\hat{C})$ and $\hat{A}_{2}=h_{2}(\hat{C})$.  Then the [[axiom]] FUNC in def. \ref{Valuation} implies that a valuation satisfies
 
@@ -79,7 +79,7 @@ No valuations on $B(\mathcal{H})$ exist if dim($\mathcal{H}$)>2.
 +-- {: .num_remark}
 ###### Remark
 
-If a valuation _did_ exist and was restricted to a [[poset of commutative subalgebras|commutative sub-algebra of operators]], it would be an element of the [[Gelfand spectrum]] of the commutative sub-algebra.  Since such elements _do_ exist, valuations do exist on any commutative sub-algebra of operators even if not on the whole _non_-commutative algebra, $\mathcal{B}(\mathcal{H})$, of all bounded operators.  Isham calls these valuations on commutative subalgebras _local_. In the [[Bohr topos]] of the algebra of observables (see there for more), the local valuation are just the [[internal language|internal]] valuations.
+If a valuation _did_ exist and was restricted to a [[poset of commutative subalgebras|commutative sub-algebra of operators]], it would be an element of the [[Gelfand spectrum]] of the commutative sub-algebra.  Since such elements _do_ exist, valuations do exist on any commutative sub-algebra of operators even if not on the whole _non_-commutative algebra, $\mathcal{B}(\mathcal{H})$, of all bounded operators.  Isham calls these valuations on commutative subalgebras _local_. In the [[Bohr topos]] of the algebra of observables (see there for more), the local valuations are just the [[internal language|internal]] valuations.
 
 =--
 
@@ -106,7 +106,7 @@ Each commutative algebra is viewed as a context within which to view a quantum s
 ###### Definition
 **(spectral presheaf)**
 
-Let $\Sigma : \mathcal{V}(\mathcal{B})^{op} \to Set$ be the [[presheaf]] on the category of context such that
+Let $\Sigma : \mathcal{V}(\mathcal{B})^{op} \to Set$ be the [[presheaf]] on the category of contexts such that
 
 * to $V \subset B(\mathcal{H})$ it assigned the set underlying the 
   spectrum of $V$: the set of multiplicative [[linear functional]]s 
@@ -217,7 +217,7 @@ The formulation in terms of presheaves on the category of commutative sub-algebr
 
 The original paper outlining [[Bell's theorem]] is
 
-* J. S. Bell, _On the Einstein Podolsky Rosen Paradox_ , Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
+* J. S. Bell, *On the Einstein Podolsky Rosen Paradox*, Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
 
 The original paper outlining [[Gleason's theorem]] is
 
