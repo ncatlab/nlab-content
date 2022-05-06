@@ -42,6 +42,9 @@ provide, via [[AdS/CFT]], a precise and detailed construction of [[large-N limit
 
 * [[Shai Chester]], _Weizmann Lectures on the Numerical Conformal Bootstrap_ ([arXiv:1907.05147](https://arxiv.org/abs/1907.05147))
 
+* Johan Henriksson, _Analytic Bootstrap for Perturbative Conformal Field Theories_ ([arXiv:2008.12600](https://arxiv.org/abs/2008.12600))
+
+
 See also
 
 * Wikipedia, _[Conformal bootstrap](https://en.wikipedia.org/wiki/Conformal_bootstrap)_
