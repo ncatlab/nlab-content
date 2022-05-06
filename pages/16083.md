@@ -314,7 +314,7 @@ Discussion of torsion constrains for [[11-dimensional supergravity]] from the po
 
 The claim that this torsion constraint in  [[11-dimensional supergravity]] is already equivalent to all of the [[equations of motion]] is due to
 
-*  {#CandielloLechner93} A. Candiello, K. Lechner, _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
+* {#CandielloLechner93} A. Candiello, [[Kurt Lechner]], _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
 
 
 * {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B, Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
@@ -358,7 +358,7 @@ Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-32
 
 * {#Nilsson00} [[Bengt Nilsson]], _A superspace approach to branes and supergravity_ ([arXiv:hep-th/0007017](http://arxiv.org/abs/hep-th/0007017))
 
-* {#LechnerTonin08} [[Kurt Lechner]], Mario Tonin, _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
+* {#LechnerTonin08} [[Kurt Lechner]], [[Mario Tonin]], _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
 
 
 ### For 4d supergravity
