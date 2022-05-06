@@ -1,0 +1,1 @@
+* Claude Sabbah, _Isomonodromic deformations and Frobenius manifolds_, Springer 2007, [doi](http://dx.doi.org/10.1007/978-1-84800-054-4)
