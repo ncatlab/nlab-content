@@ -56,6 +56,8 @@ coherent states and the moment map_, J. of Geometry and Physics 12 (1993) 165-18
 * V. V. Kisil, _Integral representations and coherent states_,
 Bulletin of the Belgian Mathematical Society, v. 2 (1995), No 5, pp. 529-540.
 
+* Thomas Appl,  Diethard H Schiller, _Generalized hypergeometric coherent states_, J. Phys A37:7 (2004) 2731 [doi](https://doi.org/10.1088/0305-4470/37/7/015)
+
 Coherent states can be generalized to [[noncommutative geometry]], most notably for [[quantum groups]]:
 
 * H. Sazdjian, Y.S. Stanev, I.T. Todorov, _SU(3)-coherent state
