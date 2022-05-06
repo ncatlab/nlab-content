@@ -40,6 +40,9 @@ The Cheshire Cat Principle follows in [[holographic QCD]], where the baryons are
 
 ## References
 
+* Atsushi Hosaka, Hiroshi Toki, _Chiral bag model for the nucleon_, Phys. Rept. 277 (1996) 65-188 ([spire:429251](http://inspirehep.net/record/429251), <a href="https://doi.org/10.1016/S0370-1573(96)00013-0">doi:10.1016/S0370-1573(96)00013-0</a>)
+
+
 * Julius Kuti, Section 3 of: _Quark confinement and the quark model_, CERN - JINR School of Physics, Nafplion, Greece, 22 May - 4 Jun 1977, pp.79-128 (CERN-1977-018) ([doi:10.5170/CERN-1977-018.79](http://cds.cern.ch/record/878468), [[KutiQuarkModel.pdf:file]])
 
 In relation to the [[Skyrmion model]]:
