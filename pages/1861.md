@@ -45,19 +45,26 @@ For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a 
 ### Relation to cobordism classes of normally framed submanifolds
   {#RelationToCobordismGroup}
 
-Let $X$ be a [[smooth manifold]] of [[dimension]] $n \in \mathbb{N}$ and let $k \leq n$. Then the [[Pontryagin-Thom construction]] induces a [[bijection]]
+For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the [[Pontryagin-Thom construction]] (e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
 
 $$
-  [X, S^k]
-  \overset{\simeq}{\longrightarrow}
-  \Omega^{n-k}(X)
+  SubMfd_{/bord}^{d}(X)
 $$
 
-from the cohomotopy sets of $X$ to the [[cobordism group]] of $(n-k)$-dimensional [[submanifolds]] with [[normal bundle|normal]] [[framed manifold|framing]] up to normally framed [[cobordism]].
+of [[cobordism classes]] of  [[closed manifold|closed]] and [[normally framed submanifolds]] $\Sigma \overset{\iota}{\hookrightarrow} X$ of [[dimension]] $d$ inside $X$ with the [[cohomotopy]] $\pi^{D-d}(X)$ of $X$ in degree $D- d$
 
-In particular, the canonical [[group]] [[structure]] on [[cobordism groups]] (essentially given by [[disjoint union]] of [[submanifolds]]) this way induces a group structure on the cohomotopy sets.
+$$
+  SubMfd_{/bord}^{d}(X)
+    \underoverset{\simeq}{PT}{\longrightarrow}
+  \pi^{D-d}(X)
+  \,.
+$$
 
-This is made explicit for instance in [Kosinski 93, chapter IX, Theorem (5.5)](#Kosinski93).
+(e.g. [Kosinski 93, IX Theorem (5.5)](#Kosinski93))
+
+In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[cobordism groups]] in sufficiently high [[codimension]] (essentially given by [[disjoint union]] of [[submanifolds]]) this way induces a group structure on the cohomotopy sets in sufficiently high degree.
+
+
 
 This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
 
