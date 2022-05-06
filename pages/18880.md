@@ -15,7 +15,11 @@ This page collects material related to the textbook
 
   _From classical field theory to perturbative quantum field theory_
 
-  in preparation
+  Progress in Mathematical Physics,
+
+  Birkhaeuser 2019
+
+  ([publisher page](https://www.springer.com/de/book/9783030047375))
 
 which is an introductory textbook on [[perturbative quantum field theory]] in its mathematically precise formulation known as _[[perturbative algebraic quantum field theory]]_, based on [[causal perturbation theory]].
 
