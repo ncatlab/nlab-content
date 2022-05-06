@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Trigonometry
++-- {: .hide}
+[[!include trigonometry -- contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,4 +36,4 @@ See also
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#arccos">Arccos (trigonometry)</a>_
 
-[[!redirect arccosine]]
+[[!redirects arccosine]]
