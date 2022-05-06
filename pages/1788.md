@@ -1,5 +1,12 @@
 {#top}
 
+1. Indented block with citation at end
+> I would have written you a shorter letter, but I didn't have enough time.
+
+  Other indented bloc
+> Hit the road, jack, and don't you come back no more.
+3. Yet another
+
 $$
   A
   \;\coloneqq\;
