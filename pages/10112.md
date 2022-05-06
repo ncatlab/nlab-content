@@ -56,6 +56,46 @@ As [[linear representations]] of the [[Lorentz group]] ([[Pin group]]) and [[iso
 
 Here $\mathbf{n}$ denotes an [[irreducible representation]] of [[dimension]] $n$, and the subscript ${}_{\mathrm{sgn}}$ indicates the one of the two irreps of that dimension which pick up an extra sign under [[orientation]]-reversal ($\mathbf{4}_{{}_{sgn}} = \mathbf{4} \otimes \mathbf{1}_{{}_{sgn}}$ for $\mathbf{1}_{{}_{sgn}}$ the [[sign representation]]).
 
+So the [[pion]] is a [[Lorentz group|Lorentz]]-[[pseodoscalar]], and the [[omega-meson]] and [[rho-meson]] are [[Lorentz group|Lorentz]] [[pseudovector]]  [[field (physics)|fields]].
+
+As bilinears in the [[up-quark]] [[Weyl spinor]] [[field (physics)|field]] $u$ and [[down-quark]] [[Weyl spinor]] [[field (physics)|field]]  $d$ these [[meson]] [[field (physics)|fields]] are given as follows (with $(\sigma^0, \sigma^1, \sigma^2, \sigma^3)$ the [[Pauli matrices]]):
+
+
+$$
+  \sigma^0 
+  \underset{
+    {\color{blue}omega}
+    \atop
+    {\color{blue}meson}
+  }{
+    \underbrace{
+      \omega^\mu
+    }
+  }
+  +
+  \sigma^i 
+  \underset{
+    {\color{blue}rho}
+    \atop
+    {\color{blue}meson}
+  }{
+    \underbrace{
+      \rho^\mu_i
+    }
+  }
+  \;=\;
+  \array{
+    \bar u \gamma^\mu \gamma^5 u
+    &
+    \bar u \gamma^\mu \gamma^5 d
+    \\
+    \bar d \gamma^\mu \gamma^5 u
+    &
+    \bar d \gamma^\mu \gamma^5 d
+  }
+$$
+
+
 ### Second-generation mesons
 
 Mesons containing [[strange quarks]] from the second [[generation of fermions]]:
@@ -130,6 +170,10 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 ## References
 
 ### General
+
+Introduction:
+
+* {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
 
 See also
 
