@@ -402,13 +402,20 @@ and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as
 
 ### General
 
-* Hari K. Kunduri, James Lucietti, _Classification of Near-Horizon Geometries of Extremal Black Holes_ ([web](http://relativity.livingreviews.org/Articles/lrr-2013-8/title.html))
+
+See also
+
+* Wikipedia, _[Near-horizon metric](https://en.wikipedia.org/wiki/Near-horizon_metric)_
 
 ### For extremal black holes
 
 That the near horizon geometry of the [[extremal black hole|extremal]] [[Reissner-Nordström black hole]] in $\mathcal{N}=2$ [[4d supergravity]] is $AdS_2 \times S^2$ was observed in 
 
 * [[Gary Gibbons]], in F. del Aguila, [[J. de Azcarraga]], [[Luis Ibanez]] (eds.) _Supersymmetry, Supergravity and Related Topics_
+
+Review: 
+
+* Hari K. Kunduri, James Lucietti, _Classification of Near-Horizon Geometries of Extremal Black Holes_ ([web](http://relativity.livingreviews.org/Articles/lrr-2013-8/title.html))
 
 Description of the near-horizon geometry of near-extremal black holes by [[Jackiw-Teitelboim gravity]]:
 
@@ -467,9 +474,14 @@ Conical [[D-branes]] are discussed in
 
 * [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, _Conic D-branes_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 8,  August 2015 ([arXiv:1505.04506](https://arxiv.org/abs/1505.04506), [slides pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2015/slides/kinoshita.pdf))
 
-See also
+Near horizon geometries of [[black branes]] which [[KK-compactification|KK-compactify]] to [[black holes]]:
 
-* Wikipedia, _[Near-horizon metric](https://en.wikipedia.org/wiki/Near-horizon_metric)_
+* [[Mirjam Cvetič]], Paulo J. Porfírio, Alejandro Satz, _Gaussian null coordinates, near-horizon geometry and conserved charges on the horizon of extremal non-dilatonic black p-branes_ ([arXiv:2003.09304](https://arxiv.org/abs/2003.09304))
+
+
+
+
+
 
 
 [[!redirects near-horizon geometries]]
