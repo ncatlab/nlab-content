@@ -225,6 +225,12 @@ $$
 
 * [[isProp]]
 
+* [[homotopy equivalence]]
+
+  * [[weak homotopy equivalence]]
+
+  * [[stable weak homotopy equivalence]]
+
 ## References
 
 An introduction to equivalence in homotopy type theory is in 
