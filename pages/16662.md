@@ -30,3 +30,5 @@
 * [[structuralism]]
 * [[David Hilbert]]
 * [[free topos]]
+
+[[!redirects formalist]]
