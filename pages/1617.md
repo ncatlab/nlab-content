@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -58,7 +57,7 @@ $$
   x_* : Set \to Sh(X)
 $$
 
-sends every set to the sheaf which is the constant functor on that set. By the general [[Kan extension]] formula for the [[inverse image]] (see there) one finds in this case for any [[sheaf]] $F \in Sh(X)$ the stalk 
+sends every set to the skyscraper sheaf at this point of $X$. By the general [[Kan extension]] formula for the [[inverse image]] (see there) one finds in this case for any [[sheaf]] $F \in Sh(X)$ the stalk 
 
 $$
   \begin{aligned}
