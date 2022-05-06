@@ -121,6 +121,18 @@ Discussion of CYs in [[positive characteristic]] includes
 
 * [[Philip Candelas]], [[Xenia de la Ossa]], Fernando Rodriguez-Villegas, _Calabi-Yau Manifolds Over Finite Fields, II_ ([arXiv:hep-th/0402133](http://arxiv.org/abs/hep-th/0402133))
 
+Discussion of [[Calabi-Yau orbifolds]]:
+
+* [[Dominic Joyce]], _On the topology of desingularizations of Calabi-Yau orbifolds_ ([arXiv:math/9806146](https://arxiv.org/abs/math/9806146), [spire:485280](https://inspirehep.net/literature/485280))
+
+* [[Dominic Joyce]], _Deforming Calabi-Yau orbifolds_, Asian Journal of Mathematics 3.4 (1999): 853-868 ([doi:10.4310/AJM.1999.v3.n4.a7](https://dx.doi.org/10.4310/AJM.1999.v3.n4.a7) [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/ajm/1999/0003/0004/AJM-1999-0003-0004-a007.pdf))
+
+and in view of [[mirror symmetry]]:
+
+* Shi-Shyr Roan, _The mirror of Calabi-Yau orbifold_,  International Journal of Mathematics Vol. 02, No. 04, pp. 439-455 (1991)  ([doi:10.1142/S0129167X91000259](https://doi.org/10.1142/S0129167X91000259))
+
+* Alan Stapledon, _New mirror pairs of Calabi-Yau orbifolds_,  Adv. Math. 230 (2012), no. 4-6, 1557-1596 ([arXiv:1011.5006](https://arxiv.org/abs/1011.5006))
+
 [[!redirects Calabi-Yau]]
 [[!redirects Calabi–Yau]]
 [[!redirects Calabi--Yau]]
@@ -141,6 +153,14 @@ Discussion of CYs in [[positive characteristic]] includes
 [[!redirects Calabi–Yau manifolds]]
 [[!redirects Calabi--Yau manifold]]
 [[!redirects Calabi--Yau manifolds]]
+
+[[!redirects Calabi-Yau orbifold]]
+[[!redirects Calabi-Yau orbifolds]]
+[[!redirects Calabi–Yau orbifold]]
+[[!redirects Calabi–Yau orbifolds]]
+[[!redirects Calabi--Yau orbifold]]
+[[!redirects Calabi--Yau orbifolds]]
+
 
 [[!redirects Calabi-Yau variety]]
 [[!redirects Calabi-Yau varieties]]
