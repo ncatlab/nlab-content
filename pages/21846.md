@@ -4,6 +4,8 @@
 
 [[bordism homology theory|bordism theory]] $\,M B$ ([[B-bordism]]):
 
+* [[MFr]]
+
 * [[MO]], [[MSO]], [[MSpin]], [[MString]], ...
 
 * [[MU]], [[MSU]], ...
