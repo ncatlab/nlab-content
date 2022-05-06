@@ -133,6 +133,8 @@ Now as the $\vec r_i$ all approach 0 we get an 11d spacetime with a $D_N$-type [
 
 ## Related concepts
 
+* [[heterotic M-theory on ADE-orbifolds]]
+
 * [[membrane triple junction]]
 
 [[!include F-branes -- table]]
