@@ -195,7 +195,7 @@ $$
    \simeq [{\textstyle \int} F[S^{-1}], X]
 $$
 
-This last result appears in [[SGA4]] Expos&#233; VI, Section 6.
+This last result appears in [[SGA4]] Exposé VI, Section 6.
 
 
 ### Local smallness
@@ -527,6 +527,20 @@ $$
 with the left adjoint given by hom-objects in a pushout object as above
 is the starting point for the [[vertical categorification]] described at [[(∞,1)-Grothendieck construction]]. 
 
+#### The right adjoint
+
+We also have an adjunction
+$$(R \vdash \int) : Fib(C) \stackrel{\leftarrow}{\to} [C^{op}, Cat]$$
+where the right adjoint $R$ sends a [[Grothendieck fibration]] $F$ over $C$
+to the presheaf
+$$c\mapsto Hom(\int y(c), F),$$
+where $\int y(c)$ is the Grothendieck construction applied to the
+representable presheaf of sets (hence [[discrete categories]]) on $c$
+and $Hom$ denotes the category of morphisms between two Grothendieck fibrations.
+
+Informally, an object of $R(F)(c)$ is given by a choice of a pullback
+along each morphism with codomain $c$,
+and these pullbacks must be functorial.
 
 ### Behaviour under simplicial nerve
 
