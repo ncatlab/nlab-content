@@ -20,11 +20,15 @@
 
 ## Idea
 
-What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a construction in [[relativistic field theory]] on [[Minkowski spacetime]] or, more generally, on [[Lorentzian manifolds]], from a related construction in [[Euclidean field theory]] on [[Riemannian manifolds]]. This is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values. Hence Wick rotation, when it applies, involves [[analytic continuation]] of [[n-point functions]] to [[complex number|complex valued]] [[time]] [[coordinates]].
+What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a construction in [[relativistic field theory]] on [[Minkowski spacetime]] or, more generally, on [[Lorentzian manifolds]], from a related construction in [[Euclidean field theory]] on [[Riemannian manifolds]] in a way that involves or generalizes the idea of [[analytic continuation]] for the _[[time]]_ [[coordinates]]. 
 
-In some special cases Wick rotation has been rigorously understood and takes the form of a [[theorem]]. Notably the _[[Osterwalder-Schrader theorem]]_ gives a precise meaning to Wick rotation for [[quantum field theory]] on [[Minkowski spacetime]] formalized by the [[axioms]] of [[AQFT]].
+This is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values. Hence Wick rotation, when it applies, involves [[analytic continuation]] of [[n-point functions]] to [[complex number|complex valued]] [[time]] [[coordinates]].
 
-More generally, in this context Wick rotation applies to relativistic field theory in [[thermal equilibrium]] [[states]] at finite [[temperature]] $T$, and then relates this to [[Euclidean field theory]] with compact/periodic Euclidean time of length $\beta = 1/T$:
+For [[relativistic field theory|relativistic]]/[[Euclidean field theory|Euclidean]] [[quantum field theory]] on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$/[[Euclidean space]] $\mathbb{R}^{d+1}$ Wick rotation is rigorously understood and takes the form of a [[theorem]] relating the [[Wightman axioms]] for [[n-point functions]] in [[relativistic field theory]] to the _[[Osterwalder-Schrader axioms]]_ for [[correlators]] in [[Euclidean field theory]]. 
+
+See for instance [Fulling-Ruijsenaars 87, section 2](#FullingRuijsenaars87) for a clear account.
+
+More generally, in this context Wick rotation applies to relativistic field theory in [[thermal equilibrium]] [[states]] at [[positive number|positive]] [[temperature]] $T$ ("[[KMS states]]"), and then relates this to [[Euclidean field theory]] with compact/periodic Euclidean time of length $\beta = 1/T$ (see [Fulling-Ruijsenaars 87, section 3](#FullingRuijsenaars87)):
 
 $$
   \array{
@@ -86,10 +90,18 @@ $$
   }
 $$
 
+
 In this form, Wick rotation is also known as _[[thermal quantum field theory]]_. See there for more.
 
 
-However, Wick rotation is sometimes also appealed to in situations where the assumptions of theorems like this are evidently violated. For instance, it has been appealed to a lot in an approach to [[quantum gravity]] often known as "Euclidean quantum gravity", where, however, by definition the assumption of global spacetime translation invariance is manifestly violated. In such a context the exact meaning of Wick rotation remains mysterious, and yet on this basis some subtle relations between quantum mechanics and thermodynamics, such as the [[Bekenstein-Hawking entropy]], find elegant explanations, at least at the level of the manipulation of formulas. 
+<center>
+<img src="https://ncatlab.org/nlab/files/EuclideanTime.jpg" width="580">
+</center>
+
+> graphics grabbed form [Frolov-Zelnikov 11](#FrolovZelnikov11)
+
+
+However, the general idea Wick rotation is sometimes also appealed to in situations where the assumptions of such theorems are evidently violated. For instance, it has been appealed to a lot in an approach to [[quantum gravity]] often known as "Euclidean quantum gravity", where, however, by definition the assumption of global spacetime translation invariance is manifestly violated. In such a context the exact meaning of Wick rotation remains mysterious, and yet on this basis some subtle relations between quantum mechanics and thermodynamics, such as the [[Bekenstein-Hawking entropy]], find elegant explanations, at least at the level of the manipulation of formulas (see e.g. [Fulling-Ruijsenaars 87, section 4](#FullingRuijsenaars87)). 
 
 ### Example
 
