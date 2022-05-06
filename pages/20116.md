@@ -51,6 +51,7 @@ Possible [[model (in theoretical physics)]] that have been suggested might expla
 
 * University of Hawaii, _[ANITA Webpage](https://www.phys.hawaii.edu/~anita/)_
 
+* {#ANITA20} [[ANITA Collaboration]], _Ultra-high Energy Air Showers Observed by ANITA-IV_ ([arXiv:2008.05690](https://arxiv.org/abs/2008.05690))
 
 Review:
 
@@ -79,3 +80,5 @@ Critical discussion:
 * {#Anchordoqui19} L. A. Anchordoqui et al. _The pros and cons of beyond standard model interpretations of ANITA events_, PoS ICRC2019 (2020) 884, 884 ([arXiv:1907.06308](https://arxiv.org/abs/1907.06308), [spire:1744116](https://inspirehep.net/literature/1744116))
 
 [[!redirects Antarctic Impulsive Transient Antenna]]
+
+[[!redirects ANITA Collaboration]]
