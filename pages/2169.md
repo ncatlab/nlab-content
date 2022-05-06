@@ -204,3 +204,7 @@ Discussion of [[Riemannian geometry]] and [[special holonomy]] modeled on the di
 
 [[!redirects normed division algebra]]
 [[!redirects normed division algebras]]
+
+[[!redirects real normed division algebra]]
+[[!redirects real normed division algebras]]
+
