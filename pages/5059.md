@@ -87,7 +87,7 @@ Acordingly, this is now called the _[[Green-Schwarz action functional]]_.
 
 | [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
 |----|---|
-| [Neveu-Ramond-Schwarz super-string]] | on [[worldsheet]]  |
+| [[Neveu-Ramond-Schwarz super-string]] | on [[worldsheet]]  |
 | Green-Schwarz super-string | on [[target space|target]] [[spacetime]] |
 
 The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action:
@@ -1029,7 +1029,7 @@ A corresponding refinement of the brane scan to a "brane bouquet" of [[super L-â
 * [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Gauge enhancement of Super M-Branes]]_ ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
 
 
-These cohomologival arguments also appear in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in
+These cohomological arguments also appear in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in
 
 * G. Bossard, [[Paul Howe]], K.S. Stelle, _A note on the UV behaviour of maximally supersymmetric Yang-Mills theories_, Phys. Lett. B682:137-142 (2009) ([arXiv:0908.3883](http://arxiv.org/abs/0908.3883))
  {#BossardHoweStelle09}
