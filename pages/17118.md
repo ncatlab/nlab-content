@@ -58,7 +58,7 @@ Such extension $\nabla_\text{quat}$ of $\nabla$ however is not unique, since $\n
 
 Let $X$ be a  [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] 8 with [[Spin structure]]. If the [[frame bundle]] moreover admits [[G-structure]] for 
 
-$\;\;G = $ [[Sp(n).Sp(1)|Sp(2).Sp(1)]] $\hookrightarrow$ [[Spin(8)]] 
+$\;\;G = $ [[Sp(n).Sp(1)|Sp(2).Sp(1)]] $\hookrightarrow$ [[SO(8)]] 
 
 then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [[cup product]]-square $(p_1)^2$ of the [[first Pontryagin class]] of the [[frame bundle]]/[[tangent bundle]] are related by
 
