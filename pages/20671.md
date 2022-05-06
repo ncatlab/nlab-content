@@ -23,6 +23,10 @@ The _Scherk-Schwarz mechanism_ ([Scherk-Schwarz 79](#ScherkSchwarz79)) is the [[
 
 In the [[Witten-Sakai-Sugimoto model]] non-supersymmetric [[QCD]] is [[geometric engineering of QFT|geometrically engineered]] from the [[D=5 super Yang-Mills theory]] on [[D4-branes]] by [[wrapped brane|wrapping]] these on a Scherk-Schwarz circle ([Witten 98, p. 19](#Witten98))
 
+## Related concepts
+
+* [[generalized Scherk-Schwarz mechanism]]
+
 ## References
 
 ### General
