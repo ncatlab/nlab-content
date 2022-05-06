@@ -282,6 +282,8 @@ $$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal
 
 ###Relation to Yoneda embedding
 
+$Spec$ is the [[left Kan extension]] of the [[Yoneda embedding]] along the contravariant Yoneda embedding, while \mathcal{O} is the left Kan extension of the contravariant Yoneda embedding along the Yoneda embedding. 
+
 The [[codensity monad]] of the [[Yoneda embedding]] is isomorphic to the monad induced by the Isbell adjunction, $Spec \mathcal{O}$ ([Di Liberti 19, Thrm 2.7](#DiLiberti)).
 
 ### Respect for limits
