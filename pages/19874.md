@@ -22,14 +22,15 @@ What is called _leptoquarks_ are hypothetical [[fundamental particles]] which sh
 ## Properties
 
 ### Experimental hints
+ {#ExperimentalHint}
 
-The existence of leptoquarks could potentially explain 
+The existence of leptoquarks could potentially explain _both_
 
 1. the apparently observed [[flavour anomalies]]
 
-   ([Bauer-Neubert 16](#BauerNeubert16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
+   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
 
-1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([Müller 18](#Mueller18))
+1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([CCDM 16](#CCDM16), [Müller 18](#Mueller18))
 
 ### Experimental constraints
 
@@ -70,6 +71,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#BauerNeubert16} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
 
+* {#CCDM16} Estefania Coluccio Leskow, Andreas Crivellin, Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
+
 * Yi Cai, John Gargalionis, Michael A. Schmidt, Raymond R. Volkas, _Reconsidering the One Leptoquark solution: flavor anomalies and neutrino mass_ ([arXiv:1704.05849](https://arxiv.org/abs/1704.05849))
 
 * {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
@@ -87,7 +90,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 Appearance in [[GUT]]-theories:
 
-* {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([arXiv:315898](inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
+* {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([spire:315898](http://inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
 
 
 [[!redirects leptoquarks]]
