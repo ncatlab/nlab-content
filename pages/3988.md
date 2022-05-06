@@ -62,7 +62,7 @@ We may denote the resulting [[topological space]] by
 $$
   \mathbb{R}_K
    \;\coloneqq\;
-  ( \mathbb{R}, \tau_{\beta}\}
+  ( \mathbb{R}, \tau_{\beta})
   \,.
 $$
 
