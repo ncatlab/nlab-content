@@ -163,13 +163,17 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 * {#Rad} Rado, T. (1925) "&#220;ber den Begriff der Riemannschen Fl&#228;che" , Acta Litt. Scient. Univ. Szegd 2, pp. 101-121
 
 
-* {#Milnor1965b} Milnor, John W. (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
+* {#Milnor1965b} [[John Milnor]], (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
 
 * {#WangXu16} Guozhen Wang, Zhouli Xu, _The triviality of the 61-stem in the stable homotopy groups of spheres_ ([arXiv:1601.02184](https://arxiv.org/abs/1601.02184))
 
 On the open issue of exotic [[4-spheres]]:
 
 * {#FreedmanGompfMorrisonWalker09} [[Michael Freedman]], [[Robert Gompf]], [[Scott Morrison]], [[Kevin Walker]], _Man and machine thinking about the smooth 4-dimensional Poincar&#233; conjecture_, Quantum Topology, Volume 1, Issue 2 (2010), pp. 171-208 ([arXiv:0906.5177](http://arxiv.org/abs/0906.5177))
+
+* Llohann D. Sperança, _Pulling back the Gromoll-Meyer construction and models of exotic spheres_, Proceedings of the American Mathematical Society 144.7 (2016): 3181-3196 ([arXiv:1010.6039](https://arxiv.org/abs/1010.6039))
+
+* Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
 
 Review includes
 
