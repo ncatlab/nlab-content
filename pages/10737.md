@@ -1,5 +1,22 @@
 [[!redirects p-completion]]
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -54,6 +71,8 @@ More generally, if $A$ is [[finitely generated object|finitely generated]], then
 
 * [[nilpotent completion of spectra]]
 
+* [[L-complete module]]
+
 ## References
 
 Classical accounts include
@@ -80,3 +99,5 @@ See also
 [[!redirects p-complete homotopy types]]
 
 [[!redirects completion of a space]]
+
+[[!redirects adic completion]]
