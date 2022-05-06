@@ -42,11 +42,33 @@ Arises from
 
 * [[Kantaro Ohmori]], _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
 
-Discussion of [[anomaly cancellation]]:
+### Anomaly cancellation
+
+Discussion of [[anomaly cancellation]] and [[Green-Schwarz mechanism]]:
+
+* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+
+* [[Augusto Sagnotti]], _A Note on the Green - Schwarz Mechanism in Open - String Theories_, Phys. Lett. B294:196-203, 1992 ([arXiv:hep-th/9210127](https://arxiv.org/abs/hep-th/9210127))
+
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], _Anomaly polynomial of E-string theories_, J. High Energ. Phys. 2014, 2 (2014) ([arXiv:1404.3887](https://arxiv.org/abs/1404.3887))
+
+  > (Green-Schwarz anomaly in 1.2)
+
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
-* [[Hiroyuki Shimizu]], _Aspects of anomalies in 6d superconformal field theories_, Tokyo 2018 ([spire:1802462](https://inspirehep.net/literature/1802462))
+  > (Green-Schwarz anomaly on tensor branch of M5-branes on MO9 in 2.18)
+
+* [[Kenneth Intriligator]], _$6d$, $\mathcal{N}=(1,0)$ Coulomb Branch Anomaly Matching_, J. High Energ. Phys. 2014, 162 (2014) ([arXiv:1408.6745](https://arxiv.org/abs/1408.6745), <a href="https://doi.org/10.1007/JHEP10(2014)162">doi:10.1007/JHEP10(2014)162</a>)
+
+  > (Green-Schwarz anomaly on Coulomb branch in 4.1)
+
+
+* [[Hiroyuki Shimizu]], _Aspects of anomalies in 6d superconformal field theories_, Tokyo 2018 ([spire:1802462](https://inspirehep.net/literature/1802462), [doi:10.15083/00077898](https://doi.org/10.15083/00077898))
+
+  > (Green-Schwarz anomaly on ADE-singularity in 7.2.8)
+
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], from p. 18 in: _2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories_ ([arXiv:2009.00138](https://arxiv.org/abs/2009.00138))
 
 ### Lagrangian description
 
@@ -74,7 +96,9 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
-* Kantaro Ohmori, Hiroyuki Shimizu, _$S^1/T^2$ Compactifications of 6d $\mathcal{N} = (1,0)$ Theories and Brane Webs_, J. High Energ. Phys. (2016) 2016: 24 ([arXiv:1509.03195](https://arxiv.org/abs/1509.03195))
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], _$S^1/T^2$ Compactifications of 6d $\mathcal{N} = (1,0)$ Theories and Brane Webs_, J. High Energ. Phys. (2016) 2016: 24 ([arXiv:1509.03195](https://arxiv.org/abs/1509.03195))
+
+
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
