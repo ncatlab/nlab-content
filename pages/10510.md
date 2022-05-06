@@ -35,6 +35,8 @@ For formalizations see at
 
 ## Related concepts
 
+* [[rational parametrized homotopy theory]]
+
 * [[rational parameterized stable homotopy theory]]
 
 ## References
