@@ -30,7 +30,7 @@ The _pushout-product axiom_ is a compatibility condition between
 
 on a category.
 
-[[closed monoidal category|Closed]] [[monoidal category|symmetric monoidal categories]] satisfying the pushout-product axiom, together with a unit condition, are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
+[[closed monoidal category|Closed]]   [[monoidal category|symmetric monoidal categories]] and having a model category structure, that satisfies the pushout-product axiom, together with a unit condition, are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
 
 This is relevant in [[enriched homotopy theory]], which pairs [[enriched category theory]] with [[homotopy theory]].
 
@@ -68,7 +68,7 @@ $$
 
 is a fibration, which, furthermore, is [[acyclic fibration|acyclic]] if $f$ or $g$ is.
 
-However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierny calculus]], the pullback-power axiom holds if and only if the pushout-power axiom holds.
+However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], the pullback-power axiom holds if and only if the pushout-power axiom holds.
 
 ## Remarks
 
