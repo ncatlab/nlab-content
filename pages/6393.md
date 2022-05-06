@@ -63,11 +63,11 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
 The original articles that formulated the NSR model are
 
-* [[André Neveu]], [[John Schwarz]], Nucl. Phys. B31, 86 (1971)
+* [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B31, 86 (1971) (<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>)
 
-* [[Pierre Ramond]], Phys Rev. D3  2415 (1971)
+* [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D3  2415 (1971) ([doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415))
 
-* {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory, Nucl. Phys., B271 (1986) 93
+* {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory_, Nucl. Phys., B271 (1986) 93 (<a href="https://doi.org/10.1016/S0550-3213(86)80006-2">doi:10.1016/S0550-3213(86)80006-2</a>)
 
 
 Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string include
