@@ -80,14 +80,12 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 =--
 
 
-  A template which can be cut out and assembled into a $K_5$ can be found [here](http://cheng.staff.shef.ac.uk/cutout/).
+* One can rotate and explore Stasheff polyhedra in [this interactive associahedron app](https://ltrujello.github.io/Monoidal_Coherence_and_Binary_Words/associahedra_in_3D/).
 
-* Rotatable illustrations of some Stasheff polyhedra can be found at 
-  * [Interactive associahedron app](https://ltrujello.github.io/Monoidal_Coherence_and_Binary_Words/associahedra_in_3D/)
 
-  * [Les polytopes de Stasheff](http://math.univ-lyon1.fr/~chapoton/stasheff.html)
+* Illustrations of some polytopes, including $K_5$, can also be found [here](http://irma.math.unistra.fr/~chapoton/galerie.html).
 
-  * This is part of a larger website [Petites pages sur divers sujets](http://math.univ-lyon1.fr/~chapoton/petitespages.html) which contains illusrations of other polyhedra, too.
+*  A template which can be cut out and assembled into a $K_5$ can be found in Appendix B of [ChengLauda2004](#ChengLauda2004).
 
 ## Relation to other structures
 
@@ -141,6 +139,10 @@ Further explanations and references are collected at
 The connection to Tamari lattices as well as other developments are in
 
 * {#TomariFestschrift} Folkert M&#252;ller-Hoissen, Jean Marcel Pallo, [[Jim Stasheff]] (editors), _Associahedra, Tamari Lattices, and Related Structures: Tamari Memorial Festschrift_, Birkh&#228;user, 2012. ([google books](https://books.google.fr/books?id=Y01d6g5UemQC&lpg=PP1&pg=PP1#v=onepage&q&f=false))
+
+For a template of $K_5$, see Appendix B of the following.
+
+* {#ChengLauda2004} [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guidebook_, 2004, [available here](http://eugeniacheng.com/guidebook/). 
 
 category: combinatorics
 [[!redirects associahedra]]
