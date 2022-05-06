@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[chiral perturbation theory]]:
+
+* Véronique Bernard, [[Ulf-G. Meissner]], _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
+
 On [[nucleons]] as [[Skyrmions]] in [[quantum hadrodynamics]] with [[pions]], [[omega-mesons]] and [[rho-mesons]] ($\pi$-$\rho$-$\omega$-model):
 
 * {#MeissnerZahed86} [[Ulf-G. Meissner]], [[Ismail Zahed]], _Skyrmions in the Presence of Vector Mesons_, Phys. Rev. Lett. 56, 1035 (1986) ([doi:10.1103/PhysRevLett.56.1035](https://doi.org/10.1103/PhysRevLett.56.1035))
