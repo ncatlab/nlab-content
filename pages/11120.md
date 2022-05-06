@@ -8,6 +8,8 @@
 
 * [[Goodwillie-Taylor tower]]
 
+* [[Goodwillie derivatives of the identity functor]]
+
 category: people
 
 
