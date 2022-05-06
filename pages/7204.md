@@ -61,10 +61,14 @@ See the general references at _[[supergravity]]_.
 
 * [[Joseph Polchinski]], chapter 12.1 of _String Theory Vol 2: Superstring and beyond_
 
-
 Via [[KK-compactification]] from [[11d supergravity]]:
 
 * M. Huq, M. A. Namazie, _Kaluza-Klein Supergravity In Ten Dimensions_, Class. Quantum Grav. 2 (1985) 293
+
+Duality-symmetric formulation:
+
+* {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
+
 
 ### Solutions and BPS states
 
@@ -91,7 +95,7 @@ Discussion of [[black branes]] and [[BPS states]] for type II supergravity inclu
 
 A relation of the [[U-duality]] symmetry to [[generalized complex geometry]] is discussed in
 
-* Andr&#233; Coimbra, Charles Strickland-Constable, Daniel Waldram, _Supergravity as Generalised Geometry I: Type II Theories_ ([arXiv:1107.1733](http://arxiv.org/abs/1107.1733))
+* Andr&#233; Coimbra, Charles Strickland-Constable, [[Daniel Waldram]], _Supergravity as Generalised Geometry I: Type II Theories_ ([arXiv:1107.1733](http://arxiv.org/abs/1107.1733))
 
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
