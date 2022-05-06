@@ -33,7 +33,7 @@ If one also regards non-idempotent (co-)monads as [[modal operators]] then the "
 
 ## Definition
 
-Given a [[modal type theory]], hence [[type theory]] equipped with a [[closure operator]] [[modality]] $\Diamond$ ([[idempotent monad|idempotent]] [[monad|monadic]]) or $\Box$ ([[idempotent comonad|idempotent]] [[comonad|comonadic]]), the a [[type]] $X$ is _modal_ with respect to $\Diamond$/$\Box$ if 
+Given a [[modal type theory]], hence [[type theory]] equipped with a [[closure operator]] [[modality]] $\Diamond$ ([[idempotent monad|idempotent]] [[monad|monadic]]) or $\Box$ ([[idempotent comonad|idempotent]] [[comonad|comonadic]]), a [[type]] $X$ is _modal_ with respect to $\Diamond$/$\Box$ if 
 
 * the [[unit of an adjunction|unit]] $\eta \colon X \to \Diamond X$
 
