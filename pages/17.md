@@ -453,7 +453,6 @@ Instead of "table of contents" after the asterisk, you can write anything you li
 It is important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would have a link inside of a link).
 
 
-
 ### How to cite and record references
  {#HowToCiteAndRecordReferences}
 
@@ -693,7 +692,7 @@ Bent arrows:
 
 \begin{centre}
 
-\xymatrix{A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B}
+\xymatrix[border = 1.75pc]{A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B}
 
 \end{centre}
 
