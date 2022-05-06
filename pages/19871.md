@@ -42,3 +42,5 @@ include [[Initiality Project - Functor - Pi-types]]
 ## Uniqueness
 
 include [[Initiality Project - Uniqueness - Pi-types]]
+
+category: Initiality Project
