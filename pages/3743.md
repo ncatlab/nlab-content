@@ -75,6 +75,10 @@ There is a preprint by [[Samuel Mimram]]
 
 * _Towards 3-Dimensional Rewriting Theory_, ([arXiv:1403.4094](https://arxiv.org/abs/1403.4094))
 
+An approach via diagrammatic sets is in
+
+* [[Amar Hadzihasanovic]], _Diagrammatic sets and rewriting in weak higher categories_, ([arXiv:2007.14505](https://arxiv.org/abs/2007.14505))
+
 category: combinatorics, algebra, computer science, logic
 [[!redirects rewriting]]
 [[!redirects rewriting system]]
