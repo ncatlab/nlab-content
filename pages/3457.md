@@ -56,6 +56,9 @@ Toby: Is it correct now?
 
 * [[étale geometric morphism]]
 
+### Between anabelioids
+
+* [[finite étale morphism of anabelioids]]
 
 ## Axiomatization
 
