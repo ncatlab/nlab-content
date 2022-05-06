@@ -13,6 +13,12 @@ On [[schreiber:Higher Structures]] in [[M-theory]]:
 
 * [[Branislav Jurco]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
 
+Proposal for understanding [[D=6 N=(1,0) SCFTs]] as [[higher gauge theories]] for gauge-[[L-infinity algebras]] which are variants of the [[string Lie 2-algebra]]:
+
+* [[Christian Saemann]], [[Lennart Schmidt]], _The Non-Abelian Self-Dual String and the $(2,0)$-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
+
+* [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arxiv:1712.06623](https://arxiv.org/abs/1712.06623))
+
 ## Related $n$Lab entries
 
 * [[M2-brane 3-algebra]]
