@@ -25,12 +25,7 @@ Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F 
 
 ## Examples
 
-* [[D0-D4-brane bound state]]
-
-* [[D1-D5-brane bound state]]
-
-* [[D4-D8-brane bound state]]
-
+[[!include Dp-D(p+4)-brane bound states -- contents]]
 
 ## References
 
@@ -76,6 +71,25 @@ Discussion specifically of [[D4-D8-brane bound states]]:
 In the [[Witten-Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] [[QCD]], where the [[D4-branes]] get interpreted as [[baryons]]:
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Section 5.7 of: _Low energy hadron physics in holographic QCD_, Prog. Theor. Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
+
+
+### M5-MO9 brane bound states
+
+Discussion specifically of [[M5-MO9 brane bound states]]:
+
+Discussion as [[Yang-Mills instantons]] ("small instantons"):
+
+* {#Strominger90} [[Andrew Strominger]], _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>) ([spire:27900](http://inspirehep.net/record/27900))
+
+* {#Witten96} [[Edward Witten]], _Small Instantons in String Theory_,  	Nucl.Phys.B460:541-559, 1996  (<a href="https://doi.org/10.1016/0550-3213(95)00625-7">doi:10.1016/0550-3213(95)00625-7</a>)
+
+Discussion as [[half M5-branes]]:
+
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
+
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
+
+* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], Section 4.1 of: _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
 
 [[!redirects Dp-D(p+4)-brane bound states]]
