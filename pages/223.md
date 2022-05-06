@@ -40,12 +40,17 @@ A **small category structure** on a [[locally small category]] $C$ is an [[essen
 ## Smallness in the context of universes
  {#SmallnessInTheContextOfUniverses}
 
-If [[Grothendieck universe]]s are being used, then for $U$ a fixed Grothendieck universe, a category $C$ is **$U$-small** if its collection of objects and collection of morphisms are both elements of $U$.  $C$ is **essentially $U$-small** if there is a [[bijection]] from its set of morphisms to an element of $U$ (the same for the set of objects follows); this condition is non-evil.
+If [[Grothendieck universe]]s are being used, then for $U$ a fixed Grothendieck universe, a category $C$ is **$U$-small** if its collection of objects and collection of morphisms are both elements of $U$. Thus, 
 
-So let $U\Set$ be the category of $U$-small sets. Then
-
-* a $U$-category (a [[locally small category|locally U-small]])-category is a category [[enriched category|enriched over]] $U Set$;
 * a $U$-small category is a category [[internal category|internal to]] $U Set$.
+
+This of course is a [[material set theory|material]] formulation. We may call $C$ **structurally $U$-small** if there is a [[bijection]] from its set of morphisms to an element of $U$ (the same for the set of objects follows). This gives an up-to-isomorphism version of $U$-smallness (see [[universe in a topos]] for an alternative structural formulation). Such structural $U$-smallness may be substituted in the discussion below. 
+
+Let $U\Set$ be the category of $U$-small sets. Similar considerations lead us to say
+
+* a $U$-category (a [[locally small category|locally U-small]])-category is a category [[enriched category|enriched over]] $U Set$,  
+
+and that a category $C$ **essentially $U$-small** if it is locally $U$-small and admits an essentially surjective functor from a discrete $U$-small category. 
 
 A category is **$U$-moderate** if its set of objects and set of morphisms are both subsets of $U$.  However, some categories (such as the category of $U$-moderate categories!) are larger yet.
 
