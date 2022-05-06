@@ -21,7 +21,9 @@ In that vein, I just introduced the term 'punny', although it is a clich&#233;.
 
 * [[Jean-Pierre Serre|J. P. Serre]], _G&#232;bres_ (in French; Engl. [[gebras|Gebras]]) Enseign. Math. (2) 39 (1993), no. 1-2, 33--85.  
 
-* [[Sasha Beilinson|Sasha]] [Beilinson](http://en.wikipedia.org/wiki/Alexander_Beilinson), _Determinant gerbils_, a talk at MPI Bonn. (A gerbil is a kind of animal, the pun is on [[gerbes]].) 
+* [[Sasha Beilinson]], _Determinant gerbils_, a talk at MPI Bonn (a gerbil is a kind of animal, the pun is on [[gerbes]]) 
+
+* Micah Goldblum, Jonas Geiping, Avi Schwarzschild, Michael Moeller, Tom Godstein, _Truth or backpropaganda? An empirical investigation of deep learning theory_, [arxiv:/1910.00359](https://arxiv.org/abs/1910.00359) accepted conference paper at ICLR 2020 (the notion and the word formation of "backpropaganda" are akin to the central ingredient of the modern "deep learning" algorithms, _backpropagation_)
 
 Several more candidates of similar character are listed in the responses to MO question [most-memorable-titles](http://mathoverflow.net/questions/44326/most-memorable-titles).
 See also MathOverflow [parodies-of-abstruse-mathematical-writing](http://mathoverflow.net/questions/199926/parodies-of-abstruse-mathematical-writing).
