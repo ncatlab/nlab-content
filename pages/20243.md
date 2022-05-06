@@ -461,6 +461,7 @@ is the [[Grassmannian]] of 3-planes in 8d. ([Cadek-Vanzura 97, Lemma 2.6](#Cadek
 
  
 ## References
+ {#References}
 
 
 ### $Sp(n)\cdot Sp(1)$
