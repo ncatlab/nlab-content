@@ -21,7 +21,7 @@
 
 ## Definition
 
-### Local definition as functors on Artinnian objects
+### Local definition as functors on Artinian objects
 
 +-- {: .num_defn }
 ###### Definition
