@@ -12,3 +12,8 @@ Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] ([[Inönü-Wigner con
 _Penrose Limits of Orbifolds and Orientifolds_, JHEP 0207 (2002) 031 ([arXiv:hep-th/0203134](https://arxiv.org/abs/hep-th/0203134))
 
 * E. M. Sahraoui, E. H. Saidi, _Metric Building of pp Wave Orbifold Geometries_, Phys.Lett. B558 (2003) 221-228 ([arXiv:hep-th/0210168](https://arxiv.org/abs//hep-th/0210168))
+
+Review:
+
+* Darius Sadri, [[Mohammad Sheikh-Jabbari]], _The Plane-Wave/Super Yang-Mills Duality_, Rev. Mod. Phys. 76:853, 2004 ([arXiv:hep-th/0310119](https://arxiv.org/abs/hep-th/0310119))
+
