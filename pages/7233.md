@@ -493,12 +493,9 @@ The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned
 
 For more see the references at _[[exceptional geometry]]_.
 
-### Examples
 
-The [[metric cone over complex projective 3-space]] as a [[G2-manifold]]:
+[[!include G2-conifolds -- references]]
 
-* [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications
-Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
 ### $G_2$-Orbifolds
  {#ReferencesG2Orbifolds}
