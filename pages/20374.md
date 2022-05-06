@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[mathematical physics|mathematical]]/[[theoretical physics]], _semi-topologicsl_ or _semi-holomorphic 4d Chern-Simons theory_ is a variant of ordinary [[3d Chern-Simons theory]] where, roughly, one of the three [[coordinate functions]] is promoted from an ordinary real-valued coordinate to a [[holomorphic function|holomorphic coordinate]]. 
+In [[mathematical physics|mathematical]]/[[theoretical physics]], _semi-topological_ or _semi-holomorphic 4d Chern-Simons theory_ is a variant of ordinary [[3d Chern-Simons theory]] where, roughly, one of the three [[coordinate functions]] is promoted from an ordinary real-valued coordinate to a [[holomorphic function|holomorphic coordinate]]. 
 
 Hence semi-topological/holomorphic 4d Chern-Simons theory is a [[field theory]] defined on [[spacetimes]] of the form $\Sigma^2 \times C$ where $\Sigma^2$ is a real [[smooth manifold]], while $C$ is a [[complex curve]], and whose [[Lagrangian density]] is schematically the ordinary [[Chern-Simons form]], but with one of the wedge factors promoted from $d x^i$ to $d z$.
 
@@ -29,7 +29,7 @@ But beware that in the literature this is often referred to just as _[[4d Chern-
 
 ### Wilson lines and relation to integrable lattice models
 
-Due to this particular property of the theory, [[Wilson line]] [[observables]] that form a network on $\Sigma^2$ but with each line located at a distinct point in the [[complex curve]] $C$ play a special role: Arranging them along the lines of a rectangular grid makes these [[observables]] behave much like those of a [[lattice model]] with the the their intersection points as [[vertices]], but the topological invariance of the theory with respect to $\Sigma^2$ implies certain symmetry operations on these observables, coming from invariance of the theory under moving Wilson lines across each other. These symmetries turn out to behave like [[R-matrices]] making the corresponding lattice model an [[integrable system]].
+Due to this particular property of the theory, [[Wilson line]] [[observables]] that form a network on $\Sigma^2$ but with each line located at a distinct point in the [[complex curve]] $C$ play a special role: Arranging them along the lines of a rectangular grid makes these [[observables]] behave much like those of a [[lattice model]] with their intersection points as [[vertices]], but the topological invariance of the theory with respect to $\Sigma^2$ implies certain symmetry operations on these observables, coming from invariance of the theory under moving Wilson lines across each other. These symmetries turn out to behave like [[R-matrices]] making the corresponding lattice model an [[integrable system]].
 
 ### Yangian symmetry
 
