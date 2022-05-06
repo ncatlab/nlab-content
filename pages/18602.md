@@ -63,7 +63,7 @@ Basic discussion:
 
 * Kirill Melnikov, Arkady Vainshtein, _Theory of the Muon Anomalous Magnetic Moment_, Springer Tracts in Modern Physics 216, 2006
 
-* Friedrich Jegerlehner, _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
+* [[Friedrich Jegerlehner]], _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
 
 Discussion of precision experiment and possible deviation from theory:
 
@@ -71,9 +71,9 @@ Discussion of precision experiment and possible deviation from theory:
 
 * J. L. Holzbauer on behalf of the Muon g-2 collaboration, _The Muon g-2 Experiment Overview and Status_, Proceedings for The 19th International Workshop on Neutrinos from Accelerators (NUFACT 2017) ([arXiv:1712.05980](https://arxiv.org/abs/1712.05980))
 
-* {#Jegerlehner18a} Fred Jegerlehner, _The Muon g-2 in Progress_, Acta Physica Polonica 2018 ([doi:10.5506/APhysPolB.49.1157](https://arxiv.org/ct?url=https%3A%2F%2Fdx.doi.org%2F10.5506%252FAPhysPolB.49.1157&v=01073571), [arXiv:1804.07409](https://arxiv.org/abs/1804.07409))
+* {#Jegerlehner18a} [[Fred Jegerlehner]], _The Muon g-2 in Progress_, Acta Physica Polonica 2018 ([doi:10.5506/APhysPolB.49.1157](https://arxiv.org/ct?url=https%3A%2F%2Fdx.doi.org%2F10.5506%252FAPhysPolB.49.1157&v=01073571), [arXiv:1804.07409](https://arxiv.org/abs/1804.07409))
 
-* {#Jegerlehner18b} Fred Jegerlehner, _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
+* {#Jegerlehner18b} [[Fred Jegerlehner]], _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
 
 * {#Falkowski18} [[Adam Falkowski]], _[Both $g-2$ anomalies](http://resonaances.blogspot.com/2018/06/alpha-and-g-minus-two.html)_, June 2018
 
