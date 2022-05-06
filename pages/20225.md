@@ -86,6 +86,11 @@ Classical references:
 * Edmond Bonan, _Sur les $G$-structures de type quaternionien_,  Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 9 (1967) no. 4, p. 389-463 ([numdam:CTGDC_1967__9_4_389_0](http://www.numdam.org/item/CTGDC_1967__9_4_389_0))
 * {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
 
+See also
+
+* Wikipedia, _[Quaternionic manifold](https://en.wikipedia.org/wiki/Quaternionic_manifold)_
+
+
 In terms of [[G-structure]]:
 
 * [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note I. 1-integrability and integrability conditions_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 43-52 ([dml:244082](https://eudml.org/doc/244082))
@@ -103,9 +108,15 @@ Holonomy, connections, and twistor spaces:
 * {#grantscharov} Gueo Grantcharov and Yat Sun Poon, [Geometry of Hyper-Kahler Connections with Torsion](https://arxiv.org/abs/math/9908015v1)
 
 
-See also
 
-* Wikipedia, _[Quaternionic manifold](https://en.wikipedia.org/wiki/Quaternionic_manifold)_
+On [[quaternionic orbifolds]]:
+
+*  K. Galicki, [[H. Blaine Lawson]], _Quaternionic Reduction and Quaternionic Orbifolds_, Mathematische Annalen (1988) Volume: 282, Issue: 1, page 1-22 ([dml:164446](https://eudml.org/doc/164446))
+
 
 [[!redirects quaternionic manifolds]]
 [[!redirects quaternion manifold]]
+
+[[!redirects quaternionic orbifold]]
+[[!redirects quaternionic orbifolds]]
+
