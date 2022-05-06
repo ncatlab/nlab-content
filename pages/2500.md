@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
