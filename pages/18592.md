@@ -39,6 +39,8 @@ However, since on a general [[globally hyperbolic spacetime]] there is no global
 
   * [[vacuum energy]]
 
+  * [[thermal vacuum]], [[KMS state]]
+
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
   * [[theta vacuum]]
