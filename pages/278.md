@@ -143,7 +143,7 @@ A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]
 
 Discussion with emphasis on [[natural bundles]] is in
 
-* [[Ivan Kolá?]], [[Peter Michor]], [[Jan Slovák]],  _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
+* [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]],  _[[Natural operations in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
 
 
 See also
