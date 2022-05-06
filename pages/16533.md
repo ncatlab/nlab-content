@@ -44,11 +44,6 @@ As [[fuzzy funnels]] on [[fuzzy 4-spheres]]:
 
 * Rajsekhar Bhattacharyya, Robert de Mello Koch, _Fluctuating Fuzzy Funnels_, JHEP 0510 (2005) 036 ([arXiv:hep-th/0508131](https://arxiv.org/abs/hep-th/0508131))
 
-### As black holes
-
-As [[black holes in string theory]]:
-
-* _A review of the D1/D5 system and five dimensional black hole from supergravity and brane viewpoint_ ([arXiv:hep-th/0002184](http://arxiv.org/abs/hep-th/0002184))
 
 ### KK-reduction  to JT gravity
 
@@ -58,11 +53,7 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 * Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
 
-### Via $Ads_3/CFT_2$
-
-Via [[AdS3-CFT2]]:
-
-* E. Gava, A.B. Hammou, J.F. Morales, K.S.Narain, _AdS/CFT correspondence and D1/D5 systems in theories with 16 supercharges_, JHEP 0103:035, 2001 ([arXiv:hep-th/0102043](https://arxiv.org/abs/hep-th/0102043))
+[[!include AdS3-CFT2 on D1-D5 branes -- references]]
 
 
 
