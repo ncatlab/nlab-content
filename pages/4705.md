@@ -56,7 +56,7 @@ Further relation to [[Chern-Simons theory]]:
 * Jian Qiu, Maxim Zabzine, _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, Commun. Math. Phys. 300:789-833, 2010
  ([arxiv/0912.1243](http://arxiv.org/abs/0912.1243))
 
-As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]]:
+As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] (see [[D=3 N=4 super Yang-Mills theory]] and [[3d-3d correspondence]]):
 
 * {#GukovPutrovVafa17}  [[Sergei Gukov]], Pavel Putrov, [[Cumrun Vafa]], Sections 3.2 and 3.4 of: _Fivebranes and 3-manifold homology_, J. High Energ. Phys. (2017) 2017: 71 ([arXiv:1602.05302](https://arxiv.org/abs/1602.05302))
 
