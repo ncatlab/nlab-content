@@ -3,13 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Vacua
++-- {: .hide}
+[[!include vacua -- contents]]
+=--
 #### Algbraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -47,7 +47,9 @@ However, since on a general [[globally hyperbolic spacetime]] there is no global
 
   * [[perturbative string theory vacuum]]
 
-  * [[landscape of string theory vacua]]
+    * [[non-geometric string theory vacuum]]
+
+    * [[landscape of string theory vacua]]
 
 ## References
 
