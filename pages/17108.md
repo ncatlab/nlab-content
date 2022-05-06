@@ -37,7 +37,7 @@ Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mat
 Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
 
 $$
-  Spin(7)/G2 \;\simeq\; S^7
+  Spin(7)/G_2 \;\simeq\; S^7
   \,.
 $$
 
