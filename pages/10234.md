@@ -20,7 +20,9 @@
 
 ## Idea
 
-A _proton_ is a certain [[bound state]] of three [[quarks]], hence a [[baryon]]. 
+A _proton_ is a [[bound state]] of two [[up quarks]] and a [[down quark]], hence a [[baryon]]. 
+
+[[!include flavors of fundamental particles -- table]]
 
 The [[bound states]] of [[protons]] and [[neutrons]] (jointly: [[nucleons]]) in turn are [[nucleus (physics)|nuclei]], the cores of [[atoms]]. The proton alone is the nucleus of the [[hydrogen atom]].
 
