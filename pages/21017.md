@@ -69,7 +69,23 @@ Using this on the reduction of internal gluon vertices by the [[Jacobi identity]
 <img src="https://ncatlab.org/nlab/files/tHooftSurfacesForGluonVertex.jpg" width="700">
 </center>
 
-After averaging over the $n!$ permutations of the ordering of the $n$ external vertices (those on the Wilson line) of a Jacobi diagram, this construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Natan 95, Theorem 10](#BarNatan95)):
+{#SurfaceExample} For example:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/RisingSuntHooftConstruction.jpg" width="620">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+
+This gives [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] ([Witten 92, see Figures 1 & 2](#Witten92)) even before passing to the [[large N limit]].
+
+For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to _[[closed strings|closed]]_ [[string theory]] and open to _closed_ [[topological string theory]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]] ([Gopakumar-Vafa 98](#GopakumarVafa98), see [Marino 04, Section III, p. 14](#Marino04) for a clear statement).
+Here [[open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see also, [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
+
+### As a surface-valued weight system
+
+After averaging over the $n!$ permutations of the ordering of the $n$ external vertices (those on the Wilson line) of a Jacobi diagram, this construction respects the [[STU relation]] on [[Jacobi diagrams]] and hence gives a [[weight system]] with values in marked surfaces ([Bar-Natan 95, Theorem 10 with Theorem 8](#BarNatan95)):
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AtHooftConstrictionIII.jpg" width="650">
@@ -77,10 +93,6 @@ After averaging over the $n!$ permutations of the ordering of the $n$ external v
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-This exhibits [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] ([Witten 92](#Witten92)) even before passing to the [[large N limit]].
-
-For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to _[[closed strings|closed]]_ [[string theory]] and open to _closed_ [[topological string theory]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]] ([Gopakumar-Vafa 98](#GopakumarVafa98), see [Marino 04, Section III, p. 14](#Marino04) for a clear statement).
-Here [[open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see also, [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
 
 
 
