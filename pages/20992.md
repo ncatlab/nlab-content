@@ -36,6 +36,12 @@ The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert sche
 and two exceptional examples ([O'Grady 99](#OGrady99), [O'Grady 03](#OGrady03)
 ), see [Sawon 04, Sec. 5.3](#Sawon04).
 
+## Properties
+
+### Relation to Rozansky-Witten weight systems
+
+In order for [[Rozansky-Witten weight systems]] to take values in the [[ground field]], hence to be actual [[weight systems]], the [[hyperkähler manifold]] has to be [[compact topological space|compact]] (i.e. [[closed manifold|closed]]).
+
 
 ## References
 
