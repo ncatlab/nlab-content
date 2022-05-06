@@ -78,6 +78,10 @@ Original articles include
 
 * Hee-Joong Chung, _Index for a Model of 3d-3d Correspondence for Plumbed 3-Manifolds_ ([arXiv:1912.13486](https://arxiv.org/abs/1912.13486))
 
+Specifically for [[Seifert 3-manifolds]] (such as [[lens spaces]]):
+
+* [[Du Pei]], _3d-3d correspondence for Seifert manifolds_, 2016 ([spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a))
+
 
 Review is in
 
