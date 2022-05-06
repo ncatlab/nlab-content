@@ -26,3 +26,7 @@ An *unknot* is any [[knot]] [[isotopy|isotopic]] to the flat [[circle]] embedded
 See also
 
 * Wikipedia, _[Unknot](https://en.wikipedia.org/wiki/Unknot)_ 
+
+Discussion of the [[universal Vassiliev invariant]] of the [[unknot]]:
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
