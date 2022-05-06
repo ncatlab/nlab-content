@@ -26,6 +26,24 @@ This entry is about the book
 
   Academic Press (1973)
 
+  * Volume 1:  
+
+    _De Rham Cohomology of Manifolds and Vector Bundles_
+
+    [ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6)
+
+  * Volume 2: 
+
+    _Lie groups, principal bundles and characteristic classes_
+
+    ISBN:9780123027023
+
+  * Volume 3: 
+
+    _Lie Algebras, Algebraic Connections and Characteristic Classes_
+
+    ISBN:9780123027016
+
 on [[Chern-Weil theory]]: [[principal bundle]]s with [[connection on a bundle|connections]] and their [[characteristic class]]es.
 
 Related books are
