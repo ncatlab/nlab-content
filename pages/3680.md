@@ -236,21 +236,21 @@ $$
   \Delta_{/K}^{nd} \hookrightarrow \Delta_{/K}
 $$
 
-for the [[full subcategory]] on the non-degenerate simplices.
+for the non-full subcategory on the non-degenerate simplices.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The category $\Delta_{/K}^{nd}$ is also known as the [[barycentric subdivision]] of $K$.
+When the simplicial set $K$ is non-singular, i.e. every face of a non-degenerate simplex is still non-degenerate, then the category $\Delta_{/K}^{nd}$ is a [[poset]] and it coincides with the [[barycentric subdivision]] of $K$.
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-The inclusion 
+Suppose $K$ is a non-singular simplicial set. Then the inclusion 
 
 $$
   N(\Delta_{/K}^{nd}) \hookrightarrow N(\Delta_{/K})
@@ -277,6 +277,15 @@ $$
 
 This is ([Lurie, prop. 4.2.3.14](#Lurie)).
 
++-- {: .num_remark}
+###### Remark
+
+If the simplicial set $K$ is singular, it is not in general true
+that the inclusion $N(\Delta_{/K}^{nd}) \hookrightarrow N(\Delta_{/K})$
+is final. For a counter-example, see ([Hovey, 9](#Hovey)). 
+
+=--
+
 
 ## Related concepts
 
@@ -296,6 +305,11 @@ Section 4.1 of
 Section 6 of 
 
 * [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+
+Paragraph 9 of
+
+* [[Mark Hovey]], _Errata to Model Categories_
+([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
 
 
 [[!redirects cofinal (infinity,1)-functor]]
