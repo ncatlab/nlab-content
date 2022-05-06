@@ -156,7 +156,10 @@ Analogous regularizations lead to matrix model descriptions of [[D-branes]]:
 
 ### Relation to M5-branes
 
-Discussion of longitudinal [[M5-branes]] in the [[BFSS matrix model]] (for transversal M5s see at _[[BMN matrix model]]_:
+Discussion of longitudinal [[M5-branes]] in the [[BFSS matrix model]] (for transversal M5-s see at _[[BMN matrix model]]_):
+
+* [[Tom Banks]], [[Nathan Seiberg]], [[Stephen Shenker]], _Branes from Matrices_, Nucl. Phys. B490:91-106, 1997 ([arXiv:hep-th/9612157](https://arxiv.org/abs/hep-th/9612157))
+
 
 * Judith Castelino, Sangmin Lee, [[Washington Taylor]], _Longitudinal 5-branes as 4-spheres in Matrix theory_, Nucl. Phys. B526:334-350, 1998 ([arXiv:hep-th/9712105](https://arxiv.org/abs/hep-th/9712105))
 
