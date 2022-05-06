@@ -22,7 +22,7 @@ It is a model for the [[path space object]] of $X$, --or rather: the union of al
 In the latter case an $n$-cell in the path space is a morphism to $X$ from the simplicial cone over the $n$-simplex modeled as the [[pushout]] $(\Delta[n] \times \Delta[1]) \coprod_{\Delta[n]} \Delta[0]$.
 This is the simplicial set obtained by forming the simplicial cylinder over $\Delta[n]$ and then contracting one end to the point. 
 
-Contrary to that, an $n$-simplex in the d&#233;calage of $X$ is a morphism to $X$ from the cone over $\Delta[n]$ modeled simply by the [[join of simplicial sets]] $\Delta[n] \star \Delta[0]$. 
+Contrary to that, an $n$-simplex in the d&#233;calage of $X$ is a orphism to $X$ from the cone over $\Delta[n]$ modeled simply by the [[join of simplicial sets]] $\Delta[n] \star \Delta[0]$. 
 
 This is a much smaller model for the cone. In fact $\Delta[n]\star \Delta[0] = \Delta[n+1]$ is just the $(n+1)$-simplex. On the other hand, the above pushout-construction produces simplicial sets with many $(n+1)$-simplices, the one that one "expects", but glued to others with some degenerate edges. Accordingly, there is, for $n \geq 1$, a proper inclusion
 
@@ -361,11 +361,11 @@ $$
 ### D&#233;calage comonad 
  {#DecalageComonad}
 
-D&#233;calage also has an abstract [[category theory|category theoretic]] description as follows. The [[simplex category]], as a [[monoidal category]] $(\Delta, +, 0)$ equipped with the [[monoid]] $1$, is the "[[walking structure|walking]] [[monoid]]", i.e., is initial among monoidal categories equipped with a monoid. Therefore $\Delta^{op}$ is the walking [[comonoid]]; as a result, there is a [[comonad]] 
+D&#233;calage also has an abstract [[category theory|category theoretic]] description as follows. The [[simplex category]], as a [[monoidal category]] $(\Delta, +, 0)$ equipped with the [[monoid]] $1$, is the "[[walking structure|walking]] [[monoid]]", i.e., is initial among monoidal categories equipped with a monoid. Therefore $\Delta^{op}$ is the walking [[comonoid]]; as a result, [[comonads]] on any category $\mathcal{C}$ are precisely in correspondence with strictly monoidal functors $\Delta^{op}\to [C,C]^{op}$.
 
-$$- + 1: \Delta^{op} \to \Delta^{op}$$ 
-
-which induces a comonad on simplicial sets whose underlying functor is precisely d&#233;calage: 
+If one considers the (co)monoidal product
+$$ \oplus : \Delta^{op} \times \Delta^{op} \to \Delta^{op}$$
+then the currying induces a functor $\Delta^{op}\to [\Delta^{op},\Delta^op]$. There is a natural functor from the latter category to $[\mathbf{SSet},\mathbf{SSet}]$ given by precomposition. The composition gives a functor $\Delta^{op}\to [\mathbf{SSet}, \mathbf{SSet}]$ which can be checked to be strictly monoidal; thus, it determiness a comonad on simplicial sets whose underlying functor is precisely d&#233;calage: 
 
 $$Dec: Set^{\Delta^{op}} \to Set^{\Delta^{op}}$$
 
