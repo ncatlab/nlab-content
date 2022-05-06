@@ -51,7 +51,7 @@ In the point-particle limit, these non-geometric string vacua correspond to [[sp
 
   * [[T-folds]]
 
-  * [[exotic branes]] backgrounds
+  * backgrounds of the [[exotic branes]]
 
 * [[exceptional generalized geometry]]
 
@@ -142,6 +142,9 @@ Non-geometric [[flux compactification]]:
 
 [[!redirects non-geometric background]]
 [[!redirects non-geometric backgrounds]]
+
+[[!redirects non-geometric solution]]
+[[!redirects non-geometric solutions]]
 
 [[!redirects non-geometry]]
 
