@@ -7664,6 +7664,15 @@ Comparative discussion of the two perspectives on the S-matrix includes:
 
 * {#Schroer11} [[Bert Schroer]], _Causality and dispersion relations and the role of the S-matrix in the ongoing research_ ([arXiv:1102.0168](https://arxiv.org/abs/1102.0168))
 
+See also
+
+* Wikipedia, _[S-matrix](http://en.wikipedia.org/wiki/S-matrix#History)_
+
+* Wikipedia, _[S-matrix theory](http://en.wikipedia.org/wiki/S-matrix_theory)_
+
+* Wikipedia, _[Bootstrap model](https://en.wikipedia.org/wiki/Bootstrap_model)_
+
+
 The S-matrix for [[mesons]] in [[chiral perturbation theory]]:
 
 * Andrea Guerrieri, Joao Penedones, Pedro Vieira, _S-matrix Bootstrap for Effective Field Theories: Massless Pions_ ([arXiv:2011.02802](https://arxiv.org/abs/2011.02802))
@@ -7733,25 +7742,19 @@ See also
 
 * Jacob Bourjaily, _Quantum Field Theory and the Analytic S-Matrix_, 2011 ([pdf](https://www.princeton.edu/physics/graduate-program/theses/theses-from-2011-1/bourjaily_princeton_thesis.pdf))
 
+* Piotr Tourkine, Alexander Zhiboedov, _Scattering from production in 2d_ ([arXiv:2101.05211](https://arxiv.org/abs/2101.05211))
+
 Talk notes:
 
 * Gabriele Travaglini, _The return of the analytic S-matrix_, 2013 ([pdf](http://pyweb.swan.ac.uk/sfsh/sewmweb/sfshtalks/gabriele.pdf))
 
 * Rutger Boels, _The Ultimate Revenge of the Analytic S-matrix_ ([pdf](http://thep.housing.rug.nl/sites/default/files/talks/The%20revenge%20of%20the%20analytic%20S-matrix.pdf))
 
-See also
-
-* Wikipedia, _[S-matrix](http://en.wikipedia.org/wiki/S-matrix#History)_
-
-* Wikipedia, _[S-matrix theory](http://en.wikipedia.org/wiki/S-matrix_theory)_
-
-* Wikipedia, _[Bootstrap model](https://en.wikipedia.org/wiki/Bootstrap_model)_
 
 An entertaining account of some of the history and the sociology of S-matrix theory is on the first pages of
 
 * {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
 
-[[classification of long-range forces -- references]]
 
 [[!include classification of long-range forces -- references]]
 
