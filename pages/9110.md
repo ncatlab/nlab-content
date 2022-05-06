@@ -43,17 +43,18 @@ The original article is
 
 * {#FreundRubin80} [[Peter Freund]], M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980). (<a href="https://doi.org/10.1016/0370-2693(80)90590-0">doi:10.1016/0370-2693(80)90590-0</a>)
 
-Early developments include:
+Early developments:
 
-* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
-
-* [[Francois Englert]], _Spontaneous Compactification of Eleven-Dimensional Supergravity_ Phys.Lett. B119 (1982) 339 ([inSPIRE](http://inspirehep.net/record/180130))
+* [[Francois Englert]], _Spontaneous Compactification of Eleven-Dimensional Supergravity_, Phys. Lett. B119 (1982) 339 ([spire:180130](http://inspirehep.net/record/180130))
 
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
-
+Identification as [[near horizon geometries]] of [[black brane|black]] [[M2-branes]]:
 
 * {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
+
+* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
+
 
 See also
 
