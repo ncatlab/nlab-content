@@ -93,7 +93,7 @@ $$
   \;=\;
   - 1 
   +  
- \tfrac{1}{6} 
+ \tfrac{1}{2} 
  \underset{
    \mathclap{
    {\color{blue}\text{Lagrangian of}}
@@ -114,7 +114,7 @@ $$
     }{
     \underbrace{
       \big( 
-        4! 
+        \tfrac{1}{2}
         (F\wedge F) 
         / \mathrm{dvol} 
       \big)^2
@@ -221,7 +221,11 @@ $$
   &
   \phantom{\; =} +
   \underset{
-    = ( 4! (F \wedge F)  / \mathrm{dvol})^2
+    = 
+    \big(  
+      \tfrac{1}{2}
+      (F \wedge F) / \mathrm{dvol} 
+    \big)^2
   }{
   \underbrace{
   \tfrac{1}{4!}
@@ -240,7 +244,7 @@ $$
   \tfrac{1}{2} (F \wedge \star F) / \mathrm{dvol}
     +
   \big( 
-    4! (F\wedge F) / \mathrm{dvol}
+    \tfrac{1}{2} (F\wedge F) / \mathrm{dvol}
   \big)^2
   \end{aligned}
 $$
@@ -341,6 +345,8 @@ We discuss the identifications of the resulting four summands shown under the br
 
 =--
 
+The expression (eq:PlainMinkowskiDBIAction) is supposed to be exact for [[constant function|costant]] [[field strength]] (e..g. [Bachas-Bain-Green 99, above (1.9)](#BachasBainGreen99)), and to pick up [[higher curvature corrections]] for non-constant field strength. The first derivative correction to (eq:PlainMinkowskiDBIAction) is supposed to arise at order $(\partial F)^4$. The explicit expression is given in [Garousi 15 (7)](#Garousi15) (argued there by appealing to [[T-duality]] and [[S-duality]] applied to earlier results on higher curvature corrections in other fields involved).
+
 
 ## Related concepts
 
@@ -362,8 +368,6 @@ The article by Dirac which came to be commonly cited in this context is
 
 
 ### For single (abelian) D-branes
-
-#### Basic
 
 As the low energy [[action functional]] for single [[D-branes]] the DBI action is due to
 
@@ -401,24 +405,6 @@ See also
 * [[Martin Cederwall]], Alexander von Gussich, Aleksandar Mikovic, [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
 
 * Ian I. Kogan, Dimitri Polyakov, _DBI Action from Closed Strings and D-brane second Quantization_, Int. J. Mod. Phys. A18 (2003) 1827 ([arXiv:hep-th/0208036](https://arxiv.org/abs/hep-th/0208036))
-
-#### Higher derivative corrections
-{#ReferencesHigherDerivativeCorrections}
-
-On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for (single) [[D-branes]]:
-
-* [[Constantin Bachas]], P. Bain, [[Michael Green]], _Curvature terms in D-brane actions and their M-theory origin_, JHEP 9905:011, 1999 ([arXiv:hep-th/9903210](https://arxiv.org/abs/hep-th/9903210))
-
-* [[Mohammad Garousi]], _T-duality of curvature terms in D-brane actions_, JHEP 1002:002, 2010 ([arXiv:0911.0255](https://arxiv.org/abs/0911.0255))
-
-* [[Mohammad Garousi]], _S-duality of D-brane action at order $O(\alpha'{}^2)$_, Phys. Lett. B701:465-470, 2011 ([arXiv:1103.3121](https://arxiv.org/abs/1103.3121))
-
-* Ali Jalali, [[Mohammad Garousi]], _On D-brane action at order $\alpha'{}^2$_, Phys. Rev. D 92, 106004 (2015) ([arXiv:1506.02130](https://arxiv.org/abs/1506.02130))
-
-* [[Mohammad Garousi]], _An off-shell D-brane action at order $\alpha'{}^2$ in flat spacetime_, Phys. Rev. D 93, 066014 (2016) ([arXiv:1511.01676](https://arxiv.org/abs/1511.01676))
-
-
-* Komeil Babaei Velni, Ali Jalali, _Higher derivative corrections to DBI action at $\alpha'{}^2$ order_, Phys. Rev. D 95, 086010 (2017) ([arXiv:1612.05898](https://arxiv.org/abs/1612.05898))
 
 
 ### For coincident (non-abelian) D-branes
@@ -458,8 +444,14 @@ A completely different approach via [[TT deformation]] of the abelian DBI action
 
 * T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
 
-
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
+
+
+
+[[!include DBI-action higher curvature corrections -- references]]
+
+
+
 
 ### Single trace observables as weight systems on chord diagrams
 
