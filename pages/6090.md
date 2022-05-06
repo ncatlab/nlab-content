@@ -542,11 +542,11 @@ $$
   \phantom{AAA}
   \left\{
     \array{
-      "S_1 \, \text{does not intersect the past of} \, S_2"
+      \text{"}S_1 \, \text{does not intersect the past of} \, S_2\text{"}
       \\
       \Updownarrow
       \\
-      "S_2 \, \text{does not intersect the future of} \, S_1"
+      \text{"}S_2 \, \text{does not intersect the future of} \, S_1\text{"}
     }
   \right.
 $$
@@ -7537,6 +7537,13 @@ Notice that this kind of discussion is not restricted to topological field theor
 ### Possible symmetries
 
 see at _[[Haag–Lopuszanski–Sohnius theorem]]_
+
+
+## Examples
+
+### Chern-Simons theory
+
+The [[Feynman amplitudes]] of [[higher Chern-Simons theory]], such as [[AKSZ sigma-models]], regarded in their incarnation as [[Feynman amplitudes on compactified configuration spaces of points]], serve to exhibit a [[graph complex]]-model for the [[de Rham complex]] of [[Fulton-MacPherson compactifications]] of [[configuration spaces of points]] by the construction recalled [there](Fulton-MacPherson+operad#RelationToGraphComplexes). See the pointers at _[[Chern-Simons theory]]_ [here](Chern-Simons+theory#FeynmanPerturbationSeries).
 
 
 ## History
