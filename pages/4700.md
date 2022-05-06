@@ -1627,10 +1627,9 @@ and [Bar-Natan91](#BarNatan91), recalled im [Volić 13, Theorem 3.3.5](#Volic13)
 \linebreak
 
 
-Various authors discuss Vassiliev invariants in terms of graphs subject to the "STU-relation" 
- ([Kontsevich 93, Figure 8](#Kontsevich93)
-[Bar-Natan 95, Figure 3](Vassiliev+invariant#BarNatan95))
-and the "IHX-relation"  which it implies ([Bar-Natan 95, Theorem 6](Vassiliev+invariant#BarNatan95))
+Various authors discuss [[Vassiliev invariants]] in terms of graphs subject to the "[[STU-relation]]"  
+
+([Kontsevich 93, Figure 8](#Kontsevich93), [Bar-Natan 95, Figure 3](Vassiliev+invariant#BarNatan95)) and the "IHX-relation"  which it implies ([Bar-Natan 95, Theorem 6](Vassiliev+invariant#BarNatan95))
 
 
 <center>
@@ -1796,7 +1795,7 @@ Discussion of [[coproducts]] on a graph complex, given by decomposition of graph
 
 On the [[cochain cohomology]] of [[graph complexes]]:
 
-Characterization of cohomology of (...) in terms of STU- and HKX-relations:
+Characterization of cohomology of (...) in terms of [[STU-relations]] and HKX-relations:
 
 * {#KoytcheffMunsonVolic13} Robin Koytcheff, Brian A. Munson, [[Ismar Volić]], Section 3.4 of: _Configuration space integrals and the cohomology of the space of homotopy string links_, J. Knot Theory Ramif. 22, no. 11, 73 pp. (2013) ([arXiv:1109.0056](https://arxiv.org/abs/1109.0056))
 
