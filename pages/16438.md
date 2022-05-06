@@ -2,12 +2,19 @@
 
 * [webpage](http://maths.dur.ac.uk/users/kasper.peeters/)
 
-## selected writings
+## Selected writings
+
+On [[higher curvature corrections]] to [[D=11 supergravity]]:
+
+* [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints_ ([arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182))
+
+
+On [[Euclidean field theory]]:
 
 * [[Kasper Peeters]], [[Marija Zamaklar]], _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
 
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[Euclidean field theory]]
 
