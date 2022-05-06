@@ -396,6 +396,7 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 * Marta Moscati, _New Physics in $b \to c \tau \nu$: Impact of Polarisation Observables and $B_c \to \tau \nu$_ ([arXiv:1906.08035](https://arxiv.org/abs/1906.08035))
 
+* Damir Becirevic, Marco Fedele, Ivan Nisandzic, Andrey Tayduganov, _Lepton Flavor Universality tests through angular observables of $\bar B \to D^{(\ast) \ell \bar \nu}$ decay modes_ ([arXiv:1907.02257](https://arxiv.org/abs/1907.02257))
 
 #### Leptoquarks
 
