@@ -316,9 +316,9 @@ The case of diagrams in a 2-category is a special case of
 
 * {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
 
-The use of accessible model structures to construct both projective and injective model structurse on unenriched diagrams was introduced in
+The use of accessible model structures to construct both projective and injective model structures on unenriched diagrams was introduced in
 
-* Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
+* Marzieh Bayeh, [[Kathryn Hess]], [[Varvara Karpova]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
 
 * {#HKRS15} [[Kathryn Hess]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
 
@@ -326,7 +326,7 @@ The use of accessible model structures to construct both projective and injectiv
 
 It was generalized to enriched diagrams in
 
-* {#Moser} [[Lyne Moser]], *Injective and Projective Model Structures on Enriched Diagram Categories*, [arXiv:1710.11388](https://arxiv.org/abs/1710.11388)
+* {#Moser} Lyne Moser, *Injective and Projective Model Structures on Enriched Diagram Categories*, [arXiv:1710.11388](https://arxiv.org/abs/1710.11388)
 
 The more general result above on combinatoriality of injective model structures follows from Remark 3.8 of
 
