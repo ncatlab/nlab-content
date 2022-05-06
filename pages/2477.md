@@ -44,7 +44,7 @@ A general requirement is that
 
 1. the [[diagonal]] morphism $\Delta : X \to X \times X$ is a [[representable morphism of stacks]]
 
-1. there exists an _atlas_ for the stack, in that there is a [[representable functor|representable]] $U \in C$ and a surjective morphism
+1. there exists an [[atlas]] for the stack, in that there is a [[representable functor|representable]] $U \in C$ and a surjective morphism
 
   $$ 
     p : U \to X
@@ -65,7 +65,7 @@ Further conditions are the following
 
 ## Relation to groupoid objects
 
-The _groupoid object_ associated to a geometric stack $X$ with atlas $p : U \to X$ is the [[Cech groupoid]] of $p$ (this is simply the Cech groupoid of $p$ seen as a singleton cover) defined by $\mathcal{G}_0 := U$ and $\mathcal{G}_1 = U \times_X U$, where the latter is the 2-categorical [[pullback]]
+The _groupoid object_ associated to a geometric stack $X$ with [[atlas]] $p : U \to X$ is the [[Cech groupoid]] of $p$ (this is simply the Cech groupoid of $p$ seen as a singleton cover) defined by $\mathcal{G}_0 := U$ and $\mathcal{G}_1 = U \times_X U$, where the latter is the 2-categorical [[pullback]]
 
 $$
   \array{
