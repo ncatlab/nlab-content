@@ -10,10 +10,12 @@ has laid foundations of what is now called [[derived geometry]].
 * [web page](http://www.math.univ-toulouse.fr/~btoen/)
 
 
-## selected textx
+## selected texts
 
 * {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
 
+
+* Vers une interprétation Galoisienne de la théorie de l’homotopie. Cahiers de Top. et de Geo. Diff. Cat. 43, No. 4 (2002), 257-312. [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2012/04/Galhom.pdf)
 
 
 ## related $n$Lab entries 
