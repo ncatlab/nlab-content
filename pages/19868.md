@@ -41,3 +41,5 @@ Each type forming operation corresponds to structure on a CwF that can be expres
 ### $\Pi$-types
 
 include [[Initiality Project - Semantics - Pi-types]]
+
+category: Initiality Project
