@@ -69,6 +69,7 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 * [[theorem]], [[axiom]]
 
+* [[conjecture]], [[folklore]]
 
 [[!redirects proposition]]
 [[!redirects propositions]]
