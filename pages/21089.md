@@ -52,13 +52,13 @@ on the early history of and the perspective of [[M-theory]].
 
 (02:08) But some of us thought, even then, that there is something not quite right: Why do [[superstrings]] live in 10 spacetime dimensions, if supersymmetry allows 11?
 
-(02:24) The next major contribution was when Bergshoeff, Sezgin and Townsend discovered $[$[Bergshoeff-Sezgin-Townsend 87](M2-brane#BergshoeffSezginTownsend87)$]$ the [[M2-brane|11-dimensional supermembrane]]. 
+{#0224} (02:24) The next major contribution was when Bergshoeff, Sezgin and Townsend discovered $[$[Bergshoeff-Sezgin-Townsend 87](M2-brane#BergshoeffSezginTownsend87)$]$ the [[M2-brane|11-dimensional supermembrane]]. 
 
 (02:35) For me that was the starting point of what I would call [[M-theory]]. 
 
 (02:42) Because it said: Fine, strings are fundamental and live in 10 dimensions, but you have these membranes, which seem equally fundamental, living in 11 dimensions. 
 
-(02:55) My colleagues and I -- Stelle, Howe, Inami -- were able to show $[$[Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)$]$
+{#0255} (02:55) My colleagues and I -- Stelle, Howe, Inami -- were able to show $[$[Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)$]$
 that if you [[wrapped brane|wrap]] this [[M2-brane|11-dimensional membrane around a circle, it looks like]] a 10-dimensional string, in fact it looks like the [[type IIA string theory|type IIA string]]. 
 
 (03:14) So for us, that is proof, if proof is needed, that membranes in 11-dimensions were part of the big picture, including strings.
@@ -76,15 +76,15 @@ $[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five con
 
 (04:38) Now, given that we have been arguing in favour of membranes, the fact that the theory got called "M" was something of a Pyrrhic victory. 
 
-(04:50) It was saying: Well maybe membranes were not completely [inaudible?].
+(04:50) It was saying: "Well, maybe membranes, we're not completely sure." $[$see [Hořava-Witten 95, p. 2](M-theory#NonCommittal)$]$
 
 (04:56) For me, anyway, it was clear that branes were just as important as strings. 
 
-(05:05) [[Joseph Conlon]], writing in a recent book on string theory, says that when he saw our paper $[$[Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)$]$ about wrapping the brane around the 11th dimension, from the late 80s, he was shocked, because the history of the theory that he had been brought up with would not allow such a thing until 1995. 
+{#0505} (05:05) [[Joseph Conlon]], writing in a recent book on string theory, says that when he saw our paper $[$[Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)$]$ about wrapping the brane around the 11th dimension, from the late 80s, he was shocked, because the history of the theory that he had been brought up with would not allow such a thing until 1995. 
 
-(05:31) So, M-theory had a strange history.
+{#0531} (05:31) So, M-theory had a strange history.
 
-(05:38) I could summarize my research in the early 1980s as arguing for spacetime dimensions greater than 4, and for worldvolume dimensions greater than two in the late 80s, and that struggle was by far the harder of the two.
+{#0538} (05:38) I could summarize my research in the early 1980s as arguing for spacetime dimensions greater than 4, and for worldvolume dimensions greater than two in the late 80s, and that struggle was by far the harder of the two.
 
 **Q**: Similarly in the late 80s, also the regularized quantization of the super-membrane led to the [[BFSS matrix model|matrix model]], which later on was re-discovered as [[D0-brane]] quantum mechanics, and then hailed as a contender for a definition of M-theory. How do you reflect on this curious M-theory conceivement?
 
