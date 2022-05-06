@@ -5,6 +5,9 @@
 
 * _Memoirs_ ([arXiv:1708.09093](https://arxiv.org/abs/1708.09093))
 
+* [[Raphael Bousso]], Fernando Quevedo, [[Steven Weinberg]], _Joseph Polchinski: A Biographical Memoir_ ([arXiv:2002.02371](https://arxiv.org/abs/2002.02371))
+
+
 ## Selected writings
 
 Introducing [[orientifolds]]:
