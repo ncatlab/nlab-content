@@ -734,3 +734,14 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 
 [[!redirects AdS4-CFT3]]
 [[!redirects AdS4-CFT3 duality]]
+
+[[!redirects AdS5-CFT4 correspondence]]
+[[!redirects AdS5/CFT4 correspondence]]
+
+[[!redirects AdS5-CFT4 duality]]
+[[!redirects AdS5/CFT4 duality]]
+
+
+
+
+
