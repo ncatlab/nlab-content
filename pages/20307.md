@@ -36,7 +36,7 @@ Every metric space $X$ has a $\sigma$-locally discrete base.
 \end{corollary}
 
 \begin{proof}
-Set $\mathcal{U}_n \coloneqq \{ \text{open ball of radius }\; 1/n \;\text{ around }\;\, x \mid x \in X \}$. For each $N$ let $\mathcal{V}_n$ be a $\sigma$-locally discrete refinement of $\mathcal{U}_n$. By a diagonal argument the family $\mathcal{V} \coloneqq \bigcup_n \mathcal{V}_n$ is also $\sigma$-locally discrete. Moreover $\mathcal{V}$ is a base since for each point $x$ the balls of radius $1/n$ form a [[neighborhood base]].
+Set $\mathcal{U}_n \coloneqq \{ \text{open ball of radius }\; 1/n \;\text{ around }\;\, x \mid x \in X \}$. For each $n$ let $\mathcal{V}_n$ be a $\sigma$-locally discrete refinement of $\mathcal{U}_n$. By a diagonal argument the family $\mathcal{V} \coloneqq \bigcup_n \mathcal{V}_n$ is also $\sigma$-locally discrete. Moreover $\mathcal{V}$ is a base since for each point $x$ the balls of radius $1/n$ form a [[neighborhood base]].
 \end{proof}
 
 
