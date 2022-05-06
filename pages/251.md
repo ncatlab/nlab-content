@@ -79,7 +79,7 @@ Alternatively one can apply [[Poincaré duality]] to obtain a [[string diagram]]
 
 The vertical and horizontal arrows form categories (called **edge categories**), and the squares have two category structures which respect the edge category structures.  
 
-Horizontal composition of these squares is given by the compositon in the ordinary [[category|categories]] $D_0$ and $D_1$, while vertical composition is given by the composition operation specified on $D_1 \stackrel{\to}{\to} D_0$ by virtue of it being a [[category]] [[internalization|internal to]] [[Cat]].
+Vertical composition is given by the composition in the ordinary [[category|categories]] $D_0$ and $D_1$, while horizontal composition is given by the composition operation specified on $D_1 \stackrel{\to}{\to} D_0$ by virtue of it being a [[category]] [[internalization|internal to]] [[Cat]].
 
 In particular, the **transpose** of a double category, which switches the vertical and horizontal arrows, is again a double category.
 
