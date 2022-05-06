@@ -2571,8 +2571,7 @@ $$
 is the [[Bott element]] $h-1$, the [[virtual vector bundle]] difference between the [[basic complex line bundle on the 2-sphere]]
 and the [[trivial vector bundle|trivial]] [[complex line bundle]].
 
-By the very nature of the [[basic complex line bundle on the 2-sphere]] $h$, it is the restriction of the [[universal complex line bundle]]
-$\mathcal{O}(1)$ on $B U(1) \simeq \mathbb{C}P^\infty$ along the defining cell inclusion $i \colon S^2 \hookrightarrow \mathbb{C}P^\infty \simeq B U(1)$.
+By the very nature of the [[basic complex line bundle on the 2-sphere]] $h$, it is the restriction of the [[universal complex line bundle|universal]]/[[tautological line bundle|tautological]] [[complex line bundle]] $\mathcal{O}(1)$ on $B U(1) \simeq \mathbb{C}P^\infty$ along the defining cell inclusion $i \colon S^2 \hookrightarrow \mathbb{C}P^\infty \simeq B U(1)$.
 Hence if we set
 
 $$
