@@ -451,6 +451,8 @@ $$
   \,.
 $$
 
+In functional programming, these monoids give rise to the notion of Applicative.
+
 Moreover, [[module objects]] over these monoid objects are equivalent to the corresponding [[modules over monoidal functors]].
 
 =--
