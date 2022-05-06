@@ -66,6 +66,6 @@ $$
 
 * [[J. Woolf]], _Transversal homotopy theory_, Theory and applications of categories, Vol 24, Issue 7, pp 148-178, 2010. (arXiv:0910.3322)
 
-* [[J. Woolf]],_The fundamental category of a stratified space_, Journal of Homotopy and Related Structures, Vol 4, Issue 1 pp 359-387, 2009. (arXiv:0811.2580)
+* [[J. Woolf]], _The fundamental category of a stratified space_, Journal of Homotopy and Related Structures, Vol 4, Issue 1 pp 359-387, 2009. (arXiv:0811.2580)
 
 [[!redirects fundamental categories]]
