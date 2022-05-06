@@ -1,5 +1,6 @@
 
-* [website](https://www.math.purdue.edu/~dgepner/)
+* [website](https://www.math.purdue.edu/~dgepner/),
+[new website](http://math.soimeme.org/~davidgepner/)
 
 ## Related entries
 
