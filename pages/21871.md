@@ -2,8 +2,8 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Linguistics
-[[!include linguistics - contents]]
 +-- {: .hide}
+[[!include linguistics - contents]]
 =--
 =--
 =--
@@ -21,5 +21,7 @@ Context-sensitive grammar is a kind of [[formal grammar]] with an expressive pow
 A context-sensitive grammar is a tuple $(V, X, R, s)$ where $V$ and $X$ are finite sets of terminal and non-terminal symbols with $s \in X$, $R$ is a finite set of rules $\alpha x \gamma \to \alpha \beta \gamma$ for a non-terminal symbol $x \in X$ and strings of symbols $\alpha, \beta, \gamma \in (V + X)^\star$.
 
 ## Related entries
+
+* [[context-free grammar]]
 
 * [[mildly context-sensitive grammar]]
