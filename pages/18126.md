@@ -355,6 +355,7 @@ A _[[normed vector space]]_ is
      {\Vert {-} \Vert} \;\colon\; V \longrightarrow \mathbb{R}_{\geq 0}
    $$
 
+
    from the underlying [[set]] of $V$ to the [[non-negative number|non-negative]] [[real numbers]],
 
 such that for all $c \in \mathbb{R}$ with [[absolute value]] ${\vert c \vert}$ and all $v , w \in V$ it holds true that
@@ -2311,7 +2312,7 @@ of their underlying sets, and take $\phi \coloneqq f^{-1}$ to be the
 [[pre-image]] operation. A priori this is a function of the form
 
 $$
-  P(Y) \longleftarrow P(X) \;\colon\; f^{-1}
+  P(X) \longleftarrow P(Y) \;\colon\; f^{-1}
 $$
 
 and hence in order for this to co-restrict to $\tau_X \subset P(X)$ when restricted to $\tau_Y \subset P(Y)$
@@ -2437,7 +2438,7 @@ This does preserve
 
 1. finite intersections
 
-   because if $U_1 \cap U_2 \subset U_0$, then by $(\ast)$ $U_1 \in U_0$ or $U_2 \in U_0$, whence $\phi(U_1) = \emptyset$
+   because if $U_1 \cap U_2 \subset U_0$, then by $(\ast)$ $U_1 \subset U_0$ or $U_2 \subset U_0$, whence $\phi(U_1) = \emptyset$
    or $\phi(U_2) = \emptyset$, whence with $\phi(U_1 \cap U_2) = \emptyset$ also $\phi(U_1) \cap \phi(U_2) = \emptyset$;
 
    while if $U_1 \cap U_2$ is not contained in $U_0$ then neither $U_1$ nor $U_2$ is contained in $U_0$ and hence with
@@ -14789,6 +14790,7 @@ be the pointwise [[tensor product of vector spaces]] of these transition functio
 
 Then the _tensor product bundle_ $E_1 \otimes E_2$ is the one glued from this tensor product of the transition functions (by [this construction](topological+vector+bundle#TopologicalVectorBundleFromCechCocycle)):
 
+
 $$
   E_1 \otimes E_2
   \;\coloneqq\;
@@ -15230,6 +15232,7 @@ then $f$ is already an isomorphism of vector bundles.
 ###### Proof
 
 It is clear that $f$ has an [[inverse function]]
+
 of underlying sets $f^{-1} \colon E_2 \to E_1$ which is a function over $X$: Over each $x \in X$
 it it the linear inverse $(f\vert_x)^{-1} \colon (E_2)_x \to (E_1)_x$.
 
