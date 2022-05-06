@@ -111,7 +111,7 @@ This already produces [[baryon]] [[mass]] spectra with moderate quantitative agr
 
 Moreover, the above 4-brane model for baryons is claimed to be equivalent to the old **[[Skyrmion]] model** (see [Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), [Sugimoto 16, 15.4.1](#Sugimoto16), [Bartolini 17](#Bartolini17)). 
 
-But the Skyrmion model of baryons has been shown to aply also to [[bound states]] of [[baryons]], namely the [[atomic nuclei]]  ([Riska 93](Skyrmion#Riska93), [Battye-Manton-Sutcliffe 10](Skyrmion#BattyeMantonSutcliffe10), [Manton 16](Skyrmion#Manton16), [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)), at least for small [[atomic number]].
+But the Skyrmion model of baryons has been shown to apply also to [[bound states]] of [[baryons]], namely the [[atomic nuclei]]  ([Riska 93](Skyrmion#Riska93), [Battye-Manton-Sutcliffe 10](Skyrmion#BattyeMantonSutcliffe10), [Manton 16](Skyrmion#Manton16), [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)), at least for small [[atomic number]].
 
 For instance, various [[experiment|experimentally]] observed resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with [[atomic number]] 6 and hence baryon number 12 ([Lau-Manton 14](Skyrmion#LauMaonton14)): 
 
