@@ -39,4 +39,8 @@ and of [[hadrons]]:
 
 * Nodoka Yamanaka, _Hadronic EDM and New physics beyond standard model_ ([arXiv:1606.09587](https://arxiv.org/abs/1606.09587))
 
+See also
+
+* [[Andreas Crivellin]], Martin Hoferichter, Philipp Schmidt-Wellenburg, _Combined explanations of $(g-2)_{\mu,2}$ and implications for a large muon EDM_,  	Phys. Rev. D 98, 113002 (2018) ([arXiv:1807.11484](https://arxiv.org/abs/1807.11484))
+
 [[!redirects electric dipole moments]]
