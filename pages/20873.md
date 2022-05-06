@@ -194,6 +194,12 @@ More generally, one obtains [[Sullivan chord diagrams]] with $p$ disjoint embedd
 
 > from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+
+### Knizhnik-Zamolodchicov connection
+
+[[!include Knizhnik-Zamolodchikov-Kontsevich construction -- definition]]
+
+
 ## Related concepts
 
 [[!include chord diagrams and weight systems -- table]]
