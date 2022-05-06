@@ -41,6 +41,8 @@ See at _[[moduli space of monopoles]]_ the section _[Scattering amplitudes of mo
 
 * [[scattering cross section]]
 
+* [[leptonic decay]] (of [[mesons]]), [[Dalitz decay]]
+
 * [[perturbative quantum field theory]]
 
 * [[n-point function]], [[correlator]]
