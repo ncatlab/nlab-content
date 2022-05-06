@@ -175,7 +175,7 @@ The [[p-localization]] of $MU$ decomposes into the
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 12 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
-* {#Stong68} [[Robert Stong]], Chapter VII of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html))
+* {#Stong68} [[Robert Stong]], Chapter VII of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
 * {#Landweber70} [[Peter Landweber]], _On the complex bordism and cobordism of infinite complexes_, Bull. Amer. Math. Soc. Volume 76, Number 3 (1970) ([Euclid](http://projecteuclid.org/euclid.bams/1183531832)) 
 
