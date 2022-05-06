@@ -884,7 +884,7 @@ Further textbooks include
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
-* [[Ralph Cohen]], _The Topology of Fiber Bundles_, Stanford University (2017) ([pdf](http://math.stanford.edu/~ralph/fiber.pdf), [OMN:201707.110706](https://www.ams.org/open-math-notes/omn-view-listing?listingId=110706))
+* [[Ralph Cohen]], _The topology of fiber bundles_, Stanford University (2017) ([pdf](http://math.stanford.edu/~ralph/fiber.pdf), [OMN:201707.110706](https://www.ams.org/open-math-notes/omn-view-listing?listingId=110706))
 
 With an eye towards application in [[mathematical physics]]:
 
@@ -898,9 +898,12 @@ For principal bundles in the smooth context see most textbooks on _[[differentia
 also around section 3.1 of 
 
 * {#Moerdijk} [[Ieke Moerdijk]], _On the classification of regular Lie groupoids_ ([pdf](http://igitur-archive.library.uu.nl/math/2007-0201-202453/moerdijk_02_on_the_classification.pdf))
- 
 
-Lecture notes on the topic include
+Questions related to the existence slices of G-spaces, of sections of $G$-bundles and conditions for [[proper map|properness]] of some related maps are treated in
+
+* Richard S. Palais, _On the existence of slices of actions of non-compact Lie groups_, Ann. Math. 73:2 (1961) [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf)
+ 
+Lecture notes on principal bundles include
 
 * {#Mitchell}  Stephen A. Mitchell, _Notes on principal bundles and classifying spaces_, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
 
