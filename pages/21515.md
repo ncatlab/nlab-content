@@ -47,8 +47,32 @@ In summary:
 
 * [[Chen-Ruan cohomology]] is just the latter rational cohomology but applied after passage to the [[inertia orbifold]]. This is equivalent to the [[Bredon cohomology]] of the original orbifold, for one specific [[equivariant cohomology|equivariant coefficient]]-system.
 
-Exposition and review of traditional orbifold cohomology is in
+This suggests, of course, that more of [[proper equivariant homotopy theory|proper]] [[equivariant cohomology]] should be brought to bear on a theory of orbifold cohomology. A partial way to achieve this is to prove for  a given [[equivariant cohomology]]-theory that it descends from an invariant of [[topological G-spaces]] to one of the associated [[global quotient orbifolds]].
 
-* {#ALR07} [[Alejandro Adem]], J. Leida, [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+For [[topological K-theory|topological]] [[equivariant K-theory]] this is the case, by
+
+* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], Prop. 4.1 in: _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. 62(2010), 614-645 ([arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1))
+
+Therefore it makes sense to _define_ [[orbifold K-theory]] for [[orbifolds]] $\mathcal{X}$ which are equivalent to a [[global quotient orbifold]] 
+$
+  \mathcal{X} \simeq \prec(X \!\sslash\! G)
+$
+to be the $G$-[[equivariant K-theory]] of $X$:
+$
+  K^\bullet(\mathcal{X})
+  \;\coloneqq\;
+  K_G^\bullet(X)
+  \,.
+$
+
+This is the approach taken in 
+
+* {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], Section 3 of: _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
+
+
+Exposition and review of traditional orbifold cohomology, with an emphasis on [[Chen-Ruan cohomology]] and [[orbifold K-theory]], is in:
+
+* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+
 
 
