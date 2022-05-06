@@ -27,6 +27,8 @@ This perspective is hence called the _AdS/QCD-correspondence_ or _holographic QC
 
 ### General
 
+Review:
+
 * Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int.J.Mod.Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
 
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
@@ -37,13 +39,18 @@ This perspective is hence called the _AdS/QCD-correspondence_ or _holographic QC
 
   Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
 
-* Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
+* Youngman Kim, Ik Jae Shin, Takuya Tsukioka, _Holographic QCD: Past, Present, and Future_, Progress in Particle and Nuclear Physics
+Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics ([arXiv:1205.4852](https://arxiv.org/abs/1205.4852))
 
-* S.S. Afonin, A.D. Katanaeva, _Glueballs and deconfinement temperature in AdS/QCD_ ([arXiv:1809.07730](https://arxiv.org/abs/1809.07730))
+* Joshua Erlich, _An Introduction to Holographic QCD for Nonspecialists_,  Contemporary Physics ([arXiv:1407.5002](https://arxiv.org/abs/1407.5002))
+
+General approach:
+
+* Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
 
 See also
 
-* Wikipedia, _[AdSQCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
+* Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
 
 
 ### Application to hadron physics
@@ -53,6 +60,8 @@ Application to [[confinement|confined]] [[hadron]]-physics:
 Review:
 
 * Johanna Erdmenger, Nick Evans, Ingo Kirsch, Ed Threlfall, _Mesons in Gauge/Gravity Duals - A Review_, Eur.Phys.J.A35:81-133, 2008 ([arXiv:0711.4467](https://arxiv.org/abs/0711.4467))
+
+* Deog Ki Hong, _Baryons in holographic QCD_, talk at _From Strings to Things_ 2008 ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
 
 * Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_ ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
@@ -74,6 +83,12 @@ Original articles:
 * Alfredo Vega, M. A. Martin Contreras, _Melting of scalar hadrons in an AdS/QCD model modified by a thermal dilaton_ ([arXiv:1808.09096](https://arxiv.org/abs/1808.09096))
 
 * Meng Lv, Danning Li, Song He, _Pion condensation in a soft-wall AdS/QCD model_ ([arXiv:1811.03828](https://arxiv.org/abs/1811.03828))
+
+### Application to glueball physics
+
+* S.S. Afonin, A.D. Katanaeva, _Glueballs and deconfinement temperature in AdS/QCD_ ([arXiv:1809.07730](https://arxiv.org/abs/1809.07730))
+
+
 
 ### Application to the quark-gluon plasma
 
@@ -102,6 +117,14 @@ Other original articles include:
 * Hovhannes R. Grigoryan, Paul M. Hohler, Mikhail A. Stephanov, _Towards the Gravity Dual of Quarkonium in the Strongly Coupled QCD Plasma_ ([arXiv:1003.1138](http://arxiv.org/abs/1003.1138))
 
 * Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+
+### Application to lepton anomalous magnetic moment
+
+Application to [[anomalous magnetic moment]] of the [[muon]]:
+
+* Luigi Cappiello, _What does Holographic QCD predicts for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
+
+
 
 [[!redirects AdS/QCD correspondence]]
 
