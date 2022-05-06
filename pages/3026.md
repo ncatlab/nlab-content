@@ -301,11 +301,14 @@ The operation of one-point compactification is not a [[functor]] on the whole [[
 
 ## Examples
 
-### Spheres
+### Eculidean spaces compactify to Spheres
  {#ExamplesSpheres}
+
+We discuss how the [[one-point compactification]] of [[Euclidean space]] of [[dimension]] $n$ is the [[n-sphere]].
 
 +-- {: .num_example #nSphereIsOnePointCompactificationOfRn}
 ###### Example
+**([[one-point compactification]] of [[Euclidean space|Euclidean n-space]] si the [[n-sphere]])
 
 For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the one-point compactification (def. \ref{OnePointExtension}) of the [[Euclidean space]] $\mathbb{R}^n$
 
@@ -332,8 +335,57 @@ Observe that under [[stereographic projection]] the open subspaces $U_\infty \se
 
 By the [[Heine-Borel theorem]] the closed and bounded subsets of $\mathbb{R}^n$ are precisely the compact, and hence the compact closed, subsets of $\mathbb{R}^n \simeq S^n \setminus \{\infty\}$.
 
+=--
+
++-- {: .num_remark #RelevanceForMonopolesAndInstantons}
+###### Remark
+**(relevance for [[monopoles]] and [[instantons]] in [[gauge theory]])**
+
+In [[physics]], Example \ref{nSphereIsOnePointCompactificationOfRn} governs the phenomenon of [[monopoles]] and [[instantons]] for [[gauge theory]] on [[Minkowski spacetime]] or [[Euclidean space]]: While such spaces themselves are not [[compact topological space|compact]], the consistency condition that any [[field history|field configuration]] carries a [[finite number|finite]] [[energy]] requires that [[gauge fields]] _[[vanishing at infinity|vanish at infinity]]_. 
+
+This means that if $A$ is the [[classifying space]] for the corresponding gauge field --  e.g. $A = B G$ for [[Yang-Mills theory]] with [[gauge group]] $G$ -- and if $a_\infty \in A$ denotes the [[pointed topological space|base point]] witnessing vanishing fields, then a [[field configuration]]/[[cocycle]]
+
+$$
+  \mathbb{R}^n
+  \overset{c}{\longrightarrow}
+  A
+$$
+
+on $\mathbb{R}^n$ in $A$-[[generalized cohomology theory|cohomology]] _[[vanishing at infinity|vanishes at infinity]]_ if outside any [[compact topological space|compact]] [[subset]] its value is the vanishing field configuration $a_\infty$.
+
+But by Def. \ref{OnePointExtension} this is equivalent to the cocycle [[extension|extends]] to the [[one-point compactification]] as a [[morphism]] of [[pointed topological space]]:
+
+$$ 
+  \array{
+    \big(
+      \mathbb{R}^n
+    \big)
+    \simeq S^n
+    &
+    \overset{c}{\longrightarrow}
+    &
+    A
+    \\
+    \infty &\mapsto& a_\infty
+  }
+$$
+
+The following graphics illustrates this for $A = S^n$ an [[n-sphere]] itself, hence for charges in [[Cohomotopy cohomology theory]]:
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=9">
+<img src="https://ncatlab.org/schreiber/files/CohomotopyOfEuclideanNSpaceVanishingAtInfinity.jpg" width="640">
+</a>
+</center>
+
+> graphics grabbed from [SS 19](cohomotopy+charge#SatiSchreiber19)
+ 
+
+For more see at _[Yang-Mills instanton -- SU(2)-instantons from the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)_.
 
 =--
+
+### Linear representations compactify to representation spheres
 
 Via the presentation of example \ref{nSphereIsOnePointCompactificationOfRn}, the canonical [[action]] of the [[orthogonal group]] $O(N)$ on $\mathbb{R}^n$ induces an action of $O(n)$ on $S^n$, which preserves the basepoint $\infty$ (the "point at infinity").
 
@@ -381,7 +433,7 @@ $$
 
 =--
 
-
+\linebreak
 
 ### Thom spaces
 
