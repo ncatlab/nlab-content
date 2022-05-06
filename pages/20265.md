@@ -16,7 +16,7 @@
 
 ## Idea
 
-What is called the _Gromoll-Meyer sphere_ ([Gromoll-Meyer 74](#GromollMeyer74)) is an example of an [[exotic 7-sphere]]. It arises as a _double_ [[coset space]] ("[[biquotient]]") of the [[quaternionic unitary group]] [[Sp(2)]].
+What is called the _Gromoll-Meyer sphere_ ([Gromoll-Meyer 74](#GromollMeyer74)) is an example of an [[exotic 7-sphere]]. It arises as a [[double coset space]]/[[biquotient]] of the [[quaternionic unitary group]] [[Sp(2)]] $\simeq$ [[Spin(5)]] by two copies of [[Sp(1)]] $\simeq$ [[SU(2)]].
 
 ## Definition
 
@@ -54,7 +54,7 @@ $$
   \right\}
 $$
 
-Then the [[coset space]]  $Sp(1)\backslash Sp(2) /Sp(1)$ with respect to the left and right multiplication [[action]], respectively, of these two subgroups is, with respect to its canonically induced geometric structures:
+Then the [[double coset space]]/[[biquotient]]  $Sp(1)\backslash Sp(2) /Sp(1)$ with respect to the left and right multiplication [[action]], respectively, of these two subgroups is, with respect to its canonically induced geometric structures:
 
 1. [[homeomorphism|homeomorphic]] to the [[topological manifold|topological]] [[7-sphere]];
 
