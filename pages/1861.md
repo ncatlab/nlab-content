@@ -620,6 +620,8 @@ Now
 
 [[!include flavours of cohomotopy -- table]]
 
+* [[differential cohomotopy]]
+
 \linebreak
 
 [[!include Segal completion -- table]]
