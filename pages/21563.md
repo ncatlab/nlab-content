@@ -22,3 +22,6 @@ In a [[higher category theory|higher category]], [[inverse|invertibility]] of [[
 \section{Related concepts}
 
 A 2-category in which every 2-arrow is a 2-isomorphism is known as a [[(2,1)-category]].
+
+[[!redirects 2-isomorphisms]]
+
