@@ -66,4 +66,5 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 
 [[!redirects D2-D4 brane intersection]]
 [[!redirects D2-D4 brane intersections]]
+[[!redirects D2-D4-brane intersections]]
 
