@@ -307,11 +307,11 @@ $$
   \phantom{AAA}
   \left\{
     \array{
-      "S_1 \, \text{does not intersect the past of} \, S_2"
+      \text{"}S_1 \, \text{does not intersect the past of} \, S_2\text{"}
       \\
       \Updownarrow
       \\
-      "S_2 \, \text{does not intersect the future of} \, S_1"
+      \text{"}S_2 \, \text{does not intersect the future of} \, S_1\text{"}
     }
   \right.
 $$
@@ -4078,7 +4078,7 @@ This [[induction|inductive]] choice of [[extension of distributions]] of the [[t
 
 In ([Epstein-Glaser 73](S-matrix#EpsteinGlaser73)) this is phrased in terms of splitting of distributions. In ([Brunetti-Fredenhagen 00, sections 4 and 7](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)) the perspective via [[extension of distributions]] is introduced, following ([Stora 93](perturbative+algebraic+quantum+field+theory#Stora93)). Review is in ([Dütsch 18, section 3.3.2](perturbative+algebraic+quantum+field+theory#Duetsch18)).
 
-Proposition \ref{TimeOrderedProductAwayFromDiagonal} already shows that the freedom in choosing the [[renormalization|("re"-)normalization]] of [[time-ordered products]] is at most that of [[extensions of distributions|extending]] them to the "fat diagonal", where at least one pair of interaction points coincides. The following proposition \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that when making these choices [[induction|inductively]] in the arity of the [[time-ordered products]] as in def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} then the available choice of [[renormalization|("re"-)normalization)]] at each stage is in fact only that of extension to the actual [[diagonal]], where _all_ interaction points coincide:
+Proposition \ref{TimeOrderedProductAwayFromDiagonal} already shows that the freedom in choosing the [[renormalization|("re"-)normalization]] of [[time-ordered products]] is at most that of [[extensions of distributions|extending]] them to the "[[fat diagonal]]", where at least one pair of interaction points coincides. The following proposition \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that when making these choices [[induction|inductively]] in the arity of the [[time-ordered products]] as in def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} then the available choice of [[renormalization|("re"-)normalization)]] at each stage is in fact only that of extension to the actual [[diagonal]], where _all_ interaction points coincide:
 
 
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
