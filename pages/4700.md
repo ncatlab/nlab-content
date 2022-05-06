@@ -122,7 +122,7 @@ In the following, by a **[[graph]]** we mean specifically:
 1. a [[finite set|finite]] [[directed graph]] 
 
    $$
-     Edgs \underoverset{s}{t}{\rightrightarrows} Vert
+     Edgs \underoverset{t}{s}{\rightrightarrows} Vert
      \,,
    $$
 
@@ -136,11 +136,30 @@ In the following, by a **[[graph]]** we mean specifically:
 
 1. a [[linear order]] on $V$, such that $V_{ext} \lt V_{int}$.
 
-We write $\#\! Vert \coloneqq \left\vert V \right\vert$ for the [[cardinality]] of the sets of vertices, etc.
+An [[isomorphism]] $\Gamma \simeq \Gamma'$ of such graphs is a [[pair]] of [[bijections]] between sets of edges and vertices
+
+\[
+  \label{IsomorphismOfGraphs}
+  \array{
+    Edgs &\underoverset{t}{s}{\rightrightarrows}& Vert_{ext} \sqcup Vert_{int}
+    \\
+    \mathllap{{}^{\simeq}}\big\downarrow
+    &&
+    \mathllap{{}^{\simeq}}\big\downarrow
+    \\
+    Edgs' &\underoverset{t'}{s'}{\rightrightarrows}& Vert'_{ext} \sqcup Vert'_{int}
+  }
+\]
+
+which respects all [[structure]], hence the [[source]] and [[target]] maps, the decomposition into external and internal vertices, and the [[linear order]].
+
 
 =--
 
 ([Lambrechts-Volić 14, Def. 6.1](#LambrechtsVolic14))
+
+We write $\#\! Vert \coloneqq \left\vert V \right\vert$ for the [[cardinality]] of the sets of vertices, etc.
+
 
 +-- {: .num_defn #DenotationForLinearOrderOnVertices}
 ###### Remark
@@ -173,7 +192,7 @@ $$
   \;=\;       
   \big(
     Edgs 
-      \underoverset{s}{t}{\rightrightarrows} 
+      \underoverset{t}{s}{\rightrightarrows} 
     Vert_{ext} 
       \sqcup
     Vert_{int}
@@ -225,7 +244,7 @@ In particular, graphs may have loops. But the next definition makes such graphs 
 ###### Definition
 **(sign rules for graphs)**
 
-For a fixed [[finite set|finite]] [[linear order]] $Vert_{ext} \simeq \{1, 2, \cdots, \#\!Vert_{ext}\}$, consider the [[real numbers|real]] [[linear span]] on the [[set]] of graphs, according to Def. \ref{Graphs}, with that set of external [[vertices]]:
+For a fixed [[finite set|finite]] [[linear order]] $Vert_{ext} \simeq \{1, 2, \cdots, \#\!Vert_{ext}\}$, consider the [[real numbers|real]] [[linear span]] on the [[set]] of [[isomorphism classes]] (eq:IsomorphismOfGraphs) of graphs, according to Def. \ref{Graphs}, with that set of external [[vertices]]:
 
 $$
   \mathbb{R}
@@ -238,7 +257,7 @@ $$
      Vert_{int}
      \;\vert\;
      Vert_{int} \in FinLinOrd
-    \big\}
+    \big\}_{/\sim}
   \Big]
   \;\in\;
   Vect_{\mathbb{R}}
@@ -268,13 +287,15 @@ $$
   \phantom{AA}
   \text{if}\;\Gamma'\;
   \text{is}\;\Gamma\;
-  \text{with a pair of internal vertices transposed}
+  \text{with a pair of consecutive internal vertices transposed}
 $$
 
 
 =--
 
 ([Lambrechts-Volić 14, Def. 6.5 & Def. 6.5](#LambrechtsVolic14))
+
+
 
 <center>
 <img src="https://ncatlab.org/nlab/files/GraphComplexSignsFromOrientation.jpg" width="450">
