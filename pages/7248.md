@@ -11,7 +11,7 @@
 
 This page collects material related to the textbook
 
-* [[Paul Goerss]], [[Rick Jardine]], 
+* [[Paul Goerss]], [[J. F. Jardine]], 
 
   _Simplicial homotopy theory_, 
 
