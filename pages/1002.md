@@ -200,6 +200,11 @@ If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultraf
 
 * [[Richard Garner]], _Ultrafilters, finite coproducts and locally connected classifying toposes_. [arXiv:1808.08687](https://arxiv.org/abs/1808.08687).
 
+* Jirí Adámek, Lurdes Sousa, _D-Ultrafilters and their Monads_. [arxiv:1909.04950](https://arxiv.org/abs/1909.04950).
+
+
+
+
 
 [[!redirects ultrafilter]]
 [[!redirects ultrafilters]]
