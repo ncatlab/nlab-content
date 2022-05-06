@@ -19,6 +19,11 @@ A **copresheaf**, or **covariant presheaf**, on a [[category]] $C$ is a [[preshe
 
 In other words, a copresheaf on $C$ is just a [[functor]] $C \to Set$. One speaks of functors as copresheaves if one wants to impose a gluing condition on them and pass to _[[cosheaves]]_.
 
+## Related entries
+
+* [[concept with an attitude]]
+
+* [[cosheaf]]
 
 
 
