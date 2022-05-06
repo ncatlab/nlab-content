@@ -607,7 +607,7 @@ Let $F: C^op \to Set$ be a functor. We prove the [[co-Yoneda lemma]], that
 $$
   F(c) \simeq \int^{c' \in C} C(c,c')\times F(c')
 $$
-We perform the following manipluations, where each isomorphism is natural:
+We perform the following manipulations, where each isomorphism is natural:
 $$
 \begin{aligned}
   Set (\int^{c' \in C} C(c,c')\times F(c'), y) &\simeq \int_{c' \in C} Set (C(c,c')\times F(c'), y)\\
