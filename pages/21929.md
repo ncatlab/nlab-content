@@ -21,9 +21,9 @@
 
 ## Idea
 
-The _$f$-invariant_ ([Laures 99](#Laures99)) is the third in a sequence of homotopy invariants of "stable maps", i.e. of [[morphisms]] in the [[stable homotopy category]] (in particular: of [[stable homotopy groups of spheres]]), being elements of [[Ext-groups]] between the [[homology groups]]/[[cohomology groups]] of the [[domain]] and [[codomain]] of the map, with respect to some suitable choice of [[Whitehead-generalized cohomology theory]] $E$. 
+The _$f$-invariant_ ([Laures 99](#Laures99)) is the third in a sequence of [[homotopy invariants]] of "stable maps", i.e. of [[morphisms]] in the [[stable homotopy category]] (in particular: of [[stable homotopy groups of spheres]]), being elements of [[Ext-groups]] between the [[homology groups]]/[[cohomology groups]] of the [[domain]] and [[codomain]] of the map, with respect to some suitable choice of [[Whitehead-generalized cohomology theory]] $E$. 
 
-The previous two invariants in the sequence are the _[[d-invariant]]_ and the _[[e-invariant]]_. These are elements that appear on the second page of the $E$-[[Adams spectral sequence]].
+The previous two invariants in the sequence are the _[[d-invariant]]_ and the _[[e-invariant]]_. All these are elements that appear on the second page of the $E$-[[Adams spectral sequence]].
 
 In higher analogy to how the [[e-invariant]] exists if the [[d-invariant]] vanishes and then makes sense for $E = KU$ ([[complex topological K-theory]]), so the f-invariant exists when the [[e-invariant]] vanishes and then makes sense of $E$ an [[elliptic cohomology theory]].
 
