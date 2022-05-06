@@ -47,7 +47,7 @@ For type I string theory on [[flat orbifold|flat]] ([[toroidal orbifold|toroidal
 
 Under the [[duality between type I and heterotic string theory]] this translates to the [[semi-spin group|semi-spin]] [[gauge group]] [[SemiSpin(32)]] of [[heterotic string theory]].
 
-Discussion of type-I [[string phenomenology]] and [[grand unified theory]] based on $SO(32)$ type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
+Discussion of type-I [[string phenomenology]] and [[grand unified theory]] based on [[SO(32)]] type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
 
 ### String-string dualities
 
@@ -86,7 +86,7 @@ Related lecture notes / slides include
 ### Phenomenology
  {#Phenomenology}
 
-Type I [[string phenomenology]] and discussion of [[GUT]]s based on $SO(32)$ type I strings:
+Type I [[string phenomenology]] and discussion of [[GUT]]s based on [[SO(32)]] type I strings:
 
 * {#MMRB86} H.S. Mani, A. Mukherjee, R. Ramachandran, A.P. Balachandran, _Embedding of $SU(5)$ GUT in $SO(32)$ superstring theories_, Nuclear Physics B Volume 263, Issues 3–4, 27 January 1986, Pages 621-628 (<a href="https://doi.org/10.1016/0550-3213(86)90277-4">arXiv:10.1016/0550-3213(86)90277-4</a>)
 
