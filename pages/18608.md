@@ -121,6 +121,14 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 
 > Experimentally, there is a large number of facts that lack a detailed qualitative and quantitative explanation. The most spectacular manifestation of our lack of theoretical understanding of QCD is the failure to observe the elementary degrees of freedom, quarks and gluons, as free asymptotic states (color con- finement) and the occurrence, instead, of families of massive mesons and baryons (hadrons) that form approximately linear Regge trajectories in the mass squared. The internal, partonic structure of hadrons, and nucleons in particular, is still largely mysterious. Since protons and neutrons form almost all the visible matter of the Universe, it is of basic importance to explore their static and dynamical properties in terms of quarks and gluons interacting according to QCD dynamics. 
 
+\linebreak
+
+
+* {#MachleidtEntem11} R. Machleidt, D. R. Entem, _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919))
+
+> The problem with a derivation of [[nuclear forces]] from [[QCD]] is that this theory is [[non-perturbative QFT|non-perturbative]] in the low-energy regime characteristic of [[nuclear physics]], which makes direct solutions very difficult. Therefore, during the first round of new attempts, [[QCD]]-inspired [[quark]] models became popular. The positive aspect of these models is that they try to explain [[hadron]] structure and hadron-hadron [[interactions]] on an equal footing and, indeed, some of the gross features of the [[nucleon]]-[[nucleon]] interaction are explained successfully. However, on a critical note, it must be pointed out that these quark-based approaches are nothing but another set of models and, thus, do not represent fundamental progress. For the purpose of describing hadron-hadron interactions, one may equally well stay with the simpler and much more quantitative [[meson]] models.
+
+
 * Hideo Suganuma, Yuya Nakagawa, Kohei Matsumoto, _1+1 Large $N_c$ QCD and its Holographic Dual -Soliton Picture of Baryons in Single-Flavor World_, Proceedings of the 14th International Conference on Meson-Nucleon Physics and the Structure of the Nucleon (MENU2016) ([arxiv:1610.02074](https://arxiv.org/abs/1610.02074))
 
 > Since 1973, quantum chromodynamics (QCD) has been established as the fundamental theory of the strong interaction. Nevertheless, it is very difficult to solve QCD directly in an analytical manner, and many effective models of QCD have been used instead of QCD, but most models cannot be derived from QCD and its connection to QCD is unclear. To analyze nonperturbative QCD, the lattice QCD Monte Carlo simulation has been also used as a first-principle calculation of the strong interaction. However, it has several weak points. For example, the state information (e.g. the wave function) is severely limited, because lattice QCD is based on the path-integral formalism. Also, it is difficult to take the chiral limit, because zero-mass pions require infinite volume lattices. There appears a notorious "sign problem" at finite density.
@@ -129,8 +137,7 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 
 * V. A. Petrov, _Asymptotic Regimes of Hadron Scattering in QCD_ ([arXiv:1901.02628](https://arxiv.org/abs/1901.02628))
 
-> This is a commonplace that so far we do not have a full-fledged theory
-of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
+> This is a commonplace that so far we do not have a full-fledged theory of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
 colourless physical states (hadrons).
 
 * Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
