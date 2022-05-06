@@ -89,6 +89,10 @@ from the moduli space (eq:ModuliSpaceOfkInstantons) of $k$ magnetic monopoles to
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
+See also
+
+* Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
+
 ### In string theory
 
 The moduli space of monopoles appears in the [[KK-compactification]] of the [[M5-brane]] on a complex surface ([[AGT-correspondence]]):
