@@ -307,3 +307,6 @@ Vol. 98, No. 6 (1991), pp. 544-549 ([jstor:2324877](https://www.jstor.org/stable
 [[!redirects Gram--Schmidt factorisation]]
 
 [[!redirects Gram–Schmidt algorithm]]
+
+[[!redirects Gram-Schmidt orthogonalization]]
+[[!redirects Gram-Schmidt orthogonalizations]]
