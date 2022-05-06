@@ -9,13 +9,17 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The [[Lie group]] denoted $Sp(n).Sp(1)$ or just $Sp(n)Sp(1)$ is the [[quotient group]] of the [[direct product group]] of the given [[quaternion unitary groups]] by their [[diagonal]] [[center]] [[cyclic group of order 2]].
+The [[Lie group]] denoted $Sp(n).Sp(1)$ 
+([Alekseevskii 68](#Alekseevskii68), [Gray 69](#Gray69))
+or just $Sp(n)Sp(1)$ is the [[quotient group]] of the [[direct product group]] of the given [[quaternion unitary groups]] by their [[diagonal]] [[center]] [[cyclic group of order 2]].
+
 
 A [[smooth manifold]] of [[dimension]] $4n$ with [[G-structure]] for this group $G = Sp(n).Sp(1)$ is a [[quaternion-Kähler manifold]].
 
@@ -281,9 +285,9 @@ This follows essentially from the [[quaternionic Hopf fibration]] and its $Sp(2)
 
 Very early appearances of this notation are mostly in discussions of [[Berger's theorem]] for exceptional [[holonomy]]:
 
-* [[Alfred Gray]] [_A Note on Manifolds Whose Holonomy Group is a Subgroup of Sp(n) $\cdot$ Sp(1)_](https://projecteuclid.org/euclid.mmj/1029000212), Michigan Math. J. Volume 16, Issue 2 (1969), 125-128.
+* {#Gray69} [[Alfred Gray]], [_A Note on Manifolds Whose Holonomy Group is a Subgroup of Sp(n) $\cdot$ Sp(1)_](https://projecteuclid.org/euclid.mmj/1029000212), Michigan Math. J. Volume 16, Issue 2 (1969), 125-128.
 
-* Dmitri Alekseevskii, [_Riemannian spaces with exceptional holonomy groups_](https://link.springer.com/article/10.1007%2FBF01075943), Funct Anal Its Appl (1968) 2: 97.
+* {#Alekseevskii68} [[Dmitri Alekseevskii]], [_Riemannian spaces with exceptional holonomy groups_](https://link.springer.com/article/10.1007%2FBF01075943), Functional Analalysis and its Applications (1968) 2: 97.
 
 However, the even earlier paper:
 
@@ -307,7 +311,9 @@ See also the references at _[[quaternion-Kähler manifold]]_.
 ### $Sp(1)Sp(1)Sp(1) \simeq Spin(4)\cdot Spin(3) $
  {#ReferencesSpin4Spin3}
 
-The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Example \ref{Spin4Spin3}) is discussed in the following:
+The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Example \ref{Spin4Spin3}) is discussed in the following (largely in describing the Grassmannian of [[Cayley 4-planes]], see [there](Cayley+form#GrassmannianOfCayley4Planes)):
+
+* {#HarveyLawson82} [[Reese Harvey]], [[H. Blaine Lawson]], theorem 1.38 of _Calibrated geometries_, Acta Math. Volume 148 (1982), 47-157 ([Euclid:1485890157](https://projecteuclid.org/euclid.acta/1485890157))
 
 * {#BryantHarvey89} [[Robert Bryant]], Reese Harvey, (3.19) in _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
 
@@ -329,5 +335,9 @@ The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Exampl
 
 
 [[!redirects Sp(1)Sp(1)Sp(1)]]
+[[!redirects Sp(1).Sp(1).Sp(1)]]
+
+[[!redirects Spin(3)Spin(3)Spin(3)]]
+[[!redirects Spin(3).Spin(3).Spin(3)]]
 
 [[!redirects Spin(4).Spin(3)]]
