@@ -26,7 +26,7 @@ In the special case that $C = $ [[sSet]] is the [[classical model structure on s
 
 ## Definition
 
-Let $\mathbf{S}$ be a [[symmetric monoidal category]], $C$ a [[model category]] that is an $\mathbf{S}$-[[enriched category]], and $D$ a [[small category|small]] $\mathbf{S}$-enriched category.  Usually we have either $\mathbf{S}=Set$ or else $\mathbf{S}$ is a [[monoidal model category]] and $C$ an $\mathbf{S}$-[[enriched model category]].
+Let $\mathbf{S}$ be a [[symmetric monoidal category]], let $C$ be an $\mathbf{S}$-[[model category]] that is an $\mathbf{S}$-[[enriched category]], and let $D$ be a [[small category|small]] $\mathbf{S}$-enriched category. Usually we have either $\mathbf{S}=Set$ or else $\mathbf{S}$ is a [[monoidal model category]] and $C$ an $\mathbf{S}$-[[enriched model category]].
 
 Let $[D,C]$ denote the enriched [[functor category]], whose objects are $\mathbf{S}$-enriched functors $D\to C$.
 
