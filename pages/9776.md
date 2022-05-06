@@ -40,6 +40,9 @@ The [[T-duality|T-dual]] of the D6 branes is the [[D7-brane]] in [[type IIB stri
 
 * [[D2-D6 brane bound state]]
 
+* [[D4-D6 brane bound state]]
+
+
 ### Table of branes
 
 [[!include F-branes -- table]]
