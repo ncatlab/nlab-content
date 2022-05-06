@@ -82,7 +82,7 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
 * {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
-* {#HananyKol00} [[Amihay Hanany]], Barak Kol, section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
 The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with more details, in Prop. 4.7 of
 
