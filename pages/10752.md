@@ -43,6 +43,8 @@ See at the following entries:
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
 
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [doi:10.1112/S0024611501012692]( https://doi.org/10.1112/S0024611501012692))
+
 * {#Schwede12} [[Stefan Schwede]], p.214-216 of _[[Symmetric spectra]]_ (2012)
 
 
