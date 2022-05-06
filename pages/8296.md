@@ -26,7 +26,7 @@ Under forming [[loop space objects]], $\infty$-group extensions are the special 
 
 ## Definition
 
-Let $\mathcal{H}$ an [[(∞,1)-topos]] and $G, A, \hat G \in Grp(\mathbf{H})$ be [[∞-groups]] with [[deloopings]] $\mathbf{B}G$, $\mathbf{B}A$ and $\hat \mathbf{G}$, respectively.
+Let $\mathcal{H}$ an [[(∞,1)-topos]] and $G, A, \hat G \in Grp(\mathbf{H})$ be [[∞-groups]] with [[deloopings]] $\mathbf{B}G$, $\mathbf{B}A$ and $\mathbf{B}\hat G$, respectively.
 
 +-- {: .num_defn}
 ###### Definition
