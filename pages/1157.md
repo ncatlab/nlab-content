@@ -24,22 +24,22 @@
 
    * [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
 
-* There is some discussion of the bar-cobar adjointness as it related to [[twisting cochain|twisting cochains]], at that entry.
+* There is some discussion of the bar-cobar adjointness as it relates to [[twisting cochain|twisting cochains]], at that entry.
 
 * Here we will concentrate on the bar-cobar adjointness itself and start exploring the links with other parts of differential algebra.
 
 
-One of the earliest examples of a pair of [[adjoint functor|adjoint functors]] studied in algebraic topology was that giving the relationship between the functors for [[reduced suspension]] and [[loop space object|based loop space]]. If we take a pointed connected space $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle with $X$. 
+One of the earliest examples of a pair of [[adjoint functor|adjoint functors]] studied in [[algebraic topology]] was that giving the relationship between the functors for [[reduced suspension]] and [[loop space object|based loop space]]. If we consider a [[pointed topological space|pointed]] [[connected topological space]] $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle with $X$. 
 
-Adjoint to $\Sigma$ is the loop space functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$ as described at [[interval object]]. This in some sense  is _'subdivision as an inverse for composition'_.)
+Adjoint to $\Sigma$ is the [[based loop space]] functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$ as described at [[interval object]]. This in some sense  is _'subdivision as an inverse for composition'_.)
 
 (perhaps: Picture to go here?)
 
-Using ordinary (co)homology to study spaces such as CW-complexes, we naturally use the complexes of (cellular) chains on spaces. The structure of chains on the suspension is  easy to work out using the obvious cellular structure, but that on the loop space is much harder as $\Omega X$ is given the compact open topology and only has the homotopy type of a CW-complex, so no nice cellular structure is given us 'on a plate'.  The idea is thus to start with  a chain complex model, $C_*(X)$, for a CW-complex, $X$, (usually the complex of cellular chains on $X$),  and we try to construct from $C_*(X)$ a 'model' for the chain complex of  the loop space $\Omega X$ of $X$. Adams' cobar construction was such a method (see below). This was adjoint to a bar construction defined by Eilenberg and MacLane. 
+Using ordinary (co)homology to study spaces such as CW-complexes, we naturally use the complexes of (cellular) chains on spaces. The structure of chains on the suspension is  easy to work out using the obvious cellular structure, but that on the loop space is much harder as $\Omega X$ is given the [[compact-open topology]] and only has the homotopy type of a CW-complex, so no nice cellular structure is given us 'on a plate'.  The idea is thus to start with  a chain complex model, $C_*(X)$, for a CW-complex, $X$, (usually the complex of cellular chains on $X$),  and we try to construct from $C_*(X)$ a 'model' for the chain complex of  the loop space $\Omega X$ of $X$. Adams' cobar construction was such a method (see below). This was adjoint to a bar construction defined by Eilenberg and MacLane. 
 
 Both directions use an abstract algebraic model of concatenation of paths and so their construction is linked to that of free monoids, and through those to monads, operads and related abstract machinery to handle concatenation and its higher categorical analogues in categorical contexts.
 
-The chain complex $C_*(X)$ has a rich coalgebraic structure coming from induced by a cellular diagonal approximation on $X$ so the *cobar* construction will start with a [[differential graded coalgebra|dg-coalgebra]] as 'input' and as output we will hope for both a coalgebra structure (reflecting the chain coalgebra idea) and an algebra structure (coming from modelling the concatenation of loops). We therefore might hope for, and in fact do get, a [[differential graded Hopf algebra]].
+The chain complex $C_*(X)$ has a rich coalgebraic structure induced by a cellular diagonal approximation on $X$ so the *cobar* construction will start with a [[differential graded coalgebra|dg-coalgebra]] as 'input' and as output we will hope for both a coalgebra structure (reflecting the chain coalgebra idea) and an algebra structure (coming from modelling the concatenation of loops). We therefore might hope for, and in fact do get, a [[differential graded Hopf algebra]].
 
 Going the other way, we start with a [[differential graded algebra]] and use 'coconcatenation' or 'subdivision'  to get a coalgebra structure. In fact, once again, this is a Hopf algebra.
 
@@ -175,11 +175,11 @@ $$C\to s^{-1}\overline{C} \to \overline{T(s^{-1}\overline{C})}\to \overline{sT(s
 
 The source used for the above was 
 
-D. Tanr&#233;, _Homotopie rationnelle: Mod&#232;les de Chen, Quillen, Sullivan_, Lecture Notes in Maths No. 1025, Springer, 1983.
+* D. Tanr&#233;, _Homotopie rationnelle: Mod&#232;les de Chen, Quillen, Sullivan_, Lecture Notes in Maths No. 1025, Springer, 1983.
 
 This was augmented with material from
 
-H. J. Baues, _Geometry of loop spaces and the cobar construction_, Mem. Amer.
+* H. J. Baues, _Geometry of loop spaces and the cobar construction_, Mem. Amer.
 Math. Soc. 25 (230) (1980) ix+171.
 
 [[!redirects cobar construction]]
