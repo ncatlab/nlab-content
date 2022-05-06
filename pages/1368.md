@@ -45,7 +45,7 @@ A [[model category|model]] for an $(\infty,1)$-presheaf categories is the [[mode
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ a [[simplicially enriched category]] with [[Kan complex]]es as hom-objects, write $[C^{op}, sSet_{Quillen}]_{proj}$ and $[C^{op}, sSet_{Quillen}]_{inj}$ for the projective or injective, respectively, gloabl [[model structure on simplicial presheaves]]. Write $(-)^\circ$ for the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] on fibrant-cofibrant objects, and $N(-)$ for the [[homotopy coherent nerve]] that sends a Kan-complex enriched category to a [[quasi-category]]. 
+For $C$ a [[simplicially enriched category]] with [[Kan complex]]es as hom-objects, write $[C^{op}, sSet_{Quillen}]_{proj}$ and $[C^{op}, sSet_{Quillen}]_{inj}$ for the projective or injective, respectively, global [[model structure on simplicial presheaves]]. Write $(-)^\circ$ for the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] on fibrant-cofibrant objects, and $N(-)$ for the [[homotopy coherent nerve]] that sends a Kan-complex enriched category to a [[quasi-category]]. 
 
 Then there is an [[equivalence of quasi-categories]]
 
