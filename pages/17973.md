@@ -402,9 +402,14 @@ Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ 
 
 * {#GHMO16} Gianluca Grignani, Troels Harmark, Andrea Marini, Marta Orselli, _The Born-Infeld/Gravity Correspondence_, Phys. Rev. D 94, 066009 (2016) ([arXiv:1602.01640](https://arxiv.org/abs/1602.01640))
 
-Quick survey is in
+Survey is in
+
+
+* {#Padilla02} Antonio Padilla, _Braneworld Cosmology and Holography_ ([arxiv:hep-th/0210217](https://arxiv.org/abs/hep-th/0210217))
 
 * {#Teraguchi07} Shunsuke Teraguchi, around slide 21 of: _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf))
+
+
 
 Discussion of 4d [[de Sitter spacetime]] [[cosmology]] models on brane worlds in $\sim$ [[anti de Sitter spacetime|AdS]] [[bulk]] spacetimes:
 
