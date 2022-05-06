@@ -208,6 +208,11 @@ As [[type I' string theory]] with [[D6-branes]]:
 
 * Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
+and in [[massive type IIA string theory]] with [[D6-D8 brane bound states]]:
+
+* Fabio Apruzzi, [[Marco Fazzi]], _AdS7/CFT6 with orientifolds_, JHEP 01 (2018) 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
+
+
 ### As $I'$-theory with ADE-singularities
 
 As [[type I' string theory]] at [[orbifold]] [[ADE-singularities]]:
