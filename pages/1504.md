@@ -460,7 +460,7 @@ A textbook-like account is in
 
 Original articles are
 
-* {#Witten86} [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986)
+* {#Witten86} [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986) (<a href="https://doi.org/10.1016/0550-3213(86)90155-0">doi:10.1016/0550-3213(86)90155-0</a>)
  
 
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
