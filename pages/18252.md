@@ -192,6 +192,8 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 * [[tautological equivariant line bundle]]
 
+* [[resolution of singularities]]
+
 ## References
 
 Lecture notes include
