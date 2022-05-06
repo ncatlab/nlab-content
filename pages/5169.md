@@ -17,6 +17,7 @@ More generally, any term whose type has the form $(A^B)^{C^D}$ aka $(D \to C) \t
 
 Although one typically interprets type theory within [[set theory]] so that operations between types become [[functions]], one may also use [[partial functions]], which is necessary for the connection to [[linear operators]] in [[functional analysis]].
 
+An operator could also be interpreted within [[category theory]] as a [[globe|globular]] [[2-morphism]] in the [[2-category|2-]][[category of sets]]. 
 
 ## Examples
  {#Examples}
