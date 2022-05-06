@@ -68,7 +68,7 @@ In conclusion, with currently available data, the observed flavour anomalies are
 
 > graphics taken from [Dordei 18, slide 22](#Dordei18)
 
-Of course, in any case further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. Suggestions for future collider design in this respect are discussed in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
+In any case further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
 <br/>
 
