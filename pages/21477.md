@@ -42,3 +42,7 @@ Hyperstonean spaces were introduced and studied by [[Jacques Dixmier]]:
 An expository account is given by [[Masamichi Takesaki]] in
 
 * [[Masamichi Takesaki]], _Theory of Operator Algebras_, Chapter III, Section 1.
+
+[[!redirects hyperstonean spaces]]
+[[!redirects normal measure]]
+[[!redirects normal measures]]
