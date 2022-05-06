@@ -30,14 +30,35 @@ Here is an example of a horizontal chord diagram on 5 strands:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramOnFiveStrandsII.jpg" width="260">
 </center>
 
-## Defintiions
+## Defintions
 
 ### Set of horizontal chord diagrams
 
 For $n \in \mathbb{N}$, write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]] on $n$ strands (the superscript $pb$ is for _[[pure braids]]_).
 
-### Algebra of horizontal chord diagram
 
+### Trace to round chord diagrams
+ {#TraceToRoundChordDiagrams}
+
+Given a [[horizontal chord diagram]] on $n$ strands and given any choice of [[cyclic permutation]] of $n$ elements, the [[trace of horizontal to round chord diagrams]] is the [[round chord diagram]] obtained by gluing the ends of the strands according to the cyclic permutation, and retaining the chords in the evident way.
+
+The following graphics shows basic examples of the trace operation for [[cyclic permutation]] of strands one step to the right:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="800">
+</center>
+
+This defines a [[function]]
+
+$$
+  tr \;\colon\; \mathcal{C}^{pb} \longrightarrow \mathcal{C}^c
+$$
+
+from the [[set]] of [[horizontal chord diagrams]] to the set of [[round chord diagrams]].
+
+### Algebra of horizontal chord diagrams
+ {#AlgebraOfHorizontalChordDiagrams}
+ 
 For $n \in \mathbb{N}$ and for $R \in $ [[CRing]] a [[commutative ring]], the [[linear span]] $R \langle \mathcal{D}^{pb} \rangle$ on the set of horizontal chord diagrams on $n$ strands becomes an [[graded algebra|graded]] [[associative algebra]] 
 
 
@@ -46,6 +67,7 @@ $$
 $$
 
 under concatenation of strands.
+
 
 ### The 2T- and 4T-relations
 
