@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -78,6 +79,8 @@ If $C, D$ and $E$ are [[virtual equipments]] and $F$ is a normal functor, then $
 4. [[poset-valued sets]] given by an endofunctor $F$ on $Rel$ and a poset $P$ can be viewed as the comma double category from $F$ to $P$, since a poset is a monad in $Rel$, and $F$ is a colax endofunctor of $Rel$.  The "morphisms" of poset-valued sets are the *horizontal* morphisms in the resulting comma double category.
 
 5. The [[Dialectica construction]] associated to an internal poset $\Omega$ in a monoidal category $C$ with pullbacks can be obtained as a comma double category.  Let $Span(C)$ be the double category whose horizontal morphisms are spans in $C$, regard $C\times C^{op}$ as a double category in the horizontal direction, and let $F: C\times C^{op} \to Span(C)$ be the colax functor defined on objects by $(A,B) \mapsto A\otimes B$ and taking the pair $(f,g) : (A_1,B_1) \to (A_2,B_2)$ (so that $f:A_1\to A_1$ and $g:B_2\to B_1$) to the span $A_1\otimes B_1 \xleftarrow{1\otimes g} A_1\otimes B_2 \xrightarrow{f\otimes 1} A_2\otimes B_2$.  The internal poset $\Omega$ is a monad in $Span(C)$, so we have a comma double category $F/\Omega$, whose horizontal category is the Dialectica construction $Dial(C,\Omega)$.
+
+6. The [[double gluing]] construction relative to a pair of functors $L:C\to E$ and $K:C\to E^{op}$ can be phrased as a comma double category of the cospan $C \xrightarrow{(L,K)} \mathbb{C}hu(E,1) \leftarrow Chu(E,1)$, where $C$ and $Chu(E,1)$ are regarded as vertically discrete double categories and $\mathbb{C}hu(E,1)$ is the [[double Chu construction]].  To obtain the relevant monoidal structures we can consider this instead to be a comma object in [[double polycategories]].
 
 ##References
 
