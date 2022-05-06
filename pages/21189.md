@@ -2,17 +2,16 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum Field Theory
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
-=--
 #### Fields and quanta
 +--{: .hide}
 [[!include fields and quanta - table]]
 =--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
-
+=--
 
 #Contents#
 * table of contents
@@ -20,7 +19,7 @@
 
 ## Idea
 
-What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector of [[light quarks]], where the effective [[field (physics)|fields]] are [[hadrons]] ([[mesons]] being [[gauge fields]] of a [[hidden local symmetry]], and [[baryons]]/[[nuclei]] being the [[fermions]]), whence one also speaks of _quantum hadrodynamics_.
+What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector, where the effective [[field (physics)|fields]] are [[hadrons]]: [[light meson|light]] [[scalar mesons]] are the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  [[vector mesons]] are [[gauge fields]] of a [[hidden local symmetry]], [[baryons]] (specifically [[nuclei]]) are [[solitons]] in the meson-fields (called [[Skyrmions]]), and [[heavy mesons]] appear as further [[field (physics)|fields]]. Hence some authors also speak of _[[quantum hadrodynamics]]_.
 
 This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the [[light quarks]], which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]].
 
