@@ -1,11 +1,13 @@
 [[!redirects embedding tensors and tensor hierarchy in super Lie theory -- references]]
 
 ### Embedding tensors and tensor hierarchy in super/dg-Lie theory
+  {#EmbeddingTensorsAndTensorHierarchyInSuperdgLieTheory}
 
 We spell out aspects of the formalization of the concept of [[embedding tensors]] and their [[tensor hierarchies]] in terms of [[super Lie algebras]]/[[dg-Lie algebras]].
 
 
 #### The super Lie algebra of multi-endomorphisms
+  {#TheSuperLieAlgebraOfEndomorphisms}
 
 The algebra of [[embedding tensors]] and their [[tensor hierarchies]] turns out to be neatly captured by structure found in or induced from the following [[super Lie algebra]].
 
@@ -121,7 +123,7 @@ $$
 $$
 
 
-Hence (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is already implied by (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) if the bracket is to satisfy the super Jacobi identity (eq:GradedJacobiIdentity).
+Hence (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) is already implied by (eq:SuperLieBracketOnDegree0InSuperLieAlgebraInducedFromVectorSpace) if the bracket is to satisfy the [super Jacobi identity](super+Lie+algebra#eq:GradedJacobiIdentity)
 
 =--
 
@@ -130,7 +132,7 @@ It remains to show that:
 +-- {: .num_prop #SuperJacobiForSuperLieAlgebraInducedFromVectorSpace}
 ###### Proposition
 
-Def. \ref{TheSuperLieAlgebraInducedFromVectorSpace} indeed gives a [[super Lie algebra]] in that the bracket (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) satisfies the super Jacobi identity (eq:GradedJacobiIdentity).
+Def. \ref{TheSuperLieAlgebraInducedFromVectorSpace} indeed gives a [[super Lie algebra]] in that the bracket (eq:SuperLieBracketInSuperLieAlgebraInducedFromVectorSpace) satisfies the [super Jacobi identity](super+Lie+algebra#eq:GradedJacobiIdentity).
 
 =--
 
