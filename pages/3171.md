@@ -22,6 +22,9 @@ On [[fiber bundles]], [[principal bundles]] and introducing [[Chern-Weil theory]
 
   (These two articles have the same content, with the same section outline, but not the same wording. The first one is a tad more detailed.)
 
+On [[homological algebra]]:
+
+* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
 
 
 category: people
