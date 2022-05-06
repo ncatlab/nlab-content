@@ -390,6 +390,32 @@ Typically for one and the same $\infty$-groupoid, Eucler characteristic and homo
 
 However, by applying some standard apparent "tricks" on non-convergent series, often these can be made sense of after all, and then do agree with the other notion. For more on this see ([Baez05](#Baez05)).
 
+### Connected sum formula
+
++-- {: .num_prop #EulerCharacteristicOfConnectedSums}
+###### Proposition
+**([[Euler characteristic]] of [[connected sums]])**
+
+Let $X$ and $Y$ be [[closed manifolds]] ([[topological manifold|topological]] or [[differentiable manifold|differentiable]])  of [[even number|even]] [[dimension]]. Then the [[Euler characteristic]] of their [[connected sum]] is the [[sum]] of their separate [[Euler characteristics]], minus 2:
+
+$$
+  \chi
+  \big(
+    X \sharp Y 
+  \big)
+  \;=\;
+  \chi
+  \big(X\big)
+  +
+  \chi
+  \big(Y\big)
+  -2
+$$ 
+
+=--
+
+(e.g. [here](http://math.ucr.edu/~res/miscpapers/csums+echars.pdf))
+
 ### Gauss-Bonnet theorem
 
 For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic may also be given by [[integration]] of [[infinitesimal object|infinitesimal]] data: this is the statement of the higher dimensional [[Gauss-Bonnet theorem]].
