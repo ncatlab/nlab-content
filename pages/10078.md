@@ -129,10 +129,14 @@ Further development includes
 
 
 
-
 As a means of constructing [[UV-completions]]:
 
 * Steven Abel, Nicola Andrea Dondi, _UV Completion on the Worldline_ ([arXiv:1905.04258](https://arxiv.org/abs/1905.04258))
+
+For [[black hole]] [[scattering]]:
+
+* Gustav Mogull, [[Jan Plefka]], Jan Steinhoff, _Classical black hole scattering from a worldline quantum field theory_ ([arXiv:2010.02865](https://arxiv.org/abs/2010.02865))
+
 
 A list of more literature is at
 
