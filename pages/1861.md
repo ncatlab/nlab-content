@@ -57,7 +57,7 @@ from the cohomotopy sets of $X$ to the [[cobordism group]] of $(n-k)$-dimensiona
 
 In particular, the canonical [[group]] [[structure]] on [[cobordism groups]] (essentially given by [[disjoint union]] of [[submanifolds]]) this way induces a group structure on the cohomotopy sets.
 
-This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
+This is made explicit for instance in [Kosinski 93, chapter IX, Theorem (5.5)](#Kosinski93).
 
 This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
 
