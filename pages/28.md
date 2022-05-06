@@ -426,7 +426,7 @@ $$
   \mathcal{G}_1
   \phantom{AAAA}
     \underoverset
-      {\underset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
+      {\underset{F_3 \circ F_2\circ F_1}{\longrightarrow}}
       {\overset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
       {\Downarrow{\mathrlap{ F_2 \cdot \eta_ \cdot F_1 }}}
   \phantom{AAAA}\mathcal{G}_2
