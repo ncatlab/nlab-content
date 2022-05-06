@@ -50,6 +50,13 @@ See also
 
 * Wikipedia, _[Monster Lie algebra](https://en.wikipedia.org/wiki/Monster_Lie_algebra)_
 
+Relation to [[quantum error correction]]:
+
+* [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+
+
+
+
 [[!redirects monster vertex operator algebra]]
 [[!redirects Monster vertex operator algebra]]
 
