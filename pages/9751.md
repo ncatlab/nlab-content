@@ -7,9 +7,12 @@ On [[self-dual higher gauge fields]]:
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
 
+On [[superstrings]] and [[super membranes]] formulated in [[superspace]]:
+
+* [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_, Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
+
 
 On the [[superembedding approach]] for [[Green-Schwarz sigma-models]]:
-
 
 * {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
@@ -48,3 +51,6 @@ On [[type II supergravity]]:
 * [[M5-brane]]
 
 category: people
+
+[[!redirects Dmitrij Sorokin]]
+
