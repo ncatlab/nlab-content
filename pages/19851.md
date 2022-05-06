@@ -45,6 +45,5 @@ If you would like to participate in the [[Initiality Project]], just add your na
 * [[Andrew Polonsky]]
 * [[Thomas Streicher]]
 * Matt Oliveri
-* [[Colin Tan]]
 
 category: Initiality Project
