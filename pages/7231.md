@@ -223,6 +223,11 @@ $$
 (e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
 
 
+### $G$-Structure and exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ### Relation to higher prequantum geometry
 
 The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equipping $\mathbb{R}^7$ with [[n-plectic geometry|2-plectic structure]]. From this point of view $G_2$ is the linear subgroup of the [[2-plectomorphism group]], hence (up to the translations) the image of the [[Heisenberg group]] of $(\mathbb{R}^7, \omega)$ in the symplectomorphism group.
