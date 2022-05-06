@@ -218,7 +218,7 @@ An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinite
 
 * [[Susan Niefield]], _Exponentiable Morphisms: posets, spaces, locales and Grothendieck toposes_ , TAC **8** (2001) pp.16-32. ([abstract](http://www.tac.mta.ca/tac/volumes/8/n2/8-02abs.html))
 
-* [[Miles Tierney]], _Forcing Topologies and Classifying Toposes_ , pp.211-219 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_  , Academic Press New York 1976. (p.211, 218)
+* [[Myles Tierney]], _Forcing Topologies and Classifying Toposes_ , pp.211-219 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_  , Academic Press New York 1976. (p.211, 218)
 
 [[!redirects Exponentiable topos]]
 [[!redirects exponential topos]]
