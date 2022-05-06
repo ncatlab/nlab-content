@@ -25,7 +25,7 @@ A **valuation** is a construction analogous to that of a [[measure]], which is h
 
 ### Valuations on lattices
 
-Let $L$ be a [[lattice]] with a [[bottom]] element $\bottom$. A **valuation** or **evaluation** on $L$ is a [[map]] $\nu \colon L\to\mathbb{R}_{\ge 0}$ with the following properties:
+Let $L$ be a [[lattice]] with a [[bottom]] element $\bottom$. A **valuation** or **evaluation** on $L$ is a [[map]] $\nu$ from $L$ into the space of non-negative [[one-sided real number|lower reals]], with the following properties:
 
 * *Monotonicity*: for all $x,y$ in $L$, $x\le y$ implies $\nu(x)\le\nu(y)$;
 
@@ -37,8 +37,6 @@ $$
 \nu(x) + \nu(y) = \nu(x \vee y) + \nu(x \wedge y) .
 $$
 
-The [[real line]] can be replaced, depending on the context, by the space of [[one-sided real number|lower reals]] (see for example [Vickers](#vmonad)).
-
 Moreover, we call a valuation *continuous* if the following property holds, which is an instance of [[Scott topology|Scott continuity]], as well as of [[tau-smoothness|$\tau$-smoothness]]:
 
 * *Continuity*: for every [[directed set|directed]] [[net]] $\{x_\lambda\}_{\lambda\in\Lambda}$ in $L$ admitting a supremum,
@@ -46,6 +44,8 @@ Moreover, we call a valuation *continuous* if the following property holds, whic
 $$
 \nu \big( \sup_{\lambda} x_\lambda \big) = \sup_\lambda \nu(x_\lambda) .
 $$
+
+For now, see more in [Vickers](#vmonad).
 
 
 ### Valuations on locales and topological spaces
