@@ -1,8 +1,23 @@
-##Idea 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
 
 In the context of [[philosophy]], **definite description** concerns the use of the definite article, 'the', to denote an individual, as with 'the cat currently sitting in this basket' or 'the 24th President of the United States'. 
 
-##Treatment in philosophy
+## Treatment in philosophy
 
 [[Bertrand Russell]] took an important step for [[analytic philosophy]] in 1905 when he gave his famous analysis of the statement
 
