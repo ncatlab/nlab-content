@@ -66,6 +66,11 @@ hence the [[quotient group]] by the [[subgroup]]
 
 A similar definition yields 
 
++-- {: .num_defn #Spinn1Spinn2}
+###### Definition
+
+Write
+
 $$
   Spin(n_1) \cdot Spin(n_2)
   \;\coloneqq\;
@@ -76,7 +81,7 @@ $$
   \big)/\mathbb{Z}_2
 $$
 
-for 
+for the [[quotient group]] of the [[direct product group]] of [[spin groups]] by their [[diagonal]] [[subgroup]]
 
 $$
   \mathbb{Z}_2
@@ -89,9 +94,13 @@ $$
   \,.
 $$
 
+=--
+
 Sometimes one sees the notation further generalized to include cases such as
 
-* $Spin(n) \cdot U(1) = $ [[Spin^c]].
+* $Spin(n) \cdot U(1) \simeq Spin(n)\cdot Spin(2) \simeq$ [[Spin^c]],
+
+see Example \ref{SpinnSpin2IsSpinc} below.
 
 \linebreak
 
@@ -124,6 +133,8 @@ There is then a [[commuting diagram]] of [[Lie groups]]
 with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8)]], respectively, the left morphism being the defining [[quotient]] projection and the right morphism the [[double cover]] morphism that defines the [[spin group]].
 
 (e.g. [Čadek-Vanžura 97, p. 4](#CadekVanzura97))
+
+\linebreak
 
 ## Examples
 
@@ -189,6 +200,30 @@ where
 =--
 
 \linebreak
+
+
+### $Spin(n)\cdot Spin(2)$ is $Spin^c(n)$
+  {#Spinc}
+
++-- {: .num_example #SpinnSpin2IsSpinc}
+###### Example
+
+For $n \in \mathbb{N}$,  group $Sp(n) \cdot Sp(2)$ in Def. \ref{Spinn1Spinn2} is the group otherwise known as [[spin^c|spin^c(n)]]:
+
+$$
+  Spin(n)\cdot Spin(2)
+  \;\simeq\;
+  Spin^c(n)
+  \,.
+$$
+
+This is due to the identification of the [[double cover]] by [[Spin(2)]] of [[SO(2)]] with the [[real Hopf fibration]] ([this Prop](Spin2#Spin2OverSO2IsRealHopfFibration)), which identifies $Spin(2) \simeq U(1)$ compatible with the subgroupinclusion of $\mathbb{Z}_2$.
+
+
+=--
+
+(See also e.g. [Gompf 97, p. 2](#Gompf97))
+
 
 
 ### Triality
@@ -479,6 +514,11 @@ The dot notation for general sping groups, $Spin(n_1)\cdot Spin(n_2)$, appears i
 
 * {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], Prop. 17.3.1 _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
 
+
+The identification of $Spin \dot Spin(2)$ with [[Spin^c]] appears for instance in
+
+* {#Gompf97} [[Robert Gompf]], _$Spin^c$ structures and homotopy equivalences_, Geom. Topol. 1 (1997) 41-50 ([arXiv:math/9705218](https://arxiv.org/abs/math/9705218))
+
 ### $Sp(1)Sp(1)Sp(1) \simeq Spin(4)\cdot Spin(3) $
  {#ReferencesSpin4Spin3}
 
@@ -513,6 +553,7 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 
 [[!redirects Spn.Sp1]]
 
+[[!redirects SpnSp1]]
 
 [[!redirects Sp(1)Sp(1)Sp(1)]]
 [[!redirects Sp(1).Sp(1).Sp(1)]]
