@@ -59,6 +59,8 @@ The concept is due to
 
 * {#Laures00} Gerd Laures, _On cobordism of manifolds with corners_, Trans. Amer. Math. Soc. 352 (2000) ([doi:10.1090/S0002-9947-00-02676-3](https://doi.org/10.1090/S0002-9947-00-02676-3))
 
+  > (see [Genauer 12](manifold+with+boundary#Genauer12) for more on the bordism classes of [[manifolds with corners]])
+
 Further discussion in:
 
 
