@@ -25,8 +25,13 @@ on [[representation theory]], [[equivariant homotopy theory]], [[equivariant coh
 
 * [[Adams operation]]
 
-[Chapter 5: The Burnside ring of a compact Lie group](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Lie.pdf)
 
+Chapter 4: Permutation representations
+
+* [[permutation representation]]
+
+
+[Chapter 5: The Burnside ring of a compact Lie group](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Lie.pdf)
 
 Chapter 7: Equivariant homology and cohomolgy
 
@@ -52,6 +57,8 @@ Chapter 7: Equivariant homology and cohomolgy
 
 * [[J-homomorphism]]
 
-[references](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Back.pdf)
+[References](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Back.pdf)
+
+
 
 category: reference
