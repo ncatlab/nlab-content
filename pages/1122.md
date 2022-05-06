@@ -93,7 +93,9 @@ See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
 \bibitem{Moerdijk} [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_,
 Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
 
-* O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful Calculus of Fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) pp.221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
+* O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful calculus of fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) 221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
+
+* E. Vitale, _Bipullbacks and categories of fractions_, [pdf](https://perso.uclouvain.be/enrico.vitale/BPBc.pdf)
 
 * [[Dorette A. Pronk]], _Etendues and stacks as bicategories of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
 
