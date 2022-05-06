@@ -10,7 +10,9 @@ On [[perturbative quantum gravity]]:
 
 On [[asymptotic safety]] (or not):
 
-* [[John Donoghue]], _A Critique of the Asymptotic Safety Program_ ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967)) 
+* {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_,  
+Frontiers in Physics 8, 56 (2020)
+([arXiv:1911.02967](https://arxiv.org/abs/1911.02967), [doi:10.3389/fphy.2020.00056](https://www.frontiersin.org/articles/10.3389/fphy.2020.00056/full))
 
 
 ## Related $n$Lab entries
