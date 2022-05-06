@@ -22,7 +22,7 @@
 
 A __cartesian closed category__ (sometimes: __ccc__) is a category with [[finite products]] which is [[closed monoidal category|closed]] with respect to its [[cartesian monoidal category|cartesian monoidal structure]].
 
-The [[internal hom]] $[S,X]$ in a cartesian closed category is often called [[exponentiation]] and is denoted $X^S$. 
+The [[internal hom]] $[S,X]$ in a cartesian closed category is often called [[exponential object|exponentiation]] and is denoted $X^S$. 
 
 A _cartesian closed functor_ between cartesian closed categories $C$, $D$ is a functor $F \colon C \to D$ that is [[product-preserving functor|product-preserving]] and that is also _exponential-preserving_, meaning that the canonical map 
 
