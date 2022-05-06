@@ -358,6 +358,8 @@ $$
 
 which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled -- except for a remaining term $\tfrac{1}{2}(G^{M5}_4)^2$ which is ignored by fiat.
 
+See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theory#OpenProblemM5BraneAnomalyCancellation)_.
+
 \linebreak
 
 [[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
@@ -626,8 +628,9 @@ left a remnant term of $\tfrac{1}{24} p_2$. It was argued in
 
 that this term disappears (cancels) when properly taking into account the singularity of the [[supergravity C-field]] at the locus of the [[black brane|black]] [[M5-brane]].
 
+This argument is recalled in
 
-This formulation via an anomaly 12-form is (re-)derived also in
+* {#Harvey05} [[Jeffrey Harvey]], Section 5 of : _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097](https://arxiv.org/abs/hep-th/0509097), [spire:692082](http://inspirehep.net/record/692082))
 
 * {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
 
