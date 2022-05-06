@@ -76,7 +76,7 @@ The associated paper is
 
 These ideas are clarified and expanded on in 
 
-* [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
- {#BMW}
+* {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
+ 
 
 [[!redirects monads with arities]]
