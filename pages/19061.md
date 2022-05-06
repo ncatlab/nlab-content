@@ -50,4 +50,8 @@ Discussion of the duality at the level of [[type II supergravity]] [[equations o
 
 * [[Branislav Jurco]], [[Jan Vysoky]], _Poisson-Lie T-duality of String Effective Actions: A New Approach to the Dilaton Puzzle_, Journal of Geometry and Physics Volume 130, August 2018, Pages 1-26 ([arXiv:1708.04079](https://arxiv.org/abs/1708.04079))
 
+See also
+
+* [[Pavol Ševera]], Fridrich Valach, _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
+
 [[!redirects nonabelian T-duality]]
