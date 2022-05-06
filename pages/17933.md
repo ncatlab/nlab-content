@@ -46,7 +46,7 @@ There is a [[classifying space]] for $SU(2)$-[[principal bundles]], denoted $B S
 $$
   \{X \to B SU(2)\}_{/homotopy}
   \;\simeq\;
-  \{ SU(2)\text{-principal bundles}\}_{/\text{gauge tranformations}}
+  \{ SU(2)\text{-principal bundles}\}_{/\text{gauge transformations}}
   \,.
 $$
 
