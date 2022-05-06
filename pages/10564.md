@@ -573,6 +573,10 @@ $$
 
 * [[equivariant elliptic genus]]
 
+* [[orbifold cohomology]]
+
+  * [[orbifold K-theory]]
+
 * related but different: [[modular equivariant elliptic cohomology]]
 
 * [[equivariant K-theory]]
@@ -587,7 +591,7 @@ $$
 In
 
 * {#GinzburgKapranovVasserot95} [[Victor Ginzburg]], [[Mikhail Kapranov]], Eric Vasserot, _Elliptic Algebras and Equivariant Elliptic Cohomology_ ([arXiv:q-alg/9505012](http://arxiv.org/abs/q-alg/9505012))
- {#GinzburgKapranovVasserot95}
+ 
 
 a set of axioms was proposed that an equivariant elliptic cohomology theory should satisfy. See also
 
@@ -640,15 +644,23 @@ More is in
 
 * {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
 
-Discussion of twisted ad- equivariant [[Tate K-theory]]:
+### As ad-equivariant Tate K-theory
+ {#ReferencesAsAdEquivariantTateKTheory}
+
+Discussion of [[equivariant elliptic cohomology]] over the [[Tate curve]], as [[twisted ad-equivariant Tate K-theory]]:
+
+* {#Ganter07} [[Nora Ganter]], Section 3.1 in: _Stringy power operations in Tate K-theory_ ([arXiv:math/0701565](https://arxiv.org/abs/math/0701565))
+
+* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. Volume 15, Number 1 (2013), 313-342. ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680))
+
+* [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl](http://hdl.handle.net/2142/97268))
+
+* {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
+
 
 For simply connected  [[compact Lie groups]]:
 
 * Kiran Luecke, _Completed K-theory and Equivariant Elliptic Cohomology_ ([arXiv:1904.00085](https://arxiv.org/abs/1904.00085))
-
-following 
-
-* [[Nitu Kitchloo]], [[Jack Morava]], Section 5 of: _Thom Prospectra for Loopgroup representations_ ([arXiv:math/0404541](https://arxiv.org/abs/math/0404541))
 
 For [[finite groups]]:
 
