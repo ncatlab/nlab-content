@@ -267,6 +267,11 @@ following
 [[!redirects double-occurrence word]]
 [[!redirects double-occurrence words]]
 
+[[!redirects round chord diagram]]
+[[!redirects round chord diagrams]]
+
 [[!redirects algebra of chord diagrams]]
 [[!redirects algebras of chord diagrams]]
+
+
 
