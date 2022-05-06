@@ -1075,6 +1075,9 @@ the expected term $r^c \wedge r^c \wedge r^c$.
 
 * [[geometry of physics -- supergeometry]]
 
+
+
+
 ## References 
  {#References}
 
@@ -1082,7 +1085,7 @@ The formulation of supergravity of [[supermanifolds]] and the relevance of the [
 
 * R. Grimm, [[Julius Wess]], [[Bruno Zumino]], _A complete solution of the Bianchi identities in superspace with supergravity constraints_, Nuclear Phys. B152 (1979), 255&#8211;265.
 
-* [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
+* [[Julius Wess]], [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
 
 The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
