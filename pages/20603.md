@@ -5,10 +5,10 @@
 
 ## Idea
 
-An **arity space** is a common generalization of [[coherence spaces]] and [[finiteness spaces]] to an arbitrary set of "arities".
+An **arity space** is a common generalization of [[coherence spaces]], [[finiteness spaces]], and [[totality spaces]] to an arbitrary set of "arities".
 
 +--{: .standout}
-This is an original and tentative definition.  In particular, it's not clear whether the allowed sets of arities should be restricted in some way; should they be down-closed?  An [[arity class]]?  A [[regular cardinal]]?  The only previously studied examples appear to be the cases $\{0,1\}$ (coherence spaces) and $\{0,1,2,3,\dots\}$ (finiteness spaces).
+This is an original and tentative definition.  In particular, it's not clear whether the allowed sets of arities should be restricted in some way.  Should they be an [[arity class]]?  The only previously studied examples appear to be the cases $\{0,1\}$ (coherence spaces), $\{0,1,2,3,\dots\}$ (finiteness spaces), and $\{1\}$ (totality spaces), which are all arity classes.
 =--
 
 ## Definition
@@ -28,8 +28,12 @@ A **morphism** or **relation** between $\kappa$-arity spaces is a [[relation]] $
 
 * If $\kappa = \omega = \{0,1,2,3,\dots\}$, then a $\kappa$-arity space is precisely a [[finiteness space]].
 
+* If $\kappa=\{1\}$, then a $\kappa$-arity space is (almost?) precisely a [[totality space]].
+
 ## Properties
 
 **Conjecture:** For any $\kappa$, the category of $\kappa$-arity spaces is [[star-autonomous]].
+
+This might follow from constructing it using double gluing and orthogonality (see discussion thread).
 
 [[!redirects arity spaces]]
