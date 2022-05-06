@@ -165,6 +165,12 @@ A [[geometric theory]] $T$ is a [[theory of presheaf type]] precisely if its cat
 
 See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
+
+### Well-poweredness and well-copoweredness
+
+* Every accessible category with [[pushouts]] is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdamekRosicky).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-powered then there exist arbitrarily large [[measurable cardinals]].
+
+
 ## Examples
 
 ### Functor categories
