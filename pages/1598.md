@@ -25,7 +25,7 @@
 
 ## Idea
 
-A **Lie group** is a [[group]] with [[smooth structure]].
+A **Lie group** is a [[group]] with [[smooth structure]]. Lie groups form a category, [[LieGrp]].
 
 
 ## Definition
