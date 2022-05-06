@@ -32,10 +32,6 @@ A discussion (with an eye towards [[supersymmetric quantum field theory]] and [[
 
 * Flip Tanedo, _Notes on Seibergology_ ([pdf](http://www.lns.cornell.edu/~pt267/files/notes/Seibergology.pdf))
 
-Review includes
-
-* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, From Fields to Strings: Circumnavigating Theoretical Physics: pp. 445-522. ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
-
 A review of effective actions in the [[background field formalism]] is in section 3.1 of 
 
 * Darren Trevor Grasso, _Higher order contributions to the effective action of $\mathcal{N} = 2$ and $4$ supersymmetric Yang-Mills theories from heat kernel techniques in superspace_ Thesis (2007) ([web](	
