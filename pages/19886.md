@@ -43,13 +43,31 @@ The following Def. \ref{ConfigurationSpacesOfnPoints} is not the most general de
 **([[configuration spaces of points]])**
 
 Let $X$ be a [[manifold]], possibly with [[manifold with boundary|boundary]].
-For $n \in \mathbb{N}$, the
- _**configuration space of $n$ points** in $X$ disappearing at the boundary_ is the [[topological space]]
+
+
+
+For $n \in \mathbb{N}$, the _**configuration space of $n$ distinguishable points** in $X$ disappearing at the boundary_ is the [[topological space]]
+
+\[
+    \label{DistinguishableConfigurationSpaceJustForX}
+    \mathrm{Conf}^{ord}_{n}(X)
+    \;\coloneqq\;
+      \big(
+        X^n \setminus \mathbf{\Delta}_X^n
+      \big)
+      / \partial(X^n)
+\]
+
+which is the [[complement]] of the [[fat diagonal]] $\mathbf{\Delta}_X^n \coloneqq \{(x^i) \in X^n | \underset{i,j}{\exists} (x^i = x^j) \}$ inside the $n$-fold [[product space]] of $X$ with itself, followed by [[quotient space|collapsing]] any configurations with elements on the [[boundary]] of $X$ to a common [[pointed topological space|base point]].
+
+Then the _**configuration space of $n$ in-distinguishable points** in $X$ is the further [[quotient topological space]]
 
   \[
     \label{ConfigurationSpaceJustForX}
     \mathrm{Conf}_{n}(X)
     \;\coloneqq\;
+    Conf_n^{ord}(X)/\Sigma_n
+    \;=\;
     \Big(
       \big(
         X^n \setminus \mathbf{\Delta}_X^n
@@ -60,14 +78,9 @@ For $n \in \mathbb{N}$, the
     \,,
   \]
 
-  where
-  $\mathbf{\Delta}_X^n : = \{(x^i) \in X^n | \underset{i,j}{\exists} (x^i = x^j) \}$  is the [[fat diagonal]] in $X^n$
-  and where $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X$ inside
-  $X^n$.
+where $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X$ inside $X^n$.
   
-  More generally, let $Y$ be another [[manifold]], possibly with [[manifold with boundary|boundary]].
-  For $n \in \mathbb{N}$, the
-  _**configuration space of $n$ points** in $X \times Y$ vanishing at the boundary and distinct as points in $X$_ is the [[topological space]]
+  More generally, let $Y$ be another [[manifold]], possibly with [[manifold with boundary|boundary]]. For $n \in \mathbb{N}$, the _**configuration space of $n$ points** in $X \times Y$ vanishing at the boundary and distinct as points in $X$_ is the [[topological space]]
 
   \[
     \label{ConfigurationSpaceWithXAndY}
@@ -355,7 +368,7 @@ is the [[quotient]] by the [[symmetric group]]-[[action]] of the _[[smash produc
 $$
   Y^{\times_n}/\partial (Y^{\times_n}) 
   \;\simeq\;
-  ( Y/\partial Y )^{\wedge^n}
+  ( Y/\partial Y )^{\wedge_n}
   \,.
 $$
 
@@ -365,9 +378,21 @@ Hence in summary:
   \label{ConfSplitsAsSmashProduct}
   Conf_n(X, Y)
   \;\simeq\;
-  Conf_n(X) \wedge_{\Sigma(n)} \left( Y/\partial Y \right)^{\wedge_n}
-  \,.
+  Conf^{ord}_n(X) \wedge_{\Sigma(n)} \left( Y/\partial Y \right)^{\wedge_n}
+  \,,
 \]
+
+where 
+
+$$
+  Conf_n^{ord}(X)
+  \;\coloneqq\;
+  \left(
+    X^{\times_n} \setminus \mathbf{\Delta}_X^n
+  \right)/ \partial(X^n)
+$$
+
+is the ordered configuration space (eq:DistinguishableConfigurationSpaceJustForX).
 
 This construction, regarded as a [[functor]] from [[pointed topological spaces]] to [[spectra]]
 
@@ -379,7 +404,7 @@ $$
     \\
     Z 
       &\mapsto&
-    \Sigma^\infty Conf_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
+    \Sigma^\infty Conf^{ord}_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
   }
 $$
 
@@ -390,7 +415,7 @@ is an [[n-homogeneous (∞,1)-functor]] in the sense of [[Goodwillie calculus]],
   Z 
     \;\mapsto\;
   \underset{k \in \{1, \cdot, n\}}{\bigoplus}
-  \Sigma^\infty Conf_k(X) \wedge_{\Sigma(k)} Z^{\wedge_k}
+  \Sigma^\infty Conf^{ord}_k(X) \wedge_{\Sigma(k)} Z^{\wedge_k}
 \]
 
 are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mapping spaces (eq:StableSplittingOfMappingSpacesOutOfSphere) of Prop. \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace}, there is a [[projection]] morphism onto the first $n$ [[wedge sum|wedge summands]]
@@ -403,7 +428,7 @@ are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mappin
     Maps^{\ast/}( S^d, \Sigma^d Z)
     &\simeq&
     \underset{k \in \mathbb{N}}{\oplus} 
-      \Sigma^\infty Conf_k(\mathbb{R}^d) \wedge_{\Sigma(k)} Z^{\wedge_k}
+      \Sigma^\infty Conf^{ord}_k(\mathbb{R}^d) \wedge_{\Sigma(k)} Z^{\wedge_k}
     \\
     &&
     &&
@@ -412,7 +437,7 @@ are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mappin
     &&
     &&
      \underset{k \in \{1, \cdot, n\}}{\bigoplus}
-     \Sigma^\infty Conf_k( \mathbb{R}^d ) \wedge_{\Sigma(k)} Z^{\wedge_k}
+     \Sigma^\infty Conf^{ord}_k( \mathbb{R}^d ) \wedge_{\Sigma(k)} Z^{\wedge_k}
   }
 \]
 
@@ -426,7 +451,7 @@ By [[Goodwillie calculus]] this means that (eq:IdentifyingTheGoodwillieTaylorSta
   \;\colon\;
   Z \mapsto
   \underset{k \in \{1, \cdot, n\}}{\bigoplus}
-  \Sigma^\infty Conf_k(S^d, Z) 
+  \Sigma^\infty Conf^{ord}_k(S^d, Z) 
 \]
 
 at $Z \in Top^{\ast/}$ of the [[Goodwillie-Taylor tower]] for the [[mapping space]]-functor 
@@ -455,11 +480,11 @@ $$
   \begin{aligned}
     P_1 Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y) )
     & =
-    \Sigma^\infty Conf_1( \mathbb{R}^d , Y )
+    \Sigma^\infty Conf^{ord}_1( \mathbb{R}^d , Y )
     \\
     & \simeq
     \Sigma^\infty 
-      \underset{\simeq S^0}{\underbrace{Conf_1( \mathbb{R}^d )}} 
+      \underset{\simeq S^0}{\underbrace{Conf^{ord}_1( \mathbb{R}^d )}} 
       \wedge (Y/\partial Y)
     \\
     & \simeq
