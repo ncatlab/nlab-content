@@ -40,7 +40,7 @@ $$
 
 of the [[category of abelian groups]] into the [[category of groups]], whose reflector is the operation of _[[abelianization]]_.
 
-A useful property of reflective subcategories is that the inclusion $C \hookrightarrow D$ [[created limit|creates all limit]] of $D$ and $C$ has all [[colimits]] which $D$ admits.
+A useful property of reflective subcategories is that the inclusion $C \hookrightarrow D$ [[created limit|creates all limits]] of $D$ and $C$ has all [[colimits]] which $D$ admits.
 
 
 
