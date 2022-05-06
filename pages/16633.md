@@ -25,7 +25,7 @@ Accordingly a [[4-manifold|4-dimensional]] [[submanifold]] $\Sigma_4 \hookrighta
 
 In [[M-theory on G2-manifolds]], 
 
-* associative 3-manifold appear as [[supersymmetric cycles]] relevant for [[membrane instantons]] for [[M2-branes]] [[wrapped brane|wrapping them]];
+* associative 3-manifolds appear as [[supersymmetric cycles]] relevant for [[membrane instantons]] for [[M2-branes]] [[wrapped brane|wrapping them]];
 
 * coassociative 4-manifolds appear as fibers of compactifications dual to [[F-theory on CY4-folds]] ([Gukov-Yau-Zaslow 02](#GukovYauSaslow02)).
 
