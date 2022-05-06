@@ -19,7 +19,7 @@
 
 ## Idea
 
-Given a [[diffeological space]], the _D-topology_ ("diffeological topology") is a natural [[topological space|topology]] on its underlying set of points, namely the [[final topology]] which makes all its [[plots]] be [[continuous functions]].
+Given a [[diffeological space]], the _D-topology_ ("diffeological topology") is a natural [[topological space|topology]] on its underlying [[set]] of [[points]], namely the [[final topology]] which makes all its [[plots]] be [[continuous functions]].
 
 ## Definition
 
@@ -27,6 +27,9 @@ Given a [[diffeological space]], the _D-topology_ ("diffeological topology") is 
 [[!include adjunction between topological spaces and diffeological spaces]]
 
 
+## Related concepts
+
+* [[D-topological space]]
 
 ## References
 
