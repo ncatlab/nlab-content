@@ -4,6 +4,7 @@ Consider 5d- and 6d-dimensional [[Minkowski spacetime]] equipped with global [[o
 
 $$
   \array{
+   &
     \mathbb{R}^{4,1}
     &\overset{\;\;\;\iota_5\;\;\;}{\hookrightarrow}&
     \mathbb{R}^{5,1}
@@ -25,15 +26,15 @@ Now any [[differential 3-form]] $H_3$ on $\mathbb{R}^{5,1}$ decomposes as
   \;=\;
   \widehat{F} \wedge d x^{5}
   +
-  d \widehat{B}
+  \widehat{H}
 \]
 
-for unique differential forms on $\mathbb{R}^{4,1}$
+for unique differential forms of the form
 
 $$
-  \widehat F 
+  \widehat F
     \;=\; 
-  \tfrac{1}{2}\hat F_{\kappa_1 \kappa_2} 
+  \tfrac{1}{2}\hat F_{\kappa_1 \kappa_2}(x^\kappa, x^5)
   d x^{\kappa_1} \wedge d x^{\kappa_2} 
 $$
 
@@ -42,10 +43,19 @@ and
 $$
   \widehat{H}
     \;=\; 
-  \tfrac{1}{3!} \widehat{H}_{\kappa_1 \kappa_2 \kappa_3} 
+  \tfrac{1}{3!} \widehat{H}_{\kappa_1 \kappa_2 \kappa_3}(x^\kappa, x^5) 
   d x^{\kappa_1} \wedge d x^{\kappa_2} \wedge d x^{\kappa_3} 
   \,.
 $$
+
+In the case that $H_3$ has vanishing [[Lie derivative]] along the $x^5$-direction, 
+
+\[
+  \label{VanishingLieDerivateiveAlongx5}
+  \mathcal{L}_5 H_3 \;=\; 0
+\] 
+
+then also these components forms do not depend on $x^5$ are actualls [[pullback of differential forms|pullbacks]] of differential forms on $\mathbb{R}^{4,1}$.
 
 In terms of this decomposition, the 6d [[Hodge dual]] of $H_3$ is equivalently given by the 5d [[Hodge duals]] of these components as (best seen by the relation to [[Hodge pairing]] according to [this Prop.](Hodge+star+operator#HodgePairing))
 
@@ -86,7 +96,7 @@ $$
   \,.
 $$
 
-It follows that  the condition that $H_3$ be a [[closed differential form|closed]] and [[self-dual higher gauge theory|self-dual 3-form]] is equivalent to its 5d components $\widehat{F}$ ($\widehat{H}$) being the (dual) [[field strength]]/[[Faraday tensor]] satisfying the [[Maxwell equations]] of [[D=5 Maxwell theory]] (without [[source fields|source]] [[conserved current|current]]):
+It follows that if there is no $x^5$-dependence (eq:VanishingLieDerivateiveAlongx5) then the condition that $H_3$ be a [[closed differential form|closed]] and [[self-dual higher gauge theory|self-dual 3-form]] is equivalent to its 5d components $\widehat{F}$ ($\widehat{H}$) being the (dual) [[field strength]]/[[Faraday tensor]] satisfying the [[Maxwell equations]] of [[D=5 Maxwell theory]] (without [[source fields|source]] [[conserved current|current]]):
 
 $$ 
   \underset{
@@ -109,7 +119,9 @@ $$
   }
   \;\;\;
   \overset{
-    H_3 = \widehat{F}\wedge d x^5 + \cdots
+    {\mathcal{L}_{5} H_3 = 0}
+    \atop
+    {H_3 = \widehat{F}\wedge d x^5 + \cdots}
   }{
     \Leftrightarrow
   }
@@ -133,5 +145,7 @@ $$
   \right.  
   }
 $$
+
+This may be summarized as saying that the massless part of the [[Kaluza-Klein reduction]] of [[self-dual higher gauge theory|self-dual 3-form theory]] from 6d to 5d  is [[D=5 Maxwell theory]].
 
 Essentially this relation underlies the formulation of the [[M5-brane]] via the [[Perry-Schwarz Lagrangian]].
