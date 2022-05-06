@@ -117,9 +117,9 @@ A __cluster space__ is a [[set]] $S$ together with a [[relation]] $\rightsquigar
 1. Centred: The [[principal ultrafilter]] $F_x\rightsquigarrow x$;
 2. Isotone: If $F \supseteq G$ and $F \rightsquigarrow x$, then $G \rightsquigarrow x$;
 3. Directed: If $F\cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
-4. Nontriviality: If $F \rightsquigarrow x$, then $F$ is proper.
+4. Nontrivial: If $F \rightsquigarrow x$, then $F$ is proper.
 
-Note that the logic of isotony and directedness are reversed for clustering from those of convergence.  Note that nontriviality implies the nullary version of directedness (and, in [[classical logic]], is implied by it).  Alternatively, we can take $\rightsquigarrow$ as a relation only on the proper filters; then nontriviality may be omitted from the axioms.
+Note that the logic of isotony and directedness for clustering is the reverse of that for convergence.  Nontriviality implies the nullary version of directedness (and, in [[classical logic]], is implied by it).  Alternatively, we can take $\rightsquigarrow$ as a relation only on the proper filters; then nontriviality may be omitted from the axioms.
 
 Every convergence space is a cluster space (using the definition of $\rightsquigarrow$ from $\to$ above) and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
 
@@ -139,3 +139,16 @@ Every convergence space is a cluster space (using the definition of $\rightsquig
 
 [[!redirects convergence relation]]
 [[!redirects convergence relations]]
+
+[[!redirects cluster space]]
+[[!redirects cluster spaces]]
+[[!redirects clustering space]]
+[[!redirects clustering spaces]]
+[[!redirects cluster structure]]
+[[!redirects cluster structures]]
+[[!redirects clustering structure]]
+[[!redirects clustering structures]]
+[[!redirects cluster relation]]
+[[!redirects cluster relations]]
+[[!redirects clustering relation]]
+[[!redirects clustering relations]]
