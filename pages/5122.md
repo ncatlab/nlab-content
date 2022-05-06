@@ -46,7 +46,7 @@ $$
 and the _back face_ $d^q_0$ map is that induced by
 
 $$
-  [p] \to [p+q] : i \mapsto i+p
+  [q] \to [p+q] : i \mapsto i+p
   \,.
 $$
 
