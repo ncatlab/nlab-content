@@ -4,41 +4,60 @@
 
 ## Some publications
 
+On [[moment maps]] and [[equivariant de Rham cohomology]]
+
+* {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology 23, 1 (1984) (<a href="https://doi.org/10.1016/0040-9383(84)90021-1">doi:10.1016/0040-9383(84)90021-1</a>, [pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
+
+On [[group characters]] and [[group cohomology]] of [[finite groups]]:
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Mathématiques de l'IHÉS, Volume 9 (1961) , p. 23-64 ([numdam]( http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
+On the [[Atiyah-Hirzebruch spectral sequence]]
+
 * [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
+
+On [[KR-theory]]
 
 * {#Atiyah66} [[Michael Atiyah]], _K-theory and reality_, The Quarterly Journal of Mathematics. Oxford. Second Series 17 (1) (1966),: 367&#8211;386, ISSN 0033-5606, MR 0206940 ([doi:10.1093/qmath/17.1.367](https://doi.org/10.1093/qmath/17.1.367), [[AtiyahKReal.pdf:file]])
 
-  (introducing [[KR-theory]])
+On [[equivariant K-theory]] and the [[Atiyah-Segal completion theorem]]:
 
 * [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
 
+On [[instantons]] in [[Yang-Mills theory]]:
 
 * {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
 
+On [[skyrmions]]:
+
 * {#AtiyahManton89} [[Michael Atiyah]], N S Manton, _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+
+On [[M-theory on G2-manifolds]]:
+
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
+On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 
 * {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
 
-  (on [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]])
+On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]]:
 
 * {#AtiyahManton16} [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_ ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816))
 
-  (patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]])
 
 
 
 
 
-## some quotes
+## Selected quotes
 
 > The aim of theory really is, to a great extent, that of systematically organizing past experience in such a way that the next generation, our students and their students and so on, will be able to absorb the essential aspects in as painless a way as possible, and this is the only way in which you can go on cumulatively building up any kind of scientific activity without eventually coming to a dead end. 
 
 > (M.F. Atiyah, "How research is carried out", Bull. IMA., 10:232&#8211;234, 1974)
 
 ## related $n$Lab entries
+
+* [[equivariant de Rham cohomology]]
 
 * [[topological K-theory]]
 
