@@ -55,7 +55,7 @@ The original articles:
 
 Inclusion of [[electromagnetism]]:
 
-* A.Yu. Korchin, D. Van Neck, M. Waroquier, _Electromagnetic interaction in chiral quantum hadrodynamics and decay of vector and axial-vector mesons_, 	Phys.Rev. C67 (2003) 015207 ([arXiv:nucl-th/0302042](https://arxiv.org/abs/nucl-th/0302042))
+* A. Yu. Korchin, D. Van Neck, M. Waroquier, _Electromagnetic interaction in chiral quantum hadrodynamics and decay of vector and axial-vector mesons_, Phys. Rev. C67 (2003) 015207 ([arXiv:nucl-th/0302042](https://arxiv.org/abs/nucl-th/0302042))
 
 Relation to [[quark-meson coupling model]]:
 
