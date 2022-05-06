@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
