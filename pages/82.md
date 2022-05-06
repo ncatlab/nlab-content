@@ -106,7 +106,7 @@ A survey is in
 
 A nice and concise introduction is available in
 
-* [[Francis Borceux]], _Some glances at topos theory_ , lecture notes Como 2018. ([pdf](http://tcsc.lakecomoschool.org/files/2018/06/Como2018.pdf))
+* [[Francis Borceux]], _Some glances at topos theory_ , lecture notes Como 2018. ([pdf](http://tcsc.lakecomoschool.org/files/2018/06/Como2018.pdf), [video playlist](https://www.youtube.com/watch?v=s_fN9euuVAY&list=PLh_3Q6ZRqWs0LBptMGClJ8OArR0fBT6Pp&index=11))
 
 * [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos theory_ Master Class notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
 
