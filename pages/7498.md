@@ -129,7 +129,12 @@ The image of the Borel construction in [[rational homotopy theory]] is the [[Wei
 
   * [[equivariant de Rham cohomology]]
 
+
 ## References
+
+Review includes:
+
+* Stephen A. Mitchell, _Notes on principal bundles and classifying spaces_, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
 
 The nature of the Borel construction as the geometric realization of the action groupoid is mentioned for instance in 
 
