@@ -713,11 +713,15 @@ $$
 
 that $\mu$ is uniquely determined already by the component $\mu_a\big( (x^a), (\theta^\alpha = 0)  \big)$. For this it is sufficent to show that all component functions
 
-1. $\mu_a\big( (x^a), (\theta^\alpha)  \big)$
+$\mu_a\big( (x^a), (\theta^\alpha)  \big)$
 
-1. $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$
+and
+
+$\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$
 
 may be expressed as functions of the $\mu_a\big( (x^a), (\theta^\alpha = 0) \big)$.
+
+
 
 
 **1)**
