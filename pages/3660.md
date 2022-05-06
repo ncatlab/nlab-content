@@ -32,7 +32,7 @@ A category $D$ is a **direct category** if the following *equivalent* conditions
 * $D$ contains no infinite descending chains of nonidentity morphisms $\cdots \to\cdot \to\cdot\to\cdot$ (including cycles of length $\gt 0$).
 * The relation $a\prec b$ on $ob(D)$ defined by "there exists a nonidentity morphism from $a$ to $b$" is [[well-founded relation|well-founded]].
 * There exists a function $d\colon ob(D)\to Ord$, where $Ord$ is the class of [[ordinals]], such that every nonidentity morphism of $D$ raises the degree.
-* There exists an identity-reflecting functor $d : D\to \mathbf{Ord}$, where $\mathbf{Ord}$ is the large poset of ordinals viewed as a category.
+* There exists an identity-reflecting functor (that is, it maps a morphism to an identity if and only if the morphism is itself an identity) $d : D\to \mathbf{Ord}$, where $\mathbf{Ord}$ is the large poset of ordinals viewed as a category.
 * $D$ is a [[Reedy category]] (in particular an _[[elegant Reedy category]]_) in which $D_-$ consists only of identity maps (or equivalently $D_+$ is all of $D$).
 
 In particular, a [[poset]] is a direct category just when its strict order relation $\lt$ is well-founded.  Thus, direct categories can be seen as a categorification of well-founded relations.
@@ -85,7 +85,7 @@ Every direct category (and every inverse category) is in particular a [[Reedy ca
 
 ### Inside the simplex category
 
-The [[wide subcategory]] $\Delta_+$ of the [[simplex category]] on the injective map (the co-face maps) is direct. Its [[presheaves]] are [[semi-simplicial objects]]/[[semi-simplicial sets]] as opposed to [[simplicial objects]]/[[simplicial sets]].
+The [[wide subcategory]] $\Delta_+$ of the [[simplex category]] on the injective map is direct. That is, the category with objects being the totally ordered sets $\{0\}, \{0, 1\}, \{0, 1, 2\}...$, and the morphisms being injective order-preserving maps. Its [[presheaves]] are [[semi-simplicial objects]]/[[semi-simplicial sets]] as opposed to [[simplicial objects]]/[[simplicial sets]].
 
 ### The direct category of corollas
 
