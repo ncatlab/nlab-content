@@ -1,0 +1,4 @@
+The concept is introduced by Kyoto school (Date, Miwa, Jimbo) around 1980s
+
+* M. A. Semenov-Tian-Shansky, _Poisson groups and dressing transformations_, Zap. Nauchn. Sem. LOMI, 150 (1986),  119–142 [mathnet.ru](http://mi.mathnet.ru/znsl4975); _Poisson Lie groups, quantum duality principle, and the quantum double_, in: Math. aspects of conformal and topological field theories and quantum groups (South Hadley, MA, 1992),  219--248, Contemp. Math. __175__, AMS 1994; _Classical $r$-matrices, Lax equations, Poisson Lie groups and dressing transformations_, in:  Field theory, quantum gravity and strings, II (Meudon/Paris, 1985/1986), 174--214, Lec. Notes in Phys. __280__, Springer 1987, [MR89g:58098](http://www.ams.org/mathscinet-getitem?mr=89g:58098)
+* А.Г. Рейман, М.А. Семёнов-Тян-Шанский, _Интегрируемые системы. Теоретико-групповой подход_, monograph (2003)
