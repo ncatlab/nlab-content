@@ -624,7 +624,7 @@ A discussion with an emphasis of the generalization to non-abelian simplicial gr
 * [[Tim Porter]], _[[Crossed Menagerie]]_
 
  
-The discusson of the hypercrossed complex structure on the Moore complex of a general simplicial group is in
+The discusson of the [[hypercrossed complex]] structure on the Moore complex of a general simplicial group is in
 
 * {#Carrasco-Cegarra} [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
 
