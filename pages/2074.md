@@ -265,6 +265,22 @@ In words we have
 
 * The marked edges of $Y^X$ are those simplicial maps $X \times \Delta[1] \rightarrow Y$ such that the restriction of $X_1 \times \Delta[1]_1 \rightarrow Y_1$ to $E \times \Delta[1]_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta[1] \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
 
++-- {: .un_corolary }
+###### Corollary
+
+$Map^\flat(X,Y)$ is full simplicial subset of the internal hom of the underlying simplicial sets spanned by the vertices giving mark preserving maps, in the sense that $\Map^\flat(X,Y)$ contains precisely the simplices whose vertices are mark-preserving.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The $n$-simplices of this type are the simplicial maps
+$X \times \Delta[n] \to Y$ such that, for each point $\Delta[0] \to \Delta[n]$,
+the composite $X \times \Delta[0] \to X \times \Delta[n] \to Y$ is mark-preserving.
+
+=--
+
 +-- {: .un_def }
 ###### Definition
 
