@@ -4,7 +4,11 @@
 
 ## Concepts
 
-**[[field theory]]**: [[classical field theory|classical]], [[prequantum field theory|pre-quantum]], [[quantum field theory|quantum]], [[perturbative quantum field theory|perturbative quantum]]
+**[[field theory]]**: 
+
+* [[classical field theory|classical]], [[prequantum field theory|pre-quantum]], [[quantum field theory|quantum]], [[perturbative quantum field theory|perturbative quantum]]
+
+* [[relativistic field theory|relativistic]], [[Euclidean field theory|Euclidean]], [[thermal quantum field theory|thermal]]
 
 **[[Lagrangian field theory]]** 
 
