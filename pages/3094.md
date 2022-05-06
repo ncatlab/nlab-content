@@ -25,15 +25,15 @@
 <img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
 </div>
 
-Let $(X, \tau_X)$ be a [[topological space]], and let $S \subset X$ be a [[subset]] of its underlying [[set]]. Then the corresponding _[[topological subspace]]_ has $S$ as its underlying set, and its [[open subsets]] are those subsets of $S$ which arise as restrictions of open subsets of $X$ (i.e. [[intersections]] of open subsets of $X$ with $S$):
+Let $(X, \tau_X)$ be a [[topological space]], and let $Y \subset X$ be a [[subset]] of its underlying [[set]]. Then the corresponding _[[topological subspace]]_ has $Y$ as its underlying set, and its [[open subsets]] are those subsets of $Y$ which arise as restrictions of open subsets of $X$ (i.e. [[intersections]] of open subsets of $X$ with $Y$):
 
 $$
   \left(
-    U_S \subset S\,\,\text{open}
+    U_Y \subset Y\,\,\text{open}
   \right)
     \,\Leftrightarrow\,
   \left(
-     \underset{U_X \in \tau_X}{\exists} \left( U_S = U_X \cap S \right)
+     \underset{U_X \in \tau_X}{\exists} \left( U_Y = U_X \cap Y \right)
   \right)
   \,.
 $$
@@ -50,7 +50,7 @@ The picture on the right shows two open subsets inside the [[square]], regarded 
 
 The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
 
-A continuous function that factors as a [[homeomorphism]] onto its [[image]] equipped with the subspace topology is called an _[[embedding of topological spaces]]_.
+A continuous function that factors as a [[homeomorphism]] onto its [[image]] equipped with the subspace topology is called an _[[embedding of topological spaces]]_.  Such a map is referred to as a _subspace inclusion_.
 
 A property of topological spaces is said to be **hereditary** if its satisfaction for a topological space $X$ implies its satisfaction for all topological subspaces of $X$. 
 
