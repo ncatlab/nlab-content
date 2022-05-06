@@ -171,6 +171,10 @@ The observation that the condition is implied by [[supergravity C-field|C-field]
 
 * {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
+Discussion of the [[Page charge]] in relation to the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape:
+
+* [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
+
 
 
 
