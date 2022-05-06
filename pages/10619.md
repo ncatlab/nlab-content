@@ -1130,8 +1130,7 @@ Interpretation in [[bordism theory]]:
 
 Interpretation via [[index theory]]:
 
-* [[Michael Atiyah]], [[Vijay Patodi]], [[Isadore Singer]], 
-p. 18 onwards in: _Spectral asymmetry and Riemannian geometry. II_, Volume 78, Issue 3 November 1975 , pp. 405-432 ([doi:10.1017/S0305004100051872](https://doi.org/10.1017/S0305004100051872))
+* [[Michael Atiyah]], [[Vijay Patodi]], [[Isadore Singer]], p. 18 onwards in: _Spectral asymmetry and Riemannian geometry. II_, Volume 78, Issue 3 November 1975 , pp. 405-432 ([doi:10.1017/S0305004100051872](https://doi.org/10.1017/S0305004100051872))
 
 
 
