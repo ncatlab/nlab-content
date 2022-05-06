@@ -56,6 +56,12 @@ Abstractly, one may *define* an [[algebraic category]] to be a category equipped
 The relationship between monads and adjunctions itself constitutes an adjunction called the **semantics-structure adjunction**. Explicitly, for a category $C$ there exist functors $Str:Cat_{/C}^*\to Mon(C):Sem$ with $Str\dashv Sem$ where $Cat_{/C}^*$ denotes the full subcategory of $Cat_{/C}$ consisting of functors admitting a codensity monad; $Str$ sends a functor to its corresponding codensity monad and $Sem$ sends a monad to the forgetful functor from its E-M category to $C$. Intuitively speaking we may think of a monad as a kind of structure with which the objects of $\mathcal{C}$ can be equipped presented in a syntax-independent way, and we may think of the E-M category of a monad (viewed as a syntax independent presentation of an equational theory) as the category of models of this theory, which is often referred to by logicians as the semantics of the theory. For more on this, see for instance section 5 of ([Schäppi 2009](#DanielSchäppi1)).
 
 
+## Examples
+
+1. [[Eilenberg-Moore categories]] are obviously all examples, and up to equivalence, the only examples.
+2. If the categories are pre-orders, then a monadic adjunction is a [[Galois connection]] where the right adjoint reflects ordering and dually a comonadic adjunction is a Galois connection where the left adjoint reflects ordering.
+3. More generally an [[idempotent adjunction]] is monadic if and only if the right adjoint is [[fully faithful]], i.e. essentially a [[reflective subcategory]] inclusion. Dually, a comonadic idempotent adjunction is essentially a [[coreflective]] subcategory inclusion.
+
 ## Related pages
 
 * [[monadic functor]]
