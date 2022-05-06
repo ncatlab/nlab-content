@@ -40,22 +40,24 @@ The BLG model Lagrangian involves a trilinear operation on the scalar fields $\p
 
 $$
  [-,-,-] : V^{\otimes 3} \to V
-  \,.
+  \,,
 $$
+
+the _[[M2-brane 3-algebra]]_.
 
 Moreover, the [[supersymmetry]] of the Lagrangian hinges on the fact that this map satisfies a condition that has some similarity to a [[Jacobi identity]] for the binary operation on a [[Lie algebra]]. 
 
 Therefore, superficially, it looks like this might be the trinary bracket on an _[[L-∞ algebra]]_ structure on the space $V$. 
 
-On the one hand, indeed, by the discussion at _[[supergravity C-field]]_ , the M2-brane is charged under a [[circle n-bundle with connection|circle 3-bundle with connection]] whose [[higher gauge theory]] is controled by [[Lie n-algebra|Lie 3-algebra]]s in direct analogy to how the [[higher gauge theory]] of the [[string]] is controled by [[gerbes]]/[[principal 2-bundles]] and their [[Lie 2-algebra]]s and that of charged [[particles]] by ordinary [[Lie algebra]]s.
+On the one hand, indeed, by the discussion at _[[supergravity C-field]]_ , the M2-brane is charged under a [[circle n-bundle with connection|circle 3-bundle with connection]] whose [[higher gauge theory]] is controlled by [[Lie n-algebra|Lie 3-algebras]] in direct analogy to how the [[higher gauge theory]] of the [[string]] is controled by [[gerbes]]/[[principal 2-bundles]] and their [[Lie 2-algebra]]s and that of charged [[particles]] by ordinary [[Lie algebras]].
 
 
-Apparantly motivated by an intuition along these lines, ([BaggerLambert](#BaggerLambert)) named $(V,[-,-,-])$ a **[[3-Lie algebra|3-algebra]]**. This terminology was picked up by many authors In the process, it transmuted sometimes to "[[3-Lie algebra]]" and sometimes even to "Lie 3-algebra".
+Motivated by attempts in [Basu-Harvey 04](#BasuHarvey04) to generalize [[Nahm's equations]] for [[fuzzy funnels]] of [[D2-D4-brane intersections]] to [[M2-M5-brane intersections]], [Bagger-Lambert 06](#BaggerLambert06) introduced the algebraic structure that came to be known the _[[M2-brane 3-algebra]]_, further highlighted by [Gustavsson 07](#Gustavsson07). 
+This terminology was picked up by many authors In the process, it transmuted sometimes to "[[3-Lie algebra]]" and sometimes even to "Lie 3-algebra".
 
-Unfortunately, the Bagger-Lambert "3-algebra" is **not** a _[[Lie n-algebra|Lie 3-algebra]]_ in the established sense of an [[L-∞ algebra]] structure on a [[graded vector space]] $V$ concentrated in the lowest three degrees. At least not without some modifications in the interpretation of the map $[-,-,-]$. 
+Beware that the Bagger-Lambert "[[M2-brane 3-algebra]]" is _not- a _[[Lie n-algebra|Lie 3-algebra]]_ in the established sense of an [[L-∞ algebra]] structure on a [[graded vector space]] $V$ concentrated in the lowest three degrees. 
 
-The reason is that for the notion of an [[L-∞ algebra]] (as discussed there) it is crucial that $V$ is a $\mathbb{N}$-graded (or $\mathbb{Z}$-graded) vector space and that the $n$-ary brackets respect the degree in a certain way. 
-But in the [BaggerLambert](#BaggerLamber)-proposal, $V$ is all concentrated in a single degree (is regarded as ungraded). One immediately finds that in this case the $L_\infty$-respect of $[-,-,-]$ for the grading would imply that $V$ is taken to be in degree $1/2$. Since this is not in $\mathbb{N}$, it does not yield an $L_\infty$-algebra.
+The reason is that for the notion of an [[L-∞ algebra]] (as discussed there) it is crucial that $V$ is a $\mathbb{N}$-graded (or $\mathbb{Z}$-graded) vector space and that the $n$-ary brackets respect the degree in a certain way.  But in the [BaggerLambert](#BaggerLamber)-proposal, $V$ is all concentrated in a single degree (is regarded as ungraded). One immediately finds that in this case the $L_\infty$-respect of $[-,-,-]$ for the grading would imply that $V$ is taken to be in degree $1/2$. Since this is not in $\mathbb{N}$, it does not yield an $L_\infty$-algebra.
 
 Notice that the $\mathbb{N}$-grading (or $\mathbb{Z}$-grading) of $L_\infty$-algebras is crucial for the [[homotopy theory|homotopy theoretic]] interpretation of [[L-∞ algebra]]s as higher Lie algebras. None of the good theory of $L_\infty$-algebras survives when this grading is dropped. This grading has its origin in the [[Dold-Kan correspondence]], which establishes integral graded homological structures as models for structures in [[higher category theory]]. Notably, a higher Lie algebra is supposed to have a [[Lie integration]] to a [[smooth ∞-groupoid|smooth $n$-groupoid]]. Under this process, the elements in degree $k$ of the higher Lie algebra become tangents to the space of [[k-morphisms]] of this smooth $n$-groupoid. Clearly, here only integer $k$ do make sense.
 
@@ -82,6 +84,8 @@ It has also been suggested that "3-algebras" are to be interpreted in **[[n-plec
 
 ## Related concepts
 
+* [[M2-brane 3-algebra]]
+
 * [[ABJM theory]]
 
 * [[membrane matrix model]]
@@ -96,7 +100,7 @@ It has also been suggested that "3-algebras" are to be interpreted in **[[n-plec
 
 The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
 
-* [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+* {#BasuHarvey04} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
@@ -108,11 +112,11 @@ The original articles are
 
 * {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
 
-* [[Jonathan Bagger]], [[Neil Lambert]], _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_, Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
+* {#BaggerLambert07} [[Jonathan Bagger]], [[Neil Lambert]], _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_, Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
 
-and concerning the "3-algebra"-structure also
+and with special emphasis on the "[[M2-brane 3-algebra]]"-structure also:
 
-* [[Andreas Gustavsson]], Nucl. Phys. B811, 66-76 (2009). [arXiv:0709.1260].
+* {#Gustavsson07} [[Andreas Gustavsson]], _Algebraic structures on parallel M2-branes_ Nucl. Phys. B811, 66-76 (2009) ([arXiv:0709.1260](https://arxiv.org/abs/0709.1260))
 
 The interpretation in terms of branes at a $\mathbb{Z}/2$-[[ADE-singularities]] with [[discrete torsion]] in the [[supergravity C-field]] is due to
 
