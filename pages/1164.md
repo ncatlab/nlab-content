@@ -70,6 +70,7 @@ More generally, given a family $F$ of subgroups of $G$ which is closed under con
 Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\operatorname{Orb}_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will go across to the restricted setting.
 
 ## Examples
+ {#Examples}
 
 +-- {: .num_example #OrbitCategoryOfCyclicGroupOfOrder2} 
 ###### Example
@@ -152,6 +153,18 @@ $$
 
 =--
 
+
+\begin{imagefromfile}
+  "file_name": "OrbitCategoriesOfSmallCyclicGroups.jpg",
+  "width": 600,
+  "margin": {
+    "top": 0,
+    "right": 10,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  } 
+\end{imagefromfile}
 
 ## Properties
 
