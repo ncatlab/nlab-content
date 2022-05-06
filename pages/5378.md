@@ -1,11 +1,23 @@
-##Algebraic homotopy
 
-This book by [[Baues]] gives an account of the author's interpretation of  [[Henry Whitehead]]'s [[Algebraic Homotopy Theory]] as described in his ICM talk (1950) and his famous papers, _[[Combinatorial homotopy I]]_, (1949), and _[[Combinatorial homotopy II]]_, again (1949). Although the material contained in the first of these papers became central to the development of homotopy theory (CW complexes etc.) soon after its publication, the second paper, treating harder ideas including those of [[crossed complexes]], was relatively 'unstudied' until much more recently. This book gives one interpretation of the ideas it developed from a modern point of view. That development continued in [[Combinatorial Homotopy and 4-Dimensional Complexes]].
+
+The book 
+
+* [[Hans Baues]], 
+
+  _Algebraic Homotopy_, 
+
+  Cambridge studies in advanced mathematics 15, 
+
+  Cambridge University Press, (1989)
+
+  [doi:10.1017/CBO9780511662522](https://doi.org/10.1017/CBO9780511662522)
+
+gives an account of the author's interpretation of  [[Henry Whitehead]]'s [[Algebraic Homotopy Theory]] as described in his ICM talk (1950) and his famous papers, _[[Combinatorial homotopy I]]_, (1949), and _[[Combinatorial homotopy II]]_, again (1949). Although the material contained in the first of these papers became central to the development of homotopy theory (CW complexes etc.) soon after its publication, the second paper, treating harder ideas including those of [[crossed complexes]], was relatively 'unstudied' until much more recently. This book gives one interpretation of the ideas it developed from a modern point of view. That development continued in [[Combinatorial Homotopy and 4-Dimensional Complexes]].
 
 
 #Contents#
 
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Preface
@@ -34,8 +46,10 @@ This book by [[Baues]] gives an account of the author's interpretation of  [[Hen
 
 ###Index
 
-##References
+## References
 
-* _Algebraic Homotopy_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989).
+See also:
 
 *  [[Tim Porter]], _Review of "Algebraic Homotopy'' by H.J.Baues_, in Bull. London Math. Soc. 22 (1990) 196-197.
+
+category: reference
