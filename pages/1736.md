@@ -83,6 +83,8 @@ is a weak equivalence.
 
 =--
 
+(e.g. [Erdal-Ilhan 19, Lemma 3.3.](#ErdalIlhan19))
+
 +-- {: .proof}
 ###### Proof
 
@@ -221,8 +223,11 @@ For standard references see at _[[model category]]_.
 
 An example of an equivalence of [[homotopy categories]] of model categories which does not lift to a Quillen equivalence is in 
 
-* [[Daniel Dugger]], [[Brooke Shipley]], _A curious example of triangulated-equivalent model categories which are not Quillen equivalent_, Algebraic & Geometric Topology 9 (2009) ([pdf](http://homepages.math.uic.edu/~bshipley/dugger.shipley.curious.example.pdf))
- {#DuggerShipley09}
+* {#DuggerShipley09} [[Daniel Dugger]], [[Brooke Shipley]], _A curious example of triangulated-equivalent model categories which are not Quillen equivalent_, Algebraic & Geometric Topology 9 (2009) ([pdf](http://homepages.math.uic.edu/~bshipley/dugger.shipley.curious.example.pdf))
+ 
+The characterization of Quillen equivalences in the case that one of the adjoints creates equivalences appears for instance in 
+
+* {#ErdalIlhan19} Mehmet Akif Erdal, Aslı Güçlükan İlhan, _A model structure via orbit spaces for equivariant homotopy_, Journal of Homotopy and Related Structures volume 14, pages 1131–1141 (2019) ([arXiv:1903.03152](https://arxiv.org/abs/1903.03152), [doi:10.1007/s40062-019-00241-4](https://doi.org/10.1007/s40062-019-00241-4))
 
 
 [[!redirects Quillen equivalences]]
