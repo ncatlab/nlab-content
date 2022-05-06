@@ -85,7 +85,7 @@ The above considerations motivate a whole class of type system implementations t
 
 To justify the proof rules, systems like Nuprl, Cedille, and CLF are based on term realizability models. But it's not currently clear to what extent this approach is compatible with the [[relation between type theory and category theory|categorical semantics of type theory]].
 
-The specifics of CLF are motivated by the insight (of Matt Oliveri, but strongly inspired by [Andromeda](http://www.andromeda-prover.org/)) that [[extensional type theory|extensional type theories]] (with equality reflection) promise to make great logical frameworks. Although categorical semantics for "structural" fragments of Nuprl-style systems may be feasible and useful, CLF sidesteps the whole issue by being a metalogic for reasoning about formal systems.
+The specifics of CLF are motivated by the insight (of Matt Oliveri, but strongly inspired by [Andromeda](#Andromeda)) that [[extensional type theory|extensional type theories]] (with equality reflection) promise to make great logical frameworks. Although categorical semantics for "structural" fragments of Nuprl-style systems may be feasible and useful, CLF sidesteps the whole issue by being a metalogic for reasoning about formal systems.
 
 The idea is that by regarding CLF as a metalogic, its possible lack of categorical semantics is irrelevant because the object logic can be chosen so as to reason about the desired semantics. CLF as a metalogic is a way to try to make the (hypothesized) technical advantages of a Nuprl-Cedille-like approach applicable to any type theory.
 
@@ -690,9 +690,64 @@ There are tools that provide a style of language specification very similar to M
 
 These tools are designed under the assumption that, while open-ended, judgmental equality remains analytic. That is, it's something that you can sanely just check automatically. (Or so the story goes.) Trying to add extensional type theory's equality reflection rule to a rewrite engine is not going to work. It generally won't have a good way to solve the premise that proves the equation. (Either the system will give up, or do something useless.)
 
-The equality reflection rule is enough to make the judgments synthetic. That is, something you generally have to prove. To handle type systems with synthetic judgments, you either need to use a synthetic encoding, or use a tool designed to handle synthetic judgments, like Nuprl, [MetaPRL](http://metaprl.org/), [Andromeda](http://www.andromeda-prover.org/), or (eventually, hopefully) CLF.
+The equality reflection rule is enough to make the judgments synthetic. That is, something you generally have to prove. To handle type systems with synthetic judgments, you either need to use a synthetic encoding (for example, in LF or Isabelle), or use a tool designed to handle synthetic judgments, like Nuprl, [MetaPRL](http://metaprl.org/), [Andromeda](#Andromeda), or (eventually, hopefully) CLF.
 
 ### LF= {#LFEq}
+
+Like LF, and unlike MLLF, LF= has a fixed judgmental equality. Unlike either LF or MLLF, this judgmental equality is synthetic, because LF= has equality reflection. (LF=’s typing judgment form is synthetic as well, for the usual reason that it makes use of judgmental equality.)
+
+LF= is LF plus a reflective equality type constructor. (Combined with LF's eta equality for function types, this gets function extensionality.) But still no equality kinds. LF is often formulated such that only canonical forms (beta normal, eta long) are well typed. This probably does not work for LF=; use your favorite way of formulating extensional type theory. (The details don't matter here, since I'm going to propose CLF as a generalization of LF=.)
+
+To encode an intrinsically typed language in LF=, you can declare intrinsically typed constants/axioms in LF=, much like LF's analytic encoding:
+
+    tp : Type
+    el : tp -> Type
+
+    Pi : {A:tp} (el A -> tp) -> tp
+    lam : {A:tp} {B:el A->tp} ({a:el A} el (B a)) -> el (Pi A B)
+    app : {A:tp} {B:el A->tp} el (Pi A B) -> {a:el A} el (B a)
+
+Like in MLLF, the object language's judgmental equality is identified with the framework's judgmental equality. This means you don't need to encode congruence rules. Interesting equality rules are encoded by assuming an equation:
+
+    pi_beta : {A:tp} {B:el A->tp} {b:{a:el A} el (B a)} {a:el A} app A B (lam A B b) a = b a
+    pi_eta : {A:tp} {B:el A->tp} {f:el (Pi A B)} f = lam A B ([a] app A B f a)
+
+Unlike MLLF, these axioms are just additional constants; there is no restriction other than that they be well typed declarations in LF=. Although these equations are just constants, by using equality reflection to use them, no coercions appear in the terms. If using LF= equations added a coercion to the term, LF= equality would not be an adequate representation of judgmental equality. (The adequacy of reflective equality is inspired by [Andromeda](#Andromeda).)
+
+For an example of why using equality reflection in the framework doesn't automatically make the object language extensional, we will cover the non-derivability of ($n:nat,m:nat \vdash n + m \equiv m + n\;:\;nat$) in intensional type theory. So we add natural numbers:
+
+    nat : tp
+
+    zro : el nat
+    suc : el nat -> el nat
+
+    natrec : ...
+
+    natrec_zro : ...
+    natrec_suc : ...
+
+`natrec` should be the dependent elimination form for the inductive type of natural numbers. `natrec_zro` and `natrec_suc` are its defining equations.
+
+We can then define—in the metalanguage—a derived form
+
+    plus : el nat -> el nat -> el nat
+
+using `natrec`. We will write (`plus n m`) as (`n + m`).
+
+The judgment ($n:nat,m:nat \vdash n + m \equiv m + n\;:\;nat$) is represented as (`{n:el nat} {m:el nat} n + m = m + n`). There is "obviously" no LF= term of that type, since there's no induction principle for the LF= type `el nat`, and the only interesting equations about `el nat` don't apply for a general element. The object language has `natrec` as an induction principle, but that only works for proving object language types, not LF= equality.
+
+Of course, if we add reflective equality to the *object language*, then we should be able to combine `natrec` and the object language's equality reflection to prove the LF= equation. Here is a reflective equality type constructor:
+
+    eq : {T:tp} el T -> el T -> tp
+    eqI : {T:tp} {t:el T} el (eq T t t)
+    eqE : {T:tp} {t1 t2:el T} el (eq T t1 t2) -> t1 = t2
+    eqK : {T:tp} {t:el T} {p:el (eq T t t)} p = eqI T t
+
+`eqE` is the equality reflection rule for the object language. Note that there's no trouble declaring this constant. It's just another judgmental equality rule for the object language. LF= was prepared all along for equality requiring proof. On the other hand, that means that it requires *boring* proof in the common case that it's obvious. So an implementation of LF= would have a practical need for proof automation, to effect type checking of the object language.
+
+The motivation behind CLF—and seemingly many other type system implementations based on synthetic judgments—is that there's no *implementation* reason to distinguish type checking from other forms of proof automation. That type checking really is just automatic "proving" of judgments. So a general "logic of judgments" should be available to provide a common basis for the implementation of type checkers.
+
+On the other hand, if you insist upon decidable type checking, that would be a reason to distinguish type checking from general proof automation. Implementers of synthetic type systems seem united in not considering decidability very important.
 
 ### LF Signatures as Inductive-Inductive Families
 
@@ -707,6 +762,8 @@ The equality reflection rule is enough to make the judgments synthetic. That is,
 * {#HofmannThesis} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
 
 * {#SterlingHarperRefinement} [[Jonathan Sterling]], [[Robert Harper]], _Algebraic Foundations of Proof Refinement_, 2017 ([arXiv](https://arxiv.org/abs/1703.05215))
+
+* {#Andromeda} [[Andrej Bauer]], Gaëtan Gilbert, Philipp G. Haselwarter, [[Matija Pretnar]], Christopher A. Stone, _Design and Implementation of the Andromeda Proof Assistant_, 2018 ([arXiv](https://arxiv.org/abs/1802.06217v1), [project web](http://www.andromeda-prover.org/))
 
 * {#AnaSynJudg} [[Per Martin-Löf]], _Analytic and Synthetic Judgments in Type Theory_, 1994 ([pdf](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
 
