@@ -125,10 +125,11 @@ Like any [[elementary topos]], $\SimpSet$ has an [[internal logic]].  Here we li
 
 ## Related concepts
 
-* **sSet**, [[asSet]]
+* [[asSet]] ([[category]] of [[augmented simplicial sets]])
 
-* [[Ho(sSet)]]
+* [[Ho(sSet)]] (the [[homotopy category]] of [[simplicial sets]])
 
+* [[dSet]] ([[category]] of [[dendroidal sets]])
 
 ## References
 * {#FourmanScedrov} [[Mike Fourman]] and &#352;&#269;edrov, The "world's simplest axiom of choice" fails, manuscripta mathematica 1982, Volume 38, Issue 3, pp 325-332 [PDF](http://link.springer.com/content/pdf/10.1007%2FBF01170929.pdf)
