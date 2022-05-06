@@ -133,9 +133,9 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * {#ArtinMazur69} [[Michael Artin]], [[Barry Mazur]], appendix of _&#201;tale homotopy theory_, Lecture Notes in Maths. 100, Springer-Verlag, Berlin 1969.
 
-* [[Jean-Marc Cordier]], [[Tim Porter]],  _Shape Theory_, categorical methods of approximation, Dover (2008) (This is a reprint of the 1989 edition without amendments.)
+* [[Jean-Marc Cordier]], and [[Tim Porter]],  _Shape Theory_, categorical methods of approximation, Dover (2008) (This is a reprint of the 1989 edition without amendments.)
 
-* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_, Grundlehren der mathematischen Wissenschaften 332 (2006)
+* {#KashiwaraSchapira06} [[Masaki Kashiwara]], and [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_, Grundlehren der mathematischen Wissenschaften 332 (2006)
 
 * [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
