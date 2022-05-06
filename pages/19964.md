@@ -304,7 +304,7 @@ which in turn relates to a [[Minkowski spacetime]]-version of the holographic re
 
 ### In solid state physics
 
-In [[solid state physics]] skyrmions in the magnetization of thin atomic layers are known as magnetic skyrmions. 
+In [[solid state physics]] skyrmions in the magnetization of thin atomic layers are known as _magnetic skyrmions_. 
 
 See:
 
