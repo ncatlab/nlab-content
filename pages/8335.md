@@ -40,7 +40,7 @@ It has been argued ([Higan-Rees 79](#HiganRees79)) that observation of a absorpt
 
 Lecture notes includes
 
-* Daniel Baumann, from section 3 on in _TASI Lectures on Primordial Cosmology_ ([arXiv:1807.03098](https://arxiv.org/abs/1807.03098))
+* [[Daniel Baumann]], from section 3 on in _TASI Lectures on Primordial Cosmology_ ([arXiv:1807.03098](https://arxiv.org/abs/1807.03098))
 
 See also the references at _[[cosmic inflation]]_.
 
