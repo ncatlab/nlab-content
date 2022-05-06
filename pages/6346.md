@@ -35,6 +35,15 @@ In [[functorial quantum field theory]] a correlator is simply the value of the [
 
 * [[Ward identity]]
 
+## References
+
+See most any text on [[quantum field theory]]/[[statistical mechanics]].
+
+Discussion specifically of [[non-perturbative effect|non-perturbative]] [[monopole]] correlators:
+
+* {#Iqbal14} [[Nabil Iqbal]], _Monopole correlations in holographically flavored liquids_, Phys. Rev. D 91, 106001 (2015) ([arXiv:1409.5467](https://arxiv.org/abs/1409.5467))
+
+
 [[!include holographic principle -- table]]
 
 
