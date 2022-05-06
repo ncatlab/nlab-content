@@ -67,6 +67,10 @@ __Definition 1.2.1__ A differentiable space $M$ is a set equipped with a family 
 * The forcing condition on the maps in the 1975 paper is actually stronger than that in the 1977 paper.
 * The final structure is of [[sheaf|sheaves]] on a [[site]].  This is the definition used in, for example, Baez and Hoffnung [0807.1704].
 
+## Related notions
+
+* [[diffeological space]]
+
 ## References 
 
 * [Iterated integrals of differential forms and loop space homology](http://www.ams.org/mathscinet-getitem?mr=380859), 1973
