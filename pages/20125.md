@@ -34,11 +34,11 @@ The term _tensor network_ has become popular in [[quantum physics]] for essentia
 
 The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but mainly via its use for representing highly [[entangled states]] in the  discussion of [[renormalization]] of [[non-perturbative effects]] in [[solid state physics]] ([Swingle 09](#Swingle09), [Swingle 13](#Swingle13)) and the resulting discovery of the relation to [[holographic entanglement entropy]] and thus to the [[AdS/CFT correspondence]].
 
-In this context, a _tensor network_ is a _[[string diagram]] [[concept with an attitude|with an attitude]], in that it is (just) a [[string diagram]] (typically regarded in the [[monoidal category]] of [[finite-dimensional vector spaces]], but possibly also in [[super vector spaces]] etc.), but with 
+In this context, a _tensor network_ is a _[[string diagram]] [[concept with an attitude|with an attitude]], in that it is (just) a [[string diagram]] (typically regarded in the [[monoidal category]] of [[finite-dimensional vector spaces]], but possibly also in [[super vector spaces]] etc.), but with: 
 
 1. the [[tensor product]] of all its external [[objects]] regarded as a [[space of states]] of a [[quantum system]];
 
-1. the [[element]] in that [[tensor product]] defined by the string diagram regarded a a [[state]] ([[wave function]]) of that quantum system.
+1. the [[element]] in that [[tensor product]] defined by the string diagram regarded as a [[state]] ([[wave function]]) of that quantum system.
 
 For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded as [[Hilbert space]], hence as a [[space of quantum states]], via the given [[inner product]] on $\mathfrak{g}$, then an example of a _[[tree tensor network state]]_ is the following:
 
@@ -123,6 +123,8 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 ## Examples
 
 * [[matrix product state]]
+
+* [[tree tensor network state]]
 
 * [[MERA state]]
 
