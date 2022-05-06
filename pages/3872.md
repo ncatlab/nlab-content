@@ -20,9 +20,9 @@
 
 * {#AtiyahManton89} [[Michael Atiyah]], N S Manton, _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
+* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
 
-* [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]] _Geometry and physics_, Phil. Trans. R. Soc. A 2010 368, doi: 10.1098/rsta.2009.0227 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf))
-
+  (on [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]])
 
 * {#AtiyahManton16} [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_ ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816))
 
