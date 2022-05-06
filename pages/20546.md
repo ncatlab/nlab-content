@@ -117,9 +117,9 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 * {#BrunnerKarch97} [[Ilka Brunner]], [[Andreas Karch]], _Branes at Orbifolds versus Hanany Witten in Six Dimensions_, JHEP 9803:003, 1998 ([arXiv:hep-th/9712143](https://arxiv.org/abs/hep-th/9712143))
 
-* {#HananyZaffaroni98} [[Amihay Hanany]], Alberto Zaffaroni, _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
+* {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
 
-* {#HananyZaffaroni99} [[Amihay Hanany]], Alberto Zaffaroni, _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+* {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
 * Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _A new 5d description of 6d D-type minimal conformal matter_, JHEP 1508:097, 2015 ([arXiv:1505.04439](https://arxiv.org/abs/1505.04439))
 
