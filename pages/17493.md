@@ -148,7 +148,7 @@ The $\psi$ functions are ordinal collapsing functions.
 These assert some hierarchy of inductive defined sets of natural numbers.
 
 * EFA is elementary function arithmetic
-* PRA is primitive recursive arithmetic
+* PRA is [[primitive recursive arithmetic]]
 * PA is first-order Peano arithmetic
 * $\widehat{\mathrm{ID}}_\nu$ extends PA by $\nu$ iterated fixed points of monotone operators (not necessarily least).
 * ID$_1^#$ is $\widehat{\mathrm{ID}}_1$ with induction only for positive formulas.
