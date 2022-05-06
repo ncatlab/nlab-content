@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[string theory]], the term _gian graviton_ refers to [[wrapped brane]]-configurations which behave like massless [[relativistic particles]], notably [[gravitons]].
+
+## Related concepts
+
+* [[wrapped brane]]
+
+* [[dual graviton]]
+
+## References
+
+The concept was introduced in 
+
+* John McGreevy, [[Leonard Susskind]], Nicolaos Toumbas, _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
+
+for branes in [[anti de Sitter spacetime]] [[product space|times]] an [[n-sphere]] and generalized to other [[near horizon geometries]] in 
+
+* S. R. Das, S. P.. Trivedi, S. Vaidya, _Magnetic Moments of Branes and Giant Gravitons_, JHEP 0010 (2000) 037 ([arXiv:hep-th/0008203](https://arxiv.org/abs/hep-th/0008203))
+
+* Andrei Mikhailov, _Giant Gravitons from Holomorphic Surfaces_, JHEP 0011 (2000) 027 ([arXiv:hep-th/0010206](https://arxiv.org/abs/hep-th/0010206))
+
+* J. M. Camino, A.V. Ramallo, _Giant Gravitons with NSNS B field_, JHEP 0109:012,2001 ([arXiv:hep-th/0107142](https://arxiv.org/abs/hep-th/0107142))
+
+Further discussion:
+
+
+* Akikazu Hashimoto, Shinji Hirano, N. Itzhaki, _Large branes in AdS and their field theory dual_, JHEP 0008:051, 2000 ([arXiv:hep-th/0008016](https://arxiv.org/abs/hep-th/0008016))
+
+
+* Sumit R. Das, Antal Jevicki, Samir D. Mathur, _Vibration modes of giant gravitons_, Phys.Rev. D63 (2001) 024013 ([arXiv:hep-th/0009019](https://arxiv.org/abs/hep-th/0009019))
+
+* Sumit R. Das, Antal Jevicki, [[Samir Mathur]], _Giant Gravitons, BPS bounds and Noncommutativity_, Phys.Rev. D63 (2001) 044001 ([arXiv:hep-th/0008088](https://arxiv.org/abs/hep-th/0008088))
+
+
+* Julian Lee, _Tunneling between the giant gravitons in $AdS_5 \times S^5$_,  Phys.Rev. D64 (2001) 046012 ([arXiv:hep-th/0010191](https://arxiv.org/abs/hep-th/0010191))
+
+
+* Jin Young Kim, Y.S. Myung, _Vibration modes of giant gravitons in the background of dilatonic D-branes_, Phys.Lett. B509 (2001) 157-162 ([arXiv:hep-th/0103001](https://arxiv.org/abs/hep-th/0103001))
+
+* Vijay Balasubramanian, [[Micha Berkooz]], Asad Naqvi, [[Matthew Strassler]], _Giant Gravitons in Conformal Field Theory_, JHEP 0204 (2002) 034 ([arXiv:hep-th/0107119](https://arxiv.org/abs/hep-th/0107119))
+
+Specifically [[M2-brane]]/[[M5-brane]] [[bound state]] giant gravitons are discussed in:
+
+* J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_,  Phys.Lett.B525:337-346, 2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
+
+[[!redirects giant gravitons]]
+
