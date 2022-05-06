@@ -63,9 +63,58 @@ $$
     \\
     {}^{\mathllap{p^*}}\downarrow && \downarrow
     \\
-    X &\to& Y 
+    X &\stackrel{f}{\to}& Y 
   }
   \right)
+  \,.
+$$
+
+On morphisms, it follows from the universal property of pullback
+
+$$
+  \left\lbrace
+    \array{
+       K &&\stackrel{g}{\to}&& K'
+       \\
+       & {}_p \searrow && \swarrow_{p'}
+       \\   
+       && Y
+    }
+  \right\rbrace
+  \mapsto
+  \left\lbrace
+    \array{
+       X \times_Y K &&\stackrel{g^*}{\to}&& X \times_Y K'
+       \\
+       & {}_{p^*} \searrow && \swarrow_{p'^*}
+       \\   
+       && X
+    }
+  \right\rbrace
+$$
+
+by observing that this square commutes
+
+$$
+  \array{
+     &&&& X \times_Y K
+     \\& 
+    &&
+      {}^{p^*}\swarrow
+      && \searrow^{g \circ p_K}
+    \\
+     && X &&&& K'
+      \\
+      &
+      && {}_f\searrow
+       &
+       & \swarrow_{p'}
+      &&
+     \\
+     &&&&
+     Y
+     &&&&
+  }
   \,.
 $$
 
