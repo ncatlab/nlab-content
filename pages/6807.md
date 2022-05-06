@@ -58,6 +58,7 @@ A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _
 * [[Myers effect]]
 
 ## References
+ {#References}
 
 ### General
 
