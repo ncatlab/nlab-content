@@ -49,7 +49,7 @@ Notice that because of truncation, being a Lie algebra in LP is a bit less than 
 
 ## Literature and discussions
 
-* {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://doi.org/10.1023/B:GEOR.0000008125.26487.f3))
+* {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://link.springer.com/article/10.1023/B:GEOR.0000008125.26487.f3))
 
 
 
