@@ -24,9 +24,9 @@ It is called _nondegenerate_ if the [[mate]] $V \to V^\ast = \hom(V, k)$ is inje
 
 Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is called
 
-* positive definite if $\langle x,x\rangle \gt 0$ if $x \neq 0$.
+* [[positive definite]] if $\langle x,x\rangle \gt 0$ if $x \neq 0$.
 
-* negative definite if $\langle x,x\rangle \lt 0$ if $x \neq 0$.
+* [[negative definite]] if $\langle x,x\rangle \lt 0$ if $x \neq 0$.
 
 
 ## Examples
