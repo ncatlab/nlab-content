@@ -1,4 +1,3 @@
-[[!redirects Xena]]
 
 
 +-- {: .rightHandSide}
@@ -41,4 +40,4 @@ A project bringing [[formal proof]] and [[proof assistants]] (particularly [[Lea
 
 * [[Kevin Buzzard]], _[Xena project](https://xenaproject.wordpress.com/2018/10/07/what-is-the-xena-project/)_
 
-[[!redirects Xena project]]
+[[!redirects Xena]]
