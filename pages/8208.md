@@ -41,7 +41,7 @@ Moreover, a color-kinematics duality suggest that these relations extend from [[
 
 The original article is
 
-* {#KawaiLewellenTye86} H. Kawai, D.C. Lewellen, S.H.H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl.Phys. B269 (1986) 1-23 ([doi:10.1016/0550-3213(86)90362-7](https://doi.org/10.1016/0550-3213(86)90362-7))
+* {#KawaiLewellenTye86} [[Hikaru Kawai]], D. C. Lewellen, S. H. H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl. Phys. B269 (1986) 1-23 (<a href="https://doi.org/10.1016/0550-3213(86)90362-7">doi:10.1016/0550-3213(86)90362-7</a>)
 
 See also
 
