@@ -23,7 +23,7 @@
 
 ## Definition
 
-If $x$ and $y$ are elements of a [[partial order|poset]] $P$, then their __join__ (or __supremum__ or __least upper bound__, abbreviated _lub_), is an element $x \vee y$ of the poset such that:
+If $x$ and $y$ are elements of a [[partial order|poset]] $P$, then their __join__ (or __supremum__, abbreviate _sup_, or __least upper bound__, abbreviated _lub_), is an element $x \vee y$ of the poset such that:
 
 * $x \leq x \vee y$ and $y \leq x \vee y$;
 * if $x \leq a$ and $y \leq a$, then $x \vee y \leq a$.
@@ -49,9 +49,9 @@ A join of zero elements is a [[bottom]] element.  Any element $a$ is a join of t
 As a poset is a special kind of [[category]], so a join is simply a [[coproduct]] in that category.
 
 
-## In constructive mathematics
+## In constructive mathematics {#constructive}
 
-In [[constructive analysis]], we sometimes want a stronger notion of supremum.
+In [[constructive analysis]], we sometimes want a stronger notion of supremum.  (Dual remarks apply to [[infima]].)
 
 Let $S$ be a set of [[real numbers]], and let $M$ be a real number.  We say (as above) that $M$ is a __least upper bound__ (lub) of $S$ if for each real number $a$, $M \leq a$ iff for each member $x$ of $S$, $x \leq a$.  But we say that $M$ is a __supremum__ of $S$ if for each real number $a$, $M \gt a$ iff for some member $x$ of $S$, $x \gt a$.  In [[constructive mathematics]], we can prove that lubs and suprema are both unique when they exist and that every supremum is an lub, but we cannot prove that every lub is a supremum.  (We can prove that, if $M$ is an lub of $S$ and $M \gt a$, then there is [[double negation|not not]] some member $x$ of $S$ such that $x \gt a$, but not that there is such an member $x$.  For a specific [[weak counterexample]], let $p$ be any [[truth value]], and let $S$ be the [[subsingleton]] $\{0 \;|\; p\}$.  Then $0$ is a supremum of $S$ iff $p$ is true, while $0$ is an lub of $S$ iff $p$ is not not true.)
 
@@ -84,3 +84,7 @@ Then neither of these implies the other, and we probably really want to demand *
 [[!redirects suprema]]
 [[!redirects sup]]
 [[!redirects sups]]
+[[!redirects least upper bound]]
+[[!redirects least upper bounds]]
+[[!redirects lub]]
+[[!redirects lubs]]
