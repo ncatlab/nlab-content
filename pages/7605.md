@@ -77,6 +77,14 @@ Definitions in the literature include:
 
 * By [Gepner-Kock, Proposition 7.8](#GK), a [[semi-left-exact reflection|semi-left-exact]] [[left Bousfield localization]] of a combinatorial type-theoretic model category (in their sense, see above) is again a combinatorial type-theoretic model category.
 
+### A warning
+
+In general one wants to think of the interpretation of type theory in the underlying [[tribe]] of a type-theoretic model category as "living in" the $(\infty,1)$-category presented by the model category.  However, this is not automatic merely from the fact that the subcategory of fibrant objects in a model category is a tribe; one needs some stronger conditions such as those above to ensure that the 1-categorical constructions present the relevant $\infty$-categorical ones.
+
+For instance, in [Bordg 17](#Bordg17) it is shown that the category of fibrant objects in the [[projective model structure]] on the category of [[groupoids]] with $\mathbb{Z}/2$-action is a tribe with $\Pi$-types and a universe, but that the universe fails to be [[univalence axiom|univalent]] and indeed that [[function extensionality]] fails to hold, even though the $(\infty,1)$-category presented by this model structure is locally cartesian closed and has an [[object classifier]] for discrete objects.
+
+Generally one wants at least to require that all fibrant objects are cofibrant, in order that the underlying tribe of fibrant objects has the same [[simplicial localization]] as the model category itself.
+
 ## References
 
 * {#AK} [[Peter Arndt]] and [[Krzysztof Kapulkin]], *Homotopy-Theoretic Models of Type Theory*, In: Ong L. (eds) Typed Lambda Calculi and Applications. TLCA 2011. Lecture Notes in Computer Science, vol 6690. Springer, Berlin, Heidelberg, [doi](https://doi.org/10.1007/978-3-642-21691-6_7)
@@ -86,6 +94,8 @@ Definitions in the literature include:
 * {#Shulman12a} [[Mike Shulman]], _[Minicourse on Homotopy Type Theory](https://home.sandiego.edu/~shulman/hottminicourse2012/)_ part 3, _Categorical models of homotopy type theory_, April 2012 ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf))
 
 * {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
+* {#Bordg17} [[Anthony Bordg]], _On the inadequacy of the projective structure with respect to the Univalence Axiom_, [arxiv:1712.02652](https://arxiv.org/abs/1712.02652)
 
 * {#Shulman17} [[Mike Shulman]], _Univalence for inverse EI diagrams_.  Homology, Homotopy and Applications, 19:2 (2017), p219–249, [DOI](http://dx.doi.org/10.4310/HHA.2017.v19.n2.a12), [arXiv:1508.02410](https://arxiv.org/abs/1508.02410).
 
