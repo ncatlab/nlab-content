@@ -30,11 +30,21 @@ The central statement of [[rational homotopy theory]] says that the [[rational h
 
 ## Related concepts
 
+* [[nilpotent homotopy type]]
+
 * [[nilpotent element]]
 
 * [[nilpotent Lie algebra]], [[nilpotent L-infinity algebra]]
 
 * [[nilpotent group]], [[nilpotent module]]
+
+\linebreak
+
+* [[rational homotopy theory]]
+
+  * [[Sullivan model]]
+
+  * [[rational fiber lemma]]
 
 
 
