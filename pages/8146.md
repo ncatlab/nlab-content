@@ -117,7 +117,7 @@ Discussion of generalization to non-abelian categories is in
 
 * [[Dominique Bourn]], _$3 \times 3$-lemma and protomodularity_, Journal of Algebra, Volume 236, Number 2, 15 February 2001 , pp. 778-795(18)
 
-* [[Dominique Bourn]], [_The denormalized $3 \times 3$ lemma_](https://doi.org/10.1016/S0022-4049&#40;02&#41;00143-3), Journal of Pure and Applied Algebra, Volume 177, Issue 2, 24 January 2003, Pages 113-129
+* [[Dominique Bourn]], [_The denormalized $3 \times 3$ lemma_](https://doi.org/10.1016/S0022-4049%2802%2900143-3), Journal of Pure and Applied Algebra, Volume 177, Issue 2, 24 January 2003, Pages 113-129
 
 
 [[!redirects nine lemma]]
