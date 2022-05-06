@@ -274,6 +274,10 @@ A substantiation of this argument via [[AdS/CFT]] is given in
 
 * [[Daniel Harlow]], [[Hirosi Ooguri]], _Constraints on symmetry from holography_, Phys. Rev. Lett. 122, 191601 (2019) ([arXiv:1810.05337](https://arxiv.org/abs/1810.05337))
 
+See also:
+
+
+* Sylvain Fichet, Prashant Saraswat, _Approximate Symmetries and Gravity_ ([arXiv:1909.02002](https://arxiv.org/abs/1909.02002))
 
 
 [[!redirects perturbative quantum gravity]]
