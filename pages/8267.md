@@ -274,7 +274,7 @@ $$
   \,.
 $$
 
-This means that in order to get "far diagonal identifications" of homology groups in a double complex, all one needs is sufficient conditions that all the intramural and extramural maps in a "long salamander" like this are all [[isomorphisms]].
+This means that in order to get "far diagonal identifications" of homology groups in a double complex, all one needs is sufficient conditions that all the intramural and extramural maps in a "long salamander" like this are [[isomorphisms]].
 
 These turn out to be certain exactness conditions to be checked/imposed locally at each of the positions involved in a long salamander like this discussed in  _[Intramural and extramural isomorphism](#IntraExtramuralIsomorphisms)_ below. 
 All the long diagonal identifications of the standard [[diagram chasing lemmas]] follows by piecing together such long salamanders. This is discussed in the  _[Implications](#Implications)_ below.
