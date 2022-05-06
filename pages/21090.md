@@ -97,15 +97,31 @@ For now, see [[probability monad]].
   <th markdown="1">[[Markov category#conditionals|Conditionals]]</th>
   <th markdown="1">[[Markov category#positivity|Positivity]]</th>
   <th markdown="1">[[Markov category#kolmogorov_products|Kolmogorov products]]</th>
-  <th markdown="1">References</th>
+  <th markdown="1">Further references</th>
  </tr>
  <tr>
   <th markdown="1">[[Stoch]]</th>
   <td markdown="1">[[Giry monad]] on [[Meas]]</td>
+  <td markdown="1">No ([Fritz'19](#fritzmarkov), Example 11.3)</td>
   <td markdown="1">(...)</td>
   <td markdown="1">(...)</td>
+  <td markdown="1">[Fritz'19](#fritzmarkov)</td>
+ </tr>
+<tr>
+  <th markdown="1">[[BorelStoch]]</th>
+  <td markdown="1">[[Giry monad]] on [[Pol]]</td>
+  <td markdown="1">Yes ([Kallenberg '17](#Kallenberg17), [B-M'19](#BM19))</td>
   <td markdown="1">(...)</td>
   <td markdown="1">(...)</td>
+  <td markdown="1">[Fritz'19](#fritzmarkov)</td>
+ </tr>
+<tr>
+  <th markdown="1">[[FinStoch]]</th>
+  <td markdown="1">Not representable</td>
+  <td markdown="1">Yes ([Fritz'19](#fritzmarkov), Example 11.6)</td>
+  <td markdown="1">(...)</td>
+  <td markdown="1">(...)</td>
+  <td markdown="1">[Fritz'19](#fritzmarkov)</td>
  </tr>
 </table>
 
@@ -123,7 +139,7 @@ For now, see [[probability monad]].
 
 Markov categories as defined here appear in:
 
-* [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
 * [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
 
@@ -135,6 +151,13 @@ The first idea of defining a "category of probabilistic mappings" seems to be du
 ([[lawvereprobability1962.pdf:file]])
 
 (...more to come...)
+
+
+Further references:
+
+* {#Kallenberg17} Olaf Kallenberg, _Random Measures, Theory and Applications_, Springer, 2017.
+
+* {#BM19} Vladimir Bogachev and Il'ya Malofeev, _Kantorovich problems and conditional measures depending on a parameter_. ([arXiv:1904.03642](https://arxiv.org/abs/1904.03642))
 
 
 [[!redirects Markov categories]]
