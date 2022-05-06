@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[quantum chromodynamics]] a _quarkonium_ particle is a [[meson]] which is a [[bound state]] of one of the heavy [[quarks]] with its own [[antiparticle]].
+In [[quantum chromodynamics]] a _quarkonium_ particle is a [[meson]] which is a [[bound state]] of one of the [[heavy flavor|heavy]] [[quarks]] with its own [[antiparticle]].
 
 
 
@@ -45,6 +45,10 @@ See also
 Dicussion in the context of [[quark gluon plasma]]:
 
 * Xiaojun Yao, Weiyao Ke, Yingru Xu, Ste, _Quarkonium Production in Heavy Ion Collisions: From Open Quantum System to Transport Equation_ ([arXiv:2002.04079](https://arxiv.org/abs/2002.04079))
+
+The [[Dalitz decay]] of quarkonium:
+
+* Yu Jia, Wen-Long Sang, _Observation prospects of leptonic and Dalitz decays of pseudoscalar quarkonia_, JHEP 0910:090, 2009 ([arXiv:0906.4782](https://arxiv.org/abs/0906.4782))
 
 
 Discussion in [[AdS/QCD]]:
