@@ -36,6 +36,14 @@ This means that $0 \in \mathcal{C}$ is a zero object precisely if for every othe
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+If $\mathcal{C}$ is a [[pointed category]], then an object $A$ of $\mathcal{C}$ is a zero object precisely when the only endomorphism of $A$ is the identity morphism.
+
+=--
+
+
 
 +-- {: .num_remark}
 ###### Remark
