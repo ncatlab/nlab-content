@@ -3,7 +3,7 @@ Researcher at CAS Prague.
 
 ## Selected writings
 
-On [[Courant Lie algebroids]]:
+On [[morphisms]] between [[Courant Lie algebroids]]:
 
 * [[Jan Vysoky]], _Hitchhiker's Guide to Courant Algebroid Relations_ ([arXiv:1910.05347](https://arxiv.org/abs/1910.05347))
 
