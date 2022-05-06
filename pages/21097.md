@@ -7,8 +7,8 @@ The [[boundary condition]] in the [[nonabelian DBI model]] of [[coincident brane
 
 1. [[geometric engineering of QFT|geometric engineering]] of [[Yang-Mills monopoles]] in the [[worldvolume]]-theory of the ambient $D(p+2)$-branes.
 
-([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99), [Gaiotto-Witten 08, Section 2.4](#GaiottoWitten08), [HLPY 08](#HLPY08), 
-[GZZ 09](#GZZ09))
+([Diaconescu 97](Dp-Dpplus2-brane+bound_state#Diaconescu97), 
+[Constable-Myers 99](Dp-Dpplus2-brane+bound+state#ConstableMyers99), [Hanany-Zaffaroni 99](Dp-Dpplus2-brane+bound+state#HananyZaffaroni99), [Gaiotto-Witten 08, Section 2.4](Dp-Dpplus2-brane+bound+state#GaiottoWitten08), [HLPY 08](Dp-Dpplus2-brane+bound+state#HLPY08), [GZZ 09](Dp-Dpplus2-brane+bound+state#GZZ09))
 
 
 More explicitly, for $y \in (0,\infty ]$ the transversal distance along the stack of $N$ $\mathrm{D}p$-branes away from the $\mathrm{D}(p+2)$-brane, and for 
@@ -124,7 +124,7 @@ $$
   \text{for all}\; i \in \{1,2,3\}
 $$
 
-as $y \to 0$ ([Gaiotto-Witten 08, Section 3.1.1](#GaiottoWitten08))
+as $y \to 0$ ([Constable-Myers 99, Section 3.3](Dp-Dpplus2-brane+bound+state#ConstableMyers99), [Thomas-Ward 06, p. 16](Dp-Dpplus2-brane+bound+state#ThomasWard06), [Gaiotto-Witten 08, Section 3.1.1](Dp-Dpplus2-brane+bound+state#GaiottoWitten08))
 
 Together with (eq:RhoAsAnsl2Rep) this means that the quadruple of fields $(X^1,X^2,X^3,A)$ constitutes a [[Lie algebra representation]] of the [[general linear Lie algebra]]
 
