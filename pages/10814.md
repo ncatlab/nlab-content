@@ -154,6 +154,34 @@ Heuristically, in geometrical quantization we make a choice of a couple of lagra
 
 Similarly in DFT, when $M$ is an (integrable) para-hermitian manifold we make a choice of a couple of lagrangian foliations $\mathcal{F}_\pm$ to "select" a physical spacetime $\mathcal{F}_+$ from the whole T-duality-covariant theory on $M$.
 
+## Relation between para-Hermitian geometry and gerbes
+
+Let us start from a [[bundle gerbe]] $\pi:P\rightarrow M$ on a $d$-dimensional [[smooth manifold]] $M$. This is locally isomorphic to $P|_U \cong U\times \mathbf{B}U(1)$, where $\mathbf{B}U(1)$ is the [[circle 2-group]] and $U$ is an open set. If we consider an [[atlas]] $\mathbb{R}^d\rightarrow U$, we immediately have an [[atlas]] $\mathbb{R}^d\times \mathbf{B}U(1)\rightarrow U\times \mathbf{B}U(1)$ which extends the former. In other words the [[bundle gerbe]] is locally modelled on the [[Lie 2-group]] $\mathbb{R}^d\times \mathbf{B}U(1)$.
+
+The [[Lie 2-algebra]] of $\mathbb{R}^d\times \mathbf{B}U(1)$ is 
+ $\mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1)$. An [[atlas]] for this [[Lie 2-algebra]] will be just an ordinary [[Lie algebra]] $\mathfrak{a}$ and a [[homomorphism]] of [[Lie n-algebras]]
+
+$$ f: \mathfrak{a} \longrightarrow \mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1) $$
+
+which is surjective in the lowest degree. What choice of $\mathfrak{a}$ can we make?
+
+To find a working atlas we can consider the dual [[homomorphism]] of [[Chevalley-Eilenberg algebras]], i.e. the injective [[homomorphism]]
+
+$$ f^\ast: \mathrm{CE}(\mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1)) \longrightarrow \mathrm{CE}(\mathfrak{a}). $$
+
+The [[dg-algebra]] $\mathrm{CE}(\mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1))$ has a degree $2$ generator $b$ which is annihilated by the differential, i.e. $\mathrm{d} b=0$. Therefore its image $\omega := f^\ast b$ in $\mathfrak{a}$ is a of degree $2$ element which satisfies the equation
+
+$$ \mathrm{d} \omega = 0 .$$
+
+Since $\mathbb{R}^d$ must be a subalgebra of $\mathfrak{a}$ and $\omega$ must be rotation-invariant, we have no other choice than $\mathfrak{a}=\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast $ and
+
+$$ \omega = \mathrm{d}\tilde{x}_\mu \wedge \mathrm{d}x^\mu. $$
+
+where $\mathrm{d}\tilde{x}_\mu$ and $\mathrm{d}x^\mu$ are respectively generators of $\mathrm{CE}((\mathbb{R}^d)^\ast)$ and $\mathrm{CE}(\mathbb{R}^d)$. 
+
+The vector space $\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast$ equipped with $\omega = \mathrm{d}\tilde{x}_\mu \wedge \mathrm{d}x^\mu \in \Omega_{\mathrm{LI}}^1(\mathbb{R}^d \oplus (\mathbb{R}^d)^\ast)$ is nothing but the local space on which para-Hermitian geometry is modelled. On the other side of the [[atlas]] map $f: \mathfrak{a} \longrightarrow \mathbb{R}^d \oplus \mathbf{b}\mathfrak{u}(1)$ we have an [[extended Minkowski spacetime]], on which [[bundle gerbes]] are modelled.
+
+
 ## Relation with non-geometry
 
 Double field theory is supposed to formalize the [[non-geometric backgrounds]] of [[type II string theory]].
