@@ -1,0 +1,1 @@
+_Diagrammes_ was a series of internal publications /  preprint collections of some of the category theorists based in Paris. It continued in part the Esquisses produced by Charles Ehresmann and his groups in Paris and Amiens. the collection can be found [here](http://www.numdam.org/journals/DIA/).
