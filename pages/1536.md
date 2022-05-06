@@ -625,6 +625,8 @@ A [[representable functor]] $C(-,X) :  C^{op} \to Set \hookrightarrow Cat$ maps 
 
 * [[(infinity,1)-Grothendieck construction]]
 
+* [[Grothendieck construction for monoidal categories]]
+
 ## References
 
 Standard references are  in
@@ -668,7 +670,7 @@ An [[enriched category|enriched]] version is discussed in
 
 A [[monoidal category|monoidal]] version is discussed in
 
-* {#MoellerVasilakopoulou19} Joe Moeller, Christina Vasilakopoulou, *Monoidal Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1809.00727) 2019
+* {#MoellerVasilakopoulou19} Joe Moeller, [[Christina Vasilakopoulou]], *Monoidal Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1809.00727) 2019
 
 
 [[!redirects Grothendieck constructions]]
