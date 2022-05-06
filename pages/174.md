@@ -150,6 +150,11 @@ In [[string theory]] one speaks apart from the [[D-branes]] also about **fundame
 See _[[black brane]]_ .
 
 
+### Exotic branes
+
+See _[[exotic brane]]_ .
+
+
 ## Properties
 
 ### Worldvolume theories
@@ -188,6 +193,8 @@ The corresponding table has been called the **[[brane scan]]**
 * [[D-brane]]
 
 * [[electric eigenbrane]]. [[magnetic eigenbrane]]
+
+* [[exotic brane]]
 
 [[!include field theory with boundaries and defects - table]]
 
@@ -274,8 +281,6 @@ See also [[division algebras and supersymmetry]].
 ### Branes ending on branes
 
 * [[Andrew Strominger]], _Open P-Branes_, Phys. Lett. B383:44-47,1996 ([arXiv:hep-th/9512059](http://arxiv.org/abs/hep-th/9512059))
-
-[[!redirects branes]]
 
 [[!redirects branes]]
 
