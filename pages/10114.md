@@ -27,8 +27,6 @@ Also [[pentaquarks]] are counted as baryons.
 ### Conceptualization and computation in AdS/QCD
  {#ConceptualizationAndComputationInAdSQCD}
 
-
-
 In the [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] via an [[intersecting D-brane model]], the [[hadrons]] in [[QCD]] correspond to [[string theory|string-theoretic]]-phenomena in an ambient [[bulk field theory]] on an approximately [[anti de Sitter spacetime]]:
 
 1. the [[mesons]] ([[bound states]] of 2 [[quarks]]) correspond to [[open strings]] in the bulk, whose two endpoints on the [[asymptotic boundary]] correspond to the two [[quarks]];
@@ -85,6 +83,7 @@ In the [[large N limit]]:
 
 ### In Witten-Sakai-Sugimoto model for AdS-QCD
 
+Realization of [[baryons]] as [[wrapped brane|wrapped]] [[D4-branes]]/[[M5-branes]] via the [[AdS/QCD correspondence]]/[[Witten-Sakai-Sugimoto model]]:
 
 * {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
 
