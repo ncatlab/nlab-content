@@ -184,6 +184,10 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 ### General
 
+* Eef van Beveren, George Rupp, _Scalar and axial-vector mesons_, Eur. Phys. J. A31:468-473, 2007 ([arXiv:hep-ph/0610199](https://arxiv.org/abs/hep-ph/0610199))
+
+
+
 Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [[hidden local gauge symmetry]]:
 
 * [[Jun John Sakurai]], _Theory of strong interactions_, Annals Phys. 11 (1960) 1-48 ([spire:3218](http://inspirehep.net/record/3218), <a href="https://doi.org/10.1016/0003-4916(60)90126-3">doi:10.1016/0003-4916(60)90126-3</a>)
