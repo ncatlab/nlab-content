@@ -36,7 +36,16 @@ Any further details about the nature of this hypothetical dark matter remain elu
 ### Cusp-core problem
  {#CuspCoreProblem}
 
-From J. Read [22 Aug 2018](https://twitter.com/ReadDark/status/1032176578808168448) on [Read-Walker-Steger 18](#ReadWalkerSteger18):
+Early numerical simulation of dark matter exhibited dark matter halos around galaxies with a sharp density maximum at the center of the galaxy -- called a "cusp" in the density profile -- while observation on actual galaxies tends to favour a noticeably smoother density distribution at the center -- called a "core" of the density profile.
+
+This discrepancy between [[theory (physics)|theory]] and [[experiment]] is (or was) known as the _cusp-core problem_ for dark matter [[model (physics)|models]] (see the references [below](#ReferencesCoreCuspProblem)). It is (or was) one of several issues that the dark matter model has (or had) on the scale of galaxies and smaller.
+
+There are two potential resolutions to this problem: a) Either dark matter is more "exotic" than assumed in these simulations, such as being [[fuzzy dark matter]] or similar. Or, b), more mundanely, the existing simulations do not properly resolve a subtle effect shown already by more ordinary dark matter.
+
+Recent investigations support possibility b), indicating that the density cusps seen in previous simulations are but an artifact of overly simplified numerical models, and that would-be cusps are diluted and hence smoothed out by bursty star formation leading to dark matter heating ([Pontzen-Governato 14](#PontzenGovernato14), [Read-Walker-Steger-18](#ReadWalkerSteger18)) and/or by dynamical friction in the interstallar medium ([ESH 01](#ESH01)).
+
+
+From [[Justin Read]] [22 Aug 2018](https://twitter.com/ReadDark/status/1032176578808168448) on [Read-Walker-Steger 18](#ReadWalkerSteger18):
 
 > On large scales, the [[standard model of cosmology|standard cosmological model]] (LCDM) gives an excellent description of the [[cosmic microwave background]] [[radiation]] and the [[structure formation|growth of structure]]. However, on small scales, in our cosmic backyard known as the Local Group, there have been long-standing puzzles.  The oldest of these is the “cusp-core” problem. Gas rich dwarf galaxies have much less dark matter (DM) in their inner regions than early numerical models predicted. This could point to more exotic DM models, or to a failure of the cosmological model.
 
@@ -79,9 +88,6 @@ Review includes
 
 * {#Hooper18} [[Daniel Hooper]], _In Defense of Dark Matter_, 2018 ([web](http://online.kitp.ucsb.edu/online/cdm-c18/hooper/))
 
-For more see
-
-* {#PontzenGovernato14} Andrew Pontzen, Fabio Governato, _Cold dark matter heats up_, Nature, 506, 171 - 178 (13 Feb 2014) ([arXiv:1402.1764](https://arxiv.org/abs/1402.1764))
 
 
 ### Evidence
@@ -96,12 +102,26 @@ Evidence for dark matter on large cosmic scales is extremely strong, see the abo
 > Regardless of the formation history of NGC1052–DF2, its existence has implications for the dark matter paradigm. Our results demonstrate that dark matter is separable from galaxies, which is (under certain circumstances) expected if it is bound to baryons through nothing but gravity. The "[[bullet cluster]]" demonstrates that dark matter does not always trace the bulk of the baryonic mass, which in clusters is in the form of gas.  NGC1052–DF2 enables us to make the complementary point that dark matter does not always coincide with galaxies either:  it is a distinct "substance" that may or may not be present in a galaxy.   Furthermore,  and paradoxically, the existence of NGC1052–DF2 may falsify
 alternatives to dark matter. In theories such as [[MOND]] and the recently proposed emergent gravity paradigm a "dark matter" signature should always be detected, as it is an unavoidable consequence of the presence of ordinary matter. In fact, it had been argued previously that the apparent absence of galaxies such as NGC1052–DF2 constituted a falsification of the standard cosmological model, and evidence for modified gravity.
 
-* {#ReadWalkerSteger18} J. I. Read, M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_, Monthly Notices of the Royal Astronomical Society  ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [doi:10.1093/mnras/sty3404](https://doi.org/10.1093/mnras/sty3404),  [talk recording](http://online.kitp.ucsb.edu/online/cdm-c18/read/))
-
 
 Outlook on prospect of direct detection of dark matter, as of 2018:
 
 * Gianfranco Bertone, Tim M. P. Tait, _A New Era in the Quest for Dark Matter_, Nature volume 562, pages 51–56 (2018)  ([arXiv:1810.01668](https://arxiv.org/abs/1810.01668))
+
+
+### Core-cusp problem
+  {#ReferencesCoreCuspProblem}
+
+* {#ESH01} Amr El-Zant, Isaac Shlosman, Yehuda Hoffman, _Dark Halos: The Flattening of the Density Cusp by Dynamical Friction_,  The Astrophysical Journal, Volume 560, Number 2 ([arXiv:astro-ph/0103386](https://arxiv.org/abs/astro-ph/0103386))
+
+* {#PontzenGovernato14} Andrew Pontzen, Fabio Governato, _Cold dark matter heats up_, Nature, 506, 171 - 178 (13 Feb 2014) ([arXiv:1402.1764](https://arxiv.org/abs/1402.1764))
+
+* {#ReadWalkerSteger18} [[Justin Read]], M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_, Monthly Notices of the Royal Astronomical Society  ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [doi:10.1093/mnras/sty3404](https://doi.org/10.1093/mnras/sty3404),  [talk recording](http://online.kitp.ucsb.edu/online/cdm-c18/read/))
+
+See also
+
+* Wikipedia, _[Cusly halo problem](https://en.wikipedia.org/wiki/Cuspy_halo_problem)_
+
+
 
 ### Axions
 
@@ -137,3 +157,15 @@ with review in
 
 [[!redirects weakly interacting massive particle]]
 [[!redirects weakly interacting massive particles]]
+
+[[!redirects core-cusp problem]]
+[[!redirects core-cusp problems]]
+
+[[!redirects cusp-core problem]]
+[[!redirects cusp-core problems]]
+
+
+[[!redirects cuspy halo problem]]
+[[!redirects cuspy halo problems]]
+
+
