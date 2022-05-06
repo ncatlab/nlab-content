@@ -23,6 +23,8 @@ On [[M-theory on G2-manifolds]]:
 
 * {#Acharya02} [[Bobby Acharya]], _A Moduli Fixing Mechanism in M theory_ ([arXiv:hep-th/0212294](http://arxiv.org/abs/hep-th/0212294))
 
+* [[Bobby Acharya]], Lorenzo Foscolo, Marwan Najjar, Eirik Eik Svanes, _New $G_2$-conifolds in M-theory and their Field Theory Interpretation_ ([arXiv:2011.06998](https://arxiv.org/abs/2011.06998))
+
 On [[moduli stabilization]]:
 
 * {#AcharyaBobkovKaneKumarVaman06} [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Diana Vaman, _An M theory Solution to the Hierarchy Problem_, Phys.Rev.Lett.97:191601,2006 ([arXiv:hep-th/0606262](http://arxiv.org/abs/hep-th/0606262))
