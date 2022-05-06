@@ -151,5 +151,8 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 
 * Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
 
+Discussion in terms of [[DHR superselection theory]]:
+
+* {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
 
 [[!redirects Ryu-Takayanagi formula]]
