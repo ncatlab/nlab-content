@@ -30,3 +30,12 @@ In [[physics]] on [[manifolds with boundary]] or with [[domain walls]], [[branes
 
 
 [[!redirects bulks]]
+
+[[!redirects bulk spacetime]]
+[[!redirects bulk spacetimes]]
+
+
+[[!redirects bulk space]]
+[[!redirects bulk spaces]]
+
+
