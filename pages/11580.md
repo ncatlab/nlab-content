@@ -5,7 +5,7 @@
 
 The "rising sea" is a metaphor due to [[Alexander Grothendieck]] (see the quote [below](#Idea)), meaning to illuminate how the development of [[general abstract]] theory eventually brings with it effortless solutions to [[concrete particular]] problems, much like a hard nut may be cracked not immediately by sheer punctual force, but eventually by gently immersing it into a whole body of water.
 
-Following this metaphor, "The Rising Sea" was chosen as the name of a website of [[Daniel Murfet]] with notes on [[algebraic geometry]] as developed in the school of Grothendieck. 
+Following this metaphor, "The Rising Sea" was chosen as the name of a [website](http://therisingsea.org/) of [[Daniel Murfet]] with notes on [[algebraic geometry]] as developed in the school of Grothendieck. 
 
 
 ## Idea
