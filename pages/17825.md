@@ -24,6 +24,9 @@ On the [[K-theory classification of topological phases of matter]] translating u
 
 * [[Andreas Karch]], Joseph Maciejko, [[Tadashi Takayanagi]], _Holographic fractional topological insulators in 2+1 and 1+1 dimensions_,  Phys. Rev. D 82, 126003 (2010) ([arXiv:1009.2991](https://arxiv.org/abs/1009.2991))
 
+On [[AdS3/CFT2]] for [[boundary field theory]]:
+
+* [[Tadashi Takayanagi]], Takahiro Uetoko, _Chern-Simons Gravity Dual of BCFT_ ([arXiv:2011.02513](https://arxiv.org/abs/2011.02513))
 
 
 
