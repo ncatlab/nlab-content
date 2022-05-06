@@ -63,16 +63,25 @@ A [[Grothendieck topos]] $\mathcal{E}$ is an exponentiable object in the 2-categ
 
 This result is due to Johnstone-Joyal ([1982](#JJ82)) and occurs as theorem 4.4.5 of Johnstone ([2002, p.748](#J02)).
 
+Exponentiability is a local property:
 +-- {: .num_prop}
 ###### Proposition
-Exponentiability is a local property:
-
 1. If a [[Grothendieck topos]] $\mathcal{E}$ is exponentiable so is $\mathcal{E}/X$ for any object $X\in\mathcal{E}$.
 2. If $\mathcal{E}/X$ is exponentiable and  $X\to 1$ is an epimorphism, then $\mathcal{E}$ is exponentiable as well.
 
 =--
 
 This occurs as lemma 4.2 in Johnstone-Joyal ([1982](#JJ82), p.281).
+
+Continuity also leaves a trace locally:
+
++-- {: .num_prop}
+###### Proposition
+If a [[Grothendieck topos]] $\mathcal{E}$ is exponentiable then the lattice of [[subobject|subobjects]] of any object $X\in\mathcal{E}$ is [[continuous lattice|continuous]].
+
+=--
+
+This occurs as lemma 5.1 in Johnstone-Joyal ([1982](#JJ82), p.287).
 
 ## Examples
 
