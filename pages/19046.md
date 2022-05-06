@@ -91,11 +91,15 @@ shows that $\mathcal{S}[\mathbb{O}]^\mathcal{E}$ has precisely the properties re
 
 In other words, $\mathbb{T}^*$ is geometric (and classified by $\mathcal{S}[\mathbb{O}]^\mathcal{E}$) precisely iff $\mathcal{E}=\mathcal{S}[\mathbb{T}]$ is exponentiable! 
 
-### Example
+### Examples
 
-Let $0$ be the [[initial topos]] that classifies the _inconsistent theory_ $\mathbb{T}^\emptyset_1$ over the empty signature. Then from $\mathcal{S}[\mathbb{O}]^0=\mathcal{S}$ follows that the _dual_ of the inconsistent theory is $\mathbb{T}_1^{\emptyset\ast}=\mathbb{T}_{\emptyset}^{\emptyset}$ with $\mathbb{T}_{\emptyset}^{\emptyset}$ the [[empty theory]] (over the empty signature).
+* Let $0$ be the [[initial topos]] that classifies the _inconsistent theory_ $\mathbb{T}^\emptyset_1$ over the empty signature. Then from $\mathcal{S}[\mathbb{O}]^0=\mathcal{S}$ follows that the _dual_ of the inconsistent theory is $\mathbb{T}_1^{\emptyset\ast}=\mathbb{T}_{\emptyset}^{\emptyset}$ with $\mathbb{T}_{\emptyset}^{\emptyset}$ the [[empty theory]] (over the empty signature).
 
-From $\mathcal{S}[\mathbb{O}]^\mathcal{S}=\mathcal{S}[\mathbb{O}]$ follows in turn that the _double dual_ of the inconsistent theory, or, in other words, the dual of the empty theory, is $\mathbb{T}_1^{\emptyset\ast\ast}=\mathbb{T}^{\emptyset\ast}_\emptyset=\mathbb{O}$ with $\mathbb{O}$ the [[theory of objects]].
+* From $\mathcal{S}[\mathbb{O}]^\mathcal{S}=\mathcal{S}[\mathbb{O}]$ follows in turn that the _double dual_ of the inconsistent theory, or, in other words, the dual of the empty theory, is $\mathbb{T}_1^{\emptyset\ast\ast}=\mathbb{T}^{\emptyset\ast}_\emptyset=\mathbb{O}$ with $\mathbb{O}$ the [[theory of objects]].
+
+* Let $\mathcal{S}^2$ be the [[Sierpinski topos]] that classifies [[subterminal object|subterminal objects]] or the [[localic topos|theory of completely prime filters]] of the frame of opens of the [[Sierpinski space]]. Since $\mathcal{E}\times \mathcal{S}^2\cong \mathcal{E}^2$ it follows that 
+  $$\mathcal{E}^2=Hom(\mathcal{E}^2,\mathcal{S}[\mathbb{O}])=Hom(\mathcal{E}\times\mathcal{S}^2,\mathcal{S}[\mathbb{O}])= Hom(\mathcal{E},\mathcal{S}[\mathbb{O}]^{\mathcal{S}^2})=Hom(\mathcal{E},\mathcal{S}[\mathbb{O}^2])\quad ,$$
+  i.e. the dual theory is the [[theory of model homomorphisms|theory of morphisms]] $\mathbb{O}^2$.
 
 
 ## Ramifications
