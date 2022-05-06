@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -49,9 +48,18 @@ A tutorial for use of Agda as an implementation of [[homotopy type theory]] is a
  
 * [[Guillaume Brunerie]], _The Agda proof assistant_, slides,  [pdf](http://web.archive.org/web/20160101212359/http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)
 
+and specifically of [[Cubical Agda]] as an implementation of [[cubical type theory]]:
+
+* {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](http://www.cs.cmu.edu/~amoertbe/papers/cubicalagda.pdf))
+
+
+
 The HoTT-Agda library is at
 
 * github, _[hott-agda](https://github.com/hott/hott-agda/)_
 
 category: software
+
 [[!redirects agda]]
+
+[[!redirects Cubical Agda]]
