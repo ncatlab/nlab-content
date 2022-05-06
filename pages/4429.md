@@ -136,7 +136,6 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 =--
 
 
- 
 
 
 ## Examples
@@ -165,7 +164,7 @@ and around equation (10) of:
 
 * {#Chern50} [[Shiing-shen Chern]], _Differential geometry of fiber bundles_, in: Proceedings of the International Congress of Mathematicians, Cambridge, Mass., (August-September 1950), vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952) ([[Chern-DifferentialGeometryOfFiberBundles.pdf:file]], [full proceedings vol 2 pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1950.2/ICM1950.2.ocr.pdf))
 
-It is the independence of this construction under the choice of connection which [Chern 50](#Chern50) atributes (below (10)) to 
+It is the independence of this construction under the choice of connection which [Chern 50](#Chern50) attributes (below (10)) to 
 
 * [[André Weil]], _Géométrie différentielle des espaces fibres_, unpublished, item [1949e] in: _André Weil Oeuvres Scientifiques / Collected Papers_, vol. 1 (1926-1951), 422-436, Springer 2009 ([ISBN:978-3-662-45256-1](https://www.springer.com/gp/book/9783662452561))
 
@@ -179,33 +178,48 @@ Here reference 13 is:
 
 * [[Jean-Louis Koszul]], _Homologie et cohomologie des algebres de Lie_, Bull. Soc. Math. France vol. 78 (1950) pp. 65-127 ([numdam:BSMF_1950__78__65_0](http://www.numdam.org/item/BSMF_1950__78__65_0))
 
-Later, an independent proof of the universal topological "Chern-Weil"-construction $inv(\mathfrak{g}) \to H^\bullet(B G)$ is given in:
+Chern's proof of his equation (15) uses:
+
+1) the fact that [[invariant polynomials]] constitute the [[real cohomology]] of [[classifying space]] $inv(\mathfrak{g}) \simeq H^\bullet(B G)$, which is later expanded on in
 
 * [[Raoul Bott]], _On the Chern-Weil homomorphism and the continuous cohomology of Lie-groups_, Advances in Mathematics Volume 11, Issue 3, December 1973, Pages 289-303 (<a href="https://doi.org/10.1016/0001-8708(73)90012-1">doi:10.1016/0001-8708(73)90012-1</a>)
 
-Review of the Chern-Weil construction :
+2) existence of [[universal connections]] for manifolds in bounded dimension, which is later developed in
+
+* [[Mudumbai Narasimhan]] and [[Sundararaman Ramanan]], _Existence of Universal Connections_, American Journal of Mathematics Vol. 83, No. 3 (Jul., 1961), pp. 563-572 ([jstor:2372896 ](https://www.jstor.org/stable/2372896 ))
+
+* [[Mudumbai Narasimhan]] and [[Sundararaman Ramanan]], _Existence of Universal Connections II_, American Journal of Mathematics Vol. 85, No. 2 (Apr., 1963), pp. 223-231 ([jstor:2373211](https://www.jstor.org/stable/2373211))
+
+* [[Roger Schlafly]], _Universal connections_, Invent Math 59, 59–65 (1980) ([doi:10.1007/BF01390314](https://doi.org/10.1007/BF01390314))
+
+* [[Roger Schlafly]], _Universal connections: the local problem_, Pacific J. Math. Volume 98, Number 1 (1982), 157-171 ([euclid:pjm/1102734394](https://projecteuclid.org/euclid.pjm/1102734394))
+
+Review of the Chern-Weil construction:
 
 * [[Shiing-Shen Chern]], [[James Simons]], Section 2 of: _Characteristic Forms and Geometric Invariants_, Annals of Mathematics Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69 ([jstor:1971013](https://www.jstor.org/stable/1971013))
 
   (in the context of [[Chern-Simons forms]])
 
+* [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
+
+* {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], Section 3.3 of: _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+J. Differential Geom. Volume 70, Number 3 (2005), 329-452 ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], Section 2.1 in: _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)) 
+
+* [[Daniel Freed]], [[Michael Hopkins]], _Chern-Weil forms and abstract homotopy theory_, Bull. Amer. Math. Soc. 50 (2013), 431-468  ([arXiv:1301.5959](https://arxiv.org/abs/1301.5959), [doi:10.1090/S0273-0979-2013-01415-0](https://doi.org/10.1090/S0273-0979-2013-01415-0))
+
 * Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
 
 
-Textbook accounts include
+See also in:
 
 * {#KobayashiNomizu63} Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of Differential Geometry_, Wiley 1963 ([web](https://www.zuj.edu.jo/download/foundations-of-differential-geometry-vol-1-kobayashi-nomizu-pdf/), [Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry))
-
-* [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 
 
-
-The description of the refined Chern-Weil homomorphism in terms of [[differential function complex]]es is in section 3.3. of 
-
-* {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
  
 
 
