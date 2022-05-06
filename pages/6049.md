@@ -322,6 +322,8 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## Related concepts
 
+* [[small instanton]]
+
 * [[brane]], [[string]]
 
 * [[fivebrane structure]], [[differential fivebrane structure]]
