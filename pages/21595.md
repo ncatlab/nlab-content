@@ -19,9 +19,9 @@
 
 ## Idea
 
-In [[computer science]], a [[data type]] is often defined by an [[isomorphism]] of types $X\cong D(X)$ for some construction $D$. For a simple example, the [[natural numbers]] are defined by $N\cong N+1$. However, in a language with general recursion (including [[partial recursive functions]]), the data types have properties as well as the usual inductive ones. For example, in a lazy language such as [[Haskell]], there is an infinity element in $N$, which is a fixed point for successor. 
+In [[computer science]], a [[data type]] is often defined by an [[isomorphism]] of types $X\cong T(X)$ for some construction $T$. For a simple example, the [[natural numbers]] are defined by $N\cong N+1$. However, in a language with general recursion (including [[partial recursive functions]]), the data types have properties in addition to as the usual inductive ones, which allow [[coinduction|coinductive]] reasoning. For example, in a lazy language such as [[Haskell]], there is an infinity element in $N$, which is a fixed point for successor. 
 
-In general, it is common to allow the construction $D$ to be mixed-variance. For example, $X\cong (X\to X)$ is a recursive data type whose inhabitants are expressions of the [[lambda-calculus#pure_lambda_calculus|untyped lambda calculus]]. Thus recursive data types are a generalization of [[reflexive object|reflexive objects]]. On the semantic side, recursive data types are sometimes called "recursive domain equations".  
+In general, it is common to allow the construction $T$ to be mixed-variance. For example, $X\cong (X\to X)$ is a recursive data type whose inhabitants are expressions of the [[lambda-calculus#pure_lambda_calculus|untyped lambda calculus]]. Thus recursive data types are a generalization of [[reflexive object|reflexive objects]]. On the semantic side, recursive data types are sometimes called "recursive domain equations".  
 
 
 ## Definition
@@ -39,23 +39,24 @@ An algebraically complete category $C$ is _algebraically compact_ if this canoni
 +-- {: .num_remark}
 ###### Remark
 
-In [[classical mathematics|classical]] [[set theory]], very few categories are algebraically compact. Thus it is common to restrict attention to certain endofunctors. 
+In [[classical mathematics|classical]] [[set theory]], very few categories are algebraically compact. Thus it is common to restrict attention to certain endofunctors.
 One might then say that this class of endofunctors is algebraically compact. 
+A leading example is where $C$ is $V$-[[enriched category|enriched]], in which case we might restrict attention to $V$-endofunctors. 
 =--
 
 ## Mixed variance domain equations and minimal invariance
 
-Let $D:C^{op}\times C\to C$ be a [[bifunctor]]. A _solution_ for $D$ is an object $X$ together with an isomorphism 
+Let $T:C^{op}\times C\to C$ be a [[bifunctor]]. A _solution_ for $T$ is an object $X$ together with an isomorphism 
 
-$$X \cong D(X,X)$$ 
+$$X \cong T(X,X)$$ 
 
 In general there may be many solutions. One approach to finding a canonical one is in terms of _minimal invariance_.
 
-An [[idempotent]] $e:X\to X$ is said to be _invariant_ for a solution $a:X\to D(X,X)$ if 
+An [[idempotent]] $e:X\to X$ is said to be _invariant_ for a solution $a:X\to T(X,X)$ if 
 $$
   \array{& X & \overset{e}\rightarrow & X & \\
           a & \downarrow &&\downarrow & a\\
-          &D(X,X) & \underset{D(e,e)}\rightarrow& D(X,X) & \\
+          &T(X,X) & \underset{T(e,e)}\rightarrow& T(X,X) & \\
 }$$
 Notice that any [[split idempotent|splitting]] of this idempotent is again a solution. 
 A _minimal invariant_ solution is one for which there are no non-trivial invariant idempotents. 
@@ -68,8 +69,8 @@ If $C$ and $D$ are algebraically compact, so is $C\times D$. If $C$ is algebraic
 =--
 
 As a result of this proposition, we solve a mixed-variance domain equation 
-$X \cong D(X,X)$ 
-for $D:C^{op}\times C\to C$ on an algebraically compact category
+$X \cong T(X,X)$ 
+for $T:C^{op}\times C\to C$ on an algebraically compact category
 by considering the initial algebra / final coalgebra of the endofunctor $\bar{T}:C^{op}\times C\to C^{op}\times C$ 
 given by $\bar{T}(X,Y)=(T(Y,X),T(X,Y))$. 
 
@@ -81,9 +82,11 @@ The notion is due to:
 
 * [[Peter Freyd]], _Algebraically complete categories_, Category Theory in Como, 1990 ([dpi:10.1007/BFb0084215](https://doi.org/10.1007/BFb0084215)){#Freyd}
 
-Barr proposed to look at certain functors as algebraically compact, and gave basic facts about building algebraically compact functors and numerous examples. 
+Barr proposed to look at certain functors as algebraically compact, and gave basic facts about building algebraically compact functors and numerous examples. Fiore and Plotkin looked enriched functors and proved "adequacy" results about data types in programming languages.
 
 * [[Michael Barr]], _Algebraically compact functors_, Journal of Pure and Applied Algebra Volume 82, Issue 3, 26 October 1992, Pages 211-231 (<a href="https://doi.org/10.1016/0022-4049(92)90169-G">doi:10.1016/0022-4049(92)90169-G</a>)
+
+* [[Marcelo Fiore]] and [[Gordon Plotkin]]. _An axiomatization of computationally adequate domain theoretic models of FPC_. In Proc. LICS, 1994. [pdf](http://homepages.inf.ed.ac.uk/gdp/publications/Ax_FPC.pdf).
 
 Pitts gives a survey and discussion, together with further reasoning principles.
 
