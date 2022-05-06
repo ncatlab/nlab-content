@@ -32,7 +32,7 @@ The [[exotic 7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examp
 
 By the classification of bundles on spheres via the [[clutching construction]], these correspond to [[homotopy classes]] of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [orthogonal group -- Homotopy groups](orthogonal+group#HomotopyGroups), this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described, up to [[isomorphism]], by a [[pair]] of [[integers]] $(n,m)$. When $n+m=1$, then one can show there is a [[Morse function]] with exactly two [[critical points]] on the total space of the bundle, and hence this 7-manifold is [[homeomorphic]] to a sphere.
 
-The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \mathbb{Z}$ of the bundle is given by $n-m$. Milnor constructs, using [[cobordism]] theory and [[Hirzebruch's signature theorem]] for [[8-manifolds]], a mod-7 [[diffeomorphism]] [[invariant]] of the manifold, so that it is the standard 7-sphere precisely when $\frac{p_1}{2}^2 -1 = 0 (mod 7)$.
+The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \mathbb{Z}$ of the bundle is given by $n-m$. Milnor constructs, using [[cobordism theory]] and [[Hirzebruch's signature theorem]] for [[8-manifolds]], a [[modulo]]-7 [[diffeomorphism]] [[invariant]] of the manifold, so that it is the standard 7-sphere precisely when $\frac{p_1}{2}^2 -1 = 0 (mod\,7)$.
 
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
 For the [[7-sphere]], it is the [[cyclic group]] $\mathbb{Z}/{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
@@ -73,7 +73,7 @@ See also
 
 ### In M-theory
 
-* {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv.Theor.Math.Phys.3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
+* {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv. Theor. Math. Phys. 3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
 
 
 [[!redirects exotic 7-spheres]]
