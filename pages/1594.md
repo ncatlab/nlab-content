@@ -164,6 +164,7 @@ Orbifold [[cobordisms]] are discussed in
 See also at _[[orbifold cobordism]]_.
 
 ### In string theory
+ {#ReferencesInStringTheory}
 
 In [[perturbative string theory]], orbifolds as [[target spaces]] for a [[string]] [[sigma-model]] were first considered in 
 
