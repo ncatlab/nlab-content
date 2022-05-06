@@ -43,6 +43,7 @@ Given a [[set]] $X$ and a collection $\mathcal{M}$ of [[subsets]] $S \subseteq X
    3.  If $S$ and $T$ are in $\mathcal{M}$, then so is their [[relative complement]] $T \setminus S$.
 
    It follows that $\mathcal{M}$ is closed under intersections of [[inhabited set|inhabited]] finite families and under [[symmetric difference]] of finite families:
+
    *  If $S$ and $T$ are in $\mathcal{M}$, then so is their intersection $S \cap T = T \setminus (T \setminus S)$.
    *  If $S$ and $T$ are in $\mathcal{M}$, then so is their symmetric difference $S \uplus T = (T \setminus S) \cup (S \setminus T)$.
 
