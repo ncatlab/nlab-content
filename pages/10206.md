@@ -19,9 +19,13 @@ The [[twisted cohomology]] version of [[ordinary cohomology]].
 
 ## Related concepts
 
+* [[twisted Bredon cohomology]] (twisted ordinary [[equivariant cohomology]])
+
 * [[twisted ordinary differential cohomology]]
 
 * [[twisted K-theory]]
+
+* [[twisted Cohomotopy]]
 
 ## References
 
