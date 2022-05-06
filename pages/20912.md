@@ -34,6 +34,12 @@ On [[duality in string theory|duality]] of [[M-theory on G2-manifolds]] with [[h
 
 * {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schäfer-Nameki]], _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
+On [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]], relating to [[D=2 N=(2,0) SCFT]]:
+
+* [[Sakura Schäfer-Nameki]], [[Timo Weigand]], _F-theory and 2d (0,2) Theories_, J. High Energ. Phys. 2016, 59 (2016) ([arXiv:1601.02015](https://arxiv.org/abs/1601.02015))
+
+* [[Sakura Schäfer-Nameki]], _F-theory and $2d$ $(0,2)$ Theories_, 2016 ([[SchaeferNamekiFTheoryAnd2DQFT.pdf:file]])
+
 
 
 
