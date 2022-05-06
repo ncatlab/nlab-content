@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -45,3 +55,7 @@ $$
 
 
 [[!redirects commutators]]
+
+[[!redirects commutator bracket]]
+[[!redirects commutator brackets]]
+
