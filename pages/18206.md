@@ -38,7 +38,7 @@ $$
   Y
 $$
 
-with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], then $X \to f(X)$ is a [[homeomorphism]].
+with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
 
 =--
 
