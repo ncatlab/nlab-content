@@ -207,7 +207,7 @@ Notice that
 
 1. $S(V_1 \oplus V_2) \simeq S(V_2|_{Int D(V_1)}) \cup Int D(V_2|_{S(V_1)})$.
 
-(Since a point at radius $r$ in $V_1 \oplus V_2$ is a point of radius $r_1 \leq r$ in $V_2$ and a point of radius $\sqrt{r^2 - r_1^2}$ in $V_1$.)
+(Since a point at radial distance $r$ in $V_1 \oplus V_2$ is a point at radius $r_1 \leq r$ in $V_2$ and a point at radius $\sqrt{r^2 - r_1^2}$ in $V_1$.)
 
 =--
 
