@@ -183,7 +183,7 @@ $$
   \,.
 $$
 
-Under these identifications, $\phi \in \mathbb{R}$ looks like the size of $S^1/(\mathbb{Z}/2)$ in [[Horava-Witten theory]].
+Under these identifications, $\phi \in \mathbb{R}$ looks like the size of $S^1/(\mathbb{Z}_2)$ in [[Horava-Witten theory]].
 
 This decomposition hence induces an [[action]] of the [[spin group]] $Spin(9,1)$ on the exceptional Jordan algebra. While only the subgroup $Spin(9) \hookrightarrow Spin(9,1)$ of that is an [[isomorphism]] of the [[Jordan algebra]]-[[structure]] itself, the full $Spin(9,1)$-[[action]] does preserve the [[determinant]] on $\mathfrak{h}_3(\mathbb{O})$.
 
