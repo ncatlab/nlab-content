@@ -174,7 +174,7 @@ The correspondence of single trace operators to [[superstring]] excitations unde
 * [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
 
 
-* {#Kruczenski04} Martin Kruczenski, _Spiky strings and single trace operators in gauge theories_, JHEP 0508:014, 2005 ([arXiv:hep-th/0410226](https://arxiv.org/abs/hep-th/0410226))
+* {#Kruczenski04} [[Martin Kruczenski]], _Spiky strings and single trace operators in gauge theories_, JHEP 0508:014, 2005 ([arXiv:hep-th/0410226](https://arxiv.org/abs/hep-th/0410226))
 
 The identification of the relevant [[single trace operators]] with [[integrable system|integrable]] [[spin chains]] is due to
 
