@@ -96,6 +96,7 @@ The suggestion that asymptotic safety explains the observed [[mass]] of the [[Hi
 
 but see p. 17 of
 
-* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, Alessandro Strumia, section 7 of _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
+* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
+and for more see at _[Higgs field -- Asymptotic safety?](https://ncatlab.org/nlab/show/Higgs%20field#AsymtoticSafetyOrNot)_
 
