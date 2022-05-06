@@ -36,6 +36,12 @@ More generally,  for $X$ a smooth manifold with smooth [[action]] of a [[connect
 | [[real cohomology|real]] [[ordinary cohomology]] | real [[equivariant ordinary cohomology]] |
 | [[de Rham cohomology]] | [[equivariant de Rham cohomology]]
 
+## Properties
+
+* [[de Rham theorem]]
+
+* [[PL de Rham theorem]]
+
 ## Related concepts
 
 * [[rational cohomology]], [[complex cohomology]]
