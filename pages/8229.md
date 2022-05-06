@@ -20,7 +20,7 @@
 
 ## Idea
 
-The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of [[3-manifolds]] and [[4-manifolds]].
+The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of [[2-manifolds]] ([[surfaces]]), [[3-manifolds]] and [[4-manifolds]], but also [[8-manifolds]]
 
 ## Related entries
 
@@ -29,6 +29,11 @@ The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of 
 * [[arithmetic topology]]
 
 * [[van Kampen theorem]]
+
+[[!include low dimensional manifolds -- table]]
+
+[[!include low dimensional rotation groups -- table]]
+
 
 ## References
 
