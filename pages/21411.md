@@ -101,8 +101,10 @@ Regarded as [[smooth functions]] $h_n \colon \mathbb{R} \to \mathbb{R}$ on the [
 
 ### Recursion relations
 
+(...)
 
-$$
+\[
+  \label{DifferentialRecursionRelationForHermiteFunctions}
   \frac{d}{d x}
   h_n(x)
   \;=\;
@@ -119,12 +121,11 @@ $$
       {2}
   }
   h_{n+1}(x)
-$$
-
-
-## Properties
+\]
 
 (...)
+
+
 
 ## Related concepts
 
