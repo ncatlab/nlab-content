@@ -240,7 +240,9 @@ The maximal 5d [[gauged supergravity]] was first constructed in
 
 *  M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B259 (1985) 460 ([spire](https://inspirehep.net/record/16067?ln=en))
 
-* M. Gunaydin,  L.J. Romans, N.P. Warner, _Compact and Noncompact Gauged Supergravity Theories in Five-Dimensions_, Nucl.Phys. B272 (1986) 598-646 ([spire](https://inspirehep.net/record/219727?ln=en))
+* [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Gauged $N = 8$ Supergravity in Five Dimensions_, Phys. Lett. 154B, (1985) 268 ([spire:207663](http://inspirehep.net/record/207663), <a href="https://doi.org/10.1016/0370-2693(85)90361-2">doi:10.1016/0370-2693(85)90361-2</a>)
+
+* [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
 
 See ([ACFG 01](#ACFG01)).
 
