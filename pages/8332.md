@@ -66,6 +66,7 @@ $$
 
   * [[suspension]], [[reduced suspension]]
 
+  * [[Sullivan model of a suspension]]
 
 [[!redirects suspension of chain complexes]]
 [[!redirects suspensions of a chain complex]]
