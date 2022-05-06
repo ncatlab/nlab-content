@@ -43,8 +43,8 @@ The mesons in the first [[generation of fermions]], being [[bound states]] of [[
 
 
 \begin{imagefromfile}
-    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
-    "width": 470,
+    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "width": 600,
     "unit": "px",
     "margin": {
         "top": 0,
@@ -53,6 +53,7 @@ The mesons in the first [[generation of fermions]], being [[bound states]] of [[
         "left": 20
     }
 \end{imagefromfile}
+
 
 Here $\mathbf{n}$ denotes an [[irreducible representation]] of [[dimension]] $n$, and the subscript ${}_{\mathrm{sgn}}$ indicates the one of the two irreps of that dimension which pick up an extra sign under [[orientation]]-reversal ($\mathbf{4}_{{}_{sgn}} = \mathbf{4} \otimes \mathbf{1}_{{}_{sgn}}$ for $\mathbf{1}_{{}_{sgn}}$ the [[sign representation]]).
 
