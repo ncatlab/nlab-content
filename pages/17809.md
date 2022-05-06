@@ -5454,7 +5454,7 @@ $$
 The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[Jacobi identity]]
 is equivalent to the cocycle condition on $\mu_2$.
 
-Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[bilinear form] on the $q$ fermionic dimensions.
+Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[bilinear form]] on the $q$ fermionic dimensions.
 
 So in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$ there is a unique such, up to scale, namely
 
