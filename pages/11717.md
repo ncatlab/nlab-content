@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -43,6 +44,13 @@ then further in
 Discussion in the context of [[E7]]-[[exceptional generalized geometry]] includes
 
 * {#GodazgerGodazgerNicolai13} Hadi Godazgar, Mahdi Godazgar, [[Hermann Nicolai]], _Generalised geometry from the ground up_, Journal of High Energy Physics February 2014, 2014:75 ([arXiv:1307.8295](http://arxiv.org/abs/1307.8295))
+
+Double-dual graviton:
+
+
+* [[Marc Henneaux]], Victor Lekeu, Amaury Leonard, _A note on the double dual graviton_ ([arxiv:1909.12706](https://arxiv.org/abs/1909.12706))
+
+
 
 Discussion in terms of [[E11]] [[U-duality]] is in 
 
