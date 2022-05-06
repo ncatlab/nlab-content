@@ -170,7 +170,7 @@ and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string th
 
 * {#Marino12} [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_, Fortschritte der Physik 62.5‐6 (2014): 455-540 ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
-* {#Marino15} [[Marcos Mariño]], _Non-perturbative effects in string theory and AdS/CFT_, [Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)  ([[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf))
+* {#Marino15} [[Marcos Mariño]], _Non-perturbative effects in string theory and AdS/CFT_, [Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)  ([[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf), [recording](https://youtu.be/5hw6l-JSpc4?list=PLzYFBWfshN8eqXZFYg2jBZSii7lHaeyXJ))
 
 
 ### In string theory
@@ -187,6 +187,10 @@ The interpretation via [[D-branes]] of non-perturbative effects in the string [[
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
 
 * {#BeckerBeckerStrominger95} [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
+
+Review includes
+
+* [Marino 15](#Marino15)
 
 Reviews specifically in [[type II string theory]] include
 
