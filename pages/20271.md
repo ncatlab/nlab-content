@@ -30,6 +30,13 @@ $$
 
 which goes with [[Spin(7)-manifolds]], whence the name.
 
+## Properties
+
+### As exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ## Related concepts
 
 * [[generalized Calabi-Yau manifold]]
