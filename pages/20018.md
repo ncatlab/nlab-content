@@ -8,7 +8,7 @@ By extension, one may also refer to elements of any algebraic structure, at leas
 
 \section{Prototypical example}
 
-The prototypical algebraic structure to make sense of the notion of a word is that of a [[monoid]]. If 'word' is used in a context where the intended algebraic structure is not made clear, use of free monoids is likely intended.
+The prototypical algebraic structure with which to make sense of the notion of a word is that of a [[monoid]]. If 'word' is used in a context where the intended algebraic structure is not made clear, use of free monoids is likely intended.
 
 \begin{defn} Let $X$ be a set. A _word_ in the elements of $X$ is an element of the [[free monoid]] on $X$. \end{defn}
 
@@ -16,7 +16,7 @@ The prototypical algebraic structure to make sense of the notion of a word is th
 
 \begin{rmk} We do not assume commutativity. \end{rmk}
 
-\begin{example} Let $X = \{a, b\}$ be a set. Examples of words in $X$ are the empty word, $a$, $b$, $ab$, $a^{5}$, $ab^{3}$, $ababab$, $b^{3}a^{2}b^{5}$ and so on. \end{example}
+\begin{example} Let $X = \{a, b\}$ be a set. Examples of words in $X$ are the empty word, $a$, $b$, $a b$, $a^{5}$, $a b^{3}$, $a b a b a b$, $b^{3}a^{2}b^{5}$ and so on. \end{example}
 
 \section{In groups}
 
