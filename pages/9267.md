@@ -22,7 +22,7 @@
 
 ## Idea
 
-In [[relativistic field theory|relativistic]] [[quantum field theory]] an [[observable]] that evaluates the [[time-ordered products]] of the point-evaluation obserables of the basic [[field (physics)|fields]] at $n$ points of [[spacetime]] in some [[state on a star-algebra]] is called an _$n$-point function_, typically denoted
+In [[relativistic field theory|relativistic]] [[quantum field theory]] an [[observable]] that evaluates the [[time-ordered products]] of the point-evaluation observables of the basic [[field (physics)|fields]] at $n$ points of [[spacetime]] in some [[state on a star-algebra]] is called an _$n$-point function_, typically denoted
 
 $$
   \left\langle
