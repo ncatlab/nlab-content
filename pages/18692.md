@@ -27,11 +27,11 @@ Usually these are called simply **tangent categories**, but on the nLab the page
 
 ## Definition
 
-Tangent bundle categories have three equivalent definitions: the first is due to Rosicky and was rediscovered/refined by Cockett and Cruttwell. In his thesis, Poon Leung found an equivalent definition of tangent categories using an category structure that acts as an abstract Weil prolongation, and later Richard Garner gave a definition of a tangent category as a sort of enriched category.
+Tangent bundle categories have three equivalent definitions: the first is due to Rosicky and was rediscovered/refined by [[Robin Cockett|Cockett]] and [[Geoff Cruttwell|Cruttwell]]. In his thesis, Poon Leung found an equivalent definition of tangent categories using a category structure that acts as an abstract Weil prolongation, and later [[Richard Garner]] gave a definition of a tangent category as a sort of enriched category.
 
 ### Classical Definition
 
-Tangent bundle categories were originally introduced by to model the behaviour of the tangent bundle on the category of smooth manifolds, and of [[microlinear spaces]] in a [[smooth topos]]. For smooth manifold $M$ and a point $m \in M$, on may consider a coordinate patch $U \subset \mathbb{R}^n$ around $m$. Looking at the tangent space of $U$, we see $T(U) \cong U \times \matbb{R}^n$, and similarly
+Tangent bundle categories were originally introduced by Rosicky to model the behaviour of the tangent bundle on the category of smooth manifolds, and of [[microlinear spaces]] in a [[smooth topos]]. For smooth manifold $M$ and a point $m \in M$, on may consider a coordinate patch $U \subset \mathbb{R}^n$ around $m$. Looking at the tangent space of $U$, we see $T(U) \cong U \times \mathbb{R}^n$, and similarly
 $T^2(U) \cong (U \times \mathbb{R}^n) \times (\mathbf{R^n} \times \mathbb{R}^n)$. Besides the vector bundle structures on $p, p_T, T(p)$, there are two important morphisms:
 
 * The vertical lift: $\ell(m,v) = (m,0,0,v)$.
