@@ -172,10 +172,10 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} one sa
 Consider a pair of [[adjoint functors]] 
 
 $$
-  \mathcal{C}
+  \mathcal{D}
     \underoverset
       {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
-  \mathcal{D}
+  \mathcal{C}
 $$
 
 according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, with [[adjunction units]] $\eta_c$ and [[adjunction counits]] $\epsilon_d$ according to Def. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}.
