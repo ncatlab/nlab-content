@@ -80,7 +80,7 @@ On the other hand, any finite simplicial complex $K$ is homotopy equivalent to i
 
 A survey which includes the McCord theorems as background material is in 
 
-* [[Jonathan Barmak]], _Topolog&#237;a Algebraica de Espacios Topol&#243;gicos Finitos y Aplicaciones_ PhD thesis 2009 ([pdf](http://www.math.kth.se/~jbarmak/tesisfinal2.pdf))
+* [[Jonathan Barmak]], _Topolog&#237;a Algebraica de Espacios Topol&#243;gicos Finitos y Aplicaciones,_ PhD thesis 2009 ([pdf](http://www.math.kth.se/~jbarmak/tesisfinal2.pdf))
 
 published as
 
