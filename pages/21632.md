@@ -73,6 +73,17 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 
 * {#SeadeVerjovsky03} Le, [[José Seade]], [[Alberto Verjovsky]], Section 4 of: _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
 
+In [[noncommutative geometry]]:
+
+* Simon Brain, Giovanni Landi, _Differential and Twistor Geometry of the Quantum Hopf Fibration_, Commun. Math. Phys. 315 (2012):489-530 ([arXiv:1103.0419](https://arxiv.org/abs/1103.0419))
+
+
+In higher dimensions:
+
+Over $\mathbb{H}P^3$:
+
+* {#LooVerjovsky94} B. Loo and [[Alberto Verjovsky]], _On quotients of Hopf fibrations_, in: Rendiconti dell’Istituto di Matematica dell’Università di Trieste. An International Journal of Mathematics, 26 (1994), pp. 103-108 ([hdl:10077/4637](	http://hdl.handle.net/10077/4637), [pdf](https://www.openstarts.units.it/bitstream/10077/4637/1/LooVerjovskyRendMat26.pdf))
+
 
 [[!redirects Calabi-Penrose fibrations]]
 
