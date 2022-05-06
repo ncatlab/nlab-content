@@ -1150,6 +1150,8 @@ The [[bordism rings]] for [[MU]], [[MUFr]] and [[MFr]] sit in a [[short exact se
 
 where $i$ is the evident inclusion, while $\partial$ is restriction to the [[boundary]].
 
+(By [this Prop.](MUFr#AShortExactSequenceOfUFrBordismRings) at _[[MUFr]]_.)
+
 In particular, this means that $\partial$ is [[surjective function|surjective]], hence that every $Fr$-manifold is the boundary of a [[(U,fr)-manifold]].
 
 =--
