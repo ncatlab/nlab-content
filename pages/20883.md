@@ -247,6 +247,8 @@ $$
 etc.  The values of the traces in the last line are
 the values of the [[Lie algebra weight system]] $w_C$ on the [[chord diagram]] which reflects the Wick-contractions modulo cyclic permutation.
 
+...[[linear chord diagram]]...
+
 ## Related concepts
 
 * [[metric Lie algebra]]
