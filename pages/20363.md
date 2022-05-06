@@ -73,6 +73,10 @@ For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa
 
 The category of condensed sets is then the (large) [[colimit]] of the category of $\kappa$-condensed sets along the [[filtered category|filtered]] [[poset]] of all uncountable [[strong limit cardinals]] $\kappa$, hence is the category of [[small sheaves]].
 
+## Properties
+
+Condensed sets form a [[pretopos]].
+
 ## Related concepts
 
 * [[pyknotic set]]
@@ -80,6 +84,8 @@ The category of condensed sets is then the (large) [[colimit]] of the category o
 * [[pro-étale site]]
 
 * [[profinite set]]
+
+* [[condensed mathematics]]
 
 ## References
 
