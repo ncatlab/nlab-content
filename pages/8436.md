@@ -84,6 +84,9 @@ General:
 
 * Thorsten B. Wahl, _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
 
+Specifically [[tree tensor networks]]:
+
+* Valentin Murg, Örs Legeza, Reinhard M. Noack, Frank Verstraete, _Simulating Strongly Correlated Quantum Systems with Tree Tensor Networks_, Phys. Rev. B 82, 205105 (2010) ([arXiv:1006.3095](https://arxiv.org/abs/1006.3095))
 
 Concrete materials:
 
