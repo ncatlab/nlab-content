@@ -24,6 +24,8 @@ The notion of _[[Lie algebra]]_ may be formulated [[internalization|internal to]
 
 ## Definition
 
+### As internal Lie algebras
+
 Consider a [[commutative unital ring]] $k$, and a (strict for simplicity) [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $(\mathcal{C},\otimes,1)$ with [[braiding]] $\tau$.
 
 A **[[Lie algebra object]]** in $(\mathcal{C},\otimes,1,\tau)$ is 
@@ -72,7 +74,66 @@ such that the following conditions hold:
      \end{aligned}
    $$
 
+Equivalently, in [[string diagram]]-notation in the ambient [[tensor category]], the [[Lie action property]] looks as follows:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/LieActionPropertyAsSTURelation.jpg" width="500">
+</center>
+
+$$
+  \begin{aligned}
+    \Leftrightarrow
+    &
+    \;\;\;\;\;
+    \rho(f(x,y),z) \;=\; \rho(y,\rho(x,z)) - \rho(x,\rho(y,z))
+    \\
+    \underset{
+      {f = [-,-]}
+      \atop
+      {Lie\;bracket}
+    }{
+      \Leftrightarrow
+    }
+    &
+    \;\;\;\;\;
+    \underset{
+       {Lie\;action\;property}
+    }{
+    \underbrace{
+      \rho([x,y],z) \;=\; \rho(y,\rho(x,z)) - \rho(x,\rho(y,z))
+    }
+    }
+    \\
+    \underset{
+      {\rho = -[-,-]}
+      \atop
+      {adjoint\;action}
+    }{
+      \Leftrightarrow
+    }
+    &
+    \;\;\;\;\;
+    \underset{
+       {Jacobi\;identity}
+    }{
+    \underbrace{
+      [[x,y],z] \;=\; - [y,[x,z]] + [x,[y,z]]
+    }
+    }
+  \end{aligned}
+$$
+
+where the last line shows the equivalence to the [[Jacobi identity]] on the [[Lie algebra object]] itself in the case that the Lie action is the [[adjoint action]].
+
+In the language of [[Jacobi diagrams]] this is called the _[[STU-relation]]_.
+and is the reason behind the existence of [[Lie algebra weight systems]] in [[knot theory]].
+
+
+### As algebras over the Lie operad
+
 Equivalently, Lie algebra objects  are the [[algebras over an operad]] over a certain quadratic [[operad]], called the [[Lie operad]], which is the [[Koszul dual]] of the [[commutative algebra operad]].
+
+
 
 ## Examples
 
