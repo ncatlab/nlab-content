@@ -36,6 +36,8 @@ An **integers object** in a [[topos]] (or any [[cartesian closed category]]) $E$
 
 By the [[universal property]], the integers object is unique up to [[isomorphism]]. 
 
+Every integers object is a [[natural numbers object]] in two different ways, as the triples $(\mathbb{Z},z:1\rightarrow\mathbb{Z},s:1\rightarrow\mathbb{Z})$ and $(\mathbb{Z},z:1\rightarrow\mathbb{Z},p:1\rightarrow\mathbb{Z})$. There is a nontrivial isomorphism $-:\mathbb{Z}\rightarrow\mathbb{Z}$ between the two natural numbers objects $(\mathbb{Z},z:1\rightarrow\mathbb{Z},s:1\rightarrow\mathbb{Z})$ and $(\mathbb{Z},z:1\rightarrow\mathbb{Z},p:1\rightarrow\mathbb{Z})$, such that $- \circ z = z$, $s \circ - = - \circ p$, and $p \circ - = - \circ s$, which corresponds to negation in [[Set]].  
+
 ## Related concepts
 
 * [[integers]]
