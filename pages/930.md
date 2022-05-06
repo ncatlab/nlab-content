@@ -34,7 +34,7 @@ In [[algebraic geometry]], given an affine algebraic $k$-group [[scheme]] $G$, t
 
 Discussion for [[ring spectra]]:
 
-* {#Rognes08} [[John Rognes]], _Galois extensions of structured ring spectra/Stably dualizable groups_, Memoires of the American Mathematical Society, 192(898), 2008,  ([partial pdf](https://folk.uio.no/rognes/papers/galois.pdf), [doi:10.1090/memo/0898](http://dx.doi.org/10.1090/memo/0898))
+* {#Rognes08} [[John Rognes]], _Galois extensions of structured ring spectra/Stably dualizable groups_, Memoirs of the American Mathematical Society, 192(898), 2008,  ([partial pdf](https://folk.uio.no/rognes/papers/galois.pdf), [doi:10.1090/memo/0898](http://dx.doi.org/10.1090/memo/0898))
 
 category: algebra, noncommutative algebraic geometry
 [[!redirects Hopf-Galois extensions]]
