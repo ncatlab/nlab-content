@@ -34,8 +34,7 @@ As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type th
 
 ## References
 
-* [[Daniel Licata]], _Dependently Typed Programming
-with Domain-Specific Logics_ PhD Thesis (2011) ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf)) - chapter 7
+* [[Daniel Licata]], _Dependently Typed Programming with Domain-Specific Logics_ PhD Thesis (2011) ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf)) - chapter 7
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
 
