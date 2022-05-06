@@ -44,12 +44,6 @@ A theory is of presheaf type if and only if its category of [[models]] in [[Set]
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
-If a theory $\mathbb{T}$ is of presheaf type then its [[classifying topos]] $Set[\mathbb{T}]$ is (modulo neglectable size issues[^iss]) given by $Set^{\mathbb{T}-Mod_{fp}(Set)}$.
-
-=--
-
 Cf. Caramello ([2018](#Cara18), p.199). In particular, any consistent theory of presheaf type has models in $Set$.
 
 [^iss]: This means that the essentially small category $\mathbb{T}-Mod_{fp}(Set)$ has to be replaced by its skeleton.
