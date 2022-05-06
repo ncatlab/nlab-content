@@ -62,6 +62,8 @@ Outlook on results such as [[flavour anomalies]], search for [[leptoquarks]] etc
 
 [[!redirects Large Hadron Collider]]
 
+[[!redirects LHC experiment]]
+
 [[!redirects ATLAS collaboration]]
 [[!redirects CMS collaboration]]
 
