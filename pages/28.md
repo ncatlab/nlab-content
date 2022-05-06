@@ -180,7 +180,7 @@ A _[[small groupoid]]_ $\mathcal{G}$ is
 
    to be called the _[[identity morphism]]_ on $x$;
 
-1. for all pairs $x,y \in Hom(x,y)$ of obects a function
+1. for all pairs $(x,y) \in X \times X$ of objects a function
 
    $$
      (-)^{-1} \;\colon\; Hom(x,y) \longrightarrow Hom(y,x)
