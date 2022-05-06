@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a construction in [[relativistic field theory]] on [[Minkowski spacetime]] or, more generally, on [[Lorentzian manifolds]], from a related construction in [[Euclidean field theory]] on [[Riemannian manifolds]]. This is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values. Hence Wick rotation, when it applies, involves [[analytic continuation]] of [[n-point functions]] to [[complex number|complex vaklued]] [[time]] [[coordinates]].
+What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[physics]] for finding a construction in [[relativistic field theory]] on [[Minkowski spacetime]] or, more generally, on [[Lorentzian manifolds]], from a related construction in [[Euclidean field theory]] on [[Riemannian manifolds]]. This is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values. Hence Wick rotation, when it applies, involves [[analytic continuation]] of [[n-point functions]] to [[complex number|complex valued]] [[time]] [[coordinates]].
 
 In some special cases Wick rotation has been rigorously understood and takes the form of a [[theorem]]. Notably the _[[Osterwalder-Schrader theorem]]_ gives a precise meaning to Wick rotation for [[quantum field theory]] on [[Minkowski spacetime]] formalized by the [[axioms]] of [[AQFT]].
 
@@ -74,7 +74,7 @@ $$
   \underset{
     \text{correlator of Euclidean fields}
     \atop
-    \text{ for "Eculidean time" of periodicity}\; \beta = 1/T
+    \text{ for "Euclidean time" of periodicity}\; \beta = 1/T
   }{
   \underbrace{
   \left\langle 0 \vert \mathbf{\Phi}(x_1) \mathbf{\Phi}(x_2) \cdots \mathbf{\Phi}(x_n)  \vert 0 \right\rangle_{\mathbb{R}^{d} \times S^1_{\beta}}
