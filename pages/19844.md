@@ -88,7 +88,7 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 
 > graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
 
-The [[statistical significances]] of pull away from the [[standard model of particle physics|stanmdard model]] for [[effective field theory|effective]] New Physics models:
+The [[statistical significances]] of pull away from the [[standard model of particle physics|standard model]] for [[effective field theory|effective]] New Physics models:
 
 
 <center>
@@ -110,7 +110,7 @@ There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard m
 > slide grabbed from [Descotes-Genon 19b](#DescotesGenon19b)
 
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by 2015 [LKLR 19, p. 12](#LKLR19) by they year 2025.
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
 \linebreak
 
@@ -219,7 +219,7 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 ## Relation to other anomalies
  {#RelationToOtherAnomalies}
 
-There is possibly a relation between the [[flavour anomalies]] an the  [anomalies](anomalous magnetic moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17))
+There is possibly a relation between the [[flavour anomalies]] an the  [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17))
 
 Indeed, [[leptoquark]] models preferred by the flavour anomalies are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
