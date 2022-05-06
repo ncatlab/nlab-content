@@ -35,12 +35,61 @@ A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field the
 > graphics grabbed form [FLM 12](#FLM12)
 
 
+## Definition
+ {#Definition}
+
+For $G$ a [[simple Lie group]] with [[semisimple Lie algebra]] denoted $\mathfrak{g}$, with [[Lie bracket]] $[-,-]$ and with [[Killing form]] $\langle -,-\rangle$,
+the Skyrme fields are [[smooth functions]]
+
+$$
+  U \;\colon\; \mathbb{R}^3 \longrightarrow G
+$$
+
+and the Skyrme [[Lagrangian density]] is
+
+$$
+  \mathbf{L}
+  \;=\;
+  -\tfrac{1}{2}
+  \left\langle
+    U^{-1}\mathbf{d}U \wedge \star U^{-1}\mathbf{d}U
+  \right\rangle
+  +
+  \tfrac{1}{16}
+  \Big(
+    \big[
+       U^{-1}\mathbf{d}U
+       \wedge
+       U^{-1}\mathbf{d}U
+    \big]
+    \wedge \star
+    \big[
+       U^{-1}\mathbf{d}U
+       \wedge
+       U^{-1}\mathbf{d}U
+    \big]  
+  \Big)
+$$
+
+where $U^{-1} \mathbf{d}U = U^\ast \theta$ is the [[pullback of differential forms|pullback]] of the [[Maurer-Cartan form]] on $G$, and where $\ast$ denotes the standard [[Hodge star operator]] on [[Euclidean space]] $\mathbb{R}^3$. 
+
+(e.g. [Manton 11 (2.2)](#Manton11), [Cork 18b (1)](#Cork18b)) 
+
+A _classical Skyrmion_ is a solution to the corresponding [[Euler-Lagrange equations]] which
+
+1. is [[vanishing at infinity]] $U(r \to \infty) \to e \in G$
+
+1. [[critical point|extremizes]] the [[energy]] implied by the above [[Lagrangian]].
+
+With suitable care, the above Lagrangian arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16)).
+
+<br/>
 
 
 ## As a model for atomic nuclei
  {#AsAModelForBaryonsAndNuclei}
 
-Skyrmions are candidate models for [[baryons]] and even some aspects of [[atomic nuclei]] ([Riska 93](#Riska93), [Manton 16](#Manton16))
+Skyrmions are candidate models for [[baryons]] and even some aspects of [[atomic nuclei]] ([Riska 93](#Riska93), [Battye-Manton-Sutcliffe 10](#BattyeMantonSutcliffe10), [Manton 16](#Manton16), [Naya-Sutcliffe 18](#NayaSutcliffe18)).
 
 
 For instance various resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with baryon number 12 ([Lau-Maonton 14](#LauMaonton14)): 
@@ -111,7 +160,7 @@ Further development:
 
 * {#Manton11} [[Nicholas Manton]], _Classical Skyrmions -- Static Solutions and Dynamics_ ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298))
 
-* {#NST11} Atsushi Nakamula, Shin Sasaki, Koki Takesue, _Classical Skyrmions -- Static Solutions and Dynamics_ ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298))
+* {#NST11} Atsushi Nakamula, Shin Sasaki, Koki Takesue, _Atiyah-Manton Construction of Skyrmions in Eight Dimensions_, JHEP 03 (2017) 076 ([arXiv:1612.06957](https://arxiv.org/abs/1612.06957))
 
 * {#FLM12} D. T. J. Feist, P. H. C. Lau, [[Nicholas Manton]], _Skyrmions up to Baryon Number 108_ ([arXiv:1210.1712](https://arxiv.org/abs/1210.1712))
 
@@ -131,6 +180,9 @@ See also
 Skyrmions modelling [[atomic nuclei]]:
 
 * {#Riska93} D. O. Riska, _Baryons and nuclei as skyrmions_,  Czech J Phys (1993) 43: 449 ([doi:10.1007/BF01589856](https://doi.org/10.1007/BF01589856))
+
+* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
 
 * {#Manton16} [[Nicholas Manton]], _Skyrmions and Nuclei_, talk at Brookhaven National Lab, November 2016 ([pdf](https://quark.phy.bnl.gov/~pisarski/talks/Manton_SkyBNL.pdf))
 
