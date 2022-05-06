@@ -226,7 +226,8 @@ Lecture notes University of Chicago 1975.
 
   (reprint of a 1986 paper on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 &#8206;
-* _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
+
+* _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf))
 
   (on the notion of [[gros topos|gros toposes]], details of his claims are worked out at [[sufficiently cohesive topos]])
 
