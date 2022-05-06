@@ -195,10 +195,6 @@ The available environments are listed below. Some environments can be specified 
       <td>lem</td>
     </tr>
     <tr>
-      <td>Example</td>
-      <td>example</td>
-    </tr>
-    <tr>
       <td rowspan="2">Notation</td>
       <td>notation</td>
     </tr>
@@ -219,6 +215,25 @@ The available environments are listed below. Some environments can be specified 
     <tr>
       <td>Scholium</td>
       <td>scholium</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Assumption</td>
+      <td>assumption</td>
+    </tr>
+    <tr>
+      <td>assum</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td>example</td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td>exercise</td>
+    </tr>
+    <tr>
+      <td>Statement</td>
+      <td>statement</td>
     </tr>
   </tbody>
 </table>
