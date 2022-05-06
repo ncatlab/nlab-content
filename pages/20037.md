@@ -1,25 +1,28 @@
 ## Idea
 
-Rough Paths are a way of defining [Riemann-Stieltjes type integrals](https://ncatlab.org/nlab/show/Stieltjes+integral) for paths with poor $p$-variation where Ito techniques don't work in the context of solving controlled [differential equations](https://ncatlab.org/nlab/show/differential+equation).
+Rough Paths are a way of defining [[Stieltjes integral|Riemann-Stieltjes type integrals]] for paths with poor $p$-variation where Ito techniques don't work in the context of solving controlled [[differential equations]].
 
 ## Set-Up
 
-
 We want to solve differential equations of the form:
 
-$$y_t=y_0+\int_0^t V(y_s)\otimes dX_s$$
+$$
+y_t=y_0+\int_0^t V(y_s)\otimes dX_s
+$$
 
 where $V=(V_1,...,V_d)$ with $V_i\in C_b^\infty(\mathbb{R}^d,\mathbb{R}^d)$ smooth bounded vector fields and $X\in C^p([0,T],\mathbb{R}^d)=\{f\colon \|f\|_{p-var}\colon = (\sup_{\mathcal{P}} |f_t-f_s|^p)^{1/p}\lt \infty\}$ is a signal with finite $p$ variation. 
 
 We want to solve this by a fixed point argument/Picard iteration. That means we must define:
 
-$$\int_0^t f(X_s)\otimes dX_s$$ 
+$$
+\int_0^t f(X_s)\otimes dX_s
+$$ 
 
 for smooth bounded $f$. 
 
-A classical paper in 1936 by Young says, in short, that one can define this integral as a Riemann-Stieltjes integral iff $p\lt 2$.
+The classical paper ([Young 1936](#Young36)) says, in short, that one can define this integral as a Riemann-Stieltjes integral iff $p\lt 2$.
 
-A theorem by Bichdeller-Dellecherie says, in short, that one can define this integral in Ito sense iff $X$ is a [semimartingale](https://ncatlab.org/nlab/show/semimartingale).
+A theorem by Bichdeller-Dellecherie says, in short, that one can define this [[Itô integral|integral in Itô sense]] if and only if $X$ is a [[semimartingale]].
 
 ## Main Result
 
@@ -29,8 +32,8 @@ $$\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+\
 
 ## References
 
-* [[Young, LC]] An inequality of the H\"older type, connected with Stieltjes integration
+* {#Young36} LC Young, _An inequality of the Hölder type, connected with Stieltjes integration_, Acta Math. **67** (1936), 251--282. doi:[10.1007/BF02401743](https://doi.org/10.1007/BF02401743), ([Project Euclid](https://projecteuclid.org/euclid.acta/1485888152)).
 
-* [[Hairer, Martin]] A Course on Rough Paths
+* Peter Friz and [[Martin Hairer]], A Course on Rough Paths, (2014), doi:[10.1007/978-3-319-08332-2](https://doi.org/10.1007/978-3-319-08332-2), ([pdf](http://www.hairer.org/notes/RoughPaths.pdf)).
 
-* [[Friz, Peter, Victoir, Nicolas]] Multidimensional Stochastic Processes as Rough Paths: Theory and Applications
+* Peter Friz and Nicolas Victoir, _Multidimensional Stochastic Processes as Rough Paths: Theory and Applications_ (2010) doi:[10.1017/CBO9780511845079](https://doi.org/10.1017/CBO9780511845079) ([pdf](http://page.math.tu-berlin.de/~friz/master4_May6th.pdf)).
