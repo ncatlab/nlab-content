@@ -51,4 +51,4 @@ $$
 
 ## References
 
- * Robert Lowen, _Approach spaces: the missing link in the topology-uniformity-metric triad_, 1997.
+ * Robert Lowen, _Approach spaces: the missing link in the topology-uniformity-metric triad_, Oxford Mathematical Monographs. 1997. ([publisher link](https://global.oup.com/academic/product/approach-spaces-9780198500308)).
