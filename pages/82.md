@@ -44,6 +44,14 @@ There are always two ways to think of topos theory: as being
 
 ## References
 
+### Original texts
+
+Discussion in [[algebraic geometry]]:
+
+* {#SGA4} [[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]] (eds.), _Théorie des Topos et Cohomologie Etale des Schémas - SGA 4_ , LNM **269** Springer Heidelberg 1972.
+
+* [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972) ([doi:10.1007/978-3-662-59155-0](https://www.springer.com/gp/book/9783540055730))
+
 
 ### Introductions
 
@@ -65,25 +73,15 @@ Other introductions include
 
 ### Textbooks
 
-The mother of it all though not exactly a textbook
-
-* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Théorie des Topos et Cohomologie Etale des Schémas - SGA 4_ , LNM **269** Springer Heidelberg 1972.
-
-A still very useful reference is the monograph
-
 * {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
-
-This later grew into the more detailed
-
-* [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
-
-Maybe the standard modern textbook on Grothendieck toposes is
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-A thorough but clear first introduction to topos theory is
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra 3 - Categories of Sheaves_ , Cambridge UP 1994.
+* [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
+
+
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP 1994 ([ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB))
 
 Introducing even category theory from the scratch while still managing to cover some ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
 
