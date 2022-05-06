@@ -22,6 +22,10 @@ On [[Delta-generated spaces]]:
 
 * [[Daniel Dugger]], _Notes on Delta-generated spaces_, 2003 ([web](https://pages.uoregon.edu/ddugger/delta.html), [[DuggerDeltaGenerated.pdf:file]])
 
+On [[(∞,1)-categorical hom-spaces]] in terms of [[quasi-categories]]:
+
+* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_, Algebraic & Geometric Topology 11 (2011) 263–325 ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263))
+
 
 On [[Cayley-Dickson algebras]]:
 
