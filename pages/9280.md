@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _sesquiunital sesquiagebra_ is an [[algebra object]] [[internalization|internal]] to the [[2-category]] [[2Mod]] of [[algebras]], [[bimodules]] and [[bimodule intertwiners]]. This means that it is an algebra equipped with an additional associative product and unit which are both exhibited by [[bimodules]]. If these bimodules come from algebra [[homomorphisms]] then the sesquialgebra is a [[bialgebra]].
+A _sesquiunital sesquiagebra_ is an [[algebra object]] [[internalization|internal]] to the monoidal [[2-category]] [[2Mod]] of [[algebras]], [[bimodules]] and [[bimodule intertwiners]]. This means that it is an algebra equipped with an additional associative product and unit which are both exhibited by [[bimodules]]. If these bimodules come from algebra [[homomorphisms]] then the sesquialgebra is a [[bialgebra]].
 
 The structure of a sesquialgebra is just so that the [[category of modules]] of the underlying algebra is itself a [[monoidal category]]. In this sense sesquialgebras are a placeholder for [[2-algebra|2-algebras]]. Moreover, in as far as these 2-algebras themselves are regarded as placeholders for _their_ [[2-category]] of [[2-modules]] a sesquialgebra presents a [[3-module]]/[[3-vector space]].
 
