@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[M-theory]] [[KK-compactification|compactified]] on 8-dimensional [[compact topological space|compact]] [[fibers]] $X^{(8)}$ (see _[[M-theory on Spin(8)-manifolds]]_) [[tadpole cancellation]] for the [[supergravity C-field]] is equivalently the condition
+In [[M-theory]] [[KK-compactification|compactified]] on 8-dimensional [[compact topological space|compact]] [[fibers]] $X^{(8)}$ (see _[[M-theory on 8-manifolds]]_) [[tadpole cancellation]] for the [[supergravity C-field]] is equivalently the condition
 
 $$
   N_{M2}
