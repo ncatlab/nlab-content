@@ -122,11 +122,16 @@ The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is c
 
 ## References
 
+
+[[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
+### General gauged WZW models
+
 The original articles are
 
-* [[Edward Witten]], Nucl. Phys. B223 (1983) 433.
 
-* [[Edward Witten]], Commun. Math. Phys. 92 (1984) 455.
+* [[Edward Witten]], _Nonabelian bosonization in two dimensions_, Commun. Math. Phys. 92 (1984) 455 ([euclid:cmp/1103940923](https://projecteuclid.org/euclid.cmp/1103940923))
 
 * [[Krzysztof Gawedzki]], A. Kupiainen, _G/H conformal field theory from gauged WZW model_ Phys. Lett. 215B, 119 (1988); 
 
