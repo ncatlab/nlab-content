@@ -84,7 +84,7 @@ A [[long exact sequence]] $C_\bullet$ is _split exact_ precisely if the [[weak h
 +-- {: .num_prop}
 ###### Proposition
 
-Every exact sequence of finitely generated [[free abelian groups]] is split.
+Every exact sequence of [[free abelian groups]] is split, assuming the [[axiom of choice]].
 
 =--
 
