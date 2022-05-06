@@ -1,6 +1,7 @@
 
 * [webpage](https://www.unioviedo.es/hepth/people/Yolanda/yolanda.html)
 
+
 ## Selected writings
 
 On [[M-brane polarization]]:
@@ -19,6 +20,10 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 * [[Yolanda Lozano]], [[Niall Macpherson]], [[Carlos Nunez]], [[Anayeli Ramirez]], _Two dimensional $N=(0,4)$ quivers dual to $AdS_3$ solutions in massive IIA_ ([arxiv:1909.10510](https://arxiv.org/abs/1909.10510))
 
 * [[Yolanda Lozano]], [[Niall Macpherson]], [[Carlos Nunez]], [[Anayeli Ramirez]], _$AdS_3$ solutions in massive IIA, defect CFTs and T-duality_ ([arxiv:1909.11669](https://arxiv.org/abs/1909.11669))
+
+Similarly for [[D2-D6-NS5 brane bound states]]:
+
+* Federico Faedo, [[Yolanda Lozano]], [[Nicolo Petri]], _Searching for surface defect CFTs within $AdS_3$_, JHEP 11 (2020) 052 ([arXiv:2007.16167](https://arxiv.org/abs/2007.16167))
 
 On [[AdS2/CFT1]] on [[D1-D3 brane intersections]]:
 
