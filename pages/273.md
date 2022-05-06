@@ -251,6 +251,16 @@ Early original references include
 
   (with coefficients in certain [[3-group]]s presented by [[crossed square]]s)
 
+See also
+
+*  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
+
+* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) )Algebraic Topology_. Abel Symposia, vol 4. Springer, Berlin, Heidelberg. ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
+
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460))
+
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](https://arxiv.org/abs/1203.2461))
+
 The standard classical monograph focusing on low-dimensional cases is
 
 * [[J. Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971)
@@ -263,16 +273,16 @@ The correct definition using crossed modules of sheaves then appeared in
 _Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.02128](https://arxiv.org/abs/1702.02128)
 
 
-* [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_ , The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, (1990)
+* [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_, The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, (1990) ([doi:10.1007/978-0-8176-4574-8_10](https://doi.org/10.1007/978-0-8176-4574-8_10))
 
 * [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
 
 * [[Amnon Yekutieli]], Combinatorial descent data for gerbes, Journal of Noncommutative Geometry Volume 8, Issue 4, 2014, pp. 1083–1099, arXiv:1109.1919 ([webpage](https://www.math.bgu.ac.il/~amyekut/publications/comb-descent/comb-descent.html))
 
-The classification of [[∞-gerbe]]s is secretly in 
+The classification of [[∞-gerbes]] is secretly in 
 
-* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
-{#Wendt}
+* {#Wendt} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
+
 
 see the discussion at [[∞-gerbe]] for more on this.
 
