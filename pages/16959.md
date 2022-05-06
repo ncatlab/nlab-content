@@ -96,7 +96,7 @@ $$
 
 +-- {: .num_example} 
 ###### Example 
-For $X = S^1, Y = S_1$, we may consider $X$ to consist of [[quaternions]] $a + b i$ and $Y$ to consist of quaternions $c j + d k$ such that $a^2 + b^2 = 1 = c^2 + d^2$. Then $X$ and $Y$ are in general position in $\mathbb{H} \cong \mathbb{R}^4$ with respect to each other, and the quotient map 
+For $X = S^1, Y = S^1$, we may consider $X$ to consist of [[quaternions]] $a + b i$ and $Y$ to consist of quaternions $c j + d k$ such that $a^2 + b^2 = 1 = c^2 + d^2$. Then $X$ and $Y$ are in general position in $\mathbb{H} \cong \mathbb{R}^4$ with respect to each other, and the quotient map 
 
 $$X \times I \times Y \to S^3$$ 
 
