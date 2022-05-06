@@ -40,7 +40,7 @@ The expansion of thermal field theory around the [[infinite-temperature thermal 
 
 * {#Ginsparg80} [[Paul Ginsparg]], _First and second order phase transitions in gauge theories at finite temperature_, Nuclear Physics B Volume 170, Issue 3, 15 December 1980, Pages 388-408 (<a href="https://doi.org/10.1016/0550-3213(80)90418-6">doi:10.1016/0550-3213(80)90418-6</a>)
 
-* {#AppelquistPisarski81} Thomas Appelquist, Robert D. Pisarski, _High-temperature Yang-Mills theories and three-dimensional quantum chromodynamics_, Phys. Rev. D 23, 2305 (1981) ([doi:10.1103/PhysRevD.23.2305](https://doi.org/10.1103/PhysRevD.23.2305))
+* {#AppelquistPisarski81} Thomas Appelquist, [[Robert Pisarski]], _High-temperature Yang-Mills theories and three-dimensional quantum chromodynamics_, Phys. Rev. D 23, 2305 (1981) ([doi:10.1103/PhysRevD.23.2305](https://doi.org/10.1103/PhysRevD.23.2305))
 
 * {#Nadkarni83} Sudhir Nadkarni, _Dimensional reduction in finite-temperature quantum chromodynamics_, Phys. Rev. D 27, 917 (1983) ([doi:10.1103/PhysRevD.27.917](https://doi.org/10.1103/PhysRevD.27.917))
 
