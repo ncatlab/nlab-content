@@ -98,6 +98,19 @@ Recently it was claimed that there are in fact realistic [[GUT]] [[model (physic
 
 The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the conventional GUT scale, for review see for instance ([Mohapatra 06](#Mohapatra06)).
 
+### Occurrence in string phenomenology
+
+s
+Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SchellekensSuperGepnerModelScanII.jpg" width="600">
+</center>
+
+>  A plot of [[standard model of particle physics|standard model]]-like [[coupling constants]] in a computer scan of [[Gepner model]]-[[KK-compactification]] of [[intersecting D-brane models]] according to [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b). 
+
+>  The blue dot indicates the couplings in $SU(5)$-[[GUT]] theory. The faint lines are NOT drawn by hand, but reflect increased density of Gepner models as seen by the computer scan.
 
 
 ## Related concepts
@@ -164,6 +177,13 @@ for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 Introductory overview to GUTs in [[string theory]] is in 
 
 * {#Nilles11} [[Hans-Peter Nilles]], _Strings, Exceptional Groups and Grand Unification_, talk at _[Planck 2011](https://indico.cern.ch/event/112851/)_ ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/114planck.pdf), [[Nilles11GUT.pdf:file]])
+
+Computer scan of [[Gepner model]]-compactifications in relation to GUT-models is in 
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
+
 
 Realization of GUTs in the context of [[M-theory on G2-manifolds]] and possible resolution of the [[doublet-triplet splitting problem]] is discussed in
 
