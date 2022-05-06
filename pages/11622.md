@@ -20,7 +20,7 @@
 ## Idea
  {#Idea}
 
-It is well known that when the [[higher dimensional Chern-Simons theory|higher Chern-Simons term]] in [[11-dimensional supergravity]] is [[KK-compactification|compactified]] on a 4-sphere to yield the [[7-dimensional Chern-Simons theory]] which inside [AdS7/CFT6](AdS-CFT#AdS7CFT6) is dual to the [[M5-brane]] [[6d (2,0)-superconformal QFT]], the [[cup product]] square in [[ordinary differential cohomology]] that enters its definition is to receive a [[quadratic refinement]]. This was originally argued in ([Witten 97](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#Witten97)) and then formalized and proven in ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]).
+It is well known that when the [[higher dimensional Chern-Simons theory|higher Chern-Simons term]] in [[11-dimensional supergravity]] is [[KK-compactification|compactified]] on a [[4-sphere]] to yield the [[7-dimensional Chern-Simons theory]] which inside [AdS7/CFT6](AdS-CFT#AdS7CFT6) is [[duality in string theory|dual]] to the [[M5-brane]] [[6d (2,0)-superconformal QFT]], the [[cup product]] square in [[ordinary differential cohomology]] that enters its definition is to receive a [[quadratic refinement]]. This was originally argued in ([Witten 97](http://ncatlab.org/nlab/show/7d+Chern-Simons+theory#Witten97)) and then formalized and proven in ([[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]).
 
 What though is the situation up in 11 dimensions before compactifying to 7-dimensions?
 
