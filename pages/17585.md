@@ -1,3 +1,4 @@
+[[!redirects Sullivan model of free loop space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,14 +16,18 @@
 
 ## Idea
 
-In [[rational homotopy theory]], given a [[rational topological space]] modeled by a [[Sullivan model]] [[dg-algebra]], there is an explicit description of the Sullivan model of its [[free loop space]].
+In [[rational homotopy theory]], given a [[rational topological space]] modeled by a [[Sullivan model]] [[dg-algebra]], there is an explicit description of the Sullivan model of its [[loop space]], ([[free loop space]] or [[based loop space]]).
 
-This is a special class of cases of the general notion of [[Sullivan models of mapping spaces]].
+This is a special case of [[Sullivan models of mapping spaces]].
 
 ## Construction
 
+### For the free loop space
+ {#ConstructionForFreeLoopSpace}
+
 +-- {: .num_prop #SullivanModelForTheFreeLoopSpace}
 ###### Proposition
+**([[Sullivan model]] for [[free loop space]])**
 
 Let $(\wedge^\bullet V, d_X)$ be a [[semifree dg-algebra]] being a [[minimal Sullivan model]] of a [[rational space|rational]] [[simply connected space]] $X$. Then a Sullivan model for the [[free loop space]] $\mathcal{L} X$ is given by
 
@@ -59,6 +64,45 @@ This is due to ([Vigu&#233;-Sullivan 76](#VigueSullivan76)). Review includes ([F
 ###### Remark
 
 The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that for the [[Weil algebra]] of the [[L-infinity algebra]] of wich $(\wedge^\bullet V,d_X)$ is the [[Chevalley-Eilenberg algebra]], except that here $s$ shifts _down_ whereas for the Weil algebra it shifts _up_.
+
+=--
+
+### For the based loop space
+ {#ConstructionForBasedLoopSpace}
+
+For $X$ a [[pointed topological space]] and for the [[circle]] $S^1$ regarded as [[pointed topological space|pointed]] by any base point $\ast \to S^1$ 
+there is the following [[homotopy fiber sequence]] which exhibits the [[based loop space]] as the [[homotopy fiber]] of the [[evaluation map]] out of the [[free loop space]]:
+
+$$
+  \Omega X 
+  \overset{fib(ev_\ast)}{\longrightarrow}
+  \mathcal{L}X 
+  \overset{ ev_\ast }{\longrightarrow}
+  X
+  \,.
+$$
+
+With the dgc-algebra model from Prop. \ref{SullivanModelForTheFreeLoopSpace} for $\mathcal{L}X$ it follows that the dgc-algebra model for the based loop space is the [[homotopy cofiber]] [[dgc-algebra]] $(\wedge^\bullet( s V ), d_{\Omega X})$ in
+
+$$
+  (\wedge^\bullet( s V ), d_{\Omega X})
+  \overset{ cofib\big( (ev_\ast)^\ast \big) }{\longleftarrow}
+  (\wedge^\bullet( V \oplus s V ), d_{\mathcal{L}X})
+  \overset{ (ev_\ast)^\ast }{\longleftarrow}
+  (\wedge\bullet V, d_X)
+  \,.
+$$
+
+This the inclusion on the right is manifestly a [[relative Sullivan algebra]], its [[homotopy cofiber]] is represented by the ordinary cofiber, which is readily read off:
+
++-- {: .num_prop #SullivanModelForBasedLoopSpace}
+###### Proposition
+**([[Sullivan model]] for [[based loop space]])**
+
+For $X$ a [[connected topological space|cnnected]] and [[simply connected topological space]] with [[Sullivan model]] $(\wedge\bullet V, d_X)$, the Sullivan model 
+$(\wedge^\bullet( s V ), d_{\Omega X})$ 
+of its [[based loop space]] $\Omega X$
+is the dgc-algebra obtained from $(\wedge\bullet V, d_X)$ by shifting down all generators in degree by 1, and by keeping only the co-unary componend of the [[differential]].
 
 =--
 
@@ -167,7 +211,7 @@ An [[(infinity,1)-category theory|infinity-category theoretic]] proof of this fa
 
 ## Examples
 
-### The 4-sphere and twisted de Rham cohomology
+### Free loop space of the 4-sphere and twisted de Rham cohomology
  {#4SphereAndTwistedDeRham}
 
 We discuss the Sullivan model for the free and cyclic loop space of the [[4-sphere]]. This may also be thought of as the [[cocycle space]] for [[rational Cohomotopy|rational 4-Cohomotopy]], see [FSS16, Section 3](#FiorenzaSatiSchreiber16).
@@ -376,7 +420,7 @@ $$
 
 =--
 
-### The 2-sphere
+### Free loop space of the 2-sphere
 
 +-- {: .num_example}
 ###### Example
@@ -439,9 +483,63 @@ $$
 
 =--
 
+\linebreak
 
+### Iterated based loop spaces of $n$-spheres
+ {#IteratedLoopSpacesOfNSpheres}
 
+By iterating the Sullivan model construction for the [[based loop space]] from Prop. \ref{SullivanModelForBasedLoopSpace} and using the [[Sullivan models of n-spheres]] we have that:
 
++-- {: .num_prop #SullivanModelsOfMapsFromSkToSnFornLargerk}
+###### Proposition
+**([[Sullivan models]] for [[iterated loop spaces]] of [[n-spheres]])**
+
+The [[Sullivan model]] of the $k$-fold [[iterated based loop space]] $\Omega^k S^n $ of the [[n-sphere]] for $k \lt n$ is 
+
+$$
+  CE\mathfrak{l}
+  \big(
+    \Omega^k S^n
+  \big)
+  \;=\;
+  \left\{
+  \array{
+    \left( 
+      \array{
+        d\,\omega_{n-k} & = 0
+      }
+    \right)
+    &\vert&
+    n \;\text{is odd}
+   \\
+    \left( 
+      \array{
+        d\,\omega_{n-k} & = 0
+        \\
+        d\,\omega_{2n-1-k} & = 0
+      }
+    \right)
+    &\vert&
+    n \;\text{is even}
+  }
+  \right.
+  \phantom{AAAA}
+  \text{for}\; k \lt n
+  \,.
+$$
+
+=--
+
+(see also [Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
+
++-- {: .num_remark}
+###### Remark
+
+The edge case $\Omega^{k+1} S^{k+1} = \Omega\big(  \Omega^k S^{k+1} \big)$ is excluded in Prop. \ref{SullivanModelsOfMapsFromSkToSnFornLargerk}, because $\Omega^k S^{k+1}$ is not [[simply connected topological space|simply connected]] (its [[fundamental group]] is the 0th [[stable homotopy group of spheres]] $\pi\big( \Omega^k S^{k+1}\big) = \pi_{k+1}\big( S^{k+1} \big) = \mathbb{Z}$), so that Prop. \ref{SullivanModelForTheFreeLoopSpace} does not apply. 
+
+For the dgc-algebra model for $\Omega^n S^n$ see instead at _[[rational model of mapping spaces]]_ [this Prop.](rational+model+of+mapping+space#RationalHomotopyTypeOfMapsNSphereToNsphere).
+
+=--
 
 ## Related concepts
 
@@ -489,6 +587,11 @@ General background on [[Hochschild homology]] and [[cyclic homology]] is in
 * {#Loday98} [[Jean-Louis Loday]], _Cyclic homology_, Grundlehren Math.Wiss. __301__, Springer (1998)
 
 * {#Loday11} [[Jean-Louis Loday]], _Free loop space and homology_ ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405))
+
+The case of [[iterated based loop spaces]] of [[n-spheres]] is discussed also in
+
+* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+
 
 [[!redirects Sullivan models of free loop space]]
 [[!redirects Sullivan model of free loop spaces]]
