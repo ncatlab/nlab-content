@@ -4,8 +4,12 @@
 
 ## Selected writings
 
-On [[M2-M5 brane bound states]]:
+On [[massive type IIA supergravity]]:
 
+* {#Tsimpis05} [[Dimitrios Tsimpis]], _Massive IIA supergravities_, JHEP 0510:057, 2005 ([arXiv:hep-th/0508214](https://arxiv.org/abs/hep-th/0508214))
+
+
+On [[M2-M5 brane bound states]]:
 
 * [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
 
