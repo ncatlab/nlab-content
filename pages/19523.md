@@ -95,7 +95,7 @@ If the apparent small positive [[cosmological constant]] ([[dark energy]]) were 
 ## Numerical simulation
  {#NumericalSimulation}
 
-Numerical simulations of inhomogeneous cosmology in the required [[relativistic field theory|relativistic]] accuracy are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17). 
+[[computer experiment|Numerical simulations]] of inhomogeneous cosmology in the required [[relativistic field theory|relativistic]] accuracy have been in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17), [Adamek 18](#Adamek18)
 
 The conclusion in [Montanari-Räsänen 17, p. 20](#MontanariRasanen17) is as follows:
 
@@ -108,6 +108,17 @@ Dependency of results on the choice of [[gauge fixing]] is highlighted in [ACDDK
 > $[...]$ The conclusion of this work is therefore that there are gauges which are relatively close to what observers measure and in these gauges backreaction is small. We used the example of Poisson gauge, but there would be others, e.g. geodesic light cone gauge [53, 54]. However, comoving synchronous gauge is not well suited to describe observations in the late time clumpy universe.  In this gauge backreaction becomes large and the gauge actually breaks down during structure formation. (p. 4)
 
 The simulations in [Odderskov-Koksbang-Hannestad 16](#OdderskovKoksbangHannestad16), [Macpherson-Lasky-Price 18](#MacphersonLaskyPrice18) show noticeable but small effects of inhomogeneity, possibly explaining parts but not all of the measured discrepancy reported in [Riess et. al. 16](#RiessEtAl16).
+
+Similarly [Adamek 18, slide 14](#Adamek18):
+
+> Backreaction is a real phenomenon that...
+
+> - can be quantified accurately with [[computer experiment|numerical experiments]]
+
+> - quantitatively cannot explain observed data without [[dark energy]]
+
+> - may nevertheless be relevant for precision cosmology with
+future surveys
 
 
 ## The "backreaction debate"
@@ -176,9 +187,17 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 ## References
 
+### General
+
 General review:
 
 * {#Ellis18} [[George Ellis]], summary talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org/) ([[EllisCosmoBack18.pdf:file]])
+
+On [[computer experiment]]:
+
+* {#Adamek18} Julian Adamek, _The Numerical Challenge -- Backreaction in Relativistic N-body Simulations of Cosmic Structure Formation_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org/) ([[AdamekCosmoBack18.pdf:file]])
+
+  (on [[gevolution]])
 
 
 
@@ -336,6 +355,7 @@ In constrast, arguments that cosmic inhomogeneity can not be the cause of any si
 See also 
 
 * Wikipedia, _[Lemaître–Tolman metric](https://en.wikipedia.org/wiki/Lema%C3%AEtre%E2%80%93Tolman_metric)_
+
 
 
 [[!redirects inhomogeneous cosmologies]]
