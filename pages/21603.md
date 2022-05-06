@@ -191,6 +191,20 @@ Another reason for the intuition that $Comp$ is the type of closed terms is that
 
 Returning to the issue of subtyping vs inclusion, one could think of inclusion as the closed special case of subtyping. It's only because of the restriction to $Comp$ that the ($(t \in A) \to (t \in B)$) part corresponds to ($(t \Vdash A) \Rightarrow (t \Vdash B)$), as explained in the next section.
 
+#### Presuppositions
+
+So if quantifying over $Comp$ adds an undesired ($t \Vdash Comp$) requirement, quantifying over $\top$ seems closer, since the requirement ($t \Vdash \top$) is trivial. But in general, ($\Pi t:D.(t \in A) \to (t \in B)$) corresponds to ($\forall t.(t \Vdash D) \Rightarrow ((t \in A)\,type \wedge ((t \Vdash A) \Rightarrow (t \Vdash B)))$). With ($t \Vdash Comp$), ($(t \in A)\,type$) is derivable, but in general, its derivability depends on $t$ and $A$.
+
+So since ($t \Vdash \top$) is trivial, ($\Pi t:\top.(t \in A) \to (t \in B)$) corresponds to just ($\forall t.(t \in A)\,type \wedge ((t \Vdash A) \Rightarrow (t \Vdash B))$), but the ($\forall t.(t \in A)\,type$) part is too strong. With relaxed equality, it's saying that $Relax(A)$ is basically the same as $\top$, which is usually not so.
+
+The root of the problem is that ($f \Vdash \Pi x:A.B[x]$) is not interderivable with ($x:A \vdash f\,x \Vdash B[x]$) in general, but rather ($(A\,type) \wedge (x:A \vdash f\,x \Vdash B[x])$). From the perspective of [[intrinsic and extrinsic views of typing|intrinsic typing]], it doesn't make sense to regard ($A\,type$) as part of the *truth* of ($f \Vdash \Pi x:A.B[x]$). Instead, it's a "presupposition": something that has to be true for ($f \Vdash \Pi x:A.B[x]$) to even *make sense*.
+
+But as a practical matter, presuppositions don't validate themselves, so a proof assistant needs some policy on when/how they get validated. If the presuppositions can be checked automatically, this policy is not as visible to the user, but it's still there. When trying to represent judgment-level assertions as types, the details of the presupposition policy become important.
+
+The point of the presupposition policy is to *eliminate* the issue of presuppositions from the judgments. In particular any "type checking" one might think of as being necessary for a judgment to "make sense" is at best a useful fiction. Such typing conditions would be presuppositions, which have in fact been eliminated.
+
+The full presupposition of ($f \Vdash \Pi x:A.B[x]$) is simply ($(\Pi x:A.B[x])\,type$). That ($f \Vdash \Pi x:A.B[x]$) is interderivable with ($(A\,type) \wedge (x:A \vdash f\,x \Vdash B[x])$), and not ($(\Pi x:A.B[x])\,type \wedge (x:A \vdash f\,x \Vdash B[x])$), ($(\Pi x:A.B[x])\,type \Rightarrow (x:A \vdash f\,x \Vdash B[x])$), or something even weirder, is due to the presupposition policy the judgment forms are using. (Technically, ($(\Pi x:A.B[x])\,type \wedge (x:A \vdash f\,x \Vdash B[x])$) is also interderivable, but it redundantly checks ($x:A \vdash B[x]\,type$).)
+
 #### Strong vs Weak Negation
 
 FIXME: Move to a different section:
