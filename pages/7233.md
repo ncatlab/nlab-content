@@ -546,7 +546,7 @@ Weak $G_2$-holonomy is discussed in
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Compact weak $G_2$-manifolds with conical singularities_ ([arXiv:hep-th/0302021](http://arxiv.org/abs/hep-th/0302021))
 
-* {#HouseMicu04} Thomas House, Andrei Micu, _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
+* {#HouseMicu04} Thomas House, [[Andrei Micu]], _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
 For more on this see at _[[M-theory on G2-manifolds]]_
 
