@@ -340,7 +340,11 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 The 5-brane in [[heterotic string theory]] was found as a [[black brane]] in
 
-* {#Strominger91} [[Andrew Strominger]], _Heterotic solitons_, Nucl.Phys. B343 (1990) 167-184 Nucl.Phys. B353 (1991) 565 ([spire](http://inspirehep.net/record/27900))
+* {#Strominger91} [[Andrew Strominger]], 
+
+  _Heterotic solitons_, Nucl.Phys. B343 (1990) 167-184 Nucl.Phys. B353 (1991) 565 ([spire](http://inspirehep.net/record/27900))
+
+  Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>, [spire:27900](http://inspirehep.net/record/27900))
 
 * {#CallanHarveyStrominger91} [[Curtis Callan]], [[Jeffrey Harvey]], [[Andrew Strominger]], _Worldbrane actions for string solitons_, Nuclear Physics B Volume 367, Issue 1, 16 December 1991, Pages 60-82 (<a href="https://doi.org/10.1016/0550-3213(91)90041-U">doi:10.1016/0550-3213(91)90041-U</a>)
 
