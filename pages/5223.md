@@ -42,4 +42,6 @@ Most of interesting people for nlab will have their own pages in $n$lab; many  o
 
 * [The Assayer](http://www.theassayer.org/cgi-bin/asbrowsesubject.cgi?class=Q#freeclassQAm), a catalogue of freely available mathematics books in electronic formats (also computer science and other fields). Some books are even reviewed.
 
+* [Tim Dokchitser](https://people.maths.bris.ac.uk/~matyd/GroupNames/index.html) GroupNames.org is a database, under construction, of names, extensions, properties and character tables of finite groups of small order. 
+
 Category: meta
