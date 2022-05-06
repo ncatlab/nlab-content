@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topology
+#### Spheres
 +--{: .hide}
-[[!include topology - contents]]
-=--
-#### Manifolds and cobordisms
-+--{: .hide}
-[[!include manifolds and cobordisms - contents]]
+[[!include spheres -- contents]]
 =--
 =--
 =--
@@ -701,11 +697,15 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 ## Related entries
 
+[[spheres -- contents]]
+
 * [[fuzzy 4-sphere]]
 
 * [[2-sphere]]
 
 * [[3-sphere]]
+
+* [[5-sphere]]
 
 * [[6-sphere]]
 
