@@ -20,6 +20,8 @@
 
 [[equivariant bordism homology theory|equivariant bordism theory]]:
 
+* [[equivariant MFr]]
+
 * [[equivariant MO]]
 
 * [[equivariant MU]]
