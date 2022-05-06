@@ -88,30 +88,18 @@ Currently, the following stylish themes are available:
 * [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
 
-## How to Download a Local Copy of the n-Lab 
+## How to download a local copy of the nLab 
   {#download}
  
-The nLab is mirrored on [GitHub](https://github.com/ncatlab/nlab-content).
+It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21).
 
-This means that you can download a local copy by running
-
-    git clone git@github.com:ncatlab/nlab-content.git
-
-if you have `git` installed on your system.  You can then pull in updates by running
-
-    git pull
-
-You can set up a [cronjob](https://help.ubuntu.com/community/CronHowto) to do this every day, for example.
-
-If you prefer to have an HTML version, use the [HTML repository](https://github.com/ncatlab/nlab-content-html):
-
-    git clone git@github.com:ncatlab/nlab-content-html.git
+If you would like instead to download rendered nLab pages for local viewing, let us know as well at the nForum.
 
 # Getting Started #
 
 ##How to use a Wiki##
 
-Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.  They key point is that links to other pages are placed in `[[double brackets]]`.
+Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.  They key point is that links to other pages are placed in <nowiki>[[double brackets]]</nowiki>.
 
 There is no feature to preview your edits.  Instead, submit them and then edit again.  Two successive submissions with the same signature and made within 30 minutes of each other count as one in the record, so don\'t worry about cluttering up the database with multiple submissions in a row.
 
@@ -125,7 +113,7 @@ You do this in two steps, the first of which may have already been done:
 
 2. Clicking on the question mark to begin editing the new page.  (It will not actually be created until you hit Submit.)
 
-_Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (`[[like this|Like this]]`.) We loosely agreed to try to follow that and some other naming conventions; see [below](#naming).
+_Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (<nowiki>[[like this|Like this]]</nowiki>.) We loosely agreed to try to follow that and some other naming conventions; see [below](#naming).
 
 However, this is less of an issue now that we have [[redirects]].
 
