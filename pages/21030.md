@@ -21,6 +21,7 @@ The _[[BMN matrix model]]_ ([BMN 02](#BerensteinMaldacenaNastase02), [DSJVR 02](
 ## Properties
 
 ### Ground states: $D0\perp D2$ and $M2/M5$ bound states 
+ {#GroundStates}
 
 While the [[BFSS matrix model]] notoriously suffers from issues with the definition of its ground state (see [there](BFSS+matrix+model#ProblemsGroundState)) this problem is fixed in the BMN matrix model by the mass term: 
 
