@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -37,6 +38,7 @@ A **small category structure** on a [[locally small category]] $C$ is an [[essen
 
 
 ## Smallness in the context of universes
+ {#SmallnessInTheContextOfUniverses}
 
 If [[Grothendieck universe]]s are being used, then for $U$ a fixed Grothendieck universe, a category $C$ is **$U$-small** if its collection of objects and collection of morphisms are both elements of $U$.  $C$ is **essentially $U$-small** if there is a [[bijection]] from its set of morphisms to an element of $U$ (the same for the set of objects follows); this condition is non-evil.
 
