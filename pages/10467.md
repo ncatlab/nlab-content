@@ -17,7 +17,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -80,9 +79,9 @@ A comprehensive textbook account is in
 
 * {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
-Survey includes
+Survey (with emphasis on [[global equivariant bordism homology theory]]):
 
-* {#Schwede15} [[Stefan Schwede]], _Equivariant bordism from the global perspective_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/glasgow-handout.pdf))
+* {#Schwede15} [[Stefan Schwede]], _Equivariant bordism from the global perspective_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/glasgow-handout.pdf), [[SchwedeGlobalEquivariantBordism.pdf:file]])
 
 Original articles are
 
