@@ -92,7 +92,7 @@ In particular:
 +-- {: .num_lemma #UniversalComplexLineBundleThomSpace}
 ###### Lemma
 
-The canonical map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the inifnity [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] is a [[weak homotopy equivalence]]
+The canonical map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the infinite [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] is a [[weak homotopy equivalence]]
 
 $$
   B U(1) 
