@@ -109,9 +109,15 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 ## References
  {#References}
 
+An early textbook on finite groups:
+
 * {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)), reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
 
-Discussion of [[group characters]] and [[group cohomology]] of finite groups includes
+On the [[representation theory]] ([[linear representations]]) of finite groups over [[algebraic number fields]]:
+
+* [[Louis Solomon]], _The representation of finite groups in algebraic number fields_, J. Math. Soc. Japan Volume 13, Number 2 (1961), 144-164 ([euclid:euclid.jmsj/1261147137](https://projecteuclid.org/euclid.jmsj/1261147137))
+
+Discussion of [[group characters]] and [[group cohomology]] of finite groups:
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
