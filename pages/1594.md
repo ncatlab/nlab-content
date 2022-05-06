@@ -148,6 +148,8 @@ Survey of basic orbifold theory:
 
 * {#Porti09} Joan Porti, _An introduction to orbifolds_, 2009 ([pdf](http://mat.uab.es/~porti/orbifoldLeiden.pdf))
 
+* {#Snowden11} Andrew Snowden, _Introduction to orbifolds_, 2011 ([pdf](https://ocw.mit.edu/courses/mathematics/18-904-seminar-in-topology-spring-2011/final-paper/MIT18_904S11_finlOrbifolds.pdf))
+
 Textbook account:
 
 * {#Ratcliffe06} John Ratcliffe, _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Springer 2006
