@@ -15,9 +15,14 @@
 
 ## Idea
 
-A [[meson]]:
+In [[quantum hadrodynamics]], the _$\Phi$-[[meson]]_ is a
+the [[Lorentz group|Lorentz]] [[scalar]] and [[isospin]] [[vector representation|vector]] [[bound state|bound]] from 
 
-The [[Lorentz group|Lorentz]] [[scalar]] and [[isospin]] [[vector representation|vector]] [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]]. Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
+1. an [[up-quark|up]] or [[down-quark]] (from the [[first generation of fundamental particles]])
+
+1. a [[strange quark]] (from the [[second generation of fundamental particles]]. 
+
+Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
 
 \begin{imagefromfile}
     "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
@@ -35,6 +40,11 @@ The [[Lorentz group|Lorentz]] [[scalar]] and [[isospin]] [[vector representation
 
 [[!include flavors of fundamental particles -- table]]
 
+## Related concepts
+
+* [[vector meson]]
+
+* [[vector meson dominance]]
 
 ## References
 
