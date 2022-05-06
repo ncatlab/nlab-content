@@ -19,6 +19,12 @@ On the [[AGT correspondence]]:
 
 * [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_ ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
 
+On [[Coulomb branch]] [[singularities]]:
+
+* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+  (relation to [[Nahm's equations]])
+
 On the [[theta angle]] in [[QCD]]:
 
 * [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_, JHEP05(2017)091 ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
