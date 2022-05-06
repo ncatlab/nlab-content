@@ -29,6 +29,13 @@ on [[string phenomenology]].
 
 > For other sources on [[string theory]] see at _[[books about string theory]]_ or see the _[[string theory FAQ]]_.
 
+\linebreak
+
+See also at _[[string theory FAQ]]_
+
+\linebreak
+
+
 #Contents#
 * table of contents
 {:toc}
