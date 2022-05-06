@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -159,6 +160,10 @@ for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 * Archana Anandakrishnan, B. Charles Bryant, Stuart Raby, _LHC Phenomenology of $SO(10)$ Models with Yukawa Unification II_ ([arXiv:1404.5628](http://arxiv.org/abs/1404.5628))
 
 * Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
+
+Introductory overview to GUTs in [[string theory]] is in 
+
+* {#Nilles11} [[Hans-Peter Nilles]], _Strings, Exceptional Groups and Grand Unification_, talk at _[Planck 2011](https://indico.cern.ch/event/112851/)_ ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/114planck.pdf), [[Nilles11GUT.pdf:file]])
 
 Realization of GUTs in the context of [[M-theory on G2-manifolds]] and possible resolution of the [[doublet-triplet splitting problem]] is discussed in
 
