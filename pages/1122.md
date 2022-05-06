@@ -90,8 +90,7 @@ See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
 
 ##References
 
-\bibitem{Moerdijk} [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_,
-Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
+* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_, Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
 
 * O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful calculus of fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) 221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
 
