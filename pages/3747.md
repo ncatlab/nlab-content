@@ -174,6 +174,11 @@ Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in
 [[!redirects Cantor real]]
 [[!redirects Cantor reals]]
 
+[[!redirects modulated Cauchy real number]]
+[[!redirects modulated Cauchy real numbers]]
+[[!redirects modulated Cauchy real]]
+[[!redirects modulated Cauchy reals]]
+
 [[!redirects regular Cauchy real number]]
 [[!redirects regular Cauchy real numbers]]
 [[!redirects regular Cauchy real]]
