@@ -5,11 +5,11 @@
 
 ## Idea
 
-A [[functor]] is _amnestic_ if its [[domain]] has no unnecessary duplication of [[isomorphic]] [[objects]].  This formalizes the sense in which the [[concrete category]] $Met_c$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and continuous maps), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_c \to Set$ does not.
+A [[functor]] is _amnestic_ if its [[domain]] has no unnecessary duplication of [[isomorphic]] [[objects]].  This formalizes the sense in which the [[concrete category]] $Met_cont$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and continuous maps), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_cont \to Set$ does not.  As ‘amnestic’ is basically a fancy synonym of ‘forgetful’, the idea is to identify properties of a functor that one would want to think of as a forgetful functor.
 
-There is a corresponding notion of _amnesticization_ of a functor, which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_c \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.
+There is a corresponding notion of _amnesticization_ of a functor (called the _amnestic modification_ in [[The Joy of Cats]]), which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_cont \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.  Although not needed in this case, we need the [[axiom of choice]] (AC) in general to prove that every functor has an amnesticization.  Without AC, we can use amnestic [[anafunctors]] to make everything work out, although much of the convenience is lost.
 
-Amnesticity is really a property of [[strict functors]] between [[strict category|strict]] [[groupoids]].
+Amnesticity is really a property of [[strict functors]] (or anafunctors) between [[strict category|strict]] [[groupoids]].  The strictness is needed even to write down the definition (stating that some isomorphic objects are equal), and weakening it to follow the [[principle of equivalence]] leads to a trivial property that every functor satisfies.  (That is, up to [[equivalence of categories|equivalence]], every functor is amnestic, which is because every functor is equivalent to its amnesticization.)  On the other hand, the non-isic [[morphisms]] play no role in the definition; only the categories' [[cores]] matter.
 
 
 ## Definition
@@ -35,7 +35,6 @@ If we follow the [[principle of equivalence]] and refuse to state equations betw
 
 ## Related concepts
 
-
 * [[concrete category]]
 * [[structure]]
 * [[stuff, structure, property]]
@@ -47,5 +46,15 @@ If we follow the [[principle of equivalence]] and refuse to state equations betw
 
 * G. Preu&#223;: Theory of Topological Structures: An Approach to Categorical Topology. D. Reidel Publishing Company. Mathematics and Its Applications, Dordrecht, Holland 1988.  p. 178, footnote 31
 
+
 [[!redirects amnestic functor]]
 [[!redirects amnestic functors]]
+[[!redirects amnestic anafunctor]]
+[[!redirects amnestic anafunctors]]
+
+[[!redirects amnesticization]]
+[[!redirects amnesticizations]]
+[[!redirects amnesticisation]]
+[[!redirects amnesticisations]]
+[[!redirects amnestic modification]]
+[[!redirects amnestic modifications]]
