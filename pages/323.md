@@ -23,23 +23,12 @@
 
 In the [[category]] [[Set]] a 'pullback' is a [[subset]] of the [[cartesian product]] of two [[sets]].  Given a [[diagram]] of [[sets]] and [[functions]] like this:
 
-$$
-  \array{
-     && A &&&& B
-      \\
-      & 
-      && {}_{f}\searrow
-       &
-       & \swarrow_g
-      && 
-     \\
-     
-     &&&&
-     C
-     &&&&
-     
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    A \ar[rd, "f"'] &   & B \ar[ld, "g"] \\
+                    & C
+  \end{tikzcd}
+\end{center}
 
 the 'pullback' of this diagram is the [[subset]] $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that the [[equation]] $f(a) = g(b)$ holds.  
 
@@ -49,53 +38,25 @@ This construction comes up, for example, when $A$ and $B$ are [[fiber bundles]] 
 
 In this case, the fiber of $A \times_C B$ over a [[generalized element|(generalized)]] element $x$ of $C$ is the ordinary [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.  Of course, the fiber of $A$ at the generalized element $x\colon I \to C$ is itself a fibre product $I \times_C A$; the terminology depends on your point of view.
 
-Note that there are maps $p_A : X \to A$, $p_B : X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this [[commuting diagram|square commute]]:
+Note that there are maps $p_A\colon X \to A$, $p_B\colon X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this [[commuting diagram|square commute]]:
 
-$$
-  \array{
-     &&&& X 
-     \\& 
-    &&
-      {}^{p_A}\swarrow
-      && \searrow^{p_B}
-    \\
-     && A &&&& B
-      \\
-      &
-      && {}_f\searrow
-       &
-       & \swarrow_{g}
-      &&
-     \\
-     &&&&
-     C
-     &&&&
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+                    & X \ar[ld, "p_A"'] \ar[rd, "p_B"] \\
+    A \ar[rd, "f"'] &   & B \ar[ld, "g"]               \\
+                    & C
+  \end{tikzcd}
+\end{center}
 
 In fact, the pullback is the [[universal property|universal]] solution to finding a commutative square like this.  In other words, given _any_ [[commutative diagram|commutative square]] 
 
-$$
-  \array{
-     &&&& Y
-     \\& 
-    &&
-      {}^{q_A}\swarrow
-      && \searrow^{q_B}
-    \\
-     && A &&&& B
-      \\
-      &
-      && {}_f\searrow
-       &
-       & \swarrow_{g}
-      &&
-     \\
-     &&&&
-     C
-     &&&&
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+                    & Y \ar[ld, "q_A"'] \ar[rd, "q_B"] \\
+    A \ar[rd, "f"'] &   & B \ar[ld, "g"]               \\
+                    & C
+  \end{tikzcd}
+\end{center}
 
 there is a unique function $h: Y \to X$ such that 
 
@@ -114,47 +75,22 @@ Since this universal property expresses the concept of pullback purely arrow-the
 
 A **pullback** is a [[limit]] of a [[diagram]] like this:
 
-$$
-  \array{
-     && a &&&& b
-      \\
-      & 
-      && {}_{f}\searrow
-       &
-       & \swarrow_g
-      && 
-     \\
-     
-     &&&&
-     c
-     &&&&
-     
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    a \ar[rd, "f"'] &   & b \ar[ld, "g"] \\
+                    & c
+  \end{tikzcd}
+\end{center}
 
 Such a diagram is also called a **pullback diagram** or a [[cospan]].  If the [[limit]] exists, we obtain a commutative square
 
-$$
-  \array{
-     &&&& x 
-     \\& 
-    &&
-      {}^{p_a}\swarrow
-      && \searrow^{p_b}
-    \\
-     && a &&&& b
-      \\
-      &
-      && {}_f\searrow
-       &
-       & \swarrow_{g}
-      &&
-     \\
-     &&&&
-     c
-     &&&&
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+                    & x \ar[ld, "p_a"'] \ar[rd, "p_b"] \\
+    a \ar[rd, "f"'] &   & b \ar[ld, "g"]               \\
+                    & c
+  \end{tikzcd}
+\end{center}
 
 and [[generalized the|the]] object $x$ is also called the **pullback**. It is well defined up to unique [[isomorphism]]. It has the universal property already described above in the special case of the category $Set$.
 
