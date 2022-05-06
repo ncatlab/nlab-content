@@ -22,18 +22,22 @@
 
 ## Idea
 
-The phenomenon or principle called _vector meson dominance_ (VMD) is a tight relation between [[quantum hadrodynamics]] and [[quantum electrodynamics]], where the neutral [[vector meson]] [[field (physics)|fields]] $V_\mu$ (the [[omega-meson]] $\omega_\mu$ and the neutral [[rho-meson]] $\rho^0_\mu$) are seen to be on par with, or even identified with, the [[electromagnetism|electromagnetic]] [[current]] $J_\mu = \overline{\psi}\gamma^\mu \psi$. 
+The phenomenon or principle called _vector meson dominance_ (VMD) is a tight relation between [[quantum hadrodynamics]] and [[quantum electrodynamics]], where the neutral [[vector meson]] [[field (physics)|fields]] $V_\mu$ (the [[omega-meson]] $\omega_\mu$ and the neutral [[rho-meson]] $\rho^0_\mu$) are seen to be on par with, or even identified with, the [[electromagnetism|electromagnetic]] [[hadronic current]] $J^{hadr}$, at least under some conditions.
 
-In [[particle physics]] [[phenomenology]] this is the observation that the [[interaction]] of [[hadrons]] with [[photons]] is dominated by [[interactions]] via [[vector mesons]] (...).
+In [[particle physics]] [[phenomenology]] this is the observation that the [[interaction]] of [[hadrons]] with [[photons]] is dominated by [[interactions]] via [[vector mesons]]. In particular the inverse [[purely leptonic decay]] of [[hadrons]] is dominated by the [[light meson|light]] [[vector mesons]] ([Piller-Weise 90, Fig. 1](#PillerWeise90)).
 
-In [[theory (physics)|theory]], vector meson dominance is encoded by the _field-current identity_  ([Gell-Mann & Zachariasen 61](#GellMannZachariasen61), [Kroll, Lee & Zumino 76, (1.3)](#KrollLeeZumino76), [Sakurai 69, p. 54 onwards](#Sakurai69)):
+In [[theory (physics)|theory]], vector meson dominance is encoded by the _field-current identity_  ([Gell-Mann & Zachariasen 61](#GellMannZachariasen61), [Kroll, Lee & Zumino 76, (1.3)](#KrollLeeZumino76), [Sakurai 69, p. 54 onwards](#Sakurai69), review in [Piller-Weise 90, (4)](#PillerWeise90)):
 
 $$
-  V_\mu \;\sim\; J_\mu
+  J^{hadr}_\mu
+  \;\sim\;
+  V_\mu 
   \,,
 $$ 
 
-which means in particular that all [[coupling constants]] of [[interactions]] with an [[omega-mesons]]/neutral [[rho-meson]] are proportional, by the same factor, to the corresponding electromagnetic coupling (reviewed in [Schildknecht 05, p. 3](#Schildknecht05)). 
+essentially identifying the electromagnetic [[hadron current]] with the joint neutral [[light meson|light]] [[vector meson]] [[field (physics)|field]].
+
+This implies in particular that all [[coupling constants]] of [[interactions]] with an [[omega-meson]]/neutral [[rho-meson]] are proportional, by the same factor, to the corresponding electromagnetic coupling (reviewed in [Schildknecht 05, p. 3](#Schildknecht05)). 
 
 In terms of a [[Lagrangian density]], this is encoded by meson/photon _mixed terms_ of the form ([Kroll, Lee & Zumino 76, (2.7)](#KrollLeeZumino76),[Sakurai 69, p. 67](#Sakurai69))
 
@@ -42,7 +46,7 @@ $$
   \;\sim\;
   d V \wedge \star_4 d A
   \;+\;
-  V \wedge \star_4 J_{hadr}
+  V \wedge \star_4 J^{hadr}
 $$ 
 
 obtained from the Lagrangian density $\mathbf{L}_{EM} \;\sim\; d A \wedge \star_{4} d A + A \wedge \star_4 J_{hadr}$ of [[Maxwell theory]] by exchanging a [[photon]] field variable $A$ with a [[vector meson]] [[field (physics)|field]] $V$ (reviewed in [OCPTW 95, p. 10](#OCPTW95), [Schildknecht 05, p. 4](#Schildknecht05)).
@@ -98,6 +102,8 @@ The original articles:
 
 
 Review:
+
+* {#PillerWeise90} G. Piller, [[Wolfram Weise]], _Vector meson dominance: Selected topics_ 1990 ([spire310958](https://inspirehep.net/literature/310958), [[PillerWeiseVMD.pdf:file]])
 
 * {#OCPTW95} H. B. O'Connell, B. C. Pearce, A. W. Thomas, A. G. Williams, _Rho-omega mixing, vector meson dominance and the pion form-factor_, Prog. Part. Nucl. Phys. 39:201-252, 1997 ([arXiv:hep-ph/9501251](https://arxiv.org/abs/hep-ph/9501251))
 
