@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents
 * table of contents
 {:toc}
@@ -69,7 +70,7 @@ For the moment see [below](#ReferencesRelationToMorseTheory).
 
 Supersymmetric quantum mechanics was introduced or at least became famous with ([Witten 82](#Wittem82)). As explained at the end of ([Witten 85](#Witten85)), [[Edward Witten|Witten]] had come to consider this while looking at the point particle limit of the [[superstring]] [[sigma-model]]. The superstring sigma-model is a kind of supersymmetric quantum mechanics on [[loop space]] (see also at [[2-spectral triple]]) and ordinary supersymmetric quantum mechanics is obtained from this in the limit of vanishing loop size (see e.g [Schreiber 04](#Schreiber04)). Under this identification the above discussion of [[index theory]] translates to Witten's interpretation of the universal [[elliptic genus]] as what is now known as the _[[Witten genus]]_ (see there for more).
 
-One way to make this rigorously precise would be to realize the [[Dirac-Ramond operator]] of the [[superstring]] as an actual [[Dirac operator on smooth loop space]], as originally suggested in ([Witten 87b](#Witten87b)).
+One way to make this rigorously precise would be to realize the [[Dirac-Ramond operator]] of the [[superstring]] as an actual [[Dirac operator on smooth loop space]] (the string's [[Wheeler superspace]]), as originally suggested in ([Witten 87b](#Witten87b)).
 
 
 ## Related entries
@@ -122,7 +123,7 @@ For a survey of the relation to Morse theory see for instance
 
 * Rohit Jain, _Supersymmetric Schr&#246;dinger operators with applications to Morse theory_ ([pdf](http://www.ma.utexas.edu/users/rjain/SUSY.pdf))
 
-This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[loop space]], a relation that is stated more explicitly in 
+This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[smooth loop space]] (the string's [[Wheeler superspace]]), a relation that is stated more explicitly in 
 
 * {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in: _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
@@ -130,7 +131,7 @@ and then in
 
 * {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
 
-The relation between the 2d [[SCFT]] describing the [[type II superstring]] and this deformed supersymmetric quantum mechanics on loop space has been further explored in 
+The relation between the 2d [[SCFT]] describing the [[type II superstring]] and this deformed supersymmetric quantum mechanics on [[smooth loop space]] has been further explored in 
 
 * {#Schreiber04} [[Urs Schreiber]], _On deformations of 2d SCFTs_, JHEP 0406:058,2004 ([arXiv:hep-th/0401175](http://arxiv.org/abs/hep-th/0401175))
 
@@ -160,7 +161,7 @@ The relation of the [[partition function]] of supersymmetric quantum mechanics t
 ### In String theory 
   {#InStringTheory}
 
-The [[superstring]]'s supersymmetric quantum mechanics on [[smooth loop space]] motivated the subject in
+The [[superstring]]'s supersymmetric quantum mechanics on [[smooth loop space]] (the string's [[Wheeler superspace]]) motivated the subject in
 
 * {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in: _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
