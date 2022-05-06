@@ -93,7 +93,7 @@ $$
   (\Gamma_1 \vdash \Delta_1), \cdots, (\Gamma_n \vdash \Delta_n)
 $$
 
-and if these are read [[disjunction|dijunctively]] it is like a higher-order sequent without [[antecedent]] and called a **hypersequent**.
+and if these are read [[disjunction|disjunctively]] it is like a higher-order sequent without [[antecedent]] and called a **hypersequent**.
 
 Rules for formal manipulation of sequents are called _[[sequent calculi]]_ or _[[deduction calculi]]_. See there for more details.
 
@@ -120,7 +120,7 @@ We discuss aspects of the [[categorical semantics]] of sequents, hence their int
 ### In homotopy type theory
 
 Under the [[categorical semantics]] of [[homotopy type theory]]
-sequents in the type theory pretty accurately corrsepond to 
+sequents in the type theory pretty accurately correspond to 
 [[morphisms]] in the [[(∞,1)-topos]]. We indicate how this works, first for type declarations, then for terms of [[dependent types]].
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Write $Type \in \mathbf{H}$ for the [[universe in a topos|internal universe]] of  [[small objects]] of $\mathbf{H}$, called the _[[object classifier]]_. 
