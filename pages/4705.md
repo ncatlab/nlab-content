@@ -115,6 +115,11 @@ As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[
 
 * Cyril Closset, Heeyeon Kim, Section 6.1 of: _Comments on twisted indices in 3d supersymmetric gauge theories_, JHEP 08 (2016) 059 ([arXiv:1605.06531](https://arxiv.org/abs/1605.06531))
 
+Discussion of [[Rozansky-Witten theory]] as a [[boundary field theory]]:
+
+* [[Anton Kapustin]], [[Lev Rozansky]], [[Natalia Saulina]], 
+_Three-dimensional topological field theory and symplectic algebraic geometry I_ ([arXiv:0810.5415](https://arxiv.org/abs/0810.5415))
+
 
 
 
