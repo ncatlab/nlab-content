@@ -4,7 +4,7 @@ Curry's paradox is a version of [[Russell's paradox]] that does not involve the 
 
 Russell's paradox is a proof of [[falsehood]], rendering a certain class of formal systems (those including some kind of unlimited [[axiom of comprehension]]) "inconsistent" in the sense that they prove false, which by the law of [[ex falso quodlibet]] entails that they prove anything at all.  Curry's paradox is a *direct* proof of "anything at all" without the detour through falsehood.  Thus, it applies more generally than Russell's paradox, e.g. to theories lacking a notion of "false", or to [[paraconsistent logic|paraconsistent]] theories whose notion of "false" does not satisfy ex falso quodlibet.
 
-Curry's paradox does, however, still depend on the structural rule of [[contraction]].  Thus, it can be avoided by systems based on [[linear logic]].
+Curry's paradox does, however, still depend on the structural rule of [[contraction rule|contraction]].  Thus, it can be avoided by systems based on [[linear logic]].
 
 ## Argument
 
