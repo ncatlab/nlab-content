@@ -476,10 +476,10 @@ $$
 
 By the rules of morphisms of [[site]]s we have that the [[inverse image]] $p^* : PSh(\mathbf{B}G) \to Set$ is precomposition with $p : * \to \mathbf{B}G$, i.e. the functor that just forgets the $G$-action on a set. 
 
-Its [[right adjoint]] [[direct image]] $p_* : Set \to PSh(\mathbf{B}G)$ is the functor
+Its [[left adjoint]] $p_! : Set \to PSh(\mathbf{B}G)$ is the functor
 
 $$
-  p_* : S \mapsto S \times G
+  p_! : S \mapsto S \times G
 $$
 
 which sends a set $S$ to the $G$-set $S \times G$ equipped with the evident $G$-action induced by that of $G$ on itself.
@@ -494,10 +494,10 @@ $$
 The object 
 
 $$
-  p_*(*) = G \in PSh(\mathbf{B}G)
+  p_!(*) = G \in PSh(\mathbf{B}G)
 $$
 
-singled out this way in this way is the universal object in $Set^G$, namely $G$ equipped with the canonical $G$-action on itself.
+singled out in this way is the universal object in $Set^G$, namely $G$ equipped with the canonical $G$-action on itself.
 
 It ought to be true that the topos-incarnation of the $G$-principal bundle on a topological space $X$ classified by a [[geometric morphism]] $Sh(X) \to PSh(\mathbf{B}G)$ is the $(2,1)$-pullback
 
