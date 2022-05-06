@@ -69,3 +69,8 @@ Though some of the basic results, methods and conjectures of differential topolo
 * [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, 294 pp, webdraft 2018 [pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)
 
 * [[C. T. C. Wall]], _Differential topology_, Cambridge Studies in Advanced Matyhematics 154, 2016
+
+On the [[equivariant homotopy theory]]-version:
+
+* {#Wasserman69} [[Arthur Wasserman]], _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
+
