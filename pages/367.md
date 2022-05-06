@@ -174,7 +174,7 @@ Perhaps surprisingly, this adjunction is even a *simplicially enriched* adjuncti
 
 ## References
 
-* [[Peter May]], _Simplicial objects in algebraic topology_ , University of Chicago Press, 1967, ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+* [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 
 * {#RSS01} [[Charles Rezk]], [[Stefan Schwede]], and [[Brooke Shipley]], *Simplicial structures on model categories and functors*, [arxiv](https://arxiv.org/abs/math/0101162)
 
