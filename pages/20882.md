@@ -154,6 +154,18 @@ If $k$ is a [[field]] and $\mathcal{C}$ = [[sVect]] is the [[category]] of [[sup
 
 * [[Lie algebra weight system]]
 
+## References
+
+### General
+
+(...)
+
+### Examples
+
+On [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]] for [[Lie algebra objects]] in the [[derived category of quasi-coherent sheaves]], and unified [[Wheels theorem]]:
+
+* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+
 
 [[!redirects Lie algebra objects]]
 
