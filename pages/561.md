@@ -35,8 +35,7 @@ One generally also assumes the lifting of additional structures (including "high
 All three of these definitions give rise to a 
 [[long exact sequence of homotopy groups]].  In fact, the [[exact sequence]] would follow from only requiring up-to-homotopy lifting for [[cubes]].  There doesn't seem to be a name for this sort of map, but there is the following:
 
-* A [[quasifibration]] (not to be confused with the completely different notion related to [[quasi-categories]] below) is a map which induces a 
-[[long exact sequence of homotopy groups]].  Equivalently, it is a map each of whose [[fibers]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the corresponding [[homotopy fiber]].
+* A [[quasifibration]] (not to be confused with the completely different notion related to [[quasi-categories]] below) is a map which induces a [[long exact sequence of homotopy groups]].  Equivalently, it is a map each of whose [[fibers]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the corresponding [[homotopy fiber]].
 
 
 ## Abstract homotopy theory 
