@@ -514,6 +514,31 @@ However, ($A \subseteq B \wedge B \subseteq A$) is generally weaker. For example
 
 ## PER theory
 
+## Constructive Propositions
+
+We define [[propositional truncation]] as quotienting a type down to a subsingleton:
+
+$\lceil A \rceil \coloneqq \{x = y | x \in A \wedge y \in A\}$
+
+Unlike the squash of a type ($\lfloor A \rfloor$), $\lceil A \rceil$ has the same set of computations as $A$. So from a computational perspective, a member of $\lceil A \rceil$ is just as useful as a member of $A$. But well-typed computations using a member of $\lceil A \rceil$ are not allowed to depend on the identity of the member. So for example, a map $\lceil A \rceil \to B$ is a map $f\,:\,A \to B$ such that for all $a,a':A$, $f a = f a' \in B$. So a map out of $\lceil A \rceil$ is constant, but that's still more permissive than a map out of $\lfloor A \rfloor$, which cannot safely inspect its input.
+
+Let
+
+* $\not A \coloneqq A \to \bot$
+* $dec A \coloneqq \{b:Bool | ((b = tru \in Bool) \to A) \wedge ((b = fls \in Bool) \to \not A)\}$
+
+By noncontradiction, $dec A$ is a subsingleton, so $\lceil dec A \rceil \approx dec A$. The member of $dec A$, if you can get ahold of it, tells you whether $A$ is inhabited. On the other hand, a member of $\lfloor dec A\rfloor$ tells you nothing: its existence means that $A$ is either inhabited or not, but you still don't know which. A member of $\not \not (dec A)$ also tells you nothing, and even its existence is uninformative: you can prove $\not \not (dec A)$ yourself, without knowing anything about $A$.
+
+There are implications $\lceil A \rceil \to \lfloor A \rfloor$ and $\lfloor A \rfloor \to \not \not A$, going from more useful subsingletons to less useful subsingletons. There generally aren't implications going in the other direction. You can sort of think of $\lceil A \rceil$, $\lfloor A \rfloor$, and $\not \not A$ as truncating down to [[proof relevance|constructive]], [[constructive mathematics|intuitionistic]], and [[classical logic|classical]] propositions, respectively. Here, the distinction between "constructive" and "intuitionistic" is that constructive logic is explicitly computational, whereas intuitionistic logic merely declines to assume anti-computational principles, like [[excluded middle]]. (So for example, [[constructive set theory]] is merely intuitionistic by this terminology, though it has constructive models.) (None of this has to do with [[intuitionism]].)
+
+It should be consistent to add the rule:
+
+$$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash (\not \not A) \to \lfloor A \rfloor}$$
+
+This makes the semantic judgments classical, rather than intuitionistic. Constructive propositions remain constructive, and [[canonicity]] is not affected.
+
+In contrast, having $\not \not A$ imply $\lceil A \rceil$ is not known to be consistent, and it ruins canonicity. (It's quite possible that it's consistent with the current rules, but this is pure luck. In full Nuprl, the same implication is probably false, due to "partial" types.)
+
 ## More admissible/derived rules
 
 ### Fun with subsets
