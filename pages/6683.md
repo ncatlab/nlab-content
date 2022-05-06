@@ -71,6 +71,10 @@ inspired by the $N=8$-case of the [[BLG model]]
 
 * [[Jonathan Bagger]], [[Neil Lambert]], Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
 
+with precursor considerations in
+
+* [[John Schwarz]], _Superconformal Chern-Simons Theories_ ([arXiv:arXiv:hep-th/0411077](https://arxiv.org/abs/hep-th/0411077)
+
 The $N=5$-case is discussed in
 
 * {#HLLLP08} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, Jaemo Park, _$N=5,6$ Superconformal Chern-Simons Theories and M2-branes on Orbifolds_, JHEP 0809:002, 2008 ([arXiv:0806.4977](https://arxiv.org/abs/0806.4977))
