@@ -52,4 +52,4 @@ The following definition follows [Mochizuki2006](#Mochizuki2006).
 
 \section{References}
 
-* _Semi-graphs of anabelioids_, [[Shinichi Mochizuki]], Publ. Res. Inst. Math. Sci., 42, No. 1, 221-322 (2006). [paper](http://www.kurims.kyoto-u.ac.jp/~motizuki/Semi-graphs%20of%20Anabelioids.pdf) [Zentralblatt review](https://zbmath.org/?q=an%3A1113.14025) {#Mochizuki2006}
+* {#Mochizuki2006} _Semi-graphs of anabelioids_, [[Shinichi Mochizuki]], Publ. Res. Inst. Math. Sci., 42, No. 1, 221-322 (2006). [paper](http://www.kurims.kyoto-u.ac.jp/~motizuki/Semi-graphs%20of%20Anabelioids.pdf) [Zentralblatt review](https://zbmath.org/?q=an%3A1113.14025) 
