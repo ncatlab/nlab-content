@@ -56,6 +56,10 @@ The theory and its relation to [[Yangians]] and [[integrable system|integrable]]
 
 * [[Meer Ashwinkumar]], _Integrable Lattice Models and Holography_ ([arXiv:2003.08931](https://arxiv.org/abs/2003.08931))
 
+Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
+
+* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
+
 
 
 Discussion of realizations of semi-holomorphic 4d Chern-Simons theory as the [[worldvolume]] theory of [[intersecting brane|intersecting]] [[D-brane]]/[[NS5-brane]] models
