@@ -1,5 +1,5 @@
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -80,6 +80,7 @@ $$
 
 
 ## References
+ {#References}
 
 For instance section 17.6 of 
 
