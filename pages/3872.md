@@ -8,6 +8,8 @@
 
 * [[Alain Connes]], Joseph Kouneiher, _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
 
+* [[Nigel Hitchin]], _Sir Michael Atiyah OM. 22 April 1929–11 January 2019_, Biographical Memoirs of the FRS, September 2020 ([doi:10.1098/rsbm.2020.0001](https://doi.org/10.1098/rsbm.2020.0001))
+
 
 ## Selected writings
 
