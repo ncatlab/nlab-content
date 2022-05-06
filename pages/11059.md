@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,9 +21,13 @@ A _formal language_ is a collection of words over an alphabet, i.e. strings of s
 
 ## Related concepts
 
-* [[object language]], [[metalanguage]]
+* [[object language]]
+
+* [[metalanguage]]
 
 * [[theory]]
+
+* [[mathematical linguistics]]
 
 * [[linguistics]]
 
