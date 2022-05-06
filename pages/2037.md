@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Cayley--Dickson construction
 * table of contents
 {: toc}
