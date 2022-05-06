@@ -33,7 +33,7 @@ $$
 
 This is a smallness condition in that the family is required to be indexed by a [[small set]].
 
-A restatement of this condition is that the comma categories $(d \downarrow F)$ all admit weakly initial families of objects.
+A restatement of this condition is that the comma categories $(Y \downarrow F)$ all admit weakly initial families of objects.
 
 Here is the connection with the adjoint functor theorem: when small products exist in those comma categories, this is equivalent to saying that they all admit weakly initial objects. When small equalizers exist in those comma categories also, this is equivalent to saying that they all admit initial objects, and this is equivalent to $F$ being a right adjoint.
 
