@@ -68,11 +68,23 @@ Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal f
 ## Examples
 
 \begin{theorem}
-Suppose $C$ is a [[cartesian monoidal category]] with finite limits and colimits, and $\bot\in C$ is an object.  Then the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits, admits a Seely !-modality, namely the [[idempotent comonad]] induced by the [[coreflective subcategory|coreflective]] embedding of $C$.
+Suppose $F : M \rightleftarrows C : G$ is a linear-nonlinear adjunction, where $C$ is closed symmetric monoidal with finite limits and colimits, and $\bot\in C$ is an object.  Then there is an induced linear-nonlinear adjunction $M \rightleftarrows Chu(C,\bot)$ where $Chu(C,\bot)$ is the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits.  Hence $Chu(C,\bot)$ admits a !-modality.
 \end{theorem}
 \begin{proof}
-The embedding of any $C$ in its Chu construction as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal.  The Seely condition therefore means more concretely that the coreflection takes the cartesian product in $Chu(C,\bot)$ to the tensor product of $C$.  But when $C$ is cartesian monoidal, its tensor product is also the cartesian product, so this follows from the fact that the coreflection is a [[right adjoint]] and hence preserves products.
+The embedding of $C$ in $Chu(C,\bot)$ as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal, hence the adjunction is a monoidal adjunction.  Therefore, the composite adjunction $M \rightleftarrows C \rightleftarrows Chu(C,\bot)$ is again a linear-nonlinear-adjunction.
 \end{proof}
+
+Since a Chu construction is $\ast$-autonomous, this !-modality implies a dual ?-modality.
+
+\begin{corollary}
+If $C$ is a cartesian closed category with finite limits and colimits and $\bot\in C$ is an object, then there is a linear-nonlinear adjunction $C \rightleftarrows Chu(C,\bot)$, and hence $Chu(C,\bot)$ admits a !-modality.
+\end{corollary}
+\begin{proof}
+Apply the previous theorem to the identity adjunction $C\rightleftarrows C$.
+\end{proof}
+
+Note that the !-modality obtained from the corollary is [[idempotent comonad|idempotent]], while that obtained from the theorem is idempotent if and only if the original one was.  Other ways of constructing !-modalities, such as by cofree coalgebras, may produce examples that are not idempotent.
+
 
 ## Modal term calculi
 
