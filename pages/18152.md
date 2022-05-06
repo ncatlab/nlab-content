@@ -26,12 +26,7 @@ The [[colimit]] over the empty diagram is, if it exists, the [[initial object]].
 
 ## Related concepts
 
-* [[empty set]],
+[[!include empty objects -- contents]]
 
-* [[empty space]]
-
-* [[empty type]]
-
-* [[nothing]]
 
 [[!redirects empty diagrams]]
