@@ -109,7 +109,7 @@ The interpretation as a 4d [[axion]] is discussed in
 
 The earliest reference where the gauge term in the standard string [[action functional]] is identified with the surface holonomy of a 3-cocycle in [[Deligne cohomology]] seems to be
 
-* [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_, Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([web](http://inspirehep.net/record/257658?ln=de))
+* [[Krzysztof Gawedzki]], _Topological Actions in two-dimensional Quantum Field Theories_, Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([web](http://inspirehep.net/record/257658?ln=de))
 
 The later article
 
@@ -119,7 +119,7 @@ argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne
 
 This is expanded on in 
 
-* [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_ ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
+* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics Volume 52, Issue 2, October 2004, Pages 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [arXiv:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008))
 
 A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the fields that it interacts with is in
 
