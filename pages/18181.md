@@ -243,16 +243,16 @@ While in view of the transcendental object: it
 
 
 
-### Achourioti and van Lambalgen's formalization
+#### Achourioti and van Lambalgen's formalization
 
 Starting from the description of the [A deduction](#deductionA) above Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) suggested a formalization of Kant's logic in terms of [[geometric logic]].
 The idea is to assign each moment of time, i.e. impression, a [[model]]. Then a directed system of such models represents the syntheses of apprehension and reproduction. Taking the limit along this directed system ("synthesis of recognition") gives the concept. Geometric implications come into play as they are exactly the formulas whose truth is stable under taking the limit.
 
-Although the natural category for interpreting [[geometric logic]] is a [[geometric category]] (e.g. a [[topos]]), Achourioti and van Lambalgen work only in [[Set]] for technical convenience. From a philosophical point of view they remark that the underlying category should have additional structure. They elaborate on a specific finite set model of their interpretation, for which they can show a completness theorem. We will state their main results with small reformulations.
+Although the natural category for interpreting [[geometric logic]] is a [[geometric category]] (e.g. a [[topos]]), Achourioti and van Lambalgen work only in [[Set]] for technical convenience. From a philosophical point of view they remark that the underlying category should have additional structure. They elaborate on a specific finite set model of their interpretation, for which they can show a completeness theorem. We will state their main results with small reformulations.
 
 ...
 
-#### Dictionary
+##### Dictionary
 
 | Kant | [[mathematical logic]] and [[model theory]] |
 |------|---------------------------------------------|
@@ -262,6 +262,13 @@ Although the natural category for interpreting [[geometric logic]] is a [[geomet
 | synthesis of reproduction | morphisms of the index category of a directed system (inside the underlying category) | 
 | synthesis of recognition | limit along the directed system |
 
+
+#### __Second Book.__ The Analytic of Principles
+
+##### _Appendix._ On the amphiboly of the concepts of reflection through the confusion of the empirical use of the understanding with the transcendental.
+
+{#identity_difference}
+> 1. __Identity__ and __difference__. If an object is presented to us several times, but always with the same inner determinations (_qualitas et quantitas_), then it is always exactly the same if it counts as an object of pure understanding, not many but only one thing (_numerica identitas_); but if it is appearance, then the issue is not the comparison of concepts, but rather, however identical everything may be in regard to that, the difference of the places of these appearances at the same time is still an adequate ground for the __numerical difference__ of the object (of the senses) itself. ([A263](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_263.png)/B319)
 
 ## __II. Transcendental Doctrine of Methods.__
 
