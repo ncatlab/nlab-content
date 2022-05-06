@@ -66,7 +66,7 @@ More recent textbook and lecture notes include
 
 Some more details are spelled out in 
 
-* {#Pedrotti16} [[Riccardo Pedrotti]], prop. 3.1.14 of _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology, generalized orientation and Thom isomorphism_, 2016, 2018 ([[PedrotticECohomology2018.pdf:file]])
 
 
 
