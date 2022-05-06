@@ -43,28 +43,43 @@ Alternatively, we may construct a fibration by first decomposing $\mathbb{O}^2$ 
 
 $l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb{O}\}$. 
 
-In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the [[unit sphere]] $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV, p. 7](#OPPV)).
+In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the [[unit sphere]] $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV 12, p. 7](#OrneaPartonPiccinniVuletescu12)).
 
 This second construction yields the standard parameterization of the octonionic Hopf fibration via $(x,y) \mapsto x y^{-1}$ (in one chart) and $(x,y ) \mapsto x^{-1} y$ (in the other), while the Hopf construction gives $(x,y) \mapsto x y$. The latter yields the generator $-1$ of $\pi_{15}(S^8) \cong \mathbb{Z}$, while the former yields $+1$. 
 
 ## Properties
  
-### $G_2$ action
+### $G_2$- and $Spin(9)$-equivariance
 
 The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]], manifestly acts on the octonionic Hopf fibration, such that the latter is [[equivariant function|equivariant]].
 
 (see also [Cook-Crabb 93](#CookCrabb93))
 
 
-### Spin(9) action
+But th octonionic Hopf fibration is [[equivariant function|equivariant]] even with respect to the [[Spin(9)]]-[[action]], the one on $S^8 = S(\mathbb{R}^9)$ induced from the canonical action of $Spin(9)$ on $\mathbb{R}^9$, and on $S^{15} = S(\mathbb{R}^{16})$ induced from the canonical inclusion $Spin(9) \hookrightarrow Spin(16)$.
 
-The [[subgroup]] [[Spin(9)]] $\subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be considered as a homogeneous fibration
+This equivariance is made fully manifest by realizing the octonionic Hopf fibration as a map of [[coset spaces]] as follows ([Ornea-Parton-Piccinni-Vuletescu 12, p. 7](#OrneaPartonPiccinniVuletescu12)):
+
 
 $$
-  \frac{Spin(9)}{Spin(7)} 
-  \stackrel{\frac{Spin(8)}{Spin(7)}}{\to}
-  \frac{Spin(9)}{Spin(8)}.
+  \array{
+    S^7 
+      &\overset{fib(h_{\mathbb{O}})}{\longrightarrow}& 
+    S^{15}
+      &\overset{h_{\mathbb{O}}}{\longrightarrow}& 
+    S^8
+    \\
+     = && = && =
+    \\
+    \frac{Spin(8)}{Spin(7)}
+    &\longrightarrow&
+    \frac{Spin(9)}{Spin(7)}
+    &\longrightarrow&
+    \frac{Spin(9)}{Spin(8)}  
+  }
 $$
+
+
 
 ## Related concepts
 
@@ -76,7 +91,7 @@ $$
 
 ##References
 
-* {#OPPV} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899))
+* {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, Transformation Groups (2013) 18: 845 ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
