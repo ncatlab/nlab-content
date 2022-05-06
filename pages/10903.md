@@ -885,7 +885,7 @@ Plain [[linear type theory]] originates in
 
 The [[categorical semantics|categorical interpretation]] of Girard's $!$-[[modality]] as a [[comonad]] is due to
 
-* P. N. Benton, G. M. Bierman, [[Martin Hyland]], [[Valeria de Paiva]], _Term assignment for intuitonistic linear logic_, Technial Report 262,
+* P. N. Benton, G. M. Bierman, [[Martin Hyland]], [[Valeria de Paiva]], _Term assignment for intuitionistic linear logic_, Technical Report 262,
 Computer Laboratory, University of Cambridge, August 1992.
 
 and that this is naturally to be thought of as arising from a [[monoidal adjunction]] between the closed [[symmetric monoidal category]] and a [[cartesian closed category]] is due to
@@ -901,7 +901,7 @@ A review of all this and further discussion is in
 
 * {#Barber97} Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
 
-The 1-categorical vesrion of [[indexed closed monoidal categories]] is discussed in
+The 1-categorical version of [[indexed closed monoidal categories]] is discussed in
 
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([arXiv:0706.1286](http://arxiv.org/abs/0706.1286), [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
 
@@ -911,7 +911,7 @@ The 1-categorical vesrion of [[indexed closed monoidal categories]] is discussed
 
 Comments on the formalization of secondary [[integral transforms]] and [[path integral]] [[quantization]] in an indexed monoidal $(\infty,1)$-category are in
 
-* {#Schreiber14} [[Urs Schreiber]] _[[schreiber:Quantization via Linear homotopy types]]_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
+* {#Schreiber14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
 
 * {#HopkinsLurie} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
