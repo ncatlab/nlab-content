@@ -58,7 +58,7 @@ The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]],
 
 ### Spin(9) action
 
-The [[subgroup]] [[Spin(9)]] $\subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be consider as a homogeneous fibration
+The [[subgroup]] [[Spin(9)]] $\subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be considered as a homogeneous fibration
 
 $$
   \frac{Spin(9)}{Spin(7)} 
