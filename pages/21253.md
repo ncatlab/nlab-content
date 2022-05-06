@@ -53,6 +53,13 @@ Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics
 
 * {#Kaiser00} Roland Kaiser, equation (12) in: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
 
+Including [[electroweak fields]]:
+
+
+* J. Bijnens, G. Ecker, A. Picha, _The chiral anomaly in non-leptonic weak interactions_, Physics Letters B Volume 286, Issues 3–4, 30 July 1992, Pages 341-347 (<a href="https://doi.org/10.1016/0370-2693(92)91785-8">doi:10.1016/0370-2693(92)91785-8</a>)
+
+* G. Ecker, H. Neufeld, A. Pich, _Non-leptonic kaon decays and the chiral anomaly_, Nuclear Physics B Volume 413, Issues 1–2, 31 January 1994, Pages 321-352 (<a href="https://doi.org/10.1016/0550-3213(94)90623-8">doi:10.1016/0550-3213(94)90623-8</a>)
+
 
 Discussion for the full [[standard model of particle physics]]:
 
