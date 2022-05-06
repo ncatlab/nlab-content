@@ -28,6 +28,13 @@ Of particular interest are [[hyperbolic 3-manifold|hyperbolic 3-manifolds]].
 
 ## Properties
 
+### Conformal flatness
+ {#ConformalFlatness}
+
+Every hyperbolic manifold is a [[conformally flat manifold]].
+
+(e.g. [Long-Reid 00, p. 4](#LongReid00))
+
 ### Zeta functions
 
 There are canonical [[zeta functions]] associated with suitable (odd-dimensional) hyperbolic manifolds, see at _[[Selberg zeta function]]_ and _[[Ruelle zeta function]]_.
@@ -74,7 +81,10 @@ Textbook account:
 * {#Ratcliffe06} [[John Ratcliffe]], _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
 
 
+
 See also
+
+* {#LongReid00} Darren D. Long, A. W. Reid, _On the geometric boundaries of hyperbolic 4-manifolds_ ([arXiv:math/0007197](https://arxiv.org/abs/math/0007197))
 
 * Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
 
