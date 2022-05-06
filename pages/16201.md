@@ -76,6 +76,8 @@ Discussion of higher curvature corrections to [[11-dimensional supergravity]] in
 
 * {#SoueresTsimpis17} Bertrand Souères, [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
+  (discussion of [[I8]] in Section 4)
+
 
 and from the [[ABJM  model]]:
 
