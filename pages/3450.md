@@ -128,7 +128,7 @@ Discussion from the point of view of [[category objects in an (∞,1)-category]]
 
 The [[homotopy theory]] of $\infty$-groups that are [[n-connected]] and [[n-truncated|r-truncated]] for $r \leq n$ is discussed in 
 
-* [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_ Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 
+* [[A.R. Garzón]], J.G. Miranda, _Serre homotopy theory in subcategories of simplicial groups_, Journal of Pure and Applied Algebra Volume 147, Issue 2, 24 March 2000, Pages 107-123 
 
 Discussion in [[homotopy type theory]] is in
 
