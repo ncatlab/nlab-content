@@ -169,6 +169,8 @@ Measurements include
 
 * [[Belle collaboration]], _Measurement of the $\tau$ lepton polarization and $R(D^\ast)$ in the decay $\bar B \to D^\ast \tau^- \bar \nu_\tau$ with one-prong hadronic τ decays at Belle_ ([arXiv:1709.00129](https://arxiv.org/abs/1709.00129))
 
+* [[Belle collaboration]], _Measurement of the $D^{\ast -}$ polarization in the decay $B^0 \to D^{\ast -} \tau^+ \nu_\tau$_ ([arXiv:1903.03102](https://arxiv.org/abs/1903.03102))
+
 Review includes
 
 * Elena Graverini, _Flavour anomalies: a review_, in _Proceedings of the [13th International Conference on Beauty, Charm and Hyperon hadrons (BEACH 2018)](http://inspirehep.net/record/1621649)_ ([arXiv:1807.11373](https://arxiv.org/abs/1807.11373))
@@ -308,6 +310,9 @@ Attempts to explain the anomaly include
 * {#MVK19} Ivo de Medeiros Varzielas, Stephen F. King, _Origin of Yukawa couplings for Higgs and leptoquarks_ ([arXiv:1902.09266](https://arxiv.org/abs/1902.09266))
 
 * {#CataMannel19} Oscar Cata, Thomas Mannel, _Linking lepton number violation with $B$ anomalies_ ([arXiv:1903.01799](https://arxiv.org/abs/1903.01799))
+
+* Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _CP Violation in $\bar B^0 \to D^{\ast +} \mu^- \bar \nu_\mu$_ ([arXiv:1903.02567](https://arxiv.org/abs/1903.02567))
+
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
