@@ -70,10 +70,28 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 =--
 
-Proof idea: By Prop. \ref{RepresentationSpheresAsUnitSpheres} we may realize $S^V$ as the unit sphere $S(\mathbb{R} \oplus V)$. Consider then the [[convex hull]] of all the points $\pm g(b_i) \in \mathbb{R} \oplus V$, for $g \in G$ and $\{b_1, b_2, \cdots, b_{n+1}\}$ a [[linear basis]] of $\mathbb{R} \oplus V$. This induces an equivariant triangulation of $S(\mathbb{R} \oplus V)$, whose cells constitute the required [[G-CW-complex]] structure.
++-- {: .proof}
+###### Proof
 
-The argument in the larger generality of $G$ a [[compact Lie group]]: e.g. proof of Prop. B.43 in [this](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3AF92C4A288F9A831EEBEC8C1C8CC661/9781108425810apx2_735-792.pdf/equivariant_spaces.pdf)
+Observe that we  have a $G$-equivariant [[homeomorphism]] between the representation sphere of $V$ and the [[unit sphere]] in $\mathbb{R} \oplus V$, where $\mathbb{R}$ is the 1-dimensional [[trivial representation]]  (Prop. \ref{RepresentationSpheresAsUnitSpheres})
 
+\[
+  \label{RepresentationSphereAsUnitSphere}
+  S^V \;\simeq\; S(\mathbb{R} \oplus V)
+  \,.
+\]
+
+It is thus sufficient to show that unit spheres in orthogonal representations admit G-CW-complex structure. 
+
+This in turn follows as soon as there is a $G$-equivariant [[triangulation]] of $S(\mathbb{R}\oplus V)$, hence a [[triangulation]] with the property that the $G$-[[action]] restricts to a [[bijection]] on its sets of $k$-dimensional cells, for each $k$. Because then if $G/H$ is an [[orbit]] of this $G$-action on the set of $k$-cells, we have a cell $G/H \times D^k$ of an induced [[G-CW-complex]].
+
+Since the unit spheres in (eq:RepresentationSphereAsUnitSphere) are [[smooth manifolds]] with [[smooth function|smooth]] $G$-[[action]], the existence of such $G$-[[equivariant triangulations]] follows for general [[compact Lie groups]] $G$ from the _[[equivariant triangulation theorem]]_ ([Illman 83](#Illman83)).
+
+More explicitly, in the case that $G$ is a [[finite group]] such an equivariant triangulation may be constructed as follows:
+
+Let $\{b_1, b_2, \cdots, b_{n+1}\}$ be an [[orthonormal basis]] of $\mathbb{R} \oplus V$. Take then as [[vertices]] of the triangulation all the distinct points $\pm g(b_i) \in \mathbb{R} \oplus V$, and as [[edges]] the [[geodesics]] (great circle segments) between nearest neighbours of these points, etc.
+
+=--
 
 
 ## References
