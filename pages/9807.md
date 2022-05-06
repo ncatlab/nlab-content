@@ -264,7 +264,7 @@ Since the [[differential]] $d_{dR} + d_W$ (eq:TensorProductOfdeRhamAlgebraWithWe
 
 This [[dgc-algebra]] is called the _Weil model_ for $G$-equivariant de Rham cohomology of $X$. 
 
-([Atiyah-Bott 84](#AtiyahBott84), see e.g. [Kalkman 93, Sec.2.1](#Kalkman93), [Miettinen 96, Sec. 2](#Miettinen96)).
+(see [Atiyah-Bott 84](#AtiyahBott84), [Mathai-Quillen 86, Sec 5](#MathaiQuillen86) [Kalkman 93, Sec.2.1](#Kalkman93), [Miettinen 96, Sec. 2](#Miettinen96)).
 
 
 #### The Kalkman/BRST model
@@ -368,7 +368,7 @@ $$
 #### The Cartan model
  {#TheCartanModel}
 
-reviews include ([Mathai-Quillen 86](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
+reviews include ([Mathai-Quillen 86, Sec. 5](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
 
 
 
@@ -437,7 +437,7 @@ Early discussion of the Weil model includes
 * {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology 23, 1 (1984) (<a href="https://doi.org/10.1016/0040-9383(84)90021-1">doi:10.1016/0040-9383(84)90021-1</a>, [pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
  
 
-A good account of the Cartan model is in 
+A good account of the Weil model, the Cartan model and their equivalence is in 
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
  
