@@ -27,7 +27,7 @@
 ## Idea
   {#LieModels}
 
-Rational homotopy theory is the [[homotopy theory]] of [[rational topological spaces]], hence of rational [[homotopy types]]: [[simply connected topological space|simply connected]] [[topological spaces]] whose [[homotopy groups]] are [[vector spaces]] over the [[rational numbers]].
+Rational homotopy theory is the [[homotopy theory]] of [[rational topological spaces]], hence of rational [[homotopy types]]: [[simply connected topological space|simply connected]] [[topological spaces]] whose [[homotopy groups]] are [[vector spaces]] over the [[rational numbers]] ([[rational vector spaces]]).
 
 Much of the theory is concerned with [[rationalization]], the process that sends a general homotopy type to its closest rational approximation, in a precise sense. On the level of [[homotopy groups]] this means to retain precisely the non-[[torsion subgroups]] of the homotopy groups.
 
