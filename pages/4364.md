@@ -10,7 +10,12 @@ A sublocale is a [[subspace]] of a [[locale]].
 It is important to understand that, even for a [[topological locale]] $X$ (which can be identified with a [[sober space|sober]] [[topological space]]), most sublocales of $X$ are *not* topological.  Specifically, we have an [[inclusion function]] $Sub Top(X) \hookrightarrow Sub Loc(X)$ which, while [[injection|injective]], is usually far from [[surjection|surjective]].
 
 
-## Definition in terms of regular monomorphisms of locales
+## Definitions
+
+There are multiple equivalent ways to formally define this concept.
+
+
+### In terms of regular monomorphisms of locales
 
 Let $L$ be a [[locale]], which (as an [[object]]) is the same as a [[frame]].
 
@@ -19,7 +24,8 @@ A __sublocale__ of $L$ is a [[regular subobject]] of $L$ in [[Loc]], the [[categ
 Equivalently, a sublocale of $L$ can be described as a [[morphism of frames]]
 $L\to S$ whose underlying map of sets is surjective.
 
-## Definition in terms of subsets of opens
+
+### In terms of subsets of opens
 
 Given a [[regular monomorphism]] $i\colon S\to L$,
 it induces an adjunction $f^*\dashv f_*$ between the underlying [[posets]].
@@ -44,7 +50,8 @@ Equivalently, sublocales of $L$ can also be described
 that are closed under all meets and for any $s\in S$ and $x\in L$,
 we have $(x\to s)\in S$.
 
-## Equivalence of two definitions
+
+### Equivalence of these two definitions
 
 Given a surjective [[morphism of frames]] $h\colon L\to S$,
 the subset $h_*(S)$ is a sublocale of $L$.
@@ -53,7 +60,8 @@ Given a subset $S$ of a locale $L$ that is a sublocale,
 the left adjoint $j^*\colon L\to S$ to the inclusion $j_*\colon S\to L$
 is a surjective [[morphism of frames]].
 
-## Definition in terms of nuclei
+
+### In terms of nuclei
 
 A sublocale is given precisely by a __[[nucleus]]__ on the underlying frame.  This is a [[function]] $j$ from the opens of $L$ to the opens of $L$ satisfying the following identities:
 
@@ -65,7 +73,8 @@ In other words, a sublocale of $L$ is given by a [[meet]]-preserving [[monad]] o
 
 The precise reasons why nuclei correspond to quotient frames (and hence to sublocales) is given at [[nucleus]].  But the interpretation of the operation $j$ is this: we identify two opens if they 'agree on the sublocale'.  Given an open $U$, there will always be a largest open that is identified with $U$, so we can also describe a subspace of a locale as an operation that maps each open to its largest representative open in the sublocale.  This map is the nucleus $j$.
 
-## Equivalence of nuclei and other definitions
+
+### Equivalence of nuclei and other definitions
 
 Given a nucleus $j$ on a [[frame]] $L$,
 we construct a [[congruence]] on $L$
@@ -90,6 +99,7 @@ Vice versa, given a subset $S\subset L$ that is a sublocale,
 the corresponding nucleus $j\colon L\to L$
 is given by the formula $j(a)=\bigwedge\{s\in S\mid a\le s\}$.
 
+
 ## Special cases
 
 Of course, every locale $L$ is a sublocale of itself.  The corresponding nucleus is given by
@@ -110,10 +120,11 @@ The [[double negation sublocale]] of $L$, denoted $L_{\neg\neg}$, is given by
 $$ j_{\neg\neg}(U) \coloneqq \neg{\neg{U}} .$$
 This is always a [[dense subspace]]; in fact, it is the *smallest* dense sublocale of $L$.  (As such, even when $L$ is topological, $L_{\neg\neg}$ is rarely topological; in fact, its only points are the [[isolated point]]s of $L$.)
 
-## Relation to subspaces
+
+## Relation to topological subspaces
 
 The underlying [[locale]] of a [[topological space]]
-will typically have many sublocales that are not [[spatial]],
+will typically have many sublocales that are not [[spatial locale|spatial]],
 i.e., do not come from any [[topological space]].
 
 However, any [[subset]] $S$ of a [[topological space]] $X$ can be equipped
@@ -123,18 +134,20 @@ This can be most easily seen in the language of surjective [[morphisms of frames
 since open sets in the induced topology are by definition intersections
 of $S$ and an open subset of $X$.
 
-Thus, we have a canonical map from the set of subspace of $X$
+Thus, we have a canonical map from the set of (topological) subspaces of $X$
 to the set of spatial sublocales of $\Omega X$.
 
-This map is a bijection if $X$ satisfies the [[separation axiom]] $T_D$, e.g., is a [[Hausdorff space]] (\cite[VI.1.2]{PP}).
+This map is a bijection if $X$ satisfies the [[separation axiom]] $T_D$, e.g., is a [[Hausdorff space]] (VI.1.2 in [PP](#PP)).
 
-This map is a surjection if $X$ is a [[sober space]] (\cite[Proposition VI.2.2.1]{PP}).
+This map is a surjection if $X$ is a [[sober space]] (Proposition VI.2.2.1 in [PP](#PP)).
+
 
 ## References
 
 * _[[Stone Spaces]]_, II.2
 
-\bibitem{PP} [[Jorge Picado]], [[Aleš Pultr]], _Frames and Locales_.
+* [[Jorge Picado]], [[Aleš Pultr]], _Frames and Locales_.
+  {#PP}
 
 
 [[!redirects sublocale]]
