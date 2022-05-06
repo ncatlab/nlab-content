@@ -2556,30 +2556,30 @@ see also
 
 In this context Dan Freed is picking up again his old work on higher algebraic structures in quantum field theory, as described in
 
-* [[Dan Freed]], _Quantum Groups from Path Integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
+* [[Dan Freed]], _Quantum Groups from Path Integrals_ ([arXiv](https://arxiv.org/abs/q-alg/9501025))
 
-* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv](https://arxiv.org/abs/hep-th/9212115))
 
 where he argued that and how the path integral should assign $n$-categorical objects to domains of codimension $n$, and is re-expressing this in the $\infty$-functorial context.  (Freed speaks of _multi-tiered_ QFT instead of extended QFT.) 
 
-* [[Dan Freed]], _Remarks on Chern-Simons Theory_ ([arXiv](http://arxiv.org/abs/0808.2507)).
+* [[Dan Freed]], _Remarks on Chern-Simons Theory_ ([arXiv](https://arxiv.org/abs/0808.2507)).
 
 Freed's ideas on how an extended or multi-tiered QFT arises from a path integral coming from a given background field were further formalized in the context of "finite" QFTs in
 
-* Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](http://arxiv.org/abs/math.QA/0503266))
+* Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](https://arxiv.org/abs/math.QA/0503266))
 
-* Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_, PhD thesis, Sheffield (2008) ([arXiv] (http://arxiv.org/abs/0901.3975))
+* Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_, PhD thesis, Sheffield (2008) ([arXiv] (https://arxiv.org/abs/0901.3975))
 
 There are indications that a complete picture of this involves [[groupoidification]] 
 
-* Jeffrey Morton, _Extended TQFTs and Quantum Gravity_ ([arXiv](http://arxiv.org/abs/0710.0032))
+* Jeffrey Morton, _Extended TQFTs and Quantum Gravity_ ([arXiv](https://arxiv.org/abs/0710.0032))
 
 and, more generally [[geometric function theory]]:
 
 a big advancement in the understanding of extended $\sigma$-model QFTs is the discussion in
 
 * David Ben-Zvi, John Francis, David Nadler,
-_Integral Transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
+_Integral Transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](https://arxiv.org/abs/0805.0157))
 
 which realizes $\sigma$-models by homming [[cobordism]] [[cospan]]s into the total spaces (realized as [[infinity-stack homotopically|infinity-stack]]) of background fields and regarding the resulting [[span]]s as pull-push operators on suitable [[geometric function theory|geometric functions]].  
 
