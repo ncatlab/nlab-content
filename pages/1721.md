@@ -442,8 +442,8 @@ Conversely, suppose $E^\bullet$ satisfies the alternative condition. Given $U \h
 $$
   \begin{aligned}
           Int(X-U) \cup Int(A) 
-      & = (X - \overline{U}) \cap \Int(A)
-   \\ & \supset (X - Int(A)) \cap Int(A)
+      & = (X - \overline{U}) \cup \Int(A)
+   \\ & \supset (X - Int(A)) \cup Int(A)
    \\ & = X   
   \end{aligned}
 $$
