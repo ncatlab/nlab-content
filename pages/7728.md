@@ -57,7 +57,7 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 (Notice however that the categories of [[mathematical structures]] such as [[groups]], [[modules]], etc., even when regarded as [[(infinity,1)-categories]], i.e. of [[infinity-groups]], [[(infinity,n)-modules]] etc.) are rarely [[(infinity,1)-toposes]]. The "structure" carried by an object in an $(\infty,1)$-topos is generically more a kind of geometric structure. 
 
 
-## Related concepts
+## Related entries
 
 
 * [[universal exceptionalism]]
@@ -72,6 +72,7 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 
   * [[absolute idealism]]
 
+* [[Salomon Maimon]]
 
 
 ## References
