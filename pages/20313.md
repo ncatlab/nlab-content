@@ -1,18 +1,16 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Stable Homotopy theory
+#### Cobordism theory
 +--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
+[[!include cobordism theory -- contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -26,7 +24,11 @@ The refinement of [[bordism homology theory]] to [[equivariant stable homotopy t
 
 * [[equivariant cobordism]]
 
-* [[cobordism cohomology theories -- contents]]
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
+
 
 ## References
 
