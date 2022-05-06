@@ -145,6 +145,12 @@ If $\alpha_1, \ldots, \alpha_n$ are algebraic numbers linearly independent over 
 
 A proof is given in [Wikipedia](http://en.wikipedia.org/wiki/Proof_that_%CF%80_is_transcendental#Proof). It follows that if $\pi$ and therefore $i\pi$ were algebraic, then $\exp(i\pi) = -1$ would be transcendental, which is absurd. 
 
+## Related entries
+
+* [[e]]
+
+* [[golden ratio]]
+
 ## References 
 
 A whole chapter on $\pi$ written for the mathematically literate is given in 
