@@ -17,7 +17,7 @@
 
 ## Idea
 
-**$\beta$-rings** are a kind of [[commutative ring]]. They may be seen as collections of integral linear combinations of generalized symmetric powers defined on [[Burnside rings]]. The [[cohomotopy]] of a space, $\pi^0(X)$, is a $\beta$-ring ([Guillot 06, Thrm 4.5](#Guillot06)).
+A **$\beta$-ring** is a [[commutative ring]], $R$, equipped with a set of operations, $\beta_H: R \to R$, indexed by subgroups of [[symmetric groups]], $S_n$, satisfying a number of conditions. They may be seen as collections of integral linear combinations of generalized symmetric powers defined on [[Burnside rings]]. The [[cohomotopy]] of a space, $\pi^0(X)$, is a $\beta$-ring ([Guillot 06, Thrm 4.5](#Guillot06)).
 
 They are completely unrelated to [[relational beta-modules]].
 
