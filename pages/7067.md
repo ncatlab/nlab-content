@@ -35,7 +35,7 @@ comparing the two functorial factorizations of a map $f$ that defines a [[monad|
 
 ## Properties
 
-Every [[cofibrantly generated model category]] structure can be lifted to that of an algebraic model category.
+Every [[cofibrantly generated model category]] structure can be lifted to that of an algebraic model category.  It is not clear whether or not this is true for any [[accessible model category]].
 
 Any algebraic model category has a fibrant replacement monad $R$ and a cofibrant replacement comonad $Q$. There is also a canonical [[distributive law]] $RQ \to QR$ comparing the two canonical bifibrant replacement functors.
 
@@ -43,6 +43,8 @@ Any algebraic model category has a fibrant replacement monad $R$ and a cofibrant
 
 * [[algebraic weak factorization system]]
 * [[accessible model category]]
+
+[[!include algebraic model structures - table]]
 
 ## References
 
