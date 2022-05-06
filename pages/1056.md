@@ -37,7 +37,7 @@ This is remarkable, in that it says that every [[homotopy n-type|homotopy type]]
 In fact, every cofibrant object in this structure is a [[poset]]. Since every object in a model category is weakly equivalent to a cofibrant one, this means that even the [[nerve]]s of just posets are sufficient to model all homotopy types.
 
 
-This is a rather curious aspect of the [[Robert Thomason|Thomason]] model on [[Cat]]: it does not really have anything intrinsically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. It particular, it does not see the [[equivalence of categories|equivalences of categories]]. 
+This is a rather curious aspect of the [[Robert Thomason|Thomason]] model on [[Cat]]: it does not really have anything intrinsically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. In particular, it does not see the [[equivalence of categories|equivalences of categories]]. 
 There is a _different_ model structure on [[Cat]] in which weak equivalences are the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[canonical model structure on Cat]].
 
 ## Related concepts
