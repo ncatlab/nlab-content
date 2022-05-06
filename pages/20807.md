@@ -129,7 +129,7 @@ $$
 
 #### Integration
 
-In this vein, one defines the fuzzy refinement of the [[integral]] of functions over the [[2-sphere]], against its canonucal [[volume form]], to be given by the matrix [[trace]], normalized as follows
+In this vein, one defines the fuzzy refinement of the [[integral]] of functions over the [[2-sphere]], against its canonical [[volume form]], to be given by the matrix [[trace]], normalized as follows
 
 \[
   \label{FuzzyS2Integration}
@@ -138,7 +138,7 @@ In this vein, one defines the fuzzy refinement of the [[integral]] of functions 
     &\overset{\int_{S^2_N}}{\longrightarrow}&
     \mathbb{C}
     \\
-    M &\mapsto& 4 pi \tfrac{1}{ \sqrt{N^2 -1 } }  tr(M)
+    M &\mapsto& 4 \pi \tfrac{1}{ \sqrt{N^2 -1 } }  tr(M)
   }
 \]
 
