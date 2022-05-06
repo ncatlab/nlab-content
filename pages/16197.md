@@ -46,7 +46,7 @@ This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboratio
 > $R^2$ inflation has the strongest evidence among the models considered here. However, care must be taken not to overinterpret small differences in likelihood lacking statistical significance. The models closest to $R^2$ in terms of evidence are brane inflation and exponential inflation, which have one more parameter
 than $R^2$ ([PlanckCollaboration 15XX, p. 18](#PlanckCollaboration15XX))
 
-See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13)) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
+See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13), [Efstathiou 2019, 50:49](#Efstathiou2019)) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
 
 ## Embedding into supergravity
  {#EmbeddingIntoSupergravity}
@@ -113,6 +113,8 @@ Review and exposition includes
 * {#Rachen15} [[Jörg Rachen]], _The Planck 2015 Results: Cosmology and Fundamental Physics from the Polarised CMB and Other Probes_, IMAPP Special Seminar, Nijmegen, Feb.5, 2015
 
 * {#Dalianis16} [[Ioannis Dalianis]],  _Features and implications of the plateau inflationary potentials_, Planck 2015 conference contribution ([arXiv:1602.05026](http://arxiv.org/abs/1602.05026))
+
+* {#Efstathiou2019} George P. Efstathiou on behalf of the PLANCK mission, _The PLANCK legacy, inflation and the origin of structure in the universe_, talk at University of Cambridge, January 28, 2019 ([recording from 50:49](https://www.youtube.com/watch?v=16CkVzVK7Wk&feature=youtu.be&t=3049))
 
 Discussion with more general [[higher curvature corrections]]:
 
