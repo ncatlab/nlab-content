@@ -38,7 +38,7 @@ Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monop
 
 Under the relation between [[M-theory]] and [[type IIA superstring theory]] an [[ADE orbifold]] of the 11d KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, p. 17-18](#AtiyahWitten01) see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
 
-By ([Townsend 95, (1)](#Townsend95), [Sen 97 (1)-(4)](#Sen97)) the 11d [[spacetime]] describing the KK-monopole lift of a plain single D6 brane is   $\mathbb{R}^{6,1}\times \mathbb{R}^3\times S^1$ with [[metric tensor]] away from the origin of the $\mathbb{R}^3$-factor (which is the locus of the lifted D6/monopole) being  
+By ([Townsend 95, (1)](#Townsend95), [Sen 97c (1)-(4)](#Sen97c)) the 11d [[spacetime]] describing the KK-monopole lift of a plain single D6 brane is   $\mathbb{R}^{6,1}\times \mathbb{R}^3\times S^1$ with [[metric tensor]] away from the origin of the $\mathbb{R}^3$-factor (which is the locus of the lifted D6/monopole) being  
 
 $$
   d s_{11}^2 =
@@ -69,7 +69,7 @@ Away from $\{0\} \in \mathbb{R}^3$ this gives a [[circle bundle]] with [[first C
 
 Notice that the circle bundle away from its degeneration locus as a bundle over $S^2 \hookrightarrow \mathbb{R}^3 -\{0\}$ is necessarily of the form $S^3 \to S^2$, a multiple of the [[complex Hopf fibration]] (see also [Atiyah-Maldacena-Vafa 00, p. 10](#AtiyahMaldacenaVafa00)).
 
-Discussion as an [[ADE singularity|A-type ADE singularity]] is in ([Sen 97, section 2](#Sen97)).  Generalization to [[ADE singularity|D-type singularities]] and hence D6-branes in [[orientifolds]] is in ([Sen 97 ,section 3](#Sen97)). 
+Discussion as an [[ADE singularity|A-type ADE singularity]] is in ([Sen 97c, section 2](#Sen97c)).  Generalization to [[ADE singularity|D-type singularities]] and hence D6-branes in [[orientifolds]] is in ([Sen 97c ,section 3](#Sen97c)). 
 Discussion as the [[fixed point]] of the [[circle group]]-[[action]] on the M-theory circle fibers is in ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, pages 17-18](#AtiyahWitten01)). Witten emphasizes that it is important that the location of the D6 is not just a [[cyclic group]] [[orbifold]] singularity but really a [[circle group]]-[[action]] [[fixed point]] [[conical singularity]]:
 
 > {#Witten01OnConicalSingularity} Chiral fermions arise when the locus of A&#8722;D&#8722;E singularities passes through isolated points at which X has an isolated conical singularity that is not just an orbifold singularity ([Witten 01, p. 2](#Witten01)).
@@ -139,7 +139,9 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 * {#Sen97a} [[Ashoke Sen]], _Kaluza-Klein Dyons in String Theory_, Phys.Rev.Lett.79:1619-1621,1997 ([arXiv:hep-th/9705212](http://arxiv.org/abs/hep-th/9705212))
 
-* {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+* {#Sen97b} [[Ashoke Sen]], _Dynamics of Multiple Kaluza-Klein Monopoles in M- and String Theory_, Adv.Theor.Math.Phys.1:115-126, 1998 ([arXiv:hep-th/9707042](https://arxiv.org/abs/hep-th/9707042))
+
+* {#Sen97c} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 * {#IMSY98} Nissan Itzhaki, [[Juan Maldacena]], Jacob Sonnenschein, Shimon Yankielowicz, _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 1998 ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
 
