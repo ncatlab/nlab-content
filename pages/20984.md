@@ -11,6 +11,8 @@ Volume 733, 2 June 2014, Pages 316-319 ([arXiv:1401.3595](https://arxiv.org/abs/
 
 * {#GangKimLee14b} [[Dongmin Gang]], [[Nakwoo Kim]], Sangmin Lee, _Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
+* Jin-Beom Bae, [[Dongmin Gang]], Jaehoon Lee, _3d $\mathcal{N}=2$ minimal SCFTs from Wrapped M5-branes_, JHEP 08 (2017) 118 ([arXiv:1610.09259](https://arxiv.org/abs/1610.09259))
+
 * {#GangKim18} [[Dongmin Gang]], [[Nakwoo Kim]], _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
 
 
