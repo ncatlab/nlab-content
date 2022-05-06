@@ -1,6 +1,6 @@
 
 
-**flavors of [[cobordism]] [[cobordism homology theory|homology]]/[[cobordism cohomology theory|cohomology theories]] and [[Brown representability theorem|representing]] [[Thom spectra]]** 
+**flavors of [[cobordism]] [[cobordism homology theory|homology]]/[[cobordism cohomology theory|cohomology theories]] and [[Brown representability theorem|representing]] [[Thom spectra]]**:
 
 [[bordism homology theory|bordism theory]] $\,M B$ ([[B-bordism]]):
 
@@ -9,6 +9,8 @@
 * [[MO]], [[MSO]], [[MSpin]], [[MString]], ...
 
 * [[MU]], [[MSU]], ...
+
+  [[MΩSU(n)]]
 
   [[MUFr]], [[MSUFr]]
 
