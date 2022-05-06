@@ -39,6 +39,14 @@ In the [[classification of simple Lie groups]] this is the entry [[D5]].
 Discussion as a [[gauge group]] in [[grand unified theory]] (see [there](GUT#TheGUTKnownAsSO10)):
 
 
+* {#BLM09} Stefano Bertolini, Luca Di Luzio, [[Michal Malinský]], _Intermediate mass scales in the non-supersymmetric SO(10) grand unification: a reappraisal_, Phys. Rev. D80:015013, 2009 ([arXiv:0903.4049](https://arxiv.org/abs/0903.4049))
+
+review:
+
+* {#Malinsky09} [[Michal Malinský]], _35 years of GUTs - where do we stand?_, 2009 ([pdf](https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Malinsky.pdf))
+
+for non-superymmetric [[model (physics)|models]]:
+
 * {#LavouraWolfenstein10} L. Lavoura and Lincoln Wolfenstein, _Resuscitation of minimal $SO(10)$ grand unification_, Phys. Rev. D 48, 264 ([doi:10.1103/PhysRevD.48.264](https://doi.org/10.1103/PhysRevD.48.264))
 
 * {#AltarelliMeloni13} Guido Altarelli, Davide Meloni, _A non Supersymmetric SO(10) Grand Unified Model for All the Physics below $M_{GUT}$_ ([arXiv:1305.1001](https://arxiv.org/abs/1305.1001))
@@ -56,6 +64,12 @@ Discussion as a [[gauge group]] in [[grand unified theory]] (see [there](GUT#The
   > Results indicating non-SUSY $SO(10)$ as self sufficient theory for neutrino masses, baryon asymmetry, dark matter, vacuum stability of SM scalar potential, origin of three gauge forces, and observed proton stability.
 
 * Nobuchika Okada, Digesh Raut, Qaisar Shafi, _Inflation, Proton Decay, and Higgs-Portal Dark Matter in $SO(10) \times U(1)_\pri$_ ([arXiv:1906.06869](https://arxiv.org/abs/1906.06869))
+
+for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
+
+* Archana Anandakrishnan, B. Charles Bryant, Stuart Raby, _LHC Phenomenology of $SO(10)$ Models with Yukawa Unification II_ ([arXiv:1404.5628](http://arxiv.org/abs/1404.5628))
+
+* Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
 
 
 [[!redirects Spin(10)]]
