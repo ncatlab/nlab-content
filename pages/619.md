@@ -220,12 +220,12 @@ See for instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)) and see at _[idempoten
 
 ### Reflective subcategories of locally presentable categories
 
-Both the weak and strong versions of [[Vop?nka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
+Both the weak and strong versions of [[Vopěnka's principle]] are equivalent to fairly simple statements concerning reflective subcategories of locally presentable categories: 
 
 +-- {: .num_theorem}
 ###### Theorem
 
-The weak [[Vop?nka's principle]] is equivalent to the statement:
+The weak [[Vopěnka's principle]] is equivalent to the statement:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory.
 
@@ -235,7 +235,7 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
 +-- {: .num_theorem}
 ###### Theorem
-The strong [[Vopenka's principle]] is equivalent to:
+The strong [[Vopěnka's principle]] is equivalent to:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory; further on, $D$ is then also locally presentable.
 =--
