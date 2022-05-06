@@ -11,17 +11,17 @@ In the _Preface_ to his book, _Type-theoretic Grammar_ ([Ranta 94](#Ranta94)), [
 
 > In Stockholm, when I first discussed the project with [[Per Martin-Löf]], he said that he had designed type theory for mathematics, and than natural language is something else. I said that similar work had been done within predicate calculus, which is just a part of type theory, to which he replied that he found it equally problematic. But his general attitude was far from discouraging: it was more that he was so serious about natural language and saw the problems of my enterprise more clearly than I, who had already assumed the point of view of logical semantics. His criticism was penetrating but patient, and he was generous in telling me about his own ideas. So we gradually developed a view that satisfied both of us, that formal grammar begins with what is well understood formally, and then tries to see how this formal structure is manifested in natural language, instead of starting with natural language in all it unlimitedness and trying to force it into some given formalism. 
 
-A noted early application of dependent type theory was [[Göran Sundholm|Göran Sundholm's]] treatment ([Sundholm 86](#Sundholm86)) of the _Donkey sentence_.
+A noted early application of dependent type theory to natural language was [[Göran Sundholm|Göran Sundholm's]] treatment ([Sundholm 86](#Sundholm86)) of the _Donkey sentence_
 
 > Any farmer who owns a donkey beats it,
 
-which he rendered as 
+which he rendered, using [[dependent product]] and [[dependent sum]], as 
 
 $$
 \prod_{z: \sum_{x: Farmer} (\sum_{y: Donkey}Owns(x, y))}Beats(p(z), p(q(z))).
 $$
 
-This marks an improvement over first-order logic which has to rewrite the Donkey sentence as something like:
+This marks an improvement over first-order logic in which one has to rewrite the Donkey sentence as something like:
 
 > For all farmers and for all donkeys, if the farmer owns the donkey then he beats it.
 
