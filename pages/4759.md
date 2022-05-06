@@ -598,7 +598,7 @@ See at _[[characteristic class of a linear representation]]_ for more.
 
 * [[Chern character]]
 
-In [[Yang-Mills theory]] field configurations with non-vanishing [[second Chern class]] (and minimal energy) are called [[instantons]]. The second Chern class is the _[[instanton number]]_ . For more on this see at _[SU(2)-instantons from the correct maths to the traditional physics story](BPTS-instanton#FromTheMathsToThePhysicsStory)_.
+In [[Yang-Mills theory]] field configurations with non-vanishing [[second Chern class]] (and minimal energy) are called [[instantons]]. The second Chern class is the _[[instanton number]]_ . For more on this see at _[SU(2)-instantons from the correct maths to the traditional physics story](BPST-instanton#FromTheMathsToThePhysicsStory)_.
 
 ## References
 
