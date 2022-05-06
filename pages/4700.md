@@ -790,27 +790,6 @@ is a [[graded-commutative algebra]].
 
 =--
 
-In fact this graded-graded commutative algebra is [[free construction]] on
-
-1. one generator of degree 2
-
-   $$
-     e_{a b } \coloneqq e_{b a}
-   $$
-
-   for all $1 \leq a \lt b \in \mathbb{N}$
-
-   (the [[edges]] without any [[tadpoles]])
-
-1. one generator of degree -3
-
-   $$
-     v_{n + k}
-   $$
-
-   for all $1 \leq k \in \mathbb{N}$
-
-   (the internal vertices).
 
 
 
