@@ -73,7 +73,7 @@ Now
 
 * [[Donaldson-Thomas invariants]]
 
-* [[3-manifold]]
+* [[2-manifold]], [[3-manifold]], [[8-manifold]]
 
 ## References
 
