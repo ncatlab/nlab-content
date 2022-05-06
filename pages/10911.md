@@ -19,7 +19,7 @@ The [[KK-compactification]] of [[D=10 super Yang-Mills theory]] all the way to t
 
 Alternatively this model can be motivated from a certain regularization of the [[worldsheet]] [[action functional]] of the [[superstring]]. This is how it was originally obtained in ([IKKT 96](#IKKT96)).
 
-It has been argued that for $\mathfrak{g} = \mathfrak{su}(N)$ the [[special unitary Lie algebra]] and in the [}large N limit]], this model captures aspects of [[non-perturbative field theory|non-perturbative]] [[type IIB string theory]] (which would be [[F-theory]], see also at _[[M-theory]]_). Therefore this is also called the _IIB matrix model_ (in contrast to the [[BFSS matrix model]] in [[type IIA string theory]]).
+It has been argued that for $\mathfrak{g} = \mathfrak{su}(N)$ the [[special unitary Lie algebra]] and in the [[large N limit]], this model captures aspects of [[non-perturbative field theory|non-perturbative]] [[type IIB string theory]] (which would be [[F-theory]], see also at _[[M-theory]]_). Therefore this is also called the _IIB matrix model_ (in contrast to the [[BFSS matrix model]] in [[type IIA string theory]]).
 
 Several authors have explored the possibility to lift the derivation of the IKKT model from the [[superstring]] to the [[M2-brane]]. See at _[[membrane matrix model]]_ for more on this.
 
