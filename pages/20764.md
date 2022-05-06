@@ -106,6 +106,8 @@ Discussion as [[Yang-Mills instantons]] ("small instantons"):
 
 ### As half M5-branes
 
+* Fabio Apruzzi, [[Marco Fazzi]], Section 2.1.2 of: _AdS7/CFT6 with orientifolds_, JHEP 01 (2018) 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
+
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
 * {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
