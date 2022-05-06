@@ -143,8 +143,8 @@ See at _[[monster vertex algebra]]_.
 * [[Edward Frenkel]], [[David Ben-Zvi]]: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
 xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
 
-* [[Igor Frenkel]], [[Yi-Zhi Huang]], [[James Lepowsky]], _On Axiomatic approaches to Vertex Operator Algebras and Modules_ , Memoirs of the AMS Vol 104, No 494 (1993)
- {#FrenkenHuangLepowsky}
+* {#FrenkenHuangLepowsky} [[Igor Frenkel]], [[Yi-Zhi Huang]], [[James Lepowsky]], _On Axiomatic approaches to Vertex Operator Algebras and Modules_, Memoirs of the AMS Vol 104, No 494 (1993)
+ 
 
 * [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998.
 
@@ -154,7 +154,7 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 
 The original article with the interpretation of vertex operator algebras as holomorphic algebras over the holomorphic punctured sphere operad is
 
-* {#Huang91} [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968
+* {#Huang91} [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968 ([doi:10.1073/pnas.88.22.9964](https://doi.org/10.1073/pnas.88.22.9964))
 
 A standard textbook summarizing these results is
 
@@ -182,8 +182,8 @@ Discussion of vertex operator algebras as [[factorization algebras of observable
 
 The [[representation categories]] of (rational) vertex operator algebras ([[modular tensor categories]]) are discussed in
 
-* [[Yi-Zhi Huang]], _Vertex operator algebras, the Verlinde conjecture and modular tensor categories_ ([arXiv:math/0412261](http://arxiv.org/abs/math/0412261))
- {#Huang}
+* {#Huang} [[Yi-Zhi Huang]], _Vertex operator algebras, the Verlinde conjecture and modular tensor categories_ ([arXiv:math/0412261](http://arxiv.org/abs/math/0412261))
+ 
 
 * {#GannonHoehn} [[Terry Gannon]], [[Gerald Höhn]], Hiroshi Yamauchi, _[The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas/)_
    
@@ -202,7 +202,14 @@ Much algebraic insight to algebaric structures in CFT is in unfinished notes
 
 ### Relation to 2d conformal field theory
 
-* [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_  Birkh&#228;user (1997)
+Relation to [[2d CFT]]:
+
+* [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_  Birkh&#228;user (1997) ([doi:10.1007/978-1-4612-4276-5](https://link.springer.com/book/10.1007/978-1-4612-4276-5))
+
+For [[orbifolds]]:
+
+* [[Yi-Zhi Huang]], _Representation theory of vertex operator algebras and orbifold conformal field theory_ ([arXiv:2004.01172](https://arxiv.org/abs/2004.01172))
+
 
 Relation specifically to [[conformal nets]] is discussed in
 
@@ -214,7 +221,7 @@ See also
 
 * James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
 
-Relation of the corresponding [[ribbon categoires]]:
+Relation of the corresponding [[ribbon categories]]:
 
 * {#Gui18} Bin Gui, _Categorical extensions of conformal nets_ ([arXiv:1812.04470](https://arxiv.org/abs/1812.04470))
 
