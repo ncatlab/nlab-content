@@ -260,6 +260,9 @@ See also
 
 * Wikipedia, _[Localization of a topological space](http://en.wikipedia.org/wiki/Localization_of_a_topological_space)_
 
+Formalization in [[homotopy type theory]]:
+
+* [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], _Localization in Homotopy Type Theory_, Higher Structures, 4(1) (2020), 1-32 ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))
 
 [[!redirects p-localization]]
 [[!redirects p-localizations]]
