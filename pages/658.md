@@ -266,7 +266,21 @@ Profunctors are often notated with a slashed or barred arrow, as in $C$&#8696;$D
 
 * In LaTeX, one can use `\nrightarrow` (producing '$\nrightarrow$') in a pinch, but a nice-looking extensible barred arrow command `\xslashedrightarrow` can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`).  It requires the packages `amsmath` and `mathtools` to be loaded.
 
-_LaTeX here_
+      <nowiki>\makeatletter
+      \def\slashedarrowfill@#1#2#3#4#5{%
+        $\m@th\thickmuskip0mu\medmuskip\thickmuskip\thinmuskip\thickmuskip
+        \relax#5#1\mkern-7mu%
+        \cleaders\hbox{$#5\mkern-2mu#2\mkern-2mu$}\hfill
+        \mathclap{#3}\mathclap{#2}%
+        \cleaders\hbox{$#5\mkern-2mu#2\mkern-2mu$}\hfill
+        \mkern-7mu#4$%
+      }
+      \def\rightslashedarrowfill@{%
+        \slashedarrowfill@\relbar\relbar\mapstochar\rightarrow}
+      \newcommand\xslashedrightarrow[2][]{%
+        \ext@arrow 0055{\rightslashedarrowfill@}{#1}{#2}}
+      \makeatother
+      </nowiki>
 
   The command `\xslashedrightarrow` can then be used with one required argument and one optional argument, just like `\xrightarrow`.  A version taking no arguments can of course be defined with
 
