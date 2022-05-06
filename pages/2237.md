@@ -390,11 +390,12 @@ The following articles discuss equivariant [[formal group laws]]:
 
 See also the references at _[[equivariant elliptic cohomology]]_.
 
-### In differential geometry
 
-Equivariant degree-2 $U(1)$-[[Lie group cohomology]] is discussed in
 
-* [[Kai Behrend]], [[Ping Xu]], Bin Zhang, _Equivariant gerbes over compact simple Lie groups_ ([arXiv](http://arxiv.org/abs/math/0306183v1))
+[[!include traditional orbifold cohomology -- references]]
+
+
+
 
 
 [[!redirects Borel cohomology]]
