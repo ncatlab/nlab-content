@@ -41,7 +41,24 @@ to indicate this. This is definition 1.2.10 of [Lurie](#Lurie)
 
 +-- {: .num_lemma }
 ###### Lemma
-An $(\infty,1)$-functor $F : C \to D$ is fully faithful if and only if the following square is a pullback in the $(\infty,1)$ category of $\infty$-categories:
+For an $(\infty,1)$-functor $F : C \to D$, the following are equivalent:
+
+* $F$ is fully faithful 
+
+* $Ho(F) : Ho(C) \to Ho(D)$ is a fully faithful functor of (1-)categories and the following square is a pullback in the $(\infty,1)$ category of $\infty$-categories:
+
+$$
+  \array{
+    C &\to& D
+    \\
+    \downarrow && \downarrow
+    \\
+    Ho(C) &\to& Ho(D)
+  }
+$$
+
+* The following square is a pullback in the $(\infty,1)$ category of $\infty$-categories:
+
 $$
   \array{
     Core(C^{[1]}) &\to& Core(D^{[1]})
@@ -51,16 +68,48 @@ $$
     Core(C) \times Core(C) &\to& Core(D) \times Core(D)
   }
 $$
-where the horizontal maps are induced by $F$ and the vertical maps are the source and target maps.
+
+* The following square is a pullback in the $(\infty,1)$ category of $\infty$-categories:
+
+$$
+  \array{
+    C^{[1]} &\to& D^{[1]}
+    \\
+    \downarrow && \downarrow
+    \\
+    C \times C &\to& D \times D
+  }
+$$
+
 =--
 
 +-- {: .proof}
 ###### Proof
-This is proposition 3.9.6 of [Cisinski](#Cisinski).
+The equivalence of the first two points is basically remark 1.2.11.1 of [Lurie](#Lurie) that a fully faithful functor factors as an equivalence onto a full subcategory.
 
-The idea is that if $X$ is an $\infty$-category, the fibers of $Core(X^{[1]}) \to Core(X) \times Core(X)$ are precisely the hom spaces of $X$. Thus, if the above square is a pullback, both vertical maps have the same fibers determined by any point $1 \to Core(C) \times Core(C)$, 
+The equivalence of the first and third points is proposition 3.9.6 of [Cisinski](#Cisinski). The idea is to exploit the fact that the hom-spaces of an $\infty$-category $X$ are the fibers of $X^{[1]} \to X \times X$ (and similarly for the map on cores).
 
-And conversely, the square above satisfies conditions for which the vertical maps having equivalent fibers implies it is a pullback.
+The fourth point implies the third point since Core preserves pullbacks. The second point implies the fourth point by the following arugment.
+
+$$
+  \array{
+    C^{[1]} &\to& D^{[1]} &\qquad \qquad& C^{[1]} &\to& D^{[1]}
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    Ho(C)^{[1]} &\to& Ho(D)^{[1]} && C \times C &\to& D \times D
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    Ho(C) \times Ho(C) &\to& Ho(D) \times Ho(D)
+    &&     Ho(C) \times Ho(C) &\to& Ho(D) \times Ho(D)
+  }
+$$
+
+Assume the second point. Since $Ho(C) \to Ho(D)$ is a fully faithful functor of 1-categories, the bottom square is a pullback (and a homotopy pullback). The top square is a pullback since $(-)^{[1]}$ preserves limits. Thus the outer square is a pullback.
+
+On the right, we've seen the outer square is a pullback and the bottom square is a pullback since limits commute with limits. Thus, the upper square is a pullback.
+
 =--
 
 Every full and faithful $(\infty,1)$-functor is a [[monomorphism in an (∞,1)-category|monomorphism]] in [[(∞,1)Cat]], but being a full and faithful $(\infty,1)$-functor is a stronger condition. An $(\infty,1)$-functor $F$ is a monomorphism if and only if it induces a [[monomorphism in an (∞,1)-category|monomorphism]] on [[hom-spaces]] and every equivalence $F X \simeq F Y$ is in the effective image of $F$ (see [this MathOverflow question](https://mathoverflow.net/questions/345686/monomorphisms-in-mathcalc-at-infty/345700)).
