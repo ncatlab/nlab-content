@@ -48,6 +48,31 @@ is either $+1$ or $-1$.
 $$\deg(f) = \sum_{i=1}^r sign(\Omega^n(f_i))$$ 
 and this quantity is independent of the choice of regular value $y$. 
 
+## Properties
+
+### Hopf degree theorem
+
++-- {: .num_prop}
+###### Proposition
+**(Hopf degree theorem)**
+
+Let $n \in \mathbb{N}$ be a [[natural number]] and $X \in Mfd$ be a [[connected topological space|connected]] [[orientation|orientable]] [[closed manifold]] of [[dimension]] $n$. Then the $n$th [[cohomotopy]] classes $\left[X \overset{c}{\to} X^n\right] \in \pi^n(X)$ of $X$ are in [[bijection]] to the [[degree of a continuous function|degree]] $deg(c) \in \mathbb{Z}$ of the representing functions, hence the canonical function
+
+$$
+  \pi^n(X) 
+    \underoverset{\simeq}{S^n \to K(\mathbb{Z},n)}{\longrightarrow}
+   H^n(X,\mathbb{Z}) 
+     \;\simeq\;   
+   \mathbb{Z}
+$$
+
+from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
+
+=--
+
+(e.g. [Kosinski 93, IX (5.8)](Hopf+degree+theorem#Kosinski93), [Kobin 16, 7.5](Hopf+degree+theorem#Kobin16))
+
+
 ## Examples
 
 * [[winding number]]
