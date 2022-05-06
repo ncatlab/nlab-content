@@ -126,7 +126,7 @@ Review:
 
 
 
-The [[Stolz conjecture]] on the [[Witten genus]]
+The [[Stolz conjecture]] on the [[Witten genus]]:
 
 * {#Stolz96} [[Stephan Stolz]], _A conjecture concerning positive Ricci curvature and the Witten genus_, Mathematische Annalen Volume 304, Number 1 (1996) ([doi:10.1007/BF01446319](https://doi.org/10.1007/BF01446319))
 
@@ -141,7 +141,7 @@ The [[Jacobi form]]-property of the [[Witten genus]]:
 
 The identification of [[elliptic genera]], via [[fiber integration]]/[[Pontrjagin-Thom collapse]], as [[complex oriented cohomology theory|complex orientations]] of [[elliptic cohomology]] ([[sigma-orientation]]/[[string-orientation of tmf]]/[[spin-orientation of Tate K-theory]]):
 
-* [[Michael Hopkins]], _Topological modular forms, the Witten genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#168;urich, 1994) (Basel), Birkh&#228;user, 1995, 554&#8211;565. MR 97i:11043 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
+* [[Michael Hopkins]], _Topological modular forms, the Witten genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994) (Basel), Birkh&#228;user, 1995, 554&#8211;565. MR 97i:11043 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
 
 * {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850 ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
 
