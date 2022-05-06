@@ -253,7 +253,23 @@ Discussion in the context of [[M2-M5-brane bound states]]/[[E-strings]]:
 
 * {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
+### Fuzzy 4-sphere
 
+The [[fuzzy 4-sphere]]:
+
+* [[Harald Grosse]], [[Ctirad Klimcik]], P. Presnajder, _On Finite 4D Quantum Field Theory in Non-Commutative Geometry_, Commun. Math. Phys.180:429-438, 1996 ([arXiv:hep-th/9602115](https://arxiv.org/abs/hep-th/9602115))
+
+* Judith Castelino, Sangmin Lee, [[Washington Taylor]], _Longitudinal 5-branes as 4-spheres in Matrix theory_, Nucl. Phys. B526:334-350, 1998 ([arXiv:hep-th/9712105](https://arxiv.org/abs/hep-th/9712105))
+
+  (via [[D5-branes]])
+
+### Fuzzy 6-sphere and higher
+
+The [[fuzzy 6-sphere]] and higher:
+
+* [[Sanjaye Ramgoolam]], Section 5 of: _On spherical harmonics for fuzzy spheres in diverse dimensions_, Nucl. Phys. B610: 461-488, 2001 ([arXiv:hep-th/0105006](https://arxiv.org/abs/hep-th/0105006))
+
+* Yusuke Kimura, _On Higher Dimensional Fuzzy Spherical Branes_,  	Nucl. Phys. B664 (2003) 512-530 ([arXiv:hep-th/0301055](https://arxiv.org/abs/hep-th/0301055))
 
 [[!redirects fuzzy spheres]]
 
