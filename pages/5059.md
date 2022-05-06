@@ -911,8 +911,21 @@ The observation that the Green-Schwarz action functional is an example of a [[WZ
 
 For more references on this WZW perspective see [below](#ReferencesWZWTerm).
 
-
 For references on curved backgrounds see [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
+
+### For D-branes
+
+Green-Schwarz action functionals for the [[D-branes]]:
+
+* {#CGNSW96} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
+
+* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+
+* [CAIB 99](#CAIB99)
+
+* [Sakaguchi 00](#Sakaguchi00)
+
+
 
 
 ### Dualities
