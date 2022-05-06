@@ -89,7 +89,7 @@ See [[module over an enriched category]].
 A module $N$ over a (commutative, unital) ring $R$ may be encoded in another ring: the one that as an abelian group is the [[direct sum]] $R \oplus N$ and whose product is defined by the formulas
 
 $$
-  (r_1, n_1) \cdot (r_2,n_2) := (r_1 r_2, r_1 n_1 + r_2 n_2)
+  (r_1, n_1) \cdot (r_2,n_2) := (r_1 r_2, r_2 n_1 + r_1 n_2)
   \,.
 $$
 
