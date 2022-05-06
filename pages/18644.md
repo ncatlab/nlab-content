@@ -84,6 +84,8 @@ Further developments include
 
 * {#Strominger17} [[Andrew Strominger]], _Lectures on the Infrared Structure of Gravity and Gauge Theory_ ([arXiv:1703.05448](https://arxiv.org/abs/1703.05448))
 
+* Holmfridur Hannesdottir, Matthew D. Schwartz, _A Finite S-Matrix_ ([arXiv:1906.03271](https://arxiv.org/abs/1906.03271))
+
 See also
 
 * Wikipedia, _[Infrared divergence](https://en.wikipedia.org/wiki/Infrared_divergence)_
