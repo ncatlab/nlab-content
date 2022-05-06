@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[Kaluza-Klein compactification]] on a [[circle principal bundle]] $(\widehat X, \widehat g)$, the _graviphotn field_ is the resulting [[gauge field]] ([[electromagnetic field]]) on the base of the fibration.
+Given a [[Kaluza-Klein compactification]] on a [[circle principal bundle]] $(\widehat X, \widehat g)$, the _graviphoton field_ is the resulting [[gauge field]] ([[electromagnetic field]]) on the base of the fibration.
 
 
 ## Definition
