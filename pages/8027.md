@@ -73,10 +73,14 @@ Brief surveys include
 
 * Nikolay Bovev, _New SCFTs from wrapped branes_, 2013 ([pdf](http://ipht.cea.fr/Meetings/Itzykson2013/Talks/bobev-Itzykson-july2013.pdf))
 
-A detailed review is in
+* Giulio Bonelli, _Variations on AGT Correspondence_, 2013 ([pdf](https://indico.cern.ch/event/217384/attachments/348854/486363/Bonelli.pdf))
+
+More detailed review is in
 
 * Rober Rodger, _A pedagogical introduction to the AGT conjecture_, Master Thesis Utrecht (2013) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2013/R.J.Rodger.pdf))
 
+* {#Szabo15} [[Richard Szabo]], _$N=2$ gauge theories, instanton moduli spaces and geometric representation theory_, Journal of Geometry and Physics
+Volume 109, November 2016, Pages 83-121 ([arXiv:1507.00685](https://arxiv.org/abs/1507.00685))
 
 See also
 
