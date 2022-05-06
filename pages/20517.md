@@ -337,10 +337,28 @@ is equivalently expressed as on the right of the following
 \]
 
 
-#### Equation of motion for weak self-duality
+#### Weak self-duality and PS-equations of motion
 
+Notice that
 
-The self-duality condition in the form (eq:SelfDualityDecomposition)
+$$
+  \begin{aligned}
+    \theta^5 \wedge d 
+      \big( (d A)^{hor} \big)
+    & =
+    \theta^5 \wedge d 
+       \big( d A - \theta^5 \wedge \iota_{v_5} d A\big)
+    \\
+    & =
+    \theta^5 \wedge (d \theta^5) \wedge \iota_{v_5} d A
+  \end{aligned}
+  \,.
+$$
+
+Hence assume now hat the Ehresmann connection is [[flat connection|flat]],
+hence $d \theta^5 = 0$.
+
+Then the self-duality condition in the form (eq:SelfDualityDecomposition)
 
 $$
   \widetilde H
@@ -368,7 +386,7 @@ implies, after applying $\theta^5 \wedge d$ to both sides, the second-order equa
   0
 \]
 
-This equation by itself is hence a weekened form of the self-duality condition, a kind of "self-duality up to horizontally closed terms".
+This equation by itself is hence a weakened form of the self-duality condition, a kind of "self-duality up to horizontally closed terms".
 
 The proposal of [Perry-Schwarz 96, Sec. 2](#PerrySchwarz96) is to take this as the relevant [[equation of motion]] for the theory on $S^1$.
 
@@ -624,7 +642,7 @@ The Perry-Schwarz action is due to
 
 * {#APPS97} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
 
-Its covariantisations via a [[scalar field|scalar]] [[auxiliary field]] is due to 
+Its covariantisation via a [[scalar field|scalar]] [[auxiliary field]] is due to 
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
 
