@@ -104,6 +104,14 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[chiral symmetry breaking]]
 
+* [[hadron]]
+
+  * [[meson]]
+
+  * [[baryon]]
+
+* [[chiral partner]]
+
 * [[quark bag model]], [[Cheshire cat principle]]
 
 * [[hidden local symmetry]]
@@ -265,9 +273,9 @@ Relation between the vector- and the antisymmetric tensor-representation of vect
 
 Further application of the antisymmetric tensor representation of vector mesons to [[quantum hadrodynamics]]:
 
-* Stefan Leupold, Carla Terschlusen, _Towards an effective field theory for vector mesons_, Talk presented at the 50th International Winter Meeting on Nuclear Physics, 23-27 January 2012, Bormio ([arXiv:1206.2253](https://arxiv.org/abs/1206.2253))
+* [[Stefan Leupold]], Carla Terschlusen, _Towards an effective field theory for vector mesons_, Talk presented at the 50th International Winter Meeting on Nuclear Physics, 23-27 January 2012, Bormio ([arXiv:1206.2253](https://arxiv.org/abs/1206.2253))
 
-* Carla Terschlusen, Stefan Leupold, M. F. M. Lutz, _Electromagnetic transitions in an effective chiral Lagrangian with the eta-prime and light vector mesons_, Eur. Phys. J. A 48, 190 (2012) ([arXiv:1204.4125](https://arxiv.org/abs/1204.4125))
+* Carla Terschlusen, [[Stefan Leupold]], M. F. M. Lutz, _Electromagnetic transitions in an effective chiral Lagrangian with the eta-prime and light vector mesons_, Eur. Phys. J. A 48, 190 (2012) ([arXiv:1204.4125](https://arxiv.org/abs/1204.4125))
 
 
 
