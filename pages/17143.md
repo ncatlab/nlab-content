@@ -257,7 +257,7 @@ $$
   \,.
 $$
 
-Hence it is now sufficient to see that each factor restricts to a unit on the fiber, but that it precisely the condition that $c_1^E$ is a complex orientaton of $E$. In fact by def. \ref{StrictComplexOrientation} the restriction is even to $1 \in \pi_0(E)$.
+Hence it is now sufficient to see that each factor restricts to a unit on the fiber, but that is precisely the condition that $c_1^E$ is a complex orientation of $E$. In fact by def. \ref{StrictComplexOrientation} the restriction is even equal to $1 \in \pi_0(E)$.
 
 =--
 
