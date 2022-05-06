@@ -29,7 +29,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Papers
 
-* _Topological sectors for heterotic M5-brane charges under Hypothesis H_ (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832). Accepted to appear, J. High Energy Physics, 15 May 2020.
+* _Topological sectors for heterotic M5-brane charges under Hypothesis H_  J. High Energ. Phys. **2020** no. 52 (2020) doi:[10.1007/JHEP06(2020)052](https://doi.org/10.1007/JHEP06%282020%29052) (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832).
 
 * _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Accepted to appear, American Mathematical Monthly, 11 March 2020. Joint with Ben Nagy.
 
