@@ -207,6 +207,10 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[group actions on spheres]]
 
+* [[homology sphere]]
+
+* [[homotopy sphere]]
+
 ## References
 
 ### Formalization
