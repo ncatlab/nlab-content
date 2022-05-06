@@ -188,7 +188,7 @@ In [[modal type theory]] one thinks of a (idempotent) (co-)monad as a (co-)[[mod
 ### The associated idempotent monad of a monad
  {#AssociatedIdemopotentMonad}
 
-We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is  [[right adjoint]] to the inclusion of idempotent monads into all monads, exhibiting idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]]([[reflective subcategory]]) at the $T$-equivalences, and in fact the factorization of any [[adjunction]] inducing $T$ through that localization ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](Lucyshyn-Wright14)).
+We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is [[right adjoint]] to the inclusion of idempotent monads into the category of all monads on a given category, exhibiting the subcategory of idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]]([[reflective subcategory]]) at the $T$-equivalences, and in fact the factorization of any [[adjunction]] inducing $T$ through that localization ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](#Lucyshyn-Wright14)).
 
 
 +-- {: .num_theorem #ExistenceOfIdempotentCore}
@@ -207,7 +207,7 @@ Given a [[monad]] $M$, define a [[functor]] $M'$ as the [[equalizer]] of $M u$ a
 
 $$M' \hookrightarrow M \stackrel{\overset{u M}{\longrightarrow}}{\underset{M u}{\longrightarrow}} M M.$$ 
 
-This $M'$ acquires a monad structure (see this [MathOverflow thread](http://mathoverflow.net/questions/147264/regarding-a-difficulty-in-the-fakir-article-about-associated-idempotent-triple/147272#147272) for some detailed discussion). It might not be an idempotent monad (although it will be if $M$ is [[left exact functor|left exact]]). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
+This $M'$ acquires a unique monad structure such that $M' \hookrightarrow M$ is a morphism of monads (see this [MathOverflow thread](http://mathoverflow.net/questions/147264/regarding-a-difficulty-in-the-fakir-article-about-associated-idempotent-triple/147272#147272) for some detailed discussion). It might not be an idempotent monad (although it will be if $M$ is [[left exact functor|left exact]]). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
 
 $$\ldots \hookrightarrow M_{\alpha} \hookrightarrow \ldots \hookrightarrow M$$
 
@@ -353,13 +353,13 @@ General discussion includes
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
  
 
-* [[Pierre Gabriel]] and [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
+* [[Pierre Gabriel]], [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, A.4.3.11, p.194, B1.1.9, p.249
 
 The idempotent monad which exhibits the [[localization]] at the $T$-equivalences for a given monad $T$ is discussed in 
 
-* {#ApplegateTierney70} H. Applegate and [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. 137 (1970), 56-99
+* {#ApplegateTierney70} H. Applegate, [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. 137 (1970), 56-99
 
 * {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f103.image))
 
@@ -369,11 +369,11 @@ The idempotent monad which exhibits the [[localization]] at the $T$-equivalences
 
 and for [[enriched category theory]] in 
 
-* {#LucyshynWright14} [[Rory Lucyshyn-Wright]], _Completion, closure, and density relative to a monad, with examples in functional analysis and sheaf theory_ . ([arXiv:1406.2361](http://arxiv.org/abs/1406.2361))
+* {#LucyshynWright14} [[Rory Lucyshyn-Wright]], _Completion, closure, and density relative to a monad, with examples in functional analysis and sheaf theory_, Theory Appl. Cat. 29 (2014) 31, 896-928 [abs](http://emis.ams.org/journals/TAC/volumes/29/31/29-31abs.html) [arXiv:1406.2361](http://arxiv.org/abs/1406.2361) 
 
 Extension of idempotent monads along subcategory inclusions is discussed in
 
-* [[Carles Casacuberta]], Armin Frei, Tan Geok Choo, _Extending localization functors_ ,  Journal of Pure and Applied Algebra 103 (1995), 149-165. ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cft.pdf))
+* [[Carles Casacuberta]], Armin Frei, Tan Geok Choo, _Extending localization functors_ ,  Journal of Pure and Applied Algebra 103 (1995), 149-165 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cft.pdf))
 
 * A. Deleanu, A. Frei, [[Peter Hilton|P. Hilton]], _Idempotent triples and completion_ , Math. Z. **143** (1975) pp.91-104. ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN266833020_0143&divID=LOG_0014&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN266833020_0143%7C&targetFileName=PPN266833020_0143_LOG_0014.pdf&))
 
