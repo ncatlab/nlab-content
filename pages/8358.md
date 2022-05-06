@@ -47,23 +47,33 @@ Applying the tripos-to-topos construction to this tripos produces the realizabil
 
 +-- {: .num_defn} 
 ###### Definition 
- An ($A$-)**partitioned assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to A$. A **morphism** $X \to Y$ between partitioned assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that $a[x]_X$ is defined for all $x \in X$ and $a[x]_X = [f(x)]_Y$. The category of partitioned assemblies is denoted $Pass_A$. 
-=-- 
+An **assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|} \to P(A)$, where $P(A)$ denotes the [[powerset]] of $A$.  An assembly is **partitioned** if $[-]_X$ takes values in singletons, i.e. is a function ${|X|} \to A$.
+
+A **morphism** $X \to Y$ between assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that for all $x\in X$ and $b\in [x]_X$, $a\cdot b$ is defined and belongs to $[f(x)]_Y$.
+=--
+
+The categories of assemblies and partitioned assemblies are denoted $Ass_A$ and $PAss_A$ respectively.
 
 +-- {: .num_prop} 
 ###### Proposition 
-$Pass_A$ is [[extensive category|lextensive]]. 
+$Ass_A$ and $PAss_A$ are finitary [[extensive category|lextensive]].  Moreover, $Ass_A$ is [[regular category|regular]] and [[locally cartesian closed category|locally cartesian closed]].
 =-- 
 
 +-- {: .num_defn} 
-###### Theorem  
-The [[exact completion|ex/lex completion]] of $Pass_A$ is a [[topos]], called the **realizability topos** of $A$. 
+###### Theorem
+$Ass_A$ is the [[reg/lex completion]] of $PAss_A$.  Therefore, [[ex/lex completion]] of $PAss_A$ coincides with the [[ex/reg completion]] of $Ass_A$.  This category is a [[topos]], called the **realizability topos** of $A$. 
 =-- 
 
 +-- {: .num_remark #pax}
 ###### Remark 
 A general result about the ex/lex completion $C_{ex/lex}$ of a left exact category $C$ is that it has enough regular [[projective object|projectives]], meaning objects $P$ such that $\hom(P, -) \colon C_{ex/lex} \to Set$ preserves regular epis. In fact, the regular projective objects coincide with the objects of $C$ (as a subcategory of $C_{ex/lex}$). Of course, when $C_{ex/lex}$ is a topos, where every epi is regular, this means $C_{ex/lex}$ has enough projectives, or satisfies (external) [[COSHEP]]. It also satisfies internal [[COSHEP]], since binary products of projectives, i.e., products of objects of $C$, are again objects of $C$ (see [this result](/nlab/show/internally+projective+object#enough)). 
-=-- 
+=--
+
++-- {: .num_remark #ac}
+###### Remark
+The fact that a realizability topos is an ex/lex completion depends on the [[axiom of choice]] for [[Set]], since it requires the partitioned assemblies to be projective objects therein.  In the absence of the axiom of choice, the projective objects in a realizability topos are the (isomorphs of) partitioned assemblies whose underlying set is [[projective object|projective]] in [[Set]].  Thus, if [[COSHEP]] holds in [[Set]], then a realizability topos is the ex/wlex completion of the category of such "projective partitioned assemblies" (wlex because this category may not have finite limits, only weak finite limits).  Without some choice principle, the realizability topos may not be an ex/wlex completion at all; but it is still an ex/reg completion of $Ass_A$.
+=--
+
 
 ## Properties
 
