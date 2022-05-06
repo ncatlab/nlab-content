@@ -3,9 +3,7 @@ Marcus Tressl is a mathematical logician working in the [Model theory group](htt
 
 * [Home page](https://personalpages.manchester.ac.uk/staff/Marcus.Tressl/index.php)
 
-##Publications
-
-include
+## Selected writings
 
 * [[Max Dickmann]], [[Niels Schwartz]], [[Marcus Tressl]], _Spectral Spaces_. New Mathematical Monographs 35 (2019).  Cambridge: Cambridge University Press. ISBN 9781107146723.
 
