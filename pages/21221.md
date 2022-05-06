@@ -34,6 +34,8 @@ $$
 
 ## Related concepts
 
+* [[vector representation]]
+
 * [[pseudoscalar]], [[density]]
 
 * [[pseudovector meson]]
