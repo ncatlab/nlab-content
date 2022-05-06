@@ -12,7 +12,5 @@ Coherence spaces can be defined as [[arity spaces]] for the "subunary" class of 
 
 * Wikipedia, _[Coherent space](http://en.wikipedia.org/wiki/Coherent_space)_
 
-[[!redirects coherent space]]
-[[!redirects coherent spaces]]
 [[!redirects coherence space]]
 [[!redirects coherence spaces]]
