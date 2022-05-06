@@ -30,7 +30,9 @@ This is the higher dimensional analog of how the [[superparticle]] is related to
 
 There are several different incarnations of the superstring.
 
-* the **[[spinning string]]** or **[[NSR string]]** has in fact local [[worldsheet]] [[supersymmetry]];
+* the **[[spinning string]]** or **[[NSR string]]** has in fact local [[worldsheet]] [[supersymmetry]]
+
+  depending on how the [[GSO projection]] is chosen, this yields the [[type II string theory|type II superstring]] or [[type I string theory|type I superstring]] or [[type 0 string theory|type 0 superstring]];
 
 * the **[[Green-Schwarz superstring]]** instead has manifest [[target space]] supersymmetry.
 
