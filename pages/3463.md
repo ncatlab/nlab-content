@@ -21,6 +21,8 @@ Stone spaces are sometimes called _[[profinite spaces]]_, since they are precise
 
 ## Related concepts
 
+* [[Stone locale]]
+* [[Stonean space]]
 * [[profinite completion]]
 
 ## References
