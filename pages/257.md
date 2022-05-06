@@ -125,7 +125,9 @@ There are several extra conditions that strengthen the notion of a model categor
 
 * A [[cofibrantly generated model category]] is one with a good compatible notion of [[cell complexes]].
 
-* A [[combinatorial model category]] is one that in addition is a [[locally presentable category]].
+* A [[combinatorial model category]] is a cofibrantly generated one that in addition is a [[locally presentable category]].
+
+* An [[accessible model category]] is one on a locally presentable category that admits [[accessible functor|accessible]] factorizations, which can therefore be enhanced to [[algebraic weak factorization systems]].
 
 * A left/right [[proper model category]] is one where the weak equivalences are stable under pushforward along cofibrations / pullback along fibrations
 
@@ -425,6 +427,8 @@ and applying a general technique called [[Bousfield localization]] which forces 
 * [[double category of model categories]]
 
 * [[Ho(CombModCat)]]
+
+[[!include algebraic model structures - table]]
 
 ## References
 
