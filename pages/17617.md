@@ -20,13 +20,11 @@
 
 ## Definition
 
-If $C$ is a [[category]] then an [[ind-object]] $x\in Ind(C)$ is a _strict ind-object_ if it can be represented in $Ind(C)$ as the (vertex of) a [[colimit]] of a small [[filtered diagram]] (whose [[objects]] are in $C$ and) whose [[morphisms]] are specifically [[monomorphisms]] in $C$.  
+If $C$ is a [[category]] then an [[ind-object]] $x\in Ind(C)$ is a __strict ind-object__ (alias __essentially monomorphic ind-object__) if it can be represented in $Ind(C)$ as (the apex of) a [[colimit]] of a small [[filtered diagram]] (whose [[objects]] are in $C$ and) whose [[morphisms]] are specifically [[monomorphisms]] in $C$.  
 
 ([Grothendieck-Verdier 71, Exposé I.&#167;8.12.1](#GrothendieckVerdier71)). See also [Blanc 96, def. 4.1](#Blanc96).
 
-[[abstract duality|Dually]], strict [[pro-objects]] are [[limits]] of small [[cofiltered diagrams]] involving only [[epimorphisms]].
-
-An ind-object isomorphic in $Ind(C)$ to a strict ind-object is sometimes called essentially monomorphic. A pro-object isomorphic in $Pro(C)$ to a strict pro-object is sometimes called essentially epimorphic. (This is not so good terminology unless we call strict pro-objects epimorphic which does not seem to be used.) 
+[[abstract duality|Dually]], __strict [[pro-objects]]__ (alias __essentially epimorphic pro-objects__) are [[limits]] of small [[cofiltered diagrams]] involving only [[epimorphisms]].
 
 ## References
 
