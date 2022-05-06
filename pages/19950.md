@@ -409,3 +409,7 @@ Discussion of [[M-brane]] [[charge quantization]] in [[equivariant cohomotopy]]:
 
 [[!redirects equivariant Cohomotopy]]
 
+[[!redirects equivariant cohomotopy theory]]
+[[!redirects equivariant Cohomotopy theory]]
+
+
