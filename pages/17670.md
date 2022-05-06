@@ -86,6 +86,14 @@ A more succinct version of the axioms of the model is claimed in
 
 * Christian Brouder, Nadir Bizi, Fabien Besnard, _The Standard Model as an extension of the noncommutative algebra of forms_ ([arXiv:1504.03890](https://arxiv.org/abs/1504.03890))
 
+Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetime]] to the [[4-sphere]] is claimed in
+
+* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXivL1409.2471](https://arxiv.org/abs/1409.2471))
+
+* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
+
+* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
+
 [[!redirects Connes-Lott-Chamseddine-Barrett models]]
 
 [[!redirects Connes-Lott-Chamseddine model]]
