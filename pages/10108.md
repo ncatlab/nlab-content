@@ -100,4 +100,3 @@ Discussion of the [[adiabatic limit]] is in
 * {#Duch17} [[Pawel Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
 
 
-[[!redirects mass gap problem]]
