@@ -99,7 +99,7 @@ More on the role of [[discrete torsion]] in the [[supergravity C-field]] is in
 
 Discussion of [[boundary conditions]] leading to [[brane intersection]] laws with the [[M-wave]], [[black brane|black]] [[M5-brane]] and [[MO9]] is in
 
-* {#ChuSmith09} Chong-Sun Chu, Douglas J. Smith, _Multiple Self-Dual Strings on M5-Branes_, JHEP 1001:001, 2010 ([arXiv:0909.2333](https://arxiv.org/abs/0909.2333))
+* {#ChuSmith09} [[Chong-Sun Chu]], Douglas J. Smith, _Multiple Self-Dual Strings on M5-Branes_, JHEP 1001:001, 2010 ([arXiv:0909.2333](https://arxiv.org/abs/0909.2333))
 
 * {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
 
