@@ -682,7 +682,7 @@ Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rat
 
 ### Relation to robust zero sets
 
-* Peter Franek, Marek Krčál, _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, ([slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
+* Peter Franek, Marek Krčál, _Persistence of Zero Sets_, ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310)), _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, related talk ([slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
 
 ### Equivariant Cohomotopy
 
