@@ -61,7 +61,7 @@ $$
 $$
 
 where the last and first morphisms are the [[projections]] and [[co-projections]], respectively, and 
-where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$.
+where $0_{i,j}$ is the [[zero morphism]] from $c_i$ to $c_j$. Thus $r_{c_1, c_2} = (Id_{c_1}, 0_{1,2}) \coprod (0_{2,1}, Id_{c_2})$, where $(f, g): d \to a \times b$ denotes the map induced by $f : d \to a$ and $g : d \to b$.
 
 =--
 
