@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[fermion]] [[fundamental particles]] in the [[standard model of particle physics]] arrange in three "[[generation of fundamental particles|generation]]". Between generations, particles differ in their [[mass]] and in further properties referred to as _flavor quantum numbers_, but otherwise their interactions are the same, to high accuracy. Hence _flavor physics_ refers to the [[phenomenology]] of processes that do involve or depend on flavor quantum numbers, notably when flavor changes through interactions via the [[weak nuclear force]] and [[Yukawa interactions]].
+The [[fermion]] [[fundamental particles]] in the [[standard model of particle physics]] arrange in three "[[generation of fundamental particles|generations]]". Between generations, particles differ in their [[mass]] and in further properties referred to as _flavor quantum numbers_, but otherwise their interactions are the same, to high accuracy. Hence _flavor physics_ refers to the [[phenomenology]] of processes that do involve or depend on flavor quantum numbers, notably when flavor changes through interactions via the [[weak nuclear force]] and [[Yukawa interactions]].
 
 For the [[leptons]] these flavor quantum numbers are _[[electron]] number_, _[[muon]] number_ and _[[tauon]] number_ as well as the corresponding three _[[neutrino]] numbers_.
 
@@ -53,7 +53,7 @@ In the [[standard model of particle physics]], the sector involving [[flavor phy
 (Note that Isidori's slide collects all terms with a [[Higgs boson]] factor, including the pure Higgs terms reflecting the [[cosmological constant]] and the [[hierarchy problem]], and hence "all the problematic terms", while the flavor sector proper consists of those terms involving
 Higgs and [[quark]] factors.)
 
-Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than those of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model (such as [[GUT]] models and/or the [[MSSM]]) is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
+Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard model are much less understood than those of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model (such as [[GUT]] models and/or the [[MSSM]]) is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
 
 Moreover, all observed [[CP violation]] is related to flavor-changing [[interactions]].
 
