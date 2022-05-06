@@ -110,3 +110,10 @@ $$
 A generalization in the setup of [[coring]]s:
 
 * [[Tomasz Brzezi?ski]], _Descent cohomology and corings_, Comm Algebra 36:1894-1900, 2008, [math.RA/0601491](http://arxiv.org/abs/math/0601491)
+
+In a [[model theory|model theoretic]] context:
+
+* [[Anand Pillay]], _Remarks on Galois cohomology and definability_, The Journal of Symbolic Logic __62__:2 (1997) 487-492 [doi](https://doi.org/10.2307/2275542)
+* B. Poizat,  _Une theorie de Galois imaginaire_, J. Symb. Logic __48__  (1983) 1151-1170. 
+
+
