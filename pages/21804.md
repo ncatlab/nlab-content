@@ -110,6 +110,8 @@ Here
 
 ## Related concepts
 
+* [[resolution of singularities]]
+
 * [[equivariant complex-oriented cohomology theory]]
 
 
