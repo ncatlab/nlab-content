@@ -3,16 +3,30 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
 =--
 =--
 =--
+
+
+
+#Contents#
+* table of contents
+{:toc} 
 
 ## Idea
 
-(...)
+In the [[standard model of particle physics]], the _CKM matrix_, arising from [[diagonal matrix|diagranomalizing]] the [[Yukawa couplings]], measures the [[interaction]] of the [[quarks]] via [[W-bosons]] and hence via the [[weak nuclear force]].
+
+## Definition
+
+From [PDG 18](#PDG18):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CKMMatrixDefinition.jpg" width="730">
+</center>
 
 
 ## Related concepts
@@ -26,6 +40,10 @@
 * [[V_cb puzzle]]
 
 ## References
+
+* {#PDG18} Particle Data Group Review 2018, _12. CKM Quark-Mixing Matrix_ ([pdf](http://pdg.lbl.gov/2019/reviews/rpp2018-rev-ckm-matrix.pdf))
+
+* Sébastien Descotes-Genon, [[Patrick Koppenburg]], _The CKM Parameters_, Annual Review of Nuclear and Particle Science Vol 67:97-127, 12 October 2017 ([arXiv:1702.08834](https://arxiv.org/abs/1702.08834))
 
 See also
 
