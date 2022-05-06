@@ -116,6 +116,11 @@ of distinct isomorphism classes of rooted chord diagrams of order $n$.
 Every rooted chord diagram uniquely determines a chord diagram simply by forgetting the basepoint.
 Conversely, an unrooted chord diagram of order $n$ can be rooted in up to $2n$ different ways (corresponding to the $2n$ intervals between the marked points), but might also have fewer rootings in the case of symmetries.
 
+### Chord diagrams modulo 4T are Chern-Simons diagrams modulo STU
+
+See _[[chord diagrams modulo 4T are Chern-Simons diagrams modulo STU]]_
+
+
 ## Gauss diagrams of ordinary (virtual) knots
 
 Any [[knot diagram]] can be represented faithfully by a certain kind of chord diagram with some extra structure, known as a _Gauss diagram_ [(Polyak and Viro 1994)](#PV94).
