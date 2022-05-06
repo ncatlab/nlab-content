@@ -77,6 +77,41 @@ If $X$ and $Y$ are [[compact space|compact]] [[manifold]]s, then $Tub(i)$ is [[c
 
 This appears as ([Godin, prop. 31](#Godin)).
 
+These statements generalize to [[equivariant differential topology]]:
+
+
++-- {: .num_prop #ExistenceOfGInvariantTubularNeighbourhoods}
+###### Proposition
+**(existence of $G$-invariant [[tubular neighbourhoods]])**
+
+Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+
+If $\Sigma \overset{\iota}{\hookrightarrow} X$ is a [[closed manifold|closed]] [[smooth manifold|smooth]] [[submanifold]] inside the $G$-[[fixed locus]]
+
+\begin{center}
+  \begin{xymatrix}
+    \Sigma 
+    \ar@{^{(}->}[rr]^-{\iota^G}
+    \ar@{^{(}->}[dr]_{\iota}
+    &&
+    X^G
+    \ar@{^{(}->}[dl]
+    \\
+    & 
+    X
+  \end{xymatrix}
+\end{center}
+
+
+then $\Sigma$ has a [[tubular neighbourhood]] $\Sigma \subset U \subset X$ which is "$G$-invariant" in that the $G$-[[action]] [[restriction|restricts]] to an [[action]] $G \times U \longrightarrow U$.
+
+Moreover, any two choices of such $G$-invariant tubular neighbourhoods are $G$-equivariantly [[isotopy|isotopic]].
+
+=--
+
+([Kankaanrinta 07, theorem 4.4, theorem 4.6](equivariant+differential+topology#Kankaanrinta07))
+
+
 ### Pullbacks of tubular neighbourhoods
 
 
