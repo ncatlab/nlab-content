@@ -17,6 +17,10 @@ On the [[p-adic AdS/CFT correspondence]]:
 
 * [[Ingmar Saberi]], _Holography and local fields_, ([arXiv:1801.04942](https://arxiv.org/abs/1801.04942))
 
+Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CFT correspondence]]:
+
+* Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
+
 On [[spin chains]] in [[condensed matter physics]]:
 
 * [[Ingmar Saberi]], _An introduction to spin systems for mathematicians_, ([arXiv:1801.07270](https://arxiv.org/abs/1801.07270))
