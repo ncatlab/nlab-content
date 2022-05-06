@@ -179,7 +179,7 @@ The [[skyrmion]]-model (see there) realizes [[baryons]] as [[solitons]]/[[instan
 
 Introduction:
 
-* {#MachleidtEntem11} R. Machleidt, D. R. Entem, _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919))
+* {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
 
 See also
 
