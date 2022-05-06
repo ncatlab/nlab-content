@@ -50,7 +50,7 @@ Often $C$ and $D$ are regarded as equipped with some extra [[structure]] (for in
 
 In the context of [[homotopy theory]] and [[higher category theory]] there are analogous definitions of [[∞-representations]]. 
 
-For $G$ an [[∞-group]] and $\mathbf{B}G$ its [[delooping]] [[∞-groupoid]], an $\infty$-representation on objects of some [[(∞,1)-category]] $D$ (such as that of [[(∞,n)-vector spaces]] is the [[(∞,1)-category of (∞,1)-functors]]
+For $G$ an [[∞-group]] and $\mathbf{B}G$ its [[delooping]] [[∞-groupoid]], an $\infty$-representation on objects of some [[(∞,1)-category]] $D$ (such as that of [[(∞,n)-vector spaces]]) is the [[(∞,1)-category of (∞,1)-functors]]
 
 $$
   Rep(G) = Func(\mathbf{B}G, D)
