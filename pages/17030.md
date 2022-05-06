@@ -69,6 +69,12 @@ but beware that [Scull 01](#Scull01) claims that the statement about [[minimal m
 
 * {#Scull01} [[Laura Scull]], _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf), [doi:10.1090/S0002-9947-01-02790-8](https://doi.org/10.1090/S0002-9947-01-02790-8))
 
+See also
+
+* {#Golasinski97a} [[Marek Golasiński]], _Componentwise injective models of functors to DGAs_, Colloquium Mathematicum, Vol. 73, No. 1 (1997)  ([dml:21048](https://eudml.org/doc/210480), [[GolasinskiInjectiveModels.pdf:file]])
+
+* {#Golasinski97b} [[Marek Golasiński]], _Injective models of $G$-disconnected simplicial sets_,  Annales de l'Institut Fourier, Volume 47 (1997) no. 5, p. 1491-1522 ([numdam:AIF_1997__47_5_1491_0](http://www.numdam.org/item/?id=AIF_1997__47_5_1491_0))
+
 The [[model structure on equivariant dgc-algebras]], generalizing the [[projective model structure on dgc-algebras]], in which equivariant [[minimal Sullivan models]] are [[cofibrant objects]]:
 
 * [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
