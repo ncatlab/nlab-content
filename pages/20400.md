@@ -363,13 +363,19 @@ If it still seems suspiciously circular, rest assured that in the semantics, res
 
 Because every type respects itself, we get all the instances of equality formation from Martin-Löf type theory. Equality types beyond that are for reasoning about membership.
 
-#### Pi-intro is funny
+#### Usual Pi-intro rule
 
-Not only is $\Pi$ intro not about lambdas, it's not apparently about elements at all; just equality. That's (one place) where the selectivity rules are handy. The function extensionality rule is strong enough to combine with selectivity to derive elements of function type. Proving that lambdas are functions additionally uses beta conversion. Lambdas are functions, not by fiat, but because they produce results when applied. Note that not all functions are lambdas. At the very least, the empty function is denoted by any term you like. That is, a function type with empty domain has the same PER as $\top$.
+Taking function extensionality to be $\Pi$ intro seems odd. Not only is it not about lambdas, it's not apparently about elements at all; just equality. That's (one place) where the selectivity rules are handy. The function extensionality rule is strong enough to combine with selectivity (and reflexivity) to derive elements of function type. A term is a function when you can apply it to an argument to get a result:
 
-#### Where are all the congruence rules?
+$$\frac{\Gamma \vdash A\,type \qquad
+\Gamma,x:A \vdash f\,x \Vdash B \qquad x \notin FV(f)}
+{\Gamma \vdash f \Vdash \Pi x:A.B}$$
 
-With such a small set of type constructors, it may be hard to tell, but congruence rules are rarely needed as primitives. Beta conversion was already defined as an untyped congruence closure, and for typed equality, the subsumptive rewrite rule does most of the work. The extensionality rules for $\Pi$ and $\cap$ are needed to help with binders and (our ersatz) hidden assumptions. That may turn out to handle everything, with this judgmental setup.
+Proving that lambdas are functions additionally uses beta conversion. Lambdas are functions, not by fiat, but because they produce results when applied. Note that not all functions are lambdas. At the very least, the empty function is denoted by any term you like. That is, a function type with empty domain has the same PER as $\top$.
+
+#### Congruence rules
+
+With such a small set of type constructors, it may be hard to tell, but congruence rules are rarely needed as primitives. Beta conversion was already defined as an untyped congruence closure, and for typed equality, the subsumptive rewrite rule does most of the work of congruence rules. The extensionality rules for $\Pi$ and $\cap$ are needed to help with binders and (our ersatz) hidden assumptions. That may turn out to handle everything, with this judgmental setup.
 
 ### Semantic Judgmental Reflection
 
