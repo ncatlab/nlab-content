@@ -21,16 +21,24 @@ A [[brane]] [[worldvolume]] $\phi \colon \Sigma \longrightarrow X$ is said to _w
 
 Via the identification of [[D-brane charge]] in [[K-theory]], the K-theoretic [[McKay correspondence]] formalizes how D-branes wrap the fundamental cycles in the [[blow-up]] [[resolution of singularities|resultion]] of an [[ADE-singularity]] ([Gonzalez-Sprinberg & Verdier 83](#GSV83))
 
-## Examples
-
 * [[membrane instanton]]
 
 * [[M5-brane instanton]]
+
+* in the [[Witten-Sakai-Sugimoto model]] (see there) for [[non-perturbative field theory|non-perturbative]] [[quantum chromodynamics]] [[baryons]] appear as wrapped [[D4-branes]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
+</center>
+
+> graphics grabbed from [Sugimoto 16](#Sugimoto16)
+
 
 ## References
 
 * {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
+* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 [[!redirects wrapped branes]]
 
