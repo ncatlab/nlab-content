@@ -382,6 +382,10 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 * B. Badzioch, "Algebraic Theories in Homotopy Theory", Annals of Mathematics, 155, 895--913 (2002).
 
+For a framework to compare different notions of algebraic theory see
+
+* [[Soichiro Fujii]], _A unified framework for notions of algebraic theory_, ([arXiv:1904.08541](https://arxiv.org/abs/1904.08541))
+
 
 [[!redirects algebraic theory]]
 [[!redirects algebraic theories]]
