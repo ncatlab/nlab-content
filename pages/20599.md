@@ -19,8 +19,8 @@
 
 ## Definition
 
-A [[locale]] $L$ is __Boolean__ if all elements (of the corresponding [[frame]]) are [[complemented]],
-i.e., for any $a\in L$ we have $a\vee\neg a=1$.
+A [[locale]] $L$ is __Boolean__ if all of its opens (i.e. elements of the corresponding [[frame]]) are [[complemented]],
+i.e., for any $a\in O(L)$ we have $a\vee\neg a=1$.
 Equivalently, we could say that for all $a\in A$ we have $a=\neg\neg a$.
 
 ## Properties
@@ -43,8 +43,8 @@ and open maps thereof.
 (Not every [[map of locales]] between [[Stonean locales]] is open, unlike for Boolean locales.)
 
 Any [[locale]] $L$ has a maximal dense [[sublocale]],
-whose elements are precisely the [[regular elements]] of $L$,
-i.e., elements $a\in L$ such that $a=\neg\neg a$.
+whose opens are precisely the [[regular elements]] of $O(L)$,
+i.e., elements $a\in O(L)$ such that $a=\neg\neg a$.
 This sublocale is Boolean and is also known
 as the [[double negation sublocale]].
 
