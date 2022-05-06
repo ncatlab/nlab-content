@@ -41,3 +41,4 @@ If you would like to participate in the [[Initiality Project]], just add your na
 * [[Tamara von Glehn]]
 * [[Nicolai Kraus]]
 * [[Todd Trimble]]
+* [[Simon Huber]]
