@@ -831,7 +831,7 @@ A breakthrough were then the analytic solutions describing the bosonic string ta
 
 * Ian Ellwood, [[Martin Schnabl]], _Proof of vanishing cohomology at the tachyon vacuum_, JHEP 0702:096,2007 ([arXiv:hep-th/0606142](http://arxiv.org/abs/hep-th/0606142))
 
-Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]] theory is in 
+Analogous discussion [[Sen's conjecture]] including also brane/[[anti-brane]] pairs in [[superstring]] theory:
 
 * [[Leonardo Rastelli]], [[Ashoke Sen]], [[Barton Zwiebach]], _Vacuum String Field Theory_ ([arXiv:hep-th/0106010](http://arxiv.org/abs/hep-th/0106010))
 
@@ -840,6 +840,8 @@ Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]
 * L. Bonora, N. Bouatta, C. Maccaferri, _Towards open-closed string duality: Closed Strings as Open String Fields_ ([arXiv:hep-th/0609182](http://arxiv.org/abs/hep-th/0609182))
 
 * [[Theodore Erler]], _Tachyon Vacuum in Cubic Superstring Field Theory_, JHEP 0801:013,2008 ([arXiv:0707.4591](http://arxiv.org/abs/0707.4591))
+
+* [[Theodore Erler]], _Analytic Solution for Tachyon Condensation in Berkovits' Open Superstring Field Theory_, JHEP 1311 (2013) 007 ([arXiv:1308.4400](https://arxiv.org/abs/1308.4400))
 
 ### Relation to higher spin gauge theory
 
