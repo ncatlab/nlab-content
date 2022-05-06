@@ -78,6 +78,18 @@ Here we are showing
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
+## References
+
+### General
+
+
+* {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
+
+
+
+[[!include flavor on heterotic M5-branes -- references]]
+
+
 
 
 
