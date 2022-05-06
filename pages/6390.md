@@ -79,7 +79,7 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
 ### General 
 
-Discussion of worldline dynamics of spinning particles in background fields is for instance in 
+Discussion of worldline dynamics of spinning particles in background fields is for instance in:
 
 * J.W. van Holten, _Relativistic Dynamics of Spin in Strong
 External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
@@ -87,6 +87,10 @@ External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
 * A. Pomeranskii, R A Sen'kov, I.B. Khriplovich, _Spinning relativistic particles in external fields_ Acta Physica Polonica B Proceedings Supplement Vol. 1 (2008) ([pdf](http://iopscience.iop.org/1063-7869/43/10/R03))
 
 * Krzysztof Andrzejewski, Cezary Gonera, Joanna Goner, Piotr Kosinski, Pawel Maslanka, _Spinning particles, coadjoint orbits and Hamiltonian formalism_ ([arXiv:2008.09478](https://arxiv.org/abs/2008.09478))
+
+Discussion that cancellation of the [[quantum anomaly]] of the spinning particle precisely requires [[Spin-structure]] on its [[target spacetime]]:
+
+* {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
 
 ### Worldline supersymmetry
