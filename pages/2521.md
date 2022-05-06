@@ -82,6 +82,10 @@ Discussion via [[functorial geometry]]:
 
 * [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15 (2011) ([ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
 
+Discussion of traditional [[algebraic geometry]]  for [[super-schemes]]:
+
+* [[Ugo Bruzzo]], Daniel Hernandez Ruiperez, [[Alexander Polishchuk]], _Notes on fundamental algebraic supergeometry. Hilbert and Picard superschemes_ ([arXiv:2008.00700](https://arxiv.org/abs/2008.00700))
+
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
