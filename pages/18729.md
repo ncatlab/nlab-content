@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[Stokes theorem]] immediately implies that the [[integration of differential forms|integration]] of an [[exact differential form]] with [[compact support]]  vanishes. But in fact also the reverse implication is true: If the [[integration of differential forms|integration]] of a differential form with [[compact support]] of top degree vanishes, then it is exact (prop. \ref{KernelOfIntegrationOverSmoothManifold} below) .
+The [[Stokes theorem]] immediately implies that the [[integration of differential forms|integration]] of an [[exact differential form]] with [[compact support]]  vanishes. But in fact also the converse is true: If the [[integration of differential forms|integration]] of a differential form with [[compact support]] of top degree vanishes, then it is exact (prop. \ref{KernelOfIntegrationOverSmoothManifold} below) .
 
 This statement underlies for instance 
 
