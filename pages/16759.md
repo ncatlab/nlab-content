@@ -37,23 +37,35 @@ See also at _[[string theory FAQ]]_
 * table of contents
 {:toc}
 
-## 1 Eleven-dimensional supergravity
+## Eleven-dimensional supergravity
 
 On [[11-dimensional supergravity]]
 
-## 2 The eleven-dimensional supermembrane
+On classification of [[supersymmetry]]-[[super Lie algebras]]:
+
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire:120988](https://inspirehep.net/record/120988), <a href="https://doi.org/10.1016/0550-3213(78)90218-3">doi:10.1016/0550-3213(78)90218-3</a>)
+
+
+(...)
+
+On the [[KK-monopole]]:
+
+* {#HanKoh85} Seung Kee Han, I. G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([doi:10.1103/PhysRevD.31.2503](https://doi.org/10.1103/PhysRevD.31.2503), [spire:204521](http://inspirehep.net/record/204521))
+
+
+## The eleven-dimensional supermembrane
 
 On the [[M2-brane]]
 
-## 3 The eleven-dimensional superfivebrane
+## The eleven-dimensional superfivebrane
 
 On the [[M5-brane]]
 
-## 4 $M$-theory (before $M$-theory was cool)
+## $M$-theory (before $M$-theory was cool)
 
 on [[M-theory]]
 
-## 5 Intersecting branes and black holes
+## Intersecting branes and black holes
 
 On [[black branes]], [[BPS-states]] of intersecting M-branes, 
 
@@ -61,7 +73,7 @@ On [[black branes]], [[BPS-states]] of intersecting M-branes,
 
 as well as [[black holes in string theory]] and [[Bekenstein-Hawking entropy]]
 
-## 6 $M$-theory and duality
+## $M$-theory and duality
 
 On [[duality in string theory]], mostly [[S-duality]] and [[dual heterotic string theory]], ending with [[AdS-CFT]]
 
