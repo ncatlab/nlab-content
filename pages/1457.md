@@ -67,15 +67,19 @@ A compact Hausdorff space that is merely [[separable space|separable]] need not 
 
 If we allow $d$ to take values in $[0,\infty]$ (the nonnegative [[lower reals]]) instead of just in $[0,\infty)$, then we get __extended metric spaces__.  If we drop separation, then we get __pseudometric spaces__.  If we drop the symmetry condition, then we get __quasimetric spaces__.  Thus the most general notion is that of an extended quasipseudometric space, which are also called __Lawvere metric spaces__ for the reasons below.
 
-On the other hand, if we strengthen the [[triangle inequality]] to
+{#LawvereMetricSpacesDefinition}On the other hand, if we strengthen the [[triangle inequality]] to
 $$ max(d(x,y), d(y,z)) \geq d(x,z) ,$$
 then we get __ultrametric spaces__, a more restricted concept.  (This include for example $p$-[[adic completion]]s of [[number fields]].)  Extended quasipseudoultrametric spaces can also be called __Lawvere ultrametric spaces__.
+
+### Category of metric spaces
+
+When working with metric spaces one encounters a broad variety of different maps including non-[[continuous map|continuous]] ones like almost isometries. For a convenient categorical set-up one often restricts to __[[short map|short maps]]__, i.e. maps that do not increase any distance or, equivalently, have are of [[Lipschitz map|Lipschitz norm]] not greater than 1. The category of Lawvere metric spaces and short maps forms the [[category of metric spaces]] $Met$. The restriction to ordinary metric spaces is denoted by $Met_{ord}$.
 
 
 ## Lawvere metric spaces 
   {#LawvereMetricSpace}
 
-In [Lawvere, 73](#Lawvere73), it was pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the [[tensor product]] is taken to be addition.  The [[composition]] operation in this enriched category identifies with the [[triangle identity]] in the metric space (see at _[triangle inequality -- Interpretation in enriched category theory](triangle+inequality#InterpretationInEnrichedCategoryTheory)_).
+In [Lawvere, 73](#Lawvere73), it was pointed out that [Lawvere metric spaces](#LawvereMetricSpacesDefinition) are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the [[tensor product]] is taken to be addition.  The [[composition]] operation in this enriched category identifies with the [[triangle identity]] in the metric space (see at _[triangle inequality -- Interpretation in enriched category theory](triangle+inequality#InterpretationInEnrichedCategoryTheory)_).
 
 Alternatively, taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
 
