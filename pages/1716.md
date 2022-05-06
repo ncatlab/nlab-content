@@ -39,25 +39,23 @@ The open cover $\phi_i^{-1}(0,1]$ is then a [[locally finite cover]] that [[refi
 For an open cover $\{U_i\}_{i\in I}$ of a [[topological space]] $X$ the following properties are equivalent.                      
 
 * $U$ is a numerable cover, i.e., it admits a compatible positive partition;
+
 * (Michael \cite[Proposition 2]{Michael}.) $U$ admits a subordinate locally finite [[partition of unity]];
-* (Stone \cite[Theorems 1 and 2]{Stone}.)
-$U$ is a normal cover,
-meaning there is a sequence $W_0=U$, $W_1$, $W_2$, … of open covers of $X$ such that $W_{n+1}$ is a [[star refinement]] of $W_n$ for all $n\ge0$;
-* $U$ can be refined by the inverse image of an open cover of~$Y$ under some continuous map $X\to Y$, where $Y$ is a metrizable topological space;
-* (Mardešić and Segal \cite[Lemma I.6.1]{MardesicSegal}.)
-$U$ can be refined by the inverse image of an open cover of $Y$ under some continuous map $X\to Y$,                        
-where $Y$ is an absolute neighborhood retract, i.e.,
-a metrizable topological space $Y$
-such that any closed embedding $Y\to Z$
-into a metrizable topological space $Z$
-factors through an open subset $U\subset Z$
-such that there is a map $U\to Y$
-for which the composition $Y\to U\to Y$ is identity;
+
+* (Stone \cite[Theorems 1 and 2]{Stone}.) $U$ is a normal cover, meaning there is a sequence $W_0=U$, $W_1$, $W_2$, … of open covers of $X$ such that $W_{n+1}$ is a [[star refinement]] of $W_n$ for all $n\ge0$;
+
+* $U$ can be refined by the inverse image of an open cover of $Y$ under some continuous map $X\to Y$, where $Y$ is a metrizable topological space;
+
+* (Mardešić and Segal \cite[Lemma I.6.1]{MardesicSegal}.) $U$ can be refined by the inverse image of an open cover of $Y$ under some continuous map $X\to Y$, where $Y$ is an absolute neighborhood retract, i.e., a metrizable topological space $Y$ such that any closed embedding $Y\to Z$ into a metrizable topological space $Z$ factors through an open subset $U\subset Z$ such that there is a map $U\to Y$ for which the composition $Y\to U\to Y$ is identity;
+
 * $U$ can be refined by a locally finite normal open cover;
+
 * $U$ can be refined by a locally finite open cover consisting of cozero sets;
-* (Michael \cite[Theorem 1]{Michael}, Morita \cite[Theorem 1.2]{Morita2}.)
-$U$ can be refined by an open cover given by the union of a countable collection of locally finite families of cozero sets.
+
+* (Michael \cite[Theorem 1]{Michael}, Morita \cite[Theorem 1.2]{Morita2}.) $U$ can be refined by an open cover given by the union of a countable collection of locally finite families of cozero sets.
+
 * (Michael \cite[Proposition 1]{Michael}, Hoshina \cite[Theorem 1.1 and 1.2]{Hoshina}.) $U$ can be refined by an open cover given by the union of a countable collection of discrete families of cozero sets.
+
 \end{proposition}
 
 ## Properties
@@ -69,7 +67,7 @@ Numerable open covers form a [[site]] called the **numerable site**. More precis
 
 For paracompact spaces, numerable covers are cofinal in open covers, so that the numerable site is equivalent to the open cover site for such spaces.
 
-There is also some result by [[Bourbaki]] that [[David Roberts|I]] have to look up that numerable covers are cofinal in [[locally finite open cover|locally finite covers]] of [[normal spaces]].
+There is also a 1944 result by Dieudonnne that numerable covers are cofinal in [[locally finite open cover|locally finite covers]] of [[normal spaces]] — need to add this! See, eg, Theorem 6.3 of Howes' _Modern analysis and topology_.
 
 ### Relation to numerable bundles
 
