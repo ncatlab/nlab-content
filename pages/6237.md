@@ -91,6 +91,21 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 * [[characters are cyclotomic integers]]
 
+## Examples
+ {#Examples}
+
+* [[character table of 2D4=Dic2=Q8]]
+
+* [[character table of 2T]]
+
+* [[character table of 2O]]
+
+* [[character table of 2I]]
+
+* [[character table of GL(2,3)]]
+
+
+
 ## Related concepts
 
 * [[Weyl character formula]]
