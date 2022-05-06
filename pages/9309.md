@@ -570,12 +570,17 @@ See also
 
 * Ian I. Kogan, Dimitri Polyakov, _DBI Action from Closed Strings and D-brane second Quantization_, Int. J. Mod. Phys. A18 (2003) 1827 ([arXiv:hep-th/0208036](https://arxiv.org/abs/hep-th/0208036))
 
+Discussion of [[loop order|one-loop corrections]]:
+
+* Garrett Goon, Scott Melville, Johannes Noller, _Quantum Corrections to Generic Branes: DBI, NLSM, and More_ ([arXiv:2010.05913](https://arxiv.org/abs/2010.05913))
+
+
 
 ### For coincident (non-abelian) D-branes
 
 Proposals for the generalization of the DBI action to  [[non-abelian group|non-abelian]] [[Chan-Paton gauge fields]] (hence: for [[intersecting branes|coincident]] [[D-branes]]) includes the following:
 
-Via a plane [[trace]]:
+Via a plain [[trace]]:
 
 * T. Hagiwara, _A non-abelian Born-Infeld Lagrangian_, J. Phys., A14:3059, 1981 ([doi:10.1088/0305-4470/14/11/027](https://iopscience.iop.org/article/10.1088/0305-4470/14/11/027))
 
