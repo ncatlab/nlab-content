@@ -17,3 +17,7 @@ Relation to [[black holes in string theory]] and [[random matrix theory]]:
 
 
 * {#CGHSS16} Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
+
+* Tomoki Nosaka, Tokiro Numasawa, _Quantum Chaos, Thermodynamics and Black Hole Microstates in the mass deformed SYK model_ ([arXiv:1912.12302](https://arxiv.org/abs/1912.12302))
+
+
