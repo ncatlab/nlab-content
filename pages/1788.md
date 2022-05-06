@@ -1,7 +1,104 @@
 
 
 Let $\mathbb{K} \,\in\, \big\{ \mathbb{R}, \mathbb{C}, \mathbb{H} \big\}$
-be one of the [[associative algebra|associative]] [[real normed division algebras]], hence either the [[real numbers]], or the [[complex numbers]] or the [[quaternions]]. We regard this as a [[topological ring]] with respect to the canonical underlying [[topological space|topology]] of the [[Euclidean space]] $\mathbb{R}^{ dim_{_{\mathbb{R}}}(\mathbb{K}) }$.
+and write
+
+$$
+  d
+  \;\coloneqq\;
+  dim_{\mathbb{R}}(\mathbb{K})
+  \,.
+$$
+
+Given a a multiplicative cohomology theory $E$, let me write
+
+$$
+  G_d 
+   \;\coloneqq\; 
+  \Sigma^d (1^E) \;\;\,\in\, \widetilde E^d\big( S^d \big)
+$$
+
+for the $d$-fold suspension of the canonical generator.
+
+Then given a $\mathbb{K}$-orientation $c^E$ on $E$, its "first extension stage" $c^{E,1}$, in the sense of the following square on the left, is equivalently a homotopy as shown on the right:
+
+$$
+  \array{
+    \ast
+    &
+    \overset{}{\longrightarrow}
+    &
+    \mathbb{K}P^{2}
+    &
+    \overset{ c^{E,1} }{\longrightarrow}
+    &
+    E_d
+    \\
+    \big\uparrow
+    &\mathclap{^{_{(hpo)}}}&
+    \big\uparrow
+    & 
+    \nearrow \mathrlap{ {}_{ G_d  } }
+    \\
+    S^{ 2 d - 1 }
+    &\underset{ h }{\longrightarrow}&
+    \mathbb{K}P^1
+  }
+    \;\;\;\;\;\;
+    \simeq
+    \;\;\;\;\;\;
+  \array{
+    \ast
+    &
+    \overset{}{\longrightarrow}
+    &
+    E_d
+    \\
+    \big\uparrow
+    &
+    {}_{  H  }
+    \seArrow
+    &
+    \big\uparrow \mathrlap{ ^{_{ G_d }} }
+    \\
+    S^{2d - 1}
+    &\underset{ h }{\longrightarrow}&
+    \mathbb{K}P^1
+    \,.
+  }
+$$
+
+We may also choose a homotopy 
+
+$$
+  0 \overset{ G_{2d-1} }{\Rightarrow} G_d \cdot G_d
+  \,,
+$$
+
+by degree-reasons. Combining this, we get a class 
+
+$$
+  H \cdot h^\ast G_d \,-\, h^\ast G_{2d-1}
+  \;\;\;\in\;
+  E^{2d-1}\big( S^{2d-1} \big)
+  \,.
+$$
+
+When $E = H A$ is ordinary cohomology, then this class is the homotopy Whitehead integral formula for the Hopf invariant of $h$.
+
+So for general $\mathbb{K}$-oriented $E$, we have an "$E$-Whitehead integral" formula induced from any choice of $\mathbb{K}$-orientation. I suppose. 
+
+Has this been considered anywhere?
+
+\linebreak
+
+
+
+
+
+
+
+We regard this as a [[topological ring]] with respect to the canonical underlying [[topological space|topology]] of the [[Euclidean space]] $\mathbb{R}^{ dim_{_{\mathbb{R}}}(\mathbb{K}) }$.
 
 For $n \in \mathbb{N}$, consider
 
