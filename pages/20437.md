@@ -21,16 +21,14 @@
 
 ## Idea
 
-In the [[philosophy of science]], and particularly the [[philosophy of physics]]. _empiricism_ is the [[philosophy|philosophical]] sentiment that knowledge about the [[observable universe]] does and, ultimately, can only derive from empirical observation ([[measurement]], [[experiment]]), as opposed to from internal reflection, such as in [[theoretical aestheticism]] (e.g. [[universal exceptionalism]]) and/or ([[absolute idealism|absolute]]) [[idealism]].
+In the [[philosophy of science]], and particularly the [[philosophy of physics]]. _empiricism_ is the [[philosophy|philosophical]] sentiment that knowledge about the [[observable universe]] does and, ultimately, can only derive from empirical observation ([[measurement]], [[experiment]]), as opposed to from intellectual reflection, such as in [[universal exceptionalism]] and/or ([[absolute idealism|absolute]]) [[idealism]].
 
 A contemporary variant of empriricism appears in discussion of the "[[multiverse]]" to the extent that this rejects the existence of a fundamental [[theory (physics)|theory]] from which reality may be derived, and proclaims the necessity to simply observe fundamental fields and "constants of nature" as what they appear, giving up on theoretical explanation.
 
 ## Related concepts
 
 
-* [[theoretical aestheticism]]
-
-  [[universal exceptionalism]]
+* [[universal exceptionalism]]
 
 * [[idealism]]
 
@@ -43,7 +41,7 @@ See also
 
 * Wikipedia, _[Empiricism](https://en.wikipedia.org/wiki/Empiricism)_
 
-Authors articulating the stance of empiricism over [[theoretical aestheticism]]:
+Authors articulating the stance of empiricism:
 
 * [[Max Born]], _Experiment and theory in physics_, Address to the Durham Philosophical Socienty 1943, published by Dover 1956
 
