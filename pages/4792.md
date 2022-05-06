@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
 =--
 =--
 
