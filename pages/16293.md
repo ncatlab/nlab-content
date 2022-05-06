@@ -2,4 +2,4 @@
 
 The _Fubini theorem_ is originally a [[theorem]] about interchangeability of operations of [[integration]].
 
-In [[enriched category theory]] the term _Fubini theorem_  refers to a similar ( intercheability of [[ends]]/[[coends]], see there for more.
+In [[enriched category theory]] the term _Fubini theorem_  refers to a similar ( interchangeability of [[ends]]/[[coends]], see there for more.
