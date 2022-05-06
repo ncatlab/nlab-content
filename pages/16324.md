@@ -48,7 +48,7 @@ Grassmann advertizes his work (p. xxv) as being the theory of _[[extensive quant
 * table of contents
 {:toc}
 
-## Dicussion
+## Discussion
 
 Discussion of the book includes
 
