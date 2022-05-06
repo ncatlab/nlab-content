@@ -41,6 +41,9 @@ on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectr
 
 * [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
 
+* [[Stefan Schwede]], Advanced Topics in Topology (V5D1): Global homotopy theory (Summer term 2020) [course website](http://www.math.uni-bonn.de/people/schwede/global.html) (includes list of lectures and bonus material, links to videos),
+ [YouTube playlist](https://www.youtube.com/playlist?list=PLsU-oFZDWE_INhBDZSXLQVIa_m0CBb-Ys)
+
 ## Related $n$Lab entries
 
 * [[orbifold cohomology]]
