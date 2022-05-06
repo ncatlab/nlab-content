@@ -80,6 +80,10 @@ Acyclicity of (some version of) the Ran space of a connected, [[quasi-projective
 
 * {#LurieTamagawaNumbers} [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality (282y)_, lecture notes, 2014, ([website](http://www.math.harvard.edu/~lurie/282y.html))
 
+For $X$ a smooth [[algebraic variety]] over $k$, any flat [[quasicoherent sheaf]] on Ran($X$) canonically acquires a [[D-module]] structure as discussed in
+
+* James Tao, _$n$-Excisive Functors, Canonical Connections, and Line Bundles on the Ran Space_ ([arXiv:math/1906.07976] (https://arxiv.org/abs/math/1906.07976))
+
 Discussion in the context of [[conformal field theory]] includes
 
 
