@@ -1355,6 +1355,11 @@ Review includes
 
 * [[Daniel Freed]], _Lecture 5 of [[Five lectures on supersymmetry]]_
 
+* Andrey Grozin, _Effective field theories_ ([arXiv:2001.00434](https://arxiv.org/abs/2001.00434))
+
+
+
+
 A standard textbook adopting this perspective is
 
 * [[Steven Weinberg]], _The Quantum Theory of Fields_ (Cambridge University
