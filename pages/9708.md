@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[3-brane in 6d]]:
+
+* [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
+
 On [[M-waves]]:
 
 * [[José Figueroa-O'Farrill]], [[Joan Simón]], section 2 of _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
