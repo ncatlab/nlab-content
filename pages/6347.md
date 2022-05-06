@@ -97,6 +97,9 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
     * [[Witten genus]], [[string orientation of tmf]]
 
   * **type II string theory**
+   
+    * [[massive type IIA string theory]]
+
 
     [[Diaconescu-Moore-Witten anomaly]]
 
