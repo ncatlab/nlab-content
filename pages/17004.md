@@ -365,5 +365,12 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 
 [[!redirects MFr]]
 
+[[!redirects framed bordism ring]]
+[[!redirects framed bordism rings]]
+
+[[!redirects framed cobordism ring]]
+[[!redirects framed cobordism rings]]
+
+
 
 
