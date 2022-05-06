@@ -107,6 +107,8 @@ In [[twisted cohomology]].
 
 * the [[K-theory]] of spectra parameterized over a connected $X$ is the _[[A-theory]]_ of $X$.
 
+* [[twisted differential cohomology]]
+
 ## References
  {#References}
 
@@ -124,6 +126,9 @@ A formulation of aspects of this in [[(∞,1)-category theory]] is in
 
 * {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
   
+Discussion of convenient [[model category]] [[presentable (infinity,1)-category|presentations]]:
+
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
 
 See also the further references at _[[(∞,1)-module bundle]]_.
 
