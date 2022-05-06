@@ -90,6 +90,10 @@ It has also been suggested that "3-algebras" are to be interpreted in **[[n-plec
 
 ## References
 
+Precursors:
+
+* [[John Schwarz]], _Superconformal Chern-Simons Theories_ ([arXiv:arXiv:hep-th/0411077](https://arxiv.org/abs/hep-th/0411077)
+
 The original articles are
 
 * {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
