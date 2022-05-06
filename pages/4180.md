@@ -239,7 +239,7 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 
 * [[B. Steinberg]], _Strong Morita equivalence of inverse semigroups_, Houston J. Math. 37 (2011) 895-927
 
-* Darien DeWolf and Dorette Pronk, _The Ehresmann-Schein-Nampooripad Theorem for Inverse Categories_, [arXiv pdf link](http://arxiv.org/pdf/1507.08615v1.pdf). 
+* Darien DeWolf and Dorette Pronk, _The Ehresmann-Schein-Nampooripad Theorem for Inverse Categories_, [arXiv](https://arxiv.org/abs/1507.08615). 
 
 
 
