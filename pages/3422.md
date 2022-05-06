@@ -1006,4 +1006,8 @@ Discussion in terms of [[lax (infinity,1)-colimits]] is in
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
+Section 1 of this paper reviews properties of the Grothendieck construction for quasicategories:
+
+* [[Aaron Mazel-Gee]], _All about the Grothendieck construction_ ([arXiv:1510.03525][https://arxiv.org/abs/1510.03525])
+
 [[!redirects (∞,1)-Grothendieck construction]]
