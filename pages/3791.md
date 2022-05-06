@@ -2,7 +2,8 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * German Wikipedia, _[Albert S. Schwarz](http://de.wikipedia.org/wiki/Albert_S._Schwarz)_
 
-* Albert Schwarz, _My life in science_ ([pdf](http://www.math.ucdavis.edu/~schwarz/bion.pdf))
+* {#Schwarz04} [[Albert Schwarz]], _My Life In Science_, 2004 ([pdf](https://www.math.ucdavis.edu/~schwarz/bion.pdf), [[AlbertSchwarzLifeInScience.pdf:file]])
+
 
 ## Selected publications
 
@@ -11,6 +12,8 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 On [[Morita equivalence]] and [[duality in physics]]/[[duality in string theory]]:
 
 * {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_ ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+
+and specifically in relation to [[T-duality]]:
 
 * {#Pioline99} B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_ ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
 
@@ -79,7 +82,8 @@ On [[quantum field theory]] and [[topology]]:
 
 * &#1052;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1086;&#1089;&#1085;&#1086;&#1074;&#1099; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1086;&#1081; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1087;&#1086;&#1083;&#1103;, Atomizdat, Moscow, 1975. 368 pp.
 
-## related $n$Lab entries
+
+## Related $n$Lab entries
 
 * [[supergeometry]]
 
