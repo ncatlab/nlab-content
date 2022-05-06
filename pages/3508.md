@@ -5,7 +5,7 @@ An [[ordinary differential equation]] (ODE) satisfies the __Painlev&#233; proper
 $$
 u'' = F (z; u, u'),
 $$
-where $F$ is rational in $u,u'$ and analytic in $z$ and which satisfy the Painlev&#233; property have solutions which can be expressed in terms of well known functions like elementary and hypergeometric functions and only 6 new kinds of *transcendental functions* called _Painlev&#233; I-VI_. Furthermore he obtained a complete classification of such equations (of second order?) in 50 classes (44+6) up to a number of standard transformations. Painlev&#233; transcendents are now of central importance in the study of [[integrable systems]]. 
+where $F$ is rational in $u,u'$ and analytic in $z$ and which satisfy the Painlev&#233; property have solutions which can be expressed in terms of well known functions like elementary and hypergeometric functions and only 6 new kinds of *transcendental functions* called _Painlev&#233; I-VI_. Furthermore he obtained a complete classification of such equations (automatically, $F$ is at most quadratic in $u,u'$) in 50 classes (44+6) up to a number of standard transformations. Painlev&#233; transcendents are now of central importance in the study of [[integrable systems]]. 
 
 There are also some noncommutative versions which are still purely understood. 
 
@@ -15,9 +15,11 @@ There are also some noncommutative versions which are still purely understood.
 
 * eom/[Painlevé equation](https://encyclopediaofmath.org/wiki/Painlev
 %C3%A9_equation)
-* wikipedia: [Painlev&#233; transcendents](http://en.wikipedia.org/wiki/Painlev%C3%A9_transcendents)
+* wikipedia: [Painlev&#233; transcendents](http://en.wikipedia.org/wiki/Painlev%C3%A9_transcendents), [isomonodromic deformation](https://en.wikipedia.org/wiki/Isomonodromic_deformation)
 * _One hundred years of PVI, the Fuchs&#8211;Painlev&#233; equation_, J. Phys. A, special issue, Preface, 
 [pdf](http://www.researchgate.net/profile/Marta_Mazzocco2/publication/243413584_One_hundred_years_of_PVI_the_FuchsPainlev_equation/links/00b495315eb2aa177d000000)
+
+Related $n$Lab entries include [[Picard-Vessiot theory]], [[Riemann-Hilbert problem]], [[integrable system]], [[monodromy]], [[holonomic quantum field]]
 
 #### Classical works
 
@@ -27,13 +29,12 @@ There are also some noncommutative versions which are still purely understood.
   
 * B. Gambier, _Sur les équations différentielles du second ordre et du premier degré dont l'intégrale générale est à points critiques fixes_ Acta Math. __33__ (1910) 1–55
 
-Related $n$Lab entries include [[Picard-Vessiot theory]], [[Riemann-Hilbert problem]], [[integrable system]], [[monodromy]]
-
 #### Contemporary works
 
 * Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
 
-* Second proof of the irreducibility of the first differential equation of Painlevé
+* Hiroshi Umemura, _Second proof of the irreducibility of the first differential equation of Painlevé_, Nagoya Math. J. __117__, 125-171 [doi](https://doi.org/10.1017/S0027763000001835)
+* Robert Conte, Micheline Musette, _The Painlevé handbook_
 
 * Henryk &#379;o&#322;&#261;dek, _The monodromy group_, Monografie Matematyczne __67__, 588 pp. Birkh&#228;user 2006
 
