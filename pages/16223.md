@@ -9,6 +9,13 @@ On [[Killing spinors]] in [[heterotic supergravity]]:
 
 * [[Ulf Gran]], [[George Papadopoulos]], Diederik Roest, _Supersymmetric heterotic string backgrounds_, Phys.Lett.B656:119-126, 2007 ([arXiv:0706.4407](https://arxiv.org/abs/0706.4407))
 
+On [[Killing spinors]] [[D=6 supergravity]] related to [[D=6 N=(1,0) SCFT]]:
+
+* Mehmet Akyol, [[George Papadopoulos]], _Spinorial geometry and Killing spinor equations of 6-D supergravity_, Class. Quant. Grav. 28:105001, 2011 ([arXiv:1010.2632](https://arxiv.org/abs/1010.2632))
+
+* Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
+
+
 On [[M2-M5 brane bound states]]:
 
 * {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
@@ -22,9 +29,6 @@ On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergr
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
 
-Discussion of [[Killing spinors]] in models of [[D=6 N=(1,0) SCFT]]:
-
-* Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
 
 
 
