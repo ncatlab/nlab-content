@@ -190,8 +190,9 @@ For more on this see also the treatment at [[tensorial strength#description|the 
 
 First of all, a [[tensorial strength|strong endofunctor]] $T$ on a closed monoidal category $C$ is "the same thing" as a $C$-[[enriched functor|enriched endofunctor]]. To see this, note that an enriched endofunctor amounts to a [[natural transformation]] 
 $$
-[X,Y] \;\to\; [T X, T Y] .
+[X,Y] \;\to\; [T X, T Y] 
 $$
+which satisfies the usual [[identity]] and [[composition]] rules (see [[enriched functor]]).
 Notice also that a map as above, by the hom-tensor adjunction (or [[currying]]) is equivalently specified by a map
 $$
 [X,Y] \otimes T X \;\to\; T Y.
