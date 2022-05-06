@@ -17,7 +17,7 @@
 
 ## Idea
 
-What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is the claimed phenomenon that given $N$  [[D0-branes]] in a constant background [[RR field]] $F_4$ (the [[field strength]] associated with [[D2-brane]] [[D-brane charge|charge]]) with, crucially, nonabelian effects included, then these D0-branes expand into a [[noncommutative geometry|noncommutative]] two-sphere which represents a spherical [[bound state]] of a [[D2-brane]] and $N$ [[D0-branes]] ([Myers 99, section 6, see p. 22](#Myers99), [Myers 03, section 4](#Myers03)).
+What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is the claimed phenomenon that given $N$  [[D0-branes]] in a constant background [[RR field]] $F_4$ (the [[field strength]] associated with [[D2-brane]] [[D-brane charge|charge]]) with, crucially, nonabelian effects included, then these D0-branes expand into a [[fuzzy 2-sphere]] which represents a spherical [[D0-D2 brane bound state]] of a [[D2-brane]] and $N$ [[D0-branes]] ([Myers 99, section 6, see p. 22](#Myers99), [Myers 03, section 4](#Myers03)).
 
 
 ## Related concepts
@@ -25,6 +25,10 @@ What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is
 * [[fuzzy funnel]]
 
 * [[BFSS matrix model]]
+
+\linebreak
+
+[[!include brane bound states -- table]]
 
 ## References
 
