@@ -13,13 +13,21 @@ This page collects pointers and material related to the book collection
   
 on [[orbifolds]], in [[mathematics]] and [[mathematical physics]], notable in [[string theory]].
 
+
 #Contents#
 * table of contents
 {:toc}
 
+
 ## Orbifold Gromov-Witten Theory (p. 25)
 
 * {#ChenRuan01} Weimin Chen, [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _[[Orbifolds in Mathematics and Physics]]_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
+
+
+## On orbifold elliptic genus (p. 87-105)
+
+* Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _On orbifold elliptic genus_ ([pdf](https://webusers.imj-prg.fr/~xiaonan.ma/mypubli/dlm02.pdf)), p. 87-105 In: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310 AMS (2002)([ams:conm-310](https://bookstore.ams.org/conm-310))
+
  
 
 ## Orbifolds as Groupoids: an Introduction (p. 205)
