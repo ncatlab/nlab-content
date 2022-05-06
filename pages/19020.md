@@ -21,7 +21,7 @@
 
 ## Idea
 
-In  [[particle physics]] [[phenomenology]], the term _split supersymmetry_ refers to [[model (physics)|models]] of [[supersymmetry|supersymmetric]] extensions of the [[standard model of particle physics]] whose [[supersymmetry breaking]]-[[scale]] is very high (for instance at [[GUT]]-scale of about $10^{15}$ [[GeV]]), much higher than the [[electroweak symmetry breaking]]-[[scale]] (of about 246 [[GeV]]), but such that approximate [[chiral symmetry]] [[protection from quantum corrections|protects]] the [[masses]] of the [[fermion|fermionic]] [[superpartners]].
+In  [[particle physics]] [[phenomenology]], the term _split supersymmetry_ refers to [[model (physics)|models]] of [[supersymmetry|supersymmetric]] extensions of the [[standard model of particle physics]] whose [[supersymmetry breaking]]-[[scale]] is very high (for instance at [[GUT]]-scale of about $10^{15}$ [[GeV]]), much higher than the [[electroweak symmetry breaking]]-[[scale]] (of about 246 [[GeV]]) hence violating the idea of "[[naturalness]]", but such that approximate [[chiral symmetry]] [[protection from quantum corrections|protects]] the [[masses]] of the [[fermion|fermionic]] [[superpartners]].
 
 As a result, in such [[model (physics)|models]] there is a "split" of the [[mass]] [[scales]] of the [[superpartner]] [[particles]]:
 
@@ -50,10 +50,13 @@ calculate.
 
 > The theory has formulas (‘supergravity formulas’) for all the masses. When one calculates carefully the masses of the superpartners of the [[gauge bosons]] that mediate the [[standard model of particle physics|Standard Model]] forces they turn out to get no contribution from one large source, and the resulting value for the [[superpartners]] of the [[gauge bosons]] ([[gauginos]]) is about 1 [[TeV]], rather than about 40 [[TeV]]. They are the [[gluino]], photino, zino, and wino. The strong force gluino is heavier, about 1.5 [[TeV]] or somewhat more, and the [[electroweak field|electroweak]] ones (photino, zino, wino) are somewhat lighter, about half a [[TeV|tera-electronvolt]]. 
 
+> ([Kane 17, p. 43-44 ((5-1)-(5-2))](#Kane17))
 
 ## References
 
 The idea originates with
+
+* [[James Wells]], _Implications of Supersymmetry Breaking with a Little Hierarchy between Gauginos and Scalars_,  Proceedings of [SUSY 2003](http://www.physics.arizona.edu/susy2003/) ([arXiv:hep-ph/0306127](https://arxiv.org/abs/hep-ph/0306127))
 
 * {#ArkaniHamedDimopoulos04} [[Nima Arkani-Hamed]], [[Savas Dimopoulos]], _Supersymmetric Unification Without Low Energy Supersymmetry And Signatures for Fine-Tuning at the LHC_, JHEP 0506 (2005) 073 ([arXiv:hep-th/0405159](https://arxiv.org/abs/hep-th/0405159))
 
