@@ -572,7 +572,7 @@ Given a graph  $\Gamma$ (Def. \ref{Graphs}) we say that an [[edge]] $e \in Edg_\
 1. every internal vertex of $e$ is connected to more than just one other vertex, i.e. $e$ is _not_ a solid arrow in a diagram of the following form
 
 <center>
-<img src="https://ncatlab.org/nlab/files/DeadEndsInGraphComplex.jpg" width="700">
+<img src="https://ncatlab.org/nlab/files/DeadEndsInGraphComplex.jpg" width="570">
 </center>
 
 
@@ -721,7 +721,7 @@ While this example illustrates the general action of the differential, beware th
 
 +-- {: .num_example #ThreeTermRelation}
 ###### Example
-**(the "3-term relation")**
+**(differential of trivalent tree with single internal vertex)**
 
 The image of the single trivalent internal vertex under the differential from Def. \ref{DifferentialOnGraphs} is as shown in the following:
 
@@ -764,6 +764,18 @@ $$
 ([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
 
 
++-- {: .num_example #DifferentialOfTrivalentTreeWithTwoInternalVertices}
+###### Example
+**(differential of trivalent tree with two internal vertices)**
+
+The differential (Def. \ref{DifferentialOnGraphs}) on the trivalent tree
+with two internal vertices:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DiffTrivTreeWthTwoIntVertices.jpg" width="800">
+</center>
+
+=--
 
 
 +-- {: .num_lemma #DifferentialProperties}
