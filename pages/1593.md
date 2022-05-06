@@ -75,8 +75,12 @@ A more general scan of possible lifts of type IIA orientifolds to M-theory is in
 The concept originates around
 
 
-* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](inspirehep.net/record/25758))
+* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758), [pdf scan](https://lib-extopc.kek.jp/preprints/PDF/1989/8905/8905564.pdf))
 
+
+Early accounts include
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
 Traditional lecture notes include
 
@@ -84,7 +88,11 @@ Traditional lecture notes include
 
 * Carlo Angelantonj, Augusto Sagnotti, _Open Strings_, Phys.Rept.371:1-150,2002; Erratum-ibid.376:339-405, 2003 ([arXiv:hep-th/0204089](https://arxiv.org/abs/hep-th/0204089))
 
-Textbook discussion in the context of [[intersecting D-brane models]] with an eye towards [[string phenomenology]] is in
+Textbook discussion is in
+
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 15.3 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
+
+and specifically in the context of [[intersecting D-brane models]] with an eye towards [[string phenomenology]] in
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], sections 5.3.4 and 10.1.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
