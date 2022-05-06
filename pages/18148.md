@@ -17,15 +17,15 @@
 
 ## Definition
 
-A [[magma]] $(S,\cdot)$ is called _unital_ if it has an [[identity element]] $1 \in 1$, hence an element such that for all $x \in X$ it satisfies the [[equation]]
+A [[magma]] $(S,\cdot)$ is called _unital_ if it has an [[identity element]] $1 \in S$, hence an element such that for all $x \in S$ it satisfies the [[equation]]
 
 $$
   1 \cdot x = x = x \cdot 1
 $$
 
-holds.
+holds. The identity element is [[idempotent]]. 
 
-Some authors take a magma to be unial by default (cf. [[Borceux-Bourn]] Def. 1.2.1). 
+Some authors take a magma to be unital by default (cf. [[Borceux-Bourn]] Def. 1.2.1). 
 
 ## Examples
 
