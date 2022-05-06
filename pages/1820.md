@@ -148,21 +148,22 @@ With that the statement follows using the [[small object argument]] to show the 
 To find this small set, we make use of the assumption that the subcategory
 $Arr_W(C) \subset Arr(C)$ of weak equivalences and commuting squares in $C$ between them
 is an [[accessible category|accessible]] subcategory of the [[arrow category]] $Arr(C)$.  This means that there is a small set $W_0 \subset W$ such that every element of $W$
-is a $\kappa$-[[directed colimit]] over element in $W_0$ in $Arr_W(C)$, for some [[cardinal number]] $\kappa$. We set then
+is a $\kappa$-[[directed colimit]] over element in $W_0$ in $Arr_W(C)$, for some large enough [[cardinal number]] $\kappa$, such that all elements of $I$ are $\kappa$-[[compact object|compact]].
 
-$$
-  J := W_0 \cap cof(I)
-  \,.
-$$
+Using the [[small object argument]] factor
+every morphism $P \to Q$ in $W_0$ as 
+$P \stackrel{\in cell(I)}{\to} R \stackrel{\in inj(I)}{\to}Q$.  Note that by [[category with weak equivalences|2-out-of-3]] and $inj(I) \subseteq W$,
+the cofibration $P \to R$ is in $W$.
+Let $J$ be the set of acyclic cofibratons $P \to R$ so obtained.
 
-By the assumption that $Arr_C(W)$ is an accessibly embedded accessible subcategory of $Arr(C)$ and that $C$ itself is [[locally presentable category|locally presentable]], so that all its objects are
-[[small object]]s, it follows that every morphism
+
+By the choice of $W_0$ every morphism
 
 $$
   \array{
     K &\to& M
     \\
-    \downarrow && \downarrow^{\mathrlap{\in W}}
+    \downarrow^{\mathrlap{\in I}} && \downarrow^{\mathrlap{\in W}}
     \\
     L &\to& N
   }
@@ -174,39 +175,44 @@ $$
   \array{
     K &\to& P &\to& M
     \\
-    \downarrow && \downarrow^{\mathrlap{\in W_0}} && \downarrow^{\mathrlap{\in W}}
+    \downarrow^{\mathrlap{\in I}} && \downarrow^{\mathrlap{\in W_0}} && \downarrow^{\mathrlap{\in W}}
     \\
     L &\to& Q &\to& N
   }
   \,.
 $$
 
-In the special case that $K \to L$ is in $I$, we can refine this to a factoring through $J = W \cap cof(I)$ as follows:
-
-using the [[small object argument]] factor
-the canonical morphism $L \coprod_K P \to Q$ as 
-$L \coprod_K P \stackrel{\in cell(I)}{\to} R \stackrel{\in inj(J)}{\to}Q$. Then $L \to Q$ lifts to $L \to R$ and we obtain the factorization 
+We can refine this to a factoring through $J$ as follows:
+by construction 
+the morphism $P \to Q$ factors as 
+$P \stackrel{\in J}{\to} R \stackrel{\in inj(J)}{\to}Q$. Then $L \to Q$ lifts to $L \to R$ and we obtain the factorization 
 
 $$
   \array{
     K &\to& P &\to& M
     \\
-    \downarrow^{\mathrlap{\in I}} && \downarrow^{\mathrlap{\in W_0 \cap cof(I)}} && \downarrow^{\mathrlap{\in W}}
+    \downarrow^{\mathrlap{\in I}} && \downarrow^{\mathrlap{\in J}} && \downarrow^{\mathrlap{\in W}}
     \\
     L &\to& R &\to& N
   }
 $$
 
-of the original square from an element in $I$ to an element in $W$  through an element in $J = W \cap cof(I)$. 
+of the original square from an element in $I$ to an element in $W$  through an element in $J$. 
 (In [Beke](http://arxiv.org/abs/math/0102087), following [[Jeff Smith]], this is called the 
-**solution set condition**: $W_0 \cap cof(I)$ is "a solution set for $W$ at $I$").
+**solution set condition**: $J$ is "a solution set for $W$ at $I$").
+It readily follows that $inj(J) \cap W \subseteq inj(I)$.
 
-By following now precisely the [[small object argument]] with the only difference that one factors all the squares over which one takes a colimit in that argument through elements in $J$ as above, it follows now that every morphism $A \stackrel{\in W}{\to} B$ in $W$ may be factored as
+
+By the [[small object argument]] every morphism $A \stackrel{\in W}{\to} B$ in $W$ may be factored as
 
 $$
-  A \stackrel{\in cell(J)}{\to} C \stackrel{\in inj(I)}{\to} B
+  A \stackrel{\in cell(J)}{\to} C \stackrel{\in inj(J)}{\to} B
   \,.
 $$
+
+Here by [[category with weak equivalences|2-out-of-3]],
+the morphism $C \to B$ is in $W$, and hence in 
+$inj(J) \cap W \subseteq inj(I)$.
 
 This we use to show that every morphism $f \in cof(I) \cap W$ is in $cof(J)$:
 
