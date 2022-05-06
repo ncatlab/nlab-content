@@ -26,9 +26,20 @@ where $q=\exp(i2\pi\tau)$, and famously 196883+1=196884. Thompson observed in (1
 
 But the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
 
-Frenkel, Lepowsky, Meurman (1984) construct ([Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89)) an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] acts naturally on this "Moonshine Module" (denoted by $V\natural$). 
+[Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89) an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] acts naturally on this "Moonshine Module" (denoted by $V\natural$). 
 
 To cut the story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular [[j-invariant]]). The idea [[Terry Gannon]] pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
+
+## Automorphism groups of vertex operator algebras
+
+
+* The [[Conway group]] $C_{O_0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
+
+  ([Duncan 05](#Duncan05), see also [Paquette-Persson-Volpato 17, p. 9](#PaquettePerssonVolpato17))
+
+* similarly, there is a super VOA, the _[[Monster vertex operator algebra]]_, whose [[automorphism group|group of]] of [[automorphisms of a VOA]] is the [[monster group]] 
+
+  ([Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89), [Griess-Lam 11](#GriessLam11))
 
 
 ## Related concepts
@@ -58,6 +69,7 @@ _Doc. Math._ 1998, Extra Vol. I, 607&#8211;615 (electronic). [MR1660657](http://
 
 * John F. R. Duncan, Michael J. Griffin, Ken Ono, _Moonshine_ ([arXiv:1411.6571](http://arxiv.org/abs/1411.6571))
 
+* {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
 
 * {#FrenkelLepowskiMeurman89} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
 
@@ -109,9 +121,9 @@ Discussion of possible realizations in [[superstring theory]] (specifically [[he
 
 * [[Shamit Kachru]], Arnav Tripathy, _The hidden symmetry of the heterotic string_ ([arXiv:1702.02572](https://arxiv.org/abs/1702.02572))
 
-Specifically in relation to [[KK-compactifications]] of [[string theory]] on [[K3-surfaces]]:
+Specifically in relation to [[KK-compactifications]] of [[string theory]] on [[K3-surfaces]] ([[duality between heterotic and type II string theory]])
 
-* [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
+* {#ChengHarrisonVolpatoZimet16} [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404), [doi:10.1007/s40687-018-0150-4](https://doi.org/10.1007/s40687-018-0150-4))
 
 
 [[!redirects moonshine]]
