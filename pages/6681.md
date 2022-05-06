@@ -23,6 +23,11 @@ On the [[AdS-CFT correspondence]]:
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
+
+General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
+
+* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], _Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space_ ([arXiv:1606.01857](https://arxiv.org/abs/1606.01857))
+
 On  [[AdS2/CFT1]] with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
 
 * [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
