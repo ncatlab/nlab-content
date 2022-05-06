@@ -1,10 +1,55 @@
 
 * [webpage](http://users.ictp.it/~bacharya/)
 
+## Selected writings
+
+On [[M-theory on G2-manifolds]]:
+
+* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+
+* {#Acharya00} [[Bobby Acharya]], _On Realising $N=1$ Super Yang-Mills in M theory_ ([arXiv:hep-th/0011089](http://arxiv.org/abs/hep-th/0011089))
+
+* {#AcharyaSpence00} [[Bobby Acharya]], B. Spence, _Flux, Supersymmetry and M theory on 7-manifolds_ ([arXiv:hep-th/0007213](http://arxiv.org/abs/hep-th/0007213))
+
+* {#AcharyaWitten01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+
+* {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, [[Neil Lambert]], _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
+
+* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
+
+* {#AcharyaBobkov08} [[Bobby Acharya]], Konstantin Bobkov, _K&#228;hler Independence of the G2-MSSM_, HEP 1009:001,2010 ([arXiv:0810.3285](http://arxiv.org/abs/0810.3285))
+
+* {#Acharya02} [[Bobby Acharya]], _A Moduli Fixing Mechanism in M theory_ ([arXiv:hep-th/0212294](http://arxiv.org/abs/hep-th/0212294))
+
+and [[moduli stabilization]] for fluxless compactifications via [[nonperturbative effects]], claimed to be sufficient and necessary to solve the [[hierarchy problem]], is discussed in
+
+* {#AcharyaBobkovKaneKumarVaman06} [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Diana Vaman, _An M theory Solution to the Hierarchy Problem_, Phys.Rev.Lett.97:191601,2006 ([arXiv:hep-th/0606262](http://arxiv.org/abs/hep-th/0606262))
+
+* {#AcharyaBobkovKaneKumarShao07} [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _Explaining the Electroweak Scale and Stabilizing Moduli in M Theory_, Phys.Rev.D76:126010,2007 ([arXiv:hep-th/0701034](http://arxiv.org/abs/hep-th/0701034))
+
+* {#AcharyaKumarBobbkovKaneShaoWatson08} [[Bobby Acharya]], [[Piyush Kumar]], Konstantin Bobkov, [[Gordon Kane]], Jing Shao, Scott Watson, _Non-thermal Dark Matter and the Moduli Problem in String Frameworks_,JHEP 0806:064,2008 ([arXiv:0804.0863](http://arxiv.org/abs/0804.0863))
+
+On the [[G2-MSSM]]:
+
+* {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+
+* {#Acharya12} [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
+
+
+* [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
+
+On [[compact topological space|compact]] [[Ricci flat manifolds]]:
+
+* [[Bobby Acharya]], _Supersymmetry, Ricci Flat Manifolds and the String Landscape_ ([arXiv:1906.06886](https://arxiv.org/abs/1906.06886))
+
 ## Related entries
 
 * [[G2-MSSM]]
 
 * [[M-theory on G2-manifolds]]
+
+
 
 category: people
