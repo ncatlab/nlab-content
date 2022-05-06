@@ -1,5 +1,17 @@
 
+
+
 > under construction
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -10,7 +22,22 @@
 In the construction of the [[Lagrangian density]] for the [[supersymmetry|supersymmetric]] [[worldvolume]] [[gauge field|gauge]] [[quantum field theory]] on [[intersecting brane|coincident]] [[M2-branes]] (the [[BLG model]]/[[ABJM model]], a [[conformal field theory|conformal]] [[supersymmetry|super]]-[[Chern-Simons theory]] coupled to  [[matter]]-[[field (physics)|fields]]) a certain [[algebra|algebraic]] structure appears -- and at least in the [[BLG model]] it appears at a pivotal stage in the [[proof]] of [[supersymmetry]] -- which is given by a  [[multilinear map|trilinear map]] on an [[inner product space]] $V$
 
 $$
-  V \otimes V \otimes V \overset{ [-,-,-] }{\longrightarrow} V
+  V \otimes V \otimes V 
+  \overset{ 
+    \overset{
+       \color{blue} 
+       \;\;
+       {
+        \text{3-bracket}
+        \atop
+        \phantom{-}
+       }
+       
+       \;\;
+    }{
+      [-,-,-] 
+    }
+  }{\longrightarrow} V
 $$
 
 that is subject to some [[axioms]] which are different from but clearly reminiscent to the [[axioms]] on the [[Lie bracket]] of a [[Lie algebra]], (which is of course a bilinear map).
@@ -30,18 +57,369 @@ $$
     \text{M2-brane 3-algebras}
   \big\}
   \;\;\overset{\simeq}{\leftrightarrow}
-  \big\{
-    \text{dualizable modules over metric Lie algebras}
-  \big\}
+  \left\{
+    {
+    \text{faithful orthogonal representations} 
+       \atop
+    \text{of metric Lie algebras}
+    }
+  \right\}
 $$
 
-([MFFMER 08, Theorem 11](#MFFMER08))
+This is due to [dMFFMER 08, Theorem 11](#dMFFMER08), recalled as Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} below.
 
 (...)
 
 ## Definition
 
++-- {: .num_defn #AxiomsOnM2Brane3Algebra}
+###### Definition
+**([[M2-brane 3-algebra]])**
 
+An _M2-brane 3-algebra_ is
+
+1. a [[real vector space|real]] [[finite-dimensional vector space]] $V$;
+
+1. a _metric_ $\langle -,-\rangle$ on $V$, hence a non-degenerate [[inner product space]]  (not required to be positive definite);
+
+1. a [[multilinear map|trilinear function]], the _3-bracket_
+
+   $$
+     V \otimes V \otimes V \overset{[-,-,-]}{\longrightarrow} V
+   $$
+
+such that the following three [[axioms]] hold, for all [[elements]] $w,x,y,z \in V$:
+
+1. (**unitarity**) 
+
+   $$
+     \big\langle [x,y,z],w \big\rangle
+      \;=\;
+     -\big\langle z, [x,y,w]\big\rangle
+   $$
+
+1. (**symmetry**)
+
+   $$
+     \big\langle [x,y,z],w \big\rangle
+      \;=\;
+     -\big\langle [z,w,x], y \big\rangle
+   $$
+
+1. (**fundamental identity**)
+
+   $$
+     \begin{aligned}
+       \big[x,y, [v,w,z]  \big]
+       & 
+         = \phantom{+}\;
+        \big[  [x,y,v], w, z \big]
+       \\
+       &
+       \phantom{=\;} +
+        \big[ v, [x,y, w] , z \big]
+       \\
+       &
+       \phantom{=\;} +
+        \big[ v, w , [x,y, z ] \big]
+     \end{aligned}
+   $$
+
+=--
+
+In this generality, and under the name "generalized metric Lie 3-algebras", this is due to [Cherkis-Saemann 08, 41](#CherkisSaemann08), see [dMFFMER 08, Def. 1](#dMFFMER08)
+
+## Properties 
+
+### Equivalence with orthogonal representations of metric Lie algebras
+
+For the following, let the[[ground field]] be the [[real numbers]] and take all [[vector spaces]] involved to be [[real vector space|real]] and [[finite-dimensional vector spaces|finite-dimensional]].
+
+For definiteness, we make the following explicit:
+
++-- {: .num_defn #ModulesOfMetricLieAlgebras}
+###### Definition
+**([[metric Lie representation]])**
+
+An _orthogonal representation of a metric Lie algebra_ is
+
+1. a [[metric Lie algebra]]
+
+   $$
+     \big((\mathfrak{g},[-,-]), g \big)
+   $$
+
+1. a metric [[vector space]] 
+
+   $$
+     (V,k)
+     \,,
+   $$ 
+
+   hence a non-degenerate real [[inner product space]];
+
+1. an [[orthogonal Lie algebra|orthogonal]] [[Lie algebra representation]] 
+
+   $$
+     \mathfrak{g} \otimes V \overset{\rho}{\to} V
+   $$
+
+  of $\mathfrak{g}$ on $(V,k)$.
+
+=--
+
++-- {: .num_remark #LinearDualsAndAdjuncts}
+###### Remark
+**(linear duals and adjuncts/transposition)**
+
+Given an orthogonal representation of a metric Lie algebra as in Def. \ref{ModulesOfMetricLieAlgebras}, 
+the non-degenerate [[inner products]] $g$  on $\mathfrak{g}$ and $k$ on $V$ exhibit these as [[dualizable objects]] in the [[monoidal category]] of [[finite-dimensional vector spaces]] (with respect to the [[tensor product of vector spaces]]).
+
+This means that by passsing to [[adjuncts]] we may regard [[linear maps]] of the form
+
+$$
+  V \otimes W \overset{f}{\longrightarrow} Z
+$$
+
+equivalently as linear maps of the form
+
+$$
+  W \overset{\overline{f}}{\longrightarrow} Z \otimes V^\ast
+  \,,
+$$
+
+where $V^\ast$ is the [[dual vector space]]; and similarly for $\mathfrak{g}$.
+
+Once we choose a [[linear basis]] $\{v_i\}_{i \in \{1, \cdots, dim(V)\}}$ of $V$, with respect to which the metric tensor $k$ has components
+
+$$
+  k_{i j} \;\coloneqq\; k(v_i, v_j)
+$$
+
+
+this forming of adjuncts is equivalently the yoga of "raising and lowering of indices via the metric". Similarly for a choice of [[linear basis]] $\{t_a\}_{a \in \{1,\cdots, dim(\mathfrak{g})\}}$ for the Lie alegebra, and the induced components
+
+$$
+  g_{a b} \;\coloneqq\; g(t_a, t_b)
+$$
+
+=--
+
+
++-- {: .num_defn #TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra}
+###### Definition
+**(trilinear map induced from orthogonal representation of metric Lie algebra)**
+
+Given an orthogonal representation $\mathfrak{g} \otimes V \overset{\rho}{\to} V$ of a metric Lie algebra as in Def. \ref{ModulesOfMetricLieAlgebras}, define
+
+1. a [[bilinear map]]
+
+   $$
+     V \otimes V 
+       \overset{
+          \;\;D\;\;
+       }{\longrightarrow}
+     \mathfrak{g}
+   $$  
+
+   defined by
+
+   \[
+     \label{DefiningEquationForD}
+     (X, D(x,y))
+     \;=\;
+     \langle \rho(X,x), y \rangle
+     \;\;\;\;
+     \mathrlap{
+       \text{for all}\; X \in \mathfrak{g}\,, x, y \in V
+     }
+   \]
+
+1. a [[multilinear map|trilinear map]]
+
+   $$
+     \label{DefiningEquationForInducedTrilinearBracket}
+     V \otimes V \otimes V
+       \overset{
+          [-,-,-]_{\rho} \coloneqq \rho(D(-,-),-)
+       }{\longrightarrow}
+     V
+    \,,
+   $$ 
+
+   hence
+
+   $$
+     [x, y, z]_\rho
+     \;\coloneqq\;
+     \rho\big(  D(x, y), z \big)
+   $$
+
+=--
+
+
+In this form and with this notation  this is [dMFFMER 08, equation (9) and over Prop. 10](#dMFFMER08) (except that we write "$\rho(X,x)$" for their "$X \cdot x$")
+
+
++-- {: .num_remark}
+###### Remark
+**(component expression of trilinear bracket)**
+
+After a choice of [[linear bases]] as in Remark \ref{LinearDualsAndAdjuncts}, in terms of which Lie algebra elements $X \in \mathfrak{g}$
+are expanded as $X \coloneqq X^a t_a$ and representation vectors $x \in V$ are expanded as $x \coloneqq x^i v_i$, the defining equation (eq:DefiningEquationForD)
+
+$$
+  (X, D(x,y))
+  \;=\;
+  \langle \rho(X,x), y \rangle
+  \;\;\;\;
+  \text{for all arguments}
+$$
+
+reads
+
+$$
+  k_{a b} X^a \, D_{i j}{}^b \, x^i y^j
+  \;=\;
+  g_{l j} \, \rho_a{}^l{}_i \,  X^a x^i y^j
+  \;\;\;\;
+  \text{for all components}
+$$
+
+(where here and in the following we use the [[Einstein summation convention]]), hence reads
+
+$$
+  k_{a b} D_{i j}{}^b
+  \;=\;
+  g_{l j} \rho_a{}^l{}_i
+  \;\;\;\;
+  \text{for all indices}
+$$
+
+hence equivalently reads
+
+$$
+  D_{i j}{}^a
+  \;=\;
+  g_{l j} k^{a b} \, \rho_b{}^l{}_i
+  \;\;\;\;
+  \text{for all indices}
+$$
+
+hence says that the [[tensor]] $D$ is equal to the action tensor $\rho$ up to the evident "raising and lowering of indices by via the metrics".
+
+With this, the induced trilinear bracket (eq:DefiningEquationForInducedTrilinearBracket)
+
+$$
+     V \otimes V \otimes V
+       \overset{
+          [-,-,-]_{\rho} \coloneqq \rho(D(-,-),-)
+       }{\longrightarrow}
+     V
+$$
+
+is given in components as
+
+$$
+  \begin{aligned}
+  [v_i, v_j, v_k]_\rho
+  & =\;
+  \rho(D(v_i, v_j), v_k)
+  \\
+  & =\;
+  \rho( D_{i j}{}^a t_a , v_k )
+  \\
+  & =
+  \rho_{a}{}^m{}_k  
+  \underset{
+    = 
+    g_{l j} k^{a b} \, \rho_b{}^l{}_i
+  }{
+    \underbrace{D_{i j}{}^a}
+  } 
+  v_m
+  \\
+  & =
+  \rho_{a}{}^m{}_k   g_{l j} k^{a b} \, \rho_b{}^l{}_i     v_m
+  \\
+  & = 
+  \big( \rho_{a}{}^m{}_k \rho^a{}_j{}_i \big)  v_m
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #M2Brane3AlgebrasEquivalentToMetricLieRepresentation}
+###### Proposition
+**([[M2-brane 3-algebras]] are equivalent to [[metric Lie representations]])**
+
+Given an orthogonal representation $\mathfrak{g} \otimes V \overset{\rho}{\to} V$ of a metric Lie algebra as in Def. \ref{ModulesOfMetricLieAlgebras}, its induced trilinear map $[-,-,-]_\rho$ (Def. \ref{TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra}) satisfies the axioms of an M2-brane 3-algebra (Def. \ref{AxiomsOnM2Brane3Algebra}). 
+
+Hence this assignment defines a [[function]] from [[isomorphism classes]] of orthogonal representations of metric Lie algebras to [[isomorphism classes]] of M2-brane 3-algebras
+
+$$
+  \left\{
+    {
+    {\text{orthogonal representations}}
+    \atop
+    {\text{metric Lie algebras}}
+    }
+  \right\}_{/\sim}
+  \underoverset
+  {}
+  {
+     \;\;\;\;
+     \rho \;\mapsto\; [-,-,-]_\rho
+     \;\;\;\;
+  }{\longrightarrow}
+  \left\{
+    {
+    {\text{M2-brane}}
+    \atop
+    {\text{3-algebras}}
+    }
+  \right\}_{/\sim}
+  \,.
+$$
+
+Moreover, restricted to [[faithful representations]], this function is a [[bijection]]:
+
+$$
+  \left\{
+    {
+    {
+    {\text{faithful}}
+    \atop
+    {\text{orthogonal representations}}
+    }
+    \atop
+    {\text{metric Lie algebras}}
+    }
+  \right\}_{/\sim}
+  \underoverset
+  {\simeq}
+  {
+     \;\;\;\;
+     \rho \;\mapsto\; [-,-,-]_\rho
+     \;\;\;\;
+  }{\longrightarrow}
+  \left\{
+    {
+    {\text{M2-brane}}
+    \atop
+    {\text{3-algebras}}
+    }
+  \right\}_{/\sim}
+  \,.
+$$
+
+
+=--
+
+This is [dMFFMER 08, Prop. 10 and Theorem 11](#dMFFMER08).
+
+(...)
 
 ## References
 
@@ -69,7 +447,7 @@ From here on a myriad of references followed up. Review includes:
 
 
 
-### Equivalence to modules of metric Lie algebras
+### Equivalence to representation of metric Lie algebras
 
 The full generalized axioms on the M2-brane 3-algebra and first insights into their relation to [[Lie algebra representations]] of [[metric Lie algebras]] is due to
 
@@ -77,7 +455,7 @@ The full generalized axioms on the M2-brane 3-algebra and first insights into th
 
 The full identification of M2-brane 3-algebras with dualizable [[Lie algebra representations]] over [[metric Lie algebras]] is due to
 
-* {#MFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+* {#dMFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
 
 See also:
 
