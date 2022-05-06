@@ -1077,7 +1077,7 @@ There are various ways of generalizing this situation to non-compact spaces:
    The [[Grothendieck group]] construction on the [[monoid]] $(Vect(X)/_\sim, \oplus)$
    of [[isomorphism classes]] of [[topological vector bundles]] makes sense for every
    [[topological space]] $X$. For non-compact $X$ this is usually just called that
-   "the Groothencieck group of vector bundles on $X$", sometimes denoted
+   "the Grothendieck group of vector bundles on $X$", sometimes denoted
 
    $$
      \mathbb{K}(X) \coloneqq GrothGroup( Vect(X)/_\sim, \oplus )
@@ -1261,7 +1261,7 @@ $$
 Let $X$ and $Y$ be [[paracompact Hausdorff spaces]], and let
 
 $$
-  f \;\colonn\; X \longrightarrow Y
+  f \;\colon\; X \longrightarrow Y
 $$
 
 be a [[continuous function]] which is a [[homotopy equivalence]].
@@ -1293,7 +1293,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is an immediate consequence of the fact that over paraompact Hausdorff spaces
+This is an immediate consequence of the fact that over paracompact Hausdorff spaces
 isomorphism classes of topological vector bundles are homotopy invariant ([this example.](topological+vector+bundle#HomotopyInvarianceOfIsomorphismClassesOfVectorBundles))
 
 =--
