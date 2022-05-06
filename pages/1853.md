@@ -291,10 +291,10 @@ $$
 
 For instance ([Brylinski, section (1.3)](#Brylinski)) spring
 
-### In &#268;ech-Deligne cohomology (ordinary differential cohomology)
+### In Čech-Deligne cohomology (ordinary differential cohomology)
 
 
-For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficients in [[Deligne complex]]es the above yields the _[[Beilinson-Deligne cup-product]]_ for [[ordinary differential cohomology]]. 
+For the case that of [[Čech cohomology|Čech]] [[hypercohomology]] with coefficients in [[Deligne complex]]es the above yields the _[[Beilinson-Deligne cup-product]]_ for [[ordinary differential cohomology]]. 
 
 
 ## Related concepts
