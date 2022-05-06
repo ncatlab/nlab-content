@@ -9,6 +9,6 @@ __Gregory Maxwell Kelly__ (1930-2007) was a category theorist, the founder of th
 category: people
 
 [[!redirects G. M. Kelly]]
-[[!redirects George Max Kelly]]
-[[!redirects George Maxwell Kelly]]
+[[!redirects Gregory Max Kelly]]
+[[!redirects Gregory Maxwell Kelly]]
 [[!redirects G.M. Kelly]]
