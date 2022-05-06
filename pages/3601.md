@@ -176,6 +176,8 @@ CPM, classical structures, ...
 
 * [[information theory]], [[information geometry]]
 
+* [[MIP-star=RE]]
+
 #### Books
 
 * Masahito Hayashi, _Quantum information theory - mathematical foundation_ Graduate Texts in Physics (2017)
