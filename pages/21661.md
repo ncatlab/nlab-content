@@ -83,4 +83,7 @@ Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
 [[!redirects heterotic line bundle model]]
 [[!redirects heterotic line bundle models]]
 
+[[!redirects heterotic line bundle]]
+[[!redirects heterotic line bundles]]
+
 
