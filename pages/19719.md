@@ -10,10 +10,10 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 ## Plans and work
 
 * [[Initiality Project - Overview|Overview]] -- currently a proposal, under discussion.
-* [[Initiality Project - Raw Syntax|Raw Syntax]]
-* [[Initiality Project - Type Theory|Type Theory]] -- the judgments of our type theory
-* [[Initiality Project - Semantics|Semantics]] -- the categorical structures in which we interpret type theory
-* [[Initiality Project - Partial Interpretation|Partial interpretation function]]
+* [[Initiality Project - Raw Syntax|Raw Syntax]] -- Formally putting symbols together in a careful and well-defined way.
+* [[Initiality Project - Type Theory|Type Theory]] -- The "type theory", with rules on how to manipulate raw syntax. The usual notion of judgements with natural deduction.
+* [[Initiality Project - Semantics|Semantics]] -- Categorical structures used to model our type theory
+* [[Initiality Project - Partial Interpretation|Partial interpretation function]] -- How to arrive at the categorical model from our type theory
 * [[Initiality Project - Substitution|Preservation of Substitution]]
 * [[Initiality Project - Totality|Totality of the interpretation]]
 * [[Initiality Project - Term Model|The Term Model]]
