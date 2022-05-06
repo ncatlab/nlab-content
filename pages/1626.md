@@ -48,7 +48,7 @@ A [[topological space]] $(X, \tau)$ is _connected_ if the following equivalent c
      U_1 \cup U_2 = X \phantom{A}\text{and} \phantom{A} U_1 \cap U_2 = \emptyset
    $$
 
-   then exactly one of the two subsets is the [[empty set]]
+   then exactly one of the two subsets is the [[empty set]]. 
 
 
 1. if a [[subset]] $CO \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $ CO = X$ if and only if $CO$ is [[inhabited set|inhabited]].
@@ -174,29 +174,33 @@ For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[sub
 $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$
 
 In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0, 1)\}$.
+=-- 
+
++-- {: .num_remark}
+###### Remark
+**Warning**
+
+It is not generally true that a [[topological space]] is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]], nor of its quasi-components.
+
+The spaces such that all their open subspaces are the disjoint union of their connected components are the _[[locally connected topological spaces]]_.
+
 =--
+
++-- {: .num_example}
+###### Example
+
+The connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the [[singletons]], but the coproduct of the singleton subspaces carries the [[discrete topology]], which differs from that of Cantor space.
+
+Similarly for set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
+
+=--
+
 
 
 
 ## Examples
 
 ### Basic examples {#basic}
-
-+-- {: .num_example #LocallyConstantFunctionsOnConnectedSpaces}
-###### Example
-**([[locally constant function]] on [[connected topological spaces]] are [[constant functions]])**
-
-If $X$ is a connected topological space and $f \colon X \to Y$ is a [[locally constant function|locally constant]] [[continuous function]], then $f$ is in fact a [[constant function]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By definition of locally constant functions, every point $x \in X$ has an [[open neighbourhood]] $U_x$ such that the restriction $f\vert_{U_x}$ is a constant function. The [[unions]] of these neighbourhoods for a fixed constant value hence are disjoint open subsets that constitute a cover of $X$. By connectedness this cover must consist of a single non-empty element. But by construction this mans that $f$ is constant.
-
-=--
-
 
 
 +-- {: .num_example #ContinuousImagesOfConnectedSpacesAreConnected}
@@ -217,8 +221,7 @@ $$
   f \;\colon\; X \underoverset{surjective}{p}{\longrightarrow} f(X) \underoverset{injective}{i}{\longrightarrow} Y
 $$
 
-for $f(X)$ equipped either with he [[subspace topology]] relative to $Y$ or the [[quotient topology]]
-relative to $X$. In either case:
+for $f(X)$ equipped either with the [[subspace topology]] relative to $Y$ or the [[quotient topology]] relative to $X$. In either case:
 
 If $X$ is a connected topological space, then so is $f(X)$.
 
@@ -263,8 +266,8 @@ $\underset{i \in I}{\prod}X_i$ (with the [[Tychonoff topology]]) is connected.
 +-- {: .proof}
 ###### Proof
 
-This relies on some special features of [[Top]]
-An general abstract proof is given at _[[connected object]]_ in [this theorem](connected+object#prod)
+This relies on some special features of [[Top]]. 
+A general abstract proof is given at _[[connected object]]_ in [this theorem](connected+object#prod)
 and [this remark](connected+object#prod2).
 
 Here is an alternative elementary proof in [[point-set topology]]:
@@ -378,36 +381,28 @@ where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see t
 =--
 
 +-- {: .num_example}
-###### Example t
+###### Example 
 This example is due to [Golomb](#Golomb). Topologize the set of natural numbers $\mathbb{N}$ by taking a basis to consist of sets $A_{a,b} \coloneqq \{a k + b | k = 1,2, \ldots\}$, where $a, b \in \mathbb{N}$ are relatively prime. The space is Hausdorff, but the intersection of the closures of two non-empty open sets is never empty, so this space is connected.
 =--
 
 
-### Connected components
 
+## Properties 
 
-+-- {: .num_remark}
-###### Remark
-**Warning**
-
-It is not generally true that a [[topological space]] is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]], nor of its quasi-components.
-
-The spaces such that all their open subspaces are the disjoint union of their connected components are the _[[locally connected topological spaces]]_.
-
-=--
-
-+-- {: .num_example}
++-- {: .num_example #LocallyConstantFunctionsOnConnectedSpaces}
 ###### Example
+**([[locally constant function]] on [[connected topological spaces]] are [[constant functions]])**
 
-The connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the [[singletons]], but the coproduct of the singleton subspaces carries the [[discrete topology]], which differs from that of Cantor space.
-
-Similarly for set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
+If $X$ is a connected topological space and $f \colon X \to Y$ is a [[locally constant function|locally constant]] [[continuous function]], then $f$ is in fact a [[constant function]].
 
 =--
 
++-- {: .proof}
+###### Proof
 
+By definition of locally constant functions, every point $x \in X$ has an [[open neighborhood]] $U_x$ such that the restriction $f\vert_{U_x}$ is a constant function. The [[unions]] of these neighborhoods for a fixed constant value hence are disjoint open subsets that constitute a cover of $X$. By connectedness this cover must consist of a single non-empty element. But by construction this means that $f$ is constant.
 
-
+=--
 
 
 ## Path-connectedness
