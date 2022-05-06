@@ -3,6 +3,7 @@
 {: toc}
 
 
+
 ## Idea
 
 The term 'infinitesimal' means the same as 'infinitely small in absolute value'; in Latin, it literally means 'infinity-eth' and should be interpreted in the sense of a fraction.  In the ordinary [[analysis]] of [[real numbers]], the only infinitesimal number is [[zero]].  However, the basic intuitions of calculus since its beginnings have dealt with infinitely small (and sometimes also infinitely large) numbers.  There are several different ways to develop a rigorous theory that includes infinitesimal numbers.
@@ -76,6 +77,10 @@ These toposes are related to the smooth topos called $\mathcal{G}$ there, which 
 *  article in the [English Wikipedia](http://en.wikipedia.org/wiki/Infinitesimal) for etymology
 
 * {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
+
+* {#KatzSherry13} [[Mikhail Katz]], David Sherry, _Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, And Their Foes From Berkeley To Russell And Beyond_, D. Erkenn (2013) 78: 571 ([arXiv:1205.0174](https://arxiv.org/abs/1205.0174), [doi:10.1007/s10670-012-9370-y](https://link.springer.com/article/10.1007/s10670-012-9370-y))
+
+  (on [[Gottfried Leibniz]]'s concept of infnitesmals)
 
 
 [[!redirects infinitesimal]]
