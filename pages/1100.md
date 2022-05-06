@@ -514,6 +514,13 @@ More on this with an eye on [[associated ∞-bundles]] is in
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
 
+### Homotopy type theory
+
+Proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-category|presentations]] by [[model categories]] which interpret (provide [[categorical semantics]]) for [[homotopy type theory]] with [[univalence|univalent]] [[type universes]]:
+
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+
+
 
 [[!redirects (infinity,1)-topos]]
 [[!redirects (infinity,1)-topoi]]
