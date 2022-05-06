@@ -45,7 +45,7 @@ where
 
 1. $p_1$ is the [[first Pontryagin class]] and $p_2$ the [[second Pontryagin class]], all regarded here in [[rational homotopy theory]].
 
-If $X^{8}$ has $Spin(7)$-[[G-structure|structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) or $Spin(3) \times Spin(5)$-structure, then 
+If $X^{8}$ has $Spin(7)$-[[G-structure|structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) or $Spin(3) \times Spin(5)$-structure, then ([this Prop.](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure)) 
 
 $$
   \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}p_1^2  \big)
