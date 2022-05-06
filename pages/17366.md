@@ -79,7 +79,7 @@ The case when $\mathcal{C}$ is [[cartesian monoidal category|cartesian]], or at 
 +-- {: .num_remark}
 ###### Remark
 
-If $\mathcal{C}$ is [[monoidal category|monoidal]] but not [[closed monoidal category|closed]], the same definition of the [[smash product#GeneralSmashProduct|smash product]] makes $\mathcal{C}^{\ast/}$ [[monoidal category|monoidal]] as long as the tensor product of $\mathcal{C}$ preserves finite colimits in each variable separately.  
+If $\mathcal{C}$ is [[monoidal category|monoidal]] but not [[closed monoidal category|closed]], the same definition of the [[smash product#ForGeneralPointedObjects|smash product]] makes $\mathcal{C}^{\ast/}$ [[monoidal category|monoidal]] as long as the tensor product of $\mathcal{C}$ preserves finite colimits in each variable separately.  
 
 If not, the smash product can fail to be associative. For instance, the smash product on the ordinary category [[Top]] (without any [[nice category of spaces|niceness conditions]] imposed) is not associative.
 
