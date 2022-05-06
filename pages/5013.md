@@ -60,7 +60,7 @@ $$B\mathcal{O}(X) = \int^{[n] \in \Delta} Cat([n], \mathcal{O}(X)) \cdot Int([n]
 $$\int^{[n] \in \Delta} Cat([n], X) \cdot Int([n], \{0 \leq 1\}) \cong \int^{[n] \in \Delta} Cat([n], X) \cdot [n] \stackrel{counit}{\cong} X$$ 
 where the counit is an isomorphism because the inclusions $PreOrd \hookrightarrow Cat \stackrel{nerve}{\hookrightarrow} Set^{\Delta^{op}}$ are fully faithful. 
 
-On the other hand, any finite simplicial complex $X$ is homotopy equivalent to its [[barycentric subdivision]], which is the [[geometric realization]] of the [[poset]] of simplices ordered by inclusion. Thus finite posets model the weak homotopy types of finite simplicial complexes. 
+On the other hand, any finite simplicial complex $K$ is homotopy equivalent to its [[barycentric subdivision]]. This is $B P K$, the [[geometric realization]] of the [[nerve]] of the [[poset]] $P K$ whose elements are simplices ordered by inclusion. Thus finite posets model the weak homotopy types of finite simplicial complexes. 
 
 =--
 
