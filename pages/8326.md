@@ -7402,7 +7402,7 @@ proposals for formalization of Hegel's [[objective logic]] in [[categorical logi
 * {#Lawvere94b} [[William Lawvere]], _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
 pages 43-56, 1994.
 
-* {#LawvereMotion} [[William Lawvere]] _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+* {#LawvereMotion} [[William Lawvere]], _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
 * {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_ in J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York, pages 14-30, 1992.
 
