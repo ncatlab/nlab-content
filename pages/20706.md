@@ -8,6 +8,8 @@ On the [[real cohomology]] of (the [[Fulton-MacPherson compactification]] of) [[
 
 * {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
+* {#Cohen76} [[Fred Cohen]], _The homology of $C_{n+1}$-Spaces, $n \geq 0$, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics, vol 533. Springer 1976([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
+
 On the [[ordinary cohomology]] of [[configuration spaces of points]] (such as in [[surfaces]] and [[knot complements]]):
 
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
