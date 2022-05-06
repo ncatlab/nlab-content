@@ -47,6 +47,30 @@ $$
 
 Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}$, with $p$ mapping $(x, y)$ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
 
+## Subgroups
+
++-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
+###### Proposition
+**([[coset space]] of [[Spin(7)]] by [[G2]] is [[7-sphere]])**
+
+Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mathbb{R}^8$ (the [[7-sphere]]),
+
+1. This action is is [[transitive action|transitive]];
+
+1. the [[stabilizer group]] of any point on $S^7$ is [[G2]];
+
+1. all [[G2]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
+
+Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
+
+$$
+  Spin(7)/G2 \;\simeq\; S^7
+  \,.
+$$
+
+=--
+
+(e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
 
 
 ### Exotic 7-spheres
@@ -152,6 +176,11 @@ An [[ADE classification]] of finite subgroups of $SO(8)$ [[free action|acting fr
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_ ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761))
+
+Discussion of [[subgroups]]:
+
+* {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae, 19 (2001): 163-177 ([pdf](https://core.ac.uk/download/pdf/81114499.pdf))
+
 
 Discussion of [[exotic smooth structures]] on 7-spheres includes
 
