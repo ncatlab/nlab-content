@@ -167,6 +167,7 @@ On the other hand, parts of the physics-minded literature tends to forget or dow
 The following is a collection of quotes from authors that highlight the open problem:
 
 ### General
+ {#OpenProblemGeneral}
 
 
 [Duff 96, totality of Section 6](#Duff96):
@@ -239,6 +240,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 
 ### Non-abelian DBI-action
+ {#OpenProblemNonabelianDBI}
 
 A key ingredient of [[M-theory]] is supposedly the physics of [[intersecting branes]] with [[gauge enhancement]] in their [[worldvolume]] [[super Yang-Mills theory]]/[[DBI field theory]]. But the actual derivation or even formulation of the expected [[non-abelian DBI action]] remains open:
 
