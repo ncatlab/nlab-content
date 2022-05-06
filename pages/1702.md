@@ -10,7 +10,7 @@ For related entries see
 
 (The definitions of [[sheaf]] and [[stack]] are elsewhere in the nLab but we will have to review them briefly. There is also  [[motivation for sheaves, cohomology and higher stacks]], which provides other insights. For simplicity of exposition, we will initially look at sheaves, stacks and gerbes over a base space $B$ rather than in the more general setting of a topos.)
 
-Naively a [[sheaf]] is a [[family of sets]] indexed 'continuously' by the points of a space $B$.  It corresponds either to a [[presheaf]] satisfying a 'gluing condition' (which is the version of [[descent]] in one of its simplest cases), or to an [[etale space|étale space]] over $B$.  The relationship between them is that the presheaf is the presheaf of local sections of the &#233;tale space, and the 'gluing condition' is that local sections that agree on the intersections of  open sets can be glued uniquely to give a section over the union of the open sets.
+Naively a [[sheaf]] is a [[family of sets]] indexed 'continuously' by the points of a space $B$.  It corresponds either to a [[presheaf]] satisfying a 'gluing condition' (which is the version of [[descent]] in one of its simplest cases), or to an [[etale space|étalé space]] over $B$.  The relationship between them is that the presheaf is the presheaf of local sections of the &#233;talé space, and the 'gluing condition' is that local sections that agree on the intersections of  open sets can be glued uniquely to give a section over the union of the open sets.
 
 An important class of sheaves are the [[torsor|torsors]].  Let $G$ be a sheaf of groups on $B$.   The category, $Tors(B;G)$ of $G$-torsors on $B$ is a groupoid.  The notion of $G$-torsor 'localises' well, so that if $U$ is an open set of $B$, then we can restrict $G$ to a sheaf on $U$, and look at the torsors over $U$ using the restricted $G$. (We abuse notation and just write $Tors(U;G)$ for the corresponding groupoid. If $V$ is another open set contained in $U$, there is a restriction functor from $Tors(U;G)$ to $Tors(V;G)$, so it looks as if we have a presheaf of groupoids on $B$, but things are not quite right here.
 
@@ -55,7 +55,7 @@ and finally:
 
 It is important to note that it does not state in the definition of a gerbe that the open cover that we have over which it is non-empty is or is not one over which it is connected.
 
-_Local connectedness_ can be well stated by saying that for the various $U$, if $x$ and $y$ are local objects defined over $U$, the set $F(U)(x,y)$ is not empty. (Translation: a 'local object', or 'locally defined object', of $F$ is a 'local section'  of $Ob(F)$, say, over $U$, in other words, an element in $Ob(F(U))$.
+_Local connectedness_ can be well stated by saying that for the various $U$, if $x$ and $y$ are local objects defined over $U$, the set $F(U_i)(x,y)$ is not empty. (Translation: a 'local object', or 'locally defined object', of $F$ is a 'local section'  of $Ob(F)$, say, over $U$, in other words, an element in $Ob(F(U))$.
 
 
 
