@@ -184,6 +184,10 @@ As Kock shows, this description of trees is well-adapted to the usual sorts of c
 
 * [[shuffle of trees]]
 
+* [[Bruhat-Tits tree]]
+
+* [[tree tensor network state]]
+
 ## References 
 
 * {#Kock} [[Joachim Kock]], *Polynomial functors and trees*, arXiv:[0807.2874](http://arxiv.org/abs/0807.2874)
