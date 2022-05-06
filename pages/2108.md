@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1357,7 +1358,6 @@ Geometric quantization in or with tools of [[higher differential geometry]], not
 
 * {#Bos} [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) [pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf)
  
-
 The [[geometric quantization of symplectic groupoids]] is accomplished in
 
 * {#Hawkins} [[Eli Hawkins]], _A groupoid approach to quantization_, J. Symplectic Geom.. 6:61&#8211;125, [arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363)
