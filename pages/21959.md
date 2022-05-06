@@ -124,7 +124,7 @@ the [[quotient map]] $C\to C/R$.
 
 It is also an [[infinitary extensive category]],
 where “infinitary” means “class-indexed”.
-Indeed. [[pullbacks]] of [[coproduct]] injections along arbitrary maps of classes exist and finite [[coproducts]] are [[disjoint coproducts|disjoint]] and stable under [[pullback]].
+Indeed, [[pullbacks]] of [[coproduct]] injections along arbitrary maps of classes exist and class-indexed [[coproducts]] are [[disjoint coproducts|disjoint]] and stable under [[pullback]].
 
 It is also [[well-pointed]]:
 for every two maps between classes $f,g:X\rightarrow Y$ and every element $x\in X$, if $f(x) = g(y)$, then $f = g$, 
