@@ -68,7 +68,7 @@ It is open whether the [[4-sphere]] admits an exotic smooth structure. See ([Fre
 
 [Milnor (1956)](#Milnor1956) gave the first examples of exotic smooth structures on the [[7-sphere]], finding at least seven. 
 
-The [[7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examples of [[fibre bundles]] over the [[4-sphere]] $S^4$ with [[fibre]] the [[3-sphere]] $S^3$, with [[structure group]] the [[special orthogonal group]] $SO(4)$ (see also at _[[8-manifold]]_ the section _[With exotic boundary 7-spheres](8-manifold#ExoticBoundary7Spheres)_):
+The [[exotic 7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examples of [[fibre bundles]] over the [[4-sphere]] $S^4$ with [[fibre]] the [[3-sphere]] $S^3$, with [[structure group]] the [[special orthogonal group]] [[SO(4)]] (see also at _[[8-manifold]]_ the section _[With exotic boundary 7-spheres](8-manifold#ExoticBoundary7Spheres)_):
 
 By the classification of bundles on spheres via the [[clutching construction]], these correspond to [[homotopy classes]] of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [orthogonal group -- Homotopy groups](orthogonal+group#HomotopyGroups), this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described, up to [[isomorphism]], by a [[pair]] of [[integers]] $(n,m)$. When $n+m=1$, then one can show there is a [[Morse function]] with exactly two [[critical points]] on the total space of the bundle, and hence this 7-manifold is [[homeomorphic]] to a sphere.
 
@@ -77,7 +77,13 @@ The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \m
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
 For the [[7-sphere]], it is the [[cyclic group]] $Z/{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
 
-For review see for instance ([Kreck 10, chapter 19](#Kreck10), [McEnroe 15](#McEnroe15)).
+For review see for instance ([Kreck 10, chapter 19](#Kreck10), [McEnroe 15](#McEnroe15)). For more see at _[[exotic 7-sphere]]_.
+
+From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$ with (exotic) [[7-sphere]] [[boundaries]] correspond to [[near horizon limits]] of [[black brane|black]] [[M2 brane]] spacetimes $\mathbb{R}^{2,1} \times X$, where the [[M2-branes]] themselves would be sitting at the center of the [[7-spheres]] (if that were included in the spacetime, see also [[Dirac charge quantization]]).
+
+([Morrison-Plesser 99, section 3.2](M-theory+on+8-manifolds#MorrisonPlesser99))
+
+\linebreak
 
 ### Exotic $n$-spheres for $n \geq 5$
  {#ExoticNSpheresForNGreaterThanFour}
@@ -284,3 +290,4 @@ The inclusion of singularities for asymptotically flat spacetimes is discussed h
 
 [[!redirects exotic sphere]]
 [[!redirects exotic spheres]]
+
