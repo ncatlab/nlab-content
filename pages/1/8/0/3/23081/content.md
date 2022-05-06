@@ -19,9 +19,9 @@
 
 ## Definition
 
-A [[pointed topological space]] $(X,x)$ is called *well-pointed* if the base-point inclusion $\{x\} \xhookrightarrow{\;} X$ is a [[Hurewicz cofibration]] (e.g. [Bredon 1993, VII, Def. 1.8](#Bredon93)).
+A [[pointed topological space]] $(X,x)$ is called *well-pointed* if the base-point inclusion $\{x\} \xhookrightarrow{\;} X$ is a closed [[Hurewicz cofibration]] (e.g. [tom Dieck 2008, p. 102](#tomDieck2008)).
 
-A [[topological group]] is called well-pointed if it is so at its [[neutral element]], hence if $\{\mathrm{e}\} \xhookrightarrow{\;} G$ is a [[Hurewicz cofibration]].
+A [[topological group]] is called well-pointed if it is so at its [[neutral element]], hence if $\{\mathrm{e}\} \xhookrightarrow{\;} G$ is a closed [[Hurewicz cofibration]].
 
 A [[simplicial topological group]] is well-pointed if all its component groups are.
 
@@ -52,10 +52,12 @@ Textbook accounts:
 
 * {#Bredon93} [[Glen Bredon]], Section VII.1 of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
+* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
 
 
 
-[[!redirects well-pointed topological spaces]]
+[[!redirects well-pointed space]]
+[[!redirects well-pointed spaces]]
 
 [[!redirects well pointed topological space]]
 [[!redirects well pointed topological spaces]]
