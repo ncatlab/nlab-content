@@ -19,11 +19,11 @@
 
 In the context of [[cosmology]], _structure formation_ refers to the process by which cosmological structures such as [[galaxy clusters]] form under [[gravity|gravitational]] collapse of a primordial gas.
 
-Various computer simulations ([Millenium I](#MilleniumI), [Millenium II](#MilleniumII), [Millenium XXL](#MilleniumXXL), [Illustris](#Illustris)) test theory against observations, such as those by the [[Planck Collaboration]], see [Springel 13](#Springel13) for survey.
+Various computer simulations ([Millennium I](#MillenniumI), [Millennium II](#MillenniumII), [Millennium XXL](#MillenniumXXL), [Illustris](#Illustris)) test theory against observations, such as those by the [[Planck Collaboration]], see [Springel 13](#Springel13) for survey.
 
 <img src="https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/poster_large.jpg" width="500">
 
-> graphics from _[The Millenium Simulation Project](https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/)_
+> graphics from _[The Millennium Simulation Project](https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/)_
 
 From [Vogelsberger et al. 14](#VogelsbergerEtAl14):
 
@@ -73,23 +73,23 @@ There are various computer simulations for cosmic structure formation, listed be
 
 
 
-#### Millenium Project
+#### Millennium Project
 
 
-* Wikipedia, _[Millenium Run](https://en.wikipedia.org/wiki/Millennium_Run)_
+* Wikipedia, _[Millennium Run](https://en.wikipedia.org/wiki/Millennium_Run)_
 
-##### Millenium I
- {#MilleniumI}
+##### Millennium I
+ {#MillenniumI}
 
-* _[The Millenium Simulation Project](https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/)_
+* _[The Millennium Simulation Project](https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/)_
 
-##### Millenium II
- {#MilleniumII}
+##### Millennium II
+ {#MillenniumII}
 
 *  Michael Boylan-Kolchin, Volker Springel, Simon D. M. White, Adrian Jenkins, Gerard Lemson, _Resolving Cosmic Structure Formation with the Millennium-II Simulation_, Mon.Not.Roy.Astron.Soc.398:1150, 2009 ([arXiv:0903.3041](https://arxiv.org/abs/0903.3041))
 
-##### Millenium XXL
-  {#MilleniumXXL}
+##### Millennium XXL
+  {#MillenniumXXL}
 
 * _The Millennium-XXL Project:  Simulating the Galaxy Population  of dark Energy Universes_ ([pdf](https://www.h-its.org/wp-content/uploads/2014/10/inSiDE_autumn2010_p20.pdf))
 
