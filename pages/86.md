@@ -690,8 +690,7 @@ Other discussions include
 
 * [[Domenico Fiorenza]], _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
 
-*  [[A. Cattaneo]], _From topological field theory to 
-deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
+* [[Alberto Cattaneo]], _From topological field theory to deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
 *  M. B&#228;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
 
@@ -719,8 +718,7 @@ and surveyed in
 
 Discussion for field theories with [[boundary conditions]] and going in the direction of [[extended TQFT|extended field theory]]/[[local quantum field theory]] is in 
 
-* {#CattaneoMnevReshetikhin12} [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_, [arXiv:1201.0290](http://arxiv.org/abs/1201.0290); _Classical and quantum Lagrangian field theories with boundary_, [arXiv:1207.0239](http://arxiv.org/abs/1207.0239); 
-_Perturbative quantum gauge theories on manifolds with boundary_, [arxiv/1507.01221](http://arxiv.org/abs/1507.01221)
+* {#CattaneoMnevReshetikhin12} [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_, [arXiv:1201.0290](http://arxiv.org/abs/1201.0290); _Classical and quantum Lagrangian field theories with boundary_, [arXiv:1207.0239](http://arxiv.org/abs/1207.0239);  _Perturbative quantum gauge theories on manifolds with boundary_, [arxiv/1507.01221](http://arxiv.org/abs/1507.01221)
 
 A discussion of BV-BRST formalism in the general context of [[perturbative quantum field theory]] is in
 
