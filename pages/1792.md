@@ -164,7 +164,10 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
 ## References
 
-Everybody knows about the suspension, but [Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Join_%28topology%29) knows about the join.  See also the textbook by Hatcher and Postnikov, _Homotopy of CW-complexes_.
+Basics in:
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 2 of: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
 
 The question on what is the Eckman-Hilton dual to $X\star Y$ find in 
 
