@@ -81,5 +81,7 @@ Discussion of _synthetic [[homotopy theory]]_ (typically understood as [[homotop
 
 * [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
 
+* {#Rijke19} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
+
 
 [[!redirects synthetic homotopy theory]]
