@@ -65,6 +65,11 @@ A formalization in [[HoTT]]-[[Agda]] of general [[(n,r)-categories]] for $n,r \i
 
 * {#Morrison19} Darin Morrison, [github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328](https://github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328)
 
+Formalization of [[bicategories]]:
+
+* [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
+
+
 [[!redirects internal categories in homotopy type theory]]
 
 [[!redirects internal category in HoTT]]
