@@ -111,7 +111,7 @@ $$
 $$
 
 
-Moreover, the [[integral cohomology|integral]] [[cohomology ring]] of the [[classifying space]] of [[Spin(4)]] is [[polynomial ring|freely generated]] from the [[first fractional Pontryagin class]] $\tfrac{1}{2}p_1$ and the combination $\tfrac{1}{2}\big( e + \tfrac{1}{2}p_1 \big)$, where $\chi$ is the [[Euler class]]:
+Moreover, the [[integral cohomology|integral]] [[cohomology ring]] of the [[classifying space]] of [[Spin(4)]] is [[polynomial ring|freely generated]] from the [[first fractional Pontryagin class]] $\tfrac{1}{2}p_1$ and the combination $\tfrac{1}{2}\big( \chi + \tfrac{1}{2}p_1 \big)$, where $\chi$ is the [[Euler class]]:
 
 $$
   H^\bullet
