@@ -243,11 +243,11 @@ Discussion of [[characteristic classes]]:
 [[!redirects quaternion Kaehler structure]]
 [[!redirects quaternion Kaehler structures]]
 
-[[!redirects Spin(3) x Spin(5)-structure]]
-[[!redirects Spin(3) x Spin(5)-structures]]
+[[!redirects Sp(2).Sp(1)-structure]]
+[[!redirects Sp(2).Sp(1)-structures]]
 
-[[!redirects Spin(3) x Spin(5) structure]]
-[[!redirects Spin(3) x Spin(5) structures]]
+[[!redirects Sp(2).Sp(1) structure]]
+[[!redirects Sp(2).Sp(1) structures]]
 
 
 
