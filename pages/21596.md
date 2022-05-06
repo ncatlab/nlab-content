@@ -66,7 +66,7 @@ The new rule uses the new type constructor $Relax$, instead of the defined notio
 
 The real improvement is that "relaxed equality" avoids the implicit quantification over types in the v0 formation rule. Notice that the v0 rule involves the types $A$ and $B$ which are not mentioned in the conclusion. Because of this, it was not clear at all how to give a strong inversion rule for equality formation. With relaxed equality, the inversion rules are rather obvious.
 
-Despite this major organizational improvement, the relaxed equality formation rule is saying essentially the same thing as the respect-based equality rule. This is because of a lovely property of $Relax$: ($A \lt\!\!:\;Relax(B)$) if and only if ($A \prec B$). So some miscellaneous v0 rules about respect:
+Despite this major organizational improvement, the relaxed equality formation rule is saying essentially the same thing as the respect-based equality formation rule. This is because of a characterization of $Relax$ in terms of subtyping: ($A \lt\!\!:\;Relax(B)$) if and only if ($A \prec B$). So some miscellaneous v0 rules about respect:
 
 $$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash A \prec A}
 \qquad
@@ -83,7 +83,7 @@ This allows the bootstrapping of general reasoning about respect to proceed in e
 
 ### Greatest type respected
 
-To understand how $Relax$ avoids quantification in the equality formation rule, it's helpful to note that $Relax(A)$ is the greatest type (ordered by subtyping) that's respected by $A$. This is a corollary of that lovely subtyping characterization of $Relax$. So starting from the v0 rule, to know that $a$ and $b$ are elements of *some* types $A$ and $B$ that are respected by $C$, it's necessary and sufficient to check that $a$ and $b$ are elements of $Relax(C)$.
+To understand how $Relax$ avoids quantification in the equality formation rule, it's helpful to note that $Relax(A)$ is the greatest type (ordered by subtyping) that's respected by $A$. This is a corollary of that subtyping characterization of $Relax$. So starting from the v0 rule, to know that $a$ and $b$ are elements of *some* types $A$ and $B$ that are respected by $C$, it's necessary and sufficient to check that $a$ and $b$ are elements of $Relax(C)$.
 
 ### Greatest partition that's a superset
 
