@@ -541,11 +541,14 @@ and based on
 
 further developed in 
 
+
 * {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
 reviewed in:
 
 * Piljin Yi, _Topics in D4-D8 holographic QCD_, 2009 ([[YiD4D8HolographicQCD.pdf:file]])
+
+* [[Shigeki Sugimoto]], _Holographic QCD -- Status and perspectives_, 2012 ([[Sugimoto12.pdf:file]])
 
 * {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
