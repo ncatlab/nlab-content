@@ -158,6 +158,8 @@ This can also be understood naturally in the language of [[(n,r)-categories]].  
 
 * [[categorified Dold-Kan correspondence]]
 
+* [[higher structures]]
+
 ## References
 
 The terminology goes back to
