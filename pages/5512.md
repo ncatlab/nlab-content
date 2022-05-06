@@ -130,7 +130,7 @@ $$
 $$
 
 By naturality in $A$ and by the [[Yoneda lemma]] this shows
-that $\overline{\pi}$ is an equivalence precisey if 
+that $\overline{\pi}$ is an equivalence precisely if 
 $f^\ast$ is strong closed.
 
 =--
