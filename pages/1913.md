@@ -329,6 +329,16 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects weighted pseudoform]]
 [[!redirects weighted pseudoforms]]
 
+[[!redirects differential 0-form]]
+[[!redirects differential 0-forms]]
+[[!redirects smooth differential 0-form]]
+[[!redirects smooth differential 0-forms]]
+
+[[!redirects differential 1-form]]
+[[!redirects differential 1-forms]]
+[[!redirects smooth differential 1-form]]
+[[!redirects smooth differential 1-forms]]
+
 [[!redirects differential 2-form]]
 [[!redirects differential 2-forms]]
 [[!redirects smooth differential 2-form]]
