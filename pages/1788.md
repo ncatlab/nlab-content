@@ -1,4 +1,6 @@
 
+$\varnothing$
+
 $\to$
 
 # Coend calculus
