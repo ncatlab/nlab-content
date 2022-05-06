@@ -394,7 +394,7 @@ $$
    (c' \to p(c), c \to F)
 $$
 
-where two such are regarded as equivalent whenever there is $f \colon c'_1 \to c'_2$ such that 
+where two such are regarded as equivalent whenever there is $f \colon c_1 \to c_2$ such that 
 
 $$
   \array{
