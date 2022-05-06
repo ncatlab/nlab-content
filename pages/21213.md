@@ -78,7 +78,7 @@ $$
   \partial_\mu \omega_\nu  \partial_\kappa \rho_\lambda \cdot \pi
 $$
 
-(e.g. [Renard 69](#Renard69), [Volkov-Ebert-Nagy 97, p. 12](#VolkovEbertNagy97), [Guetta-Singer 00, (1)](#GuettaSinger00),
+(e.g. [Renard 69](#Renard69), [Meissner-Kaiser-Weise 87, (2.18)](#MeissnerKaiserWeise87) [Volkov-Ebert-Nagy 97, p. 12](#VolkovEbertNagy97), [Guetta-Singer 00, (1)](#GuettaSinger00),
 [Kaiser 00, (12)](#Kaiser00), [GKSY 03, (1)](#GKSY03) [Gudino-Sanchez 12, (1)](#GudinoSanchez12))
 
 #### The radiative decays
@@ -139,6 +139,10 @@ See also:
 Original proposal for inclusion of the [[ω-meson]] into the [[Skyrme model]]:
 
 * {#AdkinsNappi84} [[Gregory Adkins]], [[Chiara Nappi]], _Stabilization of Chiral Solitons via Vector Mesons_, Phys. Lett. 137B (1984) 251-256 ([spire:194727](http://inspirehep.net/record/194727), <a href="https://doi.org/10.1016/0370-2693(84)90239-9">doi:10.1016/0370-2693(84)90239-9</a>)
+
+Including also the [[rho-meson]]:
+
+* {#MeissnerKaiserWeise87} [[Ulf-G. Meissner]], [[Norbert Kaiser]], [[Wolfram Weise]], _Nucleons as skyrme solitons with vector mesons: Electromagnetic and axial properties_, Nuclear Physics A Volume 466, Issues 3–4, 11–18 May 1987, Pages 685-723 (<a href="https://doi.org/10.1016/0375-9474(87)90463-5">doi:10.1016/0375-9474(87)90463-5</a>)
 
 Further discussion:
 
