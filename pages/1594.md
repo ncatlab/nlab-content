@@ -276,9 +276,9 @@ Orbifold [[cobordisms]] are discussed in
 
 See also at _[[orbifold cobordism]]_.
 
-Tangential structure on orbifolds:
+[[tangential structure]] on [[orbifolds]] (in the context of [[factorization homology]]):
 
-* T.A.N. Weelinck, _Equivariant factorization homology of global quotient orbifolds_ ([arXiv:1810.12021](https://arxiv.org/abs/1810.12021))
+* [[Tim Weelinck]], _Equivariant factorization homology of global quotient orbifolds_ ([arXiv:1810.12021](https://arxiv.org/abs/1810.12021), [talk pdf](https://www.maths.ed.ac.uk/~tweelinck/efhqsp.pdf))
 
 * John Pardon, _Orbifold bordism and duality for finite orbispectra_ ([arXiv:2006.12702](https://arxiv.org/abs/2006.12702))
 
