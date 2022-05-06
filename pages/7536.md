@@ -11,11 +11,15 @@ Introducing the [[DBI-action]] for [[D-branes]]:
 
 Review:
 
-* [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
+* [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.) _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
 On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for (single) [[D-branes]]:
 
 * {#AndreevTseytlin88} O. D. Andreev, [[Arkady Tseytlin]], _Partition-function representation for the open superstring effective action:: Cancellation of Möbius infinites and derivative corrections to Born-Infeld lagrangian_, Nuclear Physics B Volume 311, Issue 1, 19 December 1988, Pages 205-252 (<a href="https://doi.org/10.1016/0550-3213(88)90148-4">doi:10.1016/0550-3213(88)90148-4</a>)
+
+On the [[3-brane in 6d]] as [[brane intersection|self-intersection]] of [[M5-branes]]:
+
+* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
 
 
 
