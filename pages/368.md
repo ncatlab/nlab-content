@@ -1,6 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Bijective-on-objects functors
 
-A [[functor]] is called **bijective on objects**, or **bo**, if it is, well, bijective on objects.  One reason bo functors are important is because together with [[full functor|full and faithful (ff) functors]] they form an [[weak factorization system|orthogonal factorization system]] on [[Cat]]; see [[bo-ff factorization system]].  This factorization system can also be constructed using a [[generalized kernel]].
+A [[functor]] is called **bijective on objects**, or **bo**, if it is a [[bijection]] on [[objects]].  
+
+One reason bo functors are important is because together with [[full and faithful functors]] they form an [[weak factorization system|orthogonal factorization system]] on [[Cat]]; see [[bo-ff factorization system]].  This factorization system can also be constructed using a [[generalized kernel]].
 
 To be more in accord with the [[principle of equivalence]], one could require that the functor be bijective on objects only up to isomorphism; that is, it is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] on isomorphisms.  However, from the point of view of [[factorization systems]], the version of the concept of a  bo functor which is in accord with the [[principle of equivalence]] is nothing more or less than an [[essentially surjective functor]], since essentially surjective functors and ff functors form a bicategorical factorization system on the [[bicategory]] $Cat$.
 
@@ -13,13 +31,19 @@ This can be generalized to any [[regular 2-category]].
 
 ## Related pages
 
-* [[surjective on objects functor]]
-* [[essentially surjective functor]]
+[[!include properties of functors -- contents]]
 
-[[!redirects bo functors]]
-[[!redirects b.o. functor]]
-[[!redirects b.o. functors]]
-[[!redirects bijective on objects functor]]
+
+
 [[!redirects bijective on objects functors]]
+
 [[!redirects bijective-on-objects functor]]
 [[!redirects bijective-on-objects functors]]
+
+
+[[!redirects bo functor]]
+[[!redirects bo functors]]
+
+[[!redirects b.o. functor]]
+[[!redirects b.o. functors]]
+
