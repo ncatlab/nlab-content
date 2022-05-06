@@ -1,3 +1,4 @@
+[[!redirects cartesian theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
