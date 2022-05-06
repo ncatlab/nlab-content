@@ -65,11 +65,15 @@ on [[homotopy theory]], including [[higher algebra]] and [[higher category theor
 
    \linebreak
 
-  on [[persistent homology]] in [[topological data analysis]]
+   on [[persistent homology]] in [[topological data analysis]]
 
    \linebreak
 
 1. [[Natàlia Castellana]], _Algebraic models in the homotopy theory of classifying spaces_
+
+   \linebreak
+
+   on [[classifying spaces]]
 
    \linebreak
 
@@ -139,7 +143,7 @@ on [[homotopy theory]], including [[higher algebra]] and [[higher category theor
 
    \linebreak
 
-1. [[Tyler Lawson]], _$E_n$-ring spectra and Dyer-Lashof operations_, ([arXiv:2002.03889](https://arxiv.org/abs/2002.03889)) (differently-formatted [author pdf](http://www-users.math.umn.edu/~tlawson/papers/dyerlashof.pdf))
+1. [[Tyler Lawson]], _$E_n$-ring spectra and Dyer-Lashof operations_, ([arXiv:2002.03889](https://arxiv.org/abs/2002.03889), differently-formatted [author pdf](http://www-users.math.umn.edu/~tlawson/papers/dyerlashof.pdf))
 
    \linebreak
 
