@@ -219,6 +219,8 @@ See also
 * Wikipedia, _[Lie algebra extension](https://en.wikipedia.org/wiki/Lie_algebra_extension)_
 
 [[!redirects Lie algebra extensions]]
-
 [[!redirects extension of Lie algebras]]
 [[!redirects extensions of Lie algebras]]
+
+[[!redirects prolongation]]
+[[!redirects prolongations]]
