@@ -617,9 +617,7 @@ For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply 
 ### Nerve of chain complexes ###
 
 Let $Ch_+$ be the [[category of chain complexes]]
-of abelian groups. 
-
-Then there is a [[simplicial object|cosimplicial chain complex]]
+of abelian groups, then there is a [[simplicial object|cosimplicial chain complex]]
 
 $$
   C_\bullet : \Delta \to Ch_+
