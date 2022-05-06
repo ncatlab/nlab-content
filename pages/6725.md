@@ -1,5 +1,5 @@
 
-> This entry is about the conjectured relation between [[M-theory]] at [[MO9]]-planes and [[heterotic string theory]] on these. For the relation of [[M-theory]] [[KK-compactification|KK-compactified]] on a [[K3-surface]] and [[heterotic string theory]] on a [[3-torus]] see instead at _[[duality between M/F-theory and heterotic string theory]]_.
+> This entry is about the conjectured relation ([[duality in string theory|duality]]) between [[M-theory]] at [[MO9]]-planes and [[heterotic string theory]] on these. For the relation of [[M-theory]] [[KK-compactification|KK-compactified]] on a [[K3-surface]] and [[heterotic string theory]] on a [[3-torus]] see instead at _[[duality between M/F-theory and heterotic string theory]]_.
 
 ***
 
@@ -10,13 +10,9 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
 =--
 =--
 =--
@@ -119,11 +115,15 @@ on the [[supergravity C-field]] becomes the condition for the [[Green-Schwarz me
 
 ### Duality between M-theory and type I string theory
 
+[[duality between M-theory and type I string theory]]
+
 originally suggested in ([Horava-Witten 95, section 3](#HoravaWitten95))
 
 Further evidence is reviewed in [APT 98](#APT98)
 
 ### Duality between heterotic and type I string theory
+
+[[duality between heterotic and type I string theory]]
 
 via [[S-duality]] in the [[F-theory]]-picture...
 
@@ -213,7 +213,7 @@ After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechan
 
 Disucssion of the [[duality between heterotic and type I string theory]] includes
 
-* {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-16
+* {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
 
 Discussion of [[string phenomenology]] in Horava-Witten theory:
 
@@ -233,7 +233,3 @@ Discussion of [[string phenomenology]] in Horava-Witten theory:
 
 [[!redirects duality between M-theory and type I string theory]]
 [[!redirects duality between type I string theory and M-theory]]
-
-[[!redirects duality between heterotic and type I string theory]]
-[[!redirects duality between type I and heterotic string theory]]
-
