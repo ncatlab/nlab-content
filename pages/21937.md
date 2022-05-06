@@ -90,9 +90,11 @@ where $\mathbb{Z}_p$ is the group of $p$-[[p-adic number|adic integers]] (this i
 
 ## Related concepts
 
-* [[cyclic group]], [[Prüfer group]], [[root of unity]]
+* [[cyclic group]], [[multiplicative group of integers modulo n]]
 
-* [[multiplicative group of integers modulo n]]
+* [[Prüfer group]], [[root of unity]]
+
+* [[Brown-Comenetz duality]]
 
 * [[e-invariant]]
 
