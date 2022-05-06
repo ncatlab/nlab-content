@@ -132,11 +132,11 @@ From [Isodori 19, slide 6](#Isodori19):
 Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the [[standard model of particle physics]] that could possibly explain the flavour anomalies (if indeed they are real) includes the following:
 
 
-### Leptoquarks
+### Leptoquarks and Grand unified theory
  {#Leptoquarks}
 
-One apparently promising [[model (in theoretical physics)|model]] that could potentially explain the apparently observed flavour anomalies are
-[[leptoquarks]], which naturally arise in, and hence potentially point to, [[model (in theoretical physics)|models]] of  $SU(5)$-[[grand unified theory]].
+One promising [[model (in theoretical physics)|model]] that could potentially explain the apparently observed flavour anomalies are
+[[leptoquarks]], which naturally arise in, and hence potentially point to, [[grand unified theory]] [[model (in theoretical physics)|models]], such as notably the [[Pati-Salam model]] ([Heek-Teresi 18](#HeekTeresi18), [Heek-Teresi 19](#HeekTeresi19))
 
 (see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [AMM 19](#AMM19), [MVK 19](#MVK19), [Cata-Mannel 19](#CataMannel19))
 
@@ -404,7 +404,14 @@ Attempts to explain the anomaly include
 
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
-and as possible explanation also of the anomalies seen in the [[ANITA experiment]]
+
+[[leptoquarks]] particularly as fields in a [[grand unified theory]]:
+
+* {#HeekTeresi18} Julian Heeck, Daniele Teresi, _Pati-Salam explanations of the B-meson anomalies_, JHEP 12 (2018) 103 ([arXiv:1808.07492](https://arxiv.org/abs/1808.07492))
+
+* {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
+
+[[leptoquarks]] as possible explanation also of the anomalies seen in the [[ANITA experiment]]
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
