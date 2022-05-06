@@ -10,6 +10,8 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterot
 
 * [[Lara Anderson]], [[Andrei Constantin]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
+* [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], _The Moduli Space of Heterotic Line Bundle Models: a Case Study for the Tetra-Quadric_, 	JHEP03 (2014) 025 ([arXiv:1311.1941](https://arxiv.org/abs/1311.1941))
+
 Survey:
 
 * [[Andrei Constantin]], _Heterotic line bundle models_, talk at _[New Developments in Gravity, Cosmology and Strings 2013](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_13/ppcsst/)_, Munich 2013 ([pdf](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_13/ppcsst/constantin.pdf), [[ConstantiHeteroticLineBundles.pdf:file]])
