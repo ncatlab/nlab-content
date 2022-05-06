@@ -2,10 +2,11 @@
 
 and
 
-**[[rational homotopy theory]]**
+**[[rational homotopy theory]]** ([[equivariant rational homotopy theory|equivariant]], [[rational stable homotopy theory|stable]], [[parametrized rational homotopy theory|parametrized]], [[equivariant rational stable homotopy theory|equivariant &amp; stable]], [[parametrized rational stable homotopy theory|parametrized &amp; stable]])
 
 
-## Basic dg-definitions 
+
+## dg-Algebra
 
 * [[graded vector space]]
 
@@ -13,21 +14,32 @@ and
 
 * [[differential graded algebra]]
 
+  * [[model structure on dgc-algebras]]
+
+  * [[model structure on equivariant dgc-algebras]]
+
 * [[differential graded coalgebra]]
+
+  * [[model structure on dg-coalgebras]]
 
 * [[differential graded Lie algebra]]
 
+  * [[model structure on dg-Lie algebras]]
+
+* [[L-∞ algebra]]
+
+  * [[model structure for L-∞ algebras]]
+  
 * [[differential graded Hopf algebra]]
 
-* [[bar and cobar construction ]]
+* [[bar and cobar construction]]
 
-* [[differential graded algebras and differential graded Lie algebras-relationships]]
-
-* [[differential forms on simplices]]
-
-* [[simplicial local system]]
 
 ## Rational spaces
+
+* [[nilpotent space]]
+
+* [[finite type]]
 
 * [[rational space]]
 
@@ -35,26 +47,31 @@ and
 
 * [[rationalization]]
 
+## PL de Rham complex
+
+* [[differential forms on simplices]]
+
+* [[PL de Rham complex]]
+
 * [[Sullivan construction]]
  
   * [[Lie integration]]
 
-* [[Sullivan model]]
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
 
-  * [[Sullivan model of mapping space]]
+## Sullivan models
 
-  * [[Sullivan model of free loop space]]
+* [[minimal Sullivan model|minimal]]$\,$[[Sullivan model]]
 
+[[!include Sullivan models -- examples]]
 
 ## Related topics
-
-* [[homological algebra]]
 
 * [[homotopy theory]]
 
 * [[stable homotopy theory]]
 
+* [[homological algebra]]
+
 * [[∞-Lie theory]]
 
-
-<div markdown="1">[Edit this sidebar](/nlab/edit/differential+graded+objects+-+contents)</div>
