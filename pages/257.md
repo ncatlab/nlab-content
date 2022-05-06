@@ -18,6 +18,8 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -502,11 +504,11 @@ An account is in
 
 and appendix E of 
 
-* {#Joyal} [[André Joyal]], _The theory of quasi-categories and its applications_ ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+* {#Joyal} [[André Joyal]], _The theory of quasi-categories and its applications_ ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasicategories.pdf:file]])
  
 The version of the definition in ([Joyal](#Joyal)) is also highlighted in
 
-* {#Riehl09} [[Emily Riehl]], _A concise definition of model category_, 2009 ([pdf](http://www.math.jhu.edu/~eriehl/modelcat.pdf))
+* {#Riehl09} [[Emily Riehl]], _A concise definition of model category_, 2009 ([pdf](http://www.math.jhu.edu/~eriehl/modelcat.pdf), [[RiehlConciseDefinitionOfModelCategory.pdf:file]])
 
 An introductory survey of some key concepts is in the set of slides
 
