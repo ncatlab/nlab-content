@@ -5,7 +5,7 @@
 
 ## Definition
 
-In [[logic]], the principle of **double-negation shift** (**DNS**) is the statement that for any [[predicate]] $P$, the following holds:
+In [[logic]], the principle of **double-negation shift** (**DNS**), also known as the **Kuroda Principle**, is the statement that for any [[predicate]] $P$, the following holds:
 
 $$ (\forall x, \neg\neg P(x)) \to \neg\neg\forall x, P(x). $$
 
