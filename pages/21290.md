@@ -28,14 +28,41 @@ The first bound we can get for the X-ray transform is
 $$
 \int \vert Xf\vert\,d\mu(l) \le \int X\vert f\vert\,1\,d\mu(l) = \int \vert f\vert\,X^*1\,dx = \int \vert f\vert\,dx,
 $$
-since $X^*1$ is constant. Alternatively, we can use the fact that the integral of $X\vert f\vert$ along all the lines with the same direction equals $\left\Vert f\right\Vert_1$, which also implies the inclusion $X:L^1(\mathbb{R}^n)\to L^1(M_n)$. Any other bound of the X-ray transform can be interpolated with this bound to get further inequalities.
+since $X^*1$ is constant. Alternatively, we can use the fact that the integral of $X\vert f\vert$ along all the lines with the same direction equals $\left\Vert f\right\Vert_1$, which also implies that $X:L^1(\mathbb{R}^n)\to L^1(M_n)$. Any other bound of the X-ray transform can be interpolated with this bound to get further inequalities.
+
+ +-- {: .num_defn #SobolevSlobodeckij}
+###### Definition
+**([[Sobolev space]])
+
+Let $\varphi$ be a smooth function with Fourier transform supported in $\vert\xi\vert\sim 1$, and let $\tilde{\varphi}$ be a smooth function with Fourier transform supported in $\vert\xi\vert\lesssim 1$. Suppose that 
+$$
+1 = \sum_{k\ge 0}\varphi_k,
+$$
+where $\varphi_0 := \tilde{\varphi}$ and $\varphi_k(x) := \varphi(x/2^k)$, for $k\ge 1$. Let $P_k$ be the projection $(P_k f)^\wedge := \varphi_k \hat{f}$. 
+
+The Sobolev-Slobodeckij spaces $W^{s,p}(\mathbb{R}^n)$ are, for $1\lt p\lt \infty$ and $-\infty\lt s\lt \infty$, defined as
+$$
+\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{k\ge 0}(2^{sk}\Vert P_kf\Vert_{L^p(\mathbb{R}^n)})^p\Big]^\frac{1}{p}\quad if s \neq integer,
+$$
+and
+$$
+\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{\vert\alpha\vert\le s}\Vert D^\alpha f\Vert_{L^p(\mathbb{R}^n)}^p\Big]^\frac{1}{p} \quad if s = integer.
+$$
+See ([Triebel 1978, Sec. 2.3.1](#triebel1978)).
+
+=--
 
 The relation between that X-ray transform and the Kakeya set conjecture is the content of the following Theorem
 
 +-- {: .num_theorem}
 ###### Theorem
 
-If $n-sp\gt0$ and if the inclusion $X:W^{s,p}(\mathbb{R}^n)\to L^1_\sigma L^\infty_x(M_n)$ holds true, then the Hausdorff dimension of a Kakeya set is at least $n-sp$.
+Let $n-sp\gt 0$. If for every function $f$ with compact support $K$ it holds that
+$$
+\label{eqThmXRayKakeya}
+\Vert Xf\Vert_{L^1_\sigma L^\infty_x(M_n)}\le C_K\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)},
+$$
+then the Hausdorff dimension of a Kakeya set is at least $n-sp$.
 
 =--
 
@@ -50,31 +77,30 @@ $$
 $$
 where $l(Q_k) = 2^k$ is the side-length of the cube.
 
-Let $\mathcal{C}$ be a covering of $E$ at scale $\delta$, and let $\mathcal{C}_k$ be the collection of cubes in $\mathcal{C}$ with side-length $2^k$. We take a smooth function $\varphi$ such that $\varphi(x)\ge \frac{1}{2}$ for all $x\in [-\frac{1}{2},\frac{1}{2}]^n$, and such that $\hat{\varphi}$ is supported in the cube $[-2,2]^n$. If $T_{Q_k}$ is a linear transformation carrying $[-\frac{1}{2},\frac{1}{2}]^n$ to a cube $Q_k$, then $\varphi_{Q_k} := \varphi\circ T_{Q_k}^{-1}$ is morally supported in $Q_k$. Since $\mathcal{C}$ is a covering of $E$, then we have that
+Let $\mathcal{C}$ be a covering of $E$ at scale $\delta$. We denote by $\mathcal{C}_k$ the collection of all the cubes in $\mathcal{C}$ with side-length $2^k$, and we denote by $A_k$ the union of all the cubes in $\mathcal{C}_k$; therefore,
 $$
-1_E \le C\sum_k\sum_{Q_k\in \mathcal{C}_k}\varphi_{Q_k}.
-$$
+1_E \le \sum_k 1_{A_k} := \sum_k \Big(\sum_{Q_k\in\mathcal{C}_k}1_{Q_k}\Big).
+$$ 
+Since our hypotheses involve the spaces $W^{s,p}$, we should mollify $1_{A_k}$. We take a suitable smooth function $\varphi$ with compact support,  define the dilations $\varphi_k(x) := 2^{-nk}\varphi(x/2^k)$, and replace $1_{A_k}$ by $\varphi_k*1_{A_k}$. 
+
 Since $E$ contains a unit line segment in every direction $\sigma$, then for every $\sigma\in \mathbb{P}^{n-1}$ it holds that $\Vert X1_E(\cdot,\sigma)\Vert_{L^\infty} \ge 1$, and then that
 $$
-1\le \Vert X1_E\Vert_{L^1_\sigma L^\infty_x}\le C\sum_{2^k\le\delta}\Vert X\big(\sum_{Q_k\in\mathcal{C}_k}\varphi_{Q_k}\big)\Vert_{L^1_\sigma L^\infty_x}.
+1\le \Vert X1_E\Vert_{L^1_\sigma L^\infty_x}\le C\sum_{2^k\le\delta}\Vert X\big(\varphi_k*1_{A_k}\big)\Vert_{L^1_\sigma L^\infty_x}.
 $$
-By the inclusion $X:W^{s,p}(\mathbb{R}^n)\to L^1_\sigma L^\infty_x(M_n)$ we have that
+By (eq:eqThmXRayKakeya) we have that
 $$
-\label{eqProofCovering}
-1\le C\sum_{2^k\le\delta} \Vert \sum_{Q_k\in\mathcal{C}_k}\varphi_{Q_k}\Vert_{W^{s,p}}.
+1\le C\sum_{2^k\le\delta} \Vert \varphi_k*1_{A_k}\Vert_{W^{s,p}}.
 $$
-In general, the $W^{s,p}$-norm of a function $f$ with Fourier transform supported in frequencies $\vert \xi\vert\le R$ is
+In general, the $W^{s,p}$-norm of $\varphi_k*f$ is
 $$
-\Vert f\Vert_{W^{s,p}}\le CR^s\Vert f\Vert_p;
+\Vert f\Vert_{W^{s,p}}\le C2^{-ks}\Vert f\Vert_p;
 $$
-this may be proved by using Young's inequality for convolutions. Since the Fourier transform of $\varphi_{Q_k}$ is supported in frequencies $\vert\xi\vert\le C2^{-k}$, then 
+see Lemma below. Hence,
 $$
-\Vert \sum_{Q_k\in\mathcal{C}_k}\varphi_{Q_k}\Vert_{W^{s,p}} \le 2^{-ks+\frac{nk}{p}}\vert \mathcal{C}_k\vert^\frac{1}{p}
+1\le C\sum_{2^k\le\delta} \Vert \varphi_k*1_{A_k}\Vert_{W^{s,p}} \le C\sum_{2^k\le\delta}2^{-ks+\frac{nk}{p}}\vert \mathcal{C}_k\vert^\frac{1}{p}
 $$
-where $\vert \mathcal{C}_k\vert$ denotes the number of cubes in $\mathcal{C}_k$. We use this inequality in (eq:eqProofCovering) to get
-$$
-1 \le C\sum_{2^k\le\delta}2^{-ks+\frac{nk}{p}}\vert \mathcal{C}_k\vert^\frac{1}{p}.
-$$
+where $\vert \mathcal{C}_k\vert$ denotes the number of cubes in $\mathcal{C}_k$.
+
 By hypothesis $n-sp\gt 0$, then for every $0\le d \lt n-sp$ we can apply Hölder inequality to get
 $$
 1 \le \Big(\sum_{2^k\le\delta} 2^{p'k(\frac{n-d}{p}-s)}\Big)^\frac{1}{p'}\Big(\sum_k 2^{kd}\vert\mathcal{C}_k\vert\Big)^\frac{1}{p} \le C\delta^\alpha\Big(\sum_{Q_k\in\mathcal{C}}l(Q_k)^d\Big)^\frac{1}{p},
@@ -104,7 +130,7 @@ for $s\gt \frac{n}{2}-1$. Hence, the Hausdorff dimension of a Kakeya set $E\subs
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Drury's $L^{\frac{n+1}{2},1}\to L^{n+1,\infty}$ Inclusion)
+**(Drury, 1983)
 
 If $E\subset \mathbb{R}^n$ is a measurable set, and $1_E$ is the characteristic function of $E$, then
 \[
@@ -173,8 +199,10 @@ which implies the restricted weak inequality (eq:eqThmDrury).
 
 ## References
 
-* [[Drury, S. W.]], $L^p$ estimates for the X-ray transform, Illinois J. Math., 27, 1983
+* [[Bourgain, J.]], Besicovitch type maximal function operators and applications to Fourier Analysis, Geom. Funct. Anal., 1, 1991
 
 * [[Christ, M.]], Estimates for the $k$-plane transform, Indiana Univ. Math. J., 33, 1984
 
-* [[Bourgain, J.]], Besicovitch type maximal function operators and applications to Fourier Analysis, Geom. Funct. Anal., 1, 1991
+* [[Drury, S. W.]], $L^p$ estimates for the X-ray transform, Illinois J. Math., 27, 1983
+
+* {#triebel1978} [[Triebel, H]], Interpolation Theory, Function Spaces, Differential Operators, North-Holland publishing company, 1978
