@@ -175,9 +175,7 @@ A collection of various lecture notes and other material is kept at
 
 * [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](https://www.hiroleetanaka.com/pretalbot2013/index.php)_
 
-Random useful discussion is in 
-
-* [[Eric Peterson]], _[Chromotopy](http://chromotopy.org/)_
+See also:
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
 
@@ -196,7 +194,7 @@ Relation of chromatic homotopy theory to [[Goodwillie calculus]] is discussed in
 
 Categorical [[ultraproducts]] are used to provide asymptotic approximations in
 
-* Tobias Barthel, Tomer Schlank, Nathaniel Stapleton, _Chromatic homotopy theory is asymptotically algebraic_, ([arXiv:1711.00844](https://arxiv.org/abs/1711.00844))
+* [[Tobias Barthel]], [[Tomer Schlank]], [[Nathaniel Stapleton]], _Chromatic homotopy theory is asymptotically algebraic_, ([arXiv:1711.00844](https://arxiv.org/abs/1711.00844))
 
 ### Unstable case
 
