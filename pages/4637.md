@@ -91,7 +91,7 @@ This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal
 =--
 
 
-The proof is mostly a tautology after the notation is unwinded. The mechanism of the proof may still be of interest and be relevant for generalizations and for less tautological variations of the setup. We therefore spell out several proofs.
+The proof is mostly a tautology after the notation is unwound. The mechanism of the proof may still be of interest and be relevant for generalizations and for less tautological variations of the setup. We therefore spell out several proofs.
 
 +-- {: .proof}
 ###### Proof A
