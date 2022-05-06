@@ -38,7 +38,7 @@ A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesia
 
 * [[double field theory]]
 
-* [[gauged supergravity]], [[tensor hierarchy]], [[embedding tensor]]
+* [[generalized Scherk-Schwarz reduction]], [[gauged supergravity]], [[tensor hierarchy]], [[embedding tensor]]
 
 * [[universal exceptionalism]]
 
