@@ -31,9 +31,24 @@ The [[semiclassical approximation]] to [[bottom-up model building|bottom-up]] [[
 
 ### General
 
+Original articles:
+
+* [[Stanley Brodsky]], [[Guy de Teramond]], _Light-Front Hadron Dynamics and AdS/CFT Correspondence_, Phys. Lett. B582:211-221, 2004 ([arXiv:hep-th/0310227](https://arxiv.org/abs/hep-th/0310227))
+
+* [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. 102:081601, 2009 ([arXiv:0809.4899](https://arxiv.org/abs/0809.4899))
+
+
+
+
+
 Review in:
 
-* {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
+* [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], 
+_Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
+
+* {#ZhouDosch18} Liping Zou, [[Hans Günter Dosch]], _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
+
+* [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
 * Ruben Sandapen, _An overview of light-front holography_ ([arXiv:2001.03479](https://arxiv.org/abs/2001.03479))
 
@@ -42,7 +57,7 @@ See also
 
 * Harun Omer, _Embedding LFHQCD in Worldsheet String Theory_ ([arXiv:1909.12866](https://arxiv.org/abs/1909.12866))
 
-* Stanley J. Brodsky, _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_ ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
+
 
 Application to [[B-meson]] physics:
 
