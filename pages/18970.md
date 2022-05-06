@@ -788,11 +788,11 @@ $$
 
 ## Related concepts
 
-* [[Wilsonian RG]]
-
 * [[gauge coupling unification]]
 
 * [[threshold correction]]
+
+* [[Wilsonian RG]]
 
 ## References
 
@@ -812,6 +812,8 @@ reviewed in
 
 * {#Duetsch18} [[Michael Dütsch]], section 3.5.3 of _[[From classical field theory
 to perturbative quantum field theory]]_, 2018
+
+In the context of [[factorization algebras]], this is given by the book [[Renormalization and Effective Field Theory]]
 
 [[!redirects renormalization group flows]]
 
