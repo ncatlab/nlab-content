@@ -43,3 +43,5 @@ The subject is treated in others of the sources listed under [[shape theory]].
 
 [[!redirects solenoid]]
 [[!redirects solenoids]]
+[[!redirects p-adic solenoid]]
+[[!redirects p-adic solenoids]]
