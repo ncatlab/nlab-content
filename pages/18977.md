@@ -24,11 +24,8 @@
 \begin{center}_Ordo et connexio idearum idem est ac ordo et connexio rerum._[^ref]
 \end{center}
 
-[^ref]: [[Baruch Spinoza|Baruch de Spinoza]], Ethices Pars Secunda, propositio VII (Ethics, Part II, Proposition 7).
+[^ref]: [[Baruch Spinoza|Baruch de Spinoza]], Ethices Pars Secunda, propositio VII: "The order and connection of the thought is identical to with the order and connection of the things." ([buboquote](https://www.buboquote.com/en/quote/10756-spinoza-the-order-and-connection-of-the-thought-is-identical-to-with-the-order-and-connection-of))
 
-\begin{centre}
-_(The order and connection of ideas is the same as the order and connection of things.)_
-\end{centre}
 
 The **principle of compositionality** asserts that the nature of complex structures is entirely determined by that of their simpler parts and the way these are composed.
 
