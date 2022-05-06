@@ -40,3 +40,12 @@ The general idea of [[Calabi-Yau cohomology]] apparently appears in
 The suggestion that from the point of view of [[string theory]]/[[F-theory]] K3-cohomology, and more generally Calabi-Yau cohomology, is the required generalization of [[elliptic cohomology]] appears in 
 
 * {#Sati05} [[Hisham Sati]], p. 18 of _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
+
+See also: 
+
+* {#Nogami10} Jumpei Nogami, _On derived Calabi-Yau varieties_, University of Illinois at Chicago 2010 ([proquest](https://search.proquest.com/docview/814798658))
+
+For more see the references at _[[K3-cohomology]]_.
+
+
+
