@@ -63,3 +63,4 @@ universal algebra_ ([pdf](http://cs.anu.edu.au/student/projects/12S1/Reports/Ant
 
 * {#BaiGuoLoday11} Chengming Bai, Li Guo, [[Jean-Louis Loday]], _[Proceedings of the China-France Summer Institute on Operads and Universal Algebra](http://andromeda.rutgers.edu/~liguo/OUA10/book.htm)_, World Scientific 2011 ([web](http://andromeda.rutgers.edu/~liguo/OUA10/operadua.html))
 
+[[!redirects universal algebras]]
