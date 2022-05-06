@@ -243,17 +243,32 @@ X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T
 
 ### Costrength and pointwise structure
 
+(Work in progress!)
+
 The reference for this part can be found in [Kock '71, Section 1](#kock71). 
 
-Let's give a preliminary definition. A _pointwise structure_ of a [[monad]] $T$ on a [[closed monoidal category]] $C$ is a [[natural transformation]]
+Let's give a preliminary definition. A _pointwise structure_ or _cotensorial strength_ ([Kock '72](#kock72)) of a [[monad]] $T$ on a [[closed category]] $C$ is a [[natural transformation]]
 $$
 s' _{X,Y}: T[X,Y] \to [X, T Y]
 $$
-such that...
+such that the following diagrams commute. 
 
-A pointwise structure is called a _cotensorial strength_ in [Kock '72](#kock72). This motivates the terminology "costrength". 
+* Compatibility with the unit of the monad $\eta^T$: 
+\begin{tikzcd}[column sep=small, row sep=large, nodes={scale=1.25}]
+& {[X,Y]} \ar{dl}[swap]{\eta^T} \ar{dr}{{[X,\eta^T]}} \\
+T{[X,Y]}  \ar{rr}[swap]{s'} && {[X,TY]}
+\end{tikzcd}
 
-(...work in progress...)
+* Compatibility with the multiplication of the monad $\mu^T$:
+\begin{tikzcd}[row sep=large, nodes={scale=1.25}]
+TT{[X,A]} \ar{dd}{\mu^T} \ar{rr}{Ts'} && T{[X,TA]} \ar{d}{s'} \\
+&& {[X,TTA]} \ar{d}{{[X,\mu^T]}} \\
+T{[X,A]} \ar{rr}{s'} && {[X,TA]}
+\end{tikzcd}
+
+(...)
+
+
 
 \begin{tikzcd}[nodes={scale=1.25}, column sep=large]
 T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\otimes X)]} \ar{r}{{[X,T\epsilon]}} & {[X,TY]} 
