@@ -110,6 +110,8 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 
 ## Related concepts
 
+* [[simplicial homotopy equivalence]]
+
 * [[equality]]
 
 * [[isomorphism]]
