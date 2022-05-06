@@ -39,7 +39,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
 
 
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)) .
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
@@ -71,7 +71,7 @@ Candidate theories of "new physics" that could possibly explain the flavour anom
 
 * [[leptoquarks]] (and thus potentially $SU(5)$-[[GUT]])
 
-([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18))
+([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19))
 
 
 From [Crivellin 18, p. 2](#Crivellin18):
@@ -154,19 +154,24 @@ Original articles include:
 
   J. High Energ. Phys. (2017) 2017 ([arXiv:1704.05438](https://arxiv.org/abs/1704.05438))
 
-* Andrea  Mauri, Nicola Serra, Rafael  Silva  Coutinho, 
-
-  _Towards establishing Lepton Flavour Universality violation in $\bar B \to \bar K^\ast \ell^+ \ell^-$ decays_ ([arXiv:1805.06401](https://arxiv.org/abs/1805.06401))
-
-* {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits to $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
+* Andrea  Mauri, Nicola Serra, Rafael  Silva  Coutinho, _Towards establishing Lepton Flavour Universality violation in $\bar B \to \bar K^\ast \ell^+ \ell^-$ decays_ ([arXiv:1805.06401](https://arxiv.org/abs/1805.06401))
 
 * {#CCDGMV17} Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Joaquim Matias, Javier Virto, _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
+
+* {#CFMVV17} Alejandro Celis, Javier Fuentes-Martin, Avelino Vicente, Javier Virto, _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
+
+
+* {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits fOrigto $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
+
+* {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_ ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516))
+
+
 
 Cautionary remarks include
 
 * _[Some B Meson Decay Anomalies Disappear In Run-2 Data](http://dispatchesfromturtleisland.blogspot.com/2017/05/some-b-meson-decay-anomalies-disappear.html)_
 
-An argument that the threshold [[statistical significance]] for flavour anomalies should be taken to be $3\sigma$ instead of $5 \sigma$ is made in
+In contrast, an argument that the threshold [[statistical significance]] for flavour anomalies should be taken to be $3\sigma$ instead of $5 \sigma$ is made in
 
 * {#Lyons13b} Louis Lyons, _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
 
