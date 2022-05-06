@@ -59,6 +59,14 @@ Pyknotic sets can be described as sheaves on several different sites.
 
 1. Take $\mathcal{C} \subset Top$ to be the subcategory of tiny compact hausdorff spaces that are extremally disconnected, called **Stonean** spaces. A pyknotic set carries finite coproducts to products in $Set$.
 
+## Motivation
+
+In the first of a series of talks ([BarHaiMSRI](#BarHaiMSRI)), Barwick motivates the concept of pyknotic set as follows:
+
+The category of [[topological abelian groups]], $AbTop$, is not [[abelian category|abelian]]. This can be seen by taking an abelian group and imposing two topologies, one finer than the other. Both the [[kernel]] and [[cokernel]] of the continuous map which is the identity on elements are $0$. This is an indication that $AbTop$ does not have enough objects. To rectify this, we can modify the category to allow 'pyknotic' structures on $0$, which can act as a cokernel here.
+ 
+In [[Pontrjagin duality]], the pairing and double dual maps are not necessarily continuous outside of locally compact abelian groups. This occurs because the category of topological spaces does not have an [[internal hom]]. This is an indication of too many objects, and restriction to [[compactly generated spaces]] may be imposed.
+
 ## Related concepts
 
 * [[condensed set]]
