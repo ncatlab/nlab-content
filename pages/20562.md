@@ -74,6 +74,8 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 
 * [Cognition, convexity and category theory](https://golem.ph.utexas.edu/category/2018/03/cognition_convexity_and_catego.html) on the n-category café
 
+* [Meeting the Dialogue Challenge](https://golem.ph.utexas.edu/category/2019/06/meeting_the_dialogue_challenge.html) on the n-category café
+
 * {#Coecke10} [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]] and [[Stephen Clark]], _Mathematical foundations for a compositional distributional model of meaning_. Lambek Festschrift, special issue of Linguistic Analysis, 2010. ([arXiv:1003.4394](https://arxiv.org/abs/1003.4394))
 
 * {#Preller14} [[Anne Preller]], _From logical to distributional methods_. QPL 2013. ([arXiv:1412.8527](https://arxiv.org/abs/1412.8527))
