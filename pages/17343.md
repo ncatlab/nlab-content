@@ -2311,7 +2311,7 @@ Not all weak factorization systems are functorial, def. \ref{FunctorialWeakFacto
 
 Let $\mathcal{C}$ be a [[category]] and let $K\subset Mor(\mathcal{C})$ be a [[class]] of [[morphisms]]. Write $K Proj$ and $K Inj$, respectively, for the sub-classes of $K$-[[projective morphisms]] and of $K$-[[injective morphisms]], def. \ref{LiftingAndExtension}. Then:
 
-1. Both classes contain the class of [[isomorphism]] of $\mathcal{C}$.
+1. Both classes contain the class of [[isomorphism|isomorphisms]] of $\mathcal{C}$.
 
 1. Both classes are closed under [[composition]] in $\mathcal{C}$.
 
