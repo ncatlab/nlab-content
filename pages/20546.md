@@ -33,30 +33,41 @@ which are, locally, the [[Cartesian product]] of
 
 > graphics grabbed from [HSS18, Example 2.2.7](#HSS18)
 
-Depending on whether the circle fiber for [[duality between M-theory and type IIA string theory]] is taken to be along the [[orbit]] of $G_{HW}$ or of $\mathbb{Z}_{n} \subset G_{ADE}$ this is 
-
-* [[Horava-Witten theory]], hence [[heterotic string theory]] further [[KK-compactification|KK-compacitified]] on the [[orbifold]] $\mathbb{H} \sslash G_{ADE}$
-
-* [[type I' string theory]]  with [[D6-branes]] [[brane intersection|ending on]] 1/2 [[NS5-branes]]:
-
-
 For $G_{ADE} = \mathbb{Z}_2$ this subsumes M-theory on [[K3]] times $S^1 \sslash G_{HW}$ ([Seiberg-Witten 96](#SeibergWitten96))
 
 \linebreak
 
-## Relation to $D = 6$ $N=(1,0)$ SCFT
-
-Gives rise to [[D=6 N=(1,0) SCFT]] (  [DHTV 14, Section 6](#DHTV14), [Gaiotto-Tomasiello 14](#GaiottoTomasiello14), [HKLY 15](#HKLY15))
 
 
+## Dual string theory perspectives
+ {#DualStringTheoryPerspectives}
 
-## Dual perspectives
+Under [[duality in string theory]] (specifically: [[duality between M-theory and type IIA string theory]] and [[duality between M-theory and heterotic string theory]]) M-theory on $\mathbb{S}^{1}\sslash \mathbb{Z}_2^{HW} \times \mathbb{T}^{4}\sslash G^{ADE}$ appears through the following [[string theory]]-perspectives
 
-### HET on ADE-singularities
+1. [$HET_{E}$-Theory on ADE-singularities](#HetEWithADESingularities)
+
+1. [$I'$-Theory with D6-branes on O8-planes](#TypeIPrimeWithD6OnO8)
+
+1. [$I'$-Theory on ADE-singularities intersecting O8-planes](#IPrimeTheoryOnADESingularitiesIntersectingO8Planes)
+
+The following graphics shows how the three perspectives arise from [[KK-compactification]] on three different choices of [[circle]]-[[fibers]]. Indicated also are the [[M5-branes]] and their string theoretic images at [[NS5-branes]]/[[D4-branes]] with [[geometric engineering of QFTs|geometrically engineer]] [[D=6 N=(1,0) SCFTs]] (see [further below](#GeometricEngineeringOfDIs6NIs1SCFTs)).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/MTheoryOnS1HWxT4ADE-Reductions.jpg" width="740">
+</center>
+
+### $HET_{E}$-Theory on ADE-singularities
+ {#HetEWithADESingularities}
 
 (...)
 
-### Type I' with D6s ending on $\tfrac{1}{2}$ NS5-branes
+[[Horava-Witten theory]], hence [[heterotic string theory]], [[ADE-singularities]] $\mathbb{H} \sslash G_{ADE}$
+
+(...)
+
+
+### $I'$-Theory with D6-branes on O8-planes
+ {#TypeIPrimeWithD6OnO8}
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5.jpg" width="650"/>
 
@@ -67,7 +78,7 @@ If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], 
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
 
-> from [GKSTY 02](#GKSTY02)
+> graphics grabbed from [GKSTY 02](#GKSTY02)
 
 (In [Hanany-Zaffaroni 99](#HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
 
@@ -90,13 +101,30 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 > from [Hanany-Zaffaroni 98](#HananyZaffaroni98)
 
+### $I'$-theory on ADE-singularities intersecting O8-planes
+ {#IPrimeTheoryOnADESingularitiesIntersectingO8Planes}
+
+(...)
+
+
+
+## Geometric engineering of $D = 6$ $N=(1,0)$ SCFTs on M5-branes
+ {#GeometricEngineeringOfDIs6NIs1SCFTs}
+
+The [[M5-branes]]-configurations  as [above](#DualStringTheoryPerspectives) are supposed to [[geometric engineering of QFTs|geometrically engineer]] [[D=6 N=(1,0) SCFTs]].
+
+See the references [below](#ReferencesGeometricEngineeringOfDIs6NIs1SCFT), for example [DHTV 14, Section 6](#DHTV14), [Gaiotto-Tomasiello 14](#GaiottoTomasiello14), [HKLY 15](#HKLY15).
+
 
 
 ## Related concepts
 
-* [[D4-D8 bound states]]
 
 [[!include KK-compactifications of M-theory -- table]]
+
+\linebreak
+
+* [[D4-D8 brane bound states]]
 
 
 
@@ -119,11 +147,6 @@ Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a hr
 
   (the [[F-theory]] perspective)
 
-* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
-
-
-
-* {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], Section 6 of: _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
@@ -140,14 +163,31 @@ Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a hr
 
 * Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _A new 5d description of 6d D-type minimal conformal matter_, JHEP 1508:097, 2015 ([arXiv:1505.04439](https://arxiv.org/abs/1505.04439))
 
+
+* Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+
+### On $S^1 \sslash G_{HW} \times K_3 $
+
+* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Comments on String Dynamics in Six Dimensions_, Nucl. Phys. B471:121-134, 1996 ([arXiv:hep-th/9603003](https://arxiv.org/abs/hep-th/9603003))
+
+### Geometric engineering of $D=6, \mathcal{N}=(1,0)$ SCFT 
+ {#ReferencesGeometricEngineeringOfDIs6NIs1SCFT}
+
+On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineering]] on [[M5-branes]]/[[NS5-branes]] at D-, E-type [[ADE-singularities]], notably from [[M-theory on S1/G_HW times H/G_ADE]], hence from [[orbifolds]] of [[type I' string theory]] (see at [half NS5-brane](NS5-brane#NSHalfBranes)):
+
+* {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], Section 6 of: _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+
+* Kantaro Ohmori, Hiroyuki Shimizu, _$S^1/T^2$ Compactifications of 6d $\mathcal{N} = (1,0)$ Theories and Brane Webs_, J. High Energ. Phys. (2016) 2016: 24 ([arXiv:1509.03195](https://arxiv.org/abs/1509.03195))
+
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
 
 * Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
 
 
-### On $S^1 \sslash G_{HW} \times K_3 $
 
-* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Comments on String Dynamics in Six Dimensions_, Nucl. Phys. B471:121-134, 1996 ([arXiv:hep-th/9603003](https://arxiv.org/abs/hep-th/9603003))
 
 
