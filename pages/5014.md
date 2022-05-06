@@ -48,6 +48,15 @@ Every [[topos]] ([[Grothendieck topos]]) with [[point of a topos|enough points]]
 
 * [[amenable topological groupoid]]
 
+## References
+
+As a model for [[orbispaces]]:
+
+* {#Haefliger84} [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116  (1984), p. 70-97 ([numdam:AST_1984__116__70_0](http://www.numdam.org/item/?id=AST_1984__116__70_0))
+
+* {#Haefliger91} [[André Haefliger]], _Complexes of Groups and Orbihedra_, in: E. Ghys, A. Haefliger, A Verjovsky (eds.), _Proceedings of the Group Theory from a Geometrical Viewpoint_, ICTP, Trieste, Italy , 26 March – 6 April 1990_, World Scientific 1991 ([doi:10.1142/1235](https://doi.org/10.1142/1235))
+
+
 [[!redirects topological groupoids]]
 
 [[!redirects open topological groupoid]]
