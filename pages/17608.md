@@ -50,6 +50,6 @@ See also at _[[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]_.
 
 ## References
 
-* [[Sergio Ferrara]], Ramzi R. Khuria,  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys.Lett.B375:81-88,1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+* [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett.B 375:81-88, 1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
 
 [[!redirects M-theory on CY-manifolds]]
