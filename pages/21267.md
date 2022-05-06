@@ -6,6 +6,7 @@ For more technical details and further pointers see at [[homotopy theory]].
 {:toc}
 
 ## Is homotopy theory a part of algebraic topology?
+{#intro}
 
 In one of the first textbooks on homotopy theory,
 _An introduction to homotopy theory_ by [[Peter J. Hilton]] (1953),
@@ -75,6 +76,23 @@ See the [section on ∞-categories](#infinity) for more information.
 * [[(∞,n)-categories]], which can be [modeled](#models) by [[globular n-fold complete Segal spaces]], Rezk's [[Theta-n spaces]], etc.
 
 ## What is algebraic topology?
+
+As already explained in the [introduction](#intro),
+there is a recent tendency to separate [[homotopy theory]]
+from [[algebraic topology]].
+This leaves the question as to what exactly
+[[algebraic topology]] is once the separation happens.
+
+We list some [[mathematical objects]] that are undoubtedly studied by [[algebraic topology]]:
+
+* [[manifolds]], as studied in [[surgery theory]], [[bordism theory]], etc.
+These include [[topological manifolds]], [[PL-manifolds]], and [[smooth manifolds]].
+
+* [[knots]], [[tangles]], [[surfaces]], and other objects arising from [[manifolds]].
+
+* [[Lie groups]] and [[characteristic classes]].
+
+* [[polyhedra]].
 
 ## What are “spaces” in homotopy theory?
 
