@@ -111,3 +111,5 @@ A & & & & A \times 2 \times B & & & & B.
 
 [[!redirects ordinal sum]]
 [[!redirects ordinal sums]]
+[[!redirects ordinal sum of categories]] 
+[[!redirects ordinal sums of categories]]
