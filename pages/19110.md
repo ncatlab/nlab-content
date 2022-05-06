@@ -44,7 +44,7 @@ and reflected in [[target spacetime]] by non-trivial total [[RR-field]] [[flux]]
 
 > graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
 
-This anomaly cancels -- [[tadpole cancellation]] -- if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Simon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
+This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Simon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
 
 Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key consistency condition in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
@@ -263,7 +263,7 @@ This is indeed the case for the multiples $V = n\cdot k[G/1]$ of the [[regular r
 =--
 
 
-\linebreak
+<br/>
 
 On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge -- [[O-plane charge]] (see [there](orientifold+plane#OPlaneCharge)):
 
@@ -1208,11 +1208,13 @@ $$
 $$
 
 
+## Related concepts
+
+* [[C-field tadpole cancellation]]
 
 
 ## References
 
-### RR-field tadpole cancellation
 
 The issue was first highlighted in
 
@@ -1277,29 +1279,13 @@ The character tables for [[virtual representation|virtual]] [[permutation repres
 
 * {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The image of the Burnside ring in the Representation ring|The image of the Burnside ring in the Representation ring -- for binary Platonic groups]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
 
-### C-field tadpole cancellation
- {#ReferencesCField}
 
-Discussion of tadpole cancellation for the [[supergravity C-field]] in [[M-theory]]/[[F-theory]]:
-
-* [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl.Phys.B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
-
-* [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J.Geom.Phys.22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
-
-* Keshav Dasgupta, [[Sunil Mukhi]], _A Note on Low-Dimensional String Compactifications_, Phys.Lett.B398:285-290, 1997 ([arXiv:hep-th/9612188](https://xxx.lanl.gov/abs/hep-th/9612188))
-
-* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]], _CFT's From Calabi-Yau Four-folds_, Nucl.Phys.B584:69-108,2000; Erratum-ibid.B608:477-478, 2001 ([arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070))
-
-* Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://xxx.lanl.gov/abs/hep-th/9908088))
-
-* [[Timo Weigand]], p. 86 of _TASI Lectures on F-theory_ ([arXiv:1806.01854](https://arxiv.org/abs/1806.01854))
-
-* [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, equation (9) in _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
 [[!redirects RR-field tadpole cancellations]]
 
 [[!redirects RR-tadpole cancellation]]
 [[!redirects RR-tadpole cancellations]]
+
 
 
 [[!redirects RR-field tadpole]]
