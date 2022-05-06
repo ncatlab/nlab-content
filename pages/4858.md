@@ -1,5 +1,5 @@
 
-Roger Penrose is a [[mathematical physics|mathematical physicist]] at University of Oxford. 
+Roger Penrose is a [[mathematical physics|mathematical physicist]] at University of Oxford.  He received one half of the 2020 Nobel Prize in Physics "for the discovery that black hole formation is a robust prediction of the general theory of relativity". The other half was awarded to Reinhard Genzel and Andrea Ghez.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Roger_Penrose)
 
