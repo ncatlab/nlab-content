@@ -223,6 +223,12 @@ These are _regular_ coadjoint orbits for $r \gt 0$.
 
 The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theorem](classification+of+finite+rotation+groups#ClassificationOfFiniteSubgroupsOfSO3).
 
+### $G$-Structure and exceptional geometry
+
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 
 ## Related concepts
 
