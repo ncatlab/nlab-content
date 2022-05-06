@@ -52,8 +52,8 @@ This induces a [[group homomorphism]]
   }
 \]
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop #ExceptionalIsoWithSpin3TimesSpin3}
+###### Proposition
 
 The [[group homomorphism]] (eq:Spin3SquareToO4) is a [[double cover]] and hence exhibits an [[isomorphism]] between [[Spin(4)]] and the [[direct product group]] of [[Spin(3)]] with itself:
 
