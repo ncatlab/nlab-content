@@ -45,7 +45,7 @@ See also at _[[ADE classification]]_
 ## References
 
 * Notes on simple Lie algebras and Lie groups ([pdf](https://math.berkeley.edu/~ianagol/261A.F09/Simplegroups.pdf
-), [[SimpleLieGroupNotes.pdf:file]])
+))
 
 See also 
 
