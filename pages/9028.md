@@ -88,3 +88,15 @@ See also at _[[C-field tadpole cancellation]]_.
 [[!redirects Spin7-manifold]]
 [[!redirects Spin7-manifolds]]
 
+[[!redirects Spin(7)-structure]]
+[[!redirects Spin(7)-structures]]
+
+[[!redirects Spin(7) structure]]
+[[!redirects Spin(7) structures]]
+
+[[!redirects Spin7-structure]]
+[[!redirects Spin7-structures]]
+
+[[!redirects Spin7 structure]]
+[[!redirects Spin7 structures]]
+
