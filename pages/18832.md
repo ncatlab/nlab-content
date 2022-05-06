@@ -2922,7 +2922,7 @@ If
 
 $$
   \left\{
-    \alpha_ \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})\langle g \rangle
+    \alpha_i \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})\langle g \rangle
   \right\}
   \cup
   \left\{
