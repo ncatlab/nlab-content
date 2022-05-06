@@ -131,8 +131,9 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 * [[tensor]], [[tensor product]], [[tensor category]]
 
-
 * [[neural network]]
+
+[[!include states and observables -- content]]
 
 ## References
 
