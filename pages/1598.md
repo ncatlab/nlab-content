@@ -203,6 +203,15 @@ The [[exceptional Lie groups]] incude
 
 ### General
 
+
+* {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
+
+  * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
+
+  * *II.* V. V. Gorbatsevich, A. L. Onishchik, _Lie Transformation Groups_ 
+
+  Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
+
 * [[Hans Duistermaat]], J. A. C. Kolk, _Lie groups_, 2000
 
 * Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
