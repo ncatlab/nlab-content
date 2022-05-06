@@ -108,5 +108,4 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
-> graphics from [Sati-Schreiber 19b]()
-
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
