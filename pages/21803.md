@@ -53,7 +53,11 @@ is ordinary (non-equivariant) [[projective space]] of [[dimension]] $n$ over $k$
 
 ### Representation spheres
 
-If the $G$-representation $V$ is 1-dimensional over the given [[ground field]] $k$, [[stereographic projection]] identifies the [[representation sphere]] of $V$ with the [[projective G-space]] of $V \oplus \mathbf{1}$:
++-- {: .num_prop #OneDimensionalRepresentationSpheresAsProjectiveLine}
+###### Proposition
+**(1-dimensional [[representation spheres]] are [[projective G-spaces]])**
+
+If $\mathbf{1}_V \,\in\, G Representations_k$ is 1-dimensional over the given [[ground field]] $k$, [[stereographic projection]] identifies the [[representation sphere]] of $V$ with the [[projective G-space]] over $k$ of $\mathbf{1}_V \oplus \mathbf{1}$:
 
 $$
   \array{
@@ -63,7 +67,7 @@ $$
     &
     k P
    \big(
-     V \oplus \mathbf{1}
+     \mathbf{1}_V \oplus \mathbf{1}
    \big)
     \\
     v &\mapsto&
@@ -77,7 +81,60 @@ $$
   }
 $$
 
+=--
+
 (e.g. [Atiyah 68, Sec. 4](#Atiyah68), [Greenlees 01, 9.C](#Greenlees01))
+
+Prop. \ref{OneDimensionalRepresentationSpheresAsProjectiveLine} underlies the concept of [[equivariant complex oriented cohomology theory]].
+
+### Infinite projective space
+
+
+
++-- {: .num_defn #InfiniteProjectiveGSpace}
+###### Definition
+**([[infinite complex projective G-space]])**
+
+For $G$ an [[abelian group|abelian]] [[compact Lie group]], let 
+
+\[
+  \label{GUniverseForInfiniteComplexProjectiveSpace}
+  \mathcal{U}_G
+  \;\coloneqq\;
+  \underset{k \in \mathbb{N}}{\bigoplus}
+  \underset{\mathbf{1}_V \in R(G)}{\bigoplus}
+  \mathbf{1}_V
+\]
+
+be the [[G-universe]] being the infinite [[direct sum]] of all [[complex numbers|complex]] 1-[[dimension|dimensional]] [[linear representations]] of $G$, regarded as a [[topological G-space]] with [[topological space|toplogy]] the [[colimit]] of its [[finite dimensional vector space|finite-dimensional]] [[linear subspaces]].
+
+
+Then the _[[infinite complex projective G-space]]_ is the [[colimit]]
+
+$$
+  P\big( 
+    \mathcal{U}_G
+  \big)
+  \;\coloneqq\;
+  \underset{
+    \underset{
+      {
+        V \subset \mathcal{U}_G
+      }
+      \atop
+      {
+         dim(V) \lt \infty
+      }
+    }{\longrightarrow}
+  }{\lim}
+  P\big( V \big)
+$$
+
+of the [[projective G-spaces]] for all the [[finite dimensional vector space|finite-dimensional]] $G$-[[linear representations]] inside the [[G-universe]] (eq:GUniverseForInfiniteComplexProjectiveSpace).
+
+=--
+
+(e.g. [Greenlees 01, Sec. 9.2](#Greenlees01))
 
 ## Properties
 
