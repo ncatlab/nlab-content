@@ -55,6 +55,31 @@ but one has to decide in which category of [[infinite-dimensional manifolds]] to
 1. one may form the limit in [[Fréchet manifolds]], this is farily explicit in ([Saunders 89, chapter 7](#Saunders89)). See at _[Fr&#233;chet manifold -- Projective limits of finite-dimensional manifolds](Frechet+manifold#ProjectiveLimitsOfSmoothFiniteDimensionalManifolds)_. Beware that this is not equivalent to the pro-manifold structure (see the remark [here](Frechet+manifold#DifferenceBetweenProManifoldAndFrecherManifoldStructure)). It makes sense to speak of _[[locally pro-manifolds]]_.
 
 
+### The Atiyah exact sequence
+
+When $(X,\mathcal{O}_X)$ is a complex-analytic manifold with the structure sheaf of holomorphic functions, and $E$ a locally free sheaf of $\mathcal{O}_X$-modules, we can be even more explicit.
+The first jet bundle $J^1(E)$ fits into a short exact sequence, called the Atiyah exact sequence:
+
+$$
+  0\to
+  E\otimes_{\mathcal{O}_X}\Omega_X^1\to
+  J^1(E)\to
+  E\to
+  0
+$$
+
+where $J^1(E) = (E\otimes\Omega_X^1)\oplus E$ as a $\mathbb{C}$-module, but with an $\mathcal{O}_X$-action given by
+
+$$
+  f(s\otimes\omega,t)
+  =
+  (fs\otimes\omega+s\otimes\mathrm{d}f, t).
+$$
+
+The extension class $[J^1(E)]\in\mathrm{Ext}_{\mathcal{O}_X}^1(E,E\otimes\Omega_X^1)$ of this exact sequence is called the Atiyah class of $E$, and is somewhat equivalent to the first Chern class of $E$.
+Note that the Atiyah class is exactly the obstruction to the Atiyah exact sequence admitting a splitting, and a (holomorphic) splitting of the Atiyah exact sequence is exactly a Koszul connection.
+
+
 
 
 ### General abstract
