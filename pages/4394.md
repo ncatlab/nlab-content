@@ -139,7 +139,7 @@ Only Kelly introduced the concept in its nowadays formulation of a set equipped 
 
 as well as a more introductory text book
 
-* _Битопологические пространства_, 1997. Исследования по топологии. 9, Zap. Nauchn. Sem. POMI, 242, editor A. A. Ivanov ([Russian version](http://www.mathnet.ru/php/archive.phtml?jrnid=znsl&wshow=issue&bshow=contents&series=0&year=1997&volume=242&issue=&option_lang=rus&bookID=335)).
+* A. A. Ivanov, N. V. Khmylko, _Битопологические пространства_, 1997. Исследования по топологии. 9, Zap. Nauchn. Sem. POMI, 242, editor A. A. Ivanov ([Russian version](http://www.mathnet.ru/php/archive.phtml?jrnid=znsl&wshow=issue&bshow=contents&series=0&year=1997&volume=242&issue=&option_lang=rus&bookID=335)).
 
 
 [[!redirects bitopological space]]
