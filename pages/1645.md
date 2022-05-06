@@ -154,6 +154,10 @@ see at _[[Freed-Witten anomaly]]_.
 
 see at _[[Diaconescu-Moore-Witten anomaly]]_
 
+#### M5-Brane anomaly
+
+see at _[M5-brane anomaly](M5-brane#AnomalyCancellation)_
+
 ### Anomalous symmetry
 
 #### Conformal anomaly
