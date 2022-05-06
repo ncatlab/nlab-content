@@ -25,7 +25,7 @@ $FinRel$ is the [[category]] of [[finite sets]] and all [[relations]] between th
 
 ### As a category of matrices
 
-$FinRel$ is [[isomorphism|isomorphic]] to $Mat(Bool)$, the category whose [[objects]] are [[natural numbers]] and where a [[morphism]] $f \colon m \to n$ is an $n \times m$ [[matrix]] with entries in the [[semiring]] of [[booleans]], $Bool = \{F,T\}$, where [[addition]] is the logical operation "[[logical disjunction|or]]" and [[multiplication]] is "[[logical conjunction|and]]".  
+$FinRel$ is [[equivalence of categories|equivalent]] to $Mat(Bool)$, the category whose [[objects]] are [[natural numbers]] and where a [[morphism]] $f \colon m \to n$ is an $n \times m$ [[matrix]] with entries in the [[semiring]] of [[booleans]], $Bool = \{F,T\}$, where [[addition]] is the logical operation "[[logical disjunction|or]]" and [[multiplication]] is "[[logical conjunction|and]]".  
 
 For any semiring $R$, the category $Mat(R)$ has [[biproducts]], corresponding to addition of natural numbers, and the [[initial object]] $0$ is also [[terminal object|terminal]] (hence is a [[zero object]]).  For any [[commutative magma|commutative]] semiring $R$, $Mat(R)$ also has another [[symmetric monoidal category|symmetric monoidal structure]]: a [[tensor product]] with $m \otimes n = m n$, which [[distributivity|distributes]] over biproducts.  Thus $FinRel$ has all these properties.   
 
