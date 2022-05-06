@@ -27,7 +27,7 @@ There are other approaches to dependent linear type theory that do allow some so
 
 Details are still somewhat in the making: An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)).
 
-What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). Proposals for an actual [[syntax]] for dependent linear type theory appear in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
+Proposals for an actual [[syntax]] for dependent linear type theory appear in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
 
 ## Semantics
 
@@ -221,7 +221,7 @@ Since the Grothendieck construction of the standard indexed monoidal $(\infty,1)
 
 =--
 
-
+What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). 
 
 ## References
 
@@ -258,6 +258,16 @@ Proposals for a genuine [[syntax]] for dependent linear type theory are in
 * {#KPB15} [[Neelakantan Krishnaswami]], Pierre Pradic, [[Nick Benton]], _Integrating Dependent and Linear Types_, POPL 15  ([pdf](http://www.cs.bham.ac.uk/~krishnan/dlnl-paper.pdf))
 
 * [[Martin Lundfall]], _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
+
+Semantics for dependent linear type theory and linear homotopy type theory are discussed in
+
+* {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
+ 
+* {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], _Duality and traces in indexed monoidal categories_, ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555),  [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html))
+
+* {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_,([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
+
+* {#Schreiber14} [[Urs Schreiber]], _Quantization via Linear Homotopy Types_, ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
 
 
 [[!redirects dependent linear type theories]]
