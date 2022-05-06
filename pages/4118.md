@@ -59,7 +59,7 @@ The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\m
 
 =-- 
 
-See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or Lang's [Algebra](https://math24.files.wordpress.com/2013/02/algebra-serge-lang.pdf) ($3^{rd}$ edition), theorems XIII 8.3 and 9.2. 
+See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or [Lang 02, theorems XIII 8.3 and 9.2](#Lang02). 
  
 +-- {: .num_prop} 
 ###### Proposition 
@@ -79,5 +79,9 @@ An arbitrary colimit of perfect groups (as calculated in [[Grp]], the category o
 ###### Proof 
 The abelianization functor, being a [[left adjoint]], preserves a [[colimit]] of perfect groups $colim_i G_i$, taking it to $colim_i (G_i)^{ab} \cong \colim_i 1 \cong 1$ (since an arbitrary colimit of [[initial object]]s is again initial). 
 =-- 
+
+## References
+
+* {#Lang02} [[Serge Lang]], _Algebra_, $3^{rd}$ edition, Springer 2002 ([pdf](https://math24.files.wordpress.com/2013/02/algebra-serge-lang.pdf))
 
 [[!redirects perfect groups]]
