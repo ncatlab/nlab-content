@@ -79,6 +79,8 @@ In [[cosmology]]
 
 * [[landscape of string theory vacua]]
 
+* [[string inspired model]]
+
 * [string theory FAQ -- Does string theory make predictions?](string+theory+FAQ#HowDoesStringTheoryMakePredictions)
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape of solutions"?](http://ncatlab.org/nlab/show/string+theory+FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
