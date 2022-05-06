@@ -27,7 +27,7 @@ Notably the [[semantics]] of [[type theory|type theories]] is given by [[categor
 
 * [[dependent type theory]] is precisely the formal language for which [[locally cartesian closed categories]] are the semantics, 
 
-* [[intensional type theory]]is the formal language for which [[locally cartesian closed (infinity,1)-categories]] are the semantics;
+* [[intensional type theory]] is the formal language for which [[locally cartesian closed (infinity,1)-categories]] are the semantics;
 
 * [[homotopy type theory]] is the formal language for which [[elementary (infinity,1)-toposes]] are the semantics.
 
