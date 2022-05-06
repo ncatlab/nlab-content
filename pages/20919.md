@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,7 +40,23 @@ Closing up the line of a linear chord diagram to a [[circle]] and remembering th
 
 ### Wick's theorem
 
-The [[combinatorics]] of contractions in [[Wick's theorem]] is governed by linear chord diagrams...
+The [[combinatorics]] of contractions in [[Wick's theorem]] is governed by linear chord diagrams:
+
+Let $\{Z_i\}$ be a set of [[quantum fields]]/[[random variables]] which are [[free fields]]/[[multivariate normal distribution|multivariate normally distributed]] with 
+
+$$
+  \big\langle Z_i Z_j \big\rangle = k_{i j}
+  \,.
+$$
+
+Then [[Wick's theorem]] says that the [[expectation value]] of the product of $n \in \mathbb{N}$ of these fields/random variables is the [[sum]] over linear chord diagrams with $n$ vertices of the product over the edges $e_i \to e_j$ of the given chord diagram of the factors $k_{i j}$.
+
+For example, for $n = 4$, [[Wick's theorem]] says this:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/WickTheoremViaLiearChordDiagrams.jpg" width="600">
+</center>
+
 
 ## Related concepts
 
