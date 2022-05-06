@@ -1,4 +1,4 @@
-**George Janelidze** is a Georgian-South African category theorist, currently a professor at the University of Capetown. He studied in [Tbilisi](http://en.wikipedia.org/wiki/Tbilisi) under [[Hvedri Inassaridze]] with the dissertation "Satellites and Galois Extensions of Commutative Rings". 
+**George Janelidze** is a Georgian-South African category theorist, currently a professor at the University of Cape Town. He studied in [Tbilisi](http://en.wikipedia.org/wiki/Tbilisi) under [[Hvedri Inassaridze]] with the dissertation "Satellites and Galois Extensions of Commutative Rings". 
 
 His research includes nonabelian homological algebra, the discovery of categorical Galois theory, [[semiabelian categories]], internal actions and internal crossed modules, categorical approaches to universal algebra etc. With [[Francis Borceux]], he authored the monograph
 
