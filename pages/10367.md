@@ -83,7 +83,7 @@ The [[axiom of choice]] is indispensable for the development above, as stated.  
 
 This giant treatise on all of [[measure theory]] is free (in both senses) online:
 
-*  D.H. Fremlin, _Measure Theory_, [web](http://www.essex.ac.uk/maths/people/fremlin/mt.htm)
+*  D.H. Fremlin, _Measure Theory_, [web](https://www1.essex.ac.uk/maths/people/fremlin/mt.htm)
    {#Fremlin}
 
 
