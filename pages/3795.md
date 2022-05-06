@@ -36,6 +36,10 @@ Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagra
 
 A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given by [[Dominic Joyce]] and by [[Maxim Kontsevich]] and [[Yan Soibelman]], see the references below. 
 
+## Related concepts
+
+* [[Gromov-Witten/Donaldson-Thomas correspondence]]
+
 ## References
 
 ### General
