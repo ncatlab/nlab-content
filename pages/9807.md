@@ -852,6 +852,8 @@ A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie gro
 
 ## Related concepts
 
+* [[equivariant ordinary differential cohomology]]
+
 * [[gauged WZW model]]
 
 * [[action Lie algebroid]], [[BRST complex]]
@@ -903,9 +905,9 @@ Some related discussion for equivariant [[Riemannian geometry]] in
 
 * [[Peter Michor]], _Basic Differential Forms for Actions of Lie Groups_, Proceedings of the American Mathematical Society Vol. 124, No. 5 (May, 1996), pp. 1633-1642 ([jstor:](ttps://www.jstor.org/stable/2161476))
 
-Discussion in the broader context of [[equivariant cohomology|equivariant]] [[differential cohomology]] is in
+Discussion in the broader context of [[equivariant ordinary differential cohomology]] is in
 
-* Andreas Kübel, [[Andreas Thom]], _Equivariant Differential Cohomology_, Transactions of the American Mathematical Society (2018) ([arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
+* Andreas Kübel, [[Andreas Thom]], _Equivariant Differential Cohomology_, Transactions of the American Mathematical Society (2018) ([doi:10.1090/tran/7315](https://doi.org/10.1090/tran/7315), [arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
  
 
 Discussion in the context of the [[gauged WZW model]] includes
