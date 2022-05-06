@@ -1,7 +1,7 @@
 
 * [webpage](https://people.sissa.it/~bruzzo/webpage/)
 
-## selected writings
+## Selected writings
 
 On [[Fourier-Mukai transforms]]:
 
@@ -14,8 +14,11 @@ On [[Lie algebroid cohomology]] via [[derived functors]]:
 
 On [[derived functors]] and [[abelian sheaf cohomology]]:
 
-
 * [[Ugo Bruzzo]], _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
+
+Discussion of traditional [[algebraic geometry]]  for [[super-schemes]]:
+
+* [[Ugo Bruzzo]], Daniel Hernandez Ruiperez, [[Alexander Polishchuk]], _Notes on fundamental algebraic supergeometry. Hilbert and Picard superschemes_ ([arXiv:2008.00700](https://arxiv.org/abs/2008.00700))
 
 
 category: people
