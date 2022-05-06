@@ -47,6 +47,8 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 ## Related concepts
 
+* [[ultracommutative ring spectrum]]
+
 * [[symmetric ring spectrum]]
 
 * [[symmetric algebra spectrum]]
