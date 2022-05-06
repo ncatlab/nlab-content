@@ -1,7 +1,7 @@
 
 (...)
 
-## related concepts
+## Related concepts
 
 * [[Lagrangian submanifold]]
 
