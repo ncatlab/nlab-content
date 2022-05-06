@@ -760,7 +760,7 @@ See below at _[References - For structured groups](#ReferencesOnStructuredGroupC
 ### Nonabelian group cohomology
  {#NonabelianGroupCohomology}
 
-If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B}^n K$ to not exist. But [[n-groupoid]]s approximating this non-existant delooping do exists. Cohomology of $\mathbf{B}G$ with coefficients in these is called [[nonabelian group cohomology]] or [[Schreier theory]]. See there for more details.
+If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B}^n K$ do not exist. But [[n-groupoid]]s approximating this non-existant delooping do exists. Cohomology of $\mathbf{B}G$ with coefficients in these is called [[nonabelian group cohomology]] or [[Schreier theory]]. See there for more details.
 
 ## Examples
 
