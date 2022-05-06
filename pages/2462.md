@@ -252,7 +252,7 @@ is encoded by an exterior differential system on the
 0-locus 
 
 $$
-  X := \{(x,f,p) \in \mathbb{R}^n \times \mathbb{R}^s \times \mthbb{R}^{n s} |
+  X := \{(x,f,p) \in \mathbb{R}^n \times \mathbb{R}^s \times \mathbb{R}^{n s} |
     \forall \rho : F^\rho(x,f,p) = 0 \}
 $$
 
