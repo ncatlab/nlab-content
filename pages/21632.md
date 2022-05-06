@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14), [ABS 19](#ABS19)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usuage, and see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14), [ABS 19](#ABS19)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usuage, see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction [Calabi 67](#Calabi67), [Calabi 68](#Calabi68)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -60,7 +60,12 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 * [[twistor space]]
 
 
+
 ## References
+
+* {#Calabi67} [[Eugenio Calabi]], _Minimal immersions of surfaces in euclidean spheres_, J. Differential Geometry (1967), 111-125 ([euclid:jdg/1214427884](https://projecteuclid.org/euclid.jdg/1214427884))
+
+* {#Calabi68} [[Eugenio Calabi]], _Quelques applications de l’analyse complexe aux surfaces d’aire minima_, Topics in Complex Manifolds (Ed. H. Rossi), Les Presses de l’Universit ́e de Montr ́eal (1968), 59-81 ([naid:10006413960](https://ci.nii.ac.jp/naid/10006413960))
 
 * {#Atiyah79} [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867), [pdf](https://pdfs.semanticscholar.org/b523/d376f11a531fa5a4692401902a17ee18861f.pdf))
 
