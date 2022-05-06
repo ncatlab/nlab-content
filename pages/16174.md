@@ -30,6 +30,8 @@ The *Burnside ring* $A(G)$ is then the (additive) [[group completion]] of the Bu
 
 More generally, any [[distributive category]] determines a Burnside rig ([Schanuel91](#Schanuel91)). 
 
+Explicitly, the Burnside ring can be seen to be the free abelian group on the set $G / H_1 , G / H_2, \ldots, G / H_t$ of $G$, where $H_{1}, \ldots, H_{t}$ are representatives of the distinct conjugacy classes of $G$, equipped with the product described in Definition \ref{BurnsideMultiplicities}. 
+
 ## Properties
 
 ### In terms of the table of marks
