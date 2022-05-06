@@ -2011,8 +2011,7 @@ of _[[super Lie algebras]]_ and of [[super L-∞ algebras]] ([[super Lie n-algeb
 +-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
 ###### Definition
 
-A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
-to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}).
+A _[[super Lie algebra]]_ is a [[Lie algebra object]] [[internalization|internal]] to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}).
 Hence this is
 
 1. a [[super vector space]] $\mathfrak{g}$;
