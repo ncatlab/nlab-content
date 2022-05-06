@@ -52,7 +52,7 @@ technique for answering nonperturbative questions, but to date there remain open
 
 
 
-* {#Brambilla14} Brambilla et al., _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+* {#Brambilla14} Brambilla et al., _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723). [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
 >  The success of the technique does not remove the challenge of understanding the non-perturbative aspects of the theory. The two aspects are
 deeply intertwined. The Lagrangian of QCD is written in terms of quark and gluon degrees of freedom which become apparent at large energy but remain hidden inside hadrons in the low-energy regime. This confinement property is related to the increase of $\alpha_s$ at low energy, but it has never been
