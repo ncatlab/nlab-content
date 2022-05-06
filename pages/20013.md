@@ -144,6 +144,8 @@ Textbook accounts and lecture notes include
 
 * {#tomDieck09} [[Tammo tom Dieck]], section 5.1 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
+* {#LuxPahlings10} Klaus Lux, Herbert Pahlings, section 3.5 of _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
+
 Computer implementation is discussed in
 
 * {#GAP} [GAP](https://www.gap-system.org/) [Reference Manual](https://www.gap-system.org/Manuals/doc/ref/chap0.html), _[70 Tables of Marks](https://www.gap-system.org/Manuals/doc/ref/chap70.html)_
