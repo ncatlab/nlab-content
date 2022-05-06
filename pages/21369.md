@@ -16,12 +16,12 @@
 
 ## Idea
 
-The $a_1$-meson is the [[light meson]] which (in the [[Wigner classification]]) is the [[Lorentz group|Lorentz]] [[spin group]] [[vector representation]] as well as the [[isospin]] [[vector representation]].
+The $a_1$-meson is the [[light meson]] which (in the [[Wigner classification]]) is the [[Lorentz group|Lorentz]] [[spin group]] [[pseudo-vector representation]] as well as the [[isospin]] [[vector representation]].
 
 This is the [[chiral partner]] of the [[rho-meson]].
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
