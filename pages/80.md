@@ -86,6 +86,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * [[analytic philosophy]]
 * [[philosophy of mathematics]], [[predicative mathematics]]
 * [[philosophy of science]], [[philosophy of physics]]
+* [[Judea Pearl]]
 
 ### General
 
