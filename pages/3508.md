@@ -29,19 +29,33 @@ Related $n$Lab entries include [[Picard-Vessiot theory]], [[Riemann-Hilbert prob
   
 * B. Gambier, _Sur les équations différentielles du second ordre et du premier degré dont l'intégrale générale est à points critiques fixes_ Acta Math. __33__ (1910) 1–55
 
-#### Collection 1hundred years
+#### Collection one century later
 
-* _The Painleve property, one century later_, Robert Conte, ed. CRM Series in Mathematical Physics, Springer, 199 [doi](https://doi.org/10.1007/978-1-4612-1532-5)
+* _The Painlevé property, one century later_, Robert Conte, ed. CRM Series in Mathematical Physics, Springer, 1999 [doi](https://doi.org/10.1007/978-1-4612-1532-5)
 
-Among the papers:
+Among the papers in the volume:
 
 * [[Boris Dubrovin]], _Painlevé transcendents in two-dimensional topological field theory_, 287-412
 
 #### Contemporary works
 
+Modern viewpoint to R. Fuchs work 
+
+* Yu. Manin, _Sixth Painlevé equation, universal elliptic curve, and mirror of $\mathbf{P}^2$_, In: Geometry of Differential Equations, ed. by A. Khovanskii, A. Varchenko, V. Vassiliev. Amer. Math. Soc. Transl. (2), vol. 186 (1998) 131–151 [alg–geom/9605010](https://arxiv.org/abs/alg-geom/9605010)
+
+Connection to [[mirror symmetry]] is in
+
+* Yu. I. Manin, _Rational curves, elliptic curves, and the Painlevé equation_, Surveys in modern mathematics, London Math. Soc. Lec. Note Ser. __321__, Cambridge Univ. Press 2005, 24-33 [doi](https://doi.org/10.1017/CBO9780511614156.004) MR2166923
+
+An arithmetic analogue is studied in 
+
+* Alexandru Buium, Yuri I. Manin, _Arithmetic differential equations of Painlevé VI type_, in: Arithmetic and Geometry, Luis Dieulefait, Gerd Faltings, D. R. Heath-Brown, B. Z. Moroz, Cambridge Univ. Press 2015, [arxiv/1307.3841](https://arxiv.org/abs/1307.3841)
+
+* Emma Previato, E. (2018) Curves in isomonodromy and isospectral deformations: Painlev\'e VI as a case study. In: Algebraic curves and their applications. Contemporary Math. 724 (2018) 258-276, Amer. Math. Soc. 
+
 * Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
 
-* Hiroshi Umemura, _Second proof of the irreducibility of the first differential equation of Painlevé_, Nagoya Math. J. __117__, 125-171 [doi](https://doi.org/10.1017/S0027763000001835)
+* Hiroshi Umemura, _On the irreducibility of the first differential equation of Painlevé_, Algebraic geometry and commutative algebra, Vol. II, Kinokuniya, Tokyo (1988) 771–789; _Second proof of the irreducibility of the first differential equation of Painlevé_, Nagoya Math. J. __117__, 125-171 [doi](https://doi.org/10.1017/S0027763000001835)
 * Robert Conte, Micheline Musette, _The Painlevé handbook_
 
 * Henryk &#379;o&#322;&#261;dek, _The monodromy group_, Monografie Matematyczne __67__, 588 pp. Birkh&#228;user 2006
@@ -49,7 +63,7 @@ Among the papers:
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
 
 * A. A. Bolibruch, A. R. Its, A. A. Kapaev, _On the Riemann&#8211;Hilbert&#8211;Birkhoff inverse monodromy problem and the Painlev&#233; equations_, &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072; &#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;, 16:1 (2004), 121&#8211;162 
-
+* M. V. Babich, _Isomonodromic deformations and Painlevé equations_, Constr. Approx. 41:3 (2015) 335-356 [doi](https://doi.org/10.1007/s00365-015-9286-2)
 * Leonid O. Chekhov, Marta Mazzocco, Vladimir N. Rubtsov, _Painlevé monodromy manifolds, decorated character varieties, and cluster algebras_, IMRN __24__ (2017) 7639–7691 [arxiv/1511.03851](https://arxiv.org/abs/1511.03851) [doi](https://doi.org/10.1093/imrn/rnw219); _Algebras of quantum monodromy data and decorated character varieties_, [arxiv/1705.01447](https://arxiv.org/abs/1705.01447); _Quantised Painlevé monodromy manifolds, Sklyanin and Calabi-Yau algebras_, [arxiv/1905.02772](https://arxiv.org/abs/1905.02772)
 
 * Marco Bertola, _Fredholm determinants and (noncommutative) Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentations/Bertola.pdf)
@@ -67,6 +81,7 @@ Multidimensional generalizations of Painlev&#233; VI are introduced in
 #### Model-theoretic aspects
 
 * Joel Nagloo, _Geometric triviality of the strongly minimal second Painlevé equations_ Annals of Pure and Applied Logic, 166(3):358–368, 2015.
+* J. Nagloo, A. Pillay, _On  the  algebraic  independence  of  generic  Painlevé transcendents_, Compos.Math. 150 (2014) 668-678.
 * James Freitag, _Algebraic relations between solutions of Painlevé equations_, [arXiv:1710.03304](https://arXiv.org/abs/1710.03304)
 * Guy Casale, James Freitag, Joel Nagloo, _Ax-Lindemann-Weierstrass with derivatSives and the genus 0 Fuchsian groups_, Annals of Mathematics __192__ (2020), 721–765 [doi](https://doi.org/10.4007/annals.2020.192.3.2)
 
