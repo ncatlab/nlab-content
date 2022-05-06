@@ -15,9 +15,16 @@ For $X$ a [[smooth manifold]], the [[generalized tangent bundle]] $T X \oplus T^
 
 ### Maximal compact subgroup
 
-The [[maximal compact subgroup]] of the Narain group is the product group $O(n) \times O(n)$. A [[reduction of the structure group]]  of the [[generalized tangent bundle]] along the inclusion defines a [[type II geometry]].
+The [[maximal compact subgroup]] of the Narain group is the product group $O(n) \times O(n)$ (e.g. [Ooguri-Yin 96, p. 44](#OoguriYin96)). 
+
+A [[reduction of the structure group]]  of the [[generalized tangent bundle]] along the inclusion defines a [[type II geometry]].
+
 
 ## Related concepts
 
 [[!include table of orthogonal groups and related]]
 
+
+## References
+
+* {#OoguriYin96} [[Hirosi Ooguri]], Zheng Yin, _TASI Lectures on Perturbative String Theories_ ([arXiv:hep-th/9612254](https://arxiv.org/abs/hep-th/9612254))
