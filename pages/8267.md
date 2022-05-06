@@ -463,7 +463,7 @@ The following two statements are direct consequences (special cases) of the sala
 ###### Corollary
 **(extramural isomorphisms)**
 
-If the rows of a double complex are exact at the domain and codomain of a horizontal morphism $\partial^{hor} : A \to B$, hence if  $A^{hor} = 0$ and $B^{hor} = 0$, then the extramural map of lemma \ref{Extramural}
+If the rows of a double complex are exact at the domain and codomain of a horizontal morphism $\partial^{hor} : A \to B$, i.e. if  $A^{hor} = 0$ and $B^{hor} = 0$, then the extramural map of lemma \ref{Extramural}
 
 $$
   A_{\Box} \to {}^\Box B
