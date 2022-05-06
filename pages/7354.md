@@ -65,10 +65,14 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 ### Surveys and lecture notes
 
+
+
 * {#Schwarz97} [[John Schwarz]], _Lectures on Superstring and M Theory Dualities_, Nucl. Phys. Proc. Suppl. 55B:1-32, 1997 ([arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201))
 
 
 * [[Michael Dine]], _String Theory Dualities_ ([arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051))
+
+* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
 * Stefan Forste, [[Jan Louis]], _Duality in String Theory_, Nucl. Phys. Proc. Suppl. 61A:3-22, 1998 ([arXiv:hep-th/9612192](https://arxiv.org/abs/hep-th/9612192))
 
@@ -82,8 +86,12 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 More on dualities induced on [[K3]]-compactifications:
 
-
 * [[Paul Aspinwall]], _K3-surfaces and string duality_ ([arXiv:hep-th/9611137](http://arxiv.org/abs/hep-th/9611137))
+
+More in view of the [[landscape of string theory vacua]]:
+
+* {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
+
 
 Also
 
