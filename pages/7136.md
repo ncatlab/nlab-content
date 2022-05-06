@@ -7,6 +7,8 @@
 
 * [[Horava-Witten theory]]
 
+* [[flavour anomaly]]
+
 * [[hydrogen line]]
 
 category: people
