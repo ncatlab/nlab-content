@@ -9,6 +9,7 @@ A reasonable rule would be that the author should delete it when they are finish
 Obviously as we play with these then we'll learn various strategies.  These should be added to the [[FAQ]] or [[HowTo]] pages as appropriate.  Maybe we should have a list of SVGs in the n-Lab so that people can find examples of what can be done and how to do it, this could be commented with  what has had to be done to get it to work in Instiki.  If someone has a particularly nice example, or one they're particularly proud of, but doesn't really fit into an "honest" page on the n-Lab then may I suggest they put it on their userpage (I'll probably do that with the "map of manifolds" one since it doesn't really fit anywhere else).
 
 
+
 ##### Original import from the [[Sandbox]] #####
 
 Testing tikzpicture to svg capability.
@@ -644,7 +645,6 @@ Finally, here's the same but run through the command-line version of scour:
   <path id="path3177" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="matrix(1 0 0 -1 604.29 447.62)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="4, 1" stroke-width="1"/>
  </g>
 </svg>
-
 
 category: meta
 
