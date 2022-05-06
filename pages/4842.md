@@ -238,6 +238,8 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 * [[Kontsevich integral]]
 
+* [[universal Vassiliev invariant]]
+
 * [[knot theory]]
 
 * [[Jones polynomial]]
