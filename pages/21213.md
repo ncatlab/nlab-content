@@ -70,7 +70,7 @@ $$
 #### The $\omega$-$\rho$-$\pi$-coupling
  {#TheOmegaRhoPiCoupling}
 
-Then there is an [[omega-meson|ω]]-[[rho-meson|ρ]]-[[pion|π]]-coupling
+Then there is an [[omega-meson|ω]]-[[rho-meson|ρ]]-[[pion|π]]-coupling given by the anomalous part of the [[chiral perturbation theory|chiral]] [[WZW-term]]:
 
 $$
   g_{\omega \rho \pi} 
@@ -134,23 +134,14 @@ See also:
 
 * Wikipedia, _[Omega meson](https://en.wikipedia.org/?title=Omega_meson)_
 
-### In the Skyrme model
 
-Original proposal for inclusion of the [[ω-meson]] into the [[Skyrme model]]:
 
-* {#AdkinsNappi84} [[Gregory Adkins]], [[Chiara Nappi]], _Stabilization of Chiral Solitons via Vector Mesons_, Phys. Lett. 137B (1984) 251-256 ([spire:194727](http://inspirehep.net/record/194727), <a href="https://doi.org/10.1016/0370-2693(84)90239-9">doi:10.1016/0370-2693(84)90239-9</a>)
 
-Including also the [[rho-meson]]:
+[[!include Skyrme hadrodynamics with vector mesons -- references]]
 
-* {#MeissnerKaiserWeise87} [[Ulf-G. Meissner]], [[Norbert Kaiser]], [[Wolfram Weise]], _Nucleons as skyrme solitons with vector mesons: Electromagnetic and axial properties_, Nuclear Physics A Volume 466, Issues 3–4, 11–18 May 1987, Pages 685-723 (<a href="https://doi.org/10.1016/0375-9474(87)90463-5">doi:10.1016/0375-9474(87)90463-5</a>)
 
-Further discussion:
 
-* {#ParkVento09} Byung-Yoon Park, Vicente Vento, _Skyrmion approach to finite density and temperature_ ([arXiv:0906.3263](https://arxiv.org/abs/0906.3263), [doi:10.1142/9789814280709_0005](https://doi.org/10.1142/9789814280709_0005)), Chapter 5 in:  _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-Review:
-
-* Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
 ### Couplings
 
