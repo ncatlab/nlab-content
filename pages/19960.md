@@ -36,14 +36,34 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 
 
 ### Top-down models
+ {#TopDownModels}
 
-A popular [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Wittn 98](#Wittn98), see [Rebhan 14](#Rebhan14) for review. This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
+A good [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Witten 98](#Witten98), see [Rebhan 14](#Rebhan14) for review. 
+
+This model realizes something close to [[QCD]] on [[intersecting D-brane models|coincident]] [[black brane|black]] [[M5-branes]] with [[near horizon geometry]] a [[KK-compactification]] of $AdS_7 \times S^4$ in the decoupling limit where the [[worldvolume]] theory becomes the [[6d (2,0)-superconformal SCFT]]. The [[KK-compactification]] is on a [[torus]] with anti-periodic boundary conditions for the [[fermions]] in one direction, thus [[spontaneous symmetry breaking|breaking]] all [[supersymmetry]]. Here the first circle [[KK-compactification|reduction]] realizes, under [[duality between M-theory and type IIA string theory]], the [[M5-branes]] as [[D4-branes]], hence the model now looks like 5d [[Yang-Mills theory]] further [[KK-compactification|compactified]] on a circle. ([Witten 98, section 4](#Witten98)). 
+
+This already produces a pure [[Yang-Mills theory]] whose [[glueball]]-spectra  may usefully be compared to those of [[QCD]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GlueballSpectrumSSWModel.jpg" width="700">
+</center>
+
+> graphics grabbed from [Rebhan 14](#Rebhan14)
+
+The further introduction of [[intersecting D-brane model|intersecting]] [D8-branes]] and [[anti D-brane|anti]] [[D8-branes]] makes a sensible sector of [[chiral fermions]] appear in this model ([Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05))
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
 </center>
 
 > graphics grabbed from [Erlich 09, section 1.1](#Erlich09)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/IntersectingBranesSSWModel.jpg" width="700">
+</center>
+
+> graphics grabbed from [Rebhan 14](#Rebhan14)
 
 
 ### Bottom-up models
@@ -73,6 +93,18 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 </center>
 
 > graphics grabbed from [GKMMN 10](#GKMMN10)
+
+
+## Properties
+
+### Baryons as solitons/Skyrmions
+ {#BaryonsAsSolitons}
+
+In the [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] ([above](TopDownModels)) [[baryons]] appear as [[solitons]]/[[skyrmions]] ([Bartolini 17](#Bartolini17)). 
+
+See [Rebhan 14, around (18)](#Rebhan14) for brief review and see the References [below](#ReferencesBaryonsSkyrmions) for more
+
+
 
 
 ## References
@@ -108,11 +140,11 @@ The top-down Sakai-Sugimoto model is due to
 
 based on 
 
-* {#Wittn98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
+* {#Witten98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
 
 further developed in 
 
-* Lorenzo Bartolini, Stefano Bolognesi, Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
+* {#Bartolini17} Lorenzo Bartolini, Stefano Bolognesi, Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
 reviewed in 
 
@@ -160,8 +192,6 @@ Review:
 
 * Johanna Erdmenger, Nick Evans, Ingo Kirsch, Ed Threlfall, _Mesons in Gauge/Gravity Duals - A Review_, Eur.Phys.J.A35:81-133, 2008 ([arXiv:0711.4467](https://arxiv.org/abs/0711.4467))
 
-* Deog Ki Hong, _Baryons in holographic QCD_, talk at _From Strings to Things_ 2008 ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
-
 * Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_ ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
 
@@ -192,6 +222,27 @@ Original articles:
 * Meng Lv, Danning Li, Song He, _Pion condensation in a soft-wall AdS/QCD model_ ([arXiv:1811.03828](https://arxiv.org/abs/1811.03828))
 
 * Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
+
+### Application to baryons as solitons/Skyrmions
+ {#ReferencesBaryonsSkyrmions}
+
+Specifically application to [[baryon]] physics via [[solitons]]/[[Skyrmions]]:
+
+* Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
+
+* Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Brane-induced Skyrmions: Baryons in Holographic QCD_, Prog.Theor.Phys.Suppl.168:231-236, 2007 ([arXiv:hep-th/0701007](https://arxiv.org/abs/hep-th/0701007))
+
+* Deog Ki Hong, _Baryons in holographic QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
+
+* Hovhannes R. Grigoryan, _Baryon as skyrmion-like soliton from the
+holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](https://www.jlab.org/div_dept/theory/talks/2008/grigoryan08_INT.pdf))
+
+* Paul Sutcliffe, _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023)) 
+
+* Paul Sutcliffe, _Holographic Skyrmions_, Mod.Phys.Lett. B29 (2015) no.16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
+
+* Stefano Bolognesi, Paul Sutcliffe, _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
+
 
 ### Application to glueball physics
 
@@ -240,5 +291,17 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 [[!redirects AdS-QCD]]
 [[!redirects AdS/QCD]]
 
+[[!redirects Sakai-Sugimoto model]]
+[[!redirects Sakai-Sugimoto models]]
+
+[[!redirects Witten-Sakai-Sugimoto model]]
+[[!redirects Witten-Sakai-Sugimoto models]]
+
+[[!redirects Sakai-Sugimoto-Witten model]]
+[[!redirects Sakai-Sugimoto-Witten models]]
+
+
 [[!redirects improved holographic QCD]]
+
+
 
