@@ -302,9 +302,10 @@ etc.
 <img src="https://ncatlab.org/nlab/files/SingleTraceOprtrAsWeightSystemOnChordDiagram.jpg" width="830">
 </center>
 
-
 The values of the traces in the last line are
 the values of the [[Lie algebra weight system]] $w_C$ on the [[chord diagram]] which reflects the Wick-contractions modulo cyclic permutation.
+
+Essentially this observation (specifically for [[SYK-model]]-like systems and without mentioning of [[weight systems]]) appears in [GGJJV 18, Section 2.2](#GGJJV18), [Jia-Verbaarschot 18, Section 4](#JiaVerbaarschot18), [BNS 18, Section 2.1](#BNS18), [BINT 18, Section 2](#BINT18), [Narovlansky 19, Slides 5-21](#Narovlansky19).
 
 
 ## Related concepts
@@ -350,6 +351,18 @@ and fully explicit in
 For complex-valued weight systems see also
 
 * Alexander Schrijver, _On Lie algebra weight systems for 3-graphs_ ([arXiv:1412.6923](https://arxiv.org/abs/1412.6923))
+
+The observation that round chord diagrammatics controls the contractions in expectation values of [[single trace observables]] subject to [[Wick's theorem]] appears (specifically in disucssion of [[SYK model]]-like systems and without mentioning of [[weight systems]]) in the following articles (see also at [[weight systems on chord diagrams in physics]]):
+
+* {#GGJJV18} Antonio M. García-García, Yiyang Jia, Jacobus J. M. Verbaarschot, Section 2.2 _Exact moments of the Sachdev-Ye-Kitaev model up to order $1/N^2$_, JHEP 04 (2018) 146 ([arXiv:1801.02696](https://arxiv.org/abs/1801.02696))
+ 
+* {#JiaVerbaarschot18} Yiyang Jia, Jacobus J. M. Verbaarschot, Section 4 of: _Large $N$ expansion of the moments and free energy of Sachdev-Ye-Kitaev model, and the enumeration of intersection graphs_, JHEP 11 (2018) 031 ([arXiv:1806.03271](https://arxiv.org/abs/1806.03271))
+
+* {#BNS18} [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], Section 2.1 of _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
+
+* {#BINT18} [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 2 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
+
+* {#Narovlansky19} Vladimir Narovlansky, Slides 5 to 21 of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
 
 ### For $\mathfrak{sl}(2)$
 
