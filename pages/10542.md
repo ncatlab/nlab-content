@@ -390,7 +390,7 @@ where the [[quotient group|quotient]] is by the [[cyclic group|cyclic]] [[subgro
 
 \end{prpn}
 
-This was claimed without proof in [Dubois-Violette & Todorov 18](#DuboisVioletteTodorov18).
+This was claimed without proof in [Dubois-Violette & Todorov 18](#DuboisVioletteTodorov18). See also [Krasnov 19](#Krasnov19).
 
 \begin{proof} By Prop. \ref{JordanAlgebraAutomorphismsFixingAnImaginaryOctonion} (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of [[SU(3)]] of [[matrices]] that may be written in the form
 
@@ -545,6 +545,11 @@ Attempts to identify aspects of the [[standard model of particle physics]] withi
 * {#DuboisVioletteTodorov18} Michel Dubois-Violette, Ivan Todorov, _Exceptional quantum geometry and particle physics II_ ([arXiv:1808.08110](https://arxiv.org/abs/1808.08110))
 
 * Ivan Todorov, _Exceptional quantum algebra for the standard model of particle physics_ ([arXiv:1911.13124](https://arxiv.org/abs/1911.13124))
+
+Details are in
+
+* {#Krasnov19} [[Kirill Krasnov]], _$SO(9)$ characterisation of the Standard Model gauge group_ ([arXiv:1912.11282](https://arxiv.org/abs/1912.11282))
+
 
 
 
