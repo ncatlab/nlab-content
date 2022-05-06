@@ -680,9 +680,13 @@ Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rat
 
 * Maths.SE, _[Framed Cobordism Classes of links in $\mathbb{R}^3$](https://math.stackexchange.com/q/426482/58526)_
 
-### Relation to robust zero sets
+### Application to persistency
+
+Application of Cohomotopy similar to that of [[persistent homology]]:
+
 
 * Peter Franek, Marek Krčál, _Persistence of Zero Sets_, ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310)); accompanying talk, _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, ([slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
+
 
 ### Equivariant Cohomotopy
 
