@@ -404,9 +404,14 @@ See also
 
 Classical accounts of the general case include
 
+* [[Pierre Deligne]], [[Michael Rapoport]], _Les Schémas de Modules de Courbes Elliptiques_ In: Deligne P., Kuijk W. (eds) _Modular Functions of One Variable II_, Lecture Notes in Mathematics, vol 349. Springer (1973) ([doi:10.1007/978-3-540-37855-6_4](https://doi.org/10.1007/978-3-540-37855-6_4))
+ 
+
 * [[Pierre Deligne]], _Courbes Elliptiques: Formulaire (d'apres J. Tate)_ ([web](http://modular.math.washington.edu/Tables/antwerp/deligne/))
 
-* Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024) 
+
+
+* [[Nicholas Katz]], [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, 1985 ([jstor:j.ctt1b9s05p](https://www.jstor.org/stable/j.ctt1b9s05p))
 
 Introductory lecture notes for elliptic curves over the complex numbers include
 
