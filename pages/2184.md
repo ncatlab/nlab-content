@@ -235,6 +235,8 @@ But I can't determine *exactly* what it is, because, if you read the first parts
 
 * [[graph complex]], [[formality of the little n-disk operad]]
 
+* [[graph of groups]]
+
 ## References
 
 Textbooks:
