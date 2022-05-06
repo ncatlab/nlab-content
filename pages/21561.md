@@ -15,19 +15,21 @@ The following works for both weak and strict 2-categories and weak and strict 2-
 
 \end{defn} 
 
-\begin{rmk} \label{RemarkFirstConditionInLackFibrationAsLiftingCondition} Let $Q$ be the [[free-standing equivalence]]. Then condition 1. in Definition \ref{DefinitionLackFibration} can be expressed as: for every (strictly!) commutative diagram of 1-arrows
+\begin{rmk} \label{RemarkFirstConditionInLackFibrationAsLiftingCondition} Let $Q$ be the [[free-standing equivalence]]. Then condition 1. in Definition \ref{DefinitionLackFibration} is equivalent to saying that for every (strictly!) commutative diagram of 1-arrows
 
 \begin{tikzcd}
 1 \ar[r, "e"] \ar[d, swap, "0"] & E \ar[d, "p"] \\
 Q \ar[r, swap, "f"] & B
 \end{tikzcd}
 
-in $\mathsf{2-Cat}$, the [[2Cat|2-category of 2-categories]], there is a unique functor $l: Q \rightarrow E$ such that the following diagram of 1-arrows in $\mathsf{2-Cat}$ (strictly!) commutes. 
+in $\mathsf{2-Cat}$, the [[2Cat|2-category of 2-categories]], there is a functor $l: Q \rightarrow E$ such that the following diagram of 1-arrows in $\mathsf{2-Cat}$ (strictly!) commutes. 
 
 \begin{tikzcd}
 1 \ar[r, "e"] \ar[d, swap, "0"] & E \ar[d, "p"] \\
 Q \ar[r, swap, "f"] \ar[ur, "l"] & B
 \end{tikzcd}
+
+The same is true if $Q$ is the [[free-standing adjoint equivalence]], due to the fact that any equivalence can be improved to an [[adjoint equivalence]].
 
 \end{rmk}
 
@@ -35,11 +37,11 @@ Q \ar[r, swap, "f"] \ar[ur, "l"] & B
 
 \section{References}
 
-The following was where Lack fibrations were introduced, but contains an 'error'. The error does not pertain directly to the definition of a Lack fibration itself, but to obtaining a model structure on the [[2Cat|category of strict 2-categories]] with this definition.
+The following was where Lack fibrations were introduced.  It contains an error, not pertaining directly to the definition of a Lack fibration itself, but to obtaining a model structure on the [[2Cat|category of strict 2-categories]] with this definition.
 
 * [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory 26, No. 2, 171-205 (2002). [Zentralblatt review](https://zbmath.org/?q=an%3A1017.18005) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html) 
 
-The afore-mentioned 'error' was fixed in the following paper, that is to say, the definition of a Lack fibration was tweaked to that which is presented here.
+The afore-mentioned error was fixed in the following paper by using the [[free-standing adjoint equivalence]] rather than the free-standing equivalence in the generating acyclic cofibrations.
 
 * [[Stephen Lack]], _A Quillen model structure for bicategories_, K-Theory 33, No. 3, 185-197 (2004). [Zentralblatt review](https://zbmath.org/?q=an%3A1069.18008) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmcbicat.html)
 
