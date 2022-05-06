@@ -20,7 +20,9 @@
 
 ## Idea
 
-Given a given [[intuitionistic logic]] framework, such as a [[type theory]], the _logical topology_ ([Penon 81](#Penon81)) on a given object ([[type]]) is that whose [[open subsets]] contain for every point $x$ also the collection of points that are indistinguishable from it in [[classical logic]], hence that are [[double negation|not not]] equal to $x$.
+Given a given [[intuitionistic logic]] framework, such as a [[type theory]], the _logical topology_ ([Penon 81](#Penon81)) on a given object ([[type]]) $X$ is that whose [[open subsets]] are the sets $U$ for which any $X - \{x\}$ and $U$ cover $X$. This implies that an open subset contains for every point $x$ also the collection of points that are indistinguishable from it in [[classical logic]], hence that are [[double negation|not not]] equal to $x$.
+
+The notion of Penon open is closely related to that of Zariski open. Consider the affine line $\mathbb{A} : \text{fpRing} \to \text{Set}$ as the forgetful functor from finitely presented rings to sets. The (category theorists') big Zariski topos is the largest subtopos of this topos of functors in which $\mathbb{A}$ is a local ring. A ring is local if for all $y$, either $y$ or $1- y$ is invertible; equivalently, we may ask that either $y$ or $x - y$ is invertible for a given invertible element $x$, by homogeneity. In this case, the locality of $\mathbb{A}$ is equivalent to the subset $\mathbb{G}_m \hookrightarrow \mathbb{A}$ of invertible elements being logically open.
 
 ## Related concepts
 
