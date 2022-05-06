@@ -44,6 +44,8 @@ This can also be [[internalisation|internalised]] in any [[monoidal category]].
 
 ## Proofs
 
+[[string diagram|String diagrams]] allow an almost trivial proof. Since there is only one object, and the only 1-morphism is the identity, the diagram of $a \circ b$ (vertical composition) is simply two dots labelled $a, b$ arranged vertically. This diagram can be morphed continuously to a horizontal arrangement, which is the diagram for $a * b$ (horizontal composition). This is then morphed to $a$ below $b$, which is the diagram for $b \circ a$.
+
 A [[pasting diagram]]-proof of \ref{2cat} is depicted in [Cheng](#Cheng) below.  Here we prove the $6$-element general form in $Set$.
 
 +-- {: .proof}
