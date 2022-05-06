@@ -313,7 +313,7 @@ Similarly, we can have a [[factorization system in an (∞,1)-category]], and so
 * [[André Joyal]] _[[joyalscatlab:Factorization systems]]_
  {#Joyal}
 
-* {#KorostenskiTholen} Mareli Korostenski, [[Walter Tholen]], _Factorization systems as Eilenberg-Moore algebras, ([doi](https://doi.org/10.1016/0022-4049(93)90171-O))
+* {#KorostenskiTholen} Mareli Korostenski, [[Walter Tholen]], _Factorization systems as Eilenberg-Moore algebras, ([doi](https://doi.org/10.1016/0022-4049%2893%2990171-O))
 
 [[!redirects orthogonal factorization system]]
 [[!redirects orthogonal factorization systems]]
