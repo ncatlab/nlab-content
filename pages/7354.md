@@ -32,11 +32,15 @@ The general duality principles in string theory are these:
 
 * **[[U-duality]]** .
 
-By applying these, possibly cosecutively, to various corners in the string theory space, one obtains (conjecturally) the following "string-string dualities":
+By applying these, possibly cosecutively, to various corners in the string theory space, one obtains ([[conjecture|conjecturally]]) the following 
+
+[[string-string duality]]
 
 * [[duality between type I and heterotic string theory|I - HET]]
 
 * [[duality between heterotic and type II string theory|HET - II]]
+
+[[M-theory]]
 
 * [[duality between M-theory and heterotic string theory|M - HET]]
 
@@ -44,13 +48,11 @@ By applying these, possibly cosecutively, to various corners in the string theor
 
 * [[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations|M - IIB]]
 
+[[F-theory]]
+
 * [[duality between M-theory and F-theory|M - F]]
 
 * [[duality between F-theory and heterotic string theory|F - HET]]
-
-
-
-[[duality in string theory -- contents]]
 
 
 Then there is also the
