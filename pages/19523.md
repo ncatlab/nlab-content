@@ -55,6 +55,12 @@ mathematics clearly shows that in principle backreaction terms affect the overal
 of the Universe. It is therefore an important goal of cosmologists to obtain a theoretical understanding of the size of cosmic backreaction in the real universe similarly to e.g. the
 desire to theoretically understand the value of the vacuum energy density. 
 
+From [CosmoBack 18](#CosmoBack18):
+
+> Since the early 2000's a large debate emerged in the cosmology community around the so-called «averaging problem» (Buchert 2000; Ellis & Buchert 2005), a question introduced on a more general ground in general relativity by G.F.R. Ellis in 1962. Because on the non-linearity of the Einstein equations, a non-trivial backreaction effect of the small-scale matter inhomogeneities is expected on the average large-scale dynamics of the spacetime. The occurrence of the late-time accelerated expansion of the universe at the same epoch when structure formation becomes non-linear is a tempting coincidence encouraging the backreaction conjecture against the real need of a dark energy component, which is needed instead in a Friedmann-Lemaître-Robertson-Walker setting. Besides, the same backreaction mechanism also accounts for an energy source dynamically equivalent to the dark matter. These arguments are often supported by toy models but not demonstrated in general, both from a theoretical and observational point-of-view. Simplified inhomogeneous models have been proposed to interpret the non-trivial dynamics of structures and the light propagation on cosmological scales. Only recently cosmological fully general-relativistic N-body simulations have been realised, offering a valuable ground to investigate the geometry of a realistic, "lumpy" universe.
+
+
+
 
 {#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
@@ -126,11 +132,17 @@ Similarly in [Huang-Gao-Xu 19, p. 2](#HuangGaoXu19):
 
 > The lack of solid proof $[...]$ is a more serious concern.
 
+and [CosmoBack 18](#CosmoBack18):
+
+> Indeed, the actual amplitude of the backreaction effect, whether it requires a fully nonlinear general relativistic treatment or whether a perturbative approach is sufficient, the impact of the gauge choice, of coarse-graining, and of averaging procedures in defining the observables are still open problems. 
+
 and [Koksbang 19, p. 3](#Koksbang19):
 
 >  Whichever is the case, a theoretical quantification of cosmic backreaction is necessary for getting the foundations of cosmology onto solid ground; the
 mathematics clearly shows that in principle backreaction terms affect the overall dynamics
 of the Universe. 
+
+
 
 
 Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Sarkar et al. 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
@@ -209,8 +221,9 @@ See also
 
 * {#Koksbang19} S. M. Koksbang, _Towards statistically homogeneous and isotropic perfect fluid universes with cosmic backreaction_, Class. Quantum Grav. 36 185004, 2019 ([arxiv:1907.08681](https://arxiv.org/abs/1907.08681))
 
+* {#CosmoBack18} [CosmoBack 2018](https://cosmoback.sciencesconf.org/) , _From inhomogeneous gravity to cosmological backreaction. Theoretical opportunity? Observational evidence?_
 
-
+* Syksy Räsänen, _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org ([[RasanenWaysToSettle18.pdf:file]])
 
 
 
