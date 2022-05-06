@@ -9,13 +9,16 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-'Object-oriented programming' (OOP) is an approach to software development based on structuring code around _objects_. There are many possible frameworks for OOP, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language)), and the 'everything is an object' approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). Alan Kay, one of the creators of Smalltalk, famously said "I made up the term 'object-oriented', and I can tell you I did not have C++ in mind."
+An _object_ in the sense of _object-oriented_ [[programming languages]] (OOP) is a language construct that groups [[data types]] together with [[function types]] of functionalities ("methods") that read/write this data. Often there is an emphasis on the possibility of defining such object specifications successively ("inheritance"), with one object definition inheriting the collection of data and functions from another one, and then adding its own.
+
+There exist various different frameworks for OOP, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language)), and the 'everything is an object' approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). Alan Kay, one of the creators of Smalltalk, famously said "I made up the term 'object-oriented', and I can tell you I did not have C++ in mind."
 
 ## Relation to category theory
 
@@ -43,7 +46,7 @@ Although, in the context of [[computer science]], [[category theory]] is perhaps
 
 * {#Jacobs2003} [[Bart Jacobs]], Erik Poll, _Coalgebras and monads in the semantics of Java_, Theoretical Computer Science Volume 291 Issue 3, 2003 ([doi:10.1016/S0304-3975(02)00366-3](https://www.sciencedirect.com/science/article/pii/S0304397502003663))
 
-* {#Story2018}, Henry Story, _[Why is functional programming seen as the opposite of OOP rather than an addition to it?](https://www.quora.com/Why-is-functional-programming-seen-as-the-opposite-of-OOP-rather-than-an-addition-to-it/answer/Henry-Story)_, 2018
+* {#Story2018} Henry Story, _[Why is functional programming seen as the opposite of OOP rather than an addition to it?](https://www.quora.com/Why-is-functional-programming-seen-as-the-opposite-of-OOP-rather-than-an-addition-to-it/answer/Henry-Story)_, 2018
 
 [[!redirects object-oriented program]]
 [[!redirects object-oriented programs]]
