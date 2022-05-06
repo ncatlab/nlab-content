@@ -15,7 +15,7 @@
 ## Idea
  {#Idea}
 
-Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $i \colon X \hookrightarrow Y$ of [[codimension]] $n$, the _Thom collapse map_ ([Thom 54](#Thom54)) is the [[continuous function]] from $X$ to the [[n-sphere]] which assigns **asymptotic normal distance** from the [[submanifold]], measured 
+Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $i \colon X \hookrightarrow Y$ of [[codimension]] $n$, the _Thom collapse map_ ([Thom 54](#Thom54)) is the [[continuous function]] from $Y$ to the [[n-sphere]] which assigns **asymptotic normal distance** from the [[submanifold]], measured 
 
 1. in [[direction vector|direction]] [[orthogonality|perpendicular]] to the submanifold, with respect to a [[normal framing]];
 
