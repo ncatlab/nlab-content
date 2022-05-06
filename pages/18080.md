@@ -1,1 +1,1 @@
-Undergraduate student in Physics, Computer Science and Mathematics from New Zealand
+Mathematics and Computer Science postgraduate student from New Zealand
