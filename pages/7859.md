@@ -316,12 +316,10 @@ The relation to [[cohomology]]/[[etale cohomology]] is discussed in
 Jersey (1980)
  {#Milne}
 
-* [[Jean Giraud]], _Cohomologie non abelienne_, Die Grundlehren der mathematischen Wissenschaften, vol. 179, Springer-
-Verlag, Berlin, 1971.
+* [[Jean Giraud]], _Cohomologie non abelienne_, Die Grundlehren der mathematischen Wissenschaften, vol. 179, Springer-Verlag, Berlin, 1971.
  {#Giraud}
 
-* [[Ofer Gabber]], _Some theorems on Azumaya algebras_, Ph. D. Thesis, Harvard University, 1978, Groupe de Brauer, Lecture
-Notes in Mathematics, vol. 844, Springer-Verlag, Berlin, 1981, pp. 129&#8211;209.
+* [[Ofer Gabber]], _Some theorems on Azumaya algebras_, Ph. D. Thesis, Harvard University, 1978, Groupe de Brauer, Lecture Notes in Mathematics, vol. 844, Springer-Verlag, Berlin, 1981, pp. 129&#8211;209.
 
 * [[Aise Johan de Jong]], _A result of Gabber_ ([pdf](http://www.math.columbia.edu/~dejong/papers/2-gabber.pdf))
  {#deJong}
@@ -349,7 +347,7 @@ Unification of all this in a theory of [[(infinity,n)-modules]] is in
 
 The "bigger Brauer group" is discussed in 
 
-* {#Taylor82} J. Taylor, _A bigger Brauer group_ Pacic J. Math. 103 (1982), 163-203 ([projecteuclid](https://projecteuclid.org/euclid.pjm/1102724219))
+* {#Taylor82} J. Taylor, _A bigger Brauer group_ Pacific J. Math. 103 (1982), 163-203 ([projecteuclid](https://projecteuclid.org/euclid.pjm/1102724219))
 
 * {#CaenepeelGrandjean98} S. Caenepeel, F. Grandjean, _A note on Taylor's Brauer group_. Pacific J. Math. 186 (1998), 13-27
 
