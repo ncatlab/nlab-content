@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[KK-compactification]] of [[F-theory]] on [[Spin(7)-manifolds]] to 4d.
+The [[KK-compactification]] of [[F-theory]] on [[Spin(7)-manifolds]] to 4d. Differs subtly from [[F-theory on CY4]].
 
 Related by [[T-duality]] to 3d [[M-theory on Spin(7)-manifolds]]
 
@@ -70,7 +70,11 @@ The concept goes back to
 
 which already mentions the relation to [[Witten's Dark Fantasy]], then developed in
 
-* Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP01(2014)112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+
+* {#BonettiGrimmPugh13} [[Federico Bonetti]], [[Thomas Grimm]], [[Tom Pugh]], _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+
+* {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], Eran Palti, [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
+
 
 * {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
