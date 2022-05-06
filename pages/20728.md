@@ -22,7 +22,7 @@ The old points, which we can think of as deterministic, are embedded in $P X$ vi
 (Monads can be seen as ways of extending our spaces and functions to account for new phenomena, see for example [[extension system]] and [[monad in computer science]].)
 Note that these probability measures are technically different from [[random elements]]: they rather correspond to the [[law of a random variable|laws]] of the random elements.
 
-[[algebra over a monad|Algebras]] of probability monads can be interpreted [[convex spaces]] or [[convex cone|cones]] of a certain kind. For probability theory, in particular, the algebras of a probability monad can be seen as spaces equipped with a notion of [[expectation value]] of a [[random variable]]. 
+[[algebra over a monad|Algebras]] of probability monads can be interpreted [[convex spaces]] or [[conical spaces]] of a certain kind. For probability theory, in particular, the algebras of a probability monad can be seen as spaces equipped with a notion of [[expectation value]] of a [[random variable]]. 
 The details vary depending on the monad and on the category under consideration.
 
 Many choices of categories and of monads are possible, depending on which aspects of measure theory or probability one wants to study. 
