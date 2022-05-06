@@ -4,6 +4,14 @@
 
 ## Selected writings
 
+On [[holographic light front QCD]]:
+
+* [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], 
+_Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
+
+* {#ZhouDosch18} Liping Zou, [[Hans Günter Dosch]], _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
+
+
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
 
 * {#dTDB14}  [[Guy de Teramond]], [[Hans Günter Dosch]], [[Stanley Brodsky]], _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
