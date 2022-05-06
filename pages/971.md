@@ -219,6 +219,10 @@ and
 
 which further stratifies the accessible categories in terms of [[sound doctrines]].
 
+The concept is studied in a 2-categorical setting in
+
+* [[John Bourke]], _Accessible aspects of 2-category theory_ , arXiv:2003.06375 (2020). ([abstract](https://arxiv.org/abs/2003.06375))
+
 A discussion of [[accessible (∞,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
 of
 
