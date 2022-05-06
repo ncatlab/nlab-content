@@ -1,0 +1,30 @@
+##Idea##
+For a [[commutative ring]] $R$ and a finitely generated ideal $I$, the category of $I$-adically complete modules is not [[abelian category|abelian]]. The category of $L$-complete modules is, in some precise sense, the smallest abelian sub-category of $R$-mod which contains the $I$-adically complete modules. Roughly speaking, it is obtained by formally adding [[cokernel]]s of morphisms between $I$-adically complete modules.
+
+##Motivation and definition##
+
+Let $R$ be a commutative ring and $I \subset R$ a finitely generated ideal. The $I$-adic completion of an $R$-module $M$ is the inverse limit
+$$\hat M=\lim_{\leftarrow} M/I^n M.$$
+Let $i:M\rightarrow \hat M$ be the canonical map.
+\begin{definition}
+An $R$-module $M$ is said to be
+
+1. quasi-complete if $i$ is surjective
+1. separated if $i$ is injective
+1. complete if $i$ is bijective.
+
+\end{definition}
+
+The completion functor is idempotent (warning: this is not true in general if $I$ is not finitely generated), hence induces an [[idempotent monad]] on $R$-mod, and is left adjoint to the inclusion of the category $\widehat{R-mod}$ of complete modules into all modules. Hence, $\widehat{R-mod}$ is a [[reflective subcategory]] of $R$-mod. It is not, however, an abelian subcategory: the quotient of two complete modules is not, in general, complete.
+
+A key observation is that the completion functor is not [[right exact functor|right exact]] when seen as an [[endofunctor]] of $R-mod$. Hence, let $L$ be the 0th [[left derived functor]] of the completion functor, which is right exact by definition.
+
+\begin{definition}
+An $R$-module $M$ is called $L$-complete if the canonical map
+$$M\rightarrow L(M)$$
+is an isomorphism.
+\end{definition}
+
+\begin{proposition}
+The category of $L$-complete modules is a full abelian sub-category of $R-mod$.
+\end{proposition}
