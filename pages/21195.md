@@ -55,6 +55,8 @@ somewhat of an oddity and a puzzle that [[Jun John Sakurai|Sakurai's]] [[vector 
 
 * [[form factor]]
 
+[[!include effective field theories of nuclear physics -- contents]]
+
 ## References
 
 ### General
