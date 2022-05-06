@@ -42,7 +42,7 @@ is a [[class]] $S$ of morphisms in $C$ that satisfies the following properties:
 
 \begin{definition}
 A __class of small maps__ in $C$ is a class of open maps $S$ in $C$
-such that every map in $S$ is [[exponentiable]]
+such that every map in $S$ is [[exponential object|exponentiable]]
 and there is a universal map $\pi\colon E\to U$ in $S$
 with the following property: for any $f\in S$ we can [[base change]] $f$ along some [[epimorphism]] $p$ such that the resulting morphism $f'$ is a 
 [[base change]] of $\pi$ along some morphism in $C$.
@@ -53,7 +53,7 @@ An object $X$ of $C$ is __small__ if the map $X\to 1$ is small.
 Intuitively, small maps are maps $X\to Y$ for which preimages
 of any element of $Y$ are sets as opposed to proper classes.
 
-In any [[Heyting pretopos]] the class of [[exponentiable maps]]
+In any [[Heyting pretopos]] the class of [[exponential object|exponentiable maps]]
 satisfies all the axioms of a class of open maps
 with a possible exception of the collection axiom.
 
