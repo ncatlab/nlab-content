@@ -52,11 +52,11 @@ On the [[Weinstein symplectic category]]:
 * [[Nitu Kitchloo]], [[Jack Morava]], _The Grothendieck--Teichm&#252;ller group and the stable symplectic category_, 2012.  ([arxiv:1212.6905](http://arxiv.org/abs/1212.6905))
 
 
-On [[quotient stacks]]
+On [[quotient stacks]]:
 
 * _Theories of anything_ ([arXiv:1202.0684](http://arxiv.org/abs/1202.0684)) 
 
-On the [[canonical formula of myth]]
+On the [[canonical formula of myth]]:
 
 * {#Morava03}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ , arXiv.0306174v2 (2003). ([abstract](http://arxiv.org/abs/math/0306174))
 
