@@ -16,47 +16,66 @@
 
 ## Idea
 
-Consider how the [[complex numbers]] are formed from the [[real numbers]].  If generalized carefully, this kind of operation may be performed again to yield the [[quaternions]], then the [[octonions]] (hence the four real [[normed division algebra]]), then the [[sedenions]], and so on.  
+The _Cayley-Dickson construction_ or _Cayley-Dickson double_ ([Dickson 1919, around (6)](#Dickson1919)) takes a [[real numbers|real]] [[star-algebra]] $A$ to a new real [[star-algebra]] whose elements are [[pairs]] of elements of $A$, hence of twice the [[dimension]] of the original algebra. 
 
-This is a special case of a construction which takes a real [[star-algebra]] $A$ to a new star-algebra whose elements are pairs of elements of $A$.  This operation is the __Cayley--Dickson construction__, named after [[Arthur Cayley]] and [[Leonard Dickson]].
+When iteratively applied to the [[real numbers]], regarded as a [[star-algebra]] with [[identity morphism|trivial]] [[involution]], the Cayley-Dickson construction yields, consecutively, the [[complex numbers]], then the [[quaternions]], then the [[octonions]] (thus all four [[real normed division algebras]]), then the [[sedenions]], ...
 
 
+## Definition
 
-## Definitions
 
 Let $A$ be an [[nonassociative algebra|possibly nonassociative]] [[star-algebra]] over the [[field]] $\mathbb{R}$ of [[real numbers]]: an algebra equipped with an [[involution]] $\overline(-) \colon x \mapsto \overline{x}$ which is an [[antiautomorphism]].  (Actually, $\mathbb{R}$ could be replaced by any [[commutative ring]] in the definitions, although some properties may depend on this ring.)
 
-+-- {: .num_defn }
+### Definition in components
+
++-- {: .num_defn #CayleyDicksonDoubleInComponents}
 ###### Definition
-**(Cayley-Dickson construction, first version)**
+**(Cayley-Dickson construction in components)**
 
-The  _Cayley--Dickson double_ $A^2$ of $A$ is the real algebra whose underlying $\mathbb{R}$-[[vector space]] is is the [[direct sum]] $A \oplus A$, and whose multiplication is given by
+The  _Cayley--Dickson double_ of the [[real numbers|real]] [[star-algebra]] $A$ is the [[real numbers|real]] [[star-algebra]] $CD(A)$
 
-$$
-  (a,b)\cdot(u,v) \coloneqq (a u - \overline{v} b, b \overline{u} + v a),
-$$
+* whose underlying [[real vector space]] is is the [[direct sum]] $A \oplus A$, 
 
-and the formula
+* whose multiplication is given by
 
-$$
-  \widebar{(a,b)} \coloneqq (\overline{a},-b)
-$$
+  \[
+    \label{ProductInComponents}
+    (a,b)      
+    (c, d) 
+     \;\coloneqq\; 
+    (a c - d \overline{b}, \overline{a} d + c b)
+  \]
 
-defines an [[involution|involutive]] [[antihomomorphism|anti]]-[[automorphism]] on $A^2$, so the doubling procedure can be iterated.
+* whose star-[[involution]] is given by
+
+  \[
+    \label{InvolutionInComponents}
+    \widebar{(a,b)} 
+    \;\coloneqq\;
+    (\overline{a},-b)
+   \,.
+  \]
+
 
 =--
 
-The following description is different but equivalent:
+### Definition by generators and relations
 
 +-- {: .num_defn #CayleyDicksonDoubleByAdjoiningFurtherGenerator}
 ###### Definition
 **(Cayley-Dickson double by [[generators and relations]])
 
-The _Cayley-Dickson double_ $A^2$ of $A$ is the real algebra obtained by adjoining one generator $\ell$ to $A$ subject to the following [[generators and relations|relations]]:
+The _Cayley-Dickson double_ of a [[real numbers|real]] [[star-algebra]] $A$ is the [[real numbers|real]] [[star-algebra]] $\widetilde{CD}(A)$ obtained by adjoining one generator $\ell$ to $A$ subject to the following [[generators and relations|relations]]:
 
-$$
-  \ell^2 = -1
-$$
+\[
+  \label{TheNewGenerator}
+  \ell^2 \;=\; -1
+  \,,
+  \phantom{AAA}
+  \overline{\ell}
+  \;=\;
+  - \ell
+\]
 
 and
 
@@ -72,16 +91,265 @@ and
   (a \overline{b}) \ell
   \,,
   \phantom{AA}
-  (\ell a) (b \ell^{-1})
+  (\ell a) (b \ell)
   = 
-  \overline{a b}
+  - \overline{a b}
 \]
 
 for all $a, b \in A$.
 
+=--
+
++-- {: .num_lemma #InducedRelations}
+###### Lemma
+(**induced relations**)
+
+The relation in Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} imply the following further relations:
+
+\[
+  \label{al}
+  a \ell \;=\; \ell \overline{a}
+  \,,
+  \phantom{AA}
+  \ell a \;=\; \overline{a} \ell
+\]
+
+\linebreak
+
+\[
+  (\ell a) b 
+  \;=\;
+  \ell (b a)
+  \,,
+  \phantom{AA}
+  a (b \ell)   
+  \;=\;
+  \cdots
+\]
+
+\linebreak
+
+\[
+  \label{laTimeslb}
+  (\ell a) (\ell b) 
+  \;=\;
+  - b \overline{a}
+  \,,
+  \phantom{AA}
+  (a \ell) (b \ell)
+  \;=\;
+  - \overline{b} a
+\]
+
+for all $a, b \in A$.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Using (eq:DicksonRelations) we have:
+
+\[
+  \begin{aligned}
+  a \ell 
+  & =
+  a (\ell 1)
+  \\
+  & =
+  \ell (\overline{a} 1)
+  \\
+  & =
+  \ell \overline{a}
+  \end{aligned}
+  \phantom{AAA}
+  ,
+  \phantom{AAA}
+  \begin{aligned}
+  \ell a
+  & =
+  (1 \ell) a
+  \\
+  & =
+  (1 \overline{a}) \ell
+  \\
+  & =
+  \overline{a} \ell
+  \end{aligned}
+\]
+
+Using this and (eq:DicksonRelations) we have:
+
+\[
+  \label{lab}
+  \begin{aligned}
+    (\ell a) b
+    & =
+    (\overline{a} \ell ) b
+    \\
+    & =
+    (\overline{a} \overline{b}) \ell
+    \\
+    & =
+    \ell \overline{  
+      \overline{a} \overline{b}
+    }
+    \\ 
+    & =
+    \ell (b a)
+  \end{aligned}
+  \phantom{AAA}
+  ,
+  \phantom{AAA}
+  \begin{aligned}  
+    a (b \ell)
+    & =
+    a (\ell \overline{b})
+    \\
+    & = \ell( \overline{a} \overline{b} )
+    \\
+    & =
+
+    \overline{
+      \overline{a} \overline{b}
+    }
+    \ell
+    \\
+    & =
+    (b a) \ell
+  \end{aligned}
+\]
+
+and
+
+\[
+  \label{lalb}
+  \begin{aligned}
+  (\ell a) (\ell b)
+  & =
+  (\ell a) (\overline{b} \ell)
+  \\
+  & =
+  - \overline{ a \overline{b} }
+  \\
+  & =
+  - b \overline{a}
+  \end{aligned}
+  \phantom{AAA}
+  ,
+  \phantom{AAA}
+  \begin{aligned}
+    (a \ell) (b \ell)
+    & =
+    (\ell \overline{a}) (b \ell)
+    \\
+    & =
+    - \overline{ \overline{a} b }
+    \\
+    & =
+    - \overline{b} a
+  \end{aligned}
+\]
+
+=--
+
+
+### Equivalence of the definitions
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Definition \ref{CayleyDicksonDoubleInComponents} and Definition \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} are equivalent, in that we have an [[isomorphism]] of [[real numbers|real]] [[star-algebras]]:
+
+$$
+  \array{ 
+    \phi
+    & 
+    DK(A) 
+      &\overset{\simeq}{\longrightarrow}&
+    \widetilde{DK}(A)
+    \\
+    &
+    (a,b)
+    &\mapsto&
+    a + \ell b
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear from Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} that for every element $x \in \widetilde{DK}(A)$ there is a _unique_ [[pair]] of elements $a,b \in A$ such that 
+
+$$
+  x = a + \ell b \;=\; \phi(a,b)
+  \,.
+$$
+
+This means that $\phi$ is a [[linear isomorphism]] of the underlying [[real vector spaces]]. Hence it only remains to check that $\phi$ is indeed an [[algebra homomorphism]] and that it respects the [[involution]].
+
+To see that $\phi$ is an [[algebra homomorphism]], we multiply out and then use the relations (eq:lab) and (eq:lalb) from Lemma \ref{InducedRelations}:
+
+$$
+  \begin{aligned}
+    \phi(a,b) \phi(c,d)
+    & =
+    (a + \ell b)
+    (c + \ell d)
+    \\
+    & =
+    a c + (\ell b)(\ell d)
+    +
+    a (\ell d) + (\ell b) c
+    \\
+    & =
+    a c - d \overline{b}
+    +
+    \ell ( 
+      \overline{a} d  
+      + 
+      c b
+    )
+    \\
+    & 
+    = 
+    \phi(a c - d \overline{b}, \overline{a} d + c b)
+  \end{aligned}
+$$
+
+Here in the last line we indeed find the component formula (eq:ProductInComponents).
+
+To see that $\phi$ respects we use (eq:TheNewGenerator) from Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} and (eq:al) from Lemma \ref{InducedRelations}:
+
+$$
+  \begin{aligned}
+    \overline{\phi(a,b)}
+    & =
+    \overline{ a + \ell b }
+    \\
+    & =
+    \overline{a} + \overline{\ell b}
+    \\
+    & =
+    \overline{a} - \overline{b} \ell
+    \\
+    & = 
+    \overline{a} - \ell b
+    \\
+    & = \phi( \overline{a}, -b )
+    \,.
+  \end{aligned}
+$$
+
+Here in the last line we indeed find the component formula (eq:InvolutionInComponents).
+
+=--
+
+\linebreak
 
 
 ## Properties
@@ -107,13 +375,25 @@ The standard example is the sequence of consecutive doubles starting with $\math
 
 Named after [[Arthur Cayley]] and [[Leonard Dickson]].
 
-Introduction:
+The original article:
+
+
+* {#Dickson1919} [[Leonard Dickson]], _On Quaternions and Their Generalization and the History of the Eight Square Theorem_, 
+Annals of Mathematics, Second Series, Vol. 20, No. 3 (Mar., 1919), pp. 155-171 ([jstor:1967865](https://www.jstor.org/stable/1967865))
+
+
+Review and introduction:
 
 *  [[M M Postnikov]], _Lectures on geometry, Semester V: Lie groups and Lie algebras_, Lec. 14 (russian and english editions)
 
 * {#Baez02} [[John Baez]], _[The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)_, in _[The octonions](http://math.ucr.edu/home/baez/octonions/)_, Bull. Amer. Math. Soc. 39 (2002), 145-205, [doi](http://dx.doi.org/10.1090/S0273-0979-01-00934-X)
 
 * [[John Baez]], _[This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)_
+
+See also
+
+* Wikipedia, _[Cayley&#8211;Dickson construction](https://en.wikipedia.org/wiki/Cayley%E2%80%93Dickson_construction)_
+
 
 More:
 
@@ -129,9 +409,6 @@ Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/ab
 
 
 
-See also
-
-* Wikipedia, _[Cayley&#8211;Dickson construction](https://en.wikipedia.org/wiki/Cayley%E2%80%93Dickson_construction)_
 
 
 [[!redirects Cayley-Dickson construction]]
