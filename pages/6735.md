@@ -124,11 +124,11 @@ The interpretation in terms of branes at a $\mathbb{Z}/2$-[[ADE-singularities]] 
 
 * [[Jacques Distler]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], [[Mark Van Raamsdonk]], _M2-branes on M-folds_, JHEP 0805:038,2008 ([arXiv:0804.1256](https://arxiv.org/abs/0804.1256))
 
-A comprehensive review is in 
+Review:
 
 * {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
-and a review talk is
+* {#Lambert12} [[Neil Lambert]], _M-Theory and Maximally Supersymmetric Gauge Theories_, Annual Review of Nuclear and Particle Science, Vol. 62:285-313 ([arXiv:1203.4244](https://arxiv.org/abs/1203.4244), [doi:10.1146/annurev-nucl-102010-130248](https://doi.org/10.1146/annurev-nucl-102010-130248))
 
 * [[Neil Lambert]], _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
 
