@@ -394,6 +394,8 @@ which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegr
 
 * [[M5-brane instanton]]
 
+* [[half M5-brane]]
+
 * [[string theory]]
 
 * [[11-dimensional supergravity]], [[M-theory]]
