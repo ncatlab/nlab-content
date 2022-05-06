@@ -164,13 +164,13 @@ which applies $\mathbb{K}$ to each [[hom-object]].
 ###### Example
 **(ordinary [[algebraic K-theory]])**
 
-For $R$ a [[commutative ring]], let $\mathcal{C} = R Mod_{pr}$ its [[category of modules|category of]] [[projective modules]] regared as a [[permutative category]]. Then 
+For $R$ a [[commutative ring]], let $\mathcal{C} = R Mod_{pr}$ its [[category of modules|category of]] [[finitely generated module|finitely generated]] [[projective modules]] regarded as a [[permutative category]]. Then 
 
 $$
-  K (R Mod_{pr}) \;\simeq\; K R
+  K (R Mod^{pr}_{fin}) \;\simeq\; K R
 $$ 
 
-is the ordinary [[algebraic K-theory]] spectrum of the ring $R$. 
+is the classical [[algebraic K-theory]] spectrum of the ring $R$. 
 
 =--
 
@@ -265,6 +265,9 @@ Genralization to [[equivariant stable homotopy theory]] and [[G-spectra]] is dis
 
 
 [[!redirects K-theory of permutative categories]]
+
+[[!redirects algebraic K-theory of a permutative category]]
+[[!redirects algebraic K-theory of permutative categories]]
 
 [[!redirects K-theory spectrum of a permutative category]]
 [[!redirects K-theory spectra of permutative categories]]
