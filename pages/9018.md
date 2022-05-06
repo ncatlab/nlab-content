@@ -213,7 +213,7 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 * {#AcharyaSpence00} [[Bobby Acharya]], B. Spence, _Flux, Supersymmetry and M theory on 7-manifolds_ ([arXiv:hep-th/0007213](http://arxiv.org/abs/hep-th/0007213))
 
-* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
+* {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and four-dimensional physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([doi:10.1088/0264-9381/19/22/301](https://iopscience.iop.org/article/10.1088/0264-9381/19/22/301/meta), [pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
 * {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large N Duality_, J. Math. Phys.42:3209-3220, 2001 ([arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256))
 
