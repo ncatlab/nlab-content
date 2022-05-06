@@ -121,6 +121,9 @@ See also
 
 * Stefano Speziali, _Spin 2 fluctuations in 1/4 BPS AdS3/CFT2_ ([arxiv:1910.14390](https://arxiv.org/abs/1910.14390))
 
+* [[Kevin Costello]], [[Natalie Paquette]], _Twisted Supergravity and Koszul Duality: A case study in $AdS_3$_ ([arXiv:2001.02177](https://arxiv.org/abs/2001.02177))
+
+
 [[!include AdS3-CFT2 on D1-D5 branes -- references]]
 
 [[!include AdS3-CFT2 on D2-D4-D6-D8 branes -- references]]
