@@ -118,6 +118,8 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 * [[orthogonal calculus]]
 
+* [[quaternionic oriented cohomology theory]]
+
 ## References
 
 ### General
