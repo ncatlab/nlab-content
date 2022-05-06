@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,9 +30,15 @@ By the [[Hirzebruch-Riemann-Roch theorem]] the [[index]] of the [[Dolbeault oper
 
 ## References
 
-Named after [[John Arthur Todd]]
+Named after [[John Arthur Todd]].
 
-Reviews include
+Original articles:
+
+* {#Hirzebruch56} [[Friedrich Hirzebruch]], Section 3 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 12 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+Review:
 
 * {#Gilkey95} [[Peter Gilkey]], section 5.2 of _Invariance Theory: The Heat Equation and the Atiyah-Singer Index Theorem_, 1995
 
