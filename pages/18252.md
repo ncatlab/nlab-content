@@ -20,6 +20,101 @@ The canonical [[line bundle]] over a [[projective space]] is sometimes called it
 
 ## Definition
 
+### Bare definition
+  {#BareDefinition}
+
+Let $k$ be a [[field]] and $n \in \mathbb{N}$ a [[natural number]].
+Then the _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is the following vertical [[bundle]] map:
+
+\[
+  \label{TautologicalBundleProjection}
+  \array{
+    \mathcal{L}_{k P^n}
+    & \coloneqq & 
+    \frac{
+      (k^{n+1} \setminus \{0\}) \times k^\ast
+    }{
+      k^\times
+    }
+    &
+    \overset{
+      [v,z]
+      \mapsto
+      \big(
+        [v], v \cdot z
+      \big)
+    }{\hookrightarrow}
+    &
+    \frac{
+      k^{n+1} \setminus \{0\}
+    }{
+      k^\times
+    }    
+    \times
+    k^{n+1}
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow {}^{\mathrlap{
+       \frac{id \times pt}{ k^\times }
+    }}
+    \\
+    k P^n
+    &=&
+    \frac{
+      (k^{n+1} \setminus \{0\}) \times \ast
+    }{
+      k^\times
+    }
+  }
+\]
+
+Here 
+
+* $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{\coloneqq k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]];
+
+* $k^\times \,\coloneqq\, k \setminus \{0\}$ is the [[group of units]] of $k$;
+
+* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space]] by the [[diagonal action]];
+
+* and $k^\ast$ is $k$ equipped with the dual $k^\times$-action
+
+  $$
+    \array{
+      k^\times \times k^\ast 
+      &\longrightarrow&
+      k^\ast
+      \\
+      (g,z) &\mapsto& z/g
+    }
+  $$
+
+* so that, for $z \neq 0$,
+
+  $$
+    [v,z] 
+      \;=\; 
+    [v, z \cdot 1] 
+      \;=\; 
+    [v \cdot z, 1] 
+      \;\;\in\;\;
+    \frac{
+      (V \setminus \{0\}) \times k^\ast
+    }{
+      k^\times
+    }
+  $$
+
+Moreover, the horizontal map to $k^{n+1}$ in (eq:TautologicalBundleProjection) exhibits the total space of the tautological bundle as the "[[blow-up]]" of the origin of $k^{n+1}$.
+
+{#Illustration} The following illustration shows the tautological [[real line bundle]] over 1-dimensional [[real projective space]], but the general picture is "the same", up to higher dimensionality of all spaces involved:
+
+\begin{imagefromfile}
+  "file_name": "TautologicalLineBundle.jpg",
+  "width": 700
+\end{imagefromfile}
+
+
 ### As a topological line bundle
   {#AsAtopologicalLieBundle}
 
@@ -200,12 +295,12 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 ## References
 
-Lecture notes include
+Lecture notes:
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 2 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 
-See also
+See also:
 
 * Wikipedia, _[Tautological bundle](https://en.wikipedia.org/wiki/Tautological_bundle)_
 
