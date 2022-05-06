@@ -10,12 +10,9 @@
 =--
 =--
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
-
-## Idea 
+\section{Idea} 
 
 A **pro-object** of a [[category]] $C$ is a "formal [[filtered category|cofiltered]] [[limit]]" of [[objects]] of $C$.  
 
@@ -24,33 +21,77 @@ The category of pro-objects of $C$ is written $pro$-$C$. Such a category is some
 "Pro" is short for "projective". 
 ( _[[projective limit|Projective limit]]_ is an older term for _[[limit]]_.) It is in contrast to "ind" in the dual notion of [[ind-object]], standing for "inductive", (and corresponding to _[[inductive limit]]_, the old term for _[[colimit]]_).  In some (often older) sources, the term 'projective system' is used more or less synonymously for pro-object.
 
-## Definition 
+The definition of arrows in the category of pro-objects in $\mathcal{C}$ is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
-### Via formal co-filtered limits
+\section{Details} 
 
-The [[objects]] of the [[category]] $pro$-$C$ are [[diagrams]] $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|cofiltered]] category.  The [[hom set]] of [[morphisms]] between $F:D\to C$ and $G:E\to C$ is 
+\begin{defn} A _pro-object_ in a category $\mathcal{C}$ is a [[functor]] $F: \mathcal{D} \rightarrow \mathcal{C}$ for some [[small category|small]] [[cofiltered category|cofiltered]] category $\mathcal{D}$. \end{defn}
+ 
+Pro-objects in a category $\mathcal{C}$ assemble into a category as follows.
+
+\begin{defn} \label{DefinitionCategoryOfProObjects} Let $\mathcal{C}$ be a category. The _category of pro-objects in $\mathcal{C}$_ is the category defined as follows.
+
+1. The objects are pro-objects in $\mathcal{C}$.
+1. The set of arrows from a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ to a pro-object $G: \mathcal{E} \rightarrow \mathcal{C}$ is the limit of the functor $\mathcal{D}^{op} \times \mathcal{E} \rightarrow  \mathsf{Set}$ given by $Hom_{\mathcal{C}}\left(F(-), G(-)\right)$.
+1. Composition of arrows arises, given pro-objects $F: \mathcal{D}_{0} \rightarrow \mathcal{C}$, $G: \mathcal{D}_{1} \rightarrow \mathcal{C}$, and $H: \mathcal{D}_{2} \rightarrow \mathcal{C}$ of $\mathcal{C}$, by applying the limit functor for diagrams $\mathcal{D}^{op} \times \mathcal{E} \rightarrow \mathsf{Set}$ to the natural transformation of functors $Hom_{\mathcal{C}}\left(F(-), G(-)\right) \times Hom_{\mathcal{C}}\left(G(-), H(-)\right) \rightarrow Hom_{\mathcal{C}}\left( F(-), H(-) \right)$ given by composition in $\mathcal{C}$. 
+1. The identity arrow on a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ arises, using the universal property of a limit, from the identity arrow $Hom_{\mathcal{C}}\left(F(c), F(c)\right)$ for every object $c$ of $C$.
+
+That the associativity and identity axioms hold follows immediately from the fact that they hold in $\mathcal{C}$. \end{defn}
+
+\begin{notn} We denote the category of Definition \ref{DefinitionCategoryOfProObjects} by pro-$\mathcal{C}$. \end{notn}
+
+\begin{rmk} For brevity, we sometimes write the [[hom set]] between $F:D\to C$ and $G:E\to C$ as 
 
 \[
-  pro\text{-}C(F,G) = \underset{e\in E}{lim}\, \underset{d\in D}{colim} C(F d, G e)
+  \underset{e\in E}{lim}\, \underset{d\in D}{colim} C(F d, G e),
 \]
 
-Notice that here the [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. 
+where the [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. \end{rmk}
 
+\begin{rmk} We can give an explicit description of the arrows of pro-$\mathcal{C}$ as follows. First, for any object $e$ of $\mathcal{E}$, we introduce a relation $\sim$ on arrows with target $G(e)$ which identifies an arrow $f: F(d) \rightarrow G(e)$ with an arrow $f': F(d') \rightarrow G(e)$ for objects $d$ and $d'$ of $\mathcal{D}$ and an object $e$ of $\mathcal{E}$, if there is an object $d''$ of $\mathcal{D}$, an arrow $g: d'' \rightarrow d$ of $\mathcal{D}$, and an arrow $g': d'' \rightarrow d'$ of $\mathcal{D}$, such that $f \circ F(g) = f' \circ F(g')$. 
 
-Cofiltered limits in [[Set]] are given by sets of [[thread]]s and filtered colimits by [[germs]] (classes of equivalences), thus a representative of $s\in\mathrm{pro}C(F,G)$ is a thread whose each component is a germ:  
-$s = (germ_e(s))_{e\in E}$ which can be more concretely written as $([s_{d_e,e}])_e$; thus $[s_{d_e,e}]\in colim_{d\in D} C(F d, G e)$ where $s_{d_e,e}\in C(F d_e, G e)$ is some representative of the class; there is at least one $d_e$ for each $e$; if the domain $E$ is infinite, we seem to need an axiom of choice in general to find a function $e\mapsto d_e$ which will choose one representative in each class $germ_e(s)$. Thus $s$ is given by the (equivalence class) of the following data
+This relation $\sim$ is in fact an [[equivalence relation]]. Symmetry is obvious. Reflexivity is immediately demonstrated using the identity arrows of $\mathcal{D}$. Transitivity would not hold for an arbitrary category, but follows from the assumption that $\mathcal{D}$ is cofiltered. Indeed, suppose that we have a zig-zag in $\mathcal{D}$ as follows. 
 
-* function $e\mapsto d_e$ 
+\begin{centre}
+  \begin{tikzcd}
+          & d'_{0} \ar[dl]{g_{0}} \ar[dr]{g_{1}} & & d'_{1} \ar[dl]{g_{2}} \ar[dr]{g_{3}} &       \\
+    d_{0} & & d_{1} & & d_{2}
+  \end{tikzcd}
+\end{centre}
 
-* correspondence $e\mapsto s_{d_e,e}\in C(F d_e, G e)$ 
+The fact that $\mathcal{D}$ is cofiltered ensures that there is an object $d''$ of $\mathcal{D}$ fitting into the following diagram.
 
-such that $([s_{d_e,e}])_e$ is a thread, i.e. for any $\gamma: e\to e'$ we have an equality of classes (germs) $[G(\gamma)\circ s_{d_e,e}] = [s_{d_{e'},e'}]$. This equality holds if 
-there is a $d'$ and morphisms $\delta_e: d'\to d_e$, 
-$\delta_{e'}: d'\to d_{e'}$ such that $G(\gamma)\circ s_{d_e,e}\circ F\delta_e = s_{d_{e'},e'}\circ F\delta_{e'}$. (Usually in fact people consider the dual of $D$ and the dual of $C$ as filtered domains). Now if we chose a different function $e\mapsto\tilde{d}_e$ instead then,  $([s_{d_e,e}])_e = ([s_{\tilde{d}_e,e}])_e$, hence by the definition od classes, for every $e$ there is a $d''\in D$ and morphisms $\sigma_e : d''\to d_e$, $\tilde\sigma_e:d''\to \tilde{d}_e$ such that $s_{\tilde{d}_e,e}\circ F(\tilde\sigma_e) = s_{d_e,e}\circ F(\sigma_e)$.
+\begin{centre}
+  \begin{tikzcd}
+          & & d'' \ar[dl]{g'_{0}} \ar[dr]{g'_{1}} & & \\
+          & d'_{0} \ar[dl]{g_{0}} \ar[dr]{g_{1}} & & d'_{1} \ar[dl]{g_{2}} \ar[dr]{g_{3}} &       \\
+    d_{0} & & d_{1} & & d_{2}
+  \end{tikzcd}
+\end{centre}
 
-This definition is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
+Suppose that we have arrows $f_{0} : F(d_{0}) \rightarrow G(e)$, $f_{1}: F(d_{1}) \rightarrow G(e)$, and $f_{2}: F(d_{2}) \rightarrow G(e)$. Then 
 
-### Via filtered limits of presheaves
+$$
+\begin{aligned}
+f_{0} \circ F(g_{0} \circ g'_{0}) &= f_{0} \circ F(g_{0}) \circ F(g'_{0}) \\
+  &= f_{1} \circ F(g_{1}) \circ F(g'_{0}) \\
+  &= f_{1} \circ F(g_{2}) \circ F(g'_{1}) \\
+  &= f_{2} \circ F(g_{3}) \circ F(g'_{1}) \\
+  &= f_{2} \circ F(g_{3} \circ g'_{1}).
+\end{aligned}
+$$
+
+This exhibits that $f_{0} \sim f_{2}$, as required. 
+
+With this equivalence relation $\sim$ to hand, we can give our explicit description of the arrows of pro-$\mathcal{C}$: an arrow of pro-$\mathcal{C}$ from a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ to a pro-object $G: \mathcal{E} \rightarrow \mathcal{C}$ can be taken to be a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, $G(g) \circ f_{e} \sim G(g) \circ f_{e'}$. 
+
+In other words: a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, there is an object $d$ of $\mathcal{D}$, an arrow $g_{e} : d \rightarrow d_{e}$ of $\mathcal{D}$, and an arrow $g_{e'}: d \rightarrow d_{e'}$ of $\mathcal{D}$ such that $G(g) \circ f_{e} \circ F(g_{e}) = G(g) \circ f_{e'} \circ F(g_{e'})$.
+
+\end{rmk}
+
+\section{Alternative points of view}
+
+\subsection{Via filtered limits of presheaves}
 
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits." See also at
 [[pro-representable functor]].
@@ -67,7 +108,7 @@ $= lim_{J^{op}}colim_{I^\mathrm{op}} Hom_\mathcal{C}(F,G)$
 
 as in $Pro(C)$. Here we have used the definition of a colimit, the fact that representables are [[compact objects]] (this follows from the fact that colimits are computed "levelwise" in a functor category), and the Yoneda lemma.
 
-### As formal duals of ind-objects
+\subsection{As formal duals of ind-objects}
 
 +-- {: .num_remarl #ProObjectAsFormalDualOfIndObject}
 ###### Remark
@@ -84,6 +125,53 @@ $$
 =--
 
 (e.g. [Kashiwara-Schapira 06, p. 138](#KashiwaraSchapira06))
+
+\section{Characterisations}
+
+In some cases, pro-objects in a category $\mathcal{C}$ can be viewed as actual limits in a certain category. We prove here some results of this kind.
+
+\begin{prpn} \label{PropositionCategoriesEquivalentToProC} Let $\mathcal{C}$ be a category, and let $\mathcal{A}$ be a category with [[cofiltered limit|cofiltered limits]] and [[cofiltered colimit|cofiltered colimits]]. Suppose that there exists a [[fully faithful functor]] $R: \mathcal{C} \rightarrow \mathcal{A}$. Then $pro-\mathcal{C}$ is [[equivalence of categories|equivalent]] to the full subcategory $pro^{\mathcal{A}}-\mathcal{C}$ of $\mathcal{A}$ whose objects are isomorphic to $lim(R \circ D)$ for some diagram $D$ in $\mathcal{C}$ (this can be given a constructive interpretation according to whether the reader prefers to avoid the axiom of choice in the proof), where $lim$ is the limit functor for diagrams in $\mathcal{A}$.
+
+An equivalence of categories is given by the functor $pro-\mathcal{C} \rightarrow pro^{\mathcal{A}}-\mathcal{C}$ which on objects sends a pro-object $d: \mathcal{D} \rightarrow \mathcal{C}$ to the limit of the functor $R \circ d: \mathcal{D} \rightarrow \mathcal{A}$, and on arrows sends the limit of the diagram 
+
+$$
+Hom_{\mathcal{C}}\left(d_{1}(-), d_{2}(-) \right) 
+$$
+
+to the limit of the diagram 
+
+$$
+Hom_{\mathcal{A}}\left(R \circ d_{1}(-), R \circ d_{2}(-) \right),  
+$$
+
+using the natural transformation arising from applying $R$, and then applying the natural isomorphism between the limit of the above diagram and the set
+
+$$
+Hom_{\mathcal{A}}\left(colim \left(R \circ d_{1}(-) \right), lim \left( R \circ d_{2}(-) \right) \right.
+$$ 
+
+\end{prpn}
+
+\begin{proof} Since $R$ is fully faithful, the natural transformation from the diagram 
+
+$$
+Hom_{\mathcal{C}}\left(d_{1}(-), d_{2}(-) \right) 
+$$
+
+to the diagram 
+
+$$
+Hom_{\mathcal{A}}\left(R \circ d_{1}(-), R \circ d_{2}(-) \right),  
+$$
+
+is in fact a natural isomorphism. Since, by definition, the objects of $pro^{\mathcal{A}}-\mathcal{C}$ are exactly those isomorphic to those arising by applying the functor $pro-\mathcal{C} \rightarrow pro^{\mathcal{A}}-\mathcal{C}$ to the objects of pro-$\mathcal{C}$, it follows immediately that this functor is one half of an equivalence of categories. 
+\end{proof}
+
+\begin{example} \label{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} Let $\mathcal{C}$ be the category [[Grp]] of groups, and let $\mathcal{D}$ be the category $\mathsf{Top-Grp}$ of [[topological group|topological groups]]. The fully faithful functor $\mathsf{Set} \rightarrow \mathsf{Top}$ sending a set to the [[discrete topological space]] on this set gives rise to a fully faithful functor $\mathsf{Grp} \rightarrow \mathsf{Top-Grp}$. Then Proposition \ref{PropositionCategoriesEquivalentToProC} implies that the category pro-$\mathsf{FinGrp}$ of pro-objects in $\mathsf{FinGrp}$, that is to say of [[profinite group|profinite groups]], is equivalent to the full sub-category of topological groups whose objects are obtained as a cofiltered limit of finite groups (viewed as topological groups via the discrete topology). \end{example}
+
+\begin{rmk} \label{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} Though it is less well-known, one can in Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} evidently replace $\mathsf{Top}$ in with any category $\mathcal{D}$ for which there is a fully faithful functor $\mathsf{Set} \rightarrow \mathcal{D}$ which preserves finite products. See [[discrete object]] for one general setting in which such a functor exists. For example, one can take $\mathcal{D}$ to be the category [[sSet]] of [[simplicial set|simplicial sets]]. \end{rmk}
+
+\begin{rmk} Both Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} and Remark \ref{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} generalise from $\mathsf{Grp}$ to any [[finite product theory]], that is to say to the category of models of a [[finite product sketch]]. They generalise further to any [[finite limit theory]], that is to say to the category of models of  a [[finite limit sketch]], if the functor $\mathsf{Set} \rightarrow \mathcal{D}$ moreover preserves finite limits. \end{rmk}
 
 ## Examples
 
