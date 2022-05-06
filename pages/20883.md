@@ -279,6 +279,45 @@ the values of the [[Lie algebra weight system]] $w_C$ on the [[chord diagram]] w
 
 Essentially this observation (specifically for [[SYK-model]]-like systems and without mentioning of [[weight systems]]) appears in [GGJJV 18, Section 2.2](#GGJJV18), [Jia-Verbaarschot 18, Section 4](#JiaVerbaarschot18), [BNS 18, Section 2.1](#BNS18), [BINT 18, Section 2](#BINT18), [Narovlansky 19, Slides 5-21](#Narovlansky19).
 
+### Relation to Adams operations
+
+On the [[vector space]] $\mathcal{A}$ of [[Jacobi diagrams]] [[quotient vector space|modulo]] [[STU-relations]] ([[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] [[chord diagrams]] [[quotient vector space|modulo]] [[4T relations]])  there is a system of [[linear maps]] (for $q \in \mathbb{Z}$, $q \neq 0$)
+
+$$
+  \psi^q
+  \;\colon\;
+  \mathcal{A}
+  \longrightarrow
+  \mathcal{A}
+$$
+
+which respect the [[coalgebra]] [[mathematical structure|structure]] and satisfy
+
+$$
+  \psi^{q_2} \circ \psi^q_1
+  \;=\;
+  \psi^{q_1 \cdot q_2}
+$$
+
+and as such are (dually) analogous to the [[Adams operations]] on [[topological K-theory]].
+
+([Bar-Natan 95, Def. 3.11 & Theorem 7](#BarNatan95))
+
+In fact, when evaluated in [[Lie algebra weight systems]] $w_{\mathbf{N}}$ and under the identification (see [here](equivariant+K-theory#RelationToRepresentationTheory)) of the [[representation ring]] of a [[compact Lie group]] $G$ with the $G$-[[equivariant K-theory]] of the point, these Adams operations on [[Jacobi diagrams]] correspond to the [[Adams operations]] on [[equivariant K-theory]]:
+
+
+$$
+  w_{\mathbf{N}}(\psi^q D)
+  \;=\;
+  w_{\psi^q \mathbf{N}}(D)
+  \,.
+$$
+
+([Bar-Natan 95, Exc. 6.24](#BarNatan95)
+)
+
+For more see at _[[Adams operation on Jacobi diagrams]]_.
+
 
 ## Related concepts
 
