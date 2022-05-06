@@ -287,6 +287,8 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 * Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
 
+* {#AbdolmalekiBoroun18} M. Abdolmaleki, G.R. Boroun, _The Survey of Proton Structure Function with the AdS/QCD Correspondence_ Phys.Part.Nucl.Lett. 15 (2018) no.6, 581-584 ([doi:10.1134/S154747711806002X](https://doi.org/10.1134/S154747711806002X))
+
 ### Application to glueball physics
 
 * S.S. Afonin, A.D. Katanaeva, _Glueballs and deconfinement temperature in AdS/QCD_ ([arXiv:1809.07730](https://arxiv.org/abs/1809.07730))
