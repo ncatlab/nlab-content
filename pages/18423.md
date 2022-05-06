@@ -42,7 +42,7 @@ This is due to ([BEBP](#BEBP), see [Pavlov, theorem 0.2](#Pavlov)). For $X$ a [[
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-* {#BEBP} Daniel Berwick-Evans, Pedro Boavida de Brito, Dmitri Pavlov, _Classifying spaces of infinity-sheaves_ Manuscript in preparation.
+* {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
 * {#Pavlov} [[Dmitri Pavlov]], _Brown representability via concordance_ ([pdf](https://dmitripavlov.org/concordance.pdf))
 
