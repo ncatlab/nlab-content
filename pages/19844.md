@@ -35,7 +35,7 @@ Indications of flavour anomalies have been observed consistently and with increa
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17)), which would qualify as detection (see [here](statistical+significance#ParticlePhysics)) .
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [Dordei 18, slide 12](#Dordei18)), which would qualify as detection (see [here](statistical+significance#ParticlePhysics)) .
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
@@ -48,7 +48,7 @@ Candidate theories of "new physics" that could possibly explain the flavour anom
 ### Leptoquarks
  {#Leptoquarks}
 
-* [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
+* [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18), [AMST 18](#AMST18))
 
 
 ### Other
@@ -86,11 +86,15 @@ Review includes
 
 * {#Dey18} Biplab Dey on behalf of the LHCb collaboration, _Flavor anomalies at LHCb_, May 2018 (<a href="https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf">pdf</a>)
 
+* {#Dordei18} Francesca Dordei, _Lepton flavour universality at LHCb_, August 2018 ([cern:2634813](http://cdsweb.cern.ch/record/2634813), [pdf](http://cdsweb.cern.ch/record/2634813/files/dordei_nufact.pdf))
+
 Outlook:
 
 * {#AllanachGripaiosYou17} B.C. Allanach, Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
 
 * {#Cerri18} A. Cerri et al., _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
+
+
 
 Emphasis of [[non-perturbative effects]]:
 
@@ -149,6 +153,7 @@ Attempts to explain the anomaly include
 
 * {#BDFKFS18} Damir Bečirević, Ilja Doršner, Svjetlana Fajfer, Nejc Košnik, Darius A. Faroughy, Olcyr Sumensari, _Scalar leptoquarks from GUT to accommodate the $B$-physics anomalies_, Phys. Rev. D 98, 055003 (2018) ([arXiv:1806.05689](https://arxiv.org/abs/1806.05689))
 
+* {#AMST18} Ufuk Aydemir, Djordje Minic, Chen Sun, Tatsu Takeuchi, _$B$-decay anomalies and scalar leptoquarks in unified Pati-Salam models from noncommutative geometry_, JHEP 09 (2018) 117 ([arXiv:1804.05844](https://arxiv.org/abs/1804.05844))
 
 others:
 
