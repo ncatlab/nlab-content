@@ -41,3 +41,7 @@ See the references at _[[chiral perturbation theory]]_
 [[!include Skyrme hadrodynamics with heavy mesons -- references]]
 
 
+[[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
+
