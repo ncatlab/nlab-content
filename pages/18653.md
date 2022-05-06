@@ -23,7 +23,7 @@ This is in contrast to other variants of [[field theory]] such as for instance
 
 * [[non-relativistic field theory]] typically used in [[solid state physics]], where certainly effects of [[general relativity]] are irrelevant, but where even effects of [[special relativity]] may often be ignored;
 
-* [[Euclidean field theory]] where there is no time direction at all (really: [[statistical mechanics]]), which however, in good situations, may be related to relativistic field theory by [[Wick rotation]].
+* [[Euclidean field theory]] where there is no time direction at all (really: [[statistical mechanics]]), which however, in good situations, may be related to relativistic field theory by [[Wick rotation]]. In particular, this provides, under suitable conditions, a definition of _[[thermal quantum field theory]]_, see there for more.
 
 
 Mathematically, the hallmark of relativistic field theory is the key role played by [[causal locality]], notably in the rigorous mathematical formulation of relativistic [[perturbative quantum field theory]] via [[causal perturbation theory]] (also called [[perturbative AQFT]]).
