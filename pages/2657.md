@@ -69,7 +69,9 @@ The main historical contributors to Hodge theory include [[William Hodge]], [[Ph
 
 * [[Phillip Griffiths]], _Periods of integrals on algebraic manifolds I,II,III_,  Amer. J. Math. __90__, 568&#8211;626, 808&#8211;865 (1968) ; Publ. Math. de l'IH&#201;S __38__, 228&#8211;296 (1970) [numdam](http://www.numdam.org/item?id=PMIHES_1970__38__125_0)
 
-* P. Griffiths, _Hodge theory - from Abel to Deligne_, talk, Inst. Adv. Studies 2016 [yt](https://www.youtube.com/watch?v=hPyDz5R5YaY)
+* P. Griffiths, _Hodge theory - from Abel to Deligne_, talk, Inst. Adv. Studies 2016 [yt](https://www.youtube.com/watch?v=hPyDz5R5YaY); 
+_Some geometric applications of Hodge theory_, Oct 2020, [yt](https://www.youtube.com/watch?v=MA8FhSY3FlU)
+
 
 * M. Saito, _Mixed Hodge modules_, Publ. R.I.M.S. Kyoto Univ. __26__  (1990)  pp. 221&#8211;333.
 
