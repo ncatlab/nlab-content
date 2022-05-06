@@ -37,7 +37,7 @@ Reynolds claims ([Rey00](#Rey00)),
 
 >In contrast, in an extrinsic semantics, the meaning of each phrase is the same as it would be in a untyped language, regardless of its typing properties. In this view, a typing judgement is an assertion that the meaning of a phrase possesses some property.
 
->The terms "intrinsic" and "extrinsic" are recent coinages by the author ([Rey88, Chapter 15](#Rey88)), but the concepts are much older. The intrinsic view is associated with Alonzo Church, and has been called "ontological" by Leivant ([Lev86](#Lev86)). The extrinsic view is associated with Haskell Curry, and has been called "semantical" by Leivant.
+>The terms "intrinsic" and "extrinsic" are recent coinages by the author ([Rey98, Chapter 15](#Rey98)), but the concepts are much older. The intrinsic view is associated with Alonzo Church, and has been called "ontological" by Leivant ([Lev86](#Lev86)). The extrinsic view is associated with Haskell Curry, and has been called "semantical" by Leivant.
 
 According to Melli&#232;s and Zeilberger ([MZ13](#MZ13)),
 
@@ -56,7 +56,7 @@ of that meaning.
 
 ###References
 
-* {#Rey88} [[John Reynolds]], _Theories of Programming Languages_. Cambridge University Press, Cambridge, England, 1998.
+* {#Rey98} [[John Reynolds]], _Theories of Programming Languages_. Cambridge University Press, Cambridge, England, 1998.
 * {#Lev86} [[Daniel Leivant]], _Typing and computational properties of lambda expressions_, Theoretical Computer Science, 44(1):51&#8211;68, 1986.
 * {#Rey00} [[John Reynolds]], _The Meaning of Types: from Intrinsic to Extrinsic Semantics_, BRICS Report RS-00-32, Aarhus University, December 2000. [pdf](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/typemeaning.pdf)
 * {#MZ13} [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [ arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
