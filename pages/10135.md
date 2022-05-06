@@ -213,27 +213,27 @@ as
   \,,
 \]
 
-From these then one re-obtains cohomology by applying the [[shape modality]]/[[shape via cohesive path ∞-groupoid|cohesive path ∞-groupoid]].
+From these then one re-obtains cohomology by applying the [[shape modality]]/[[shape via cohesive path ∞-groupoid|cohesive path ∞-groupoid]] $&#643;$.
 
 $$
 \begin{aligned}
-  \Pi
+  &#643;
   \big[
     \mathcal{X}, \mathcal{A}
-  \big]_{\mathbf{B}G}
+  \big]_{/\mathbf{B}G}
   & \simeq
-  \Pi
-  \big[
-    \mathcal{X}, \mathcal{A}
-  \big]^{faith}
+  &#643;
+  \left(
+    \big[
+      \mathcal{X}, \mathcal{A}
+    \big]^{faith}
+  \right)
   \,,
 \end{aligned}
 $$
 
 
 This perspective paves the way to the equivalent description in terms of systems of fixed point loci:
-
-> some care needed here, to be expanded...
 
 $\,$
 
