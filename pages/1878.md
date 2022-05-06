@@ -407,3 +407,4 @@ Some useful facts are discussed in the appendix of
 [[!redirects generating acyclic cofibration]]
 [[!redirects generating acyclic cofibrations]]
 
+[[!redirects cofibrantly generated]]
