@@ -60,7 +60,33 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## References
 
-The relation to [[Khovanov homology]] is discussed in 
+### General
+
+As a [[Green-Schwarz sigma-model]]:
+
+* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+
+* {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+
+### Double dimensional reduction to D4-brane
+
+The relation of the [[M5-brane]] to the [[D4-brane]] and the [[D=5 super Yang-Mills theory]] in its [[worldvolume]] [[physical theory|theory]] by [[double dimensional reduction]]:
+
+* [[Eric Bergshoeff]], Mees de Roo, Tomas Ortin, _The Eleven-dimensional Five-brane_ ([pdf](http://astro.eldoc.ub.rug.nl/FILES/root/Preprints/1996/Eleven-dimensional/eleven-dimensional_five-brane.pdf))
+
+* {#APPS97a} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of  _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+* [APPS 97b, Section 6](#APPS97b)
+
+* [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
+
+* Chong-Sun Chu, Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
+
+* [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
+
+### Relation to Khovanov homology
+
+The relation to [[Khovanov homology]]
 
 * [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
  {#Witten11}
