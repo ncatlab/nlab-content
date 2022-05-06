@@ -81,7 +81,10 @@ The concept originates around
 
 Early accounts include
 
+* [[Sunil Mukhi]], _Orientifolds: The Unique Personality Of Each Spacetime Dimension_ ([arXiv:hep-th/9710004](https://arxiv.org/abs/hep-th/9710004))
+
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
 
 Traditional lecture notes include
 
@@ -210,6 +213,8 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 * [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_, ([arXiv:hep-th/9703166](https://arxiv.org/abs/hep-th/9703166))
 
 The MO5 is originally discussed in 
+
+* Keshav Dasgupta, [[Sunil Mukhi]], _Orbifolds of M-theory_, Nucl. Phys. B465 (1996) 399-412 ([arXiv:hep-th/9512196](https://arxiv.org/abs/hep-th/9512196))
 
 * {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
 
