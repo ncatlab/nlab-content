@@ -96,6 +96,8 @@ As one might expect, things which are only "approximately true" inside $X$ becom
 
 * [[large cardinal]]
 
+* [[ultracategory]]
+
 ## References
 
 Standard references in model theory for ultraproducts are
@@ -143,6 +145,10 @@ See also
 For ultraproducts in functional analysis see e.g.
 
 * Jose Iovino, _Applications of model theory to functional analysis_
+
+For a way to study ultraproducts in a homotopical setting see
+
+* [[Tobias Barthel]], [[Tomer Schlank]], [[Nathaniel Stapleton]], _Chromatic homotopy theory is asymptotically algebraic_, ([arXiv:1711.00844](https://arxiv.org/abs/1711.00844))
 
 [[!redirects ultraproduct]]
 [[!redirects ultraproducts]]
