@@ -1110,3 +1110,6 @@ More references relating to the [[nPOV]] on cohomology include:
 
 [[!redirects extraordinary cohomology theory]]
 [[!redirects extraordinary cohomology theories]]
+
+[[!redirects Eilenberg–Steenrod cohomology theory]]
+[[!redirects Eilenberg–Steenrod cohomology theories]]
