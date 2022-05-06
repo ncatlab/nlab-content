@@ -11,4 +11,9 @@ On the [[Green-Schwarz mechanism]] in [[heterotic string theory]] and [[Hořava-
 
 * [[Fei Han]], [[Kefeng Liu]], [[Weiping Zhang]], _Anomaly Cancellation and Modularity. II: $E_8 \times E_8$ case_, Sci. China Math. 60, 985–994 (2017) ([arXiv:1209.4540](https://arxiv.org/abs/1209.4540), [doi:10.1007/s11425-016-9034-1](https://doi.org/10.1007/s11425-016-9034-1))
 
+On the [[volume conjecture]]:
+
+* {#ChenLiuZhu15} [[Qingtao Chen]], [[Kefeng Liu]], Shengmao Zhu, _Volume conjecture for $SU(n)$-invariants_ ([arXiv:1511.00658](https://arxiv.org/abs/1511.00658))
+
+
 category: people
