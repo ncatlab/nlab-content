@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -6,12 +5,20 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
 =--
 =--
 
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+**Theories of presheaf type** though being [[geometric theory|geometric theories]] of a particular "simple" and tractable type are yet ubiquituous in the sense that every geometric theory is a [[quotient theory]] of some theory of presheaf type.
+
 
 ## Definition
 
@@ -25,6 +32,8 @@ A [[geometric theory]] $T$ is **of presheaf type** if its [[classifying topos]] 
 ## Examples
 
 * Any [[cartesian theory]] $\mathbb{T}$ being (modulo neglectable size issues[^iss]) classified by $Set^{\mathbb{T}-Mod_{fp}(Set)}$ is of presheaf type with $\mathbb{T}-Mod_{fp}(Set)$ the category of finitely presentable $\mathbb{T}$-models in $Set$.
+
+* More concretely, e.g. the [[theory of objects]] or the [[classifying topos#ForIntervals|theory of intervals]] are of presheaf type being classified by the [[classifying topos for the theory of objects|object classifier]] respectively by the [[simplicial sets|topos of simplicial sets]].
 
 ## Properties
 
