@@ -96,10 +96,15 @@ See also
 
 Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
-* Asim Yildiz, Paul H. Cox, _Vacuum Behavior in Quantum Chromodynamics_, Phys.Rev. D21 (1980) 1095 ([spire:7860](http://inspirehep.net/record/7860)
+* Asim Yildiz, Paul H. Cox, _Vacuum Behavior in Quantum Chromodynamics_, Phys. Rev. D21 (1980) 1095 ([spire:7860](http://inspirehep.net/record/7860))
 
 
 * Paul H. Cox, Asim Yildiz, _$q \bar q$ pair creation: A field-theory approach_, Phys. Rev. D 32, 819 (1985) ([doi:10.1103/PhysRevD.32.819](https://doi.org/10.1103/PhysRevD.32.819))
+
+* Hideo Suganuma, Toshitaka Tatsumim, _On the behavior of symmetry and phase transitions in a strong electromagnetic field_, Annals of Physics
+Volume 208, Issue 2, June 1991, Pages 470-508 (<a href="https://doi.org/10.1016/0003-4916(91)90304-Q">doi:10.1016/0003-4916(91)90304-Q</a>)
+
+* Hideo Suganuma, Toshitaka Tatsumi, _Chiral Symmetry and Quark-Antiquark Pair Creation in a Strong Color-Electromagnetic Field_, Progress of Theoretical Physics, Volume 90, Issue 2, August 1993, Pages 379–404 ([spire:318092](http://inspirehep.net/record/318092), [doi:10.1143/ptp/90.2.379](https://doi.org/10.1143/ptp/90.2.379))
 
 * Naoto Tanji, _Dynamical view of pair creation in uniform electric and magnetic fields_, Annals Phys. 324:1691-1736, 2009 ([arXiv:0810.4429](https://arxiv.org/abs/0810.4429))
 
