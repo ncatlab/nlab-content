@@ -47,7 +47,9 @@ The [[Mostow rigidity theorem]] states that every [[hyperbolic manifold]] of [[d
 
 ## Examples
 
-* [[hyperbolic 3-space]]
+* [[hyperbolic 3-manifold]]
+
+  * [[hyperbolic 3-space]]
 
 
 ## Related concepts
