@@ -191,6 +191,49 @@ In the first edition Kant provides a more thorough description on how the format
 
     * Cannot contain any determined intuition at all - just the that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object.
 
+
+###### {#deductionB}_B edition:_ Transcendental Deduction
+
+1. "__On the a priori grounds for the possibility of experience__"([B116](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_116.png))
+
+    Kant understand in transcendental deduction:
+
+    "I therefore call the explanation of the way in which concepts can relate to objects a priori their __transcenden­tal deduction__" ([B117](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_117.png)).
+
+
+1. "__Transcendental deduction of the pure concepts of the understanding__"([B129](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_129.png))
+
+    Kant want to combine intuituions, what Kant explained with:
+
+    "Yet the __combination__ (conjunctio) of a manifold in general can never come to us through the senses, and therefore cannot already be contained in the pure form of sensible intuition; for it is an act of the spontaneity of the power of representation"([B129](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_129.png)-130). 
+
+    Now he need to collect my combinations in one identity what he call transcendental unit.
+
+    He justified the transcendental unity with the following sentence:
+
+    "I am therefore conscious of the identi­cal self in regard to the manifold of the representations that are given to me in an intuition because I call them all together __my__ representa­tions, which constitute __one__."([B135](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_135.png)).
+
+    With the cognition, what is only able to work with concepts, not with intuitions, he can define how understanding in the following way: 
+
+    "__Understanding__ is, generally speaking, the faculty of __cognitions__."([B137](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_137.png))
+
+    and he need the synthetic unity because:
+
+    "The synthetic unity of con­sciousness is ... an objective condition of all cognition, ..."([B138](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_138.png)).
+
+    Now it is a question what is the benefits of the categories Kant wrote about that the
+
+    "[Categories] therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object."([B145](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_145.png)).
+
+    The conditions of the experience he found out that "Space and time are valid, as conditions of the possibility of how objects can be given to us, no further than for objects of the senses, hence only for ex­perience."([B148](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_148.png)) to clarify the role of space and time.
+
+    To give the connection between laws, which he is able to derive in nature, and the categories, which are conditions of possible experience:
+
+    "Particular laws, because they concern em­pirically determined appearances, __cannot__ be __completely derived__ from the categories, although they all stand under them."([B165](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_165.png))
+
+    In the end he got the result that "Consequently no a priori cognition is possible for us except solely of objects of possible experience."([B166](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_166.png))
+
+
 #### Achourioti and van Lambalgen's formalization
 
 Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a formalization of Kant's logic in terms of [[geometric logic]].
