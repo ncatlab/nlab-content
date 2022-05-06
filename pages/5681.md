@@ -150,6 +150,8 @@ This is ([Lurie, lemma 5.2.8.19](#Lurie)).
 
   * [[orthogonal factorization system in a derivator]].
 
+  * [[homotopy factorization system in a model category]]
+
 ## References
 
 Section 5.2.8 of 
