@@ -326,11 +326,16 @@ For more see at _[[Adams operation on Jacobi diagrams]]_.
 [[!include chord diagrams and weight systems -- table]]
 
 
+
 ## References
 
 ### General
 
-The concept for ordinary [[weight systems]] originates around
+Lie algebra weight systems motivated from [[Yang-Mills theory]] [[Feynman amplitudes]]:
+
+* [[Predrag Cvitanović]], _Group theory for Feynman diagrams in non-Abelian gauge theories_, Phys. Rev. D14 (1976) 1536-1553 ([doi:10.1103/PhysRevD.14.1536](https://doi.org/10.1103/PhysRevD.14.1536), [spire:108133](http://inspirehep.net/record/108133), [[CvitanovicWeights76.pdf:file]])
+
+The concept of round Lie algebra weight systems for [[Chern-Simons theory]] with [[Wilson lines]] originates around
 
 * {#Kontsevich94} [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
 
