@@ -75,6 +75,8 @@ Work conducted in homotopy type theory:
 
 * Ulrik Buchholtz, Egbert Rijke, _The long exact sequence of homotopy $n$-groups_, ([arXiv:1912.08696](https://arxiv.org/abs/1912.08696))
 
+* [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_, ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833))
+
 
 
 
