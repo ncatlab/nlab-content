@@ -67,7 +67,9 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[quantum hadrodynamics]]
 
-* [[hadron supersymmetry]]
+* [[hadron supersymmetry]], [[hadron Kaluza-Klein theory]]
+
+  * [[flavor brane]]
 
 * [[Walecka model]]
 
