@@ -48,6 +48,8 @@ is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e 
 
 ## Related concepts
 
+* [[locally cartesian category]]
+
 * **cartesian category**, [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
