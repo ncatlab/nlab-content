@@ -323,6 +323,8 @@ For more see at _[[Adams operation on Jacobi diagrams]]_.
 
 * [[metric Lie algebra]]
 
+* [['t Hooft double line notation]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 
