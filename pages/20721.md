@@ -7,6 +7,11 @@
 
 The operations on an [[H-space]] $X$ equip its [[homology]] with the [[mathematical structure|structure]] of  [[ring]]. At least for [[ordinary homology]] this is known as the _[[Pontrjagin ring]]_ $H_*(X)$ of $X$.
 
+## Properties
+
+The homological version of 
+the _[[group completion theorem]]_ relates the [[Pontrjagin ring]] of a [[topological monoid]] $A$ to that of its [[group completion]] $\Omega B A$.
+
 ## References
 
 
