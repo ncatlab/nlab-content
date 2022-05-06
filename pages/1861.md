@@ -48,7 +48,7 @@ $$
     \;\coloneqq\; 
   Maps
   \big(
-    X , \Sigma^{\infty} S^n
+    \Sigma^\infty X , \Sigma^{\infty} S^n
   \big)/_{\sim_{homotopy}}
   \,.
 $$
@@ -646,7 +646,7 @@ See also
 * [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
 
 
-The relation between cohomotopy classes of manifolds to the [[cobordism group]] is discussed for instance in 
+The unstable [[Pontrjagin-Thom theorem]] identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] is discussed for instance in:
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
@@ -705,6 +705,12 @@ and in terms of [[twisted cohomotopy]]:
 
 [[!redirects cohomotopy theory]]
 [[!redirects Cohomotopy theory]]
+
+[[!redirects cohomotopy set]]
+[[!redirects cohomotopy sets]]
+[[!redirects Cohomotopy set]]
+[[!redirects Cohomotopy sets]]
+
 
 [[!redirects cohomotopy group]]
 [[!redirects cohomotopy groups]]
