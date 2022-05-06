@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _Lawvere--Tierney topology_  (or _operator_ , or _[[modal logic|modality]]_ , also called _[geometric modality](modal+type+theory#GeometricModality)_) on a [[topos]] is a way of saying that something is 'locally' [[true]].  Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _[[geometric logic]]_.  In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is a [[small category]], then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere--Tierney topology in the [[presheaf topos]] $\Set^{C^\op}$ on $C$.
+A _Lawvere--Tierney topology_ (or _operator_, or _[[modal logic|modality]]_, also called _[geometric modality](modal+type+theory#GeometricModality)_) on a [[topos]] is a way of saying that something is 'locally' [[true]].  Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _[[geometric logic]]_.  In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is a [[small category]], then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere--Tierney topology in the [[presheaf topos]] $\Set^{C^\op}$ on $C$.
 
 The use of "topology" for this and the related Grothendieck concept is regarded by some people as unfortunate; see [[historical note on Grothendieck topology]] for some reasons why.  A proposed replacement for "Grothendieck topology" is [[coverage|(Grothendieck) coverage]]; see [[Grothendieck topology]] for some possible replacements for "Lawvere--Tierney topology."
 
@@ -490,23 +490,25 @@ In this form the statement appears in the proof of ([Johnstone, Theorem A4.3.9](
 
 ## Enriched generalization
 
-* [[Francis Borceux]], _Algebraic localizations and elementary toposes_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.393-401.([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_393_0.pdf))
+* [[Francis Borceux]], _Algebraic localizations and elementary toposes_, Cah. Top. G&#233;om. Diff. Cat. **21** (1980), no. 4, 393&ndash;401. ([MR82g:18002](http://www.ams.org/mathscinet-getitem?mr=606384), [pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_393_0.pdf))
 
-* Francis Borceux, _Sheaves of algebras for a commutative theory_, Ann. Soc. Sci. Bruxelles S&#233;r. I __95__ (1981), no. 1, 3&#8211;19, [MR83c:18006](http://www.ams.org/mathscinet-getitem?mr=628032)
+* [[Francis Borceux]], _Sheaves of algebras for a commutative theory_, Ann. Soc. Sci. Bruxelles S&#233;r. I **95** (1981), no. 1, 3&ndash;19. ([MR83c:18006](http://www.ams.org/mathscinet-getitem?mr=628032))
 
-Let $\mathcal{C}$ be a small category enriched over $Set^{T}$ where $T$ is a [[commutative algebraic theory]]. Then $[\mathcal{C}^{op},\text{Set}^{T}]$. A $T$-sieve as an enriched subfunctor of $\mathcal{C}(-,x)\colon\mathcal{C}^{op}\rightarrow\text{Set}^{T}$. A $\mathbf{T}$-topology is a set $J(x)$ of $\mathbf{T}$-sieves for every $x$, satisfying some axioms. Borceux defines the notion of a sheaf over such enriched site and proves the existence and exactness of the associated sheaf functor. 
+Let $\mathcal{C}$ be a small category enriched over $Set^{\mathbf{T}}$ where $\mathbf{T}$ is a [[commutative algebraic theory]]. Then $[\mathcal{C}^{op},\text{Set}^{\mathbf{T}}]$. A $\mathbf{T}$-sieve as an enriched subfunctor of $\mathcal{C}(-,x)\colon\mathcal{C}^{op}\rightarrow\text{Set}^{\mathbf{T}}$. A $\mathbf{T}$-topology is a set $J(x)$ of $\mathbf{T}$-sieves for every $x$, satisfying some axioms. Borceux defines the notion of a sheaf over such enriched site and proves the existence and exactness of the associated sheaf functor. 
 
-He proves that there is an object $\Omega_{T}$ in $[\mathcal{C}^{op},\text{Set}]$ which classifies subobjects in $[\mathcal{C}^{op},\text{Set}^{T}]$. Moreover, there is a correspondence betwen
+He proves that there is an object $\Omega_{\mathbf{T}}$ in $[\mathcal{C}^{op},\text{Set}]$ which classifies subobjects in $[\mathcal{C}^{op},\text{Set}^{\mathbf{T}}]$. Moreover, there is a correspondence between
 
-(1) localizations of $[\mathcal{C}^{\text{op}},\text{Set}^{T}]$ 
+1. localizations of $[\mathcal{C}^{\text{op}},\text{Set}^{\mathbf{T}}]$ 
 
-(2) $T$-topologies on $\mathcal{C}$
+2. $\mathbf{T}$-topologies on $\mathcal{C}$
 
-(3) morphisms $j\colon\Omega_{\mathbf{T}}\rightarrow\Omega_{T}$ satisfying the Lawvere-Tierney axioms for a topology 
+3. morphisms $j\colon\Omega_{\mathbf{T}}\rightarrow\Omega_{\mathbf{T}}$ satisfying the Lawvere-Tierney axioms for a topology 
 
 ## Related concepts
 
-* [[modality]] [[modal type theory]]
+* [[modality]]
+
+* [[modal type theory]]
 
 * [[monad (in programming theory)]]
 
