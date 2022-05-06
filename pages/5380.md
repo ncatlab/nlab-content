@@ -72,21 +72,32 @@ For $R$ a commutative $k$-algebra, there is a [[natural isomorphism]] between
 
 The proof is spelled out at _[[affine line]]_.
 
+### Real, complex, quaternionic, octonionic projective space
+  {#RealComplexProjectiveOctonionicProjectiveSpace}
 
-### Real, complex and projective space
- {#RealAndComplexProjectiveSpace}
+In particular, as $k$ ranges over the four finite-dimensional [[real normed division algebras]], we have
 
-We discuss how complex projective space for $k$ the [[real numbers]] or the [[complex numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]] is a [[topological manifold]] and naturally carries the structure of a [[smooth manifold]] (prop. \ref{SmoothManifoldRealComplexProjectiveSpace} below).
+* $k =$ [[real numbers]]: [[real projective space]] $\mathbb{R}P^n$
 
-* $\mathbb{R}P^n$ is called _[[real projective space]]_,
+  including the [[circle]] $\mathbb{R}P^1 \,\simeq\, S^1$
 
-* $\mathbb{C}P^n$  is called _[[complex projective space]]_,
 
-  * $\mathbb{C}P^1$ is called the [[Riemann sphere]].
+* $k =$ [[complex numbers]]: [[complex projective space]] $\mathbb{C}P^n$
 
-* $\mathbb{H}P^n$ is called _[[quaternionic projective space]]_.
+  including the [[Riemann sphere]] $\mathbb{C}P^1 \,\simeq\, S^2$
 
-For more see at these entries.
+* $k =$ [[quaternions]]: [[quaternionic projective space]] $\mathbb{H}P^n$
+
+  including the [[4-sphere]] $\mathbb{H}P^1 \,\simeq\, S^4$
+
+
+* $k =$ [[octonions]]: [[octonionic projective space]] $\mathbb{O}P^n$
+
+  (for $n \leq 2$)
+
+  including the [[8-sphere]] $\mathbb{O}P^1 \,\simeq\, S^8$
+
+
 
 \linebreak
 
