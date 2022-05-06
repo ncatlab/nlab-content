@@ -369,7 +369,17 @@ $$\frac{\Gamma \vdash A\,type \qquad
 \Gamma,x:A \vdash f\,x \Vdash B \qquad x \notin FV(f)}
 {\Gamma \vdash f \Vdash \Pi x:A.B}$$
 
-Proving that lambdas are functions additionally uses beta conversion. Lambdas are functions, not by fiat, but because they produce results when applied. Note that not all functions are lambdas. At the very least, the empty function is denoted by any term you like. That is, a function type with empty domain has the same PER as $\top$.
+Proving that lambdas are functions additionally uses beta conversion. Lambdas are functions, not by fiat, but because they produce results when applied.
+
+Note that not all functions are denoted by lambdas. At the very least, the empty function is denoted by any term you like. That is, a function type with empty domain has the same PER as $\top$. However, any function is equal to a lambda, when considered only as a function. Formally, we have
+
+$$\Gamma,f:\Pi x:A.B \vdash f = (\lambda x.f\,x) \in \Pi x:A.B$$
+
+but not
+
+$$\Gamma,f:Comp,Hf:f \in \Pi x:A.B \vdash f = (\lambda x.f\,x) \in Comp$$
+
+.
 
 #### Congruence rules
 
@@ -392,7 +402,7 @@ There is actually no interpretation necessary, for terms in general. The type sy
 * Computational meaning pertains principally to closed terms, because free variables don't compute; they're just placeholders.
 * Some closed terms are designated as types, and denote PERs on closed terms.
 * For closed terms and types, the equality judgment form ($t = t' \in T$) just accesses the PER of the type.
-* For closed terms, the judgment of being an element of a type ($t \in T$) is a special case of equality.
+* For closed terms and types, the judgment of being an element of a type ($t \in T$) is a special case of equality.
 * It's the judgments about closed terms that are reflected as closed types; judgments about open terms are not involved.
 
 All of these points are important to the design of a Nuprl-style system. But the one that seems to distinguish the approach from intrinsic typing is that being an element is a special case of equality. In the intrinsic approach, equality is only meaningful when applied to two terms known to have the same type. So being an element must be somehow prior to equality. But with the judgment of being an element as a special case of equality, it's simultaneous.
@@ -405,7 +415,7 @@ $$\frac{\Gamma \vdash T\,type}{\Gamma \vdash t1 = t2 \in T\,type}$$
 
 ?
 
-No, that doesn't work. The extra complexity has to do with making the axiomatization work for open terms. Consider the type $I\;\coloneqq\;\{x = y | x \in Bool \wedge y \in Bool\}$. Then $tru = fls \in I$. But then consider ($x:I \vdash tru = x \in Bool\,type$). The simple formation rule would derive it, but it doesn't make sense, because ($tru = tru \in Bool$) and ($tru = fls \in Bool$) are different types, although $tru$ and $fls$ are the same $I$. The problem is that equality of types and elements is generally different from equality of computations, and we want well-typed open terms to respect equality of elements. The respect-based equality formation rule doesn't derive the bad type family because you'd need to find some type $T$ such that ($x:I \vdash x \Vdash T$) and ($T \prec Bool$). But if ($x:I \vdash x \Vdash T$), then $T$ considers $tru$ and $fls$ equal, while if ($T \prec Bool$), then it doesn't. This inability to treat variables as computations is the sense in which variables are intrinsically typed: although elements are all realized by computations, an arbitrary element generally cannot be used as a computation, so reasoning about membership is constrained.
+No, that doesn't work. The extra complexity has to do with making the axiomatization work for open terms. Consider the type $I\;\coloneqq\;\{x = y | x \in Bool \wedge y \in Bool\}$. Then $tru = fls \in I$. But then consider ($x:I \vdash tru = x \in Bool\,type$). The simple formation rule would derive it, but it doesn't make sense, because ($tru = tru \in Bool$) and ($tru = fls \in Bool$) are different types, although $tru$ and $fls$ are the same $I$. The problem is that equality of types and elements is generally different from equality of computations, and we want well-typed open terms to respect equality of elements. The respect-based equality formation rule doesn't derive the bad type family because you'd need to find some type $T$ such that ($x:I \vdash x \Vdash T$) and ($T \prec Bool$). But if ($x:I \vdash x \Vdash T$), then $T$ considers $tru$ and $fls$ equal, while if ($T \prec Bool$), then it doesn't. That variables and other open terms cannot generally be treated as computations is the sense in which variables are intrinsically typed: although elements are all realized by computations, an arbitrary element generally cannot be used as a computation, so reasoning about membership is constrained.
 
 ### Other semantic judgments
 
