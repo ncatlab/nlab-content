@@ -100,6 +100,8 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 * [[singleton representation]]
 
+* [[AdS/CFT correspondence]], [[AdS/QCD correspondence]]
+
 ## References
 
 * [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
