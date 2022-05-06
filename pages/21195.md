@@ -22,11 +22,62 @@
 
 ## Idea
 
-The phenomenon or principle called _vector meson dominance_ (VMD) is a tight relation between [[quantum hadrodynamics]] and [[quantum electrodynamics]], where the neutral [[vector meson]] [[field (physics)|fields]] $V_\mu$ (the [[omega-meson]] $\omega_\mu$ and the neutral [[rho-meson]] $\rho^0_\mu$) are seen to be on par with, or even identified with, the [[electromagnetism|electromagnetic]] [[hadronic current]] $J^{hadr}$, at least under some conditions.
+The phenomenon or principle called _vector meson dominance_ (VMD) is a tight relation between [[quantum hadrodynamics]] and [[quantum electrodynamics]], where the electrically neutral [[light meson|light]] [[vector meson]] [[field (physics)|fields]] $V_\mu$ (the neutral [[rho-meson]] $\rho^0_\mu$, the [[omega-meson]] $\omega_\mu$ and the [[phi-meson]]) are seen to be on par with, or even identified with, the [[electromagnetism|electromagnetic]] [[hadronic current]] $J^{hadr}$, at least to some approximation.
 
-In [[particle physics]] [[phenomenology]] this is the observation that the [[interaction]] of [[hadrons]] with [[photons]] is dominated by [[interactions]] via [[vector mesons]]. In particular the inverse [[purely leptonic decay]] of [[hadrons]] is dominated by the [[light meson|light]] [[vector mesons]] ([Piller-Weise 90, Fig. 1](#PillerWeise90)).
+### Phenomenology
+ {#Phenomenology}
 
-In [[theory (physics)|theory]], vector meson dominance is encoded by the _field-current identity_  ([Gell-Mann & Zachariasen 61](#GellMannZachariasen61), [Kroll, Lee & Zumino 76, (1.3)](#KrollLeeZumino76), [Sakurai 69, p. 54 onwards](#Sakurai69), review in [Piller-Weise 90, (4)](#PillerWeise90)):
+In [[particle physics]] [[phenomenology]], _vector meson dominance_ is the observation that the [[interaction]] of [[hadrons]] with [[photons]] is dominated by [[interactions]] that procceed via excange of [[vector mesons]]. 
+
+Specifically, the [[decay]] of [[electron]]/[[positron]]-[[pairs]] into [[hadrons]]  
+
+$$
+  e^+ + e^- \to H
+$$
+
+(reverse to the [[purely leptonic decay]] $H \to e^+ e^-$ of [[hadrons]]) is dominated by the [[light meson|light]] [[vector mesons]], in that the [[scattering cross section]] $\sigma(e^+ e^- \to H)$ is peaked at those [[energies]] corresponding to the [[rest masses]] of the vector mesons:
+
+\begin{imagefromfile}
+  "file_name": "VectorMesonDominanceInDileptonCrossSectionI.jpg",
+  "width": 420,
+  "caption": "[Piller-Weise 90, Fig. 1](#PillerWeise90)",
+  "float": "right",
+  "margin": {
+    "top": 0,
+    "right": 10,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  } 
+\end{imagefromfile}
+
+
+The first graphics shows the measured cross section (in [[physical unit|units]] of that of the decay $e^+ e^- \to \mu^+ \mu_-$ of [[electron]] [[dileptons]] into [[muon]] [[dileptons]]): The [[light vector mesons]] [[rho-meson|ρ]]$^0$, [[omega-meson|ω]] and [[phi-meson|ϕ]] correspond to the the spikes below 1 [[GeV]], the further spikes correspond to [[heavy vector mesons]], with [[charmonium]] $J/\psi$ around 4 [[GeV]].
+
+\begin{imagefromfile}
+  "file_name": "VectorMesonDominanceInDileptonCrossSectionII.jpg",
+  "width": 420,
+  "caption": "[Piller-Weise 90, Fig. 2](#PillerWeise90)",  
+  "float": "left",
+  "margin": {
+    "top": 0,
+    "right": 10,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  } 
+\end{imagefromfile}
+
+
+The second graphics shows the same data, now zoomed into the region of the [[light vector mesons]]. One sees clearly that in this region the [[graph of a function|graph]] of the [[scattering cross section]] is completely dominated first of all by the broad [[rho-meson|ρ]]$^0$ peak at a [[mass]] of $\sim 770$ [[MeV]], accompanied just by two sharp spikes, corresponding to the [[omega-meson|ω]] at $\sim 783$ [[MeV]] and the [[phi-meson|ϕ]] at $\sim 1020$ [[MeV]].
+
+
+
+### Theory
+
+In the [[effective field theory]] of [[quantum hadrodynamics]], _vector meson dominance_ refers to a proposal for how to formulate the [[theory (physics)|theory]] guided by the above [[phenomenology]]: 
+
+Here the dominance is encoded by the _field-current identity_  ([Gell-Mann & Zachariasen 61](#GellMannZachariasen61), [Kroll, Lee & Zumino 76, (1.3)](#KrollLeeZumino76), [Sakurai 69, p. 54 onwards](#Sakurai69), review in [Piller-Weise 90, (4)](#PillerWeise90)):
 
 $$
   J^{hadr}_\mu
@@ -39,17 +90,20 @@ essentially identifying the electromagnetic [[hadron current]] with the joint ne
 
 This implies in particular that all [[coupling constants]] of [[interactions]] with an [[omega-meson]]/neutral [[rho-meson]] are proportional, by the same factor, to the corresponding electromagnetic coupling (reviewed in [Schildknecht 05, p. 3](#Schildknecht05)). 
 
-In terms of a [[Lagrangian density]], this is encoded by meson/photon _mixed terms_ of the form ([Kroll, Lee & Zumino 76, (2.7)](#KrollLeeZumino76),[Sakurai 69, p. 67](#Sakurai69))
+In terms of a [[Lagrangian density]], this is encoded by meson/photon _mixed terms_ of the following form ([Kroll, Lee & Zumino 76, (2.7)](#KrollLeeZumino76),[Sakurai 69, p. 67](#Sakurai69)):
 
-$$  
-  \mathbf{L}_{VMD}
+\[
+  \label{VMD1Lagrangian}
+  \mathbf{L}_{VMD1}
   \;\sim\;
   d V \wedge \star_4 d A
   \;+\;
   V \wedge \star_4 J^{hadr}
-$$ 
+\]
 
 obtained from the Lagrangian density $\mathbf{L}_{EM} \;\sim\; d A \wedge \star_{4} d A + A \wedge \star_4 J_{hadr}$ of [[Maxwell theory]] by exchanging a [[photon]] field variable $A$ with a [[vector meson]] [[field (physics)|field]] $V$ (reviewed in [OCPTW 95, p. 10](#OCPTW95), [Schildknecht 05, p. 4](#Schildknecht05)).
+
+There is also an alternative, supposedly equivalent, Lagrangian formulation, less elegant but now in more widespread use. To distinguish the two one speaks of "VMD1" for the formulation (eq:VMD1Lagrangian) and of "VMD2" for the alternative formulation.
 
 
 ## Properties
@@ -151,6 +205,9 @@ and specifically in the [[Witten-Sakai-Sugimoto model]]:
 [[!redirects field-current identity]]
 [[!redirects field-current identities]]
 
+[[!redirects VMD]]
+[[!redirects VMD1]]
+[[!redirects VMD2]]
 
 
 
