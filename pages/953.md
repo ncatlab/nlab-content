@@ -39,7 +39,7 @@ Waldhausen in his work in [[K-theory]] introduced the notion of a category with 
 
 * (C1) all isomorphisms are cofibrations
 
-* (C2) there is a zero object $0$ and for any object $a$ the unique morphism $O\to a$ is a cofibration
+* (C2) there is a zero object $0$ and for any object $a$ the unique morphism $0\to a$ is a cofibration
 
 * (C3) if $a\hookrightarrow b$ is a cofibration and $a\to c$ any morphism then the pushout $c\to b\cup_a c$ is a cofibration
 
