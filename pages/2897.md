@@ -53,7 +53,9 @@ See also
 
 * mathoverflow: [ring of periods not a field](http://mathoverflow.net/questions/20497/is-it-known-that-the-ring-of-periods-is-not-a-field)
 
-
+* J. Carlson, [[P. Griffiths]], _What is a period do-
+main ?_,  AMS Notices __55__:11, 1418-1419
+(2008) [pdf](http://www.ams.org/notices/200811/tx081101418p.pdf)
 
 ### In perturbative quantum field theory
  {#ReferencesInPerturbativeQuantumFieldTheory}
