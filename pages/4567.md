@@ -11,6 +11,7 @@ __Berry's geometric phase__ is a correction to the wave function arising in the 
 ## References
 
 
+
 * [[Michael Berry]], _Quantal phase factors accompanying adiabatic changes_, Proc. Roy. Soc. London Ser. A 392 (1984), no. 1802, 45--57, [doi](http://dx.doi.org/10.1098/rspa.1984.0023)
 
 * [[Michael Berry]], _The quantum phase, five years after_, in: Geometric phases in physics,  7--28, Adv. Ser. Math. Phys., 5, World Sci. Publ., Teaneck, NJ, 1989.
@@ -23,6 +24,9 @@ __Berry's geometric phase__ is a correction to the wave function arising in the 
 Selecta Mathematica __1__:1, 1--19 (1995) [doi](http://dx.doi.org/10.1007/BF01614072)
 
 * Dariusz Chru&#347;ci&#324;ski, Andrzej Jamio&#410;kowski, _Geometric phases in classical and quantum mechanics_, Progress in Math. Physics __36__, Birkh&#228;user 2004. xiv+333 pp. ISBN: 0-8176-4282-X
+
+* [[Mikio Nakahara]], Chapter 10.6 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
 
 A relation to Chern-Bott connection is explained in 4.1 of lecture notes
 
