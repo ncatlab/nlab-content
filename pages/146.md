@@ -20,11 +20,11 @@
 
 ## Idea
 
-Given a small category $C$ of "primitive objects", we can think of a functor $F \;\colon\; C^{op} \to Set$ as being a more complex object built out of primitive objects:
+Given a small category $C$ of "primitive objects", we can think of a functor $F\colon\; C^{op} \to Set$ as being a more complex object built out of primitive objects:
 
  * Given a primitive object $X$ in $C$, we interpret $F(X)$ as a set representing the ways $X$ occurs inside $F$
 
- * Given a morphism $f \;\colon\; X \to Y$ in $C$, we interpret $F(f) : F(Y) \to F(X)$ as the function mapping each occurrence $y$ of $Y$ in $F$ to the corresponding suboccurrence $x$ (included in $y$ through $f$) of $X$ in $F$
+ * Given a morphism $f\colon\; X \to Y$ in $C$, we interpret $F(f)\colon\; F(Y) \to F(X)$ as the function mapping each occurrence $y$ of $Y$ in $F$ to the corresponding suboccurrence $x$ (included in $y$ through $f$) of $X$ in $F$
 
 Such functors are called presheaves.
 
@@ -33,15 +33,15 @@ Such functors are called presheaves.
 A **presheaf** on a [[small category]] $C$ is a [[functor]]
 
 $$
- F \;\colon\; C^{op} \to Set
+ F\colon\; C^{op} \to Set
 $$
 
-from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F \;\colon\; C \to Set$.
+from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F\colon\; C \to Set$.
 
 More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
 
 $$
-  F \;\colon\; C^{op} \to S.
+  F\colon\; C^{op} \to S.
 $$
 
 While, hence, presheaves are just [[functors]] (on [[small categories]]), one says "presheaf" to indicate a specific perspective or interest, namely interest in the _[[sheafification]]_ of the functor/presheaf, or at least interest in the [[functor category]] as a [[topos]] (the [[presheaf topos]]). Hence "presheaf" is a [[concept with an attitude]].
@@ -50,7 +50,7 @@ Historically, the initial applications of presheaves and sheaves involved cases 
 
 The **[[category of presheaves]]** on $C$, usually denoted $Set^{C^{op}}$ or $[C^{op},Set]$, but often abbreviated as $\widehat{C}$, has:
 
-* functors $F : C^{op} \to Set$ as objects;
+* functors $F\colon C^{op} \to Set$ as objects;
 
 * [[natural transformation|natural transformations]] between such functors as morphisms.
 
