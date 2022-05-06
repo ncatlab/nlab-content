@@ -23,13 +23,15 @@ Eventually these should probably have their own pages.
 
 ## Properties
 
-The 2-category of symmetric pseudomonoids in a monoidal 2-category has (weak) 2-coproducts given by the tensor product of underlying objects (analogously to how the category of [[commutative monoids]] in a monoidal category has coproducts given by the tensor product of the underlying objects).  This is proven in [Schaeppi, Appendix A](#Schaeppi).
+The 2-category of symmetric pseudomonoids in a symmetric monoidal 2-category has (weak) 2-coproducts given by the tensor product of underlying objects (analogously to how the category of [[commutative monoids]] in a monoidal category has coproducts given by the tensor product of the underlying objects).  This is proven in [Schaeppi, Appendix A](#Schaeppi).
 
 ##References##
 
-*Ross Street and Brian Day, [Monoidal Bicategories and Hopf Algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492), Advances in Mathematics, Volume 129, Issue 1, 15 July 1997, Pages 99-157. 
+* Ross Street and Brian Day, *[Monoidal bicategories and Hopf algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492)*, Advances in Mathematics, Volume 129, Issue 1, 15 July 1997, Pages 99-157. 
 
-* {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arxiv](https://arxiv.org/abs/1211.3678), 2014
+* {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arXiv](https://arxiv.org/abs/1211.3678), 2014.
+
+* Dominic Verdon, *Coherence for braided and symmetric pseudomonoids*, [arXiv](https://arxiv.org/abs/1705.09354).
 
 
 [[!redirects pseudomonoid]]
