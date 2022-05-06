@@ -409,7 +409,7 @@ Discussion of the Higgs field from [[intersecting D-brane models]] is due to
 
 * {#HebeckerKnochelWeigand13} Arthur Hebecker, Alexander K. Knochel, [[Timo Weigand]], _The Higgs mass from a String-Theoretic Perspective_,  Nucl.Phys. B874 (2013) 1-35 ([arXiv:1304.2767](https://arxiv.org/abs/1304.2767))
 
-* {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, Gary Shiu, Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
+* {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, [[Gary Shiu]], Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
 
 
 Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due to
