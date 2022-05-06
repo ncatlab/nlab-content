@@ -317,7 +317,15 @@ Discussion of K-theory of [[orbifolds]] is for instance in section 3 of
 
 Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|equivariant]] and [[real K-theory|real]] K-theory
 
-* {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134))
+* [[El-kaïoum M. Moutuou]], _Twistings of KR for Real groupoids_ ([arXiv:1110.6836](http://arxiv.org/abs/1110.6836))
+
+* [[El-kaïoum M. Moutuou]], _Graded Brauer groups of a groupoid with involution_, J. Funct. Anal. 266 (2014), no.5 ([arXiv:1202.2057](https://arxiv.org/abs/1202.2057))
+
+* {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
+
+* [[Daniel Freed]], [[Gregory Moore]], Section 7 of: _Twisted equivariant matter_,  Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+
+* {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
 ### For D-brane charge on orbifolds
 
