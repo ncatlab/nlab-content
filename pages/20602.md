@@ -22,6 +22,8 @@ In the [[standard model of particle physics]] the _charm quark_ is the up-type [
 
 ## Related concepts
 
+* [[charmonium]]
+
 [[!include flavors of fundamental particles -- table]]
 
 ## References
