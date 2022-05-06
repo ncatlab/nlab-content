@@ -91,7 +91,11 @@ If here the [[Eilenberg-MacLane spectrum]] $H R$ is replaced by any other [[E-in
 If a [[topological space]] (or [[infinity-groupoid]]) $X$ is [[n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then the [[Hurewicz homomorphism]], def. \ref{HurewiczHomomorphism} 
 
 $$
-  \Phi : \pi_n(X,x) \to H_n(X)
+  \Phi  
+  \;\colon\; 
+  \pi_n(X,x) 
+    \longrightarrow 
+  H_n(X)
 $$
 
 is an [[isomorphism]].
