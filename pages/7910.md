@@ -81,7 +81,7 @@ $$
 
 =--
 
-This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](#Brylinski93)). 
+This is due to ([Kostant](#Kostant)). It appears also a [Brylinski, prop. 2.4.5](#Brylinski93). 
 
 [[!include geometric quantization extensions - table]]
 
