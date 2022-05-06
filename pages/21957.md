@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea
 
-**Objective number theory** is the study of addition and multiplication (and eventually exponentiation) of objects in suitable categories.  ([[Stephen Schanuel]] [2000](#Schanuel00), p.295)
+**Objective number theory** is the study of [[addition]] and [[multiplication]] (and eventually [[exponentiation]]) of [[objects]] in suitable [[categories]]. ([[Stephen Schanuel]] [2000](#Schanuel00), p.295)
 
 
 
