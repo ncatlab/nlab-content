@@ -26,7 +26,7 @@ Similarly one may consider "real-ification" by considering $\pi_\bullet(X) \otim
 
 ### Rationalization of a single space
 
-A **rationalization** of a [[simply connected space|simply connected]] [[topological space]] $X$ is a [[continuous function]][$\phi \colon X \to Y$ where
+A **rationalization** of a [[simply connected space|simply connected]] [[topological space]] $X$ is a [[continuous function]] $\phi \colon X \to Y$, where
 
 * $Y$ is a [[simply connected space|simply connected]] [[rational space]];
 
@@ -62,7 +62,7 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
     \,.
   $$
 
-(e.g. [Hess 06, Def. 1.4 with Def. 1.7](#Hess06))
+([Bousfield-Kan 72, p. 133-140](#BousfieldKan72), [Bousfield-Gugenheim 76, 11.1](#BousfieldGugenheim76), [Hess 06, Def. 1.4 with Def. 1.7](#Hess06))
 
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
@@ -98,7 +98,188 @@ Below we review classical results that says that the left [[adjoint (infinity,1)
 More generally, a setup by [[Bertrand Toen]] serves to provide a more comprehensive description of this situtation: see [[rational homotopy theory in an (infinity,1)-topos]].
 
 
-## Properties {#Properties}
+## Properties 
+  {#Properties}
+
+### Rationalization via PL de Rham theory
+
++-- {: .num_defn #NilpotententFiniteRationalHomotopyTypes} 
+###### Definition
+**(nilpotent and finite rational homotopy types)**
+
+Write
+
+\[
+  \label{NilpotentQFiniteHomotopyTypes}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)^{fin_{\mathbb{Q}}}_{\geq 1, nil}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)
+\]
+
+for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy category]] of the [[classical model structure on simplicial sets]]) on those [[homotopy types]] $X$ which are
+
+* [[connected topological space|connected]]: $\pi_0(X) = \ast$
+
+* [[nilpotent space|nilpotent]]: $\pi_1(X)$ is a [[nilpotent group]]
+
+* rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+
+and
+
+\[
+  \label{NilpotentFiniteRationalHomotopyTypes}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     SimplicialSets_{Qu}
+  \big)
+\]
+
+for the futher [[full subcategory]] on those [[homotopy types]] that are already [[rational spaces|rational]].
+
+
+Similarly, write
+
+\[
+  \label{NilpotentFiniteTypedgcAlgebras}
+  Ho
+  \big(
+     DiffGradedCommAlgebras^{\geq 0}_{\mathbb{Q}}
+  \big)_{fin}^{\geq 1}
+  \overset{
+    \phantom{AAA}
+  }{\hookrightarrow}
+  Ho
+  \big(
+     DiffGradedCommAlgebras^{\geq 0}_{\mathbb{Q}}
+  \big)
+\]
+
+for the [[full subcategory]] of the [[homotopy category]] of the [[projective model structure on connective dgc-algebras]] on those [[dgc-algebras]] $A$ which are
+
+* connected: $H^0(A) \simeq \mathbb{Q}$
+
+* [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(A) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+
+=--
+
+([Bousfield-Gugenheim 76, 9.2](#BousfieldGugenheim76))
+
+
++-- {: .num_pro #FundamentalTheoremOfdgAlgebraicRationalHomotopyTheory} 
+###### Proposition
+**([[fundamental theorem of dg-algebraic rational homotopy theory]])**
+
+The [[derived adjunction]]
+
+$$
+  Ho
+  \left(
+    \big(
+      DiffGradedCommAlgebras^{\geq 0}_{k}
+    \big)^{op}_{proj}
+  \right)
+  \underoverset
+    {
+      \underset
+        {\;\;\; \mathbb{R} exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\; \mathbb{L} \Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\bot}
+  Ho
+  \big(
+    HoSimplicialSets_{Qu}
+  \big)
+$$
+
+of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]] (whose [[left adjoint]] is the [[PL de Rham complex]]-[[functor]]) has the following properties:
+
+* on connected, nilpotent rationally finite homotopy types $X$ (eq:NilpotentQFiniteHomotopyTypes) the [[derived adjunction unit]] is [[rationalization]]
+
+  $$
+    \array{
+    Ho
+    \big(
+       SimplicialSets_{Qu}
+    \big)^{fin_{\mathbb{Q}}}_{\geq 1, nil}
+    &
+      \overset{
+      }{\longrightarrow}
+    &
+    Ho
+    \big(
+       SimplicialSets_{Qu}
+    \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+    \\
+    X
+    &\mapsto&
+    \mathbb{R}\exp \circ \Omega^\bullet_{PLdR}(X)
+    }    
+  $$
+
+  $$
+    X
+    \underoverset
+      {\eta_X^{der}}
+      {rationalization}
+      {\longrightarrow}
+    \mathbb{R}\exp \circ \Omega^\bullet_{PLdR}(X)
+  $$
+
+* on the [[full subcategories]] of nilpotent and finite rational homotopy types from Def. \ref{NilpotententFiniteRationalHomotopyTypes} it restricts to an [[equivalence of categories]]:
+
+  $$
+    Ho
+    \left(
+      \big(
+        DiffGradedCommAlgebras^{\geq 0}_{k}
+      \big)^{op}_{proj}
+    \right)^{\geq 1}_{fin}
+    \underoverset
+      {
+        \underset
+          {\;\;\; \mathbb{R} exp \;\;\;}
+          {\longrightarrow}
+      }
+      {
+        \overset
+          {\;\;\; \mathbb{L} \Omega^\bullet_{PLdR}\;\;\;}
+          {\longleftarrow}
+      }
+      {\simeq}
+    Ho
+    \big(
+      HoSimplicialSets_{Qu}
+    \big)^{\mathbb{Q}, fin_{\mathbb{Q}}}_{\geq 1, nil}
+  $$
+
+
+=--
+
+([Bousfield-Gugenheim 76, Theorems 9.4 & 11.2](#BousfieldGugenheim76))
+
+
+
+
 
 ### Preservation of homotopy pullbacks
 
@@ -264,7 +445,9 @@ For more see at _[[rational stable homotopy theory]]_.
 
 ## References
 
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], p. 133-140 in: _Homotopy Limits, Completions and Localizations_, Lecture Notes in Mathematics Vol. 304, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
 
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], Def. 11.1 in: _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
 * {#Hess06} [[Kathryn Hess]], Def. 1.7 in: _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
