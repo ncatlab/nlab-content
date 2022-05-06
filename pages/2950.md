@@ -13,6 +13,14 @@ On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[b
 
 * [[Robbert Dijkgraaf]], [[Juan Maldacena]], [[Gregory Moore]], [[Erik Verlinde]], _A Black Hole Farey Tail_ ([arXiv:hep-th/0005003](https://arxiv.org/abs/hep-th/0005003), [spire:526744](http://inspirehep.net/record/526744))
 
+
+On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
+
+* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in a Time-Dependent Orbifold_, JHEP 0206:045, 2002 ([arXiv:hep-th/0204168](https://arxiv.org/abs/hep-th/0204168))
+
+* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in Time-Dependent Orbifolds_, JHEP 0210:031, 2002 ([arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182))
+
+
 On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum error correction]]:
 
 
