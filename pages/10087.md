@@ -85,6 +85,8 @@ See _[[Sullivan model of a spherical fibration]]_.
 
 ## References
 
+### General
+
 An original reference is
 
 * [[Albrecht Dold]], [[Richard Lashof]], _Principal quasifibrations and fibre homotopy equivalence of bundles_, 1958 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/doldlashof.pdf))
@@ -100,9 +102,17 @@ Reviews include
 
 * S. Husseini, _Spherical fibrations_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husseini2.pdf))
 
-Discussion in [[rational homotopy theory]]:
+### In rational homotopy theory
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, p. 202 of _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
+Discussion in [[rational homotopy theory]] (for more see at _[[Sullivan model of a spherical fibration]]_):
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, p. 202 of _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000
+
+* {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242 ](https://www.jstor.org/stable/2000242)) 
+
+* {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
+
+* {#FelixOpreaTanre16} [[Yves Félix]], John Oprea, Daniel Tanré, Prop. 2.3 in _Lie-model for Thom spaces of tangent bundles_, Proc. Amer. Math. Soc. 144 (2016), 1829-1840 ([pdf](http://www.ams.org/journals/proc/2016-144-04/S0002-9939-2015-12829-8/S0002-9939-2015-12829-8.pdf), [doi:10.1090/proc/12829](https://doi.org/10.1090/proc/12829))
 
 
 [[!redirects spherical fibrations]]
