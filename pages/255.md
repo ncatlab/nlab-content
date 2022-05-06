@@ -130,21 +130,73 @@ Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adj
 
 ## Examples 
 
+
 ### General
 
-General types of monads that have standard usages also as [[monad (computer science)|monads in computer science]] include
+General types of monads that have standard usages also as [[monad (computer science)|monads in computer science]].
 
-* [[state monad]]
 
-* [[continuation monad]]
 
-* [[maybe monad]]
++-- {: .num_example #MaybeMonad}
+###### Example
+The free-forgetful [[adjunction]] between [[pointed sets]] and [[sets]] induces an [[endofunctor]] $(-)_* : Set \to Set$ which adds a new disjoint point. This is called the [[maybe monad]] in computer science.
+=--
 
-* [[function monad]]
++-- {: .num_example #ListMonad}
+###### Example
+The free-forgetful [[adjunction]] between [[monoids]] and [[sets]] induces an [[endofunctor]] $T : Set \to Set$ defined by 
 
-also 
+$$TA := \bigsqcup_{n \ge 0} A^n $$ 
 
-* [[necessity]] and [[possibility]] monad.
+giving the **free monoid monad**. This also goes by the name $[[list monad]]$ or $[[Kleene-Star]]$ in computer science. The components of the unit $\eta_A : A \to T A$ give inclusions sending each element of $A$ to the corresponding singleton list. The components of the multiplication $\mu_A : T^2 A \to T A$ are the concatenation functions, sending a list of lists to the corresponding list (Known as flattening in computer science). This monad can be defined in any [[monoidal category]] with [[coproducts]] that distribute over the monoidal product.  
+=--
+
++-- {: .num_example #StateMonad}
+###### Example
+[[state monad]]
+
+=--
+
++-- {: .num_example}
+###### Example
+[[continuation monad]]
+
+=--
+
++-- {: .num_example}
+###### Example
+[[function monad]]
+=--
+
++-- {: .num_example}
+###### Example
+[[necessity]] 
+=--
+
++-- {: .num_example}
+###### Example
+[[possibility]]
+=--
+
+
++-- {: .num_example}
+###### Example
+
+=--
+
+### Algebra
+
+
++-- {: .num_example #FreeRModMonad}
+###### Example
+The free-forgetful [[adjunction]] between [[sets]] and the category of $R$-[[modules]]. This induces the **free $R$-module monad** $R[-] : Set \to Set$. The **free abelian group monad** and **free vector speace monad** are special cases.
+=--
+
++-- {: .num_example #FreeGroupMonad}
+###### Example
+The free-forgetful [[adjunction]] between [[sets]] and the category of [[groups]] gives the **free group monad** $F : Set \to Set$ that sends $A$ to the set $F(A)$ of finite words in the letters $a \in A$ together with inverses $a^{-1}$.  
+=--
+
 
 ### Monads in Cat
 
@@ -226,6 +278,8 @@ Introductions:
 
 * [[John Baez]], _[Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf)_ (Introductory slides).
 
+* [[Emily Riehl]], _Category theory in context_ (p. 154).
+
 Detailed accounts:
 
 * [[Michael Barr]], [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
@@ -238,6 +292,8 @@ Detailed accounts:
 * [[Ross Street]], [[Steve Lack]], _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3, 243--265, (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00137-8">doi</a>)
 
 * H. Appelgate, [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]], _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by B.~Eckmann, LNM 80, Springer 1969. 
+
+
 
 Relation to [[universal algebra]]:
 
