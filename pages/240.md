@@ -25,6 +25,8 @@ An [[elementary topos]] $E$ is **well-pointed** if
 
    equivalently: if $f, g: a \rightarrow b$ are morphisms such that $f x = g x$ for all [[global element]]s $x: 1 \to a$, then $f = g$;
 
+   equivalently: every global element $x: 1 \to a$ is an [[epimorphism]]. 
+
 2. and $E$ is nondegenerate, i.e., 1 is not an [[initial object]].
 
 
