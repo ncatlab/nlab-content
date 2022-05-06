@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **Turing machine** is a [[model of computation]]. It can be thought of as a machine with an internal state that uses an infinite piece of tape. Every timestep, it can, in this order:
+A **Turing machine** is a [[model of computation]]. It can be thought of as a machine with a set of possible internal states that uses an infinite (in both directions) piece of tape with countably-many positions available for symbols (drawn from a specified set of symbols). There is a pointer that selects the current position on the tape. Every timestep, it can, in this order:
 
 * Remove or change the symbol that it is currently pointing to;
 
@@ -13,7 +13,7 @@ A **Turing machine** is a [[model of computation]]. It can be thought of as a ma
 
 * Change its state.
 
-It then repeats this sequence until its state is a final state.
+It then repeats this sequence until its state is a _halting_ state, if ever, where a halting state is one special state specified in advance.
 
 ## See also
 
