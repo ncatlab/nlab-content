@@ -66,6 +66,8 @@ Also the converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsO
 
 * [[semidirect product group]]
 
+* [[central product of groups]]
+
 ## References
 
 * {#Kowalski13} E. Kowalski, around p. 41 of _Representation theory_, 2013 ([[KowalskiReptheory2013.pdf:file]])
