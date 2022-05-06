@@ -123,7 +123,7 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 ## Related countability properties
 
-[[!include topology - global countability axioms]]
+[[!include topology - countability axioms]]
 
 
 [[!redirects second-countable space]]
