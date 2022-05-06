@@ -1273,6 +1273,10 @@ See also
 
 * {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
+In view of consistency of [[flux compactifications]]:
+
+* Philip Betzler, Erik Plauschinn, _Type IIB flux vacua and tadpole cancellation_ ([arXiv:1905.08823](https://arxiv.org/abs/1905.08823))
+
 For the [[topological string]]:
 
 * {#Walcher07} Johannes Walcher, _Evidence for Tadpole Cancellation in the Topological String_ ([arXiv:0712.2775](https://arxiv.org/abs/0712.2775))
