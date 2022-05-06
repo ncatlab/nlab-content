@@ -16,9 +16,9 @@ As is suitable for a member of the philosophical faculty of the university of K&
 
 ## Links
 
-* [Wikipedia entry(German)](http://de.wikipedia.org/wiki/Karl_Rosenkranz)
+* [Wikipedia entry (German)](http://de.wikipedia.org/wiki/Karl_Rosenkranz)
 
-*  [Wikipedia entry(English)](http://en.wikipedia.org/wiki/Karl_Rosenkranz)
+*  [Wikipedia entry (English)](http://en.wikipedia.org/wiki/Karl_Rosenkranz)
 
 
 ## References
@@ -27,13 +27,13 @@ Scans of the editions of his writings in fracture print are available online (fo
 
 The most famous of Rosenkranz' writings is:
 
-* K. Rosenkranz, _&#196;sthetik des H&#228;sslichen_ , Reclam Stuttgart 2007[1853].
+* K. Rosenkranz, _&#196;sthetik des H&#228;sslichen_, Reclam Stuttgart 2007[1853].
 
 For his contribution to the Hegelian system consult e.g.:
 
 * K. Rosenkranz, _Wissenschaft der logischen Idee_ - 2 vols., K&#246;nigsberg 1858-59.
 
-* K. Rosenkranz, _Hegels Naturphilosophie und die Bearbeitung derselben durch den italienischen Philosophen Augusto V&#233;ra_ , Olms Hildesheim 1979[1868].
+* K. Rosenkranz, _Hegels Naturphilosophie und die Bearbeitung derselben durch den italienischen Philosophen Augusto V&#233;ra_, Olms Hildesheim 1979[1868].
 
 His views on Kant are expressed in
 
@@ -42,6 +42,6 @@ His views on Kant are expressed in
 
 For a recent assessment of his contribution see
 
-* V. H&#246;sle, _Hegels System - Der Idealismus der Subjektivit&#228;t und das Problem der Intersubjektivit&#228;t_ , Meiner Hamburg 1998.
+* V. H&#246;sle, _Hegels System - Der Idealismus der Subjektivit&#228;t und das Problem der Intersubjektivit&#228;t_, Meiner Hamburg 1998.
 
 category:people
