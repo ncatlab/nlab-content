@@ -24,6 +24,12 @@ On the [[AGT correspondence]]:
 
 * [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_ ([arXiv:0907.3987](https://arxiv.org/abs/0907.3987))
 
+On the [[M5-brane elliptic genus]]:
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070, 2007 ([hep-th/0607010](https://arxiv.org/abs/hep-th/0607010))
+
+* [[Davide Gaiotto]], [[Xi Yin]], _Examples of M5-Brane Elliptic Genera_, JHEP 0711:004, 2007 ([arXiv:hep-th/070](https://arxiv.org/abs/hep-th/070))
+
 On [[Coulomb branch]] [[singularities]] in [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
