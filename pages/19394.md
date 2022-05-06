@@ -80,13 +80,35 @@ See at _[[E-string elliptic genus]]_.
 
 ### General
 
+E-strings as [[M5-branes]] [[wrapped brane|wrapped]] on a [[half K3]]:
+
+
+* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], N. P. Warner, 
+_E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
+
+* [[Amer Iqbal]], _A note on E-strings_, Adv. Theor. Math. Phys. 7 (2003) 1-23 ([arXiv:hep-th/0206064](https://arxiv.org/abs/hep-th/0206064))
+
+
+
+E-strings as M2-branes stretched between M5 and MO9:
+
+
 * {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
 
 
 
 * {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
+On their [[Seiberg-Witten curve]]:
+
+* [[Tohru Eguchi]], Kazuhiro Sakai, _Seiberg-Witten Curve for the E-String Theory_, JHEP 0205:058, 2002 ([arXiv:hep-th/0203025](https://arxiv.org/abs/hep-th/0203025))
+
+
+
 On the [[E-string elliptic genus]]:
+
+* [[Kenji Mohri]], _Exceptional String: Instanton Expansions and Seiberg-Witten Curve_, Rev. Math. Phys. 14 (2002) 913-975 ([arXiv:hep-th/0110121](https://arxiv.org/abs/hep-th/0110121))
+
 
 * {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
