@@ -22,6 +22,10 @@ For $(A,d)$ a [[differential algebra]], a _differential ideal_ is an [[ideal]] $
 
 The [[quotient algebra]] of a [[differential algebra]] by a differential ideal inherits the structure of a differential algebra.
 
+## Related concepts
+
+* [[germ-determined ideal]]
+
 ## References
 
 See also
