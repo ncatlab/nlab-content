@@ -28,6 +28,10 @@ A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a
 
 [[regular Lindelöf spaces are paracompact]]
 
+## Related properties
+
+[[!include topology - global countability axioms]]
+
 ## References
 
 Named after [[Ernst Leonard Lindelöf]].
