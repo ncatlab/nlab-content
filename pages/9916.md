@@ -10,6 +10,8 @@
 
 * [[black holes in string theory]]
 
+* [[Riemannian orbifold]]
+
 
 
 category: people
