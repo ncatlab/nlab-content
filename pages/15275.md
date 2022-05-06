@@ -1,28 +1,51 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Functorial quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-### For knot complements
+The _volume conjectures_ are a class of [[conjectures]] (slightly differing in generality and assumptions), saying that on a suitable (in particular: [[hyperbolic 3-manifold|hyperbolic]]) [[3-manifold]] $X$ a [[large N limit]] of [[SU(n)]]-[[Chern-Simons theory]] [[quantum observables]] ($N$-[[colored Jones polynomials]] or more generally [[RT-invariants]], [[TV-invariants]]) is [[equality|equal]] to the [[volume]] or [[complex volume]] of $X$.
 
-The original _volume conjecture_ (also "Kashaev's conjecture", due to [Kashaev 95](#Kashaev95), and understood in terms of the [[colored Jones polynomial]] by [Murakami-Murakami 01](#MurakamiMurakami01)) states that a certain [[limit of a sequence|limit]] of the [[colored Jones polynomial]] of a [[knot]] $K$ gives the simplicial [[volume]] of its [[complement]] in the [[3-sphere]] (for [[hyperbolic knots]] this is the volume of the complementary [[hyperbolic 3-manifold]])
+For a few special cases of 3-manifolds there are explicit [[proofs]] of the volume conjecture(s). Besides this there is an abundance of [[computer experiment|numerical evidence]] for the volume conjectures, using computer algebra such as [[SnapPy]] (see also [Zickert 07](#Zickert07)). In fact experimentation with these numerics is what has been driving the formulation of further variants of the volume conjecture. 
 
-$$
+Hence [[experimental mathematics]] strongly suggests that the volume conjectures are true. But a conceptual explanation (let alone [[proof]]) in terms of [[quantum field theory]] remanins open ([Witten 14, bottom of p. 4](#Witten14)).
+
+
+### For $SU(2)$ on knot complements
+
+The original _volume conjecture_ (also "Kashaev's conjecture", due to [Kashaev 95](#Kashaev95), and understood in terms of the $N$-[[colored Jones polynomial]] by [Murakami-Murakami 01](#MurakamiMurakami01)) states that the [[large N limit]] of the $N$-[[colored Jones polynomial]] (for [[gauge group]] [[SU(2)]]) of a [[knot]] $K$ gives the simplicial [[volume]] of its [[complement]] in the [[3-sphere]] (for [[hyperbolic knots]] this is the volume of the complementary [[hyperbolic 3-manifold]])
+
+\[
+  \label{KashaevConjecture}
   lim_{N \to \infty}
   \left(
-    \frac{2 \pi log 
+    \frac{
+       2 \pi log
+    }
+    {N}
       \left\vert
         V_N(K; q = e^{\frac{2 \pi i}{N}})
-      \right\vert 
-    }{
-      N
-    }
+      \right\vert     
   \right) 
   \;=\; 
   vol(K).
-$$
+\]
 
 Here $V_N(K; q)$ is the ratio of the values of the $N$-[[colored Jones polynomial]] of $K$ and of the [[unknot]]
 
@@ -32,18 +55,21 @@ $$
 
 The simplicial volume of a knot complement can be found via its unique **torus** decomposition  into hyperbolic pieces and Seifert fibered pieces by a system of tori. The simplicial volume is then the sum of the hyperbolic volumes of the hyperbolic pieces of the decomposition.
 
-If one omits the [[absolute value]] in the above expression, the volume conjecture instead involves the [[complex volume]] ([MMOTY 02, Conjecture 1.2](#MMOTY02)).
+If one omits the [[absolute value]] in (eq:KashaevConjecture) then the volume conjecture instead involves the [[complex volume]] ([MMOTY 02, Conjecture 1.2](#MMOTY02)).
 
-### Generally
+### For $SU(2)$ on general 3-manifolds
  {#IdeaGenerally}
 
-More generally, volume conjectures state convergence of something like the [[Chern-Simons theory]] quantum invariant (realized notably via [[Reshetikhin-Turaev construction]] or [[Turaev-Viro construction]]) on [[hyperbolic 3-manifolds]] to the [[complex volume]] (for Reshetikhin-Turaev) or to the plain volume (for Turaev-Viro).
+More generally, volume conjectures state [[convergence of a sequence|convergence]] of the [[Turaev-Viro invariants]] or [[Reshetikhin-Turaev invariants]] on general [[hyperbolic 3-manifolds]] to the [[volume]] or [[complex volume]], respectively.
 
 See ([Chen-Yang 15](#ChenYang15))
 
-### Evidence
+### For $SU(n)$
 
-The volume conjecture has been checked in special cases, using notably the computer algebra system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)).
+Generalization from [[gauge group]] [[SU(2)]] to [[SU(n)]]: [Chen-Liu-Zhu 15](#ChenLiuZhu15)
+
+
+
 
 
 
@@ -74,11 +100,15 @@ Original articles include
 
 * {#Murakami04} [[Hitoshi Murakami]], _Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot_, Internat. J. Math. 15 (2004) 547-555.
 
-Generalization to [[Reshetikhin-Turaev construction]] on closed manifold, to the  [[Turaev-Viro construction]] on manifolds with boundary, and to more general roots of unity than considered before is in 
+Generalization to [[Reshetikhin-Turaev construction]] on closed manifold, to the  [[Turaev-Viro construction]] on [[manifolds with boundary]], and to more general [[roots of unity]] than considered before is in 
 
 * {#ChenYang15} [[Qingtao Chen]], [[Tian Yang]], _A volume conjecture for a family of Turaev-Viro type invariants of 3-manifolds with boundary_ ([arXiv:1503.02547](http://arxiv.org/abs/1503.02547))
 
 * Dongmin Gang, Mauricio Romo, Masahito Yamazaki, _All-Order Volume Conjecture for Closed 3-Manifolds from Complex Chern-Simons Theory_,     Commun. Math. Phys. (2018) 359: 915. ([arXiv:1704.00918](https://arxiv.org/abs/1704.00918), [doi:10.1007/s00220-018-3115-y](https://doi.org/10.1007/s00220-018-3115-y))
+
+Generalization to [[SU(n)]]:
+
+* {#ChenLiuZhu15} [[Qingtao Chen]], [[Kefeng Liu]], Shengmao Zhu, _Volume conjecture for SU(n)-invariants_ ([arXiv:1511.00658](https://arxiv.org/abs/1511.00658))
 
 
 Review includes
