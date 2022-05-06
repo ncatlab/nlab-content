@@ -560,6 +560,11 @@ In relation to [[torsion constraints in supergravity]]:
 
 * {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
+as a way of speaking about [[Calabi-Yau structure]]:
+
+* {#Prins16} [[Daniël Prins]], _On flux vacua, $SU(n)$-structures and generalised complex geometry_, Université Claude Bernard -- Lyon I, 2015.  ([arXiv:1602.05415](https://arxiv.org/abs/1602.05415), [tel:01280717](https://tel.archives-ouvertes.fr/tel-01280717))
+
+
 In relation to [[BPS states]]/partial reduction of [[number of supersymmetries]] under [[KK-compactification]]:
 
 * [[Paul Koerber]], _Lectures on Generalized Complex Geometry for Physicists_, Fortsch. Phys. 59: 169-242, 2011 ([arXiv:1006.1536](https://arxiv.org/abs/1006.1536))
@@ -592,7 +597,7 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
 * Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arxiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
-* Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with $SU(4)$ structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
+* [[Daniël Prins]], [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with $SU(4)$ structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
 * [[Elena Babalic]], [[Calin Lazaroiu]], _Singular foliations for M-theory compactification_, JHEP 03 (2015) 116 ([arXiv:1411.3497](https://arxiv.org/abs/1411.3497))
 
