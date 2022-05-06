@@ -31,6 +31,17 @@ Since no GUT model has been fully validated yet (but see for instance [Fong-Melo
 
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
 
+\linebreak
+
+[[length scales]] in the [[observable universe]] (from [[cosmological constant|cosmic]] scales, over [[fundamental particle]]-[[masses]] around the [[electroweak symmetry breaking]] to [[GUT scale]] and [[Planck scale]]):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ScalesInFundamentalPhysics.jpg" width="700">
+</center>
+
+> graphics grabbed from [Zupan 19](flavour+in+particle+physics#Zupan19)
+
+
 
 ### The $SU(5)$-GUT (Georgi-Glashow)
   {#IdeaofSU5GUT}
