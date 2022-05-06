@@ -21,9 +21,9 @@ This kind of structures naturally comes in [[CFT]] models relation to quantum gr
 A __weak bialgebra__ is a tuple $(A,\mu,\eta,\Delta,\epsilon)$
 such that $(A,\mu,\eta)$ is an associative unital algebra,
 $(A,\Delta,\epsilon)$ is a coassociative counital coalgebra
-and the following compatibilities hold:
+and the following compatibilities, (i),(ii) and (iii), hold:
 
-(i) the coproduct $\Delta$ is multiplicative $\Delta(x)\Delta(y)= \Delta(x y)$. If only (i) is satisfied, we may speak of a __prebialgebra__.
+(i) the coproduct $\Delta$ is multiplicative $\Delta(x)\Delta(y)= \Delta(x y)$. If only (i) is satisfied, following Böhm, Caenapeel and Janssen 2011, we may speak of a __prebialgebra__.
 
 (ii) the counit $\epsilon$ satisfies weak multiplicativity
 $$
@@ -32,6 +32,7 @@ $$
 $$
 \epsilon(x y z) = \epsilon(x y_{(2)})\epsilon(y_{(1)} z).
 $$
+A prebialgebra satisfying the first (the second) of the above properties is said to be left (right) monoidal. 
 
 (iii) Weak comultiplicativity of the unit:
 
@@ -41,6 +42,7 @@ $$
 $$
 \Delta^{(2)} (1) = (1 \otimes\Delta(1))(\Delta(1) \otimes 1)
 $$
+A prebialgebra satisfying the first (the second) of the above properties is said to be left (right) comonoidal.
 
 As usually in the context of coassociative coalgebras, we denoted $\Delta^{(2)} := (id\otimes\Delta)\Delta = 
 (\Delta\otimes id)\Delta$.
@@ -56,15 +58,16 @@ $$
 $$
 S(x_{(1)})x_{(2)} S(x_{(3)}) = S(x)
 $$
+It follows that the antipode is antimultiplicative, $S(x y)=S(y)S(x)$, and
+anticomultiplicative, $\Delta(S(x)) = S(x)_{(1)}\otimes S(x)_{(2)} = 
+S(x_{(2)})\otimes S(x_{(1)})$.
 
 ## Properties
 
 ### Idempotents ("projections")
 
 For every weak bialgebra there are $k$-linear maps 
-$\Pi^L,\Pi^R:A\to A$
-with properties $\Pi^R\Pi^R = \Pi^R$ and $\Pi^L\Pi^L = \Pi^L$
-and defined by
+$\Pi^L,\Pi^R:A\to A$ defined by
 $$
 \Pi^L(x) := \epsilon(1_{(1)} x) 1_{(2)},\,\,\,\,
 \Pi^R(x) := 1_{(1)}\epsilon(x 1_{(2)}).
@@ -72,8 +75,8 @@ $$
 Expressions for $\Pi^L(x),\Pi^R(x)$ are already met above as the right hand sides in two of the axioms for the antipode. Maps $\Pi^L,\Pi^R$
 are idempotents, $\Pi^R\Pi^R = \Pi^R$ and $\Pi^L\Pi^L = \Pi^L$:
 $$\array{
-\Pi^L(\Pi^L(x)) &=& \epsilon\left(1_{(1)'}\epsilon(1_{(1)}x) 1_{(2)}\right)1_{(2)'}
-= \epsilon(1_{(1)}x)\epsilon(1_{(1)'}1_{(2)}) 1_{(2)'} 
+\Pi^L(\Pi^L(x)) &=& \epsilon\left(1_{(1')}\epsilon(1_{(1)}x) 1_{(2)}\right)1_{(2')}
+= \epsilon(1_{(1)}x)\epsilon(1_{(1')}1_{(2)}) 1_{(2')} 
 \\ &=&\epsilon(1_{(1)}x)\epsilon(1_{(2)}) 1_{(3)} 
 = \epsilon(1_{(1)}x)1_{(2)} = \Pi^L(x).
 }$$
@@ -85,15 +88,20 @@ given by $(x,y) \mapsto \epsilon(y x)$.
 
 Also $\Pi^L(x\Pi^L(y)) = \Pi^L(x y)$ 
  and $\Pi^R(\Pi^R(x)y) = \Pi^R(x y)$,
- and dually $\Delta(A^L)\subset A\otimes A^L$ 
+ dually $\Delta(A^L)\subset A\otimes A^L$ 
         and $\Delta(A^R)\subset A^R\otimes A$,
- and $\Delta(1)\in A^R\otimes A^L$.
+ and in particular $\Delta(1)\in A^R\otimes A^L$.
 
-Sometimes it is also useful to consider the maps $\bar\Pi^L,\bar\Pi^R:A\to A$ defined by
+Sometimes it is also useful to consider the idempotents $\bar\Pi^L,\bar\Pi^R:A\to A$ defined by
 $$
 \bar\Pi^L(x) := \epsilon(1_{(2)} x) 1_{(1)},\,\,\,\,
 \bar\Pi^R(x) := 1_{(2)}\epsilon(x 1_{(1)}).
 $$
+$$\array{
+\bar\Pi^L(\bar\Pi^L(x))&=&\epsilon(1_{(2')}\epsilon(1_{(2)}x)1_{(1)})1_{(1')} = \epsilon(1_{(2)}x)\epsilon(1_{(2')}1_{(1)})1_{(1')} \\
+&=& \epsilon(1_{(3)}x)\epsilon(1_{(2)})1_{(1)}=
+\epsilon(1_{(2)}x)1_{(1)} = \bar\Pi^L(x).
+}$$
 
 ### Relation to fusion categories
 
@@ -119,10 +127,12 @@ Now these works are understood categorically from the point of view of weak mona
 
 The relation to [[fusion categories]] is discussed in 
 
-* Takahiro Hayashi, _A canonical Tannaka duality for finite seimisimple tensor categories_ ([arXiv:math/9904073](http://arxiv.org/abs/math/9904073))
+* Takahiro Hayashi, _A canonical Tannaka duality for finite semisimple tensor categories_ ([arXiv:math/9904073](http://arxiv.org/abs/math/9904073))
 
 * [[Victor Ostrik]], _Module categories, weak Hopf algebras and modular invariants_ ([arXiv:math/0111139](http://arxiv.org/abs/math/0111139)) 
  {#Ostrik}
+
+category: algebra
 
 [[!redirects weak bialgebras]]
 
