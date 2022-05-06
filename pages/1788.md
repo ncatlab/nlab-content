@@ -1,420 +1,65 @@
 
 
-$$
-  \begin{aligned}
-    \big[
-      \tfrac{1}{4}
-      [\Gamma_{a_1}, \Gamma_{a_2}]
-      \;
-      \tfrac{1}{4}
-      [\Gamma_{b_1}, \Gamma_{b_2}]
-    \big]
-    & =
-    \tfrac{1}{4}
-    \Big[
-      \big[
-        \tfrac{1}{4}
-        [\Gamma_{a_1},\Gamma_{a_2}]
-        ,\,
-        \Gamma_{b_1} 
-      \big]
-      ,\,
-      \Gamma_{b_2}
-    \Big]
-    + 
-    \tfrac{1}{4}
-    \Big[
-      \Gamma_{b_1},
-      \big[
-        \tfrac{1}{4}
-        [\Gamma_{a_1},\Gamma_{a_2}]
-        ,\,
-        \Gamma_{b_2}
-      \big]
-    \Big]
-    \\
-    & =    
-    g_{a_2 b_1}
-    \tfrac{1}{4}
-    [\Gamma_{a_1},\Gamma_{b_2}]
-    -
-    g_{a_1 b_1}
-    \tfrac{1}{4}
-    [\Gamma_{a_2},\Gamma_{b_2}]
-    +
-    g_{a_2 b_2}
-    \tfrac{1}{4}
-    [\Gamma_{b_1},\Gamma_{a_1}]
-    -
-    g_{a_1 b_2}
-    \tfrac{1}{4}
-    [\Gamma_{b_1}, \Gamma_{a_2}]
-  \end{aligned}
-$$
 
-
-\linebreak
-
-***
-
-\linebreak
 
 $$
-  \begin{aligned}
-  \big[
-    \tfrac{1}{2}
-    \Gamma_{a_1} \Gamma_{a_2}
-    ,\;
-    \Gamma_b
-  \big]
-  & 
+  d B + Tr(d \pi \wedge d \pi \wedge d \pi)
+  \;=\;
+  \star_{5} F
+$$
+
+$$
+  \star_5
+  d \star_5 F 
+  =
+  \star_5
+  Tr(d \pi \wedge d \pi \wedge d \pi) h' d x^4
+$$
+
+$$
+  d \star_5 
+  \big( 
+    F + \omega \wedge d x^4
+  \big)  
+$$
+
+$$
+  d \star_4 F \wedge d x^4
+  \;=\;
+  d \big( \pi \wedge d \pi \wedge d \pi _\big) \wedge d x^4
+$$
+
+$$
+  d A \wedge d x^5
+  +
+  d \omega \wedge d x^5
+  + 
+  d \rho^0 \wedge d x^5
+  +
+  B \wedge d x^4
+  + 
+  \pi \wedge d \pi \wedge d \pi \wedge d x^4
+$$
+
+$$
+  \star_4
+  (d A + d \omega + d \rho^0)
   = 
-  \tfrac{1}{2}
-  \Gamma_{a_1}
-  \big\{
-    \Gamma_{a_2},
-    \;
-    \Gamma_b
-  \big\}
-  - 
-  \tfrac{1}{2}
-  \big\{
-    \Gamma_{a_1},
-    \;
-    \Gamma_b
-  \big\}
-  \Gamma_{a_2}
-  \\
-  & =
-  g_{a_2 b}
-  \Gamma_{a_1}
-  -
-  g_{a_1 b}
-  \Gamma_{a_2}
-  \end{aligned}
-$$
-
-
-$$
-  \begin{aligned}
-    \big[
-      \tfrac{1}{2}
-      \Gamma_{a_1} \Gamma_{a_2},
-      \;
-      \tfrac{1}{2}
-      \Gamma_{b_1} \Gamma_{b_2}
-    \big]
-    & =
-    \tfrac{1}{2}
-    \big[
-      \tfrac{1}{2}
-      \Gamma_{a_1} \Gamma_{a_2},
-      \;
-      \Gamma_{b_1} 
-    \big]
-    \Gamma_{b_2}
-    + 
-    \tfrac{1}{2}
-    \Gamma_{b_1} 
-    \big[
-      \tfrac{1}{2}
-      \Gamma_{a_1} \Gamma_{a_2},
-      \;
-      \Gamma_{b_2}
-    \big]
-    \\
-    & =    
-    g_{a_2 b_1}
-    \tfrac{1}{2}
-    \Gamma_{a_1} \Gamma_{b_2}
-    -
-    g_{a_1 b_1}
-    \tfrac{1}{2}
-    \Gamma_{a_2} \Gamma_{b_2}
-    -
-    g_{a_2 b_2}
-    \tfrac{1}{2}
-    \Gamma_{a_1}
-    \Gamma_{b_1}
-    +
-    g_{a_1 b_2}
-    \tfrac{1}{2}
-    \Gamma_{a_2}
-    \Gamma_{b_1} 
-  \end{aligned}
+   B + \pi \wedge d \pi \wedge d \pi
 $$
 
 $$
-  \sigma^\ast( e_{\mu 5'} )
-  \;=\;
-  d(
-    e^{- x^4 m}  
-    A_\mu
-  )
-  \phantom{AAAA}
-  \sigma^\ast( e_{\mu_1 \mu_2} )
-  \;=\;
-  d(
-    e^{ - x^4 m}
-    B_{\mu \nu}
-  )
-$$
-
-
-$$
-  \begin{aligned}
-    H_3
-    & \coloneqq\;
-    \sigma^\ast
-    \big(
-      e_{a_1 a_2}
-     \wedge 
-     e^{a_1}
-     \wedge 
-     e^{a_2}
-    \big)
-    +
-    e_{ a_1 a_2 5'}{}^{4 5}
-    \wedge 
-    e^{a_1} 
-    \wedge 
-    e^{a_2}
-    \big)
-    \\
-    & = \;
-    \big(
-      d
-      \underset{n}{\sum}
-       h_n
-       V^n
-      \wedge d x^{5'}
-      +
-      d 
-      \underset{n}{\sum}
-      h_n
-      B^n
-    \big)
-    \\
-    & =
-    \underset{n}{\sum}
-    h_n
-    \Big(
-      d V^n
-      \wedge d x^5
-      +
-      \big(
-        \sqrt{\tfrac{n+1}{2}}
-        V^{n+1}
-        -
-        \sqrt{\tfrac{n}{2}}
-        V^{n-1}
-      \big)
-      \wedge 
-      d x^4
-      \wedge 
-      d x^5
-      +
-      d B^n
-      +
-      \big(
-        \sqrt{\tfrac{n+1}{2}}
-        B^{n+1}
-        -
-        \sqrt{\tfrac{n}{2}}
-        B^{n-1}
-      \big)      
-      \wedge d x^4
-    \Big)
-  \end{aligned}
-$$
-
-$$
-  \widehat{A}(\{x^\mu\}, x^4)
-  \;=\;
-  \underset{n}{\sum}
-    h_n(x^4)
-    V^{(n)}(\{x^\mu\})
-$$
-
-\linebreak
-\linebreak
-
-$$
-  d \widehat{A}
-  \;=\;
-  \underset{n}{\sum}
-  h_n
-  \Big(
-    d V^{(n)}
-    +
-    \big(
-      \sqrt{\tfrac{n+1}{2}}
-      V^{(n+1)}
-      -
-      \sqrt{\tfrac{n}{2}}
-      V^{(n-1)}
-    \big)
-    \wedge 
-    d x^4
-  \Big)
-$$
-
-$$
-  \star_5 d \widehat{A}
-  \;=\;
-  \underset{n}{\sum}
-  h_n
-  \Big(
-    \star_4 d V^{(n)} \wedge d x^4
-    +
-    \sqrt{\tfrac{n}{2}}
-    \star_4 V^{(n-1)}    
-    -
-    \sqrt{\tfrac{n+1}{2}}
-    \star_{4} V^{(n+1)}
-  \Big)
-$$
-
-
-$$
-  \begin{aligned}
-    & d \star_5 d \widehat{A}
-    \\
-    & 
-  \begin{aligned}
+  \star_4 d \star_4 F 
   = 
-  \underset{n}{\sum}
-  h_n
-  \Big(
-    &
-    d \star_4 d V^{(n)} \wedge d x^4
-    +
-    \sqrt{\tfrac{n}{2}}
-    d \star_4 V^{(n-1)}    
-    -
-    \sqrt{\tfrac{n+1}{2}}
-    d \star_{4} V^{(n+1)}
-    \\
-    & 
-    +
-    \;\;
-    \sqrt{\tfrac{n+1}{2}}
-    \big(
-      \star_4 d V^{(n+1)} \wedge d x^4
-      +
-      \sqrt{\tfrac{n+1}{2}}
-      \star_4 V^{(n)}    
-      -
-      \sqrt{\tfrac{n+2}{2}}
-      \star_{4} V^{(n+2)}
-    \big) 
-    \wedge d x^4
-    \\
-    &
-    -
-    \;\;
-    \sqrt{\tfrac{\;n\;}{2}}
-    \big(
-      \star_4 d V^{(n-1)} \wedge d x^4
-      +
-      \sqrt{\tfrac{n-1}{2}}
-      \star_4 V^{(n-2)}    
-      -
-      \sqrt{\tfrac{\;n\;}{2}}
-      \star_{4} V^{(n)}
-    \big)
-    \wedge d x^4
-  \Big)
-  \end{aligned}
-  \\
-  & =
-  \underset{n}{\sum}
-  h_n
-  \Big(
-    d \star_4 d V^{(n)} \wedge d x^4
-    +
-    \left(   
-      n + \tfrac{1}{2}
-    \right)
-    \tfrac{n}{2}
-    \star_{4} V^{(n)}
-    -
-    \sqrt{\tfrac{n+2}{2}\tfrac{n+1}{2}}
-    \star_{4} V^{(n+2)}
-    -
-    \sqrt{\tfrac{n}{2}\tfrac{n-1}{2}}
-    \star_4 V^{(n-2)}    
-  \Big)
-  \wedge d x^4
-  \end{aligned}
+  - \star_4 d \star_4 d (\omega + \rho^0)
+  +
+  d B + d \pi \wedge d \pi \wedge d \pi
 $$
+
 
 
 \linebreak
-\linebreak
 
-$$
-  \begin{aligned}
-    \Rightarrow \;\;
-    \star_{{}_{6'}} H_3 
-    & = \;
-    e^{- x^4 m}
-    \big(
-      \star_4 d A \wedge d x^4
-      +
-      m \, \star_4 A 
-      -
-      \star_4 d B  \wedge d x^4 \wedge d x^{5'}
-      +
-      m \, \star_4 B \wedge d x^{5'}
-    \big)
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-  \star_{{}_{6'}} H_3 
-  =\;
-  H_3
-  & 
-  \;\;\;
-    \Leftrightarrow
-  \;\;\;
-  \left\{
-    \begin{aligned}
-      m \, B & =  - \star_{{}_4} d A
-      \\
-      \star_{{}_4} d B & = + m \, A
-    \end{aligned}
-  \right.
-  \\
-  & 
-  \;\;\;
-  \Leftrightarrow
-  \;\;\;
-  \left\{
-    \begin{aligned}
-      B & = \frac{1}{m} \star_{{}_4} d A
-      \\
-      \star_{{}_4} d \star_{{}_4} d A & = 
-      - m^2 A 
-    \end{aligned}
-  \right.
-  \\
-  & 
-  \;\;\;
-  \Leftrightarrow
-  \;\;\;
-  \left\{
-    \begin{aligned}
-      B & = \frac{1}{m} \star_{{}_4} d A
-      \\
-      \partial_\mu \partial^\mu A & = 
-      m^2 A 
-    \end{aligned}
-  \right.
-  \end{aligned}
-$$
 
 \linebreak
 
