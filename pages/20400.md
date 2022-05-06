@@ -680,7 +680,7 @@ The formal description of a language in LF and similar logical frameworks is cal
 
 ### Martin-Löf's Logical Framework
 
-To see how equality reflection is useful for a logical framework, we will propose an extension of LF, called "LF=" (LF with equality), that combines the flexibility of LF's synthetic encoding with the shallowness of LF's analytic encoding. (But in LF=, the encoding is generally not analytic, in the sense of algorithmic judgments. That's the catch.) But first, it's instructive to cover analytic encoding in Martin-Löf's logical framework ("MLLF").
+To see how equality reflection is useful for a logical framework, we will propose an extension of LF, called "LF=" (LF with equality), that combines the shallowness of LF's analytic encoding with more of the flexibility of LF's synthetic encoding. (But in LF=, the encoding is generally not analytic, in the sense of algorithmic judgments. That's the catch.) But first, it's instructive to cover analytic encoding in Martin-Löf's logical framework ("MLLF").
 
 Unlike LF, MLLF doesn't have a fixed judgmental equality. Term formers are specified in roughly the same intrinsically typed way as with the analytic encoding for LF. But meanwhile, judgmental equality rules for the object language are added by adding corresponding judgmental equality rules to the framework. Thus, MLLF can shallowly encode many type systems with analytic judgments, not just the ones where type equality is very simple, like with LF. MLLF is particularly well suited to specifying variants of Martin-Löf type theory.
 
@@ -745,7 +745,7 @@ Of course, if we add reflective equality to the *object language*, then we shoul
 
 `eqE` is the equality reflection rule for the object language. Note that there's no trouble declaring this constant. It's just another judgmental equality rule for the object language. LF= was prepared all along for equality requiring proof. On the other hand, that means that it requires *boring* proof in the common case that it's obvious. So an implementation of LF= would have a practical need for proof automation, to effect type checking of the object language.
 
-The motivation behind CLF—and seemingly many other type system implementations based on synthetic judgments—is that there's no *implementation* reason to distinguish type checking from other forms of proof automation. That type checking really is just automatic "proving" of judgments. So a general "logic of judgments" should be available to provide a common basis for the implementation of type checkers.
+Part of the rationale behind CLF—and seemingly many other type system implementations based on synthetic judgments—is that there's no *implementation* reason to distinguish type checking from other forms of proof automation. That type checking really is just automatic "proving" of judgments.
 
 On the other hand, if you insist upon decidable type checking, that would be a reason to distinguish type checking from general proof automation. Implementers of synthetic type systems seem united in not considering decidability very important.
 
