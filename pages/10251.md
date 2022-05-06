@@ -5,6 +5,10 @@
 
 * [[Gepner model]]
 
+* [[intersecting D-brane model]]
+
+* [[string phenomenology]], [[GUT]]
+
 * [[landscape of string theory vacua]]
 
 * [[discrete torsion]]
