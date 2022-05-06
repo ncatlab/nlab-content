@@ -81,7 +81,7 @@ To illustrate this, we suppose we have the following diagram, where for convenie
 
 <img width="250" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/contraction-expansion-labelled.png"/>
 
-Clicking and dragging the vertices would yield the following results:
+Vertices 1 and 4 are in generic position, so dragging them will trigger contractions, while dragging vertices 2 and 3, which are in singular position, would trigger expansions. We illustrate the resulting diagrams as follows:
 
 <style> table>tr>td { border:none!important } </style>
 <table style="border-style:hidden !important; padding:0px!important">
@@ -108,7 +108,7 @@ Clicking and dragging the vertices would yield the following results:
 </tr>
 </table>
 
-Dragging vertex 4 up, or vertex 1 down, has no effect, as vertices cannot be dragged off the top or bottom edge of a diagram.
+Dragging vertex 1 up, or vertex 4 down, has no effect, as vertices cannot be dragged off the top or bottom edge of a diagram.
 
 The following images illustrate non-contractible scenarios:
 
