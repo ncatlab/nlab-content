@@ -45,6 +45,8 @@ via the [[BFSS matrix model]]:
 
 via [[Jackiw-Teitelboim gravity]]:
 
+* {#SaadShenkerStanford19} Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], _JT gravity as a matrix integral_ ([arXiv:1903.11115](https://arxiv.org/abs/1903.11115))
+
 * {#StanfordWitten19} [[Douglas Stanford]], [[Edward Witten]], _JT Gravity and the Ensembles of Random Matrix Theory_ ([arXiv:1907.03363](https://arxiv.org/abs/1907.03363))
 
 [[!redirects random matrix theory]]
