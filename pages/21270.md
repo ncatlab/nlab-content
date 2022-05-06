@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Gravity
++-- {: .hide}
+[[!include gravity contents]]
+=--
 #### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
