@@ -273,25 +273,17 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 ## References
 
-### General 
+
+### Via functorial geometry
 
 Discussion from the point of view of [[functorial geometry]]:
+
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
 
 * {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]], _Super manifolds: an incomplete survey_, Bulletin of the Manifold Atlas (2011) 1&#8211;6 ([pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Survey-Journal.pdf))
 
 * [[Henning Hohnhold]], [[Matthias Kreck]], [[Stephan Stolz]], [[Peter Teichner]], Sections 2-3 of: _Differential forms and 0-dimensional supersymmetric field theories_, Quantum Topology Volume 2, Issue 1 (2011) pp. 1–41 ([doi:10.4171/QT/12](http://dx.doi.org/10.4171/QT/12))
 
-Discussion with an eye towards [[supergravity]] is in 
-
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-
-Discussion with an eye on [[integration over supermanifolds]] is in
-
-* [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
-
-Global properties are discussed in
-
-* [[Louis Crane]], Jeffrey M. Rabin, _Global properties of supermanifolds_, Comm. Math. Phys. Volume 100, Number 1 (1985), 141-160. ([Euclid](http://projecteuclid.org/euclid.cmp/1103943340))
 
 ### As locally ringed spaces
 
@@ -350,6 +342,20 @@ Alice Rogers claims, in Chapter 1, that the smooth-manifold-of-(infinite-dimensi
  
 
 ### Other
+
+Discussion with an eye towards [[supergravity]] is in 
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+Discussion with an eye on [[integration over supermanifolds]] is in
+
+* [[Edward Witten]], _Notes On Supermanifolds and Integration_ ([arXiv:1209.2199](http://arxiv.org/abs/1209.2199))
+
+Global properties are discussed in
+
+* [[Louis Crane]], Jeffrey M. Rabin, _Global properties of supermanifolds_, Comm. Math. Phys. Volume 100, Number 1 (1985), 141-160. ([Euclid](http://projecteuclid.org/euclid.cmp/1103943340))
+
+See also:
 
 * [[Yuri Manin]], _Topics in noncommutative geometry_, Princeton Univ. Press 1991. 
 
