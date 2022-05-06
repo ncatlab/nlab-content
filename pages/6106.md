@@ -84,7 +84,7 @@ $$
 
 for the [[automorphism]] which rotates loops by an [[angle]] $\theta$. 
 
-The corresponding [[semidirect product group]] we write $S^1 \rtimes L G$
+The corresponding [[semidirect product group]] we write $L G \rtimes S^1$
 
 +-- {: .num_defn }
 ###### Definition
@@ -103,7 +103,7 @@ $$
   \rho : L G \to Aut(V)
 $$
 
-is said to have **positive energy** or to be a **[[positive energy representation]]** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
+is said to have **positive energy** or to be a **[[positive energy representation]]** if it extends to a representation of the [[semidirect product group]] $L G \rtimes S^1$ such that the restriction to $S^1$ is positive.
 
 =--
 
