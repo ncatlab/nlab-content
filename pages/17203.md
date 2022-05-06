@@ -126,15 +126,21 @@ $$
 See also at _[[complex orientation and MU]]_.
 
 
-### $MU$-homology of a manifold: Cobordisms in $X$
+### $MU$-homology of a manifold: bordisms in $X$
 
-For $X$ a [[manifold]], the $MU$-homology [[group]] $MU_\ast(X)$ of its underlying [[homotopy type]] is the group of equivalence classes of maps $\Sigma \to X$ from manifolds $\Sigma$ with [[complex structure]] on the stable [[normal bundle]], modulo suitable complex [[cobordisms]].
+For $X$ a [[manifold]] or a [[topological space]], the $MU$-homology [[group]] $MU_\ast(X)$ of its underlying [[homotopy type]] is the group of equivalence classes of maps $\Sigma \to X$ from manifolds $\Sigma$ with [[complex structure]] on the stable [[normal bundle]], modulo suitable complex [[cobordisms]].
 
-e.g ([Ravenel chapter 1, section 2](#Ravenel))
+See [Ravenel chapter 1, section 2](#Ravenel).
 
-(...)
+For more information, see the article [[bordism homology theory]],
+which treats the oriented case; the [[complex-oriented]] case is similar.
 
+### $MU$-cohomology of a manifold: cobordisms in $X$
 
+$MU$-cohomology groups of a manifold $M$ can be expressed
+in terms of bordisms given by proper [[complex-oriented]] maps into $M$.
+
+For more information, see the article [[cobordism cohomology theory]].
 
 ### $MU$-homology of $MU$: Hopf algebroid structure on dual Steenrod algebra
 
