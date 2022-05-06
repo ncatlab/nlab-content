@@ -41,7 +41,7 @@ $$
   \widebar{(a,b)} \coloneqq (\overline{a},-b)
 $$
 
-defines an involutive antiautomorphism on $A^2$, so the doubling procedure can be iterated.
+defines an [[involution|involutive]] [[antihomomorphism|anti]]-[[automorphism]] on $A^2$, so the doubling procedure can be iterated.
 
 =--
 
@@ -49,7 +49,7 @@ The following description is different but equivalent:
 
 +-- {: .num_defn #CayleyDicksonDoubleByAdjoiningFurtherGenerator}
 ###### Definition
-**(Cayley-Dickson double by generators and relations)
+**(Cayley-Dickson double by [[generators and relations]])
 
 The _Cayley-Dickson double_ $A^2$ of $A$ is the real algebra obtained by adjoining one generator $\ell$ to $A$ subject to the following [[generators and relations|relations]]:
 
