@@ -228,7 +228,7 @@ reviewed in
 * {#Gross19} Jacob Gross, _The homology of moduli stacks of complexes_ ([arXiv:1907.03269](https://arxiv.org/abs/1907.03269))
 
 
-The combination of [Dold 56](#Dold56) to the Chern-Dold character on [[generalized (Eilenberg-Steenrod) cohomology theory]] is due to
+The combination of [Dold 56](#Dold56) to the Chern-Dold character on [[generalized (Eilenberg-Steenrod) cohomology theory]] is due (for [[complex cobordism cohomology]]) to
 
 * {#Buchstaber70} [[Victor Buchstaber]], _The Chern–Dold character in cobordisms. I_, 
 
@@ -261,6 +261,9 @@ This rationalization construction appears also (without attribution to [#Hilton 
 
 * {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_, Algebr. Geom. Topol. Volume 19, Number 4 (2019), 1631-1710. ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231), [euclid:euclid.agt/1566439272](https://projecteuclid.org/euclid.agt/1566439272))
 
+More on the Chern-Dold character on [[complex cobordism cohomology]]:
+
+* [[Victor Buchstaber]], A. P. Veselov, _Chern-Dold character in complex cobordisms and abelian varieties_ ([arXiv:2007.05782](https://arxiv.org/abs/2007.05782))
 
 The observation putting this into the general context of [[differential cohomology diagrams]] (see there) of [[stable homotopy types]] in [[cohesion]] is due to
 
