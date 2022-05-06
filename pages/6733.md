@@ -674,7 +674,7 @@ The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills 
 
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
 
-* Chong-Sun Chu, Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
+* [[Chong-Sun Chu]], Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
 
@@ -704,7 +704,7 @@ as well as sections 3 and 4 of
 
 Proposals for how to implement this are for instance in
 
-* Chong-Sun Chu, _A Theory of Non-Abelian Tensor Gauge Field with Non-Abelian Gauge Symmetry $G \times G$_ ([arXiv:1108.5131](http://arxiv.org/abs/1108.5131))
+* [[Chong-Sun Chu]], _A Theory of Non-Abelian Tensor Gauge Field with Non-Abelian Gauge Symmetry $G \times G$_ ([arXiv:1108.5131](http://arxiv.org/abs/1108.5131))
 
 * [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
  {#SSW11}
