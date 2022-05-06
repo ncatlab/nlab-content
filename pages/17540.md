@@ -8,4 +8,12 @@ Roger Godement (1 October, 1921 - July 21, 2016) was a French mathematician, spe
 
 * _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
 
+## related $n$Lab entries
+
+* [[flabby sheaf]], [[soft sheaf]]
+
+* [[Godement product]]
+
+* [[functional equation]]
+
 category: people
