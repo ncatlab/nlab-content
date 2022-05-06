@@ -111,14 +111,16 @@ which is part of his work to develop [[synthetic probability theory]].
 
 ## References
 
-The theory of measurable locales seems to be published entirely on MathOverflow, in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
+The basic definition and some elementary properties are given in
 
-* Dmitri Pavlov, [answer](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542) to _Is there a category structure one can place on measure spaces so that category-theoretic products exist?_ (version: 2011-01-08)
+* [[Dmitri Pavlov]], _Gelfand-type duality for commutative von Neumann algebras_,
+[arXiv:2005.05284](https://arxiv.org/abs/2005.05284).
 
-Another post not in this index is:
+This paper also establishes  [[Gelfand-type duality for commutative von Neumann algebras]].
 
-* Dmitri Pavlov, _[Which complete Boolean algebras arise as the algebras of projections of commutative von Neumann algebras?](http://mathoverflow.net/questions/71259/which-complete-boolean-algebras-arise-as-the-algebras-of-projections-of-commutati)_ (version: 2011-07-25)
+The theory of measurable locales originates entirely on [[MathOverflow]], in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
 
+* [[Dmitri Pavlov]], [answer](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542) to _Is there a category structure one can place on measure spaces so that category-theoretic products exist?_ (version: 2011-01-08)
 
 [[!redirects measurable locale]]
 [[!redirects measurable locales]]
