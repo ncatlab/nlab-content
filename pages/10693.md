@@ -114,7 +114,7 @@ for the [[hom-functor]] with values in [[abelian groups]].
 +-- {: .num_defn #HomotopyFunctor}
 ###### Definition
 
-For $S \in HoSpectra$, the _homotopy functor it represents_ it to me the [[representable functor]]
+For $S \in HoSpectra$, the _homotopy functor it represents_ is the [[representable functor]]
 
 $$
   [S,-] \;\colon\; HoSpectra \longrightarrow Ab
@@ -198,7 +198,7 @@ Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSeque
 +-- {: .num_lemma}
 ###### Lemma
 
-1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
 
    $$
      f \vee g \;\colon\; B \wedge C \stackrel{\simeq}{\longrightarrow} A
