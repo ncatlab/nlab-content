@@ -169,9 +169,20 @@ The computation of the anomalous magnetic dipole moment of the [[electron]] in [
 
 ### QCD contribution
 
+#### General
+
 Discussion of [[QCD]] contributions via [[lattice QCD]]:
 
 * {#LehnerMeyer20} Christoph Lehner, Aaron S. Meyer, _Consistency of hadronic vacuum polarization between lattice QCD and the R-ratio_ ([arXiv:2003.04177](https://arxiv.org/abs/2003.04177))
+
+#### Via holographic QCD
+
+Application of [[holographic QCD]] to [[anomalous magnetic moment]] of the [[muon]]:
+
+* Luigi Cappiello, _What does Holographic QCD predict for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
+
+
+* Josef Leutgeb, Anton Rebhan, _Axial vector transition form factors in holographic QCD and their contribution to the anomalous magnetic moment of the muon_ ([arXiv:1912.01596](https://arxiv.org/abs/1912.01596))
 
 
 ### Gravity contributions
@@ -205,6 +216,7 @@ Notes Phys. 741 (Springer, Berlin Heidelberg 2008) (<a href="https://doi.org/10.
 The basic relevant [[Feynman diagrams]] are worked out here:
 
 * [pdf](http://www-personal.umich.edu/~jbourj/peskin/6-3.pdf)
+
 
 
 [[!redirects anomalous magnetic moments]]
