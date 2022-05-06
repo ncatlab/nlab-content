@@ -36,6 +36,17 @@ It is named after [[Ziv Ran]].
 The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contractible space|weakly contractible]] ([BeilDrin04, p. 173](#BeilDrin04)).
 
 
+## Constructions
+
+### Algebraic case: Ran Prestack
+
+Let $X: CAlg_k \to Spaces$ be a derived prestack. Consider the diagram in prestacks
+$$ X^{(-)}: N(fSet) \to PrSt_k, I \mapsto X^I $$
+where $$fSet$$ is the category of non-empty finite sets, with morphisms being surjective maps. The functor sends morphisms to the corresponding diagonal maps. The Ran prestack by definition is the (homotopy) colimit of this diagram:
+
+$$Ran_X := colim_I X^I$$
+
+
 ## Examples
 
 
