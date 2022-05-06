@@ -146,7 +146,7 @@ A kind of [[double dimensional reduction]] of the ABJM model to something relate
 
 Discussion of the ABJM model in [[Horava-Witten theory]] and reducing to [[heterotic strings]] is in
 
-* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B Volume 749, 7 October 2015, Pages 363-367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
 
 
 Discussion of the model as a [[higher gauge theory]] (due to its coupling to the [[supergravity C-field]]) is in 
