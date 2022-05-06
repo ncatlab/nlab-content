@@ -1,7 +1,14 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/David_Gross)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[2d QCD]]:
+
+* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl.Phys.B400:181-210, 1993
+
+
+## Related $n$Lab entries
 
 * [[instanton in QCD]]
 
