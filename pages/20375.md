@@ -1,5 +1,5 @@
 
-* [institute page](https://www.physics.nus.edu.sg/~strings/members.htm)
+* [institute page](https://db.ipmu.jp/member/personal/6568en.html)
 
 ## Selected writings
 
