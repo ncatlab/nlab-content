@@ -35,7 +35,7 @@ A Lagrangian submanifold equipped with a [[half-density]] is a model for a [[sta
 
 A (**Lagrangean** or) **lagrangian submanifold** of a [[symplectic manifold]] $(X,\omega)$ is a [[submanifold]] $L \hookrightarrow X$ such that the following equivalent conditions hold
 
-* at each point $\ell \in L the $[[tangent space]] $T_\ell L \hookrightarrow T_\ell X$ is a [[Lagrangian subspace]] (hence a simultanously [[isotropic subspace]] and [[cosisotropic subspace]]) of $T_\ell X$ equiiped with the [[symplectic form]] $\omega_x$;
+* at each point $\ell \in L the $[[tangent space]] $T_\ell L \hookrightarrow T_\ell X$ is a [[Lagrangian subspace]] (hence a simultanously [[isotropic subspace]] and [[coisotropic subspace]]) of $T_\ell X$ equiiped with the [[symplectic form]] $\omega_x$;
 
 * $L \hookrightarrow X$ is a maximal [[isotropic submanifold]].
 
