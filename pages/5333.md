@@ -292,11 +292,11 @@ Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-32
 
 * [Castellani-D'Auria-Fre 91, vol 3, part 6](#CastellaniDAuriaFre91)
 
-* {#BBDFLPPRRTZ} L. Bonora, M. Bregola, R. D'Auria, P. Fr&#233; K. Lechner, P. Pasti, I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
+* {#BBDFLPPRRTZ} L. Bonora, M. Bregola, R. D'Auria, P. Fr&#233; [[Kurt Lechner]], [[Paolo Pasti]], I. Pesando, M. Raciti, F. Riva, [[Mario Tonin]] and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
 
 
 
-* {#LechnerTonin08} [[Kurt Lechner]], Mario Tonin, _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
+* {#LechnerTonin08} [[Kurt Lechner]], [[Mario Tonin]], _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
 
 
 
