@@ -58,7 +58,7 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 * {#Bandos12} [[Igor Bandos]], _Action for the eleven dimensional multiple M-wave system_, 2012 ([pdf](http://strings.na.infn.it/files/Igor.pdf))
 
-* {#ChuIsono13} Chong-Sun Chu, Hiroshi Isono, _Instanton String and M-Wave in Multiple M5-Branes System_ ([arXiv:1305.6808](http://arxiv.org/abs/1305.6808), slides: [[IsonoSlides.pdf:file]])
+* {#ChuIsono13} [[Chong-Sun Chu]], Hiroshi Isono, _Instanton String and M-Wave in Multiple M5-Branes System_ ([arXiv:1305.6808](http://arxiv.org/abs/1305.6808), slides: [[IsonoSlides.pdf:file]])
 
 * Yoshifumi Hyakutake, _Quantum M-wave and Black 0-brane_, JHEP09(2014)075 ([arXiv:1407.6023](http://arxiv.org/abs/1407.6023))
 
