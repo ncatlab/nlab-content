@@ -92,6 +92,11 @@ See also:
 
 * {#SP17} [[Chris Schommer-Pries]], answer to: _Nilpotence of the stable Hopf map via framed cobordism_, 2017 ([MO:a/218053](https://mathoverflow.net/a/218053/381))
 
+Via [[immersions]] of 3-spheres into Euclidesn 4-space
+
+* Tobias Ekholm, Masamichi Takase, _Singular Seifert surfaces and Smale invariants for a family of 3-sphere immersions_, 	Bulletin of the London Mathematical Society 43 (2011) 251--266 ([arXiv:0903.0238](https://arxiv.org/abs/0903.0238))
+
+
 
 
 [[!redirects 3rd stable homotopy group of spheres]]
