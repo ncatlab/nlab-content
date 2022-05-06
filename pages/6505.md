@@ -232,6 +232,8 @@ The moment map is a crucial ingredient in the construction of Marsden--Weinstein
 
 ## References
 
+The concept is originally due to [[Jean-Marie Souriau]].
+
 ### General
 
 * [[Victor Guillemin]], [[Yael Karshon]], [[Viktor Ginzburg]], _Moment Maps, Cobordisms, and Hamiltonian Group Actions_, Mathematical Surveys and Monographs, volume 98
