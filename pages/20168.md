@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 =--
 =--
 
@@ -49,6 +53,8 @@ $$
 * [[SO(2)]]
 
 * [[Pin(2)]]
+
+* [[Spin(3)]], [[Spin(4)]]
 
 * [[finite subgroups of SU(2)]]
 
