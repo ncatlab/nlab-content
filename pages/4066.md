@@ -78,7 +78,6 @@ There is a [[super vertex operator algebra]], the [[Monster vertex operator alge
   ([Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89), [Griess-Lam 11](#GriessLam11))
 
 
-
 ## Related concepts
 
 * [[Moonshine]],
@@ -92,7 +91,6 @@ There is a [[super vertex operator algebra]], the [[Monster vertex operator alge
 
 * [Adam P. Goucher](http://mathoverflow.net/users/39521/adam-p-goucher), _Presentation of the Monster Group_, ([MO comment 2013-09-15](http://mathoverflow.net/q/142216))  
 
-
 * {#Iv} Alexander Ivanov, _Y-groups via transitive extension_, Journal of Algebra, Volume 218, Issue 2 (August 15, 1999), 412&#8211;435. ([web](http://www.sciencedirect.com/science/article/pii/S0021869399978821)) 
   
 
@@ -103,6 +101,8 @@ in Combinatorics, Paul Erd&#337;s is Eighty, Bolyai Society Mathematical Studies
 
 * {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
   
+* [[Andre Henriques]] ([H4 of the monster](http://mathoverflow.net/questions/69222/h4-of-the-monster))
+
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
 " alt="The Monster" /></div>
 
