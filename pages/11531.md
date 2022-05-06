@@ -24,7 +24,7 @@ Prior to ([Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09)), all that was known 
 We write $\Xi$ to mean the spectrum "$\Omega$" discussed in [Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09).
 
 ### Detection theorem
-It has an [[Adams-Nikov spectral sequence]] in which the image of each $\theta_j$ is non-trivial. This means if $\theta_j\in \pi_*(\mathbb{S})$ exists then it can be seen in $\pi_*(\Xi)$.
+It has an [[Adams-Novikov spectral sequence]] in which the image of each $\theta_j$ is non-trivial. This means if $\theta_j\in \pi_*(\mathbb{S})$ exists then it can be seen in $\pi_*(\Xi)$.
 
 ### Periodicity Theorem
 The spectrum is 256-periodic, as in $\Omega^{256}\Xi \simeq \Xi$.
@@ -34,7 +34,7 @@ We have $\pi_k(\Xi) = 0$ for $-4 \lt k \lt 0$. Its proof uses the [[slice spectr
 
 ### Result
 
-Suppose $\theta_7 \in \pi_{254}(\mathbb{S})$ exists the the detection theorem implies that it has a non-trivial image in $\pi_{254}(\Xi)$. But by the periodicity and gap theorems we see that $\pi_{254}(\Xi)$ is trivial. The argument for $j \ge 7$ is similar since $|\theta_j| = 2^{j+1} \equiv -2 \mod 256$.
+Suppose $\theta_7 \in \pi_{254}(\mathbb{S})$ exists then the detection theorem implies that it has a non-trivial image in $\pi_{254}(\Xi)$. But by the periodicity and gap theorems we see that $\pi_{254}(\Xi)$ is trivial. The argument for $j \ge 7$ is similar since $|\theta_j| = 2^{j+1} \equiv -2 \mod 256$.
 
 ## Related concepts
 
