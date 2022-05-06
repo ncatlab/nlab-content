@@ -87,7 +87,7 @@ of constant parameter speed and [[winding number]] $n \in \mathbb{N}$ is equivar
 
 Take this circle to be both the [[domain]] space $X$ as well as the [[coefficient]] [[n-sphere|1-sphere]].
 
-By Prop. \ref{EquivariantPT} the equivariant homotopy classes of maps $S^1 \to S^1$ correspond to [[submanifolds]] of $S^0$ of [[codimension]] 0 with respect to $S^0$, but equivariantly framed with respect to the ambient $S^1$ -- hence in lowest degree simply of [[subsets]] of $S^0$. 
+By Prop. \ref{EquivariantPT} the equivariant homotopy classes of maps $S^1 \to S^1$ surject onto the set of [[submanifolds]] of $S^0$ of [[codimension]] 0 with respect to $S^0$.
 
 Indeed, under passage to [[fixed points]] any
 
