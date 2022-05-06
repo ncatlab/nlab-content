@@ -20,3 +20,4 @@ The (future) vision behind the PlanetMath project is indicated in
 
 [[!redirects PlanetMath]]
 
+category: reference
