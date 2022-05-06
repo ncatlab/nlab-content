@@ -7,8 +7,15 @@
 
   (on [[string-string duality]])
 
+* [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett.B 375:81-88, 1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+
+  (on [[M-theory on Calabi-Yau manifolds]])
+
+
 ## Related $n$Lab entries
 
 * [[string-string duality]]
+
+* [[M-theory on Calabi-Yau manifolds]]
 
 category: people
