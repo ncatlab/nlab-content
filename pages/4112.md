@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -62,11 +61,12 @@ Traditionally the Cantor space was conceived of
 
 but of course it may also be described
 
-* [as an abstract topological space](#AsAbstractTopologicalSpace)
+* [as an abstract space](#AsAbstractTopologicalSpace)
 
 in itself.
 
-### As an abstract topological space
+
+### As an abstract space
  {#AsAbstractTopologicalSpace}
 
 In brief, Cantor space may be abstractly described as the [[topological space|topological]] [[product]] of countable many copies of the [[discrete space]] $\{0, 1\}$. In more concrete detail: 
@@ -85,6 +85,7 @@ A point $\alpha$ __belongs__ to an open $G$ if, for some $u$ in $G$, $\alpha$ is
 
 An alternative characterization of Cantor space is as the [[terminal coalgebra for an endofunctor|terminal coalgebra]] for the endofunctor on [[Top]], $X \mapsto X + X$.
 
+
 ### What kind of space?
 
 Traditionally, Cantor space is understood as a [[topological space]].  We start with the points, as defined above, then specify which sets of points are [[open subset|open]].  Although there are other ways to state which sets are open, we may define a set to be open if it is the set of points that belong to some open $G$ as defined above.
@@ -101,7 +102,7 @@ When the fan theorem is not valid, the localic approach is probably better; it a
 
 Cantor space is usually conceived of as a [[topological subspace]] of the [[real line]]:
 
-Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points. Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,2\})$ for the [[product topological space]] of a [[countable set]] of copies of this discrete space with itself (i.e. the corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the [[Tychonoff topology]] induced from the [[discrete topology]] of $\{0,1\}$).
+Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points. Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})$ for the [[product topological space]] of a [[countable set]] of copies of this discrete space with itself (i.e. the corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the [[Tychonoff topology]] induced from the [[discrete topology]] of $\{0,1\}$).
 
 Then consider the [[function]]
 
@@ -113,7 +114,7 @@ $$
     \\
     (a_i)_{i \in \mathbb{N}}
     &\overset{\phantom{AAAA}}{\mapsto}&
-    \underoverset{i = 0}{\infty}{\sum} \frac{2 a_i}{ 3^{i+1}}
+    \underoverset{i = 1}{\infty}{\sum} \frac{2 a_i}{3^i}
   }
 $$
 
@@ -144,7 +145,7 @@ I should check this some day; for the moment, I am taking it on faith.  ---Toby
 
 In either case, the idea is:
 
-*  A point of Cantor space corresponds to a number written in base $3$ with infinitely many digits, using only the digits $0$ and $2$; while
+*  A point of Cantor space corresponds to a number written in base $3$ with infinitely many digits, using only the digits $0$ and $2$ (which are the options for $2 a_i$ when $a_i \in \{0,1\}$); while
 
 *  An open corresponds to a union of intervals, each of which is given by approximating a number in base $3$ to a finite number of digits, using only the digits $0$ and $2$.
 
