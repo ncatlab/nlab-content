@@ -23,6 +23,7 @@ $\,$
 | $\rho_2^\ast$  |  1 |   1  |   1  | $\zeta^2_3$ | $\zeta_3$ | $\zeta_3$ | $\zeta_3^2$ | 
 | $\rho_3$  |  3 |   3  |   -1  | 0 | 0 | 0 | 0 | 
 | $\rho_4$  |  2 |  -2  |  0   | $\zeta_3$ | $\zeta_3^2$ | $-\zeta_3^2$ | $-\zeta_3$  |  
+| $\rho_4^\ast$  |  2 |  -2  |  0   | $\zeta_3^2$ | $\zeta_3$ | $-\zeta_3$ | $-\zeta_3^2$  |  
 | $\rho_5 $  |  2 |  -2  |  0   | 1 | 1 | -1 | -1  |  
  
 **[[character table]] over the [[real numbers]] $\mathbb{R}$**
