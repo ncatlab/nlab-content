@@ -5,7 +5,7 @@
 
 On informal [[cubical type theory]]:
 
-* {#Bentzen19a} [[Bruno Bentzen]] _Naive cubical type theory_, 2019 ([pdf](https://arxiv.org/pdf/1911.05844.pdf))
+* {#Bentzen19a} [[Bruno Bentzen]], _Naive cubical type theory_, 2019 ([pdf](https://arxiv.org/pdf/1911.05844.pdf))
 
 On the justification of [[homotopy type theory]]:
 
