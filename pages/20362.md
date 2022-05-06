@@ -31,12 +31,13 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
 ## Related entries
 
+* [[E-string]]
+
 * [[D1-D5 brane bound state]]
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
 * [[D4-D8 brane bound state]]
-
 
 * [[M-theory on 8-manifolds]]
 
