@@ -64,7 +64,7 @@ which to a [[coset space]] $G/H$ assigns the [[PL de Rham complex]] of the $H$-[
 
 +-- {: .num_prop #EquivariantPLDeRhamComplexIsInjectiveInDualVectorGSpaces} 
 ###### Proposition
-**([[equivariant PL de Rham complex]] is [[injective object|injective]] in [[dual vector G-spaces]])**
+**([[equivariant PL de Rham complex]] is degreewise [[injective object|injective]] in [[dual vector G-spaces]])**
 
 The [[dual vector G-space]] underlying the equivariant PL de Rham complex (Def. \ref{EquivariantPLDeRhamComplex})
 
@@ -85,11 +85,60 @@ $$
   }
 $$
 
-is an [[injective object]].
+is degreewise an [[injective object]].
 
 =--
 
 ([Triantafillou 82, Prop. 4.3](#Triantafillou82))
+
++-- {: .num_cor } 
+###### Corollary
+
+Any equivariant PL de Rham complex (Def. \ref{EquivariantPLDeRhamComplex}) is a [[fibrant object]] in the [[model structure on equivariant connective dgc-algebras]].
+
+=--
+
+(also [Scull 08, Lemma 5.2](#Scull08))
+
+In fact:
+
++-- {: .num_prop} 
+###### Proposition
+**([[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]])**
+
+Let $G$ be a [[finite group]].
+
+The $G$-[[equivariant PL de Rham complex]]-construction is the [[left adjoint]] in a [[Quillen adjunction]] between
+
+* the [[opposite model structure|opposite]] of the [[projective model structure on equivariant connective dgc-algebras]]
+
+* the [[model structure on equivariant simplicial sets]] 
+
+  (i.e.: the global projective [[model structure on functors]] from the [[opposite category|opposite]] of the [[orbit category]] to the [[classical model structure on simplicial sets]])
+
+$$
+  \big(
+    G dgcAlgebras^{\geq 0}_{k}
+  \big)^{op}_{proj}
+  \underoverset
+    {
+      \underset
+        {\;\;\; exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\;\Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\bot_{\mathrlap{Qu}}}
+  G SimplicialSets_{Qu}
+$$
+
+=--
+
+([Scull 08, Prop. 5.1](#Scull08))
+
 
 ## Related concepts
 
