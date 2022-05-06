@@ -143,3 +143,5 @@ For a little bit about the [[group cohomology]] (or at least the homology) of th
 [[!redirects binary icosahedral group]]
 [[!redirects stringy icosahedral group]]
 
+
+[[!redirects 2I]]
