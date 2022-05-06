@@ -53,7 +53,7 @@ $$
   \,.
 $$
 
-This, generally, is the definition of the Hochschild homology object of any bimodule over an [[monoid in a monoidal (∞,1)-category|monoid]] in a symmetric monoidal $(\infty,1)$-category (symmetry is needed to make sense of $A^{op}$).  Dually, the Hochschild *cohomology* object is 
+This, generally, is the definition of the Hochschild homology object of any bimodule over a [[monoid in a monoidal (∞,1)-category|monoid]] in a symmetric monoidal $(\infty,1)$-category (symmetry is needed to make sense of $A^{op}$).  Dually, the Hochschild *cohomology* object is 
 
 $$ C^\bullet(A,N) := Hom_{A\otimes A^{op}}(A,N).$$
 
@@ -1272,7 +1272,7 @@ of $X$ formed in $\mathbf{H}$ is the **[[derived loop space]]** of $X$.
 
 The term _derived_ is just to emphasize that we do not form the [[free loop space object]] in an [[(∞,1)-topos]] of $(\infty,1)$-sheaves over a 1-[[site]] inside the 1-category $Alg_k^{op}$. These "underived" (not embedded into [[(∞,1)-category theory]]) free loop space objects would just be equivalent to $X$. The [[derived loop space]] instead has rich interesting structure.
 
-But if the ambient context of [[higher geometry]] over the genuine [[(∞,1)-site]] of formal duals to $\infty$-algebras is clear, we can just speakk of _free loop space objects_ . They are canonically given.
+But if the ambient context of [[higher geometry]] over the genuine [[(∞,1)-site]] of formal duals to $\infty$-algebras is clear, we can just speak of _free loop space objects_ . They are canonically given.
 
 =--
 
