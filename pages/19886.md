@@ -34,7 +34,9 @@ The [[stabilization]]/[[suspension spectrum]] $\Sigma^\infty  Maps(X,A)$ of  [[m
 ## Definition
  {#Definition}
 
-The following is not the most general definition that one may consider, instead it is streamlined to certain applications. See Remark \ref{ComparisonToNotationInLiterature} below for comparison of notation used here to notation used elsewhere.
+The stable splitting of mapping spaces discussed [below](#StableSplittings) have summands given by [[configuration spaces of points]], or generalizations thereof. To be self-contained, we recall the relevant definitions here.
+
+The following Def. \ref{ConfigurationSpacesOfnPoints} is not the most general definition of [[configuration spaces of points]] that one may consider in this context, instead it is streamlined to certain applications. See Remark \ref{ComparisonToNotationInLiterature} below for comparison of notation used here to notation used elsewhere.
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
@@ -266,7 +268,8 @@ with the $d$-fold [[loop space]] of the [[n-sphere|(d+k)-sphere]].
 ([Segal 73, Theorem 3](#Segal73))
 
 
-### Stable splittings
+### Stable splitting of mapping spaces
+ {#StableSplittings}
 
 +-- {: .num_prop #StableSplittingOfMappingSpacesOutOfEuclideanSpace}
 ###### Proposition
@@ -386,21 +389,33 @@ is an [[n-homogeneous (∞,1)-functor]] in the sense of [[Goodwillie calculus]],
   Z 
     \;\mapsto\;
   \underset{k \in \{1, \cdot, n\}}{\bigoplus}
-  \Sigma^\infty Conf_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
+  \Sigma^\infty Conf_k(X) \wedge_{\Sigma(k)} Z^{\wedge_k}
 \]
 
-are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mapping spaces (eq:StableSplittingOfMappingSpacesOutOfSphere) of Prop. \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace}, the canonical morphism
+are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mapping spaces (eq:StableSplittingOfMappingSpacesOutOfSphere) of Prop. \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace}, there is a [[projection]] morphism onto the first $n$ [[wedge sum|wedge summands]]
 
-$$
-  Maps_{cp}(\mathbb{R}^d, \Sigma^d Z)
-  =
-  Maps^{\ast/}( S^d, \Sigma^d Z)
-  \longrightarrow
-  \underset{k \in \{1, \cdot, n\}}{\bigoplus}
-  \Sigma^\infty Conf_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
-$$
+\[
+  \label{ProjectionMaps}
+  \array{
+    Maps_{cp}(\mathbb{R}^d, \Sigma^d Z)
+    &=&
+    Maps^{\ast/}( S^d, \Sigma^d Z)
+    &\simeq&
+    \underset{k \in \mathbb{N}}{\oplus} 
+      \Sigma^\infty Conf_k(\mathbb{R}^d) \wedge_{\Sigma(k)} Z^{\wedge_k}
+    \\
+    &&
+    &&
+    \Big\downarrow {}^{\mathralp{ p_n }}
+    \\
+    &&
+    &&
+     \underset{k \in \{1, \cdot, n\}}{\bigoplus}
+     \Sigma^\infty Conf_k( \mathbb{R}^d ) \wedge_{\Sigma(k)} Z^{\wedge_k}
+  }
+\]
 
-is [[n-connected morphism|(n+1)k-connected]] of $Z$ is [[n-connected object|k-connected]]. 
+and this is [[n-connected morphism|(n+1)k-connected]] when $Z$ is [[n-connected object|k-connected]]. 
 
 By [[Goodwillie calculus]] this means that (eq:IdentifyingTheGoodwillieTaylorStage) are, up to [[equivalence in an (infinity,1)-category|equivalence]], the stages 
 
@@ -410,10 +425,10 @@ By [[Goodwillie calculus]] this means that (eq:IdentifyingTheGoodwillieTaylorSta
   \;\colon\;
   Z \mapsto
   \underset{k \in \{1, \cdot, n\}}{\bigoplus}
-  \Sigma^\infty Conf_n(X,Y) 
+  \Sigma^\infty Conf_k(S^d, Z) 
 \]
 
-at $Z \in Top^{\ast/}$ of the [[Goodwillie-Taylor tower]] of the [[mapping space]]-functor 
+at $Z \in Top^{\ast/}$ of the [[Goodwillie-Taylor tower]] for the [[mapping space]]-functor 
 
 $$
   Maps_{cp}(\mathbb{R}^d, \Sigma^d (-))
@@ -424,12 +439,51 @@ $$
   \,.
 $$
 
-The stable splitting theorem \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace} hence may equivalently be read as expressing the mapping space functor equivalently as the [[limit]] over its [[Goodwillie-Taylor tower]].
+Thereofre the stable splitting theorem \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace} may equivalently be read as expressing the mapping space functor equivalently as the [[limit]] over its [[Goodwillie-Taylor tower]].
 
 ([Arone 99, p. 1-2](#Arone99), [Goodwillie 03, p. 6](#Goodwillie03))
 
 
+$\,$
 
+### Lax closed structure on $\Sigma^\infty$ 
+
+Notice that the first stage in the [[Goodwillie-Taylor tower]] (eq:TheGoodwillieStagesOfTheMappingSpaceFunctor) is
+
+$$
+  \begin{aligned}
+    P_1 Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y) )
+    & =
+    \Sigma^\infty Conf_1( \mathbb{R}^d , Y )
+    \\
+    & \simeq
+    \Sigma^\infty 
+      \underset{\simeq \ast}{\underbrace{Conf_1( \mathbb{R}^d )}} 
+      \wedge (Y/\partial Y)
+    \\
+    & \simeq
+     \Sigma^\infty (Y/\partial Y)
+    \\
+    & \simeq
+    Maps\left(  \Sigma^\infty S^d, \Sigma^d (Y/\partial Y) \right)
+  \end{aligned}
+$$
+
+and hence that the projection $p_1$ to the stage of the [[Goodwillie-Taylor tower]] (eq:ProjectionMaps) is of the form
+
+$$
+  p_1
+  \;\colon\;
+  \Sigma^\infty Maps\left(  S^d , \Sigma^d (Y /\partial Y) \right)
+  \longrightarrow
+  Maps
+  \left(  
+    \Sigma^\infty S^d, \Sigma^\infty \Sigma^d (Y / \partial Y)
+  \right)
+  \,.
+$$
+
+Since $\Sigma^\infty$ is a [[strong monoidal functor]], there is a canonical comparison morphism of this form, exhibiting the induce [[closed functor|lax closed]]-structure on $\Sigma^\infty$. Maybe $p_1$ coincides with that canonical morphism, up to equivalence?
 
 ## Related concepts
 
