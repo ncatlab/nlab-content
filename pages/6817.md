@@ -66,7 +66,7 @@ Other accounts include
 * [[Yasuyuki Kawahigashi]], _$N = 2$ Superconformal Field Theory
 and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
 
-Finally a hint for a relation to [[tmf]] compatible with the conjectured relation between [[(2,1)-dimensional Euclidean field theories and tmf]]:
+A hint for a relation to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
 
 *  [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
 
