@@ -19,9 +19,11 @@ A __Baire space__ is a [[topological space]] such that the [[intersection]] of a
 
 ## Examples
 
-The [[Baire category theorem]] states that:
+The classical [[Baire category theorem]] states that:
 
-*  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space, hence any completely metrizable topological space) is a Baire space.
+*  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space, hence any completely metrizable topological space) is a Baire space. 
+
+A second source of examples: 
 
 *  Any [[locally compact Hausdorff space]] is a Baire space. In fact, any [[G-delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
 
@@ -29,7 +31,7 @@ Moreover:
 
 *  Any [[open subspace]] of a Baire space is also a Baire space. 
 
-*  A _dense_ $G_\delta$ set (i.e. a countable intersection of dense opens that is itself dense) in a Baire space is a Baire space under the subspace topology. See Dan Ma's blog, specifically Theorem 3 [here](https://dantopology.wordpress.com/2012/06/02/a-question-about-the-rational-numbers/). 
+*  Given a Baire space $X$, a _dense_ $G_\delta$ set in $X$ (i.e. a countable intersection of dense opens) is a Baire space under the subspace topology. See Dan Ma's blog, specifically Theorem 3 [here](https://dantopology.wordpress.com/2012/06/02/a-question-about-the-rational-numbers/). 
 
 *  As mentioned above, the space of [[infinite sequences]] of [[natural numbers]], or equivalently (up to topology) the space [[irrational numbers]], is also known as '[[Baire space of sequences|Baire space]]'.  It is a Baire space in the present sense (since it admits a complete metric), but the coincidence of names appears to be just a coincidence.  (It is much more important that Baire space is a [[Polish space]] than that Baire space is a Baire space.  Of course, every Polish space is a Baire space too.)
 
