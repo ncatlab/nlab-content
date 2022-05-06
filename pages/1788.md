@@ -1,4 +1,64 @@
 
+
+$$
+  \begin{aligned}
+    \big[
+      \tfrac{1}{4}
+      [\Gamma_{a_1}, \Gamma_{a_2}]
+      \;
+      \tfrac{1}{4}
+      [\Gamma_{b_1}, \Gamma_{b_2}]
+    \big]
+    & =
+    \tfrac{1}{4}
+    \Big[
+      \big[
+        \tfrac{1}{4}
+        [\Gamma_{a_1},\Gamma_{a_2}]
+        ,\,
+        \Gamma_{b_1} 
+      \big]
+      ,\,
+      \Gamma_{b_2}
+    \Big]
+    + 
+    \tfrac{1}{4}
+    \Big[
+      \Gamma_{b_1},
+      \big[
+        \tfrac{1}{4}
+        [\Gamma_{a_1},\Gamma_{a_2}]
+        ,\,
+        \Gamma_{b_2}
+      \big]
+    \Big]
+    \\
+    & =    
+    g_{a_2 b_1}
+    \tfrac{1}{4}
+    [\Gamma_{a_1},\Gamma_{b_2}]
+    -
+    g_{a_1 b_1}
+    \tfrac{1}{4}
+    [\Gamma_{a_2},\Gamma_{b_2}]
+    +
+    g_{a_2 b_2}
+    \tfrac{1}{4}
+    [\Gamma_{b_1},\Gamma_{a_1}]
+    -
+    g_{a_1 b_2}
+    \tfrac{1}{4}
+    [\Gamma_{b_1}, \Gamma_{a_2}]
+  \end{aligned}
+$$
+
+
+\linebreak
+
+***
+
+\linebreak
+
 $$
   \begin{aligned}
   \big[
