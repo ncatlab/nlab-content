@@ -604,7 +604,11 @@ In [[Yang-Mills theory]] field configurations with non-vanishing [[second Chern 
 
 Original articles include
 
-* [[A. Grothendieck]], _La th&#233;orie des classes de Chern_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __86__ (1958), p. 137--154, [numdam](http://www.numdam.org/item?id=BSMF_1958__86__137_0)
+* {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
+
+
+* [[A. Grothendieck]], _La th&#233;orie des classes de Chern_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __86__ (1958), p. 137--154, ([numdam:BSMF_1958__86__137_0](http://www.numdam.org/item?id=BSMF_1958__86__137_0))
+
 
 
 Textbook accounts include
