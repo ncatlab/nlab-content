@@ -152,6 +152,8 @@ See
 
 * [[phenomenology]], [[hierarchy problem]]
 
+* [[flavour anomaly]]
+
 * [[MSSM]]
 
   * [[G2-MSSM]]
