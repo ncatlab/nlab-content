@@ -158,7 +158,7 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], _Superconformal Field Theories for Compact Manifolds with Spin(7) Holonomy_, JHEP 0112:013, 2001 ([arXiv:hep-th/0111048](https://arxiv.org/abs/hep-th/0111048))
 
-* [[Sergei Gukov]], James Sparks, David Tong, _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class.Quant.Grav.20:665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
+* [[Sergei Gukov]], James Sparks, [[David Tong]], _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class.Quant.Grav.20:665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
 
 * [[Melanie Becker]], Dragos Constantin, [[Sylvester James Gates Jr.]], William D. Linch III, Willie Merrell, J. Phillips, _M-theory on Spin(7) Manifolds, Fluxes and 3D, N=1 Supergravity_, Nucl.Phys. B683 (2004) 67-104 ([arXiv:hep-th/0312040](https://arxiv.org/abs/hep-th/0312040))
 
