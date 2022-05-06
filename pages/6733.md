@@ -542,7 +542,7 @@ based on
 ### Hopf-Wess-Zumino term
  {#ReferencesHopfWessZuminoTerm}
 
-The [[higher dimensional WZW model|higher WZW term]] of the M5-brane was maybe first proposed in
+The [[higher dimensional WZW model|higher WZW term]] of the M5-brane ([[Hopf-Wess-Zumino term]]) was first proposed in
 
 * {#Aharony94} [[Ofer Aharony]], p. 11 of _String theory dualities from M theory_, Nucl. Phys. B476:470-483, 1996 ([arXiv:hep-th/9604103](https://arxiv.org/abs/hep-th/9604103))
 
@@ -566,6 +566,9 @@ More on the relation to the Hopf invariant in
 
 * {#Sati13} [[Hisham Sati]], _Framed M-branes, corners, and topological invariants_, J. Math. Phys. 59 (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
 
+Discussion of the full 6d WZ term is in 
+
+* {#FSS19WZ} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_
 
 
 ### Anomaly cancellation
@@ -669,5 +672,4 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 [[!redirects M5-brane]]
 [[!redirects M5-branes]]
 
-[[!redirects Hopf-Wess-Zumino term]]
-[[!redirects Hopf-WZ term]]
+
