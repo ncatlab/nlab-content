@@ -455,6 +455,10 @@ To [[black hole]] interiors:
 > The [[SYK model]] gives us a glimpse into the interior of an [[extremal black hole]]...That's the feature of SYK that I find most interesting...It is a feature this model has, that I think no other model has
 
 
+To [[symmetries]] in gravity:
+
+* {#HarlowOoguri18} [[Daniel Harlow]], [[Hirosi Ooguri]], _Constraints on symmetry from holography_, Phys. Rev. Lett. 122, 191601, 2019 ([arXiv:1810.05337](https://arxiv.org/abs/1810.05337), [doi:10.1103/PhysRevLett.122.191601](https://doi.org/10.1103/PhysRevLett.122.191601))
+
 #### To the quark-gluon plasma
 
 Applications of AdS-CFT to the [[quark-gluon plasma]] of [[QCD]]:
