@@ -34,6 +34,6 @@ The concept was introduced in
 
 Review in the context of [[cohesive toposes]], [[modal type theory]] and [[cohesive homotopy type theory]] includes
 
-* [[David Myers]], _Logical Topology and Axiomatic Cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ 2019 ([pdf slides](http://www.andrew.cmu.edu/user/fwellen/myers-slides.pdf))
+* [[David Myers]], _Logical Topology and Axiomatic Cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ 2019 ([pdf slides](http://www.andrew.cmu.edu/user/fwellen/myers-slides.pdf), [video recording](https://youtu.be/GbzQMsr3Jf4))
 
 [[!redirects logical topologies]]
