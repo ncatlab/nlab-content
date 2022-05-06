@@ -431,6 +431,14 @@ which is based on
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 ([doi:0.1088/978-1-6817-4489-6](http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6))
 
+Discussion in [[holographic QCD]]:
+
+* {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
+
+
+* Johanna Erdmenger, Nick Evans, Werner Porod, Konstantinos S. Rigatos, _Gauge/gravity dual dynamics for the strongly coupled sector of composite Higgs models_ ([arXiv:2010.10279](https://arxiv.org/abs/2010.10279))
+
+
 
 
 [[!redirects Higgs fields]]
