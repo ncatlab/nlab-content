@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -11,12 +22,9 @@ A [[quotient]] of the [[torus]], taken in the sense of [[noncommutative geometry
 
 ### As a Lie groupoid
 
-The __noncommutative torus__ with parameter $\theta \in \mathrm{U}(1)$
-is the [[groupoid quotient]] of the [[circle group]] $\mathrm{U}(1)$
-by the [[action]] of the [[discrete group]] $\mathbf{Z}$ of [[integers]],
-where the element $1 \in \mathbf{Z}$ acts by [[multiplication]] by $\theta$.
+The __noncommutative torus__ with parameter $\theta \in \mathrm{U}(1)$ away from [[roots of unity]] is the [[groupoid quotient]] of the [[circle group]] $\mathrm{U}(1)$ by the [[action]] of the [[discrete group]] $\mathbf{Z}$ of [[integers]], where the element $1 \in \mathbf{Z}$ acts by [[multiplication]] by $\theta$.
 
-Here we can take $\theta = \exp(2\pi i \hbar)$, where $\hbar$ is [[Planck's constant]].
+Here we can take $\theta = \exp(2\pi i \hbar)$, for $\hbar$ an [[irrational number]] (which, if we think of the non-commutative algebra here as arising from [[quantization]], may be thought of as [[Planck's constant]]).
 
 The following [[Lie groupoid]] is [[Morita equivalent]] to the above
 [[Lie groupoid]]:
@@ -24,7 +32,14 @@ The following [[Lie groupoid]] is [[Morita equivalent]] to the above
 take the [[groupoid quotient]] of $\mathrm{U}(1)^2$ (i.e., a [[torus]])
 by the action of the [[Lie group]] $\mathbf{R}$ of [[real numbers]]
 such that
-$$a\cdot(u,v)=(u\exp(2\pi i a),v\exp(2\pi i a\hbar)).$$
+
+$$
+  a \cdot (u,v)  
+  \;=\; 
+  \big(
+    u \exp(2\pi i a), v \exp(2\pi i a \hbar)
+  \big)
+$$
 
 ### As an algebra
 
@@ -38,11 +53,9 @@ $$U V=\theta V U.$$
 
 ## Classification
 
-The following classification is due to [[Marc A. Rieffel]].
+The following classification is due to [Rieffel 81](#Rieffel81).
 
-If $\theta$ is a [[root of unity]],
-then the resulting [[Lie groupoid]] is [[Morita equivalent]]
-to the [[smooth manifold]] $\mathrm{U}(1)$, i.e., a circle.
+If $\theta$ is a [[root of unity]], then the resulting [[Lie groupoid]] is [[Morita equivalent]] to the [[smooth manifold]] $\mathrm{U}(1)$, i.e., the  [[circle]].
 
 Otherwise, the noncommutative torus with parameter $\theta$ is not
 [[Morita equivalent]] to the circle (or any [[smooth manifold]]).
@@ -80,9 +93,22 @@ $$
 
 ## References
 
-* [[Marc A. Rieffel]], _C∗-algebras associated with irrational rotations_, Pacific Journal of Mathematics 93:2 (1981), 415–429 ([doi:10.2140/pjm.1981.93.415](http://dx.doi.org/10.2140/pjm.1981.93.415))
+Original articles:
+
+* {#Rieffel81} [[Marc A. Rieffel]], _$C^\ast$-algebras associated with irrational rotations_, Pacific Journal of Mathematics 93:2 (1981), 415–429 ([pdf](https://msp.org/pjm/1981/93-2/pjm-v93-n2-p12-s.pdf), [doi:10.2140/pjm.1981.93.415](http://dx.doi.org/10.2140/pjm.1981.93.415), [euclid:pjm/1102736269](https://projecteuclid.org/euclid.pjm/1102736269))
+
+* [[Marc Rieffel]], [[Albert Schwarz]], _Morita equivalence of multidimensional noncommutative tori_, Int. J. Math. 10 (1999) 289-299 ([arXiv:math/9803057](https://arxiv.org/abs/math/9803057))
+
+* George A. Elliott and Hanfeng Li, _Morita equivalence of smooth noncommutative tori_, Acta Math. Volume 199, Number 1 (2007), 1-27 ([euclid:acta/1485891908](https://projecteuclid.org/euclid.acta/1485891908))
+
+
+Review:
+
+* [[Alain Connes]], p. 55, p. 217, p. 356 of: _[[Noncommutative Geometry]]_, Academic Press, San Diego, CA, 1994 ([ISBN:9780080571751](https://www.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1), [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf))
 
 * Wikipedia, _[Noncommutative torus](https://en.wikipedia.org/wiki/Noncommutative_torus)_
+
+* [[John Baez]], _[Noncommutative tori](https://math.ucr.edu/home/baez/braids/node8.html)_
 
 [[!redirects noncommutative tori]]
 
