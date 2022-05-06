@@ -857,7 +857,8 @@ Curiously, the light-cone gauge quantization of the GS-string also does wor howe
 
 ## References
 
-### General
+### Super-string as a GS-sigma model
+ {#SuperStringAsAGSSigmaModel}
 
 A precursor to the actual Green-Schwarz action functional is
 
@@ -916,7 +917,9 @@ For more references on this WZW perspective see [below](#ReferencesWZWTerm).
 
 For references on curved backgrounds see [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
-### For D-branes
+[[!include fundamental M2-brane sigma-model -- references]]
+
+### D-branes as GS-sigma models
  {#ReferencesForDBranes}
 
 Green-Schwarz action functionals for the [[D-branes]] (including the [[DBI action]]):
