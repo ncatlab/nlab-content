@@ -21,7 +21,7 @@
 =--
 =--
 
-An introductory textbook on [[homotopy type theory]] and its use as a [[foundations of mathematics]]:
+An introductory textbook on [[homotopy type theory]] and its use as a [[univalent foundations for mathematics]]:
 
 * [[UF-IAS-2012|Univalent Foundations Project]]
 
