@@ -50,7 +50,7 @@ In the point-particle limit where the [[2d SCFT]]/[[2-spectral triple]]  becomes
 
 * similarly, there is a super VOA, the _[[Monster vertex operator algebra]]_, whose [[automorphism group|group of]] of [[automorphisms of a VOA]] is the [[monster group]] 
 
-  ([Frenkel-Lepowski-Meurman 89](FrenkelLepowskiMeurman89), [Griess-Lam 11](#GriessLam11))
+  ([Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89), [Griess-Lam 11](#GriessLam11))
 
 ## References
 
@@ -77,12 +77,12 @@ Automorphisms of [[vertex operator algebras]] regarded as [[symmetries]] of non-
 * {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
 
 
-* {#KachruPaquetteVolpato16} [[Shamit Kachru]], [[Natalie Paquette]], Roberto Volpato, _3D String Theory and Umbral Moonshine_ ([arXiv:1603.07330](http://arxiv.org/abs/1603.07330))
+* {#KachruPaquetteVolpato16} [[Shamit Kachru]], [[Natalie Paquette]], [[Roberto Volpato]], _3D String Theory and Umbral Moonshine_ ([arXiv:1603.07330](http://arxiv.org/abs/1603.07330))
 
 
-* {#PaquettePerssonVolpato16} [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _Monstrous BPS-Algebras and the Superstring Origin of Moonshine_ ([arXiv:1601.05412](http://arxiv.org/abs/1601.05412))
+* {#PaquettePerssonVolpato16} [[Natalie Paquette]], Daniel Persson, [[Roberto Volpato]], _Monstrous BPS-Algebras and the Superstring Origin of Moonshine_ ([arXiv:1601.05412](http://arxiv.org/abs/1601.05412))
 
-* [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
+* [[Miranda Cheng]], Sarah M. Harrison, [[Roberto Volpato]], Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
 
 
 * {#PaquettePerssonVolpato17} [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _BPS Algebras, Genus Zero, and the Heterotic Monster_ ([arXiv:1701.05169](https://arxiv.org/abs/1701.05169))
