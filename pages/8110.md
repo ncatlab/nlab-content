@@ -15,6 +15,8 @@ A _Shimura variety_ is a higher-dimensional analog of a [[modular curve]].
 
 Surveys include
 
+* [[James Milne]], _Introduction to Shimura Varieties_, 2004, ([pdf](https://www.jmilne.org/math/articles/2005aX.pdf))
+
 * Wikipedia, _[Shimura variety](http://en.wikipedia.org/wiki/Shimura_variety)_
 
 Introductory discussion of PEL Shimura varieties with an eye towards the definition of [[topological automorphic forms]] is in 
