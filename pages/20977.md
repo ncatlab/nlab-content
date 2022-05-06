@@ -39,9 +39,11 @@ The weaker version for [[Lie algebra weight systems]] was proven in:
 
 Version for [[Rozansky-Witten weight systems]]:
 
+* [[Justin Sawon]], _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
+
 * {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], Section 8 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 Review: 
 
-* {#Roberts01} [[Justin Roberts]], Section 8 if: _Rozansky-Witten theory_ ([arXiv:math/0112209](https://arxiv.org/abs/math/0112209))
+* {#Roberts01} [[Justin Roberts]], Section 8 of: _Rozansky-Witten theory_ ([arXiv:math/0112209](https://arxiv.org/abs/math/0112209))
 
