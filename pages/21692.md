@@ -102,5 +102,18 @@ On fibrations of [[connected topological space|connected]] rational [[finite typ
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Sections 14 and 15 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
+[[!redirects rational fiber lemmas]]
+
+[[!redirects rational fibre lemma]]
+[[!redirects rational fibre lemmas]]
+
 [[!redirects rational fibration lemma]]
+[[!redirects rational fibration lemmas]]
+
+
+[[!redirects fiber lemma]]
+[[!redirects fiber lemmas]]
+
+[[!redirects fibre lemma]]
+[[!redirects fibre lemmas]]
 
