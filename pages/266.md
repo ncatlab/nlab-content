@@ -756,6 +756,9 @@ $$
 
 =--
 
+A similar result holds for $(\infty,1)$-categories.
+See [[Higher Topos Theory|Lurie, HTT, prop. 4.3.3.10]], set $S=Y$ and $q = \id_Y$.
+
 ## Examples
  {#Examples}
 
