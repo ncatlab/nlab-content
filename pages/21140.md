@@ -24,7 +24,7 @@
 
 [^Com]: _Commentarionem ethico-theologicam de Immanuele Kantio veritatis Religionis Christianae, in foro Rationis humanae non Accusatore sed Vindice_ presented to the University of Frankfurt/Oder in 1806.
 
-Most notably, he published in 1805 annonymously _Philosophische Principien einer allgemeinen Sprachlehre nach Kant und Sacy_ , a book partly based on personal communications with Kant which therefore apart some scattered remarks in his lectures on metaphysics constitutes a valuable source on the philosopher's views on [[transcendental grammar]].
+Most notably, he anonymously published in 1805 *Philosophische Principien einer allgemeinen Sprachlehre nach Kant und Sacy*, a book partly based on personal communications with Kant which therefore, apart from some scattered remarks in his lectures on metaphysics, constitutes a valuable source on the philosopher's views on [[transcendental grammar]].
 
 
 ## Related entries
