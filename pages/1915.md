@@ -3,7 +3,7 @@
 * table of contents
 {:toc}
 
-## Definiion
+## Definition
 
 The __restriction__ of a [[function]] $f: X \to Y$ to a [[subset]] $U$ of $X$ is simply the [[composite]] of $f$ and the [[inclusion function]] of $U$:
 
