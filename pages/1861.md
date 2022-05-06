@@ -396,6 +396,31 @@ between
 =--
 
 
+\linebreak
+
+### Complex-rational Cohomotopy and moduli space of Yang-0Mills monopoles
+
+The assignment of [[scattering amplitudes]] of [[monopoles]] in [[SU(2)]]-[[Yang-Mills theory]] is a  [[diffeomorphism]]
+
+$$
+  \mathcal{M}_k
+  \overset{ S }{\longrightarrow}
+  R_k
+$$
+
+identifying the [[moduli space of monopoles]] of number $k$ with the space of complex-[[rational functions]] form the [[Riemann sphere]] to itself, of [[degree of a continuous function|degree]] $k$ (hence the [[cocycle space]] of complex-rational 2-[[Cohomotopy]]).
+
+([Atiyah-Hitchin 88, Theorem 2.10](moduli+space+of+monopoles#AtiyahHitchin88))
+
+{#Illustration} $\,$
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AtiyahHitchinChargeQuantizationII.jpg" width="640">
+</center>
+
+This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantization]] of the [[electromagnetic field]], with [[ordinary cohomology]] replaced by [[Cohomotopy]] [[generalized cohomology theory|cohomology theory]].
+
 
 
 ## Examples
