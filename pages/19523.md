@@ -33,9 +33,9 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 The [[standard model of cosmology]] assumes that cosmic inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] and the observational preference for [[phantom dark energy]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
-References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
 Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension is in [Bolejko 17](#Bolejko17).
 
@@ -301,7 +301,7 @@ See also
 
 
 ### Effective dark energy from inhomogeneity
-{#EffectiveDarkEnergyFromInhomogeneity}
+{#ReferencesOnEffectiveDarkEnergyFromInhomogeneity}
 
 The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmological constant]]/[[dark energy]] has been discussed in the following articles:
 
@@ -325,15 +325,19 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 
 * {#Sarkar08} [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav.40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
 
-* Alessio Notari, _Can an Inhomogeneous Universe mimic
+* {#Notari09} Alessio Notari, _Can an Inhomogeneous Universe mimic
 Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
  
-* Michael Blomqvist, _Inhomogeneous cosmologies with clustered dark energy or a local matter void_,  2010 ([web](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A353689&dswid=2010))
+* {#Blomqvist10} Michael Blomqvist, _Inhomogeneous cosmologies with clustered dark energy or a local matter void_,  2010 ([web](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A353689&dswid=2010))
 
 
 * {#BuchertRasanen11} [[Thomas Buchert]], [[Syksy Räsänen]], _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
 
 * {#SmollerTempleVogler14} Joel Smoller, Blake Temple, Zeke Vogler, _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A, 2017 ([arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [10.1098/rspa.2016.0887](http://rspa.royalsocietypublishing.org/content/473/2207/20160887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553))
+
+* {#Ludwick15} Kevin J. Ludwick, _Examining the Viability of Phantom Dark Energy_, Phys. Rev. D 92, 063019 (2015) ([arXiv:1507.06492](https://arxiv.org/abs/1507.06492))
+
+  (on [[phantom dark energy]])
 
 * {#OdderskovKoksbangHannestad16} I. Odderskov, S. M. Koksbang, S. Hannestad, _The Local Value of $H_0$ in an Inhomogeneous Universe_, JCAP02(2016)001 ([arXiv:1601.07356](https://arxiv.org/abs/1601.07356))
 
@@ -349,7 +353,13 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * {#Bolejko17} Krzysztof Bolejko, _Emerging spatial curvature can resolve the tension between high-redshift CMB and low-redshift distance ladder measurements of the Hubble constant_, Phys. Rev. D 97, 103529 (2018) ([arxiv:1712.02967](https://arxiv.org/abs/1712.02967))
 
 
+
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+
+* {#Ludwick18} Kevin J. Ludwick, _The Viability of Phantom Dark Energy as a Quantum Field in 1st-Order FLRW Space_, Phys. Rev. D 98, 043519 (2018) ([arXiv:1804.02987](https://arxiv.org/abs/1804.02987))
+
+  (on [[phantom dark energy]])
+
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_,  ApJ Letters ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
