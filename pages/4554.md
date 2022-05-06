@@ -286,6 +286,7 @@ and the fact that $r$ is a weak equivalence, we have, by one of the axioms for a
 
 +-- {: .num_prop #KenBrownLemma}
 ###### Proposition
+**(Ken Brown's lemma)**
 
 Let $\mathcal{C}$ be a category of fibrant objects. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F : C \to D$ be a functor with the property that, for every arrow $f$ of $\mathcal{C}$ which is a trivial fibration, we have that $F(f)$ is a weak equivalence. 
 
@@ -423,7 +424,14 @@ See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+
 
 ## References ##
 
-* {#Brown73} [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, 1973, p. 4
+The [factorization lemma](#TheFactorizationLemma) is due to 
+
+* {#Brown73} [[Kenneth Brown]], p. 421 (4 of 41) in: _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, 1973, p. 4
+
+The corollary commonly known as "[Ken Brown's lemma](#KenBrownLemma)" does not appear explicitly in [Brown 73](#Brown73); it does appear under this name in
+
+* [[Mark Hovey]], Lemma 1.1.12 in: _Model Categories_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover), [ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s))
+
 
 A version in the setup of $\infty$-cosmoi is Lemma 2.1.6 in 
 
