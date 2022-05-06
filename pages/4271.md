@@ -101,29 +101,9 @@ forming the surface of the football (what one might call a gridiron footsphere, 
 
 ## Related concepts
 
-* **state**
+[[!include states and observables -- content]]
 
-  * [[classical state]], 
-
-  * [[quantum state]]
-
-    * [[wave function]]
-   
-    * [[superposition]]
-
-    * [[space of states (in geometric quantization)]]
-
-    * [[state in AQFT and operator algebra]]
-
-  * [[ground state]]
-
-* [[observable]]
-
-  * [[algebra of observables]]
-
-  * [[GNS construction]]
-
-  * [[quantum operator (in geometric quantization)]]
+\linebreak
 
 [[!include Isbell duality - table]]
 
