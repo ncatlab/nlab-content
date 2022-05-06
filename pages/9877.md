@@ -1,5 +1,5 @@
 
-* [webpage](http://sma.epfl.ch/~finster/)
+* [webpage](http://ericfinster.github.io/)
 
 ## selected talks
 
