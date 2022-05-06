@@ -38,6 +38,8 @@ For more on this see at [[string phenomenology]] the section _[Top-down models a
 
 ## Related entries
 
+* [[string theory inspired model]]
+
 * [[AdS/QCD correspondence]]
 
 * [[G2-MSSM]]
