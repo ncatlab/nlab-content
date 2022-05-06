@@ -48,14 +48,14 @@ A more general notion of strength allows for general $V$-[[actegories]] instead 
 +-- {: .num_defn}
 ###### Definition
 
-For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] 
-
-* in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actegory|actegories]] on [[category|categories]] 
-
-* on the object $V$ itself.
+For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actegory|actegories]] on [[category|categories]].
 =--
 
-Here we regard $V$ as equipped with the canonical $V$-action on itself.
+The classical definition of strength is on the category $V$ itself, regarded as equipped with the canonical $V$-action on itself. The definition is useful in the general case too. 
+
+The extra [[structure]] that a strong monad has as opposed to the underlying monad on [[Cat]] is called **strength**.
+
+Dually, a **costrength** is the analogous concept where $V$ is instead acting on the right.
 
 
 ### Details 
@@ -90,6 +90,7 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 * unitalness and functoriality of the component functor of $T$;
 
 * naturalness of unit and product modifications.
+
 
 ## Concrete definition
 
@@ -127,6 +128,29 @@ More generally, if a monoidal category $V$ acts on a category $C$
 then a $V$-strength for a monad $T$ on $C$ is a family of morphisms
 $t_{A,B}:A\bullet T(B)\to T(A\bullet B)$ satisfying similar commutative diagrams. 
 
+
+### Costrength
+
+A _costrength_ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the strength.
+
+(Note that the "co-" in "costrength" does _not_ refer to the [[opposite category]].)
+
+When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the [[braiding]] $b$ allows to obtain a strength from a costrength and vice versa,
+\begin{tikzcd}
+T A \otimes B \ar{r}{b_{T A,B}}[swap]{\cong} & B\otimes T A \ar{r}{t_{B,A}} & T(B \otimes A) \ar{r}{Tb_{B,A}}[swap]{\cong} & T(A\otimes B) .
+\end{tikzcd}
+
+When strength and costrength commute in a suitable way, one speaks of a [[commutative monad]].
+
+
+## Examples
+
+(...)
+
+
+## On monoidal closed categories
+
+(...)
 
 
 ## Moggi's typing rules and parameterized definition
