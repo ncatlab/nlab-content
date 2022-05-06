@@ -25,7 +25,7 @@
 
 Recall that a _[[band]]_ is a [[semigroup]] in which every [[element]] is [[idempotent]]. 
 
-[[commutative magma|Commutative]] bands are usually known as _[[semilattices]]_. This is the semigroup theoretic definition, but there is also an order theoretic definition: given a semilattice $L$ in this semigroup-theoretic sense, it has a canonical [[partial order]] given by $e\precreq f$ when $e f = e$. So semilattices are also [[posets]].
+[[commutative magma|Commutative]] bands are usually known as _[[semilattices]]_. This is the semigroup-theoretic definition, but there is also an [[order theory|order theoretic]] definition: given a semilattice $L$ in this semigroup-theoretic sense, it has a canonical [[partial order]] given by $e\precreq f$ when $e f = e$. So semilattices are also [[posets]].
 
 Finitely generated bands are finite: see [Howie 76, Section IV.4](#Howie76).
 
@@ -52,14 +52,14 @@ A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ f
 
 ## References
 
-* {#Brown00}K. S. Brown, _Semigroups, Semirings, and Markov Chains_, J. Theor. Prob. **13** no.3 (2000) pp.871-938. (([arXiv:math/0006145](https://arxiv.org/abs/math/0006145))
-
 * {#Howie76} J. Howie, _An introduction to semigroup theory_, Academic Press 1976.
+
+* {#Brown00} K. S. Brown, _Semigroups, Semirings, and Markov Chains_, J. Theor. Prob. **13** no.3 (2000) pp.871-938. ([arXiv:math/0006145](https://arxiv.org/abs/math/0006145))
+
 
 * {#Johnstone90}[[Peter Johnstone]], _Collapsed toposes and cartesian closed varieties_ , JPAA **129** (1990) pp.446-480.
 
-* N. Kimura, _The structure of idempotent semigroups I_ , Pacific
-Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
+* N. Kimura, _The structure of idempotent semigroups I_ , Pacific Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
 
 * {#MargolisSaliolaSteinberg15}  Stuart Margolis, Franco Saliola, [[Benjamin Steinberg]], _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
 
