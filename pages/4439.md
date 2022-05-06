@@ -66,9 +66,9 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 ### More advanced
 
-* [[Michael Green]], [[John Schwarz]], [[Edward Witten]], _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
+* {#GreenSchwarzWitten88} [[Michael Green]], [[John Schwarz]], [[Edward Witten]], _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics 1988
 
-* [[Joseph Polchinski]], _[[String theory]]_, 2 vols. 
+* {#Polchinski98} [[Joseph Polchinski]], _[[String theory]]_, 2 vols. , Cambridge University Press, 1998 
 
 * [[Joseph Polchinski]], _Joe's Little Book of String_, class notes, UCSB Phys 230A, String Theory, Winter 2010, [pdf](http://www.kitp.ucsb.edu/sites/default/files/users/joep/JLBS.pdf)
 
