@@ -289,6 +289,31 @@ So technically, combined truth comes from the ($a \Vdash A$) formal judgment for
 
 As for $TpOK(A)$, the intuitive truth is vacuous, and the presupposition is basically just that $A$ is a type, so the combined truth of $TpOK(A)$ says that $A$ is a type.
 
+#### Elimination into Combined Truth {#CombElim}
+
+Some of the elimination rules do not have a premise requiring that the elimination motive be a valid type family. The substitution instance of the motive appearing in the conclusion still must be a valid type, due to combined truth. But the validity of that substitution instance follows from the validity of substitution instances obtained from the premises.
+
+This is the case for identity elimination (rewrite), subset elimination, $Bool$ elimination, and PER comprehension elimination. Although they're ostensibly not eliminating anything, the direct computation rules are similar in that they can be used to rewrite with beta conversion in any typing goal.
+
+Because combined truth allows many semantic judgment forms—even [type validity](#TpOK)—to be represented as typing judgments, these "combined elimination" principles are stronger than they may look.
+
+A common problem with the representation of judgment forms as type operations is the reliance on combined truth, which means that presuppositions are carrying some or all of the weight, but they don't get propagated in the same way as ordinary truth.
+
+If an elimination rule requires a premise showing that the motive is a valid type family, the presupposition part of combined truth effectively has to be shown prior to the application of the rule. In other words, such ordinary elimination rules help to conclude ordinary truth only. But with a combined elimination rule, there is no motive validity premise, so the rule helps to conclude the combined truth of the motive.
+
+Here are some consequences of combined elimination on represented judgments:
+
+* You can beta convert in the subject of a typing judgment, not just the type.
+* You can beta convert in a type validity judgment.
+* Same goes for rewriting with an identity.
+* You can branch on a boolean in a valid type.
+
+That last one—type-level branching—is provided by the following derived rule:
+
+$$\frac{b \Vdash Bool \qquad T\,type \qquad F\,type}{(b\,T\,F)\,type}$$
+
+This is shown by eliminating $b$ with the motive ($C[x] \coloneqq TpOK(x\,T\,F)$). Since type validity is non-negatable, we would not be able to show this motive to be valid except by proving each case. But proving each case is exactly why we want to use $Bool$ elimination in the first place! So without the combined elimination, we'd be in an infinite regress. As for proving each case, it goes by beta reducing the applied Church boolean, yielding one of the premises.
+
 ### Identity {#IdType}
 
 ($t1 = t2 \in Comp$) intuitively says that $t1$ and $t2$ are computationally equivalent. But it presupposes that $t1$ and $t2$ are computations, so the combined truth is that $t1$ and $t2$ are the same computation.
