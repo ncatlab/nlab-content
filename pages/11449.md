@@ -96,3 +96,6 @@ An elaborate proposal for the correct flavour of real equivariant K-theory neede
 [[!redirects KO theory]]
 
 [[!redirects orthogonal K-theory]]
+
+[[!redirects KO-cohomology]]
+
