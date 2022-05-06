@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-But in the special case that the [[dimension]] $n = 4k$ is a [[positive number|positive]] multiple of 4 distinct from 8 (i.e. $k \in \mathbb{N}_{\gt 0}$, k \neq 2), there is _another_ $\mathbb{Z}/2$-[[conjugacy class of subgroups]] $\mathbb{Z}/2 \overset{\iota_{s}}{\hookrightarrow} Spin(4k)$, which is distinct from the canonical $\iota$, and hence yields a [[quotient group]]
+But in the special case that the [[dimension]] $n = 4k$ is a [[positive number|positive]] multiple of 4 distinct from 8 (i.e. $k \in \mathbb{N}_{\gt 0}, k \neq 2$), there is _another_ $\mathbb{Z}/2$-[[conjugacy class of subgroups]] $\mathbb{Z}/2 \overset{\iota_{s}}{\hookrightarrow} Spin(4k)$, which is distinct from the canonical $\iota$, and hence yields a [[quotient group]]
 
 $$
   SemiSpin\big(4k \big)
