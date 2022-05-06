@@ -3,6 +3,10 @@
 
 ## selected writings
 
+* {#ContiSalamon05} Diego Conti, [[Simon Salamon]], _Generalized Killing spinors in dimension 5_, Trans. Amer. Math. Soc. 359 (2007), no. 11, 5319-5343 ([arXiv:math/0508375](https://arxiv.org/abs/math/0508375))
+
+  (on [[SU(2)-structure]] on [[5-manifolds]])
+
 * Oscar Garcia-Prada, Jean Pierre Bourguignon, [[Simon Salamon]] (eds.) _The Many Facets of Geometry: A Tribute to Nigel Hitchin_, Oxford University Press 2010 ([doi:10.1093/acprof:oso/9780199534920.001.0001](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199534920.001.0001/acprof-9780199534920))
 
 
@@ -13,6 +17,8 @@
   (on [[quaternion-Kähler manifolds]])
 
 ## related $n$Lab pages
+
+* [[SU(2)-structure]] on [[5-manifolds]]
 
 * [[quaternion-Kähler manifold]]
 
