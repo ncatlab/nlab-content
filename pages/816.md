@@ -132,6 +132,18 @@ $$
   \end{aligned}
 $$
 
+## Motivation from enriched category theory
+Let $V$ be a monoidal category.
+Imagine you're tasked to write down the definition of limit in a category $C$ [[enriched category|enriched]] over $V$. You would start saying there is a diagram $F:K \to C$ and a limit is a universal cone over it, i.e. it's the universal choice of an object $\lim F$ plus an arrow $f_k : \lim F \to F(k)$ for each object $k$ of $K$. Here's where you stop and ask yourself: what is *an* arrow in $C$? $C$ has no hom-*sets* - it has hom-*objects* - hence what's an 'element' of $C(\lim F, F(k))$ in $V$?
+There are two ways to specify an element of an object $X$ in a monoidal category $(V, I, \otimes)$:
+1. Give an arrow $I \to X$ (think of sets, where elements of $X$ are indeed the same thing as arrows $\{*\} \to X$. These are called [[global elements]] of $X$, and are more often than not a misbehaved notion of element, since often $I$ is `too big' to thoroughly probe $X$ (on the other hand, notice the [[enriched+category#passage_between_ordinary_categories_and_enriched_categories|underlying category of an enriched category]] is defined by taking global elements of the hom-objects)
+2. Give *any* arrow into $X$. These are called [[generalized elements]], and the existence of the [[Yoneda embedding]] assures us they completely capture the categorical structure of $V$.
+Hence you now say: a cone over $F$ is a choice of a *generalized element* $f_k$ of $C(\lim F, F(k))$, for every $k$ in $K$. This means specifying an arrow $W_k \to C(\lim F, F(k))$ in $V$, for each $k$. It's now quite natural to ask for the functoriality of this choice in $k$, hence we end up defining a `generalized cone' over $F$ as an element
+$$
+  [K, V](W-, C(\lim F, F-))
+$$
+Hence $W$ is simply a uniform way to specify the sides of a cone.
+A confirmation that this is indeed the right definition of limit in the enriched settings come from the fact that 'conical completeness' (a conical limit now is one where $W = \Delta I$, hence we pick only global element) is an inadequate notion, see for example Section 3.9 in Kelly's book.
 
 ## Examples  ##
 
