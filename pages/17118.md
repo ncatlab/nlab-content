@@ -89,6 +89,10 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ## References
 
+Original articles:
+
+* {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
+
 Exposition
 
 * {#Cortes05} [[Vicente Cortés]], _Quaternionic Kähler manifolds_, 2005 ([pdf](https://www2.math.hu-berlin.de/gradkoll/Cortes_vorlesung1_handout.pdf))
@@ -112,11 +116,13 @@ Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relatio
 
 * {#Verbitsky} [[Misha Verbitsky]], "Hyperkähler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
 
-* {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
+* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds-, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
 
 See also
 
 * Claude LeBrun, _On complete quaternionic-Kähler manifolds_, Duke Math. J. Volume 63, Number 3 (1991), 723-743 ([euclid:1077296077](https://projecteuclid.org/euclid.dmj/1077296077))
+
+* Simon G. Chiossi, Óscar Maciá, _SO(3)-Structures on 8-manifolds_, Ann. Glob. Anal. Geom. 43 (1) (2013), 1--18 ([arXiv:1105.1746](https://arxiv.org/abs/1105.1746))
 
 On quaternion-Kähler manifold with [[positive number|positive]] [[scalar curvature]]:
 
