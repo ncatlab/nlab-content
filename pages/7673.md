@@ -420,7 +420,7 @@ Comprehension categories are defined in
 
 A correspondence with orthogonal factorization systems is discussed in
 
-* Clemens Berger, Ralph M. Kaufmann, *Comprehensive factorisation systems*[pdf](https://arxiv.org/abs/1710.09438)
+* Clemens Berger, Ralph M. Kaufmann, *Comprehensive factorisation systems* ([pdf](https://arxiv.org/abs/1710.09438))
 
 Display maps are discussed in
 
