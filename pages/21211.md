@@ -16,5 +16,10 @@ The [[DBI action]] for single [[D-branes]]:
 
 * A. Abouelsaood, [[Curtis Callan]], [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
 
+Proposal for a non-abelian [[DBI-action]] for [[intersecting brane|coincident]] [[D-branes]]:
+
+* [[Philip Argyres]], [[Chiara Nappi]], _Spin-1 effective actions from open strings_, Nuclear Physics B Volume 330, Issue 1, 22 January 1990, Pages 151-173 Nuclear Physics B (<a href="https://doi.org/10.1016/0550-3213(90)90305-W">doi:10.1016/0550-3213(90)90305-W</a>)
+
+
 
 category: people
