@@ -24,11 +24,13 @@ Similarly for irreducible [[modules]].
 
 ## Definition ##
 
-Given some algebraic structure, such as a [[group]], equipped with a notion of (linear) [[representation]], then an _irreducible representation_ is a [[representation]] that has no nontrivial proper [[subobject]] in the [[category]] of all representations in question and yet which is not itself trivial either.  In other words, an irrep is a [[simple object]] in the category of representation.
+Given some algebraic structure, such as a [[group]], equipped with a notion of ([[linear representation|linear]]) [[representation]], an _irreducible representation_ is a [[representation]] that has no nontrivial proper [[subobject]] in the [[category of representations|category of all representations]] in question and yet which is not itself trivial either.  In other words, an irrep is a [[simple object]] in the [[category of representations]].
 
 Notice that there is also the closely related but in general different notion of an [[indecomposable representation]].  Every irrep is indecomposable, but the converse may fail.
 
 A representation that has proper nontrivial subrepresentations but can not be decomposed into a [[direct sum]] of such representations is an **indecomposable representation** but still reducible.
+
+In good cases for [[finite dimensional vector space|finite dimensional]] representations, the two notions (irreducible, indecomposable) coincide.
 
 ## Related concepts
 
@@ -43,6 +45,8 @@ A representation that has proper nontrivial subrepresentations but can not be de
   In [[Wigner classification]] the irreps of the [[spacetime]] symmetry groups are identified with [[elementary particle]] species.
 
 ## References
+
+See also
 
 * Wikipedia, _[Irreducible representation](https://en.wikipedia.org/wiki/Irreducible_representation)_
 
