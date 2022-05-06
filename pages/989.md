@@ -60,10 +60,10 @@ such that
        (A\otimes A) \otimes A 
          &\underoverset{\simeq}{a_{A,A,A}}{\longrightarrow}&
        A \otimes (A \otimes A)
-         &\overset{A \otimes \mu}{\longrightarrow}&
+         &\overset{id \otimes \mu}{\longrightarrow}&
        A \otimes A
        \\
-       {}^{\mathllap{\mu \otimes A}}\downarrow  
+       {}^{\mathllap{\mu \otimes id}}\downarrow  
          && &&
        \downarrow^{\mathrlap{\mu}}
        \\
