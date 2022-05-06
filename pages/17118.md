@@ -65,13 +65,25 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ## Related concepts
 
-* [[Kähler manifold]], [[hyper-Kähler manifold]]
+* [[quaternionic manifold]], [[Kähler manifold]], [[hyper-Kähler manifold]]
 
 ## References
 
-Review includes
+Book references include:
 
-* {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 7: _Riemannian holonomy_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture7.pdf))
+* {#Besse}[[Arthur Besse]], _Einstein Manifolds_, Springer-Verlag 1987.
+
+* {#Joyce} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford University Press, 2000.
+
+Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
+
+* {#Moroianu} Andrei Moroianu and Uwe Semmelmann, "Killing Forms on Quaternion-Kahler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
+
+* {#PerdersonSwannPoon} Pedersen, Poon, and Swann. "Hypercomplex structures associated to quaternionic manifolds",  Differential Geometry and its Applications (1998) 273-293 North-Holland.
+
+* {#Verbitsky} Misha Verbitsky, "Hyperkahler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
+
+* {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
 
 Discussion of [[characteristic classes]]:
 
