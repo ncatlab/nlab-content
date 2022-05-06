@@ -23,8 +23,7 @@
 **([[proper maps]])**
 
 A [[continuous function]] $f  \colon (X, \tau_X) \to (Y, \tau_Y)$
-is called _[[proper map|proper]]_ if for $C \in Y$ a [[compact topological space|compact]] [[topological subspace]]
-of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
+is called _[[proper map|proper]]_ if for all [[compact topological space|compact]] [[topological subspace|subspaces]] $C$ of $Y$, the [[pre-image]] $f^{-1}(C)$ is [[compact topological space|compact]] in $X$.
 
 =--
 
