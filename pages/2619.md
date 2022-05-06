@@ -113,7 +113,7 @@ where now the last [[colimit]] is in [[Set]].
 Thus, in a presheaf category, any [[retract]] of a representable functor is tiny. In fact the converse also holds:
 
 
-+-- {: .num_prop}
++-- {: .num_prop #representables}
 ###### Proposition
 
 The tiny objects in a [[presheaf category]] are precisely the [[retracts]] of [[representable functor]]s.  
