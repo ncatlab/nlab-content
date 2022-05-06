@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about two senses of _extension_: extension of morphisms, [[formal dual|dual]] to [[lift]] and extension of objects.  In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
+> This entry is about two senses of _extension_: extension of morphisms, [[formal dual|dual]] to [[lift]] and extension of objects ([[algebra extension]]).  In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
 
 #Contents#
 * table of contents
