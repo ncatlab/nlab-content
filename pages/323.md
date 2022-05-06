@@ -311,6 +311,9 @@ On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a 
 
 The [[saturated class of limits|saturation]] of the class of pullbacks is the class of limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial and such that $C$ is [[L-finite category|L-finite]].
 
+### Pullback functor
+
+If $f : X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, there is an induced pullback [[functor]] $f^* : C/Y \to C/X$ called [[base change]].
 
 ## Related concepts
 
