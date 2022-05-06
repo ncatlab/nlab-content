@@ -93,6 +93,8 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 ## References
 
+Named after [[Stefan Banach]].
+
 * Zbigniew Semadeni, _Banach spaces of continuous functions_, vol. I, [gBooks](http://books.google.com/books/about/Banach_spaces_of_continuous_functions.html?id=vCDvAAAAMAAJ)
 
 
@@ -116,7 +118,7 @@ Discussion in the context of ([[global analytic geometry]]) [[analytic geometry]
 
 Lecture notes on the concept of the [[analytic spectrum]] of a Banach ring include
 
-* {#Brodsky12} [[Sarah  Brodsky]], _Non-archimedean geometry_, 2012 ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
+* {#Brodsky12} Sarah  Brodsky, _Non-archimedean geometry_, 2012 ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
 
 A more [[topos theory|topos-theoretic]] perspective:
 
