@@ -36,11 +36,11 @@ on those [[(∞,1)-functors]] $X \colon \mathcal{Y}^{inf} \to \infty Grpd$ such 
 
 1. over the [[terminal object]] they are [[contractible]]: $X(*) \simeq *$ (hence they are [[anti-reduced object|anti-reduced]]);
 
-1. they preserve [[(∞,1)-pullbacks]] (are [[cohesive ∞-presheaf on E-∞ rings|infinitesimally cohesive]])
+1. they preserve [[(∞,1)-pullbacks]] of small morphisms (are [[cohesive ∞-presheaf on E-∞ rings|infinitesimally cohesive]])
 
 =--
 
-([Lurie, def. 1.1.14](#Lurie))
+([Lurie, Def. 1.1.14 with Def. 1.1.8](#Lurie))
 
 +-- {: .num_remark }
 ###### Remark
