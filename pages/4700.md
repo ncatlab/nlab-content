@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,33 +18,204 @@
 {:toc}
 
 
+## Idea
 
-## Graph complex
- {#GraphComplex}
+A _graph complex_ is a certain [[cochain complex]] [[linear span|spanned]] by [[equivalence classes]] of certain labeled [[directed graphs]], whose [[differential]] encodes the operation of contracting away [[edges]] in a graph.
 
-Roughly:
-
-Consider the [[complex vector space]] $\mathcal{G}$ [[linear span|spanned]] by the [[isomorphism classes]] of [[orientation|oriented]] [[ribbon graphs]] [[quotient|modulo]] the [[relation]] $(\Gamma,-\sigma) = - (\Gamma, \sigma)$ where $\sigma$ is an [[orientation]] on the [[graph]] $\Gamma$. 
-
-A [[differential]] on this vector space is given by
+A concrete implementation of this general idea 
+originally sketched in [Kontsevich 94 (p. 11-12)](#Kontsevich94) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14)
+is often referred to by default as _the graph complex_ and yields a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
 
 $$
-  \partial(\Gamma) 
-    \coloneqq 
-  \sum_{e\in E(\Gamma)\backslash Loop(\Gamma)} \Gamma/e
+  Graphs_n(D)
+  \;\in\;
+  dgcAlg_{\mathbb{R}}
+  \phantom{AA}
+  n, D \in \mathbb{N}
   \,,
 $$
 
-where the [[sum]] is over [[edges]] $e$ which are not [[loops]] (have distinct [[source]] and [[target]]) and $\Gamma/e$ is obtained from $\Gamma$ by contraction at edge $e$ (cf. [[ribbon graph]]). 
 
-This function $\partial$ is indeed a differential, in that it satisfies $\partial^2 = 0$, because two contractions in different order produce a different orientation. 
+which is [[quasi-isomorphism|quasi-isomorphic]] to the [[de Rham cohomology]], and in fact to the semi-algebraic [[de Rham algebra]]
 
-> some details missing here...
 
-The resulting [[chain complex]] $(\mathcal{G}_\bullet, \partial)$ is called the _graph complex_. Its [[chain homology]] $H_\bullet(\mathcal{G}, \partial)$ is called _graph homology_.
+$$
+  \Omega^\bullet_{salg}
+  \big(
+    Conf_n
+    \big( 
+      \mathbb{R}^D
+    \big)
+  \big)
+  \;\in\;
+  dgcAlg_{\mathbb{R}}
+  \phantom{AA}
+  n, D \in \mathbb{N}
+$$
 
-This was originally indicated in ([Kontsevich 94, pages 11-12](#Kontsevich94)). For a detailed and careful account see [Lambrechts-Volic 14, section 6](#LambrechtsVolic14).
+of (the [[Fulton-MacPherson compactification]] of) the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
+The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given by sending each graph to the corresponding [[Feynman amplitude]] in [[free field theory|free]] [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory]] on $X$, by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]:
+
+$$
+  Graphs_n(D)
+  \underoverset{
+    \simeq_{\mathrlap{qi}}
+  }
+  {
+    \color{blue}
+    {
+      \text{
+        assign Feynman amplitudes
+      }
+      \atop
+      \text{
+        in free CS/AKSZ theory
+      }
+    }
+  }
+  {
+    \longrightarrow
+  }
+  \Omega^\bullet_{salg}
+  \big(
+    Conf_n\big(  \mathbb{R}^D \big)
+  \big)
+  \,.
+$$
+
+This means that for each [[edge]] in a [[graph]] a [[Chern-Simons propagator]] is assigned, and for each of $n_{int} \in \mathbb{N}$ internal [[vertices]] the [[fiber integral]] of the adjacent [[Chern-Simons propagators]] along the canonical [[fibration]] of [[configuration spaces of points]]:
+
+$$
+  Conf_{n + n_{int}}( \mathbb{R}^D )
+  \longrightarrow
+  Conf_{n}( \mathbb{R}^D )
+  \,.
+$$
+
+This was originally sketched in [Kontsevich 94, p. 11-12](#Kontsevich94). A detailed construction and proof was laid out in [Lambrechts-Volić 14](#LambrechtsVolic14). Other authors have claimed various generalizations of this result, generalizing [[Euclidean space]] $\mathbb{R}^D$ to more general [[smooth manifolds]], possibly [[manifold with boundary|with boundary]].
+
+ 
+
+
+## Definition
+ {#GraphComplex}
+
+
+
+
+> under construction
+
+A clean definition of the graph complex for points in [[Euclidean space]] $\mathbb{R}^D$ is given in [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14). For definiteness, we here state the definition for $D = 3$. 
+
+(But for general $D \in \mathbb{N}$ the definition is essentially the same, differing only in the degrees assigned to graphs, and in the signs appearing in the equivalence relation between graphs and in the definition of the differential. For even dimensions these signs depend on a linear order on the set of edges instead of fthe set of vertices.)
+
+\linebreak
+
+
++-- {: .num_defn #Graphs}
+###### Definition
+**(graphs)**
+
+In the following, by a **[[graph]]** we mean specifically:
+
+1. a [[finite set|finite]] [[directed graph]] 
+
+   $$
+     Edgs \underoverset{s}{t}{\rightrightarrows} Vert
+     \,,
+   $$
+
+1. a decomposition  of the [[finite set]] $Vert$ of [[vertices]] as a [[disjoint union]]
+
+   $$
+     Vert \simeq Vert_{ext} \sqcup Vert_{int}
+   $$
+
+   of "external" and "internal" vertices.
+
+1. a [[linear order]] on $V$, such that $V_{ext} \lt V_{int}$.
+
+We write $\#\! Vert \coloneqq \left\vert V \right\vert$ for the [[cardinality]] of the sets of vertices, etc.
+
+=--
+
+([Lambrechts-Volić 14, Def. 6.1](#LambrechtsVolic14))
+
++-- {: .num_defn #DenotationForLinearOrderOnVertices}
+###### Remark
+**(denotation for linear order on vertices)**
+
+The  [[linear order]] on the [[vertices]] in Def. \ref{Graphs} is equivalently a choice of [[bijection]] of $Vert$ with the set of the first $\#\!Vert$ [[natural numbers]]
+
+$$
+  Vert
+  \;\simeq\;
+  \big\{
+    1, 2, \ldots, \# Vert_{ext}, \# Vert_{ext} + 1, \ldots , \# Vert_{ext} + \# Vert_{int}
+  \big\}
+$$
+
+With this understood, we may deoict graphs as as diagrams with oriented edges and numbered vertices.
+
+=--
+
+
+
++-- {: .num_defn}
+###### Definition
+**(degree of a graph)**
+
+Given a graph 
+
+$$
+  \Gamma
+  \;=\;       
+  \big(
+    Edgs 
+      \underoverset{s}{t}{\rightrightarrows} 
+    Vert_{ext} 
+      \sqcup
+    Vert_{int}
+  \big)
+$$
+
+according to Def. \ref{Graphs}, its _degree_ is the [[natural number]]
+
+$$
+  deg(\Gamma)
+  \;\coloneqq\;
+  2 \cdot \#\!Edgs
+  -
+  3 \cdot \#\!Vert_{int}
+  \,,
+$$
+
+hence the sum of 2 for each [[edge]] and of -3 for each internal [[vertex]].
+
+=--
+
+([Lambrechts-Volić 14, Def. 6.6](#LambrechtsVolic14))
+
+
+If we also agree to
+
+1. denote internal vertices by a bullet;
+
+1. external vertices by... _no_ denotation (as usual for [[Feynman diagrams]]!)
+
+then the ingredients of these graphs are as shown in the following figure:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GraphComplexIngredients.jpg" width="740">
+</center>
+
+
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GraphComplexSigns.jpg" width="700">
+</center>
 
 
 +-- {: .num_example #ThreeTermRelation}
@@ -57,7 +229,7 @@ $\phantom{AAA}\array{ \partial \\ \phantom{A} \\ \phantom{a}}$
 $\phantom{A}\array{ = \\ \phantom{A} \\ \phantom{a} }\phantom{A}$
 <img src="https://ncatlab.org/nlab/files/ThreeTermIdentity.jpg" width="300">
 
-> graphics grabbed from [Lambrechts-Volic 14, Figure 1 & Figure 2](#LambrechtsVolic14)
+> graphics grabbed from [Lambrechts-Volić 14, Figure 1 & Figure 2](#LambrechtsVolic14)
 
 Under the [[quasi-isomorphism]] from the [[graph complex]] to the [[de Rham complex]] on the [[Fulton-MacPherson compactification]] of a [[configuration space of points]] given by sending each [[graph]] to its [[Chern-Simons propagator|Chern-Simons]] [[Feynman amplitude on compactified configuration spaces of points]] ([this Prop.](Fulton-MacPherson+operad#QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM)) this relation becomes the "3-term relation" ([this Prop.](Fulton-MacPherson+operad#DeRhamCohomologyOfFMCompactification)):
 
