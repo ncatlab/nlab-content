@@ -91,7 +91,7 @@ $$
   \Omega^\bullet\big( \Sigma^6  \big)
 $$
 
-for the [[Lie derivative]] of [[differential forms]] along $v^5$, and make use of [[Cartan's magic formula]] expressing it as an [[anit-commutator]], as show.
+for the [[Lie derivative]] of [[differential forms]] along $v^5$, and make use of [[Cartan's magic formula]] expressing it as an [[anti-commutator]], as show.
 
 
 
@@ -281,14 +281,14 @@ Finally, the Perry-Schwarz-Lagrangian is ([PS 96 (17)](#PerrySchwarz96))
   \tilde H
 \]
 
-Now we ask $v^5$ (eq:FiberVectorField) to be an [[isometry]]. This means that
+Now we ask $v^5$ (eq:FiberVectorField) to be a [[spacelike]] [[isometry]]. This means that
 
 \[
   \label{HodgeStarCommutingWithIsometryContraction}
   \star \circ \iota_{v^5}
   =
   -
-  \theta^5 \wedge \star
+  \theta^5 \wedge \circ \star
   \;:\;
   \Omega^3\big( \Sigma^6\big)
   \longrightarrow
