@@ -41,7 +41,7 @@ $$
   \array{
     x_0, x_1, \phi \in \mathbb{R} \hookrightarrow \mathbb{O}
     \\
-    \psi_1, \psi_2 \in \mathbb{O}
+    y, \psi_1, \psi_2 \in \mathbb{O}
   }
   \right\}
 $$
@@ -156,7 +156,7 @@ $$
 \array{
     x_0, x_1, \phi \in \mathbb{R} \hookrightarrow \mathbb{O}
     \\
-    \psi_1, \psi_2 \in \mathbb{O}
+    y, \psi_1, \psi_2 \in \mathbb{O}
 }$$
 
 By the discussion at _[[geometry of physics -- supersymmetry]]_ in the section _[Real spinors in dimension 3,4,6,10](geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_ these summands may be further identified as follows:
