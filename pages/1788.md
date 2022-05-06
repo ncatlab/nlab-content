@@ -1,5 +1,46 @@
 
 
+The exceptional vielvein fields are
+
+$e^a$
+
+$e_{a_1 a_2}$
+
+$e_{a_1 \cdots a_5}$
+
+Write $a = i$ for indices in $\mathbb{H}$ and $a = \mu$ for 4d spacetime indices.
+
+Then the lemma shows that the
+
+$e_{i j}$ 
+
+span an $SU(2)_V$-vector rep and an $SU(2)_A$-vector.
+
+Taking fixed-points = restricting to the $SU(A)_A$-part vanishes.
+
+If we think of the surviving $e_{i j}$ as the 3 components of the pion field, then 
+
+1) this is "chiral symmetry breaking" in the IR, as in the WSS model;
+
+2) the $H_3$-flux comes out to be the correct Skyrmion number current.
+
+In addition, thinking of the $e_{i j}$ as meson fields solves the puzzle that these 1-forms look a little like gauge connections, without being gauge connections: Instead they are flat sections of an associated $\mathfrak{su}(2)$-bundle.
+
+So what we are seeing is _flavour_ gauge theory instead of _color_ gauge theory. Exactly what happens in the WSS model, too.
+
+Better yet, we also have the wrapped 5-brane modes
+
+$e_{\mu \nu \rho i j}$
+
+By the sam argument as above, these are now $\mathfrak{su}(2)$-valued pseudo-vector fields in 4d.
+
+But that's exactly what (axial) vector mesons (like the rho) are supposed to be!
+
+So the picture is: We see the flat-space holographic Skyrmion model for mesons and vector mesons as in Sutcliffe arxiv.org/abs/1003.0023 .
+
+
+
+
 
 +-- {: .num_lemma}
 ###### Lemma
