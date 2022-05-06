@@ -41,8 +41,7 @@ This is the structure to which the [[cobordism hypothesis]] applies. Of course t
 
 ## Related entries
 
-* _[[Globular]]_ proof assistant
-
+[[!include proof assistants and formalization projects -- list]]
 
 ## References
  {#References}
