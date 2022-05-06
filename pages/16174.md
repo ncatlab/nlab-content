@@ -32,6 +32,55 @@ More generally, any [[distributive category]] determines a Burnside rig ([Schanu
 
 ## Properties
 
+### In terms of the table of marks
+ {#InTermsOfTheTableOfMarks}
+
+We discuss how the product in the Burnside ring is encoded in the [[table of marks]] of the given [[finite group]].
+
++-- {: .num_defn #BurnsideMultiplicities}
+###### Definition
+**(Burnside multiplicities)**
+
+Given a choice of [[linear order]] on the [[conjugacy classes]] of [[subgroups]] of $G$ (for instance as in [this Lemma](table+of+marks#LinearOrderOnConjugacyClassesOfSubgroups)), we say that the corresponding _structure constants_ of the [[Burnside ring]] (or _Burnside multiplicities_) are the [[natural numbers]] 
+
+\[
+  n_{i j}^\ell \;\in\; \mathbb{N}
+\] 
+
+uniquely defined by the [[equation]]
+
+\[
+  \label{BurnsideStructureConstants}
+  [G/H_i] \times [G/H_j]
+  \;=\;
+  \underset{ \ell }{\sum}
+  n_{i j}^\ell [G/H_\ell]
+  \,.
+\]
+
+=--
+
++-- {: .num_prop #BurnsideProductInTermsOfTableOfMarks}
+###### Proposition
+**([[Burnside ring]] product in terms of [[table of marks]])**
+
+The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)^{m \ell} \right)$ (which exists by [this Prop.](table+of+marks#TableOfMarksIsInvertibleUpperTriangular)):
+
+$$
+  n_{i j}^\ell
+  \;=\;
+  \underset{m}{\sum}
+  M_{i m} \cdot M_{j m}
+  \cdot
+  (M^{-1})^{m \ell}
+$$
+
+=--
+
+For [[proof]] see at _[[table of marks]]_, [this Prop.](table+of+marks#BurnsideProductInTermsOfTableOfMarks)
+
+<br/>
+
 ### As the equivariant stable cohomotopy of the point
  {#AsTheEquivariantStableCohomotopyOfThePoint}
 
