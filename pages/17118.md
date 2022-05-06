@@ -16,7 +16,11 @@
 
 ## Definition
 
-A [[Riemannian manifold]] of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of the [[direct product group]] $Sp(n) \times Sp(1)$ (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]]). If the [[holonomy]] group is in fact a [[subgroup]] of just the $Sp(n)$-factor, one speaks of a _[[hyperkähler manifold]]_.
+A [[Riemannian manifold]] of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of [[Sp(n).Sp(1)]] (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]], and the product is the [[quotient group]] of the [[direct product group]] by the [[diagonal]] [[center]] $\mathbb{Z}/2$). 
+
+If the [[holonomy]] group is in fact a [[subgroup]] of just the $Sp(n)$-factor, one speaks of a _[[hyperkähler manifold]]_.
+
+\linebreak
 
 ## Properties
 
@@ -54,9 +58,7 @@ Such extension $\nabla_\text{quat}$ of $\nabla$ however is not unique, since $\n
 
 Let $X$ be a  [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] 8 with [[Spin structure]]. If the [[frame bundle]] moreover admits [[G-structure]] for 
 
-$$
-  G = Sp(2) \times Sp(1) \simeq Spin(5) \times Spin(3) \hookrightarrow Spin(8)
-$$ 
+$\;\;G = $ [[Sp(n).Sp(1)]] $\hookrightarrow$ [[Spin(8)]] 
 
 then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [[cup product]]-square $(p_1)^2$ of the [[first Pontryagin class]] of the [[frame bundle]]/[[tangent bundle]] are related by
 
