@@ -216,8 +216,9 @@ For $V \to X$ a [[vector bundle]], write $S^V$ for its [[fiber]]-wise [[one-poin
 
 It is immediate that:
 
-+-- {: .num_prop}
++-- {: .num_prop #SphericalFibrationsOfVectorBundlesClassifiedViaJ}
 ###### Proposition
+**([[spherical fibrations]] of [[vector bundles]] classified via J-homomorphism)**
 
 For $V \to X$ a [[vector bundle]] classified by a map $X \to B O$, 
 the corresponding [[spherical fibration]] $\mathbb{S}^V$, def. \ref{SphereBundleOfVectorBundle}, is classified by $X \to B O \stackrel{B J}{\longrightarrow} B GL_1(\mathbb{S})$, def. \ref{DeloopedJ}.
@@ -527,6 +528,7 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 * [[J-homomorphism and chromatic homotopy]]
 
+* [[scanning map equivalence]]
 
 ## References
 
