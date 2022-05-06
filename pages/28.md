@@ -82,7 +82,7 @@ A [[homomorphism]] between groupoids is the obvious: a [[function]] between thei
 
 For example if $f \;\colon\; X \to Y$ is a [[continuous function]] between topological spaces, then postcomposition of [[paths]] with this function induces a groupoid homomorphism $f_\ast \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)$ between the [[fundamental groupoids]] from above.
 
-Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a genralization of [[group theory]].
+Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a generalization of [[group theory]].
 
 However, for groupoids more than for groups one is typically interested in "[[conjugation actions]]" on homomorphisms. These are richer for groupoids than for groups, because one may conjugate with a different morphism at each object. If we think of groupoids as special cases of [[categories]], then these "conjugation actions on homomorphisms" are _[[natural transformations]]_ between [[functors]].
 
