@@ -182,7 +182,9 @@ The category $Singularities$ in Def. \ref{CategoryOfSingularities}, when general
 
 * "$Glo$" in [Rezk 14, 2.2](#Rezk14)
 
-* "$Orb$" in [Körschgen 16](orbispace#Koerschgen16), [Schwede 17](orbispace#Schwede17), [Schwede 18](global+equivariant+homotopy+theory#Schwede18).
+* "$Orb$" in [Körschgen 16, 2.1](orbispace#Koerschgen16), [Juran 20, 3.2](#Juran20)
+
+* "$\mathbf{O}_{gl}$" in [Schwede 17](orbispace#Schwede17), [Körschgen 16, 2.2](orbispace#Koerschgen16) 
 
 =--
 
