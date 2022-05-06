@@ -550,9 +550,10 @@ Attempts to identify aspects of the [[standard model of particle physics]] withi
 
 * Ivan Todorov, _Exceptional quantum algebra for the standard model of particle physics_ ([arXiv:1911.13124](https://arxiv.org/abs/1911.13124))
 
-Details are in
-
 * {#Krasnov19} [[Kirill Krasnov]], _$SO(9)$ characterisation of the Standard Model gauge group_ ([arXiv:1912.11282](https://arxiv.org/abs/1912.11282))
+
+* Latham Boyle, _The Standard Model, The Exceptional Jordan Algebra, and Triality_ ([arXiv:2006.16265](https://arxiv.org/abs/2006.16265))
+
 
 
 
