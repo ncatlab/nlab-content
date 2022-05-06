@@ -208,6 +208,15 @@ By theorem \ref{Recognition} the inclusion of the point is final precisely if fo
 
 =--
 
++-- {: .num_example}
+###### Example
+
+A (weak) localization $f: \mathcal{C} \to \mathcal{D}$ is both initial and final.
+
+=--
+
+This appears, for example, as ([Cisinski, 7.1.10](#Cisinski)).
+
 
 ### On categories of simplices
  {#OnCategoriesOfSimplices}
@@ -286,6 +295,30 @@ is final. For a counter-example, see ([Hovey, 9](#Hovey)).
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+For every simplicial set $K$, evaluation at the initial vertex
+
+$$
+  N(\Delta_{/K})^{op} \to K
+  \,.
+$$
+
+is both initial and final.
+=--
+
+This appears as ([Shah, 12.2](#Shah)) and also follows from the fact that this map is a weak localization ([Cisinski, 7.3.15](#Cisinski)).
+
++-- {: .num_remark}
+###### Remark
+
+This can be used to establish a Bousfield-Kan formula for homotopy colimits; see ([Shah, 12.3](#Shah)). 
+
+=--
+
+
+
 
 ## Related concepts
 
@@ -308,6 +341,10 @@ Section 6 of
 
 
 * {#Hovey} [[Mark Hovey]], item 9 of _Errata to Model Categories_ ([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
+
+*{#Shah} [[Jay Shah]] Parametrized higher categories and higher algebra: Expose II- Indexed homotopy limits and colimits.
+
+*{#Cisinski} [[Denis-Charles Cisinski]] Higher Categories and Homotopical Algebra.
 
 
 [[!redirects cofinal (infinity,1)-functor]]
