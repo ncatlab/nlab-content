@@ -272,7 +272,49 @@ The first few [[homotopy groups]] of $tmf$ are ([Hopkins 02, section 4.3](#Hopki
 |-----|----|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
 | $\pi_k(tmf)$ | $\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}/2\mathbb{Z}$ | 0 | $\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z}$ | $(\mathbb{Z}/2\mathbb{Z})^2$ | $\mathbb{Z}/6\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}/3\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ |
 
-The canonical map $\mathbb{S} \to tmf$ (the unit of the [[E-∞ ring]] structure) induces in degree $\leq 6$ an isomorphism with the [[stable homotopy groups of spheres]] ([Hopkins 02, Prop. 4.6](#Hopkins02), [DFHH 14, Ch. 13](#DFHH14)).
+### Boardman homomorphism
+ {#BoardmanHomomorphism}
+
+Write $\mathbb{S}$ for the [[sphere spectrum]] and [[tmf]] for the [[connective spectrum]] of [[topological modular forms]].
+Since [[tmf]] is an [[E-∞ ring|E-∞]][[ring spectrum]], there is an essentially unique homomorphism of [[E-∞ ring|E-∞]][[ring spectra]]
+
+$$
+  \mathbb{S}
+  \overset{e_{tmf}}{\longrightarrow}
+  tmf
+  \,.
+$$
+
+Regarded as a morphism of [[generalized homology]]-theories, this is also called the [[Hurewicz homomorphism]], or rather the [[Boardman homomorphism]] for $tmf$
+
+
++-- {: .num_prop}
+###### Proposition
+**(Boardman homomorphism in $tmf$ is 6-connected)**
+
+The [[Boardman homomorphism in tmf]]
+
+$$
+  \mathbb{S}
+  \overset{e_{tmf}}{\longrightarrow}
+  tmf
+$$
+
+induces an [[isomorphism]] on [[stable homotopy groups]] 
+(hence from the [[stable homotopy groups of spheres]]), up to degree 6:
+
+$$
+  \pi_{\bullet \leq 6}(\mathbb{S})
+  \underoverset{\simeq}{\pi_{\bullet \leq 6}(e_{tmf})}{\longrightarrow}
+  \pi_{\bullet\leq 6}(tmf)
+  \,.
+$$
+
+
+=--
+
+([Hopkins 02, Prop. 4.6](#Hopkins02), [DFHH 14, Ch. 13](#DFHH14))
+
 
 
 
