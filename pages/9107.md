@@ -18,6 +18,10 @@ On the [[Gross-Neveu model]] via [[intersecting D-brane models]]/[[AdS/QCD]]:
 
 * E. Antonyan, [[Jeffrey Harvey]], [[David Kutasov]], _The Gross-Neveu Model from String Theory_, Nucl. Phys. B776:93-117, 2007 ([arxiv:hep-th/0608149](https://arxiv.org/abs/hep-th/0608149))
 
+Discussion of the [[gauged WZW model|gauged]] [[WZW term]] for the [[chiral anomaly]] in [[chiral perturbation theory]] in view of the full [[standard model of particle physics]]:
+
+* [[Jeffrey Harvey]], Christopher T. Hill, Richard J. Hill, _Standard Model Gauging of the WZW Term: Anomalies, Global Currents and pseudo-Chern-Simons Interactions_, Phys. Rev. D77:085017, 2008 ([arXiv:0712.1230](https://arxiv.org/abs/0712.1230))
+
 
 
 
