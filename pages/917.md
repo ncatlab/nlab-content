@@ -16,17 +16,17 @@ Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global
 
 > A morphism $f:A\rightarrow B$ in $\mathcal{C}$ is an injection if, given any two global elements $x, y:1\rightarrow A$, $x = y$ if $f \circ x = f \circ y$. 
 
-In particular, every [[monomorphism]] in a category with a terminal object is an injection. 
+In particular, every [[monomorphism]] in a category with a terminal object is an injection, and every injection from the terminal object is a monomorphism.
 
-The term '[[injective morphism]]' is already being used for morphisms satisfying a [[right lifting property]], so isn't used here. 
++-- {: .query}
+Anonymous: Under what conditions are all injections in a category monomorphisms? Obviously injections are monomorphisms in a [[well-pointed]] [[topos]] or [[pretopos]] (those are models of particular types of set theories), but does that remain true in a (pre)topos without well-pointedness, a [[coherent category]] or an [[exact category]]?
+=--
 
 ### Duals of injections
 
 The categorical [[duality|dual]] of an injection, the coinjection, is a morphism $f:A\rightarrow B$ in a category $\mathcal{C}$ with an [[initial object]] $\emptyset$ such that for morphisms $g,h:B\rightarrow\emptyset$, if $g \circ f = h \circ f$, then $g = h$. 
 
-In particular, every [[epimorphism]] in a category with an initial object is a coinjection. 
-
-If the initial object $\emptyset$ is a [[zero object]], then every morphism in $\mathcal{C}$ is a coinjection. If $\emptyset$ is [[strict initial object|strict]], such as in a [[distributive category]], then the identity morphism on $\emptyset$ is a coinjection, and every other morphism in $\mathcal{C}$ is vacuously a coinjection. 
+In particular, every [[epimorphism]] in a category with an initial object is a coinjection, and every coinjection from the initial object is an epimorphism. 
 
 ## Related concepts
 
