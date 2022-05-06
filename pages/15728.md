@@ -29,6 +29,12 @@ Let $\lambda$ be a [[regular cardinal]], and let the [[category]] $C$ be [[compl
 
 If $C$ merely has $\lambda$-filtered colimits, rather than all colimits (and limits), then it is called **class $\lambda$-accessible**, and **class-accessible** if it is class $\lambda$-accessible for some $\lambda$.
 
+## Related concepts
+
+* [[macrotopos]]
+
+
+
 ## References
 
 * [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra
