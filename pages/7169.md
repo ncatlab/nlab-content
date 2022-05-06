@@ -88,6 +88,8 @@ On a [[framed manifold]] the intersection pairing has a canonical [[quadratic re
 
 * [[functional cup product]]
 
+* [[homotopy Whitehead integral formula]]
+
 [[!include quadratic invariants - table]]
 
 [[!include square roots of line bundles - table]]
