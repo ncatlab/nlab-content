@@ -73,7 +73,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 * [Guy Brousseau](http://www.ardm.eu/contenu/guy-brousseau-english) and at French [wikipedia](https://pt.wikipedia.org/wiki/Guy_Brousseau)
 * Harold W. Stevenson (educational psychologist), _Mathematics learning in early childhood_, NCTM, 1985
 * John A. Van de Walle et al. _Elementary and middle school mathematics. Teaching developmentally_, Pearson 2004, 2007, 2010, 2013
-* J. Mayberry (1983), _The Van Hiele Levels of geometric thought in undergraduate preservice teachers_, Journal for Research in Mathematics Education 14 (1): 58&#8211;69, [doi](http://dx.doi.org/10.2307/748797) [jstor](http://www.jstor.org/stable/748797 )
+* J. Mayberry, _The Van Hiele levels of geometric thought in undergraduate preservice teachers_, Journal for Research in Mathematics Education 14 (1): 58&#8211;69 (1983) [doi](http://dx.doi.org/10.2307/748797) [jstor](http://www.jstor.org/stable/748797 )
 * [[Hans Freudenthal]], _Why to teach mathematics so as to be useful_, 1968, [pdf](https://promathmedia.files.wordpress.com/2013/09/freudenthal-1968.pdf)
 * (on [[Hans Freudenthal]]'s school) Marja van den Heuvel-Panhuizen, Paul Drijvers, _Realistic Mathematics Education_, [pdf](https://promathmedia.files.wordpress.com/2013/09/encyclopedia-realistic-mathematics-education_ref.pdf)
 
@@ -83,8 +83,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 * Ralph A. Raimi, [Whatever Happened to the New Math?](http://www.math.rochester.edu/people/faculty/rarm/smsg.html)
 * [[Richard Askey]], _Good intentions are not enough_, [pdf](http://www.math.wisc.edu/~askey/ask-gian.pdf)
 * [Mariya Boyko](https://www.facebook.com/public/%D0%9C%D0%B0%D1%80%D1%96%D1%8F-%D0%91%D0%BE%D0%B9%D0%BA%D0%BE), _The "New Math" Movement in the U.S. vs Kolmogorov's Math Curriculum Reform in the U.S.S.R._, [html](https://mariyaboyko12.wordpress.com/2013/08/03/the-new-math-movement-in-the-u-s-vs-kolmogorovs-math-curriculum-reform-in-the-u-s-s-r)
-* R. Balian, A. Connes, Bismut, Lafforgue, Serre, _Les savoirs fondamentaux
-au service de l'avenir scientifique et technique_, [pdf](https://www.laurentlafforgue.org/textes/SavoirsFondamentaux.pdf), a text lamenting the current state of the scientific part of education in France
+* R. Balian, A. Connes, Bismut, Lafforgue, Serre, _Les savoirs fondamentaux au service de l'avenir scientifique et technique_, [pdf](https://www.laurentlafforgue.org/textes/SavoirsFondamentaux.pdf), a text lamenting the current state of the scientific part of education in France
 
 
 ### Other references
@@ -93,6 +92,11 @@ au service de l'avenir scientifique et technique_, [pdf](https://www.laurentlaff
 * Alexander Karp, Bruce R Vogeli (eds.), _Russian mathematics education_, 2 vols, World Sci. Publ.
 * Lingguo Bu, Robert Schoen (eds.), _Model centered learning_, Pathways to mathematical understanding using geogebra, vol. 6 of Modeling and simulations for learning and instruction
 * Jennifer A. Kaminski, Vladimir M. Sloutsky, Andrew F. Heckle, _The advantage of abstract examples in learning math_, [Science Magayibe 2012 pdf](https://promathmedia.files.wordpress.com/2013/02/2-1-the-advantage-of-abstract-examples-in-learning-math2.pdf)
+
+The following epistemiology of math article offers also discussion on educational issues and has related bibliography
+
+* Zbigniew Semadeni, _The triple nature of mathematics:
+deep ideas, surface representations, formal models_, [article](https://www.researchgate.net/publication/228925441_The_triple_nature_of_mathematics_deep_ideas_surface_representations_formal_models)
 
 Cognitive, linguistic and cultural aspects of mathematics (which are of relevance for learning) are emphasized in
 
