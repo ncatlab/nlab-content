@@ -9,7 +9,7 @@ The notion of [[projective space]] $\mathbb{O}P^n$ over the [[octonions]] $\math
 
 ## Properties
 
-### Octonionic prohective line and the 8-Sphere
+### Octonionic projective line and the 8-Sphere
 
 +-- {: .num_prop} 
 ###### Proposition
