@@ -1,4 +1,6 @@
 
+Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
+
 * [personal webpage](https://www.cumrunvafa.org/)
 
 * [institute website](http://physics.harvard.edu/~vafa/)
