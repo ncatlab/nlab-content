@@ -90,11 +90,11 @@ We list the following properties without their (easy) proofs. The proofs can be 
 
 The following are equivalent:
 
-* $f : x \to y$ is an monmorphism in $C$;
+* $f : x \to y$ is a monomorphism in $C$;
 
 * $f$ is an [[epimorphism]] in the [[opposite category]] $C^{op}$;
 
-* precomposition with $f$ is a [[monomorphism]] in [[Set]]: that is, for all $c \in C$, $- \circ f: Hom(y,c) \to Hom(x,c)$ is an [[injection]];
+* postcomposition with $f$ is a [[monomorphism]] in [[Set]]: that is, for all $c \in C$, $f \circ -: Hom(c,x) \to Hom(c,y)$ is an [[injection]];
 
 * the [[commuting diagram]] 
   $$
@@ -107,7 +107,7 @@ The following are equivalent:
     }
   $$
 
-  is a [[pushout]] diagram.
+  is a [[pullback]] diagram.
 
 =--
 
