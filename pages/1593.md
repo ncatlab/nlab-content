@@ -75,7 +75,7 @@ From [Cordova-de Luca-Tomasiello 19](#CordovaLucaTomasiello19) (p. 2 and p. 30):
 
 Nevertheless, motivated from the fact that the computations for [[flat orbifolds]] show that the [[O-planes]] there are similar to (while clearly different from!) [[D-branes]] (*not* in their back-reacted form as [[black branes]], though!) with [[negative number|negative]] tension (i.e. negative [[energy]] density) it may seem plausible that the low energy [[effective field theory]] of [[perturbative string theory vacua]] including [[O-planes]] is a modification of [[supergravity]] where negative-energy source-terms are added to the [[equations of motion]] much like one might add [[black brane|black]] [[D-brane]]-contributions, but simply equipped with a negative sign prefactor.
 
-This _ad hoc_ effective field theory picture of orientifold backgrounds has been seminally advocated in [Giddings-Kachru-Polchinski 01](#GiddingsKachruPolchinski01) in a one-sentence argument (below (2.19)):
+This _ad hoc_ effective field theory picture of orientifold backgrounds has been advocated, seminally, in [Giddings-Kachru-Polchinski 01](#GiddingsKachruPolchinski01), in a one-sentence argument (below (2.19)):
 
 > String theory does have such $[$negative tension$]$ objects, and so evades the no-go theorem $[$which rules out certain warped solutions of supergravity$]$.
 
@@ -88,9 +88,9 @@ One may feel this is plausible -- and it might even be right, sometimes -- but t
 #### Its use in the landscape/swampland literature
  {#UseInLandscapeSwamplandLiterature}
 
-Nevertheless, in the wave of the discussion of the [[landscape of string theory vacua|landscape]] (or not) of [[de Sitter spacetime|de Sitter]] [[string theory vacua]] and the [[swampland conjectures]] it became popular to rely on the handwaving argument of [Giddings-Kachru-Polchinski 01](#GiddingsKachruPolchinski01) and behave as if it is established that questions about [[effective field theory|low energy effective]] [[orientifold]] [[string theory vacua]] may be answered using a modification of [[supergravity]] where the [[equations of motion]] are changed -- by hand -- simply by including negative-tension source terms of some form. 
+Nevertheless, in the wake of the discussion of the [[landscape of string theory vacua|landscape]] (or not) of [[de Sitter spacetime|de Sitter]] [[string theory vacua]] and of the "[[swampland conjectures]]" it became popular to rely on the handwaving argument of [Giddings-Kachru-Polchinski 01](#GiddingsKachruPolchinski01) and behave as if it is established that questions about [[effective field theory|low energy effective]] [[orientifold]] [[string theory vacua]] may be answered using a modification of [[supergravity]] where the [[equations of motion]] are changed -- by hand -- simply by including negative-tension source terms of some form. 
 
-This step happens for instance around (2.2) in [Junghans 20](#Junghans20) where it is justified without references, but with the words "As is standard in the literature" (footnote 5 in [Junghans 20](#Junghans20)).
+This step happens for instance around (2.2) in [Junghans 20](#Junghans20) where it is justified, without references, by the words "as is standard in the literature" (footnote 5 in [Junghans 20](#Junghans20)).
 
 
 \linebreak
