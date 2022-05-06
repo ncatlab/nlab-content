@@ -32,7 +32,7 @@ $$
 
 where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| \coloneqq Hom_C({*}, U)$ of points underlying the object $U$ in the [[concrete site]] $C$.
 
-For the category of concrete sheaves $Conc(Sh(C))$, the [[global sections]] functor $Hom_{Conc(Sh(C))}(1,-):Conc(Sh(C))\to Set$ is [[faithful functor|faithful]], i.e. $Conc(Sh(C))$ is [[well-pointed topos|well-pointed]], making $Conc(Sh(C))$ a [[concrete category]]. 
+For the category of concrete sheaves $Conc(Sh(C))$, the [[global sections]] functor $Hom_{Conc(Sh(C))}(1,-):Conc(Sh(C))\to Set$ is [[faithful functor|faithful]], i.e. $Conc(Sh(C))$ is a [[concrete category]]. 
 
 ## Definition
 
