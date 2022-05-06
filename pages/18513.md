@@ -1067,6 +1067,8 @@ $$
 
 [[!include products in pQFT -- table]]
 
+[[!include states and observables -- content]]
+
 
 ## References
 
