@@ -42,11 +42,11 @@ This is [[isomorphic|isomorphic]] to the [[binary dihedral group]] of the same [
 
 > graphics grabbed from Wikipedia [here](https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png)
 
-This order-8 quaternion group $Q_8$ is the first in a row of _generalized quaternion groups_ $Q_{4n}$ , also called **dicyclic groups** which in turn are part of an even larger family.
+This order-8 quaternion group $Q_8$ is the first in a row of [[generalized quaternion groups]], $Q_{4n}$, which are also examples of  [[dicyclic groups]] which class forms  part of an even larger family.
 
 ## Definition
 
-The _dicyclic group_ of order $4n$, $n\geq 2$, is the [[group]] $Q_{4n}$ defined by the presentation $\langle x,y | x^{2n}= x^{n} y^{-2}=y^{-1}x y x=1\rangle$. The _quaternion group_ (of order 8) is $Q_{4n}$ for $n=2$.
+The _generalised quaternion group_ of order $4n$, $n\geq 2$, is the [[group]] $Q_{4n}$ defined by the presentation $\langle x,y | x^{2n}= x^{n} y^{-2}=y^{-1}x y x=1\rangle$. The _quaternion group_ (of order 8) is $Q_{4n}$ for $n=2$.
 
 ## Properties
 
@@ -82,6 +82,8 @@ Among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion grou
 * [[dihedral group]]
 
 * [[canonical formula of myth]]
+
+* [[generalised quaternion group]]
 
 
 ## References
