@@ -535,6 +535,9 @@ $$
 <img src="https://ncatlab.org/nlab/files/EquivariantNCohomotopyOfEuclideanNOrientifold.jpg" width="840">
 </center>
 
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
+
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -620,7 +623,9 @@ and all degrees  must differ from that of the class of the [[identity function]]
 <center>
 <img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfToroidalOrientifold.jpg" width="850">
 </center>
-(...)
+
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
+
 
 <br/>
 
@@ -639,6 +644,12 @@ Discussion specifically for the [[codomain]] a [[representation sphere]] (i.e.  
 Volume 42, Issue 2, March 2003, Pages 447-465_ (<a href="https://doi.org/10.1016/S0040-9383(02)00015-0">doi:10.1016/S0040-9383(02)00015-0</a>)
 
 * [[Markus Szymik]], _A stable approach to the equivariant Hopf theorem_ ([pdf](https://folk.ntnu.no/markussz/papers/szymik.hopf.pdf), [[StableApproachToEquivariantHopfTheorem.pdf:file]])
+
+The above discussion follows
+
+* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+
+which applies equivariant Cohomotopy to [[RR-field tadpole cancellation]].
 
 [[!redirects equivariant Hopf degree theorems]]
 
