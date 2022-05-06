@@ -105,5 +105,5 @@ Review in:
 
 [[!include Chern-Weil homomorphism -- references]]
 
-[[!redirect Cartan map]]
+[[!redirects Cartan map]]
 
