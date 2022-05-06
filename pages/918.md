@@ -40,13 +40,17 @@ The axiom [[WISC]] has an equivalent statement (that works in any Boolean [[topo
 One can view this as really a statement about the [[Grothendieck fibration]] over [[Set]] with fibre over $X$ the full subcategory of $Set/X$ on the surjections: every fibre has a [[weakly initial object]].
 
 ## In other categories
-Since an element $a$ in a set $A$ the [[category of sets]] is just a function from the terminal set to $A$, one could generalise surjections to any category with a [[terminal object]] $1$:
+Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global element]] $a:1\rightarrow A$, one could define surjections in any category $\mathcal{C}$ with a [[terminal object]] $1$:
 
-> A morphism $f:A\rightarrow B$ is surjective if, given any [[global element]] $g:1\rightarrow B$, there exists a global element $h:1\rightarrow A$ such that $f \circ h = g$. 
+> A morphism $f:A\rightarrow B$ in $\mathcal{C}$ is a surjection or a surjective morphism if, given any global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$. 
 
-The categorical [[duality|dual]] of a surjective morphism is just a morphism, as in any category with a [[terminal object]], there exists a unique morphism $!:A\rightarrow 1$ for any object $A$ in the category by definition, so follows that:
+In particular, every morphism into the terminal object is a surjection. 
 
-> For any morphism $f:A\rightarrow B$, there exists morphisms $!_{A}:A\rightarrow 1$ and $!_{B}:B\rightarrow 1$ such that $!_{B} \circ f = !_{A}$. 
+### Duals of surjections
+
+The categorical [[duality|dual]] of a surjection, the cosurjection, is a morphism $f:A\rightarrow B$ in a category $\mathcal{C}$ with an [[initial object]] $\emptyset$ such that given a morphism $g:A\rightarrow\emptyset$, there exists a morphism $h:B\rightarrow\emptyset$ such that $h \circ f = g$. 
+
+If the initial object $\emptyset$ is a [[zero object]], then every morphism in $\mathcal{C}$ is a cosurjection. If $\emptyset$ is [[strict initial object|strict]], such as in a [[distributive category]], then the identity morphism on $\emptyset$ is a cosurjection, and every other morphism in $\mathcal{C}$ whose [[source]] isn't $\emptyset$ is vacuously a cosurjection. 
 
 ## Related concepts
 
