@@ -56,13 +56,21 @@ The models are known as _formal points_.
 
 ## Pointwise reasoning
 
-The traditional way of doing topology using points may be called __pointwise topology__. Obviously that is natural in point-set topology, but for point-free there is an apparent problem: there may not be enough of them.
+The traditional way of doing topology using points may be called __pointwise topology__. Obviously that is natural in point-set topology, but for point-free there is an apparent problem: there may not be enough points to support, semantically, all the syntactic distinctions between formulae in the geometric logic. In other words, geometric logic is not necessarily complete.
 
-It is possible to reason in an entirely _pointless_ style, without reference to the points.
-For instance with locales, the 
+It is possible to circumvent this by reasoning in an entirely _pointless_ style, without reference to the points.
+For instance with locales, the maps are defined to be the frame homomorphisms, backwards.
+
+Surprisingly, however, it is also possible to reason pointwise: a map from $X$ to $Y$ can be defined by saying how points of $X$ transform to points of $Y$. What makes this work is that there are enough points (models of the geometric theory) if you allow for those that live outside your favourite category of sets. In essence, if the construction is defined for the generic point of $X$ in the topos of sheaves over $X$, then the universal property of classifying toposes gives a point-free map (geometric morphism). The catch is that, to allow the construction to be transported from one topos to another, it has to be _geometric_ - preserved by inverse image functors. Thus continuity becomes a logical issue, of geometricity.
+
+Further details and references are in Vickers [2007](#Vickers07) and [2014](#Vickers14).
 
 
+## Bundles
 
+A decisive advantage of point-free topology is that it gives a fibrewise topology of **bundles**, understood broadly as maps into a base space. (Note - for generalized spaces, i.e. toposes, bundles must be understood as _bounded_ geometric morphisms.)
+
+It is shown in [Joyal, Tierney](#JoyalTierney84) that, for any elementary topos $\mathcal{E}$, there is an equivalence between localic bundles over $\mathcal{E}$ (i.e. localic geometric morphisms into it) and internal _point-free spaces_ in $\mathcal{E}$. The result does not work point-set.
 
 
 ## Definition
@@ -93,11 +101,25 @@ An introduction to [[locale theory]] is
 
 This is, in its own words, to be read as the trailer for Johnstone's book _[[Stone Spaces]]_, which see.
 
+For a constructive treatment more appropriate to the ideas on this page see
+
+* {#JoyalTierney84}[[Andre Joyal|Andr&eacute; Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, Memoirs of the American Mathematical Society **51** (1984), no. 309
+
 For [[formal topology]], see
 
 *  [[Giovanni Sambin]] (2001); _Some points in formal topology_; [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf).
 
 * {#Palmgren05} [[Erik Palmgren]], _From Intuitionistic to Point-Free Topology: On the Foundation of Homotopy Theory_, Logicism, Intuitionism, and Formalism Volume 341 of the series Synthese Library pp 237-253, 2005 ([pdf](http://www2.math.uu.se/~palmgren/homotopy_rev2.pdf))
+
+The pointwise reasoning is explained in the next references, though it was surely understood before them.
+
+* {#Vickers04}[[Steve Vickers]], _The double powerlocale and exponentiation: a case study in geometric logic_, Theory and Applications of Categories **12** (2004) pp. 372-422 ([pdf](http://www.tac.mta.ca/tac/volumes/12/13/12-13.pdf))
+
+* {#Vickers07}[[Steve Vickers]], _Locales and toposes as spaces_, Chapter 8 in _Handbook of Spatial Logics_ (ed. Aiello, Pratt-Hartman, van Bentham), Springer, 2007, pp. 429-496. 
+
+* {#Vickers14}[[Steve Vickers]], _Continuity and geometric logic_, Journal of Applied Logic **12 (1)** (2014), pages 14-27 ([pdf](http://www.cs.bham.ac.uk/~sjv/GeoAspects.pdf))
+
+
 
 [[!redirects pointless topology]]
 
