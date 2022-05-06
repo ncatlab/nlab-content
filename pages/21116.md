@@ -31,4 +31,9 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 
 * Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
 
+* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
+
+
+
+
 category: people
