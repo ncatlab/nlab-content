@@ -153,7 +153,7 @@ and its [[quantization]] of the was explored in
 
 * {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
-* [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]])
+* {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]], [spire:261702](http://inspirehep.net/record/261702))
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135. 
 
@@ -164,8 +164,6 @@ The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz supe
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
 
-
-
 The interpretation of the membrane as as an object related to [[string theory]], hence as the _M2-brane_ was proposed in 
 
 * [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
@@ -175,9 +173,7 @@ around the time when [[M-theory]] became accepted due to
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
 
-
-
-The interpretation related to the [[BFSS matrix model]] of [[D0-branes]] is discussed in some detail in 
+The regularization of [deWit-Hoppe-Nicolai 88](#deWitHoppeNicolai88) of area-preserveing diffeomorphisms by [[SU(n)|SU(N)]]-matrices and relation of the resulting [[quantization]] of the membrane to  [[BFSS matrix model]] of [[D0-branes]] is further dicussed detail in 
 
 * {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
   
@@ -316,7 +312,7 @@ Discussion of [[M2-M5 brane bound state|M2-M5 brane bound states]], i.e.
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
-* Jay Armas, Vasilis Niarchos†, Niels A. Obers, _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
+* Jay Armas, Vasilis Niarchos, Niels A. Obers, _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
 
 Further [[bound states]] of M2/[[M5-branes]] to [[giant gravitons]]:
 
