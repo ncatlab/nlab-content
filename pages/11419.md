@@ -156,6 +156,10 @@ This case is what is traditionally is often meant by default by the "splitting p
 
 For the [[special unitary group]] the situation is the same, only that here the splitting is into a sum of line bundles used [[tensor product]] is constrained to be trivializable.
 
+### Linear representations and Brauer induction
+
+The [[Brauer induction theorem]] may be regarded as the splitting principle for [[linear representations]] ([Symonds 91](#Symonds91)), see also at _[[characteristic classes of linear representations]]_,
+
 ### Real vector bundles 
  {#RealVectorBundles}
 
