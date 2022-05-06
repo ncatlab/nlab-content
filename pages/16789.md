@@ -85,7 +85,7 @@ $$
   SU(2) \simeq S(\mathbb{Q})
 $$
 
-and then acting by left multipication.
+and then acting by left multiplication.
 
 
 
