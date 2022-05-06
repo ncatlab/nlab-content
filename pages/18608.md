@@ -30,7 +30,7 @@ The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is th
 
 The _mass gap problem_ is the problem in [[mathematical physics]] to demonstrate theoretically (i.e. not just by [[lattice QCD|computer simulation]]) the existence of this mass gap/[[confinement]]-phenomenon in [[QCD]] and in [[Yang-Mills theory]] coupled to [[fermion fields]] in general.
 
-This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-community when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millenium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten](#JaffeWitten), [Douglas 04](#Douglas04).
+This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-community when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millennium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten](#JaffeWitten), [Douglas 04](#Douglas04).
 
 
 
@@ -51,7 +51,7 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]] is 
 
 and a report on the progress (essentially none) is in 
 
-* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
+* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
 Further comments are in
 
