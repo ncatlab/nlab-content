@@ -8,6 +8,39 @@
 
 (...) under construction (...)
 
+
++-- {: .num_prop } 
+###### Proposition
+
+In the situation of ... we have that the [[e-invariant]] $e(f)$ is equivalently the evaluation [[modulo]] [[integers]] of the [[Chern character]] $ch(V_{2n}) \,\in\,  H^{ev}\big( C_f;\, \mathbb{Q}  \big)$ of any element $V_{2n} \in \widetilde K\big( C_f \big)$ (lifting the generator $\Sigma^{2n}1 \,\in\, \widetilde K\big( S^{2n} \big)$) on the [[fundamental class]] of $C_f$:
+
+$$
+  \exp
+  \left(
+    2 \pi \mathrm{i}
+    \int_{C_f}
+      ch\big( V_{2n} \big)
+  \right)
+  \;=\;
+  \exp
+  \left(
+    2 \pi \mathrm{i}
+    \,
+    {
+      \color{blue}
+      e(f)
+    }
+  \right)
+  \;\;\;
+  \in 
+  \mathrm{U}(1)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
 By (eq:ActionOfAdamsOperationsOnCofiberSpace) we have,
 now in [[matrix calculus]]-notation:
 
@@ -50,52 +83,21 @@ $$
   \,.
 $$
 
-The [[eigenvectors]] to this operation over the [[rational numbers]] would be:
+This [[matrix]] has two [[eigenvectors]] over the [[rational numbers]] (in general). Therefore we now consider the image of these K-theory classes under the [[Chern character]] map
 
 $$
-  \psi^k_{\mathbb{Q}} 
-    \;\;\colon\;\; 
-  \left\{
-  \array{
-     \big(
-       V_{2 n} 
-       -
-       e(f)
-       \cdot
-       V_{2(n + n')}
-     \big) 
-     &
-       \mapsto
-     & 
-       k^{n } 
-     &
-       \cdot 
-     & 
-     \big(
-       V_{2 n} 
-       -
-       e(f)
-       \cdot
-       V_{2(n + n')}
-     \big) 
-     \\
-     V_{2(n+n')} 
-     &
-       \mapsto
-     & 
-       k^{n + n'} 
-     &
-       \cdot 
-     & 
-      V_{2 (n + n')}
-   }
-  \right.
+  ch 
+    \;\colon\; 
+  \widetilde K\big( C_f \big) 
+    \longrightarrow 
+  H^{ev}\big( C_f;\, \mathbb{Q}\big)
+  \,.
 $$
 
+Since the [[Adams operations are compatible with the Chern character]], we have the following [[eigenvectors]] of the [[Adams operations]] under $ch$:
 
-Since the [[Adams operations are compatible with the Chern character]], this means equivalently that under the [[Chern character]] map $ch$ we have:
-
-$$
+\[
+  \label{EigenvectorsOfAdamsOperationsAfterPassageThroughChernCharacter}
   \psi^k_H 
     \;\;\colon\;\; 
   \left\{
@@ -153,11 +155,26 @@ $$
   \in
   \;
   H^{ev}\big( C_f; \, \mathbb{Q} \big)/H^{2(n+n')}\big( C_f; \, \mathbb{Z} \big)
-$$
+  \,.
+\]
 
-in [[ordinary cohomology|ordinary]] [[rational cohomology]] [[modulo]] [[integral cohomology]].
+Here, since $V_{2n}$ is well defined modulo addition of integral multiples of $V_{2(n+n')}$, and since 
 
-But since the [[eigenvectors]] of $\psi^k_H $ to [[eigenvalue]] $k^r$ are precisely the classes in $H^{2r}\big( C_f;\, \mathbb{Q} \big) \,\subset\, H^{ev}\big( C_f;\, \mathbb{Q} \big)$ (see [there](Adams+operations+compatible+with+the+Chern+character#eq:AdamsOperationOnOrdinaryCohomologyInDegree2r)), this means that
+\[
+  \label{ChernCharacterOnCofiverSpaceOfGeneratorofTopCell}
+  ch\big( V_{2(n+n')} \big)
+  \;=\;
+  1 
+  \,\in\,
+  \mathbb{Z}
+  \,\simeq\,
+  H^{2(n+n')}\big( C_f \big)
+  \,,
+\]
+
+this expression (eq:EigenvectorsOfAdamsOperationsAfterPassageThroughChernCharacter) is well-defined in [[ordinary cohomology|ordinary]] [[rational cohomology]] in even degrees [[modulo]] [[integral cohomology]] in top degree, 
+
+But since the [[eigenvectors]] of $\psi^k_H $ to [[eigenvalue]] $k^r$ are precisely the ordinary cohomology classes in homogeneous degree $H^{2r}\big( C_f;\, \mathbb{Q} \big) \,\subset\, H^{ev}\big( C_f;\, \mathbb{Q} \big)$ (see [there](Adams+operations+compatible+with+the+Chern+character#eq:AdamsOperationOnOrdinaryCohomologyInDegree2r)), this means that
 
 $$
   ch
@@ -166,7 +183,7 @@ $$
   \big)
   \;\;=\;\;
   \underset{
-    \in \; H^{2n}\big( C_f; \, \mathbb{Q}/\mathbb{Z} \big)
+    \in \; H^{2n}\big( C_f; \, \mathbb{Q} \big)
   }{
     \underbrace{
        ch
@@ -197,10 +214,25 @@ $$
   }
 $$
 
-Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$.
+The evaluation of this cohomology class on the [[fundamental class]] of $C_f$ picks out the [[coefficient]] of $e(f)$, by (eq:ChernCharacterOnCofiverSpaceOfGeneratorofTopCell):
 
-(...)
+$$
+  \int_{C_f}
+  ch
+  \big(
+    V_{2n}
+  \big)
+  \;=\;
+  e(f)
+  \;\;\;
+  \in
+  \;
+  \mathbb{Q}/\mathbb{Z}
+$$
 
+and hence the claim follows.
+
+=--
 
 $$
   \cdots
