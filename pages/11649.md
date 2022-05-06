@@ -49,6 +49,8 @@ Moreover, the description of the [[supergravity C-field]] (in the physics litera
 
 [[!include F-theory compactifications -- table]]
 
+* [[F-theory on Spin(7)-manifolds]]
+
 [[!include KK-compactifications of M-theory -- table]]
 
 
