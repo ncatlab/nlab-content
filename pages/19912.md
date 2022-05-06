@@ -65,7 +65,7 @@ Here the [[Chern-Simons propagator]] regarded as a non-singular [[differential f
     \array{
       \text{assign Feynman amplitudes}
       \\
-      \text{of free CS/AKSZ theory}
+      \text{of Chern-Simons theory}
       \\
       \phantom{A}
     }
