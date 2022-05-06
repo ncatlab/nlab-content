@@ -7,6 +7,8 @@ His research includes nonabelian homological algebra, the discovery of categoric
 
 ##External links
 
+* [Website](http://www.mth.uct.ac.za/prof-george-janelidze-0)
+
 * Janelidze's old webpage at Razmadze Institute in Tbilisi: [link](http://www.rmi.ge/~gjanel). 
 
 * [Mathematics genealogy project entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=80837)
