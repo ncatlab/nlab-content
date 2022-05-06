@@ -24,9 +24,9 @@ Injective and projective morphisms are [[morphisms]] in a [[category]] satisfyin
 
 Given a [[category]] $\mathcal{C}$ and a [[class]] $J \subset Mor(\mathcal{C})$ of its [[morphisms]], then any morphism $f \in Mor(\mathcal{C})$ is called
 
-* a **$J$-injective morphism** if it has the [[right lifting property]] against elements in $S$;
+* a **$J$-injective morphism** if it has the [[right lifting property]] against elements in $J$;
 
-* a **$J$-projective morphism** if it has the [[left lifting property]] against elements in $S$.
+* a **$J$-projective morphism** if it has the [[left lifting property]] against elements in $J$.
 
 If $\mathcal{C}$ has a [[terminal object]] $\ast$, then an object $X$ for which $X \stackrel{\exists!}{\to} \ast$ is a $J$-injective morphism is called a $J$-[[injective object]].
 
