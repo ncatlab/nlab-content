@@ -22,7 +22,7 @@
 
 The Conway groups, $Co_{1}, Co_{2}, Co_{3}$, are three of the [[sporadic finite simple groups]]. A fourth group, $Co_0$, is the group of [[automorphisms]] of the [[Leech lattice]] with respect to [[addition]] and [[inner product]]. This latter group is not [[simple group|simple]], but $Co_1$ is the [[quotient group]] of $Co_0$ by its [[center]] of [[order of a group|order]] 2. The other two simple Conway groups are [[subgroups]] of $Co_1$.
 
-The simple Conway groups are three of the seven [[element|members]] of the 'second generation' of the _Happy Family_ of 20 simple [[subquotients]] of the [[Monster group]].
+The simple Conway groups are three of the seven [[element|members]] of the 'second generation' of the _[[Happy Family]]_ of 20 simple [[subquotients]] of the [[Monster group]].
 
 ## Properties
 
