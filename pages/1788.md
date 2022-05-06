@@ -1,24 +1,61 @@
 
-Some convenient component expressions for the [[Hodge star operator]] on $D = d=1$-dimensional [[Minkowski spacetime]]:
+### Hodge star operator on Minkowski spacetime
+
+We spell out component expressions for the [[Hodge star operator]] on $D = d+1$-dimensional [[Minkowski spacetime]].
+
+### Conventions
+
+We use [[Einstein summation convention]] throughout. Hence a generic [[differential p-form]] is 
+
+$$
+  \alpha
+  \;=\;
+  \tfrac{1}{p!}
+  \alpha_{ \mu_1 \cdots \mu_p }
+  d x^{\mu_1}
+  \wedge 
+  \cdots
+  \wedge
+  d x^{\mu_p}
+  \,.
+$$
+
+Here $p! \coloneqq 1 \cdot 2 \cdot 3 \cdots p$ is the [[factorial]] of $p$.
+
+We take the [[Minkowski metric]] to be the $D \times D$ [[diagonal matrix]] of the form
+
+$$
+  \eta 
+  \;=\;
+  (\eta_{\mu \nu})
+  \;=\;
+  (\eta^{\mu \nu})
+  \;\coloneqq\;
+  diag(-1,+1, +1 , \cdots , +1)
+  \,.
+$$
+
 
 We normalize the [[Levi-Civita symbol]] as
 
-$$
+\[
+  \label{LCSymbolDown}
   \epsilon_{0 1 2 \cdots d}
   \;\coloneqq\;
   + 1
-$$
+\]
 
 which means that 
 
-$$
+\[
+  \label{LCSymbolUp}
   \epsilon^{0 1 2 \cdots d}
   \;=\;
   - 1
   \,.
-$$
+\]
 
-We normalize the [[volume form]] as
+We normalize the sign of the [[volume form]] as
 
 \[
   \label{VolumeForm}
@@ -41,7 +78,71 @@ We normalize the [[volume form]] as
   \end{aligned}
 \]
 
-It follows that (notice the reversion of the index ordering in the contraction operators $\iota$)
+
+We write 
+
+\[
+  \label{GeneralizedKroneckerDelta}
+  \delta^{ \mu_1 \cdots \mu_p }_{ \nu_1 \cdots \nu_p }
+  \;\coloneqq\;
+  \left\{
+  \array{
+    sgn(\sigma) 
+     &\vert&  
+    \underset{ \sigma \in Sym(p) }{\exists} 
+    \left(
+      \underset{1 \leq i \leq p}{\forall}
+      \left(
+        \nu_{\sigma(i)} = \mu_i
+      \right)
+    \right)
+    \\
+    0 &\vert& \text{otherwise}
+  }
+  \right.
+\]
+
+for the generalized [[Kronecker delta]], whose value is the [[signature of a permutation|signature]] of the [[permutation]] that takes the upper indices to the lower indices, if any such exists, and [[zero]] otherwise.
+
+This appears whenever the [[Levi-Civita symbol]] is contracted with itself:
+
+\[
+  \label{ContractionofLeviCivitaSymbols}
+  \epsilon_{
+     { \color{green} \mu_1 \cdots \mu_p }
+     {\color{blue} \mu_{p+1} \cdots \mu_{D} }
+  }
+  \epsilon^{ 
+    { \color{orange} \nu_1 \cdots \nu_p } 
+    { \color{blue} \mu_{p+1} \cdots \mu_D }
+  }
+  \;=\;
+  { \color{magenta} - }
+  (D-p)!
+  \;
+  \delta_{ 
+    \color{green} \mu_1 \cdots \mu_p 
+  }^{
+    \color{orange} \nu_1 \cdots \nu_p
+  }
+\]
+
+Notice the minus sign in (eq:ContractionofLeviCivitaSymbols), which comes, via (eq:LCSymbolUp), from the [[Minkowski spacetime|Minkowski]] [[signature of a quadratic form|signature]].
+
+
+We write $\iota_\mu$ for the operator of contraction of [[differential forms]] with the [[vector field]] $d/d x^\mu$, hence the [[linear operator]] on [[differential forms]] with [[anticommutator]]
+
+$$
+  \big\{
+    \iota_\mu, d x^\nu \wedge
+  \big\}
+  \;=\;
+  \delta_\mu^\nu
+$$
+
+
+With the [[volume form]] as in (eq:VolumeForm) it follows that
+(notice the reversion of the index ordering in the contraction operators $\iota$)
 
 \[
   \label{ContractionIntoVolumeForm}
@@ -56,178 +157,540 @@ It follows that (notice the reversion of the index ordering in the contraction o
   \;=\;
   \epsilon_{ 
     { \color{green} \mu_1 \cdots \mu_p }
-    { \color{orange} \nu_1 \cdots \nu_{D-p}  }
+    { \color{orange} \nu_1 \cdots \nu_{(D-p)}  }
   }
-  d x^{\nu_1} \wedge \cdots \wedge d x^{\nu_{(D-p)}}
+  d x^{\color{orange} \nu_1} 
+    \wedge 
+    \cdots 
+    \wedge 
+  d x^{\color{orange} \nu_{(D-p)}}
 \]
+
+
+
+### Definition
+
++-- {: .num_defn} 
+###### Definition
+
+For a [[differential p-form]]
+
+$$
+  \alpha
+  \;\coloneqq\;
+  \tfrac{1}{ \color{green} p! }
+  \alpha_{ \color{green} \mu_1 \cdots \mu_p}
+  d x^{ \color{green} \mu_1 }
+    \wedge \cdots \wedge
+  d x^{ \color{green} \mu_p }
+$$
+
+its [[Hodge dual]] is:
+
+\[
+  \label{HodgeStar}
+  \begin{aligned}
+  \star 
+  \alpha
+  & \coloneqq
+  \tfrac{1}{ 
+    { \color{green} p! }
+    { \color{orange} (D-p)! }
+  }
+  \,
+  \alpha^{ \color{green} \mu_1 \cdots \mu_p }
+  \iota_{ \color{green} \mu_p }
+  \cdots 
+  \iota_{ \color{green} \mu_1 }
+  \, 
+  dvol
+  \\
+  & =
+  \tfrac{1}{ 
+    { \color{green} p! }
+    { \color{orange} (D-p)! }
+  }
+  \,
+  \alpha^{ \color{green} \mu_1 \cdots \mu_p }
+  \epsilon_{ 
+     { \color{green} \mu_1 \cdots \mu_p }
+     { \color{orange} \mu_{p+1} \cdots \mu_D }
+  }
+  \, 
+  d x^{ \color{orange} \mu_{p+1} }
+  \wedge
+  \cdots
+  \wedge
+  d x^{ \color{orange} \mu_D }
+  \end{aligned}
+\]
+
+=--
+
+## Properties
+
++-- {: .num_prop} 
+###### Proposition
+
+For a [[differential p-form]]
+$
+  \alpha
+  \;\coloneqq\;
+  \tfrac{1}{p!}
+  \alpha_{\mu_1 \cdots \mu_p}
+  d x^{\mu_1}
+    \wedge \cdots \wedge
+  d x^{\mu_p}
+$
+on $D$-dimensional [[Minkowski spacetime]]
+its [[wedge product]] with its [[Hodge dual]] (eq:HodgeStar) is
 
 
 \[
-  \label{ContractionofLeviCivitaSymbols}
-  \epsilon_{
-     { \color{green} \mu_1 \cdots \mu_p }
-     {\color{blue} \mu_{p+1} \cdots \mu_{D} }
-  }
-  \epsilon^{ 
-    { \color{blue} \mu_{p+1} \cdots \mu_D }
-    { \color{orange} \nu_1 \cdots \nu_p } 
-  }
+  \label{AlphaWedgeStarAlpha}
+  \alpha \wedge \star \alpha
   \;=\;
-  (D-p)!
-  \delta_{ 
-    \color{green} \mu_1 \cdots \mu_p 
-  }^{
-    \color{orange} \nu_1 \cdots \nu_p
-  }
+  { \color{magenta} - } 
+  \alpha_{ \mu_1 \cdots \mu_p }
+  \alpha^{ \mu_1 \cdots \mu_p }
+  \,
+  dvol
 \]
 
+=--
 
-
++-- {: .proof}
+###### Proof
 
 $$
   \begin{aligned}
-    \star d \star d f
+    \alpha \wedge \star \alpha
     & =
-    \star d \star \partial_\mu f d x^\mu
+    \tfrac{1}{  
+      { \color{green}  p! }
+      { \color{orange} p! } 
+      { \color{blue} (D-p)! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    d x^{ \color{green} \mu_1 }
+    \wedge \cdots \wedge
+    d x^{ \color{green} \mu_p }
+    \wedge
+    \alpha^{ \color{orange} \nu_1 \cdots \nu_p }
+    \iota_{ \color{orange} \nu_p }
+    \cdots
+    \iota_{ \color{orange} \nu_1 }
+    dvol
     \\
-   & = 
-   \star d (\partial^\mu f) \iota_{\mu} dvol
-   \\   
-   & = 
-   \star \partial_\mu \partial^\mu f \, dvol
-   & =
-   \partial_\mu \partial^\mu f
+    & = 
+    \tfrac{1}{  
+      { \color{green}  p! }
+      { \color{orange} p! } 
+      { \color{blue} (D-p)! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \alpha^{ \color{orange} \nu_1 \cdots \nu_p }
+    \epsilon_{ 
+      { \color{orange} \nu_1 \cdots \nu_p }
+      { \color{blue} \nu_{p+1} \cdots \nu_D  }
+    }
+    d x^{ \color{green} \mu_p }
+    \wedge \cdots \wedge
+    d x^{ \color{green} \mu_1 }
+    \wedge
+    d x^{ \color{blue} \nu_{p+1} }
+    \wedge
+    \cdots
+    d x^{ \color{blue} \nu_{D} }
+    \\
+    & =
+    \tfrac{1}{  
+      { \color{green}  p! }
+      { \color{orange} p! } 
+      { \color{blue} (D-p)! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \alpha^{ \color{orange} \nu_1 \cdots \nu_p }
+    \epsilon_{ 
+      { \color{orange} \nu_1 \cdots \nu_p }
+      { \color{blue} \nu_{p+1} \cdots \nu_D  }
+    }
+    \epsilon^{ 
+      { \color{green} \mu_p \cdots \mu_1 } 
+      { \color{blue} \nu_{p+1} \cdots \nu_{D} }
+    }
+    \, 
+    dvol
+    \\
+    & =
+    \tfrac{ \color{magenta} -1 }{  
+      { \color{green}  p! }
+      { \color{orange} p! } 
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \alpha^{ \color{orange} \nu_1 \cdots \nu_p }
+    \delta^{ \color{green} \mu_1 \cdots \mu_p }_{ \color{orange} \nu_1 \cdots \nu_p }
+    \, 
+    dvol
+    \\
+    & =
+    {\color{magenta} -}
+    \alpha_{ \mu_1 \cdots \mu_p }
+    \alpha^{ \mu_1 \cdots \mu_p }
+    \,
+    dvol
   \end{aligned}
 $$
 
-$$
-  \star \alpha_{\mu \nu} d x^\mu \wedge d x^\nu
-  =
-  \alpha^{\mu \nu} \iota_\mu \iota_\nu dvol
-$$
+=--
+
++-- {: .num_prop} 
+###### Proposition
+
+For a [[differential p-form]] 
+$
+  \alpha 
+  \;=\; 
+  \tfrac{1}{p!}
+  \alpha_{\mu_1 \cdots \mu_p} 
+  d x^{\mu_1} \wedge \cdots \wedge d x^{\mu_p}
+$ 
+on $D$-dimensional [[Minkowski spacetime]], its double [[Hodge dual]] (eq:HodgeStar) is
+
+\[
+  \label{DoubleHodgeDual}
+  \star \star \alpha
+  \;=\;
+  {\color{magenta} -} 
+  (-1)^{ p (D - p) }
+  \,
+  \alpha
+\]
+
+=--
+
++-- {: .proof}
+###### Proof
 
 $$
   \begin{aligned}
+    & 
     \star \star 
-    \alpha_{\mu_1 \cdots \mu_p}
-    d x^{\mu_1} \wedge \cdots \wedge d x^{\mu_p}
+    \tfrac{1}{ \color{green} p! }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p}
+    d x^{ \color{green} \mu_1 } 
+      \wedge 
+      \cdots 
+      \wedge 
+    d x^{ \color{green} \mu_p }
+    \\
     & =
     \star 
-    \tfrac{1}{(d-p)!}
-    \alpha^{\mu_1 \cdots \mu_p} 
-    \iota_{\mu_p} \cdots \iota_{\mu_1} 
+    \tfrac{1}{
+      { \color{green} p! }
+      { \color{orange} (D-p)! }
+    }
+    \alpha^{ \color{green} \mu_1 \cdots \mu_p} 
+    \iota_{ \color{green} \mu_p} \cdots \iota_{ \color{green} \mu_1} 
     dvol
     \\
     & = 
     \star 
-    \tfrac{1}{(d-p)!}
-    \alpha^{\mu_1 \cdots \mu_p} 
-    \epsilon_{\mu_1 \cdots \mu_p \mu_{p+1} \cdots \mu_d}
-    d x^{\mu_{p+1}} \wedge \cdots d x^{\mu_d}
+    \tfrac{1}{
+      { \color{green} p! }
+      { \color{orange} (D-p)! }
+    }
+    \alpha^{ \color{green} \mu_1 \cdots \mu_p } 
+    \epsilon_{
+       { \color{green} \mu_1 \cdots \mu_p }
+       { \color{orange} \mu_{p+1} \cdots \mu_D }
+    }
+    d x^{\color{orange} \mu_{p+1}} \wedge \cdots d x^{ \color{orange} \mu_d}
     \\
     & =
-    \star 
-    \tfrac{1}{(d-p)!}
-    \alpha_{\mu_1 \cdots \mu_p} 
-    \epsilon^{\mu_1 \cdots \mu_p \mu_{p+1} \cdots \mu_d}
-    \epsilon_{\mu_{p+1} \cdots \mu_d \nu_1 \cdots \nu_p}
-    d x^{\nu_1} \wedge \cdots d x^{\nu_p}
+    \tfrac{1}{
+      { \color{green} p! }
+      { \color{orange} (D-p)! }
+      { \color{blue} p! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p } 
+    \epsilon^{
+       { \color{green} \mu_1 \cdots \mu_p }
+       { \color{orange} \mu_{p+1} \cdots \mu_D }
+    }
+    \epsilon_{
+      { \color{orange} \mu_{p+1} \cdots \mu_D }
+      { \color{blue} \nu_1 \cdots \nu_p  }
+    }
+    \,
+    d x^{ \color{blue} \nu_1} 
+      \wedge 
+        \cdots 
+      \wedge 
+    d x^{ \color{blue} \nu_D }
+    \\
     \\
     & =
+    \tfrac{
+     (-1)^{ {\color{green} p} { \color{orange}  (D-p) } }
+    }{
+      { \color{green} p! }
+      { \color{orange} (D-p)! }
+      { \color{blue} p! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p } 
+    \epsilon^{
+       { \color{green} \mu_1 \cdots \mu_p }
+       { \color{orange} \mu_{p+1} \cdots \mu_D }
+    }
+    \epsilon_{
+      { \color{blue} \nu_1 \cdots \nu_p  }
+      { \color{orange} \mu_{p+1} \cdots \mu_D }
+    }
+    \,
+    d x^{ \color{blue} \nu_1} 
+      \wedge 
+        \cdots 
+      \wedge 
+    d x^{ \color{blue} \nu_D }
+    \\
+    & =
+    {\color{magenta} -}
+    \tfrac{
+      (-1)^{ {\color{green}p} {\color{orange} (D-p) } }
+    }{
+      { \color{green} p! }
+      { \color{blue} p! }
+    }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p } 
+    \delta^{
+       { \color{green} \mu_1 \cdots \mu_p }
+    }_{
+      { \color{blue} \nu_1 \cdots \nu_p  }
+    }
+    \,
+    d x^{ \color{blue} \nu_1} 
+      \wedge 
+        \cdots 
+      \wedge 
+    d x^{ \color{blue} \nu_D }
+    \\
+    & =
+    {\color{magenta} -}
+    (-1)^{ {\color{green}p} {\color{orange} (D-p) } }
+    \,
     \alpha
   \end{aligned}
 $$
 
 
+=--
+
++-- {: .num_prop} 
+###### Proposition
+
+Let 
+$
+  \alpha
+  =
+  \tfrac{1}{p!}
+  \alpha_{\mu_1 \cdots \mu_p}
+  d x^{\mu_1} 
+    \wedge
+    \cdots
+    \wedge
+  d x^{\mu_p}
+$
+be a [[differential p-form]] 
+on $D$-dimensional [[Minkowski spacetime]]
+such that 
+$$
+  \partial^\nu \alpha_{\nu \mu_1 \cdots \mu_{p-1}}
+  \;=\;
+  0
+  \,.
+$$
+
+Then
+
+$$
+  \star d \star d \alpha
+  \;=\;
+  { \color{magenta} - }
+  \partial^\nu \partial_\nu \alpha
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
 $$
   \begin{aligned}
-  & 
-  \exp\big( 
-    \iota^\mu 
-    \otimes
-    \iota_{\mu}
-  \big)
-  \alpha 
-  \otimes 
-  dvol
-  & =
-  \exp\big( 
-    \iota^\mu 
-    \otimes
-    \iota_{\mu}
-  \big)
-  \alpha_{ \mu_1 \cots \mu_p } 
-  d x^{\mu_1 } \wedge \cdots d x^{\mu_p} 
-  \otimes 
-  \epsilon_{\nu_1 \cdots \nu_d}
-  d x^{\nu_1} \wedge \cdots \wedge d x^{\nu_d}
-  \\
-  & =
+    &
+    \star d \star d 
+    \tfrac{1}{ \color{green} p! }
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    d x^{ \color{green} \mu_1 }
+      \wedge
+      \cdots
+      \wedge
+    d x^{ \color{green} \mu_p }
+    \\
+    & =
+    \star d \star 
+    \tfrac{1}{ \color{green} p! }
+    \partial_{ \color{magenta} \nu } 
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    d x^{ \color{magenta} \nu }
+    \wedge
+    d x^{ \color{green} \mu_1 }
+      \wedge
+      \cdots
+      \wedge
+    d x^{ \color{green} \mu_p }    
+    \\
+    & =
+    \star d 
+    \tfrac{1}{ 
+      { \color{green} p! } 
+      { \color{orange} (D-(p+1))! }
+    }
+    \partial^{ \color{magenta} \nu } 
+    \alpha^{ \color{green} \mu_1 \cdots \mu_p }
+    \epsilon_{
+      { \color{magenta} \nu }
+      { \color{green} \mu_1 \cdots \mu_{p} }
+      { \color{orange} \mu_{p+2} \cdots \mu_D }
+    }
+    \,
+    d x^{ \color{orange} \mu_{p+2} }
+      \wedge
+      \cdots
+      \wedge
+    d x^{ \color{orange} \mu_D }
+    \\
+    & =
+    \star
+    \tfrac{1}{ 
+      { \color{green} p! } 
+      { \color{orange} (D-(p+1))! }
+    }
+    \partial_{ \color{red} \nu' }
+    \partial^{ \color{magenta} \nu } 
+    \alpha^{ \color{green} \mu_1 \cdots \mu_p }
+    \epsilon_{
+      { \color{magenta} \nu }
+      { \color{green} \mu_1 \cdots \mu_p }
+      { \color{orange} \mu_{p+2} \cdots \mu_D }
+    }
+    \,
+    d x^{ \color{red} \nu' }
+    \wedge
+    d x^{ \color{orange} \mu_{p+2} }
+      \wedge
+      \cdots
+      \wedge
+    d x^{ \color{orange} \mu_D }
+    \\
+    & =
+    \tfrac{1}{ 
+      { \color{green} p! } 
+      { \color{orange} (D-(p+1))! }
+      { \color{blue} p! }
+    }
+    \partial^{ \color{red} \nu' }
+    \partial_{ \color{magenta} \nu } 
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \epsilon^{
+      { \color{magenta} \nu }
+      { \color{green} \mu_1 \cdots \mu_p }
+      { \color{orange} \mu_{p+2} \cdots \mu_D }
+    }
+    \epsilon_{
+      { \color{red} \nu' }
+      { \color{orange} \mu_{p+2} \cdots \mu_D }
+      { \color{blue} \kappa_1 \cdots \kappa_p }
+    }
+    \,
+    d x^{\color{blue} \kappa_1} \wedge \cdots d x^{\color{blue}\kappa_p}
+    \\
+    & =
+    { \color{magenta} - }
+    \tfrac{1}{ 
+      { \color{green} p! } 
+      { \color{blue} p! }
+    }
+    \partial^{ \color{red} \nu' }
+    \partial_{ \color{magenta} \nu } 
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \delta^{
+      { \color{magenta} \nu }
+      { \color{green} \mu_1 \cdots \mu_p }
+    }
+    _{
+      { \color{red} \nu' }
+      { \color{blue} \kappa_1 \cdots \kappa_p }
+    }
+    \,
+    d x^{\color{blue} \kappa_1} \wedge \cdots d x^{\color{blue}\kappa_p}
+    \\
+    & =
+    { \color{magenta} - }
+    \tfrac{1}{ 
+      { \color{green} p! } 
+      { \color{blue} p! }
+    }
+    \partial^{ \color{magenta} \nu }
+    \partial_{ \color{magenta} \nu } 
+    \alpha_{ \color{green} \mu_1 \cdots \mu_p }
+    \delta^{
+      { \color{green} \mu_1 \cdots \mu_p }
+    }
+    _{
+      { \color{blue} \kappa_1 \cdots \kappa_p }
+    }
+    \,
+    d x^{\color{blue} \kappa_1} \wedge \cdots d x^{\color{blue}\kappa_p}
+    \\
+    & =
+    { \color{magenta} - }
+    \tfrac{1}{ 
+      { \color{green} p! } 
+      { \color{blue} p! }
+    }
+    \partial^{ \color{magenta} \nu }
+    \partial_{ \color{magenta} \nu } 
+    \alpha
   \end{aligned}
 $$
 
+=--
 
-$$
-  \begin{aligned}
-    \star_4 d \star_4 d f
-    & = 
-    \star_4 d \star_4 \partial_\mu f d x^\mu
-    \\
-    & =
-    \star_4 d \epsilon_{\mu_1 \mu_2 \mu_3 \mu_4} 
-    (\partial^{\mu_1} f) d x^{\mu_2 } \wedge d x^{\mu_3} \wedge d x^{\mu_4}
-    \\
-    & =
-    \star_4 \epsilon_{\mu_1 \mu_2 \mu_3 \mu_4} 
-    \partial_{\nu}(\partial^{\mu_1} f)
-    \epsilon^{ \nu \mu_2 \mu_3 \mu_4 }
-    dvol
-    \\
-    & =
-    \star_4 
-    (\partial_\nu \partial^\nu f)
-    dvol
-  \end{aligned}
-$$
+\linebreak
+
+\linebreak
+
 
 
 
 $$
   \sigma^\ast( e_{\mu 5'} )
   \;=\;
-  e^{- x^4 E} 
-  \big(
-    d ( A_\mu )
-    -  
-    E\, A_\mu \, d x^4
-    +
-    E 
-    \overline{L_l} \!\cdot\! \gamma_\mu \!\!\!\cdot\! L_l
-    \, d x^4
-  \big)
-$$
-
-$$
+  d(
+    e^{- x^4 m}  
+    A_\mu
+  )
+  \phantom{AAAA}
   \sigma^\ast( e_{\mu_1 \mu_2} )
   \;=\;
-  e^{- x^4} \,  B_{\mu_1 \mu_2} \, d x^4
-  - 
-  e^{- x^4} \, d ( B_{\mu_1 \mu_2} )
+  d(
+    e^{ - x^4 m}
+    B_{\mu \nu}
+  )
 $$
 
-\linebreak
-
-$$
-  \begin{aligned}
-    \star_4 d \star_{4} d f
-    & =
-    \epsilon^{\mu_1 \mu_2 \mu_3 \mu_4}
-    \star_4 d \partial_{\mu_1} f d x_{\mu_2} \wedge d x_{\mu_3} \wedge d x_{\mu_4}
-    
-  \end{aligned}
-$$
-
-\linebreak
 
 $$
   \begin{aligned}
@@ -241,80 +704,89 @@ $$
      \wedge 
      e^{a_2}
     \big)
-    \\
-    & +
+    +
     e_{ a_1 a_2 5'}{}^{4 5}
-   \wedge 
+    \wedge 
     e^{a_1} 
     \wedge 
     e^{a_2}
-  \end{aligned}
-$$
-
-\linebreak
-
-$$
-  \begin{aligned}
-    H_3 
+    \big)
+    \\
     & = \;
-    e^{- x^4 E}
+    e^{- x^4 m}
     \big(
       d A \wedge d x^{5'}
       -
-      E\, A \wedge d x^4 \wedge d x^{5'}
+      m\, A \wedge d x^4 \wedge d x^{5'}
       +
       d B 
       -
-      E \, B \wedge d x^4
+      m \, B \wedge d x^4
     \big)
   \end{aligned}
 $$
 
 $$
   \begin{aligned}
+    \Rightarrow \;\;
     \star_{{}_{6'}} H_3 
     & = \;
-    e^{- x^4}
+    e^{- x^4 m}
     \big(
       \star_4 d A \wedge d x^4
-      -
-      E \, \star_4 A 
       +
+      m \, \star_4 A 
+      -
       \star_4 d B  \wedge d x^4 \wedge d x^{5'}
       +
-      E \, \star_4 B \wedge d x^{5'}
+      m \, \star_4 B \wedge d x^{5'}
     \big)
   \end{aligned}
 $$
 
-
-\linebreak
-
 $$
+  \begin{aligned}
   \star_{{}_{6'}} H_3 
-  \;=\;
+  =\;
   H_3
+  & 
   \;\;\;
     \Leftrightarrow
   \;\;\;
   \left\{
     \begin{aligned}
-      E \, B & =  - \star_{{}_4} d A
+      m \, B & =  - \star_{{}_4} d A
       \\
-      \star_{{}_4} d B & = - E \, (A + J^{el})
+      \star_{{}_4} d B & = + m \, A
     \end{aligned}
   \right.
+  \\
+  & 
   \;\;\;
   \Leftrightarrow
   \;\;\;
   \left\{
     \begin{aligned}
-      B & = \frac{1}{E} \star_{{}_4} d (A + J^{el})
+      B & = \frac{1}{m} \star_{{}_4} d A
       \\
-      \star_{{}_4} d \star_{{}_4} d (A + J^{el}) & = 
-      + E^2 ( A + J^{el} )
+      \star_{{}_4} d \star_{{}_4} d A & = 
+      - m^2 A 
     \end{aligned}
   \right.
+  \\
+  & 
+  \;\;\;
+  \Leftrightarrow
+  \;\;\;
+  \left\{
+    \begin{aligned}
+      B & = \frac{1}{m} \star_{{}_4} d A
+      \\
+      \partial_\mu \partial^\mu A & = 
+      m^2 A 
+    \end{aligned}
+  \right.
+  \end{aligned}
 $$
 
 \linebreak
