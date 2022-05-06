@@ -22,6 +22,7 @@
 
 A [[cohomology theory]] $E$ is called _multiplicative_ if each [[graded module|graded]] [[abelian group|abelian]] $E$-[[cohomology group]] $E^\bullet(X)$ is compatibly equipped with the structure of a [[graded ring]]. 
 
+The corresponding [[Brown representability theorem|representing]] [[spectra]] are [[ring spectra]].
 
 ## Definition
 
