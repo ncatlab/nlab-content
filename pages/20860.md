@@ -117,6 +117,10 @@ $$
 
 * [[weight systems are cohomology of loop space of configuration space]]
 
+## Related concepts
+
+* [[Lie algebra weight system]]
+
 ## References
 
 The result is due to 
