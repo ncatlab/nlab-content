@@ -50,7 +50,7 @@ See also
 
 ### In linear type theory
 
-The Fock space construction may be axiomatized as the [[!-modality]] in [[linear type theory]]. This is discussed in the following articles.
+The Fock space construction may be axiomatized as the [[exponential modality]] in [[linear type theory]]. This is discussed in the following articles.
 
 * {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825))
 
