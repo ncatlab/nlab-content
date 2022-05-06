@@ -66,7 +66,15 @@ Here we are showing
 
 ## References
 
-For transversal [[D6-D8-brane bound states]] (with an eye towards describing [[Yang-Mills monopoles]] via [[AdS/QCD]]):
+### As black brane solutions
+
+On [[D6-D8-brane bound states]] as [[black brane]]-solutions in [[massive type IIA string theory]]:
+
+* Harvendra Singh, _Note on (D6,D8) Bound State, Massive Duality and Non-commutativity_, Nucl. Phys. B661 (2003) 394-408 ([arXiv:hep-th/0212103](https://arxiv.org/abs/hep-th/0212103))
+
+### In geometric engineering of monopoles
+
+For transversal [[D6-D8-brane bound states]] with an eye towards describing [[Yang-Mills monopoles]] via [[AdS/QCD]]:
 
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
 
