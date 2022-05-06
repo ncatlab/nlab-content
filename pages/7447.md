@@ -148,8 +148,13 @@ If $K$ is regular, so are the [[fibrational slice]]s $Opf(X)$ and $Fib(X)$.
 
 ### Regular completion
 
-
 See at _[[2-congruence]]_ the section _[Regularity](http://ncatlab.org/nlab/show/2-congruence#Regularity)_.
+
+## Related concepts
+
+* [[regular category]]
+
+* [[regular completion]]
 
 ## References
 
@@ -158,10 +163,7 @@ The above definitions and observations are originally due to
 * [[Michael Shulman]], _[[michaelshulman:regular 2-category]]_
 
 
-
-
 [[!redirects regular 2-categories]]
 
 [[!redirects regular (2,1)-category]]
 [[!redirects regular (2,1)-categories]]
-
