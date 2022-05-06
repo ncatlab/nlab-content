@@ -42,7 +42,7 @@ The book contains three chapters:
   12. [[function extensionality|Function extensionality]]
   13. [[propositional truncation|Propositional truncations]] and the [[image]] of a [[map]]
   14. The [[univalence axiom]]
-  15. [[group|Groups]] in [[univalent mathematics]]
+  15. [[group|Groups]] in [[Univalent Foundations for Mathematics|univalent mathematics]]
   16. [[quotient|Set-quotients]]
   17. Elementary [[number theory]]
 * The third chapter studies [[higher inductive types]], and develops [[homotopy theory]] and concepts from [[higher category theory]] in type theory.
