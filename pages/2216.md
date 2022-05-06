@@ -1,3 +1,6 @@
+#Contents#
+* table of contents
+{:toc}
 
 Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was one of the founders of modern symbolic [[logic]]. In particular, he developed a form of [[predicate logic]]. Peirce is seen as the father of pragmatism, although he later distanced himself from other American philosophers who identified them as pragmatists, by adopting the term _pragmaticism_.
 
