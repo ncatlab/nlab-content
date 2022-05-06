@@ -83,7 +83,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ### The Geometry of Ambiguity: An introduction to the ideas of Derived Geometry (Mathieu Anel)
 
-[[Mathieu Anel]] on [[derived geometry]] ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel%20-%20DerivedGeometry.pdf))
+[[Mathieu Anel]] on [[derived geometry]] ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel-DerivedGeometry.pdf))
 
 ([video recording](https://www.youtube.com/watch?v=198ssqlW9BI))
 
