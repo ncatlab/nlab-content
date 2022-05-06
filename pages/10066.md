@@ -279,8 +279,12 @@ The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completi
  
 and for [[algebraic K-theory]] to
 
-* [[Robert Thomason]], _Algebraic K-theory of group scheme actions_, Algebraic topology and algebraic K-theory (Princeton, N.J., 1983), Ann. of Math. Stud., vol.
-113, Princeton Univ. Press, Princeton, NJ, 1987, pp. 539&#8211;563
+* [[Robert Thomason]], _Algebraic K-theory of group scheme actions_, Algebraic topology and algebraic K-theory (Princeton, N.J., 1983), Ann. of Math. Stud., vol. 113, Princeton Univ. Press, Princeton, NJ, 1987, pp. 539&#8211;563
+
+with construction via [[permutative categories]] in
+
+* [[Bertrand Guillou]], [[Peter May]], _Equivariant iterated loop space theory and permutative G-categories_, _Algebr. Geom. Topol. 17 (2017) 3259-3339_ ([arXiv:1207.3459](https://arxiv.org/abs/1207.3459))
+
 
 See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
 
