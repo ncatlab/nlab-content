@@ -106,6 +106,68 @@ $$
   \right)
 $$
 
+\linebreak
+
+The 6d spinors in $\mathbb{H}^2$ decompose as pairs of 4d spinors under
+
+$$
+  \mathbb{H}
+  \;\simeq_{\mathbb{R}}\;
+  \mathbb{C} \oplus \mathbb{C} j
+  \,.
+$$
+
+What's the residual action of $SU(2)_R$ on these? The one generated from $\mathbf{\Gamma}_6 \mathbf{\Gamma}_7$?
+
+The corresponding octonionic matrix is
+
+$$
+  \mathbf{\Gamma}_6 \mathbf{\Gamma}_7
+  \;=\;
+  \left( 
+    \array{
+      0 & L_{e_4}
+      \\
+      - L_{e_4} & 0
+    }
+  \right)
+  \left( 
+    \array{
+      0 & L_{e_5}
+      \\
+      - L_{e_5} & 0
+    }
+  \right)
+$$
+
+
+
+$$
+  L_{e_4} L_{e_5} 1
+  \;=\;
+  j
+$$
+
+$$
+  L_{e_4} L_{e_5} i
+  \;=\;
+  k = i j
+$$
+
+$$
+  L_{e_4} L_{e_5} j
+  \;=\;
+  - 1
+$$
+
+$$
+  L_{e_4} L_{e_5} k
+  \;=\;
+  - i
+$$
+
+
+
 
 
 \linebreak
