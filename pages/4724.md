@@ -388,6 +388,27 @@ with respect to this equivalence relation is called a _[[smooth structure]]_ on 
 
 =--
 
+## As Etalé Spaces
+
+Differentiable manifolds can be viewed as akin to [[etalé spaces]], very much in alignment with the language of [[algebraic geometry]]. For [[smooth manifolds]] and [[complex manifolds]] the requisite atlas conditions can be stated in terms of a particular structure sheaf.  Here we illustrate the differentiable case. For any $A \subset {\mathbf R}^n$, we write $\mathcal{D}_A$ for the sheaf of germs of functions $f \in C^{\infty}(A, {\bf R})$. That is, $\mathcal{D}_A$ is the functor:
+\begin{align*}
+\mathcal{D}_A :  \text{Open} & (A) \rightarrow {\bf Ring}^{\text{op}} \\
+ & B \longmapsto C^{\infty}(B, {\bf R}) \\
+& B \subset B' \mapsto  C^{\infty}(B, {\bf R}) \hookrightarrow C^{\infty}(B', {\bf R})
+\end{align*}
+This turns $ (A, \mathcal{D}_A)$ into a ringed space, and any ringed space modeled on one of this kind can be regarded as a differentiable (by which is always meant "real") manifold. More precisely, given a ringed space $(X, D_X)$, there must an open set $A \subset {\mathbf R}^n$ and local isomorphism $(f, f_*)$  where $f: A \rightarrow X$ is a continuous function with sheaf pushfoward $f_* : (\mathcal{O}_A \rightarrow \mathcal{O}_X )$. The following property, which holds at the continuous level, is essential.
+
+Let $F : X \rightarrow Y$ be a continuous surjection. Let $P$ be a sheaf of $R$-valued functions on $X$ (here we let $R$ be any ring). Let $Y \ropn U$ and define $Q(U) \subset R^U$ to be $\{ f : U \rightarrow R  | F^{*} f = f \circ F|_{f^{-1}(U)} \in P(F^{-1}(U)) \}$, i.e. the pullback of each f by $F$ belongs to $P(F^{-1}(U))$. Then $Q$ is a sheaf on $Y$.
+
+We can phrase the example of $\mathbf{R}P^n$ in this language.
+
++-- {: .num_example #DifferentiableManifoldCartesianSpace}
+###### Example
+**([[Projective space]] as a [[smooth manifold]] in this [[etalé map]] sense)
+
+We need only show that the functions $f : {\bf R}P^n \ropn V \rightarrow {\bf R}^n$ which are smooth when composed with the canonical projection $\pi : {\bf R}^{n+1}/\{ 0 \} \rightarrow {\bf R }P^n$ form a sheaf on ${\bf R}^n$. Denote these $\mathcal{O}_{{\bf R}P^n}$. Certainly they form a presheaf, and checking the pullback as in the lemma confirms that they are a sheaf. Hence $({\bf R}P^n, \mathcal{O}_{{\bf R}P^n}$ is a smooth manifold.
+
+=--
 
 
 ## Examples
