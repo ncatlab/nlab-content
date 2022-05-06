@@ -93,6 +93,9 @@ Review contains
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 10.1.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+Discussion amplifying the role of [[category theory]], and [[higher geometry]] is in 
+
+* {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
 Other reviews include
 
