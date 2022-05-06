@@ -15,6 +15,8 @@
 
 ## Examples
 
+* [[glueballs]] are bound states of [[gluons]]
+
 * [[hadrons]] are bound states of [[quarks]]
 
   (at temperature high enough that these bound states decay, one speaks of a _[[quark-gluon plasma]]_)
