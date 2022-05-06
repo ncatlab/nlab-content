@@ -143,9 +143,14 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 ## References
 
-* {#LurieHTT} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_
 
-See also the  [discussion on MathOverflow](http://mathoverflow.net/questions/9737/the-yoneda-lemma-for-oo-1-categories).
+* MathOverflow, _The Yoneda Lemma for $(\infty,1)$-categories?_ ([MO:9737/381](https://mathoverflow.net/q/9737/381))
+
+Discussion in the context of an [[∞-cosmos]]:
+
+* [[Emily Riehl]], [[Dominic Verity]], Section 6 of: _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
+
 
 
 [[!redirects Yoneda lemma for (∞,1)-categories]]
