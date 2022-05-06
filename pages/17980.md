@@ -23,18 +23,18 @@
 
 ## Idea
 
-In [[super-algebra|super]]-[[representation theory]], what is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool for denoting those [[representations]] ([[super multiplets]]) of the $N$-extended [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]] with $N$ supersymmetries) for which the [[supersymmetry]] generators act, up to [[derivatives]] and prefactors, by [[permutation]] of [[superfield]] components. These are called _adinkraic_ representations ([Zhang 13, p. 16](#Zhang13)). 
+In [[super-algebra|super]]-[[representation theory]], what is called _adinkras_ ([Faux-Gates 04](#FauxGates04)) is a graphical tool for denoting those [[representations]] ([[super multiplets]]) of the $\mathcal{N}$-extended [[supersymmetry]] algebras in one dimension ([[supersymmetric quantum mechanics]] with [[number of supersymmetries|N supersymmetries]]) for which the [[supersymmetry]] generators act, up to [[derivatives]] and prefactors, by [[permutation]] of [[superfield]] components. These are called _adinkraic_ representations ([Zhang 13, p. 16](#Zhang13)). 
 
-While adinkraic representations are special among all representations of the 1-dimensional $N$-extended supersymmetry algebra, the idea is that the [[dimensional reduction]] of representations ([[supermultiplets]]) of higher dimensional supersymmetry algebras down to 1d are of this form, at least for dimensional reduction from $d = 4$ and $N = \mathbf{4}$ ([GGMPPRW 09, section 3](#GGMPPRW09), [Gates-Hubsch-Stiffler 14](#GatesHubschStiffler14)).
+While adinkraic representations are special among all representations of the 1-dimensional $\mathcal{N}$-extended supersymmetry algebra, the idea is that the [[dimensional reduction]] of representations ([[supermultiplets]]) of higher dimensional supersymmetry algebras down to 1d are of this form, at least for dimensional reduction from $d = 4$ and $N = \mathbf{4}$ ([GGMPPRW 09, section 3](#GGMPPRW09), [Gates-Hubsch-Stiffler 14](#GatesHubschStiffler14)).
 
-The classification of adinkras, and hence of adinkraic representations, turns out to be controled by [[linear codes]] ([Doran & Faux & Gates & HubschIgaLandweberMiller 11](#DoranFauxGatesHubschIgaLandweberMiller11)) and to be related to certain special [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
+The classification of adinkras, and hence of adinkraic representations, turns out to be controlled by [[linear codes]] ([Doran & Faux & Gates & HubschIgaLandweberMiller 11](#DoranFauxGatesHubschIgaLandweberMiller11)) and to be related to certain special [[super Riemann surfaces]] via [[dessins d'enfants]] ([Doran & Iga & Landweber & Mendez-Diez 13](#DoranIgaLandweberMendez-Diez13), [Doran & Iga & Kostiuk &Mendes-Diez 16](#DoranIgaKostiukMendes-Diez16)).
 
 ## Definition
 
 For background, see at _[[geometry of physics -- supersymmetry]]_.
 
 For $N \in \mathbb{N}$, write $\mathbb{R}^{1 \vert N}$
-for the [[super Lie algebra]] over the [[real numbers]] that is spanned by a single generator $P$ in even (i.e., bosonic) degree and $N$ generators $Q_I$, $I \in \{1, 2, \cdots, N\}$ in odd (i.e., fermionic) degree, whose only non-trivial components of the super [[Lie bracket]] is
+for the [[super Lie algebra]] over the [[real numbers]] that is spanned by a single generator $P$ in even (i.e., bosonic) degree and $N$ generators $Q_I$, $I \in \{1, 2, \cdots, N\}$ in odd (i.e., fermionic) degree, whose only non-trivial components of the super-[[Lie bracket]] is
 
 $$
   [Q_I, Q_J]  = 2 \delta_{I J} P
@@ -130,6 +130,10 @@ The [[dimensional reduction]] of the standard [[supermultiplets]] of $D = 4, \ma
 See also
 
 * {#IgaZhang15} [[Kevin Iga]], [[Yan Zhang]], _Structural Theory of 2-d Adinkras_ ([arXiv:1508.00491](https://arxiv.org/abs/1508.00491))
+
+Discussion for $D=11$, $\mathcal{N}=1$:
+
+* [[Jim Gates]], Yangrui Hu, S.-N. Hazel Mak, _Adinkra Foundation of Component Decomposition and the Scan for Superconformal Multiplets in 11D, $\mathcal{N} = 1$ Superspace_ ([arXiv:2002.08502](https://arxiv.org/abs/2002.08502))
 
 
 
