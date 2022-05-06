@@ -577,7 +577,29 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 ## CLF and Logical Frameworks {#CLFasLF}
 
-(Sorry, nothing here yet.)
+[[logical framework|Logical frameworks]] provide a formal notation for languages. (Especially languages that support logical deduction.) The kind of logical framework CLF aims to provide is one that represents dependent type systems using HOAS signatures.
+
+The logical framework "[[LF]]" uses HOAS, and can already represent seemingly any language, including dependent type systems. But the issue is not only whether a language can be represented at all, but how "deep" the encoding is. With a *shallow* encoding, the framework representation of encoded expressions of the language is close to a custom representation tailored to that language. With a *deep* encoding, a lot of overhead is introduced by the encoding, making the framework representation much less convenient than a custom one.
+
+LF's use of HOAS makes the encoding of many languages shallower, but only works for languages that can be expressed using [[natural deduction|natural-deduction]]-style rules. (That includes the degenerate case of languages with no binding forms. That is, [[combinatory logic|combinator]] languages.) So to encode [[substructural logic|substructural]] languages, for example, evidence of substructural variable use needs to be handled explicitly, unlike with a custom representation.
+
+There are two styles of HOAS-based encoding associated with LF, called "synthetic" and "analytic". (See the [[logical framework]] page.) Synthetic is a deeper style of encoding than analytic, but analytic only works for languages where type equality is just [[alpha equivalence]].
+
+The formal description of a language in LF and similar logical frameworks is called a "signature", since it's similar to a [[signature (in logic)|signature]] for some fixed logic.
+
+### Martin-Löf's Logical Framework
+
+To see how equality reflection is useful for a logical framework, we will propose an extension of LF, called "LF=" (LF with equality), that combines the flexibility of LF's synthetic encoding with the shallowness of LF's analytic encoding. (But in LF=, the encoding is generally not analytic, in the sense of algorithmic judgments. That's the catch.) But first, it's instructive to cover analytic encoding in Martin-Löf's logical framework ("MLLF").
+
+Unlike LF, MLLF doesn't have a fixed judgmental equality. Term formers are specified in roughly the same intrinsically typed way as with the analytic encoding for LF. But then judgmental equality rules for the object language are added by adding corresponding judgmental equality rules to the framework. Thus, MLLF can shallowly encode many type systems with analytic judgments, not just the ones where type equality is very simple, like with LF. MLLF is particularly well suited to specifying variants of Martin-Löf type theory.
+
+MLLF is defined and discussed in Martin-Löf's [Analytic and Synthetic Judgements in Type Theory](#AnaSynJudg) and in part III of [Programming in Martin-Löf's Type Theory](#ProgMLTT). The former reference also discusses the notions of analytic and synthetic judgment, while the latter makes it perhaps clearer how the "theory of types" is intended to be used as a logical framework. Martin-Löf's main theory of mathematical collections is the "theory of sets", which is specified using the logical framework.
+
+There are tools that provide a style of language specification very similar to MLLF. [Dedukti](https://deducteam.github.io/) implements a logical framework similar to LF, but signatures can also include typed rewrite rules that extend judgmental equality. There's an [Agda feature](#AgdaJudgRewr16) that allows proven or hypothesized equations to be declared as rewrites that extend judgmental equality. This can presumably be combined with axioms to imitate Dedukti signatures, and quite possibly more.
+
+These tools are designed under the assumption that, while open-ended, judgmental equality remains analytic. That is, it's something that you can sanely just check automatically. (Or so the story goes.) Trying to add extensional type theory's equality reflection rule to a rewrite engine is not going to work. It generally won't have a good way to solve the premise that proves the equation. (Either the system will give up, or do something useless.)
+
+The equality reflection rule is enough to make the judgments synthetic. That is, something you generally have to prove. To handle type systems with synthetic judgments, you either need to use a synthetic encoding, or use a tool designed to handle synthetic judgments, like Nuprl, [Andromeda](http://www.andromeda-prover.org/), or (eventually, hopefully) CLF.
 
 ### LF= {#LFEq}
 
@@ -594,3 +616,9 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 * {#HofmannThesis} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
 
 * {#SterlingHarperRefinement} [[Jonathan Sterling]], [[Robert Harper]], _Algebraic Foundations of Proof Refinement_, 2017 ([arXiv](https://arxiv.org/abs/1703.05215))
+
+* {#AnaSynJudg} Per Martin-Löf, _Analytic and Synthetic Judgments in Type Theory_, 1994 ([pdf](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
+
+* {#ProgMLTT} Bengt Nordström, Kent Petersson, Jan M. Smith, _Programming in Martin-Löf's Type Theory_, Oxford University Press (1990) ([web](http://www.cse.chalmers.se/research/group/logic/book/))
+
+* {#AgdaJudgRewr16} Jesper Cockx, Andreas Abel, _Sprinkles of extensionality for your vanilla type theory_, Types for Proofs and Programs (TYPES) 2016 ([pdf](http://www.cse.chalmers.se/~abela/types16-cockx.pdf))
