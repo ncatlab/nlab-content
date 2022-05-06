@@ -30,6 +30,12 @@ For background and details see [[fibration sequence]].
 
 ## Related concepts
 
+* [[long exact sequence in homology]]
+
+  * [[long exact sequence in chain homology]]
+
+  * [[long exact sequence in generalized homology]]
+
 * [[fiber sequence]]
 
 * [[Gysin sequence]]
