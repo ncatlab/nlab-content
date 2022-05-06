@@ -202,12 +202,12 @@ Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenche
 Exposition with motivation from [[mathematical physics]] includes
 
 * {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes
-from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A brief introduction to characteristic classes from the differentiable viewpoint.pdf))
+from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A%20brief%20introduction%20to%20characteristic%20classes%20from%20the%20differentiable%20viewpoint.pdf))
 
 
 Further texts include
 
-* Jean-Pierre Schneiders, _Introduction to characteristic classes and  index theory_ (book), Lisboa (Lisabon) 2000
+* Jean-Pierre Schneiders, _Introduction to characteristic classes and  index theory_ (book), Lisboa (Lisbon) 2000
 
 * [[Johan Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](http://data.imf.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
 
