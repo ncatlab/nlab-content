@@ -25,6 +25,10 @@ This limit is sometimes appearing in its own right, but sometimes it is just con
 
 * [[AdS-CFT duality]]
 
+* [[BFSS matrix model]]
+
+* [[volume conjecture]]
+
 ## References
 
 * A. A. Migdal, _Loop equations and 1/N expansion_, Physics Reports, 102 (4), 199-290 (1983) <a href="http://dx.doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a> 
