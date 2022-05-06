@@ -107,6 +107,10 @@ See also
 
 More:
 
+* H. B. O'Connell, A. G. Williams, M. Bracco, G. Krein, _Vector Meson Mixing and Charge Symmetry Violation_, Phys. Lett. B370:12-16, 1996 ([arXiv:hep-ph/9510425](https://arxiv.org/abs/hep-ph/9510425))
+
+* A. G. Williams, _New results in vector meson dominance and rho meson physics_, Proceedings of the APCTP Workshop on Astro-Hadron Physics, "Properties of Hadrons in Matter", Seoul, 25-31 October, 1997 ([arXiv:hep-ph/9712405](https://arxiv.org/abs/hep-ph/9712405))
+
 * {#BDDL09a}  M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: I. $e^+ e^-$ Annihilations, Anomalies And Vector Meson Partial Widths_, Eur. Phys. J. C65:211-245, 2010 ([arXiv:0907.4047](https://arxiv.org/abs/0907.4047))
 
 * {#BDDL09a} M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: II. $\tau$ Decay and Hadronic Contributions To $g-2$_, Eur. Phys. J. C68:355-379, 2010 ([arXiv:0907.5603](https://arxiv.org/abs/0907.5603))
