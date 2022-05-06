@@ -199,6 +199,17 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * A summary of many different ways to construct examples is in [Hyland-Schalk](#HylandSchalk01).
 
+## Relation to other structures
+
+* A $\ast$-autonomous category is a [[linearly distributive category]] with the cotensor product $x\parr y = (x^* \otimes y^*)^*$.  Conversely, any linearly distributive category with "duals" in the appropriate sense is $\ast$-autonomous.
+
+* Since a linearly distributive category is a representable [[polycategory]], a $\ast$-autonomous category is a representable polycategory with duals.  If the duals are strictly involutive, then it is a [[*-polycategory]].
+
+* As noted above, a [[compact closed]] category is a degenerate sort of $\ast$-autonomous category.
+
+* It is shown in [HH13](#HH13) that a $\ast$-autonomous category that is [[traced monoidal category|traced]] must be compact closed.
+
+
 ## References ##
 
 The notion is originally due to
@@ -232,6 +243,11 @@ Relation to linearly distributive categories:
 
 * [[Robin Cockett]] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
  {#CockettSeely99}
+
+Combination with traces yields compact closure:
+
+* Tamás Hajgató and [[Masahito Hasegawa]], *Traced $\ast$-autonomous categories are compact closed*, [TAC](http://www.tac.mta.ca/tac/volumes/28/7/28-07abs.html), 2013
+ {#HH13}
 
 A wide-ranging summary of different model constructions:
 
