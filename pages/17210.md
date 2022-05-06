@@ -808,7 +808,7 @@ In contrast:
 +-- {: .num_prop}
 ###### Proposition
 
-Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$.
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longrightarrow}{\lim}_n X_n$.
 
 For $\tilde E_\bullet$ an additive reduced [[generalized homology theory]], then
 
