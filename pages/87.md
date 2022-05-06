@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -205,8 +206,9 @@ More generally, it is proven in [EKV](#EKV) that if $S$ has a Grothendieck cover
 
 Since all objects in the canonical model structure on Cat are fibrant, according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization, i.e. they represent all morphisms in the [[homotopy category]] $Ho(Cat)$.
 
-If we specialize to groupoids, with their canonical model structure by [[Ronnie Brown|Brown]]-[[Marek Golasi?ski|Golasi?ski]], then by the general idea of [[homotopical cohomology theory]]
+If we specialize to groupoids, with their canonical model structure by [[Ronnie Brown|Brown]]--[[Marek Golasiński|Golasiński]], then by the general idea of [[homotopical cohomology theory]]
 this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
+
 
 ## Examples
 
