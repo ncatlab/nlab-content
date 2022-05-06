@@ -84,6 +84,10 @@ This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). 
 
 #### General
 
+A textbook account is in 
+
+* Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
+
 Introductions and surveys include
 
 * Wikipedia, _[Color confinement](http://en.wikipedia.org/wiki/Color_confinement)_
