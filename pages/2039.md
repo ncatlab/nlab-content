@@ -129,7 +129,7 @@ Reviews include
 
 The [[Eilenberg-MacLane objects]] over the orbit category are discussed in detail in 
 
-* {#Lewis92} L. G. Lewis, _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61.
+* {#Lewis92} [[L. Gaunce Lewis, Jr.]], _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61.
 
 
 There is an interesting (nontrivially) equivalent definition by Moerdijk and Svensson, using the [[Grothendieck construction]] for a certain $Cat$-valued presheaf on the orbit category. 
