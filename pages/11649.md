@@ -72,6 +72,10 @@ Discussion of relation to [[M-theory on G2-manifolds]]/[[M-theory on Spin(8)-man
 
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
+For more on this see at _[[M-theory on Spin(7)-manifolds]]_
+
+
+[[!redirects F-theory on elliptically fibered Calabi-Yau 4-folds]]
 
 [[!redirects F/M-theory on CY4]]
 [[!redirects F-theory on CY4]]
