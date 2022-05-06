@@ -292,7 +292,7 @@ See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](http://c
 
 ### $\infty$-Toposes of polynomial $(\infty, 1)$-functors
 
-For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]], the _[jet topos](jet+category#JetToposes)_.
+For each $n$, the collection of [[n-excisive (∞,1)-functors]] from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]], the _[jet topos](jet+category#JetToposes)_.
 
 
 due to ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_, and [[Charles Rezk]], appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
