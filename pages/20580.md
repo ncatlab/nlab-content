@@ -30,10 +30,12 @@ The original [[proofs]] of the existence of the [[classical model structure on s
 
 A constructively valid model structure on simplicial sets and coinciding with the [[classical model structure on simplicial sets|classical model structure]] if [[excluded middle]] and [[axiom of choice]] are assumed was found in [Henry 19](#Henry19). Alternative simpler proofs were found in [Gambino-Sattler-Szumiło 19](#GambinoSattlerSzumilo19)
 
-## Cofibrant objects
+## Properties
 
-A [[simplicial set]] is [[cofibrant]] in this model structure
-if and only if the inclusion of degenerate $n$-simplices
+### Cofibrant objects
+
+While in the [[classical model structure on simplicial sets]] all [[objects]] ([[simplicial sets]]) are [[cofibrant object|cofibrant]], a [[simplicial set]] is [[cofibrant]] in the constructive model structure
+if and only if the inclusion of degenerate $n$-[[simplices]]
 into all $n$-simplices is a [[decidable inclusion]] of sets.
 
 Likewise, [[cofibrations]] $A\to B$ are [[simplicial maps]]
@@ -41,8 +43,7 @@ such that $A_n\to B_n$ is a [[decidable inclusion]] of sets
 and the inclusion of degenerate $n$-simplices as a subset into $B_n\setminus A_n$
 is also a [[decidable inclusion]].
 
-Since not all objects are [[cofibrant]], [[left properness]] is no longer automatic,
-but can be established through nontrivial arguments.
+Since not all objects are [[cofibrant]], [[proper model category|left properness]] is no longer automatic, but can still be established through nontrivial arguments.
 
 This model structure is also [[right proper]].
 
