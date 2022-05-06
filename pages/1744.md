@@ -214,9 +214,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 * [[William Dwyer]], [[Dan Kan]], Section 1.2 (vi) of: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 139-146 ( <a href="https://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>, [pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
-See also
-
-* [[Paul Goerss]] and [[J. F. Jardine]], _[[Simplicial homotopy theory]]_, number 174 in Progress in Mathematics, Birkh&#228;user (1999) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[Rick Jardine]], Section 6.3 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999)  Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4))
 
 
 The [[level of a topos]]-structure of simplicial (co-)skeleta is discussed in
