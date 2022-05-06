@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -44,6 +48,9 @@ With structure group the [[projective unitary group]], hence providing twists fo
 
 * Noe Barcenas, Jesus Espinoza, [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_ ([doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061), [arXiv:1202.1880](https://arxiv.org/abs/1202.1880))
 
+In a context of [[equivariant elliptic cohomology]]:
+
+* [[Matthew Ando]], [[John Greenlees]], Part I of: _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
 
 
 
