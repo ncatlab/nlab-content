@@ -26,14 +26,56 @@ A _horizontal chord diagram_ on $n$ strands is a finite undirected [[graph]] tha
 Here is an example of a horizontal chord diagram on 5 strands:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramOnFiveStrands.jpg" width="260">
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramOnFiveStrandsII.jpg" width="260">
 </center>
 
-| [[knots]] | [[braids]] |
-|-----------|------------|
-| [[chord diagram]] | [[horizontal chord diagram]] |
-| [[weight system]] | [[horizontal weight system]] |
-| [[Vassiliev knot invariant]] | [[Vassiliev braid invariant]] |
+
+
+## Horizontal weight systems
+
+For fixed $n \in \mathbb{N}$ and $k$ a [[field]], write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]] on $n$ strands (the superscript $pb$ is for _[[pure braids]]_), and write $k\langle \mathcal{D}^{pb}\rangle$ for its $k$-[[linear span]].
+
+On this $R$-[[module]] consider the following [[relations]]:
+
+The [[2T relations]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram2TRelation.jpg" width="600">
+</center>
+
+
+and the [[4T relations]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram4TRelation.jpg" width="600">
+</center>
+
+Then a $k$-[[linear map]] on the [[quotient vector space]]
+
+$$
+  \mathcal{A}^{pb}
+  \;\coloneqq\;
+  k\langle \mathcal{D}^{pb}\rangle/(2T,4T)
+$$
+
+is called a _[[weight system]]_ on horizontal chord diagrams (of $n$ strands), or maybe a _[[horizontal weight systems]]_.
+
+Hence the [[vector space]] of all horizontal weight systems is the [[dual vector space]]
+
+$$
+  \mathcal{W}^{pb}
+  \;\coloneqq\;
+  \big(
+    \mathcal{A}^{pb} 
+  \big)^\ast
+$$
+
+([Bar-Natan 96, p. 3](#BarNatan96))
+
+## Related concepts
+
+[[!include chord diagrams and weight systems -- table]]
+
 
 ## References
 
