@@ -1,113 +1,304 @@
 
-$\varnothing$
++-- {: .num_lemma}
+###### Lemma
 
-$$
-  \begin{aligned}
+  We have
+  $$
+    \mathbf{4}\wedge \mathbf{4}
+    \;\simeq\;
+    3 \cdot \mathbf{1}
+    \;\oplus\;
+    1 \cdot \mathbf{3}
+    \;\;\;\in\;
+    \mathrm{RO}(\mathrm{Sp}(1))
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+  Consider the canonical linear basis
+  $$
+    \mathbf{4}
+    \;\simeq\;
+    \big\langle \{q_0, q_1, q_2, q_3\}\big\rangle_{\mathbb{R}}
+  $$
+  by orthonormal quaternions
+  $$
+    q_0, q_1, q_2, q_3
+    \;\in\;
+    \mathbb{H}
+  $$
+  $$
+    \begin{aligned}
     &
-    (\sigma_1,\sigma_2)
-    \mapsto 
-    exp(-t d(\sigma_1,\sigma_2))
-    \;\;
-    \text{is conditionally positive kernel}
+    q_0 = 1\,,
     \\
+    &
+    q_i q_i = -1 = - q_0  \;\; \text{for} i \in \{1,2,3\} \,,
     \\
-    \overset{??}{\Leftrightarrow}
-    \;\;\;\;
-     &
-    \frac{1}{n!} 
-    \sum_{\sigma \in Sym(n)} 
-    exp\big(
-      t \cdot cycles(\sigma)
+    &
+    q_{\sigma(1)} q_{\sigma(3)} =  \mathrm{sgn}(\sigma)  q_{\sigma(3)}
+    \,,
+    \text{for}  \sigma \in \mathrm{Sym}(3)
+    \end{aligned}
+  $$
+  On this, the action by
+  $$
+    \mathrm{Sp}(1)
+    \;\simeq\;
+    \{
+    q \in \mathbb{H}
+    \;\vert\;
+    q \bar q = 1
+    \}
+  $$
+  is by left quaternion multiplication.
+
+  Consider then the following
+  linear basis of $\mathbf{4}\wedge \mathbf{4}$:
+  $$
+    \mathbf{4}\wedge \mathbf{4}
+    \;\simeq\;
+    \left\langle
+    \left\{
+      \array{
+        a_1^+
+        :=
+        q_0 \wedge q_1 + q_2 \wedge q_3,
+        \\
+        a_2^+
+        :=
+        q_0 \wedge  q_2 + q_3 \wedge  q_1,
+        \\
+        a_3^+
+        :=
+        q_0 \wedge q_3 + q_1 \wedge  q_2,
+      }
+      \array{
+        a_1^-
+        :=
+        q_0 \wedge q_1 - q_2 \wedge q_3,
+        \\
+        a_2^-
+        :=
+        q_0 \wedge q_2 - q_3 \wedge q_1,
+        \\
+        a_3^-
+        :=
+        q_0 \wedge q_3 - q_1 \wedge q_2
+      }
+    \right\}
+    \right\rangle
+  $$
+  with induced $\mathfrak{sp}(1)$ Lie algebra action given by
+  $$
+    q_i \cdot ( q_j \wedge q_k )
+    \;=\;
+    (q_i q_j) \wedge q_k
+    +
+    q_j \wedge (q_i q_k)
+    \,.
+  $$
+  From this we find
+  $$
+    \begin{aligned}
+    q_1 \cdot a_1^{\pm}
+    & = \;
+    q_1
+      \cdot
+    \big(
+      q_0 \wedge q_1
+      \pm
+      q_2 \wedge q_3
     \big)
-    \;\le\; 
-    \left(1+\frac{1}{n!}\right) e^{t n}
-  \end{aligned}
-$$
-
-
-$\ldots$
-
-Let $n \in \mathbb{N}$, $n \geq 2$.
-On the complex linear span $\mathbb{C}[Sym(n)]$ of the set of permutations on $n$ elements, consider the sesqui-linear form
-
-\[
- \label{SesquilinearForm}
-  \array{
-    \mathbb{C}[Sym(n)]
-    \times
-    \mathbb{C}[Sym(n)]
-    &
-    \overset{
-      \langle
-        -,-
-      \rangle 
-    }{\longrightarrow}
-    &
-    \mathbb{C}
     \\
-    (
-    a_1 \cdot \sigma_1
-    ,\;
-    a_2 \cdot \sigma_2
-    )
-    &\mapsto&
-    a_1 a_2^\ast
-    \, 
-    2^{ (\#\!cycles(\sigma_1 \circ \sigma_2^{-1})) }
-  }
-\]
-
-\linebreak
-
-**Question:** _Is (eq:SesquilinearForm) positive semi-definite?_
-
-
-\linebreak
-
-**Non-Answer:** This here is not a counter-example:
-
-Consider
-
-* $\sigma_3$ the cyclic shift by 1
-
-* $\sigma_1$ the cyclic shift by 2
-
-* $\sigma_2$ the cyclic shift by -2 (i.e. in the other direction)
-
-Then if $n = 3 \cdot 4 \cdot k$ is divisible by 12, we have
-
-* $\#\!cycles (\sigma_1 \circ \sigma_3^{-1}) = \#\!cycles(\text{cyclic shift by 1}) = 1$ 
-
-* $\#\!cycles (\sigma_1 \circ \sigma_2^{-1}) = \#\!cycles(\text{cyclic shift by 4}) = 4$ 
-
-* $\#\!cycles (\sigma_2 \circ \sigma_3^{-1}) = \#\!cycles(\text{cyclic shift by 3}) = 3$ 
-
-and hence
-
-$$
-  \begin{aligned}
-    & \left\vert \sigma_1 - \sigma_2 + \sigma_3 \right\vert^2
-    \\
-    & = 
-    \left\vert \sigma_1 \right\vert^2
+    & =\;
+    \big(
+    \underset{
+      = 0
+    }{
+      \underbrace{
+        q_1 \wedge q_1
+      }
+    }
     +
-    \left\vert \sigma_2 \right\vert^2
+    \underset{
+      = 0
+    }{
+      \underbrace{
+        q_0 \wedge (-q_0)
+      }
+    }
+    \big)
+    \pm
+    \big(
+    \underset{
+      = 0
+    }{
+      \underbrace{
+        q_3 \wedge q_3
+      }
+    }
     +
-    \left\vert \sigma_3 \right\vert^2
-    - 
-    2 \langle \sigma_1, \sigma_2\rangle
-    - 
-    2 \langle \sigma_2, \sigma_3\rangle
-    + 
-    2 \langle \sigma_1, \sigma_3\rangle
+    \underset{
+      = 0
+    }{
+      \underbrace{
+        q_2 \wedge (- q_2)
+      }
+    }
+    \big)
     \\
-    & = 
-    3 \cdot 2^n
-    -2 \cdot 2^{4}
-    - 2 \cdot 2^{3}
-    + 2 \cdot 2^1
-  \end{aligned}
-$$
+    & =\;
+    0
+    \end{aligned}
+  $$
+  and
+  $$
+    \begin{aligned}
+    q_1 \cdot a_2^{\pm}
+    & =\;
+    q_1
+      \cdot
+    \big(
+      q_0 \wedge q_2
+      \pm
+      q_3 \wedge q_1
+    \big)
+    \\
+    & = \;
+    \big(
+    \underset{
+      = q_1 \wedge q_2
+    }{
+      \underbrace{
+        q_1 \wedge q_2
+      }
+    }
+    +
+    \underset{
+      = q_0 \wedge q_3
+    }{
+      \underbrace{
+        q_0 \wedge q_3
+      }
+    }
+    \big)
+    \pm
+    \big(
+    \underset{
+      = q_1 \wedge q_2
+    }{
+      \underbrace{
+        (- q_2) \wedge q_1
+      }
+    }
+    +
+    \underset{
+      = q_0 \wedge q_3
+    }{
+      \underbrace{
+        q_3 \wedge (- q_0)
+      }
+    }
+    \big)
+    \\
+    & =\;
+    \left\{
+      \begin{array}{l}
+        2 a_3^+
+        \\
+        0
+      \end{array}
+    \right.
+    \end{aligned}
+  $$
+  and
+  $$
+    \begin{aligned}
+    q_1 \cdot a_3^{\pm}
+    & =\;
+    q_1
+      \cdot
+    \big(
+      q_0 \wedge q_3
+      \pm
+      q_1 \wedge q_2
+    \big)
+    \\
+    & = \;
+    \big(
+    \underset{
+      = - q_3 \wedge q_1
+    }{
+      \underbrace{
+        q_1 \wedge q_3
+      }
+    }
+    +
+    \underset{
+      = - q_0 \wedge q_2
+    }{
+      \underbrace{
+        q_0 \wedge (-q_2)
+      }
+    }
+    \big)
+    \pm
+    \big(
+    \underset{
+      = - q_0 \wedge q_2
+    }{
+      \underbrace{
+        (- q_0) \wedge q_2
+      }
+    }
+    +
+    \underset{
+      = - q_3 \wedge q_1
+    }{
+      \underbrace{
+        q_1 \wedge q_3
+      }
+    }
+    \big)
+    \\
+    & =\;
+    \left\{
+      \begin{array}{l}
+        -2 a_2^+
+        \\
+        0
+      \end{array}
+    \right.
+    \end{aligned}
+    \,.
+  $$
+  Since everything here is invariant under cyclic permutation of
+  the three non-zero indices it follows generally that
+  $$
+    (\tfrac{1}{2} q_i) \cdot a_j^+ \;=\; \underset{k}{\sum} \epsilon_{i j k} a_k^+
+    \,,
+    \;\;
+    (\tfrac{1}{2} q_i) \cdot a_j^- \;=\; 0
+    \;\;
+    \text{for all} i,j \in \{1,2,3\}
+  $$
+  But this means that
+  $$
+    \big\langle \{a^+_1, a^+_2, a^+_3\} \big\rangle
+    \;\simeq\;
+    \mathbf{3}
+    \,,
+    \phantom{aa}
+    \big\langle \{a^-_i\} \big\rangle
+    \;\simeq\;
+    \mathbf{1}
+    \;\;\;\in
+    \mathrm{RO}(\mathrm{Sp}(1))
+    \,.
+  $$
 
-
-
+=--
