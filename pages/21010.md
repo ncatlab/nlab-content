@@ -37,6 +37,9 @@ Original articles:
 
 * [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. 102:081601, 2009 ([arXiv:0809.4899](https://arxiv.org/abs/0809.4899))
 
+Relation to [[renormalization]] ([[field-strength renormalization]]):
+
+* [[Stanley Brodsky]], [[Guy de Teramond]], Alexandre Deur, _AdS/QCD, Light-Front Holography, and the Nonperturbative Running Coupling_,  International Journal of Modern Physics A Vol. 25, No. 27n28, pp. 5009-5024 (2010)  ([arXiv:1002.4660](https://arxiv.org/abs/1002.4660), [doi:10.1142/S0217751X10050822](https://doi.org/10.1142/S0217751X10050822))
 
 
 
