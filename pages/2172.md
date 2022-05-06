@@ -1,3 +1,3 @@
-The material previously referred to on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Logical_graph).
+The material previously referred to on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Logical_Graphs).
 
 [[!redirects Logical Graph]]
