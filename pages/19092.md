@@ -27,6 +27,8 @@ It is the [[fundamental particle]] with by far the largest [[rest mass]] (after 
 
 * [[bottom quark]]
 
+* [[charm quark]]
+
 ## References
 
 The top quark discovery was announced jointly in
