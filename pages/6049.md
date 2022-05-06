@@ -319,8 +319,7 @@ Most of the following references are more on the [[M5-brane]].
 
 The fact that the worldvolume theory of the M5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
 
-* [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
- {#Witten07}
+* {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in [[Ulrike Tillmann]], _Topology, Geometry and Quantum Field Theory: Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal_,  London Mathematical Society Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
 as well as sections 3 and 4 of 
 
