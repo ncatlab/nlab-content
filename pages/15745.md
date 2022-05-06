@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -38,11 +37,12 @@ A 10 dimensional Lie group, the relativistic counterpart of which is the 10 dime
 
 * Wikipedia, _[Euclidean group](http://en.wikipedia.org/wiki/Euclidean_group)_
 
+* [[David Hilbert]], Nick Huggett, _Groups in Mind_, Philosophy of Science 73 (5):765-777 (2006) ([doi:10.1086/518635](https://philpapers.org/rec/HILGIM-2), [[HilbertHiggettGroups.pdf:file]])
+
 [[!redirects Euclidean group]]
 
 [[!redirects Galileo group]]
 
-* David Hilbert, Nick Huggett, _Groups in Mind_ ([pdf](http://tigger.uic.edu/~huggett/Nick/My%20Work_files/groups.pdf))
 
 [[!redirects Galilei group]]
 
