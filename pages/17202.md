@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[pointed object|pointed]] [[homotopy type]], i.e. [[pointed object|pointed]] [[infinity-groupoid]]
+A [[pointed object|pointed]] [[homotopy type]], i.e. [[pointed object|pointed]] [[infinity-groupoid]], i.e. an [[object]] in the [[coslice (∞,1)-category]] of [[∞Grpd]] under the [[point]]:
 
 $$
   X \in \infty Grpd^{\ast/}
