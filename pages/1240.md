@@ -458,13 +458,15 @@ _[[Zuckerman induction]]_. See there for more details.
 ### Traditional formulation
  {#ReferencesTraditionalFormulation}
 
+* encyclopaedia of math [induced representation](https://www.encyclopediaofmath.org/index.php/Induced_representation)
+
 Original articles includes
 
-* {#Mackey52} [[George Mackey]], _Induced Representations of Locally Compact Groups I_, Annals of Mathematics, 55 (1952) 101&#8211;139; 
+* {#Mackey52} [[George Mackey]], _Induced representations of locally compact groups I_, Annals of Mathematics, 55 (1952) 101&#8211;139; 
 
-* {#Mackey53} [[George Mackey]], _Induced Representations of Locally Compact Groups II_, Annals of Mathematics, 58 (1953) 193&#8211;221; 
+* {#Mackey53} [[George Mackey]], _Induced representations of locally compact groups II_, Annals of Mathematics, 58 (1953) 193&#8211;221; 
 
-* {#Mackey68} [[George Mackey]], _Induced Representations of Groups and Quantum Mechanics_, W. A. Benjamin, New York, 1968
+* {#Mackey68} [[George Mackey]], _Induced representations of groups and quantum mechanics_, W. A. Benjamin, New York, 1968
 
 
 Textbook accounts include
