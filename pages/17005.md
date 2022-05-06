@@ -79,6 +79,8 @@ over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy cla
 
 ## References
 
+### General
+
 Relation to [[Burnside ring]]
 
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2 , pages 59–63. Gauthier-Villars, Paris, 1971 ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
@@ -109,9 +111,17 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivaria
 
 * Christian Okonek, Andrei Teleman, _Cohomotopy Invariants and the Universal Cohomotopy Invariant Jump Formula_, J. Math. Sci. Univ. Tokyo 15 (2008), 325-409 ([pdf](http://www.matmor.unam.mx/~barcenas/nonlinearity.pdf))
 
-Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational]]  [[equivariant cohomotopy]] is in 
+### In M-brane charge quantization
+
+Discussion for [[M-brane]] physics:
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+  ([[equivariant rational homotopy theory|rational]]  [[equivariant cohomotopy]])
+
+* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+
+  (implying [[RR-field tadpole cancellation]])
 
 [[!redirects equivariant stable Cohomotopy]]
 
