@@ -1,3 +1,4 @@
+[[!redirects Nahm transform]]
 
 
 +-- {: .rightHandSide}
@@ -26,7 +27,7 @@
 
 ### In string theory
 
-Transversally intersecting [[Dp-D(p+2)-brane bound states]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
+Transversal [[Dp-D(p+2)-brane intersections]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
 
 ([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99))
 
@@ -62,6 +63,12 @@ The original articles;
 
 * [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
 
+Further discussion:
+
+
+* Rafe Mazzeo, [[Edward Witten]], _The Nahm Pole Boundary Condition_, In: _The influence of Solomon Lefschetz in geometry and topology_, Contemporary Mathematics 621 (2014): 171 ([doi:10.1090/conm/621](http://dx.doi.org/10.1090/conm/621))
+
+
 
 Review:
 
@@ -74,29 +81,40 @@ See also
 
 * Wikipedia, _[Nahm equations](https://en.m.wikipedia.org/wiki/Nahm_equations)_
 
+### For Dp-D(p+2) brane intersections
 
-### In string theory
+On transversal [[Dp-D(p+2) brane intersections]] as [[Yang-Mills monopoles]] / [[fuzzy funnel]]-solutions to [[Nahm's equation]]:
 
-
-
-
-For transversal [[D1-D3-brane bound states]]:
+For transversal [[D1-D3 brane intersections]]:
 
 * {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
 
-
 * [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
+
+* Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering_ ([arxiv:hep-th/0402163](https://arxiv.org/abs/hep-th/0402163))
+
+* Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
+
 
 For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
-* Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
+* {#GZZ09} Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
 
+For transversal [[D3-D5 brane intersections]]:
 
-With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
+* {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+
+For transversal [[D6-D8 brane intersections]] (with an eye towards [[AdS/QCD]]):
+
+* {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([https:arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
+
+and as transversal [[D6-D8-brane bound states]] on a [[half NS5-brane]] in [[type I' string theory]]:
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
-The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]]:
+### Lift to M-theory
+
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
 
 * [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
