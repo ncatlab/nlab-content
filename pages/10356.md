@@ -197,6 +197,9 @@ of the corresponding fractional D-brane in the $g$-[[twisted sector]].
 
 ([Douglas-Greene-Morrison 97, (3.8)](#DouglasGreeneMorrison97), [Diaconescu-Gomis 99 (2.4)](#DiaconescuGomis99), [Billó-Craps-Roose 01, (4.65) with (4.41)](#BilloCrapsRoose01), [EGJ 05, (4.5)](#EGJ05), [Recknagel-Schomerus 13 (4.102)](#RecknagelSchomerus13))
 
+### Tadpole cancellation
+
+See at _[[RR-field tadpole cancellation]]_ the section _[For fractional D-branes](RR-field+tadpole+cancellation#ForFractionalDBranes)_
 
 
 ## Related concepts
