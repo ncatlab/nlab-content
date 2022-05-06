@@ -49,9 +49,13 @@ Discussion of [[boundary conditions]] of the BLG model, leading to [[brane inter
 
 ## Related concepts
 
+* [[super Chern-Simons theory]]
+
 * [[BLG model]]
 
 * [[membrane matrix model]]
+
+
 
 [[!include superconformal symmetry -- table]]
 
