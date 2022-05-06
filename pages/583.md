@@ -72,7 +72,7 @@ There are many different kinds of of "logical theories", each of which correspon
 |[[dependent types]]| |[[locally cartesian closed category]]|
 |[[higher order logic|higher order]]| |[[topos|elementary topos]]|
 |[[linear logic]]| |[[symmetric monoidal category]]|
-|[[modal logic]]| |[[cohesive topos]]|
+|[[cohesive homotopy type theory|cohesive modal logic]]| |[[cohesive topos]]|
 
 Each type of logic up to and including "geometric" can also be described in terms of [[sketch|sketches]].  Not coincidentally, the corresponding types of category up to and including "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having finite products, such as finite sum sketches, but the type-theoretic approach taken on this page requires at least finite products (or else something closely akin, such as a [[cartesian multicategory]]).
 
