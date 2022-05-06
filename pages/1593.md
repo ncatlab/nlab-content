@@ -234,10 +234,31 @@ Specifically for [[D3-branes]]/[[D7-branes]]:
 
 * [Feng-He-Karch-Uranga 01](#FengHeKarchUranga01)
 
+Specifically 2d [[toroidal orbifold|toroidal]] orientifolds:
+
+2d toroidal [[orientifolds]]:
+
+* Dongfeng Gao, [[Kentaro Hori]], Section 7.3 of: _On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds_ ([arXiv:1004.3972](https://arxiv.org/abs/1004.3972))
+
+* {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+
 Various:
 
 * [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv.Theor.Math.Phys.12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
 
+
+### Orientifold Gepner models
+
+Orientifolds of [[Gepner models]]
+
+* Brandon Bates, [[Charles Doran]], Koenraad Schalm, _Crosscaps in Gepner Models and the Moduli space of T2 Orientifolds_ ([arXiv:hep-th/0612228](https://arxiv.org/abs/hep-th/0612228))
+
+
+Specifically [[string phenomenology]] and the [[landscape of string theory vacua]] of Gepner model [[orientifold]] compactifications:
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
 
 
 ### Lift to M-theory
