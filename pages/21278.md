@@ -1,3 +1,4 @@
+[[!redirects homotopy products]]
 ## Idea
 
 __Homotopy products__ are a special case of [[homotopy limits]],
@@ -9,7 +10,7 @@ In any [[model category]], the homotopy product
 of a family of objects $\{A_i\}_{i\in I}$
 can be computed by fibrantly replacing each $A_i$
 and computing the (ordinary) [[product]]
-of the resulting family $\{QA_i\}_{i\in I}$ of [[fibrant replacements]].
+of the resulting family $\{RA_i\}_{i\in I}$ of [[fibrant replacements]].
 
 ## Examples
 
@@ -24,5 +25,14 @@ of [[chain complexes]] and [[quasi-isomorphisms]].
 
 ## Related notions
 
-* [[homotopy limit]]
 * [[product]]
+
+* [[homotopy limit]]
+
+* [[homotopy pullback]]
+
+* [[homotopy equalizer]]
+
+* [[homotopy totalization]]
+
+[[!redirects homotopy products]]
