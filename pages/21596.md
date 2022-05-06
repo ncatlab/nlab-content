@@ -46,7 +46,7 @@ Here is a list of changes to existing rules of v0 that are possible because sani
 
 * As a consequence of the previous, the rule saying booleans are computations has become redundant and has been removed. It follows from case analysis on the boolean, and the fact that both canonical booleans are obviously computations, by the computation formation rules. The reason this argument didn't work in v0 is that you'd have trouble showing the motive is valid.
 
-* Another consequence of the strengthened $Bool$ elimination which is perhaps much more surprising: the $\bot$ elimination rule, which effectively said that the two booleans aren't equal, has become redundant and has been removed. Like in type theory with universes, you can prove this by interpreting the booleans as true and false *types*. This is possible despite the absence of universes because syntactically types are terms, so $Bool$ elimination allows type-level branching. The reason this didn't work in v0 is precisely that you'd need a universe as the motive of the elimination. There's another ingredient to the argument though, which is that type validity judgments can actually be expressed as trivial typing judgments, due to the primitive sanity and inversion rules. This is probably the best example of how those new primitive rules make an existing rule ($Bool$ elim) stronger: It's now effectively a judgment-level case analysis in that the motive can be any judgment that's syntactically well-formed, not just a type. (As icing on the cake, the derived $\bot$ elimination rule doesn't need a motive validity premise either. But this seems to require identity, a different v1 addition.)
+* Another consequence of the strengthened $Bool$ elimination which is perhaps much more surprising: The $\bot$ elimination rule, which effectively said that the two booleans aren't equal, has become redundant and has been removed. Like in type theory with universes, you can prove this by interpreting the booleans as true and false *types*. Why this is possible without universes is [[just kidding|explained elsewhere]], but it boils down to types syntactically being terms, having primitive sanity and inversion, and the strengthened $Bool$ elimination rule. (TODO: Explain this elsewhere!) (As icing on the cake, the derived $\bot$ elimination rule doesn't need a motive validity premise either. But this seems to require [identity](#IdType), a different v1 addition.)
 
 ## Relaxed Equality
 
@@ -153,12 +153,20 @@ Letcomp can also be understood as internalizing the meaning of the semantic hypo
 
 $(x:A \gg c = c' \in C)\;\leftrightarrow\;((A\,type) \to ((x:A \gg C\,type) \wedge \forall a,a'.(a = a' \in A) \to (c[a/x] = c'[a'/x] \in C[a/x])))$
 
-With this grand purpose as an attempt to complete the internalization of the PER semantics, it may not be surprising that letcomp is very useful for deriving rules for type constructors defined by PER comprehension. But it's not perfect. Rules that involve metavariables without an associated typing premise tend to cause trouble. Alas, it seems very difficult to do much about that. ("Pullback" types à la [Melliès & Zeilberger](#Foo) might address the most serious gaps. I have not tried this yet.) Notice however that intrinsic dependent type systems would not need rules with metavariables without typing premises. So the ability to derive type constructors and their rules seems quite substantial already.
+With this grand purpose as an attempt to complete the internalization of the PER semantics, it may not be surprising that letcomp is very useful for deriving rules for type constructors defined by PER comprehension. But it's not perfect. Rules that involve metavariables without an associated typing premise tend to cause trouble. Alas, it seems very difficult to do much about that. ("Pullback" types à la [Melliès & Zeilberger](#MZFuncRefine) might address the most serious gaps. I have not tried this yet.) Notice however that intrinsic dependent type systems would not need rules with metavariables without typing premises. So the ability to derive type constructors and their rules seems quite substantial already.
 
 There was actually an early version of letcomp for v0. But the soundness of letcomp was not established until after changing the semantics to support primitive inversions.
 
+## Identity Types {#IdType}
+
+TODO
+
 ## Miscellaneous
 
-In v0, there was a reflexivity rule in addition to the uniqueness and selectivity rules. That was redundant, and I simply hadn't noticed. So now reflexivity is derived from uniqueness and select left.
+In v0, there was a reflexivity rule for equality, in addition to the uniqueness and selectivity rules. That was redundant, and I simply hadn't noticed. So now reflexivity is derived from uniqueness and select left.
 
-Some reordering of rules, premises, and renaming of metavariables.
+There's been some reordering of rules, premises, and renaming of metavariables.
+
+## References
+
+* {#MZFuncRefine} Paul-André Melliès, Noam Zeilberger, _Functors are Type Refinement Systems_, POPL 2015 ([pdf](https://www.irif.fr/~mellies/papers/functors-are-type-refinement-systems.pdf))
