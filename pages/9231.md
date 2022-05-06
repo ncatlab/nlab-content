@@ -76,5 +76,9 @@ See also
 [[!redirects normal distribution]]
 [[!redirects normal distributions]]
 
+[[!redirects multivariate normal distribution]]
+[[!redirects multivariate normal distributions]]
+
+
 [[!redirects standard deviation]]
 [[!redirects standard deviations]]
