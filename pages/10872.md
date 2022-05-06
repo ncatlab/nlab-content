@@ -5,12 +5,14 @@
 
 ## Idea
 
-The standard [[quantum anomaly]] arising in a 2-dimensional [[sigma-model]], also called the _Weyl anomaly_
+In [[quantum field theory]] a _conformal anomaly_ is a [[quantum anomaly]] that breaks [[conformal invariance]].
 
 
-## Details
+## Examples
 
-Discussion as an anomalous action functional is in ([Freed 86, 2.](#Freed86)).
+### Weyl anomaly of relativistic string
+
+Discussion of the conformal anomaly (Weyl anomaly) of the [[relativistic string]] as an anomalous action functional is in ([Freed 86, 2.](#Freed86)).
 The following summary of this is taken from [this MO answer](http://mathoverflow.net/a/99667/381) by Pavel Safranov.
 
 
@@ -22,6 +24,9 @@ However, the space $Met(\Sigma)$ is enormous: for example, it has a free action 
 
 Everything in sight is diffeomorphism-invariant, so the only question is how does the integrand change under $Weyl(\Sigma)$. To descend the integral from $Met(\Sigma)$ to $Met(\Sigma)/Weyl(\Sigma)$ you need to trivialize the bundle $L_{det}\otimes L_g$ along the orbits of $Weyl(\Sigma)$. This is where the critical dimension comes in: the curvature of the natural connection on $L_{det}\otimes L_g$ (local anomaly) vanishes precisely when $d=26$. After that one also needs to check that the connection is actually flat along the orbits, so that you can indeed trivialize it.
 
+### QCD trace anomaly
+
+In [[quantum chromodynamics]]: See at _[[QCD trace anomaly]]_.
 
 ## Related concepts
 
@@ -31,10 +36,27 @@ Everything in sight is diffeomorphism-invariant, so the only question is how doe
 
 ## References
 
+### General
+
 * [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
   {#Freed86}
 
+* Nicolas Boulanger, _Algebraic Classification of Weyl Anomalies in Arbitrary Dimensions_, Phys. Rev. Lett.98:261302, 2007 ([arXiv:0706.0340](https://arxiv.org/abs/0706.0340))
+
+See also:
+
 * Wikipedia, _[Conformal anomaly](http://en.wikipedia.org/wiki/Conformal_anomaly)_
+
+### Via AdS/CFT
+
+Discussion via [[AdS/CFT]]:
+
+* Mans Henningson, Kostas Skenderis, _The Holographic Weyl anomaly_, JHEP 9807 (1998) 023 ([arXiv:hep-th/9806087](https://arxiv.org/abs/hep-th/9806087))
+
+* Mozhgan Mir, _On Holographic Weyl Anomaly_, JHEP 1310:084, 2013 ([arXiv:1307.5514](https://arxiv.org/abs/1307.5514))
+
+For more see at _[[QCD trace anomaly]]_ the references [there](QCD+trace+anomaly#ReferencesHolographicQCD).
+
 
 [[!redirects conformal anomalies]]
 
