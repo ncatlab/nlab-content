@@ -55,7 +55,9 @@ The terms that the CLF type system is about are called "[[realizers]]". (Since i
 
 CLF types only depend on realizers, never proof terms. So to handle proof checking rules analogous to certain rules of dependent type systems, a realizer needs to be extracted from a proof on the fly. (Nuprl works around such rules, since it doesn't extract realizers on the fly.) This solution is used in RedPRL, and is discussed in [Algebraic Foundations of Proof Refinement](#SterlingHarperRefinement), under the terminology "dependent proof refinement". An analogue of on-the-fly realizer extraction is used by Cedille too, and is called "erasure". This kind of proof checking algorithm seems to be an example of an elaboration algorithm: the input expressions (in this case, proof terms) are different from the internal terms (in this case, realizers).
 
-The only information from derivations that's missing from proof terms is derivations of definitional equality, which is beta conversion. This is enough to make proof checking undecidable, since beta convertibility of untyped realizers is undecidable. CLF will boldly automate beta conversion by comparing normal forms nonetheless. So CLF proof checking will not be total, but it will still be sound and complete with respect to formal derivability.
+The only information from derivations that's missing from proof terms is derivations of definitional equality, which is [[beta conversion]]. This is enough to make proof checking undecidable, since beta convertibility of untyped realizers is undecidable. CLF will boldly attempt to automate beta conversion by comparing [[normal form|normal forms]] nonetheless.
+
+Before normalizing terms, to compare them for definitional equality, they are first compared for [[alpha-equivalence]]. This allows the user to safely "hand-crank" an equality proof about terms without normal forms. So CLF proof checking will not be total, but it should still be sound and complete with respect to formal derivability.
 
 #### Proof terms as the Basis of Tactics
 
