@@ -217,7 +217,7 @@ That [[S-duality]] of [[type II string theory]] may be interpreted in terms of [
 
 The original article on F-theory as such is
 
-* [[Cumrun Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
+* [[Cumrun Vafa]], _Evidence for F-theory_, Nucl. Phys. B469:403-418, 1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
 
 An early survey of its relation to [[M-theory]] with [[M5-branes]] is in 
 
