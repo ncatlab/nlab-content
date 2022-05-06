@@ -37,7 +37,7 @@ $$
 
 being the pasting diagram of two 2-[[globes]] along a common 1-globe and of the result with a 1-globe and another 2-globe along common 0-globes.
 
-Such pasting diagrams may be alternatively be encoded in [[planar trees]], the above one corresponds to the tree:
+Such pasting diagrams may be alternatively encoded in [[planar trees]], the above one corresponds to the tree:
 
 $$
   \array{
