@@ -114,7 +114,7 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 * G. Laumon, L. Moret-Bailly, _Champs alg&#233;briques_ , Ergebn. der Mathematik und ihrer Grenzgebiete 39 , Springer-Verlag, Berlin, 2000
 {#LaumontMoret-Bailly}
 
-* {#deJong} [[Aise Johan de Jong]],  [chapter 47](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf#page=2103) of: _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* {#deJong} [[Aise Johan de Jong]], _[[The Stacks Project]]_, _[Tag026K](https://stacks.math.columbia.edu/tag/026K)_.
 
 
 Course notes are in
