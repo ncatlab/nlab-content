@@ -261,6 +261,10 @@ for $k \leq 2n$.
 
 ## Related concepts
 
+* [[Serre spectral sequence]]
+
+* [[Thom-Gysin sequence]]
+
 * [[long exact sequence in cohomology]]
 
 * [[long exact sequence of homotopy groups]]
