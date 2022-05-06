@@ -26,16 +26,16 @@ Besides this case, by "bialgebra cohomology" many authors in the literature mean
 
 ## Definition
 
-Let $(H,\mu,\eta,\Delta,\epsilon)$ be a $k$-[[bialgebra]]. 
+Let $(B,\mu,\eta,\Delta,\epsilon)$ be a $k$-[[bialgebra]]. 
 Denote $\Delta_i : B^{\otimes n}\to B^{\otimes (n+1)} := \id_B^{\otimes (i-1)}\otimes\Delta\otimes\id_B^{\otimes(n-i+1)}$, for $i = 1,\ldots, n$, and $\Delta_0 := 1_B\otimes \id_B^{\otimes n}$, $\Delta_n := \id_B^{\otimes n}\otimes 1_B$. Notice that for the compositions $\Delta_i\circ\Delta_j = \Delta_{j+1}\circ\Delta_i$ for $i\leq j$.
 
-Let $\chi$ be an invertible element of $H^{\otimes n}$. We define the __coboundary__ $\partial\chi$ by
+Let $\chi$ be an invertible element of $B^{\otimes n}$. We define the __coboundary__ $\partial\chi$ by
 
 $$\partial \chi = (\prod_{i=0}^{i \mathrm{ even}} \Delta_i\chi) (\prod_{i=0}^{i \mathrm{ odd}} \Delta_i \chi^{-1})$$
 
 This formula is symbolically also written as $\partial\chi = (\partial_+\chi)(\partial_-\chi^{-1})$. 
 
-An invertible $\chi\in H^{\otimes n}$ is an __$n$-cocycle__ if $\partial\chi = 1$. The cocycle $\chi$ is __counital__ if
+An invertible $\chi\in B^{\otimes n}$ is an __$n$-cocycle__ if $\partial\chi = 1$. The cocycle $\chi$ is __counital__ if
 for all $i$, $\epsilon_i\chi=1$ where $\epsilon_i =\id_B^{\otimes i-1}\otimes\epsilon\otimes\id_B^{\otimes n-i}$. 
 
 
