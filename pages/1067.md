@@ -226,6 +226,8 @@ There is another [[Hurewicz model structure on chain complexes]] whose homotopy 
 
 * [[rational stable homotopy theory]]
 
+* [[equivariant chain complex]]
+
 ## References
 
 
