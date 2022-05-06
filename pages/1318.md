@@ -1,9 +1,27 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Differential Graded Objects
++-- {: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+=--
+=--
 
+# Simplicial local system
 
-##Simplicial local systems
+## Definition
+
+A __simplicial local system__
+on a [[simplicial set]] $X$
+with coefficients in a category $C$
+(like [[abelian groups]], for example)
+is a [[functor]]
+$$\pi_{\le1}(X)\to C,$$
+where $\pi_{\le1}(X)$
+is (one of the models for) the [[simplicial fundamental groupoid]] of $X$.
+
+## References
 
 * NB. There is an entry at [[local system|local systems]] together with a blog link to David Speyer: _Three ways of looking at a local system_
 
