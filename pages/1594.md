@@ -163,6 +163,9 @@ Survey of basic orbifold theory:
 
 * Daryl Cooper, Craig Hodgson, Steve Kerckhoff, _Three-dimensional Orbifolds and Cone-Manifolds_,  MSJ Memoirs Volume 5, 2000 ([pdf](https://web.math.ucsb.edu/~cooper/37.pdf), [euclid:1389985812](https://projecteuclid.org/euclid.msjm/1389985812))
 
+* [[Ieke Moerdijk]], [[Janez Mrčun]], Section 2.4 of: _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics  __91__, 2003. x+173 pp. ISBN: 0-521-83197-0 ([doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450))
+
+
 * {#Kaye07} Adam Kaye, _Two-Dimensional Orbifolds_, 2007 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2007/REUPapers/FINALFULL/Kaye.pdf))
 
 * Michael Davis, _Lectures on orbifolds and reflection groups_, 2008 ([pdf](https://math.osu.edu/sites/math.osu.edu/files/08-05-MRI-preprint.pdf))
