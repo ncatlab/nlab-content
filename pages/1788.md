@@ -1,5 +1,7 @@
 [Hello](https://ncatlab.org)
 
+Hello
+
 ***
 
 \linebreak
@@ -29,4 +31,4 @@ yields this:
 
 ***
 
-* [[John Baez]], _Torsors made easy_, [web](http://math.ucr.edu/home/baez/torsors.html)
+* [[John Baez]], _Torsors made easy_, ([web](http://math.ucr.edu/home/baez/torsors.html))
