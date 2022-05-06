@@ -40,7 +40,7 @@ to the category [[Set]]. We say a category $C$ is _concretizable_ if and only if
 +-- {: .num_remark}
 ###### Remark 
 
-Very often it is useful to consider the case where $U$ is [[representable functor|representable]] by some [[object]] $c_0 \in C$, in that $U \simeq C(c_0,-)$. For example, this is important for the statement of various concrete [[duality|dualities]] induced by [[dual adjunctions]]. We say in this case that $(C, U: C \to Set)$ is _representably concrete_. By definition, the object $c_0$ is then a [[generator]] of the category.
+Very often it is useful to consider the case where $U$ is [[representable functor|representable]] by some [[object]] $c_0 \in C$, in that $U \simeq C(c_0,-)$. For example, this is important for the statement of various concrete [[duality|dualities]] induced by [[dual adjunctions]]. We say in this case that $(C, U: C \to Set)$ is _representably concrete_. By definition, the object $c_0$ is then a [[separator]] of the category.
 
 We remark that the existence of a left [[adjoint functor|adjoint]] $F$ to $U: C \to Set$ implies that $U$ is representable by $F(1)$. Conversely, if $C$ has [[coproducts]] or even just [[copowers]], then representability of $U$ implies that $U$ has a left adjoint. 
 =-- 
@@ -58,9 +58,9 @@ One can also consider concrete categories over any base category $X$ instead of 
 
 The following furnish examples of concrete categories, with the first three representably concrete: 
 
-* $C = Set$ itself with generator $c_0 = \{\bullet\}$ the singleton set. 
+* $C = Set$ itself with [[separator]] $c_0 = \{\bullet\}$ the singleton set. 
 
-* $C = Top$ with the generator $c_0$ taken to be the one-point space. 
+* $C = Top$ with the separator $c_0$ taken to be the one-point space. 
 
 * Any [[monadic functor]] $U: C \to Set$ is faithful (because it preserves equalizers and reflects isomorphisms) and has a left adjoint. As special cases, we have the usual collection of examples of concrete categories: [[monoid]]s, [[group]]s, [[ring]]s, [[algebra]]s, etc. 
 
@@ -68,11 +68,11 @@ A category may be concretizable in more than one way:
 
 * Take $ C $ to be the category of [[Banach space]]s with morphisms those (everywhere-defined) linear transformations with norm bounded (above) by $ 1 $ (so $ \| T v \| \leq \| v \| $ for all $ v $ in the source).  Then there are two versions of $ U $ that one may use: one where $ U ( V ) $ (for $ V $ a Banach space) consists of *every* vector in $ V $, and one where $ U ( V ) $ consists of those vectors bounded by $ 1 $ (so the closed unit ball in $ V $).  The first may seem more obvious at first, but only the second is representable (by a $ 1 $-dimensional Banach space). 
 
-* Insofar as categories such as $Set$, $Top$, $Vect_k$, etc. admit many generators, these categories may be rendered representably concrete in a variety of ways. Indeed, the category $Vect_k$ may be _monadic_ over $Set$ in many different ways. For example, if $V$ is $n$-dimensional, the functor $\hom(V, -): Vect_k \to Set$ is monadic and realizes $Vect_k$ as equivalent to the category of [[modules]] over the matrix algebra $\hom(V, V)$. 
+* Insofar as categories such as $Set$, $Top$, $Vect_k$, etc. admit many [[separators]], these categories may be rendered representably concrete in a variety of ways. Indeed, the category $Vect_k$ may be _monadic_ over $Set$ in many different ways. For example, if $V$ is $n$-dimensional, the functor $\hom(V, -): Vect_k \to Set$ is monadic and realizes $Vect_k$ as equivalent to the category of [[modules]] over the matrix algebra $\hom(V, V)$. 
 
 * Any Grothendieck topos is concretizable, but not necessarily (and typically not) representably concretizable. If $E = Sh(C, J)$ is the category of sheaves on a small site $(C, J)$, we have a familiar string of faithful functors 
 $$Sh(C, J) \hookrightarrow Set^{C^{op}} \stackrel{monadic}{\to} Set/C_0 \stackrel{\Sigma_{C_0}}{\to} Set.$$ 
-But if for example $E$ is the category of sheaves over $\mathbb{R}$, then no object $X$ can serve as a single generator of $E$, since it cannot detect differences between arrows $Y \stackrel{\to}{\to} Z$ whenever the support of $Y$ is strictly contained in the support of $X$. 
+But if for example $E$ is the category of sheaves over $\mathbb{R}$, then no object $X$ can serve as a single separator of $E$, since it cannot detect differences between arrows $Y \stackrel{\to}{\to} Z$ whenever the support of $Y$ is strictly contained in the support of $X$. 
 
 * A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]]. The category of [[concrete sheaves]] on a concrete site is concrete. 
 
@@ -96,7 +96,7 @@ By assumption, there is a faithful functor $U^{op}: C^{op} \to Set^{op}$, and $\
 
 +-- {: .num_remark} 
 ###### Remark 
-Of course, since a category $C$ may possess a generator but no cogenerator, it does not follow that $C^{op}$ is representably concrete if $C$ is. 
+Of course, since a category $C$ may possess a separator but no [[coseparator]], it does not follow that $C^{op}$ is representably concrete if $C$ is. 
 =-- 
 
 ### Characterization
