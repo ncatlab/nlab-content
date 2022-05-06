@@ -34,7 +34,9 @@ The area of Topological Data Analysis (TDA) has emerged recently as being that p
 
 ### General
 
-* Afra Zomorodian, _Topological data analysis_ , in _Advances in Applied and Computational Topology_, Proc. Symp. Applied Math vol 70, (more information [here](http://www.ams.org/bookstore-getitem/item=PSAPM-70)).
+* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+
+* Afra Zomorodian, _Topological data analysis_, In: _Advances in Applied and Computational Topology_, Proc. Symp. Applied Math vol 70, 2011 ([ams:psapm-70](https://bookstore.ams.org/psapm-70))
 
 See also 
 
