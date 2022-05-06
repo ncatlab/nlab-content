@@ -1343,7 +1343,7 @@ For other textbook reference see any of the references listed at _[[category the
 
 The history of the idea that adjoint functors formalize aspects of [[dialectics]] is recounted in 
 
-* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
+* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982) ([doi:10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6))
 
 For more on this see at _[[adjoint modality]]_.
 
