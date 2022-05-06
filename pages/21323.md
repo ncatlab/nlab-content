@@ -136,6 +136,11 @@ For [[pions]]:
 * V. Bolotov, _The radiative pion decays_ ([[BolotovRadiativePionDecay.pdf:file]])
 
 
+### In relation to flavor anomalies
+
+In relation to [[flavour anomalies]]:
+
+* N. Penalva, E. Hernández, J. Nieves, _Hadron and lepton tensors in semileptonic decays including new physics_ ([arXiv:2004.08253](https://arxiv.org/abs/2004.08253))
 
 
  
