@@ -1,5 +1,4 @@
 
-
 ### Weight systems on chord diagrams in Physics
  {#ReferencesWeightSystemsOnChordDiagramsInPhysics}
 
@@ -46,6 +45,12 @@ Reviewed in:
 Applied to [[Gopakumar-Vafa duality]]:
 
 * Dave Auckly, Sergiy Koshkin, _Introduction to the Gopakumar-Vafa Large $N$ Duality_, Geom. Topol. Monogr. 8 (2006) 195-456 ([arXiv:0701568](https://arxiv.org/abs/math/0701568))
+
+See also
+
+* [[Marcos Mariño]], _Chern-Simons theory, matrix integrals, and perturbative three-manifold invariants_, Commun. Math. Phys. 253 (2004) 25-49 ([arXiv:hep-th/0207096](https://arxiv.org/abs/hep-th/0207096))
+
+* [[Stavros Garoufalidis]], [[Marcos Mariño]], _On Chern-Simons matrix models_ ([pdf](http://people.mpim-bonn.mpg.de/stavros/publications/matrixmodels.pdf), [[GaroufalidisMarinoChernSimonsMatrixModel.pdf:file]])
 
 
 #### For single trace operators in AdS/CFT duality
