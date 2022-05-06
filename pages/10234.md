@@ -64,4 +64,16 @@ On the [[spin]] of the proton ([[proton spin crisis]]):
 
 * Anthony Thomas, _The resolution of the proton spin crisis_, 2008 ([pdf](http://www4.rcf.bnl.gov/~nouicer/BNL_seminars/AWT_2.pdf))
 
+On the [[mass]] of the proton and the [[mass gap problem]] ($\sim$[[confinement]]-problem) of [[QCD]]:
+
+* Craig D. Roberts, _On Mass and Matter_ ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340))
+
+
+
+
+
+
+
+
+
 [[!redirects protons]]
