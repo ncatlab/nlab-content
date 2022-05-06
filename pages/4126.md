@@ -224,6 +224,13 @@ The original paper outlining [[Gleason's theorem]] is
 
 * {#Gleason57} A. M. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
   
+A technical discussion on the interplay of Gleason's and Kochen-Specker theorems and various issues regarding non-contextuality, locality and Bell inequality appears in Chapter 5 of
+
+
+* [[Valter Moretti]], Fundamental Mathematical Structures of Quantum Theory:
+Spectral Theory, Foundational Issues, Symmetries, Algebraic Formulation
+Springer (2019)
+
 The hierarchy of strengths of no-go theorems in quantum context is studied from sheaf theoretic perspective in
 
 * Samson Abramsky, Adam Brandenburger, _The sheaf-theoretic structure of non-locality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
