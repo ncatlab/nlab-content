@@ -69,7 +69,7 @@ The first graphics shows the measured cross section (in [[physical unit|units]] 
 \end{imagefromfile}
 
 
-The second graphics shows the same data, now zoomed into the region of the [[light vector mesons]]. One sees clearly that in this region the [[graph of a function|graph]] of the [[scattering cross section]] is completely dominated first of all by the broad [[rho-meson|ρ]]$^0$ peak at a [[mass]] of $\sim 770$ [[MeV]] (see also [Murphy-Yount 71, Fig. 4](#MurphyYount71)), accompanied just by two sharp spikes, corresponding to the [[omega-meson|ω]] at $\sim 783$ [[MeV]] and the [[phi-meson|ϕ]] at $\sim 1020$ [[MeV]].
+The second graphics shows the same data, now zoomed into the region of the [[light vector mesons]]. One sees clearly that in this region the [[graph of a function|graph]] of the [[scattering cross section]] is completely dominated first of all by the broad [[rho-meson|ρ]]$^0$ peak at a [[mass]] of $\sim 770$ [[MeV]] (see also [Murphy-Yount 71, Fig. 4](#MurphyYount71)), accompanied just by two sharp spikes, corresponding to the [[omega-meson|ω]] at $\sim 783$ [[MeV]] and the [[phi-meson|ϕ]] at $\sim 1020$ [[MeV]] (see also [Schildknecht 72, Table 1](#Schildknecht72)).
 
 
 
@@ -164,7 +164,9 @@ Review:
 
 * {#OCPTW95} H. B. O'Connell, B. C. Pearce, A. W. Thomas, A. G. Williams, _Rho-omega mixing, vector meson dominance and the pion form-factor_, Prog. Part. Nucl. Phys. 39:201-252, 1997 ([arXiv:hep-ph/9501251](https://arxiv.org/abs/hep-ph/9501251))
 
-* {#Schildknecht05} Dieter Schildknecht, _Vector Meson Dominance_, Acta Phys. Polon. B37:595-608, 2006 ([arXiv:hep-ph/0511090](https://arxiv.org/abs/hep-ph/0511090))
+* {#Schildknecht05} [[Dieter Schildknecht]], _Vector Meson Dominance_, Acta Phys. Polon. B37:595-608, 2006 ([arXiv:hep-ph/0511090](https://arxiv.org/abs/hep-ph/0511090))
+
+* {#Schildknecht72} [[Dieter Schildknecht]], _Vector meson dominance, photo- and electroproduction from nucleons_,  in: _Photon-Hadron Interactions II_ Springer Tracts in Modern Physics, vol 63. Springer 1972 ([doi:10.1007/BFb0041507](https://doi.org/10.1007/BFb0041507))
 
 See also
 
