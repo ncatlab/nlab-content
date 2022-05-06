@@ -7,9 +7,14 @@ On [[geometric engineering of quantum field theory]]:
 
 * [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) [pdf](http://edoc.hu-berlin.de/dissertationen/physik/karch-andreas/PDF/Karch.pdf)
 
-On [[AdS-QCD]]:
+On [[geometric engineering of QFT|geometric engineering]] of [[flavour physics]] in [[intersecting D-brane models]] ([[AdS/QCD]]):
 
-* {#KKSS06} [[Andreas Karch]], Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
+* [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
+
+On [[confinement]] via [[AdS-QCD]]:
+
+* {#KKSS06} [[Andreas Karch]], [[Emanuel Katz]], Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys. Rev. D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
+
 
 On [[Seiberg duality]] for [[gauge group]]s which are [[exceptional Lie group]]s:
 
