@@ -48,7 +48,7 @@ $$
   \simeq
   B^{n} U(1)
   \simeq
-  B^{n+}^\mathbb{Z}
+  B^{n+1} \mathbb{Z}
   \simeq
   K(\mathbb{Z}, n+1)
  \,.
