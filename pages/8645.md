@@ -36,6 +36,7 @@ The physics literature typically focuses on describing this $SU(2)$-bundle in te
 
   * [[caloron correspondence]]
 
+* [[NS5-brane]] in [[heterotic string theory]]
 
 ## References
 
