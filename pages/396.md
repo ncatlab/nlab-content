@@ -29,6 +29,16 @@ between [[hom sets]] is [[bijective]].  "Full and faithful" is sometimes shorten
 
 * Fully faithful functors are closed under [[pushouts]] in [[Cat]].  For ordinary categories this was proven by [Fritch and Latch](#FL); for [[enriched categories]] it is proven in [Stanculescu, Prop. 3.1](#Stanculescu), and for [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson).
 
+* Fully faithful functors $F : C \to D$ can be characterized as those functors for which the following square is a pullback, where the vertical maps are source and target, and the horizontal maps are induced by $F$
+$$
+  \array{
+    C^{[1]} &\to& D^{[1]}
+    \\
+    \downarrow && \downarrow
+    \\
+    C \times C &\to& D \times D
+  }
+$$
 
 ## Generalizations
 
