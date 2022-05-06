@@ -1,4 +1,5 @@
 
+$\omega$ $\rho$ $\phi$
 
 $\ell$
 
