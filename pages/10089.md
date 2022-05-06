@@ -9,6 +9,10 @@ On [[open/closed string duality]]:
 
 * [[Leonardo Rastelli]], _Lectures on open/closed string duality_, PiTP 2004 ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf), [[RastelliStringDuality.pdf:file]])
 
+On [[double trace operators]] in [[AdS/CFT]]:
+
+* Thomas Hartman, [[Leonardo Rastelli]], _Double-Trace Deformations, Mixed Boundary Conditions and Functional Determinants in AdS/CFT_, JHEP 0801:019, 2008 ([arXiv:hep-th/0602106](https://arxiv.org/abs/hep-th/0602106))
+
 
 On [[conformal bootstrap]] for [[SCFT]]:
 
