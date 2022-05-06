@@ -88,7 +88,7 @@ for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGK
 <img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDuality.jpg" width="660">
 </center>
 
-For review of the literature see slso [Dimofte 16, Section 4.1](#Dimofte16).
+For review of the literature see also [Dimofte 16, Section 4.1](#Dimofte16).
 
 ## Related concepts
 
@@ -147,7 +147,7 @@ See also
 
 * {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
-* {#GaroufalidisThurstonZickert11} Stavros Garoufalidis, [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
+* {#GaroufalidisThurstonZickert11} [[Stavros Garoufalidis]], [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
 
 ### Via string theory
 
@@ -177,7 +177,7 @@ A conceptual explanation of the volume conjecture via [[analytically continued C
 Suggestion that the statement of the [[volume conjecture]] is really [[AdS-CFT duality]] combined with the [[3d-3d correspondence]] for [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
 
 
-* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, Section 3.2_Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, Section 3.2 of: _Holography of 3d-3d correspondence at Large $N$_, JHEP 04 (2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
 
 * {#GangKim18} Dongmin Gang, [[Nakwoo Kim]], around (21) of: _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
