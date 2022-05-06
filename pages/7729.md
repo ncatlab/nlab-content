@@ -81,6 +81,8 @@ This observation opens the door to a widened interpretation of "interpretation" 
 
 * [[exceptional structure]]
 
+* [[higher structure]]
+
 ## References
 
 Standard textbook accounts include
