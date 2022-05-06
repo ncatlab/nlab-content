@@ -73,7 +73,12 @@ The [[subgroup]] of [[orientation]]-preserving symmetries of the [[icosahedron]]
 Hence the [[order of a group|order]] of the full icosahedral group is $ 60 \times 2 = 120 $, as is that of the binary icosahedral group $2 I$.
 
 
++-- {: .num_prop #IsomorphismToSL25}
+###### Proposition
+
 There is an exceptional [[isomorphism]] $I \simeq PSL_2(\mathbb{F}_5)$, with $2I \simeq SL_2(\mathbb{F}_5)$ covering this isomorphism.
+
+=--
 
 ($PSL_2$ the [[projective special linear group]], $SL_2$ the [[special linear group]], $\mathbb{F}_5$ the [[prime field]] for $p = 5$)
 
