@@ -745,7 +745,7 @@ Review:
 
 * Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
 
-* {#SonnenscheinWeissman18} Jacob Sonnenschein, Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
+* {#SonnenscheinWeissman18} [[Jacob Sonnenschein]], Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
 
 
 * Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
@@ -773,18 +773,18 @@ original articles:
 
 * {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
 
-* {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large N Gauge Theory Dynamics as Seen by String Theory_, Phys. Rev. D58:106002,1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
+* {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large $N$ Gauge Theory Dynamics as Seen by String Theory_, Phys. Rev. D58:106002, 1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
 
-* {#BISY98} A. Brandhuber, N. Itzhaki, J. Sonnenschein, S. Yankielowicz  _Baryons from Supergravity_, JHEP 9807:020,1998 ([arxiv:hep-th/9806158](https://arxiv.org/abs/hep-th/9806158))
-
-
-* Yosuke Imamura, _Supersymmetries and BPS Configurations on Anti-de Sitter Space_, Nucl. Phys. B537:184-202,1999 ([arxiv:hep-th/9807179](https://arxiv.org/abs/hep-th/9807179))
+* {#BISY98} A. Brandhuber, N. Itzhaki, [[Jacob Sonnenschein]], [[Shimon Yankielowicz]],  _Baryons from Supergravity_, JHEP 9807:020, 1998 ([arxiv:hep-th/9806158](https://arxiv.org/abs/hep-th/9806158))
 
 
-* {#CGS98} Curtis G. Callan, Alberto Guijosa, Konstantin G. Savvidy, _Baryons and String Creation from the Fivebrane Worldvolume Action_ ([arxiv:hep-th/9810092](https://arxiv.org/abs/hep-th/9810092))
+* Yosuke Imamura, _Supersymmetries and BPS Configurations on Anti-de Sitter Space_, Nucl. Phys. B537:184-202, 1999 ([arxiv:hep-th/9807179](https://arxiv.org/abs/hep-th/9807179))
 
 
-* Curtis G. Callan, Alberto Guijosa, Konstantin G. Savvidy, Oyvind Tafjord, _Baryons and Flux Tubes in Confining Gauge Theories from Brane Actions_, Nucl. Phys. B555 (1999) 183-200 ([arxiv:hep-th/9902197](https://arxiv.org/abs/hep-th/9902197))
+* {#CGS98} [[Curtis Callan]], Alberto Guijosa, Konstantin G. Savvidy, _Baryons and String Creation from the Fivebrane Worldvolume Action_ ([arxiv:hep-th/9810092](https://arxiv.org/abs/hep-th/9810092))
+
+
+* [[Curtis Callan]], Alberto Guijosa, Konstantin G. Savvidy, Oyvind Tafjord, _Baryons and Flux Tubes in Confining Gauge Theories from Brane Actions_, Nucl. Phys. B555 (1999) 183-200 ([arxiv:hep-th/9902197](https://arxiv.org/abs/hep-th/9902197))
 
 Review:
 
