@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,20 +33,87 @@ In analogy to how the [[representation ring]] of a [[finite group]] is equivalen
 ###### Proposition
 **([[Burnside ring]] is [[equivariant stable cohomotopy]] of the [[point]])**
 
-Let $G$ be a [[finite group]]. Its [[Burnside ring]] $A(G)$ is [[isomorphism|isomorphic]] to the [[equivariant stable cohomotopy]] [[cohomology ring]] $\mathbb{S}_G(\ast)$ of the [[point]] in degree 0. 
+Let $G$ be a [[compact Lie group]] (for instance a [[finite group]]). Its [[Burnside ring]] $A(G)$ is [[isomorphism|isomorphic]] to the [[equivariant stable cohomotopy]] [[cohomology ring]] $\mathbb{S}_G(\ast)$ of the [[point]] in degree 0, via the Lefschwetz-Dold index:
 
 $$
-  A(G) \overset{\simeq}{\longrightarrow} \mathbb{S}_G(\ast)
+  A(G)
+    \underoverset{\simeq}{LD}{\longrightarrow} 
+  \mathbb{S}_G(\ast)
   \,.
 $$
 
-Moreover, an explicit isomorphism is given by the Lefschetz-Dold index map.
+More in detail, for $G$ a [[finite group]], this [[isomorphism]] identifies the [[Burnside character]] on the left with the [[fixed locus]]-[[degree of a continuous function|degrees]] on the right, hence for all [[subgroups]] $H \subset G$
+
+1. the $H$-[[Burnside marks]] $\left\vert S^H \right\vert \in \mathbb{Z}$ of [[virtual representation|virtual]] [[finite set|finite]] [[G-sets]] $S$ 
+
+   (which, as $H \subset G$ ranges, completely characterize the [[G-set]], by [this Prop.](table+of+marks#BurnsideCharacterIsInjective))
+
+1. the [[degree of a continuous function|degrees]] $deg\left( \left(LD(S)\right)^H\right) \in \mathbb{Z}$ at $H$-[[fixed points]] of representative [[equivariant Cohomotopy]] [[cocycles]] $LD(S) \colon S^V \to S^V$ 
+
+   (which completely characterize the [[equivariant Cohomotopy]]-class by the [[equivariant Hopf degree theorem]], [this Prop.](Hopf+degree+theorem#EquivariantHopfDegreeTheorem))
+
+\[
+  \label{CorrespondenceOnMarksAndDegrees}
+  \array{
+    A(G)
+    &\underoverset{\simeq}{LD}{\longrightarrow}&
+    \underset{\longrightarrow_{\mathrlap{V}}}{\lim}
+    \;\;
+    \left(
+      \pi_0 
+      \mathrm{Maps}^{\{0\}/}
+      \left(
+        S^V, S^V
+      \right)^G
+    \right)
+    &=&
+    \mathbb{S}_G(\ast)
+    \\
+    S &\mapsto& LD(S)
+    \\
+    \underset{
+      \mathclap{
+        \text{Burnside character}
+      }
+    }{
+    \underbrace{
+    \left(
+      H \mapsto
+      \left\vert 
+        S^H
+      \right\vert
+    \right)
+    }
+    }
+    &=&
+    \underset{
+      \mathclap{
+        \text{degrees on fixed strata}
+      }
+    }{
+      \underbrace{
+      \left(
+        H 
+        \;\mapsto\;
+        deg
+        \left(
+          S^{ dim\left( V^H\right) }
+          \overset{\big(LD(S)\big)^H}{\longrightarrow}
+          S^{ dim\left( V^H\right) }
+        \right)
+      \right)
+      }
+    }
+  }
+\]
+
+For $G$ a [[compact Lie group]] this correspondence remains intact, with the relevant conditions on subgroups $H$ ([[closed subset|closed]] subgroups such that the [[Weyl group]] $W_G(H) \coloneqq N_G(H)/H$ is a [[finite group]]) and generalizing the [[Burnside marks]] to the [[Euler characteristic]] of [[fixed loci]].
 
 =--
 
-This is due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [tom Dieck-Petrie 78](#tomDieckPetrie78), [Lück 05, theorem 1.13](#Lueck05).
+The statement is due to [Segal 71](#Segal71), a detailed proof making manifest the correspondence (eq:CorrespondenceOnMarksAndDegrees) is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [tom Dieck-Petrie 78](#tomDieckPetrie78), [Lück 05, theorem 1.13](#Lueck05).
 
-From a broader perspective, this statement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]] (e.g. [Schwede 15, theorem 6.14](#Schwede15)), see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra). 
+From a broader perspective of [[equivariant stable homotopy theory]], this statement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]] (e.g. [Schwede 15, theorem 6.14](#Schwede15)), see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra). 
 
 
 ## References
