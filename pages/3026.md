@@ -252,8 +252,7 @@ Regarding the third point: We need to show that $i \colon X \to i(X) \subset X^\
 +-- {: .num_remark #CompactHausdorffSpaceIsCompactificationOfComplementOfAnyPoint}
 ###### Remark
 
-For $X$ a [[compact Hausdorff space]] and $x_0 \in X$ any point, then 
-$X$ is [[homeomorphism|homeomorphic]] to the one-point compactification
+If $X$ is a [[compact Hausdorff space]] and $x_0 \in X$ any point, then $X$ is [[homeomorphism|homeomorphic]] to the one-point compactification
 of the [[complement]] [[subspace]] $X \setminus \{x_0\} \subset X$:
 
 $$
@@ -261,7 +260,7 @@ $$
   \,.
 $$
 
-Observe also that $X \setminus \{x_0\}$, being an [[open subspace]] of a [[compact Hausdorff space]] is a [[locally compact topological space]], since [[open subspaces of compact Hausdorff spaces are locally compact]], and of course it is Hausdorff, since $X$ is.
+Observe also that $X \setminus \{x_0\}$, being an [[open subspace]] of a [[compact Hausdorff space]], is a [[locally compact topological space]], since [[open subspaces of compact Hausdorff spaces are locally compact]], and of course it is Hausdorff, since $X$ is.
 
 =--
 
