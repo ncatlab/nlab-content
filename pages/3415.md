@@ -90,6 +90,17 @@ The [[fibrant objects]] in $sSet_{Joyal}$ are precisely those that are [[inner f
 
 ([Lurie, theorem 2.4.6.1](#Lurie))
 
+\begin{proposition}
+The set of inner horn inclusions
+together with a set of representatives of weak equivalences $\{0\}\to B$,
+where $B$ has two vertices and countably many nondegenerated simplices,
+is a set of generating acyclic cofibrations for the Joyal model structure.
+\end{proposition}
+
+\begin{proof}
+See \cite[Theorem B]{Stevenson}.
+\end{proof}
+
 ### Relation to the model structure for $\infty$-groupoids {#RelToInfGrpds}
 
 The inclusion of [[(∞,1)-category|(∞,1)-catgeories]] [[? Grpd]] $\stackrel{i}{\hookrightarrow}$ [[(∞,1)Cat]] has a left and a right [[adjoint (∞,1)-functor]]
@@ -187,6 +198,12 @@ A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriche
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
+
+Another construction is given in
+
+\bibitem{Stevenson}
+Danny Stevenson.
+Notes on the Joyal model structure.
 
 The relation to the model structure for [[complete Segal space]]s is in
 
