@@ -1,5 +1,5 @@
 
-Gell-mann takes this title from the writings of [[Isaac Newton]]
+[Gell-Mann 96](#Gell-Mann96) takes this title from the writings of [[Isaac Newton]]:
 
 > For Nature is very consonant and conformable to her self... For we must learn from the phaenomena of nature what bodies attract one another, and what are the laws and properties of the attraction, before we enquire the cause by which the attraction is perform'd, the attractions of gravity, magnetism and electricity, react to very sensible distances, and so have been observed by vulgar eyes, and there may be others which reach to so small distances as hitherto escape observation; and perhaps electrical attraction may react to such small distances, even without being excited by friction. (Opticks)
 
