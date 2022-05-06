@@ -27,12 +27,16 @@ Hints of [[flavour anomalies]] indicate that something peculiar may be going on 
 
 ## Related concepts
 
+* the [[mesons]] including [[bottom quarks]] are [[B-mesons]]
+
+* the [[charmonium]] formed from [[bottom quarks]] are [[upsilon-mesons]]
+
 [[!include flavors of fundamental particles -- table]]
 
 
 ## References
 
-See also
+See also:
 
 * Wikipedia, _[Bottom quark](https://en.wikipedia.org/wiki/Bottom_quark)_
 
