@@ -38,7 +38,7 @@ $$
 
 Mapping stacks of [[orbifolds]] have been discussed in 
 
-* W. Chen, _On a notion of maps between orbifolds_, I. Function spaces, Commun. Contemp. Math. 8 (2006), no. 5, 569&#8211;620.
+* [[Weimin Chen]], _On a notion of maps between orbifolds, I. Function spaces_, Commun. Contemp. Math. 8 (2006), no. 5, 569&#8211;620 ([doi:10.1142/S0219199706002246](https://doi.org/10.1142/S0219199706002246))
 
 More general results in the context of [[differentiable stacks]] ([[orbifolds]]) are in
 
@@ -52,7 +52,7 @@ That the mapping stack out of the circle into a topological stack is again a top
 
 General mapping stacks of [[topological stacks]] are discussed in 
 
-* {#Noohi08} [[Behrang Noohi]], _Mapping stacks of topological stacks_ ([arXiv:0809.2373](http://arxiv.org/abs/0809.2373))
+* {#Noohi08} [[Behrang Noohi]], _Mapping stacks of topological stacks_, Journal für die reine und angewandte Mathematik, Volume 2010, Issue 646 ([arXiv:0809.2373](http://arxiv.org/abs/0809.2373), [doi:10.1515/crelle.2010.067](https://doi.org/10.1515/crelle.2010.067))
  
 
 
