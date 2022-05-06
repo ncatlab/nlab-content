@@ -111,7 +111,7 @@ An essentially equivalent way to give the definition, due to Paulin-Mohring, is
 
     Inductive id {A} (x:A) : A -> Type := idpath : id x x.   
 
-The difference here is that now $x$ is a *parameter* of the inductive definition rather than an *index*.  In other words, the first definition says "for each type $A$, we have an type $Id_A$ dependent on $A\times A$, inductively defined by a constructor $idpath$ which takes an element $x\colon A$ as input and yields output in $Id_A(x,x)$" while the second definition says "for each type $A$ and each element $x\colon A$, we have a type $Id_A(x)$ dependent on $A$, inductively defined by a constructor $idpath$ which takes *no* input and yields output in $Id_A(x)(x)$."  The two formulations can be proven equivalent, but sometimes one is more convenient than the other.
+The difference here is that now $x$ is a *parameter* of the inductive definition rather than an *index*.  In other words, the first definition says "for each type $A$, we have a type $Id_A$ dependent on $A\times A$, inductively defined by a constructor $idpath$ which takes an element $x\colon A$ as input and yields output in $Id_A(x,x)$" while the second definition says "for each type $A$ and each element $x\colon A$, we have a type $Id_A(x)$ dependent on $A$, inductively defined by a constructor $idpath$ which takes *no* input and yields output in $Id_A(x)(x)$."  The two formulations can be proven equivalent, but sometimes one is more convenient than the other.
 
 
 ### Extensionality and $\eta$-conversion
