@@ -5,7 +5,7 @@ V&#283;ra Trnkov&#225; (1934 - 2018) was a pure [[category theory|category theor
 
 * [webpage](http://www.karlin.mff.cuni.cz/~trnkova/)
 * [short obituary (in Czech)](https://www.mff.cuni.cz/verejnost/konalo-se/2018-05-trnkova/)
-* J. Adámek, M. Katětov: Věra Trnková's unbelievable 60, in Mathematica Bohemica [dml.cz](http://dml.cz/dmlcz/126082), 1994.
+* J. Adámek, M. Katětov: Věra Trnková's unbelievable 60, in Mathematica Bohemica [dml.cz](https://dml.cz/handle/10338.dmlcz/126082), 1994.
 
 ## related entries
 
