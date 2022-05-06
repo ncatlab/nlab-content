@@ -130,7 +130,7 @@ and then in
 
 * {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
 
-The relationon between the 2d [[SCFT]] describing the [[type II superstring]] and this deformed supersymmetric quantum mechanics on loop space has been further explored in 
+The relation between the 2d [[SCFT]] describing the [[type II superstring]] and this deformed supersymmetric quantum mechanics on loop space has been further explored in 
 
 * {#Schreiber04} [[Urs Schreiber]], _On deformations of 2d SCFTs_, JHEP 0406:058,2004 ([arXiv:hep-th/0401175](http://arxiv.org/abs/hep-th/0401175))
 
