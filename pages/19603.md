@@ -67,6 +67,8 @@ Work conducted in homotopy type theory:
 
 * Auke Booij, _Constructive analysis in univalent type theory_, ([slides](https://www.cs.bham.ac.uk/~abb538/slides/2018-02-darmstadt.pdf))
 
+* Kristina Sojakova, _The equivalence of the torus and the product of two circles in homotopy type theory_, ([arXiv:1510.03918](https://arxiv.org/abs/1510.03918))
+
 
 ### Modal homotopy type theory
 
