@@ -210,7 +210,9 @@ The terminology "$p$-brane" originates in
 
 * {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
+For more history see
 
+* [[Mike Duff]], _Thirty years of Erice on the brane_, Based on lectures at the International Schools of Subnuclear Physics 1987-2017 and the International Symposium "60 Years of Subnuclear Physics at Bologna", University of Bologna, November 2018 ([arXiv:1812.11658](https://arxiv.org/abs/1812.11658))
 
 ### General
   
