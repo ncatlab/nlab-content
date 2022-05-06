@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -31,4 +46,8 @@ See also
 
 * Wikipedia, _[Entropy of entanglement](http://en.wikipedia.org/wiki/Entropy_of_entanglement)_
 
+[[!redirects entanglement entropies]]
+
+
 [[!redirects entropy of entanglement]]
+
