@@ -42,6 +42,10 @@ In generalization of [[topological K-theory]] as the prototypical example of a [
 
 * [[equivariant formal group]]
 
+* [[projective G-space]]
+
+* [[tautological equivariant line bundle]]
+
 * [[real oriented cohomology theory]]
 
 ## References
