@@ -95,6 +95,8 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 * [[Serre finiteness theorem]]
 
+* The [[non-abelian cohomology|non-abelian]] [[generalized cohomology theory]] [[representable functor|represented]] by [[rational n-spheres]] is _[[rational Cohomotopy cohomology theory]]_.
+
 
 [[!include Sullivan models -- examples]]
 
