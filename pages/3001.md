@@ -1,3 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In [[algebraic topology]] one defines and uses [[functor]]s from some category of [[topological space]]s to some category of algebraic objects to help solve some existence or uniqueness problem for spaces or maps. 
 
 There are 4 basic problems of algebraic topology for the existence of maps: extension problems, retraction problems, lifting problems and section problems.
