@@ -141,9 +141,9 @@ where $e$ is a [[regular epimorphism]] and $i$ a [[monomorphism]].
 +-- {: .proof}
 ###### Proof
 
-Let $e : x \to im(f)$ be the [[coequalizer]] of the [[kernel pair]] of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: im(f) \to c$ such that $f = i e$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors.  
+Let $e : x \to im(f)$ be the [[coequalizer]] of the [[kernel pair]] of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: im(f) \to y$ such that $f = i e$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors.  
 
-A proof is spelled out on p. 32 of ([vanOosten](#vanOosten)).
+A proof is spelled out on p. 30 of ([vanOosten](#vanOosten)).
 
 =--
 
