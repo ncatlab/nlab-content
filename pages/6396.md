@@ -60,6 +60,11 @@ On [[type I' string theory]]:
 
 * {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: [[Mikhail Shifman]] (ed.), _[[The Many Faces of the Superworld]]_, pp. 388-397 (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
 
+Review of [[dualities in string theory]]:
+
+* [[John Schwarz]], _Lectures on Superstring and M Theory Dualities_, Nucl. Phys. Proc. Suppl. 55B:1-32, 1997 ([arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201))
+
+
 On the history of [[string theory]]:
 
 * [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917)), published as _Gravity, unification, and the superstring_, in Filippo Colomo, [[Paolo Di Vecchia]] (eds.) _The birth of string theory_, Cambridge University Press, (2011) ([doi:10.1017/CBO9780511977725.005](https://doi.org/10.1017/CBO9780511977725.005))
