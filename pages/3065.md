@@ -1,11 +1,37 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A __simply connected topological space__ is a [[n-connected space|1-connected]] [[topological space]] $X$: a [[connected space]] whose [[fundamental group]] is the [[trivial group]]:
 
 $\pi_1(X) = \{e\}$.
 
-Equivalently: if it is a [[simply connected object]] of the [[(∞,1)-topos]] [[Top]].
+Equivalently: if it is a [[n-connected object of an (infinity,1)-topos|simply connected object]] of the [[(∞,1)-topos]] [[Top]].
 
 See [[n-connected object of an (infinity,1)-topos]] for more.
+
+## Related concepts
+
+* [[connected topological space]]
+
+* [[simple topological space]]
+
+* [[nilpotent topological space]]
 
 
 [[!redirects simply connected space]]
