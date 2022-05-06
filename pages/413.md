@@ -262,6 +262,10 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 ## References
 
+Discussion in view of [[Lie algebra cohomology]] of [[super Lie algebras]]:
+
+* [[Roberto Catenacci]], [[C. A. Cremonini]], [[Pietro Antonio Grassi]], [[Simone Noja]], _Cohomology of Lie Superalgebras: Forms, Integral Forms and Coset Superspaces_ ([arXiv:2012.05246](https://arxiv.org/abs/2012.05246))
+
 Discussion with an eye towards [[quantization]] of the [[superstring]] is in 
 
 * [[Alexander Belopolsky]], _De Rham Cohomology of the Supermanifolds and Superstring BRST Cohomology_, Phys.Lett. B403 (1997) 47-50 ([arXiv:hep-th/9609220](http://arxiv.org/abs/hep-th/9609220))
@@ -275,7 +279,7 @@ and further amplified in
 
 * {#Witten12} [[Edward Witten]], appendix D of _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
 
-* {#CatenacciGrassiNoja18} R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
+* {#CatenacciGrassiNoja18} [[Roberto Catenacci]], [[Pietro Antonio Grassi]], [[Simone Noja]], _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
 
 [[!redirects differential forms on a supermanifold]]
