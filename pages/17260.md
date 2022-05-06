@@ -36,3 +36,9 @@ The [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|structure]].
 
 
 * [[Ivan Panin]], [[Charles Walter]], _On the algebraic cobordism spectra $MSL$ and $MSp$_ ([arXiv:1011.0651](https://arxiv.org/abs/1011.0651))
+
+[[!redirects quaternionic cobordism]]
+[[!redirects quaternionic cobordism theory]]
+
+
+
