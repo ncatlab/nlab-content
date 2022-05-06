@@ -35,12 +35,13 @@ On [[M-theory on S1/G_HW times H/G_ADE]] and [[D=6 N=(1,0) SCFT]] and [[D6-D8 br
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
 
-
 On [[Kazama-Suzuki models]]:
 
 * [[Davide Gaiotto]], _Kazama-Suzuki models and BPS domain wall junctions in $N=1$ $SU(n)$ Super Yang-Mills_ ([arxiv:1306.5661](https://arxiv.org/abs/1306.5661))
 
+On the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
+* [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
 
 ## Related entries
 
