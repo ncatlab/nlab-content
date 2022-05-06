@@ -80,6 +80,8 @@ Notable families of examples include:
 
   [[Pontryagin classes]], [[Stiefel-Whitney classes]], [[Wu classes]];
 
+  [[one-loop anomaly polynomial I8]]
+
 * for $G = SO$ the [[special orthogonal group]]: 
 
   [[Euler classes]];
