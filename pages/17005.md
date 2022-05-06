@@ -70,7 +70,8 @@ over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy cla
 
 ## Related concepts
 
-* [[cohomotopy]], [[stable cohomotopy]]
+[[!include flavours of cohomotopy -- table]]
+
 
 * [[Burnside ring]]
 
