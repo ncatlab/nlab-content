@@ -69,7 +69,12 @@ and is further developed in
 
 * {#HollandHollands13} Jan Holland, [[Stefan Hollands]], _Operator product expansion algebra_,  	J. Math. Phys. 54, 072302 (2013) ([arXiv:1205.4904](https://arxiv.org/abs/1205.4904))
 
-Brief survey is at 
+Development for [[AQFT on curved spacetime|QFT on curved spacetimes]]:
+
+* [[Stefan Hollands]], [[Robert Wald]], _Axiomatic quantum field theory in curved spacetime_, Commun. Math. Phys. 293:85-125, 2010 ([arXiv:0803.2003](https://arxiv.org/abs/0803.2003))
+
+
+Brief survey:
 
 * _[Operator Product Expansion](http://home.uni-leipzig.de/tet/?page_id=288)_
 
