@@ -18,6 +18,8 @@
 
 The term "multiverse" is used to descibe some picture of [[cosmology]].
 
+(An unrelated concept in pure mathematics is the [[set-theoretic multiverse]].)
+
 ### General
 
 On the very largest scales observable in astrophysical [[experiment]], the cosmos is well described by an [[FRW model]] with [[cosmological constant]] $\Lambda$, with plenty of [[dark matter]] and with primordial [[cosmic inflation]] (called the $\Lambda$-CDM "[[standard model of cosmology|concordance model of cosmology]]"). A [[horizon]] in there and everything on smaller scales is the _[[observable universe]]_.
