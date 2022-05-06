@@ -1,4 +1,23 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Chern-Weil theory
++-- {: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 (...)
