@@ -183,7 +183,7 @@ $$
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
 
-* {#Adams} [[John Adams]], _Infinite loop spaces_, Herrmann Weyl lectures at IAS, Princeton University Press (1978) ([ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259))
+* {#Adams} [[John Frank Adams]], _Infinite loop spaces_, Hermann Weyl lectures at IAS, Princeton University Press (1978) ([ISBN:9780691082066](https://press.princeton.edu/books/paperback/9780691082066/infinite-loop-spaces-am-90-volume-90), [doi:10.1515/9781400821259](https://doi.org/10.1515/9781400821259))
  
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
