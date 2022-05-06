@@ -5,6 +5,13 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Graeme_Segal)
 
+## Selected writings
+
+* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
+
+
+  (on [[equivariant stable homotopy theory]])
+
 
 [[!redirects G. Segal]]
 [[!redirects Segal]]
