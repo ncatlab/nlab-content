@@ -23,7 +23,7 @@ For $\mathbb{T}$ a [[theory]], the _syntactic site_ of a [[syntactic category]] 
 
 ## Definition
 
-For $\mathbb{T}$ a [[theory]] and $\mathcal{C}_{\mathbb{T}}$ its [[syntactic category]], we define [[coverage]]s $J$ on $\mathcal{C}_{\mathbb{T}}$. These depend on which type of theory $\mathb{T}$ is (or is regarded to be).
+For $\mathbb{T}$ a [[theory]] and $\mathcal{C}_{\mathbb{T}}$ its [[syntactic category]], we define [[coverage]]s $J$ on $\mathcal{C}_{\mathbb{T}}$. These depend on which type of theory $\mathbb{T}$ is (or is regarded to be).
 
 
 +-- {: .num_defn #TheCoverage}
