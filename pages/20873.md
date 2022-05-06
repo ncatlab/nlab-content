@@ -42,7 +42,7 @@ Here is an example of a horizontal chord diagram on 5 strands:
 For $n \in \mathbb{N}$, write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]] on $n$ strands (the superscript $pb$ is for _[[pure braids]]_).
 
 
-### Trace to round chord diagrams
+### Closure to round chord diagrams
  {#TraceToRoundChordDiagrams}
 
 Given a [[horizontal chord diagram]] on $n$ strands and given any choice of [[cyclic permutation]] of $n$ elements, the [[trace of horizontal to round chord diagrams]] is the [[round chord diagram]] obtained by gluing the ends of the strands according to the cyclic permutation, and retaining the chords in the evident way.
@@ -184,7 +184,10 @@ $$
 
 ([Bar-Natan 96, p. 3](#BarNatan96))
 
-### Trace to Sullivan chord diagrams
+
+
+### Closure to Sullivan chord diagrams
+ {#ClosureToSullivanChordDiagrams}
 
 More generally, one obtains [[Sullivan chord diagrams]] with $p$ disjoint embedded circles from [[horizontal chord diagrams]] by closing up strands after acting with a [[permutation]] with $p$ cycles ($p$ [[orbits]])
 
@@ -194,10 +197,15 @@ More generally, one obtains [[Sullivan chord diagrams]] with $p$ disjoint embedd
 
 > from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+## Applications
 
 ### Knizhnik-Zamolodchicov connection
 
 [[!include Knizhnik-Zamolodchikov-Kontsevich construction -- definition]]
+
+
+[[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
+
 
 
 ## Related concepts
