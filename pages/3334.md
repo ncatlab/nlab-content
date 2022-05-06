@@ -32,6 +32,9 @@ On [[orbispaces]]:
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_, Mathematische Zeitschrift 294 (2020), 71-107 ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
+On [[proper equivariant homotopy theory]]:
+
+* {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_ ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
 
 ## Selected writings
