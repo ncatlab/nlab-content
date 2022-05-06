@@ -45,13 +45,13 @@ That various definitions in the literature coincide with this one (in particular
 
 ## References
 
-Main definitions can be found in
+The main definitions can be found in
 
 * {#KubelThom15} [[Andreas Kübel]], [[Andreas Thom]], _Equivariant Differential Cohomology_, Transactions of the American Mathematical Society (2018) ([doi:10.1090/tran/7315](https://doi.org/10.1090/tran/7315), [arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
 
 * [[Corbett Redden]], _Differential Borel equivariant cohomology via connections_, New York Journal of Mathematics, Volume 23 (2017) 441-487 ([nyjm:23-20](http://nyjm.albany.edu/j/2017/23-20.html), [arXiv:1602.06921](https://arxiv.org/abs/1602.06921))
 
-An earlier, incompatible definition can be found in
+An earlier definition thst works (only) for [[finite groups]] can be found in:
 
 * {#Gomi05} [[Kiyonori Gomi]], _Equivariant smooth Deligne cohomology_, Osaka J. Math. Volume 42, Number 2 (2005), 309-337 ([euclid:ojm/1153494380](https://projecteuclid.org/euclid.ojm/1153494380))
 
