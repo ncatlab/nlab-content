@@ -1,7 +1,12 @@
 
+# The de Rham differential
+* table of contents
+{: toc}
+
 ## Traditional
 
 In [[differential geometry]] the _de Rham differential_ is the [[differential]] in the [[de Rham complex]], "exterior [[derivative]]" acting on [[differential forms]]. See there for more
+
 
 ## In cohesive homotopy theory
 
@@ -28,11 +33,7 @@ $$
   }
 $$
 
-which interprets as the _de Rham differential_ $\mathbf{d}$. See at _[[differential cohomology diagram]]_ for details. 
-
-
-
-
+which interprets as the _de Rham differential_ $\mathbf{d}$. See at _[[differential cohomology diagram]]_ for details.
 
 
 [[!redirects exterior derivative]]
