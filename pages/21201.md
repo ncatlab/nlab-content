@@ -99,14 +99,21 @@ Further original articles:
 
 * [[Howard Georgi]], _Vector realization of chiral symmetry_, Nuclear Physics B Volume 331, Issue 2, 12 February 1990, Pages 311-330 (<a href="https://doi.org/10.1016/0550-3213(90)90210-5">doi:10.1016/0550-3213(90)90210-5</a>)
 
+Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
+
+* [[Atsushi Hosaka]], H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+
+In view of the [[chiral anomaly]] [[WZW term]]:
+
+* Michio Hashimoto, _Hidden Local Symmetry for Anomalous Processes with Isospin/$SU(3)$ Breaking Effects_, Phys. Rev. D54 (1996) 5611-5619 ([arXiv:hep-ph/9605422](https://arxiv.org/abs/hep-ph/9605422))
+
+
 
 With emphasis on [[Skyrmions]] involving [[vector mesons]]:
 
 * Yong-Liang Ma, Ghil-Seok Yang, Yongseok Oh, Masayasu Harada, _Skyrmions with vector mesons in the hidden local symmetry approach_, Phys. Rev. D87:034023, 2013 ([arXiv:1209.3554](https://arxiv.org/abs/1209.3554))
 
-Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
 
-* [[Atsushi Hosaka]], H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
 
 ### In D-brane models
 
