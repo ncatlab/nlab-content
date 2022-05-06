@@ -38,7 +38,7 @@ Similarly, [[pregroup grammar|pregroup grammars]] are constructed from a diction
 
 ## History
 
-The origins of grammar go back to 4th century BC India: the Sanskrit philologist Pānini showed ancient mastery of [[context sensitive grammar|context sensitive grammars]] to analyse the syntax of Sanskrit.
+The origins of grammar go back to 4th century BC India: the Sanskrit philologist Pānini showed ancient mastery of [[context-sensitive grammar|context-sensitive grammars]] to analyse the syntax of Sanskrit.
 
 Unrestricted grammars were introduced by [[Noam Chomsky]] as the level zero of his [[Chomsky hierarchy|hierarchy]], they are equivalent to [[Turing machine|Turing machines]] in expressive power.
 
