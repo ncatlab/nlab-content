@@ -5,7 +5,7 @@
 
 ## Statement
 
-Let $X$ be a [[topological space]].
+Let $X$ be a $T_1$ [[topological space]].
 
 Assuming the [[axiom of choice]] then the following are equivalent:
 
@@ -16,6 +16,8 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 ([Stone 48](#Stone48))
 
 Since [[metric spaces are fully normal]] it follows as a corollary that [[metric spaces are paracompact]]. Accordingly, this statement is now also known as _Stone's theorem_.
+
+Note that without a separation axiom such as $T_1$, the result fails to hold.  For example, any compact space is paracompact, and any fully normal space is normal, so any non-normal compact space is a paracompact space that's not fully normal.
 
 ## References
 
