@@ -13,7 +13,9 @@
 * [[A. Haefliger]], 1991, _Complexes of Groups and Orbihedra_, in Group Theory from a Geometric 
 viewpoint , 504 &#8211; 540, ICTP, Trieste, 26 March- 6 April 1990, World Scientific.
 
-* [[André Haefliger]], _Groupo&#239;des d'holonomie et espaces classiants_ , Ast&#233;risque 116 (1984), 70-97
+On [[orbifolds]]:
+
+* [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
 
 category:people
 
