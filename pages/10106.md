@@ -16,7 +16,7 @@
 
 ## Idea
 
-An isogeny is a [[surjection]] of algebraic groups that has a [[finite set|finite]] [[kernel]] . For [[abelian varieties]], this is equivalently a [[rational map]] between groups of the same dimension that preserves the neutral element (which implies that it is a group homomorphism).
+An **isogeny** is a [[surjection]] of [[algebraic groups]] that has a [[finite set|finite]] [[kernel]]. For [[abelian varieties]], this is equivalently a [[rational map]] between groups of the same dimension that preserves the neutral element (which implies that it is a [[group homomorphism]]).
 
 
 ## References
