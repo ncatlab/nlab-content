@@ -130,8 +130,13 @@ The concept originates in
 
 * I. Satake, _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan 9 (1957), 464&#8211;492.
 
-* [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992)
- {#Thurston} which in completed and revised form is available as his book: _The Geometry and Topology of Three-Manifolds;_ in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf).
+* {#Thurston} [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992)
+  
+  which in completed and revised form is available as his book: 
+
+  _The Geometry and Topology of Three-Manifolds;_ ([web](http://library.msri.org/books/gt3m/))
+
+  in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf).
 
 Survey of basic orbifold theory:
 
