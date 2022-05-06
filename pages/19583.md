@@ -94,6 +94,10 @@ See also
 
 * Wikipedia, _[SYK model of non-Fermi liquids and black holes](https://en.wikipedia.org/wiki/Subir_Sachdev#SYK_model_of_non-Fermi_liquids_and_black_holes)_
 
+Discussion of possible realization of the [[SYK-model]] in [[condensed matter physics]]:
+
+* D. I. Pikulin, M. Franz, _Black hole on a chip: proposal for a physical realization of the SYK model in a solid-state system_, Phys. Rev. X 7, 031006 (2017) ([arXiv:1702.04426](https://arxiv.org/abs/1702.04426))
+
 
 
 [[!include SYK-model and AdS2-CFT1 -- references]]
