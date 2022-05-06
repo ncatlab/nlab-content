@@ -7,6 +7,13 @@
 
 *Concurrency* (or maybe rather _parallelism_ ([Harper](#Harper))) is a joint property of several (maybe interacting) [[event structure|processes]] proceeding simultaneously. Here the word "simultaneously" indicates that the evolution of the participating processes is indexed along an irreversible [[directed object]].
 
+## Calculi
+
+### Pi Calculus
+
+The processes can either be the nil process $0$, parallel execution $P \mid Q$, sending on channel $c$ and then continuing $\overline{c}\langle x \rangle.P$, receiving on channel $c$ and then continuing $c(x).P$, replicating a process $!P$ or introduction of a new name $(\nu x)P$.
+
+### Rho Calculus
 
 ## Related entries
 
