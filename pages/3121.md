@@ -127,14 +127,17 @@ has a [[left adjoint]]
 
 A general discussion in the context of [[(∞,1)-category theory]] is in  
 
-* [[Jacob Lurie]], section 1.4 _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 1.4 of _[[Higher Algebra]]_
 
 * [[Jacob Lurie]], section 1 of _[[Spectral Schemes]]_
 
-Discussion of the relation between stabilization of [[(∞,1)-categories]] (to [[stable (∞,1)-categories]]) and of [[model categories]] (to [[stable model categories]]) is in section 4.2 of
+Discussion of stabilization as inversion of smashing with a suspension objects, and the relation between stabilization of [[(∞,1)-categories]] (to [[stable (∞,1)-categories]]) and of [[model categories]] (to [[stable model categories]]) in
 
-* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
-  {#Robalo12}
+* {#Robalo12} [[Marco Robalo]], section 4 of _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
+
+which appears published as 
+
+* {#Robalo15} [[Marco Robalo]], section 2 of _K-theory and the bridge from motives to noncommutative motives_, Advances in Mathematics Volume 269, 10 January 2015 ([doi:10.1016/j.aim.2014.10.011](https://doi.org/10.1016/j.aim.2014.10.011))
 
 
 [[!redirects stabilizations]]
