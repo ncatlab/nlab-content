@@ -72,7 +72,7 @@ Propositionally extensional type theory has some of the attributes of intensiona
 
 ### Decidability
 
-Only the intensional, but not the extensional, [[Martin-Löf type theory]] is [[decidability|decidable]].  See _[[intensional type theory]]_ for more on this.
+Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [[decidability|decidable]] type checking.  See _[[intensional type theory]]_ for more on this.
 
 ## Related concepts
 
