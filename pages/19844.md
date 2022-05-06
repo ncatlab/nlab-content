@@ -457,6 +457,9 @@ Discussion of possible $b \to d$ anomalies:
 
 * Damir Becirevic, Marco Fedele, Ivan Nisandzic, Andrey Tayduganov, _Lepton Flavor Universality tests through angular observables of $\bar B \to D^{(\ast) \ell \bar \nu}$ decay modes_ ([arXiv:1907.02257](https://arxiv.org/abs/1907.02257))
 
+* Ashutosh Kumar Alok, Suman Kumbhakar, S. Uma Sankar, _Discriminating new physics scenarios in b→sμ+μ− via transverse polarization asymmetry of K∗ in B→K∗μ+μ− decay_ ([arXiv:2001.04395](https://arxiv.org/abs/2001.04395))
+
+
 #### Leptoquarks
 
 explanation via assumption of [[leptoquarks]]:
