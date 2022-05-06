@@ -764,10 +764,85 @@ Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil
 
 (e.g [Meinrenken 06, Theorem 6.1](#Meinrenken06))
 
++-- {: .proof #ProofOfEquivariantDeRhamTheorem}
+###### Proof idea
+
+Recall that the [[product topological space]] $X \times E G$ of $X$ with the total space $E G$ of the [[universal principal bundle]], equipped with the [[diagonal action]] by the group $G$, constitutes a [[resolution]] of $X$ as a [[topological G-space]], in that the [[projection]]
+
+$$
+  X \times  E G
+  \underoverset{\simeq_{whe}}{ \;\;\; pr_1 \;\;\; }{\longrightarrow}
+  X
+$$
+
+is a $G$-[[equivariant function]] which is a [[weak homotopy equivalence]] (since $E G$ is a [[weakly contractible topological space]]) and the [[diagonal action|diagonal]] $G$-[[action]] on $X \times E G$ is [[free action|free]] (since the action on $E G$ is). Therefore the [[homotopy quotient]] of $X$ by $G$ is presented by the ordinary [[quotient space]] of $X \times E G$ by $G$, which is what is called the [[Borel construction]]
+
+$$
+  X \times_G E G 
+    \;\coloneqq\;
+  \big(
+    X \times E G
+  \big)/G
+  \;\simeq_{whe}\;
+  X \sslash G
+$$
+
+The point now is that the Weil model (eq:WeilModel) for equivariant cohomology is exactly the analog of the Borel construction in terms of dgc-algebraic [[rational homotopy theory]]-type models in [[real cohomology]]:
+
+By the ordinary [[de Rham theorem]] the image of the smooth manifold $X$ in dgc-algebra [[rational homotopy theory]] (with [[real number]]-[[coefficients]]) is given by the [[de Rham algebra]] $\Omega^\bullet(X)$, and the image of $E G$ is the [[Weil algebra]] $W(\mathfrak{g})$: The [[contractible topological space|contractability]] of $E G$ corresponds to the free propery ([here](Weil+algebra#FreeProperty)) of the Weil algebra, and the $G$-[[action]] on $E G$ corresponds to the canonical $\mathfrak{g}$-[[Cartan calculus]] on $W(\mathfrak{g})$.
+
+Since for a [[free action]] the invariant forms are the [[basic differential forms]], this shows that/how the Weil model is the image of the [[Borel construction]] in dgc-algebraic [[rational homotopy theory]]:
+
+\begin{xymatrix}
+  &
+  X \times E G \ar@(ul,ur)^G
+  \ar[d]^-{ q }
+  &
+  \Omega^\bullet( X )
+  \otimes 
+  W(g)
+  \ar@(ur,ul)_{ g }
+  \ar@{<-^{)}}[d]^-{ q^\ast }
+  \\
+  \;
+  X // G
+  \ar@{}[r]|-{
+    \simeq_{\mathrm{whe}}
+  }
+  &  
+  \big(
+    X \times E G 
+  \big)/G
+  &
+  \big(
+    \Omega^\bullet( X )
+    \otimes 
+    W(g)
+  \big)_{\mathrm{basic}} 
+  \ar@{<-}[r]^-{ :\exp\big( t^a \iota_a\big): }_-{\simeq}
+  &
+  \big(
+    \Omega^\bullet( X )\big[ r^a \big]
+  \big)^G
+  \\
+  &
+  \mbox{Borel construction}
+  &
+  \mbox{Weil model}
+  &
+  \mbox{Cartan model}
+\end{xymatrix}
+
+
+$\,$
+
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 
-A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie group|compact]] Lie groups exists ([Getzler 94](#Getzler94)) but this uses the [[simplicial de Rham complex]] of the [[action groupoid]] $X \sslash G$ ([Bott-Shulman-Stasheff 76](#BottShulmanStasheff76))and is thus a fair bit more complicated, computationally.
+A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie group|compact]] Lie groups exists ([Getzler 94](#Getzler94)) but this uses the [[simplicial de Rham complex]] of the [[action groupoid]] $X \sslash G$ ([Bott-Shulman-Stasheff 76](#BottShulmanStasheff76)) and is thus a fair bit more complicated, computationally.
 
 =--
 
