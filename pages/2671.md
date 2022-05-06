@@ -132,8 +132,14 @@ See also
 
 * {#Coley18} [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
+Discussion of classical gravity via its [[perturbative quantum field theory]]:
 
-The theory of gravity based on the standard [[Einstein-Hilbert action]] may be regarded as just an [[effective quantum field theory]], which makes some of its notorious problems be non-problems:
+* {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+* Gustav Uhre Jakobsen, _General Relativity from Quantum Field Theory_ ([arXiv:2010.08839](https://arxiv.org/abs/2010.08839))
+
+
+This way the theory of gravity based on the standard [[Einstein-Hilbert action]] may be regarded as just an [[effective quantum field theory]], which makes some of its notorious problems be non-problems:
 
 * [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
 
