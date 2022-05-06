@@ -413,6 +413,11 @@ Discussion of the [[deformation theory]] of K3-surfaces (of their [[Picard schem
 
 * {#ArtinMazur77} [[Michael Artin]], [[Barry Mazur]], _Formal Groups Arising from Algebraic Varieties_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 10 no. 1 (1977), p. 87-131  [numdam](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663)
 
+Construction of [[Ricci flat]] metrics on K3-surfaces:
+
+* [[Shamit Kachru]], Arnav Tripathy, Max Zimet, _K3 metrics_ ([arXiv:2006.02435](https://arxiv.org/abs/2006.02435))
+
+
 ### In string theory
   {#InStringTheory}
 
