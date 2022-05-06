@@ -354,6 +354,11 @@ Reviewed in:
 
 * {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology of knot and link spaces_, [Morfismos, Vol 17, no 2, 2013](https://fdocuments.co/amp/document/morfismos-vol-17-no-2-2013.html) ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
 
+See also
+
+* J. de-la-Cruz-Moreno, H. García-Compeán, E. López, _Vassiliev Invariants for Flows Via Chern-Simons Perturbation Theory_ ([arXiv:2004.13893](https://arxiv.org/abs/2004.13893))
+
+
 
 ### As observables on fuzzy spheres
 
@@ -367,6 +372,7 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states
 * [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
 
 
 ### Vassiliev invariants of braids
