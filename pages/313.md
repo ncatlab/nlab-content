@@ -90,7 +90,7 @@ Then
      C \;\colon\; X \Rightarrow const_{\tilde X}
    $$
 
-1. the _limiting cone_ (or  _[[limit]]_, for short) over a diagram $X$ is, if it exists, the [[terminal object]] in the [[category]] of [[cones]] over $X$, which means that it is a cone $C_{lim}$ with tip denoted $\underset{\longleftarrow}{\lim}_i X_i$ such that for every other cone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon const_{\tilde X} \Rightarrow const_{\underset{\longrightarrow}{\lim}_i X_i}$ such that
+1. the _limiting cone_ (or  _[[limit]]_, for short) over a diagram $X$ is, if it exists, the [[terminal object]] in the [[category]] of [[cones]] over $X$, which means that it is a cone $C_{lim}$ with tip denoted $\underset{\longleftarrow}{\lim}_i X_i$ such that for every other cone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon const_{\tilde X} \Rightarrow const_{\underset{\longleftarrow}{\lim}_i X_i}$ such that
 
    $$
      C = C_{lim} \circ \phi
