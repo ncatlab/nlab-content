@@ -43,12 +43,40 @@ $$
   SU(2) \overset{\pi}{\longrightarrow} SO(3)
 $$
 
-all the finite subgroups of $SU(2)$ except the odd-order [[cyclic groups]] are the [[preimages]] of the corresponding finite subgroups of $SO(3)$.
+all the finite subgroups of $SU(2)$ except the [[odd number|odd]]-[[order of a group|order]] [[cyclic groups]] are the [[preimages]] of the corresponding finite subgroups of $SO(3)$.
+
+In particular, the [[binary dihedral groups]] sit inside the [[Pin(2)]]-[[subgroup]] of $Spin(3)$:
+
+$$
+  \array{
+    2 D_{2n}
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Pin_-(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    \\
+    D_{2n}
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    O(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
 
 =--
 
 This goes back to ([Klein 1884, chapter I](#Klein1884)). 
 Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). The proof for the case of $SL(2,\mathbb{C})$ is spelled out in ([Miller-Blichfeldt-Dickson 16](#MillerBlichfeldtDickson16)) reviewed in ([Serrano 14, section 2](#Serrano14)). The proof of the case for $SU(2)$ given the result for $SO(3)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
+
+
+
 
 ### Finite subgroups of $O(4)$, $SO(4)$ and $Spin(4)$
   {#FiniteSubgroupsOfO4}
@@ -238,6 +266,9 @@ symmetry_ A K Peters Ltd., Natick, MA, 2003
 
 [[!redirects finite subgroup of SU(2)]]
 [[!redirects finite subgroups of SU(2)]]
+
+[[!redirects finite subgroup of Spin(3)]]
+[[!redirects finite subgroups of Spin(3)]]
 
 
 [[!redirects finite subgroup of O(4)]]
