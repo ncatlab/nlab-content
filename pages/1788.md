@@ -1,4 +1,144 @@
 
+Some convenient component expressions for the [[Hodge star operator]] on $D = d=1$-dimensional [[Minkowski spacetime]]:
+
+We normalize the [[Levi-Civita symbol]] as
+
+$$
+  \epsilon_{0 1 2 \cdots d}
+  \;\coloneqq\;
+  + 1
+$$
+
+which means that 
+
+$$
+  \epsilon^{0 1 2 \cdots d}
+  \;=\;
+  - 1
+  \,.
+$$
+
+We normalize the [[volume form]] as
+
+\[
+  \label{VolumeForm}
+  \begin{aligned}
+  dvol
+  & \coloneqq\;
+  d x^0 \wedge d x^1 \wedge \cdots \wedge d x^d
+  \\
+  & = 
+  \tfrac{1}{D!} 
+  \epsilon_{
+    \color{green}
+    \mu_1 \cdots \mu_D
+  } 
+  d x^{\color{green}\mu_1} 
+   \wedge 
+   \cdots 
+   \wedge 
+  d x^{\color{green}\mu_D}
+  \end{aligned}
+\]
+
+It follows that (notice the reversion of the index ordering in the contraction operators $\iota$)
+
+\[
+  \label{ContractionIntoVolumeForm}
+  \alpha^{
+    \color{green}
+    \mu_1 \cdots \mu_p
+  }
+  \iota_{\color{green} \mu_p} 
+     \cdots 
+   \iota_{ \color{green} \mu_1}
+  dvol
+  \;=\;
+  \epsilon_{ 
+    { \color{green} \mu_1 \cdots \mu_p }
+    { \color{orange} \nu_1 \cdots \nu_{D-p}  }
+  }
+  d x^{\nu_1} \wedge \cdots \wedge d x^{\nu_{(D-p)}}
+\]
+
+
+\[
+  \label{ContractionofLeviCivitaSymbols}
+  \epsilon_{
+     { \color{green} \mu_1 \cdots \mu_p }
+     {\color{blue} \mu_{p+1} \cdots \mu_{D} }
+  }
+  \epsilon^{ 
+    { \color{blue} \mu_{p+1} \cdots \mu_D }
+    { \color{orange} \nu_1 \cdots \nu_p } 
+  }
+  \;=\;
+  (D-p)!
+  \delta_{ 
+    \color{green} \mu_1 \cdots \mu_p 
+  }^{
+    \color{orange} \nu_1 \cdots \nu_p
+  }
+\]
+
+
+
+
+$$
+  \begin{aligned}
+    \star d \star d f
+    & =
+    \star d \star \partial_\mu f d x^\mu
+    \\
+   & = 
+   \star d (\partial^\mu f) \iota_{\mu} dvol
+   \\   
+   & = 
+   \star \partial_\mu \partial^\mu f \, dvol
+   & =
+   \partial_\mu \partial^\mu f
+  \end{aligned}
+$$
+
+$$
+  \star \alpha_{\mu \nu} d x^\mu \wedge d x^\nu
+  =
+  \alpha^{\mu \nu} \iota_\mu \iota_\nu dvol
+$$
+
+$$
+  \begin{aligned}
+    \star \star 
+    \alpha_{\mu_1 \cdots \mu_p}
+    d x^{\mu_1} \wedge \cdots \wedge d x^{\mu_p}
+    & =
+    \star 
+    \tfrac{1}{(d-p)!}
+    \alpha^{\mu_1 \cdots \mu_p} 
+    \iota_{\mu_p} \cdots \iota_{\mu_1} 
+    dvol
+    \\
+    & = 
+    \star 
+    \tfrac{1}{(d-p)!}
+    \alpha^{\mu_1 \cdots \mu_p} 
+    \epsilon_{\mu_1 \cdots \mu_p \mu_{p+1} \cdots \mu_d}
+    d x^{\mu_{p+1}} \wedge \cdots d x^{\mu_d}
+    \\
+    & =
+    \star 
+    \tfrac{1}{(d-p)!}
+    \alpha_{\mu_1 \cdots \mu_p} 
+    \epsilon^{\mu_1 \cdots \mu_p \mu_{p+1} \cdots \mu_d}
+    \epsilon_{\mu_{p+1} \cdots \mu_d \nu_1 \cdots \nu_p}
+    d x^{\nu_1} \wedge \cdots d x^{\nu_p}
+    \\
+    & =
+    \alpha
+  \end{aligned}
+$$
+
+
 $$
   \begin{aligned}
   & 
