@@ -641,3 +641,7 @@ A (left) *Tambara module* on $\mathcal{C}$ consists of:
 $\tau_{A}(X,Y) \colon P(X, Y) \rightarrow P(A \otimes X, A \otimes Y)$ called the *Tambara structure maps*, which
 are natural in $X, Y$ and dinatural in $A$, satisfying
 the equations:
+
+
+[[functional programming#Backus1977|Backus' 1977 lecture]]
+
