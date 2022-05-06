@@ -61,6 +61,8 @@
 
 * Ángel Murcia, C. S. Shahbazi, _Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity_ ([arXiv:1912.08723](https://arxiv.org/abs/1912.08723))
 
+* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+
 ### Killing spinors
 
 Discussion of [[Killing spinors]]/enhancement of [[number of supersymmetries]] in [[D=6 supergravity]]:
