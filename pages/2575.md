@@ -259,7 +259,7 @@ We discuss the [[space of states (in geometric quantization)]] of quantized $G$-
 
 1. in order to complete this prequantization to [[geometric quantization]] one needs to choose a [[polarization]] of phase space; it turns out that one naturally obtains such from any choice of [[conformal structure]] $[g]$ on $\Sigma$ (see for instance [Witten-Jeffrey, p. 81](#WittenJeffrey), see also _[self-dual higher gauge theory -- Relation to Chern-Simons -- Conformal structure from polarization](self-dual+higher+gauge+theory#ConformalStructureFromPolarization)_):
 
-   this is provided by the [[Narasimhan?Seshadri theorem]] which establishes that the [[moduli space of flat connections]] on a [[Riemann surface]] is naturally a [[complex manifold]]. This yields a [[Kähler polarization]] (as well as a [[spin^c-structure]] for [[geometric quantization by push-forward]] ([Freed-Hopkins-Teleman](#FreedHopkinsTeleman))).
+   this is provided by the [[Narasimhan-Seshadri theorem]] which establishes that the [[moduli space of flat connections]] on a [[Riemann surface]] is naturally a [[complex manifold]]. This yields a [[Kähler polarization]] (as well as a [[spin^c-structure]] for [[geometric quantization by push-forward]] ([Freed-Hopkins-Teleman 07](#FreedHopkinsTeleman07))).
 
 1. one finds that the resulting [[space of states (in geometric quantization)]] $H_{[g]}$ is naturally isomorphic to the space of [[conformal blocks]] of the 2-dimensional [[WZW model]] on $\Sigma$, regarded with that conformal structure.
 
@@ -937,7 +937,7 @@ and references cited there.
 
 Discussion in terms of [[geometric quantization by push-forward]] is in 
 
-* {#FreedHopkinsTeleman} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909))
+* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909)), chapter XIX, pages 395-419 in: Oscar Garcia-Prada, Jean Pierre Bourguignon, Simon Salamon (eds.) _The Many Facets of Geometry: A Tribute to Nigel Hitchin_, Oxford University Press 2010 ([doi:10.1093/acprof:oso/9780199534920.001.0001](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199534920.001.0001/acprof-9780199534920))
  
 
 The "[[prequantum circle n-bundle|prequantum circle 3-bundle]]" in codimension 3, was constructed in 
