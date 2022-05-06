@@ -179,6 +179,11 @@ Discussion of Higgs inflation with emphasis on relation to the [near-criticality
 
 * {#Jegerlehner18} [[Fred Jegerlehner]], _The Hierarchy Problem and the Cosmological Constant Problem Revisited -- A new view on the SM of particle physics_ ([arXiv:1812.03863](https://arxiv.org/abs/1812.03863))
 
+See also
+
+* Tommi Tenkanen, Eemeli Tomberg, _Initial conditions for plateau inflation_ ([arXiv:2002.02420](https://arxiv.org/abs/2002.02420))
+
+
 
 ### Gauge field inflation
  {#ReferencesHiggsInflation}
