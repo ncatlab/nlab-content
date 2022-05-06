@@ -50,7 +50,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 ### General
 
-* [Belle collaboration](https://belle.kek.jp/)
+* [Belle homepage](https://belle.kek.jp/)
+
+* [Belle II homepage](https://www.belle2.org/)
 
 * C. Z. Yuan (for the [[Belle II Collaboration]]), _The Belle II Experiment at the SuperKEKB_ ([arXiv:1208.3813](https://arxiv.org/abs/1208.3813))
 
@@ -61,6 +63,7 @@ See also
 * Wikipedia, _[Belle experiment](https://en.wikipedia.org/wiki/Belle_experiment)_
 
 * Wikipedia, _[Belle II experiment](https://en.wikipedia.org/wiki/Belle_II_experiment)_
+
 
 ### On flavour anomalies
 
@@ -79,8 +82,22 @@ See also
 * {#Belle1910} [[Belle collaboration]], _Measurement of $\mathcal{R}(D)$ and $\mathcal{R}(D^\ast)$ with a semileptonic tagging method_, Phys. Rev. Lett. 124, 161803 (2020)
 ([arXiv:1910.05864](https://arxiv.org/abs/1910.05864), [doi:10.1103/PhysRevLett.124.161803](https://doi.org/10.1103/PhysRevLett.124.161803))
 
+Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
+
+* Tobias Huber, Tobias Hurth, Jack Jenkins, Enrico Lunghi, Qin Qin, K.Keri Vos, _Phenomenology of inclusive $\bar B \to X_s \ell^+ \ell^-$ for the Belle II era_ ([arXiv:2007.04191](https://arxiv.org/abs/2007.04191))
+
+> With $[$ ... $]$ [[Belle II]], we are at the brink of a new era in [[quark]] [[flavour physics]] $[...]$ we present a phenomenological study of  the potential for [[Belle II]] to reveal possible new physics in the inclusive  decay channel.
+
+> (p. 15:) We see that [[flavour anomalies|anomalies]] in the exclusive sector can be confirmed at the [[statistical significance|5σ]] level  by inclusive measurements if the true values of $C_{9,10}^{\mu NP}$ are at the current best-fit point of the exclusive fits
+
+> (p. 16:)  After including $B_s \to \mu^+ \mu_-$, the reach in the $[C_9^{\mu NP}, C_{10}^{\mu NP}]$ plane improves considerably.  Exclusive [[flavour anomalies|anomalies]] could be confirmed at the [[statistical significance|6σ]] level.
+
+> (p. 20:) Should  the  true  value  of $C_9^{NP}$ and $C_{10}^{NP}$ be at  the current best-fit points of the global fits, an analysis of inclusive $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]] with $50 ab^{-1}$ of data will exclude the SM point $C_9^{NP} = C_{10}^{NP} = 0$ at the level of $\sim 5$[[statistical significance|σ]].  This again underlines the necessity of a full angular analysis of $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]].
+
 
 [[!redirects Belle]]
+[[!redirects Belle II]]
+
 
 [[!redirects Belle collaboration]]
 [[!redirects Belle collaborations]]
@@ -95,4 +112,7 @@ See also
 
 [[!redirects Belle II Collaboration]]
 [[!redirects Belle II Collaborations]]
+
+[[!redirects Belle II experiement]]
+[[!redirects Belle II experiments]]
 
