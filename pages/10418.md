@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -286,11 +287,13 @@ A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G2-structure]]. Its [[tors
 
 * {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([jstor:1994134](https://www.jstor.org/stable/1994134))
 
-* {#Alekseevskii} D. V: Alekseevskii, _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
+* {#Alekseevskii} D. V: Alekseevskii, _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_ ([eom:G-structure](https://encyclopediaofmath.org/wiki/G-structure))
 
 Lecture notes include
 
-* {#Pasquotto} Federica Pasquotto, _Linear $G$-structures by example_ ([pdf](http://www.few.vu.nl/~pasquott/course16.pdf))
+* [[Marius Crainic]], _[Differential geometry course](https://webspace.science.uu.nl/~crain101/DG-2015/)_, 2015 ([pdf](https://webspace.science.uu.nl/~crain101/DG-2015/main10.pdf), [[CrainicDifferentialGeometry15.pdf:file]])
+
+* {#Pasquotto} [[Federica Pasquotto]], _Linear $G$-structures by examples_ ([pdf](http://www.few.vu.nl/~pasquott/course16.pdf), [[PasquottoGStructures.pdf:file]])
 
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
