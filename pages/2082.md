@@ -83,6 +83,8 @@ Springer 1995.
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 
+* Tom Bridgeland, _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739-759 (21 pages) 
+
 * MathOverflow: [q.gr. as relative Drinfeld double](http://mathoverflow.net/questions/20683/quantum-group-as-relative-drinfeld-double), [why Drinfeld-Jimbo q.gr.](http://mathoverflow.net/questions/5538/why-drinfeld-jimbo-type-quantum-groups), [Lusztig perverse sheaves on quiver varieties](http://mathoverflow.net/questions/14361/what-do-the-local-systems-in-lusztigs-perverse-sheaves-on-quiver-varieties-look), [canonical bases for extended q.env.algebras](http://mathoverflow.net/questions/8110/canonical-basis-for-the-extended-quantum-enveloping-algebras), [groups-qgroups-and-... (on elliptic case)](http://mathoverflow.net/questions/58040/groups-quantum-groups-and-fill-in-the-blank), [all posts with quantum group tag](http://mathoverflow.net/questions/tagged/quantum-group)
 
 category: noncommutative geometry
