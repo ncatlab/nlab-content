@@ -292,6 +292,9 @@ Review includes
 
 * Jnanadeva Maharana, _The Worldsheet Perspective of T-duality Symmetry in String Theory_ ([arXiv:1302.1719](http://arxiv.org/abs/1302.1719))
 
+* Mark Bugden, _A Tour of T-duality: Geometric and Topological Aspects of T-dualities_, ([arXiv:1904.03583](https://arxiv.org/abs/1904.03583))
+
+
 
 Discussion at strong coupling ("[[F-theory]]") includes
 
