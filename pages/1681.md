@@ -208,7 +208,9 @@ The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[
 
 Textbook references include
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf), [doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+
+  > (EM-spaces are constructed in section 6, the cohomology theory they represent is discussed in section 7.1, and its equivalence to singular cohomology is Corollary 12.1.20)
 
 
 * {#May} [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
