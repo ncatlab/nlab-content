@@ -1,3 +1,4 @@
+[[!redirects Goodwillie derivatives of the identity functor]]
 
 
 
