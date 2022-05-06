@@ -12,6 +12,12 @@ Introducing [[vector meson dominance]]:
 
 * [[Murray Gell-Mann]], Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
 
+The [[pole approximation]] for [[meson]] interaction:
+
+
+* [[Murray Gell-Mann]], Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
+
+
 
 Introducing the [[quark]] [[model (in theoretical physics)|model]]/[[quantum chromodynamics]]:
 
