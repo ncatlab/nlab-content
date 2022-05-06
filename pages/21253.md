@@ -53,6 +53,21 @@ Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics
 
 * {#Kaiser00} Roland Kaiser, equation (12) in: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
 
+Including [[heavy mesons]], 
+
+specifically [[kaons]]:
+
+* [[Curtis Callan]], [[Igor Klebanov]], equation (4.1) in:  _Bound-state approach to strangeness in the Skyrme model_, Nuclear Physics B Volume 262, Issue 2, 16 December 1985, Pages 365-382 (<a href="https://doi.org/10.1016/0550-3213(85)90292-5">doi10.1016/0550-3213(85)90292-5</a>)
+
+* [[Igor Klebanov]], equation (99) of: _Strangeness in the Skyrme model_, in: D. Vauthrin, F. Lenz, J. W. Negele,  _Hadrons and Hadronic Matter_, Plenum Press 1989 ([doi:10.1007/978-1-4684-1336-6](https://link.springer.com/book/10.1007/978-1-4684-1336-6))
+
+and similarly [[D-mesons]] and [[B-mesons]]:
+
+* [[Mannque Rho]], D. O. Riska, N. N. Scoccola, above (2.1) in: _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
+
+
+
+
 Including [[electroweak fields]]:
 
 
