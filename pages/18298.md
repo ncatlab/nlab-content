@@ -1816,9 +1816,9 @@ with the required property.
 
 +-- {: .num_prop #ConcondanceOfTopologicalVectorBundles}
 ###### Proposition
-**([[concordance]] of topological vector bundles)**
+**([[concordance]] of [[topological vector bundles]])**
 
-Let $X$ be a [[paracompact Hausdorff space]]. If $E \to X \times [0,1]$ is a vector bundle, then the two endpoint-restrictions
+Let $X$ be a [[paracompact Hausdorff space]]. If $E \to X \times [0,1]$ is a [[topological vector bundle]] over the [[product space]] of $X$ with the [[closed interval]] (hence a _[[concordance]]_ of topological vector bundles on $X$), then the two endpoint-restrictions
 
 $$
   E|_{X \times \{0\}}
