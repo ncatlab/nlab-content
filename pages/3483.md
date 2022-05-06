@@ -1,5 +1,7 @@
 
-* [website](http://www.math.uu.nl/people/henrique/)
+* [personal website](http://andreghenriques.com/)
+
+* [university website](https://www.maths.ox.ac.uk/people/andre.henriques)
 
 ## related $n$Lab-entries
 
