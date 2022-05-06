@@ -21,7 +21,7 @@ The concept of the _PL de Rham complex_ ([Bousfield-Gugenheim 76](#BousfieldGuge
 
 The terminology "PL" for "piecewise linear" seems to have been tacitly introduced in [Bousfield-Gugenheim 76](#BousfieldGugenheim76). Beware that despite this commonly adopted terminology (e.g. [Griffith-Morgan 13](#GriffithMorgan13)), the PL de Rham complex consist of piecewise _[[polynomial differential forms|polynomial]]_ [[differential forms]], but polynomial with respect to a piecewise linear structure on the domain space/complex. 
 
-In analogy to the [[de Rham theorem]] for [[smooth manifolds]], the fundamental theorem of  dg-algebraic rational homotopy theory shows that the PL de Rham complex computes the [[rational cohomology]] (or [[real cohomology]], [[complex cohomology]]) of the given [[topological space]]/[[simplicial sets]].
+In analogy to the [[de Rham theorem]] for [[smooth manifolds]], the [[fundamental theorem of  dg-algebraic rational homotopy theory]] shows that the PL de Rham complex computes the [[rational cohomology]] (or [[real cohomology]], [[complex cohomology]]) of the given [[topological space]]/[[simplicial sets]].
 
 Applied to a topological space that happens to carry the structure of a [[smooth manifold]], the PL de Rham complex is connected by a [[zig-zag]] of [[quasi-isomorphisms]] to the smooth [[de Rham complex]], hence both are [[isomorphism|isomorphic]] in the [[homotopy category]] of the [[model structure on connective dgc-algebras]].
 
@@ -511,6 +511,15 @@ For the morphism on the left this follows since $S(X) \hookrightarrow Sing(X)$ i
 =--
 
 
+## Related concepts
+
+* [[de Rham complex]]
+
+* [[equivariant PL de Rham complex]]
+
+* [[rational homotopy theory]]
+
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
 
 ## References
 
