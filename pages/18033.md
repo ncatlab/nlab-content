@@ -46,6 +46,11 @@ See also
 
 * Wikipedia, _[Conformal bootstrap](https://en.wikipedia.org/wiki/Conformal_bootstrap)_
 
+For [[gauge theories]]:
+
+* Zhijin Li, David Poland, _Searching for gauge theories with the conformal bootstrap_ ([arXiv:2005.01721](https://arxiv.org/abs/2005.01721))
+
+
 ### Superconformal bootstrap
  {#ReferencesSuperconformal}
 
