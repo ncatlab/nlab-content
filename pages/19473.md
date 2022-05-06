@@ -5,13 +5,11 @@
 
 ##Idea 
 
-A **graded modality** is an indexed family of [[modalities]] with some additional [[structure]] on the indices which mirrors the structure of the axioms/proof rules.
+A **graded modality** is an indexed family of [[modalities]] with some additional [[structure]] on the indices which mirrors the structure of the axioms/proof rules. A graded modality is a [[graded monad]] with idempotent components.
 
 For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded counterpart in [[bounded linear logic]], where $!$ is replaced with a family of modalities $!_n$ indexed by the natural numbers (the reuse bound).
 
-##Related concepts
 
-* [[graded monad]]
 
 ## References
 
@@ -42,7 +40,7 @@ For discussion in [[philosophy]] and linguistics, see
 
 Earlier work in philosophy includes
 
-* L. Goble, 1970. Grades Of Modality. Logique Et Analyse 13: 323-334.
+* Lou Goble, 1970. Grades Of Modality. Logique Et Analyse 13: 323-334.
 
 * Kit Fine, 1972. In so many possible worlds. Notre Dame Journal of Formal Logics 13: 516–520.
 
