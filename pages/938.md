@@ -39,7 +39,7 @@ There are actually two related concepts here: whether two spaces are weakly homo
 
 For $X, Y \in $ [[Top]] or $\in $ [[sSet]] two [[topological spaces]] or [[simplicial sets]], a [[continuous function]] or [[simplicial set|simplicial map]] $f : X \to Y$ between them is called a **weak homotopy equivalence** if
 
-1. $f$ induces an [[isomorphism]] of [[connected components]]
+1. $f$ induces an [[isomorphism]] of [[connected components]] (path components in the case of topological spaces)
 
    $$
      \Pi_0(f) \colon \Pi_0(X) \stackrel{\simeq}{\to} \Pi_0(Y)
