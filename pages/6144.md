@@ -65,9 +65,38 @@ $$m(B)=\sup\{M(B')\mid B'\subset B, M(B') is finite, B' is Borel\}.$$
 
 If $m(X)$ or $M(X)$ is finite, then $m=M$.
 
+If $B$ is a [[Borel subset]] such that $M(B)$ is finite or $B$ is open,
+then $m(B)=M(B)$.
+
 A Radon measure is __σ-finite__ if $m$ is σ-finite.
 
 A Radon measure is __moderated__ if $M$ is σ-finite.
+
+## On locally compact Hausdorff topological spaces
+
+Radon measures on locally compact Hausdorff topological spaces
+admit yet another, Daniell-style definition, which is explored
+in detail in Bourbaki's book.
+
+\begin{definition}
+Suppose $X$ is a locally compact Hausdorff topological space.
+A __Radon measure__ on $X$ is a positive linear functional
+$$\mu\colon C_c(X,\mathbf{R})\to\mathbf{R},$$
+where $C_c$ refers to the vector space of continuous compactly
+supported functions.
+\end{definition}
+
+Such $\mu$ induces a pair $(m,M)$ in the sense of above definitions
+as follows: $M=\mu^*$ and $m=\mu^{\bar*}$,
+where $\mu^*$ is the outer measure associated to $\mu$, i.e.,
+$$\mu^*(A)=\inf\{\mu(\chi_B)\mid B\supset A, B is Borel\}$$
+and $\mu^{\bar*}$ is the essential measure associated to $\mu^*$:
+$$\mu^{\bar*}(A)=\sup\{\mu^*(C)\mid C\subset A, \mu^*(C) is finite\}.$$
+
+(For σ-finite spaces we have $\mu^*=\mu^{\bar*}$.)
+
+Vice versa, given $M$, we can reconstruct $\mu$ as the integral
+with respect to $M$.
 
 ## Properties
 
