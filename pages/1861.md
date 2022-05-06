@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 =--
 =--
 
