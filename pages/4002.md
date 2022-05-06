@@ -133,7 +133,7 @@ These results all have generalizations to [[∞-connected (∞,1)-toposes]].
 ###### Proposition
 
 
-The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]] -- is a connected topos, since the site [[CartSp]] is a locally connected site and contains a terminal object.
+The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]]s -- is a connected topos, since the site [[CartSp]] is a locally connected site and contains a terminal object.
 
 =--
 
