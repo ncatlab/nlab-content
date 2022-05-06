@@ -34,6 +34,11 @@ Review includes
 
 * Paula Alvarez Cartelle on behalf of the LHCb collaboration, _New results on flavor anomalies at LHCb_, April 2018 ([pdf](https://cds.cern.ch/record/2311960/files/FlavourAnomaliesLHCbAlvarez.pdf))
 
+Emphasis of [[non-perturbative effects]]:
+
+* {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
+
+
 See also
 
 * CERN, _[LHCb flavour anomalies continue to intrigue](https://home.cern/scientists/updates/2017/06/lhcb-flavour-anomalies-continue-intrigue)_, June 2017
@@ -41,6 +46,7 @@ See also
 * Vasudevan Mukunth, _[A Similar Anomaly Has Showed up in Three Physics Experiments Since 2009. What’s Happening?](https://thewire.in/science/b-mesons-kaons-flavour-changing-neutral-currents)_, 2017
 
 * Diego Guadagnoli, _On the status of flavor anomalies_, 2016 ([web](http://indico.ictp.it/event/7627/session/78/contribution/486/))
+
 
 Original articles include:
 
