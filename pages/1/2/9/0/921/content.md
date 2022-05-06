@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include arithmetic geometry - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 =--
 =--
 
