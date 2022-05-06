@@ -78,6 +78,10 @@ Further developments in
 
 * Alexandre Streicher, _SYK Correlators for All Energies_ ([arxiv:1911.10171](https://arxiv.org/abs/1911.10171))
 
+Relation to [[random matrix theory]]:
+
+* Yiyang Jia, Jacobus J. M. Verbaarschot, _Spectral Fluctuations in the Sachdev-Ye-Kitaev Model_ ([arXiv:1912.11923](https://arxiv.org/abs/1912.11923))
+
 
 See also 
 
