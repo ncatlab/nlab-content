@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -233,7 +234,7 @@ $$
 
 from [[topological K-theory]] to [[spherical fibrations]]
 
-(...) ([MO discussion](http://mathoverflow.net/a/156369/381))
+(e.g. [Clausen 11, Section 2](#Clausen11), [Westerland 14, slide 5](#Westerland14), [MO discussion](http://mathoverflow.net/a/156369/381))
 
 
 
@@ -550,9 +551,17 @@ Lecture notes include
 
 * Arpon Raksit, _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf))
 
+* {#Westerland14} [[Craig Westerland]], _Views on the J-homomorphism_ MSRI talk, 2014 ([recording](https://mathinstitutes.org/videos/videos/1464), [pdf](https://docs.google.com/viewer?url=https://www.msri.org/workshops/685/schedules/17895/documents/1978/assets/20102), [[WesterlandJHomomorphism.pdf:file]])
+
 Discussion in [[higher algebra]] in term of [[(∞,1)-module bundles]] is in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+
+Discussion in [[p-adic geometry]]:
+
+* {#Clausen11} Dustin Clausen, _$p$-adic J-homomorphisms and a product formula_ ([arXiv:1110.5851](https://arxiv.org/abs/1110.5851))
+
+
 
 The [[complex geometry|complex]] J-homomorphism is discussed in 
 
