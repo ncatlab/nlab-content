@@ -60,6 +60,20 @@ The presence of this [[RR-field]] in the solution induces an effective potential
 
 A review of flux compactifications is for instance in ([Gra&#241;a 05](#Grana05))
 
+## Computer scans of Gepner model compactifications
+
+Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SchellekensSuperGepnerModelScanII.jpg" width="600">
+</center>
+
+>  A plot of [[standard model of particle physics|standard model]]-like [[coupling constants]] in a computer scan of [[Gepner model]]-[[KK-compactification]] of [[intersecting D-brane models]] according to [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b). 
+
+>  The blue dot indicates the couplings in $SU(5)$-[[GUT]] theory. The faint lines are NOT drawn by hand, but reflect increased density of Gepner models as seen by the computer scan.
+
+
 ## Related concepts
 
 > at least one thing missing in the discussion here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
@@ -128,7 +142,9 @@ Surveys of the general story of [[flux compactification]] in [[F-theory]] includ
 
 Scan of the moduli space of semi-realistic [[type II string theory|type IIB]] CFTs compactfied on [[orbifolds]] of [[Gepner models]] is in 
 
-* T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl. Phys.B 710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
 
 Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in 
 
