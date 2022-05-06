@@ -32,6 +32,10 @@ Let $F$ be an [[Archimedean field]]. $F$ is *[[sequentially modulated Cauchy com
 
 The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the initial object in the category of [[Cauchy structures]] and [[Cauchy structure homomorphisms]]. 
 
+## Properties 
+
+The [[analytic functions]], such as the [[exponential function]], the [[sine function]], and the [[cosine function]] are well defined in the HoTT book real numbers, since all modulated Cauchy sequences converge in the HoTT book real numbers. 
+
 ## See also ##
 
 * [[Cauchy real numbers]]
