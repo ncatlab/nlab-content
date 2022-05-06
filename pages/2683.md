@@ -66,6 +66,8 @@ This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 * [[piecewise flat spacetime]]
 
+* [[flat space holography]]
+
 ## References
 
 The notion of Minkowski spacetime originates with
