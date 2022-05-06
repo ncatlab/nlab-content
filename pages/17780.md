@@ -19,6 +19,12 @@ _Universal spacetimes_ are [[spacetimes]] for which all [[conserved current|cons
 
 ## References
 
+The first examples are due to
+
+* [[Daniele Amati]], [[Ctirad Klimčík]], _Nonperturbative computation of the Weyl anomaly for a class of nontrivial backgrounds_, Phys. Lett. B, 219:443–447, 1989 ([spire:269390](inspirehep.net/record/269390), <a href="https://doi.org/10.1016/0370-2693(89)91092-7">10.1016/0370-2693(89)91092-7</a>)
+
+* [[Gary Horowitz]], Alan R. Steif, _Spacetime singularities in string theory_, Phys. Rev. Lett. 64, 260 1990 ([doi:10.1103/PhysRevLett.64.260](https://doi.org/10.1103/PhysRevLett.64.260))
+
 The terminology was introduced in 
 
 * A. A. Coley, [[Gary Gibbons]], S. Hervik, [[Christopher Pope]], _Metrics with vanishing quantum corrections_, Class. Quantum Grav., 25:145017, 2008 ([arXiv:0803.2438](https://arxiv.org/abs/0803.2438))
