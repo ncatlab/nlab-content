@@ -544,7 +544,7 @@ explanation via assumption of [[leptoquarks]]:
 
 * {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
 
-* Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_D^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
+* Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_K^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
 
 and in relation to [[axions]]:
 
