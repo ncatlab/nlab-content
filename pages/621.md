@@ -95,7 +95,7 @@ See [[trace in a bicategory]].
 
 ### Partial trace
 
-If the morphism described above is the endomorphism of a tensor product object $V \otimes W$, then there is a similarly evident way to "bend around" only the W-strand.
+Let $V \in C$ be a dualizable object, and $W$ any object. From an endomorphism $f$ of $V \otimes W$, one can produce an endomorphism $tr_V(f)$ of $W$, by applying the duality data of $V$. In terms of string diagrams, this is "bending along" the strand representing $V$.
 
 +--{: .query}
 TO DO: Draw the diagram just described.
