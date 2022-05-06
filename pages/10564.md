@@ -439,8 +439,8 @@ By the general discussion at [[quantization of Chern-Simons theory]] and the [[h
  {#RelationToLoopGroupRepresentations}
 
 When restricting the above general construction
-to the [[Tate curve]], then the confromal blocks become
-[[loop group representations]] (when over the complex numebers, at least) ([Ando00, theorem 10.10](#Ando00)).
+to the [[Tate curve]], then the conformal blocks become
+[[loop group representations]] (when over the complex numbers, at least, [Ando00, theorem 10.10](#Ando00)).
 
 In terms of differential geometry ([[schreiber:differential cohomology in a cohesive topos|dcct]]) consider the map
 
@@ -623,9 +623,8 @@ based on
 
 took shape in 
 
-* [[Matthew Ando]], _The sigma orientation for analytic circle equivariant
-elliptic cohomology_ . Geom. Topol., 7:91&#8211;153,
-2003 ([atrXiv:math/0201092](http://arxiv.org/abs/math/0201092))
+* [[Matthew Ando]], _The sigma orientation for analytic circle equivariant elliptic cohomology_, Geom. Topol., 7:91&#8211;153,
+2003 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092))
 
 * {#Ando00} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
 Mathematical Society 352, 2000, pp. 5619-5666. ([JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
