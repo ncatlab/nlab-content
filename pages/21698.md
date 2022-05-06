@@ -33,7 +33,7 @@ The construction of iterated algebraic K-theory has received particular attentio
 
 Here the first iterated stage $K(ku)$ is related to [[BDR 2-vector bundles]] essentially like [[ku]] is related to ordinary [[complex vector bundles]].
 
-The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-theory has been shown to accommodate a generalization of the [[Fourier-Mukai transform|Fourier-Mukai]]-type transform on [[twisted K-theory]] that is given by [[topological T-duality]], generalizing it to [[spherical T-duality]].
+The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-theory has been shown to accommodate a generalization of the [[Fourier-Mukai transform|Fourier-Mukai]]-type transform on [[twisted K-theory]] that is given by [[topological T-duality]], generalizing it to [[spherical T-duality]] ([Lind-Sati-Westerland 16](#LindSatiWesterland16)).
 
 ## Properties
 
@@ -88,7 +88,7 @@ On the [[algebraic K-theory]] of algebraic K-theory of [[finite fields]] $K(K(\m
 
 Discussion of higher and of [[twisted cohomology|twisted]] iterated K-theory on $ku$, and realization of the [[spherical T-duality]] on twisted $K^{2r}(ku)$:
 
-* [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_, Annals of K-Theory, Vol. 5 (2020), No. 1, 1–42 ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285), [doi:doi:10.2140/akt.2020.5.1](https://msp.org/akt/2020/5-1/p01.xhtml))
+* {#LindSatiWesterland16}  [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_, Annals of K-Theory, Vol. 5 (2020), No. 1, 1–42 ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285), [doi:doi:10.2140/akt.2020.5.1](https://msp.org/akt/2020/5-1/p01.xhtml))
 
 
 [[!redirects iterated algebraic K-theories]]
