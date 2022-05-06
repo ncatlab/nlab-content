@@ -48,7 +48,10 @@ The original proof is due to
 
 See also
 
-* J.A.Hillman, _An explicit formula for a branched covering from $\mathbb{C}P^2$ to $S^4$_ ([arXiv:1705.05038](https://arxiv.org/abs/1705.05038))
+* José Seade, Section V.5 in: _On the Topology of Isolated Singularities in Analytic Spaces_, Progress in Mathematics, Birkhauser 2006 ([ISBN:978-3-7643-7395-5](https://www.springer.com/gp/book/9783764373221))
+
+
+* J. A. Hillman, _An explicit formula for a branched covering from $\mathbb{C}P^2$ to $S^4$_ ([arXiv:1705.05038](https://arxiv.org/abs/1705.05038))
 
 The $SO(3)$-[[equivariant function|equivariant]] enhancement is discussed in:
 
