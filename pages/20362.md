@@ -90,3 +90,7 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 [[!redirects M2-M5-brane bound state]]
 [[!redirects M2-M5-brane bound states]]
+
+[[!redirects M2-M5 brane intersection]]
+[[!redirects M2-M5 brane intersections]]
+
