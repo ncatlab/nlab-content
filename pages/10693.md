@@ -96,7 +96,7 @@ $$
   }
 $$
 
-The computaton of the [[cohomology]] of $X$ by means of this resolution is given by the [[Adams spectral sequence]].
+The computation of the [[cohomology]] of $X$ by means of this resolution is given by the [[Adams spectral sequence]].
 
 ### Via injective resolutions
  {#ViaInjectiveResolutions}
