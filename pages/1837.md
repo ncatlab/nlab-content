@@ -209,6 +209,11 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 ### General
 
+General textbook accounts:
+
+* Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley 2008 ([ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364))
+
+
 Basics on [[fiber bundles in physics]] are recalled in
 
 * Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
