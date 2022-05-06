@@ -66,7 +66,7 @@ For [[D6-D8 brane intersections]]:
 > graphics grabbed from [Gaiotto-Tomasiello 14](D6-D8-brane+intersection#GaiottoTomasiello14)
 
 
-#### Yang-Mills monopoles
+#### Relation to Yang-Mills monopoles
 
 Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
 
@@ -80,7 +80,7 @@ Specifically for $p = 6$, i.e. for [[D6-D8-brane intersections]], this fits with
 </center>
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/D8D6NS5.jpg" width="380"/>
+<img src="https://ncatlab.org/nlab/files/D8D6NS5.jpg" width="350"/>
 </div>
 
 Here we are showing
@@ -106,6 +106,63 @@ Here we are showing
    (see at _[[D6-D8-brane bound state]]_)
 
 1. the [[NS5-branes]].
+
+\linebreak
+
+\linebreak
+
+
+#### Single trace observables as $\mathfrak{su}(2)$-weight systems on chord diagrams
+  {#SingleTraceObservablesAsWeightSystemsOnChordDiagrams}
+
+We discuss how the [[single trace observables]] on the [[fuzzy 2-sphere]]-sections  of [[Dp-D(p+2) brane intersection]] [[fuzzy funnels]] are given by [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] (following [Ramgoolam-Spence-Thomas 04](#RamgoolamSpenceThomas04), [McNamara-Papageorgakis 05](#McNamaraPapageorgakis05), see [McNamara 06, Section 4](#McNamara06) for review). 
+
+For more see at _[[weight systems on chord diagrams in physics]]_.
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
+</div>
+
+\linebreak
+
+
+While in the commutative [[large N limit]], all powers of the [[radius]] function on the [[fuzzy 2-sphere]] are equal
+
+$$
+  \underset{N\to \infty}{\lim}
+  \int_{S^2_N} R^{2 k}
+  \;=\;  
+  4 \pi 
+  \,;
+$$
+
+for [[finite number|finite]] $N$ there is an ordering ambiguity: In fact, the number of functions on the [[fuzzy 2-sphere]] at [[finite number|finite]] $N$ that all go to the same function $R^{2k}$ in the [[large N limit]] grows rapidly with $k$.
+
+At $k = 1$ there is the single radius observable (eq:RadiusOfFuzzy2Sphere)
+
+$$
+  \int_{S^2_N} R^2 
+  \;=\; 
+  \int_{S^2_N}
+  \underset{i}{\sum} X_i \cdot X_i
+  \;=\;
+  4 \pi \tfrac{ N }{ \sqrt{N^2 -1} }
+$$
+
+At $k = 2$ there are, under the integral (eq:FuzzyS2Integration), two radius observables:
+
+1. $ \int_{S^2_N} \underset{i,j}{\sum} X_i X_i X_j X_j$
+
+1. $\int_{S^2_N} \underset{i,j}{\sum} X_i X_j X_j X_i$
+
+(Here we are using that under the integral/trace, a [[cyclic permutation]] of the factors in the integrand does not change the result).
+
+Similarly for higher $k$, where the number of possible orderings increases rapidly. The [[combinatorics]] that appears here is familiar in [[knot theory]]:
+
+Every ordering of operators, up to cyclic permutation, in the [[single trace observable]] $Tr(R^2)^n$ is encoded in a [[chord diagram]] and the value of the corresponding [[single trace observable]] is the value of the [[su(2)]]-[[Lie algebra weight system]] on this chord diagram.
+
+
 
 ## Related concepts
 
@@ -186,6 +243,20 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 * [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+### Single trace observables as weight systems on chord duagrams
+
+Relation of [[single trace observables]] on [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
+[[Yang-Mills monopoles]]) to [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] computing [[radii]] averages of [[fuzzy spheres]]:
+
+* {#RamgoolamSpenceThomas04} [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+
+* {#McNamaraPapageorgakis05} [[Simon McNamara]], [[Constantinos Papageorgakis]], [[Sanyaje Ramgoolam]], [[Bill Spence]], Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+
+* {#McNamara06} [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
+
+* [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
 
 
 [[!redirects Dp-D(p+2)-brane bound states]]
