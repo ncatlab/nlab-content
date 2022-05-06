@@ -56,21 +56,25 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 
 * The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad.
 
-* The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite ([Avery 17,Prop. 2.7.10](#Avery17)).
+* The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite ([Avery 17, Proposition 2.7.10](#Avery17)).
 
+* The codensity monad of the inclusion $FinSet \to Top$
+computes the [[Stone spectrum]] of the [[Boolean algebra]] of [[clopen subsets]]
+of a [[topological space]].
+Its algebras are precisely the [[Stone spaces]].
+(Sipoș \cite[Theorem 2]{Sipos}.)
+
+* The codensity monad of the inclusion $N \to Top$, where
+$N$ denotes the [[full subcategory]] of [[Top]] consisting
+of arbitrary [[small products]] of the [[Sierpiński space]],
+is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]].
+Its algebras are precisely the [[sober spaces]].
+(Sipoș \cite[Theorem 6]{Sipos}.)
 
 
 ## Properties
 
-
-
-
 ....
-
-
-
-
-
 
 
 ## Related entries
