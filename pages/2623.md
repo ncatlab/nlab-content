@@ -4785,7 +4785,7 @@ A vaguely related approach earlier appeared in
 ### On compactified configuration spaces
  {#ReferencesOnCompactifiedConfigurationSpaces}
 
-An alternative to regarding [[propagators]]/[[time-ordered products]]/[[Feynman amplitudes]] as [[distributions of several variables]] with [[singularities]] at (in particular) coincident points, one may [[pullback of differential forms|pullback]] these distributions to [[smooth functions]] on [[Fulton-MacPherson compactifications]] of [[configuration spaces]] of points and study renormalization in that perspective.
+For [[Euclidean field theory]], an alternative to regarding [[propagators]]/[[time-ordered products]]/[[Feynman amplitudes]] as [[distributions of several variables]] with [[singularities]] at (in particular) coincident points, one may [[pullback of differential forms|pullback]] these distributions to [[smooth functions]] on [[Fulton-MacPherson compactifications]] of [[configuration spaces]] of points and study renormalization in that perspective.
 
 This approach was originally considered specifically for [[Chern-Simons theory]] in 
 
