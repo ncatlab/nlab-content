@@ -26,7 +26,7 @@ In [[scattering theory]] the _Møller operator_ intertwines the [[observables]] 
 
 ### In quantum mechanics
 
-The [[quantum states]] $\vert \psi(t)\rangle_I$ in the [[interaction picture]] of [[quantum mechanics]] are by definition ([this equation](Dirac+interaction+picture#eq:StateInTheInteractionPicture)) related to the asymptotic free states $\vert\psi\range$ by
+The [[quantum states]] $\vert \psi(t)\rangle_I$ in the [[interaction picture]] of [[quantum mechanics]] are by definition ([this equation](Dirac+interaction+picture#eq:StateInTheInteractionPicture)) related to the asymptotic free states $\vert\psi\rangle$ by
 
 $$
   \vert \psi(t)\rangle_I
