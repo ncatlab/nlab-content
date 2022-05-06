@@ -504,8 +504,9 @@ Here the sign in the last lines arises from the [[Minkowski spacetime|Minkowski]
 
 =--
 
-+-- {: .num_prop} 
++-- {: .num_prop #WaveOperatorOnMinkowskiSpacetime} 
 ###### Proposition
+**(wave equation)**
 
 Let 
 $
@@ -522,12 +523,14 @@ $
 be a [[differential p-form]] 
 on $D$-dimensional [[Minkowski spacetime]]
 such that 
+
 $$
   \partial^\nu \alpha_{\nu \mu_1 \cdots \mu_{p-1}}
   \;=\;
   0
-  \,.
 $$
+
+(i.e. [[Lorenz gauge]]).
 
 Then
 
@@ -536,8 +539,9 @@ $$
   \;=\;
   { \color{magenta} - }
   \partial^\nu \partial_\nu \alpha
-  \,.
 $$
+
+is the [[wave operator]] acting on the components of $\alpha$.
 
 =--
 
