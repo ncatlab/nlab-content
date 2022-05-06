@@ -19,7 +19,19 @@ The special case of [[Dp-D(p+2)-brane bound state]] for [[D6-brane|D6]]-[[D8-bra
 
 ## Properties
 
+### Fuzzy funnel geometry
+ {#FuzzyFunnelGeometry}
+
+The [[fuzzy funnel]]/[[fuzzy 2-sphere]] [[noncommutative geometry]] of $D6\BOT d8$-brane intersections, from the point of the of the [[D6-brane]] non-abelian [[DBI-action]] ([Gaiotto-Tomassiello 14](#GaiottoTomassiello14), [Fazzi 17, p. 41-46](#Fazzi17)):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8FuzzyFunnel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from [Gaiotto-Tomassiello 14, Figure 5](#GaiottoTomassiello14)
+
 ### As QCD Monopoles in the Witten-Sakai-Sugimoto model
+ {#AsQCDMnopoles}
 
 Generally [[Dp-D(p+2)-brane intersections]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]] in the [[worldvolume]] of the higher dimensional D$(p+2)$-branes.
 
@@ -77,13 +89,19 @@ On [[D6-D8-brane bound states]] as [[black brane]]-solutions in [[massive type I
 
 * Fabio Apruzzi, [[Marco Fazzi]], Dario Rosa, [[Alessandro Tomasiello]],  _All $AdS_7$ solutions of type II supergravity_, JHEP 04 (2014) 064 ([arxiv:1309.2949](https://arxiv.org/abs/1309.2949))
 
+With emphases of the [[fuzzy funnel]] [[noncommutative geometry]]:
+
+* {#GaiottoTomassiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+
+* {#Fazzi17} [[Marco Fazzi]], p. 41-46 of: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
+
+
 In view of [[AdS/CFT]]:
 
 * Fabio Apruzzi, Giuseppe Dibitetto, Luigi Tizzano, _A new 6d fixed point from holography_, JHEP 11 (2016) 126 ([arxiv:1603.06576](https://arxiv.org/abs/1603.06576))
 
 * Nikolay Bobev, [[Giuseppe Dibitetto]], Fridrik Freyr Gautason, Brecht Truijen, _Holography, Brane Intersections and Six-dimensional SCFTs_, JHEP 1702 (2017) 116 ([arxiv:1612.06324](https://arxiv.org/abs/1612.06324))
 
-* [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
 
 
