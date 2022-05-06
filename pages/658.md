@@ -200,7 +200,7 @@ based on several series of lectures starting in 1969, but these notes are hard t
 
 based on suggestions by [[Bill Lawvere]], including the monograph
 
-* [[Michel Andre]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964
+* [[Michel André]], _Categories of Functors and Adjoint Functors_, Batelle Institute at Geneva, 1964, see also _Categories of Functors and Adjoint Functors_,American Journal of Mathematics, Vol. 88, No. 3 (Jul., 1966), pp. 529-543 
 
 Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes taken by [[Anders Kock]] of a talk by Bill Lawvere, but there is only a passing mention of 'generalised functors' (what are now called profunctors) and their 'generalised matrix multiplication'.
 
@@ -223,7 +223,7 @@ The following classic paper is a good appetizer
 
 See the [[joyalscatlab:HomePage|Joyal's CatLab]] for the theory of [[Set]]-valued distributors:
 
-* [[Andre Joyal]], _[[joyalscatlab:Distributors and barrels]]_ .
+* [[André Joyal]], _[[joyalscatlab:Distributors and barrels]]_ .
 
 Internal profunctors are considered in 
 
