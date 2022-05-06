@@ -43,7 +43,7 @@ $$ \Hom_\mathcal{C}(\cdot, c) \otimes_\mathcal{C} S = S(c). $$
 This follows from some coend manipulations:
 $$ \begin{array}{rcl}
   \Hom(\Hom_\mathcal{C}(\cdot, c) \otimes_\mathcal{C} S, t) &=&
-  \int_{c' \in \mathcal{C}} \Hom(\Hom_\mathcal{C}(c',c) \times S(c'), t) \\
+  \int_{c' \in \mathcal{C}} \Hom(\Hom_\mathcal{C}(c',c) \cdot S(c'), t) \\
   &=& \int_{c' \in \mathcal{C}} \Hom(\Hom_\mathcal{C}(c',c), \Hom_{\mathcal{D}}(S(c'), t)) \\
   &=& Nat(\Hom_\mathcal{C}(\cdot, c), \Hom_\mathcal{D}(S(\cdot), t)) \\
   &=& \Hom_\mathcal{D}(S(c),t).
