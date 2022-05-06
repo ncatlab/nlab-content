@@ -21,7 +21,7 @@
 
 ## Idea
 
-In the [[ADE-classification]], the items labeled $D_4$ include the following:
+In the [[ADE-classification]], the items labeled $D4$ include the following:
 
 1. as [[finite subgroups of SO(3)]]:
 
