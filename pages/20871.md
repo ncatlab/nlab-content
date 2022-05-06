@@ -45,9 +45,12 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 * [[weight systems are cohomology of loop space of configuration space]]
 
+* [[weight systems are cohomology of knot graph complex]]
+
 * [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
 
 ## Related concepts
+
 
 [[!include chord diagrams and weight systems -- table]]
 
