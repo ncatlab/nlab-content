@@ -189,9 +189,10 @@ Trivially, any [[connected geometric morphism]] is surjective.
 +-- {: .num_prop}
 ###### Proposition
 
-For $f : X \to Y$ a [[continuous function]] between $T_1$ [[topological space]]s and $(f^* \dashv f_*) : Sh(X) \to Sh(Y)$ the corresponding geometric morphisms of [[sheaf topos]]es, $f$ is a surjection precisely if $(f^* \dashv f_*)$ is a surjective geometric morphism.
-
+For $f : X \to Y$ a [[continuous function]] between [[topological space|topological spaces]] and $(f^* \dashv f_*) : Sh(X) \to Sh(Y)$ the corresponding geometric morphism of [[sheaf topos|sheaf toposes]]: if $f$ is surjective then $(f^* \dashv f_*)$ is a surjective geometric morphism, conversely, if $(f^* \dashv f_*)$ is a surjective geometric morphism and $Y$ a $T_1$-space then $f$ is surjective.
 =--
+
+For a proof see e.g [MacLane-Moerdijk](#MacLaneMoerdijk), p.367. A similar result holds for injective functions and [[geometric embedding|geometric embeddings]] but there $T_0$ suffices as a [[separation axiom|separation requirement]] on $X$.
 
 ## Related concepts
 
