@@ -364,6 +364,9 @@ Based on this, a large number of realizations of the exact field content of the 
 
 * [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
+
+* {#TaylorTurner19} [[Washington Taylor]], Andrew P. Turner, _Generic construction of the Standard Model gauge group and matter representations in F-theory_ ([arXiv:1906.11092](https://arxiv.org/abs/1906.11092))
+
 #### M-theory models
  {#ReferencesMTheoryModels}
 
