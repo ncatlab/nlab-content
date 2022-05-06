@@ -86,6 +86,8 @@ If $k$ is a [[field]] and $\mathcal{C}$ = [[sVect]] is the [[category]] of [[sup
 
 ## Related concepts
 
+* [[super Lie algebra]]
+
 * [[Lie algebra weight system]]
 
 
