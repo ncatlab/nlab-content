@@ -231,6 +231,8 @@ The rational Witten genus vanishes on total spaces of [[Cayley plane]]-[[fiber b
 
 ## Related concepts
 
+* [[Witten index]]
+
 * [[elliptic Chern character]]
 
 [[!include genera and partition functions - table]]
