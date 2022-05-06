@@ -3,7 +3,13 @@ This page collects links related to
 
 * [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], 
 
-   _[[Natural operators in differential geometry]]_ ([pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
+  **Natural operators in differential geometry** 
+
+  Springer 1993
+
+  [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3)
+
+  [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)
 
 on [[differential geometry]] with particular emphasis on [[natural bundles]].
 
