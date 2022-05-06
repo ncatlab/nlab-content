@@ -8,10 +8,15 @@ In his Spencer lecture, delivered at Oxford in 1933, Einstein stressed the impor
 ## References
   {#References}
 
+### The 1919 eclipse
+
 On the (eventual) [[experiment|experimental]] confirmation of [[general relativity]]:
 
 * {#Coles01} Peter Coles, _Einstein, Eddington, and the 1919 Eclipse_ ([arXiv:astro-ph/0102462](https://arxiv.org/abs/astro-ph/0102462))
 
+* Gerard Gilmore, Gudrun Tausch-Pebody, _The 1919 eclipse results which verified General Relativity and their later detractors: a story re-told_ ([arXiv:2010.13744](https://arxiv.org/abs/2010.13744))
+
+### Gravitational waves
 
 The first article that _correctly_ derived [[gravitational waves]] from the [[Einstein equations]] is 
 
