@@ -3,14 +3,20 @@
 
 ## Selected writings
 
+On [[NS5-branes]] in ([[dual heterotic string theory|dual]]) [[heterotic string theory]] and their interpretation as [[Yang-Mills instantons]] (see also at _[[half M5-branes]]_):
+
+* {#Strominger90} [[Andrew Strominger]], _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>) ([spire:27900](http://inspirehep.net/record/27900))
+
 On microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric engineering of QFT|geometric engineering]] of [[black holes in string theory]] as [[bound states of D-branes]]:
 
 * {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_, Phys. Lett. B379: 99-104, 1996 ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
+Discussion of [[black hole entropy]] of [[D2-D6 brane bound states]] as [[black holes in string theory]]:
 
-On [[NS5-branes]] in ([[dual heterotic string theory|dual]]) [[heterotic string theory]] and their interpretation as [[Yang-Mills instantons]] (see also at _[[half M5-branes]]_):
+* [[Juan Maldacena]], [[Andrew Strominger]], _Statistical Entropy of Four-Dimensional Extremal Black Holes_, Phys. Rev. Lett. 77:428-429, 1996 ([arXiv:hep-th/9603060](https://arxiv.org/abs/hep-th/9603060))
 
-* {#Strominger90} [[Andrew Strominger]], _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>) ([spire:27900](http://inspirehep.net/record/27900))
+
+
 
 On the [[M5-brane elliptic genus]]:
 
