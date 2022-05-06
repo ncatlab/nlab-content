@@ -16,6 +16,12 @@ On [[Dijkgraaf-Witten theory]]:
 * [[Robbert Dijkgraaf]], V. Pasquier, P. Roche, _QuasiHopf algebras, group cohomology and orbifold models_, Nucl. Phys. B Proc. Suppl. __18B__ (1990), 60-72; _Quasi-quantum groups related to orbifold models_, Modern quantum field theory (Bombay, 1990), 375&#8211;383, World Sci. 1991
 
 
+On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
+
+* [[Robbert Dijkgraaf]], [[Juan Maldacena]], [[Gregory Moore]], [[Erik Verlinde]], _A Black Hole Farey Tail_ ([arXiv:hep-th/0005003](https://arxiv.org/abs/hep-th/0005003), [spire:526744](http://inspirehep.net/record/526744))
+
+
+
 On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactification|compactified]] on [[orbifolds]] and [[orientifolds]]:
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
