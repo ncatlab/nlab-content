@@ -436,6 +436,11 @@ explanation via assumption of [[leptoquarks]]:
 
 * {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
 
+* Jordan Bernigaud, Ivo de Medeiros Varzielas, Jim Talbert, _Finite Family Groups for Fermionic and Leptoquark Mixing Patterns_ ([arXiv:1906.11270](https://arxiv.org/abs/1906.11270))
+
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+
+* Leandro Da Rold, Federico Lamagna, _A vector leptoquark for the B-physics anomalies from a composite GUT_ ([arXiv:1906.11666](https://arxiv.org/abs/1906.11666))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
@@ -502,9 +507,11 @@ explanations via ssumption of [[Z'-bosons]]:
 
 * Jong-Phil Lee, _$B$ anomalies in the nonminimal universal extra dimension model_ ([arXiv:1906.07345](https://arxiv.org/abs/1906.07345)) 
 
-Joint explanation with the [anomalies](anomalous magnetic moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
+Joint explanation with the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
 
 * {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
+
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
 
 [[!redirects flavour anomalies]]
 
