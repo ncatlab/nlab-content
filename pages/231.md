@@ -96,7 +96,9 @@ A **monoidal category** is a [[category]] $\mathcal{C}$ equipped with
      \lambda_x \colon 1 \otimes x \to x 
    $$
 
-   called the **[[left unitor]]**, and a natural isomorphism 
+   called the **[[left unitor]]**, and
+
+1. a [[natural isomorphism]]
 
    $$
      \rho \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
