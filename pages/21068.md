@@ -18,6 +18,10 @@
 
 The [[antiparticle]] of the [[electron]].
 
+## Related concepts
+
+* The [[bound state]] of a positron with an [[electron]] is [[positronium]].
+
 ## References
 
 See also
