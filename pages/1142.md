@@ -70,7 +70,7 @@ This is
 
 =--
 
-(e.g. [MacLane-Moerdijk, pages 46-47](#MacLaneMoerdijk)).
+(e.g. [MacLane-Moerdijk, section I.6, pages 46-47](#MacLaneMoerdijk)).
 
 +-- {: .proof}
 ###### Proof
@@ -265,7 +265,7 @@ In the case where the monoidal structure on $X$ is cartesian, the induced closed
 
 ## Related concepts
 
-* The cartesian closure restricts from presheaves to [[categories of sheaves]] (e.g. [MacLane-Moerdijk, p. 136-138](#MacLaneMoerdijk))
+* The cartesian closure restricts from presheaves to [[categories of sheaves]] (e.g. [MacLane-Moerdijk, section III.6, p. 136-138](#MacLaneMoerdijk))
 
 ## References
 
