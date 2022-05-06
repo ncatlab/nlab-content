@@ -44,6 +44,8 @@ A free action that is also [[transitive action|transitive]] is called _[[regular
 
 ## Related concepts
 
+* [[fixed point]]
+
 * [[homogeneous space]]
 
 * [[torsor]]
