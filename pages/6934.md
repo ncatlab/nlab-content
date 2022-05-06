@@ -22,7 +22,7 @@ Agda can be compiled to Haskell, Epic or Javascript.
 
 ## Related concepts
 
-* [[Coq]], [[Lean]]
+[[!include proof assistants and formalization projects -- list]]
 
 ## References
  {#References}
