@@ -60,7 +60,7 @@ $$
 $$
 
 $$
-  X \mapsto \mathcal{l}C^\infty(X)
+  X \mapsto \ell C^\infty(X)
 $$
 
 from the category [[Diff|SmthMfd]] of [[smooth manifolds]] is a [[full subcategory]] embedding (i.e. a [[full and faithful functor]]. Moreover, it preserves [[pullbacks]] along [[transversal maps]].
