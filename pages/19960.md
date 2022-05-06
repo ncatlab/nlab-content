@@ -1083,6 +1083,8 @@ See also
 
 * Alfonso Ballon-Bayona, Jonathan P. Shock, Dimitrios Zoakos, _Magnetic catalysis and the chiral condensate in holographic QCD_ ([arXiv:2005.00500](https://arxiv.org/abs/2005.00500))
 
+* Yi Yang, Pei-Hung Yuan, _QCD Phase Diagram by Holography_ ([arXiv:2011.11941](https://arxiv.org/abs/2011.11941))
+
 
 
 ### Application to meson physics
