@@ -31,7 +31,7 @@ $$
 hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then 
 one says that
 
-* the topology $\tau_2$ is _finer_ than the topology $\tau_2$
+* the topology $\tau_2$ is _finer_ than the topology $\tau_1$
 
 * the topology $\tau_1$ is _coarser_ than the topology $\tau_2$.
 
