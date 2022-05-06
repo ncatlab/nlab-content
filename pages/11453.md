@@ -23,6 +23,26 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 
 ## Properties
 
+### O-Plane charge
+ {#OPlaneCharge}
+
+Relation of [[O-plane charge]] $\mu_{O_p}$ to [[D-brane charge]] $\mu_{D_p}$ for flat O-planes:
+
+$$
+  \mu_{Op}
+  \;=\;
+  -2^{p-4} \mu_{Dp}
+$$
+
+([Blumenhagen-Lüst-Theisen 13 (10.212)](#BlumenhagenLustTheisen13))
+
+See also at [[RR-field tadpole cancellation]].
+
+A much more general formula for this O-plane charge, regarded in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]] is supposed to be the topic of [Distler-Freed-Moore 09](#DistlerFreedMoore09).
+
+(...)
+
+
 ### T-Duality with type I string theory
  {#TDualityWithTypeIStringTheory}
 
@@ -113,6 +133,24 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 * {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
 
+Textbook account:
+
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 10.6 of _[[Basic Concepts of String Theory]]_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+
+O-Plane charge in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]]:
+
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+
+* {#DistlerFreedMooreII} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
+ 
+reviewed/surveyed in
+
+* [[Daniel Freed]], _Dirac charge quantiation, K-theory, and orientifolds_, talk at a workshop _Mathematical methods in general relativity and quantum field theories_, Paris, November 2009 ([pdf](http://www.ma.utexas.edu/users/dafr/paris_nt.pdf), [[FreedK09.pdf:file]])
+
+* {#Moore10} [[Greg Moore]], _The RR-charge of an orientifold_, Oberwolfach talk 2010 ([pdf](https://www.physics.rutgers.edu/~gmoore/Oberwolfach_June2010_FINAL.pdf), [[MooreOrientifold2010.pdf:file]], [ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
+
+* {#Freed} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lecures at _[K-Theory and Quantum Fields](http://www.esi.ac.at/activities/events/2012/k-theory-and-quantum-fields)_, ESI 2012 ([[FreedESI2012.pdf:file]])
+
 
 
 Lift to [[M-theory]]:
@@ -152,4 +190,9 @@ See also
 
 [[!redirects O8-plane]]
 [[!redirects O8-planes]]
+
+[[!redirects O-plane charge]]
+[[!redirects O-plane charges]]
+
+
 
