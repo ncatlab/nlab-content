@@ -59,15 +59,7 @@ $$
   \,.
 $$
 
-This inverse sends an $n$-disk algebra
-
-$$
-  A : Disk_n \to Mod_k
-$$
-
-to the functor that sends a manifold $X$ to the 
-
-The factorization homology is then the [[derived functor|derived]] [[coend]]
+which sends an $n$-disk algebra $A : Disk_n \to Mod_k$ to the functor that sends a manifold $X$ to the [[derived functor|derived]] [[coend]]
 
 $$
   \int^X A = \mathbb{E}_X \otimes_{Disk_n} A
