@@ -240,6 +240,14 @@ $$
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
+### Cohomology
+
+The _[[Dwyer-Wilkerson space]]_ $G_3$ ([Dwyer-Wilkerson 93](Dwyer-Wilkerson+H-space#DwyerWilkerson93)) is a [[p-adic completion|2-complete]] [[H-space]], in fact a finite [[loop space]]/[[infinity-group]], such that the mod 2 [[cohomology ring]] of its [[classifying space]]/[[delooping]] is the mod 2 [[Dickson invariants]] of rank 4. As such, it is the fourth and last space in a series of [[infinity-groups]] that starts with 3 [[compact Lie groups]]:
+
+| $n=$ | 1 | 2 | 3 | 4 | 
+|--|--|--|--|--|
+| $DI(n)=$ | [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
+
 
 ### Relation to higher prequantum geometry
 
