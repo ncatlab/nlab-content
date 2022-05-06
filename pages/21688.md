@@ -74,7 +74,7 @@ Moreover, if $CE(\mathfrak{l}B)$ is a [[minimal Sullivan model]] for $B$, then t
   }
 \]
 
-([Félix-Halperin-Thomas 00, Corollary on p. 199](#FelixHalperinThomas00)) 
+([Félix-Halperin-Thomas 00, Corollary on p. 199](#FelixHalperinThomas00), [Felix-Halperin-Thomas 15, Theorem 5.1](#FelixHalperinThomas15)) 
 
 But this cofiber, being the cofiber of a [[relative Sullivan model]] and hence of a [[cofibration]] in the [[projective model structure on dgc-algebras]], is in fact the [[homotopy cofiber]], and hence is a model for the [[homotopy fiber]] of the [[rationalization|rationalized]] fibration. 
 
@@ -101,5 +101,8 @@ Therefore (eq:SullivanModelForFiber) implies that on fibrations of connected fin
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Sections 14 and 15 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
+
+* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], Sections 4 and 5 of: _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
+
 
 [[!redirects parametrized rational homotopy theory]]
