@@ -10,7 +10,6 @@
 =--
 
 #Contents#
-
 * table of contents
 {:toc}
 
@@ -28,8 +27,11 @@ The sociology of folklore theorems can be subtle. In semi-formalized areas such 
 
 ## Related concepts
 
+* [[conjecture]]
+
+* [[theorem]], [[proposition]]
+
+* [[proof]]
+
 * [[analogy]]
-
-* [[conjecture]], [[theorem]], [[proposition]]
-
 
