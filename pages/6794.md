@@ -15,6 +15,12 @@ On [[(p,q)5-brane webs]]:
 
 * [[Ofer Aharony]], [[Amihay Hanany]], _Branes, Superpotentials and Superconformal Fixed Points_, Nucl. Phys. B504:239-271, 1997 ([arXiv:hep-th/9704170](https://arxiv.org/abs/hep-th/9704170))
 
+On [[D-brane polarization]] in a context of [[AdS/QCD]]:
+
+* [[Ofer Aharony]], [[Arvind Rajaraman]], _String Theory Duals for Mass-deformed $SO(N)$ and $USp(2N)$ $\mathcal{N}=4$ SYM Theories_, Phys. Rev. D62:106002, 2000 ([arXiv:hep-th/0004151](https://arxiv.org/abs/hep-th/0004151))
+
+
+
 On [[multi trace operators]] in [[AdS/CFT]]:
 
 * [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Multiple-Trace Operators and Non-Local String Theories_, JHEP 0108:006, 2001 ([arXiv:hep-th/0105309](https://arxiv.org/abs/hep-th/0105309))
