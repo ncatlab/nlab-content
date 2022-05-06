@@ -35,6 +35,15 @@ where $1$ is the [[terminal category]] and $I$ is the [[interval category]].  No
 
 An equifier in $K^{op}$ (see [[opposite 2-category]]) is called a **coequifier** in $K$.
 
+## Example: equifiers in the strict 2-category of categories
+
+In the strict 2-category of categories, equifiers can be computed as follows.
+The input data is two categories $A$ and $B$,
+two functors $F,G\colon A\to B$,
+and two natural transformations $p,q\colon F\to G$.
+The equifier of $p$ and $q$ is the full subcategory of $A$
+consisting of those objects $X\in A$ for which $p_X=q_X$.
+
 ## Properties
 
 * The above explicit definition makes it clear that any equifier is a [[fully faithful morphism]].
