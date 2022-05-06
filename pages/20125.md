@@ -25,7 +25,21 @@
 
 The term _tensor network_ has become popular in [[quantum physics]] for essentially what in [[mathematical physics]] is known as _[[Penrose notation]]_ and in [[monoidal category|monoidal]] [[category theory]] is referred to as _[[string diagrams]]_.
 
-The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but then mainly via its use in [[holographic entanglement entropy]]
+The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but then mainly via its use in [[holographic entanglement entropy]].
+
+Here _tensor network_ is [[concept with an attitude]], in that it is (just) a [[string diagram]], but with 
+
+1. the [[tensor product]] of all its external [[objects]] regarded as a [[space of states]] of a [[quantum system]];
+
+1. the [[element]] in that [[tensor product]] defined by the string diagram regarded a a [[state]] ([[wave function]]) of that quantum system.
+
+For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagram]]-notation as shown [there](metric+Lie+algebra#Definition)), and with each [[tensor product]]-power of its [[dual vector space]] regarded [[Hilbert space]] via the given [[inner product]] on $\mathfrak{g}$, then an example of a tensor network state is the following:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="400">
+</center>
+
+
 
 ## For finite quantum mechanics in $\dagger$-compact categories
 
