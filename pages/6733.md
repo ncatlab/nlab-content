@@ -475,6 +475,10 @@ Discussion in the [[superembedding approach]] is in
 
 * {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
+and a variant adapated to a 3+3-dimensional split in
+
+* Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
+
 The computation of the small fluctuations of this GS-type sigma-model around a solution embedding as the asymptotic boundary of the [[AdS-spacetime]] [[near-horizon geometry]] of a black 5-brane as [above](#ReferencesAsBlackBrane), and the proof, to low order, that the result is the [[6d (2,0)-supersymmetric QFT]] appearing in [[AdS-CFT|AdS7-CFT6 duality]] is due to 
 
 * {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
