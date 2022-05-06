@@ -112,14 +112,6 @@ The appendix of
 
 talks about "stacked covers": these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
 
-+-- {: .query}
-
-[[arsmath|walt]] There is a notion in general topology called a "normal cover" which may be the same thing.  Dold mentions the connection in passing.  The equivalence can be found as Theorem 1.2 in Morita and Hoshina, Extensions of Mappings, II.
-
-THIS IS ALREADY ANSWERED ABOVE!
-PLEASE READ THE [nForum THREAD](https://nforum.ncatlab.org/discussion/11282/numerable-open-cover/).
-
-=--
 
 [[!redirects numerable open covers]]
 
