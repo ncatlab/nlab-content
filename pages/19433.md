@@ -50,6 +50,11 @@ Relation to [[Lie algebras]] and [[Lie algebra representations]]:
 
 * Oliver DeWolfe, Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]], _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 ([arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028))
 
+Relation to the [[D=6 N=(2,0) SCFT]] on [[M5-branes]]:
+
+* Stefano Bolognesi, Kimyeong Lee, _$1/4$ BPS String Junctions and N3 Problem in 6-dim $(2,0)$ Superconformal Theories_, Phys. Rev. D.84. 126018 ([arXiv:1105.5073](https://arxiv.org/abs/1105.5073))
+
+
 
 
 
