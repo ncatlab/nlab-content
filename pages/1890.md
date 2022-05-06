@@ -73,56 +73,34 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 
 ## Concrete definition
 
-A more concrete definition is given in:
+A more concrete definition is given in [Kock '72](#kock72) and later in [Moggi '89](#moggi89). 
 
-* [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
+A _strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _strength_, such that the following diagrams commute.
 
-and later in 
+"Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
+\begin{tikzcd}
+1 \otimes TA \ar{dd}[swap]{t_{1,A}} \ar{dr}{\cong} \\
+& TA \ar{dl}{\cong} \\
+T(1\otimes A)
+\end{tikzcd}
 
-* [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
+"Consecutive applications of strength commute" (and play well with the [[associators]]):
+\begin{tikzcd}
+(A\otimes B) \otimes TC \ar{d}{\cong} \ar{rr}{t_{A\otimes B, C}} && T((A\otimes B)\otimes C) \ar{d}{\cong} \\
+A \otimes (B\otimes TC) \ar{r}{A\otimes t_{B,C}} & A\otimes T(B\otimes C) \ar{r}{t_{A,B\otimes C}} & T(A\otimes(B\otimes C))
+\end{tikzcd}
 
-A _strong monad_ over a category $C$ with finite products is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}$ from $A \times T\;B$ to $T(A\times B)$ subject to three diagrams.
+"Strength commutes with the monad unit":
+\begin{tikzcd}
+& A \otimes B \ar{ddl}[swap]{A\otimes\eta_B} \ar{ddr}{\eta_{A\otimes B}} \\ \\
+A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
+\end{tikzcd}
 
-"Strengthening with 1 is irrelevant":
-
-\[
-\begin{array}{ccc}
-1\times T\, A & \rightarrow & T\, A\\
-\\
- & t_{1,A}\searrow\phantom{t_{1,A}} & \downarrow\\
-\\
- &  & T(1\times A)
-\end{array}
-\]
-
-"Consecutive applications of strength commute":
-
-\[
-\begin{array}{ccccc}
-(A\times B)\times T\, C & \xrightarrow{t_{A\times B,C}} & T\,((A\times B)\times C)\\
-\\
-\cong\downarrow\phantom{\cong} &  &  & \phantom{\cong}\searrow\cong\\
-\\
-A\times(B\times T\, C) & \xrightarrow[A\times t_{B,C}]{} & A\times T\,(B\times C) & \xrightarrow[t_{A,B\times C}]{} & T(A\times(B\times C))
-\end{array}
-\]
-
-
-"Strength commutes with monad unit and multiplication":
-
-\[
-\begin{array}{ccccc}
-A\times B\\
-\\
-A\times\eta_{B}\downarrow\phantom{A\times\eta_{B}} & \phantom{\eta_{A\times B}}\searrow\eta_{A\times B}\\
-\\
-A\times T\, B & \xrightarrow{t_{A,B}} & T(A\times B)\\
-\\
-A\times\mu_{B}\uparrow\phantom{A\times\mu_{B}} &  &  & \phantom{\mu_{A\times B}}\nwarrow\mu_{A\times B}\\
-\\
-A\times T^{2}\, B & \xrightarrow{t_{A,T B}} & T(A\times T B) & \xrightarrow{T\: t_{A,B}} & T^{2}(A\times B)
-\end{array}
-\]
+"Strength commutes with the monad multiplication":
+\begin{tikzcd}
+A\otimes TTB \ar{d}{A\otimes\mu_B} \ar{r}{t_{A,TB}} & T(A\otimes TB) \ar{r}{Tt_{A,B}} & TT(A\otimes B) \ar{d}{\mu_{A\otimes B}} \\
+A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
+\end{tikzcd}
 
 More generally, if a monoidal category $V$ acts on a category $C$
 \[
@@ -133,7 +111,7 @@ $t_{A,B}:A\bullet T(B)\to T(A\bullet B)$ satisfying similar commutative diagrams
 
 ## Moggi's typing rules and parameterized definition
 
-Moggi proposed the following typing rules for a sequence operator:
+Moggi ([Moggi '89](moggi89)) proposed the following typing rules for a sequence operator:
 \[
 \frac{\Gamma \vdash t:X}{\Gamma\vdash \eta(t):T(X)}
 \qquad
@@ -198,7 +176,7 @@ In other words, a monad being strong is a property rather than structure in a ca
 
 Strong monads were defined by Kock, as an alternative description of enriched monads.
 
-* [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
+* {#kock72} [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
 
 Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition appears in the blog post
 
@@ -207,6 +185,6 @@ Usually strong monads are described explicitly in terms of the components of the
 Strong monads are important in Moggi's theory of notions of computation (see [[monad (in computer science)]]):
 
 * [[Eugenio Moggi]]. Notions Of Computation And Monads. Information And Computation. 1991;93:55&#8211;92. 
-* [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
+* {#moggi89} [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
 
 [[!redirects strong monads]]
