@@ -87,6 +87,8 @@ It has been noticed that the topological invariants of the underlying topologica
 
   * [[flat orbifold]]
 
+* [[super-orbifold]]
+
 * [[discrete torsion]]
 
 * [[motivation for higher differential geometry]]
