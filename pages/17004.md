@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Homotopy theory
+#### Spheres
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include spheres -- contents]]
 =--
 =--
 =--
