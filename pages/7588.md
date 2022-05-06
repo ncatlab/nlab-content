@@ -34,6 +34,10 @@ Working in a given [[logic|logical]] context $\mathcal{L}$, suppose that one def
 The above is a __pointwise__ formulation of topology if it is [[proof|provable]] (in $\mathcal{L}$) that $pt$ is a [[generator]] in $S$ but __pointless__ if this is not provable.  (One could have stronger notions of pointlessness by asking that this be refutable; if using [[intuitionistic logic]], this could be further strengthened.)
 =--
 
+## Applications
+
+* [[Banach-Tarski paradox]]
+
 ## Related concepts
 
 * [[localic homotopy theory]]
