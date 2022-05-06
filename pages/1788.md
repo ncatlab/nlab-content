@@ -1,4 +1,25 @@
 
+$$
+  \array{
+    S^3 
+      &\overset{fib(h_{\mathbb{H}})}{\longrightarrow}& 
+    S^{7}
+      &\overset{h_{\mathbb{H}}}{\longrightarrow}& 
+    S^4
+    \\
+     = && = && =
+    \\
+    \frac{Spin(4)}{Spin(3)}
+    &\longrightarrow&
+    \frac{Spin(5)}{Spin(3)}
+    &\longrightarrow&
+    \frac{Spin(5)}{Spin(4)}  
+  }
+$$
+
+
+***
+
 [[Spin(8)-subgroups and reductions -- table]]
 
 **[[Spin(8)]]-[[subgroups]] and [[reduction of structure group]]**
