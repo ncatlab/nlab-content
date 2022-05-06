@@ -350,6 +350,51 @@ This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 ## Examples 
 
+### Projections from comma categories 
+
+
++-- {: .un_prop}
+###### Proposition 
+
+Given functors $F : A \to C$ and $G : B \to C$ between quasi-categories,
+the projection $(F \downarrow G) \to A$ is a Cartesian fibration
+and the projection $(F \downarrow G) \to B$ is a coCartesian fibration.
+
+In particular, if $C$ is a quasi-category, then $eval_0 : C^{\Delta^1} \to C$
+is a Cartesian fibration and $eval_1 : C^{\Delta^1} \to C$ is a coCartesian fibration.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Consider the diagram of pullback squares
+
+$$
+  \array{
+    (F \downarrow G) &\to& (id_C \downarrow G) &\to& B
+    \\
+    \downarrow && \downarrow && \downarrow G\!\!
+    \\
+    (F \downarrow id_C) &\to& C^{\Delta^1} &\xrightarrow{1}& C
+    \\
+    \downarrow && \downarrow 0\!\!
+    \\
+    A &\xrightarrow{F}& C
+  }
+$$
+
+[[Higher Topos Theory|HTT, prop. 2.4.7.12]] states the projection $(id_C \downarrow G) \to C$ is a Cartesian fibration.  Then $(F \downarrow G) \to A$ is as well, since fibrations are preserved by pullback. Dually for the other projection.
+
+=--
+
+The fiber of $eval_1 : C^{\Delta^1} \to C$ at an object $X \in C$ is the slice category $C_{/X}$. So, by the [[(infinity,1)-Grothendieck construction]],
+this fibration corresponds to the slice functor
+$C \to (\infty,1)Cat : X \mapsto C_{/X}$, where a morphism $X \to Y$
+induces the composition map $C_{/X} \to C_{/Y}$.
+
+
 ### Cartesian fibrations over one morphism and Adjunctions
 
 By the [[(infinity,1)-Grothendieck construction]] a Cartesian fibration $K \to \Delta[1]$ corresponds to a morphism $\Delta[1]^{op} \to (\infty,1)Cat$, hence to an [[(infinity,1)-functor]] $f : C \to D$.
