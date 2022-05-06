@@ -36,7 +36,7 @@ There are roughly four equivalent definitions of a $k$-formal scheme for a field
 
 Let $Mf_k$ denote the category of finite dimensional $k$-rings (=$k$-algebras which are rings).
 
-1. A $k$-scheme is called a $k$_-formal scheme_ if it is is equivalent to a [[filtered colimit|codirected limit]] of finite (affine) $k$-schemes.
+1. A $k$-scheme is called a $k$_-formal scheme_ if it is is equivalent to a [[filtered colimit|directed colimit]] of finite (affine) $k$-schemes.
 
 1. A $k$-scheme is a $k$-formal scheme if it is presented by a [[profinite group|profinite]] $k$-ring; i.e a $k$-ring which is the limit of topologically discrete quotients which are finite $k$-rings. If $A$ is such a topological $k$-ring $Spf_k(A)(R)$ denotes the set of continous morphisms from $A$ to the topologically discrete ring $R$. We have $Spf_k$ is a (contravariant) equivalence between the category of profinite $k$-rings and the category $fSch_k$ of formal $k$-schemes.
 
