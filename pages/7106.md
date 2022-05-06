@@ -28,7 +28,7 @@ In this sense [[chiral perturbation theory]] is the archetype of quantum hadrody
 
 * [[leptonic decay]]
 
-* [[quark-meson coupling model]]
+[[!include effective field theories of nuclear physics -- contents]]
 
 
 ## References
