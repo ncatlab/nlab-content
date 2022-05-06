@@ -18,6 +18,19 @@
 
 The microscopic geometry of transversal [[Dp-D(p+2)-brane intersections]] and [[Dp-D(p+4)-brane intersections]] look like warped [[non-commutative geometry|non-commutative]] [[metric cones]] on [[fuzzy spheres]] (namely on the spheres around the lower dimensional [[D-branes]] inside the higher dimensional D-branes). These have hence been called _fuzzy funnels_.
 
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8FuzzyFunnel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from [Gaiotto-Tomassiello 14, Figure 5](#GaiottoTomassiello14)
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D3D5FuzzyFunnel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17](#Fazzi17)
+
+
 ## Related concepts
 
 * [[Nahm's equation]]
@@ -49,6 +62,22 @@ On [[D1-D3 brane intersections]] as fuzzy funnels on [[fuzzy 2-spheres]]:
 
 * [[Neil Constable]], [[Neil Lambert]], _Calibrations, Monopoles and Fuzzy Funnels_, Phys. Rev. D66 (2002) 065016 ([arXiv:hep-th/0206243](https://arxiv.org/abs/hep-th/0206243))
 
+
+### For D3-D5 brane intersections
+
+On [[D3-D5 brane intersections]] as fuzzy funnels on [[fuzzy 2-spheres]]:
+
+* [[Davide Gaiotto]], [[Edward Witten]], Section 4.3 of: _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+
+* {#Fazzi17} [[Marco Fazzi]], Section 3.2.3 of: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
+
+### For D6-D8 brane intersections
+
+On [[D6-D8 brane intersections]] as fuzzy funnels on [[fuzzy 2-spheres]]:
+
+* {#GaiottoTomassiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+
+* [Fazzi 17, p. 41-46](#Fazzi17)
 
 ### For D1-D5-brane intersections
 
