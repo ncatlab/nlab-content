@@ -5,3 +5,5 @@ Bousfield localization is a sophisticated version of the general idea of [[local
 * [[Bousfield localization of spectra]]
 
 * [[Bousfield localization of triangulated categories]]
+
+[[!redirects Bousfield localizations]]
