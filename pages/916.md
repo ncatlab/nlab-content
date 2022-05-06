@@ -120,7 +120,7 @@ An axiomatic treatment of such semirings may be found at the end of [Richman 201
 ## Related concepts
 
 * [[total function]]
-
+* [[restriction category]]
 
 ## References 
  {#References}
