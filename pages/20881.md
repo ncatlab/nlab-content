@@ -51,6 +51,11 @@ For [[D6-D8 brane intersections]]:
 > graphics grabbed from [Fazzi 17](#Fazzi17)
 
 
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionWithImplicitSRume.jpg" width="600">
+</center>
+
+> graphics grabbed from [GKSTY 02](NS5-brane#GKSTY02)
 
 
 
