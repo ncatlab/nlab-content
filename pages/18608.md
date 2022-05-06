@@ -71,6 +71,8 @@ High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]] are report
 
   Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
 
+* Zoltan Fodor, Christian Hoelbling, _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449, ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
+
 
 (...)
 
