@@ -167,6 +167,10 @@ There is a precise definition of $(2|1)$-EFTs $E$ such that the [[partition func
 
 moreover, every [[integral modular function]] arises in this way.
 
+## Related concepts
+
+A concrete relation between [[2d SCFT]] and [[tmf]] is the lift of the [[Witten genus]] to the [[string orientation of tmf]]. See there fore more.
+
 ## References
 
 * [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ in _Topology, geometry and quantum field theory_ , London Math. Soc. LNS 308, Cambridge Univ. Press (2004), 247-343. ([pdf](http://web.me.com/teichner/Math/Reading_files/Elliptic-Objects.pdf))
@@ -177,7 +181,7 @@ moreover, every [[integral modular function]] arises in this way.
 
 * [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
-Finally a hint supporting the conjecture (at least in its previous form concerning [[2d SCFT]]):
+A hint supporting the conjectured relation of [[2d SCFT]] to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
 
-*  [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
 
