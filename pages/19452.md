@@ -177,6 +177,7 @@ $\,$
 
 [[!include geometry of physics -- homotopy types]]
 
+$\,$
 
 [[!include geometry of physics -- basic notions of higher topos theory]]
 
