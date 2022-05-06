@@ -207,12 +207,17 @@ $$
 
 =--
 
-+-- {: .num_prop}
+### Automorphisms
+
++-- {: .num_prop #AutomorphismsOfOctonionAlgebraIsG2}
 ###### Proposition
 
 The [[automorphism group]] of the octonions, as a real algebra, is the [[exceptional Lie group]] [[G2]].
 
 =--
+
+See also at _[normed division algebra -- automorphism](normed+division+algebra#Automorphisms)_
+
 
 ### Left multiplication by imaginary octonions
 
