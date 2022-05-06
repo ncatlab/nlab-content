@@ -28,6 +28,6 @@ Beware that the term _Yang-Baxter equation_ can mean any of several related but 
 
 See also
 
-* Wipipedia, _[Yang-Baxter equation](https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation)_
+* Wikipedia, _[Yang-Baxter equation](https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation)_
 
 [[!redirects Yang-Baxter equations]]
