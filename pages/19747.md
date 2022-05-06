@@ -30,4 +30,7 @@ See also
 
 * Wikipedia, _[Slope](https://en.wikipedia.org/wiki/Slope)_
 
+
+
+[[!redirects slope of line]]
 [[!redirects slopes of lines]]
