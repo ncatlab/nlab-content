@@ -17,19 +17,25 @@
 
 The flavour of [[generalized cohomology]] which is both [[twisted cohomology|twisted]] as well as [[differential cohomology|differential]] is called _twisted differential cohomology_ (or: _differential twisted cohomology_).
 
+A key motivation for twisted differential cohomology is its role in [[string theory]] as the type of [[generalized cohomology theory]] that classifies [[higher gauge fields]] (following [[Dirac charge quantization and generalized differential cohomology|Freed 00]]), notably in the example of [[twisted differential K-theory]] classifying the [[RR-field]] twisted by the [[B-field]] (see [below](#TwistedDifferentialKTheory)).
+
 ## Definition
 
 Observing that
 
-1. [[differential cohomology]] may be understood as being the intrinsic [[cohomology]] of an [[(∞,1)-topos]] which is [[cohesive (∞,1)-topos|cohesive]] (see at _[[differential cohomology diagram]]_);
+1. [[differential cohomology]] may be understood as being the intrinsic [[cohomology]] inside an [[(∞,1)-topos]] $\mathbf{H}$ which is [[cohesive (∞,1)-topos|cohesive]] (see at _[[differential cohomology diagram]]_);
 
-1. [[twisted cohomology]] may be understood as being the intrinsic [[cohomology]] of a [[tangent (∞,1)-topos]]
+1. [[twisted cohomology]] may be understood as being the intrinsic [[cohomology]] inside the [[tangent (∞,1)-topos]] $T \mathbf{H}$ of the given ambient [[(∞,1)-topos]] $\mathbf{H}$
 
-and since the [[tangent (∞,1)-topos]] $T \mathbf{H}$ of an [[cohesive (∞,1)-topos]] $\mathbf{H}$ is itself again cohesive, one may define twisted differential cohomology in generality to be the intrinsic [[cohomology]] of [[cohesive (∞,1)-topos|cohesive]] [[tangent (∞,1)-toposes]] $T \mathbf{H}$ ([Schreiber 13, Sec. 4.1.2](#Schreiber13), [Schreiber 14, slide 16](#Schreiber14)).
+and since 
 
-The [[objects]] of such a $T \mathbf{H}$ may be understood as cohesive (geometrized) [[parametrized spectra]]. For example with $\mathbf{H} =$ [[Smooth∞Grpd]] the objects of $T Smth\infty Grpd$ are [[parametrized spectra|parametrized]] [[smooth spectra]].
+* the [[tangent (∞,1)-topos]] $T \mathbf{H}$ of an [[cohesive (∞,1)-topos]] $\mathbf{H}$ is itself again cohesive, 
 
-By means of a suitable [[model category]] [[presentable (∞,1)-category|presentation]] of [[tangent (∞,1)-toposes]], [Braunack-Mayer 19, Example 3.23](#BraunackMayer19) proves that a more component-based definition of twisted differential cohomology due to [Bunke-Nikolaus 14](#BunkeNikolaus14) is a special case of the general definition of [Schreiber 13, Sec. 4.1.2](#Schreiber13).
+one may define twisted differential cohomology in generality to be the intrinsic [[cohomology]] inside [[cohesive (∞,1)-topos|cohesive]] [[tangent (∞,1)-toposes]] $T \mathbf{H}$ ([Schreiber 13, Sec. 4.1.2](#Schreiber13), [Schreiber 14, slide 16](#Schreiber14)).
+
+The [[objects]] of such a $T \mathbf{H}$ may be understood as [[sheaves of spectra|sheaves of]] [[parametrized spectra]] ([Braunack-Mayer 19, Theorem 3.4](#BraunackMayer19)). For example with $\mathbf{H} =$ [[Smooth∞Grpd]] the objects of $T Smth\infty Grpd$ are [[smooth spectra|smooth]] [[parametrized spectra]]. In this sense the formulation of twisted differential cohomology via [[cohesive (∞,1)-topos|cohesive]] [[tangent (∞,1)-topos]] generalizes the classical [[Brown representability theorem]] (identifying plain [[generalized (Eilenberg-Steenrod) cohomology theories]] with plain [[spectra]]) to twisted and differential cohomology.
+
+By means of a suitable [[model category]] [[presentable (∞,1)-category|presentation]] of [[tangent (∞,1)-toposes]], [Braunack-Mayer 19, Example 3.23](#BraunackMayer19) proves that a more explicit component-based definition of twisted differential cohomology due to [Bunke-Nikolaus 14](#BunkeNikolaus14) is a special case of this general definition from [Schreiber 13, Sec. 4.1.2](#Schreiber13).
 
 
 ## Examples
@@ -39,12 +45,13 @@ By means of a suitable [[model category]] [[presentable (∞,1)-category|present
 A simple example of twisted cohomology is _[[twisted de Rham cohomology]]_ (see there for more), the [[twisted cohomology|twisted]] generalization of [[de Rham cohomology]].
 
 ### Twisted differential K-theory
+ {#TwistedDifferentialKTheory}
 
 The archetypical example is [[twisted differential K-theory]], which combines [[twisted K-theory]] with [[differential K-theory]]. To the extent that [[D-brane charge]] is classified by [[K-theory]] (see [there](D-brane#ReferencesKTheoryDescription)), it is [[twisted differential K-theory]] that is relevant: the [[differential K-theory|differential]] aspect captures the [[higher gauge field]] called the [[RR-field]], and the [[twisted K-theory|twisted]] aspects captures the [[higher gauge field]] called the [[B-field]], in [[string theory]].
 
-This example of [[D-brane charge]] used to be one of the main motivations for finding a definition and construction of twisted differential cohomology theories. Earlier articles on D-brane charge had to assume that such a theory exists (e.g. [DFM 09](twisted+differential+K-theory#DFM09)).
+This example of [[D-brane charge]] used to be one of the main motivations for finding a definition and construction of twisted differential cohomology theories. Earlier articles on D-brane charge had to assume without a construction that such a theory exists (e.g. [DFM 09](twisted+differential+K-theory#DFM09)).
 
-Other [[higher gauge fields]] in [[string theory]]/[[M-theory]] are expected to be [[cocycles]] in twisted differential cohomology theories for other [[generalized cohomology theories]] apart from K-thery. For instance the hypothesis that the [[M-theory]] [[supergravity C-field|C-field]] is topologically a cocycle in [[twisted cohomotopy]] means that with all differential form data added. it is actually a cocycle in [[twisted differential cohomotopy]].
+Other [[higher gauge fields]] in [[string theory]]/[[M-theory]] are expected to be [[cocycles]] in twisted differential cohomology theories for other [[generalized cohomology theories]] apart from K-thery. For instance the hypothesis that the [[M-theory]] [[supergravity C-field|C-field]] is topologically a cocycle in [[twisted cohomotopy]] ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS19b]], [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|FSS19c]]) means that with all differential form data added. it is actually a cocycle in _twisted differential cohomotopy_.
 
 
 ## References
@@ -65,7 +72,7 @@ A more component-based definition was given in
 
 * {#BunkeNikolaus14} [[Ulrich Bunke]], [[Thomas Nikolaus]], _Twisted differential cohomology_ ([arXiv:1406.3231](http://arxiv.org/abs/1406.3231))
 
-A proof that the definition of [Bunke-Nikolaus 14](#BunkeNikolaus14) is a special case of that of [Schreiber 13](#Schreiber13) is due to
+A proof that the definition of [Bunke-Nikolaus 14](#BunkeNikolaus14) is a special case of that of [Schreiber 13, Sec. 4.2.1](#Schreiber13) is due to
 
 * {#BraunackMayer19} [[Vincent Braunack-Mayer]], Section 3.1 of _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
 
