@@ -418,12 +418,17 @@ See _[[Boardman homomorphism in tmf]]_
 
 ## References
 
-Named after [[Michael Boardman]].
+According to [Hunton 95](#Hunton95), the concept was introduced, in print, in:
+
+* [[John Michael Boardman]], _The eightfold way to BP-operations_, in: _Current trends in algebraic topology_, pp. 187–226, Canadian Mathematical Society Proceedings, 2, Part 1.  Providence 1982 ([ISBN:978-0-8218-6003-8](https://bookstore.ams.org/cmsams-2))
+
+Further discussion:
+
 
 * {#Adams74} [[John Frank Adams]], part II, section 6 of: _[[Stable homotopy and generalised homology]]_ (1974)
 
 
-* John Hunton, _The Boardman homomorphism_, Contemporary Mathematics 181, 251-251, 1995
+* {#Hunton95} John Hunton, _The Boardman homomorphism_, Contemporary Mathematics 181, 251-251, 1995 ([GoogleBooks](https://books.google.ae/books?hl=en&lr=&id=hcYaCAAAQBAJ&oi=fnd&pg=PA251&dq=John+Hunton,+The+Boardman+homomorphism&ots=_ZI5SEcU28&sig=cK1Xd7AZwZP7WeTiy4dGv5v9BJk&redir_esc=y#v=onepage&q=John%20Hunton%2C%20The%20Boardman%20homomorphism&f=false))
 
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
