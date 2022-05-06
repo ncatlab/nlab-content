@@ -15,7 +15,11 @@ By [FHT](#FHT) this is equivalent to the [[Verlinde ring]] of [[positive energy 
 
 On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identification with the [[Verlinde ring]] of [[positive energy representations]] of their [[loop group]]:
 
-* {#FHT} [[Daniel S. Freed]], [[Michael Hopkins]], [[Constantin Teleman]], 
+* [[Daniel S. Freed]], _The Verlinde algebra is twisted equivariant K-theory_, Turk. J. Math 25 (2001) 159-167 ([arXiv:math/0101038](https://arxiv.org/abs/math/0101038))
+
+
+{#FHT} 
+* [[Daniel S. Freed]], [[Michael Hopkins]], [[Constantin Teleman]], 
 
   1. _[[Loop Groups and Twisted K-Theory]] I_, 
 
@@ -42,4 +46,9 @@ On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identif
   Comptes Rendus Mathematique, Volume 353, Issue 5, May 2015, Pages 415-419
 
   ([arxiv/1409.6051](http://arxiv.org/abs/1409.6051), [doi:10.1016/j.crma.2015.02.011](https://doi.org/10.1016/j.crma.2015.02.011))
+
+
+Computation of the [[twisted ad-equivariant K-theory]]-groups for all [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[simple Lie groups]]:
+
+* [[Volker Braun]], _Twisted K-Theory of Lie Groups_, JHEP 0403 (2004) 029 ([arXiv:hep-th/0305178](https://arxiv.org/abs/hep-th/0305178))
 
