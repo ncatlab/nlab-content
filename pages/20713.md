@@ -32,10 +32,9 @@ $$
 
 ## Properties
 
-### Sullivan models
+### Sullivan models for cocycle spaces
 
 Discussion of [[rational cohomology]] and of [[Sullivan models]] for [[cocycle spaces]] in rational Cohomotopy.
-
 
 
 +-- {: .num_prop}
@@ -114,6 +113,88 @@ $$
 ([Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
 
 
+## Examples
+
+We discuss examples of cocycle spaces for rational 4-Cohomotopy, hence with [[coefficients]] in the [[rational n-sphere|rational]] [[4-sphere]], whose [[Sullivan model]] is
+
+
+$$
+  CE
+  \big( 
+    S^4
+  \big)
+  \;=\;
+  \left(
+  \begin{aligned}
+  d\,g_4 & = 0
+  \\
+  d\,g_7 & = -\tfrac{1}{2} g_4 \wedge g_4
+  \end{aligned}
+  \right)
+  \,.
+$$
+
+
+### The cocycle space for $\pi^4\big( S^1\big)_{\mathbb{Q}}$
+
+The [[Sullivan model]] for the [[space of maps]] $Maps(S^1, S^4)$ from the [[1-sphere]] to the [[4-sphere]] is
+
+$$
+  CE
+  \Big(
+    \mathfrak{l}
+    Maps
+    \big( 
+      S^1, S^4
+    \big)
+  \Big)
+  \;=\;
+  \left(
+  \begin{aligned}
+    d\,h_3 & = 0
+    \\
+    d\, \omega_4 & = 0
+    \\
+    d\, \omega_6 & = h_3 \wedge \omega_4
+    \\
+    d\, h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4
+    \\
+  \end{aligned}
+  \right)
+$$
+
+By [this Prop.](#Sullivan+model+of+free+loop+space#SullivanModelForTheFreeLoopSpace), see [FSS 16, Section 3](#FSS16).
+
+
+### The cocycle space for $\pi^4\big( S^3\big)_{\mathbb{Q}}$
+
+The [[Sullivan model]] for the [[space of maps]] $Maps(S^3, S^4)$ from the [[3-sphere]] to the [[4-sphere]] is
+
+$$
+  CE
+  \Big( 
+    \mathfrak{l}
+    Maps
+    \big(
+      S^3, S^4
+    \big)
+  \Big)
+  \;=\;
+  \left(
+  \begin{aligned}
+    d\, b_1 & = 0
+    \\
+    d\, \omega_4 & = 0
+    \\
+    d\, v_{{}_{4}} & = \omega_4 \wedge b_1
+    \\
+    d\, \omega_7 & = - \tfrac{1}{2} \, \omega_4 \wedge \omega_4
+  \end{aligned}
+  \right)
+$$
+
+By [Møller-Raussen 85, Prop. 2.3](#MollerRaussen85).
+
 ## Related concepts
 
 
@@ -144,7 +225,7 @@ The observation that the [[equations of motion]] of the [[supergravity C-field]]
 
 Rational Cohomotopy of [[super-spaces]] (see also at _[[geometry of physics -- fundamental super p-branes]]_):
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 (2017) ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206))
+* {#FSS16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 (2017) ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:The WZW term of the M5-brane|The WZW term of the M5-brane and differential cohomotopy]]_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](https://arxiv.org/abs/1506.07557))
 
