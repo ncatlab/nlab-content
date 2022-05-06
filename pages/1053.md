@@ -208,7 +208,7 @@ One can also consider adding additional rules to linear logic.  For instance, by
 
 Some models of linear logic allow for a _codereliction_ operation, which allows for one to take the "linear approximation" of a proof $!(A) \to B$. These models lead to the development of _differential linear logic_, the categorical semantics of which was laid out in ([Blute--Cockett--Seely](#Blute-Cockett-Seely06)).
 
-## Categorial semantics
+## Categorical semantics
 
 We discuss the [[categorical semantics]] of linear logic. See also at _[[relation between type theory and category theory]]_.
 
