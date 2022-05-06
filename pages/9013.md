@@ -67,9 +67,6 @@ See also the discussion of higher [[Brauer groups]] in stable homotopy theory (w
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
 
-For the braided Picard 2-groups, see
-
-* [[Alexei Davydov]], [[Dmitri Nikshych]], _Braided Picard groups and graded extensions of braided tensor categories_, ([arXiv:2006.08022](https://arxiv.org/abs/2006.08022))
 
 
 [[!redirects Picard 3-groups]]
