@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -179,9 +180,27 @@ $$
 
 =--
 
-### Presheaf over-topos {#PresheafOverTopos}
+### In terms sheaves on a slice site
+  {#PresheafOverTopos}
 
-We discuss special properties of over-[[presheaf toposes]].
+
+Generally, for $C$ a [[site]], $c \in C$ an [[object]], and $L(y(c)) \in Sh(C)$ the [[sheafification]] of its image under the [[Yoneda embedding]], there is an [[equivalence of categories]]
+
+$$
+  Sh\big(
+    C /c
+  \big)
+  \;\simeq\;
+  Sh(C)/(L(y(c)))
+$$
+
+between the [[category of sheaves]] on the [[slice category]] $C/c$ with its evident induced [[structure]] of a [[site]], and the [[slice topos]] of the category of sheaves on $C$, sliced over $L(y(c))$.
+
+This is for instance in Verdier's exposé III.5 prop.5.4 ([[SGA4]], p.295).
+
+\linebreak
+
+We now discuss this in more detail for the special case of over-[[presheaf toposes]].
 
 Let $C$ be a [[small category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[over category]] of $C$ over $c$. 
 
