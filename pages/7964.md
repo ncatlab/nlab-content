@@ -346,6 +346,13 @@ Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmologica
 
 * {#EKSYZ16} William E. East, John Kearney, Bibhushan Shakya, Hojin Yoo, Kathryn M. Zurek, _Spacetime Dynamics of a Higgs Vacuum Instability During Inflation_, Phys. Rev. D 95, 023526 (2017) ([arXiv:1607.00381](https://arxiv.org/abs/1607.00381))
 
+But see 
+
+* Mark P. Hertzberg, Mudit Jain, _Explanation for why the Early Universe was Stable and Dominated by the Standard Model_, JCAP 2020 ([arXiv:1911.04648](https://arxiv.org/abs/1911.04648))
+
+for a possible solution by strong [[interaction]] between the Higgs field and the [[inflaton]].
+
+
 The interpretation in terms of [[asymptotic safety]] is discussed in
 
 * {#ShaposhnikovWetterich09} M. Shaposhnikov and C. Wetterich, _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
