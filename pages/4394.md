@@ -38,8 +38,6 @@ The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}^*$ if one of the fol
 1. for all $x\in X$ and all $\mathcal{T}$-neighborhoods $U$ of $x$ the closure $Cl^*(U)$ is a $\mathcal{T}$-neighborhood.
 =--
 
-If $\mathcal{T}$ is [[regular space|regular]], then another topology $\mathcal{T}^*$ on $X$ is coupled to $\mathcal{T}$ if and only if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$.
-
 ## Remarks
 
 It is interesting and perhaps surprising that many advanced topological notions can be described using bitopological spaces, even when you would not na&#239;vely think that there are two topologies around.  (At least, that\'s my vague memory of what they were good for.  I think that this was in some article by Isbell.)
