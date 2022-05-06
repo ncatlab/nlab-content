@@ -1,0 +1,24 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Introduction
+
+Although category theory is perhaps most often associated with functional programming, there has been work on analysing object-oriented programming from a category-theoretic viewpoint, e.g. in the work of [[Bart Jacobs]].
+
+## Related concepts
+
+* [[functional programming]]
+
+* [[imperative programming]]
+
+* [[programming language]]
+
+## References
+
+* Wikipedia, _[Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)_
+
+* {#Jacobs2003} Bart Jacobs, Erik Poll, _Coalgebras and monads in the semantics of Java_, Theoretical Computer Science Volume 291 Issue 3, 2003 ([doi:10.1016/S0304-3975(02)00366-3](https://www.sciencedirect.com/science/article/pii/S0304397502003663))
+
+[[!redirects object-oriented program]]
+[[!redirects object-oriented programs]]
