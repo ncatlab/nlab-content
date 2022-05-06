@@ -485,6 +485,10 @@ explanation via assumption of [[leptoquarks]]:
 
 * {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
 
+and in relation to [[axions]]:
+
+* Javier Fuentes-Martin, Mario Reig, Avelino Vicente, _4321... axion!_ ([arXiv:1907.02550](https://arxiv.org/abs/1907.02550))
+
 [[leptoquarks]] as possible explanation also of the anomalies seen in the [[ANITA experiment]]
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
