@@ -86,6 +86,8 @@ See also
 
 * Wikipedia, _[Meson](http://en.wikipedia.org/wiki/Meson)_
 
+* Wikipedia, _[Vector meson](https://en.wikipedia.org/wiki/Vector_meson)_
+
 ### In the large $N$ limit
 
 In the [[large N limit]]:
@@ -119,3 +121,8 @@ Review
 
 [[!redirects meson field]]
 [[!redirects meson fields]]
+
+[[!redirects vector meson]]
+[[!redirects vector mesons]]
+
+
