@@ -82,3 +82,8 @@ A _deterministic_ morphisms is instead one that does _not_ exhibit this behavior
 * [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
 * [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+
+
+[[!redirects Markov categories]]
+[[!redirects markov category]]
+[[!redirects markov categories]]
