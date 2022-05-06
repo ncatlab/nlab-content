@@ -1,14 +1,23 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
+=--
+=--
 
-# Context-free grammar
+# Contents
 * table of contents
-{: toc}
+{:toc}
 
 ## Idea
 
 The notion of context-free grammar, now used in [[linguistics]], [[computer science]] and [[mathematics]], was introduced in the works of [[Noam Chomsky]]. 
 
 
-## Definition
+## Traditional definition
 
 We write $X + Y$ for the [[disjoint union]] of two sets and use vector notation and the Kleene star $\vec{v} \in X^\star$ to denote sequences in the [[free monoid]].
 
@@ -19,6 +28,8 @@ The _language_ of a context-free grammar is given by $L(G) = \{ \vec{u} \in V^\s
 $$
 \big\{ (\vec{u} x \vec{w}, \vec{u v w}) \quad \vert \quad \vec{u}, \vec{w} \in (V + X)^\star, (x, \vec{v}) \in R \big\}
 $$
+
+## With string diagrams
 
 One may redefine $L(G) = \big\{ \vec{u} \in \Sigma^\star \vert \C_G(s, \vec{u}) \neq \emptyset \big\}$ where $C_G$ is the free [[monoidal category]] with:
 
@@ -73,6 +84,14 @@ context-free languages_, in: Computer programming and formal systems, 118&#8211;
 Some chapters in "Handbook of formal language theory" (3 vols.), G. Rozenberg, A. Salomaa (eds.), Springer 1997:
 
 * Jean-Michel Autebert, Jean Berstel, Luc Boasson, _Context-free languages and push-down automata_, vol. 1, ch. 3 
+
+## Related entries
+
+* [[formal grammar]]
+* [[context-sensitive grammar]]
+* [[mildly context-sensitive grammar]]
+* [[pregroup grammar]]
+* [[dependency grammar]]
 
 
 [[!redirects context-free grammar]]
