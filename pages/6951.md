@@ -70,11 +70,11 @@ Whereas $\{x|\varphi(x)\}$ represents the set of elements satifying $\varphi$ in
 
 ## Properties
 
-One can now unwind the forcing relation $U\models \varphi (\alpha)$ recursively over the syntactic composition of $\varphi$. This results in a collection of semantic rules that is commonly referred to as the _Kripke--Joyal semantics_ and permits to make contact with the original rules proposed by Kripke for intuitionistic logic in 1965.
+One can now unwind the [[forcing]] relation $U\models \varphi (\alpha)$ recursively over the syntactic composition of $\varphi$. This results in a collection of semantic rules that is commonly referred to as the _Kripke--Joyal semantics_ and permits to make contact with the original rules proposed by Kripke for intuitionistic logic in 1965.
 
 These rules are often useful for translating step by step an object defined by a formula of the Mitchell--B&#233;nabou into a concrete mathematical object in the topos.
 
-First of all, the forcing relation is _monotone_ and _local_ :
+First of all, the [[forcing]] relation is _monotone_ and _local_ :
 
 +-- {: .num_prop #Monotone_Local}
 ###### Proposition
@@ -201,7 +201,7 @@ A generalization to [[quantales]] is in
 
 Semantics via generalized elements in categories with pullbacks is studied in
 
-* [[Anders Kock]], _Elementwise semantics in categories with pull-backs_ , arXiv:2004.14731 (2020). ([abstract](http://arxiv.org/abs/2004.14731))
+* [[Anders Kock]], _Elementwise semantics in categories with pull-backs_, arXiv:2004.14731 (2020). ([abstract](http://arxiv.org/abs/2004.14731))
 
 
 [[!redirects Kripke-Joyal semantics]]
