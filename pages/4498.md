@@ -27,12 +27,12 @@
 
 Let $G$ be a simplicial group. For $P$ a [[Kan complex]], an 
 [[action]] of $G$ on $E$
-
 $$
   \rho : E \times G \to E
 $$
-
-is called **principal** if it is degreewise principal, i.e. if for all $n \in \mathbb{N}$ the only elements $g \in G_n$ that have any fixed point $e \in E_n$ in that $\rho(e,g) = e$ are the neutral elements.
+is called **principal** if it is degreewise free,
+meaning for all $n \in \mathbb{N}$
+the action of $G_n$ on $E_n$ is [[free]].
 
 =--
 
@@ -40,11 +40,9 @@ is called **principal** if it is degreewise principal, i.e. if for all $n \in \m
 ###### Example
 
 The canonical action 
-
 $$
   G \times G \to G
 $$
-
 of any simplicial group on itself is principal.
 
 =--
@@ -193,6 +191,12 @@ with face and degeneracy maps
 =--
 
 
+## Related notions
+
+* [[principal bundle]]
+
+* [[torsor]] and [[heap]]
+
 ## References 
 
 Here are some pointers on where precisely in the literature the above statements can be found.
@@ -217,16 +221,12 @@ An explicit version of the statement that [[twisted Cartesian product]]s are not
 * [[Tim Porter]], _[Crossed Menagerie](http://ncatlab.org/timporter/show/crossed+menagerie)_
 
 On [page 239](http://ncatlab.org/timporter/files/menagerie10.pdf#page=239) there it is mentioned that
-
 $$
   G \to W G \to \overline{W}G
 $$
-
 is a model for the [[loop space object]] [[fiber sequence]]
-
 $$
-  G \to * \to \mathbf{B}G
-  \,.
+  G \to * \to \mathbf{B}G.
 $$
 
 One place in the literature where the observation that $W G $ is the [[decalage]] of $\overline{W}G$ is mentioned fairly explicitly is page 85 of
