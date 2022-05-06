@@ -63,6 +63,8 @@ with the same properties as above.
 
 ## Related concepts
 
+* [[cobordism cohomology theory]]
+
 * [[bordism]]
 
 * [[ordinary homology]]
