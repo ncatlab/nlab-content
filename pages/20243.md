@@ -279,6 +279,22 @@ This follows essentially from the [[quaternionic Hopf fibration]] and its $Sp(2)
  
 ## References
 
+Very early appearances of this notation are mostly in discussions of [[Berger's theorem]] for exceptional [[holonomy]]:
+
+* [[Alfred Gray]] [_A Note on Manifolds Whose Holonomy Group is a Subgroup of Sp(n) $\cdot$ Sp(1)_](https://projecteuclid.org/euclid.mmj/1029000212), Michigan Math. J. Volume 16, Issue 2 (1969), 125-128.
+
+* Dmitri Alekseevskii, [_Riemannian spaces with exceptional holonomy groups_](https://link.springer.com/article/10.1007%2FBF01075943), Funct Anal Its Appl (1968) 2: 97.
+
+However, the even earlier paper:
+
+* Joseph Wolff, _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Mathematics and Mechanics, vol. 14 (1965), pp. 1033-1048.
+
+describes this construction as a "local [[direct product]]" of [[topological groups]] and applies it to the classification of [[quaternionic manifolds]]. This notation in the classical paper of [Bonan](#) for this group is $V_{4n} [Sp(n) \otimes_\mathbf{H} Sp(1)]$. 
+
+Of early algebraic interest is the structure theory article:
+
+* Marchiava and Romani, [_Sul classificante del gruppo Sp(n) $\cdot$ Sp(1)_](https://link.springer.com/article/10.1007/BF02418010), Annali di Matematica Pura ed Applicata December 1976, Volume 110, Issue 1, pp 295–319.
+
 ### $Sp(2)\cdot Sp(1)$
  {#ReferencesSp2Sp1}
 
