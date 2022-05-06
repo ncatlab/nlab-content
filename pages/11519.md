@@ -62,7 +62,15 @@ This also shows that $S^V$ is a [[smooth manifold]] with smooth $G$-[[action]].
 
 (e.g. [MP 04, p. 2](#MP04))
 
-Similarly, if $V$ is 1-dimensional over the given [[ground field]] $k$, [[stereographic projection]] identifies the [[representation sphere]] of $V$ with the [[projective G-space]] of $V \oplus \mathbf{1}$:
+### Equivariant projective lines
+
+In particular:
+
++-- {: .num_prop #OneDimensionalRepresentationSpheresAsProjectiveLine}
+###### Proposition
+**(1-dimensional [[representation spheres]] are [[projective G-spaces]])**
+
+If $\mathbf{1}_V \,\in\, G Representations_k$ is 1-dimensional over the given [[ground field]] $k$, [[stereographic projection]] identifies the [[representation sphere]] of $V$ with the [[projective G-space]] over $k$ of $\mathbf{1}_V \oplus \mathbf{1}$:
 
 $$
   \array{
@@ -72,7 +80,7 @@ $$
     &
     k P
    \big(
-     V \oplus \mathbf{1}
+     \mathbf{1}_V \oplus \mathbf{1}
    \big)
     \\
     v &\mapsto&
@@ -86,7 +94,11 @@ $$
   }
 $$
 
+=--
+
 (e.g. [Atiyah 68, Sec. 4](projective+G-space#Atiyah68), [Greenlees 01, 9.C](projective+G-space#Greenlees01))
+
+Prop. \ref{OneDimensionalRepresentationSpheresAsProjectiveLine} underlies the concept of [[equivariant complex oriented cohomology theory]].
 
 ### $G$-CW-Complex structure
 
