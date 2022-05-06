@@ -1137,7 +1137,7 @@ The [[bordism rings]] for [[MU]], [[MUFr]] and [[MFr]] sit in a [[short exact se
   \to
   \Omega^U_{\bullet+1}
   \overset{i}{\longrightarrow}
-  \Omega^{U,f}_{\bullet+1}
+  \Omega^{U,fr}_{\bullet+1}
   \overset{\partial}{
     \longrightarrow
   }
@@ -1172,7 +1172,7 @@ Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] an
   &
   \overset{i}{\longrightarrow}
   &
-  \Omega^{U,f}_{\bullet+1}
+  \Omega^{U,fr}_{\bullet+1}
   &
   \overset{\partial}{
     \longrightarrow
@@ -1241,7 +1241,9 @@ Definition \ref{eInvariantInComplexTopologicalKtheoryAsRationalNumberModuloInteg
 
 ### As a cobordism invariant of $SU$-manifolds with framed boundary
 
-An analogous but finer version of the [[cobordism theory|cobordism]]-theoretic construction ([above](#AsACobordismInvariantOfManifoldsWithBoundary))  works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: Since the [[first Chern class]] of $SU$-manifolds vanishes, their [[Todd class]] is divisible by 2, and we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following variant of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
+An analogous but finer version of the [[cobordism theory|cobordism]]-theoretic construction ([above](#AsACobordismInvariantOfManifoldsWithBoundary))  works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: 
+
+Since on $(8 \bullet + 4)$-dimensional $SU$-manifolds the [[Todd class]] is divisible by 2 [Conner-Floyd 66, Prop. 16.4](#ConnerFloyd66), we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following variant of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
 
 \[
   \label{HalfToddClassesOnShortExactSequenceOfSUFrBordismRings}
@@ -1253,17 +1255,17 @@ An analogous but finer version of the [[cobordism theory|cobordism]]-theoretic c
   &
   \overset{i}{\longrightarrow}
   &
-  \Omega^{SU,f}_{8\bullet+4}
+  \Omega^{SU,fr}_{8\bullet+4}
   &
   \overset{\partial}{
     \longrightarrow
   }
   &
-  \Omega^{fr}_{8\bullet + 3}
+  \Omega^{fr}_{8 \bullet + 3}
   &
   \simeq
   &
-  \pi^s_\bullet
+  \pi^s_{8 \bullet + 3}
   \\
   & 
   \big\downarrow{}^{\tfrac{1}{2}\mathrlap{Td}}
