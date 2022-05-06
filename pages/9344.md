@@ -31,7 +31,7 @@ The homotopy quotient of a [[group]] [[action]] may be modeled by the correspond
 
 * [[quotient space]], [[geometric invariant theory]]
 
-* [[quotient stack]]
+* [[action groupoid]], [[quotient stack]], [[global quotient orbifold]]
 
 * [[BRST complex]]
 
