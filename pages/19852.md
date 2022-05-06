@@ -40,10 +40,10 @@ If this proposal is adopted, then the raw terms for our simple type theory will 
 
 * Every variable $x$ is a term.
 * If $A,B$ are terms and $x$ is a variable, then $\Pi(x:A) B$ is a term.
-* If $A,M$ are terms and $x$ is a variable, then $\lambda(x:A)M$ is a term.
+* If $A,B,M$ are terms and $x$ is a variable, then $\lambda(x:A.B)M$ is a term.
 * If $A,B,M,N$ are terms and $x$ is a variable, then $App^{(x:A)B}(M,N)$ is a term.
 
-We define $\alpha$-equivalence which renames bound variables as usual.  Note that the variable $x$ in $\Pi(x:A)B$ scopes only over $B$, in $\lambda(x:A)M$ it scopes only over $M$, and in $App^{(x:A)B}(M,N)$ it scopes only over $B$.  Capture-avoiding substitution is likewise defined as usual.  Our partial interpretation will be defined recursively over the above inductive definition of terms, and proven to respect $\alpha$-equivalence.
+We define $\alpha$-equivalence which renames bound variables as usual.  Note that the variable $x$ in $\Pi(x:A)B$ scopes only over $B$, in $\lambda(x:A.B)M$ it scopes only over $B$ and $M$, and in $App^{(x:A)B}(M,N)$ it scopes only over $B$.  Capture-avoiding substitution is likewise defined as usual.  Our partial interpretation will be defined recursively over the above inductive definition of terms, and proven to respect $\alpha$-equivalence.
 
 
 ### Bidirectionality
@@ -81,12 +81,10 @@ $$
 $$
 
 $$
-\frac{\Gamma \vdash A \, type \qquad \Gamma,x:A \vdash M \Rightarrow B \qquad \Gamma, x:A \vdash B\,type}{\Gamma \vdash \lambda(x:A)M \Rightarrow \Pi(x:A) B}
+\frac{\Gamma \vdash A \, type \qquad \Gamma,x:A \vdash B \,type \qquad \Gamma,x:A \vdash M \Leftarrow B \qquad \Gamma, x:A \vdash B\,type}{\Gamma \vdash \lambda(x:A.B)M \Rightarrow \Pi(x:A) B}
 $$
 
 (Note that the "is a type" judgment $\Gamma \vdash A\,type$ is not bidirectional.  With Russell universes we could consider making it so.)
-
-The introduction and elimination rules can be read as "functional programs" to compute the (possible) type being synthesized by "calling subroutines" corresponding to each premise (in order!) to fill in any missing information.  In the case of $App^{(x:A)B}(M,N)$ there is no computation to be done, only checking that everything has the appropriate type before yielding the result $B[N/x]$, but in the case of $\lambda(x:A)M$ we synthesize a type $B$ for $M$ and then use it to construct the return value $\Pi(x:A) B$.
 
 The "hypothesis" rule is that a variable in the context synthesizes its assumed type:
 
