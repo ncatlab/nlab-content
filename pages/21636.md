@@ -63,7 +63,7 @@ On an introduction to (algebraic) topology and differential geometry aiming the 
 
 On an introduction to abstract homotopy theory by means of model categorias and (infty,1)-categories (in Brazilian portuguese):
 
-* [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
+* [[Yuri Ximenes Martins]], _Introdução à Teoria da Homotopia Abstrata_, NEA, 2018. ([arXiv:2008.05302](https://arxiv.org/abs/2008.05302), [hal-02908896v1](https://hal.archives-ouvertes.fr/hal-02908896v1))
 
 ## Selected Talks
 
