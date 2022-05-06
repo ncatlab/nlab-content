@@ -260,7 +260,7 @@ The [[bottom-up model building|bottom-up approach]] to intersecting D-brane mode
 
 The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  intersect at an angle is due to 
 
-* {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
+* {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl. Phys. B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
 development for [[toroidal orbifold|toroidal]] [[orientifolds]] is due to
 
