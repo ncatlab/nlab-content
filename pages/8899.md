@@ -14,6 +14,7 @@ Here is a very incomplete list of software available for mathematics, especially
 * [Quantomatic](http://quantomatic.github.io/)
 * [[TwoVect]]
 * The [Fusion Atlas](http://tqft.net/wiki/Atlas_of_subfactors)
+* [[Catlab.jl]]
 
 ## Proof assistants
 
