@@ -298,7 +298,7 @@ The formulation of supergravity equations of motion in terms of constraints on t
 
 A mathematical formulation in terms of [[torsion of a G-structure|torsion-full]] [[first-order integrable G-structure|first-order integrable]] [[G-structures]] on [[supermanifolds]] (for low dimensional supergravity theories) is given in
 
-* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+* {#Lott01} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_ ([arXiv:0108125](http://arxiv.org/abs/math/0108125), published as: _Torsion constraints in supergeometry_, Comm. Math. Phys. 133 (1990), 563&#8211;615 ([doi:10.1007/BF02097010](https://doi.org/10.1007/BF02097010))
 
 which is followed up in
 
