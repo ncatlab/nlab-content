@@ -138,6 +138,6 @@ developed further in
 
 See also
 
-* {#LurieEllIII} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+* {#LurieEllIII} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_, 2019 ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
 
 [[!redirects orbispaces]]
