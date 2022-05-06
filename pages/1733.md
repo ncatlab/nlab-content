@@ -94,7 +94,7 @@ The central tool for breaking down all this [[higher algebra|higher algebraic]] 
 
 ## References
 
-Textbooks include
+Textbooks:
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
@@ -111,6 +111,8 @@ Lecture notes:
 * [[Friedhelm Waldhausen]], _Algebraische Topologie_ I ([pdf](https://www.math.uni-bielefeld.de/~fw/at.pdf)) , II ([pdf](https://www.math.uni-bielefeld.de/~fw/at_II.pdf)), III ([pdf](https://www.math.uni-bielefeld.de/~fw/at_III.pdf)) ([web](https://www.math.uni-bielefeld.de/~fw/))
 
 * [[James F. Davis]] and [[Paul Kirk]], _Lecture notes in algebraic topology_ ([pdf](http://www.indiana.edu/~jfdavis/teaching/m623/book.pdf))
+
+* [[Gereon Quick]], _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014
 
 Survey with relation to [[differential topology]]:
 
