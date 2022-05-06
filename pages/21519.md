@@ -23,7 +23,10 @@ The [[orbifold cohomology]] of global quotient orbifolds is a version of [[equiv
 
 * [[action groupoid]], [[quotient stack]], [[homotopy quotient]]
 
+* [[orbifold K-theory]], [[orbifold differential K-theory]]
+
 * [[equivariant cohomology]]
+
 
 ## References
 
