@@ -66,7 +66,7 @@ $FinSet$ is also the free symmetric monoidal category on a commutative monoid ob
 
 The last fact is closely connected to this: $FinSet$, made symmetric monoidal using $+$, is equivalent to the [[PROP]] for commutative monoids.
 
-All these universal properties have useful duals.  $FinSet^{op}$ is the free category with finite products on one object and also the free category with finite colimits on one object; the symmetric monoidal category $(FinSet, +)^{op}$ is equivalent to the PROP for cococommutative comonoids.
+All these universal properties have useful duals.  $FinSet^{op}$ is the free category with finite products on one object and also the free category with finite limits on one object; the symmetric monoidal category $(FinSet, +)^{op}$ is equivalent to the PROP for cococommutative comonoids.
 
 ### In topos theory
 
