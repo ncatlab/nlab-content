@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _UniMath_ project (short for _Univalent Mathematics_) on formalization of [[mathematics]] ([[formal proof]]) with emphasis on the use of the [[univalence axiom]].
+The _UniMath_ project (short for _[[univalent foundations for mathematics|Univalent Mathematics]]_) on formalization of [[mathematics]] ([[formal proof]]) with emphasis on the use of the [[univalence axiom]].
 
 ## Related projects
 
