@@ -18,7 +18,7 @@ Vol. 90, No. 1 (Jan., 1968) ([jstor:2373440](https://www.jstor.org/stable/237344
 
 See also
 
-* Wikipedia, _[Pontryagin product](https://en.m.wikipedia.org/wiki/Pontryagin_product))_
+* Wikipedia, _[Pontryagin product](https://en.wikipedia.org/wiki/Pontryagin_product)_
 
 [[!redirects Pontrjagin rings]]
 
