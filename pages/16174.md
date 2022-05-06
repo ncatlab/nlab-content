@@ -220,7 +220,7 @@ The Burnside product seems to first appear as equation (i) in:
 
 It is then included (not in the first but) in the second edition (Sections 184-185) of:
 
-* {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_,  Second edition Cambridge 1911 ([first edition pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)) 
+* {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_,  Second edition Cambridge 1911 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/burnside1911.pdf)) 
 
   reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
 
