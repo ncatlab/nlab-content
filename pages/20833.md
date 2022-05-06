@@ -1,0 +1,12 @@
+
+* [webpage](https://www.nbi.ku.dk/english/staff/?pure=en/persons/550338)
+
+## Selected writings
+
+On [[inhomogeneous cosmology]] as an explanation for apparent [[dark energy]]:
+
+* {#SarkarEtAl18} J. Colin, R. Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics Letters ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
+
+* {#Rameez19} [[Mohamed Rameez]], _On the Real Inhomogeneous Universe and the Weirdness of 'Dark Energy'_ ([Nov. 14, 2019](https://4gravitons.com/2019/11/15/guest-post-on-the-real-inhomogeneous-universe-and-the-weirdness-of-dark-energy/))
+
+category: people
