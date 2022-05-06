@@ -111,7 +111,7 @@ Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex
 **(complex $E$-orientation by [[extensions]] and their [[obstructions]])**
 
 
-In terms of [[Brown representability theorem|classifying maps]], Def. \ref{ComplexOrientedCohomologyTheory} means that a complex orientation $c_1^E$ in $E$-cohomology theory is equivalently an [[extension]] (in the [[classical homotopy category]]) of the map $\Sigma^2 1 \,\colon\, \mathbb{C}P^1 \longrightarrow \Omega^\infty E$ (which classifies the suspended identity in the cohomology ring) along the canonical inclusion of [[complex projective spaces]] 
+In terms of [[Brown representability theorem|classifying maps]], Def. \ref{ComplexOrientedCohomologyTheory} means that a complex orientation $c_1^E$ in $E$-cohomology theory is equivalently an [[extension]] (in the [[classical homotopy category]]) of the map $\Sigma^2 1 \,\colon\, \mathbb{C}P^1 \longrightarrow \Omega^{\infty-2} E$ (which classifies the suspended identity in the cohomology ring) along the canonical inclusion of [[complex projective spaces]] 
 
 \[
   \label{ComplexOrientationAsExtension}
@@ -155,7 +155,7 @@ $$
   \mathbb{C}P^\bullet
 $$
 
-where each inclusion stage is (by [this Prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace)) the coprojection of a [[pushout]] [of topological spaces](Top#UniversalConstructions) (or rather: of [[pointed topological spaces]]) of the form
+where each inclusion stage is (by [this Prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace), see at _[[cell structure of projective spaces]]_) the coprojection of a [[pushout]] [of topological spaces](Top#UniversalConstructions) (or rather: of [[pointed topological spaces]]) of the form
 
 $$
   \array{
