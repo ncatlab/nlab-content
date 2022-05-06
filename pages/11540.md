@@ -65,7 +65,7 @@ If $F$ is fully faithful, then so are $F_!$ and $F_*$.
 
 +-- {: .proof}
 ###### Proof
-A left adjoint functor $L \dashv R$ is fully faithful precisely if $RL$ is naturally isomorphic to the identity functor (by the unit). Dually, $R$ is fully faithful precisely if $LR$ is naturally isomorphic to the identity (by the co-unit). Hence, it suffices to prove $F^* F_! \cong Id$, which by uniqueness of the right adjoint immediately implies that $F^* F_* \cong Id$ and thus proves both claims.
+A left adjoint functor $L \dashv R$ is fully faithful precisely if $R L$ is naturally isomorphic to the identity functor (by the unit). Dually, $R$ is fully faithful precisely if $L R$ is naturally isomorphic to the identity (by the co-unit). Hence, it suffices to prove $F^* F_! \cong Id$, which by uniqueness of the right adjoint immediately implies that $F^* F_* \cong Id$ and thus proves both claims.
 
 Being a left adjoint, $F^* F_!$ preserves colimits. Because every presheaf is a colimit of representable objects, it is sufficient to show that $F^* F_! y \cong y$ where $y$ is the Yoneda-embedding. We have
 \[
