@@ -216,6 +216,14 @@ A relation to [[2d CFT]] over [[Spec(Z)]] was suggested in
 * Toshiyuki Katsura, Yuji Shimizu, [[Kenji Ueno]], _Complex cobordism ring and conformal field theory over $\mathbb{Z}$_, Mathematische Annalen
 March 1991, Volume 291, Issue 1, pp 551-571 ([journal](http://link.springer.com/article/10.1007%2FBF01445226))
 
+### Relation to divisors
+
+Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycles]] and [[Chow groups]]:
+
+* [[Burt Totaro]], _Torsion algebraic cycles and complex cobordism_, J. Amer. Math. Soc. 10 (1997), 467-493 ([doi:10.1090/S0894-0347-97-00232-4](https://doi.org/10.1090/S0894-0347-97-00232-4))
+
+* [MO discussion](https://mathoverflow.net/a/272131/381)
+
 
 
 
