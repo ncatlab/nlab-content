@@ -30,7 +30,7 @@ Such an $f$ is called a __choice function__ for $S$.
 
 The axiom of multiple choice weakens the axiom of choice by allowing choice functions to pick out finite [[subsets]], rather than finite sets.  It says:
 
-:For every set $S$ of non-empty sets, there is a function $f$ defined on $S$ such that $\forall X\in S$, $f(X)\subseteq X$ and $f(X)$ is finite.
+:For every set $S$ of non-empty sets, there is a function $f$ defined on $S$ such that $\forall X\in S$, $f(X)\subseteq X$ and $f(X)$ is finite and non-empty.
 
 
 
