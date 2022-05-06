@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[twistor fibrations]]:
+
+* [[Simon Salamon]], _Harmonic and holomorphic maps_,  In: E. Vesentini  (eds.) _Geometry Seminar "Luigi Bianchi" II - 1984_, Lecture Notes in Mathematics, vol 1164. Springer 1985 ([doi:10.1007/BFb0081912](https://doi.org/10.1007/BFb0081912))
+
+* [[James Eells]], [[Simon Salamon]], Section 8 of: _Twistorial construction of harmonic maps of surfaces into four-manifolds_,  Annali della Scuola Normale Superiore di Pisa - Classe di Scienze, Serie 4, Volume 12 (1985) no. 4, p. 589-640 ([numdam:ASNSP_1985_4_12_4_589_0](http://www.numdam.org/item/ASNSP_1985_4_12_4_589_0))
+
 On [[quaternion-Kähler manifolds]]:
 
 * {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
@@ -31,7 +37,7 @@ On the construction of [[G2-manifolds]]:
 
 * [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
 
-## related $n$Lab pages
+## Related $n$Lab pages
 
 * [[SU(2)-structure]] on [[5-manifolds]]
 
