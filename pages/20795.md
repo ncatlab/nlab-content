@@ -123,10 +123,21 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](#ReferencesRelationToMonop
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
+### Lift to M2-M5-brane bound states
+ {#ReferencesLiftToMTheory}
+
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
+
+* [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
 
 [[!redirects Dp-D(p+2)-brane bound states]]
 
 [[!redirects Dp-Dp+2-brane bound state]]
 [[!redirects Dp-Dp+2-brane bound states]]
 
+[[!redirects Dp/D(p+2)-bound state]]
+[[!redirects Dp/D(p+2)-bound states]]
 
