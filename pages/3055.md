@@ -95,7 +95,7 @@ $$
 If we write $[I,C]$ for the [[arrow category]], where $I$ is the [[interval category]] $I = \{a \to b\}$, then this functor is the [[hom-functor]] applied to the inclusion $\iota_1 : {b} \to \{a \to b\}$
 
 $$
-  cod = Hom_C(\iota_1, -) : [I,C] \to [{*}, C] = C
+  cod = Hom_\text{Cat}(\iota_1, 1_C) : [I,C] \to [{*}, C] = C
   \,.
 $$
 
