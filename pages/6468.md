@@ -390,6 +390,7 @@ The [[formal Brauer group]] is
 
 [[!include moduli of higher lines -- table]]
 
+
 ### Relation to third stably framed bordism group
 
 The [[third stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
@@ -416,7 +417,13 @@ $$
   }
 $$
 
-Moreover, the relation $2 4 [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold ([MO:a/44885/381](https://mathoverflow.net/a/44885/381), [MO:a/218053/381](https://mathoverflow.net/a/218053/381)).
+Moreover, the relation $2 4 [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold ([Wang-Xu 10, Sec. 2.6](third+stable+homotopy+group+of+spheres#WangXu10)).
+
+### Elliptic fibration over $\mathbb{C}P^1$
+
+Complex analytic K3-surfaces admit the [[mathematical structure|structure]] of [[elliptic fibrations]] over the [[Riemann sphere]] $\mathbb{C}P^1$. Counted with multiplicity, these elliptic fibrations have 24 singular points (where the [[elliptic curve]]-fiber degenerates to a [[nodal curve]]).
+
+See e.g. [Huybrechts, Section 2-2.4](#Huybrechts16), [Propp 18, p. 4](K3-spectrum#Propp18), [Lecacheux 19](#Lecacheux19).
 
 
 ### As a fiber space in string compactifications
@@ -444,7 +451,7 @@ See
 
 ### General
 
-Original sources include
+Original sources:
 
 * {#Artin74} [[Michael Artin]], _Supersingular K3 Surfaces_, Annal. Sc. d, l'&#201;c Norm. Sup.  4e  s&#233;ries, T. 7, fasc.  4, 1974, pp. 543-568
 
@@ -454,9 +461,9 @@ Textbook accounts include
 
 * {#BarthPetersVandenVen84} W. Barth, C. Peters, A. Van den Ven, chapter VII of _Compact complex surfaces_, Springer 1984
 
-Lecture notes include
+Lecture notes:
 
-* [[Daniel Huybrechts]], _Lectures on K3-surfaces_ ([pdf](http://www.math.uni-bonn.de/people/huybrech/K3Global.pdf))
+* {#Huybrechts16} [[Daniel Huybrechts]], _Lectures on K3-surfaces_,  Cambridge University Press  2016 ([pdf](http://www.math.uni-bonn.de/people/huybrech/K3Global.pdf), [[HuybrechtsLecturesOnK3.pdf:file]], [doi:10.1017/CBO9781316594193]( https://doi.org/10.1017/CBO9781316594193))
 
 * [[Claire Voisin]], _<a href="http://www.ams.org/mathscinet-getitem?mr=2487743">Geometry of the Moduli Space of K3 surfaces</a>_ 
 
@@ -473,6 +480,13 @@ Systematic construction of [[Ricci tensor|Ricci flat]] [[Riemannian metrics]] on
 * [[Shamit Kachru]], [[Arnav Tripathy]], [[Max Zimet]], _K3 metrics_ ([arXiv:2006.02435](https://arxiv.org/abs/2006.02435))
 
 * [[Arnav Tripathy]], [[Max Zimet]], _A plethora of K3 metrics_ ([arXiv:2010.12581](https://arxiv.org/abs/2010.12581))
+
+### Elliptic fibrations
+
+
+* {#Lecacheux19} O. Lecacheux, _Weierstrass Equations for the Elliptic Fibrations of a K3 Surface_ In: Balakrishnan J., Folsom A., Lalín M., Manes M. (eds.) _Research Directions in Number Theory Association for Women in Mathematics Series, vol 19. Springer (2019) ([doi:10.1007/978-3-030-19478-9_4](https://doi.org/10.1007/978-3-030-19478-9_4))
+
+* Marie Bertin, _Elliptic Fibrations on K3 surfaces_, 2013 ([pdf](https://webusers.imj-prg.fr/~marie-jose.bertin/WINEurope13.pdf))
 
 
 ### In string theory
