@@ -41,6 +41,12 @@ It is generally understood that models are approximations to reality. The prover
 
   * [[Ising model]]
 
+### In solid state physics
+
+In [[solid state physics]]:
+
+* [[Haldane model]]
+
 ### In particle physics
 
 In [[particle physics]]:
