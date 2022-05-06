@@ -17,8 +17,9 @@
  {#Idea}
 
 What is called _Planck's constant_ in [[physics]] and specifically in [[quantum physics]] (after [[Max Planck]]) is a [[physical unit]] of 
-"[[action functional|action]]" which sets the scale at which effects of [[quantum physics]] are genuinely important and physics is no longer well approximated by [[classical mechanics]]/[[classical field 
-theory]]. This we discuss below at
+"[[action functional|action]]" which sets the [[scale]] at which effects of [[quantum physics]] are genuinely important and physics is no longer well approximated by [[classical mechanics]]/[[classical field theory]]. 
+
+This we discuss below at
 
 * _[As a physical constant](#AsAPhysicalConstant)_
 
@@ -291,7 +292,10 @@ $$
 
 (For the analogous discussion of the dependence on the actual [[quantum observables]] on $\hbar$ given by [[Bogoliubov's formula]], see [there](Bogoliubov's+formula#PowersInPlancksConstant).)
 
+## History
+ {#History}
 
+[[Max Planck]] introduced the constant named after him in the discussion of [[black body radiation]]. In [[classical field theory]] black body radiation comes out completely wrong ("[[ultraviolet catastrophe]]"). Planck fixed this in an ad-hoc but succesful manner by postulating that [[energy]]/[[frequency]] of the [[harmonic oscillators]] in the black body ([[atoms]], [[molecules]]) is quantized in units measured by some quantum of action. Eventually this ad hoc postulate led to a change of the foundations of physics from [[classical physics]] to [[quantum physics]], which now predicts the quantization of energy/frequency from more conceptual, fundamental principles.
 
 ## Related concepts
 
