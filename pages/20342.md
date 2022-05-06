@@ -208,6 +208,13 @@ The concept is implicit in classical texts on [[differential topology]], for ins
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], Section 2 of: _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
 
+and in the context of the [GMTW theorem](cobordism+category#GMTWTheorem):
+
+* [[Soren Galatius]], Theorem 6.3 in: _Stable homology of automorphism groups of free groups_, Annals if Mathematics, Volume 173, Ussue 2 (2011)  ([arXiv:0610216](https://arxiv.org/abs/math/0610216), [doi:10.4007/annals.2011.173.2.3](http://doi.org/10.4007/annals.2011.173.2.3))
+
+* [[Oscar Randal-Williams]], _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
+
+
 Discussion for twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
 
 * {#Cruickshank03} [[James Cruickshank]], Section 7 of _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
@@ -219,6 +226,8 @@ Discussion of unstabilized twisted cohomotopy, with application to foundations o
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_ ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737))
+
+* {#FSS20a} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies twisted String structure on M5-branes]]_ ([arXiv:2002.11093](https://arxiv.org/abs/2002.11093))
 
 
 
