@@ -51,12 +51,23 @@ The spectral [[Kaluza-Klein compactification]] considered in the [[Connes-Lott-C
 
 ## References
 
+### General
+
 The original source is def. 3 in 
 
 * {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
 
+### In Connes-Lott models and superstring vacua
+
 With an eye towards [[phenomenology|phenomenological]] considerations of the [[spectral action]] (the [[Connes-Lott-Chamseddine model]]) this is recalled as def. 7.2 in 
 
 * {#Connes06} [[Alain Connes]],  _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](http://arxiv.org/abs/hep-th/0608226))
+
+From p. 8 there:
+
+> {#Connes06OnRelationToStringVacua} When one looks at the table (7.2) of Appendix 7 giving the [[KO-dimension]] of the finite space $[$ i.e. the [[noncommutative geometry|noncommutative]] [[KK-compactification]]-[[fiber]] $F$ $]$ one then finds that its [[KO-dimension]] is now equal to 6 [[modulo]] 8 (!). As a result we see that the [[KO-dimension]] of the [[Cartesian product|product space]] $M \times F$ $[$ i.e. of 4d [[spacetime]] $M$ with the [[noncommutative geometry|noncommutative]] [[KK-compactification]]-[[fiber]] $F$$]$ is in fact equal to $10  \sim 2$ [[modulo]] 8. Of course the above 10 is very reminiscent of string theory, in which the finite space $F$ might bea good candidate for an "[[effective field theory|effective]]" [[KK-compactification|compactification]] at least for low energies. But 10 is also 2 [[modulo]] 8 which might be related to the observations of [Lauscher-Reuter 06](#LauscherReuter06) about [[gravity]].
+
+For more on this see at _[[2-spectral triple]]_.
+
 
 [[!redirects KO-dimensions]]
