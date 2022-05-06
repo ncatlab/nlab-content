@@ -126,6 +126,13 @@ Discussion of aspects of quantum computing in terms of [[monad (in computer scie
 
 * [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_, Annals Phys. 303 (2003) 2-30 ([arXiv:quant-ph/9707021](http://arxiv.org/abs/quant-ph/9707021))
 
+
+### Relation to tensor networks
+
+Relation to [[tensor networks]], specifically [[matrix product states]]:
+
+* Yiqing Zhou, E. Miles Stoudenmire, Xavier Waintal, _What limits the simulation of quantum computers?_ ([arXiv:2002.07730](https://arxiv.org/abs/2002.07730))
+
 category: computer science, physics
 
 [[!redirects quantum computing]]
