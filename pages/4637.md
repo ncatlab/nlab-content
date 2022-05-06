@@ -33,7 +33,7 @@ $$
   (\mathcal{O} \dashv Spec)
   : 
   CoPresheaves
-  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  \underoverset{Spec}{O}{\leftrightarrows}
   Presheaves
 $$ 
 
@@ -43,7 +43,7 @@ To the extent that this adjunction descends to presheaves that are ([[higher top
 
 Objects preserved by the [[monad]] of this adjunction are called **Isbell self-dual**.
 
-Under the interpretation of [[presheaves]] as generalized [[spaces]] and [[copresheaves]] as generalized [[quantities]] modeled on $C$ ([Lawvere 86](#Lawvere86), see at _[[space and quantity]]_), Isbell duality is the archetype of the [[duality]] between [[geometry]] and [[algebra]] that permeates mathematics (such as [[Gelfand duality]] or the [[embedding of smooth manifolds into formal duals of R-algebras]].)
+Under the interpretation of [[presheaves]] as generalized [[spaces]] and [[copresheaves]] as generalized [[quantities]] modeled on $C$ ([Lawvere 86](#Lawvere86), see at _[[space and quantity]]_), Isbell duality is the archetype of the [[duality]] between [[geometry]] and [[algebra]] that permeates mathematics (such as [[Gelfand duality]] or the [[embedding of smooth manifolds into formal duals of R-algebras]]).
 
 ## Definition
 
@@ -63,7 +63,7 @@ $$
   (\mathcal{O} \dashv Spec)
   :
   [C, \mathcal{V}]^{op}
-  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  \underoverset{Spec}{O}{\leftrightarrows}
   [C^{op}, \mathcal{V}]
 $$
 
@@ -86,7 +86,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal{O} \circ Spec$ or $Spec \mathcal{O}$ are called **Isbell self-dual** .
+This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal{O} \circ Spec$ or $Spec \mathcal{O}$ are called __Isbell self-dual__.
 
 =--
 
@@ -580,11 +580,11 @@ More recent discussion is in
 
 * [[Michael Barr]], John Kennison, R. Raphael, Isbell Duality, Theory and Applications of Categories, Vol. 20, 2008, No. 15, pp 504-542. ([web](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html))
 
-* [[Richard Garner]], _The Isbell monad_ , Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
+* [[Richard Garner]], _The Isbell monad_, Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
 
 * [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_, Fundamenta Informaticae 103 (2010), 203&#8211;218.
 
-* {#DL19} Ivan Di Liberti, [[Fosco Loregian]], _On the Unicity of Formal Category Theories_ , arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
+* {#DL19} Ivan Di Liberti, [[Fosco Loregian]], _On the Unicity of Formal Category Theories_, arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
 
 Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
 
@@ -596,11 +596,11 @@ in
 * {#Toen} [[nLab:Bertrand Toën]], _Champs affines_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
 
 
-Isbell self-dual [[∞-stack]]s over duals of commutative [[associative algebra]]s are called _affine stacks_ . They are characterized as those objects that are _small_ in a sense and local with respect to the [[cohomology]] with coefficients in the canonical [[line object]].
+Isbell self-dual [[∞-stack]]s over duals of commutative [[associative algebra]]s are called _affine stacks_. They are characterized as those objects that are _small_ in a sense and local with respect to the [[cohomology]] with coefficients in the canonical [[line object]].
 
 A generalization of this latter to $\infty$-stacks over duals of [[algebra over a Lawvere theory|algebras over arbitrary abelian Lawvere theories]] is the content of 
 
-* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_, master thesis (2010) ([[schreiber:master thesis Stel|web]])
 
 See also
 
