@@ -6,6 +6,7 @@ On [[orientifolds]], [[O-planes]] and [[RR-field tadpole cancellation]]:
 
 * {#GimonPolchinski96} [[Eric Gimon]], [[Joseph Polchinski]], _Consistency Conditions for Orientifolds and D-Manifolds_, Phys.Rev.D54:1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
+  (specifically for [[D5-D9 brane bound states]] [[duality between heterotic and type I string theory|dual]] to [[small instantons]] in [[heterotic string theory]])
 
 * {#GimonJohnson96} [[Eric Gimon]], [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
 
