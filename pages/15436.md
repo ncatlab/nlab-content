@@ -66,6 +66,8 @@ If $F$ is the [[formal completion]] of a [[number field]] $K$, then the ring of 
 
 * The ring of integers of the field $\mathbb{F}_q((t))$ of [[Laurent series]] with [[coefficients]] in a [[finite field]] is the ring of [[formal power series]] $\mathbb{F}_q[ [t] ]$.
 
+* The ring of intergers of a [[cyclotomic field]] $\mathbb{Q}(\zeta_n)$ is $\mathbb{Z}[\zeta_n]$, called the ring of [[cyclotomic integers]].
+
 ## Properties
 
 ### General
