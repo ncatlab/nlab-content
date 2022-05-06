@@ -2,7 +2,12 @@
 
 * [webpage](http://homepages.math.uic.edu/~tangora/)
 
-## related $n$Lab entries
+## Selected writings
+
+* {#MosherTangora86} [[Robert Mosher]], [[Martin Tangora]], _Cohomology operations and applications in homotopy theory_, Harper & Row 1986 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
+
+
+## Related $n$Lab entries
 
 * [[cohomology operation]]
 
@@ -11,5 +16,7 @@
 * [[May spectral sequence]]
 
 * [[Hopf construction]]
+
+* [[Hopf invariant]]
 
 category: people
