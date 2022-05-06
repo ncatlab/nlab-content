@@ -26,7 +26,11 @@ $$
   \mathbb{Z}
 $$
 
-If the signature of a manifold with dimension not divisible by 4 is taken to be 0, this defines a [[genus]]: the **signature genus**.
+If the signature of a manifold with dimension not divisible by 4 is taken to be 0.
+
+([Milnor-Stasheff 74, p. 224](#MilnorStasheff74))
+
+This defines a [[genus]]: the **signature genus**.
 
 ## Properties
 
@@ -46,6 +50,10 @@ If the signature of a manifold with dimension not divisible by 4 is taken to be 
 [[!include quadratic invariants - table]]
 
 ## References
+
+* {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], p. 224 of _Characteristic classes_, Princeton University Press, 1974
+
+See also
 
 * Wikipedia, _[L genus and the Hirzebruch signature theorem](http://en.wikipedia.org/wiki/Hirzebruch_L-polynomial#L_genus_and_the_Hirzebruch_signature_theorem)_
 
