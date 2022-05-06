@@ -10,9 +10,18 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
+
+
+
+> The way I first visualized a K-group was as a group of "classes of objects" of an abelian (or more generally, additive) category, such as coherent sheaves on an algebraic variety, or vector bundles, etc. I would presumably have called this group $C(X)$ ($X$ being a variety or any other kind of "space"), $C$ the initial letter of 'class', but my past in functional analysis may have prevented this, as $C(X)$ designates also the space of continuous functions on $X$ (when $X$ is a topological space). Thus, I reverted to $K$ instead of $C$, since my mother tongue is German, Class = Klasse (in German), and the sounds corresponding to $C$ and $K$ are the same.
+
+> ([[Alexander Grothendieck]], as quoted in [Courtney 04](topological+K-theory#Courtney04), citing: A. Bak, _Editorial_, K-theory 1 (1987), 1)
+
+
 
 ## Idea ##
 
