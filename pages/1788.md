@@ -45,7 +45,29 @@
     \mathrm{Spin}(8)
 \end{xymatrix}
 
+Given these squares of subgroup inclusions ([here](https://ncatlab.org/nlab/show/SO%288%29#SubgroupLattice)), how to prove that the squares vertically induce isomorphisms of coset spaces?
 
+For instance, for the middle square
+
+$$
+  \array{
+     SU(3) &\longrightarrow& G_2
+     \\
+     \big\downarrow && \big\downarrow
+     \\
+     Spin(6) &\longrightarrow& Spin(7)
+  }
+$$
+
+the vertical inclusions induce a map
+
+$$
+  \frac{G_2}{SU(3)}
+   \longrightarrow
+   \frac{Spin(7)}{Spin(6)}
+$$
+
+This should be an isomorphism. But this needs proof.
 
 $\,$
 
