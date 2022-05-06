@@ -19,4 +19,4 @@ The Nagata-Smirnov [[metrization theorem]] gives a necessary and sufficient cond
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Nagata%E2%80%93Smirnov_metrization_theorem)
+* [Nagata–Smirnov metrization theorem](https://en.wikipedia.org/wiki/Nagata%E2%80%93Smirnov_metrization_theorem), Wikipedia
