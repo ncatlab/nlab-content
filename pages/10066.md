@@ -67,7 +67,11 @@ $$
   
 $$
 
-one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(B G)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. There is a closed formula at least for the [[first Chern class]] ([Atiyah 61, appendix](#Atiyah61)):
+one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(B G)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. For more see at _[[Chern class of a linear representation]]_.
+
+
+
+There is a closed formula at least for the [[first Chern class]] ([Atiyah 61, appendix](#Atiyah61)):
 
 For 1-dimensional representations $V$ their [[first Chern class]]  $c_1(\widehat{V}) \in H^2(B G, \mathbb{Z})$ is their image under the canonical [[isomorphism]] from 1-[[dimension|dimensional]] characters in $Hom_{Grp}(G,U(1))$ to the [[group cohomology]] $H^2_{grp}(G, \mathbb{Z})$ and further to the [[ordinary cohomology]] $H^2(B G, \mathbb{Z})$ of the [[classifying space]] $B G$:
 
@@ -326,6 +330,19 @@ but it was pointed out that only a subgroup or quotient group of equivariant K-t
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], around (137) of  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
 For further references see at _[[fractional D-brane]]_.
+
+On [[Chern classes of linear representations]]:
+
+* [Atiyah 61, Appendix](#Atiyah61)
+
+* {#Evens65} Leonard Evens, _On the Chern Classes of Representations of Finite Groups_, Transactions of the American Mathematical Society
+Vol. 115 (Mar., 1965), pp. 180-193 ([doi:10.2307/1994264](https://www.jstor.org/stable/1994264))
+
+* F. Kamber, Ph. Tondeur, _Flat Bundles and Characteristic Classes of Group-Representations_, American Journal of Mathematics
+Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jstor.org/stable/2373408))
+
+* {#Symonds91} Peter Symonds, _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
+
 
 
 [[!redirects equivariant KO-theory]]
