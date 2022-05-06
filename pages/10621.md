@@ -15,6 +15,11 @@ On [[differential topology]] and [[differential geometry]]:
 
 * B. A. Dubrovin, [[Sergei Novikov]], A. T. Fomenko, _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
 
+On [[differential topology]] and [[algebraic topology]]:
+
+* [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
+
+
 
 ## Related entries
 
