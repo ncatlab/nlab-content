@@ -156,6 +156,7 @@ Discussion of [[equivariant elliptic cohomology]] (see there at _[interpretation
  {#References}
 
 ### Non-perturbative geometric quantization
+  {#ReferencesNonPerturbative}
 
 Discussion of [[non-perturbative QFT|non-perturbative]] [[geometric quantization]] of [[Chern-Simons theory]]:
 
