@@ -1,6 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The LP category is a  [[category]] whose [[Lie algebra objects]] are [[Leibniz algebras]].
+
 ## Overview
 
-Given any category $C$, one can define the [[arrow category]] $\Arr(C)$ of $C$, whose objects are morphisms in $C$ and whose morphisms are commutative squares. If $C$ is the category of [[vector space]]s (or some other $k$-linear [[closed monoidal category|closed]] [[symmetric monoidal category]] with [[equalizer]]s) one can define the _infinitesimal_ or _Loday--Pirashvili_ (LP) tensor product on the category of arrows, as well as an inner hom, equipping the category $\mathrm{Arr} C$ with a structure of a $k$-linear closed symmetric monoidal category.
+Given any [[category]] $C$, one can define the [[arrow category]] $\Arr(C)$ of $C$, whose objects are morphisms in $C$ and whose morphisms are commutative squares. If $C$ is the category of [[vector space]]s (or some other $k$-linear [[closed monoidal category|closed]] [[symmetric monoidal category]] with [[equalizer]]s) one can define the _infinitesimal_ or _Loday--Pirashvili_ (LP) tensor product on the category of arrows, as well as an inner hom, equipping the category $\mathrm{Arr} C$ with a structure of a $k$-linear closed symmetric monoidal category.
 
 The LP-tensor product is
 $$(f:V_1\to V_0)\otimes (g:W_1\to W_0):= (V_0\otimes g + f\otimes W_0: V_0\otimes W_1 \oplus V_1\otimes W_0\to V_0\otimes W_0).$$ 
@@ -19,20 +44,19 @@ Finally, $p$ is the natural projection.
 In the case of vector spaces this means that we have diagonal lifts in squares such that the lower square commutes but not necessarily the upper, i.e. $\mathrm{Hom}(f,g)$ is the space consisting of all triples $(u_1,u_0,\phi)$ where $u_1:V_1\to W_1$, $u_0:V_0\to W_0$ and $\phi:V_0\to W_1$
 such that $g\circ u_1= u_0\circ f$ and $u_0=g\circ\phi$ while one does *not* require $\phi\circ f=u_1$.
 
-There are a number of remarkable functors relating [[internalization|internal]] algebras in LP, [[Lie algebra]]s in LP etc., to or from some other categories of algebras. For example the categories of left [[Leibniz algebra]]s and of right Leibniz algebras embed as full subcategories into the category of internal Lie algebras in LP. This embedding has an [[adjoint functor|adjoint]].
+There are a number of remarkable functors relating [[internalization|internal]] algebras in LP, [[Lie algebra]]s in LP etc., to or from some other categories of algebras. For example the categories of left [[Leibniz algebras]] and of right Leibniz algebras embed as full subcategories into the category of [[internal Lie algebras]] in LP. This embedding has an [[adjoint functor|adjoint]].
 Notice that because of truncation, being a Lie algebra in LP is a bit less than a (strict) $2$-[[n-Lie algebra|Lie algebra]] (a requirement in degree $2$ is dropped). 
 
 ## Literature and discussions
 
-* [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps_, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
+* {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://doi.org/10.1023/B:GEOR.0000008125.26487.f3))
+
+
+
 
 * [nlab](http://golem.ph.utexas.edu/category/2007/10/loday_and_pirashvili_on_lie_2a.html)
 
-+-- {: .query}
-[[Tim Porter|Tim]]: Methinks that we need some comment on the evident connection with [[Baez–Crans 2-vector space]]. I think I remember seeing some paper on 2-vector spaces that mentions the connection.  Whether or not it exploited that connection has slipped my memory.  Can Zoran say something on this? 
 
-[[Zoran Škoda|Zoran]] Surely in char 0, internal categories to vector spaces are the same as 2-term chain complexes, but if one translates strict associative algebra, Lie algebra etc. internal to the categories of internal categories in $Vec_k$ then one has more on the internal category side then on LP side because of the truncation of the tensor product. So every strict Lie algebra in Baez-Crans 2-vector spaces gives an examples of an internal Lie algebra in LP but not other way around. Eventually I will put some treatment of this, but it is not that simple to write it clearly, so it will wait a bit for now. 
-=--
 
 [[!redirects Loday–Pirashvili category]]
 [[!redirects Loday--Pirashvili category]]
