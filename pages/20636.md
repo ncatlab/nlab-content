@@ -10,8 +10,7 @@ On [[categorical algebra]], [[enriched categories]], and [[Grothendieck fibratio
 
 * [[Christina Vasilakopoulou]], _On Enriched Fibrations_. Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. LIX, Issue 4, 2018. ([pdf](http://cahierstgdc.com/wp-content/uploads/2018/10/Vasilakopoulou-LIX-4.pdf))
 
-* [[Christina Vasilakopoulou]], _Enriched Duality in Double Categories: V-categories and V-cocategories_. Journal of Pure and Applied Algebra
-Volume 223, Issue 7, 2019, pp. 2889-2947, 2019. ([JPAA](https://www.sciencedirect.com/science/article/pii/S0022404918302433)) ([arxiv](https://arxiv.org/abs/1704.00329))
+* [[Christina Vasilakopoulou]], _Enriched Duality in Double Categories: V-categories and V-cocategories_. Journal of Pure and Applied Algebra, Volume 223, Issue 7, 2019, pp. 2889-2947, 2019. ([JPAA](https://www.sciencedirect.com/science/article/pii/S0022404918302433)) ([arxiv](https://arxiv.org/abs/1704.00329))
 
 * [[Joe Moeller]] and [[Christina Vasilakopoulou]], _Monoidal Grothendieck construction_. 2019. ([arxiv](https://arxiv.org/abs/1809.00727))
 
