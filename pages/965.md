@@ -17,10 +17,31 @@ Dually, an __inflattice__ is a poset which has all [[meets]], and an __inflattic
 
 A __[[frame]]__ (dual to a [[locale]]) is a suplattice in which finitary meets distribute over arbitrary joins.  (Frame homomorphisms preserve all joins and finitary meets.)
 
-The [[category]] [[SupLat]] of suplattices and suplattice homomorphisms admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  Under this tensor product, the category of suplattices is a [[star-autonomous category]] in which the dualizing object is the suplattice dual to the object $TV$ of [[truth-values]].  A [[semigroup object|semigroup]] in this [[monoidal category]] is a __[[quantale]]__, including [[frames]] as a special case when the quantale
-is idempotent and unital. Modules over them are [[modules over quantales]] (quantic modules with special case of localic modules, used in the localic analogue of the Grothendieck's descent theory in Joyal and Tierney). 
+The [[category]] [[SupLat]] of suplattices and suplattice homomorphisms admits a [[tensor product]] which represents "bilinear maps," i.e. functions which preserve joins separately in each variable.  Under this tensor product, the category of suplattices is a [[star-autonomous category]] in which the dualizing object is the suplattice dual to the object $TV$ of [[truth-values]].  A [[semigroup object|semigroup]] in this [[monoidal category]] is a __[[quantale]]__, including [[frames]] as a special case when the quantale is idempotent and unital. Modules over them are [[modules over quantales]] (quantic modules with special case of localic modules, used in the localic analogue of the Grothendieck's descent theory in Joyal and Tierney). 
 
 * [[André Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_, Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp.
+
+## The free suplattice on a poset
+
+There a forgetful functor 
+
+$$
+U \colon SupLat \to Poset 
+$$
+
+This has a left adjoint
+
+$$
+F \colon Poset \to SupLat
+$$
+
+where for any poset $P$, the suplattice $F(P)$ is the poset of downsets of $P$, ordered by inclusion.   Here a **downset** of a poset $P$ is a subset $S \subseteq P$ such that 
+
+$$ s \in S, s' \le s \quad  \implies \quad s' \in S. $$
+
+This set of all downsets in $P$, say $\hat{P}$, is ordered by inclusion, and it's a suplattice: any union of downsets is a downset.  There's an embedding of $P$ in  $\hat{P}$ that sends each $p \in P$ to its **principal** downset $\{s \in P : \; s \le p \}$.   (To give a downset is to give an [[antichain]], and so the free suplattice is sometimes described equivalently in terms of antichains.)
+
+To understand this description of the free suplattice on a poset, some [[enriched category theory]] is useful.  [[preorder|Preorders]] are the same as $Bool$-enriched categories, where $Bool$ is the monoidal category with two objects $F$, $T$ and one nontrivial morphism $F \implies T$, its monoidal structure being "and".   Using this idea, the downsets of a poset $P$ correspond in a one-to-one way with $Bool$-enriched functors $f \colon P^{op} \to Bool$, just as presheaves on a category $C$ are functors $f \colon C^{op} \to Set$.   The embedding $y \colon P \to \hat{P}$ that sends each $p \in P$ to its principal downset is the $Bool$-enriched version of the Yoneda embedding.   So, just as the category of presheaves on a category $C$ is the [free cocomplete category](https://ncatlab.org/nlab/show/free+cocompletion) on $C$, $\hat{P}$ is the free cocomplete $Bool$-enriched category on $P$.   But a cocomplete $Bool$-enriched category that happens to be a poset is just the same as a suplattice.
 
 [[!redirects suplattice]]
 [[!redirects sup lattice]]
