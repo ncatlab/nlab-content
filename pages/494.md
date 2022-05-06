@@ -1331,6 +1331,14 @@ Keeping that in mind, we do list some special cases and special classes of examp
 ## References
  {#References}
 
+For the basics, see any text on [[category theory]] (and see the references at _[[adjunction]]_), for instance:
+
+* {#Borceux94} [[Francis Borceux]], Vol 1, Section 3 of _[[Handbook of Categorical Algebra]]_
+
+* {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
+ 
+* _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
+
 Though the definition of an [[adjoint equivalence]] appears in [[Grothendieck|Grothendieck's]] [[Tohoku]] paper, the idea of adjoint functors in general goes back to 
 
 * [[Daniel Kan]], _Adjoint functors_, Transactions of the American Mathematical Society Vol. 87, No. 2 (Mar., 1958), pp. 294-329 ([jstor](http://www.jstor.org/stable/1993102))
@@ -1341,21 +1349,11 @@ and its fundamental relevance for [[category theory]] was realized due to
 
 * {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
-For exposition see
-
-* _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
-
-For other textbook reference see any of the references listed at _[[category theory]]_, for instance 
-
-* {#Borceux} [[Francis Borceux]], vol 1, chapter 3 of _[[Handbook of Categorical Algebra]]_, 
-
-* {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
-
 The history of the idea that adjoint functors formalize aspects of [[dialectics]] is recounted in 
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982) ([doi:10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6))
 
-For more on this see at _[[adjoint modality]]_.
+  (more along these lines at _[[adjoint modality]]_)
 
 
 See also 
