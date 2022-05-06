@@ -5,7 +5,7 @@
 
 **[[force]] [[field (physics)|field]] [[gauge field|gauge]] [[bosons]]**
 
-* [[photon]] - [[electromagnetic field]] (abelian [[Yang-Mills field]])
+* [[photon]] - [[electromagnetic field]] ([[abelian group|abelian]] [[Yang-Mills field]])
 
 * [[W-boson|W]], [[Z-boson|Z]], [[B-boson]] - [[electroweak field]] ([[Yang-Mills field]])
 
@@ -87,6 +87,8 @@ bosinos:
 **Exotica**
 
 * [[preon]]
+
+* [[graviphoton]]
 
 * [[dilaton]]
 
