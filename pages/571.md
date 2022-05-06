@@ -167,7 +167,7 @@ Any morphism from a terminal  object is a monomorphism.  The product of monomorp
 =--
 
 
-Monomorphisms do not get along quite as well with colimits.  For example, the unique morphism from the initial object is not always an monomorphism, and the canonical morphisms from the summands into a coproduct, e.g. $i_1 : x_1 \to x_1 + x_2$, are not always monomorphisms (though these results do hold in $Set$).
+Monomorphisms do not get along quite as well with colimits.  For example, the unique morphism from the initial object is not always an monomorphism, and the canonical morphisms from the summands into a coproduct, e.g. $i_1 : x_1 \to x_1 + x_2$, are not always monomorphisms (though these results do hold in $Set$). However, the unique morphism from the initial object is a monomorphism when the initial object is [[strict initial object|strict]], and the canonical morphisms into a coproduct are monomorphisms when the coproduct is a [[disjoint coproduct]]. 
 
 
 ## Variations
