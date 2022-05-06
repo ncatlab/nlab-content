@@ -197,6 +197,8 @@ From p. 13:
 
 * [[complex oriented cohomology]]
 
+* [[MU]]
+
 * multiplicative cohomology of $B U(1)$ (prop. 4.3.2, this is lemma 2.5 in part II of [[John Adams]], _[[Stable homotopy and generalised homology]]_)
 
 * [[Conner-Floyd Chern classes]]
