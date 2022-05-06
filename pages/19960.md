@@ -202,6 +202,10 @@ Review:
 
   Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
 
+* {#AHI12} Sinya Aoki, [[Koji Hashimoto]], Norihiro Iizuka, _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
+
+
+
 * Youngman Kim, Ik Jae Shin, Takuya Tsukioka, _Holographic QCD: Past, Present, and Future_, Progress in Particle and Nuclear Physics
 Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics ([arXiv:1205.4852](https://arxiv.org/abs/1205.4852))
 
@@ -277,7 +281,7 @@ Discussion of [[phase transition]]:
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
 
 
-### Application to hadron physics
+### Hadron physics
 
 Application to [[confinement|confined]] [[hadron]]-physics:
 
@@ -285,18 +289,15 @@ Review:
 
 * Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
 
+* Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
+
+* Deog Ki Hong, Mannque Rho, Ho-Ung Yee, Piljin Yi, _Chiral Dynamics of Baryons from String Theory_, Phys.Rev.D76:061901, 2007 ([arXiv:hep-th/0701276](https://arxiv.org/abs/hep-th/0701276))
+
+* Deog Ki Hong, _Baryons in holographic QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
+
 * Johanna Erdmenger, Nick Evans, Ingo Kirsch, Ed Threlfall, _Mesons in Gauge/Gravity Duals - A Review_, Eur. Phys. J. A35:81-133, 2008 ([arXiv:0711.4467](https://arxiv.org/abs/0711.4467))
 
 * Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_ ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
-
-
-Original articles:
-
-* {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys. Rev. D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
-
-* {#HSSY07} Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
-
-
 
 * [[Koji Hashimoto]], [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog. Theor. Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
 
@@ -305,6 +306,17 @@ Original articles:
 * Thomas Gutsche, Valery E. Lyubovitskij, Ivan Schmidt, Alfredo Vega, _Nuclear physics in soft-wall AdS/QCD: Deuteron electromagnetic form factors_, Phys. Rev. D 91, 114001 (2015) ([arXiv:1501.02738](https://arxiv.org/abs/1501.02738))
 
 * Marco Claudio Traini, _Generalized Parton Distributions: confining potential effects within AdS/QCD_, Eur. Phys. J. C (2017) 77:246 ([arXiv:1608.08410](https://arxiv.org/abs/1608.08410))
+
+
+#### Baryons as instantons
+
+[[baryons]] as [[instantons]]:
+
+* {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, Phys. Rev. D74:086004, 2006 ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
+
+* {#HSSY07} Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
+
+
 
 * Salvatore Baldino, Stefano Bolognesi, Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
 
@@ -320,6 +332,11 @@ Original articles:
 
 * {#SonnenscheinWeissman18} Jacob Sonnenschein, Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
 
+
+* Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
+
+* {#AbdolmalekiBoroun18} M. Abdolmaleki, G.R. Boroun, _The Survey of Proton Structure Function with the AdS/QCD Correspondence_ Phys.Part.Nucl.Lett. 15 (2018) no.6, 581-584 ([doi:10.1134/S154747711806002X](https://doi.org/10.1134/S154747711806002X))
+
 On relation to [[type 0 string theory]]:
 
 * {#GLMR00} Roberto Grena, Simone Lelli, Michele Maggiore, Anna Rissone, _Confinement, asymptotic freedom and renormalons in type 0 string duals_, JHEP 0007 (2000) 005 ([arXiv:hep-th/0005213](https://arxiv.org/abs/hep-th/0005213))
@@ -328,16 +345,13 @@ See also
 
 * S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
 
-### Baryons as wrapped branes and Skyrmions
- {#ReferencesBaryonsSkyrmions}
 
-Specifically application to [[baryon]] physics via [[Skyrmions]] and (equivalently) [[wrapped brane|wrapped]] [[D4-branes]]:
 
-Review:
+#### Baryons as wrapped branes 
 
-* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+[[baryons]] as [[wrapped brane|wrapped]] [[D4-branes]]:
 
-Original articles
+original articles:
 
 * {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
 
@@ -355,15 +369,27 @@ Original articles
 
 * Curtis G. Callan, Alberto Guijosa, Konstantin G. Savvidy, Oyvind Tafjord, _Baryons and Flux Tubes in Confining Gauge Theories from Brane Actions_, Nucl. Phys. B555 (1999) 183-200 ([arxiv:hep-th/9902197](https://arxiv.org/abs/hep-th/9902197))
 
+Review:
+
+* P. Yi, _Two Approaches to Holographic Baryons/Nuclei_, Few-Body Syst (2013) 54: 77. ([doi:10.1007/s00601-012-0373-7](https://doi.org/10.1007/s00601-012-0373-7))
 
 
-* Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
+#### Baryons as Skyrmions
+ {#ReferencesBaryonsSkyrmions}
+
+[[baryons]] as [[Skyrmions]]:
+
+Review:
+
+* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+Original articles
+
+
 
 * Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Brane-induced Skyrmions: Baryons in Holographic QCD_, Prog.Theor.Phys.Suppl.168:231-236, 2007 ([arXiv:hep-th/0701007](https://arxiv.org/abs/hep-th/0701007))
 
-* Deog Ki Hong, Mannque Rho, Ho-Ung Yee, Piljin Yi, _Chiral Dynamics of Baryons from String Theory_, Phys.Rev.D76:061901, 2007 ([arXiv:hep-th/0701276](https://arxiv.org/abs/hep-th/0701276))
 
-* Deog Ki Hong, _Baryons in holographic QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
 
 * Hovhannes R. Grigoryan, _Baryon as skyrmion-like soliton from the
 holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](https://www.jlab.org/div_dept/theory/talks/2008/grigoryan08_INT.pdf))
@@ -374,13 +400,18 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 * Stefano Bolognesi, Paul Sutcliffe, _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
-* Salvatore Baldino, Stefano Bolognesi, Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
 
-* Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
 
-* {#AbdolmalekiBoroun18} M. Abdolmaleki, G.R. Boroun, _The Survey of Proton Structure Function with the AdS/QCD Correspondence_ Phys.Part.Nucl.Lett. 15 (2018) no.6, 581-584 ([doi:10.1134/S154747711806002X](https://doi.org/10.1134/S154747711806002X))
 
-### Application to glueball physics
+#### Pentaquarks
+
+[[pentaquarks]]:
+
+* Kazuo Ghoroku, Akihiro Nakamura, Tomoki Taminato, Fumihiko Toyoda, _Holographic Penta and Hepta Quark State in Confining Gauge Theories_,
+JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
+
+
+### Glueball physics
 
 * {#Suzuki01} Kenji Suzuki, _D0-D4 system and $QCD_{3+1}$_, Phys.Rev. D63 (2001) 084011 ([arXiv:hep-th/0001057](https://arxiv.org/abs/hep-th/0001057))
 
