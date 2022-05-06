@@ -506,6 +506,8 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 
 * {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
 
+* Maurizio Parton, Paolo Piccinni, Victor Vuletescu, Prop. 2.2 in _Clifford systems in octonionic geometry_ ([arXiv:1511.06239](https://arxiv.org/abs/1511.06239))
+
 [[!redirects Sp(2).Sp(1)]]
 [[!redirects Spin(5).Spin(3)]]
 
