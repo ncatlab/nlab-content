@@ -1,11 +1,18 @@
 
 * [webpage](http://www.maths.ed.ac.uk/~jmf/)
 
-## selected writings
+## Selected writings
+
+
+On [[spin geometry]]:
 
 * {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 7: _Riemannian holonomy_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture7.pdf))
 
-  (on [[spin geometry]])
+
+On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
+
+* {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
+
 
 ## Related $n$Lab entries
 
