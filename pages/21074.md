@@ -36,6 +36,11 @@ On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scatter
 
 * Xiao-Gang He, Xiao-Dong Ma, Jusak Tandean, German Valencia, _Breaking the Grossman-Nir Bound in Kaon Decays_ ([arXiv:2002.05467](https://arxiv.org/abs/2002.05467))
 
+* Teppei Kitahara, Takemichi Okui, Gilad Perez, Yotam Soreq, Kohsaku Tobioka, _New physics implications of recent search for $K_L \to \pi_0 \nu \bar \nu$ at KOTO_ ([arXiv:1909.11111](https://arxiv.org/abs/1909.11111))
+
+
+
+
 
 
 
