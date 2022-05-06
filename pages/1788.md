@@ -1,4 +1,10 @@
 
+| $n=$ | 1 | 2 | 3 | 4 | 
+|--|--|--|--|--|
+| $DI(n)=$ | [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
+|          | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |   |
+
+
 \begin{tikzpicture}
   \draw node at (0,0) {$X$};
 \end{tikzpicture}
