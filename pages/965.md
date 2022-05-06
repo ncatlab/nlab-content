@@ -23,7 +23,7 @@ The [[category]] [[SupLat]] of suplattices and suplattice homomorphisms admits a
 
 ## The free suplattice on a poset
 
-There a forgetful functor 
+There is a forgetful functor 
 
 $$
 U \colon SupLat \to Poset 
