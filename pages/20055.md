@@ -13,21 +13,21 @@ This can be seen as a homotopy-theoretic analogue of the construction of a [[ref
 
 ## Construction
 
-The following is Theorems 9.3 and 9.7 from [Bousfield 2001](#Bousfield01).
+The following is Theorem 1.1 of [Stanculescu](#Stanculescu), which is an improved version of Theorems 9.3 and 9.7 from [Bousfield 2001](#Bousfield01), which are in turn an improved version of Appendix A of [Bousfield-Friedlander 78](#BousfieldFriedlander78).
 
 \begin{theorem}
-  Let $C$ be a [[proper model category]] and $Q:C\to C$ a functor equipped with a natural transformation $\alpha:Id\to Q$ such that
+  Let $C$ be a [[model category]] and $Q:C\to C$ a functor equipped with a natural transformation $\alpha:Id\to Q$ such that
 
   1. $Q$ is a [[homotopical functor]], i.e. preserves weak equivalences.
-  2. For each $X\in C$, the maps $\alpha_{Q X}$ and $Q \alpha_X$ are weak equivalences $Q X \to Q Q X$.
-  3. Define an object $X$ to be $Q$-local if $X\to Q X$ is a weak equivalence, and define a morphism $f$ to be a $Q$-equivalence if $Q f$ is a weak equivalence.  Then pullback along fibrations between $Q$-local fibrant objects preserves $Q$-equivalences.
+  2. For each $X\in C$, the map $Q \alpha_X:Q X \to Q Q X$ is a weak equivalence, and the map $\alpha_{Q X}:Q X \to Q Q X$ becomes a [[monomorphism]] in the [[homotopy category]].
+  3. Define an object $X$ to be $Q$-local if it is fibrant and $X\to Q X$ is a weak equivalence, and define a morphism $f$ to be a $Q$-equivalence if $Q f$ is a weak equivalence.  Then pullback along fibrations between $Q$-local objects preserves $Q$-equivalences.
 
-  Then there is a new model structure $C^Q$ on $C$ whose cofibrations are those of $C$, whose weak equivalences are the $Q$-equivalences, and whose fibrations are the maps whose $\alpha$-naturality-square is a [[homotopy pullback]].  Moreover, $C^Q$ is also proper, and simplicial if $C$ is.
+  Then there is a new model structure $C^Q$ on $C$ whose cofibrations are those of $C$, whose weak equivalences are the $Q$-equivalences, and whose fibrations are the maps whose $\alpha$-naturality-square is a [[homotopy pullback]].  Moreover, $C^Q$ is [[proper model category|right proper]], and simplicial if $C$ is.
 \end{theorem}
 
 The first two conditions say essentially that $Q$ is a homotopical reflection into some subcategory (namely the $Q$-local objects).  The third condition says that it is semi-left-exact (a 1-categorical reflection of $C$ into $B\subseteq C$ is semi-left-exact if and only if pullback along morphisms in $B$ preserves morphisms that are inverted by the reflector).
 
-For details of the proof, see [Bousfield 2001](#Bousfield01), and [Bousfield-Friedlander 78](#BousfieldFriedlander78) which proved a less powerful version.  The central point is the construction of the factorization into an $S$-acyclic cofibration and an $S$-fibration, which proceeds by first applying $Q$ along with fibrant replacement, then taking a homotopy pullback: the same way that a [[reflective factorization system]] is constructed from a [[semi-left-exact reflection]] in 1-category theory.
+For details of the proof, see the references.  The central point is the construction of the factorization into an $S$-acyclic cofibration and an $S$-fibration, which proceeds by first applying $Q$ along with fibrant replacement, then taking a homotopy pullback: the same way that a [[reflective factorization system]] is constructed from a [[semi-left-exact reflection]] in 1-category theory.
 
 
 ## Remarks
@@ -44,6 +44,8 @@ For details of the proof, see [Bousfield 2001](#Bousfield01), and [Bousfield-Fri
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], def. 1.1.6 in _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
 * {#Bousfield01} [[Aldridge Bousfield]], *On the telescopic homotopy theory of spaces*, Trans. Amer. Math. Soc. 353 (2001), 2391-2426, [web with fulltext](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-00-02649-0/)
+
+* {#Stanculescu} [[Alexandru E. Stanculescu]], *Note on a theorem of Bousfield and Friedlander*, Topology and its Applications 155(13), [arxiv:0806.4547](https://arxiv.org/abs/0806.4547).
 
 * {#Hirschhorn} [[Philip Hirschhorn]], chapter 13 of _Model Categories and Their Localizations_, 2003 ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
  
