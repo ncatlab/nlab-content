@@ -165,7 +165,7 @@ The observation putting this into the general context of [[differential cohomolo
 
 based on
 
-* {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], around def, 2.1 of _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
+* {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], around def. 2.1 of: _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
 
 
 A characterization of Chern-character maps for [[K-theory]] is in
