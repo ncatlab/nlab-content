@@ -33,6 +33,10 @@ The  [[equivariant elliptic cohomology]]-version of the [[elliptic genus]].
 
 See at _[[gauged WZW model]]_.
 
+### Rigidity theorem
+
+See _[[rigidity theorem for elliptic genera]]_
+
 ## References
 
 * [[David Gepner]], section 1.1 of _[[Homotopy topoi and equivariant elliptic cohomology]]_, 2005
