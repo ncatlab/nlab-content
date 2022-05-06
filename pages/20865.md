@@ -347,6 +347,9 @@ we get this situation:
 
 [[cohomology of knot graph complex is weight systems on chord diagrams]]
 
+### All horizontal weight systems are partitioned Lie algebra weight systems
+
+* [[all horizontal weight systems are partitioned Lie algebra weight systems]]
 
 ## Related concepts
 
