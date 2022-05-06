@@ -181,6 +181,9 @@ Further discussion of [[phenomenology]]:
 
 * Prabal Adhikari, Jens O. Andersen, _Quark and pion condensates at finite isospin density in chiral perturbation theory_ ([arXiv:2003.12567](https://arxiv.org/abs/2003.12567))
 
+* Bryan W. Lynn, Brian J. Coffey, Kellen E. McGee, Glenn D. Starkman, _Nuclear matter as a liquid phase of spontaneously broken semi-classical $SU(2)_L \times SU(2)_R$ chiral perturbation theory: Static chiral nucleon liquids_ ([arXiv:2004.01706](https://arxiv.org/abs/2004.01706))
+
+
 
 
 
