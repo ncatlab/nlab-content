@@ -53,9 +53,15 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 ## References
 
+
 * {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
+* Joan S. Birman, Xiao-Song Lin,
+_Knot polynomials and Vassiliev's invariants_, Invent Math (1993) 111: 225 ([doi:10.1007/BF01231287](https://doi.org/10.1007/BF01231287))
+
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+
+
 
 [[!redirects horizontal weight systems are associated graded of Vassiliev braid invaraints]]
 
