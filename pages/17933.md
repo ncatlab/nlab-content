@@ -1,12 +1,12 @@
 
 
-The traditional story in the [[physics]] textbooks (copied endlessly from one textbook to the next, over generations) of $SU(2)$-[[instantons]] ([[BPTS instantons]]) tends to fail to highlight some key global points, without which the whole construction really collapses. The following text means to explain the correct description (using the mathmatics of [[Cech cohomology]] cocycles via [[clutching construction]] on [[one-point compactification]] of [[Minkowski spacetime]]) but presented and phrased such that the folklore physics story becomes fully visible -- including its crucial fix.
+The traditional story in the [[physics]] textbooks (copied endlessly from one textbook to the next, over generations) of $SU(2)$-[[instantons]] ([[BPTS instantons]]) tends to fail to highlight some key global points, without which the whole construction really collapses. The following text means to explain the correct description (using the mathematics of [[Cech cohomology]] cocycles via [[clutching construction]] on [[one-point compactification]] of [[Minkowski spacetime]]) but presented and phrased such that the folklore physics story becomes fully visible -- including its crucial fix.
 
 $\,$
 
 **Instantons**
 
-For $G$ any [[gauge group]] (a [[Lie group]]) then a $G$-[[Yang-Mills instanton]] on some 4-dimensional [[spacetimes]] (a [[pseudo-Riemannian manifold]]) $X$ is a $G$-[[principal bundle]] on $X$ (this is going to be the "instanton sector"), equipped with a $G$-[[principal connection]] $\nabla$ (this is the actual [[gauge field]]) such that this is [[self-dual Yang-Mills theory|self-dual]], in that its [[curvature form]] $F_\nabla$ satisfies $F_\nabla = \star F_{\nabla}$, where $\star$ denotes the [[Hodge star]] operator for the given metric (field of [[gravity]]).
+For $G$ any [[gauge group]] (a [[Lie group]]) then a $G$-[[Yang-Mills instanton]] on some 4-dimensional [[spacetime]] (a [[pseudo-Riemannian manifold]]) $X$ is a $G$-[[principal bundle]] on $X$ (this is going to be the "instanton sector"), equipped with a $G$-[[principal connection]] $\nabla$ (this is the actual [[gauge field]]) such that this is [[self-dual Yang-Mills theory|self-dual]], in that its [[curvature form]] $F_\nabla$ satisfies $F_\nabla = \star F_{\nabla}$, where $\star$ denotes the [[Hodge star]] operator for the given metric (field of [[gravity]]).
 
 A standard theorem says that there is precisely one self-dual [[principal connection]] $\nabla$ on every [[isomorphism class]] of $SU(2)$-[[principal bundles]]. Therefore classifying and counting instantons amounts to classifying and counting $G$-[[principal bundles]]. 
 
@@ -176,7 +176,7 @@ $$
 $$
 
 
-Moreover there is no non-trivial triple overlap, hence no cocycle condition that our transition function it to satisfy.
+Moreover there is no non-trivial triple overlap, hence no cocycle condition that our transition function is to satisfy.
 
 In conclusion, [[Cech cohomology]] and the [[clutching construction]] jointly now say that $SU(2)$-instantons are classified by maps
 
