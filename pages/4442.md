@@ -538,6 +538,13 @@ Other original articles include:
 
 For more see at _[[AdS/QCD correspondence]]_.
 
+#### To fluid dynamics
+
+Application to [[fluid dynamics]] -- see also at _[[fluid/gravity correspondence]]_:
+
+* [[Sayantani Bhattacharyya]], [[Veronika Hubeny]], [[Shiraz Minwalla]], [[Mukund Rangamani]], _Nonlinear Fluid Dynamics from Gravity_, JHEP 0802:045, 2008 ([arXiv:0712.2456](https://arxiv.org/abs/0712.2456))
+
+
 #### To condensed matter physics
  {#ToCondensedMatterPhysics}
 
