@@ -283,7 +283,7 @@ In particular
 ## References
  {#References}
 
-Formalization of double dimensional reduction is discussed in [[rational homotolpy theory]] in
+Formalization of double dimensional reduction is discussed in [[rational homotopy theory]] in
 
 * {#FSS16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of  _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, ATMP Volume 22 (2018) Number 5 ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
