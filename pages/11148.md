@@ -120,6 +120,9 @@ Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CF
 
 * Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
 
+* Stephen Ebert, Hao-Yu Sun, Meng-Yang Zhang, _Probing holography in $p$-adic CFT_ ([arXiv:1911.06313](https://arxiv.org/abs/1911.06313))
+
+
 [[!redirects BTZ black holes]]
 
 [[!redirects thermal AdS3]]
