@@ -1,15 +1,17 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Physics
+###Context###
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### String theory
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include string theory - contents]]
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
