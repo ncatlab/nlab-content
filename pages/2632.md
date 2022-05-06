@@ -325,6 +325,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
  
   * [[Born-Oppenheimer approximation]]
 
+  * [[quantum tunneling]]
+
   * [[supersymmetric quantum mechanics]]
 
   * [[quantum logic]], [[quantum computing]]
