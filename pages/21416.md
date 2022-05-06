@@ -11,12 +11,9 @@ For [[U(1)]]-[[gauge group]] this reduces to [[D=5 Maxwell theory]]. Under [[KK-
 
 ## Properties
 
+
 ### Hadrons as KK-modes of 5d Yang-Mills theory
-
-The suggestion that the [[pion]] togethher with the tower of observed [[vector mesons]], when regarded as [[gauge fields]] of [[hidden local symmetry|hidden local symmetries]] of [[chiral perturbation theory]], is reasonably modeled as a [[Kaluza-Klein theory|Kaluza-Klein tower]] of [[D=5 Yang-Mills theory]]:
-
-* D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
-
+ {#HadronsAsKKModesOf5dYangMillsTheoryReferences}
 
 
 On [[Skyrmions]] in 4d as [[AdS/QCD|holographic]]/[[KK reduction|KK-theoretic]] reduction of [[instantons]] in [[D=5 Yang-Mills theory]]:
@@ -53,40 +50,13 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 (...)
 
-### Relation to Skyrmions in 4d
-
- Observation that interpreting the tower of [[vector mesons]] via [[hidden local symmetry]]-models makes them appear as [[Kaluza-Klein theory|Kaluza-Klein modes]] of [[D=5 Yang-Mills theory]]:
-
-* D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
-
-Derivation of [[vector meson]]-correvted [[Skyrmions]] by [[holographic QCD|holographic]] [[KK-compactification]] of [[D=5 Yang-Mills theory]], by the [[Sakai-Sugimoto model]] ([[D4/D8-brane intersections]]) and variants:
-
-* {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 5.2 of _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
-
-* {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 3.3. of _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
-
-* {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
 
-* {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
-
-* {#Sutcliffe15} [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608), [doi:10.1142/S0217984915400515](https://doi.org/10.1142/S0217984915400515))
-
-* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+[[!include hadrons as KK-modes of 5d Yang-Mills theory -- references]]
 
 
 
-* {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
-
-
-An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]] on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]]:
-
-* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
-
-following
-
-* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Non-Abelian sigma models from Yang-Mills theory compactified on a circle_, Physics Letters B Volume 781, 10 June 2018, Pages 322-326 ([arXiv:1803.07322](https://arxiv.org/abs/1803.07322))
-
+[[!redirects 5d Yang-Mills theory]]
 
 
 
