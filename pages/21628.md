@@ -13,6 +13,12 @@ which introduces [[homotopy type theory]] in general and [[Martin-Löf dependent
 
 #Contents#
 
+The book contains three chapters:
+
+1. The first chapter introduces the reader to Martin-Löf's dependent type theory. The fundamental concepts of type theory are explained without immediately jumping into the homotopy interpretation of type theory.
+2. The second chapter is an exposition of Voevodsky's Univalent Foundations for mathematics. In this chapter we gradually extend dependent type theory with [[function extensionality]], [[propositional truncation]], the [[univalence axiom]], and the type theoretic [[replacement axiom]].
+3. The third chapter studies [[higher inductive types]], and develops homotopy theory and concepts from [[higher category theory]] in type theory.
+
 #Formalization#
 
 * The [main formalization](https://github.com/HoTT-Intro/Agda) of the book is in agda
