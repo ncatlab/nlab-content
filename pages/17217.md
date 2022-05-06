@@ -3,16 +3,17 @@
 
 * [webpage](http://www1.math.yorku.ca/new/node/55)
 
-## writings
+## Selected writings
+
+On computation of [[stable homotopy groups of spheres]]:
+
 
 *  _Stable Homotopy Groups of Spheres -- A Computer-Assisted Approach_, Lecture Notes in Mathematics, 1990
 
-   on computation of [[stable homotopy groups of spheres]];
+On [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]]:
 
  
 * _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
-
-  on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
 
 category: people
 
