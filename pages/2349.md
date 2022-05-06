@@ -15,14 +15,41 @@
 
 ## Definition
 
-The **diagonal** of an [[object]] $X$ in a [[category]] with [[product]]s is the canonical [[morphism]]
+The **diagonal** of an [[object]] $X$ in a [[category]] with [[Cartesian product]] is the canonical [[morphism]]
 
 $$
-  \Delta : X \stackrel{(Id,Id)}{\to} X \times X
-  \,.
+  \Delta 
+    \;\colon\; 
+  X 
+    \stackrel{(Id,Id)}{\longrightarrow} 
+  X \times X
 $$
 
-The dual concept is _[[codiagonal]]_ .
+which is induced, via the [[universal property]] of the [[Cartesian product]], by the [[span]] whose two legs each are the [[identity morphism]] on $X$:
+
+$$
+  \array{
+    && X
+    \\
+    & 
+      {}^{\mathllap{Id}}\swarrow 
+    & 
+      \downarrow 
+      {}^{\mathrlap{\Delta}}
+    & 
+      \searrow^{\mathrlap{Id}}
+    \\
+    X 
+      &\underset{pr_1}{\longleftarrow}&
+    X \times X
+      &\underset{pr_2}{\longrightarrow}&
+    X
+  }
+$$
+
+The dual concept is _[[codiagonal]]_ . 
+
+In the absence of [[Cartesian products]], or when intentionally disregarding them, diagonal morphisms may still be considered in a generalized sense in [[monoidal categories with diagonals]].
 
 ## Details
 
@@ -52,9 +79,13 @@ In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 
 ## Related concepts
 
-* [[formal neighbourhood of the diagonal]]
 
 * [[fat diagonal]]
+
+* [[monoidal category with diagonals]]
+
+* [[formal neighbourhood of the diagonal]]
+
 
 [[!redirects diagonal]]
 [[!redirects diagonals]]
