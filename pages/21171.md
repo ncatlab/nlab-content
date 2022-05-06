@@ -6,7 +6,7 @@
 
 ## Idea
 
-Steenrod's _generalized cup products- generalize the usual simplicial [[cup products]] on [[simplicial cochains]].
+Steenrod's _generalized cup products_ generalize the usual simplicial [[cup products]] on [[simplicial cochains]].
 
 Taken together, all generalized cup products organize into the [[sequence operad]].
 This operad is an [[E-infinity operad]] and it acts on [[simplicial cochains]],
@@ -70,6 +70,11 @@ In particular for $m=2$ (the sequence 12) we recover the [[cup product]]
 and for $m=3$ (the sequence 121) we recover $\cup_1$.
 \end{remark}
 
+## Related concepts
+
+* [[cup product]]
+
+* [[sequence operad]]
 
 ## References
 
