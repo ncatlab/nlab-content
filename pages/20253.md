@@ -262,7 +262,7 @@ from a [[3-sphere]] (the [[equator]] of $S^4$) to [[SO(4)]]. By [this Prop.](SO4
 
 If here $m+n = \pm 1$ then the [[boundary]] of the corresponding [[8-manifold]] is [[homotopy equivalent]] to a [[7-sphere]], and in fact [[homeomorphism|homeomorphic]] to the [[7-sphere]].
 
-Assuming this 8-manifold is a [[smooth manifold]], then plugging in the numbers into the [[signature genus|siganture]] formula (eq:SignatureFormula) yields the relation
+Assuming this 8-manifold is a [[smooth manifold]], then plugging in the numbers into the [[signature genus|signature]] formula (eq:SignatureFormula) yields the relation
 
 $$
   p_2[X]
