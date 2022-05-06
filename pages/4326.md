@@ -258,4 +258,5 @@ The [[coadjoint orbits]] of $SU(2)$ are discussed around p. 183 of
 [[!redirects Pauli matrix]]
 [[!redirects Pauli matrices]]
 
+[[!redirects SU(N)]]
 [[!redirects SU(n)]]
