@@ -68,7 +68,7 @@ for all $x,y,z \in \mathbb{g}$. This follows from the cyclic invariance of the [
 
 For complex Lie algebras $\mathfrak{g}$, nondegeneracy of the Killing form (i.e. being the metric making $\mathfrak{g}$ a [[metric Lie algebra]]) is equivalent to [[semisimple Lie algebra|semisimplicity]] of $\mathfrak{g}$. 
 
-For [[simple object|simple]] complex Lie algebras, any invariant nondegenerate symmetric bilinear form is proportional to the Killing form. 
+For [[simple object|simple]] complex Lie algebras, or compact forms of real Lie algebras, any invariant nondegenerate symmetric bilinear form is proportional to the Killing form. Indeed, one often uses a normalisation of the Killing form on a simple Lie algebra that makes it an [[inner product space|inner product]] (hence positive definite), such that the algebra elements corresponding to long roots (under the isomorphism $\mathfrak{g}^*\simeq \mathfrak{g}$ induced by the original Killing form) have length $\sqrt{2}$. This gives a simple Lie algebra a canonical structure of a [[metric Lie algebra]].
 
 ## Generalizations
 
