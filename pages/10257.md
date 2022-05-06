@@ -97,6 +97,12 @@ Accordingly the basic properties of complex [[spinor representations]] are the s
 
 ## References
 
+Proof of Bott periodicity for [[topological K-theory]], including [[equivariant K-theory]]:
+
+* [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
+
+Review:
+
 * {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: [[Eric Friedlander]], [[Daniel Grayson]] (eds.) _[[Handbook of K-Theory]]_, Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
 
 For a list of proofs of Bott periodicity, see
