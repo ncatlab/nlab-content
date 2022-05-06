@@ -142,7 +142,7 @@ $$
 
 In our exposition above we have already taken advantage of the categorical point of view advanced in Lawvere and Schanuel ([1997](#LawSchan97), [1999](#Law99)) by adapting it to the classical algebraic approach to kinship. In this section we summarize their ideas in the original setting.
 
-Lawvere and Tierney proposed to study the concept of kinship starting from the notion of a (filiation structured) **society** modeled mathematically as a set $X$ (of _individuals_) together with two endofunctions $m,f$ that assign to an individual $x\in X$ his mother $m(x)\in X$ resp. his father $f(x)\in X$.
+Lawvere and Schanuel proposed to study the concept of kinship starting from the notion of a (filiation structured) **society** modeled mathematically as a set $X$ (of _individuals_) together with two endofunctions $m,f$ that assign to an individual $x\in X$ his mother $m(x)\in X$ resp. his father $f(x)\in X$.
 
 If one organizes these sets with filiation structure into a category the result is a [[topos]] namely the topos $Set^{M_2^{op}}$ of right actions of the free [[monoid]] $M_2$ on two symbols $\{m,f\}$.
 
