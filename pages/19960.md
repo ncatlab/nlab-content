@@ -761,6 +761,14 @@ See also
 * Nicolas Kovensky, Andreas Schmitt, _Heavy Holographic QCD_ ([arxiv:1911.08433](https://arxiv.org/abs/1911.08433))
 
 
+### Application to meson physics
+
+Application to [[meson]] physics:
+
+
+* Daniel Ávila, Leonardo Patiño, _Melting holographic mesons by cooling a magnetized quark gluon plasma_ ([arXiv:2002.02470](https://arxiv.org/abs/2002.02470))
+
+
 [[!include application of holographic QCD to B-meson physics -- references]]
 
 
