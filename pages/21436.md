@@ -4,6 +4,11 @@
 
 On [[quantum hadrodynamics]] ([[relativistic field theory|relativivist]] [[effective field theory]] of [[nuclear physics]], [[interaction|coupling]] [[mesons]] and [[nucleons]]) in the sense of the [[Walecka model]],  hence with [[nucleons]] appearing as explicit [[field (physics)|fields]] (as opposed to being [[soliton|solitonic]] [[Skyrmions]] in the [[pion field]] as in [[chiral perturbation theory]]).
 
+Precursor:
+
+* [[Hans-Peter Duerr]], _Relativistic Effects in Nuclear Forces_, Phys. Rev. 103, 469 (1956) ([doi:10.1103/PhysRev.103.469](https://doi.org/10.1103/PhysRev.103.469))
+
+
 The original [[Walecka model]] (*QHD-I model*), with [[nucleons]] coupled to [[sigma-mesons]] and [[omega-mesons]]:
 
 * {#Walecka74} [[John Dirk Walecka]], _A Theory of highly condensed matter_, Annals Phys. 83 (1974) 491 ([spire:91609](http://inspirehep.net/record/91609?ln=en), <a href="https://doi.org/10.1016/0003-4916(74)90208-5">dpi:10.1016/0003-4916(74)90208-5</a>)
