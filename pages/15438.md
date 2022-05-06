@@ -17,7 +17,7 @@
 {:toc}
 
 ##Idea
-The **Schanuel topos** (also called the _Myhill-Schanuel topos_) is the [[Grothendieck topos]] of "combinatorial functors" whose "typical objects are natural combinatorial constructions such as [[binomial coefficients]]"[^ref]. It plays an important role in [[computer science]] in the theory of [[name binding]] calculi and in [[William  Lawvere]]'s approach to [[petit toposes]]. It can be viewed as a [[category theory|category-theoretic]] variant of the [[Fraenkel-Mostowski model]] of [[set theory]].
+The **Schanuel topos** (also called the _Myhill-Schanuel topos_) is the [[Grothendieck topos]] of "combinatorial functors" whose "typical objects are natural combinatorial constructions such as [[falling factorial|binomial coefficients]]"[^ref]. It plays an important role in [[computer science]] in the theory of [[name binding]] calculi and in [[William  Lawvere]]'s approach to [[petit toposes]]. It can be viewed as a [[category theory|category-theoretic]] variant of the [[Fraenkel-Mostowski model]] of [[set theory]].
 
 [^ref]: Lawvere [1989, p.299](#Law89).
 
