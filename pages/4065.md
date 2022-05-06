@@ -130,9 +130,9 @@ Specifically in relation to [[KK-compactifications]] of [[string theory]] on [[K
 
 * {#ChengHarrisonVolpatoZimet16} [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404), [doi:10.1007/s40687-018-0150-4](https://doi.org/10.1007/s40687-018-0150-4))
 
-Relation to [[bosonic M-theory]]:
+Possible relation to [[bosonic M-theory]]:
 
-* Alessio Marrani, Michael Rios, David Chester, _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+ [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
 
 
