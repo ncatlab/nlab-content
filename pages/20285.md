@@ -1,46 +1,57 @@
 [[!redirects topology - global countability axioms]]
 
-\begin{tikzcd}[row sep=huge, column sep=huge]
-	& \text{second countable}  
-	& \sigma\text{-locally discrete base} 
+\begin{tikzcd}[column sep=normal, row sep=large]
+	& 
+	& 
 	& \scriptsize \text{metrisable}
-	\\  
-	\text{separable} 
-	& \text{Lindel\"of}  
-	& \sigma\text{-locally finite base} 
+	& 
 	& 
 	\\
-	& \text{weakly Lindel\"of} 
+	& \text{second countable}
+	& 
+	& \sigma\text{-locally finite base} 
+	& \sigma\text{-locally discrete base} 
 	& \text{first countable}
-	&
-	\\[-.9em]
-	\text{countable chain condition}
+	\\[.9em]
+	  \text{separable}
+	& 
+	& \text{Lindel\"of}
+	& \substack{\text{weakly Lindel\"of }\wedge \\ \sigma\text{-locally finite base}}
 	& 
 	& \text{Fr\'echet-Urysohn}
+	\\
 	& 
-	\\[-.9em]
-	& & \text{sequential} &
-	\\[-.9em]
-	& & \text{countably tight} &
-	\arrow[Rightarrow, from=1-2, to=2-1, 
-	"\substack{\text{countable}\\ \text{choice}}"above left] 
-	\arrow[Rightarrow, from=1-2, to=2-2,
-	"\substack{\text{countable}\\ \text{choice}}"left] 
-	\arrow[Rightarrow, from=2-1, to=2-2, "\text{if $X$ metacompact}"] 
-	\arrow[Rightarrow, from=2-2, to=3-2]
-	\arrow[Rightarrow, from=2-1, to=3-2, "\text{AC}"]
-	\arrow[Rightarrow, from=1-2, to=1-3]
-	\arrow[Rightarrow, from=2-1, to=4-1]
-	\arrow[Rightarrow, from=1-3, to=2-3]
-	\arrow[Rightarrow, from=2-3, to=3-3]
-	\arrow[Rightarrow, from=3-3, to=4-3]
-	\arrow[Rightarrow, from=4-3, to=5-3]
-	\arrow[Rightarrow, from=5-3, to=6-3]
-	\arrow[Rightarrow, from=1-4, to=1-3]
-	\arrow[Rightarrow, from=2-3, to=1-4, start anchor=east, bend right, "\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" below right]
-	\arrow[Leftrightarrow, from=3-2, to=2-3, controls={+(1.3,1.5) and +(-2.3,1.5)},
-		"\substack{\text{weakly Lindel\"of } \wedge \\ \sigma\text{-locally finite base}}" {description, name=A} ]
-	\arrow[Rightarrow, from=A, to=1-2] 
+	& 
+	& 
+	& 
+	& \text{sequential}
+	\\
+	  \text{countable chain condition}  
+	& 
+	& \text{weakly Lindel\"of}
+	& 
+	& 
+	& \text{countably tight}
+	\arrow[Rightarrow, from=3-4, to=2-2]
+	\arrow[Rightarrow, from=3-4, to=5-3]
+	\arrow[Rightarrow, from=3-4, to=2-5]
+	\arrow[Rightarrow, from=2-2, to=3-1, 
+		"\substack{\text{countable}\\ \text{choice}}" description] 
+	\arrow[Rightarrow, from=2-2, to=3-3,
+		"\substack{\text{countable}\\ \text{choice}}" description] 
+	\arrow[Rightarrow, from=3-1, to=3-3, "\text{if $X$ metacompact}"] 
+	\arrow[Rightarrow, from=3-3, to=5-3]
+	\arrow[Rightarrow, from=3-1, to=5-3, "\text{AC}" {description, near end}]
+	\arrow[Rightarrow, from=2-2, to=2-4]
+	\arrow[Rightarrow, from=3-1, to=5-1]
+	\arrow[Rightarrow, from=2-4, to=2-5]
+	\arrow[Rightarrow, from=2-5, to=2-6]
+	\arrow[Rightarrow, from=2-6, to=3-6]
+	\arrow[Rightarrow, from=3-6, to=4-6]
+	\arrow[Rightarrow, from=4-6, to=5-6]
+	\arrow[Rightarrow, from=1-4, to=2-4]
+	\arrow[Rightarrow, from=2-5, to=1-4, bend right, "\substack{\text{Nagata-Smirnov metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" right]
+	\arrow[Rightarrow, from=5-1, to=3-3, "\text{AC}" {description, near end}, "\text{if $X$ paracompact}" {near start, below right}]
 \end{tikzcd}
 
 
@@ -105,3 +116,5 @@
 * a Fréchet-Uryson space is obviously sequential.
 
 * a sequential space is obviously countably tight.
+
+* [[paracompact spaces satisfying the countable chain condition are Lindelöf]].
