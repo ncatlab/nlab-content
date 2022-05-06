@@ -50,6 +50,7 @@ The condition that all stalks $\mathcal{O}_{X,x}$ are local rings can be reformu
 * [[structured (∞,1)-topos]]
 
 ## References
+ {#References}
 
 
 * [[Aise Johan de Jong]], _[[The Stacks Project]]_, ([tag 01HA](http://stacks.math.columbia.edu/tag/01HA))
