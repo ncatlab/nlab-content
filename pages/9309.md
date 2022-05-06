@@ -32,7 +32,7 @@ A widely used proposal is due to [Tseytlin 97](#Tseytlin97), [Myers 99](#Myers99
 ## Definition
  {#Definition}
 
-In the simplest situation of flat 4-dimensonal [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and no other [[field (physics)|fields]] besides that of [[electromagnetism]], encoded in a [[Faraday tensor]] [[differential 2-form]]
+In the simplest situation of flat 4-dimensional [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and no other [[field (physics)|fields]] besides that of [[electromagnetism]], encoded in a [[Faraday tensor]] [[differential 2-form]]
 
 $$
   F \;=\; F_{a b} d x^a \wedge d x^b
@@ -189,10 +189,10 @@ $$
   &
   \phantom{\; =} +
   \underset{
-    = \tfrac{2\cdot 2}{4!} F_{a b} F^{a b}
+    = \tfrac{2\cdot 6}{4!} F_{a b} F^{a b}
   }{
   \underbrace{
-  \tfrac{2}{4!}
+  \tfrac{6}{4!}
   \epsilon^{a_1 a_2 a_3 a_4}
   \eta_{a_1 b_1}
   \eta_{a_2 b_2}
@@ -237,7 +237,7 @@ $$
   & \; = \phantom{+}
   -1 
     + 
-  \tfrac{1}{6} (F \wedge \star F) / \mathrm{dvol}
+  \tfrac{1}{2} (F \wedge \star F) / \mathrm{dvol}
     +
   \big( 
     4! (F\wedge F) / \mathrm{dvol}
