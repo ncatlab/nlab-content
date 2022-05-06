@@ -15,6 +15,8 @@ On [[persistent homology]]:
 
 * [[Gunnar Carlsson]], V. de Silva, _Zigzag persistence_, [arXiv:0812.0197](http://arxiv.org/abs/0812.0197)
 
+* [[Gunnar Carlsson]], _Persistent Homology and Applied Homotopy Theory_, in: [[Handbook of Homotopy Theory]], CRC Press, 2019 ([arXiv:2004.00738](https://arxiv.org/abs/2004.00738))
+
 
 
 ## Related $n$Lab entries 
