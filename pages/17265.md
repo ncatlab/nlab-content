@@ -3508,7 +3508,7 @@ $$
 
 The original article is
 
-* {#Quillen67} [[Dan Quillen]], chapter II, section 3 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+* {#Quillen67} [[Dan Quillen]], chapter II, section 3 of _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
 An expository, concise and comprehensive writeup of the proof of the model category axioms is in 
 
