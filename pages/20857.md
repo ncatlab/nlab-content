@@ -53,6 +53,13 @@ See also
 
 * Yoshinao Sato, _Dissolving D0-brane into D2-brane with background B-field_, JHEP 0512 (2005) 032 ([arXiv:hep-th/0505045](https://arxiv.org/abs/hep-th/0505045))
 
+### In the BMN matrix model
+
+
+On solutions of the [[BMN matrix model]] in relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
+
+* Hai Lin, _The Supergravity Dual of the BMN Matrix Model_, JHEP 0412:001, 2004 ([arXiv:hep-th/0407250](https://arxiv.org/abs/hep-th/0407250))
+
 [[!redirects D0-D2 brane bound states]]
 
 [[!redirects D0-D2-brane bound state]]
