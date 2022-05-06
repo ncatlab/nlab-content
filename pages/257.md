@@ -117,7 +117,7 @@ in their book [[Homotopy Limit Functors on Model Categories and Homotopical Cate
 resulting in the notion of a [[Thomason model category]].
 [[Mark Hovey]] later included the data of such a functorial factorization
 (and not just its existence) into his definition of a model category.
-In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
+In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.  (But not all: an example of a model category with non-functorial factorizations can be found in [Isaksen 2001](https://arxiv.org/abs/math/0106152).)
 
 ### Enhancements of the axioms
 
