@@ -724,7 +724,7 @@ This is to some extent discussed for instance in ([Hochs 08, lemma 3.32](#Hochs0
 +-- {: .proof}
 ###### Proof
 
-Let $\sqrt{\Omega^n,0}$ be a choice of [[square root]] ([[Theta characteristic]]) of the [[canonical line bundle]], which according to \ref{SpinStructuresOnKaehlerManifolds} is a choice of [[spin structure]] in the [[Kähler manifold]]. Then by that same proposition the corresponding [[spinor bundle]] is [[isomorphism|isomorphic]] to 
+Let $\sqrt{\Omega^{n,0}}$ be a choice of [[square root]] ([[Theta characteristic]]) of the [[canonical line bundle]], which according to \ref{SpinStructuresOnKaehlerManifolds} is a choice of [[spin structure]] in the [[Kähler manifold]]. Then by that same proposition the corresponding [[spinor bundle]] is [[isomorphism|isomorphic]] to 
 
 $$
   S \simeq \Omega^{0,\bullet} \otimes \sqrt{\Omega^{n,0}}
