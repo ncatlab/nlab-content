@@ -21,6 +21,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 The [[geometric engineering of QFT|geometric engineering]] of [[quantum chromodynamics]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]] is traditionally referred to as the _AdS/QCD correspondence_ or as _holographic QCD_, or similar, referring to the use of the _[[AdS/CFT correspondence]]_. (Notice "CFT" as opposed to "QCD").
 
@@ -41,13 +42,44 @@ Another example of such observables is the [[shear viscosity]] of the [[quark-gl
 
 This approach is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
 
+From [Yi 09](#Yi09):
+
+> [[QCD]] is a challenging theory. Its most interesting aspects, namely the [[confinement]] of [[color charge|color]] and the [[chiral symmetry breaking]], have defied all analytical approaches. While there are now many data accumulated from the [[lattice gauge theory]], the methodology falls well short of giving us insights on how one may understand these phenomena analytically, nor does it give us a systematic way of obtaining a low energy theory of [[QCD]] below the [[confinement]] [[scale]]. 
+
+> $[...]$
+
+> it has been proposed early on that [[baryons]] are topological [[solitons]], namely [[Skyrmions]]  $[$but$]$ the usual [[Skyrmion]] picture of the [[baryon]] has to be modified significantly in the context of full [[QCD]]. $[...]$ the holographic picture naturally brings a gauge principle in the bulk description of the [[flavor physics|flavor]] dynamics in such a way that all spin one [[mesons]] as well as [[pions]] would enter the $[$ [[Skyrmion|skyrmionic]]-$]$construction of [[baryons]] on the equal footing.
+
+> $[...]$
+
+> [[holographic QCD]] is similar to the [[chiral perturbation theory]] in the sense that we deal with exclusively [[gauge invariance|gauge-invariant]] [[observables|operators]] of the theory. The huge difference is, however, that this new approach tends to treat all [[gauge invariance|gauge-invariant]] objects together. Not only the light [[meson]] [[field (physics)|fields]] like [[pions]] but also heavy [[vector mesons]] and [[baryons]] appear together, at least in principle. In other words, a [[holographic QCD]] deals with all [[color charge|color]]-[[trivial representation|singlets]] simultaneously, giving us a lot more predictive power.
+
+> $[...]$
+
+
+> The expectation that there exists a more intelligent theory consisting only of [[gauge invariance|gauge-invariant]] objects in the [[large N limit|large Nc limit]] is thus realized via [[string theory]] in a somewhat surprising manner that the master fields, those truly physical degrees of freedom, actually live not in four dimensional Minkowskian world but in five or
+higher dimensional curved geometry. This is not however completely unanticipated, and was heralded in the celebrated work by [Eguchi and Kawai in early 1980's](#EguchiKawai82) which is all the more remarkable in retrospect. 
+
+> $[...]$
+
+> To compare against actual [[QCD]], we must fix $[$the [['t Hooft coupling]] and the [[Kaluza-Klein compactification|KK]]-[[scale]]$]$ to fit
+both the [[pion]] decay constant $f_\pi$ and the [[mass]] of the first [[vector meson]]. After this fitting, all other infinite number of [[masses]] and [[coupling constants]] are fixed. This version $[$the holographic [[WSS model]]$]$ of the [[holographic QCD]]  is extremely predictive.
+
+> $[...]$
+
+> $[$this$]$ elevates the classic [[skyrmion|Skyrme picture]] based on [[pions]] to a unified model involving all [[vector meson|spin one mesons]] in addition to [[pions]]. This is why the picture is extremely predictive. 
+
+> As we saw in this note, for low momentum processes, such as soft [[pion]] [[scattering amplitude|processes]], soft [[rho meson]] exchanges, and soft elastic scattering of [[photons]], the $[$holographic [[WSS model|WSS]]-$]$model's predictions compare extremely well with experimental data. It is somewhat mysterious that the [[baryon]] sector works out almost as well as the [[meson]] sector
+
+
 {#FromSNM16} From [Suganuma-Nakagawa-Matsumoto 16, p. 1](#SuganumaNakagawaMatsumoto16):
 
 > Since 1973, [[quantum chromodynamics]] (QCD) has been established as the fundamental theory of the [[strong nuclear force|strong interaction]]. Nevertheless, it is very difficult to solve QCD directly in an analytical manner, and many effective models of QCD have been used instead of QCD, but most models cannot be derived from QCD and its connection to QCD is unclear. 
 
 > To analyze nonperturbative QCD, the [[lattice QCD]] Monte Carlo simulation has been also used as a first-principle calculation of the strong interaction. However, it has several weak points. For example, the [[quantum state|state]] information (e.g. the [[wave function]]) is severely limited, because [[lattice QCD]] is based on the [[path-integral]] formalism. Also, it is difficult to take the [[chiral fermion|chiral]] limit, because zero-mass [[pions]] require [[large volume limit|infinite volume lattices]]. There appears a notorious "[sign problem](lattice+gauge+theory#SignProblem)" at finite density.
 
-> On the other hand, [[holographic QCD]] has a direct connection to [[QCD]], and can be derived from QCD in some limit. In fact, [[holographic QCD]] is equivalent to infrared QCD in [[large N limit|large Nc]] and strong [['t Hooft coupling]] $\lambda$, via gauge/gravity correspondence. Remarkably, holographic QCD is successful to reproduce many hadron phenomenology such as vector meson dominance, the KSRF relation, hidden local symmetry, the GSW model and the Skyrme soliton picture. Unlike lattice QCD simulations, holographic QCD is usually formulated in the chiral limit, and does not have the [sign problem](lattice+gauge+theory#SignProblem) at finite density.
+> On the other hand, [[holographic QCD]] has a direct connection to [[QCD]], and can be derived from QCD in some limit. In fact, [[holographic QCD]] is equivalent to infrared QCD in [[large N limit|large Nc]] and strong [['t Hooft coupling]] $\lambda$, via [[gauge/gravity correspondence]]. Remarkably, [[holographic QCD]] is successful to reproduce many [[hadron]] [[phenomenology]] such as vector meson dominance, the KSRF relation, hidden local symmetry, the GSW model and the [[skyrmion|Skyrme soliton picture]]. Unlike [[lattice QCD]] simulations, holographic QCD is usually formulated in the chiral limit, and does not have the [sign problem](lattice+gauge+theory#SignProblem) at finite density.
+
 
 
 
@@ -174,7 +206,7 @@ The [[baryons]] ([[bound states]] of $N_c$ [[quarks]]) appear in two different b
 
    ([Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), see [Bartolini 17](#Bartolini17)). 
 
-For review see [Sugimoto 16](#Sugimoto16), also [Rebhan 14, around (18)](#Rebhan14).
+For review see [Sugimoto 16](#Sugimoto16), [Yi 09](#Yi09), [Yi 11](#Yi11), [Yi 13](#Yi13),  also [Rebhan 14, around (18)](#Rebhan14).
 
 <center>
 <img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
@@ -358,6 +390,9 @@ See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
 
+Precursor developments:
+
+* {#EguchiKawai82} [[Tohru Eguchi]], [[Hikaru Kawai]], _Reduction of Dynamical Degrees of Freedom in the Large-$N$ Gauge Theory_, Phys. Rev. Lett. 48, 1063 (1982) ([spire:176459](http://inspirehep.net/record/176459), [doi:10.1103/PhysRevLett.48.1063](https://doi.org/10.1103/PhysRevLett.48.1063))
 
 The top-down Sakai-Sugimoto model is due to 
 
@@ -511,7 +546,7 @@ Review:
 
 * Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
 
-* Deog Ki Hong, Mannque Rho, Ho-Ung Yee, Piljin Yi, _Chiral Dynamics of Baryons from String Theory_, Phys.Rev.D76:061901, 2007 ([arXiv:hep-th/0701276](https://arxiv.org/abs/hep-th/0701276))
+* Deog Ki Hong, Mannque Rho, Ho-Ung Yee, [[Piljin Yi]], _Chiral Dynamics of Baryons from String Theory_, Phys. Rev. D76:061901, 2007 ([arXiv:hep-th/0701276](https://arxiv.org/abs/hep-th/0701276))
 
 * Deog Ki Hong, _Baryons in holographic QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
 
@@ -598,7 +633,11 @@ original articles:
 
 Review:
 
-* P. Yi, _Two Approaches to Holographic Baryons/Nuclei_, Few-Body Syst (2013) 54: 77. ([doi:10.1007/s00601-012-0373-7](https://doi.org/10.1007/s00601-012-0373-7))
+* {#Yi09} [[Piljin Yi]], _Holographic Baryons_ ([arXiv:0902.4515](https://arxiv.org/abs/0902.4515), [doi:10.1142/9789814280709_0016](https://www.worldscientific.com/doi/abs/10.1142/9789814280709_0016)), Chapter 16 in: [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+* {#Yi11} [[Piljin Yi]], _Precision Holographic Baryons_, AIP Conference Proceedings 1388, 106 (2011) ([arXiv:1103.1684](https://arxiv.org/abs/1103.1684), [doi:10.1063/1.3647358](https://aip.scitation.org/doi/abs/10.1063/1.3647358))
+
+* {#Yi13} [[Piljin Yi]], _Two Approaches to Holographic Baryons/Nuclei_, Few-Body Syst (2013) 54: 77. ([doi:10.1007/s00601-012-0373-7](https://doi.org/10.1007/s00601-012-0373-7))
 
 
 #### Baryons as Skyrmions
