@@ -7,8 +7,10 @@
 
 On [[equivariant elliptic cohomology]] in [[(infinity,1)-topos]] theory.
 
-*  _[[Homotopy topoi and equivariant elliptic cohomology]]_
-PhD thesis, University of Illinois at Urbana-Champaign, 2005. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.113.2632))
+*  [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_
+PhD thesis, University of Illinois at Urbana-Champaign, 2005. ([[GepnerElliptic05.pdf:file]])
+
+* [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
 
 On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomology]]:
 
