@@ -83,7 +83,7 @@ $$
   (\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*, d)
 $$
 
-is the [[Chevalley?Eilenberg algebra]] of the Lie algebroid (in that for $X = pt$ it reduces to the ordinary Chevally--Eilenberg algebra for Lie algebras). 
+is the [[Chevalley-Eilenberg algebra]] of the Lie algebroid (in that for $X = pt$ it reduces to the ordinary Chevally--Eilenberg algebra for Lie algebras). 
 
 In the existing literature this is often addressed just as "the complex that computes Lie algebroid cohomology".
 
