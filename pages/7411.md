@@ -33,7 +33,7 @@ A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category
 +-- {: .num_remark}
 ###### Remark
 
-The notion of monoidal monad is equivalent to a suitable general notion of _[[commutative monad]]_ (see def. \ref{CommutativeMonad} below), as discussed at [[commutative algebraic theory]]. We explore this connection below. 
+The notion of monoidal monad is equivalent to the notion of _[[commutative monad]]_. To put it another way: to give a commutative strength for a monad $T$ is to give a monoidal monad whose underlying monad is $T$. We explore this connection below. 
 
 =--
 
