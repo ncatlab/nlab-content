@@ -1,5 +1,5 @@
 
-### CS Wilson lines in $AdS_3/CFT_2$
+### Wilson lines computing holographic entropy in $AdS_3/CFT_2$
  {#CSWilsonLinesInAdS3}
 
 Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
