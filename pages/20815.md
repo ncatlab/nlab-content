@@ -9,9 +9,11 @@
 
     * [[D0-D2 brane bound state]]
 
-    * [[D1-D3-brane bound state]]
+    * [[D1-D3 brane bound state]]
 
-    * [[D2-D4-brane bound state]]
+    * [[D2-D4 brane bound state]]
+
+    * [[D3-D5 brane bound state]]
 
     * [[D6-D8-brane bound state]]
 
