@@ -324,6 +324,11 @@ See at _[[Sullivan model of a spherical fibration]]_.
 
 * [[Sullivan model of free loop space]]
 
+
+### Suspensions
+
+* [[Sullivan model of a suspension]]
+
 ## Related concepts
 
 * [[minimal dg-module]]
