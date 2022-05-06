@@ -19,6 +19,23 @@ The **Arf-Kervaire invariant problem** asks whether certain hypothetical element
 
 Prior to ([Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09)), all that was known rested on the explicit construction of such elements for $j=1,...,5$ (so in dimensions 2,6,14,30 and 62). HHR established that these elements do not exist for $j \gt 6$, so the only dimension in which existence remains unknown in 126 (ie $j=6$). The proof is by construction of a 256-periodic [[spectrum]] $\Omega$ and a [[spectral sequence]] for it that can detect the elements $\theta_j$ as elements of $\pi_*(\Omega)$. HHR then show that $\pi_n(\Omega)=0$ for $-4\lt n\lt 0$, which by the periodicity, implies that the images of $\theta_j$ must be elements of the trivial group, and hence are themselves trivial.
 
+## Key properties of the $C_8$ fixed point spectrum $\Xi$
+
+We write $\Xi$ to mean the spectrum "$\Omega$" discussed in [Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09).
+
+### Detection theorem
+It has an [[Adams-Nikov spectral sequence]] in which the image of each $\theta_j$ is non-trivial. This means if $\theta_j\in \pi_*(\mathbb{S})$ exists then it can be seen in $\pi_*(\Xi)$.
+
+### Periodicity Theorem
+The spectrum is 256-periodic, as in $\Omega^{256}\Xi \simeq \Xi$.
+
+### Gap Theorem
+We have $\pi_k(\Xi) = 0$ for $-4 \lt k \lt 0$. Its proof uses the [[slice spectral sequence]].
+
+### Result
+
+Suppose $\theta_7 \in \pi_{254}(\mathbb{S})$ exists the the detection theorem implies that it has a non-trivial image in $\pi_{254}(\Xi)$. But by the periodicity and gap theorems we see that $\pi_{254}(\Xi)$ is trivial. The argument for $j \ge 7$ is similar since $|\theta_j| = 2^{j+1} \equiv -2 \mod 256$.
+
 ## Related concepts
 
 * [[Kervaire invariant]]
