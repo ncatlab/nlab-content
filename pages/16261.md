@@ -28,7 +28,16 @@ There are vrious conditions of various strengths considered in the literature. O
 
 ## References
 
+See also:
+
 * Wikipedia, _[Energy condition](http://en.wikipedia.org/wiki/Energy_condition)_
+
+Discussion of the [[averaged null energy condition]]  for [[conformal field theory]] on [[de Sitter spacetime]] and [[anti de Sitter spacetime]]:
+
+
+* Felipe Rosso, _Global aspects of conformal symmetry and the ANEC in dS and AdS_ ([arXiv:1912.08897](https://arxiv.org/abs/1912.08897))
+
+
 
 [[!redirects energy conditions]]
 [[!redirects dominant energy condition]]
