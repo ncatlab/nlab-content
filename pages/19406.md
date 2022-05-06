@@ -29,6 +29,8 @@ The [[Euclidean spaces]] $\mathbb{R}^n$ and the ([[round sphere|round]] or [[squ
 
   * [[spherical space form]]
 
+* [[positive quaternion-Kähler manifold]]
+
 ## References
 
 See also
@@ -38,6 +40,7 @@ See also
 [[!redirects geodesically complete Riemannian manifold]]
 [[!redirects geodesically complete Riemannian manifolds]]
 
+[[!redirects geodesically complete]]
 
 [[!redirects complete Riemannian manifold]]
 [[!redirects complete Riemannian manifolds]]
