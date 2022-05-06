@@ -15,11 +15,17 @@ A [[function]] $f\colon X \to Y$ is __short__ if $d(f(a),f(b)) \leq e(a,b)$ for 
 
 ## The category of metric spaces
 
-We define $Met$, the category of metric spaces, to be the [[category]] whose [[objects]] are metric spaces and whose [[morphisms]] are short maps.
+We define $Met$ to be the [[category]] whose [[objects]] are [[Lawvere metric spaces]] and whose [[morphisms]] are short maps.
 
 $Met$ is [[complete category|complete]] and admits a [[faithful functor]] from [[Ban]] (the category of [[Banach spaces]] and short [[linear operators]]).
 
-$Met$ may be made into an $\mathcal{M}$-[[M-category|category]] by taking short maps as the tight morphisms and some more generous notion of maps (such as [[continuous maps]]) as the loose morphisms.
+$Met$ may be made into an $\mathcal{M}$-[[M-category|category]] by taking short maps as the tight morphisms and some more generous notion of maps (such as [[continuous maps]]) as the loose morphisms. 
+
+If instead we use ordinary metric spaces, which includes the axioms of finiteness $d(x, y) \lt \infty$, symmetry $d(x, y) = d(y, x)$, and separability ($d(x, y) = 0$ implies $x = y$), then the category $Met_{ord}$ (with short maps as morphisms) is not so [[dichotomy between nice objects and nice categories|nice]] as $Met$. For example, $Met_{ord}$ fails to have arbitrary products $\prod_{i \in I} X_i$, on account of the finiteness axiom where the putative distance 
+
+$$d((x_i), (y_i)) = \sup_i d(x_i, y_i)$$ 
+
+may not exist as a finite number. However, if all the ordinary metric spaces $X_i$ are uniformly bounded in diameter, then this formula does give the product. Note well though that the topology induced by this product will not be the same as the product topology (cf. the discussion below). 
 
 
 ## Justification
