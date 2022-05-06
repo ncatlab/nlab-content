@@ -70,13 +70,16 @@ On mathematical foundations of [[quantum field theory]] and [[perturbation theor
 
   (on a [[non-commutative geometry]]-deformation of the [[self-dual higher gauge theory]] as it appears on the [[M5-brane]] [[worldvolume]], and its [[S-duality]])
 
+On [[ninebrane structures]]:
+
 * {#Sati14} H. S. , _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
 
-  (on [[ninebrane structures]])
 
-* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
 
-  (on [[spherical T-duality]])
+On [[spherical T-duality]] in [[iterated algebraic K-theory]]:
+
+* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_, Annals of K-Theory, Vol. 5 (2020), No. 1, 1–42 ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285), [doi:doi:10.2140/akt.2020.5.1](https://msp.org/akt/2020/5-1/p01.xhtml))
+
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/) ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
