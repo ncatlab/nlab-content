@@ -118,7 +118,7 @@ See at _[Grothendieck-Teichm&#252;ller group -- relation to the graph complex](G
 ### Relation to configuration spaces
  {#RelationToConfigurationSpaces}
 
-The system of graph complexes is [[quasi-isomorphism|quasi-isomorphic]] to the [[ordinary cohomology|real cohomology]] of [[configuration spaces of points]] ([Campos-Willwacher 16, theorem 1](#CamposWillwacher16)).
+The system of graph complexes is [[quasi-isomorphism|quasi-isomorphic]] to the [[real cohomology]] of [[configuration spaces of points]] ([Campos-Willwacher 16, theorem 1](#CamposWillwacher16)).
 
 ## Examples 
 
