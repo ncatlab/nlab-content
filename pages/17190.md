@@ -21,7 +21,7 @@ Reported detections include: [LIGO 16](#LIGO16), [LIGO-Virgo 17](#LIGOVirgo17).
 
 ## Related entries
 
-* [[LHC]], [[Super-Kamiokande]], [[EDGES]]
+* [[LHC]], [[Super-Kamiokande]], [[EDGES]], [[RHIC]]
 
 ## References
 
