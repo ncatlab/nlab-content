@@ -54,7 +54,7 @@ and the understanding of this configuration as resulting from two intersecting M
 
 For more on this see
 
-* [[Joaquim Gomis]], David Mateos, [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_,  	Phys.Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
+* [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
 
 
 The relation to [[D=4 N=2 super Yang-Mills theory]] is discussed in
