@@ -26,7 +26,7 @@ $$
 
 ## As a functor
 
-The construction of pushforward measures is how one can make the [[Giry monad]], or other [[monads of measures]], functorial. Given a measurable (or continuous, etc.) map $f:X\to Y$, the pushforward gives a well-defined, measurable map $P X\to P Y$ (where $P$ denotes the [[Giry monad]]), making $P$ into a [[functor]].
+The construction of pushforward measures is how one can make the [[Giry monad]], or other [[measure monads]], functorial. Given a measurable (or continuous, etc.) map $f:X\to Y$, the pushforward gives a well-defined, measurable map $P X\to P Y$ (where $P$ denotes the [[Giry monad]]), making $P$ into a [[functor]].
 
 ## Properties
 
