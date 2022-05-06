@@ -49,9 +49,25 @@ But that just means there needs to be additional machinery for formal proofs and
 
 CLF is planned to combine a semantics similar to that of Nuprl with a language of proof terms similar to that of [Cedille](https://cedille.github.io/). (Cedille is actually the latest in a series of dependent type systems (co)designed by Aaron Stump in which the meaning of equality pertains to realizers, not proof terms.)
 
-The terms that the CLF type system is about are called "[[realizers]]". (Since its Nuprl-inspired PER semantics is a term realizability model.) The proof terms would be an *additional* class of terms. In the case of "obviously-well-typed" programs, the tree structures of the realizers and proof terms should be nearly isomorphic, so the system will resemble a typical syntactic type checker. In general, proof terms have additional information not present in realizers. This is the information that is needed for proof/type checking, but is not part of the computational content of the witness/element.
+#### Type checking Proof terms
+
+The terms that the CLF type system is about are called "[[realizers]]". (Since its Nuprl-inspired PER semantics is a term realizability model.) The proof terms would be an *additional* class of terms. Proof checking in CLF means type checking the proof terms. In the case of "obviously-well-typed" programs, the tree structures of the realizers and proof terms should be nearly isomorphic, so the system will resemble a typical syntactic type checker. In general, proof terms have additional information not present in realizers. This is the information that is needed for proof/type checking, but is not part of the computational content of the witness/element.
 
 CLF types only depend on realizers, never proof terms. So to handle proof checking rules analogous to certain rules of dependent type systems, a realizer needs to be extracted from a proof on the fly. (Nuprl works around such rules, since it doesn't extract realizers on the fly.) This solution is used in RedPRL, and is discussed in [Algebraic Foundations of Proof Refinement](#SterlingHarperRefinement), under the terminology "dependent proof refinement". An analogue of on-the-fly realizer extraction is used by Cedille too, and is called "erasure". This kind of proof checking algorithm seems to be an example of an elaboration algorithm: the input expressions (in this case, proof terms) are different from the internal terms (in this case, realizers).
+
+The only information from derivations that's missing from proof terms is derivations of definitional equality, which is beta conversion. This is enough to make proof checking undecidable, since beta convertibility of untyped realizers is undecidable. CLF will boldly automate beta conversion by comparing normal forms nonetheless. So CLF proof checking will not be total, but it will still be sound and complete with respect to formal derivability.
+
+#### Proof terms as the Basis of Tactics
+
+LCF-style proof engines check proofs by executing some kind "proof script", which runs "tactics" to reduce proof goals. Tactics fail when they attempt to use an invalid rule instance. The proof is complete when all goals are reduced to nothing.
+
+A proof term can be thought of as a restricted form of proof script. The primitive proof term formers correspond to primitive derivation rules. Open proof term schemas correspond to derived rules. Operations on closed proof terms correspond to admissible rules. Tactics are arguably somewhere between derived rules and admissible rules: they tend to intensionally analyze the goal, but not entire proofs. Intuitively, tactic engines are a kind of macro expansion system to automate the production of proof terms.
+
+When proofs are "generated" by tactics, proof terms should not actually need to be generated in memory; only realizers. This makes CLF's proof checking like that of Nuprl and [[Isabelle]], and unlike that of Coq. In Coq, the proof terms need to be generated in order to perform termination checking on them. Nuprl-style systems don't benefit from termination checking because it's possible to *prove* that an untyped realizer implements an element of the intended type, which entails any necessary totality properties. (And Isabelle/HOL doesn't benefit from termination checking because it uses a [[global choice operator]].)
+
+It's good for performance that the (relatively complex) proof terms never need to be dealt with, aside from a single compositional pass to check them. Instead, most of the detail work of proof checking deals with realizers.
+
+While proof terms seem too complex to be the terms you want to deal with, it may turn out that CLF realizers are too simple. The concern is that the realizers may not have enough annotations for useful forms of proof automation. But if this does turn out to be a problem in practice, it still seems better to add annotations to the realizers as necessary, rather than to give up and collapse the distinction between proof terms and realizers.
 
 ### Intended Style
 
