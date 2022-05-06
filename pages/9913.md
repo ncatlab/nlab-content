@@ -17,7 +17,15 @@ On IIA [[NS5-branes]] and their [[T-duality|T-dual]] [[orientifolds]] with [[RR-
 * [[Angel Uranga]], _A New Orientifold of $\mathbb{C}^2/\mathbb{Z}_N$ and Six-dimensional RG Fixed Points_, Nucl. Phys. B577:73-87, 2000 ([arXiv:hep-th/9910155](https://arxiv.org/abs/hep-th/9910155))
 
 
-* {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+* {#FengHeKarchUranga01} [[Bo Feng]], [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+
+On [[toric duality]]:
+
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], [[Angel Uranga]], _Toric duality as Seiberg duality and brane diamonds, J. High Energy Phys. 12 (2001) 035 ([hep-th/0109063](https://arxiv.org/abs/hep-th/0109063))
+
+
+
 
 
 
