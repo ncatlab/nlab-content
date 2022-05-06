@@ -76,7 +76,13 @@ For [[baryons]] one has:
 * D.R. Entem, P.G. Ortega, J. Segovia, F. Fernández, _Heavy mesons in the Quark Model_, EPJ Web of Conferences 199, 01012 (2019) ([arXiv:1809.06985](https://arxiv.org/abs/1809.06985), [doi:10.1051/epjconf/201919901012](https://doi.org/10.1051/epjconf/201919901012))
 
 
+
+
 [[!include Skyrme hadrodynamics with heavy mesons -- references]]
+
+
+
+[[!include heavy flavor hadrodynamics via holographic QCD -- references]]
 
 
 
