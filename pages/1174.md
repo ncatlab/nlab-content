@@ -101,6 +101,9 @@ The definition above is for the Godement product of $2$ natural transformations,
 
 The Godement product is strictly associative (so that [[Cat]] is a [[strict 2-category]]).
 
+## References
+
+Name after [[Roger Godement]].
 
 [[!redirects Godement product]]
 [[!redirects Godement products]]
