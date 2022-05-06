@@ -217,6 +217,8 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 * [[ordinal analysis]]
 
+* [[2-theory]], [[3-theory]]
+
 ## References
 
 * H. Jerome Keisler, _Fundamentals of model theory_, A2 in JOhn Barwise, Handbook of mathematical logic (pp.47-103), North Holland 1977
