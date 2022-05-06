@@ -366,10 +366,20 @@ Extensionality and intensionality isses are studied in
 
 * [[Richard Garner]], [[Benno van den Berg]], _Topological and simplicial models of identity types_, [arXiv](http://arxiv.org/abs/1007.4638).
 
-### Types as weak $\omega$-groupoids
+### Types as $\infty$-groupoids
 
-* [[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
- {#vdBergGarner}
+The observation that identity types witness [[groupoid]] and [[infinity-groupoid]]-structure:
+
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: Giovanni Sambin et al. (ed.) , _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz))
+
+* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
+
+For more see the references at _[[homotopy type theory]]_.
+
+See also
+ 
+* {#vdBergGarner}[[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
+ 
 
 * [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
 
