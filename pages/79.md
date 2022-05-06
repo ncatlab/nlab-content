@@ -71,6 +71,7 @@
 
   * [[graph]], [[directed graph]], [[quiver]], [[order]], [[poset]], [[filter]], ... 
 
+[[!include proof assistants and formalization projects -- list]]
 
 [[!redirects mathematics]]
 [[!redirects Mathematics]]
