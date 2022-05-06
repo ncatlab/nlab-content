@@ -25,11 +25,14 @@ Mostly however "superspace" is used for [[superspacetimes]], and here mostly for
 
 ## Related concepts
 
-* [[adinkra]]
+* [[super-manifold]], [[super-orbifold]]
 
-* [[super Lie group]]
+* [[super Lie group]], [[super Lie algebra]], [[super L-infinity algebra]]
 
 * [[supersymmetry]]
+
+* [[adinkra]]
+
 
 ## References
 
