@@ -39,7 +39,9 @@ Examples of vector mesons:
 
 ## References
 
-* F. Nichitiu, _An Introduction to the vector meson_, Swansea Hadron Spect.1995:0219-240 ([spire:405666](https://inspirehep.net/literature/405666))
+* F. Nichitiu, _An Introduction to the vector meson_, Swansea Hadron Spect. 1995:0219-240 ([spire:405666](https://inspirehep.net/literature/405666))
+
+* Eef van Beveren, George Rupp, _Scalar and axial-vector mesons_, Eur. Phys. J. A31:468-473, 2007 ([arXiv:hep-ph/0610199](https://arxiv.org/abs/hep-ph/0610199))
 
 [[!redirects vector mesons]]
 
