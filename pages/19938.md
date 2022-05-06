@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Dialgebras_ subsume the notion of [[algebras for an endofunctor]] and [[coalgebras for an endofunctor]].
+_Dialgebras_ subsume the notion of [[algebras for an endofunctor]] and [[coalgebras for an endofunctor]]. They were originally introduced by Lambek as "subequalizers".
 
 
 ## Definition
@@ -80,6 +80,8 @@ Dialgebras can be used to provide semantics to interactive programs; [[coalgebra
 
 ## References
 
+* {#subeq} Joachim Lambek, _Subequalizers_, 1970
+
 * {#lam} Tatsuya Hagino, _A Typed Lambda Calculus with Categorical Type Constructors_, 2005, [link](https://link.springer.com/chapter/10.1007/3-540-18508-9_24)
 
 * {#cat} Thorsten Altenkirch, Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
@@ -90,3 +92,7 @@ Dialgebras can be used to provide semantics to interactive programs; [[coalgebra
 A study of dialgebras for program semantics_ Master Thesis, Institute for Logic, Language and Computation, University of Amsterdam. [link](https://eprints.illc.uva.nl/872/1/MoL-2012-06.text.pdf)
 
 [[!redirects dialgebras]]
+[[!redirects subequalizer]]
+[[!redirects subequalizers]]
+[[!redirects subequaliser]]
+[[!redirects subequalisers]]
