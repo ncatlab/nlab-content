@@ -4,8 +4,7 @@
 
 ##Idea
 
-**Compositionality** describes how complex things can be assembled out of simpler parts.
-It is sometimes called **Frege's principle** after [[Gottlob Frege]], although it was arguably assumed by [[George Boole]] decades before Frege's work. 
+**Compositionality** describes how complex things can be assembled out of simpler parts. The concept arose in the treatment of the [[semantics]] of formal and informal languages, where the **principle of compositionality** claims that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them. This is sometimes called **Frege's principle** after [[Gottlob Frege]], although it was arguably assumed by [[George Boole]] decades before Frege's work. 
 
 ### In computation ###
 From [Compositionality 16](#Comp16): 
@@ -21,7 +20,7 @@ From [Compositionality 16](#Comp16):
 
 * {#Comp16} _Compositionality_, [workshop](https://simons.berkeley.edu/workshops/logic2016-3) hosted at UC Berkeley in 2016. 
 
-* _Compositionality_  is also the name of a [journal](http://www.compositionality-journal.org/) whose aim is to publish papers in this area.
+* _Compositionality_  is also the name of a [journal](http://www.compositionality-journal.org/) whose aim is to publish papers about compositional phenomena, construed broadly.
 
 ## References
 
