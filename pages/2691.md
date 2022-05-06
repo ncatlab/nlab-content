@@ -32,7 +32,7 @@ Below we spell out special cases, such as restricting to [[commutative monoids]]
 
 
 
-## Projective model structure on Non-negatively graded cochain dgc-algebras
+## On connective dgc-algebras
 
 We discuss the projective model structure on 
 [[differential graded-commutative algebras|differential non-negatively graded-commutative algebras]]. This was originally introduced in [Bousfield-Gugenheim 76](#BousfieldGugenheim76) as a [[model category]] for [[Dennis Sullivan]]'s approach to [[rational homotopy theory]].
@@ -66,11 +66,15 @@ Say that a [[dgc-algebra]] $A \in dgcAlg^{\geq 0}_k$ (def. \ref{dgcCochainAlgebr
 
 Write $(dgcAlg^{\geq 0}_k)_{proj}$ for the catgory of [[dgc-algebras]] from def. \ref{dgcCochainAlgebrasInNonNegativeDegrees} equipped with the following [[classes]] of morphisms:
 
-* _weak equivalences_ are those [[homomorphisms]] of dg-algebras whose underlying [[chain map]] is  [[quasi-isomorphism]];
+* _[[weak equivalences]]_ are the [[quasi-isomorphism]];
 
-* _fibrations_ are those [[homomorphisms]] which are degreewise [[surjections]];
+* _[[fibrations]]_ are the degreewise [[surjections]];
 
 =--
+
+
+([Bousfield-Gugenheim 76, Def. 4.2](#BousfieldGugenheim76), [Gelfand-Manin 96, Def. V.3.3](#GelfandManin96))
+
 
 +-- {: .num_prop #IndeedProjectiveModelStructureOnCdgAlg}
 ###### Proposition
@@ -80,14 +84,14 @@ The category $(dgcAlg^{\geq 0}_k)_{proj}$ from def. \ref{ProjectiveModelStructur
 
 =--
 
-([Bousfield-Gugenheim 76, theorem 4.3](#BousfieldGugenheim76))
+([Bousfield-Gugenheim 76, Theorem 4.3](#BousfieldGugenheim76), [Gelfand-Manin 96, Theorem V.3.4](#GelfandManin96))
 
 
 +-- {: .num_remark }
 ###### Remark
-**(category of fibrant objects)**
+**([[category of fibrant objects]])**
 
-Evidently every object in $(dgcAlg^{\geq 0}_k)_{proj}$ (def. \ref{ProjectiveModelStructureOnCdgAlg}, prop. \ref{IndeedProjectiveModelStructureOnCdgAlg}) is fibrant. Therefore these model categories structures are in particular also structures of a [[category of fibrant objects]].
+Evidently every [[object]] in $(dgcAlg^{\geq 0}_k)_{proj}$ (Def. \ref{ProjectiveModelStructureOnCdgAlg}, prop. \ref{IndeedProjectiveModelStructureOnCdgAlg}) is a [[fibrant object]]. Therefore these model categories structures are in particular also structures of a [[category of fibrant objects]].
 
 =--
 
@@ -239,12 +243,13 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
-The cofibration in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the [[retract]]s of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+The cofibrations in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the [[retract]]s of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
 
 Accordingly, the cofibrant objects in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
 
 =--
 
+([Bousfield-Gugenheim 76, Prop. 7.5](#BousfieldGugenheim76)[Gelfand-Manin 96., Prop. V.5.4](#GelfandManin96))
 
 #### Simplicial hom-complexes
  {#HomComplexes}
@@ -1230,27 +1235,31 @@ over a field $k$ of characteristic 0 constitute a presentation of
 
 ## References
 
+### On connective dgc-algebras
 
+The cofibrantly generated model structure on [[differential graded-commutative algebras]] is originally due to 
 
-The cofibrantly generated model structure on [[differential graded-commutative algebras]] is surveyed usefully for instance on p. 6 of 
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
-* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+Textbook account:
+
+* {#GelfandManin96} [[Sergei Gelfand]], [[Yuri Manin]], Chapter V of: _[[Methods of homological algebra]]_,  transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
+
+Review:
+
+* {#Hess06} [[Kathryn Hess]], p. 6 of: _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+
+* {#Moerman15} [[Joshua Moerman]], Section II of: _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
+
 
 This makes use of the general discussion in section 3 of 
 
-* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_ Notes from lectures given at the University of Chicago, August 2004 ([arXiv](http://arxiv.org/abs/math.AT/0609537))
-
-
+* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004 ([arXiv](http://arxiv.org/abs/math.AT/0609537))
 
 that obtains the model structure from the [[model structure on chain complexes]].
 
-A standard textbook reference is section V.3 of
 
-* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp. 2nd corrected ed. 2002.
-
-An original reference seems to be
-
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. Gugenheim, _On PL deRham theory and rational homotopy type_ Memoirs of the AMS 179 (1976)
+### On non-commutative dg-algebras
 
 
 For general **non-commutative** (or rather: not necessarily graded-commutative) dg-algebras a model structure is given in
@@ -1264,7 +1273,9 @@ This is also the structure used in
 where aspects of its relation to the [[model structure on cosimplicial rings]] is discussed. (See [[monoidal Dold-Kan correspondence]] for
 more on this).
 
-Disucssion of the model structure on unbounded dg-algebras over a field of characteristic 0 is in 
+### On unbounded dg-algebras
+
+Discussion of the model structure on unbounded dg-algebras over a field of characteristic 0 is in 
 
 * {#ToenVezzosi} [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv.org/abs/math/0404373v4))
 
@@ -1283,6 +1294,8 @@ Discussion of cofibrations in unbounded dg-algebras are in
 
 * {#Keller} [[Bernhard Keller]], _$A_\infty$-algebras, modules and functor categories_ ([pdf](http://www.math.jussieu.fr/~keller/publ/ainffun.pdf))
 
+
+### More
 
 The derived copowering of unbounded commutative dg-algebras over $sSet$ is discussed (somewhat implicitly) in
 
@@ -1335,7 +1348,5 @@ Discussion of [[homotopy limits]] and [[homotopy colimits]] of dg-algebras is in
 [[!redirects projective model structures on connective dgc-algebras]]
 
 
-[[!redirects model structure on dgc-algebras]]
-[[!redirects model structures on dgc-algebras]]
 
 
