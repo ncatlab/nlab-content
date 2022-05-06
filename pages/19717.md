@@ -34,6 +34,8 @@ Many kinds of generalization have been proposed - asymmetric lenses, bimorphic l
 
 One generalization considers the lenses from the previous section as _monomorphic_ by contrast to _polymorphic_ lens which go between pairs of types, $\lambda: (S, T) \to (A, B)$, consisting of a view function, $v_{\lambda}: S \to A$, and an update function $u_{\lambda}: S \times B \to T$. Without further conditions, these are known as _bimorphic lenses_. To impose conditions comparable to the lens laws above requires that the types be related.
 
+Optic defines a symmetric monoidal functor from SymmMonCat to itself. Evaluating the result for different symmetric monoidal categories gives these various generalizations such as Prisms which use the disjoint union in Set. ([Riley Theorem 2.0.8](#Riley))
+
 ##References
 
 * Bohannon, A., Vaughan, J. and Pierce, B. (2006)  _Relational Lenses: A language for updatable views._ Proceedings of Principles of Database Systems (PODS) 2006
@@ -49,6 +51,6 @@ One generalization considers the lenses from the previous section as _monomorphi
 
 * {#Hedges} [[Jules Hedges]], _Lenses for philosophers_, [blog post](https://julesh.com/2018/08/16/lenses-for-philosophers/)
 
-* [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
+* {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
 [[!redirects lenses (in computer science)]]
