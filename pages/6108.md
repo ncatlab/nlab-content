@@ -78,14 +78,11 @@ Lecture notes include
 
 * [[Edward Witten]], _Dynamical aspects of QFT_, Lecture 15: _The Landau--Ginzburg description of N=2 minimal models; Quantum cohomology and K&#228;hler manifolds_,  in Part IV of _[[Quantum Fields and Strings]]_.
 
-### Partition function and elliptic genera
-
-The [[partition function]] of LG-models and its relation to [[elliptic genera]] is disucssed in 
 
 
-* [[Edward Witten]], _On the Landau--Ginzburg Description of $N=2$ Minimal Models_, Int.J.Mod.Phys.A 9:4783--4800, 1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
+[[!include elliptic genera as partition functions -- references]]
 
-* Toshiya Kawai, Yasuhiko Yamada, Sung-Kil Yang, _Elliptic Genera and $N=2$ Superconformal Field Theory_ ([arXiv:hep-th/9306096](http://arxiv.org/abs/hep-th/9306096))
+
 
 
 ### Branes
