@@ -20,7 +20,9 @@
 
 ## Idea
 
-One of the quanta of the [[electroweak field]], a [[vector boson]] in the [[standard model of particle physics]].
+The W- and Z-[[bosons]] are the quanta of the [[electroweak field]],[[vector boson]] in the [[standard model of particle physics]].
+
+A hypothetical high-[[mass]] cousin of the Z-boson is the [[Z'-boson]].
 
 ## Related concepts
 
