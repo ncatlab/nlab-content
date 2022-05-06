@@ -66,7 +66,7 @@ $$
 
 in the [[slice (∞,1)-topos]] over the [[delooping]] $\mathbf{B}G = \ast \sslash G$ of $G$, which is still a [[0-truncated object]], reflecting that as a [[functor]] of [[groupoids]] the morphism $\mathcal{X} \to \mathbf{B}G$ is a [[faithful functor]].
 
-Accordingly, if this is to be the formalization of the nature of the [[orbifold]] $\mathcal{X}$, then its corresponding orbifold cohomology has [[coefficients]] given by objects $\mathcal{A} \in \mathbf{H}_{/\mathbf{B}G}$ and cohomology sets being the [[connected components]] of the [[(∞,1)-categorical hom-spaces]]
+Accordingly, if this is -- or were -- the correct formalization of the nature of [[orbifolds]] $\mathcal{X}$, then the corresponding orbifold cohomology has [[coefficients]] given by objects $\mathcal{A} \in \mathbf{H}_{/\mathbf{B}G}$ and cohomology sets being the [[connected components]] of the [[(∞,1)-categorical hom-spaces]]
 
 $$
   H_{\mathbf{B}G}\big( \mathcal{X}, \mathcal{A}\big)
