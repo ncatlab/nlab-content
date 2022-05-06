@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Introducing [[gravitational instantons]]:
+
+* [[Tohru Eguchi]], [[Andrew Hanson]], _Gravitational instantons_, General Relativity and Gravitation volume 11, pages 315–320 (1979) ([doi:10.1007/BF00759271](https://doi.org/10.1007/BF00759271))
+
 
 On [[topology]]/[[homotopy theory]] and [[differential geometry]] in [[gauge theory]] and [[gravity]] (such as in [[fiber bundles in physics]]):
 
