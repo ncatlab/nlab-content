@@ -28,9 +28,14 @@ In the context of square [[matrices]] an _upper triangular matrix_ is one all wh
 
 [[!redirects triangular matrices]]
 
+[[!redirects upper triangular form]]
+[[!redirects upper triangular forms]]
+
+[[!redirects lower triangular form]]
+[[!redirects lower triangular forms]]
+
 [[!redirects lower triangular matrix]]
 [[!redirects lower triangular matrices]]
-
 
 [[!redirects upper triangular matrix]]
 [[!redirects upper triangular matrices]]
