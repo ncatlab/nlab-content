@@ -210,14 +210,26 @@ For details on this comparison map see at _[[permutation representation]]_, [thi
 * [[beta-ring]]
 
 ## References
+ {#References}
 
-The concept was named by Dress, following
-
-* {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)), reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
+The Burnside product seems to first appear as equation (i) in:
 
 * {#Burnside01} [[William Burnside]], _On the Representation of a Group of Finite Order as a Permutation Group, and on the Composition of Permutation Groups_, Proceedings of the American Mathematical Society 1901 ([doi:10.1112/plms/s1-34.1.159](https://doi.org/10.1112/plms/s1-34.1.159))
 
-Textbook accounts and lecture notes include
+(beware the terminology: a [[G-set]] is called a "permutation group $G$" in that article, a [[subset]] is called a "compound" and the [[Cartesian product]] of $G$-sets is called their "compounding").
+
+It is then included (not in the first but) in the second edition (Sections 184-185) of:
+
+* {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_,  Second edition Cambridge 1911 ([first edition pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)) 
+
+  reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
+
+
+The term "Burnside ring" as well as "Burnside algebra" is then due to (see [NMT 04, Vol. 1 p. 60](William+Burnside#NMT04) for historical comments) 
+
+* {#Solomon67} [[Louis Solomon]], _The Burnside algebra of a finite group_, Journal of Combinatorial Theory Volume 2, Issue 4, June 1967, Pages 603-615 (<a href="https://doi.org/10.1016/S0021-9800(67)80064-4">doi:10.1016/S0021-9800(67)80064-4</a>)
+
+Modern textbook accounts and lecture notes:
 
 * Charles Curtis, Irving Reiner, chapter XI of _Representation theory of finite groups and associative algebras_, AMS 1962
 
