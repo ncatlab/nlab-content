@@ -93,3 +93,7 @@ Among review of the [[Witten-Sakai-Sugimoto model]]:
 
 
 [[!redirects D4-D8 brane bound states]]
+
+[[!redirects D4-D8-brane bound state]]
+[[!redirects D4-D8-brane bound states]]
+
