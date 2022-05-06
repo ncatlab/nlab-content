@@ -222,13 +222,13 @@ Details of the semantics are in
 
 * {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]] [[Mike Shulman]], _Semantics of higher inductive types_ ([arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf))
 
-with precurors in
+with precursors in
 
 * {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
 
 * {#ShulmanLumsdaine16} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics and syntax of higher inductive types_, 2016, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
 
-Discussion of a a subset of the HITs is in:
+Discussion of a subset of the HITs is in:
 
 * [[Kristina Sojakova]], _Higher Inductive Types as Homotopy-Initial Algebras_
 [arXiv:1402.0761](http://arxiv.org/abs/1402.0761)
