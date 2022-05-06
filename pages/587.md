@@ -37,7 +37,7 @@ In a sufficiently rich logical language, contexts are unnecessary, which is why 
 $$ \vdash\; \forall (a\colon G),\; \forall (b\colon G),\; a b = b a$$
 and
 $$ \vdash\; \forall (a\colon G),\; \forall (b\colon G),\; (a b)^2 = a^2 b^2 \;\Rightarrow\; a b = b a$$
-Here the context on the left side is the **empty context**, consisting of no assumptions whatsoever (beyond those underlying the base theory).
+Here the context on the left side is the **[[empty context]]**, consisting of no assumptions whatsoever (beyond those underlying the base theory).
 
 However, these versions involve $\forall$ and $\Rightarrow$, while the previous versions work in weaker logics.  In fact, these assertions make sense (and the valid one may be proved) in the [[internal logic]] of a [[group object]] in a [[finitely complete category]] (and somewhat more generally than that).  Accordingly, they can be interpreted as statements about any group object in any finitely complete category (and the valid one will then be interpreted as a true statement), exactly as they do for groups (which are group objects in the finitely complete category [[Set]]).
 
