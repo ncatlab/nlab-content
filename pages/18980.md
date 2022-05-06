@@ -25,7 +25,14 @@ This includes the [[electron]], [[muon]], ...
 
 * [[anomalous magnetic moment]]
 
+## Related concepts
+
+* [[quark]]
+
 ## References
+
+* {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
+
 
 See also 
 
