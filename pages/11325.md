@@ -40,6 +40,10 @@ Survey:
 
 * Mihalis Dafermis, _[Strong cosmic censorship](http://web.math.princeton.edu/~dafermos/research/structure-of-singularities/strong-cosmic-censorship.html)_
 
+See also
+
+* Wikipedia, _[Cosmic censorship hypothesis](http://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis)_
+
 A formalization and proof of one version of the hypothesis, and discussion of relation to [[computability in physics]] and [[Malament–Hogarth spacetimes]] is in
 
 * {#Etesi12} [[Gabor Etesi]], _A proof of the Geroch-Horowitz-Penrose formulation of the strong cosmic censor conjecture motivated by computability theory_ ([arXiv:1205.4550](http://arxiv.org/abs/1205.4550))
@@ -52,9 +56,12 @@ More on this and the relation to the [[weak gravity conjecture]]:
 
 * [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
 
-See also
+Relation to [[higher curvature corrections]]:
 
-* Wikipedia, _[Cosmic censorship hypothesis](http://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis)_
+* Akash K Mishra, Sumanta Chakraborty, _Strong Cosmic Censorship in higher curvature gravity_, Phys. Rev. D 101, 064041 (2020) ([arXiv:1911.09855](https://arxiv.org/abs/1911.09855))
+
+
+
 
 [[!redirects cosmic censorship hypotheses]]
 
