@@ -24,7 +24,7 @@ We can get a slightly simpler presentation by combining the stack and term judgm
 
 ### Type Structure
 
-Call-by-push-value is characterized not just by its judgmental structure, but by a specific *choice* of which connectives to use. Except for the sfhits $F,U$, all value type connectives are left adjoints, and all computation type connectives are right adjoints.
+Call-by-push-value is characterized not just by its judgmental structure, but by a specific *choice* of which connectives to use. Except for the shifts $F,U$, all value type connectives are left adjoints, and all computation type connectives are right adjoints.
 
 For this reason, some connectives are definable from the judgments but excluded because they violate this discipline. These are a tensor product $A \otimes B$ which is a computation type, a unit $I$ computation type, and a linear function space $B \multimap B'$ which is a computation type. When these are added, the system is called the [Enriched Effect Calculus](#EEC) (modulo some superficial syntactic differences).
 
