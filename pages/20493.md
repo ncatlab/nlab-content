@@ -25,7 +25,7 @@ $$
 
 is called a _functional cup product_ in ([Steenrod 49](#Steenrod49)).
 
-This appears notably as the homotopy-version of Whitehead's formula ([Whitehead 47](#Whitehead47)) for the [[Hopf invariant]] (see [Haefliger 78, Remark on p. 17](#Haefliger78), [Griffith-Morgan 81, Section 14.5](#GriffithMorgan81)). More recently [Sinha-Walter 13, Example 1.9](#SinhaWalter13) speak of _homotopy period_ expressions.
+This appears notably as the homotopy-version of [[Whitehead's integral formula]] ([Whitehead 47](#Whitehead47)) for the [[Hopf invariant]] (see [Haefliger 78, Remark on p. 17](#Haefliger78), [Griffith-Morgan 81, Section 14.5](#GriffithMorgan81)). More recently [Sinha-Walter 13, Example 1.9](#SinhaWalter13) speak of _homotopy period_ expressions.
 
 ## Related concepts
 
