@@ -53,7 +53,7 @@ $$
   2 D_{2n} = Dic_n
 $$
 
-Equivalently this is the lift of the dihedral group $D_{2n}$ ([above](#DihedralGroups)) through the [[pin group]] [[double cover]] of the [[orthogonal group]] [[O(2)]] to [[Pin(2)]]
+Equivalently, this is the lift of the dihedral group $D_{2n}$ ([above](#DihedralGroups)) through the [[pin group]] [[double cover]] of the [[orthogonal group]] [[O(2)]] to [[Pin(2)]]
 
 $$
   \array{
