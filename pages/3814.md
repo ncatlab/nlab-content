@@ -246,9 +246,9 @@ See
 
 ## References
 
-* {#Iliopoulos16} [[John Iliopoulos]], _The making of the standard theory_, Adv.Ser.Direct.High Energy Phys. 26 (2016) 29-59 ([spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf))
+### General
 
-Textbook accounts include
+Textbook accounts:
 
 * W. Noel Cottingham, ; Derek A. Greenwood, _An introduction to the standard model of particle physics_, Cambridge University Press 2012 ([doi:10.1017/CBO9780511791406 ](   https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
 
@@ -256,17 +256,7 @@ Textbook accounts include
 
 *  J D Vergados, _The Standard Model and Beyond_, World Scientific 2017 ([doi:10.1142/10669](https://www.worldscientific.com/worldscibooks/10.1142/10669))
 
-
-Further review and outlook includes
-
-* {#Bjorken85} [[James Bjorken]], _The November Revolution: A Theorist Reminisces_, 1985 ([spire:214067](http://inspirehep.net/record/214067))
-
-> The big international conference of $[$1974$]$ in 
-London was a turning point
- $[$...$]$ Ellis' catalog well reflected the state  of theoretical confusion and general disarray in trying to  interpret the $e^+ e^-$ data. But in the midst of all of this was a 
-talk by [[John Iliopoulos]] (I think I was there too). With 
-passionate zealotry, he laid out with great accuracy what we call 
-the [[standard model of particle physics|standard model]]. Everything was there: [[proton decay]], [[charm quark|charm]],  the GIM mechanism of course, [[QCD]], the $SU(2)\times U(1)$ [[electroweak  theory]], $SU(5)$ [[GUT|grand unification]], [[Higgs field|Higgs]], etc. It was all presented with absolute conviction and sounded at the time just a little mad, at least to me (I am a conservative).
+Further review and outlook:
 
 * [[Paul Langacker]], _The standard model and beyond_, talk at TPFNP 2005 ([pdf](http://www.sns.ias.edu/~pgl/talks/neutron.pdf), [[Langacker05.pdf:file]])
 
@@ -275,7 +265,6 @@ the [[standard model of particle physics|standard model]]. Everything was there:
 * {#Wulzer19} Andrea Wulzer, _Behind the Standard Model_ ([arXiv:1901.01017](https://arxiv.org/abs/1901.01017))
 
 * [[James Wells]], _The Once and Present Standard Model of Elementary Particle Physics_ ([arxiv:1911.04604](https://arxiv.org/abs/1911.04604))
-
 
 Review specifically with an eye towards [[grand unified theory]] is in
 
@@ -290,14 +279,34 @@ See also
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
 
-A historical account is in 
+
+### Anomaly cancellation
+ {#ReferencesAnomalyCancellation}
+
+Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
+
+* {#HMY13} Takaaki Hashimoto, Mamoru Matsunaga, Kenta Yamamoto, _Quantization of hypercharge in gauge groups locally isomorphic but globally nonisomorphic to $SU(3)_c \times SU(2)_L \times U(1)_Y$_ ([arXiv:1302.0669](https://arxiv.org/abs/1302.0669))
+
+
+* Nakarin Lohitsiri, [[David Tong]], _Hypercharge Quantisation and Fermat's Last Theorem_ ([arXiv:1907.00514](https://arxiv.org/abs/1907.00514))
+
+  (relating to [[Fermat's last theorem]])
+
+### History
+ {#ReferencesHistory}
+
+* {#Bjorken85} [[James Bjorken]], _The November Revolution: A Theorist Reminisces_, 1985 ([spire:214067](http://inspirehep.net/record/214067))
+
+> The big international conference of $[$1974$]$ in 
+London was a turning point $[$...$]$ Ellis' catalog well reflected the state  of theoretical confusion and general disarray in trying to  interpret the $e^+ e^-$ data. But in the midst of all of this was a  talk by [[John Iliopoulos]] (I think I was there too). With  passionate zealotry, he laid out with great accuracy what we call  the [[standard model of particle physics|standard model]]. Everything was there: [[proton decay]], [[charm quark|charm]],  the GIM mechanism of course, [[QCD]], the $SU(2)\times U(1)$ [[electroweak  theory]], $SU(5)$ [[GUT|grand unification]], [[Higgs field|Higgs]], etc. It was all presented with absolute conviction and sounded at the time just a little mad, at least to me (I am a conservative).
+
 
 * [[Tom Kibble]], _The Standard Model of Particle Physics_ ([arXiv:1412.4094](http://arxiv.org/abs/1412.4094))
 
+* {#Iliopoulos16} [[John Iliopoulos]], _The making of the standard theory_, Adv.Ser.Direct.High Energy Phys. 26 (2016) 29-59 ([spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf))
 
 
-See also
 
-* {#HMY13} Takaaki Hashimoto, Mamoru Matsunaga, Kenta Yamamoto, _Quantization of hypercharge in gauge groups locally isomorphic but globally nonisomorphic to $SU(3)_c \times SU(2)_L \times U(1)_Y$_ ([arXiv:1302.0669](https://arxiv.org/abs/1302.0669))
+
 
 
