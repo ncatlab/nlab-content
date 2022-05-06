@@ -1,9 +1,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
 =--
 =--
 =--
@@ -219,17 +223,25 @@ Thus, a $G$-torsor in a category with products can be tautologically interpreted
 
 ## References 
 
-For elementary examples of torsors over the point in [[Set]] , see:
+Textbook accounts:
+
+* {#Milne80} [[James Milne]], Prop. III.4.1 in: _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp. ([jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1))
+
+  > (discussion for [[algebraic groups]] in [[algebraic geometry]])
+
+Elementary exposition:
 
 * [[John Baez]], _Torsors made easy_, ([web](http://math.ucr.edu/home/baez/torsors.html))
 
-A general [[topos]]-theoretic account is in section B3.2 of 
+  > (discussion for [[discrete groups]])
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .
+A general [[topos theory|topos theoretic]] account is in  
+
+* [[Peter Johnstone]], Section B3.2 of: _[[Sketches of an Elephant]]_ .
 
 See also the references at _[[Diaconescu's theorem]]_.
 
-Some categorically-oriented articles discussing torsors are
+Some further [[category theory|category theoretic]] articles discussing torsors:
 
 * [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arXiv:0912.0213](http://arxiv.org/abs/0912.0213)
 
@@ -238,7 +250,7 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [nu
 
 *  K. T. S. Mohapeloa, _A $2$-colimit characterization of internal categories of torsors_, J. Pure Appl. Algebra 71 (1991), no. 1, 75--91, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990041-Y) 
 
-* Thomas Booker, Ross Street, _Torsors, herds and flocks_, [arXiv:0912.4551](http://arxiv.org/abs/0912.4551)
+* Thomas Booker, Ross Street, _Torsors, herds and flocks_ ([arXiv:0912.4551](http://arxiv.org/abs/0912.4551))
 
 * J. Duskin, _Simplicial methods and the interpretation of 'triple' cohomology_, Memoirs AMS __3__, issue 2, n&#176; 163, 1975.  MR393196
 
@@ -246,9 +258,11 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [nu
 
 * [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_, [math.AT/0212266](http://arxiv.org/abs/math/0212266).
 
-A standard elementary discussion of torsors in algebraic geometry is in J. Milne's book *Etale cohomology*. Much material is also in Giraud's book on nonabelian cohomology. 
+Much further material is also in Giraud's book on nonabelian cohomology. 
 
-MathOverflow: [torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)
+See also
+
+* MathOverflow, _[torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)_
 
 [[!redirects torsors]]
 
