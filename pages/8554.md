@@ -37,6 +37,16 @@ Usually, the fibrations between fibrant objects in this model structure are prec
 
 See the references for general conditions under which this model structure exists.
 
+## Existence
+
+\begin{theorem}
+(Muro, \cite{Muro}, Theorem 1.1.)
+For any combinatorial closed symmetric monoidal model category $V$
+satisfying the [[monoid axiom]],
+the category $Cat(V)$ admits the Dwyer–Kan model structure.
+Moreover, this model structure is combinatorial.
+\end{theorem}
+
 ## Examples
 
 * The [[model structure on simplicial categories]] which presents [[(∞,1)-categories]] is induced from the Quillen [[model structure on simplicial sets]].
@@ -62,4 +72,8 @@ See the references for general conditions under which this model structure exist
 * Alexandru Stanculescu, "Constructing model categories with prescribed fibrant objects" ([arXiv:1208.6005](http://arxiv.org/abs/1208.6005))
 
 * {#BergerMoerdijk12} [[Clemens Berger]], [[Ieke Moerdijk]], _On the homotopy theory of enriched categories_ ([arXiv:1201.2134](http://arxiv.org/abs/1201.2134))
+
+* {#Muro} [[Fernando Muro]], _Dwyer–Kan homotopy theory of enriched categories_.  [arXiv:1201.1575](https://arxiv.org/abs/1201.1575).
+
+
 
