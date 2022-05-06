@@ -105,9 +105,6 @@ See
 
 One major application of higher category theory and to a large extent a driving force in developing it has been [[FQFT|extended functorial quantum field theory]]. This has recently led to what may become one of the central theorems of higher category theory, the proof of the [[cobordism hypothesis]]. This roughly characterizes the [[(∞,n)-category of cobordisms]] $Bord_n$ as the free [[(∞,n)-category]] with duals on a single generator.
 
-Since it is [thought](http://golem.ph.utexas.edu/category/2008/02/new_hire_at_ucr.html#c016709) that $Bord_n$ for $n = \infty$ is essentially the [[complex cobordism cohomology theory|cobordism spectrum]], this indicates a useful way in which higher category theory subsumes and refines [[stable homotopy theory]].
-
-
 
 
 
