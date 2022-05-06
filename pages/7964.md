@@ -310,8 +310,11 @@ an [[supersymmetry|supersymmetric]]-extension of the [[standard model of particl
 
 * {#IsidoriPattori17} Gino Isidori, Andrea Pattori, _On the tuning in the $(m_h, m_t)$ plane: Standard Model criticality vs. High-scale SUSY_, Physics Letters B Volume 782, 10 July 2018, Pages 551-558 ([arXiv:1710.11060](https://arxiv.org/abs/1710.11060))
 
+as well as [Kane 18, "Clue 4"](#Kane18)
 
-as well as [Kane 18, "Clue 4"](#Kane18).
+and more generally in view of [[split supersymmetry]]:
+
+* {#GiudiceStrumia11} [[Gian Giudice]], [[Alessandro Strumia]], _Probing High-Scale and Split Supersymmetry with Higgs Mass Measurements_, Nuclear Physics B Volume 858, Issue 1, 1 May 2012, Pages 63-83 ([arXiv:1108.6077](https://arxiv.org/abs/1108.6077))
 
 Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmological]] evolution ([[inflation]]) include the following:
 
