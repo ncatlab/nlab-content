@@ -1,4 +1,5 @@
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -36,7 +37,7 @@ In [[algebraic geometry]], relative notions are notions about families. e.g. [[f
 We also note that even if one is only interested in finding an absolute cotangent complex, some of the most useful computational lemmas require you to compute relative cotangent complexes. Hence the notion is truly ubiquitous in deformation theory.
 
 
-### Local Case
+### Local Cotangent Complex
 
 We begin by discussing what it means for the cotangent complex to control deformation/obstruction theory.
 
@@ -45,7 +46,7 @@ Let
 - $x: U \rightarrow X \in Aff_{/X}$
 - $\iota_M: U \hookrightarrow U^M$ the *trivial* square-0 thickening by a $M \in QCoh(U)$.
 
-The space of derivations is the [[$\infty$-groupoid]] encoding all extensions of $x$ along $\iota_M$. This can be written as a (homotopy) fiber diagram in the $\infty$-category of spaces:
+The  [[$\infty$-groupoid]] encoding all extensions of $x$ along $\iota_M$ is called the space of derivations. This can be written as a (homotopy) fiber diagram in the $\infty$-category of spaces:
 
 \begin{definition}
 $$Der_{X, x}(M)  := Map_{pSt}(U^M, X)  \times_{Map_{pSt}(U, X)}\{x\}$$
@@ -67,13 +68,42 @@ $$
 
 Hence this construction translates the geometric situation on the left to the *linear* situation on the right.
 
-### Global Case
+### Global Cotangent Complex
 
-### Relative Case
+\begin{definition}
+An object $\mathbb{L}_X \in QCoh(X)$ is said to be a *global cotangent complex* if for all $x: U \rightarrow X \in Aff_{/X}$, $x^*\mathbb {L}_X \in QCoh(U)$ is a cotangent local complex at $x$. 
+\end{definition}
 
+Hence, one can informally write the condition as existence of a compatible system of equivalences $x^*\mathbb {L}_X \simeq \mathbb {L}_{X, x}$.
+
+
+### Relative Cotangent Complexes
+
+Both the local and global notions above can be relativized...
 
 ## Basic Properties
 
 ### Cotangent Exact Sequence
 
+\begin{lemma}
+Let $X \xrightarrow{a} Y \xrightarrow{b} Z \in Fun(\Delta^2, pSt)$ such that each arrow has a global relative cotangent complex, the following diagram
+
+$$
+a^*\mathbb{L}_{Y/Z} \to \mathbb{L}_{X/Z} \to \mathbb{L}_{X/Y} 
+$$
+
+is a fiber (and hence cofiber) diagram in the stable $\infty$ category $QCoh(X)$.
+\end{lemma}
+
+For example, taking $Z \simeq pt$ exhibits the $\mathbb{L}_{X/Y}$ as the cofiber of $f^*\mathbb{L}_{Y} \to \mathbb{L}_{X}$
+
 ### Excision
+
+## Constructions
+
+There are several ways to demonstrate the existence of cotangent complexes via explicit constructions:
+
+- **Derived functors**: in the setting of dg-algebras, one can take left derived functors of the classical Kahler differentials functor $L\Omega_{(-)}$.  For example, concretely one can take a quasi-free resolution and apply $\Omega$ degree-wise. 
+- **Stabilization**: when $X$ is geometric (e.g. a spectral Deligne Mumford stack), there is a construction via the "tangent $\infty$-category", which is a sort of relative stabilization procedure.
+
+Some elaboration of these ideas are found in the article  [[cotangent complex]].
