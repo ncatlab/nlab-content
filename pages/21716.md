@@ -139,6 +139,10 @@ $$
 
 ([Scull 08, Prop. 5.1](#Scull08))
 
+\linebreak
+
+* [[equivariant PL de Rham theorem]]
+
 
 ## Related concepts
 
