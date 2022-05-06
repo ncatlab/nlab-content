@@ -159,8 +159,7 @@ Just as well, the oplax morphisms are the (continuous, monotone) [[convex maps]]
 
 * {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
 
-
-* {#orderedkantorovich} [[Tobias Fritz]] and Paolo Perrone, _Stochastic order on metric spaces and the ordered Kantorovich monad_, submitted, 2018. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
+* {#orderedkantorovich} [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
 
 
 [[!redirects ordered Radon monad]]
