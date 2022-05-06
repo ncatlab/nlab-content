@@ -1,3 +1,4 @@
+[[!redirects M-theory on Spin(8)-manifolds]]
 
 
 +-- {: .rightHandSide}
@@ -17,9 +18,9 @@
 
 ## Idea
 
-The [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[Spin group|spin]]-[[manifolds]] of [[dimension]] 8. Hence on the low-energy limiting  [[11-dimensional supergravity]] this is KK-compactification to [[3d supergravity]].
+The [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[8-manifolds]]. In the low-energy limiting  [[11-dimensional supergravity]] this is KK-compactification to [[3d supergravity]].
 
-Typically this is considered with a [[reduction of the structure group]] on the compactification fiber from $Spin(8)$ to $Spin(7)$, in which case one speaks of _M-theory on $Spin(7)$-manifolds_.
+Typically this is considered with a [[reduction of the structure group]] on the compactification fiber from [[Spin(8)]] to [[Spin(7)]], in which case one speaks of _M-theory on [[Spin(7)-manifolds]]_. Further reduction to [[G2-structure]] yields [[M-theory on G2-manifolds]].
 
 
 ## Properties
