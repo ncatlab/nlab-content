@@ -23,7 +23,7 @@ That is, if $f : T_1 \to T_2$ is a pretopos morphism and $- \circ f : \operatorn
 
 Since pretoposes are just [[exact completion|effectivizations]] of [[syntactic categories]] of [[first-order theories]], this means: if a functor between the categories of models of $T_1$ and $T_2$ is an equivalence and is induced by an interpretation $T_1 \to T_2$, then that interpretation must be part of a bi-interpretation, i.e. $T_1$ and $T_2$ are equivalent as syntactic categories via pretopos morphisms.
 
-[[Makkai duality]] states that $\operatorname{Hom}_{\mathbf{Pretop}}(-,X)$ factors through the $2$-category of [[_ultracategories_]] (categories equipped with [[ultraproduct functors]]) (which also contains $\mathbf{Set}$) and that $\operatorname{Hom}_{\mathbf{Pretop}}(-,\mathbf{Set})$ is left-adjoint to $\mathbf{Hom}_{\mathbf{Ult}}(-,\mathbf{Set})$.
+[[Makkai duality]] states that $\operatorname{Hom}_{\mathbf{Pretop}}(-,X)$ factors through the $2$-category of [[ultracategories]] (categories equipped with [[ultraproduct functors]]) (which also contains $\mathbf{Set}$) and that $\operatorname{Hom}_{\mathbf{Pretop}}(-,\mathbf{Set})$ is left-adjoint to $\mathbf{Hom}_{\mathbf{Ult}}(-,\mathbf{Set})$.
 
 Furthermore, the unit of this adjunction is an equivalence, so that a pretopos $T$ is equivalent to the category of ultrafunctors (ultraproduct-preserving functors) from $\mathbf{Mod}(T)$ to $\mathbf{Set}$, i.e. any ultrafunctor $\mathbf{Mod}(T) \to \mathbf{Set}$ is induced by taking points in models of some definable set $X \in T$.
 
@@ -48,6 +48,8 @@ In his AMS monograph on duality and definability in first-order logic, Makkai re
 * [[Michael Makkai]], _Strong Conceptual Completeness for First-Order Logic_ , APAL **40** (1988) pp.167-215.  (freely available online)
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_ , Oxford UP 2002. (sec. D3.5, pp.931-939)
+
+* {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
 
 
 An approach which reframes conceptual completeness in terms of [[logical schemes]] is adopted in section 4.4 of
