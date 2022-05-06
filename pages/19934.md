@@ -82,6 +82,8 @@ In 2 dimensions
 
 In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau compactifications]] of [[heterotic string theory]] to 4d)
 
+* [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv.Theor.Math.Phys.12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
+
 * S. Reffert, _Toroidal Orbifolds: Resolutions, Orientifolds and Applications in String Phenomenology_ ([arXiv:hep-th/0609040](https://arxiv.org/abs/hep-th/0609040))
 
 * [[Ron Donagi]], [[Katrin Wendland]], _On orbifolds and free fermion constructions_, J.Geom.Phys.59:942-968,2009 ([arXiv:0809.0330](https://arxiv.org/abs/0809.0330))
