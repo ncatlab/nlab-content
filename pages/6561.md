@@ -254,5 +254,8 @@ a summary of
 [[!redirects 6d superconformal gauge field theory]]
 [[!redirects 6d superconformal gauge field theories]]
 
+[[!redirects D=6 N=(2,0) SCFT]]
+[[!redirects D=6 N=(1,0) SCFT]]
+[[!redirects D=6 N=(1,1) SCFT]]
 
 
