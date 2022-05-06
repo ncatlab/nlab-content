@@ -144,7 +144,7 @@ We discuss the basic properties of the construction $X^\ast$ in def. \ref{OnePoi
 ###### Proposition
 **(one-point extension is compact)**
 
-For $X$ any [[topological space]], then its one-point extension $X^\ast$ (def. \ref{OnePointExtension}) is a [[compact topological space]].
+For $X$ any [[topological space]], we have that its one-point extension $X^\ast$ (def. \ref{OnePointExtension}) is a [[compact topological space]].
 
 =--
 
@@ -285,9 +285,9 @@ which is the identity on $X \setminus \{x_0\}$ and sends $x_0 \mapsto \infty$ (h
 ### Universal property
   {#UniversalProperty}
 
-As a [[pointed topological space|pointed]] [[compact Hausdorff space]], the one-point compactification of $X$ may be described by a [[universal property]]: 
+As a [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]], the one-point compactification of $X$ may be described by a [[universal property]]: 
 
-For every [[pointed topological space|pointed]] [[compact topological space|compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
+For every [[pointed topological space|pointed]] [[locally compact topological space|locally compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
 
 This property characterizes $X^\ast$ in an [[essentially unique]] manner.
 
