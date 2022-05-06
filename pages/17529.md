@@ -84,6 +84,8 @@ $$
   \,.
 $$
 
+For $p = 2$ the first is the [[Klein 4-group]].
+
 =--
 
 +-- {: .num_example}
