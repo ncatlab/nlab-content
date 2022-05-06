@@ -12,7 +12,7 @@ $$[x, [y, m]] = [[x, y], m] - [[x, m], y]$$
 
 for $x,y\in\mathfrak{g}$ and for $m\in M$. 
 
-For corepresentatons:
+For corepresentations:
 
 $$[[x, y], m] = [x, [y, m]] - [y, [x, m]] $$
 $$[y, [a, x]] = [[y, m], x] - [m, [x, y]] $$
