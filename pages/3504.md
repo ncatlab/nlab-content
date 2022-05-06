@@ -26,6 +26,8 @@ As well, the application of science and math to the theory of human perception o
 
 * [[dihedral group]]
 
+* [[harmonic analysis]]
+
 * [[Music of the Spheres]]
 
 * [[canonical formula of myth]]
