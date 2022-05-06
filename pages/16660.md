@@ -59,4 +59,4 @@ Without the Vop&#283;nka principle the best results known so far require additio
 
 * Marc Olschok, 2009, 'Left Determined Model Structures for Locally Presentable Categories', _Applied Categorical Structures_, vol. 19, no. 6, pp. 901-938: doi:[10.1007/s10485-009-9207-2](http://dx.doi.org/10.1007/s10485-009-9207-2) {#Olschok09}
 
-* Philippe Gaucher, [Left determined model categories](http://nyjm.albany.edu/j/2015/21-50.html), _New-York Journal of Mathematics_ 21 (2015), 1093-1115 {#G}
+* {#G} Philippe Gaucher, _Left determined model categories_, New York Journal of Mathematics **21** (2015), 1093-1115, [journal page](http://nyjm.albany.edu/j/2015/21-50.html), arXiv:[1507.02128](https://arxiv.org/abs/1507.02128).
