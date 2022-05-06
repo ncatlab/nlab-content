@@ -37,11 +37,11 @@ $$
   }
 $$
 
-of the [[15-sphere]] over the 8-sphere with [[fiber]] the 7-sphere. This may be derived by the [[Hopf construction]] on the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure.
+of the [[15-sphere]] over the [[8-sphere]] with [[fiber]] the [[7-sphere]]. This may be derived by the [[Hopf construction]] on the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure.
 
 Alternatively, we may construct a fibration by first decomposing $\mathbb{O}^2$ into the octonionic lines, 
 
-$l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb{O}\}$. 
+$l_m \coloneqq \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb{O}\}$. 
 
 In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the [[unit sphere]] $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV 12, p. 7](#OrneaPartonPiccinniVuletescu12)).
 
@@ -90,11 +90,9 @@ $$
 
 ## Related concepts
 
-* [[real Hopf fibration]]
+* [[real Hopf fibration]], [[complex Hopf fibration]], [[quaternionic Hopf fibration]]
 
-* [[complex Hopf fibration]]
-
-* [[quaternionic Hopf fibration]]
+* [[octonionic projective space]]
 
 ## References
 
