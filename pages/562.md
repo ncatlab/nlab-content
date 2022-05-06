@@ -70,7 +70,7 @@ from the bicategory of presheaves of categories to the bicategory of Grothendiec
 
 As explained there, this equivalence, interpreted as a functor between 1-categories,
 has both a left and a right adjoint (which are equivalent in the bicategorical context).
-Roughly speaking, the left adjoint strictifes a Grothendieck fibration
+Roughly speaking, the left adjoint strictifies a Grothendieck fibration
 by adding formal pullbacks of objects, which themselves pullback strictly,
 whereas the right adjoint strictifies a Grothendieck fibration
 by equipping object with a functorial choice of a pullback for each possible morphism.
