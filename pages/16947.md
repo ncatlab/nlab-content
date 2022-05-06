@@ -2,7 +2,7 @@
 
 * [webpage](http://www.math.ubc.ca/~adem/)
 
-## selected writings
+## Selected writings
 
 * {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
 
@@ -11,6 +11,10 @@
 * [[Alejandro Adem]], _Lectures on the cohomology of finite groups_ ([pdf](http://www.math.uic.edu/~bshipley/ConMcohomology1.pdf))
 
   (on [[group cohomology]] of [[finite groups]])
+
+* [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310, American Mathematical Society, 2002
+
+  (on [[orbifolds]] in [[mathematical physics]] and in particular [[string theory]])
 
 *  [[Alejandro Adem]], [[R. James Milgram]], _Cohomology of Finite Groups_, Springer 2004
 
@@ -22,7 +26,7 @@
 
   (on [[group actions]] on [[spheres]])
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[orbifold]], [[Riemannian orbifold]]
 
