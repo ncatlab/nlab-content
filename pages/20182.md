@@ -78,7 +78,7 @@ See at _[[Sullivan model of a spherical fibration]]_ for more on this.
 
 * {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
-* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524, doi:[10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503).
+* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
 
 [[!redirects Sullivan models of mapping space]]
 [[!redirects Sullivan models of mapping spaces]]
