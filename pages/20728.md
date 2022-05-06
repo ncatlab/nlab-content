@@ -89,7 +89,7 @@
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[(Ordered) Kantorovich monad]]</th>
+  <th markdown="1">(Ordered) [[Kantorovich monad]]</th>
   <td markdown="1">[[Cauchy-complete|Complete]] [[$L$-ordered]] [[metric spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
@@ -139,7 +139,7 @@
  <tr>
   <th markdown="1">[[Valuation monad]]</th>
   <td markdown="1">[[Loc]]</td>
-  <td markdown="1">[[contiuous valuations]]</td>
+  <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">initial topology of evaluation maps</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
