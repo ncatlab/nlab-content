@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
@@ -38,6 +38,8 @@ the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebr
 ## Related concepts
 
 * **special orthogonal Lie algebra** , [[unitary Lie algebra]], [[Poincare Lie algebra]]
+
+* [[special linear Lie algebra]]
 
 * [[string Lie 2-algebra]]
 
