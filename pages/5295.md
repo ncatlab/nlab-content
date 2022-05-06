@@ -62,7 +62,7 @@ There are a variety of ways to use the term 'intuitionistic'.  We list them here
 
 *  __[[intuitionistic type theory|Intuitionistic type theory]]__ is generally proffered as a [[foundation of mathematics]] that is (in most of its forms) both [[constructivism|constructive]] and [[predicativism|predicative]].  For purposes of comparing type theory to set theory, it might be nice if 'intuitionistic' and 'constructive' were distinguished for type theories as they are for set theories, but they aren\'t.  (Then again, there was never much sense in making that distinction for set theories using that terminology.)
 
-There is variant of the [[NuPrl]] type theory with choice sequences [PDF](http://www.nuprl.org/html/Nuprl2Coq/continuity.pdf).
+  There is variant of the [[NuPrl]] type theory with choice sequences: [PDF](http://www.nuprl.org/html/Nuprl2Coq/continuity.pdf).
 
 *  __[[Intuitionistic logic]]__ is the [[logic]] that intuitionistic mathematics, set theory, and type theory use, which lacks the principle of [[excluded middle]]; other forms of [[constructive mathematics]] also use intuitionistic logic, which is therefore also known as _constructive logic_.
 
@@ -103,6 +103,8 @@ The reluctance to add function spaces is similar to the problem of function spac
 
 * [[realizability]]
 
+* [[choice sequence]]
+
 
 ## References
  {#References}
@@ -110,6 +112,10 @@ The reluctance to add function spaces is similar to the problem of function spac
 The roots of Brouwer's intuitionism are apparently in his PhD thesis
 
 * [[L.E.J. Brouwer]], _Over de Grondslagen der Wiskunde, PhD thesis_, Universiteit van Amsterdam, 1907.
+
+A reference written by Brouwer and still in print in English is
+
+* [[L.E.J. Brouwer]], _Brouwer's Cambridge Lectures on Intuitionism_, edited by D. van Dalen
 
 Then an axiomatization of intuitionistic mathematics is given in
 
@@ -127,22 +133,12 @@ Reviews with further developments include for instance
 
   (with a focus on [[constructive analysis]]).
 
-For more see also the references at _[[constructive mathematics]]_.
-
-That [[computable mathematics]] is an incarnation of intuitionistic mathematics is spelled out in the lecture notes below:
-
-* {#Bauer05} [[Andrej Bauer]], around section 4,3.1 in _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
-
-Discussion of basic [[topology]] in intuitionistic mathematics is in
+Discussion of one approach to basic [[topology]] in intuitionistic mathematics is in
 
 * {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
+For more see also the references at _[[constructive mathematics]]_.
 
-General comments on intuitionistic mathematics/logic as the natural language for [[physics]] are in
-
-* [[Andrej Bauer]], _[Intuitionistic mathematics for physics](http://math.andrej.com/2008/08/13/intuitionistic-mathematics-for-physics/)_, August 2008
-
-For more on [[physics]] formalized in intuitionistic mathematics (notably in [[topos theory]]) see at _[[geometry of physics]]_.
 
 
 [[!redirects intuitionistic mathematics]]
