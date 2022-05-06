@@ -440,13 +440,12 @@ $$
 
 ## Related concepts
 
-* [[Sullivan model of mapping space]]
-
-* [[Sullivan model of a suspension]]
-
 * [[Hochschild homology]]
 
 * [[cyclic homology]]
+
+[[!include Sullivan models -- examples]]
+
 
 ## References
 
