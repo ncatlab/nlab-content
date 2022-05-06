@@ -29,7 +29,7 @@ This page collects pointers related to the conference and book project:
 
   and  [book project](http://ercpqg-espace.sciencesconf.org/resource/page/id/1), 
 
-  Cambridge University Press 2019
+  Cambridge University Press 2021
 
   ([toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf))
 
@@ -93,7 +93,7 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 
 ([video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE))
 
-#### Lie (or differentiable) groupoids (Jean Pradine)
+#### Lie (or differentiable) groupoids (Jean Pradines)
 
 [[Jean Pradines]] on [[Lie groupoids]]
 
