@@ -220,6 +220,10 @@ Chapters 3,4,5 in
 [[!redirects oplax limits]]
 [[!redirects oplax colimit]]
 [[!redirects oplax colimits]]
+[[!redirects colax limit]]
+[[!redirects colax limits]]
+[[!redirects colax colimit]]
+[[!redirects colax colimits]]
 
 [[!redirects strict lax limit]]
 [[!redirects strict lax limits]]
@@ -229,6 +233,10 @@ Chapters 3,4,5 in
 [[!redirects strict oplax limits]]
 [[!redirects strict oplax colimit]]
 [[!redirects strict oplax colimits]]
+[[!redirects strict colax limit]]
+[[!redirects strict colax limits]]
+[[!redirects strict colax colimit]]
+[[!redirects strict colax colimits]]
 
 [[!redirects pseudolimit]]
 [[!redirects pseudolimits]]
