@@ -19,6 +19,11 @@ The concept originates with
 
 * [[Bernard de Wit]], [[Henning Samtleben]], _Gauged maximal supergravities and hierarchies of nonabelian vector-tensor systems_, Fortsch. Phys. 53 (2005) 442-449 ([arXiv:hep-th/0501243](https://arxiv.org/abs/hep-th/0501243))
 
+See also
+
+* [[Jakob Palmkvist]], _The tensor hierarchy algebra_, J. Math. Phys. 55, 011701 (2014) ([arXiv:1305.0018](https://arxiv.org/abs/1305.0018))
+
+
 
 A proposal for understanding tensor hierarchies as [[L-infinity algebra]]-refinenents of [[Leibniz algebras]]:
 
