@@ -25,7 +25,7 @@ For instance [[quantum chromodynamics]] (one sector of the [[standard model of p
 
 Similarly, as far as systems in [[condensed matter physics]] are described well by some [[effective field theory]], one may ask whether this, in turn, is usefully related to [[gravity]] on some [[anti de-Sitter spacetime]] and use this to study the solid state system, notably its [[non-perturbative effects]].
 
-Andreas Karch writes [here](http://www.math.columbia.edu/~woit/wordpress/?p=9426#comment-226376):
+[[Andreas Karch]] writes [here](http://www.math.columbia.edu/~woit/wordpress/?p=9426#comment-226376):
 
 > These anomalous transport coefficients have first been calculated in AdS/CFT. The relevant references are [8], [9] and [10] in the Son/Surowka paper. In the AdS/CFT calculations these particular transport coefficients only arise due to Chern-Simons terms, which are the bulk manifestation of the field theory anomalies. At that point it was obvious to many of us that there should be a purely field theory based calculation, only using anomalies, that can derive these terms. Son and Surowka knew about this. They were sitting next door to me when they started these calculations. Many of us tried to find these purely field theory based arguments and failed. Son and Surowka succeeded.
 
