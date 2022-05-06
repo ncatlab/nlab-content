@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -65,7 +66,7 @@ For [[D6-D8 brane intersections]]:
 > graphics grabbed from [Gaiotto-Tomasiello 14](D6-D8-brane+intersection#GaiottoTomasiello14)
 
 
-#### Relation to Yang-Mills monopoles
+#### As fuzzy funnels/Yang-Mills monopoles
 
 Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
 
@@ -122,6 +123,8 @@ For more see at _[[weight systems on chord diagrams in physics]]_.
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
 </div>
+
+> graphics grabbed from [Sati-Schreiber 19b]()
 
 \linebreak
 
@@ -186,11 +189,19 @@ For parallel intersection:
 #### As spikes/BIons
  {#AsSpikesBIons}
 
-On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] from the [[M5-brane]]:
+On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] 
+
+* [[Curtis Callan]], [[Juan Maldacena]], _Brane Dynamics From the Born-Infeld Action_, Nucl. Phys. B513 (1998) 198-212 ([arXiv:hep-th/9708147](https://arxiv.org/abs/hep-th/9708147))
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
+* [[Gary Gibbons]], _Born-Infeld particles and Dirichlet p-branes_,  	Nucl. Phys. B514: 603-639, 1998 ([arXiv:hep-th/9709027](https://arxiv.org/abs/hep-th/9709027))
+
+from the [[M5-brane]]:
 
 * {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
 
-#### Relation to monopoles
+#### As fuzzy funnels/Yang-Mills monopoles
  {#ReferencesRelationToMonopoles}
 
 On transversal [[Dp-D(p+2) brane intersections]] as [[Yang-Mills monopoles]] / [[fuzzy funnel]]-solutions to [[Nahm's equation]]:
@@ -201,9 +212,17 @@ For transversal [[D1-D3 brane intersections]]:
 
 * [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
 
+* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
+
+* [[Robert Myers]], Section 4 of: _Nonabelian D-branes and Noncommutative Geometry_, J. Math. Phys. 42: 2781-2797, 2001 ([arXiv:hep-th/0106178](https://arxiv.org/abs/hep-th/0106178))
+
+* [[Neil Constable]], [[Neil Lambert]], _Calibrations, Monopoles and Fuzzy Funnels_, Phys. Rev. D66 (2002) 065016 ([arXiv:hep-th/0206243](https://arxiv.org/abs/hep-th/0206243))
+
+
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering_ ([arxiv:hep-th/0402163](https://arxiv.org/abs/hep-th/0402163))
 
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
+
 
 
 For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
