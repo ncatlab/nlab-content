@@ -28,6 +28,8 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[Gregory Arone]], [[Michael Ching]], _Goodwillie Calculus_, ([arXiv:1902.00803](https://arxiv.org/abs/1902.00803))
 
+* [[Kirsten Wickelgren]], [[Ben Williams]], _Unstable Motivic Homotopy Theory_, ([arXiv: 1902.08857](https://arxiv.org/abs/1902.08857))
+
 * ...
 
 ## Related entries
