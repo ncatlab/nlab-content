@@ -102,3 +102,5 @@ See also
 
 
 [[!redirects CS-WZW correspondence]]
+
+[[!redirects AdS3-CFT2]]
