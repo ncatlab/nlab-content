@@ -1137,6 +1137,9 @@ This is precisely the statement of that quoted result [Hess 06, theorem 2.2](#He
 =--
 
 
+### Preservation of homotopy fibers
+
+See at _[[rational fibration lemma]]_.
 
 
 
