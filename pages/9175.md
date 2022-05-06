@@ -55,6 +55,11 @@ For general case of $G$ acting on $X$, we get a Lie groupoid, called the Transla
 For action groupoid $\mathcal{G}=G\ltimes X$, let $B\mathcal{G}$ be the corresponding stack of principal $\mathcal{G}$ bundles. It turns out that $B\mathcal{G}$ is same $[X/G]$ defined above. More details to be found in [this page](https://mathoverflow.net/questions/319038/motivation-for-definition-of-quotient-stack).
 
 
+ * If action of the Lie group $G$ on the manifold $X$ is free and proper, what we get is   **a manifold** $X/G$. Stack associated to this manifold is $\underline{X/G}$ which we call to be the quotient stack, denote by $[X/G]$.
+
+
+ * If the action of the Lie group $G$ on the manifold $X$ is not necessarily free and proper, what we get is   **a Lie groupoid** denoted (among other symbols) by $X//G$. Stack associated to this Lie groupoid $X//G$ is $B(X//G)$ which we call to be the quotient stack, denote by $[X/G]$.
+
 ## Universal property (??) for Quotient stack
 
 Let $G$ be a Lie group and $X$ be a manifold with a $G$ action on it. 
