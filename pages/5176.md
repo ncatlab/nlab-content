@@ -104,12 +104,16 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 * [[Marta Bunge]] and [[Jonathon Funk]], _[[Singular coverings of toposes]]_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (sec. 1.4)
 
-* [[Jonathon Funk]], _The Display Locale of a Cosheaf_ , Cah. Top. G&#233;om. Diff. Cat. **36** (1995) pp.53-93.
-
 * Justin M. Curry, _Abstract existence of cosheafification_ ([pdf](https://services.math.duke.edu/~curry/papers/abstract_cosheafification.pdf))
+
+
+* [[Jonathon Funk]], _The Display Locale of a Cosheaf_ , Cah. Top. G&#233;om. Diff. Cat. **36** (1995) pp.53-93.
 
 * Andrei V. Prasolov, _Cosheafification_ ([arXiv:1605.01555](https://arxiv.org/abs/1605.01555))
 
 * Andrei V. Prasolov, _Cosheaves_ ([arXiv:1804.07988](https://arxiv.org/abs/1804.07988))
+
+* [[Steve Vickers]], _Cosheaves and Connectedness in Formal Topology_ , Ann. Pure Appl. Logic **163** no.2 (2012) pp.157-174. ([preprint](www.cs.bham.ac.uk/~sjv/ConnFT.pdf))
+
 
 [[!redirects cosheaves]]
