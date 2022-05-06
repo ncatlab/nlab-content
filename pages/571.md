@@ -82,19 +82,19 @@ For instance in the categories [[Ring]] or [[CRing]], then the defining inclusio
 
 ## Properties
 
-We list the following properties without their (easy) proof. The proofs can be found spelled out (dually) at [[epimorphism]].
+We list the following properties without their (easy) proofs. The proofs can be found spelled out (dually) at [[epimorphism]].
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-The following are equivalent
+The following are equivalent:
 
 * $f : x \to y$ is an monmorphism in $C$;
 
 * $f$ is an [[epimorphism]] in the [[opposite category]] $C^{op}$;
 
-* for all $z$, $Hom(z,f)$ is a [[monomorphism]] in [[Set]] -- an [[injection]];
+* precomposition with $f$ is a [[monomorphism]] in [[Set]]: that is, for all $c \in C$, $- \circ f: Hom(y,c) \to Hom(x,c)$ is an [[injection]];
 
 * the [[commuting diagram]] 
   $$
