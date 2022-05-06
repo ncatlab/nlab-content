@@ -34,7 +34,7 @@ Indeed, these more general senses of linear logic still faithfully follow the or
 
 In addition to these usual "denotational" categorical semantics, linear logic also has an "operational" categorical semantics, called the _[[Geometry of Interaction]]_, in [[traced monoidal categories]].
 
-Although linear logic is traditionally presented in terms of inference rules, it was apparently discovered by Girard while studying [[coherent
+Although linear logic is traditionally presented in terms of inference rules, it was apparently discovered by Girard while studying [[coherence
 spaces]].
 
 ### Quantum logic
