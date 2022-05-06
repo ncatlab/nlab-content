@@ -192,10 +192,6 @@ For [[Gepner models]]:
 
  
 * {#AW01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
-
-* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
-
-* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
  
 
 * [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hep-th/0509212](http://arxiv.org/abs/hep-th/0509212))
@@ -274,10 +270,12 @@ See also
 
 * Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
 
-#### Type II / F-theory models
+
+
+#### Type II string theory models
  {#ReferencesTypeIIModels}
 
-The canonical textbook for [[type II superstring]] phenomenology is 
+The canonical textbook for [[type II superstring]] phenomenology via [[intersecting D-brane models]] is 
 
 * [Ibanez-Uranga 12](#IbanezUranga12)
 
@@ -305,8 +303,27 @@ Reviews of [[intersecting D-brane model]] in [[type II string theory]] (in [[ori
 
 * {#DolanKrippendorfQuevedo11} Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
  
-
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
+
+Computer scan of [[Gepner-model]]-[[KK-compactifications]] of [[intersecting D-brane models]]:
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
+
+Computer scan of [[toroidal orbifold]]-[[KK-compactification]] of [[intersecting D-brane models]]:
+
+* [[Ralph Blumenhagen]], [[Florian Gmeiner]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _The Statistics of Supersymmetric D-brane Models_, Nucl.Phys.B713:83-135, 2005 ([arXiv:hep-th/0411173](https://arxiv.org/abs/hep-th/0411173))
+
+* {#GBHLW05} [[Florian Gmeiner]], [[Ralph Blumenhagen]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _One in a Billion: MSSM-like D-Brane Statistics_, JHEP 0601:004, 2006 ([arXiv:hep-th/0510170](https://arxiv.org/abs/hep-th/0510170))
+
+
+
+
+
+
+
+#### F-Theory models
 
 Discussion of [[GUT]] [[model (physics)|models]] via [[F-theory]] is in 
 
