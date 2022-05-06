@@ -78,7 +78,8 @@ $$
   \partial_\mu \omega_\nu  \partial_\kappa \rho_\lambda \cdot \pi
 $$
 
-(e.g. [Renard 69](#Renard69), [Volkov-Ebert-Nagy 97, p. 12](#VolkovEbertNagy97), [Guetta-Singer 00, (1)](#GuettaSinger00) [GKSY 03, (1)](#GKSY03) [Gudino-Sanchez 12, (1)](#GudinoSanchez12))
+(e.g. [Renard 69](#Renard69), [Volkov-Ebert-Nagy 97, p. 12](#VolkovEbertNagy97), [Guetta-Singer 00, (1)](#GuettaSinger00),
+[Kaiser 00, (12)](#Kaiser00), [GKSY 03, (1)](#GKSY03) [Gudino-Sanchez 12, (1)](#GudinoSanchez12))
 
 #### The radiative decays
 
@@ -168,6 +169,10 @@ Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10
 * J. T. Dakin, M. G. Hauser, M. N. Kreisler, R. E. Mischke, _Measurement of the Branching Ratios for ω Neutral Decays_, Phys. Rev. D 6, 2321 (1972) ([doi:10.1103/PhysRevD.6.2321](https://doi.org/10.1103/PhysRevD.6.2321))
 
 * {#GuettaSinger00} Dafne Guetta, Paul Singer, _$\omega$-$\rho$ Mixing and the $\omega \to \pi \pi \gamma$ Decay_, Phys. Rev. D63 (2001) 017502 ([arXiv:hep-ph/0005059](https://arxiv.org/abs/hep-ph/0005059))
+
+* {#Kaiser00} Roland Kaiser, equation (12) of: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377))
+ 
+
 
 * {#GKSY03} A. Gokalp, A. Kucukarslan, S. Solmaz, O. Yilmaz, _$\sigma$-Meson and $\omega$-$\rho$ mixing effects in $\omega \to \pi^+ \pi^- \gamma$ decay_, Acta Phys.Polon. B34 (2003) 4095-4104 ([arXiv:hep-ph/0306044](https://arxiv.org/abs/hep-ph/0306044))
 
