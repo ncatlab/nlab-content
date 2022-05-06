@@ -53,7 +53,7 @@ but remember there is also the order to keep track of.
 
 This operation extends to give the **ordinal sum** structure  on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) making it a [[monoidal category]], whose monoidal product is the $\oplus$ operation described above.
 
-Warning: this [[monoidal structure]] is not [[symmetric monoidal category|symmetric]]!  One does have isomorphisms $[i] \oplus [j] \simeq [i+j+1] \simeq [j] \oplus [i]$ for all $i,j$, but it is easy to see that they are not [[bifunctorial]].
+Warning: this [[monoidal structure]] is not [[symmetric monoidal category|symmetric]]!   There are no order preserving maps from $[i] \oplus [j]$ to $[j] \oplus [i]$ for $i \neq j$, let alone isomorphisms.
 
 ## Ordinal sum of categories
 
