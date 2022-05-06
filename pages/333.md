@@ -29,7 +29,9 @@
 
 ## Idea
 
-Spaces can be characterized by their [[algebra|algebras]] of functions. Using this [[duality]] between [[space and quantity]] one can define generalized spaces in terms of generalizations of their algebras of functions.
+Spaces can be characterized by their [[algebra|algebras]] of functions (see at [[Isbell duality - table]]).
+
+Using this [[duality]] between [[space and quantity]] one can define generalized spaces in terms of generalizations of their algebras of functions.
 
 The idea of noncommutative geometry is to encode everything about the geometry of a space algebraically and then allow all commutative function algebras to be generalized to possibly non-commutative algebras. 
 
@@ -90,16 +92,25 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 ### General
 
-* [[José Gracia-Bondia]], [[Joseph Varilly]], H&#233;ctor Figueroa, _Elements of noncommutative geometry_, Birkh&#228;user 2001. xviii+685 pp. ([doi:10.1007/978-1-4612-0005-5](https://link.springer.com/book/10.1007/978-1-4612-0005-5), [gBooks](http://books.google.hr/books?id=2yJIwWbh1isC&lpg=PP1&ots=ex0Xfmh_UU&dq=Varilly%20noncommutative&hl=en&pg=PP1#v=onepage&q=Varilly%20noncommutative&f=false))
-
 
 * {#Connes} [[Alain Connes]], _[[Noncommutative Geometry]]_
  
+
+* [[José Gracia-Bondia]], [[Joseph Varilly]], H&#233;ctor Figueroa, _Elements of noncommutative geometry_, Birkh&#228;user 2001. xviii+685 pp. ([doi:10.1007/978-1-4612-0005-5](https://link.springer.com/book/10.1007/978-1-4612-0005-5), [gBooks](http://books.google.hr/books?id=2yJIwWbh1isC&lpg=PP1&ots=ex0Xfmh_UU&dq=Varilly%20noncommutative&hl=en&pg=PP1#v=onepage&q=Varilly%20noncommutative&f=false))
+
+
+
+Exposition:
+
+* {#Lupercio20} [[Ernesto Lupercio]], _Non-commutative Geometry Indomitable_ ([arXiv:2008.08529](https://arxiv.org/abs/2008.08529))
+
+See also:
 
 * {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
 
 
 * [[Alain Connes]], _A walk in the non-commutative garden_ ([arXiv:math/0601054](http://arxiv.org/abs/math/0601054))
+
 
 With a view towards [[motives in physics]]:
 
