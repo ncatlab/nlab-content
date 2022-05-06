@@ -19,7 +19,11 @@
 
 ## Idea
 
-(...)
+There are different, related ways in which one could view the notion of algebra over a [[monad]]. 
+
+* If one views monads as a generalization of [[algebraic theories]] (see [[algebraic theory#RelationToMonads|algebraic theory -  relation to monads]]), an algebra over a monad is the correspondent generalization of an [[algebra over a Lawvere theory|algebra over a theory]]. In particular, if one views a monad as a way of prescribing particular [[operations]], an algebra is a context where those specified formal expressions can be evaluated to an actual result.
+* From the 2-dimensional point of view, an algebra over a monad is a special case of a [[module over a monad]] for the bicategory [[Cat]], where the arrow is from the [[terminal category]].
+* If one views monads as a way to model computational effects (see [[monad in computer science]]), an algebra is a context in which the extra effects can be reincorporated into the main data. 
 
 ## Definition
 
@@ -27,7 +31,7 @@ Let $(T,\mu,\eta)$ be a [[monad]] on a [[category]] $C$.
 An **algebra over $T$**, or **$T$-algebra**, consists of an object $A$ of $C$ together with a morphism $a:TA\to A$ of $C$, such that the following diagrams commute.
 
 \begin{tikzcd}
-A\ar{r}{\eta} \ar[swap]{dr}{id} & TA \ar{d}{a} & & TTA \ar{r}{Ta} \ar{d}{\mu} & TA \ar{d}{a} \\ 
+A\ar{r}{\eta} \ar[swap]{dr}{\mathrm{id}} & TA \ar{d}{a} & & TTA \ar{r}{Ta} \ar{d}{\mu} & TA \ar{d}{a} \\ 
 & A & & TA \ar{r}{a} & A
 \end{tikzcd} 
 
@@ -42,7 +46,7 @@ TA \ar{r}{Tf} \ar{d}{a} & TB \ar{d}{b} \\
 A \ar{r}{f} & B
 \end{tikzcd}
 
-The category of $T$-algebras and their morphisms is called the **Eilenberg-Moore category** and denoted by $C^T$.
+The category of $T$-algebras and their morphisms is called the **[[Eilenberg-Moore category]]** and denoted by $C^T$.
 
 
 ## Examples
