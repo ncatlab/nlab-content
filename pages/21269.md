@@ -1,3 +1,10 @@
+[[!redirects tangles]]
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 A tangle is like a [[knot]] that was cut at several points
@@ -22,3 +29,12 @@ obtaining a [[1-category]] of tangles,
 or instead turn tangles into an [[(∞,1)-category]],
 in which case morphisms $A\to B$ will encode
 the whole [[homotopy type]] of the space of embeddings described above.
+
+## Related concepts
+
+* [[generalized tangle hypothesis]]
+
+## References
+
+(...)
+
