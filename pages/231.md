@@ -800,7 +800,7 @@ A brief discussion in the context of [[enriched category theory]] is in
 * [[Max Kelly]], _Basic concepts of enriched category theory_,
 London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
 
-Survey of some applications is in
+A survey of some applications is in
 
 * [[Ross Street]], _Monoidal categories in, and linking, geometry and algebra_ ([arXiv:1201.2991](https://arxiv.org/abs/1201.2991))
 
@@ -814,7 +814,7 @@ Quick surveys of relevant definitions include also
 
 For an elementary introduction to monoidal categories using [[string diagrams]], see:
 
-* [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_.
+* [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_, in _New Structures for Physics_, ed. Bob Coecke, Lecture Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-172. 
 
 A more detailed tour of monoidal categories, also using string diagrams, and including autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories:
 
