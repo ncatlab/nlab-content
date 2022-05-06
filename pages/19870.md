@@ -52,5 +52,3 @@ $$\frac{
 }
 {\Gamma \vdash App^{x:A.B}(M, N) \equiv App^{x:A'.B'}(M', N') : B[N/x]}
 $$
-
-category: Initiality Project
