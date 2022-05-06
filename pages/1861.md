@@ -662,8 +662,6 @@ Further discussion includes
 
 * {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, Geometry & Topology Monographs 18 (2012) 161–190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
 
-* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, Francis Sergeraert, Lukáš Vokřínek, Uli Wagner, _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
-
 
 ### Cohomotopy cocycle spaces
 
@@ -684,7 +682,14 @@ Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rat
 
 * Maths.SE, _[Framed Cobordism Classes of links in $\mathbb{R}^3$](https://math.stackexchange.com/q/426482/58526)_
 
-### Application to persistency
+### In computational topology
+
+Discussion of [[Cohomotopy]]-sets in [[computational topology]]:
+
+* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, Francis Sergeraert, Lukáš Vokřínek, [[Uli Wagner]], _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
+
+
+### Persistent Cohomotopy in data analysis
 
 Application of [[cohomotopy]] similar to that of [[persistent homology]], but improving on [[ordinary homology|homological]] [[well groups]]:
 
