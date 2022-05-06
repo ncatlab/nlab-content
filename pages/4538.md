@@ -637,25 +637,26 @@ Let $E$ be a ring spectrum satisfying [the assumption above](#assume).  Let $F$ 
 
 What "convergent" means here is spelled out in [Ada74, Theorem 8.2](#Ada74).
 
-+-- {: .num_cor #uctproj}
-###### Corollary ######
+\begin{corollary}
+\label{uctproj}
 Let $E$ be a ring spectrum satisfying [the assumption above](#assume).  Suppose that $E_*(X)$ is projective over $E_*$.  Then the spectral sequence from \ref{uctb} collapses at the $E^2$ term.  That is,
 $$
 F^*(X) \to \Hom^*_{E_*}(E_*(X),F_*)
 $$
 is an isomorphism.
-=--
+\end{corollary}
 
 In [Ada74](#Ada74), Adams lists several cohomology theories (for $E^*(-)$) where the assumption holds.  These are: $S$, $H\mathbb{Z}_p$, $MO$, $MU$, $MSp$, $K$, $KO$.
 
-#### Freeness and Flatness ####
+#### Freeness and Flatness
 
 In [BJW95](#BJW95) and [Boa95](#Boa95) there are various versions of the universal coefficient theorems and K&#252;nneth theorems which are stated and proved (or indications given on how to prove) under assumptions of either [[free module|freeness]] or [[flat module|flatness]].
 
 Here, we shall gather together all the statements made.  In all the following, $E^*(-)$ is a multiplicative generalised cohomology theory with representing ring spectrum $E$.  We use $E_*(-)$ for the associated homology theory.  Following [Boa95](#Boa95) and [BJW95](#BJW95), cohomology and homology are *not* reduced in this section.
 
 +-- {: .num_theorem #homkun}
-###### Theorem ([Boa95, 4.2](#Boa95)) ######
+###### Theorem
+([Boa95, 4.2](#Boa95))
 Assume that $E_*(X)$ or $E_*(Y)$ is a free or flat $E^*$-module.  Then the pairing:
 $$
 \times \colon E_*(X) \otimes E_*(Y) \to E_*(X \times Y),
@@ -666,31 +667,36 @@ induces the K&#252;nneth isomorphism $E_*(X \times Y) \cong E_*(X) \otimes E_*(Y
 The next result relates homology and cohomology.
 
 +-- {: .num_theorem #strdual}
-###### Theorem ([Boa95, 4.14](#Boa95)) ######
+###### Theorem
+([Boa95, 4.14](#Boa95))
 Assume that $E_*(X)$ is a free $E^*$-module.  Then $X$ has strong duality, i.e. the duality map $d \colon E^*(X) \to D E_*(X)$ is a homeomorphism between the profinite topology on $E^*(X)$ and the dual-finite topology on $D E_*(X)$.  In particular, $E^*(X)$ is complete Hausdorff.
 =--
 
 Combining these two gives the K&#252;nneth theorem for cohomology.
 
 +-- {: .num_theorem #cokun}
-###### Theorem ([Boa95, 4.19](#Boa95)) ######
+###### Theorem
+([Boa95, 4.19](#Boa95))
 Assume that $E_*(X)$ and $E_*(Y)$ are free $E^*$-modules.  Then we have the K&#252;nneth homeomorphism $E^*(X \times Y) \cong E^*(X) \widehat{\otimes} E^*(Y)$ in cohomology.
 =--
 
 There are similar results for spectra.  Boardman, Johnson, and Wilson write reduced homology and cohomology as $E_*(X,o)$ and $E^*(X,o)$, even when $X$ is a spectrum (and so the reduced theories are all that there are).
 
 +-- {: .num_theorem #homkunsp}
-###### Theorem ([Boa95, 9.20](#Boa95)) ######
+###### Theorem
+([Boa95, 9.20](#Boa95))
 Assume that $E_*(X,o)$ or $E_*(Y,o)$ is a free or flat $E^*$-module.  Then the pairing $\times \colon E_*(X,o) \otimes E_*(Y,o) \to E_*(X \wedge Y,o)$ is an isomorphism in homology.
 =--
 
 +-- {: .num_theorem #strdusp}
-###### Theorem ([Boa95, 9.25](#Boa95)) ######
+###### Theorem
+([Boa95, 9.25](#Boa95))
 Assume that $E_*(X,o)$ is a free $E^*$-module.  Then $X$ has strong duality, i.e. $d \colon E^*(X,o) \to D E_*(X,o)$ is a homeomorphism between the profinite topology on $E^*(X,o)$ and the dual-finite topology on $D E_*(X,o)$.  In particular, $E^*(X,o)$ is complete Hausdorff.
 =--
 
 +-- {: .num_theorem #cokunsp}
-###### Theorem ([Boa95, 9.31](#Boa95)) ######
+###### Theorem
+([Boa95, 9.31](#Boa95))
 Assume that $E_*(X,o)$ and $E_*(Y,o)$ are free $E^*$-modules.  Then the pairing
 $$
 \times \colon E^*(X,o) \widehat{\otimes} E^*(Y,o) \to E^*(X \wedge Y,o)
@@ -704,13 +710,11 @@ induces the cohomology K&#252;nneth homeomorphism.
  {#InTopology}
 
 For $X$ a [[topological space]], write $Sing X$ for its [[singular simplicial complex]] and 
-
 $$
   C_\bullet(X) 
     \coloneqq
   N \mathbb{Z}[Sing X]
 $$ 
-
 for the [[normalized chain complex]] of the [[simplicial abelian group]] obtained by forming degreewise the [[free abelian group]].
 
 The _[[singular homology]]_ $H_\bullet(X)$ of $X$ is the [[chain homology]] of $C_\bullet(X)$, and for $A$ some [[coefficient]] [[abelian group]], the [[singular cohomology]] $H^\bullet(X,A)$ is the [[cochain cohomology]], of $C_\bullet(X)$ with coefficients in $A$.
