@@ -249,6 +249,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[holographic entanglement entropy]]
 
+* [[single trace operator]]
+
 * [[duality in physics]], [[duality in string theory]]
 
   * [[T-duality]], [[S-duality]], [[U-duality]]
