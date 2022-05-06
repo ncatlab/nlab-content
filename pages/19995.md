@@ -1,13 +1,19 @@
 
 * [webpage](https://www.city.ac.uk/people/academics/yang-hui-he)
 
-## selected writings
+## Selected writings
+
 
 On [[quiver gauge theories]] and [[D-branes]]:
 
 * [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
 
 * {#He18} [[Yang-Hui He]], _Quiver Gauge Theories: Finitude and Trichotomoty_, Mathematics 2018, 6(12), 291 ([doi:10.3390/math6120291](https://doi.org/10.3390/math6120291))
+
+On [[quiver gauge theory]] and [[Donaldson-Thomas theory]] in [[heterotic string theory]]:
+
+* {#HeLee12} [[Yang-Hui He]], Seung-Joo Lee, _Quiver Structure of Heterotic Moduli_, J. High Energ. Phys. (2012) 2012: 119 ([arXiv:1208.3004](https://arxiv.org/abs/1208.3004))
+
 
 On [[NS5-branes]] and [[orientifolds]] with [[RR-field tadpole cancellation]]:
 
@@ -28,7 +34,7 @@ On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of s
 * {#He18b} [[Yang-Hui He]], _Deep-learning the landscape_, talk at _[String and M-Theory: The new geometry of the 21st century](https://ims.nus.edu.sg/events/2018/wstring/wk.php)_ ([pdf slides](https://ims.nus.edu.sg/events/2018/wstring/files/yang.pdf), [video recording](https://www.youtube.com/watch?v=x3ThgBgkPlE))
 
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[quiver gauge theory]]
 
