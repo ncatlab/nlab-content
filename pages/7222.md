@@ -23,7 +23,7 @@ The _Grothendieck-Riemann-Roch theorem_ describes  (the failure of) the [[natura
 
 It says, in the formulation of ([Atiyah-Hirzebruch 61](#AtiyahHirzebruch61)), that for $f \colon X \longrightarrow Y$ a [[flat morphism]] of [[schemes]] which are [[flat morphism|flat]] and [[regular scheme|regular]] [[quasi-projective varieties]] over the [[spectrum of a commutative ring|spectrum]] of a [[Dedekind domain]], then the [[Chern character]] of the [[fiber integration|push-forward]] of some $E$ is the push-forward of the [[cup product]] of the Chern-character of $E$ with the [[Todd class]]. Hence it says that "Chern-cup-Todd is natural under pushforward" along proper maps, and generally along [[K-orientation|K-oriented]] maps.
 
-If $f \colon X \to Y$ is a proper map, then there is a [[commuting diagram]]
+If $f \colon X \to Y$ is a [[proper map]], then there is a [[commuting diagram]]
 
 $$
   \array{
