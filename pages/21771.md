@@ -1,4 +1,4 @@
-A pair $B,N$ of subgroups of a group $G$ is a **BN-pair** if the following holds:
+A pair $B,N$ of subgroups of a [[group]] $G$ is a **BN-pair** if the following holds:
 
 * $B\cup N$ generates $G$,
 * $B\cap N$ is a normal subgroup of $N$,
@@ -6,4 +6,4 @@ A pair $B,N$ of subgroups of a group $G$ is a **BN-pair** if the following holds
 * for each $s\in S,w\in W$ we have $BsB\cdot BwB\subseteq BswB\cup BwB$
 * for $s\in S$, $BsB\cdot BsB\neq B$
 
-Note that the set $S$ is uniquely determined by the axioms, and that $(W,S)$ is a [Coxeter system](https://ncatlab.org/nlab/show/Coxeter+group).
+Note that the [[set]] $S$ is uniquely determined by the axioms, and that $(W,S)$ is a [[Coxeter group|Coxeter system]].
