@@ -40,5 +40,9 @@ $$
 
 * [[Picard ∞-group]]
 
+## References
+
+* [[Alexei Davydov]], [[Dmitri Nikshych]], _Braided Picard groups and graded extensions of braided tensor categories_, ([arXiv:2006.08022](https://arxiv.org/abs/2006.08022))
+
 [[!redirects Picard 2-groups]]
 [[!redirects Picard groupoid of a monoidal category]]
