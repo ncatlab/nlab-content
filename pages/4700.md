@@ -1116,7 +1116,7 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 
 +-- {: .num_defn #TheZeroCocycle}
 ###### Example
-**(The 0-Cocycle)**
+**(The 0-Cocycle in $Graphs_0(\mathbb{R}^3)$)**
 
 The _Peace Symbol_ graph in degree 0 (Example \ref{TrivalenGraphs}) is closed in the graph complex:
 
@@ -1130,9 +1130,23 @@ separately, because each contains a pair of vertices
 with more than one edge between them and is hence a _vanishing graph_ (Def. \ref{VanishingGraphs}) which is set to zero in the quotient (eq:TheGraphComplexAsQuotientByVanishingGraphs) that defines the graph complex (Def. \ref{GraphComplexDgcAlgebra}).
 
 This cocycle should be non-exact, and hence
-generates $H^0\Big( \mathrm{Graphs}_0\big( \mathbb{R}^3\big)\Big)
+generate $H^0\Big( \mathrm{Graphs}_0\big( \mathbb{R}^3\big)\Big)
 \simeq H^0\Big( \mathrm{Conf}_0\big( \mathbb{R}^3\big) \Big)
 \simeq H^0(\ast) \simeq \mathbb{R}$. 
+
+=--
+
+Similarly:
+
++-- {: .num_defn #TheZeroCocycleInGraphs1}
+###### Example
+**(The 0-Cocycle in $Graphs_1(\mathbb{R}^3)$)**
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TheZeroCocycleInGraphs1.jpg" width="500">
+</center>
+
 
 =--
 
