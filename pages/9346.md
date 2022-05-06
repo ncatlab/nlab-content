@@ -557,7 +557,7 @@ At the heart of it, this increase in "mathematical dimension" is simply a reflec
 
 But string theory is really about the _[[second quantization]]_ of these 2-dimensional [[worldsheet]] field theories, and it turns out that under this passage other [[worldvolume]] theories of all kinds of dimensions appear, too: the various "[[branes]]". Accordingly, [[string theory]] involves [[n-categories]] for various values of $n$.
 
-Much of this relation of [[string theory]] to [[higher category theory]] was unclear when string theory developed in the late 20th century. In fact also the theory of [[n-categories]] did not really exist yet, just a vague feeling that such a theory ought to exist. What was prevalent in string theory then was a feeling that _some_ kind of new mathematics would be necessary to capture the nature of the theory.
+Much of this relation of [[string theory]] to [[higher category theory]] ([[homotopy theory]], see at: _[[higher structures]]_) was unclear when string theory developed in the late 20th century. In fact also the theory of [[n-categories]] did not really exist yet, just a vague feeling that such a theory ought to exist. What was prevalent in string theory then was a feeling that _some_ kind of new mathematics would be necessary to capture the nature of the theory.
 
 > {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. ([[Edward Witten]], [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf))
 
