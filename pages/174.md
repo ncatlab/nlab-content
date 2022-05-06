@@ -37,7 +37,7 @@ Generally, there are two different incarnations of branes
 
 1. **[[black branes|black p-branes]]** (as in "[[black hole]]"): these are [[soliton|solitonic]] solutions to [[field theories]], typically [[supergravity]] theories, with [[singularities]] of [[dimension]] $(p+1)$. In analogy to how a [[charged black hole]] ($p = 0$) [[source|sources]] an [[electromagnetic field]] with [[field strength]] 2-form, so black $p$-branes source $(p+2)$-form [[higher gauge fields]] and hence appear in those [[supergravity]] theories where such exists.
 
-The idea is that these two concepts match where a [[condensate]] of fundamental $p$-branes turns into a black $p$-branes.
+The idea is that these two concepts match where a [[condensate]] of fundamental $p$-branes turns into a black $p$-brane.
 
 
  
