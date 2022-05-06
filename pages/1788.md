@@ -1,2 +1,64 @@
 
-${\color{darkgreen} sss}$
+$$
+  \array{
+    \cdots
+    &
+    \to
+    &
+    \pi_{2d}
+    \big(
+      \mathbb{S}
+    \big)
+    &
+    \longrightarrow
+    &
+    \pi_{2d}
+    \big( 
+      M\mathrm{U}
+    \big)
+    &
+    \overset{
+    }{\longrightarrow}
+    &
+    \pi_{2d}\big(M\mathrm{U}/\mathbb{S}\big)
+    &
+    \overset{
+      \partial
+    }{\longrightarrow}
+    &
+    \pi_{2d}\big(\Sigma\mathbb{S}\big)
+    &\longrightarrow&
+    \pi_{2d}\big(\Sigma M\mathrm{U}\big)  
+    \\
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    \\
+    &&
+    \Omega^{fr}_{2d}
+    &
+    \longrightarrow
+    &
+    \Omega^{\mathrm{U}}_{2d}
+    &
+      \overset{}{\longrightarrow}
+    &
+    \Omega^{(\mathrm{U},fr)}_{2d}
+    &
+      \underset{\partial}{\longrightarrow}
+    &   
+    \Omega^{fr}_{2d-1}
+    &
+      \overset{}{\longrightarrow}
+    &   
+    0
+  }
+$$
+
