@@ -21,9 +21,9 @@ Given an [[adjunction]]
 
 $$
   (L \dashv R)
-  \;\colon\;
+  \colon\;
   X
-    \stackrel{\overset{L}{\longrightarrow}}{\underset{R}{\longleftarrow}}
+    \underoverset{R}{L}{\rightleftarrows}
   Y
 $$
 
