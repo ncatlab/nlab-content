@@ -247,7 +247,7 @@ Early articles clarifying the relation to [[type II string theory]] now known as
 
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
 
-The relation also to the [[heterotic string]] was understood in ([Horava-Witten 95](#HoravaWitten95))&#10075; see at _[[Ho?ava-Witten theory]]_.
+The relation also to the [[heterotic string]] was understood in ([Horava-Witten 95](#HoravaWitten95))&#10075; see at _[[Horava-Witten theory]]_.
 
 More technical surveys include
 
