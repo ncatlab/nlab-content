@@ -18,3 +18,4 @@
 category: people
 
 [[!redirects Julia Bergner]]
+[[!redirects Julia E. Bergner]]
