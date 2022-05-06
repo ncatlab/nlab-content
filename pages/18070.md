@@ -810,10 +810,10 @@ This underlies the models of configuration spaces by [[graph complexes]], see th
 
 
 
-### Cohomology 
+### Homology and cohomology 
  {#ReferencesCohomology}
 
-General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configuration spaces of points
+General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configuration spaces of points:
 
 
 * {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
@@ -822,9 +822,24 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
 
+* [[Yves Félix]], _Rational Betti numbers of configuration spaces_, Topology and its Applications
+Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
+
+
+* Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
+
+
+
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization homology_, Algebr. Geom. Topol. 17 (2017) 3137-3187 ([arXiv:1405.6696](https://arxiv.org/abs/1405.6696))
 
-* Christoph Schiessl, _Cohomology of Configuration Spaces_ ([pdf](https://people.math.ethz.ch/~cschiess/thesis.pdf))
+* Christoph Schiessl, _Betti numbers of unordered configuration spaces of the torus_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
+
+* Christoph Schiessl, _Integral cohomology of configuration spaces of the sphere_ ([arxiv:1801.04273](https://arxiv.org/abs/1801.04273))
+
+
+
+
+
 
 ### Cohomology modeled by graph complexes
 
