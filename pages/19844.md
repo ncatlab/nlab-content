@@ -398,7 +398,7 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
 
-* {#LHCb200304831} [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
+* {#LHCb200304831} [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_, Phys. Rev. Lett. 125, 011802 ([cds:2712641](http://cds.cern.ch/record/2712641), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831), [doi:10.1103/PhysRevLett.125.011802](https://doi.org/10.1103/PhysRevLett.125.011802))
 
 * [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0\to K^{\ast 0} \mu^+ \mu^-$ decay_ ([spire:1784890](https://inspirehep.net/literature/1784890), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
 
