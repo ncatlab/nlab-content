@@ -115,7 +115,7 @@ Critical comments are in
 
 * {#Wells18} [[James Wells]], _Finetuned Cancellations and Improbable Theories_ ([arXiv:1809.03374](https://arxiv.org/abs/1809.03374))
 
-* Matěj Hudec, Michal Malinský, _Hierarchy and decoupling_ ([arXiv:1902.04470](https://arxiv.org/abs/1902.04470))
+* Matěj Hudec, [[Michal Malinský]], _Hierarchy and decoupling_ ([arXiv:1902.04470](https://arxiv.org/abs/1902.04470))
 
 See also
 
