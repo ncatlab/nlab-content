@@ -683,8 +683,12 @@ The notion of the nerve of a category seems to be due to Grothendieck, which is 
 Many of the later developments can already be seen there in 'embryonic' form.
 
 [[!redirects nerves]]
+[[!redirects nerve functor]]
+[[!redirects nerve functors]]
 [[!redirects simplicial nerve]]
 [[!redirects simplicial nerves]]
+[[!redirects simplicial nerve functor]]
+[[!redirects simplicial nerve functors]]
 
 [[!redirects nerve of a category]]
 [[!redirects nerves of a categories]]
