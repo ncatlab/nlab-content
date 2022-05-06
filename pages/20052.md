@@ -52,6 +52,8 @@ For now, see more in [Vickers](#vmonad).
 
 Let $L$ be a [[locale]]. Then a valuation on $L$ is by definition a valuation on its [[frame]] $\mathcal{O}(L)$. In particular, a valuation on a [[topological space]] is a valuation on the [[lattice of open subsets|lattice of its open sets]].
 
+Valuations on locales are used in the [[topos approach to quantum mechanics]] and the [[Bohr topos]].
+
 ## Examples
 
 ### Dirac valuation
@@ -74,7 +76,6 @@ See also
 
 * {#vmonad} [[Steve Vickers]], _A monad of valuation locales_ (<a href="https://www.cs.bham.ac.uk/~sjv/Riesz.pdf">pdf</a>).
  
+* [[Thierry Coquand]] and [[Bas Spitters]], _Integrals and Valuations_ [link](http://logicandanalysis.org/index.php/jla/article/view/14/12).
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Valuation_(measure_theory)">Valuation (measure theory)</a>_
-
-
