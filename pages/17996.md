@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _basic line bundle on the 2-sphere_ is the [[complex line bundle]] on the [[2-sphere]] whose [[first Chern class]] is a generator of $H^2(S^2, \mathbb{Z})$.
+The _basic line bundle on the 2-sphere_ is the [[complex line bundle]] on the [[2-sphere]] whose [[first Chern class]] is a generator $\pm 1 \in \mathbb{Z} \,\simeq\, H^2(S^2, \mathbb{Z})$, equivalently the [[tautological line bundle]] on the [[Riemann sphere]] regarded as [[complex projective space|complex projective 1-space]].
 
 This is the [[pullback bundle]] of the map $S^2 \to B U(1) \simeq B^2 \mathbb{Z}$ to the [[classifying space]]/[[Eilenberg-MacLane space]] which itself represents a generator of the [[homotopy group]] $\pi_2(S^2) \simeq \mathbb{Z}$.
 
@@ -248,7 +248,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product]] of vector bundles.
+to the topological K-theory ring of the [[product topological space]] $X \times S^2$, where the second map is the [[external tensor product]] of vector bundles.
 
 This composite is an [[isomorphism]] if $X$ is a [[compact Hausdorff space]] (for $X = \ast$ the [[point space]] this reduces to the previous statement).
 
@@ -261,6 +261,7 @@ This is called the _[[fundamental product theorem in topological K-theory]]_. It
 
 * [[universal complex line bundle]]
 
+* [[tautological line bundle]], [[equivariant tautological line bundle]]
 
 ## References
 
