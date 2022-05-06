@@ -11,7 +11,7 @@ Every [[separable space|separable]] metacompact [[topological space]] $X$ is Lin
 \begin{proof}
 If $\{U_i\}_{i\in I}$ is an open cover with no countable subcover, let $\{U_j\}_{j\in J}$ be a point finite refinement. Then $\{U_j\}_{j\in J}$ is uncountable and so some point of the countable dense set is in $U_j$ for uncountably many $j \in J$.
 \end{proof}
- 
+  
 ## Related statements and properties
 
 [[!include topology - global countability axioms]]
