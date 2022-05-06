@@ -61,7 +61,7 @@ $$
   }
 $$
 
-Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold (e.g. [Wang-Xu 10, Sec. 2.6](#WangXu10), [SP 17](#SP17)).
+Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold (e.g. [Wang-Xu 10, Sec. 2.6](#WangXu10), [Bauer 10](#Bauer10), [SP 17](#SP17)).
 
 ## Related concepts
 
@@ -69,11 +69,16 @@ Moreover, the relation $24 \cdot [S^3] \,\simeq\, 0$ is represented by the [[bor
 
 ## References
 
+Review:
+
 * {#WangXu10} [[Guozhen Wang]], Zhouli Xu, Section 2.6 of: _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
-* {#SP17} [[Chris Schommer-Pries]], answer to _Nilpotence of the stable Hopf map via framed cobordism_, 2017 ([MO:a/218053/381](https://mathoverflow.net/a/218053/381))
+See also:
 
-  (see also [[Tilman Bauer]]'s [MO:a/44885/381](https://mathoverflow.net/a/44885/381))
+* {#Bauer10} [[Tilman Bauer]], answer to: _third stable homotopy group of spheres via geometry?_, 2010 ([MO:a/44885](https://mathoverflow.net/a/44885/381))
+
+* {#SP17} [[Chris Schommer-Pries]], answer to: _Nilpotence of the stable Hopf map via framed cobordism_, 2017 ([MO:a/218053](https://mathoverflow.net/a/218053/381))
+
 
 
 [[!redirects 3rd stable homotopy group of spheres]]
