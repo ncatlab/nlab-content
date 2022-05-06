@@ -15,14 +15,11 @@
 
 ## Idea
 
-Weak model categories are a relaxation of [[model categories]],
-even weaker than [[semimodel categories]],
-that still allow for a rich theory largely analogous
-to that of [[model categories]].
+The concept of _weak model categories_ is a relaxation of that of [[model categories]],
+even weaker than the concept of [[semimodel categories]], but such that it still allows for a rich theory largely analogous to that of actual [[model categories]].
 
-In particular, one can construct left and right [[Bousfield localizations]]
-in this setting without assuming the [[model category]]
-to be [[left proper]] respectively [[right proper]].
+In particular, one can construct left and right [[Bousfield localizations]] in this setting without assuming the [[model category]] to be [[left proper]] respectively [[right proper]].
+
 
 ## Definition
 
