@@ -307,6 +307,9 @@ See also
 
 * {#Ginat20} Yonadav Barry Ginat, _Multiple-Scales Approach for Addressing The Averaging Problem in Cosmology_ ([arXiv:2005.03026](https://arxiv.org/abs/2005.03026))
 
+* Martin Bojowald, Ding Ding, _Canonical description of cosmological backreaction_ ([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
+
+
 
 
 
