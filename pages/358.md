@@ -64,7 +64,7 @@ The given point serves as an equivalence between $(-1)$-[[(-1)-morphism|morphism
 ## The periodic table
 
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories:
-<table><tr><th markdown="1">$k$&#8595;\$n$&#8594;</th><th markdown="1">$-1$</th><th>$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th>...</th></tr>
+<table><tr><th markdown="1">$k$&#8595;\$n$&#8594;</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th>...</th></tr>
 <tr><th markdown="1">$0$</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object|pointed]] [[category]]</td><td>[[pointed object|pointed]] [[2-category]]</td><td>...</td></tr>
 <tr><th markdown="1">$1$</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>...</td></tr>
 <tr><th markdown="1">$2$</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>...</td></tr>
