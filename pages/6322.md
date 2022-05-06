@@ -37,6 +37,10 @@ See at _[[confinement]]_.
 
 See at _[[asymptotic freedom]]_.
 
+### Trace anomaly
+
+See at _[[QCD trace anomaly]]_.
+
 ### Phase diagram
 
 QCD has an intricate [[phase diagram]] (e.g. [Hands 01](#Hands01), [Schaefer 05](#Schaefer05)) including
