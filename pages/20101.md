@@ -85,8 +85,10 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 * [[LHCb collaboration]], _Test of lepton universality with $\Lambda^0_b\to p K^-\ell^+\ell^-$ decays_ ([arXiv:1912.08139](https://arxiv.org/abs/1912.08139))
 
   also:
+  
+  CERN courier, _[Debut for baryons in flavour puzzle](https://cerncourier.com/a/debut-for-baryons-in-flavour-puzzle/)_, 20 Dec. 2019
 
-  CERN courier, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_
+  CERN news, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_, 15 Jan 2020
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
 
