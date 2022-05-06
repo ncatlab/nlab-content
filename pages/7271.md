@@ -15,9 +15,15 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 * [[Peter May]], _Reminiscences of the Life and Mathematics of J. Frank Adams_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/69.pdf))
 
-## Writings
+## Selected writings
+
+On [[stable homotopy theory]] and [[generalized (Eilenberg-Steenrod) cohomology]]:
 
 * _[[Stable homotopy and generalized homology]]_
+
+On the work of [[Henri Cartan]] in relation to [[homotopy theory]]:
+
+* [[John Frank Adams]], _The work of M. H. Cartan in its relation with homotopy theory_, Colloque analyse et topologie,Astérisque no. 32-33 (1976), p. 29-41 ([numdam:AST_1976__32-33__29_0/](http://www.numdam.org/item/AST_1976__32-33__29_0/))
 
 ## Related entries
 
