@@ -11,6 +11,10 @@ A [[weak factorization system]] $(L,R)$ on a [[locally presentable category]] is
 
 By the [[small object argument]], any set $I$ of morphisms in a locally presentable category generates a combinatorial weak factorization system.
 
+## Properties
+
+* Combinatorial wfs can be both right- and left-lifted along adjunctions; see [[transferred model structure]].
+
 ## Related concepts
 
 * A [[combinatorial model category]] is a [[model category]] whose two constituent weak factorization systems are combinatorial.
@@ -18,6 +22,10 @@ By the [[small object argument]], any set $I$ of morphisms in a locally presenta
 * A more general notion is an [[accessible weak factorization system]].
 
 * Any combinatorial weak factorization system can be equipped with the structure of an [[algebraic weak factorization system]] (generally in more than one way).
+
+## References
+
+* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
 
 [[!include algebraic model structures - table]]
 
