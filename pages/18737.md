@@ -52,4 +52,6 @@ Cubical type theory can be modeled in a number of varieties of [[cubical sets]],
 
 * [[homotopytypetheory:Evan Cavallo]], [[homotopytypetheory:Anders Mortberg]], A unifying cartesian cubical type theory, 2019, [PDF](http://www.cs.cmu.edu/~ecavallo/works/unifying-cartesian.pdf)
 
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
+
 [[!redirects cubical type theories]]
