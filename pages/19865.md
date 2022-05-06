@@ -70,6 +70,10 @@ The requirement that $V\cap X= \emptyset$ amounts to a "local [[Barendregt conve
 
 ## Operators
 
+For each type former, we describe its binding arity, argument arity and sorts, and scoping relation in a hopefully more readable form, by giving arbitrary names to its bound variables and arguments.  We also give the "sugared" or "traditional" syntax that we will usually use for it.
+
+For instance, the $\lambda$ row below means that $\lambda$ is an operator of sort $tm$, it has two arguments of sort $ty$ and one of sort $tm$, and one binder that scopes over the second type argument and the term argument.
+
 ### $\Pi$-types
 
 [[!include Initiality Project - Raw Syntax - Pi-types]]
