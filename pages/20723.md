@@ -36,6 +36,10 @@ The original articles are
 
 * {#Quillen94} [[Daniel Quillen]], _On the group completion of a simplicial monoid_, Appendix Q in: [[Eric Friedlander]], [[Barry Mazur]], _Filtrations on the homology of algebraic varieties_, Memoir of the A.M.S., Vol. 110, no. 529 (1994) ([doi:10.1090/memo/0529](http://dx.doi.org/10.1090/memo/0529))
 
+Alternative proof using a [[model category]] of [[bisimplicial sets]]:
+
+* [[Ieke Moerdijk]], _Bisimplicial Sets and the Group-Completion Theorem_ In: [[Rick Jardine]], [[Victor Snaith]] (eds.) _Algebraic K-Theory: Connections with Geometry and Topology_, NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 279. Springer, Dordrecht (1989) ([doi:10.1007/978-94-009-2399-7_10](https://doi.org/10.1007/978-94-009-2399-7_10))
+
 Alternative formulation for the case of [[commutative monoid|commutative]] [[topological monoids]]:
 
 * [[Oscar Randal-Williams]], _Group-completion, local coefficient systems and perfection_, Q. J.
