@@ -139,6 +139,8 @@ See also at _[[torsion constraints in supergravity]]_.
 
     * [[Witten genus]], [[(2,1)-dimensional Euclidean field theories and tmf]]
 
+  * [[heterotic line bundle]]
+
   * [[type II string theory]]
 
   * [[type 0 string theory]]
