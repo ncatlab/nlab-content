@@ -55,7 +55,7 @@ Note that on many topological spaces of interest, such as [[metric spaces]], mos
  <tr>
   <th markdown="1">Functionals</th>
   <td>[[measure|Measures]]</td>
-  <td>[[tau-additive measure|$\tau$-additive Borel measures]]</td>
+  <td>[[tau-additive measure|τ-additive Borel measures]]</td>
   <td>[[valuation (measure theory)|Continuous valuations]]</td>
  </tr>
  <tr>
@@ -91,7 +91,7 @@ Note that on many topological spaces of interest, such as [[metric spaces]], mos
  <tr>
   <th markdown="1">[[monad|Monad]]*</th>
   <td>[[Giry monad]]</td>
-  <td>[[Monad of measures on topological spaces]]</td>
+  <td>[[extended probabilistic powerdomain##the_monad_of_measures_on_top|monad of measures on Top]]</td>
   <td>[[valuation monad on locales]]</td>
  </tr>
 </table>
