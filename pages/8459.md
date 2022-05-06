@@ -177,26 +177,18 @@ In conclusion this means that it is not really the passage to homology groups wh
 
 * [[long exact sequence of homotopy groups]]
 
-* [[long exact sequence in generalized homology]]
+* [[long exact sequence in homology]]
+
+  * [[long exact sequence in generalized homology]]
 
 ## References
 
-Lecture notes include
+Lecture notes:
 
 * Robert Ash, _The long exact homology sequence and applications_ ([pdf](http://www.math.uiuc.edu/~r-ash/Algebra/Supplement.pdf))
 
+[[!redirects long exact sequences in chain homology]]
 
-[[!redirects long exact sequence in cohomology]]
-[[!redirects long exact sequences in homology]]
-[[!redirects long exact sequences in cohomology]]
-
-[[!redirects homology exact sequence]]
-[[!redirects homology exact sequences]]
-[[!redirects cohomology exact sequence]]
-[[!redirects cohomology exact sequences]]
-
-[[!redirects homology long exact sequence]]
-[[!redirects homology long exact sequences]]
-[[!redirects cohomology long exact sequence]]
-[[!redirects cohomology long exact sequences]]
+[[!redirects long exact sequence in chain cohomology]]
+[[!redirects long exact sequences in chain cohomology]]
 
