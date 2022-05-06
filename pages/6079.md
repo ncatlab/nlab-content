@@ -21,7 +21,7 @@ $C^{-1}(1)=1$,
 
 $C^{-1}(\omega\wedge \tau)=C^{-1}(\omega)\wedge C^{-1}(\tau)$ 
 
-and $C^{-1}(dF_{ab}^{-1}(f))=[f^{p-1}df]$ in $\mathcal{H}^1(F_*\Omega^\bullet_{X/S})$. 
+and $C^{-1}(d F_{ab}^{-1}(f))=[f^{p-1}d f]$ in $\mathcal{H}^1(F_*\Omega^\bullet_{X/S})$. 
 
 The inverse of this isomorphism is the traditional Cartier isomorphism.
 
@@ -29,13 +29,13 @@ The construction is quite simple. First note that we can immediately reduce to c
 
 Now to construct for $i=1$ we just note that such a map is equivalent to a $(\pi^{(p)})^{-1}$-linear derivation $\mathcal{O}_{X^{(p)}}\to \mathcal{H}^1(F_*\Omega_{X/S}^\bullet)$. This is equivalent to defining a map on local sections $\delta: \mathcal{O}_X\times \pi^{-1}(\mathcal{O}_S)\to \mathcal{H}^1(\Omega_{X/S}^\bullet)$ that is biadditive and satisfies the extra three properties 
 
-$\delta(fs, s')=\delta(f, s^ps')$, 
+$\delta(f s, s')=\delta(f, s^p s')$, 
 
-$\delta(gf, s)=g^p\delta(f,s)+f^p\delta(g,s)$ and 
+$\delta(g f, s)=g^p\delta(f,s)+f^p\delta(g,s)$ and 
 
-$\delta(f,1)=[f^{p-1}df]$.
+$\delta(f,1)=[f^{p-1}d f]$.
 
-Now define the map explicitly by $\delta(f,s)=[sf^{p-1}df]$. It can be checked that this map satisfies all the properties listed and is indeed an isomorphism. This is $C^{-1}$, the inverse of the Cartier isomorphism.
+Now define the map explicitly by $\delta(f,s)=[s f^{p-1}d f]$. It can be checked that this map satisfies all the properties listed and is indeed an isomorphism. This is $C^{-1}$, the inverse of the Cartier isomorphism.
 
 ## Relation to the Hodge-de Rham Spectral Sequence
 
