@@ -22,83 +22,13 @@ The following provides more details. For technical help with special features of
 * table of contents
 {: toc}
 
-## Technical
-
-### Software required to use the $n$Lab
-{#software}
-
-The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML). Presently the only browser with _native_ MathML support, and hence immediate rendering of the formulas, is [Firefox](http://www.mozilla.com/firefox/).
-
-Essentially all other browsers fall back to rendering MathML formulas using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works, but is slow.  On small pages it is fine, on larger pages with many formulas MathJax may take up to several minutes for rendering.
- 
-### How to search the nLab & nForum from firefox
-
-(Firefox - and clones - specific)
-
-Here are some search plugins for firefox that will let you search the nLab from the firefox search bar.  **EDIT:** These are old and may not work with recent versions of Firefox.  Instead you can use the [search engine creator plugin](https://addons.mozilla.org/en-US/firefox/addon/search-engine-creator/).  Someone should update these files to conform to [OpenSearch](https://developer.mozilla.org/en-US/Add-ons/Creating_OpenSearch_plugins_for_Firefox); then they might work with other browsers too.
-
-* [[nlab-search.xml:file]]: searches the nLab (like the search box at the top of every page).
-* [[nlab-goto.xml:file]]: takes you directly to the page with a given exact title (if it exists; otherwise it takes you to an edit box to create such a page).
-* [[nlab-edit.xml:file]]: takes you directly to the "edit" page for a given title.
-* [[nforum-topic-search.xml:file]]: searches the nForum Topics.
-* [[nforum-comment-search.xml:file]]: searches the nForum Comments.
-
-It would be nice if these had different icons.  To use one or more of these, drop them in the 'searchplugins' directory of your firefox profile.
-
-Alternatively, you can try the [add to search bar](https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/) add-on for Firefox.  This will let you right-click in the search box on any page and add it to your search bar.  (You can't duplicate the "goto" and "edit" plugins this way, though.)
-
-If DuckDuckGo is your search engine, you can type "!nl" to search nLab, e.g. "!nl morphism".
-
-### How to edit nLab pages in your favorite text editor
-
-(Firefox - and clones - specific)
-
-One way to do this is to install [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/4125) or another one like it.
-
-If your favorite editor is [Emacs](http://www.gnu.org/software/emacs/) with [AucTeX](http://www.gnu.org/software/auctex/), you may find the following snippet useful to put in your `.emacs` file:
-
-    (add-to-list 'auto-mode-alist '("/\\(www.\\)?ncatlab.org" . latex-mode))
-    (add-to-list 'auto-mode-alist '("/golem.ph.utexas.edu" . latex-mode))
-    (defun nlab-latex-fixes ()
-      (when (or (string-match "/\\(www.\\)?ncatlab.org" buffer-file-name)
-                (string-match "/golem.ph.utexas.edu" buffer-file-name))
-      (longlines-mode t)
-      (set (make-local-variable 'TeX-open-quote) "\"")
-      (set (make-local-variable 'TeX-close-quote) "\"")))
-    (add-hook 'LaTeX-mode-hook 'nlab-latex-fixes)
-
-This will tell Emacs to automatically edit nLab pages (and nCafe comments as well, for good measure) in LaTeX mode, with long lines wrapped using soft returns, and ordinary double-quotes rather than LaTeX ones.
-
-### How to print a page from the nLab
-
-If you just print it directly, the logo will become a huge blob that takes up the entire first page.  I know, we can and should fix this, but we haven\'t.  So for now, use the 'Print' link at the bottom of the page.  As a shortcut in most browsers on most operating systems, hit Alt-Shift-P while the focus is in the page to go to the printable page.
-
-### How to customize the nLab
-
-(Firefox - and clones - specific)
-
-You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try using the Stylish add-on if you are using Firefox; Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108).
-
-Currently, the following stylish themes are available:
-
-* [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
-* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
-
-### How to download a local copy of the nLab 
-  {#download}
- 
-It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21), say in [this thread](https://nforum.ncatlab.org/discussion/8991/nlab-database-backups/?Focus=71715#Comment_71715).
-
-If you would like instead to download rendered nLab pages for local viewing, let us know as well at the nForum.
-
 ## Getting Started
 
-### How to use a Wiki
+### How to edit the nLab
 
-Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.  They key point is that links to other pages are placed in <nowiki>[[double brackets]]</nowiki>.
+Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.  The key point is that links to other pages are placed in <nowiki>[[double brackets]]</nowiki>.
 
-There is no feature to preview your edits.  Instead, submit them and then edit again.  Two successive submissions with the same signature and made within 30 minutes of each other count as one in the record, so don\'t worry about cluttering up the database with multiple submissions in a row.
-
+There is no feature to preview your edits.  Instead, submit them and then edit again.  Two successive submissions with the same signature and made within 30 minutes of each other count as one.
 
 ### How to start a new page
 {#newpage}
@@ -111,12 +41,12 @@ You do this in two steps, the first of which may have already been done:
 
 _Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (<nowiki>[[like this|Like this]]</nowiki>.) We loosely agreed to try to follow that and some other naming conventions; see [below](#naming).
 
-However, this is less of an issue now that we have [[redirects]].
+Use [[redirects]] to allow for other casing to be used when linking to the page elsewhere in the nLab.
 
 
-### Signing 
+### Signing an edit
 
-When you edit a page, you can (and should) put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don\'t, then your contribution will be credited to 'Anonymous' (formerly the [[AnonymousCoward]]).
+When you edit a page, you should put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don't, then your contribution will be credited to 'Anonymous' (formerly the [[AnonymousCoward]]).
 
 Once you edit a page for the first time, your name will appear at the bottom, grayed out with a question mark since there is no page with your name yet.  You may take this as an invitation to create a user page and tell us about yourself.  But if you don't want to or don't have the time right now, you can forget about this. If you just want to show up on [category: people](http://www.ncatlab.org/nlab/list/people), then you make a page containing only 'category: people' (or someone else may do this for you).
 
@@ -179,10 +109,7 @@ The result is that links to 'B' will redirect to 'A' (not to 'B > history').  An
 
 ### How to remove a page 
 
-To remove a page, look at [category: empty](https://ncatlab.org/nlab/list/empty) and see which number should be used next, then rename the page to `empty ###` using that number.  Replace the content (including the automatically added redirect) with `category: empty`.
-
-(To remove the backlog of empty pages, one should also create pages by reversing this process, although it\'s easy to forget to do that.)
-
+Please make a request at the [nForum](https://nforum.ncatlab.org/). 
 
 ## How to organize and write content
  {#HowToOrganizeAndWriteContent}
@@ -200,9 +127,108 @@ Every page starts out tiny and may not seem to need a structure by subsections. 
 ### Definition-, Theorem-, Proof environments
  {#DefinitionTheoremProofEnvironments}
 
-You should include actual mathematics in appropriate environements, as familiar from textbooks and research articles in mathematics.
+You should include actual mathematics in appropriate environments, as familiar from textbooks and research articles in mathematics.
 
-The syntax for this is given at [Instiki theorem environments](http://golem.ph.utexas.edu/wiki/instiki/show/Theorems):
+#### LaTeX syntax
+
+As of mid-2018, one can use environments exactly as in LaTeX.
+
+For example, see the [source](https://ncatlab.org/nlab/source/HowTo) of this page for how to produce the following.
+
+\begin{theorem} \label{SomeTheorem}
+   Some theorem.
+\end{theorem}
+
+The available environments are listed below. Some environments can be specified in several ways.
+
+<table>
+  <thead>
+    <tr><th>Environment</th><th>Syntax</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Definition</td>
+      <td>definition</td>
+    </tr>
+    <tr>
+      <td>defn</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Theorem</td>
+      <td>theorem</td>
+    </tr>
+    <tr>
+      <td>thm</td>
+    </tr>
+    <tr>
+      <td>Proof</td>
+      <td>proof</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Proposition</td>
+      <td>proposition</td>
+    </tr>
+    <tr>
+      <td>prop</td>
+    </tr>
+    <tr>
+      <td>prpn</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Remark</td>
+      <td>remark</td>
+    </tr>
+    <tr>
+      <td>rmk</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Corollary</td>
+      <td>corollary</td>
+    </tr>
+    <tr>
+      <td>cor</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Lemma</td>
+      <td>lemma</td>
+    </tr>
+    <tr>
+      <td>lem</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td>example</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Notation</td>
+      <td>notation</td>
+    </tr>
+    <tr>
+      <td>notn</td>
+    </tr>
+    <tr>
+      <td>Terminology</td>
+      <td>terminology</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Conjecture</td>
+      <td>conjecture</td>
+    </tr>
+    <tr>
+      <td>conj</td>
+    </tr>
+    <tr>
+      <td>Scholium</td>
+      <td>scholium</td>
+    </tr>
+  </tbody>
+</table>
+
+Labels for the purpose of referencing work exactly as in LaTeX: put ```\label{SomeTheorem}``` anywhere inside the environment block. Later, one can reference it as Theorem \ref{SomeTheorem}. Again, see the [source](https://ncatlab.org/nlab/source/HowTo) of this page for how to produce this reference.  
+
+#### Older syntax
+
+An older syntax for this is described at [Instiki theorem environments](http://golem.ph.utexas.edu/wiki/instiki/show/Theorems):
 
 A [[definition]] should be enclosed in 
 
@@ -260,9 +286,9 @@ and a remark in
 
      =--
 
-Apart from ensuring that it is clear to the reader at each stage what your text is meaning to accomplish, this will make the software format your text appropriately (for instance propositions and theorems will be set in italics) and automatically add a numbering.
+Beware, contrary to the behaviour with the LaTeX syntax described above, you do need to use the labels exactly as given above. That is, it needs to be `defn`, `thm`, and `cor`; neither `definition` nor `theorem` nor `corollary` (nor other abbreviations such as `def`) will be recognized by the software.
 
-Beware that you do need to use the labels exactly as given above. It needs to be `defn`, `thm`, and `cor`; neither `definition` nor `theorem` nor `corollary` (nor other abbreviations such as `def`) will be recognized by the software.
+Use the LaTeX syntax where possible.
 
 ### Cross-links
  {#CrossLinks}
@@ -752,5 +778,73 @@ This is worth perusing carefully;
 
 $$\multiscripts{_0^2_1}{R}{_i^j_k}$$ 
 
+## Technical
+
+### Software required to use the $n$Lab
+{#software}
+
+The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML). Presently the only browser with _native_ MathML support, and hence immediate rendering of the formulas, is [Firefox](http://www.mozilla.com/firefox/).
+
+Essentially all other browsers fall back to rendering MathML formulas using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works, but is slow.  On small pages it is fine, on larger pages with many formulas MathJax may take up to several minutes for rendering.
+ 
+### How to search the nLab & nForum from firefox
+
+(Firefox - and clones - specific)
+
+Here are some search plugins for firefox that will let you search the nLab from the firefox search bar.  **EDIT:** These are old and may not work with recent versions of Firefox.  Instead you can use the [search engine creator plugin](https://addons.mozilla.org/en-US/firefox/addon/search-engine-creator/).  Someone should update these files to conform to [OpenSearch](https://developer.mozilla.org/en-US/Add-ons/Creating_OpenSearch_plugins_for_Firefox); then they might work with other browsers too.
+
+* [[nlab-search.xml:file]]: searches the nLab (like the search box at the top of every page).
+* [[nlab-goto.xml:file]]: takes you directly to the page with a given exact title (if it exists; otherwise it takes you to an edit box to create such a page).
+* [[nlab-edit.xml:file]]: takes you directly to the "edit" page for a given title.
+* [[nforum-topic-search.xml:file]]: searches the nForum Topics.
+* [[nforum-comment-search.xml:file]]: searches the nForum Comments.
+
+It would be nice if these had different icons.  To use one or more of these, drop them in the 'searchplugins' directory of your firefox profile.
+
+Alternatively, you can try the [add to search bar](https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/) add-on for Firefox.  This will let you right-click in the search box on any page and add it to your search bar.  (You can't duplicate the "goto" and "edit" plugins this way, though.)
+
+If DuckDuckGo is your search engine, you can type "!nl" to search nLab, e.g. "!nl morphism".
+
+### How to edit nLab pages in your favorite text editor
+
+(Firefox - and clones - specific)
+
+One way to do this is to install [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/4125) or another one like it.
+
+If your favorite editor is [Emacs](http://www.gnu.org/software/emacs/) with [AucTeX](http://www.gnu.org/software/auctex/), you may find the following snippet useful to put in your `.emacs` file:
+
+    (add-to-list 'auto-mode-alist '("/\\(www.\\)?ncatlab.org" . latex-mode))
+    (add-to-list 'auto-mode-alist '("/golem.ph.utexas.edu" . latex-mode))
+    (defun nlab-latex-fixes ()
+      (when (or (string-match "/\\(www.\\)?ncatlab.org" buffer-file-name)
+                (string-match "/golem.ph.utexas.edu" buffer-file-name))
+      (longlines-mode t)
+      (set (make-local-variable 'TeX-open-quote) "\"")
+      (set (make-local-variable 'TeX-close-quote) "\"")))
+    (add-hook 'LaTeX-mode-hook 'nlab-latex-fixes)
+
+This will tell Emacs to automatically edit nLab pages (and nCafe comments as well, for good measure) in LaTeX mode, with long lines wrapped using soft returns, and ordinary double-quotes rather than LaTeX ones.
+
+### How to print a page from the nLab
+
+If you just print it directly, the logo will become a huge blob that takes up the entire first page.  I know, we can and should fix this, but we haven\'t.  So for now, use the 'Print' link at the bottom of the page.  As a shortcut in most browsers on most operating systems, hit Alt-Shift-P while the focus is in the page to go to the printable page.
+
+### How to customize the nLab
+
+(Firefox - and clones - specific)
+
+You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try using the Stylish add-on if you are using Firefox; Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108).
+
+Currently, the following stylish themes are available:
+
+* [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
+* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
+
+### How to download a local copy of the nLab 
+  {#download}
+ 
+It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21), say in [this thread](https://nforum.ncatlab.org/discussion/8991/nlab-database-backups/?Focus=71715#Comment_71715).
+
+If you would like instead to download rendered nLab pages for local viewing, let us know as well at the nForum.
 
 category: meta
