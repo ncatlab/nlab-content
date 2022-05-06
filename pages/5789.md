@@ -114,8 +114,7 @@ Supersymmetric quantum mechanics gained attention with the work
 
 * {#Witten82} [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire](http://inspirehep.net/record/176416?ln=de))
 
-which showed that [[Morse theory]] may be equivalently interpreted as the study of [[supersymmetry|supersymmetric]] [[vacua]] in supersymmetric quantum mechanics, and 
-which was part of what gained Witten the [Fields medal 1990](http://159.226.47.99:8080/general/prize/medal/1990.htm). In this article a certain family of deformations of [[superparticles]] on a [[Riemannian manifold]] are considered and the supersymmetric ground states are shown to be given by the [[Morse theory]] of the deformation function. 
+which showed that [[Morse theory]] may be equivalently interpreted as the study of [[supersymmetry|supersymmetric]] [[vacua]] in supersymmetric quantum mechanics, and  which was part of what gained Witten the [Fields medal 1990](http://159.226.47.99:8080/general/prize/medal/1990.htm). In this article a certain family of deformations of [[superparticles]] on a [[Riemannian manifold]] are considered and the supersymmetric ground states are shown to be given by the [[Morse theory]] of the deformation function. 
 
 For a survey of the relation to Morse theory see for instance
 
@@ -125,7 +124,7 @@ For a survey of the relation to Morse theory see for instance
 
 This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[loop space]], a relation that is stated more explicitly in 
 
-* {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
+* {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in: _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
 and then in
 
@@ -143,7 +142,7 @@ The relationon between the 2d [[SCFT]] describing the [[type II superstring]] an
 
 The relation of the [[partition function]] of supersymmetric quantum mechanics to [[index theory]] was suggested in unpublished work of [[Edward Witten]] and formulated in
 
-* [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([Euclid](http://projecteuclid.org/euclid.cmp/1103940278))
+* [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 16-173. ([Euclid](http://projecteuclid.org/euclid.cmp/1103940278))
  {#AlvarezGaume83}
 
 * [[Ezra Getzler]], _Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem_, Comm. Math. Phys. 92 (1983), 163-178. ([pdf](http://math.northwestern.edu/~getzler/Papers/1103940796.pdf))
@@ -156,7 +155,28 @@ The relation of the [[partition function]] of supersymmetric quantum mechanics t
 *  [[Ezra Getzler]], _A short proof of the Atiyah-Singer index theorem_, Topology 25 (1986), 111-117 ([pdf](http://math.northwestern.edu/~getzler/Papers/local.pdf))
  {#Getzler86}
 
-
 * [[D. Quillen]], _Superconnection character forms and the Cayley transform_, Topology 27 (1988), no. 2, 211&#8211;238
+
+### In String theory 
+  {#InStringTheory}
+
+The [[superstring]]'s supersymmetric quantum mechanics on [[smooth loop space]] motivated the subject in
+
+* {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in: _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
+
+* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
+
+and is further explored in:
+
+* {#Schreiber04} [[Urs Schreiber]], _On deformations of 2d SCFTs_, JHEP 0406:058, 2004 ([arXiv:hep-th/0401175](http://arxiv.org/abs/hep-th/0401175))
+
+
+For supersymemtric quantum mechanics of [[D0-branes]] see:
+
+* _[[BFSS matrix model]]_, _[[BMN matrix model]]_
+
+Discussion of [[M-theory on Calabi-Yau 5-folds]] in terms of [[supersymmetric quantum mechanics]]:
+
+* [[Alexander Haupt]], [[Andre Lukas]], [[Kellogg Stelle]], _M-theory on Calabi-Yau Five-Folds_, JHEP 0905:069, 2009 ([arXiv:0810.2685](https://arxiv.org/abs/0810.2685))
 
 
