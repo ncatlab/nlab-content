@@ -23,7 +23,8 @@
 
 In a [[closed monoidal category]] $C$ the [[tensor product]] $a \otimes b$ and [[internal hom]] $[b,c]$ are related by the defining [[natural isomorphism]]
 
-$$
+
+$$2
   C(a \otimes b, c) \simeq C(a, [b,c])
   \,.
 $$
@@ -96,8 +97,6 @@ The next two classes of examples are covered in Kelly's book (see references).
 
 
 ## Related concepts
-
-* [[tensored and cotensored category]]
 
 * **copower**, [[(∞,1)-copower]]
 
