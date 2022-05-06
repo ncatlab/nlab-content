@@ -1,8 +1,7 @@
 The following journals have, at least at some time in the past, published category theory and related material.  More need to be added.  No guarantee is made that the mentioned editors are current; check the journal web sites for current editorial boards.
 
 The general plan for the ordering of journals below should be roughly in the decreasing
-order of the number of articles they publish in the area of category theory, as witnessed by the [[MathSciNet]] statistics. Unfortunately this webpage is in continuous update and it is not easy to keep track of this information consistently. Recently a topic subdivision has been proposed and should probably be openly debated.
-
+order of the number of articles they publish in the area of category theory, as witnessed by the [[MathSciNet]] statistics. Unfortunately this webpage is in continuous update and it is not easy to keep track of this information consistently. 
 
 |Journal                                    |Publisher         |Relevant editor(s)|Access|Specialization|
 |-------------------------------------------|------------------|-------------------|------|-------------|
