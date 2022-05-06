@@ -6,6 +6,11 @@ Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physi
 
 ## Selected writings
 
+On the [[quantum adiabatic theorem]] in the context of [[topological phases of matter]]:
+
+* [[Mathew B. Hastings]], [[Xiao-Gang Wen]], *Quasiadiabatic continuation of quantum states: The stability of topological ground-state degeneracy and emergent gauge invariance* ([arXiv:cond-mat/0503554](https://arxiv.org/abs/cond-mat/0503554), [doi:10.1103/PhysRevB.72.045141](https://doi.org/10.1103/PhysRevB.72.045141))
+
+
 Introducing the [[Levin-Wen model]]:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
