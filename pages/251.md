@@ -218,7 +218,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 ## Model structures on the category of double categories
 
-The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo (I)](#MSV2Cat), and [Moser, Sarazola, and Verdugo (II)](#MSVHInvar).
+The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo](#MSV2Cat).
 
 Eventually this page should describe all of these and their relationships, but for the moment we mention only another one called the "gregarious" model structure; see [Campbell](#CampbellGreg).
 
@@ -245,7 +245,6 @@ A __gregarious equivalence__ is a [[companion pair]] $(f,u)$ of morphisms in $A$
 such that $f$ is an equivalence in the horizontal [[2-category]] of $A$
 and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
-The two model structures described in the two papers by Moser, Sarazola, and Verdugo have the same class of weak equivalences, which contains the gregarious weak equivalences.  One of these model structures, which was discovered independently by [Campbell](#CampbellGreg), is a [[left Bousfield localization]] of the gregarious model structure.
 
 ## Related pages
 
@@ -297,8 +296,6 @@ Model structures on the category of double categories are discussed in:
 * {#MSV2Cat} Lyne Moser, Maru Sarazola, Paula Verdugo, *A 2Cat-inspired model structure for double categories*, [arxiv](https://arxiv.org/abs/2004.14233), 2020
 
 * {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf), 2020
-
-* {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo, *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
