@@ -58,8 +58,7 @@ The relation to the [[Kaluza-Klein monopole]] in [[M-theory]] is due to
 
 Further discussion and derivation of the [[Chan-Paton gauge field]] content on the D6 from the KK-monopole is discussed in 
 
-* [[César Gómez]], [[Juan José Manjarín]], _A note on the dyonic D6-brane_, 6th International Workshop on Conformal Field Theory and Integrable Models,
-Landau Institute, Sept. 2002 ([arXiv:hep-th/0302096](http://arxiv.org/abs/hep-th/0302096))
+* [[César Gómez]], [[Juan José Manjarín]], _A note on the dyonic D6-brane_, 6th International Workshop on Conformal Field Theory and Integrable Models, Landau Institute, Sept. 2002 ([arXiv:hep-th/0302096](http://arxiv.org/abs/hep-th/0302096))
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
@@ -67,8 +66,7 @@ Discussion of D6 [[intersecting branes]] for [[intersecting D-brane models]]:
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
-* [[Angel Uranga]], _Model building in IIA: Intersecting
-brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf))
+* [[Angel Uranga]], _Model building in IIA: Intersecting brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf))
 
 
 [[!redirects D6-branes]]
