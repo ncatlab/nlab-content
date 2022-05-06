@@ -33,6 +33,10 @@ In the context of [[monads in computer science]] this monad is called the _reade
 
 ## Properties
 
+### Algebras
+
+The reader monad does not generally arise from a [[monadic adjunction]]. [[algebra over a monad|Algebras]] may not be easily charcterizable. When $W$ is a 2 element set, algebras correspond to [[idempotent]] [[semigroups]], also known as _rectangular bands_.
+
 ### Relation to the writer comonad and state monad
 
 In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$,
@@ -105,9 +109,11 @@ In [[Haskell]], the traditional way to model that a program may depend on random
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
-A treatment of _opacity_ via the function monad
+A treatment of _opacity_ in [[linguistics]] via the function monad
 
 * [[Gianluca Giorgolo]], [[Ash Asudeh]], _Monads as a Solution for Generalized Opacity_, [pdf](http://users.ox.ac.uk/~cpgl0036/pdf/giorgolo-asudeh-eacl2014.pdf)
+
+* [[Gianluca Giorgolo]], [[Ash Asudeh]], _Perspectives_, Semantics and Pragmatics, vol. 9, [paper](http://semprag.org/article/view/sp.9.21)
 
 
 [[!redirects reader monads]]
