@@ -41,7 +41,7 @@ So the fundamental groupoid gets rid of the choice of basepoint for the fundamen
 
 ### Topologizing the fundamental groupoid
 
-The fundamental groupoid $\Pi_1(X)$ can be made into a [[topological groupoid]] (i.e. a [[internal groupoid|groupoid internal]] to [[Top]]) when $X$ is [[path-connected space|path-connected]], [[locally path-connected space|locally path-connected]] and [[semi-locally simply connected space|semi-locally simply connected]].
+The fundamental groupoid $\Pi_1(X)$ can be made into a [[topological groupoid]] (i.e. a [[internal groupoid|groupoid internal]] to [[Top]]) when $X$ is [[path-connected space|path-connected]], [[locally path-connected space|locally path-connected]] and [[semi-locally simply connected space|semi-locally simply connected]]. This is a special case of 10.5.8 of Topology and Groupoids. 
 This construction is closely linked with the construction of a [[universal covering space]] for a path-connected pointed space. The object space of this groupoid is just the space $X$.
 
 +-- {: .query}
