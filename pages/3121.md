@@ -135,9 +135,13 @@ Discussion of stabilization as inversion of smashing with a suspension objects, 
 
 * {#Robalo12} [[Marco Robalo]], section 4 of _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
 
-which appears published as 
+  published as 
 
 * {#Robalo15} [[Marco Robalo]], section 2 of _K-theory and the bridge from motives to noncommutative motives_, Advances in Mathematics Volume 269, 10 January 2015 ([doi:10.1016/j.aim.2014.10.011](https://doi.org/10.1016/j.aim.2014.10.011))
+
+with further remarks in 
+
+* {#Hoyois15} [[Marc Hoyois]], section 6.1 of _The six operations in equivariant motivic homotopy theory_, Adv. Math. 305 (2017), 197-279 ([arXiv:1509.02145](https://arxiv.org/abs/1509.02145))
 
 
 [[!redirects stabilizations]]
