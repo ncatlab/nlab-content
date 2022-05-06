@@ -16,7 +16,7 @@
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
-      <mo>⇓</mo>
+      <mo lspace="verythinmathspace" rspace="verythinmathspace">⇓</mo>
       <mi>α</mi>
      </mrow>
      <annotation encoding="application/x-tex">\Downarrow\mathrlap{\alpha}</annotation>
@@ -39,7 +39,7 @@
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
-      <mo>⇓</mo>
+      <mo lspace="verythinmathspace" rspace="verythinmathspace">⇓</mo>
       <mi>β</mi>
      </mrow>
      <annotation encoding="application/x-tex">\Downarrow\mathrlap{\beta}</annotation>
@@ -81,18 +81,18 @@
    </math>
   </foreignObject>
 
-  <foreignObject x="265" y="33" id="svg_57183_1" font-size="16" width="4em" height="22">
+  <foreignObject x="260" y="33" id="svg_57183_1" font-size="16" width="4em" height="22">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mo>⇓</mo>
       <mrow>
-       <mi>α</mi>
-       <mo>*</mo>
        <mi>β</mi>
+       <mo lspace="verythinmathspace" rspace="verythinmathspace">&#9675;</mo>
+       <mi>α</mi>
       </mrow>
      </mrow>
-     <annotation encoding="application/x-tex">\Downarrow\mathrlap{\alpha\ast\beta}</annotation>
+     <annotation encoding="application/x-tex">\Downarrow\beta\circ\alpha</annotation>
     </semantics>
    </math>
   </foreignObject>
@@ -113,7 +113,7 @@
   <path fill="none" stroke="#000000" d="m239.5,33.75c27.999969,-15 60.615387,-15 84,0" marker-end="url(#se_marker_end_svg_57183_5)" id="svg_57183_5"/>
   <path fill="none" stroke="#000000" d="m103.5,52.5c24.333313,14.333344 45.231354,15.666656 73,1" marker-end="url(#se_marker_end_svg_57183_6)" id="svg_57183_6"/>
   <path fill="none" stroke="#000000" d="m239.5,52.5c27.666687,14.333344 51.42746,15.666656 83,1" marker-end="url(#se_marker_end_svg_57183_7)" id="svg_57183_7"/>
-  <foreignObject x="45" y="0" id="svg_57183_8" font-size="16" width="20" height="20">
+  <foreignObject x="45" y="0" id="svg_57183_8" font-size="16" width="20" height="22">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
@@ -126,7 +126,7 @@
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="132" y="0" font-size="16" width="20" height="20" id="svg_57183_9">
+  <foreignObject x="132" y="0" font-size="16" width="20" height="22" id="svg_57183_9">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
@@ -139,7 +139,7 @@
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="45" y="64" font-size="16" width="20" height="20" id="svg_57183_17">
+  <foreignObject x="45" y="63" font-size="16" width="20" height="22" id="svg_57183_17">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
@@ -152,7 +152,7 @@
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="133" y="64" font-size="16" width="20" height="20" id="svg_57183_25">
+  <foreignObject x="133" y="63" font-size="16" width="20" height="22" id="svg_57183_25">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
@@ -165,39 +165,39 @@
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="258" y="0" id="svg_57183_33" font-size="16" width="48" height="20">
+  <foreignObject x="250" y="0" id="svg_57183_33" font-size="16" width="5em" height="22">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <msub>
        <mi>F</mi>
-       <mn>1</mn>
-      </msub>
-      <mo lspace="verythinmathspace">:</mo>
-      <msub>
-       <mi>F</mi>
        <mn>2</mn>
       </msub>
+      <mo lspace="verythinmathspace" rspace="verythinmathspace">&#9675;</mo>
+      <msub>
+       <mi>F</mi>
+       <mn>1</mn>
+      </msub>
      </mrow>
-     <annotation encoding="application/x-tex">F_1\colon F_2</annotation>
+     <annotation encoding="application/x-tex">F_2\circ F_1</annotation>
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="258" y="63" font-size="16" width="48" height="20" id="svg_57183_34">
+  <foreignObject x="250" y="63" font-size="16" width="5em" height="22" id="svg_57183_34">
    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <msub>
        <mi>G</mi>
-       <mn>1</mn>
-      </msub>
-      <mo lspace="verythinmathspace">:</mo>
-      <msub>
-       <mi>G</mi>
        <mn>2</mn>
       </msub>
+      <mo lspace="verythinmathspace" rspace="verythinmathspace">&#9675;</mo>
+      <msub>
+       <mi>G</mi>
+       <mn>1</mn>
+      </msub>
      </mrow>
-     <annotation encoding="application/x-tex">G_1\colon G_2</annotation>
+     <annotation encoding="application/x-tex">G_2\circ G_1</annotation>
     </semantics>
    </math>
   </foreignObject>
