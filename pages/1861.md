@@ -664,7 +664,7 @@ Further discussion includes
 
 * [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
 
-In relation to [[quaternionic line bundles]]:
+In relation to [[quaternionic line bundles]] over [[5-manifolds]]:
 
 * Panagiotis Konstantis, _Vector bundles and cohomotopies of spin 5-manifolds_, Homology, Homotopy and Applications Volume 23 (2021) Number 1 ([arXiv:1812.06547](https://arxiv.org/abs/1812.06547), [doi:10.4310/HHA.2021.v23.n1.a9](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a9))
 
