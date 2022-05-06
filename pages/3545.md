@@ -1,4 +1,8 @@
 
+>  This entry is about [[quasi-isomorphism]] to [[cochain cohomology]]. For [[infinitesimal neighbourhood|infinitesimal thickening]] of [[smooth manifolds]] see at _[[formal smooth manifold]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -11,7 +15,7 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -32,27 +36,27 @@ $$
 of [[quasi-isomorphism]]s of dg-algebras.
 
 
-## Applications
-
-### In rational homotopy theory
+## Examples
 
 In [[rational homotopy theory]] [[rational topological space]]s are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
 
 Examples are
 
-* compact [[Kähler manifold]]s (e.g. smooth projective varieties);
+* compact [[Kähler manifolds]] (e.g. smooth projective varieties);
 
-* [[Lie group]]s;
+* [[Lie groups]];
 
-* [[classifying space]]s of Lie groups;
+* [[classifying spaces]] $B G$ of [[Lie groups]] $G$;
 
-* some [[homogeneous space]]s $G/H$
+* some [[homogeneous spaces]] $G/H$
 
-* the unstable [[Thom space]]s $M U_n$ and $M S O_n$
+* the unstable [[Thom spaces]] $M U_n$ and $M S O_n$
 
-* the space $K(\mathbb{Z},2)$, 
+* the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, 
 
   whose Sullivan minimal model is the dg-algebra on a single degree-2 generator with trivial differential.
+
+* [[the little n-disk operad is formal]]
 
 ## Related concepts
 
