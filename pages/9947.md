@@ -38,7 +38,7 @@ Examples of proof assistant software:
 
 * [[Coq]], [[Agda]], [[Lean]], [Arend](https://arend-lang.github.io/)
 
-* [[Metamath]](http://us.metamath.org/)
+* [[Metamath]]
 
 Projects for formalization of mathematics wth proof assistants:
 
