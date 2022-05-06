@@ -48,6 +48,9 @@ Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
 
 ## References
 
+* Rajesh Kumar, Arvind Kumar, _$\phi$-meson decay width in strange hadronic matter_ ([arXiv:2005.05133](https://arxiv.org/abs/2005.05133))
+
+
 See also 
 
 * Wikipedia, _[Phi meson](https://en.wikipedia.org/wiki/Phi_meson)_
