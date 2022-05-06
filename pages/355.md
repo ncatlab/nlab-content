@@ -41,6 +41,8 @@ In terms of a known notion of [[(n,r)-category]], we can define an __$n$-groupoi
 
 Or we define an __$n$-groupoid__ abstractly as an [[n-truncated object of an (infinity,1)-category|n-truncated object in]] the [[(∞,1)-category]] [[∞Grpd]].
 
+The $n$-groupoids form an [[(n,1)-category|(n+1,1)-category]], [[nGrpd]].
+
 ## Models
 
 ### As Kan complexes
