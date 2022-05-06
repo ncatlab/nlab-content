@@ -55,20 +55,10 @@ Further development:
 
 * Andreas Blommaert, Thomas G. Mertens, Henri Verschelde, _Eigenbranes in Jackiw-Teitelboim gravity_ ([arXiv:1911.11603](https://arxiv.org/abs/1911.11603))
 
-### AdS/CFT Holography
- {#ReferencesHolography}
-
-In [[AdS/CFT]] for [[AdS2/CFT1]]:
-
-* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
+[[!include AdS2-CFT1 -- references]]
 
 
-Relation to [[random matrix theory]] (via [[AdS/CFT]] and [[topological recursion]]):
 
-* {#SaadShenkerStanford19} [[Phil Saad]], [[Stephen Shenker]], [[Douglas Stanford]], _JT gravity as a matrix integral_ ([arXiv:1903.11115](https://arxiv.org/abs/1903.11115))
-
-
-* {#StanfordWitten19} [[Douglas Stanford]], [[Edward Witten]], _JT Gravity and the Ensembles of Random Matrix Theory_ ([arXiv:1907.03363](https://arxiv.org/abs/1907.03363))
 
 
 ### Application to near-extremal near-horizons
