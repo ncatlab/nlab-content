@@ -1386,6 +1386,7 @@ $$
 
    induced from $E$ being a [[homotopy commutative ring spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum));
 
+
 1. the [[graded commutative ring]] structure
 
    $$
@@ -5408,7 +5409,7 @@ Notice that the first morphism is always surjective, while the second is necessa
 
 $\,$
 
-Now we state sufficient conditions for complete convergence of the $E$-Adams spectral sequence. It turns out that convergence is controled by the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the ring $\pi_0(E)$. By prop. \ref{ClassificationOfSolidRings} these cores are either localizations of the integers $\mathbb{Z}[J^{-1}]$ at a set $J$ of primes (def. \ref{InvertingPrimes}) or are [[cylcic rings]], or cores of products of these. We discuss the first two cases.
+Now we state sufficient conditions for complete convergence of the $E$-Adams spectral sequence. It turns out that convergence is controled by the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the ring $\pi_0(E)$. By prop. \ref{ClassificationOfSolidRings} these cores are either localizations of the integers $\mathbb{Z}[J^{-1}]$ at a set $J$ of primes (def. \ref{InvertingPrimes}) or are [[cyclic rings]], or cores of products of these. We discuss the first two cases.
 
 
 +-- {: .num_theorem #EAdamsConvergenceForCorepi0EBeingZLocalizedAtPrimes}
