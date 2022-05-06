@@ -129,7 +129,7 @@ and surveyed in
 
 
 
-The generalization of all these constructions to quantum fields on general [[globally hyperbolic spacetimes]] (perurbative [[AQFT on curved spacetimes]]) was made possible by th results on [[Hadamard states]] and [[Feynman propagators]] in
+The generalization of all these constructions to quantum fields on general [[globally hyperbolic spacetimes]] (perurbative [[AQFT on curved spacetimes]]) was made possible by the results on [[Hadamard states]] and [[Feynman propagators]] in
 
 * {#Radzikowski96} [[Marek Radzikowski]], _Micro-local approach to the Hadamard condition in quantum field theory on curved space-time_, Commun. Math. Phys. 179 (1996), 529&#8211;553 ([Euclid](http://projecteuclid.org/euclid.cmp/1104287114))
 
