@@ -60,6 +60,8 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[linear differential equation]]
 
+* [[piecewise linear function]]
+
 [[!redirects linear map]]
 [[!redirects linear maps]]
 [[!redirects linear mapping]]
