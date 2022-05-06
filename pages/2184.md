@@ -38,7 +38,7 @@ Let $V$ and $E$ be [[sets]]; call an element of $V$ a __vertex__ and an element 
 
 We are now ready for the first batch of definitions.
 
-*  For a __simple graph__, a pair of vertices is a [[subset]] of $V$ of [[cardinality]] $2$, and we interpret edges as unordered pairs of vertices in a one-to-one way.  Thus a simple graph is given by $V$, $E$, and an [[injective function]] $d: E \hookrightarrow \left({V \atop 2}\right)$.  Among graph theorists, this is often the default meaning of 'graph' unless another is specified.
+*  For a __simple graph__, a pair of vertices is a [[subset]] of $V$ of [[cardinality]] $2$, and we interpret edges as unordered pairs of vertices in a one-to-one way.  Thus a simple graph is given by $V$, $E$, and an [[injective function]] $d: E \hookrightarrow \left({V \atop 2}\right)$.  Among graph theorists, this is often the default meaning of 'graph' unless another is specified. The category of simple graphs is called [[category of simple graphs|SimpGph]]
 
 *  For a __[[multigraph]]__, a pair of vertices is the same as above, but we interpret edges as pairs of vertices in a many-to-one way.  Thus a multigraph is given by $V$, $E$, and an arbitrary [[function]] $d: E \to \left({V \atop 2}\right)$.
 
