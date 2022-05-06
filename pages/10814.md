@@ -132,7 +132,7 @@ where $X\in T M$ is split in $X_\pm=P_\pm X$.
 ###C-bracket
 In previous section we assumed that the $+1$-eigenbundle $T^+M$ is integrable. This is equivalent to assuming that there exists a well defined foliation that can be interpreted as the physical spacetime. However it is possible to construct a more general bracket that does not require such an assumption, but only an almost para-complex structure. Therefore it works even when a global physical spacetime foliation is not defined. This is achieved by Vaisman with the definition of _C-bracket_ by using a generalization of the notion of Levi-Civita connection (look ([I.Vaisman 2012](#Vaisman))).
 
-In the special case of an (inetgrable) para-hermitian manifold C-bracket is given by
+In the special case of an (integrable) para-hermitian manifold C-bracket is given by
 
 $$
     [[ X+\alpha,Y+\beta ]]_{\mathrm{C}} = [X,Y] + \mathcal{L}_X\beta -\mathcal{L}_Y\alpha + \mathrm{d}\big(\eta(X+\alpha,Y+\beta)\big) +
