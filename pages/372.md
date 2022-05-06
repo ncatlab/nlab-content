@@ -137,7 +137,7 @@ Suppose $I\in C$ is an object equipped with a natural transformation $p:\Delta I
 +--{: .proof}
 ###### Proof
 
-Obviously $I$ has at least one morphism to every other object $X\in C$, namely $p_X$, so it suffices to show that any $f:I\to X$ must be equal to $p_X$.  But the naturality of $p$ implies that $\Id_C(f) \circ p_I = p_X \circ \Delta_I(f)$, and since $p_I = 1_I$ this is to say $f \circ 1_I = p_X \circ 1_I$, i.e. $f=p_I$ as desired.
+Obviously $I$ has at least one morphism to every other object $X\in C$, namely $p_X$, so it suffices to show that any $f:I\to X$ must be equal to $p_X$.  But the naturality of $p$ implies that $\Id_C(f) \circ p_I = p_X \circ \Delta_I(f)$, and since $p_I = 1_I$ this is to say $f \circ 1_I = p_X \circ 1_I$, i.e. $f=p_X$ as desired.
 
 =-- 
 
