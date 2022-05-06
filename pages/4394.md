@@ -127,11 +127,11 @@ The notions of separation axioms were introduced in
 
 A comprehensive overview of this and related topic is found in
 
-* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces_, 1990, Journal of Soviet Mathematics, vol. 52, Issue 1, pp 2759-2790. Originally published as _Проблематика теории битопологических пространств_ in Zap. Nauchn. Sem. POMI, 1988, vol. 167 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5560&option_lang=en)).
+* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces_, 1990, Journal of Soviet Mathematics, vol. 52, Issue 1, pp. 2759-2790. Originally published as _Проблематика теории битопологических пространств_ in Zap. Nauchn. Sem. POMI, 1988, vol. 167 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5560&option_lang=en)).
 
-* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 2_, 1996, Journal of Math. Sciences, vol. 81, Issue 2. Originally publishes as _Проблематика теории битопологических пространств. 2_ in Zap. Nauchn. Sem. POMI, 1993, Volume 208, pp 5–67 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5828&option_lang=eng)).
+* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 2_, 1996, Journal of Math. Sciences, vol. 81, Issue 2. Originally publishes as _Проблематика теории битопологических пространств. 2_ in Zap. Nauchn. Sem. POMI, 1993, Volume 208, pp. 5–67 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5828&option_lang=eng)).
 
-* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 3_, 1998, Journal of Math. Sciences, vol. 91, Issue 6, pp 3339–3364. Originally published as _Проблематика теории битопологических пространств. 3_ in Zap. Nauchn. Sem. POMI, 1995, Volume 231, pp 9–54 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=3739&option_lang=eng)).
+* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 3_, 1998, Journal of Math. Sciences, vol. 91, Issue 6, pp 3339–3364. Originally published as _Проблематика теории битопологических пространств. 3_ in Zap. Nauchn. Sem. POMI, 1995, Volume 231, pp. 9–54 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=3739&option_lang=eng)).
 
 
 [[!redirects bitopological space]]
