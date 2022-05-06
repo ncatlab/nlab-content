@@ -68,7 +68,7 @@ The relation between [[supersymmetry and division algebras]] was gradually estab
 939&#8211;955 ([doi:10.1088/0305-4470/17/5/018](
 https://iopscience.iop.org/article/10.1088/0305-4470/17/5/018))
 
-* {#Evans88} [[Jonathan Evans]], _Supersymmetric Yang&#8211;Mills theories and division algebras_, Nucl. Phys. B298 (1988), 92&#8211;108 ([doi:10.1016/0550-3213(88)90305-7](https://doi.org/10.1016/0550-3213(88)90305-7))
+* {#Evans88} [[Jonathan Evans]], _Supersymmetric Yang&#8211;Mills theories and division algebras_, Nucl. Phys. B298 (1988), 92&#8211;108 (<a href="doi:10.1016/0550-3213(88)90305-7">https://doi.org/10.1016/0550-3213(88)90305-7</a>)
 
 * {#ChungSudbery87} K.-W. Chung, [[Anthony Sudbery]], _Octonions and the Lorentz and conformal groups of ten-dimensional space-time_, Phys. Lett. B 198 (1987), 161&#8211;164 (<a href="https://doi.org/10.1016/0370-2693(87)91489-4">doi:10.1016/0370-2693(87)91489-4</a>)
 
