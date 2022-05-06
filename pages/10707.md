@@ -73,6 +73,9 @@ Inside the moduli stack of formal groups sit, in that order, that of [[cubic cur
 
 * [[Spec(S)]]
 
+[[!include moduli spaces -- contents]]
+
+
 [[!include moduli stack of curves -- table]]
 
 ## References
