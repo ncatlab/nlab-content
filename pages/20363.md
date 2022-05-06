@@ -56,3 +56,4 @@ The category of condensed sets is the (large) colimit of the category of $\kappa
 [[!redirects condensed sets]]
 [[!redirects condensed object]]
 [[!redirects condensed objects]]
+[[!redirects condensed mathematics]]
