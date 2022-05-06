@@ -23,6 +23,9 @@ on [[representation theory]], [[equivariant homotopy theory]], [[equivariant coh
 
 * [[Adams operation]]
 
+[Chapter 5: The Burnside ring of a compact Lie group](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Lie.pdf)
+
+
 Chapter 7: Equivariant homology and cohomolgy
 
 * [[equivariant cohomology]]
