@@ -98,6 +98,13 @@ This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 
 [[Spin5OnHopfH.jpg:pic]]
 
++-- {: .num_remark}
+###### Remark
+
+Of the resulting [[action]] of [[Sp(2)]]$\times$[[Sp(1)]] on the [[7-sphere]] (from Prop. \ref{Spin5EquivarianceOfQuaternionicHopfFibration}), only the [[quotient group]] [[Sp(n).Sp(1)]] acts [[free action|freely]].
+
+=--
+
 ### Class in the homotopy groups of spheres
  {#ClassInTheHomotopyGroupsOfSpheres}
 
