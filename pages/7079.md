@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[model category]] is a [[homotopical category]] equipped with extra good control over the [[weak equivalences]]. In particular every [[object]] of the category is weakly equivalent to an object that is particularly well behaved for forming [[derived hom-spaces]] _into_ it -- these are the fibrant objects, as well as weakly equivalent to a object that is particularly well-behaved for forming [[derived hom-spaces]] _out of_ it -- these are the cofibrant objects.
+A [[model category]] is a [[homotopical category]] equipped with especially nice control over the [[weak equivalences]]. In particular every [[object]] of the category is weakly equivalent to an object that is particularly well behaved for forming [[derived hom-spaces]] _into_ it -- these are the fibrant objects, as well as weakly equivalent to a object that is particularly well-behaved for forming [[derived hom-spaces]] _out of_ it -- these are the cofibrant objects.
 
 Hence fibrant and cofibrant objects are particularly good representatives of objects, which are the "same" as the given objects up to [[weak equivalence]].
 
