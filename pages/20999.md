@@ -10,8 +10,6 @@ A correspondence between [[Gromov-Witten invariants]] and [[Donaldson-Thomas inv
 
 ## Related concepts
 
-Original articles:
-
 
 * [[Gromov-Witten theory]]
 
