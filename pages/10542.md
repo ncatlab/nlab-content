@@ -520,6 +520,8 @@ under the lift through (eq:IdentifyingU1SU2inSU3).
 
 ## References
 
+### General
+
 The original article is
 
 * {#Albert} [[Abraham Adrian Albert]], _On a Certain Algebra of Quantum Mechanics_, Annals of Mathematics, Second Series 35 (1): 65&#8211;73, (1934)(doi:[10.2307/1968118](http://dx.doi.org/10.2307/1968118), [JSTOR](https://www.jstor.org/stable/1968118)).
@@ -540,9 +542,10 @@ See also
 
 * Wikipedia, _[Albert algebra](https://en.wikipedia.org/wiki/Albert_algebra)_
 
+### Possible relation to color gauge structure
+{#ReferencesRelationStandardModel}
 
-
-Attempts to identify aspects of the [[standard model of particle physics]] within the exceptional Jordan algebra:
+Attempts to identify aspects of the [[color charge|color]] [gauge group](standard+model+of+particle+physics#GaugeGroup) of the [[standard model of particle physics]] within the exceptional Jordan algebra:
 
 * {#ManogueDray09} [[Corinne Manogue]], [[Tevian Dray]], _Octonions, $E_6$, and Particle Physics_, J. Phys. Conf.Ser.254:012005,2010 ([arXiv:0911.2253](http://arxiv.org/abs/0911.2253))
 
