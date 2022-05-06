@@ -8,11 +8,14 @@ The interpretation of [[elliptic genera]] (especially the [[Witten genus]]) as t
 
 * [[Edward Witten]], _On the Landau-Ginzburg Description of $N=2$ Minimal Models_, Int. J. Mod. Phys.A9:4783-4800,1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
 
+
+
 * [[Toshiya Kawai]], [[Yasuhiko Yamada]], Sung-Kil Yang, _Elliptic Genera and $N=2$ Superconformal Field Theory_, Nucl. Phys. B414:191-212, 1994 ([arXiv:hep-th/9306096](http://arxiv.org/abs/hep-th/9306096), <a href="https://doi.org/10.1016/0550-3213(94)90428-6">doi:10.1016/0550-3213(94)90428-6</a>)
 
-See also
-
 * Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067, 2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
+
+
+* [[Matthew Ando]], [[Eric Sharpe]], _Elliptic genera of Landau-Ginzburg models over nontrivial spaces_, Adv. Theor. Math. Phys. 16 (2012) 1087-1144 ([arXiv:0905.1285](https://arxiv.org/abs/0905.1285))
 
 Review in:
 
