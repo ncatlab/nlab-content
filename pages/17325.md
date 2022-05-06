@@ -3,8 +3,13 @@ A philosopher based in Leiden in The Netherlands. Research interests: Philosophy
 
 * [website](https://www.universiteitleiden.nl/en/staffmembers/goran-sundholm)
 
-##Related pages
+## Related pages
 
 * [[Per Martin-Löf]]
+
 * [[Martin-Löf dependent type theory]]
+
 * [[dependent type theoretic methods in natural language semantics]]
+
+[[!redirects Goeran Sundholm]]
+[[!redirects Göran Sundholm]]
