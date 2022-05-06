@@ -34,6 +34,9 @@ Due to this particular property of the theory, [[Wilson line]] [[observables]] t
 
 ... [[Yangian]] ...
 
+Consider the example when the spacetime is of the form $\mathbb{C}_w \times \mathbb{C}_z$ with subscripts to denote the respective coordinates. Pushing forward the factorization algebra for gives a locally constant factorization algebra on $\mathbb{C}_w$.
+
+Applying Koszul duality gives a Hopf algebra because it is augmented as an $E_1$ algebra. This is a result of Tamarkin. In this case the Hopf algebra is the linear dual of the completed Yangian. This is seen by evaluating the classical limit and the first order bialgebra structure and then invoking a uniqueness result of Drinfeld.
 
 ## References
 
