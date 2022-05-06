@@ -36,6 +36,6 @@ For a precise definition, see the references.
 
 * [[Marco Grandis]], [[Robert Paré]], *Intercategories*, [arXiv](http://arxiv.org/abs/1412.0144), [TAC](http://tac.mta.ca/tac/volumes/30/38/30-38abs.html)
 
-* [[Marco Grandis]], [[Robert Paré]], *Intercategories: A framework for three-dimensional category theory*, [arXiv](http://arxiv.org/abs/1412.0212)
+* [[Marco Grandis]], [[Robert Paré]], *Intercategories: A framework for three-dimensional category theory*, [doi](https://doi.org/10.1016/j.jpaa.2016.08.002), [arXiv](http://arxiv.org/abs/1412.0212)
 
 [[!redirects intercategories]]
