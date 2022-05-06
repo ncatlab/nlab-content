@@ -21,7 +21,7 @@ In [[enriched category theory]], often instead of the terminal category one is i
 
 ## Properties
 
-A [[functor]] from the terminal category $1$ to any [[category]] $C$ is the [[equivalence|equivalently]] an [[object]] of $C$.  More generally, the [[functor category]] $[1, C] \simeq C$ from the terminal category to $C$ is canonically [[equivalence of categories|equivalent]] (in fact, isomorphic) to the category $C$ itself.
+A [[functor]] from the terminal category $1$ to any [[category]] $C$ is [[equivalence|equivalently]] an [[object]] of $C$.  More generally, the [[functor category]] $[1, C] \simeq C$ from the terminal category to $C$ is canonically [[equivalence of categories|equivalent]] (in fact, isomorphic) to the category $C$ itself.
 
 The terminal category is a [[discrete category]] that, as a [[set]], may be called the _singleton_.  As a [[subset]] of the singleton, it is in fact a [[truth value]], true ($\top$).  In general, all of these (and their analogues in [[higher category theory]] and [[homotopy theory]]) may be called the [[point]].
 
