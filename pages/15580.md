@@ -108,6 +108,6 @@ Discussion in the context of [[Bousfield localization of spectra]] is in
  
 See also 
 
-* {#Banagl10} [[Markus Banagl]], _Rational generalized intersection homology theories_, Homology, Homotopy and Applications, vol. 0(0), 2010, pp.1{28  ([pdf](http://www.mathi.uni-heidelberg.de/~banagl/pdfdocs/spectrumqih.pdf))
+* {#Banagl10} [[Markus Banagl]], _Rational generalized intersection homology theories_, Homology, Homotopy and Applications, vol. 0(0), 2010, pp. 1-28  ([pdf](http://www.mathi.uni-heidelberg.de/~banagl/pdfdocs/spectrumqih.pdf))
 
 [[!redirects Moore spectra]]
