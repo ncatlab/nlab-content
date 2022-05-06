@@ -101,8 +101,8 @@ P2
 C
 : A general criterion of truth found in general logic is self-contradictory. ([A59](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_059.png)/B83)
  
-Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth”([A60](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_060.png)/B84) 
-   On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." ([A61](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_061.png)/B85)
+Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth.” ([A60](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_060.png)/B84) 
+On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." ([A61](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_061.png)/B85)
  
 ###### "__IV. On the division of transcendental logic__ into the __transcendental analytic and dialectic.__" ([A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-4/B87-8)
 
@@ -139,7 +139,7 @@ Kant explains the transcendental deduction as follows:
 
 > I therefore call the explanation of the way in which concepts can relate to objects a priori their __transcenden­tal deduction__. (B117)
 
-Kant begins by describing the way in which the manifold of intuition is combined:
+Kant begins by describing the way in which the manifold of intuition is formed:
 
 > Yet the __combination__ (conjunctio) of a manifold in general can never come to us through the senses, and therefore cannot already be contained in the pure form of sensible intuition; for it is an act of the spontaneity of the power of representation. (B129) 
 
@@ -147,7 +147,7 @@ He justifies the transcendental unity in the following sentence:
 
 > I am therefore conscious of the identi­cal self in regard to the manifold of the representations that are given to me in an intuition because I call them all together __my__ representa­tions, which constitute __one__. (B135)
 
-Presupposing that the human understanding only operates with concepts  rather than with intuitions, Kant can define "understanding" in the following way: 
+Presupposing that the human understanding only operates with concepts  rather than with intuitions, Kant defines "understanding" in the following way: 
 
 > __Understanding__ is, generally speaking, the faculty of __cognitions__. (B137)
 
@@ -155,9 +155,9 @@ To advance his argument, Kant then needs the synthetic unity, because:
 
 > The synthetic unity of con­sciousness is ... an objective condition of all cognition, ... (B138)
 
-Now a question regarding the purpose of the categories arises, since for Kant 
+Now a question regarding the purpose of the categories arises since for Kant 
 
-> [The Categories] are only rules for an understanding whose entire capacity consists in thinking, i.e., in the action of bringing the synthesis of the manifold that is given to it in intuition from elsewhere to the unity of apperception, which therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object." (B145)
+> [the Categories] are only rules for an understanding whose entire capacity consists in thinking, i.e., in the action of bringing the synthesis of the manifold that is given to it in intuition from elsewhere to the unity of apperception, which therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object. (B145)
 
 While "Space and time are valid, as conditions of the possibility of how objects can be given to us, no further than for objects of the senses, hence only for ex­perience." (B148) the categories are rules regarding how understanding may occur.
 
@@ -165,7 +165,7 @@ The following quote enlightens the connection between natural laws, which Kant d
 
 > Particular laws, because they concern em­pirically determined appearances, __cannot__ be __completely derived__ from the categories, although they all stand under them. (B165)
 
-In the end Kant arrives at the result that "Consequently no a priori cognition is possible for us except solely of objects of possible experience."(B166)
+In the end Kant arrives at the result that "__no a _priori___ cognition is possible for us except solely of objects of possible experience." (B166)
 
 #####{#deductionA} _Second Chapter_ __[A]__. On the a priori grounds for the possibility of experience. [A deduction]
 
@@ -173,16 +173,17 @@ In the first edition Kant provides a more thorough description on how the format
 
 ###### _A.I.II.I.I.II.II.I On the synthesis of __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
 
-All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png))
+All representations belong "as modifications of the mind ... to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time" ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)).
 
-> Every intuition [Anschauung] contains a manifold in itself.([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) The mind distinguishes between every moment of impression.
+> Every intuition [Anschauung] contains a manifold in itself ... ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) 
 
-We want a  _Unity of intuition_ to come from these impressions.
+The mind distinguishes between every moment of impression.
+These impressions should give rise to a _Unity of intuition_.
 This process is called _Synthesis of apprehension_:
 
 * Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this ma be called a limiting process.
 
-* In order to have _One representation_ such a limiting process must have occured.
+* In order to have _One representation_ such a limiting process must have occurred.
 
 * This process has to happen a priori.
 
@@ -203,13 +204,12 @@ This is formulated in the __Law of reproduction__:
 
 ###### _A.I.II.I.I.II.II.III_ On the synthesis of __recognition in the concept.__ ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 
-If that which we think of  is the same, it has to give rise to the same representation.
-
-We have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
+The crucial fact is that different impressions give rise to the same representation, i.e. we have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)).
+Kant continues:
 
 > The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the manifold of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition. ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
 
-for that we need:
+for that it is necessary to have:
 
 * A rule, which guarantees that the reproduction happens a priori and can always be exhibited. This is called "unity of rule".
 
@@ -238,7 +238,23 @@ While in view of the transcendental object: it
 
 ### Achourioti and van Lambalgen's formalization
 
-Strarting from the description of the [A deduction](#deductionA) above Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) suggested a formalization of Kant's logic in terms of [[geometric logic]].
+Starting from the description of the [A deduction](#deductionA) above Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) suggested a formalization of Kant's logic in terms of [[geometric logic]].
+The idea is to assign each moment of time, i.e. impression, a [[model]]. Then a directed system of such models represents the syntheses of apprehension and reproduction. Taking the limit along this directed system ("synthesis of recognition") gives the concept. Geometric implications come into play as they are exactly the formulas whose truth is stable under taking the limit.
+
+Although the natural category for interpreting [[geometric logic]] is a [[topos]], Achourioti and van Lambalgen work only in [[Set]] for technical convenience. From a philosophical point of view they remark that the underlying category should have additional structure. They elaborate on a specific finite set model of their interpretation, for which they can show a completness theorem. We will state their main results with small reformulations.
+
+...
+
+#### Dictionary
+
+| Kant | [[mathematical logic]] and [[model theory]] |
+|------|---------------------------------------------|
+| time | directed index category |
+| a manifold of representation | object in the underlying category |
+| synthesis of apprehension | objects of the index category of a directed system (inside the underlying category) | 
+| synthesis of reproduction | morphisms of the index category of a directed system (inside the underlying category) | 
+| synthesis of recognition | limit along the directed system |
+
 
 ## __II. Transcendental Doctrine of Methods.__
 
@@ -279,7 +295,7 @@ Publications of Kant's original work include:
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
-* [comparison on first and second edition](http://www.zbk-online.de/texte/A0368.htm) (German), Bär, Jochen A. (ed.) (2010 ff.): _Zentralbegriffe der klassisch-romantischen „Kunstperiode“ (1760–1840). Wörterbuch zur Literatur- und Kunstreflexion der Goethezeit._ [http://www.zbk-online.de](http://www.zbk-online.de).
+* [comparison of first and second edition](http://www.zbk-online.de/texte/A0368.htm) (German), Bär, Jochen A. (ed.) (2010 ff.): _Zentralbegriffe der klassisch-romantischen „Kunstperiode“ (1760–1840). Wörterbuch zur Literatur- und Kunstreflexion der Goethezeit._ [http://www.zbk-online.de](http://www.zbk-online.de).
 
 Related primary literature from Kant comprises
 
@@ -290,7 +306,7 @@ Secondary literature include:
 * Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
 * Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
-  * {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pgs 415-455
+  * {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pp. 415-455
 
 
 {#AchouriotiVanLambalgen}Achourioti and van Lambalgen's approach appeared in
