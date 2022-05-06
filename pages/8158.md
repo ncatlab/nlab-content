@@ -42,7 +42,7 @@ We might also demand that $\alpha = \beta$; this is automatic if $U$ is saturate
 
 ## Examples
 
-* Most famous [[forgetful functors]] are amnestic, such as $Grp \to Set$, $Top \to Set$, $Top Grp \to Grp$, and $Top Grp \to Top$.  Even $Met \to Set$ is amnestic, since the morphisms in [[Met]] are [[short maps]].  However, $Met_cont \to Set$, where the morphisms are [[continuous maps]], is *not* amnestic, as is shown by any set with two different but topologically equivalent metrics (such as $\R^2$ with the $l^1$ and $l^\infty$ metrics).
+* Most famous [[forgetful functors]] are amnestic, such as $Grp \to Set$, $Top \to Set$, $Top Grp \to Grp$, and $Top Grp \to Top$.  Even $Met \to Set$ is amnestic, since the morphisms in [[Met]] are [[short maps]].  However, $Met_cont \to Set$, where the morphisms are [[continuous maps]], is *not* amnestic, as is shown by any set with two different but topologically equivalent metrics (such as $\mathbb{R}^2$ with the $l^1$ and $l^\infty$ metrics).
 
 * The forgetful functor from a groupoid of [[structured sets]] is amnestic.  The examples above may all be defined by starting from such a groupoid and specifying which functions preserve the structure (and so are morphisms in the category of structured sets).  So long as this produces no additional isomorphisms, the forgetful functor will be amnestic.  But in the case of $Met_cont$, any non-isometric homeomorphism will be an isomorphism that was not in the original groupoid (consisting only of surjective isometries), and so this forgetful functor is not amnestic.
 
