@@ -93,7 +93,7 @@ $$
 $$
 
 
-Since the [[Adams operations are compatible with the Chern character]], this means equivalently that under the [[Chern character]] map $ch$ we have in [[ordinary cohomology|ordinary]] [[rational cohomology]]:
+Since the [[Adams operations are compatible with the Chern character]], this means equivalently that under the [[Chern character]] map $ch$ we have:
 
 $$
   \psi^k_H 
@@ -103,9 +103,12 @@ $$
      ch
      \big(
        V_{2 n} 
-       -
-       e(f)
-       \cdot
+     \big)
+     -
+     e(f)
+     \cdot
+     ch
+     \big(
        V_{2(n + n')}
      \big) 
      &
@@ -115,19 +118,24 @@ $$
      &
        \cdot 
      & 
-     ch
      \big(
+     ch
+     (
        V_{2 n} 
-       -
-       e(f)
-       \cdot
+     )
+     -
+     e(f)
+     \cdot
+     ch
+     (
        V_{2(n + n')}
-     \big) 
+     ) 
+     \big)
      \\
      ch
-     \big(
+     (
        V_{2(n+n')} 
-     \big)
+     )
      &
        \mapsto
      & 
@@ -136,16 +144,18 @@ $$
        \cdot 
      & 
      ch
-     \big(
+     (
         V_{2 (n + n')}
-     \big)
+     )
    }
   \right.
   \;\;\;\;
   \in
   \;
-  H^{ev}\big( C_f; \, \mathbb{Q} \big)
+  H^{ev}\big( C_f; \, \mathbb{Q} \big)/H^{ev}\big( C_f; \, \mathbb{Z} \big)
 $$
+
+in [[ordinary cohomology|ordinary]] [[rational cohomology]] [[modulo]] [[integral cohomology]].
 
 But since the [[eigenvectors]] of $\psi^k_H $ to [[eigenvalue]] $k^r$ are precisely the classes in $H^{2r}\big( C_f;\, \mathbb{Q} \big) \,\subset\, H^{ev}\big( C_f;\, \mathbb{Q} \big)$ (see [there](Adams+operations+compatible+with+the+Chern+character#eq:AdamsOperationOnOrdinaryCohomologyInDegree2r)), this means that
 
@@ -156,35 +166,38 @@ $$
   \big)
   \;\;=\;\;
   \underset{
-    \in \; H^{2n}\big( C_f; \, \mathbb{Q} \big)
+    \in \; H^{2n}\big( C_f; \, \mathbb{Q}/\mathbb{Z} \big)
   }{
     \underbrace{
        ch
        \big(
-          V_{2n}
-          - 
-          e(f)
-          \cdot
-          V_{2(n+n')}
+         V_{2n} 
+       \big)
+       - 
+       e(f)
+       \cdot
+       ch
+       \big(
+         V_{2(n+n')}
        \big)
     }
   }
   \;+\;
   \underset{
-    \in \; H^{2(n + n')}\big( C_f; \, \mathbb{Q} \big)
+    \in \; H^{2(n + n')}\big( C_f; \, \mathbb{Q}/\mathbb{Z} \big)
   }{
     \underbrace{
+       e(f)
+       \cdot
        ch
        \big(
-          e(f)
-          \cdot
-          V_{2(n+n')}
+         V_{2(n+n')}
        \big)
     }
   }
 $$
 
-Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$
+Hence we find that the e-invariant measures equivalently the rational offset of the degree-$2(n+n')$-component of the Chern character of the choice of lift of the generator $V_{2n} \,\in\, \widetilde K(S^{2n})$ to $ \widetilde K(C_f)$.
 
 (...)
 
