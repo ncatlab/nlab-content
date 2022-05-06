@@ -364,6 +364,11 @@ The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+### As exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ## Examples
  {#Examples}
 
