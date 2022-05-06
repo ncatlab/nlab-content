@@ -50,6 +50,8 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 ## Related concepts
 
+* [[non-geometric string theory vacua]]
+
 * [[generalized complex geometry]], [[exceptional geometry]]
 
 * [[generalized tangent bundle]], [[exceptional tangent bundle]]
