@@ -30,6 +30,7 @@ A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-d
 *  Up to [[isomorphism]], there are three hypercomplex number systems of dimension $2$, each of which is a [[commutative algebra]].  Since they each have one nontrivial [[automorphism]] (an [[involution]] called _conjugation_), there are only $3/2$ of these algebras by [[groupoid cardinality]].  Given the rule
    $$ e^2 = a + b e $$
    (for $a, b$ fixed real numbers), the algebra $\mathbb{R}[e]$ may be identified as one of these three cases by the sign of $b^2 - 4 a$.  They are:
+
    *  the [[complex numbers]] (elliptic case, $b^2 - 4 a \gt 0$),
    *  the [[dual numbers]] (parabolic case, $b^2 - 4 a = 0$),
    *  the [[perplex numbers]] (hyperbolic case, $b^2 - 4 a \lt 0$).
