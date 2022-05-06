@@ -211,6 +211,9 @@ and is further developed in the following articles:
 * Yermek Aldabergenov, Shuntaro Aoki, [[Sergei Ketov]], _Minimal Starobinsky supergravity coupled to dilaton-axion superfield_ ([arXiv:2001.09574](https://arxiv.org/abs/2001.09574))
 
 
+* [[John Ellis]], Marcos A. G. Garcia, Natsumi Nagata, [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _Building Models of Inflation in No-Scale Supergravity_ ([arXiv:2009.01709](https://arxiv.org/abs/2009.01709))
+
+
 
 ### Embedding into 11d supergravity
  {#ReferencesEmbeddingInto11dSupergravity}
