@@ -147,6 +147,8 @@ For reference, the following lists that theorems about the standard foundations 
 
 * [[interpretation of quantum mechanics]]
 
+[[!include states and observables -- content]]
+
 ## References
 
 *  [[Pascual Jordan]], &#220;ber eine Klasse nichtassociativer
