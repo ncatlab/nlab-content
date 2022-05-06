@@ -69,8 +69,8 @@ A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[A
 
 * [[Arf-Kervaire invariant problem]]
 
-## References
 
+## References
 
 The original proof that the only maps of Hopf invariant one are the [[Hopf constructions]] on the four [[normed division algebras]] is due to
 
@@ -84,6 +84,7 @@ Review includes
 
 * {#Rognes12} [[John Rognes]], around lemma 4.14, theorem 4.15 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
+* Joseph Victor, Section 2.4 of _Stable Homotopy Groups of Spheres and The HopfInvariant One Problem_, 2013 ([pdf](http://mathematics.stanford.edu/wp-content/uploads/2013/08/Victor-Honors-Thesis-2013.pdf))
 
 Further comments on the impact of this proof on the development of [[stable homotopy theory]] includes
 
@@ -104,9 +105,11 @@ This is reproduced for instance in
 
 * [[Ulrich Pennig]], _[K-theory and the Hopf invariant](http://wwwmath.uni-muenster.de/reine/u/topos/lehre/SS2015/KTheorie-Hopf/Hopf_eng.html)_ 
 
-Quick review includes
+Review of this K-theoretic approach includes:
 
 * [[Akhil Mathew]], _[K-Theory and the Hopf invariant](https://amathew.wordpress.com/2012/01/08/k-theory-and-the-hopf-invariant/)_
+
+* Ishan Banerjee, _The Hopf invariant one problem_, 2016 ([pdf](http://math.uchicago.edu/~may/REU2016/REUPapers/Banerjee.pdf))
 
 
 Review using the [[BP]]-[[Adams-Novikov spectral sequence]] includes
