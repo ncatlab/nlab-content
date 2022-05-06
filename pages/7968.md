@@ -299,13 +299,14 @@ $$
 
 ## Related concepts
 
-* [[Compton wavelength]]
-
 * [[theory (physics)]]
 
 * [[quantization]]
 
 * [[coupling constant]]
+
+[[!include fundamental scales -- contents]]
+
 
 ## References
 
