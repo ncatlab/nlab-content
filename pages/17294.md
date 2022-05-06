@@ -15,9 +15,9 @@
 
 ## Idea
 
-A __functorial factorization__ is a structure on a category that factors any morphism into a composite of two morphisms, in a way that depends functorially on commutative squares.
+A __functorial factorization__ is a [[mathematical structure|structure]] on a [[category]] that factors any [[morphism]] into a [[composition|composite]] of two morphisms, in a way that depends [[functor|functorially]] on [[commutative squares]].
 
-Functorial factorizations play a prominent role in [[model category]] theory.  On the one hand, many constructions there do rely on the factorizations into (acyclic) [[cofibrations]] and (acyclic) [[fibrations]] to be functorial, while on the other hand via the [[small object argument]] many examples of model categories do in fact carry a functorial factorization.  (As a result, some authors include functorial factorization in the axioms of a model category right away.)
+Functorial factorizations play a prominent role in [[model category]] theory.  On the one hand, many constructions there do rely on the factorizations into (acyclic) [[cofibrations]] and (acyclic) [[fibrations]] to be functorial, while, on the other hand, via the [[small object argument]] many examples of model categories do in fact carry a functorial factorization.  (As a result, some authors include functorial factorization in the axioms of a model category right away.)
 
 Functorial factorizations also play an important role as an ingredient in [[algebraic weak factorization systems]].
 
@@ -113,6 +113,10 @@ A endofunctor $R$ of $\mathcal{C}^{\Delta[1]}$ maps every morphism $f$ in $\math
 =--
 
 An [[algebraic weak factorization system]] is a functorial factorization together with compatible enhancements of these endofunctors to a monad and comonad.  This can often be detected with the help of a [[composition law for factorizations]].
+
+## Related concepts
+
+* [[fibrant replacement]]
 
 ## References
 
