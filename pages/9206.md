@@ -56,7 +56,7 @@ The [[perturbation theory]] is considered in
 
 * [[Zvi Bern]], John Joseph Carrasco, [[Lance Dixon]], [[Michael Douglas]], Matt von Hippel, Henrik Johansson, _$D = 5$ maximally supersymmetric Yang-Mills theory diverges at six loops_ ([arXiv:1210.7709](http://arxiv.org/abs/1210.7709))
 
-### Relation to the $D = 6$ SCFT
+### From $D = 6$ SCFT
  {#ReferencesRelationToD=6SCFT}
 
 Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]] [[fiber]], hence as [[worldvolume]] theory of the [[D4-brane]] [[double dimensional reduction]] of the [[M5-brane]] (see also at [[Perry-Schwarz Lagrangian]]):
@@ -75,7 +75,14 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * [[Neil Lambert]], Sec. 3.1 and 3.4.3. of _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf))
 
-### Relaization on $(p,q)$5-brane webs
+### From M-theory on Calabi-Yau 3-folds
+
+From [[M-theory on Calabi-Yau 3-folds]]:
+
+* {#CDS18} Cyril Closset, Michele Del Zotto, Vivek Saxena, _Five-dimensional SCFTs and gauge theory phases: an M-theory/type IIA perspective_ ([arXiv:1812.10451](https://arxiv.org/abs/1812.10451))
+
+
+### Realization on $(p,q)$5-brane webs
 
 Realization ([[geometric engineering of quantum field theory|geometric engineering]]) on [[(p,q)5-brane webs]]:
 
@@ -93,3 +100,5 @@ Further developments:
 
 [[!redirects D=5 N=1 super Yang-Mills theory]]
 [[!redirects D=5 N=1 SYM]]
+
+[[!redirects 5d super Yang-Mills theory]]
