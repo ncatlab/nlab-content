@@ -90,6 +90,9 @@ In this context the Ryu-Takayanagi formula for holographic entanglement entropy 
 ## References
  {#References}
 
+
+### General
+
 The original article are
 
 * {#RyuTakayanagi06a} [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Derivation of Entanglement Entropy from AdS/CFT_, Phys. Rev. Lett. 96:181602, 2006 ([arXiv:hep-th/0603001](https://arxiv.org/abs/hep-th/0603001))
@@ -159,9 +162,9 @@ See also
 
 Further development of these tensor networks in 
 
-* Ning Bao, Geoffrey Penington, Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
+* Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
 
-* Ning Bao, Geoffrey Penington, Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
+* Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
 
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
@@ -171,6 +174,14 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 Discussion in terms of [[DHR superselection theory]]:
 
 * {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
+
+### Black hole information paradox
+
+Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
+
+* [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_ ([arXiv:1911.11977](https://arxiv.org/abs/1911.11977))
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv"1911.12333](https://arxiv.org/abs/1911.12333))
 
 [[!redirects Ryu-Takayanagi formula]]
 
