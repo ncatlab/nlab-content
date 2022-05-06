@@ -146,8 +146,7 @@ The following contains a careful discussion of [[Gödel's incompleteness theorem
 
 A comparative discussion of complexities of different foundations is in 
 
-* [[Freek Wiedijk]], _Is ZF a hack? Comparing the complexity of some
-(formalist interpretations of) foundational systems for mathematics_  ([pdf](http://www.cs.ru.nl/~freek/zfc-etc/zfc-etc.pdf))
+* [[Freek Wiedijk]], _Is ZF a hack? Comparing the complexity of some (formalist interpretations of) foundational systems for mathematics_ ([pdf](http://www.cs.ru.nl/~freek/zfc-etc/zfc-etc.pdf))
 
   **Abstract** This paper presents [[Automath]] encodings (which also are
 valid in LF/P) of various kinds of foundations of mathematics. Then it compares these encodings according to their size, to find out which foundation is the simplest.
