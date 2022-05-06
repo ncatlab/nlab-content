@@ -21,9 +21,18 @@
 
 * [[philosophy of mathematics]]
 
-## Related entries
+## Sentiments
+
+* [[theoretical aestheticism]]
+
+  [[universal exceptionalism]]
+
+* [[empiricism]]
+
+* [[idealism]]
 
 * [[structuralism]]
+
 
 ## References
 
