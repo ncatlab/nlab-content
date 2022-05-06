@@ -136,7 +136,7 @@ but see also:
 
 * {#Gold92} [[Robert Goldblatt]],  _Logics of time and computation_, 1992, ([pdf](http://sul-derivatives.stanford.edu/derivative?CSNID=00003782&mediaType=application/pdf))
 
-For the relationship between linear tree logic and functional reactive programming, see
+For the relationship between linear-time temporal logic and functional reactive programming, see
 
 * {#Jeffrey12} Alan Jeffrey _LTL types FRP: Linear-time temporal logic propositions as types, proofs as functional reactive programs_, in: Proceedings of the Sixth Workshop on Programming Languages Meets Program Verification (PLPV ’12)(2012), pp. 49–60. ([pdf](http://ect.bell-labs.com/who/ajeffrey/papers/plpv12.pdf))
 
