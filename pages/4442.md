@@ -595,6 +595,9 @@ Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ 
 * {#GHMO16} Gianluca Grignani, Troels Harmark, Andrea Marini, Marta Orselli, _The Born-Infeld/Gravity Correspondence_, Phys. Rev. D 94, 066009 (2016) ([arXiv:1602.01640](https://arxiv.org/abs/1602.01640))
 
 
+[[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
+
+
 
 ### Applications to physics
  {#Appications}
