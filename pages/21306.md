@@ -20,11 +20,13 @@
 
 ## Idea
 
-A [[bound state]] of four [[quarks]] (or rather: of a [[diquark]] and an [[antiparticle|anti]]-[[diquark]].
+A _tetraquark_ is an [[exotic meson]] which is a [[bound state]] of four [[quarks]], or rather: of a [[diquark]] and an [[antiparticle|anti]]-[[diquark]].
 
 ## Related concepts
 
 * [[hadron supersymmetry]]
+
+* [[XYZ meson]]
 
 ## References
 
