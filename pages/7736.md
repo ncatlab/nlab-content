@@ -19,6 +19,10 @@ On [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[bl
 
 * [[Jerome Gauntlett]], [[Nakwoo Kim]], [[Daniel Waldram]], _M-Fivebranes Wrapped on Supersymmetric Cycles_, Phys. Rev. D63 (2001) 126001 ([arXiv:hep-th/0012195](https://arxiv.org/abs/hep-th/0012195))
 
+On [[flux compactifications]] in terms of [[G-structure]]:
+
+* [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
+
 
 
 ## Related $n$Lab entries
