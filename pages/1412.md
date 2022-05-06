@@ -112,7 +112,7 @@ Such an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above 
 
 We say [[presheaf]] instead of just [[functor]], even though taken at face value a presheaf is just a functor, to indicate that there is one further, more nontrivial consistency check on the information about probes of my secret space $X$ which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces.
 
-* More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought to be true that all the probes by $U$ in $X(U)$ can be entirely and exactly be reconstructed from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match over the overlap $V_1 \cap V_2$ of the two small probes: 
+* More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought to be true that all the probes by $U$ in $X(U)$ can be entirely and exactly reconstructed from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match over the overlap $V_1 \cap V_2$ of the two small probes: 
    
 * in symbols, the collection of pairs in $\{ $matching maps from $V_1$ and $V_2$ to $X \} \hookrightarrow X(V_1) \times X(V_2)$ whose elements coincide when restricted to the overlap
   
