@@ -2052,7 +2052,7 @@ This is also called the _[[delooping]]_ of $G$ (because the [[loop space object]
 $\Omega B G \simeq G$).
 
 For $G_1, G_2$ two groups, then there is a [[natural bijection]] between [[group homomorphisms]]
-$\phi \colon G_1 \to G_2$ and groupoid homomorphisms $G G_1 \to B_ G_2$: the latter are all of the form
+$\phi \colon G_1 \to G_2$ and groupoid homomorphisms $B G_1 \to B G_2$: the latter are all of the form
 $B \phi$, with $(B \phi)_0$ uniquely fixed and $(B \phi)_{p,p} = \phi$.
 
 This means that the construction $B(-)$ is a  [[fully faithful functor]]
