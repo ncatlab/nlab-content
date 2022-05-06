@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _D-meson_ is a light [[meson]] including a [[charm quark]], hence a bound state of a [[charm quark]] with either of an [[up quark]], [[down quark]] or [[strange quark]].
+
+The class of D-mesons goes alongside that of [[K-mesons]] ([[light mesons]] with a [[strange quark]]) and [[B-mesons]] (mesons with a [[bottom quark]]),
+
+[[!include flavors of fundamental particles -- table]]
+
+## References
+
+See also
+
+* Wikipedia, _[D-meson](https://en.wikipedia.org/wiki/D_meson)_
+
+[[!redirects D-mesons]]
+
+[[!redirects D meson]]
+[[!redirects D mesons]]
+
