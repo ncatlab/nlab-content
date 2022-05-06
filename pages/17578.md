@@ -17,7 +17,7 @@ An atomic topos is a topos $\mathcal{E}$ where the global sections functor $\Gam
 
 ## Definition
 
-Recall that a [[geometric morphism]] $f$ is called if its [[inverse image functor]] $f^*$ is [[logical functor|logical]].
+Recall that a [[geometric morphism]] $f$ is called [[atomic geometric morphism|atomic]] if its [[inverse image functor]] $f^*$ is [[logical functor|logical]].
 
 +-- {: .num_defn}
 ###### Definition
