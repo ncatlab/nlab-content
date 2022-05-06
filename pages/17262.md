@@ -88,9 +88,11 @@ In this form it is a nice exercise to derive a presentation of $Q_8$.  Clearly $
 
 We note that $\eta^2 = \xi^2$ and that $\eta \xi \eta^{-1}= \xi^{-1}$, so a guess for a presentation  would be
 
-$$\langle x,y : x^4=1, y^2=x^2, yxy^{-1}=x^{-1}\rangle.$$
+$$
+\langle x,y : x^4=1, y^2=x^2, y x y^{-1}=x^{-1}\rangle.
+$$
 
-Let us call $G$ the group presented by this presentation, then there is an obvious epimorphism from $G$ to $Q$ sending $x$ to $\xi$ and $y$ to $\eta$. This is an isomorphism as will be clear if we show that the order of $G$ is less than of equal to 8.  Now every element of $G$ can be writtenin the form $x^iy^j$ with $0\leq i\leq 3$ and $0\leq j\leq 1$, since $yx=x^{-1}y$ so powers of $y$ can be shifted to the right in any expression and then if the resulting power of $y$ is greater than 2 we can use $y^2=x^2$ to replace even powers of $y$ by powers of $x$. We must therefore have that the $G$ must contain a most 8 elements so the above presentation is a presentation of $Q_8$.
+Let us call $G$ the group presented by this presentation, then there is an obvious epimorphism from $G$ to $Q$ sending $x$ to $\xi$ and $y$ to $\eta$. This is an isomorphism as will be clear if we show that the order of $G$ is less than of equal to 8.  Now every element of $G$ can be written in the form $x^i y^j$ with $0\leq i\leq 3$ and $0\leq j\leq 1$, since $y x=x^{-1}y$ so powers of $y$ can be shifted to the right in any expression and then if the resulting power of $y$ is greater than 2 we can use $y^2=x^2$ to replace even powers of $y$ by powers of $x$. We must therefore have that the group $G$ must contain a most 8 elements so the above presentation is a presentation of $Q_8$.
 
 
 ## Related entries
