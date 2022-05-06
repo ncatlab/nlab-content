@@ -23,9 +23,7 @@
 
 ## Idea
 
-A project for formalization of parts of [[mathematics]] ([[formal proof]]) in formal languages supported by [[proof assistants]].
-
-* [ForMath Website](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath)
+A project for formalization of parts of [[mathematics]] ([[formal proof]]) in formal languages supported by [[proof assistants]] (particularly in [[Coq]]).
 
 ## Related projects
 
@@ -43,5 +41,16 @@ A project for formalization of parts of [[mathematics]] ([[formal proof]]) in fo
 * [[MathScheme]]
 
 * [[formal proof]]
+
+## References
+
+* [ForMath Website](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath)
+
+* {#ForMath} [[Thierry Coquand]], _ForMath: Formalisation of Mathematics_ research project ([web](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath))
+  
+* {#MathClasses} Eelis van der Weegen, [[Bas Spitters]], Robbert Krebbers, Matthieu Sozeau, Tom Prince, [[Jelle Herold]], 
+
+  _Math Classes_, Coq Library for basic mathematical structures ([web](http://math-classes.org/))
+
 
 [[!redirects ForMath project]]
