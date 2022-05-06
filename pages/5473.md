@@ -158,7 +158,7 @@ If $T$ is a monad on a [[slice category]] $Set/X$, then the category of $T$-alge
 
 ### For functors preserving filtered colimits  
 
-Returning now to existence of general coequalizers, here is a more difficult and arcane result given in [Toposes, Theories, and Triples](#BarrWells) (theorem 3.9, p. 267): 
+Returning now to existence of general coequalizers, here is a more difficult and arcane result given in [Toposes, Triples, and Theories](#BarrWells) (theorem 3.9, p. 267): 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -278,7 +278,7 @@ where the commutativity of the unlabeled polygonal region is just the commutativ
 
 ## References 
 
-* [[Michael Barr]] and [[Charles Wells]], _Toposes, Theories, and Triples_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf)) 
+* [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples, and Theories_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf)) 
 {#BarrWells}
 
 * [[Jiří Adámek]] and V&#225;clav Koubek, _Are colimits of algebras simple to construct?_,  Journal of Algebra, Volume 66, Issue 1 (September 1980), 226-250. ([link](http://www.sciencedirect.com/science/article/pii/0021869380901222)) 
