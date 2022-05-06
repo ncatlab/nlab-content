@@ -12,6 +12,10 @@ On [[NS5-branes]] in ([[dual heterotic string theory|dual]]) [[heterotic string 
 
 * {#Strominger90} [[Andrew Strominger]], _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>) ([spire:27900](http://inspirehep.net/record/27900))
 
+On the [[M5-brane elliptic genus]]:
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070, 2007 ([hep-th/0607010](https://arxiv.org/abs/hep-th/0607010))
+
 
 On the [[Navier-Stokes equation]] in view of the [[fluid/gravity correspondence]]:
 
