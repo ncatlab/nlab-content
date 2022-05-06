@@ -1,11 +1,2 @@
 
-
-* [webpage](http://math.berkeley.edu/~kirby/)
-
-## related $n$Lab entries
-
-* [[3-manifold]]
-
-* [[Kirby calculus]]
-
-category: people
+see _[[Robion Kirby]]_
