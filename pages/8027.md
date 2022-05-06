@@ -25,9 +25,9 @@
 
 The _AGT correspondence_ ([AGT 09](#AGT09)) is a relation between 
 
-1. the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] 
+1. the [[instanton]]-[[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] (Nekrasov's partition function, e.g. [Szabo 15 (2.1)](#Szabo15))
 
-1. [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  
+1. the [[conformal blocks]] of [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$  
 
 Here the idea is that $C_{g,n}$  is the [[super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the worldvolume [[6d (2,0)-supersymmetric QFT]] of two [[M5-branes]], see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
 
@@ -75,16 +75,17 @@ Brief surveys include
 
 * Giulio Bonelli, _Variations on AGT Correspondence_, 2013 ([pdf](https://indico.cern.ch/event/217384/attachments/348854/486363/Bonelli.pdf))
 
+* {#Taki16} Masato Taki, _String Theory as an Attempt of PolyMathematics_, talk at 2016.4/28 iTHES-AIMR-IIS  ([pdf](https://indico2.riken.jp/event/2215/attachments/4106/4775/Taki_invited.pdf))
+
 More detailed review is in
 
 * Rober Rodger, _A pedagogical introduction to the AGT conjecture_, Master Thesis Utrecht (2013) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2013/R.J.Rodger.pdf))
 
-* {#Szabo15} [[Richard Szabo]], _$N=2$ gauge theories, instanton moduli spaces and geometric representation theory_, Journal of Geometry and Physics
-Volume 109, November 2016, Pages 83-121 ([arXiv:1507.00685](https://arxiv.org/abs/1507.00685))
+* {#Szabo15} [[Richard Szabo]], _$N=2$ gauge theories, instanton moduli spaces and geometric representation theory_, Journal of Geometry and Physics Volume 109, November 2016, Pages 83-121 ([arXiv:1507.00685](https://arxiv.org/abs/1507.00685))
 
 See also
 
-* [[Alexander Belavin]], M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_, [http://arxiv.org/abs/1111.2803](arxiv/1111.2803)
+* [[Alexander Belavin]], M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_ ([arxiv/1111.2803](http://arxiv.org/abs/1111.2803))
 
 * [[Volker Schomerus]], Paulina Suchanek, _Liouville's imaginary shadow_, [arxiv/1210.1856](http://arxiv.org/abs/1210.1856)
 
