@@ -129,3 +129,9 @@ in the context of [[Chern-Simons theory]] and in more general gauge theory to
 
 [[!redirects Wilson operator]]
 [[!redirects Wilson operators]]
+
+[[!redirects Wilson loop observable]]
+[[!redirects Wilson loop observables]]
+
+[[!redirects Wilson line observable]]
+[[!redirects Wilson line observables]]
