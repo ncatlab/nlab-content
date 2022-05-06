@@ -37,3 +37,5 @@ A Euclidean domain is a [[principal ideal domain]].
 ###### Proof 
 Let $I \subseteq A$ be a nonzero ideal, and suppose $d(g)$ is the minimum degree taken over all nonzero $g \in I$. For such a $g$ and any $f \in I$, we may write $f = q g + r$ where either $r = 0$ or $d(r) \lt d(g)$ (which is impossible since $r \in I$ and $d(g)$ is minimal). So $r = 0$ it is, and thus $I = (g)$. 
 =-- 
+
+[[!redirects Euclidean domains]]
