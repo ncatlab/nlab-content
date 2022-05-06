@@ -130,12 +130,12 @@ This was originally sketched in [Kontsevich 92, p. 11-12](#Kontsevich92). A deta
  {#GraphComplex}
 
 
-In general, the definition of a graph complex depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomoloy of the [[configuration space of points]] in $\Sigma$
+In general, the definition of a graph complex depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomology of the [[configuration space of points]] in $\Sigma$
 
 $$
   Graphs\big( \Sigma \big)
   \leftrightarrow
-  \Omega^\bullet\big(  Conf(Sigma) \big)
+  \Omega^\bullet\big(  Conf(\Sigma) \big)
   \,.
 $$
 
@@ -172,7 +172,7 @@ $$
        }
      }{  
        \underbrace{
-         Conf_n(Sigma) 
+         Conf_n(\Sigma) 
        }
      }
   \big)
