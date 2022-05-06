@@ -23,7 +23,7 @@ An **action of a category** $C$ on a [[set]] $S$ is nothing but a [[functor]] $\
 The particular set $S$ that this functor defines an [[action]] on is the disjoint union of sets that the functor assigns to the objects of $C$:
 
 $$
-  S = \sqcup_{c \in Obj(C)} \rho(c) 
+  S = \bigsqcup_{c \in Obj(C)} \rho(c) 
   \,.
 $$
 
@@ -97,7 +97,7 @@ $$
   \,.
 $$
 
-Above we have seen that the aciton of $C$ on $S$ sends every element in this fiber product, which is a pair
+Above we have seen that the action of $C$ on $S$ sends every element in this fiber product, which is a pair
 
 $$
   (s \in \rho(c) \subset S, (c \stackrel{f}{\to} d) \in Mor(C))
