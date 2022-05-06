@@ -28,7 +28,7 @@ What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmo
 
 This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous (an assumption also known as the _cosmological principle_). 
 
-Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "[[backreaction]]" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Buchert-Räsänen 11](#BuchertRasanen11), [Ellis 18](#Ellis18).
+Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]], see for instance the _[[KBC void]], [KBC 13](#KBC13)), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "[[backreaction]]" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Buchert-Räsänen 11](#BuchertRasanen11), [Ellis 18](#Ellis18).
 
 It has been shown that the effect of such [[backreaction]] is small or invisible if the inhomogeneity is modeled in a non-[[relativistic field theory|relativistic]] (i.e. Newtonian) limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
@@ -42,7 +42,7 @@ Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Colin-Mohayaee-Rameez-Sarkar 19b](#ColinMoymhayeeRamezSarkar19),
  [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
-Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension is in [Bolejko 17](#Bolejko17), [Sikora-Glod 20](#SikoraGlod20)
+Discussion specifically of cosmic inhomogenity as the possible cause of the [H0-tension](Hubble+constant#H0TensionReferences) is in [Bolejko 17](#Bolejko17), [Sikora-Glod 20](#SikoraGlod20).
 
 From [Koksbang 19, p. 3](#Koksbang19):
 
@@ -209,6 +209,13 @@ A new analytical approach is suggested by [Ginat 20](#Ginat20), where non-neglig
  {#LemaitreTolmanBondi}
 
 A particular class of exactly soluable simple examples of inhomogeneous cosmological models are Lemaitre-Tolman-Bondi models. If taken as quasi-realistic models in themselves, these require assuming that we inhabit a position close to a singled-out "center" of the universe, usually the center of an assumed cosmic "void", of low matter density. See e.g. [Moffat 05](#Moffat05), [Enkvist 07](#Enkvist07), [Moffat 16](#Moffat16). Possible observational signatures of this scenario are discussed in [Clifton-Ferreira-Land 08](#CliftonFerreiraLand08)
+
+From [KBC 13](#KBC13):
+
+> In particular, “minimal void” scenarios (e.g., Alexander et al. 2009; Bolejko & Sussman 2011) have shown that very simple models placing the observer near the center of an under-density that is ∼ 300 Mpc in radius and roughly half the density of its surroundings are sufficient to explain the acceleration observed via type Ia supernovae. While these models are simplistic, they make clear that an observer’s location with respect to large-scale structures could have profound implications for that observer’s measurement of cosmological observables.
+
+
+
 
 It has been argued (e.g. [Moffat 16, p. 2](#Moffat16)) that the apparent unlikeliness of such a "spatial coincidence" is relativized in view of the observed  "temporal coincidence" that cosmic acceleration seems to start roughly with the onset of [[structure formation]] (the "coincidence problem" of cosmology), and the perceived fine-tuning of the [[cosmological constant]] required in the [[standard model of cosmology]].
 
@@ -432,6 +439,13 @@ In constrast, arguments that cosmic inhomogeneity can not be the cause of any si
 See also 
 
 * Wikipedia, _[Lemaître–Tolman metric](https://en.wikipedia.org/wiki/Lema%C3%AEtre%E2%80%93Tolman_metric)_
+
+### Observed inhomogeneity
+
+Introducing observation of the [[KBC void]]:
+
+* {#KBC13} Ryan C. Keenan, Amy J. Barger, Lennox L. Cowie, _Evidence for a ~300 Mpc Scale Under-density in the Local Galaxy Distribution_, 2013, ApJ, 775, 62 ([arXiv:1304.2884](https://arxiv.org/abs/1304.2884))
+
 
 
 
