@@ -13,7 +13,7 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 ## References
 
-* {#Girard13} [[Jean-Yves Girard]], _Transcendental syntax 2.0_, 2013 ([pdf](http://iml.univ-mrs.fr/~girard/TS2.pdf))
+* {#Girard13} [[Jean-Yves Girard]], _Transcendental syntax 2.0_, 2013 ([pdf](https://pdfs.semanticscholar.org/8548/a157279b27de84d1effd772b683c7b9d7701.pdf))
 
 * {#Girard13b} [[Jean-Yves Girard]], _Geometry of Interaction VI: a Blueprint for Transcendental Syntax_, 2013 ([CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.303.7141))
 
