@@ -30,6 +30,11 @@ For example, given a [[metric Lie algebra]] $\mathfrak{g}$ (with [[string diagra
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+## Related concepts
+
+[[!include states and observables -- content]]
+
+
 ## References
 
 For more see the references at _[[tensor network state]]_.
