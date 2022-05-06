@@ -14,6 +14,11 @@ On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
 
 
+On [[M2-brane 3-algebras]] in the [[BLG model]] for coincident [[M2-branes]]:
+
+* [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Metric Lie 3-algebras in Bagger-Lambert theory_, JHEP 0808 : 045, 2008 ([arXiv:0806.3242](https://arxiv.org/abs/0806.3242))
+
+
 On the equivalence of [[M2-brane 3-algebras]] to [[Lie algebra representations]] over [[metric Lie algebras]]:
 
 * {#MFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
