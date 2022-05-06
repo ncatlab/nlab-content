@@ -76,11 +76,24 @@ Hence the [[order of a group|order]] of the full icosahedral group is $ 60 \time
 +-- {: .num_prop #IsomorphismToSL25}
 ###### Proposition
 
-There is an exceptional [[isomorphism]] $I \simeq PSL_2(\mathbb{F}_5)$, with $2I \simeq SL_2(\mathbb{F}_5)$ covering this isomorphism.
+There is an exceptional [[isomorphism]] 
+
+$$
+  I \;\simeq\; PSL_2(\mathbb{F}_5)
+$$
+
+of the [[icosahedral group]] with the [[projective special linear group]] over the [[prime field]] $\mathbb{F}_5$.
+
+and, covering this, 
+
+$$
+  2I \;\simeq\; SL_2(\mathbb{F}_5)
+$$
+
+of the [[binary icosahedral group]] with the [[special linear group]] over $\mathbb{F}_5$.
 
 =--
 
-($PSL_2$ the [[projective special linear group]], $SL_2$ the [[special linear group]], $\mathbb{F}_5$ the [[prime field]] for $p = 5$)
 
 +-- {: .num_prop #2IIsPerfect}
 ###### Proposition
