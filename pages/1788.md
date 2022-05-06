@@ -1,4 +1,31 @@
 
+
+
+
+
+$$
+  \underline{\mathbf{1}}
+  \;\;
+  \colon
+  \;\;
+  \array{
+    \mathbb{Z}_2/1  
+    &\mapsto&
+    \mathbf{1}
+    \\
+    \big\downarrow 
+    &&
+    \big\downarrow{}^{\mathrlap{id}}
+    \\
+    \mathbb{Z}_2/\mathbb{Z}_2
+    &\mapsto&
+    \mathbf{1}
+  }
+$$
+
+The injective envelope is 
+
+
 Let the equivariance group be the [[cyclic group of order 2]]:
 
 $$
