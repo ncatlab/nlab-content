@@ -534,6 +534,12 @@ Emphasis of effects of [[hadron|hadronic]] [[form factors]]:
 
 * {#DescotesGenon19b} Sebastien Descotes-Genon, _Light-cone sum rules for $B \to K \pi$ form factorsand applications to rare decays_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74316/attachments/54770/71918/slides_bslllyon.pdf), [[DescotesGenonBssl19.pdf:file]])
 
+Emphasis of [[QED]]-corrections:
+
+* Dayanand Mishra, Namit Mahajan
+On the Impact of Soft Photons on  $B \to K \ell^+ \ell^-$ ([arXiv:2010.10853](https://arxiv.org/abs/2010.10853))
+
+
 
 
 
