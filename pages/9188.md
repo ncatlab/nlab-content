@@ -7,6 +7,12 @@
 
 * [[central charge]]
 
+* [[Cohomotopy charge]]
+
+
+
+
+
 [[!redirects charges]]
 
 [[!redirects charged field]]
