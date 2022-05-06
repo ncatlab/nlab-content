@@ -44,7 +44,17 @@ We are extremely grateful to John Baez, Manuel B&#228;renz, Bruce Bartlett, Euge
 
 Globular will soon followed by a successor tool _[[homotopy.io]]_.
 
-If you would like to cite _Globular_, you can use the BiBTeX entry `@InProceedings{globular, author={Krzysztof Bar and Aleks Kissinger and Jamie Vicary}, title={Globular: an online proof assistant for higher-dimensional rewriting}, note={\href{http://ncatlab.org/nlab/show/Globular}{ncatlab.org/nlab/show/Globular}}, pages={34:1--34:11}, volume=52, year=2016, booktitle={Leibniz International Proceedings in Informatics}}`.
+{#HowToCite} If you would like to cite _Globular_, you can use the BiBTeX entry 
+
+      @InProceedings{
+      globular, 
+      author={Krzysztof Bar and Aleks Kissinger and Jamie Vicary}, 
+      title={Globular: an online proof assistant for higher-dimensional rewriting}, 
+      note={\href{http://ncatlab.org/nlab/show/Globular}{ncatlab.org/nlab/show/Globular}}, 
+      pages={34:1--34:11}, 
+      volume=52, 
+      year=2016, 
+      booktitle={Leibniz International Proceedings in Informatics}}
 
 ### Example proofs ###
 
@@ -222,4 +232,4 @@ The coordinate system for an $n$-diagram is defined in the following way. An $n$
 
 ##References
 
-* Krzysztof Bar, Aleks Kissinger, Jamie Vicary, _Globular: an online proof assistant for higher-dimensional rewriting_, [arXiv:1612.01093](https://arxiv.org/abs/1612.01093)
+* Krzysztof Bar, [[Aleks Kissinger]], [[Jamie Vicary]], _Globular: an online proof assistant for higher-dimensional rewriting_, [arXiv:1612.01093](https://arxiv.org/abs/1612.01093)
