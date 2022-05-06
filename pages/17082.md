@@ -76,10 +76,15 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 ## Related concepts
 
 * [[factorization system]]
+
 * [[homotopy lifting property]]
+
 * [[Kan lift]]
 
 * [[Joyal-Tierney calculus]]
+
+* [[lifts and extensions]]
+
 
 [[!redirects lifts]]
 
