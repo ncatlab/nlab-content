@@ -40,7 +40,7 @@ Its canonically [[associated bundle|associated]] [[complex line bundle]] is the 
 
 This we discuss below in 
 
-* _[On the 3-spehere](#DefinitionFor3Sphere)_
+* _[On the 3-sphere](#DefinitionFor3Sphere)_
 
 More generally, there are four Hopf fibrations, on the 1-sphere, the 3-sphere, the 7-sphere and the 15-sphere, respectively. This we discuss in 
 
@@ -181,7 +181,7 @@ $H_{\mathbb{C}} \in \pi_3(S^2)$,
 
 $H_{\mathbb{H}} \in \pi_7(S^4)$
 
-$H_{\mathbb{H}} \in \pi_{15}(S^8)$
+$H_{\mathbb{O}} \in \pi_{15}(S^8)$
 
 be the [[homotopy class]] of the [[complex Hopf fibration]], the [[quaternionic Hopf fibration]] and the [[octonionic Hopf fibration]], respectively. Then their [[suspensions]] are the generators of the corresponding [[stable homotopy groups of spheres]]:
 
