@@ -21,10 +21,16 @@ On [[Vassiliev invariants of braids]] via [[chord diagrams]]:
 
 * [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
+List of literature on [[Vassiliev invariants]]:
+
+* [[Dror Bar-Natan]], [[Sergei Duzhin]], _[Bibliography of Vassiliev Invariants](http://www.pdmi.ras.ru/~duzhin/VasBib/Long)_
+
 
 On the [[cochain cohomology]] of [[graph complexes]]:
 
 * [[Dror Bar-Natan]], [[Brendan McKay]], _Graph cohomology -- An overview and some computations_ ([[BarNatanMcKayGraphCohomology.pdf:file]])
+
+
 
 
 ## Eelated $n$Lab entries
