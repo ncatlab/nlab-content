@@ -101,9 +101,9 @@ The [[Grassmannian]] $Gr_r(\mathbb{R}^{n+1})$ (def. \ref{RealAndComplexGrassmann
 
 * for $r = 1$: the [[real projective space]] $\mathbb{R}P^n$;
 
-* for $r = k+1$: the point;
+* for $r = n+1$: the point;
 
-* for $r \gt k+1$: the empty space $\emptyset$.
+* for $r \gt n+1$: the empty space $\emptyset$.
 
 =--
 
