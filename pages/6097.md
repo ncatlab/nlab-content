@@ -7,6 +7,8 @@ On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmet
 
 * {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]], [spire:261702](http://inspirehep.net/record/261702))
 
+* [[Jens Hoppe]], _Membranes and Matrix Models_ ([arXiv:hep-th/0206192](https://arxiv.org/abs/hep-th/0206192))
+
 
 On the [[BMN matrix model]]:
 
