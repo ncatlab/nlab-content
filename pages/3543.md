@@ -26,28 +26,43 @@ Similarly one may consider "real-ification" by considering $\pi_\bullet(X) \otim
 
 ### Rationalization of a single space
 
-A **rationalization** of a [[simply connected space|simply connected]] [[topological space]] $X$ is a continuous map $\phi : X \to Y$ where
+A **rationalization** of a [[simply connected space|simply connected]] [[topological space]] $X$ is a [[continuous function]][$\phi \colon X \to Y$ where
 
 * $Y$ is a [[simply connected space|simply connected]] [[rational space]];
 
-* $\phi$ induces an [[isomorphism]] on rationalized [[homotopy group]]s:
+* $\phi$ induces an [[isomorphism]] on rationalized [[homotopy groups]]:
 
   $$
-    \pi_\bullet(\phi)\otimes \mathbb{Q} :
+    \pi_\bullet(\phi)\otimes \mathbb{Q}   
+    \;\colon\;
     \pi_\bullet(X) \otimes \mathbb{Q}
-    \stackrel{\simeq}{\to} 
+    \stackrel{\simeq}{\longrightarrow} 
     \pi_\bullet(Y) \otimes \mathbb{Q}
+  $$
+
+  or equivalently if $\phi$ induces an isomorphism on [[rational cohomology]] groups
+
+  $$
+    H^\bullet(\phi,\mathbb{Q}) 
+    \;\colon\;
+    H^\bullet(X,\mathbb{Q})
+    \stackrel{\simeq}{\longrightarrow}
+    H^\bullet(Y,\mathbb{Q})
+    \,.
   $$
 
   or equivalently if $\phi$ induces an isomorphism on rational [[homology]] groups
 
   $$
-    H_\bullet(\phi,\mathbb{Q}) : H_\bullet(X,\mathbb{Q})
-    \stackrel{\simeq}{\to}
+    H_\bullet(\phi,\mathbb{Q}) 
+    \;\colon\;
+    H_\bullet(X,\mathbb{Q})
+    \stackrel{\simeq}{\longrightarrow}
     H_\bullet(Y,\mathbb{Q})
     \,.
   $$
 
+(e.g. [Hess 06, Def. 1.4 with Def. 1.7](#Hess06))
 
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
@@ -249,10 +264,9 @@ For more see at _[[rational stable homotopy theory]]_.
 
 ## References
 
-Around definition 1.4 in 
 
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math/0604626](http://arxiv.org/abs/math.AT/0604626))
 
+* {#Hess06} [[Kathryn Hess]], Def. 1.7 in: _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 [[!redirects rationalizations]]
