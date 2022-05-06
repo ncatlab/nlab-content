@@ -128,6 +128,8 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 * [[Colin McLarty]], _Every Grothendieck Topos has a One-Way Site_ , TAC **16** no. 5 (2006) pp.123-126. ([pdf](http://www.tac.mta.ca/tac/volumes/16/5/16-05.pdf))
 
+* [[Ieke Moerdijk]], _Foliations, groupoids and Grothendieck étendues_ , Rev. Acad. Cienc. Zaragoza (2) **48** (1993) pp.5-33.
+
 * [[Dorette A. Pronk]], _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
 
 * [[Pedro Resende]], _Groupoid Sheaves as Quantale Modules_ , arXiv.0807.4848v3 (2011). ([pdf](http://arxiv.org/pdf/0807.4848v3.pdf))
