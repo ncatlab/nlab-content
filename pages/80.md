@@ -87,6 +87,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 * [[philosophy of mathematics]], [[predicative mathematics]]
 * [[philosophy of science]], [[philosophy of physics]]
 * [[Judea Pearl]]
+* [[Gravity and Grace]]
 
 ### General
 
