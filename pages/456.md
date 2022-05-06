@@ -547,7 +547,7 @@ $$
   (\Pi_k, k^*) : E/B \leftrightarrow E/B
 $$
 
-is a geometric morphism. Hence $(\Pi_k \dashv k^* \dashv \coprod_k)$ is an [[essential geometric morphism]].
+is a geometric morphism. Hence $(\coprod_k \dashv k^* \dashv \prod_k)$ is an [[essential geometric morphism]].
 
 ### Sheafification
 
