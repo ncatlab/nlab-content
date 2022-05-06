@@ -142,6 +142,11 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 
 ### Stable case
 
+Original articles include
+
+* {#Ravenel84} [[Douglas Ravenel]], _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
+
+
 A quick idea is given in section 6 of 
 
 * [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, pages 57-74 in Part II of: _The Lefschetz Centennial Conference -- Proceedings on Algebraic Topology_, Proceedings of the Lefschetz Centennial Conference held December 10-14, 1984, Contemporary Mathematics 58, American Mathematical Society, 1987.  ([ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]])
