@@ -218,7 +218,10 @@ Given a category with families, let $E\to C$ be the [[Grothendieck construction]
 Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the functor corresponding to the discrete fibration $E\to C$, and for $A\in Ty(\Gamma)$ let $Tm(A)$ be the set of [[sections]] of the morphism in $C$ that is the image of $A$ in $C^I$.  These constructions are inverses up to isomorphism.
 =--
 
-The following alternative characterization was observed by [[Steve Awodey]] ([Awodey 2018](#Awodey2018)).
+
+### Natural Models
+
+[[Steve Awodey]] ([Awodey 2018](#Awodey2018)) presented the following "natural model" of type theory as an alternative to categories with families.
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -228,13 +231,15 @@ If we modify Def. \ref{CategoryWithFamilies} by requiring only that the functors
 1. a morphism $Tm \to Ty$ in the category of [[presheaves]] on $C$ which is a [[representable morphism]].
 =--
 
-Which can be restated in terms of representable profunctors as follows.
-A cwf consists of
+The category $C$ models the category of contexts and substitutions, and the morphism $Tm \to Ty$ models the bundle of (context-dependent) terms over (context-dependent) types. The representability models the extension of a context with a new typed variable.
+
+The condition of being a representable morphism can be reformulated in terms of representable profunctors as follows.
+A natural model consists of
 
 1. a category $C$,
 2. a presheaf $Ty : \hat C$ of types in context.
 3. a presheaf $Tm : \widehat {\int Ty}$ of typed terms in context.
-4. a functor $ext : \widehat {\int Ty} \to C$ of context extension that represents the profunctor ${\int Tm}(-,ty=) \odot {\int Tm}(ctx(ty(-)),=) : \int Ty &#8696; C$ where $ty : \int Tm \to \int Ty$ and $ctx : \int Ty \to C$ are the projections of the [[Grothendieck construction]].
+4. a functor $ext : \widehat {\int Ty} \to C$ of context extension with data that represents the profunctor ${\int Tm}(-,ty=) \odot {\int Tm}(ctx(ty(-)),=) : \int Ty &#8696; C$ where $ty : \int Tm \to \int Ty$ and $ctx : \int Ty \to C$ are the projections of the [[Grothendieck construction]].
 
 Writing the profunctor as P, it is equivalent to the following definition:
 
