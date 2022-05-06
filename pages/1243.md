@@ -32,7 +32,7 @@ Notice that there are other, completely independent, concepts referred to as _[[
 +-- {: .num_prop}
 ###### Proposition
 
-For $A$ an [[abelian group]], its torsion subgroup is isomorphic to the value of the degree-1 [[Tor functor]] $Tor^\mathbb{Z}_1(\mathbb{Q}/\mathbb{Z}, A)$. 
+For $A$ an [[abelian group]], its torsion subgroup is isomorphic to the value of the degree-1 [[Tor|Tor functor]] $Tor^\mathbb{Z}_1(\mathbb{Q}/\mathbb{Z}, A)$. 
 
 =--
 
