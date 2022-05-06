@@ -84,9 +84,9 @@ There are various notions and techniques to deal with this problem and reduce or
 
 ## References
 
-* [[Mike Shulman]], *Set theory for category theory*, [arxiv](http://www.arxiv.org/abs/0810.1279)
+* [[Mike Shulman]], _Set theory for category theory) ([arXiv:0810.1279](http://www.arxiv.org/abs/0810.1279))
 
-* [[Paul Blain Levy]], *Formulating Categorical Concepts using Classes*, [arxiv](https://arxiv.org/abs/1801.08528)
+* [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ ([arXiv:1801.08528](https://arxiv.org/abs/1801.08528))
 
 [[!redirects large category]]
 [[!redirects large categories]]
