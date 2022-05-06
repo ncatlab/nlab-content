@@ -1031,7 +1031,7 @@ If DuckDuckGo is your search engine, you can type "!nl" to search nLab, e.g. "!n
 
 (Firefox - and clones - specific)
 
-One way to do this is to install [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/4125) or another one like it.
+One way to do this is to install one of several firefox extensions, e.g. [for Emacs](https://addons.mozilla.org/en-US/firefox/addon/edit-with-emacs1/?src=search) or [for Sublime Text, Atom, VS Code, and Vim](https://addons.mozilla.org/en-US/firefox/addon/ghosttext/?src=search). There are also extensions which add some basic editor features to html text areas, for instance [Find & Replace for Text Editing](https://addons.mozilla.org/en-US/firefox/addon/find-replace-for-text-editing/?src=search) allows you to use regular expressions and text templates.
 
 If your favorite editor is [Emacs](http://www.gnu.org/software/emacs/) with [AucTeX](http://www.gnu.org/software/auctex/), you may find the following snippet useful to put in your `.emacs` file:
 
