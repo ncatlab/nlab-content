@@ -114,6 +114,12 @@ For an early extension to domains other than ring theory see
 
 * H. Lindner, _Morita equivalences of enriched categories_ , Cah. Top. G&#233;om. Diff. Cat **15** no.4 (1974) pp.377-397. ([pdf](http://archive.numdam.org/article/CTGDC_1974__15_4_377_0.pdf))
 
+The generalizations to graded rings, Hopf algebras and corings are studied in references 
+
+* A. Marcus, _Equivalences induced by graded bimodules_, Comm. Algebra 26 (1998) 713–731; _Homology of fully graded algebras, Morita and derived equivalences_, J. Pure Appl. Alg. __133__:1–2 (1998) 209-218 <a href="https://doi.org/10.1016/S0022-4049(97)00196-5">doi</a>
+* S. Caenepeel, J.Vercruysse, Shuanhong Wang, _Morita theory for corings and cleft entwining structures_, J. Algebra __276__1 (2004) 210-235 [doi](https://doi.org/10.1016/j.jalgebra.2004.02.002)
+* Stefaan Caenepeel, Septimiu Crivei, Andrei Marcus, Mitsuhiro Takeuchi, _Morita equivalences induced by bimodules over Hopf–Galois extensions_, J. Algebra __314__ (2007) 267–302 [pdf](https://core.ac.uk/download/pdf/81180359.pdf)
+
 The case of algebraic theories is covered in
 
 * [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra 2_ , CUP 1994. (sec. 3.12)
@@ -128,11 +134,11 @@ Other references include
 
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ . ([[MeyerMoritaEquivalence.pdf:file]])
 
-* I. Dell'Ambrogio, G. Tabuada, _A Quillen Model Structure for Classical Morita Theory and a Tensor Categorification of the Brauer Group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
+* I. Dell'Ambrogio, G. Tabuada, _A Quillen model structure for classical Morita theory and a tensor categorification of the Brauer group_ , arXiv:1211.2309 (2012). ([pdf](http://arxiv.org/pdf/1211.2309v1))
 
 * [[Hans Porst]], _Generalized Morita Theories: The power of categorical algebra_, ([pdf](http://www.math.uni-bremen.de/~porst/dvis/SAMSnoticesCorr.pdf))
 
-* [[Francis Borceux]] and [[Enrico Vitale]], _On the Notion of Bimodel for Functorial Semantics_, Appl. Categorical Structures, 2:283&#8211;295, 1994 ([pdf](http://perso.uclouvain.be/enrico.vitale/BimodAPCS.pdf))
+* [[Francis Borceux]] and [[Enrico Vitale]], _On the notion of bimodel for functorial semantics_, Appl. Categ. Structures, __2__:283&#8211;295 (1994) [pdf](http://perso.uclouvain.be/enrico.vitale/BimodAPCS.pdf)
 
 See also
 
