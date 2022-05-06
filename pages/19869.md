@@ -99,3 +99,5 @@ Each type former ($\Pi$-types, $\Sigma$-types, etc.) has a collection of rules g
 ## Admissible rules
 
 (TODO)
+
+category: Initiality Project
