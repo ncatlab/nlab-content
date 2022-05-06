@@ -42,20 +42,13 @@ with the [[special unitary group]] of complex dimension 4.
 
 (e.g. [Figueroa-O'Farrill 10, Lemma 8.1](#FigueroaFarrill10))
 
+\linebreak
+
 ## Related concepts
 
-* [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
+[[!include low dimensional rotation groups -- table]]
 
-* [[Spin(3)]]
-
-* [[Spin(4)]]
-
-* [[Spin(5)]]
-
-* [[Spin(7)]]
-
-* [[Spin(8)]]
-
+\linebreak
 
 ## References
 
