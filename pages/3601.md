@@ -179,12 +179,17 @@ CPM, classical structures, ...
 #### Books
 
 * Masahito Hayashi, _Quantum information theory - mathematical foundation_ Graduate Texts in Physics (2017)
+
 * Nielsen, Chuang, _Quantum computation and quantum information_, Cambridge Univeristy Press, [ch1 pdf](https://ncatlab.org/nlab/files/NielsenChuangQuantumComputation.pdf)
+
+* Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
+
 
 #### Articles
 
 * Carmen Maria Constantin, _Sheaf-theoretic methods in quantum mechanics and quantum information theory_, PhD thesis, Oxford 2015 [arxiv/1510.02561](https://arxiv.org/abs/1510.02561)
-* Samson Abramsky, Adam Brandenburger, _The sheaf-theoretic structure of nonlocality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
+
+* [[Samson Abramsky]], Adam Brandenburger, _The sheaf-theoretic structure of nonlocality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
 * Dominik Šafránek, _Simple expression for the quantum Fisher information matrix), Phys. Rev. A97 (2018) [doi](https://doi.org/10.1103/PhysRevA.97.042322)
 
 On [[quantum information theory]], ([[holographic entanglement entropy|holographic]])  [[entanglement entropy]], [[tensor network states]] etc:
