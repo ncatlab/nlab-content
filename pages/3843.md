@@ -60,7 +60,7 @@ the closure of the image of an accessible functor under passage to subobjects is
 \end{theorem}
 
 The existence of a [[proper class]] of [[strongly compact cardinals]]
-can be weakened, see the paper of Brooke-Taylor and Rosický.
+can be weakened, see the paper of [Brooke-Taylor and Rosický](#BrookeTaylorRosicky).
 
 ## Related concepts
 
@@ -83,11 +83,11 @@ The theory of accessible 1-categories is described in
 
 Essential images of accessible functors are considered in
 
-* [[Jiří Rosický]], _More on directed colimits of models_.
+* [[Jiří Rosický]], _More on directed colimits of models_, Applied Categorical Structures volume 2 (1994) pages 71–76, doi:[10.1007/BF00878503](https://doi.org/10.1007/BF00878503)
 
 An improvement of Rosický's result is in
 
-* [[Andrew Brooke-Taylor]], [[Jiří Rosický]], _Accessible images revisited_.  [arXiv](https://arxiv.org/abs/1506.01986).
+* {#BrookeTaylorRosicky} [[Andrew Brooke-Taylor]], [[Jiří Rosický]], _Accessible images revisited_.  [arXiv:1506.01986](https://arxiv.org/abs/1506.01986).
 
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
