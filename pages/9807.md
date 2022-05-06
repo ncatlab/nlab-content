@@ -126,6 +126,11 @@ A review of the Weil model and the Cartan model and the introduction of the "BRS
 
 * {#Kalkman93} Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](http://cds.cern.ch/record/568522/files/9308132.pdf) (original ArXiv pdf broken)), published versions at  ([projectEuclid](http://projecteuclid.org/euclid.cmp/1104252784))
 
+Discussion in the broader context of [[equivariant cohomology|equivariant]] [[differential cohomology]] is in
+
+* Andreas Kübel, [[Andreas Thom]], _Equivariant Differential Cohomology_, Transactions of the American Mathematical Society (2018) ([arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
+ 
+
 Discussion in the context of the [[gauged WZW model]] includes
 
 * {#Witten92} [[Edward Witten]], appendix of _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
