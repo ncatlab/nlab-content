@@ -27,6 +27,10 @@ A [[manifold]] of [[special holonomy]] [[Spin(7)]].
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+### As exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
 ### Characteristic classes
 
 +-- {: .num_prop #CharacteristicClassesForSpinStructure}
