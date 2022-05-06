@@ -128,7 +128,7 @@ The expectation and hope is that the result will look fairly similar to algorith
 
 ### Type Formation
 
-We have a strong equality formation rule, inspired by the medium-strength rule due to Anand & Rahli, which is also stronger than the usual one. Here is respect-based equality formation:
+We have a strong equality formation rule, inspired by the medium-strength rule from [Anand & Rahli](#AnandRahliITP14), which is also stronger than the usual one. Here is respect-based equality formation:
 
 $$\begin{gathered}
 \frac{\Gamma \vdash p \Vdash A \prec C \qquad
@@ -152,7 +152,7 @@ $$\begin{gathered}
 {\Gamma \vdash \{x:A | B\}\,type}
 \end{gathered}$$
 
-The PER comprehension type is due to Anand & Rahli. However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
+The PER comprehension type was originally conceived by Stuart Allen, and then forgotten and subsequently [reintroduced](#PERTypes14). However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER type from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
 
 $$\begin{gathered}
 \frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
@@ -260,3 +260,9 @@ $$\begin{gathered}
 ### PER
 
 ### Booleans
+
+## References
+
+* {#AnandRahliITP14} Abhishek Anand, Vincent Rahli, _Towards a Formally Verified Proof Assistant_, Interactive Theorem Proving (ITP) 2014 ([project web](http://www.nuprl.org/html/Nuprl2Coq/), [paper web](http://www.nuprl.org/KB/show.php?ID=726), [pdf](http://www.nuprl.org/documents/Anand/TowardsAFormallyVerifiedProofAssistant.pdf))
+
+* {#PERTypes14} Abhishek Anand, Mark Bickford, Robert L. Constable, Vincent Rahli, _A Type Theory with Partial Equivalence Relations as Types_, Types for Proofs and Programs (TYPES) 2014 ([slides](https://vrahli.github.io/articles/slides-per-types.pdf), [web](http://www.nuprl.org/KB/show.php?ID=722), [pdf](http://www.nuprl.org/documents/Anand/ATypeTheoryWithPartialEquivalenceRelationsAsTypes.pdf))
