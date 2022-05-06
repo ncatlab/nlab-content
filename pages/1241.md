@@ -75,13 +75,16 @@ This leads to the $SU(5)$-GUT due to [Georgi-Glashow 74](#GeorgiGlashow74)
 #### The $Spin(10)$-GUT (known as "$SO(10)$")
  {#TheGUTKnownAsSO10}
 
-There is a further inclusion $SU(5) \hookrightarrow $ [[Spin(10)]] into the [[spin group]] in 10 (Euclidean) dimensions (still a [[simple Lie group]]), and one [[generation of fundamental particles]] regarded as an $SU(5)$-[[representation]] $\Lambda \mathbb{C}^5$ as [above](#IdeaofSU5GUT) extends to a [[spin representation]] (see [Baez-Huerta 09, theorem 2](#BaezHuerta09)). This has the aesthetically pleasing effect that under this identification the 1-generation rep $V_{SM}$ is now identified as
+There is a further inclusion $SU(5) \hookrightarrow $ [[Spin(10)]] into the [[spin group]] in 10 (Euclidean) dimensions (still a [[simple Lie group]]), and one [[generation of fundamental particles]] regarded as an $SU(5)$-[[representation]] $\Lambda \mathbb{C}^5$ as [above](#IdeaofSU5GUT) extends to a [[spin representation]] (see [Baez-Huerta 09, theorem 2](#BaezHuerta09)). This has the aesthetically pleasing effect that under this identification the 1-[[generation of fermions|generation]] rep $V_{SM}$ is now identified as
 
 $$
   V_{SM} \;\simeq\; \mathbf{16} \oplus \overline{\mathbf{16}}
 $$
 
 namely as the [[direct sum]] of [[generalized the|the]] two (complex) [[irreducible representations]] of [[Spin(10)]], together being the [[Dirac representation]] of [[Spin(10)]].
+
+The exact [[gauge group]] of the [[standard model of particle physics]] (see [there](standard+model+of+particle+physics#GaugeGroup)) is [[isomorphism|isomorphic]] to the [[subgroup]] of [[Spin(9)]] $\subset$ [[Spin(10)]] which respects a splitting $\mathbb{H} \oplus \mathbb{H} \simeq_{\mathbb{R}} \mathbb{C} \oplus \mathbb{C}^3$ ([Krasnov 19](Spin9#Krasnov19)).
+
 
 Again, this means that under the embedding of the gauge group $G_{SM}$ all the way into the [[simple Lie group]] [[Spin(10)]], its ingredients become _simpler_, not just in a naive sense, but in the technical mathematical sense of _[[simple objects|simple algebraic objects]]_.
 
