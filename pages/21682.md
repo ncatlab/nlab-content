@@ -1,5 +1,6 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -27,7 +28,7 @@ Then the [[Sullivan minimal model]] of the [[classifying space]] $B G$ is the [[
 
 $$
   inv^\bullet(\mathfrak{g})
-  \;\coloeqq\;
+  \;\coloneqq\;
   Sym 
   \big(
     \mathfrak{g}^\ast[2]
@@ -91,5 +92,5 @@ That the [[rational cohomology]] algebra of $B G$, with trivial differential, is
 
 [[!redirects Sullivan models of classifying spaces]]
 
-[[!redirects Sullivan model of a classifying space]]
+[[!redirects Sullivan model of classifying space]]
 
