@@ -18,9 +18,9 @@
 
 ## Idea
 
-In [[Euclidean field theory]] a _correlator_ is an [[expectation value]] of [[observables]] in a given [[state]]. For the product of $n$ local field observables $\mathbf{\Phi}(x)$ this is also called an _[[n-point function]]_. 
+In [[Euclidean field theory]] a _correlator_ is an [[expectation value]] of [[observables]] in a given [[state]]. For the product of $n$ local field observables $\mathbf{\Phi}(x)$ this is also called an _[[n-point function]]_, see there for more. 
 
-Euclidean $n$point functions are typically [[distributions of several variables]] with [[singularities]] on the [[fat diagonal]]. Their [[restriction of distributions]] to the [[complement]] of the fat diagonal hence yields a [[non-singular distribution]] exhibiting the [[correlator as a differential form on a configuration space of points]].
+Euclidean $n$-point functions are typically [[distributions of several variables]] with [[singularities]] on the [[fat diagonal]]. Their [[restriction of distributions]] to the [[complement]] of the fat diagonal hence yields a [[non-singular distribution]] exhibiting the [[correlator as a differential form on a configuration space of points]].
 
 Under [[Wick rotation]] (if applicable, see _[[Osterwalder-Schrader theorem]]_) this translates correlators to [[n-point functions]] in [[relativistic field theory]].
 
