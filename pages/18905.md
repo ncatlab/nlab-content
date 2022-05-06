@@ -18,9 +18,25 @@
 
 ### General
 
-In [[field theory]] one speaks of _Euclidean field theory_ if the underlying [[spaces]] on which the [[field (physics)|fields]] are defined are [[Riemannian manifolds]], as opposed to [[Lorentzian  manifold|Lorentzian]] [[spacetimes]] used in [[relativistic field theory]]. Hence in Euclidean field theory there is no "[[time]]", one may understand this as essentially being [[statistical mechanics]]. 
+In [[field theory]] one speaks of _Euclidean field theory_ if the underlying [[spaces]] on which the [[field (physics)|fields]] are defined are [[Riemannian manifolds]], as opposed to [[Lorentzian  manifold|Lorentzian]] [[spacetimes]] used in [[relativistic field theory]], hence locally are _[[Euclidean spaces]]_ instead of [[Minkowski spacetimes]], whence the name "Euclidean field theory." 
 
-In good situations [[Wick rotation]] relates Euclidean field theory with [[relativistic field theory]].
+Concretely this means that in Euclidean field theoy the [[local field theory|locality]] condition on the [[net of observables|net of]] [[quantum observables]] requires observables $A, B$to [[commutator|commute]] as soon as their [[supports]] are [[disjoint subset|disjoint]] at all
+
+$$
+  supp(A) \cap supp(B) = \emptyset
+  \;\;\Rightarrow\;\;
+  [A,B] = 0
+  \,.
+$$ 
+
+This is in contrast to the analogous condition in [[relativistic field theory]] whose _[[causal locality]]_ requires this implication only if the two [[supports]] are in addition [[spacelike]]-separated.
+
+This Euclidean locality property applies in particular in [[statistical mechanics]], where the "[[field (physics)|fields]]" of the field theory are not thought of as encoding the [[spacetime]]-behaviour of [[fundamental particles]] as governed by [[quantum physics]], but instead the spatial [[expectation values]] (at any given time) of equilibrium [[thermodynamics|thermodynamic]]-processes governed by [[classical physics]].
+An archetypical example of a Eculidean field theory in this thermodynamic sense is the [[Ising model]]. 
+
+Despite this superficially stark contrast between Euclidean and relativistic field theory, the two turn out to be tightly related to each other in a subtle way that involves and generalizes the concept of [[analytic continuation]] from [[complex analysis]], here this is called _[[Wick rotation]]_.
+
+
 
 
 
