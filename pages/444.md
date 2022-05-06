@@ -61,7 +61,7 @@ we obtain a functor
 $$
   N : C \to V^{S^{op}}
 $$
-from $C$ to [[globular sets]] or [[simplicial sets]] or [[cubical sets]], respectively, (or the corresponding $V$-objects) given on an [[object]] $c \in C$ by
+from $C$ to [[globular sets]] or [[simplicial sets]] or [[cubical sets]], respectively, (or the corresponding $V$-objects) given on an [[object]] $c \in C$ by the [[restricted Yoneda embedding]]
 $$
   N_i(c) : S^{op} \stackrel{i}\to C^{op} 
     \stackrel{C(-,c)}{\to}
