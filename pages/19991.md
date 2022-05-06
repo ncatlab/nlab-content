@@ -72,10 +72,19 @@ If the [[short exact sequence]] on the left [[split exact sequence|splits]], hen
 ## Properties
 
 ### Classification
+ {#Classification}
 
-In 2 [[dimensions]], there are precisely 17 crystallographic groups, which are distinct up to [[isomorphism]]; these are known as the _[[wallpaper groups]]_. In 3 dimensions, there are 219 distinct types, or 230 if chiral copies are considered distinct. The classification of space groups has been carried out up to 6 dimensions.
+In 2 [[dimensions]], there are precisely 17 crystallographic groups, which are distinct up to [[isomorphism]]; these are known as the _[[wallpaper groups]]_. 
+
+In 3 dimensions, there are 219 distinct types, or 230 if chiral copies are considered distinct. The classification of space groups has been carried out up to 6 dimensions.
 
 On the classification of symmorphic space groups see also [this MO comment](https://mathoverflow.net/q/77682/381).
+
+From [Chuprunov-Kuntsevich 88](#ChuprunovKuntsevich88):
+
+> Let us make a brief survey of the main achievements in the $n$-dimensional crystallography that have been amply covered in the literature on the subject [15-17]. When Fedorov and Sehoenflies had completed the derivation of 230 space group types of crystals it was natural to consider a possibility of derivation of corresponding groups in higher dimensions. In 1911-12 Bieberbach and Frobenius developed a general theory of the group symmetry of the n-dimensional lattices and proved the existence of a finite number of nonisomorphous space groups in the n-dimensional Euclidean space with an arbitrary number of n. Basing on this general theory, in 1948 Zassenhaus suggested an algorithm to derive the n-dimensional space groups as extensions of the translation subgroups of these groups using point groups. About 1950 Hermann gave a complete description of the possible crystallographic symmetry operations in higher dimensions and discussed the lattices of maximal symmetry and their crystal classes. In 1951 Hurley found 222 geometric crystal classes in the four-dimensional Euclidean space making use of the 1889 work by Goursat who had enumerated the classes of finite groups of the real 4 × 4 matrixes. Later this number was corrected to 227. At present classification of crystallographic groups in the four-dimensional Euclidean space is completed in the main. A complete list of 4783 types of four-dimensional space groups was computed in 1973 and given in an excellent monograph ["Crystallographic groups of four- dimensional space" by Brown et al.](#BrownBulowNeubuserWondratschekZassenhaus78) [15]. These groups were derived on the base of the nine maximal arithmetic crystal classes, derived by Dade in 1965, which allowed one to determine all of the 710 four-dimensional arithmetic classes and to calculate the normalizers of finite groups of the unimodular 4 x 4 matrixes needed for the Zassenhaus algorithm. The monograph [15] is of interest not only by having a complete description of all classes of the four-dimensional crystallographic groups but also by taking a deeper approach to the system of classification of the n-dimensional crystallographic groups, as well as by giving characteristic properties of the four-dimensional crystallographic groups in comparison with that in lower dimensions. One of these properties is enantiomorphizm exhibited not only by the space group types but also by Bravais types of lattices, arithmetic classes and geometric classes. For the first time this phenomenon was found by Shtogrin [18]. 
+
+> The n-dimensional mathematical crystallography is still in progess. Ryshkov [19] determined all maximal arithmetic crystal classes of five-dimensional Euclidean space. Some categories of five- and six-dimensional "small" groups isomorphic to the three-dimensional groups of symmetry, anti- symmetry, two-fold antisymmetry, p- and p'-symmetry were derived by Palistrant [20]. Some aspects of the mathematical theory applied to the n-dimensional crystallography were considered [15, 21].
 
 ### Compact flat orbifolds
  {#CompactFlatOrbifolds}
@@ -129,9 +138,17 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 * _The Crystallographic Groups_, Pure and Applied Mathematics
 Volume 50, 1972, Pages 16-60 (<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>)
 
+* {#BrownBulowNeubuserWondratschekZassenhaus78} H. Brown, R. Bülow, J. Neubüser, H. Wondratschek, H. Zassenhaus, _Crystallographic Groups of Four-Dimensional Space_, John Wiley, New York, 1978. 
+
 * Daniel R. Farkas, _Crystallographic groups and their mathematics_, Rocky Mountain J. Math. Volume 11, Number 4 (1981), 511-552 ([doi:10.1216/RMJ-1981-11-4-511](https://projecteuclid.org/euclid.rmjm/1250128489))
 
+* {#ChuprunovKuntsevich88} E. V. Chuprunov, T. S. Kuntsevich, _$n$-Dimensional space groups and regular point systems_, Comput. Math. Applic. Vol. 16, No. 5-8, pp. 537-543, 1988 (<a href="https://doi.org/10.1016/0898-1221(88)90243-X">doi:10.1016/0898-1221(88)90243-X</a>)
+
+* [[GAP]] package, _The Crystallographic Groups Catalog_ ([web](http://www.math.rwth-aachen.de/~Greg.Gamble/gap4r3/pkg/crystcat/htm/CHAP001.htm))
+
 See also
+
+* [[eom]], _[Crystallographic group](https://www.encyclopediaofmath.org/index.php/Crystallographic_group)_
 
 * Groupprops, _[Space group](https://groupprops.subwiki.org/wiki/Space_group)_
 
