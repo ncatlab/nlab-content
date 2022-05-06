@@ -32,7 +32,7 @@ This definition obviously extends to functions $f \colon D \to I$ where $I$ is a
 
 The function $f$ is called **concave** if it satisfy the reverse inequality to the one given above, or equivalently if $-f$ is convex.
 
-A function $f$ is __strictly convex__ if the inequality holds strictly whenever $0 \lt t \lt 1$.  In high-school mathematics, one often says _concave upward_ for strictly convex and _concave downward_ of strictly concave.
+A function $f$ is __strictly convex__ if the inequality holds strictly whenever $0 \lt t \lt 1$.  In high-school mathematics, one often says _concave upward_ for strictly convex and _concave downward_ for strictly concave.
 
 
 ## Examples 
