@@ -23,7 +23,13 @@
 
 The [[semiclassical approximation]] to [[bottom-up model building|bottom-up]] [[holographic QCD]] is _light front holographic QCD_, named after the [[light cone]]-[[coordinate function|coordinates]] in terms if which the effective [[Schrödinger equation]] for the [[quarks]] is written.
 
+## Related concept
+
+* [[light-cone gauge quantization]]
+
 ## References
+
+### General
 
 Review in:
 
@@ -41,3 +47,14 @@ See also
 Application to [[B-meson]] physics:
 
 * [[Mohammad Ahmady]], _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
+
+### Relation to hadron supersymmetry
+
+Relation to [[hadron supersymmetry]]:
+
+* Hans Gunter Dosch, Guy F. de Teramond, Stanley J. Brodsky, _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
+
+* Hans Gunter Dosch, Guy F. de Teramond, Stanley J. Brodsky, _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
+
+
+
