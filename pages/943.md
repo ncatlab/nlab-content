@@ -55,6 +55,12 @@ The original example of a convenient category of topological spaces is described
 
 and there are closely related convenient categories, including for example the category of [[compactly+generated+space#weak_hausdorffification_11|compactly generated weakly Hausdorff spaces]]. The article by [[Neil Strickland]] ([ref](#NS)), written with the needs of algebraic topology in mind, covers the latter example in thorough detail. 
 
+Another example is
+
+* [[Delta-generated spaces]] ([[Euclidean-generated spaces]])
+
+see there for more.
+
 A reasonably large class of examples, including the examples of compactly generated spaces and [[sequential space|sequential spaces]], is given in the article by Escard&#243;, Lawson, and Simpson ([ref](#ELS)). These may be outlined as follows. An [[exponential law for spaces|exponentiable space]] in $Top$ is a space $X$ such that $X \times -: Top \to Top$ has a right adjoint. These may be described concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a colimit in $Top$ of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
 
 +-- {: .num_theorem}
@@ -149,7 +155,7 @@ Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 * Crabb, Michael; James, Ioan,  Fibrewise homotopy theory.  
 Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 {#CrabbJames}
 
-* {#Steenrod} [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
+* {#Steenrod} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
 
 * {#BT} Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
