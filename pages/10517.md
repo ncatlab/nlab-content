@@ -35,8 +35,19 @@ The existence of partial map classifiers $B_\bot$ for all objects $B$ in $\mathc
 
 In a [[Boolean category|Boolean]] [[extensive category]] (such as a [[Boolean topos]]), we can define the partial map classifier as $B_\bot = B + 1$, where $1$ is the [[terminal object]].  This is because in an extensive category, a map $A\to B+1$ is equivalent to a decomposition of $A$ as a [[coproduct]] $D+E$ together with a map $D\to B$ (the map $E\to 1$ being unique), and in a Boolean category every subobject of $A$ is complemented and hence induces such a coproduct decomposition.  The universal partial map $B+1 \rightharpoonup B$ has domain the summand $B$, on which it is the identity.  Note that $B\mapsto B+1$ is also known as the [[maybe monad]].
 
-Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct.  In the [[internal logic]], $B_\bot$ can be defined in two ways:
+Partial map classifiers also exist in every [[elementary topos]], but in the non-Boolean case they are harder to construct. Letting $t : 1 \to \Omega$ denote the top element, the dependent product $t_*(B)$ is precisely the map $B_\bot \to \Omega$ classifying $B \subseteq B_\bot$. To wit, with this definition,
 
+$$
+  \begin{aligned}
+    \mathcal{C}(A, B_\bot)
+    &\cong \coprod_{p : A \to \Omega} \mathcal{C}/\Omega(p, t_*(B))
+    \\&\cong \coprod_{p : A \to \Omega} \mathcal{C}(t^*(p), B)
+    \\&\cong \coprod_{A' \subseteq A} \mathcal{C}(A', B)
+    \\&\cong Par_{\mathcal{C}}(A, B)
+  \end{aligned}
+$$
+
+Alternatively, in the [[internal logic]], two ways of defining $B_\bot$ that more closely follow the classical construction are:
 
 *  $B_\bot$ is a [[subobject]] of the [[power object]] $\mathcal{P}B$ consisting of the [[subsingleton]] subobjects of $B$.  In this case, the universal partial map $B_\bot \rightharpoonup B$ has domain the set of [[singleton]] subobjects of $B$, on which it is an isomorphism.
 
