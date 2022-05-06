@@ -50,12 +50,6 @@ $$
 
 ## Related concepts
 
-* [[SO(2)]]
-
-* [[Pin(2)]]
-
-* [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
-
-* [[finite subgroups of SU(2)]]
+[[!include low dimensional rotation groups -- table]]
 
 [[!redirects Spin(2)-group]]
