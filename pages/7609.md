@@ -26,7 +26,7 @@ $$ P[t/x] $$
 
 the result of **substituting** $t$ for all occurrences of $x$ in $P$.
 
-For example, if $P$ is $x^2 + 2xy + 3$ and $t$ is $(y+z)$, then $P[t/x]$ is $(y+z)^2 + 2(y+z)y + 3$.
+For example, if $P$ is $x^2 + 2x y + 3$ and $t$ is $(y+z)$, then $P[t/x]$ is $(y+z)^2 + 2(y+z)y + 3$.
 
 Note that in this approach, substitution is an *operation on syntax*, not an element of syntax itself.  In particular, the bracket notation $[t/x]$ is part of "meta-syntax", not the syntax in question.  That is, the literal string of symbols "$P[t/x]$" is not itself an expression in the language under consideration, but *denotes* such an expression, in the same way that "$2+2$" is not literally an integer but *denotes* the integer $4$.
 
