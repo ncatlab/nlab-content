@@ -148,13 +148,17 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 ### General
 
+General introduction:
+
+* S. Chmutov, Sergei Duzhin, J. Mostovoy, Section 3.4 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628))
+
 For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see:
 
-* Jacques Touchard. Sur un probl&#232;me de configurations et sur les fractions continues. Canadian Journal of Mathematics 4 (1952), 2-25. ([doi](http://dx.doi.org/10.4153/CJM-1952-001-8))
+* Jacques Touchard, _Sur un probl&#232;me de configurations et sur les fractions continues_ Canadian Journal of Mathematics 4 (1952), 2-25. ([doi](http://dx.doi.org/10.4153/CJM-1952-001-8))
 
-* Philippe Flajolet and Marc Noy. Analytic combinatorics of chord diagrams. INRIA technical report 3914, March 2000. ([pdf](http://algo.inria.fr/flajolet/Publications/FlNo00.pdf))
+* Philippe Flajolet and Marc Noy, _Analytic combinatorics of chord diagrams_, INRIA technical report 3914, March 2000. ([pdf](http://algo.inria.fr/flajolet/Publications/FlNo00.pdf))
 
-* A. Khruzin. Enumeration of chord diagrams. arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
+* A. Khruzin, _Enumeration of chord diagrams_ arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
 
 For the relationship to Gauss diagrams in classical and [[virtual knot theory]], see:
 
