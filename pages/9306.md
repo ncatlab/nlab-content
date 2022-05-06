@@ -122,10 +122,11 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 ## References
 
-* {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_
- 
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
 
-* [[Jacob Lurie]] _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
+* {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_
+
+* [[Jacob Lurie]], _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
 
 * {#Porta13} [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
 
