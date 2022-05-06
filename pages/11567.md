@@ -211,7 +211,7 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
 
 ## References
 
-* {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([Euclid](http://projecteuclid.org/euclid.ijm/1255644953))
+* {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([euclid:ijm/1255644953](http://projecteuclid.org/euclid.ijm/1255644953))
 
 * {#Robinson87} Alan Robinson, _The extraordinary derived category_, Math. Z. 196 (2) (1987) 231&#8211;238.
  
