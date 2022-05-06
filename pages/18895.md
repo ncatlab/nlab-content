@@ -49,6 +49,9 @@ In general such $\mathbf{\Phi}^a(x)$ itself is far from being [[on-shell]] [[gau
 
 * [[A first idea of quantum field theory]], [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#PointEvaluationObservables)
 
+[[!include states and observables -- content]]
+
+
 [[!redirects field observables]]
 
 [[!redirects point-evaluation observable]]
