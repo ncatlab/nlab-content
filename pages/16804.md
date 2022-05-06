@@ -304,6 +304,11 @@ Relation to [[spherical curves]]:
 
 * Noboru Ito, _Based chord diagrams of spherical curves_ ([arXiv:2004.12121](https://arxiv.org/abs/2004.12121))
 
+See also:
+
+* Ali Assem Mahmoud, Karen Yeats, _Connected Chord Diagrams and the Combinatorics of Asymptotic Expansions_ ([arXiv:2010.06550](https://arxiv.org/abs/2010.06550))
+
+
 
 
 [[!include weight systems on chord diagrams in physics]]
