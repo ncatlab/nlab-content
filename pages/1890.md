@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actions]]. 
+A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]]. 
 
 If $V$ is a [[monoidal closed category]], then a strong monad is the same thing as a $V$-[[enriched monad]]. 
 
@@ -30,7 +30,7 @@ If $V$ is a [[monoidal closed category]], then a strong monad is the same thing 
 
 For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] 
 
-* in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actions|actegory]] on [[category|categories]] 
+* in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actegory|actegories]] on [[category|categories]] 
 
 * on the object $V$ itself.
 =--
@@ -71,9 +71,13 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 
 * naturalness of unit and product modifications.
 
-## Alternative definition
+## Concrete definition
 
 A more concrete definition is given in:
+
+* [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
+
+and later in 
 
 * [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
 
@@ -120,7 +124,12 @@ A\times T^{2}\, B & \xrightarrow{t_{A,T B}} & T(A\times T B) & \xrightarrow{T\: 
 \end{array}
 \]
 
-
+More generally, if a monoidal category $V$ acts on a category $C$
+\[
+\bullet : V\times C\to C
+\]
+then a $V$-strength for a monad $T$ on $C$ is a family of morphisms
+$t_{A,B}:A\bullet T(B)\to T(A\bullet B)$ satisfying similar commutative diagrams. 
 
 
 ## Related concepts
@@ -136,6 +145,10 @@ A\times T^{2}\, B & \xrightarrow{t_{A,T B}} & T(A\times T B) & \xrightarrow{T\: 
 * [[monad (in computer science)]]
 
 ## References 
+
+Strong monads were defined by Kock, as an alternative description of enriched monads.
+
+* [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
 
 Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition appears in the blog post
 
