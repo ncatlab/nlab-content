@@ -101,7 +101,7 @@ Let $\varphi(x,y)$ be a formula with free variables x,y of type $X$ and $Y$ resp
 
 1. $U\models \exists y\varphi(\alpha, y)$ iff there exists $g:V\to U$ epic and a generalized element $h:V\to Y$ such that $V\models \varphi(\alpha\circ g,h)\,$.
 
-1. $U\models \forall y\varphi(\alpha, y)$ iff for every object $Y$ and all pairs of generalized elements $g:V\to U$ and $h:V\to Y\,$, $V\models \varphi(\alpha\circ g,h)\,$.
+1. $U\models \forall y\varphi(\alpha, y)$ iff for every object $V$ and all pairs of generalized elements $g:V\to U$ and $h:V\to Y\,$, $V\models \varphi(\alpha\circ g,h)\,$.
 
 =--
 
