@@ -1,4 +1,4 @@
-[[!redirects Jacobi diagrams]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -192,4 +192,6 @@ Textbook accounts
 
 
 [[!include weight systems on chord diagrams in physics]]
+
+[[!redirects Jacobi diagrams]]
 
