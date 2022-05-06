@@ -67,5 +67,11 @@ An $n$-connected topological space is precisely an [[n-connected object]] in the
 [[!redirects n-simply connected topological space]]
 [[!redirects n-simply connected topological spaces]]
 
+[[!redirects n-connective space]]
+[[!redirects n-connective spaces]]
+
+
+
+
 [[!redirects n-unicoherent space]]
 [[!redirects n-unicoherent spaces]]
