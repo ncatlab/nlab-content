@@ -30,7 +30,7 @@
 
 In [[intensional type theory]] under the [[propositions as types]] paradigm, an **identity type** (or **equality type**) is the incarnation of [[equality]].  That is, for any [[type]] $A$ and any [[terms]] $x,y:A$, the type $Id_A(x,y)$ is "the type of [[proofs]] that $x=y$" or "the type of reasons why $x=y$".
 
-To contrast with "computational" or [[definitional equality]], sometimes inhabitation of an identity type is sometimes called **propositional equality**.  The identity type $Id_A(x,y)$ is sometimes written $Eq_A(x,y)$ or just $(x=y)$, but in this article we reserve the latter for definitional equality.
+To contrast with "computational" or [[definitional equality]], inhabitation of an identity type is sometimes called **propositional equality**.  The identity type $Id_A(x,y)$ is sometimes written $Eq_A(x,y)$ or just $(x=y)$, but in this article we reserve the latter for definitional equality.
 
 In *[[extensional type theory|extensional]]* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is an [[h-proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  One speaks of _[[homotopy type theory]]_.  In these cases, one may write for instance $Path_A(x,y)$ instead of $Id_A(x,y)$.
 
