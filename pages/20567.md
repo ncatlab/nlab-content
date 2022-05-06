@@ -1,6 +1,6 @@
 
 
-* [webpage](https://www.perimeterinstitute.ca/people/dalimil-mazac)
+* [webpage](https://www.dalimilmazac.com/)
 
 ## Selected writings
 
