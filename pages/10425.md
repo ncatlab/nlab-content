@@ -29,9 +29,10 @@ _Geometric type theory_ is a conjectural extension of [[geometric logic]] to  an
 At present it is not clear exactly how such a type theory should be defined.
 
 A *motivating example* is a [[geometric theory]] as follows. Its signature has one sort, $N$, and two function symbols $0\colon 1 \to N$ and $s \colon N \to N$. Its axioms are -
-  - $0 = s(n) \vdash_{n} \bot$
-  - $s(n) = s(n') \vdash_{n n'} n=n'$
-  - $\top \vdaah_{n} \bigvee_{i} n=s^{i}(0)$
+
+  * $0 = s(n) \vdash_{n} \bot$
+  * $s(n) = s(n') \vdash_{n n'} n=n'$
+  * $\top \vdash_{n} \bigvee_{i} n=s^{i}(0)$
 
 ("$s^{i}(0)$" is not a term in the formal language, but $i$ indexes an inductively defined sequence of formulae "$n=s^{i}(0)$".)
 
@@ -44,6 +45,7 @@ As an example, the [[geometric theory]] of a real number can be rewritten in a f
 All this leads to a conjecture of a "geometric type theory", geometric logic enhanced with the geometrically definable types.
 
 An "arithmetic type theory" has now been formalized [Vickers 2018](#Vickers18) by adjoining such type constructors to coherent logic.
+Categorically, it corresponds to replacing [[Grothendieck topos|Grothendieck toposes]] with [[arithmetic universe|arithmetic universes]].
 Although it lacks the infinitary disjunctions of geometric logic, they can in many cases be provided by existential quantification over infinite sorts.
 [Vickers 2017](#Vickers17) shows how it can be used to prove base-free results for (relative) Grothendieck toposes.
 
@@ -63,7 +65,7 @@ Although it lacks the infinitary disjunctions of geometric logic, they can in ma
 
 * {#Vickers07}[[Steve Vickers]], _Locales and toposes as spaces_, Handbook of Spatial Logics, Springer 2007 ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
 
-* 
+* {#Vickers17}[[Steve Vickers]], _Arithmetic universes and classifying toposes_, Cahiers de topologie et g&eacute;om&eacute;trie diff&eacute;rentielle cat&eacute;gorique **58 (4)** (2017), pp. 213-248 ([pdf](http://arxiv.org/abs/1701.04611))
 
 * {#Vickers18}[[Steve Vickers]], _Sketches for arithmetic universes_, accepted 2018 for Journal of Logic and Analysis ([pdf](http://arxiv.org/abs/1608.01559))
 
