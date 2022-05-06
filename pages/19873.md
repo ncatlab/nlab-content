@@ -47,6 +47,10 @@ See also
 
 * Wikipedia, _[B meson](https://en.wikipedia.org/wiki/B_meson)_
 
+Discussion in [[holographic light front QCD]]:
+
+* Mohammad Ahmady, _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
+
 [[!redirects B mesons]]
 
 [[!redirects B-meson]]
