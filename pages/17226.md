@@ -28,6 +28,8 @@ The [[generalized homology theory]] [[Brown representability theorem|represented
 
 * [[ordinary homology]]
 
+* [[equivariant bordism homology theory]]
+
 * [[stable homotopy homology theory]]
 
 ## References
