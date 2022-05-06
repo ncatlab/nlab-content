@@ -225,9 +225,10 @@ where $A \in U(n)$.
 
 There are also various exceptional realizations of spheres as coset spaces. For instance:
 
-* [[G2/SU(3) is the 6-sphere]], 
+[[!include coset space structure on n-spheres -- table]]
 
-* ....
+\linebreak
+
 
 
 ### Sequences of coset spaces
