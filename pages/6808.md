@@ -46,7 +46,7 @@ On the [[swampland conjectures]]/[[landscape of string theory vacua]] in view of
 
   > The hypothesis of the String Landscape is entirely based on low energy effective field theory ideas about finding "vacua" by minimizing an effective potential.  Everything that’s been said above indicates that this idea has no validity in genuine models of quantum gravity. $[\cdots]$
 
-  > The most serious issue,  in  my  opinion,  is  the  contention  that  one  can  make  the  AdS  radius  much  larger  thanthe size of the compact manifold.  All well established examples of large radius AdS/CFT havea compact manifold of dimension 2 or greater whose radius is comparable to that of the AdSspace.  In Appendix A we’ll present an argument based on the properties of AdS black holes,that this is in fact necessary.
+  > The most serious issue,  in  my  opinion,  is  the  contention  that  one  can  make  the  AdS  radius  much  larger  than the size of the compact manifold.  All well established examples of large radius AdS/CFT havea compact manifold of dimension 2 or greater whose radius is comparable to that of the AdSspace.  In Appendix A we’ll present an argument based on the properties of AdS black holes,that this is in fact necessary.
 
   > The next step in the construction of "realistic" models involves "adding an anti-brane to break supersymmetry and make the c.c.  positive".  This is supposed to be a small modification of the model, calculable in low energy effective field theory, and that seems manifestly incorrect. $[\cdots]$.
 
