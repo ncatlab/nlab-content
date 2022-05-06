@@ -956,22 +956,19 @@ Preservation of certain limits by left Kan extended functors is discussed in
 
 * {#BorceuxDay} [[Francis Borceux]], and [[Brian Day]], _On product-preserving Kan extension_, Bulletin of the Australian Mathematical Society, Vol 17 (1977), 247-255 ([pdf](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ17_02%2FS0004972700010455a.pdf&code=e8c9ebb215a55a0891f4e05f6aebbcf2))
   
-
-* {#KarazerisProtsonis} Panagis Karazeris, and Grigoris Protsonis, _Left Kan extensions preserving finite products_ ([pdf](http://www.math.upatras.gr/~pkarazer/publications/topsift.pdf))
+* {#KarazerisProtsonis} Panagis Karazeris, Grigoris Protsonis, _Left Kan extensions preserving finite products_, ([pdf](http://www.math.upatras.gr/~pkarazer/publications/topsift.pdf))
  
-
 The general notion of extensions of [[1-morphisms]] in [[2-categories]] is discussed in 
 
 * {#Lack09} [[Steve Lack]], _A 2-categories companion_, in [[John Baez]], [[Peter May]], _[[Towards Higher Categories]]_, Springer, (2009) ([arXiv:math/0702535](http://arxiv.org/abs/math/0702535))
- 
-
+* [[Ross Street]], _Pointwise extensions and sketches in bicategories_, [arXiv:1409.6427](https://arxiv.org/abs/1409.6427)
 * {#Roald13} Seerp Roald Koudenburg, *Algebraic weighted colimits*, [arXiv](http://arxiv.org/abs/1304.4079)
  
 For the notion of (2-dimensional) (pointwise) bi-Kan extensions of pseudofunctors, see
 
-* Fernando Lucatelli Nunes, *On biadjoint triangles*, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+* Fernando Lucatelli Nunes, *On biadjoint triangles*, TAC [31-9](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
 
-* Fernando Lucatelli Nunes, *Pseudo-Kan extensions and descent theory*, [TAC](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
+* Fernando Lucatelli Nunes, *Pseudo-Kan extensions and descent theory*, TAC [33-15](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
 
 and its applications to the theory of (2-dimensional) [[flat functors]] can be seen in
 
