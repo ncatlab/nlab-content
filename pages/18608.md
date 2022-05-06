@@ -35,8 +35,7 @@ A survey and problem description is in
 
 and a report on the progress (essentially none) is in 
 
-* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills
-Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
+* {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
 Further comments are in
 
@@ -63,7 +62,18 @@ This is widely and well known, but particle physics does not quite share the mat
 
 > While it is generally believed that QCD is the correct fundamental theory of the strong interactions there are, as yet, no practical means to produce full QCD calculations of hadron masses and their decay widths.
 
-High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]] are reported here:
+* J J Cobos-Martínez, _Non-perturbative QCD and hadron physics_ 2016  J. Phys.: Conf. Ser. 761 012036 ([doi:10.1088/1742-6596/761/1/012036](http://iopscience.iop.org/article/10.1088/1742-6596/761/1/012036))
+
+> $[\cdots]$ the QCD Lagrangian does not by itself explain the data on strongly interacting matter, and it is not clear how the observed bound states, the hadrons, and their properties arise from QCD. Neither confinement  nor dynamical chiral symmetry breaking (DCSB) is apparent in QCD’s lagrangian, yet they play a dominant role in determining the observable characteristics of QCD. The physics of strongly interacting matter is governed by emergent phenomena such as these, which can only be elucidated through the use of non-perturbative methods in QCD [4, 5, 6, 7]
+
+* [Istituto Nazionale di Fisica Nucleare](https://web.infn.it/csn1/index.php/en/), _What Next: White Paper of the INFN-CSN1_ _Proposal for a long term strategy for accelerator based experiments_, Frascati Phys.Ser. 60 (2015) 1-302 (2015-05-29) ([spire:1374543](http://inspirehep.net/record/1374543/), [pdf](http://www.lnf.infn.it/sis/frascatiseries/Volume60/Volume60.pdf) ) chapter 7: _Hadron Physics and non-perturbative QCD
+_  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
+
+> Experimentally, there is a large number of facts that lack a detailed qualitative and quantitative explanation. The most spectacular manifestation of our lack of theoretical understanding of QCD is the failure to observe the elementary degrees of freedom, quarks and gluons, as free asymptotic states (color con- finement) and the occurrence, instead, of families of massive mesons and baryons (hadrons) that form approximately linear Regge trajectories in the mass squared. The internal, partonic structure of hadrons, and nucleons in particular, is still largely mysterious. Since protons and neutrons form almost all the visible matter of the Universe, it is of basic importance to explore their static and dynamical properties in terms of quarks and gluons interacting according to QCD dynamics. 
+
+
+Of course various partial approaches exist, notable computer-[[experiment]].
+High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulations are reported here:
 
 * S. Durr, Z. Fodor, J. Frison, C. Hoelbling, R. Hoffmann, S.D. Katz, S. Krieg, T. Kurth, L. Lellouch, T. Lippert, K.K. Szabo, G. Vulvert,
 
@@ -71,8 +81,10 @@ High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]] are report
 
   Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
 
-* Zoltan Fodor, Christian Hoelbling, _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449, ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
 
+* Zoltan Fodor, Christian Hoelbling, section V of _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449, ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
+
+* S. Aoki et. al. _Review of lattice results concerning low-energy particle physics_ ([arXiv:1607.00299](https://arxiv.org/abs/1607.00299))
 
 (...)
 
