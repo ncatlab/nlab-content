@@ -104,6 +104,8 @@ See at _[[induced representation of the trivial representation]]_ for more.
 
 =--
 
+See e.g. [tomDieck 09, Chapter 4](#tomDieck09).
+
 <br/>
 
 #### More exposition
@@ -473,7 +475,7 @@ Textbook accounts include
 
 Lecture note with standard material on induced representations and [[Frobenius reciprocity]] include
 
-* {#Woit} Peter Woit, _Induced representations and Frobenius Reciprocity_ ([pdf](http://www.math.columbia.edu/~woit/LieGroups-2012/inducedreps.pdf))
+* {#tomDieck09} [[Tammo tom Dieck]], Chapter 4 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
  
 
 MO discussion includes
