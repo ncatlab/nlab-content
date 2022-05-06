@@ -61,7 +61,7 @@ It immediately follows that the following classical special cases are in order o
    +-- {: .num_defn #omega}
    ###### Definition
 
-   The point $x$ is an __$\omega$-accumulation point__ of the subspace $A$ if, for every neighbourhood $U$ of $x$, the intersection $U \cap A$ is [[infinite set|infinite]].
+   The point $x$ is an __$\omega$-accumulation point__ (or __$\infty$-accumulation point__) of the subspace $A$ if, for every neighbourhood $U$ of $x$, the intersection $U \cap A$ is [[infinite set|infinite]].
    =--
 
 *  Using $\kappa = \omega_1 = \{0, 1, 2, \ldots, \aleph_0\}$:
@@ -77,16 +77,19 @@ It immediately follows that the following classical special cases are in order o
 
 The subspace $A$ is [[closed subspace|closed]] iff every adherent point of $A$ belongs to $A$ and iff every accumulation point of $A$ belongs to $A$.  (Thus one may say that $A$ is closed iff every limit point of $A$ belongs to $A$ without ambiguity.)
 
-More generally, the [[topological closure|closure]] of $A$ is the set of all adherent points of $A$.  Classically (using [[excluded middle]], or more generally if $S$ has [[decidable equality]]), the closure of $A$ is the [[union]] of $A$ and its set of accumulation points.
+More generally, the [[topological closure|closure]] of $A$ is the set of all adherent points of $A$.  This justifies using 'limit point' to mean an adherent point: the adherent points of $A$ are precisely those that are limits of [[nets]] of points in $A$.  Classically (using [[excluded middle]], or more generally if $S$ has [[decidable equality]]), the closure of $A$ is the [[union]] of $A$ and its set of accumulation points.
 
-Classically, a point in $A$ that is not an accumulation point of $A$ is precisely an [[isolated point]].  (Constructively, each of these is stronger than the negation of the other.)
+The set of accumulation points of $A$ is also called the _[[derived set]]_ of $A$, denoted $A'$.  The study of derived sets is of great historical importance in [[Georg Cantor]]\'s development of [[set theory]], even though closure sets are more important in modern mathematics.  Note that while $Cl(Cl(A)) = Cl(A)$, no similar relationship holds between $A'$ and $A''$, $A'''$, etc; one can even continue this into transfinite [[ordinal numbers]] (possibly their earliest application).
 
-A justification for the terminology 'limit point' for an accumulation point is that the concept of [[limit of a function]] approaching a point really only makes sense approaching an accumulation point.  (This is for essentially the same reason that every function is continuous at an isolated point.)  More precisely, every answer whatsoever satisfies the definition of $\lim_c f$ if $c$ is a non-accumulation point of $dom f$ (because the [[improper filter]] converges everywhere).
+Classically, a point in $A$ that is not an accumulation point of $A$ is precisely an [[isolated point]] of $A$.  (Constructively, each of these is stronger than the negation of the other, but the two conditions may be taken to be [[antithesis interpretation|antitheses]].)
+
+A justification for the terminology 'limit point' for an accumulation point is that the concept of [[limit of a function]] approaching a point really only makes sense approaching an accumulation point.  (This is for essentially the same reason that every function is continuous at an isolated point.)  Indeed, every answer whatsoever satisfies the naive definition of $\lim_c f$ if $c$ is an isolated point of $dom f$ (because the [[improper filter]] converges everywhere).
 
 
 ## Related concepts
 
 * [[limit of a sequence]]
+
 
 ## References
 
@@ -107,8 +110,10 @@ A justification for the terminology 'limit point' for an accumulation point is t
 
 [[!redirects ∞-accumulation point]]
 [[!redirects ∞-accumulation points]]
-[[!redirects ?accumulation point]]
-[[!redirects ?accumulation points]]
+[[!redirects infinity-accumulation point]]
+[[!redirects infinity-accumulation points]]
+[[!redirects ω-accumulation point]]
+[[!redirects ω-accumulation points]]
 [[!redirects omega-accumulation point]]
 [[!redirects omega-accumulation points]]
 
