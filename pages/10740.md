@@ -43,7 +43,7 @@ $$
  {#RelationToHSpaceStructureAndNormedDivisionAlgebras}
 
 The existence of an element of Hopf invariant one in $\pi_{2n-1}(S^n)$
-is equivalent to the existence of an [[H-space]] structure on $S^n$.
+is equivalent to the existence of an [[H-space]] structure on $S^{n-1}$.
 
 A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[Adams spectral sequence]])  states that maps of Hopf invariant one correspond precisely to the the [[Hopf constructions]] on the four [[normed division algebras]] (see also at [[Hurwitz theorem]]): the [[real Hopf fibration]], the [[complex Hopf fibration]], the [[quaternionic Hopf fibration]] and the [[octonionic Hopf fibration]]. 
 
