@@ -43,15 +43,26 @@ In generalization of [[twisted ad-equivariant K-theory]] there is [[twisted ad-e
 ([Lurie 09, Sec. 5.2](#Lurie09), 
 [Luecke 19, Cor. 3.2.5](#Luecke19), [Dove 19](#Dove19)).
 
+## Properties
+
+### Relation to elliptic genus
+
+The [[Ochanine genus]] lifts to a homomorphism of [[ring spectra]] $M Spin \to KO((q))$ from [[spin structure]] [[cobordism cohomology theory]] to [[Tate K-theory]] ([Kreck-Stolz 93, lemma 5.8, lemma 5.4](spin-orientation+of+elliptic+cohomology#KreckStolz93)). This is the _[[spin-orientation of elliptic cohomology]]_
+
 ## Related concepts
 
-* [[Witten genus]]
+* [[elliptic genus]]
+
+  * [[Ochanine genus]]
+
+  * [[Witten genus]]
 
 * [[elliptic Chern character]]
 
 * [[topological K-theory]]
 
 * [[twisted ad-equivariant K-theory]]
+
 
 
 ## References
