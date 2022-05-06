@@ -111,7 +111,7 @@ $$
   Spec
 $$
 
-is presented, where $\mathcal{O}$ sends and $\infty$-stack to its global [[dg-algebra]] of functions and $Spec$ constructs the simplicial presheaf "represented" degreewise by a simplicial algebra (under the [[monoidal Dold-Kan correspondence]] these are equivalent to dg-algebras).
+is presented, where $\mathcal{O}$ sends and $\infty$-stack to its global [[dg-algebra]] of functions and $Spec$ constructs the simplicial presheaf "represented" degreewise by a cosimplicial algebra (under the [[monoidal Dold-Kan correspondence]] these are equivalent to dg-algebras).
 
 An $\infty$-stack in the image of $Spec : dgAlg_k^+ \to sPSh(C)$ is an **affine $\infty$-stack**. The image of an arbitrary $\infty$-stack under the composite
 
