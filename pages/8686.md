@@ -36,6 +36,10 @@ was developed by Dotsenko and Tamaroff.
 
 * [[Lie-Poisson structure]]
 
+* [[Duflo isomorphism]]
+
+* [[Wheels theorem]]
+
 ## References
 
 * {#Quillen69} [[Daniel Quillen]], appendix B.3 of _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
