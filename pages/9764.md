@@ -20,7 +20,7 @@ On [[type II supergravity]]:
 
 On [[double supergeometry]]:
 
-* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 Physics Letters B ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
+* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
 
 On [[super-exceptional generalized geometry]]:
 
