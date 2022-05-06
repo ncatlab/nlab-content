@@ -303,7 +303,7 @@ Since the [[differential]] $d_{dR} + d_W$ (eq:TensorProductOfdeRhamAlgebraWithWe
 
 This [[dgc-algebra]] is called the _Weil model_ for $G$-equivariant de Rham cohomology of $X$. 
 
-(see [Atiyah-Bott 84](#AtiyahBott84), [Mathai-Quillen 86, Sec 5](#MathaiQuillen86) [Kalkman 93, Sec.2.1](#Kalkman93), [Miettinen 96, Sec. 2](#Miettinen96)).
+(see [Atiyah-Bott 84](#AtiyahBott84), [Mathai-Quillen 86, Sec. 5](#MathaiQuillen86) [Kalkman 93, Sec.2.1](#Kalkman93), [Miettinen 96, Sec. 2](#Miettinen96)).
 
 
 
@@ -380,7 +380,7 @@ We have:
      \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{hor}    
    $$
 
-1. Finally, the operator commutes with the [[Lie derivative]] (eq:WeilModelLieDerivative) and hence restricts to an isomrophism onto the sub-[[dgc-algebra]] of basic differential forms (eq:WeilModelBasicForms)
+1. The operator commutes with the [[Lie derivative]] (eq:WeilModelLieDerivative) and hence restricts to an isomorphism onto the sub-[[dgc-algebra]] of basic differential forms (eq:WeilModelBasicForms)
 
    \[
      \label{IsomorphisamCartanToWeilModel}
@@ -390,17 +390,69 @@ We have:
        \Omega^\bullet\big(X \big)
      \big)^G
      \underoverset{\simeq}{ 
-       :\exp\big( - \theta^a \iota_a \big):  
+       \;\;\;
+       :\exp\big( - \theta^a \iota_a \big): 
+       \;\;\;
      }{
        \longrightarrow
      }
      \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{bas}    
    \]
 
+1. The [[inverse function|inverse]] of (eq:IsomorphisamCartanToWeilModel)
+
+   \[
+     \label{IsomorphismWeilToCartanModel}
+     \big(
+       \mathbb{R}\big[ \{r^a\}_a \big] 
+       \otimes
+       \Omega^\bullet\big(X \big)
+     \big)^G
+     \underoverset{\simeq}{ 
+       \;\;\;
+       \epsilon
+       \;\;\;  
+     }{
+       \longleftarrow
+     }
+     \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{bas}    
+   \]
+
+   is the [[algebra homomorphism]] given setting all generaotors $\theta^a$ in (eq:ExplicitWeilAlgebra)  to zero
+
+   \[
+     \label{WeilAugmentationOverCartan}
+     \epsilon \;\colon\;
+     \left\{
+       \array{
+          \omega & \mapsto \omega
+          \\
+          \theta^a & \mapsto 0
+          \\
+          r^a & \mapsto r^a
+       }
+     \right.
+   \]
+
+1. The induced [[differential]] on the left, which hence makes $: \exp\big( - \theta^a \iota_a\big) :$ a [[dgc-algebra]]-[[isomorphism]] and hence in particular a [[quasi-isomorphism]] is
+
+   \[
+     \label{InducedDifferentialOnCartanModel}
+     \epsilon
+     \circ
+     \big( d_{dR} + d_W\big)     
+     \circ
+     : \exp\big(  -\theta^a \iota_a \big) :
+     \;=\;
+     d_{dR}
+     +
+     r^a \iota_{v^a}
+     \,.
+   \]
 
 =--
 
-([Mathai-Quillen 86, around (5.9)](#MathaiQuillen86))
+([Cartan 50, Sec. 6](#Cartan50), see e.g. [Mathai-Quillen 86, around (5.9)](#MathaiQuillen86))
 
 +-- {: .proof}
 ###### Proof
@@ -441,11 +493,123 @@ $$
 
 etc.
 
+Hence the joint image is the joint kernel of the contraction operators. 
+
+It is clear by inspection that $\epsilon$ in (eq:IsomorphismWeilToCartanModel) is a [[linear map|linear]] [[inverse function|inverse]] to $: \exp\big( - \theta^a \iota_a\big) :$. Therefore, since $\epsilon$ is manifestly an [[algebra homomorphism]], so is $: \exp\big( - \theta^a \iota_a\big) :$.
+
+This implies that the induced differential (eq:InducedDifferentialOnCartanModel) is a graded [[derivation]] and hence that it may be identified by its action on generators. Direct inspection indeed yields
+
+for all generators $r^a$
+
+$$
+  \begin{aligned}
+     \epsilon
+     \circ
+     \big( d_{dR} + d_W\big)     
+     \circ
+     : \exp\big(  -\theta^a \iota_a \big) :
+     \big(
+       r^a
+     \big)
+     & = 0
+     \\
+     & =
+     \big( d_{dR} + r^a \iota_{v^a} \big) ( r^a ) 
+  \end{aligned}
+$$
+
+and for all differential forms $\omega \in \Omega^\bullet\big( X \big)$:
+
+$$
+  \begin{aligned}
+     \epsilon
+     \circ
+     \big( d_{dR} + d_W\big)     
+     \circ
+     : \exp\big(  -\theta^a \iota_a \big) :
+     \big( \omega \big)
+     & =
+     \epsilon
+     \circ
+     \big( d_{dR} + d_W\big)     
+     \big(
+       \omega
+       - 
+       \theta^a \iota_{v^a} \omega
+       + 
+       \cdots
+     \big)
+     \\
+     & =
+     \epsilon
+     \circ
+     \big(
+       d_{dR} \omega
+       +
+       \underset{a}{\sum} 
+       \theta^a 
+       d_{dR} \iota_{v^a} \omega
+       + 
+       \big( r^a - \tfrac{1}{2}f^a_{b c} t^b \wedge t^c \big) 
+       \iota_{v^a} \omega
+       + 
+       \cdots
+     \big)
+     \\
+     & =
+       d_{dR} \iota_{v^a} ( \omega)
+       + 
+       r^a \iota_{v^a} (\omega)
+  \end{aligned}
+$$
+
+
+because $\epsilon$ annihilates, by (eq:WeilAugmentationOverCartan), all summands containing a $\theta^a$-factor.
+
 =--
 
-The left hand side [[dgc-algebra]] of the isomorphism (eq:IsomorphisamCartanToWeilModel) is called the _Cartan model_, and by that isomorphism exhibits it equivalent to the Weil model.
+The left hand side [[graded algebra]] of the isomorphism (eq:IsomorphisamCartanToWeilModel) equipped with the induced differential (eq:InducedDifferentialOnCartanModel) is called the _Cartan model_, and that isomorphism exhibits it as equivalent to the Weil model:
+
+$$
+  \array{
+  \Big(
+     \Big(
+       \Omega^\bullet\big(X \big)
+       \otimes
+       \mathbb{R}\big[ \{r^a\}_a \big] 
+     \Big)^G
+     \,,\,
+     d_{dR} + r^a \iota_{v^a}
+  \Big)
+  &
+  \underoverset{\simeq}{
+     : \exp\big( - \theta^a \iota_a \big) :
+  }{\longrightarrow}
+  &
+  \Big(
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{basic}
+  , 
+  d_{dR} + d_W
+  \Big)
+  \\
+  \text{Cartan model}
+  &&
+  \text{Weil model}
+  }
+$$
+
+
+\linebreak
 
 In summary, the Cartan model is explicitly the following dgc-algebra:
+
 
 ##### Direct definition
   {#CartanModelDirectDefinition}
@@ -508,6 +672,10 @@ The resulting [[dgc-algebra]] $(\Omega^\bullet(G,\mathfrak{g}^\ast[1])^G, d)$ is
 
 ## References
   {#References}
+
+Due to 
+
+* {#Cartan50} [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibré principal_, Colloque de topologie (espaces fibrés). Bruxelles, 1950
 
 Review is in 
 
