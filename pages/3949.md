@@ -2,7 +2,7 @@ Interloper/dilettante. "Functional analyst", who sometimes wonders if the term m
 
 * [website](http://maths.lancs.ac.uk/~choiy1/)
 
-(Last properly active in 2014, but might be returning in 2018...)
+(Last properly active in 2014, but might be returning in 2021...)
 
 ### To do list ###
 Some things I am considering trying to write about, or contribute to. (This is mainly meant as a list to remind or nag me to write things down.)
@@ -12,12 +12,10 @@ Some things I am considering trying to write about, or contribute to. (This is m
 * the bidualization monad on [[Banach space]]s
 * Kaijser and Wick-Pelletier's work on interpolation
 * Arens-Eells spaces, a.k.a. the adjunction between Banach spaces and metric spaces.
-* Richard Arens's paper using "phyla", or: where Banach algebras and [[symmetric monoidal categories]] should have met. (There is now some stuff on [[Banach algebra#Arens products|Arens products]] on the [[Banach algebra|Banach algebras]] page.)
+* Richard Arens's paper using "phyla", or: where Banach algebras and [[symmetric monoidal categories]] should have met. (There is now some stuff on [[Banach algebra#arens products|Arens products]] on the [[Banach algebra|Banach algebras]] page.)
 * Categori(c)al basics of operator spaces: MAX, MIN, and various tensor products
 * functorial aspects of the group von Neumann algebra construction
-* cabbages
-* kings
-* whether pigs have wings
+* dual Banach algebras
 
 
 
