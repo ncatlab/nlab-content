@@ -447,7 +447,7 @@ $$
   \,,
 $$
 
-where the first one ($\bar A \to \bar B$) is taken in $[\Delta^{op}, C]_{proj,S}$ and the second (\hat A \to \hat B) in $[\Delta^{op}, C]_{Reedy}$. 
+where the first one ($\bar A \to \bar B$) is taken in $[\Delta^{op}, C]_{proj,S}$ and the second ($\hat A \to \hat B$) in $[\Delta^{op}, C]_{Reedy}$. 
 
 Assume first that $A \to B$ is a hocolim-equivalence. Then so is $\hat A \to \hat B$, because the horizontal morphisms are all objectwise weak equivalences. But $\hat A$ and $\hat B$ are fibrant in $[\Delta^{op}, C]_{Reedy}$, hence in $[\Delta^{op}, C]_{proj}$ by construction and at the same time all their structure maps are weak equivalences (use 2-out-of-3), so that they are in fact fibrant in $[\Delta^{op}, C]_{proj,S}$. By general properties of left Bousfield localization, weak equivalences between local fibrant objects are already weak equivalences in the unlocalized structure -- so $\hat A \to \hat B$ is indeed even an objectwise weak equivalence. It follows then that so is $\bar A \to \bar B$, which is therefore in partiular a weak equivalence in $[\Delta^{op}, C]_{Reedy, S}$. Finally the left horizontal morphisms are also weak equivalences in $[\Delta^{op}, C]_{Reedy,S}$, by the above Quillen adjunction. So finally by 2-out-of-3 in $[\Delta^{op}, C]_{Reedy,S}$ it follows that also $A \to B$ is a weak equivalence there.
 
