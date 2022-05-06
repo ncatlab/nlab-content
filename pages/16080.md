@@ -28,7 +28,7 @@ Kramers-Wannier duality is a [[duality in physics]] of the [[Ising model]] [[2d 
 
 Discussion in the context of the [[FRS-formalism]] [[QFT with defects|with defects]] includes
 
-* [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Kramers-Wannier duality from conformal defects_ ([arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051))
+* {#FFRS04} [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Kramers-Wannier duality from conformal defects_, Phys.Rev.Lett. 93 (2004) 070601 ([arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051))
 
 Here in [[FRS-formalism]] a [[2d CFT]] is formalized as a [[boundary field theory]] to a 3d [[TQFT]] based on the [[Turaev-Viro model]], similar to the [[CS-WZW correspondence]].
 
