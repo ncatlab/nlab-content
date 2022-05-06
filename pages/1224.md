@@ -16,7 +16,7 @@
 
 A [[functor]] $F : C \to D$ is **final** (often called **cofinal**), if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]].  
 
-Dually, a functor is **initial** (sometimes called **co-cofinal**) if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
+Dually, a functor is **initial** (sometimes called **co-cofinal**, or **final** -- see for example [Borceux](#fb)) if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
 
 Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.  The terminology comes instead from the fact that an object $d\in D$ is initial (resp. terminal) just when the corresponding functor $d:1\to D$ is initial (resp. final).
 
@@ -253,7 +253,8 @@ Section 2.5 of
 
 Section 2.11 of
 
-* [[Francis Borceux]], _Handbook of categorical algebra 1, Basic category theory_
+
+* {#fb} [[Francis Borceux]], _Handbook of categorical algebra 1, Basic category theory_
 
 Notice that this says "final functor" for the version under which limits are invariant.
 
