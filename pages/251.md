@@ -47,6 +47,36 @@ $$
 
 Here $x_i,y_i$ are objects, $f$ and $g$ are horizontal arrows, $\alpha_i$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
 
+Alternatively one can apply [[Poincaré duality]] to obtain a [[string diagram]] representation for 2-cells, similar to the one obtained for [[2-category|2-categories]] ([Myers 16](#Myers16)):
+
+\begin{centre}
+    \begin{tikzpicture}[scale=2]
+        \usetikzlibrary{positioning,calc,decorations.pathmorphing,decorations.pathreplacing,decorations.markings,patterns}
+
+        \tikzset{fwd/.style={decoration={markings,mark=at position 0.7 with {\arrow{>}}},postaction={decorate}}}
+        \tikzset{bwd/.style={decoration={markings,mark=at position 0.5 with {\arrow{<}}},postaction={decorate}}}
+
+        \path[fill={rgb,255:red,212; green,166; blue,204}] (0,0) rectangle (.5,.5);
+        \path[fill={rgb,255:red,152; green,209; blue,162}] (.5,0) rectangle (1,.5);
+        \path[fill={rgb,255:red,248; green,168; blue,156}] (0,.5) rectangle (.5,1);
+        \path[fill={rgb,255:red,243; green,237; blue,155}] (.5,.5) rectangle (1,1);
+        \draw[gray] (0,0) rectangle (1,1);
+        \node[circle,draw,inner sep=1.5pt,fill=white] at (.5,.5) (alpha) {$\phi$};
+        \draw[fwd] (0,.5) -- (alpha);
+        \draw[fwd] (alpha) -- (1,.5);
+        \draw[bwd] (.5,0) -- (alpha);
+        \draw[bwd] (alpha) -- (.5,1);
+        \node at (-.2,.5) {$\alpha_0$};
+        \node at (1.2,.5) {$\alpha_1$};
+        \node at (.5,1.2) {$f$};
+        \node at (.5,-.2) {$g$};
+        \node at (.25,.75) {$x_0$};
+        \node at (.75,.75) {$x_1$};
+        \node at (.25,.25) {$y_0$};
+        \node at (.75,.25) {$y_1$};
+    \end{tikzpicture}
+\end{centre}
+
 The vertical and horizontal arrows form categories (called **edge categories**), and the squares have two category structures which respect the edge category structures.  
 
 Horizontal composition of these squares is given by the compositon in the ordinary [[category|categories]] $D_0$ and $D_1$, while vertical composition is given by the composition operation specified on $D_1 \stackrel{\to}{\to} D_0$ by virtue of it being a [[category]] [[internalization|internal to]] [[Cat]].
@@ -211,6 +241,8 @@ See also
 * [[Ronnie Brown]]  and [[Philip Higgins]], [The equivalence of $\infty$-groupoids and crossed  complexes,](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_371_0/CTGDC_1981__22_4_371_0.pdf)  _Cah. Top. G&#233;om. Diff_. 22 (1981) 371-386.
 
 * [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf), _New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
+
+* {#Myers16} David Jaz Myers, _String Diagrams For Double Categories and (Virtual) Equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
 
 
 [[!redirects double categories]]
