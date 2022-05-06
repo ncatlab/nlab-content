@@ -188,14 +188,7 @@ and so on.
 
 ## Related projects
 
-* [[Xena project]]
-
-* [[UniMath project]]
-
-* [[ForMath project]]
-
-* [[Archive of Formal Proofs]]
-
+[[!include proof assistants and formalization projects -- list]]
 
 ## Related entries
 
