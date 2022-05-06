@@ -39,7 +39,9 @@ The [[Ricci flow]]-strategy for the proof was devised by [[Richard Hamilton]] an
 
 * {#BessiersEtAl} Laurent Bessieres, Gerard Besson, Michel Boileau, Sylvain Maillot, Joan Porti, _Geometrisation of 3-manifolds_ ([pdf](http://www-fourier.ujf-grenoble.fr/~besson/book.pdf))
 
+Discussion for 3-dimensional [[orbifolds]] is in 
 
+* Bruce Kleiner, [[John Lott]], _Geometrization of Three-Dimensional Orbifolds via Ricci Flow_ ([arXiv:1101.3733](https://arxiv.org/abs/1101.3733))
 
 [[!redirects geometrization conjecture]]
 [[!redirects geometrisation conjecture]]
