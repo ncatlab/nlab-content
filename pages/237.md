@@ -1,4 +1,4 @@
-I'm one of [John](John+Baez)'s students.  My [homepage](http://math.ucr.edu/~mike), [blog](http://reperiendi.wordpress.com), and [Google Plus feed](https://plus.google.com/+MikeStay/posts).
+I was one of [John](John+Baez)'s students.  My [homepage](http://math.ucr.edu/~mike) and [blog](http://reperiendi.wordpress.com).
 
 
 category: people
