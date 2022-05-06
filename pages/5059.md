@@ -40,6 +40,9 @@ The Green-Schwarz model of the superstring is in contrast to the _[[NSR-string]]
 The construction of the Green-Schwarz functional was motivated by the desire to find an equivalent alternative formulation in which 
 spacetime supersymmetry is manifest (see e.g. [Schwarz 16, slides 24-25](#Schwarz16)). 
 
+[[!include worldvolume-target supersymmetry of brane sigma-models]]
+
+
 For more discussion see also at _[[geometry of physics -- fundamental super p-branes]]_.
 
 
@@ -1290,8 +1293,6 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 * Ph. Brax, J. Mourad, _Open Supermembranes Coupled to M-Theory Five-Branes_, Phys.Lett. B416 (1998) 295-302 ([arXiv:hep-th/9707246](http://arxiv.org/abs/hep-th/9707246))
 
-
-### Quantization
 
 
 [[!redirects Green-Schwarz action]]
