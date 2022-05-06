@@ -55,13 +55,14 @@ Review is in
 
 With an eye towards the [[volume conjecture]] and [[M5-brane]] [[entropy]]:
 
-* Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, j.physletb.2014.04.051 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
+* Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, Physics Letters B
+Volume 733, 2 June 2014, Pages 316-319 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
 
 * {#GangKimLee14} Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
   (in view of [[AdS/CFT]])
 
-* {#GangKim18} Dongmin Gang, Nakwoo Kim, aound (21) of _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+* {#GangKim18} Dongmin Gang, Nakwoo Kim, around (21) of: _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
 
 * {#GangKimPandoZayas19} Dongmin Gang, Nakwoo Kim, Leopoldo A. Pando Zayas, _Precision Microstate Counting for the Entropy of Wrapped M5-branes_ ([arXiv:1905.01559](https://arxiv.org/abs/1905.01559))
 
