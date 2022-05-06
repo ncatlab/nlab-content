@@ -144,9 +144,12 @@ The role of the KR field in [[twisted K-theory]] is discussed a bit also in
 
 * {#Moore} [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
 
-In relaion to Einstein-Cartan theory:
+In relation to Einstein-Cartan theory:
 
 * Richa Kapoor, _A review of Einstein Cartan Theory to describe superstrings with intrinsic torsion_ ([arXiv:2009.07211](https://arxiv.org/abs/2009.07211))
+
+* Tanmoy Paul, _Antisymmetric tensor fields in modified gravity: a summary_ ([arXiv:2009.07732](https://arxiv.org/abs/2009.07732))
+
 
   
 
