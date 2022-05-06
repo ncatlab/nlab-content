@@ -168,7 +168,11 @@ Double field theory is supposed to formalize the [[non-geometric backgrounds]] o
 
 * [[doubled geometry]], [[generalized geometry]]
 
-* [[T-fold]], [[non-geometry]]
+* [[non-geometry]]
+
+  * [[T-fold]]
+
+  * [[exotic brane]]
 
 * [[exceptional field theory]], [[exceptional generalized geometry]]
 
