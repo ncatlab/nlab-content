@@ -101,11 +101,25 @@ See also
 ### Thermodynamics
 
 
-Discussion of [[thermodynamics]], [[phase transitions]] and [[thermal field theory]] of the BMN matrix model:
+Discussion of [[thermodynamics]], [[phase transitions]], [[confinement]] and [[thermal field theory]] of the BMN matrix model:
+
+* Hyeonjoon Shin, Kentaroh Yoshida, _Thermodynamic Behavior of Fuzzy Membranes in PP-Wave Matrix Model_, Phys.Lett. B627 (2005) 188-196 ([arXiv:hep-th/0507029](https://arxiv.org/abs/hep-th/0507029))
+
+
+* Curtis T. Asplund, [[David Berenstein]], Diego Trancanelli, _Evidence for fast thermalization in the plane-wave matrix model_, 	Phys. Rev. Lett. 107, 171602 (2011) ([arXiv:1104.5469](https://arxiv.org/abs/1104.5469))
+
 
 * Miguel S. Costa, Lauren Greenspan, Joao Penedones, [[Jorge Santos]], _Thermodynamics of the BMN matrix model at strong coupling_, JHEP 03 (2015) 069 ([arXiv:1411.5541](https://arxiv.org/abs/1411.5541))
 
+* Samuel Pramodh, Vatche Sahakian
+_From Black Hole to Qubits: Evidence of Fast Scrambling in BMN theory_, JHEP 7, July 2015, 67 ([arXiv:1412.2396](https://arxiv.org/abs/1412.2396))
+
+
 * Yuhma Asano, Veselin G. Filev, Samuel Kováčik, Denjoe O'Connor, _The non-perturbative phase diagram of the BMN matrix model_, JHEP 1807 (2018) 152 ([arXiv:1805.05314](https://arxiv.org/abs/1805.05314))
+
+* Yuhma Asano, Samuel Kováčic, Denjoe O'Connor, _The Confining Transition in the Bosonic BMN Matrix Model_ ([arXiv:2001.03749](https://arxiv.org/abs/2001.03749))
+
+
 
 Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix model:
 
