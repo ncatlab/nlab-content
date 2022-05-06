@@ -310,7 +310,11 @@ $$
 
 ### D4/NS5/D6
 
-J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
+[Park-Uranga 98](#ParkUranga98)
+
+[AFIRU 01a, 4.2.1](#AFIRU01a), [AFIRU 01b, 7](#AFIRU01b)
+
+(...)
 
 
 ### D5/D9-branes in $\mathbb{T}^4/\mathbb{Z}_{0,2,4}-orientifolds$
@@ -328,9 +332,6 @@ J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifol
 
 (...)
 
-[AFIRU 01a](#AFIRU01a), [AFIRU 01b](#AFIRU01b)
-
-(...)
 
 [Honecker 01](#Honecker01)
 [Honecker 02](#Honecker02)
@@ -1333,6 +1334,9 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB stri
 * {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
+
+* {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
+
 
 * {#Honecker01} Gabriele Honecker, _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
 
