@@ -125,11 +125,13 @@ reviewed in
 * [Fodor-Hoelbling 12, section V of ](#FodorHoelbling12)
 
 
-Discussion specifically of numerical computation of [[from factors]]:
+Discussion specifically of numerical computation of [[form factors]]:
 
 * B.B. Brandt, S. Capitani, M. Della Morte, D. Djukanovic, J. Gegelia, G. von Hippel, A. Juttner, B. Knippschild, H.B. Meyer, H. Wittig, _Form factors in lattice QCD_, Eur. Phys. J. ST 198:79-94, 2011 ([arXiv:1106.1554](https://arxiv.org/abs/1106.1554))
 
 Relation to [[tensor networks]]:
+
+* [[Luca Tagliacozzo]], Alessio Celi, Maciej Lewenstein, _Tensor Networks for Lattice Gauge Theories with continuous groups_, Phys. Rev. X 4, 041024 (2014) ([arXiv:1405.4811](https://arxiv.org/abs/1405.4811))
 
 * {#BBCCCDFJLMMRRTVV19} M.C. Bañuls, R. Blatt, J. Catani, A. Celi, J.I. Cirac, M. Dalmonte, L. Fallani, K. Jansen, M. Lewenstein, S. Montangero, C.A. Muschik, B. Reznik, E. Rico, [[Luca Tagliacozzo]], K. Van Acoleyen, [[Frank Verstraete]], U.-J. Wiese, M. Wingate, J. Zakrzewski, P. Zoller: 
 
