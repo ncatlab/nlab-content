@@ -46,6 +46,8 @@ for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGK
 
 ## References
 
+### General
+
 Original articles include
 
 * Yuji Terashima, Masahito Yamazaki, _$SL(2,\mathbb{R})$ Chern-Simons, Liouville, and Gauge Theory on Duality Walls_, JHEP 1108:135, 2011 ([arXiv:1103.5748](https://arxiv.org/abs/1103.5748))
@@ -68,6 +70,8 @@ Review is in
 
 * {#Dimofte14} [[Tudor Dimofte]], _3d Superconformal Theories from Three-Manifolds_, In: [[Jörg  Teschner]] (ed.), *Exact Results on $\mathcal{N} = 2$ Supersymmetric Gauge Theories*, Springer 2015 ([arXiv:1412.7129](https://arxiv.org/abs/1412.7129), [doi:10.1007/978-3-319-18769-3_11](https://doi.org/10.1007/978-3-319-18769-3_11))
 
+### Black 5-branes and AdS/CFT
+
 Discussion of [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] $\Sigma^3 = H^3/\Gamma$:
 
 * {#DGKV10} Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
@@ -82,6 +86,8 @@ Volume 733, 2 June 2014, Pages 316-319 ([arXiv:1401.3595](https://arxiv.org/abs/
 
 * {#GangKimPandoZayas19} Dongmin Gang, [[Nakwoo Kim]], Leopoldo A. Pando Zayas, _Precision Microstate Counting for the Entropy of Wrapped M5-branes_ ([arXiv:1905.01559](https://arxiv.org/abs/1905.01559))
 
+### Relation to volume conjecture
+
 Discussion of the [[volume conjecture]] by combining the 3d/3d correspondence with [[AdS/CFT]] in these backgrounds:
 
 * [Gang-Kim-Lee 14b, Section 3.2](#GangKimLee14b)
@@ -91,6 +97,14 @@ Discussion of the [[volume conjecture]] by combining the 3d/3d correspondence wi
 Enhanced to a [[defect field theory]]:
 
 * Dongmin Gang, [[Nakwoo Kim]], Mauricio Romo, Masahito Yamazaki, _Aspects of Defects in 3d-3d Correspondence_, J. High Energ. Phys. (2016) ([arXiv:1510.05011](https://arxiv.org/abs/1510.05011))
+
+### Knot invariants
+
+For discussion of [[knot invariants]]:
+
+* [[Sergei Gukov]], Pavel Putrov, [[Cumrun Vafa]], _Fivebranes and 3-manifold homology_, J. High Energ. Phys. (2017) 2017: 71 ([arXiv:1602.05302](https://arxiv.org/abs/1602.05302))
+
+### Entropy computation
 
 Applied to computation of [[Bekenstein-Hawking entropy]] for [[black holes in string theory]]:
 
