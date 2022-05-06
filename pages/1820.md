@@ -593,8 +593,7 @@ Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]
 
 After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently lemma 1.8 in 
 
-
-* {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_ , Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475;[arXiv:math/0102087](http://arxiv.org/abs/math/0102087)
+* {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_ , Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
  
 
 
