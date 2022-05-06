@@ -23,7 +23,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A [[category]] $C$  with finite [[products]] $(-)\times(-)$ and [[coproducts]] $(-) + (-)$ is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical [[distributivity]] morphism
+A [[category]] $C$  with [[finite products]] $(-)\times(-)$ and [[finite coproducts]] $(-) + (-)$ is called (finitary) **distributive** if for any $X,Y,Z\in C$ the canonical [[distributivity]] morphism
 $$ X\times Y + X\times Z \longrightarrow X\times (Y+Z)$$
 is an [[isomorphism]].  The canonical morphism is the unique morphism such that $X\times Y \to X\times (Y+Z)$ is $X\times i$, where $i\colon Y\to Y +Z$ is the coproduct injection, and dually for $X\times Z \to X\times (Y+Z)$.
 
@@ -85,6 +85,21 @@ In a distributive category, the [[initial object]] is [[strict initial object|st
 ###### Proof 
 Given an arrow $f: A \to 0$, we have that $\pi_A: A \times 0 \to A$ is a retraction of $\langle 1, f \rangle: A \to A \times 0$, so that $A$ is a retract of $A \times 0 \cong 0$. But retracts of initial objects are initial. 
 =-- 
+
+## Examples
+ {#Examples}
+
+
+For example:
+
+* the category [[Set]] of [[sets]], 
+
+* any [[topos]], 
+
+* the category [[Top]] of [[topological spaces]] with respect to forming [[product topological spaces]] and [[disjoint union topological spaces]];
+
+are distributive categories (hence [[distributive monoidal categories]], hence [[rig categories]]).
+
 
 ## Related concepts
 
