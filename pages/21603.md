@@ -289,7 +289,7 @@ So technically, combined truth comes from the ($a \Vdash A$) formal judgment for
 
 As for $TpOK(A)$, the intuitive truth is vacuous, and the presupposition is basically just that $A$ is a type, so the combined truth of $TpOK(A)$ says that $A$ is a type.
 
-### Identity
+### Identity {#IdType}
 
 ($t1 = t2 \in Comp$) intuitively says that $t1$ and $t2$ are computationally equivalent. But it presupposes that $t1$ and $t2$ are computations, so the combined truth is that $t1$ and $t2$ are the same computation.
 
