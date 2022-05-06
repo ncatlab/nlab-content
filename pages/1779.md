@@ -45,14 +45,14 @@ This is the [[internal nerve]] of the [[internal groupoid]] corresponding to the
 
 ### In $(\infty,1)$-category theory
 
-The notion of Cech nerve makes sense in any [[(∞,1)-category]] with [[limit in a quasi-category|(∞,1)-pullbacks]].
+The notion of &#268;ech nerve makes sense in any [[(∞,1)-category]] with [[limit in a quasi-category|(∞,1)-pullbacks]].
 
 See [[groupoid object in an (∞,1)-category]].
 
 
 ## Applications and occurences
 
-* The [[cohomology]] theory obtained by mapping out of [[?ech covers]] instead of general [[hypercovers]] is [[?ech cohomology]].
+* The [[cohomology]] theory obtained by mapping out of [[Čech covers]] instead of general [[hypercovers]] is [[Čech cohomology]].
 
 * A [[groupoid object in an (infinity,1)-category]] that is a &#268;ech nerve $U \to X$ exhibits $X$ as a [[delooping]].
 
@@ -78,14 +78,14 @@ This is described in more detail in the section "Interpretation in terms of high
 +-- {: .num_remark}
 ###### Remark (Historical and pedagogic note)
 
-This example is more or less the way that [[Eduard ?ech]] gave the original form of the construction that now carries his name. More on this can be found in the entry on [[&#268;ech methods]], and the discussion there of the **nerve of an open cover**. For the case of triangulable spaces (polyhedra), for the cover by open stars of vertices of a triangulation, one retrieves the simplicial complex used to triangulate the space. This is one of the strong roots of the modern theory of cohomology as nerves of open covers can be seen as analogues of triangulations, and then [[?ech cohomology]] is seen to extend simplicial cohomology to spaces that are locally nice. That is one of the first steps on the long route to [[Grothendieck]]'s definition of topos as a generalisation of space, expressly so as to define a cohomology further extending &#268;ech cohomology to the geometric objects studied in algebraic geometry.
+This example is more or less the way that [[Eduard Čech]] gave the original form of the construction that now carries his name. More on this can be found in the entry on [[&#268;ech methods]], and the discussion there of the **nerve of an open cover**. For the case of triangulable spaces (polyhedra), for the cover by open stars of vertices of a triangulation, one retrieves the simplicial complex used to triangulate the space. This is one of the strong roots of the modern theory of cohomology as nerves of open covers can be seen as analogues of triangulations, and then [[Čech cohomology]] is seen to extend simplicial cohomology to spaces that are locally nice. That is one of the first steps on the long route to [[Grothendieck]]'s definition of topos as a generalisation of space, expressly so as to define a cohomology further extending &#268;ech cohomology to the geometric objects studied in algebraic geometry.
 
 =--
 
 
 ##Related entries
 
-* [[?ech groupoid]]
+* [[Čech groupoid]]
 
 * [[effective epimorphism]]
 
@@ -93,11 +93,11 @@ This example is more or less the way that [[Eduard ?ech]] gave the original form
 
 [[!redirects Cech nerve]]
 [[!redirects Cech-nerve]]
-[[!redirects ?ech nerve]]
-[[!redirects ?ech-nerve]]
-[[!redirects ?ech nerve]]
-[[!redirects ?ech-nerve]]
+[[!redirects Čech nerve]]
+[[!redirects Čech-nerve]]
+[[!redirects Čech nerve]]
+[[!redirects Čech-nerve]]
 [[!redirects Cech complex]]
 
-[[!redirects ?ech nerves]]
+[[!redirects Čech nerves]]
 [[!redirects Cech nerves]]
