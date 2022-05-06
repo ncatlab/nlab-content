@@ -148,7 +148,59 @@ be a map (eq:TheMap). Then its $E$-Hopf invariant "is" the following [[homotopy 
 
 * by assumption (eq:ECohomologyVanishingInDegree2nMinus1) the restriction of $\Sigma^{2n} 1$ to $S^{2n-1}$ trivializes, exhibited by a choice of [[homotopy]] filling the full top part of the diagram; and by the [[universal property]] of the top homotopy-pushout this corresponds equivalently to the dashed morphism $c$;
 
-* by degree reasons (as in [Lurie, Lec. 4. Exmpl. 8](complex+oriented+cohomology+theory#LurieLecture)) the restriction of the [cup square cohomology operation](cohomology+operation#CupPowersInMultiplicativeCohomology) on $c$ to $S^n$ trivializes (since $c$ factors through the [[connective cover]] $\Sigma^n (E\langle 0\rangle)$, whence its cup square factors through the $2n$-connective space $\Sigma^{2n} (E\langle 0\rangle)$ ); exhibited by a choice of [[homotopy]]  filling the full bottom part of the diagram; and by the [[universal property]] of the bottom homotopy-pushout this corresponds equivalently to a dashed morphism $S^{2n} \to E_{2n}$, labeled by  some class
+* {#RestrictionOfCupSquareTrivializes} the restriction of the [cup square cohomology operation](cohomology+operation#CupPowersInMultiplicativeCohomology) on $c$ to $S^n$ trivializes: $c$ factors through the $n$ component space of the [[connective cover]] $E\langle 0\rangle$, whence its [cup square](cohomology+operation#CupPowersInMultiplicativeCohomology) (by the discussion at _[connective cover -- For ring spectra](connective+cover#ForRingSpectra)_) factors through the $2n$-connective $2n$th component space of the same connective cover (as in a standard argument in [[complex oriented cohomology theory]], e.g. [Lurie, Lec. 4. Exmpl. 8](complex+oriented+cohomology+theory#LurieLecture)):
+
+\begin{xymatrix}
+  S^n
+  \ar[r]
+    _>>>{\ }="s"
+  \ar[d]
+    ^>>>{\ }="t"
+  &
+  \Omega^{\infty-n}
+  \big(
+    E\langle0\rangle
+  \big)
+  \ar[d]
+    ^-{ (-)^{2_{\cup}} }
+  \ar[r]
+    ^-{ \;\
+      \Omega^{\infty-n}( 
+        \epsilon_E 
+      )
+    \; }
+  &
+  \Omega^{\infty-n}
+  \big(
+    E
+  \big)
+  \ar[d]
+    ^-{ (-)^{2_{\cup}} }
+  \\
+  \ast
+  \ar[r]
+  &
+  \Omega^{\infty-2n}
+  \big(
+    E\langle0\rangle
+  \big)  
+  \ar[r]
+    _-{ \;
+      \Omega^{\infty-2n}
+      ( \epsilon_E )
+    \;}
+  &
+  \Omega^{\infty-2n}
+  \big(
+    E
+  \big)
+  %
+  \ar@{=>}
+    ^-{ \exists ! }
+    "s"; "t"
+\end{xymatrix}
+
+* This yields the [[homotopy]]  filling the full bottom part of the diagram above; and by the [[universal property]] of the bottom homotopy-pushout this corresponds equivalently to a dashed morphism $S^{2n} \to E_{2n}$, labeled by  some class
 
   $$
     \kappa 
