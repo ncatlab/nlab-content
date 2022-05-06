@@ -18,7 +18,7 @@ and
 $$ \lim\sup F = \inf_{A \in F} \sup A .$$
 The reason is that the net $(\inf A)_{A \in F}$ is monotone increasing, so that its limit in the order convergence is the same as its supremum (using itself for $y$ and a constant net for $z$); similarly, $(\sup A)_{A \in F}$ is monotone decreasing, with its limit the same as its infimum.
 
-The symbols $\lim\inf$ and $\lim\sup$ come from the Latin 'limes inferior' and 'limes superior'; saying 'limit inferior' in English because the symbol is '$\lim\inf$', while common, is like saying 'logarithm natural' because the symbol for the [[natural logarithm]] is '$\ln$' (from the Latin 'logarithmus naturalis').  Another variation is to read '$\lim\inf$' as 'limit infimum' and similarly for 'limit supremum'.  Sometimes one sees the more fully translated terms 'lower limit' and 'upper limit'.  On the other hand, in German, untranslated Latin is most common.
+The symbols $\lim\inf$ and $\lim\sup$ come from the Latin 'limes inferior' and 'limes superior'; saying 'limit inferior' in English because the symbol is '$\lim\inf$', while common, is like saying 'logarithm natural' because the symbol for the [[natural logarithm]] is '$\ln$' (from the Latin 'logarithmus naturalis').  Another variation is to read '$\lim\inf$' as 'limit infimum' and similarly for 'limit supremum', although this is etymologically incorrect.  Sometimes one sees the more fully translated terms 'lower limit' and 'upper limit'.  On the other hand, in German, untranslated Latin is most common.
 
 
 [[!redirects lower limit]]
@@ -29,6 +29,7 @@ The symbols $\lim\inf$ and $\lim\sup$ come from the Latin 'limes inferior' and '
 [[!redirects limit inferiors]]
 [[!redirects limits inferior]]
 [[!redirects limit infimum]]
+[[!redirects limit infima]]
 [[!redirects limit infimums]]
 [[!redirects limits infimum]]
 [[!redirects limes inferior]]
@@ -45,6 +46,7 @@ The symbols $\lim\inf$ and $\lim\sup$ come from the Latin 'limes inferior' and '
 [[!redirects limit superiors]]
 [[!redirects limits superior]]
 [[!redirects limit supremum]]
+[[!redirects limit suprema]]
 [[!redirects limit supremums]]
 [[!redirects limits supremum]]
 [[!redirects limes superior]]
