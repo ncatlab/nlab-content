@@ -1,6 +1,10 @@
 
 
+$\ell$
 
+$\mathbb{O}$
+
+$q \in \mathbb{H}$
 
 \[
   \label{DicksonRelations}
