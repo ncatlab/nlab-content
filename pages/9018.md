@@ -279,6 +279,8 @@ Survey and further discussion includes
  
 * [[James Halverson]], [[David Morrison]], _The Landscape of M-theory Compactifications on Seven-Manifolds with $G_2$ Holonomy_ ([arXiv:1412.4123](http://arxiv.org/abs/1412.4123))
 
+* Aaron Kennon, _$G_2$-Manifolds and M-Theory Compactifications_ ([arXiv:1810.12659](https://arxiv.org/abs/1810.12659))
+
 The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]] are discussed in 
 
 * {#HarveyMoore99} [[Jeffrey Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
