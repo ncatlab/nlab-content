@@ -37,7 +37,7 @@ Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978),
 
 ## Weak Markov\'s Principle
 
-More recently, a weakened form of Markov\'s principle has been identified (first in M. Mandelkern, "Constructively complete finite sets," Zeitschr. f. math. Logic und Grundlagen d. Math. 34, p. 97-103, 1988) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
+More recently, a weakened form of Markov\'s principle has been identified (first in ([Mandelkern 1988](#Mandelkern))) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
 
 $$
 \forall \alpha \, \Big(\forall \beta \, \Big(\neg\neg\exists n \, (\beta(n)=1)\vee \neg\neg\exists n \, \big((\alpha(n)=1)\wedge(\beta(n)=0)\big)\Big)\rightarrow\exists n \, (\alpha(n)=1)\Big).
@@ -52,6 +52,9 @@ The analogous statement for [[Dedekind real numbers]] might be called the **anal
 
 
 ## References
+
+* {#Mandelkern} Mark Mandelkern, _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, doi:[10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202).
+
 
 For a recent comparison see:
 
