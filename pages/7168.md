@@ -66,6 +66,8 @@ Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called 
 
 * [[quadratic refinement]]
 
+* [[signature of a metric]]
+
 * [[polynomial observable]]
 
 
