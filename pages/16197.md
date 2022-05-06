@@ -176,8 +176,6 @@ and is further developed in the following articles:
 
   * Jean Alexandre, Nick Houston, Nick E. Mavromatos, _Inflation via Gravitino Condensation in Dynamically Broken Supergravity_,  International Journal of Modern Physics D, Volume 24, Issue 04, April 2015 ([arXiv:1409.3183](https://arxiv.org/abs/1409.3183))
 
-
-
 * [[Sergei Ketov]], [[Aleksei Starobinsky]], _Inflation and non-minimal scalar-curvature coupling in gravity and supergravity_, JCAP 1208, 022 (2012) ([arXiv:1203.0805](https://arxiv.org/abs/1203.0805))
 
 * [[Sergei Ketov]], S. Tsujikawa, _Consistency of inflation and preheating in $F(R)$ supergravity_, Phys. Rev. D 86, 023529 (2012) ([arXiv:1205.2918](https://arxiv.org/abs/1205.2918)) 
@@ -207,6 +205,10 @@ and is further developed in the following articles:
 * Sergey Ketov, Maxim Khlopov, _Extending Starobinsky inflationary model in gravity and supergravity_ ([arXiv:1809.09975](https://arxiv.org/abs/1809.09975))
 
 * {#ENOV19} [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy_, Phys. Rev. D 100, 025009 (2019) ([arXiv:1903.05267](https://arxiv.org/abs/1903.05267), [doi:10.1103/PhysRevD.100.025009](https://doi.org/10.1103/PhysRevD.100.025009))
+
+* Yermek Aldabergenov, Shuntaro Aoki, [[Sergei Ketov]], _Minimal Starobinsky supergravity coupled to dilaton-axion superfield_ ([arXiv:2001.09574](https://arxiv.org/abs/2001.09574))
+
+
 
 ### Embedding into 11d supergravity
  {#ReferencesEmbeddingInto11dSupergravity}
