@@ -3,7 +3,7 @@
 
 * [website](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/andy-tonks)
 
-* [thesis (Bangor, 1993)](http://www.maths.bangor.ac.uk/research/tonks/pubs.html)
+* [thesis (Bangor, 1993)](https://groupoids.org.uk/pdffiles/tonksthesis.pdf)
 
 ## related $n$Lab entries
 
