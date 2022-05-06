@@ -119,8 +119,13 @@ $$
 
 ## References
 
-* {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
+* {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_, Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
-* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _[[Equivariant stable homotopy theory]]_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+On [[model category]] structure on naive $G$-spectra:
+
+* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
+
 
 [[!redirects naive G-spectra]]
