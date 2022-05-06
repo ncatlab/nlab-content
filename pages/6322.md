@@ -53,6 +53,8 @@ QCD has an intricate [[phase diagram]] (e.g. [Hands 01](#Hands01), [Schaefer 05]
 
 * [[AdS/QCD correspondence]]
 
+* [[Gross-Neveu model]]
+
 * [[quantum field theory]]
 
   * [[gauge theory]]
