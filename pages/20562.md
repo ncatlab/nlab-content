@@ -85,7 +85,7 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 
 * Convex relations (i.e. [[relation|relations]] in the category of [[convex space|convex spaces]]) to model cognition ([Bolt et al 2016](#Bolt16))
 
-* [[game theory|Games]] to model dialogue ([Hedges and Lewis 2018](#Hedges18))
+* [[game theory|Games]] to model dialogue and Wittgenstein's [[language game|language games]] ([Hedges and Lewis 2018](#Hedges18))
 
 # References
 
