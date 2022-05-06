@@ -8,11 +8,11 @@
 On [[rational homotopy theory]]:
 
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], Jean-Claude Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
 
-* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], Jean-Claude Thomas, _Rational Homotopy Theory II_, World Scientific 2015
+* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015
 
-  (this second valume generalizes to the case of non-[[simply connected topological spaces]])
+  (this second volume generalizes to the case of non-[[simply connected topological spaces]])
 
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanré]], _Algebraic Models in Geometry_, Oxford University Press 2008
