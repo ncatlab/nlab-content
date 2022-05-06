@@ -527,7 +527,7 @@ We now discuss the BRST-BV complex for the set of constraints $I$ on $(X, \{-,-\
 * instead of forming the intersecton $X|_{I = 0}$ we consider its derived locus.
 
 
-Let $\{T_1, \cdots, T_N\}$ be any finite set of gnerators of the [[ideal]] $I$. Then there exists a non-positively graded [[cochain complex]] on the graded algebra
+Let $\{T_1, \cdots, T_N\}$ be any finite set of generators of the [[ideal]] $I$. Then there exists a non-positively graded [[cochain complex]] on the graded algebra
 
 $$
   A \otimes Sym(V)
