@@ -5,7 +5,7 @@
 
 ## Overview
 
-The Initiality Project is a communal effort to prove an [[initiality theorem]] for a [[dependent type theory]]: that the categorical structure constructed out of the syntax is the [[initial object]] in some category of [[categorical model of dependent types|structure categorical objects]].
+The Initiality Project is a communal effort to prove an [[initiality theorem]] for a [[dependent type theory]]: that the categorical structure constructed out of the syntax is the [[initial object]] in some category of [[categorical model of dependent types|structured categorical objects]].
 
 ## Plans and work
 
