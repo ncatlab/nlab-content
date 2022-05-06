@@ -6,10 +6,12 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 =--
-
-
+=--
 
 #Contents#
 * table of contents
@@ -57,6 +59,8 @@ The original articles are
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Mathématiques de l'IHÉS, Volume 9 (1961) , p. 23-64 ([numdam]( http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
+* [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
+
 * [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
 
 Reviews and surveys include
@@ -65,3 +69,6 @@ Reviews and surveys include
 
 * Wikipedia, _[Atiyah-Segal completion theorem](http://en.wikipedia.org/wiki/Atiyah%E2%80%93Segal_completion_theorem)_
 
+
+[[!redirects Atiyah-Segal completion]]
+[[!redirects Atiyah-Segal completions]]
