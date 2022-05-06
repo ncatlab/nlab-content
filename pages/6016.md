@@ -4,6 +4,10 @@ Murray Gell-Mann was an American physicist (1929-2019), best known for his work 
 
 ## Selected writings
 
+Introducing the [[σ-meson]] to [[chiral perturbation theory]], together with the concept of the [[sigma-model]]:
+
+* [[Murray Gell-Mann]], M. Lévy, _The axial vector current in beta decay_, Il Nuovo Cimento (1955-1965) volume 16, pages 705–726 (1960) ([doi:10.1007/BF02859738](https://doi.org/10.1007/BF02859738))
+
 Introducing [[vector meson dominance]]:
 
 * [[Murray Gell-Mann]], Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
