@@ -322,7 +322,7 @@ Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/970718
 
 concisely reviewed in 
 
-* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP 0505:052 ,2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
+* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP 0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
 
 For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
