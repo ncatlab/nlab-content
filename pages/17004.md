@@ -31,6 +31,8 @@ Equivalenty, it is the cohomolgical [[duality|dual]] concept to [[stable homotop
 ### As algebraic K-theory over $\mathbb{F}_1$
  {#AsAlgebraicKTheoryOverTheFieldWithOneElement}
 
+The following is known as the _Barratt-Priddy-Quillen theorem_:
+
 +-- {: .num_prop #StableCohomotopyIsKTheoryOfFinSet}
 ###### Proposition
 **([[stable cohomotopy]] is K-theory of [[FinSet]])**
@@ -45,7 +47,7 @@ is represented by the [[sphere spectrum]], hence is stable cohomotopy.
 
 =--
 
-(due to [Segal 74, Prop. 3.5](#Segal74), see also [Priddy 73](#Priddy73))
+This is due to [Barratt-Priddy 72](#BarrattPriddy72) reproved in [Segal 74, Prop. 3.5](#Segal74). See also [Priddy 73](#Priddy73), [Glasman 13](#Glasman13).
 
 +-- {: .num_remark #StableCohomotopyIsAlgebraicKTheoryOverFieldWithOneElement}
 ###### Remark
@@ -101,11 +103,15 @@ The basic concept appears in
 
 The identification of stable cohomotopy with the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite set]] is due to 
 
+* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici, December 1972, Volume 47, Issue 1, pp 1–14 ([doi:10.1007/BF02566785](https://doi.org/10.1007/BF02566785))
+
 * {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
 see also
 
 * {#Priddy73} [[Stewart Priddy]], _Transfer, symmetric groups, and stable homotopy theory_, in _Higher K-Theories_, Springer, Berlin, Heidelberg, 1973. 244-255 ([pdf](https://link.springer.com/content/pdf/10.1007/BFb0067060.pdf))
+
+* {#Glasman13} [[Saul Glasman]], _The multiplicative Barratt-Priddy-Quillen theorem and beyond_, talk 2013 ([pdf](http://math.mit.edu/~sglasman/bpq-beamer.pdf))
 
 The resulting interpretation of stable cohomotopy as [[algebraic K-theory]] over the [[field with one element]] is amplified in the following texts:
 
