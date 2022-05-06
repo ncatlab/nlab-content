@@ -39,14 +39,18 @@ Namely by the [above](#Definition) a quantum measurement is formally reflected i
 
 ## References
 
-* [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
- {#Wallace07}
-
+* {#Landsman17} [[Klaas Landsman]], Section 11: of _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
+ 
 The article
 
 * [[Klaas Landsman]], Robin Reuvers, _A Flea on Schr&#246;dinger's Cat_,  Found. Phys. 43, 373-407 (2013) ([arXiv:1210.2353](http://arxiv.org/abs/1210.2353), [pdf](http://www.math.ru.nl/~landsman/Catresubmission.pdf))
 
 points out that for symmetric systems with a symmetric [[ground state]], already a tiny perturbation mixing the ground state with the first [[excited state]] causes [[spontaneous symmetry breaking]] in a suitable limit, and suggests that this already resolves the measurement problem.
+
+See also 
+
+* {#Wallace07} [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+
 
 
 [[!redirects quantum measurement]]
