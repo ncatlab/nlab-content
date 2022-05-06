@@ -27,7 +27,9 @@ $$
   CS + i vol
 $$
 
-of its [[Chern-Simons form|Chern-Simons invariant]] and its [[volume]] (e.g. [Neumann 11, section 2.3](#Neumann11)). 
+of its [[Chern-Simons form|Chern-Simons invariant]] and its [[volume]] (e.g. [Neumann 11, section 2.3](#Neumann11), [Garoufalidis-Thurston-Zickert 11](#GaroufalidisThurstonZickert11)). 
+
+
 
 This appears as the action in [[analytically continued Chern-Simons theory]].
 
@@ -37,7 +39,7 @@ This appears as the action in [[analytically continued Chern-Simons theory]].
 
 ### Volume conjecture
 
-The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states that in the [[classical limit]] it [[convergence of a sequence|converges]] to the [[complex volume]] ([Chen-Yang 15](#ChenYang15))
+The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states that in the [[classical limit]] it [[convergence of a sequence|converges]] to the [[complex volume]] ([MMOTY 02, Conjedtcure 1.2](#MMOTY02), see also [Chen-Yang 15](#ChenYang15))
 
 ## Related concepts
 
@@ -54,7 +56,13 @@ The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states tha
 
 * {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541, Amer. Math. Soc. 2011, 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
-Relation to the [[volume conjecture]] is discussed in 
+* {#GaroufalidisThurstonZickert11} Stavros Garoufalidis, [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
+
+The [[volume conjecture]] (Kashaev's conjecture) for complex volume is due to 
+
+* {#MMOTY02} [[Hitoshi Murakami]], [[Jun Murakami]], M. Okamoto, T. Takata, and Y. Yokota, Conjecture 1.2 in _Kashaev's Conjecture And The Chern-Simons Invariants Of Knots And Links_, Experiment. Math. 11 (2002) 427-435 ([arXiv:math/0203119](https://arxiv.org/abs/math/0203119))
+
+see also
 
 * {#ChenYang15} [[Qingtao Chen]], [[Tian Yang]], _A volume conjecture for a family of Turaev-Viro type invariants of 3-manifolds with boundary_ ([arXiv:1503.02547](http://arxiv.org/abs/1503.02547))
 
