@@ -90,7 +90,7 @@ For equality of types $\Gamma \vdash A \equiv B$, we take as input that $\Gamma 
 
 [[!include Initiality Project - Type Theory - Type equality]]
 
-Similarly $\Gamma \vdash T \equiv S : A$ takes as input that $\Gamma \vdash T : A$ and $\Gamma \vdash S : A$
+Similarly $\Gamma \vdash T \equiv S : A$ takes as input that $\Gamma \vdash T \Leftarrow A$ and $\Gamma \vdash S \Leftarrow A$. It also takes $\Gamma \vdash A type$.
 
 [[!include Initiality Project - Type Theory - Term equality]]
 
@@ -118,7 +118,7 @@ As noted above, there is a canonical correspondence between our bidirectional th
 
 In fact, we can prove that $\Gamma \vdash T\Leftarrow A$ is derivable bidirectionally if and only if $\Gamma \vdash T: A$ is derivable unidirectionally.
 
-The "only if" direction is easy: just change all the $\Leftarrow$s and $\Rightarrow$s to colons in a bidirectional rule to obtain a unidirectional one.  For "if", it suffices to show that all the unidirectional rules translate to *admissible* bidirectional rules under $(T:A)\mapsto(T\Leftarrow A)$.  Each type-former rule in fact translates to a derivable rule: follow the corresponding bidirectional rule (whose conclusion is synthesizing) by the mode-switching rule applied to reflexivity.  _(FIXME: I don't think it's derivable; it needs to use a sanity check to derive the reflexivity. Discuss.)_  The only thing requiring a bit of thought is the conversion rule: we want to show that
+The "only if" direction is easy: just change all the $\Leftarrow$s and $\Rightarrow$s to colons in a bidirectional rule to obtain a unidirectional one.  For "if", it suffices to show that all the unidirectional rules translate to *admissible* bidirectional rules under $(T:A)\mapsto(T\Leftarrow A)$.  Each type-former rule in fact translates to a derivable rule: follow the corresponding bidirectional rule (whose conclusion is synthesizing) by the mode-switching rule applied to reflexivity.  The only thing requiring a bit of thought is the conversion rule: we want to show that
 
 $$ \frac{\Gamma \vdash T\Leftarrow A \qquad \Gamma \vdash A\equiv B \, type}{\Gamma \vdash T\Leftarrow B}$$
 
