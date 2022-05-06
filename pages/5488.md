@@ -12,7 +12,7 @@ In [[material set theory]] as a [[foundation of mathematics]], the axiom of pair
 
 The __axiom of pairing__ (or __axiom of pairs__) states the following:
 
-+-- {: .un_axiom}
++-- {: .un_defn}
 ###### Axiom (pairing)
 
 If $x$ and $y$ are (material) sets, then there exists a set $P$ such that $x, y \in P$.
