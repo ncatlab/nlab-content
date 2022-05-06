@@ -21,7 +21,7 @@ The point about null systems is the following:
 for $N$ a null system, let $N Q$ be the collection of all morphisms in $C$ whose "[[mapping cone]]" is in $N$, precisely: set
 
 $$
-  N Q := \{ X \stackrel{f}{\to} Y | \exists dist. tri. X \to Y \to Z in C with Z \in N\}
+  N Q := \{ X \stackrel{f}{\to} Y | \exists dist. tri. X \to Y \to Z \: in \: C \: with \: Z \in N\}
   \,.
 $$
 
