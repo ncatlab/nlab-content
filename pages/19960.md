@@ -634,7 +634,11 @@ See also
 
 * {#ABBCN18} Riccardo Argurio, Matteo Bertolini, Francesco Bigazzi, Aldo L. Cotrone, Pierluigi Niro, _QCD domain walls, Chern-Simons theories and holography_, J. High Energ. Phys. (2018) 2018: 90 ([arXiv:1806.08292](https://arxiv.org/abs/1806.08292))
 
+### Application to defects
 
+Application to QCD [[QFT with defects|with defects]]:
+
+* Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
 
 
 
