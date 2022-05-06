@@ -18,6 +18,11 @@ TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elemen
 * {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, 	J. High Energ. Phys. (2019) 2019: 005
 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
 
+and specifically for [[AdS2/CFT1]] with the [[BFSS matrix model]]:
+
+* Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
+
+
 
 ## Related $n$Lab entries
 
