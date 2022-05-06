@@ -129,9 +129,11 @@ The basic statement is for instance in
 
 * [[Allen Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
 
-Lecture notes include
+Lecture notes:
 
 * {#Hutchings} [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
+
+* {#Kobin16} Andrew Kobin, Section 7.3 of: _Algebraic Topology_, 2016 ([[KobinAT2016.pdf:file]])
 
 For discussion in [[stable homotopy theory]] modeled on [[symmetric spectra]] is in 
 
