@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[self-dual higher gauge fields]]:
+
+* [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
+
 
 On [[10d supergravity]] and [[10d super Yang-Mills theory]]:
 
