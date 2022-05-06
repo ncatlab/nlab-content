@@ -182,6 +182,8 @@ Other technical reviews include
 
 * G. M. Prosperi, _Confinement and bound states in QCD_ ([arXiv:hep-ph/0202186](http://arxiv.org/abs/hep-ph/0202186))
 
+* Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+
 #### Via monopole condensation
  {#ViaMonopoleCondensation}
 
