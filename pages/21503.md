@@ -28,14 +28,15 @@ There may be different [[model category]]-[[mathematical structure|structures]] 
 
 Of practical interest would be a model structure whose [[weak equivalences]] are the [[isomorphisms]] on standard _smooth_ [[homotopy groups]] of [[diffeological spaces]], i.e. the [[weak equivalences]] between the [[cohesive shapes]] of [[diffeological spaces]] regarded as the [[concrete objects]] in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]]. By the discussion at _[[shape via cohesive path ∞-groupoid]]_ these are detected by smooth functions out of [[simplices]] or [[cubes]] with their canonical diffeological structure (as discussed in [Christensen-Wu 14](#ChristensenWu14)).
 
-A model category with this property has been claimed in [Haraguchi-Shimakawa 13](#HaraguchiShimakawa13), but maybe the proof remains incomplete.
+A model category with this property has been claimed in [Haraguchi-Shimakawa 13](#HaraguchiShimakawa13),, [Haraguchi-Shimakawa 20](#HaraguchiShimakawa20)
 
-Another model category structure seems to have been securely established ([Kihara 16](#Kihara16)), but this uses a non-standard diffeology on simplices (to enforce that all smooth [[singular simplicial complexes]] are [[fibrant objects]]).
+Another model category structure is discussed in [Kihara 16](#Kihara16), but this uses a non-standard diffeology on simplices (to enforce that all smooth [[singular simplicial complexes]] are [[fibrant objects]]).
 
 ## Details
 
 
-The (possibly incomplete) approach of [Haraguchi-Shimakawa 13](#HaraguchiShimakawa13) proceeds as follows:
+The approach of [Haraguchi-Shimakawa 13](#HaraguchiShimakawa13), [Haraguchi-Shimakawa 20](#HaraguchiShimakawa20)
+proceeds as follows:
 
 
 [[!include adjunction between topological spaces and diffeological spaces]]
@@ -52,11 +53,12 @@ though [Kihara 16](#Kihara16) writes ([p. 2](https://arxiv.org/pdf/1605.06794.pd
 
 > there exists a gap in the proof of [Haraguchi-Shimakawa 13](#HaraguchiShimakawa13), Theorem 5.6
 
-Apparently this gap is meant to be addressed in
+This gap is addressed in
 
 * {#Haraguchi18} [[Tadayuki Haraguchi]], _Homotopy structures of smooth CW complexes_ ([arXiv:1811.06175](https://arxiv.org/abs/1811.06175))
 
-which however seems also to remain unpublished.
+* {#HaraguchiShimakawa20} [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces, I_ ([arXiv:2011.12842](https://arxiv.org/abs/2011.12842))
+
 
 A different model structure, however not using the standard smooth homotopy groups(!), is claimed (and published) in 
 
