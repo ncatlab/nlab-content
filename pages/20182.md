@@ -68,6 +68,8 @@ the generator in $\left\{ \array{ H_{2n+1}\big( SO(n+1), \mathbb{Q} \big) \simeq
 
 ([Møller-Raussen 85, Example 2.5](#MollerRaussen85), [Cohen-Voronov 05, Lemma 5.3.5](#CohenVoronov05))
 
+See at _[[Sullivan model of a spherical fibration]]_ for more on this.
+
 
 ## References
 
