@@ -50,4 +50,6 @@ Cubical type theory can be modeled in a number of varieties of [[cubical sets]],
 
 * [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Parametric Cubical Type Theory_ ([arXiv:1901.00489](https://arxiv.org/abs/1901.00489))
 
+* [[homotopytypetheory:Evan Cavallo]], [[homotopytypetheory:Anders Mortberg]], A unifying cartesian cubical type theory, 2019, [PDF](http://www.cs.cmu.edu/~ecavallo/works/unifying-cartesian.pdf)
+
 [[!redirects cubical type theories]]
