@@ -46,7 +46,7 @@ $$
 
 be Hermitian operator, thought of as a [[Hamiltonian]], decomposed as the [[sum]] of a free part ([[kinetic energy]]) and an interaction part ([[potential energy]]).
 
-For example for a  [[non-relativistic particle]] of [[mass]] $m$ propagating on the [[line]] subject to a [[potential energy]] $V_{pot} \colon \mathbb{R} \to \mathbb{R}$, then $\mathcal{H} = L^2(X)$ is the Hilbert space space of [[square integrable functions]] and
+For example for a  [[non-relativistic particle]] of [[mass]] $m$ propagating on the [[line]] subject to a [[potential energy]] $V_{pot} \colon \mathbb{R} \to \mathbb{R}$, then $\mathcal{H} = L^2(X)$ is the Hilbert space of [[square integrable functions]] and
 
 $$
   H 
@@ -179,11 +179,11 @@ $$
   \,.
 $$
 
-(This is abuse of notation: Strictly speaking time ordering acts on the [[tensor algebra]] spanned by the $\{V_I(t)\}_{t \in \mathbb{R}}$ and has to be _folllowed_ by taking tensor products to actual products. )
+(This is abuse of notation: Strictly speaking time ordering acts on the [[tensor algebra]] spanned by the $\{V_I(t)\}_{t \in \mathbb{R}}$ and has to be _followed_ by taking tensor products to actual products. )
 
-In applications to [[scattering]] processes one is interest in prescribing the [[quantum state]]/[[wave function]] far in the past, hence for $t \to - \infty$, and computing its form far in the future, hence for $t \to \infty$.
+In applications to [[scattering]] processes one is interested in prescribing the [[quantum state]]/[[wave function]] far in the past, hence for $t \to - \infty$, and computing its form far in the future, hence for $t \to \infty$.
 
-The operator that sends such "asymptotic ingoing-states" $\vert \psi(-\infty) \rangle_I$ to "asymptic outgoing states" $\vert \psi(+ \infty) \rangle_I$ is hence the [[limit of a sequence|limit]]
+The operator that sends such "asymptotic ingoing-states" $\vert \psi(-\infty) \rangle_I$ to "asymptotic outgoing states" $\vert \psi(+ \infty) \rangle_I$ is hence the [[limit of a sequence|limit]]
 
 \[
   \label{SMatrixInQuantumMechanics}
@@ -215,7 +215,7 @@ In [[perturbative quantum field theory]] the broad structure of the interaction 
 Together these three point are taken care of by the axiomatization of the "[[adiabatic switching|adiabatically switched]] [[S-matrix]]" according to **[[causal perturbation theory]]**.
 
 
-The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]] (now: [[adiabatic limit]]) in general does not exist in field theory ("infrared divergencies"). But in fact it need not be taken: The field algebra in a bounded region of [[spacetime]] may be computed with any adiabatic switching that is constant on this region. Moreover, the algebras assigned to regions of spacetime this way satisfy [[causal locality]] by the causal ordering in the construction of the S-matrix. Therefore, even without taking the adiabtic limit in [[causal perturbation theory]] one obtains a field theory in the form of a _[[local net of observables]]_. This is the topic of **[[locally covariant perturbative quantum field theory]]**.
+The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]] (now: [[adiabatic limit]]) in general does not exist in field theory ("infrared divergencies"). But in fact it need not be taken: The field algebra in a bounded region of [[spacetime]] may be computed with any adiabatic switching that is constant on this region. Moreover, the algebras assigned to regions of spacetime this way satisfy [[causal locality]] by the causal ordering in the construction of the S-matrix. Therefore, even without taking the adiabatic limit in [[causal perturbation theory]] one obtains a field theory in the form of a _[[local net of observables]]_. This is the topic of **[[locally covariant perturbative quantum field theory]]**.
 
 
 
