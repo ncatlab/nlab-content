@@ -367,7 +367,7 @@ $$ f(x,y) =
 \end{cases}
 $$
 
-is continuous everywhere, and has directional derivatives (def. \ref{DirectionalDerivative}) at $(0,0)$ in all directions, but is not differentiable at $(0,0)$ in the sense of def. \ref{DerivativeOfFunctionFromRnToR}.  Note that the directional derivative along the line $y=m x$ is $\frac{m^3}{1+m^2}$, which is not a linear function.
+is continuous everywhere, and has directional derivatives (def. \ref{DirectionalDerivative}) at $(0,0)$ in all directions, but is not differentiable at $(0,0)$ in the sense of def. \ref{DerivativeOfFunctionFromRnToR}.  Note that the (unnormalized) directional derivative along the vector $(a,b)$ is $\frac{b^3}{a^2+b^2}$, which is not linear.
 
 One may wonder whether existence of a linear map $d f_x$ is enough, but this is also not the case.  The function $f:\mathbb{R}^2 \to \mathbb{R}$ defined by
 
@@ -375,11 +375,11 @@ $$ f(x,y) = \begin{cases} \frac{y^3}{x} &\quad x\neq 0\\ 0 &\quad x=0 \end{cases
 
 has all directional derivatives at $(0,0)$ equaling $0$, so that in particular there is a linear map $d f_{(0,0)}$ whose values are the directional derivatives.  But it is not differentiable at $(0,0)$; in fact, it is not even continuous at $(0,0)$.  (Thus it also provides an example of a discontinuous function which has all directional derivatives.)
 
-The discontinuity kind of gives this last one away; maybe a continuous function with all directional derivatives must be differentiable?  But no, because if $W$ is a [[Weierstrass function]] (continuous everywhere but differentiable nowhere) from $\mathbb{R}$ to $\mathbb{R}$ with [[periodic function|period]] $2\pi$, and $\operatorname{atan2}$ is a $2$-argument [[arctangent]] function from $\mathbb{R}^2$ to $\mathbb{R}$ (so that $\sqrt{x^2+y^2} \sin\operatorname{atan2}(y,x) = y$ and $\sqrt{x^2+y^2} \cos\operatorname{atan2}(y,x) = x$ for all $x$ and $y$), then set
+The discontinuity kind of gives this last one away; maybe a continuous function with all directional derivatives must be differentiable?  But no, because if $W$ is a [[Weierstrass function]] (continuous everywhere but differentiable nowhere) from $\mathbb{R}$ to $\mathbb{R}$ with [[periodic function|period]] $2\pi$, and $\operatorname{atan2}$ is a $2$-argument [[arctangent]] function from $\mathbb{R}^2$ to $\mathbb{R}$ (so that $\sqrt{x^2+y^2} \,\sin\,\operatorname{atan2}(y,x) = y$ and $\sqrt{x^2+y^2} \,\cos\,\operatorname{atan2}(y,x) = x$ for all $x$ and $y$), then set
 
 $$ f(x,y) = (x^2 + y^2) W(\operatorname{atan2}(y,x)) .$$
 
-Then $f$ is, like $W$, continuous everywhere and differentiable nowhere, yet the directional derivatives through the origin are all $0$.
+Then $f$ is, like $W$, continuous everywhere and differentiable nowhere, yet the directional derivatives through the origin are all $0$.  There are further examples (including one that is analytic except at the origin) at [Math StackExchange question 1497043](https://math.stackexchange.com/questions/1497043/is-there-a-function-thats-continuous-and-has-all-directional-derivatives-as-a-l).
 
 
 ### Differentiability versus continuous and higher differentiability
