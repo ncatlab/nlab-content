@@ -95,6 +95,12 @@ This is a re-statement of
 \end{imagefromfile}
 \end{center}
 
+The [[coset spaces]] appearing here:
+
+* [[G2/SU(3) is the 6-sphere]]
+
+* ...
+
 ### $G$-Structure and exceptional geometry
 
 
