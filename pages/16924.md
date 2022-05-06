@@ -95,9 +95,10 @@ The [[T-duality|T-dual]] perspective are [[D4/NS5-brane webs]]:
 
 Further intersection with [[orientifolds]]:
 
+* [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
+
 * Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _More on 5d descriptions of 6d SCFTs_, JHEP10 (2016) 126 ([arXiv:1512.08239](https://arxiv.org/abs/1512.08239))
 
-* [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
 
 * Gabi Zafrir, _Brane webs in the presence of an $O5^-$-plane and 4d class S theories of type D_, JHEP07 (2016) 035 ([arXiv:1602.00130](https://arxiv.org/abs/1602.00130))
 
