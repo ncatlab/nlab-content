@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[symplectic cobordism ring]]:
+
+* [[Robert Stong]], _Some Remarks on Symplectic Cobordism_, Annals of Mathematics Second Series, Vol. 86, No. 3 (Nov., 1967), pp. 425-433 ([doi:10.2307/1970608](https://doi.org/10.2307/1970608))
+
+
 On [[equivariant bordism homology theory]]:
 
 * {#Stong70} [[Robert Stong]], _Unoriented Bordism and Actions of Finite Groups_, Memoirs AMS 103, American Mathematical Society, 1970 ([ams:memo-1-103/4](https://bookstore.ams.org/memo-1-103/4))
