@@ -40,10 +40,6 @@ Let $X$ be a [[compact topological space|compact]] [[orientation|oriented]] [[sm
   \,.
 \]
 
-But in addition, due to the dimenion 8, the signature is $\pm 1$, depending on the choice of [[orientation]].
-
-(e.g. [Joachim-Wraith, p. 2](#JoachimWraith))
-
 ### G-Structures on 8-Manifolds
  {#GStructuresOn8Manifolds}
 
