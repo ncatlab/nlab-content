@@ -149,6 +149,8 @@ One particle per knottedness of the cosmological gauge field.
 
 * [[leptogenesis]]
 
+* [[nucleosynthesis]]
+
 * [[On Vortex Atoms]]
 
 ## References
