@@ -10,4 +10,7 @@ Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal
 
 * [[Kirill Krasnov]], _Analytic Continuation for Asymptotically AdS 3D Gravity_, Class. Quant. Grav. 19 (2002) 2399-2424 ([arXiv:gr-qc/0111049](https://arxiv.org/abs/gr-qc/0111049))
 
+* [[Kirill Krasnov]], _Black Hole Thermodynamics and Riemann Surfaces_, Class. Quant. Grav. 20 (2003) 2235-2250 ([arXiv:gr-qc/0302073](https://arxiv.org/abs/gr-qc/0302073))
+
+
 category: people
