@@ -65,7 +65,7 @@ Derivation from [[open string field theory]] is discussed in
 
 Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
 
-* H. Aoki, N. Ishibashi, S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
+* H. Aoki, [[Noboyuki Ishibashi]], S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
 
 * Tatsuo Azeyanagi, Masanori Hanada, Tomoyoshi Hirata, _On Matrix Model Formulations of Noncommutative Yang-Mills Theories_, Phys.Rev.D78:105017,2008 ([arXiv:0806.3252](http://arxiv.org/abs/0806.3252))
 
