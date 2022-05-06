@@ -643,7 +643,7 @@ where
 ### Restriction to the boundary
   {#RestrictionToBoundaryInChernWeil}
 
-We have seen that $C Field(Y)$ is the 3-goupoid of those [[Cech cohomology|Cech cocycles]] on $Y$ with coefficients in $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)_{diff}$ such that the curvature 4-form $\mathcal{G}_4$ has a fixed globally defined value. 
+We have seen that $C Field(Y)$ is the 3-groupoid of those [[Cech cohomology|Cech cocycles]] on $Y$ with coefficients in $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)_{diff}$ such that the curvature 4-form $\mathcal{G}_4$ has a fixed globally defined value. 
 
 Consider the [[subobject]] 
 
