@@ -92,8 +92,8 @@ Prop. \ref{SuspensionOfThomSpaces} will give rise to universal Thom spectra in t
 For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[suspension spectrum]] $\Sigma^\infty Th(V)$ of the [[Thom space]] of $V$. By prop. prop. \ref{SuspensionOfThomSpaces} this may be written as
 
 $$
-  (\Sigma^\infty Th(V)) 
-  \simeq
+  (\Sigma^\infty Th(V))_n
+  \;\simeq\;
   Th(\mathbb{R}^n \oplus V)
 $$ 
 
