@@ -31,7 +31,7 @@ such that the embedded circles are [[boundary]] [[connected component|components
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
-This way Sullivan chord diagrams $D$ induce [[cospans]] of [[topological spaces]], 
+This way Sullivan chord diagrams $D$ induce 2-dimensional [[cobordisms]], namely  [[cospans]] of [[topological spaces]], 
 
 $$
   \array{
