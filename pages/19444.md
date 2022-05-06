@@ -15,7 +15,7 @@
 
 ## Idea
 
-What has been called _Feynman categories_ is a [[biequivalence|biequivalent way]] of speaking about [[coloured operads]] ([Batanin-Kock-Weber 15](#BataninKockWeber15)).
+What has been called _Feynman categories_ ([Kaufmann-Ward 17](#KaufmannWard17)) is a [[biequivalence|biequivalent way]] of speaking about [[coloured operads]] ([Caviglia 15](#Caviglia15), [Batanin-Kock-Weber 15](#BataninKockWeber15)).
 
 ## Definition
 
@@ -39,8 +39,9 @@ The latter condition on [[comma categories]] ensures the existence of certain (p
 ## Properties
 
 ### Equivalence with coloured operads
+ {#EquivalenceWithColouredOperads}
 
-There is an [[equivalence of 2-categories]] between the [[2-category]] of Feynman categories and that of [[coloured operads]] ([Batanin-Kock-Weber 15](#BataninKockWeber15)).
+There is an [[equivalence of 2-categories]] between the [[2-category]] of Feynman categories and that of [[coloured operads]] ([Caviglia 15](#Caviglia15), [Batanin-Kock-Weber 15](#BataninKockWeber15)).
 
 ## References
 
@@ -48,16 +49,19 @@ Related items include [[operad]], [[Feynman transform]].
 
 The axiomatics is proposed in
 
-*  Ralph M. Kaufmann, Benjamin C. Ward, _Feynman categories_, Astérisque
-387 (2017), vii+161pp. [arxiv/1312.1269](https://arxiv.org/abs/1312.1269)
+* {#KaufmannWard17} Ralph M. Kaufmann, Benjamin C. Ward, _Feynman categories_, Astérisque 387 (2017), vii+161pp ([arxiv:1312.1269](https://arxiv.org/abs/1312.1269))
 
 A more recent survey is in 
 
-* {#Kaufman17} Ralph M. Kaufmann, _Lectures on Feynman categories_, [arxiv:1702.06843](https://arxiv.org/abs/1702.06843)
+* {#Kaufman17} Ralph M. Kaufmann, _Lectures on Feynman categories_ ([arxiv:1702.06843](https://arxiv.org/abs/1702.06843))
 
 The [[biequivalence]] of Feynman catgeories with [[coloured operads]] is proven in
 
+* {#Caviglia15} [[Giovanni Caviglia]], Section A.1 of: _The Dwyer-Kan model structure for enriched coloured PROPs_ ([arXiv:1510.01289](https://arxiv.org/abs/1510.01289))
+
 * {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]], _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. 33 (2018), 148--192 ([arXiv:1510.08934](https://arxiv.org/abs/1510.08934))
+
+
 
 A representation-theoretical viewpoint is given in 
 
