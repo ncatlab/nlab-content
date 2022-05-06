@@ -227,7 +227,7 @@ While in view of the transcendental object: it
 
 * Its pure concept is that, which in all of our empirical concepts in general can provide relation to an object, i.e., objective reality.
 
-* Cannot contain any determined intuition at all - just the that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object.
+* "Cannot contain any determinate intuition at all, and therfore concers nothing but that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object."([A109](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_109.png))
 
 
 
