@@ -143,7 +143,9 @@ Later, [Ostrowski 19](#Ostrowski19) summarizes this as follows:
 
 > any features of backreaction (including backreaction being trace-free) based on Green and Wald formalism are unjustified
 
-Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical physics|mathematical]] [[general relativity]] again regards the issue as open:
+{#OpenProblem} **Open problem**
+
+ Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical physics|mathematical]] [[general relativity]] again regards the issue as open:
 
 > An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
 
