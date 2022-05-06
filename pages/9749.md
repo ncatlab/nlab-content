@@ -67,7 +67,7 @@ $$
  \mu_X (M)(A) := \int_{P(X)} \tau(A) M(d\tau).
 $$
 
-This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad_  on Polish spaces.  The shortcoming of restricting the Giry monad to Polish spaces is that discrete spaces have no $P$-algebras (even though they do have $G$-algebras.  For example, 
+This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad_  on Polish spaces.  The shortcoming of restricting the Giry monad to Polish spaces is that discrete spaces have no $P$-algebras (even though they do have $G$-algebras).  For example, 
  take the discrete (measurable) space $2$, which we can also view as a topological discrete space.  The measurable map $\epsilon_{2}: G(2) \to 2$ defined by $\epsilon_{2}( (1-\alpha) \delta_0 + \alpha \delta_1) = 0$ for all $\alpha \in [0,1)$, and by $\epsilon_{2}(\delta_1)=1$ shows that $(2,\epsilon_2)$ is a $G$-algebra, yet it is not a $P$-algebra.  
  (As Doberkat has noted,  a $P$-algebra must be connected, but that is impossible for discrete spaces.)  The map $\epsilon_{2}$ plays a critical role in the analysis of the $G$-algebras, because it is the unique affine map from the geometric (convex) space $G(2)$, which is isomorphic to the unit interval $[0,1]$ with its natural convex structure, to the discrete (combinatorial) convex space $2$. 
 
