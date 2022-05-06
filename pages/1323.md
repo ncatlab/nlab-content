@@ -73,7 +73,7 @@ If products distribute over binary coproducts, then products distribute over nul
 
 +-- {: .proof} 
 ###### Proof 
-We show that $X \times 0$ is initial. Clearly $\hom(X \times 0, Y)$ is inhabited by $X \times 0 \to 0 \to Y$ for any object $Y$. On the other hand, since the two coprojections $0 \to 0 + 0$ coincide, the same holds for the two coprojections $X \times 0 \to (X \times 0) + (X \times 0)$, by applying the distributivity isomorphism $X \times (0 + 0) \cong (X \times 0) + (X \times 0)$. This is enough to show that any two maps $X \times 0 \to Y$ coincide. 
+We show that $X \times 0$ is initial. Clearly $\hom(X \times 0, Y)$ is inhabited by $X \times 0 \to 0 \to Y$ for any object $Y$. On the other hand, since the two coprojections $0 \to 0 + 0$ coincide, the same holds for the two coprojections $X \times 0 \to (X \times 0) + (X \times 0)$, by applying the distributivity isomorphism $X \times (0 + 0) \cong (X \times 0) + (X \times 0)$. This is enough to show that any two maps $X \times 0 \to Y$ coincide, since given maps $f, g : X \times 0 \to Y$, we have $f = [f, g] \circ i_1 = [f, g] \circ i_2 = g$.
 =-- 
 
 +-- {: .num_prop} 
