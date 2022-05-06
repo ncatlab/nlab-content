@@ -1,7 +1,7 @@
 [[!redirects Montague grammar]]
 
 A formal approach to [[linguistics]] and natural language [[semantics]], due to [[Richard Montague]].
-In essence, it applies [[Gottlob Frege|Frege's]] principle of [[compositionality]] natural language.
+In essence, it applies [[Gottlob Frege|Frege's]] principle of [[compositionality]] to natural language.
 In his own words:
 
 > There is in my opinion no important theoretical difference between natural languages and the artificial languages of logicians; indeed, I consider it possible to comprehend the syntax and semantics of both kinds of language within a single natural and mathematically precise theory.
