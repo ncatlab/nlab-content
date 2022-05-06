@@ -175,9 +175,11 @@ Review:
 * [[Simon Willerton]], _On the Vassiliev invariants for knots and for pure braids_, 1997 ([hdl:1842/11581](http://hdl.handle.net/1842/11581), [ethos.663801](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.663801), [[WillertonVasdilievInvariants1997.pdf:file]])
 
 
-* S. Chmutov, Sergei Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628))
+* S. Chmutov, Sergei Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 * {#LandoZvonkin} Sergei K. Lando and Alexander K. Zvonkin, Chapter 6 of: _Graphs on Surfaces and Their Applications_, Springer, 2004.
+
+* [[David Jackson]], [[Iain Moffat]], _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
 More literature is listed at
 
