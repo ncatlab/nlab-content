@@ -32,7 +32,8 @@ along the [[projection map]] $Q^{(5+1)} \times K^{(4)} \overset{pr_2}{\longright
 
 Therefore it makes sense to ask if, after embedding [[Yang-Mills instantons]] into [[heterotic string theory]] this way, the [[singularity]] in the moduli space of instantons becomes part of the phase space of the theory (now that [[quantum gravity]]-effects are supposedly included) so that instantons of vanishing radius do acquire "stringy" physical meaning after all -- then to be called _small instantons_.
 
-A circumstantial but widely accepted argument ([[folklore]]) due to [Witten 96](#Witten96) says that this is indeed the case, and that these _small instantons_ in [[heterotic string theory]] are identified with heterotic [[NS5-branes]] [[wrapped brane|wrapped]] on the $Q^{(5+1)}$-factor in (eq:ProductSpacetime) and carrying an exotic [[Sp(1)]]-[[gauge field]] on their worldvolume, identified with the [[SU(2)]]-structure group of a single instanton. 
+
+**In HET-O.** A circumstantial but widely accepted argument ([[folklore]]) due to [Witten 96](#Witten96) says that this is indeed the case, and that these _small instantons_ in [[SemiSpin(32)]]-[[heterotic string theory]] are identified with heterotic [[NS5-branes]] [[wrapped brane|wrapped]] on the $Q^{(5+1)}$-factor in (eq:ProductSpacetime) and carrying an exotic [[Sp(1)]]-[[gauge field]] on their worldvolume, identified with the [[SU(2)]]-structure group of a single instanton. 
 
 Indeed, solutions of [[heterotic supergravity]] involving [[positive number|positive]]-[[radius]] [[Yang-Mills instantons]] had been interpreted as [[black brane|black]] [[NS5-branes]] of non-vanishing "thickness" in [Strominger 90](#Strominger90). This makes it plausible that these vanishing-radius small instantons correspond to fundamental hererotic 5-branes of vanishing thickness ([Witten 96, top of p. 9](#Witten96))
 
@@ -40,8 +41,9 @@ More precisely, this $Sp(1)$-gauge field is argued to be a [[non-perturbative ef
 
 There this interpretation of small instantons as [[wrapped brane|wrapped]] 5-branes really pertains to [[M5-branes]] in [[heterotic M-theory]].
 
-On the other hand, under [[duality between type I and heterotic string theory]] one expects to see [[duality in string theory|dually]] as a phenomenon visible in perturbative [[type I string theory]], now pertaining to [[D5-D9-brane bound states]]. Indeed, in general [[Dp-D(p+4)-brane bound states]] are argued to exhibit instantons in the [[worldvolume]] gauge theory of the $D(p+4)$-brane, and specifically for [[D5-D9-brane bound states]] in [[type I string theory]] one finds ([Witten 96. Section 3](#Witten96)) from [[orientifold]]-analysis ([Gimon-Polchinski 96, p. 7](#GimonPolchinski96)) that the [[gauge group]] on a single D5 is $Sp(2)$.
+**In Type I.** On the other hand, under [[duality between type I and heterotic string theory]] one expects to see [[duality in string theory|dually]] as a phenomenon visible in perturbative [[type I string theory]], now pertaining to [[D5-D9-brane bound states]]. Indeed, in general [[Dp-D(p+4)-brane bound states]] are argued to exhibit instantons in the [[worldvolume]] gauge theory of the $D(p+4)$-brane, and specifically for [[D5-D9-brane bound states]] in [[type I string theory]] one finds ([Witten 96. Section 3](#Witten96)) from [[orientifold]]-analysis ([Gimon-Polchinski 96, p. 7](#GimonPolchinski96)) that the [[gauge group]] on a single D5 is $Sp(2)$.
 
+**In HET-E.** Similarly under [[T-duality]] of the [[SemiSpin(32)]]- to the [[E8]]$\times$[[E8]]-[[heterotic string]] the small instantons should also correspond to heterotic 5-branes there. That this is the case was argued, indirectly, in [Ganor-Hanany 96](#GanorHanany96), appealing now to [[orientifold]] image pairs under the [[Horava-Witten theory|Horava-Witten]] $\mathbb{Z}_2$-action.
 
 ## Related concepts
 
@@ -54,5 +56,7 @@ On the other hand, under [[duality between type I and heterotic string theory]] 
 * {#Witten96} [[Edward Witten]], _Small Instantons in String Theory_, Nucl. Phys. B460:541-559, 1996 ([arXiv:hep-th/9511030](https://arxiv.org/abs/hep-th/9511030))
 
 * {#GimonPolchinski96} [[Eric Gimon]], [[Joseph Polchinski]], _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54:1667-1676, 1996 ([arxiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+
+* {#GanorHanany96} [[Ori Ganor]], [[Amihay Hanany]], _Small $E_8$ Instantons and Tensionless Non-critical Strings_, Nucl. Phys. B474 (1996) 122-140 ([arXiv:hep-th/9602120](https://arxiv.org/abs/hep-th/9602120))
 
 [[!redirects small instantons]]
