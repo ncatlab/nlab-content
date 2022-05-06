@@ -229,10 +229,10 @@ relation to the [[Freudenthal suspension theorem]] ([Spanier 49, section 9](#Spa
 
 For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
 
-### Pontryagin-Thom isomorphism
+### Pontryagin construction
   {#RelationToCobordismGroup}
 
-For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the assignment of [[Cohomotopy charge]] ([[Pontryagin-Thom construction]], e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
+For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the assignment of [[Cohomotopy charge]] (the _[[Pontryagin-Thom construction]]_, in this unstable and framed version due to [Pontrjagin 55](#Pontrjagin55), see review in [Kosinski 93, IX.5](#Kosinski93), [Milnor 97](#Milnor97)) identifies the [[set]] 
 
 $$
   SubMfd_{/bord}^{d}(X)
