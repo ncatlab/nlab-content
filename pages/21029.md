@@ -102,9 +102,13 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 * P. J. Heslop, [[Paul Howe]], _Aspects of $\mathcal{N}$=4 SYM_, JHEP 0401 (2004) 058 ([arXiv:hep-th/0307210](https://arxiv.org/abs/hep-th/0307210))
 
-
 * Thomas Hartman, [[Leonardo Rastelli]], _Double-Trace Deformations, Mixed Boundary Conditions and Functional Determinants in AdS/CFT_, JHEP 0801:019, 2008 ([arXiv:hep-th/0602106](https://arxiv.org/abs/hep-th/0602106))
 
+Textbook account:
+
+* {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], Section 1.7.3 of: _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+
+  (with an eye towards [[AdS/CFT in condensed matter physics]])
 
 
 [[!redirects multi-trace operators]]
