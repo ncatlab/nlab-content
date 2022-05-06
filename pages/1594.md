@@ -61,7 +61,7 @@ An orbifold is a stack presented by an [[orbifold groupoid]].
 ### Global quotient orbifolds
  {#GlobalQuotientOrbifolds}
 
-In ([ALR 07, theorem 1.23](#ALR07)) is asserted that every effective orbifold $X$ (paracompact, Hausdorff) is isomorphic to a [[global quotient orbifold]], specifically to a global quotient of $O(n)$ (where $n$ is the dimension of $X$) acting on the [[frame bundle]] of $X$ (which is a manifold).
+In ([ALR 07, theorem 1.23](#ALR07)) it is asserted that every effective orbifold $X$ (paracompact, Hausdorff) is isomorphic to a [[global quotient orbifold]], specifically to a global quotient of $O(n)$ (where $n$ is the dimension of $X$) acting on the [[frame bundle]] of $X$ (which is a manifold).
 
 ### (Co)homology
 
