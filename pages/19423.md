@@ -55,6 +55,8 @@ What convinced the community that [[11-dimensional supergravity]] really is the 
 
 * [[duality between type I and heterotic string theory]]
 
+[[KK-compactifications of M-theory -- table]]
+
 ## References
 
 
@@ -78,3 +80,4 @@ Review includes
 [[!redirects duality between type IIA superstring theory and M-theory]]
 
 
+[[!redirects M-theory on a circle]]
