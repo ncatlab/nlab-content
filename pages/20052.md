@@ -135,7 +135,7 @@ The most famous are
 
 * The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
 
-* The **extended probabilistic powerdomain** on the [[Top|category of topological spaces]], which was introduced by [Heckmann](#monad). Its algebras have recently been studied by [Goubault-Larrecq and Jia](#algebras).
+* The **extended probabilistic powerdomain** on the [[Top|category of topological spaces]], which was introduced by [Heckmann 96](#Heckmann96). Its algebras have recently been studied by [Goubault-Larrecq and Jia](#algebras).
 
 * The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
 
@@ -148,7 +148,14 @@ As we have seen [above](#borel_measures), a [[Borel measure]] always restricts t
 
 The question is known, for example, to be true on all regular Hausdorff ($T_3$) spaces: 
 
-**Theorem** (see Manilla's Theorems 3.23 and 3.27 [here](#mthesis) and Theorem 4.4 [here](#mpaper)). On every $T_3$ topological space, on every [[regular]] topological space, and on every locally compact [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
++-- {: .num_theorem #ExtensionOfValuationToBorelMeasure}
+###### Theorem
+
+On every [[separation axiom|T3]] [[topological space]], on every [[regular topological space]], and on every [[locally compact topological space|locally compact]] [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
+
+=--
+
+([Manilla 00, Theorems 3.23 and 3.27](#Manilla00), [Manilla 02, Theorem 4.4](#Manilla02))
 
 This includes in particular every [[metric space]], and every compact Hausdorff space. So, in many spaces of interest for analysis and probability theory, working with measures and working with valuations is only a difference in the language. 
 
@@ -159,45 +166,47 @@ The more general question of whether one can extend a finite continuous valuatio
 
 ## References
 
-* {#monad} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996. [Link here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf).
+* {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+* Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
 
-* {#algebras} Jean Goubault-Larrecq and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066119300349).
+* {#algebras} Jean Goubault-Larrecq and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
+([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
-* {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019. [Link here](https://arxiv.org/abs/1910.03752).
+* {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXi:1910.03752](https://arxiv.org/abs/1910.03752))
 
 
 For valuations on locales, see
 
-* {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
+* {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011 ([pdf](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf))
 
 For the theory of [integration over valuations](#integration), see 
 
-* {#kirch} Olaf Kirch, _Bereiche und Bewertungen_ (in German), Master Thesis, Technische Hochschule Darmstadt, 1993. [Link here](http://fb04286.mathematik.tu-darmstadt.de/fbereiche/logik/research/Domains/papers/kirch/diplom.ps.gz).
+* {#kirch} Olaf Kirch, _Bereiche und Bewertungen_ (in German), Master Thesis, Technische Hochschule Darmstadt, 1993 ([ps.gz](http://fb04286.mathematik.tu-darmstadt.de/fbereiche/logik/research/Domains/papers/kirch/diplom.ps.gz))
 
-* {#jung} Achim Jung, _Stably compact spaces and the probabilistic powerspace construction_, ENTCS 87, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066104051345).
+* {#jung} Achim Jung, _Stably compact spaces and the probabilistic powerspace construction_, ENTCS 87, 2004 ([doi:10.1016/j.entcs.2004.10.001](https://doi.org/10.1016/j.entcs.2004.10.001)).
 
 
 
-* [[Thierry Coquand]] and [[Bas Spitters]], _Integrals and Valuations_, 2009. [Link here](http://logicandanalysis.org/index.php/jla/article/view/14/12).
+* [[Thierry Coquand]] and [[Bas Spitters]], _Integrals and Valuations_, 2009,  	Logic and Analysis (2009) 1(3) p.1-22 ([arXiv:0808.1522](https://arxiv.org/abs/0808.1522))
 
 Integration on locales can be found in
 
-* {#vintegral} [[Steve Vickers]], _A localic theory of lower and upper integrals_, 2008. [Link here](https://onlinelibrary.wiley.com/doi/abs/10.1002/malq.200710028).
+* {#vintegral} [[Steve Vickers]], _A localic theory of lower and upper integrals_, 2008 ([doi:10.1002/malq.200710028](https://doi.org/10.1002/malq.200710028))
 
 
 For the problem of [extending valuations to measures](#extending_valuations_to_measures), see
 
-*  {#mpaper} Mauricio Alvarez-Manilla,
-_Extension of valuations on locally compact sober spaces_.
+* Mauricio Alvarez Manilla, Abbas Edalat, and Nasser Saheb-Djahromi, _An extension result for continuous valuations_, 1998 (<a href="https://doi.org/10.1016/S1571-0661(05)80210-5">doi:10.1016/S1571-0661(05)80210-5</a>)
 
-* Mauricio Alvarez Manilla, Abbas Edalat, and Nasser Saheb-Djahromi, _An extension result for continuous valuations_, 1998. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066105802105#!).
+* {#Manilla00} Mauricio Alvarez Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000 ([ps.gz](http://www.cs.tufts.edu/~nr/cs257/archive/mauricio-alvarez-manilla/public.ps.gz))
 
-* {#mthesis} Mauricio Alvarez Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000. [Link here](http://www.cs.tufts.edu/~nr/cs257/archive/mauricio-alvarez-manilla/public.ps.gz).
+*  {#Manilla02} Mauricio Alvarez-Manilla, _Extension of valuations on locally compact sober spaces_, Topology and its Applications Volume 124, Issue 3, 20 October 2002, Pages 397-433 (<a href="https://doi.org/10.1016/S0166-8641(01)00249-8">doi:10.1016/S0166-8641(01)00249-8</a>)
+
+
 
 * Klaus Keimel and Jimmie D. Lawson, _Measure extension theorems for_
-$T_0$ _spaces_, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0166864104002755).
+$T_0$ _spaces_, 2004 ([doi:10.1016/j.topol.2004.02.019](https://doi.org/10.1016/j.topol.2004.02.019))
 
 [[!redirects continuous valuation]]
 [[!redirects continuous valuations]]
