@@ -74,7 +74,7 @@ A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[A
 
 The original proof that the only maps of Hopf invariant one are the [[Hopf constructions]] on the four [[normed division algebras]] is due to
 
-* {#Adams60} [[Frank Adams]], _On the non-existence of elements of Hopf invariant one_, Ann. Math. (The Annals of Mathematics, Vol. 72, No. 1) 72 (1): 20&#8211;104, (1960) ([JSTOR](http://www.jstor.org/stable/1970147))
+* {#Adams60} [[Frank Adams]], _On the non-existence of elements of Hopf invariant one_, Ann. Math., Vol. 72, No. 1,  72 (1): 20&#8211;104, (1960) ([jstor:1970147](http://www.jstor.org/stable/1970147))
 
 and made use of the [[classical Adams spectral sequence]]. 
 
