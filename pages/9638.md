@@ -39,11 +39,11 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 * [[Shor's algorithm]]
 
+* [[quantum error correction]]
+
 * [[quantum information theory]]
 
 * [[quantum circuit]]
-
-* [[quantum error correcting code]]
 
 * [[quantum logic]], [[linear logic]]
 
