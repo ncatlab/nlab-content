@@ -248,6 +248,10 @@ reviewed in
 
 * {#GKMMN10} Umut Gürsoy, [[Elias Kiritsis]], Liuba Mazzanti, Georgios Michalogiorgakis, Francesco Nitti, _Improved Holographic QCD_, Lect.Notes Phys.828:79-146,2011 ([arXiv:1006.5461](https://arxiv.org/abs/1006.5461))
 
+More developments on improved holographic QCD:
+
+* Takaaki Ishii, Matti Järvinen, Govert Nijs, _Cool baryon and quark matter in holographic QCD_ ([arXiv:1903.06169](https://arxiv.org/abs/1903.06169))
+
 The extreme form of bottom-up holographic model building is explored in
 
 * {#HashimotoEtAl18} [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and Holographic QCD_, Phys. Rev. D 98, 106014 (2018) ([arXiv:1809.10536](https://arxiv.org/abs/1809.10536))
