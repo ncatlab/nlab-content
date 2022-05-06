@@ -16,7 +16,7 @@
 
 ## Idea {#idea}
 
-The motivating idea of the [[derivative]] in [[differential calculus]] is that it is approximated by a [[ratio]] of differences.  We may also say that an instantaneous rate of change is approximated by an average rate of change.  The Mean Value Theorem reverses this, and says that any average rate of change is equal to some instantaneous rate of change, if certain differentiability conditions are met.
+The motivating idea of the [[derivative]] in [[differential calculus]] is that it is approximated by a [[ratio]] of differences.  We may also say that an instantaneous rate of change is approximated by an average rate of change.  The Mean Value Theorem (MVT) reverses this, and says that any average rate of change is equal to some instantaneous rate of change, if certain differentiability conditions are met.
 
 The name comes from the fact that, due to the [[fundamental theorem of calculus]], an average rate of change over an [[interval]] may be viewed as an average (or [[mean]]) of the instantaneous rates of change along the interval.  Thus, the theorem states that the mean value of the derivative on an interval is attained somewhere in that interval.
 
@@ -56,15 +56,34 @@ If we write $u$ for $f(x)$ and $v$ for $g(x)$, then this last version states tha
 $$ \left.{\frac{\mathrm{d}u}{\mathrm{d}v}}\right|_{x=c} = \left.{\frac{\Delta{u}}{\Delta{v}}}\right|_{x=a}^b .$$
 Compare this to the definition
 $$ \left.{\frac{\mathrm{d}u}{\mathrm{d}v}}\right|_{x=a} \coloneqq \lim_{b\to{a}} \left.{\frac{\Delta{u}}{\Delta{v}}}\right|_{x=a}^b $$
-(although this is really only a definition when $v$ is $x$, which reduces Cauchy\'s theorem to Lagrange\'s).
+(although this is really only a *definition* when $v$ is $x$, which reduces Cauchy\'s theorem to Lagrange\'s).
 
 
-
-## References {#refs}
+## Naming
 
 Rolle\'s theorem is usually called just 'Rolle\'s' theorem, being the only result attributed today to [[Michel Rolle]]; but Lagrange\'s and Cauchy\'s theorems must be called 'mean value' theorems, as [[Joseph-Louis Lagrange]] and [[Augustin-Louis Cauchy]] did far more.  By default, the term 'Mean Value Theorem' usually refers to Lagrange\'s theorem.  (But neither Rolle nor Lagrange proved their theorem in the general case; the first proofs of all of them are due to Cauchy in 1823, a decade after Lagrange\'s death and more than a century after Rolle\'s death.)
 
 
+## Mean-value inequalities
+
+One consequence of these mean-value theorems if that if the relevant derivatives (or ratios of derivatives) are bounded, then the corresponding differences (or ratios of differences) will also be bounded.  We state this for Lagrange\'s theorem, although there are versions that correspond more to Rolle\'s or Cauchy\'s.
+
++-- {: .num_theorem #inequality}
+###### The Mean-Value Inequality
+
+Suppose that $a \lt b$ are [[real numbers]] and $f$ is a [[continuous map|continuous]] [[real number|real]]-valued [[function]] on $[a,b]$.  If $f$ is [[differentiable function|differentiable]] on the [[interior]] $]{a,b}[$, and we have $m \leq f' \leq M$ on $]{a,b}[$ for some constants $m$ and $M$, then
+$$ m \leq \frac {f(b) - f(a)} {b - a} \leq M .$$
+A slightly weaker statement is
+$$ {|{f(b) - f(a)}|} \leq {|{b - a}|} \, \sup_{]{a,b}[} {|{f'}|} ,$$
+which is true even if the derivative is unbounded (in which case the right-hand side is [[infinity|infinite]]).
+=--
+
+In [[constructive mathematics]], the mean-value theorems generally cannot be proved, since it may be impossible to find the value $c$ (although some variations with stronger hypotheses or weaker conclusions can often be proved, similarly to the [[Intermediate-Value Theorem]]).  However, the mean-value inequality is no problem for constructive mathematics, and indeed it requires only pointwise continuity and differentiability.
+
+The second form of the mean-value inequality shows the relationship of differentiability to [[Lipschitz continuity]]: a continuous function on an interval with bounded derivative on the interior of the interval is Lipschitz continuous on that interval (and the [[supremum]] of the [[absolute value]] of the [[derivative]] is the [[Lipschitz constant]]).
+
+
+## References {#refs}
 
 * Wikipedia, _[Mean value theorem](http://en.wikipedia.org/wiki/Mean_value_theorem)_
 
@@ -72,12 +91,29 @@ Rolle\'s theorem is usually called just 'Rolle\'s' theorem, being the only resul
 
 
 [[!redirects mean value theorem]]
+[[!redirects mean value theorems]]
 [[!redirects Mean Value Theorem]]
+[[!redirects Mean Value Theorems]]
 [[!redirects mean-value theorem]]
-[[!redirects Mean-Value Theorem]]
+[[!redirects mean-value theorems]]
 [[!redirects Mean-value Theorem]]
+[[!redirects Mean-value Theorems]]
+[[!redirects Mean-Value Theorem]]
+[[!redirects Mean-Value Theorems]]
+[[!redirects MVT]]
 
 [[!redirects Rolle's theorem]]
 [[!redirects Rolle theorem]]
 [[!redirects Rolle's Theorem]]
 [[!redirects Rolle Theorem]]
+
+[[!redirects mean value inequality]]
+[[!redirects mean value inequalities]]
+[[!redirects Mean Value Inequality]]
+[[!redirects Mean Value Inequalities]]
+[[!redirects mean-value inequality]]
+[[!redirects mean-value inequalities]]
+[[!redirects Mean-value Inequality]]
+[[!redirects Mean-value Inequalities]]
+[[!redirects Mean-Value Inequality]]
+[[!redirects Mean-Value Inequalities]]
