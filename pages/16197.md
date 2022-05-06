@@ -51,7 +51,7 @@ See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13), [Efstathiou 2019, 50:49](#Efsta
 ## Embedding into supergravity
  {#EmbeddingIntoSupergravity}
 
-Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Ceotti 87](#Ceotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding has been argued to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by 
+Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Cecotti 87](#Cecotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding has been argued to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by 
 
 * {#ShrinkingOfInitialHomogeneousPatch} shrinking the necessary initial homogeneous patch from $\sim 10^3$ [[Planck lengths]] (which would be in need of further explanation) down to just $\sim 10^1$ [[Planck lengths]] ([Dalianis-Farakos 15 equations (68), (72) in v1, equations (4.11), (4.17) in v3](#DalianisFarakos15), reviewed in [Dalianis 16](#Dalianis16));
 
@@ -143,7 +143,7 @@ See also:
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
 
-* {#Ceotti87} S. Cecotti, _Higher derivative supergravity Is equivalent to standard supergravity coupled to matter_, Phys. Lett. B 190, 86 (1987).
+* {#Cecotti87} S. Cecotti, _Higher derivative supergravity Is equivalent to standard supergravity coupled to matter_, Phys. Lett. B 190, 86 (1987).
 
 * S. Cecotti, [[Sergio Ferrara]], M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
 
