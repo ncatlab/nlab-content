@@ -24,6 +24,10 @@ Notice that, a priori, this is not related to the notion of [[pullback]] in the 
 
 ## Related concepts
 
+* [[long exact sequence in cohomology]]
+
+  [[connecting homomorphism]]
+
 [[!include notions of pullback -- contents]]
 
 
