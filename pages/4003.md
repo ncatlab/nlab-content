@@ -133,7 +133,7 @@ Furthermore, this bicategory is actually the horizontal bicategory of a [[double
 
 * Polynomial functors can be defined using [[exponentiable morphisms]] in a category that may not be locally cartesian closed.  See also [[distributivity pullback]].
 
-* Kripke frames $(R,S)$ (with a transition relation $R$ of arity $2$) as studied in [[modal logic]] are [[coalgebra]]s for the power-set functor $P$. Kripke frames for a more general *modal similarity type* $t$ are a coalgebras of a functor of the form $X\mapsto \product_{d\in t} P(S^{arity(d)})$. Kripke models are coalgebras of functor $K:X\mapsto P(Prop)\times P(X)$ where $Prop$ is the set of propositional variables of the logic in consideration. In particular all the functors appearing here are polynomial functors. So, at least in some aspects, the study of modal logics reduces to the study of (certain) polynomial functors
+* Kripke frames $(R,S)$ (with a transition relation $R$ of arity $2$) as studied in [[modal logic]] are [[coalgebra]]s for the power-set functor $P$. Kripke frames for a more general *modal similarity type* $t$ are a coalgebras of a functor of the form $X\mapsto \product_{d\in t} P(S^{arity(d)})$. Kripke models are coalgebras of functor $K:X\mapsto P(Prop)\times P(X)$ where $Prop$ is the set of propositional variables of the logic in consideration. In particular all the functors appearing here are polynomial functors. So, at least in some aspects, the study of modal logics reduces to the study of (certain) polynomial functors.
 
 ## Examples
 
@@ -168,7 +168,6 @@ Generalization to [[homotopy theory]] and [[higher category theory]] is discusse
 * [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
 
 * {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](http://arxiv.org/abs/1412.7599))
-
 
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
  {#vdBergMoerdijk13}
