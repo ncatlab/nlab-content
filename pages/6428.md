@@ -194,6 +194,13 @@ In
 
 sponaneously broken [[global gauge group]] symmetry is discussed in vol I, section 19, and spontaneously broken [[local gauge group]] symmetry in vol I, section 21.4.
 
+Survey:
+
+* Jose Bernabeu, _Symmetries and their breaking in the fundamental laws of physics_ ([arXiv:2006.13996](https://arxiv.org/abs/2006.13996))
+
+
+
+
 Textbook discussion of broken symmetry in [[gravity]] and [[supergravity]] in the context of the [[Kaluza-Klein mechanism]] is in
 
 * {#Strominger} [[Andrew Strominger]] (notes by [[John Morgan]]), _Kaluza-Klein compactifications, Supersymmetry and Calabi-Yau spaces_ , volume II, starting on page 1091 in
