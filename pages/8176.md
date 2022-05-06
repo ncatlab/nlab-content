@@ -154,7 +154,7 @@ Discussion in [[homotopy type theory]] includes
 
 and implementation in [[Lean]] is in 
 
-* [[Floris van Doorn]], _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
+* [[Floris van Doorn]], [[Egbert Rijke]], [[Ulrik Buchholtz]], [[Favonia]], [[Steve Awodey]], [[Jeremy Avigad]], [[Mike Shulman]], [[Jonas Frey]],  _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
 
 ### In equivariant cohomology
 
