@@ -342,7 +342,7 @@ around some $x \in X$ of some [[radius]] $r \in \mathbb{R}$.
 A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
 
 +-- {: .num_defn #NormedVectorSpace}
-###### Dedfinition
+###### Definition
 **(normed vector space)**
 
 A _[[normed vector space]]_ is
