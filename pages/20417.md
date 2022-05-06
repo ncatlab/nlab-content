@@ -9,4 +9,4 @@ See also
 
 * Wikipedia, _[Mind](https://en.wikipedia.org/wiki/Mind)_
 
-[[!redirects conciousness]]
+[[!redirects consciousness]]
