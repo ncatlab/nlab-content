@@ -112,6 +112,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[Walecka model]]
 
+* [[hadron supersymmetry]]
+
 * [[holographic QCD]]
 
 ## References
