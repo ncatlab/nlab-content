@@ -82,7 +82,7 @@ Again, this means that under the embedding of the gauge group $G_{SM}$ all the w
 
 Discussion of $SO(10)$ (i.e. $Spin(10)$) GUT-models with realistic [[phenomenology]] is in [Lavoura-Wolfenstein 10](#LavouraWolfenstein10) [Altarelli-Meloni 13](#AltarelliMeloni13) [Dueck-Rodejohann 13](#DueckRodejohann13) [Ohlsson-Pernow 19](#OhlssonPernow19) [CPS 19](#CPS19). 
 
-Disucssion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavour anomalies]]: [AMM 19](#AMM19)
+Discussion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavour anomalies]]: [AMM 19](#AMM19)
 
 \linebreak
 
