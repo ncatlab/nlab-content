@@ -40,7 +40,7 @@ $$
     \atop
     { x_i }
   }{\sum}
-  deg\big(  v/{\vert v\vert}|_{x_i} \big)
+  deg\big(  v/{\vert v\vert}_{\vert {x_i} } \big)
   \,.
 $$
 
