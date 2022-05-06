@@ -29,6 +29,3 @@ The [[Grothendieck topology]] generated from a regular coverage is called the _r
 * For $\mathcal{C}_{\mathbb{T}}$ the [[syntactic category]] of a [[regular theory]], the regular coverage makes it the [[syntactic site]], which is a site of defininition for the [[classifying topos]] of $\mathbb{T}$.
 
 [[!redirects regular coverages]]
-
-[[!redirects regular topology]]
-[[!redirects regular topologies]]
