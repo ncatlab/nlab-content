@@ -65,7 +65,9 @@ $$
   (\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)
 $$ 
 
-for the [[full subcategory]] on the nondegenerate simplices, with [[monomorphisms]] between them.
+for the (non-full) subcategory on the nondegenerate simplices.
+Notice that a morphism of $\Delta\downarrow X$ with source
+a nondegenerate simplex of $X$ is necessary a[[monomorphisms]].
 
 This is called the **category of non-degenerate simplices**.
 
