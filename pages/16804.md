@@ -163,7 +163,7 @@ However, such chord diagrams nonetheless play an important role in the theory of
 Textbook accounts
 
 
-* S. Chmutov, Sergei Duzhin, J. Mostovoy, Chapter 4 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 4 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 * [[David Jackson]], [[Iain Moffat]], Section 11 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
@@ -256,3 +256,7 @@ following
 [[!redirects Gauss codes]]
 [[!redirects double-occurrence word]]
 [[!redirects double-occurrence words]]
+
+[[!redirects algebra of chord diagrams]]
+[[!redirects algebras of chord diagrams]]
+
