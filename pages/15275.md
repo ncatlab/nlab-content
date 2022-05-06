@@ -43,7 +43,7 @@ See ([Chen-Yang 15](#ChenYang15))
 
 Original articles include
 
-* Tudor Dimofte, Sergei Gukov, _Quantum Field Theory and the Volume Conjecture_, ([arxiv:1003.4808](http://arxiv.org/abs/1003.4808))
+* [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, Contemporary Mathematics 541 (2011), p.41-67 ([arxiv:1003.4808](http://arxiv.org/abs/1003.4808))
 
 * R. M. Kashaev, _The Hyperbolic Volume Of Knots From The Quantum Dilogarithm_ Lett. Math. Phys. 39 (1997) 269-275.
 
@@ -53,7 +53,7 @@ Original articles include
 
 * R. M. Kashaev, O. Tirkkonen, _Proof of the volume conjecture for torus knots_ ([arXiv:math/9912210](http://arxiv.org/abs/math/9912210))
 
-* [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, And The A-Polynomial_, Commun. Math. Phys. 255 (2005) 577-627.
+* [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, And The A-Polynomial_, Commun. Math. Phys. 255 (2005) 577-627 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
 
 * H. Murakami, _Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot_, Internat. J. Math. 15 (2004) 547-555.
 
