@@ -50,7 +50,9 @@ A survey is in
 * Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Widijk]], _Constructive analysis, types and exact real numbers_, Science
 Mathematical Structures in Computer Science / Volume 17 / Issue 01 / February 2007, pp 3-36 ([publisher](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=851596))
 
+An undergraduate real analysis textbook taking a constructive approach using interval analysis is
 
+* {#Bridger2019} Mark Bridger, _Real Analysis: A Constructive Approach Through Interval Arithmetic_, Pure and Applied Undergraduate Texts **38**, American Mathematical Society, 2019.
 
 Implementations of constructive [[real number]] analysis in [[type theory]] implemented in [[Coq]] via the [[completion monad]] are discussed in 
 
