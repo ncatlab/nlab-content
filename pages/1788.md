@@ -1,5 +1,10 @@
 
 \begin{tikzcd}
+& TC(R) \arrow[d]\\
+K(R) \arrow[ru] \arrow[r] & THH(R)\\
+\end{tikzcd}
+
+\begin{tikzcd}
 A
 \arrow[r, "\phi"]
 \arrow[d, red]
