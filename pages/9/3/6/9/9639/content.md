@@ -129,6 +129,11 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 category: physics
 
-[[!redirects quantum Hall effect]]
-[[!redirects quantum hall effect]]
+[[!redirects quantum Hall effects]]
+
 [[!redirects fractional quantum Hall effect]]
+[[!redirects fractional quantum Hall effects]]
+
+[[!redirects quantum Hall material]]
+[[!redirects quantum Hall materials]]
+
