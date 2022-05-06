@@ -21,7 +21,11 @@ This page collects hyperlinks related to the textbook
 
   _Supersymmetry for mathematicians: An introduction_, 
 
-  Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
+  Courant Lecture Notes in Mathematics, 
+
+  American Mathematical Society, Providence, R.I 2004
+
+  [doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)
 
 on [[supergeometry]], [[spin geometry]], [[super groups]], the [[super Poincaré group]] and [[supersymmetry]] in [[quantum field theory]].
 
