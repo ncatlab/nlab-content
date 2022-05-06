@@ -73,6 +73,8 @@ For [[baryons]] one has:
 
 * Daniel Kikoła, _Five things you should remember about heavy flavor measurements_,  Journal of Physics: Conference Series, Volume 612, 2014 ([doi:10.1088/1742-6596/612/1/012023](https://iopscience.iop.org/article/10.1088/1742-6596/612/1/012023))
 
+* {#Brambilla14} Brambilla et al., Sections 3-4 in: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
 * D.R. Entem, P.G. Ortega, J. Segovia, F. Fernández, _Heavy mesons in the Quark Model_, EPJ Web of Conferences 199, 01012 (2019) ([arXiv:1809.06985](https://arxiv.org/abs/1809.06985), [doi:10.1051/epjconf/201919901012](https://doi.org/10.1051/epjconf/201919901012))
 
 
