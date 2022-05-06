@@ -3,7 +3,6 @@
 {:toc}
 
 
-
 ## Idea
 
 Hilbert schemes are [[moduli space|moduli spaces]] of subvarieties, hence [[configuration space (mathematics)|configuration spaces]] in [[algebraic geometry]].
@@ -15,6 +14,12 @@ Specifically for [[projective variety|quasi-projective variety]] with fixed [[Hi
 The existence and construction of Hilbert schemes is due to Grothendieck (FGA). 
 
 The Hilbert scheme of $\mathbb{C}^2$ is widely studied in combinatorics and geometric representation theory for its connections to [[Macdonald polynomials]] and [[Cherednik algebra]]s.
+
+## Properties
+
+### On K3-surfaces
+
+The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ of [[K3-surfaces]] $X$ (and of [[4-tori]]) for $n \in \mathbb{N}$ and a small finite number of slight variants of these.
 
 
 ## References
@@ -54,9 +59,14 @@ Discussion in relation to the [[Fulton-MacPherson compactifications]] of [[confi
 
 Discussion in their role as [[moduli spaces]] of [[instantons]]:
 
-* Sean Pohorence, _Hilbert scheme of points and the ADHM construction_ ([pdf](http://www.ihes.fr/~celliott/Hilbert_Schemes_of_Points.pdf))
+* Sean Pohorence, _Hilbert scheme of points and the ADHM construction_ ([pdf](http://www.ihes.fr/~celliott/Hilbert_Schemes_of_Points.pdf), [[PohorenceHilbertScheme.pdf:file]])
 
 * [[Ian Grojnowski]], _Instantons and affine algebras I: The Hilbert scheme and vertex operators_ ([arXiv:alg-geom/9506020](https://arxiv.org/abs/alg-geom/9506020))
+
+
+
+
+
  
 
 Specifically in relation to [[Donaldson-Thomas theory]]:
@@ -78,8 +88,22 @@ See also
 
 ### On K3 surfaces
 
-Discussion of the [[Hilbert scheme of points]] on [[K3-surfaces]] with an eye towards [[Rozansky-Witten theory]]:
+Discussion of the [[Hilbert scheme of points]] on [[K3-surfaces]].
 
+Discussion of configuration spaces of _possibly coincident_ points on [[K3-surfaces]] $X$, hence of [[symmetric products]] $X^n/Sym(n)$ as [[moduli spaces]] of [[D0-D4-brane bound states]]:
+
+* [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
+
+* [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
+
+Hilbert schemes on K3 as [[moduli space]] of [[stable vector bundles]]:
+
+* Laura Costa Farràs, _K3 surfaces: moduli spaces and Hilbert schemes_, Collectanea Mathematica, 1998, vol. 49, núm. 2-3, p. 273-282 ([hdl:2445/16925](	http://hdl.handle.net/2445/16925)
+
+with an eye towards [[Rozansky-Witten theory]] ([[ground field]]-valued [[Rozansky-Witten weight systems]]):
+
+
+* {#RobertsWillerton06} [[Justin Roberts]], [[Simon Willerton]], p. 17 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 * [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
 
@@ -91,7 +115,7 @@ Relation to [[Coulomb branches]]:
 
 
 
-* [[Ben Webster]], _Coherent sheaves on Hilbert schemes through the Coulomb lens_, 2018 ([[WebsterHilbertScheme18.pdf:file]])
+* [[Ben Webster]], _Coherent sheaves on Hilbert schemes through the Coulomb lens_, 2018 ([[WebsterHilbertScheme18.pdf:file]])i
 
 
 
