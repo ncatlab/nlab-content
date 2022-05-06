@@ -16,7 +16,9 @@
 
 ## Idea
 
-For a [[crystal|crystalline]] material with a set of isolated (gapped) [[electronic band structure|electronic bands]], the [[partial derivatives]] along [[momentum]]-[[vectors]] of the corresponding [[Bloch states]], projected back onto these states, turn out to canonically define a [[connection on a vector bundle|connection]] [[differential 1-form|1-form]] on the [[vector bundles]] (over the [[Brillouin torus]]) which is spanned by these states. This is called a *Berry connection*, due to ([Berry 84](#Berry84), [Simon 83](#Simon83)). The [[curvature 2-form]] of a Berry connection is accordingly called the *Berry curvature*.
+Generally, a *Berry phase* is a non-trivial phase picked up by a [[quantum state]] of definite [[energy]] under [[quantum adiabatic theorem|adiabatic]] changes of the [[quantum system]]'s [[Hamiltonian]] around a [[loop]] in its parameter space.
+
+Specifically, in [[condensed matter theory]] and  for a [[crystal|crystalline]] material with a set of isolated (gapped) [[electronic band structure|electronic bands]], the [[partial derivatives]] along [[momentum]]-[[vectors]] of the corresponding [[Bloch states]], projected back onto these states, turn out to canonically define a [[connection on a vector bundle|connection]] [[differential 1-form|1-form]] on the [[vector bundles]] (over the [[Brillouin torus]]) which is spanned by these states. This is called a *Berry connection*, due to ([Berry 84](#Berry84), [Simon 83](#Simon83)). The [[parallel transport]] along this connection describes the change of [[Boch states]] under the [[quantum adiabatic theorem|adiabatic]] change of their [[momentum]]/[[wave vector]].  The [[curvature 2-form]] of a Berry connection is accordingly called the *Berry curvature*.
 
 The [[holonomy]] of such a Berry connection is called a *[[Berry phase]]*, in general, and a *[[Zak phase]]* ([Zak 89](#Zak89)) when evaluated along one of the non-trivial 1-[[cycles]] of the [[Brillouin torus]]. 
 
@@ -29,6 +31,8 @@ For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal
 ## Related concepts
 
 * [[Berry's phase]] (needs to be merged)
+
+* [[quantum adiabatic theorem]]
 
 ## References
 
@@ -72,7 +76,7 @@ Experimental observation of [[Zak phases]]:
 
 * Marcos Atala, Monika Aidelsburger, Julio T. Barreiro, Dmitry Abanin, Takuya Kitagawa, Eugene Demler, Immanuel Bloch: *Direct measurement of the Zak phase in topological Bloch bands*, Nature Physics **9** (2013) 795–800 ([doi:10.1038/nphys2790](https://doi.org/10.1038/nphys2790))
 
-Proposal for experimental realization of [[Berry phases]] around [[codimension]]=2 nodal loci of (time+space inversion symmetric) [[semi-metals]]:
+Proposal for experimental realization of [[Berry phases]] around [[codimension]]=2 nodal loci of (quantum simulations of time+space inversion symmetric) [[semi-metals]]:
 
 * Dan-Wei Zhang, Y. X. Zhao, Rui-Bin Liu, Zheng-Yuan Xue, Shi-Liang Zhu, Z. D. Wang, *Quantum simulation of exotic PT-invariant topological nodal loop bands with ultracold atoms in an optical lattice*, Phys. Rev. A **93** (2016) 043617  ([arXiv:1601.00371](https://arxiv.org/abs/1601.00371), [doi:10.1103/PhysRevA.93.043617](https://doi.org/10.1103/PhysRevA.93.043617))
 
