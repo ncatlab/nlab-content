@@ -77,7 +77,8 @@ Here $2Vect$ denotes some version of the category of 2-vector spaces with the pr
 
 More details on this perspective on graded vector spaces are in [[schreiber:Nonabelian cocycles and their quantum symmetries]].
 
-## Special case of $\mathbb{Z}$-graded vector spaces.
+## Special case of $\mathbb{Z}$-graded vector spaces
+ {#SpecialCaseOfZGradedVectorSpaces}
 
 The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces. We will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (Of course, the theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]) and so on.
 
