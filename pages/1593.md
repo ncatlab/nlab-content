@@ -345,7 +345,7 @@ Lifts of orientifolds to [[M-theory]] ([[MO5]], [[MO9]]) and [[F-theory]] are di
 
 * {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
-* {#ArgyresMaimonPelland02} Philip C. Argyres, [[Ron Maimon]], Sophie Pelland, _The M theory lift of two O6 planes and four D6 branes_, JHEP 0205 (2002) 008 ([arXiv:hep-th/0204127](https://arxiv.org/abs/hep-th/0204127))
+* {#ArgyresMaimonPelland02} [[Philip Argyres]], [[Ron Maimon]], Sophie Pelland, _The M theory lift of two O6 planes and four D6 branes_, JHEP 0205 (2002) 008 ([arXiv:hep-th/0204127](https://arxiv.org/abs/hep-th/0204127))
 
   following
 
