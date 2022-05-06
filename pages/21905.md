@@ -56,7 +56,7 @@ for $k \in \mathbb{N}$ by taking their restriction to degree $2r$ to act by mult
     &\overset{\;\;\;\psi^k_H\;\;\;}{\longrightarrow}&
     H^{2r}(X;\mathbb{Q})
     \\
-    \alpha_{2k} &\mapsto& k^{r} \cdot \alpha
+    \alpha_{2k} &\mapsto& k^{r} \cdot \alpha_{2k}
     \,.
   }
 \]
@@ -110,7 +110,7 @@ E.g. [Karoubi 78, Chapter V, Theorem 3.27](#Karoubi78), review in [Maakestad 06,
 
 Textbook accounts:
 
-* {#Karoubi78} [[Max Karoubi]], Theorem V3.27 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
+* {#Karoubi78} [[Max Karoubi]], Theorem V3.27 in: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007/978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 Review and exposition:
 
