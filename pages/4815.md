@@ -206,6 +206,11 @@ Discussion specifically for the [[standard model of cosmology]] is in
 * {#Hack13} [[Thomas-Paul Hack]], _The Lambda CDM-model in quantum field theory on curved spacetime and Dark Radiation_ ([arXiv:1306.3074](https://arxiv.org/abs/1306.3074))
 
 
+More on subtleties of [[renormalization]] of the cosmological constant:
+
+* [[John Donoghue]], _The cosmological constant and the use of cutoffs_ ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
+
+
 ### From higher curvature corrections
  {#ReferencesFromHigherCurvatureCorrections}
 
