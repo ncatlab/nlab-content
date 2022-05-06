@@ -77,6 +77,8 @@ This classification may be paired with that for [[supergravity]] theories, to yi
 
 ## Related concepts
 
+* [[super QCD]]
+
 * [[supergravity]]
 
 * [[MSSM]]
