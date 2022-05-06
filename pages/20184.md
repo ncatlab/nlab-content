@@ -207,6 +207,9 @@ $$
 
 (e.g. [Čadek-Vanžura 98, Lemma 2.1](#CadekVanzura98))
 
+## Related concepts
+
+* [[Spin(2)]], [[Spin(3)]], [[Spin(5)]], [[Spin(6)]]
 
 ## References
 
