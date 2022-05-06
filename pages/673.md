@@ -27,6 +27,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints/Notes
 
+* _Topological sectors for heterotic M5-brane charges under Hypothesis H_ (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832).
 
 * _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title) Submitted.
 
