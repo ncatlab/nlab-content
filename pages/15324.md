@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On the [[Schwinger effect]] seen in [[open string|open]] [[string theory]]:
+
+* [[Constantin Bachas]], [[Massimo Porrati]], _Pair Creation of Open Strings in an Electric Field_, Phys. Lett. B296 (1992) 77-84 ([arXiv:hep-th/9209032](https://arxiv.org/abs/hep-th/9209032))
+
+
+
 On [[type I' string theory]] and [[geometric engineering of QFT]] on [[D3-D5 brane intersections]] subject to the [[s-rule]]:
 
 * [[Constantin Bachas]], [[Michael Green]], Adam Schwimmer, Section 2.3 of: _$(8,0)$ Quantum mechanics and symmetry enhancement in type I' superstrings_, JHEP 9801 :006, 1998 ([arXiv:hep-th/9712086](https://arxiv.org/abs/hep-th/9712086))
