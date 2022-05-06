@@ -83,9 +83,13 @@ and in view of [[super-embedding formalism|super-embeddings]] of [[M5-branes]] i
 
 Relation of the MO5 to the [[O4-plane]] under [[duality between M-theory and type IIA string theory]]:
 
-* {#Gimon98} Eric G. Gimon, _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226), [spire:472499](http://inspirehep.net/record/472499))
+* {#Hori98} [[Kentaro Hori]], Section 3 of: _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl. Phys. B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
+
+* {#Gimon98} [[Eric Gimon]], _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226), [spire:472499](http://inspirehep.net/record/472499))
 
 * {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], Section 3.1 in: _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+
+* Yoonseok Hwang, Joonho Kim, Seok Kim, _M5-branes, orientifolds, and S-duality_,  J. High Energ. Phys. (2016) 2016: 148 ([arXiv:1607.08557](https://arxiv.org/abs/1607.08557))
 
 ### Geometric engineering of orthogonal $D=6$, $\mathcal{N}=(2,0)$ SCFTs
 
