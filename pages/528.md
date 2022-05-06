@@ -184,7 +184,7 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[Steenrod algebra]]
 
-* the [[ordinary homology]] of an [[H-space]] (for instance a [[based loop space]]) is a [[Hopf algebra]] via its [[Pontrjagin ring]]-[[mathematical structure|structure]]
+* the [[ordinary homology]] of a [[finite type]] [[H-space]] (for instance a [[based loop space]]) is a [[Hopf algebra]] via its [[Pontrjagin ring]]-[[mathematical structure|structure]] -- set at _[[homology of loop spaces]]_ for more
 
 ## Related concepts
 
