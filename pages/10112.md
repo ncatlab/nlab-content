@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -264,10 +265,6 @@ Review
 [[!redirects meson field]]
 [[!redirects meson fields]]
 
-
-
-[[!redirects scalar meson]]
-[[!redirects scalar mesons]]
 
 [[!redirects meson field]]
 [[!redirects meson fields]]
