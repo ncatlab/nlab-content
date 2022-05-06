@@ -25,9 +25,17 @@ Currently the major [[experiment]] studying B-meson [[physics]] is the [[LHCb]].
 
 * [[pion]], [[rho meson]]
 
-* [[LHCb]]
+* B-meson [[experiments]]
+
+  * [[LHCb]]
+
+  * [[Belle collaboration]]
+
+* observations
 
   * [[flavour anomaly]]
+
+  * [[V_cb puzzle]]
 
   * [[pentaquark]]
 
