@@ -1,7 +1,30 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 The concept of [[type]] in [[computer science]]
+
+
+## Related concepts
+
+* [[function type]]
+
+* [[object-oriented programming]]
 
 ## References
 
