@@ -21,8 +21,7 @@
 ## Idea
 
 
-A _Gepner model_ ([Gepner 87](#Gepner87)) is a [[rational CFT]] [[2d SCFT]] 
-which is a [[tensor product]] of $N = 2$ super-[[minimal model CFT]].
+A _Gepner model_ ([Gepner 87](#Gepner87)) is a [[rational CFT|rational]] [[2d SCFT]]  which is a [[tensor product]] of $N = 2$ super-[[minimal model CFT]].
 
 This means that Gepner models are "non-geometric" in that they do not arise as [[sigma-models]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner models appear as the limiting cases of sigma-models with [[target space]] a 6d [[Calabi-Yau manifold]] at singular points in the [[moduli space]] of the CY target: the _[[flop transition]]_.
 
