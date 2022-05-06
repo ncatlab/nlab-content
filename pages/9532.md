@@ -4,13 +4,15 @@ This entry collects some links related to the textbook
 
 * [[Alain Connes]],
 
-  _Noncommutative geometry_
+  **Noncommutative geometry**
 
   Academic Press, San Diego, CA, 1994
 
-  ([pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf))
+  [ISBN:9780080571751](https://www.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1)
 
-on [[noncommutative geometry]].
+  [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf)
+
+on [[noncommutative geometry]] in the [[operator algebra]]-theoretic and [[spectral triple|spectral]] sense.
 
 ## Related entries 
 
