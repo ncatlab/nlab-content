@@ -139,7 +139,7 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
-* {#Isaksen02} [[Dan Isaksen]], _Calculating limits and colimits in pro-categories_, Fund. Math. 175 (2002),
+* {#Isaksen02} [[Dan Isaksen]], _Calculating limits and colimits in pro-categories_, Fund. Math. 175 (2002), no. 2, 175&#8211;194.
 
 
 * [[Sibe Mardesic|S. Marde&#353;i&#263;]], J. Segal, _Shape theory_, North Holland 1982
@@ -150,9 +150,7 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * A. Deleanu, P. Hilton, Borsuk shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc.79-3 (1976), 473-482 [MR400220](http://www.ams.org/mathscinet-getitem?mr=400220)
 
-no. 2, 175&#8211;194.
 
-* Tholen
 
 [[!redirects pro-objects]]
 [[!redirects pro object]]
