@@ -11,6 +11,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,16 +20,36 @@
 
 The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]] at extremely high [[temperature]]. At high temperature [[quarks]] are not [[confinement|confined]] to [[hadron]] [[bound states]] but propagate freely together with the [[gluons]], forming a "quark-gluon soup". Since this is analogous to an ordinary [[plasma]] which is a [[phase of matter|phase]] where [[electrons]] and [[protons]] are no longer [[bound state|bound]] to [[atoms]] but propagate freely, one speaks of _quark-gluon plasma_.
 
-Despite the [[confinement|deconfinement]], the quark-gluon plasma at temperature $\sim 4-5 T_c$ as produced in [[experiment]] ([Adams et al. 05](#AdamsEtAl05), [Adcox et al. 05](#AdcoxEtAl05)) is thought to be strongly [[coupling constant|coupled]], meaning that its properties are [[non-perturbative effects]] requiring discussion of [[QCD]] as a [[non-perturbative field theory]]. With an exact such theory largely missing, much of the theoretical discussion of the quark-gluon plasma involves [[lattice QCD]] computer simulation. Indication for strong coupling of the QG-plasma comes from the nature of the _elliptic flow_ seen both in [[experiment]] as well as in these computer simulations, which shows [[hydrodynamic]] behaviour with extremely small [[shear viscosity]] (e.g. [Shuryak 01](#Shuryak01), [Chakraborty 12](#Chakraborty12)).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/QCDPhaseDiagram.jpg" width="400">
+</center>
+
+> **Schematic [[phase diagram]] of [[QCD]].** The veritcal axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough tempeterature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
+
+> graphics grabbed from [Blaizot 03](#Blaizot03).
+
+
+### Non-perturbative regime
+
+Despite the [[confinement|deconfinement]] beyond [[temperature]] $T_c$, the quark-gluon plasma at temperature $\sim 4-5 T_c$ as produced in [[experiment]] ([Adams et al. 05](#AdamsEtAl05), [Adcox et al. 05](#AdcoxEtAl05)) is apparently strongly [[coupling constant|coupled]], meaning that its properties are [[non-perturbative effects]] requiring discussion of [[QCD]] as a [[non-perturbative field theory]]. With an exact such theory largely missing, much of the theoretical discussion of the quark-gluon plasma involves [[lattice QCD]] computer simulation. Indication for strong coupling of the QG-plasma comes from the nature of the _elliptic flow_ seen both in [[experiment]] as well as in these computer simulations, which shows [[hydrodynamic]] behaviour with extremely small [[shear viscosity]] (e.g. [Shuryak 01](#Shuryak01), [Chakraborty 12](#Chakraborty12)).
 
 
 It has been proposed ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) that, therefore, an analytic approach to a description of the quark-gluon plasma (i.e. not just via [[lattice QCD]] computer experiment) might be given by approximate [[AdS-CFT duality]] (see e.g. [Biagazzi-Cotrone 12](#BiagazziCotrone12)). The difficulty with this approach is that for [[QCD]] (as opposed to [[N=4 D=4 SYM]]) [[AdS-CFT duality]] applies only to some approximation.
+
+### Perturbative regime
+
+At yet higher energies, the quark-gluon plasma is eventually supposed to be weakly [[coupling constant|coupled]] again, due to [[asymptotic freedom]] (e.g. [Blaizot 03](#Blaizot03))
 
 ## References
 
 ### General
 
+* Stanislaw Mrowczynski, _Quark-Gluon Plasma_, Acta Phys.Polon.B29:3711, 1998 ([arXiv:nucl-th/9905005](https://arxiv.org/abs/nucl-th/9905005))
+
 * Roman Pasechnik, Michal Šumbera, _Phenomenological Review on Quark-Gluon Plasma: Concepts vs. Observations_, Universe 2017, 3(1), 7 ([arXiv:1611.01533](https://arxiv.org/abs/1611.01533))
+
+* {#Blaizot03} Jean-Paul Blaizot, Edmond Iancu, Anton Rebhan, _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
 
 See also
 
