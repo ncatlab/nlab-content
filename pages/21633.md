@@ -79,5 +79,12 @@ See also
 
 On the [[KO-theory]] of $\mathbb{C}P^3$:
 
-* [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_, Invent. Math.35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
+* [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_, Invent. Math. 35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
+
+On symmetries of manifolds of the [[homotopy type]] of $\mathbb{C}P^3$:
+
+* Mark Hughes, _Symmetries of Homotopy Complex Projective Three Spaces_, Transactions of the American Mathematical Society
+Vol. 337, No. 1 (May, 1993), pp. 291-304 ([doi:10.2307/2154323](https://doi.org/10.2307/2154323))
+
+
 
