@@ -111,6 +111,12 @@ Flat (toroidal) orbifolds of dimension 4 are discussed in
 
   (in the context of [[black holes in string theory]])
 
+In the context of [[Mathieu moonshine]] from [[string]] [[sigma models]] on [[K3]]s: 
+
+* [[Matthias Gaberdiel]], [[Stefan Hohenegger]], Roberto Volpato, _Symmetries of K3 sigma models_, Commun.Num.Theor.Phys. 6 (2012) 1-50 ([arXiv:1106.4315](https://arxiv.org/abs/1106.4315))
+
+* [[Matthias Gaberdiel]], Roberto Volpato, _Mathieu Moonshine and Orbifold K3s_ ([arXiv:1206.5143](https://arxiv.org/abs/1206.5143))
+
 #### Of dimension 6
 
 In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau compactifications]] of [[heterotic string theory]] to 4d)
