@@ -20,6 +20,19 @@ The _$f_1$-meson_ is the [[light meson|light]] [[meson]] which (in the [[Wigner 
 
 This is the [[chiral partner]] of the [[omega-meson]].
 
+\begin{imagefromfile}
+    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
+
 ## References
 
 * Su Houng Lee, _Observing chiral partners in nuclear  medium_ ([[LeeChiralPartners.pdf:file]])
