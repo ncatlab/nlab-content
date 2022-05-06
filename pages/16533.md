@@ -43,6 +43,9 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 ## References
 
+* [[Neil Lambert]], _D-brane Bound States and the Generalised ADHM Construction_, Nucl. Phys. B519 (1998) 214-224 ([arXiv:hep-th/9707156](https://arxiv.org/abs/hep-th/9707156))
+
+
 * {#Martinec99} [[Emil Martinec]], _Manifestations of the D1-D5 system_, 1999 ([[MartinecD1D5.pdf:file]])
 
 * _A review of the D1/D5 system and five dimensional black hole from supergravity and brane viewpoint_ ([arXiv:hep-th/0002184](http://arxiv.org/abs/hep-th/0002184))
