@@ -140,6 +140,94 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 
 ([tomDieck 79, 8.4](#tomDieck79))
 
+
+> the following under construction
+
+
++-- {: .num_example #EquivariantHomotopyOfSVInRODegreeV}
+###### Example
+**(equivariant homotopy of $S^V$ in [[RO(G)-degree]] $V$)**
+
+
+  Let $G \in \mathrm{Grp}_{\mathrm{fin}}$
+  and $V \in \mathrm{RO}(G)$ with $V^G = 0$.
+  Then the bipointed equivariant (co)homotopy 
+  of the representation sphere $S^V$ 
+  in $\mathrm{RO}(G)$-degree $V$ is
+  the Cartesian product of one copy of the integers for
+  each isotropy subgroup of $G$ in $S^V$
+  except the full subgroup $G \subset G$
+
+$$
+  \array{
+      \pi^V\left( S^V\right)^{\{0,\infty\}/}
+      &
+        \overset{\simeq}{\longrightarrow}
+      &
+      \underset{
+        {
+          {
+              {H \in \mathrm{Isotr}_{S^V}(G)}
+              \atop
+              {H \neq G}
+          }
+        }
+      }{\prod}
+      \;\;
+      {\vert W_G(H)\vert } \cdot \mathbb{Z}
+      \\
+      \big[
+        S^V
+          \overset{c}{\longrightarrow}
+        S^V
+      \big]
+      &\mapsto&
+      \Big(
+        H 
+          \mapsto
+        \mathrm{deg}
+        \big(
+          c^H
+        \big)
+        -
+        \mathrm{offs}(c,H)
+      \Big)
+  }
+$$
+  where on the right 
+  $$
+    \mathrm{deg}
+    \Big(
+      \big(
+        S^V
+      \big)^H
+      \overset{
+        c^H
+      }{\longrightarrow}
+      \big(
+        S^V
+      \big)^H
+    \Big)
+    \in \mathbb{Z}
+  $$
+  is the integer winding number of the underlying continuous function
+  of $c$ (co)restricted to $H$-fixed points, and part of the claim is 
+  that this is an integer multiple of the order of the Weyl group
+  $W_G(H)$ up to an offset
+  $$
+    \mathrm{offs}(f,H) 
+    \;\in\; 
+    \big\{
+      0,1, \cdots,  \left\vert W_G(H)\right\vert
+    \big\}
+    \;\subset\;
+    \mathbb{Z}
+  $$
+  which depends in a definite way on the degrees of $c^K$ for 
+  all isotropy groups $K \gt H$.
+
+=--
+
 <br/>
 
 ## Related statements
