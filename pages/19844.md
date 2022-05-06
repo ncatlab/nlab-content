@@ -177,6 +177,13 @@ and also that the discrepancy increases further with [[QED]]-corrections taken i
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
+From [Crivellin-Mueller-Saturnino 20a](#CrivellinMuellerSaturnino20a) (where "LQ" is [[leptoquark]]):
+
+\begin{imagefromfile}
+  "file_name": 
+  "CrivellinEtAl.jpg",
+  "width": 500
+\end{imagefromfile}
 
 \linebreak
 
@@ -789,6 +796,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * Suman Kumbhakar, Rukmani Mohanta, _Investigating the effect of $U_1$ vector leptoquark on $b \to u \tau \bar\nu$ mediated B decays_ ([arXiv:2008.04016](https://arxiv.org/abs/2008.04016))
 
 * {#GMV20} Valerio Gherardi, David Marzocca, Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
+
+* {#CrivellinMuellerSaturnino20a} [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
+
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
