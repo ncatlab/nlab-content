@@ -121,9 +121,10 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 
 * Kazunori Noguchi, _The Euler characteristic of infinite acyclic categories with filtrations_, [arxiv/1004.2547](http://arxiv.org/abs/1004.2547)
 
-
 * [[Frank Quinn]], 1995, Lectures on axiomatic topological quantum field theory , in D. Freed and 
 K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
+
+* [[Terence Tao]], "[Counting objects up to isomorphism: groupoid cardinality](https://terrytao.wordpress.com/2017/04/13/counting-objects-up-to-isomorphism-groupoid-cardinality/)" (blog post), 13 April 2017.
 
 [[!redirects ∞-groupoid cardinality]]
 [[!redirects homotopy cardinality]]
