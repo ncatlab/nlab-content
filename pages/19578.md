@@ -34,6 +34,8 @@ For more on this see at _[[intersecting D-brane models]]_ the section _[Cosmolog
 
 ## Related concepts
 
+* [[D=5 Einstein-Maxwell theory]]
+
 * [[anti de Sitter gravity]]
 
 * [[AdS-CFT duality]]
