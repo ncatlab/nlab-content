@@ -15,5 +15,7 @@ See also
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
+* [[Kerodon]]
+
 
 category: reference
