@@ -14,11 +14,43 @@
 
 ## Idea
 
-[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra $E \mapsto E \langle 0 \rangle$ is called the _connective cover_ construction.
+### For plain spectra
+ {#ForPlainSpectra}
 
-The connective cover  [[(∞,1)-functor|functor]] extends from plain spectra to [[E-∞ ring spectra]] ([May 77, Prop. VII 4.3](#May77), [Lurie, Prop. 7.1.3.13](#Lurie)), such that the coreflection $E \langle0\rangle \longrightarrow E$ is a [[homomorphism]] of [[E-∞ rings]].
+[[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra $E \mapsto E \langle 0 \rangle$ is called the _connective cover_ construction. This comes with the [[coreflective subcategory|coreflection]] morphism of spectra
 
-Besides a canonically inherited ring structure, the connective cover may sometimes carry further ring structures ([Baker-Richter 05](#BakerRichter05)). 
+\[
+  \label{CoreflectionOfSpectrumFromItsConnectiveCover}
+  E\langle 0 \rangle
+  \overset{
+    \epsilon_E
+  }{\longrightarrow}
+  E
+\]
+
+which induces an [[isomorphism]] on [[homotopy groups of a spectrum|homotopy groups of spectra]] in non-[[negative number|negative]] degrees: 
+
+$$
+  \pi_{\bullet \geq 0}\big( E\langle 0\rangle\big)  
+  \underoverset
+  {\simeq}
+  {
+    \pi_{\bullet \geq 0}
+    (\epsilon_E)
+  }{\longrightarrow} 
+  \pi_{\bullet \geq 0}(E)
+  \,.
+$$
+
+
+
+
+### For ring spectra
+ {#ForRingSpectra}
+
+The connective cover  [[(∞,1)-functor|functor]] extends from plain spectra to [[E-∞ ring spectra]] ([May 77, Prop. VII 4.3](#May77), [Lurie, Prop. 7.1.3.13](#Lurie)), such that the coreflection $E \langle0\rangle \longrightarrow E$ (eq:CoreflectionOfSpectrumFromItsConnectiveCover) is a [[homomorphism]] of [[E-∞ rings]].
+
+Besides a canonically inherited ring structure, the connective cover may sometimes carry further ring structures, but in many examples of interest it is unique ([Baker-Richter 05](#BakerRichter05)). 
 
 
 ## Examples
