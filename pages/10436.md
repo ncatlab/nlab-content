@@ -119,7 +119,7 @@ The original connectivity  statement of the theorem is due to
 * {#BlakersMassey51} [[Albert Blakers]], [[William  Massey]], _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951)
   
 
-Review includes
+Reviews include
 
 * {#Kochmann96} [[Stanley Kochmann]], theorem 3.2.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
@@ -145,20 +145,20 @@ This would constitute a purely [[homotopy theory|homotopy-theoretic]] proof.
 The generalisation of the algebraic statement is Theorem 4.3 in: 
 
 * [[Ronnie Brown|R. Brown]] and [[Jean-Louis Loday]], Homotopical excision, and Hurewicz theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
-(3) 54 (1987) 176-192.  [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/VKTEVANS2.pdf) 
+(3) 54 (1987) 176-192.  [pdf](https://groupoids.org.uk/pdffiles/VKTEVANS2.pdf) 
 
 which relies essentially on the paper 
 
 * [[Ronnie Brown| R. Brown]] and J.-L. Loday, Van Kampen theorems for diagrams of
 spaces,  _Topology_ 26 (1987) 311-334, 
 
-for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 137 items on the [nonabelian tensor product](http://pages.bangor.ac.uk/~mas010/nonabtens.html ). 
+for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 170 items on the [nonabelian tensor product](http://groupoids.org.uk/nonabtens.html ). 
 
 Further applications are explained in 
 
 [[Ronnie Brown|R. Brown]],  Triadic Van Kampen theorems and Hurewicz theorems, _
 Algebraic  Topology, Proc. Int. Conf. March 1988_, Edited
-M.Mahowald and S.Priddy,  Cont. Math. 96 (1989) 39-57.  [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/VKTEVANS2.pdf) 
+M.Mahowald and S.Priddy,  Cont. Math. 96 (1989) 39-57.  [pdf](http://groupoids.org.uk//pdffiles/VKTEVANS2.pdf) 
 
 
 The following paper  applies the methods of the above two Brown-Loday papers to the well known problem of $n$-ad connectivity and to determination of the critical group, see Theorem 3.8 of: 
@@ -171,15 +171,13 @@ The methods work because of their equivalence between cat$^n$-groups and crossed
 
 Further background to these ideas is in 
 
-* [[Ronnie Brown| R. Brown]] "A philosophy of modelling and computing homotopy types" Presentation to CT2015, Aveiro, Portugal, June 14-19. [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/aveiro-beamer-handout.pdf) 
+* [[Ronnie Brown| R. Brown]] "A philosophy of modelling and computing homotopy types" Presentation to CT2015, Aveiro, Portugal, June 14-19. [pdf](https://groupoids.org.uk//pdffiles/aveiro-beamer-handout.pdf) and in "Modelling and computing homotopy types: I" Indag.Math.  29  (2018) 459-482 [pdf](https://www.sciencedirect.com/science/article/pii/S0019357717300460)
 
-
-
-Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
+Discussion of Blakers-Massey connectivity for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
 
 * Michael Ching, [[John Harper]], _Higher homotopy excision and Blakers-Massey theorems for structured ring spectra_ ([arXiv:1402.4775](http://arxiv.org/abs/1402.4775))
 
-The higher cubical version of Blakers-Massey is due to 
+The higher cubical version of Blakers-Massey connectivity is due to 
 
 * {#Goodwillie91} [[Tom Goodwillie]], _Calculus II: Analytic functors_, K-Theory  01/1991; 5(4):295-332. DOI: 10.1007/BF00535644
 
@@ -216,7 +214,7 @@ A writeup finally appeared as
 
 * {#FFLL16} Kuen-Bang Hou ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_ ([arXiv.1605.03227](https://arxiv.org/abs/1605.03227))
 
-Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given 
+Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given in
 
 * {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
 
