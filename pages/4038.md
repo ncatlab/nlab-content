@@ -1,7 +1,5 @@
 
-
-* [website](http://www.math.brown.edu/faculty/goodwillie.html)
-
+* [website](https://www.math.brown.edu/tgoodwil/)
 
 ## Selected writings
 
