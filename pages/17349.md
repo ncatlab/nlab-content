@@ -1,4 +1,19 @@
-# Surjective on objects functors
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
@@ -12,8 +27,8 @@ Surjective-on-objects functors are the left class in an [[orthogonal factorizati
 
 ## Related pages
 
-* [[essentially surjective functor]]
-* [[bo functor]]
+[[!include properties of functors -- contents]]
+
 
 ## References
 
