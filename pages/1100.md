@@ -128,6 +128,9 @@ for the moment see
 
 * [[hypercomplete (∞,1)-topos]]
 
+### Cubical type theory
+
+The Cartesian cubical model of [[cubical type theory]] and [[homotopy type theory]] is [conjectured](https://groups.google.com/d/msg/homotopytypetheory/RQkLWZ_83kQ/s6iazlFdBgAJ) to be an (∞,1)-topos not equivalent to (∞,1)-groupoids.
 
 ## Models 
 
