@@ -68,6 +68,12 @@ Similarly, the stochastic order can be seen as a way of making the functor $P$ [
 * [[valuation (measure theory)]]
 
 
+## References
+
+* {#orderedkantorovich} [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
+
+(...)
+
 [[!redirects stochastic ordering]]
 [[!redirects usual stochastic ordering]]
 [[!redirects usual stochastic order]]
