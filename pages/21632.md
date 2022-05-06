@@ -42,6 +42,8 @@ $$
 
 ## References
 
+* [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867))
+
 * [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
 
 * [[Simon Salamon]], p. 218-220 of: _Harmonic and holomorphic maps_,  In: E. Vesentini  (eds.) _Geometry Seminar "Luigi Bianchi" II - 1984_, Lecture Notes in Mathematics, vol 1164. Springer 1985 ([doi:10.1007/BFb0081912](https://doi.org/10.1007/BFb0081912))
