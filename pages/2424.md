@@ -24,6 +24,13 @@ Since about the turn of the millennium Witten has tended to more esoteric mathem
 
 ## Quotes
 
+In [Witten 87, very last sentence](#Witten87EllipticGenera):
+
+> A properly developed theory of [[elliptic cohomology]] is likely to shed some light on what [[string theory]] really means.
+
+
+\linebreak
+
 In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf):
 
 > {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. 
@@ -62,7 +69,7 @@ Finally Atiyah's section 2 mentions
 
 Then 
 
-* _Elliptic genera and quantum field theory_, Comm. Math. Phys. 109 (1987) 
+* {#Witten87EllipticGenera} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([euclid:1104117076](http://projecteuclid.org/euclid.cmp/1104117076))
 
   on the [[elliptic genus]]/[[Witten genus]] as the [[partition function]] of the [[type II superstring]]/[[heterotic superstring]]
 
@@ -78,9 +85,9 @@ And various articles on the foundations of [[topological field theory]] such as
 
 and
 
-* _Quantum field theory and the Jones polynomial_, Comm, Math, Phys, 121 (1989) 351
+* _Quantum field theory and the Jones polynomial_, Comm. Math. Phys, 121 (1989) 351
 
-  on the [[quantization]] of 3d [[Chern-Simons theory]], its [[Jones polynomial]] [[knot invariant]] [[quantum observables]] and its [[holographic principle|holographic]] relation to the quantization of the [[WZW model]] (the [[string]] propagating on a suitable [[Lie group]] [[manifold]]).
+  on the [[quantization of 3d Chern-Simons theory]], its [[Jones polynomial]] [[knot invariant]] [[quantum observables]] and its [[holographic principle|holographic]] relation to the quantization of the [[WZW model]] (the [[string]] propagating on a suitable [[Lie group]] [[manifold]]).
 
 ## Related $n$Lab entries 
 
