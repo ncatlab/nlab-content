@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -54,18 +55,34 @@ The functor which sends $R$ to the $R$-points of the projective space $\mathbb{P
 ## Value added by the internal language of toposes
 
 Typically, only field-valued points of a scheme are easy to describe. For                   instance, the functor $F$ describing projective $n$-space is given on fields by
+
 $$
-  F(K) = \text{the set of lines through the origin in}\ K^{n+1} \cong
+  F(K) 
+  \;=\; 
+  \text{the set of lines through the origin in} 
+  \, K^{n+1} 
+   \cong
   (K^{n+1} \setminus \{0\})/K^\times,                                                       $$  
+
 whereas on general rings it is given by
+
 $$
-  F(R) = \text{the set of linear surjections}\ R^{n+1} \twoheadrightarrow P,\text{where}\ P\ \text{is projective, modulo isomorphism}.
+  F(R) 
+  \;=\; 
+  \text{the set of linear surjections}
+  \, R^{n+1} 
+  \twoheadrightarrow P,\text{where}
+  \;P\, 
+  \text{is projective, modulo isomorphism.}
 $$
+
 On the other hand, it is these more general kinds of points which impart a meaningful sense of cohesion on the field-valued points, so they can't simply be dropped from consideration.
 
 We can resolve this tension by observing that the category of functors from rings to sets is a [[topos]] and therefore has an [[internal language]]. We can use this language to describe such functors (and later study their properties) in a naive, element-based way. For instance, the functor $F$ describing projective $n$-space can be given by either of the internal expressions
 $$
-  \text{the set of lines through the origin in}\ U^{n+1}
+  \text{the set of lines through the origin in}
+  \; 
+  U^{n+1}
   \quad\text{or}\quad
   (U^{n+1} \setminus \{0\})/U^\times,
 $$
@@ -77,13 +94,14 @@ where $U$ is the forgetful functor (representing the [[affine line]]). Details o
 
 * [[space and quantity]]
 
+
 ## References
 
 The original idea is advertised in
 
-* {#Grothendieck65} [[Alexander Grothendieck]], _Introduction au langage fonctoriel_, course in Algiers in November 1965, lecture notes by [[Max Karoubi]], ([pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothAlgiers.pdf))
+* {#Grothendieck65} [[Alexander Grothendieck]], _Introduction au langage fonctoriel_, course in Algiers in November 1965, lecture notes by [[Max Karoubi]], ([pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothAlgiers.pdf), [[GrothendieckIntroductionLangageFonctoriel1965.pdf:file]])
 
-* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta, [pdf scan](http://matematicas.unex.es/~navarro/res/ifag.pdf).
+* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta ([pdf scan](http://matematicas.unex.es/~navarro/res/ifag.pdf), [[GrothendieckIntrodFunctorialGeometryI1973.pdf:file]])
 
 and has been re-emphasized in various forms in the writing of [[William Lawvere]], notably:
 
@@ -99,8 +117,7 @@ See also
 
 * {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
 
-* [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies
-Volume 39 (1980).
+* [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies Volume 39 (1980).
 
 * [[Bertrand Toen]], _[[Master course on algebraic stacks]]_.
 
