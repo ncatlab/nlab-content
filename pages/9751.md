@@ -37,6 +37,9 @@ On [[type II supergravity]]:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
+On [[membranes]] in [[D=4 supergravity]] ([[super 2-brane in 4d]]):
+
+* [[Igor Bandos]], [[Fotis Farakos]] Stefano Lanza, L. Martucci,  [[Dmitri Sorokin]], _Higher Forms and Membranes in 4D Supergravities_, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik, Special Issue Volume 67, Issue 8-9 ([arXiv:1903.02841](https://arxiv.org/abs/1903.02841), [doi:10.1002/prop.201910020](https://doi.org/10.1002/prop.201910020))
 
 
 
