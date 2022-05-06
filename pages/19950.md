@@ -61,13 +61,6 @@ The [[stabilization]] of this construction, in the sense of [[equivariant stable
 
 
 
-## Properties
-
-### Equivariant Pontryagin-Thom isomorphism
- {#EquivariantPontryaginThomIsomorphism}
-
-(...)
-
 ## Related concepts
 
 [[!include flavours of cohomotopy -- table]]
@@ -80,6 +73,7 @@ The [[stabilization]] of this construction, in the sense of [[equivariant stable
 
 * {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
+* {#Peschke94} [[George Peschke]], _Degree of certain equivariant maps into a representation sphere_, Topology and its Applications Volume 59, Issue 2, 30 September 1994, Pages 137-156 (<a href="https://doi.org/10.1016/0166-8641(94)90091-4">doi:10.1016/0166-8641(94)90091-4</a>)
 
 * {#Cruickshank03} James Cruickshank, _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
 
