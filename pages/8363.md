@@ -79,7 +79,10 @@ $$\forall \vec{m} \forall \vec{X} \exists Z \forall n (n\in Z \leftrightarrow \v
 provided that the variable $Z$ does not appear in $\varphi$. 
 
 2. Full [[induction]] scheme: for $\varphi$ any formula with a free variable $n$ and possible remaining free variables $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
-$$\forall \vec{m} \forall \vec{X} ((\varphi(0) \wedge \forall n (\varphi(n) \rightarrow \varphi(s(n))) \rightarrow \forall n \varphi(n))
+
+$$
+  \forall \vec{m} \forall \vec{X} ((\varphi(0) \wedge \forall n (\varphi(n) \rightarrow \varphi(s(n))) \rightarrow \forall n \varphi(n))
+$$
 
 The instance in the full induction scheme where $\varphi$ is the formula $n \in X$ is called simply the _induction axiom_. The induction axiom together with the comprehension scheme implies the full induction scheme. 
 
@@ -89,6 +92,7 @@ The instance in the full induction scheme where $\varphi$ is the formula $n \in 
 The theory described above gives full second-order arithmetic. However, in [[reverse mathematics]], one often studies subsystems of weaker proof-theoretic strength than SOA, by limiting in some way the comprehension scheme (often also beefing up the single induction axiom with more instances of the induction scheme, to offset the weakening). The main examples are given in [Wikipedia](http://en.wikipedia.org/wiki/Reverse_mathematics); a standard reference is [Simpson](#Sim). 
 
 Many important subsystems for SOA have been the subject of an [[ordinal analysis]].
+
 
 ## Related concepts
 
