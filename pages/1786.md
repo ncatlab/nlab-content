@@ -71,6 +71,10 @@ See at _[[Dwyer-Wilkerson H-space]]_
 
 ## Properties
 
+### Nilpotency
+
+Every [[connected topological space|connected]] H-space is [[nilpotent topological space|nilpotent]] (see [there](nilpotent+topological+space#Properties)).
+
 ### Relation to $A_\infty$-spaces
 
 Given an [[A-∞ space]] in the [[(∞,1)-category]] [[∞Grpd]]/[[Top]], its image in the corresponding [[homotopy category of an (∞,1)-category]] [[Ho(Top)]] in an $H$-space. Conversely, refining an H-space to a genuine $A_\infty$-space means lifting the structure of a [[monoid object in an (∞,1)-category]] from the [[homotopy category of an (∞,1)-category|homotopy category]] [[Ho(Top)]] to the genuine [[(∞,1)-category]] [[∞Grpd]]/[[Top]].
