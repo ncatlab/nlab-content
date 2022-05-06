@@ -198,6 +198,11 @@ A special kind of quiver (finite, no loops, no parallel arcs) is treated in
 * {#GeneralizedGraphs} [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
 
 
+Some introductory material on the relation between quivers (there called _multigraphs_) and categories can be found in
+
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_. ([arXiv](https://arxiv.org/abs/1912.10642))
+
+
 [[!redirects quiver]]
 [[!redirects quivers]]
 [[!redirects directed pseudograph]]
