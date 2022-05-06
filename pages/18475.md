@@ -140,6 +140,12 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 
 * Alexander Jahn, Zoltán Zimborás, Jens Eisert, _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
 
+### Relation to $p$-adic AdS/CFT correspondence
+
+Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-state physics]]:
+
+* Gregory Bentsen, Tomohiro Hashizume, Anton S. Buyskikh, Emily J. Davis, Andrew J. Daley, [[Steven Gubser]], Monika Schleier-Smith, _Treelike interactions and fast scrambling with cold atoms_, Phys. Rev. Lett. 123, 130601 (2019) ([arXiv:1905.11430](https://arxiv.org/abs/1905.11430))
+
 
 
 [[!redirects AdS/CFT in condensed matter physics]]
