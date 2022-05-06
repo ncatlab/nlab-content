@@ -126,6 +126,15 @@ Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]]  
 
 * {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
 
+Discussion of [[black holes in anti de Sitter spacetime]]:
+
+* Hawking, Stephen W., and Don N. Page. "Thermodynamics of black holes in anti-de Sitter space." Communications in Mathematical Physics 87.4 (1983): 577-588.
+
+* {#Socolovsky17} M. Socolovsky, _Schwarzschild Black Hole in Anti-De Sitter Space_ ([arXiv:1711.02744](https://arxiv.org/abs/1711.02744))
+
+* Peng Zhao, _Black Holes in Anti-de Sitter Spacetime_ ([pdf](https://pdfs.semanticscholar.org/9939/335e0d282e70201d6087988bf4f5aedfc8f6.pdf))
+
+* Jakob Gath, _The role of black holes in the AdS/CFT correspondence_ ([pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2009/Jakob-Gath-Dissertation-2009.pdf))
 
 
 [[!redirects anti de Sitter space]]
