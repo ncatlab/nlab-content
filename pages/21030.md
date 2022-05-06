@@ -47,7 +47,7 @@ The original articles:
 
 * {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], Sections 5 and B of: _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
 
-(which is otherwise about [[single trace operators]] in the [[AdS/CFT correspondence]]).
+  (which is otherwise about [[single trace operators]] in the [[AdS/CFT correspondence]]).
 
 * {#DSJVR02} [[Keshav Dasgupta]], Mohammad M. Sheikh-Jabbari, [[Mark Van Raamsdonk]], _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
 
