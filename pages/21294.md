@@ -16,4 +16,8 @@ and their [[anomaly cancellation]]:
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
+On the [[WZW term]] in [[chiral perturbation theory]]:
+
+* Yasunori Lee, [[Kantaro Ohmori]], [[Yuji Tachikawa]], _Revisiting Wess-Zumino-Witten terms_ ([arXiv:2009.00033](https://arxiv.org/abs/2009.00033))
+
 category: people
