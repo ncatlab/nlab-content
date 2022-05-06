@@ -36,7 +36,7 @@ The **fpqc-site** (over $S$) is the [[site]]
   * each $f_i$ is a [[flat morphism]];
 
   * for every affine open $W \hookrightarrow X$ there exists $n \geq  0$, a [[function]] $a : \{1, \cdots, n\} \to I$ and affine opens
-    $V_j \hookrightarrow T_{a(j)}$ with
+    $V_j \hookrightarrow U_{a(j)}$ with
 
     $$
       \cup_{j = 1}^{n} f_{a(j)}(V_j) = W
