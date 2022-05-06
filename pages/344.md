@@ -36,7 +36,7 @@ A __finitely extensive category__ (or __finitary extensive category__) is a cate
 
 An __infinitary extensive category__ is a category $E$ with all (small) [[coproduct]]s such that the following analogous equivalent conditions hold:
 
- 1. Pullbacks of coproduct injections along arbitrary morphisms exist and finite coproducts are disjoint and stable under pullback.
+ 1. Pullbacks of coproduct injections along arbitrary morphisms exist and small coproducts are [[disjoint coproduct|disjoint]] and stable under pullback.
  2. For any small family $(a_i)$ of objects, the coproduct functor $\prod_i (E/a_i) \to E/_{(\coprod_i a_i)}$ is an equivalence of categories.
  3. Pullbacks of finite-coproduct injections (and thus all coproduct injections) along arbitrary morphisms exist, and for any family of commutative squares
  $$\array{ x_i & \to & z \\\downarrow &&\downarrow^f \\ a_i & \to & \coprod_i a_i } $$
