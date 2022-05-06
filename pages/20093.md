@@ -35,7 +35,9 @@ The [[physics]] of [[atomic nuclei]].
 
 ## References
 
-[[effective field theory]] for nuclear physics:
+[[effective field theory]] for nuclear physics -- [[chiral perturbation theory]], [[Skyrme model]], [[quantum hadrodynamics]]:
+
+* [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
 
 * [[Mannque Rho]], _Lectures on Effective Field Theories for Nuclei, Nuclear Matter and Dense Matter_, 2002 ([arXiv:nucl-th/0202078](https://arxiv.org/abs/nucl-th/0202078), [cds:539674](https://cds.cern.ch/record/539674))
 
