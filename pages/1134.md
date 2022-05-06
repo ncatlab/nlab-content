@@ -275,9 +275,9 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 ### General 
 
-A brief survey is in 
+Survey
 
-* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]], _Super manifolds: an incomplete survey_, Bulletin of the Manifold Atlas (2011) 1&#8211;6 ([pdf](http://people.mpim-bonn.mpg.de/teichner/Papers/Survey-Journal.pdf))
+* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]], _Super manifolds: an incomplete survey_, Bulletin of the Manifold Atlas (2011) 1&#8211;6 ([pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Survey-Journal.pdf))
 
 Discussion with an eye towards [[supergravity]] is in 
 
@@ -319,24 +319,23 @@ preprints, IC/84/183, 1984.
 
 A summary/review is in the appendix of
 
-* Anatoly Konechny and [[Albert Schwarz]], 
+* {#KonechnySchwarz98} Anatoly Konechny, [[Albert Schwarz]], 
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998 ,
-Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
+  _On $(k \oplus l|q)$-dimensional supermanifolds_, in: [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Lecture Notes in Physics, 509, Springer 1998 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
 
-  _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
-  {#KonechnySchwarz98}
+  Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_, Sel. math., New ser. 6 (2000) 471 - 486 ([doi:10.1007/PL00001396](https://doi.org/10.1007/PL00001396))
+  
 
-* [[Albert Schwarz]], I- Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
+* [[Albert Schwarz]], I. Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
 
 A review with more emphasis on the relevant [[category theory]]/[[topos theory]] is in 
 
-* [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
-{#Sachse}
+* {#Sachse} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+
 
 The site of formal duals not just to [[Grassmann algebras]] but to all super-[[infinitesimally thickened points]] is discussed in ([Konechny-Schwarz](#KonechnySchwarz)) above and also in
 
-* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_ ([arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
+* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_, Expositiones Mathematicae Volume 28, Issue 3, 2010, Pages 201-217 ([doi:10.1016/j.exmath.2009.09.005](https://doi.org/10.1016/j.exmath.2009.09.005), [arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
 
 ### As manifolds modelled on Grassmann algebras
 
