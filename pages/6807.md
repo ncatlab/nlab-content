@@ -16,17 +16,18 @@
 
 ## Idea
 
-The _BFSS matrix model_ ([Banks-Fischler-Shenker-Susskind 96](#BanksFischlerShenkerSusskind96), [Seiberg 97](#Seiberg97)) is the description of the [[worldline]] dynamics of interacting  [[D0-branes]]. In the limit of large number $N$ of D0 branes supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type IIA string theory]] (see also at _[[M-theory]]_).
+The _BFSS matrix model_ ([Banks-Fischler-Shenker-Susskind 96](#BanksFischlerShenkerSusskind96), [Seiberg 97](#Seiberg97)) is the description of the [[worldline]] dynamics of interacting  [[D0-branes]]. In the [[large N limit]] of a large number of [[D0-branes]] this is  supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type IIA string theory]] known as _[[M-theory]]_.
 
 The BFSS matrix model was argued to arise in several equivalent ways: 
 
-1. as the worldvolume theory of a large number of [[D0-branes]] in [[type IIA string theory]], 
+1. as the [[worldline]] theory of a large number of [[D0-branes]] in [[type IIA string theory]], 
 
-1. as the [[Kaluza-Klein compactification]] of [[10d super Yang-Mills theory]] to zero space dimensions, 
+1. as the [[Kaluza-Klein compactification]] of [[10d super Yang-Mills theory]] to 1+0 space dimensions, 
 
 1. as a certain non-commutative regularization  of the [[worldvolume]] theory of the [[M2-brane]] in M-theory ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). 
 
-In any case, it ends up being a quantum mechanical system whose degrees of freedom are a set of 9+1 large matrices. These play the role of would-be coordinate functions and their eigenvalues may be in interpreted as points in a spacetime thus defined.
+
+In any case, it ends up being a [[quantum mechanics|quantum mechanical]] system whose bosonic degrees of freedom are a set of 9+1 large matrices. These play the role of would-be coordinate functions and their eigenvalues may be in interpreted as points in a spacetime thus defined.
 
 In the 90s there was much excitement about the BFSS model, as people hoped it might provide a definition of [[M-theory]]. It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speach](M-theory#Witten14), last paragraph). 
 
@@ -140,6 +141,11 @@ Relation to [[black holes in string theory]]:
 
 * Yoshifumi Hyakutake, _Black Hole and Fuzzy Objects in BFSS Matrix Model_ 
 ([arXiv:1801.07869](https://arxiv.org/abs/1801.07869))
+
+* {#DuSahakian18} Haoxing Du, Vatche Sahakian, _Emergent geometry from stochastic dynamics, or Hawking evaporation in M(atrix) theory_ ([arXiv:1812.05020](https://arxiv.org/abs/1812.05020))
+
+  (combination with [[random matrix theory]])
+
 
 ### Relation to lattice gauge theory
 
