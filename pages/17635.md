@@ -77,9 +77,9 @@ Original articles includes
 
 * {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
-* {#Stapleton11} [[Nathaniel Stapleton]], _Transchromatic generalized character maps_, Algebr. Geom. Topol. 13 (2013) 171-203 ([arXiv:1110.3346](https://arxiv.org/abs/1110.3346))
+* {#Stapleton11} [[Nathaniel Stapleton]], _Transchromatic generalized character maps_, Algebr. Geom. Topol. 13 (2013) 171-203 ([arXiv:1110.3346](https://arxiv.org/abs/1110.3346), [euclid:agt/1513715495](https://projecteuclid.org/euclid.agt/1513715495))
 
-* {#Stapleton13} [[Nathaniel Stapleton]], _Transchromatic twisted character maps_ ([arXiv:1304.5194](https://arxiv.org/abs/1304.5194))
+* {#Stapleton13} [[Nathaniel Stapleton]], _Transchromatic twisted character maps_,  J. Homotopy Relat. Struct. 10, 29–61 (2015). ([arXiv:1304.5194](https://arxiv.org/abs/1304.5194), [doi:10.1007/s40062-013-0040-9](https://doi.org/10.1007/s40062-013-0040-9))
 
 * [[Nathaniel Stapleton]], _Transchromatic generalized character maps (and more!)_ ([pdf](http://etale.site/livetex/saft/stapleton.pdf))
 
@@ -90,3 +90,6 @@ Original articles includes
 [[!redirects transchromatic characters]]
 
 [[!redirects tanschromatic character]]
+
+[[!redirects transchromatic character map]]
+[[!redirects transchromatic character maps]]
