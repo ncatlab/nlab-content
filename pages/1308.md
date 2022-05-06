@@ -117,7 +117,7 @@ An expositions of the argument is given here:
 
 The diagram proof is displayed here
 
-* [[Eugenia Cheng]], [picture](http://cheng.staff.shef.ac.uk/degeneracy/eggclock.pdf) (pdf)
+* [[Eugenia Cheng]], [picture](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-clock.pdf) (pdf)
 {#Cheng}
 
 and an animation of it is here
