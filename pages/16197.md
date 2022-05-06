@@ -132,6 +132,11 @@ Discussion of [[eternal inflation]] in Starobinsky-type models
 
 * {#BarenboimKinneyPark16} Gabriela Barenboim, [[William Kinney]], Wan-Il Park, _Eternal Hilltop Inflation_,  Journal of Cosmology and Astroparticle Physics, Volume 2016, May 2016 ([arXiv:1601.08140](https://arxiv.org/abs/1601.08140))
 
+See also:
+
+* Dhong Yeon Cheong, Hyun Min Lee, Seong Chan Park, _Beyond the Starobinsky model for inflation_ ([arXiv:2002.07981](https://arxiv.org/abs/2002.07981))
+
+
 
 ### Embedding into supergravity
  {#ReferencesEmbeddingIntoSupergravity}
