@@ -56,31 +56,63 @@ of (the [[Fulton-MacPherson compactification]] of) the [[configuration space of 
 
 The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given by sending each graph to the corresponding [[Feynman amplitude]] in [[free field theory|free]] [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory]] on $X$, by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]:
 
+
+
 \[
   \label{TheQuasiIsomorphism}
-  Graphs_n(D)
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{graph complex}
+      \\
+      \text{of n-point Feynman diagrams}
+      \\
+      \text{for Chern-Simons theory}
+      \\
+      \text{on} \; \Sigma 
+    }
+  }{
+    Graphs_n(\Sigma)
+  }
   \underoverset{
     \simeq_{\mathrlap{qi}}
   }
   {
     \color{blue}
-    {
-      \text{
-        assign Feynman amplitudes
-      }
-      \atop
-      \text{
-        in free CS/AKSZ theory
-      }
+    \array{
+      \text{assign Feynman amplitudes}
+      \\
+      \text{of free CS/AKSZ theory}
+      \\
+      \phantom{A}
     }
   }
   {
     \longrightarrow
   }
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{de Rham algebra}
+      \\
+      \text{of semi-algebraic differential forms}
+      \\
+      \text{on the FM-compactification}
+      \\
+      \text{of the configuration space of n points}
+      \\
+      \text{in}\; \Sigma
+    }
+  }{
   \Omega^\bullet_{PA}
   \big(
-    Conf_n\big(  \mathbb{R}^D \big)
+    Conf_n\big(  \Sigma \big)
   \big)
+  }
   \,.
 \]
 
