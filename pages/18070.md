@@ -209,8 +209,9 @@ For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered co
 
 For $k \in \mathbb{N}$, consider the [[n-sphere|k-sphere]] as a [[pointed topological space]], with the base point regarded as the "vanishing label".
 
-+-- {: .num_defn}
++-- {: .num_defn #UnorderedLabeledConfigurationsVanishingWithVanishingLabel}
 ###### Definition
+**(unordered labeled configurations vanishing with vanishing label)**
 
 For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered configurations of points in $X$ with labels in $S^k$ and vanishing at vanishing label value_ is the [[quotient space]] 
 
@@ -228,7 +229,7 @@ For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered co
   \Big)/\sim
 \]
 
-of the [[disjoint union]] of all unordred labeled $n$-point configuration spaces (eq:UnorderedLabeledFixednCOnfigurationSpace) by the [[equivalence relation]] which regards points with vanishing label as not present. 
+of the [[disjoint union]] of all unordred labeled $n$-point configuration spaces (eq:UnorderedLabeledFixednCOnfigurationSpace) by the [[equivalence relation]] which regards points with vanishing label as absent. 
 
 =--
 
@@ -528,7 +529,7 @@ $$
 ###### Proposition
 **([[Cohomotopy charge map]] is [[weak homotopy equivalence]] on sphere-labeled [[configuration space of points]])**
 
-For $D, k \in \mathbb{N}$ with $k \geq 1$, the [[Cohomotopy charge map]] (eq;CohomotopyChargeMapOnEuclideanSpace)
+For $D, k \in \mathbb{N}$ with $k \geq 1$, the [[Cohomotopy charge map]] (eq:CohomotopyChargeMapOnEuclideanSpace)
 
 $$
   Conf
@@ -546,8 +547,93 @@ is a [[weak homotopy equivalence]] from the configuration space (eq:UnorderedLab
 
 ([Segal 73, Theorem 3](#Segal73))
 
-More generally:
+This statement generalizes to [[equivariant homotopy theory]], with equivariant configurations carrying charge in [[equivariant Cohomotopy]]:
 
+Let $G$ be a [[finite group]] and $V \in RO(G)$ an [[orthogonal group|orthogonal]] $G$-[[linear representation]], with its induced [[pointed topological space|pointed]] [[topological G-spaces]]:
+
+
+1. the corresponding [[representation sphere]] $S^V \in G TopSpaces$, 
+
+1. the corresponding [[Euclidean G-space]] $\mathbb{R}^V \in G TopSpaces$.
+
+
+For $X \in G TopSpaces$ any [[pointed topological space|pointed]] [[topological G-space]], consider
+
+1. the equivariant $V$-[[suspension]], given by the [[smash product]] with the $V$-[[representation sphere]]:
+
+   $\Sigma^V X \;\coloneqq\; X \wedge S^V \;\in G TopSpaces\;$ 
+
+1. the equivariant $V$-[[iterated based loop space]], given by the $G$-[[fixed point subspace]] inside the [[space of maps]] out of the [[representation sphere]]:
+
+   $\Omega^V X \;\coloneqq\; Maps^{\ast/}\big( S^V, X\big)^G$.
+
++-- {: .num_defn #EquivariantUnorderedLabeledConfigurationsVanishingWithVanishingLabel}
+###### Definition
+**(equivariant unordered labeled configurations vanishing with vanishing label)**
+
+Write
+
+$$
+  Conf\big( \mathbb{R}^V , X \big)^G
+  \;\hookrightarrow\;
+  Conf\big( \mathbb{R}^V , X \big)
+$$
+
+for the $G$-[[fixed point subspace]] in the unordered $X$-labelled configuration space of points (Def. \ref{UnorderedLabeledConfigurationsVanishingWithVanishingLabel}), with respect to the [[diagonal action]] on $\mathbb{R}^V \times X$.
+
+=--
+
++-- {: .num_prop #EquivariantCohomotopyChargeMapEquivalence}
+###### Proposition
+**([[Cohomotopy charge map]]-equivalence for configurations on [[Euclidean G-spaces]])**
+
+Let 
+
+1. $G$ be a [[finite group]], 
+
+1. $V$ an [[orthogonal group|orthogonal]] $G$-[[linear representation]] 
+
+1.  $X$ a [[topological G-space]] 
+
+If $X$ is $G$-connected, in that for all [[subgroups]] $H \subset G$ the $H$-[[fixed point subspace]] $X^H$ is a [[connected topological space]], then the [[Cohomotopy charge map]] 
+
+$$
+  Conf
+  \big(
+    \mathbb{R}^V,
+    X
+  \big)
+  \underoverset{\simeq}{\;cc\;}{\longrightarrow}
+  \Omega^V \Sigma^V X
+  \phantom{AAA}
+  \text{if X is G-connected}
+$$
+
+from the equivariant un-ordered $X$-labeled configuration space of points (Def. \ref{EquivariantUnorderedLabeledConfigurationsVanishingWithVanishingLabel}) in the corresponding [[Euclidean G-space]] to the based $V$-loop space of the $V$-suspension of $X$, is a [[weak homotopy equivalence]].
+
+If $X$ is not necessarily $G$-connected, then this still holds for the [[group completion]] of the configuration space, under disjoint union of configurations
+
+
+$$
+  \Omega 
+  B_{{}_{\sqcup}\!}
+  Conf
+  \big(
+    \mathbb{R}^V,
+    X
+  \big)
+  \underoverset{\simeq}{\;cc\;}{\longrightarrow}
+  \Omega^{V+1} \Sigma^{V+1} X
+  \,.
+$$
+
+
+=--
+
+([Rourke-Sanderson 00, Theorem 1, Theorem 2](#RourkeSanderson00))
+
+
+More generally:
 
 +-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
 ###### Proposition
@@ -1207,7 +1293,7 @@ Generalization of these constructions and results is due to
 
 and generalization to [[equivariant homotopy theory]] is discussed in
 
-* Colin Rourke, Brian Sanderson, _Equivariant Configuration Spaces_, 62(2), October 2000, pp. 544-552 ([pdf](http://wrap.warwick.ac.uk/828/1/WRAP_Rourke_Equivariant_configuration.pdf))
+* {#RourkeSanderson00} [[Colin Rourke]], [[Brian Sanderson]], _Equivariant Configuration Spaces_, J. London Math. Soc. 62 (2000) 544-552 ([arXiv:math/9712216](https://arxiv.org/abs/math/9712216))
 
 
 The relevant construction for the [[group completion]] of the configuration space
