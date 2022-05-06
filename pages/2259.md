@@ -12,6 +12,9 @@ With [[Henry Whitehead]] he gave the first algebraic description of the [[homoto
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/MacLane.html)
 
 
+* [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
+
+
 ## Writings
  {#Writings}
 
