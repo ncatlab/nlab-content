@@ -54,6 +54,12 @@ See also:
 * Wikipedia, _[Solid state physics](http://en.wikipedia.org/wiki/Solid_state_physics)_
 
 
+### Examples and applications
+
+Discussion of possible realization of the [[SYK-model]] in [[condensed matter physics]]:
+
+* D. I. Pikulin, M. Franz, _Black hole on a chip: proposal for a physical realization of the SYK model in a solid-state system_, Phys. Rev. X 7, 031006 (2017) ([arXiv:1702.04426](https://arxiv.org/abs/1702.04426))
+
 ### AdS/CMT correspondence
 
 On [[AdS/CFT in condensed matter physics]]:
@@ -65,13 +71,20 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid 
 
 * Gregory Bentsen, Tomohiro Hashizume, Anton S. Buyskikh, Emily J. Davis, Andrew J. Daley, [[Steven Gubser]], Monika Schleier-Smith, _Treelike interactions and fast scrambling with cold atoms_, Phys. Rev. Lett. 123, 130601 (2019) ([arXiv:1905.11430](https://arxiv.org/abs/1905.11430))
 
-### Examples and applications
 
-Discussion of possible realization of the [[SYK-model]] in [[condensed matter physics]]:
 
-* D. I. Pikulin, M. Franz, _Black hole on a chip: proposal for a physical realization of the SYK model in a solid-state system_, Phys. Rev. X 7, 031006 (2017) ([arXiv:1702.04426](https://arxiv.org/abs/1702.04426))
+### K-Theory classification of gapped topological phases if matter
 
-### Tensor networks for exotic phases of matter
+Classification of [[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]] ([[topological phases of matter]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+
+* [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+
+* Guo Chuan Thiang, _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincare 17(4) 757-794 (2016) ([arXiv:1406.7366](https://arxiv.org/abs/1406.7366))
+
+
+
+
+### Tensor networks in solid state physics
 
 Discussion of exotic [[phases of matter]] via [[tensor network states]]:
 
