@@ -22,7 +22,7 @@
 ## Idea
 
 For $\mathcal{C}$ a [[category]] and $X, Y \in \mathcal{C}$ two [[objects]], the _internal hom_ $[X,Y] \in \mathcal{C}$ from $X$ to $Y$ is, if it exists, another [[object]] of $\mathcal{C}$ which behaves like the "object of [[morphisms]]" from $X$ to $Y$.
-In other words it is, if it exists, an [[internalization|internal version]] of the ordinary [[hom set]]  $\mathcal{C} \in Set$ or more generally [[hom object]] $\mathcal{C}(X, Y) \in \mathcal{V}$ of a [[locally small category]] or $\mathcal{V}$-[[enriched category]].
+In other words it is, if it exists, an [[internalization|internal version]] of the ordinary [[hom set]]  $\mathcal{C}(X, Y) \in Set$ or more generally [[hom object]] $\mathcal{C}(X, Y) \in \mathcal{V}$ of a [[locally small category]] or $\mathcal{V}$-[[enriched category]].
 
 One way to make this precise starts by mimicking a property of the [[function set]] $[X,Y] = \{f : X \to Y\}$ of [[functions]] between two [[sets]] $X$ and $Y$: this set is characterized by the fact that for any other set $S$, the functions $S \to [X,Y]$ are in [[natural bijection]] with the functions $S \times X \to Y$ out of the [[cartesian product]] of $S$ with $X$. 
 That is: for each set $X$, the [[functor]] $(-) \times X$ has a [[right adjoint]], given by the construction $[X,-]$.
