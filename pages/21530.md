@@ -20,7 +20,7 @@
 
 ## Idea
 
-_Orbifold K-theory_ is [[K-theory]] (typically: [[topological K-theory]]) of [[orbifolds]].
+_Orbifold K-theory_ is [[K-theory]] (typically: [[topological K-theory]]) of [[orbifolds]], typically meant to reduce to [[equivariant K-theory]] on [[global quotient orbifolds]].
 
 ## Definition
 
@@ -42,6 +42,10 @@ $$
 $$
 
 This is the approach taken in [AdemRuan 01, Def. 3.4](#AdemRuan01)
+
+## Related concepts
+
+* [[orbifold differential K-theory]]
 
 ## References
 
