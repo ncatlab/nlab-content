@@ -31,7 +31,7 @@ The existence of leptoquarks could potentially explain _both_
 
 1. the apparently observed [[flavour anomalies]]
 
-   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [CCL 17](#CCL17), [Crivellin 17](#Crivellin17) [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Blanke-Crivellin 18](#BlankeCrivellin18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [MVK 19](#MVK19))
+   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [CCL 17](#CCL17), [Crivellin 17](#Crivellin17) [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Blanke-Crivellin 18](#BlankeCrivellin18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [MVK 19](#MVK19), [Cata-Mannel 19](#CataMannel19))
 
 1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([CCDM 16](#CCDM16), [Müller 18](#Mueller18))
 
@@ -129,6 +129,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 * {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
 
 * {#MVK19} Ivo de Medeiros Varzielas, Stephen F. King, _Origin of Yukawa couplings for Higgs and leptoquarks_ ([arXiv:1902.09266](https://arxiv.org/abs/1902.09266))
+
+* {#CataMannel19} Oscar Cata, Thomas Mannel, _Linking lepton number violation with $B$ anomalies_ ([arXiv:1903.01799](https://arxiv.org/abs/1903.01799))
 
 
 and within [[Randall-Sundrum models]]
