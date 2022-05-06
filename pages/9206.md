@@ -36,6 +36,10 @@ For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circ
 
 * [[D=4 super Yang-Mills theory]]
 
+* $D=5$ super Yang-Mills theory
+
+  * [[D=5 Maxwell theory]]
+
 * [[D=6 super Yang-Mills theory]]
 
 * [[D=10 super Yang-Mills theory]]
