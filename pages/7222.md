@@ -54,6 +54,8 @@ an extension of Bismut's approach to a setting of exotic [[global Hodge theory]]
 
 ## Related concepts
  
+* [[rational Todd class is Chern character of Thom class]]
+
 * [[Hirzebruch-Riemann-Roch theorem]]
 
 * [[arithmetic Riemann-Roch theorem]]
@@ -64,13 +66,15 @@ an extension of Bismut's approach to a setting of exotic [[global Hodge theory]]
 
 ## References
 
-The formulation in terms of [[topological K-theory]] is due to
+The formulation in terms of [[topological K-theory]] is due to:
 
-* [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Symp. Pure Math. 3, 7&#8211;38
-(1961)
- {#AtiyahHirzebruch61}
+* {#AtiyahHirzebruch61} [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Symp. Pure Math. 3, 7&#8211;38 (1961) 
 
-For a general survey see
+Early textbook accounts:
+
+* {#Karoubi78} [[Max Karoubi]], Chapter V.4 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
+
+See also:
 
 * Wikipedia, _[Grothendieck-Riemann-Roch theorem](http://en.wikipedia.org/wiki/Grothendieck%E2%80%93Riemann%E2%80%93Roch_theorem)_
 
