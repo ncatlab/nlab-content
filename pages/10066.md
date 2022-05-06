@@ -41,7 +41,11 @@ The [[representation ring]] of $G$ over the [[complex numbers]] is the $G$-[[equ
 
 \[
   \label{RepresentationRingAsEquivariantKTheoryOfThePoint}
-  R_{\mathbb{C}}(G) \simeq KU^0_G(\ast) \simeq KK(\mathbb{C}, C(\mathbf{B}G))
+  R_{\mathbb{C}}(G) 
+    \simeq 
+  KU^0_G(\ast) 
+    \simeq   
+  KK(\mathbb{C}, C(\mathbf{B}G))
   \,.
 \]
 
@@ -49,7 +53,10 @@ The first [[isomorphism]] here follows immediately from the elementary definitio
 
 (e.g. [Greenlees 05, section 3](#Greenlees05), [Wilson 16, example 1.6 p. 3](#Wilson16))
 
-Under this identification and the [[Atiyah-Segal completion]] map
+#### Chern classes of linear representations
+ {#ChernClassesOfLinearRepresentations}
+
+Under the identification (eq:RepresentationRingAsEquivariantKTheoryOfThePoint) and the [[Atiyah-Segal completion]] map
 
 $$
   R_{\mathbb{C}}(G)
@@ -60,9 +67,9 @@ $$
   
 $$
 
-one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(BG)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. There is a closed formula at least for the [[first Chern class]] ([Atiyah 61, appendix](#Atiyah61)):
+one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(B G)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. There is a closed formula at least for the [[first Chern class]] ([Atiyah 61, appendix](#Atiyah61)):
 
-For 1-dimensional representations $V$ their [[first Chern class]]  $c_1(\widehat{V}) \in H^2(B G, \mathbb{Z})$ is their image under the canonical isomorphism from 1-dimensional characters in $Hom_{Grp}(G,U(1))$ to the [[group cohomology]] $H^2_{grp}(G, \mathbb{Z})$ and further to the [[ordinary cohomology]] $H^2(B G, \mathbb{Z})$ of the [[classifying space]] $B G$:
+For 1-dimensional representations $V$ their [[first Chern class]]  $c_1(\widehat{V}) \in H^2(B G, \mathbb{Z})$ is their image under the canonical [[isomorphism]] from 1-[[dimension|dimensional]] characters in $Hom_{Grp}(G,U(1))$ to the [[group cohomology]] $H^2_{grp}(G, \mathbb{Z})$ and further to the [[ordinary cohomology]] $H^2(B G, \mathbb{Z})$ of the [[classifying space]] $B G$:
 
 $$
   c_1\left(\widehat{(-)}\right)
@@ -75,7 +82,7 @@ $$
   \,.
 $$
 
-More generally, for $n$-dimensional representations $V$ their first Chern class $c_1(\widehat V)$ is the previously defined first Chern-class of the [[line bundle]] $\widehat{\wedge^n V}$ corresponding to the  $n$-th [[exterior power]] $\wedge^n V$ of $V$. The latter is a 1-dimensional representation, corresponding to the [[determinant line bundle]] $det(\widehat{V}) = \widehat{\wedge^n V}$:
+More generally, for $n$-[[dimension|dimensional]] [[linear representations]] $V$ their [[first Chern class]] $c_1(\widehat V)$ is the previously defined first Chern-class of the [[line bundle]] $\widehat{\wedge^n V}$ corresponding to the  $n$-th [[exterior power]] $\wedge^n V$ of $V$. The latter is a 1-dimensional representation, corresponding to the [[determinant line bundle]] $det(\widehat{V}) = \widehat{\wedge^n V}$:
 
 $$
   c_1(\widehat{V}) 
@@ -86,7 +93,7 @@ $$
   \,.
 $$
 
-([Atiyah 61, appendix, ite, (7)](#Atiyah61))
+([Atiyah 61, appendix, item (7)](#Atiyah61))
 
 More explicitly, via the formula for the [[determinant]] as a [[polynomial]] in [[traces]] of powers (see [there](determinant#eq:DeterminantAsPolynomialInTracesOfPowers)) this means that the first Chern class of the $n$-dimensional representation $V$ is expressed in terms of its [[character]] $\chi_V$ as
 
