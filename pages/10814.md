@@ -23,7 +23,7 @@ The term _double field theory_ has come to be used for [[field theory]] ([[prequ
 
 ## Proposal of formalization in para-Hermitian geometry
 ### Doubled space as para-Hermitian manifold
-The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([I.Vaisman 2012](#Vaisman)), then by David Svoboda ([D.Svoboda 2018](#Svoboda)).
+The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([Vai 12](#Vaisman)), then by David Svoboda ([Svo 18](#Svoboda)).
 
 \begin{defn} An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(T M)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. \end{defn}
 
@@ -130,7 +130,7 @@ where $X\in T M$ is split in $X_\pm=P_\pm X$.
 \begin{rmk} The same argument can be clearly applied to $T^-M$ too. \end{rmk}
 
 ###C-bracket
-In previous section we assumed that the $+1$-eigenbundle $T^+M$ is integrable. This is equivalent to assuming that there exists a well defined foliation that can be interpreted as the physical spacetime. However it is possible to construct a more general bracket that does not require such an assumption, but only an almost para-complex structure. Therefore it works even when a global physical spacetime foliation is not defined. This is achieved by Vaisman with the definition of _C-bracket_ by using a generalization of the notion of Levi-Civita connection (look ([I.Vaisman 2012](#Vaisman))).
+In previous section we assumed that the $+1$-eigenbundle $T^+M$ is integrable. This is equivalent to assuming that there exists a well defined foliation that can be interpreted as the physical spacetime. However it is possible to construct a more general bracket that does not require such an assumption, but only an almost para-complex structure. Therefore it works even when a global physical spacetime foliation is not defined. This is achieved by Vaisman with the definition of _C-bracket_ by using a generalization of the notion of Levi-Civita connection (look ([Vai 2012](#Vaisman))).
 
 In the special case of an (integrable) para-hermitian manifold C-bracket is given by
 
