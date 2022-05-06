@@ -320,9 +320,4 @@ For more on permutation patterns, see:
 
 * Étienne Ghys, _A Singular Mathematical Promenade_, August 2017. [arXiv:1612.06373](https://arxiv.org/abs/1612.06373) [author pdf](http://perso.ens-lyon.fr/ghys/promenade/)
 
-
-
-
-[[!redirects permutation group]]
-[[!redirects permutation groups]]
 [[!redirects symmetric groups]]
