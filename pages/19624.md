@@ -58,7 +58,8 @@ In the [[limit of a sequence|limit]] $T_s \to 0$, $\ell_s \to \infty$ of vanishi
 
 ## Related concepts
 
-* [[string coupling constant]]
+[[!include fundamental scales -- contents]]
+
 
 ## References
 
