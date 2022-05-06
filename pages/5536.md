@@ -31,11 +31,11 @@ A *small thickening* is a thickening in which $I$ is principal. Note that in our
 
 A *predeformation functor* is a functor $F: _\Lambda Art_k \to \text{Set}$ such that $F(k)=\{*\}$ is a singleton. This condition is the notion that we are really over a "point", and so any deformation must be the trivial one.
 
-The functor $\overhat{F}: _\Lambda Noeth_k\to \text{Set}$ is defined to be $\displaystyle \overhat{F}(A)= \lim_n F(R/\mathfrak{m}^n)$.
+The functor $\widehat{F}: _\Lambda Noeth_k\to \text{Set}$ is defined to be $\displaystyle \widehat{F}(A)= \lim_n F(R/\mathfrak{m}^n)$.
 
-A predeformation functor is [[prorepresentable functor| prorepresentable]] if $\overhat{F}$ is representable.
+A predeformation functor is [[prorepresentable functor| prorepresentable]] if $\widehat{F}$ is representable.
 
-A hull for $F$ is a pair $(R, \eta)$ where $R\in _\Lambda Noeth_k$ and $\eta\in \overhat{F}(R)$ such that $h_R\to F$ is formally smooth and we have a bijection on tangent spaces $T_{h_R}\to T_F$.
+A hull for $F$ is a pair $(R, \eta)$ where $R\in _\Lambda Noeth_k$ and $\eta\in \widehat{F}(R)$ such that $h_R\to F$ is formally smooth and we have a bijection on tangent spaces $T_{h_R}\to T_F$.
 
 $k[\epsilon]$ is defined to be the ring $k[\epsilon]/(\epsilon^2)$ with the trivial $\Lambda$-algebra structure.
 
@@ -97,7 +97,7 @@ I haven't come up with a nice succinct way to do this yet. I think there is a ni
 
 ## Effectivization
 
-Given a deformation functor, $F$, that came from a moduli problem and some object $\eta\in \overhat{F}(R)$, we'd like to tell when it corresponds to a point on the original moduli space over $\text{Spec}R$, or if $(R,\eta)$ is a hull for $F$ does there exist a universal object over $\text{Spec}R$?
+Given a deformation functor, $F$, that came from a moduli problem and some object $\eta\in \widehat{F}(R)$, we'd like to tell when it corresponds to a point on the original moduli space over $\text{Spec}R$, or if $(R,\eta)$ is a hull for $F$ does there exist a universal object over $\text{Spec}R$?
 
 An example where we do have effectivization is Grothendieck's existence theorem for coherent sheaves. Let $f:X\to \text{Spec}A$ be proper and $A$ complete, local, [[noetherian ring]]. Let $A_n=A/m^n$ and $X_n=X\otimes_A A_n$ the thickenings over $A_n$. If $\mathcal{F}_n$ is a compatible collection of coherent sheaves on $X_n$, then there exists a coherent sheaf $\mathcal{F}$ on $X$ whose restriction to each $X_n$ is $\mathcal{F}_n$.
 
