@@ -92,7 +92,7 @@ From this perspective a choice of orientation is the first in a series of specia
 
 ### In terms of orientation in generalized cohomology
 
-For $E$ an [[E-∞ ring]] spectrum, tthere is a general notion of $R$-orientation of vector bundles. This is described at
+For $R$ an [[E-∞ ring]] spectrum, there is a general notion of $R$-orientation of vector bundles. This is described at
 
 * [[orientation in generalized cohomology]].
 
