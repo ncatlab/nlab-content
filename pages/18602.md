@@ -161,6 +161,8 @@ Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#
 
 * Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
 
+* A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
+
 ### QED contributions
 
 The computation of the anomalous magnetic dipole moment of the [[electron]] in [[QED]] is spelled out (via [[causal perturbation theory]]) in 
