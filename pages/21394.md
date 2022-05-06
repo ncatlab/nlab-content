@@ -33,14 +33,21 @@ A __premodel category__ is a [[bicomplete category]]
 equipped with a [[pair]] of [[weak factorization systems]]
 $(C,AF)$ and $(AC,F)$ such that $AC\subset C$ (equivalently, $AF\subset F$).
 
-[[model category|Model categories]] can be singled out of premodel categories
-by imposing the additional requirement that the [[class]]
-$W$ obtained by [[composition|composing]] an element of $AC$ followed by an element of $AF$,
-is closed under the [[2-out-of-3 property]].
+[[model category|Model categories]] can be singled out among premodel categories by imposing the additional requirement that the [[class]] 
+
+$$
+  W
+  \coloneqq
+  AF \circ AC
+  \,,
+$$
+
+obtained by [[composition|composing]] [[elements]] of $AC$ with those of $AF$, is closed under the [[2-out-of-3 property]].
 
 ## References
 
 * [[Reid William Barton]], _A model 2-category of enriched combinatorial premodel categories_ ([arXiv:2004.12937](https://arxiv.org/abs/2004.12937))
+
 
 
 [[!redirects premodel categories]]
