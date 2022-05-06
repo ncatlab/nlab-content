@@ -48,7 +48,7 @@ In particular, there seems to be inconsistencies in the theoretical understandin
 
 > graphics from [Lehner-Meyer 20, Fig 14](#LehnerMeyer20)
 
-If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once their [[statistical significance]] reaches 5[[standard deviation|σ]], see [here](statistical+significance#ParticlePhysics)), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
+If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once their [[statistical significance]] reaches 5[[standard deviation|σ]], see [here](statistical+significance#ParticlePhysics)), they point to "new physics" beyond the [[standard model of particle physics]]. 
 
 In fact [Lyons 13b](#Lyons13b) argued that the detection-threshold of the [[statistical significance]] of anomalies here should be just 4[[standard deviation|σ]], which would mean that they should already count as being detected:
 
@@ -57,6 +57,17 @@ In fact [Lyons 13b](#Lyons13b) argued that the detection-threshold of the [[stat
 \end{center}
 
 > table taken from [Lyons 13b, p. 4](#Lyons13b)
+
+Together with the [[flavour anomalies]], these anomalies relate to the [[flavour problem]] in the [[standard model of particle physics]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CrivellinRandAHints.jpg" width="300">
+</center>
+
+> graphics from [Crivellin-Hoferichter 20](flavour+anomaly#CrivellinHoferichter20) 
+
+> (here "$R$" refers to [[flavour anomalies]] in various channels, "$a$" refers to anomalies in the the [[anomalous magnetic moments]] of the [[electron]] and the [[muon]], "LFUV" is shoft for "Lepton Flavor Universality Violation", and the numbers are the [[statistical significances]] of the effects seen)
+
 
 
 Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)), which at the same time are a candidate for explaining the [[flavour anomalies]] (see also [Chiang-Okada 17](#ChiangOkada17)).
