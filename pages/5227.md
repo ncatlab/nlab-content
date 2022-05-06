@@ -63,6 +63,58 @@ A **Petri net** $N$ consists of
   *   $post:  P\times E\to \mathbb{N}$.
 =--
 
+## Categorical Semantics of Petri Nets
+
+The functions $pre$ and $post$ can be [[curried]] to write a Petri net as a pair of functions 
+
+\begin{centre}
+\begin{tikzcd} 
+E \ar[r,shift left=.5ex,"pre"] \ar[r,shift right=.5ex,"post",swap] & \mathbb{N} [P]
+\end{tikzcd}
+\end{centre}
+
+where $\mathbb{N}[P]$ denotes the [[free monoid|free commutative monoid]] on the set $P$ of places. Written this way, the analogy to [[directed graph|graphs]] is clearer. The main difference is that now the source and target functions land in a [[free monoid|free commutative monoid]] rather than just a set. Thus, Petri nets can be thought of as _symmetric monoidal graphs_ because each edge is a multi-edge between a permutable sum of vertices. Just as [[directed graph|graphs]] generate [[free categories]], Petri nets should generate free [[symmetric monoidal categories]]. As Petri nets often model processes in various sciences, the free symmetric monoidal categories that they generate model the operational semantics of these processes. For a given Petri net $P$, the free symmetric monoidal $FP$ that it generates should have objects given by possible markings of $P$ and morphisms given by ways of composing the events in sequence and in parallel.
+
+The first to explore this idea were [Meseguer and Montanari](#monoids) who constructed an adjunction between Petri nets and a subcategory of the category $CMC$ of [[commutative monoidal categories]]. This adjunction was modified in [_Generalized Petri Nets_](#gen) to get
+
+\begin{center}
+\begin{tikzcd}
+\mathsf{Petri} \ar[r,bend left,"F"] & \ar[l,bend left,"U"] \mathsf{CMC}
+\end{tikzcd}
+\end{center}
+Although morally Petri nets generate free symmetric monoidal categories, it turns out that because they have a free _commutative_ monoid of places, they more naturally generate [[commutative monoidal categories]], symmetric monoidal categories of an unusually strict type. [[Commutative monoidal categories]] don't show up often in nature because they aren't the result of a [[coherence]] theorem for symmetric monoidal categories. [[Saunders Mac Lane|Mac Lane's]] [[coherence theorem for symmetric monoidal categories]] says that every symmetric monoidal category is symmetric monoidally equivalent to a [[symmetric monoidal category|strict symmetric monoidal category]] which may have nontrivial symmetry morphisms. However, commutative monoidal categories have symmetry morphisms which are given by the identity so they aren't the [strictifications](https://ncatlab.org/nlab/show/coherence+theorem#strictification) of symmetric monoidal categories.
+
+Computer scientists also haven't been satisfied with commutative monoidal categories as a categorical semantics for Petri nets. Commutative monoidal categories are said to exhibit the collective token philosophy (see e.g. [Glabeek and Plotkin](#philosophy)), where tokens do not have individual idenities. On the other hand, symmetric monoidal categories are said to have the individual token philosophy where the individual identites of the tokens are retained. The easiest to see where an issue shows up is with a variation of the [[Eckmann-Hilton argument]]. Let $C$ be a commutative monoidal category and let $f \colon 0 \to 0$ be a morphism from monoidal unit to itself. Then,
+$$\begin{aligned}
+f \circ f & = f \circ f + 0 \\
+&= f \circ f + 1_0 \\
+&= f \circ f + 1_0 \circ 1_0 \\
+& = (f + 1_0 ) \circ (f + 1_0) \\
+&= (1_0 + f) \circ (f + 1_0) \\
+&= 1_0 \circ f + f \circ 1_0 \\
+&= f + f
+\end{aligned}$$
+
+So in a commutative monoidal category $f \circ f = f+ f$ even though they have very different semantic interpretations: one represents sequential composition and the other represents parallel composition.
+
+One possible fix to this is to change the definition of Petri net. In [_Functorial Models for Petri Nets_](#functorial) the authors introduced [[Pre-net|pre-nets]]. A pre-net is a pair of functions from a set of events to the free monoid on a set of places. The key difference is that now every event is equipped with an ordering on the input and output of each transition. With pre-nets, there is a natural [[adjunction]] between the category $PreNet$ of pre-nets and $SMC$ the category of strict monoidal categories
+ 
+\begin{center}
+\begin{tikzcd}
+\mathsf{PreNet} \ar[r,bend left,"A"] & \ar[l,bend left,"B"] \mathsf{SMC}
+\end{tikzcd}
+\end{center}
+
+which can be composed with the adjunction which freely adds symmetries to a strict monoidal category to get an adjunction
+
+
+\begin{center}
+\begin{tikzcd}
+\mathsf{PreNet} \ar[r,bend left,"L"] & \ar[l,bend left,"R"] \mathsf{SSMC}
+\end{tikzcd}
+\end{center}
+
+where $SSMC$ is the category of [[symmetric monoidal category|strict symmetric monoidal categories]]. This gives a categorical operational semantics for pre-nets which obeys the individual token philosophy and avoids the pitfall of the above computation. Pre-nets can be turned into Petri nets via [[abelianization]]. For a given Petri net $P$, it's abelianization forgets about the ordering on the input and output of each event. Therefore, to obtain a categorical semantics for a Petri net $P$ which obeys the individual token philosophy, a pre-net $Q$ can be chosen which abelianizes to $P$. Then, the categorical semantics for $P$ can defined as the free strict symmetric monoidal category $L(Q)$.
 
 ## References
 
@@ -70,18 +122,26 @@ A **Petri net** $N$ consists of
 
 * [[John C. Baez]] and [[Jacob Biamonte]], _Quantum techniques in stochastic mechanics_, World Scientific, 2018. [World Scientific](https://www.worldscientific.com/worldscibooks/10.1142/10623#t=suppl) [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
 
-* [[José Meseguer]] and [[Ugo Montanari]], _Petri nets are monoids_, Information and Computation, Volume 88, Issue 2, Pages 105-155, 1990. [journal](https://www.sciencedirect.com/science/article/pii/0890540190900138), [pdf](https://core.ac.uk/download/pdf/82342688.pdf)
-
 * [wikipedia](http://en.wikipedia.org/wiki/Petri_net)
 
 For an introduction to Petri nets (en francais, which is very clear and accessible) look at
 
 * [[Robert Valette]], [Les R&#233;seaux de Petri](http://homepages.laas.fr/robert/enseignement.d/cour01.pdf).
 
-Connection to linear logic:
+On the connection to linear logic:
 
 * [[Uffe Engberg]] and [[Glynn Winskel]], _Petri nets as models of linear logic_. CAAP 1990. Lecture Notes in Computer Science, vol 431. Springer, Berlin, Heidelberg. [Springer](https://link.springer.com/chapter/10.1007/3-540-52590-4_46), [pdf on ResearchGate](https://www.researchgate.net/publication/318253097_Petri_Nets_as_Models_of_Linear_Logic)
 
+On the categorical semantics of Petri nets:
+
+* {#monoids} [[José Meseguer]] and [[Ugo Montanari]], _Petri nets are monoids_, Information and Computation, Volume 88, Issue 2, Pages 105-155, 1990. [journal](https://www.sciencedirect.com/science/article/pii/0890540190900138), [pdf](https://core.ac.uk/download/pdf/82342688.pdf)
+
+* {#gen} [[Jade Master]], Generalized Petri Nets. Available at [arXiv:1904.09091](https://arxiv.org/abs/1904.09091)
+
+
+* {#functorial} [[Roberto Bruni]], [[José Meseguer]], [[Ugo Montanari]], and [[Vladimiro Sassone]]. _Functorial models for Petri nets_ Information and Computation 170, no. 2 (2001): 207-236. [pdf](https://eprints.soton.ac.uk/264742/1/prenetsIandCOff.pdf)
+
+* {#philosophy} [[Rob J. van Glabbeek]], and [[Gordon D. Plotkin]]. _Configuration structures, event structures and Petri nets_ Theoretical Computer Science 410, no. 41 (2009): 4111-4159. Available at [pdf](https://arxiv.org/abs/0912.4023)
 
 [[!redirects Petri net]]
 [[!redirects Petri nets]]
