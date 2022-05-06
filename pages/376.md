@@ -420,3 +420,5 @@ Related literature includes
 
 [[!redirects locally Cartesian closed category]]
 [[!redirects locally Cartesian closed categories]]
+
+[[!redirects local cartesian closure]]
