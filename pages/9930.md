@@ -1,7 +1,11 @@
 
 * [webpage](http://www.ms.unimelb.edu.au/~craigw/)
 
-## Selectec writings
+## Selected writings
+
+On the [[J-homomorphism]]:
+
+* {#Westerland14} [[Craig Westerland]], _Views on the J-homomorphism_ MSRI talk, 2014 ([recording](https://mathinstitutes.org/videos/videos/1464), [pdf](https://docs.google.com/viewer?url=https://www.msri.org/workshops/685/schedules/17895/documents/1978/assets/20102), [[WesterlandJHomomorphism.pdf:file]])
 
 
 On [[spherical T-duality]] in [[iterated algebraic K-theory]]:
