@@ -86,7 +86,7 @@ The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the c
 
 ### Relation to underlying multicategories
 
-Forming categories of operators is left 2-adjoint to forming the [[representable multicategory|underlying multicategory]] of a semi-cartesian monidal category.  (For a left adjoint to the underlying multicategory of an arbitrary monoidal category, see instead [[props]].)  For the moment, see there for more details.
+Forming categories of operators is left 2-adjoint to forming the [[representable multicategory|underlying multicategory]] of a semi-cartesian monoidal category.  (For a left adjoint to the underlying multicategory of an arbitrary monoidal category, see instead [[props]].)  For the moment, see there for more details.
 
 
 ## Related concepts
