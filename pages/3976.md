@@ -51,7 +51,7 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 
 * [[Spin(2)]], [[Pin(2)]]
 
-* [[Spin(3)]], [[Spin(4)]]
+* [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(8)]]
 
 
 [[!redirects circle group]]
