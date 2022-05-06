@@ -156,12 +156,12 @@ $$
 $$
 In other words, it turns an element of $X$ and a list of elements of $Y$ into a list of elements of $X\times Y$, canonically.
 
-* For the left [[action monad]] (on [[Set]] or on any other [[monoidal category]]) relative to a [[monoid]] or [[monoid object]] $M$, the costrength is inherited by the [[associator]] as follows,
+* For the left [[action monad]] (on [[Set]] or on any other [[monoidal category]]) relative to a [[monoid]] or [[monoid object]] $M$, the costrength is inherited by the [[associator]] as follows (see [Brandenburg '14, Example 6.3.4](#Brandenburg2014)),
 \begin{tikzcd}
 (M \otimes X) \otimes Y \ar{r}{a_{M,X,Y}}[swap]{\cong} & M \otimes (X \otimes Y) .
 \end{tikzcd}
 * On a [[symmetric monoidal category]], a strength for a left action monad can be obtained analogously, using the [[braiding]]. (For right actions, the braiding is not needed.)
-In that case, this strength is [[commutative monad|commutative]] precisely if $M$ is [[commutative monoid|commutative as a monoid]].
+In that case, this strength is [[commutative monad|commutative]] precisely if $M$ is [[commutative monoid|commutative as a monoid]] (see [Brandenburg '14, Example 6.3.12](#Brandenburg2014)).
 
 * For [[probability monads]] on [[cartesian monoidal categories]], the strength creates "slices", or probability distributions which are deterministic in one variable. For the [[Giry monad]], for example, the strength for measurable spaces $X$ and $Y$ is the map
 $$
