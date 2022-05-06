@@ -96,7 +96,7 @@ A **prounital closed category** is a [[category]] $C$ together with the followin
 
 * A transformation $L^X_{Y Z} \colon  [Y,Z] \to [ [X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
-* A transformation $ev : U(X) \cdot C([X,Y], Y)$, natural in $X$ and extranatural in $Y$.
+* A transformation $ev : U(X) \to C([X,Y], Y)$, natural in $X$ and extranatural in $Y$.
 
 which is required to satisfy the following axioms.
 
