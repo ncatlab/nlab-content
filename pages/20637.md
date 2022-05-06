@@ -94,6 +94,10 @@ The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathb
 
 ([Dwyer-Wilkerson 93, Theorem 1.8](#DwyerWilkerson93))
 
+### Relation to the Conway group, $Co_3$
+
+$B G_3$ receives a homomorphism from $B Co_3$, the delooping of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)).
+
 ## Related concepts
 
 [[!include coset space structure on n-spheres -- table]]
@@ -124,9 +128,11 @@ See also
 
 * {#Ziemianski} Krzysztof Ziemia&nacute;ski, _A faithful complex representation of the 2-compact group DI(4)_, ([thesis](https://www.mimuw.edu.pl/~ziemians/pap/Thesis.pdf))
 
+* {#Benson94} David Benson, _Conway’s group $Co_3$ and the Dickson invariants_, Manuscripta Math (1994) 85: 177.
 
 
-[[!redirects Dwyer-Wilkerson H-sapces]]
+
+[[!redirects Dwyer-Wilkerson H-spaces]]
 
 [[!redirects Dwyer-Wilkerson space]]
 [[!redirects Dwyer-Wilkerson spaces]]
