@@ -278,7 +278,7 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 Textbook accounts include
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
+* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 * [[Francis Borceux]], Vol 2, chapter 6 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
@@ -295,15 +295,18 @@ Discussion of [[change of enriching category]] is in
 Vista of some modern generalizations is in
 
 * [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
+
 * [[Tom Leinster]], _Generalized enrichment of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
 
-* John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
+* John Armstrong, _[Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/)_
 
 Further examples are discussed in
 
 * {#Garner2013} [[Richard Garner]], *Lawvere theories, finitary monads and Cauchy-completion*, Journal of Pure and Applied Algebra, 2014, [arxiv](https://arxiv.org/abs/1307.2963)
 
-* {#GarnerPower2017} [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017, [arxiv](https://arxiv.org/abs/1707.08694)
+* {#GarnerPower2017} [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017 
+([arXiv:1707.08694
+](https://arxiv.org/abs/1707.08694)
 
 * {#Garner2018} [[Richard Garner]], *An embedding theorem for tangent categories*, Advances in Mathematics, 2018, [doi](https://www.sciencedirect.com/science/article/pii/S0001870817303122), [arxiv](https://arxiv.org/abs/1704.08386)
 
