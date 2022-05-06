@@ -28,6 +28,10 @@ The categorical [[duality|dual]] of an injection, the coinjection, is a morphism
 
 In particular, every [[epimorphism]] in a category with an initial object is a coinjection, and every coinjection from the initial object is an epimorphism. 
 
+However, every morphism in $\mathcal{C}$ is a coinjection if the initial object is [[strict initial object|strict]], as the identity morphism of the initial object is a coinjection, and for any other morphism $f:A\rightarrow B$ such that $B$ is not the initial object, the statement 'if $g \circ f = h \circ f$, then $g = h$' is vacuously true as there are no morphisms $g,h:B\rightarrow\emptyset$; therefore $f$ is a coinjection. This is true in all [[distributive category|distributive categories]], such as a [[cartesian closed category]], a [[coherent category]], and a [[topos]]. 
+
+If the initial object is a [[zero object]] $0$, every morphism in $\mathcal{C}$ is a coinjection, as an initial object that is a zero object is also a terminal object, and that by the definition of a terminal object, there exist a unique morphism $!:B\rightarrow 0$, and so for any morphisms $g,h:B\rightarrow 0$, $g = h$. As $g = h$ is true regardless of the morphism $f:A\rightarrow B$, every morphism is a coinjection. 
+
 ## Related concepts
 
 * [[surjection]]
