@@ -20,8 +20,19 @@ A normed division algebra is a [[not-necessarily associative algebra]], over som
 
 1. a [[division algebra]] $\big( \text{i.e.}\, (a \cdot b = 0) \Rightarrow (a = 0 \,\text{or}\, b = 0) \big)$  
 
-1. a multiplicatively [[normed algebra]] $\big( \text{i.e.}\, {\vert a \cdot b\vert}  \leq C \cdot  {\vert a\vert} \cdot {\vert b\vert} \big)$.
+1. a multiplicatively [[normed algebra]] $\big( \text{i.e.}\, {\Vert a \cdot b\Vert}  \leq C \cdot  {\Vert a\Vert} \cdot {\Vert b\Vert} \big)$.
 
+It should be the case (at least maybe for finite-dimensional algebras) that the division property (1) implies that the norm property (2) holds in the stronger form
+
+$$
+  {\vert a \cdot b\vert} 
+  \;=\;
+  {\vert a \vert} \cdot {\vert b \vert}
+$$
+
+and this is how most (or all) authors actually define normed division algebras, and that's what we assume to be meant now.
+
+$\,$
 
 It turns out ([[Hurwitz' theorem]]) that over the [[real numbers]] there are precisely only four normed division algebras up to [[isomorphism]]: the algebras of 
 
