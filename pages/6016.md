@@ -19,7 +19,7 @@ On [[grand unified theories]], [[naturalness]], [[D=4 N=8 supergravity]], [[supe
 
 A philosophical account of the nature of the universe is in
 
-* {#Gell-Mann96} [[Murray Gell-Mann]], _Nature conformable to herself: Some arguments for a unified theory of the universe_, Complexity 1(4): 9-12 (1996), ([doi](https://doi.org/10.1002/cplx.6130010404)).
+* {#Gell-Mann96} [[Murray Gell-Mann]], _Nature conformable to herself: Some arguments for a unified theory of the universe_, Complexity 1(4): 9-12 (1996), ([doi:10.1002/cplx.6130010404](https://doi.org/10.1002/cplx.6130010404)).
 
 
 ## Related $n$Lab entries
