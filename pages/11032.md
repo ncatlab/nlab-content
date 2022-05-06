@@ -54,9 +54,15 @@ the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal
 $$ A^+ \otimes B^- \otimes C^- \xrightarrow{f\otimes 1} A^- \otimes B^+ \otimes C^- \xrightarrow{1\otimes g} A^- \otimes B^- \otimes C^+. $$
 Note that $\mathcal{C}$ embeds [[fully faithful functor|fully-faithfully]] in $Int(\mathcal{C})$ by sending $A$ to $(A,I)$, where $I$ is the unit object of the monoidal structure.
 
+Furthermore, a traced monoidal category that is $\ast$-[[star-autonomous category|autonomous]] must already be compact closed; see [HH13](#HH13).
+
 ### In cartesian monoidal categories
 
 For a [[cartesian monoidal category]], the existence of a trace operator is equivalent to the existence of a "parameterized" [[fixed point]] operator satisfying certain properties ([Hasegawa 1997](#Hasegawa97)).
+
+### Adding traces
+
+Since any full monoidal subcategory of a traced monoidal category inherits a trace, not every monoidal category can be fully embedded into a traced monoidal category, and hence also not into a compact closed category.  In fact, Plotkin observed that there are monoidal categories that cannot even be *faithfully* mapped into a traced monoidal category.  This can be seen from the fact that a traced monoidal category has the "cancellation property" that if $f\otimes id_{X\otimes X} = g \otimes id_{X\otimes X}$ then $f\otimes id_X = g\otimes \id_X$ (since the latter is a trace of the former with one of the copies of $X\otimes X$ transposed), but not all monoidal categories have this property.
 
 ### Categorical semantics
 
@@ -79,6 +85,11 @@ The equivalence between traces and parameterized fixed point operators appears a
 Comprehensive discussion as a source for [[categorical semantics]] of the [[Geometry of Interactions]] is in 
 
 * {#AbramskyHaghverdiScott02} [[Samson Abramsky]], [[Esfandir Haghverdi]],  [[Philip Scott]], _Geometry of Interaction and Linear Combinatory Algebras_. MSCS, vol. 12(5), 2002, 625-665, CUP (2002) ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.24.7818))
+
+The combination with [[star-autonomous category|star-autonomous]] structure was discussed in
+
+* Tamás Hajgató and [[Masahito Hasegawa]], *Traced $\ast$-autonomous categories are compact closed*, [TAC](http://www.tac.mta.ca/tac/volumes/28/7/28-07abs.html), 2013
+ {#HH13}
 
 
 [[!redirects traced monoidal categories]]
