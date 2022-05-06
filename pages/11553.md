@@ -122,6 +122,10 @@ The issue with non-reducible $E_8$-gauge connections is highligted in
 
 * {#DistlerSharpe10} [[Jacques Distler]], [[Eric Sharpe]], section 5 of _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
+On a subtlety in the application of the [[Narasimhan-Seshadri theorem]] in the duality:
+
+* Herbert Clemens, Stuart Raby, _Heterotic/F-theory Duality and Narasimhan-Seshadri Equivalence_ ([arxiv:1906.07238](https://arxiv.org/abs/1906.07238))
+
 
 [[!redirects duality between F-theory and heterotic string theory]]
 
