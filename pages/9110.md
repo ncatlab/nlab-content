@@ -88,6 +88,10 @@ Discussion of [[weak G2 holonomy]] on $X_7$ is in
 
 * [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
 
+See also:
+
+* [[Ergin Sezgin]], _11D Supergravity on $AdS_4 \times S^7$ versus $AdS_7 \times S^4$_ ([arXiv:2003.01135](https://arxiv.org/abs/2003.01135))
+
 
 
 [[!redirects Freund-Rubin compactifications]]
