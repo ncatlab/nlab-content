@@ -17,6 +17,9 @@ On [[Ricci flow]] and [[quantum gravity]]:
 * Alexander Frenkel, [[Petr Horava]], Stephen Randall, _Topological Quantum Gravity of the Ricci Flow_ ([arXiv:2010.15369](https://arxiv.org/abs/2010.15369))
 
 
+* Alexander Frenkel, [[Petr Horava]], Stephen Randall, _Perelman's Ricci Flow in Topological Quantum Gravity_ ([arXiv:2011.11914](https://arxiv.org/abs/2011.11914))
+
+
 ## Related entries
 
 * [[Hořava-Witten theory]]
