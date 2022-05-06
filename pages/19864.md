@@ -32,7 +32,7 @@ The proof is due to
 
 * {#Loffler74} Peter Löffler, _Bordismengruppen unitärer Torusmannigfaltigkeiten_, Manuscripta Math. 12 (1974), 307-327 ([doi:10.1007/BF01171078](https://doi.org/10.1007/BF01171078))
 
-* G. Comezana, [[Peter May]], _A completion theorem in complex cobordism. In J. P. May, et al. Equivariant homotopy and cohomology theory. NSF-CBMS Regional Conference Series in
+* G. Comeza&ntilde;a, [[Peter May]], _A completion theorem in complex cobordism. In J. P. May, et al. Equivariant homotopy and cohomology theory. NSF-CBMS Regional Conference Series in
 Mathematics No. 91. 1996
 
 Detailed review is in 
