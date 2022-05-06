@@ -349,6 +349,10 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 ## References
 
+Early account with an eye towards [[cobordism theory]] and the [[Pontrjagin-Thom isomorphism]]:
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
 
 Textbook accounts:
 
