@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[flavor branes]]:
+
+* [[Carlos Nunez]], A. Paredes, A.V. Ramallo, _Flavoring the gravity dual of $\mathcal{N}=1$ Yang-Mills with probes_, JHEP 0312:024, 2003 ([arXiv:hep-th/0311201](https://arxiv.org/abs/hep-th/0311201))
+
+
 On [[Seiberg duality]]:
 
 * Eduardo Conde, [[Jérôme Gaillard]], [[Carlos Núñez]], Maurizio Piai, Alfonso V. Ramallo, _Towards the string dual of tumbling and cascading gauge theories_ ([arXiv:1112.3346](http://arxiv.org/abs/1112.3346))
