@@ -27,7 +27,7 @@ $$
 $$
 This notation stands for a limit over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor $\pi: c/R \to D$ that forgets the morphism $f$: 
 $$
-  L c = \lim\; \pi
+  L c = \lim_{c\to R d} \pi
   \,.
 $$
 
@@ -35,11 +35,11 @@ Because with this definition there would be, for every $d$, an obvious morphism
 $$
   L R d \stackrel{=}{\to} \lim_{R d \to R d'} d' \to d
 $$
-(the component map over $d$ of the limiting [[cone]]) while moreover because $R$ preserves limits, we would have an [[isomorphism]]
+(the component map over $d$ of the limiting [[cone]]). Moreover, because $R$ preserves limits, we would have an [[isomorphism]]
 $$
   R L c \simeq \lim_{c\to R d} R d
 $$ 
-and hence an obvious morphism of [[cone]] tips
+(the limit of the functor $R \pi$), and hence an obvious morphism of [[cone]] tips
 $$
  c \to R L c
  \,.
