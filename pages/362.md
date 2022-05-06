@@ -51,6 +51,8 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * John W. Gray, _Formal category theory: adjointness for 2-categories_, Lecture Notes in Mathematics, Vol. 391. Springer-Verlag, Berlin-New York, 1974. xii+282 pp doi:[10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280) (see also [[Adjointness for 2-Categories]])
 
+* John W. Gray, _Coherence for the Tensor Product of 2-Categories, and Braid Groups_ , pp.62-76 in Heller, [[Myles Tierney|Tierney]] (eds.), _Algebra, Topology, and Category Theory_ , Academic Press New York 1976.
+
 * Robert Gordon, [[John Power]], [[Ross Street]].  _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp. doi:[10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558) ([AMS bookstore](https://bookstore.ams.org/memo-117-558/) incl. free sample chapter)
 
 * [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory, 26(2) (2002) pp171-205, ([gzipped .ps](http://maths.mq.edu.au/~slack/papers/qmc2cat.ps.gz)) (doi:[10.1023/A:1020305604826](https://doi.org/10.1023/A:1020305604826) - requires Portico subscription)
