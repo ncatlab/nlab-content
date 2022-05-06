@@ -82,7 +82,7 @@ Between Landweber exact spectra, every [[phantom map]] is already null-homotopic
 
 For the special case of $E = $[[KU]] the statement is originally due to
 
-* {#ConnerFloyd66} P. Conner, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 [pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf)
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 [pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf)
 
 The general result for complex orientation originates in 
 
