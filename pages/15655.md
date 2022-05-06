@@ -33,7 +33,7 @@ This was introduced for [[arithmetic curves]] in ([Tate 50](#Tate50), [Iwasawa 5
 
 * The [completed Riemann zeta function](Riemann+zeta+function#TheCompletedZetaFunction) (see there) is naturally an adelic integral (reviewed e.g. in [Goldfeld-Hundley 11, (2.2.6)](#GoldfeldHundley11)).
 
-For L-functions: [Wikipedia Rankin-Selberg method -- Modern adelic theory](http://en.wikipedia.org/wiki/Rankin&#8211;Selberg_method#Modern_adelic_theory)
+For L-functions: [Wikipedia Rankin–Selberg method -- Modern adelic theory](http://en.wikipedia.org/wiki/Rankin–Selberg_method#Modern_adelic_theory)
 
 ### $p$-Adic string scattering amplitudes
 
