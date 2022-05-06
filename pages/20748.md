@@ -41,6 +41,8 @@ The stochastic order can be extended from probability measures to [[random varia
 Let $X$ be an ordered topological space, and let $f,g:\Omega\to X$ be [[random elements]] with values in $X$ on the [[probability space]] $(\Omega,\mu)$.
 We say that $f\le g$ in the **stochastic order** if and only if $f_*\mu\le g_*\mu$ in the stochastic order of measures defined above. 
 
+In decision theory, economics and related fields, this order is also known as **first-order stochastic dominance**, especially on the real line.
+
 
 ## As a 2-functor
 
