@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[D3-D5 brane bound states]]:
+
+* [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+
 On [[knot invariants]] from [[Yang-Mills theory]]:
 
 * [[Davide Gaiotto]], [[Edward Witten]], _Knot Invariants from Four-Dimensional Gauge Theory_, Advances in Theoretical and Mathematical Physics, Volume 16 (2012) Number 3 ([arxiv:1106.4789](https://arxiv.org/abs/1106.4789))
