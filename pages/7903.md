@@ -28,7 +28,13 @@ In the context of [[twisted cohomology]] a [[cocycle]] on a [[space]] $X$ with [
 
 * [[twisted infinity-bundle]]
 
+## References
 
+Local coefficient bundles in the context of [[twisted ordinary cohomology]]: 
+
+* [[Norman Steenrod]], _Homology With Local Coefficients_, Annals of Mathematics, Second Series, Vol. 44, No. 4 (Oct., 1943), pp. 610-627 ([jstor:1969099](https://www.jstor.org/stable/1969099))
+
+* M. Bullejos, E. Faro, M. A. Garc&iacute;a-Mu&ntilde;oz, _Homotopy colimits and cohomology with local coefficients_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 44 no. 1 (2003), p. 63-80 ([numdam:CTGDC_2003__44_1_63_0](http://www.numdam.org/item?id=CTGDC_2003__44_1_63_0))
 
 [[!redirects local coefficients]]
 
