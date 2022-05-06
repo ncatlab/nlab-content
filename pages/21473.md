@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _generalized Scherk-Schwarz reduction_ is a [[dimensional reduction]] combined with a [[duality]] twist for [[exceptional field theory]] and [[double field theory]].
+A _generalized Scherk-Schwarz reduction_ is a [[dimensional reduction]] combined with a [[duality in string theory|duality]] twist, such as for [[exceptional field theory]] and [[double field theory]].
 
 Consider an [[exceptional field theory]] on a certain extended space, i.e. a [[smooth manifold]] locally [[isomorphism|isomorphic]] to $U \times R$, where $R$ is the underlying [[vector space]] of the [[fundamental representation]] of some [[duality in string theory|duality]] [[group]] $G$ (e.g. [[U-duality]] or [[T-duality]]). Let us call $x$ the local coordinates of the base manifold $U$ and $(y,\tilde{y})$ the ones of the [[fiber]] $R$, called _internal manifold_.
 
@@ -56,3 +56,31 @@ where $\mathcal{H}_{A B} = \mathrm{diag}(\delta_{a b},\,\delta^{a b})$. This sim
 * [[exceptional field theory]]
 
 * [[gauged supergravity]]
+
+## References
+
+### General
+
+The original [[Scherk-Schwarz mechanism]]:
+
+* {#ScherkSchwarz89} [[Joël Scherk]], [[John Schwarz]], _How to get masses from extra dimensions_, in: Supergravities in Diverse Dimensions, pp. 1282-1309 (1989)  ([doi:10.1142/9789814542340_0083](https://doi.org/10.1142/9789814542340_0083))
+
+The [[duality in string theory|duality]]-twisted generalized version:
+
+* [[Atish Dabholkar]], [[Chris Hull]], _Duality Twists, Orbifolds, and Fluxes_, JHEP 0309:054, 2003 ([arXiv:hep-th/0210209](https://arxiv.org/abs/hep-th/0210209))
+
+
+* [[Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_, JHEP 0510:065, 2005 ([arXiv:hep-th/0406102](https://arxiv.org/abs/hep-th/0406102))
+
+
+### In M-theory
+
+A lift of [[D8-branes]] to [[M-theory]] [[M-branes]] by [[generalized Scherk-Schwarz reduction]], relating to [[D7-branes]] in [[F-theory]], is proposed in 
+
+* {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
+
+[[!redirects generalized Scherk-Schwarz mechanism]]
+
+
+
+
