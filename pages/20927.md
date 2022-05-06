@@ -542,3 +542,6 @@ See also:
 [[!redirects Faulkner construction]]
 [[!redirects Faulkner constructions]]
 
+[[!redirects BLG 3-algebra]]
+[[!redirects BLG 3-algebras]]
+
