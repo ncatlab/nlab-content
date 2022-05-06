@@ -160,6 +160,9 @@ These happen to be also [[microcausal observables]] ([this example](microcausal+
 
 [[polynomial]] [[local observables]] $\hookrightarrow$ [[microcausal observables]] $\hookrightarrow$ [[polynomial observables]] $\hookrightarrow$ [[observables]]
 
+[[!include states and observables -- content]]
+
+
 ## References
 
 See the references at _[[microcausal observable]]_.
