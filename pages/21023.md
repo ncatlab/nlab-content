@@ -38,7 +38,7 @@ This may be regarded (at some finite depth truncation) as a [[tensor network sta
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-(As in [HLM 19](#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](#HMPS18)?)
+(As in [HMSS 16](#HMSS16), [HLM 19](#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](#HMPS18)?)
 
 
 
@@ -68,7 +68,7 @@ Suggestion to identify the [[Bruhat-Tits tree]] $T_p$ with [[anti de Sitter spac
 
 Relation to [[tensor networks]]:
 
-* [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
+* {#HMSS16} [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
 
 
 
@@ -86,7 +86,7 @@ Including [[BTZ black holes]]:
 
 * {#HMPS18} Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
 
-* Stephen Ebert, Hao-Yu Sun, Meng-Yang Zhang, _Probing holography in $p$-adic CFT_ ([arXiv:1911.06313](https://arxiv.org/abs/1911.06313))
+* {#ESZ19} Stephen Ebert, Hao-Yu Sun, Meng-Yang Zhang, _Probing holography in $p$-adic CFT_ ([arXiv:1911.06313](https://arxiv.org/abs/1911.06313))
 
 
 An expository account is given in
