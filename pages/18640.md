@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -29,6 +30,8 @@ The name derives from programming terminology. A **thunk** means a value that re
 The type constructor $L$ and associated thunk and force don't normally appear as a standalone feature in a call-by-value language, but if the language supports first-class functions, they can be implemented in the usual way as a function of unit input.
 On the model side, this corresponds to the fact that if a thunk-force category is [[premonoidal category|premonoidal closed]], then $L A$ is equivalent to $I \rightharpoonup A$ and $\theta, \epsilon$ can be defined using this structure.
 
+The [[opposite category|opposite]] of a thunk-force category is sometimes called a category equipped with a **runnable monad**.  (Thus, a thunk-force structure could be called a "(co)runnable comonad", while a runnable monad could be called a "co-thunk-force category".)  Just as a thunk-force category models call-by-value programming, a runnable monad models [[call-by-name]] programming.
+
 ## Definition
 
 A thunk-force category [F&#252;hrmann 99](#F99) consists of
@@ -45,18 +48,22 @@ such that
 * $\epsilon\theta = \id$
 * $(L\epsilon)(\theta L) = \id$
 
+These conditions on the data $(L,\epsilon,\theta)$ can also be rephrased as
+
+* $(L,\epsilon,\theta L)$ is a [[comonad]].
+* Each $\theta_A : A \to L A$ equips $A$ with the structure of an $L$-[[coalgebra over a comonad]].
+
+The second of these axioms states that $\epsilon\theta = \id$ and that $(L\theta)\theta = (\theta L)\theta$, while the first states that $\theta L$ is natural and $(L\epsilon)(\theta L) = \id$ (plus two other properties that follow from the second axiom).
+
 The definition can be extended to monoidal closed thunk-force category to model a context and strong monad [F&#252;hrmann 99](#F99).
+
 
 ## Thunkable Morphisms
 
 A morphism $f : A \to B$ represents an effectful program. The presence of the thunk $\theta$ allows us to make the distinction between the "pure"/"trivially effectful" programs and those that have non-trivial effects.
-A morphism $f : A \to B$ in a thunk-force category is **thunkable** if $( L f )\theta = \theta f$, i.e., $\theta$ is "natural with respect to $f$".
-Then the conditions on the data $(L,\epsilon,\theta)$ in the definition of thunk-force category can be rephrased as
+A morphism $f : A \to B$ in a thunk-force category is **thunkable** if $( L f )\theta = \theta f$, i.e., $\theta$ is "natural with respect to $f$".  Note that the condition $(L\theta)\theta = (\theta L)\theta$ in the definition says precisely that **$\theta$ is thunkable**.
 
-* $\theta$ is thunkable
-* $(L,\epsilon,\theta L)$ is a [[comonad]].
-
-The presence of non-thunkable morphisms makes $\theta$ fail to be natural, naturality of $\theta$ is exactly the same as saying all morphisms are thunkable. This is the case for the Kleisli category of the identity monad. On the other hand, most monads produce many non-thunkable morphisms. For example in the Kleisli category of the [[maybe monad]], which is equivalent to the category of sets and partial functions, the thunkable morphisms are the total functions. As discussed below, most monads $T$ on a category $C$ used in [[denotational semantics]] satisfy an equalizing requirement which means the thunkable morphisms are in one-to-one correspondence to the morphisms of the original category $C$.
+The presence of non-thunkable morphisms makes $\theta$ fail to be natural overall; naturality of $\theta$ is exactly the same as saying all morphisms are thunkable. This is the case for the Kleisli category of the identity monad. On the other hand, most monads produce many non-thunkable morphisms. For example in the Kleisli category of the [[maybe monad]], which is equivalent to the category of sets and partial functions, the thunkable morphisms are the total functions. As discussed below, most monads $T$ on a category $C$ used in [[denotational semantics]] satisfy an equalizing requirement which means the thunkable morphisms are in one-to-one correspondence to the morphisms of the original category $C$.
 
 ## Relation to Monads
 
@@ -95,3 +102,10 @@ Thunk-force categories were introduced (under the name "abstract Kleisli categor
 * {#HD97} John Hatcliff and Olivier Danvy, "Thunks and the $\lambda$-Calculus", Journal of Functional Programming 1997
 
 [^terminology]: We prefer the term thunk-force category since it is ambiguous whether [[Kleisli category]] refers to the Kleisli category of a [[monad]] or a [[comonad]].
+
+[[!redirects thunk-force categories]]
+[[!redirects abstract Kleisli category]]
+[[!redirects abstract Kleisli categories]]
+
+[[!redirects runnable monad]]
+[[!redirects runnable monads]]
