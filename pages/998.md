@@ -54,7 +54,7 @@ In this vein, around 1989, the [[noncommutative projective geometry]]  was devel
 
 A huge project started, trying to classify Auslander-regular algebras, graded-connected and generated in degree one (that is, noncommutative analogons of projective n-space) for small dimensions n. In dimension 3, the initial work was done by Artin and Schelter, culminating in the influential papers (ATV1), (ATV2) by Mike Artin, John Tate and [[Michel Van den Bergh]] (see bibl.). In this classification a class of algebras re-appeared which were initially discovered by Odeskii and Feigin, the so called Sklyanin algebras. Ring-theoretic investigations of the Sklyanin algebras were done by Tate and Van den Bergh (Noetherianity for all dimensions n) and in dimension 4 a geometric study via 'point' and 'line' modules was carried out by Thierry Levasseur, Toby Stafford and Paul Smith. Further classifications in dimension 3 (dropping the degree one generator condition) and 4 were done by these people and their students. In the ungraded case, maximal orders with excellent homological properties were recently used in connection with quotient-singularities and their desingularizations as in the noncommutative crepant resolution by Michel Van den Bergh (Abel symposium 2002).
 
-A discussion between Lieven Le Bruyn and Zoran &#352;koda on an early version of this entry is archived at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2313&Focus=23135#Comment_23135).
+A discussion between Lieven Le Bruyn and Zoran &#352;koda on an early version of this entry is archived at $n$Forum.
 
 ## Approaches 
 
