@@ -26,7 +26,7 @@
 
 The _classical model structure on simplicial sets_ or _Kan-Quillen model structure_ , $sSet_{Quillen}$ ([Quillen 67, II.3](#Quillen67)) is a [[model category]] structure on the [[category]] [[sSet]] of [[simplicial sets]] which represents the standard classical [[homotopy theory]]. 
 
-Its [[weak equivalences]] are the [[weak homotopy equivalences]] ([[isomorphisms]] on [[simplicial homotopy groups]]), its [[fibrations]] are the [[Kan fibrations]] and its [[cofibrations]] are the [[monomorphisms]] (degreewise injections).
+Its [[weak equivalences]] are the [[simplicial weak equivalences]] ([[isomorphisms]] on [[simplicial homotopy groups]]), its [[fibrations]] are the [[Kan fibrations]] and its [[cofibrations]] are the [[monomorphisms]] (degreewise injections).
 
 The [[singular simplicial complex]]/[[geometric realization]] [[nerve and realization|adjunction]] constitutes a [[Quillen equivalence]] between 
 $sSet_{Quillen}$ and $Top_{Quillen}$, the [[classical model structure on topological spaces]]. This is sometimes called part of the statement of the _[[homotopy hypothesis]]_ [for Kan complexes](homotopy+hypothesis#ForKanComplexes). In the language of [[(∞,1)-category theory]] this means that $sSet_{Quillen}$ and $Top_{Quillen}$ both are [[presentable (∞,1)-category|presentations]] of the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoids]].
@@ -1246,7 +1246,7 @@ Use prop. \ref{SingDetextsAndReflectsFibrations} and prop. \ref{GeometricRealiza
 
 The classical model structure on [[simplicial sets]], $sSet_{Quillen}$, has the following distinguished classes of morphisms:
 
-* The classical **weak equivalences** $W$ are the morphisms whose [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, is a [[weak homotopy equivalence]] of [[topological spaces]];
+* The classical **weak equivalences** $W$ are the [[simplicial weak equivalences]]: morphisms whose [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, is a [[weak homotopy equivalence]] of [[topological spaces]];
 
 * The classical **fibrations** $F$ are the **[[Kan fibrations]]**, def. \ref{KanFibration};
 
@@ -1445,8 +1445,6 @@ A proof of the model structure not relying on the [[classical model structure on
 
 [[!redirects classical model category of simplicial sets]]
 
-[[!redirects simplicial weak equivalence]]
-[[!redirects simplicial weak equivalences]]
 
 
 
