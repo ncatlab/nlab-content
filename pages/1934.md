@@ -91,7 +91,7 @@ In this context see also
 
 In the context of a discussion of the [[big Zariski topos]] Lawvere calls the gros-petit distinction '_a surprising twist of logic that is not yet fully clarified_' on p.110 of his contribution to the _Eilenberg-Festschrift_:
 
-* {#Lawvere76}[[Bill Lawvere]], _Variable quantities and variable structures in topoi_ , pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_ , Academic Press New York 1976.
+* {#Lawvere76}[[Bill Lawvere]], _Variable quantities and variable structures in topoi_, pp.101-131 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_ , Academic Press New York 1976.
 
 The suggestion that a _general notion_ of gros topos is needed goes back to some remarks in _[[Pursuing Stacks]]_. A precise axiom system capturing the notion is first proposed in 
 
