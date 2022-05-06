@@ -53,11 +53,17 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
   * [[holographic entanglement entropy]]
 
+* [[thermal quantum field theory]]
+
 ## References
  {#References}
 
 ### General
  {#ReferencesGeneral}
+
+A textbook account is
+
+* {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford 2011
 
 Basic introductory accounts include
 
@@ -132,3 +138,7 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 
 [[!redirects black hole entropy]]
 [[!redirects BH entropy]]
+
+[[!redirects black hole thermodynamics]]
+
+
