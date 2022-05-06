@@ -8,7 +8,7 @@ The proceedings of Cartan's famousseminar are now online at [numdam](http://numd
 
 ## Selected writings
 
-On [[Cartan calculus]] and [[equivariant de Rham cohomology]]:
+On [[Cartan calculus]] and [[equivariant de Rham cohomology]] ([[Cartan's magic formula]], [[Cartan's map]], ...):
 
 * {#Cartan50} [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibré principal_, Colloque de topologie (espaces fibrés). Bruxelles, 1950
 
