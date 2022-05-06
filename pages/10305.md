@@ -33,6 +33,8 @@
 
 * [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
 
+* [[D5-branes]] and [[NS5-branes]] form bound states to [[(p,q)5-branes]]
+
 * [[D1-D5 brane bound states]]
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
