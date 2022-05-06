@@ -109,7 +109,7 @@ The topological topos is discussed in the context of [[convenient category of to
 
 * H. A. Harasani, _Topos theoretic methods in general topology_ , PhD Thesis University of Wales Bangor 1988.
 
-Recently, the topos has received attention in the context of [[Homotopy type theory]]. Shulman has shown that their is a [[higher topos]] analogue which models [[homotopy type theory]].
+Recently, the topos has received attention in the context of [[Homotopy type theory]]. Shulman has shown that there is a [[higher topos]] analogue which models [[homotopy type theory]].
 
 * [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, 2015 [arXiv](https://arxiv.org/abs/1509.07584)
 
