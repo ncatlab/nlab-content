@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
 #### Riemannian geometry
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
@@ -35,6 +39,8 @@ $$I^2=J^2=K^2=I J K=-1.$$
 ## Related concepts
 
 * [[Kähler manifold]], **hyper-K&#228;hler manifold**, [[quaternionic Kähler manifold]]
+
+* [[compact hyperkähler manifold]]
 
 * [[ADE singularity]]
 
