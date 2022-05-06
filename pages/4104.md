@@ -69,6 +69,7 @@ $$
     \stackrel{\stackrel{*_{fin} }{\longrightarrow}}{\stackrel{ f \mapsto \left( g \mapsto  \frac{1}{|G_{fin}|} \sum_{h \in G} f( g, h) \right)  }{\longrightarrow}}
     C(G_{fin}) \stackrel{f \mapsto \frac{1}{|G_{fin}|} \sum_{g \in G} f(g)}{\longrightarrow} \mathbb{R}
 $$
+Note that the monad involved has no unit, as $C(G)$ has no unit. However, convolution makes $C(G)$ an assocciative nonunitial algebra, so that the resolution is a _unitless_ monad. This explains why there are evident face maps without degeneracies. 
 
 **Remark:** Define a map $C(G \times G) \rightarrow \mathbb{R}$ sending $f$ to $$\int_{g \in G} f(g, g)$$
 This appears pleasingly similar to the coend 
