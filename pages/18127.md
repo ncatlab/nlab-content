@@ -14,7 +14,7 @@ Homotopy classes of paths form the _[[fundamental groupoid]]_ of a topological s
 first step in extracting combinatorial data in homotopy theory. We use this example to introduce
 [[groupoids]] and their [[homotopy theory]] in general and mention that this models the homotopy theory
 of those topological spaces that are [[homotopy 1-types]]. Then we discuss the concept of [[covering spaces]]
-and use groupoids to give a simple proof of the [[fundamental theorem of covering spaces]], which says that these  are euivalent
+and use groupoids to give a simple proof of the [[fundamental theorem of covering spaces]], which says that these  are equivalent
 to permutation representations of the fundamental groupoid.  This is
 a simple topological version of the general principle of _[[Galois theory]]_ and has many
 applications. As one example application, we use it to prove that the [[fundamental group of the circle is the integers]].
@@ -2678,7 +2678,7 @@ which,
 
 We may think of this as the result of "winding the line around the circle ad infinitum".
 Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[leaves]] at each point forming the
-set $\mathbb{Z}$ of [[natural numbers]].
+set $\mathbb{Z}$ of [[integers]].
 
 Below in example \ref{UniversalCoveringRealLineOfCircle} we see that this is the _[[universal covering space]]_
 &#243;f the circle.
