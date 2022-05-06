@@ -25,6 +25,10 @@ Including [[strange quarks]]:
 
 * V. P. Goncalves, L. Lazzari, _An introduction to strange stars_ (in Portuguese) ([arXiv:2006.02976](https://arxiv.org/abs/2006.02976))
 
+Including [[sigma-meson]] and [[omega-meson]]:
+
+* David Alvarez-Castillo, Alexander Ayriyan, Gergely Gábor Barnaföldi, Hovik Grigorian, Péter Pósfay, _Studying the parameters of the extended $\sigma$-$\omega$ model for neutron star matter_ ([arXiv:2006.03676](https://arxiv.org/abs/2006.03676))
+
 
 Observation of [[gravitational waves]] coincident with [[electromagnetic radiation]] from merging neutron stars:
 
