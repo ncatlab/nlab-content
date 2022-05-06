@@ -133,6 +133,11 @@ Beware that some authors say _Chern-Dold character_ for the full map in (eq:Cher
 [Buchstaber 70](#Buchstaber70), 
 [Upmeier 14](#Upmeier14), [Lind-Sati-Westerland 16, Def. 2.1](#LindSatiWesterland16)), while other authors mean by this only that last equivalence in (eq:ChernDoldCharacter) (e.g. [Rudyak 98, II.3.17](#Rudyak98), [Gross 19, Def. 2.5](#Gross19)).
 
+Examples of Chern-Dold characters: 
+
+* [[Chern character]] on [[KU]];
+
+* [[Pontrjagin character]] on [[KO]].
 
 ### For cohesive stable homotopy types
 
