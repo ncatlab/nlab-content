@@ -22,6 +22,21 @@
 
 What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector of light [[quarks]] where the effective [[field (physics)|fields]] are [[mesons]].
 
+This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the light quarks, which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]].
+
+As such, the point about which [[perturbation theory|perturbations]] are considered in chiral perturbation theory of QCD is that of vanishing [[quark]] masses. But since only the quark mass term in the [[Lagrangian density]] mixes the two [[Weyl spinor|chiralities]] of quarks, the Lagrangian in this massless limit is the sum of a term that only contains the left-chiral quark spinors, and an analogous summand that only contains the right-chiral  quark spinors.
+
+Moreover, all two ([[up quark|up]] and [[down quark|down]]) or even all three (if including [[strange quark|strange]]) [[flavour (particle physics)|flavours]] of quarks enter each of these two spinor-chiral summands symmetrically, such that each of them has [[SU(2)]] or respectively [[SU(3)]] [[global symmetry]], [[action|acting]] by mixing the quark flavours. This yields a total [[direct product group|direct product]] [[symmetry group]] 
+
+$$
+  G = SU(N_f)_L \times SU(N_f)_R
+  \,,
+$$
+
+where $N_f \in \{ 2,3 \}$ is the [[number]] of [[flavour (particle physics)|flavours]] of light [[quarks]] that are being considered, and where the subscripts indicate the left/right-handed [[chiral spinor]]-components of quarks whose [[flavour (particle physics)|flavours]] are being mixed by these [[group]] [[actions]]. This is the origin of the term _chiral perturbation theory_.
+
+(...)
+
 ## Related concepts
 
 * [[confinement]]
