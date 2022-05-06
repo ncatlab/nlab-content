@@ -1085,6 +1085,12 @@ Application to QCD [[QFT with defects|with defects]]:
 * Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
 
 
+### Application to thermal QCD
+
+Application to [[thermal field theory|thermal]] [[QCD]]:
+
+* Vikas Yadav, Aalok Misra, _Towards Thermal QCD from M theory at Intermediate 't Hooft Coupling (and IR $SU(3)$/$G_2$/$SU(4)$,$Spin(7)$-Structure Torsion Classes of Six-/Seven-/Eight-Folds)_ ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
+
 
 
 
