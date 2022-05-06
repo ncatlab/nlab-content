@@ -49,6 +49,10 @@ A comprehensive guide for architects of blockchain applications with an attempt 
 
 * Xiwei Xu, Ingo Weber, Mark Staples, _Architecture for blockchain applications_, Springer 2019
 
+The following systematic book written by a several authors offers pretty rigorous handbook on blockchain security issues
+
+* Sachin S. Shetty, Charles A. Kamhoua, Laurent L. Njilla (eds.) _Blockchain for distributed systems security_, 324 pp. IEEE Press, SMTE Books 2019
+
 For a more comprehensive list of references see [[zoranskoda:blockchain]] (at zoranskoda). 
 
 category: computer science, applications
