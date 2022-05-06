@@ -71,6 +71,10 @@ Lecture notes include
 
 * [[Doron Gepner]], _Lectures On $N=2$ String Theory_, 1989 ([[Gepner89.pdf:file]], [spire:277718/](http://inspirehep.net/record/277718/))
 
+Further discussion in
+
+* [[Maximilian Kreuzer]], _Heterotic $(0,2)$ Gepner Models and Related Geometries_, in _Fundamental Interactions_, pp. 335-362 World Scientific (2009) ([arXiv:0904.4467](https://arxiv.org/abs/0904.4467), [doi:10.1142/9789814277839_0019](https://doi.org/10.1142/9789814277839_0019))
+
 See also the references at _[[flop transition]]_ for more.
 
 
