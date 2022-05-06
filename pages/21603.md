@@ -476,6 +476,10 @@ $PreSup(P)\;\coloneqq\;\cap b:DiaBool(\top).b \in DiaBool(P)$
 
 This definition was motivated by getting respect to mean the right thing, but as it turns out, subtyping and respect coincide for instances of $DiaBool$. (Since they all have the same computations, namely the booleans.) So $PreSup(P)$ is non-negatable, and satisfies the rules above.
 
+As an (admittedly pretty boring) application of $PreSup$, we can define a "Martin-Löf" equality type constructor that's like relaxed equality, but is only meaningful on elements of the indicated type:
+
+$a1 =_A a2\;\coloneqq\;TpV(a1 = a2 \in A\;|\;PreSup(a1 \in A \wedge a2 \in A))$
+
 ## References
 
 * {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
