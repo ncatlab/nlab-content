@@ -19,6 +19,10 @@
 
 A square [[matrix]] $(A_{x,y})\in Mat_{n \times n}(R)$ whose values for $x\neq y$ are all [[zero]] is called a _diagonal matrix_.
 
+## Examples
+
+A diagonal matrix with value 1 on the diagonal is an [[identity matrix]].
+
 ## Properties
 
 Diagonal matrices form the [[center]] of the ring of matrices under [[matrix multiplication]].
