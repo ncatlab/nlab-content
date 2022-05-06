@@ -325,3 +325,7 @@ For historical accounts see
 
 [[!redirects commutative unital ring]]
 [[!redirects commutative unital rings]]
+
+[[!redirects ring unit]]
+[[!redirects ring units]]
+
