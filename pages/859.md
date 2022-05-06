@@ -11,7 +11,7 @@
 
 
 
-# Semidirect products
+# Content
 * table of contents
 {: toc}
 
@@ -54,7 +54,16 @@ However, right and left semidirect products are equivalent.  Essentially, this i
 
 ### As a Grothendieck construction
 
-Letting $G$ be viewed as a category with one object, define the functor $F \; G \to Cat$ by $* \mapsto \Gamma$ also viewed as a category with one object. This gives the action $G \to Aut(\Gamma)$ and the Grothendieck construction $\int_G F$ is the one object category for the above group.
+Writing $\mathbb{B} G$ for the [[category]] with a single [[object]] $\ast$ and the [[group]] $G$ as its [[hom set]] (i.e. the [[delooping]] [[groupoid]] of $G$), define a [[functor]] $F \colon \mathbb{B}G \to$ [[Cat]] to send that single object to the delooping groupoid of $\Gamma$, i.e. $* \mapsto \mathbb{B}\Gamma$ and to send the morphisms $G \to Aut(\Gamma)$ according to the given [[action]] of $G$ on $\Gamma$.
+
+Then the delooping of the semidirect product group $\Gamma \rtimes G$ arises as the [[Grothendieck construction]] of this functor:
+
+$$
+  \mathbb{B}( \Gamma \rtimes G)
+  \;\simeq\;
+  \int_{\mathbb{B}G}F
+$$ 
+
 
 ### Semidirect products of groupoids
 
