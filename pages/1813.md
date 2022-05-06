@@ -202,7 +202,7 @@ One formalization of this for $n = \infty$ in the context of [[strict ∞-catego
 
 ### Dold--Kan correspondence 
 
-The [[Dold?Kan correspondence]] is the nerve/realization adjunction for the [[homology]] functor
+The [[Dold-Kan correspondence]] is the nerve/realization adjunction for the [[homology]] functor
   $$
     \Delta_{C_\bullet} : \Delta \to Ch_+
   $$
