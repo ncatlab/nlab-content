@@ -68,7 +68,7 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
-This situation was confirmed, if not further improved yet, with the data presented at Moriond 2019 ([Straub 19](#Straub19), [Allanach 19](#Allanach19)). On the other hand, [Caria 19, slide 9](#Caria19) sees a previous 3.8$\sigma$ decrease to $3.1$, but see [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19) for a comprehensive assessment.
+This situation was confirmed, if not further improved yet, with the data presented at [Moriond 2019](http://moriond.in2p3.fr/2019/) ([Straub 19](#Straub19), [Allanach 19](#Allanach19)). On the other hand, [Caria 19, slide 9](#Caria19) reports that the [[Belle collaboration]] sees a previous [[statistical significance]] of 3.8$\sigma$ decrease to $3.1$, but see [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) for a comprehensive assessment of the situation after Moriond 2019
 
 Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
 
@@ -221,6 +221,8 @@ Review includes
 * {#Allanach19} [[Ben Allanach]], _Finding Z's responsible for $R_{K^{(\ast)}}$_, talk at [Moriond 2019](http://moriond.in2p3.fr/2019/EW/) ([pdf](http://moriond.in2p3.fr/2019/EW/slides/6_Friday/2_afternoon/5_Allanach.pdf))
 
 * {#DescotesGenon19} Sebastien Descotes-Genon, _B-physics anomalies, fluctuations and patterns:a status report_, talk at [ALPS2019](https://indico.cern.ch/event/757995/) ([web](https://indico.cern.ch/event/757995/contributions/3315334/), [pdf](https://indico.cern.ch/event/757995/contributions/3315334/attachments/1832940/3002267/slides_alps.pdf))
+
+* {#BardhanGhosh} Debjyoti Bardhan, Diptimoy Ghosh, _B-meson charged current anomalies: the post-Moriond status_ ([arXiv:1904.10432](https://arxiv.org/abs/1904.10432))
 
 Outlook:
 
