@@ -34,9 +34,11 @@ In ([AH-M-N-V 06, section 4](#ArkaniHamedMotlNicolisVafa06)) it is argued that t
 
 ## Relation to cosmic censorship
 
-In 2015 [[Cumrun Vafa]] has argued that the weak gravity conjecture implies the [[cosmic censorship hypothesis]]: The latter turns out to be generally false, even in in 4 dimensions ([Crisford-Santos 17](censorship+hypothesis#CrisfordSantos17)), but there are arguments that configurations violating it also violate the assumption of "weak gravity".
+In 2015 [[Cumrun Vafa]] has argued that the weak gravity conjecture implies the [[cosmic censorship hypothesis]]: The latter turns out to be generally false, even in in 4 dimensions ([Crisford-Santos 17](CrisfordSantos17)), but there are arguments that configurations violating it also violate the assumption of "weak gravity".
 
 > Subsequent calculations by Santos and Crisford supported Vafa's hunch; the simulations they're running now could verify that naked singularities become cloaked in black holes right at the point where gravity becomes the weakest force. ([Wolchover, June 20 2017](https://www.quantamagazine.org/where-gravity-is-weak-and-naked-singularities-are-verboten-20170620/))
+
+For more on this see [Horowitz-Santos 19](#HorowitzSantos19)
 
 ## Related concepts
 
@@ -57,3 +59,12 @@ with reference to arguments in
 Further discussion includes
 
 * Clifford Cheung, Junyu Liu, Grant N. Remmen, _Proof of the Weak Gravity Conjecture from Black Hole Entropy_ ([arXiv:1801.08546](https://arxiv.org/abs/1801.08546))
+
+
+Relation to [[cosmic censorship hypothesis]]
+
+* {#CrisfordSantos17} Toby Crisford, [[Jorge Santos]], _Violating weak cosmic censorship in AdS$_4$_, Phys. Rev. Lett. 118, 181101 (2017) ([arXiv:1702.05490](https://arxiv.org/abs/1702.05490))
+
+* {#HorowitzSantos19} [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
+
+
