@@ -76,6 +76,12 @@ For some discussion of partition functions of 2-dimensional QFTs see [[(2,1)-dim
 
 ## References
 
+### General
+
 * Addison Ault, "The partition function: If that's what it is _Why don't they say so!_" ([pdf](http://people.cornellcollege.edu/aault/Chemistry/PartitionFunction1.pdf))
+
+
+[[!include elliptic genera as partition functions -- references]]
+
 
 [[!redirects partition functions]]
