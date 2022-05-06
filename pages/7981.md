@@ -64,12 +64,26 @@ In any case, a pure state is a state of maximal information, while a mixed state
 
 ## References
 
+For comprehensive references see those at
+
+* [[quantum probability theory]]
+
+Textbook accounts:
+
+* {#Landsman17} [[Klaas Landsman]], Sections 1.3 and 2.3 of: _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
+ 
+See also:
+
+* Quantiki, _[Pure states](https://www.quantiki.org/wiki/pure-states)
+
+ 
 Not really references on this subject, but ones referred to in the text:
 
-* {#Shannon1953} [[Claude Shannon]] (1953): The lattice theory of information, IEEE Transactions on Information Theory 1, 105--107.
+* {#Shannon1953} [[Claude Shannon]], _The lattice theory of information_, IEEE Transactions on Information Theory 1, 105--107 (1953)
    
 
-* {#LiChong2011} Hua Li and Edwin Chong (2011): On a connection between information and group lattices, Entropy 13, 683--708; [web](http://www.mdpi.com/1099-4300/13/3/683).
+* {#LiChong2011} Hua Li and Edwin Chong, _On a connection between information and group lattices_, Entropy 13, 683--708 
+ (2011) ([mdpi:1099-4300/13/3/683](http://www.mdpi.com/1099-4300/13/3/683))
    
 
 
