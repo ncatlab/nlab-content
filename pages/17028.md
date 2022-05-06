@@ -23,9 +23,16 @@ The lift of [[complex cobordism cohomology theory]] to [[equivariant stable homo
 
 [[!include Segal completion -- table]]
 
-## Universal property
+## Properties
 
-Greenlees ([Greenlees 2001](#Greenlees)) shows that the equivariant complex cobordism ring classifies equivariant formal group laws over [[Noetherian rings]], but the general conjecture is still open.
+### Universal orientation
+
+Equivariant complex cobordism is an [[equivariant complex oriented cohomology theory]] ([Greenlees 01, Sec 13](#Greenlees01)).
+
+Greenlees shows ([Greenlees 01a](#Greenlees01a), [Greenlees 01b, Theorem 13.1](#Greenlees01b)
+) that the equivariant complex cobordism ring classifies [[equivariant formal group laws]] over [[Noetherian rings]], but the general conjecture is still open.
+
+
 
 ## Related concepts
 
@@ -33,12 +40,17 @@ Greenlees ([Greenlees 2001](#Greenlees)) shows that the equivariant complex cobo
 
 * [[equivariant Morava K-theory]]
 
+* [[equivariant complex oriented cohomology theory]]
+
 ## References
 
 
 * [[Peter May]], _Equivariant and non-equivariant module spectra_, Journal of Pure and Applied Algebra Volume 127, Issue 1, 1 May 1998, Pages 83&#8211;97 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/modfinal.pdf))
 
-* {#Greenlees} [[John Greenlees]], _The coefficient ring of equivariant homotopical bordism classifies equivariant formal group laws over Noetherian rings_, ([preprint](https://homepages.abdn.ac.uk/d.j.benson/pages/html/archive/greenlees.html), 2001.
+* {#Greenlees01a} [[John Greenlees]], _The coefficient ring of equivariant homotopical bordism classifies equivariant formal group laws over Noetherian rings_, 2001 ([preprint](https://homepages.abdn.ac.uk/d.j.benson/pages/html/archive/greenlees.html))
+
+
+* {#Greenlees01b} [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
 
 * [[William Abram]], _A note on the equivariant formal group law of the equivariant complex cobordism ring_ ([arXiv:1309.0722](http://arxiv.org/abs/1309.0722))
 
