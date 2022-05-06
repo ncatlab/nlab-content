@@ -193,6 +193,12 @@ A survey set of slides with an eye towards  the description of the [[Kalb-Ramond
 
 * [[Nigel Hitchin]], _Lectures on generalized geometry_ ([arxiv/1008.0973](http://arxiv.org/abs/1008.0973))
 
+With emphasis on the role of [[G-structures]]:
+
+* [[Paul Koerber]], _Lectures on Generalized Complex Geometry for Physicists_, Fortsch. Phys. 59: 169-242, 2011 ([arXiv:1006.1536](https://arxiv.org/abs/1006.1536))
+
+
+
 #### As targets for $\sigma$-models
 
 Generalized complex structures may serve as [[target spaces]] for [[sigma-models]]. Relations to the [[Poisson sigma-model]] and the [[Courant sigma-model]] are discussed in
