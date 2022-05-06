@@ -192,7 +192,7 @@ A large number of realizations of the exact field content of the [[standard mode
 
 * [[F'-theory]]
 
-* [[12-dimensional supergravity]]
+* [[D=12 supergravity]], [[D=14 suprsymmetry]], [[bosonic M-theory]]
 
 [[!include F-theory compactifications -- table]]
 
