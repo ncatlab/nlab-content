@@ -26,11 +26,11 @@
 
 The [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _universal exceptionalism_ or similar:
 
-_Since nature (reality) is exceptional in that it has existence, it is plausible that it is the exceptional among all [[mathematical structures]] -- such as the exceptional examples in the classification of simple Lie groups, the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature._
+_Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
 
 Prominent sources where this sentiment has been expressed include the following.
 
-[Baez 95](#Baez95), in a context of the role of the [[monster group]] in physics, writes:
+[Baez 95](#Baez95), in a context of the role of the [[monster group]] in [[physics]], writes:
 
 > one may argue that the theory of our universe must be incredibly special, since out of all the theories we can write down, just this one describes the universe that actually exists. All sorts of simpler universes apparently don't exist. So maybe the theory of the universe needs to use special, "exceptional" mathematics for some reason, even though it's complicated
 
@@ -60,7 +60,7 @@ and
 
 [Toppan 03](#Toppan03) writes
 
-> There is a growing interest in the logical possibility that exceptional  mathematical structures (exceptional Lie and superLie algebras, the exceptional Jordan algebra, etc.) could be linked to an ultimate "exceptional" formulation for a Theory Of Everything (TOE). The maximal division algebra of the octonions can be held as the mathematical responsible for the existence of the exceptional structures mentioned above.
+> There is a growing interest in the logical possibility that [[exceptional  mathematical structures]] ([[exceptional Lie algebra|exceptional Lie and superLie algebras]], the [[exceptional Jordan algebra]], etc.) could be linked to an ultimate "exceptional" formulation for a [[theory of everything|Theory Of Everything]] (TOE). The maximal [[division algebra]] of the [[octonions]] can be held as the mathematical responsible for the existence of the [[exceptional structures]] mentioned above.
 
 [Moore 14](#Moore14) writes, in a survey of the state of [[mathematical physics]] applied to fundamental high energy physics ("Physical Mathematics"):
 
@@ -100,10 +100,12 @@ to have evidence to the contrary.
 
 * {#Ramond03} [[Pierre Ramond]], _Exceptional Groups and Physics_ ([hep-th/0301050](http://arxiv.org/abs/hep-th/0301050))
 
+* {#Toppan03} [[Francesco Toppan]], _Exceptional Structures in Mathematics and Physics and the Role of the Octonions_, ([arXiv:hep-th/0312023](https://arxiv.org/abs/hep-th/0312023))
+
+
 * {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
 
 * {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
 
-* {#Toppan03} [[Francesco Toppan]], _Exceptional Structures in Mathematics and Physics and the Role of the Octonions_, ([arXiv:hep-th/0312023](https://arxiv.org/abs/hep-th/0312023))
