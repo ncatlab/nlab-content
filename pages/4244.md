@@ -127,6 +127,12 @@ Discussion of [[Calabi-Yau orbifolds]]:
 
 * [[Dominic Joyce]], _Deforming Calabi-Yau orbifolds_, Asian Journal of Mathematics 3.4 (1999): 853-868 ([doi:10.4310/AJM.1999.v3.n4.a7](https://dx.doi.org/10.4310/AJM.1999.v3.n4.a7) [pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/ajm/1999/0003/0004/AJM-1999-0003-0004-a007.pdf))
 
+* [[Dominic Joyce]], Section 6.5.1 of: _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000) ([ISBN:9780198506010](https://global.oup.com/academic/product/compact-manifolds-with-special-holonomy-9780198506010?cc=de&lang=en&))
+
+* Wei-Dong Ruan, Yuguang Zhang, _Convergence of Calabi-Yau manifolds_, Advances in Mathematics Volume 228, Issue 3, 20 October 2011, Pages 1543-1589 ([arXiv:0905.3424](https://arxiv.org/abs/0905.3424), [doi:10.1016/j.aim.2011.06.023](https://doi.org/10.1016/j.aim.2011.06.023))
+
+* Ronan J. Conlon, Anda Degeratu, Frédéric Rochon, _Quasi-asymptotically conical Calabi-Yau manifolds_. Geom. Topol. 23 (2019) 29-100 ([arXiv:1611.04410](https://arxiv.org/abs/1611.04410))
+
 and in view of [[mirror symmetry]]:
 
 * Shi-Shyr Roan, _The mirror of Calabi-Yau orbifold_,  International Journal of Mathematics Vol. 02, No. 04, pp. 439-455 (1991)  ([doi:10.1142/S0129167X91000259](https://doi.org/10.1142/S0129167X91000259))
