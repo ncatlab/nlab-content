@@ -38,10 +38,10 @@ $$
   }
 $$
 
-In terms of [[physics]] ([[string theory]]), the [[K-theory]] classes appearing here may be interpreted as [[groups]] of [[fractional D-brane|fractional]] [[D-brane charges]] (see [there](fractional+D+brane#DBranesAtOrbifoldSingularities)).
+In terms of [[physics]] ([[string theory]]), the [[K-theory]] classes appearing here may be interpreted as [[groups]] of [[fractional D-brane|fractional]] [[D-brane charges]] (see [there](fractional+D-brane#DBranesAtOrbifoldSingularities)).
 In terms of the [[worldvolume]] [[Chan-Paton gauge field|Chan-Paton]]-[[Yang-Mills theory]] on the D-branes the McKay correspondence is then seen as passage from the [[Higgs branch]] to the [[Coulomb branch]] (see [there](fractional+D-brane#InTermsOfTheWorldvolumeGaugeTheories)).
 
-The proof of these statemens generally proceeds by relating both sides of the equivalence to [[Dynkin diagrams]] of [[ADE-classification|ADE-type]].
+The proof of these statements generally proceeds by relating both sides of the equivalence to [[Dynkin diagrams]] of [[ADE-classification|ADE-type]].
 
 The classical McKay correspondence, named after [[John McKay]], is a one-to-one correspondence between the [[McKay graphs]] of [[finite group|finite]] [[subgroups]] $G \subset \text{SL}_2(\mathbb{C})$ and the extended Dynkin diagrams of ADE type.
 
