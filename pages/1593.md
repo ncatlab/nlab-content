@@ -304,12 +304,25 @@ The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with mor
 * {#HuertaSatiSchreiber18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 
-
-
-
 The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bundles replaced by the [[circle n-bundle with connection|circle 3-bundles]] of the [[supergravity C-field]] is discussed towards the end of
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
+
+
+### Orientifold backreaction?
+
+Almost all existing results on orientifolds are derived for string [[sigma-models]] on [[flat orbifold]] ([[toroidal orbifold]]) [[target spacetimes]] (such as [[O-plane]]-charges and [[RR-field tadpole cancellation]]), or for algebraically defined [[rational CFT]] [[string vacua]] ([[non-geometric vacua]]).
+ 
+There seems to be little to no result in actual [[string theory]] for the behaviour of [[orientifolds]] in curved [[target spacetimes]].
+
+From the fact that the computations for [[flat orbifolds]] show that the [[O-planes]] there are similar to (while clearly different from) [[D-branes]] with [[negative number|negative]] tension (i.e. negative [[energy]] density) it may seem plausible that the low energy [[effective field theory]] of [[perturbative string theory vacua]] including [[O-planes]] is a modification of [[supergravity]] where negative-energy source-terms are added to the [[equations of motion]] -- in some way.
+
+This effecive field theory picture of orientifold backgrounds has been advocated in
+
+* [[Steven Giddings]], [[Shamit Kachru]], [[Joseph Polchinski]], _Hierarchies from Fluxes in String Compactifications_, Phys. Rev. D66:106006, 2002 ([arXiv:hep-th/0105097](https://arxiv.org/abs/hep-th/0105097))
+
+
+
 
 
 [[!redirects orientifolds]]
