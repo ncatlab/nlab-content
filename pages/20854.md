@@ -32,6 +32,8 @@ The microscopic geometry of transversal [[Dp-D(p+2)-brane intersections]] and [[
 
 > graphics grabbed from [Fazzi 17](#Fazzi17)
 
+[[!include Dp-D(p+2)-brane intersections in fuzzy funnels -- section]]
+
 ## Properties
 
 ### Single trace observables as $\mathfrak{su}(2)$-weight systems on chord diagrams
