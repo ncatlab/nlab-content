@@ -145,8 +145,11 @@ Some useful basic formulas are listed in
 
 * _Hodge theory on Riemannian manifolds_ , lecture notes ([pdf](http://math.uh.edu/~minru/Riemann08/hodgetheory.pdf))
 
-Discussion in [[complex geometry]] includes
+A unified perspective in terms of [[Berezin integration]]:
 
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _The Hodge Operator Revisited_ ([arXiv:1511.05105](https://arxiv.org/abs/1511.05105))
+
+Discussion in [[complex geometry]] includes
 
 * {#BiquerdHoering08} O. Biquard, A. H&#246;ring, _K&#228;hler geometry and Hodge theory_, 2008 ([pdf](http://math.unice.fr/~hoering/hodge/hodge.pdf))
 
@@ -154,6 +157,9 @@ With an eye towards application in [[supergravity]] and [[string theory]]:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], Appendix A of _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
+Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[picture changing operators]] and integral top-forms for [[integration over supermanifolds]]):
+
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _Hodge Dualities on Supermanifolds_, Nuclear Physics B Volume 899, October 2015, Pages 570-593 ([arXiv:1507.01421](https://arxiv.org/abs/1507.01421))
 
 [[!redirects Hodge star]]
 [[!redirects Hodge star operator]]
