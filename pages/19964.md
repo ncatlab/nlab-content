@@ -15,8 +15,14 @@
 * table of contents
 {:toc}
 
+
+
 ## Idea
 
+
+> [[Tony Skyrme|Skyrme]] had studied with attention [[On Vortex Atoms|Kelvin's ideas on vortex atoms]]. 
+
+> ([Ranada-Trueba 01, p. 200](On+Vortex+Atoms#RanadaTrueba01))
 
 A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field theories]]. The concept exists quite generally (see [Rho-Zahed 16](#RhoZahed16)), but its original use ([Skyrme 62](#Skyrme62)), and still one of the most important ones, is as a model for _[[baryons]]_ in a putative theory of [[non-perturbative quantum field theory|non-perturbative]] [[quantum chromodynamics]], the formulation of the latter being by and large an open problem (due to [[confinement]], see [[mass gap problem]]). Here in QCD a Skyrmion is specifically a topologically non-trivial field configuration of the [[pion]] [[field (physics)|field]] in [[non-perturbative quantum field theory|non-perturbative]]  [[QCD]].
 
@@ -157,7 +163,7 @@ have eluded physicists, notably concepts such as the ‘Cheshire Cat phenomenon�
 
 The original article is
 
-* {#Skyrme62} Tony Skyrme, _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
+* {#Skyrme62} [[Tony Skyrme]], _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
 A review is in:
 
