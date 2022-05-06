@@ -37,6 +37,8 @@ The [[fuzzy funnel]] [[noncommutative geometry]] of transveral $D3 \bot D5$-bran
 
 ## References
 
+With emphasis on the relation to [[Nahm's equation]] and [[fuzzy funnel]] [[noncommutative geometry]]:
+
 * {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
 
 With derivation of the [[s-rule]]:
