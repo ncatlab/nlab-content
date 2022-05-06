@@ -16,5 +16,5 @@
 
 See also
 
-* Wikipdia, _[Hypercharge](https://en.wikipedia.org/wiki/Hypercharge)_
+* Wikipedia, _[Hypercharge](https://en.wikipedia.org/wiki/Hypercharge)_
 
