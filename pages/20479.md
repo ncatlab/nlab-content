@@ -22,6 +22,9 @@ ledger_, Ethereum, Tech. Rep. 2017. [pdf](https://ethereum.github.io/yellowpaper
 Plans for Ethereum future from Ethereum Foundation as of May 2019:
 
 * [blog.ethereum.org/2019/05/21/ethereum-foundation-spring-2019-update](https://blog.ethereum.org/2019/05/21/ethereum-foundation-spring-2019-update)
+* A journey through phase 2 of Ethereum 2.0 [medium](https://medium.com/@william.j.villanueva/a-journey-through-phase-2-of-ethereum-2-0-c7a2397a36cb)
+* Phase 2 proposal 1 [hackmd](https://notes.ethereum.org/s/HylpjAWsE#)
+* V. Buterin, [A layer-1-minimizing phase 2 state execution proposal](https://ethresear.ch/t/a-layer-1-minimizing-phase-2-state-execution-proposal/5397/4), [Proposed further simplifications/abstraction for phase 2](https://ethresear.ch/t/proposed-further-simplifications-abstraction-for-phase-2/5445)
 
 ### Protocol improvements
  
