@@ -141,7 +141,7 @@ This is really a special case of the previous class of examples, as $\Omega^\bul
 
 * [[body]]/[[soul]]
 
-* [[Fock space]], [[!-modality]]
+* [[Fock space]], [[exponential modality]]
 
 * [[differential form]], [[de Rham complex]]
 
