@@ -67,7 +67,7 @@ and
   \big)
 \]
 
-for the futher [[full subcategory]] on those [[homotopy types]] that are already [[rational spaces|rational]].
+for the further [[full subcategory]] on those [[homotopy types]] that are already [[rational spaces|rational]].
 
 
 Similarly, write
