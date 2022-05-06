@@ -192,6 +192,9 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Valerio Gherardi, David Marzocca, Elena Venturini, _Low-energy phenomenology of scalar leptoquarks at one-loop accuracy_ ([arXiv:2008.09548](https://arxiv.org/abs/2008.09548))
 
+* [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
+
+
 
 and within [[Randall-Sundrum models]]
 
