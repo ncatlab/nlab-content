@@ -72,6 +72,10 @@ It follows from the [[fundamental theorem of dg-algebraic equivariant rational h
 
 ## Related concepts
 
+* [[equivariant Chern character]]
+
+* [[equivariant Chern-Dold character]]
+
 * [[rational equivariant homotopy theory]]
 
 * [[rational stable equivariant homotopy theory]]
@@ -80,7 +84,6 @@ It follows from the [[fundamental theorem of dg-algebraic equivariant rational h
 ## References
 
 * {#May96} [[Peter May]], Section II.3 in: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
-
 
 * [[Georgia Triantafillou]], Section 2.6 in _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
 
