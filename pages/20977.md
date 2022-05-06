@@ -1,0 +1,28 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+
+## Idea
+
+The _Wheels theorem_ says that the [[quantization of 3d Chern-Simons theory|perturbative]] [[Wilson loop observable]] ([[Kontsevich integral]]) of the [[unknot]] is, as a [[universal Vassiliev invariant]] with values in [[Jacobi diagrams]], a [[series]] of wheel-shaped [[Jacobi diagrams]] with [[coefficients]] [[modified Bernoulli numbers]].
+
+## References
+
+The full proof is due to
+
+* [[Dror Bar-Natan]], Thang T Q Le, [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
+
+The weaker version for [[Lie algebra weight systems]] was proven in:
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
