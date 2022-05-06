@@ -78,7 +78,7 @@ Let $G$ be a [[topological group]].
 +-- {: .num_defn #TrivialTopologicalPrincipalBundle}
 ###### Definition
 
-The **trivial $G$-principal bundle** on a [[topological space]] $X$ is the [[product]] space $G \times X$ equipped with 
+The **trivial $G$-principal bundle** on a [[topological space]] $X$ is the [[product]] space $X \times G$ equipped with 
 
 * the [[projection]] map $p_1 : X \times G \to X$ ;
 
