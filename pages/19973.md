@@ -24,11 +24,6 @@ For the [[leptons]] these flavor quantum numbers are _[[electron]] number_, _[[m
 For the [[quarks]] the flavor quantum numbers are _[[isospin]]_, _[[charm quark|charm]]_, _[[strange quark|strange]]-ness_,  _[[bottom quark|bottom]]-ness_ and _[[top quark|top]]-ness_.
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/AltmannshoferFlavorSector.jpg" width="700">
-</center>
-
-> slide grabbed from [Altmannshofer 14](#Altmannshofer14)
 
 See [yotams](#yotams) for a good quick introduction.
 
@@ -36,6 +31,27 @@ See [yotams](#yotams) for a good quick introduction.
 
 
 ## Properties
+
+### The flavor problem
+ {#TheFlavorProblem}
+
+In the [[standard model of particle physics]], the sector involving [[flavor physics]] (the [[Yukawa coupling]]- and [[CKM matrix]]-sector in the [[Lagrangian density]] of the [[Einstein-Yang-Mills-Dirac-Higgs theory]] that defines the standard model) has some striking characteristics different from the sector that does not. 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AltmannshoferFlavorSector.jpg" width="700">
+</center>
+
+> slide grabbed from [Altmannshofer 14](spring)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/IsidoriFlavorSector.jpg" width="700">
+</center>
+
+> slide grabbed from [Isidori 16](#Isidori16)
+
+Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than that of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
+
 
 ### Flavor anomalies
 
@@ -87,6 +103,8 @@ Here we are showing
 
 * [[CKM matrix]]
 
+* [[Yukawa coupling]]
+
 * [[color charge]]
 
 * [[flavour anomaly]]
@@ -130,7 +148,7 @@ On the [[flavour problem]]:
 
   (emphasis on [[kaon]] [[scattering|decays]])
 
-* [[Gino Isidori]], _The flavor problem_, 2016 ([pdf](https://indico.cern.ch/event/504502/contributions/2147710/attachments/1287372/1915547/SWHEPPS_Talk.pdf), [[IsidoriFlavor16.pdf:file]])
+* {#Isidori16} [[Gino Isidori]], _The flavor problem_, 2016 ([pdf](https://indico.cern.ch/event/504502/contributions/2147710/attachments/1287372/1915547/SWHEPPS_Talk.pdf), [[IsidoriFlavor16.pdf:file]])
 
 * {#Altmannshofer14} [[Wolfgang Altmannshofer]], _The Flavor Puzzle_, Aspen 2014 ([pdf](https://www.aspenphys.org/science/colloquia/2014_slides/altmannshofer.pdf), [[AltmannshoferFlavorProblem.pdf:file]])
 
