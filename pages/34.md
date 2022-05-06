@@ -233,6 +233,8 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 ## Related concepts
 
+* [[higher structures]]
+
 * [[opetopic type theory]]
 
 [[!include table of category theories]]
