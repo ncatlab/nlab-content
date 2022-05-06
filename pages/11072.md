@@ -131,6 +131,12 @@ The semantics of ! as a comonad is discussed in:
 * [[Martin Hyland]] and [[Andreas Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
  {#HylandSchalk01}
  
+Construction of such comonads based on cofree comonoids can be found in (among other places):
+
+* Mellies and Tabareau and Tasson, *An explicit formula for the free exponential modality of linear logic*. Mathematical Structures in Computer Science, 28(7), 1253-1286. doi:[10.1017/S0960129516000426](https://doi.org/10.1017/S0960129516000426)
+
+* Sergey Slavnov, *On Banach spaces of sequences and free linear logic exponential modality*, Math. Struct. Comp. Sci. 29 (2019) 215-242, [arxiv](https://arxiv.org/abs/1509.03853)
+
 
 The relation to Fock space is discussed in:
 
