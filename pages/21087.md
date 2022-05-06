@@ -84,6 +84,25 @@ For the [[D=6 N=(2,0) SCFT]] on [[coincident brane|coincident]] [[M5-branes]]:
 
 * {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
+### In AdS/QCD
+ {#ReferencesInQAdSQCD}
+
+Discussion of [[small N corrections]] specifically in [[holographic QCD]]:
+
+* {#Basso08} B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_, Continuous Advances in QCD 2008, pp. 317-328 (2008) ([spire:858223](http://inspirehep.net/record/858223), [doi:10.1142/9789812838667_0027](https://doi.org/10.1142/9789812838667_0027))
+
+  > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
+
+* H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: A. Ceresole, C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_ Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
+[doi:10.1007/BFb0104268](https://doi.org/10.1007/BFb0104268))
+
+* Masayasu Harada, Shinya Matsuzaki, and Koichi Yamawaki, _Implications of holographic QCD in chiral perturbation theory with hidden local symmetry_, Phys. Rev. D 74, 076004 (2006) ([doi:10.1103/PhysRevD.74.076004](https://doi.org/10.1103/PhysRevD.74.076004))
+
+  (with an eye towards [[hidden local symmetry]] in [[chiral perturbation theory]])
+
+* Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
+
+
 
 ### In 2d QCD
 
@@ -92,15 +111,8 @@ On [[1/N corrections]] in [[2d QCD]]:
 * [[Itzhak Bars]], _QCD and Strings in 2D_ ([arXiv:hep-th/9312018](https://arxiv.org/abs/hep-th/9312018))
 
 
-### In AdS/QCD
-
-Specifically for the [[AdS/QCD correspondence]]:
-
-* H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: A. Ceresole, C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_ Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
-[doi:10.1007/BFb0104268](https://doi.org/10.1007/BFb0104268))
 
 
-* Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
 [[!redirects small N limit]]
 
