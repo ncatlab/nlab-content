@@ -1,2 +1,2 @@
 
-[[!include xxyyzz]]
+[[algebra over a monad]]
