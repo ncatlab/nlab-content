@@ -93,7 +93,7 @@ A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **f
 +-- {: .num_remark}
 ###### Remark
 
-Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]], with due care) are. But all [[orthogonal factorization systems]], def. \ref{OrthogonalFactorizationSystem}, automatically are functorial.
+Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]], with due care) are. But all [[orthogonal factorization systems]], def. \ref{OrthogonalFactorizationSystem}, automatically are functorial.  An example of a weak factorization that is not functorial can be found in [Isaksen 2001](https://arxiv.org/abs/math/0106152).
 
 =--
 
