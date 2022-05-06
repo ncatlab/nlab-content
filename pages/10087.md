@@ -81,6 +81,8 @@ See _[[Sullivan model of a spherical fibration]]_.
 
 * [[Thom spectrum]]
 
+* [[twisted cohomotopy]]
+
 ## References
 
 An original reference is
