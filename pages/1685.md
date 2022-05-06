@@ -119,7 +119,7 @@ where in the last step we used that $H^{q,\bullet}$ is be construction an inject
 
 This establishes the spectral sequence and its second page as claimed. It remains to determine its convergence.
 
-To that end, conside dually, the spectral sequence $\{{}^{hor}E^{p,q}_r\}$ coming from the horizontal filtration on the double complex $G(I^{\bullet, \bullet})$. By the general properties of [[spectral sequence of a double complex]] this converges to the same value as the previous one. But for this latter spectral sequence we find
+To that end, consider dually, the spectral sequence $\{{}^{hor}E^{p,q}_r\}$ coming from the horizontal filtration on the double complex $G(I^{\bullet, \bullet})$. By the general properties of [[spectral sequence of a double complex]] this converges to the same value as the previous one. But for this latter spectral sequence we find
 
 $$
   \begin{aligned}
@@ -130,7 +130,7 @@ $$
   \,,
 $$
 
-the first equivalence by the general properties of filtration spectral sequences, the second then by the definition of [[derived functor in homological algebra|right derived functors]]. But by assumption $F(C^p)$ is $F$-[[acyclic object|acyclic]] and hence all these derived functors vanish in positive degree, so that
+the first equivalence by the general properties of filtration spectral sequences, the second then by the definition of [[derived functor in homological algebra|right derived functors]]. But by assumption $F(C^p)$ is $G$-[[acyclic object|acyclic]] and hence all these derived functors vanish in positive degree, so that
 
 $$
   {}^{hor}E^{p,q}_1 \simeq
