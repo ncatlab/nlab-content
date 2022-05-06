@@ -23,9 +23,7 @@ In the [[standard model of particle physics]] the _charm quark_ is the up-type [
 
 ## Related concepts
 
-* [[top quark]]
-
-* [[bottom quark]]
+[[!include flavors of fundamental particles -- table]]
 
 ## References
 
