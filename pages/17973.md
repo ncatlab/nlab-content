@@ -390,6 +390,8 @@ Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ 
 
 * {#KlebanovWitten98} [[Igor Klebanov]], [[Edward Witten]], _Superconformal Field Theory on Threebranes at a Calabi-Yau Singularity_, Nucl.Phys.B536:199-218, 1998 ([arXiv:hep-th/9807080](https://arxiv.org/abs/hep-th/9807080))
 
+* Luis Anchordoqui, Jose Edelstein, Carlos Nunez, Santiago Perez Bergliaffa, Martin Schvellinger, Marta Trobo, Fabio Zyserman, _Brane Worlds, String Cosmology, and AdS/CFT_, Phys. Rev. D64:084027, 2001 ([arXiv:hep-th/0106127](https://arxiv.org/abs/hep-th/0106127))
+
 * {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
 
 * {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf), [cern:933469](http:cds.cern.ch/record/933469))
