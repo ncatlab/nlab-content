@@ -1,3 +1,4 @@
+[[!redirects functorially finite]]
 ##Functorially finite subcategories of abelian categories##
 
 Let $\mathcal{A}$ be an abelian category and $\mathcal{C}$ a full subcategory. Given an object $X$ of $\mathcal{A}$, a morphism $f: C \to X$ from $C \in \mathrm{Ob}(\mathcal{C})$ is called a **right $\mathcal{C}$ approximation of X** if, for any $C' \in \mathrm{Ob}(\mathcal{C})$ and any morphism $f': C' \to X$, we can factor $f'$ and $f \circ g$. 
