@@ -153,15 +153,15 @@ This is the group underlying the [[Burnside ring]].
 
 The theorem at the level of [[stable homotopy groups]] is due to
 
-* {#tomDieck75} [[Tammo tom Dieck]], Satz 2 of _Orbittypen und  ̈aquivariante Homologie. II._, Arch. Math. (Basel) 26 (1975), no. 6, 650–662
+* {#tomDieck75} [[Tammo tom Dieck]], Satz 2 of _Orbittypen und  &#x00E4;quivariante Homologie. II._, Arch. Math. (Basel) 26 (1975), no. 6, 650–662
 
 The refinement to [[spectra]] is achieved in section V.11 of
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
 
-An alternative proof in the context of [[spectral Mackey functors]] is given in
+An alternative proof is in
 
-* {#GuillouMay12} [[Bert Guillou]], [[Peter May]], section 6.2 of _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+* {#GuillouMay12} [[Bert Guillou]], [[Peter May]], section 6.2 of _Permutative $G$-categories in equivariant infinite loop space theory_, Algebr. Geom. Topol. 17 (2017) 3259-3339 ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
 
 Detailed lecture notes are in
