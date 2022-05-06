@@ -425,6 +425,8 @@ See also:
 
 * George Manolakos, Gregory Patellis, George Zoupanos, _$\mathcal{N}=1$ trinification from dimensional reduction of $N=1$, 10D $E_8$ over $SU(3)/U(1)\times U(1) \times \mathbb{Z}_3$ and its phenomenological consequences_ ([arXiv:2009.07059](https://arxiv.org/abs/2009.07059))
 
+* Francisco J. de Anda, Alfredo Aranda, António P. Morais, Roman Pasechnik, _Gauge couplings evolution from the Standard Model, through Pati-Salam theory, into $E_8$ unification of families and forces_ ([arXiv:2011.13902](https://arxiv.org/abs/2011.13902))
+
 
 
 
