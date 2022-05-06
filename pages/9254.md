@@ -42,6 +42,10 @@ See also
 
 * Wikipedia, _[Topological data analysis](http://en.wikipedia.org/wiki/Topological_data_analysis)_
 
+Relation to [[quantum computing]]:
+
+* He-Liang Huang, Xi-Lin Wang, Peter P. Rohde, Yi-Han Luo, You-Wei Zhao, Chang Liu, Li Li, Nai-Le Liu, Chao-Yang Lu, Jian-Wei Pan, _Demonstration of Topological Data Analysis on a Quantum Processor_, Optica 5(2),193(2018) ([arXiv:1801.06316](https://arxiv.org/abs/1801.06316)) 
+
 ### Persistency
 
 Discussion of [[persistent homology|persistent]] [[Cohomotopy]] as an improvement over homological [[well groups]]:
