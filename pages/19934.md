@@ -51,6 +51,10 @@ The flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _[[Kummer surface]]_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](#BettiolDerdzinskiPiccione18))
 
 
+## Related concepts
+
+* [[branched cover]]
+
 ## References
 
 ### General
@@ -61,13 +65,14 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 
 * {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
 
-* {#Guerreiro09} João Guerreiro, _Orbifolds and Wallpaper Patterns_ ([pdf](https://faculty.math.illinois.edu/~ruiloja/Estudantes/TrabalhoJGuerreiro.pdf))
-
 
 
 ### Flat orbifolds
 
-(...)
+* {#Guerreiro09} João Guerreiro, _Orbifolds and Wallpaper Patterns_ ([pdf](https://faculty.math.illinois.edu/~ruiloja/Estudantes/TrabalhoJGuerreiro.pdf))
+
+
+
 
 [[!redirects Riemannian orbifolds]]
 
