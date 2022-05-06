@@ -33,6 +33,7 @@ where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$.
 
 * [[Dedekind cut]]
 * [[dense linear order]]
+* [[lifting to locators]]
 
 ## References ##
 
