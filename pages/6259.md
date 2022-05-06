@@ -114,7 +114,7 @@ $$
 
 obtained as the [[integration of differential forms]] over $\Sigma$ of the [[wedge product]] of the two forms.
 
-The [[geometric quantization]] of the theory requires that we choose a [[polarization]] of the [[complexification]] of this space (split the space of forms into "coordinates" and their "[[canonical momenta]]"). 
+The [[geometric quantization]] of the theory requires that we choose a [[polarization]] of the [[complexification]] of this space (split the space of forms into "[[canonical coordinates]]" and their "[[canonical momenta]]"). 
 
 One way to achieve this is to choose a [[conformal structure]] on $\Sigma$. The corresponding [[Hodge star operator]]
 
@@ -124,7 +124,7 @@ $$
 
 provides the polarization by splitting into self-dual and anti-self-dual forms: 
 
-notice that (by the formulas at [[Hodge star operator]]) we have on mid-dimensional forms
+notice that (by [this Formula](Hodge+star+operator#eq:HodgeSquareOnRiemannian) formulas at [[Hodge star operator]]) we have on mid-dimensional forms
 
 $$
   \star \star B = (-1)^{(2k+1)(4k+3)} B
