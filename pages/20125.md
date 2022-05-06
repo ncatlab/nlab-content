@@ -210,7 +210,7 @@ The use of [[tensor networks]] as a tool in [[holographic entanglement entropy]]
 
 Review in
 
-* F. Verstraete, J. I. Cirac, V. Murg, _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. 57,143 (2008) ([arXiv:0907.2796](https://arxiv.org/abs/0907.2796))
+* [[Frank Verstraete]], J. I. Cirac, V. Murg, _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. 57,143 (2008) ([arXiv:0907.2796](https://arxiv.org/abs/0907.2796))
 
 ### In the $p$-adic AdS/CFT correspondence
 
