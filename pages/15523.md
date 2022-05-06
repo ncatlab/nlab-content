@@ -44,20 +44,27 @@ Notably under the [[function field analogy]] one may also understand [[ramificat
 
 ## References
 
+### General
+
 * Wikipedia, _[Branched covering](http://en.wikipedia.org/wiki/Branched_covering)_
 
+### Of arithmetic schemes
+
 * {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
+
+### Of manifolds
+ {#ReferencesOfManifolds}
 
 Every $n$-[[dimension|dimensional]] [[manifold]] is a [[branched cover]] of the [[n-sphere]]:
 
 * {#Alexander20} [[James W. Alexander]], _Note on Riemann spaces_, Bull. Amer. Math. Soc. 26 (1920) 370–373
 
 
-All 4-[[dimension|dimensional]] [[manifolds]] are _simple_ branched covers of the  [[4-sphere]]:
+All [[4-manifolds]] are _simple_ branched covers of the  [[4-sphere]]:
 
-* {#Piergallini95} R. Piergallini, _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
+* {#Piergallini95} [[Riccardo Piergallini]], _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
 
-* {#IoriPiergallini02} Massimiliano Iori, Riccardo Piergallini, _4-manifolds as covers of the 4-sphere branched over non-singular surfaces_, Geom. Topol. 6 (2002) 393-401 ([arXiv:math/0203087](https://arxiv.org/abs/math/0203087))
+* {#IoriPiergallini02} Massimiliano Iori, [[Riccardo Piergallini]], _4-manifolds as covers of the 4-sphere branched over non-singular surfaces_, Geom. Topol. 6 (2002) 393-401 ([arXiv:math/0203087](https://arxiv.org/abs/math/0203087))
 
 The [[n-torus]] for $n \geq 3$ is not a [[cyclic group|cyclic]] branched over of the [[n-sphere]]:
 
