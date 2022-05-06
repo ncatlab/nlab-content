@@ -1,4 +1,5 @@
 [[!redirects totality spaces]]
+
 # Totality spaces
 
 ## Definition
@@ -8,6 +9,4 @@ A **totality space** is an [[arity space]] for $\kappa=\{1\}$.  At least some re
 ## References
 
 * Loader, Ralph. *Linear logic, totality and full completeness.* Proceedings Ninth Annual IEEE Symposium on Logic in Computer Science (1994): 292-298.
-
-[[!redirects totality spaces]]
 
