@@ -23,6 +23,7 @@
 
 ## Idea
 
+### General
 
 The _Cohomotopy charge map_ is the [[function]] that assigns to a [[configuration space (mathematics)|configuration]] of [[normally framed submanifolds]] of [[codimension]] $n$ their total [[charge]] as measured in $n$-[[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
 
@@ -34,45 +35,21 @@ Concretely, this is the function which assigns to a [[normally framed submanifol
 
 <center>
 <a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
-<img src="https://ncatlab.org/nlab/files/CohomotopyChargeAsymptoticDistance.jpg" width="630">
+<img src="https://ncatlab.org/nlab/files/CohomotopyChargeAsymptoticDistanceII.jpg" width="630">
 </a>
 </center>
 
-For general $n$ this is known as the [[Pontrjagin-Thom collapse construction]]. The unstable [[Pontrjagin-Thom theorem]] states that Cohomotopy charge fatihfully reflects [[configuration space (mathematics)|configurations]] of [[normally framed submanifolds]] up to normally framed embedded [[cobordism]]
+> graphics grabbed from [SS 19](#SatiSchreiber19)
 
-$$
-  \Big\{
-    {
-      {
-        \text{normally framed submanifolds}
-      }
-      \atop
-      {
-        \text{in}\;X\;\text{of codimension}\; n
-      }
-    }
-  \Big\}
-  \Big/_{\sim_{cobordism}}
-  \underoverset{\simeq}{cc}{\longrightarrow}
-  \underset{
-     \mathclap{
-       \color{blue}
-       {
-         \text{Cohomotopy}
-         \atop
-         \text{set}
-       }
-     }
-  }{  
-    \pi^n\big( X \big)
-  }
-$$
-
-For maximal [[codimension]] $n$ inside an [[orientation|oriented]] [[smooth manifold|manifold]], hence for 0-dimensioonal submanifolds, hence for [[configuration space of points|configurations of points]] and with all points regarded as equipped with positive normal framing, the cohomotopy charge map is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)):
+For general $n$ this is known as the "[[Pontrjagin-Thom collapse construction]]". 
 
 
+### For charged points
 
-In maximal [[codimension]] $D \in \mathbb{N}$, the _Cohomotopy charge map_ is the  [[continuous function]]
+For maximal [[codimension]] $n$ inside an [[orientation|oriented]] [[smooth manifold|manifold]], hence for 0-dimensional submanifolds, hence for [[configuration space of points|configurations of points]] and with all points regarded as equipped with positive normal framing, the Cohomotopy charge map is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)):
+
+
+In maximal [[codimension]] $D \in \mathbb{N}$, the _Cohomotopy charge map_ is thus the  [[continuous function]]
 
 \[
   \label{CohomotopyChargeMapOnEuclideanSpace}
@@ -102,7 +79,47 @@ This has evident generalizations to other manifolds than just Euclidean spaces, 
 
 ## Properties
 
+### Characterization of cobordism classes by their Cohomotopy charge
+
+
+The unstable [[Pontrjagin-Thom theorem]] states that Cohomotopy charge faithfully reflects [[configuration space (mathematics)|configurations]] of [[normally framed submanifolds]] up to normally framed embedded [[cobordism]], hence that the [[Pontrjagin-Thom collapse construction]] induces a [[bijection]] between [[cobordism classes]] of [[normally framed submanifolds]] and the [[Cohomotopy set]] in degree the respective [[codimension]]:
+
+$$
+  \left\{
+    {
+      {
+        \text{normally framed submanifolds}
+      }
+      \atop
+      {
+        \text{in}\;X\;\text{of codimension}\; n
+      }
+    }
+  \right\}
+  \Big/_{\sim_{cobordism}}
+  \underoverset{\simeq}{cc}{\longrightarrow}
+  \underset{
+     \mathclap{
+       \color{blue}
+       {
+         \text{Cohomotopy}
+         \atop
+         \text{set}
+       }
+     }
+  }{  
+    \pi^n\big( X \big)
+  }
+$$
+
+For more details see [here](cohomotopy#RelationToCobordismGroup).
+
+In goos situations this [[bijection]] of [[sets]] of [[homotopy classes]] enhances to a [[weak equivalence]] of [[configuration space (mathematics)|configuration spaces]]/[[cocycle spaces]]. See _[Characterization of point configurations by their Cohomotopy charge](#CharacterizationOfPointConfigurations)_ below.
+
+\linebreak
+
 ### Characterization of point configurations by their Cohomotopy charge
+ {#CharacterizationOfPointConfigurations}
 
 In some situations the [[Cohomotopy charge map]] is a [[weak homotopy equivalence]] and hence exhibits, for all purposes of [[homotopy theory]], the [[Cohomotopy]] [[cocycle space]] of Cohomotopy charges as an equivalent reflection of the [[configuration space of points]]. 
 
@@ -305,7 +322,21 @@ between
 
 ## References
 
-The concept goes back to
+### General
+
+In the general guise of the [[Pontrjagin-Thom construction]] the concept of Cohomotopy charge goes back to 
+
+* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86 ([digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259))
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
+A textbook account of the unstable [[Pontrjagin-Thom theorem]] is in
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+
+### For point configurations
+
+The theorem that, with due care, for [[configuration space of points|point configurations]] the Cohomotopy charge map is in fact a [[weak homotopy equivalence]] between the [[configuration space of points]] and the [[Cohomotopy]] [[cocycle space]] originates with
 
 * {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
