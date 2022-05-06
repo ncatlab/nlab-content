@@ -123,7 +123,7 @@ One writes
 
 \[
   \label{QuotientModule}
-  \mathcal{A}^{pb}
+  \mathcal{A}^{{}^{pb}}
   \;\coloneqq\;
   R\langle \mathcal{D}^{pb}\rangle/(2T,4T)
 \]
@@ -141,11 +141,11 @@ for the [[quotient algebra]] of horizontal chord diagrams by these relations.
 ###### Proposition
 **([[universal enveloping algebra]] of [[infinitesimal braid Lie algebra]] is [[horizontal chord diagrams]] [[quotient vector space|modulo]] [[2T relations|2T]]&[[4T relations|4T]])
 
-The [[associative algebra]] 
+The [[associative algebra]] (eq:QuotientModule)
 
 $$
   \Big(
-  \mathcal{A}_n^{pb}
+  \mathcal{A}_n^{{}^{pb}}
   \;\coloneqq\;
   Span
   \big( 
@@ -167,9 +167,20 @@ $$
 
 =--
 
+
 ### Horizontal weight systems
 
-An $R$-[[linear map]] from the [[quotient module]] (eq:QuotientModule) tr $R$
+An $R$-[[linear map]] from the [[quotient module]] (eq:QuotientModule) of [[horizontal chord diagrams]] to $R$
+
+\[
+  \label{AHorizontalWeightSystem}
+  w
+  \;\colon\;
+  \mathcal{A}_n^{{}^{pb}}
+  \longrightarrow
+  R
+\]
+
 is called a _[[weight system]]_ on horizontal chord diagrams (of $n$ strands), or maybe a _[[horizontal weight systems]]_.
 
 Hence for $R = k$ a [[field]], the [[vector space]] of all horizontal weight systems is the degreewise [[dual vector space]]
@@ -183,6 +194,98 @@ $$
 $$
 
 ([Bar-Natan 96, p. 3](#BarNatan96))
+
+
+### Star-algebra structure
+ {#StarAlgebraStructure}
+
+Over a [[ground ring]] $R$ that is itself equipped with the [[mathematical structure|structure]] of a [[star-algebra]] $\mathbb{F} \overset{(-)^\ast}{\to} \mathbb{F}$ (such as the [[real numbers]], trivially, or the [[complex numbers]] via [[complex conjugation]]), we have that 
+also the [[associative algebra]] (eq:QuotientModule)
+
+$$
+  \Big(
+  \mathcal{A}_n^{{}^{pb}}
+  \;\coloneqq\;
+  Span
+  \big( 
+    \mathcal{D}_n^{pb}
+  \big)/(2T, 4T)
+  ,
+  \circ
+  \Big)
+$$
+
+of [[horizontal chord diagrams]] on $n$ strands with product given by [[concatenation]] of strands (Def. \ref{AlgebraHorizontalChordDiagrams}) [[quotient vector space|modulo]] the [[2T relations]] and [[4T relations]] (Def. \ref{2TAnd4TRelations}) 
+
+becomes a [[star-algebra]]  with star-operation
+
+$$
+  (-)^\ast
+  \;:\;
+  \mathcal{A}_n^{{}^{pb}}
+  \longrightarrow
+  \mathcal{A}_n^{{}^{pb}}
+$$
+
+given by reversing the [[orientation]] of strands:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/StarOperationOnAHorizontalChordDiagram.jpg" width="560">
+</center>
+
+With respect to this [[star-algebra]]-[[mathematical structure|structure]] one may ask (setting $R \coloneqq \mathbb{C}$ for definiteness) whether a given [[weight system]] (eq:AHorizontalWeightSystem)
+
+$$
+  w
+  \;\colon\;
+  \mathcal{A}_n^{{}^{pb}}
+  \longrightarrow
+  \mathcal{C}
+$$
+
+is a [[state on a star-algebra]] in that for any $D \in \mathcal{A}_n^{{}^{pb}}$ we have that the value of $w$ on the corresponding [[normal operator]] $D \cdot D^\ast$ is a non-[[negative number|negative]] [[real number]]:
+
+$$
+  \Big(
+    w \in \mathcal{W}_n^{{}^{pb}}
+    \;
+    \text{is a state}
+  \Big)
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  \left(
+    \begin{aligned}
+      \text{1.}\;\;\;
+      &
+      w(1) = 1
+      \\
+      \text{2.}\;\;\;
+      &
+      \underset{
+        \mathclap{
+          D \in \mathcal{A}_n^{{}^{pb}}
+        }
+      }{
+        \forall 
+      }
+      \;\;\;\;
+      \Big(
+        w(D \cdot D^\ast)
+        \;
+          \geq 0
+        \;
+        \in
+        \mathbb{R} 
+        \subset
+        \mathbb{C}
+      \Big)
+    \end{aligned}
+  \right)
+  \,.
+$$
+
+> anything known about weight systems that satisfy this condition?
 
 
 
