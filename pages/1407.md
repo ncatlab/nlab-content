@@ -499,6 +499,10 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
  {#ReferencesHistory}
 
 
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+
+  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
+
 
 * [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917)), published as _Gravity, unification, and the superstring_, in Filippo Colomo, [[Paolo Di Vecchia]] (eds.) _The birth of string theory_, Cambridge University Press, (2011) ([doi:10.1017/CBO9780511977725.005](https://doi.org/10.1017/CBO9780511977725.005))
 
