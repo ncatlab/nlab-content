@@ -655,13 +655,11 @@ Picture:
     \end{tikzpicture}
 \end{centre}
 
-Commutative diagram:
+single [[morphism]]
 
-\begin{centre}
-    \begin{tikzcd}
-        x \ar[r] & y
-    \end{tikzcd}
-\end{centre}
+\begin{tikzcd}
+  x \ar[r] & y
+\end{tikzcd}
 
 {#TypesetAdjointFunctors} [[adjoint functors]]:
 
@@ -673,15 +671,6 @@ Commutative diagram:
   \mathcal{C}
    \arrow[l, shift right=7pt, "L"']
 \end{tikzcd}
-
-      \begin{tikzcd}
-        \mathcal{D}
-        \arrow[r, shift right=7pt, "R"', "\bot"]
-        & 
-        \mathcal{C}
-        \arrow[l, shift right=7pt, "L"']
-       end{tikzcd}
-
 
 
 The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
