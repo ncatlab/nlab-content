@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Algebraic topology
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
@@ -50,11 +50,11 @@ for details see ([Pedrotti 16, prop. 3.1.14](#Pedrotti16))
 
 ## References
 
-The concept was introduced in
+The concept for [[MU]]-theory was introduced in
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
-An early account in a broader context was
+An early account in a broader context of [[complex oriented cohomology theory]]:
 
 * {#Adams74} [[Frank Adams]], part I.4, part II.2, part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
 
