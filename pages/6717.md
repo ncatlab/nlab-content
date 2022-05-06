@@ -48,6 +48,9 @@ In the [[ADE-classification]] of [[finite subgroups of SU(2)]], the group of ord
 
 [[!redirects group of order two]]
 
+[[!redirects Z/2]]
+[[!redirects Z_2]]
+
 [[!redirects cyclic group of order two]]
 [[!redirects cyclic group of order 2]]
 
