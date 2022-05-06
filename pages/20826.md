@@ -1,6 +1,6 @@
 
 
-| **[[flavor (particle physics)|flavors]] of [[fermions]] in the** <br/> **[[standard model of particle physics]]** |                |                   |                  |
+| **[[flavor (particle physics)|flavors]] of [[fundamental particle|fundamental]] [[fermions]] in the** <br/> **[[standard model of particle physics]]** |                |                   |                  |
 |--|----------------|-------------------|------------------|
 | [[generation of fermions]] | 1st generation | 2nd generation    | 3d generation    |
 | **[[quarks]]** |   |   |   |
