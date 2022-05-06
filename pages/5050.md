@@ -30,25 +30,23 @@ For details see at _[[manifold]]_.
 
 * [[collar neighbourhood theorem]]
 
-### Embedding into diffeological spaces
+### Embedding into the category of diffeological spaces
 
 +-- {: .num_prop #SmoothManifoldsWithBoundaryEmbedIntoDiffeologicalSpaces}
 ###### Proposition
-**([[manifolds with boundary]] form [[full subcategory]] of [[diffeological spaces]])**
+**([[manifolds with boundaries and corners]] form [[full subcategory]] of [[diffeological spaces]])**
 
 The evident [[functor]]
 
 $$
-  SmthMfdWBdr \overset{\phantom{AAAA}}{\hookrightarrow} DiffeologicalSpaces
+  SmthMfdWBdrCrn \overset{\phantom{AAAA}}{\hookrightarrow} DiffeologicalSpaces
 $$
 
-from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundary]] to that of [[diffeological spaces]] is [[fully faithful functor|fully faithful]], hence is a [[full subcategory]]-embedding.
+from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries and corners]] to that of [[diffeological spaces]] is [[fully faithful functor|fully faithful]], hence is a [[full subcategory]]-embedding.
 
 =--
 
-([Iglesias-Zemmour 13, 4.16](#IglesiasZemmour13))
-
-
+([Iglesias-Zemmour 13, 4.16](#IglesiasZemmour13), [Gürer & Iglesias-Zemmour 19](#GurerIZ19))
 
 ## Related concepts
 
@@ -67,13 +65,13 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundary]] 
 
 * [[Dominic Joyce]], _On manifolds with corners_ ([arXiv:0910.3518](http://arxiv.org/abs/0910.3518))
 
-The [[full subcategory]]-embedding of manifolds with boundary into that of [[diffeological spaces]] is discussed in
+The [[full subcategory]]-embedding of manifolds with boundaries and corners into that of [[diffeological spaces]] is discussed in:
 
 * {#IglesiasZemmour13} [[Patrick Iglesias-Zemmour]], section 4.16 of _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
 
-Related discussion to the case of [[manifolds with corners]] is in 
-
 * {#GurerIglesiasZemmour17} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on corners_, 2017  ([pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-DFOC.pdf))
+
+* {#GurerIZ19} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on manifolds with boundary and corners_, Indagationes Mathematicae, Volume 30, Issue 5, September 2019, Pages 920-929 ([doi:10.1016/j.indag.2019.07.004](https://doi.org/10.1016/j.indag.2019.07.004))
 
 [[!redirects manifolds with boundary]]
 
