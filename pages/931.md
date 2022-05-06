@@ -20,7 +20,7 @@
 
 For $G$ a [[group]],  a $G$-**torsor** (also called a **principal homogeneous space**) is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
 
-* [[free action|free]]: only the identity element acts trivially;
+* [[free action|free]]: only the identity element acts with fixed points;
 
 and
 
