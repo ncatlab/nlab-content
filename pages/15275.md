@@ -24,7 +24,9 @@ The _volume conjectures_ are a class of [[conjectures]] (slightly differing in g
 
 For a few special cases of 3-manifolds there are explicit [[proofs]] of the volume conjecture(s). Besides this there is an abundance of [[computer experiment|numerical evidence]] for the volume conjectures, using computer algebra such as [[SnapPy]] (see also [Zickert 07](#Zickert07)). In fact experimentation with these numerics is what has been driving the formulation of further variants of the volume conjecture. 
 
-Hence [[experimental mathematics]] strongly suggests that the volume conjectures are true. But a conceptual explanation (let alone [[proof]]) in terms of [[quantum field theory]] has remained open ([Witten 14, bottom of p. 4](#Witten14)). But an explanation in terms of [[wrapped brane|wrapped]] [[M5-branes]] ([[3d-3d correspondence]]) is claimed in [Gang-Kim-Lee 14, 3.2](#GangKimLee14), see also [Gang-Kim 18 (21)](#GangKim18).
+Hence [[experimental mathematics]] strongly suggests that the volume conjectures are true. But a conceptual explanation (let alone [[proof]]) in terms of [[quantum field theory]] has remained open ([Witten 14, bottom of p. 4](#Witten14)).
+
+But an explanation via [[duality in string theory]], combining [[AdS/CFT duality]] with the [[3d/3d correspondence]] for [[wrapped brane|wrapped]] [[M5-branes]], is argued for in [Gang-Kim-Lee 14, 3.2](#GangKimLee14), [Gang-Kim 18 (21)](#GangKim18), see [below](#AsAdSCFTPlus3d3dDuality).
 
 
 ### For $SU(2)$ on knot complements
@@ -69,8 +71,22 @@ See ([Chen-Yang 15](#ChenYang15))
 Generalization from [[gauge group]] [[SU(2)]] to [[SU(n)]]: [Chen-Liu-Zhu 15](#ChenLiuZhu15)
 
 
+## Proof strategies
 
+### As combined AdS/CFT + 3d/3d duality for wrapped M5-branes
+ {#AsAdSCFTPlus3d3dDuality}
 
+In [Gang-Kim-Lee 14b, 3.2](#GangKimLee14b), [Gang-Kim 18 (21)](#GangKim18) it is argued that the [[volume conjecture]] for [[Chern-Simons theory]] on [[hyperbolic 3-manifolds]] $\Sigma^3$ is the combined statement of two [[dualities in string theory]]
+
+1. [[AdS/CFT duality]]
+
+1. [[3d-3d correspondence]]
+
+for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGKV 10](#DGKV10)):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDuality.jpg" width="660">
+</center>
 
 
 ## Related concepts
@@ -152,7 +168,7 @@ A conceptual explanation of the volume conjecture via [[analytically continued C
 (but it seems that as a sketch or strategy for a rigorous proof, it didn't catch on).
 
 
-#### As AdS/CFT + 3d/3d duality for M5 on hyperbolic 3-folds
+#### As AdS/CFT + 3d/3d duality for wrapped M5-branes
 
 
 Suggestion that the statement of the [[volume conjecture]] is really [[AdS-CFT duality]] combined with the [[3d-3d correspondence]] for [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
