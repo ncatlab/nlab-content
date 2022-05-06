@@ -183,6 +183,9 @@ More:
 
 * {#BDDL09a} M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: II. $\tau$ Decay and Hadronic Contributions To $g-2$_, Eur. Phys. J. C68:355-379, 2010 ([arXiv:0907.5603](https://arxiv.org/abs/0907.5603))
 
+* Avner Karasik, _Vector dominance, one flavored baryons, and QCD domain walls from the "hidden" Wess-Zumino term_ ([arXiv:2010.10544](https://arxiv.org/abs/2010.10544))
+
+
 
 
 ### Via holographic QCD
