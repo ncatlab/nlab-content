@@ -35,6 +35,8 @@
 
 * [[Johann Fichte|Johann Gottlieb Fichte]]
 
+* [[Salomon Maimon]]
+
 * [[Hermann Cohen]]
 
 * [[Ernst Cassirer]]
