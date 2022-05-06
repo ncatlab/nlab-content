@@ -26,7 +26,7 @@ Omega-spectra are particularly good representatives among [[pre-spectra]] of the
 ## Definition
 
 
-With $\Omega$ the notation for the [[loop space]] construction (whence the name),an $\Omega$-spectrum is a sequence $E_\bullet = (E_n)_{n \in \mathbb{N}}$ of [[pointed object|pointed]] [[∞-groupoids]] ([[homotopy types]]) equipped for each $n \in \mathbb{N}$ with an [[equivalence of ∞-groupoids]]
+With $\Omega$ the notation for the [[loop space]] construction (whence the name), an $\Omega$-spectrum is a sequence $E_\bullet = (E_n)_{n \in \mathbb{N}}$ of [[pointed object|pointed]] [[∞-groupoids]] ([[homotopy types]]) equipped for each $n \in \mathbb{N}$ with an [[equivalence of ∞-groupoids]]
 
 $$
   E_n \stackrel{\simeq}{\longrightarrow} \Omega E_{n+1}
