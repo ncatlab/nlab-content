@@ -144,6 +144,8 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 
 ## Related concepts
 
+* [[soft graviton theorem]]:
+
 * [[asymptotic safety]]
 
 * [[weak gravity conjecture]]
