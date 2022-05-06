@@ -193,11 +193,11 @@ The article that convinced the community of M-theory was
 
 A public talk announcing the conjecture that the [[non-perturbative field theory|strong-coupling limit]] of [[type IIA string theory]] is [[11-dimensional supergravity]] [[KK-compactification|KK-compactified]] on a circle is at 15:12 in
 
-* [[Edward Witten]], talk, 1995(?) ([video](https://www.youtube.com/watch?v=x-O3g6MhLUU))
+* {#Witten95Talk} [[Edward Witten]], talk, 1995 ([video](https://www.youtube.com/watch?v=x-O3g6MhLUU))
 
    19:33: "Ten years ago we had the embarrassment that there were five consistent string theories plus a close cousin, which was 11-dimensional supergravity." (19:40): "I promise you that by the end of the talk we have just one big theory."
 
-The term "M-theory" seems to originate in 
+The term "M-theory" originates in 
 
 * {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
 
