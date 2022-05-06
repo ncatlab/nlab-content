@@ -416,18 +416,13 @@ This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) disc
 
 * [[modular form]]
 
-* [[moduli space of curves]]
-
 * [[elliptic cohomology]]
 
-* [[moduli stack of tori]]
-
-* [[moduli stack of formal groups]]
+[[!include moduli spaces -- contents]]
 
 
 [[!include moduli stack of curves -- table]]
 
-* [[moduli space of Calabi-Yau spaces]]
 
 ## References
 
