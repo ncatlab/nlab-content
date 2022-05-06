@@ -83,7 +83,7 @@ The [[Quillen adjunction]] $(F \dashv U)$ is a [[Quillen equivalence]].
 =--
 
 
-This is ([Nikolaus, theorem 2.18](#Nikolaus))
+This is ([Nikolaus, theorem 2.20](#Nikolaus))
 
 +-- {: .un_remark}
 ###### Remark
