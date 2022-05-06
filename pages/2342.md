@@ -431,7 +431,7 @@ See also
 
 * {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], appendix B of: _Elliptic spectra, the Witten genus, and the theorem of the cube_, Inventiones Mathematicae, 146:595&#8211;687, 2001,  ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf), [doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175))
 
-  (review of general elliptic curves in the context of [[elliptic genera]], [[elliptic spectra]] and the [[sigma-orientation of tmf]])
+  (review of general elliptic curves in the context of [[elliptic genera]], [[elliptic spectra]] and the [[string orientation of tmf]])
 
 An elementary discussion of [[associativity]] of the [[formal group law]] of elliptic curves is in
 
