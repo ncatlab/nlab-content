@@ -72,6 +72,10 @@ Alternatively, applying the light cone gauge quantization of the [[Green-Schwarz
 
 ### General
 
+Review 
+
+* {#Ydri18} [[Badis Ydri]], Section 3.9 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+
 All the standard introductory texts on [[string theory]] have sections devoted to light-cone quantization. For instance
 
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 5.2.1 of: _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
