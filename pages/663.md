@@ -85,6 +85,7 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 =--
 
+A [[duality]] between essentially algebraic theories and their categories of models is given by [[Gabriel-Ulmer duality]]. 
 
 ## Examples
 
