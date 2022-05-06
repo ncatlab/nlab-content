@@ -22,19 +22,16 @@ The following provides more details. For technical help with special features of
 * table of contents
 {: toc}
 
-# Technical
+## Technical
 
-## Software required to use the $n$Lab
+### Software required to use the $n$Lab
 {#software}
 
 The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML). Presently the only browser with _native_ MathML support, and hence immediate rendering of the formulas, is [Firefox](http://www.mozilla.com/firefox/).
 
 Essentially all other browsers fall back to rendering MathML formulas using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works, but is slow.  On small pages it is fine, on larger pages with many formulas MathJax may take up to several minutes for rendering.
  
-
-
-
-## How to search the nLab & nForum from firefox ##
+### How to search the nLab & nForum from firefox
 
 (Firefox - and clones - specific)
 
@@ -52,7 +49,7 @@ Alternatively, you can try the [add to search bar](https://addons.mozilla.org/en
 
 If DuckDuckGo is your search engine, you can type "!nl" to search nLab, e.g. "!nl morphism".
 
-## How to edit nLab pages in your favorite text editor ##
+### How to edit nLab pages in your favorite text editor
 
 (Firefox - and clones - specific)
 
@@ -72,11 +69,11 @@ If your favorite editor is [Emacs](http://www.gnu.org/software/emacs/) with [Auc
 
 This will tell Emacs to automatically edit nLab pages (and nCafe comments as well, for good measure) in LaTeX mode, with long lines wrapped using soft returns, and ordinary double-quotes rather than LaTeX ones.
 
-## How to print a page from the nLab ##
+### How to print a page from the nLab
 
 If you just print it directly, the logo will become a huge blob that takes up the entire first page.  I know, we can and should fix this, but we haven\'t.  So for now, use the 'Print' link at the bottom of the page.  As a shortcut in most browsers on most operating systems, hit Alt-Shift-P while the focus is in the page to go to the printable page.
 
-## How to customize the nLab ##
+### How to customize the nLab
 
 (Firefox - and clones - specific)
 
@@ -87,24 +84,23 @@ Currently, the following stylish themes are available:
 * [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
 * [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
-
-## How to download a local copy of the nLab 
+### How to download a local copy of the nLab 
   {#download}
  
 It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21), say in [this thread](https://nforum.ncatlab.org/discussion/8991/nlab-database-backups/?Focus=71715#Comment_71715).
 
 If you would like instead to download rendered nLab pages for local viewing, let us know as well at the nForum.
 
-# Getting Started #
+## Getting Started
 
-##How to use a Wiki##
+### How to use a Wiki
 
 Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.  They key point is that links to other pages are placed in <nowiki>[[double brackets]]</nowiki>.
 
 There is no feature to preview your edits.  Instead, submit them and then edit again.  Two successive submissions with the same signature and made within 30 minutes of each other count as one in the record, so don\'t worry about cluttering up the database with multiple submissions in a row.
 
 
-## How to start a new page
+### How to start a new page
 {#newpage}
 
 You do this in two steps, the first of which may have already been done:
@@ -118,7 +114,7 @@ _Watch out_: the name of a page is case sensitive, so make your link lowercase i
 However, this is less of an issue now that we have [[redirects]].
 
 
-## Signing 
+### Signing 
 
 When you edit a page, you can (and should) put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don\'t, then your contribution will be credited to 'Anonymous' (formerly the [[AnonymousCoward]]).
 
@@ -127,7 +123,7 @@ Once you edit a page for the first time, your name will appear at the bottom, gr
 To create your user page, simply click the question mark that appears next to your name at the bottom of the page after making a modification and add content to the edit box that appears. If you'd like to make a user page prior to modifying an existing page, you can do so by making some trivial modification to the [[Sandbox]], which will put your name at the bottom of the page where you can click the question mark. (Or hack the URL.)
 
 
-## Naming conventions
+### Naming conventions
 {#naming}
 
 The following naming conventions for new entries are not set in stone, but we\'re following them for now. Changing page titles results in unnecessary work for the [[lab elves]], so you should try to follow these if possible (or dispute them if not).  It is most important to follow these in links to pages that don\'t yet exist, so that the pages will be created at the correct title (and only once).
@@ -159,7 +155,7 @@ The following naming conventions for new entries are not set in stone, but we\'r
   * Tricks: Although things like '$\Disc: \Set \to \Cat$' work best in math mode and even '$\Set$' alone looks most consistent that way (with proper math-mode formatting), you have to make the link '[[Set]]' outside of math mode.
 
 
-## How to merge pages
+### How to merge pages
 {#merging}
 
 Suppose we have two pages, named 'A' and 'B', and you decide that they ought to be merged into a single page, say 'A'.  Of course, you need to edit 'A' to contain the material from 'B' and make a coherent whole, but there are also some technical aspects.  We do *not* want to simply delete 'B', since it contains the history of the edits to that page, which might turn out to be useful.  However, we *do* want these two things:
@@ -181,17 +177,17 @@ We accomplish (1) with a [[redirect]]; we accomplish (2) with a [[page move]].  
 The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').  But if they\'re really at 'B > history' on purpose to check the edit history, then that history is there for them. 
 
 
-## How to remove a page 
+### How to remove a page 
 
 To remove a page, look at [category: empty](https://ncatlab.org/nlab/list/empty) and see which number should be used next, then rename the page to `empty ###` using that number.  Replace the content (including the automatically added redirect) with `category: empty`.
 
 (To remove the backlog of empty pages, one should also create pages by reversing this process, although it\'s easy to forget to do that.)
 
 
-# How to organize and write content
+## How to organize and write content
  {#HowToOrganizeAndWriteContent}
 
-## Page organization
+### Page organization
  {#PageOrganization}
 
 We encourage authors to structure pages by sections and subsections
@@ -201,7 +197,7 @@ as indicated in the
 
 Every page starts out tiny and may not seem to need a structure by subsections. But it will grow and eventually the information it provides may be hard to _recognize_ without some global structure guiding the reader's attention. After all, the natural evolution of articles makes the $n$Lab function more like an encyclopedia than a novel.  Moreover, even with little material there in the beginning, a structure by subsections helps the collaborative process, as it makes it easer to decide for new authors where to add what.
 
-## Definition-, Theorem-, Proof environments
+### Definition-, Theorem-, Proof environments
  {#DefinitionTheoremProofEnvironments}
 
 You should include actual mathematics in appropriate environements, as familiar from textbooks and research articles in mathematics.
@@ -268,7 +264,7 @@ Apart from ensuring that it is clear to the reader at each stage what your text 
 
 Beware that you do need to use the labels exactly as given above. It needs to be `defn`, `thm`, and `cor`; neither `definition` nor `theorem` nor `corollary` (nor other abbreviations such as `def`) will be recognized by the software.
 
-## Cross-links
+### Cross-links
  {#CrossLinks}
 
 
@@ -280,7 +276,7 @@ Analogously, when you create a new page, make sure that it is _linked to_ from a
 
 Apart from guiding users to your entry this way, notably this will also help search engines to index the $n$Lab and make your new entry appear listed when people search for something related.
 
-## Mathematical conventions
+### Mathematical conventions
  {#MathematicalConventions}
 
 There is really no such thing as a "global convention on the $n$Lab" for ambiguous meaning of mathematical terms and symbols. Unlike in a text book by a single or a handful of authors, there is just no way that we can even try to enforce global conventions. Typically each author decides on his or her own. 
@@ -293,12 +289,12 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 
 
-# Special Typesetting Features
+## Special Typesetting Features
 
-## How to make links to subsections of a page ##
+### How to make links to subsections of a page ##
  {#HowToMakeLinksToSubsections}
 
-### Links to sections
+#### Links to sections
 
 When you create a section header, you can add an HTML anchor tag to it with the following syntax:
 
@@ -337,7 +333,7 @@ which can then be linked to from within the same page by writing
 
      [link text](#xyz). 
 
-### Definition/Proposition/Theorem-numbering
+#### Definition/Proposition/Theorem-numbering
 
 When you write a numbered definition or proposition or theorem, you can also simultaneously create an anchor by writing:
 
@@ -371,7 +367,7 @@ When you link to a theorem on the *same* page, however, it's better to use the s
 
 
 
-### Equation numbering
+#### Equation numbering
 
 To make an equation be automatically numbered use angular brackets instead of dollar signs
 
@@ -391,7 +387,7 @@ and then refer to it later in the text by typing
      see equation (eq:SomeEquation) .
 
 
-### Automatic table of contents ##
+#### Automatic table of contents ##
 
 Insert the symbols
 
@@ -431,7 +427,7 @@ It is important that the section headings not contain anything that shouldn't go
 
 
 
-## How to cite and record references
+### How to cite and record references
  {#HowToCiteAndRecordReferences}
 
 At the end of each $n$Lab entry should be a section 
@@ -462,7 +458,7 @@ which comes out at
 This produces a hyperlink, and in fact such that following it brings up the above bullet item highlighted by a gray box.
 
 
-## How to make comments and ask questions {#query}
+### How to make comments and ask questions {#query}
 
 In general, the place to make comments and ask questions is on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Some information about the n-Forum can be found on [[nlabmeta:HomePage|nlabmeta]]; just find or create a forum discussion about the page you want to talk about and talk away.
 
@@ -485,7 +481,7 @@ In general, this is the wrong way to go about asking a question.  When you put a
 (Before the n-Forum existed, it was much more common to ask questions using query boxes.  Some such query boxes still remain undiscovered on various pages, but whenever we find one we generally migrate it to the n-Forum.)
 
 
-## How to make a standout box
+### How to make a standout box
  {#standout}
 
 If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__.  The mechanism is similar to a query box, although the purpose is different: while a query box is for a temporary question and should be removed once that question is resolved, a standout box is a permanent feature of a page that simply emphasizes a small amount of text.  To make a standout box, write:
@@ -501,14 +497,14 @@ First quantization is a mystery, but second quantization is a functor.
 =--
 
 
-## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
+### How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web
 
 As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
 
 However, you do not need any password to **see** the stylesheet tweaks on the various webs, so if you see a feature that you would like on one of the other webs (including the main one), then go to the "Edit Web" link at the bottom of that web\'s [[HomePage]] to view the 'Stylesheet tweaks >>'.
 
 
-## How to include one page within another ##
+### How to include one page within another
 
 If you have some material at a page called `foo` that you want to include directly in pages called `bar` and `baz`, then type <nowiki><code>[[!include foo]]</code></nowiki> in `bar` and `baz`.  For an example, see how [[contents]] is included at the tope of this page.  Also see how [[contents]] itself has been formatted so that it will appear as a sidebar when included.
 
@@ -517,7 +513,7 @@ Besides such sidebars that appear in many pages, you can also use inclusion to p
 Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
 
 
-## How to upload files
+### How to upload files
  {#HowToUploadFiles}
 
 To upload a file, proceed as follows:
@@ -580,49 +576,12 @@ Hints:
 
    If you try to abuse the file upload for archiving your personal files, the [[steering committee]] will intervene.
 
-
-
-## How to include SVG figures
- {#IncludeSVG}
-
-To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figures within a page, proceed as following:
-
-1. The $n$Lab has a built-in SVG editor (see [below](#svgedit)). Click on the "`Create SVG graphic`" button to open it. Choose "`Save Image`" from the SVG-Edit menu when you're done. This will close the SVG editor and paste the resulting SVG code back into the Editing window.
-2. If you produce the SVG with a standard SVG editor, save it using, if possible, the two options
-
-   1. save as _plain SVG_
-   1. save as _optimes SVG_
-
-  * You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
-
-    1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
-
-       <nowiki> 
-       ```
-       +--{: style="text-align:center"}
-       [!include SomePage > figureN]]
-       =--
-       ```
-       </nowiki>
-
-    1. Then type
-
-       ```
-       http://ncatlab.org/nlab/show/SomePage > figureN
-       ```
-
-       into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
-
-       Go back to _SomePage_ . The SVG figure should now be displayed there.
-
-See for instance the entry [[comma object]] for an example.
-
-## How to use redirects ##
+### How to use redirects
 
 See [[redirects]].
 
 
-## How to put parentheses in external links ##
+### How to put parentheses in external links
 
 Since the mechanism for inserting links uses parentheses to delimit the link, it's not obvious how to put parentheses actually in the link itself.  Since Wikipedia uses them a fair bit, it's worth knowing how to put them in.  The trick is to use the URL codes rather than the actual characters.  URL codes are generally used to send "unsafe" characters in URLs (safe characters are <nowiki>`a`-`zA`-`Z0`-`9$-_.+!\*'(),`</nowiki>).  Although parentheses are actually "safe", due to their special meaning for the markdown filter, to put them in URLs here they need to be treated as "unsafe".  URL codes have the syntax `%hex` where `hex` is the index of the character in the ASCII character set represented as a 2-digit hexadecimal.  Wikipedia (among other places) has a [table](http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters) of the character set from which one can read off the required hexadecimal.  In particular, we see that `(` is `%28` and `)` is `%29`.  Thus
 
@@ -634,7 +593,7 @@ produces
 
 
 
-## How to add a floating table of contents
+### How to add a floating table of contents
 
 Many pages include a "floating table of contents" at the top right-hand side with links to other pages on similar topics.  The lists of related pages are separate pages with names such as [[category theory - contents]]; if you want to create a new one, look at the syntax of existing ones.
 
@@ -655,11 +614,35 @@ To add a floating TOC to a new page, in such a way that it will be automatically
 If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` through the first `=--` line.
 
 
-## How to draw commutative diagrams and pictures {#diagrams}
+### How to draw commutative diagrams and pictures {#diagrams}
 
-The itex syntax accepted by the nlab doesn't understand the syntax of any diagram-drawing package akin to xypic or tikz.  (Many of us would love to improve matters; see the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=2), and chime in if you have any suggestions.)  At present there are basically three ways to make diagrams: hack it together with arrays, include an image file, or include SVG.
+#### Tikz
 
-1. _Use arrays or matrices_.  For example,
+As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see how the code for the figures. 
+
+Picture:
+
+\begin{centre}
+    \begin{tikzpicture}
+        \draw[blue, ->] (0,0) -- (1,0) -- (1,-1);
+    \end{tikzpicture}
+\end{centre}
+
+Commutative diagram:
+
+\begin{centre}
+    \begin{tikzcd}
+        x \ar[r] & y
+    \end{tikzcd}
+\end{centre}
+
+The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
+
+Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.
+
+#### Older workaround for commutative diagrams
+
+An older workaround is to use use arrays or matrices.  For example,
 
        $$
        \begin{matrix}
@@ -670,6 +653,7 @@ The itex syntax accepted by the nlab doesn't understand the syntax of any diagra
        $$
 
    produces
+
    $$
    \begin{matrix}
      (f/g)& \to & A \\
@@ -678,7 +662,7 @@ The itex syntax accepted by the nlab doesn't understand the syntax of any diagra
    \end{matrix}
    $$
 
-   In many cases, you want to tweak the alignments (say, of vertical arrows), using `\mathrlap{}` or `\mathllap{}`:
+   In many cases, you may wish to tweak the alignments (say, of vertical arrows), using `\mathrlap{}` or `\mathllap{}`:
 
    $$
    \begin{matrix}
@@ -720,155 +704,24 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrl
        X \to P(A \times B)\;\;\; in \; \mathbf{S}
        }$$
 
-1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, either use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, or use a web service like _[codecogs](http://www.codecogs.com/components/equationeditor/equationeditor.php)_ (warning, codecogs xy-support seems to be broken now) or _[QuickLatex](http://www.quicklatex.com/)_ or [presheaf.com](http://presheaf.com).  Then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
-
-1. _Include SVG_: See [here](#IncludeSVG) for the general procedure. This is arguably a "better" method, since unlike an image (and like MathML) SVG can be scaled with the text, and (in theory) edited by other users without recreating the entire diagram.  There are various methods for producing SVG.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].  Once you have some SVG, you can modify it by hand to put in the itex math; use the SVG `<foreignObject>` tag with a `$...$` inside it.  You need to put `markdown="1"` on the `<foreignObject>` tag, or else on a `<g>` tag containing it.
-
-   Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like `pagename > imagename`) which is included from the main page (see above for the syntax to include other pages).
-
-   You can also use the SVG-editor to create and edit SVGs right here in the lab.  For more details see [this entry](#svgedit) below.
-
-1. Use the CodeCogs-server to produce [xypic](http://www.tug.org/applications/Xy-pic/)-coded diagrams (WARNING: this seems to be broken now, try a similar service such as [presheaf.com](http://presheaf.com)).
-
-   For that, code a diagram in _xypic_ as usual. Then write the code
-   _all in one line without any spaces_ and in addition replace all
-   appearances of the symbol "&" with "%26".
-
-   Then add the line
-
-        <img src="http://latex.codecogs.com/gif.latex?YOUR-CODE-GOES-HERE" />
-
-    in the $n$Lab page where the diagram should appear. This will make some server somewhere on this planet produce an image displaying the desired diagram.
-
-   For instance 
-
-        <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
-
-   produces
-
-   <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
+But use Tikz wherever possible.
 
 
-## Vertical bars and reversed brackets {#vbar}
+####Image files
 
-This is basically working around some missing features of iTeX.  Even in real TeX, typing `|x|` (or equivalently `\vert x\vert`) for $|x|$ is not entirely correct; you should either type `\mathopen|x\mathclose|` or `\lvert x\rvert` to guarantee proper spacing.  This rarely makes any visible difference, although `|-|` *is* dramatically wrong.  (The same goes for `\|`, `\Vert`, `\lVert`, and `\rVert`.)
+One can upload an image to the nLab as follows. 
 
-This is not just a lesson in the fine points of TeX, however, since iTeX does not support any of these nuances!  Furthermore, iTeX renders `|` (or equivalently `\vert`) into MathML as an operator (like `\mid`) rather than as an ordinary symbol (as real TeX does), so that bad spacing comes up much more often.  To work around this, you usually need to put braces around the bars, and sometimes you need to put them inside the bars as well.  (In any case, it never hurts.)
+1. Add <nowiki>[[some_picture.jpg:pic]]</nowiki> or <nowiki>[[some text that you wish to display|some_picture.jpg|pic]]</nowiki> to the page to which you wish to add the image. Save your edit.
 
-Much the same applies to reversed brackets.  In real TeX, `[x[` should really be `[x\mathclose[`; in iTeX, you can write this effectively as `{[x[}`.
+2. Click on the ```?``` symbol that appears after 'some_picture.jpg' or 'some text that you wish to display' on the page. 
 
-Thus:
+3. You will be sent to a page where you can upload the image.
 
-* `$|a|$` is fine: $|a|$.
-* `$|a| + \|x\|$` has bad spacing: $|a| + \|x\|$.
-* `${|a|} + {\|x\|}$` is fine: ${|a|} + {\|x\|}$.
-* `$|-|$` has bad spacing: $|-|$.
-* `$|{-}|$` is fine: $|{-}|$.
-* `${|{-}|} + {\|{-}\|}$` (but nothing simpler) is fine: ${|{-}|} + {\|{-}\|}$.
+Once uploaded, the picture should appear on the page.
 
-Similarly:
+## Other Sources of Information
 
-* `$]0,2[$` is fine: $]0,2[$.
-* `$]0,2[ - ]1,2[$` has bad spacing: $]0,1[ - ]1,2[$.
-* `${]0,2[} - {]1,2[}$` is fine: ${]0,1[} - {]1,2[}$.
-* `$]-1,0[$` has bad spacing: $]-1,0[$.
-* `$]{-1,0}[$` is fine: $]{-1,0}[$.
-* `${]{-2,0}[} - {]{-1,0}[}$` (but nothing simpler) is fine: ${]{-2,0}[} - {]{-1,0}[}$.
-
-Some of these examples of bad spacing will also be bad in real TeX; but iTeX exaggerates the errors and limits the ways that you can fix them.
-
-
-## How to use the SVG editor 
- {#svgedit}
-
-There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/).
-
-
-## Quick Start
-
-1. Click "Edit page" on a page in which you wish to insert an SVG diagram.
-2. Click in the edit box where you want the diagram to go.
-3. In the list on the right-hand side above the links to the formatting tips is a button labelled "Create SVG graphic".  Click on this.  Note: if you forget to do step 2, you won't be able to click on this button.
-4. The SVG-editor will now launch in a new window.  Create your SVG.
-5. When you are done, select "Save SVG" from the file menu.  The SVG code will now appear in the edit box of the page.
-6. To edit an **existing** SVG, select the text between (and including) the `<svg>` and `</svg>` tags (but **don't** include any whitespace before or afterwards).  The "Create SVG" button changes to "Edit existing SVG graphic". 
-
-+-- {: style="text-align:center"}
-<svg width="277" height="172" xmlns="http://www.w3.org/2000/svg" se:nonce="42945" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <defs>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_42945_fw" viewBox="0 0 10 10">
-   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
-  </marker>
- </defs>
- <g>
-  <title>Layer 1</title>
-  <path marker-end="url(#se_arrow_42945_fw)" id="svg_42945_5" d="m39.5,28.85708c37.004852,-4.90707 137.927185,-3.90707 198,31.14292" stroke-width="2" stroke="#000000" fill="none"/>
-  <path marker-end="url(#se_arrow_42945_fw)" id="svg_42945_6" d="m26.5,46c1.770121,48.323517 47.793098,104.441177 77.000008,106" stroke-width="2" stroke="#000000" fill="none"/>
-  <line marker-end="url(#se_arrow_42945_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_42945_7" y2="135" x2="116.5" y1="87" x1="114.5"/>
-  <line marker-end="url(#se_arrow_42945_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_42945_8" y2="72" x2="235.5" y1="71" x1="146.5"/>
-  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_42945_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_42945_9" y2="60" x2="86.5" y1="40" x1="42.5"/>
-  <foreignObject height="20" width="44" font-size="16" id="svg_42945_10" y="61" x="89">
-   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi>Y</mi>
-      <mspace width="thinmathspace"/>
-      <mo>&#215;</mo>
-      <mspace width="thinmathspace"/>
-      <mi>Z</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">Y\, \times\, Z</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" id="svg_42945_11" y="139.45001" x="105">
-   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi>Z</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">Z</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" id="svg_42945_12" y="62.45001" x="233">
-   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi>Y</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">Y</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" id="svg_42945_13" y="22.45001" x="17">
-   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mi>X</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">X</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
- </g>
-</svg>
-=--
-
-## Hints and Tips
-
-1. The editor does not present all options straight away. For example, to get an arrow, you first need to draw a straight line. Then select that straight line (using the selection tool (denoted by an arrow) at the top of the left-hand menu) and a new list of options will appear. One of them is the choice of arrow type.
-
-2. To get a curved arrow, you use another of the options --- the one to turn the line into a 'path'. After turning the line into a path, double-click on it. This brings up the path options, which include whether the path should be 'straight' or 'curved'. Curved paths are [cubic B&#233;zier curves](http://en.wikipedia.org/wiki/B&#233;zier_curve) and can also have arrowheads.
-
-3. You can clone an existing element (an arrow, say), using the rubber-stamp tool.
-
-4. To get rid of any extraneous whitespace around the picture, go to the "Main Menu" (the funny looking button top left) and select "Document Properties".  There you can set the size of the SVG, including "fit to content".  Only do this once the SVG is finished.
-
-# Other Sources of Information #
-
-## Instiki HowTo ##
+### Instiki HowTo
 
 For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
 
@@ -887,7 +740,7 @@ Here are some useful specifics:
 * [SVG Editor](http://code.google.com/p/svg-edit/) Homepage for the SVG editor project.
 
 
-## survey of available math typesetting commands ##
+### Survey of available math typesetting commands
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html) 
 * [webTeX documentation](https://golem.ph.utexas.edu/~distler/WebTeX/docs/wtxsec5.html)
