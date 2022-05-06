@@ -4,7 +4,9 @@
 
 * [[Yang-Mills theory]], [[QCD]], [[lattice QCD]]
 
-* [[confinement]]
+* [[confinement]], [[mass gap]]
+
+* [[quark-gluon plams]]
 
 * [[Landau pole]]
 
