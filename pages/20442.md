@@ -26,6 +26,6 @@ Three of the [[sporadic finite simple groups]] in the [[Happy Family]] are calle
 
 See also
 
-* Wikipedia, _[Fischer grouo](https://en.wikipedia.org/wiki/Fischer_group)_
+* Wikipedia, _[Fischer group](https://en.wikipedia.org/wiki/Fischer_group)_
 
 [[!redirects Fischer groups]]
