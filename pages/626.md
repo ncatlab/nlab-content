@@ -147,6 +147,8 @@ See the article by Selinger below for more examples.
 
 * [[linguistics|natural language syntax]]
 
+* [[Petri net]]
+
 ## References
 
 ### Introductory material
