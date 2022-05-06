@@ -18,7 +18,7 @@ He coauthored books
 
 Introduction to [[topos theory]]:
 
-* [[Francis Borceux]], _Some glances at topos theory_ , lecture notes Como 2018. ([pdf](http://tcsc.lakecomoschool.org/files/2018/06/Como2018.pdf))
+* [[Francis Borceux]], _Some glances at topos theory_ , lecture notes Como 2018. ([pdf](http://tcsc.lakecomoschool.org/files/2018/06/Como2018.pdf), [video playlist](https://www.youtube.com/watch?v=s_fN9euuVAY&list=PLh_3Q6ZRqWs0LBptMGClJ8OArR0fBT6Pp&index=11))
 
 
 Some other papers
