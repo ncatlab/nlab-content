@@ -17,9 +17,7 @@
 
 ## Overview
 
-_DisCoPy_ is a toolbox for computing with [[monoidal categories]] in [[Python]].
-
-It is available at: [github.com/oxford-quantum-group/discopy](https://github.com/oxford-quantum-group/discopy)
+_DisCoPy_ is a toolbox for computing with [[string diagram|string diagrams]], [[monoidal categories]] and [[monoidal functor|strong monoidal functors]] in [[Python]]. It is available on [GitHub](#GitHubDisCoPy).
 
 ## String diagrams
 
@@ -67,8 +65,10 @@ Diagrams can be evaluated in concrete monoidal categories by applying functors t
 ## References
 
 * DisCoPy's documentation: [https://discopy.readthedocs.io/](https://discopy.readthedocs.io/)
-* [[Giovanni de Felice]], [[Alexis Toumi]], [[Bob Coecke]]. _DisCoPy: Monoidal Categories in Python_. Applied Category Theory, 2020. ([arXiv:2005.02975l](https://arxiv.org/abs/2005.02975l))
+* Giovanni de Felice, [[Alexis Toumi]], [[Bob Coecke]]. _DisCoPy: Monoidal Categories in Python_. Applied Category Theory, 2020. ([arXiv:2005.02975l](https://arxiv.org/abs/2005.02975l))
 
-* [[Konstantinos Meichanetzidis]], [[Stefano Gogioso]], [[Giovanni De Felice]], [[Nicolò Chiappori]], [[Alexis Toumi]], [[Bob Coecke]]. _Quantum Natural Language Processing on Near-Term Quantum Computers_. Quantum physics & logic, 2020. ([arXiv:2005.04147](https://arxiv.org/abs/2005.04147 ))
+* Konstantinos Meichanetzidis, Stefano Gogioso, Giovanni De Felice, Nicolò Chiappori, [[Alexis Toumi]], [[Bob Coecke]]. _Quantum Natural Language Processing on Near-Term Quantum Computers_. Quantum physics & logic, 2020. ([arXiv:2005.04147](https://arxiv.org/abs/2005.04147 ))
 
 * {#DelpeuchVicary18} Delpeuch, Antonin, and [[Jamie Vicary]], _Normalization for planar string diagrams and a quadratic equivalence algorithm._ arXiv preprint [arXiv:1804.07832](https://arxiv.org/abs/1804.07832) (2018).
+
+* {#GitHubDisCoPy} DisCoPy repository, [github.com/oxford-quantum-group/discopy](https://github.com/oxford-quantum-group/discopy)
