@@ -381,6 +381,9 @@ But, since $M$ is invertible, the unique solution to this system of equations is
 
 \begin{proof} The Burnside ring of a finite group is a free abelian group on the set $G / H_1, \ldots, G / H_t$, where $H_1, \ldots, H_t$ are representatives of the conjugacy classes of that group, equipped with a certain multiplication. Thus it suffices to check that the structure constants of the Burnside rings coincide, which is established by the previous proposition. \end{proof}
 
+## Applications
+
+* [[Burnside ring is equivariant stable cohomotopy of the point]]
 
 ## Related concepts
 
