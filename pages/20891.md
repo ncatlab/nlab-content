@@ -17,6 +17,9 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Just as an [[elementary topos]] is an axiomatization of basic categorical properties of the [[Set|category of sets]], a "category with class structure" or "category of classes" is an axiomatization of the basic categorical properties of the category of [[proper class|(possibly proper) classes]].  In contrast to the situation for elementary toposes, however, there is no unique such axiomatization with a privileged status in the literature; the field of [[algebraic set theory]] includes many variations.  Here we describe the first such axiomatization due to [Joyal-Moerdijk](#JM).
 
 ## Definition
 
