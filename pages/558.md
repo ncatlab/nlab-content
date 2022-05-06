@@ -26,7 +26,7 @@ The _homotopy hypothesis_ is the assertion that
 
 or rather the stronger statement that
 
-* [[n-groupoid]]s are equivalent to [[homotopy n-type]]s for all $n \in \mathbb{N}$
+* [[n-groupoid]]s are equivalent to [[homotopy n-type]]s for all [[extended natural number]]s $n \in \bar{\mathbb{N}}$
 
 and moreover
 
