@@ -307,22 +307,20 @@ More details on gerbes is at the following sub-entries:
 
 The definition of _gerbe_ goes back to (see also [[nonabelian cohomology]])
 
-* [[J. Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971)
+* [[Jean Giraud]], _Cohomologie non ab&#233;lienne_ , Springer  (1971) ([doi:10.1007/978-3-662-62103-5](https://link.springer.com/book/10.1007/978-3-662-62103-5))
 
-Introductions include
+Review:
 
-* [[Lawrence Breen]], _Notes on 1- and 2-gerbes_ in [[John Baez]], [[Peter May]] (eds.) _[[Towards Higher Categories]]_ ([arXiv:math/0611317](http://arxiv.org/abs/math/0611317)).
-  {#Breen}
+* {#Breen} [[Lawrence Breen]], _Notes on 1- and 2-gerbes_ in [[John Baez]], [[Peter May]] (eds.) _[[Towards Higher Categories]]_, The IMA Volumes in Mathematics and its Applications, vol 152. Springer 2009 ([arXiv:math/0611317](http://arxiv.org/abs/math/0611317), [doi:10.1007/978-1-4419-1524-5_5](https://doi.org/10.1007/978-1-4419-1524-5_5)).
+  
 
 * [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv:math/0212266](http://arxiv.org/abs/math/0212266))
 
-* [[Lawrence Breen]], _Notes on 1- and 2-gerbes_ in [[John Baez]], [[Peter May]] (eds.) _[[Towards Higher Categories]]_ ([arXiv:math/0611317](http://arxiv.org/abs/math/0611317)).
-  {#Breen}
 
 A discussion from the point of view of [[(∞,1)-topos theory]] is in 
 
-* [[Rick Jardine]], Z. Luo, _Higher order principal bundles_ , K-theory (2004) ([web](http://www.math.uiuc.edu/K-theory/0681/))
- {#JardineLuo}
+* {#JardineLuo} [[Rick Jardine]], Z. Luo, _Higher order principal bundles_ , K-theory (2004) ([web](http://www.math.uiuc.edu/K-theory/0681/))
+ 
 
 The definition for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[∞-gerbe]]) is in
 
