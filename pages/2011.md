@@ -94,6 +94,11 @@ Introductions and monographs:
 
 * {#Benedetti19} Riccardo Benedetti, _Lectures on Differential Topology_ ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297))
 
+Historical survey with connections to [[algebraic topology]]:
+
+* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkhauser Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
+
+
 See also 
 
 * Wikipedia, _[Differential topology](https://en.wikipedia.org/wiki/Differential_topology)_
