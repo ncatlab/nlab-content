@@ -82,6 +82,8 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 > at least one thing missing in the discussion here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
 
+* [[swampland]]
+
 * [[cosmological constant]]
 
 * [[axionic landscape]]
