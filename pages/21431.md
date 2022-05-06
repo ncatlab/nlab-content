@@ -14,7 +14,11 @@
 * table of contents
 {:toc}
 
+
+[[!redirects theory of flat diagrams]]
+[[!redirects Theory of flat diagrams]]
 [[!redirects Theory of flat functors]]
+[[!redirects Theory of J-continuous flat diagrams]]
 [[!redirects theory of continuous flat functors]]
 [[!redirects theory of J-continuous flat functors]]
 
@@ -43,7 +47,7 @@ Let $(\mathcal{C},J)$ be a small site. The **theory of J-continuous flat functor
 
 The first two axiom schemata correspond to functoriality, the third to fifth to [[filtered category|filteredness]] (this being a notion equivalent to flatness), and the last to J-continuity (turning J-covers into epimorphic families).
 
-Given a small category $\mathcal{C}$, $Set^{\mathcal{C}^{op}}\simeq Sh(\mathcal{C},J_0)$ where $J_0$ is the [[trivial topology]]. The theory of flat functors on $\mathcal{C}$ coincides with $\mathbb{T}_{J_0}^{\mathcal{C}}$ since the last axiom schema becomes redundant for the maximal sieves whence the first five axiom schemata axiomatize the notion of a flat functor on $\mathcal{C}$ and the resulting **theory of flat functors** is seen to be of [[theory of presheaf type|presheaf type]].
+Given a small category $\mathcal{C}$, $Set^{\mathcal{C}^{op}}\simeq Sh(\mathcal{C},J_0)$ where $J_0$ is the [[trivial topology]]. The theory of flat functors on $\mathcal{C}$ coincides with $\mathbb{T}_{J_0}^{\mathcal{C}}$ since the last axiom schema becomes redundant for the maximal sieves whence the first five axiom schemata axiomatize the notion of a flat functor on $\mathcal{C}$ and the resulting **theory of flat functors** (also called the _theory of flat diagrams_) is seen to be of [[theory of presheaf type|presheaf type]].
 
 
 ## Examples
@@ -56,6 +60,8 @@ Given a small category $\mathcal{C}$, $Set^{\mathcal{C}^{op}}\simeq Sh(\mathcal{
 * [[flat functor]]
 
 * [[geometric theory]]
+
+* [[classifying topos]]
 
 * [[Diaconescu's theorem]]
 
