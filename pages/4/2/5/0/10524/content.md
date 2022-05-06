@@ -40,6 +40,9 @@ Review:
 
 * Wikipedia, _[Graphene](https://en.wikipedia.org/wiki/Graphene)_
 
+Review in the context of [[topological phases of matter]] and specifically topological [[semi-metals]]:
+
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section 6 of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
 
 
