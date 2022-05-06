@@ -112,6 +112,8 @@ $$
 
 =--
 
+## Relation with double and exceptional field theory
+See [Hohm-Samtleben 19](#HohmSamtleben19) for a review.
 
 
 ## Related concepts
@@ -119,6 +121,8 @@ $$
 * [[gauged supergravity]]
 
 * [[tensor hierarchy]]
+
+* [[double field theory]], [[exceptional field theory]]
 
 
 ## References
@@ -138,6 +142,11 @@ See also
 * {#LavauPalmkvist19} [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
 
 * {#LavauStasheff19} [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
+
+For a review of the relation with [[double field theory]] and [[exceptional field theory]] see
+
+* {#HohmSamtleben19} [[Henning Samtleben]], [[Olaf Hohm]], _Higher Gauge Structures in Double and Exceptional
+Field Theory_ ([arXiv:1903.02821](https://arxiv.org/abs/1903.02821))
 
 
 [[!redirects embedding tensors]]
