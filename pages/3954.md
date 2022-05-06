@@ -50,6 +50,8 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 ## Related concepts
 
+* [[Kripke-Joyal semantics]]
+
 * [[double negation topology]]
 
 * [[homotopy type theory FAQ]] -- [What is homotopy type theory? -- For set theorists](http://ncatlab.org/nlab/show/homotopy+type+theory+FAQ)
@@ -85,7 +87,9 @@ Volume 32, Number 4 (2002), 1071-1100. ([Euclid](http://projecteuclid.org/euclid
 ### In terms of classifying toposes
  {#ReferencesInTermsOfClassifyingToposes}
 
-On the interpretation of forcing via [[classifying toposes]]:
+On the interpretation of forcing via [[classifying toposes]] (see also at [[Kripke-Joyal semantics]]):
+
+* [[William Lawvere]], p. 5 of: _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](https://pdfs.semanticscholar.org/6630/846a00261a071b71e264e0f532e29cd9152f.pdf))
 
 * [[Myles Tierney]], _Forcing Topologies and Classifying Topoi_, pages 211-219 in: [[Alex Heller]], [[Myles Tierney]] (eds.) _Algebra, Topology, and Category Theory: A Collection of Papers in Honor of Samuel Eilenberg_, Academic Press 1976  ([doi:10.1016/C2013-0-10841-0](https://doi.org/10.1016/C2013-0-10841-0))
 
