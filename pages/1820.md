@@ -48,9 +48,10 @@ There is also a more general class of model structures on locally presentable ca
 
 ## Definition 
 
+The following definition originates with [[Jeff Smith]]:
+
 +-- {: .num_defn}
 ###### Definition 
-**(Jeff Smith)**
 
 A [[model category]] $C$ is **combinatorial** if it is
 
