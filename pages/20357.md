@@ -37,6 +37,8 @@ See the article [[Stonean locale]] for more information.
 
 * [[Stonean locale]]
 
+* [[hyperstonean space]]
+
 ## References
 
 A standard textbook is
