@@ -426,6 +426,12 @@ Being a Quillen right adjoint, the right derived functor of $K$ of course preser
 
 =--
 
+
+### Preservation of homotopy fibers
+
+See at _[[rational fibration lemma]]_.
+
+
 ### Rationalization of spectra
  {#RationalizationOfSpectra}
 
