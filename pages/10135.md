@@ -125,7 +125,7 @@ In conclusion, if $\mathcal{X}$ is any [[orbifold]], i.e. not necessarily a glob
   \label{CocyclesInTheSlice}
   H_{glob}(\mathcal{X}, \mathcal{A} )
   \;\coloneqq\;
-  \pi_0 \mathbf{H}_{/ \mathbf{B}G_{glob}}
+  \pi_0 \mathbf{H}_{/\mathbf{B}G_{glob}}
   \big(
     \mathcal{X}, \mathcal{A}
   \big)
@@ -167,6 +167,7 @@ Moreover, in this case the cocyle morphism $c$ itself is necessarily [[faithful 
 
 \[
   \label{Faithful}
+ \underset{[\mathcal{X}\to\mathbf{B}G_{glob}]}{\sqcup}
   \mathbf{H}_{/\mathbf{B}G_{glob}}
   \big(
     \mathcal{X}, \mathcal{A}
@@ -184,7 +185,7 @@ which hence gives an equivalent description of the global equivariant orbifold c
 Of course if $\mathcal{A} \to \mathbf{B}G$ is 0-truncated, this only give cohomology in degree 0. To get back to the full cohomology, observe that for [[n-localic (infinity,1)-topos|0-localic]] $\mathbf{H}$ (i.e. with a plain 1-categorical [[site]] of definition)  the previous argument generalizes immediately to the [[internal homs]]
 
 $$
-  [-,-]_{\mathbf{B}G}
+  [-,-]_{\mathbf{B}G_{glob}}
   \;\colon\;
   \mathbf{H}^{op}_{/\mathbf{B}G} \times \mathbf{H}_{/\mathbf{B}G}
     \longrightarrow
@@ -203,9 +204,10 @@ $$
 as
 
 \[
+ \underset{[\mathcal{X}\to\mathbf{B}G_{glob}]}{\sqcup}
   \big[
     \mathcal{X}, \mathcal{A}
-  \big]_{\mathbf{B}G}
+  \big]_{/\mathbf{B}G_{glob}}
   \;\simeq\;
   \big[
     \mathcal{X}, \mathcal{A}
@@ -217,6 +219,7 @@ From these then one re-obtains cohomology by applying the [[shape modality]]/[[s
 
 $$
 \begin{aligned}
+ \underset{[\mathcal{X}\to\mathbf{B}G_{glob}]}{\sqcup}
   &#643;
   \big[
     \mathcal{X}, \mathcal{A}
