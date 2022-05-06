@@ -2,7 +2,13 @@
 
 * [webpage](https://sitp.stanford.edu/people/natalie-m-paquette)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[AdS3/CFT2 duality]]:
+
+* [[Kevin Costello]], [[Natalie Paquette]], _Twisted Supergravity and Koszul Duality: A case study in $AdS_3$_ ([arXiv:2001.02177](https://arxiv.org/abs/2001.02177))
+
+## Related $n$Lab entries
 
 * [[Moonshine]]
 
