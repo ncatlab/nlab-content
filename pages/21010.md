@@ -25,9 +25,12 @@ The [[semiclassical approximation]] to [[bottom-up model building|bottom-up]] [[
 
 ## References
 
-Reviw in:
+Review in:
 
 * {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
+
+* Ruben Sandapen, _An overview of light-front holography_ ([arXiv:2001.03479](https://arxiv.org/abs/2001.03479))
+
 
 See also
 
@@ -35,6 +38,6 @@ See also
 
 * Stanley J. Brodsky, _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_ ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
-Application of [[holographic QCD]] ([[holographic light cone QCD]]) to [[B-meson]] physics:
+Application to [[B-meson]] physics:
 
 * [[Mohammad Ahmady]], _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
