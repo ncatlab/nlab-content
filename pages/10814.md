@@ -153,7 +153,7 @@ Given a symplectic manifold $(M,\omega)$ there exist couples of lagrangian folia
 $$
 \forall X,Y\in T\mathcal{F}_\pm, \: \omega(X,Y)=0.
 $$
-For example for a symplectic space $(\mathbb{R}^{2d},\omega=\mathrm{d}x^\mu\wedge\mathrm{p}_\mu)$ we can have $\mathcal{F}_+ = \{x^\mu = \mathrm{const} \}$ and $\mathcal{F}_-= \{p_\mu = \mathrm{const} \}$. But notice that any symplectic rotation of this choice is a couple of lagrangian foliations that works fine.
+For example for a symplectic space $(\mathbb{R}^{2d},\omega=\mathrm{d}x^\mu\wedge\mathrm{d}p_\mu)$ we can have $\mathcal{F}_+ = \{x^\mu = \mathrm{const} \}$ and $\mathcal{F}_-= \{p_\mu = \mathrm{const} \}$. But notice that any symplectic rotation of this choice is a couple of lagrangian foliations that works fine.
 
 Heuristically, in geometrical quantization we make a choice of a couple of lagrangian foliations $\mathcal{F}_\pm$ to "select" a physical spacetime $\mathcal{F}_+$ from the whole symplectic-covariant theory on $M$.
 
