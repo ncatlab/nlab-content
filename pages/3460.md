@@ -51,6 +51,7 @@ A result of Eilenberg and Nakayama states that any [[separable algebra]] over a 
 
 * Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
+* Endo, Shizuo and Watanabe, Yutaka, On separable algebras over a commutative ring, _Osaka J. Math._ **4**(2) (1967), 233-242. ([web](https://projecteuclid.org/download/pdf_1/euclid.ojm/1200691953)). See in particular Thm. 4.2.
 
 A separable algebra is said to be **strongly separable** if there exists a separability idempotent $p$ that is **symmetric**, meaning
 $$ p = \sum_{i=1}^n a_i \otimes b_i = \sum_{i=1}^n b_i \otimes a_i $$
