@@ -517,9 +517,17 @@ The concept in differential geometry originates around the work of [[Eli Cartan]
 
 Textbook accounts:
 
+* P. Molino, _Theorie des G-Structures: Le Probleme d'Equivalence_, Lecture Notes in Mathematics, Springer (1977) ([ISBN:978-3-540-37360-5](https://www.springer.com/de/book/9783540082460))
+
 * {#Sternberg64} [[Shlomo Sternberg]], chapter VII of: _Lectures on differential geometry_, Prentice-Hall (1964), 2nd edition AMS 1983 ([ISBN:978-0-8218-1385-0](https://bookstore.ams.org/chel-316))
 
-* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_ , Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
+
+
+
+See also:
+
+* P. Molino, _Sur quelques propriétés des G-structures_, J. Differential Geom. Volume 7, Number 3-4 (1972), 489-518 ([euclid:jdg/1214431168](https://projecteuclid.org/euclid.jdg/1214431168))
+
 
 Lecture notes:
 
