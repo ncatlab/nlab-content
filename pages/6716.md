@@ -487,9 +487,10 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 
 ## References
 
-See also
 
-* {#Gompf97} [[Robert Gompf]], _$Spin^c$ structures and homotopy equivalences_, Geom. Topol. 1 (1997) 41-50 ([arXiv:math/9705218](https://arxiv.org/abs/math/9705218))
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Appendix D in: _[[Spin geometry]]_, Princeton University Press (1989)
+
+For more see the references at _[[spin^c structure]]_.
 
 
 [[!redirects spin^c group]]
