@@ -39,6 +39,11 @@ and many alternatives have been suggested or used.
 [[Dustin Clausen]] and [[Peter Scholze]] use the term “anima” (plural: anima), in particular in relation to [[condensed mathematics]].
 Reference: [nCafe](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057623).
 
+From Section 1 of
+_Purity for flat cohomology_ by
+Kęstutis Česnavičius and Peter Scholze:
+“If the objects of C are called widgets, then we call those of Ani(C) animated widgets, except that we abbreviate Ani(Set) to Ani and the term ‘animated set’ to anima (plural: anima).”
+
 The word “space” is often (ab)used to mean ∞-groupoid,
 but this usage was [condemned](https://nforum.ncatlab.org/discussion/4781/against-spaces-in-homotopy-theory/) by others.
 
