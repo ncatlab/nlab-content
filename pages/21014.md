@@ -64,7 +64,7 @@ $$
   }
 $$
 
-between [[product topological spaces]] of the [[free loop space]] of $X$ with itself. The induced [[integral transform]] operations on the [[ordinary homology]] of the [[free loop spaces]] are generalized [[string topology]]-operation ([Cohen-Godin 03, Section 2](#CohenGodin03)).
+between [[product topological spaces|products]] of the [[free loop space]] of $X$ with itself. The induced [[integral transform]] operations on the [[ordinary homology]] of the [[free loop spaces]] are generalized [[string topology]]-operation ([Cohen-Godin 03, Section 2](#CohenGodin03)).
 
 (It is for this [[integral transform]] construction that the [[complement]] of the embedded circles is required to be a [[tree]], for this allows to [[contractible topological space|contract]] the [[spaces of maps]] out of these components, up to [[homotopy]].) 
 
