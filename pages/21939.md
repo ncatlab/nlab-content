@@ -188,6 +188,7 @@ The implicit idea in [Conner-Floyd 66, p. 99](#ConnerFloyd66) must be to see $\p
 \linebreak
 
 ### Relation to $MU$ and $MFr$
+ {#RelationToMUAndFr}
 
 +-- {: .num_prop #AShortExactSequenceOfUFrBordismRings} 
 ###### Proposition
@@ -339,7 +340,9 @@ Observing now that the [[stable homotopy groups]] of $M\mathrm{U}$ are [[free ab
 +-- {: .num_remark #BoundaryOperationFromFrBordToUFrBordIsSurjective} 
 ###### Remark
 
-Here is an explicit construction of a [[lift]] through the boundary map in (eq:ShortExactSequenceOfUFrBordismRings), depending on a choice of trivialization in $\pi_{2d-1}\big( M\mathrm{U}\big)$ (essentially a streamlined version of the construction in the first half of the proof of [Conner-Floyd 66, Thm. 16.2](#ConnerFloyd66)): 
+Here is an explicit construction of a [[lift]] through the boundary map in (eq:ShortExactSequenceOfUFrBordismRings), depending on a choice of trivialization in $\pi_{2d-1}\big( M\mathrm{U}\big)$:
+
+(The following is essentially a streamlined account of the construction in the first half of the proof of [Conner-Floyd 66, Thm. 16.2](#ConnerFloyd66); for more and a more abstract perspective see at _[[d-invariant]]_ the section _[Trivializations of the d-invariant](d-invariant#TrivializationsOfThedInvariant)_): 
 
 Let 
 
