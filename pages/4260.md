@@ -3,7 +3,14 @@ __Jarah Evslin__ is an American [[nlab:string theory|string theorist]].
 
 * [webpage](http://tpcsf.ihep.ac.cn/english/jarah.html)
 
-## related $n$Lab entries
+## Selected writings
+
+On the suggestion that an actual [[E8]]-[[principal bundle]] on 11d spacetime plays a role in the [[shifted C-field flux quantization]]:
+
+* Allan Adams, [[Jarah Evslin]], _The loop group of $E_8$ and K-theory from 11d_, JHEP 02 (2003) ([arXiv:hep-th/0203218](https://arxiv.org/abs/hep-th/0203218))
+
+
+## Related $n$Lab entries
 
 * [[D-brane]]
 
