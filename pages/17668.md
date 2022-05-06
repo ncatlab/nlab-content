@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,6 +23,15 @@
 
 This theory pursues the surprising analogies between 3-dimensional topology and number theory, where knots embedded in a 3-manifold behave like prime ideals in a ring of algebraic integers, known as [[arithmetic topology]]. 
 
+## Related concepts
+
+* [[number theory and physics]]
+
+* [[p-adic physics]]
+
+  * [[p-adic string theory]]
+
+  * [[p-adic AdS/CFT correspondence]]
 
 
 ## References
