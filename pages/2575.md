@@ -732,8 +732,6 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
 * [[level (Chern-Simons theory)]]
 
-* [[extended prequantum Chern-Simons theory]]
-
 * [[quantization of Chern-Simons theory]]
 
 * [[Spin Chern-Simons theory]]
@@ -766,6 +764,7 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
 * [[analytically continued Chern-Simons theory]]
 
+* [[Rozansky-Witten theory]]
 
 * [[sigma-model]]
 
