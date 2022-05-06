@@ -61,6 +61,10 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 ## Related concepts
 
+* [[quantum hadrodynamics]]
+
+* [[Walecka model]]
+
 * [[baryogenesis]]
 
 * [[skyrmion]]
