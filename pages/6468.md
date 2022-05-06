@@ -42,7 +42,15 @@ The term "K3" is
 
 Over the [[complex numbers]] [[K3 surfaces]] are all [[Kähler manifold|Kähler]], and even [[hyperkähler manifold|hyperkähler]].
 
-The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ of [[K3-surfaces]] $X$ (and of [[4-tori]]) for $n \in \mathbb{N}$ and a small finite number of slight variants of these.
+The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ (for $n \in \mathbb{N}$) for $X$ either
+
+1. a [[K3-surface]]
+
+1. a [[4-torus]] (in which case the [[compact hyperkähler manifolds]] is really the [[fiber]] of $(\mathbb{T}^4)^{[n]} \to \mathbb{T}^4$)
+
+([Beauville 83](compact+hyperkähler+manifold#Beauville83))
+and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady99), [O'Grady 03](compact+hyperkähler+manifold#OGrady03)
+), see [Sawon 04, Sec. 5.3](compact+hyperkähler+manifold#Sawon04).
 
 ### Homotopy
 
