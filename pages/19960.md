@@ -449,7 +449,18 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 
 > graphics from [GKMMN 10](#GKMMN10)
 
-These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18).
+
+\linebreak
+
+See also  [Pomarol-Wulzer 09](#PomarolWulzer09):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PomarolHolographicBaryonMasses.jpg" width="500">
+</center>
+
+\linebreak
+
+These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18). 
 
 ### Embedding into a full standard model
 
@@ -683,6 +694,8 @@ Review:
 * Alex Pomarol, Andrea Wulzer, _Baryon Physics in Holographic QCD_, Nucl. Phys. B809:347-361, 2009 ([arXiv:0807.0316](https://arxiv.org/abs/0807.0316))
 
 * Thomas Gutsche, Valery E. Lyubovitskij, Ivan Schmidt, Alfredo Vega, _Nuclear physics in soft-wall AdS/QCD: Deuteron electromagnetic form factors_, Phys. Rev. D 91, 114001 (2015) ([arXiv:1501.02738](https://arxiv.org/abs/1501.02738))
+
+* {#PomarolWulzer09} Alex Pomarol, Andrea Wulzer, _Baryon physics in a five-dimensional model of hadrons_ ([arXiv:0904.2272](https://arxiv.org/abs/0904.2272)), Chapter 18 in: [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 * Marco Claudio Traini, _Generalized Parton Distributions: confining potential effects within AdS/QCD_, Eur. Phys. J. C (2017) 77:246 ([arXiv:1608.08410](https://arxiv.org/abs/1608.08410))
 
