@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
 A [[fork]]
 
 \begin{center}\begin{tikzcd}
@@ -16,7 +36,13 @@ in which $s e = id_A$, $t g = id_B$ and $t f = e s$.
 
 Of course, $f$ and $g$ can be interchanged in the definition.
 
-Every split fork is an [[absolute limit|absolute]] [[equalizer]], but not conversely.  See also [[split coequalizer]].
+## Properties
+
+Every split fork is an [[absolute limit|absolute]] [[equalizer]], but not conversely.  
+
+## Related concepts
+
+See also [[split coequalizer]].
 
 
 [[!redirects split equalizer]]
