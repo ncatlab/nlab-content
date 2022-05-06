@@ -5,6 +5,16 @@
 
 * [[Chern-Weil theory]]
 
+* [[H-space]]
+
+* [[Hopf construction]]
+
 * [[Hopf fibration]]
+
+* [[Hopf degree theorem]]
+
+* [[Hopf invariant]], [[Hopf invariant one]]
+
+* [[Hopf algebra]]
 
 category: people
