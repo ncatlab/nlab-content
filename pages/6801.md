@@ -15,14 +15,16 @@
 
 ## Idea
 
-A limit of the [[worldvolume]] theory of the [[NS5-brane]].
+A limit of the [[worldvolume]] theory of the [[NS5-brane]], which is a [[string theory]] of "[[little strings]]" in six dimensions.
 
-[[!include table of branes]]
+
 
 
 ## Related concepts
 
-* [[6d (2,0)-supersymmetric QFT]]
+* [[D=6 N=(2,0) SCFT]]
+
+[[!include table of branes]]
 
 ## References
 
