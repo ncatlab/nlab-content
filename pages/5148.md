@@ -3,3 +3,5 @@ David Blanc is an algebraic topologist. He works in the Department of Mathematic
 His webpage is [here](http://math.haifa.ac.il/blanc/).
 
 category:people
+
+[[!redirects D. Blanc]]
