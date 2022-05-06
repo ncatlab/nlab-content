@@ -1,4 +1,8 @@
 
+> This entry describes a concrete formalization of the general notion of [[state]] in the context of [[quantum probability theory]] and [[algebraic quantum field theory]] and [[operator algebra]]. For other conceptualizations of [[states]] see there.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -17,7 +21,6 @@
 =--
 =--
 
-> This entry describes a concrete formalization of the general notion of [[state]] in the context of [[AQFT]] and [[operator algebra]].
 
 # Contents
 * table of contents
@@ -26,7 +29,9 @@
 ## Idea
  {#Idea}
 
-In [[physics]], a _[[state]]_ $\langle - \rangle$ is the information that allows to  assign to each [[observable]] $A$ the [[expectation value]] $\langle A\rangle$ that this observable has when the [[physical system]] is assumed to be in that state.
+The concept of _state on a star-algebra_ is the formalization of the general idea of [[states]] from the point of view of  [[quantum probability theory]] and [[AQFT|algebraic quantum theory]].
+
+In order to motivate the definition from more traditional formulations in  [[physics]], recall that there a _[[state]]_ $\langle - \rangle$ is the information that allows to  assign to each [[observable]] $A$ the [[expectation value]] $\langle A\rangle$ that this observable has when the [[physical system]] is assumed to be in that state.
 
 Often this is formalized in the [[Schrödinger picture]] where a [[Hilbert space|Hilbert]] [[space of states]] $\mathcal{H}$ is taken as primary, and the [[observables]] are [[representation|represented]] as suitable [[linear operators]] $A$ on $\mathcal{H}$. Then for $\psi \in \mathcal{H}$ a state ([[pure state]]) the [[expectation value]] of $A$ in this state is the [[inner product]] $\langle \psi \vert A \vert \psi \rangle \coloneqq (\psi, A \psi)$. This defines a [[linear function]]
 
@@ -274,6 +279,7 @@ More general states in this case are given by [[density matrices]].
 
 ## Related concepts
 
+* [[quantum probability theory]]
 
 * [[state]], [[quasi-state]]
 
