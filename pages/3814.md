@@ -99,7 +99,13 @@ Strikingly, this  exact gauge group (eq:ExactGSM) of the standard model of parti
 
    This is the basis of "[[grand unified theories]]" ([[GUT]]), speculative extensions of the standard model trying to understand its gauge group as being a [[spontaneously broken symmetry|spontaneously broken]] _[[simple Lie group]]_-[[symmetry]].
 
-1. ...the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
+1. ...the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details).
+
+   More concretely, it is identified with the [[subgroup]] of [[Spin(9)]] which respects a splitting $\mathbb{H} \oplus \mathbb{H} \simeq_{\mathbb{R}} \mathbb{C} \oplus \mathbb{C}^3$ ([Krasnov 19](Spin%289%29#Krasnov19), see also at [SO(10)-GUT](GUT#TheGUTKnownAsSO10))
+
+
+
+  This is part of ongoing speculation that  [[octonion|octonionic]] [[exceptional structures]] might be behind the standard model.
 
 ### Fermion content
 
