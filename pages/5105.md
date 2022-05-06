@@ -13,21 +13,20 @@
 =--
 =--
 
-
-# Equivalence of $2$-categories
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Definition
 
-An **equivalence of $2$-categories** is the appropriate notion of [[equivalence of categories|equivalence]] between [[2-categories]].  As used on the nLab, where all [[n-categories]] are usually by default "weak," this consists of:
+An **equivalence of $2$-categories** is the appropriate notion of [[equivalence of categories|equivalence]] between [[2-categories]]. This consists of:
 
-* (Weak) [[2-functors]] (aka [[pseudofunctors]]) ${}\;F\colon C\to D$ and $G\colon D\to C$, and
-* [[pseudonatural transformations]]  $G \circ F \to Id_C$ and $F \circ G \to Id_D$ which are themselves [[equivalences]], i.e. there are pseudonatural transformations forming their inverses up to isomorphism.
+* [[2-functors]] ${}\;F\colon C\to D$ and $G\colon D\to C$, and
+* [[pseudonatural transformations]] ${}\;G \circ F \to Id_C$ and $F \circ G \to Id_D$ which are themselves [[equivalences]], i.e. there are pseudonatural transformations forming their inverses up to isomorphism.
+
+The definition makes sense, and is used, both in the case that the two 2-functors involved are strict (i.e. one is working in the category of (weak or strict!) 2-categories and strict 2-functors between them), and in the case that they are weak. 
 
 In the literature this sort of equivalence is often called a **biequivalence**, as it has traditionally been associated with [[bicategories]], the standard algebraic definition of weak $2$-category.  There is a stricter notion of equivalence for strict $2$-categories, which traditionally is called just a *$2$-equivalence* and which on the nLab is called a [[strict 2-equivalence]].
 
-A 2-functor can be made into part of an equivalence iff it is essentially surjective on objects, essentially full on 1-cells (i.e. essentially surjective on Hom-categories), and fully faithful on 2-cells.
+A (weak or strict) 2-functor can be made into part of an equivalence iff it is essentially surjective on objects, essentially full on 1-cells (i.e. essentially surjective on Hom-categories), and fully faithful on 2-cells.
 
 ## Internalization
 
