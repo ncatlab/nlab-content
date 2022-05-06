@@ -77,14 +77,14 @@ Classical historical accounts include
 
 * D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
 
-* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
+* {#CartanEilenberg} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956) ([pdf](http://www.math.stonybrook.edu/~mmovshev/BOOKS/homologicalalgeb033541mbp.pdf))
  
 * [[A. Grothendieck]], _[[Tohoku|Sur quelques points d'algèbre homologique]]_ (1957)  ([part1](http://projecteuclid.org/euclid.tmj/1178244774), [part2](http://projecteuclid.org/euclid.tmj/1178244774))
 
-* {#HiltonStammbach71} [[Peter Hilton]],  U. Stammbach, _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4.
+* {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
 
 
-* [[Saunders Mac Lane]], _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8
+* [[Saunders Mac Lane]], _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8 ([doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4))
 
 A standard modern textbook introduction is
 
@@ -92,7 +92,7 @@ A standard modern textbook introduction is
 
 and a more systematic modern development of the theory is in sections 8 and 12-18 of
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_,  Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_,  Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 Non-abelian variants of homological algebra are disussed for instance in
 
