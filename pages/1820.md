@@ -633,5 +633,7 @@ See also
 [[!redirects Jeff Smith's theorem]]
 [[!redirects Jeff Smith theorem]]
 [[!redirects Jeff Smith's theorem]]
+[[!redirects Smith recognition theorem]]
+[[!redirects Smith's recognition theorem]]
 
 [[!redirects combinatorial model categories]]
