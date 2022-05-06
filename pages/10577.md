@@ -43,7 +43,9 @@ See _[[rigidity theorem for elliptic genera]]_
 
 * Robert Waelder, _Equivariant Elliptic Genera_ ([arXiv:math/0603521](http://arxiv.org/abs/math/0603521))
 
-* Stefan Hohenegger, Amer Iqbal, section 5.1 of _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
+See also the references at _[[M5-brane elliptic genus]]_.
+
+
 
 [[!redirects equivariant elliptic genera]]
 
