@@ -30,6 +30,10 @@ On [[M2-M5 brane bound states]] in relation to [[Dp-D(p+2) brane intersection]] 
 
 * [[Horatiu Nastase]], [[Constantinos Papageorgakis]], _Bifundamental Fuzzy 2-Sphere and Fuzzy Killing Spinors_, SIGMA 6:058, 2010 ([arXiv:1003.5590](https://arxiv.org/abs/1003.5590))
 
+On the [[ABJM model]] as a [[matrix model]]:
+
+* {#MohammedMuruganNastase10} Asadig Mohammed, Jeff Murugan, [[Horatiu Nastase]], _Looking for a Matrix model of ABJM_, Phys. Rev. D82:086004, 2010 ([arXiv:1003.2599](https://arxiv.org/abs/1003.2599))
+
 
 ## Related $n$Lab entries
 
