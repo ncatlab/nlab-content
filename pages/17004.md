@@ -24,7 +24,7 @@
 
 The [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is also called _stable cohomotopy_, as it is the [[stable homotopy theory]] version of [[cohomotopy]]. 
 
-Equivalenty, it is the cohomolgical [[duality|dual]] concept to [[stable homotopy homology theory]].
+Equivalently, it is the cohomological [[duality|dual]] concept to [[stable homotopy homology theory]].
 
 By the [[Pontryagin-Thom theorem]] this is equivalently [[framed manifold|framed]] [[cobordism cohomology theory]].
 
