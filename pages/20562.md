@@ -60,9 +60,9 @@ This product space representation can be related to monoidal functor perspective
 
 DisCoCat is relatively easy to modify by replacing the semantic category $FVect$ with some other category with the appropriate structure. Examples include
 
-* [[relation|Relations]], which yields a semantics in [[regular logic]], closely related to [[cartesian bicategory|Cartesian bicategories]], see ([Felice, Meichanetzidis and Toumi 2019](#Felice19)
+* [[relation|Relations]], which yields a semantics in [[regular logic]], closely related to [[cartesian bicategory|Cartesian bicategories]], see [Felice, Meichanetzidis and Toumi 2019](#Felice19)
 
-* [[density matrix|Density matrices]] to model semantic ambiguity (such as "financial bank" vs "river bank"
+* [[density matrix|Density matrices]] to model semantic ambiguity such as "financial bank" vs "river bank"
 
 * Convex relations (i.e. [[relation|relations]] in the category of [[convex space|convex spaces]]) to model cognition ([Bolt et al 2016](#Bolt16))
 
