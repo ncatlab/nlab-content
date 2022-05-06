@@ -9,6 +9,7 @@
 =--
 =--
 
+
 This page gives hints for how to edit [[nLab:HomePage|nLab]]-pages.
 
 An easy introduction for elementary basics is
@@ -661,6 +662,27 @@ Commutative diagram:
         x \ar[r] & y
     \end{tikzcd}
 \end{centre}
+
+{#TypesetAdjointFunctors} [[adjoint functors]]:
+
+
+\begin{tikzcd}
+  \mathcal{D}
+   \arrow[r, shift right=7pt, "R"', "\bot"]
+  & 
+  \mathcal{C}
+   \arrow[l, shift right=7pt, "L"']
+\end{tikzcd}
+
+      \begin{tikzcd}
+        \mathcal{D}
+        \arrow[r, shift right=7pt, "R"', "\bot"]
+        & 
+        \mathcal{C}
+        \arrow[l, shift right=7pt, "L"']
+       end{tikzcd}
+
+
 
 The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
 
