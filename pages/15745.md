@@ -10,6 +10,14 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[isometry group]] of a [[Euclidean space]].
+
 
 ## Related concepts
 
