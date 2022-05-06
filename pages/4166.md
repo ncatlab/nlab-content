@@ -6,6 +6,7 @@
 
 _BDR 2-vector bundles_ are a notion of [[categorified]] [[vector bundle]] motivated by the concept of [Kapranov-Voevodsy's 2-vector spaces](http://ncatlab.org/nlab/show/2-vector+space#KV2VectorSpace).
 
+See also at _[[iterated algebraic K-theory]]_.
 
 #Contents#
 * table of contents
@@ -80,6 +81,8 @@ of [[Kapranov-Voevodsky 2-vector space]]s.
 ## The homotopy type of the classifying space
 
 **Theorem** (Baas-Dundas-Rognes-Richter)
+
+The K-theory of BDR 2-vector bundles is the [[algebraic K-theory]] of [[ku]] (see at _[[iterated algebraic K-theory]]_)
 
 $\mathcal{K}(V) \simeq K(ku)$
 
