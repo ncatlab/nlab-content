@@ -355,7 +355,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.2.5.1]].
 An $(\infty,1)$-functor $G:D\to C$ admits a left adjoint if and only if for each $X\in C$, the [[comma (infinity,1)-category]] $(X \downarrow G)$ has an [[initial object in an (infinity,1)-category|initial object]], i.e. every object $X\in C$ admits a [[universal arrow]] $X\to G F X$ to $G$.
 =--
 
-This is [Riehl-Verity, Corollary 16.2.7](#RVElements).
+This is [[Higher Topos Theory|HTT, Proposition 5.2.4.2]] and also [Riehl-Verity, Corollary 16.2.7](#RVElements).
 
 ## Examples
 
