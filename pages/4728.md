@@ -41,6 +41,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[area]]
 
+* [[moduli space of curves]]
+
 ## References
 
 * [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
@@ -48,3 +50,6 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 [[!redirects surface]]
 [[!redirects surfaces]]
+
+[[!redirects 2-manifold]]
+[[!redirects 2-manifolds]]
