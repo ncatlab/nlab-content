@@ -4,6 +4,8 @@ Hermann Grassmann was a German polymath, 1809-1877. Among many other accomplishm
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hermann_Grassmann)
 
 
+The appreciation of Grassmann's ideas took a long time:
+
 From [Drew Armstrong](https://plus.google.com/103061162497127117651/posts/f4HHK1XhUL1):
 
 > Perhaps owing to the abstraction of his work, he was not recognized by the mathematical community and was more famous during his lifetime for his work in philology (including a translation of the Rig Veda). Despite his failure to achieve mathematical success, Grassmann never doubted that his work was significant. Here's a striking quote from the preface of the 1862 second edition of the _[[Ausdehnungslehre]]_:
@@ -11,6 +13,11 @@ From [Drew Armstrong](https://plus.google.com/103061162497127117651/posts/f4HHK1
 >> {#CompletelyConvinced} I remain completely confident that the labour I have expended on the science presented here and which has demanded a significant part of my life as well as the most strenuous application of my powers, will not be lost. It is true that I am aware that the form which I have given the science is imperfect and must be imperfect. But I know and feel obliged to state (though I run the risk of seeming arrogant) that even if this work should again remain unused for another seventeen years or even longer, without entering into the actual development of science, still that time will come when it will be brought forth from the dust of oblivion and when ideas now dormant will bring forth fruit. I know that if I also fail to gather around me (as I have until now desired in vain) a circle of scholars, whom I could fructify with these ideas, and whom I could stimulate to develop and enrich them further, yet there will come a time when these ideas, perhaps in a new form, will arise anew and will enter into a living communication with contemporary developments. For truth is eternal and divine.
 
 > (Translation from Michael Crowe, _A History of Vector Analysis_)
+
+{#WhyNoOneHasTranslated} Here is R. W. Genese in 1893 ([Nature volume 48, page 517 ](https://www.nature.com/articles/048517a0)) lamenting the delay in its translation:
+
+>  Sir Robert Ball asks why no one has translated the "[[Ausdehnungslehre]]" into English. The answer is as regretable as simple—it would not pay. The number of mathematicians who, after the severe courses of the universities, desire to extend their reading is very small. It is something that a respectable few seek to apply what they have already learnt. The first duty of those who direct the studies of the universities is to provide that students may leave in possession of all the best means of future investigation. That fifty years after publication the principles of the "[[Ausdehnungslehre]]" should find no place in English mathematical education is indeed astonishing. Half the time given to such a wearisome subject as Lunar Theory would place a student in possession of many of the delightful surprises of Grassmann's work, and set him thinking for himself. The "[[Ausdehnungslehre]]" has won the admiration of too many distinguished mathematicians to remain longer ignored. Clifford said of it: "I may, perhaps, be permitted to express my profound admiration of that extraordinary work, and my conviction that its principles will exercise a vast influence upon the future of mathematical science.” Useful or not, the work is “a thing of beauty," and no mathematician of taste should pass it by. It is possible, nay, even likely, that its principles may be taught more simply; but the work should be preserved as a classic.
+
 
 Grassmann's ideas were finally studied in
 
