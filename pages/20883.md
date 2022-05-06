@@ -323,7 +323,7 @@ For more see at _[[Adams operation on Jacobi diagrams]]_.
 
 * [[metric Lie algebra]]
 
-* [[Rozansky-Witten weight system]]
+[[!include chord diagrams and weight systems -- table]]
 
 
 ## References
