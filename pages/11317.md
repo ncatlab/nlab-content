@@ -33,9 +33,19 @@ A related problem is that of the [maximal Cauchy development for the Einstein eq
 
 ## References
 
+The original article:
+
 * [[Stephen Hawking]], [[Roger Penrose]], _The Nature of Space and Time_ Princeton: Princeton University Press. ISBN 0-691-03791-4. (1996)
 
+Review:
+
+* [[Klaas Landsman]], _Singularities, black holes, and cosmic censorship: A tribute to Roger Penrose_ ([arXiv:2101.02687](https://arxiv.org/abs/2101.02687))
+
+See also:
+
 * Wikipedia, _[Penrose-Hawking singularity theorem](http://en.wikipedia.org/wiki/Penrose&#8211;Hawking_singularity_theorems)_
+
+In view of [[constructive mathematics]]:
 
 * {#Hellman} Geoffrey Hellman, _Mathematical constructivism in spacetime_, British Journal for the Philosophy of Science 49 (3):425-450 (1998) [PDF](http://www.jstor.org/stable/688083)
 
