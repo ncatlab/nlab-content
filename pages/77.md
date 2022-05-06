@@ -175,6 +175,14 @@ See
 
 ## References
 
+* {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
+
+  * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
+
+  * *II.* V. V. Gorbatsevich, A. L. Onishchik, _Lie Transformation Groups_ 
+
+  Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
+
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
 
 Discussion with a view towards [[Chern-Weil theory]] is in 
