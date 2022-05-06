@@ -708,6 +708,13 @@ For a non-finite set of connected components this remains true if the space is [
 
 * The connected subsets of a space form a [[connectology]].
 
+\linebreak
+
+* [[simply connected topological space]]
+
+* [[simple topological space]]
+
+* [[nilpotent topological space]]
 
 ## References
 
