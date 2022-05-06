@@ -40,9 +40,13 @@ This follows directly as a special case of the general formula for [[induced rep
 
 ## Related concepts
 
+* [[scalar]]
+
 * [[alternating representation]]
 
 * [[regular representation]]
+
+
 
 [[!include homotopy type representation theory -- table]]
 
