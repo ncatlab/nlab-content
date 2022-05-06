@@ -586,7 +586,8 @@ Conversely, this means that all the information in the extension (eq:ShortExactS
 Given a map $f \;\colon\; S^{2(n + n') - 1} \longrightarrow S^{2n}$
 with vanishing $KU$-[[d-invariant]],
 as in Example \ref{TheDefinignSESInComplexTopologicalKTheory}, we have by 
-Remark \ref{ExtensionAfterForgettingAdamsModuleStructureIsTrivial}  that the [[Adams operations]] (Example \ref{AdamsOperationsOnComplexTopologicalKTheoryGroups}) on the cofiber space $C_f$ (eq:ThePushoutDiagramsForTheCofiberSpaceAndSuspension) must be of the form
+Remark \ref{ExtensionAfterForgettingAdamsModuleStructureIsTrivial}  
+that the [[Adams operations]] (Example \ref{AdamsOperationsOnComplexTopologicalKTheoryGroups}) on the cofiber space $C_f$ (eq:ThePushoutDiagramsForTheCofiberSpaceAndSuspension) must be of the form
 
 \[
   \label{ActionOfAdamsOperationsOnCofiberSpace}
@@ -612,7 +613,7 @@ Remark \ref{ExtensionAfterForgettingAdamsModuleStructureIsTrivial}  that the [[A
   }
 \]
 
-Namely, the first summands on the right are constrained to be as shown, by Example \ref{AdamsOperationOnComplexTopologicalKtheoryOfnSpheres} and using 
+Namely, the first summands on the right are constrained to be as shown, by Prop. \ref{AdamsOperationOnComplexTopologicalKtheoryOfnSpheres} and using 
 that [[pullback in cohomology]] $i^\ast_{2n}$, $p^\ast_{2(n + n')}$(eq:PullbackInKCohomologyRespectsAdamsOperation) respects the [[Adams operations]] (Example \ref{AdamsOperationsOnComplexTopologicalKTheoryGroups}); while the second summand, which vanishes under $i^\ast_{2n}$, must be some multiple  
 
 $$
