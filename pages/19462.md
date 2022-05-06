@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include model theory - contents]]
 =--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
 =--
 =--
 
