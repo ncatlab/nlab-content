@@ -526,7 +526,7 @@ where $p \;\colon\; G' \to G$ is a _[[surjective function|surjective]]_ [[group 
 
 For the case $\mathbf{H} =$ [[∞Groupoids]] this is the definition of _faithful maps_ in [Rezk 14. Prop. 3.4.1](#Rezk14).
 
-> It seems that the morphisms (eq:Singularities0Connected) are not 0-connected in $Sh_\infty(Singularities, \infty Groupoids)$. Them being 0-connected should come down to the statement that for $p \colon G' \to G$ a surjective group homomorphism and $H \subset G$ any subgroup, there always is a lift of $H$ to $G'$ and that any two such lifts are conjugate to each other, in $G'$. But already the first condition fails in general, since not every epimorphism of groups is a split epimorphism.
+> It seems that the morphisms (eq:Singularities0Connected) are not in general 0-connected in $Sh_\infty(Singularities, \infty Groupoids)$. Them being 0-connected should come down to the statement that for $p \colon G' \to G$ a surjective group homomorphism and $H \subset G$ any subgroup, there always is a lift of $H$ to $G'$ and that any two such lifts are conjugate to each other, in $G'$. But already the first condition fails in general, since not every epimorphism of groups is a [[split epimorphism]].
 
 > Nevertheless and in any case we have the following, which is all we will need:
 
