@@ -1,3 +1,4 @@
+[[!redirects C-infinity algebra]]
 
 > $\mathrm{C}_\infty$-algebras should not be confused with [[C-infinity ring|$\mathrm{C}^\infty$-rings]].
 
