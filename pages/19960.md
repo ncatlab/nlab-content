@@ -478,6 +478,8 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 * [[AdS-CFT in condensed matter physics]]
 
+* [[holographic Schwinger effect]]
+
 * [[holographic entanglement entropy]]
 
 * [[holography as Koszul duality]]
