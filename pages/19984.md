@@ -216,7 +216,7 @@ Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ 
 
 * [[Christoph Dorn]], _Associative $n$-categories_, PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf), [arXiv:1812.10586](https://arxiv.org/abs/1812.10586)).
 
-* [[David Reutter]] and [[Jamie Vicary]], _High-level methods for homotopy construction in associative $n$-categories_, ([arXiv:1902.03831](https://arxiv.org/abs/1902.03831)).
+* [[David Reutter]] and [[Jamie Vicary]], _High-level methods for homotopy construction in associative $n$-categories_, ([arXiv:1902.03831](https://arxiv.org/abs/1902.03831)). Proceedings of LICS 2019.
 
 * [[Jamie Vicary]], _Strictly associative and unital higher categories_, talk at the _[2018 Midland Graduate School Christmas Seminar](http://www.cs.bham.ac.uk/~axj/2018-mgs-xmas.html)_ ([pdf](http://www.cs.bham.ac.uk/~axj/files/mgs-xmas-2018-Jamie.pdf)).
 
