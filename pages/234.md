@@ -2,7 +2,7 @@ A **Kapranov--Voevodsky 2-vector space** is a kind of [[2-vector space]], in thi
 
 * [[Mikhail Kapranov]] and [[Vladimir Voevodsky]], 2-categories and
 Zamolodchikov tetrahedra equations, in _Algebraic Groups and
-Their Generalizations: Quantum and Infinite-Dimensional Methods_, _Proc. Sympos. Pure Math._ **56**, Part 2, AMS, Providence, RI, 1994, pp. 177--259.
+Their Generalizations: Quantum and Infinite-Dimensional Methods_, _Proc. Sympos. Pure Math._ **56**, Part 2, AMS, Providence, RI, 1994, pp. 177--259. ([pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/1994_Kapranov_Voevodsky.pdf))
 
 * Josep Elgueta, A strict totally coordinatized version of Kapranov and Voevodsky's 2-category $2Vect$.  ([arXiv](http://arxiv.org/abs/math/0406475))
 
