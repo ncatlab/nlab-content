@@ -21,7 +21,7 @@
 ## Idea
 
 The _twistor fibration_ ([Atiyah 79, Sec. III.1](#Atiyah79)) or _Calabi-Penrose fibration_ 
-(e.g. [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+(e.g. [Lawson 85](#Lawson85), [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -64,6 +64,8 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 * {#Atiyah79} [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867), [pdf](https://pdfs.semanticscholar.org/b523/d376f11a531fa5a4692401902a17ee18861f.pdf))
 
 * [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
+
+* {#Lawson85} [[H. Blaine Lawson]], _Surfaces minimales et la construction de Calabi-Penrose_,  Séminaire Bourbaki : volume 1983/84, exposés 615-632, Astérisque no. 121-122  (1985), Talk no. 624, p. 197-211 ([numdam:SB_1983-1984__26__197_0](http://www.numdam.org/item/SB_1983-1984__26__197_0))
 
 * [[Simon Salamon]], p. 218-220 of: _Harmonic and holomorphic maps_,  In: E. Vesentini  (eds.) _Geometry Seminar "Luigi Bianchi" II - 1984_, Lecture Notes in Mathematics, vol 1164. Springer 1985 ([doi:10.1007/BFb0081912](https://doi.org/10.1007/BFb0081912))
 
