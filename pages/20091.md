@@ -4,7 +4,7 @@
 
 ## Selected writings
 
-Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solitons]] and [[monopoles]] in a  [[Minkowski spacetime]]-version of [[skyrmions]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]]).
+Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solitons]] and [[monopoles]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]] via [[D=5 Maxwell theory]]):
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
