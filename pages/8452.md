@@ -1,8 +1,8 @@
 
 ## Idea
 
-_Automath_ was the historically first [[logical framework]].
-The goal of the Automath project was to provide a tool for the
+_Automath_ was historically the first [[logical framework]].
+The goal of the Automath project, initiated by [[Dick de Bruijn]], was to provide a tool for the
 formalization of [[mathematics]] without [[foundations|foundational]] prejudice.
 
 ## References
