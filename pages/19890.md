@@ -7,11 +7,11 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
 
-{#awodey_2018_natural-models-of-homotopy-theory} [[Steve Awodey]], _Natural models of homotopy type theory_
+{#awodey_2018_natural-models-of-homotopy-type-theory} [[Steve Awodey]], _Natural models of homotopy type theory_
 
 : Math. Structures Comput. Sci. 28 (2018), no. 2, 241--286.
 
-    [arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268), [MR](https://mathscinet.ams.org/mathscinet-getitem?mr=3742564), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#awodey_2018_natural-models-of-homotopy-theory)
+    [arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268), [MR](https://mathscinet.ams.org/mathscinet-getitem?mr=3742564), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#awodey_2018_natural-models-of-homotopy-type-theory)
 
 
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
