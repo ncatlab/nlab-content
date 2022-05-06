@@ -25,6 +25,8 @@
 
 ## References
 
+* M. Rho, _The Multifaceted Skyrmion_, World Scientific 2016 ([arXiv:10.1142/9710](https://doi.org/10.1142/9710))
+
 See also
 
 * Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
