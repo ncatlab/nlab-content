@@ -17,7 +17,7 @@
 
 ## Idea
 
-A **space group** on $\mathbb{R}^n$, also known as a **crystallographic group**, is a [[subgroup]] of the [[group]] of [[Euclidean space|Euclidean]] motions that contains some [[lattice]] in $\mathbb{R}^n$ as a subgroup, and is contained within the [[automorphism group]] of the lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
+A **space group** in [[dimension]] $n$, also known as a **crystallographic group**, is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains some [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a subgroup, and is contained within the [[automorphism group]] of the lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
 
 Equivalently, it can be defined as a subgroup of the group of Euclidean motions that contains a lattice of translations as a [[normal subgroup]].
 
@@ -25,7 +25,8 @@ In 2 dimensions, there are 17 distinct groups, known as [[wallpaper groups]]. In
 
 ## References
 
-* [Groupprops: space group](https://groupprops.subwiki.org/wiki/Space_group)
-* [Wikipedia: space group](https://en.wikipedia.org/wiki/Space_group)
+* Groupprops, _[Space group](https://groupprops.subwiki.org/wiki/Space_group)_
+
+* Wikipedia, _[Space group](https://en.wikipedia.org/wiki/Space_group)_
 
 [[!redirects space groups]]
