@@ -71,7 +71,7 @@ $$
 
 +-- {: .num_defn #PolyMorphisms}
 ###### Definition
-**(pol-morphisms)**
+**(poly-morphisms)**
 
 For $C$ a plain category and $F \coloneqq P \colon Set \to Set$ the [[power set]]-functor (Def. \ref{PowerSetFunctors}), we write
 
@@ -87,11 +87,11 @@ We say that the [[morphisms]] of $C^{poly}$ are the **poly-morphisms** of $C$.
 
 Explicitly, this means [[composition]] is defined to be
 $$
-C^{poly}(a,b) \otimes C^{poly}(b,c) = P(C(a,b)) \otimes P(C(b,c)) \to P(C(a,b)\otimes B(b,c)) \to P(C(a,c)) = C^{P poly}(a,c)
+C^{poly}(a,b) \otimes C^{poly}(b,c) = P(C(a,b)) \otimes P(C(b,c)) \to P(C(a,b)\otimes B(b,c)) \to P(C(a,c)) = C^{poly}(a,c)
 $$
 and the [[unit]] map is
 $$
-  I \to P(I) \to P(C(a,a)) = C^{P poly}(a,a)
+  I \to P(I) \to P(C(a,a)) = C^{poly}(a,a)
   \,.
 $$
 
