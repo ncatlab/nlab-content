@@ -31,7 +31,7 @@ A typical chord diagram looks like this:
 <img src="https://ncatlab.org/nlab/files/ChordDiagram.jpg" width="300">
 </center>
 
-> graphics from [Sati-Schreiber 19]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 Chord diagrams are a basic object of study in [[combinatorics]] with remarkably many applications in [[mathematics]] and [[physics]], notably in [[knot theory]] and [[Chern-Simons theory]].
 
@@ -136,7 +136,7 @@ Hence:
 <img src="https://ncatlab.org/nlab/files/ChordDiagramsModulo4TRelations.jpg" width="800">
 </center>
 
-> graphics from [Sati-Schreiber 19]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 A [[linear function]]
 
@@ -160,7 +160,7 @@ The following graphics shows basic examples of the trace operation for [[cyclic 
 <img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="700">
 </center>
 
-> graphics from [Sati-Schreiber 19]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 This defines a [[function]]
 
@@ -208,7 +208,7 @@ Conversely, an unrooted chord diagram of order $n$ can be rooted in up to $2n$ d
 <img src="https://ncatlab.org/nlab/files/ChordDiagModulo4TAreJAcobiDiagModuloSTU.jpg" width="840">
 </center>
 
-> graphics from [Sati-Schreiber 19]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
 ## Gauss diagrams of ordinary (virtual) knots
