@@ -19,12 +19,16 @@ Here is a very incomplete list of software available for mathematics, especially
 
 * [[Coq]]
 * [[Agda]]
+* [[Lean]]
+* [[Nuprl]]
+* [[HOL Light]]
 
 ### Logical frameworks
 
 * [[Twelf]]
 * [[Elf]]
 * [[Automath]]
+* [[Isabelle]]
 
 ## Quantum computation
 
