@@ -199,7 +199,7 @@ We have
 
     the inclusion $Spin(2) \hookrightarrow Spin(3)$ corresponds to the canonical $S^1 \hookrightarrow S^3$ (see e.g. [Gorbunov-Ray 92](#GorbunovRay92))
 
-  * $Spin(4) \simeq Sp(1)\times Sp(1) \simeq S^3 \times S^3$
+  * [[Spin(4)]] $\simeq Sp(1)\times Sp(1) \simeq S^3 \times S^3$
 
     this is given by identifying $\mathbb{R}^4 \simeq \mathbb{H}$ with the [[quaternions]] and $SU(2) \simeq S^3$ with the group of unit quternions. Then left and right quaternion multiplication gives a [[homomorphism]]
 
@@ -300,7 +300,7 @@ Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isoge
 
 The exceptional isomorphism $Spin(5) \times Sp(2)$ is discussed via [[triality]] in 
 
-* {#CadekVanzura97} Martin Čadek and Jiří Vanžura, _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
+* {#CadekVanzura97} [[Martin Čadek]], Jiří Vanžura, _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
 Discussion of the [[cohomology]] of the [[classifying space]] $B Spin$ includes
 
