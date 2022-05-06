@@ -65,7 +65,7 @@ At least if "regular cardinal" has its classical meaning of a particular ordinal
 
 * The first (infinite) regular cardinal is $\aleph_0 = {|\mathbb{N}|}$, because a set with cardinality less than $\aleph_0$ is a [[finite set]], and a finite union of finite sets is still a finite set.
 
-* The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.  (This requires the [[axiom of choice]].)  In the case of $\aleph_1$, this means that a countable union of countable sets is countable.  Note that this implies that there exist arbitarily large regular cardinals: for any cardinal $\lambda$ there is a greater regular cardinal, namely $\lambda^+$.
+* The [[successor]] of any infinite cardinal, such as $\aleph_0$, is a regular cardinal.  (This requires the [[axiom of choice]].)  In the case of $\aleph_0$, this means that a countable union of countable sets is countable.  Note that this implies that there exist arbitarily large regular cardinals: for any cardinal $\lambda$ there is a greater regular cardinal, namely $\lambda^+$.
 
 
 ### Singular cardinals
