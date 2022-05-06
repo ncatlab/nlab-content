@@ -123,7 +123,11 @@ Explicit compactifications are discussed in
 See also
 
 
-* Giuseppe Dibitetto, Nicolò Petri, _BPS objects in D=7 supergravity and their M-theory origin_, J. High Energ. Phys. (2017) 2017: 41 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _BPS objects in D=7 supergravity and their M-theory origin_, J. High Energ. Phys. (2017) 2017: 41 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
+
+Relation to [[massive type IIA supergravity]] and [[bound states]] of [[D-branes]]:
+
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_, PoS CORFU2018 (2019) 142 ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455), [doi:10.22323/1.347.0142](https://doi.org/10.22323/1.347.0142))
 
 
 ### D'Auria-Fré formulation of supergravity
