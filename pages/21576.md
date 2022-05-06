@@ -34,10 +34,23 @@ Just like the [[moduli space of Riemann surfaces]] is an [[orbifold]], so the [[
 
 ## References
 
+Super-orbifolds as [[target spaces]] in [[superstring theory]] (orbi-[[superspace]]):
+
+* [[Jaemo Park]], Soo-Jong Reym, _Supertwistor Orbifolds: Gauge Theory Amplitudes and Topological Strings_, JHEP 0412:017, 2004 ([arXiv:hep-th/0411123](https://arxiv.org/abs/hep-th/0411123))
+
+
+* [[Matthias Gaberdiel]], Dan Israel, Eliezer Rabinovici, _D-branes at multicritical points_, JHEP 0804:086, 2008 ([arXiv:0803.0291](https://arxiv.org/abs/0803.0291))
+
+and in [[M-theory]]:
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Communications in Mathematical Physics 371: 425. (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3))
+
+
+The [[moduli space of super Riemann surfaces]] as a super-orbifold:
+
 * {#Rabin87} [[Jeffrey Rabin]], _Supermanifolds and Super Riemann Surfaces_,  In: H.C. Lee et. al (eds.) _Super Field Theories_, NATO Science Series (Series B: Physics), vol 160. Springer (1987) ([doi:10.1007/978-1-4613-0913-0_34](https://doi.org/10.1007/978-1-4613-0913-0_34), [pdf](https://www.osti.gov/servlets/purl/6687531))
 
 * {#LeBrunRothstein88} Claude LeBrun, Mitchell Rothstein, _Moduli of super Riemann surfaces_, Comm. Math. Phys. Volume 117, Number 1 (1988), 159-176 ([euclid:cmp/1104161598](https://projecteuclid.org/euclid.cmp/1104161598))
-
 
 * {#Witten12} [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_, Pure and Applied Mathematics Quarterly Volume 15 (2019) Number 1 Special Issue on Super Riemann Surfaces and String Theory ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459), [doi:10.4310/PAMQ.2019.v15.n1.a2](https://dx.doi.org/10.4310/PAMQ.2019.v15.n1.a2))
 
