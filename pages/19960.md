@@ -192,7 +192,6 @@ see also
 
 * Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
 
-
 and the version _improved holographic QCD_ is due to
 
 * {#GursoyKiritsis08} Umut Gursoy, [[Elias Kiritsis]], _Exploring improved holographic theories for QCD: Part I_, JHEP 0802:032, 2008 ([arXiv:0707.1324](https://arxiv.org/abs/0707.1324))
@@ -203,13 +202,17 @@ reviewed in
 
 * {#GKMMN10} Umut Gürsoy, [[Elias Kiritsis]], Liuba Mazzanti, Georgios Michalogiorgakis, Francesco Nitti, _Improved Holographic QCD_, Lect.Notes Phys.828:79-146,2011 ([arXiv:1006.5461](https://arxiv.org/abs/1006.5461))
 
+The extreme form of bottom-up holographic model building is explored in
+
+* [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and Holographic QCD_, Phys. Rev. D 98, 106014 (2018) ([arXiv:1809.10536](https://arxiv.org/abs/1809.10536))
+
+where an appropriate [[bulk]] geometry is computer-generated from specified boundary behaviour.
+
 The light-front holography approach is 
 
 reviewed in [Zhou-Dosch 18](#ZhouDosch18)
 
 
-
-See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
 
@@ -355,8 +358,11 @@ Application to [[Higgs field]]:
 [[!redirects Sakai-Sugimoto-Witten model]]
 [[!redirects Sakai-Sugimoto-Witten models]]
 
+[[!redirects holographic QCD]]
+[[!redirects holographic quantum chromodynamics]]
 
 [[!redirects improved holographic QCD]]
+[[!redirects improved holographic quantum chromodynamics]]
 
 
 
