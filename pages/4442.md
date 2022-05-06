@@ -246,6 +246,12 @@ spacetime of an [[M2-brane]].
 ([Maldacena 97, section 3.2](#Maldacena97a), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99), [Klebanov-Torri 10](KlebanovTorri10))
 
 
+Survey:
+
+* Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ ([arXiv:2003.13914](https://arxiv.org/abs/2003.13914))
+
+
+
 ### $AdS_3 / CFT_2$ -- Horizon limit of D$p$-D($p+k$) brane bound states
  {#AdS3CFT2}
 
