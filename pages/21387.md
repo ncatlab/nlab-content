@@ -1,6 +1,33 @@
-__Homotopical Algebra__ is a book by [[Quillen]] that introduced [[model categories]].
 
-Lecture Notes in Mathematics 43, 1967, Springer. doi:[10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+This page is about the book
+
+* [[Daniel Quillen]]
+
+  __Homotopical Algebra__  
+
+  Lecture Notes in Mathematics 43, 
+
+  Springer 1967
+
+  [doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)
+
+introducing the theory of [[model categories]] as a tool in [[homotopy theory]].
+
+
 
 #Contents#
 * table of contents
