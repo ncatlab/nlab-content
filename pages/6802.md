@@ -20,9 +20,18 @@ The [[D-brane]] of [[dimension]] $3+1$ in [[type IIB string theory]].
 
 ## Properties
 
+### Worldvolume theory
+
 For small string coupling its [[worldvolume]] theory is [[super Yang-Mills theory]]. At strong coupling it forms a [[black brane]] solution of [[type II supergravity]] with near horizon [[anti de Sitter spacetime]] geometry $AdS_5$. The relation between the two description in the [[AdS/CFT correspondence|AdS5/CFT4-correspondence]].
 
 [[!include electric-magnetic duality -- table]]
+
+### Bound states
+
+[[bound states]]/[[brane intersections]] involving D3-branes:
+
+* [[D1-D3 brane bound state]]
+
 
 ## Related concepts
 
