@@ -23,7 +23,11 @@ This entry provides some hyperlinks for the articles
   
 about the [[twisted ad-equivariant K-theory]] of [[compact Lie groups]], and the [[positive energy representations]] of their [[loop groups]] (forming the [[Verlinde ring]]). Part II also deals with [[Dirac induction]] and the [[orbit method]] for producing representations by the [[geometric quantization]] of [[coadjoint orbits]].
 
-The result on twisted K-groups has been lifted to an [[equivalence of categories]] in
+Exposition:
+
+* [[Daniel S. Freed]], _The Verlinde algebra is twisted equivariant K-theory_, Turk. J. Math 25 (2001) 159-167 ([arXiv:math/0101038](https://arxiv.org/abs/math/0101038))
+
+This identification enhanced to an [[equivalence of categories]]:
 
 * [[Daniel S. Freed]], [[Constantin Teleman]], 
 
