@@ -262,9 +262,10 @@ Generally for $n \times n$-matrices ([Kondratyuk-Krivoruchenko 92, appendix B](#
 
 +-- {: .proof} 
 ###### Proof of (eq:DeterminantAsPolynomialInTracesOfPowers) 
-It is enough to prove this for semisimple matrices $A$ (matrices that are diagonalizable upon passing to the [[algebraic closure]] of the ground field) because this subset of matrices is Zariski dense (using for example the nonvanishing of the discriminant of the characteristic polynomial) and the set of $A$ for which the equation holds is Zariski closed. 
 
-Thus, without loss of generality we may suppose that $A$ is diagonal with $n$ eigenvalues $\lambda_1, \ldots, \lambda_n$ along the diagonal, where the statement can be rewritten as follows. Letting $p_k = tr(A^k) = \lambda_1^k + \ldots + \lambda_n^k$, the following identity holds: 
+It is enough to prove this for semisimple matrices $A$ (matrices that are [[diagonalizable matrix|diagonalizable]] upon passing to the [[algebraic closure]] of the ground field) because this [[subset]] of matrices is [[Zariski topology|Zariski]] [[dense subset|dense]] (using for example the nonvanishing of the [[discriminant]] of the [[characteristic polynomial]]) and the set of $A$ for which the equation holds is [[Zariski topology|Zariski]] [[closed subset|closed]]. 
+
+Thus, without loss of generality we may suppose that $A$ is [[diagonal matrix|diagonal]] with $n$ [[eigenvalues]] $\lambda_1, \ldots, \lambda_n$ along the diagonal, where the statement can be rewritten as follows. Letting $p_k = tr(A^k) = \lambda_1^k + \ldots + \lambda_n^k$, the following identity holds: 
 
 \[
 \prod_{i=1}^n \lambda_i = \underset{ 
@@ -277,7 +278,7 @@ Thus, without loss of generality we may suppose that $A$ is diagonal with $n$ ei
   p_l^{k_l}
 \]
 
-This of course is just a polynomial identity, one closely related to various of the Newton identities that concern symmetric polynomials in indeterminates $x_1, \ldots, x_n$. Thus we again let $p_k = x_1^k + \ldots + x_n^k$, and define the elementary symmetric polynomials $\sigma_k = \sigma_k(x_1, \ldots, x_n)$ via the generating function identity 
+This of course is just a [[polynomial]] identity, one closely related to various of the [[Newton identities]] that concern symmetric polynomials in indeterminates $x_1, \ldots, x_n$. Thus we again let $p_k = x_1^k + \ldots + x_n^k$, and define the [[elementary symmetric polynomials]] $\sigma_k = \sigma_k(x_1, \ldots, x_n)$ via the generating function identity 
 
 \[
 \sum_{k \geq 0} \sigma_k t^k = \prod_{i=1}^n (1 + x_i t). 
