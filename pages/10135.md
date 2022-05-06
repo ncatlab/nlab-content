@@ -62,7 +62,7 @@ $$
     \mathbf{H}_{/\mathbf{B}G}
   \right)_{\leq 0}
   \hookrightarrow
-  \mathbf{H}_{/\mathbf{G}}
+  \mathbf{H}_{/\mathbf{B}G}
 $$
 
 in the [[slice (∞,1)-topos]] over the [[delooping]] $\mathbf{B}G = \ast \sslash G$ of $G$, which is still a [[0-truncated object]], reflecting that as a [[functor]] of [[groupoids]] the morphism $\mathcal{X} \to \mathbf{B}G$ is a [[faithful functor]].
@@ -76,7 +76,7 @@ $$
   \,.
 $$
 
-This concept of orbifold cohomology does fully reflect the geometric nature of orbifolds. It also reflects _some_ equivariance aspect. For example if $\mathcal{X} = \ast \sslash G$ is the one-point orbifold with singularity given by a finite group $G$, and if $V \in G Representations$ is a [[linear representation]], with $K(V,n)\sslash G \in \infty Groupoids \overset{Disc}{\hookrightarrow}$ its [[Eilenberg-MacLane space]], then 
+This concept of orbifold cohomology does fully reflect the geometric nature of orbifolds. It also reflects _some_ equivariance aspect. For example if $\mathcal{X} = \ast \sslash G$ is the one-point orbifold with singularity given by a finite group $G$, and if $V \in G Representations$ is a [[linear representation]], with $K(V,n)\sslash G \in \infty Groupoids_{/\mathbf{B}G} \overset{Disc}{\hookrightarrow} \mathbf{H}_{/\mathbf{B}G}$ its [[Eilenberg-MacLane space]], then 
 
 $$
   H_{\mathbf{B}G}\big( 
@@ -101,15 +101,15 @@ Here we discuss how to define the required orbifold cohomology in detail and in 
 
 The following may serve as intuition for the issue with the nature of orbifolds:
 
-Envision the picture of an orbifold singularity and hold a mathemagical magnifying glass over the singular point. Inside the magnifying we you see resolved the singular point as a fuzzy fattened point, to be called $\mathbb{B}G$.
+Envision the picture of an orbifold singularity and hold a mathemagical magnifying glass over the singular point. Under this magnification you can see resolved the singular point as a fuzzy fattened point, to be called $\mathbb{B}G$.
 
 Removing the magnifying glass, what one sees with the bare eye depends on how one squints:
 
 1. The physicist says that what he sees is a singular point, but a point after all. This is the plain [[quotient]]  $\ast = \ast / G$. 
 
-1. The Lie geometer says that what he sees is a point transforming under the $G$-[[action]] that fixes it, hence [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
+1. The Lie geometer says that what he sees is a point transforming under the $G$-[[action]] that fixes it, hence the [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
 
-These two aspects are two [[adjoint modality|opposite extreme aspects]] of the orbifold singularity $\mathbb{B}G$, but the orbifold singularity is more than both of these aspects. The real nature of an orbifold singularity is really a point, not a big [[classifying space]] $B G$ (recall that already $\mathbf{B}\mathbb{Z}_2$ = \mathbb{R}P^\infty), but it also does remember the group [[action]], for that characterizes how the singularity is being singular.
+These two aspects are two [[adjoint modality|opposite extreme aspects]] of the orbifold singularity $\mathbb{B}G$, but the orbifold singularity is more than both of these aspects. The real nature of an orbifold singularity is in fact a point, not a big [[classifying space]] $B G$ (recall that already $\mathbf{B}\mathbb{Z}_2 = \mathbb{R}P^\infty$), but it is a point that also remembers the group [[action]], for that characterizes how the singularity is being singular.
 
 $$
    \array{
@@ -153,7 +153,7 @@ $$
   Singularities
 $$
 
-to distinguish them from their image as [[delooping]] groupoids $B G \in $ [[∞Grpd]]. (As we consider [[(∞,1)-presheaves]] on $Singularities$ with values in [[∞Groupoids]], in Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} below, these two objects become crucially different, albeit closely related.)
+to distinguish them from their image as [[delooping]] groupoids $\mathbf{B} G \in $ [[∞Grpd]]. (As we consider [[(∞,1)-presheaves]] on $Singularities$ with values in [[∞Groupoids]], in Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} below, these two objects become crucially different, albeit closely related.)
 
 =--
 
@@ -339,7 +339,7 @@ $$
        S 
          \times 
        \underset{
-         \simeq \mathbf{B}G
+         \simeq \mathbf{B}K
        }{
        \underbrace{
          \Gamma_{sing}\left( \mathbb{B}K\right)
@@ -362,7 +362,7 @@ $$
     \\
     & \simeq
     \infty Groupoids\left(
-       B K, BG
+       \mathbf{B} K, \mathbf{B}G
     \right)
     \\
     & \simeq
@@ -456,11 +456,11 @@ In particular a morphism of [[delooping]] groupoids
 \[
   \label{BGPrimeToBG}
   \array{
-     B G'
+     \mathbf{B} G'
      \\
-     \downarrow^{\mathrlap{B p}}
+     \downarrow^{\mathrlap{\mathbf{B} p}}
      \\
-     B G
+     \mathbf{B} G
   }
 \]
 
@@ -475,7 +475,7 @@ Therefore one might say "[[faithful morphism]]" for every [[n-truncated object i
 **($Singularities$-faithful morphisms)**
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing} \coloneqq Sh_\infty\left( Singularities, \mathbf{H}\right)$ its [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}. We say that a morphism
-$\mathcal{X} \overset{f}{\to} \mathcal{Y}$ in $\mathbf{H}_{sing}$ is _$Singularities$-faithful_ if its has the [[right lifting property]] against morphisms of the form
+$\mathcal{X} \overset{f}{\to} \mathcal{Y}$ in $\mathbf{H}_{sing}$ is _$Singularities$-faithful_ if it has the [[right lifting property]] against morphisms of the form
 
 \[
   \label{Singularities0Connected}
@@ -990,7 +990,7 @@ any other object (*not* necessarily itself an orbifold, and typically far from b
 
 $$
   H\big(
-    \mathcal{X}.
+    \mathcal{X},
     \mathcal{A}
   \big)
   \;\coloneqq\;
