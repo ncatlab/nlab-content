@@ -74,6 +74,9 @@ See also
 
 * [[Belle Collaboration]], _Test of lepton flavor universality in $B \to K^\ast \ell^+ \ell^-$ decays at Belle_ ([arXiv:1904.02440](https://arxiv.org/abs/1904.02440))
 
+* {#Belle1910} [[Belle collaboration]], _Measurement of $\mathcal{R}(D)$ and $\mathcal{R}(D^\ast)$ with a semileptonic tagging method_, Phys. Rev. Lett. 124, 161803 (2020)
+([arXiv:1910.05864](https://arxiv.org/abs/1910.05864), [doi:10.1103/PhysRevLett.124.161803](https://doi.org/10.1103/PhysRevLett.124.161803))
+
 
 [[!redirects Belle]]
 
