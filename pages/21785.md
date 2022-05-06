@@ -11,6 +11,10 @@ By [FHT](#FHT) this is equivalent to the [[Verlinde ring]] of [[positive energy 
 
 (...)
 
+## Related concepts
+
+* [[twisted ad-equivariant Tate K-theory]]
+
 ## References
 
 On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identification with the [[Verlinde ring]] of [[positive energy representations]] of their [[loop group]]:
