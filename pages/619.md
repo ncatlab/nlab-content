@@ -22,15 +22,27 @@
 {:toc}
 
 ## Idea
-A reflective subcategory is a full subcategory 
+ {#Idea}
 
-$$C \hookrightarrow D$$
+A _reflective subcategory_ is a [[full subcategory]]
 
-such that objects $d$ and morphisms $f \colon d \to d'$ in $D$ have reflections $Td$ and $Tf \colon Td \to Td'$ in $C$. Every object in $D$ looks at its own reflection via a morphism $d \to Td$ and the reflection of an object $c \in C$ is equipped with an isomorphism $Tc \cong c$. A canonical example is the inclusion 
+$$
+  C \hookrightarrow D
+$$
 
-$$\mathrm{Ab} \hookrightarrow \mathrm{Grp}$$
+such that [[objects]] $d$ and [[morphisms]] $f \colon d \to d'$ in $D$ have "reflections" $T d$ and $T f \colon T d \to T d'$ in $C$. Every object in $D$ looks at its own reflection via a morphism $d \to Td$ and the reflection of an object $c \in C$ is equipped with an [[isomorphism]] $T c \cong c$. 
 
-of the [category of abelian groups](https://ncatlab.org/nlab/show/Ab) into the [category of groups](https://ncatlab.org/nlab/show/Grp). A useful property of reflective subcategories is that the inclusion $C \hookrightarrow D$ [creates all limits](https://ncatlab.org/nlab/show/created+limit) of $D$ and $C$ has all colimits which $D$ admits.
+A canonical example is the inclusion 
+
+$$
+  \mathrm{Ab} \hookrightarrow \mathrm{Grp}
+$$
+
+of the [[category of abelian groups]] into the [[category of groups]], whose reflector is the operation of _[[abelianization]]_.
+
+A useful property of reflective subcategories is that the inclusion $C \hookrightarrow D$ [[created limit|creates all limit]] of $D$ and $C$ has all [[colimits]] which $D$ admits.
+
+
 
 ## Definition
 
