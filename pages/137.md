@@ -227,12 +227,15 @@ So consider morphisms $g,h \colon y \longrightarrow z$ such that $g \circ f = h 
 
 =--
 
-Epimorphisms get along with colimits in a number of ways, some of which we have seen above.   Here is another:
+Epimorphisms get along with [[colimits]] in a number of ways, some of which we have seen above.   Here is another:
 
 +-- {: .num_prop}
 ###### Proposition
 
-Any morphism to an initial object is an epimorphism.  The coproduct of epimorphisms is an epimorphism.
+1. Any [[morphism]] to an [[initial object]] is an epimorphism.  
+
+1. The [[coproduct]] of epimorphisms is an epimorphism.
+
 =--
 
 +-- {: .proof}
@@ -243,7 +246,7 @@ For the first suppose $0 \in C$ is initial and $f : x \to 0$.  Given morphisms $
 For the second suppose $f_1 : x_1 \to y_1$ and $f_2 : x_2 \to y_2$ are epimorphisms; we wish to show that $f_1 + f_2 : x_1+x_2 \to y_1 + y_2$ is an epimorphism.   Suppose we have morphisms $g, h: y_1+y_2 \to z$ with $g \circ (f_1+f_2) = h \circ (f_1 + f_2)$.   Then $g \circ i_1 \circ f_1 = h \circ i_1 \circ f_1$ where $i_1 : x_1 \to x_1 + x_2$ is the canonical map into the coproduct.  Since $f_1$ is epic we conclude $g \circ i_1 = h \circ i_1$.  Similarly we have $g \circ i_2 = h \circ i_2$.  If follows that $g = h$.  
 =--
 
-{#EpimorphismsDoNotGetAlongWithLimits} Epimorphisms do not get along quite as well with limits.  For example, the [[projections]] from a [[Cartesian product]] onto its factors, e.g. $p_1 \colon x_1 \times x_2 \to x_1$, are not always epimorphisms (even in $Set$: take $x_2$ to be empty).
+{#EpimorphismsDoNotGetAlongWithLimits} Epimorphisms do not get along quite as well with [[limits]].  For example, the [[projections]] from a [[Cartesian product]] onto its factors, e.g. $p_1 \colon x_1 \times x_2 \to x_1$, are not always epimorphisms (even in $Set$: take $x_2$ to be empty).
 
 
 ## Variations {#Variations}
@@ -260,15 +263,15 @@ There are a sequence of variations on the concept of epimorphism, which convenie
 * [[extremal epimorphism]] = an epimorphism not factoring through any nontrivial monomorphism.
 * epimorphism.
 
-In [[Set|the category of sets]], every epimorphism is effective descent (and even split if you believe the [[axiom of choice]]).  Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  The following discussion may be helpful in this regard.
+In [[Set|the category of sets]], every epimorphism is effective descent (and even split if you believe the [[axiom of choice]]).  Thus, it can be hard to know, when generalising concepts from [[Set]] to other categories, what kind of epimorphism to use.  The following discussion may be helpful in this regard.
 
 First we note:
 
-* Descent and effective descent morphisms are only defined in a category with [[pullbacks]].  The other notions can be defined in any category, although of course for an effective epimorphism one must in general assert the existence of the kernel pair.
+* [[descent|Descent]] and effective descent morphisms are only defined in a category with [[pullbacks]].  The other notions can be defined in any category, although of course for an effective epimorphism one must in general assert the existence of the kernel pair.
 
-Moreover, if the category has finite [[limits]], then the picture becomes much simpler:
+Moreover, if the category has [[finite limits]], then the picture becomes much simpler:
 
-* If a strict epimorphism has a kernel pair, then it is effective and hence also regular.  Thus, in a category with pullbacks, effective = regular = strict.  Probably for this reason, there is substantial variation among authors in their use of these words; some use "effective epi" or "regular epi" to mean what we have called a "strict epi".
+* If a [[strict epimorphism]] has a [[kernel pair]], then it is [[effective epimorphism|effective]] and hence also [[regular epimorphism|regular]].  Thus, in a category with [[pullbacks]], effective = regular = strict.  Probably for this reason, there is substantial variation among authors in their use of these words; some use "effective epi" or "regular epi" to mean what we have called a "strict epi".
 
 * Likewise, in a category with pullbacks, every extremal epimorphism is strong, since monomorphisms are always pullback-stable.
 
