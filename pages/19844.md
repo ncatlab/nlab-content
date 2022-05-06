@@ -48,7 +48,7 @@ Candidate theories of "new physics" that could possibly explain the flavour anom
 ### Leptoquarks
  {#Leptoquarks}
 
-* [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
+* [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
 
 
 ### Other
@@ -134,6 +134,9 @@ Attempts to explain the anomaly include
 
 
 * Yi Cai, John Gargalionis, Michael A. Schmidt, Raymond R. Volkas, _Reconsidering the One Leptoquark solution: flavor anomalies and neutrino mass_ ([arXiv:1704.05849](https://arxiv.org/abs/1704.05849))
+
+* {#CCDM16} Estefania Coluccio Leskow, Andreas Crivellin, Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
+
 
 * {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
 
