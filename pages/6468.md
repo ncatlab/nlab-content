@@ -419,11 +419,9 @@ $$
 
 Moreover, the relation $2 4 [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold ([Wang-Xu 10, Sec. 2.6](third+stable+homotopy+group+of+spheres#WangXu10)).
 
-### Elliptic fibration over $\mathbb{C}P^1$
+### Elliptic fibration 
 
-Complex analytic K3-surfaces admit the [[mathematical structure|structure]] of [[elliptic fibrations]] over the [[Riemann sphere]] $\mathbb{C}P^1$. Counted with multiplicity, these elliptic fibrations have 24 singular points (where the [[elliptic curve]]-fiber degenerates to a [[nodal curve]]).
-
-See e.g. [Huybrechts, Section 2-2.4](#Huybrechts16), [Propp 18, p. 4](K3-spectrum#Propp18), [Lecacheux 19](#Lecacheux19).
+See at _[[elliptically fibered K3-surface]]_.
 
 
 ### As a fiber space in string compactifications
@@ -440,11 +438,12 @@ See
 
 * [[formal Brauer group]]
 
+* [[elliptic fibration]], [[elliptically fibered K3-surface]]
+
 * [[K3-cohomology]]
 
 * [[F-theory]], [[F-theory on K3]]
 
-* [[elliptic fibration]]
 
 
 ## References
