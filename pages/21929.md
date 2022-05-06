@@ -61,11 +61,12 @@ The concept is due to
 
 Further discussion in:
 
-* [[Ulrich Bunke]], [[Niko Naumann]], _The f-invariant and index theory_, ([arXiv:0808.0257](https://arxiv.org/abs/0808.0257))
 
 * Hanno von Bodecker, _On the geometry of the f-invariant_, ([arXiv:0808.0428](https://arxiv.org/abs/0808.0428))
 
 * [[Mark Behrens]], Gerd Laures, _$\beta$-family congruences and the f-invariant_ ([arXiv:0809.1125](https://arxiv.org/abs/0809.1125))
+
+* [[Ulrich Bunke]], [[Niko Naumann]], _The f-invariant and index theory_, Manuscripta Math. 132, 365–397 (2010) ([arXiv:0808.0257](https://arxiv.org/abs/0808.0257), [https://doi.org/10.1007/s00229-010-0351-7](https://doi.org/10.1007/s00229-010-0351-7))
 
 * Gerd Laures, _Toda brackets and congruences of modular forms_ ([arXiv:1102.3783](https://arxiv.org/abs/1102.3783), [euclid:agt/1513715257](https://projecteuclid.org/euclid.agt/1513715257))
 
