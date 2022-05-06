@@ -23,7 +23,7 @@ $$\sin (\pi x) = \pi x \prod_{n=1}^\infty \left(1 - \frac{x^2}{n^2}\right)$$
 
 one obtains the following summation formula for the cotangent: 
 
-$$\cot \pi x = \frac1{x} + \sum_{n=1}^\infty \left(\frac1{x + n} + \frac1{x - n}\right)$$ 
+$$\pi \cot \pi x = \frac1{x} + \sum_{n=1}^\infty \left(\frac1{x + n} + \frac1{x - n}\right)$$ 
 
 This expansion was used by Eisenstein as a starting point for developing the theory of trigonometric functions; Eisenstein's account of elliptic functions, developed further by Weierstrass, Kronecker, and others, runs parallel to his trigonometric theory, as explained later by Weil. For some more details, see these [notes](#vsv) by Varadarajan. 
 
