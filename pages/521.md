@@ -70,6 +70,8 @@ The [[duality|dual]] notion is an [[over category]].
 
 * $Set_*$, the category of [[pointed set]]s, is the undercategory $pt\downarrow Set$, where $pt \simeq \{\bullet\}$ is [[generalized the|the]] singleton set.
 
+* If $0$ is an [[initial object]] in $\mathbf{C}$, then $0\downarrow\mathbf{C}$ is isomorphic to $\mathbf{C}$.
+
 * The category of commutative algebras over a field $F$ is the category $F \downarrow$[[CRing]] of commutative rings under $F$.
 
 
