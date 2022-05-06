@@ -69,13 +69,53 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 ## References
 
-* The [Stacks Project](https://stacks.math.columbia.edu), 34.4. Descent for universally injective morphisms, [tag/08WE](https://stacks.math.columbia.edu/tag/08WE), 28.10. Radicial and universally injective morphisms (of schemes) [tag/01S2](https://stacks.math.columbia.edu/tag/01S2)
+#### General references
+
+* The [Stacks Project](https://stacks.math.columbia.edu), 28.10. Radicial and universally injective morphisms (of schemes) [tag/01S2](https://stacks.math.columbia.edu/tag/01S2), 34.4. Descent for universally injective morphisms, [tag/08WE](https://stacks.math.columbia.edu/tag/08WE) 
+
+#### Descent along pure morphisms
+
+The following paper was the first with the result on that pure morhisms are of the effective descent but the proof has been omitted:
+
+* Jean-Pierre Olivier, _Descente par morphismes purs_, C. R. Acad. Sci. Paris Sér. A-B __271__ (1970) A821–A823
+
+The result is proved (within a larger context)
+
+* [[André Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, Mem. Amer. Math. Soc. __309__ (1984) vol. 51, pages vii+71
+
+Clean proofs are by Mesablishvili and by Janelidze,
 
 * Bachuki Mesablishvili, _Pure morphisms of commutative rings are effective descent morphisms for modules -- a new proof_, Theory and Appl. of Categories __7__, 2000, No. 3, 38-42, [tac](http://www.tac.mta.ca/tac/volumes/7/n3/7-03abs.html)
 
 * [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge Univ. Press 2003; [errata pdf](http://maths.swan.ac.uk/staff/tb/corinerr.pdf)
 
 * [[George Janelidze]], [[Walter Tholen]], _Facets of descent III: monadic descent for rings and algebras_,  Appl. Categ. Structures __12__ (2004), no. 5-6, 461&#8211;477, [MR2005i:13019](http://www.ams.org/mathscinet-getitem?mr=2107397), [doi](http://dx.doi.org/10.1023/B:APCS.0000049312.36783.0a)
+
+#### Ziegler spectrum and connections to model theory
+
+Ziegler spectrum of indecomposable pure injectives has been introduced in
+
+* M. Ziegler, _Model theory of modules_, Ann. Pure Appl. Logic 26 (1984) 149 – 213. 
+
+A textbook account is in 
+
+* [[Mike Prest]], _Purity, spectra and localisation_, Enc. Math. Appl. __121__, Camb. Univ. Press 2011, 798 pages; publishers book [page](http://www.cambridge.org/gb/knowledge/isbn/item2327409/?site_locale=en_GB)
+
+The relationship between the Ziegler spectrum of (the category of modules over) a ring and the Ziegler spectrum of its derived category is studied in
+
+* G. Garkusha, M. Prest, _Triangulated categories and the Ziegler spectrum_, Algebras & Repres. Theory 8, 499–523 (2005) [doi](https://doi.org/10.1007/s10468-005-8147-2)
+
+Other articles include
+
+* M. Prest, P. Rothmaler, M. Ziegler, _Absolutely pure and flat modules and "indiscrete" rings_, J. Alg. __174__:2 (1995) 349-372 [doi](https://doi.org/10.1006/jabr.1995.1131)
+
+* Christian U. Jensen, Helmut Lenzing, _Model theoretic algebra: with particular emphasis on fields, rings, modules_, Algebra, Logic and Applications __2__, Gordon and Breach 1989.
+
+* I. Herzog, _The Ziegler spectrum of a locally coherent Grothendieck category_, Proc. London Math. Soc. __74__:3 (1997) 503-558 [doi](https://doi.org/10.1112/S002461159700018X)
+
+#### Other articles in categorial context
+
+* Ivo Herzog, _Pure-injective envelopes_, Journal of Algebra and Its Applications 2(4) (2003), 397-402 [pdf](http://lima.osu.edu/people/iherzog/env.pdf)
 
 * {#AHT96} [[Jiří Adámek]], H. Hub, [[Walter Tholen]], _On pure morphisms in accessible categories_,  J. Pure Appl. Alg. __107__, 1 (1996), pp 1-8, <a href="http://dx.doi.org/10.1016/0022-4049(95)00037-2">doi</a>
  {#Adamek}
@@ -84,18 +124,7 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 * W.W. Crawley-Boevey, _Locally finitely presented additive categories_, Communications in Algebra __22__(5)(1994), 1641-1674.
 
-* [[Mike Prest]], _Purity, spectra and localisation_, Enc. Math. Appl. __121__, Camb. Univ. Press 2011, 798 pages; publishers book [page](http://www.cambridge.org/gb/knowledge/isbn/item2327409/?site_locale=en_GB)
-
-* Christian U. Jensen, Helmut Lenzing, _Model theoretic algebra: with particular emphasis on fields, rings, modules_, Algebra, Logic and Applications __2__, Gordon and Breach 1989.
-
-* Ivo Herzog, _Pure-injective envelopes_, Journal of Algebra and Its Applications 2(4) (2003), 397-402 [pdf](http://lima.osu.edu/people/iherzog/env.pdf)
-
-* [[André Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, 	Mem. Amer. Math. Soc. __309__ (1984) volume 51, pages	vii+71
-
-The following paper was the first with the result on that pure morhisms are of the effective descent but the proof has been omitted:
-
-* Jean-Pierre Olivier, _Descente par morphismes purs_, C. R. Acad. Sci. Paris Sér. A-B
-__271__ (1970) A821–A823
+* Rosanna Laking, _Purity in compactly generated derivators and t-structures with Grothendieck hearts_, Math. Zeitschrift, [doi](https://10.1007/s00209-019-02411-9) (2019).
 
 [[!redirects pure morphisms]]
 [[!redirects purity]]
