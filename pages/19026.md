@@ -33,4 +33,6 @@ Then a [[spin representation]] of $Spin(V)$ is called the _vector representation
 
 * [[pseudovector representation]]
 
+* [[vector meson]]
+
 [[!redirects vector representations]]
