@@ -13,7 +13,7 @@ On [[anomaly cancellation]] in [[D=6 N=(2,0) SCFT]] and [[D=6 N=(1,0) SCFT]]:
 
 and their [[anomaly cancellation]]:
 
-* [[Kantaro Ohmori]], Hiroyuki Shimizu, [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
+* [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], Kazuya Yonekura, _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
 
 Relation of the [[GSO projection]] to the [[K-theory classification of topological phases of matter]]:
