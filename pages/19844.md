@@ -98,6 +98,9 @@ In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b]
 
 > table taken from [Dorigo 15, p. 16](#Dorigo15)
 
+## Status and Outlook
+ {#Outlook}
+
 In conclusion, with currently available data, the observed flavour anomalies are possible signs of New Physics beyond the current [[standard model of particle physics]].
 
 \begin{center}
@@ -110,6 +113,17 @@ In conclusion, with currently available data, the observed flavour anomalies are
 > graphics taken from [Dordei 18, slide 22](#Dordei18)
 
 In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
+
+From [Isodori 19, slide 6](#Isodori19):
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "IsidoriExpectations19.jpg",
+  "width": 740
+\end{imagefromfile} 
+\end{center}
+
+
 
 \linebreak
 
@@ -236,6 +250,8 @@ Outlook:
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
 
 * {#CrivellinEtAl18} A. Cerri, [[Andreas Crivellin]] et. al. _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
+
+* {#Isodori19} Gino Isodori, _Flavor physics & CP violation_, talk at [Symposium on the European Strategy for Particle Physics](https://indico.cern.ch/event/808335/timetable/#20190513.detailed) 2019 ([pdf](https://indico.cern.ch/event/808335/contributions/3365125/attachments/1842875/3022853/Granada_GI_13May.pdf))
 
 
 Emphasis of [[non-perturbative effects]]:
