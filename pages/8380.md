@@ -108,7 +108,7 @@ Various monads are _definable_ in terms of the the standard type-forming operati
 
 * A number of further monads are similarly *definable* in terms of standard type-forming operations, such as the [[reader monad]] and the [[writer comonad]].
 
-  Given a [[type]] $W$, then the [[reader monad]] is the operation of forming the [[function type]] $[W,-] = (W\to (-))$; the [[writer comonad]] is the operation of forming the [[product type]] $W\times (-)$ and the composite of writer followed by reader is the [[state monad]] $[W, W \times (-)]$.
+  Given a [[type]] $W$, then the [[reader monad]] is the operation of forming the [[function type]] $[W,-] = (W\to (-))$; the [[writer monad]] and the [[writer comonad]] are the operations of forming the [[product type]] $W\times (-)$, and the composite of writer followed by reader is the [[state monad]] $[W, W \times (-)]$.
 
   When $W$ carries the structure of a [[monoid object]] then writer also inherits the structure of a monad (on top of being a comonad) and converse for reader.
 
