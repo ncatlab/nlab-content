@@ -28,7 +28,7 @@ The three classes of map $(E,F,M)$ are then defined by $E=L_1$, $F = L_2\cap R_1
 
 +--{: .un_prop}
 ###### Proposition
-Given a ternary factorization system as above, any morphism $f$ factors as 
+Given a ternary factorization system as above, any morphism $f:A\to B$ factors as 
 $$ A \overset{L_1}{\to} im_2(f) \overset{L_2 \cap R_1}{\to} im_1(f) \overset{R_2}{\to} B $$
 in an essentially unique way.
 =--
@@ -41,18 +41,24 @@ Consider the two ternary factorizations of $f$ obtained by
 
 Note that both start with an $L_1$ map and end with an $R_2$ map.  By a straightforward exercise in orthogonality, we can get comparison maps in both directions between these two factorizations which make them isomorphic.  Therefore, since the first produces a middle map which is in $L_2$ and the second produces a middle map which is in $R_1$, this middle map must in fact be in $L_2\cap R_1$.  Finally, any other such ternary factorization of $f$ induces an $(L_1,R_1)$ and $(L_2,R_2)$ factorization by composing pairwise, and uniqueness of these two implies uniqueness of the ternary factorization.
 
-More explicitly, if we factor $f$ as 
+More explicitly, we factor $f$ as 
 
-![1][1]
+\begin{center}\begin{tikzcd}
+& C_1 \ar[r,"{\lambda_2}"] \ar[drr,"{r_1}"'] & C_2 \ar[dr,"{\rho_2}"] \\
+A \ar[ur,"{\ell_1}"] \ar[dr,"{\lambda_1}"'] \ar[drr,"{\ell_2}"] &&& B\\
+& D_1 \ar[r,"{\rho_1}"'] & D_2 \ar[ur,"{r_2}"']
+\end{tikzcd}\end{center}
 
-with $\lambda_i, l_i\in L_i, \rho_j,r_j\in R_j$, then we obtain from the lifting problems
+with $\lambda_i, \ell_i\in L_i, \rho_j,r_j\in R_j$.  Then since $R_2\subseteq R_1$, we have $r_2 \rho_1 \in R_1$, so that $(\ell_1,r_1)$ and $(\lambda_1,r_2\rho_1)$ are both $(L_1,R_1)$-factorizations of $f$ and thus we have a unique compatible isomorphism $C_1\cong D_1$.  Similarly, $(\lambda_2 \ell_1, \rho_2)$ and $(\ell_2,r_2)$ are both $(L_2,R_2)$-factorizations, so we have a unique compatible isomorphism $C_2\cong D_2$.  This gives a diagram
 
-![2][2]
+\begin{center}\begin{tikzcd}
+& C_1 \ar[r,"{\lambda_2}"] \ar[dd,"\cong"] & C_2 \ar[dr,"{\rho_2}"] \ar[dd,"\cong"'] \\
+A \ar[ur,"{\ell_1}"] \ar[dr,"{\lambda_1}"'] &&& B\\
+& D_1 \ar[r,"{\rho_1}"'] & D_2 \ar[ur,"{r_2}"']
+\end{tikzcd}\end{center}
 
-arrows $s,t,a_1,a_2$: now it's easy to see that $s,t\in L_2\cap R_1$, and that $a_i\in L_i\cap R_i= Iso$. 
+with two commutative triangles, and the middle square also commutes since both sides are lifts in a lifting problem of $\ell_1$ against $r_2$.  Finally, since $\lambda_2\in L_2$ is isomorphic to $\rho_1\in R_1$ in the arrow category, both are in fact in $L_2\cap R_1$.
 
-[1]: http://s28.postimg.org/68d73rvcd/Code_Cogs_Eqn.png
-[2]: http://s10.postimg.org/nxnyvzm4p/Code_Cogs_Eqn_1.png
 =--
 
 Conversely, just as for a binary factorization system, the extra requirement of orthogonality can be deduced from uniqueness of the factorizations, a unique and *functorial* ternary factorization implies that it "splits" into a pair of binary factorization systems, i.e. a ternary factorization system as defined here.  This is remarked on [here](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html#c034162).
