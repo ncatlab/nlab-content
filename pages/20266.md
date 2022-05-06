@@ -21,10 +21,11 @@ Nevertheless, the pattern of the [[special linear groups]] of the other three [[
 
 [[!include exceptional spinors and division algebras -- table]]
 
-One proposal for making sense of $SL(2,\mathbb{O})$ is due to [Hitchin 18](#Hitchin18)
+Another proposal for making sense of $SL(2,\mathbb{O})$ is due to [Hitchin 18](#Hitchin18). In this approach, "$SL(2,\mathbb{O})$" is a submanifold of "$GL(2,\mathbb{O})$", which is an open orbit of $Spin(9,1) \times GL(2,\mathbb{R})$ on ${S} \otimes \mathbb{R}^2$, where ${S}$ is the 16-dimensional spin representation of $Spin(9,1)$.
 
 ## References
 
+* {#Dray14} Tevian Dray, John Huerta, Joshua Kincaid, The magic square of Lie groups: the $2 \times 2$ case, Lett. Math. Phys. 104 (2014), 1445--68, [arXiv:2009.00390](https://arxiv.org/abs/2009.00390)
 * {#Hitchin18} [[Nigel Hitchin]], _$SL(2)$ over the octonions_, Mathematical Proceedings of the Royal Irish Academy. Vol. 118. No. 1. Royal Irish Academy, 2018 ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
 
 
