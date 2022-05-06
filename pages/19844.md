@@ -21,7 +21,7 @@
 ## Idea 
  {#Idea}
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _flavor anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _[[flavour (in particle physics)|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
 \begin{center}
 \begin{imagefromfile}
@@ -55,7 +55,19 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 > graphics grabbed from [Dey 18](#Dey18)
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "ZupanFlavourAnomaly.jpg",
+  "width": 690
+\end{imagefromfile}
+\end{center}
+
+> graphics grabbed from [Zupan 19](#Zupan19)
+
+
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
+
+
 
 Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
 
@@ -190,6 +202,9 @@ Review includes
 * {#Adamczyk19} Karol Adamczyk ([[Belle collaboration]]), _Semitauonic B decays at Belle/Belle II_, Proceedings of the [10th International Workshop on the CKM Unitarity Triangle](https://ckm2018.physi.uni-heidelberg.de/) (CKM 2018), Heidelberg, Germany, September 17-21, 2018 ([arXiv:1901.06380](https://arxiv.org/abs/1901.06380))
 
 * {#BouchardCaoOwen19} Christopher Bouchard, Lu Cao, Patrick Owen, _Summary of the 2018 CKM working group on semileptonic and leptonic b-hadron decays_ ([arXiv:1902.09412](https://arxiv.org/abs/1902.09412))
+
+* {#Zupan19} Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
+
 
 Outlook:
 
