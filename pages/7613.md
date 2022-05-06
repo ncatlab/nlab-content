@@ -261,8 +261,20 @@ A key ingredient of [[M-theory]] is supposedly the physics of [[intersecting bra
 
 > Several attempts to generalize the Born-Infeld action describing one D-brane to non-Abelian action describing a stack of them have been made. The proper (perhaps closed) form of it is however not known up to date.
 
+### M5-Brane anomaly cancellation
+ {#OpenProblemM5BraneAnomalyCancellation}
 
+Another key ingredient of M-theory is the [[M5-brane]]. The argument for [[anomaly cancellation]] has a convoluted history (see [there](M5-brane#AnomalyCancellation)). 
 
+[Harvey 05, p. 46](#Harvey05):
+
+> $[$...$]$ the solution is not so clear. $[$The established procedure$]$ will not work for the M5-brane. $[$...$]$ something new is required. What this something new is, is not a priori obvious. $[$...$]$ $[$This is$]$ a daunting task. To my knowledge no serious attempts have been made
+to study the problem.
+
+> $[$The proposal of [FHMM 98](M5-brane#FreedHarveyMinasianMoore98)$]$ probably should not be viewed as a final understanding of the
+problem. One would eventually hope for a microscopic formulation of M-theory which makes some of the manipulations $[$proposed in [FHMM 98](M5-brane#FreedHarveyMinasianMoore98)$]$ appear more natural.
+
+\linebreak
 
 ## Related entries
 
