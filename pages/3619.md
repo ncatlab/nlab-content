@@ -99,15 +99,9 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 * [[holographic entanglement entropy]]
 
-* [[Bell's inequalities]]
 
-* [[superposition]]
+[[!include states and observables -- content]]
 
-* [[quantum interference]]
-
-* [[superselection sector]]
-
-* [[no-cloning theorem]]
 
 ## References
 
