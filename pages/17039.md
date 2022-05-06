@@ -17,6 +17,7 @@
 =--
 =--
 
+
 This page collects pointers related to the conference and book project:
 
 
@@ -133,7 +134,6 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 
 ### Non-commutative geometry
 
-#### Geometry from statistical physics and information theory (Matilde Marcolli)
 
 #### Geometry in triangulated categories (Maxim Kontsevich)
 
@@ -181,14 +181,6 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 ([arXiv:1601.05956](http://arxiv.org/abs/1601.05956), [video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
 
 
-#### Cobordisms and extended quantum field theories (Dan Freed)
-
-[[Dan Freed]] on [[extended TQFT]] and the [[cobordism hypothesis]].
-
-
-#### Notion of space in topos quantum theory (Cecilia Flori)
- 
-[[Cecilia Flori]] on [[Bohr toposes]].
 
 
 ### Spaces in quantum gravity
@@ -229,8 +221,5 @@ Hanno Sahlmann on spin networks.
 [[John Baez]] on [[experiments]].
 
 
-#### Time between real and imaginary: what geometries describe the Universe near the Big Bang? (Yuri Manin)
-
-[[Yuri Manin]] on [[Wick rotation]] in [[cosmology]].
 
 category: reference
