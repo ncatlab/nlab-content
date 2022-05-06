@@ -53,6 +53,10 @@ Discussion of possible relation to [[R-symmetry]]:
 
 * {#FrugiueleGregoire11} Claudia Frugiuele, Thomas Gregoire, _Making the Sneutrino a Higgs with a $U(1)_R$ Lepton Number_, PhysRev D.85.015016 ([arXiv:1107.4634](https://arxiv.org/abs/1107.4634))
 
+In [[SemiSpin(32)]]-[[heterotic string|heterotic]] [[string phenomenology]]:
+
+* Saul Ramos-Sanchez, Section 5.4 of _Towards Low Energy Physics from the Heterotic String_,   Fortsch. Phys. 10:907-1036, 2009 ([arXiv:0812.3560](https://arxiv.org/abs/0812.3560))
+
 Suggestion that the [[MSSM]] with R-parity violation could explain the [[flavour anomalies]]:
 
 * {#WangYangYuan19} Dong-Yang Wang, Ya-Dong Yang, Xing-Bo Yuan, _$b \to c \tau \bar \nu$ decays in supersymmetry with R-parity violation_ ([arXiv:1905.08784](https://arxiv.org/abs/1905.08784))
