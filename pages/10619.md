@@ -1503,6 +1503,140 @@ $H\mathbb{Q} \hookrightarrow H^{\mathrm{ev}}\mathbb{Q}$:
 
 \end{remark}
 
+\begin{proposition}
+  Let $E$ be a [[multiplicative cohomology theory]]
+  and $n,d \in \mathbb{N}$. 
+  Consider the [[function]] that sends [[pairs]] consisting of 
+  
+  1. the stable class  $\big[ G^{\mathbb{S}}_n (c) \big]$ of a map $S^{n+d-1} \overset{\;c\;}{\longrightarrow} S^n$ 
+  
+  1. the class of a trivialization $H^E_{n-1}\!(c)$ of its [[d-invariant]] in $E$-cohomology
+
+\begin{xymatrix@C=18pt}
+    S^{n + d - 1}
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \color{green}
+        c
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+      ^>>>{\ }="t"
+    \ar[rr]_>>>{\ }="s"
+    &&
+    \ast
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        0
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    \\
+    S^n
+    \ar[rr]
+      |-{
+        \;
+        \Sigma^n (1^E)
+        \;
+      }
+    &&
+    E^{n}
+    %
+    \ar@{=>}
+      |-{
+        \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+        \color{orange}
+        H^E_{n-1}\!(c)
+        \mathclap{\phantom{\vert_{\vert_{\vert}}}}
+      }
+     "s"; "t"
+\end{xymatrix}
+
+to the class in $(E/\mathbb{S})_d$ of this diagram:
+
+\begin{xymatrix@=30pt}
+   S^{n + d - 1}
+   \ar[dd]
+     |-{
+       \mathclap{\phantom{\vert^{\vert}}}
+       \color{green}
+       c
+       \mathclap{\phantom{\vert_{\vert}}}
+     }
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   &&
+   \ast
+   \ar[dr]
+   \ar[dd]
+   \\
+   && &
+   \ast
+   \ar[dd]|-{
+     \mathclap{\phantom{\vert^{\vert}}}
+     0
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \\
+   S^{n}
+   \ar[dd]
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   \ar@/_.7pc/[drrr]
+     |<<<<<{ \;\Sigma^{n} (1^{E})\;\; }
+     |>>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+   &&
+   C_c
+   \ar[dd]
+   \ar@{-->}[dr]|-{
+     \vdash
+     {
+       \color{orange}
+       H^E_{n-1}\!(c)
+     }
+   }
+   &&
+   \\
+   && &
+   E^{n}
+   \ar[dd]
+   \\
+   \ast
+   \ar@/_.7pc/[drrr]|-{ \;0\; }
+   \ar[rr]
+   &&
+   S^{n + d}
+   \ar@{-->}[dr]|-{
+     (
+       {\color{green}
+         G^{\mathbb{S}}_n\!(c)
+       }
+       \,,\,
+       {\color{orange}
+         H^E_{n-1}\!(c)
+       }
+     )
+   }
+   &&
+   \\
+   && &
+   (E/\mathbb{S})^{n}
+\end{xymatrix}
+
+
+  Then: This function a [[bijection]] which respects the canonical 
+  fibrations of both sides over 
+  $\mathbb{S}_{d-1}$.
+    
+\end{proposition}
+For **proof** see [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
 
 
 \linebreak
@@ -2559,7 +2693,7 @@ Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diag
    \ar[dd]
    \ar[rr]
    \ar@{}[ddrr]|-{
-     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \rotatebox[origin=c]{-45}{$\big\Downarrow$}
      \mbox{\tiny (po)}
    }
    \ar@/_.7pc/[drrr]
@@ -2571,11 +2705,6 @@ Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diag
    \ar@{-->}[dr]^-{
      \color{magenta} V_{2n}
    }
-   %\ar@/_2pc/[dddrrr]
-   %  |>>>>>>>>>>>>>>>{
-   %    \mathclap{\phantom{\vert}}
-   %    \;{\color{magenta} e(f)}\;
-   %  }
    &&
    \\
    && &
