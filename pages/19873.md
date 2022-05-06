@@ -21,7 +21,7 @@ In the [[standard model of particle physics]] a _B-meson_ is a [[meson]] which i
 
 ## Related concepts
 
-* [[pion]]
+* [[pion]], [[rho meson]]
 
 * [[flavour anomaly]]
 
