@@ -100,6 +100,8 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
 
   * **[[type I string theory]]**
 
+  * [[type 0 string theory]]
+
 * [[landscape of string theory vacua]]
 
 
