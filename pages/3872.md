@@ -1,4 +1,4 @@
-**Sir Michael Atiyah** was a British-Lebanese mathematician, a Fields' medalist, and Abel prize winner (with [[Isadore Singer]]). He was professor of [[mathematics]] at Edinburgh University.
+**Sir Michael Atiyah** is a British-Lebanese mathematician, a Fields' medalist, and Abel prize winner (with [[Isadore Singer]]). He was professor of [[mathematics]] at Edinburgh University.
 
 * [wikipedia](http://en.wikipedia.org/wiki/Michael_Atiyah)
 
