@@ -330,5 +330,6 @@ See also
 
 [[!redirects orthogonal groups]]
 
+[[!redirects O(n)]]
 
 [[!redirects O(2)]]
