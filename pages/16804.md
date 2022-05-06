@@ -213,6 +213,11 @@ Discussion of [[chord diagrams]] encoding [[SYK model]] [[correlators]] as repre
 
 * {#Narovlansky19} Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, Nazareth 2019 ([pdf](http://phsites.technion.ac.il/talks/fifth-israeli-indian-conference-on-string-theory2019/Narvolansky.pdf), [[NarovlanskySYK19.pdf:file]])
 
+following
+
+* [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
+
+
 
 [[!redirects chord diagrams]]
 [[!redirects rooted chord diagram]]
