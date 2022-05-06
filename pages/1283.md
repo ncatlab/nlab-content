@@ -449,8 +449,7 @@ For applications in [[string theory]] see also
 
 The notion of _bundle gerbe_ as such was introduced in
 
-* [[Michael Murray]], _Bundle gerbes_, J.Lond.Math.Soc. **54** (1996) pp403-416,
- arXiv:[dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015).
+* [[Michael Murray]], _Bundle gerbes_, J. Lond. Math. Soc. **54** (1996) pp. 403-416 ([arXiv:dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015))
 
 Early texts also include
 
@@ -469,5 +468,10 @@ Reviews are in
 * [[Nigel Hitchin]], _What is...a gerbe?_, Notices of the AMS **50** no. 2 (2003) pp 218-219 [pdf](http://www.ams.org/notices/200302/what-is.pdf)
 
 * [[Michael Murray]], _An Introduction to Bundle Gerbes_, In: The Many Facets of Geometry, A Tribute to Nigel Hitchin, Edited by Oscar Garcia-Prada, Jean Pierre Bourguignon, [[Simon Salamon]], OUP, 2010. doi:[10.1093/acprof:oso/9780199534920.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199534920.001.0001), arXiv:[0712.1651](https://arxiv.org/abs/0712.1651)
+
+Review with emphasis on bundle gerbes over [[Lie groups]]:
+
+* [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, In: KH. Neeb, A. Pianzola  (eds) _Developments and Trends in Infinite-Dimensional Lie Theory_, Progress in Mathematics, vol 288. Birkhäuser Boston 2011 ([arXiv:0710.5467](https://arxiv.org/abs/0710.5467), [doi:10.1007/978-0-8176-4741-4_10](https://doi.org/10.1007/978-0-8176-4741-4_10))
+
 
 [[!redirects bundle gerbes]]
