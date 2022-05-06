@@ -25,7 +25,9 @@ If these equivalent conditions hold, we write $\lambda\unlhd \mu$.  If $\lambda 
 
 * If $\lambda\le\mu$ then $\lambda \lhd (2^\mu)^+$.  Thus, for any set $S$ of regular cardinals there is a regular cardinal $\mu$ such that $\lambda\lhd \mu$ for all $\lambda\in S$.
 
-* We write $\lambda\ll\mu$ if for every $\lambda'\lt\lambda$ and $\mu'\lt\mu$ we have $(\mu')^{\lambda'} \lt\mu$.  (This is [[Higher Topos Theory]], Definition A.2.6.3.)  Then if $\lambda\ll\mu$, then $\lambda\lhd \mu$.  The converse claim implies the [[generalized continuum hypothesis]] for regular cardinals, hence is not provable in [[ZFC]]; whether it is disprovable was asked [here](https://mathoverflow.net/q/324437/).
+* We write $\lambda\ll\mu$ if for every $\lambda'\lt\lambda$ and $\mu'\lt\mu$ we have $(\mu')^{\lambda'} \lt\mu$.  (This is [[Higher Topos Theory]], Definition A.2.6.3.)  Then if $\lambda\ll\mu$, then $\lambda\lhd \mu$.
+
+  The converse claim ($\lambda \lhd \mu$ implies $\lambda\ll\mu$) is independent of [[ZFC]].  On one hand it implies the [[generalized continuum hypothesis]] (GCH) for regular cardinals (and in particular the ordinary [[continuum hypothesis]] (CH)), since if $\lambda^+ \lt 2^\lambda$ then we have $\lambda^+ \lhd \lambda^{++}$ but not $\lambda^+ \ll \lambda^{++}$.  Thus it is unprovable in ZFC (if ZFC is consistent), since CH is unprovable.  On the other hand, it is implied by the full GCH, as explained by [Goldberg](#Goldberg19), and is thus consistent with ZFC since GCH is.
 
 * If $\kappa$ is an [[inaccessible cardinal]], then every $\lambda\lt\kappa$ satisfies $\lambda\lhd \kappa$.
 
@@ -40,3 +42,5 @@ If these equivalent conditions hold, we write $\lambda\unlhd \mu$.  If $\lambda 
  {#AR}
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+* {#Goldberg19} Gabe Goldberg, answer to MathOverflow question _Raising the index of accessibility_,  <https://mathoverflow.net/q/324492>
