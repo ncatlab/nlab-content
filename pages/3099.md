@@ -81,9 +81,11 @@ $$
   \,.
 $$
 
+In the Schur functor, this is denoted with $\bigoplus$ distinguishing it from below.
+
 #### Product
 
-The category $core(FinSet)$ becomes a [[monoidal category]] under disjoint union of finite sets. This monoidal structure $(core(FinSet), \coprod)$ induces canonically the [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.
+The category $core(FinSet)$ becomes a [[monoidal category]] under disjoint union of finite sets. This monoidal structure $(core(FinSet), \coprod)$ induces canonically the [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$. In the Schur functor article these are denoted with $+$.
 
 For $A$ and $B$ two combinatorial species, their product is given by the [[coend]]
 
@@ -96,9 +98,9 @@ $$
   \,.
 $$
 
+#### Others
 
-
-
+There are two others from monoidal operations. One is Day convolution induced by the Cartesian product of finite sets denoted by $\times$. The other is $\otimes$ which is given by $(F \otimes G)(V) \simeq F(V) \otimes G(V)$. Finally, there is composition known as plethysm.
 
 ## In Homotopy Type Theory
  {#InHomotopyTypeTheory}
