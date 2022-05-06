@@ -434,3 +434,5 @@ Discussion of respect of $\bar W$ for fibrant objects is discussed in fact 2.8 o
 
 [[!redirects total simplicial set]]
 [[!redirects total simplicial sets]]
+
+[[!redirects total décalage]]
