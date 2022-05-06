@@ -24,6 +24,10 @@ In situations such as the [[tensor calculus]], the **Einstein summation conventi
 
 ## Related entries
 
+* [[Kronecker delta]]
+
+* [[Levi-Civita symbol]]
+
 * [[string diagram]]
 
 * [[Feynman slash notation]]
