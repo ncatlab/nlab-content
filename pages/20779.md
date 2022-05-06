@@ -89,7 +89,6 @@ Equivalently, it is the [[continuous valuation#extending_valuations_to_measures|
 * [[measure]], [[Radon measure]], [[τ-additive measure]], [[continuous valuation]]
 
 
-[[!redirects Dirac measures]]
 [[!redirects Dirac delta measure]]
 [[!redirects Dirac delta measures]]
 [[!redirects delta measure]]
