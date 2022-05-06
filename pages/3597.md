@@ -62,7 +62,7 @@ An operator $\rho$ is the density operator associated to some ensemble if and on
 
 ## Coherence
 
-Diagonal density matrices with at least two non-zero terms on the diagonal represent *[[mixed state]]s*.  Density matrices that posses non-zero off-diagonal terms represent *[[superposition state]]s*.  Such states are referred to as *coherent* and the off-diagonal entries are called the *coherences*.  Any physical process that has the effect of suppressing the coherences is known as *[[decoherence]]*.
+Diagonal density matrices with at least two non-zero terms on the diagonal represent *[[mixed state]]s*.  Density matrices that possess non-zero off-diagonal terms represent *[[superposition state]]s*.  Such states are referred to as *coherent* and the off-diagonal entries are called the *coherences*.  Any physical process that has the effect of suppressing the coherences is known as *[[decoherence]]*.
 
 
 ## Limitations
