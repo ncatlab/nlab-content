@@ -25,9 +25,7 @@ The [[philosophy]] of [[physics]].
 
 ## Sentiments
 
-* [[theoretical aestheticism]]
-
-  [[universal exceptionalism]]
+* [[universal exceptionalism]]
 
 * [[empiricism]]
 
