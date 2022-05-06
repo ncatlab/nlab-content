@@ -84,6 +84,7 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * That there exists a [[group]] structure on every [[inhabited set]] (see [[Hartogs number]], or [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
 * That every [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]] functor between [[strict categories]] is a strong [[equivalence of categories]].
 * That the [[nonabelian cohomology]] $H^1(X;G)$ is trivial for every set $X$ and every [[group]] $G$ (see [this post](http://golem.ph.utexas.edu/category/2013/07/cohomology_detects_failures_of.html)).
+* If $X$ and $Y$ are infinite sets and the two [[free groups]] $F(X)$ and $F(Y)$ have equal [[cardinality]], then $X$ and $Y$ also have equal cardinality (see [Kleppmann14](#Kleppmann14)).
 
 
 ## Variants
@@ -201,6 +202,10 @@ Relation to [[cohomology]] is discussed in
 * [[Andreas Blass]], _Cohomology detects failures of the axiom of choice_, Trans. Amer. Math. Soc. 279 (1983), 257-269 ([web](http://www.ams.org/journals/tran/1983-279-01/S0002-9947-1983-0704615-7/))
 
 * [[Mike Shulman]], _Cohomology_ on the [[homotopy type theory]] blog [here](http://homotopytypetheory.org/2013/07/24/cohomology/)
+
+and to [[free groups]] in
+
+* {#Kleppmann14} Philipp Kleppmann, *Generating sets of free groups and the axiom of choice*, Mathematical Logic Quarterly, 2014, [doi](https://doi.org/10.1002/malq.201300088)
 
 An alternative form of AC in toposes using injectivity is explored in
 
