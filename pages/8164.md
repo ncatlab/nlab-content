@@ -125,3 +125,6 @@ A more comprehensive discussion is in section 11 of
 
 
 [[!redirects chain maps]]
+
+[[!redirects cochain map]]
+[[!redirects cochain maps]]
