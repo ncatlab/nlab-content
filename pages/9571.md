@@ -77,7 +77,7 @@ The Grothendieck-Teichm&#252;ller Lie algebra is isomorphic to the 0th cohomolog
 
 ### Relation to deformation quantization and the cosmic Galois group
 
-[[Grothendieck]] predicted that the GT group is closely related to the absolute Galois group. [[Maxim Kontsevich]] later conjectured its [[action]] on certain space of [[quantum field theories]] and outlined its [[motivic cohomology|motivic]] aspects. 
+[[Grothendieck]] predicted that the GT group is closely related to the absolute Galois group. [[Maxim Kontsevich]] later conjectured its [[action]] on certain spaces of [[quantum field theories]] and outlined its [[motivic cohomology|motivic]] aspects. 
 
 This was later proven by [[Vasily Dolgushev]], see at _[formal deformation quantization -- Motivic Galois group action on the space of quantizations](deformation+quantization#MotivicGaloisGroup)_ for details and pointers.
 
