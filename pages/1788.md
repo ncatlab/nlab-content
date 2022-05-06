@@ -170,6 +170,8 @@
   obviously, every point is contained in at most countably many sets of a $\sigma$-locally finite base.
 </details>
 
+<br/>
+
 * a first-countable space is obviously Fréchet-Urysohn.
 
 * a Fréchet-Uryson space is obviously sequential.
