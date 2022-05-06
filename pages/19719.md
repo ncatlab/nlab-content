@@ -10,6 +10,7 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 ## Plans and work
 
 * [[Initiality Project - Overview|Overview]] -- currently a proposal, under discussion.
+* [[Initiality Project - Raw Syntax|Raw Syntax]]
 
 
 ## Background links
