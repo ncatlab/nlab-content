@@ -15,6 +15,8 @@
 
 * [[proper model category]]
 
+* [[semi-left-exact left Bousfield localization]]
+
 category: people
 
 [[!redirects A. K. Bousfield]]
