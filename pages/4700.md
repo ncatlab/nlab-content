@@ -20,7 +20,7 @@
 A _graph complex_ is a certain [[cochain complex]] [[linear span|spanned]] by [[equivalence classes]] of certain labeled [[directed graphs]], whose [[differential]] encodes the operation of contracting away [[edges]] in a graph.
 
 A concrete implementation of this general idea, 
-originally sketched in [Kontsevich 94 (p. 11-12)](#Kontsevich94) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14),
+originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14),
 is often referred to by default as _the graph complex_ and yields, for $\Sigma$ a [[smooth manifold]] often taken to be [[Euclidean space]], a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
 
 $$
@@ -121,7 +121,7 @@ $$
   \,.
 $$
 
-This was originally sketched in [Kontsevich 94, p. 11-12](#Kontsevich94). A detailed construction and proof was laid out in [Lambrechts-Volić 14](#LambrechtsVolic14). Other authors have claimed various generalizations of this result, generalizing [[Euclidean space]] $\mathbb{R}^D$ to more general [[smooth manifolds]], possibly [[manifold with boundary|with boundary]].
+This was originally sketched in [Kontsevich 92, p. 11-12](#Kontsevich92). A detailed construction and proof was laid out in [Lambrechts-Volić 14](#LambrechtsVolic14). Other authors have claimed various generalizations of this result, generalizing [[Euclidean space]] $\mathbb{R}^D$ to more general [[smooth manifolds]], possibly [[manifold with boundary|with boundary]].
 
  
 
@@ -972,8 +972,11 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 (...)
 
 ## Properties
+ {#Properties}
 
-### Rational model of configuration spaces via Feynman diagrams
+> under construction
+
+### Cohomology of configuration spaces via Feynman diagrams
  {#RelationToConfigurationSpaces}
 
 Reading the graphs as [[Chern-Simons theory]] [[Feynman diagrams]], hence as instructions for [[configuration space of points|configuration space]]-[[integrals]] of [[wedge products]] of [[Feynman propagators]] assigned to [[edges]] in a graph, with [[propagators regarded as differential forms on configuration spaces]],
@@ -981,16 +984,154 @@ yields a [[quasi-isomorphism]] from the graph complex to the [[real cohomology]]
 
 ([Lambrechts-Volić 14, Section 9](#LambrechtsVolic14))
 
-### Rational model of knot spaces (higher Vassiliev invariants) via Feynman diagrams
+\[
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{graph complex}
+      \\
+      \text{of n-point Feynman diagrams}
+      \\
+      \text{for Chern-Simons theory}
+      \\
+      \text{on} \; \Sigma 
+    }
+  }{
+    Graphs_n(\Sigma)
+  }
+  \underoverset{
+    \simeq_{\mathrlap{qi}}
+  }
+  {
+    \color{blue}
+    \array{
+      \text{assign Feynman amplitudes}
+      \\
+      \text{of Chern-Simons theory}
+      \\
+      \text{by configuration-space integral}
+      \\
+      \text{of internal vertices over}\; \Sigma
+      \\
+      \phantom{A}
+    }
+  }
+  {
+    \longrightarrow
+  }
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{de Rham algebra}
+      \\
+      \text{of semi-algebraic differential forms}
+      \\
+      \text{on the FM-compactification}
+      \\
+      \text{of the configuration space of n points}
+      \\
+      \text{in}\; \Sigma
+    }
+  }{
+  \Omega^\bullet_{PA}
+  \big(
+    Conf_n\big(  \Sigma \big)
+  \big)
+  }
+  \,.
+\]
 
-Reading a graph as a [[Chern-Simons theory]] [[Feynman diagram]] as above, but now with the external vertices running along a [[knot]], gives a  [[cochain map]] from the graph complex to the space of [[knots]] $Emb(S^1, \mathbb{R}^3)$, which in degree 0 produces [[Vassiliev knot invariants]]
+
+
+\linebreak
+
+### Cohomology of knot space / higher Vassiliev invariants, via Feynman diagrams
+
+Reading a graph as a [[Chern-Simons theory]] [[Feynman diagram]] as above, but now with the external vertices integrated along a [[knot]] $S^1 \hookrightarrow \mathbb{R}^3$, gives a  [[cochain map]] from the graph complex to the [[real cohomology]] of the space of [[knots]] $Emb(S^1, \mathbb{R}^3)$, which in degree 0 produces [[Vassiliev knot invariants]].
 
 This was originally hinted at in [Kontsevich 93, Section 5](#Kontsevich93).
 Details are in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02).
-Review is in[Volić 13, Section 4](#Volić13).
+Review is in [Volić 13, Section 4](#Volic13).
+
+\[
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{graph complex}
+      \\
+      \text{of n-point Feynman diagrams}
+      \\
+      \text{for Chern-Simons theory}
+      \\
+      \text{on} \; \Sigma 
+    }
+  }{
+    Graphs_n(\Sigma)
+  }
+  \underoverset{
+  }
+  {
+    \color{blue}
+    \array{
+      \text{assign Feynman amplitudes}
+      \\
+      \text{of Chern-Simons theory}
+      \\
+      \text{by configuration-space integral}
+      \\
+      \text{of internal vertices over}\; \Sigma
+      \\
+      \text{and of external vertices along the knot}
+      \\
+      \phantom{A}
+    }
+  }
+  {
+    \longrightarrow
+  }
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{de Rham algebra of}
+      \\
+      \text{space of knots in}\; \Sigma
+    }
+  }{
+  \Omega^\bullet_{PA}
+  \big(
+    Emb\big( S^1, \Sigma\big)
+  \big)
+  }
+  \,.
+\]
 
 
 
+Various authors discuss Vassiliev invariants in terms of graphs subject to the "STU-relation" and the "HKX-relation". 
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/KontsevichSTURelation.jpg" width="440">
+</center>
+
+> graphics grabbed from [Kontsevich 93](#Kontsevich93)
+
+That these relations characterize the cohomology of the graph complex in the respective degrees is shown in [Koytcheff-Munson-Volic 13, Section 3.4](#KoytcheffMunsonVolic13)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/VolicSTURelation.jpg" width="520">
+</center>
+
+> graphics grabbed from [Koytcheff-Munson-Volic 13](#KoytcheffMunsonVolic13)
 
 
 
@@ -1040,11 +1181,11 @@ There are generalizations for $d$-algebras (algebras over little disc operad in 
 
 ### General
 
-The rough definition of the graph complex was introduced in
+The rough definition of the graph complex, and its relation to [[Chern-Simons theory]] [[Feynman amplitudes]] and [[Vassiliev knot invariants]] was sketched in
 
-* {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
+* {#Kontsevich92} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
 
-* {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+* {#Kontsevich93} [[Maxim Kontsevich]], Section 5 of_Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett. Math. Phys. 48 35-72, 1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
@@ -1134,7 +1275,7 @@ On the [[cochain cohomology]] of [[graph complexes]]:
 
 Characterization of $H^{ n }\big( Conf_n(\mathbb{R}^3) \big)$ in terms of STU- and HKX-relations:
 
-* {#KoytcheffMunsonVolic13} Robin Koytcheff, Brian A. Munson, [[Ismar Volić]], _Configuration space integrals and the cohomology of the space of homotopy string links_, J. Knot Theory Ramif. 22, no. 11, 73 pp. (2013) ([arXiv:1109.0056](https://arxiv.org/abs/1109.0056))
+* {#KoytcheffMunsonVolic13} Robin Koytcheff, Brian A. Munson, [[Ismar Volić]], Section 3.4 of: _Configuration space integrals and the cohomology of the space of homotopy string links_, J. Knot Theory Ramif. 22, no. 11, 73 pp. (2013) ([arXiv:1109.0056](https://arxiv.org/abs/1109.0056))
 
 Concrete examples of cohomology classes in certain bi-degrees in $Graphs_0(\mathbb{R}^2)$ by [[computer experiment]]:
 
