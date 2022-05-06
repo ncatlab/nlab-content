@@ -140,6 +140,9 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Andrei Angelescu, _Single Leptoquark Solutions to the $B$-physics Anomalies_, contribution to the [2019 EW session](http://moriond.in2p3.fr/2019/EW/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06044](https://arxiv.org/abs/1905.06044))
 
+* {#CrivellinSaturnino19} [[Andreas Crivellin]], Francesco Saturnino, _Explaining the Flavor Anomalies with a Vector Leptoquark (Moriond 2019 update)_ ([arXiv:1906.01222](https://arxiv.org/abs/1906.01222))
+
+
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * {#HeekTeresi18} Julian Heeck, Daniele Teresi, _Pati-Salam explanations of the B-meson anomalies_, JHEP 12 (2018) 103 ([arXiv:1808.07492](https://arxiv.org/abs/1808.07492))
