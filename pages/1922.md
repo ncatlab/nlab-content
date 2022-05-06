@@ -95,7 +95,7 @@ this means precisely that $G$ is its own [[double negation]];
 this immediately generalises the concept to locales.)
 
 +-- {: .num_cor #regular_basis}
-###### Definition
+###### Corollary
 For any regular space $X$,
 the regular open sets form a basis for the topology of $X$.
 =--
@@ -115,7 +115,8 @@ The regular open sets form a basis for the topology of $X$.
 
 As we\'ve seen above, a regular $T_0$ space ($T_3$) is [[Hausdorff space|Hausdorff]] ($T_2$); we can also remove the $T_0$ condition from the latter to get $R_1$:
 +-- {: .un_defn}
-###### Definition (of $R_1$)
+###### Definition
+**(of $R_1$)**
 Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.
 =--
 It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 \Rightarrow T_2$ becomes a proof that $R_2 \Rightarrow R_1$; that is, every regular space is $R_1$.  An $R_1$ space is also called _preregular_ (in _[[HAF]]_) or _reciprocal_ (in [[convergence space]] theory).
