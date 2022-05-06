@@ -160,6 +160,8 @@ See at _[Differential cohomology diagram -- Differential K-theory](differential+
 
 * [[twisted differential K-theory]]
 
+* [[equivairant differential K-theory]], [[orbifold differential K-theory]]
+
 * [[differential algebraic K-theory]]
 
 ## References
@@ -218,7 +220,7 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 * {#GradySati19} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
-Discussion of differential versions of [[equivariant K-theory]], in the generality of [[,orbifolds]]:
+Discussion of differential versions of [[equivariant K-theory]], in the generality of [[orbifolds]] ([[orbifold differential K-theory]]):
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold K-Theory_, J. Noncommut. Geom. 7 (2013), no. 4, 1027-1104 ([arXiv:0905.4181](https://arxiv.org/abs/0905.4181))
 
