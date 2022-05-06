@@ -5,7 +5,7 @@ $$ x{\downarrow} = \{ y \;|\; y \leq x \} .$$
 In a [[quasiorder]], the __strict down set__ of $x$ is the set
 $$ x\dot{\downarrow} = \{ y \;|\; y \lt x \} .$$
 
-If you think of a poset $P$ as a [[category]], then the down set of $x$ is the [[coslice category]] $x / P$.
+If you think of a poset $P$ as a [[category]], then the down set of $x$ is the [[slice category]] $P / x$.
 
 A down set in the [[opposite category|opposite]] $P^{op}$ of $P$ is an [[up set]] in $P$.
 
