@@ -6,16 +6,14 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
-#### String theory
+#### Duality in string theory
 +-- {: .hide}
-[[!include string theory - contents]]
-=--
-#### Duality
-+-- {: .hide}
-[[!include duality - contents]]
+[[!include duality in string theory -- contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
