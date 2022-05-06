@@ -126,7 +126,7 @@ We discuss some [[characteristic classes]] of (the [[tangent bundle]] of) [[K3]]
 The [[Euler characteristic]] of [[K3]] is 24:
 
 $$
-  \chi[K3] \;=\; 24
+  \chi_4[K3] \;=\; 24
   \,.
 $$
 
@@ -211,10 +211,10 @@ Now consider the [[Cartesian product|Cartesian]] [[product space]] $K3 \times K3
 ###### Proposition
 **([[Euler characteristic]] of [[K3]]$\times$[[K3]])**
 
-The [[Euler characteristic]] of $K3 \times K3$ is 24^2:
+The [[Euler characteristic]] of $K3 \times K3$ is $24^2$:
 
 $$
-  \chi[K3\times K3] \;=\; 24^2
+  \chi_8[K3\times K3] \;=\; 24^2
   \,.
 $$
 
@@ -223,7 +223,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the [Whitney sum formula for the Euler class](Euler%20class#EulerClassOfWhitneySumIsCupProductOfEulerClasses) we have $\chi[K3 \times K3] = (\chi[K3])^2$. Hence the statement follows by Prop. \ref{EulerCharacteristicOfK3}.
+By the [Whitney sum formula for the Euler class](Euler%20class#EulerClassOfWhitneySumIsCupProductOfEulerClasses) we have $\chi_8[K3 \times K3] = (\chi_4[K3])^2$. Hence the statement follows by Prop. \ref{EulerCharacteristicOfK3}.
 
 =--
 
@@ -263,6 +263,8 @@ With this, the statement follows by Prop. \ref{FirstChernClassOfK3}.
 
 =--
 
+
+See also at _[[C-field tadpole cancellation]]_ the section _[Integrality on $K3 \times K2$](C-field+tadpole+cancellation#IntegralityOnK3TimesK3)_.
 
 
 
