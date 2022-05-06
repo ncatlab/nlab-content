@@ -358,6 +358,9 @@ See also
 
 * {#ayalaFrancis17} [[David Ayala]], [[John Francis]], _Fibrations of $\infty$-Categories_ ([arXiv:1702.02681](https://arxiv.org/abs/1702.02681))
  
+Coisotropic orrespondences for derived Poisson stacks:
+
+* {#HMS19} [[Rune Haugseng]], Valerio Melani, [[Pavel Safronov]], _Shifted Coisotropic Correspondences_ ([arXiv:1904.11312](https://arxiv.org/abs/1904.11312))
 
 [[!redirects (∞,n)-category of spans]]
 [[!redirects (∞,n)-categories of spans]]
