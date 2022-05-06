@@ -1,4 +1,4 @@
-[[!redirects N=4 D=3 super Yang-Mills theory]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,7 +17,6 @@
 =--
 =--
 =--
-
 
 
 #Contents#
@@ -105,13 +104,17 @@ Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] 
 
 * [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
 
+On [[D=3 N=4 super Yang-Mills theories]] with [[compact hyperkähler manifold]] [[Coulomb branches]] obtained by [[KK-compactification]] of [[little string theories]]:
+
+* {#Intriligator99} [[Kenneth Intriligator]], _Compactified Little String Theories and Compact Moduli Spaces of Vacua_, Phys. Rev. D61:106005, 2000 ([arXiv:hep-th/9909219](https://arxiv.org/abs/hep-th/9909219))
+
 The [[Rozansky-Witten invariants]] of these moduli spaces:
 
 
 * {#RozanskyWitten96} [[Lev Rozansky]], [[Edward Witten]], p. 36 of: _Hyper-K&#228;hler geometry and invariants of 3-manifolds_, Selecta Math., New Ser. __3__ (1997), 401&#8211;458 ([arXiv:hep-th/9612216](https://arxiv.org/abs/hep-th/9612216), [doi:10.1007/s000290050016](https://doi.org/10.1007/s000290050016), [MR98m:57041](http://www.ams.org/mathscinet-getitem?mr=98m:57041))
 
 
-On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
+On a mathematical definition of quantum [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 
 * [[Hiraku Nakajima]], _Introduction to a provisional mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories_ ([arXiv:1706.05154](http://arxiv.org/abs/1706.05154))
@@ -141,7 +144,10 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 * Mykola Dedushenko, Yale Fan, Silviu Pufu, Ran Yacoby, Section E.2 of: _Coulomb Branch Quantization and Abelianized Monopole Bubbling_, JHEP 10 (2019) 179 ([arXiv:1812.08788](https://arxiv.org/abs/1812.08788))
 
+[[!redirects D=3 N=4 super Yang-Mills theories]]
  
-
+[[!redirects N=4 D=3 super Yang-Mills theory]]
+[[!redirects N=4 D=3 super Yang-Mills theories]]
 
 [[!redirects N=4 D=3 sYM]]
+[[!redirects N=4 D=3 SYM]]
