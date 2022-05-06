@@ -45,6 +45,7 @@ For general $n$ this is known as the "[[Pontrjagin-Thom collapse construction]]"
 
 
 ### For charged points
+ {#ForChargedPoints}
 
 For maximal [[codimension]] $n$ inside an [[orientation|oriented]] [[smooth manifold|manifold]], hence for 0-dimensional submanifolds, hence for [[configuration space of points|configurations of points]] and with all points regarded as equipped with positive normal framing, the Cohomotopy charge map is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)):
 
@@ -70,11 +71,13 @@ from the [[configuration space of points]] in the [[Euclidean space]] $\mathbb{R
 
 <center>
 <a href="https://arxiv.org/pdf/1909.12277.pdf#page=10">
-<img src="https://ncatlab.org/schreiber/files/EquivariantCohomotopyTadpoleCancellationF.jpg" width="800">
+<img src="https://ncatlab.org/schreiber/files/CohomotopyChargeOfPoints.jpg" width="700">
 </a>
 </center>
 
 > graphics grabbed from [SS 19](#SatiSchreiber19)
+
+(See also at _[[cobordism]] -- [Relation to Cohomotopy](cobordism#RelationToCohomotopy)_.)
 
 This has evident generalizations to other manifolds than just Euclidean spaces, to spaces of labeled configurations and to [[equivariant Cohomotopy]]. The following graphics illustrates the Cohomotopy charge map on [[G-space]] [[tori]] for $G = \mathbb{Z}_2$ with values in $\mathbb{Z}_2$-[[equivariant Cohomotopy]]:
 
