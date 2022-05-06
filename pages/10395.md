@@ -62,6 +62,8 @@ constitutes an [[equivalence of groupoids]] between that of $G$-[[principal bund
 
 * [[caloron]]
 
+* [[Nahm transform]]
+
 * [[double dimensional reduction]]
 
 ## References
