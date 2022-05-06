@@ -1,5 +1,5 @@
 
-Thomas Nikolaus is an associate Professor at the Fachbereich Mathematik und Informatik of the WWU Münster. He is working on topics in [[homotopy theory]] and [[higher category theory|higher categorial structures]] motivated from [[string theory|string]] [[physics]], such as [[topological T-duality]].
+Thomas Nikolaus is a full Professor at the Fachbereich Mathematik und Informatik of the WWU Münster. He is working on topics in [[homotopy theory]] and [[higher category theory|higher categorial structures]] motivated from [[string theory|string]] [[physics]], such as [[topological T-duality]].
 
 
 [Homepage](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/index.html)
