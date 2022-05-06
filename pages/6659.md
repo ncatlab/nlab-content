@@ -22,9 +22,9 @@ is [[fully faithful functor|fully faithful]].
 
 ## Related pages
 
-* [[full and faithful 2-functor]]
-
 * [[2-category equipped with proarrows]]
+
+[[!include properties of functors -- contents]]
 
 
 [[!redirects locally fully faithful 2-functors]]
