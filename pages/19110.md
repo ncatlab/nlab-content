@@ -29,7 +29,9 @@ Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key c
 
 Traditionally RR-tadpole cancellation is discussed in [[ordinary cohomology]], the common arguments notwithstanding that [[D-brane charge]] should be in [[K-theory]].
 
-Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
+Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Marchesano-Shiu 04](#MarchesanoShiu04), [CKMNW 05, Section 2.2](#CKMNW05), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
+
+
 
 But the situation seems to remain somewhat inconclusive (see also [Moore 14, p. 21-22](#Moore14)).
 
@@ -1064,9 +1066,16 @@ See also
 
 * Maria E. Angulo, David Bailin, Huan-Xiong Yang, _Tadpole and Anomaly Cancellation Conditions in D-brane Orbifold Models_,  	Int.J.Mod.Phys.A18:3637-3694, 2003 ([arXiv:hep-th/0210150](https://arxiv.org/abs/hep-th/0210150))
 
+* {#Marchesano03} [[Fernando Marchesano]], section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+
+* {#MarchesanoShiu04} [[Fernando Marchesano]], Gary Shiu, _Building MSSM Flux Vacua_, JHEP0411:041, 2004 ([arXiv:hep-th/0409132](https://arxiv.org/abs/hep-th/0409132))
+
+* {#CKMNW05} C.-M. Chen, G. V. Kraniotis, V. E. Mayes, D. V. Nanopoulos, J. W. Walker, _A K-theory Anomaly Free Supersymmetric Flipped SU(5) Model from Intersecting Branes_, Phys.Lett. B625 (2005) 96-105 ([arXiv:hep-th/0507232](https://arxiv.org/abs/hep-th/0507232))
+
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008, 2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
-* {#Marchesano03} [[Fernando Marchesano]], section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+
+
 
 * {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
 
