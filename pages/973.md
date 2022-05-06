@@ -337,7 +337,7 @@ The category of sketches is well behaved: it is complete, cocomplete, cartesian 
 +-- {: .num_prop }
 ###### Proposition 
 
-The category of sketches is topological over the category of directed [pseudographs](https://ncatlab.org/nlab/show/pseudograph).
+The category of sketches is [[topological category|topological]] over the category of directed [pseudographs](https://ncatlab.org/nlab/show/pseudograph).
 
 =--
 
