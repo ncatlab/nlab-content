@@ -302,19 +302,44 @@ Introductions to [[topos theory]] include
 
 * [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
 
-* [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
-
-* MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
+* [[Francis Borceux]], _Some glances at topos theory_, [pdf](https://tcsc.lakecomoschool.org/files/2018/01/Borceux.pdf).
 
 
 An introduction amplifying the simple but important case of [[presheaf toposes]] is
 
-* Marie La Palme Reyes, [[Gonzalo Reyes]] and Houman Zolfaghari, _Generic figures and their glueings -- A constructive approach to functor categories_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2006/12/samplebook.pdf))
+* Marie La Palme Reyes, [[Gonzalo E. Reyes]], Houman Zolfaghari,
+_Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008), ISBN: 8876990046.
+[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf).
+
+A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+Course notes covering both [[Grothendieck toposes]] and the [[effective topos]]:
+
+* [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos Theory_, Master class notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
+
+A gentle basic introduction is 
+
+* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
+
+### Videos
+
+* [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos à l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
+
+* MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
 
 ### Textbooks
 
+Modern textbooks include the following two.
 
-A standard textbook is
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_.
+
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]], Volume 3_.
+
+### Monographs
+
+A early monograph is
 
 * [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Dover reprint 2014)
 
@@ -322,59 +347,28 @@ This later grew into the more detailed
 
 * [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
 
-A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
-
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
-
-A standard textbook on this case is
-
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-
-There are also
+Other sources include the following.
 
 * [[Michael Barr]], [[Charles Wells]], _Toposes, Triples, and Theories_ , Springer Heidelberg 1985. ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf))
 
 * R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
 
-A gentle basic introduction is 
-
-* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
-
-A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
-
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
-
-A survey is in
-
-* [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
-
-See also
-
 * [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford 2017
-
-
-### Course notes
-
-* [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos theory_ Master Class notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
 
 ### Original articles
 
 Original source of (Grothendieck) topoi:
 
-* [[SGA4]] Expos&#233; IV by Grothendieck and Verdier (and Expos&#233; V for cohomology in a (Grothendieck) topos)
+* [[SGA4]] Exposé IV by Grothendieck and Verdier (and Exposé V for cohomology in a (Grothendieck) topos)
 
 That every topos is an [[adhesive category]] is discussed in 
 
-* [[Stephen Lack]], Pawel Soboc&#237;nski, _Toposes are adhesive_ ([pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf))
+* [[Stephen Lack]], Pawel Sobociński, _Toposes are adhesive_ ([pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf))
  {#LackSobocinski}
-
 
 ### History
 
-
-
 * [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf) ([direct link](http://www.cwru.edu/artsci/phil/UsesandAbuses%20HistoryToposTheory.pdf))
-
 
 According to appendix C.1 in
 
@@ -386,9 +380,6 @@ According to appendix C.1 in
 A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes and their precedents is in
 
 * {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=hhWT5V0oaSI))
-
-
-
 
 [[!redirects topos]]
 [[!redirects topoi]]
@@ -415,7 +406,3 @@ A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes a
 [[!redirects topos with an NNO]]
 [[!redirects topoi with NNOs]]
 [[!redirects toposes with NNOs]]
-
-
-
-
