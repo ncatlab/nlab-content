@@ -95,6 +95,19 @@ So that then finally is the relation, in the ADE classification, between the sim
 
 ## References
 
+The original article is
+
+* {#McKay80} [[John McKay]], _Graphs, singularities, and finite groups_ Proc. Symp. Pure Math. Vol. 37. No. 183. 1980
+
+As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
+
+* {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
+
+An analogous discussion for [[derived categories]] of coherent sheaves is in
+
+* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
+
+
 Introductions and surveys include
 
 * Graham Leuschke, _The McKay correspondence_ ([pdf](http://www.leuschke.org/uploads/McKay-total.pdf))
@@ -112,11 +125,4 @@ Literature collection
 
 * [[Miles Reid]], _[Links to papers on McKay correspondence](http://homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
 
-As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
-
-* {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
-
-An analogous discussion for [[derived categories]] of coherent sheaves is in
-
-* [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
