@@ -1,4 +1,18 @@
 
+That the quark model correctly predicts hadron bound states is a purely computer-experimental observation (established only fairly recently for the first few hadrons <a href="https://arxiv.org/abs/0906.3599">arXiv:0906.3599</a>) of which a conceptual understanding remains an <a href="https://ncatlab.org/nlab/show/confinement#OpenProblem">open problem</a>, dubbed one of the Millennium Problems. 
+
+While it is an old idea that the string model of mesons gives a conceptual handle on the confinement mechanism, its detailed and quantitatively accurate development used to be lacking. Making the string model of hadrons actually work is what <a href="https://ncatlab.org/nlab/show/AdS-QCD+correspondence">holographic QCD</a> is all about.
+
+Since holographic QCD readily explains fundamental characteristics of confined QCD that remain mysterious not just in the quark model but also in popular <em>ad hoc</em> strong coupling model building such as the bag model (not only the confinement and chiral symmetry breaking mechanism itself, but also for instance vector meson dominance and the Cheshire cat property of the bag model are readily explained by holographic QCD) it is attractive to researchers interested in real-world QCD.
+
+The Skyrme model for hadrons is in fact reasonable not in its original form but only after adjoining the tower of vector mesons to the pion. But in that tower-corrected form the Skyrme model works wonders: nuclei all the way up to carbon(!) are well-decribed already by Skyrmions in the pion+rho field (<a href="https://ncatlab.org/nlab/show/skyrmion#IncludingTowerOfMesons">arXiv:1803.06098</a>). This tower-correction of Skyrmions is explained by holographic QCD, where all mesons are unified as the transversal KK-modes of the 5d flavour gauge theory.
+
+That available results in holographic AdS/QCD currently only ("only") address the strongly coupled confined QCD phase and not its asymptotically free UV is not intrinsic to the holographic theory but owed to its computational development: holography is studied for strong 't Hooft coupling only for the convenience to be able to disregard string-scale and strong string-coupling effects on the bulk side. Inclusion of <a href="https://ncatlab.org/nlab/show/large%201/N%20limit">small-N corrections</a> into AdS/QCD to get the full picture remains to be developed but is not being ignored (<a href="https://ncatlab.org/nlab/show/AdS-QCD+correspondence#SmallNOpenProblem">here</a>).
+
+
+
+***
+
 +-- {: .num_lemma}
 ###### Lemma
 
