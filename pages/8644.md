@@ -35,7 +35,7 @@ The _Witten-Veneziano formula_ ([Witten 79](#Witten79), [Veneziano 79](#Venezian
 
 An instanton vacuum is argued to account for
 
-* formation of the gluon condensate (M. Shifman, A. Vainshtein and V. Zakharov, Nucl. Phys. B 147 (1979) 385).
+* formation of the gluon condensate ([[Mikhail Shifman]], [[Arkady Vainshtein]] and [[Vladimir Zakharov]], Nucl. Phys. B 147 (1979) 385).
 
 * spontaneous [[chiral symmetry breaking]] ([Diakonov 96](#Diakonov96))
 
