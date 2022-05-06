@@ -45,6 +45,10 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
   * [[The Stacks Project]]
 
+## Related concepts
+
+* [[Xena project]]
+
 ## References
 
 * Lean website ([leanprover.github.io](https://leanprover.github.io))
@@ -66,3 +70,6 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
   * _[Learning Lean](https://xenaproject.wordpress.com/category/learning-lean/)_
 
   * _[What does Lean already know?](https://xenaproject.wordpress.com/what-does-lean-already-know/)_
+
+
+  (on the [[Xena project]])
