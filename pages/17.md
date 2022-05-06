@@ -678,13 +678,17 @@ Under the hood, this works by running pdflatex and then generating an SVG from t
 
 #### Xymatrix
 
-As of 2019 you can format commutative diagrams in the nLab using the xymatrix command just as you would in a latex document. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see the code for the figures.
+As of 2019 you can format commutative diagrams in the nLab using the xymatrix command, almost as you would in a latex document. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see the code for the figures.
 
 Single diagram:
 
 \begin{centre}
 
-\xymatrix{A \ar[r] \ar[dr] & B \ar[d] \\ & C}
+\begin{xymatrix}
+
+A \ar[r] \ar[dr] & B \ar[d] \\ & C
+
+\end{xymatrix}
 
 \end{centre}
 
@@ -692,7 +696,11 @@ Bent arrows:
 
 \begin{centre}
 
-\xymatrix[border = 1.75pc]{A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B}
+\begin{xymatrix[border = 2pc]}
+
+A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
+
+\end{xymatrix}
 
 \end{centre}
 
@@ -700,7 +708,23 @@ Parallel arrows:
 
 \begin{centre}
 
-\xymatrix{A \ar@<.6ex>[r] \ar@<-.6ex>[r] & B}
+\begin{xymatrix}
+
+A \ar@<.6ex>[r] \ar@<-.6ex>[r] & B
+
+\end{xymatrix}
+
+\end{centre}
+
+2-cell:
+
+\begin{centre}
+
+\begin{xymatrix[font = \large]@C+2pc}
+
+A \rtwocell^f_g{\alpha} & B
+
+\end{xymatrix}
 
 \end{centre}
 
