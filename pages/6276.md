@@ -68,16 +68,15 @@ $$
 
 ## Literature
 
+Here we list mostly references about the classical part of the subject. The references connecting Hausdorff series to [[Drinfeld associator]]s, [[Grothendieck-Teichmueller group]] and [[Kashiwara-Vergne conjecture]] see in the corresponding entries.
+
 * [[N. Bourbaki]], _Lie groups and algebras_, chapter II
 * [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
 * E. B. Dynkin, _Calculation of the coefficents in the Campbell-Hausdorff formula_, Doklady Akad. Nauk SSSR (N.S.) 57, 323-326, (1947).
 
 cf. [[Malcev completion]] 
 
-* Anton Alekseev, Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [pdf](http://www.math.jussieu.fr/~torossian/AT1.pdf)
 * [[Terence Tao]], 254A, Notes 1, _Lie groups, Lie algebras, and the Baker-Campbell-Hausdorff formula_, blog entry
-* [[M. Kashiwara]], M. Vergne, _The Campbell-Hausdorff formula and
-invariant hyperfunctions_, Inventiones math. __47__, 249--272 (1978)  [pdf](http://www.math.polytechnique.fr/~vergne/publications2/Remplacer/78thecampbellhaussdorff.pdf)
 * V. Kurlin, _Exponential Baker-Campbell-Hausdorff formula_, [http://arxiv.org/abs/math/0606330](http://arxiv.org/abs/math/0606330)
 * Terry Tao's blog: [the-c11-baker-campbell-hausdorff-formula](https://terrytao.wordpress.com/2011/06/21/the-c11-baker-campbell-hausdorff-formula)
 * [wikipedia](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)
