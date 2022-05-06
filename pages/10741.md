@@ -102,6 +102,8 @@ The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) sta
 
 ## References
 
+* {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
+
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
 * Michael Crabb, [[Andrew Ranicki]], _The geometric Hopf invariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
