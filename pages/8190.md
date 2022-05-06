@@ -1,4 +1,3 @@
-[[!redirects de Donder-Weyl-Hamilton equation]]
 
 
 +-- {: .rightHandSide}
@@ -386,6 +385,9 @@ See also
 
 
 For more see the references at _[[multisymplectic geometry]]_, at _[[n-plectic geometry]]_ and at _[[Hamiltonian n-vector field]]_.
+
+[[!redirects de Donder-Weyl-Hamilton equation]]
+
 
 [[!redirects De Donder-Weyl hamiltonian]]
 [[!redirects de Donder-Weyl Hamiltonian]]
