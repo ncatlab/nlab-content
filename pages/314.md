@@ -450,11 +450,13 @@ in the [[functor category]], i.e. the set of [[natural transformation]]s from th
 ### In functor categories
 
 +-- {: .un_prop}
-###### Proposition -- limits in functor categories are computed pointwise
+###### Proposition
+**(limits in functor categories are computed pointwise)
 
 Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category which admits limits of shape $D$. Write $[D',C]$ for the [[functor category]]. Then
+
 * $[D',C]$ admits $D$-shaped limits;
-* these limits are computed objectwise ("pointwise") in $C$:  for $F : D^{op} \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
+* these limits are computed objectwise ("pointwise") in $C$: for $F : D^{op} \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
 =--
 
 ### Compatibility with universal constructions
