@@ -72,9 +72,26 @@ The s-rule is attributed to
 
 which considers [[D3-D5 brane intersections]], speaks of "s-configurations" as those with _more_ than one [[D3-brane]] ending on any [[D5-brane]] and gives plausibility arguments that these s-configurations are not supersymmetric.
 
+Review:
+
+* [[Amit Giveon]], [[David Kutasov]], p. 83 onwards in: _Brane Dynamics and Gauge Theory_, Rev. Mod. Phys. 71:983-1084, 1999 ([arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067))
+
+
 See also
 
 * Wikipedia, _[Hanany-Witten transition -- The S-rule](https://en.wikipedia.org/wiki/Hanany%E2%80%93Witten_transition#The_S-rule)_
+
+For [[D2-D4 brane intersections]]:
+
+* Minoru Eto, Youichi Isozumi, Muneto Nitta, Keisuke Ohashi, Kazutoshi Ohta, Norisuke Sakai, Section 3 of: _D-brane Construction for Non-Abelian Walls_, Phys. Rev. D71 (2005) 125006 ([arXiv:hep-th/0412024](https://arxiv.org/abs/hep-th/0412024))
+
+
+For [[D4-D6 brane intersections]]:
+
+* [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Section 3 of: _Strong Coupling Dynamics of Four-Dimensional N=1 Gauge Theories from M Theory Fivebrane_, Adv. Theor. Math. Phys.1:1-52, 1998 ([arXiv:hep-th/9706082](https://arxiv.org/abs/hep-th/9706082))
+
+
+
 
 For [[D6-D8 brane intersections]]:
 
