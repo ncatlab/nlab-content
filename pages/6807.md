@@ -211,9 +211,13 @@ Relation to [[lattice gauge theory]] and numerical tests of [[AdS/CFT]]:
 
 ### Holography
 
-On [[AdS/CFT]] in the form of $AdS_2/CFT_1$ with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
+On [[AdS/CFT]] in the form of [[AdS2/CFT1]] with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
 
 * [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
+
+and concerning the analog of its [[holographic entanglement entropy]]:
+
+* Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
 
 
 
