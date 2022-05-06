@@ -21,6 +21,11 @@ On [[Vassiliev invariants of braids]] via [[chord diagrams]]:
 
 * [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
+
+On the [[universal Vassiliev invariant]] of the [[unknot]]:
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+
 List of literature on [[Vassiliev invariants]]:
 
 * [[Dror Bar-Natan]], [[Sergei Duzhin]], _[Bibliography of Vassiliev Invariants](http://www.pdmi.ras.ru/~duzhin/VasBib/Long)_
