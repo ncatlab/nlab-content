@@ -4,6 +4,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -17,11 +21,13 @@
 
 ## Idea
 
-In a [[category]] with [[internal homs]] $[-,-]$, given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J(X) \mapsto [[X, S], X]$. It is a [[strong monad]].
+In a [[category]] with [[internal homs]] $[-,-]$ (i.e. a [[closed category]]), given an [[object]] $S$, the _selection monad_, also known as the _select monad_, is the [[endofunctor]] $J(X) \mapsto [[X, S], X]$. It is a [[strong monad]].
 
-There is a monad morphism from the selection monad to the [[continuation monad]] for $S$, $K(X) = (X \to S) \to S$, which sends $\epsilon \in J(X)$ to $\bar{\epsilon} \in K(X)$, where $\bar{\epsilon}(p) = p(\epsilon(p))$.
+There is a monad [[homomorphism]] from the selection monad to the [[continuation monad]] for $S$, $K(X) = (X \to S) \to S$, which sends $\epsilon \in J(X)$ to $\bar{\epsilon} \in K(X)$, where $\bar{\epsilon}(p) = p(\epsilon(p))$.
 
-If we understand the continuation monad as mapping an object to the generalized [[quantifiers]] over it, with $S$ a generalized [[truth value]], a selection function for a generalized quantifier is an element of its preimage under the monad morphism. For instance, a selection functional for the supremum functional $sup: (X \to S) \to S$, when it exists, gives a point at which a function attains its maximum value.
+If we understand the continuation monad as mapping an object to the generalized [[quantifiers]] over it, with $S$ a generalized [[truth value]], a selection function for a generalized quantifier is an element of its [[preimage]] under the monad morphism. 
+
+For instance, a selection functional for the [[supremum]] functional $sup: (X \to S) \to S$, when it exists, gives a point at which a function attains its maximum value.
 
 Due to the resemblance of an [[algebra over a monad|algebra]], $J(A) \to A$, to [[Peirce's law]] in logic, $((p \Rightarrow q) \Rightarrow p) \Rightarrow p $, $J$ is also called the _Peirce monad_ in ([Escardó-Oliva 2012](#Escardó-Oliva2012)).
 
