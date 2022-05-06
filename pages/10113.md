@@ -90,6 +90,12 @@ See also:
 
 * Wikipedia, _[Hadron](http://en.wikipedia.org/wiki/Meson)_
 
+### Experiment
+
+Observations at [[LHC]]:
+
+* Maria Vasileiou on behalf of the ALICE Collaboration, _Measurement of the Hadronic Resonance Production with ALICE at the CERN LHC_, Universe 2019, 5(1), 6 ([doi:10.3390/universe5010006](https://doi.org/10.3390/universe5010006))
+
 ### In lattice QCD
 
 
