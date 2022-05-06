@@ -39,6 +39,14 @@ The [[fuzzy funnel]] [[noncommutative geometry]] of transveral $D3 \bot D5$-bran
 
 * {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
 
+With derivation of the [[s-rule]]:
+
+* [[Constantin Bachas]], [[Michael Green]], Adam Schwimmer, Section 2.3 of: _$(8,0)$ Quantum mechanics and symmetry enhancement in type I' superstrings_, JHEP 9801 :006, 1998 ([arXiv:hep-th/9712086](https://arxiv.org/abs/hep-th/9712086))
+
+* Akikazu Hashimoto, Peter Ouyang, Masahito Yamazaki, Section 3.6 of: _Boundaries and Defects of N=4 SYM with 4 Supercharges, Part II: Brane Constructions and 3d N=2 Field Theories_, JHEP 1410 : 108, 2014 ([arXiv:1406.5501](https://arxiv.org/abs/1406.5501))
+
+* Federico Carta, Hirotaka Hayashi, _Hilbert series and mixed branches of $T[SU(N)]$ theory_, JHEP 02 (2017) 037 ([arXiv:1609.08034](https://arxiv.org/abs/1609.08034))
+
 Review and highlighting of the [[fuzzy funnel]] geometry with [[fuzzy 2-sphere]] sections:
 
 * {#Fazzi17} [[Marco Fazzi]], Section 3.2.3 of: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
