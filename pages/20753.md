@@ -1,7 +1,7 @@
-[nLab](ncatlab.org)
+<div class="rightHandSide toc">
+[[!include differential graded objects - contents]]
+</div>
 
-[[DevTest2]]
+##Test
 
-[[DevTest3]]
-
-[[DevTest4]]
+##Test two
