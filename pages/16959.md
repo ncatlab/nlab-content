@@ -136,7 +136,7 @@ Discussion of relation to homotopy limits etc.
 
 Comparison with other forms of join:
 
-*  [[Rudolf Fritsch]] and [[Marek Golasinski]], _Topological, simplicial and categorical joins_, Archiv der Mathematik 82(5):468-480, January 2004. 
+*  [[Rudolf Fritsch]] and [[Marek Golasiński]], _Topological, simplicial and categorical joins_, Archiv der Mathematik 82(5):468-480, January 2004. 
 
 Discussion in [[homotopy type theory]] (applied to [[n-image]] factorization) is in 
 
