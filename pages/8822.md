@@ -43,7 +43,7 @@ More generally:
 +-- {: .num_defn}
 ###### Definition
 
-A [[family]] $\mathcal{S} = (S_a ;|; a\colon A)$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
+A [[family]] $\mathcal{S} = (S_a)_{(a\colon A)}$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
 
 * for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if $f \circ e = g \circ e$ for every $e \colon S_a \to X$ sourced in the family, then $f = g$.
 =--
@@ -106,7 +106,7 @@ If $\mathcal{E}$ is a subclass of epimorphisms, we say that $(S_a)_{(a\colon A)}
 The weakest commonly-seen strengthened notion is that of __extremal separator__, i.e. separator where all maps $\varepsilon_X$ are [[extremal epimorphisms]]. The notion of extremal separator admits an 
 equivalent reformulation not referencing coproducts:
 
-+-- {: .num_prop}
++-- {: .num_prop #Extremal}
 ###### Proposition
 
 If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a set-indexed family $(S_i)_{(i\colon I)}$ is an extremal separator if and only if 
@@ -125,32 +125,78 @@ which implies $u h = v h$ since the $C(S_i,f)$ are bijective, and we conclude th
 since $(S_i)_{(i\colon I)}$ is separating.
 
 Conversely, assume that the functors $C(S_i,-)$ are jointly faithful and jointly
-conservative. Given $A\in C$, joint faithfulness shows that $\varepsilon_A$ is epic.
-To see that it is extremally so, assume a factorization $\varepsilon_A = mg$ with $m$ monic. We have to show that 
+conservative. Given $A\in C$, joint faithfulness implies that $\varepsilon_A$ is epic.
+To see that it is extremally so, assume a factorization $\varepsilon_A = m g$ with $m$ monic. We have to show that 
 $m$ is an isomorphism, and for this it is sufficient to show that all $C(S_i,m)$
 are bijections. Injectivity is clear since $m$ is monic, and surjectivity follows since every $h:S_i\to A$ factors through $\varepsilon_A$.
 =--
 
+The concepts "strong separator" and "regular separator" corresponding to the 
+notions of [[strong epimorphism]] and [[regular epimorphism]] do not admit such a reformulation, but the following result shows that they are equivalent to extremal separators in reasonable categories.
+
++-- {: .num_prop}
+###### Proposition
+
+Assume that $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s. 
+
+1. If $C$ is balanced, then every separator is extremal.
+
+2. If $C$ has pullbacks, then every extremal separator is strong.
+
+3. If $C$ is [[regular category|regular]], then every strong separator is regular.
+
+The converse implications do always hold.
+=--
+
++-- {: .proof}
+###### Proof
+This is a direct consequence of the facts that 
+
+1. in a balanced category every epi is extremal,
+
+2. in a category with pullbacks, every extremal epi is strong, and 
+
+3. in a regular category every strong epi is regular.
+
+=--
+
 +-- {: .un_remark}
-###### Warning
+###### Remarks
 
-Confusingly, some authors use "strong generator" for what we call an extremal separator. In a category with [[pullbacks]], extremal epis reduce to strong ones, and so extremal separators are necessarily strong, and the clash of terminology is resolved.
+1. Proposition \ref{Extremal} gives rise to a notion of extremal separator that makes sense independently of the existence of coproducts. In fact claim 1 of the preceding result holds in this more general setting, since every faithful functor out of a balanced category is conservative.
+
+2. Part of the literature uses the term "strong separator" (or strong generator) for what we call an extremal separator. Item 2 of the preceding result shows that this is consistent with our terminology in presence of pullbacks (and coproducts).
+
+3. In the Elephant, Johnstone uses "separator" in the same sense as we do, and writes "generator" for extremal separators, in the more general sense not assuming coproducts. Since he always assumes finite limits, he can use a simplified criterion only requiring joint conservativity of the hom-functors (since a conservative functor $F:C\to D$ is automatically faithful whenever $C$ has equalizers and $F$ preserves them).
 =--
 
-Stronger still is a __regular generator__. Since regular epis are strong, regular generators are strong.
+### Dense separators
 
-Finally, the strongest sort of generator commonly seen is a __dense generator__. Dense generators don't fit into our scheme based on classes of epimorphisms, but they do admit a nice functorial definition: a full subcategory $\mathcal{G} \subset \mathcal{C}$ is dense if and only if the functor $\mathcal{C}(i_{\mathcal{G}}, -): \mathcal{C} \to [\mathcal{G}^{\mathrm{op}}, \mathrm{Set}]$ is full and faithful, where $i_{\mathcal{G}}: \mathcal{G} \to \mathcal{C}$ is the inclusion. That is to say, $\mathcal{G}$ is a dense generator if $i_{\mathcal{G}}$ is a [[dense functor]]. In a category with coproducts, every dense generator is regular: this can be seen by reformulating denseness in terms of canonical colimits and expressing the relevant colimit as a coequalizer of two coproducts.
 
-+-- {: .query}
-[[Daniel Schaeppi]] Something seems to be wrong here: strong epimorphisms are extremal, so the notion of extremal generator is weaker than the notion of strong generator. In general, not every strong separator / strong generator is ($Set$-)dense (take the free abelian group on one separator, for example).
+Finally, the strongest kind of separator commonly seen is that of __dense separator__. 
 
-Tim Campion: I've attempted to fix these errors. Hopefully it's all right now.
++-- {: .num_defn}
+###### Definition
+
+A __dense separator__ in a category $C$ is a family $(S_i)_{(i\colon I)}$ of objects 
+such that the generated full subcategory is [[dense subcategory|dense]].
 =--
 
+Every dense separator is an extremal separator, and it is also strong and regular whenever those words make sense, i.e. $C$ is locally small and has small coproducts. If $C$ furthermore has pullbacks and the coproducts are pullback-stable, then every regular separator is dense (see [Borceux I, Proposition 4.5.6](#Borceux)).
+To see that the pullback-stability condition is necessary, consider the category of abelian groups. Here, the free group on one generator is a regular, but not a dense separator.
+
+### Giraud's axioms
+
+[[Grothendieck topos#Giraud|Giraud's axioms]] characterize Grothendieck toposes as locally small regular categories with effective equivalence relations and disjoint and pullback-stable coproducts admitting a small separator. The previously stated and cited results show that in fact every such separator is dense (the effectivity and disjointness assumptions don't play a role for this conclusion).
 
 ## Related concepts
 
 * [[coseparator]]
+
+## References
+
+* {#Borceux} [[Francis Borceux]], _Handbook of Categorical Algebra I_, Cambridge University Press, 1994
+
 
 
 [[!redirects separator]]
