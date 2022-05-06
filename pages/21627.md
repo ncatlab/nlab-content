@@ -103,5 +103,8 @@ Discussion of [[string phenomenology]] for the [[SemiSpin(32)]]-[[heterotic stri
 
 * {#Yamatsu17} Naoki Yamatsu, _String-Inspired Special Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2017, Issue 10, 1  ([arXiv:1708.02078](https://arxiv.org/abs/1708.02078), [doi:10.1093/ptep/ptx135](https://doi.org/10.1093/ptep/ptx135))
 
+* Jihn E. Kim, _Grand unfication models from $SO(32)$ heterotic string_ ([arXov:2008.00367](https://arxiv.org/abs/2008.00367))
+
+
 
 
