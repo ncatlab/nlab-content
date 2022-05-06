@@ -187,9 +187,11 @@ Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [
 
 * [[Jun John Sakurai]], _Theory of strong interactions_, Annals Phys. 11 (1960) 1-48 ([spire:3218](http://inspirehep.net/record/3218), <a href="https://doi.org/10.1016/0003-4916(60)90126-3">doi:10.1016/0003-4916(60)90126-3</a>)
 
-Introduction:
+Introduction and survey:
 
 * [[Jun John Sakurai]], _Currents and Mesons_, Chicago Lectures in Physics, based on notes by George Barry, University of Chicago Press (1969) ([ISBN: 9780226733838](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3622598.html))
+
+* [[Rupert Machleidt]], _The Meson Theory of Nuclear Forces and Nuclear Structure_, In: Negele J.W., Vogt E. (eds.) _Advances in Nuclear Physics_ Advances in Nuclear Physics, vol 19. Springer 1989 ([doi:10.1007/978-1-4613-9907-0_2](https://doi.org/10.1007/978-1-4613-9907-0_2))
 
 
 * {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
