@@ -22,7 +22,7 @@
 By the general discussion at _[[equivariant K-theory]]_, given a suitable [[topological group]] $G$ with an [[action]] on a [[topological space]] $X$ there is a canonical map
 
 $$
-  K_G(X) \to K_G^{Bor}(X) \simeq K_G(X \times E G) \simeq K(X//G)
+  K_G(X) \to K_G^{Bor}(X) \simeq K_G(X \times E G) \simeq K(X \!\sslash\! G)
 $$
 
 from the [[equivariant K-theory]] of $X$ to the ordinary [[topological K-theory]] of the [[homotopy quotient]] ([[Borel construction]]).
