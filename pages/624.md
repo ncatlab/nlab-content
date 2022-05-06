@@ -336,3 +336,6 @@ The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to sect
 
 [[!redirects dual type]]
 [[!redirects dual types]]
+
+[[!redirects dual pair]]
+[[!redirects dual pairs]]
