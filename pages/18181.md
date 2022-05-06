@@ -72,7 +72,7 @@ In the development of Kant's distinction between general logic and transcendenta
 
 1. __"On logic in general." ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)__
 
-    The scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph, Paragraph II.
+    In this paragraph, the scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph, Paragraph II.
 
     To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”, ”aesthetics”, and “logic” ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-2/B74-6).
 
@@ -82,14 +82,14 @@ In the development of Kant's distinction between general logic and transcendenta
 
 1. __"On transcendental logic." ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)-7/B79-82)__
 
-    The concept of transcendental logic is established, contrasting it to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in general. Transcendental logic contains the “rules of pure thinking of an object” ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)/B80).
+    In this paragraph, the concept of transcendental logic is established, contrasting it to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in general. Transcendental logic contains the “rules of pure thinking of an object” ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)/B80).
     Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B80-1) 
     Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B81-2)
 
 1. __"On the division of general logic into analytic and dialectic." 
 ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)-62/B82-6)__
 
-    General logic is established as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
+    In this paragraph, general logic is established as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
     To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B82)
     Now, using this supposition as a premise, he attempts to prove the self-contradictory nature of a “certain and general criterion of truth of any cognition” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B82) according to the following schema:
     
