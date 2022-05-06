@@ -68,6 +68,8 @@ In particular, the existence of a nowhere vanishing [[vector field]] (for which 
 
 * [[Gauss-Bonnet theorem]]
 
+* [[twisted cohomotopy]]
+
 ## References
 
 Named after [[Henri Poincaré]] and [[Heinz Hopf]].
