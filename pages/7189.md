@@ -42,7 +42,8 @@ That this indeed defines a monad follows from the universal properties of the Ka
 ## Examples
 
 * The [[Giry monad]] (as well as a finitely additive version) arise as codensity monads of forgetful functors from subcategories of the category of [[convex sets]] to the category of [[measurable spaces]] ([Avery 14](#Avery14)).
-....
+
+* The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad.
 
 
 
@@ -92,7 +93,7 @@ The role in shape theory is discussed in
 
 * J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
-For a description of the [[giry monad]] as a codensity monad, see
+For a description of the [[Giry monad]] as a codensity monad, see
 
 * {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
 
