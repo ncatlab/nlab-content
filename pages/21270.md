@@ -198,6 +198,11 @@ Fundamental bibliography:
 
 * {#BSW20} Nadia Bahjat-Abbas, Ricardo Stark-Muchão, Chris D. White, _Monopoles, shockwaves and the classical double copy_ ([arXiv:2001.09918](https://arxiv.org/abs/2001.09918))
 
+Foundational issues:
+
+* Chris D. White, _A Twistorial Foundation for the Classical Double Copy_ ([arXiv:2012.02479](https://arxiv.org/abs/2012.02479))
+
+
 Some global aspects of the [[classical double copy]] were explored in the following paper:
 
 * {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
