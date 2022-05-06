@@ -26,17 +26,50 @@ The [[spin group]] in [[dimension]] 6.
 ## Properties
 
 ### Exceptional isomorphism
+ {#ExceptionalIsomorphism}
 
-+-- {: .num_prop}
++-- {: .num_prop #IsomorphismBetweenSpin6AndSU4}
 ###### Proposition
 
-There is an [[exceptional isomorphism]]
+There is an [[exceptional isomorphism]] 
 
-$$
-  Spin(6) \simeq SU(4)
-$$
+\begin{tikzpicture}
 
-with the [[special unitary group]] of complex dimension 4.
+  \node (Spin6) at (0,1.4)  {$\mathrm{Spin}(6)$};
+  \node (SU4) at (3.4,1.4)  {$\mathrm{SU}(4)$};
+
+  \node at (1.7,1.4) {$\simeq$};
+
+  \node (center) at (0,0) {};
+  \node (topright) at (30:1) {};
+  \node (left) at (180-30:1) {};
+  \node (botright) at (0,-1) {};
+  
+  \draw[fill=black] (center) circle (.1);
+  \draw[fill=black] (topright) circle (.1);
+  \draw[draw=lightgray, fill=lightgray] (botright) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+
+
+  \draw (center) to (topright);
+  \draw[lightgray] (center) to (botright);
+  \draw (center) to (left);
+    
+  \begin{scope}[shift={(3.4,0)}]
+  \node (center) at (0,0) {};
+  \node (left) at (-1,0) {};
+  \node (right) at (+1,0) {};
+
+  \draw[fill=black] (center) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+  \draw[fill=black] (right) circle (.1);
+
+  \draw (center) to (left);
+  \draw (center) to (right);
+  \end{scope}
+\end{tikzpicture}
+
+between [[Spin(6)]] and [[SU(4)]], reflecting, under the [[classification of simple Lie groups]], the coicidence of [[Dynkin diagram]] of "[[D3]]" with [[A3]].
 
 =--
 
