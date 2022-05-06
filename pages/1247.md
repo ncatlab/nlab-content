@@ -31,7 +31,11 @@ In [[Set]], the identity morphisms are the [[identity functions]].
 
 * [[equality]], [[equivalence]]
 
-* [[identity function]], [[identity functor]]
+* [[identity function]]
+
+* [[identity functor]]
+
+* [[identity natural transformation]]
 
 * [[identity type]]
 
