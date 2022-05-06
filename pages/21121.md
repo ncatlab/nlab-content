@@ -52,5 +52,9 @@ Review and exposition:
 
 * [[Roman Orus]], Chapter II of: _Tensor networks for complex quantum systems_, Nature Reviews Physics 1, 538-550 (2019) ([arXiv:1812.04011](https://arxiv.org/abs/1812.04011), [doi:10.1038/s42254-019-0086-7](https://doi.org/10.1038/s42254-019-0086-7))
 
+See also: 
+
+* Wikipedia, _[Matrix product state](https://en.wikipedia.org/wiki/Matrix_product_state)_
+
 
 [[!redirects matrix product states]]
