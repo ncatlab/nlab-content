@@ -27,7 +27,9 @@ Thus one speaks of _string inspired models_, for instance of _string inspired co
 
 Vaguely synonymous to _string inspired model building_ is _[[bottom-up model building]]_ in string theory, which alludes to the same idea of first loosely arranging ingredients for a given purpose of model building, and only later (if ever) climbing up and checking if and how this arrangement is consistent as a [[string theory vacuum]]. 
 
-The abundance of string-inspired models over accurate [[top-down model building]] reflects the strong constraints imposed by [[string theory]] on its [[string theory vacuum|string vacua]], which makes it much harder to construct exact examples even of [[perturbative string theory vacua]] than it is to construct [[vacua]] in [[quantum field theory]]. An ironic sociological side effect is that the relaxed attitude towards string model building in much of the informal literature leads the lay audience to the perception that it is the theory which is unconstrained instead of its model builders being unrestrained.
+The abundance of string-inspired [[bottom-up models]] over accurate [[top-down model building]] reflects the strong constraints imposed by [[string theory]] on its [[string theory vacuum|string vacua]], which makes it much harder to construct exact examples even of [[perturbative string theory vacua]] than it is to construct [[vacua]] in [[quantum field theory]].
+
+An ironic sociological side effect is that the relaxed attitude towards string model building in much of the informal literature leads the lay audience to the perception that it is the theory which is unconstrained instead of its model builders being unrestrained. See also at _[[no-go theorem]]_.
 
  
 ## Examples
