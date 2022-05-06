@@ -1,8 +1,9 @@
-<svg width="340" height="84" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="57183">
+<div style="text-align:center"><div>
+<svg xmlns:se="http://svg-edit.googlecode.com" width="340" height="84" se:nonce="57183" xmlns="http://www.w3.org/2000/svg">
  <g>
   <title>Layer 1</title>
-  <foreignObject x="5" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="5" y="33" id="svg_57183_1" font-size="16" width="1em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>A</mi>
@@ -11,22 +12,20 @@
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="45" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="45" y="33" id="svg_57183_1" font-size="16" width="2em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
-      <mo>&#8659;</mo>
-      <mpadded width="0">
-       <mi>&#945;</mi>
-      </mpadded>
+      <mo>⇓</mo>
+      <mi>α</mi>
      </mrow>
      <annotation encoding="application/x-tex">\Downarrow\mathrlap{\alpha}</annotation>
     </semantics>
    </math>
   </foreignObject>
 
-  <foreignObject x="92" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="92" y="33" id="svg_57183_1" font-size="16" width="1em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>B</mi>
@@ -36,22 +35,20 @@
    </math>
   </foreignObject>
 
-  <foreignObject x="130" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="130" y="33" id="svg_57183_1" font-size="16" width="2em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
-      <mo>&#8659;</mo>
-      <mpadded width="0">
-       <mi>&#946;</mi>
-      </mpadded>
+      <mo>⇓</mo>
+      <mi>β</mi>
      </mrow>
      <annotation encoding="application/x-tex">\Downarrow\mathrlap{\beta}</annotation>
     </semantics>
    </math>
   </foreignObject>
 
-  <foreignObject x="180" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="180" y="33" id="svg_57183_1" font-size="16" width="1em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>C</mi>
@@ -62,19 +59,19 @@
   </foreignObject>
 
 
-  <foreignObject x="200" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="200" y="33" id="svg_57183_1" font-size="16" width="1em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
-      <mo>&#8614;</mo>
+      <mo>↦</mo>
      </mrow>
      <annotation encoding="application/x-tex">\mapsto</annotation>
     </semantics>
    </math>
   </foreignObject>
 
-  <foreignObject x="225" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="225" y="33" id="svg_57183_1" font-size="16" width="1em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>A</mi>
@@ -84,26 +81,24 @@
    </math>
   </foreignObject>
 
-  <foreignObject x="265" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="265" y="33" id="svg_57183_1" font-size="16" width="4em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
-      <mo>&#8659;</mo>
-      <mpadded width="0">
-       <mrow>
-        <mi>&#945;</mi>
-        <mo>*</mo>
-        <mi>&#946;</mi>
-       </mrow>
-      </mpadded>
+      <mo>⇓</mo>
+      <mrow>
+       <mi>α</mi>
+       <mo>*</mo>
+       <mi>β</mi>
+      </mrow>
      </mrow>
      <annotation encoding="application/x-tex">\Downarrow\mathrlap{\alpha\ast\beta}</annotation>
     </semantics>
    </math>
   </foreignObject>
 
-  <foreignObject x="327" y="33" id="svg_57183_1" font-size="16" width="536.999973" height="22">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="327" y="33" id="svg_57183_1" font-size="16" width="1em" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>C</mi>
