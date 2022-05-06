@@ -432,6 +432,11 @@ based on formulas from
 
 For the moment see the references at _[[string^c structure]]_ for more on this.
 
+See also:
+
+* [[Fei Han]], [[Varghese Mathai]], _Projective elliptic genera and elliptic pseudodifferential genera_, Adv. Math. 358 (2019) 106860  ([arXiv:1903.07035](https://arxiv.org/abs/1903.07035))
+
+
 A geometric interpretation of this in terms of [[parameterized WZW models]] is suggested in
 
 * {#DistlerSharpe07} [[Jacques Distler]], [[Eric Sharpe]], section 8.5 _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
