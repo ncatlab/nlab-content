@@ -1,9 +1,4 @@
 
-#Contents#
-* table of contents
-{:toc}
-
-$\,$
 
 ## Basic notions of higher topos theory
 
@@ -12,9 +7,6 @@ We have discussed basic notions of [[topos theory]] [above](#BasicNotionsOfTopos
 We had explained how [[toposes]] may be thought of as [[categories]] of [[generalized spaces]] and how [[homotopy theory]] is about relaxing the concept of [[equality]] to that of [[gauge transformation]]/[[homotopy]] and [[higher gauge transformation]]/[[higher homotopy]]. Accordingly, [[(infinity,1)-topos|higher toposes]] may be thought of as [[(infinity,1)-category|higher categories]] of [[generalized spaces]] whose probe are defined only up to [[gauge transformation]]/[[homotopy]]. Examples of such include [[orbifolds]] and [[Lie groupoids]].
 
 (...)
-
-$\,$
-
 
 
 ### Locally presentable $\infty$-Categories
@@ -817,10 +809,6 @@ $$
 
 =--
 
-
-
-
-$\,$
 
 ### $\infty$-Modalities
 
