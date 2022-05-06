@@ -30,6 +30,10 @@ The [[near horizon geometry]] of extremal black holes in $d$ dimensional spaceti
 
 * [[black holes in string theory]], [[black brane]]
 
+* [[BPS state]]
+
+* [[Bridgeland stability condition]]
+
 ## References
 
 * {#KLR07} Hari K. Kunduri, James Lucietti, Harvey S. Reall, _Near-horizon symmetries of extremal black holes_, Class.Quant.Grav.24:4169-4190,2007 ([arXiv:0705.4214](https://arxiv.org/abs/0705.4214))
@@ -47,3 +51,5 @@ The [[near horizon geometry]] of extremal black holes in $d$ dimensional spaceti
 See also 
 
 * Wikipedia, _[Extremal black hole](https://en.wikipedia.org/wiki/Extremal_black_hole)_
+
+[[!redirects extremal black holes]]
