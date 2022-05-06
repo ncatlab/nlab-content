@@ -37,7 +37,7 @@ The preface is
 
   (see also at _[[co-Heyting algebra]]_)
 
-* [[Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_,  306--325 ($n$lab remark: important clarification of the subject from logics point of view).
+* [[Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_, 306--325 ($n$lab remark: important clarification of the subject from logics point of view).
 
 * A. J. Power, _An $n$-categorical pasting theorem_,  326--58
 
@@ -47,7 +47,7 @@ The preface is
 
   (on [[modal logic]] in [[topos theory]]).
 
-* S. H. Schanuel, _Negative sets have Euler characteristic and dimension_, 379--385
+* [[Stephen Schanuel|S. H. Schanuel]], _Negative sets have Euler characteristic and dimension_, 379--385
 
 * M. Thi&#233;baud, _Modular categories_,  386--400
 
@@ -59,7 +59,7 @@ The preface is
 
 ...
 
-About the geographic place see wikipedia: [Como](http://en.wikipedia.org/wiki/Como) and the conference centre : [Villa Olmo](http://en.wikipedia.org/wiki/Villa_Olmo).
+About the geographic place see wikipedia: [Como](http://en.wikipedia.org/wiki/Como) and the conference centre: [Villa Olmo](http://en.wikipedia.org/wiki/Villa_Olmo).
 
 In 2018, a [school and conference](http://tcsc.lakecomoschool.org/) on topos theory was hosted in Como ([video playlist](https://www.youtube.com/playlist?list=PLh_3Q6ZRqWs0LBptMGClJ8OArR0fBT6Pp)).
 
