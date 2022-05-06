@@ -441,7 +441,35 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 The concept originates in 
 
-* {#Quillen67} [[Daniel Quillen]], chapter I _Axiomatic homotopy theory_ in  _[[Homotopical Algebra]]_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+* {#Quillen67} [[Daniel Quillen]], chapter I _Axiomatic homotopy theory_ in  _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Berlin (1967)
+
+#### Monographs and textbooks
+
+* [[Mark Hovey]], _[[Model Categories]]_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Jeffrey H. Smith]], _[[Homotopy Limits Functors on Model Categories and Homotopical Categories]]_, [AMS](https://bookstore.ams.org/surv-113-s/), Mathematical Surveys and Monographs 113 (2004).
+
+* [[J. Peter May]], [[Kate Ponto]], _[[More Concise Algebraic Topology]]_, The University of Chicago Press, 2012.  Part 4.
+
+* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014.
+
+#### Book chapters
+
+* {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], Chapters 1 and 2 of _[[Simplicial homotopy theory]]_, Birkhäuser, 1999, 2009.
+
+For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-[[(infinity,1)-category|categories]] see 
+
+* [[Jacob Lurie]], Appendix A.2 and A.3 of _[[Higher Topos Theory]]_
+
+#### Survey articles
+
+* {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
+
+* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
+
+#### Other sources
 
 An account is in
 
@@ -463,37 +491,12 @@ There is an unpublished manuscript of [[Chris Reedy]] from around 1974 that's be
 
 * [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
 
-More recent review includes
-
-* {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
-
-* {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], chapter  1 of _[[Simplicial homotopy theory]]_, Birkh&#228;user,  1999, 2009
- 
-* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
-
-
-Monographs: 
-
-* {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
-
-
-
-* [[Mark Hovey]], _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 See 
 
 * [[Philip Hirschhorn]], personal website: _[Mathematics](http://www-math.mit.edu/~psh/#Mathematics)_
 
 for errata and more. 
-
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
-  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
-and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
-
-
-For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-[[(infinity,1)-category|categories]] see 
-
-* [[Jacob Lurie]], appendix A.2 of _[[Higher Topos Theory]]_
 
 
 [[!redirects model categories]]
