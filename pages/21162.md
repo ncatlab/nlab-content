@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[quantum chromodynamics]] a _quarkonium_ particle is a [[meson]] which is a [[bound state]] of one of the [[heavy flavor|heavy]] [[quarks]] with its own [[antiparticle]].
+In [[quantum hadrodynamics]] a _quarkonium_ particle is a [[meson]] which is a [[bound state]] of one of the [[heavy flavor|heavy]] [[quarks]] with its own [[antiparticle]].
 
 
 
@@ -24,7 +24,9 @@ In [[quantum chromodynamics]] a _quarkonium_ particle is a [[meson]] which is a 
 
 Examples of quarkonia:
 
-* [[charmonium]]
+* [[charmonium]] ([[charm quark|charm]] [[quarkonium]], [[D-meson]])
+
+* [[upsilon-meson]] ([[bottom quark|bottom]] [[quarkonium]], [[B-meson]])
 
 ## References
 
@@ -54,3 +56,5 @@ The [[Dalitz decay]] of quarkonium:
 Discussion in [[AdS/QCD]]:
 
 * Rico Zöllner, Burkhard Kampfer, _Holographic vector meson melting in a thermal gravity-dilaton background related to QCD_ ([arXiv:2002.07200](https://arxiv.org/abs/2002.07200))
+
+[[!redirects quarkonia]]
