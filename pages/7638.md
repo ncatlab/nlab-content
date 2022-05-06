@@ -24,7 +24,7 @@ The [[categorical semantics]] of an $M$-type is a [[terminal coalgebra of an end
 
 * Benedikt Ahrens, Paolo Capriotti and Régis Spadotti, _Non-wellfounded trees in Homotopy Type Theory_, [link](https://hott.github.io/M-types/)
 
-* Andrea Vezzosi,_On Induction, Coinduction and Equality in Martin-Löf and Homotopy Type Theory_ [thesis](https://research.chalmers.se/en/publication/?id=504152)
+* Andrea Vezzosi, _On Induction, Coinduction and Equality in Martin-Löf and Homotopy Type Theory_ [thesis](https://research.chalmers.se/en/publication/?id=504152)
 
 * R.E. Møgelberg, N. Veltri, _Bisimulation as path type for guarded recursive types_ POPL 2019. [arXiv](https://arxiv.org/abs/1810.13261)
 
