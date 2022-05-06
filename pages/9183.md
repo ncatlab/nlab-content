@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -81,7 +82,12 @@ and also reproduces well the baryonic [[Tully-Fisher relation]] ([El-Badry et al
 
 More in detail, [[galaxy rotation curves]] exhibit a close correlation between [[angular velocity]] and total _visible_ enclosed math at any given [[radius]], called the _[[mass-discrepancy acceleration relation]]_. This, too, is reproduced in [[cold dark matter]]-[[model (in theoretical physics)]]  computer simulation ([Santos-Santos et al. 15](#SantosSantosEtAl15), [Cintio-Lelli 15](#CintioLelli15), [Keller-Wadsley 16](#KellerWadsley16), [Ludlow et al 16](#LudlowEtAl16)). But see the critique in [Lelli et al 16, section 8.2](#LelliEtAl16).
 
+### Missing satellites?
+ {#MissingSatellites}
 
+On the apparent resolution of the [missing satellite problem](https://en.wikipedia.org/wiki/Dwarf_galaxy_problem): 
+
+[Garrison-Kimmel et al. 17 ](#GarrisonKimmel17), see [Garrison-Kimmel 18](#GarrisonKimmel18)
 
 
 <br/>
@@ -169,6 +175,10 @@ Discussion of computer simulation of [[dark matter]] [[structure formation]] on 
 
 * {#ElBadry18} El-Badry et al. _Gas Kinematics in FIRE Simulated Galaxies Compared to Spatially Unresolved HI Observations_, Monthly Notices of the Royal Astronomical Society, Volume 477, Issue 2, 21 June 2018, Pages 1536–1548 ([arXiv:1801.03933](https://arxiv.org/abs/1801.03933), [doi:10.1093/mnras/sty730](https://doi.org/10.1093/mnras/sty730))
 
+* {#GarrisonKimmel17} Shea Garrison-Kimmel et al. _Not so lumpy after all: modeling the depletion of dark matter subhalos by Milky Way-like galaxies_ ([arXiv:1701.03792](https://arxiv.org/abs/1701.03792))
+
+* {#GarrisonKimmel18} Shea Garrison-Kimmel, _Next-generation Galaxy Formation Simulations with FIRE_, 2018 ([video recording](https://youtu.be/sSkrm66uDvw))
+
 
 On the [[mass-discrepancy acceleration relation]]:
 
@@ -238,5 +248,12 @@ Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
 
 [[!redirects cuspy halo problem]]
 [[!redirects cuspy halo problems]]
+
+[[!redirects missing satellite problem]]
+[[!redirects missing satellite problems]]
+
+[[!redirects dwarf galaxy problem]]
+[[!redirects dwarf galaxy problems]]
+
 
 
