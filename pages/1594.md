@@ -205,6 +205,10 @@ Textbook account:
 
 * [[Michael Kapovich]], Chapter 6 of: _Hyperbolic Manifolds and Discrete Groups_,  Modern Birkhäuser Classics, Birkhäuser 2008 ([doi:10.1007/978-0-8176-4913-5](https://link.springer.com/book/10.1007/978-0-8176-4913-5))
 
+Application to [[moduli spaces of curves]] and [[moduli spaces of Riemann surfaces]]:
+
+* Lizhen Ji, [[Shing-Tung Yau]], _Transformation Groups and Moduli Spaces of Curves_, International Press of Boston 2011 ([ISBN:9781571462237](https://www.intlpress.com/site/pub/pages/books/items/00000353/index.php))
+
 On [[Riemannian orbifolds]]:
 
 * Christian Lange, _Orbifolds from a metric viewpoint_ ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472))
