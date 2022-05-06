@@ -30,10 +30,10 @@ $$
   & (M \otimes M) \otimes M
     & \stackrel{\alpha}{\longrightarrow}
   & M \otimes (M \otimes M)
-    & \stackrel{\mu}{\longrightarrow}
+    & \stackrel{1 \otimes \mu}{\longrightarrow}
   & M \otimes M
   \\
-  & {}_{\mu}\searrow
+  & {}_{\mu \otimes 1}\searrow
     &&
     && \swarrow_{\mu}
   &
