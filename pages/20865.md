@@ -332,6 +332,9 @@ we get this situation:
 
 <img src="https://ncatlab.org/nlab/files/VassilievInvInCohOfLoopSpacesOfConfigSpaces.jpg" width="600">
 
+### As cohomology of the knot graph complex
+
+[[cohomology of knot graph complex is weight systems on chord diagrams]]
 
 
 ## Related concepts
