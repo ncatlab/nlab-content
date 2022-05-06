@@ -153,7 +153,7 @@ According to [E. Burroni (2009)](#Burroni09) the 'Giry' monad appears also in
 
 The factorization of the Giry monad, defined on the category of measurable spaces, through the category of super convex spaces, is described in
 
-* {#Sturtz19} [[Kirk Sturtz]],_The equivalence of the categories of Giry-algebras and super convex spaces_, [arXiv:1907.03209](http://arxiv.org/abs/1907.03209)
+* {#Sturtz19} [[Kirk Sturtz]], _The equivalence of the categories of Giry-algebras and super convex spaces_, [arXiv:1907.03209](http://arxiv.org/abs/1907.03209)
 
 which generalize the preliminary work 
 
