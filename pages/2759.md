@@ -27,6 +27,8 @@ There is a [[duality]] between [[syntax]] and [[semantics]].
 
 * [[Gabriel-Ulmer duality]]
 
+* [[Makkai duality]]
+
 * [[relation between category theory and type theory]]
 
 * [[computational trinitarianism]]
