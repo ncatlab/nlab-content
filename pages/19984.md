@@ -34,7 +34,7 @@ It can be considered a successor to the existing proof assistant [[Globular]], w
 
 Homotopy construction in _homotopy.io_ is enabled by two basic mechanisms: _contraction_, which makes the geometry locally more singular; and _expansion_, which makes the geometry locally more generic. These local moves 'drag' neighbouring parts of the composite, and allow the construction of nontrivial [[homotopies]]. It is an open question whether these contraction and expansion moves are capable of generating all possible homotopies in every dimension.
 
-The image at the top-right shows a 3d surface diagram of one side of the [[pentagon equation]] ([_live workspace_](http://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/side-of-pentagon.html)).
+The image at the top-right shows a 3d surface diagram of one side of the [[pentagon equation]] ([_live workspace_](https://homotopy.io/?id=kzmugNEGMPBF8BbB5FAm)).
 
 ### Contributors ###
 
