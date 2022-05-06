@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea 
 
-The [[real number]] conventionally denoted $e$ (a notation credited to [[Euler]], hence also called the _[[Euler number]]_) is the base of the natural [[logarithm]]; it is approximately 2.71828182845 in decimal notation. 
+The [[irrational number]] conventionally denoted $e$ (a notation credited to [[Euler]], hence also called the _[[Euler number]]_) is the base of the natural [[logarithm]]; it is approximately 2.71828182845 in decimal notation. 
 
 
 ## Definition 
@@ -33,6 +44,9 @@ Equivalently, imagine four ants situated at the corners of a square, and imagine
 
 * [[exponential map]]
 
+* [[pi]]
+
+* [[golden ratio]]
 
 ## References 
 
