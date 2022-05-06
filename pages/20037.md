@@ -30,7 +30,7 @@ A theorem by Bichdeller-Dellecherie says, in short, that one can define this [[I
 
 Given a sequence of partitions, $\mathcal{P}_n=\{0=t_0\lt...\lt t_{n-1}\lt t\}$, if one can define $X^1_{su}\colon = \int_s^u dX_{r_1}$, $X^2_{su}\colon =\int_s^u\int_s^{r_2} dX_{r_1}\otimes dX_{r_2}$,..., $X^\ell_{su}\colon =\int_s^u \int_s^{r_\ell}...\int_s^{r_2} dX_{r_1}\otimes...\otimes dX_{r_\ell}$ where $\ell=\lfloor p \rfloor$ for $s,u\in[0,t]$ then the following "corrected Riemann sum" converges almost surely as is called the rough integral:
 
-$$\lim_{n\to\infty}\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+\frac{1}{(\ell-1)!}D^{\ell-1}f(X_{t_k})X^{\ell}_{t_k t_{k+1}}\colon = \int_0^t f(X_S)\otimes d\mathbf{X}_s$$
+$$\lim_{n\to\infty}\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+D^{\ell-1}f(X_{t_k})X^{\ell}_{t_k t_{k+1}}\colon = \int_0^t f(X_S)\otimes d\mathbf{X}_s$$
 
 The collection $\mathbf{X}=(X^1,...,X^\ell)$ is called a rough path of order $\ell$. We say that $(f(X),Df(X),...,\frac{1}{(\ell-1)!}D^{\ell-1}f(X))$ is controlled by $\mathbf{X}$.
 
