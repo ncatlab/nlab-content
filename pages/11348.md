@@ -34,7 +34,7 @@ For classical [[Riemannian manifolds]] KO-dimension coincides with the tradition
 
 The [[Podlés spheres]] have KO-dimension 2, but classical dimension 0.
 
-The spectral [[Kaluza-Klein compactification]] considered in the [[Connes-Lott-Chamseddine model]] ([Connes 06](#Connes06)) is taken to be along [[fibers]] with KO-dimension 6 and classical dimension 0.
+The spectral [[Kaluza-Klein compactification]] considered in the [[Connes-Lott-Chamseddine model]] ([Connes 06](#Connes06)) is taken to be along [[fibers]] with KO-dimension 6 and classical dimension 0 (just as [[perturbative string theory vacuum|perturbative superstring vacua]])
 
 
 ## Related concepts
