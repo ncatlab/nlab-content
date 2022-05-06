@@ -41,19 +41,16 @@ See at _[electromagnetic field -- charge quantization](electromagnetic+field#Dir
 
 ## Reference
 
-The name of the concept is due to
+The concept is named after
 
-* {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
+* {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72 ([doi:10.1098/rspa.1931.0130](http://rspa.royalsocietypublishing.org/content/133/821/60.short))
 
 Review is for instance in
 
-* [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_
 
 * L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
 
-
-A broader perspective is in
-
-* [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+* [[Daniel Freed]], section 2 of _[[Dirac charge quantization and generalized differential cohomology]]_
 
 [[!redirects Dirac's charge quantization]]
