@@ -92,7 +92,7 @@ Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-categ
 
 An explicit statement of this can be found for instance as prop. 4.2.4 in
 
-* Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.html))
+* Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.brics.dk/DS/99/1/BRICS-DS-99-1.pdf))
 
 From this perspective, the representable profunctor induced by an ordinary $V$-functor $f : C \to D$ is 
 the [[adjunct]] of the postcomposition 
