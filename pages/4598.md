@@ -104,7 +104,7 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 * [[p1-structure]], [[string structure]], [[fivebrane structure]]
 
-* [[Wu class]]
+* [[Stiefel-Whitney class]], [[Wu class]], [[one-loop anomaly polynomial I8]]
 
 * [[Chern class]]
 
