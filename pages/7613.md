@@ -227,7 +227,8 @@ The argument that the regularized [[M2-brane]] [[worldvolume]] theory is the [[B
 
 Recollections include the last paragraph of 
 
-* {#Witten14} [[Edward Witten]], [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf))
+* {#Witten14} [[Edward Witten]], _Adventures in Physics and Math_, [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf), [[WittenKyotoPrizeLecture.pdf:file]])
+
 
 
 The term became fully established with surveys including
