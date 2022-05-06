@@ -14,7 +14,6 @@
 =--
 =--
 
-
 This page is to collect some links related to the text
 
 * [[Charles Rezk]],
