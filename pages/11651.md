@@ -76,3 +76,14 @@ In [[complex analytic geometry]]:
 
 * {#Huybrechts04} [[Daniel Huybrechts]] section 2.3 of _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
 
+
+Relation of [[divisors]] to [[complex cobordism cohomology]]:
+
+* [[Burt Totaro]], _Torsion algebraic cycles and complex cobordism_, J. Amer. Math. Soc. 10 (1997), 467-493 ([doi:10.1090/S0894-0347-97-00232-4](https://doi.org/10.1090/S0894-0347-97-00232-4))
+
+* [MO discussion](https://mathoverflow.net/a/272131/381)
+
+
+
+
+
