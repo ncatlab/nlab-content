@@ -35,6 +35,8 @@ A project for formalization of parts of [[mathematics]] ([[formal proof]]) in fo
 
 * [[The QED Project]]
 
+* [[Archive of Formal Proofs]]
+
 
 ## Related entries
 
