@@ -31,6 +31,7 @@ and implementation in [[Lean]] is in
 
 * [github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral) ([[spectral sequences]])
 
+* [github.com/leanprover-community/lean-perfectoid-spaces](https://github.com/leanprover-community/lean-perfectoid-spaces) ([[perfectoid spaces]])
 
 ## References
 
