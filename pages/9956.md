@@ -5,6 +5,10 @@ David Berman is professor in theoretical [[physics]] at Queen Mary University of
 
 ## Selected writings
 
+A complete review of [[exceptional field theory]]:
+
+* [[David Berman]], Chris D. A. Blair, _The Geometry, Branes and Applications of Exceptional Field Theory_, ([arXiv:2006.09777](http://arxiv.org/abs/2006.09777))
+
 About the formulation of [[strings]] and [[black branes]] of [[supergravity]] (crucially including the [[exotic branes]]) respectively as [[pp-waves]] and [[monopoles]] in [[double field theory]]/[[exceptional field theory]]:
 
 * [[David Berman]], Felix J. Rudolph, _Branes are Waves and Monopoles_ ([arXiv:1409.6314](https://arxiv.org/abs/1409.6314))
