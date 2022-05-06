@@ -1,4 +1,89 @@
 
+$$
+  \widehat V_{1}
+  \;\coloneqq\;
+  V
+$$
+
+For $n \leq 0 \in \mathbb{Z}$ define, [[recursion|recursively]], the component space in degree $n-1$ to be the vector space of [[linear maps]] from $V$ to the component space in degree $n$:
+
+$$
+  \widehat V_{n-1}
+  \;\coloneqq\;
+  Hom_k( V, \widehat V_n )
+  \,.
+$$
+
+Hence
+
+$$
+  \begin{aligned}
+    \widehat V_1 & = V
+    \\
+    \widehat V_0 & = Hom_k(V,V) = GL(V)
+    \\
+    \widehat V_{-1} & =  Hom_k(V, Hom_k(V,V)) \simeq  Hom_k(V \otimes V, V)
+    \\
+    \widehat V_{-2} & = Hom_k(V, Hom_k(V, Hom_k(V,V))) \simeq  Hom_k(V \otimes V \otimes V, V)
+    \\
+    \vdots
+  \end{aligned}
+$$
+
+The [[super Lie bracket]] is defined for $v \in \widehat V_1 = V$ and for any $f \in \widehat V_{n \leq 0}$ by [[evaluation]]
+
+$$
+  [f, v]
+  \;\coloneqq\;
+  f(v)
+$$
+
+and for homogeneously graded elements $f\in \widehat V_{ deg(f) \leq 0 }$ and $g\in \widehat V_{deg(g) \leq 0}$, [[recursion|recursively]] by
+
+$$
+  [f, g]
+  \;\colon\;
+  v 
+  \;\mapsto\;
+  [f, g(v)]
+  -
+  (-1)^{
+    deg(f) deg(g)
+  }
+  [ g, f(v) ]
+$$
+
+\linebreak
+
+$$
+  \begin{aligned}
+    \big[ f_1, [f_2, f_3] \big](v)
+    & =
+    \big[
+      f_1, 
+      [f_2, f_3(v)]
+      -
+      (-1)^{deg(f_2) deg(f_3)}
+      [f_3, f_2(v)]
+   \big]
+   -
+   (-1)^{ deg(f_1)( deg(f_2) + deg(f_3) ) }
+   \big[
+     [f_2, f_3],
+     f_3(v)
+   \big]
+  \end{aligned}
+$$
+
+
+\linebreak
+
+
+
+
+\linebreak
+
+
 
 $$
   v \cdot w
