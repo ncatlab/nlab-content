@@ -28,6 +28,8 @@ on [[perturbative quantum field theory]] in its mathematically precise formulati
 
 * [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
+* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory|Perturbative quantum field theory]]_, 2017
+
 * [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 category: reference
