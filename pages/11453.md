@@ -234,7 +234,7 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 The term "orientifold" originates around 
 
-* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](inspirehep.net/record/25758))
+* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758))
 
 Other early accounts include
 
