@@ -28,7 +28,7 @@ Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] o
 
 Computation of the perturbative [[Wilson loop observable]] ([[universal Vassiliev invariant]] of the [[unknot]] ("[[Wheels theorem]]"):
 
-* [[Dror Bar-Natan]], Thang T Q Le, [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
+* [[Dror Bar-Natan]], [[Le Tu Quoc Thang]], [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
 
 following
 
