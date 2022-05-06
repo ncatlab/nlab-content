@@ -59,6 +59,10 @@ A [[lower semicontinuous map]] from a [[paracompact topological space]] $X$ to a
 
 =--
 
+## Related entries
+
+* [[selection theorem]]
+
 
 ## References
 
@@ -68,7 +72,7 @@ The original articles are the following:
 
 * {#Michael57} [[Ernest Michael]], _Another note on paracompactness_, 1957, ([pdf](krein.unica.it/~cornelis/private/PDF/AMS/PAMS_8_822.pdf), [pdf](http://www.ams.org/journals/proc/1957-008-04/S0002-9939-1957-0087079-9/S0002-9939-1957-0087079-9.pdf))
 
-* [[Ernest Michael]], _Continuous selections. I_, Annals of Math. __63__ (2): 361&#8211;382, [doi](http://dx.doi.org/10.2307/1969615), MR0077107
+* [[Ernest Michael]], _Continuous selections. I_, Annals of Math. __63__ (2): 361&#8211;382 ([doi:10.2307/1969615](http://dx.doi.org/10.2307/1969615), MR0077107)
 
 
 * [[Ernest Michael]], _A quintuple quotient test_, Gen. Topol. Appl. __2__ (1972) 91&#8211;138, [link](www.sciencedirect.com/science/article/pii/0016660X729004021972)
