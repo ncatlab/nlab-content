@@ -39,7 +39,7 @@ More specifically, it was shown in ([Duff-Sutton 88](#DuffSutton88), [Duff 98](#
 
 For the archetypical case of AdS/CFT relating [[N=4 D=4 super Yang-Mills theory]] to [[type IIB string theory]] on [[super anti de Sitter spacetime]] $AdS_5 \times S^5$, fine detailed checks of the correspondence have been performed ([Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)), see the section _[Checks](#Checks)_ below. 
 
-If one relaxes the various assumptions that go into this exact form of the correspondence ([[conformal invariance]], [[supersymmetry]], [[large N limit]], [[anti de Sitter spacetime|anti de Sitter geometry]]) there is still a correspondence, albeit less exact. Such approximate forms of the AdS/CFT correspondence are being argued to be of use for understanding of the [[quark-gluon plasma]] in [[quantum chromodynamics]] ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) and for various models in [[solid state physics]] (see [Hartnoll-Lucas-Sachdev 16](#HartnollLucasSachdev16)_[[AdS-CFT in condensed matter physics]]_).
+If one relaxes the various assumptions that go into this exact form of the correspondence ([[conformal invariance]], [[supersymmetry]], [[large N limit]], [[anti de Sitter spacetime|anti de Sitter geometry]]) there is still a correspondence, albeit less exact. Such approximate forms of the AdS/CFT correspondence are being argued to be of use for understanding of the [[quark-gluon plasma]] in [[quantum chromodynamics]] ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) and for various models in [[solid state physics]] (see [Hartnoll-Lucas-Sachdev 16](#HartnollLucasSachdev16) and see at _[[AdS-CFT in condensed matter physics]]_).
 
 
 
