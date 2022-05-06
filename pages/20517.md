@@ -657,7 +657,7 @@ The covariant version via a [[scalar field|scalar]] [[auxiliary field]] is due t
 
 Speculations about non-abelian generalizations (for several coincident M5-branes):
 
-* Chong-Sun Chu, _A proposal for the worldvolume action of multiple M5-branes_, 2013 ([pdf](http://hep.phy.ntnu.edu.tw/old_version/talks/2013/2013-05-09Chong-SunChu.pdf))
+* [[Chong-Sun Chu]], _A proposal for the worldvolume action of multiple M5-branes_, 2013 ([pdf](http://hep.phy.ntnu.edu.tw/old_version/talks/2013/2013-05-09Chong-SunChu.pdf))
 
 The above text follows 
 
