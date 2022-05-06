@@ -21,7 +21,7 @@
 
 ### Double line notation
 
-What is called _'t Hooft double line notation_ (following ['t Hooft 74](#tHooft74)) is the observation that for the [[fundamental representations]] $V$ of [[semisimple Lie algebras]] $\mathfrak{g}$. the [[Lie algebra weight system|Lie algebra weight]] of a $\mathfrak{g}$-[[Yang-Mills theory]] [[Feynman diagram]] with internal/[[virtual particle|virtual]] [[gluon]] lines is equivalent to one without any [[virtual particle|virtual]] [[gluon]]-lines, obtained by:
+What is called _’t Hooft double line notation_ (following [’t Hooft 74](#tHooft74)) is the observation that for the [[fundamental representations]] $V$ of [[semisimple Lie algebras]] $\mathfrak{g}$. the [[Lie algebra weight system|Lie algebra weight]] of a $\mathfrak{g}$-[[Yang-Mills theory]] [[Feynman diagram]] with internal/[[virtual particle|virtual]] [[gluon]] lines is equivalent to one without any [[virtual particle|virtual]] [[gluon]]-lines, obtained by:
 
 {#JacobiIdentity} 1) using the [[Jacobi identity]] to replace all internal gluon vertices by ([[linear combinations]] of) quark-gluon vertices
 
@@ -37,9 +37,18 @@ by (a [[linear combination]] of) _double_ [[quark]]-lines , according to the fol
 <img src="https://ncatlab.org/nlab/files/MetricActionContraction.jpg" width="600">
 </center>
 
-Here we are using the [[string diagram]]/[[Penrose notation]] from _[[metric Lie representations]]_; graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]].
+{#Example} For example, for $\mathfrak{g} = \mathfrak{so}(N)$ a [[special orthogonal Lie algebra]], the ’t Hooft double line notation of a single trivalent vertex inside a single Wilson loop is the following:
 
-{#Attribution} **Attribution.** In ['t Hooft 74](#tHooft74) this is observed for the [[unitary Lie algebra]] $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions [above](#MetricContractionOfFundamentalLieAction) appears. The generalization to arbitrary [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed for [[special unitary Lie algebra|su(N)]], [[special orthogonal Lie algebra|so(N)]] and [[symplectic Lie algebra|sp(N)]] in [Cvitanović 08 (9.57), (10.13) and (12.9)](#Cvitanovic08) and for [[special orthogonal Lie algebra|so(N)]] in [Chmutov-Duzhin-Mostovoy 11, 6.2.6](#ChmutovDuzhinMostovoy11).
+<center>
+<img src="https://ncatlab.org/nlab/files/tHooftDoubleLineTrivalentVertex.jpg" width="640">
+</center>
+
+
+Here we are using the [[string diagram]]/[[Penrose notation]] from _[[metric Lie representations]]_.
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+{#Attribution} **Attribution.** In [’t Hooft 74](#tHooft74) this is observed for the [[unitary Lie algebra]] $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions [above](#MetricContractionOfFundamentalLieAction) appears. The generalization to arbitrary [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed for [[special unitary Lie algebra|su(N)]], [[special orthogonal Lie algebra|so(N)]] and [[symplectic Lie algebra|sp(N)]] in [Cvitanović 08 (9.57), (10.13) and (12.9)](#Cvitanovic08) and for [[special orthogonal Lie algebra|so(N)]] in [Chmutov-Duzhin-Mostovoy 11, 6.2.6](#ChmutovDuzhinMostovoy11).
 For the case $\mathfrak{so}(N)$ see also 
 [Bar-Natan 95, Section 6.3](#BarNatan95) (with an eye towards [[Vassiliev knot invariants]]) and
 [Cicuta 82](#Cicuta82), [Ita-Nieder-Oz 02, Figure 3](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08) (with more discussion of the [[large N limit]]). The case of [[general linear Lie algebra|gl(N)]] is considered in [Bar-Natan 96, Section 2.2](#BarNatan96), [Chmutov-Duzhin-Mostovoy 11, 6.2.5](#ChmutovDuzhinMostovoy11), and the case [[special linear Lie algebra|sl(N)]] in [Chmutov-Duzhin-Mostovoy 11, 6.2.3](#ChmutovDuzhinMostovoy11), [Jackson-Moffat 19, Section 14.4](#JacksonMoffat19).
@@ -60,11 +69,10 @@ Using this on the reduction of internal gluon vertices by the [[Jacobi identity]
 <img src="https://ncatlab.org/nlab/files/tHooftSurfacesForGluonVertex.jpg" width="700">
 </center>
 
-This construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Natan 95, Theorem 10](#BarNatan95)):
-
+After averaging over the $n!$ permutations of the ordering of the $n$ external vertices (those on the Wilson line) of a Jacobi diagram, this construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Natan 95, Theorem 10](#BarNatan95)):
 
 <center>
-<img src="https://ncatlab.org/nlab/files/AtHooftConstrictionII.jpg" width="650">
+<img src="https://ncatlab.org/nlab/files/AtHooftConstrictionIII.jpg" width="650">
 </center>
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
@@ -100,11 +108,11 @@ Later the same double line technique was used (without any reference to the earl
 
 The original article is:
 
-* {#tHooft74} [[Gerard 't Hooft]], _A Planar Diagram Theory for Strong Interactions_, Nucl. Phys. B72 (1974) 461 ([spire:80491](http://inspirehep.net/record/80491), <a href="https://doi.org/10.1016/0550-3213(74)90154-0">doi:10.1016/0550-3213(74)90154-0</a>)
+* {#tHooft74} [[Gerard ’t Hooft]], _A Planar Diagram Theory for Strong Interactions_, Nucl. Phys. B72 (1974) 461 ([spire:80491](http://inspirehep.net/record/80491), <a href="https://doi.org/10.1016/0550-3213(74)90154-0">doi:10.1016/0550-3213(74)90154-0</a>)
 
 reviewed in
 
-* [[Gerard 't Hooft]], _Large $N$_, workshop lecture ([hep-th/0204069](http://arxiv.org/abs/hep-th/0204069))
+* [[Gerard ’t Hooft]], _Large $N$_, workshop lecture ([hep-th/0204069](http://arxiv.org/abs/hep-th/0204069))
 
 * Markus Gross, _Large $N$_, 2006 ([[GrossLargeN.pdf:file]])
 
