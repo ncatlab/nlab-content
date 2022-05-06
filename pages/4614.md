@@ -956,7 +956,7 @@ The definition of _good_ simplicial topological spaces goes back to
 
 An original reference on geometric realization of simplicial topological spaces is is appendix A of
 
-* {#Segal74} [[Graeme Segal]], _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_ Topology, 13:293&#8211;312, 1974 
+* {#Segal74} [[Graeme Segal]], _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">10.1016/0040-9383(74)90022-6</a>)
 
 
 A proof that ordinary and fat geometric realisation give homotopic spaces, for the special case of the nerve of a topological category is in
