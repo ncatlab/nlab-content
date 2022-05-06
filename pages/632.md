@@ -52,7 +52,7 @@ for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base c
 
 =--
 
-(e.g. [Johnstone, lemma 1.3.2](#Jonstone))
+(e.g. [Johnstone, lemma A.1.3.2](#Jonstone))
 
 
 +-- {: .num_example #FullyFaithfulFunctorIsConservative}
