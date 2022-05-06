@@ -32,6 +32,10 @@ This is the [[chiral partner]] of the [[rho-meson]].
     }
 \end{imagefromfile}
 
+## Related concepts
+
+* [[b1-meson]]
+
 
 ## References
 
