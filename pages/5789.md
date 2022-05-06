@@ -141,16 +141,14 @@ The relation of the [[partition function]] of supersymmetric quantum mechanics t
 * [[Ezra Getzler]], _Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem_, Comm. Math. Phys. 92 (1983), 163-178. ([pdf](http://math.northwestern.edu/~getzler/Papers/1103940796.pdf))
  {#Getzler83}
 
-* [[D. Quillen]], _Superconnections and the Chern character_ Topology 24 (1985), no. 1, 89&#8211;95; 
+* [[D. Quillen]], _Superconnections and the Chern character_, Topology 24 (1985), no. 1, 89&#8211;95, ([doi](https://doi.org/10.1016/0040-9383%2885%2990047-3)); 
 
-* [[Varghese Mathai]], [[Daniel Quillen]], _Superconnections, Thom classes, and equivariant differential forms_. Topology 25 (1986),
-no. 1, 85&#8211;110; 
+* [[Varghese Mathai]], [[Daniel Quillen]], _Superconnections, Thom classes, and equivariant differential forms_. Topology 25 (1986), no. 1, 85&#8211;110; 
 
 *  [[Ezra Getzler]], _A short proof of the Atiyah-Singer index theorem_, Topology 25 (1986), 111-117 ([pdf](http://math.northwestern.edu/~getzler/Papers/local.pdf))
  {#Getzler86}
 
 
-* [[D. Quillen]], _Superconnection character forms and the Cayley transform_. Topology 27
-(1988), no. 2, 211&#8211;238
+* [[D. Quillen]], _Superconnection character forms and the Cayley transform_, Topology 27 (1988), no. 2, 211&#8211;238
 
 
