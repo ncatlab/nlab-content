@@ -52,6 +52,9 @@ _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 5
 
 * Ruben Sandapen, _An overview of light-front holography_ ([arXiv:2001.03479](https://arxiv.org/abs/2001.03479))
 
+* [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
+
+
 
 See also
 
