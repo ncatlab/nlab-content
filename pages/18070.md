@@ -1407,7 +1407,7 @@ Generalization of these constructions and results is due to
 * {#ManthorpeTillmann} Richard Manthorpe, [[Ulrike Tillmann]], _Tubular configurations: equivariant scanning and splitting_, Journal of the London Mathematical Society, Volume 90, Issue 3 ([arxiv:1307.5669](https://arxiv.org/abs/1307.5669), [doi:10.1112/jlms/jdu050](https://doi.org/10.1112/jlms/jdu050))
 
 
-and generalization to [[equivariant homotopy theory]] is discussed in
+Generalization to [[equivariant homotopy theory]]:
 
 * {#RourkeSanderson00} [[Colin Rourke]], [[Brian Sanderson]], _Equivariant Configuration Spaces_, J. London Math. Soc. 62 (2000) 544-552 ([arXiv:math/9712216](https://arxiv.org/abs/math/9712216))
 
@@ -1418,6 +1418,11 @@ The relevant construction for the [[group completion]] of the configuration spac
 
 
 * {#Salvatore99} [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
+
+and from the point of view of [[cobordism categories]]:
+
+
+* [[Oscar Randal-Williams]], section 10 of: _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
 
 On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
