@@ -78,6 +78,8 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[associative submanifold]]
 
+* [[2-manifold]], [[4-manifold]], [[8-manifold]]
+
 ## References
 
 The quote of Hatcher is from 
