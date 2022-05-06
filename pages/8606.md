@@ -100,7 +100,7 @@ $0\to A_1\oplus A_2 \to H_1\oplus H_2\to G_1\oplus G_2\to 0$.
 Now if $0\to M\to N\to P\to 0$ is any extension, call it $E$, 
 and $\gamma:P_1\to P$ a morphism, 
 then there is a morphism $\Gamma' = (id_M,\beta_1,\gamma)$ from an
-extension $E_1$ of the form $0\to M\to N_1\to P_1\to 0$ to $E$, where the pair $(E_1,\Gamma_1)$ s unique up to isomorphism of extensions, 
+extension $E_1$ of the form $0\to M\to N_1\to P_1\to 0$ to $E$, where the pair $(E_1,\Gamma_1)$ is unique up to isomorphism of extensions, 
 and it is called $E\gamma$. In fact, the diagram
 $$\array{
 N_1&\to &P_1\\
@@ -109,7 +109,7 @@ N&\to &P
 }$$
 is a pullback diagram. Every morphism of abelian extensions $(\alpha,\beta,\gamma):E\to E'$ in a unique way decomposes as
 $$
-E\stackrel{(\alpha,\beta_a,id)}\longrightarrow \alpha E\gamma \stackrel{(id,\beta_ 1,\gamma)}\longrightarrow E'
+E\stackrel{(\alpha,\beta_a,id)}\longrightarrow E\gamma \stackrel{(id,\beta_ 1,\gamma)}\longrightarrow E'
 $$
 for some $\beta_a$ with $\beta_1$ as above. In short, the morphism of extensions factorizes through $E\gamma$.
 
