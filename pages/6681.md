@@ -23,6 +23,10 @@ On the [[AdS-CFT correspondence]]:
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
+On [[supergravity]], [[D-branes]] and the [[large N limit]] of [[super Yang-Mills theories]]:
+
+* [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]], _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 (1998) ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
+
 
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
 
@@ -31,6 +35,10 @@ On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[b
 On [[Inönü-Wigner contraction]] of [[anti de Sitter spacetimes]] to [[pp-wave spacetimes]], [[single trace operators]] in the [[AdS/CFT correspondence]], and introducing the [[BMN matrix model]]:
 
 * {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], Section 2 of: _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
+
+On [[M5-branes]] in the [[BMN matrix model]]:
+
+* [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
 
 
 General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
