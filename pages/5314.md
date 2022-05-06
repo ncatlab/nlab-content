@@ -1,14 +1,17 @@
+[[!redirects John Conway]]
+> Not to be confused with [[John Bligh Conway]], the [[analysis|analyst]].
+
+***
+
 \tableofcontents
 
 \section{Introduction}
 
 John Horton Conway  (born 26 December 1937, died 11 April 2020) was an English mathematician. He developed new ideas in many branches of mathematics, notable, here, for the [[Conway polynomial]] of a knot, and for study of the [[Conway groups]], $Co_{1}, Co_{2}, Co_{3}$,  three of the [[sporadic finite simple groups]].
 
-Not to be confused with [[John B. Conway]], the [[analysis|analyst]].
-
 \section{Reminiscences}
 
-By Gavin Wraith, at the nForum [in this post](https://nforum.ncatlab.org/discussion/11136/john-conway/?Focus=83846#Comment_83846).
+By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/discussion/11136/john-conway/?Focus=83846#Comment_83846).
 
 > I first met John Conway while he was manning a stall for the Archimedeans at the beginning-of-the-year student fair in the Guildhall in Cambridge. He was demonstrating a computer, built of string and meccano, that had to be fed ball-bearings. I think it was 1957. 
 >
@@ -25,3 +28,5 @@ By Gavin Wraith, at the nForum [in this post](https://nforum.ncatlab.org/discuss
 category: people
 
 [[!redirects John H. Conway]]
+[[!redirects John Conway]]
+[[!redirects Conway]]
