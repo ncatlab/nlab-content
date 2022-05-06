@@ -513,8 +513,7 @@ The generalization to field theory for the [[superstring]], where [[picture numb
 
 A survey is in
 
-* {#Okawa16} Yuji Okawa, _Recent developments in the construction of 
-superstring field theory I_, 2016 ([pdf](http://www-het.ph.tsukuba.ac.jp/~ishibash/SFT16/okawa.pdf))
+* {#Okawa16} Yuji Okawa, _Recent developments in the construction of superstring field theory I_, 2016 ([pdf](http://www-het.ph.tsukuba.ac.jp/~ishibash/SFT16/okawa.pdf))
 
 based on
 
@@ -535,6 +534,9 @@ with further developments in
 * Roji Pius, [[Ashoke Sen]], _Cutkosky Rules for Superstring Field Theory_ ([arXiv:1604.01783](http://arxiv.org/abs/1604.01783))
 
 * [[Ashoke Sen]], _Reality of Superstring Field Theory Action_ ([arXiv:1606.03455](http://arxiv.org/abs/1606.03455))
+
+* Hiroshi Kunitomo, Tatsuya Sugimoto, _Type II superstring field theory with cyclic L-infinity structure_ ([arxiv:1911.04103](https://arxiv.org/abs/1911.04103))
+
 
 
 
