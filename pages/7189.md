@@ -35,8 +35,20 @@ Let $G:\mathcal{B}\to\mathcal{A}$ be a functor such that the right [[Kan extensi
 
 That this indeed defines a monad follows from the universal properties of the Kan extension. Concerning existence, $Ran_G G$ exists for $G:\mathcal{B}\to\mathcal{A}$ e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
 
-  
-
+In this circumstance, when $\mathcal{B}$ is small and $\mathcal{A}$ is complete, then the codensity monad is equivalently the one that arises from the adjunction 
+$$
+  \mathcal{A}
+  \underoverset
+    {\underset{}{\longleftarrow}}
+    {\overset{hom(-,G)}{\longrightarrow}}
+    {\bot}
+  [\mathcal{B},Set]^{op}
+$$
+where the left adjoint 
+$hom(-,G):\mathcal{A}\to [\mathcal{B},Set]^{op}$ 
+takes an object $a$ to the functor $hom(a,G-):\mathcal{B}\to Set$. 
+The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical functor from the [[free completion]] of $\mathcal{B}$ to the category $\mathcal{A}$ which has limits. $G$ is codense if and only if the left adjoint is [[full and faithful]].
+ 
 
 ## Examples
 
