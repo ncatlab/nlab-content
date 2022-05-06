@@ -39,6 +39,11 @@ Every [[cofibrantly generated model category]] structure can be lifted to that o
 
 Any algebraic model category has a fibrant replacement monad $R$ and a cofibrant replacement comonad $Q$. There is also a canonical [[distributive law]] $RQ \to QR$ comparing the two canonical bifibrant replacement functors.
 
+## Related pages
+
+* [[algebraic weak factorization system]]
+* [[accessible model category]]
+
 ## References
 
 The notion was introduced in 
