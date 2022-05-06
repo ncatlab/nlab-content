@@ -17,7 +17,7 @@
 
 The notion of  _lax natural transformation_ is a generalization of the notion of [[natural transformation]] from [[category theory]] to [[higher category theory]].
 
-As a natural transformation is a [[morphism]] between two [[functor]]s between [[categories]], a lax natural transformation is a morphism between [[2-functor]]s between [[2-categories]]:
+As a natural transformation is a [[morphism]] between two [[functor]]s between [[categories]], a lax natural transformation is a morphism between [[2-functors]] between [[2-categories]]:
 
 Where a natural transformation has a [[commutative square|commuting]] naturality square, a lax natural transformation has a [[2-morphism]] filling that square.  If that 2-morphism is required to be invertible, one speaks of a [[pseudonatural transformation]], and if it is required to be an identity (which implies that the square commutes), then one speaks of a [[strict 2-natural transformation]] (this latter notion only really makes sense for [[strict 2-functors]] between [[strict 2-categories]]).
 
@@ -26,14 +26,14 @@ In the general terminology of [[higher category theory]], a lax natural transfor
 
 ## Definitions ##
 
-Given (possibly weak) [[2-categories]] $C,D$ and (possibly [[lax functor|lax]] or oplax) $2$-[[2-functor|functors]]
-$F,G:C\to D$, a __lax natural transformation__ $\alpha:F\Rightarrow G$
+Given (possibly weak) [[2-categories]] $C,D$ and (possibly [[lax functor|lax]] or oplax) [[2-functors]]
+$F, G : C\to D$, a __lax natural transformation__ $\alpha:F\Rightarrow G$
 is given by
 
-* for each $A\in C$ a $1$-cell $\alpha_A:F(A)\to G(A)$ in $D$,
+* for each $A\in C$ a [[1-morphism]] $\alpha_A:F(A)\to G(A)$ in $D$,
 as usual
 
-* for each $f:A\to B$ in $C$ a 2-cell $\alpha_f: G(f) \circ
+* for each $f:A\to B$ in $C$ a [[2-morphism]] $\alpha_f: G(f) \circ
 \alpha_A \Rightarrow \alpha_B \circ F(f)$
 
 such that
