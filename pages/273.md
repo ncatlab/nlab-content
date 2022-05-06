@@ -239,7 +239,7 @@ The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic gr
 
 Discussion in a context of [[nonabelian Hodge theory]]:
 
-* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9604005))
+* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_, in: János Kollár, Robert Lazarsfeld, [[David Morrison]] (eds.) _Algebraic Geometry Santa Cruz 1995, Part 2_, Proceedings of Symposia in Pure Mathematics Volume 62.2, AMS 1997 ([arXiv:alg-geom/9604005](http://arxiv.org/abs/alg-geom/9604005), [doi:10.1090/pspum/062.2](https://doi.org/10.1090/pspum/062.2))
 
 * [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9712020))
 
