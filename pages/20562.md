@@ -71,12 +71,22 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 # References
 
 * [Linguistics using category theory](https://golem.ph.utexas.edu/category/2018/02/linguistics_using_category_the.html) on the n-category café
+
 * [Cognition, convexity and category theory](https://golem.ph.utexas.edu/category/2018/03/cognition_convexity_and_catego.html) on the n-category café
+
 * {#Coecke10} [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]] and [[Stephen Clark]], _Mathematical foundations for a compositional distributional model of meaning_. Lambek Festschrift, special issue of Linguistic Analysis, 2010. ([arXiv:1003.4394](https://arxiv.org/abs/1003.4394))
+
 * {#Preller14} [[Anne Preller]], _From logical to distributional methods_. QPL 2013. ([arXiv:1412.8527](https://arxiv.org/abs/1412.8527))
+
 * {#Bolt16} [[Josef Bolt]], [[Bob Coecke]], [[Fabrizio Genovese]], [[Martha Lewis]], [[Daniel Marsden]] and [[Robin Piedeleu]], _Interacting conceptual spaces I: Grammatical composition of concepts_, SLPCS 2016 ([arXiv:1703.08314](https://arxiv.org/abs/1703.08314)
+
 * {#Felice19} [[Giovanni de Felice]], [[Konstantinos Meichanetzidis]] and [[Alexis Toumi]], _Montague semantics for Lambek pregroups_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
+
 * {#Hedges18} [[Jules Hedges]] and [[Martha Lewis]], _Towards functorial language-games_, CAPNS 2018. ([arXiv:1807.07828](https://arxiv.org/abs/1807.07828))
+
 The category $DisCoCat$ and it's relationship to the product space representation is discussed in:
-* [[Tai-Danae Bradley]],[[Martha Lewis]], [[Jade Master]], and [[Brad Theilman]] 
+
+* [[Tai-Danae Bradley]], [[Martha Lewis]], [[Jade Master]], and [[Brad Theilman]] 
 _Translating and Evolving: Towards a Model of Language Change in DisCoCat_ [arXiv:1811.11041](https://arxiv.org/abs/1811.11041)
+
+[[!redirects DisCoCat]]
