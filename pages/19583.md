@@ -92,7 +92,7 @@ See also
 
 Discussion in view of [[AdS-CFT duality]], specifically [[AdS-CFT in condensed matter physics]], includes:
 
-* {#Sachdev10} [[Subir Sachdev]], _Holographic metals and the fractionalized Fermi liquid_, Phys.Rev.Lett.105:151602, 2010 ([arXiv:1006.3794](https://arxiv.org/abs/1006.3794))
+* {#Sachdev10} [[Subir Sachdev]], _Holographic metals and the fractionalized Fermi liquid_, Phys. Rev. Lett. 105:151602, 2010 ([arXiv:1006.3794](https://arxiv.org/abs/1006.3794))
 
 * {#Maldacena18} [[Juan Maldacena]], _Toy models for black holes II_, talk at PiTP 2018 _From QBits to spacetime_ ([recording](https://video.ias.edu/PiTP/2018/0726-JuanMaldacena))
 
