@@ -285,6 +285,7 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}f)$ is the 
 
 =--
 
+
 ### Whitehead integral formula
 
 See at _[[Whitehead integral formula]]_ and see the references [below](#ReferencesWhiteheadIntegralFormula)
@@ -299,6 +300,8 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
   * [[functional cup product]]
 
   * [[Hopf-Wess-Zumino term]]
+
+* [[e-invariant]]
 
 * [[Hopf degree theorem]]
 
@@ -316,6 +319,9 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
 * Michael Crabb, [[Andrew Ranicki]], _The geometric Hopf invariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
+
+* [[Gereon Quick]], _The Hopf invariant one problem via K-theory_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickHopfInvariant.pdf:file]])
+
 
 See also:
 
