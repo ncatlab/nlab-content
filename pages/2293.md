@@ -123,10 +123,10 @@ The following notes deal with the theory modelled on [[E-infinity ring spectra]]
 
 See also the surveys
 
-* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, lecture notes, 2006, [arXiv:math/0604504](http://arxiv.org/abs/math/0604504).
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, In: _Algebraic Geometry Seattle 2005_, Proceedings of Symposia in Pure Mathematics, Vol. 80.1, AMS 2009 ([arXiv:math/0604504](http://arxiv.org/abs/math/0604504), [doi:10.1090/pspum/080.1](https://doi.org/10.1090/pspum/080.1))
 
-* [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](http://www.ams.org/notices/201107/rtx110700955p.pdf).
-{#VezzosiWhatIs}
+* {#VezzosiWhatIs} [[Gabriele Vezzosi]], _What is a derived stack?_, 2011, [pdf](http://www.ams.org/notices/201107/rtx110700955p.pdf).
+
 
 * [[Bertrand Toën]], _Derived algebraic geometry_, [arxiv/1401.1044](http://arxiv.org/abs/1401.1044)
 
