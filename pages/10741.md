@@ -51,7 +51,8 @@ $$
   \,.
 $$
 
-This integer $h(\phi) \in \mathbb{Z}$ is called the _Hopf invariant_ of $\phi$.
+This integer $h(\phi) \in \mathbb{Z}$ is called the _Hopf invariant_ of $\phi$ (e.g. [Mosher-Tangora 86, p. 33](#MosherTangora86)).
+
 
 It depends on the choices made only up to sign. In particular it has a well-defined image $[h(\phi)] \in \mathbb{F}_2 = \mathbb{Z}/2\mathbb{Z}$, and as such it is the [[Steenrod square]] 
 
@@ -67,6 +68,7 @@ $$
   \mathbb{F}_2
   \,.
 $$
+
 
 ## Properties
 
@@ -147,6 +149,8 @@ See the references [below](#ReferencesWhiteheadIntegralFormula)
 ## References
 
 ### General
+
+* {#MosherTangora86} [[Robert Mosher]], [[Martin Tangora]], p. 33 of _Cohomology operations and applications in homotopy theory_, Harper & Row 1986 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
 
 * {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
 
