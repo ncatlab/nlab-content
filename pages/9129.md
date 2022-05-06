@@ -31,3 +31,7 @@ A [[homotopy]] of [[homotopies]].
 
 [[!redirects homotopy of homotopies]]
 [[!redirects homotopies of homotopies]]
+
+[[!redirects 2-homotopy]]
+[[!redirects 2-homotopies]]
+
