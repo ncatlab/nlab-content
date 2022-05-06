@@ -191,6 +191,9 @@ Measurements include
 
 * [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_ ([cern:2668514](https://cds.cern.ch/record/2668514))
 
+* [[Belle Collaboration]], _Test of lepton flavor universality in $B \to K^\ast \ell^+ \ell^-$ decays at Belle_ ([arXiv:1904.02440](https://arxiv.org/abs/1904.02440))
+
+
 Review includes
 
 * Elena Graverini, _Flavour anomalies: a review_, in _Proceedings of the [13th International Conference on Beauty, Charm and Hyperon hadrons (BEACH 2018)](http://inspirehep.net/record/1621649)_ ([arXiv:1807.11373](https://arxiv.org/abs/1807.11373))
