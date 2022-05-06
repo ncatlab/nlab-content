@@ -286,7 +286,11 @@ Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rat
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
 
+### Relation to knots and links
 
+ Relation to [[knots]] and [[links]]:
+
+* Maths.SE, _[Framed Cobordism Classes of links in $\mathbb{R}^3$](https://math.stackexchange.com/q/426482/58526)_
 
 ### Equivariant Cohomotopy
 
