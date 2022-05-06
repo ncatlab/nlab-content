@@ -26,6 +26,6 @@ To give a formal definition of a permutation group, we make use of the [[symmetr
 
 \begin{example} The [[alternating group]] on a finite set $X$ is a permutation group on $X$. \end{example}
 
-\begin{example} The group of [[rotation permutations]] of $X$ is a permutation group on $X$. \end{example}
+\begin{example} Let $X$ be a finite set with $n$ elements. Let $i$ be a fixed isomorphism $X \rightarrow \{1, \ldots, n \}$. The group of [[rotation permutations]] of $X$ with respect to $i$ is a permutation group on $X$. \end{example}
 
 [[!redirects permutation groups]]
