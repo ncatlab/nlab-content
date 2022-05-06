@@ -5,14 +5,25 @@ His research includes nonabelian homological algebra, the discovery of categoric
 * (with F. Borceux) Galois Theories, Cambridge Studies in Advanced Mathematics 72, Cambridge University Press, 2001
 
 
-##External links
+## External links
 
 * [Website](http://www.mth.uct.ac.za/prof-george-janelidze-0)
 
 * Janelidze's old webpage at Razmadze Institute in Tbilisi: [link](http://www.rmi.ge/~gjanel). 
 
 * [Mathematics genealogy project entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=80837)
+
+
+## Selected writings
+
+On [[reflective factorization systems]]:
+ 
+* {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+ 
+
+
 category: people
+
 [[!redirects G. Janelidze]]
 [[!redirects Janelidze]]
 [[!redirects G. Z. Dzhanelidze]]
