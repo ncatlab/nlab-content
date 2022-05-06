@@ -48,6 +48,9 @@ Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[he
 
 * [[Andreas Braun]], Callum R. Brodie, [[Andre Lukas]], _Heterotic Line Bundle Models on Elliptically Fibered Calabi-Yau Three-folds_, JHEP04 (2018) 087 ([arXiv:1706.07688](https://arxiv.org/abs/1706.07688))
 
+* [[James Gray]], Juntao Wang, _Jumping Spectra and Vanishing Couplings in Heterotic Line Bundle Standard Models_, JHEP11 (2019) 073 ([arXiv:1906.09373](https://arxiv.org/abs/1906.09373))
+
+
 * Magdalena Larfors, Robin Schneider, _Explore and Exploit with Heterotic Line Bundle Models_, Fortschritte der Physik Vol 86 Nr. 5 ([arXiv:2003.04817](https://arxiv.org/abs/2003.04817))
 
 Review:
@@ -55,6 +58,11 @@ Review:
 * [[Andrei Constantin]], _Heterotic line bundle models_, talk at _[New Developments in Gravity, Cosmology and Strings 2013](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_13/ppcsst/)_, Munich 2013 ([pdf](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_13/ppcsst/constantin.pdf), [[ConstantiHeteroticLineBundles.pdf:file]])
 
 * [[Andre Lukas]], _Line Bundles in String Model Building_, talk at _[StringPhenomenology 2019](https://indico.cern.ch/event/782251/)_ ([indico:782251/contributions/3441850](https://indico.cern.ch/event/782251/contributions/3441850/), [pdf](https://indico.cern.ch/event/782251/contributions/3441850/attachments/1868056/3072624/Lukas.pdf), [[LukasHeteroticLineBundles.pdf:file]])
+
+See also:
+
+* [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], _The Moduli Space of Heterotic Line Bundle Models: a Case Study for the Tetra-Quadric_, 	JHEP03 (2014) 025 ([arXiv:1311.1941](https://arxiv.org/abs/1311.1941))
+
 
 Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
 
