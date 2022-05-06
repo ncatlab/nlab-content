@@ -146,6 +146,8 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 ## References
 
+### General
+
 For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see:
 
 * Jacques Touchard. Sur un probl&#232;me de configurations et sur les fractions continues. Canadian Journal of Mathematics 4 (1952), 2-25. ([doi](http://dx.doi.org/10.4153/CJM-1952-001-8))
@@ -177,6 +179,16 @@ For the connection to [[Vassiliev invariants]] of [[singular knots]], see:
 The following book contains an extensive discussion of chord diagrams associated to singular points of analytic curves:
 
 * {#Ghys16} &#201;tienne Ghys, _A Singular Mathematical Promenade_, preliminary version of December 2016. ([arXiv:1612.06373](https://arxiv.org/abs/1612.06373)) ([author pdf](http://perso.ens-lyon.fr/ghys/articles/Promenade.pdf))
+
+### In string theory
+
+Relation of [[Dp-D(p+2)-brane bound states]]/[[Yang-Mills monopoles]] to [[knot invariants]] via [[chord diagrams]]:
+
+* S. Ramgoolam, B. Spence, S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+
+* S. McNamara, Constantinos Papageorgakis, S. Ramgoolam, B. Spence, Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+
+* Constantinos Papageorgakis, p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 [[!redirects chord diagrams]]
 [[!redirects rooted chord diagram]]
