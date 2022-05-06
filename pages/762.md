@@ -34,6 +34,8 @@ There are two other forms of this condition which are useful under different cir
 
 1. A [[CW-complex]] $X$ with its filtration by [[simplicial skeleton|skeleta]] $X^n$.
 
+1. A [[configuration space of points]] is filtered by number of points.
+
 2. The [[free construction|free]] [[topological monoid]] $F X$ on a [[topological space]] $X$ filtered by the length of words. Given a [[pointed topological space]] $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the _[[James construction]]_ $J(X,x)$ ([James 55](#James55)). 
 
    The [[James construction]] $J(X,x)$ may be constructed [[homotopy theory|homotopy-theoretically]] ([Brunerie 13](#Brunerie13), [Brunerie 17](#Brunerie17)). Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ consist of those $x\in X^{V(K)}$ such that, for each vertex $v$ in the complement of $\sigma$, the coordinate projection $\proj_v x$ lies in $A$. Equivalently, the polyhedral product $(X,A)^K$ can be considered as a homotopy colimit of these $(X,A)^\sigma$ over the poset $S(K)$ of simplexes $\sigma$ of $K$, where the maps are the respective inclusions.
