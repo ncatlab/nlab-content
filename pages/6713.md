@@ -478,6 +478,9 @@ and was then re-amplified in
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
+With further developments in 
+
+* [[Varghese Mathai]], [[Michael Murray]], [[Daniel Stevenson]], _Type I D-branes in an H-flux and twisted KO-theory_, JHEP 0311 (2003) 053 ([arXiv:hep-th/0310164](https://arxiv.org/abs/hep-th/0310164))
 
 Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO-theory]] is in
 
