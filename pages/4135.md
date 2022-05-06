@@ -194,7 +194,7 @@ In terms of these components, the Hodge dual $\star \alpha$ of $\alpha$ is expre
 
 Here 
 
-* $p!$, $(D-p)!$ are the [[factorials]] of $p$ and $(D-p)$, respectivel, 
+* $p!$, $(D-p)!$ are the [[factorials]] of $p$ and $(D-p)$, respectively, 
 
 * $\epsilon_{i_1,\dots,i_n} \in \{+1, ,-1\}$ (the [[Levi-Civita symbol]]) is the [[signature of a permutation|signature]] of the [[permutation]] $(1,2,\dots,D) \mapsto (i_1,i_2,\dots,i_D)$ 
 
