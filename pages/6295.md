@@ -80,12 +80,12 @@ Finally, a __$JLBW$-algebra__ is a unital $JLB$-algebra whose underlying Banach 
 
 If $q = 0$, then the Jordan product becomes associative; in fact, a Jordan--Lie algebra with $q = 0$ is precisely a commutative [[Poisson algebra]].  On the other hand, if $q \ne 0$, then dividing the Lie bracket by $q$ gives a Jordan--Lie algebra with $q = 1$, so the only thing that really matters about $q$ is whether or not it is zero.  In this way, a Jordan--Lie algebra may be seen as a [[quantum deformation]] of a Poisson algebra.  (In the [[physics|physical]] interpretation, $q$ here is the [[Dirac constant]] $\hbar$.)
 
-Similarly, a Jordan--Banach algebra with $q = 0$ is a commutative Banach algebra equipped with a Poisson bracket (typically unbounded), and similarly for the more specialized versions; then the $q \gt 0$ case is a quantum deformation of such Poisson--Banach algebras.  We can see from this why the Lie bracket cannot be expected to be defined on an entire $JLB$-algebra when $q = 0$, since Poisson brackets in typical exmamples of Poisson algebras are unbounded in the obvious norms.
+Similarly, a Jordan--Banach algebra with $q = 0$ is a commutative Banach algebra equipped with a Poisson bracket (typically unbounded), and similarly for the more specialized versions; then the $q \gt 0$ case is a quantum deformation of such Poisson--Banach algebras.  We can see from this why the Lie bracket cannot be expected to be defined on an entire $JLB$-algebra when $q = 0$, since Poisson brackets in typical examples of Poisson algebras are unbounded in the obvious norms.
 
 
 ## Relation to $C^*$-algebras {#cstar}
 
-For a $JLB$-algebra with $q \gt 0$, the Jordan product and Lie bracket are respectively the real-symmetrized and imaginary-antisymmetrized parts of an associative operation on the [[complexification]] of $A$, defining a complex $C^*$-[[C-star-algebra|algebra]]; and every $C^*$-algebra likewise defines a $JLB$-algebra for any $q \gt 0$ consisting of its [[Hermitian operator|Hermitian]] elements.  Up to a point, we can make this work with $q = 0$ as well.
+For a $JLB$-algebra with $q \gt 0$, the Jordan product and Lie bracket are respectively the real-symmetrized and imaginary-antisymmetrized parts of an associative operation on the [[complexification]] of $A$, defining a complex $C^*$-[[C-star-algebra|algebra]]; and every $C^*$-algebra likewise defines a $JLB$-algebra for any $q \gt 0$ consisting of its [[Hermitian operator|Hermitian]] elements.  (With $q = 0$, we can get a $C^*$-algebra out of the $JLB$-algebra, and we can still recover the original $JB$-algebra as the self-adjoint elements, but trying to recover the original Lie bracket just results in $0/0$.)
 
 Specifically, starting with a $JLB$-algebra $A$ with deformation constant $q$, we write $A \oplus A$ formally as $A + \mathrm{i} A$, on which we define the following operations:
 
