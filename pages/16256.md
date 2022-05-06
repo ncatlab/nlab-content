@@ -268,6 +268,11 @@ Discussion in terms of [[G-structures]]:
 
 * [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Adolfo Guarino, _KK-monopoles and $G$-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
 
+Discussion of a [[BFSS matrix model|BFSS-like]] [[matrix model]] for [[MK6-branes]]:
+
+* [[Amihay Hanany]], Gilad Lifschytz, _M(atrix) Theory on $T^6$ and a m(atrix) Theory Description of KK Monopoles_, Nucl. Phys. B519:195-213, 1998 ([arXiv:hep-th/9708037](https://arxiv.org/abs/hep-th/9708037))
+
+
 #### Review
 
 * [[Clifford Johnson]], section 10.5 of _D-brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
@@ -283,7 +288,7 @@ Discussion in terms of [[G-structures]]:
 
 Relation to [[black holes in string theory]]
 
-* {#Nelson93} William Nelson, _Kaluza-Klein Black Holes in String Theory_, Phys.Rev.D49:5302-5306,1994 ([arXiv:hep-th/9312058](http://arxiv.org/abs/hep-th/9312058))
+* {#Nelson93} William Nelson, _Kaluza-Klein Black Holes in String Theory_, Phys. Rev. D49:5302-5306, 1994 ([arXiv:hep-th/9312058](http://arxiv.org/abs/hep-th/9312058))
 
 
 [[!redirects Kaluza-Klein monopoles]]
