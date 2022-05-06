@@ -82,6 +82,7 @@ where $\chi[X]$ is the [[Euler characteristic]] of $X$.
 * [[RR-field tadpole cancellation]]
 
 ## References
+ {#References}
 
 
 The C-field tadpole cancellation condition in the special case of vanishing $C$-field flux is due to
