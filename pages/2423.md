@@ -82,7 +82,7 @@ in all of the following
 
   without boundary. 
 
-* **note on boundaries** technically it is convenient to never ever work with manifolds with Riemannian or other structure with boundary. Instead, we always just mention manifolds without boundary and encoded the way in which they are still to be thouhgt of as [[cobordism]]s by injecting _collars_ into them. The manifolds with boundary could be obtained by cutting of at the _core_ of these collars (see the definition below) but, while this is morally the idea, in the construction this is never explicitly considered.
+* **note on boundaries** technically it is convenient to never ever work with manifolds with Riemannian or other structure with boundary. Instead, we always just mention manifolds without boundary and encoded the way in which they are still to be thouhgt of as [[cobordism]]s by injecting _[[collars]]_ into them. The manifolds with boundary could be obtained by cutting of at the _core_ of these collars (see the definition below) but, while this is morally the idea, in the construction this is never explicitly considered.
 
   Also, later when we generalize [[manifold]]s to [[supermanifold]]s it will be very convenient not to have to talk about boundaries
 
