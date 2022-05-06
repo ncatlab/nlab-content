@@ -1,4 +1,3 @@
-
 #Contents#
 * table of contents
 {:toc}
@@ -47,6 +46,10 @@ to the category of [[distributive lattices]].
 This statement does not depend on the [[axiom of choice]],
 unlike the point-set version above.
 
+## Related notions
+
+* [[coherent topos]]
+
 ## References
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_.
@@ -55,14 +58,16 @@ unlike the point-set version above.
 
 * Wikipedia, _[Spectral space](http://en.wikipedia.org/wiki/Spectral_space)_
 
-
-
+[[!redirects spectral topological space]]
 [[!redirects spectral topological spaces]]
 
 [[!redirects spectral space]]
 [[!redirects spectral spaces]]
 
-[[!redirects coherent space]]
+
+[[!redirects coherent topological space]]
+[[!redirects coherent topological spaces]]
+
 [[!redirects coherent spaces]]
 [[!redirects coherent locale]]
 [[!redirects coherent locales]]
