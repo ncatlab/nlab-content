@@ -2,6 +2,8 @@
 
 a $\leftrightarrow$ b
 
+&eacute; $\infty$
+
 ----
 
 ----
