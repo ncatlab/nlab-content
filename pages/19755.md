@@ -87,7 +87,7 @@ $$\{ 1, (12),(13),(23),(123),(132)\}.$$
 
 $$\langle a,b | a^3, b^2,(a b)^2 \rangle.$$
 
-where $a$ corresponds to the 3-cycle, $(123)$, whilst $b$ corresponds to any transposition.  It also has a presentation in which the generatores correspond to the transpositions:
+where $a$ corresponds to the 3-cycle, $(123)$, whilst $b$ corresponds to any transposition.  It also has a presentation in which the generators correspond to the transpositions:
 
 $$\langle \sigma_1,\sigma_2 | \sigma_1^2,\sigma_2^2, (\sigma_1\sigma_2)^3\rangle$$
 
