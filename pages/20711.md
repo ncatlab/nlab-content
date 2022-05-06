@@ -40,7 +40,7 @@ Given any kind of [[generalized cohomology theory]] $\mathbf{H}$, and a [[domain
 
 Precisely: For $\mathbf{H}$ some [[(∞,1)-topos]], and $X,A \in \mathbf{H}$ two [[objects]], the _cocycle space_ of [[cocycles]] on $X$ with [[coefficients]] in $A$ is the [[(∞,1)-categorical hom-space]] $\mathbf{H}(X,A)$.
 
-## Truncation to cohomoloy sets
+## Truncation to cohomology sets
 
 The actual [[cohomology]] [[set]] $H(X,A)$ is the [[0-truncation]]/[[connected components]] of the cocycle space:
 
