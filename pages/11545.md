@@ -64,7 +64,7 @@ See also at _[[string theory FAQ]]_
 
 ## Course XII. Lectures on constructing string vacua
 
-* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
+* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194), [spire:780946](https://inspirehep.net/literature/780946))
 
 
 ### 1. Introduction
