@@ -499,7 +499,7 @@ That core, like every [[∞-groupoid]] is equivalent to the disjoint union over 
 
 * [[hom-category]]
 
-* [[hom-space]], **derived hom-space**
+* [[hom-space]], **derived hom-space**, [[cocycle space]]
 
 [[!include homotopy-homology-cohomology]]
 
