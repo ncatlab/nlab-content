@@ -2,8 +2,8 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Linguistics
-[[!include linguistics - contents]]
 +-- {: .hide}
+[[!include linguistics - contents]]
 =--
 =--
 =--
