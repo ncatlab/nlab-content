@@ -33,9 +33,24 @@ This allows a slightly more elegant reformulation of our basic example. Let $\ma
 
 ## Variations
 
+DisCoCat is relatively easy to modify by replacing the semantic category $FVect$ with some other category with the appropriate structure. Examples include
+
+* [[relation|Relations]] to model simple boolean semantics, usually as a simpler toy model
+
+* [[density matrix|Density matrices]] to model semantic ambiguity (such as "financial bank" vs "river bank"
+
+* Convex relations (i.e. [[relation|relations]] in the category of [[convex space|convex spaces]]) to model cognition ([Bolt et al 2016](#Bolt16))
+
+* Formulas of [[regular logic]] to model [[Montague grammar|Montague semantics]] ([Felice, Meichanetzidis and Toumi 2019](#Felice19))
+
+* [[game theory|Games]] to model dialogue ([Hedges and Lewis 2018](#Hedges18))
+
 # References
 
 * [Linguistics using category theory](https://golem.ph.utexas.edu/category/2018/02/linguistics_using_category_the.html) on the n-category café
 * [Cognition, convexity and category theory](https://golem.ph.utexas.edu/category/2018/03/cognition_convexity_and_catego.html) on the n-category café
 * {#Coecke10} [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]] and [[Stephen Clark]], _Mathematical foundations for a compositional distributional model of meaning_. Lambek Festschrift, special issue of Linguistic Analysis, 2010. ([arXiv:1003.4394](https://arxiv.org/abs/1003.4394))
 * {#Preller14} [[Anne Preller]], _From logical to distributional methods_. QPL 2013. ([arXiv:1412.8527](https://arxiv.org/abs/1412.8527))
+* {#Bolt16} [[Josef Bolt]], [[Bob Coecke]], [[Fabrizio Genovese]], [[Martha Lewis]], [[Daniel Marsden]] and [[Robin Piedeleu]], _Interacting conceptual spaces I: Grammatical composition of concepts_, SLPCS 2016 ([arXiv:1703.08314](https://arxiv.org/abs/1703.08314)
+* {#Felice19} [[Giovanni de Felice]], [[Konstantinos Meichanetzidis]] and [[Alexis Toumi]], _Montague semantics for Lambek pregroups_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
+* {#Hedges18} [[Jules Hedges]] and [[Martha Lewis]], _Towards functorial language-games_, CAPNS 2018. ([arXiv:1807.07828](https://arxiv.org/abs/1807.07828))
