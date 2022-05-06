@@ -97,7 +97,7 @@ A conclusion along these lines, albeit weaker, is also reached independently in 
 
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
-If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]) and some theoretically attractive models could become phenomenologically viable again, such as "[Witten's dark fantasy](cosmological+constant#ReferencesStringTheoryVanishingCC)".
+If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]) and some theoretically attractive models could become phenomenologically viable again, such as "[[Witten's Dark Fantasy]]".
 
 ## Numerical simulation
  {#NumericalSimulation}
