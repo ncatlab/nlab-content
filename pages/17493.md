@@ -2,7 +2,19 @@
 * Contents
 {:toc}
 
-## Idea and benefits
+## Idea
+
+An ordinal analysis of a formal system precisely measures its proof-theoretic strength, which is its strength at justifying [[transfinite induction]]. In practice, it also measures the system's ability to prove totality of complex computable functions.
+
+Giving a concrete "ordinal notation" that describes the proof-theoretic strength of a system is sometimes seen as providing a constructive justification for the reasoning principles of the system. However, ordinal analysis is not limited to systems that are [[constructive]] in the sense of not assuming [[excluded middle]]. But in practice, classical systems with ordinal notations are interpretable constructively.
+
+### Relation to Predicativity
+
+While it is classically true that any [[deductive system#FormalSystems|effective formal system]] has some limit to its proof-theoretic strength, only systems of limited strength have had their strength concretely described by a good ordinal notation. Specifically, all systems with ordinal analyses so far are significantly weaker than full [[second-order arithmetic]]. Consequently, so far, systems that have been given ordinal notations feel more like [[predicative]] systems than like familiar impredicative systems such as [[ZFC]], [[higher-order logic|higher-order arithmetic]], and [[ETCS]].
+
+Many have argued, however, that the boundary between predicatively-justifiable and impredicative systems lies somewhere within the range of proof-theoretic ordinals already analyzed. In other words, that the stronger systems in the table below are actually slightly impredicative, even when it isn't obvious.
+
+## Definition
 
 +-- {: .num_defn}
 ###### Definition
