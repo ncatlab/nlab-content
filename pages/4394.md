@@ -93,11 +93,17 @@ The topology $\mathcal{T}^*$ is called a __[[cotopology]] of__ $\mathcal{T}$ if 
 The space $(X, \mathcal{T}^*)$ is also called a __cospace__ of $(X, \mathcal{T}$.
 \end{definition}
 
-
-
 ## Remarks
 
-It is interesting and perhaps surprising that many advanced topological notions can be described using bitopological spaces, even when you would not na&#239;vely think that there are two topologies around.  (At least, that\'s my vague memory of what they were good for.  I think that this was in some article by Isbell.)
+It is interesting and perhaps surprising that many advanced topological notions can be described using bitopological spaces, even when you would not naively think that there are two topologies around.  (At least, that's my vague memory of what they were good for.  I think that this was in some article by Isbell.)
+
+## Pointfree analogues
+
+Expressed in the opposite category of [[frames]],
+there are several pointfree analogues of bitopological spaces:
+[[D-frames]], [[biframes]], and [[finitary biframes]].
+The latter has the best properties of all three.
+For an overview, see Suarez \cite{Suarez}.
 
 ## Related Articles
 
@@ -140,6 +146,13 @@ Only Kelly introduced the concept in its nowadays formulation of a set equipped 
 as well as a more introductory text book
 
 * A. A. Ivanov, N. V. Khmylko, _Битопологические пространства_, 1997. Исследования по топологии. 9, Zap. Nauchn. Sem. POMI, 242, editor A. A. Ivanov ([Russian version](http://www.mathnet.ru/php/archive.phtml?jrnid=znsl&wshow=issue&bshow=contents&series=0&year=1997&volume=242&issue=&option_lang=rus&bookID=335)).
+
+The pointfree analogues are reviewed in
+
+\bibitem{Suarez}
+Anna Laura Suarez,
+_The category of finitary biframes as the category of pointfree bispaces_,
+[arXiv:2010.04622](https://arxiv.org/abs/2010.04622).
 
 
 [[!redirects bitopological space]]
