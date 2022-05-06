@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-A closed _Jacobi diagram_ is a connected [[graph]] with oriented trivalent vertices and with an embedded oriented [[circle]]. 
+A closed _Jacobi diagram_ is a connected undirected [[graph]] with oriented trivalent vertices and with an embedded oriented [[circle]], regarded modulo cyclic identifications, if any.
 
 Here is a picture of a typical Jacobi diagram:
 
@@ -59,17 +59,60 @@ or "circle diagrams" ([Kneissler 97](#Kneissler97))
 or "round diagrams" ([Willerton 99](#Willerton99)).
 The term "Jacobi diagram" ([Chmutov-Duzhin-Mostovoy 11, Chapter 5](#ChmutovDuzhinMostovoy11), [Jackson-Moffat 19, Section 13](#JacksonMoffat19)) alludes to the [[Jacobi identity]] -- here also called the [[STU relation]] -- via the fact that these diagrams are naturally labelled by a [[Lie algebra]] equipped with a [[Lie algebra representation]] (which is really just the [[interaction]]-aspect of their interpretation as [[Chern-Simons theory]] [[Feynman diagrams]]...).
 
+## Definition
+
+### Jacobi diagrams
+
+(...)
+
+### STU-relations and weight systems
+ {#STURelationsAndWeightSystems}
+
+For $R \in $ [[CRing]] a [[commutative ring]], let $R\langle \mathcal{D}^t \rangle$ denote the $R$-[[linear span]] of the [[set]] $\mathcal{D}^t$ of [[Jacobi diagrams]]. 
+
+Then one traditionally writes
+
+\[
+  \label{QuotientSpaceBySTU}
+  \mathcal{A}^t 
+    \;\coloneqq\;
+  R\langle \mathcal{D}^c \rangle/STU 
+\]
+
+for the [[quotient spaces]] of the [[linear span]] of [[Jacobi diagrams]] by the [[STU relations]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/STU-relation.jpg" width="400">
+</center>
+
+Hence:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/JacobiDiagramsModuloSTURelationsII.jpg" width="700">
+</center>
+
+A [[linear function]]
+
+$$
+  w \;\colon\; \mathcal{A}^t \longrightarrow R
+  \,,
+$$
+
+-- hence a plain $R$-valued [[function]] on the [[set]] $\mathcal{D}^t$ of [[Jacobi diagrams]] which is [[invariant]] under the [[STU relations]] --
+
+is called a _[[framed weight system]]_. See there for more.
+
 ## Properties
 
 ### Relation to chord diagrams
 
 [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
 
+
 <center>
-<img src="https://ncatlab.org/nlab/files/ChordsMod4TIsCSModSTU.jpg" width="840">
+<img src="https://ncatlab.org/nlab/files/ChordDiagModulo4TAreJAcobiDiagModuloSTU.jpg" width="840">
 </center>
 
-> graphics grabbed form [Bar-Natan & Stoimenow 97](#BarNatanStoimenow97)
 
 ## Related concepts
 
