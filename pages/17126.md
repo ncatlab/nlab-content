@@ -2,7 +2,14 @@
 
 * [webpage](http://people.oregonstate.edu/~drayt/)
 
-## related $n$Lab entries
+## selected writings
+
+On [[octonions]], [[quaternions]], [[normed division algebras]] etc.:
+
+* [[Tevian Dray]], [[Corinne Manogue]], _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
+
+
+## Related $n$Lab entries
 
 * [[octonions]]
 
