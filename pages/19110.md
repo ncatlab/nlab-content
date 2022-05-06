@@ -119,7 +119,7 @@ This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-
 
 Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fractional D-branes]]/[[anti-branes]] in the [[bound state]], while $tr_V\left(g_k\right)$ is (up to a global [[rational number]]-factor $1/{\vert G \vert}$) supposed to be its  [[charge]] as seen by the [[RR-fields]] in the $g_k$-[[twisted sector]].
 
-In fact, since we are dealing with fractional D-branes, both the charge and mass in the above table are in factional units $1/{\vert G\vert}$ of the [[order of a group|order]] of the [[isotropy group]] $G_{DE}$ (by [this formula](fractional+D-brane#eq:RRChargeOfFractionalDBraneInGTwistedSector)), so that that normalized [[mass]] and [[charge]] is
+In fact, since we are dealing with fractional D-branes, both the charge and mass in the above table are in factional units $1/{\vert G\vert}$ of the [[order of a group|order]] of the [[isotropy group]] $G_{DE}$ (by [this formula](fractional+D-brane#eq:RRChargeOfFractionalDBraneInGTwistedSector)), so that normalized [[mass]] and [[charge]] is
 
 \[
   \label{ChargeMass}
@@ -135,7 +135,7 @@ In fact, since we are dealing with fractional D-branes, both the charge and mass
   \chi_V(g) 
   \coloneqq 
     \tfrac{1}{\vert G\vert}
-   tr_V\left( g_1\right)
+   tr_V\left( g\right)
   \,.
 \]
 
@@ -284,7 +284,7 @@ Now the tadpole cancellation condition is that (all representations are real and
 
 ([Marchesano 03 (4.15)](#Marchesano03), following [Honecker 02 (28)](#Honecker02))
 
-The general solution to (eq:InhomogeneousTadpoleCancellation) is of course the sum $O$ with any solution to the homogeneous equation (eq:VanishingOfCharacterValuesOnNontrivialSubgroups). By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the latter are exactly the multiples $n \cdot k[G/1]$ of the [[regular representation]], so that the general solution to the tadpole cancellation condition (eq:InhomogeneousTadpoleCancellation) for [[fractional D-branes]] is 
+The general solution to (eq:InhomogeneousTadpoleCancellation) is of course the sum of $O$ with any solution to the homogeneous equation (eq:VanishingOfCharacterValuesOnNontrivialSubgroups). By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the latter are exactly the multiples $n \cdot k[G/1]$ of the [[regular representation]], so that the general solution to the tadpole cancellation condition (eq:InhomogeneousTadpoleCancellation) for [[fractional D-branes]] is 
 
 $$
   V \;=\; O + n \cdot k[G/1]
