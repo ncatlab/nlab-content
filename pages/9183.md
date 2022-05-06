@@ -30,7 +30,7 @@ There are various astronomical observations that suggest the existence of dark m
 
 1. Simulations of [[structure formation]] in the universe seem to require existence of dark matter in order to reproduce results compatible with observation.
 
-Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]]. In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
+Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "[[weakly interacting massivle particle|weakly interacting massive particles]]" ("[[WIMP]]"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]]. In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
 
 ## Properties
 
@@ -216,7 +216,6 @@ matter is due to three groups:
 
 * {#DineFischler83} [[Michael Dine]], [[Willy Fischler]], _The Not So Harmless Axion_, Phys.Lett. B120:137-141 (1983)
 
-
 A proposal that [[axions]] account for [[fuzzy dark matter]], and thus fix the [[WIMP]] model for dark matter with its problem of reproducing galactic rotation curves, is in
 
 * {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_, Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
@@ -243,8 +242,6 @@ Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
 
 [[!redirects cold dark matter]]
 
-[[!redirects WIMP]]
-[[!redirects WIMPs]]
 
 [[!redirects core-cusp problem]]
 [[!redirects core-cusp problems]]
