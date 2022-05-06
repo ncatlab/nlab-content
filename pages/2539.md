@@ -288,9 +288,7 @@ This is prop. 1.6 in Chapter II of ([MoerdijkReyes](#MoerdijkReyes)).
 
 Since we have $R = \ell C^\infty(\mathbb{R})$ and $C^\infty(\mathbb{R})$
 is the free [[generalized smooth algebra]] on a single generator,
-a morphism $\ell A \to R$ is precisely an element of $C^\infty(\mathbb{R}^n)/J$.
-This is represented by an element in $C^\infty(\mathbb{R}^n)$ which in particular
-defines an element in $C^\infty(\mathbb{R}^n)/I$.
+a morphism $\ell A \to R$ is precisely an element of $C^\infty(\mathbb{R}^n)/J$. This is represented by an element in $C^\infty(\mathbb{R}^n)$ which in particular defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 =--
 
@@ -324,9 +322,13 @@ Leture notes include
 
 * Adam Boocher, _A proof of the Tietze Extension Theorem Using Urysohn's Lemma_, 2005 ([pdf](http://www.maths.ed.ac.uk/~aboocher/math/tietze.pdf))
 
+Discussion via [[algebraic topology]]:
+
+* [[Norman Steenrod]], _Cohomology operations, and obstructions to extending continuous functions_, Advances in Mathematics Volume 8, Issue 3, June 1972, Pages 371-416 (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
+
 Discussion of the smooth version includes
 
-* {#MoerdijkReyes} [[Ieke Moerdijk]], [[Gonzalo Reyes]], chapters I and II of _[[Models for Smooth Infinitesimal Analysis]]_
+* {#MoerdijkReyes} [[Ieke Moerdijk]], [[Gonzalo Reyes]], chapters I and II of: _[[Models for Smooth Infinitesimal Analysis]]_
 
 
 See also
