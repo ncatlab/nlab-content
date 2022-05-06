@@ -544,6 +544,7 @@ Discussion of $G$-structures in [[supergeometry]] includes
   (on [[Killing spinors]] as super-[[Killing vectors]])
 
 ### In supergravity 
+ {#ReferencesInSupergravity}
 
 Discussion of [[G-structures]] in [[supergravity]] and [[superstring theory]]:
 
