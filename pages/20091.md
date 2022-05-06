@@ -4,11 +4,14 @@
 
 ## Selected writings
 
-Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solitons]] and [[monopoles]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]] via [[D=5 Maxwell theory]]):
+Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solitons]] and [[monopoles]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]] via [[D=5 Yang-Mills theory]], [[hadron Kaluza-Klein theory]]):
+
+* [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_, Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
 * {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
+
 
 * {#Sutcliffe15} [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
 
