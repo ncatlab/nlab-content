@@ -72,7 +72,7 @@ The suggestion that from the point of view of [[string theory]]/[[F-theory]] K3-
 
 A discussion of some kind of K3-cohomology in terms of [[differential geometry]] appears in 
 
-* Jorge Devoto, _Quaternionic elliptic objects and K3-cohomology_ London Mathematical Society Lecture Note Series (No. 342) 05/2007;
+* Jorge Devoto, _Quaternionic elliptic objects and K3-cohomology_ London Mathematical Society Lecture Note Series (No. 342) 05/2007 ([doi:10.1017/CBO9780511721489.004](https://doi.org/10.1017/CBO9780511721489.004))
 
 The concepts of K3-spectrum as such as considered in
 
