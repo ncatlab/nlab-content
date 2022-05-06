@@ -31,7 +31,7 @@ The [[generalized cohomology theory]] [[Brown representability theorem|represent
 
 The [[differential K-theory]] for KO is discussed in
 
-* {#GradySati18} Daniel Grady, [[Hisham Sati]], _fferential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
+* {#GradySati18} Daniel Grady, [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
 
 
 
