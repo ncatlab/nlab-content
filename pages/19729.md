@@ -44,7 +44,7 @@ A brief textbook account is in
 
 Further developments include
 
-* Ilka Brunner, [[Matthias Gaberdiel]], _Matrix factorisations and permutation branes_, JHEP 0507:012, 2005 ([arXiv:hep-th/0503207](https://xxx.lanl.gov/abs/hep-th/0503207))
+* [[Ilka Brunner]], [[Matthias Gaberdiel]], _Matrix factorisations and permutation branes_, JHEP 0507:012, 2005 ([arXiv:hep-th/0503207](https://xxx.lanl.gov/abs/hep-th/0503207))
 
 * {#EngerRecknagelRoggenkamp05} Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
 
