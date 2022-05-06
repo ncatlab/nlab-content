@@ -18,6 +18,8 @@ On [[effective field theory]] and [[chiral perturbation theory]]:
 
 * {#Weinberg79} [[Steven Weinberg]], _Phenomenological Lagrangians_, Physica A: Statistical Mechanics and its Applications Volume 96, Issues 1–2, April 1979, Pages 327-340 (<a href="https://doi.org/10.1016/0378-4371(79)90223-1">doi:10.1016/0378-4371(79)90223-1</a>)
 
+* [[Steven Weinberg]], _On the Development of Effective Field Theory_ ([arXiv:2101.04241](https://arxiv.org/abs/2101.04241))
+
 
 Deriving the [[soft graviton theorem]]:
 
