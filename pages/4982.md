@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,6 +25,8 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 
 * [[phase of matter]]
 
+* [[fluid/gravity correspondence]]
+
 ## References
 
 * L. D. Landau, E. M. Lifschitz, _Fluid mechanics_ (Russian original is _Hydrodynamics_), vol. 6 of the [[Landau-Lifschitz|Course of Theoretical Physics]], Pergamon Press
@@ -23,7 +35,9 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 
 * [[Dennis Sullivan]], _Algebra, topology and algebraic topology of 3D ideal fluids_, [arxiv/1010.2721](http://arxiv.org/abs/1010.2721) (has some ideas on need of a version of [[higher geometry]] at the end of the article)
 
-* wikipedia: [fluid dynamics](http://en.wikipedia.org/wiki/Fluid_dynamics)
+See also
+
+* Wikipedia, _[Fluid dynamics](http://en.wikipedia.org/wiki/Fluid_dynamics)_
 
 [[!redirects fluid dynamics]]
 [[!redirects hydrodynamic]]
