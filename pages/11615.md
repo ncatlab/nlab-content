@@ -25,26 +25,30 @@ In "synthetic" approaches to the formulation of [[theories]] in [[mathematics]] 
 |-----------|---------|
 | [[structures]] built out of "point-[[set]]"-substrate |  [[axioms]] imposed on the available [[type theory|types]] |
 
+Often the "synthetic approach" is just referred to as "axiomatic". For instance [[model categories]] were introduced as "axiomatic homotopy theory" and indeed they may be regarded as providing a synthetic axiomatization of [[homotopy theory]], which is not based on (but does subsume) the traditional "point-set model" provided by [[topological spaces]].
+
+
 
 ## Examples
 
 * _[[synthetic geometry]]_ axiomatizes the nature of figures drawn in the [[plane]] without speaking of the [[plane]] itself as a collection of points and without speaking of these figures as being [[subsets]] of points.
 
-* A refinement of this to contemporary research-level mathematics is _[[synthetic differential geometry]]_. 
+* _[[synthetic differential geometry]]_ is  refinement of this to contemporary research-level mathematics.
 
   Here instead of defining the concept of _[[smooth manifold]]_ analytically by "point-set methodology" as is traditional (a [[set]] of points equipped with a [[topology]] and a [[smooth structure]], etc.) one imposes one single [[axiom]] scheme in the ambient [[topos]] (the "[[Kock-Lawvere axiom]]" in this case) which essentially ensures that for all [[objects]]/[[types]] $X$ there exists also an object/type $T X$ which behaves as the [[tangent bundle]] of $X$ should. These axioms then turn out to have [[models]] in [[smooth spaces]] (which include [[smooth manifolds]]) but also in other, such as [[algebraic geometry]] and [[supergeometry]].
 
-Often the "synthetic approach" is just referred to as "axiomatic". For instance [[model categories]] were introduced as "axiomatic homotopy theory" and indeed they may be regarded as providing a synthetic axiomatization of [[homotopy theory]], which is not based on (but does subsume) the traditional "point-set model" provided by [[topological spaces]].
+  Alternatively one may set up synthetic differential geometry via axioms for [[differential cohesion]].
 
-* With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
+* _[[synthetic homotopy theory]]_ -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
 
 * [[synthetic differential topology]]
 
 * [[synthetic domain theory]]
 
+* [[synthetic topology]]
+
 * [[synthetic computability theory]]
 
-* [[synthetic topology]]
 
 
 ## Relation to constructivism 
@@ -55,6 +59,23 @@ Synthetic approaches are naturally compatible with [[constructive mathematics]]/
 ## Relation to computer science
 
 There is at least some similarity between synthetic mathematics and [[domain specific embedded programming languages]], see for instance ([Hudak 98, section 3.2](http://ncatlab.org/nlab/show/domain+specific+embedded+programming+language#Hudak98)). In ([Hudak 98, figure 2](http://ncatlab.org/nlab/show/domain+specific+embedded+programming+language#Hudak98)) this shows aspects of a real-world DSL for "geometric region analysis" embedded in [[Haskell]] which under the [[relation between type theory and category theory]]/[[computational trinitarianism]] one immediately recognizes as a fragment of [[synthetic geometry]].
+
+## References
+
+### General
+
+See also 
+
+* Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
+
+### Synthetic homotopy theory
+ {#ReferencesSyntheticHomotopyTheory}
+
+Discussion of _synthetic [[homotopy theory]]_ (typically understood as [[homotopy type theory]]):
+
+* [[Ulrik Buchholtz]], Sec. 3.1 of _Higher Structures in Homotopy Type Theory_ ([arXiv:1807.02177](https://arxiv.org/abs/1807.02177))
+
+* [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
 
 
 [[!redirects synthetic homotopy theory]]
