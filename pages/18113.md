@@ -60,7 +60,7 @@ $$
    \phantom{AAA}
    \text{and}
    \phantom{AAA}
-   d(x_{n_k}, w) \lt \frac{\epsilon}{2}
+   d(x_{n_k}, x_{\infinity}) \lt \frac{\epsilon}{2}
   \,.
 $$
 
