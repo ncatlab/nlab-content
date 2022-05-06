@@ -48,26 +48,6 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 ## Related concepts
 
-* [[vacuum state]], [[Hadamard state]]
-
-* [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
-
-* [[vacuum energy]]
-
-* [[interacting vacuum]]
-
-* [[vacuum stability]]
-
-* [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
-
-* [[theta vacuum]]
-
-* [[perturbative string theory vacuum]]
-
-  * [[non-geometric string theory vacuum]]
-
-  * [[landscape of string theory vacua]]
-
 * [[QFT with defects|topological defects]] due to [[spontaneous symmetry breaking]]
 
   * [[domain wall]], [[cosmic string]], [[monopole]]
@@ -80,6 +60,9 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape of solutions"?](http://ncatlab.org/nlab/show/string+theory+FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
+
+[[!include states and observables -- content]]
+
 
 
 [[!redirects vacua]]
