@@ -215,6 +215,8 @@ These definitions need to be carefully checked against known examples (e.g., the
 
   * [[Euclidean supermanifold]] (notice that the definition of that is very much along the lines of the Klein-program-style definition above).
 
+* [[semialgebraic manifold]]
+
 ## Related concepts
 
 * [[low-dimensional topology]]
