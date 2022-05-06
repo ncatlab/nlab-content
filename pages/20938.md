@@ -56,7 +56,7 @@ U_1 \subseteq \Gamma_1 \vdash b\,:\,B\,\boxtimes\,U_2 \subseteq \Gamma_2}
 \frac{}{U \subseteq \Gamma \vdash \pi\,:\,(A \otimes B) \multimap (A,B)\,\boxtimes\,U \subseteq \Gamma}
 \end{gathered}$$
 
-Yeah, that's tensor elim now. Kind of funky.
+Yeah, that's tensor elim now. Kind of funky. It turns out this rule is redundant: you can also use $(\lambda x:A \otimes B.x)$.
 
 $$\frac{U \cup \{x\} \subseteq \Gamma;x:A \vdash b\,:\,B_1 \otimes \dots \otimes B_n\,\boxtimes\,U' \subseteq \Gamma';\Delta \qquad
 U' \cap \Delta = \emptyset}
