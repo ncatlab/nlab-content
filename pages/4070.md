@@ -16,7 +16,7 @@
 
 ## Idea
 
-The syntagm *chiral algebra* has two meanings: one in physics and a related but more specific one after the work fo Beilinson-Drinfeld. In QFT the chiral operator has two classes of eigenmodes left-handed
+The syntagm *chiral algebra* has two meanings: one in physics and a related but more specific one after the work of Beilinson-Drinfeld. In QFT the chiral operator has two classes of eigenmodes left-handed
 and right-handed; they give rise to left and right chiral fields. CFT in 2d, in particular has two chiral parts expressed via holomorphic and antiholomorphic functions in OPEs. 
 
 [[Beilinson]] and [[Drinfel'd]] were unhappy with non-illuminating definition of [[vertex operator algebra]] and invented a mathematical definition of version of chiral [[conformal field theory]] on an algebraic curve, under the name __chiral algebra__; their manuscript has being circulating from around 1995 as a long preprint and being more recently published by Amer. Math. Soc.  
