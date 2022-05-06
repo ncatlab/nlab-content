@@ -85,8 +85,7 @@ Some rigs which are neither rings nor distributive lattices include:
 ## References
 
 * Jonathan S. Golan, _Semirings and their applications_. Updated and expanded version of The theory of semirings, with applications to mathematics and theoretical computer science, Longman Sci. Tech., Harlow, 1992, MR1163371. Kluwer Academic Publishers, Dordrecht, 1999. xii+381 pp.
-* [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv:
-1108.2874](http://arxiv.org/abs/1108.2874)
+* [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
 * wikipedia [semiring](http://en.wikipedia.org/wiki/Semiring)
 * J. Jun, S. Ray, J. Tolliver, _Lattices, spectral spaces, and closure operations on idempotent semirings_, [arxiv/2001.00808](https://arxiv.org/abs/2001.00808)
 
