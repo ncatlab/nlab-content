@@ -58,6 +58,10 @@ See also
 
 * Joonho Kim, Kimyeong Lee, _Little strings on $D_n$ orbifolds_ ([arXiv:1702.03116](https://arxiv.org/abs/1702.03116))
 
+On [[D=3 N=4 super Yang-Mills theories]] with [[compact hyperkähler manifold]] [[Coulomb branches]] obtained by [[KK-compactification]] of [[little string theories]]:
+
+* {#Intriligator99} [[Kenneth Intriligator]], _Compactified Little String Theories and Compact Moduli Spaces of Vacua_, Phys. Rev. D61:106005, 2000 ([arXiv:hep-th/9909219](https://arxiv.org/abs/hep-th/9909219))
+
 Relation of little string theory to the [[quantum geometric Langlands correspondence]] is discussed in
 
 * {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
