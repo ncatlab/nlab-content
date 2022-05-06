@@ -30,6 +30,13 @@ $$
 ,$$
 which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivalence, every group is an automorphism group; see [[delooping]].
 
+## Examples
+
+(...)
+
+* [[automorphism of a vertex operator algebra]]
+
+
 ## Related concepts
 
 * **automorphism group**
