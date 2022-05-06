@@ -77,10 +77,15 @@ and it makes $H$ not only an $H$-module, but in fact a monoid in the monoidal ca
 
 * [[conjugacy class]]
 
-## Literature
+* [[twisted ad-equivariant K-theory]]
+
+
+## References
 
 * Sigurdur Helgason, _Differential geometry, Lie groups, and symmetric spaces_ 
-* E. Meinrenken, _Clifford algebras and Lie theory_, Springer
+
+* [[Eckhard Meinrenken]], _Clifford algebras and Lie theory_, Springer
+
 * [[eom]]: [adjoint representation of a Lie group](http://www.encyclopediaofmath.org/index.php/Adjoint_representation_of_a_Lie_group), [adjoint group](http://www.encyclopediaofmath.org/index.php/Adjoint_group)
 
 [[!redirects adjoint actions]]
