@@ -340,7 +340,7 @@ $$
 where $p_1$ is the [[first fractional Pontryagin class]], $p_2$ is the [[second Pontryagin class]], $\chi$ is the [[Euler class]], and
 
 $$
-  \delta
+  \beta
   \;\colon\;
   H^\bullet
   \big(
