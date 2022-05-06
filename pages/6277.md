@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -61,25 +73,39 @@ $$
 B_n + \sum_{p|n} \frac{1}{p} \in\mathbb{Z}
 $$
 
-## References
+## Related concepts
 
-Related $n$Lab entries include [[umbral calculus]], [[Bernoulli polynomial]]
+* [[modified Bernoulli number]]
+
+* [[Bernoulli polynomial]]
+
+* [[umbral calculus]]
+
+
+## References
 
 ### General
 
-* wikipedia: [Bernoulli number](http://en.wikipedia.org/wiki/Bernoulli_number)
+* Wikipedia, _[Bernoulli number](http://en.wikipedia.org/wiki/Bernoulli_number)_
+
 * Wolfram MathWorld:  [Bernoulli number](http://mathworld.wolfram.com/BernoulliNumber.html)
 * [[John C. Baez]], _The Bernoulli numbers_, 2003 expository notes, [pdf](http://math.ucr.edu/home/baez/qg-winter2004/bernoulli.pdf)
+
 * Bernoulli numbers page [bernoulli.org](http://bernoulli.org)
+
 * chapter 3 in [[Pierre Cartier]], _Mathemagics_, [pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf)
 
 ### Lie theory, deformation theory, knot theory, geometry
 
 * MathOverflow [Todd class and Baker-Campbell-Hausdorff, or the curious number 12](http://mathoverflow.net/questions/31972/todd-class-and-baker-campbell-hausdorff-or-the-curious-number-12)
+
 * [[Nikolai Durov|N. Durov]], S. Meljanac, A. Samsarov, [[Z. Škoda]], _A universal formula for representing Lie algebra generators as formal power series with coefficients in the Weyl algebra_, Journal of Algebra __309__:1, pp.318-359 (2007) [math.RT/0604096](http://arxiv.org/abs/math.RT/0604096), MPIM2006-62
+
 * Vinay Kathotia, _Kontsevich's universal formula for deformation quantization and the Campbell-Baker-Hausdorff formula, I_, [math.QA/9811174](http://arxiv.org/abs/math/9811174)
+
 * Emanuela Petracci, _Functional equations and Lie algebras_, PhD thesis, [pdf](http://www1.mat.uniroma1.it/didattica/dottorato/TESI/ARCHIVIO/petracciemanuela.pdf)
 * E. Meinrenken, _Clifford algebras and Lie theory_, Springer
+
 * [[Anton Alekseev]], _Bernoulli numbers, Drinfeld associators, and the Kashiwara&#8211;Vergne problem_, slides, [pdf](http://www.6ecm.pl/docs/Alekseev.pdf)
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
