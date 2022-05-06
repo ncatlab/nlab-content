@@ -42,12 +42,16 @@ Type I string theory is [[type II string theory]] on [[orientifold]] [[spacetime
 ### Tadpole cancellation and $SO(32)$-GUT
  {#TadpoleCancellationAndSO32GUT}
 
-For type I string theory on flat [[target spacetime]] [[orientifolds]] $\mathbb{R}^{9,1}$
+For type I string theory on [[flat orbifold|flat]] ([[toroidal orbifold|toroidal]]) [[target spacetime]] [[orientifolds]] $\mathbb{R}^{9,1}$
 [[RR-field tadpole cancellation]] requires 32 [[D-branes]] to cancel the [[O-plane charge]] of -32 ([here](orientifold+plane#OPlaneChargeForFlatOrientifolds)).
 
-Discussion of type-i [[string phenomenology]] and [[grand unified theory]] based on $SO(32)$ type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
+Under the [[duality between type I and heterotic string theory]] this translates to the [[semi-spin group|semi-spin]] [[gauge group]] [[SemiSpin(32)]] of [[heterotic string theory]].
 
+Discussion of type-I [[string phenomenology]] and [[grand unified theory]] based on $SO(32)$ type-I strings: ([MMRB 86](#MMRB86), [Ibanez-Munoz-Rigolin 98](#IbanezMunozRigolin98), [Yamatsu 17](#Yamatsu17)).
 
+### String-string dualities
+
+* [[duality between type I and heterotic string theory]]
 
 ## Related concepts
 
