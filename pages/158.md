@@ -43,7 +43,7 @@ The word “space” is often (ab)used to mean ∞-groupoid,
 but this usage was [condemned](https://nforum.ncatlab.org/discussion/4781/against-spaces-in-homotopy-theory/) by others.
 
 “Homotopy type” is quite close in meaning to “∞-groupoid”,
-but morphsims of homotopy types are mere homotopy classes
+but morphisms of homotopy types are mere homotopy classes
 of maps of ∞-groupoids.
 
 
