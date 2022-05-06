@@ -39,7 +39,7 @@ Gromov introduced many techniques of proving the h-principle including the metho
 
 
 * Andr&#233;s Angel, Johannes Ebert, _Gromov's h-principle and its applications research seminar_, 2010, outline [pdf](http://wwwmath.uni-muenster.de/u/jeber_02/frueherelehre/hprinciple.pdf) (with useful bibliography)
-* [London h-principle learning seminar](http://www.homepages.ucl.ac.uk/~ucahcwe/h-principle.html)
+* [London h-principle learning seminar](https://www.mathematik.hu-berlin.de/~wendl/h-principle.html)
 
 
 [[!redirects homotopy principle]]
