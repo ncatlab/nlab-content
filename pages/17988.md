@@ -77,6 +77,15 @@ An attempt to conceptually explain why [[gravity]] might have a UV-fixed point i
 
 * {#NinkReuter12} Andreas Nink, [[Martin Reuter]], _On quantum gravity, Asymptotic Safety, and paramagnetic dominance_, Int. J. Mod. Phys. D22 (2013) 1330008 ([arXiv:1212.4325](https://arxiv.org/abs/1212.4325))
 
+Observation of a special role of spacetime dimension 2:
+
+* {#LauscherReuter06} O. Lauscher, [[Martin Reuter]], _Asymptotic Safety in Quantum Einstein Gravity: nonperturbative renormalizability and fractal spacetime structure_,  In: Fauser B., Tolksdorf J., Zeidler E. (eds.) )Quantum Gravity_ Birkhäuser Basel 2006 ([arXiv:hep-th/0511260](https://arxiv.org/abs/hep-th/0511260), [doi:10.1007/978-3-7643-7978-0_15](https://doi.org/10.1007/978-3-7643-7978-0_15))
+
+and speculation of this being related to the [[Connes-Lott model]] (see [here](2-spectral+triple#Connes06OnRelationToStringVacua)):
+
+* {#Connes06} [[Alain Connes]],  p. 8 of _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](http://arxiv.org/abs/hep-th/0608226))
+
+
 Review of the asymptotic safety program includes these:
 
 * {#Niedermaier06} [[Max Niedermaier]], _The Asymptotic Safety Scenario in Quantum Gravity -- An Introduction_, Class.Quant.Grav.24:R171-230,2007 ([arXiv:gr-qc/0610018](https://arxiv.org/abs/gr-qc/0610018))
