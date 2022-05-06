@@ -1,5 +1,5 @@
 
-* [website](http://www.math.uu.nl/people/weiss/)
+* [website](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/ittay-weiss)
 
 #related $n$Lab entries#
 
