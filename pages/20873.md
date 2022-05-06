@@ -102,6 +102,10 @@ One writes
 
 for the [[quotient algebra]] of horizontal chord diagrams by these relations.
 
+<center>
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramsModulo2TAnd4T.jpg" width="900">
+</center>
+
 
 ### Horizontal weight systems
 
