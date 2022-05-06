@@ -110,7 +110,7 @@ Since for [[poset|posets]] viewed as categories, finite products and coproducts 
 
 A further non-example:
 
-* The category $Pfn$ of sets and [[partial functions|partial functions]] has finite coproducts and products. The former given by [[disjoint unions]] as in [[Set]] and latter by $(X\times Y)+X+Y$ (where $\times,+$ indicate the usual product and coproduct in $Set$) with projections $\pi_1,\pi_2$ given on the domains of definition $(X\times Y)+X$ (resp. $(X\times Y)+Y$) by $\pi_1((x,y))=x$ and $\pi_1(x)=x$ (resp. $\pi_2((x,y))=y$ and $\pi_2(y)=y$). Since the [[initial object]] $\empty$ is not [[strict initial object|strict]], $Pfn$ is not distributive.
+* The category $Pfn$ of sets and [[partial functions|partial functions]] has finite coproducts and products. The former given by [[disjoint unions]] as in [[Set]] and the latter by $(X\times Y)+X+Y$ (where $\times,+$ indicate the usual product and coproduct in $Set$) with projections $\pi_1,\pi_2$ given on the domains of definition $(X\times Y)+X$ (resp. $(X\times Y)+Y$) by $\pi_1((x,y))=x$ and $\pi_1(x)=x$ (resp. $\pi_2((x,y))=y$ and $\pi_2(y)=y$). Since the [[initial object]] $\empty$ is not [[strict initial object|strict]], $Pfn$ is not distributive.
 
 
 [^Freyd]: Pointed out by [[Peter Freyd]] in [this discussion](https://www.mta.ca/~cat-dist/catlist/1999/extensive).
