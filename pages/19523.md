@@ -224,13 +224,28 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#ACDDK17} Julian Adamek, Chris Clarkson, David Daverio, Ruth Durrer, Martin Kunz, _Safely smoothing spacetime: backreaction in relativistic cosmological simulations_ ([arXiv:1706.09309](https://arxiv.org/abs/1706.09309))
 
-* {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+* {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_,  ApJ Letters ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
 * {#SarkarEtAl18} J. Colin, R. Mohayaee, M. Rameez, [[Subir Sarkar]], _Apparent cosmic acceleration due to local bulk flow_ ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
 
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
+
+### No effective dark energy from inhomogeneity
+ {#ReferencesNoEffect}
+
+In constrast, arguments that cosmic inhomogeneity can not be the cause of any sizeable amount of effective dark energy are advanced in the following articles:
+
+* {#GeshnizjaniChungAfshordi05} Ghazal Geshnizjani, Daniel J.H. Chung, Niayesh Afshordi, _Do Large-Scale Inhomogeneities Explain Away Dark Energy?_, Phys.Rev. D72 (2005) 023517 ([arXiv:astro-ph/0503553](https://arxiv.org/abs/astro-ph/0503553))
+
+* {#SiegelFry05} E. R. Siegel, J. N. Fry, _Effects of Inhomogeneities on Cosmic Expansion_, Astrophys.J. 628 (2005) L1-L4 ([arXiv:astro-ph/0504421](https://arxiv.org/abs/astro-ph/0504421))
+
+* {#Flanagan05} Eanna E. Flanagan, _Can superhorizon perturbations drive the acceleration of the Universe?_, Phys.Rev. D71 (2005) 103521 ([arXiv:hep-th/0503202](https://arxiv.org/abs/hep-th/0503202))
+
+* {#MarozziUzan12} Giovanni Marozzi, Jean-Philippe Uzan, _Late time anisotropy as an imprint of cosmological backreaction_ ([arXiv:1206.4887](https://arxiv.org/abs/1206.4887))
+
+* {#BDGMNV13} Ido Ben-Dayan, Maurizio Gasperini, Giovanni Marozzi, Fabien Nugier, [[Gabriele Veneziano]], _Do stochastic inhomogeneities affect dark-energy precision measurements?_, Phys. Rev. Lett. 110, 021301 (2013) ([arXiv:1207.1286](https://arxiv.org/abs/1207.1286))
 
 ### Lemaitre-Tolman-Bondi models
 
