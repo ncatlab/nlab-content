@@ -220,10 +220,10 @@ $$
 such that 
 
 $$
-  \mu(x,\iota(x)) = x
+  \mu(x,\iota(x)) = 0
   \;\;\;\,,
   \;\;\;
-  \mu(\iota(x),x) = x
+  \mu(\iota(x),x) = 0
   \,.
 $$
 
