@@ -51,6 +51,8 @@ More generally, this construction yields something like a decomposition of the [
 
 ## Related concepts
 
+* [[M5-brane elliptic genus]]
+
 * [[duality in physics]], [[duality in string theory]]
 
 * [[Nekrasov function]]
@@ -59,7 +61,11 @@ Wrapping the [[M5-brane]] on a [[3-manifold]] instead yields: [[3d-3d correspond
 
 ## References
 
-The original articles are
+A [[2d SCFT]] argued to describe the  [[KK-compactification]] of the [[M5-brane]] on a [[4-manifold]] (specifically: a [[complex surface]]) originates with
+
+* [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, JHEP 9712:002, 1997 ([arXiv:hep-th/9711053](https://arxiv.org/abs/hep-th/9711053))
+
+The origin of the AGT correspondence is:
 
 * {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
 
@@ -136,10 +142,6 @@ The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]]
 
 * G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_ ([arxiv/1302.3778](http://arxiv.org/abs/1302.3778))
 
-
-Discussion of the [[Witten genus]] as an [[M5-brane]] [[partition function]] seen under an [[AGT correspondence]]:
-
-* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
 
 
 
