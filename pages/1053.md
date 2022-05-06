@@ -7,16 +7,15 @@
 [[!include foundations - contents]]
 =--
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 #### Monoidal categories
-+--{: .hide}
++-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
 =--
 =--
-
 
 # Contents
 * table of contents
@@ -340,6 +339,28 @@ One sometimes thinks of the exponentials as coming from infinitary applications 
 
 All of these justify the rules for the exponentials, so again we see that there may be many ways to satisfy these rules.
 
+
+## Interpretation in constructive mathematics {#antithesis}
+
+[[Mike Shulman]] ([Shulman 2018](#Shulman2018)) has proposed an interpretation of linear logic for use in [[constructive mathematics]], called the _antithesis interpretation_.
+
+The motivation here is that in much of constructive mathematics, especially (but not only) in [[constructive analysis]], statements of interest seem to come in pairs, a statement $P^+$ that amounts to a constructive version of a well-known statement $P^{\mathrm{C}}$ from [[classical mathematics]], and a statement $P^-$ that amounts to a constructive version of $\neg{P^{\mathrm{C}}}$, and which is equivalent to $\neg{P^-}$ in [[classical logic]], but which is not the same as $\neg{P^-}$ in [[intuitionistic logic]] (being sometimes stronger, sometimes weaker, sometimes neither).  For example, if $P^{\mathrm{C}}$ is the claim that some [[real number]] $x$ is [[rational number|rational]], then $P^+$ is
+
+$$ \exists\, q \in \mathbb{Q},\; \neg\, (x \# q) $$
+
+(the conventional meaning of &lsquo;$x$ is rational&rsquo; in constructive analysis), while $P^-$ is
+
+$$ \forall\, q \in \mathbb{Q},\; (x \# q) $$
+
+(the conventional meaning of &lsquo;$x$ is [[irrational number|irrational]]&rsquo; in constructive analysis); here, $\#$ is the standard [[apartness relation]] between real numbers (whose [[negation]] is the [[equality relation]]).  As you can see, the two statements are [[de Morgan duality|de Morgan dual]] to one another, and so are negations of each other in classical logic, but neither is the negation of the other in intuitionistic logic.
+
+That such pairs of statements commonly arise is a truism in constructive mathematics.  The point of the antithesis interpretation is that the pair $(P^+, P^-)$ may be derived systematically from a single statement $P^{\mathrm{L}}$ in linear logic.  And this is a [[sound interpretation]], in that any reasoning valid in linear logic (or even [[affine logic]]) will be constructively valid for both statements; that is, if $P^{\mathrm{L}} \vdash Q^{\mathrm{L}}$ in linear logic, then $P^+ \vdash Q^+$ and $Q^- \vdash P^-$ in constructive logic.  Therefore, as long as the reasoning is linear (or at least affine), one can prove intuitionistic theorems about both at once.
+
+The antithesis interpretation also explains why there are often both weak and strong versions of $P^-$ (or even $P^+$ sometimes), having especially to do with the interpretation of [[disjunction]].  This comes up already in defining what a [[set]] is, because of the nature of the [[equality relation]] on a set $S$.  As in the example about about rational and irrational real numbers, every set should also be equipped with an antithesis [[inequality relation]] $\#$, and the axioms for this may be derived from the axioms for an equality relation.  The [[transitive relation|transitivity]] axiom for equality has two obvious interpretations in linear logic, which lead to two different interpretations in intuitionistic logic as axioms for $\#$, a weak version (intepreting $\parr$) stating (for elements $x, y, z$ of $S$) that if $x \# z$, then $y \# z$ if $x = y$, and $x \# y$ if $y = z$; and a strong version (interpreting $\oplus$) stating that if $x \# z$, then $x \# y$ or $y \# z$.  (The weak version really does follow from the strong version because we also automatically have that $x = y$ and $x \# y$ can never both be true.)  Ultimately, the weak version says only that $\ne$ is an [[inequality relation]] on the set $S$, while the strong version says that $\ne$ is an [[apartness relation]].
+
+Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint subsets.
+
+
 ## Related concepts
 
 * [[bounded linear logic]]
@@ -492,6 +513,14 @@ The categorical semantics of differential linear logic is introduced in:
 
 * [[Richard Blute]], [[Robin Cockett]], [[Robert Seely]], _Differential Categories_, Mathematical structures in computer science 16.6 (2006): 1049-1083.([pdf](https://pdfs.semanticscholar.org/82b0/f9533b451d174f407b35e1c39e2376138ac2.pdf)) 
 {#Blute-Cockett-Seely06}
+
+
+The antithesis interpretation is
+
+* [[Michael Shulman]], 2018. _Linear logic for constructive mathematics_. [arXiv:1805.07518](https://arxiv.org/abs/1805.07518).
+  {#Shulman2018}
+
+(This is a prepublication version that does not yet include the name 'antithesis interpretation', which was suggested by a referee.  We must link to the published version when available.)
 
 
 
