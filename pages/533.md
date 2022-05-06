@@ -304,5 +304,3 @@ and in section 2 of
 [[!redirects strict n-categories]]
 [[!redirects strict infinity-category]]
 [[!redirects strict infinity-categories]]
-[[!redirects strict ∞-category]]
-[[!redirects strict ∞-categories]]
