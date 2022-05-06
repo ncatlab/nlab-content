@@ -183,7 +183,9 @@ Theorem \ref{AdameksTheorem} applies in particular to any functor $F: Set \to Se
 
 ## Related entries
 
-* [[inductive type]], **initial algebra of an endofunctor**
+* [[inductive type]]
+
+* [[inductive-recursive type]],  [[algebraically compact category]]
 
 * [[higher inductive type]], [[initial algebra of a presentable ∞-monad]]
 
