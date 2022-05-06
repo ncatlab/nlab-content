@@ -243,6 +243,13 @@ Together these two innocent modifications make the graphs now represent [[vacuum
 
 This yields higher [[Vassiliev knot invariants]], a good review is in [Volić 13](#Volic13).
 
+\linebreak
+
+### Model for other spaces
+
+There are yet other, inequivalent, graph complexes. Notably there is a type of graph complex whose (co)homology in degree 0 is the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]] ([Willwacher 10](#Willwacher10), [Dolgushev-Rogers 12](#DolgushevRogers12)), and this is neither of the above two cases. (...)
+
+
 
 ## Definition
  {#GraphComplex}
@@ -1794,6 +1801,10 @@ Concrete examples of cohomology classes in certain bi-degrees in $Graphs_0(\math
 $H^0\big( Graphs_0(\mathbb{R}^2) \big)$ is the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]:
 
 * {#Willwacher10} [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, Invent. math. (2015) 200: 671 ([arxiv:1009.1654](http://arxiv.org/abs/1009.1654))
+
+* {#DolgushevRogers12} [[Vasily Dolgushev]], [[Christopher Rogers]], _Notes on Algebraic Operads, Graph Complexes, and Willwacher's Construction_, In: Mathematical aspects of quantization 583 (2012): 25-145. ([arXiv:1202.2937](https://arxiv.org/abs/1202.2937))
+
+* [[Vasily Dolgushev]], _A manifestation of the Grothendieck-Teichmuellergroup in geometry_ ([slides pdf](https://math.temple.edu/~vald/AMSslides.pdf))
 
 More:
 
