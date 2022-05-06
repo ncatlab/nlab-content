@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -119,17 +118,17 @@ subject to the following relations, called the **simplicial relations** or **[[s
 
 $$
   \array{
-     \delta_j^{n+1} \circ \delta_i^n
+     \delta_i^{n+1} \circ \delta_j^n
      =
-     \delta_i^{n+1}\circ \delta_{j-1}^n
+     \delta_{j+1}^{n+1}\circ \delta_i^n
      &
-     \qquad 0 \leq i \lt j \leq n
+     \qquad i \leq j
      \\
      \sigma_j^n \circ \sigma_i^{n+1}
      =
      \sigma_i^n \circ \sigma_{j+1}^{n+1}
      &
-     \qquad 0 \leq i \leq j \lt n
+     \qquad i \leq j
   }
 $$
 $$
@@ -139,18 +138,24 @@ $$
     \array{
       \delta_i^n \circ \sigma_{j-1}^{n-1}
       &
-      \qquad 0 \leq i \lt j \lt n
+      \qquad i \lt j 
       \\
       Id_n
       &
-      \quad 0 \leq j \lt n \quad and\quad i = j \;or\; i = j+1
+      \qquad i = j \;or\; i = j+1
       \\
       \delta^n_{i-1} \circ \sigma_{j}^{n-1}
       &
-      \qquad 0 \leq j \quad and\quad j +1 \lt i \leq n
+      \qquad j+1 \lt i
     }
   \right.
 $$
+whenever $i, j$ are chosen so that the maps are defined. For example, in 
+$$\delta_i^{n+1} \circ \delta_j^n
+     =
+     \delta_{j+1}^{n+1}\circ \delta_i^n
+$$
+we implicitly require      $0 \leq i, j \leq n$.
 
 =--
 
@@ -189,7 +194,7 @@ It is easy to see now that $(\Delta_a,\oplus,\mathbf{0})$ is a [[strict monoidal
 
 It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as that category does not contain the unit $\mathbf{0} = [-1] = \emptyset$.
 
-Also note that this [[monoidal structure]] is _not_ [[symmetric monoidal category|symmetric]]!  One does have isomorphisms $\mathbf{m} \oplus \mathbf{n} \simeq \mathbf{n+m} \simeq \mathbf{n} \oplus \mathbf{m}$ for all $m,n$, but it is easy to see that they are not [[bifunctorial]].
+Also note that this [[monoidal structure]] is _not_ [[braided monoidal category|braided]]!  One does have isomorphisms $\mathbf{m} \oplus \mathbf{n} \simeq \mathbf{n+m} \simeq \mathbf{n} \oplus \mathbf{m}$ for all $m,n$, but it has to be the identity on $\mathbf{n+m}$, and that is not [[bifunctorial]].
 
 Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
 
@@ -286,7 +291,7 @@ different morphisms $\mathbf{3} \to \mathbf{2}$, corresponding to the four funct
 1. $f(0) = f(1) = f(2) = 0$
 1. $f(0) = f(1) = f(2) = 1$
 
-A more direct [[bijective proof]] of the identity $|\Delta_a(\mathbf{m},\mathbf{n})| = \binom{n+m-1}{m}$ is also possible: see [this comment](http://nforum.ncatlab.org/discussion/3636/number-of-morphisms-in-the-simplex-category/?Focus=29835#Comment_29835) on the nForum.
+The [stars and bars argument](https://en.wikipedia.org/wiki/Stars_and_bars_%28combinatorics%29) gives a direct [[bijective proof]] of the identity $|\Delta_a(\mathbf{m},\mathbf{n})| = \binom{n+m-1}{m}$: see [this comment](http://nforum.ncatlab.org/discussion/3636/number-of-morphisms-in-the-simplex-category/?Focus=29835#Comment_29835) on the nForum.
 
 As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $\mathbf{n}$ (OEIS sequence [A088218](https://oeis.org/A088218), or [A001700](https://oeis.org/A001700) if we consider endomorphisms $[n] \to [n] \in \Delta$), while taking $m=2$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
