@@ -27,6 +27,8 @@ Any pseudocompact module is a [[linearly compact module]].
 
 * [[linearly compact module]]
 
+* [[pseudocompact ring]]
+
 ## References
 
 Pseudocompact modules were introduced in
