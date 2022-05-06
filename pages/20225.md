@@ -28,8 +28,9 @@ For $n \geq 2$, a **quaternionic manifold** is a real 4n-dimensional manifold M 
 
 When $\nabla$ does not exist $M$ is called _almost quaternionic_, and this is just a [[reduction of the structure group]] of $M$ along a [[Lie group]] inclusion $\text{GL}(n, \mathbf{H}) \hookrightarrow \text{GL}(4n, \mathbf{R})$. Note that the multiplicative group of the quaternions $\mathbf{H}^{\times}$ can be normalized, so that the second factor of $\text{GL} (n,\mathbf{H})\cdot \mathbf{H} ^{\times }$ is isomorphic to SU(2), or isomorphically again the first quaternionic unitary group Sp(1). Hence one occasionally finds the structure group reduction written $\text{GL} (n,\mathbf{H})\cdot \text{Sp}(1)$. 
 
++-- {: .num_defn}
+###### Remark
 
-### Discussion
 
 Other definitions have been given, based on the following useful but more naïve reasoning: consider two  [[almost complex structures]] on a smooth $4n$-manifold $M$, say $\langle M, I \rangle$ and $\langle M, J \rangle$, given the relation $\{ I, J \} =0$. Then call the structure $\langle M, I, J \rangle$ "almost quaternionic", and a map $\varphi:  \langle M, I, J \rangle \rightarrow \langle N, K, F \rangle$ of almost quaternionic structures "quaternionic" if it is separately [[complex analytic]] as a map $\langle M, I \rangle \rightarrow \langle N, K \rangle$ and also as a map $\langle M, J \rangle \rightarrow \langle N, F \rangle$.
 
@@ -37,6 +38,8 @@ When $\mathbf{R}^4$ is given a quaternionic multiplication with anti-commuting i
 $$ i \frac{\partial}{\partial u_3} = \frac{\partial }{\partial u _4}, j \frac{\partial }{ \partial u_2} = \frac{\partial }{\partial u_4}$$
 $$i \frac{\partial}{\partial u_1} = \frac{\partial }{\partial u_2}, j \frac{\partial }{\partial u_1 } = \frac{\partial }{\partial u_3}$$
 known as a starting point for defining a notion of "quaternionic [[holomorphy]]", since the Cauchy-Feuter complex consists of two separate [[Cauchy-Riemann]] systems in the imaginary units $i, j$. Such a complex exists on $\mathbf{R}^{4n}$ for any $n$ as an extended Cauchy-Fueter complex consisting of the systems above, repeated for each set of four coordinates. Hence, $\mathbf{R}^{4n}$ as a smooth manifold can always be endowed with an almost quaternionic structure. On this account of quaternionic structure, a _quaternionic $n$-manifold_ is then an almost quaternionic structure on a smooth manifold $M$ such that $M$ has an atlas of quaternionic maps, considered with respect to the standard quaternionic structure on $\mathbf{R}^{4n}$ just described. However, such a definition has serious drawbacks, such as the fact that quaternionic projective $n$-space $\mathbf{H}P^n := \text{Sp}(n + 1)/\text{Sp}(n)\text{Sp}(1)$ is not a "quaternionic manifold" in this sense for any $n$. It is, however, a quaternionic manifold under the official definition above. 
+
+=--
 
 ## Examples
 
@@ -80,7 +83,18 @@ Book references include:
 
 Classical references:
 
+* {#Bonan}  [[Edmond Bonan]], "Sur les G-structures de type quaternionien", Cahiers de topologie et géométrie différentielle catégoriques, tome 9, no 4 (1967), p. 389-463.
+
 * {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
+
+* {#alekseevski} [[Dmitry Alekseevsky]] and [[Stefano Marchiafava]], "Quaternionic-like structures on a manifold - note I. 1-integrability and integrability conditions", Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni, Serie 9, Vol. 4 (1993), n.1, p. 43–52.
+
+Holonomy, connections, and twistor spaces:
+
+* {#ivanov} Stefan Ivanov, Ivan Minchev, Simeon Zamkovoy, [Twistors of Almost Quaternionic Manifolds](https://arxiv.org/abs/math/0511525)
+
+* {#grantscharov} Gueo Grantcharov and Yat Sun Poon, [Geometry of Hyper-Kahler Connections with Torsion](https://arxiv.org/abs/math/9908015v1)
+
 
 See also
 
