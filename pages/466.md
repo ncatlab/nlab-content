@@ -270,6 +270,8 @@ For some of the details see at _[[regular semicategory]]_ and the references the
 
 * [[regular semicategory]]
 
+* [[Yoneda lemma for (∞,1)-categories]]
+
 \linebreak
 
 ## References
