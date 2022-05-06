@@ -120,6 +120,8 @@ By the univalence axiom, we often have nice characterizations of "the type of a 
 
 * [[modal homotopy type theory]]
 
+* [[higher structures]]
+
 ## References
 
 ### In higher topos theory
