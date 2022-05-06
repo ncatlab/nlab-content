@@ -51,6 +51,8 @@ See at those entries for more.
 
 ## References
 
+### General
+
 For [[complex cobordism theory]] see the references there. 
 
 Original articles include
@@ -72,6 +74,14 @@ The [[twisted cohomology|twisted]] and [[equivariant cohomology|equivariant]] ve
 * {#Cruickshank99} [[James Cruickshank]], _Twisted  Cobordism and its Relationship to Equivariant Homotopy Theory_, 1999 ([pdf](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk1/tape9/PQDD_0030/NQ46823.pdf), [[Cruickshank99.pdf:file]])
 
 * {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+
+### Relation to divisors
+
+Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycles]] and [[Chow groups]]:
+
+* [[Burt Totaro]], _Torsion algebraic cycles and complex cobordism_, J. Amer. Math. Soc. 10 (1997), 467-493 ([doi:10.1090/S0894-0347-97-00232-4](https://doi.org/10.1090/S0894-0347-97-00232-4))
+
+* [MO discussion](https://mathoverflow.net/a/272131/381)
 
 
 
