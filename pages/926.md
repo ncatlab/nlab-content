@@ -862,7 +862,7 @@ Discussion for [[homotopy types]] modeled by [[crossed complexes]]/[[strict ∞-
 and for $n$-[[hypergroupoids]] in the thesis,
 
 * M. A. Garc&#237;a-Munoz,  2003, _Un aceramiento algebraico a la theor&#237;a de 
-Torres de Postnikov_, [thesis](http://0-hera.ugr.es.adrastea.ugr.es/tesisugr/16555065.pdf),  Universidad de Granada. 
+Torres de Postnikov_, [thesis](https://digibug.ugr.es/handle/10481/1419),  Universidad de Granada. 
 
 This also contains a good discussion of the link with twisted cohomology and homotopy colimits.
 
