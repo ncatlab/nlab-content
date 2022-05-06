@@ -104,16 +104,19 @@ See at _[[QCD trace anomaly]]_.
 
 Introductions include
 
-* Peter Skands, _Introduction to QCD_ ([arXiv:1207.2389](https://arxiv.org/abs/1207.2389))
+* Peter Skands, _Introduction to QCD_ ([arXiv:1207.2389](https://arxiv.org/abs/1207.2389), [doi:10.1142/9789814525220_0008](https://doi.org/10.1142/9789814525220_0008))
 
 * Y. Kurihara, _QCD at LHC for beginners_ Lesson 1 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_1.pdf)), Lesson 2 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_2.pdf)) Lesson 3 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_3.pdf))
 
 * Particle Data Group, _Quantum Chromodynamics_ ([pdf](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-qcd.pdf))
 
-Textbook account with [[phenomenology|phenomenological]] emphasis:
+Textbooks:
+
+* B. L. Ioffe , V. S. Fadin, L. N. Lipatov, _Quantum Chromodynamics -- Perturbative and Nonperturbative Aspects_, Cambridge University Press (2010) ([doi:10.1017/CBO9780511711817](https://doi.org/10.1017/CBO9780511711817))
+
+with emphasis on [[phenomenology]]:
 
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
-
 
 Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is discussed in
 
