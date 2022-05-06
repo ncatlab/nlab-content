@@ -20,7 +20,7 @@
 
 ## Statement
 
-The [[coset space]] of [[Spin(9)]] by [[Spin(7)]] is [[homeomorphism|homeomorphic]] to the [n-sphere|15-sphere]:
+The [[coset space]] of [[Spin(9)]] by [[Spin(7)]] is [[homeomorphism|homeomorphic]] to the [[n-sphere|15-sphere]]:
 
 $$
   Spin(9)/Spin(7)
