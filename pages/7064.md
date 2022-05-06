@@ -230,7 +230,7 @@ Moreover,
 
 Introductions and surveys include
 
-* Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://web.stanford.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
+* Alex Wright, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www-personal.umich.edu/~alexmw/HomotopyGroupsOfSoheres.pdf))
 
 * {#WangXu10} [[Guozhen Wang]], Zhouli Xu _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf))
 
