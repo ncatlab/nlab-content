@@ -23,13 +23,13 @@
 
 ## Idea
 
-The [[Dirac charge quantization|quarge quantization]] of [[D-brane charge]]/[[RR-fields]] in [[twisted K-theory|twisted]] [[equivariant K-theory]] [[differential K-theory|differential]] [[topological K-theory]].
+The [[Dirac charge quantization|charge quantization]] of [[D-brane charge]]/[[RR-fields]] in [[twisted K-theory|twisted]] [[equivariant K-theory]] [[differential K-theory|differential]] [[topological K-theory]].
 
 (...)
 
 ## Properties
 
-### Holographic relation to K-theory classification of tpological phases of matter
+### Holographic relation to K-theory classification of toplogical phases of matter
 
 Under [[AdS/CFT duality in solid state physics]] the [[K-theory classification of topological phases of matter]] corresponds to the [[K-theory classification of D-brane charge]] ([Ryu-Takayanagi 10a](#RyuTakayanagi10a), [Ryu-Takayanagi 10v](#RyuTakayanagi10b)).
 
