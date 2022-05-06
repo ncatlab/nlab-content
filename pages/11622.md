@@ -68,7 +68,7 @@ on the one hand there is naturally a [[cubical structure on a line bundle]] on t
 ## Relation to S-duality and 3-form flux
  {#RelationToSDualityAnd3FormFlux}
 
-The refined perspective on [[perturbative string theory|perturbative]] [[type II string theory]] is that (see also at _[[orientifold]]_) the [[B-field]] is a [[cocycle]] in ([[twisted cohomology|twisted]]) [[ordinary differential cohomology]], while the [[RR-field]] is a [[cocycle]] in [[differential K-theory]] (im fact [[KR-theory]]). This is however not compatible with [[non-perturbative effect|non-perturbative]] [[S-duality]], which mixes the degree- components here. 
+The refined perspective on [[perturbative string theory|perturbative]] [[type II string theory]] is that (see also at _[[orientifold]]_) the [[B-field]] is a [[cocycle]] in ([[twisted cohomology|twisted]]) [[ordinary differential cohomology]], while the [[RR-field]] is a [[cocycle]] in [[differential K-theory]] (in fact [[KR-theory]]). This is however not compatible with [[non-perturbative effect|non-perturbative]] [[S-duality]], which mixes the degree- components here. 
 
 In ([DFM 03, section 9.3](supergravity+C-field#DiaconescuFreedMoore03)) it was argued that the cubical structure on the 11d CS term alleviates this problem, even though at face value it does not really solve it. But see at _[S-duality -- Cohomological nature of type II fields](S-duality#CohomologicalNatureOfTypeIIFieldsUnderSDuality)_ for more on this.
 
