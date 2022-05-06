@@ -43,6 +43,9 @@ On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of s
 
 * {#He18b} [[Yang-Hui He]], _Deep-learning the landscape_, talk at _[String and M-Theory: The new geometry of the 21st century](https://ims.nus.edu.sg/events/2018/wstring/wk.php)_ ([pdf slides](https://ims.nus.edu.sg/events/2018/wstring/files/yang.pdf), [video recording](https://www.youtube.com/watch?v=x3ThgBgkPlE))
 
+Relating the [[abc conjecture]] to [[D=4 N=4 super Yang-Mills theory]]:
+
+* [[Yang-Hui He]], Zhi Hu, Malte Probst, James Read, _Yang-Mills Theory and the ABC Conjecture_,  International Journal of Modern Physics A Vol. 33, No. 13, 1850053 (2018)  ([arXiv:1602.01780](https://arxiv.org/abs/1602.01780), [doi:10.1142/S0217751X18500537](https://doi.org/10.1142/S0217751X18500537))
 
 ## Related $n$Lab entries
 
