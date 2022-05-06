@@ -23,7 +23,7 @@
 
 A **diffeological space** is a type of [[generalized smooth space]].  As with the other variants, it subsumes the notion of [[smooth manifold]] but also naturally captures other spaces that one would like to think of as smooth spaces but aren't manifolds; for example, the space of all smooth maps between two smooth manifolds can be made into a diffeological space. (These mapping spaces are rarely manifolds themselves, see [[manifolds of mapping spaces]].)
 
-In a little more detail, a **diffeology**, $\mathcal{D}$ on a set $X$ is a [[presheaf]] on the category of open subsets of Euclidean spaces with smooth maps as morphisms.  To each open set $U \subseteq \mathbb{R}^n$, it assigns a subset of $\Set(U,X)$.  The functions in $\Set(U,X)$ are to be regarded as the "smooth functions" from $U$ to $X$.  A **diffeological space** is then a set together with a diffeology on it.
+In a little more detail, a **diffeology**, $\mathcal{D}$ on a set $X$ is a [[presheaf]] on the [[category of open subsets]] of Euclidean spaces with smooth maps as morphisms.  To each open set $U \subseteq \mathbb{R}^n$, it assigns a subset of $\Set(U,X)$.  The functions in $\Set(U,X)$ are to be regarded as the "smooth functions" from $U$ to $X$.  A **diffeological space** is then a set together with a diffeology on it.
 
 Diffeological spaces were originally introduced in ([Souriau 79](#Souriau79)). They have subsequently been developed in the textbook ([Iglesias-Zemmour 13](#PIZ))
 
@@ -60,7 +60,7 @@ A diffeological space is equivalently a [[concrete sheaf]] on the [[concrete sit
 The [[full subcategory]]
 
 $$
-  DiffeologicalSpace \hookrightarrow Sh(CartSp)
+  DiffeologicalSpaces \hookrightarrow Sh(CartSp)
 $$
 
 on all concrete sheaves is not a [[topos]], but is a [[quasitopos]].
@@ -104,16 +104,51 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 
 ## Properties
 
+### Relation to topological spaces
+ {#RelationToTopologicalSpaces}
+
+Write 
+
+* [[Top|TopologicalSpace]] for the [[category]] of [[topological space]]
+
+* [[DiffeologicalSpaces]] for the [[category]] of [[diffeological spaces]]. 
+
+Then there is a pair of [[adjoint functors]] (e.g. [SYH 10, 3.1](#SYH10))
+
+$$
+  TopologicalSpaces
+  \underoverset{
+    \underset{
+      i
+    }{\longrightarrow}
+  }{
+    \overset{
+      U
+    }{\longleftarrow}
+  }{\bot}
+  DiffeologicalSpaces
+$$
+
+where
+
+* i takes a [[topological space]] $X$ to the diffeological space whose plots $U \to X$ are [[continuous functions]] (from the underlying [[topological space]] of the domain $U$). 
+
+* $U$ equips the underlying set $X_{set}$ of a diffeological space with the [[final topology]] that makes all its plots $U_{set} \to X_{set}$ into [[continuous functions]]: called the _[[D-topology]]_ (see also [CSW 13](#CSW13)).
+
+spring
+
+
+
 ### Embedding of smooth manifolds into diffeological spaces
  {#EmbeddingOfSmoothManifoldsIntoDiffeoloticalSpaces}
 
 +-- {: .num_prop}
 ###### Proposition
 
-The obvious functor from the category [[Diff]] of [[smooth manifold]]s to the category of diffeological spaces is a [[full and faithful functor]]
+The obvious functor from the [[category]] [[SmoothManifolds]] of [[smooth manifolds]] to the [[category]] [[DiffeologicalSpaces]] of diffeological spaces is a [[full and faithful functor]]
 
 $$
-  Diff \to DiffeologicalSpace
+  SmoothManifolds \hookrightarrow  DiffeologicalSpacess
   \,.
 $$
 
@@ -122,9 +157,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is a direct consequence of the fact that [[CartSp]]$_{smooth}$ is a [[dense sub-site]] of [[Diff]] and the [[Yoneda lemma]]. 
+This is a direct consequence of the fact that [[CartSp]]$_{smooth}$ is a [[dense sub-site]] of [[SmoothManifolds]] and the [[Yoneda lemma]]. 
 
-It may nevertheless be useful to spell out a pedestrian proof.
+It may nevertheless be useful to spell out the elementary proof directly:
 
 To see that the functor is faithful, notice that if $f,g : X \to Y$ are two [[smooth function]]s that differ at some point, then they must differ in some [[open neighbourhood]] of that point. This [[open ball]] is a plot, hence the corresponding diffeological spaces differ on that plot.
 
@@ -311,9 +346,12 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 
 * [[smooth set]]
 
+* [[Diff]]
+
 * [[diffeological groupoid]], [[diffeological ∞-groupoid]]
 
 * [[connectology]]
+
 
 ## References 
  {#References}
@@ -410,7 +448,9 @@ The preservation of [[mapping spaces]] under this embedding is due to
 
 The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
 
-* [[Dan Christensen|J. Daniel Christensen]], Gord Sinnamon, Enxin Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
+* {#SYH10} K. Shimakawa, K. Yoshida, T. Haraguchi, _Homology and cohomology via enriched bifunctors_ ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336))
+
+* {#CSW13} [[Dan Christensen]], Gord Sinnamon, Enxin Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
 
 Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topological spaces]] is discussed in 
 
@@ -447,3 +487,5 @@ On [[orbifolds]] regarded as naive local quotient diffeological spaces:
 
 [[!redirects Chen smooth space]]
 [[!redirects Chen smooth spaces]]
+
+[[!redirects D-topology]]
