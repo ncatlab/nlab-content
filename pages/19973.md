@@ -145,6 +145,10 @@ Lecture notes:
 
 * {#Zupan19} Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
 
+With an emphasis on [[CP-violation]]:
+
+* [[Antonio Pich]], _Flavour Dynamics and Violations of the CP Symmetry_, Lectures at the 2017 and 2019 CERN - Latin-American Schools of High-Energy Physics ([arXiv:1805.08597](https://arxiv.org/abs/1805.08597))
+
 With an emphasis on the [[neutrino]]-sector:
 
 * Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_ ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610))
@@ -177,7 +181,10 @@ On the [[flavor problem]] in the [[MSSM]]:
 
 ### Flavour anomalies
 
-Outlook on the field of flavour physics in view of [[LHCb]]-measurement of [[flavour anomalies]]
+Outlook on the field of flavour physics in view of [[LHCb]]-measurement of [[flavour anomalies]] and [[CP violation]]:
+
+
+
 
 * [[Benjamin Grinstein]], _A path to flavor_, talk at _[Implications of LHCb measurement and future prospects](https://indico.cern.ch/event/769902/)_ CERN 2019 ([pdf](https://indico.cern.ch/event/769902/contributions/3582540/attachments/1926501/3193107/Grinstein-high-res.pdf), [[GrinsteinFlavor2019.pdf:file]], [indico:3582540](https://indico.cern.ch/event/769902/contributions/3582540))
 
