@@ -17,7 +17,9 @@
 
 ## Idea
 
-In the construction of the [[NSR string]] as a [[2d SCFT]] from a supersymmetric [[sigma-model]] one needs to remove one half of the [[sigma-model]]-excitations in order to achieve that the resulting [[2d SCFT]] satisfies [[modular invariance]], hence that it is defined not just on the [[complex plane]] but also on [[tori]]. This halfing of the naive sigma-model spectrum is called the _GSO projection_, after [GSO 77](#GSO77).
+In the construction of the [[NSR string|NSR]] [[superstring]] as a [[2d SCFT]] from a [[supersymmetry|supersymmetric]] [[sigma-model]] one needs to remove one half of the [[sigma-model]]-excitations in order to achieve that the resulting [[2d SCFT]] satisfies [[modular invariance]], hence that it is defined not just on the [[complex plane]] but also on [[tori]]. This halfing of the naive sigma-model spectrum is called the _GSO projection_, after [GSO 77](#GSO77).
+
+Depending on how the GSO projection is chosen, one gets [[type IIA string theory]], [[type IIB string theory]] or [[type 0 string theory]].
 
 A good account is in [Majer, sections 1.3 and 2](#Majer).
 
