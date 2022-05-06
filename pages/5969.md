@@ -224,6 +224,8 @@ The WZW term of the [[Green-Schwarz super p-brane sigma models]] is invariant un
 
 * [[current algebra]]
 
+* [[hadron current]]
+
 * [[chiral anomaly]]
 
 * [[classical observable]]
