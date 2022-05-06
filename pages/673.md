@@ -1,7 +1,11 @@
 
 [[!redirects David Roberts]]
 
+
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="225" src="https://ncatlab.org/nlab/files/DavidRoberts2014.jpg" alt="David Roberts speaking at Herriot-Watt, June 2014" title="Speaking at Herriot-Watt, June 2014"/></div>
+
+
+
 
 I am currently a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
@@ -9,9 +13,14 @@ I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stac
 
 I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015. For the period July-2017 to February 2018 I was a Lecturer in the School of Mathematical Sciences.
 
-You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](https://publons.com/a/430214/)|[theHigherGeometer](https://thehighergeometer.wordpress.com/)
+You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905), [Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en), [MathOverflow](https://mathoverflow.net/users/4177/david-roberts), [arXiv](https://arxiv.org/a/roberts_d_1.html), [ORCiD](http://orcid.org/0000-0002-3478-0522), [Publons](https://publons.com/a/430214/), or my blog, [theHigherGeometer](https://thehighergeometer.wordpress.com/).
 
-If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat prime]])@gmail.[etc]
+If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat prime]])@gmail.[etc] or [first].[last]@adelaide.edu.au
+
+
+* table of contents
+{:toc}
+
 
 ## Writing
 
@@ -19,7 +28,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _The construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title)
 
-* _Extending Whitney's extension theorem_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
+* _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
 * _Class forcing and topos theory_ (2018) notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
 
@@ -66,22 +75,21 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 ### In preparation
 
 
-* _Two rational maps that generate $\pi_1^s$_ (working title)
-
-* _Homogeneous 2-bundles_
-
-* _From code loops to 2-groups_
+* _(Re)constructing code loops_, joint with Ben Nagy.
 
 * _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
 
+
+
 ### Other
+
+* _No Ancient Scottish Evidence of Fifth Platonic Solid_, Letter to the Editor, Notices of the American Mathematical Society **65** no 6 (2018) p 677 ([link](https://www.ams.org/journals/notices/201806/rnoti-p676.pdf))
 
 * _What do mathematicians think about their journals? Peer review quality tops list of stated issues_, LSE Impact Blog, June 22 2016 [Blog post](http://blogs.lse.ac.uk/impactofsocialsciences/2016/06/22/what-do-mathematicians-think-about-their-journals-peer-review-quality-tops-list-of-stated-issues/) (joint with Cameron Neylon and Mark C. Wilson)
 
 * Review of _Mathematics without apologies: Portrait of a problematic vocation_ by Michael Harris. ([publisher's page](http://press.princeton.edu/titles/10317.html)) Appears in: Gazette of the Australian Mathematical Society, Vol. 43 (2016) No. 2 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2016/May16/BkRev.pdf))
 
-* Contribution to _The "Bounded Gaps between 
-Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
+* Contribution to _The "Bounded Gaps between Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
 
 * Review of _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21. ([publisher's page](https://www.cambridge.org/us/academic/subjects/mathematics/real-and-complex-analysis/lectures-real-analysis))
 Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
@@ -125,9 +133,9 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 The complete list is [[davidroberts:talks|here]].
 
-## Teaching
+## Supervision and teaching
 
-See [[davidroberts:teaching/students|here]] for a list of courses I have taught.
+See [[davidroberts:teaching/students|here]] for a list of student projects I have supervised and courses I have taught.
 
 ## Copyright statement ##
 
