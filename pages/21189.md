@@ -197,6 +197,11 @@ As [[quantum hadrodynamics]]:
 
 * [[Heinrich Leutwyler]], _On the Foundations of Chiral Perturbation Theory_, Annals Phys. 235 (1994) 165-203 ([arXiv:hep-ph/9311274](https://arxiv.org/abs/hep-ph/9311274))
 
+At higher order:
+
+* Nils Hermansson-Truedsson, _Chiral Perturbation Theory at NNNLO_ ([arXiv:2006.01430](https://arxiv.org/abs/2006.01430))
+
+
 
 Specifically for [[kaon]] decay:
 
