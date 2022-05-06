@@ -156,7 +156,7 @@ By generalizing the notion of [[Chern character]] to richer $(\infty,1)$-toposes
 
 **Slogan.**
 
-Thousands of definitions of notions of cohomology and its variants. From the [[nPOV]], just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. 
+Thousand and one definitions of notions of cohomology and its variants. From the [[nPOV]], just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. 
 
 =--
 
