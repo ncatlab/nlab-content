@@ -56,7 +56,11 @@ For discussion of relation to [[Planck length]] and [[string coupling constant]]
 
 In the [[limit of a sequence|limit]] $T_s \to 0$, $\ell_s \to \infty$ of vanishing string tension, [[string field theory]] is supposed to become Vasiliev's [[higher spin gauge theory]]. See there for more.
 
+
+
 ## Related concepts
+
+* [[Regge slope]]
 
 [[!include fundamental scales -- contents]]
 
