@@ -382,7 +382,7 @@ Further literature emphasising the perspective of  [[Dirac-Ramond operators]] as
 
 * [[Orlando Alvarez]], [[Paul Windey]], _Analytic index for a family of Dirac-Ramond operators_, Proc. Natl. Acad. Sci. USA, 107(11):4845&#8211;4850, 2010
 
-The observation thazt the realization of the [[Dirac-Ramond operator]] as a [[Dirac operator on smooth loop space]] would realize superstring quantum dynamics as [[supersymmetric quantum mechanics]] on [[smooth loop space]] is what inspired the observations in
+The observation that the realization of the [[Dirac-Ramond operator]] as a [[Dirac operator on smooth loop space]] would realize superstring quantum dynamics as [[supersymmetric quantum mechanics]] on [[smooth loop space]] is what inspired the observations in
 
 * {#Witten82} [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire](http://inspirehep.net/record/176416?ln=de))
 
@@ -397,9 +397,9 @@ and
 Formalization via [[super vertex operator algebras]] is discussed
 in 
 
-* Hirotaka Tamanoi, _Elliptic Genera and Vertex Operator Super-Algebras_, 1999
+* Hirotaka Tamanoi, _Elliptic Genera and Vertex Operator Super-Algebras_, Springer 1999 ([doi:10.1007/BFb0092541](https://link.springer.com/book/10.1007/BFb0092541))
 
-* {#DLM02} Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _Elliptic genus and vertex operator algebras_ ([arXiv:math/0201135](http://arxiv.org/abs/math/0201135))
+* {#DLM02} Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _Elliptic genus and vertex operator algebras_, Algebr. Geom. Topol. 1 (2001) 743-762 ([arXiv:math/0201135](http://arxiv.org/abs/math/0201135), [doi:10.2140/agt.2001.1.743](http://dx.doi.org/10.2140/agt.2001.1.743))
 
 and for  the [[topological twist|topologically twisted]] [[2d (2,0)-superconformal QFT]] (the [[heterotic string]] with enhanced supersymmetry) via [[sheaves of vertex operator algebras]] in
 
