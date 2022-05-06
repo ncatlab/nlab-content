@@ -18,9 +18,10 @@ The [[Narasimhan–Seshadri theorem]] asserts that the moduli space of [[flat co
 
 ## Related concepts
 
-* [[moduli space of connections]]
-
 * [[geometric Langlands correspondence]]
+
+[[!include moduli spaces -- contents]]
+
 
 ## References
 
