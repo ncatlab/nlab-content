@@ -3373,9 +3373,9 @@ $$
      \\
      Q(B)
        &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}&
-     Z
-       &\underoverset{pr_2}{\in W}{\longleftarrow}&
-     W \underset{Q(X)}{\times} X
+     W
+       &\underoverset{pr_1}{\in W}{\longleftarrow}&
+     W \underset{Q(Y)}{\times} Y
   }
   \,.
 $$
@@ -3411,13 +3411,13 @@ Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factoriza
 So we may conclude by showing the existence of $(W_Q \cap Cof_Q, \; Fib_Q)$ factorizations:
 
 
-First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. These may be factored with respect to $\mathcal{C}$ as
+First we consider the case of morphisms of the form $f \colon Q(X) \to Q(Y)$. These may be factored with respect to $\mathcal{C}$ as
 
 $$
   f
   \;\colon\;
   Q(X)
-    \underoverset{\in W \cap Cof}{\in i}{\longrightarrow}
+    \underoverset{\in W \cap Cof}{i}{\longrightarrow}
   Z
     \underoverset{\in Fib}{p}{\longrightarrow}
   Q(Y)
@@ -3460,7 +3460,7 @@ $$
   f
   \;\colon\;
   Q(X)
-    \underoverset{\in W_Q \cap Cof_Q}{\in i}{\longrightarrow}
+    \underoverset{\in W_Q \cap Cof_Q}{i}{\longrightarrow}
   Z
     \underoverset{\in Fib_Q}{p}{\longrightarrow}
   Q(Y)
@@ -3489,7 +3489,7 @@ $$
     Q(g)
     \colon
     &
-    Q(Y)
+    Q(X)
       &\underoverset{i}{\in W_Q}{\longrightarrow}&
     Z
       &\underoverset{p}{\in Fib_Q}{\longrightarrow}&
@@ -3498,16 +3498,20 @@ $$
   \,.
 $$
 
-This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a fibration between objects on which $\eta$ is a weak equivalence. Then the third clause in def. \ref{QuillenIdempotentMonad} says that $\eta'$ is itself as a $Q$-weak equivalence. This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
+This exhibits $\eta'$ as the pullback of the $Q$-weak equivalence $\eta_Y$ along the fibration $p$ between objects on which $\eta$ is a weak equivalence. Then the third clause in def. \ref{QuillenIdempotentMonad} says that $\eta'$ is itself as a $Q$-weak equivalence. This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
 
-Observe that $\tilde p$ is a $Q$-fibration, because it is the pullback of a $Q$-fibration and because $Q$-fibrations are defined by a right lifting property (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) and hence closed under pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
+Observe that $\tilde p$ is a $Q$-fibration, because it is the pullback of a $Q$-fibration and because $Q$-fibrations are defined by a right lifting property (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) and hence closed under pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) Finally, apply factorization in $(Cof_Q,\; W_Q\cap Fib_Q)$ to $\tilde i$ to obtain the desired factorization
 
 $$
   f
   \;\colon\;
-  \underoverset{W_Q \cap Cof}{\tilde i_L}{\longrightarrow}
-  \underoverset{W \cap Fib = W_Q \cap Fib_Q}{\tilde i_R}{\longrightarrow}
+  X
+  \underoverset{W_Q \cap Cof_Q}{\tilde i_L}{\longrightarrow}
+  X'
+  \underoverset{W_Q \cap Fib_Q}{\tilde i_R}{\longrightarrow}
+  Z \underset{Q(Y)}{\times} Y
   \underoverset{Fib_Q}{\tilde p}{\longrightarrow}
+  Y
   \,.
 $$
 
