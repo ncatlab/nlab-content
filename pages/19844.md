@@ -183,6 +183,8 @@ Measurements include
 
 * [[Belle collaboration]], _Measurement of the $D^{\ast -}$ polarization in the decay $B^0 \to D^{\ast -} \tau^+ \nu_\tau$_ ([arXiv:1903.03102](https://arxiv.org/abs/1903.03102))
 
+* [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_ ([cern:2668514](https://cds.cern.ch/record/2668514))
+
 Review includes
 
 * Elena Graverini, _Flavour anomalies: a review_, in _Proceedings of the [13th International Conference on Beauty, Charm and Hyperon hadrons (BEACH 2018)](http://inspirehep.net/record/1621649)_ ([arXiv:1807.11373](https://arxiv.org/abs/1807.11373))
