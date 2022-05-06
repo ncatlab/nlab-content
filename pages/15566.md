@@ -77,7 +77,7 @@ However, in view of the [analogy between the Selberg zeta function and the Artin
 
 * {#Deninger05} [[Christopher Deninger]], _Arithmetic Geometry and Analysis on Foliated Spaces_ ([arXiv:math/0505354](http://arxiv.org/abs/math/0505354))
 
-* {#KohnoMorishita06} Toshitake Kohno, Masanori Morishita (eds.), _Primes and Knots_, Contemporary Mathematics, AMS 2006 ([web](http://www.ams.org/bookstore-getitem/item=CONM-416))
+* {#KohnoMorishita06} [[Toshitake Kohno]], [[Masanori Morishita]] (eds.), _Primes and Knots_, Contemporary Mathematics, AMS 2006 ([web](http://www.ams.org/bookstore-getitem/item=CONM-416))
 
 
 * {#LeBruyn10} [[Lieven LeBruyn]], talk 2010 ([pdf slides](http://win.ua.ac.be/~lebruyn/LeBruyn2010d.pdf) (35 mb), [MO comment](http://mathoverflow.net/a/50995/381) (with more details))
