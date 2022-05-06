@@ -4,6 +4,11 @@ __Arnaud Beauville__ is an algebraic geometer and Professeur &#233;m&#233;rite a
 
 ## Selected writings
 
+On [[holomorphic symplectic geometry]]:
+
+* [[Arnaud Beauville]], _Holomorphic symplectic geometry_, 2011 ([pdf](https://math.unice.fr/~beauvill/conf/Lisbon.pdf), [[BeauvilleHolomorphicSymplectic.pdf:file]])
+
+
 On [[compact hyperkähler manifolds]] as [[Hilbert schemes of points]] of [[K3-surfaces]]:
 
 * {#Beauville83} [[Arnaud Beauville]], _Variétés Kähleriennes dont la premiere classe de Chern est nulle_, Jour.
