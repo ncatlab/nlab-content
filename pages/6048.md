@@ -198,6 +198,11 @@ references [below](#ReferencesDyonic).
 
 For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[NS5/D4/D2 bound states](NS5-brane#NS5D4D2BoundStates)_.
 
+
+\linebreak
+
+[[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
+
 \linebreak
 
 ## Related concepts
