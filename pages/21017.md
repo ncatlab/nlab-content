@@ -38,7 +38,7 @@ What is called _'t Hooft double line notation_ (following ['t Hooft 74](#tHooft7
 
 Here we are using the [[string diagram]]/[[Penrose notation]] from _[[metric Lie representations]]_; graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]].
 
-(In ['t Hooft 74](#tHooft74) this is observed for $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions above appears. The generalization to arbitray [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed in [Cvitanović 08 (9.57)](#Cvitanovic08). For the case $\mathfrak{so}(N)$ see also [Ita-Nieder-Oz 02, Figure #Cvitanovic76](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08).)
+(In ['t Hooft 74](#tHooft74) this is observed for $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions above appears. The generalization to arbitrary [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed in [Cvitanović 08 (9.57)](#Cvitanovic08). For the case $\mathfrak{so}(N)$ see also [Ita-Nieder-Oz 02, Figure #Cvitanovic76](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08).)
 
 ### Surface notation
 
