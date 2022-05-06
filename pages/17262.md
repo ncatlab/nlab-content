@@ -42,7 +42,7 @@ This is [[isomorphic|isomorphic]] to the [[binary dihedral group]] of the same [
 
 > graphics grabbed from Wikipedia [here](https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png)
 
-This order-8 quaternion group $Q_8$ is the first in a row of [[generalized quaternion groups]], $Q_{4n}$, which are also examples of  [[dicyclic groups]] which class forms  part of an even larger family.
+This order-8 quaternion group $Q_8$ is the first in a row of generalized quaternion groups, $Q_{2^n}$, which are also examples of  [[dicyclic groups]] which class forms  part of an even larger family.
 
 ## Definition
 
@@ -98,7 +98,7 @@ $$
 \langle x,y : x^4=1, y^2=x^2, y x y^{-1}=x^{-1}\rangle.
 $$
 
-Let us call $G$ the group presented by this presentation, then there is an obvious epimorphism from $G$ to $Q$ sending $x$ to $\xi$ and $y$ to $\eta$. This is an isomorphism as will be clear if we show that the order of $G$ is less than of equal to 8.  Now every element of $G$ can be written in the form $x^i y^j$ with $0\leq i\leq 3$ and $0\leq j\leq 1$, since $y x=x^{-1}y$ so powers of $y$ can be shifted to the right in any expression and then if the resulting power of $y$ is greater than 2 we can use $y^2=x^2$ to replace even powers of $y$ by powers of $x$. We must therefore have that the group $G$ must contain a most 8 elements so the above presentation is a presentation of $Q_8$.
+Let us call $G$ the group presented by this presentation, then there is an obvious epimorphism from $G$ to $Q$ sending $x$ to $\xi$ and $y$ to $\eta$. This is an isomorphism as will be clear if we show that the order of $G$ is less than of equal to 8.  Now every element of $G$ can be written in the form $x^i y^j$ with $0\leq i\leq 3$ and $0\leq j\leq 1$, since $y x=x^{-1}y$ so powers of $y$ can be shifted to the right in any expression and then if the resulting power of $y$ is greater than 2 we can use $y^2=x^2$ to replace even powers of $y$ by powers of $x$. We must therefore have that the group $G$ must contain at most 8 elements so the above presentation is a presentation of $Q_8$.
 
 
 ## Related entries
@@ -109,7 +109,7 @@ Let us call $G$ the group presented by this presentation, then there is an obvio
 
 * [[canonical formula of myth]]
 
-* [[generalised quaternion group]]
+
 
 
 ## References
