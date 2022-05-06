@@ -855,7 +855,7 @@ Discussion for [[spectra]] includes
 
 Discussion in [[homotopy type theory]] is in 
 
-* [[Univalent Foundations Project]], section 7.6 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* [[Univalent Foundations Project]], section 7.3 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 
 
