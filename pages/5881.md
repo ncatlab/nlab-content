@@ -27,6 +27,8 @@ The [[bound states]] of gluons are [[glueballs]].
 
 ## Related concepts
 
+* [[glueball]]
+
 * [[quark-gluon plasma]]
 
 * [[quark]]
