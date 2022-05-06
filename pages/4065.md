@@ -87,6 +87,11 @@ Discussion of possible realizations in [[superstring theory]] (specifically [[he
 
 * [[Shamit Kachru]], Arnav Tripathy, _The hidden symmetry of the heterotic string_ ([arXiv:1702.02572](https://arxiv.org/abs/1702.02572))
 
+Specifically in relation to [[KK-compactifications]] of [[string theory]] on [[K3-surfaces]]:
+
+* [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
+
+
 [[!redirects moonshine]]
 [[!redirects monstrous moonshine]]
 
