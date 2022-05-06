@@ -51,7 +51,7 @@ Every surjection in a category $\mathcal{C}$ with a [[terminal object]] $1$ is a
 
 +-- {: .proof}
 ###### Proof
-Suppose $f:A\rightarrow B$ is a surjection and there are parallel morphisms $g, h:B\rightarrow C$ such that $g \circ f = h \circ f$. Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. If $1$ is a [[separator]], for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$, which implies that the surjection $f$ an epimorphism if $1$ is a [[separator]]. 
+Suppose $f:A\rightarrow B$ is a surjection and there are parallel morphisms $g, h:B\rightarrow C$ such that $g \circ f = h \circ f$. Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. If $1$ is a [[separator]], then for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$, showing that the surjection $f$ is an epimorphism if $1$ is a [[separator]]. 
 =--
 
 ### Duals of surjections
