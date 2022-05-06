@@ -421,8 +421,8 @@ Realization of [[axions]] and solution of [[strong CP-problem]]:
 
 Application to [[colour superconductivity]]:
 
-* _A Holographic Description of Colour Superconductivity_, Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans
-https://arxiv.org/abs/1803.03107
+* Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans, _A Holographic Description of Colour Superconductivity_ ([arXiv:1803.03107](https://arxiv.org/abs/1803.03107))
+
 
 [[!redirects AdS-QCD correspondences]]
 
