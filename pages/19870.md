@@ -27,3 +27,5 @@ $$
 $$
 
 TODO: Congruence rules for $\Pi, \lambda, App$.
+
+category: Initiality Project
