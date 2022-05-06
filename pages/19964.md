@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,19 +18,47 @@
 ## Idea
 
 
-A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field theories]]. The concept exists quite generally (see [Rho-Zahed 16](#RhoZahed16)), but its original use ([Skyrme 62](#Skyrme62)), and still one of the most important ones, is as a model for _[[baryons]]_ in a putative theory of [[non-perturbative quantum field theory|non-perturbative]] [[quantum chromodynamics]], the formulation of the latter being by and large an open problem (due to [[confinement]], see [[mass gap problem]]).
+A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field theories]]. The concept exists quite generally (see [Rho-Zahed 16](#RhoZahed16)), but its original use ([Skyrme 62](#Skyrme62)), and still one of the most important ones, is as a model for _[[baryons]]_ in a putative theory of [[non-perturbative quantum field theory|non-perturbative]] [[quantum chromodynamics]], the formulation of the latter being by and large an open problem (due to [[confinement]], see [[mass gap problem]]). Here in QCD a Skyrmion is specifically a topologically non-trivial field configuration of the [[pion]] [[field (physics)|field]] in [[non-perturbative quantum field theory|non-perturbative]]  [[QCD]].
 
-## As a model for baryons and nuclei
 
-Skyrmions are candidate models for [[baryons]] and even some [[atomic nuclei]]
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/FirstEightSkyrmions.jpg" width="660">
+\end{center}
 
-[[carbon]] ([Lau-Maonton 14](#LauMaonton14)): 
+> graphics grabbed from [Manton 11](#Manton11)
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/SkyrmionB20.jpg" width="500">
+\end{center}
+
+> graphics grabbed form [FLM 12](#FLM12)
+
+
+
+
+## As a model for atomic nuclei
+ {#AsAModelForBaryonsAndNuclei}
+
+Skyrmions are candidate models for [[baryons]] and even some aspects of [[atomic nuclei]] ([Riska 93](#Riska93), [Manton 16](#Manton16))
+
+
+For instance various resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with baryon number 12 ([Lau-Maonton 14](#LauMaonton14)): 
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/SkyrmionB12.jpg" width="300">
 \end{center}
 
-> graphics grabbed form [Lau-Maonton 14](#LauMaonton14)
+> graphics grabbed form [Lau-Manton 14](#LauMaonton14)
+
+For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the heavier [[mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18](#NayaSutcliffe18))
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/SkyrmionsWithRho.jpg" width="800">
+\end{center}
+
+> graphics grabbed form [Naya-Sutcliffe 18](#NayaSutcliffe18)
 
 
 ## In the Sakai-Sugimoto model
@@ -74,17 +103,38 @@ The original article is
 
 * {#Skyrme62} Tony Skyrme, _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
-Further developments and review:
+A review is in:
 
 * {#RhoZahed16} M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+Further development:
+
+* {#Manton11} [[Nicholas Manton]], _Classical Skyrmions -- Static Solutions and Dynamics_ ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298))
+
+* {#NST11} Atsushi Nakamula, Shin Sasaki, Koki Takesue, _Classical Skyrmions -- Static Solutions and Dynamics_ ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298))
+
+* {#FLM12} D. T. J. Feist, P. H. C. Lau, [[Nicholas Manton]], _Skyrmions up to Baryon Number 108_ ([arXiv:1210.1712](https://arxiv.org/abs/1210.1712))
+
+* {#Manton17} [[Nicholas Manton]], _Lightly Bound Skyrmions, Tetrahedra and Magic Numbers_ ([arXiv:1707.04073](https://arxiv.org/abs/1707.04073))
+
+[[scattering amplitudes]]:
+
+* T.Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
 See also
 
 * Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
 
 ### As models for atomic nculei
+ {#ReferencesAsModelsForAtomicNuclei}
 
 Skyrmions modelling [[atomic nuclei]]:
+
+* {#Riska93} D. O. Riska, _Baryons and nuclei as skyrmions_,  Czech J Phys (1993) 43: 449 ([doi:10.1007/BF01589856](https://doi.org/10.1007/BF01589856))
+
+* {#Manton16} [[Nicholas Manton]], _Skyrmions and Nuclei_, talk at Brookhaven National Lab, November 2016 ([pdf](https://quark.phy.bnl.gov/~pisarski/talks/Manton_SkyBNL.pdf))
+
+* {#NayaSutcliffe18} Carlos Naya, [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
 
 For [[carbon]]:
 
@@ -105,7 +155,7 @@ The relation between skyrmions, [[instantons]], [[calorons]], [[solitons]] and [
 
 based on 
 
-* Paul Sutcliffe, _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
+* {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
 
 
