@@ -16,6 +16,7 @@ More generally, any term whose type has the form $A^{B^C}$ aka $(C \to B) \to A$
 
 Although one typically interprets type theory within [[set theory]] so that operations between types become [[functions]], one may also use [[partial functions]], which is necessary for many of the examples below.
 
+A functional could also be interpreted within [[category theory]] as a [[simplex|simplicial]] [[2-morphism]] in the [[2-category|2-]][[category of sets]]. 
 
 ## Examples
 
