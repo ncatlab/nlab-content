@@ -28,7 +28,7 @@ The existence of leptoquarks could potentially explain _both_
 
 1. the apparently observed [[flavour anomalies]]
 
-   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
+   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18), [AMST 18](#AMST18))
 
 1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([CCDM 16](#CCDM16), [Müller 18](#Mueller18))
 
@@ -85,6 +85,9 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 * {#MonteuxRajaraman18} Angelo Monteux, [[Arvind Rajaraman]], _B Anomalies and Leptoquarks at the LHC: Beyond the Lepton-Quark Final State_, Phys. Rev. D 98, 115032 (2018) ([arXiv:1803.05962](https://arxiv.org/abs/1803.05962))
 
 * {#BDFKFS18} Damir Bečirević, Ilja Doršner, Svjetlana Fajfer, Nejc Košnik, Darius A. Faroughy, Olcyr Sumensari, _Scalar leptoquarks from GUT to accommodate the $B$-physics anomalies_, Phys. Rev. D 98, 055003 (2018) ([arXiv:1806.05689](https://arxiv.org/abs/1806.05689))
+
+* {#AMST18} Ufuk Aydemir, Djordje Minic, Chen Sun, Tatsu Takeuchi, _$B$-decay anomalies and scalar leptoquarks in unified Pati-Salam models from noncommutative geometry_, JHEP 09 (2018) 117 ([arXiv:1804.05844](https://arxiv.org/abs/1804.05844))
+
 
 ### Appearance in GUTs
 
