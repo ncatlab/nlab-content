@@ -23,7 +23,7 @@ Similarly, in [[braid group]]-theory, a _horizontal weight system_ is an assignm
  
 ## Definition
 
-### Weight systems (circular)
+### Weight systems (round)
 
 +-- {: .num_defn #LinearSpanOfChordDiagramsModulo4T}
 ###### Definition
@@ -180,15 +180,21 @@ hence the $k$-[[vector space]] of horizontal weight systems is the [[dual vector
 
 =--
 
+
+
+
+## Properties
+
 ### Lie algebra weight systems
  {#LieAlgebraWeightSystems}
 
 A large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[Lie algebra object]] equipped with a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. This does yield weight systems because the required relations translate exactly to the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property).
 
-The weight systems arising this way are called _[[Lie algebra weight systems]]_. See there for more
+The weight systems arising this way are called _[[Lie algebra weight systems]]_. See there for more.
 
+Examples of [[weight systems]] which are _not_ [[Lie algebra weight systems]] are rare. Originally it was conjectured that none exist ([Bar-Natan 95, Conjecture 1](#BarNatan95), [Bar-Natan & Stoimenow 97, Conjecture 2.4](Lie+algebra+weight+system#BarNatanStoimenow97)). 
 
-## Properties
+Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given in [Vogel 11](Lie+algebra+weight+system#Vogel11).
 
 ### As the associated graded space of Vassiliev invariants
 
