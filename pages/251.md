@@ -216,6 +216,42 @@ In any of these higher categories, we can apply the notions and methods of highe
 Finally, if we want to discuss [[weighted limits]] and colimits in double categories, or construct [[generalized multicategories]] based on double categories, we may want to [[2-category equipped with proarrows|equip DblCat with proarrows]].  There is a notion of [[double profunctor]], but they do not compose associatively, and hence do not form a proarrow equipment in the usual sense; but they do form a [[virtual equipment]], which is sufficient for many purposes.
 
 
+## Model structures on the category of double categories
+
+The __gregarious model structure__ on the category of double categories is defined uniquely by the following two properties:
+
+* Every double category is fibrant.
+* A double functor is a trivial fibration if it is surjective on objects, full on
+horizontal morphisms, full on vertical morphisms, and fully faithful on double cells.
+
+Weak equivalences in this model structure can be characterized as follows.
+A double functor $F\colon A\to B$ is a weak equivalence in the gregarious model
+structure for double categories if and only if it satisfies the following four conditions.
+
+* $F$ is surjective on objects up to gregarious equivalence, meaning that for every object $b\in B$ there is an object $a\in A$ and a gregarious equivalence $Fa\to b$ in $B$;
+* $F$ is full on horizontal morphisms up to globular isomorphism;
+* $F$ is full on vertical morphisms up to globular isomorphism;
+* $F$ is fully faithful on double cells.
+
+Here a _globular isomorphism_ is an invertible 2-cell in the horizontal respectively vertical [[2-category]] associated to the given double category $A$.
+
+A __gregarious equivalence__ is a [[companion pair]] $(f,u)$ of morphisms in $A$
+such that $f$ is an equivalence in the horizontal [[2-category]] of $A$
+and $u$ is an equivalence in the vertical [[2-category]] of $A$.
+
+A __companion pair__ is a pair $(f,u)$,
+where $f\colon a\to b$ is a horizontal morphism,
+$u\colon a\to b$ is a vertical morphism,
+and we have double cells $\eta\colon u\circ id_a\to f\circ id_a$
+and $\epsilon\colon id_b \circ f \to id_b \circ u$.
+
+The gregarious model structure is not the only model structure
+on the category of double categories.
+There are two more model structures due to Moser, Sarazola, and Verdugo,
+both of which have the same class of weak equivalences,
+which contains the above weak equivalences.
+One of these model structures is conjectured to be a [[left Bousfield localization]] of the gregarious model structure.
+
 ## Related pages
 
 * [[2-category equipped with proarrows]], [[framed bicategory]]
