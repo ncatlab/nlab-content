@@ -189,6 +189,9 @@ denotes the pairing of that class of the [[tangent bundle]] with the [[fundament
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.2 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 10 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
+
 Discussion in the derivation of [[Chern classes]] and [[Stiefel-Whitney classes]] includes
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
@@ -209,8 +212,7 @@ Discussion in the context of [[complex oriented cohomology theory]] and their [[
 
 More expository discussion in the context of [[characteristic classes]] with applications in [[mathematical physics]] is in
 
-* {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes
-from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A brief introduction to characteristic classes from the differentiable viewpoint.pdf))
+* {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A brief introduction to characteristic classes from the differentiable viewpoint.pdf))
 
 The generalization to a splitting principle for [[twisted vector bundles]] ([[twisted cohomology]]) is discussed (in terms of [[bundle gerbe modules]]) in 
 
