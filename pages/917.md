@@ -20,11 +20,7 @@ Every [[monomorphism]] is an injection as defined above in a category $\mathcal{
 
 Every global element $e:1\rightarrow A$ is an injection, since the unique global element $i:1\rightarrow 1$ is the identity morphism of the terminal object. Every injection $e:1\rightarrow A$ is a monomorphism, since it is a global element, and for any object $B$ in the category, the morphism $i:B\rightarrow 1$ is unique by the definition of a terminal object, thus making $e:1\rightarrow A$ a monomorphism.
 
-If the category has a [[strict initial object]] $\emptyset$, then every morphism $f:\emptyset\rightarrow B$ is vacuously an injection, since there are no global elements $x:1\rightarrow\emptyset$. In addition, every morphism $f:\emptyset\rightarrow B$ is vacuously a monomorphism, since for any set $B$ not the strict initial object, there are no global elements $x:B\rightarrow\emptyset$. This is the case in a [[distributive category]]. 
-
-If the category has a binary disjoint coproducts $+$, then every morphism $f:1 + 1\rightarrow B$ for a set $B$ is an injection, since the coprojections of the coproduct $1 + 1$, $x, y:1\rightarrow 1 + 1$ are two distinct global elements by definition of a disjoint coproduct, which implies that $x = y$ if $f \circ x = f \circ y$ and that $f$ is a injection. 
-
-This implies that in any category with a binary disjoint coproduct and a [[strict initial object]], every function $f$ from a finite coproduct of the terminal object to a set $B$ is an injection. 
+If the category has a [[strict initial object]] $\emptyset$, then every morphism $f:\emptyset\rightarrow B$ is vacuously an injection, since there are no global elements $x:1\rightarrow\emptyset$. In addition, every morphism $f:\emptyset\rightarrow B$ is vacuously a monomorphism, since for any set $B$ not the strict initial object, there are no global elements $x:B\rightarrow\emptyset$. 
 
 +-- {: .query}
 Anonymous: Under what conditions are all injections in a category monomorphisms? Obviously injections are monomorphisms in a [[well-pointed]] [[topos]] or [[pretopos]] (those are models of particular types of set theories), but does that remain true in a (pre)topos without well-pointedness, a [[coherent category]] or an [[exact category]]?
