@@ -34,6 +34,12 @@ On the [[ABJM model]] as a [[matrix model]]:
 
 * {#MohammedMuruganNastase10} Asadig Mohammed, Jeff Murugan, [[Horatiu Nastase]], _Looking for a Matrix model of ABJM_, Phys. Rev. D82:086004, 2010 ([arXiv:1003.2599](https://arxiv.org/abs/1003.2599))
 
+On a [[TT-deformation]] of the [[Skyrme model]] applied to [[nucleon]] [[scattering]]:
+
+* [[Horatiu Nastase]], [[Jacob Sonnenschein]], _A $T \bar T$-like deformation of the Skyrme model and the Heisenberg model of nucleon-nucleon scattering_ ([arXiv:2101.08232](https://arxiv.org/abs/2101.08232))
+
+
+
 
 ## Related $n$Lab entries
 
