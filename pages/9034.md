@@ -70,7 +70,7 @@ This is of [[codimension]] 4 ([Harvey-Lawson 82, below (5)](#HarveyLawson82)).
 In fact, this space is [[homeomorphism|homeomorphic]] to the [[coset space]] of [[Spin(7)]] by [[Spin(4).Spin(3)]] = [[Spin(3).Spin(3).Spin(3)]] = [[Sp(1).Sp(1).Sp(1)]]:
 
 $$
-  CAY \;\simeq\; Spin(7)/\big( Spin(4).Spin(3)\big)
+  CAY \;\simeq\; Spin(7)/\big( Spin(4) \cdot Spin(3)\big)
 $$
 
 ([Harvey-Lawson 82, Theorem 1.38](#HarveyLawson82), see also [Bryant-Harvey 89, (3.19)](#BryantHarvey89), [Gluck-Mackenzie-Morgan 95, (5.20)](#GluckMackenzieMorgan95))
@@ -78,12 +78,14 @@ $$
 Moreover, the [[coset space]] of [[Spin(6)]] by [Spin(3).Spin(3)](Spn.Sp1#SO4) $\simeq$ [[SO(4)]] 
 
 $$
-  CAY_{sL} \;\simeq\; Spin(6)/\big( Spin(3).Spin(3)\big)
-  \;\simeq\;
+  CAY_{sL} 
+   \;\simeq\; 
+  Spin(6)/\big( Spin(3) \cdot Spin(3)\big)
+    \;\simeq\;
   SU(4)/SO(4)
 $$
 
-is the Grassmannian of those Cayley 4-planes which are also [[special Lagrangian submanifolds]] ([BBMOOY 96, p. 8](#BBMOOY96)).
+is the Grassmannian of those Cayley 4-planes which are also [[special Lagrangian submanifolds]] ([BBMOOY 96, p. 7 (8 of 17)](#BBMOOY96)).
 
 
 See also at _[Spin Grassmannians](Spn.Sp1#SpinGrassmannians)_.
