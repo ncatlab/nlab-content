@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[(∞,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
+The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-spaces]] in an [[(∞,1)-topos]], as described at [[cohomology]]. Many of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]], turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
 
 Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one sometimes speaks of  **nonabelian cohomology**. 
 
