@@ -160,6 +160,8 @@ while $e_{\mathbb{C}}$ sees only "half" of it (by [Adams 66, Prop. 7.14](e-invar
 
 * [[first stable homotopy group of spheres]]
 
+* [[second stable homotopy group of spheres]]
+
 ## References
 
 The original computation:
@@ -186,6 +188,9 @@ More on the computation via the [[MFr|framed cobordism ring]] and the [[K3-manif
 * {#SP17} [[Chris Schommer-Pries]], answer to: _Nilpotence of the stable Hopf map via framed cobordism_, 2017 ([MO:a/218053](https://mathoverflow.net/a/218053/381))
 
 Via [[immersions]] of 3-spheres into Euclidean 4-space
+
+* A. Szűcs, _Two Theorems of Rokhlin_, Journal of Mathematical Sciences 113, 888–892 (2003) ([doi:10.1023/A:1021208007146](https://doi.org/10.1023/A:1021208007146))
+
 
 * Tobias Ekholm, Masamichi Takase, _Singular Seifert surfaces and Smale invariants for a family of 3-sphere immersions_, 	Bulletin of the London Mathematical Society 43 (2011) 251--266 ([arXiv:0903.0238](https://arxiv.org/abs/0903.0238))
 
