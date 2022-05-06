@@ -48,16 +48,16 @@ _Geometry of the 2+1 Black Hole_, Phys. Rev. D48: 1506-1525, 1993 ([arXiv:gr-qc/
 
 
 
+### Euclidean BTZ black holes
 
-Lecture notes
+Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal AdS3]] (the [[hyperbolic solid torus]]), partly with an eye towards [[black hole entropy]] computed via [[AdS3/CFT2]]:
 
-with an eye towards [[black hole entropy]] computed via [[AdS3/CFT2]]:
-
-* {#Kraus06} [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys. 755: 193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
-
+* [[Kirill Krasnov]], around Figure 6 of: _Analytic Continuation for Asymptotically AdS 3D Gravity_, Class. Quant. Grav. 19 (2002) 2399-2424 ([arXiv:gr-qc/0111049](https://arxiv.org/abs/gr-qc/0111049))
 
 
 * {#Gukov03} [[Sergei Gukov]], Appendix A of: _Three-Dimensional Quantum Gravity, Chern-Simons Theory, and the A-Polynomial_, Commun. Math. Phys. 255: 577-627, 2005 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
+
+* {#Kraus06} [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys. 755: 193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
 
 
 * {#BKR07} [[Micha Berkooz]], Zohar Komargodski, Dori Reichmann, _Thermal $AdS_3$, BTZ and competing winding modes condensation_, JHEP 0712:020, 2007 ([arXiv:0706.0610](https://arxiv.org/abs/0706.0610))
