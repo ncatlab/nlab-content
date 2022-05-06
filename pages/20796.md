@@ -78,6 +78,12 @@ Identification with [[Yang-Mills monopoles]]:
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering_ ([arxiv:hep-th/0402163](https://arxiv.org/abs/hep-th/0402163))
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
 
+### $AdS_2/CFT_1$ on D1-D3 brane intersections
+
+On [[AdS2/CFT1]] on [[D1-D3 brane intersections]]:
+
+* [[Giuseppe Dibitetto]], Yolanda Lozano, [[Nicolò Petri]], Anayeli Ramirez, _Holographic Description of M-branes via $AdS_2$_ ([arXiv:1912.09932](https://arxiv.org/abs/1912.09932))
+
 
 ### Lift to M2-M5-brane bound states
  {#ReferencesLiftToMTheory}
