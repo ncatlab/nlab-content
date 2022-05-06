@@ -34,6 +34,43 @@ is an [[acyclic cofibration]].
 $$A\to P_X A\to A\times_X A,$$
 where the right map is a [[fibration]] and its first component $P_X A\to A$ is an [[acyclic fibration]].
 
+## Construction from premodel categories
+
+A [[premodel category]] can be upgraded to a weak model category
+as follows.
+
+\begin{theorem}
+If a [[premodel category]] admits a weak Quillen cylinder,
+then it is a weak model category.
+\end{theorem}
+
+\begin{definition}
+A __weak Quillen cylinder__ on a [[premodel category]] $C$
+is a pair of [[left adjoint functors]] $I,D\colon C\to C$
+together with the following commutative square of
+[[natural transformations]] of [[functors]] $C\to C$:
+$$\begin{matrix}
+id_C\sqcup \id_C&\mathop{\longrightarrow}\limits^i&I\cr
+\downarrow\nabla&&\downarrow e\cr
+id_C&\mathop{\longrightarrow}\limits_j&D,\cr
+\end{matrix}$$
+where $\nabla$ is the [[codiagonal]],
+$i$ is a [[cofibration]],
+$j$ is a [[trivial cofibration]],
+and the first component of $i$ is a [[trivial cofibration]].
+\end{definition}
+
+Here a [[natural transformation]] $\lambda\colon F\to G$
+of [[functors]] $C\to C$ is a cofibration
+if for any (trivial) cofibration $X\to Y$
+the map $F(Y)\sqcup_{F(X)}G(X)\to G(Y)$ is a (trivial) cofibration.
+Likewise, $\lambda$ is a trivial cofibration
+if for any cofibration $X\to Y$ the above map is a trivial cofibration.
+
+Reference: Henry \cite[Section 6]{CAWMC}.
+
+This is essentially a reformulation of the [[Cisinski-Olschok theory]].
+
 ## Relation to model categories
 
 [[model category|Model categories]] can be singled out from weak model categories
@@ -61,7 +98,7 @@ by a zigzag of [[Quillen equivalences]].
 
 * [[Simon Henry]], _Weak model categories in classical and constructive mathematics_ ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650))
 
-* [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
+\bibitem{CAWMC} [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
 
 [[!redirects weak model categories]]
 [[!redirects weak model structure]]
