@@ -33,6 +33,14 @@ Original articles include
 
 * {#DunneUnsal14} Gerald V. Dunne, Mithat Unsal, _Uniform WKB, Multi-instantons, and Resurgent Trans-Series_, Phys. Rev. D 89, 105009 (2014) ([arXiv:1401.5202](https://arxiv.org/abs/1401.5202))
 
+A clear account is in 
+
+
+* M. V. Berry, C. J. Howls, _Hyperasymptotics for Integrals with Saddles_, Proceedings: Mathematical and Physical Sciences Vol. 434, No. 1892 (Sep. 9, 1991), pp. 657-675 ([jstor:51890](https://www.jstor.org/stable/51890))
+
+See p. 9 of https://arxiv.org/abs/1206.1890
+
+
 Review includes
 
 
