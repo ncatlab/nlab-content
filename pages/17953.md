@@ -19,6 +19,10 @@
 
 What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is the phenomenon that given $N$  [[D0-branes]] in a constant [[background field|background]] [[RR field]] $F_4$ (the [[field strength]] associated with [[D2-brane]] [[D-brane charge|charge]]) with, crucially, nonabelian effects included via a [[nonabelian DBI action]], then these D0-branes expand into a [[fuzzy 2-sphere]] which represents a spherical [[D0-D2 brane bound state]] of a [[D2-brane]] and $N$ [[D0-branes]] ([Myers 99, section 6, see p. 21 (22 of 33)](#Myers99), [Myers 03, section 4](#Myers03)).
 
+Analogous polarization effects are thought to exists for branes of other dimensions, for instance polarizing [[D2-branes]] into [[D4-branes]] etc, and notably for [[M2-branes]] to polarize into [[M5-branes]] ([Bena 00](#Bena00), review in [BLMP 13, Section 6](#BaggerLambertMukhiPapageorgakis13)). In each case the higher dimensional brane ends up [[wrapped brane|wrapping]] a [[cycle]] which is topologically trivial (hence in principle shrinkable) but [[flux]] through this cycle exerts a force that stabilizes the brane against collapsing on this cycle.
+
+A closely related stabilization mechanism is that of branes turned into "[[giant gravitons]]", where the stabilizing role of [[flux]] is instead taken by [[angular momentum]] (typically along the [[equator]] of an [[n-sphere]] in a [[Freund-Rubin compactification]]).
+
 
 ## Related concepts
 
@@ -86,14 +90,18 @@ Polarization into [[torus]] shape:
 
 
 
-
-
 Polarization of [[fractional D-branes]]:
 
 * Timothy J. Hollowood, S. Prem Kumar, _World-sheet Instantons via the Myers Effect and $\mathcal{N} = 1^\ast$ Quiver Superpotentials_, JHEP 0210:077, 2002 ([arXiv:hep-th/0206051](https://arxiv.org/abs/hep-th/0206051))
 
 
+### D-brane polarization into supertubes 
+ {#ReferencesSupertubes}
 
+
+* [[David Mateos]], [[Paul Townsend]], _Supertubes_,  	Phys. Rev. Lett. 87 (2001) 011602 ([arXiv:hep-th/0103030](https://arxiv.org/abs/hep-th/0103030))
+
+* [[Martin Kruczenski]], [[Robert Myers]], [[Amanda Peet]], David J. Winters, _Aspects of supertubes_, JHEP 0205:017, 2002 ([arXiv:hep-th/0204103](https://arxiv.org/abs/hep-th/0204103))
 
 
 
@@ -101,7 +109,7 @@ Polarization of [[fractional D-branes]]:
 
 The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of ([[fuzzy 3-sphere|fuzzy]]) [[3-sphere]]-shape ([[M2-M5 brane bound states]]):
 
-* [[Iosif Bena]], _The M-theory dual of a 3 dimensional theory with reduced supersymmetry_, Phys. Rev. D62:126006, 2000 ([arXiv:hep-th/0004142](https://arxiv.org/abs/hep-th/0004142))
+* {#Bena00} [[Iosif Bena]], _The M-theory dual of a 3 dimensional theory with reduced supersymmetry_, Phys. Rev. D62:126006, 2000 ([arXiv:hep-th/0004142](https://arxiv.org/abs/hep-th/0004142))
 
 * [[Iosif Bena]], [[Nicholas Warner]], _A harmonic family of dielectric flow solutions with maximal supersymmetry_, JHEP 0412:021, 2004 ([arXiv:hep-th/0406145](https://arxiv.org/abs/hep-th/0406145))
 
@@ -165,8 +173,7 @@ Via the [[ABJM model]]:
 
 On the relation of polarized branes to [[giant gravitons]]:
 
-* [[Iosif Bena]], Douglas Smith, 
-_Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
+* [[Iosif Bena]], Douglas Smith,  _Towards the solution to the giant graviton puzzle_, 	Phys.Rev. D71 (2005) 025005 ([arXiv:hep-th/0401173](https://arxiv.org/abs/hep-th/0401173))
 
 
 
@@ -200,6 +207,6 @@ On solutions of the [[BMN matrix model]] in relation to the [[Myers effect]] and
 [[!redirects polarized M2-brane]]
 [[!redirects polarized M2-branes]]
 
-
-
+[[!redirects supertube]]
+[[!redirects supertubes]]
 
