@@ -47,6 +47,8 @@ Responses to that claim may be found [here](http://arxiv.org/abs/math/9404229).
 
 * [[local observables]], [[spacetime support]]
 
+* [[computer experiment]]
+
 ## References
 
 * Wikipedia, _[Experiment](http://en.wikipedia.org/wiki/Experiment)_
