@@ -46,11 +46,14 @@ Jet bundles were first introduced by [[Charles Ehresmann]].
 
 * G. Sardanashvily, _Fibre bundles, jet manifolds and Lagrangian theory_,  Lectures for theoreticians, [arXiv:0908.1886](http://xxx.lanl.gov/abs/0908.1886)
 
-* Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
-
 * D. J. Saunders, _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 * Arthemy Kiselev, _The twelve lectures in the (non)commutative geometry of differential equations_, preprint IHES M/12/13 [pdf](http://preprints.ihes.fr/2012/M/M-12-13.pdf)
+
+#### In the language of schemes
+
+* R. Moosa, T. Scanlon, _Jet and prolongation spaces_, J. Inst. Math. Jussieu 9(02) 391 (2010) [doi](https://doi.org/10.1017/s1474748010000010) 
+* Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
 
 [[!redirects jet space]]
 [[!redirects jet spaces]]
