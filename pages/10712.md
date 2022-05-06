@@ -51,7 +51,9 @@ The nilpotence theorem implies that every [[∞-field]] is an [[∞-module]] ove
 
 ## References
 
-* {#Nishida73} [[Goro Nishida]],  (1973), "The nilpotency of elements of the stable homotopy groups of spheres", Journal of the Mathematical Society of Japan 25 (4): 707&#8211;732, doi:10.2969/jmsj/02540707, ISSN 0025-5645, MR 0341485.
+* {#Nishida73} [[Goro Nishida]], _The nilpotency of elements of the stable homotopy groups of spheres_, Journal of the Mathematical Society of Japan 25 (4): 707&#8211;732, 
+(1973) ([euclid:euclid.jmsj/1240435467](https://projecteuclid.org/euclid.jmsj/1240435467))
+doi:10.2969/jmsj/02540707, ISSN 0025-5645, MR 0341485.
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 25 _The Nilpotence lemma_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture25.pdf)) 
  
@@ -60,3 +62,5 @@ The nilpotence theorem implies that every [[∞-field]] is an [[∞-module]] ove
 
 [[!redirects Nishida nilpotence theorem]]
 [[!redirects Nishida nilpotence lemma]]
+
+[[!redirects Hopkins-Smith nilpotence theorem]]
