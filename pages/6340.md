@@ -237,17 +237,17 @@ A standard textbook account of the description of indices of [[Dirac operators]]
 
 based on original articles including
 
-* H. MacKean, [[Isadore Singer]], _Curvature and eigenvalues of the Laplacian_, J. Diff. Geom. 1 (1967)
- {#MacKeanSinger67}
+* {#MacKeanSinger67} H. MacKean, [[Isadore Singer]], _Curvature and eigenvalues of the Laplacian_, J. Diff. Geom. 1 (1967)
+ 
 
-* [[Michael Atiyah]], [[Raoul Bott]], V. K. Patodi, _On the heat equation and the index theorem_, Invent. Math. 19 (1973), 279&#8211;330
- {#AtiyahBott73}
+* {#AtiyahBott73} [[Michael Atiyah]], [[Raoul Bott]], [[Vijay Patodi]], _On the heat equation and the index theorem_, Invent. Math. 19 (1973), 279&#8211;330
+ 
 
-* [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([Euclid](http://projecteuclid.org/euclid.cmp/1103940278))
- {#AlvarezGaume83}
+* {#AlvarezGaume83} [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([Euclid](http://projecteuclid.org/euclid.cmp/1103940278))
+ 
 
-* [[Ezra Getzler]], _Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem_, Comm. Math. Phys. 92 (1983), 163-178. ([pdf](http://math.northwestern.edu/~getzler/Papers/1103940796.pdf))
- {#Getzler83}
+* {#Getzler83} [[Ezra Getzler]], _Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem_, Comm. Math. Phys. 92 (1983), 163-178. ([pdf](http://math.northwestern.edu/~getzler/Papers/1103940796.pdf))
+ 
 
 * [[D. Quillen]], _Superconnections and the Chern character_ Topology 24 (1985), no. 1, 89&#8211;95; 
 
