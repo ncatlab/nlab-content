@@ -31,7 +31,11 @@ The lift of Romans supergravity to to [[string theory]] is known as _[[massive t
 
 ### Black D8-brane solutions
 
-The mass term makes Romans supergravity have [[black brane]]-solutions corresponding to [[D8-branes]] ([Bergshoess-de Roo-Green-Papadopoulos-Townsend 96](#BergshoessdeRooGreenPapadopoulosTownsend96), [Chamblin-Perry 97](#ChamblinPerry97), [Janssen-Meessen-Ortin 99](#JanssenMeessenOrtin99))
+The mass term makes Romans supergravity have [[black brane]]-solutions corresponding to [[D8-branes]] 
+
+([Bergshoess-de Roo-Green-Papadopoulos-Townsend 96](#BergshoessdeRooGreenPapadopoulosTownsend96), [Chamblin-Perry 97](#ChamblinPerry97), [Janssen-Meessen-Ortin 99](#JanssenMeessenOrtin99))
+
+and to [[]D6-D8-brane bound states] ([Singh 02a](#Singh02a), [Singh 02b](#Singh02b))
 
 ## Related concepts
 
@@ -56,6 +60,13 @@ The mass term makes Romans supergravity have [[black brane]]-solutions correspon
 * {#ChamblinPerry97} A. Chamblin, [[Malcolm Perry]], _Dynamic D8-branes in IIA string theory_ ([arXiv:hep-th/9712112](https://arxiv.org/abs/hep-th/9712112))
 
 * {#JanssenMeessenOrtin99} Bert Janssen, Patrick Meessen, Tomas Ortin, _The D8-brane tied up: String and brane solutions in massive type IIA supergravity_, Phys. Lett. B453 (1999) 229-236 ([spire:494174](http://inspirehep.net/record/494174), <a href="https://doi.org/10.1016/S0370-2693(99)00315-9">doi:10.1016/S0370-2693(99)00315-9</a>)
+
+On [[D6-D8-brane bound states]] in [[massive type IIA supergravity]]:
+
+* {#Singh02a} [[Harvendra Singh]], _Duality symmetric massive type II theories in $D=8$ and $D=6$_, JHEP 0204:017, 2002 ([arXiv:hep-th/0109147](https://arxiv.org/abs/hep-th/0109147))
+
+* {#Singh02b} [[Harvendra Singh]], _Note on (D6,D8) Bound State, Massive Duality and Non-commutativity_, Nucl. Phys. B661 (2003) 394-408 ([arXiv:hep-th/0212103](https://arxiv.org/abs/hep-th/0212103))
+
 
 [[!redirects Romans supergravity]]
 
