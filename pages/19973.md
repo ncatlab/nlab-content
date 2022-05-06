@@ -125,8 +125,14 @@ Outlook on the field of flavour physics in view of [[LHCb]]-measurement of [[fla
 
 * Monika Blanke, _Flavour Physics from Present to Future Colliders_ ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
 
+On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scattering|decays]]:
 
-### Realization on intersecting D-brane models
+* {#Buras16} [[Andrzej Buras]], _The Revival of Kaon Flavour Physics_,  EPJ Web Conf. Volume 129, 2016  ([arXiv:1609.05711](https://arxiv.org/abs/1609.05711), [doi:10.1051/epjconf/201612900050](https://doi.org/10.1051/epjconf/201612900050))
+
+* {#Buras18} [[Andrzej Buras]], _The Return of Kaon Flavour Physics_, Acta Phys. Pol. B 49, 1043 (2018) ([doi:10.5506/APhysPolB.49.1043](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=49&N=6#1043))
+
+
+### Realization in intersecting D-brane models
 
 [[geometric engineering of QFT|geometric engineering]] of flavour physics in [[intersecting D-brane models]] ([[AdS/QCD]]) was originally understood in
 
