@@ -1377,7 +1377,7 @@ $$
 
 =--
 
-(e.g. [Wirthmuller 12, p. 32 (34 of 67)](Wirthmuller12), [Hatcher, prop. 2.9](#Hatcher))
+(e.g. [Wirthmuller 12, p. 32 (34 of 67)](#Wirthmuller12), [Hatcher, prop. 2.9](#Hatcher))
 
 +-- {: .proof}
 ###### Proof
@@ -2767,6 +2767,8 @@ Further introductions include
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 9 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+* {#Courtney04} Dennis Courtney, _A brief glance atK-theory_, 2004 ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2004/courtney.pdf))
 
 * {#Karoubi06} [[Max Karoubi]], _K-theory. An elementary introduction_, lectures given at the Clay Mathematics Academy ([arXiv:math/0602082](https://arxiv.org/abs/math/0602082))
 
