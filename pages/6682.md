@@ -14,7 +14,7 @@ Introducing [[orientifolds]]:
 
 On [[orientifolds]], [[RR-field tadpole cancellation]] and orientifolds of [[K3]]:
 
-* Eric G. Gimon, [[Joseph Polchinski]], _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+* [[Eric Gimon]], [[Joseph Polchinski]], _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
 
 Textbook on [[string theory]]
