@@ -216,6 +216,10 @@ based on
 
 * {#Cohen76} [[Fred Cohen]], _The homology of $\mathcal{C}_{n+1}$-Spaces, $n \geq 0$. In: The Homology of Iterated Loop Spaces. Lecture Notes in Mathematics, vol 533. Springer, Berlin, Heidelberg  1976 ([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
 
+See also
+
+* {#Kohno02} [[Toshitake Kohno]], _Loop spaces of configuration spaces and finite type invariants_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arXiv:math/0211056](https://arxiv.org/abs/math/0211056))
+
 
 ### As Chern-Simons amplitudes
 
