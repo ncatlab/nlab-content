@@ -45,18 +45,16 @@ $$\array{
 c & \underset{\langle f, g \rangle}{\to} & d \times d
 }$$ 
 From products and equalizers, we can get arbitrary limits. 
+
 =--
 
 
 ## Related concepts
 
-* [[pullback]], [[base change]]
-
-* [[lax pullback]], [[comma object]]
-
-* [[(∞,1)-pullback]], [[homotopy pullback]]
-
 * [[connected limit]] 
+
+[[!include notions of pullback -- contents]]
+
 
 ## References
 
