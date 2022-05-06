@@ -34,7 +34,7 @@ and $F$ under subobjects.  It follows also that $T$ and $F$ are stable under ext
 
 ### Torsion part of an object
 
-If the [[abelian category]] $A$ satisfies the [[Pierre Gabriel|Gabriel]]'s [[property (sup)]] then for every [[object]] $X$ there exist the largest [[subobject]] $t(X)\subset X$ which is in $T$ and it is called the _torsion part_ of $X$ (sometimes written as $X_T$). Under the [[axiom of choice]], $t: X\to t(X)$ can be extended to a functor. 
+If the [[abelian category]] $A$ satisfies [[Pierre Gabriel|Gabriel]]'s [[property (sup)]] then for every [[object]] $X$ there exists the largest [[subobject]] $t(X)\subset X$ which is in $T$, which is called the _torsion part_ of $X$ (sometimes written as $X_T$). Under the [[axiom of choice]], $t: X\to t(X)$ can be extended to a functor. 
 
 ### Hereditary torsion theories
 
