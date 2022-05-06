@@ -3,11 +3,13 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Alessandro_Strumia)
 
-## selected writings
+## Selected writings
+
+On [[dark matter]] [[model (in theoretical physics)|models]]:
 
 * Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl.Phys.B753:178-194, 2006 ([arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090))
 
-  (on [[dark matter]] [[model (in theoretical physics)|models]])
+On the [[Higgs field]] [[vacuum stability]]:
 
 * {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_, JHEP12(2013)089 ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
@@ -15,7 +17,12 @@
 
 * {#Strumia17} [[Alessandro Strumia]], _Higgs and Vacuum (In)Stability_, talk at GGI 2017 ([pdf](https://indico.cern.ch/event/660870/contributions/2746200/attachments/1538374/2411246/2017-HiggsDecay.pdf))
 
-  (on the [[Higgs field]] [[vacuum stability]])
+and implications for [[split supersymmetry]]:
+
+* [[Gian Giudice]], [[Alessandro Strumia]], _Probing High-Scale and Split Supersymmetry with Higgs Mass Measurements_, Nuclear Physics B Volume 858, Issue 1, 1 May 2012, Pages 63-83 ([arXiv:1108.6077](https://arxiv.org/abs/1108.6077))
+
+
+On [[flavour anomalies]]:
 
 * {#StrumiaEtAl17} Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, [[Alessandro Strumia]], Riccardo Torre, Alfredo Urbano, 
 
@@ -23,7 +30,6 @@
 
   J. High Energ. Phys. (2017) 2017 ([arXiv:1704.05438](https://arxiv.org/abs/1704.05438))
 
-  (on [[flavour anomalies]])
 
 
 
