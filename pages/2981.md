@@ -56,7 +56,7 @@ The Strøm model structure on the category of [[compactly generated spaces]] is 
 ### Quillen adjunctions
  {#QuillenAdjunctions}
 
-The identity functor $id \colon Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[Quillen model structure on topological spaces]] (or the mixed model structure) to the Strøm model structure, and of course right Quillen in the other direction.  
+The [[identity functor]] $id \colon Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[classical model structure on topological spaces]] (or the mixed model structure) to the Strøm model structure, and of course right Quillen in the other direction.  
 
 $$
   Top_{Strom}
@@ -68,7 +68,7 @@ $$
 
 This is just the observation that any [[Hurewicz fibration]] is a [[Serre fibration]], and any [[homotopy equivalence]] is a [[weak homotopy equivalence]]---or dually, that any [[retract]] of a [[relative cell complex]] inclusion is a Hurewicz cofibration.
 
-It follows, by composition, that the ([[geometric realization]] $\dashv$ [[singular simplicial complex]])-[[adjunction]] $ {\vert-\vert} \colon sSet \leftrightarrows Top : Sing$ is a [[Quillen adjunction]] between the [[classical model structure on simplicial sets]] and the Strøm model structure.
+It follows, by composition, that the ([[geometric realization]] $\dashv$ [[singular simplicial complex]])-[[adjunction]] $ {\vert-\vert} \colon sSet \leftrightarrows Top \colon Sing$ is a [[Quillen adjunction]] between the [[classical model structure on simplicial sets]] and the Strøm model structure.
 
 $$
   Top_{Strom}
