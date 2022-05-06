@@ -23,7 +23,7 @@ This is in contrast to [[scalar mesons]].
 
 ## Examples
 
-Examples of vector mesons:
+Examples of [[pseudo-vector mesons]]:
 
 * [[omega meson]]
 
@@ -31,13 +31,35 @@ Examples of vector mesons:
 
 * [[K* meson]]
 
+Examples of [[vector mesons]]:
+
+* [[a1-meson]]
+
+* [[f1-meson]]
+
+\begin{imagefromfile}
+    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
 
 ## Properties
+
+* [[hidden local symmetry]]
 
 * [[vector meson dominance]]
 
 
 ## References
+
+(See also the references at _[[meson]]_.)
 
 * F. Nichitiu, _An Introduction to the vector meson_, Swansea Hadron Spect. 1995:0219-240 ([spire:405666](https://inspirehep.net/literature/405666))
 
