@@ -2,6 +2,14 @@
 
 * [webpage](http://keni.ucsd.edu/)
 
+## Selected writings
+
+
+On [[ADE-singularities]] in [[string theory]]:
+
+* [[Kenneth Intriligator]], _New String Theories in Six Dimensions via Branes at Orbifold Singularities_, Adv. Theor. Math. Phys.1:271-282, 1998 ([arXiv:hep-th/9708117](https://arxiv.org/abs/hep-th/9708117))
+
+
 ## Related $n$Lab entries
 
 * [[string theory]]
