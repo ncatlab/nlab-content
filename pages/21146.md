@@ -22,4 +22,9 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 
 * [[Carlos Naya]], _Neutron stars within the Skyrme model_, 	Int. J. Mod. Phys. E 28, 1930006 (2019) ([arXiv:1910.01145](https://arxiv.org/abs/1910.01145))
 
+More on [[Skyrmions]]:
+
+
+* [[Carlos Naya]], K. Oles, _Background fields and self-dual Skyrmions_ ([arXiv:2004.07069](https://arxiv.org/abs/2004.07069))
+
 category: people
