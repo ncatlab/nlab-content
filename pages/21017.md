@@ -69,6 +69,9 @@ This construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Nat
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+This shows [[open string]] [[worldsheets]]. Often authors consider gluing in [[faces]] to turn these into [[closed string]] [[worldsheets]].
+[[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
+
 ## Applications
 
 ### Large $N$ Limit and holography
@@ -88,6 +91,8 @@ Last not least, these [[surfaces]] have the interpretation of [[open string]] [[
 Later the same double line technique was used (without any reference to the earlier physics articles(?)) in [Bar-Natan 95, Section 6](#BarNatan95) for discussion of the classification of [[Lie algebra weight systems]] and [[stringy weight systems]] with an eye towards discussion of [[Vassiliev knot invariants]].
 
 ## References
+
+### General
 
 The original article is:
 
@@ -124,5 +129,30 @@ Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[lar
 * {#ItaNiederOz02} Harald Ita, Harald Nieder, [[Yaron Oz]], _Perturbative Computation of Glueball Superpotentials for $SO(N)$ and $USp(N)$_, JHEP 0301:018, 2003 ([arXiv:hep-th/0211261](https://arxiv.org/abs/hep-th/0211261))
 
 * {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_, 2008 ([[GreevySwingle.pdf:file]])
+
+### Open/closed string duality
+
+
+On the role of [[open/closed string duality]] in interpreting the [[large N limit]] of the [['t Hooft double line notation]]:
+
+* {#GopakumarVafa98} [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
+
+
+* {#GaiottiRastelli05} [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
+
+> Nowadays we interpret $[$ the [['t Hooft double line notation]] $]$ quite literally as the perturbative expansion of an open string theory, either because the full open string theory is just equal to the gauge
+theory (as e.g. for Chern-Simons theory [27]), or because we take an appropriate
+low-energy limit (as e.g. for N = 4 SYM [31]).
+
+> The general speculation [1] is that upon summing over the number of holes, (1.1) can be recast as the genus expansion for some closed string theory of coupling $g_s = g_{YM}^2$. This speculation is sometimes justified by appealing to the intuition that diagrams with
+a larger and larger number of holes look more and more like smooth closed Riemann surfaces. This intuition is perfectly appropriate for the double-scaled matrix models, where the finite N theory is interpreted as a discretization of the closed Riemann surface; to recover the continuum limit, one must send $N\to \infty$ and tune $t$ to the
+critical point $t_c$ where diagrams with a diverging number of holes dominate.
+
+>  However, in AdS/CFT, or in the Gopakumar-Vafa duality [2], $t$ is a free parameter, corresponding on the closed string theory side to a geometric modulus. The intuition described above clearly goes wrong here. 
+
+> A much more fitting way in which the open/closed duality may come about in these cases is for each fatgraph of genus g and
+with h holes to be replaced by a closed Riemann surface of the same genus g and with h punctures: each hole is filled and replaced by a single closed string insertion.
+
+* {#Gopakumar04} [[Rajesh Gopakumar]], _Free Field Theory as a String Theory?_, Comptes Rendus Physique 5 (2004) 1111-1119 ([hep-th/0409233](https://arxiv.org/abs/hep-th/0409233))
 
 
