@@ -14,7 +14,7 @@ $\,$
 $\,$
 
 
-let $\zeta_3$ be a [[root of unity|third root of unity]], $\zeta^3 = 1$ 
+let $\zeta_3$ be a [[root of unity|third root of unity]], $(\zeta_3)^3 = 1$ 
 
 e.g. $\zeta_3 = \tfrac{1}{2}(-1 + \sqrt{3} i)$,
 notice that $\zeta_3 + \zeta_3^2 = 1$
