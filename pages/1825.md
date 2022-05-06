@@ -146,6 +146,24 @@ $$
 
 =--
 
+And still similarly, the analogous argument for [[unit spheres]] inside (the [[real vector spaces]] underlying) [[quaterniomic vector spaces]], we have
+
++-- {: .num_prop #SphereAsSymplecticUnitaryCoset}
+###### Proposition
+
+For $k \in \mathbb{N}$, $k \geq 1$ the [[n-sphere|(4k-1)-sphere]] $S^{4k-1}$ is the [[coset space]] of [[quaternionic unitary groups]]:
+
+$$
+  S^{4k-1}
+  \;\simeq\;
+  Sp(k)/Sp(k-1)
+  \,.
+$$
+
+=--
+
+(e.g. [Borel-Serre 53, 17.1](#BorelSerre53))
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -284,6 +302,12 @@ See also the [[ADE classification]] of such actions on the [[7-sphere]] (as disc
 
 
 ### Geometric structures on spheres
+
+Coset space structures on spheres:
+
+* {#BorelSerre53} [[Armand Borel]], [[Jean-Pierre Serre]], _Groupes de Lie et Puissances Reduites de Steenrod_, American Journal of Mathematics, Vol. 75, No. 3 (Jul., 1953), pp. 409-448 ([jstor:2372495](https://www.jstor.org/stable/2372495))
+
+The following to be handled with care:
 
 * [[Michael Atiyah]], _The non-existent complex 6-sphere_, [arxiv/1610.09366](https://arxiv.org/abs/1610.09366)
 
