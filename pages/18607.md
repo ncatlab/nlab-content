@@ -21,6 +21,12 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 
 * [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
 
+On the [[mass-deformed ABJM model]] and the [[Myers effect]] for [[M2 branes]] ([[M2-M5 brane bound states]]):
+
+* [[Jaume Gomis]], Diego Rodriguez-Gomez, [[Mark Van Raamsdonk]], [[Herman Verlinde]], _A Massive Study of M2-brane Proposals_, JHEP 0809:113, 2008 ([arXiv:0807.1074](https://arxiv.org/abs/0807.1074))
+
+
+
 On a variant of the [[Witten-Sakai-Sugimoto model]] for [[holographic QCD]] with [[D4-brane|D4]] [[flavor branes]]:
 
 * [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arxiv:0912.0752](https://arxiv.org/abs/0912.0752))
