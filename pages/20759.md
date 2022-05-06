@@ -23,12 +23,56 @@
 
 ## Idea
 
-The _Cohomotopy charge map_ is the [[function]] that assigns to a [[configuration space of points|configuration of points]] their total [[charge]] as measured in [[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
 
-This is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)).
+The _Cohomotopy charge map_ is the [[function]] that assigns to a [[configuration space (mathematics)|configuration]] of [[normally framed submanifolds]] of [[codimension]] $n$ their total [[charge]] as measured in $n$-[[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
+
+Concretely, this is the function which assigns to a [[normally framed submanifold]] its **asymptotic normal distance function**, namely the [[distance]] from the [[submanifold]] measured 
+
+1. in [[direction vector|direction]] [[orthogonality|perpendicular]] to the submanifold, as encoded by the [[normal framing]];
+
+1. asymptotically, regarding all points outside a [[tubular neighbourhood]] as being [[one-point compactification|at infinity]].
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
+<img src="https://ncatlab.org/nlab/files/CohomotopyChargeAsymptoticDistance.jpg" width="630">
+</a>
+</center>
+
+For general $n$ this is known as the [[Pontrjagin-Thom collapse construction]]. The unstable [[Pontrjagin-Thom theorem]] states that Cohomotopy charge fatihfully reflects [[configuration space (mathematics)|configurations]] of [[normally framed submanifolds]] up to normally framed embedded [[cobordism]]
+
+$$
+  \Big\{
+    {
+      {
+        \text{normally framed submanifolds}
+      }
+      \atop
+      {
+        \text{in}\;X\;\text{of codimension}\; n
+      }
+    }
+  \Big\}
+  \Big/_{\sim_{cobordism}}
+  \underoverset{\simeq}{cc}{\longrightarrow}
+  \underset{
+     \mathclap{
+       \color{blue}
+       {
+         \text{Cohomotopy}
+         \atop
+         \text{set}
+       }
+     }
+  }{  
+    \pi^n\big( X \big)
+  }
+$$
+
+For maximal [[codimension]] $n$ inside an [[orientation|oriented]] [[smooth manifold|manifold]], hence for 0-dimensioonal submanifolds, hence for [[configuration space of points|configurations of points]] and with all points regarded as equipped with positive normal framing, the cohomotopy charge map is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)):
 
 
-For $D \in \mathbb{N}$ the _Cohomotopy charge map_ is the  [[continuous function]]
+
+In maximal [[codimension]] $D \in \mathbb{N}$, the _Cohomotopy charge map_ is the  [[continuous function]]
 
 \[
   \label{CohomotopyChargeMapOnEuclideanSpace}
