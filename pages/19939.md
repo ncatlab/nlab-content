@@ -45,6 +45,9 @@ On nucleon [[interaction]] modeled via [[Skyrmions]]:
 * [[Derek Harland]], [[Chris Halcrow]], _Nucleon-nucleon potential from skyrmion dipole interactions_ ([arXiv:2101.02633](https://arxiv.org/abs/2101.02633))
 
 
+* [[Horatiu Nastase]], [[Jacob Sonnenschein]], _A $T \bar T$-like deformation of the Skyrme model and the Heisenberg model of nucleon-nucleon scattering_ ([arXiv:2101.08232](https://arxiv.org/abs/2101.08232))
+
+
 
 
 [[!include quantum hadrodynamics -- references ]]
