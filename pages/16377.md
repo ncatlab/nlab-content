@@ -38,7 +38,7 @@ In fact, according to the [[brane scan]], a [[super p-brane|super 2-brane]] [[si
 
 ### Pre-history
 
-Early speculations trying to model the [[electron]] by a relativistic membrane:
+Early speculations trying to unify the [[electron]] and the [[muon]] as two excitations of a single relativistic membrane:
 
 * {#Dirac62} [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy. Soc. A268, (1962) 57-67 ([jstor:2414316](https://www.jstor.org/stable/2414316))
 
