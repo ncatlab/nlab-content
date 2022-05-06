@@ -91,6 +91,8 @@ of the local polynomial observables into the [[microcausal polynomial observable
 
 * [[spacetime support]]
 
+[[!include states and observables -- content]]
+
 
 ## References
 
