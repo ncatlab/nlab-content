@@ -36,8 +36,9 @@ The complementary notion of $n$-truncated object  is that of an [[n-connected ob
 ## Definition
 
 ### In terms of truncations
+ {#InTermsOfTruncations}
 
-+-- {: .num_defn}
++-- {: .num_defn #nTruncatedInfinityGroupoid}
 ###### Definition
 **($n$-truncated $\infty$-groupoid)**
 
@@ -74,7 +75,7 @@ Using this fact we can transport the notion of $n$-truncation to any [[(∞,1)-c
 ###### Definition
 **($n$-truncated object in an $(\infty,1)$-category)**
 
-An [[object]] $A \in C$ of an [[(∞,1)-category]] $C$ is **$n$-truncated**, for $n \in \mathbb{N}$, if for all $X \in C$ the hom-[[∞-groupoid]] $C(X,A)$ is $n$-truncated.
+An [[object]] $A \in C$ of an [[(∞,1)-category]] $C$ is **$n$-truncated**, for $n \in \mathbb{N}$, if for all $X \in C$ the [[hom-∞-groupoid]] $C(X,A)$ is $n$-truncated according to Def. \ref{nTruncatedInfinityGroupoid}.
 
 =--
 
@@ -83,7 +84,7 @@ This is [[Higher Topos Theory|HTT, def. 5.5.6.1]].
 
 Some terminology:
 
-* A 0-truncated object is also called **discrete** . Notice that this is _categorically discrete_ as in [[discrete category]], not discrete in the sense of [[topological space]]s. An object in an [[(∞,1)-topos]] is discrete in this sense if, regarded as an [[∞-groupoid]] with extra structure it has only trivial morphisms.
+* A 0-truncated object is also called **discrete**. Notice that this is _categorically discrete_ as in [[discrete category]], not discrete in the sense of [[discrete topological space]]. An object in an [[(∞,1)-topos]] is discrete in this sense if, regarded as an [[∞-groupoid]] with extra structure, it has only trivial morphisms.
 
 * By the above convention on (-2)-truncated $\infty$-groupoids, it is only the [[terminal object]]s of $C$ that are (-2)-truncated.
 
@@ -94,7 +95,7 @@ Some terminology:
 ###### Definition
 **($n$-truncated morphism in an $(\infty,1)$-category)**
 
-A [[morphism]] $f : X \to Y$ of [[∞-groupoids]] is $n$-truncated if all of its [[homotopy fibers]] are $n$-truncated by def. \ref{nTruncatedObject}.
+A [[morphism]] $f : X \to Y$ of [[∞-groupoids]] is $n$-truncated if all of its [[homotopy fibers]] are $n$-truncated by def. \ref{nTruncatedInfinityGroupoid}.
 
 A morphism $f : X \to Y$ in an [[(∞,1)-category]] $C$ is $n$-truncated if for all $W \in C$ the postcomposition morphism
 
@@ -106,9 +107,11 @@ is $n$-truncated in [[∞Grpd]].
 
 =--
 
+This is [[Higher Topos Theory|HTT, def. 5.5.6.8]].
+
 By the [characterization of homotopy fiber of functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats)
 this is equivalent to saying that $f$ is $k$-truncated when it is so regarded as an
-object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$.
+object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$. (See also [[Higher Topos Theory|HTT, rem. 5.5.6.12]].)
 
 ### In terms of categorical homotopy groups 
 
