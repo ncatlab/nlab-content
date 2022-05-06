@@ -498,7 +498,9 @@ See also
 
 * {#Rezk98} [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
  
-* {#Rezk02} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_, Topology and its Applications, Volume 119, Issue 1, 2002, Pages 65-94, [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0166864101000578?via%3Dihub), ([math/0003065](http://arxiv.org/abs/math/0003065))
+* {#Rezk02} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_, Topology and its Applications, Volume 119, Issue 1, 2002, Pages 65-94, (<a href="https://doi.org/10.1016/S0166-8641(01)00057-8">doi:10.1016/S0166-8641(01)00057-8</a>, [arXiv:math/0003065](http://arxiv.org/abs/math/0003065))
+
+
 
 * {#Nikolaus10} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv:1003.1342](http://arxiv.org/abs/1003.1342))
 
