@@ -103,5 +103,8 @@ See also
 
 *  J. Montesinos, _A representation of closed orientable 3-manifolds as  3-fold branched coverings of $S^3$_, Bull. Amer. Math. Soc. 80 (1974), 845-846 ([Euclid:1183535815](https://projecteuclid.org/euclid.bams/1183535815))
 
+See also
+
+* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
 [[!redirects 3-manifolds]]
