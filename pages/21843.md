@@ -150,6 +150,11 @@ On the SU-bordism ring structure away from 2:
 
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
+Survey:
+
+* [[Sergei Novikov]], p. 218 in: _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
+
+
 On its [[torsion subgroups]]:
 
 * [[Pierre Conner]], [[Edwin Floyd]], _Torsion in $SU$-bordism_, Memoirs of the American Mathematical Society 1966 ([ISBN:978-1-4704-0007-1](https://bookstore.ams.org/memo-1-60))
