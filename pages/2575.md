@@ -951,16 +951,15 @@ and in codimension 2 ([[Wess-Zumino-Witten model]]) implicitly in
 
 Discussion of [[perturbation theory|perturbative quantization]] of Chern-Simons theory is in
 
-* [[Scott Axelrod]], [[Isadore Singer]], 
+* {#AxelrodSinger} [[Scott Axelrod]], [[Isadore Singer]], 
 
-  _Chern-Simons Perturbation Theory_ ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
+  _Chern-Simons Perturbation Theory_, in S. Catto, A. Rocha (eds.) Proc. XXthe DGM Conf. World Scientific Singapore, 1992, 3-45; ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
 
-  _Chern--Simons Perturbation Theory II_ ([arXiv](http://arxiv.org/abs/hep-th/9304087)) 
- {#AxelrodSinger}
+  _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
+ 
 
-* [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, in First European Congress of Mathematics, Vol. II (Paris, 1992), volume 120 of Progr. Math., pages 97&#8211;121,
-Birkh&#228;user, Basel, 1994.
- {#Kontsevich}
+* {#Kontsevich} [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, in First European Congress of Mathematics, Vol. II (Paris, 1992), volume 120 of Progr. Math., pages 97&#8211;121, Birkh&#228;user, Basel, 1994. ([pdf](https://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
+ 
 
 Perturbative quantization along the lines of _[Renormalization - Of theories in BV-CS form](renormalization#OfTheoriesInBVForm)_ is in
 
