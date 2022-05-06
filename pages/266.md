@@ -609,14 +609,14 @@ The following reproduces a [MathOverflow answer](https://mathoverflow.net/questi
 
 \begin{lemma}
 (Kan).
-Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a span where $\mathsf{A}$ is small and $\mathsf{C}$ is (small) cocomplete. The the left Kan extension $\mathsf{lan}_f g$ exists.
+Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a [[span]] where $\mathsf{A}$ is [[small category|small]] and $\mathsf{C}$ is (small) [[cocomplete category|cocomplete]]. Then the [[left Kan extension]] $\mathsf{lan}_f g$ exists.
 \end{lemma}
 
-Kan extensions are a useful tool in everyday practice, with applications in many different topics of category theory. In this lemma (which is one of the most used in this topic) the set-theoretic issue is far from being hidden: **$\mathsf{A}$ needs to be small (with respect to **Ob**$\mathsf{C})$!** There is no chance that the lemma is true when $\mathsf{A}$ is a large category. Indeed since colimits can be computed via Kan extensions, the lemma would imply that every (small) cocomplete category is large cocomplete, which is not allowed because [cocomplete small categories are posets]. Also, there is no chance to solve the problem by saying: *well, let's just consider $\mathsf{C}$ to be large-cocomplete*, again because [cocomplete small categories are posets].
+Kan extensions are a useful tool in everyday practice, with applications in many different topics of [[category theory]]. In this lemma (which is one of the most used in this topic) the set-theoretic issue is far from being hidden: **$\mathsf{A}$ needs to be small (with respect to **Ob**$\mathsf{C})$!** There is no chance that the lemma is true when $\mathsf{A}$ is a [[large category]]. Indeed since [[colimits]] can be computed via Kan extensions, the lemma would imply that every (small) [[cocomplete category]] is large cocomplete, which is not allowed because [cocomplete small categories are posets](complete+small+category#CompleteSmallCategoriesArePosets). Also, there is no chance to solve the problem by saying: *well, let's just consider $\mathsf{C}$ to be large-cocomplete*, again because [cocomplete small categories are posets](complete+small+category#CompleteSmallCategoriesArePosets).
 
-This problem is hard to avoid because the size of the categories of our interest is *as a fact* always larger than the size of their inhabitants (this just means that most of the time **Ob**$\mathsf{C}$ is a proper class, as big as the size of the enrichment).
+This problem is hard to avoid because the size of the categories of our interest is *as a fact* always larger than the size of their inhabitants (this just means that most of the time **Ob**$\mathsf{C}$ is a [[proper class]], as big as the size of the [[enriched category|enrichment]]).
 
-Notice that the Kan extension problem **recovers the Adjoint functor theorem one,** because adjoints are computed via Kan extensions of identities of large categories. Indeed, in that case, the solution set condition is precisely what is needed in order to cut down the size of some colimits that otherwise would be too large to compute, as can be synthesized by the sharp version of the Kan lemma.
+Notice that the Kan extension problem **recovers the [[adjoint functor theorem]] one,** because adjoints are computed via Kan extensions of identities of large categories. Indeed, in that case, the [[solution set condition]] is precisely what is needed in order to cut down the size of some colimits that otherwise would be too large to compute, as can be synthesized by the sharp version of the Kan lemma.
 
 \begin{lemma}
 **Sharp Kan lemma.**
@@ -635,7 +635,7 @@ Let $ \mathsf{A} \stackrel{f}{\to} \mathsf{B} $ be a functor. The following are 
 
 \end{lemma}
 
-Even unconsciously, the previous discussion is one of the reasons of the popularity of locally presentable categories. Indeed, having a dense generator is a good compromise between *generality and tameness*. As an evidence of this, in the context of accessible categories the sharp Kan lemma can be simplified.
+Even unconsciously, the previous discussion is one of the reasons of the popularity of [[locally presentable categories]]. Indeed, having a dense generator is a good compromise between *generality and tameness*. As an evidence of this, in the context of [[accessible categories]] the sharp Kan lemma can be simplified.
 
 \begin{lemma}
 **Tame Kan lemma.**
@@ -644,7 +644,7 @@ Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}
 
 *References for Sharp.* I am not aware of a reference for this result. It can follow from a careful analysis of **Prop. A.7** in my paper **Codensity: Isbell duality, pro-objects, compactness and accessibility**. The structure of the proof remains the same, presheaves must be replaced by small presheaves.
 
-*References for Tame.* This is an exercise, it can follow directly from the sharp Kan lemma, but it's enough to properly combine the usual Kan lemma, **Prop A.1&2** of the above-mentioned paper, and the fact that accessible functors have arity.
+*References for Tame.* This is an exercise, it can follow directly from the sharp Kan lemma, but it's enough to properly combine the usual Kan lemma, **Prop A.1&2** of the above-mentioned paper, and the fact that [[accessible functors]] have arity.
 
 
 ## Properties
