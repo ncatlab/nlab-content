@@ -185,6 +185,50 @@ Finally, define the desired diffeomorphism $d\colon{\mathbb{R}}^n\to T$ as the g
 The map $g$ is smooth because for $1/2\lt {\|x\|} \lt 2$ both definitions give the same value.
 =--
 
+And here is another proof, due to Gonnord and Tosel,
+translated into English by Erwann Aubry
+and available on MathOverflow:
+
+\begin{theorem}
+Every open star-shaped set $\Omega$ in $\mathbb{R}^n$ is $C^\infty$-diffeomorphic to $\mathbb{R}^n$.
+\end{theorem}
+
+\begin{proof}
+For convenience assume that $\Omega$ is star-shaped at $0$.
+
+Let $F=\mathbf{R}^n\setminus\Omega$ and $\phi:\mathbf{R}^n\rightarrow\mathbb{R}_+$ (here $\mathbf{R}_+=[0,\infty)$) be a $C^\infty$-function such that $F=\phi^{-1}(\{0\})$.
+(Such $\phi$ exists by the [[Whitney extension theorem]].)
+
+Now we define $f:\Omega\rightarrow\mathbb{R}^n$ via the formula:
+$$f(x)=\overbrace{\left[1+\left(\int_0^1\frac{dv}{\phi(vx)}\right)^2\|x\|^2\right]}^{\lambda(x)}\cdot x=\left[1+\left(\int_0^{\|x\|}\frac{dt}{\phi(t\frac{x}{\|x\|})}\right)^2\right]\cdot x.$$
+Clearly $f$ is smooth on $\Omega$.
+
+We set $A(x)=\sup\{t\gt0\mid t\frac{x}{\|x\|}\in\Omega\}$.
+$f$ sends injectively the segment (or ray) $[0,A(x))\frac{x}{\|x\|}$ to the ray $\mathbf{R}_+\frac{x}{\|x\|}$.
+Moreover, $f(0\frac{x}{\|X\|})=0$ and
+$$\lim_{r\rightarrow A(x)}\left\|f(r\frac{x}{\|x\|})\right\|=\lim_{r\to A(x)}\left[1+\left(\int_0^{r}\frac{dt}{\phi\left(t\cdot\frac{rx}{\|x\|}\cdot\left\|\frac{\|x\|}{rx}\right\|\right)}\right)^2\right]\cdot r= \left[1+\left(\int_0^{A(x)}\frac{dt}{\phi(t\frac{x}{\|x\|})}\right)^2\right]\cdot A(x)=+\infty.$$
+Indeed, if $A(x)=+\infty$, then it holds for obvious reason.
+If $A(x)\lt+\infty$, then by definitions of $\phi$ and $A(x)$ we get that $\phi(A(x)\frac{x}{\|x\|})=0$.
+Hence by the [[mean value theorem]] and the fact that $\phi$ is $C^1$ due to
+$$\phi\left(r\frac{x}{\|x\|}\right)\le M(A(x)-r)$$
+for some constant $M$ and every $r$.
+As a result,
+$$\int_0^{A(x)}\frac{dt}{\phi\left(t\frac{x}{\|x\|}\right)}$$
+diverges.
+Hence we infer that $f([0,A(x))\frac{x}{\|x\|})=\mathbf{R}_+\frac{x}{\|x\|}$ and so $f(\Omega)=\mathbf{R}^n$.
+
+To end the proof we need to show that $f$ has a $C^\infty$-inverse.
+But as a corollary from the [[inverse function theorem]] we get that it is sufficient to show that $df$ vanishes nowhere. 
+
+Suppose that $d_x f(h)=0$ for some $x\in\Omega$ and $h\neq 0$.
+From definition of $f$ we get that
+$$d_x f(h)=\lambda(x)h+d_x \lambda(h)x.$$
+Hence $h=\mu x$ for some $\mu\neq 0$ and from that $x\neq 0$.
+As a result $\lambda(x)+d_x \lambda(x)=0$.
+But we have that $\lambda(x)\ge1$ and function $g(t):=\lambda(tx)$ is increasing, so $g'(1)=d_x \lambda(x)\gt0$, which gives a contradiction.
+\end{proof}
+
+
 +-- {: .num_example}
 ###### Example
 
