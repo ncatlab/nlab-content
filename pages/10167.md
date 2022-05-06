@@ -43,6 +43,8 @@ $$
 
 where $I$ is the [[augmentation ideal]] of the [[representation ring]] of $G$.
 
+As explained in [[Equivariant stable homotopy theory]], there is a related characterization of the [[K-homology]] of $B G$ as a [[localization]].
+
 ## Related concepts
 
 * [[Baum-Connes conjecture]], [[Green-Julg theorem]]
