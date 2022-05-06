@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[algebra]]. For the different concept of the same name in [[differential geometry]] see at _[[vector field]]_ and in [[physics]] see at _[[field (physics)]]_.
+> This entry is about the notion in [[algebra]]. For the different concept of the same name in [[differential geometry]] see at _[[vector field]]_, and for that in [[physics]] see at _[[field (physics)]]_.
 
 ***
 
@@ -159,7 +159,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 ## References
 
-* {#MRR87} [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
+* {#MRR87} Ray Mines, [[Fred Richman]], Wim Ruitenburg,  _A Course in Constructive Algebra_.  Springer, 1987.
  
 
 * {#Elephant} [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
