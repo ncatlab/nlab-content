@@ -532,14 +532,6 @@ $$
 
 (see also [Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
 
-+-- {: .num_remark}
-###### Remark
-
-The edge case $\Omega^{k+1} S^{k+1} = \Omega\big(  \Omega^k S^{k+1} \big)$ is excluded in Prop. \ref{SullivanModelsOfMapsFromSkToSnFornLargerk}, because $\Omega^k S^{k+1}$ is not [[simply connected topological space|simply connected]] (its [[fundamental group]] is the 0th [[stable homotopy group of spheres]] $\pi\big( \Omega^k S^{k+1}\big) = \pi_{k+1}\big( S^{k+1} \big) = \mathbb{Z}$), so that Prop. \ref{SullivanModelForTheFreeLoopSpace} does not apply. 
-
-For the dgc-algebra model for $\Omega^n S^n$ see instead at _[[rational model of mapping spaces]]_ [this Prop.](rational+model+of+mapping+space#RationalHomotopyTypeOfMapsNSphereToNsphere).
-
-=--
 
 ## Related concepts
 
@@ -603,10 +595,17 @@ The case of [[iterated based loop spaces]] of [[n-spheres]] is discussed also in
 [[!redirects Sullivan models of a free loop space]]
 
 [[!redirects Sullivan models of free loop spaces]]
-
-
 [[!redirects Sullivan model for free loop space]]
 [[!redirects Sullivan models for free loop space]]
 [[!redirects Sullivan model for free loop spaces]]
 [[!redirects Sullivan models for free loop spaces]]
+
+
+[[!redirects Sullivan model of based loop space]]
+[[!redirects Sullivan models of based loop spaces]]
+
+[[!redirects Sullivan model for based loop space]]
+[[!redirects Sullivan models for based loop spaces]]
+
+
 
