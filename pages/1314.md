@@ -1,13 +1,14 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Homological algebra
+#### Rational homotopy theory
 +--{: .hide}
-[[!include homological algebra - contents]]
+[[!include differential graded objects - contents]]
 =--
-#### Homotopy theory
+#### Differential geometry
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
