@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 =--
 =--
 
@@ -48,6 +52,8 @@ $$
 \nu \big( \sup_{\lambda} x_\lambda \big) = \sup_\lambda \nu(x_\lambda) .
 $$
 
+Note that, differently from measures, there is no explicit mention of [[complements]]. Moreover, the continuity condition can be interpret, measure-theoretically, both as an analogue of $\sigma$-additivity, and as an analogue of a regularity condition (more precisely it corresponds to [[τ-additivity]]).
+See [[correspondence between measure and valuation theory]] for more on this.
 
 ### Valuations on locales and topological spaces
 
@@ -167,7 +173,7 @@ The most famous are
 
 * The [[extended probabilistic powerdomain]] on the [[Top|category of topological spaces]], which was introduced by [Heckmann 96](#Heckmann96). 
 
-* The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
+* The [[valuation monad on locales]], defined by [Steve Vickers](#vmonad).
 
 * The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
 
@@ -195,6 +201,14 @@ extends uniquely to a τ-smooth [[Borel measure]].
 This includes in particular every [[metric space]], and every compact Hausdorff space. So, in many spaces of interest for analysis and probability theory, working with measures and working with valuations is only a difference in the language. 
 
 The more general question of whether one can extend a finite continuous valuation to a Borel measure on any sober space, at the present time, is still open. 
+
+
+## See also
+
+* [[monads of probability, measures, and valuations]]
+* [[monad]], [[Giry monad]], [[monads in computer science]]
+* [[extended probabilistic powerdomain]], [[probabilistic powerdomain]], [[valuation monad on locales]]
+* [[measure]], [[τ-additive measure]]
 
 
 
