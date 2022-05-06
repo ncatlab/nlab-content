@@ -73,7 +73,7 @@ with further discussion in:
 
 Review of the relation with [[double field theory]] and [[exceptional field theory]]:
 
-* {#Musaev13} [[Edvard Musaev]], _$U-dualities in Type II string theories and M-theory_ ([arXiv:1311.3331](https://arxiv.org/abs/arXiv:1311.3331))
+* {#Musaev13} [[Edvard Musaev]], _U-dualities in Type II string theories and M-theory_ ([arXiv:1311.3331](https://arxiv.org/abs/arXiv:1311.3331))
 
 * {#HohmSamtleben19} [[Henning Samtleben]], [[Olaf Hohm]], _Higher Gauge Structures in Double and Exceptional Field Theory_, Contribution to Proceedings of _[[Higher Structures in M-Theory 2018]]_ ([arXiv:1903.02821](https://arxiv.org/abs/1903.02821), [doi:10.1002/prop.201910008](https://doi.org/10.1002/prop.201910008))
 
