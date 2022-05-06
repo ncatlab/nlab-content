@@ -1,24 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
 # Regular spaces
 * table of contents
 {: toc}
 
-## Idea#
+## Idea
 
-A _regular space_ is a [[topological space]] (or variation, such as a [[locale]]) that has, in a certain sense, enough regular [[open subsets]].  The condition of regularity is one the [[separation axioms]] satsified by every [[metric space]] (in this case, by every pseudometric space).
+A _regular space_ is a [[topological space]] (or variation, such as a [[locale]]) that has, in a certain sense, enough [[regular open subspaces]].  The condition of regularity is one of the [[separation axioms]] satsified by every [[metric space]] (and in this case, by every pseudometric space).
 
-[[!include main separation axioms -- table]]
 
 ## Definitions
 
@@ -49,14 +47,14 @@ Find $V$ and $G$ as above.  Now apply the regularity axiom to $a$ and the interi
 In terms of the classical language of separation axioms, this says that $a$ and $F$ are separated by *closed* neighbourhoods.
 
 Sometimes one includes in the definition that a regular space must be $T_0$:
-+-- {: .un_defn}
-###### Definition 
++-- {: .un_defn #T0}
+###### Definition (of T&#x2080;)
 A space is $T_0$ if, given any two points, if each neighbourhood of either is a neighbourhood of the other, then they are equal.
 =--
 Other authors use the weaker definition above but call a regular $T_0$ space a __$T_3$ space__, but then that term is also used for a (merely) regular space.  An unambiguous term for the weaker condition is an __$R_2$ space__, but hardly anybody uses that.
 
 We have
-+-- {: .un_theorem}
++-- {: .num_theorem #T3isHausdorff}
 ###### Theorem
 Every $T_3$ space is [[Hausdorff space|Hausdorff]].
 =--
@@ -73,13 +71,20 @@ Given sets $U, V$, then $V \subset\!\!\!\!\subset U$ iff there exists an open se
 =--
 This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space|compact Hausdorff spaces]]. (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
 
+The condition that a space $X$ be regular is related to the _[[regular open sets]]_ in $X$, that is those open sets $G$ such that $G$ is the interior of its own closure.  (In the [[Heyting algebra]] of open subsets of $X$, this means precisely that $G$ is its own [[double negation]]; this immediately generalises the concept to locales.)  Basically, we start with a neighbourhood $U$ of $x$ and reduce that to a closed neighbourhood $Cl(V)$ of $x$.  Then $Int(Cl(V))$ is a regular open neighbourhood of $x$.
+
+This gives us another way to characterise regular spaces, as follows:
 +-- {: .num_defn #closed_basis}
 ###### Definition
 Given a neighbourhood $U$ of $x$,
 there is a closed neighbourhood of $x$ that is contained in $U$.
-Equivalently, $x$ has an open neighbourhood well inside $U$.
+(Equivalently, $x$ has a regular open neighbourhood, or indeed any neighbourhood, well inside $U$.)
 In other words, the closed neighbourhoods of $x$
 form a local base (a base of the [[neighbourhood filter]]) at $x$.
+=--
++-- {: .un_remark #regularOpenWarning}
+###### Warning
+It is *not* sufficient that the regular open neighbourhoods themselves form a local base of each point; see Counterexample \ref{dppesFriendCounterexample}. It\'s the *closures* of the regular open neighbourhoods (which are arbitrary closed neighbourhoods) that form the basis. But compare semiregular spaces [below](#semiregular).
 =--
 
 In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}. Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
@@ -87,36 +92,27 @@ In [[constructive mathematics]], Definition \ref{constructive} is good; then eve
 
 ## Variations
 
-The condition that a space $X$ be regular
-is related to the __regular open sets__ in $X$,
-that is those open sets $G$ such that $G$ is the interior of its own closure.
-(In the [[Heyting algebra]] of open subsets of $X$,
-this means precisely that $G$ is its own [[double negation]];
-this immediately generalises the concept to locales.)
-
+Following up on Definition \ref{closed_basis}, we have:
 +-- {: .num_cor #regular_basis}
 ###### Corollary
 For any regular space $X$,
 the regular open sets form a basis for the topology of $X$.
 =--
-
 +-- {: .proof}
 ###### Proof
 For any closed neighbourhood $V$ of $x \in X$,
 the interior $Int(V)$ is a regular open neighbourhood of $x$.
 Using Definition \ref{closed_basis} finishes the proof.
 =--
-
-Corollary \ref{regular_basis} suggests a slightly weaker condition, that of a __semiregular space__:
-+-- {: .un_defn}
+This suggests a slightly weaker condition, that of a __semiregular space__:
++-- {: .un_defn #semiregular}
 ###### Definition (of semiregular)
 The regular open sets form a basis for the topology of $X$.
 =--
 
 As we\'ve seen above, a regular $T_0$ space ($T_3$) is [[Hausdorff space|Hausdorff]] ($T_2$); we can also remove the $T_0$ condition from the latter to get $R_1$:
-+-- {: .un_defn}
-###### Definition
-**(of $R_1$)**
++-- {: .un_defn #R1}
+###### Definition (of R&#x2081;)
 Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.
 =--
 It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 \Rightarrow T_2$ becomes a proof that $R_2 \Rightarrow R_1$; that is, every regular space is $R_1$.  An $R_1$ space is also called _preregular_ (in _[[HAF]]_) or _reciprocal_ (in [[convergence space]] theory).
@@ -130,7 +126,7 @@ For locales, there is also a weaker notion called [[weakly regular locale|weak r
 ## Examples 
  {#Examples}
 
-+-- {: .num_example}
++-- {: .num_example #metricSpaceExample}
 ###### Example
 
 Let $(X,d)$ be a [[metric space]] regarded as a [[topological space]]
@@ -182,7 +178,7 @@ have the required properties.
 =--
 
 
-+-- {: .num_example }
++-- {: .num_example #KtopCounterexample}
 ###### Counter-Example
 
 The [[real numbers]] equipped with their [[K-topology]] $\mathbb{R}_K$ are a [[Hausdorff topological space]] which is not a [[regular Hausdorff space]] (hence in particular not a [[normal Hausdorff space]]).
@@ -223,6 +219,18 @@ But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsi
 
 =-- 
 
++-- {: .num_example #dppesFriendCounterexample}
+###### Counter-Example
+Let $\bigl((0, 1)\times(0, 1)\bigr)\cup\{0\}$ be equipped with the Euclidean topology on $(0, 1)\times(0,1)$ and have the sets of the form $(0, 1/2)\times(0, \varepsilon)\cup\{0\}$ (for $\varepsilon \in (0, 1)$) as a basis of open neighbourhoods for the point $0$.
+
+* This space is not regular since we cannot separate $0$ from $[1/2, 1)\times(0,1)$
+* Every point $p = (p_1, p_2) \neq 0$ has the euclidean balls of centre $p$ and radius $\varepsilon \in (0, p_1)$ as regular neighbourhood basis.
+* The provided basis for the neighbourhoods of $0$ already is a system of regular open sets.
+
+Therefore, this space has the property that every point has a neighbourhood basis of regular open sets (and consequently, the space is semiregular, an even weaker property), but $0$ does not have a neighbourhood basis of closed sets (and consequently, the space is *not* regular).  The problem is that, while every basic neighbourhood of $0$ (and therefore every neighbourhood of $0$ whatsoever) contains a regular open neighbourhood of $0$, none of these basic neighbourhoods contains the closure of any of these regular open neighbourhoods (or any other closed neighbourhood of $0$).
+=--
+
+
 ## Properties
 
 * [[second-countable regular spaces are paracompact]]
@@ -232,6 +240,8 @@ But every [[open neighbourhood]] of $\{0\}$ contains at least $(-\epsilon, \epsi
 
 
 ## Related concepts
+
+[[!include main separation axioms -- table]]
 
 A [[uniform space]] is automatically regular and even completely regular, at least in [[classical mathematics]].  In [[constructive mathematics]] this may not be true, and there is an intermediate notion of interest called [[uniform regularity]].
 
@@ -255,7 +265,6 @@ Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a we
 [[!redirects regular Hausdorff topological space]]
 [[!redirects regular Hausdorff topological spaces]]
 
-
 [[!redirects regular topological space]]
 [[!redirects regular topological spaces]]
 [[!redirects regular topology]]
@@ -268,6 +277,7 @@ Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a we
 
 [[!redirects regular locale]]
 [[!redirects regular locales]]
+
 
 [[!redirects semiregular space]]
 [[!redirects semiregular spaces]]
