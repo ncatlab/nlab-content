@@ -423,7 +423,7 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 ### Videos 
 
-* The Catsters, Videos on various topics in category theory. ([YouTube link](https://www.youtube.com/user/TheCatsters) 
+* The Catsters, Videos on various topics in category theory. ([YouTube link](https://www.youtube.com/user/TheCatsters))
 
 Videos at an introductory level that cover basic concepts and constructions of category theory. The Catsters are [[Eugenia Cheng]] and [[Simon Willerton]] (anyone else?). 
 
