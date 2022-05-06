@@ -87,7 +87,7 @@ While the geometric definition of [[(∞,1)-category]] in terms of quasi-categor
 
 For a discussion of this see
 
-* [[Emily Riehl]], _Associativity data in an $(\infty,1)$-category_ ([pdf](http://math.uchicago.edu/~eriehl/associativity.pdf) [blog](http://golem.ph.utexas.edu/category/2009/10/associativity_data_in_an_1cate.html))
+* [[Emily Riehl]], _Associativity data in an $(\infty,1)$-category_ ([pdf](http://www.math.jhu.edu/~eriehl/associativity.pdf) [blog](http://golem.ph.utexas.edu/category/2009/10/associativity_data_in_an_1cate.html))
 
 ## Examples
 
