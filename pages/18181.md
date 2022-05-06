@@ -131,6 +131,9 @@ Table of judgements
 | __Quality__ <br/> Affirmative<br/> [[negation|Negative]]<br/> [[infinite judgement|Infinite]] | $\,$ | __Relation__<br/> Categorical<br/> [[hypothetical judgement|Hypothetical]]<br/> [[disjunction|Disjunctive]]|
 |   | __[[modality|Modality]]__<br/> [[possibility|Problematic]]<br/> Assertoric<br/> [[necessity|Apodictic]] |   |
 
+Note that at least in ([Jäsche Logik, 1800](#Jaesche)) the negative and infinite judgements collapse in pure logic:
+
+> Nach dem Principium der Ausschließung jedes Dritten (exclusi tertii) ist die Sphäre eines Begriffs relativ auf eine andre entweder ausschließend oder einschließend. - Da nun die Logik bloß mit der Form des Urteils, nicht mit den Begriffen ihrem Inhalte nach, es zu tun hat: so ist die Unterscheidung der unendlichen von den negativen Urteilen nicht zu dieser Wissenschaft gehörig.
 
 
 ###### _Second Chapter._ On the Deduction of the Pure Concepts of the Understanding ("Transcendental Deduction")
@@ -284,6 +287,10 @@ Publications of Kant's original work include:
 * {#2ndEd}Wikisource, [Second edition, English](https://en.wikisource.org/wiki/Critique_of_Pure_Reason_%28Meiklejohn%29) (1855) translated by John Miller Dow Meiklejohn.
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
+
+Other primary literature from Kant comprises
+
+* {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_, pp. 419-582 in Kant, _Schriften zur Metaphysik und Logik 2_, Suhrkamp Frankfurt a. M. 1985[1800].
 
 Secondary literature include:
 
