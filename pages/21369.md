@@ -37,4 +37,7 @@ This is the [[chiral partner]] of the [[rho-meson]].
 
 * [[Stefan Leupold]], Markus Wagner, _Chiral Partners in a Chirally Broken World_, International Journal of Modern Physics A Vol. 24, No. 02n03, pp. 229-236 (2009) ([arXiv:0807.2389](https://arxiv.org/abs/0807.2389))
 
+* A. E. Dorokhova, N. I. Kochelevba. A. P. Martynenkoc. F. A. Martynenkoc. A. E. Radzhabovb, _The contribution of axial-vector mesons to hyperfine structure of muonic hydrogen_, Physics Letters B Volume 776, 10 January 2018, Pages 105-110 Physics Letters B ([doi:10.1016/j.physletb.2017.11.027](https://doi.org/10.1016/j.physletb.2017.11.027))
+
+
 [[!redirects a1-mesons]]
