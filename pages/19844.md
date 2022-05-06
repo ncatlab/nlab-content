@@ -652,6 +652,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * Shaikh Saad, Anil Thapa, _A Common Origin of Neutrino Masses and $R_{D^\ast}$, $R_{K^\ast}$ Anomalies_ ([arXiv:2004.07880](https://arxiv.org/abs/2004.07880))
 
 
+* P. S. Bhupal Dev, Rukmani Mohanta, Sudhanwa Patra, Suchismita Sahoo, _Unified explanation of flavor anomalies, radiative neutrino mass and ANITA anomalous events in a vector leptoquark model_ ([arXiv:2004.09464](https://arxiv.org/abs/2004.09464))
+
+
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
