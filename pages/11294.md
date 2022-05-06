@@ -38,6 +38,16 @@ Construct a [[polar coordinates|polar coordinate grid]] (consisting of radial li
 
 Equivalently, imagine four ants situated at the corners of a square, and imagine that at some instant each begins crawling toward its neighbor looking clockwise from above, each at the same speed. The trajectory of each ant is a logarithmic spiral as described above, and the same description of $e$ applies. 
 
+## Irrationality 
+
+It is a simple matter to show that $e$ is [[irrational number|irrational]]. For if on the contrary we have $e = p/q$, then $e \cdot n!$ would be an integer for any $n \geq q$. However, 
+
+$$e \cdot n! = integer + \frac1{n+1} + \frac1{(n+1)(n+2)} + \ldots$$ 
+
+where the nonzero tail after the integer part is bounded above by $\sum_{k=1}^\infty 1/(n+1)^k = 1/n \lt 1$ for $n \gt 1$, giving a contradiction. 
+
+It is harder to show that $e$ is transcendental. An online proof (written up by David Richeson) may be found [here](https://divisbyzero.com/2010/09/28/the-transcendence-of-e/). 
+
 ## Related entries
 
 * [[Euler number]]
