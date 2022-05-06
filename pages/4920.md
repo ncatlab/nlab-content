@@ -45,7 +45,7 @@ See also at _[[doctrine]]_.
 
 * [[John Power]], [[Stephen Lack]], _Lawvere 2-theories_, 2007. ([slides](http://www.mat.uc.pt/~categ/ct2007/slides/lack.pdf))
 
-* [[Noson Yanofsky]], _Coherence, Homotopy and 2-Theories_, K-Theory 23: Pgs 203 - 235. (2001) ([arXiv:math.CT/0007033](http://xxx.lanl.gov/abs/math.CT/0007033))
+* [[Noson Yanofsky]], _Coherence, Homotopy and 2-Theories_, K-Theory 23: Pgs 203 - 235. (2001) ([arXiv:math.CT/0007033](https://arxiv.org/abs/math/0007033))
 
 [[!redirects 2-Lawvere theories]]
 
