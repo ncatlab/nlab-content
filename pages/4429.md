@@ -96,9 +96,44 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 ## Weil homomorphism as in Kobayashi and Nomizu's book.
 
- Let $G$ be a Lie group and $\mathfrak{g}$ be its Lie algebra. Given an element $g\in G$, the adjoint map   $Ad(g):G\rightarrow G$  is defined as $Ad(g)(h)=ghg^{-1}$. For $g\in G$, let $ad(g):\mathfrak{g}\rightarrow \mathfrak{g}$ be the differenial of $Ad(g):G\rightarrow G$ at $e\in G$.
+This subsection is to give an outline of construction of Weil homomorphism as in Kobayashi and Nomizu's Foundations of Differential geometry book. 
 
+ Let $G$ be a Lie group and $\mathfrak{g}$ be its Lie algebra. Given an element $g\in G$, the adjoint map   $Ad(g):G\rightarrow G$  is defined as $Ad(g)(h)=ghg^{-1}$. For $g\in G$, let $ad(g):\mathfrak{g}\rightarrow \mathfrak{g}$ be the differenial of $Ad(g):G\rightarrow G$ at $e\in G$. 
 
+ Let $I^k(G)$ denote the set of symmetric, multilinear maps 
+$$
+f:\underbrace{\mathfrak{g}\times\cdots\times\mathfrak{g}}_{k ~\text{times}}\rightarrow \mathbb{R}
+$$
+that are $G$ invariant in the sense that 
+$f(ad(g)(t_1),\cdots,ad(g)(t_k))=f(t_1,\cdots,t_k)$
+ for all $g\in G$ and $t_i\in \mathfrak{g}$. These $I^k(G)$ are vector spaces over $\mathbb{R}$. Let $I(G)$ denote the $\mathbb{R}$ algebra $\oplus_{k=0}^{\infty}I^k(G)$.
+
+Let $M$ be a manifold and $H^*(M,\mathbb{R})$ be the deRham cohomology ring of $M$. 
+
+Given a principal $G$ bundle over $M$, say $\pi:P\rightarrow M$, Weil homomorphism gives a homomorphism $I(G)\rightarrow H^*(M,\mathbb{R})$. Though it does not depend on connection on $P(M,G)$, the construction of this map is done after fixing a connection on $P(M,G)$.  Outline of the construction is as follows. 
+
+1. Fix a connection $\Gamma$ on $P(M,G)$. Let $\Omega$ denote the curvature of $\Gamma$.
+
+2. Given an element $f\in I^k(G)$, define  a $2k$-form $f(\Omega)$on $P$.
+\item Prove that the $2k$ form $f(\Omega)$ on $P$ projects uniquely to a $2k$ form on $M$ and call it $\tilde{f}(\Omega)$ i.e., $\pi^*(\tilde{f}(\Omega))=f(\Omega)$.
+
+3.  Next step is to prove that $\tilde{f}(\Omega)$ is closed $2k$ form on $M$.  To prove $\tilde{f}(\Omega)$ is closed, it suffices to prove that $f(\Omega)$ is closed. 
+
+4. For a **special** $k$-form $\varphi$ on $P$, the exterior differential $d\varphi$ coincides with the exterior covariant differential $D\varphi$ of $\varphi$ i.e., $d\varphi=D\varphi$. That **special** property is  that $\varphi=\pi^*\sigma $ for some $k$-form $\sigma$ on $M$.
+
+5. As $f(\Omega)$ has that **special** property, we see that $d(f(\Omega))=D(f(\Omega))$.
+
+6. By Bianchi's identity, we have $D\Omega=0$. We then see that $D\Omega=0$ implies that $D(f(\Omega))=0$   i.e., $d(f(\Omega))=D(f(\Omega))=0$ for $f\in I^k(G)$ i.e., $f(\Omega)$ is a closed $2k$-form on $P$. Thus, $\tilde{f}(\Omega)$ is a closed $2k$-form on $M$, giving an element in the deRham cohomology $H^{2k}(M,\mathbb{R})$.
+
+7. Next step is to prove that, this assignment $f\mapsto \tilde{f}(\Omega)$ does not depend on the connection $\Gamma$ that we have started with i.e., for connections $\Gamma_0$ (with curvature form $\Omega_0$) and $\Gamma_1$ (with curvature form $\Omega_1$), the elements $\tilde{f}(\Omega_0)$ and $\tilde{f}(\Omega_1)$ are in the same equivalence class i.e., $\tilde{f}(\Omega_0)-\tilde{f}(\Omega_1)$ is an exact form i.e., $\tilde{f}(\Omega_0)-\tilde{f}(\Omega_1)=d\tilde{\Phi}$ for some $2k-1$ form $\tilde{\Phi}$ on $M$.
+
+8. Using lemma \ref{useful}, to prove $\tilde{f}(\Omega_0)-\tilde{f}(\Omega_1)=d\tilde{\Phi}$ for some $2k-1$ form $\tilde{\Phi}$ on $M$,  it suffices to prove that 
+$f(\Omega_0)-f(\Omega_1)=d \Phi$ for some $2k-1$ form $\Phi$ on $P$ that projects to a unique $2k-1$ form $\tilde{\Phi}$ on $M$. 
+
+9. We then see that $f(\Omega_0)-f(\Omega_1)=d \Phi$ for some $2k-1$ form $\Phi$ on $P$ that projects to a unique $2k-1$ form $\tilde{\Phi}$ on $M$. This confirm that the assignment $f\mapsto f(\Omega)$ is independent of the connection $\Gamma$ that we have started with. We can extend this linearly to $I(G)\rightarrow H^*(M,\mathbb{R})$.
+
+ Given a principal bundle $\pi:P\rightarrow M$ the morphism  defined above $I(G)\rightarrow H^*(M,\mathbb{R})$ is called the Weil homomorphism.
+ 
 
 
 ## Examples
