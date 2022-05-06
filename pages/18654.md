@@ -190,6 +190,11 @@ See also
 
 On $\gamma \to \pi^0 + \pi^+ + \pi^-$:
 
+* Ruvi Aviv, [[Anthony Zee]], _Low-Energy Theorem for $\gamma \to 3 \pi$_
+Phys. Rev. D 5, 2372 (1972) ([doi:10.1103/PhysRevD.5.2372](https://doi.org/10.1103/PhysRevD.5.2372))
+
+* {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
+
 * {#BDDL09}  M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: I. $e^+ e^-$ Annihilations, Anomalies And Vector Meson Partial Widths_, Eur. Phys. J. C65:211-245, 2010 ([arXiv:0907.4047](https://arxiv.org/abs/0907.4047))
 
 On the [[Dalitz decay]] of the pion:
