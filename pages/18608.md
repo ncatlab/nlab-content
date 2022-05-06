@@ -63,6 +63,15 @@ This is widely and well known, but particle physics does not quite share the mat
 
 > While it is generally believed that QCD is the correct fundamental theory of the strong interactions there are, as yet, no practical means to produce full QCD calculations of hadron masses and their decay widths.
 
+High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]] are reported here:
+
+* S. Durr, Z. Fodor, J. Frison, C. Hoelbling, R. Hoffmann, S.D. Katz, S. Krieg, T. Kurth, L. Lellouch, T. Lippert, K.K. Szabo, G. Vulvert,
+
+  _Ab-initio Determination of Light Hadron Masses_,
+
+  Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
+
+
 (...)
 
 [[!redirects mass gap problem]]
