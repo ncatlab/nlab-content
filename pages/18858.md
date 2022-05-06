@@ -11,7 +11,7 @@ The category of $P_F$-valued sets inherits a lot of structure from $P$: if $P$ i
 
 ## Category of Poset-Valued Sets
 
-A $P_F$-valued set $A$ consists of
+As above, let $F:Rel\to Rel$ be a [[functor]].  A $P_F$-valued set $A$ consists of
 
 1. An underlying set $A_0$.
 2. A valuation $\alpha_A : F A_0 \to P$
