@@ -44,6 +44,8 @@ Chapter 7: Equivariant homology and cohomolgy
 
 [Chapter 11: Homotopy equivalent stable G-vector bundles](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-equiv-bundle.pdf)
 
+* [[J-homomorphism]]
+
 [references](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Back.pdf)
 
 category: reference
