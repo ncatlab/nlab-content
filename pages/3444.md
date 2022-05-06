@@ -95,6 +95,8 @@ that sends a representation to its underlying [[vector space]]. The [[Tannakian 
 
 ## Related concepts
 
+* [[GSet]]
+
 * [[tensor product of representations]]
 
 
@@ -108,7 +110,7 @@ list some basic examples of [[monoidal category|monoidal]] representation catego
 
 A standard textbook on [[representation theory]] of [[compact space|compact]] [[Lie groups]] is
 
-* Theodor Br&#246;cker, Tammo tom Dieck, _Representations of compact Lie groups_ Graduate Texts in Mathematics, Springer (1985)
+* Theodor Br&#246;cker, [[Tammo tom Dieck]], _Representations of compact Lie groups_ Graduate Texts in Mathematics, Springer (1985)
 
 The stable [[triangulated category]] of representations of a [[finite group]]:
 
@@ -116,7 +118,13 @@ The stable [[triangulated category]] of representations of a [[finite group]]:
 
 category: category
 
+[[!redirects categories of representations]]
+
+[[!redirects GRep]]
+[[!redirects G-Rep]]
+
 [[!redirects representation category]]
 [[!redirects representation categories]]
 
-[[!redirects categories of representations]]
+
+
