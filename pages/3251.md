@@ -153,7 +153,7 @@ Further introductions and surveys include the following
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
-* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](http://math.northwestern.edu/~bohmann/basicequivnotions.pdf))
+* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](https://math.vanderbilt.edu/bohmanar/basicequivnotions.pdf))
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], _[[Equivariant stable homotopy theory]]_, in [[Ioan James]] (ed.), _[[Handbook of Algebraic Topology]]_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
