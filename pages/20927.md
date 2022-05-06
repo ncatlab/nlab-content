@@ -461,10 +461,10 @@ This is [dMFFMER 08, Prop. 10 and Theorem 11](#dMFFMER08).
 ### Relation to Lie algebra weight systems on chord diagrams
  {#RelationToLieAlgebraWeightSystemsOnChordDiagrams}
 
-In [[string diagram]]-notation, the trilinear bracket induced by a [[metric Lie representation]] according to Def. \ref{TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra} looks as follows:
+In [[Penrose notation]] ([[string diagram]]-notation), the trilinear bracket induced by a [[metric Lie representation]] according to Def. \ref{TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra} looks as follows:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/MBrane3AlgebraFromMetricLieRepresentation.jpg" width="600">
+<img src="https://ncatlab.org/nlab/files/MBrane3AlgebraFromMetricLieRepresentationII.jpg" width="600">
 </center>
 
 With Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} this shows that M2-brane 3-algebras are equivalently the datum that [[Lie algebra weight systems]] on ([[horizontal chord diagram|horizontal]]) [[chord diagrams]] assign to a single chord.
@@ -531,8 +531,6 @@ See also:
 * {#SaemannRitter13} [[Patricia Ritter]], [[Christian Saemann]], section 2.5 of _Lie 2-algebra models_, JHEP 04 (2014) 066 ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
 
 * {#Saemann16} [[Christian Saemann]], appendix A of _Lectures on Higher Structures in M-Theory_ ([arXiv:1609.09815](https://arxiv.org/abs/1609.09815))
-
-
 
 
 
