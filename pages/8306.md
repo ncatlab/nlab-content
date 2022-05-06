@@ -216,7 +216,7 @@ In the context of [[higher algebra]]/[[(∞,1)-category theory]] [[bilinear maps
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
-
+[[!redirects bilinear]]
 [[!redirects bilinear map]]
 [[!redirects bilinear maps]]
 [[!redirects bilinear mapping]]
