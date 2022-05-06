@@ -158,7 +158,7 @@ See also
 
 * [[Jim Lambek]], [[Phil Scott]], *Reflections on Categorical Foundations of Mathematics*, pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
-* {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December !971. ([manuscript](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
+* {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December 1971. ([manuscript](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
 
 
 [[!redirects elementary theory of the 2-category of categories]]
