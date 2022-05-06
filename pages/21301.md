@@ -93,6 +93,8 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 
 ## Related concepts
 
+* [[hadron Kaluza-Klein theory]]
+
 * [[baryon-lepton symmetry]]
 
 
