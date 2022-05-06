@@ -31,6 +31,7 @@ From [Vogelsberger et al. 14](#VogelsbergerEtAl14):
 
 See also [Illustris Project Website](#IllustrisProjectWebsite): _[What are we learning?](http://www.illustris-project.org/about/#public-three)_ and _[Preliminary Results](http://www.illustris-project.org/about/#astronomers-four)_.
 
+For structure on [[galaxy|galactic]] scales (such as [[galaxy rotation curves]] and [[Tully-Fisher relation]]) there is see [FIRE](https://fire.northwestern.edu/), see _[Hopkins et al 17](Hopkins17)_/
 
 ## Related concepts
 
@@ -100,7 +101,7 @@ There are various computer simulations for structure formation, listed below. Re
 
 #### FIRE
 
-Galaxy formation
+[[galaxy]] formation
 
 * [FIRE: Feedback In Realistic Environments
 Increasing the predictive power of galaxy formation simulations
