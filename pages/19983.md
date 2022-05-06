@@ -1,17 +1,28 @@
-A book published on December 23, 2019 by Chapman and Hall/CRC (ISBN 9780815369707), 982 pages.
+
+This page compiles material related to the book collection:
 
 * [[Haynes Miller]] (ed.)
 
-  _Handbook of Homotopy Theory_ ([table of contents](http://math.mit.edu/~hrm/papers/handbook-toc.pdf))
+  _Handbook of Homotopy Theory_ 
 
-on [[homotopy theory]], including [[higher algebra]] and [[higher category theory]].
+  Chapman and Hall/CRC Press 2019 
+
+  982 pages
+
+  [ISBN:9780815369707](https://www.routledge.com/Handbook-of-Homotopy-Theory/Miller/p/book/9780815369707)
+
+  [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)
+
+  ([table of contents](http://math.mit.edu/~hrm/papers/handbook-toc.pdf))
+
+on [[homotopy theory]]/[[algebraic topology]], including [[higher algebra]] and [[higher category theory]].
 
 
 ## Terminology
 
 The editor, [[Haynes Miller]], comments in the introduction on the choice of title:
 
-> This volume may be regarded as a successor to the “[[Handbook of Algebraic Topology]],” edited by [[Ioan James]] and published a quarter of a century ago. In calling it the “Handbook of Homotopy Theory,” I am recognizing that the discipline has expanded and deepened, and traditional questions of topology, as classically understood, are now only one of many distinct mathematical disciplines in which it has had a profound impact and which serve as sources of motivation for research directions within homotopy theory proper.
+> This volume may be regarded as a successor to the "[[Handbook of Algebraic Topology]]", edited by [[Ioan James]] and published a quarter of a century ago. In calling it the "Handbook of Homotopy Theory", I am recognizing that the discipline has expanded and deepened, and traditional questions of topology, as classically understood, are now only one of many distinct mathematical disciplines in which it has had a profound impact and which serve as sources of motivation for research directions within homotopy theory proper.
 
 ## Contributions
 
