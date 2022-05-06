@@ -39,8 +39,8 @@ The axiom [[WISC]] has an equivalent statement (that works in any Boolean [[topo
 
 One can view this as really a statement about the [[Grothendieck fibration]] over [[Set]] with fibre over $X$ the full subcategory of $Set/X$ on the surjections: every fibre has a [[weakly initial object]].
 
-## In abstract categories
-Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global element]] $a:1\rightarrow A$, one could define surjections in any abstract category $\mathcal{C}$ with a [[terminal object]] $1$:
+## In other categories
+Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global element]] $a:1\rightarrow A$, one could define surjections in any category $\mathcal{C}$ with a [[terminal object]] $1$:
 
 +-- {: .num_defn}
 ###### Definition
