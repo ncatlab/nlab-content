@@ -57,7 +57,7 @@ is a [[monomorphism]]. In that case, a morphism of simple graphs amounts to a [[
 
 ### An aside on other notions of graph 
 
-"Simple graph" as defined in the nLab (see [[graph]]) means that edges are 2-element subsets of $V$, but of course that doesn't preclude consideration of other types of graph. One option is to consider sets $V$ equipped with a collection of subsets of $V$ of cardinality either 1 or 2, i.e., allowing some but not necessarily all loops as edges. We don't call those "simple graphs" (at [[graph]] they are called "loop graphs"), but nevertheless they form a respectable category under the straightforward notion of morphism $f$ (if $\{x, y\}$ is an edge of the domain, possibly with $x = y$, then $\{f(x), f(y)\}$ is an edge of the codomain). 
+"Simple graph" as defined in the nLab (see [[graph]]) means that edges are 2-element subsets of $V$, but of course that doesn't preclude consideration of other types of graph. One option is to consider sets $V$ equipped with a collection of subsets of $V$ of cardinality either 1 or 2, i.e., allowing some but not necessarily all loops as edges. We don't call those "simple graphs" (at [[graph]] they are called "loop graphs"), but nevertheless they form a respectable category under the straightforward notion of morphism $f$ (if $\{x, y\}$ is an edge of the domain, possibly with $x = y$, then $\{f(x), f(y)\}$ is an edge of the codomain). Chih and Scull use this category, which they refer to as $Gph$, in their paper [_Homotopy in the Category of Graphs_](#ChihScul).
 
 
 ## Properties of $SimpGph$ 
@@ -212,6 +212,9 @@ to the natural numbers object in $Set^{C^{op}}$.
 
 * [[Jiří Adámek]] and Horst Herrlich, _Cartesian closed categories, quasitopoi, and topological universes_. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
 {#AdamHerr} 
+
+* [[Tien Chih]], [[Laura Scull]], _Homotopy in the Category of Graphs_, ([arXiv:1901.01619](https://arxiv.org/abs/1901.01619))
+{#ChihScul}
 
 * Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
 {#Diestel}
