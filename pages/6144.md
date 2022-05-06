@@ -15,9 +15,7 @@
 
 ## Definition
 
-From now, the symbols `$\subset$' and `$\supset$' are
-used to denote nonstrict inclusions of sets,
-which are sometimes also denoted by `$\subseteq$' and `$\supseteq$'.
+> NB: In the following the symbols "$\subset$" and "$\supset$" are used to denote nonstrict inclusions of [[subsets]], sometimes also denoted by "$\subseteq$" and "$\supseteq$".
 
 Recall the following properties of a [[Borel measure]] $\mu$ on a [[Hausdorff topological space]]:
 
