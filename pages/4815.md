@@ -234,8 +234,8 @@ Discussion of the experimentally observed tiny cosmological constant and the fol
 
 Discussion from the point of view of [[perturbative string theory]], where the cosmological constant is fixed by the choice of [[perturbative string theory vacuum]].
 
-#### For fundamentally vanishing cc
- {#ReferencesStringTheoryVanishingCC}
+#### For fundamentally vanishing cc ("Witten's Dark Fantasy")
+{#ReferencesStringTheoryVanishingCC}
 
 An argument for [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string phenomenology]] with fundamentally vanishing [[cosmological constant]], based on 3d [[M-theory on 8-manifolds]]
 decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]):
@@ -248,11 +248,12 @@ decompactified at strong coupling to 4d via [[duality between M-theory and type 
 
 * [[Edward Witten]], Section 3 of _Some Comments On String Dynamics_, talk at [Strings95](https://cds.cern.ch/record/305869) ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
-The realization of this scenario in [[F-theory]]:
+This suggestion was called _Witten's Dark Fantasy_ in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19),
+where a concrete realization of this scenario in [[F-theory]] is claimed:
 
 * [[Cumrun Vafa]], Section 4.3 of: _Evidence for F-Theory_, Nucl. Phys. B469:403-418, 1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
 
-* [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
+* {#HeckmannLawrieLinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
 * [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_ ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489))
 
