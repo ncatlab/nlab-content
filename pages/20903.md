@@ -35,8 +35,7 @@ In [[quantum field theory]] and [[statistical physics]], a _single trace operato
 
 or more generally as [[linear combinations]] thereof.
 
-If the [[field (physics)|fields]] $\phi_i$ indeed take values in the [[adjoint representation]] of a given [[gauge group]], then the [[trace]] in the expression (eq:ASingleTraceObservable) ensures that this [[observable]] is [[gauge invariant]]. More general [[gauge invariant]] [[observables]] are hence _multi-trace operators_ which are [[linear combinations]] of products of single-trace observables.
-
+If the [[field (physics)|fields]] $\phi_i$ indeed take values in the [[adjoint representation]] of a given [[gauge group]], then the [[trace]] in the expression (eq:ASingleTraceObservable) ensures that this [[observable]] is [[gauge invariant]]. More general [[gauge invariant]] [[observables]] are hence _[[multi-trace operators]]_ which are [[linear combinations]] of products of single-trace observables (i.e. [[polynomials]] of single-trace observables).
 
 
 
