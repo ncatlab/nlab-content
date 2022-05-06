@@ -21,7 +21,7 @@ A [[topological space]] is metacompact if every [[countable set|countable]] [[op
 
 ## Related concepts and theorems
 
-[[!include topology - global countability axioms]]
+[[!include topology - countability axioms]]
 
 ## References
 
