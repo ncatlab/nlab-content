@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,6 +18,10 @@
 The [[associative algebra]] of [[matrices]] over some [[ring]] under [[matrix multiplication]] is the coresponding _matrix algebra_.
 
 ## Properties
+
+### General 
+
+The multiplicative [[identity element]] in a matrix algebra is the [[identity matrix]].
 
 ### Relation to groupoid algebras
 
