@@ -23,7 +23,7 @@ A **monoidal adjunction** is an [[adjunction]] between [[monoidal categories]] w
 
 Since there are several types of [[monoidal functors]] (lax, colax, and strong) there are several types of "adjunctions between monoidal categories which respect the monoidal structure."  Namely, we could have:
 
-* An adjunction in the [[2-category]] $MonCat$ of monoidal categories and strong monoidal functors.  In this case both the left and right adjoint are strong.  
+* An adjunction in the [[2-category]] [[MonCat]] of [[monoidal categories]] and [[strong monoidal functors]].  In this case both the left and right adjoint are strong.  
 
   $$
     \array{
@@ -36,7 +36,7 @@ Since there are several types of [[monoidal functors]] (lax, colax, and strong) 
 
   We call this a **strong monoidal adjunction**.
 
-* {#MonoidalAdjnctionIdea} An adjunction in the 2-category $MonCat_\ell$ of monoidal categories and lax monoidal functors.  In this case the right adjoint is lax, while the left adjoint is necessarily strong (by [[doctrinal adjunction]]; see [here](/nlab/show/doctrinal+adjunction#strength)).  
+* {#MonoidalAdjnctionIdea} An adjunction in the 2-category [[MonCat]]${}_\ell$ of monoidal categories and [[lax monoidal functors]].  In this case the right adjoint is lax, while the left adjoint is necessarily strong (by [[doctrinal adjunction]]; see [here](/nlab/show/doctrinal+adjunction#strength)).  
 
   $$
     \array{
