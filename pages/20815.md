@@ -3,7 +3,7 @@
 
 * [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
 
-* [[intersecting D-brane models|intersecting D-branes]]:
+* [[intersecting D-brane models|intersecting D-branes]]/[[fuzzy funnels]]:
 
   * [[Dp-D(p+2)-brane bound state]] and [[Yang-Mills monopoles]]
 
@@ -14,6 +14,8 @@
     * [[D2-D4 brane bound state]]
 
     * [[D3-D5 brane bound state]]
+
+    * [[D4-D6 brane bound state]]
 
     * [[D6-D8-brane bound state]]
 
