@@ -10,6 +10,12 @@
 =--
 =--
 
+## Properties
+
+* [[galaxy rotation curve]]
+
+* [[Tully-Fisher relation]]
+
 
 ## Related concepts
 
