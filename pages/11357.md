@@ -23,15 +23,17 @@
 
 A procedure for producing ([[Lagrangians]] for) [[topological quantum field theories]] from non-topological  but [[supersymmetry|supersymmetric]] [[QFT|QFTs]].
 
-The general mechanism is explained a bit at _[[topologically twisted D=4 super Yang-Mills theory]]_.
+## Examples
 
-See also at 
+Topological twists of the [[type II string theory|type II]] [[superstring]] are the [[A-model]], [[B-model]] and [[half-twisted model]] versions of the [[topological string]].
 
-* [[topological string]]
+For the topological twist of [[D=4 super Yang-Mills theory]] see at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 
-  [[A-model]], [[B-model]], [[half-twisted model]]
+A topological twist of [[D=3 N=4 super Yang-Mills theory]] is [[Rozansky-Witten theory]].
 
-  [[cohomological field theory]], [[TCFT]]
+## Related concepts
+
+* [[cohomological field theory]], [[TCFT]]
 
 
 ## References
