@@ -4606,11 +4606,12 @@ This is the main [[Tannaka reconstruction]] theorem ([Deligne 90, 8.17](#Deligne
 specialized to super fiber functors ([Deligne 90, 8.19](#Deligne90)).
 
 
+
 ## References
 
 The theorem is due to
 
-* {#Deligne02} [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
+* {#Deligne02} [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf), [[DeligneTensorCategories02.pdf:file]])
 
 building on the general results on [[Tannakian categories]] in
 
@@ -4618,14 +4619,13 @@ building on the general results on [[Tannakian categories]] in
 
 which are reviewed and further generalized in
 
-* {#DeligneMilne12} [[Pierre Deligne]] [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
+* {#DeligneMilne12} [[Pierre Deligne]], [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
 
 Review is in
 
 * {#Ostrik04} [[Victor Ostrik]], _Tensor categories (after P. Deligne)_ ([arXiv:math/0401347](http://arxiv.org/abs/math/0401347))
 
-* {#EGNO15} [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], section 9.11 in _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
-))
+* {#EGNO15} [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], section 9.11 in _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
 
 Further discussion in view of the theory of [[triangular Hopf algebras]] is in
 
