@@ -6,7 +6,7 @@
 
 ## Idea
 
-The [[Green-Schwarz action functional]] for super [[D-branes]] contains a generalizatin of the [[Nambu-Goto action]] in which the [[volume form]] is modified by the [[field strength]] of the [[Chan-Paton gauge field]] on the [[worldvolume]] of the [[D-brane]]. This modified [[Nambu-Goto action]] is referred to as the _Dirac-Born-Infeld action_ or _DBI action_, for short.
+The [[Green-Schwarz action functional]] for super [[D-branes]] contains a generalization of the [[Nambu-Goto action]] in which the [[volume form]] is modified by the [[field strength]] of the [[Chan-Paton gauge field]] on the [[worldvolume]] of the [[D-brane]]. This modified [[Nambu-Goto action]] is referred to as the _Dirac-Born-Infeld action_ or _DBI action_, for short.
 
 ## References
 
