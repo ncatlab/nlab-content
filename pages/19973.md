@@ -175,6 +175,12 @@ Outlook on the field of flavour physics in view of [[LHCb]]-measurement of [[fla
 
 * Monika Blanke, _Flavour Physics from Present to Future Colliders_ ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
 
+See also
+
+* {#AHRS20} Rafael Aoude, Tobias Hurth, Sophie Renner, William Shepherd, _The impact of flavour data on global fits of the MFV SMEFT_ ([arXiv:2003.05432](https://arxiv.org/abs/2003.05432))
+
+
+
 On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scattering|decays]]:
 
 * {#Buras16} [[Andrzej Buras]], _The Revival of Kaon Flavour Physics_,  EPJ Web Conf. Volume 129, 2016  ([arXiv:1609.05711](https://arxiv.org/abs/1609.05711), [doi:10.1051/epjconf/201612900050](https://doi.org/10.1051/epjconf/201612900050))
