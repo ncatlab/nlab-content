@@ -18,13 +18,24 @@
 
 [[bound states]] of [[D4-branes]] with [[D8-branes]] 
 
+Generally, due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F \wedge F \rangle$ in the [[Green-Schwarz sigma model]] for [[D-brane|D(p+4)-branes]], $D p$-branes are equivalently [[Yang-Mills instantons]] in the worldvolume Yang-Millsgauge theory of $D (p+4)$-branes (e.g. [Tong 05, 1.4](#Tong05)).
+
+In terms of [[holographic QCD]] this corresponds to [[baryon]]-states ([Sakai-Sugimoto 04, 5.7](#SakaiSugimoto04)).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
+</center>
+
+> graphics grabbed from [Sugimoto 16](AdS/QCD#Sugimoto16)
+
+
 ## Properties
 
 ### As a black brane
 
 As a [[black brane]] [[supergravity]] solution:  [Brandhuber-Oz 99](#BrandhuberOz99), [Nastase 03, Sec. 2 and 3](#Nastase03), [BSU 09](#BSU09),  [Van Pol 15, Sec 5](#VanPol15), [Dibitetto-Petri 18](#DibitettoPetri18)
 
-### As the Witten-Sakai-Sugimoto model for QCD
+### As geometric engineering of QCD
 
 The D4-D8 system is the [[intersecting D-brane model]] underlying the [[Witten-Sakai-Sugimoto model]] for [[holographic QCD]]
 
@@ -59,6 +70,8 @@ The D4-D8 system is the [[intersecting D-brane model]] underlying the [[Witten-S
 
 ## References
 
+### Black brane solutions
+
 As [[black brane]] [[supergravity]]-solutions: 
 
 * {#BrandhuberOz99} [[Andreas Brandhuber]], [[Yaron Oz]], _The D4-D8 Brane System and Five Dimensional Fixed Points_, Phys.Lett. B460:307-312, 1999 ([arXiv:hep-th/9905148](https://arxiv.org/abs/hep-th/9905148))
@@ -73,7 +86,9 @@ As [[black brane]] [[supergravity]]-solutions:
 
 * {#DibitettoPetri18} Giuseppe Dibitetto, Nicolò Petri, _Surface defects in the D4-D8 brane system_, J. High Energ. Phys. (2019) 2019: 193 ([arXiv:1807.07768](https://arxiv.org/abs/1807.07768))
 
-With application to [[holographic QCD]]:
+### As geometric engineering of QCD
+
+With application to [[geometric engineering of QFTs|geometric engineering]] of [[QCD]] ("[[holographic QCD]]", such as the [[Wittem-Sakai-Sugimoto model]]):
 
 * [[David Morrison]], [[Nathan Seiberg]], _Extremal Transitions and Five-Dimensional Supersymmetric Field Theories_, Nucl. Phys.B483:229-247, 1997 ([arXiv:hep-th/9609070](https://arxiv.org/abs/hep-th/9609070))
 
@@ -85,15 +100,26 @@ Review:
 
 * Yolanda Lozano, Section 2 of: _Hints on 5d Fixed Point Theories from Non-Abelian T-duality_, IFT 2014 ([slides pdf](https://www.unioviedo.es/hepth/people/Yolanda/talks/IFT2014.pdf), [[Lozano5d.pdf:file]])
 
+As a model for [[hadrons]]:
+
+* {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog. Theor. Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
+
 Among review of the [[Witten-Sakai-Sugimoto model]]:
 
 * {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int. J. Mod. Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
 
 * {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
+### General $D p$-$D(p+4)$-brane bound states
+
+* {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([hep-th/0509216](https://arxiv.org/abs/hep-th/0509216))
 
 [[!redirects D4-D8 brane bound states]]
 
 [[!redirects D4-D8-brane bound state]]
 [[!redirects D4-D8-brane bound states]]
+
+
+[[!redirects Dp-D(p+4)-brane bound state]]
+[[!redirects Dp-D(p+4)-brane bound states]]
 
