@@ -16,7 +16,7 @@ $$
     N^{(M2)}_i \cdot \mathbf{N}^{(M5)}_i
   \big)
   \;\;\in\;\;
-  \mathfrak{su}(2)Rep^{fin}
+  \mathfrak{su}(2)_{\mathbb{C}}Rep^{fin}
 $$
 
 denotes [[generalized the|the]] [[Lie algebra representation|representation]] containing 
@@ -25,7 +25,7 @@ denotes [[generalized the|the]] [[Lie algebra representation|representation]] co
 
 of [[generalized the|the]]
 
-* $N^{(M5)}_i$-[[dimension|dimensional]] [[irrep]] $\mathbf{N}^{(M5)}_i \in \mathfrak{su}(2)Rep$
+* $N^{(M5)}_i$-[[dimension|dimensional]] [[irrep]] $\mathbf{N}^{(M5)}_i \in \mathfrak{su}(2)_{\mathbb{C}}Rep$
 
 (for $\{N^{(M2)}_i, N^{(M5)}_i\}_{i} \in (\mathbb{N} \times \mathbb{N})^I$ some [[finite set|finitely]] [[indexed set]] of [[pairs]] of [[natural numbers]])
 
@@ -45,21 +45,21 @@ $$
 
 then:
 
-1. an [[M5-brane]] configuration corresponds to a [[sequence]] of such representations for which 
+1. a configuration of a [[finite number]] of [[coincident brane|stacks of coincident]] [[M5-branes]] corresponds to a [[sequence]] of such representations for which 
  
-   $N^{(M2)}_i \to \infty$ 
+   1. $N^{(M2)}_i \to \infty$ (this being the relevant [[large N limit]])
 
-   for fixed $N^{(M5)}_i$
+   1. for fixed $N^{(M5)}_i$ (being the number of M5-branes in the $i$th stack)
 
-   and fixed [[ratios]] $N^{(M2)}_i/N$;
+   1. and fixed [[ratios]] $N^{(M2)}_i/N$ (being the [[charge]]/[[light-cone momentum]] carried by the $i$th stack);
 
 1. an [[M2-brane]] configuration corresponds to a [[sequence]] of such representations for which 
  
-   $N^{(M5)}_i \to \infty$ 
+   1. $N^{(M5)}_i \to \infty$ (this being the relevant [[large N limit]])
 
-   for fixed $N^{(M2)}_i$
+   1. for fixed $N^{(M2)}_i$ (being the number of M2-brane in the $i$th stack)
 
-   and fixed [[ratios]] $N^{(M5)}_i/N$ 
+   1. and fixed [[ratios]] $N^{(M5)}_i/N$ (being the [[charge]]/[[light-cone momentum]] carried by the $i$th stack)
 
 for all $i \in I$.
 
@@ -72,17 +72,17 @@ Hence, by extension, any other sequence of finite-dimensional $\mathfrak{su}(2)$
 To make this precise, let 
 
 $$
-  \mathfrak{sl}(2,\mathbb{C})MetMod_{/\sim}
+  \mathfrak{su}(2)_{\mathbb{C}} MetMod_{/\sim}
   \;\in\;
   Set
 $$
 
-be the [[set]] of [[isomorphism classes]] of [[complex numbers|complex]] [[metric Lie representations]] (hence [[finite-dimensional vector space|finite-dimensional representations]]) of [[su(2)]] (of $\mathfrak{sl}(2,C)$) and write 
+be the [[set]] of [[isomorphism classes]] of [[complex numbers|complex]] [[metric Lie representations]] (hence [[finite-dimensional vector space|finite-dimensional representations]]) of [[su(2)]] ([hence](su2#Complexification) of the [[special linear Lie algebra]] $\mathfrak{sl}(2,C)$) and write 
 
 $$
   Span
   \big(
-    \mathfrak{sl}(2,\mathbb{C})MetMod_{/\sim}
+    \mathfrak{su}(2)_{\mathbb{C}} MetMod_{/\sim}
   \big)
   \;\in\;
   Vect_{\mathbb{C}}
@@ -96,7 +96,7 @@ $$
   \array{
     Span
     \big(
-      \mathfrak{sl}(2,\mathbb{C})MetMod_{/\sim}
+      \mathfrak{su}(2)_{\mathbb{C}}MetMod_{/\sim}
     \big)
     &
       \longrightarrow
