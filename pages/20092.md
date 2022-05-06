@@ -57,6 +57,11 @@ See also
 * Wikipedia, _[Rho meson](https://en.wikipedia.org/wiki/Rho_meson)_
 
 
+* Paul Singer, _Radiative  $\rho$-Meson Decay_, Phys. Rev. 130, 2441 (1963) ([doi:10.1103/PhysRev.130.2441](https://doi.org/10.1103/PhysRev.130.2441))
+
+
+
+
 [[!include Skyrme hadrodynamics with vector mesons -- references ]]
 
 
