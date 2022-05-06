@@ -23,6 +23,8 @@ By a _constituent quark_ one refers to a [[quark]] thought of as part of a [[had
 
 * [[diquark]]
 
+* [[exotic meson]]
+
 ## References
 
 See also 
