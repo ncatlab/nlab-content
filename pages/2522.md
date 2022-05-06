@@ -819,7 +819,7 @@ Discussion of classification of [[2d SCFT]] algebras includes ([Kac 03, section 
 ##### In dimension $d \gt 2$
  {#ClassificationSuperconformalInDimgt2}
 
-+-- {: .num_prop }
++-- {: .num_prop #SuperconformalLieAlgebras}
 ###### Proposition
 
 There exist [[superconformal]] extensions of the [[super Poincaré Lie algebra]], (besides dimension $\leq 2$) in [[dimensions]] 3,4,5,6 as follows (with notation as at _[super Lie algebra -- classification](super%20Lie%20algebra#Classification)_):
