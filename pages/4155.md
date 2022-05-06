@@ -47,7 +47,9 @@ $$
 
 6. $J$ maps $\mathcal{M}$ to $\mathcal{M}'$.
 
-## References ##
+## References
+
+### General
 
 An introduction into Tomita-Takesaki modular theory is here:
 
@@ -74,9 +76,17 @@ See also
 
 * Wikipedia, _[Tomita–Takesaki theory](https://en.wikipedia.org/wiki/Tomita%E2%80%93Takesaki_theory)_
 
+
+### Modular flow
+
+* [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
+
+
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
 
 [[!redirects Tomita theory]]
 [[!redirects Tomita-Takesaki theory]]
+
+[[!redirects modular flow]]
 
