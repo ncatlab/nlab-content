@@ -41,11 +41,11 @@ $$
     \\
     \big\downarrow & \nearrow_{ \mathrlap{ c_1^E } }
     \\
-    \mathbb{C}P^n
+    \mathbb{C}P^\infty
   }
 $$
 
-be a rank-$(n+1)$ [[complex oriented cohomology|complex orientation]].
+be a [[complex oriented cohomology|complex orientation]] in $E$-cohomology.
 
 For $\mathcal{V} \longrightarrow X$ a [[complex vector bundle]] of [[rank of a vector bundle|rank]] $n + 1$ consider the diagram
 
@@ -116,7 +116,7 @@ $$
 
 that
 
-1. on a line bundle we have $c^E(\mathcal{L}) =  1 + c_1^E(\mathcal{L})$ for the given complex orientation $c_1^E$;
+1. on a [[complex line bundle]] we have $c^E(\mathcal{L}) =  1 + c_1^E(\mathcal{L})$ for the given complex orientation $c_1^E$;
 
 1. on a [[direct sum of vector bundles]] we have the [Whitney sum formula](Chern+class#WhitneySumFormula) $c^E(\mathcal{V} \oplus \mathcal{W}) \;=\; c^E(\mathcal{V}) \cdot c^E(\mathcal{W})$
 
@@ -189,8 +189,9 @@ But since $\mathcal{V}'$ is just of rank $n$, we must have $c^E_{n+1}(\mathcal{V
 
 \[
   \label{DefiningConditionOnConnerFloydChernClasses}
+  \begin{aligned}
   0
-  \;=\;
+  & =\;
   \pi^\ast
   \big(
     {\color{blue}
@@ -216,18 +217,39 @@ But since $\mathcal{V}'$ is just of rank $n$, we must have $c^E_{n+1}(\mathcal{V
     }
   \big)
   \cdot
-  {\color{orange}
   \big(
-    c_1^E(\mathcal{L})
+    {\color{orange}
+      c_1^E(\mathcal{L})
+    }
   \big)^2
-  }
   - 
   \cdots
-  \;\;\;\;\;
-  \in
-  \;
-  E^\bullet\big( P(\mathcal{V}) \big)
+  +
+  (-1)^n
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{1}(\mathcal{V})
+    }
+  \big)
+  \cdot
+  \big(
+    {\color{orange}
+      c_1^E(\mathcal{L})
+    }
+  \big)^n
+  \\
+  & 
+  \phantom{=}
+  + 
+  (-1)^{n+1}
+  \big(
+    {\color{orange}
+      c_1^E(\mathcal{L})
+    }
+  \big)^{n+1}
   \,.
+  \end{aligned}
 \]
 
 It is now sufficient to observe that 
@@ -241,9 +263,23 @@ It is now sufficient to observe that
      E^\bullet(X)
     \Big\langle 
       1, 
-      c_1^E(\mathcal{L}), 
-      \big(c_1^E(\mathcal{L})\big)^2, 
-      \cdots  
+      {\color{orange}
+        c_1^E(\mathcal{L})
+      }
+      , 
+      \big(
+        {\color{orange}
+          c_1^E(\mathcal{L})
+        }
+      \big)^2
+      , 
+      \cdots
+      ,  
+      \big(
+        {\color{orange}
+          c_1^E(\mathcal{L})
+        }
+      \big)^n
     \Big\rangle
     \,;
    \]
@@ -260,9 +296,9 @@ It is now sufficient to observe that
 
    is an [[injective function]],
 
-because together this means that (eq:DefiningConditionOnConnerFloydChernClasses) has a unique solution for classes $c_k^E(\mathcal{V}) \,\in\, E^{2k}(X)$ -- these are the Conner-Floyd Chern classes of $\mathcal{V}$.
+because this means that (eq:DefiningConditionOnConnerFloydChernClasses) has a unique solution for the classes ${\color{blue} c_k^E(\mathcal{V})} \,\in\, E^{2k}(X)$ -- these are the Conner-Floyd Chern classes of $\mathcal{V}$.
 
-But (eq:ECohomologyOfProjectiveBundle) holds on $\mathbb{C}P^n$ after pullback along $fib_x$ (by basic arguments in [[complex oriented cohomology theory]], e.g. [Lurie 10, Lecture 4, Example 8](#LurieLecture)) and hence holds on $P(\mathcal{V})$ by the generalized-cohomology version of the [[Leray-Hirsch theorem]] ([Conner-Floyd 66, Thm. 7.4](#ConnerFloyd66)).
+But (eq:ECohomologyOfProjectiveBundle) holds on $\mathbb{C}P^n$ after [[pullback in cohomology|pullback]] along $fib_x$ (by standard arguments in [[complex oriented cohomology theory]], e.g. [Lurie 10, Lecture 4, Example 8](#LurieLecture)) and hence holds on $P(\mathcal{V})$ by the generalized-cohomology version of the [[Leray-Hirsch theorem]] ([Conner-Floyd 66, Thm. 7.4](#ConnerFloyd66)).
 
 Since this construction is natural, one find the following universal classes:
 
@@ -288,7 +324,7 @@ For $E = $ [[HA|HZ]] this reduces to the standard [[Chern classes]].
 
 ## References
 
-The concept was introduced for :
+The concept was introduced for:
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorems 7.5, 7.6 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
