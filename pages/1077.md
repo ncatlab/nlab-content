@@ -89,7 +89,22 @@ A [[zero object]] is the biproduct of no objects.
 
 =--
 
+## Pointless definition
 
+Suppose $C$ is a completely arbitrary category,
+without any assumption of pointedness, additivity, etc.
+
+The __biproduct__ of $c_1$ and $c_2$
+is a tuple
+$$(c_1\oplus c_2,p_1:c_1\oplus c_2\to c_1,p_2:c_1\oplus c_2\to c_2,i_1:c_1\to c_1\oplus c_2,i_2:c_2\to c_1\oplus c_2)$$
+such that $(c_1\oplus c_2,p_1,p_2)$ is a product tuple,
+$(c_1\oplus c_2,i_1,i_2)$ is a coproduct tuple,
+and
+$$p_1 i_1=id,$$
+$$p_2 i_2=id,$$
+$$i_1 p_1 i_2 p_2 = i_2 p_2 i_1 p_1.$$
+
+See Definition 3.1 in \cite{Karvonen}.
 
 
 ## Semiadditive categories 
@@ -180,6 +195,9 @@ Categories with biproducts include:
 
 
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
+
+
+* {#Karvonen} [[Martti Karvonen]], _Biproducts without pointedness_, [arXiv](https://arxiv.org/abs/1801.06488).
 
 
 A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
