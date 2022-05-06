@@ -5,18 +5,30 @@
 
 ## Idea
 
-A [[functor]] is _amnestic_ if its [[domain]] has no unnecessary duplication of [[isomorphic]] [[objects]].  This formalizes the sense in which the [[concrete category]] $Met_cont$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and continuous maps), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_cont \to Set$ does not.  As ‘amnestic’ is basically a fancy synonym of ‘forgetful’, the idea is to identify properties of a functor that one would want to think of as a forgetful functor.
+A [[functor]] is _amnestic_ if its [[domain]] has no more duplication of [[isomorphic]] [[objects]] than its [[codomain]].  This formalizes the sense in which (for example) the [[concrete category]] $Met_cont$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and continuous maps), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_cont \to Set$ does not.  As ‘amnestic’ is basically a fancy synonym of ‘forgetful’, the idea is to identify a property that one would like in a forgetful functor.
 
-There is a corresponding notion of _amnesticization_ of a functor (called the _amnestic modification_ in [[The Joy of Cats]]), which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_cont \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.  Although not needed in this case, we need the [[axiom of choice]] (AC) in general to prove that every functor has an amnesticization.  Without AC, we can use amnestic [[anafunctors]] to make everything work out, although much of the convenience is lost.
+There is a corresponding notion of _amnesticization_ of a functor (called the _amnestic modification_ in _[[The Joy of Cats]]_), which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_cont \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.  Although not needed in this case, we need the [[axiom of choice]] (AC) in general to prove that every functor has an amnesticization.  Without AC, we can use amnestic [[anafunctors]] to make everything work out, although much of the convenience is lost.
 
-Amnesticity is really a property of [[strict functors]] (or anafunctors) between [[strict category|strict]] [[groupoids]].  The strictness is needed even to write down the definition (stating that some isomorphic objects are equal), and weakening it to follow the [[principle of equivalence]] leads to a trivial property that every functor satisfies.  (That is, up to [[equivalence of categories|equivalence]], every functor is amnestic, which is because every functor is equivalent to its amnesticization.)  On the other hand, the non-isic [[morphisms]] play no role in the definition; only the categories' [[cores]] matter.
+Amnesticity is really a property of [[strict functors]] (or anafunctors) between [[strict category|strict]] [[groupoids]].  Groupoids, because the non-isic [[morphisms]] play no role in the definition; only the categories\' [[cores]] matter, and a functor is amnestic iff its core is amnestic.  Strict, because the definition requires us to state (in two places) that some isomorphic objects are equal; weakening the definition to follow the [[principle of equivalence]] leads to a trivial property that every functor satisfies.  (That is, up to [[equivalence of categories|equivalence]], every functor is amnestic, which is because every functor is equivalent to its amnesticization.)
 
 
-## Definition
+## Definitions
 
-An **amnestic functor** is a functor $U : \mathcal{D} \to \mathcal{C}$ (between [[strict categories]]) that reflects [[identity morphism|identity morphisms]]: more precisely, for any [[isomorphism]] $f\colon a \to b$ in $\mathcal{D}$, if $U a = U b$ and $U f = id_{U a}$, then $a = b$ and $f = id_a$.
++-- {: .num_defn}
+###### Definition
 
-If we follow the [[principle of equivalence]] and refuse to state equations between objects, then the closest thing to this that we can say is that if $U a \cong U b$ (say via $g\colon U a \to U b$) and $U f = g \circ id_{U a}$ (which is a trivial hypothesis, since $g$ can simply be $U f$), then $a \cong b$ (say via $h\colon a \to b$) and $f = h \circ id_a$ (which is a trivial conclusion, since $h$ can simply be $f$.)  Thus, this is really a property of [[strict functors]] between [[strict categories]].  Or to put it another way, if $U\colon \mathcal{D} \to \mathcal{C}$ is any functor, then there exist [[equivalent categories]] $\mathcal{D}' \simeq \mathcal{D}$ and $\mathcal{C}' \simeq \mathcal{C}$ such that the composite $\mathcal{D}' \to \mathcal{D} \overset{F}\to \mathcal{C} \to \mathcal{C}'$ is amnestic.
+Let $C$ and $D$ be two [[strict categories]], and let $U$ be a [[strict functor]] from $D$ to $C$.  We say that $U$ is __amnestic__ if its [[core]] reflects [[identity morphisms]].  Explicitly, $U$ is amnestic iff, whenever $a$ and $b$ are [[objects]] of $D$, $f$ is an [[isomorphism]] in $D$ from $a$ to $b$, $U(a)$ and $U(b)$ are equal objects in $C$, and $U(f)$ is the [[identity morphism]] on this object in $C$, then $a$ and $b$ are equal objects in $D$, and $f$ is the identity morphism on this object in $D$.
+=--
+
+If we follow the [[principle of equivalence]] and refuse to state equations between objects, then we must modify the hypothesis to say that $U(a)$ and $U(b)$ are *[[isomorphic]]* in $C$ (say via $g\colon U(a) \to U b$) and $U(f)$ is the identity *relative to* this isomorphism (so $U(f) = \id_{U(b)} \circ g \circ \id_{U(a)}$; since we can simply let $g$ be $U(f)$, this is trivial (beyond the initial isomorphism $f\colon a \to b$).  Similarly, we must modify the conclusion to say that $a$ and $b$ are *isomorphic* (say via $h\colon a \to b$) and $f$ is the identity *relative to* this isomorphism (so $f = \id_b \circ h \circ \id_a$); since we can simply let $h$ be $f$, this is also trivial.  Thus up to [[equivalence of categories|equivalence]], this property is trivial; on the other hand, it is preserved by [[isomorphism of categories|isomorphism]].
+
++-- {: .defn #anafunctor}
+###### Definition
+
+Now let $C$ and $D$ be two [[strict categories]], and let $U$ be an [[anafunctor]] from $D$ to $C$.  We again say that $U$ is __amnestic__ if its [[core]] reflects [[identity morphisms]].  Explicitly, now $U$ is amnestic iff, whenever $a$ and $b$ are [[objects]] of $D$, $f$ is an [[isomorphism]] in $D$ from $a$ to $b$, $\alpha$ is a specification of $a$ for the anafunctor $U$, $\beta$ is a specification of $b$ for the anafunctor $U$, $U_\alpha(a)$ and $U_\beta(b)$ are equal objects in $C$, and $U_{\alpha,\beta}(f)$ is the [[identity morphism]] on this object in $C$, then $a$ and $b$ are equal objects in $D$, and $f$ is the identity morphism on this object in $D$.
+=--
+
+We might also demand that $\alpha = \beta$; this is automatic if $U$ is saturated.
 
 
 ## Properties
@@ -29,6 +41,10 @@ If we follow the [[principle of equivalence]] and refuse to state equations betw
 
 
 ## Examples
+
+* Most famous [[forgetful functors]] are amnestic, such as $Grp \to Set$, $Top \to Set$, $Top Grp \to Grp$, and $Top Grp \to Top$.  Even $Met \to Set$ is amnestic, since the morphisms in [[Met]] are [[short maps]].  However, $Met_cont \to Set$, where the morphisms are [[continuous maps]], is *not* amnestic, as is shown by any set with two different but topologically equivalent metrics (such as $\R^2$ with the $l^1$ and $l^\infty$ metrics).
+
+* The forgetful functor from a groupoid of [[structured sets]] is amnestic.  The examples above may all be defined by starting from such a groupoid and specifying which functions preserve the structure (and so are morphisms in the category of structured sets).  So long as this produces no additional isomorphisms, the forgetful functor will be amnestic.  But in the case of $Met_cont$, any non-isometric homeomorphism will be an isomorphism that was not in the original groupoid (consisting only of surjective isometries), and so this forgetful functor is not amnestic.
 
 * Any strictly [[monadic functor]] is amnestic. Conversely, any monadic functor that is also an amnestic isofibration is necessarily strictly monadic.
 
