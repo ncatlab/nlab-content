@@ -59,9 +59,21 @@ Cf. Johnstone ([1977](#J77), p. 203; [2002](#J02), p.425), Mac Lane-Moerdijk ([1
 
 Note that the second equality determines the class of $\mathbb{T}$-model homomorphisms once the $\mathbb{T}$-models in the arrow categories $\mathcal{E}^2$ are known.
 
+Since $\mathcal{E}^2=\mathcal{E}\times Set^2$ in general and the [[Sierpinski topos]] $Set^2$ is [[exponentiable topos|exponentiable]], one gets
+
+$$Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E}^2)=Hom(\mathcal{E}^2,Set[\mathbb{T}])=Hom(\mathcal{E}\times Set^2, Set[\mathbb{T}])=Hom(\mathcal{E},Set[\mathbb{T}]^{(Set^2)})$$
+
+or in other words
+
++-- {: .num_prop}
+###### Corollary
+
+The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model homorphisms is $Set[\mathbb{T}^2]= Set[\mathbb{T}]^{(Set^2)}$.
+=--
+
 ## Examples
 
-* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetics at 0 and 1. Incidentally, the case of $\mathbb{T}^\emptyset_\emptyset$ which is classified by $Set$ shows that $Set[\mathbb{T}^2]\neq Set[\mathbb{T}]^2$ in general.
+* Let $\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^\emptyset_1$ be the [[empty theory]], resp., the inconsistent theory, over the empty signature. Then $\mathbb{T}^{\emptyset 2}_\emptyset=\mathbb{T}^\emptyset_\emptyset$ and $\mathbb{T}^{\emptyset 2}_1=\mathbb{T}^\emptyset_1$ in accordance with the fact that these theories have only empty models whence all model homomorphisms are [[identity|identity morphisms]] of empty models. In other words, squaring theories obeys the laws of arithmetics at 0 and 1. 
 
 * Let $\mathbb{O}$ be the [[theory of objects]] i.e. the theory with no sequents over the signature with one sort symbol $O$. Then $\mathbb{O}^2$ is the theory with no sequents over the signature with two sort symbols $O^0$, $O^1$ and a function symbol $f_O:O^0\to O^1$. Clearly, its models in a Grothendieck topos $\mathcal{E}$ are the morphisms of $\mathcal{E}$ and, accordingly, $\mathbb{O}^2$ is called the **theory of morphisms**.
 
