@@ -15,9 +15,22 @@ On the computation of the [[anomaly cancellation]] now known as the [[Green-Schw
 
 ## Selected writings
 
+On the [[Green-Schwarz superstring]]:
+
+* {#GreenSchwarz81} [[Michael Green]], [[John Schwarz]], _Supersymmetrical Dual String Theory_, Nucl. Phys. B 181 (1981) 502;
+
+* {#GreenSchwarz82} [[Michael Green]], [[John Schwarz]], _Supersymmetrical Dual String Theory. 2. Vertices and Trees_, Nucl. Phys. B 198 (1982) 252.
+
+* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([spire:193596](http://inspirehep.net/record/193596), <a href="https://doi.org/10.1016/0370-2693(84)92021-5">arXiv;10.1016/0370-2693(84)92021-5</a>)
+
+* {#GreenSchwarz84b} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285 ([spire:196623](http://inspirehep.net/record/196623), <a href="https://doi.org/10.1016/0550-3213(84)90030-0">doi:10.1016/0550-3213(84)90030-0</a>)
+
+
+On M2-M5 brane bound states:
+
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
 
-  (on M2-M5 brane bound states)
+  
 
 ## related entries
 
