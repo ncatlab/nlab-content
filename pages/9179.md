@@ -88,6 +88,10 @@ Comments on neutrinos masses as a hint for the [[standard model of particle phys
 * [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
  {#Weinberg09}
 
+See also
+
+* [[Pierre Ramond]], _Neutrinos and Particle Physics Models_ ([arXiv:1902.01741](https://arxiv.org/abs/1902.01741))
+
 And more on this in relation to [[GUT]] models includes
 
 * {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf))
