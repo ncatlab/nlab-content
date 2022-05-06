@@ -30,6 +30,9 @@ Therefore, together with the very existence of [[hadrons]], also their basic pro
 * {#Thomas08} Anthony Thomas, _The spin of the proton_, Progress in Particle and Nuclear Physics Volume 61, Issue 1, July 2008, Pages 219&#8211;228 Quarks in Hadrons and Nuclei &#8212; 29th Course International Workshop on Nuclear Physics ([arXiv:0805.4437](https://arxiv.org/abs/0805.4437))
 
 * Anthony Thomas, _The resolution of the proton spin crisis_, 2008 ([pdf](http://www4.rcf.bnl.gov/~nouicer/BNL_seminars/AWT_2.pdf))
+
+* Xiangdong Ji, Feng Yuan, Yong Zhao, _Proton spin after 30 years: what we know and what we don't?_ ([arXiv:2009.01291](https://arxiv.org/abs/2009.01291))
+
  
 See also 
 
