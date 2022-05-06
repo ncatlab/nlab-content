@@ -134,11 +134,11 @@ The opposite direction also holds, hence pregroup grammar and [[context-free gra
 
 Since it is generally accepted that natural languages go beyond context-free languages this result illustrates the lack of expressive power of pregroup grammars whence it becomes necessary to enhance the original grammar model:
 
-One way (G. Kobele) is to consider product grammars $G_1\times G_2$: these assign to a string $w$ a tuple $(t_1,t_2)$ of syntactic types with grammaticality of $(w,(t_1,t_2))$ checked by parallel computation of the grammaticality of $(w,t_1)$ in $G_1$ and of $(w,t_2)$ in $G_2$. $(w,(t_1,t_2))$ is then grammatical iff $(w,t_1)$ and $(w,t_2)$ are which permits to describe e.g. the context-sensitive rules of Swiss German ([Lambek (2008)](#Lambek08)). The checking of syntactic types is still given by computation in a pregroup but this pregroup is no longer free.
+One way ([Kobele 2005](#Kobele05)) is to consider **product pregroup grammars** $G_1\times G_2$: these assign to a string $w$ a tuple $(t_1,t_2)$ of syntactic types with grammaticality of $(w,(t_1,t_2))$ checked by parallel computation of the grammaticality of $(w,t_1)$ in $G_1$ and of $(w,t_2)$ in $G_2$. $(w,(t_1,t_2))$ is then grammatical iff $(w,t_1)$ and $(w,t_2)$ are i.e. $L(G_1\times G_2)= L(G_1)\cap L(G_2)$ (cf. [Kobele&Kracht (2005)](#KobeleKracht05), prop. 4). This  permits to describe e.g. the context-sensitive rules of Swiss German ([Lambek (2008)](#Lambek08)). The checking of syntactic types is still given by computation in a pregroup, namely the product pregroup $P_1\times P_2$, but $P_1\times P_2$ is not free!
 
-If one admits arbitrary pregroup grammars $G_1, G_2$ the product grammars $G_1\times G_2$ can generate any [[Chomsky hierarchy|type 0 language]] $L$ (Kobele&[[Marcus Kracht|Kracht]]) since by a classical result in formal language theory any type 0 language is the intersection $L=L_1\cap L_2$ of two context-free languages $L_1,L_2$ whence by the above result of Buszkowski one can find pregroup grammars $G_1,G_2$ generating them with $G_1\times G_2$ then generating $L_1\cap L_2$.
+Kobele and Kracht ([2005](KobeleKracht05)) use this together with the above result by Buszkowski and the classical result in formal language theory that any type 0 language $L$ is the homomorphic image $h(L_1\cap L_2)$ of the intersection of two (deterministic) context-free languages $L_1,L_2$ in order to show that _pregroup grammars generate every type 0 language_ when type checking is done in _arbitrary_ pregroups.
 
-Since it is usually assumed that natural languages do not go beyond [[mildly context-sensitive grammar|mildly context-sensitive languages]] one sees that products of arbitrary pregroup grammars have excessive power and it becomes necessary to cut back this power. One way to do this is by restricting $G_1$ to be of a type simpler than context-free e.g. a [[Dyck language]] thought of now as a control language supervising the "context-free" computations in $G_2$. This idea was proposed by G. Kobele.
+Since it is usually assumed that natural languages do not go beyond [[mildly context-sensitive grammar|mildly context-sensitive languages]] one sees that (homomorphic images) of products of arbitrary pregroup grammars have excessive power and it becomes necessary to cut back this power. One way to do this is by restricting $G_1$ to be of a type simpler than context-free e.g. a [[Dyck language]] thought of now as a control language supervising the "context-free" computations in $G_2$. This idea was explored in Kobele ([2005](Kobele05)).
 
 Another approach to adapt the pregroup grammar formalism to mildly context-sensitive languages was proposed by [Genkin et al. (2010)](#GenkinEtAl) which augment pregroup grammars with buffers.
 
@@ -155,5 +155,9 @@ Another approach to adapt the pregroup grammar formalism to mildly context-sensi
 * {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
 
 * {#Coecke13} Bob Coecke, _An alternative Gospel of structure: order, composition, processes_, Introductory chapter to C. Heunen, M. Sadrzadeh, and E. Grefenstette. Quantum Physics and Linguistics: A Compositional, Diagrammatic Discourse. Oxford University Press, 2013 ([arxiv:1307.4038](https://arxiv.org/abs/1307.4038))
+
+* {#Kobele05}Gregory M. Kobele, _Pregroups, Products, and Generative Power_ , handout Chieti workshop on pregroups May 2005.
+
+* {#KobeleKracht05}Gregory M. Kobele, [[Marcus Kracht]], _On Pregroups, Freedom, and (Virtual) Conceptual Necessity_ , U. Penn Working Papers in Linguistics **10** no.1 (2005).
 
 * {#GenkinEtAl10} Daniel Genkin, Nissim Francez, and Michael Kaminski. _Mildly Context-Sensitive Languages via Buffer Augmented Pregroup Grammars_, In Essays in Memory of Amir Pnueli, 2010.
