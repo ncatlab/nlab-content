@@ -538,8 +538,7 @@ A realization of the string 2-group in [[∞-groupoid]]s [[internalization|inter
 
 A realization of the string 2-group in [[strict 2-group]]s internal to [[Frechet manifold]]s by  [[Lie integration]] of a [[strict Lie 2-algebra]] incarnation of the [[string Lie 2-algebra]] in in
 
-* BCSS, _From loop groups to 2-groups_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BCSS">web</a>)
-{#BCSS}
+* {#BCSS} [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]], [[Danny Stevenson]], _From loop groups to 2-groups_, Homology Homotopy Appl. Volume 9, Number 2 (2007), 101-135. ([arXiv:math/0504123](https://arxiv.org/abs/math/0504123))
 
 A realization of the string 2-group as a [[2-group]] in finite-dimensional [[smooth manifold]]s in in
 
