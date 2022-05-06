@@ -153,3 +153,6 @@ Examples of characters of [[finite groups]] are discussed and listed at
 
 [[!redirects character table]]
 [[!redirects character tables]]
+
+[[!redirects character of a representation]]
+[[!redirects characters of representations]]
