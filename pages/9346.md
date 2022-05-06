@@ -34,7 +34,7 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 ### What is string theory?
  {#WhatIsStringTheory}
 
-What is called _[[perturbative string theory]]_ is a variant of _[[perturbation theory]]_ in _[[quantum field theory]]_ (QFT). It is a definition of an "[[S-matrix]]" of all [[scattering amplitudes]] of quantum objects which is similar to that obtained from [[quantum field theory]], but crucially different.
+What is called _[[perturbative string theory]]_ is a variant of _[[perturbative quantum field theory|perturbation theory]]_ in _[[quantum field theory]]_ (QFT). It is a definition of an "[[S-matrix]]" of all [[scattering amplitudes]] of quantum objects which is similar to the [[Feynman perturbation series]] obtained in [[perturbative quantum field theory]], but crucially different.
 
 One way that the [[S-matrix]] in [[quantum field theory]] is defined in [[perturbative field theory]] is -- in _[[worldline formalism]]_ -- as a [[formal power series]] [[sum|summing]] over labelled [[graphs]] (called _[[Feynman diagrams]]_) of the [[correlators]]/[[n-point functions]] of a 1-dimensional [[QFT]] defined on these graphs (the _[[worldline]] [[theory (physics)|theory]]_ of the [[particles]]/[[virtual particles]] whose [[scattering amplitude]] are to be computed). As a (natural) variant of this, the _[[string perturbation series]]_ is defined to be a similar series, but instead of over 1-dimensional graphs now over 2-dimensional [[surfaces]] ("[[worldsheet|worldsheets]]") and instead of summing correlators of a 1d QFT, summing correlators of a 2-dimensional QFT, specifically a [[2d CFT]].
 
