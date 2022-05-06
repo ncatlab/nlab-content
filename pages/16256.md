@@ -164,7 +164,7 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 Discussion in terms of [[G-structures]]:
 
-* Ulf Danielsson, Giuseppe Dibitetto, Adolfo Guarino, _KK-monopoles and G-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
+* [[Ulf Danielsson]], Giuseppe Dibitetto, Adolfo Guarino, _KK-monopoles and G-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
 
 #### Review
 
