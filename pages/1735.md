@@ -32,8 +32,7 @@ and in chapter 7 of
 
 Opetopes were introduced here:
 
-* {#BaezDolan97} [[John Baez]], [[James Dolan]], Higher-dimensional algebra
-III: $n$-categories and the algebra of opetopes, _Adv. Math._ **135** (1998), 145--206. ([arXiv:q-alg/9702014](http://arxiv.org/abs/q-alg/9702014))
+* {#BaezDolan97} [[John Baez]], [[James Dolan]], Higher-dimensional algebra III: $n$-categories and the algebra of opetopes, _Adv. Math._ **135** (1998), 145--206. ([arXiv:q-alg/9702014](http://arxiv.org/abs/q-alg/9702014))
 
 Some mistakes were corrected in subsequent papers:
 
@@ -47,16 +46,14 @@ category theory.   ([arXiv](http://arxiv.org/abs/math/0109021))
 
 Makkai and collaborators introduced a slight variation they called 'multitopes':
 
-* [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak
-higher-dimensional categories I, II_ _Jour. Pure Appl. Alg._ **157** (2001), 221--277 ([journal](http://www.sciencedirect.com/science/article/pii/S0022404999001796), [ps.gz files](http://www.math.mcgill.ca/makkai/multitopicsets/))
+* [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak higher-dimensional categories I, II_ _Jour. Pure Appl. Alg._ **157** (2001), 221--277 ([journal](http://www.sciencedirect.com/science/article/pii/S0022404999001796), [ps.gz files](http://www.math.mcgill.ca/makkai/multitopicsets/))
 
 * {#Makkai} [[Michael Makkai]], The multitopic $\omega$-category of all multitopic $\omega$-categories. 
 ([web](http://www.math.mcgill.ca/makkai/mltomcat04/))
 
 Cheng has carefully compared opetopes and multitopes, and various approaches to opetopic $n$-categories:
 
-* [[Eugenia Cheng]], Weak $n$-categories: opetopic and multitopic
-foundations, _Jour. Pure Appl. Alg._ **186** (2004), 109--137.([arXiv](http://arxiv.org/abs/math/0304277))
+* [[Eugenia Cheng]], Weak $n$-categories: opetopic and multitopic foundations, _Jour. Pure Appl. Alg._ **186** (2004), 109--137.([arXiv](http://arxiv.org/abs/math/0304277))
 
 * [[Eugenia Cheng]], Weak $n$-categories: comparing opetopic foundations, _Jour. Pure Appl. Alg._ **186** (2004), 219--231.
  ([arXiv](http://arxiv.org/abs/math/0304279))
