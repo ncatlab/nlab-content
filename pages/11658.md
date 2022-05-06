@@ -20,8 +20,15 @@
 
 * [[D=6 N=(2,0) SCFT]]
 
+* [[self-dual string in 6d]]
+
+* [[3-brane in 6d]]
 
 ## References
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.7 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
+
+  (in [[D'Auria-Fré formulation of supergravity]])
 
 * Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
 
