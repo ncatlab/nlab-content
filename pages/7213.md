@@ -274,3 +274,9 @@ Relation to [[Borcherds superalgebras]] is discussed in
 
 [[!redirects exceptional generalised geometry]]
 [[!redirects exceptional generalised geometries]]
+
+[[!redirects super-exceptional generalised geometry]]
+[[!redirects super-exceptional generalised geometries]]
+[[!redirects super-exceptional generalized geometry]]
+[[!redirects super-exceptional generalized geometries]]
+
