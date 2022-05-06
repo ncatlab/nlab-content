@@ -26,7 +26,7 @@ While the idea of a [[homotopy type]]  is very suitable for the study of (locall
 ## Idea
 
 If there are few maps from polyhedra (e.g. from spheres) into the space, then the [[weak homotopy type]] may tell too little about the space. 
-Therefore one "expands" the space into a successive system of spaces which are good recipients of maps from polyhedra (e.g. ANR-s, polyhedra) and one adapts the homotopy theory to such expansions. The analogue of (strong) homotopy type in this setting is the shape of a space; the shape is an invariant of the strong homotopy type and agrees with it on the ANR-s for metric spaces and on the polyhedra. It is more crude for other spaces, but more suitable than the weak homotopy type, or more exactly gives complementary information. Instead of embedding a space, one may abstractly expand or resolve the space or its homotopy class into a pro-object in a category of nice spaces. [[Strong shape theory]] is a variant which is closer to the usual kind of  homotopy, is more geometric and has more homotopy theoretic constructions available in its 'toolkit'. It differs by passing to the homotopy category at a later stage in the theory, so one gets homotopy coherent approximating systems rather than homotopy commutative ones. 
+Therefore one "expands" the space into a successive system of spaces which are good recipients of maps from polyhedra (e.g. absolute neighborhood retracts (ANRs), polyhedra) and one adapts the homotopy theory to such expansions. The analogue of (strong) homotopy type in this setting is the shape of a space; the shape is an invariant of the strong homotopy type and agrees with it on the ANRs for metric spaces and on the polyhedra. It is more crude for other spaces, but more suitable than the weak homotopy type, or more exactly gives complementary information. Instead of embedding a space, one may abstractly expand or resolve the space or its homotopy class into a pro-object in a category of nice spaces. [[Strong shape theory]] is a variant which is closer to the usual kind of  homotopy, is more geometric and has more homotopy theoretic constructions available in its 'toolkit'. It differs by passing to the homotopy category at a later stage in the theory, so one gets homotopy coherent approximating systems rather than homotopy commutative ones. 
 
 
 ## History
@@ -54,6 +54,9 @@ This was the original form and applies to compact metric spaces.  It uses the fa
 A remarkable and beautiful theorem of Chapman (the Chapman complement theorem) shows that the shape of two compact metric spaces, $X$ and $Y$ embedded in the [[Hilbert cube|pseudo-interior]] of the Hilbert cube, $Q$, have the same shape if and only if their complements $Q\setminus X$ and $Q\setminus Y$ are homeomorphic.
 
 ##ANR-systems approach (Marde&#353;i&#263; and Segal (1970))##
+
+Absolute neighborhood retract (ANR)
+
 ## Abstract shape category
 
 ### Idea
