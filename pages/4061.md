@@ -141,7 +141,7 @@ On [[quantum field theory]] and [[string theory]]:
 
 * Gregory L. Naber, *Topology, geometry, and gauge fields: interactions*
 
-* Mikio Nakahara, *Geometry, topology and physics*
+* [[Mikio Nakahara]], *[[Geometry, Topology and Physics]]*
 
 * Marian Fecko, *Differential geometry and Lie groups for physicists*
 
