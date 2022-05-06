@@ -62,8 +62,8 @@ See [the table below](#detailed_list) for more details.
  <tr>
   <th markdown="1">[[Giry monad]]</th>
   <td markdown="1">[[Meas]]</td>
-  <td markdown="1">[[Probability measures]]</td>
-  <td markdown="1">Initial [[$\sigma$-algebra]] of evaluation maps</td>
+  <td markdown="1">[[probability measures]]</td>
+  <td markdown="1">Initial [[σ-algebra]] of evaluation maps</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
@@ -101,16 +101,16 @@ See [the table below](#detailed_list) for more details.
  </tr>
  <tr>
   <th markdown="1">(Ordered) [[Kantorovich monad]]</th>
-  <td markdown="1">[[Cauchy-complete|Complete]] [[$L$-ordered]] [[metric spaces]]</td>
+  <td markdown="1">[[Cauchy-complete|Complete]] [[L-ordered]] [[metric spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
   <td markdown="1">Closed [[convex subsets]] of [[ordered Banach spaces]]</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[Probability monad for topological spaces]]</th>
+  <th markdown="1">[[extended probabilistic powerdomain#the_monad_of_measures_on_top|monad of measures on Top]]</th>
   <td markdown="1">[[Top]]</td>
-  <td markdown="1">[[$\tau$-additive]] [[probability measures]]</td>
+  <td markdown="1">[[τ-additive]] [[probability measures]]</td>
   <td markdown="1">initial topology of evaluation maps ("A-topology"), [[stochastic order]]</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
@@ -124,7 +124,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[Extended probabilistic powerdomain]]{#extprobpow}</th>
+  <th markdown="1">[[extended probabilistic powerdomain]]{#extprobpow}</th>
   <td markdown="1">[[Top]]</td>
   <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">initial topology of evaluation maps, [[stochastic order]]</td>
