@@ -5,6 +5,11 @@ Amihay Hanany is professor for theoretical [[physics]] at Imperial College Londo
 
 ## Selected writings
 
+On [[D-branes]] [[brane intersection|intersecting]] [[NS5-branes]]:
+
+* {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
+
+
 On [[(p,q)5-brane webs]]:
 
 * [[Ofer Aharony]], [[Amihay Hanany]], [[Barak Kol]], _Webs of $(p,q)$ 5-branes, Five Dimensional Field Theories and Grid Diagrams_, JHEP 9801:002,1998 ([arXiv:hep-th/9710116](http://arxiv.org/abs/hep-th/9710116))
