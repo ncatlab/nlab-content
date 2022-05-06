@@ -181,7 +181,7 @@ Moreover, if the [[spherical fibration]] $E \to X$ happens to be the [[unit sphe
 
 =--
 
-This may be found as [Félix-Halperin-Thomas 00, 15, Example 4, p. 202](#FelixHalperinThomas00). The fiber integral (eq:FiberIntegrationOfOddGenerator) follows by [this Prop.](Euler+class#TrivializationOfEulerFormOnUnitSphereBundle).
+This may be found as [Félix-Halperin-Thomas 00, 15, Example 4, p. 202](#FelixHalperinThomas00), see also [Félix-Oprea-Tanré 16, Prop. 2.3](#FelixOpreaTanre16). The fiber integral (eq:FiberIntegrationOfOddGenerator) follows by [this Prop.](Euler+class#TrivializationOfEulerFormOnUnitSphereBundle).
 
 
 ### Relation to rational mapping space of spheres
@@ -279,6 +279,7 @@ for $n = 2k$ an [[even number]] the rational [[Pontryagin class]] (eq:RationalPo
 
 * {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
+* {#FelixOpreaTanre16} [[Yves Félix]], John Oprea, Daniel Tanré, Prop. 2.3 in _Lie-model for Thom spaces of tangent bundles_, Proc. Amer. Math. Soc. 144 (2016), 1829-1840 ([pdf](http://www.ams.org/journals/proc/2016-144-04/S0002-9939-2015-12829-8/S0002-9939-2015-12829-8.pdf), [doi:10.1090/proc/12829](https://doi.org/10.1090/proc/12829))
 
 [[!redirects Sullivan mode of spherical fibrations]]
 
