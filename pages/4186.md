@@ -95,6 +95,10 @@ Relation to [[vertex operator algebras]] is discussed in
 
 * {#Carpi16} [[Sebastiano Carpi]], _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) ([arXiv:1603.06742](http://arxiv.org/abs/1603.06742))
 
+See also
+
+* James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
+
 
 Relation to [[2-spectral triples]] is discussed in terms of [[vertex operator algebras]]
 
