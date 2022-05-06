@@ -30,15 +30,15 @@ Work conducted in homotopy type theory:
 * [[HoTT book]]
 * [[Favonia|Kuen-Bang Hou (Favonia)]], [[Robert Harper]], _Covering Spaces in Homotopy Type Theory_, ([pdf](https://favonia.org/files/cover-types2016.pdf)).
 * [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_, ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315)) 
-* Free Higher Groups in Homotopy Type Theory, ([arXiv:1805.02069](https://arxiv.org/abs/1805.02069)) 
-* Localization in Homotopy Type Theory, ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))  
+* [[Nicolai Kraus]], [[Thorsten Altenkirch]], Free Higher Groups in Homotopy Type Theory, ([arXiv:1805.02069](https://arxiv.org/abs/1805.02069)) 
+* [[Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], Localization in Homotopy Type Theory, ([arXiv:1807.04155](https://arxiv.org/abs/1807.04155))  
 * [[Guillaume Brunerie]], _The James construction and $\pi_4(S^3)$ in homotopy type theory_, ([arXiv:1710.10307](https://arxiv.org/abs/1710.10307))
 * [[Dan Licata]], [[Guillaume Brunerie]], _$\pi_n(S^n)$ in Homotopy Type Theory_, Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf)
 * [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_, ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134)):
 > Construction of the [[quaternionic Hopf fibration]]
 * Cellular Cohomology in Homotopy Type Theory, ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191)) 
 * The real projective spaces in homotopy type theory, ([arXiv:1704.05770](https://arxiv.org/abs/1704.05770)) 
-* Synthetic Homology in Homotopy Type Theory, ([arXiv:1706.01540](https://arxiv.org/abs/1706.01540))  
+* [[Robert Graham]], Synthetic Homology in Homotopy Type Theory, ([arXiv:1706.01540](https://arxiv.org/abs/1706.01540))  
 * [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_, ([arXiv:1606.05916](https://arxiv.org/abs/1606.05916))
 * A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory, ([arXiv:1605.03227](https://arxiv.org/abs/1605.03227)) 
 * [[Favonia|Kuen-Bang Hou (Favonia)]], [[Michael Shulman]], _The Seifert–van Kampen Theorem in Homotopy Type Theory_, 2016, ([pdf](https://favonia.org/files/vankampen-csl2016.pdf)), ([doi](10.4230/LIPIcs.CSL.2016.22))
