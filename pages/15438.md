@@ -73,9 +73,9 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
 
-* {#Law89}[[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). (pp.298f)
+* {#Law89}[[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_, Cont. Math. **92** (1989) (p. 298 ff).
 
-* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (pp.155, 158)
+* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_, Springer Heidelberg 1994. (pp.155, 158)
 
 * {#Menni03}[[Matías Menni]], _About N-quantifiers_ , Appl. Cat. Struc. **11** (2003) pp.421-445. ([preprint](https://sites.google.com/site/matiasmenni/newQuantifiers.pdf?attredirects=0))
 
