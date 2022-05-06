@@ -6,4 +6,4 @@
 |  $\phantom{A}5\phantom{A}$   |  $\phantom{A}1\phantom{A}$  | $\phantom{A}F(4)\phantom{A}$ | $\phantom{A}SO(3)\phantom{A}$  | [[D4-brane]] <br/> [[D=5 SYM]] |
 |  $\phantom{A}6\phantom{A}$   | $\phantom{A}k\phantom{A}$ | $\phantom{A}D(4,k) \simeq$ [[osp]]$(8 \vert 2k)\phantom{A}$ | $\phantom{A}Sp(k)\phantom{A}$  | [[M5-brane]] <br/> [[D=6 N=(2,0) SCFT]] <br/> [[D=6 N=(1,0) SCFT]] |
 
-([Shnider 88](supersymmetry#Shnider88), also [Nahm 78](supersymmetru#Nahm78), see [Minwalla 98, section 4.2](supersymmetry#Minwalla98))
+([Shnider 88](supersymmetry#Shnider88), also [Nahm 78](supersymmetry#Nahm78), see [Minwalla 98, section 4.2](supersymmetry#Minwalla98))
