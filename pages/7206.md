@@ -163,7 +163,8 @@ Arguments for finiteness from [[E7]] [[U-duality]] is discussed in
 Arguments against finiteness to all orders include
 
 * [[Michael Green]], [[Hirosi Ooguri]] and [[John Schwarz]], _Nondecoupling Supergravity from the Superstring_, Phys. Rev. Lett. 99 (2007) 041601.
- * [[Tom Banks]], _Why I don't Believe N= 8 SUGRA is Finite_, talk at the Workshop "Supergravity versus Superstring Theory in the Ultraviolet", PennState Univ, PA USA, August 27-30 2009.
+
+ * [[Tom Banks]], _Why I don't Believe N= 8 SUGRA is Finite_, talk at _[Workshop "Supergravity versus Superstring Theory in the Ultraviolet"](http://www.gravity.psu.edu/events/supergravity/program.shtml)_, PennState Univ, PA USA, August 27-30 2009.
 
 See also
 
