@@ -740,7 +740,7 @@ Discussion in the context of [[modal type theory|modal]] [[homotopy type theory]
 
 * {#Brunerie} [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
  
-More discussin of the internal perspective:
+More discussion of the internal perspective:
 
 * [[Nima Rasekh]], _An Elementary Approach to Truncations_ ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
 
