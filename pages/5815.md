@@ -69,6 +69,11 @@ where $c$ is the number of critical points of $K$.  To distinguish this from the
 
 ## References
 
+### General
+
+Review:
+
+* Christine Lescop, _Introduction to the Kontsevich Integral of Framed Tangles_, 2000 ([[LescopKontsevichIntegral.pdf:file]])
 
 [[!include perturbative quantization of Chern-Simons theory -- references]]
 
