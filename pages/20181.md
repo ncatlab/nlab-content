@@ -610,14 +610,19 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 ## References
 
+Discussion of equivariant maps between suitable matching pairs of $G$-spaces is in
+
 * {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
 
-Specifically for [[equivariant cohomotopy]]:
 
-* Zalman Balanov, _Equivariant hopf theorem_, Nonlinear Analysis: Theory, Methods & Applications Volume 30, Issue 6, December 1997, Pages 3463-3474 (<a href="https://doi.org/10.1016/S0362-546X(97)00020-5">doi:10.1016/S0362-546X(97)00020-5</a>)
+Discussion specifically for the [[codomain]] a [[representation sphere]] (i.e.  for [[equivariant cohomotopy]]):
+
+* Zalman Balanov, _Equivariant Hopf theorem_, Nonlinear Analysis: Theory, Methods & Applications Volume 30, Issue 6, December 1997, Pages 3463-3474 (<a href="https://doi.org/10.1016/S0362-546X(97)00020-5">doi:10.1016/S0362-546X(97)00020-5</a>)
 
 * Davide L. Ferrario, _On the equivariant Hopf theorem_, _Topology
 Volume 42, Issue 2, March 2003, Pages 447-465_ (<a href="https://doi.org/10.1016/S0040-9383(02)00015-0">doi:10.1016/S0040-9383(02)00015-0</a>)
+
+* [[Markus Szymik]], _A stable approach to the equivariant Hopf theorem_ ([pdf](https://folk.ntnu.no/markussz/papers/szymik.hopf.pdf), [[StableApproachToEquivariantHopfTheorem.pdf:file]])
 
 [[!redirects equivariant Hopf degree theorems]]
 
