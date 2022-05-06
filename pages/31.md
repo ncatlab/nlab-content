@@ -120,11 +120,10 @@ a Rosetta Stone](http://arxiv.org/abs/0903.0340), with [[Mike Stay]], in <em>New
 [Groupoidification made easy](http://arxiv.org/abs/0812.4864), with Alexander E. Hoffnung and Christopher D. Walker. 
 
 [A history of n-categorical physics](http://math.ucr.edu/home/baez/history.pdf),
-with Aaron Lauda, to appear in proceedings of 
+with Aaron Lauda, in proceedings of 
 <i>Deep Beauty: Mathematical Innovation and the Search for
 an Underlying Intelligibility of the Quantum World</i>, ed. 
-Hans Halvorson. <b>Draft version.</b>
-
+Hans Halvorson. 
 category: people
 
 [[!redirects John C. Baez]]
