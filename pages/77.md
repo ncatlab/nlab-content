@@ -37,22 +37,71 @@ $$
 
 This defines the [[category]] [[LieAlg]] of Lie algebras.
 
-### In a general linear category
+### Internal to a general linear category
+ {#InAGeneralLinearCategory}
 
-The notion of _Lie algebra_ may be formulated [[internalization|internal to]] any [[linear category]]. This general definition subsumes as special case generalizations such as [[super Lie algebra]]s. 
+The notion of _[[Lie algebra]]_ may be formulated [[internalization|internal to]] any [[linear category]]. This general definition subsumes variants of Lie algebras such as [[super Lie algebras]]. 
 
-Given a [[commutative unital ring]] $k$, and a (strict for simplicity) [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $(C,\otimes,1)$ with the symmetry $\tau$, a **Lie algebra** in $(C,\otimes,1,\tau)$ is an object $L$ in $C$ together with a morphism $[-,-]: A\otimes A\to A$ such that the [[Jacobi identity]] 
+Consider a [[commutative unital ring]] $k$, and a (strict for simplicity) [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $(\mathcal{C},\otimes,1)$ with [[braiding]] $\tau$.
 
-$$
- \left[-,\left[-,-\right]\right]+\left[-,\left[-,-\right]\right]\circ(id_L\otimes\tau_{L,L})\circ(\tau\otimes id_L)+\left[-,\left[-,-\right]\right]\circ (\tau_{L,L}\otimes id_L)\circ (id_L\otimes\tau_{L,L}) = 0$$ 
+A **[[Lie algebra object]]** in $(\mathcal{C},\otimes,1,\tau)$ is 
 
-and antisymmetry 
+1. an [[object]] 
 
-$$[-,-]+[-,-]\circ \tau_{L,L} = 0$$
+   $$
+     L \in \mathcal{C}
+   $$
 
-hold. If $k$ is the ring $\mathbb{Z}$ of [[integer]]s, then we say (internal) __Lie ring__, and if $k$ is a [[field]] and $C=Vec$ then we say a __Lie $k$-algebra__. Other interesting cases are super-Lie algebras, which are the Lie algebras in the symmetric monoidal category $\mathbb{Z}_2-Vec$ of [[supervector space]]s and the Lie algebras in the [[Loday-Pirashvili tensor category]] of linear maps. 
+1. [[morphism]] (the [[Lie bracket]])
 
-Alternatively, Lie algebras are the algebras over certain quadratic [[operad]], called the [[Lie operad]], which is the [[Koszul dual]] of the [[commutative algebra]] operad.  
+   $$
+     [-,-] \;\colon\; L \otimes L \to L
+   $$
+
+such that the following conditions hold:
+
+1. [[Jacobi identity]]:
+
+   $$
+     \left[-,\left[-,-\right]\right]
+       +
+     \left[-,\left[-,-\right]\right]
+     \circ(id_L\otimes\tau_{L,L})
+     \circ(\tau\otimes id_L)
+     +
+     \left[-,\left[-,-\right]\right]
+       \circ 
+     (\tau_{L,L}\otimes id_L)\circ (id_L\otimes\tau_{L,L}) = 0
+   $$ 
+
+1. skew-symmetry:
+
+   $$
+     \begin{aligned}
+       & 
+       \phantom{+}
+       [-,-]
+       \\
+       &
+       +
+       [-,-]\circ \tau_{L,L} 
+       \\
+       & = \phantom{+} 0
+     \end{aligned}
+   $$
+
+Equivalently, Lie algebra objects  are the [[algebras over an operad]] over a certain quadratic [[operad]], called the [[Lie operad]], which is the [[Koszul dual]] of the [[commutative algebra operad]].
+
+
+Examples of types of [[Lie algebra objects]]:
+
+If $k$ is the ring $\mathbb{Z}$ of [[integers]] and $\mathcal{C} = $ $k$[[Mod]] = [[Ab]] is the [[category]] of [[abelian groups]] equipped with the [[tensor product of abelian groups]], then a Lie algebra object is called a _[[Lie ring]]_.
+
+If $k$ is a [[field]] and $\mathcal{C} =$ [[Vect]] is the [[category]] of [[vector spaces]] over $k$ equipped with the [[tensor product of vector spaces]] then a Lie algebra object is an ordinary_[[Lie algebra|Lie k-algebra]]_. 
+
+If $k$ is a [[field]] and $\mathcal{C}$ = [[sVect]] is the [[category]] of [[super vector spaces]] over $k$, then a Lie algebra object is a  _[[super Lie algebra]]_.
+
+
 
 ### General abstract perspective
  {#GeneralAbstractPerspective}
