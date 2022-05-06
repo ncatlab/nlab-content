@@ -67,6 +67,10 @@ Vector spaces, algebraic closures, graphs, restrictions, localizations, ...
 
 * A *graphic matroid* is a matroid $M$ derived from a [[simple graph]] by taking the underlying set of $M$ to be the set of edges $E$, and taking as independent sets of $M$ those $S \subseteq E$ such that the edges of $S$ (and their incident vertices) form a [[forest]], i.e., a graph without cycles.  
 
+* A *vector matroid* is a matroid $M$ derived from a a collection of vectors $E$ in a vector space. Independent sets of $M$ are those $S \subseteq E$ such that $S$ is linearly independent. Providing an equivalence to such a vector matroid is the problem of representability over a specified field.
+
+* An *algebraic matroid* for a field extension $K/F$ is derived from a collection of elements $E \subset K$ and independent sets of $M$ are those such that $F(S)$ has transcendence degree equal to $\mid S \mid$ so all of $S$ are algebraically independent.
+
 * If $M$ is a (finite) matroid, then the *matroid dual* $M^\ast$ of $M$ has the same underlying set as $M$, and where a basis in $M^\ast$ is precisely the complement of a basis of $M$. It follows that $M^{\ast\ast} \cong M$ (this is even an equality according to the definition). 
 
 ## Model-theoretic geometry 
