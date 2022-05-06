@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### 2-Category theory
+#### 2-category theory
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
@@ -30,9 +30,9 @@ A 2-category consists of
 
 The morphisms can be [[composition|composed]] along the objects, while the 2-morphisms can be composed in two different directions: along objects -- called [[horizontal composition]] -- and along morphisms -- called [[vertical composition]].  The composition of morphisms is allowed to be associative only up to [[coherent]] [[associator]] 2-morphisms.
 
-2-Categories are also a [[horizontal categorification]] of [[monoidal categories]]: they are like monoidal categories with many objects. 
+2-categories are also a [[horizontal categorification]] of [[monoidal categories]]: they are like monoidal categories with many objects. 
 
-2-Categories provide the context for discussing
+2-categories provide the context for discussing
 
 * [[adjunction]]s;
 
