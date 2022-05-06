@@ -433,7 +433,7 @@ The link with simplicial groups and algebraic models of homotopy $n$-types is gi
 * [[Tim Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
 
 
-* [[Tim Porter]] _[[Menagerie|The crossed menagerie]]_
+* [[Tim Porter]], _[[Menagerie|The crossed menagerie]]_
 
 A detailed account of various technical aspects is in
  
