@@ -68,6 +68,7 @@ on every measurable set of finite $\mu$-measure,
 and $\nu_s$ is singular with respect to $\mu$,
 meaning there is a set $F\in\Sigma$ such that $\mu(F)=0$
 and $\nu(E)=0$ for all $E\in\Sigma$ such that $E\subset X\setminus F$.
+In particular, setting $\nu_a=\nu_t+\nu_e$ yields a unique decomposition $\nu=\nu_s+\nu_a$ of $\nu$ as a sum of a singular and absolutely continuous measure.
 \end{theorem}
 
 ## Definitions
