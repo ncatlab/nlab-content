@@ -56,9 +56,14 @@ in the usual arithmetic of [[cardinal numbers]].
 
 * The power set construction constitutes an [[equivalence of categories]] between the [[opposite category]] [[Set]]$^{op}$ and that of [[complete atomic Boolean algebras]]. See at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_. Restricted to [[finite sets]], the power set construction constitutes an [[equivalence of categories]] between the [[opposite category]] of [[FinSet]] and that of finite [[Boolean algebras]]. See at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
 
+
+The power set construction gives rise to two functors, the contravariant powers set functor $Set^op \to Set$ and the covariant power set functor $Set \to Set$. The first sends a function $f\colon S\to T$ to the _preimage_ function $f^*\colon P(T) \to P(S)$, whereas the second sends $f$ to the _image_ function $f_*\colon P(S) \to P(T)$.
+
 ## Related concepts
 
 * A [[closure operator]] on a power set is a _[[Moore closure]]_.
+* [[power object]]
+
 
 category: foundational axiom
 
