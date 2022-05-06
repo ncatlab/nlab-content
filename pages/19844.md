@@ -35,12 +35,23 @@ Indications of flavour anomalies have been observed consistently and with increa
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
-The global tension with the standard model by end of 2018 is around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). 
+The global tension with the standard model by end of 2018 is around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see it at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17)).
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
 
 > graphics grabbed from [Dey 18](#Dey18)
 
+## Possible solutions
+
+Candidate theories of "new physics" that could possibly explain the flavour anomalies (if indeed they are real) includes the following
+
+### Leptoquarks
+
+* [[leptoquarks]] ([Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18))
+
+### Other
+
+* composite [[Higgs boson]] ([Marzocca 18](#Marzocca18))
 
 ## Related concepts
 
@@ -107,6 +118,8 @@ Original articles include:
 
 * {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits to $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
 
+* {#CCDGMV17} Bernat Capdevila, Andreas Crivellin, Sébastien Descotes-Genon, Joaquim Matias, Javier Virto, _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
+
 Cautionary remarks include
 
 * _[Some B Meson Decay Anomalies Disappear In Run-2 Data](http://dispatchesfromturtleisland.blogspot.com/2017/05/some-b-meson-decay-anomalies-disappear.html)_
@@ -115,13 +128,21 @@ Attempts to explain the anomaly include
 
 [[leptoquarks]]:
 
-* [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
+* Yi Cai, John Gargalionis, Michael A. Schmidt, Raymond R. Volkas, _Reconsidering the One Leptoquark solution: flavor anomalies and neutrino mass_ ([arXiv:1704.05849](https://arxiv.org/abs/1704.05849))
 
-* Shinya Matsuzaki, Kenji Nishiwaki, Kei Yamamoto, _Simultaneous interpretation of K and B anomalies in terms of chiral-flavorful vectors_ ([arXiv:1806.02312](https://arxiv.org/abs/1806.02312))
+* {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
+
+* {#Mueller18} Dario Müller, _Leptoquarks in Flavour Physics_, EPJ Web of Conferences 179, 01015 (2018) ([arXiv:1801.03380](https://arxiv.org/abs/1801.03380))
+
+* {#MatsuzakiNishiwaki18} Shinya Matsuzaki, Kenji Nishiwaki, Kei Yamamoto, _Simultaneous interpretation of K and B anomalies in terms of chiral-flavorful vectors_ ([arXiv:1806.02312](https://arxiv.org/abs/1806.02312))
+
+
+* {#MonteuxRajaraman18} Angelo Monteux, [[Arvind Rajaraman]], _B Anomalies and Leptoquarks at the LHC: Beyond the Lepton-Quark Final State_, Phys. Rev. D 98, 115032 (2018) ([arXiv:1803.05962](https://arxiv.org/abs/1803.05962))
+
 
 others:
 
-* David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
+* {#Marzocca18} David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
 
 [[!redirects flavour anomalies]]
 
