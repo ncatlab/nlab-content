@@ -224,6 +224,8 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * There is a [[Yoneda lemma for bicategories]].
 
+* There is a [[Yoneda lemma for tricategories]].
+
 * There is a [[Yoneda lemma for (∞,1)-categories]].
 
 * In [[functional programming]], the Yoneda embedding is related to the [[continuation passing style]] transform.
