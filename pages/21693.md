@@ -40,7 +40,7 @@ A 3-theory may be said to subsume another 3-theory, in the sense that a [[2-theo
 
 ## References
 
-* {#Shulman18b} [[Mike Shulman]], _What Is an n-Theory?_, ([blog post](https://golem.ph.utexas.edu/category/2018/04/what_is_an_ntheory.html))
+* {#Shulman18a} [[Mike Shulman]], _What Is an n-Theory?_, ([blog post](https://golem.ph.utexas.edu/category/2018/04/what_is_an_ntheory.html))
 
 * {#LS15} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
 
