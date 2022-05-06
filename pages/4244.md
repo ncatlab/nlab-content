@@ -135,9 +135,13 @@ The original articles are
 
 (...)
 
-Surveys and reviews include
+Surveys and review:
 
 * Scholarpedia, _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_
+
+Motivated from the relation between [[supersymmetry and Calabi-Yau manifolds]]:
+
+* [[Tristan Hübsch]], _Calabi-Yau Manifolds -- A Bestiary for Physicists_, World Scientific 1992 ([doi:10.1142/1410](https://doi.org/10.1142/1410))
 
 In terms of [[G-structure]]:
 
