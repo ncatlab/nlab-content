@@ -10,6 +10,7 @@
 =--
 
 
+
 # Vassiliev knot invariants
 * table of contents
 {: toc}
@@ -171,7 +172,10 @@ Review:
 
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 ([web](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/), <a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>)
 
-* S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_ ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628))
+* [[Simon Willerton]], _On the Vassiliev invariants for knots and for pure braids_, 1997 ([hdl:1842/11581](http://hdl.handle.net/1842/11581), [ethos.663801](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.663801), [[WillertonVasdilievInvariants1997.pdf:file]])
+
+
+* S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628))
 
 * {#LandoZvonkin} Sergei K. Lando and Alexander K. Zvonkin, Chapter 6 of: _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
@@ -212,7 +216,8 @@ Relation to the [[Euler characteristic]] of the [[ordinary homology]] of [[loop 
 
 based on 
 
-* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, Contemporary Mathematics 179 (1994): 123-123.
+* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, 
+In: Yoshiaki Maeda, Hideki Omori and [[Alan Weinstein]] (eds.), _Symplectic Geometry and Quantization_, Contemporary Mathematics 179 (1994): 123-123 ([doi:10.1090/conm/179](http://dx.doi.org/10.1090/conm/179))
 
 * {#Cohen76} [[Fred Cohen]], _The homology of $\mathcal{C}_{n+1}$-Spaces, $n \geq 0$. In: The Homology of Iterated Loop Spaces. Lecture Notes in Mathematics, vol 533. Springer, Berlin, Heidelberg  1976 ([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
 
