@@ -119,7 +119,6 @@ to the equalizer of
 $$ Tm^V \times Ty \xrightarrow{pr_1} Tm^V \overset{\llbracket t \rrbracket ^V_{\Rightarrow}}{\rightharpoonup} Tm \to Ty $$
 and the restriction of the second projection $Tm^V \times Ty$ to its domain.
 
-
 The other inductive clauses of the partial interpretation should precisely mirror the bidirectional rules of our type theory, using recursive calls to the above three operations as counterparts of the three syntactic judgments $\Gamma \vdash A\,type$, $\Gamma \vdash t\Rightarrow A$, and $\Gamma \vdash t\Leftarrow A$.  Note, though, that at this point this is only an analogy: we are simply inducting over the raw term structure of $t$, not making any actual reference to these judgments.
 
 This suggestion incorporates the innovation proposed by [Peter](https://nforum.ncatlab.org/discussion/8904/a-communal-proof-of-an-initiality-theorem/?Focus=71254#Comment_71254) over Streicher's proof of taking the interpretation of the context $\Gamma$ as an *input* to the partial intepretation functions rather than an output (see in particular his point (7)).  The elements of the presheaf $Tm^V$ at some object $X\in C$ are what Peter calls "environments" for $t$.  Note that we do not require that $V$ contain all free variables occurring in $t$, but if it omits some then the partial interpretation morphisms should turn out to have empty domain.
