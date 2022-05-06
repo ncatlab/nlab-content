@@ -609,6 +609,8 @@ The above result can be seen as an effective way to compute the sheaf cohomology
 
 * [[twisted ordinary cohomology]], [[twisted K-theory]], [[twisted tmf]]
 
+* [[twisted cohomotopy]]
+
 ## References 
 
 ### General
