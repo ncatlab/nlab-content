@@ -26,7 +26,7 @@
 
 The concept of _decidable object_ is the generalization to [[category theory]] of the concept of a [[decidable set]] from [[computability theory]]. 
 
-This corresponds to the algebraic and topological concepts _[[separable topological space|separable]]_, respectively _[[unramified morphism|unramified]]_ object, as pointed out by [[William Lawvere]].
+This corresponds to the algebraic and topological concepts _[[unramified morphism|unramified]]_, respectively _[[separable topological space|separable]]_ object, as pointed out by [[William Lawvere]].
 
 ## Definition
 
