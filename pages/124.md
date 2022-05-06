@@ -272,6 +272,8 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[isotropy group of a topos]]
 
+  [[test topos]]
+
 * [[(∞,1)-topos]] 
 
   * [[model topos]]
