@@ -48,8 +48,12 @@ with the [[special unitary group]] of complex dimension 4.
 
 [[!include low dimensional rotation groups -- table]]
 
+* [[SU(2)]], [[SU(3)]]
+
 \linebreak
 
 ## References
 
 * {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 8: _Parallel and Killing spinors_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture8.pdf))
+
+[[!redirects SU(4)]]
