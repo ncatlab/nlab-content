@@ -7,6 +7,11 @@ On [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[bl
 
 * [[Jerome Gauntlett]], [[Nakwoo Kim]], [[Daniel Waldram]],  _M-Fivebranes Wrapped on Supersymmetric Cycles_, Phys. Rev. D63 (2001) 126001 ([arXiv:hep-th/0012195](https://arxiv.org/abs/hep-th/0012195))
 
+
+Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] of [[anti de Sitter spacetime|AdSp]] [[product manifold|x]] [[n-sphere|S^q]] spacetimes and of the corresponding limit of the [[AdS5-CFT4 correspondence]]:
+
+* [[Nakwoo Kim]], Ari Pankiewicz, Soo-Jong Rey, [[Stefan Theisen]], _Superstring on PP-Wave Orbifold from Large-N Quiver Gauge Theory_, Eur. Phys. J. C25:327-332, 2002 ([arXiv:hep-th/0203080](https://arxiv.org/abs/hep-th/0203080))
+
 On the [[BMN matrix model]]:
 
 * [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
