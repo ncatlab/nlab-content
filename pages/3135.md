@@ -35,6 +35,7 @@ The unitary group $U(n)$ is [[compact topological space]], hence in particular a
 
 
 ### Homotopy groups
+ {#HomotopyGroups}
 
 +-- {: .num_prop #InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence}
 ###### Proposition
