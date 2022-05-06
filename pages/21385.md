@@ -82,15 +82,15 @@ There are number of aspects to this which illustrate aspects of object oriented 
 1. There is no sense in which this class 'NaturalNumber' is defined in terms of a canonical type construction, such as an [[inductive type]]. We are simply introducing a type in the empty context, and then defining [[natural deduction|rules]] for working with that type. This a common theme in object oriented programming: the core language typically provides very few canonical type constructions, but the programmer (or standard library!) has freedom and flexibility for introducing types and their rules. Java for example does not even have a 'pair' or 'product' type in its standard library, though it is easily implemented.   
 1. In this particular example, there are roughly speaking two [[introduction rule|introduction rules]]: one given by the method 'zero', and one given by the method 'successor'. The method zero occurs in the empty context, i.e. corresponds to a rule of the form 
 $$
-\frac{}{0 : \mathbb{N}}
+\frac{}{zero : \mathbb{N}}
 $$ 
 whilst the method successor corresponds to a rule of the following form.
 $$
-\frac{n : \mathbb{N}}{s(n) : \mathbb{N}}
+\frac{n : \mathbb{N}}{successor(n) : \mathbb{N}}
 $$ 
 1. The method getSuccessorOf is roughly akin to a [[computation rule]]. Indeed, it can be thought of as being of the following form. 
 $$
-\frac{n : \mathbb{N} \vdash S(n) : \mathbb{N}}{successorOf(S(n)) = n : \mathbb{N}}
+\frac{n : \mathbb{N} \vdash successor(n) : \mathbb{N}}{successorOf(successor(n)) = n : \mathbb{N}}
 $$
 1. The method add is roughly akin to an [[elimination rule]] combined with two computation rules. Indeed, the elimination rule can be thought of as being of the form 
 $$
@@ -98,11 +98,11 @@ $$
 $$ 
 and the computation rules can be thought of as being of the form 
 $$
-\frac{n : \mathbb{N}, 0 : \mathbb{N} \vdash n + 0 : \mathbb{N}}{n + 0 = n : \mathbb{N}}
+\frac{n : \mathbb{N}, zero : \mathbb{N} \vdash n + zero : \mathbb{N}}{n + zero = n : \mathbb{N}}
 $$ 
 and of the following form. 
 $$
-\frac{n : \mathbb{N}, m : \mathbb{N}, S(m) : \mathbb{N} \vdash n + S(m) : \mathbb{N}}{n + S(m) = S(n + m): \mathbb{N}}
+\frac{n : \mathbb{N}, m : \mathbb{N}, successor(m) : \mathbb{N} \vdash n + successor(m) : \mathbb{N}}{n + successor(m) = successor(n + m): \mathbb{N}}
 $$
 
 Secondly, if we look at the code itself, we can observe a few typical features.
