@@ -57,7 +57,7 @@ In ([ALR 07, theorem 1.23](#ALR07)) is asserted that every effective orbifold $X
 
 ### (Co)homology
 
-It has been noticed that the topological invariants of the underlying topological space of an orbifold as a topological space with an orbifold structure are not appropriate, but have to be corrected leading to [[orbifold Euler characteristics]], [[orbifold cohomology]] etc. One of the constructions which is useful in this respect is the inertia orbifold (the inertia stack of the original orbifold) which gives rise to "twisted sectors" in Hilbert space of a quantum field theory on the orbifold, and also to twisted sectors in the appropriate cohomology spaces. A further generalization gives multitwisted sectors. 
+It has been noticed that the topological invariants of the underlying topological space of an orbifold as a topological space with an orbifold structure are not appropriate, but have to be corrected leading to [[orbifold Euler characteristics]], [[orbifold cohomology]] etc. One of the constructions which is useful in this respect is the [[inertia orbifold]] (the inertia stack of the original orbifold) which gives rise to "twisted sectors" in Hilbert space of a quantum field theory on the orbifold, and also to twisted sectors in the appropriate cohomology spaces. A further generalization gives multitwisted sectors. 
 
 
 
@@ -71,6 +71,8 @@ It has been noticed that the topological invariants of the underlying topologica
 * The [[moduli stack of elliptic curves]] over the [[complex numbers]] is an orbifold, being the [[homotopy quotient]] of the [[upper half plane]] by the [[special linear group]] acting by [[Möbius transformations]].
 
 * For $\mathcal{G}$ any orbifold, then the [[mapping space]] $\mathcal{G}^{\Pi(S^1)} = \mathcal{G}^{B\mathbb{Z}}$ is again an orbifold, called the [[inertia orbifold]].
+
+* [[G2-orbifolds]]
 
 * [[lens spaces]]
 
