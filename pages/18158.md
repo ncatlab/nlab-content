@@ -1357,7 +1357,7 @@ These satisfy:
 
 1. For all $S \in P(X)$ then  $S \subset I_E \circ V_E(S)$.
 
-1. For all $S \in P(X)$ then $V_E \circ I_E \circ V_E (S)  =  V_E(S)
+1. For all $S \in P(X)$ then $V_E \circ I_E \circ V_E (S)  =  V_E(S)$.
 
 1. $I_E \circ V_E$ is [[idempotent]] and [[covariant functor|covariant]].
 
