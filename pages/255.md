@@ -279,6 +279,8 @@ Introductions:
 
 * [[Emily Riehl]], _Category theory in context_ (p. 154).
 
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
+
 Detailed accounts:
 
 * [[Michael Barr]], [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
