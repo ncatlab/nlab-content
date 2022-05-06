@@ -403,6 +403,11 @@ Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in 
 Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are for instance in 
 
 * {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], p. 80 of _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+
+Discussion of [[spectral triples]] over Jordan algebras:
+
+* Latham Boyle, Shane Farnsworth,
+_The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
  
 
 
