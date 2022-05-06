@@ -30,7 +30,8 @@ What is called _'t Hooft double line notation_ (following ['t Hooft 74](#tHooft7
 </center>
 
 
-2) replacing any remaining internal gluon line by (a [[linear combination]] of) _double_ [[quark]]-lines, according to the following rules:
+{#MetricContractionOfFundamentalLieAction} 2)  replacing any remaining internal gluon line together with the [[quark]] [[interaction]] [[vertices]] at its ends (equivalently: an [[M2-brane 3-algebra]] [[tensor]])
+by (a [[linear combination]] of) _double_ [[quark]]-lines , according to the following rules:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/MetricActionContraction.jpg" width="600">
@@ -38,13 +39,16 @@ What is called _'t Hooft double line notation_ (following ['t Hooft 74](#tHooft7
 
 Here we are using the [[string diagram]]/[[Penrose notation]] from _[[metric Lie representations]]_; graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]].
 
-(In ['t Hooft 74](#tHooft74) this is observed for $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions above appears. The generalization to arbitrary [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed in [Cvitanović 08 (9.57)](#Cvitanovic08). For the case $\mathfrak{so}(N)$ see also [Ita-Nieder-Oz 02, Figure #Cvitanovic76](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08).)
+{#Attribution} **Attribution.** In ['t Hooft 74](#tHooft74) this is observed for the [[unitary Lie algebra]] $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions [above](#MetricContractionOfFundamentalLieAction) appears. The generalization to arbitrary [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed for [[special unitary Lie algebra|su(N)]], [[special orthogonal Lie algebra|so(N)]] and [[symplectic Lie algebra|sp(N)]] in [Cvitanović 08 (9.57), (10.13) and (12.9)](#Cvitanovic08) and for [[special linear Lie algebra|sl(N)]] and [[special orthogonal Lie algebra|so(N)]] in [Chmutov-Duzhin-Mostovoy 11, 6.2.6](#ChmutovDuzhinMostovoy11).
+For the case $\mathfrak{so}(N)$ see also 
+[Bar-Natan 95, Section 6.3](#BarNatan95) (with an eye towards [[Vassiliev knot invariants]]) and
+ [Ita-Nieder-Oz 02, Figure 3](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08) (with more discussion of [[AdS/CFT duality]]).
 
 ### Surface notation
 
-Furthermore, one may regard the resulting double-line diagrams as a [[ribbon graph]] thickenings the original [[Feynman diagrams]], and regarding these [[ribbon graphs]] in turn as [[surfaces]].
+Furthermore, one may regard the resulting double-line diagrams as a [[ribbon graph]] thickening of the original [[Feynman diagrams]], and  thus as [[surfaces]] [[manifold with boundary|with boundary]] and with markings on the [[boundary]].
 
-In the case $\mathfrak{g} = \mathfrak{so}(N)$ this means that a single [[virtual particle|virtual]] [[gluon]] line is represented by the [[formal linear combination]] of a strip and a twisted strip:
+In the case $\mathfrak{g} = \mathfrak{so}(N)$ this means that a single [[virtual particle|virtual]] [[gluon]] line is represented by the [[formal linear combination]] of a strip (marked [[disk]] and a twisted strip:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/tHooftDoubleLineToSurfaces.jpg" width="600">
@@ -104,6 +108,14 @@ with a textbook account in
 
 * {#Cvitanovic08} [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
 
+Discussion in the context of [[Vassiliev invariants]] and the abstract classification of [[Lie algebra weight systems]] and [[stringy weight systems]]:
+
+* {#BarNatan95} [[Dror Bar-Natan]], Section 6 of: _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+
+of which a textbook account is in
+
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
 
 Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[large N limit]] and [[AdS-CFT duality]]:
 
@@ -111,6 +123,4 @@ Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[lar
 
 * {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_, 2008 ([[GreevySwingle.pdf:file]])
 
-Discussion in the context of [[Vassiliev invariants]] and the abstract classification of [[Lie algebra weight systems]] and [[stringy weight systems]]:
 
-* {#BarNatan95} [[Dror Bar-Natan]], Section 6 of: _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
