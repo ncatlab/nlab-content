@@ -206,6 +206,14 @@ Other original articles include:
 
 * Sara Heshmatian, Razieh Morad, _Jet suppression in non-conformal plasma using AdS/CFT_ ([arXiv:1812.09374](https://arxiv.org/abs/1812.09374))
 
+With emphasis on application to [[neutron stars]]:
+
+* Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
+
+
+
+
+
 [[!redirects quark-gluon plasmas]]
 
 [[!redirects quark gluon plasma]]
