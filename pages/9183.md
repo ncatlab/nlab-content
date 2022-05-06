@@ -178,9 +178,12 @@ Claimed rebuttal:
 
 > The result of [Kurinsky et al.](#KBKK20) should not be taken as evidence for dark matter, although it does highlight the ongoing need to investigate the effect of collective modes how [sic] we detect radiation.
 
-Reply from Gordan Krnjaic ([here](https://mobile.twitter.com/GordanKrnjaic/status/1230871980330692608)):
+Reply:
 
-> We are preparing a response. The "rebuttal" makes a potentially relevant point for one of the models we consider, but not the overall interpretation we present
+* Noah Kurinsky, Daniel Baxter, Yonatan Kahn, Gordan Krnjaic, Peter Abbamonte, _Reply to Robinson and Michaud, arXiv:2002.08893_ ([arXiv:2003.00101](https://arxiv.org/abs/2003.00101))
+
+> the points raised by RM do not invalidate our primary conclusions, as they pertain to a much different energy scale than we discuss in our paper.
+
 
 
 ### Core-cusp problem
