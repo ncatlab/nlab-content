@@ -649,7 +649,7 @@ Discussion from the point of view of [[chromatic homotopy theory]] is in
  
 
 
-* {#Lorman13} [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
+* {#Lorman13} [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](https://math.mit.edu/events/talbot/2013/Image%20of%20J-1.pdf))
  
 Generalization to [[equivariant cohomology]] ([[equivariant K-theory]]) is discussed in
  
