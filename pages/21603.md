@@ -561,6 +561,16 @@ Encoding dependent type systems into Frege structures and [[explicit mathematics
 
 Finally, Scott sketches a sort of universe hierarchy, based on stratifying the classes of true/false objects. This is somewhat like the universes of Kahle, but sounds more like the "truth levels" of Cantini that Kahle cites.
 
+#### What about Kripke?
+
+At the same time as Scott's note, [Kripke came out with](#KripkeTruth) a "theory of truth" very much like Fitch's idea to use partial logic to avoid paradox. Kripke followed the style of Tarski's notion of truth predicate, rather than use combinators or lambda calculus. Formulas can be Gödel numbered in first-order arithmetic, and this numbering allows formulating Tarski's T-schema, saying that any formula is logically equivalent to the truth predicate applied to the Gödel number of the formula.
+
+Just as Fitch-Scott logic and Frege structures allow defining recursive formulas using the untyped lambda calculus/combinators, Gödel numbers and the T-schema allow for recursive formulas by combining the truth predicate with [quining][]. You might say Frege structures provide [[type of types#RussellStyle|Russell-style]] recursive formulas while Kripke's theory provides [[type of types#TarskiStyle|Tarski-style]] recursive formulas. Either way, you can formulate "This sentence is false.", and the liar paradox is avoided by not assigning that formula a truth value.
+
+[quining]: https://en.wikipedia.org/wiki/Quine_(computing)
+
+Kripke's theory provides the full T-schema in the setting of partial logic. There's also a "closed off" version that totalizes the logic by mapping undefined to false at the end. This version resembles Kahle's truth theory, and has a restricted T-schema.
+
 ### Free Logic
 
 ## References
@@ -570,3 +580,5 @@ Finally, Scott sketches a sort of universe hierarchy, based on stratifying the c
 * {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
 
 * {#KahleFSU} Reinhard Kahle, _Universes over Frege Structures_, Annals of Pure and Applied Logic (2003) ([web](https://www.sciencedirect.com/science/article/pii/S0168007202000404))
+
+* {#KripkeTruth} Saul Kripke, _Outline of a Theory of Truth_, Journal of Philosophy (1975)
