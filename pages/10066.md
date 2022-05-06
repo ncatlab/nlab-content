@@ -40,7 +40,66 @@ Review in [Karoubi 05, Section 5](#Karoubi05).
 
 ### Complex orientation
 
-Equivariant complex K-theory is an [[equivariant complex oriented cohomology theory]] ([Greenlees 01, Sec. 10](#Greenlees01))
+Equivariant complex K-theory is an [[equivariant complex oriented cohomology theory]] ([Greenlees 01, Sec. 10](#Greenlees01)).
+
+
++-- {: .num_prop #EquivariantKTheoryOfProjectiveGSpace} 
+###### Proposition
+**([[equivariant K-theory of projective G-space]])**
+
+For $G$ an [[abelian group|abelian]] [[compact Lie group]], let 
+
+$$
+  \underset{i}{\oplus}
+  \,
+  \mathbf{1}_{V_i}
+  \;\;
+  \in
+  \;\;
+  G Representations_{\mathbb{C}}^{fin}
+$$
+
+be a [[finite dimensional vector space|finite-dimensional]] [[direct sum]] of [[complex numbers|complex]] 1-[[dimension|dimensional]] [[linear representations]].
+
+
+The $G$-[[equivariant K-theory]] [[cohomology ring|ring]] $K_G(-)$ of the corresponding [[projective G-space]] $P(-)$ is the following [[quotient ring]] of the [[polynomial ring]] in one [[variable]] $L$ over the complex [[representation ring]] $R(G)$ of $G$:
+
+\[
+  \label{EquivariantKTheoryRingOfProjectiveGSpace}
+  K_G
+  \Big(
+    P
+    \big(
+      \underset{i}{\oplus}
+      \,
+      \mathbf{1}_{V_i}
+    \big)
+  \Big)
+  \;\;
+    \simeq
+  \;\;
+  R(G)
+  \big[
+    L
+  \big]
+  \big/
+  \underset{i}{\prod}
+  \big(
+    1 - 1_{{}_{V_i}} L
+  \big)
+  \,,
+\]
+
+where
+
+* $L \,=\, \big[ \mathcal{L}_{ \underset{i}{\oplus} \mathbf{1}_{V_i} }\big]$ is the K-theory class of the [[tautological equivariant line bundle]] on the given [[projective G-space]];
+
+* $ 1_{{}_{V_i}}  L \;=\; \big[  \mathbf{1}_{V_i} \boxtimes \mathcal{L}_{ \underset{i}{\oplus} \mathbf{1}_{V_i} } \big]$ is the class of its [[external tensor product]] of [[equivariant vector bundles]] with the given [[linear representation]].
+
+=--
+
+([Greenlees 01, p. 248 (24 of 39)](#Greenlees01))
+
 
 ### Relation to operator K-theory of crossed product algebras
 
