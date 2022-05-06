@@ -36,7 +36,7 @@ For $E$ a [[vector bundle]] of [[even number|even]] [[rank of a vector bundle|ra
 
 (e.g. [Walschap 04, Section 6.3, p. 187](#Walschap04))
 
-When the Euler class is represented by the [[Euler form]] of a [[connection]] $\nabla$ on $E$, which then is [[fiber]]-wise proportional to the [[Pfaffian]] of the [[curvature form]] $F_\nabla$ of $\nabla$, the relation (eq:EulerSquareIsPontryagin) corresponds to the fact that the product of a [[Pfaffian]] with itself is the [[determinant]]: $\big( Pf(F_\nabla) \big)^2 = det(F_A)$.
+When the Euler class is represented by the [[Euler form]] of a [[connection]] $\nabla$ on $E$, which then is [[fiber]]-wise proportional to the [[Pfaffian]] of the [[curvature form]] $F_\nabla$ of $\nabla$, the relation (eq:EulerSquareIsPontryagin) corresponds to the fact that the product of a [[Pfaffian]] with itself is the [[determinant]]: $\big( Pf(F_\nabla) \big)^2 = det(F_\nabla)$.
 
 ### Whitney sum formula
  {#WhitneySumFormula}
