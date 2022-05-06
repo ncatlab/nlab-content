@@ -32,6 +32,9 @@ There is a [[Chern character]] map from [[equivariant K-theory]] to [[equivarian
 
 ## Related concepts
 
+* [[equivariant de Rham cohomology]]
+
+
 [[!include Segal completion -- table]]
 
 
