@@ -9,6 +9,9 @@ On [[quiver gauge theories]] and [[D-branes]]:
 
 * {#He18} [[Yang-Hui He]], _Quiver Gauge Theories: Finitude and Trichotomoty_, Mathematics 2018, 6(12), 291 ([doi:10.3390/math6120291](https://doi.org/10.3390/math6120291))
 
+On [[exceptional structures]]:
+
+* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
 
 On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of string theory vacua]]:
 
