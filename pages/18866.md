@@ -19,7 +19,7 @@ where $f^*\colon S/J\to S/I$ is the base change functor.
 A __polynomial $(\infty,1)$-functor__ is a functor $S/I\to S/J$
 equivalent to a functor of the form $t_! p_* s^*$,
 where
-$$I \gets E \to B\to J$$
+$$I \leftarrow E \to B\to J$$
 are maps of spaces.
 
 Polynomial functors are closed under compositions \cite[Theorem 2.1.8]{GHK}.
