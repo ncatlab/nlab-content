@@ -11,11 +11,18 @@ For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded c
 
 ## References
 
+* Brunel, Aloïs and Gaboardi, Marco and Mazza, Damiano and Zdancewic, Steve, _A Core Quantitative Coeffect Calculus_, ([doi](https://doi.org/10.1007/978-3-642-54833-8_19)) ([pdf](https://lipn.univ-paris13.fr/~mazza/papers/CoreQuantCoeff.pdf))
+
+* Dan R. Ghica and Alex I. Smith, _Bounded Linear Types in a Resource Semiring
+_, ([doi](https://doi.org/10.1007/978-3-642-54833-8_18)) ([pdf](https://www.cs.bham.ac.uk/~drg/papers/esop14.pdf))
+
 * Dominic Orchard, Vilem-Benjamin Liepelt, _Gram:  A linear functional language with graded modal types_, ([extended abstract](https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf))
 
 * Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, Tarmo Uustalu, _Combining Effects and Coeffects via Grading_, ([pdf](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf))
 
 * Shin-ya Katsumata, _A Double Category Theoretic Analysis of Graded Linear Exponential Comonads_, ([doi](https://doi.org/10.1007/978-3-319-89366-2_6))
+
+* Soichiro Fujii, Shin-ya Katsumata, Paul-André Melliès, _Towards a Formal Theory of Graded Monads_, ([doi](https://doi.org/10.1007/978-3-662-49630-5_30)) ([pdf](https://www.irif.fr/~mellies/papers/fossacs2016-final-paper.pdf))
 
 A formal framework for type theories with a collection of modalities is in
 
