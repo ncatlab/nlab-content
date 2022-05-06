@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
