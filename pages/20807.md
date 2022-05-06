@@ -458,6 +458,8 @@ The [[fuzzy 6-sphere]] and higher:
 
 * Yusuke Kimura, _On Higher Dimensional Fuzzy Spherical Branes_,  	Nucl. Phys. B664 (2003) 512-530 ([arXiv:hep-th/0301055](https://arxiv.org/abs/hep-th/0301055))
 
+* Francesco Pisacane, _$O(D)$-equivariant fuzzy spheres_ ([arXiv:2002.01901](https://arxiv.org/abs/2002.01901))
+
 [[!redirects fuzzy spheres]]
 
 [[!redirects fuzzy sphere]]
