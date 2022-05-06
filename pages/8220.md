@@ -37,6 +37,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * [[FRW model]], [[standard model of cosmology]]
 
+* [[QCD cosmology]]
+
 * [[structure formation]]
 
 * [[cosmological constant]], [[dark energy]]
