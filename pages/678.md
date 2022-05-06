@@ -55,7 +55,7 @@ Every simplicial presheaf $X$ is a
 of [[Set]]-valued sheaves regarded as discrete simplicial sheaves.
 
 More precisely, for $X : S^{op} \to SSet$ a simplicial presheaf, 
-let $D_X : \Delta^{op} \to Set \hookrightarrow SSet$ be
+let $D_X : \Delta^{op} \to [S^{op},Set] \hookrightarrow [S^{op},SSet]$ be
 given by $D_X : [n] \mapsto X_n$. Then there is a weak equivalence
 $$
   hocolim_{[n] \in \Delta} D_X([n]) \stackrel{\simeq}{\to} X
@@ -75,9 +75,9 @@ See for instance [remark 2.1, p. 6](http://www.math.uiuc.edu/K-theory/0563/spre.
 +--{: .un_cor}
 ######Corollary
 
-Let $[-,-] : SSet^{S^{op}} \to SSet$ be the canonical $SSet$-enrichment of the category of simplicial presheaves (i.e. the assignment of [[SSet]]-[[enriched functor category|enriched functor categories]]).
+Let $[-,-] : (SSet^{S^{op}})^{op} \times SSet^{S^{op}} \to SSet$ be the canonical $SSet$-enrichment of the category of simplicial presheaves (i.e. the assignment of [[SSet]]-[[enriched functor category|enriched functor categories]]).
 
-It follows in particular from the above that every such [[hom-object]] $[X,A]$ of simplical presheaves can be written as a [[homotopy limit]] (in [[SSet]] for instance realized as a [[weighted limit]], as described there) over evaluations of $X$.
+It follows in particular from the above that every such [[hom-object]] $[X,A]$ of simplical presheaves can be written as a [[homotopy limit]] (in [[SSet]] for instance realized as a [[weighted limit]], as described there) over evaluations of $A$.
 =--
 
 +--{: .proof}
