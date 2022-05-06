@@ -377,9 +377,9 @@ $$
 But for every [[finite subgroup of SU(2)]] $G_{ADE} \subset SU(2)$ we have (by [this Prop.](https://ncatlab.org/nlab/show/finite+rotation+group#GroupCohomologyOfFiniteSubgroupsOfSU2))
 
 $$
-  H_{5}\big(B(2I), \mathbb{Z}) \simeq 0
+  H_{5}\big(B(2I), \mathbb{Z}) \simeq G^{ab}_{ADE}
   \phantom{AAA}
-  H_{6}\big(B(2I), \mathbb{Z}) \simeq G^{ab}_{ADE}
+  H_{6}\big(B(2I), \mathbb{Z}) \simeq 0
 $$
 
 where $G^{ab}_{ADE}$ is the [[abelianization]] of $G_{ADE}$. Specifically for $G_{ADE} = 2I$ this does vanish: the [[binary icosahedral group]] is a [[perfect group]] ([this Prop.](icosahedral+group#2IIsPerfect)).
