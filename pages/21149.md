@@ -22,9 +22,13 @@ On [[nucleons]] as [[Skyrmions]] in [[quantum hadrodynamics]] with [[pions]], [[
 
   (includes also the [[A1-meson]])
 
-
 Its derivation from the [[AdS/QCD correspondence]]:
 
 * Holger Bech Nielsen, [[Ismail Zahed]], _The Cheshire Cat Principle from Holography_ ([doi:10.1142/9789814280709_0017](https://doi.org/10.1142/9789814280709_0017), [arXiv:0904.0429](https://arxiv.org/abs/0904.0429)), Chapter 17 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+On [[heavy flavor]] via [[holographic QCD]]:
+
+* Yizhuang Liu, [[Ismail Zahed]], _Heavy and Strange Holographic Baryons_, Phys. Rev. D 96, 056027 (2017) ([arXiv:1705.01397](https://arxiv.org/abs/1705.01397))
+
 
 category: people
