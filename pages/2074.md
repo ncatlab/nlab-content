@@ -440,7 +440,7 @@ The **model structure on marked simplicial over-sets** $Set^+/S$ over $S \in SSe
 ###### Definition/Proposition
 **(Cartesian model structure on $sSet^+/S$)**
 
-The category $SSet^+/S$ of [[marked simplicial set]]s over a marked simplicial set $S$ carries a structure of a [[proper model category|proper]] [[combinatorial simplicial model category]] defined as follows.
+The category $SSet^+/S$ of [[marked simplicial set]]s over a marked simplicial set $S$ carries a structure of a [[proper model category|left proper]] [[combinatorial simplicial model category]] defined as follows.
 
 The [[SSet]]-[[enriched category|enrichment]] is given by 
 
