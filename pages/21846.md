@@ -12,14 +12,16 @@
 
   [[MΩΩSU(n)]]
 
-  [[MUFr]], [[MSUFr]]
-
   [[MP-theory|MP]], [[MR-theory|MR]]
-
 
 * [[MSp]]
 
 * [[algebraic cobordism]]
+
+relative bordism theories:
+
+* [[MOFr]], [[MUFr]], [[MSUFr]]
+
 
 [[equivariant bordism homology theory|equivariant bordism theory]]:
 
