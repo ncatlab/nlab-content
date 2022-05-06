@@ -1640,7 +1640,7 @@ Discussion specifically in [[topological quantum field theory]] with an eye towa
 ### As moduli of Dp-D(p+4)-brane bound states:
  {#AsModuliOfD0D4BraneBoundStates}
 
-Discussion of [[configuration spaces of points]] as [[moduli spaces]] of [[D0-D4-brane bound states]]
+Discussion of configuration spaces of _possibly coincident_ points, hence of [[symmetric products]] $X^n/Sym(n)$ as [[moduli spaces]] of [[D0-D4-brane bound states]]:
 
 * [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
 
