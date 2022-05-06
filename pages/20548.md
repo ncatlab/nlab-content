@@ -24,6 +24,10 @@ On [[mirror symmetry]]:
 
 * [[Mina Aganagic]], [[Kentaro Hori]], [[Andreas Karch]], [[David Tong]], _Mirror Symmetry in 2+1 and 1+1 Dimensions_, JHEP 0107:022,2001 ([arXiv:hep-th/0105075](http://arxiv.org/abs/hep-th/0105075))
 
+On [[NS5-branes]] and [[orientifolds]] with [[RR-field tadpole cancellation]]:
+
+* {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+
 
 On [[AdS-CFT in condensed matter physics]]:
 
