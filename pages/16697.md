@@ -25,6 +25,9 @@ On [[M-theory on S1/G_HW times H/G_ADE]]:
 * Santiago Cabrera, [[Amihay Hanany]], Marcus Sperling, _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
 
 
+On [[D=3 N=4 super Yang-Mills theory]]:
+
+* [[Stefano Cremonesi]], [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopole operators and Hilbert series of Coulomb branches of 3d $\mathcal{N} = 4$ gauge theories_, JHEP 01 (2014) 005 ([arXiv:1309.2657](https://arxiv.org/abs/1309.2657))
 
 
 ## Related $n$Lab entries
