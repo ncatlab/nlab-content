@@ -32,6 +32,8 @@ On [[E-strings]] as [[M5-branes]] [[wrapped brane|wrapped]] on a [[half K3]]:
 
 On the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape, with emphasis on the role of the [[Page charge]]/[[Hopf WZ term]]:
 
+* [[Iosif Bena]], [[Nicholas Warner]], _A harmonic family of dielectric flow solutions with maximal supersymmetry_, JHEP 0412:021, 2004 ([arXiv:hep-th/0406145](https://arxiv.org/abs/hep-th/0406145))
+
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
 
 
