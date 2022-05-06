@@ -51,7 +51,7 @@ For the second statement we need to show that if $C \subset Y$ is a [[compact to
 
 Now 
 
-1. since [[compact subspaces of Hausdorff spaces are closed]] it follows that $C \subse Y$ is closed;
+1. since [[compact subspaces of Hausdorff spaces are closed]] it follows that $C \subset Y$ is closed;
 
 1. since [[pre-images]] under continuous of closed subsets are closed, also $f^{-1}(C) \subset X$ is closed;
 
