@@ -303,7 +303,7 @@ is analogous to the inclusion of [[KO]] into [[KU]]
 ## References
 
 
-* {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
+* {#MahowaldRezk09} [[Mark Mahowald]], [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
 * {#Stojanoska11} [[Vesna Stojanoska]], _Duality for Topological Modular Forms_,  Documenta Math. 17 (2012), 271--311 ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
