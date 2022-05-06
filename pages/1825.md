@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -314,7 +318,7 @@ $$
 
 *  The [[2-sphere]] is usual sphere from ordinary geometry. This canonically carries the structure of a [[complex manifold]] which makes it the [[Riemann sphere]].
 
-* The [[3-sphere]] and [[4-sphere]] and [[6-sphere]] and [[7-sphere]] are interesting, too.
+* The [[3-sphere]] and [[4-sphere]], [[5-sphere]] and [[6-sphere]] and [[7-sphere]] are interesting, too.
 
 ## Related concepts
 
