@@ -51,6 +51,11 @@ Other [[reduction of the structure group|reductions]] yield other geometric noti
 
 * further reduction along $SU(n,n)  \to U(n,n) \to O(2n,2n)$ is a [[generalized Calabi-Yau manifold]] structure.
 
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
+
 ## Related concepts
 
 * [[tangent bundle]]
