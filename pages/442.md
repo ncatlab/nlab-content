@@ -446,9 +446,7 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 ## An open problem
 
-A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says that a finitely generated group can be embedded in a finitely presented group precisely if it has a presentation whose defining relations are a recursively enumerable set of words. Clearly, this question can be asked for every similar algebraic theory and it has been in fact conjectured by the group theorist W. Boone that the same result holds more generally for every single-sorted algebraic theory.
-
-It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone conjecture]] should be settled by the category theory community.
+A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says that a finitely generated group can be embedded in a finitely presented group precisely if it has a presentation whose defining relations are a recursively enumerable set of words. Clearly, this question can be asked for every similar algebraic theory and it has been in fact conjectured by the group theorist W. Boone that the same result holds more generally for every single-sorted algebraic theory.  While in fact the conjecture is not true for all single-sorted algebraic theories (see [[Boone conjecture]] for further details), as was known by Soviet mathematicians, the general question "In which algebraic categories does (an analogue of) Higman's embedding theorem hold?" is still interesting. In fact,it has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone conjecture]] should be settled by the category theory community.
 
 ## Related concepts
 
