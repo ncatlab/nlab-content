@@ -18,6 +18,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -116,20 +117,19 @@ Derivation of the abelian 6d theory to low order as the small fluctuations of th
 
 * {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 
-Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
-
-* {#HeckmanRudelius18} [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
 
 General survey includes
 
 * {#Moore}[[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in Physical Mathematics_, talk at [Strings 2011](http://www2.physics.uu.se/external/strings2011/) ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
   
-* [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf))
+* [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf), [[MooreKleinLectures12.pdf:file]])
 
 
-* {#Workshop14}  [[Qiaochu Yuan]]: _[lecture notes](https://math.berkeley.edu/~qchu/Notes/6d/))_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
+* {#Workshop14}  [[Qiaochu Yuan]]: _[lecture notes](https://math.berkeley.edu/~qchu/Notes/6d/)_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
 
-* [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_ ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467))
+Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
+
+* {#HeckmanRudelius18} [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 2018 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
  
 
 
