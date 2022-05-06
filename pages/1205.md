@@ -21,21 +21,22 @@ the issues related to completions)
 
 * [[Zoran Škoda]], _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845&#8211;4854, [arXiv:0909.3769](http://arxiv.org/abs/0909.3769), [doi](http://dx.doi.org/10.1142/S0217751X11054772) 
 
+The canonical element in the Heisenberg double satisfies a [[pentagon relation]], which is a version of pentagon relation for [[multiplicative unitaries]] of Baaj-Skandalis.  Kashaev has explained the pentagon relations for quantum [[dilogarithm]] as coming from the pentagon for the canonical element in the double.
+
+* R.M. Kashaev, _Heisenberg double and the pentagon relation_, St. Petersburg Math. J. 8 (1997) 585&#8211; 592 [q-alg/9503005](http://arxiv.org/abs/q-alg/9503005).
+* G. Militaru, _Heisenberg double, pentagon equation, structure and classification of finite-dimensional Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.doi.org/10.1112/S0024610703004897)).
+
 Miscellaneous articles on Heisenberg doubles
 
-* R.M. Kashaev, _Heisenberg double and the pentagon relation_, St. Petersburg Math. J. 8 (1997) 585&#8211;
-592 [q-alg/9503005](http://arxiv.org/abs/q-alg/9503005).
-
-* M. Kapranov, _Heisenberg doubles and derived categories_, J. Alg. 202, 712--744 (1998), [q-alg/9701009](http://arxiv.org/abs/q-alg/9701009).
-
 * F. Panaite, _Doubles of (quasi) Hopf algebras and some examples of quantum groupoids and vertex groups related to them_, [math.QA/0101039](http://arxiv.org/abs/math/0101039)
-
-* G. Militaru, _Heisenberg double, pentagon equation, structure and classification of finite-dimensional
-Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.doi.org/10.1112/S0024610703004897)).
 
 * A.M. Semikhatov, _A Heisenberg double addition to the logarithmic Kazhdan&#8211;Lusztig duality_, [arXiv:0905.2215](http://arxiv.org/abs/0905.2215).
 
 * A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](http://arxiv.org/abs/0908.3105)
+
+There are some generalizations or Heisenberg doubles in different setups
+
+* M. Kapranov, _Heisenberg doubles and derived categories_, J. Alg. 202, 712--744 (1998), [q-alg/9701009](http://arxiv.org/abs/q-alg/9701009).
 
 * Daniele Rosso, Alistair Savage, _Twisted Heisenberg doubles_, [arxiv/1405.7889](http://arxiv.org/abs/1405.7889)
 
