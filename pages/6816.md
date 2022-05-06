@@ -104,11 +104,18 @@ Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of
 
 (after regarding it as $N=1$ SYM with three adjoint chiral [[superfield]]s).
 
+### Matrix model description
+
+
+On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
+
+* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
+
 ### Planar sector, integrability, MHV amplitudes
 
 A comprehensive discussion of the [[integrability]] related to anomalous dimension in the planar sector is in 
 
-* N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
+* [[Niklas Beisert]] et al., _Review of AdS/CFT Integrability, An Overview_ 
 Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
  {#Beisert}
 
@@ -126,7 +133,7 @@ For mathematical background see
 
 * Alexander Postnikov, _Total positivity, Grassmannians, and networks_ ([arXiv:math/0609764](http://arxiv.org/abs/math/0609764))
 
-## Twistor space formulation
+### Twistor space formulation
  {#ReferencesTwistorSpace}
 
 The [[twistor]] space formulation of $N=4$ $D = 4$ SYM was originally found from the [[B-model]] [[string theory]] in 
