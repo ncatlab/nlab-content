@@ -148,18 +148,20 @@ This is one incarnation of the _[[splitting principle]]_.
 
 ## Examples
 
+### Complex-projective bundle of quaternionic tautological line bundle
+ {#ComplexProjectiveBundleOfQuaternionicTautologicalLineBundle}
 
 +-- {: .num_prop #ComplexProjectiveBundleOfQuaternTautologicalLineBundleIsComplexProjSpace} 
 ###### Proposition
 **([[complex numbers|complex]] [[projective bundle]] of [[quaternionic vector bundle|quaternionic]] [[tautological line bundle]] is [[complex projective space]])**
 
-For $n \in \mathbb{N}$, the [[projective bundle]] of the [[rank of a vector bundle|rank]]=2 [[complex vector bundle]] underlying the [[quaternionic line bundle]] which is the [[tautological line bundle]] $\mathcal{L}_{{}_{\mathbb{H}P^n}}$ over [[quaternionic projective space]] $\mathbb{H}P^n$ is the [[complex projective space]] $\mathbb{C}P^{2n+1}$ equipped with the map that sends complex lines to the quaternionic lines that they span:
+For $n \in \mathbb{N}$, the [[projective bundle]] of the [[rank of a vector bundle|rank]]=2 [[complex vector bundle]] underlying the [[quaternionic line bundle|quaternionic]] ([[dual vector bundle|dual]]) [[tautological line bundle]] $\mathcal{L}_{{}_{\mathbb{H}P^n}}$ over [[quaternionic projective space]] $\mathbb{H}P^n$ is the [[complex projective space]] $\mathbb{C}P^{2n+1}$ equipped with the map that sends complex lines to the quaternionic lines that they span:
 
 $$
   \array{
     P_{\mathbb{C}}
     \big(
-      \mathcal{L}_{{}_{\mathbb{H}P^n}} 
+      \mathcal{L}^\ast_{{}_{\!\!\!\mathbb{H}P^n}} 
     \big)
     && 
       \simeq
@@ -186,17 +188,17 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We compute as follows:
+We compute as follows (showing this for the dual tautological bundle just for definiteness of notation):
 
 $$
   \begin{aligned} 
     P_{\mathbb{C}}
     \big(
-      \mathcal{L}_{\mathbb{H}P^n} 
+      \mathcal{L}^\ast_{\!\!\!\mathbb{H}P^n} 
     \big)
     & = \;
     \Big(
-      \mathbb{L}_{{}_{\mathbb{H}P^n}}
+      \mathcal{L}_{{}_{\mathbb{H}P^n}}
       \setminus 
       \big(
         \mathbb{H}P^n \times \{0\}
