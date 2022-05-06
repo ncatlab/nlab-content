@@ -69,7 +69,7 @@ These two conditions are indeed equivalent.
 +-- {: .proof}
 ###### Proof
 
-The first condition implies that if $f$ is a [[monomorphism]] then $f\cong \ker(\coker(f))$ so $f$ is a kernel. Dually if $f$ is an [[epimorphism]] it follows that $f \cong coker(ker(f))$. So (1) implies (2).
+The first condition implies that if $f$ is a [[monomorphism]] then $f \cong \ker(\coker(f))$ (in the category of objects over $B$) so $f$ is a kernel. Dually if $f$ is an [[epimorphism]] it follows that $f \cong coker(ker(f))$. So (1) implies (2).
 
 The converse can be found in, among other places, Chapter VIII of ([MacLane](#MacLane)).
 
