@@ -34,7 +34,7 @@ and a full $\kappa$-symmetric [[Green-Schwarz sigma-model]] for [[D-branes]]:
 
 Review:
 
-* [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_ ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105))
+* [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
 
 * {#Schwarz01} [[John Schwarz]], section 2 of _Comments on Born-Infeld Theory_, talk presented at Strings 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165))
