@@ -1,0 +1,1 @@
+Mathematician working on special topics in geometry and foundations
