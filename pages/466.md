@@ -292,6 +292,8 @@ Reviews and expositions include
 
 * {#RRZ2004} Marie La Palme Reyes, Gonzalo E. Reyes, and Houman Zolfaghari, _Generic figures and their glueings: A constructive approach to functor categories_, Polimetrica sas, 2004 ([author page](https://reyes-reyes.com/2004/06/01/generic-figures-and-their-glueings-a-constructive-approach-to-functor-categories/),[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf)).
 
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 2. ([arXiv](http://arxiv.org/abs/1912.10642))
+
 A discussion of the Yoneda lemma from the point of view of [[universal algebra]] is in
 
 * [[Vaughan Pratt]], _The Yoneda lemma without category theory: algebra and applications_ ([pdf](http://boole.stanford.edu/pub/yon.pdf)).
