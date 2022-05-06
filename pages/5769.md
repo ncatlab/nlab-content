@@ -15,7 +15,7 @@
 
 ## Definition
 
-An element $a \in A$ in a [[C-star algebra]] is called _normal_ of its commutes with its star-adjoint:
+An element $a \in A$ in a [[C-star algebra]] is called _normal_ if it commutes with its star-adjoint:
 
 $$
   a a^* = a^* a
@@ -25,6 +25,6 @@ $$
 
 ## Properties
 
-The [[spectral theorem]] asserts, roughly, that (bounded) normal operators can be diagonalized
+The [[spectral theorem]] asserts, roughly, that (bounded) normal operators can be diagonalized.
 
 [[!redirects normal operators]]
