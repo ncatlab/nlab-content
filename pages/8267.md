@@ -151,13 +151,13 @@ In lemma \ref{Intramural} "intramural" is meant to allude to the fact that these
 +-- {: .num_lemma #Extramural}
 ###### Lemma
 
-For $\partial : A \to B$ is any morphism in the double complex (either horizontal or vertical), when applied to representatives in $A$ it induces a homomorphism
+Any vertical or horizontal morphism $\partial : A \to B$ in the double complex induces a homomorphism
 
 $$
   A_\Box \to {}^\Box B
 $$
 
-from the donor of $A$ to the receptor of $B$, def. \ref{DonorReceptor}, to be called the **extramural map** associated with $\partial$. 
+from the donor of $A$ to the receptor of $B$, def. \ref{DonorReceptor}, called the **extramural map** associated with $\partial$. 
 
 
 =--
