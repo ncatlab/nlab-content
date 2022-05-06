@@ -183,6 +183,8 @@ Furthermore there is a [[subgroup]] $SU(3) \hookrightarrow G_2$ whose [[intersec
 
 (see e.g. [Miyaoka 93](#Miyaoka93))
 
+The [[coset space]] [[G2/SU(3) is the 6-sphere]]. See there for more.
+
 
 <img src="https://ncatlab.org/nlab/files/3dSubgroupsOfG2.jpg" width="700">
 
@@ -194,7 +196,6 @@ The [[Weyl group]] of $G_2$ is the [[dihedral group]] of [[order of a group|orde
 
 $\,$
 
-The [[coset space]] $G_2/SU(3)$ is the unit tangent bundle to the [[6-sphere]]. See there for pointers.
 
 
 ### Supgroups
