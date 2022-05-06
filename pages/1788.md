@@ -12,3 +12,4 @@ A\downarrow{a}\ar[r]^q \ar@/_2pc/[dd]_{p} \ar@<-.5ex>[d]
 E\ar[r]_q\ar[d]_p& U\\
 A&
 \end{xymatrix}
+
