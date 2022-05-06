@@ -4485,12 +4485,14 @@ $$
           \array{
              \Sigma(n_1 + n_2,n)_+ & if \; n_1+n_2 = n
              \\
-             \ast & otherwise
+             \ast_+ & otherwise
            }
       \right.
      }{
-       \underbrace{\Sigma(n_1 + n_2, n)}
-     }_+
+       \underbrace{
+         \Sigma(n_1 + n_2, n)_+
+       }
+     }
       \wedge
      A_{n_1}
       \wedge
