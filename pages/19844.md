@@ -738,6 +738,7 @@ In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 * Ashutosh Kumar Alok, Suman Kumbhakar, Jyoti Saini, S Uma Sankar, _New physics in $b \to s e^+ e^-$: A model independent analysis_ ([arXiv:2011.14668](https://arxiv.org/abs/2011.14668))
 
 
+* T. Hurth, F. Mahmoudi, S. Neshatpour, _Model independent analysis of the angular observables in B0→K∗0μ+μ− and B+→K∗+μ+μ−_ ([arXiv:2012.12207](https://arxiv.org/abs/2012.12207))
 
 
 
@@ -973,6 +974,13 @@ _Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating 
 Exotic [[Higgs field]] couplings to a [[hidden sector]]:
 
 * Jared A. Evans, [[Philip Tanedo]], Mohammadreza Zakeri, _Exotic Lepton-Flavor Violating Higgs Decays_ ([arxiv:1910.07533](https://arxiv.org/abs/1910.07533))
+
+Unparticles:
+
+* Jong-Phil Lee, _B anomalies with unparticles_ ([arXiv:2012.11852](https://arxiv.org/abs/2012.11852))
+
+
+
 
 [[!include application of holographic QCD to B-meson physics -- references]]
 
