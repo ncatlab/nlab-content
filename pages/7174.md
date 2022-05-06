@@ -5,6 +5,10 @@ Peter West is professor of mathematics at King's college London.
 
 ## Selected writings
 
+On [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as spikes/[[BIons]] from the [[M5-brane]]:
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
 On deriving the [[equations of motion]] for the [[M5-brane]] via [[superspace]]-methods ([[superembedding approach]]):
 
 * {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
