@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[linear algebra]] relating bilinear and quadratic forms. For the notion in [[symplectic geometry]] see at _[[polarization]]_. For polarization of light, see _[[wave polarization]]_ (if we ever write it).
+> This entry is about the notion in [[linear algebra]] relating bilinear and quadratic forms. For the notion in [[symplectic geometry]] see at _[[polarization]]_. For polarization of light, see _[[wave polarization]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
