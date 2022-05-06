@@ -42,9 +42,6 @@ Specifically, the geometrically engineered QFTs are those on the [[worldvolume]]
 
 For more relations between QFTs found via string theory see at _[[string theory results applied elsewhere]]_.
 
-## Examples
-
-* For [[geometric engineering]] of the [[6d (2,0)-superconformal QFT]], see at _[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations -- Geometric engineering of 6d (2,0)-SCFT](duality+between+M-theory+on+Z2-orbifolds+and+type+IIB+string+theory+on+K3-fibrations#GeometricEngineeringOfThe6d2SuperconformalQFT)_.
 
 ## Related concepts
 
@@ -57,6 +54,8 @@ For more relations between QFTs found via string theory see at _[[string theory 
 * [[M-theory on G2-manifolds]]
 
 ## References
+
+### General
 
 The original articles are
 
@@ -80,9 +79,36 @@ Further developments are in
 
 * [[Balázs Szendrői]], _Nekrasov's Partition Function and Refined Donaldson&#8211;Thomas Theory: the Rank One Case_,  SIGMA, 2012, Volume 8, 088  ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sigma&paperid=765&option_lang=eng))
 
+### Examples
+ {#Examples}
+
+
+#### Geometric engineering of $D = 6$ $\mathcal{N} = (2,0)$ SCFT
+
+For [[geometric engineering]] of the [[D=6 N=(2,0) SCFT]], see at _[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations -- Geometric engineering of 6d (2,0)-SCFT](duality+between+M-theory+on+Z2-orbifolds+and+type+IIB+string+theory+on+K3-fibrations#GeometricEngineeringOfThe6d2SuperconformalQFT)_.
+
+
+#### Geometric engineering of $D = 6$ $\mathcal{N} = (1,0)$ SCFT
+
+On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineering]] on [[M5-branes]]/[[NS5-branes]] at D-, E-type [[ADE-singularities]], notably from [[M-theory on S1/G_HW times H/G_ADE]], hence from [[orbifolds]] of [[type I' string theory]] (see at [half NS5-brane](NS5-brane#NSHalfBranes)):
+
+* Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+
+* Kantaro Ohmori, Hiroyuki Shimizu, _$S^1/T^2$ Compactifications of 6d $\mathcal{N} = (1,0)$ Theories and Brane Webs_, J. High Energ. Phys. (2016) 2016: 24 ([arXiv:1509.03195](https://arxiv.org/abs/1509.03195))
+
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+* Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+
+
 
 [[!redirects geometric engineering]]
 
 [[!redirects geometric engineering of quantum field theories]]
 
 [[!redirects geometric engineering of gauge theories]]
+
+[[!redirects geometric engineering of QFT]]
+[[!redirects geometric engineering of QFTs]]
