@@ -18,6 +18,8 @@ and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and
 * A. N. Kirillov, _Dilogarithm identities_, Progr. Theoret. Phys. Suppl. 118 (1995), 61&#8211;142 [hep-th/9408113](http://arxiv.org/abs/hep-th/9408113)
 [MR1356515](http://www.ams.org/mathscinet-getitem?mr=1356515) [doi](http://dx.doi.org/10.1143/PTPS.118.61); _Identities for the Rogers dilogarithm function connected with simple Lie algebras_, J. Soviet Math. 47 (1989), 2450&#8211;2458.
 
+* Rinat M. Kashaev, Tomoki Nakanishi, _Classical and quantum dilogarithm identities_, [arxiv/1104.4630](https://arxiv.org/abs/1104.4630) [doi](https://doi.org/10.3842/SIGMA.2011.102)
+
 * B. Richmond, G. Szekeres, _Some formulas related to dilogarithm, the zeta function and the Andrews-Gordon identities_, J. Aust. Math. Soc. __31__ (1981), 362&#8211;373 [MR633444](http://www.ams.org/mathscinet-getitem?mr=633444) [doi](http://dx.doi.org/10.1017/S1446788700019492)
 
 * S. Bloch, _Applications of the dilogarithm function in algebraic K-theory and algebraic geometry_, in: Proc. Int. Symp. on Alg. Geometry, Kinokuniya, Tokyo 1978.
@@ -33,5 +35,9 @@ and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and
 * Fock, Vladimir V.; Goncharov, Alexander B., _Cluster ensembles, quantization and the dilogarithm_, Annales scientifiques de l'École Normale Supérieure, Serie 4, __42__:6 (2009) 865-930 [doi](https://doi.org/10.24033/asens.2112)
 
 * E. Aldrovandi, _On hermitian-holomorphic classes related to uniformization, the dilogarithm, and the Liouville Aaction_, Commun. Math. Phys. (2004) 251: 27. [doi](https://doi.org/10.1007/s00220-004-1168-6)
+
+* S. Alexandrov, B. Pioline, _Theta series, wall-crossing and quantum dilogarithm identities_, Lett. Math. Phys. __106__:1037 (2016) [doi](https://doi.org/10.1007/s11005-016-0857-3)
+
+* S. L. Woronowicz, _Quantum exponential function_, Rev. Math. Phys. __12__ (2000) 873–920.
 
 category: analysis, physics
