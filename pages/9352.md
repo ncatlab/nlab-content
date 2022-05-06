@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[Isaac Newton|Newton]]\'s [[gravity|gravitational]] constant provided a [[unit of measurement|unit]] conversion between units of [[spacetime]] and units of [[mass]]/[[energy]].
+[[Isaac Newton|Newton]]\'s [[gravity|gravitational]] constant provides a [[unit of measurement|unit]] conversion between units of [[spacetime]] and units of [[mass]]/[[energy]].
 
 
 ## Motivation
@@ -52,7 +52,13 @@ There is good stuff to say here about how we only know this constant to about 6 
 
 * [[Schwarzschild radius]]
 
+* [[speed of light]]
+
+* [[Planck's constant]]
+
 * [[Planck mass]], [[Planck length]]
+
+
 
 ## References
 
