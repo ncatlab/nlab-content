@@ -49,3 +49,5 @@ Other texts include
 
 
 [[!redirects platonism]]
+[[!redirects platonic]]
+[[!redirects Platonic]]
