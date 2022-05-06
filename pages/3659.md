@@ -103,4 +103,5 @@ A textbook account is in
 [[!redirects Osterwalder-Schrader theorem]]
 [[!redirects Osterwalder–Schrader theorem]]
 [[!redirects Osterwalder--Schrader theorem]]
+[[!redirects Osterwalder-Schrader axioms]]
 [[!redirects Osterwalder--Schrader axioms]]
