@@ -297,7 +297,7 @@ reviewed in
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, Section 2.2 of: _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
 
-From the construction given in [Bar-Natan 95, Section 2.4](#BarNatan95) the interpretation in terms of [[string diagrams]] for [[Lie algebra objects]] in [[tensor categories]] is evident, but standard textbooks in [[knot theory]]/[[combinatorics]] do not pick this up:
+From the construction given in [Bar-Natan 95, Section 2.4](#BarNatan95) the interpretation of [[Lie algebra weight systems]] in terms of [[string diagrams]] for [[Lie algebra objects]] in [[tensor categories]] is evident, but standard textbooks in [[knot theory]]/[[combinatorics]] do not pick this up:
 
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Chapter 6 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
@@ -314,21 +314,12 @@ and fully explicit in
 
 * {#RobertsWillerton06} [[Justin Roberts]], [[Simon Willerton]], Section 3 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
-For complex-valued weight systems see also
+See also
+
+* [[Vladimir Hinich]], [[Arkady Vaintrob]], _Cyclic operads and algebra of chord diagrams_, Sel. math., New ser. (2002) 8: 237 ([arXiv:math/0005197](https://arxiv.org/abs/math/0005197))
 
 * Alexander Schrijver, _On Lie algebra weight systems for 3-graphs_ ([arXiv:1412.6923](https://arxiv.org/abs/1412.6923))
 
-The observation that round chord diagrammatics controls the contractions in expectation values of [[single trace observables]] subject to [[Wick's theorem]] appears (specifically in disucssion of [[SYK model]]-like systems and without mentioning of [[weight systems]]) in the following articles (see also at [[weight systems on chord diagrams in physics]]):
-
-* {#GGJJV18} Antonio M. García-García, Yiyang Jia, Jacobus J. M. Verbaarschot, Section 2.2 _Exact moments of the Sachdev-Ye-Kitaev model up to order $1/N^2$_, JHEP 04 (2018) 146 ([arXiv:1801.02696](https://arxiv.org/abs/1801.02696))
- 
-* {#JiaVerbaarschot18} Yiyang Jia, Jacobus J. M. Verbaarschot, Section 4 of: _Large $N$ expansion of the moments and free energy of Sachdev-Ye-Kitaev model, and the enumeration of intersection graphs_, JHEP 11 (2018) 031 ([arXiv:1806.03271](https://arxiv.org/abs/1806.03271))
-
-* {#BNS18} [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], Section 2.1 of _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
-
-* {#BINT18} [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 2 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
-
-* {#Narovlansky19} Vladimir Narovlansky, Slides 5 to 21 of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
 
 ### For $\mathfrak{sl}(2)$
 
@@ -336,11 +327,19 @@ For the [[special linear Lie algebra]] $\mathfrak{sl}(2)$
 
 * [[Sergei Chmutov]], [[Alexander Varchenko]], _Remarks on the Vassiliev knot invariants coming from $\mathfrak{sl}(2)$_, Topology 36 (1), 153-178, 1997
 
+* E. Kulakova, S. Lando, T. Mukhutdinova, G. Rybnikov, _On a weight system conjecturally related to $\mathfrak{sl}_2$_, European Journal of Combinatorics Volume 41, October 2014, Pages 266-277 ([arXiv:1307.4933](https://arxiv.org/abs/1307.4933))
+
+
 ### For $\mathfrak{gl}(1\vert1)$
 
 For the [[super Lie algebra]] $\mathfrak{gl}(1\vert1)$:
 
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
+
+
+[[!include weight systems on chord diagrams in physics]]
+
+
 
 [[!redirects Lie algebra weight systems]]
 
