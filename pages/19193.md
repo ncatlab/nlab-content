@@ -78,7 +78,7 @@ See also
 
 Application of [[persistent homology]] to cosmological structure formation:
 
-* Matteo Biagetti, Alex Cole, [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+* Matteo Biagetti, [[Alex Cole]], [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
 
 
 ### Computer simulation
