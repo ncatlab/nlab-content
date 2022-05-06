@@ -2,17 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### String theory
-+-- {: .hide}
-[[!include string theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Gravity
 +--{: .hide}
 [[!include gravity contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
@@ -27,7 +23,7 @@ In general a _Freund-Rubin compactification_ ([Freund-Rubin 80](#FreundRubin80))
 
 One example are [[Kaluza-Klein compactifications]] of 6d [[Einstein-Maxwell theory]] with [[magnetic flux]] on a 2-dimensional [[fiber]] space ([[sphere]] or [[torus]]) ([RDSS 83](#RDSS83)). This serves these days as a toy example for [[flux compactifications]] and [[moduli stabilization]] in [[string theory]].
  
-In the [[string theory]] literature often _the Freund-Rubin compactification_ refers by default to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round 7-[[sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
+In the [[string theory]] literature often _the Freund-Rubin compactification_ refers by default to a [[Kaluza-Klein mechanism|Kaluza-Klein compactification]] of [[11-dimensional supergravity]] on a [[manifold]] $X_7$  of [[dimension]] 7 (in the original [[model (in theoretical physics)|model]] a round [[7-sphere]]) with non-vanishing constant 4-form [[field strength]] ("flux") of the [[supergravity C-field]] in the remaining four dimensional [[anti-de Sitter spacetimes]] $AdS_4$.
 
 If $X_7$ has [[weak G2 holonomy]] with weakness parameter/[[cosmological constant]] $\lambda$ the scale of the flux, then this yields $N = 1$ [[supersymmetry]] in the [[effective QFT]] in four dimensions, discussed at _[[M-theory on G2-manifolds]]_. The [[KK-reduction]] on the circle fiber of these solutions to [[type IIA supergravity]] yields type IIA sugra on [[complex projective space]] $\mathbb{C}P^3$ ([Nilsson-Pope 84](#NilssonPope84), [ABJM 08](#ABJM08))
 
@@ -56,7 +52,7 @@ now a popoular toy example for [[flux compactifications]] and [[moduli stabiliza
 
 A detailed textbook account is in
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapters V.4-V8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapters V.4-V.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 Discussion of compactification along the fibration $S^1 \to S^7 \to \mathbb{C}P^3$ is in
 
