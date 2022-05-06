@@ -28,7 +28,7 @@ The analog of the [[unitary group]] as one passes from the [[complex numbers]] t
 
 ## Related concepts
 
-* A [[Riemannian manifold]] of [[dimension]] $4n$ is called a _[[quaternion-Kähler manifold]]_ if its [[holonomy group]] is a [[subgroup]] of the [[direct product group]] $Sp(n) \times Sp(1)$. If it is even a subgroup of just the $Sp(n)$ factor, then it is called a _[[hyperkähler manifold]]_.
+* A [[Riemannian manifold]] of [[dimension]] $4n$ is called a _[[quaternion-Kähler manifold]]_ if its [[holonomy group]] is a [[subgroup]] of the [[quotient group]] [[Sp(n).Sp(1)]] of the [[direct product group]] $Sp(n) \times Sp(1)$. If it is even a subgroup  of just the $Sp(n)$ factor, then it is called a _[[hyperkähler manifold]]_.
 
 
 ## References
