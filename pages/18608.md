@@ -44,6 +44,7 @@ This issue is well and widely known in the [[particle physics]]-community, see f
 ## References
 
 ### The mass gap problem
+ {#ReferencesMassGapProblem}
 
 A survey and problem description in [[mathematics]]/[[mathematical physics]] is in
 
