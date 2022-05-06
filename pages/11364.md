@@ -23,23 +23,37 @@
 
 ## Idea 
 
-Let $k$ be a [[field]], and let $\mathbb{P}^1(k)$ be the [[projective line]] over $k$. A _M&#246;bius transformation_ (also called a _homography_, a _linear fractional transformation_, or a _fractional linear transformation_ which is my own preference -- Todd) is a function $f: \mathbb{P}^1(k) \to \mathbb{P}^1(k)$ defined by the rule 
+Let $k$ be a [[field]], and let $\mathbb{P}^1(k)$ be the [[projective line]] over $k$. A _M&#246;bius transformation_ (also called a _homography_, a _linear fractional transformation_, or a _fractional linear transformation_) is a [[function]] $f: \mathbb{P}^1(k) \to \mathbb{P}^1(k)$ defined by the rule 
 
-$$f(x) = \frac{a x + b}{c x + d}$$ 
+$$
+  f(x)
+  = 
+  \frac{a x + b}{c x + d}
+$$ 
 
-where $a, b, c, d \in k$ and $a d - bc \in k^\times$. M&#246;bius transformations form a group under composition, isomorphic to the [[projective linear group]]
+where $a, b, c, d \in k$ and $a d - b c \in k^\times$ (the [[group of units]]). M&#246;bius transformations form a [[group]] under [[composition]], [[isomorphisn|isomorphic]] to the [[projective linear group]]
 
-$$PGL_2(k) \coloneqq GL_2(k)/\{\lambda I: \lambda \in k^\times\}$$ 
+$$
+  PGL_2(k)
+  \coloneqq  
+  GL_2(k)/\{\lambda I: \lambda \in k^\times\}
+  \,.
+$$ 
 
-If, as in the case $k = \mathbb{C}$, each element of $k^\times$ has a square root, then this group is identified with 
+If, as in the case $k = \mathbb{C}$ ([[complex numbers]]), each element of $k^\times$ has a [[square root]], then this group is identified with the [[projective special linear group]]
 
-$$PSL_2(k) \coloneqq SL_2(k)/\pm I.$$ 
+$$
+  PSL_2(k) 
+  \coloneqq 
+  SL_2(k)/\pm I
+  \,.
+$$ 
 
-Alternatively, a fractional linear transformation can be considered as synonymous with an automorphism of the field of [[rational functions]] $k(x)$ as a field over $k$ of [[transcendence degree]] 1. 
+Alternatively, a fractional linear transformation can be considered as synonymous with an [[automorphism]] of the [[field]] of [[rational functions]] $k(x)$ as a field over $k$ of [[transcendence degree]] 1. 
 
-In [[complex analysis]] (which is the usual context when one speaks of M&#246;bius transformations; otherwise one usually calls them by some combination of "linear" and "fractional"), M&#246;bius transformations are precisely the [[biholomorphisms]] of the [[Riemann sphere]], hence exactly its bijective [[conformal transformations]]. 
+In [[complex analysis]] (which is the usual context when one speaks of M&#246;bius transformations; otherwise one usually calls them by some combination of "linear" and "fractional"), M&#246;bius transformations are precisely the [[biholomorphisms]] of the [[Riemann sphere]], hence exactly its [[bijection|bijective]] [[conformal transformations]]. 
 
-Often, and particularly when $k$ is the the [[commutative ring]] of integers $\mathbb{Z}$, one considers a _modular group_ where the coefficients $a, b, c, d$ are assumed to lie in an integral domain and $a d - b c = 1$. (The [[homotopy quotient]] of the [[upper half-plane]] by the group $PGL_2(\mathbb{Z})$ is the [[moduli stack of elliptic curves]] over the [[complex numbers]].) 
+Often, and particularly when $k$ is the the [[commutative ring]] of [[integers]] $\mathbb{Z}$, one considers a _modular group_ where the coefficients $a, b, c, d$ are assumed to lie in an integral domain and $a d - b c = 1$. (The [[homotopy quotient]] of the [[upper half-plane]] by the group $PGL_2(\mathbb{Z})$ is the [[moduli stack of elliptic curves]] over the [[complex numbers]].) 
 
 ## Properties 
 
@@ -118,6 +132,8 @@ where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (
 
 * [[conformal group]]
 
+* [[Kleinian group]]
+
 * [[elliptic fibration]]
 
 * [[congruence subgroup]]
@@ -129,6 +145,12 @@ where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (
 ## References
 
 Named after _[[August Möbius]]_.
+
+See also:
+
+, Wikipedia, _[Projective linear group](https://en.m.wikipedia.org/wiki/Projective_linear_group)_
+
+[[!redirects PSL(2,C)]]
 
 [[!redirects Moebius transformations]]
 [[!redirects moebius transformation]]
