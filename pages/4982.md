@@ -9,6 +9,8 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 
 ## Related entries
 
+* [[Navier-Stokes equation]]
+
 * [[magnetohydrodynamics]]
 
 * [[phase of matter]]
