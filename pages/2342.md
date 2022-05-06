@@ -414,13 +414,19 @@ Introductory lecture notes for elliptic curves over the complex numbers include
 
 * {#Neeman07} [[Amnon Neeman]], section 1.2 of _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, 2007 ([publisher](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry))
 
-and for the general case
+and for the general case:
 
 * {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
 
 * R. Sujatha, _Elliptic Curves & Number Theory_ ([[SujahtaElliptic.pdf:file]])
 
 * {#Sutherland13} [[Andrew Sutherland]], _Elliptic curves and abelian varieties_, lecture 23 in _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/), [lecture 23 pdf](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/MIT18_782F13_lec23.pdf))
+
+See also
+
+* {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], appendix B of: _Elliptic spectra, the Witten genus, and the theorem of the cube_, Inventiones Mathematicae, 146:595&#8211;687, 2001,  ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf), [doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175))
+
+  (review of general elliptic curves in the context of [[elliptic genera]], [[elliptic spectra]] and the [[sigma-orientation of tmf]])
 
 An elementary discussion of [[associativity]] of the [[formal group law]] of elliptic curves is in
 
