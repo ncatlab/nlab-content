@@ -14,6 +14,11 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 * {#Vafa18} _F-theory, Black holes and topological strings_, talk at [ift 2018](https://www.ift.uam-csic.es/en/content/f-theory-black-holes-and-topological-strings), ([pdf](https://workshops.ift.uam-csic.es/files/221/Vafa.pdf), [recording](https://www.youtube.com/watch?v=Fmri3ke8Q-g))
 
+## selected writings
+
+* {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological strings and their physical applications_, talk at [Simons Workshop in Mathematics and Physics 2004](http://insti.physics.sunysb.edu/conf/simonsworkII/) ([hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178))
+
+
 ## Related $n$Lab entries
 
 * [[string theory]]
