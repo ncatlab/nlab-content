@@ -1145,7 +1145,7 @@ This is precisely the statement of that quoted result [Hess 06, theorem 2.2](#He
 
 ## Further variants of rational homotopy theory
 
-There are various variants of [[homotopy theory]], such as [[stable homotopy theory]] or [[# equivariant homotopy theory]]. Several of these have their coresponding rational models in terms of rational [[chain complexes]] equipped with extra structure. This includes the following:
+There are various variants of [[homotopy theory]], such as [[stable homotopy theory]] or [[equivariant homotopy theory]]. Several of these have their coresponding rational models in terms of rational [[chain complexes]] equipped with extra structure. This includes the following:
 
 * [[rational stable homotopy theory]]
 
@@ -1159,6 +1159,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 ## Related concepts
 
 * [[rational cohomology]]
+
+* [[rational Cohomotopy]]
 
 * from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
 
