@@ -19,6 +19,7 @@
 
 (...)
 
+
 ## Properties
 
 
@@ -56,7 +57,13 @@ See also:
 
 Original articles:
 
-* {#Abrikosov57} A. A. Abrikosov, _The magnetic properties of superconducting alloys_, Journal of Physics and Chemistry of Solids Volume 2, Issue 3, 1957, Pages 199-208 (<a href="https://doi.org/10.1016/0022-3697(57)90083-5">doi:10.1016/0022-3697(57)90083-5</a>)
+* {#Abrikosov57a} [[Alexei Abrikosov]], _On the Magnetic properties of superconductors of the second group_, Sov. Phys. JETP 5 (1957) 1174-1182, Zh. Eksp. Teor. Fiz. 32 (1957) 1442-1452 ([spire:9138](https://inspirehep.net/literature/9138))
+
+* {#Abrikosov57} [[Alexei Abrikosov]], _The magnetic properties of superconducting alloys_, Journal of Physics and Chemistry of Solids Volume 2, Issue 3, 1957, Pages 199-208 (<a href="https://doi.org/10.1016/0022-3697(57)90083-5">doi:10.1016/0022-3697(57)90083-5</a>)
+
+See also 
+
+* Wikipedia, _[Abrikosov vortex](https://en.wikipedia.org/wiki/Abrikosov_vortex)_
 
 First [[experiment|experimental]] detection of flux quantization in superconductors:
 
@@ -64,23 +71,21 @@ First [[experiment|experimental]] detection of flux quantization in superconduct
 
 * R. Doll, M. Näbauer, _Experimental Proof of Magnetic Flux Quantization in a Superconducting Ring_, Phys. Rev. Lett. 7, 51 (1961) ([doi:10.1103/PhysRevLett.7.51](https://doi.org/10.1103/PhysRevLett.7.51))
 
-
-See also 
-
-* Wikipedia, _[Abrikosov vortex](https://en.wikipedia.org/wiki/Abrikosov_vortex)_
-
 More on the experimental detection magnetic flux quantization and vortices:
 
 * {#LoudonMidgley09} J. C. Loudon, P. A. Midgley, _Imaging Flux Vortices in Type II Superconductors with a Commercial Transmission Electron Microscope_, Ultramicroscopy 109: 700-729, 2009 ([arXiv:0807.2401](https://arxiv.org/abs/0807.2401))
 
-
 More theoretically flavored discussion of the flux quantization mechanism:
 
-* H. B. Nielsen, P. Olesen, _Vortex-line models for dual strings_, Nuclear Physics B Volume 61, 24 September 1973, Pages 45-61 (<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>)
-
-  > (regarding vortices as [[strings]])
-
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, Section IV.B of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
+
+On the vortex flux tubes as dynamical [[vortex string|vortex strings]]:
+
+* [Abrikosov 57a](#Abrikosov57a)
+
+* [[Holger Bech Nielsen]], [[Poul Olesen]], _Vortex-line models for dual strings_, Nuclear Physics B Volume 61, 24 September 1973, Pages 45-61 (<a href="https://doi.org/10.1016/0550-3213(73)90350-7">doi:10.1016/0550-3213(73)90350-7</a>)
+
+* [[David Tong]], _Quantum Vortex Strings: A Review_, Annals Phys. 324:30-52, 2009 ([arXiv:0809.5060](https://arxiv.org/abs/0809.5060))
 
 
 
@@ -109,6 +114,11 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 [[!redirects type II superconductor]]
 [[!redirects type II superconductors]]
 
+[[!redirects Abrikosov vortex]]
+[[!redirects Abrikosov vortices]]
+
 [[!redirects Meissner effect]]
 [[!redirects Meissner-Ochsenfeld effect]]
+
+
 
