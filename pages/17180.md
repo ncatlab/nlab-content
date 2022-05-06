@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -637,7 +638,7 @@ with [[symmetric monoidal smash product of spectra]]
 
 Model structure for [[excisive functors]] on [[simplicial sets]] (hence also a [[model structure for spectra]]) is discussed in:
 
-* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+* {#Lydakis98} [[Manos Lydakis]], _Simplicial functors and stable homotopy theory_ Preprint, 1998 (Hopf archive [pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf), [[LydakisSimplicialFunctors.pdf:file]])
 
 A similar model structure on functors on topological spaces was given in
 
