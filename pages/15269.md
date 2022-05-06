@@ -79,7 +79,7 @@ In particular, for $G =\mathbb{Z}_N \subset SU(2)$ a [[cyclic group]] of [[order
 
 A strong version of the McKay correspondence is obtained when the [[cohomology theory]] is taken be ([[equivariant K-theory|equivariant]]) _[[K-theory]]_ ([Gonzalez-Sprinberg & Verdier 83](#GSV83)): 
 
-Here the McKay correspondence becomes an [[isomorphism]] between the [[equivariant K-theory]] $K_{G_{ADE}}(\ast)$ of an [[ADE-singularity]] (equivalently the [[representation ring]] $R(G_{ADE})$) to the plain [[K-theory]] $K(\tilde X)$ of its [[blow-up]] [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram) $\tilde X$. Much like in [[topological T-duality]], this isomorphism is given by [[integral transform]] ([[Fourier-Mukai transform]]) through the canonical [[correspondence]] that these spaces constitute:
+Here the McKay correspondence becomes an [[isomorphism]] between the [[equivariant K-theory]] $K_{G_{ADE}}(\ast)$ of an [[ADE-singularity]] (equivalently the [[representation ring]] $R(G_{ADE})$) and the plain [[K-theory]] $K(\tilde X)$ of its [[blow-up]] [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram) $\tilde X$. Much like in [[topological T-duality]], this isomorphism is given by [[integral transform]] ([[Fourier-Mukai transform]]) through the canonical [[correspondence]] that these spaces constitute:
 
 \[
   \label{KMcKay}
@@ -118,7 +118,7 @@ Pick one such particle, and follow it around as the gauge group transforms it. T
 
 On the other extreme, gauge theories are of interest whose gauge group is not a big direct product, but is a [[simple Lie group]], such as [[special unitary group|SU(N)]] or [[E8]]. The mechanism that relates the two classes of examples is [[spontaneous symmetry breaking]] ("[[Higgs field|Higgsing]]"): the ground state energy of the field theory may happen to be achieved by putting the fields at any one point in a higher dimensional space of field configurations, acted on by the gauge group, and fixing any one such point "spontaneously" singles out the corresponding [[stabilizer subgroup]]. 
 
-Now here is the final ingredient: it is [[N=2 D=4 super Yang-Mills theory]] ("[[Seiberg-Witten theory]]") which have a potential that is such that its [[vacua]] break a simple gauge group such as $SU(N)$ down to a Dynkin diagram [[quiver gauge theory]]. One place where this is reviewed, physics style, is in [Albertsson 03, section 2.3.4](N=2+D=4+super+Yang-Mills+theory#Albertsson03).
+Now here is the final ingredient: [[N=2 D=4 super Yang-Mills theory]] ("[[Seiberg-Witten theory]]"). These theories have a [[potential energy|potential]] such that its [[vacua]] break a simple gauge group, such as $SU(N)$, down to a [[Dynkin diagram]] [[quiver gauge theory]]. One place where this is reviewed, physics style, is in [Albertsson 03, section 2.3.4](N=2+D=4+super+Yang-Mills+theory#Albertsson03).
 
 More precisely, these theories have two different kinds of vacua, those on the "[[Coulomb branch]]" and those on the "[[Higgs branch]]" depending on whether the scalars of the "[[vector multiplets]]" (the gauge field sector) or of the "[[hypermultiplet]]" (the matter field sector) vanish. The statement above is for the Higgs branch, but the Coulomb branch is supposed to behave "dually".
 
