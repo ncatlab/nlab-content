@@ -74,6 +74,9 @@ with further developments including
 
 * {#FlachiMinamitsuji09} Antonino Flachi, Masato Minamitsuji, _Field localization on a brane intersection in anti-de Sitter spacetime_, Phys.Rev.D79:104021, 2009 ([arXiv:0903.0133](https://arxiv.org/abs/0903.0133))
 
+Relation to [[AdS-CFT duality]]:
+
+* {#Soda10} Jiro Soda, _AdS/CFT on the brane_, Lect.Notes Phys.828:235-270, 2011 ([arXiv:1001.1011](https://arxiv.org/abs/1001.1011))
 
 
 [[!redirects Randall-Sundrum models]]
