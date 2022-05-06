@@ -70,7 +70,14 @@ The 4T-relations for [[round chord diagrams]] are the image of the
 
 ### Relation to STU-relations
 
-[[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
+Under the embedding of the set of [[round chord diagrams]] into the set of [[Jacobi diagrams]], the [[STU-relations]] imply the [[4T relations]] on [[round chord diagrams]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/STURelationImplies4TRelation.jpg" width="400">
+</center>
+
+
+Using this, one finds that [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/ChordsMod4TIsCSModSTU.jpg" width="840">
