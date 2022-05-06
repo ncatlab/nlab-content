@@ -3,11 +3,17 @@
 
 **general mechanisms**
 
-* **[[T-duality]]**, [[mirror symmetry]]
+* **[[T-duality]]** ([[topological T-duality]], [[non-abelian T-duality]])
 
-* **[[S-duality]]**, [[electric-magnetic duality]]
+  [[mirror symmetry]]
+
+* **[[S-duality]]**
+
+  [[electric-magnetic duality]], [[Montonen-Olive duality]], [[geometric Langlands duality]]
 
 * **[[U-duality]]** 
+
+  [[exceptional generalized geometry]]
 
 **string-fivebrane duality**
 
@@ -33,18 +39,20 @@
 
 * [[duality between F-theory and heterotic string theory|F - HET]]
 
-**[[open/closed string duality]]**
-
-* [[KLT relations]]
-
 **string-QFT duality**
 
-* [[AdS-CFT correspondence]]
+* [[AdS-CFT correspondence]] (an [[open/closed string duality]])
 
-* [[AdS-QCD correspondence]]
+  [[AdS-QCD correspondence]]
 
-**QFT-QFT duality** from [[wrapped brane|wrapped]] [[M5-branes]]:
+**QFT-QFT duality**:
 
-* [[AGT correspondence]]
+* [[KLT relations]] (an [[open/closed string duality]])
 
-* [[3d-3d correspondence]]
+* [[Kramers-Wannier duality]]
+
+* [[Seiberg duality]] (swapping [[NS5-branes]])
+
+* [[AGT correspondence]] ([[wrapped brane|wrapped]] [[M5-branes]])
+
+* [[3d-3d correspondence]] ([[wrapped brane|wrapped]] [[M5-branes]])
