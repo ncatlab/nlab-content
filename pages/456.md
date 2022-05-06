@@ -280,6 +280,8 @@ There are various special cases and types of classes of geometric morphisms. For
 
 * [[dominant geometric morphism]]
 
+
+
 The following subsections describe some of these in more detail.
 
 
@@ -687,6 +689,7 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 
 * [[(∞,1)-geometric morphism]]
 
+* [[natural homotopy]]
 
 ## References
 
