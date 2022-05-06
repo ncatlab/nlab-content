@@ -40,15 +40,14 @@ A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]
 
 * such that for every other [[diagram]] $1 \stackrel{q}{\to}A \stackrel{f}{\to} A$ there is a unique morphism $u : \mathbb{N} \to A$ such that
 
-$$
-  \array{
-    1 &\stackrel{z}{\to}& \mathbb{N} &\stackrel{s}{\to}& \mathbb{N}
-  \\
-   & {}_q\searrow & \downarrow^{u} && \downarrow^{u}
-   \\
-  && A &\stackrel{f}{\to} & A
-  }
-$$
+\begin{center}
+  \begin{tikzcd}
+    1 \ar[r, "z"] \ar[rd, "q"']        &
+    \mathbb{N} \ar[r, "s"] \ar[d, "u"] &
+    \mathbb{N} \ar[d, "u"]             \\
+    & A \ar[r, "f"'] & A
+  \end{tikzcd}
+\end{center}
 
 All this may be summed up by saying that a natural numbers object is an [[initial algebra|initial]] [[algebra for an endofunctor|algebra for the endofunctor]] $X \mapsto 1 + X$ (the functor underlying the "[[maybe monad]]").
 Equivalently, it is an initial [[algebra for an endo-profunctor|algebra for the endo-profunctor]]  $Hom_E(1,=) \times Hom_E(-,=)$.
