@@ -47,7 +47,7 @@ The other end of the [[M2-brane]]-lift of the E-string is [[M2-M5 brane bound st
 
 
 
-In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some authors speak of "M-strings":
+In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some authors speak of "[[M-string|M-strings]]":
 
 <center>
 <img src="https://ncatlab.org/nlab/files/MStringFromM2BetweenM5AndM5.jpg" width="500">
@@ -56,6 +56,12 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 > graphics grabbed from [HLV 14](#HLV14)
 
+
+## Properties
+
+### E-string elliptic genus
+
+See at _[[E-string elliptic genus]]_.
 
 
 
@@ -74,11 +80,11 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 ### General
 
-* {#HLV14} Babak Haghighat, Guglielmo Lockhart, [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
+* {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
 
 * {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
-* {#GHKKLV15} Abhijit Gadde, Babak Haghighat, Joonho Kim, Seok Kim, Guglielmo Lockhart, [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+* {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
 On the [[Green-Schwarz anomaly cancellation]] in [[D=6 N=(1,0) SCFT]]:
 
