@@ -227,6 +227,10 @@ $$
 
 (e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
 
+### Coset quotients
+
+[[!include coset space structure on n-spheres -- table]]
+
 
 ### $G$-Structure and exceptional geometry
 
