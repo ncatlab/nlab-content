@@ -16,11 +16,11 @@ Classically, a _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discre
 
 A *lattice* in a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological abelian group|abelian group]] $A$ is a subgroup $L \hookrightarrow A$ that is [[discrete space|discrete]] and *cocompact*, meaning that the quotient group $A/L$ with the quotient topology is [[compact space|compact]].
 
-Applying [[Pontryagin duality]], the dual of the quotient map $q: A \to A/L$ is in that case a discrete subgroup $\widehat{A/L} \hookrightarrow \widehat{A}$ which is also cocompact (its [[cokernel]] being the compact group $\widehat{L}$). This is called the *dual lattice*of $L$. 
+Applying [[Pontryagin duality]], the dual of the quotient map $q: A \to A/L$ is in that case a discrete subgroup $\widehat{A/L} \hookrightarrow \widehat{A}$ which is also cocompact (its [[cokernel]] being the compact group $\widehat{L}$). This is called the *dual lattice* of $L$. 
 
 ## Examples
 
-Notable examples of classical lattices (in $\mathbb{R}^n$ include 
+Notable examples of classical lattices in $\mathbb{R}^n$ include 
 
 * [[Leech lattice]], [[E8 lattice]] 
 
