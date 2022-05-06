@@ -130,9 +130,12 @@ So for the Higgs particle prediction and experimental detection lie apart by abo
 
 * [[inflaton field]]
 
+* [[composite Higgs model]]
+
 * [[higgsino]]
 
 * [[Higgs bundle]]
+
 
 [[!include standard model of fundamental physics - table]]
 
