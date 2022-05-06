@@ -23,11 +23,12 @@
 ## Idea
  {#Idea}
 
-The term _tensor network_ has become popular in [[quantum physics]] for essentially what in [[mathematical physics]] is known as _[[Penrose notation]]_ and in [[monoidal category|monoidal]] [[category theory]] is referred to as _[[string diagrams]]_.
+The term _tensor network_ has become popular in [[quantum physics]] for essentially what in [[mathematical physics]] is known as _[[Penrose notation]]_ and in [[monoidal category|monoidal]] [[category theory]] is referred to as _[[string diagrams]]_ (see [BCJ 10](#BCJ10) for a bilingual account).
 
-The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but mainly via its use for representing [[entangled states]] in the  discussion of [[renormalization]] of [[non-perturbative effects]] in [[solid state physics]] ([Swingle 09](#Swingle09), [Swingle 13](#Swingle13)) and the resulting discovery of the relation to [[holographic entanglement entropy]].
 
-In this context, a _tensor network_ is a _[[string diagram]] [[concept with an attitude|with an attitude]], in that it is (just) a [[string diagram]], but with 
+The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but mainly via its use for representing highly [[entangled states]] in the  discussion of [[renormalization]] of [[non-perturbative effects]] in [[solid state physics]] ([Swingle 09](#Swingle09), [Swingle 13](#Swingle13)) and the resulting discovery of the relation to [[holographic entanglement entropy]] and thus to the [[AdS/CFT correspondence]].
+
+In this context, a _tensor network_ is a _[[string diagram]] [[concept with an attitude|with an attitude]], in that it is (just) a [[string diagram]] (typically regarded in the [[monoidal category]] of [[finite-dimensional vector spaces]], but possibly also in [[super vector spaces]] etc.), but with 
 
 1. the [[tensor product]] of all its external [[objects]] regarded as a [[space of states]] of a [[quantum system]];
 
@@ -55,7 +56,7 @@ Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special r
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holographic entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). For more on this see [below](#ForHolographicEntanglementEntropy).
+For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
 
 \linebreak
 
@@ -90,16 +91,26 @@ Application to [[holographic entanglement entropy]] (...)
 
 In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]] has an exact proof [PYHP 15, Theorem 2](#PYHP15).
 
-## For finite quantum mechanics in $\dagger$-compact categories
+## Examples
 
-Application to [[finite quantum mechanics in terms of dagger-compact categories]]... (see there).
+* [[matrix product state]]
+
+* [[MERA state]]
+
 
 
 ## Related concepts
 
+* [[string diagram]]/[[Penrose notation]]
+
+* [[finite quantum mechanics in terms of dagger-compact categories]]
+
+* [[quantum computing]], [[quantum information theory]]
+
+  [[quantum error correction]]
+
 * [[tensor]], [[tensor product]], [[tensor category]]
 
-* [[string diagram]]
 
 * [[neural network]]
 
@@ -107,19 +118,40 @@ Application to [[finite quantum mechanics in terms of dagger-compact categories]
 
 ### General
 
+Review and exposition:
+
+* [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
+
+* {#BCJ10} [[Jacob Biamonte]], Stephen R. Clark, Dieter Jaksch, _Categorical Tensor Network States_, AIP Advances 1(4), 042172 (2011) ([arXiv:1012.0531](https://arxiv.org/abs/1012.0531))
+
+
+
+* [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
+
+* [[Jens Eisert]], _Entanglement and tensor network states_, Modeling and Simulation 3, 520 (2013) ([arXiv:1308.3318](https://arxiv.org/abs/1308.3318))
+
 
 
 * [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
 
 * {#Biamonte19} [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
 
-* Roman Orus, _Tensor networks for complex quantum systems_, Nature Reviews Physics 1, 538-550 (2019) ([arXiv:1812.04011](https://arxiv.org/abs/1812.04011), [doi:10.1038/s42254-019-0086-7](https://doi.org/10.1038/s42254-019-0086-7))
+* [[Roman Orus]], _Tensor networks for complex quantum systems_, Nature Reviews Physics 1, 538-550 (2019) ([arXiv:1812.04011](https://arxiv.org/abs/1812.04011), [doi:10.1038/s42254-019-0086-7](https://doi.org/10.1038/s42254-019-0086-7))
+
+See also
+
+* Wikipedia, _[Matrix product state](https://en.m.wikipedia.org/wiki/Matrix_product_state)_
+
+
+Further resources:
+
+* [Tensor Network Initiative](https://www.perimeterinstitute.ca/research/research-initiatives/tensor-networks-initiative)
+
+* [tensornetwork.org](https://tensornetwork.org/)
 
 
 
-Relation to [[spin chains]]:
 
-* Mari Carmen Banuls, Michal P. Heller, Karl Jansen, Johannes Knaute, Viktor Svensson, _From spin chains to real-time thermal field theory using tensor networks_ ([arXiv:1912.08836](https://arxiv.org/abs/1912.08836))
 
 ### In holographic entanglement entropy
 
@@ -129,7 +161,12 @@ The use of tensor networks as a tool in [[holographic entanglement entropy]] goe
 
 * {#Swingle12} Brian Swingle, _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304))
 
-Further interpretation in terms of quantum error correcting codes is due to
+Review in
+
+* F. Verstraete, J. I. Cirac, V. Murg, _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. 57,143 (2008) ([arXiv:0907.2796](https://arxiv.org/abs/0907.2796))
+
+
+Further interpretation in terms of [[quantum error correcting codes]] is due to
 
 
 * {#ADH14} [[Ahmed Almheiri]], Xi Dong, [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
@@ -158,6 +195,11 @@ See also
 
 * {#JGPE19} Alexander Jahn, Marek Gluza, Fernando Pastawski, Jens Eisert, _Majorana dimers and holographic quantum error-correcting codes_ ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268)) 
 
+### Relation to spin chains
+
+Relation to [[spin chains]]:
+
+* Mari Carmen Banuls, Michal P. Heller, Karl Jansen, Johannes Knaute, Viktor Svensson, _From spin chains to real-time thermal field theory using tensor networks_ ([arXiv:1912.08836](https://arxiv.org/abs/1912.08836))
 
 ### In higher parallel transport
 
