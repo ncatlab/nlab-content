@@ -186,7 +186,7 @@ For $G = 2 D_4 = Q_8$ the [[binary dihedral group]] of [[order of a group|order]
 | $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | 
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | 
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
+One sees ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1%7D,%7B1,%E2%88%921,1,-1%7D,%7B1,-1,-1,1%7D,%7B1,1,-1,-1%7D,%7B-4,0,0,0%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
 
 $$
   V 
@@ -242,7 +242,7 @@ For $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\v
 | $\chi_{V_4} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ |
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}2$ |
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1%7D,%7B1,1,%E2%88%921,%E2%88%921,1%7D,%7B2,%E2%88%921,0,0,%E2%88%921%7D,%7B%E2%88%922,2,0,0,%E2%88%922%7D,%7B%E2%88%924,%E2%88%922,0,0,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
 
 $$
   V 
@@ -314,7 +314,7 @@ For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\v
 | $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
 
 
-One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_8$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1%7D,%7B1,1,-1,1,-1,-1%7D,%7B1,1,-1,-1,1,1%7D,%7B1,1,1,-1,-1,-1%7D,%7B2,-2,0,0,0,0%7D,%7B-8,0,0,0,0,0%7D%7D%5D)), that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_8$ is
 
 $$
   V 
@@ -391,7 +391,7 @@ For $G = 2 D_{10}$ the [[binary dihedral group]] of [[order of a group|order]] $
 
 
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{10}$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1%7D,%7B1,-1,-1,1,1,1,1%7D,%7B-2,0,0,2,2,-2,-2%7D,%7B4,0,0,-1,-1,-1,-1%7D,%7B-8,0,0,-2,-2,2,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{10}$ is
 
 $$
   V 
@@ -467,7 +467,7 @@ For $G = 2 D_{12}$ the [[binary dihedral group]] of [[order of a group|order]] $
 
 
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{12}$ is
+One sees ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1,1%7D,%7B1,1,-1,-1,1,1,1,1%7D,%7B1,1,-1,1,-1,1,-1,-1%7D,%7B1,1,1,-1,-1,1,-1,-1%7D,%7B2,-1,0,0,2,-1,-1,-1%7D,%7B2,-1,0,0,-2,-1,1,1%7D,%7B-4,4,0,0,0,-4,0,0%7D,%7B-8,-4,0,0,0,4,0,0%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{12}$ is
 
 $$
   V 
@@ -707,7 +707,7 @@ For $G = 2 T$ the [[binary tetrahedral group]] (whose [[order of a group|order]]
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $-2$ |  $\phantom{-}0$ | $\phantom{-}2$ | $\phantom{-}2$ |
 
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2T$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1%7D,%7B2,-1,-1,2,-1,-1%7D,%7B3,0,0,-1,0,0%7D,%7B-4,1,1,0,-1,-1%7D,%7B-4,-2,-2,0,2,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2T$ is
 
 $$
   V 
@@ -782,7 +782,7 @@ For $G = 2 O$ the [[binary octahedral group]] (whose [[order of a group|order]] 
 
 
 
-One sees by not so immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2O$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1%7D,%7B1,1,1,-1,1,-1,-1%7D,%7B2,-1,2,0,-1,0,0%7D,%7B3,0,-1,1,0,-1,-1%7D,%7B3,0,-1,-1,0,1,1%7D,%7B-8,2,0,0,-2,0,0%7D,%7B-8,-4,0,0,4,0,0%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2O$ is
 
 $$
   V 
@@ -864,7 +864,7 @@ For $G = 2 I$ the [[binary icosahedral group]] (whose [[order of a group|order]]
 
 
 
-One sees by not so immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1,1%7D,%7B4,1,0,-1,-1,1,-1,-1%7D,%7B5,-1,1,0,0,-1,0,0%7D,%7B6,0,-2,1,1,0,1,1%7D,%7B-12,0,0,2,2,0,-2,-2%7D,%7B-8,2,0,-2,-2,-2,2,2%7D,%7B-8,-4,0,-2,-2,4,2,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
 
 $$
   V 
