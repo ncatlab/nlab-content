@@ -161,23 +161,110 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
-From this, Conner-Floyd conclude by essentially  considering the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]]:
+From this, Conner-Floyd conclude essentially  by considering the following [[homotopy coherent diagram|homotopy]] [[pasting diagram]] (the diagrammatic perspective here follows [[schreiber:M-Theory as Mf-Theory|SS21]], for more see at _[Adams e-invariant via unit cofiber theories](Adams+e-invariant#ConstructionViaUnitCofiberTheories)_):
 
-\begin{imagefromfile}
-        "file_name": "eInvariantIsTdClassOfCoboundingUFrMfd-DiagramA.jpg",
-        "web": "nlab",
-        "width": 650,
-        "unit": "px",
-        "margin": {
-            "top": -20,
-            "right": 0,
-            "bottom": 20,
-            "left": 20,
-            "unit": "px"
-        },
-        "alt": "homotopy pasting diagram exhibiting that the e-invariant equals the Todd class of any cobounding UFr-manifold",
-        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
-\end{imagefromfile}
+
+\begin{xymatrix@C=15pt}
+   S^{2(n + d)-1}
+   \ar[dd]_-{ c }
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   &&
+   \ast
+   \ar[dr]
+   \ar[dd]
+   \\
+   && &
+   \ast
+   \ar[dd]|-{
+     \mathclap{\phantom{\vert^{\vert}}}
+     0
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \\
+   S^{2n}
+   \ar[dd]
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   \ar@/_.7pc/[drrr]
+     |<<<<<{ \;\Sigma^{2n} (1^{M\mathrm{U}})\;\; }
+     |>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+   &&
+   C_c
+   \ar[dd]
+   \ar@{-->}[dr]^-{
+   }
+   %\ar@/_2pc/[dddrrr]
+   %  |>>>>>>>>>>>>>>>{
+   %    \mathclap{\phantom{\vert}}
+   %    \;{\color{magenta} e(f)}\;
+   %  }
+   &&
+   \\
+   && &
+   M\mathrm{U}^{2n}
+   \ar[dd]
+   \ar[dr]|-{
+     \;\sigma\;
+   }
+   \ar@/^1.7pc/[ddrr]|>>>>>>>>>>>{
+     \;
+     \mathclap{\phantom{\vert^{\vert}}}
+     \mathrm{Td}
+     \mathclap{\phantom{\vert_{\vert}}}
+     \;
+   }
+   \\
+   \ast
+   \ar@/_.7pc/[drrr]|-{ \;0\; }
+   \ar[rr]
+   &&
+   S^{2(n+d)}
+   \ar@{-->}[dr]|-{
+     \;
+     \mathclap{\phantom{\vert^{\vert}}}
+     \color{magenta}M^{2d}
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   &&
+   \mathrm{KU}^{2n}
+   \ar[dr]|-{
+     \;
+     \mathrm{ch}
+     \;
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \ar[dd]|>>>>>>{ \phantom{\vert_{\vert}} }
+   \\
+   && &
+   (M\mathrm{U}/\mathbb{S})^{2n}
+   \ar@/^1.7pc/[ddrr]
+     |>>>>>>>>>{
+       \mathclap{\phantom{\vert^{\vert}}}
+       \;\mathrm{Td}/\mathbb{S}\;
+       \mathclap{\phantom{\vert_{\vert}}}
+     }
+   \ar[dr]|-{ \;\sigma/\mathbb{S}\; }
+   &&
+   (H^{\mathrm{ev}}\mathbb{Q})^{2n}
+   \ar[dd]
+   \\
+   && &&
+   (\mathrm{KU}/\mathbb{S})^{2n}
+   \ar[dr]|-{ \;\mathrm{ch}/\mathbb{S}\; }
+   \\
+   && && &
+   \big(
+     (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
+   \big)^{2n}
+\end{xymatrix}
+
 
 
 
