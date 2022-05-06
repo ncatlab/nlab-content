@@ -34,7 +34,7 @@ This is a [[triangulated category]].
 
 But the Spanier-Whitehead category lacks other desirable properties, for instance it does not have all [[coproducts]] and the canonical functor from the homotopy category of [[pointed topological spaces]] does not preserve the coproducts that already exist. As a consequence, in particular a [[Brown representability theorem]] does not hold in the SW-category.
 
-Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this all this is fixed by regardeding the SW-category for [[finite CW complexes]] as a [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]] (e.g. [Schwede 12, chapter II theorem 7.2](#Schwede12)). As such it is the full subcategory on the [[finite spectra]] (e.g. [Schwede 12, chapter II theorem 7.4](#Schwede12)).
+Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this all this is fixed by regarding the SW-category for [[finite CW complexes]] as a [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]] (e.g. [Schwede 12, chapter II theorem 7.2](#Schwede12)). As such it is the full subcategory on the [[finite spectra]] (e.g. [Schwede 12, chapter II theorem 7.4](#Schwede12)).
 
 
 ## Related concepts
