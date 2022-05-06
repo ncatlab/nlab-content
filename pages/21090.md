@@ -77,11 +77,20 @@ A _deterministic_ morphism is instead one that does _not_ exhibit this behavior,
 
 ## References
 
-(...more to come...)
+Markov categories as defined here appear in:
 
 * [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
 * [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+
+See also the references therein.
+
+The first idea of defining a "category of probabilistic mappings" seems to be due to [[Lawvere]], in
+
+*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+([[lawvereprobability1962.pdf:file]])
+
+(...more to come...)
 
 
 [[!redirects Markov categories]]
