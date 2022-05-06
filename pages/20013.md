@@ -395,7 +395,11 @@ The concept was introduced in
 
 * {#Burnside1897} [[William Burnside]], chapter XII of _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf))
 
-Textbook accounts and lecture notes include
+* {#Burnside01} [[William Burnside]], _On the Representation of a Group of Finite Order as a Permutation Group, and on the Composition of Permutation Groups_, Proceedings of the American Mathematical Society 1901 ([doi:10.1112/plms/s1-34.1.159](https://doi.org/10.1112/plms/s1-34.1.159))
+
+
+
+Modern textbook accounts and lecture notes:
 
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_ Lecture Notes in Mathematics 766 Springer 1979
 
