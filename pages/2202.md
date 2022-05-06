@@ -77,7 +77,13 @@ The characterization of cartesian monoidal categories in terms of $e$ and $\Delt
 
 * John Baez, Universal algebra and diagrammatic reasoning, 2006. [pdf](http://math.ucr.edu/home/baez/universal/)
 
-and as of 2014, Nick Gurski plans to write up the proof in a paper on semicartesian monads.  
+and as of 2014, Nick Gurski plans to write up the proof in a paper on semicartesian monads.
+
+### Definition in terms of projections
+
+For a monoidal category to be semicartesian it suffices that it admit a family of "projection morphisms".  Specifically, suppose $C$ is a monoidal category together with natural "projection" transformations $\pi^1_{X,Y}:X\otimes Y \to X$ such that $\pi^1_{I,I}:I\otimes I\to I$ is the unitor isomorphism.  Then the composites $Y \cong I\otimes Y \to I$ form a cone under the identity functor with vertex $I$ whose component at $I$ is the identity; hence $I$ is a [[terminal object]] and so $C$ is semicartesian.
+
+However, it doesn't follow from this that the given projections $\pi^1_{X,Y}$ are the same as those derivable from semicartesianness!  For that one needs extra axioms; see [this cafe discussion](https://golem.ph.utexas.edu/category/2016/08/monoidal_categories_with_proje.html#c056710) for details.
 
 ### Colax functors
 
