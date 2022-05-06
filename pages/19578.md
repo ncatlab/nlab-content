@@ -68,6 +68,12 @@ Review of the relation to [[string theory]]/[[intersecting D-brane models]] incl
 
 * {#Teraguchi07} Shunsuke Teraguchi, around slide 21 _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf))
 
+based on
+
+* {#KlebanovStrassler00} [[Igor Klebanov]], [[Matthew Strassler]], _Supergravity and a Confining Gauge Theory: Duality Cascades and $\chi^{SB}$-Resolution of Naked Singularities_, JHEP 0008:052, 2000 ([arXiv:hep-th/0007191](https://arxiv.org/abs/hep-th/0007191))
+
+* {#KlebanovWitten98} [[Igor Klebanov]], [[Edward Witten]], _Superconformal Field Theory on Threebranes at a Calabi-Yau Singularity_, Nucl.Phys.B536:199-218, 1998 ([arXiv:hep-th/9807080](https://arxiv.org/abs/hep-th/9807080))
+
 with further developments including
 
 * {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
