@@ -73,6 +73,10 @@ General discussions include
 
 * [[Scott Aaronson]], Lecture notes _Quantum Computing Since Democritus_ 2006 ([web](http://www.scottaaronson.com/democritus/))
 
+* Eric C. Rowell, Zhenghan Wang,
+_Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
+
+
 
 ### In terms of dagger-compact categories
 
