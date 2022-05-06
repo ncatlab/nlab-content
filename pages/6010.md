@@ -398,6 +398,8 @@ Discussion of embeddings of [[spheres]] into each other (generalizing the concep
 
 * {#Haefliger66} [[André Haefliger]], _Differentiable Embeddings of $S^n$ in $S^{n+q}$ for $q \gt 2$_, Annals of Mathematics Second Series, Vol. 83, No. 3 (May, 1966), pp. 402-436 ([jstor:1970475](https://www.jstor.org/stable/1970475))
 
+* Dennis Roseman, Masamichi Takase, _High-codimensional knots spun about manifolds_ ([arXiv:math/0609055](https://arxiv.org/abs/math/0609055))
+
 [[!redirects embeddings of differentiable manifolds]]
 
 [[!redirects embedding of smooth manifolds]]
