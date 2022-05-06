@@ -34,6 +34,12 @@ In [AJTZ10](#AJTZ10) it was argued that a massive strong-coupling limit may just
 
 But in [Hull 98](#Hull98) an embedding of massive IIA into [[M-theory]] was claimed, and a corresponding [[BFSS matrix model]] compactification was claimed in [Lowe-Nastae-Ramgoolam 03](#LoweNastaeRamgoolam03)).
 
+## Related concepts
+
+* [[massive type IIA supergravity]]
+
+* [[D8-brane]]
+
 ## References
 
 ### General
