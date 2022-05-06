@@ -41,9 +41,9 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 | 7 | $\;\;\;\;\frac{OSp(6,2\vert 4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
 
 
-* The supersphere $S^{2|2}$ is the super coset space $UOSp(1|2)/U(1)$.
+* The [[supersphere]] $S^{2|2}$ is the super coset space $UOSp(1|2)/U(1)$.
 
-* The supersphere $S^{r-1|2s}$ is the super coset space $OSp(r|2s)/OSp(r-1|2s)$ of orthosymplectic  groups.
+* The [[supersphere]] $S^{r-1|2s}$ is the super coset space $OSp(r|2s)/OSp(r-1|2s)$ of orthosymplectic  groups ([GJS 18](#GJS18)).
 
 ## Related concepts
 
@@ -53,7 +53,11 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 
 * A. F. Kleppe, Chris Wainwright, _Super coset space geometry_, ([arXiv:hep-th/0610039](https://arxiv.org/abs/hep-th/0610039))
 
+* A. F. Schunck, Chris Wainwright, _A geometric approach to scalar field theories on the supersphere_, ([arXiv:hep-th/0409257](https://arxiv.org/abs/hep-th/0409257))
+
 * Constantin Candu, Vladimir Mitev, Volker Schomerus, _Spectra of Coset Sigma Models_, ([arXiv:1308.5981](https://arxiv.org/abs/1308.5981))
+
+* {#GJS18} Etienne Granet, Jesper Lykke Jacobsen, Hubert Saleur, _Spontaneous symmetry breaking in 2D supersphere sigma models and applications to intersecting loop soups_, ([ arXiv:1810.07807](https://arxiv.org/abs/1810.07807))
 
 [[!redirects super Klein geometries]]
 
