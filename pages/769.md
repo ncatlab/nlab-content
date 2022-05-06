@@ -28,9 +28,13 @@ Where a [[pullback]] involves a [[commuting diagram|commuting square]], for a co
 
 The **comma object** of two morphisms $f:A\to C$ and $g:B\to C$ in a [[2-category]] is an object $(f/g)$ equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell
 
-+--{: style="text-align:center"}
-[[!include comma object > 2cell]]
-=--
+$$
+\array{
+  (f/g) & \overset{p}{\to} & A \\
+  \mathllap{\scriptsize{q}} \downarrow & \swArrow \alpha & \downarrow   \mathrlap{\scriptsize{f}} \\
+  B & \underset{g}{\to} & C
+}
+$$
 
 which is universal in the sense of a [[2-limit]].  Comma objects are also sometimes called **lax pullbacks**, but this term more properly refers to the [[lax limit]] of a cospan.
 
