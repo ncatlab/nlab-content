@@ -16,6 +16,11 @@ On [[ADE-singularities]] in [[string theory]]:
 
 * [[Paul Aspinwall]], [[David Morrison]], _Point-like Instantons on K3 Orbifolds_,  Nucl. Phys. B503 (1997) 533-564 ([arXiv:hep-th/9705104](https://arxiv.org/abs/hep-th/9705104))
 
+On [[moduli stabilization]] in [[M-theory on 8-manifolds]] for the [[product manifold]] of [[K3]] with itself:
+
+* [[Paul Aspinwall]], [[Renata Kallosh]], _Fixing All Moduli for M-Theory on $K3 \times K3$_, JHEP 0510:001, 2005 ([arXiv:hep-th/0506014](https://arxiv.org/abs/hep-th/0506014))
+
+
 
 On [[mirror symmetry]]:
 
