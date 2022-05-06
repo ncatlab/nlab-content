@@ -189,6 +189,7 @@ $$
 
 
 ### Unordered labeled points
+ {#UnorderedLabeledPoints}
 
 +-- {: .num_defn #UnorderedLabeledFixedn}
 ###### Definition
@@ -233,6 +234,10 @@ of the [[disjoint union]] of all unordred labeled $n$-point configuration spaces
 
 =--
 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/UnorderedLabeledConfigurationOfPoints.jpg" width="700">
+</center>
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
@@ -442,7 +447,20 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 ## Properties
 
+### Ordered unlabeled configurations from unordered labeled configurations
+ {#OrderedUnlabeledConfigurationsFromUnorderedLabeledConfigurations}
 
+> under construction
+
+(...)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/OrderedUnlabeledFromUnorderedLabeledPoints.jpg" width="620">
+</center>
+
+
+(...)
 
 ### Cohomotopy charge map
 
@@ -470,7 +488,7 @@ For $D \in \mathbb{N}$ the _Cohomotopy charge map_ is the  [[continuous function
 
 from the [[configuration space of points]] in the [[Euclidean space]] $\mathbb{R}^D$ to the $D$-[[Cohomotopy]] [[cocycle space]] [[vanishing at infinity]] on the [[Euclidean space]], which is equivalently the [[space of maps|space of pointed maps]] from the [[one-point compactification]] $S^D \simeq \big( \mathbb{R}^D \big)$ to itself, and hence equivalently the $D$-fold [[iterated based loop space]] of the [[n-sphere|D-sphere]]), which sends a configuration of points in $\mathbb{R}^D$, each regarded as carrying unit [[charge]] to their total [[charge]] as measured in  [[Cohomotopy]]-[[generalized cohomology|cohomology theory]] ([Segal 73, Section 3](#Segal73)).
 
-The construction has evident generalizations to other manifolds than just Euclidean spaces, to spaces of labeleed configurations and to [[equivariant Cohomotopy]]. The following graphics illustrates the Cohomotopy charge map on [[G-space]] [[tori]] for $G = \mathbb{Z}_2$ with values in $\mathbb{Z}_2$-[[equivariant Cohomotopy]]:
+The construction has evident generalizations to other manifolds than just Euclidean spaces, to spaces of labeled configurations and to [[equivariant Cohomotopy]]. The following graphics illustrates the Cohomotopy charge map on [[G-space]] [[tori]] for $G = \mathbb{Z}_2$ with values in $\mathbb{Z}_2$-[[equivariant Cohomotopy]]:
 
 <center>
 <a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
@@ -537,11 +555,21 @@ $$
     \mathbb{R}^D,
     S^k
   \big)
-  \underoverset{\simeq}{cc}{\longrightarrow}
+  \underoverset{\simeq}{\;\;cc\;\;}{\longrightarrow}
   \Omega^D S^{D + k}
+  \;\simeq\;
+  \mathbf{\pi}^{D+ k}\Big( \big( \mathbb{R}^{D}\big)^{cpt} \Big)
 $$
 
-is a [[weak homotopy equivalence]] from the configuration space (eq:UnorderedLabeledCOnfigurationSpace) of unordered points with labels in $S^k$ and vanishing at the base point of the label space to the $D$-fold [[iterated loop space]] of the [[n-sphere|D+k-sphere]].
+is a [[weak homotopy equivalence]] 
+
+* from the configuration space (eq:UnorderedLabeledCOnfigurationSpace) of unordered points with labels in $S^k$ and vanishing at the base point of the label space 
+
+* to the $D$-fold [[iterated loop space]] of the [[n-sphere|D+k-sphere]]
+
+hence equivalently
+
+* to the [[cocycle space]] of [[Cohomotopy]] [[generalized cohomology theory|cohomology theory]] in degree $D + k$ [[vanishing at infinity]] on [[Euclidean space]] of [[dimension]] $D$.
 
 =--
 
