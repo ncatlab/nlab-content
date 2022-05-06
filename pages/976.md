@@ -204,16 +204,19 @@ In a [[dynamical system]], the [[attractor]]s are rarely polyhedra and their hom
 
 ## Related concepts
 
-* [[topology]]
+* [[shape fibration]], [[approximate fibration]]
+
 
 * [[shape]], [[shape modality]], [[shape of an (infinity,1)-topos]]
 
 * [[strong shape theory]], [[Borsuk's shape theory]]
 
 * [[geometric realization]]
-## References
 
-See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and references 
+* [[topology]]
+
+
+## References
 
 The original references for the shape theory of metric compacta are:
 
@@ -223,8 +226,12 @@ The original references for the shape theory of metric compacta are:
 
 * [[Karol Borsuk]], [[Jerzy Dydak]], _What is the theory of shape?_, Bulletin of the Australian Mathematical Society, 1980, 22(2), 161-198, ([doi:10.1017/S000497270000647X](https://doi.org/10.1017/S000497270000647X))
 
+Textbook accounts:
 
-A generalization in categorical approach is given in
+* {#DydakSegal78} [[Jerzy Dydak]], [[Jack Segal]], _Shape Theory_, Lecture Notes in Mathematics, Springer 1978 ([doi:10.1007/BFb0067572](https://link.springer.com/book/10.1007/BFb0067572))
+
+
+A general [[category theory|category theoretic]]-approach is given in
 
 * W. Holszty&#324;ski, _An extension and axiomatic characterization of Borsuk's theory of shape_, Fund. Math. 70 (1971) no. 2, 157&#8211;168 [pdf](https://www.impan.pl/shop/en/publication/transaction/download/product/79189)
 
@@ -239,11 +246,13 @@ and is fully developed in
 The more or less equivalent pro-object approach was independently developed by Porter in 
 
 * [[Tim Porter|T. Porter]], _&#268;ech homotopy I_, Jour. London Math. Soc., 1, 6, 1973, pp. 429-436 [doi](https://dx.doi.org/10.1112/jlms/s2-6.3.429)
+
 * [[Tim Porter|T. Porter]], _&#268;ech homotopy II_, Jour. London Math. Soc., 2, 6, 1973, pp. 667-675 [doi](https://dx.doi.org/10.1112/jlms/s2-6.4.667)
 
 References relating more to strong shape  theory include:
 
 * D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag, [pdf](http://www.math.uga.edu/~davide/Cech_and_Steenrod_Homotopy_Theories_with_Applications_to_Geometric_Topology.pdf) 
+
 * J.T. Lisica and [[Sibe Mardesic|S. Mardešić]], Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
 
 * [[Sibe Mardesic|S. Mardešić]], _Strong shape and homology_, Springer monographs in mathematics, Springer-Verlag. 
