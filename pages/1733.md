@@ -24,25 +24,12 @@
 ## Idea
 
 _Algebraic topology_ refers to the application of methods of [[algebra]] to problems in [[topology]]. More specifically,
-the method of algebraic topology is to assign [[homeomorphism]]/[[homotopy]]-[[invariants]] to [[topological spaces]], or more systematically, to the construction  and applications of [[functors]] from some [[category]] of topological objects 
-(e.g. [[Hausdorff spaces]], topological [[fibre bundles]]) to some algebraic category (e.g. [[abelian groups]],
-[[modules]] over the [[Steenrod algebra]]).
-Landing in an algebraic category aids to the computability, 
+the method of algebraic topology is to assign [[homeomorphism]]/[[homotopy]]-[[invariants]] to [[topological spaces]], or more systematically, to the construction  and applications of [[functors]] from some [[category]] of topological objects  (e.g. [[Hausdorff spaces]], topological [[fibre bundles]]) to some algebraic category (e.g. [[abelian groups]],
+[[modules]] over the [[Steenrod algebra]]). Landing in an algebraic category aids to the computability, 
 but typically loses some information (say getting from 
 a topological spaces with a continuum or more points 
 to rather discrete algebraic structures).
-The basic aim is to attack a classification problem (for
-spaces or maps) or existence of maps 
-(typically the problems for finding 
-[[liftings]], [[sections]], [[extensions]] and [[retractions]], 
-cf. [[basic problems of algebraic topology]])
-and, more rarely, the uniqueness problem for maps. 
-With the development of the subject, however the invariants 
-and the objects of algebraic topology are not
-only used to attack these problems but also to characterize
-the conditions and to have the language for various constructions 
-(say vanishing conditions, conditions on characteristic class,
-dual classes, products).
+
 
 ### The idea of functorial invariants
 
