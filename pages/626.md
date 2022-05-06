@@ -354,6 +354,10 @@ For [[indexed monoidal categories]] in
 
 * {#PontoShulman12} [[Kate Ponto]], [[Michael Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
 
+For [[symmetric monoidal category|symmetric]] [[traced monoidal categories]] in 
+
+* George Kaye, _The Graphical Language of Symmetric Traced Monoidal Categories_, ([arXiv:2010.06319](https://arxiv.org/abs/2010.06319))
+
 The generalization of string diagrams to one dimension higher is discussed in
 
 * [[Todd Trimble]], _[Surface diagrams](/toddtrimble/published/Surface+diagrams)_
