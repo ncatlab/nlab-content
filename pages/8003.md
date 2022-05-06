@@ -24,12 +24,49 @@ If the category is  even a [[bipermutative category]] then the corresponding [[K
  {#Definition}
 
 ### Via topological group completion
+ {#ViaTopologicalGroupCompletion}
 
-For $C$ a [[permutative category]] its [[nerve]]/[[geometric realization]] $\vert C \vert$ (often denoted $B C$, but we avoid this here not to confuse with [[delooping]]) is naturally a [[topological monoid]] ([Quillen 70](#Quillen70) see e.g. [May, theorem 4.10](#May)). Its [[group completion]] $\Omega B {\vert C\vert}$ is the _algebraic K-theory [[spectrum]]_ of $C$ (see e.g. [May, def 4.11](#May))
+For $\mathcal{C}$ a [[category]], write ${\vert \mathcal{C}\vert} \in$ [[classical model structure on simplicial sets|sSet]] $\simeq_{Qu}$ [[classical model structure on topological spaces|Top]] for its [[nerve]]/[[geometric realization]]. (Bewqare that this is often denoted $B C$, instead, but that notation clashes with that for [[delooping]], which we also need in the following.)
 
-In particular for $R$ a [[topological ring]] one considers $C$ a [[skeletal category|skeleton]] of the [[groupoid]] of (finitely generated) [[projective modules]] over $R$. Then the K-theory of $C$ is the [[algebraic K-theory]] of $R$ (e.g. [May, p. 25](#May))
+For $\mathcal{C}$ a [[permutative category]] its [[nerve]]/[[geometric realization]] $\vert \mathcal{C} \vert$ is naturally a [[topological monoid]] ([Quillen 70](#Quillen70) see e.g. [May 13, theorem 4.10](#May13)), hence admits a [[bar construction]]/[[classifying space]] $B {\vert \mathcal{C}\vert}$. The [[loop space]] of that
 
-By ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) the operation $\Omega B (-)$ is the [[derived functor]] of [[group completion]], so that this construction ought to be a model for the [[K-theory of a symmetric monoidal (infinity,1)-category]].
+$$
+  (\mathbb{K}\mathcal{C})_0
+  \;\coloneqq\; 
+  \Omega B {\vert C\vert}
+  \,,
+$$
+
+being an [[∞-group]], may be regarded as the [[homotopy theory|homotopy theoretic]] [[group completion]] of the [[topological monoid]] ${\vert \mathcal{C}\vert}$. 
+
+This is the degree-0 space in the _algebraic K-theory [[spectrum]] $\mathbb{K}\mathcal{C}$ of the permutative category_  $\mathcal{C}$ (see e.g. [May 13, def 4.11](#May13)).
+
+By ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) the operation $\Omega B (-)$ is the [[derived functor]] of [[group completion]], so that this construction ought to be a model for the [[K-theory of a symmetric monoidal (∞,1)-category]].
+
+In particular, under [[decategorification]], its [[group]] of [[connected components]] is the actual [[Grothendieck group]] $K(-)$ of the [[isomorphism classes]] of [[objects]] in $\mathcal{C}$:
+
+$$
+  \pi_0
+  \left( 
+    \mathbb{K} \mathcal{C}
+  \right)
+  \;\simeq\;
+  K\left(
+    \mathcal{C}/_\sim, \oplus 
+  \right)
+$$
+
+(recalled e.g. in [Bohmann-Osorno 14, p. 14](#BohmannOsorno14)).
+
+In particular for $R$ a [[topological ring]] one considers $C$ a [[skeletal category|skeleton]] of the [[groupoid]] of ([[finitely generated module|finitely generated]]) [[projective modules]] over $R$. Then the K-theory of $C$ is the [[algebraic K-theory]] of $R$ (e.g. [May 13, p. 25](#May13))
+
+$$
+  \mathbb{K}\left( R Mod^{fin}_{proj} \right)
+  \;\simeq\;
+  K R
+  \,.
+$$
+
 
 ### Via Gamma spaces
 
@@ -195,7 +232,7 @@ This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06),
  
 * [[Peter May]], _The spectra associated to permutative categories_, Topology 17 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/23.pdf))
 
-* {#May} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
+* {#May13} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_, in [[Graeme Segal]] (ed.) _New Developments in Topology_, Cambirdge University Press 2013 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf), [doi:10.1017/CBO9780511662607.008](https://doi.org/10.1017/CBO9780511662607.008))
 
 * {#May80} [[Peter May]], _Pairings of categories and spectra_, J. Pure Appl. Algebra, 19:299–346, 1980
 
