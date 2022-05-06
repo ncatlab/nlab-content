@@ -28,7 +28,7 @@ $$
   \,.
 $$
 
-There is an eviden [[model category]] structure on $sSet^{\Delta}$ which models cosimplicial [[infinity groupoid]]s.
+There is an evident [[model category]] structure on $sSet^{\Delta}$ which models cosimplicial [[infinity groupoid]]s.
 
 ## Properties
 
