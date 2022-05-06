@@ -162,7 +162,7 @@ Now the lore of [[M-theory on G2-manifolds]] predicts that [[KK-compactification
 
 1. on the [[ADE-singularity]] $X_{2,\Gamma}$ yields [[non-abelian group|non-abelian]] [[Yang-Mills theory]] in 4d coupled to [[chiral fermions]].
 
-both of these [[duality in string theory|dual]] by thinking of them in two different ways as [[M-theory on 8-manifold|M-theory on the 8-manifold]] [[HP^2]] ([Atiyah-Witten 01, p. 75 onwards](#AtiyahWitten01)).
+both of these [[duality in string theory|dual]] by thinking of them in two different ways as [[M-theory on 8-manifolds|M-theory on the 8-manifold]] [[HP^2]] ([Atiyah-Witten 01, p. 75 onwards](#AtiyahWitten01)).
 
 So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
 
