@@ -59,6 +59,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * [[Belle collaboration]], _Physics Achievements from the Belle Experiment_ ([arXiv:1212.5342](https://arxiv.org/abs/1212.5342))
 
+* S.I. Eidelman, A.V. Nefediev, P.N. Pakhlov, V.I. Zhukova, _Superfactory of bottomed hadrons Belle II_ ([arXiv:2012.05147](https://arxiv.org/abs/2012.05147))
+
+
 See also 
 
 * Wikipedia, _[Belle experiment](https://en.wikipedia.org/wiki/Belle_experiment)_
