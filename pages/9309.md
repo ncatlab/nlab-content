@@ -447,6 +447,13 @@ A completely different approach via [[TT deformation]] of the abelian DBI action
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
 
 
+### On flavor branes for holographic QCD
+
+Discussion of [[DBI-action]] for [[flavour physics|flavour]] branes in [[holographic QCD]]:
+
+* [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], Section 6 of: _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
+
+
 
 [[!include DBI-action higher curvature corrections -- references]]
 
