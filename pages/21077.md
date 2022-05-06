@@ -3,8 +3,11 @@
 
 ## Selected writings
 
-On the [[flavour problem]]:
+On [[electroweak symmetry breaking]]:
 
+* [[Gino Isidori]], _Effective theories of electroweak symmetry breaking_, PoS CD09:073, 2009 ([arXiv:0911.3219](https://arxiv.org/abs/0911.3219))
+
+On the [[flavour problem]]:
 
 * [[Gino Isidori]], _Kaon decays and the flavour problem_, 	Annales Henri Poincare 4 (2003) S97-S109 ([arXiv:hep-ph/0301159](https://arxiv.org/abs/hep-ph/0301159))
 
