@@ -129,17 +129,26 @@ Stronger argument that the observed type Ia [[supernovae]] in fact _prefer_ a va
 
   _[New evidence shows that the key assumption made in the discovery of dark energy is in error](https://phys.org/news/2020-01-evidence-key-assumption-discovery-dark.amp?__twitter_impression=true)_
 
+
 #### Open spatial slices or not?
  {#ReferencesOpenSlices}
 
-Argument that the [[Planck collaboration|PLANCK satellite]] data prefers a [[closed manifold|closed]] spatial slices:
+Arguments that the [[Planck collaboration|PLANCK satellite]] data actually prefers a [[closed manifold|closed]] spatial slices (contrary to the assumption in the current [[standard model of cosmology]]):
 
-* {#VMS19} Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Planck evidence for a closed Universe and a possible crisis for cosmology_, Nature Astronomy 2019 ([doi:1911.02087](https://arxiv.org/abs/1911.02087))
-[doi:s41550-019-0906-9](https://www.nature.com/articles/s41550-019-0906-9)
+* {#Handley19} Will Handley, _Curvature tension: evidence for a closed universe_ ([arXiv:1908.09139](https://arxiv.org/abs/1908.09139), [spire:1751120](http://inspirehep.net/record/1751120))
 
-Rebuttal:
+* {#VMS19} Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Planck evidence for a closed Universe and a possible crisis for cosmology_, Nature Astronomy 2019 ([arXiv:1911.02087](https://arxiv.org/abs/1911.02087),
+[doi:s41550-019-0906-9](https://www.nature.com/articles/s41550-019-0906-9))
+
+A critique of these arguments is given in
 
 * George Efstathiou, Steven Gratton, _The evidence for a spatially flat Universe_ ([arXiv:2002.06892](https://arxiv.org/abs/2002.06892))
+
+but this critique again rests on just the combination [[Planck collaboration]] & baryon acoustic peak (BAO) & [[supernova]]-data which the above references argue cannot sensibly be combined. 
+
+From the abstract of [Handley 19](#Handley19):
+
+> The curvature parameter tension between Planck 2018, cosmic microwave background lensing, and baryon acoustic oscillation data is measured using the suspiciousness statistic to be 2.5 to 3σ. Conclusions regarding the spatial curvature of the universe which stem from the combination of these data should therefore be viewed with suspicion. Without CMB lensing or BAO, Planck 2018 has a moderate preference for closed universes, with Bayesian betting odds of over 50:1 against a flat universe, and over 2000:1 against an open universe. 
 
 
 
