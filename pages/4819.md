@@ -85,7 +85,9 @@ as imposed by the equations of motion for 11d [[supergravity]] (see [here](https
   * **electro-magnetic duality**
 
     * [[Montonen-Olive duality]]
+
     * [[dual graviton]]
+
     * [[dual photon]]
 
   * [[Seiberg duality]]
@@ -110,7 +112,7 @@ that where [[electric charge]] in [[Yang-Mills theory]] takes values in the [[we
 
 This led to the electric/magnetic duality conjecture formulation in
 
-* [[Claus Montonen]], [[David Olive]], _Magnetic Monopoles As Gauge Particles?_ Phys. Lett. B72 (1977) 117-120.
+* [[Claus Montonen]], [[David Olive]], _Magnetic Monopoles As Gauge Particles?_ Phys. Lett. B72 (1977) 117-120 ([spire:121372](https://inspirehep.net/literature/121372), <a href="https://doi.org/10.1016/0370-2693(77)90076-4">doi:10.1016/0370-2693(77)90076-4</a>)
 
 According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observation that the Montonen-Olive dual charge group coincides with the [[Langlands dual group]] is due to 
 
