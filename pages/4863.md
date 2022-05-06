@@ -255,6 +255,8 @@ As usual with [[KK-reduction]], some care must be exercised to ensure that the c
 
     * [string theory FAQ -- What does it mean to say that string theory has a "landscape" of solutions?](string%20theory%20FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
 
+* [[hadron Kaluza-Klein theory]]
+
 * [[Randall-Sundrum model]]
 
 * KK-compactification of the [[time]]-direction, combined with [[Wick rotation]] (when it applies), yield [[thermal quantum field theory]]
