@@ -53,7 +53,7 @@ Discussion of [[boundary conditions]] of the BLG model, leading to [[brane inter
 
 * [[membrane matrix model]]
 
-[[!include table of branes]]
+[[!include superconformal symmetry -- table]]
 
 ## References
 
