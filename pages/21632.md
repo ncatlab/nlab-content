@@ -20,7 +20,8 @@
 
 ## Idea
 
-The _twistor fibration_ ([Atiyah 79, Sec. III.1](#Atiyah79)) or _Calabi-Penrose fibration_ ([Seade-Verjovsky 03, p. 198](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#513) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+The _twistor fibration_ ([Atiyah 79, Sec. III.1](#Atiyah79)) or _Calabi-Penrose fibration_ 
+([Seade-Verjovsky 03, 3](#SeadeVerjovsky03)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -35,7 +36,7 @@ $$
   }
 $$
 
-If one identifies the 4-sphere as the [[quaternions|quaternionic]] [[projective space|projective line]]  $S^4 \simeq \mathbb{H}P^1$, then the fibration $p$ here is given by sending complex lines to quaternionic lines ([Atiyah 79, III (1.1)](#Atiyah79), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03)):
+If one identifies the 4-sphere as the [[quaternions|quaternionic]] [[projective space|projective line]]  $S^4 \simeq \mathbb{H}P^1$, then the fibration $p$ here is given by sending complex lines to quaternionic lines ([Atiyah 79, III (1.1)](#Atiyah79), [Seade-Verjovsky 03, p. 198](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#513)):
 
 $$
   \array{
