@@ -1,4 +1,16 @@
-#related $n$Lab entries#
+
+## Selected writings
+
+
+On [[generalized cup products]]:
+
+* [[James E. McClure]], [[Jeffrey H. Smith]],
+_Multivariable cochain operations and little $n$-cubes_
+([arXiv:math/0106024v3](https://arxiv.org/abs/math/0106024v3))
+
+
+
+## Related $n$Lab entries
 
 much of the theory of [[combinatorial model category|combinatorial model categories]] goes back to unpublished work by Jeff Smith: see for instance
 
