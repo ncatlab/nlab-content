@@ -54,6 +54,8 @@ Galaxy formation:
 
 * Julio Navarro, _Simulations of Galaxy Formation:  the State of the Art_ ([pdf](http://www.physics.ox.ac.uk/iau311/navarro_iau311.pdf))
 
+* {#ReadEtAl19} [[Justin Read]] et al. _EDGE I: the mass-metallicity relation as a critical test of galaxy formation physics_ ([arXiv:1904.02723](https://arxiv.org/abs/1904.02723))
+
 See also 
 
 * Wikipedia, _[Structure formation](https://en.wikipedia.org/wiki/Structure_formation)_
