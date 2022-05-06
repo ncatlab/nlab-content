@@ -17,7 +17,7 @@
 
 A _Deligne-Mumford stack_ (after [Deligne-Mumford 69](#DeligneMumford69)) is the analogue in [[algebraic geometry]] of what in [[differential geometry]] is an [[orbifold]]: a [[quotient stack]] of a [[scheme]] over the [[étale site]] all whose [[automorphism group]]s are [[finite group]]s.
 
-These are what originally were called [[algebraic stacks]]. The latter term nowadays often refers to the more general notion of [[Artin stacks]], where the [[automorphism groups]] ([[isotropy groups]]) are allowed to be more generall [[algebraic groups]]. This case is the algebraic version of the general notion of [[geometric stack]].
+These are what originally were called [[algebraic stacks]]. The latter term nowadays often refers to the more general notion of [[Artin stacks]], where the [[automorphism groups]] ([[isotropy groups]]) are allowed to be more general [[algebraic groups]]. This case is the algebraic version of the general notion of [[geometric stack]].
 
 ## Definition
 
