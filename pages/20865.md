@@ -343,19 +343,48 @@ we get this situation:
 
 ## References
 
-[[weight systems on chord diagrams in physics]]
-
 ### General
 
-Textbook accounts
+Original articles:
+
+* {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+
+* {#BarNatan96} [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
+
+Textbook accounts:
 
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 4 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 * {#JacksonMoffat19} [[David Jackson]], [[Iain Moffat]], Section 11.7 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
-### From Lie algebras
+### Lie algebra weight systems
+
+Discussion of [[Lie algebra weight systems]]
+
+From the construction given in [Bar-Natan 95, Section 2.4](#BarNatan95) the interpretation of [[Lie algebra weight systems]] in terms of [[string diagrams]] for [[Lie algebra objects]] in [[tensor categories]] is evident, but standard textbooks in [[knot theory]]/[[combinatorics]] do not pick this up:
+
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Chapter 6 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
+* [[David Jackson]], [[Iain Moffat]], Section 14 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
+
+The interpretation of Lie algebra weight systems as [[string diagram]]-calculus and generalization to [[Lie algebra objects]] (motivated by generalization at least to [[super Lie algebras]]) is made more explicit in
+
+* {#Vaintrob94} [[Arkady Vaintrob]], _Vassiliev knot invariants and Lie S-algebras_, Mathematical Research Letters1, 579–595 (1994) ([pdf](https://pdfs.semanticscholar.org/bdc3/ac1d8da476245e2408e481a70b115b3e9aab.pdf))
+
+* {#Vogel11} [[Pierre Vogel]], _Algebraic structures on modules of diagrams_, Journal of Pure and Applied Algebra, Volume 215, Issue 6, June 2011, Pages 1292-1339 ([doi:10.1016/j.jpaa.2010.08.013](https://doi.org/10.1016/j.jpaa.2010.08.013), [pdf](https://webusers.imj-prg.fr/~pierre.vogel/diagrams.pdf))
+
+and fully explicit in
+
+* {#RobertsWillerton06} [[Justin Roberts]], [[Simon Willerton]], Section 3 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+
+
+See also 
+
+* [[Vladimir Hinich]], [[Arkady Vaintrob]], _Cyclic operads and algebra of chord diagrams_, Sel. math., New ser. (2002) 8: 237 ([arXiv:math/0005197](https://arxiv.org/abs/math/0005197))
 
 * E. Kulakova, S. Lando, T. Mukhutdinova, G. Rybnikov, _On a weight system conjecturally related to $\mathfrak{sl}_2$_, European Journal of Combinatorics Volume 41, October 2014, Pages 266-277 ([arXiv:1307.4933](https://arxiv.org/abs/1307.4933))
+
+* Alexander Schrijver, _On Lie algebra weight systems for 3-graphs_ ([arXiv:1412.6923](https://arxiv.org/abs/1412.6923))
 
 
 ### As the associated graded space of Vassiliev invariants
