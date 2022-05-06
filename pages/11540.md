@@ -58,6 +58,21 @@ Let $F : C \rightleftarrows C' : G$ be an [[adjoint pair]] and consider the indu
 
 Note that all these claims are in fact equivalent.
 
++-- {: .num_lemma}
+###### Lemma
+If $F$ is fully faithful, then so are $F_!$ and $F_*$.
+=--
+
++-- {: .proof}
+###### Proof
+A left adjoint functor $L \dashv R$ is fully faithful precisely if $RL$ is naturally isomorphic to the identity functor (by the unit). Dually, $R$ is fully faithful precisely if $LR$ is naturally isomorphic to the identity (by the co-unit). Hence, it suffices to prove $F^* F_! \cong Id$, which by uniqueness of the right adjoint immediately implies that $F^* F_* \cong Id$ and thus proves both claims.
+
+Being a left adjoint, $F^* F_!$ preserves colimits. Because every presheaf is a colimit of representable objects, it is sufficient to show that $F^* F_! y \cong y$ where $y$ is the Yoneda-embedding. We have
+\[
+(F^* F_! y I) J \cong (F^* y F I) J = (y F I) (F J) = Hom(F J, F I) \cong Hom(J, I) = (y I) J.
+\]
+=--
+
 ## See also
 
 For functoriality of [[sheaves]], see
