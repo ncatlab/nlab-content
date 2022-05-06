@@ -16,4 +16,6 @@ For $c = 0$ this is the [[zero locus]].
 
 * [[moment map]]
 
+* [[well group]]
+
 [[!redirects level sets]]
