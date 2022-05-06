@@ -15,11 +15,19 @@
 
 ## Idea
 
-A _bipermuatative category_ is a semistrict [[rig category]].  More concretely, it is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$, with, again, some of the [[coherence laws]] required to hold strictly.
+A _bipermutative category_ is a semistrict [[rig category]].  More concretely, it is a [[permutative category]] $(C, \oplus)$ with a second [[symmetric monoidal category]] structure $(C, \otimes)$ that [[distributive law|distributes]] over $\oplus$, with, again, some of the [[coherence laws]] required to hold strictly.
 
 ## Definition
 
-([May, def. VI 3.3](#May)) ([Elmendorf-Mandell, def. 3.6](#ElmendorfMandell))
+Two nonequivalent definitions are given in
+([May, def. VI 3.3](#May)) and ([Elmendorf-Mandell, def. 3.6](#ElmendorfMandell)).
+
+May requires the left distributivity map to be an isomorphism
+and the right distributivity map to be an identity.
+
+Elmendorf and Mandell allow both distributivity maps to be noninvertible.
+
+A discussion of these two definitions is in ([May2, Section 12](#May2)).
 
 ## Properties
 
@@ -72,6 +80,10 @@ The corresponding [[K-theory of a bipermutative category]] is given by the [[sph
 
 * [[Peter May]], _$E_\infty$ Ring Spaces and $E_\infty$ Ring spectra_, Springer lectures notes in mathematics, Vol. 533, (1977) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf)) chaper VI
  {#May}
+
+* [[Peter May]], _The construction of $E_\infty$ ring spaces
+from bipermutative categories_, Geometry and Topology Monographs, Vol. 16, (2009) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Final2.pdf)) chaper VI
+ {#May2}
 
 * [[Anthony Elmendorf]], [[Michael Mandell]], _Rings, modules and algebras in infinite loop space theory_, K-Theory 0680 ([web](http://www.math.uiuc.edu/K-theory/0680/), [pdf](http://www.math.uiuc.edu/K-theory/0680/RMAsubmit.pdf))
  {#ElmendorfMandell}
