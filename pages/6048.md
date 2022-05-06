@@ -87,7 +87,7 @@ In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux
 
 \linebreak
 
-**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination ([Duff-Stelle 91 (43)](#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](#BaggerLambertMukhiPapageorgakis13)):
+**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination, also known as the _[[Page charge]]_ (due to [Page 83 (8)](#Page83), [Duff-Stelle 91 (43)](#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](#BaggerLambertMukhiPapageorgakis13)):
 
 \[
   \label{FirstCorrectionToG7}
@@ -293,11 +293,16 @@ by [[SU(n)|SU(N)]]-matrices and the resulting equivalence of the [[quantization]
 
 The back membrane solution of [[11-dimensional supergravity]] was found in
 
-* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
+* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
 Its regularity throughout the [[event horizon]] is due to
 
 * {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys.Lett.B332:321-328,1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
+
+Further discussion of such _[[Freund-Rubin compactifications]]_:
+
+* {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
+
 
 The [[Horava-Witten theory|Horava-Witten]]-[[orientifold]] of the black M2, supposedly yielding the [[black brane|black]] [[heterotic string]] is discussed in
 
