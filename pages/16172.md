@@ -49,7 +49,9 @@ Such conical singularities appear for instance in the [[far-horizon geometry]] o
 ### $G_2$-manifolds
  {#ExamplesG2Manifolds}
 
-Three examples of cones admitted by [[simply-connected]] [[G2-manifolds]] seem to be known: cones on $\mathbb{C}P^3$, $SU(3)/U(1)\times U(1)$ and $S^3 \times S^3$. ([Atiyah-Witten 01](#AtiyahWitten01))
+* Three examples of cones admitted by [[simply-connected]] [[G2-manifolds]] seem to be known: cones on $\mathbb{C}P^3$, $SU(3)/U(1)\times U(1)$ and $S^3 \times S^3$. ([Atiyah-Witten 01](#AtiyahWitten01))
+
+* The [[metric cone over complex projective 3-space]] carries the [[mathematical structure|structure]] of  a [[G2-manifold]] whose [[Riemannian metric]] is [[invariant]] under the canonical [[Sp(2)]] [[action]] by left-[[matrix multiplication]] on homomogeneous coordinates in $\mathbb{H}^2 \simeq_{\mathbb{R}} \mathbb{C}^4 \to \mathbb{C}P^3$ ([Byant-Salamon 89](metric+cone+over+complex+projective+3-space#BryantSalamon89), see also [Acharya-Bryant-Salamon 20](metric+cone+over+complex+projective+3-space#AcharyaBryantSalamon20)).
 
 ## Related concepts
 
@@ -78,7 +80,7 @@ Discussion of [[supergravity]] [[black brane]]-solutions at conical singularitie
 * {#FigOFar98} [[Jose Figueroa-O'Farrill]], _Near-horizon geometries of supersymmetric branes_, talk at [SUSY 98](http://inspirehep.net/record/971430/) ([arXiv:hep-th/9807149](https://arxiv.org/abs/hep-th/9807149), [talk slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/SUSY98.pdf))
 
 
-* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]], _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
 
 
