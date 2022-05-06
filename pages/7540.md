@@ -10,12 +10,25 @@
 
 * [[M. Bridson]] and [[A. Haefliger]], 1999, _Metric Spaces of Non-Positive Curvature_, number 31 in  Grundlehren der Math. Wiss, Springer.
 
-* [[A. Haefliger]], 1991, _Complexes of Groups and Orbihedra_, in Group Theory from a Geometric 
-viewpoint , 504 &#8211; 540, ICTP, Trieste, 26 March- 6 April 1990, World Scientific.
+Introducing [[Haefliger groupoids]]:
+
+* [[André Haefliger]], _Homotopy and integrability_,  In: N.H. Kuiper (ed.) _Manifolds_ — Amsterdam 1970. Lecture Notes in Mathematics, vol 197. Springer 1971 ([doi:10.1007/BFb0068615](https://doi.org/10.1007/BFb0068615))
+
+
+
 
 On [[orbifolds]]:
 
 * [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
+
+On [[orbispaces]]:
+
+* {#Haefliger84} [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116  (1984), p. 70-97 ([numdam:AST_1984__116__70_0](http://www.numdam.org/item/?id=AST_1984__116__70_0))
+
+* {#Haefliger90} [[André Haefliger]], _Orbi-Espaces_,  In: E. Ghys, P. de la Harpe (eds.), _Sur les Groupes Hyperboliques d’après Mikhael Gromov_, Progress in Mathematics, vol 83. Birkhäuser 1990 ([doi:10.1007/978-1-4684-9167-8_11](https://doi.org/10.1007/978-1-4684-9167-8_11))
+
+* {#Haefliger91} [[André Haefliger]], _Complexes of Groups and Orbihedra_, in: E. Ghys, A. Haefliger, A Verjovsky (eds.), _Proceedings of the Group Theory from a Geometrical Viewpoint_, ICTP, Trieste, Italy , 26 March – 6 April 1990_, World Scientific 1991 ([doi:10.1142/1235](https://doi.org/10.1142/1235))
+
 
 On [[mapping stacks]] between [[orbifolds]]:
 
