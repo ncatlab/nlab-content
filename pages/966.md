@@ -239,13 +239,13 @@ Let $F : C \to D$ be a [[functor]] between [[sheaf toposes]]. Then
 
 It is instructive to spell out the construction of the [[right adjoint]] from a colimit preserving functor $L$ in the simple case where all categories are [[categories of presheaves]]. This is a particularly simple case, but is useful in itself and serves as a template for the general case.
 
-So let now $C$ and $D$ be [[small categories]] and $L$ a functor between two presheaves
+So let now $C$ and $D$ be [[small categories]] and $L$ a colimit-preserving functor between two presheaves (we use the notation $\widehat{C}$ for the functor category $[C^{op}, Set]$)
 
 $$
   L : \widehat{C} \to \widehat{D}
 $$
 
-a colimit-preserving functor. Then its [[right adjoint]] is given by
+Then its [[right adjoint]] is given by
 
 $$
   R A  := \widehat{D}(L(-),A)
@@ -257,7 +257,7 @@ $$
   \cdots \simeq \int^{c \in C} \widehat{D}(L(y_c), A) \cdot y_c
 $$
 
-where the [[coend]] is equivalently given by the [[colimit]]
+with $y_c = C(-, c)$ the Yoneda functor; where the [[coend]] is equivalently given by the [[colimit]]
 
 $$
   = \lim_{\underset{L c \to A}{\to}} c
