@@ -17,7 +17,7 @@
 
 ## Idea
 
-Any [[symmetric bilinear form]] $(-) \cdot (-)$ defines a [[quadratic form]] $(-)^2$.  The _polarization identity_ reconstructs the bilinear form from the quadratic form.  More generally, starting from any [[bilinear form]], the polarization identity reconstructs its symmetrization.  A slight variation applies this also to [[sesquilinear form]]s.  The whole business actually applies to [[bilinear maps]], not just forms (that is, taking arbitrary values, not just values in the [[base field]] or some other [[line]]).  The linearity is crucial: polarization doesn\'t work without addition (and subtraction); we must also be able to divide by $2$.
+Any [[symmetric bilinear form]] $(-) \cdot (-)$ defines a [[quadratic form]] $(-)^2$.  The _polarization identity_ reconstructs the bilinear form from the quadratic form.  More generally, starting from any [[bilinear form]], the polarization identity reconstructs its symmetrization.  A slight variation applies this also to [[sesquilinear form]]s.  The whole business actually applies to [[bilinear maps]], not just forms (that is, taking arbitrary values, not just values in the [[base field]] or some other [[line]]).  The linearity is crucial: polarization doesn\'t work without addition (and subtraction); we must also be able to divide by $2$.  It is also possible to generalize from quadratic forms to higher-order [[homogenous form]]s.
 
 
 ## Statement
@@ -59,7 +59,29 @@ $$ x y = \frac{1}{4} Q(x + y) - \frac{1}{4} Q(x - y) + \frac{1}{4} i Q(x + i y) 
 
 This is best known in the case of bilinear and quadratic *forms*, where $W$ is the [[ground ring]] $R$.  Here, $m$ is an [[inner product]], making $V$ into an [[inner product space]], and $Q$ is (the square of) the norm, making $V$ into a [[normed space]].
 
-This also applies to [[commutative algebras]], where $W$ is $V$.  Actually, there is no need for $m$ to be associative; although one rarely studies commutative but [[non-associative algebras]], we have an exception with [[Jordan algebras]].  Although the Jordan identity is simpler to express in terms of the multiplication operation (as usual), the application to [[quantum mechanics]] may be more easily motivated through the squaring operation (since the square of an [[observable]] has a more obvious meaning than the Jordan product of two observables), and the polarization identities allow us to recover multiplication from squaring.
+This also applies to [[commutative algebras]], where $W$ is $V$.  Actually, there is no need for $m$ to be associative; although one rarely studies commutative but [[non-associative algebras]], we have an exception with [[Jordan algebras]].  Although the Jordan identity is simpler to express in terms of the multiplication operation (as usual), the application to [[quantum mechanics]] may be more easily motivated through the squaring operation (since the square of an [[observable]] has a more obvious meaning than the Jordan product of two observables), and the polarization identities allow us to recover multiplication from squaring (and subtraction).
+
+
+## Higher order
+
+Let $R, V, W$ be as before.  Let $p$ be a [[natural number]], and let $Q\colon V \to W$ be homogeneous of degree $p$; that is,
+$$ Q(t v) = t^p Q(v) .$$
+We wish to turn $Q$ into a symmetric [[multilinear map]] $m$ of rank $p$ (so $m\colon \Sym_p V \to W$ is linear) as follows:
+
+* If $p = 0$, $m() = Q(0)$;
+* If $p = 1$, $m(v_1) = Q(v_1)$;
+* If $p = 2$, $m(v_1, v_2) = Q(v_1 + v_2) - Q(v_1) - Q(v_2)$;
+* If $p = 3$, $m(v_1, v_2, v_3) = Q(v_1 + v_2 + v_3) - Q(v_1 + v_2) - Q(v_1 + v_3) - Q(v_2 + v_3) + Q(v_1) + Q(v_2) + Q(v_3)$;
+* If $p = 4$, $m(v_1, v_2, v_3, v_4) = Q(v_1 + v_2 + v_3 + v_4) - Q(v_1 + v_2 + v_3) - Q(v_1 + v_2 + v_4) - Q(v_1 + v_3 + v_4) - Q(v_2 + v_3 + v_4) + Q(v_1 + v_2) + Q(v_1 + v_3) + Q(v_1 + v_4) + Q(v_2 + v_3) + Q(v_2 + v_4) + Q(v_3 + v_4) - Q(v_1) - Q(v_2) - Q(v_3) - Q(v_4)$;
+* etc.
+
+So defined, $m$ is manifestly symmetric, but it might *not* be multilinear just because $Q$ is homogeneous (except for $p = 1$); instead, we *define* a __homogeneous polynomial__ of degree $p$ from $V$ to $W$ be such a homogeneous $Q$ such that $m$ *is* multilinear.  (Then a __[[polynomial]]__ from $V$ to $W$ is a sum of homogeneous polynomials of various degrees.)  Note that if $V$ is the [[free module]] $R^n$, then this is the usual notion of a polynomial with $n$ variables.
+
+Morally, the expressions on the right-hand side of each item above should end with $\pm Q(0)$, but this ends up not mattering for the definition of a homogeneous polynomial (except when $p = 0$), in which case $Q(0) = 0$ (including when $p = 0$).  If one were ever to consider the polarization of a non-polynomial homogeneous map, however, then presumably this term would need to be restored.
+
+To get the same $m$ as in earlier sections of this text, the expressions here must be divided by the [[factorial]] $p!$.  Of course, this only works if $p!$ is invertible in $R$; even if $R$ is a [[field]], we need its [[characteristic]] to be greater than $p$ (or $0$).  The expressions above work regardless of this to define what a homogeneous polynomial is.  However, if you wish to recover $Q$ from $m$, then you do need to divide by the polynomial; otherwise, the only rule that holds in general is that
+$$ m(v,\ldots,v) = p! Q(v) .$$
+
 
 ## Related concepts
 
