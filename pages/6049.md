@@ -353,8 +353,6 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 [[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]
 
-[Mitra-Roy 00](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00)
-
 * {#MitraRoy00} Indranil Mitra, Shibaji Roy, _(NS5,Dp) and (NS5,D(p+2),Dp) bound states of type IIB and type IIA string theories_, JHEP 0102:026, 2001 ([arXiv:hep-th/0011236](https://arxiv.org/abs/hep-th/0011236))
 
 * {#AlishahihaOz00} Mohsen Alishahiha, Yaron Oz, _Supergravity and "New" Six-Dimensional Gauge Theories_, Phys.Lett.B495:418-426, 2000 ([arXiv:hep-th/0008172](https://arxiv.org/abs/hep-th/0008172))
@@ -362,6 +360,8 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 * {#MitraRoy01} Indranil Mitra, Shibaji Roy, _(NS5,D5,D3) bound state, OD3, OD5 limits and SL(2,Z) duality_, Phys.Rev. D65 (2002) 106001 ([arXiv:hep-th/0107127](https://arxiv.org/abs/hep-th/0107127))
 
 * {#MukhiSuryanarayana00} [[Sunil Mukhi]], Nemani V. Suryanarayana, _Stable Non-BPS States and Their Holographic Duals_, Int. J. Mod. Phys. A16 (2001) 966-975 ([arXiv:hep-th/0011185](https://arxiv.org/abs/hep-th/0011185))
+
+* Giuseppe Dibitetto, Nicolò Petrim, _6d surface defects from massive type IIA_, JHEP 01 (2018) 039 ([arXiv:1707.06154](https://arxiv.org/abs/1707.06154))
 
 * {#Petri18} Nicolò Petri, _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
