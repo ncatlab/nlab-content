@@ -41,6 +41,10 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 
 * C. Adam, J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _Adding crust to BPS Skyrme neutron stars_ ([arXiv:2004.03610](https://arxiv.org/abs/2004.03610))
 
+Taking [[higher curvature corrections]] into account ([[Starobinsky model of cosmic inflation|Starobinsky model]]):
+
+* C. Adam, M. Huidobro, R. Vazquez, A. Wereszczynski, _BPS Skyrme neutron s tars in generalized gravity_ ([arXiv:2005.10834](https://arxiv.org/abs/2005.10834))
+
 See also:
 
 * [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
