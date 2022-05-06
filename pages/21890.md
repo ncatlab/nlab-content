@@ -32,7 +32,7 @@ between the [[octonionic projective line]] and the [[8-sphere]].
 There is a [[homeomorphism]]
 
 $$
-  \mathbb{O}P^2 \,\simeq\, S^{15} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P_1
+  \mathbb{O}P^2 \,\simeq\, S^{15} \underset{h_{\mathbb{O}}}{\cup} \mathbb{O}P^1
 $$
 
 between the [[octonionic projective plane]] and the [[attaching space]] obtained from the [[octonionic projective line]] along the [[octonionic Hopf fibration]].
