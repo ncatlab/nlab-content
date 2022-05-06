@@ -77,32 +77,112 @@ is the [[quotient space]] of the [[disjoint union]] of the [[Cartesian products]
 (e.g. [Bödigheimer 87, 1](#Boedigheimer87))
 
 
++-- {: .num_example #UnlabeledConfigurationSpace}
+###### Example
+**(configuration space of unlabeled points)**
+
+For $A = S^0 = \{1\}_+$ the [[0-sphere]] all points in Def. \ref{ConfigurationSpaceOfParticleswithLabels} carry the same label "1", which means that they are actually unlabeled, and we will write just
+
+\[
+  \label{ConfigurationSpaceOfUnlabeledPoints}
+  Conf(X)
+  \;\coloneqq\;
+  Conf(X,S^0)
+\]
+
+in this case.
+
+=--
+
+
 ## Properties
 
 ### Cocycle spaces and the Scanning map
  {#CocycleSpacesAndScanningMap}
 
-+-- {: .num_prop #ScanningMapEquivalence}
-###### Proposition
-**([[scanning map]] [[homotopy equivalence|equivalence]])**
 
 In the context of Def. \ref{ConfigurationSpaceOfParticleswithLabels} let now 
 
 1. $(X,\infty)$ be a [[compact topological space|compact]] [[pointed topological space|pointed]] [[smooth manifold]],
 
-1. $(A,0)$ a [[pointed topological space|pointed]] [[CW-complex]].
+1. $(A,0)$ be a [[pointed topological space|pointed]] [[CW-complex]].
 
-Then there is a [[continuous function]], called the _[[scanning map]]_
+
++-- {: .num_defn #TheSpaceOfSections}
+###### Definition
+
+Write 
+
+\[
+  \label{SPaceOfSections}
+  \widetilde \Gamma_X
+  \left(
+     S_X^{T X}\wedge_X A  
+  \right)
+  \;\subset\;
+  \Gamma_X\left(
+    S_X^{T X}\wedge_X A  
+  \right)
+\]
+
+for the [[topological subspace|subspace]] of the [[space of sections|space of]] [[continuous function|continuous]] [[sections]] of the  [[spherical fibration]] $S_X^{T X} \to X$ obtained from the [[tangent bundle]] $T X \to  X$ via [[fiber]]-wise [[one-point compactification]], on those sections which preserve the base point (take $\infty \in X$ to $0 \in A$).
+
+If we let $\tau_X \;\colon X \to B O$ denote the [[classifying map]] of the [[tangent bundle]], then this spherical fibration is classified by it [[composition]] $J(\tau_X)$ with the [[J-homomorphism]] ([this Prop.](J-homomorphism#SphericalFibrationsOfVectorBundlesClassifiedViaJ)).
+
+=--
+
++-- {: .num_defn #ScanningMap}
+###### Definition
+**([[scanning map]])**
+
+The _[[scanning map]]_ is the [[continuous function]]
 
 $$
   Conf(X, A)
-  \longrightarrow
-  \Gamma( S_X(T X)\wedge_X A  )
+   \overset{scan}{\longrightarrow}
+  \widetilde \Gamma_X\left(
+     S_X^{T X}\wedge_X A  
+  \right)
 $$
 
-(from the configuration space of points in $X$ with charge in $A$ (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) to the [[space of sections|space of]] [[continuous function|continuous]] [[sections]] of the [[spherical fibration]] induced by the [[tangent bundle]] of $X$ (the [[J-homomorphism]], [this Prop.](J-homomorphism#SphericalFibrationsOfVectorBundlesClassifiedViaJ)) [[fiber]]-wise [[smash product|smashed]] with the [[coefficient]] space $A$)
+from the configuration space (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) to the space of sections (Def \ref{TheSpaceOfSections}) given by ...
+ 
+=--
 
-which is a [[homotopy equivalence]] if $X$ or $A$ is [[connected topological space|connected]].
+([Segal 73](#Segal73), [McDuff 75, p. 94, 95](#McDuff75))
+
++-- {: .num_example}
+###### Example
+**(electric field map)**
+
+In the case of the configuration space of unlabeled points ($A = S^0$, Example \ref{UnlabeledConfigurationSpace}), and taking $X = (\mathbb{R}^n)^\ast$ to be the [[one-point compactification]] of  [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^3$, if one thinks of each point as representing a [[particle]] of [[electric charge]] $+1$, then the [[scanning map]] of Def. \ref{ScanningMap} may be thought of as sending each configuration of charged particles to the [[electric field]] that it induces ([Segal 73](#Segal73)).
+
+=--
+
+
++-- {: .num_prop #ScanningMapEquivalence}
+###### Proposition
+**([[scanning map]] [[homotopy equivalence|equivalence]])**
+
+In the context of Def. \ref{ConfigurationSpaceOfParticleswithLabels} let
+
+1. $(X,\infty)$ be a [[compact topological space|compact]] [[pointed topological space|pointed]] [[smooth manifold]],
+
+1. $(A,0)$ be a [[pointed topological space|pointed]] [[CW-complex]].
+
+and assume that $X$ or $A$ is [[connected topological space|connected]].
+
+Then the [[scanning map]] (Def. \ref{ScanningMap}) is a [[homotopy equivalence]]:
+
+$$
+  Conf(X, A)
+   \underoverset{\simeq_{he}}{scan}{\longrightarrow}
+  \widetilde \Gamma_X\left(
+     S_X^{T X}\wedge_X A  
+  \right)
+  \,.
+$$
+
 
 =--
 
@@ -110,9 +190,9 @@ This is due to ([McDuff 75](#McDuff75)), for review see ([Bödigheimer 87, Prop.
 
 (As discussed there, the statement holds also under somewhat weaker assumptions than stated here.)
 
-+-- {: .num_remark }
++-- {: .num_remark #ConfigurationSpacesAndCocyclesForTwistedReducedCohomotopy}
 ###### Remark
-**(configuration spaces and [[twisted cohomology|twisted]] [[cohomotopy]])**
+**(configuration spaces and [[cocycles]] for [[twisted cohomology|twisted]] [[reduced cohomology|reduced]] [[cohomotopy]])**
 
 In the case that the coefficient space in Def. \ref{ConfigurationSpaceOfParticleswithLabels} is an [[n-sphere]] 
 
@@ -120,17 +200,42 @@ $$
   A \;\coloneqq\; S^n
 $$  
 
-regarded as [[coefficients]] for [[non-abelian cohomology]], then the scanning map equivalence (Prop. \ref{ScanningMapEquivalence}) identifies the configuration space with the [[cocycle]]-space/-[[infinity-groupoid]] of $\tau_X$-[[twisted cohomology|twisted]] [[cohomotopy]] in degree $\tau + n$, where $\tau_X \coloneqq [S_X(T X)]$ is the class of the [[spherical fibration]] of the tangent bundle.
+regarded as [[coefficients]] for [[non-abelian cohomology]], then the scanning map equivalence (Prop. \ref{ScanningMapEquivalence}) identifies the configuration space with the [[cocycle]]-space/-[[infinity-groupoid]] of [[reduced cohomology|reduced]] $\tau_X$-[[twisted cohomology|twisted]] [[cohomotopy]] in degree $\tau_X + n$, where $\tau_X \coloneqq [S_X^{T X}]$ is the class of the [[spherical fibration]] of the tangent bundle.
 
-In particular if $X$ is a [[parallelizable manifold]]/[[framed manifold]], then $\tau_X = dim(X)$ and the equivalence identifies the configuration space with the plain [[cohomotopy]] of $X$ in degree $dim(X) + n$:
+In particular if $X - \{\infty\}$ is a [[parallelizable manifold]]/[[framed manifold]], then 
+
+$$
+  \tau_X\vert_{ X - \{\infty\}} = dim(X)
+$$ 
+
+and the equivalence identifies the configuration space with the [[cocycle]]-space of plain [[reduced cohomology|reduced]] [[cohomotopy]] of $X$ in degree $dim(X) + n$:
 
 $$
   Conf(X,S^n)
   \;\simeq\;
-  Maps( X, S^{dim(X) + n} )
+  \widetilde \mathbf{H}^{dim(X) + n}(X, S^0)
   \,.
 $$
 
+If here $X$ is the [[one-point compactification]] of some $Y$, then this is equivalently the [[compactly supported cohomology|compactly supported]] [[cohomotopy]] of $Y$
+
+$$
+  Conf(X,S^n)
+  \;\simeq\;
+  \mathbf{H}_{cp}^{dim(X) + n}(X, S^0)
+  \,.
+$$
+
+
+In particular for configurations of un-labeled points (Example \ref{UnlabeledConfigurationSpace}) over [[manifolds]] that are [[one-point compactifications]] of [[parallelizable manifolds]], the scanning map equivalence (Prop. \ref{ScanningMapEquivalence}) identifies the plain configuration space (eq:ConfigurationSpaceOfUnlabeledPoints) with the [[cocycle]] space for [[reduced cohomology|reduced]] [[cohomotopy]] in degree the [[dimension]] of $X$.
+
+\[
+  \label{ConfigurationSpacesEquivalentToSpaceOfCocyclesForCohomotopy}
+  Conf(X)
+  \;\simeq\;
+  \widetilde \mathbf{H}^{dim(X)}(X, S^0)
+  \,.
+\]
 
 =--
 
@@ -138,6 +243,75 @@ $$
 
 
 ## Examples
+
+### Points on $n$-spheres and the sphere spectrum
+ {#PointsOnNSpheresAndTheSphereSpectrum}
+
++-- {: .num_example}
+###### Example
+
+For $n \in \mathbb{N}$ consider the [[n-sphere]]
+
+$$
+  S^n \;=\; \left( \mathbb{R}^n\right)^\ast
+$$
+
+as the [[one-point compactification]] of the [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^n$.
+
+Since $\mathbb{R}^n$ is trivially a [[parallelizable manifold]] it follows as in Remark \ref{ConfigurationSpacesAndCocyclesForTwistedReducedCohomotopy} that the [[scanning map]]-equivalence (Prop. \ref{ScanningMapEquivalence}) identifies 
+
+$$
+  \begin{aligned}
+    Conf(S^n,A)
+    &
+    \simeq\;
+    \widetilde \Gamma_{S^n}
+    \left( 
+       \underset{ 
+         \underset{ \text{on} X - \{\infty\} }{\simeq }
+         \mathbb{R}^n \wedge S^{n} 
+       }{
+         \underbrace{ S_X^{T X} } 
+       } 
+       \wedge A
+   \right)
+   \\
+   & \simeq
+   \Omega^n \Sigma^n A
+  \end{aligned}
+$$
+
+the configuration of $A$-labeled points with the $n$-fold [[loop space]] of the $n$-fold [[reduced suspension]] of the label space $A$. 
+
+In particular if $A = S^0$, then the configuration space of unlabeled points (Def. \ref{UnlabeledConfigurationSpace}) in $S^n$ is identified with 
+
+$$
+  Conf\left( (\mathbb{R}^n)^\ast \right)
+  \;\simeq\;
+  \Omega^n \Sigma^n S^0
+  \;\simeq\;
+  \widetilde \mathbf{H}^n(S^n, S^0)
+  \;=\;
+  \mathbf{H}_{cp}^{n}(\mathbb{R}^n, S^0)
+  \,.
+$$
+
+Taking here the [[colimit]] over $n \in \mathbb{N}$ on both sides hence exhibits the configuration space in $\mathbb{R}^{\infty}$ as the degree-0 space of the [[sphere spectrum]]:
+
+$$
+  Conf\left( (\mathbb{R}^\infty)^\ast \right)
+  \;\simeq\;
+  \Omega^\infty \Sigma^\infty S^0
+  \;\simeq\;
+  \Omega^\infty \mathbb{S}
+  \,.
+$$
+
+=--
+
+This is originally ([Segal 73, theorem 3](#Segal73)). It follows via Remark \ref{ConfigurationSpacesAndCocyclesForTwistedReducedCohomotopy} as a special case of Prop. \ref{ScanningMapEquivalence} of [McDuff 75](#McDuff75), for reviw see e.g. [Bödigheimer 87, Example 13](#Boedigheimer87).
+
+
 
 ### Classifying space of the symmetric group
 
@@ -149,27 +323,6 @@ Let $X= \mathbb{R}^\infty$. Then
 
 
 * the _ordered_ configuration space of $n$ points, equipped with the canonical $\Sigma(n)$-[[action]], is a model for the $\Sigma(n)$-[[universal principal bundle]].
-
-### Points on $n$-spheres and the sphere spectrum
- {#PointsOnNSpheresAndTheSphereSpectrum}
-
-+-- {: .num_example}
-###### Example
-
-The configuration space (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) 
-of the [[n-sphere]] with labels in any $A$ is identified by the [[scanning map]]-equivalence (Prop. \ref{ScanningMapEquivalence}) with the $n$-fold [[loop space]] of the $n$-fold [[suspension]] of $A$:
-
-$$
-  Conf(S^n,A)
-  \;\simeq\;
-  \Omega^n \Sigma^n A
-$$
-
-hence the [[colimit]] over $n$ yields the degree-0 space of the [[suspension spectrum]] of $A$ (the [[sphere spectrum]] when $A = S^0$ is the [[0-sphere]]). 
-
-=--
-
-(e.g. [Bödigheimer 87, Example 13](#Boedigheimer87))
 
 
 
@@ -184,25 +337,32 @@ The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]
 
 ### General
 
-Reviews includes 
+Reviews include
+
+* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
+
 
 * {#FrancisLect17} [[John Francis]], _The H-Principle Lecture 17: The sheaf of configuration spaces and the scanning map_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/17configmapping.pdf))
 
 
-* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
+* [[Ben Knudsen]], _Configuration spaces in algebraic topology_ ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
 
-* [[Ben Knudsen]], _Configuration spaces in algebraic topology_, ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
+
+The relation to [[cohomotopy]] is due to 
+
+* {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
+
+* {#McDuff75} [[Dusa McDuff]], _Configuration spaces of positive and negative particles_, Topology Volume 14, Issue 1, March 1975, Pages 91-107 (<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>)
+
+and generalized to [[equivariant cohomology]] in 
+
+* Colin Rourke, Brian Sanderson, _Equivariant Configuration Spaces_, 62(2), October 2000, pp. 544-552 ([pdf](http://wrap.warwick.ac.uk/828/1/WRAP_Rourke_Equivariant_configuration.pdf))
 
 
 See also
 
 * Edward Fadell, Lee Neuwirth, _Configuration spaces_
 Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126), [pdf](http://www.mscand.dk/article.php?id=1623)
-
-* [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
-
-
-* {#McDuff75} [[Dusa McDuff]], _Configuration spaces of positive and negative particles_, Topology Volume 14, Issue 1, March 1975, Pages 91-107 (<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>)
 
 
 * [[Craig Westerland]], _Configuration spaces in geometry and topology_, 2011, [pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf)
@@ -212,7 +372,6 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 * F. R. Cohen, [[Sam Gitler|S. Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013)
 
-* Colin Rourke, Brian Sanderson, _Equivariant Configuration Spaces_, 62(2), October 2000, pp. 544-552,([pdf](http://wrap.warwick.ac.uk/828/1/WRAP_Rourke_Equivariant_configuration.pdf))
 
 ### In Goodwillie-calculus
  {#ReferencesInGoodwillieCalculus}
