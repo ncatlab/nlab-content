@@ -980,6 +980,40 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 ## References
 
+### History
+ {#ReferencesHistory}
+
+The notion of [[super Poincaré Lie algebra|Poincaré supersymmetry]] was discoveted in parallel by two groups in the early 1970s (separated and isolated at that time by "Cold War" nuisances):
+
+On the one hand, [[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the [[model (in theoretical physics)|model]] originally called the _[[spinning string]]_ -- a 2-dimensional [[quantum field theory]] with [[fermions]] -- and noticed that it just so happens to have an extra graded extension of 2-dimensional Poincar&#233; symmetry. Ever since the previously baptized [[spinning string]] became known as the _[[superstring]]_ (specifically: the _[[NSR-superstring]]_:
+
+* [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B31, 86 (1971) (<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>)
+
+* [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D3  2415 (1971) ([doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415))
+
+See also at the [[string theory FAQ]]: _[Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)_
+
+
+Indepemdently around the same time, [[Yuri Golfand]] and [[Evgeny Likhtman]] in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions:
+
+* {#GolfandLikhtman72} [[Yuri Golfand]], [[Evgeny Likhtman]], _On the Extensions of the Algebra of the Generators of the Poincaré Group by the Bispinor Generators_, in: [[Victor Ginzburg]] et al. (eds.) _I. E. Tamm Memorial Volume Problems of Theoretical Physics_, (Nauka, Moscow 1972), page 37, 
+
+  translated and reprinted in: [[Mikhail Shifman]] (ed.) _[[The Many Faces of the Superworld]]_ pp. 44-53,  World Scientific (2000) ([doi:10.1142/9789812793850_0006](https://doi.org/10.1142/9789812793850_0006))
+
+This then motivated [[Julius Wess]] and [[Bruno Zumino]] to study supersymmetric [[quantum field theories]] in four [[spacetime]] dimensions:
+
+* {#WessZumino74} [[Julius Wess]], [[Bruno Zumino]], _Supergauge transformations in four dimensions_, Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52 ([doi:10.1142/9789814542340_0002](https://doi.org/10.1142/9789814542340_0002))
+
+
+Accounts of the history of the concept of supersymmetry:
+
+
+* {#Likhtman01} [[Evgeny Likhtman]], _Around SuSy 1970_, talk at "30 years of supersymmetry", Nucl.Phys.Proc.Suppl. 101 (2001) 5-14 ([arxiv:hep-ph/0101209](https://arxiv.org/abs/hep-ph/0101209))
+
+* [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
+
+* [[Pierre Ramond]], _SuSy: The Early Years (1966-1976)_, Eur. Phys. J. C (2014) 74: 2698 ([arxiv:1401.5977](https://arxiv.org/abs/1401.5977))
+
 ### Textbooks and lectures
  {#ReferencesTextbooksAndLectures}
 
@@ -1077,29 +1111,9 @@ Review includes
 
 For more on this see at _[[super Poincaré Lie algebra]]_.
 
-### History
-
-The notion of Poincar&#233; supersymmetry was found in parallel by two groups in the 1970s (separated and isolated at that time by "Cold War" nuisances) (see the account by ([Schwarz](#Schwarz))):
-
-[[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the system called the [[spinning string]] -- a 2-dimensional [[quantum field theory]] with [[fermions]] and notice that it just so happens to have an extra graded extension of 2-dimensional Poincar&#233; symmetry.
-
-
-Around the same time [[Yuri Golfand]] and Likhtman in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions
-
-* {#GolfandLikhtman72} [[Yuri Golfand]], [[Evgeny Likhtman]],_On the Extensions of the Algebra of the Generators of the Poincaré Group by the Bispinor Generators_, in: [[Victor Ginzburg]] et al. (eds.) _I. E. Tamm Memorial Volume Problems of Theoretical Physics_, (Nauka, Moscow 1972), page 37, 
-
-  translated and reprinted in: [[Mikhail Shifman]] (ed.) _[[The Many Faces of the Superworld]]_ pp. 44-53,  World Scientific (2000) ([doi:10.1142/9789812793850_0006](https://doi.org/10.1142/9789812793850_0006))
-
-This then motivated [[Julius Wess]] and Zumino to study supersymmetric QFTs in four dimensions.
-
-* [[Julius Wess]], [[Bruno Zumino]], Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52.
 
 
 
-
-An account of the history of the development of supersymmetry is in
-
-* [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
 
 ### Supersymmetry in the standard model of particle physics
 
