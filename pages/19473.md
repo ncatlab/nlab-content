@@ -17,11 +17,14 @@ For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded c
 
 * Shin-ya Katsumata, _A Double Category Theoretic Analysis of Graded Linear Exponential Comonads_, ([doi](https://doi.org/10.1007/978-3-319-89366-2_6))
 
-For discussion [[philosophy]] and linguistics, see
+For discussion in [[philosophy]] and linguistics, see
 
 * Patrick Grosz, _Grading Modality: A New Approach to Modal Concord and its Relatives_, ([paper](https://www.univie.ac.at/sub14/proc/grosz.pdf))
 
 * Daniel Lassiter, _Graded modality_, ([paper](https://web.stanford.edu/~danlass/Lassiter-graded-modality-draft.pdf)) 
+
+* Daniel Lassiter, _Graded Modality: Qualitative and Quantitative Perspectives_, OUP, ([website](https://global.oup.com/academic/product/graded-modality-9780198701354?cc=us&lang=en&))
+
 
 [[!redirects graded modalities]]
 
