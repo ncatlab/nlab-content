@@ -68,11 +68,14 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 * [[Dolbeault complex]]
 
+* [[holomorphic symplectic manifold]]
+
 * [[complex Lie group]]
 
 * [[complex analytic stack]]
 
 * [[complex analytic ∞-groupoid]]
+
 
 ## References
 
