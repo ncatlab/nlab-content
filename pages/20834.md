@@ -52,7 +52,7 @@ The idea in rough form goes back to
 
 * {#Witten95b} [[Edward Witten]], Section 3 of _Some Comments On String Dynamics_, talk at [Strings95](https://cds.cern.ch/record/305869) ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
-* {#Witten00} [[Edward Witten]], p. 7 of _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507) ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
+* {#Witten00} [[Edward Witten]], p. 7 of: _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507), in: David Kline (ed.) _Sources and detection of dark matter and dark energy in the universe 2000_, Springer 2001. 27-36. ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297), [doi:10.1007/978-3-662-04587-9](https://link.springer.com/book/10.1007/978-3-662-04587-9))
 
 The observation that the idea should naturally embed in [[F-theory]], namely as [[F-theory on Spin(7)-manifolds]] is due to
 
