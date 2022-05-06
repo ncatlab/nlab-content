@@ -95,11 +95,11 @@ $[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five con
 
 (06:39) I don't want to diminish the importance of the matrix model. It was very important. They built on earlier work -- for what we would now call D0-branes -- of the late 80s.
 
-(06:59) But the matrix model itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
+(06:59) But the [[BFSS matrix model|matrix model]] itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
 
-(07:13) I think we are still looking, in fact, for what M-theory really is.  
+{#0713} (07:13) I think we are still looking, in fact, for what M-theory really is.  
 
-(07:19) We have a patchwork picture. We understand various corners. But the overarching big picture of M-theory is still waiting to be discovered, in my view. 
+(07:19) We have a patchwork picture. We understand various corners. But the overarching big picture of [M-theory is still waiting to be discovered](M-theory#TheOpenProblem), in my view. 
 
 **Q**: In your famous review "M-Theory (The theory formerly known as strings)" $[$[Duff 96](#Duff96)$]$, in the concluding section, you wrote: "The overriding problem in super-unification, in the coming years, will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes." What do you think is the status of this "overriding problem" today?
 
@@ -134,11 +134,11 @@ $[$[Duff 99](#Duff99)$]$: "Future historians may judge the late 20th century as 
 
 (10:57) That's not a view that's necessarily shared by others: Ed Witten, in fact, wrote to me, after I wrote that, to argue that he didn't share that view. 
 
-(11:10) There is a certain faction that believed that strings are more fundamental than branes, because string theory admits a perturbation expansion.
+{#1110} (11:10) There is a certain faction that believed that strings are more fundamental than branes, because [string theory admits a perturbation expansion](string+theory+FAQ#WhatIsStringTheory).
 
 (11:23) But in my view, that's not the criterion for what is fundamental and what isn't. 
 
-(11:29) God does not do perturbation theory, perturbation theory is what we do because we don't know any better.
+{#1129} (11:29) God does not do [[perturbation theory]], perturbation theory is what we do because we don't know any better.
 
 (11:38) So the fact that branes do not admit a perturbative treatment, as strings do, is not, in my view, a reason for thinking that branes are less fundamental than strings -- especially since strings are just a limiting case, as we see, of branes.
 
