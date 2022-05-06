@@ -325,13 +325,24 @@ A summary/review is in the appendix of
 
 * [[Albert Schwarz]], I- Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
 
-An fairly comprehensive and introductory review is in 
+A fairly comprehensive and introductory review is in 
 
 * [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
 
 The site of formal duals not just to [[Grassmann algebras]] but to all super-[[infinitesimally thickened point]]s is discussed in
 
 * L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_ ([arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
+
+
+Discussion of [[smooth super ∞-groupoids]] as such:
+
+* [[Urs Schreiber]], section 4.5 of: _[[schreiber:differential cohomology in a cohesive topos]]_
+
+* [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.3 of: _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+* [[Urs Schreiber]], _[[schreiber:Introduction to Higher Supergeometry]]_, lecture at _[[Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/)
+
+  published in parts as: _Higher Structures in M-Theory_ (with [[Branislav Jurčo]], [[Christian Saemann]], [[Martin Wolf]]), Fortschritte der Physik (2019) ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001]( https://doi.org/10.1002/prop.201910001))
 
 
 [[!redirects super ∞-groupoid]]
