@@ -36,9 +36,9 @@ $$
          \uparrow &&\uparrow \\
          k & \rightarrow& R
 }$$
-where the rings $A$ and $B$ are local, the top arrow $A \to B$ is surjective and has nilpotent kernel (i.e. every element of the kernel is nilpotent) This result is due to Matthias Hutzler. (By the conditions on the top morphism, it is enough to require that $A$ or $B$ is local.)
+where the rings $A$ and $B$ are local, the top arrow $A \to B$ is surjective and has nilpotent kernel (i.e. every element of the kernel is nilpotent) This result is due to ([Hutzler 2018](#Hutzler18)). By the conditions on the top morphism, it is enough to require that $A$ or $B$ is local.
 
-Routine arguments, to be made explicit in a further revision of this entry, allow to generalize this description to the non-affine case. Let $f : X \to S$ be a scheme over $S$. Assume that $X$ is locally of finite presentation over $S$. Then the big infinitesimal topos of the $S$-scheme $X$ classifies, as a $Sh(X)$-topos, the $Sh(X)$-theory of commutative squares of ring homomorphisms
+Routine arguments, to be made explicit in a further revision of this entry, allow to generalize this description to the non-affine case. Let $f \colon X \to S$ be a scheme over $S$. Assume that $X$ is locally of finite presentation over $S$. Then the big infinitesimal topos of the $S$-scheme $X$ classifies, as a $Sh(X)$-topos, the $Sh(X)$-theory of commutative squares of ring homomorphisms
 $$
   \array{A & \rightarrow & B \\
          \uparrow &&\uparrow \\
@@ -77,8 +77,8 @@ it is shown that if $X$ is proper over an algebraically closed field $k$ of [[ch
 
 The result about the geometric theory classified by the big infinitesimal topos appears in
 
-* Matthias Hutzler, _Internal language and classified theories of
-toposes in algebraic geometry_, Master's thesis at the University of Augsburg, 2018, [pdf](https://gitlab.com/MatthiasHu/master-thesis/raw/master/thesis.pdf?inline=false)
+* {#Hutzler18} Matthias Hutzler, _Internal language and classified theories of
+toposes in algebraic geometry_, Master's thesis at the University of Augsburg, 2018, [GitLab](https://gitlab.com/MatthiasHu/master-thesis/blob/master/thesis.pdf), [pdf download](https://gitlab.com/MatthiasHu/master-thesis/raw/master/thesis.pdf?inline=false)
 
 [[!redirects infinitesimal site]]
 [[!redirects crystaline site]]
