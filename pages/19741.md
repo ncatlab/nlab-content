@@ -23,12 +23,6 @@
 
 In the [[ADE-classification]], the items labeled $D_4$ include the following:
 
-1. as [[Dynkin diagram]]/[[Dynkin quiver]]: 
-
-   <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png" width="100"/>
-
-   (graphics grabbed from Wikipedia [here](https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png))
-
 1. as [[finite subgroups of SO(3)]]:
 
    the [[Klein four-group]]  (the smallest [[dihedral group]])
@@ -43,7 +37,25 @@ In the [[ADE-classification]], the items labeled $D_4$ include the following:
 
 1. as [[simple Lie groups]]: the [[special orthogonal group]] in 8 dimensions
 
-   [[SO(8)]]
+   [[SO(8)]], [[Spin(8)]]
+
+1. as a [[Dynkin diagram]]/[[Dynkin quiver]]: 
+
+\begin{tikzpicture}
+  \node (center) at (0,0) {};
+  \node (topright) at (60:1) {};
+  \node (botright) at (-60:1) {};
+  \node (left) at (180:1) {};
+
+  \draw[fill=black] (center) circle (.1);
+  \draw[fill=black] (topright) circle (.1);
+  \draw[fill=black] (botright) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+
+  \draw (center) to (topright);
+  \draw (center) to (botright);
+  \draw (center) to (left);
+\end{tikzpicture}
 
 
 ## Properties
