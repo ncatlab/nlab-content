@@ -22,6 +22,25 @@ The [[generalized cohomology theory]] [[Brown representability theorem|represent
 
 This is supposed to be the [[generalized cohomology theory]] which measures [[D-brane charge]] in [[type I string theory]]/on [[orientifold planes]].
 
+## Propertis
+
+### Homotopy groups
+ {#HomotopyGroups}
+
+The [[stable homotopy groups]] of [[KO]]
+
+$$
+  \pi_n(KO) \,\simeq\, \widetilde {KO}^0( S^n )
+$$
+
+are:
+
+| $n = $ | $8k + 0$ | $8k + 1$ | $8k + 2$ | $8k + 3$ | $8k + 4$ | $8k + 5$ | $8k + 6$ | $8k + 7$ |
+|--------|-----|-----|-----|-----|-----|-----|-----|-----|
+| $\pi_n(KO) = $ | $\mathbb{Z}$ | $\mathbb{Z}/2$ | $\mathbb{Z}/2$ | $0$ | $\mathbb{Z}$ | $0$ | $0$ | $0$ |  
+
+With [[Bott periodicity]] 8.
+
 ## Related concepts
 
 * [[KO-dimension]]
