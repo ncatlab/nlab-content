@@ -25,7 +25,7 @@ Accordingly, there are [[model category]] structures on [[sSet-categories]] that
 
 * there is a model structure on $SSet$-enriched categories whose fibrant objects are [[∞-groupoid]]/[[Kan complex]]-enriched categories and which models [[(∞,1)-categories]];
 
- This we discuss [below](ModelForInfinityCategories).
+This we discuss [below](ModelForInfinityCategories).
 
 * there is another model structure on [[sSet-categories]] whose fibrant objects are [[(∞,1)-category]]/[[quasi-category]]-enriched categories, and which model [[(∞,2)-categories]]. 
 
@@ -155,7 +155,13 @@ Recall the slight but crucial difference between the two notions of "[[simplicia
 [[!redirects Dwyer-Kan equivalence]]
 [[!redirects Dwyer-Kan weak equivalence]]
 [[!redirects Dwyer-Kan equivalence of simplicial categories]]
-
 [[!redirects Dwyer-Kan equivalences]]
 [[!redirects Dwyer-Kan weak equivalences]]
 [[!redirects Dwyer-Kan equivalences of simplicial categories]]
+
+[[!redirects Dwyer–Kan equivalence]]
+[[!redirects Dwyer–Kan weak equivalence]]
+[[!redirects Dwyer–Kan equivalence of simplicial categories]]
+[[!redirects Dwyer–Kan equivalences]]
+[[!redirects Dwyer–Kan weak equivalences]]
+[[!redirects Dwyer–Kan equivalences of simplicial categories]]
