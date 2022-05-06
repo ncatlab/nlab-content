@@ -36,7 +36,7 @@ A **simplicial object in  $Cat$** is a particular case of [[simplicial object]],
 
 One of the few references that discusses a [[model category]] structure on $Cat^\Delta$ as opposed to just $sSet Cat$ is
 
-* [[William Dwyer]], [[Dan Kan]], [[Jeff Smith]], _Homotopy commutative diagrams and their realizations_ Journal of Pure and Applied Algebra 57 (1989) 5-24
+* [[William Dwyer]], [[Dan Kan]], [[Jeff Smith]], _Homotopy commutative diagrams and their realizations_, Journal of Pure and Applied Algebra 57 (1989) 5-24
 
 A [[model category]] sturcture on $Cat(sSet)$ presenting [[(infinity,1)-categories]] is in 
 
