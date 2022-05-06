@@ -414,7 +414,6 @@ Instead of starting with [[M5-branes]] in [[supergravity|locally supersymmetric]
 In this vein, it has been argued in [GLMR 00](#GLMR00) that there is holographic duality between [[type 0 string theory]] and non-supersymmetric 4d [[Yang-Mills theory]] (hence potentially something close to [[QCD]]). See also [AAS 19](#AAS19).
 
 
-
 ### Bottom-up models
   {#BottomUpModels}
 
@@ -522,7 +521,9 @@ See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
 
-#### Top-down models (WSS model)
+#### Top-down models 
+
+##### Witten-Sakai-Sugimoto model
 
 Precursor developments:
 
@@ -585,6 +586,26 @@ Specifically concerning the 3d [[Chern-Simons theory]] on the [[D8-branes]]:
 and its relation to [[baryons]]:
 
 * {#SuganumaNakagawaMatsumoto16} Hideo Suganuma, Yuya Nakagawa, Kohei Matsumoto, _1+1 Large $N_c$ QCD and its Holographic Dual $\sim$ Soliton Picture of Baryons in Single-Flavor World_, JPS Conf. Proc. 13, 020013 (2017) ([arXiv:1610.02074](https://arxiv.org/abs/1610.02074))
+
+
+
+
+
+##### Van Raamsdonk-White model
+
+* [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arxiv:0912.0752](https://arxiv.org/abs/0912.0752))
+
+* Shigenori Seki, _Intersecting D4-branes Model of Holographic QCD and Tachyon Condensation_, JHEP 1007:091, 2010 ([arXiv:1003.2971](https://arxiv.org/abs/1003.2971))
+
+
+
+
+
+
+
+
+
+
 
 #### Bottom-up models
 
