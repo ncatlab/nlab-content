@@ -16,6 +16,11 @@ On the [[flavour anomalies]]:
 
 * [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
 
+Via [[Z' bosons]]:
+
+* [[Andreas Crivellin]], Claudio Andreas Manzari, Marcel Alguero, Joaquim Matias, _Combined Explanation of the $Z \to b \bar b$ Forward-Backward Asymmetry, the Cabibbo Angle Anomaly, $\tau \to \mu \nu \nu$ and $b \to s \ell^+ \ell^-$ Data_ ([arXiv:2010.14504](https://arxiv.org/abs/2010.14504))
+
+
 On [[leptoquarks]]:
 
 * [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Scalar Leptoquarks in Leptonic Processes_ ([arXiv:2010.06593](https://arxiv.org/abs/2010.06593))
