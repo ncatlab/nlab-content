@@ -56,7 +56,7 @@ The [[AdS/CFT|AdS7/CFT6-correspondence]] relates
 
 ### General
 
-The maximally $N=4$ supersymmetric $SO(5)$-[[gauged supergravity]] in 7-dimensions was first constructed in 
+The maximally [[number of supersymmetries|N=4]] supersymmetric $SO(5)$-[[gauged supergravity]] in 7-dimensions was first constructed in 
 
 * M. Pernici, K. Pilch, and [[Peter van Nieuwenhuizen]], _Gauged Maximally Extended Supergravity in Seven Dimensions_ , Phys. Lett. 143B (1984) 103.
 
@@ -64,20 +64,21 @@ There are also gaugings for non-compact groups
 
 * M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], and N. P. Warner, _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_ , Nucl. Phys. B249 (1985) 381.
 
-The $N=2$ $Sp(1)$-gauged theory was described in
+The [[number of supersymmetries|N=2]] $Sp(1)$-gauged theory was described in
 
 * [[Paul Townsend]] and [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41.
 
 See also
 
-* E. Bergshoeff, D C Jong and [[Ergin Sezgin]], _Noncompact gaugings, chiral reduction and dual
-sigma models in supergravity_ Class. Quantum Grav. 23 (2006) 2803&#8211;2831 ([pdf](http://iopscience.iop.org/0264-9381/23/9/003/pdf/0264-9381_23_9_003.pdf)) 
+* [[Eric Bergshoeff]], D C Jong and [[Ergin Sezgin]], _Noncompact gaugings, chiral reduction and dual sigma models in supergravity_ Class. Quantum Grav. 23 (2006) 2803&#8211;2831 ([pdf](http://iopscience.iop.org/0264-9381/23/9/003/pdf/0264-9381_23_9_003.pdf)) 
 
 * Der-Chyn Jong, _Aspects of 7D and 6D gauged supergravities_ PhD thesis (2007) ([web](http://repository.tamu.edu/handle/1969.1/85874))
 
-Discussion of [[quantum anomaly]] cancellation is in
+### KK-Compacification on $S^1_A$ and $S^1_{HW}$
 
-* Tony Gherghetta, Alex Kehagias, _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
+Discussion of [[quantum anomaly]] cancellation and 7d [[Horava-Witten theory]] is in
+
+* {#GherghettaKehagias02} Tony Gherghetta, [[Alex Kehagias]], _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
 
 
 ### By reduction from 10d/11d supergravity
