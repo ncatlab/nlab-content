@@ -17,7 +17,7 @@
 
 In [[arithmetic geometry]] over a [[finite field]] a _shtuka_ on an [[arithmetic scheme]] is essentially an [[equivariant bundle|equivariant]] [[algebraic vector bundle]] on the [[product]] of the scheme with a given [[arithmetic curve]], where equivariance is with respect to the [[action]] of the [[Frobenius endomorphism]] (e.g. [Scholze-Weinstein, def. 1](#ScholzeWeinstein14)).
 
-( _Shtuka_ is a Russian word colloquially meaning "thing".)
+(*Shtuka* is a Russian word colloquially meaning "thing".)
 
 
 ## Related concepts
