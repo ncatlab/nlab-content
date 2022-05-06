@@ -37,6 +37,10 @@ The [[fuzzy funnel]] [[noncommutative geometry]] of transveral $D3 \bot D5$-bran
 
 ## References
 
+With emphasis on the [[worldvolume]] [[D=3 N=4 super Yang-Mills theory]]:
+
+* [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
+
 With emphasis on the relation to [[Nahm's equation]] and [[fuzzy funnel]] [[noncommutative geometry]]:
 
 * {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
