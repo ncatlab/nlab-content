@@ -60,7 +60,7 @@ $$
   \,.
 $$ 
 
-The composition of morphisms of $T$-modules is the composition of underlying morphisms in $C$. The resultiing [[category]] $C^T$ of $T$-modules/algebras is called the __Eilenberg--Moore category__ of the monad $T$, also be written $Alg(T)$, or $T\,Alg$, etc.  
+The composition of morphisms of $T$-modules is the composition of underlying morphisms in $C$. The resulting [[category]] $C^T$ of $T$-modules/algebras is called the __Eilenberg--Moore category__ of the monad $T$, also be written $Alg(T)$, or $T\,Alg$, etc.  
 
 By construction, there is a [[forgetful functor]] 
 
