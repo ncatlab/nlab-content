@@ -180,6 +180,13 @@ The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/
 
 See at _[[symmetric smash product of spectra]]_.
 
+## Properties
+
+
+[[!include smash-monoidal diagonals -- section]]
+
+
+
 ## Related concepts
 
 * [[pointed object]]
