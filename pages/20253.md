@@ -20,6 +20,27 @@ A [[manifold]] of [[dimension]] 8.
 
 ## Properties
 
+### Signature
+ {#Signature}
+
+Let $X$ be a [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold|smooth]] [[8-manifold]]. Then its [[signature genus|signature]] is related to the [[second  Pontryagin class]] $p_2$ and the [[cup product]] of the [[first Pontryagin class]] $p_1$ with itself, both evaluated on the [[fundamental class]] of $X$, by
+
+$$
+  \pm 1
+  \;=\;
+  \sigma[X]
+  \;=\;
+  \tfrac{1}{45}
+  \big(
+    7 p_2
+    -
+    (p_1)^2
+  \big)[X]
+  \,.
+$$
+
+But in addition, due to the dimenion 8, the signature is $\pm 1$, depending on the choice of [[orientation]]
+
 ### G-Structures on 8-Manifolds
  {#GStructuresOn8Manifolds}
 
