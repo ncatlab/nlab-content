@@ -1,3 +1,4 @@
+[[!redirects AbMon]]
 
 The [[category]] of commutative (abelian) [[monoids]].
 
