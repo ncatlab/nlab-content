@@ -267,7 +267,7 @@ which says in conclusion on page 45-46
 
 A popular account of these observations was given in
 
-* {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4
+* {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4 ([ubn:2066/18631](https://mobile.repository.ubn.ru.nl/handle/2066/18631))
 
 a commented translation of which later appeared as
 
