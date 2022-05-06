@@ -62,7 +62,7 @@ The corresponding _total Chern class_ is the formal sum
 $$
   c 
   \;\coloneqq\;
-  1 + c_1 + c+2 + \cdots
+  1 + c_1 + c_2 + \cdots
   \;\in\;
   \underset{k}{\prod} 
   H^{2k}
