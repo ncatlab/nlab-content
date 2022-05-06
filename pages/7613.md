@@ -167,16 +167,43 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
-[Howe-Lambert-West 97, p. 2](DpDp2-brane+bound+state#HoweLambertWest97)
+[Duff 96, totality of Section 6](#Duff96):
+
+> The overriding problem in superunification in the coming years will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes.
+
+\linebreak
+
+[Howe-Lambert-West 97, p. 2](DpDp2-brane+bound+state#HoweLambertWest97):
 
 > the still rather mysterious M theory governs many aspects of the lower dimensional string theories.  What little is known of M theory is powerful enough to lead us to new phenomena in stringtheory and indeed new string theories.  In particular the M theory fivebrane is strongly believed hold a new kind of self-dual string theory on its worldvolume. This new and somewhat elusive theory has also appeared in other contexts such as the compactification of type IIB string theory on K3 , M(atrix) theory on $\mathbb{T}^5$ and the S-duality of $N = 4$, $D = 4$ super-Yang-Mills. Thus one mayhope that a greater understanding of this self-dual string may lead directly to a greater understanding of duality, string theory and M theory.
 
 \linebreak
 
+[Duff 98a, last paragraph (p. 6)](#Duff98):
 
-[Nicolai-Helling 98, p. 2](BFSS+matrix+model#NicolaiHelling98)::
+> Despite all these successes, physicists are glimpsing only small corners of M-theory; the big picture is still lacking.
+
+> $[...]$
+
+> Indeed future historians may judge the late 20th century as a time when theorists were like  children  playing  on  the  seashore, diverting themselves with the smoother pebbles or prettier shells of superstrings while the great ocean of M-theory lay undiscovered before them.
+
+\linebreak
+
+[Duff 98b, p. 6](#Duff98b):
+
+> we are only just beginning to scratch the surface of the ultimate meaning of M-theory, and for the time being therefore, M stands for Magic and Mystery too.
+
+\linebreak
+
+[Nicolai-Helling 98, p. 2](BFSS+matrix+model#NicolaiHelling98):
 
 > Despite the recent excitement, however, we do not think that [[BFSS matrix model|M(atrix) theory]] and the [[M2-brane|d= 11 supermembrane]] in their present incarnation are already the final answer in the search for [[M-theory|M-Theory]], even though they probably are important pieces of the puzzle. There are still too many ingredients missing that we would expect the final theory to possess. For one thing, we would expect a true theory of quantum gravity to exhibit certain pregeometrical features corresponding to a “dissolution” of space-time and the emergence of some kind of non-commutative geometry at short distances; although the matrix model does achieve that to some extent by replacing commuting coordinates by non-commuting matrices, it seems to us that a still more radical departure from conventional ideas about space and time may be required in order to arrive at a truly background independent formulation (the matrix model “lives” in nine _flat_ transverse dimensions only). Furthermore, there should exist some huge and so far completely hidden symmetries generalizing not only the duality symmetries of extended supergravity and string theory, but also the principles underlying general relativity.
+
+\linebreak
+
+[Duff 99, p.330](#Duff99):
+
+> future historians may judge the period 1984-95 as a time when theorists were like boys playing by the sea shore, and diverting themselves with the smoother pebbles or prettier shells of perturbative ten-dimensiorial superstrings while the great ocean of non-perturbative eleven-dimensional M-theory lay all undiscovered before them. 
 
 \linebreak
 
@@ -279,14 +306,14 @@ The term became fully established with surveys including
 
 * {#Duff96} [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
-* {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf))
+* {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf), [[DuffFormerlyStrings98.pdf:file]])
 
-* [[Michael Duff]], _A Layman's Guide to M-theory_ ([arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177))
+* {#Duff98b} [[Michael Duff]], _A Layman's Guide to M-theory_, 	Abdus Salam Memorial Meeting, Trieste, Italy, 19 - 22 Nov 1997, pp.184-213 ([arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177), [cds:355721](https://cds.cern.ch/record/355721))
 
 
 Despite the magic and mystery, the relation to the original abbreviation for _membrane-theory_ was highlighted again for instance in 
 
-* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. 68:11-16, 1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
 
 
 More recent review includes
