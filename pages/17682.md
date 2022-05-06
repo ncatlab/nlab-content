@@ -7,12 +7,19 @@ A number of researchers have proposed that the [[category theory|category theore
 
 >Side effects are to programming languages what pragmatics are to natural languages: they both study how expressions interact with the worlds of their users. It might then come as no surprise that phenomena such as anaphora, presupposition, deixis and conventional implicature yield a monadic description. ([Mar&#353;&#237;k Amblard 2016, p. 3](#MarAmb16))
 
-In an overview paper ([Asudeh](#Asudeh)), it is proposed that the following topics are explained by specific monads:
+In overview papers ([Cohn-Gordon](#Cohn-Gordon), [Asudeh](#Asudeh)), it is proposed that the following topics are explained by specific monads:
 
 1. Conventional implicature: the [[writer monad]]
 1. Optional arguments: the [[maybe monad]]
-1. Perspective and opacity: the [[reader monad]]
+1. Presupposition failure: the exception monad
+1. Anaphora: the [[state monad]] and set monad
+1. Perspective, opacity and intentionality: the [[reader monad]]
 1. Conjunction fallacies: the [[Giry monad|probability monad]]
+1. Quantifier Scope: the [[continuation monad]]
+1. Focus: the pointed set monad
+1. Interrogatives: the set monad
+1. Performatives: the [[IO monad]]
+
 
 
 ## Related concepts
@@ -23,6 +30,8 @@ In an overview paper ([Asudeh](#Asudeh)), it is proposed that the following topi
 ##References
 
 For a summary of uses, see 
+
+* {#Cohn-Gordon} Reuben Cohn-Gordon, _Monad Transformers for Natural Language:Combining Monads to Model Effect Interaction_, [pdf](https://reubenharry.github.io/docs/monads.pdf)
 
 * {#Asudeh} [[Ash Asudeh]], _Monads: Some Linguistic Applications_, [pdf](http://users.ox.ac.uk/~cpgl0036/handouts/asudeh-se-lfg13.pdf)
 
