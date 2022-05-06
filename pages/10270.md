@@ -13,7 +13,15 @@
 
 [[spin geometry]]
 
-* [[spin group]], [[spin^c group]]
+* [[spin group]]
+
+  [[pin group]]
+
+  [[semi-spin group]]
+
+  [[central product spin group]]
+
+  [[spin^c group]]
 
 * [[spin representation]], 
 
@@ -39,6 +47,8 @@
 
 * [[Dirac field]]
 
+[[!include low dimensional rotation groups -- table]]
+
 ## String geometry
 
 [[string geometry]]
@@ -53,3 +63,6 @@
 
 * [[fivebrane structure]]
 
+## Ninebrane geometry
+
+* [[ninebrane 10-group]]
