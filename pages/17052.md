@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -69,7 +69,7 @@ As part of a possible solution to the [[confinement]]/[[mass gap]]-problem:
 
 ### Relation to heterotic string theory
 
-The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPTS-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]] (see e.g. [SasYat16, pag.12](#SasakiYata16)). If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
+The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPTS-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]] (see e.g. [SasYat16, pag.12](#Sasaki-Yata16)). If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
 
 ## History
 
@@ -109,6 +109,10 @@ Further development includes
 
 * {#LeeLu98} Kimyeong Lee, Changhai Lu, _$SU(2)$ Calorons and Magnetic Monopoles_, Phys. Rev. D 58, 025011 (1998) ([arXiv:hep-th/9802108](https://arxiv.org/abs/hep-th/9802108))
 
+See also
+
+* Wikipedia, _[Caloron](https://en.wikipedia.org/wiki/Caloron)_
+
 Discussion in [[lattice gauge theory]]:
 
 * P. Gerhold, E.‐M. Ilgenfritz, M. Müller‐Preussker, B. V. Martemyanov, A. I. Veselov, _Topology and confinement at $T \neq 0$: calorons with non‐trivial holonomy_, AIP Conference Proceedings 892, 213 (2007) ([doi:10.1063/1.2714375](https://doi.org/10.1063/1.2714375))
@@ -143,8 +147,6 @@ Discussion as part of a solution to the [[confinement]]/[[mass gap]]-problem:
 
 * {#SasakiYata16} Shin Sasaki and Masaya Yata, _Non-geometric five-branes in heterotic supergravity_,  JHEP **1611**, 064, 2016 ([arXiv:1608.01436](https://arxiv.org/abs/1608.01436))
 
-See also
 
-* Wikipedia, _[Caloron](https://en.wikipedia.org/wiki/Caloron)_
 
 [[!redirects calorons]]
