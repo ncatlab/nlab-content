@@ -13,6 +13,11 @@ On [[proper equivariant homotopy theory]]:
 
 * {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_ ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
+On the [[equivariant Chern character]] in [[equivariant K-theory]]:
+
+
+* [[Wolfgang Lück]], [[Bob Oliver]], _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
+
 On the [[Chern-Dold character]] in [[equivariant cohomology]]:
 
 * [[Wolfgang Lück]], _Chern characters for proper equivariant homology theories and applications to K- and L-theory_, Journal für die reine und angewandte Mathematik, Volume 2002: Issue 543 ([doi:10.1515/crll.2002.015](https://doi.org/10.1515/crll.2002.015), [pdf](https://www.him.uni-bonn.de/lueck/data/eh.pdf))
