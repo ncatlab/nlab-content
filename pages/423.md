@@ -569,7 +569,7 @@ $$
 given by
 
 $$
-  t \mapsto (cos(t), sin(t))
+  t \mapsto (cos(2\pi t), sin(2\pi t))
   \,.
 $$
 
