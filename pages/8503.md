@@ -33,6 +33,8 @@ Either sentence alone seems perfectly reasonable, and could meaningfully be said
 
 * [[Cantor's paradox]]
 
+* [[Banach-Tarski paradox]]
+
 ### From natural science
 
 In [[physics]]:
