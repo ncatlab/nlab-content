@@ -326,6 +326,10 @@ Review:
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
+Inclusion of the [[sigma-meson]]:
+
+* Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
+
 
 ### As models for atomic nculei
  {#ReferencesAsModelsForAtomicNuclei}
