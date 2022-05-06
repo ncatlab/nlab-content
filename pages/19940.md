@@ -31,9 +31,9 @@
 
 * [[quark-gluon plasma]]
 
-Maybe also
+* [[topological state of matter]]
 
-* [[topological order]]
+  [[topological order]]
 
 ## References
 
