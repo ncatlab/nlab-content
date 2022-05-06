@@ -76,7 +76,7 @@ To prove that the category [[Mon]] of monoids is a [[complete category]], one no
 
 To be sure, meeting the solution set condition basically requires starting the constructions in one of the other definitions above; but the proofs may all be thrown onto the adjoint functor theorem. 
 
-Another abstract approach is given in the following general theorem, which applies to more general [monoids in a monoidal category](http://ncatlab.org/nlab/show/monoid#in_a_monoidal_category_18): 
+Another abstract approach is given in the following general theorem, which applies to more general [[monoid in a monoidal category|monoids in a monoidal category]]: 
 
 +-- {: .num_theorem #monoid_in_monoidal}
 ###### Theorem 
