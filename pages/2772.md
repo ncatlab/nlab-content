@@ -34,10 +34,34 @@ $$
   F : C \hookrightarrow D
 $$
 
-to indicate this.
+to indicate this. This is definition 1.2.10 of [Lurie](#Lurie)
 
 
 ## Properties
+
++-- {: .num_lemma }
+###### Lemma
+An $(\infty,1)$-functor $F : C \to D$ is fully faithful if and only if the following square is a pullback in the $(\infty,1)$ category of $\infty$-categories:
+$$
+  \array{
+    Core(C^{[1]}) &\to& Core(D^{[1]})
+    \\
+    \downarrow && \downarrow
+    \\
+    Core(C) \times Core(C) &\to& Core(D) \times Core(D)
+  }
+$$
+where the horizontal maps are induced by $F$ and the vertical maps are the source and target maps.
+=--
+
++-- {: .proof}
+###### Proof
+This is proposition 3.9.6 of [Cisinski](#Cisinski).
+
+The idea is that if $X$ is an $\infty$-category, the fibers of $Core(X^{[1]}) \to Core(X) \times Core(X)$ are precisely the hom spaces of $X$. Thus, if the above square is a pullback, both vertical maps have the same fibers determined by any point $1 \to Core(C) \times Core(C)$, 
+
+And conversely, the square above satisfies conditions for which the vertical maps having equivalent fibers implies it is a pullback.
+=--
 
 Every full and faithful $(\infty,1)$-functor is a [[monomorphism in an (∞,1)-category|monomorphism]] in [[(∞,1)Cat]], but being a full and faithful $(\infty,1)$-functor is a stronger condition. An $(\infty,1)$-functor $F$ is a monomorphism if and only if it induces a [[monomorphism in an (∞,1)-category|monomorphism]] on [[hom-spaces]] and every equivalence $F X \simeq F Y$ is in the effective image of $F$ (see [this MathOverflow question](https://mathoverflow.net/questions/345686/monomorphisms-in-mathcalc-at-infty/345700)).
 
@@ -55,7 +79,8 @@ An [[(∞,1)-functor]] which is both full and faithful as well as an [[essential
 
 This appears as definition 1.2.10 in
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Cisinksi} [[Denis-Charles Cisinski]], "Higher Categories and Homotopical Algebra"
 
 
 [[!redirects fully faithful (infinity,1)-functor]]
