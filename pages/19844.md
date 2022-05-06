@@ -841,6 +841,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
+* J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
+
+
 [[leptoquarks]] particularly as fields in a [[grand unified theory]]:
 
 * {#HeekTeresi18} Julian Heeck, Daniele Teresi, _Pati-Salam explanations of the B-meson anomalies_, JHEP 12 (2018) 103 ([arXiv:1808.07492](https://arxiv.org/abs/1808.07492))
