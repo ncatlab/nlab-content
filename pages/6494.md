@@ -11,6 +11,10 @@
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
+#### Vacua
++-- {: .hide}
+[[!include vacua -- contents]]
+=--
 =--
 =--
 
