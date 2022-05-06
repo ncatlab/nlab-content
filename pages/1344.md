@@ -67,7 +67,7 @@ $$
 
 for the (non-full) subcategory on the non-degenerate simplices.
 Notice that a morphism of $\Delta\downarrow X$ with source
-a non-degenerate simplex of $X$ is necessary a[[monomorphisms]].
+a non-degenerate simplex of $X$ is necessary a [[monomorphism]].
 
 This is called the **category of non-degenerate simplices**.
 
