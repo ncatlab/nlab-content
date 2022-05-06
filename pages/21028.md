@@ -113,7 +113,7 @@ The proof (see the reference above) follows closely the classical case of module
 
 The treatment of the closed case goes back to [the work done in the 70s by Anders Kock](#Kock71closed). A treatment of that case has been recently given also in [the thesis of Martin Brandenburg](#Brandenburg2014). 
 
-If $C$ is a [[monoidal closed category]] and has [[equalizers]], and $C^T$ has tensor, the first hypothesis of [the theorem above](#sealthms) is satisfied, and so $(C^T,\otimes_T,T1)$ is a monoidal category. Moreover, $C^T$ can be equipped with an [[internal hom]] which makes it closed monoidal itself. 
+If $C$ is a [[monoidal closed category]] and has [[equalizers]], and $C^T$ has tensors, the first hypothesis of [the theorem above](#sealthms) is satisfied, and so $(C^T,\otimes_T,T1)$ is a monoidal category. Moreover, $C^T$ can be equipped with an [[internal hom]] which makes it closed monoidal itself. 
 
 (...)
 
