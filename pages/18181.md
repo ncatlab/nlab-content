@@ -273,6 +273,10 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * [[category (philosophy)]]
 
+* [[transcendental grammar]]
+
+* [[Stephan Wannowski]]
+
 * [[Aristotelian logic]]
 
 * [[idealism]]
