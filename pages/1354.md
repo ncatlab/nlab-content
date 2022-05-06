@@ -51,7 +51,10 @@ In [[derivator#Renaudin|(Renaudin 2006)]] it is shown that the [[2-category]] of
 * [[pretriangulated dg-category]], [[pretriangulated A-infinity category]]
 * [[stable (∞,1)-category]] 
 
-See the above pages for references.
+## References
+
+* {#BondalKapranov91} [[Alexei Bondal]], [[Mikhail Kapranov]], _Enhanced Triangulated Categories_, Sbornik: Mathematics, Volume 70, Issue 1, pp. 93-107 (1991) ([doi:10.1070/SM1991v070n01ABEH001253](http://dx.doi.org/10.1070/SM1991v070n01ABEH001253))
+
 
 [[!redirects enhanced triangulated categories]]
 
