@@ -47,6 +47,18 @@ Most concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{C}$, as 
 
 ## Properties
 
+### Automorphisms
+
++-- {: .num_prop #AutomorphismsOfComplexNumbersIsZ2}
+###### Proposition
+
+The [[automorphism group]] of the [[complex numbers]], as an [[associative algebra]] over the [[real numbers]], is [[Z/2]], [[action|acting]], acting by [[complex conjugation]]. 
+
+=--
+
+See also at _[normed division algebra -- automorphism](normed+division+algebra#Automorphisms)_
+
+
 ### Geometry of complex numbers
 
 The complex numbers form a plane, the __complex plane__. Indeed, a map $\mathbb{C} \to \mathbb{R}^2$ given by sending $\mathrm{x} + \mathrm{i}\mathrm{y}$ to the standard real-valued coordinates $(\mathrm{x},\mathrm{y})$ on this plane is a bijection. Much of [[complex analysis]] can be understood through [[differential topology]] by identifying $\mathbb{C}$ with $\mathbb{R}^2$, using either $\mathrm{x}$ and $\mathrm{y}$ or $\mathrm{z}$ and $\bar{\mathrm{z}}$.  (For example, Cauchy\'s integral theorem is Green\'s/Stokes\'s theorem.)
