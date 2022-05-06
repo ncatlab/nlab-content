@@ -410,7 +410,7 @@ preserves all [[finite limit]]s.
 
 =--
 
-See ([GepnerHenriques, remark 2.23](#GepnerHenriques)).
+See ([Gepner-Henriques 07, Remark 2.23](#GepnerHenriques07)).
 
 
 ### Relation to the homotopy colimit
@@ -972,7 +972,7 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
-* {#GepnerHenriques} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([arXiv:math/0701916](https://arxiv.org/abs/math/0701916))
+* {#GepnerHenriques07} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([arXiv:math/0701916](https://arxiv.org/abs/math/0701916))
 
 See also
 
@@ -1000,10 +1000,6 @@ The behaviour of fibrations under geometric realization and the preservation of 
 * D. Anderson, _Fibrations and geometric realization_ , 
 Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
 
-
-## Refereeing
-
-This entry is under review. See <a href="">geometric realization of simplicial topological spaces</a> at [[nlabreviewed:HomePage|nLab (reviewed)]].
 
 
 [[!redirects geometric realization of a simplicial space]]
