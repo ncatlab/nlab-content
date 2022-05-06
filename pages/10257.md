@@ -31,7 +31,7 @@ $$
   = 
   \left\lbrace 
    \array{ 
-     0 &\vert& i\, \text{odd}
+     0 &\vert& i\, \text{even}
      \\ 
      \mathbb{Z} &\vert& i \, \text{odd}
    }
