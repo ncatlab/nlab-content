@@ -37,6 +37,10 @@ See at those entries for more.
 
 * [[cobordism theory determining homology theory]]
 
+* [[MU]], [[MSU]]
+
+* [[MO]], [[MSO]], [[MSpin]]
+
 * [[MR-theory]]
 
 * [[MP-theory]]
