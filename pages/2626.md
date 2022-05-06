@@ -104,27 +104,33 @@ Expositions:
 * [[Abhijit Champanerkar]], _The geometry of knot complements_ ([pdf](https://www.math.csi.cuny.edu/~abhijit/talks/knot-geometry-h.pdf), [[ChampanerkarKnotComplements.pdf:file]])
 
 
-Introductions:
+General:
 
- * [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts 57, 1963.
+* [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts 57, 1963.
 
- * [[N. D. Gilbert]], [[T. Porter]], _Knots and surfaces_, Oxford U.P., 1994.
+* G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
-Other classic sources are 
+* [[N. D. Gilbert]], [[T. Porter]], _Knots and surfaces_, Oxford U.P., 1994.
 
 * Dale Rolfsen, _Knots and links_, AMS Chelsea, vol. __346__, 2003.
 
-* [[L. H. Kauffman]], _Knots and physics_, World Scientific, 1991
-
-  (relation to state sum models in [[quantum field theory]])
-
-* G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
 Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
 
 * [[Lord Kelvin]], _[[On Vortex Atoms]]_
 
 which presented the speculation in [[physics]] that  [[atoms]]/[[elementary particles]] are fundamentally [[vortices]] in a [[spacetime]]-filling fluid-like substance.
+
+### Relation to physics
+
+Relation of knot theory to [[physics]]/[[quantum field theory]]:
+
+* [[Louis Kauffman]], _Knots and physics_, Series on _Knots and Everything_, Volume 1,  World Scientific, 1991 ([doi:10.1142/1116](https://doi.org/10.1142/1116))
+
+* [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics
+Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
+
+
 
 ### Higher dimensional knots
 
