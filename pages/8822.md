@@ -88,7 +88,7 @@ See Definition B2.4.1 in the [[Elephant]].
 +-- {: .num_theorem #motive}
 ###### Motivating theorem
 
-If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a set $(S_a)_{(a\colon A)}$  is a separating set if and only if, for every $X\in C$, the canonical morphism
+If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a set-indexed family $(S_a)_{(a\colon A)}$  is separating  if and only if, for every $X\in C$, the canonical morphism
 $$ \varepsilon_X\colon \coprod_{a\colon A, f\colon S_a \to X} S_a \longrightarrow X $$
 is an [[epimorphism]].
 =--
@@ -104,8 +104,7 @@ If $\mathcal{E}$ is a subclass of epimorphisms, we say that $(S_a)_{(a\colon A)}
 =--
 
 The weakest commonly-seen strengthed generator is an __extremal separator__.
-
-Slightly stronger is a __strong separator__ or __strong generator__, which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]]. Since strong epis are extremal, strong generators are extremal.
+This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]]. Since strong epis are extremal, strong generators are extremal.
 
 +-- {: .un_remark}
 ###### Warning
