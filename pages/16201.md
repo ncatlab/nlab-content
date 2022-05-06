@@ -130,6 +130,10 @@ Discussion of higher curvature corrections in [[cosmology]] and [[cosmic inflati
 
 * Gustavo Arciniega, Pablo Bueno, Pablo A. Cano, Jose D. Edelstein, Robie A. Hennigar, Luisa G. Jaimem, _Geometric Inflation_ ([arXiv:1812.11187](https://arxiv.org/abs/1812.11187))
 
+Relation to [[cosmic censorship hypothesis]]:
+
+* Akash K Mishra, Sumanta Chakraborty, _Strong Cosmic Censorship in higher curvature gravity_, Phys. Rev. D 101, 064041 (2020) ([arXiv:1911.09855](https://arxiv.org/abs/1911.09855))
+
 
 ### Higher curvature corrections to 4d supergravity
 
