@@ -24,6 +24,8 @@ The [[lattice]] of [[subgroups]] of a given [[group]].
 
 ## Related concepts
 
+* [[maximal subgroup]]
+
 * [[lattice of subobjects]]
 
 * [[conjugacy class of subgroups]]
