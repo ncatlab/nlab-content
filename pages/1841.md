@@ -402,7 +402,7 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 [[Dirac's charge quantization]] argument appeared in
 
-* [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
+* [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
 Review is for instance in
 
