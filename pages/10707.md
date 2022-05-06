@@ -35,7 +35,7 @@ $$
 There is a canonical [[action]] of $G^+$ on $Spec(L)$. The [[quotient stack]] of this action is the moduli stack of (1d commutative) formal groups
 
 $$
-  \mathcal{M}_{fg} = (Spec(L))/G^+
+  \mathcal{M}_{fg} = (Spec(L))//G^+
   \,.
 $$
 
