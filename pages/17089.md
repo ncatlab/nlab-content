@@ -1,6 +1,8 @@
 ### General
 
-The concept of $L_\infty$-algebras as graded vector spaces equipped with $n$-ary brackets satisfying a generalized Jacobi identity was introduced in this generality in
+The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-ary brackets satisfying a generalized [[Jacobi identity]] was introduced in generality in
+
+* {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
@@ -25,10 +27,20 @@ See also
 * Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
  
 
-A detailed reference for Lie 2-algebras is:
+A detailed reference for [[Lie 2-algebras]] is:
 
-* [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
+* [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv:math/0307263](http://arxiv.org/abs/math/0307263))
  
+### As models for rational homotopy types
+
+That $L_\infty$-algebras are models for [[rational homotopy theory]] is implicit in [Quillen 69](rational+homotopy+theory#Quillen69) (via their [equivalence with dg-Lie algebras](model+structure+on+dg-Lie+algebras#RectificationResolution)) and was made explicit in [Hinich 98](#Hinich98). Exposition is in 
+
+* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524.
+
+and genralization to non-[[connected topological space|connected]] rational spaces is discussed in
+
+* {#BuijsMurillo12} [[Urtzi Buijs]], [[Aniceto Murillo]], _Algebraic models of non-connected spaces and homotopy theory of $L_\infty$-algebras_, Advances in Mathematics 236 (2013): 60-91. ([arXiv:1204.4999](https://arxiv.org/abs/1204.4999))
+
  
 ### $L_\infty$-algebras in physics
  {#ReferencesInPhysics}
@@ -109,6 +121,8 @@ Discussion in terms of homotopy [[Lie-Rinehart pairs]] is due to
 
 The [[L-∞ algebroid]]-structure is also made explicit in ([def. 4.1 of v1](http://arxiv.org/abs/0910.4001v1)) of ([Sati-Schreiber-Stasheff 09](#SatiSchreiberStasheff09)).
 
+
+
 #### In string field theory
 
 The first _explicit_ appearance of $L_\infty$-algebras in theoretical physics is the $L_\infty$-algebra structure on the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] found in the context of closed bosonic [[string field theory]] in 
@@ -166,7 +180,7 @@ Ordinary [[Chern-Simons theory]] for a simple gauge group is all controled by a 
 
 * [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv:9910078](http://arxiv.org/abs/math/9910078))
 
-* [[Pavol evera]], _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+* [[Pavol Ševera]], _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ in _Quantization, Poisson Brackets and Beyond_ , [[Theodore Voronov]] (ed.), Contemp. Math., Vol. 315, Amer. Math. Soc., Providence, RI, 2002 ([arXiv](http://arxiv.org/abs/math/0203110))
@@ -212,6 +226,16 @@ This makes concrete the suggestion that there should be $L_\infty$-algebra refin
 Comprehesive survey and exposition of this situation is in 
 
 * [[Urs Schreiber]], _[[schreiber:Higher Prequantum Geometry]]_, in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[New Spaces for Mathematics and Physics](https://ncatlab.org/nlab/show/New+Spaces+for+Mathematics+and+Physics)_, 2016
+
+#### In perturbative quantum field theory
+
+Further identification of [[L-∞ algebras]]-[[structure]] in the [[Feynman amplitudes]]/[[S-matrix]] of [[Lagrangian field theory|Lagrangian]] [[perturbative quantum field theory]]:
+
+* {#Froeb18} [[Markus Fröb]], _Anomalies in time-ordered products and applications to the BV-BRST formulation of quantum gauge theories_ ([arXiv:1803.10235](https://arxiv.org/abs/1803.10235))
+
+* {#Arvanitakis19} [[Alex Arvanitakis]], _The $L_\infty$-algebra of the S-matrix_ ([arXiv:1903.05643](https://arxiv.org/abs/1903.05643))
+
+
 
 #### In double field theory
 
