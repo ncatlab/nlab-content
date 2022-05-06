@@ -77,13 +77,13 @@ Of particular interest are the marks of the [[transitive action|transitive]] [[G
 ###### Definition
 **([[table of marks]])**
 
-The _table of Burnside marks_ (or _table of marks_, for short) of a [[finite group]] $G$ is the [[matrix]] indexed by [[conjugacy classes]] $[H]$ of [[subgroups]] $H \subset G$ whose $([H_i], [H_j])$-entry is the $[H_i]$-marks of $G/H_j$ (Def. \ref{BurnsideCharacter}), hence the number of [[fixed points]] of the [[action]] of $H_i$ on the [[coset space]] $G/H_j$:
+The _table of Burnside marks_ (or _table of marks_, for short) of a [[finite group]] $G$ is the [[matrix]] indexed by [[conjugacy classes]] $[H]$ of [[subgroups]] $H \subset G$ whose $([H_i], [H_j])$-entry is the $[H_j]$-marks of $G/H_i$ (Def. \ref{BurnsideCharacter}), hence the number of [[fixed points]] of the [[action]] of $H_j$ on the [[coset space]] $G/H_i$:
 
 $$
   M_{i j}
   \;\coloneqq\;
   \left\vert
-    \left(G/H_j\right)^{H_i}
+    \left(G/H_i\right)^{H_j}
   \right\vert
   \,.
 $$
@@ -92,7 +92,7 @@ $$
 
 (e.g. [Pfeiffer 97](#Pfeiffer97), chapter _[The Burnside Ring and the Table of Marks](http://schmidt.ucg.ie/~goetz/pub/marks/node1.html#SECTION00010000000000000000)_)
 
-+-- {: .num_example #TableOfMarksInTermsOfHoms}
++-- {: .num_remark #TableOfMarksInTermsOfHoms}
 ###### Remark
 **(table of marks in terms of homs)**
 
@@ -103,18 +103,22 @@ $$
   M_{i j}
   \;\coloneqq\;
   \left\vert
-    \left(G/H_j\right)^{H_i}
+    \left(G/H_i\right)^{H_j}
   \right\vert
   \;=\;
-  \left\vert Hom_{G Set}(G/H_i, G/H_j)\right\vert
+  \left\vert Hom_{G Set}(G/H_j, G/H_i)\right\vert
   \,.
 $$
 
 =--
 
+<br/>
+
 ## Properties
 
-The following says that the Burnside character plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]]:
+### General
+
+The following says that the [[Burnside character]] plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]]:
 
 +-- {: .num_prop #BurnsideCharacterIsInjective}
 ###### Proposition
@@ -126,21 +130,172 @@ The Burnside character (eq:BurnsideCharacter) is [[injective function|injective]
 
 (e.g. [tomDieck 79, Prop. 1.2.2](#tomDieck79), [tomDieck 09, Prop. 5.1.1](#tomDieck09))
 
+Notice that
 
-+-- {: .num_prop #TableOfMarksIsInvertibleUpperTriangular}
-###### Proposition
-**([[table of marks]] is [[upper-triangular matrix|upper-triangular]] [[invertible matrix]])**
++-- {: .num_prop #LinearOrderOnConjugacyClassesOfSubgroups}
+###### Lemma
+**([[linear order]] on set of [[conjugacy classes]] of [[subgroups]])**
 
-Ordering the [[conjugacy classes]] $[H_i]$ of [[subgroups]] of $G$ by inclusion, the [[table of marks]] (Def. \rep{TableOfMarks}) becomes an [[upper-triangular matrix]] over the [[integers]] with non-[[zero]] entries on the diaginal. Therefore it is in particular an [[invertible matrix]]
+There exists a [[linear order]] $\leq_{lin}$ on the [[set]] of [[conjugacy classes]] $[H]$ of [[subgroups]] of $G$ such that a subgroup inclusion $H \subset H'$ implies that $[H] \leq_{lin} [H']$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-That the [[subgroup]] $H_i \subset G$ has any [[fixed points]] in $G/H_j$ means equivalently that $H_i$ is [[conjugation action|conjugate]] to a subgroup of the [[stabilizer group]] of $[e] = e H_j \in G/H_j$, which is $H_j$.
+This follows by the general existence of [[linear extensions of partial orders]] applied to the [[subgroup lattice]] of $G$.
 
 =--
+
++-- {: .num_prop #TableOfMarksIsInvertibleUpperTriangular}
+###### Proposition
+**([[table of marks]] is [[upper-triangular matrix|upper-triangular]] [[invertible matrix]])**
+
+
+With respect to any [[linear order]] on the [[conjugacy classes]] of subgroups as in Lemma \ref{LinearOrderOnConjugacyClassesOfSubgroups},  the [[table of marks]] (Def. \ref{TableOfMarks}) becomes a [[lower triangular matrix]] over the [[integers]] with non-[[zero]] entries on the diagonal. Therefore it is in particular an [[invertible matrix]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the [[subgroup]] $H_j \subset G$ has any [[fixed points]] in $G/H_i$ means equivalently that $H_j$ is [[conjugation action|conjugate]] to a [[subgroup]] of the [[stabilizer group]] of $[e] = \in G/H_i$. But the latter group is manifestly $H_i$. This says that
+
+$$
+  \big(
+    M_{i j} \gt 0
+  \big)
+  \;\Rightarrow\;
+  \big(
+    [H_j] \leq_{lin} [H_i]
+  \big)
+  \,,
+$$ 
+
+hence that the matrix $M$ is [[lower triangular matrix|lower triangular]].
+
+
+=--
+
+### Relation to Burnside product
+
+We discuss how the [[table of marks]] is related to the [[Burnside ring]] of the given [[finite group]] $G$.
+
+In the following, given a [[G-set]] $G/H_i$ we write $[G/H_i] \in A(G)$ for its [[isomorphism class]], regarded as an element in the [[Burnside ring]].
+
++-- {: .num_defn #BurnsideMultiplicities}
+###### Definition
+**(Burnside multiplicities)**
+
+Given a choice of [[linear order]] on the [[conjugacy classes]] of [[subgroups]] of $G$ (for instance as in Lemma \ref{LinearOrderOnConjugacyClassesOfSubgroups}), we say that the corresponding _structure constants_ of the [[Burnside ring]] (or _Burnside multiplicities_) are the [[natural numbers]] 
+
+\[
+  n_{i j}^\ell \;\in\; \mathbb{N}
+\] 
+
+uniquely defined by the [[equation]]
+
+\[
+  \label{BurnsideStructureConstants}
+  [G/H_i] \times [G/H_j]
+  \;=\;
+  \underset{ \ell }{\sum}
+  n_{i j}^\ell [G/H_\ell]
+  \,.
+\]
+
+=--
+
++-- {: .num_prop #BurnsideProductInTermsOfTableOfMarks}
+###### Proposition
+**([[Burnside ring]] product in terms of [[table of marks]])**
+
+The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)^{m \ell} \right)$ (which exists by Prop. \ref{TableOfMarksIsInvertibleUpperTriangular}):
+
+$$
+  n_{i j}^\ell
+  \;=\;
+  \underset{m}{\sum}
+  M_{i m} \cdot M_{j m}
+  \cdot
+  (M^{-1})^{m \ell}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+    \underset{\ell}{\sum}
+    n_{i j}^\ell \cdot M_{\ell m}
+    & =
+    \underset{\ell}{\sum}
+    n_{i j}^\ell 
+    \cdot
+    \left\vert
+      Hom_G
+      \big(
+        G/H_m
+        ,
+        G/H_\ell
+      \big)
+    \right\vert
+    \\
+    & =
+    \left\vert
+      Hom_G
+      \big(
+        G/H_m
+        ,
+        \underset{\ell}{\sum}
+        n_{i j}^\ell 
+        \cdot
+        G/H_\ell
+      \big)
+    \right\vert
+    \\
+    & =
+    \left\vert
+      Hom_G\big(
+       G/H_m, 
+       \;
+       G/H_i \times G/H_j
+      \big)
+    \right\vert
+    \\
+    & =
+    \left\vert
+      Hom_G\big(
+       G/H_m, 
+       \;
+       G/H_i 
+      \big)
+    \right\vert
+    \cdot
+    \left\vert
+      Hom_G\big(
+       G/H_m, 
+       \;
+       G/H_j
+      \big)
+    \right\vert
+    \\
+    & =
+    M_{i m} \cdot M_{j m}
+  \end{aligned}
+$$
+
+Here the third step uses the defining equation (eq:BurnsideStructureConstants) of the structure constants $n_{i j}^\ell$, while all other steps use that the mark homomorphism is a [[ring homomorphism]], which we made manifest by expressing the marks via [[hom-sets]] (Remark \ref{TableOfMarksInTermsOfHoms}).
+
+The claim now follows by [[matrix multiplication]] of both sides of this equation my $M^{-1}$.
+
+=--
+
+
 
 
 ## Related concepts
