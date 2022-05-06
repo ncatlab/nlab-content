@@ -92,7 +92,7 @@ under [[AdS/CFT duality]] ([Beisert-Frolov-Staudacher-Tseytlin 03](#BeisertFrolo
 
 At the heart of the duality is the observation that the classical [[action functionals]] for various [[field (physics)|fields]] coupled to [[Einstein gravity]] on [[anti de Sitter spacetime]] are, when expressed as [[functions]] of the [[asymptotic boundary]] values of the [[field (physics)|fields]], equal to the [[generating functions]] for the [[correlators]]/[[n-point functions]] of a [[conformal field theory]] on that asymptotic boundary. 
 
-These computations were laid out in [Witten 98, section 2.4 "Some sample computation"](#Witten98). These follow from elementary manipulation in [[differential geometry]] (involving neither [[supersymmetry]] nor [[string theory]]).
+These computations were laid out in [Witten 98, section 2.4 "Some sample computation"](#Witten98). These follow from elementary manipulation in [[differential geometry]] (involving neither [[supersymmetry]] nor [[string theory]]). A good exposition is in [Hartnoll-Lucas-Sachdev 16, Section 1.6](#HartnollLucasSachdev16)
 
 For the more ambitious matching of the spectrum of the dilatation operator of [[N=4 D=4 super Yang-Mills theory]] to the corresponding spectrum of the [[Green-Schwarz superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ detailed checks are summarized in [Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)
 
@@ -687,7 +687,7 @@ On [[AdS-CFT in condensed matter physics]]:
 
 Textbook account
 
-* {#HartnollLucasSachdev16} Sean A. Hartnoll, Andrew Lucas, [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+* {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
 Further reviews include the following:
 
