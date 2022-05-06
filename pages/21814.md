@@ -20,6 +20,8 @@ A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a
 
 ## Related concepts
 
+* [[vortex string]]
+
 * [[black brane]]
 
 * [[exotic brane]]
