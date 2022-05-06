@@ -12,6 +12,10 @@ His students include
 * Yu. Tschinkel
 * ... 
 
+## References
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Yuri_I._Manin)
+
 
 ## Selected writing
 
@@ -28,10 +32,16 @@ On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry
 
 * [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
 
+## Quotes
 
-## References
+> _only poetry and mathematics are capable of speaking meaningfully about such things_
 
-* [wikipedia](http://en.wikipedia.org/wiki/Yuri_I._Manin)
+_Mathematics as Metaphor_: Selected Essays of Yuri I. Manin (ed. 2007) ([libquotes](https://libquotes.com/yuri-manin/quote/lbj0h0e))
+
+
+
+
+
 
 
 category: people
