@@ -1,28 +1,68 @@
 
 
-Let $n \in \mathbb{N}$, $n \geq 2$ be a [[natural number]] which is not a multiple of $6$  (?) and consider $G \coloneqq \mathbb{Z}/n$ the [[cyclic group]] of [[order of a group|order]] $k$.
 
-Then for $V \in Rep_{\mathbb{R}}\big(\mathbb{Z}/n\big)$ a [[finite-dimensional vector space|finite-dimensional]] [[linear representation]] over the [[real numbers]], the following conditions are equivalent:
++-- {: .num_prop }
+###### Proposition
 
-* the [[character of a linear representation|character]] of $V$ takes values in the [[integers]]:
+Let $n \in \mathbb{N}$, $n \geq 2$ be a [[natural number]] and consider $G \coloneqq \mathbb{Z}/n$ the [[cyclic group]] of [[order of a group|order]] $k$. Let 
 
-  $$
-    \chi_V \;\colon\; \mathbb{Z}/n \longrightarrow \mathbb{Z} \hookrightarrow \mathbb{R}
-  $$
+$$
+  V \in Rep_{\mathbb{R}}\big(\mathbb{Z}/n\big)
+$$ 
 
-* $V$ comes from a [[linear representation]] over the [[rational numbers]]
+be a [[finite-dimensional vector space|finite-dimensional]] [[linear representation]] over the [[real numbers]]
 
-  $$
-    V \;\colon\; \mathbb{Z}/n \longrightarrow GL_{\mathbb{Q}} \hookrightarrow GL_{\mathbb{R}}
-  $$
+Then:
 
-Moreover, if $n$ is a multiple of 6, then there are $V$ for which the first but not the second condition holds.
+If $n$ is not a multiple of 6, the following conditions are equivalent:
 
-Namely:
+1. the [[character of a linear representation|character]] of $V$ takes values in the [[integers]]:
 
-In one direction, if $V$ is a rational representation, then clearly its character takes values in the rational numbers; but since [[characters]] are [[cyclotomic integers]], this implies that it actually already takes values in integers.
+   $$
+     \chi_V \;\colon\; \mathbb{Z}/n \longrightarrow \mathbb{Z} \hookrightarrow \mathbb{R}
+   $$
 
-In the other direction, assume that $\chi_V$ takes values in the [[integers]]. We need to show that $V$ is a rational representation.
+1. $V$ comes from a [[linear representation]] over the [[rational numbers]]
+
+   $$
+     V \;\colon\; \mathbb{Z}/n \longrightarrow GL_{\mathbb{Q}} \hookrightarrow GL_{\mathbb{R}}
+   $$
+
+1. $V$ is the [[direct sum]] of a [[trivial representation]] and a [[sign representation]]:
+
+   $$
+     V
+     \;\simeq\;
+     \big(
+       \mathbf{1}
+     \big)^{\oplus_p}
+     \oplus
+     \big(
+       \mathbf{1}_{sgn}
+     \big)^{\oplus_q}
+   $$
+
+
+On the other hand, if $n$ is a multiple of 6, then there are $V$ for which the first but not the other two conditions hold, for instance $V = \mathbf{2}_1$ for $n = 6$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+\linebreak
+
+$3) \Rightarrow 1)$
+
+The character values of trivial and sign representations are clearly in $\{\pm 1\} \subset \mathbb{Z}$. 
+
+$2) \Rightarrow 1)$
+
+If $V$ is a rational representation, then clearly its character takes values in the rational numbers; but since [[characters are cyclotomic integers]], this implies that it actually already takes values in integers.
+
+$1) \Rightarrow 2)$
+
+Assume that $\chi_V$ takes values in the [[integers]]. We need to show that $V$ is a rational representation.
 
 Since the [[character homomorphism]] is linear, sending [[direct sums]] of representations to element-wise sums of characters, we may immediatly reduce to the case that $V$ is an [[irreducible representation]] of the [[cyclic group]] $\mathbb{Z}/n$, hence that, up to [[isomorphism]] 
 
@@ -79,9 +119,12 @@ $$
   \right)
 $$
 
-and since $\mathbf{2}_k$ is a rational representation precisely if these [[matrices]] have entries in the rational numbers, we are reduced to checking the following statement
+and since $\mathbf{2}_k$ is a rational representation precisely if these [[matrices]] have entries in the rational numbers, we are reduced to checking the statement
 
 $$
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+  \;
   2 
   \,
   \cos
@@ -91,9 +134,14 @@ $$
   \right)
   \;\in\;
   \mathbb{Z}
+  \;
+  \Big)
   \phantom{AA}
   \Rightarrow
   \phantom{AA}
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+  \;
   \cos
   \left(
     2 \pi 
@@ -107,11 +155,16 @@ $$
   \right)
   \;\in\;
   \mathbb{Q}
+  \;
+  \Big)
 $$
 
 hence equivalently the statement
 
 $$
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+  \;
   \cos
   \left(
     2 \pi 
@@ -120,9 +173,14 @@ $$
   \;\in\;
   \tfrac{1}{2}
   \mathbb{Z}
+  \;
+  \Big)
   \phantom{AA}
   \Rightarrow
   \phantom{AA}
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+  \;
   \sin
   \left(
     2 \pi 
@@ -130,12 +188,16 @@ $$
   \right)
   \;\in\;
   \mathbb{Q}
+  \;
+  \Big)
 $$
 
 hence equivalently the statement
 
-
 $$
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+  \;
   \cos
   \left(
     2 \pi 
@@ -145,9 +207,14 @@ $$
   \big\{
     -1, -1/2, 0, +1/2, +1
   \big\}
+  \;
+  \Big)
   \phantom{AA}
   \Rightarrow
   \phantom{AA}
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+  \;
   \sin
   \left(
     2 \pi 
@@ -155,6 +222,8 @@ $$
   \right)
   \;\in\;
   \mathbb{Q}
+  \;
+  \Big)
 $$
 
 Since the relevant [[arccos]] is 
@@ -173,24 +242,118 @@ $$
 
 and since $sin(0) = 0 \in \mathbb{Q}$ but $sin\big(\pi/3\big) = \sqrt{3}/2$ is an [[irrational number]], this holds if and only if
 
+\[
+  \label{RationalAnglesForWhichCosIsRational}
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+    2 \pi \tfrac{q k}{n}
+    \;\neq\;
+    2 \pi \tfrac{1}{6}
+    ,\;
+    2 \pi \tfrac{2}{6}
+    ,\;
+    2 \pi \tfrac{4}{6}  
+    ,\;
+    2 \pi \tfrac{5}{6}  
+    \;\;\;
+    mod\;
+    2\pi
+  \Big)
+\]
+
+Evidently, this is the case if $n$ is not a multiple of 6.
+
+On the other hand, if $n = 6$, then for all $q \in \mathbb{Z}$
+
 $$
-  2 \pi \tfrac{q k}{n}
-  \;\neq\;
-  2 \pi \tfrac{1}{6}
-  ,\;
-  2 \pi \tfrac{2}{6}
-  ,\;
-  2 \pi \tfrac{4}{6}
-  ,\;
-  2 \pi \tfrac{5}{6}  
-  \;\;\;
-  mod\;
-  2\pi
+  \chi_{\mathbf{2}_1}\big( [q] \big)
+  \;=\;
+  2 \cos
+  \left(
+    2\pi \tfrac{q}{6}
+  \right)
+  \;\in\;
+  \mathbb{Z}
+  \phantom{AA}
 $$
 
-But this evidently holds for all $q$ and $k$ if and only if $n$ is not a multiple of 6, which is precisely the assumption stated.
+but $\sin\left(2\pi \tfrac{1}{6} \right) = \sqrt{3}/2$ is [[irrational number|irrational]], and in particular $\mathbf{2}_1$ is not a direct sum of a trivial and a sign representation.
+
+$2) \Rightarrow 3)$
+
+Assume that $\mathbf{2}_k$ is a rational representation. We need to show that it is the direct sum of a trivial representation with a sign representation.
+
+That $\mathbf{2}_k$ is rational means that 
+
+1. $\underset{q \in \mathbb{Z}}{\forall}\Big(\cos\left( 2\pi \tfrac{q k}{n} \right) \;\in \; \mathbb{Q}\Big)$ 
+
+1. $\underset{q \in \mathbb{Z}}{\forall}\Big(\sin\left( 2\pi \tfrac{q k}{n} \right) \;\in\; \mathbb{Q}\Big)$ 
+
+The first of these conditions is equivalent to (see [here](characters+are+cyclotomic+integers#eq:RationalCosineValuesOfRationalAngles))
+
+$$
+  \underset{q \in \mathbb{Z}}{\forall} 
+  \Big(
+  \cos\left( 2\pi \tfrac{q k}{n} \right)
+  \;\in\;
+  \big\{
+     -1,\;
+     -1/2,\; 
+     0,\; 
+     +1/2,\;
+     1
+  \big\}
+  \Big)
+$$
+
+which is equivalent to 
+
+$$
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+    \underset{r \in \mathbb{Z}}{\exists}
+    \Big(
+      2 \pi \tfrac{q k}{n} 
+      \;=\; 
+      2\pi \tfrac{r}{6}
+      \;
+      mod
+      \,
+      2 \pi
+    \Big)
+  \Big)
+  \,.
+$$
+
+Since $sin\left( 2 \pi \tfrac{1}{6}\right) = \sqrt{3}/2$ is irrational, this implies with the second condition that in fact
+
+$$
+  \underset{q \in \mathbb{Z}}{\forall}
+  \Big(
+    \underset{r' \in \mathbb{Z}}{\exists}
+    \Big(
+      2 \pi \tfrac{q k}{n} 
+      \;=\; 
+      2\pi \tfrac{r'}{2}
+      \;
+      mod
+      \,
+      2 \pi
+    \Big)
+  \Big)
+  \,.
+$$
+
+This holds if either
+
+1. $k = 0$, in which case $\mathbf{2}_0 = \mathbf{1} \oplus \mathbf{1}$ is a trivial representation
+
+1. $k = n/2$, in which case $\mathbf{2}_{n/2} \simeq \mathbf{1}_{sgn} \oplus \mathbf{1}_{sgn}$ is a sign representation.
+
+=--
 
 
+\linebreak
 
 
 
