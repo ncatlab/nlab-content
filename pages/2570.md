@@ -55,6 +55,60 @@ In the special case that the original vectors are linearly independent and after
 
 (...)
 
++-- {: .num_lemma #LUDecompositionOfPositiveSemidefiniteMatrices}
+###### Lemma
+**(LU-decomposition of [[positive semidefinite matrices]])**
+
+Every [[positive semidefinite matrix]] $M$ has a [[matrix product]]-decomposition
+
+$$
+  M \;=\; L \cdot U
+$$
+
+where
+
+1. $L$ is 
+
+   1. a [[lower triangular matrix]]
+
+   1. an [[invertible matrix]]
+
+1. $U$ is an [[upper triangular matrix]].
+
+=--
+
+([Pursell-Trimble 91, p. 4](#PursellTrimble91))
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(a_j)$ be a [[tuple]] of [[vectors]] of the same length, hence let 
+
+$$
+  A = (A_{i j}) \coloneqq ((a_j)i)
+$$
+
+be the [[matrix]] whose $j$th column is $a_j$.
+
+Since the [[matrix product]] $M \coloneqq A^T \cdot A$ of $A$ with its [[transpose matrix]] is necessarily a [[positive semidefinite symmetric matrix]] it has an LU-decomposition according to Lemma \ref{LUDecompositionOfPositiveSemidefiniteMatrices}:
+
+$$
+  A^T \cdot A \;=\; L \cdot U
+  \,.
+$$
+
+Then the column vectors $(\hat q_i)$ of the matrix
+
+$$
+  \widehat Q \;\coloneqq\; A \cdot (L^{-1})^T
+$$
+
+constitute an orthogonalization of the original tuple of vectors $(a_i)$ in that the non-zero $\hat q_i$ form an orthogonal [[linear basis]] of the [[linear span]] of the $(a_j)$.
+
+=--
+
+([Pursell-Trimble 91, top of p. 5](#PursellTrimble91))
+
 
 ## Examples
 
