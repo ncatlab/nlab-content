@@ -38,7 +38,9 @@ In the underlying topological sector ("[[monopole]]"/"[[instantons]]"-sector) th
 <img src="https://ncatlab.org/nlab/files/DiracChargeQuantizationII.jpg" width="640">
 </center>
 
-This goes back to an insight due to [Dirac 31](#Dirac31), See [Heras 18](#Heras18) for traditional elementary review. See [Frankel](#Frankel) and [Mangiarotti-Sardanashvily 00](#MangiarottiSardanashvily00) for exposition of the modern picture in terms of [[fiber bundles in physics]]. See [Freed 00, Section 2](#Freed00) for review in terms of [[differential cohomology]] with outlook to generalization to [[higher gauge fields]] in [[string theory]] (more on which in the references [below](#ReferencesForBFieldAndRRFields)).
+This goes back to an insight due to [Dirac 31](#Dirac31). See [Heras 18](#Heras18) for traditional elementary review, but see [Alvarez 85](#Alvarez85),  [Frankel](#Frankel) and [Mangiarotti-Sardanashvily 00](#MangiarottiSardanashvily00) for exposition of the modern picture in terms of [[fiber bundles in physics]]. See [Freed 00, Section 2](#Freed00) for review in terms of [[differential cohomology]] with outlook to generalization to [[higher gauge fields]] in [[string theory]] (more on which in the references [below](#ReferencesForBFieldAndRRFields)).
+
+A closely related phenomenon is the magnetic flux quantization in [[type II superconductors]], see [there](superconductivity#MagneticFluxQuantizationInTypeIISuperconductors).
 
 On the locus of the magnetic charge itself the situation is more complex. There the [[magnetic current]] is given by a cocycle in [[ordinary differential cohomology]] of degree 3 (with compact support) and now the electromagnetic field is a connection on a [[twisted bundle]] ([Freed 00, Section 2](#Freed00)).
 
@@ -90,7 +92,7 @@ The original argument for charge quantization of the [[electromagnetic field]] i
 
 Review:
 
-* [[Orlando Alvarez]], Section 2 of: _Topological quantization and cohomology_, Comm. Math. Phys. Volume 100, Number 2 (1985), 279-309 ([euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448))
+* {#Alvarez85} [[Orlando Alvarez]], Section 2 of: _Topological quantization and cohomology_, Comm. Math. Phys. Volume 100, Number 2 (1985), 279-309 ([euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448))
 
 * {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press 2011 ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377))
 
