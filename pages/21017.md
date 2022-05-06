@@ -64,7 +64,7 @@ This construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Nat
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/AtHooftConstriction.jpg" width="650">
+<img src="https://ncatlab.org/nlab/files/AtHooftConstrictionII.jpg" width="650">
 </center>
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
