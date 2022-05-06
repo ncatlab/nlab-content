@@ -3,6 +3,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 A _fuzzy sphere_ is a variant of an [[n-sphere]] in [[noncommutative geometry]]. Often the fuzzy _[[2-sphere]]_ is meant by default, but there are also fuzzy spheres of higher dimension.
@@ -215,7 +216,11 @@ Comparison with the definition of $\mathrm{sl}(2)$-weight system Vassiliev invar
 
 ## References
 
-### General
+On the [[fuzzy 2-sphere]]:
+
+### Fuzzy 2-sphere
+
+#### General
 
 * [[John Madore]], _The Fuzzy sphere_, Class. Quant. Grav. 9 (1992) 69-88 ([spire:314358](http://inspirehep.net/record/314358))
 
@@ -223,7 +228,7 @@ See also:
 
 * Wikipedia, _[Fuzzy sphere](https://en.wikipedia.org/wiki/Fuzzy_sphere)_
 
-### Observables via Vassiliev braid invariants
+#### Observables via Vassiliev braid invariants
 
 Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
 [[Yang-Mills monopoles]]) to [[Vassiliev braid invariants]] via [[chord diagrams]] computing [[radii]] of [[fuzzy spheres]]:
@@ -236,9 +241,26 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
+### Fuzzy 3-sphere
+
+The [[fuzzy 3-sphere]] was first discussed (in the context of [[D0-brane]]-systems) in 
+
+* Z. Guralnik, [[Sanyaje Ramgoolam]], _On the Polarization of Unstable D0-Branes into Non-Commutative Odd Spheres_, JHEP 0102:032, 2001 ([arXiv:hep-th/0101001](https://arxiv.org/abs/hep-th/0101001))
+
+Discussion in the context of [[M2-M5-brane bound states]]/[[E-strings]]:
+
+* {#BasuHarvey05} [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+
 
 [[!redirects fuzzy spheres]]
 
 [[!redirects fuzzy sphere]]
 [[!redirects fuzzy spheres]]
+
+[[!redirects fuzzy 2-sphere]]
+[[!redirects fuzzy 2-spheres]]
+
+[[!redirects fuzzy 3-sphere]]
+[[!redirects fuzzy 3-spheres]]
 
