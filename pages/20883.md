@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-In [[knot theory]], a large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[metric Lie algebra|metric]] [[Lie algebra object]] equipped with a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. 
+In [[knot theory]], a large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labeling it by the structure morphisms of a [[metric Lie algebra|metric]] [[Lie algebra object]] equipped with a [[metric Lie representation|metric]] [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/LieAlgebraWeightSystemAssignment.jpg" width="600">
