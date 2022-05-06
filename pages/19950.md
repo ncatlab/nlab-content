@@ -379,6 +379,10 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 * {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
+* {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel)26(1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
+
+* {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+
 * {#Peschke94} [[George Peschke]], _Degree of certain equivariant maps into a representation sphere_, Topology and its Applications Volume 59, Issue 2, 30 September 1994, Pages 137-156 (<a href="https://doi.org/10.1016/0166-8641(94)90091-4">doi:10.1016/0166-8641(94)90091-4</a>)
 
 * {#Cruickshank03} James Cruickshank, _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
