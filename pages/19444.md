@@ -2,13 +2,13 @@
 
 ## Definition
 
-Let $C$ be a category, $C^\otimes$ the free symmetric monoidal category on $C$ and $M$ a symmetric monoidal category. 
+Let $C$ be a groupoid, $C^\otimes$ the free symmetric monoidal category on $C$ and $M$ a symmetric monoidal category. 
 
-(Kaufmann, Ward 2013) A symmetric strong monoidal functor $\tau: C^\otimes\to M$ is a __Feynman category__ if the following are satisfied
+([Kaufman 2017, Defn 2.1](#Kaufman17)) A symmetric strong monoidal functor $\tau: C^\otimes\to M$ is a __Feynman category__ if the following are satisfied
 
-* $\tau$ is a groupoid
-* $\tau$ induces an equivalence of groupoids $C^\otimes \cong M_{iso}$
-* $\tau$ induces an equivalence of groupoids $(C\downarrow M)^\otimes_{iso}\cong(M\downarrow M)_{iso}$
+* _isomorphisms condition_: $\tau^\otimes$ induces an equivalence of symmetric monoidal categories $C^\otimes \cong M_{iso}$
+* _hereditary condition_: $\tau$ and $\tau^\otimes$ induce an equivalence of symmetric monoidal categories  $(C\downarrow M)^\otimes_{iso}\cong(M\downarrow M)_{iso}$
+* _size condition_: For any $\ast \in C$, $(M \downarrow \ast)$ is [[essentially small]].
 
 (Getzler 2009) A symmetric strong monoidal functor $\tau: C^\otimes\to M$ is a __regular pattern__ if the following are satisfied
 
@@ -28,7 +28,11 @@ The axiomatics is proposed in
 
 A more recent survey is in 
 
-* Ralph M. Kaufmann, _Lectures on Feynman categories_, [arxiv:1702.06843](https://arxiv.org/abs/1702.06843)
+* {#Kaufman17} Ralph M. Kaufmann, _Lectures on Feynman categories_, [arxiv:1702.06843](https://arxiv.org/abs/1702.06843)
+
+A representation-theoretical viewpoint is given in 
+
+* Ralph M. Kaufmann, _Feynman categories and Representation Theory_, ([arXiv:1911.10169](https://arxiv.org/abs/1911.10169)) 
 
 A useful generalization is exhibited in 
 
