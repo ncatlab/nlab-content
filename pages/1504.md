@@ -502,20 +502,38 @@ and further detailed analysis is in
 ### Superstring field theory
  {#ReferencesSuperstringFieldTheory}
 
-A [[schreiber:∞-Chern-Simons theory]]-type formulation of closed superstring field theory analogous to the bosonic version in ([Zwiebach 93](#Zwiebach93)) is in 
+The generalization to field theory for the [[superstring]], where [[picture number]] compliates the [[RR-field]]-sector, has (only) more recently seen considerable development, 
 
-* {#JurcoMuenster13} [[Branislav Jurco]], Korbinian Muenster, _Type II Superstring Field Theory: Geometric Approach and Operadic Description_, JHEP 1304:126 (2013) [arXiv/1303.2323](http://arxiv.org/abs/1303.2323) <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>
- 
+* Hiroshi Kunitomo, Yuji Okawa, _Complete action for open superstring field theory_, Prog. Theor. Exp. Phys. (2016) 023B01 ([arXiv:1508.00366](https://arxiv.org/abs/1508.00366))
 
-based on 
+A survey is in
 
-* {#Yeh93} Chungsheng James Yeh, _Topics in superstring theory_, PhD thesis, Berkeley 1993 ([SPIRE](http://inspirehep.net/record/366138))
- 
-See also
+* {#Okawa16} Yuji Okawa, _Recent developments in the construction of 
+superstring field theory I_, 2016 ([pdf](http://www-het.ph.tsukuba.ac.jp/~ishibash/SFT16/okawa.pdf))
+
+based on
 
 * {#ErlerKonopkaSach13} [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _Resolving Witten's Superstring Field Theory_, JHEP04(2014)150 ([arXiv:1312.2948](http://arxiv.org/abs/1312.2948))
 
 * {#ErlerKonopkaSach14} [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _NS-NS Sector of Closed Superstring Field Theory_, JHEP08(2014)158 ([arXiv:1403.0940](http://arxiv.org/abs/1403.0940))
+
+* [[Ashoke Sen]], _Gauge Invariant 1PI Effective Superstring Field Theory: Inclusion of the Ramond Sector_ ([arXiv:1501.00988](https://arxiv.org/abs/1501.00988))
+
+* [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _Ramond Equations of Motion in Superstring Field Theory_ ([arXiv:1506.05774](https://arxiv.org/abs/1506.05774))
+
+* {#Sen15} [[Ashoke Sen]], _BV Master Action for Heterotic and Type II String Field Theories_, JHEP02(2016)087 ([arXiv:1508.05387](http://arxiv.org/abs/1508.05387))
+
+with further developments in
+
+* Yuji Okawa, [[Barton Zwiebach]], _Heterotic String Field Theory_ ([arXiv:hep-th/0406212](http://arxiv.org/abs/hep-th/0406212))
+
+* Roji Pius, [[Ashoke Sen]], _Cutkosky Rules for Superstring Field Theory_ ([arXiv:1604.01783](http://arxiv.org/abs/1604.01783))
+
+* [[Ashoke Sen]], _Reality of Superstring Field Theory Action_ ([arXiv:1606.03455](http://arxiv.org/abs/1606.03455))
+
+
+
+
 
 Interpretation of [[picture number]] as a grading on [[differential forms on supermanifolds]] induced from a choice of[[integration over supermanifolds|integral top form]] is due to 
 
@@ -528,7 +546,15 @@ and has been further amplified in
 * R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
 
-The introduction of ([Jurco-Muenster13](#JurcoMuenster13)) has a useful survey of the previous attempt, which we quote now:
+For previous constructions, the introduction of 
+
+* {#JurcoMuenster13} [[Branislav Jurco]], Korbinian Muenster, _Type II Superstring Field Theory: Geometric Approach and Operadic Description_, JHEP 1304:126 (2013) [arXiv/1303.2323](http://arxiv.org/abs/1303.2323) <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>
+
+based on 
+
+* {#Yeh93} Chungsheng James Yeh, _Topics in superstring theory_, PhD thesis, Berkeley 1993 ([SPIRE](http://inspirehep.net/record/366138))
+
+has a useful survey, which we quote now:
 
 +-- {: quote}
 ###### Quote from ([Jurco-Muenster13](#JurcoMuenster13)):
@@ -592,23 +618,12 @@ The purpose of ([Jurco-Muenster 13](#JurcoMuenster13)) is to describe the constr
 
 =--
 
-See also 
 
-* Yuji Okawa, [[Barton Zwiebach]], _Heterotic String Field Theory_ ([arXiv:hep-th/0406212](http://arxiv.org/abs/hep-th/0406212))
-
-Reviews include
+Older reviews include
 
 * [[Nathan Berkovits]], _Review of open superstring field theory_ , ([arXiv:hep-th/0105230](http://arxiv.org/abs/hep-th/0105230))
 
 More recently there is
-
-* {#Sen15} [[Ashoke Sen]], _BV Master Action for Heterotic and Type II String Field Theories_, JHEP02(2016)087 ([arXiv:1508.05387](http://arxiv.org/abs/1508.05387))
-
-with further developments in
-
-* Roji Pius, [[Ashoke Sen]], _Cutkosky Rules for Superstring Field Theory_ ([arXiv:1604.01783](http://arxiv.org/abs/1604.01783))
-
-* [[Ashoke Sen]], _Reality of Superstring Field Theory Action_ ([arXiv:1606.03455](http://arxiv.org/abs/1606.03455))
 
 ### Effective field theory
 
