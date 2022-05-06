@@ -133,12 +133,16 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](#ReferencesLiftToMTheory)
 
-
+$\,$
 
 ### Cosmology
  {#Cosmology}
 
-Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an [[anti de Sitter spacetime]], or close (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)). The basic structure is hence that of _[[Randall-Sundrum models]]_, but details may differ.
+Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is conformal to the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an approximately (and possibly conformally) [[anti de Sitter spacetime]] (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)). The basic structure is hence that of _[[Randall-Sundrum models]]_, but details may differ.
+
+For instance [Klebanov-Strassler 00](#KlebanovStrassler00) discuss ascpects of [[confinement]] in [[Yang-Mills theory]] on conincident ordinary and _[[fractional D-brane|fractional]]_ [[D3-branes]] at the [[singularity]] of a warped [[conifold]].
+
+$\,$
 
 ### Computer scan of Gepner-model compactifications
 
@@ -260,7 +264,9 @@ Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-s
 ### Cosmology
  {#ReferencesCosmology}
 
-Discussion of the [[cosmology]] of intersecting brane models includes (see also at _[[Randall-Sundrum model]]_)
+Discussion of the [[cosmology]] of intersecting brane models (ambient $\sim$ [[anti de Sitter spacetimes]] with the intersecting branes at the [[asymptotic boundary]]) includes the following (see also at _[[Randall-Sundrum model]]_)
+
+* {#KlebanovStrassler00} [[Igor Klebanov]], [[Matthew Strassler]], _Supergravity and a Confining Gauge Theory: Duality Cascades and $\chi^{SB}$-Resolution of Naked Singularities_, JHEP 0008:052, 2000 ([arXiv:hep-th/0007191](https://arxiv.org/abs/hep-th/0007191))
 
 * {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf))
 
