@@ -1,3 +1,9 @@
+
+* [[Luis Alvarez-Gaume]], Frederic Zamora, p. 6 of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
+
+
+\linebreak
+
 **Prop.** Let $\mathbb{T}$ be of presheaf type. Then $Set[\mathbb{T}]\simeq  [\mathbb{T}\text{-}Mod_{fp}(Set),Set]$.
 
 Proof. By assumption $Set[\mathbb{T}]\simeq [\mathcal{C}, Set]$. Since $[\mathcal{C},Set]\simeq [\hat{\mathcal{C}}, Set]$ (by Elephant, p.10) we can assume that $\mathcal{C}$ is Cauchy complete.
