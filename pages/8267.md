@@ -18,11 +18,11 @@
 
 ## Idea
 
-The _salamander lemma_ is a fundamental lemma in [[homological algebra]] providing information on the relation between [[homology groups]] at different positions in a [[double complex]]. 
+The _salamander lemma_ is a fundamental [[lemma]] in [[homological algebra]] providing information on the relation between [[homology groups]] at different positions in a [[double complex]]. 
 
-By a simple consequence illustrated in remark \ref{ExtramuralMapsAsDiagonals} below, all the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of this lemma, such as the [[3x3 lemma]], the [[four lemma]], hence the [[five lemma]],   the [[snake lemma]], and the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
+By a simple consequence illustrated in remark \ref{ExtramuralMapsAsDiagonals} below, all the standard [[diagram chasing lemmas]] of [[homological algebra]] are direct and transparent consequences of the salamander lemma, such as the [[3x3 lemma]], the [[four lemma]], hence the [[five lemma]], the [[snake lemma]], and also the [[long exact sequence in cohomology]] corresponding to a [[short exact sequence]].
 
-These lemmas are old and classical, but their traditional proofs are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent and also make evident a host of further lemmas of this kind not traditionally considered, such as an [nxn lemma](#nxnLemma) for all $n \in \mathbb{N}$.
+These lemmas are all classical, but their traditional [[proofs]] are, while elementary, not very illuminating. The Salamander lemma serves to make the mechanism behind these lemmas more transparent and also to make evident a host of further lemmas of this kind not traditionally considered, such as an [nxn lemma](#nxnLemma) for all $n \in \mathbb{N}$.
 
 
 ## The Salamander lemma
@@ -39,8 +39,9 @@ The Salamander lemma, prop. \ref{SalamanderLemma} below, is a statement about th
 ###### Remark
 **(general assumption/convention)**
 
-As always in [[homological algebra]], when we consider _elements_ of objects in the [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[Embedding theorems](http://ncatlab.org/nlab/show/abelian%20category#EmbeddingTheorems)_ has been used to embed it into such, by a [[faithful functor|faithful]] and [[exact functor]], and these elements are actual elements of the [[sets]] underlying these [[modules]].
-In the following many of the proofs are spelled out in terms of elements this way and we will not always repeat this assumption. This should help to amplify how utterly elementary the salamander lemma is. But explicitly element-free/general abstract proofs can of course be given with not much more effort, too, see ([Wise](#Wise)).
+As always in [[homological algebra]], when we consider _[[elements]]_ of [[objects]] in the ambient [[abelian category]] $\mathcal{A}$ it is either assumed that $\mathcal{A}$ is of the form $R$[[Mod]] for some [[ring]] $R$, or that one of the _[embedding theorems](habelian+category#EmbeddingTheorems)_ has been used to embed it into such, by a [[faithful functor|faithful]] and [[exact functor]], so that these elements are actual elements of the [[sets]] underlying these [[modules]].
+
+In the following, many of the [[proofs]] are spelled out in terms of elements this way, and we will not always repeat this assumption. This should help to amplify how utterly elementary the salamander lemma is. But explicitly element-free/general abstract proofs can of course be given without much more effort, too, see ([Wise](#Wise)).
 
 =--
 
@@ -73,7 +74,7 @@ $$
 
 where $\partial^{hor} \circ \partial^{hor} = 0$, where $\partial^{vert} \circ \partial^{vert} = 0$ and where all squares [[commuting diagram|commute]], $\partial^{hor} \circ \partial^{vert} = \partial^{vert} \circ \partial^{hor}$.
 
-Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any position $(k,l)$. This is the source and target of horizontal, vertical and diagonal (unique composite of a horizontal and a vertical) [[morphisms]] to be denoted as follows:
+Let $A \coloneqq A_{k l}$ be any [[object]] in the double complex at any position $(k,l)$. This is the [[source]] and [[target]] of horizontal, vertical and diagonal (unique composite of a horizontal and a vertical) [[morphisms]] to be denoted as follows:
 
 $$
   \array{
@@ -100,7 +101,15 @@ Define
 
 * $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) + im(\partial^{vert}_{in})}$ -- the "donor" at $A$;
 
-where $ker(-)$ denotes the [[kernel]] of a map, $im(-)$ the [[image]] of a map and $\frac{N_1}{N_2}$ the [[quotient module]] of the module $N_1$ by a [[submodule]] $N_2 \hookrightarrow N_1$ and $N_1 + N_2$ the sum of two submodules (i.e., [[join]] in the [[lattice]] of submodules under inclusion). 
+where 
+
+* $ker(-)$ denotes the [[kernel]] of a map, 
+
+* $im(-)$ the [[image]] of a map, 
+
+* $\frac{N_1}{N_2}$ the [[quotient module]] of the module $N_1$ by a [[submodule]] $N_2 \hookrightarrow N_1$,
+
+*  $N_1 + N_2$ the sum of two submodules (i.e., their [[join]] in the [[lattice]] of submodules under inclusion). 
 
 =--
 
@@ -128,7 +137,7 @@ These morphisms are to be called the **intramural maps** of $A$.
 
 =--
 
-This is immediate, but here is a way to make it fully explicit:
+This is immediate, here is one way to make it fully explicit:
 
 +-- {: .proof}
 ###### Proof
@@ -162,7 +171,7 @@ from the donor of $A$ to the receptor of $B$, def. \ref{DonorReceptor}, called t
 
 =--
 
-Again this is immediate, but here is a way to make it explicit:
+Again this is immediate, here is one way to make it explicit:
 
 +-- {: .proof}
 ###### Proof
@@ -181,9 +190,9 @@ By definition \ref{DonorReceptor}, an $[a] \in A_{\Box}$ is represented by an $a
 ###### Remark
 **(central idea on diagram chasing)**
 
-It is useful in computations as those shown below in _[Implications - The diagram chasing lemmas](#Implications)_ to draw the extramural morphisms of lemma \ref{Extramural} as follows.
+It is useful in computations, such as those shown below in _[Implications - The diagram chasing lemmas](#Implications)_, to draw the extramural morphisms of lemma \ref{Extramural} as follows.
 
-1. For a horizontal $\partial^{hor} : A \to B$ we draw the induced extramural map as
+1. For a horizontal $\partial^{hor} \colon A \to B$ we draw the induced extramural map as
 
    $$   
      \array{   
@@ -196,7 +205,7 @@ It is useful in computations as those shown below in _[Implications - The diagra
      \,.
    $$
 
-1. For a vertical $\partial^{vert} : A \to B$ we draw the induced extramural map as
+1. For a vertical $\partial^{vert} \colon A \to B$ we draw the induced extramural map as
 
    $$
      \array{
