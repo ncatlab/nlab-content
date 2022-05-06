@@ -124,7 +124,7 @@ $$
 At [[model structure on functors]] it is discussed that composition with the Quillen pair $\Omega^\bullet \dashv K$ induces a Quillen adjunction
 
 $$
-  ([C,\Omega^bullet] \dashv [C,K])
+  ([C,\Omega^\bullet] \dashv [C,K])
   :
   [C, dgAlg^{op}]
   \stackrel{\overset{[C,\Omega^\bullet]}{\leftarrow}}{\underset{[C,K]}{\to}}
