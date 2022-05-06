@@ -12,41 +12,62 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An _atlas_ is a compatible collection of [[coordinate chart]]s.
+In [[general topology|basic topology]] and [[differential geometry]], by an _atlas_ of/for a [[topological manifold|topological]]-, [[differentiable manifold|differentiable]]- or [[smooth manifold]] $X$ one means a collection of [[coordinate charts]] $U_i \subset X$ which form an [[open cover]] of $X$.
 
-
-## Definition
-
-In full generality, for $\mathcal{G}$ a [[pregeometry for structured (∞,1)-toposes|pregeometry]] and $X \in Sh_{(\infty,1)}(\mathcal{G})$ an object in the [[(∞,1)-sheaf (∞,1)-topos]], an **atlas** for $X$ is a collection of suitable morphisms ([[open maps]]) $\{U_i \to X\}$ with $U_i \in \mathcal{G} \hookrightarrow Sh_{(\infty,1)}(\mathcal{G})$, such that the morphism out of the [[coproduct]]
+If one considers here the [[disjoint union]] $\mathcal{U} \coloneqq \underset{i}{\sqcup} U_i$ of all the choordinate charts, then the separate chart embeddings $U_i \subset X$ give rise to a single [[map]] ([[continuous function|continuous]]/[[differentiable function]])
 
 $$
-  \coprod_i U_i \to X
+  \mathcal{U} \longrightarrow X
 $$
 
-is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+and now the condition for an atlas is that this is a [[surjective function|surjective]] [[étale map]]/[[local diffeomorphism]].
+
+If, next, one regards this morphism, under the [[Yoneda embedding]], inside the [[topos]] of [[formal smooth sets]], then these conditions on an atlas say that this morphism is
+
+1. an [[effective epimorphism]];
+
+1. a [[formally étale morphism]].
+
+In this abstract form the concept of an atlas generalizes to any [[cohesion|cohesive]] [[higher geometry]] ([KS 17, Def. 3.3](#KhavkineSchreiber17), [Wellen 18, Def 4.13](#Wellen18)).
+
+Next, for a [[geometric stack]] $\mathcal{X}$, an atlas is a [[smooth manifold]] $\mathcal{U}$ (for [[differentiable stacks]]) or [[scheme]] $\mathcal{U}$ (for [[algebraic stacks]]) or similar, equipped with a morphism 
+
+$$
+  \mathcal{U} \longrightarrow \mathcal{X}
+$$
+
+that is an [[effective epimorphism]] and [[formally étale morphism]]
+in the corresponding [[(infinity,1)-topos|higher topos]] (for instance in that of [[formal smooth infinity-groupoids]]).
 
 
-## Examples
+Here the terminology has a bifurcation: 
 
-### For manifolds
+1. In the general context of [[geometric stacks]] one typically drops the second condition and calls any [[effective epimorphism]] from a [[smooth manifold]] or [[scheme]] to a [[differentiable stack]] or [[algebraic stack]], respectively, an _atlas_. 
 
-* [[manifold]]
+1. If in addition the condition is imposed that such an effective epimorphism exists which is also [[formally étale morphism|formally étale]], then the [[geometric stack]] is called an _[[orbifold]]_ or _[[Deligne-Mumford stack]]_ (often with various further conditions imposed).
 
-### For geometric stacks
 
-* [[geometric stack]]
 
-(...)
+
 
 ## Related concepts
 
 * [[n-types cover]]
+
+## References
+
+Formalization in [[cohesive homotopy theory]]:
+
+* {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]], _Synthetic geometry of differential equations_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+Formalization in [[modal homotopy type theory]]:
+
+* {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
 [[!redirects atlases]]
