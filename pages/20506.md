@@ -25,7 +25,7 @@ In view of the developments in [[theoretical physics]] from about the the 1980s,
 > ([Atiyah-Dijkgraaf-Hitchin 10, p. 915 (3 of 14)](#AtiyahDijkgraafHitchin10)) 
 
 
-The phrase is picked up also in [Moore 14, p. 10](#Moore14).
+The phrase is picked up also in [Dijkgraaf 14](#Dijkgraaf14), [Moore 14, p. 10](#Moore14) and elsewhere.
 
 
 
@@ -36,10 +36,12 @@ The phrase is picked up also in [Moore 14, p. 10](#Moore14).
 
 * {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
+* {#Dijkgraaf14} [[Robbert Dijkgraaf]], _The Unreasonable Effectiveness Of Quantum Physics in Modern Mathematics_, [Perimeter Public Lecture](http://pirsa.org/C04001) 2014 ([web](http://pirsa.org/14030094), [pdf slides](http://pirsa.org/pdf/loadpdf.php?pirsa_number=14030094)).
+
+
 * [[David Tong]], _The Unreasonable Effectiveness of Physics in Mathematics_, [talk](https://www.maths.cam.ac.uk/features/lms-popular-lecture-unreasonable-effectiveness-physics-mathematics-david-tong)
 
 * [[Natalie Paquette]], _The Unreasonable Effectiveness of Physics in Mathematics_, [talk](https://www.youtube.com/watch?v=XPxwabVs4Lc) 
 
-* [[Robbert Dijkgraaf]], _The Unreasonable Effectiveness Of Quantum Physics in Modern Mathematics_, [slides](http://pirsa.org/pdf/loadpdf.php?pirsa_number=14030094).
 
 category: reference
