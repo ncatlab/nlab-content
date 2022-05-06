@@ -363,7 +363,8 @@ $$
   \,.
 $$
 
-The identification (eq:OrbifoldIdentificationForKKMonopole) means that this is the [[orbifold]] [[metric cone]] $\mathbb{R}^{6,1} \times \left( \mathbb{R}^4/(\mathbb{Z}_N)\right)$, hence an A-type [[ADE-singularity]]. To make this more explicit, introduce the complex coordinates
+The identification (eq:OrbifoldIdentificationForKKMonopole) means that this is the [[orbifold]] [[metric cone]] $\mathbb{R}^{6,1} \times \left( \mathbb{R}^4/(\mathbb{Z}_N)\right)$, hence an [[ADE classification|
+A-type]] [[ADE-singularity]]. To make this more explicit, introduce the complex coordinates
 
 $$
   v \;\coloneqq\; y \, e^{i \varphi} \sin \theta
@@ -381,7 +382,7 @@ $$
   d w d \overline w
 $$
 
-and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as indeed that of the A-type $\mathbb{Z}_N$-action ([Asano 00, around (18)](#Asano00)).
+and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as indeed that of the [[ADE classification|A-type]] $\mathbb{Z}_N$-action ([Asano 00, around (18)](#Asano00)).
 
 
 
