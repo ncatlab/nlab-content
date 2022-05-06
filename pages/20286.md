@@ -15,13 +15,14 @@ Named after [[Ernst Leonard Lindelöf]].
 * table of contents
 {:toc}
 
+
 ## Definition
 
 A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.
 
 ## Related properties and theorems
 
-[[!include topology - global countability axioms]]
+[[!include topology - countability axioms]]
 
 ## References
 
