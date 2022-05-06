@@ -35,5 +35,9 @@ Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight syste
 
 * {#BarNatan95} [[Dror Bar-Natan]], p. 9 and section 6 of: _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
 
+See also
+
 * {#Kneissler97} [[Jan Kneissler]], Section 1.3 of: _The number of primitive Vassiliev invariants up to degree 12_ ([arXiv:q-alg/9706022](https://arxiv.org/abs/q-alg/9706022))
+
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 6.2.4 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
