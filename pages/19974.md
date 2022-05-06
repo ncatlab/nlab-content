@@ -3,9 +3,11 @@
 
 ## Selected writings
 
-On [[orientifolds]] and [[RR-field tadpole cancellation]]:
+On [[orientifolds]], [[O-planes]] and [[RR-field tadpole cancellation]]:
 
-* {#BergmanGimonSugimoto01} [[Oren Bergman]], Eric Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
+* Yoshifumi Hyakutake, Yosuke Imamura, [[Shigeki Sugimoto]], _Orientifold Planes, Type I Wilson Lines and Non-BPS D-branes_, JHEP 0008 (2000) 043 ([arXiv:hep-th/0007012](https://arxiv.org/abs/hep-th/0007012))
+
+* {#BergmanGimonSugimoto01} [[Oren Bergman]], [[Eric Gimon]], [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
 
 On the [[Sakai-Sugimoto model]] for [[holographic QCD]] ([[geometric engineering of QFT|geometric engineering]] of [[QCD]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]]):
