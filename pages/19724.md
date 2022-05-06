@@ -31,6 +31,8 @@ This consists of all those elements $k \in \mathbb{Z}/n$ which are represented b
 
 * [[cyclic group]]
 
+* [[Q/Z]]
+
 ## References
 
 See also 
