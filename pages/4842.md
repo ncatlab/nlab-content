@@ -275,8 +275,12 @@ Further review:
 
 
 
+
 * [[Simon Willerton]], _On the Vassiliev invariants for knots and for pure braids_, 1997 ([hdl:1842/11581](http://hdl.handle.net/1842/11581), [ethos.663801](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.663801), [[WillertonVasdilievInvariants1997.pdf:file]])
 
+
+* [[Dror Bar-Natan]], _Finite Type Invariants_, in:  J.-P. Francoise, G.L. Naber and Tsou S.T. (eds.) Encyclopedia of Mathematical Physics, Oxford: Elsevier, 2006, volume 2 page 340
+([arXiv:math/0408182](https://arxiv.org/abs/math/0408182))
 
 
 
