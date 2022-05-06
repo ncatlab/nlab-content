@@ -15,7 +15,7 @@ Original proposal for inclusion of the [[ω-meson]] into the [[Skyrme model]]:
 
 The [[DBI action]] for single [[D-branes]]:
 
-* A. Abouelsaood, C. G. Callan, [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
+* A. Abouelsaood, [[Curtis Callan]], [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
 
 
 category: people
