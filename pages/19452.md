@@ -74,7 +74,18 @@ We offer also an _a priori_ motivation:
 
 {#CategoryTheoryIsTheoryOfDuality} _Category theory is the theory of duality._
 
-<div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
+\begin{imagefromfile}
+  "file_name": "DualityGraphics.jpg",
+  "width": 200,
+  "float": "right",
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  }
+\end{imagefromfile}
 
 _[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_, as _[[duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] ([[Some Thoughts on the Future of Category Theory|Lawvere 91]], see Def. \ref{AdjointModality} below), which exhibit a given "[[modality|mode of being]]" of any object $X$ as intermediate between two dual opposite extremes (Prop. \ref{ComparisonMorphismBetweenOppositeExtremes} below):
 
@@ -90,9 +101,19 @@ For example, _[[cohesion|cohesive]]_ [[geometry|geometric]] [[structure]] on [[g
 
 Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). 
 
-<div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/Adjointness.jpg" width="460">
-</div>
+\begin{imagefromfile}
+  "file_name": "Adjointness.jpg",
+  "width": 460,
+  "float": "right",
+  "margin": {
+    "top": -40,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  }
+\end{imagefromfile}
+
 
 But natural transformations are, in turn, exactly the basis for the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below), shown on the left. 
 All _[[universal constructions]]_, the heart of category theory, are special cases of [[adjoint functors]] -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82): This includes the concepts of _[[limits]]_ and _[[colimits]]_ (Def. \ref{Limits} below), [[ends]] and [[coends]] (Def. \ref{EndAndCoendInTopcgSmash} below) [[Kan extensions]] (Prop. \ref{TopologicalLeftKanExtensionBCoend} below), and the behaviour of these constructions, such as for instance the [[free co-completion]] nature of the [[Yoneda embedding]] (Prop. \ref{FreeCocompletion} below). 
