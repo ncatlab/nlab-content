@@ -76,7 +76,7 @@ Let
 
    such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
 
-   1. the [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $-complex, 
+   1. the [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $[[G-CW-complex|-complex]], 
 
       we write $dim\big( X^H\big)$ for its [[dimension]];
 
@@ -86,7 +86,8 @@ Let
 
       this implies that the [[action]] of $W_G(H)$ on cohomology induces a [[group homomorphism]]
 
-      $$
+      \[
+        \label{OrientationBehaviour}
         e_{H,X}
         \;\colon\;
         W_G(H) 
@@ -94,7 +95,7 @@ Let
         Aut_{Ab}(\mathbb{Z}) 
           \simeq 
         \mathbb{Z}^\times
-      $$
+      \]
 
       to be called the _orientation behaviour_ of $H$ on $X$;
 
@@ -106,9 +107,9 @@ Let
 
    1. $\pi_{dim(X^H)}\big( Y^H\big) \simeq \mathbb{Z}$ ([[homotopy groups]] of [[fixed point space]]),
 
-      with the previous point this implies (by the [[Hurewicz theorem]]) that  $H^{dim(X^H)}\Big( Y^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ and hence orientation behaviour $e_{H,Y} \;\colon\; W_G(H) \to \mathbb{Z}^\times$
+      with the previous point this implies (by the [[Hurewicz theorem]]) that  $H^{dim(X^H)}\Big( Y^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ and hence orientation behaviour (eq:OrientationBehaviour) $e_{H,Y} \;\colon\; W_G(H) \to \mathbb{Z}^\times$ 
 
-   1. $e_{H,X} = e_{H,Y}$.
+   1. $e_{H,X} = e_{H,Y}$, the orientation behaviour (eq:OrientationBehaviour) of $X$ and $Y$ agrees at all [[isotropy groups]].
 
 Choose generators in each $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ ([[orientations]]) and $H^{dim(X^H)}\big(Y^G, \mathbb{Z} \big) \simeq \mathbb{Z}$ This implies that for each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
 
