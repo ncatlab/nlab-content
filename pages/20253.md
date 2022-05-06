@@ -273,9 +273,13 @@ $$
   \big)
 $$
 
-Here the left hand side must be an [[integer]], which the right hand side is not an integer for all choices of [[pairs]] $(m,n)$. This means that for these choices the [[boundary]] [[7-sphere]] is not [[diffeomorphism|diffeomorphic]] to the standard smooth 7-sphere -- it is instead an [exotic 7-sphere](exotic+smooth+structure#Exotic7Sphere).
+Here the left hand side must be an [[integer]], which the right hand side is not an integer for all choices of [[pairs]] $(m,n)$. This means that for these choices the [[boundary]] [[7-sphere]] is not [[diffeomorphism|diffeomorphic]] to the standard smooth 7-sphere -- it is instead an [[exotic 7-sphere]].
 
 (see [Joachim-Wraith, p. 2-3](#JoachimWraith))
+
+From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$ with (exotic) [[7-sphere]] [[boundaries]] correspond to [[near horizon limits]] of [[black brane|black]] [[M2 brane]] spacetimes $\mathbb{R}^{2,1} \times X$, where the [[M2-branes]] themselves would be sitting at the center of the [[7-spheres]] (if that were included in the spacetime, see also [[Dirac charge quantization]]).
+
+([Morrison-Plesser 99, section 3.2](#MorrisonPlesser99))
 
 \linebreak
 
@@ -313,6 +317,7 @@ Here the left hand side must be an [[integer]], which the right hand side is not
 
 * {#JoachimWraith} [[Michael Joachim]], D. J. Wraith, _Exotic spheres and curvature_ ([pdf](https://ivv5hpp.uni-muenster.de/u/joachim/exo.pdf))
 
+* {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv.Theor.Math.Phys.3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
 
 [[!redirects 8-manifolds]]
 
