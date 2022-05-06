@@ -223,7 +223,7 @@ Discussion for 3+3-dimensional split:
 
 Claim that combining the super-embedding formalism with [[super-exceptional generalized geometry]], the [[Perry-Schwarz action functional|Perry-Schwarz-type Lagrangian]] for the [[M5-brane]] emerges as the relative trivialization of the super-cocycle of the M5-brane relative to its super-exceptional embedding:
 
-* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
 
 
 [[!redirects superembedding formalism]]
