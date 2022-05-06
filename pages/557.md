@@ -120,7 +120,7 @@ Every PROP defines a [[polycategory]]; see there for more. PROPs can compose alo
 
 * Teimuraz Pirashvili, *On the PROP corresponding to bialgebras*, http://arxiv.org/abs/math/0110014. ([link](http://arxiv.org/abs/math/0110014)) 
 
-* {#Yau} [[Donald Yau]], _Higher dimensional algebras via colored PROPs_, [(arXiv:0809.2161v1)](http://arxiv.org/pdf/0809.2161v1.pdf).
+* {#Yau} [[Donald Yau]], _Higher dimensional algebras via colored PROPs_, ([arXiv:0809.2161](http://arxiv.org/abs/0809.2161)).
 
 * M. Markl, S. Merkulov, S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, J. Pure Appl. Algebra, 213(4):496–535, 2009, [math.AT/0610683](https://arxiv.org/abs/math/0610683)
 
