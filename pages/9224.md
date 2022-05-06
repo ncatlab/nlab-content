@@ -39,13 +39,23 @@ $$
   \,.
 $$
 
+## In terms of probability monads
+
+For classical probability (not quantum), spaces equipped with a notion of expectation value can be modeled as [[algebra over a monad|algebras]] over a [[probability monad]].
+See [[probability monad#algebras_expectation_values|probability monad - algebras]] for more.
+
+
 ## Related concepts
+
+* [[random variable]]
 
 * [[moment]]
 
 * [[vacuum expectation value]]
 
 * [[Feynman diagram]]
+
+* [[probability monad]]
 
 ## References
 
