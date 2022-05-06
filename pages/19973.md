@@ -106,7 +106,7 @@ Lecture notes:
 
 * [[Yuval Grossman]], Philip Tanedo, _Just a Taste: Lectures on Flavor Physics_, Chapter 4 in: _Anticipating the Next Discoveries in Particle Physics (TASI 2016)_ ([arXiv:1711.03624](https://arxiv.org/abs/1711.03624),  [doi:10.1142/9789813233348_0004](https://doi.org/10.1142/9789813233348_0004))
 
-* Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
+* {#Zupan19} Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
 
 See also
 
@@ -115,6 +115,13 @@ See also
 
 * Fernando Abreu de Souza, Gero von Gersdorff, _A Random Clockwork of Flavor_ ([arxiv:1911.08476](https://arxiv.org/abs/1911.08476))
 
+
+### The flavour problem
+ {#ReferencesFlavorProblem}
+
+
+
+* [[Gino Isidori]], _The flavor problem_, 2016 ([pdf](https://indico.cern.ch/event/504502/contributions/2147710/attachments/1287372/1915547/SWHEPPS_Talk.pdf), [[IsidoriFlavor16.pdf:file]])
 
 
 ### Flavour anomalies
@@ -155,3 +162,7 @@ and then developed in detail for [[QCD]] on [[D8-branes]] in the [[Sakai-Sugimot
 
 [[!redirects flavour physics]]
 [[!redirects flavor physics]]
+
+[[!redirects flavour problem]]
+[[!redirects flavor problem]]
+
