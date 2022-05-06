@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $(X, \{-,-\})$ a [[Poisson manifold]], a _symplectic leaf_ is a maximal [[submanifold]] $Y \hookrightarrow X$ on which the [[Poisson bracket]] restricts to a [[symplectic manifold]] structure. 
+For $(X, \{-,-\})$ a [[Poisson manifold]], a _symplectic leaf_ is a maximal connected [[submanifold]] $Y \hookrightarrow X$ on which the [[Poisson bracket]] restricts to a [[symplectic manifold]] structure. 
 
 $X$ is [[foliation|foliated]] by its symplectic leaves.
 
