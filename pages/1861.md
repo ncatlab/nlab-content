@@ -718,25 +718,13 @@ See also
 * [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
 
 
-The unstable [[Pontrjagin-Thom theorem]] identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]]:
-
-* [[Lev Pontrjagin]], _Classification of continuous maps of a complex into a sphere_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
-
-* {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
-
-* {#Kosinski93} [[Antoni Kosinski]], chapter IX of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
-
-* [[John Milnor]], Chapter 7 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
-
-
-Discussion of the early history:
-
-* [Kosinski 93, Section IX.9](#Kosinski93)
-
 Further discussion of Cohomotopy:
 
 * [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
 
+
+
+[[!include Pontryagin-Thom construction -- references]]
 
 
 
