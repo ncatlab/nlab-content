@@ -166,3 +166,6 @@ By the univalence axiom, we often have nice characterizations of "the type of a 
 
 [[!redirects Univalent Foundations for Mathematics]]
 
+[[!redirects univalent mathematics]]
+
+
