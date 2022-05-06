@@ -6,6 +6,12 @@
 
 Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and similar structures. The truth is interpreted as probability and there is a concept of random predicates. 
 
+## In terms of enriched category theory
+
+Building on the proposal of [[Lawvere]] to understand a form of [metric space](metric+space#LawvereMetricSpace) as a category [[enriched category theory|enriched]] in the [[monoidal category|monoidal]] [[poset]] $([0, \infty], \geq)$, there have been attempts to consider continuous logic as a similarly enriched logic. In ([Albert &amp; Hart](#AlbertHart)), the authors develop a parallel for [[conceptual completeness]] via the notion of a *metric* [[pretopos]].
+
+[[Simon Cho]] argues that the object of truth values of continuous logic, $[0,1]$, should be seen as a "continuous subobject classifier" in a similar sense to the [[subobject classifier]] of topos theory where subobjects are classified via [[pullbacks]] ([Cho 19](#Cho19)).
+
 ## References
 
 Continuous logic is introduced in
@@ -28,11 +34,17 @@ _Model Theory for metric structures_, in Model Theory with Applications to Algeb
 
 A discussion of [[conceptual completeness]] in the setting of continuous logic is found in
 
-* Jean-Martin Albert, Bradd Hart. _Metric logical categories and conceptual completeness for first order continuous logic_, ([arXiv:1607.03068](https://arxiv.org/abs/1607.03068))
+* {#AlbertHart} Jean-Martin Albert, Bradd Hart. _Metric logical categories and conceptual completeness for first order continuous logic_, ([arXiv:1607.03068](https://arxiv.org/abs/1607.03068)) 
+
+
 
 A treatment of metric space semantics for continuous logic as a variety of [[enriched categories]] is given in
 
-* Simon Cho, _Categorical semantics of metric spaces and continuous logic_, ([arXiv:1901.09077](https://arxiv.org/abs/1901.09077))
+* {#Cho19} [[Simon Cho]], _Categorical semantics of metric spaces and continuous logic_, ([arXiv:1901.09077](https://arxiv.org/abs/1901.09077))
+
+See also his thesis
+
+* [[Simon Cho]], _Continuity in enriched categories and metric model theory_, ([thesis](http://math.lsa.umich.edu/~simoncho/thesis.pdf))
 
 An older and rather _different system_ also called continuous logic of a Russian school is surveyed
 
