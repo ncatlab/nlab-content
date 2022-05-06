@@ -17,6 +17,8 @@
 
 ## Definition
 
+### General
+
 A **join-semilattice** is a [[poset]] which admits all [[finite set|finite]] [[join|joins]], or equivalently which admits a bottom element $\bot$ and binary joins $a\vee b$.  If we think of a poset as a category, a join-semilattice is the same as a poset with finite colimits, or equivalently, a poset with finite coproducts.
 
 In a join-semilattice the binary join $\vee$ is commutative, associative, has $\bot$ as a unit, and is **idempotent**:  $a\vee a =a$.  And in fact, given any commutative and idempotent [[monoid]] $(A,\vee,\bot)$, we can define $a\le b$ to mean $a \vee b = b$ to make it into a poset with finite joins; thus we have an equivalent algebraic definition of a join-semilattice.   
@@ -30,7 +32,7 @@ Since the opposite of a join-semilattice is a meet-semilattice, it would be poss
 If a poset is both a join- *and* a meet-semilattice, then we call it a [[lattice]].
 
 
-## Bounded semilattices and semipseudolattices
+### Bounded semilattices and semipseudolattices
  {#BoundedAndPseudo}
 
 Traditionally, a semilattice need have only finite [[inhabited set|inhabited]] meets/joins; that is, it need not have a top/bottom element.  Algebraically, this means that a semilattice need not be a monoid, but is any commutative idempotent [[semigroup]].
@@ -41,7 +43,7 @@ Another approach is to define a semilattice, as above, to require a top/bottom e
 
 See [[lattice]] for more discussion of this issue.
 
-## Semilattice homomorphisms
+### Semilattice homomorphisms
 
 A homomorphism of join-semilattices $f: A \to B$ is a function that preserves finite joins, or equivalently:
 $$ f(x \vee y) = f(x) \vee f(y),\; f(\bot) = \bot .$$
@@ -49,20 +51,22 @@ Note that such a homomorphism is necessarily a [[monotone function]], but the co
 
 A homomorphism of meet-semilattices is defined in an analogous (i.e., dual) way.  In what follows we take join-semilattices as the default, but all results apply to meet-semilattices with slight modifications.
 
-## The category of semilattices 
+### The category of semilattices 
 
 Semilattices and semilattice homomorphims form a [[concrete category]] [[SemiLat]].  By the remarks above, this is equivalent to the category of commutative idempotent monoids.  Since these are algebras of a [[Lawvere theory]], or equivalently a [[finitary monad]] on $Set$, the category $Semi Lat$ has all the properties that [[algebraic category|finitary monadic categories]] enjoy.
 
 The poset $\{F,T\}$ where $F \le T$ becomes a commutative [[rig]] with $\vee$ and meet $\wedge$ as addition and multiplication, respectively; let us call this rig $Bool$.    We can define a module of a rig much as we define a module of a ring, but with the module's underlying abelian group generalized to be a commutative monoid (thus eliminating the need for negatives).   The underlying commutative monoid of a $Bool$-module is idempotent because, writing addition in this monoid as $+$, we have $a + a = (T \vee T)a = T a = a$.  Conversely, any idempotent commutative monoid becomes a $Bool$-module in a unique way.  Thus, the category $Semi Lat$ is equivalent to the category of $Bool$-modules.
 
-## The free join-semilattice on a poset
+## Properties
 
-There a forgetful functor 
+### The free join-semilattice on a poset
+
+There is a [[forgetful functor]]
 $$
 U \colon SemiLat \to Poset 
 $$
 
-This has a left adjoint
+This has a [[left adjoint]]
 
 $$
 F \colon Poset \to SemiLat
@@ -81,7 +85,12 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 ## Examples
 
 * [[semilattice of commutative subalgebras]]
+
 * [[suplattice]]
+
+## Related concepts
+
+* [[band]]
 
 
 [[!redirects meet-semilattice]]
