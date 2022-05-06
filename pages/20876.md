@@ -60,7 +60,8 @@ $$
 
 =--
 
-This appears in [Kohno 88](#Kohno88), [Bar-Natan 96, Fact 3](#BarNatan96), [Fadell-Husseini 01](#FadellHusseini01), [Cohen-Gitler 01, Section 3](#CohenGitler01), [Cohen-Gitler 02, p. 2](#CohenGitler02).
+This is originally due to [Kohno 87 (1.1.4)](#Kohno87), it
+appears also in [Kohno 88](#Kohno88), [Bar-Natan 96, Fact 3](#BarNatan96), [Fadell-Husseini 01](#FadellHusseini01), [Cohen-Gitler 01, Section 3](#CohenGitler01), [Cohen-Gitler 02, p. 2](#CohenGitler02).
 
 ## Properties
 
@@ -132,6 +133,9 @@ $$
 [[!include chord diagrams and weight systems -- table]]
 
 ## References
+
+* {#Kohno87} [[Toshitake Kohno]], (1.1.4) in: _Monodromy representations of braid groups and Yang-Baxter equations_, Annales de l'Institut Fourier, Volume 37 (1987) no. 4, p. 139-160 ([doi:10.5802/aif.1114](https://doi.org/10.5802/aif.1114))
+
 
 
 * {#Kohno88} [[Toshitake Kohno]], _Linear representations of braid groups and classical  Yang-Baxter equations_, in: [[Joan S. Birman]], Anatoly Libgober (eds.) _Braids_ Cont. Math. 78 (1988), 339-363 ([doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078))
