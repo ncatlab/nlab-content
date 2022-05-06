@@ -5,10 +5,30 @@
 
 ## Idea
 
-(...)
+A **neural network** is a class of functions used in machine learning to approximate a correspondence between samples in a dataset and their associated labels. 
 
+## Definition
+ {#Definition}
+
++-- {: .num_defn}
+###### Definition
+
+Where $K\subset \mathbb{R}^d$ is compact, $\{T_L\}_{L\leq N \in \mathbb{N}}$ a finite set of affine maps such that $T_L(x) = \langle W_L,x\rangle + b_L$ where $W_L$ is the $L^{th}$ layer weight matrix and $b_L$ the $L^{th}$ layer bias, $g:\mathbb{R}\to\mathbb{R}$ a non-linear activation function, a neural network  is a function $f:K\subset \mathbb{R}^d \to \mathbb{R}^m$, such that on input $x$, computes the composition:
+
+$$f(x) = (T_L\circ g \circ T_{L-1}\circ g \circ \dots \circ T_1)(x)$$
+
+where $g$ is applied component-wise. 
+
+=--
+
+Typically, $T_1$ is called the input layer, $T_L$ the output layer, and layers $T_2$ to $T_{L-1}$ are hidden layers. In particular, a real-valued 1-hidden layer neural network with computes:
+
+$$f(x) = b' + \sum_{i=1}^n a_i g(\langle W_i, x\rangle + b)$$
+where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ the $i^{th}$ row of the hidden weight matrix, and $b$ the hidden bias. Here, the hidden layer is $n$-dimensional.   
 
 ## Related concepts
+
+* [[function machine]]
 
 * [[tensor network]]
 
