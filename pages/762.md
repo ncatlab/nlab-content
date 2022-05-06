@@ -106,6 +106,11 @@ It is  therefore interesting that one can define strict higher homotopy groupoid
 Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
 
+## Related concepts
+
+[[!include filtered objects -- contents]]
+
+
 ## References
 
 The [[James construction]] is due to 
