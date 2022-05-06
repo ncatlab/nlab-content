@@ -37,6 +37,8 @@
 
   * [[kaon]]
 
+  * [[quarkonium]]
+
 * [[baryon]]
 
   * [[nucleon]]
