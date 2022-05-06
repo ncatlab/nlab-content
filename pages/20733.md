@@ -66,9 +66,11 @@ The original articles;
 
 Further discussion:
 
-
 * Rafe Mazzeo, [[Edward Witten]], _The Nahm Pole Boundary Condition_, In: _The influence of Solomon Lefschetz in geometry and topology_, Contemporary Mathematics 621 (2014): 171 ([arXiv:1311.3167](https://arxiv.org/abs/1311.3167), [doi:10.1090/conm/621](http://dx.doi.org/10.1090/conm/621))
 
+Making explicit the completion of $\mathfrak{su}(2)_{\mathbb{C}} \simeq \mathfrak{sl}(2,\mathbb{C})$ to $\mathfrak{gl}(2,\mathbb{C})$:
+
+* [[Sergey Cherkis]], _Instantons on Gravitons_, around (21) in: Commun. Math. Phys. 306:449-483, 2011 ([arXiv:1007.0044](https://arxiv.org/abs/1007.0044))
 
 
 Review:
