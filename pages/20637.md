@@ -136,6 +136,9 @@ $$
 is the [[exceptional Jordan algebra]]  called the _[[Albert algebra]]_ (see [there](Albert+algebra#RelationTo10dSuperSpacetime)).
  
 
+### Homotopy representation
+
+The possibility of there being a faithful 15-dimensional real homotopy representation of $G_3$ is raised in ([Baker-Bauer 19, p. 8](#BakerBauer)).
 
 
 ## Related concepts
@@ -169,6 +172,9 @@ See also
 * {#Ziemianski} Krzysztof Ziemia&nacute;ski, _A faithful complex representation of the 2-compact group DI(4)_, ([thesis](https://www.mimuw.edu.pl/~ziemians/pap/Thesis.pdf))
 
 * {#Benson94} David Benson, _Conway’s group $Co_3$ and the Dickson invariants_, Manuscripta Math (1994) 85: 177.
+
+* {#BakerBauer19} Andrew Baker, Tilman Bauer, _The realizability of some finite-length modules over the Steenrod algebra by spaces_, ([arXiv:1903.10288](https://arxiv.org/abs/1903.10288))
+
 
 
 Speculation on possible geometric roles of $G_3$:
