@@ -1,9 +1,12 @@
 
+
 ### Elliptic cohomology
 
 #### General
 
 The concept of [[elliptic cohomology]] originates around:
+
+* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038))
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
@@ -13,6 +16,8 @@ and in the universal guise of [[topological modular forms]] in:
 
 
 Surveys:
+
+* [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller, and Lurie)_, Séminaire Bourbaki : volume 2008/2009 exposés 997-1011 ([arXiv:0910.5130](https://arxiv.org/abs/0910.5130), [numdam:AST_2010__332__221_0](http://www.numdam.org/item/AST_2010__332__221_0))
 
 * {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
 
@@ -100,7 +105,7 @@ The general concept of [[elliptic genus]] originates with:
 
 * {#Ochanine87} [[Serge Ochanine]], _Sur les genres multiplicatifs definis par des integrales elliptiques_, Topology, Vol. 26, No. 2, 1987 ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Mult-genre-Ochanine.pdf), <a href="https://doi.org/10.1016/0040-9383(87)90055-3">doi:10.1016/0040-9383(87)90055-3</a>)
 
-Early developments in:
+Early development:
 
 * {#Zagier86} [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf), [edoc:744944](http://edoc.mpg.de/744944))
 
@@ -108,7 +113,7 @@ Early developments in:
 
 * {#Hovey91} [[Mark Hovey]], _Spin Bordism and Elliptic Homology_, Math Z 219, 163–170 (1995) ([doi:10.1007/BF02572356](https://doi.org/10.1007/BF02572356))
 
-* {#KreckStolz93} [[Matthias Kreck]], [[Stefan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]], [euclid:acta/1485890737](https://projecteuclid.org/euclid.acta/1485890737))
+* {#KreckStolz93} [[Matthias Kreck]], [[Stephan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]], [euclid:acta/1485890737](https://projecteuclid.org/euclid.acta/1485890737))
 
 Review:
 
@@ -120,14 +125,16 @@ The [[Stolz conjecture]] on the [[Witten genus]]
 
 * {#Stolz96} [[Stephan Stolz]], _A conjecture concerning positive Ricci curvature and the Witten genus_, Mathematische Annalen Volume 304, Number 1 (1996) ([doi:10.1007/BF01446319](https://doi.org/10.1007/BF01446319))
 
-* [[Anand Dessai]], _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
+* [[Anand Dessai]], _Some geometric properties of the Witten genus_, in: [[Christian Ausoni]], [[Kathryn Hess]], [[Jérôme Scherer]] (eds.) _Alpine Perspectives on Algebraic Topology_, Contemporary Mathematics 504 (2009) ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf), [[DessaiEllipticGenus.pdf:file]],
+[doi:10.1090/conm/504](http://dx.doi.org/10.1090/conm/504))
+
 
 The [[Jacobi form]]-property of the [[Witten genus]]:
 
 * {#AndoFrenchGanter08} [[Matthew Ando]], Christopher French, [[Nora Ganter]], _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology 8 (2008) p. 493-539 ([pdf](http://www.msp.warwick.ac.uk/agt/2008/08-01/agt-2008-08-016s.pdf))
 
 
-The identification of [[elliptic genera]], via [[fiber integration]]/[[Pontrjagin-Thom collapse]], as [[complex oriented cohomology theory|complex orientations]] of [[elliptic cohomology]] ([[sigma-orientation]]/[[spin-orientation of Tate K-theory]]):
+The identification of [[elliptic genera]], via [[fiber integration]]/[[Pontrjagin-Thom collapse]], as [[complex oriented cohomology theory|complex orientations]] of [[elliptic cohomology]] ([[sigma-orientation]]/[[string-orientation of tmf]]/[[spin-orientation of Tate K-theory]]):
 
 * [[Michael Hopkins]], _Topological modular forms, the Witten genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#168;urich, 1994) (Basel), Birkh&#228;user, 1995, 554&#8211;565. MR 97i:11043 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
 
@@ -135,7 +142,7 @@ The identification of [[elliptic genera]], via [[fiber integration]]/[[Pontrjagi
 
 * {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _The sigma orientation is an H-infinity map_, American Journal of Mathematics Vol. 126, No. 2 (Apr., 2004), pp. 247-334 ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053), [doi:10.1353/ajm.2004.0008](https://doi.org/10.1353/ajm.2004.0008))
 
-* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of $KO$-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+* {#AndoHopkinsRezk} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf), [[AndoHopkinsRezkStringOrientation.pdf:file]])
 
 For the [[Ochanine genus]]:
 
