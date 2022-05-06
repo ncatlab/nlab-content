@@ -22,32 +22,24 @@ A basic result of [[category theory]] is that right [[adjoint functor]]s preserv
 
 
 The basic idea of an adjoint functor theorem is that _if_ we could assume that a [[large category]] $D$ had all [[limit]]s over [[small category|small]] and [[large category|large]] [[diagram]]s, then for $R : D \to C$ a [[functor]] that preserves all these limits we might define its would-be left adjoint $L$ by  taking  $L c$ to be the limit
-
 $$
   L c \coloneqq \lim_{c\to R d} d
 $$
-
 over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor $\pi: c/R \to D$: 
-
 $$
   L c = \lim\; (c/R \to D )
   \,.
 $$
 
 Because with this definition there would be for every $d$ an obvious morphism
-
 $$
   L R d \stackrel{=}{\to} \lim_{R d \to R d'} d' \to d
 $$
-
 (the component map over $d$ of the limiting [[cone]]) while moreover because $R$ preserves limits, we would have an [[isomorphism]]
-
 $$
   R L c \simeq \lim_{c\to R d} R d
 $$ 
-
 and hence an obvious morphism of [[cone]] tips
-
 $$
  c \to R L c
  \,.
@@ -198,6 +190,23 @@ but it is not itself representable (hence has no [[left adjoint]]).
 
 [[André Joyal]] has been attributing this example to [[Saunders MacLane]],
 it appears in print for instance right at the beginning of ([Ad&#225;mekKoubekTrnkov&#225;01](#AdamekKoubekTrnkova)).
+
+### In cocomplete categories
+
+Suppose $C$ and $D$ are categories that admit [[small colimits]]
+(i.e., are [[cocomplete]])
+and $F\colon C\to D$ is a functor that preserves [[small colimits]]
+(i.e., is cocontinuous).
+The $F$ has a [[right adjoint functor]]
+if and only if for any object $d\in D$
+the functor
+$$C^{op} \to Set$$
+that sends
+$$c\mapsto D(F(c),d)$$
+is a [[small presheaf]] on $C$.
+
+See the [MathOverflow answer](https://mathoverflow.net/questions/346153/surmounting-set-theoretical-difficulties-in-algebraic-geometry/346162#346162) by [[Ivan Di Liberti]].
+
 
 ### In toposes
 
