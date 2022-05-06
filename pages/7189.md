@@ -1,9 +1,108 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category Theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
+
+A standard result in the theory of [[monad|monads]] says that every [[adjunction]] $F\dashv G:\mathcal{B}\to\mathcal{A}$ with unit $\eta$ and counit $\epsilon$ yields a monad $\langle 
+G\cdot F,\;\eta,\;G\epsilon F\rangle$ on $\mathcal{A}$. Similarly, it is possible to attach a monad $\mathbb{T}^G$, called the **codensity monad**, to a functor $G:\mathcal{B}\to\mathcal{A}$, when the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ has a left adjoint.
+
+The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[dense functor|codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
+
+
+
 ## Definition
 
-Let $j\colon A \to C$ be a [[functor]] between [[categories]].  Its **codensity monad** is the right [[Kan extension]] $Ran_j j$ of $j$ along itself, if this exists (as it certainly does when $A$ is [[small category|small]] and $C$ is [[complete category|complete]]).
 
-The name comes because $j$ is [[codense functor|codense]] just when its codensity monad is the identity.  Thus, in general, the codensity monad "measures the failure of $j$ to be codense".
++-- {: .num_defn #codensity_monad}
+###### Definition 
+Let $G:\mathcal{B}\to\mathcal{A}$ be a functor such that the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists with universal 2-cell $\alpha :G\cdot Ran_G G\Rightarrow G$. The _codensity monad_ of $G$ is given by the monad
+ $$\mathbb{T}^G:=\langle Ran_G G:\mathcal{A}\to\mathcal{A},\eta^G:id_\mathcal{A}\Rightarrow Ran_G G,\mu^G:Ran_G G\cdot Ran_G G\Rightarrow Ran_G G\rangle$$
+ where the unit $\eta^G:id_\mathcal{A}\Rightarrow Ran_G G$ is the natural transformation given by the universal property of $Ran_G G$ with respect to the pair $(id_\mathcal{A},1_G)\;$, whereas the multiplication $\mu^G:Ran_G G\cdot Ran_G G\Rightarrow Ran_G G$ results from the universal property of $Ran_G G$ with respect to the pair $(Ran_G G\cdot Ran_G G,(\alpha\star 1_{Ran_G G})\circ\alpha)$.
+
+=--
+
+That this indeed defines a monad results from the universal properties of the Kan extension. Concerning existence, $Ran_G G$ exists for $G:\mathcal{B}\to\mathcal{A}$ e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
+
+  
+
+
+## Examples
+
+
+....
+
+
+
+## Properties
+
+
+
+
+....
+
+
+
+
+
+
+
+## Related entries
+
+* [[dense functor]]
+
+* [[shape theory]]
+
+* [[Kan extension]]
+
+* [[algebraic theory]]
+
+* [[ultrafilter]]
+
+* [[Giry monad]]
+
+
+## Link
+
+* nCafé blog 2012: [Where do Monads come from?](https://golem.ph.utexas.edu/category/2012/09/where_do_monads_come_from.html)
+
+## References
+
+A very nice overview is provided by
+
+* {#Leinster13}[[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **12** no.13 (2013) pp.332-370.  ([abstract](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html))
+
+The role in shape theory is discussed in
+
+* Armin Frei, _On categorical shape theory_ , Cah. Top. Géom. Diff. **XVII** no.3 (1976) pp.261-294. ([numdam](http://www.numdam.org/item/?id=CTGDC_1976__17_3_261_0))
+
+* D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
+
+* J.-M. Cordier, [[Tim Porter|T. Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+
+Other references include
+
+* Yves Diers, _Complétion monadique_ , Cah. Top. Géom. Diff. Cat. **XVII** no.4 (1976) pp.362-379. ([numdam](http://www.numdam.org/item/?id=CTGDC_1976__17_4_363_0))
+
+* S. Katsumata, T. Sato, [[Tarmo Uustala|T. Uustala]], _Codensity lifting of monads and its dual_ , arXiv:1810.07972 (2012). ([abstract](https://arxiv.org/abs/1810.07972))
+
+
+
 
 [[!redirects codensity monads]]
 [[!redirects density comonad]]
 [[!redirects density comonads]]
+[[!redirects Codensity monad]]
+[[!redirects Codensity monads]]
