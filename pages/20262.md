@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topology
+#### Spheres
 +--{: .hide}
-[[!include topology - contents]]
+[[!include spheres -- contents]]
 =--
 #### Homotopy theory
 +--{: .hide}
