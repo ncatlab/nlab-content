@@ -104,7 +104,6 @@ One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[ho
 
 ## References
 
-### In string topology
 
 In [[string topology]]:
 
@@ -120,9 +119,11 @@ Review:
 
 * [[Ralph Cohen]], [[Alexander Voronov]], around Def. 3.2.2 in: _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
+* [[Ralph Kaufmann]], Section 4.6 of: _Graphs, Strings, and Actions_, In: Tschinkel Y., Zarhin Y. (eds.) _Algebra, Arithmetic, and Geometry_, Progress in Mathematics, vol 270. Birkhäuser 2009 ([doi:10.1007/978-0-8176-4747-6_5](https://doi.org/10.1007/978-0-8176-4747-6_5))
 
 
-### Action on Hochschild homology
+
+
 
 Action on [[Hochschild homology]]:
 
