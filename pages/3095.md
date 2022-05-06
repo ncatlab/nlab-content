@@ -13,11 +13,12 @@
 Linguists may deploy formal methods to understand grammatical strings of words, and to allow compositional theories of meaning based on the meanings of the subparts of sentences. 
 
 * [[Montague grammar]]
-* [[dependent type theoretic methods in natural language semantics]]
-* [[categorial grammar]]
 * [[context free grammar]]
+* [[categorial grammar]]
+* [[pregroup grammar]]
 * [[monad (in linguistics)]]
 * [[categorical compositional distributional semantics]]
+* [[dependent type theoretic methods in natural language semantics]]
 
 ## Related Concepts
 
