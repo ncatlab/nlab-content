@@ -353,12 +353,25 @@ Let $X= \mathbb{R}^\infty$. Then
 * the _ordered_ configuration space of $n$ points, equipped with the canonical $\Sigma(n)$-[[action]], is a model for the $\Sigma(n)$-[[universal principal bundle]].
 
 
+$\,$
+
 
 ### James construction
 
 The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]] to the [[configuration space (mathematics)|configuration space]] $C(\mathbb{R}^1, X)$ of points in the [[real line]] with "[[charges]]" taking values in $X$.
 
 (e.g. [Bödigheimer 87, Example 9](#Boedigheimer87))
+
+$\,$
+
+### Action by little $n$-disk operad and by Goodwillie derivatives
+
+
+Under some conditions and with suitable degrees/shifts,
+configuration spaces of points canonically have the [[structure]] of [[algebras over an operad]] over the [[little n-disk operad]] and the [[Goodwillie derivatives of the identitity functor]].
+
+For more see [there](Goodwillie+derivatives+of+the+identity+functor#Properties)
+
 
 ## Occurrences and Applications 
   {#OccurrencesAndApplications}
@@ -427,6 +440,20 @@ See also
 * [[Sadok Kallel]], _Particle Spaces on Manifolds and Generalized Poincaré Dualities_ ([arXiv:math/9810067](https://arxiv.org/abs/math/9810067)) 
 
 * Shingo Okuyama, Kazuhisa Shimakawa, _Interactions of strings and equivariant homology theories_, ([arXiv:0903.4667](https://arxiv.org/abs/0903.4667))
+
+
+
+### Algebra structure over little $dim(X)$-disk operad
+  {#ReferencesAlgebraStructureOverOperad}
+
+The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces over [[little n-disk operads]]/[[Fulton-MacPherson operads]]:
+
+* {#Markl99} [[Martin Markl]], _A compactification  of  the  real  configuration  space  as  an  operadic completion, J. Algebra 215 (1999), no. 1, 185–204
+
+
+* ...
+
+
 
 ### Stable splitting of mapping spaces
 
