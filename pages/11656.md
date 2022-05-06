@@ -2,11 +2,11 @@
 
 * [webpage](http://www.math.ucsb.edu/~drm/)
 
+## selected writings
 
+* {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv.Theor.Math.Phys.3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
 
-## Lectures
-
-* On [[K3]]-singularities in [[string theory]] ([here](https://sites.duke.edu/scshgap/dave-morrison-lectures/#09sep18))
+* Lectures on [[K3]]-singularities in [[string theory]] ([here](https://sites.duke.edu/scshgap/dave-morrison-lectures/#09sep18))
 
 ## related $n$Lab entries
 
@@ -43,6 +43,10 @@
 * [[fractional D-brane]]
 
 * [[6d (2,0)-superconformal QFT]]
+
+* [[M-theory on 8-manifolds]]
+
+  [[8-manifold]], [[exotic 7-sphere]]
 
 category: people
 
