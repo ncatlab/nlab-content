@@ -153,6 +153,10 @@ The direct decay $\omega \to \pi^0 + \pi^+ + \pi^-$:
 
 * {#Rudaz84} S. Rudaz, _Anomalies, vector mesons and the $\omega \to 3 \pi$ contact term_, Phys. Lett. B 145 (1984) 281-284 ([spire:208193](https://inspirehep.net/literature/208193), <a href="https://doi.org/10.1016/0370-2693(84)90355-1">doi:10.1016/0370-2693(84)90355-1</a>)
 
+* E. A. Kuraev, Z. K. Silagadze, _Once more about the $\omega \to 3 \pi$ contact term_, Phys. Atom. Nucl. 58:1589-1596, 1995 ([arXiv:hep-ph/9502406](https://arxiv.org/abs/hep-ph/9502406))
+
+
+
 The $\omega \pi \rho$-coupling
 
 * {#GudinoSanchez12} D. Garcia Gudino, G. Toledo Sanchez, _The $\omega \rho \pi$ coupling in the VMD model revisited_, Int. J. Mod. Phys. A 27, 1250101 (2012) ([arXiv:1106.1467](https://arxiv.org/abs/1106.1467))
