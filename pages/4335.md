@@ -141,11 +141,17 @@ A pseudonatural transformation is called a **pseudonatural equivalence** if each
 
   * [[lax natural transformation]]
 
-## References for the globular approach
+## References
 
-[[Camell Kachour]]*: Kamel Kachour, D&#233;finition alg&#233;brique des cellules non-strictes, Cahiers de Topologie et de G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;gorique (2008), volume 1, pages 1&#8211;68.
+A generalization to [[extranatural transformations]] can be found in
 
-[[Camell Kachour]]*: Steps toward the Weak &#969;-category of the Weak &#969;-categories in the globular setting, Published in : Categories and General Algebraic Structures with Applications (2015).
+* Alexander S. Corner, _A universal characterisation of codescent objects_, [TAC](http://tac.mta.ca/tac/volumes/34/24/34-24abs.html) 2019.
+
+Discussion of the globular approach can be found in
+
+* [[Camell Kachour]]: Kamel Kachour, D&#233;finition alg&#233;brique des cellules non-strictes, Cahiers de Topologie et de G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;gorique (2008), volume 1, pages 1&#8211;68.
+
+* [[Camell Kachour]]: Steps toward the Weak &#969;-category of the Weak &#969;-categories in the globular setting, Published in : Categories and General Algebraic Structures with Applications (2015).
 
 [[!redirects pseudonatural transformation]]
 [[!redirects pseudonatural transformations]]
