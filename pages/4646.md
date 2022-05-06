@@ -131,7 +131,7 @@ $$
 where the first term is the standard [[kinetic action]]. If $\nabla$ is a (nontrivial) connection on a trivial bundle, then, as described [below](#Of1Form) it is encoded by a [[differential form]] $A \in \Omega^1(X)$ -- called the _vector potential_  in physics -- and we have
 
 $$
-  tra_\nabla(\gamma) = \exp(i \int_[0,1]} \gamma^* A)
+  tra_\nabla(\gamma) = \exp\big(i \int_[0,1] \gamma^* A\big)
   \,.
 $$
 
@@ -255,7 +255,66 @@ See [[higher parallel transport]] for details.
 
 ## References
 
-A collection of references on the equivalent reformulation of connections in terms of their parallel transport is <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">here</a>. 
+There are many equivalent statements of the ordinary definition of a [[connection on a bundle]]. The following lists references related to the statement that the connection is equivalently encoded in terms of its [[parallel transport]].
+
+Apparently one of the oldest occurrences of the idea that a  [[principal bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$ may be reconstructed from its [[holonomy|holonomies]] around all smooth loops for any fixed base point in the connected base space $X$ appears in
+
+* S. Kobayashi, Comptes Rendus, 238, 443-444. (1954). ([web](http://gallica.bnf.fr/ark:/12148/bpt6k31909/f443.item))
+
+A more detailed and more general discussion has then been given in 
+
+* John Milnor, Annals of Mathematics, 63, 272-284.(1956). 
+
+A detailed discussion of the differentiable case appears is
+
+* Costake Teleman  _Généralisation du groupe fondamental_, Annales Scientifiques de l?école Normale Supérieure 3, 77, 195-234. (1960) ([numdam:ASENS_1960_3_77_3_195_0](http://www.numdam.org/item?id=ASENS_1960_3_77_3_195_0))
+
+* Costake Teleman, Annali di Matematica, Pura ed Applicata, LXII, 379-412. (1963). 
+
+This history is recollected in the introduction of
+
+* [[John Barrett]], _Holonomy and path structures in general relativity and Yang-Mills theory_, Int. J. of Theor. Phys., Iiol. 30, No. 9, 1991 ([doi:10.1007/BF00671007](https://doi.org/10.1007/BF00671007))
+
+who himself gives a proof. Barret implicitly uses the  [[diffeological space]] structure on the space of loops.
+
+Followups:
+
+* [[Piotr Hajac]], _Axiomatic holonomy maps and generalized Yang-Mills moduli space_, Letters in Mathematical Physics volume 27, pages301–309 (1993) ([doi:10.1007/BF00777377](https://doi.org/10.1007/BF00777377))
+
+A note on how a 1-form is encoded in the parallel transport that it induces along paths is also in
+
+* [[Daniel Freed]], [appendix B](http://arxiv.org/PS_cache/hep-th/pdf/9206/9206021v1.pdf#page=56) of: _Classical Chern-Simons theory, Part I_ ([arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021))  
+
+
+In
+
+* Jerzy Lewandowski _Group of loops, holonomy maps, path bundle and pathconnection_, Class. Quantum Grav. 10 (1993) 879-904 ([pdf](http://ej.iop.org/links/r8XqKR99r/8rbzxFDZ2xGeFw29av5vpA/cq930508.pdf))
+
+the statement of the equivalence is attributed to
+
+* Jeeva Anandan, _Holonomy groups in gavity and gauge fields_, Pmc. Conf Differential Geometric Methods in Plystcs (fieste 1981) ed. G Denardo and H. D. Doebner (Singapore, World Scientific) ([spire:169409](https://inspirehep.net/literature/169409))
+
+Therein it is shown that smoothness of the [[parallel transport]] is a necessary condition for it to come from a smooth bundle with connection. Barrett also shows that this is sufficient.
+
+Lewandowski adds to this a formulation of an equivalence of bundles with connections and the subset of loops around which the corresponding parallel transport is trivial. 
+
+Around the same time appeared
+
+* A. Caetano, [[Roger Picken]], _An axiomatic definition of holonomy_, Int. Journ. Math. 5 (1994) 835 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9405501), [doi:10.1142/S0129167X94000425](https://doi.org/10.1142/S0129167X94000425))
+
+that generalizes these ideas from loops to general paths. These authors introduced the idea of sitting instants of paths and noticed that the most elegant way to (re)state the maximal equivalence relation on paths which is respected by parallel transport is in terms of [[thin homotopy]].
+
+Barrett originally had something very similar but slightly different. With Caetano and Picken's relation, the space of thin homotopy classes of paths in $X$ becomes an groupoid $\mathbf{P}_1(X)$ -- the [[path groupoid]] -- internal to [[diffeological space]].
+
+Discussion in terms of local functorial data that lends itself to generalization to [[higher parallel transport]] is given in
+
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_, J. Homotopy Relat. Struct. 4, 187-244 (2009) ([arXiv:0705.0452](https://arxiv.org/abs/0705.0452))
+
+
+A quick proof that bundles with connections are encoded in their parallel transport along paths was noted in 
+
+* [[Florin Dumitrescu]], _Connections and Parallel Transport_, Journal of Homotopy and Related Structures, vol. 5(1), 2010, pp.171–175 ([arXiv:0903.0121](http://arxiv.org/abs/0903.0121)).
+
 
 For more see the references at [[connection on a bundle]].
 
