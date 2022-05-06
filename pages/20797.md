@@ -30,6 +30,12 @@ For more see the references at _[[Dp-D(p+2)-brane bound state]]_:
 
 ### General
 
+Discussion of [[D2-branes]] [[D-brane polarization|polarizing]] to [[D2-D4 brane bound states]]:
+
+* [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
+
+* [[Iosif Bena]], Aleksey Nudelman, _Exotic polarizations of D2 branes and oblique vacua of $(S)YM_{2+1}$_, Phys. Rev. D62 (2000) 126007 ([arXiv:hep-th/0006102](https://arxiv.org/abs/hep-th/0006102))
+
 With emphasis on the [[s-rule]]:
 
 
