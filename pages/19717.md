@@ -50,3 +50,5 @@ One generalization considers the lenses from the previous section as _monomorphi
 * {#Hedges} [[Jules Hedges]], _Lenses for philosophers_, [blog post](https://julesh.com/2018/08/16/lenses-for-philosophers/)
 
 * [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
+
+[[!redirects lenses (in computer science)]]
