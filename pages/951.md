@@ -66,13 +66,13 @@ $FinSet$ is also the free symmetric monoidal category on a commutative monoid ob
 
 The last fact is closely connected to this: $FinSet$, made symmetric monoidal using $+$, is equivalent to the [[PROP]] for commutative monoids.
 
-All these universal properties have useful duals.  For example, $FinSet^{op}$ is the free category with finite products on one object.
+All these universal properties have useful duals.  $FinSet^{op}$ is the free category with finite products on one object and also the free category with finite colimits on one object; the symmetric monoidal category $(FinSet, +)^{op}$ is equivalent to the PROP for cococommutative comonoids.
 
 ### In topos theory
 
 The category $FinSet$ is an [[elementary topos]] and the inclusion $FinSet \hookrightarrow Set$ is a [[logical morphism]] of toposes. ([[Elephant|Elephant, example 2.1.2]]).
 
-Mathematics done within or about $\Fin\Set$ is [[finite mathematics]].
+Mathematics done within or about $FinSet$ is [[finite mathematics]].
 
 A [[presheaf]] of sets on $\Fin\Set$ is a [[symmetric set]]; one generally uses the skeletal version of $\Fin\Set$ for this.
 
@@ -85,7 +85,7 @@ The [[simplex category]] $\Delta$ embeds into $\Fin\Set$ as a category with the 
 
 ### As a Lawvere theory
 
-The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the multi-sorted [[Lawvere theory]] of unbiased [[boolean algebra]]s. As a [[lawvere theory]], $FinSet$ has one more sort, corresponding to $\emptyset$, and one more model, in which every sort has exactly one element (in all the other models, the sort corresponding to $\emptyset$ is empty).
+The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the multi-sorted [[Lawvere theory]] of unbiased [[boolean algebra]]s. As a [[Lawvere theory]], $FinSet$ has one more sort, corresponding to $\emptyset$, and one more model, in which every sort has exactly one element (in all the other models, the sort corresponding to $\emptyset$ is empty).
 
 
 
