@@ -113,7 +113,7 @@ By Prop. \ref{EquivariantPT} the equivariant homotopy classes of maps $S^1 \to S
 Indeed, under passage to [[fixed points]] any
 
 $$
-  S^1 \overset{f}{\longrightarrow} S^1 \simeq \{0,1\}
+  S^1 \overset{f}{\longrightarrow} S^1 
 $$
 
 induces a map
@@ -124,6 +124,7 @@ $$
       \big( f\big)^{\mathbb{Z}_2}
     }{\longrightarrow} 
   S^0
+  \simeq \{0,1\}
 $$
 
 and we may regard this as encoding the [[subset]] of $S^0$ which is the [[preimage]] of the chosen non-[[basepoint]] $1 \in S^0$.
