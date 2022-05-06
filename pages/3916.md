@@ -15,7 +15,7 @@
 ## Idea
  {#Idea}
 
-Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $i colon X \hookrightarrow Y$ of [[codimension]] $n$, the _Thom collapse map_ ([Thom 54](#Thom54)) is the [[continuous function]] from $X$ to the [[n-sphere]] which assigns **asymptotic normal distance** from the [[submanifold]], measured 
+Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $i \colon X \hookrightarrow Y$ of [[codimension]] $n$, the _Thom collapse map_ ([Thom 54](#Thom54)) is the [[continuous function]] from $X$ to the [[n-sphere]] which assigns **asymptotic normal distance** from the [[submanifold]], measured 
 
 1. in [[direction vector|direction]] [[orthogonality|perpendicular]] to the submanifold, with respect to a [[normal framing]];
 
@@ -30,7 +30,7 @@ Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $
 > graphics grabbed from [SS 19](Cohomotopy+charge#SatiSchreiber19)
 
 
-For maximal codimension $n$, hence for 0-dimensioonal [[submanifolds]], hence for [[configuration space of points|configurations of points]], this is alternatively known as the "electric field map" ([Salvatore 01](cohomotopy+charge#Salvatore01) following [Segal 73, Section 1](cohomotopy+charge#Segal73), see also [Knudsen 18, p. 49](cohomotopy+charge#Knudsen18)) or the "scanning map" ([Kallel 98](cohomotopy+charge#Kallel98)).
+For maximal codimension $n$, hence for 0-dimensional [[submanifolds]], hence for [[configuration space of points|configurations of points]], this is alternatively known as the "electric field map" ([Salvatore 01](cohomotopy+charge#Salvatore01) following [Segal 73, Section 1](cohomotopy+charge#Segal73), see also [Knudsen 18, p. 49](cohomotopy+charge#Knudsen18)) or the "scanning map" ([Kallel 98](cohomotopy+charge#Kallel98)).
 
 The [[homotopy class]] of the Thom collpase map may be regarded as the _[[Cohomotopy charge]]_ of the submanifolds, as measured in $n$-[[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
 
