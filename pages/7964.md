@@ -23,14 +23,14 @@ The _Higgs field_ or _[[Higgs boson]]_ is a [[scalar field|scalar]] [[physical f
 ### Mass and vacuum (in-)stability
  {#MassAndVacuumInstability}
 
-The [[rest mass]] of the Higgs particle observed at the [[LHC]] [[experiment]] is about $125$ [[GeV]] ([ATLAS Collaboration 12](#ATLAS12), [CMS Collaboration 12](#CMS12), [ATLAS Collaboration 15](#ATLAS15), see [Gibbs 11a](#Gibbs11a) for early discussion).
+The [[rest mass]] of the Higgs particle observed at the [[LHC]] [[experiment]] is about $125$ [[GeV]] ([ATLAS Collaboration 12](#ATLAS12), [CMS Collaboration 12](#CMS12), [ATLAS Collaboration 15](#ATLAS15), see [Gibbs 11a](#Gibbs11a), [HLL 11](#HLL11) for early discussion).
 
 This is determined by a [[local minimum]] of the Higgs [[potential energy|potential]] (see [Kusenko 15](#Kusenko15) for exposition):
 
 <img src="https://ncatlab.org/nlab/files/HiggsPotentials.png" width="500">
 
 
-{#Curiously} Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)):
+{#Curiously} Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)): spring
 
 <img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityIII.png" width="700">
 
@@ -168,6 +168,8 @@ The [[phenomenology]] of Higgs [[model (in particle physics)|models]] is discuss
 Early discussion of the detection of a Higgs field of 125 [[GeV]] at [[LHC]] is in
 
 * {#Gibbs11a} [[Philip Gibbs]], _Seminar Watch (Higgs Special), Rumoured Higgs at 125 GeV and What Would a Higgs at 125 GeV Tell Us?_, Prespacetime Journal, December 2011, Vol. 2 Issue 12 pp. 1899-1905 ([web](http://prespacetime.com/index.php/pst/article/view/308/298))
+
+* {#HLL11} Martin Holthausen, Kher Sham Lim, Manfred Lindner, _Planck Scale Boundary Conditions and the Higgs Mass_, JHEP 1202 (2012) 037 ([arXiv:1112.2415](https://arxiv.org/abs/1112.2415))
 
 The official announcement of the detection at [[LHC]] is due to
 
