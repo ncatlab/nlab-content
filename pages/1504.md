@@ -672,6 +672,10 @@ For the topological string see
 
 * [[Manfred Herbst]], _Quantum A-infinity Structures for Open-Closed Topological Strings_ ([arXiv:hep-th/0602018](http://arxiv.org/abs/hep-th/0602018))
 
+Discussion for [[heterotic string theory|heterotic]] string field theory is in 
+
+* {#KunitomoSugimoto19} Hiroshi Kunitomo, Tatsuya Sugimoto, _Heterotic string field theory with cyclic L-infinity structure_ ([arXiv:1902.02991](https://arxiv.org/abs/1902.02991))
+
 Discussion of the mathematical aspects is in 
 
 * [[Jim Stasheff]], _Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli space_ Talk given at the _Conference on Topics in Geometry and Physics_ (1992) ([arXiv:hep-th/9304061](http://arxiv.org/abs/hep-th/9304061))
