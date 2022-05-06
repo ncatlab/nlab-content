@@ -18,7 +18,7 @@
 
 ## Idea
 
-The [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|structure]].
+The [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|structure]], [[Brown representability theorem|representing]] what is called "symplectic" or "quaternionic" [[cobordism cohomology theory]].
 
 ## Related entries
 
@@ -49,6 +49,13 @@ Vol. 86, No. 1 (1964), pp. 1-16 ([jstor:2373032](https://www.jstor.org/stable/23
 * [[Stanley Kochman]], _The symplectic cobordism ring II_, Memoirs of the American Mathematical Society 1982 
 Volume 40, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/0271))
 
+* {#GorbunovRay92} [[Vassily Gorbunov]], [[Nigel Ray]], _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]], [doi: 10.2977/prims/1195168855](https://www.ems-ph.org/journals/show_abstract.php?issn=0034-5318&vol=28&iss=1&rank=4))
+
+* [[Vassily Gorbunov]], [[Nigel Ray]], [[Paul Turner]], _On the Hopf Ring for a Symplectic Oriented Spectrum_, American Journal of Mathematics
+Vol. 117, No. 4 (Aug., 1995), pp. 1063-1088 ([doi:10.2307/2374960](https://doi.org/10.2307/2374960))
+
+
+
 * {#Laughton08} [[Craig Laughton]], _Quasitoric manifolds and cobordism theory_, Manchester 2008 ([pdf](http://www.ma.man.ac.uk/~nige/craiglphd.pdf), [[LaughtonQuasitoric.pdf:file]])
 
 
@@ -59,6 +66,9 @@ Volume 40, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/02
 
 [[!redirects quaternionic bordism ring]]
 [[!redirects quaternionic bordism rings]]
+
+[[!redirects quaternionic cobordism ring]]
+[[!redirects quaternionic cobordism rings]♧
 
 [[!redirects symplectic bordism theory]]
 [[!redirects symplectic bordism homology theory]]
