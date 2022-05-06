@@ -302,9 +302,19 @@ The resulting $\pi$-$\rho$-$\omega$ model:
 
 * Ulf -G. Meissner, Norbert Kaiser, Andreas Wirzba, Wolfram Weise, _Skyrmions with $\rho$ and $\omega$ Mesons as Dynamical Gauge Bosons_, Phys. Rev. Lett. 57, 1676 (1986) ([doi:10.1103/PhysRevLett.57.1676](https://doi.org/10.1103/PhysRevLett.57.1676))
 
+* L. Zhang, Nimai C. Mukhopadhyay, _Baryon physics from mesons: Leading order properties of the nucleon and $\Delta(1232)$ in the $\pi \rho\omega a_1(f_1)$ chiral soliton model_, Phys. Rev. D 50, 4668 (1994) ([doi:10.1103/PhysRevD.50.4668](https://doi.org/10.1103/PhysRevD.50.4668), [spire:384906](http://inspirehep.net/record/384906))
+
+* Yong-Liang Ma, Ghil-Seok Yang, Yongseok Oh, Masayasu Harada, _Skyrmions with vector mesons in the hidden local symmetry approach_, Phys. Rev. D87:034023, 2013 ([arXiv:1209.3554](https://arxiv.org/abs/1209.3554))
+
+  ([[hidden local symmetry]])
+
+
 * Ju-Hyun Jung, Ulugbek T. Yakhshiev, Hyun-Chul Kim, _In-medium modified $\pi$-$\rho$-$\omega$ mesonic Lagrangian and properties of nuclear matter_, Physics Letters B Volume 723, Issues 4–5, 25 June 2013, Pages 442-447 ([arXiv:1212.4616](https://arxiv.org/abs/1212.4616), [doi:10.1016/j.physletb.2013.05.042](https://doi.org/10.1016/j.physletb.2013.05.042))
 
 * Ju-Hyun Jung, Ulugbek Yakhshiev, Hyun-Chul Kim, Peter Schweitzerm, _In-medium modified energy-momentum tensor form factors of the nucleon within the framework of a $\pi$-$\rho$-$\omgea$ soliton model_, Phys. Rev. D 89, 114021 (2014) ([arXiv:1402.0161](https://arxiv.org/abs/1402.0161))
+
+* Yongseok Oh, _Skyrmions with vector mesons revisited_ ([arXiv:1402.2821](https://arxiv.org/abs/1402.2821))
+
 
 See also
 
