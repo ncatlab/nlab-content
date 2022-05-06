@@ -7,4 +7,6 @@
 
 * [[cosmic inflation]]
 
+* [[ekpyrotic cosmology]]
+
 category: people
