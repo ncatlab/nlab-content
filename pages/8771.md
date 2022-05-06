@@ -22,7 +22,7 @@ The term _dioid_  is sometimes used as an alternative name for idempotent semiri
 
 *  Any [[quantale]] is an idempotent semiring, or dioid, under [[join]] and multiplication.
 
-* The [[powerset]] of the set of languages over a given alphabet forms an idempotent semiring in which $L + L' = L \cup L'$ and multiplication is given by concatentation.
+* The set of [[language|languages]] over a given alphabet forms an idempotent semiring in which $L + L' = L \cup L'$ and multiplication is given by concatentation.
 
 *  The [[tropical semiring|tropical algebra]] and the [[max-plus algebra]] are idempotent semirings.
 
