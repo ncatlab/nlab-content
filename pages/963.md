@@ -21,7 +21,7 @@
 
 ## Definition
 
-A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices where the 
+A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid object]] in the closed symmetric monoidal category of suplattices where the 
 morphisms are the set maps that preserve arbitrary joins. This means it is a poset having all [[joins]] and an associative, unital [[tensor product]] $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]). The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$.  Unitality is 
 skipped by some authors; in that case we can talk about subclass of unital quantales. 
 
@@ -42,7 +42,7 @@ Additional conditions often imposed on a quantale include:
 
 +-- {: .num_prop #meet} 
 ###### Proposition 
-If a [[monoid]] in the [[cartesian monoidal category]] of [[posets]] is idempotent and affine, then the monoid multiplication is the meet operation. 
+If a [[monoid object]] in the [[cartesian monoidal category]] of [[posets]] is idempotent and affine, then the monoid multiplication is the meet operation. 
 =-- 
 
 +-- {: .proof} 
