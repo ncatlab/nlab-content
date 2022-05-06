@@ -9,6 +9,10 @@
 =--
 =--
 
+> This page is about cotensor products of comodules over coalgebras.  The word "cotensor" is also used for [[powers]] in enriched categories, and for the [[multiplicative disjunction]] in a [[polycategory]]/[[linearly distributive category]].
+
+***
+
 #Contents#
 * table of contents
 {:toc}
