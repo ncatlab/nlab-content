@@ -185,7 +185,7 @@ This shows that $\Pi_1(X,X_0)$ is equivalent to the strict coequalizer shown abo
 
 ### Examples
 
-Let $X=S^1$, $U= S^1 \setminus \{N\}$, and $U= S^1 \setminus \{S\}$, where $N$ and $S$ are antipodal points.  Then $U\cong V\cong (0,1)$ are contractible, while $U\cap V \cong (0,1) \sqcup (0,1)$.  Thus the homotopy van Kampen theorem gives a 2-pushout of groupoids that is equivalent to
+Let $X=S^1$, $U= S^1 \setminus \{N\}$, and $V= S^1 \setminus \{S\}$, where $N$ and $S$ are antipodal points.  Then $U\cong V\cong (0,1)$ are contractible, while $U\cap V \cong (0,1) \sqcup (0,1)$.  Thus the homotopy van Kampen theorem gives a 2-pushout of groupoids that is equivalent to
 $$ \array{ \ast\sqcup \ast & \to & \ast \\
   \downarrow && \downarrow \\
   \ast & \to & \Pi_1(S^1) } $$
