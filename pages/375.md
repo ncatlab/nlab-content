@@ -207,7 +207,7 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 
 * [[cartesian closed (∞,1)-category]], [[locally cartesian closed (∞,1)-category]]
 
-* [[cartesian closed enriched category]]
+* [[cartesian closed enriched category]], [[locally cartesian closed enriched category]]
 
 ## Literature
 
