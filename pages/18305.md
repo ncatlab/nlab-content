@@ -38,7 +38,7 @@ $$
   E \longrightarrow X \times \mathbb{R}^n
 $$
 
-is called a _trivialization_ of $E$. If $E$ admits such an isomorphis, then it is called a _trivializable vector bundle._
+is called a _trivialization_ of $E$. If $E$ admits such an isomorphism, then it is called a _trivializable vector bundle._
 
 [[!redirects trivial vector bundles]]
 
