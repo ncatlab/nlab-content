@@ -31,6 +31,12 @@ Exceptional structures are often related to one another. For example, the [[exce
 
 [[!include exceptional structures -- contents]]
 
+## References
+
+See also
+
+* Wikipedia, _[Exceptional object](https://en.wikipedia.org/wiki/Exceptional_object#Monstrous_moonshine)_
+
 
 [[!redirects exceptional structures]]
 
