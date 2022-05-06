@@ -25,11 +25,11 @@ However, [[Chen-Ruan cohomology]] of an orbifold $\mathcal{X}$ turns out to be j
 
 * {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
 
-Hence [[Chen-Ruan cohomology]] of a global quotient orbifold is equivalently the [[rational cohomology]] ([[real cohomology]],  [[complex cohomology]]) for the [[topological quotient space]] $Aut(X\!\sslash\!G)/G$ of the space of [[automorphisms]] in the [[action groupoid]] by the $G$-[[conjugation]] [[action]].
+Hence [[Chen-Ruan cohomology]] of a global quotient orbifold is equivalently the [[rational cohomology]] ([[real cohomology]],  [[complex cohomology]]) for the [[topological quotient space]] $AutMor(X\!\sslash\!G)/G$ of the space of [[automorphisms]] in the [[action groupoid]] by the $G$-[[conjugation]] [[action]].
 
 On the other hand, it was observed in (see p. 18)
 
-* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
+* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
 that for global quotient orbifolds Chen-Ruan cohomology indeed is equivalent to a $G$-equivariant [[Bredon cohomology]] of $X$ -- for one specific choice of [[equivariant cohomology|equivariant]] [[coefficient]] system ([[abelian sheaf]] on the [[orbit category]] of $G$), namely for $G/H \mapsto ClassFunctions(H)$.
 
