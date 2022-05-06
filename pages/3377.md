@@ -100,6 +100,8 @@ This is discussed in ([Seaman 98](#Seaman98))
 
 ## References
 
+### General
+
 The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the principal topics in works of [[Nigel Hitchin]] and [[Carlos Simpson]] in late 1980-s and 1990-s (and later Ron Donagi, Tony Pantev, etc....).  
 
 * [[Nigel Hitchin|N.J. Hitchin]], _Stable bundles and integrable systems_,  Duke Math. J. , 54  (1987)  pp. 91&#8211;114 [MR89a:32021](http://www.ams.org/mathscinet-getitem?mr=89a:32021) [doi](http://dx.doi.org/10.1215/S0012-7094-87-05408-1) [euclid](http://projecteuclid.org/euclid.dmj/1077305506); _The self-duality equations on a Riemann surface_, Proc. London Math. Soc. (3) 55 (1987), no. 1, 59&#8211;126, [MR887284](http://www.ams.org/mathscinet-getitem?mr=887284) [doi](http://dx.doi.org/10.1112/plms/s3-55.1.59); _Flat connections and geometric quantization_, Comm. Math. Phys. __131__, n 2 (1990), 347-380, [euclid](http://projecteuclid.org/euclid.cmp/1104200841)
@@ -145,5 +147,13 @@ Discussion in the context of [[geometric Langlands duality]] includes
 
 
 * {#Witten08} [[Edward Witten]], _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
+
+### Relation to $Spin(7)$-manifolds
+
+Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]] via [[Higgs bundles]]:
+
+* {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
+
+
 
 [[!redirects Higgs bundles]]
