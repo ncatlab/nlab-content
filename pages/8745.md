@@ -14,6 +14,8 @@ The original proof by Duflo is rather case by case, using the structure theory o
 
 ## Related concepts
 
+* [[PBW theorem]]
+
 * [[Wheels theorem]]
 
 ## References
