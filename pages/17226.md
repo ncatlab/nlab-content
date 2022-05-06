@@ -3,13 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Stable Homotopy theory
+#### Cobordism theory
 +--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
+[[!include cobordism theory -- contents]]
 =--
 =--
 =--
@@ -20,7 +16,11 @@
 
 ## Idea
 
-The [[generalized homology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]]. The dual concept of [[cobordism cohomology theory]].
+A [[generalized homology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]]. The dual concept of [[cobordism cohomology theory]].
+
+## Examples
+
+[[!include flavours of cobordism cohomology theories -- table]]
 
 ## Related concepts
 
