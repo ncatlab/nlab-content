@@ -103,7 +103,8 @@ The global (all channels and experiments combined) tension  with the standard mo
 > graphics grabbed from [Dey 18](#Dey18)
 
 
-This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The statistical significance over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)).
+This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] ([Belle 1910](#Belle1910))
+according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The statistical significance over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)) or $\sim 3\sigma$ ([Jaiswal-Nandi-Patra 20](#JaiswalNandiPatra20)).
 
 Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
 
@@ -359,6 +360,9 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
 * {#LHCb19} [[LHCb collaboration]], _Lepton flavour universality in charged-current $B$ decays_ ([arXiv:1907.01500](https://arxiv.org/abs/1907.01500))
 
+* {#Belle1910} [[Belle collaboration]], _Measurement of $\mathcal{R}(D)$ and $\mathcal{R}(D^\ast)$ with a semileptonic tagging method_, Phys. Rev. Lett. 124, 161803 (2020)
+([arXiv:1910.05864](https://arxiv.org/abs/1910.05864), [doi:10.1103/PhysRevLett.124.161803](https://doi.org/10.1103/PhysRevLett.124.161803))
+
 * {#LHCb191208139} [[LHCb collaboration]], _Test of lepton universality with $\Lambda^0_b\to p K^-\ell^+\ell^-$ decays_ ([arXiv:1912.08139](https://arxiv.org/abs/1912.08139))
 
   also:
@@ -415,7 +419,7 @@ Comprehensive overview of the latest world-averaged results to be found at:
 * {#London19} David London, _Anomalies in B Decays: A Sign of New Physics?_,
 talk at [XIth International Symposium on Quantum Theory and Symmetries](http://www.crm.umontreal.ca/2019/QTS2019/index_e.php), July 1-5, 2018 Centre de recherches mathématiques, Montréal, Canada ([arxiv:1911.06238](https://arxiv.org/abs/1911.06238))
 
-* Sneha Jaiswal, Soumitra Nandi, Sunando Kumar Patra, _Updates on SM predictions of $\vert V_{c b}\vert$ and $R(D^{(\ast)})$  in $B\to D^\ast \ell \nu_\ell$ decays_ ([arXiv:2002.05726](https://arxiv.org/abs/2002.05726))
+* {#JaiswalNandiPatra20} Sneha Jaiswal, Soumitra Nandi, Sunando Kumar Patra, _Updates on SM predictions of $\vert V_{c b}\vert$ and $R(D^{(\ast)})$  in $B\to D^\ast \ell \nu_\ell$ decays_ ([arXiv:2002.05726](https://arxiv.org/abs/2002.05726))
 
 * {#Smith20} Eluned Smith on behalf of the [[LHCb collaboration]], _Update of the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ angular analysis at LHCb_, 2020 ([[SmithatLHCbOnFlavourAnomalies2020.pdf:file]])
 
@@ -501,6 +505,7 @@ Cautionary remarks include
 
 * {#Caria19} Giacomo Caria on behalf of the [[Belle collaboration]], _Measurement of $R(D)$ and $R(D^\ast)$ with a semileptonic tag at Belle_, Moriond, EW  22/03/2019 ([pdf](http://moriond.in2p3.fr/2019/EW/slides/6_Friday/3_YSF/1_gcaria_moriond2019.pdf))
 
+
 In contrast, an argument that the threshold [[statistical significance]] for flavour anomalies should be taken to be $3\sigma$ instead of $5 \sigma$ is made in
 
 * {#Lyons13b} Louis Lyons, _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
@@ -558,7 +563,7 @@ General [[effective field theory]] parametrization:
 
 * Ashutosh Kumar Alok, Suman Kumbhakar, S. Uma Sankar, _Discriminating new physics scenarios in b→sμ+μ− via transverse polarization asymmetry of K∗ in B→K∗μ+μ− decay_ ([arXiv:2001.04395](https://arxiv.org/abs/2001.04395))
 
-* Suman Kumbhakar, Ashutosh Kumar Alok, Dinesh Kumar, S. Uma Sankar, _New Physics solutions for $b \to c \tau bar \nu$ anomalies after Moriond 2019_ ([arXiv:2001.06344](https://arxiv.org/abs/2001.06344))
+* Suman Kumbhakar, Ashutosh Kumar Alok, Dinesh Kumar, S. Uma Sankar, _New Physics solutions for $b \to c \tau \bar \nu$ anomalies after Moriond 2019_ ([arXiv:2001.06344](https://arxiv.org/abs/2001.06344))
 
 
 * Florian U. Bernlochner, Stephan Duell, Zoltan Ligeti, Michele Papucci, Dean J. Robinson, _Das ist der HAMMER: Consistent new physics interpretations of semileptonic decays_ ([arXiv:2002.00020](https://arxiv.org/abs/2002.00020))
