@@ -404,7 +404,7 @@ See
 
 * [[K3-cohomology]]
 
-* [[F-theory]],
+* [[F-theory]], [[F-theory on K3]]
 
 * [[elliptic fibration]]
 
