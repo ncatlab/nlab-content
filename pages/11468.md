@@ -132,6 +132,10 @@ Relation to [[gravity]] and the zeros of the [[Riemann zeta function]] (hence th
 
 * {#HuangStoicaYau19} [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
 
+Discussion of [[BTZ black holes]]:
+
+* Ingmar Akira Saberi, around Figure 4.3 of: _Knots, Trees, and Fields: Common Ground Between Physics and Mathematics_ ([doi:10.7907/Z9VX0DHZ](https://thesis.library.caltech.edu/9896), [pdf](https://thesis.library.caltech.edu/9896/1/Saberi_Ingmar_2016.pdf))
+
 
 [[!redirects p-adic string theories]]
 
