@@ -386,3 +386,7 @@ Discussion in terms of [[stable homotopy types]] is due to
 [[!redirects preexcisive functor]]
 [[!redirects preexcisive functors]]
 
+[[!redirects reduced excisive functor]]
+[[!redirects reduced excisive functors]]
+
+
