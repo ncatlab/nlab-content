@@ -118,7 +118,7 @@ $$
 * {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
 
 
-* [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">https://doi.org/10.1016/S0022-4049(97)00127-8</a>)
+* [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">doi:10.1016/S0022-4049(97)00127-8</a>)
 
   (for Hamiltonian groups)
 
