@@ -25,7 +25,7 @@ Integration on a general [[measure space]] can be seen as the process of multipl
 
 \begin{theorem}
 Suppose $X$ is a [[set]], $\Sigma$ is a [[σ-algebra]] of subsets of $X$,
-$\mu\colon\Sigma\to[0,\infty]$ is a countable additive measure,
+$\mu\colon\Sigma\to[0,\infty]$ is a countably additive measure,
 and $\nu\colon\Sigma\to\mathbf{R}$ is a function.
 Then there is a $\mu$-integrable function $f$ such that $\nu(E)=\int_E f$ for all $E\in\Sigma$ if and only if $\nu$ is finitely additive and truly continuous with respect to $\mu$.
 The latter means that for any $\epsilon\gt0$ we can find $E\in\Sigma$ and $\delta\gt0$ such that $\mu(E)$ is finite and $|\nu(F)|\lt\epsilon$ whenever $F\in\Sigma$
@@ -53,6 +53,22 @@ because $\mu$ takes finite values only on finite sets,
 but for any such a set $E$ we have $\nu(X\setminus E)=1$,
 which yields a contradiction if $\epsilon\lt1$.
 \end{example}
+
+## The Lebesgue decomposition
+
+\begin{theorem}
+Suppose $X$ is a [[set]], $\Sigma$ is a [[σ-algebra]] of subsets of $X$,
+$\mu\colon\Sigma\to[0,\infty]$ is a countably additive measure,
+and $\nu\colon\Sigma\to\mathbf{R}$ is a countably additive function.
+Then there is a unique decomposition
+$$\nu=\nu_s+\nu_t+\nu_e,$$
+where $\nu_t$ is truly continuous with respect to $\mu$,
+$\nu_e$ is absolutely continuous with respect to $\mu$ and vanishes
+on every measurable set of finite $\mu$-measure,
+and $\nu_s$ is singular with respect to $\mu$,
+meaning there is a set $F\in\Sigma$ such that $\mu(F)=0$
+and $\nu(E)=0$ for all $E\in\Sigma$ such that $E\subset X\setminus F$.
+\end{theorem}
 
 ## Definitions
 
