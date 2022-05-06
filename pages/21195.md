@@ -159,6 +159,8 @@ Review:
 
 * {#MurphyYount71} Fred V. Murphy, David E. Yount, _Photons as hadrons_, Sci.Am. 225N1 (1971) 1, 94-104 ([spire:41546](https://inspirehep.net/literature/41546), [doi:10.1038/scientificamerican0771-94](https://doi.org/10.1038/scientificamerican0771-94))
 
+* {#Schildknecht72} [[Dieter Schildknecht]], _Vector meson dominance, photo- and electroproduction from nucleons_,  in: _Photon-Hadron Interactions II_ Springer Tracts in Modern Physics, vol 63. Springer 1972 ([doi:10.1007/BFb0041507](https://doi.org/10.1007/BFb0041507))
+
 
 * {#PillerWeise90} G. Piller, [[Wolfram Weise]], _Vector meson dominance: Selected topics_ 1990 ([spire310958](https://inspirehep.net/literature/310958), [[PillerWeiseVMD.pdf:file]])
 
@@ -166,7 +168,6 @@ Review:
 
 * {#Schildknecht05} [[Dieter Schildknecht]], _Vector Meson Dominance_, Acta Phys. Polon. B37:595-608, 2006 ([arXiv:hep-ph/0511090](https://arxiv.org/abs/hep-ph/0511090))
 
-* {#Schildknecht72} [[Dieter Schildknecht]], _Vector meson dominance, photo- and electroproduction from nucleons_,  in: _Photon-Hadron Interactions II_ Springer Tracts in Modern Physics, vol 63. Springer 1972 ([doi:10.1007/BFb0041507](https://doi.org/10.1007/BFb0041507))
 
 See also
 
