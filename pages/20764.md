@@ -90,11 +90,7 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 * [[heterotic M-theory on ADE-orbifolds]]
 
-* [[M2-M5 brane bound state]]
-
-* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
-
-[[!include Dp-D(p+4)-brane bound states -- contents]]
+[[!include brane bound states -- table]]
 
 
 
