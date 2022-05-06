@@ -1,3 +1,4 @@
+[[!redirects cohomology of knot graph complex is weight systems on chord diagrams]]
 
 > under construction
 
@@ -331,12 +332,12 @@ $$
 
 from [[weight systems]] on [[Jacobi diagrams]] ([[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] on [[round chord diagrams]]) to the [[cochain cohomology]] of the framed [[knot graph complex]] spanned by trivalent graphs.
 
-According to [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02) this map is a [[bijection]] 
+According to [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02) this map is a [[bijection]].
 
-> (though for proof of this isomorphism property [CCRL 02](#CattaneoCottaRamusinoLongoni02) points to [AF 96](#AF96) and it's maybe not so clear which statement there implies this).
+To see this, use 1) [AF 96, Theorem 5, Condition U2](#AF96) to find that the map is an [[injection]], and 2) the fact that [[weight systems are associated graded of Vassiliev invariants]].
 
-## Relation to Wilson-loop-/Vassiliev-knot- observables in Chern-Simons theory
- {#Relation}
+In **summary** we have the following situation:
+
 
 <center>
 <img src="https://ncatlab.org/nlab/files/UniversalWilsonLoopObservable.jpg" width="700">
@@ -348,6 +349,16 @@ According to [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02) this map is a
 </center>
 
 > graphics taken from [Sati-Schreiber 19b]()
+
+## Related theorems
+
+* [[weight systems are associated graded of Vassiliev invariants]]
+
+* [[weight systems are cohomology of loop space of configuration space]]
+
+* [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
+
+
 
 ## References
 
