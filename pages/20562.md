@@ -1,10 +1,10 @@
 ## Idea
 
-Categorical compositional distributional semantics, also known as **DisCoCat** for short, uses category theory to combine the benefits of two very different approaches to [[linguistics]]: [[categorial grammar]] and [distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics). Specifically, it uses the fact that [[categorial grammar|pregroups]] and the category of finite-dimensional real [[vector space|vector spaces]] are both examples of [[compact closed category|compact closed categories]]. It turns out that word meanings can be arranged into a strong [[monoidal functor]], which allows sentence meanings to be computed from word meanings by linear algebra, compositionally on the grammatical structure of the sentence.
+Categorical compositional distributional semantics, also known as **DisCoCat** for short, uses category theory to combine the benefits of two very different approaches to [[linguistics]]: [[categorial grammar]] and [distributional semantics](https://en.wikipedia.org/wiki/Distributional_semantics). Specifically, it uses the fact that [[pregroups]] and the category of finite-dimensional real [[vector space|vector spaces]] are both examples of [[rigid monoidal category|rigid monoidal categories]]. Semantics for [[pregroup grammars]] may then be given as a strong [[monoidal functor]], which allows sentence meanings to be computed from word meanings by linear algebra, compositionally on the grammatical structure of the sentence.
 
 DisCoCat was first introduced in [Coecke, Sadrzadeh and Clark 2010](#Coecke10).
 
-There is a curious (if probably shallow) analogy between DisCoCat and [[topological quantum field theory]], in that both concern strong monoidal functors from a free compact closed category to a category of vector spaces.
+There is a curious (if probably shallow) analogy between DisCoCat and [[topological quantum field theory]], in that both concern strong monoidal functors from a free ([[rigid monoidal category|rigid monoidal]] or [[compact closed category|compact closed]]) category to a category of vector spaces.
 
 ## Simple example
 
@@ -25,9 +25,11 @@ Finally, we obtain a sentence-vector
 
 ## Relative pronouns and Frobenius algebras
 
-## Free pregroups vs free autonomous categories
+## Free pregroups vs free rigid monoidal categories
 
-All earlier papers on DisCoCat use free pregroups for the grammar category, building on earlier work by [[Joachim Lambek]] on pregroup grammars. Unfortunately, in [Preller 2014, fact 1](#Preller14) it is proven that any strong monoidal functor from a free pregroup to $FVect$ is necessarily trivial, in the sense that it sends every generator to the monoidal unit $\mathbb{R}$. This is worked around by using a free [[autonomous category]] instead of a free pregroup (this is a sort of [[categorification]]). Morphisms in the free autonomous category can be viewed as [[proof relevance|proof relevant]] grammatical reductions.
+All earlier papers on DisCoCat use free pregroups for the grammar category, building on earlier work by [[Joachim Lambek]] on pregroup grammars. Unfortunately, in [Preller 2014, fact 1](#Preller14) it is proven that any strong monoidal functor from a free pregroup to $FVect$ is necessarily trivial, in the sense that it sends every generator to the monoidal unit. 
+One should instead use a free [[rigid monoidal category]], a kind of [[categorification]]. Morphisms in the free autonomous category can be viewed as [[proof relevance|proof relevant]] grammatical reductions.
+They may be encoded as [[string diagrams]], see [[pregroup grammar]].
 
 This allows a slightly more elegant reformulation of our basic example. Let $\mathcal{C}$ be the free autonomous category on the objects $n, s$ and the morphisms $Alice : 1 \to n$, $Bob : 1 \to n$ and $loves : 1 \to n^{r} s n^{l}$. Then a sentence such as "Alice loves Bob", together with its grammaticality, is witnessed by a morphism $f : 1 \to s$. Now the word-vectors $[\![ Alice ]\!] = F (Alice)$, $[\![ Bob ]\!] = F (Bob)$ and $[\![ loves ]\!] = F (loves)$ become part of the data defining $F : \mathcal{C} \to FVect$, and the resulting sentence vector is simply $F (f)$.
 
@@ -37,7 +39,7 @@ One criticism of DisCoCat is that a single model is unlikely to be complex enoug
 
 * objects are [[strong monoidal functors]]
 $$ F \colon (J,*) \to (FVect,\otimes) $$
-where $(J,*)$ is a category which is freely monoidal on some set of grammatical types. In practice $J$ might be freely equipped with an [[autonomous]] structure or a [[froebenius algebra]] on each object.
+where $(J,*)$ is a category which is freely monoidal on some set of grammatical types. In practice $J$ might be freely equipped with an [[rigid monoidal category|rigid]] structure or a [[Frobenius algebra]] on each object.
 
 * A morphism from a language model $F \colon J \to FVect$ to a language model $F' \colon J' \to FVect$ is a tuple $(j , \alpha)$ where $j$ is a [[monoidal functor]] $i \colon J \to J'$ and $\alpha \colon F \Rightarrow F' \circ j$ is a [[monoidal natural transformation]] filling the following triangle
 \begin{centre}
@@ -58,13 +60,11 @@ This product space representation can be related to monoidal functor perspective
 
 DisCoCat is relatively easy to modify by replacing the semantic category $FVect$ with some other category with the appropriate structure. Examples include
 
-* [[relation|Relations]] to model simple boolean semantics, usually as a simpler toy model
+* [[relation|Relations]], which yields a semantics in [[regular logic]], closely related to [[cartesian bicategory|Cartesian bicategories]], see ([Felice, Meichanetzidis and Toumi 2019](#Felice19)
 
 * [[density matrix|Density matrices]] to model semantic ambiguity (such as "financial bank" vs "river bank"
 
 * Convex relations (i.e. [[relation|relations]] in the category of [[convex space|convex spaces]]) to model cognition ([Bolt et al 2016](#Bolt16))
-
-* Formulas of [[regular logic]] to model [[Montague grammar|Montague semantics]] ([Felice, Meichanetzidis and Toumi 2019](#Felice19))
 
 * [[game theory|Games]] to model dialogue ([Hedges and Lewis 2018](#Hedges18))
 
@@ -80,7 +80,7 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 
 * {#Bolt16} [[Josef Bolt]], [[Bob Coecke]], [[Fabrizio Genovese]], [[Martha Lewis]], [[Daniel Marsden]] and [[Robin Piedeleu]], _Interacting conceptual spaces I: Grammatical composition of concepts_, SLPCS 2016 ([arXiv:1703.08314](https://arxiv.org/abs/1703.08314)
 
-* {#Felice19} [[Giovanni de Felice]], [[Konstantinos Meichanetzidis]] and [[Alexis Toumi]], _Montague semantics for Lambek pregroups_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
+* {#Felice19} [[Giovanni de Felice]], [[Konstantinos Meichanetzidis]] and [[Alexis Toumi]], _Functorial Question Answering_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
 
 * {#Hedges18} [[Jules Hedges]] and [[Martha Lewis]], _Towards functorial language-games_, CAPNS 2018. ([arXiv:1807.07828](https://arxiv.org/abs/1807.07828))
 
