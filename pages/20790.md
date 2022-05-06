@@ -1,0 +1,64 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Qunantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[quantum chromodynamics]] in 2 [[spacetime]] [[dimensions]]
+
+First considered in ['t Hooft 74](#tHooft74), whence also called the _'t Hooft model_.
+
+## References
+
+### General 
+
+The original account is:
+
+* {#tHooft74} [[Gerard ’t Hooft]], _A Two-Dimensional Model For Mesons_, Nucl. Phys. B75, 461 (1974) (<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>)
+
+See also:
+
+* [[Michael Douglas]], Keke Li, Matthias Staudacher, _Generalized Two-Dimensional QCD_ ([arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062))
+
+* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl.Phys.B400:181-210, 1993
+
+### On intersecting D-brane models
+
+[[geometric engineering of QFT|geometric engineering]] of 2d QCD in [[intersecting D-brane models]] ([[AdS/QCD]]):
+
+#### Top-down
+
+Top-down construction of 2d QCD analogous to the [[Witten-Sakai-Sugimoto model]] for 4d [[QCD]]
+
+* Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
+
+Specifically concerning the 3d [[Chern-Simons theory]] on the [[D8-branes]]:
+
+* Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
+
+
+#### Bottom-up
+
+* Emanuel Katz, Takemichi Okui, _The 't Hooft Model As A Hologram_, JHEP 0901:013, 2009 ([arXiv:0710.3402](https://arxiv.org/abs/0710.3402))
+
+[[!redirects 2d QCD]]
+
+[[!redirects D=2 quantum chromodynamics]]
+[[!redirects 2d quantum chromodynamics]]
+
+
+[[!redirects 't Hooft model]]
+[[!redirects 't Hooft models]]
+
