@@ -1,4 +1,5 @@
 
+
 ### Chern-Weil homomorphism
 
 #### Original articles
@@ -9,7 +10,7 @@ The [[differential geometry|differential-geometric]] [[Chern-Weil homomorphism]]
 
   \linebreak
 
-  [[Henri Cartan]], Section 7 of: _Notions d'algèbre différentielle; applications aux groupes de Lie et aux variétés o&ugrave; opère un groupe de Lie_, in: Centre Belge de Recherches Mathématiques, _Colloque de Topologie (Espaces Fibrés) Tenu &agrave; Bruxelles du 5 au 8 juin 1950_, Georges Thon 1951 ([GoogleBooks](https://books.google.de/books/about/Colloque_de_topologie_espaces_fibres.html?id=sagqHQAACAAJ&redir_esc=y))
+  [[Henri Cartan]], Section 7 of: _Notions d'algèbre différentielle; applications aux groupes de Lie et aux variétés o&ugrave; opère un groupe de Lie_, in: Centre Belge de Recherches Mathématiques, _Colloque de Topologie (Espaces Fibrés) Tenu &agrave; Bruxelles du 5 au 8 juin 1950_, Georges Thon 1951 ([GoogleBooks](https://books.google.de/books/about/Colloque_de_topologie_espaces_fibres.html?id=sagqHQAACAAJ&redir_esc=y), [[CartanNotionsDAlgebreDifferentielle.pdf:file]])
 
   \linebreak
 
