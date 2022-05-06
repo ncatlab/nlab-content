@@ -28,7 +28,7 @@ A _fuzzy sphere_ is a variant of an [[n-sphere]] in [[noncommutative geometry]].
 ### Fuzzy 2-sphere
  {#Fuzzy2SphereDefinition}
 
-For $N \in \mathbb{N}$, $N \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{j \times j}$ generated from the elements of the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
+For $N \in \mathbb{N}$, $N \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{N \times N}$ generated from the elements of the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
 
 We now say this more in detail:
 
@@ -207,7 +207,7 @@ $$
   SmoothAlg\big( \{x_1, x_2,x_3\}\big)
   \big/
   \Big( 
-     \underset{i}{\sum} x_i \cdot x_1   = 1
+     \underset{i}{\sum} x_i \cdot x_i   = 1
   \Big)
 $$
 
