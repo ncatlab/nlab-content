@@ -170,7 +170,7 @@ Some general-purpose references include
 
 * Harm Derksen, Jerzy Weyman, [Quiver representations](http://www.ams.org/notices/200502/fea-weyman.pdf) _AMS Notices_, 2005.
 
-* William Crawley-Boevy, _Lectures on quiver representations_ ([pdf](http://www.amsta.leeds.ac.uk/~pmtwc/quivlecs.pdf)).
+* William Crawley-Boevey, _Lectures on quiver representations_ ([pdf](https://www.math.uni-bielefeld.de/~wcrawley/quivlecs.pdf)).
  
 * Alistair Savage, _Finite-dimensional algebras and quivers_ ([arXiv:math/0505082](http://www.arxiv.org/abs/math/0505082)), _Encyclopedia of Mathematical Physics_, eds. J.-P. Fran&#231;oise, G.L. Naber and Tsou S.T., Oxford, Elsevier, 2006, volume 2, pp. 313-320.
 
