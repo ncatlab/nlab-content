@@ -59,7 +59,7 @@ See also
 
 For the special case of hyperbolic plane (but possibly over various fields) see
 
-* Norman J Wildberger, _Universal hyperbolic geometry I: Trigonometry_, Geometriae Dedicata 163(1), 2009 [arxiv/0909.1377](http://arxiv.org/abs/0909.1377) [doi](http://dx.doi.org/10.1007/s10711-012-9746-9); _Universal hyperbolic geometry II: A pictorial overview_, [arxiv/1012.0880](http://arxiv.org/abs/1012.0880)
+* Norman J. Wildberger, _Universal hyperbolic geometry I: Trigonometry_, Geometriae Dedicata 163(1), 2009 [arxiv/0909.1377](http://arxiv.org/abs/0909.1377) [doi](http://dx.doi.org/10.1007/s10711-012-9746-9); _Universal hyperbolic geometry II: A pictorial overview_, [arxiv/1012.0880](http://arxiv.org/abs/1012.0880)
 
 ### Relation to AdS3/CFT2
 
