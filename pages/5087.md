@@ -189,7 +189,7 @@ Trivially, any [[connected geometric morphism]] is surjective.
 +-- {: .num_prop}
 ###### Proposition
 
-For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $(f^* \dashv f_*) : Sh(X) \to Sh(Y)$ the corresponding geometric morphisms of [[sheaf topos]]es, $f$ is a surjection precisely if $(f^* \dashv f_*)$ is a surjective geometric morphism.
+For $f : X \to Y$ a [[continuous function]] between $T_1$ [[topological space]]s and $(f^* \dashv f_*) : Sh(X) \to Sh(Y)$ the corresponding geometric morphisms of [[sheaf topos]]es, $f$ is a surjection precisely if $(f^* \dashv f_*)$ is a surjective geometric morphism.
 
 =--
 
