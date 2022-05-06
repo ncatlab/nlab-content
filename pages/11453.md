@@ -56,7 +56,7 @@ The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theo
 (e.g. [Blumenhagen-Lüst-Theisen 13 (9.83)](#BlumenhagenLustTheisen13)).
 
 
-Beware that there is some convention involved in assigning an absolute value of unit D-brane charge $q_{D9}$. A common choice in the literature is to mean by "one D-brane" one of the two pre-images on the [[covering space]], in which case its obsolute charge is to be 
+**Beware** that there is some convention involved in assigning an absolute value of unit D-brane charge $q_{D9}$. A common choice in the literature is to mean by "one D-brane" one of the two pre-images on the [[covering space]], in which case its obsolute charge is to be 
 
 \[
   \label{DBraneChargeOnOrbifold}
