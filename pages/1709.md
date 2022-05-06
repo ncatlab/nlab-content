@@ -829,3 +829,7 @@ tc ops should be treated as a single phrase &#8211; it may be that the ops are t
 [[!redirects twisted generalized cohomology]]
 
 [[!redirects cohomology with local coefficients]]
+
+[[!redirects twisted cohomology theory]]
+[[!redirects twisted cohomology theories]]
+
