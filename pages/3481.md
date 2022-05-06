@@ -17,10 +17,10 @@
 
 ## Idea
 
-The **axiom of multiple choice** (AMC) is a weak version of the [[axiom of choice]] which can hold in [[constructive mathematics]].
+The **axiom of multiple choice** (AMC) can refer to one several weaker versions of the [[axiom of choice]]. Two categorical ones are weakenings of [[COSHEP]], which can hold in [[constructive mathematics]]. There is also an older set theoretic axiom by the same name, which is historically unrelated and not equivalent (as far as I know).  Other nlab pages typically refer to a categorical version.
 
 
-## Statement
+## Statement (Categorical Version)
 
 A set-indexed family $\{D_c\}_{c\in C}$ of sets is said to be a *collection family* if for any $c\in C$ and any [[surjection]] $E\twoheadrightarrow D_c$, there exists a $c'\in C$ and a surjection $D_{c'}\twoheadrightarrow D_c$ which factors through $E$.
 
@@ -43,19 +43,38 @@ The nLab uses the initialization AMC to cover either the first two formulations.
 The third is a weaker condition, and while some may refer to as a "weak axiom of multiple choice", van den Berg obviously does not; he calls his the AMC and the Moerdijk-Palmgren formulation rather the "strong axiom of multiple choice". 
 
 
+##Statement (Set-Theoretic Version)
+
+One common statement of the axiom of choice is: 
+
+:For every set $S$ of non-empty sets, there is a function $f$ defined on $S$ such that $\forall X\in S$, $f(X)\in X$.
+
+Such an $f$ is called a __choice function__ for $S$.
+
+The axiom of multiple choice weakens the axiom of choice by allowing choice functions to pick out finite subsets, rather than finite sets.  It says:
+
+:For every set $S$ of non-empty sets, there is a function $f$ defined on $S$ such that $\forall X\in S$, $f(X)\subseteq X$ and $f(X)$ is finite.
+
+The axiom of multiple choice is actually equivalent to the axiom of choice modulo [[ZF]] set thoery.  However, it is strictly weaker in [[ZFA]] and other similar set theories.  More details can be found in [Jech's "The Axiom of Choice](https://www.gwern.net/docs/math/1973-jech-theaxiomofchoice.pdf)
++--{: .query}
+[[Brian Pinsky]]: Does someone know an appropriate version of this statement to make in more general topoi than $\textsc{Set}$?  I'd like to flesh out the relationship of this axiom to others weakenings of AC more
+
+=--
+
+
 ## Relationships to other axioms
 
-* Note that $P$ is a [[projective set]] if and only if the singleton family $\{P\}$ is a collection family.  Therefore, since AC is equivalent to "all sets are projective," it implies AMC.
+* Note that $P$ is a [[projective set]] if and only if the singleton family $\{P\}$ is a collection family.  Therefore, since AC is equivalent to "all sets are projective," it implies categorical AMC.
 
 * An extension of this argument shows that [[COSHEP]] is sufficient to imply AMC.
 
 * The [[Reflection Principle]] (RP) is equivalent to AMC (the one called strong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
 
-* However, AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
+* However, none of these AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
 
-* Rathjen proves that [[SVC]] also implies AMC.  It follows that AMC holds in "most" models of set theory.
+* Rathjen proves that [[SVC]] also implies categorical AMC.  It follows that AMC holds in "most" models of set theory.
 
-* AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]]. Thus WISC may be termed "weak axiom of multiple choice".
+* categorical AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]]. Thus WISC may be termed "weak axiom of multiple choice".
 
 * A [[ΠW-pretopos]] satisfying the (weak) axiom of multiple choice is a _[[predicative topos]]_, or removing the word "weak", we may speak of a strong predicative topos.
 
@@ -70,7 +89,10 @@ In
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
+
 [[WISC]] is called the "axiom of multiple choice".
+
+* Jech, _The Axiom of Choice_ (1973), ISBN : 0444104844 (New York)
 
 
 category: foundational axiom
