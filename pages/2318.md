@@ -63,7 +63,7 @@ The obstruction class to this lift is a fractional multiply of the second [[Pont
 
 $$
   \array{
-     B String &\stackrel{1/6 p_2}{\to}& B^8 \mathbb{Z}
+     B String &\stackrel{\frac{1}{6} p_2}{\to}& B^8 \mathbb{Z}
      \\
      \downarrow && \downarrow^{\mathrlap{\cdot 6}}
      \\
@@ -82,7 +82,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    B String &\stackrel{\frac{1}{6}}{\to}& B^7 U(1)&
+    B String &\stackrel{\frac{1}{6} p_2}{\to}& B^7 U(1)&
   }
 $$
 
@@ -99,7 +99,7 @@ $$
   \,.
 $$
 
-In ([SSS2](#SSS2)) the physical interpretation of this topological lift was established by comparison with known [[quantum anomaly]] cancellaton conditions in [[dual heterotic string theory]].
+In ([SSS2](#SSS2)) the physical interpretation of this topological lift was established by comparison with known [[quantum anomaly]] cancellation conditions in [[dual heterotic string theory]].
 
 The term "Fivebrane" apparently quickly caught on in the mathematical community, for instance in ([DouglasHenriquesHill](#DHH)).
 
