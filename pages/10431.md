@@ -1,13 +1,20 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-
-#### Physics
+### Context
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
+#### Homotopy theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include homotopy - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
