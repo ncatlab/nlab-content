@@ -1,4 +1,4 @@
-The material previously on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Sign_relation).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Sign_relation).
 
 [[!redirects semiotic]]
 [[!redirects semiotics]]
