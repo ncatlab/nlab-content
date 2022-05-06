@@ -59,6 +59,8 @@ A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[A
 
 ## Related concepts
 
+* [[e-invariant]]
+
 * [[division algebra and supersymmetry]]
 
 * [[cross product]]
@@ -78,15 +80,15 @@ The original proof that the only maps of Hopf invariant one are the [[Hopf const
 
 and made use of the [[classical Adams spectral sequence]]. 
 
-Review includes
+Review:
 
-* [[Doug Ravenel]], chapter 1, section 2: _Methods of computing $\pi_\bullet(S^n)$_ in: _[[Complex cobordism and stable homotopy groups of spheres]]_
+* [[Doug Ravenel]], chapter 1, section 2 in: _Methods of computing $\pi_\bullet(S^n)$_ in: _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 * {#Rognes12} [[John Rognes]], around lemma 4.14, theorem 4.15 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 * Joseph Victor, Section 2.4 of _Stable Homotopy Groups of Spheres and The Hopf Invariant One Problem_, 2013 ([pdf](http://mathematics.stanford.edu/wp-content/uploads/2013/08/Victor-Honors-Thesis-2013.pdf))
 
-Further comments on the impact of this proof on the development of [[stable homotopy theory]] includes
+Comments on the impact of this proof on the development of [[stable homotopy theory]]:
 
 * {#ElmendorfKrizMay95} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_, Amsterdam: North-Holland, (1995) pp. 213&#8211;253,  ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
@@ -104,6 +106,8 @@ This is reproduced/reviewed in:
 
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+* [[Gereon Quick]], _The Hopf invariant one problem via K-theory_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([pdf](https://ncatlab.org/nlab/files/QuickHopfInvariant.pdf))
 
 * [[Ulrich Pennig]], _[K-theory and the Hopf invariant](http://wwwmath.uni-muenster.de/reine/u/topos/lehre/SS2015/KTheorie-Hopf/Hopf_eng.html)_ 
 
