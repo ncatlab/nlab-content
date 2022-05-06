@@ -108,6 +108,16 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
 colourless physical states (hadrons).
 
+* Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+
+> the entirety of the rich field of nuclear physics emerges from QCD: from the forces binding protons and neutrons into the nuclear landscape, to
+the fusion and fission reactions between nuclei, to the prospective interactions of nuclei with BSM physics, and
+to the unknown state of matter at the cores of neutron
+stars. 
+
+> How does this emergence take place exactly? How is the clustering of quarks into nucleons and alpha particles realized? What are the mechanisms behind collective phenomena in nuclei as strongly correlated many-body systems? How does the extreme fine-tuning required to reproduce nuclear binding energies proceed? – are big
+open questions in nuclear physics.
+
 Of course various partial approaches exist, notably computer-[[experiment]] in [[lattice QCD]]. (Such computer-checks of the mass-gap problem are analogous to computer checks of the [[Riemann hypothesis]], see [there](Riemann+hypothesis#ReferencesComputerChecks))
 High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulations are reported here:
 
