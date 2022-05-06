@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[Witten genus]] and the [[Stolz conjecture]]:
+
+* [[Anand Dessai]], _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
+
+
 On the [[Witten genus]] on manifolds with [[SU(2)]]-[[action]]:
 
 * [[Anand Dessai]], _The Witten genus and $S^3$-actions on manifolds_, 1994 ([pdf](https://homeweb.unifr.ch/dessaia/pub/papers/MZpreprint6_Witten_S3.pdf), [[DessaiWittenGenusS3.pdf:file]])
