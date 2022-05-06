@@ -138,13 +138,10 @@ The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real lin
 +-- {: .proof}
 ###### Proof
 
-This is theorem 5.1 in
-
-* D. Pavlovic, [[Vaughan Pratt]], _On coalgebra of real numbers_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
+This is theorem 5.1 in ([Pavlovic–Pratt 1999](#PavlovicPratt)).
 
 To make it less mysterious as it appears, the basic idea is that the functor
-
-F: (Set) -> (Set) that takes a set (-) to (X x (-)) has final coalgebra being the stream of X: (XxXxXx...). Take X be the set of natural numbers N, the result is simply the stream of N: NxNxNx..., which obviously can be  identified with the real number set. Now take the (partial) order into account, you can get and ordered isomorphism. With suitable choice of identification between NxNx.. and [0,1), the topology can also be taken care of.
+$F\colon Set \to Set$ that takes a set $A$ to $X \times A$ has final coalgebra being the stream of $X$: $X\times X\times X\times \ldots$. Take $X$ be the set $\mathbb{N}$ of natural numbers, the result is simply the stream of $\mathbb{N}$: $\mathbb{N}\times \mathbb{N}\times \mathbb{N}\times \ldots$, which obviously can be identified with the real number set. Now take the (partial) order into account, you can get and ordered isomorphism. With suitable choice of identification between $\mathbb{N}\times \mathbb{N}\times \mathbb{N}\times \ldots$ and $[0,1)$, the topology can also be taken care of.
 
 =--
 
@@ -210,7 +207,7 @@ A formalization of the real numbers in [[homotopy type theory]] is in
 
 For more see the references at _[[analysis]]_.
 
-
+* {#PavlovicPratt} [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, Electronic Notes in Theoretical Computer Science **19** (1999) 103-117, doi:[10.1016/S1571-0661(05)80272-5](https://doi.org/10.1016/S1571-0661%2805%2980272-5), [CiteSeerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204)
  
 [[!redirects real number]]
 [[!redirects real numbers]]
