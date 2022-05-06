@@ -210,6 +210,8 @@ Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its 
 
 * {#HiragaHyakutake18} Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
 
+* Kazuho Hiraga, Yoshifumi Hyakutake, _Scalar Cosmological Perturbations in M-theory with Higher Derivative Corrections_ ([arxiv:1910.12483](https://arxiv.org/abs/1910.12483))
+
 
 ### Embedding into superstring theory
  {#ReferencesEmbeddingIntoStringTheory}
