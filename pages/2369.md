@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -80,6 +81,8 @@ The notion of (commutative) homotopy ring spectra, i.e. ([[commutative monoid|co
   > (attributed there to [[George Whitehead]])
 
 Review:
+
+* [[John Michael Boardman]], Sections 3,7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Appendix C.2 of: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
