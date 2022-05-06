@@ -28,10 +28,20 @@ In the context of [[simplicial group]]s, representing [[connected]] [[homotopy t
 
 ## References
 
+### General
+
 Named after [[J. H. C. Whitehead]].
 
 See also 
 
 * Wikipedia _[Whitehead product](http://en.wikipedia.org/wiki/Whitehead_product)_
+
+### In rational homotopy theory
+
+Discussion of Whitehead products in [[rational homotopy theory]]:
+
+* Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
+
+
 
 [[!redirects Whitehead products]]
