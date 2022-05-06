@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -236,13 +237,14 @@ This yields higher [[Vassiliev knot invariants]], a good review is in [Volić 13
 ### Overview
  {#OverviewOfDefinitions}
 
-There are two different classes of (Kontsevich) graph complexes, modelling the [[real cohomology]] of, respectively,
+There are two different classes of (Kontsevich-) graph complexes, modelling the [[real cohomology]] of, respectively,
 
-1. [[configuration spaces of points]];
+| [[configuration space]]   |    |   |  [[graph complex]]  |  |
+|----|----|---|----|--|
+| [[configuration spaces of points]] | $Conf_n(\Sigma)$ | $\;\;\leftrightarrow\;\;$ | $Graphs_n(\Sigma)$ |  [(1)](#GraphComplexesModellingConfigurationSpacesOfPoints) |  
+| [[spaces of knots]] | $Emb(S^1,\Sigma)$ | $\;\;\leftrightarrow\;\;$ | $KnotGraphs(\Sigma)$ | [(2)](#GraphComplexesModellingSpacesOfKnots) |
 
-1. [[spaces of knots]].
-
-Their definitions are almost identical, except for some small but crucial difference in the definition of degrees and labels of edges (see [below](#KnotGraphsDefinition)).
+Despite their very deifferent cohomological nature, the explicit definitions of these two kinds of graph complexes are mostly identical, except for some small but crucial difference in the definition of degrees and labels of edges (see [below](#KnotGraphsDefinition)).
 
 In addition, the definition of the graph complex model for configuration spaces of points depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomology of the [[configuration space of points]] in $\Sigma$
 
@@ -335,16 +337,23 @@ For instance:
 
 \linebreak
 
+### **1)** Graph complexes modelling configuration spaces of points
+ {#GraphComplexesModellingConfigurationSpacesOfPoints}
 
-### $Graphs_n\big( \mathbb{R}^3 \big)$
+We discussion graph complexes $Graphs_n(\Sigma)$ modelling the [[real cohomology]] of [[configuration spaces of points]] $Conf_n(\Sigma)$. 
+
+For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and discussed in detail in [Lambrechts-Volić 14](#LambrechtsVolic14).
+
+\linebreak
+
+#### $Graphs_n\big( \mathbb{R}^3 \big)$
  \label{GraphComplexForConfigurationsOfPointsInR3}
-
 
 
 We state the definition of the graph complexes $Graphs_n\big( \mathbb{R}^3\big)$ (as motivated [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints), see Def. \ref{GraphComplexDgcAlgebra} below) associated with [[Euclidean space]] of [[dimension]] 3, following [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14).
 
 
-#### Graphs
+##### Graphs
 
 +-- {: .num_defn #Graphs}
 ###### Definition
@@ -696,9 +705,13 @@ For example, the following graph, obtained from the above trivalent graph by rep
 =--
 
 
+
+
+
+
 \linebreak
 
-#### The algebra of graphs
+##### The algebra of graphs
 
 +-- {: .num_defn #WedgeProductOfGraphs}
 ###### Definition
@@ -799,10 +812,17 @@ In fact this graded-graded commutative algebra is [[free construction]] on
    (the internal vertices).
 
 
+
+
+
+
+
+
+
 \linebreak
 
 
-#### The differential on graphs
+##### The differential on graphs
  {#TheDifferential}
 
 The [[differential]] on the graded vector space of equivalence classes of graphs (eq:VectorSpaceOfGraphsWithSignRulesImposed) is defined in terms of contraction of certain edges in the graph (Def. \ref{ContractionOfAnEdge} below). For this we first say which edges count as _contractible_ (Def. \ref{ContractibleEdges}) and which sign is picked up when contracting them (Def. \ref{SignOfAContractibleEdge}):
@@ -1025,6 +1045,21 @@ $$
 ([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
 
 
++-- {: .num_defn #DifferentialOfThePeaceSymbolGraph}
+###### Example
+**(Differential of the Peace Symbol graph)**
+
+The differential of the _Peace Symbol_ graph from Example \ref{TrivalenGraphs}
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/The0CocycleInTheGraphComplex.jpg" width="800">
+</center>
+
+
+=--
+
+
 +-- {: .num_example #DifferentialOfTrivalentTreeWithTwoInternalVertices}
 ###### Example
 **(differential of trivalent tree with two internal vertices)**
@@ -1070,25 +1105,33 @@ The [[linear map]] $d$ in Def. \ref{DifferentialOnGraphs} makes the [[graded vec
 
 ([Lambrechts-Volić 14, Lemmas 6.11 - 6.14](#LambrechtsVolic14))
 
+
+
+
+
+
+
+
 \linebreak
 
 
-#### The graph complex
+##### The graph complex
  {#TheGraphComplex}
 
 +-- {: .num_defn #VanishingGraphs}
 ###### Definition
 **(vanishing graphs)**
 
-We say that a graph $\Gamma$ (Def. \ref{Graphs}) is a _vanishing graph_ if at least one of the following conditions applies
+We say that a graph $\Gamma$ (Def. \ref{Graphs}) is a _vanishing graph_ if it is one or more of the following:
 
-* ([[tadpole]]) $\Gamma$ contains an edge $e$ with $s(e) = t(e)$ (Example \ref{GraphsWithDirectLoopsVanish});
+* it is a [[tadpole-diagram]]: $\Gamma$ contains an edge $e$ with $s(e) = t(e)$ (Example \ref{GraphsWithDirectLoopsVanish});
 
-* (less than trivalent) $\Gamma$ contains an internal vertex $v \in Verts_{int}$ that is less than trivalent, hence an internal vertex with less than 3 edges attached to itl
+* it is a [[vacuum diagram]]: $\Gamma$ contains an internal vertex which is not connected, via some path of edges, to an external vertex;
 
-* (parallel edges) $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element;
+* it is less than trivalent: $\Gamma$ contains an internal vertex $v \in Verts_{int}$ that is less than trivalent, hence an internal vertex with less than 3 edges attached to it;
 
-* (not connected to external vertex) $\Gamma$ contains an internal vertex which is not connected, via some path of edges, to an external vertex.
+* it contains parallel edges: $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element.
+
 
 Write 
 
@@ -1145,25 +1188,123 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 
 ([Lambrechts-Volić 14, Def. 6.19](#LambrechtsVolic14))
 
++-- {: .num_defn #A9CocycleInGraphs3}
+###### Remark
+**(A 9-cocycle in $Graphs_3(\mathbb{R}^3)$)**
 
-+-- {: .num_defn #DifferentialOfThePeaceSymbolGraph}
-###### Example
-**(Differential of the Peace Symbol graph)**
+The trivalent graph of degree 9 from Example \ref{TrivalenGraphs} is a [[cocycle]] in $Graphs_3(\mathbb{R}^3)$ (Def. \ref{GraphComplexDgcAlgebra}):
 
-The differential of the _Peace Symbol_ graph from Example \ref{TrivalenGraphs}
+<center>
+<img src="https://ncatlab.org/nlab/files/A9CocycleInGraphs3.jpg" width="610">
+</center>
+
+The computation of the differential is just as  for the 3-term relation in Example \ref{ThreeTermRelation},
+but now all summands on the right have more than one edge between pairs of vertices
+and hence are vanishing graphs (Def. \ref{VanishingGraphs}) that are zero in the quotient (eq:TheGraphComplexAsQuotientByVanishingGraphs) defining the  graph complex $GRaphs_3\big( \mathbb{R}^3 \big)$ (Def. \ref{GraphComplexDgcAlgebra}).
+
+=--
+
++-- {: .num_lemma #GraphsAreInNonNegativeDegree}
+###### Lemma
+**(graphs are in non-negative degree)**
+
+For all $n \in \mathbb{N}$, the degrees (Def. \ref{DegreeOfAGraph})  of any non-vanishing graph $[\Gamma]$ in the graph complex $Graphs_n(\mathbb{R}^3)$ (Def. \ref{GraphComplexDgcAlgebra}) are non-[[negative number|negative]]
+
+$$
+  deg\big( [\Gamma] \big)
+  \;\geq\;
+  0
+  \;\;
+  \in
+  \;\;
+  Graphs_n(\mathbb{R}^3)
+  \,.
+$$
+
+Moreover, the only graphs of degree 0 are those containg the external vertices and nothing else:
+
+$$
+  deg\big( [\Gamma]\big)
+  =
+  0
+  \;\;\;\;\;\;\Leftrightarrow\;\;\;\;\;\;
+  [\Gamma] = 0
+  \;\;\;\text{or}\;\;\;
+  [\Gamma] = \big[ {}_1 \;\; {}_2 \;\; \cdots \;\; {}_n  \big]
+  \;\;\;\;\in\;\;
+  Graphs_n(\mathbb{R}^3)
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since [[tadpole]] graphs are vanishing graphs by Def. \ref{VanishingGraphs}, we may assume that each edge in $\Gamma$ has two distint vertices it ends on, for otherwise we have the zero element in the graph complex.
+
+Now, since each edge has degree 2 (according to Def. \ref{DegreeOfAGraph}), we may think of each edge as contribution a degree +1 for each of its two vertices, via the coresponding half-edge ending on that vertex.
+
+Since external vertices have degree 0, together with the half-edges that end on them they contribute a non-negative number to the total degree.
+
+While internal vertices have degree -3 (according to Def. \ref{DegreeOfAGraph}), we have a vanishing graph if less than three edges meet at an internal vertex (by Def. \ref{VanishingGraphs}) and hence, once vanishing graphs have been quotiented out, also internal vertices together with the half-edges ending on them contribute a non-negative number to the  total degree.
+
+This proves the first claim. 
+
+For the second claim, recall from Example \ref{TrivalenGraphs} that a graph has degree 0 precisely if it is a disjoint union of a) isolated external vertices and b) trivalent graphs all whose vertices are internal.
+
+But if there is any disjoint non-empty sub-graph with only internal vertices, the total graph is again a vanishing graph by Def. \ref{VanishingGraphs}, since it contains internal vertices not connected to any external vertex.
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/The0CocycleInTheGraphComplex.jpg" width="800">
+<img src="https://ncatlab.org/nlab/files/VacuumDiagramVanishesInGraphComplex.jpg" width="610">
+</center>
+
+
+Hence the only non-vanishing graphs of degree 0 are those which have some isolated external vertices and nothing else. 
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BareExternalVCerticesGenerateH0OfGraphComplex.jpg" width="610">
 </center>
 
 
 =--
 
 
+
+
+
+
+
+
 \linebreak
 
-### $KnotGraphs\big( \mathbb{R}^3 \big)$
+
+
+#### $Graphs_n\big(  \mathbb{R}^2 \big)$
+
+(...)
+
+
+
+
+
+\linebreak
+
+### **2)** Graph complexes modelling spaces of knots
+  {#GraphComplexesModellingSpacesOfKnots}
+
+
+We discussion graph complexes $KnotGraphs(\Sigma)$ modelling the [[real cohomology]] of [[spaces of knots]] $Emb(S^1,\Sigma)$. 
+
+For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 93, Section 5](#Kontsevich93) and discussed in detail in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02) [05](#CattaneoCottaRamusinoLongoni05). Review is in [Volić 13, Section 4](#Volic13).
+
+
+\linebreak
+
+#### $KnotGraphs\big( \mathbb{R}^3 \big)$
  {#KnotGraphsDefinition}
 
 We state the definition of the graph complexes $KnotGraphs\big( \mathbb{R}^3\big)$ of _knot graphs_ (according to the [above](#IdeaGraphComplexModelForSpacesOfKnots)) associated with [[Euclidean space]] of [[dimension]] 3, following [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02) [05](#CattaneoCottaRamusinoLongoni05).
@@ -1228,9 +1369,6 @@ Accordingly, the corresponding linear combination yields a [[cocycle]] of degree
 \linebreak
 
 
-### $Graphs_n\big(  \mathbb{R}^2 \big)$
-
-(...)
 
 ## Properties
  {#Properties}
