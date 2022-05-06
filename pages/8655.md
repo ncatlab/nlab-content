@@ -207,9 +207,9 @@ Morita theoretic ideas are also involved in [[factorization homology]], the [[bl
 
 ## Duality after compactification
 
-> Since we have seen that the full string theories are all interrelated by a sequence of [[duality in string theory|dualities]], one would expect that their [[KK-compactification|compactifications]] are also related by dualities. As it turns out, these relations are so abundant that we can make the following observation:
+> Since we have seen that the full [[string theories]] are all interrelated by a sequence of [[duality in string theory|dualities]], one would expect that their [[KK-compactification|compactifications]] are also related by dualities. As it turns out, these relations are so abundant that we can make the following observation:
 
-> **"Conjecture"**: Whenever the dimension, number of preserved [[supercharges]], and [[chiralities]] of two different compactifications of string theory match, there are choices of compactification geometries such that they are dual descriptions of the same physical theory.
+> **"Conjecture"**: Whenever the [[dimension]], [[number of supersymmetries|number of preserved supercharges]], and [[chiral fermion|chiralities]] of two different [[string theory vacuum|compactifications of string theory]] match, there are choices of [[KK-compactification|compactification geometries]] such that they are dual descriptions of the same physical theory.
 
 > Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory. ([Brennan, Carta &amp; Vafa 17, p. 7](#BrennanCartaVafa17))
 
