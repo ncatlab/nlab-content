@@ -6,10 +6,10 @@ An optimal metrization theorem, giving a necessary and sufficient, condition is 
 
 [[!include Nagata-Smirnov metrization theorem - main theorem]]
 
-A variation of this, directly implied by the fact that [[metrisable spaces have countably locally finite bases]], is the Bing metrization theorem:
+A variation of this, directly implied by the fact that [[metrisable spaces have countably locally discrete bases]], is the Bing metrization theorem:
 
 \begin{theorem}
-A [[topological space]] $ X $ is [[metrisable topological space|metrisable]] if and only if it is [[regular space|regular]], [[Hausdorff space|Hausdorff]] and has a [[countably locally discrete set of subsets|countably locally discrete]] [[topological base|base]]. 
+A [[topological space]] $ X $ is [[metrisable topological space|metrisable]] if and only if it is [[regular space|regular]], [[Hausdorff space|Hausdorff]] and has a [[countably locally discrete set of subsets|countably locally discrete]] [[topological base|base]].
 \end{theorem}
 
 A historical predecessor and direct implication of these theorems is the [[Urysohn metrization theorem]]:
