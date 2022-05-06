@@ -2,7 +2,18 @@
 **[[knot theory]]**
 
 
-[[knot]], [[link]]
+**[[knot]]**, **[[link]]**
+
+* [[isotopy]]
+
+* [[knot complement]]
+
+* [[knot diagrams]], [[chord diagram]]
+
+* [[Reidemeister move]]
+
+
+**Examples/classes:**
 
 * [[trefoil knot]]
 
@@ -12,8 +23,6 @@
 
 * [[hyperbolic knot]]
 
-* [[knot complement]]
-
 * [[Borromean link]]
 
 * [[Whitehead link]]
@@ -21,31 +30,51 @@
 * [[Hopf link]]
 
 
-[[knot diagram]]
-* [[isotopy]]
-* [[Reidemeister move]]
-* [[Gauss code]]
 
-[[knot invariants]]
+**[[knot invariants]]**
+
 * [[crossing number]]
+
 * [[bridge number]]
+
 * [[unknotting number]]
+
 * [[colorability]]
+
 * [[knot group]]
+
 * [[knot genus]]
-* [[Jones polynomial]]
-* [[HOMFLY polynomial]]
-* [[Alexander polynomial]]
-* [[Reshetikhin-Turaev invariant]]s
+
+* polynomial knot invariants
+
+  ([[quantum observables|observables]] of [[non-perturbative quantum field theory|non-perturbative]] [[Chern-Simons theory]])
+
+  * [[Jones polynomial]]
+
+  * [[HOMFLY polynomial]]
+
+  * [[Alexander polynomial]]
+
+  * [[Reshetikhin-Turaev invariants]]
+
+* [[Vassiliev knot invariants]]
+
+  ([[quantum observables|observables]] of [[perturbative quantum field theory|pertrubative]] [[Chern-Simons theory]])
+
+
 * [[Khovanov homology]]
+
 * [[Kauffman bracket]]
-* [[Vassiliev invariants]]
+
+
 
 [[link invariants]]
+
 * [[Milnor mu-bar invariants]]
+
 * [[linking number]]
 
-Related concepts
+**Related concepts:**
 
 * [[Vassiliev skein relation]]
 
