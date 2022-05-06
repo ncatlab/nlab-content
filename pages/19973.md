@@ -50,7 +50,8 @@ In the [[standard model of particle physics]], the sector involving [[flavor phy
 
 > slide grabbed from [Isidori 16](#Isidori16)
 
-(Note that Isidori's slides collect all terms with a Higgs factor under "flavor sector", while Altmannshofer's slides split this further into the pure Higgs terms and those involving fermion factors, labelling only the latter as "flavor sector".)
+(Note that Isidori's slide collects all terms with a [[Higgs boson]] factor, including the pure Higgs terms reflecting the [[cosmological constant]] and the [[hierarchy problem]], and hence "all the problematic terms", while the flavor sector proper consists of those terms involving
+Higgs and [[quark]] factors.)
 
 Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than those of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model (such as [[GUT]] models and/or the [[MSSM]]) is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
 
@@ -157,6 +158,10 @@ On the [[flavour problem]]:
 * {#Isidori16} [[Gino Isidori]], _The flavor problem_, 2016 ([pdf](https://indico.cern.ch/event/504502/contributions/2147710/attachments/1287372/1915547/SWHEPPS_Talk.pdf), [[IsidoriFlavor16.pdf:file]])
 
 * {#Altmannshofer14} [[Wolfgang Altmannshofer]], _The Flavor Puzzle_, Aspen 2014 ([pdf](https://www.aspenphys.org/science/colloquia/2014_slides/altmannshofer.pdf), [[AltmannshoferFlavorProblem.pdf:file]])
+
+On the [[flavor problem]] in the [[MSSM]]:
+
+* [[Stuart Raby]], _SUSY Flavor Problem_, In: _Supersymmetric Grand Unified Theories_. Lecture Notes in Physics, vol 939 ([doi:10.1007/978-3-319-55255-2_7](https://doi.org/10.1007/978-3-319-55255-2_7))
 
 ### Flavour anomalies
 
