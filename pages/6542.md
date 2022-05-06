@@ -44,13 +44,102 @@ $$
 
 * [[Poincaré–Hopf theorem]]
 
-...
+
+
+### Fiber integration
+
++-- {: .num_prop  #FiberIntegrationOfCupPowersOfChiOver4Sphere}
+###### Proposition
+
+Let 
+
+$$
+  \array{
+    S^4
+    &\longrightarrow& 
+    B Spin(4)
+    \\
+    &&
+    \big\downarrow^{\mathrlap{\pi}}
+    \\
+    && 
+    B Spin(5)
+  }
+$$
+
+be the [[spherical fibration]] of [[classifying spaces]] induced from the canonical inclusion of [[Spin(4)]] into [[Spin(5)]] and using that the [[4-sphere]] is equivalently the [[coset space]] $S^4 \simeq Spin(5)/Spin(4)$ ([this Prop.](sphere#nSphereAsCosetSpace)).
+
+Then the [[fiber integration]] of the odd [[cup product|cup powers]] $\chi^{2k+1}$ of the [[Euler class]] $\chi \in H^4\big( B Spin(4), \mathbb{Z}\big)$ (see [this Prop](Spin4#IntegralCohomologyOfClassifyingSpace))  are proportional to [[cup product|cup powers]] of the [[second Pontryagin class]] 
+
+$$
+  \pi_\ast
+  \left(
+    \chi^{2k+1}
+  \right)
+  \;=\;
+  2 \big( p_2 \big)^k 
+  \;\;\in\;\;
+  H^4\big( B Spin(5), \mathbb{Z} \big) 
+  \,,
+$$
+
+for instance
+
+$$
+  \begin{aligned}
+    \pi_\ast
+    \big(
+      \chi
+    \big)
+    & = 
+    2 
+    \\
+    \pi_\ast
+    \left(
+      \chi^3
+    \right)
+    & = 
+    2 p_2 
+    \\
+    \pi_\ast
+    \left(
+      \chi^5
+    \right)
+    & = 
+    2 (p_2)^2 
+  \end{aligned}
+    \;\;\in\;\;
+    H^4\big( B Spin(5), \mathbb{Z} \big) 
+  \,;
+$$
+
+while the [[fiber integration]] of the even [[cup product|cup powers]] $\chi^{2k}$ vanishes
+
+$$
+  \pi_\ast
+  \left(
+    \chi^{2k}
+  \right)
+  \;=\;
+  0
+  \;\;\in\;\;
+  H^4\big( B Spin(5), \mathbb{Z} \big) 
+  \,.
+$$
+
+ 
+=--
+
+([Bott-Cattaneo 98, Lemma 2.1](#BottCattaneo98))
+
+
+
 
 ## Related concepts
 
 * [[Pontryagin class]], [[Stiefel-Whitney class]], [[Wu class]]
 
-* [[one-loop anomaly polynomial]]
+* [[I8|one-loop anomaly polynomial]]
 
 ## References
 
@@ -66,6 +155,9 @@ Discussion for [[projective modules]]
 
 * Satya Manda, _An overview of Euler class theory_ ([pdf](http://mandal.faculty.ku.edu/talks/amsTalk06.pdf))
 
+Discussion of [[fiber integration]]:
+
+* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
 See also
 
