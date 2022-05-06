@@ -46,6 +46,8 @@ Responses to that claim may be found [here](http://arxiv.org/abs/math/9404229).
 
 ## Related concepts
 
+* [[precision experiment]]
+
 * [[local observables]], [[spacetime support]]
 
 * [[computer experiment]]
