@@ -190,7 +190,10 @@ This is stated as [Kohno 02, Theorem 4.2](#Kohno02)
 
 * [[weight systems are associated graded of Vassiliev invariants]]
 
+* [[weight systems are cohomology of knot graph complex]]
+
 * [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
+
 
 ## Related concepts
 
@@ -200,7 +203,7 @@ This is stated as [Kohno 02, Theorem 4.2](#Kohno02)
 
 The statement relating the [[ordinary homology]] of the [[based loop space]] of the [[ordered configuration space of points]] to the [[universal enveloping algebra]] of the [[infinitesimal braid Lie algebra]]:
 
-* {#FadellHusseini01} [[Edward Fadell]], [[Sufian Husseini]], Theorem 2.2 in: _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), xvi+313 
+* {#FadellHusseini01} [[Edward Fadell]], [[Sufian Husseini]], Theorem 2.2 in: _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001) ([MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), [doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8))
 
 * {#CohenGitler01} [[Fred Cohen]], [[Samuel Gitler]], Theorem 4.1 of: _Loop spaces of configuration spaces, braid-like groups, and knots_, In: Jaume Aguadé, Carles Broto, [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel 2001 ([doi:10.1007/978-3-0348-8312-2_7](https://doi.org/10.1007/978-3-0348-8312-2_7))
 
