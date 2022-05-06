@@ -116,7 +116,7 @@ The $n$Lab server is hosted at Carnegie Mellon University, funded in the context
 The technical administration of the $n$Lab software installation is in the hands of our system administrator [[Richard Williamson]] and assistant system administrator [[Alexis Hazell]]. (If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org).)
 
 
-The $n$Lab runs on a [custom fork](https://github.com/ncatlab/nlab) of [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category _[nLab Technical Matters](https://nforum.ncatlab.org/21/)_ at the [nForum](https://nforum.ncatlab.org/), but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
+The $n$Lab runs on a [custom fork](https://github.com/ncatlab/nlab) of [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category _[nLab Technical Matters](https://nforum.ncatlab.org/21/)_ at the [nForum](https://nforum.ncatlab.org/), but can also be posted [on GitHub](https://github.com/ncatlab/nlab/issues).
 
 The $n$Lab page style is due to [[Jake Bian]], originating with his [Kan browser extension](https://sites.google.com/keplr.io/kan) 
 
