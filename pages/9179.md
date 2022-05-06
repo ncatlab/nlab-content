@@ -23,10 +23,15 @@
 The _neutrino_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]].
 
 ## Neutrino masses
+ {#NeutrinoMasses}
+
+The origin and nature of the observed tiny but non-vanishing [[neutrino]] [[masses]] remains one of the open problems of the [[standard model of particle physics]]. Review includes [Fisher-Kayser-McFarland 99](#FisherKayserMcFarland99).
 
 On neutrino [[masses]] and the [[standard model of particle physics]] as an [[effective field theory]]:
 
-> I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](#Weinberg09))
+[Weinberg 09, p. 15](#Weinberg09):
+
+> I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. 
 
 In fact this scale is about the [[GUT scale]] for [[grand unified theories]], see for instance ([Mohapatra 06](#Mohapatra06)) for more on this relation, and see at _[[seesaw mechanism]]_.
 
@@ -93,6 +98,11 @@ See also
 A discussion of Pauli's thoughts leading him to the prediction of the neutrino is in 
 
 * {#AP06} Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
+
+On the neutrino mass problem:
+
+* {#FisherKayserMcFarland99} Peter Fisher, Boris Kayser, Kevin S. McFarland, _Neutrino Mass and Oscillation_ Ann. Rev. Nucl. Part. Sci.49:481-528, 1999 ([arXiv:hep-ph/9906244](https://arxiv.org/abs/hep-ph/9906244))
+
   
 
 Comments on neutrinos masses as a hint for the [[standard model of particle physics]] being an [[effective field theory]] are in
