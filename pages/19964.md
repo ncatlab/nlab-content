@@ -132,6 +132,7 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 
 
+
 ### As a model for atomic nuclei
  {#AsAModelForBaryonsAndNuclei}
 
@@ -243,6 +244,24 @@ Further resources
 
 * _[Geometric models of Nuclear Matter Conference 2014](https://www.kent.ac.uk/smsas/personal/skyrmions/conference.html)_ 
 
+### Inclusion of vector mesosns
+ {#ReferencesInclusionOfVectorMesons}
+
+Inclusion of [[vector mesons]] into the [[Skyrmion model]]:
+
+Original proposal for inclusion of the [[ω-meson]]:
+
+* {#AdkinsNappi84} [[Gregory Adkins]], [[Chiara Nappi]], _Stabilization of Chiral Solitons via Vector Mesons_, Phys. Lett. 137B (1984) 251-256 ([spire:194727](http://inspirehep.net/record/194727), <a href="https://doi.org/10.1016/0370-2693(84)90239-9">doi:10.1016/0370-2693(84)90239-9</a>)
+
+Original proposal for inclusion of the [[ρ-meson]]:
+
+* {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
+
+Review:
+
+* Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
+
+
 ### As models for atomic nculei
  {#ReferencesAsModelsForAtomicNuclei}
 
@@ -339,3 +358,8 @@ Review is in
 
 [[!redirects Skyrmion]]
 [[!redirects Skyrmions]]
+
+[[!redirects Skyrme model]]
+[[!redirects skyrmion model]]
+[[!redirects Skyrmion model]]
+
