@@ -32,7 +32,7 @@ In particular, the Yoneda lemma for bicategories implies that there is a [[Yoned
 
 ## Proof
 
-A detailed proof of the bicategorical Yoneda lemma seems to be hard to find in the literature.  (Anyone have references to add?)
+A detailed proof of the bicategorical Yoneda lemma is given in ([Johnson &amp; Yau 20, Chap. 8](#JohnsonYau)).
 
 ### Explicit proof
 
@@ -66,9 +66,15 @@ We then simply verify that these isomorphisms are the components of an (invertib
 
 ##References
 
-An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bicategories
+A treatment of the bicategorical Yoneda embedding and lemma is in Chap. 8 of
 
-* Niles Johnson, _Morita Theory For Derived Categories: A Bicategorical Perspective_ ([arXiv:0805.3673](http://arxiv.org/abs/0805.3673))
+* {#JohnsonYau} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, ([arXiv:2002.06055](https://arxiv.org/abs/2002.06055))
+
+An account of [[Morita equivalence]] as a corollary of the Yoneda lemma for bicategories is in
+
+* [[Niles Johnson]], _Morita Theory For Derived Categories: A Bicategorical Perspective_ ([arXiv:0805.3673](http://arxiv.org/abs/0805.3673))
+
+
 
 
 [[!redirects bicategorical Yoneda lemma]]
