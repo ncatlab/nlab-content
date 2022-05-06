@@ -195,9 +195,9 @@ The [[Dold-Kan correspondence]] says that this construction establishes an [[equ
 
 ### Model structure 
 
-There is a [[model category]] structure on the category $Ch(A)$ of chain complexes in an [[abelian category]]. Its [[homotopy category]] is the [[derived category]] of $A$.
+There is a [[model category]] structure on the category $Ch(A)$ of chain complexes in an [[abelian category]].  Its [[homotopy category]] is the [[derived category]] of $A$.  See [[model structure on chain complexes]].
 
-See [[model structure on chain complexes]].
+There is another [[Hurewicz model structure on chain complexes]] whose homotopy category is the [[homotopy category of chain complexes]].
 
 ## Related concepts
 
