@@ -276,6 +276,8 @@ Other references:
 
 * {#Kock2016BM} [[Joachim Kock]], Cospan construction of the graph category of Borisov and Manin, [arXiv:1611.10342](https://arxiv.org/abs/1611.10342)
 
+* Martin Schmidt, _Functorial Approach to Graph and Hypergraph Theory_, ([arXiv:1907.02574](https://arxiv.org/abs/1907.02574))
+
 Discussion of use of [[simplicial complexes]] in graph theory:
 
 * MO, _[What have simplicial complexes ever done for graph theory?](http://mathoverflow.net/questions/161586/what-have-simplicial-complexes-ever-done-for-graph-theory)_
@@ -289,4 +291,3 @@ Discussion of use of [[simplicial complexes]] in graph theory:
 [[!redirects simple directed graph]]
 [[!redirects simple directed graphs]]
 [[!redirects graph theory]]
-
