@@ -45,7 +45,7 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 ### In equivariant homotopy theory
  {#InEquivariantHomotopyTheory}
 
-The following Prop. \ref{EquivariantHopfDegreeTheorem} is a generalization of the Hopf degree theorem to [[equivariant homotopy theory]], due to [tomDieck 79, 8.4](#tomDieck79).
+The following Theorem \ref{EquivariantHopfDegreeTheorem} is a generalization of the Hopf degree theorem to [[equivariant homotopy theory]], due to [tomDieck 79, 8.4](#tomDieck79).
 
 We need the following list of ingredients and assumptions:
 
@@ -112,8 +112,8 @@ Let
 
 Choose generators in each $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ ([[orientations]]) and $H^{dim(X^H)}\big(Y^G, \mathbb{Z} \big) \simeq \mathbb{Z}$ This implies that for each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
 
-+-- {: .num_prop #EquivariantHopfDegreeTheorem}
-###### Proposition
++-- {: .num_theorem #EquivariantHopfDegreeTheorem}
+###### Theorem
 **([[equivariant Hopf degree theorem]])**
 
 Under the above assumptions, the fixed-point-wise degree map
@@ -150,12 +150,12 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 ([tomDieck 79, 8.4](#tomDieck79))
 
 
-> the following under construction
+As a special case of the [[equivariant Hopf degree theorem]] (Theorem \ref{EquivariantHopfDegreeTheorem}), we obtain the following:
 
 
-+-- {: .num_example #EquivariantHomotopyOfSVInRODegreeV}
-###### Example
-**(equivariant homotopy of $S^V$ in [[RO(G)-degree]] $V$)**
++-- {: .num_prop #EquivariantHomotopyOfSVInRODegreeV}
+###### Proposition
+**([[equivariant cohomotopy]] of [[representation sphere]] $S^V$ in [[RO(G)-degree]] $V$)**
 
 
   Let $G \in \mathrm{Grp}_{\mathrm{fin}}$
@@ -239,7 +239,7 @@ which depends in a definite way on the degrees of $c^K$ for  all isotropy groups
 +-- {: .proof}
 ###### Proof
 
-This follows as a special case of the equivariant Hopf degree theorem (Prop. \ref{EquivariantHopfDegreeTheorem}). 
+This follows as a special case of the equivariant Hopf degree theorem (Theorem \ref{EquivariantHopfDegreeTheorem}). 
 
 The list of assumptions there is satisfied because [[G-representation spheres are G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
 
