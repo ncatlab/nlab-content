@@ -58,6 +58,8 @@ Review:
 
 See also:
 
+* Eef van Beveren, Frieder Kleefeld, George Rupp, Michael D. Scadron, _Remarks on the $f_0(400-1200)$ scalar meson as the dynamically generated chiral partner of the pion_, Mod. Phys. Lett. A17:1673, 2002 ([arXiv:hep-ph/0204139](https://arxiv.org/abs/hep-ph/0204139))
+
 * M. Albaladejo, J.A. Oller, _On the size of the sigma meson and its nature_, Phys. Rev. D 86, 034003 – Published 3 August 2012 ([arXiv:1205.6606](https://arxiv.org/abs/1205.6606), [doi:10.1103/PhysRevD.86.034003](https://doi.org/10.1103/PhysRevD.86.034003))
 
 
@@ -86,6 +88,8 @@ and discussed in the [[Witten-Sakai-Sugimoto model]] on [[D4-D8 brane intersecti
 
 * [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
 
+
+[[!redirects f0-meson]]
 
 [[!redirects σ-mesons]]
 
