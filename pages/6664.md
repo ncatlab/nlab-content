@@ -12,6 +12,11 @@ On [[higher spin gauge theory]]:
 
 * [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _String Theory as a Higher Spin Theory_, J. High Energ. Phys. (2016) 2016: 85 ([arXiv:1512.07237](https://arxiv.org/abs/1512.07237), <a href="https://doi.org/10.1007/JHEP09(2016)085">doi:10.1007/JHEP09(2016)085</a>)
 
+On [[AdS/CFT]] for $AdS_3/CFT_2$:
+
+* {#EberhardtGaberdiel19]} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Strings on $AdS_3 \times S^3 \times S^3 \times S^1$_ ([arXiv:1904.01585](https://arxiv.org/abs/1904.01585))
+
+
 ## Related $n$Lab entries
 
 * [[duality between type I and heterotic string theory]]
