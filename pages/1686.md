@@ -111,7 +111,7 @@ Then one says equivalently that
 +-- {: .num_example #Degeneration}
 ###### Example
 
-If for a spectral sequence there is $r_s$ such that all [[differentials]] on pages after $r_s$ vanish, $\partial^{r \geq r_s} = 0$, then $\{E^{r_s}\}_{p,q}$ is limit term for the spectral sequence. One says in this cases that the spectral sequence **degenerates** at $r_s$.
+If for a spectral sequence there is $r_s$ such that all [[differentials]] on pages after $r_s$ vanish, $\partial^{r \geq r_s} = 0$, then $\{E^{r_s}\}_{p,q}$ is a limit term for the spectral sequence. One says in this cases that the spectral sequence **degenerates** at $r_s$.
 
 =--
 
@@ -132,7 +132,7 @@ the spectral sequence becomes constant in $r$ from $r_s$ on if all the different
 +-- {: .num_example #Collaps}
 ###### Example
 
-If for a [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ there is $r_s \geq 2$ such that the $r_s$th page is concentrated in a single row or a single column, then the the spectral sequence degenerates on this pages, example \ref{Degeneration}, hence this page is a limit term, def. \ref{LimitTerm}. One says in this case that the spectral sequence **collapses** on this page.
+If for a [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ there is $r_s \geq 2$ such that the $r_s$th page is concentrated in a single row or a single column, then the spectral sequence degenerates on this pages, example \ref{Degeneration}, hence this page is a limit term, def. \ref{LimitTerm}. One says in this case that the spectral sequence **collapses** on this page.
 
 =--
 
