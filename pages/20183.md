@@ -99,6 +99,7 @@ If $n = 2k$ is an [[even number]], then [[generalized the|the]] [[Sullivan model
       \\
       d \omega_{4k-1} 
       & =& 
+      -
       \omega_{2k} \wedge \omega_{2k}
       + 
       c_{4k} 
