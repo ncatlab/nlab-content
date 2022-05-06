@@ -416,6 +416,8 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 
 ## Related concepts
 
+* [[symmetric group]]
+
 * [[covering space]]
 
 * [[regular representation]]
