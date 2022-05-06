@@ -153,7 +153,18 @@ with [[Spin(12)]] ("[[SO(12)]]") [[gauge group]]:
 
 ### Observation
 
+Observational hints for brane world models:
+
+
+From observation of the [[event horizon]] of the [[black hole]] in the center of the [[galaxy]] [[Messier 87]]:
+
+
 * Indrani Banerjee, Sumanta Chakraborty, Soumitra SenGupta, _Silhouette of M87${}^*$: A new window to peek into the world of hidden dimensions_ ([arXiv:1909.09385](https://arxiv.org/abs/1909.09385))
+
+Form observation of [[gravitational waves]] from [[relativistic binary]] mergers:
+
+* Zi-Chao Lin, Hao Yu, Yu-Xiao Liu, _Constraint on the radius of five-dimensional dS spacetime with GW170817 and GRB 170817A_ ([arXiv:2001.06581](https://arxiv.org/abs/2001.06581))
+
 
 
 [[!redirects Randall-Sundrum models]]
