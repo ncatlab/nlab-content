@@ -1,3 +1,21 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea ##
 
 A cofunctor is a kind of morphism between [[category|categories]] (not to be confused with a [[contravariant functor]] ). In contrast to a [[functor]], the assignment on objects of a cofunctor goes in the _opposite_ direction to the assignment on morphisms. 
@@ -12,4 +30,4 @@ Cofunctors arise naturally in the study [[internal category in a monoidal catego
 
 * {#Aguiar97} [[Marcelo Aguiar]], _Internal categories and quantum groups_, PhD thesis, Cornell University, 1997 ([pdf](http://pi.math.cornell.edu/~maguiar/thesis2.pdf))
 
-* {#AhmanUustalu17} [[Danel Ahman]], [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
+* {#AhmanUustalu17} Danel Ahman, Tarmo Uustalu, _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
