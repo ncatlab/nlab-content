@@ -234,11 +234,13 @@ See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorp
 
 ## Related concepts
 
-For $SU(2)$:
+* For [[SU(2)]]:
 
-* [[quaternion]]
+  * [[quaternion]]
 
-* [[geometric quantization of the 2-sphere]]
+  * [[geometric quantization of the 2-sphere]]
+
+* [[Euler angles]]
 
 ## References
 
