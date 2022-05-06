@@ -96,9 +96,15 @@ Then the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrigh
 
 This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 
-[[Spin5OnHopfH.jpg:pic]]
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "Spin5OnHopfH.jpg",
+  "width": 280
+\end{imagefromfile}
+\end{center}
 
-A way to make it fully explicit should be to observe that
+
+A way to make this fully explicit is to observe that the quaternionic Hopf fibration is equvalently the following map of [[coset spaces]]:
 
 $$
   \array{
@@ -118,12 +124,12 @@ $$
   }
 $$
 
-
+([Hasuda-Tomizawa 09, table 1](#HasudaTomizawa09))
 
 +-- {: .num_remark}
 ###### Remark
 
-Of the resulting [[action]] of [[Sp(2)]]$\times$[[Sp(1)]] on the [[7-sphere]] (from Prop. \ref{Spin5EquivarianceOfQuaternionicHopfFibration}), only the [[quotient group]] [[Sp(n).Sp(1)]] acts [[free action|freely]].
+Of the resulting [[action]] of [[Sp(2)]]$\times$[[Sp(1)]] on the [[7-sphere]] (from Prop. \ref{Spin5EquivarianceOfQuaternionicHopfFibration}), only the [[quotient group]] [[Sp(2).Sp(1)]] acts [[effective action|effectively]].
 
 =--
 
@@ -252,6 +258,8 @@ See also at _[[equivariant stable cohomotopy]]_
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
 * {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
+
+* {#HasudaTomizawa09} Machiko Hatsuda, Shinya Tomizawa, _Coset for Hopf fibration and Squashing_, Class.Quant.Grav.26:225007, 2009 ([arXiv:0906.1025](https://arxiv.org/abs/0906.1025))
 
 Discussion in [[parameterized homotopy theory]] includes
 
