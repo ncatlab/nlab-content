@@ -4,7 +4,7 @@
 	& 
 	& 
 	& \scriptsize \text{metrisable}
-	& 
+	& \substack{ \sigma\text{-locally finite } \\ \text{base}\wedge \text{regular} \wedge \mathrm{T}_2 }
 	& 
 	\\
 	& \text{second countable}
@@ -50,7 +50,8 @@
 	\arrow[Rightarrow, from=3-6, to=4-6]
 	\arrow[Rightarrow, from=4-6, to=5-6]
 	\arrow[Rightarrow, from=1-4, to=2-4]
-	\arrow[Rightarrow, from=2-5, to=1-4, bend right, "\substack{\text{Nagata-Smirnov metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" right]
+	\arrow[Leftrightarrow, from=1-5, to=1-4, "\substack{\text{Nagata-Smirnov} \\ \text{metrization thm.} }" above]
+	\arrow[Rightarrow, from=1-5, to=2-5]
 	\arrow[Rightarrow, from=5-1, to=3-3, "\text{AC}" {description, near end}, "\text{if $X$ paracompact}" {near start, below right}]
 \end{tikzcd}
 
