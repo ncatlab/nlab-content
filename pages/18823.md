@@ -3283,6 +3283,7 @@ $$
 
 =--
 
+
 Below we consider _[[quantum states]]_. These are defined just as in def. \ref{ClassicalState}, only that now the algebra of observables is equipped with another product, which changes the meaning of the product expression $A^\ast A$ and hence the positivity condition in def. \ref{StateOnAStarAlgebra}.
 
 
