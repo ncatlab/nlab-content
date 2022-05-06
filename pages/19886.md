@@ -361,12 +361,13 @@ $$
 
 Hence in summary:
 
-$$
+\[
+  \label{ConfSplitsAsSmashProduct}
   Conf_n(X, Y)
   \;\simeq\;
   Conf_n(X) \wedge_{\Sigma(n)} \left( Y/\partial Y \right)^{\wedge_n}
   \,.
-$$
+\]
 
 This construction, regarded as a [[functor]] from [[pointed topological spaces]] to [[spectra]]
 
@@ -406,7 +407,7 @@ are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mappin
     \\
     &&
     &&
-    \Big\downarrow {}^{\mathralp{ p_n }}
+    \Big\downarrow {}^{\mathrlap{ p_n }}
     \\
     &&
     &&
@@ -448,7 +449,7 @@ $\,$
 
 ### Lax closed structure on $\Sigma^\infty$ 
 
-Notice that the first stage in the [[Goodwillie-Taylor tower]] (eq:TheGoodwillieStagesOfTheMappingSpaceFunctor) is
+Notice that the first stage in the [[Goodwillie-Taylor tower]] of $Maps(S^d, \Sigma^d(-))$ is
 
 $$
   \begin{aligned}
@@ -458,18 +459,23 @@ $$
     \\
     & \simeq
     \Sigma^\infty 
-      \underset{\simeq \ast}{\underbrace{Conf_1( \mathbb{R}^d )}} 
+      \underset{\simeq S^0}{\underbrace{Conf_1( \mathbb{R}^d )}} 
       \wedge (Y/\partial Y)
     \\
     & \simeq
      \Sigma^\infty (Y/\partial Y)
+    \\
+    & \simeq 
+     \Omega^d \Sigma^d  \Sigma^\infty (Y/\partial Y)
     \\
     & \simeq
     Maps\left(  \Sigma^\infty S^d, \Sigma^d (Y/\partial Y) \right)
   \end{aligned}
 $$
 
-and hence that the projection $p_1$ to the stage of the [[Goodwillie-Taylor tower]] (eq:ProjectionMaps) is of the form
+Here in the first step we used (eq:TheGoodwillieStagesOfTheMappingSpaceFunctor), in the second step we used (eq:ConfSplitsAsSmashProduct). Under the brace we observe that space of configurations of a single point in $\mathbb{R}^d$ is trivially $\mathbb{R}^d$ itself, which is [[contractible topological space|contractible]] $\mathbb{R}^d \simeq \ast$ and, due to [[empty set|empty]] [[boundary]] of $\mathbb{R}^d$, contributes a [[0-sphere]]-factor to the [[smash product]], which disappears. In the last last two steps we trivially rewrote the result to exhibit it as a [[mapping spectrum]].
+
+Therefore the projection $p_1$ (eq:ProjectionMaps) to the first stage of the [[Goodwillie-Taylor tower]] is of the form
 
 $$
   p_1
@@ -483,7 +489,9 @@ $$
   \,.
 $$
 
-Since $\Sigma^\infty$ is a [[strong monoidal functor]], there is a canonical comparison morphism of this form, exhibiting the induce [[closed functor|lax closed]]-structure on $\Sigma^\infty$. Maybe $p_1$ coincides with that canonical morphism, up to equivalence?
+Since $\Sigma^\infty$ is a [[strong monoidal functor]] ([here](suspension+spectrum#StrongMonoidalness)), there is a canonical comparison morphism of this form, exhibiting the induce [[closed functor|lax closed]]-structure on $\Sigma^\infty$. Probably $p_1$ coincides with that canonical morphism, up to equivalence.
+
+> Does it?
 
 ## Related concepts
 
