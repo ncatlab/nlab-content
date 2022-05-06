@@ -6,9 +6,12 @@
 
 * [[exceptional finite groups]]
 
-  * [[Mathieu group]], [[monster group]]
+  * [[monster group]]
 
-  * [[moonshine]], [[Mathieu moonshine]]
+  * [[Mathieu group]], 
+
+  * [[Conway group]]
+
 
 * exceptional [[finite rotation groups]]:
 
@@ -32,7 +35,9 @@
 
 * [[exceptional Lie algebras]]
 
-* [[exceptional Jordan algebra]], [[Albert algebra]]
+* [[exceptional Jordan algebra]]
+
+  * [[Albert algebra]]
 
 * [[Leech lattice]] 
 
