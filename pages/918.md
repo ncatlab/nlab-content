@@ -44,7 +44,15 @@ Since an element $a$ in a set $A$ in the [[category of sets]] is just a [[global
 
 > A morphism $f:A\rightarrow B$ in $\mathcal{C}$ is a surjection or a surjective morphism if, given any global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$. 
 
-In particular, every morphism into the terminal object is a surjection. 
++-- {: .num_prop}
+###### Proposition
+Every surjection in a category $\mathcal{C}$ with a [[terminal object]] $1$ is an [[epimorphism]] if $1$ is a [[separator]]. 
+=--
+
++-- {: .proof}
+###### Proof
+Suppose $f:A\rightarrow B$ is a surjection and there are parallel morphisms $g, h:B\rightarrow C$ such that $g \circ f = h \circ f$. Then for every global element $y:1\rightarrow B$ there exists a global element $x:1\rightarrow A$ such that $y = f \circ x$, and thus $g \circ y = g \circ f \circ x$ and $h \circ y = h \circ f \circ x$. But since $g \circ f = h \circ f$, $g \circ f \circ x = h \circ f \circ x$, which implies that $g \circ y = h \circ y$. If $1$ is a [[separator]], for every global element $y:1\rightarrow B$, if $g \circ y = h \circ y$, then $g = h$, which implies that the surjection $f$ an epimorphism if $1$ is a [[separator]]. 
+=--
 
 ### Duals of surjections
 
