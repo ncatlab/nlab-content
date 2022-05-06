@@ -23,7 +23,7 @@
 
 In ([[perturbative string theory|perturbative]]) [[string theory]] the [[Bekenstein-Hawking entropy]] associated to a macroscopic [[black hole]]  finds an explanation as follows:
 
-The [[black hole]] [[spacetime]] is regarded as a [[non-perturbative QFT|strongly coupled]] [[condensate]] of string states ([[closed strings]], carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the string coupling is turned on. Such turn out to be certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collapse to a configuration that looks like the prescribed black hole spacetime.
+The [[black hole]] [[spacetime]] is regarded as a [[non-perturbative QFT|strongly coupled]] [[condensate]] of string states ([[closed strings]], carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the [[string coupling]] is turned on. Such turn out to be certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collapse to a configuration that looks like the prescribed black hole spacetime.
 
 <img src="https://ncatlab.org/nlab/files/BlackBrane.png" />
 
