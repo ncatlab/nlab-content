@@ -21,7 +21,7 @@
 
 ## Idea
 
-In  [[particle physics]] [[phenomenology]], the term _split supersymmetry_ refers to [[model (physics)|models]] of [[supersymmetry|supersymmetric]] extensions of the [[standard model of particle physics]] whose [[supersymmetry breaking]]-[[scale]] is very high (for instance at [[GUT]]-scale of about $10^{15}$ [[GeV]]), much higher than the [[electroweak symmetry breaking]]-[[scale]] (of about 246 [[GeV]]) hence violating the idea of "[[naturalness]]", but such that approximate [[chiral symmetry]] [[protection from quantum corrections|protects]] the [[masses]] of the [[fermion|fermionic]] [[superpartners]].
+In  [[particle physics]] [[phenomenology]], the term _split supersymmetry_ refers to [[model (physics)|models]] of [[supersymmetry|supersymmetric]] extensions of the [[standard model of particle physics]] ([[MSSM]] or other) whose [[supersymmetry breaking]]-[[scale]] is very high (for instance at [[GUT]]-scale of about $10^{15}$ [[GeV]]), much higher than the [[electroweak symmetry breaking]]-[[scale]] (of about 246 [[GeV]]) hence violating the idea of "[[naturalness]]", but such that approximate [[chiral symmetry]] [[protection from quantum corrections|protects]] the [[masses]] of the [[fermion|fermionic]] [[superpartners]].
 
 As a result, in such [[model (physics)|models]] there is a "split" of the [[mass]] [[scales]] of the [[superpartner]] [[particles]]:
 
