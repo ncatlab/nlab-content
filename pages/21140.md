@@ -20,12 +20,15 @@
 
 
 
-**Stephan Wannowski** (1749-1812) was a preacher at the Polish reformed church (since 1775) and director of the reformed Latin school in Königsberg/East Prussia (since 1779). He was part of the wider circle around [[Immanuel Kant]] whose philosophy he applied in theology[^Com]  and linguistics.
+**Stephan Wannowski** (1749-1812) was a preacher at the Polish reformed church (since 1775)[^Bio] and director of the reformed Latin school in Königsberg/East Prussia (since 1779). He was part of the wider circle around [[Immanuel Kant]] whose philosophy he applied in theology[^Com]  and linguistics.
 
-[^Com]: _Commentarionem ethico-theologicam de Immanuele Kantio veritatis Religionis Christianae, in foro Rationis humanae non Accusatore sed Vindice_ presented to the University of Frankfurt/Oder in 1806.
+[^Bio]: Before that he was preacher and teacher at the Königsberg orphanage. Some biographical information can be found in Goldbeek (1782) and Safranski (1984). Apparently he was of Polish origin from Ostraszym with his name sometimes spelled as Stefan Vannovsky. Surprisingly, he still figures as an anonymous author in the recension of his 1805 book in Rosenkranz' 1840 text, despite the latter being a professor at Königsberg!
 
-Most notably, he anonymously published in 1805 *Philosophische Principien einer allgemeinen Sprachlehre nach Kant und Sacy*, a book partly based on personal communications with Kant which therefore, apart from some scattered remarks in his lectures on metaphysics, constitutes a valuable source on the philosopher's views on [[transcendental grammar]].
+[^Com]: _Commentarionem ethico-theologicam de Immanuele Kantio veritatis Religionis Christianae, in foro Rationis humanae non Accusatore sed Vindice_ presented to the University of Frankfurt/Oder in 1806 according to the _Intelligenzblatt der Allgem. Literatur-Zeitung no.69 1806, p.546.
 
+Most notably, he anonymously published in 1805 *Philosophische Principien einer allgemeinen Sprachlehre nach Kant und Sacy*[^Sacy], a book partly based on personal communications with Kant which therefore, apart from some scattered remarks in his lectures on metaphysics, constitutes a valuable source on the philosopher's views on [[transcendental grammar]].
+
+[^Sacy]: _Antoine-Isaac Silvestre de Sacy_ (1758-1838) was a French orientalist whose then in France widely used textbook _Grammaire Arabe_ (1810) Wilhelm von Humboldt called in a letter dated october 18th, 1822 to August Wilhelm Schlegel "a highly superficial book".
 
 ## Related entries
 
@@ -41,9 +44,11 @@ Most notably, he anonymously published in 1805 *Philosophische Principien einer 
 
 ## References
 
+* J. F. Goldbeek (ed.), _Nachrichten der königlichen Universität zu Königsberg in Preußen und daselbst befindlichen Lehr, Schul und Erziehungsanstalten_ , Königsberg  1782. (p.178f)
+
 * Manfred Riedel, _Sprache und Vernunft. Grundmodell der transzendentalen Grammatik in Kants Lehre vom Kategoriengebrauch_ , pp.44-60 in Riedel, _Urteilskraft und Vernunft_ , Suhrkamp Frankfurt am Main 1989.
 
-* {#Rosenkranz40} [[Karl Rosenkranz]], _Geschichte der Kant'schen Schule_ , Akademie-Verlag Berlin 1987[1840].
+* {#Rosenkranz40} [[Karl Rosenkranz]], _Geschichte der Kant'schen Schule_ , Akademie-Verlag Berlin 1987[1840]. (pp.271f, 345)
 
 * Rüdiger Safranski, _E. T. A. Hofmann. Das Leben eines skeptischen Phantasten_ , Hanser München 1984.
 
