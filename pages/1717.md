@@ -429,7 +429,6 @@ See also the references at [[2-group]].
 
 The equivalence between strict 2-groups and crossed modules is discussed in
 
-* [[Ronnie Brown]] and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a 
-topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296--302.) 
+* [[Ronnie Brown]] and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296--302.) 
 
 [[!redirects strict 2-groups]]
