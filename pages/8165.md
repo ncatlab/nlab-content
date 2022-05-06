@@ -98,3 +98,8 @@ More discussion of experimental signatures is in
 
 * {#BuschmannGonzalesKane18} Malte Buschmann, Eric Gonzalez, [[Gordon Kane]], _Revisiting Gluinos at LHC_ ([arXiv:1803.04394](https://arxiv.org/abs/1803.04394))
 
+Discussion of [[Yukawa couplings]]:
+
+* Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
+
+
