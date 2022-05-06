@@ -141,6 +141,15 @@ Original articles include
 
 * [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
 
+See also
+
+* {#BDDPT19} Johannes Broedel, Claude Duhr, Falko Dulat, Brenda Penante, Lorenzo Tancredi, _Elliptic polylogarithms and Feynman parameter integrals_ ([arXiv:1902.09971](https://arxiv.org/abs/1902.09971))
+
+  reviewed in
+
+  Lorenzo Tancredi, _Feynman integrals and higher genus surfaces_, talk at _[Amplitudes 2019](https://indico.cern.ch/event/750565/)_  ([pdf](https://indico.cern.ch/event/750565/contributions/3438642/attachments/1871838/3080501/Tancredi.pdf))
+  
+
 See also below _[Application to gravity -- Scattering amplitudes](#GravityScattetingAmplitudes)_.
 
 
