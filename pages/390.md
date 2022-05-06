@@ -246,6 +246,10 @@ exhibiting an inverse of $r$. Therefore $r$ is an isomorphism, hence is in $L$, 
 
 =--
 
+### Characterization as Eilenberg-Moore algebras
+
+Orthogonal factorization systems are equivalently described by the (appropriately defined) [[Eilenberg-Moore algebras]] with respect to the monad which belongs to the endofunctor $\mathcal{K} \mapsto \mathcal{K}^2$ of (the 2-category) [[Cat]] ([Korostenski-Tholen, Thrm B](#KorostenskiTholen)).
+
 ## Examples 
  {#Examples}
 
@@ -309,6 +313,7 @@ Similarly, we can have a [[factorization system in an (∞,1)-category]], and so
 * [[André Joyal]] _[[joyalscatlab:Factorization systems]]_
  {#Joyal}
 
+* {#KorostenskiTholen} Mareli Korostenski, [[Walter Tholen]], _Factorization systems as Eilenberg-Moore algebras, ([doi](https://doi.org/10.1016/0022-4049(93)90171-O))
 
 [[!redirects orthogonal factorization system]]
 [[!redirects orthogonal factorization systems]]
