@@ -166,17 +166,9 @@ $$
 
 We find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the homogenous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $n \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We find below that in all cases the normalized [[mass]] of these is $\pm$ unity.
 
-Notice that by the general formula [here](character+of+a+linear+representation#NormalizedSumOfCharacters) this implies that if $V_0$ is decomposed as the [[virtual representation|virtual]] difference $V_0 = V_+ - V_-$ of two plain [[linear representations]] then
+This means that all the solutions are multiples of the [[regular representation]].
 
-\[
-  \label{CuriousRelation}
-  dim\left( (V_+)^G \right)
-  -
-  dim\left( (V_-)^G \right)
-  \;=\;
-  1
-  \,.
-\]
+(...)
 
 
 
