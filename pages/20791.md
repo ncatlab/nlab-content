@@ -21,6 +21,9 @@ while the soft-wall refinement is due to
 
 * {#KKSS06} [[Andreas Karch]], [[Emanuel Katz]], Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
 
+On [[glueballs]] via [[AdS-QCD]]:
+
+* [[Emanuel Katz]], [[Adam Lewandowski]], [[Matthew Schwartz]], _Tensors Mesons in AdS/QCD_, Phys. Rev. D74:086004, 2006 ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
 
 On [[confinement]] via [[AdS-QCD]]:
 
