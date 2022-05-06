@@ -12,7 +12,7 @@ On [[(∞,1)-category theory]] an [[homotopical algebra]]:
 
 ## Related $n$Lab entries
 
-* [[test category]]
+* [[test category]], [[test topos]]
 
 * [[derivator]]
 
