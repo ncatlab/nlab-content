@@ -186,6 +186,12 @@ Textbook accounts:
 
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+Supersymmetric [[perturbative string theory vacua|vacua]]:
+
+* Andrea Fontanella, Tomas Ortin, _On the supersymmetric solutions of the Heterotic Superstring effective action_ ([arxiv:1910.08496](https://arxiv.org/abs/1910.08496))
+
+
+
 Relation to [[Donaldson-Thomas theory]] and [[quiver gauge theory]]:
 
 * {#HeLee12} [[Yang-Hui He]], Seung-Joo Lee, _Quiver Structure of Heterotic Moduli_, J. High Energ. Phys. (2012) 2012: 119 ([arXiv:1208.3004](https://arxiv.org/abs/1208.3004))
