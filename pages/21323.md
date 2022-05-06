@@ -103,7 +103,10 @@ See also
 
 For [[omega-mesons]]:
 
-* Anastasiya Kuzmenko, _The Study of the Conversion Decays of Omega Meson to π0 $\pi^0$ Meson and $e^+ e^-$ Pair with the CMD-3 Detector_, CERN Proceedings Archives Vol 1 (2017) ([doi:10.23727/CERN-Proceedings-2017-001.91]( http://dx.doi.org/10.23727/CERN-Proceedings-2017-001.91)
+* I. N. Mishustin, L. M. Satarov, H. Stoecker, W. Greiner, _Dilepton production by bremsstrahlung of meson fields in nuclear collisions_, Phys. Rev. C57:2552-2558, 1998 ([arXiv:hep-ph/9709384](https://arxiv.org/abs/hep-ph/9709384))
+
+
+* Anastasiya Kuzmenko et al. , _The Study of the Conversion Decays of Omega Meson to π0 $\pi^0$ Meson and $e^+ e^-$ Pair with the CMD-3 Detector_, CERN Proceedings Archives Vol 1 (2017) ([doi:10.23727/CERN-Proceedings-2017-001.91]( http://dx.doi.org/10.23727/CERN-Proceedings-2017-001.91)
  
 
 
