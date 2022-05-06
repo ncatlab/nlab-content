@@ -156,7 +156,7 @@ $$\array{{electric \; monopole} & \overset{{\;\; double \; copy \;\;}}{\to} & {S
 & \\
   {magnetic \; monopole}& \underset{{\;\; double \; copy \;\;}}{\to} & {NUT-charged \; spacetime}}$$
 
-## Related entries
+## Related concepts
 
 * [[KLT relations]]
 
@@ -169,6 +169,18 @@ $$\array{{electric \; monopole} & \overset{{\;\; double \; copy \;\;}}{\to} & {S
 * [[magic pyramid]], [[magic supergravity]]
 
 * [[Kaluza-Klein mechanism]], [[Kaluza-Klein monopole]]
+
+* [[effective QFT]] incarnations of [[open/closed string duality]], 
+  
+  relating ([[supergravity|super]]-)[[gravity]] to ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]]:
+
+  * [[KLT relations]]
+
+  * [[BCJ relations]]
+
+  * [[classical double copy]] 
+
+
 
 ## References
 
