@@ -64,6 +64,8 @@ There is a generalization for $X$ an [[orbifold]] due to ([Satake](#Satake)).
 
 * [[Euler characteristic]]
 
+* [[Poincaré–Hopf theorem]]
+
 ## References
 
 The Chern-Gauss-Bonnet theorem goes back to 
@@ -92,8 +94,14 @@ Expositions include
 
 The generalization to [[orbifold]]s is considered in
 
-* Ichiro Satake, _The Gauss-Bonnet Theorem for V-manifolds_ J. Math. Soc. Japan Volume 9, Number 4 (1957), 464-492.  ([ProjectEclid](http://projecteuclid.org/euclid.jmsj/1261153826))
- {#Satake}
+* {#Satake} Ichiro Satake, _The Gauss-Bonnet Theorem for V-manifolds_ J. Math. Soc. Japan Volume 9, Number 4 (1957), 464-492.  ([ProjectEclid](http://projecteuclid.org/euclid.jmsj/1261153826))
+ 
+
+Generalization to [[orbifolds]]:
+
+* Christopher Seaton, _Two Gauss–Bonnet and Poincaré–Hopf theorems for orbifolds with boundary_, Differential Geometry and its Applications
+Volume 26, Issue 1, February 2008, Pages 42-51 ([doi:10.1016/j.difgeo.2007.11.002](https://doi.org/10.1016/j.difgeo.2007.11.002))
+
 
 For an approach via 0|2-dimensional [[supersymmetric Euclidean field theory]], see
 
