@@ -7,10 +7,10 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
 
-{#awodey_2018_natural-models-of-homotopy-theory} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#awodey_2018_natural-models-of-homotopy-theory):
+{#awodey_2018_natural-models-of-homotopy-type-theory} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#awodey_2018_natural-models-of-homotopy-type-theory):
 
 ```
-@Article{awodey_2018_natural-models-of-homotopy-theory,
+@Article{awodey_2018_natural-models-of-homotopy-type-theory,
   author       = {Awodey, Steve},
   title        = {Natural models of homotopy type theory},
   journal      = {Math. Structures Comput. Sci.},
