@@ -1104,6 +1104,11 @@ A summary of definitions and some known comparison results can be found in
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Urs Schreiber]], [[Hisham Sati]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, volume 83 
  AMS (2011) ([arXiv:1011.0110](http://arxiv.org/abs/1011.0110))
 
+A textbook account focusing on [[n-fold complete Segal spaces]] and related models is in
+
+* {#Paoli19} [[Simona Paoli]], _Simplicial Methods for Higher Categories -- Segal-type Models of Weak $n$-Categories_, Springer 2019  ([doi:10.1007/978-3-030-05674-2](https://www.springer.com/gb/book/9783030056735), [toc pdf](https://link.springer.com/content/pdf/bfm%3A978-3-030-05674-2%2F1.pdf))
+
+
 One axiomatic characterization is in 
 
 * {#BarwickSchommerPries}[[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([arXiv:1112.0040](http://arxiv.org/abs/1112.0040), [slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
