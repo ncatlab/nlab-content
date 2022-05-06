@@ -20,8 +20,7 @@
 
 The formalism of Markov categories can be thought of as a way to express certain aspects of [[probability]] and [[statistics]] [[analytic versus synthetic|synthetically]]. In other words, it consists of [[structures]] and [[axioms]] which one can think of as "fundamental" in probability and statistics, which one can use to prove theorems, without having to use [[measure theory]] directly. One then proves that the usual measure-theoretic treatment is a [[model]] (or [[semantics]]) of this theory.
 
-Intuitively, for the purposes of probability a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]].
-The formalism is however way more general. 
+Intuitively, for the purposes of probability a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
 **Caveat**: some of the content of this page reflects work in progress. Content may change.
 
