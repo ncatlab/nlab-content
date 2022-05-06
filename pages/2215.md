@@ -1,1 +1,1 @@
-The material previously on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Continuous_predicate).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Continuous_predicate).
