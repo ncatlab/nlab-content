@@ -82,7 +82,14 @@ This is widely and well known, but particle physics does not quite share the mat
 
 > Because of the great importance of the standard model, and the central role it plays in our understanding of particle physics, it is unfortunate that, in one very important respect, we don’t really understand how it works. The problem lies in the sector dealing with the interactions of quarks and gluons, the sector known as Quantum Chromodynamics or QCD. We simply do not know for sure why quarks and gluons, which are the fundamental fields of the theory, don’t show up in the actual spectrum of the theory, as asymptotic particle states. There is wide agreement  about  what  must  be  happening  in  high  energy  particle  collisions:  the  formation of color electric flux tubes among quarks and antiquarks, and the eventual fragmentation of those flux tubes into mesons and baryons, rather than free quarks and gluons. But there is no general agreement about why this is happening, and that limitation exposes our general ignorance about the workings of non-abelian gauge theories in general, and QCD in particular, at large distance scales.
 
-* {#Brambilla14} Brambilla et al.. _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+* Csaba Csaki, [[Matthew Reece]], _Toward a Systematic Holographic QCD: A Braneless Approach_, JHEP 0705:062, 2007 ([arxiv:hep-ph/0608266](https://arxiv.org/abs/hep-ph/0608266))
+
+  (in motivation of [[Ads/QCD]])
+
+> QCD is a perennially problematic theory. Despite its decades of experimental support, the detailed low-energy physics remains beyond our calculational reach. The lattice provides a
+technique for answering nonperturbative questions, but to date there remain open questions that have not been answered
+
+* {#Brambilla14} Brambilla et al., _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
 >  The success of the technique does not remove the challenge of understanding the non-perturbative aspects of the theory. The two aspects are
 deeply intertwined. The Lagrangian of QCD is written in terms of quark and gluon degrees of freedom which become apparent at large energy but remain hidden inside hadrons in the low-energy regime. This confinement property is related to the increase of $\alpha_s$ at low energy, but it has never been
