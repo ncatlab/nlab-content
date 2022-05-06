@@ -7,8 +7,6 @@ based on plain [[type theory]]/[[set theory]]:
 
 * [[Mizar]], [[NuPRL]], [[Isabelle]], [[HOL]]
 
-* [[Haskell]]
-
 based on [[dependent type theory]]/[[homotopy type theory]]:
 
 * [[Coq]], [[Agda]], [[Lean]], [[Arend]]
