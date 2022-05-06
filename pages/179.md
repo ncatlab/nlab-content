@@ -1299,22 +1299,23 @@ The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as ye
 
 Possibly the first explicit appearance of the idea of $\infty$-Lie algebroids recognized in their full [[Lie theory|Lie theoretic]] meaning is
 
-* [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
+
+* [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
 
 which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan model|Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _[[topological space]]s_ by [[dg-algebras]]. That these spaces can be regarded as [[∞-groupoids]] and as [[∞-Lie groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also [[Lie integration]], [[rational homotopy theory in an (∞,1)-topos]] and [[function algebras on ∞-stacks]].
 
-The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such appears in 
+The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such is due to
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string- and  fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">ref</a>)
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], Section A.1 of: _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, Volume 315, Issue 1 (2012) pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
-The term also appears in
+The term then appears in
 
-* Andrew James Bruce, _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_ ([arXiv:1007.1389](http://arxiv4.library.cornell.edu/abs/1007.1389))
+* Andrew James Bruce, _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_, Rept. Math. Phys. 67:157-177, 2011 ([arXiv:1007.1389](https://arxiv.org/abs/1007.1389), <a href="https://doi.org/10.1016/S0034-4877(11)00010-3">doi:10.1016/S0034-4877(11)00010-3</a>)
 
 The dual monoidal Dold-Kan correspondence is discussed in
 
-* J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
-{#CastiglioniCortinas}.
+* {#CastiglioniCortinas} J. L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
+.
 
 
 The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in section 1.2 of
