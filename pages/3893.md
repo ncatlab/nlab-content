@@ -45,7 +45,7 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 * [[G-structure]], [[homothety]]
 
-* [[first-order formulation of supergravity]]
+* [[first-order formulation of gravity]]
 
 * [[torsion constraints in supergravity]]
 
