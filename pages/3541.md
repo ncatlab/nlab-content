@@ -151,6 +151,8 @@ $$
 ## Related concepts
 
 * [[quantum mechanics in terms of dagger-compact categories]]
+
+[[!include states and observables -- content]]
   
 
 ## References
