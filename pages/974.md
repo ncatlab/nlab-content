@@ -227,6 +227,13 @@ If $A$ is locally presentable and $C$ is a [[small category]], then the [[functo
 
 =--
 
+### Well-poweredness and well-copoweredness
+
+* Every [[locally presentable category]] is well-powered, since it is a full reflective subcategory of a presheaf topos, so its subobject lattices are subsets of those of the latter.
+
+* Every locally presentable category is also well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdamekRosicky).
+
+
 ## Examples and applications
 
 ### Locally finitely presentable categories
