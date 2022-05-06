@@ -28,7 +28,7 @@ Under the [interpretation of modules as generalized vector bundles](module#Relat
 
 ### General
 
-Let $C$ be a [[monoidal category]], and $Alg(C)$ the [[category]] of [[monoids]] in $C$ and for $A \in Alg(C)$ let $A$[[Mod]]$(C)$ be the category of $A$-[[modules]] in $C$.
+Let $C$ be a [[monoidal category]], and $Alg(C)$ the [[category of monoids]] in $C$; and for $A \in Alg(C)$ let $A$[[Mod]]$(C)$ be the category of $A$-[[modules]] in $C$.
 
 There is the evident [[forgetful functor]] $U : A Mod(C) \to C$ that sends each module $(N,\rho)$ to its underlying object $N \in C$. 
 
@@ -144,8 +144,10 @@ Assuming the [[axiom of choice]], if $R = k$ is a [[field]] then every $R$-[[mod
 
 ## References
 
-* Rotman _Advanced Modern Algebra_, pp. 650--651
- {#Rotman}
+Textbooks:
+
+* {#Rotman} J. Rotman, pp. 650--651 in: _Advanced Modern Algebra_, AMS 2017  ([ISBN:978-1-4704-2311-7](https://bookstore.ams.org/gsm-180/))
+ 
 
 
 [[!redirects free modules]]
