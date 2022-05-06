@@ -74,6 +74,8 @@ On the other hand, any finite simplicial complex $K$ is homotopy equivalent to i
 
 * [[finite spectrum]]
 
+* [[finite type]]
+
 ## References
 
 A survey which includes the McCord theorems as background material is in 
