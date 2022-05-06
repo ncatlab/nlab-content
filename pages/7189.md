@@ -16,8 +16,7 @@
 
 ## Idea
 
-A standard result in the theory of [[monad|monads]] says that every [[adjunction]] $F\dashv G:\mathcal{B}\to\mathcal{A}$ with unit $\eta$ and counit $\epsilon$ yields a monad $\langle 
-G\circ F,\;\eta,\;1_G\ast\epsilon\ast 1_F\rangle$ on $\mathcal{A}$. Similarly, it is possible to attach a monad $\mathbb{T}^G$, called the **codensity monad**, to a functor $G:\mathcal{B}\to\mathcal{A}$, when the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ has a left adjoint.
+Every [[adjunction|right adjoint functor]] $F\dashv G:\mathcal{B}\to\mathcal{A}$ yields by a classical result a [[monad]] on $\mathcal{A}$ with endofunctor $G\circ F$. The **codensity monad** $\mathbb{T}^G$ is a generalization of this monad to functors $G:\mathcal{B}\to\mathcal{A}$ merely admitting a right [[Kan extension]] $Ran_G G$ of $G$ along itself, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ is a right adjoint.
 
 The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
 
