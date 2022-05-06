@@ -1302,7 +1302,7 @@ that obtains the model structure from the [[model structure on chain complexes]]
 
 For general **non-commutative** (or rather: not necessarily graded-commutative) dg-algebras a model structure is given in
 
-* [[Rick Jardine]], _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58. 
+* {#Jardine97} [[J. F. Jardine]], _[[JardineModelDG.pdf:file]]_, Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58. 
 
 This is also the structure used in 
 
