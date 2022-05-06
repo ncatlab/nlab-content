@@ -270,6 +270,9 @@ Lecture notes include
 
 * {#Ebert12} [[Johannes Ebert]], sections 2.3, 2.4 of _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
 
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 21 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+
+
 * {#Freed13} [[Dan Freed]], lecture 8 of _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
 
 * {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology, generalized orientation and Thom isomorphism_, 2016, 2018 ([[PedrotticECohomology2018.pdf:file]])
