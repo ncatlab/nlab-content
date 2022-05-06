@@ -15,9 +15,9 @@
 
 ## Idea
 
-$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its points are the [[maximal ideals]] $(p)$, for each prime $p$ in $\mathbb{Z}$, which are [[closed point|closed]], and the non-maximal [[prime ideal]] $(0)$, whose closure is the whole of $Spec(\mathbb{Z})$. For details see at _[[Zariski topology]]_ [this example](Zariski+topology#SpecZ).
+$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$, which are [[closed point|closed]], and the non-maximal [[prime ideal]] $(0)$, whose closure is the whole of $Spec(\mathbb{Z})$. For details see at _[[Zariski topology]]_ [this example](Zariski+topology#SpecZ).
 
-Since $\mathbb{Z}$ is the [[initial object]] in the category of commutative rings, $Spec(\mathbb{Z})$ is the [[terminal object]] in the category of [[affine schemes]].
+Since $\mathbb{Z}$ is the [[initial object]] in the [[category]] [[CRing]] of [[commutative rings]], $Spec(\mathbb{Z})$ is the [[terminal object]] in the [[category]] of [[affine schemes]].
 
 The [[gros topos|gros]] [[etale topos]] over $Spec(\mathbb{Z})$ is the context for [[arithmetic geometry]]. By the discussion at _[[Borger's absolute geometry]]_ it sits via an [[essential geometric morphism]] over the [[F1]]-[[topos]]:
 
@@ -29,6 +29,8 @@ $$
 
 ### As a 3-dimensional space 
  {#As3dSpaceContainingKnots}
+
+There are some phenomena that may be interpreted as $Spec(\mathbb{Z})$ behaving like a [[3-manifold]] in some ways.
 
 #### As a 3-sphere containing knots
 
@@ -46,7 +48,7 @@ $$
 
 Observations like this give rise to the field of [[arithmetic topology]].
 
-### As a hyperbolic 3-manifold containing prime geodesics
+#### As a hyperbolic 3-manifold containing prime geodesics
 
 However, in view of the [analogy between the Selberg zeta function and the Artin L-function](Selberg%20zeta%20function#AnalogyWithArtinLFunction) it might be more appropriate to think of $Spec(\mathbb{Z})$ as analogous to a  [[hyperbolic manifold]] of dimension 3 (see also [Fujiwara 07, slide 7](#Fujiwara07)) and then to think of finite field spectra as analogous to the [[prime geodesics]] in the manifold. This does not change the fact that every single $Spec(\mathbb{F}_p) \hookrightarrow Spec(\mathbb{Z})$ is like an embedded circle, hence like a knot, but it affects the perspective on which role these play. For instance there does not seem to be a differential geometric analog situation where one considers [[infinite products]] over all knots in a 3-space, but there are such situations where one considers infinite products over all [[prime geodesics]] in a space, namely the [[Selberg zeta function]] analogous to the [[Artin L-function]] with its product over [[prime ideals]].
 
