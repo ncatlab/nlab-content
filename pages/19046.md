@@ -38,7 +38,7 @@ A [[Grothendieck topos]] $\mathcal{E}$ is called _exponentiable_ (in the [[2-cat
 
 * By setting $\mathcal{F}=\mathcal{S}$ , the base topos, one sees from $Hom(\mathcal{S},\mathcal{G}^\mathcal{E})=Hom(\mathcal{S}\times\mathcal{E},\mathcal{G})=Hom(\mathcal{E},\mathcal{G})$ that $\mathcal{G}^\mathcal{E}$ is indeed a "mapping space" whose [[point of a topos|points]] are the [[geometric morphism|geometric morphisms]] $\mathcal{E}\to\mathcal{G}$.
 
-* The concept generalizes to [[higher topos theory]] (cf. [Anel-Lejay 2018](#AJ18), [Lurie 2018](#Lurie18)).
+* The concept generalizes to [[higher topos theory]] (cf. [Anel 2015](#A15), [Anel-Lejay 2018](#AJ18), [Lurie 2018](#Lurie18)).
 
 ## Properties
 
@@ -113,7 +113,9 @@ $$\mathbb{T}^*(\mathcal{F})=\mathcal{F}\times\mathcal{E}\cong Hom(\mathcal{F}\ti
 
 shows that $\mathcal{S}[\mathbb{O}]^\mathcal{E}$ has precisely the properties required for $\mathcal{S}[\mathbb{T}^*]$.
 
-In other words, $\mathbb{T}^*$ is geometric (and classified by $\mathcal{S}[\mathbb{O}]^\mathcal{E}$) precisely iff $\mathcal{E}=\mathcal{S}[\mathbb{T}]$ is exponentiable! 
+In other words, $\mathbb{T}^*$ is geometric (and classified by $\mathcal{S}[\mathbb{O}]^\mathcal{E}$) precisely iff $\mathcal{E}=\mathcal{S}[\mathbb{T}]$ is exponentiable!
+
+Compare also the remarks of Anel ([2015](#A15)) on the $\infty$-case.
 
 ### Examples
 
@@ -194,7 +196,11 @@ An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinite
 
 * [[convenient category of spaces]]
 
+* [[Verdier duality]]
+
 ## References
+
+* [[Mathieu Anel]], _Toposes are commutative rings_ , talk at _[Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/)_,  IHES Paris, Nov. 25-27, 2015 ([video recording](https://www.youtube.com/watch?v=wG5MZqj_JK8), at min 52:47 ff.).
 
 * [[Mathieu Anel]], Damien Lejay, _Exponentiable Higher Toposes_ , arXiv:1802.10425 (2018). ([abstract](https://arxiv.org/abs/1802.10425))
 
