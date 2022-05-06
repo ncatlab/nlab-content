@@ -79,6 +79,8 @@ In the following examples, all groups are discrete.
 
 * [[Burnside ring]], [[Burnside category]]
 
+* [[table of marks]]
+
 ## References
 
 * {#tomDieck79} [[Tammo tom Dieck]], chapter 1 of _[[Transformation Groups and Representation Theory]]_, Springer 1979
