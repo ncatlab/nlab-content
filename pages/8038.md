@@ -161,3 +161,7 @@ See also the references at _[[period]]_.
 
 [[!redirects Feynman amplitude]]
 [[!redirects Feynman amplitudes]]
+
+[[!redirects decay mode]]
+[[!redirects decay modes]]
+
