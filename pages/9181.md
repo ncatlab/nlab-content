@@ -1,8 +1,8 @@
 
 
-[[field (physics)]]
+**[[field (physics)|fields]] and [[fundamental particle|particles]] in [[particle physics]]**
 
-**[[standard model of particle physics]]**
+**and in the [[standard model of particle physics]]**:
 
 **[[force]] [[field (physics)|field]] [[gauge field|gauge]] [[bosons]]**
 
@@ -30,7 +30,7 @@
 
 * [[Goldstone bosons]]
 
-**[[hadron]]** ([[bound states]] of the above [[quarks]])
+**[[hadrons]]** ([[bound states]] of the above [[quarks]])
 
 * [[meson]]
 
@@ -91,11 +91,19 @@
 
 **[[solitons]]**
 
-* [[caloron]]
-
 * [[Skyrmion]]
 
+* [[caloron]]
+
 * [[instanton]]
+
+
+**in [[grand unified theory]]**
+
+* [[leptoquark]]
+
+* [[Z'-boson]]
+
 
 **[[MSSM|minimally extended supersymmetric standard model]]**
 
@@ -133,9 +141,6 @@ bosinos:
 
 * [[giant graviton]]
 
-* [[leptoquark]]
-
-* [[Z'-boson]]
 
 **[[auxiliary fields]]**
 
