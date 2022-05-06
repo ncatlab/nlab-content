@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 #### Riemannian geometry
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
