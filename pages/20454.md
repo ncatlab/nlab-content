@@ -59,6 +59,8 @@ See also
 
 Discussion of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
 
+* [[Jerome Gauntlett]], [[Nakwoo Kim]], [[Daniel Waldram]], Section 3.1 of: _M-Fivebranes Wrapped on Supersymmetric Cycles_, Phys. Rev. D63 (2001) 126001 ([arXiv:hep-th/0012195](https://arxiv.org/abs/hep-th/0012195))
+
 * Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
 
 * {#GangKimLee14a} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, Physics Letters B
