@@ -27,7 +27,7 @@ In other words it is, if it exists, an [[internalization|internal version]] of t
 One way to make this precise starts by mimicking a property of the [[function set]] $[X,Y] = \{f : X \to Y\}$ of [[functions]] between two [[sets]] $X$ and $Y$: this set is characterized by the fact that for any other set $S$, the functions $S \to [X,Y]$ are in [[natural bijection]] with the functions $S \times X \to Y$ out of the [[cartesian product]] of $S$ with $X$. 
 That is: for each set $X$, the [[functor]] $(-) \times X$ has a [[right adjoint]], given by the construction $[X,-]$.
 
-One can verbalize this thus: *taking the cartesian product with the set $X$* is left-adjoint to *taking the set of all functions on $X$*.
+One can verbalize this thus: *taking the cartesian product with the set $X$* is left-adjoint to *taking the set of all functions with domain $X$*.
 
 This, then, is, generally, the definition of _internal hom_ in any [[cartesian monoidal category]] or in fact in any [[monoidal category]] $(\mathcal{C}, \otimes)$: the [[right adjoint]] $[X,-]$ to the given [[tensor product]] functor $(-)\otimes X$ for all objects $X$. It may or may not exist. If it exists, one says that $(\mathcal{C}, \otimes)$ is a _[[closed monoidal category|closed]]_ [[monoidal category]]. Explicity, the condition is that there is an [[isomorphism]]([[bijection]])
 $$
