@@ -679,3 +679,6 @@ The statements involving pushouts along free monoid morphisms are discussed in l
 
 [[!redirects monoidal Quillen equivalence]]
 [[!redirects monoidal Quillen equivalences]]
+
+[[!redirects monoidal Quillen functor]]
+[[!redirects monoidal Quillen functors]]
