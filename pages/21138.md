@@ -29,7 +29,7 @@ The [[Dirac charge quantization|charge quantization]] of [[D-brane charge]]/[[RR
 
 ## Properties
 
-### Holographic relation to K-theory classification of toplogical phases of matter
+### Holographic relation to K-theory classification of topological phases of matter
 
 Under [[AdS/CFT duality in solid state physics]] the [[K-theory classification of topological phases of matter]] corresponds to the [[K-theory classification of D-brane charge]] ([Ryu-Takayanagi 10a](#RyuTakayanagi10a), [Ryu-Takayanagi 10v](#RyuTakayanagi10b)).
 
