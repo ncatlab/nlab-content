@@ -289,3 +289,4 @@ Nostrand, {New   York}. Reprints in Theory and Applications of Categories, 7 (20
 [[!redirects action groupoids]]
 [[!redirects action group]]
 [[!redirects action groups]]
+[[!redirects groupoid quotient]]
