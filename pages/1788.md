@@ -14,7 +14,7 @@ $$
     - 
     \big( 
       \tfrac{1}{4}
-      p_1[X^4] - 48
+      p_1[X^4] - 12
     \big)^2
     +
     24 \cdot \chi_4[X^4]
@@ -26,15 +26,49 @@ $$
       p_1[X^4]
     \big)^2
     +
-    48
+    12
     \cdot
     \big(
       \tfrac{1}{2} p_1[X^4]
       -
-      48
+      12
     \big)
     +
     24 \cdot \chi_4[X^4]
+    \\
+    & =
+    - 
+    \big( 
+      \tfrac{1}{4}
+      p_1[X^4]
+    \big)^2
+    +
+    12
+    \cdot
+    \big(
+      \tfrac{1}{2} p_1[X^4]
+      -
+      12
+    \big)
+    +
+    24 \cdot c_2[X^4]
+    \\
+    & =
+    - 
+    \big( 
+      \tfrac{1}{4}
+      p_1[X^4]
+    \big)^2
+    +
+    12
+    \cdot
+    \big(
+      \tfrac{1}{2} p_1[X^4]
+      -
+      12
+    \big)
+    -
+    12 \cdot p_1[X^4]
   \end{aligned}
 $$
 
