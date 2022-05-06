@@ -5,9 +5,13 @@
 {:toc}
 
 
-## Idea
+## Definition
 
-Let $q$ be a prime power, $V$ a [[vector space]] of dimension $n$ over the finite field $\mathbf{F}_q$, and $\mathbf {G L}(V)$, the group of invertible linear transformations on $V$. The ring of **Dickson invariants** is defined as $Sym(V)^{\mathbf{G L}(V)}$. It is a polynomial algebra on $n$ variables. The degrees of the generators are $q^n - q^i$ for $i=0,\dots,n-1$. 
+Let $q$ be a [[prime number|prime]] power, $V$ a [[vector space]] of [[dimension]] $n$ over the [[finite field]] $\mathbf{F}_q$, and $\mathbf {G L}(V)$, the [[general linear group]] of invertible [[linear transformations]] on $V$.
+
+The ring of **Dickson invariants** is defined as the $GL(V)$-[[invariants]] $Sym(V)^{\mathbf{G L}(V)}$ in the [[symmetric algebra]] on $V$.
+
+This is a [[graded algebra|graded]] [[polynomial algebra]] on $n$ variables. The degrees of the generators are $q^n - q^i$ for $i=0,\dots,n-1$. 
 
 See [Wilkerson 83](#Wilkerson83).
 
@@ -15,7 +19,7 @@ See [Wilkerson 83](#Wilkerson83).
 
 ### Spaces with DI cohomology
 
-The [[infinity-groups]] whose [[classifying spaces]]/[[deloopings]] have mod 2 [[ordinary cohomology]] given by rank $n$ [[Dickson invariants]] are precisely these 4 (of which (only) the first three are [[compact Lie groups]]):
+The [[infinity-groups]] whose [[classifying spaces]]/[[deloopings]] have mod 2 [[ordinary cohomology]] given by rank $n$ [[Dickson invariants]] are precisely these 4 of which the first three are [[compact Lie groups]] and the last one in a [[2-compact group]]:
 
 | $n=$ | 1 | 2 | 3 | 4 | 
 |--|--|--|--|--|
