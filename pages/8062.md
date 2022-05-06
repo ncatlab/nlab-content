@@ -4,7 +4,11 @@
 
 ## Idea
 
-Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and similar structures. The truth is interpreted as probability and there is a concept of random predicates. 
+Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and similar structures.  
+
+As well as satisfying a form of [[completeness theorem]], 
+
+>...continuous first-order logic satisfies suitably phrased forms of the compactness theorem, the L&ouml;wenheim-Skolem  theorems, the diagram arguments, Craig's interpolation theorem, Beth's definability theorem, characterizations of quantifier elimination and model completeness, the existence of saturated and homogeneous  models results, the omitting types theorem, fundamental results of stability theory, and nearly all other results of elementary model theory. ([Yaacov &amp; Pedersen 10](#YaacovPed10))
 
 ## In terms of enriched category theory
 
@@ -25,10 +29,11 @@ Annals of Mathematics Studies __58__, 1966.
 
 A recent version is in
 
-* Itay Ben-Yacoov, _Uncountable dense categoricity in cats_, J. Symb. Logic __70__, 829--860, 2005
-* I. Ben-Yacoov, _Continuous first-order logic and logical stability_, [pdf](http://math.univ-lyon1.fr/~begnac/articles/cfo.pdf)
-* Itay Ben-Yaacov, Alex Usvyatsov. _Logic of metric spaces and Hausdorff CATs_
-* Itay Ben Yaacov, Alexander Berenstein, Ward C. Henson, Alexander Usvyatsov,
+* [[Itaï Ben Yaacov]], _Uncountable dense categoricity in cats_, J. Symb. Logic __70__, 829--860, 2005
+* [[Itaï Ben Yaacov]], _Continuous first-order logic and logical stability_, [pdf](http://math.univ-lyon1.fr/~begnac/articles/cfo.pdf)
+* {#YaacovPed10} [[Itaï Ben Yaacov]], Arthur Pedersen, _A proof of completeness for continuous first order logic_, Journal of Symbolic Logic 75, 168–190, 2010, ([arXiv:0903.4051](https://arxiv.org/abs/0903.4051)).
+* [[Itaï Ben Yaacov]], Alex Usvyatsov. _Logic of metric spaces and Hausdorff CATs_
+* [[Itaï Ben Yaacov]], Alexander Berenstein, Ward C. Henson, Alexander Usvyatsov,
 _Model Theory for metric structures_, in Model Theory with Applications to Algebra and Analysis, Volume 2, Cambridge University Press, 2008, [pdf](http://matematicas.uniandes.edu.co/~aberenst/mtfms.pdf)
 * Alexander Berenstein, Andres Villaveces, _Hilbert spaces with random predicates_, [pdf](http://matematicas.uniandes.edu.co/~aberenst/amalg10.pdf) 
 
