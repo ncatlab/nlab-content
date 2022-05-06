@@ -109,6 +109,6 @@ This is the relation of [[alpha equivalence|$\alpha$-equivalence]] on the raw te
 
 This enables us to extend substitution (uniquely up to unique isomorphism) to a functor, i.e. a setoid morphism, $RawTm \times RawTm \times Var \to RawTm$ and similarly for types: for substitutions that didn't used to be defined, modify the term along an $\alpha$-equivalence to eliminate possible variable captures and then do the substitution.
 
-In particular, the substitution $(\lambda(x : A.B). App^{x:A.B}(f, x))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$ is now defined.  It is equivalent to $(\lambda(w : A.B). App^{w:A.B}(f, w))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$ by the second condition on $\sim_{\alpha}$, and now the nontrivial case of substitution applies, giving $M[N/f] = \lambda(x : A.B). App^{x:A.B}(App^{z:C.(\Pi(x:A).B)}(x, z), x)$.
+In particular, the substitution $(\lambda(x : A.B). App^{x:A.B}(f, x))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$ is now defined.  It is equivalent to $(\lambda(w : A.B[w/x]). App^{x:A.B}(f, w))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$, where $w \notin FV(B)$, by the second condition on $\sim_{\alpha}$, and now the nontrivial case of substitution applies, giving $M[N/f] = \lambda(w : A.B[w/x]). App^{x:A.B}(App^{z:C.(\Pi(x:A).B)}(x, z), w)$.
 
 category: Initiality Project
