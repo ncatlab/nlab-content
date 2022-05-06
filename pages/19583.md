@@ -141,3 +141,8 @@ and specifically in relation to [[Jackiw-Teitelboim gravity]]:
 
 [[!redirects SYK model]]
 [[!redirects SYK models]]
+
+[[!redirects SYK-model]]
+[[!redirects SYK-models]]
+
+
