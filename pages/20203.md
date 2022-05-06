@@ -183,6 +183,13 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 
   (generalization of [[compact twisted connected sum G2-manifolds]])
 
+### With $Sp(2)\cdot Sp(1)$-structure
+
+M-theory on [[HP2]], hence on a [[quaternion-Kähler manifold]] of dimension 8 with [[holonomy]] [[Sp(2).Sp(1)]], is considered in
+
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
+and shows to reduce to [[M-theory on G2-manifolds]] in three different ways.
 
 
 ### M2-brane spacetimes
