@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -16,11 +20,10 @@
 ## Idea and definition
 
 Condensed sets aim to provide a convenient setting
-in the framework of homotopical algebra
-for working with algebraic objects that have some sort of a topology on them.
+in the framework of [[homotopical algebra]] for working with algebraic objects that have some sort of a [[topological space|topology]] on them.
 
 \begin{definition}
-A _condensed set_ is a [[sheaf]] of sets on the [[proetale site]] of a point.
+A _condensed set_ is a [[sheaf]] of sets on the [[pro-étale site]] of a point.
 That is, a condensed set is a functor
 $$ProfiniteSet^op \to Set$$
 such that the natural map
@@ -35,7 +38,7 @@ is a bijection for any surjection of [[profinite sets]] $S'\to S$.
 
 * [[pyknotic set]]
 
-* [[proetale site]]
+* [[pro-étale site]]
 
 * [[profinite set]]
 
