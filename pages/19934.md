@@ -246,6 +246,13 @@ In 2 dimensions
 
 * {#Guerreiro09} João Guerreiro, _Orbifolds and Wallpaper Patterns_ ([pdf](https://faculty.math.illinois.edu/~ruiloja/Estudantes/TrabalhoJGuerreiro.pdf))
 
+2d toroidal [[orientifolds]]:
+
+* Dongfeng Gao, [[Kentaro Hori]], Section 7.3 of: _On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds_ ([arXiv:1004.3972](https://arxiv.org/abs/1004.3972))
+
+* {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+
+
 #### Of dimension 4
 
 Flat (toroidal) orbifolds of dimension 4:
