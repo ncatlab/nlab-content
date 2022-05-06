@@ -24,7 +24,7 @@ All [[operads]] in the following are colored [[symmetric operads]] enriched over
 
 Let $\mathcal{P}$ be an operad over a set of colors $C$, and $\mathcal{Q}$ be an operad over a set of colors $D$.
 
-Their **Boardman-Vogt tensor product** $P \otimes_{BV} Q$ is the operad whose set of colors is $C \times D$, and whose operations are given by generators and relations as follows:
+Their **Boardman-Vogt tensor product** $\mathcal{P} \otimes_{BV} \mathcal{Q}$ is the operad whose set of colors is $C \times D$, and whose operations are given by generators and relations as follows:
 
 There is one generating operation for every pair $(p,d)$ with $p \in \mathcal{P}(c_1, \cdots, c_n; c)$ and with $d \in D$, denoted
 
