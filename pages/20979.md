@@ -33,9 +33,8 @@ and are identified  ([AF 96](#AF96)) with the un-traced [[Wilson loop observable
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariants.jpg" width="800">
+<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariantsII.jpg" width="800">
 </center>
-
 
 > from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
