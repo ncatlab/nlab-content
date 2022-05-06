@@ -38,6 +38,8 @@ for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGK
 <img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDualityII.jpg" width="650">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 
 ## Related concepts
 
