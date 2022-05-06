@@ -15,15 +15,8 @@
 
 ## Idea
 
-The _Giry monad_ ([Giry 80](#Giry80)) is the [[monad]] on a [[category]] of suitable [[spaces]] which sends each suitable space $X$ to the space of suitable [[probability measures]] on $X$.
+The _Giry monad_ ([Giry 80](#Giry80), following [Lawvere 62](#Lawvere62)) is the [[monad]] on a [[category]] of suitable [[spaces]] which sends each suitable space $X$ to the space of suitable [[probability measures]] on $X$.
 
-## History
-
-The Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
-
-Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62) to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union[^FritzLawvere]. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
-
-[[Gian-Carlo Rota]] had (somehow) obtained a copy of [the appendix](#Lawvere62), which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012. 
 
 ## Definition
 
@@ -128,26 +121,39 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 ## Related concepts
 
 * [[monads of probability, measures, and valuations]]
+
 * [[measure]], [[probability measure]], [[pushforward measure]]
+
 * [[measure theory]], [[probability theory]], [[random variable]]
+
 * [[Radon monad]], [[distribution monad]], [[probabilistic powerdomain]], [[extended probabilistic powerdomain]]
+
+
+## History
+
+The Giry monad was originally developed [by Lawvere in 1962](#Lawvere62), prior to the recognition of the explicit relationship between [[monads]] and [[adjunctions]].  It wasn't until 1965 that the constructions of Eilenberg-Moore, and Kleisli, showed that every adjoint pair gives rise to a monad.  
+
+Lawvere's construction was written up as an [appendix to a proposal](#Lawvere62) to the Arms Control and Disarmament Agency,  set up by President Kennedy as part of the State Department to handle planning and execution of certain treaties with the Soviet Union[^FritzLawvere]. At that time, Lawvere was working for a ``  think tank'' in California, and the purpose of the proposal was to provide a means for verifying compliance with limitations on nuclear weapons.   In the 1980's, Giry was collaborating with another French mathematician at that time who was also working with the French intelligence agency, and was able to obtain a copy of the appendix. Giry then developed and extended some of the ideas in the appendix.  
+
+[[Gian-Carlo Rota]] had (somehow) obtained a copy of [the appendix](#Lawvere62), which ended up in the library at The American Institute of Mathematics, and only became publicly available in 2012. 
+
 
 
 ## References
 
-Lawvere's original manuscript, written as an appendix to a proposal to the Arms Control and Disarmament Agency, is available here:
+The idea originates with
 
 * {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962  ([[lawvereprobability1962.pdf:file]])
 
   (notice that the statement of origin on p.1 is wrong)
 
-The monad made its way into print with
+and was picked up and published in:
 
 * {#Giry80} [[Michèle Giry]], _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982 ([doi:10.1007/BFb0092872](https://doi.org/10.1007/BFb0092872))
 
-In the paper, there are allegedly a few minor [[analysis|analytically]] incorrect points and gaps in proofs, observed by later authors. 
+  (there are allegedly a few minor [[analysis|analytically]] incorrect points and gaps in proofs, observed by later authors)
 
-According to [E. Burroni (2009)](#Burroni09) the 'Giry' monad appears also in
+According to [E. Burroni (2009)](#Burroni09), the Giry monad appears also in
 
 * O. de la Tullaye, _L'int&#233;gration consid&#233;r&#233;e comme l'alg&#232;bre d'un triple_. Rapport de Stage de D.E.A. manuscrit 1971.
 
