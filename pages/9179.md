@@ -101,6 +101,7 @@ See also
 
 * M.C. Gonzalez-Garcia, _Neutrino Masses and Mixing_ ([arXiv:1902.04583](https://arxiv.org/abs/1902.04583))
 
+* Shao-Feng Ge, Jing-Yu Zhu, _The Normal Neutrino Mass Hierarchy is Exactly What We Need!_ ([arXiv:1910.02666](https://arxiv.org/abs/1910.02666))
 
 More on this in relation to [[GUT]] models:
 
