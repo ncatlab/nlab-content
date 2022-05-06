@@ -113,7 +113,7 @@ The following table lists some [[Lie groups]] and their maximal compact Lie subg
 | [[Narain group]] $O(n,n)$ | [[direct product group]] of two [[orthogonal groups]] $O(n) \times O(n)$ |
 | [[unitary group]] $U(p,q)$ | $U(p) \times U(q)$ |
 | special [[Lorentz group|Lorentz]]/[[anti de Sitter group|AdS]] etc. group $SO(p,q)$ | $S\big(O(p) \times O(q)\big)$ |
-| Lorentz / AdS [[spin group]] $Spin(q,p)$ | $Spin(q) \times Spin(q) / \{(1,1), (-1,-1)\}$ |
+| Lorentz / AdS [[pin group]] $Pin(q,p)$ | $Pin(q) \times Pin(q) / \{(1,1), (-1,-1)\}$ |
 
 The following table lists specifically the maximal compact subgroups of the "$E$-series" of Lie groups culminating in the  [[exceptional Lie groups]] $E_n$.
 
