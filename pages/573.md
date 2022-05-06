@@ -1142,7 +1142,7 @@ The first globular and algebraic models of $(\infty,n)$-categories is in
 
 A model structure using [[complicial sets]] is in
 
-* Viktoriya Ozornova, Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
+* [[Viktoriya Ozornova]], Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
 
 
 [[!redirects (infinity,r)-category]]
