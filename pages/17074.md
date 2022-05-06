@@ -21,7 +21,7 @@ The _projective general special linear group_ $PSL(n)$ (in some [[dimension]] $n
 
 ## Examples
 
-* the [[rotational icosahedral group]] $I$ is [[isomorphism|isomorphic]] to the projectiver special linear group in dimension 2 with [[coefficients]] in a [[prime field]]:  $I \simeq PSL_2(\mathbb{F}_5) $
+* the [[rotational icosahedral group]] $I$ is [[isomorphism|isomorphic]] to the projectiver special linear group in dimension 2 with [[coefficients]] in a [[prime field]]:  $I \simeq PSL_2(\mathbb{F}_5) $ ([this Prop.](icosahedral+group#IsomorphismToSL25))
 
 * the [[automorphism group]] of the [[Fano plane]] is $\simeq PSL(2,\mathbb{F}_7)$ (...)
 
