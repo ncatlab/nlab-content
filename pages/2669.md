@@ -119,11 +119,19 @@ Diff. Geom. 18 (1983), 755–782 ([euclid.jdg/1214438181](https://projecteuclid.
   (using [[Gromov-Witten invariants]])
 
 
-Discussion of configuration spaces of _possibly coincident_ points on [[K3-surfaces]] $X$, hence of [[symmetric products]] $X^n/Sym(n)$ as [[moduli spaces]] of [[D0-D4-brane bound states]]:
+Discussion of configuration spaces of _possibly coincident_ points on [[K3-surfaces]] $X$, hence of [[symmetric products]] $X^n/Sym(n)$ as [[moduli spaces]] of [[D0-D4-brane bound states]] [[wrapped brane|wrapped]] on [[K3-surfaces]]:
 
 * [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
 
 * [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
+
+Suggestion that this is to be resolved by the [[Hilbert scheme of points]]:
+
+* [[Jeffrey Harvey]], [[Gregory Moore]], Section 5.1 of: _On the algebras of BPS states_, Commun. Math. Phys. 197:489-519, 1998 ([arXiv:hep-th/9609017](https://arxiv.org/abs/hep-th/9609017))
+
+* Kazuyuki Furuuchi, Hiroshi Kunitomo, Toshio Nakatsu, p. 17 of: _Topological Field Theory and Second-Quantized Five-Branes_, Nucl.Phys. B494 (1997) 144-160 ([arXiv:hep-th/9610016](https://arxiv.org/abs/hep-th/9610016))
+
+
 
 Hilbert schemes on K3 as [[moduli space]] of [[stable vector bundles]]:
 
@@ -136,15 +144,21 @@ with an eye towards [[Rozansky-Witten theory]] ([[ground field]]-valued [[Rozans
 
 * {#Sawon04} [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
 
-### Hilbert schemes and Coulomb branches
+### Hilbert schemes and Higgs/Coulomb branches
 
-Relation to [[Coulomb branches]]:
+Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yang-Mills theory]] with [[Hilbert schemes of points]] of [[complex curves]]:
+
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+
+
+* [[Stefano Cremonesi]], [[Amihay Hanany]], [[Alberto Zaffaroni]], sround (4.4) of: _Monopole operators and Hilbert series of Coulomb branches of 3d $\mathcal{N} = 4$ gauge theories_, JHEP 01 (2014) 005 ([arXiv:1309.2657](https://arxiv.org/abs/1309.2657))
+
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
 
 
 
-* [[Ben Webster]], _Coherent sheaves on Hilbert schemes through the Coulomb lens_, 2018 ([[WebsterHilbertScheme18.pdf:file]])i
+* [[Ben Webster]], _Coherent sheaves on Hilbert schemes through the Coulomb lens_, 2018 ([[WebsterHilbertScheme18.pdf:file]])
 
 
 
