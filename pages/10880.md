@@ -562,13 +562,18 @@ is discussed in ([[Representability theorems|Lurie, Representability theorems, s
 
 ## References
 
-The construction goes back to and is named after
+The Wirthmüller isomorphism in [[equivariant stable homotopy theory]] goes back to and is named after
 
 * {#Wirthmueller74} [[Klaus Wirthmüller]], _Equivariant homology and duality_. Manuscripta Math. 11(1974), 373-390
  
+see Theorem II.6.2 in 
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+
 see also
 
-* {#Nardin12} [[Denis Nardin]], section A.3 of _Stability and distributivity over orbital ∞-categories_, 2012 ([hdl.handle.net/1721.1/112895]( http://hdl.handle.net/1721.1/112895), [pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+* {#Nardin12} [[Denis Nardin]], section 2.6 and A.3 of _Stability and distributivity over orbital ∞-categories_, 2012 ([hdl.handle.net/1721.1/112895]( http://hdl.handle.net/1721.1/112895), [pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
 
 
 A clear discussion of axioms of [[six operations]] and their consequences, with emphasis on the Wirthm&#252;ller isomorphisms, is in 
