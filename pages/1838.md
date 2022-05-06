@@ -33,6 +33,8 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 * [[Born-Infeld theory]]
 
+* [[vector meson dominance]]
+
 * [[quantum field theory]]
 
   * [[gauge theory]]
