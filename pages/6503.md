@@ -19,11 +19,9 @@
 
 ## Idea
 
-The term _principal connection_ is synonymous to _[[connection on a bundle|connection]] on a [[principal bundle]]_ . 
+The term _principal connection_ is synonymous to _[[connection on a bundle|connection]] (see there for more) on a [[principal bundle]]_.
 
-The most well known examples are [[affine connection]]s. 
 
-Given a $G$-[[representation]] $V$ and a $G$-principal connection, it induces a connection on the corresponding $V$-[[associated bundle]].
 
 ## Related concepts
 
