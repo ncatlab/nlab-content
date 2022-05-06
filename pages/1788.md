@@ -1,5 +1,9 @@
 $\ldots$
 
+[[!-modulaity]]
+
+***
+
 $$
   \begin{aligned}
     \exp\big(  -t^a \wedge \iota_a \big)
