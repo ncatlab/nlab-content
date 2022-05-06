@@ -52,7 +52,24 @@ Frequently the notion of model is restricted to the case $\mathcal{C}=Set$.
 
 \section{Examples}
 
-\begin{example} A sketch, more precisely a finite product sketch, for the theory of groups can be constructed as follows. The directed graph can be taken to be the following.
+\begin{example} A sketch, more precisely a finite product sketch, for the theory of pointed sets can be constructed as follows. The directed graph can be taken to be the following.
+
+\begin{centre} 
+  \begin{tikzpicture}
+    \fill (0,0) circle[radius=0.1];
+    \node at (0,-0.3) {$v_{1}$};
+    \fill (3,0) circle[radius=0.1];
+    \node at (3,-0.3) {$v_{2}$};
+    \draw[shorten <= 0.5em, shorten >= 0.5em, ->] (0,0) -- (3,0);
+  \end{tikzpicture}
+\end{centre}
+
+The set of diagrams can be taken to be empty. The set of cones can be taken to be the set with the single cone given by the vertex $v_{1}$, i.e. a cone of the empty diagram. The set of co-cones can be taken to be empty.
+
+A model of this sketch necessarily sends the vertex $v_{1}$ to a product of the empty diagram, hence to a one element set $1$; sends the vertex $v_{2}$ to any set $X$; and sends the arrow from $v_{1}$ to $v_{2}$ to an arrow from $1$ to $X$, that is, to an element of $X$, as required. 
+\end{example}
+
+\begin{example} A sketch, more precisely a finite product sketch, for the theory of unital magmas (sets with a binary operation which has a two sided unit) can be constructed as follows. The directed graph can be taken to be the following.
 
 \begin{centre}
   \begin{tikzpicture}
@@ -60,16 +77,57 @@ Frequently the notion of model is restricted to the case $\mathcal{C}=Set$.
     \fill (3,0) circle[radius=0.1];
     \fill (6,0) circle[radius=0.1];
     \fill (3,3) circle[radius=0.1];
-    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (0, 0) to node[auto] {$e$} (3,0);
-    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=0.1em}, bend left] (3, 0) to node[auto] {$p_{1}$} (6,0);
+    \fill (3,-3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >= 0.5em, ->] (0,0) to node[auto] {$e$} (3,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, bend right=60] (3, 0) to node[auto, swap] {$p_{1}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend left=60] (3, 0) to node[auto] {$p_{2}$} (6,0);
     \draw[shorten <= 0.5em, shorten >=0.5em, <-] (3, 0) to node[auto] {$m$} (6,0);
-    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend right] (3, 0) to node[auto] {$p_{2}$} (6,0);
-    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=0.1em}, bend left] (3, 0) to node[auto] {$p_{1}$} (3,3);
-    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend right] (3, 0) to node[auto] {$p_{3}$} (3,3);
-    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=0.1em}, bend right] (6, 0) to node[auto] {$p_{1,2}$} (3,3);
-    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend right=90] (6, 0) to node[auto, swap] {$p_{2,3}$} (3,3);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend right] (3, 3) to node[auto, swap] {$p_{1}$} (0,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, 3) to node[auto] {$p_{2}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend left] (3, 3) to node[auto] {$m, e$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{1}$} (0,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{2}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend right] (3, -3) to node[auto, swap] {$e, m$} (6,0);
   \end{tikzpicture}
 \end{centre}
+
+The set of cones can be taken to have four elements, the first being the leftmost vertex (cone of the empty set), the second consisting of 
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (0,0) circle[radius=0.1];
+    \fill (3,0) circle[radius=0.1];
+    \fill (3,3) circle[radius=0.1];
+
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend right] (3, 3) to node[auto, swap] {$p_{1}$} (0,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, 3) to node[auto] {$p_{2}$} (3,0);
+  \end{tikzpicture}
+\end{centre}
+
+the third consisting of 
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (0,0) circle[radius=0.1];
+    \fill (3,0) circle[radius=0.1];
+    \fill (3,-3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{1}$} (0,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{2}$} (3,0);
+  \end{tikzpicture}
+\end{centre}
+
+and the fourth consisting of the following.
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, bend right=60] (3, 0) to node[auto, swap] {$p_{1}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend left=60] (3, 0) to node[auto] {$p_{2}$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+
 
 \end{example}
 
