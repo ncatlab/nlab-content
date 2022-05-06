@@ -12,7 +12,7 @@ Equivalently this means that a complex orientation $c_1^E$ in $E$-theory is an [
        \longrightarrow
      }
      &
-     \Omega^\infty E
+     \Omega^{\infty - 2} E
      \\
      \big\downarrow
      &
@@ -115,7 +115,7 @@ $$
     &
     \overset{ c_1^{E,n+1} }{\longrightarrow}
     &
-    \Omega^\infty E
+    \Omega^{\infty -2} E
     \\
     \big\uparrow
     &\mathclap{^{_{(hpo)}}}&
@@ -138,7 +138,7 @@ $$
     &
     \overset{}{\longrightarrow}
     &
-    \Omega^\infty E
+    \Omega^{\infty - 2} E
     \\
     \big\uparrow
     &
@@ -166,8 +166,12 @@ $$
   \big(
     S^{2n+1}
   \big)
+  \;\simeq\;
+  E_{2n-1}
 $$
 
-is the [[obstruction]] to the existence of the extension/orientation at this stage
+is the [[obstruction]] to the existence of the extension/orientation at this stage. 
+
+It follows that if these obstructions all vanish, then a complex $E$-orientation does exist.  A sufficient condition for this is, evidently, that the reduced $E$-cohomology of all odd-dimensional spheres vanishes, hence, that the [[graded-commutative ring|graded]] $E$-[[cohomology ring]] $E_\bullet$ is trivial in odd degrees.
 
 
