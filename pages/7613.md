@@ -227,6 +227,15 @@ The following is a collection of quotes from authors that highlight the open pro
 > I actually believe that string/M-theory is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
 
 
+\linebreak
+
+[Duff 19, USC interview](Michael+Duff#WeDontKnowWhatItIs):
+
+> The problem we face is that we have a patchwork understanding of M-theory, like a quilt. We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is. 
+
+> In a certain sense, and this is not a popular statement, I think it's premature to be asking: "What are the empirical consequences", because it's not yet in a mature enough state, where we can sensibly make falsifiable prediction.
+
+
 ### Non-abelian DBI-action
 
 A key ingredient of [[M-theory]] is supposedly the physics of [[intersecting branes]] with [[gauge enhancement]] in their [[worldvolume]] [[super Yang-Mills theory]]/[[DBI field theory]]. But the actual derivation or even formulation of the expected [[non-abelian DBI action]] remains open:
