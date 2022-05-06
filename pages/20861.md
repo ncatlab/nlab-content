@@ -29,6 +29,12 @@ Here is a picture of a typical Jacobi diagram:
 <img src="https://ncatlab.org/nlab/files/JacobiDiagram.jpg" width="300">
 </center>
 
+Here the internal lines need not form a [[tree]]; the following is also a Jacobi diagram:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/OneLoopJacobiDiagram.jpg" width="200">
+</center>
+
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 If all the [[vertices]] sit on the circle, Jacobi diagrams specialize to [[chord diagrams]].
