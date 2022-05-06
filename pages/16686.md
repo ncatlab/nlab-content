@@ -22,7 +22,7 @@ M5-brane [[instantons]] are constituted by [[M5-branes]] [[wrapped brane|wrapped
 
 * [[membrane instanton]]
 
-* [[M5-brane instanton]]
+[[!include table of branes]]
 
 ## References
 
