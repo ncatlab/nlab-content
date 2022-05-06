@@ -2625,7 +2625,7 @@ $$
 
 =--
 
-Proposition \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} implies the following fact, which is the key for the identification of "[[functors with smash product]]" [below](#FunctorsWithSmashProduct) and then for the description of [[ring spectra]] [further below](#HigherAlgebra).
+Proposition \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} implies the following fact, which is the key for the identification of "[[functors with smash product]]" [below](#FunctorsWithSmashProduct) and then for the description of [[ring spectra]] [further below](#HomotopyRingSpectra).
 
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
