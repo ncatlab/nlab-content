@@ -111,11 +111,11 @@ The interpretation as a 4d [[axion]] is discussed in
 
 The earliest reference where the gauge term in the standard string [[action functional]] is identified with the surface holonomy of a 3-cocycle in [[Deligne cohomology]] seems to be
 
-* [[Krzysztof Gawedzki]], _Topological Actions in two-dimensional Quantum Field Theories_, Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([web](http://inspirehep.net/record/257658?ln=de))
+* [[Krzysztof Gawedzki]], _Topological Actions in two-dimensional Quantum Field Theories_, in: ’t Hooft G., Jaffe A., Mack G., Mitter P.K., Stora R. (eds.) Cargese 1987 proceedings, _Nonperturbative quantum field theory_ (1986) ([spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5))
 
 The later article
 
-* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math.3:819,1999 ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+* [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_, Asian J. Math. 3:819, 1999 ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
 
 argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cohomology using [[quantum anomaly]]-cancellation arguments.
 
