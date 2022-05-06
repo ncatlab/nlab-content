@@ -11,6 +11,10 @@ On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf
 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of $KO$-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
+On [[equivariant elliptic genera]] in [[equivariant elliptic cohomology]]:
+
+* [[Matthew Ando]], [[Maria Basterra]], _The Witten genus and equivariant elliptic cohomology_, Math Z 240, 787–822 (2002) ([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
+
 On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomology]]:
 
 * {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
