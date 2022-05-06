@@ -96,6 +96,10 @@ $$
 
 * [[logarithmic cohomology operation]]
 
+* [[Bousfield localization of spectra]]
+
+* [[KU-local stable homotopy theory]]
+
 ## References
 
 * {#HoveySadofsky96} [[Mark Hovey]], H. Sadofsky, _Tate cohomology lowers chromatic Bouseld classes_ Proceedings of the AMS 124, 1996, 3579-3585.
