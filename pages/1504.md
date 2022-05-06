@@ -449,6 +449,7 @@ A textbook-like account is in
 
 * W. Siegel, _Introduction to string field theory_ ([arXiv:hep-th/0107094](http://arxiv.org/abs/hep-th/0107094))
 
+* [[Ashoke Sen]], _String Field Theory as World-sheet UV Regulator_ ([arXiv:1902.00263](https://arxiv.org/abs/1902.00263))
 
 ### Bosonic string field theory
  {#ReferencesBosonicSFT}
