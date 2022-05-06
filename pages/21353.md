@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -36,6 +37,10 @@ $$
 The original article:
 
 * R. H. Dalitz, _On an alternative decay process for the neutral $\pi$-meson_, Proceedings of the Physical Society. Section A 64 (7), 667, 1951 ([doi:10.1088/0370-1298/64/7/115](https://doi.org/10.1088/0370-1298/64/7/115))
+
+Survey:
+
+* M. Kunkel, _Dalitz Decays of Pseudo-Scalar Mesons_ ([[KunkelDalitzDecay.pdf:file]])
 
 Further discussion of the Dalitz decay of [[pions]]:
 
