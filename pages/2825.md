@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[homotopy theory of homotopy theories]] (the [[(infinity,1)-category of (infinity,1)-categories]]) in terms of [[complete Segal spaces]]:
+
+* {#Rezk98} [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_, Trans. Amer. Math. Soc. 353 (2001), 973-1007 ([arXiv:math/9811037](https://arxiv.org/abs/math/9811037), [doi:10.1090/S0002-9947-00-02653-2](https://doi.org/10.1090/S0002-9947-00-02653-2))
+
 Introducing [[model toposes]]/[[(∞,1)-toposes]]:
 
 * {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
