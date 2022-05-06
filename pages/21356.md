@@ -1,3 +1,8 @@
+
+# Display locales
+* table of contents
+{: toc}
+
 ## Idea
 
 The category of [[cosheaves]] of sets on a [[locale]] $X$
@@ -12,7 +17,8 @@ as the [[etale locale]] construction
 plays in the equivalence between
 [[sheaves]] of sets on $X$ and [[etale locales]] over $X$.
 
-## Definition.
+
+## Definition
 
 The __display locale__ of a [[precosheaf]] $D$ on a [[locale]] $X$
 is a locale over $X$ (i.e., an object in the [[slice category]] $Loc/X$)
@@ -36,6 +42,7 @@ The morphism $X\to Alex(elem(1_X))$ has as its underlying
 [[morphism of frames]] the map that sends a downward closed subset of $X$
 to its [[supremum]].
 
+
 ## Adjunction
 
 The display locale functor
@@ -46,13 +53,19 @@ $$LocConLoc/X \to Cosheaf(X).$$
 
 (The above adjunction also makes holds for [[precosheaves]]
 if we generalize the [[cosheaf of connected components]] construction
-accordingly, see Section 2 in Funk \cite{Funk}.)
+accordingly, see Section 2 in [Funk](#Funk).)
 
 This adjunction exhibits the category of [[cosheaves]] of sets on $X$
 as a (full) [[reflective subcategory]] of [[locally connected locales]] over $X$.
 The [[essential image]] of the inclusion is known as the category
 of [[complete spreads]] over $X$.
 
+
 ## References
 
-\bibitem{Funk} [[Jonathon Funk]], _The display locale of a cosheaf_.
+* [[Jonathon Funk]], _The display locale of a cosheaf_.
+{#Funk}
+
+
+[[!redirects display locale]]
+[[!redirects display locales]]
