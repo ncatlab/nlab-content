@@ -9,6 +9,8 @@ Michael Duff is professor of theoretical physics at Imperial College London. He 
 
 Among his former students is [[Hisham Sati]].
 
+* Graham Fermelo, _The universe speaks in numbers -- Interview 14: with [[Mike Duff]]_ ([web](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/))
+
 ## Quotes
 
 On the open problem of formulating [[M-theory]]:
