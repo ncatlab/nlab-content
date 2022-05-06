@@ -74,7 +74,7 @@ The local [[superspace]] [[supergeometry]] of T-folds is identified in
 see also at _[[topological T-duality]]_.
 
 
-A global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]] as described in _[[T-Duality and Differential K-Theory]]_ is proposed in 
+A global definition of [[T-folds]] as [[principal 2-bundles]] for the [[T-duality 2-group]], as described in _[[T-Duality and Differential K-Theory]]_, is proposed in 
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _T-Duality in K-theory and elliptic cohomology_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
