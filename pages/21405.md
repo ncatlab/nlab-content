@@ -506,7 +506,7 @@ Here the sign in the last lines arises from the [[Minkowski spacetime|Minkowski]
 
 +-- {: .num_prop #WaveOperatorOnMinkowskiSpacetime} 
 ###### Proposition
-**(wave equation)**
+**([[Laplace operator]]/[[wave operator]])**
 
 Let 
 $
@@ -532,7 +532,7 @@ $$
 
 (i.e. [[Lorenz gauge]]).
 
-Then
+Then the [[Laplace-Beltrami operator]]
 
 $$
   \star d \star d \alpha
