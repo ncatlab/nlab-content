@@ -103,6 +103,10 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 * Amit Sever, Pedro Vieira, Luis F. Alday, Juan Maldacena, [[Davide Gaiotto]], _An Operator product expansion for polygonal null Wilson loops_, [arxiv.org/abs/1006.2788](http://arxiv.org/abs/1006.2788)
 
+On super-[[Wilson lines]] via [[integration over supermanifolds]]:
+
+* C.A. Cremonini, [[Pietro Grassi]], S. Penati, _Supersymmetric Wilson Loops via Integral Forms_ ([arXiv:2003.01729](https://arxiv.org/abs/2003.01729))
+
 ### In Chern-Simons theory
 
 See at [[perturbative quantization of 3d Chern-Simons theory]]/[[Vassiliev knot invariants]].
