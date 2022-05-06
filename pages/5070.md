@@ -30,6 +30,7 @@ The **plane** is the [[Cartesian space]] $\mathbb{R}^2$. This is naturally a [[t
 
 * **plane**, [[surface]]
 
+* [[slope of a line]]
 
 ## References
 
