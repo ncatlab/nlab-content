@@ -26,6 +26,7 @@ The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]
 </center>
 
 
+
 > **Schematic [[phase diagram]] of [[QCD]].** The vertical axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough temperature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
 
 > graphics grabbed from [Blaizot 03](#Blaizot03).
