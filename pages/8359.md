@@ -99,8 +99,13 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
 
+See also:
 
 * Wikipedia, _[Friedmann&#8211;Lema&#238;tre&#8211;Robertson&#8211;Walker metric](http://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric)_
+
+Discussion in [[Regge calculus]]:
+
+* Ren Tsuda, Takanori Fujiwara, _Oscillating 4-Polytopal Universe in Regge Calculus_ ([arXiv:2011.04120](https://arxiv.org/abs/2011.04120))
 
 [[!redirects FRW models]]
 
