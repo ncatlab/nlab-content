@@ -40,7 +40,7 @@ Let $X \overset{f}{\longrightarrow} Y$ be a [[morphism]] of [[pointed homotopy t
 \]
 
 for its induced long [[homotopy cofiber sequence]], where $C_f \coloneqq cof(f)$ denotes the [[homotopy cofiber]] of $f$ and $\Sigma(-)$ is [[reduced suspension]]. 
-(If $f$ is presented by a [[cofibration]] in the [[classical model structure on topological spaces]] or the [[classical model structure on simplicial sets]] then $C_f \,\simeq\, Y/X$ is represented simply by the [[quotient space]] of $Y$ by $X$ under $f$. )
+(If $f$ is presented by an inclusion/[[cofibration]] of [[cell complexes]] in the [[classical model structure on topological spaces]] or the [[classical model structure on simplicial sets]] then $C_f \,\simeq\, Y/X$ is represented simply by the [[quotient space]] of $Y$ by $X$ under $f$. )
 
 Now for $E$ a [[Whitehead-generalized homology theory]] its evaluation on the sequence (eq:HomotopyCofiberSequenceOfSpaces) yields a [[long exact sequence]] of [[abelian groups]] -- the [[reduced homology|reduced]] $E$-[[homology groups]]:
 
