@@ -101,6 +101,4 @@ but the collection of such $d_0 \to \ldots \to d_n$ is the same as $nerve(C)_n$.
 
 =--
 
-
-[[!redirects universal element]]
-[[!redirects univeral element]]
+[[!redirects universal elements]]
