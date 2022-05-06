@@ -36,6 +36,10 @@ On the [[Green-Schwarz mechanism]] of [[anomaly cancellation]] in [[heterotic st
 
 * [[Michael Green]], [[John Schwarz]], _Anomaly Cancellation in Supersymmetric $D=10$ Gauge Theory and Superstring Theory_, Phys. Lett. B 149 (1984) 117-122 ([spire:15583](https://inspirehep.net/literature/15583), <a href="https://doi.org/10.1016/0370-2693(84)91565-X">doi:10.1016/0370-2693(84)91565-X</a>) 
 
+On the [[Green-Schwarz mechanism]] and [[KK-compactification]] of [[heterotic supergravity]]/[[heterotic superstring]] to 6 dimensions (see also at [[D=6 N=(1,0) SCFT]]):
+
+* [[Michael Green]], [[John Schwarz]], [[Pete West]], _Anomaly-free chiral theories in six dimensions_, Nuclear Physics B Volume 254, 1985, Pages 327-348 (<a href="https://doi.org/10.1016/0550-3213(85)90222-6">doi:10.1016/0550-3213(85)90222-6</a>)
+
 
 On [[M2-M5 brane bound states]]:
 
