@@ -32,6 +32,11 @@ Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] o
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070), [[BarNatanGaroufaldis96.pdf:file]])
 
+In relation to the [[volume conjecture]]:
+
+* {#MurakamiMurakami01} [[Hitoshi Murakami]] and [[Jun Murakami]], _The Colored Jones Polynomial And The Simplicial Volume Of A Knot_, Acta Math. 186 (2001) 85-104 ([euclid.acta/1485891370](https://projecteuclid.org/euclid.acta/1485891370))
+
+
 
 
 
