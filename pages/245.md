@@ -93,7 +93,7 @@ If the braiding in def. \ref{BraidedMonoidalCategory} "squares" to the identity 
 +-- {: .num_remark} 
 ###### Remark
 
-Intuitively speaking, the first hexagon identity in def. \ref{BraidedMonoidalCategory} says that we may braid $x \otimes y$ past $z$ 'all at once' or in two steps. The second hexagon identity says we may braid $x$ past $y \otimes z$ all at once or in two steps. 
+Intuitively speaking, the first hexagon identity in def. \ref{BraidedMonoidalCategory} says we may braid $x$ past $y \otimes z$ 'all at once' or in two steps. The second hexagon identity says that we may braid $x \otimes y$ past $z$ all at once or in two steps. 
 
 =--
 
