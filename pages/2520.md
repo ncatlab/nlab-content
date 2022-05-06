@@ -27,14 +27,19 @@ In [[physics]] the [[dynamics]] of a [[physical system]] may be encoded by a [[n
 
 For emphasis the description of dynamics by action functionals is called the **Lagrangean** approach. Another formulation of dynamics in physics that does not involve an action functional explicitly is [[Hamiltonian mechanics]] on [[phase space]]. At least in certain classes of cases the relation and equivalence of both approaches is understood. Generally the formulation of [[quantum field theory]] in terms of action functionals suffers from a lack of precise understanding of what the [[path integral]] over the action functional really means. 
 
-<div style="float:left;margin:0 10px 10px 0;">
-<img src="http://i.stack.imgur.com/xjwLG.jpg" alt="action functional on a napkin" />
-<br/>
-(taken from A. Zee "Fearful Symmetry") 
-</div>
-
-
-
+\begin{imagefromfile}
+  "file_name": "action_functional_on_a_napkin.jpg",
+  "float": "left",
+  "margin": {
+    "top": 0,
+    "right": 10,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  },
+  "alt": "Action functional on a napkin",
+  "caption": "Taken from A Zee, Fearful Symmetry"
+\end{imagefromfile}
 
 ## Definition
 
