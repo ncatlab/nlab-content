@@ -379,3 +379,5 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 [[!redirects 11d supergravity]]
 
 [[!redirects D=11 supergravity]]
+
+[[!redirects d=11 supergravity]]
