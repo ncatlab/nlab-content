@@ -54,6 +54,8 @@ In ([Mörtberg-Pujet](#Mortberg-Pujet)) the authors make the case that there are
 
 ## References
 
+The above text follows [Schreiber 14](https://cs.nyu.edu/pipermail/fom/2014-October/018251.html).
+
 * [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
 
 * {#Rijke19} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
