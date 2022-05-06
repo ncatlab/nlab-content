@@ -32,25 +32,36 @@ Since all our terms are fully annotated, all of our formation, introduction, and
 
 A **raw context** is a finite list of pairs consisting of a variable and a raw term.  Each such pair, written $x:A$, is called a **typing declaration**, with $A$ being a type to which the variable $x$ belongs.
 
-A **valid context** will be a raw context $(x_1:A_1, \dots ,x_n:A_n)$ such that each judgment $x_1:A_1,\dots, x_k:A_k \vdash A_{k+1} \, type$ is derivable by the rules below.  The rules do not explicitly assume context validity; instead we will prove after the fact that the context in any *derivable* judgment must be valid.
+A *valid context* will be a raw context $(x_1:A_1, \dots ,x_n:A_n)$ such that $x_k \neq x_\ell$ for $k\neq \ell$, and each judgment $x_1:A_1,\dots, x_k:A_k \vdash A_{k+1} \, type$ is derivable by the rules below.  In fact this notion is defined by a judgment mutually-inductively with the other rules to ensure that the context in any derivable judgment is valid, although in only a few cases (rules without any other premise) do we need that premise explicitly.
 
 ## Judgment forms
 
-Our type theory has five judgment forms.  Here $\Gamma$ is a metavariable ranging over raw contexts, while $S,T,A,B$ are metavariables ranging over raw terms.
+Our type theory has six judgment forms.  Here $\Gamma$ is a metavariable ranging over raw contexts, while $S,T,A,B$ are metavariables ranging over raw terms.
 
+1. $\Gamma \, ok$ --- "$\Gamma$ is a valid context"
 1. $\Gamma \vdash A\,type$ --- "$A$ is a type in context $\Gamma$"
 2. $\Gamma \vdash T \Leftarrow A$ --- "$T$ can be checked to have type $A$ in context $\Gamma$"
 3. $\Gamma \vdash T \Rightarrow A$ --- "$T$ synthesizes the type $A$ in context $\Gamma$"
 4. $\Gamma \vdash A \equiv B \, type$ --- "$A$ and $B$ are judgmentally equal types in context $\Gamma$"
 5. $\Gamma \vdash S \equiv T : A$ --- "$S$ and $T$ are judgmentally equal terms of type $A$ in context $\Gamma$"
 
+### Modes, preconditions, etc.
+
+TODO
+
 ## Primitive rules
+
+### Context rules
+
+The empty context is valid, and any valid context can be extended by a new variable belonging to a valid type:
+
+$$ \frac{ }{() \, ok} \qquad \frac{\Gamma \,ok \qquad x\notin \Gamma \qquad \Gamma \vdash A\,type}{(\Gamma,x:A) \, ok}$$
 
 ### Structural rules
 
-The main structural rule is the "variable" or "hypothesis" rule, which says that if a variable is declared in a context, then as a term it synthesizes the type that it is declared with.
+The main structural rule is the "variable" or "hypothesis" rule, which says that if a variable is declared in a context, then as a term it synthesizes the type that it is declared with:
 
-$$ \frac{(x:A) \in \Gamma}{\Gamma \vdash x \Rightarrow A}$$
+$$ \frac{\Gamma\, ok \qquad (x:A) \in \Gamma}{\Gamma \vdash x \Rightarrow A}$$
 
 The other structural rules of weakening, contraction, and substitution will be admissible.
 
@@ -68,9 +79,9 @@ A bidirectional system controls this rule more carefully, enforcing it to be use
 
 ### Equality rules
 
-We have primitive rules asserting that equality of terms and types are both reflexive, transitive, and symmetric.
+We have primitive rules asserting that equality of terms and types are both reflexive, transitive, and symmetric, and moreover that equality of terms is invariant under equality of types.
 
-(TODO)
+TODO.
 
 ### Constant rules
 
@@ -88,7 +99,7 @@ Each type former ($\Pi$-types, $\Sigma$-types, etc.) has a collection of rules g
 
 #### $\Pi$-types
 
-include [[Initiality Project - Type Theory - Pi-types]]
+[[!include Initiality Project - Type Theory - Pi-types]]
 
 ## Admissible rules
 
