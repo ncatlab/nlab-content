@@ -70,6 +70,8 @@ By
  
       * [[Brauer ∞-group]]
 
+  * [[p-compact group]]
+
   * [[center of an ∞-group]]
 
   * [[normal morphism of ∞-groups]]
