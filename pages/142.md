@@ -147,18 +147,39 @@ Special kinds of stacks include
 
 ## References
 
+The concept originates, under the French term _champ_, in 
+
+* [[Jean Giraud]], _Cohomologie non ab&#233;lienne, Grundlehren 179, Springer Verlag (1971) ([doi:10.1007/978-3-662-62103-5](https://www.springer.com/gp/book/9783540053071))
+
+and under the English term _stack_ in
+
+* [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics, vol 274. Springer (1972) ([doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964))
+
+Further early discussion includes
+
+* [[Marta Bunge]], [[Robert Pare]], _Stacks and equivalence of indexed categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no.4 (1979) ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0))
+ 
+* [[Marta Bunge]], _Stack completions and Morita equivalence for categories in a topos_, Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle xx-4, (1979)
+401-436, ([MR558106](http://www.ams.org/mathscinet-getitem?mr=558106), [numdam](http://www.numdam.org/item?id=CTGDC_1979__20_4_401_0))
+
+See also the references at _[[2-sheaf]]_.
+ 
+Review:
+
 * [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
+
 * [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
 
-The article
+Discussion of stacks in their incarnation (under the [[Grothendieck construction]]) as [[Grothendieck fibrations]].
 
 *  [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_ [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512) pp. 1--104 in Barbara Fantechi, Lothar G&#246;ttsche, Luc Illusie, Steven L. Kleiman, Nitin Nitsure, Angelo Vistoli, _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. 2005. x+339 pp. [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)  
 
-discusses stacks focusing on their dual incarnation as [[Grothendieck fibration]]s.
 
-A [[model category]] structure on [[presheaves of groupoids]], presenting stack the way the [[model structure on simplicial presheaves]] models [[∞-stacks]] is discussed in
+A [[model category]] structure on [[presheaves of groupoids]], presenting stacks, by a [[Bousfield localization of model categories|localization]] of a [[model structure on simplicial presheaves]] (modeling [[∞-stacks]] before localization) is discussed in
 
-* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_, Israel Journal of Mathematics, 163(1), 93-124 ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+* [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, Homotopy and Applications, vol. 3 (2), 2001, pp.361--384 ([euclid:hha/1139840259](https://projecteuclid.org/euclid.hha/1139840259))
+
+* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_, Israel Journal of Mathematics, 163(1), 93-124  (2008) ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247), [doi:10.1007/s11856-008-0006-5](https://doi.org/10.1007/s11856-008-0006-5))
 
 [[!redirects stack*]]
 [[!redirects stacks]]
