@@ -7,3 +7,6 @@ Related nLab pages:
 * [[monads of probability, measures, and valuations]]
 
 category:people 
+
+[[!redirects P. Perrone]]
+[[!redirects Perrone]]
