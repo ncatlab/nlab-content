@@ -13,17 +13,15 @@
 
 * My personal nLab page: [http://ncatlab.org/nlab/show/Jacob+Biamonte](http://ncatlab.org/nlab/show/Jacob+Biamonte) 
 
-* Our diagrams page: [http://ncatlab.org/johnbaez/show/Diagrams](http://ncatlab.org/johnbaez/show/Diagrams)
+* Diagrams page: [http://ncatlab.org/johnbaez/show/Diagrams](http://ncatlab.org/johnbaez/show/Diagrams)
 
-* Our Petri net field theory paper: [http://ncatlab.org/johnbaez/show/Diagrams](http://ncatlab.org/johnbaez/show/Diagrams) 
+* Petri net field theory paper: [http://ncatlab.org/johnbaez/show/Diagrams](http://ncatlab.org/johnbaez/show/Diagrams) 
 
 
 
 ## Links ## 
 
-* [My homepage at St Peter's College](http://www.spc.ox.ac.uk/Staff/69/Staff.html?StaffId=292) 
-* [Biamonte] (http://qubit.org/jacob-biamonte.html) (My homepage!)
-* [ISI Foundation](http://www.thequantumnetwork.org/)
+* [My homepage](http://deepquantum.ai) 
 
 
 ## Selected writings
