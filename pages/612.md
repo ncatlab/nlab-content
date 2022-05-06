@@ -123,6 +123,16 @@ Application to [[moduli stack of elliptic curves]]:
 
   on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
+### Elliptic cohomology
+
+* Elliptic cohomology I: Spectral abelian varieties, ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
+
+* Elliptic cohomology II: Orientations, ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-II.pdf))
+
+* Elliptic cohomology III: Tempered Cohomology, ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+
+* Elliptic cohomology IV: Equivariant elliptic cohomology, (announced)
+
 ### Publications before thesis
 
 * M H Freedman, A Kitaev, J Lurie, _Diameters of homogeneous spaces_, Math. res. lett. 10:1, 11-20 (2003) 
