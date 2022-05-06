@@ -32,6 +32,11 @@ A major example is the [[universal enveloping algebra]] of any [[Lie algebra]].
 
 See also [[Lazard's criterion]] and [[microlocalization]]. 
 
+\linebreak
+
+[[!include filtered objects -- contents]]
+
+
 ## References
 
 * wikipedia [filtration (mathematics)](http://en.wikipedia.org/wiki/Filtration_%28mathematics%29), [completion (ring_theory)](http://en.wikipedia.org/wiki/Completion_%28ring_theory%29)
