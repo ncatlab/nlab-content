@@ -50,7 +50,7 @@ Related commentary is in ([Rodin 14](#Rodin14)).
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982) ([doi:10.1007/978-94-009-8462-2_6](https://link.springer.com/chapter/10.1007/978-94-009-8462-2_6))
 
-* {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_, in J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York, pages 14-30, 1992.
+* {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_, in J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York, pages 14-30, 1992.
 
 * {#Lawvere94} [[William Lawvere]], _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"), pages 43-56, 1994.
 
