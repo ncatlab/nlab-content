@@ -82,7 +82,9 @@ Of course there is a dual result for opfibrations: for any opfibration $r\colon 
 +--{: .un_theorem}
 ###### Theorem
 A span $A \overset{p}{\leftarrow} E \overset{q}{\to} B$ is a two-sided fibration from $B$ to $A$ if and only if
+
 1. $p\colon E\to A$ is a fibration and
+
 1. $(p,q)\colon E\to A\times B$ is an opfibration in $Fib(A)$.
 =--
 
