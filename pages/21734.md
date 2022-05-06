@@ -21,7 +21,9 @@
 
 ## Idea
 
-The _equivariant Chern character_ is the generalization of the [[Chern character]] from [[topological K-theory]] to [[equivariant topological K-theory]].
+The _equivariant Chern character_ is the generalization of the [[Chern character]] from [[topological K-theory]] to [[equivariant topological K-theory]], equivalently the specialization of the [[equivariant Chern-Dold character]] for [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[equivariant cohomology]] to [[equivariant topological K-theory]].
+
+
 
 ## Related concepts
 
