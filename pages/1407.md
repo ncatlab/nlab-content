@@ -318,6 +318,10 @@ For more see
 
 ### General
 
+Popular exposition:
+
+* {#Green86} [[Michael Green]], _Superstrings_, Scientific American Vol. 255, No. 3 (September 1986), pp. 48-63 ([jstor:24976036](https://www.jstor.org/stable/24976036))
+
 Textbooks on [[string theory]] and [[M-theory]] include the following (for more see at _[[books about string theory]]_):
 
 * [[Mike Duff]]
