@@ -98,6 +98,10 @@ This is even [[constructive mathematics|constructive]]; the theorems can be prov
 
 ## References and remarks
 
+* [[Christopher D. Hollings]], [[Mark V. Lawson]], _Wagner’s Theory of Generalised Heaps_, 2017, Springer.  [doi](http://dx.doi.org/10.1007/978-3-319-63621-4)
+
+* [[A. K. Sushkevich]], _Theory of Generalised Groups_, DNTVU, Kharkov-Kiev (1937) (in Russian).
+
 * G.M. Bergman, A.O. Hausknecht,
 _Cogroups and co-rings in categories of associative rings_, 
 Ch.IV, paragraph 22, p.95ff  -- Providence, R.I. : AMS 1996.
