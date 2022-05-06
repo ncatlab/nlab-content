@@ -114,6 +114,8 @@ Here we are showing
 
 1. the [[NS5-branes]] (often not considered here).
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 \linebreak
 
 \linebreak
