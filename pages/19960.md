@@ -363,6 +363,8 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 ### Application to glueball physics
 
+* {#Suzuki01} Kenji Suzuki, _D0-D4 system and $QCD_{3+1}$_, Phys.Rev. D63 (2001) 084011 ([arXiv:hep-th/0001057](https://arxiv.org/abs/hep-th/0001057))
+
 * S.S. Afonin, A.D. Katanaeva, _Glueballs and deconfinement temperature in AdS/QCD_ ([arXiv:1809.07730](https://arxiv.org/abs/1809.07730))
 
 
@@ -409,11 +411,15 @@ Application to [[Higgs field]]:
 
 * {#EspiruKatanaeva18} Domenec Espriu, Alisa Katanaeva, _Composite Higgs Models: a new holographic approach_ ([arXiv:1812.01523](https://arxiv.org/abs/1812.01523))
 
-### Application to axions and strong CP-problem
+### Application to $\theta$-angle axions and strong CP-problem
 
 Realization of [[axions]] and solution of [[strong CP-problem]]:
 
 * Francesco Bigazzi, Alessio Caddeo, Aldo L. Cotrone, Paolo Di Vecchia, Andrea Marzolla, _The Holographic QCD Axion_ ([arXiv:1906.12117](https://arxiv.org/abs/1906.12117))
+
+Discussion of the [[theta angle]] via the the [[graviphoton]] in the [[higher WZW term]] of the [[D4-brane]]:
+
+*  Si-wen Li, around (3.1) of _The theta-dependent Yang-Mills theory at finite temperature in a holographic description_ ([arXiv:1907.10277](https://arxiv.org/abs/1907.10277))
 
 
 ### Application to QCD phases
