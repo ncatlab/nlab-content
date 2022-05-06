@@ -99,7 +99,7 @@ is a [[homotopy equivalence]] of [[topological spaces]].
 ### For Lie groups
  {#ExamplesForLieGroups}
 
-The following table lists some [[Lie groups]] and their maximal compact Lie subgroups. See also _[[compact Lie group]]_.
+The following table lists some [[Lie groups]] and their maximal compact Lie subgroups (e.g. [Conrad](#Conrad)). See also _[[compact Lie group]]_.
 
 
 |            Lie group                         |     maximal compact subgroup    |
@@ -145,9 +145,6 @@ A maximal compact subgroup may not exist at all without the almost connectedness
 
 ## References
 
-A general survey is given in 
-
-* wikipedia, _[Maximal compact subgroup](http://en.wikipedia.org/wiki/Maximal_compact_subgroup)_
 
 Textbooks with relevant material include
 
@@ -157,20 +154,28 @@ Textbooks with relevant material include
 * Karl Hofmann, Sidney Morris, _The Lie theory of connected pro-Lie groups_, Tracts in Mathematics 2, European Mathematical Society,  (2000)
  {#HofmannMorris}
 
+
+See also
+
+* Wikipedia, _[Maximal compact subgroup](http://en.wikipedia.org/wiki/Maximal_compact_subgroup)_
+
+
 Original articles include
 
-* A. Malcev, _On the theory of the Lie groups in the large_, Mat.Sbornik N.S. vol. 16 (1945) pp. 163-189
- {#Malcev}
+* {#Malcev} A. Malcev, _On the theory of the Lie groups in the large_, Mat.Sbornik N.S. vol. 16 (1945) pp. 163-189
+ 
 
 
-* K. Iwasawa, , _On some types of topological groups_, Ann. of Math. vol.50 (1949) pp. 507-558.
- {#Iwasawa}
-
-
+* {#Iwasawa} K. Iwasawa, _On some types of topological groups_, Ann. of Math. vol.50 (1949) pp. 507-558.
+ 
 
 * M. Peyrovian, _Maximal compact normal subgroups_, Proceedings of the American Mathematical Society, Vol. 99, No. 2, (1987) ([jstor](http://www.jstor.org/pss/2046647))
 
-* Sergey A. Antonyan, _Characterizing maximal compact subgroups_ ([arXiv:1104.1820v1](http://arxiv.org/abs/1104.1820v1)) 
- {#Antonyan}
+* {#Antonyan} Sergey A. Antonyan, _Characterizing maximal compact subgroups_ ([arXiv:1104.1820v1](http://arxiv.org/abs/1104.1820v1)) 
+
+The maximal compact subgroups inside the (indefinite) rotation groups
+
+* {#Conrad} [[Brian Conrad]], _Examples of maximal compact subgroups_ ([pdf](http://virtualmath1.stanford.edu/~conrad/210CPage/handouts/maxcompact.pdf))
+ 
 
 [[!redirects maximal compact subgroups]]
