@@ -153,9 +153,11 @@ The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassm
 
 ## Examples
 
-* [[complex projective curve]]
+* $\mathbb{C}P^1$ is also known as the [[complex projective curve]] or [[Riemann sphere]]
 
-* [[complex projective plane]]
+* $\mathbb{C}P^2$ is also known as the [[complex projective plane]]
+
+* $\mathbb{C}P^3$ is also known as [[complex projective 3-space]]
 
 
 ## Properties
