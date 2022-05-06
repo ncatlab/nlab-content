@@ -185,6 +185,8 @@ In low dimensions the spin group happens to be [[isomorphism|isomorphic]] ("spor
 
 See for instance ([Garrett 13](#Garrett13)). See also _[[division algebra and supersymmetry]]_.
 
+In the following $Sp(n)$ denotes the [[quaternionic unitary group]] in [[quaternion|quaternionic]] [[dimension]] $n$.
+
 We have
 
 * in [[Euclidean geometry|Euclidean]] signature
@@ -217,7 +219,7 @@ We have
 
     At the level of [[Lie algebras]] $\mathfrak{so}(4) \simeq \wedge^2 \mathbb{R}^4$ and the $\pm 1$-[[eigenspaces]] of the [[Hodge star operator]] $\star \colon \Wedge^2 \mathbb{R}^4 \to \mathbb{R}^4$ gives the [[direct sum]] decomposition $\mathfrak{so}(4) \simeq \mathfrak{su}(2) \oplus \mathfrak{su}(2) \simeq \mathfrak{so}(3) \oplus \mathfrak{so}(3)$
  
-  * $Spin(5) \simeq Sp(2)$ (an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97))
+  * [[Spin(5)]] $\simeq Sp(2)$ (an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97))
 
   * $Spin(6) \simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
 
