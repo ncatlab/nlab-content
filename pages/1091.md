@@ -542,12 +542,6 @@ $$
 
 ## Related concepts
 
-* [[pullback]], [[fiber product]],
-
-* [[lax pullback]], [[comma object]],
-
-* [[(∞,1)-pullback]], [[homotopy pullback]]
-
 * **base change**
 
   * [[dependent sum]], [[dependent product]]
@@ -558,10 +552,12 @@ $$
 
 * [[proper base change theorem]]
 
-
 * Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
 
 * [[change of enriching category]]
+
+[[!include notions of pullback -- contents]]
+
 
 ## References
 
