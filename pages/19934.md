@@ -25,10 +25,18 @@ The concept of _Riemannian orbifolds_ is the joint generalization of the concept
 
 A Riemannian orbifold is an [[orbifold]] equipped with an orbifold [[atlas]] where each [[chart]] $(\widehat{U}_i, G)$ is equipped with a [[Riemannian metric]] such that the [[action]] of $G$ is by [[isometries]], and such that the transition functions from one chart to the other are isometries.
 
-A key aspect is that the orbifold [[singularities]] behave like carrying singular [[curvature]], notably there are [[flat orbifolds]] (i.e. Riemannian orbifolds with vanishing [[Riemann curvature]] away from the [[singularities]]) whose underlying [[topological spaces]] are [[n-spheres]] (see [below](#FlatCompact2DimensionalOrbifolds)).
+A key aspect is that the orbifold [[singularities]] behave like carrying singular [[curvature]], notably there are [[flat orbifolds]] (also "Euclidean orbifolds", i.e. Riemannian orbifolds with vanishing [[Riemann curvature]] away from the [[singularities]]) whose underlying [[topological spaces]] are [[n-spheres]] (see [below](#FlatCompact2DimensionalOrbifolds)).
 
 
 Key examples of flat orbifolds are global [[homotopy quotients]] $\mathbb{T}^n \sslash G$ of the [[n-torus]] $\mathbb{T}^n$ equipped with its canonical flat [[Riemannian metric]]. These flat orbifolds are called _toroidal orbifolds_.
+
+## Properties
+
+> under construction
+
+Ever flat orbifold whose underlying [[metric space]] is [[connected topological space|connected]] and [[complete metric space|complete]]) is a global quotient of [[Euclidean space]]/[[Cartesian space]] $\mathbb{R}^n$ 
+
+([Ratcliffe 06, 13.3.10](#Ratcliffe06))
 
 ## Examples
 
@@ -73,7 +81,11 @@ see _[[G2-orbifold]]_
 
 * Joseph Ernest Borzellino, _Riemannian Geometry of Orbifolds_, 1992 ([pdf 1](http://mathnet.kaist.ac.kr/mathnet/paper_file/California/Polytech/Borze/dis.pdf), [pdf 2](https://web.calpoly.edu/~jborzell/Publications/Publication%20PDFs/phd_thesis.pdf))
 
+* {#Ratcliffe06} John Ratcliffe, _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Springer 2006
+
+
 * Christian Lange, _Orbifolds from a metric viewpoint_ ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472))
+
 
 * {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
 
