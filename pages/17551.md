@@ -942,6 +942,10 @@ With this, (eq:Factorization) says that with $p_V$ also $p_{ \Sigma^V_G \mathbb{
 
 * [[Tom Bachmann]], [[Marc Hoyois]], remark 9.9 in _Norms in motivic homotopy theory_ ([arxiv:1711.03061](https://arxiv.org/abs/1711.03061))
 
+Relation to [[spectral Mackey functors]]:
+
+* {#Glasman15} [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized Arone-Ching theorem_ ([arXiv:1507.01976](https://arxiv.org/abs/1507.01976), [talk notes pdf](http://www-users.math.umn.edu/~sglasman/strattalk.pdf))
+
 
 [[!redirects geometric fixed point spectra]]
 
