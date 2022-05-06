@@ -50,6 +50,10 @@ On an axiomatization proposal to the notion of strong emergence between Lagrangi
 
 * [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards Axiomatization and General Results on Strong Emergence Phenomena Between Lagrangian Field Theories_, 2020, ([arXiv:2004.13144](https://arxiv.org/abs/2004.13144))
 
+A generalized and simplified version of the above work: 
+
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _An Axiomatization Proposal and a Global Existence Theorem for Strong Emergence Between Parameterized Lagrangian Field Theories_, 2020, ([arXiv:2009.09858](https://arxiv.org/abs/2009.09858)). Submitted.
+
 On a functorial extension of Feynman rules from Feynman graphs to structured hypergraphs.
 
 * [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Graph Reconstruction, Functorial Feynman Rules and Superposition Principles_, 2019, ([arXiv:1903.06284](https://arxiv.org/abs/1903.06284)). To be improved
@@ -87,7 +91,7 @@ Currently I am (co)advising four master students (joint [[Rodney Josué Biezuner
 
 * Mayk Alves de Andrade, _Modal Homotopy Type Theory on the Foundations of Physics_, started 2019/2
 
-* Daniel de Souza Plácido Teixeira, _to appear_, started 2020/1
+* Daniel de Souza Plácido Teixeira, _Higher Quantization_, started 2020/1
 
 * Pedro Brunialti Lima de Andrade, _Abstract Stable Homotopy Theory_, started 2020/1
 
