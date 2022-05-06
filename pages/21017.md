@@ -130,6 +130,15 @@ Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[lar
 
 * {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_, 2008 ([[GreevySwingle.pdf:file]])
 
+### For Chern-Simons theory
+
+Discussion of [['t Hooft double line notation]] for [[Chern-Simons theory]] (leading to [[Chern-Simons theory as topological string theory]]):
+
+* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_, Prog. Math. 133: 637-678, 1995 ([arXiv:hep-th/9207094](https://arxiv.org/abs/hep-th/9207094))
+
+* S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
+
+
 ### Open/closed string duality
 
 
