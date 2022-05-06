@@ -46,7 +46,7 @@ On [[equivariant elliptic cohomology]] and [[positive energy representations]] o
 * [[David Gepner]], _[[Homotopy topoi and equivariant elliptic cohomology]]_, University of Illinois at Urbana-Champaign, 2005 ([[GepnerElliptic05.pdf:file]])
 
 
-* [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
+* {#GepnerMeier20} [[David Gepner]], [[Lennart Meier]], _On equivariant topological modular forms_, ([arXiv:2004.10254](https://arxiv.org/abs/2004.10254))
 
 
 Relation to [[Kac-Weyl characters]] of [[loop group representations]] 
