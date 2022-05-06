@@ -6,6 +6,12 @@
 
 ## Selected writings
 
+On [[multi trace operators]] in [[AdS/CFT]]:
+
+* [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Multiple-Trace Operators and Non-Local String Theories_, JHEP 0108:006, 2001 ([arXiv:hep-th/0105309](https://arxiv.org/abs/hep-th/0105309))
+
+* [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Non-local string theories on $AdS_3$ times $S^3$ and stable non-supersymmetric backgrounds_, Phys. Rev. D65:106007, 2002 ([arXiv:hep-th/0112178](https://arxiv.org/abs/hep-th/0112178))
+
 On [[thermal AdS3]]/[[BTZ black holes]]:
 
 * [[Micha Berkooz]], Zohar Komargodski, Dori Reichmann, _Thermal $AdS_3$, BTZ and competing winding modes condensation_, JHEP 0712:020, 2007 ([arXiv:0706.0610](https://arxiv.org/abs/0706.0610))
