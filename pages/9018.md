@@ -364,6 +364,11 @@ Discussion of the [[cosmological constant]] in these models includes
 which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] 
 instantons might yield [[de Sitter spacetime]].
 
+Suggestion that [[higher curvature corrections]] allow [[de Sitter spacetime]] vacua:
+
+* Johan Blåbäck, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, _Constructing stable de Sitter in M-theory from higher curvature corrections_ ([arXiv:1902.04053](https://arxiv.org/abs/1902.04053))
+
+
 See also
 
 * {#BCHS18} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, Sakura Schafer-Nameki, _Higgs Bundles for M-theory on $G_2$-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
