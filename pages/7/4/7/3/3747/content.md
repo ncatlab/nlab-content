@@ -169,7 +169,11 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 
 *  [[Fred Richman]], Douglas Bridges, Peter Schuster; 1998; _A weak countable choice principle_; available from <http://math.fau.edu/richman/html/docs.htm>.
 
+On why Cauchy sequences with a modulus of convergence are sequentially Cauchy complete. 
+
 *  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; available from <http://math.fau.edu/richman/html/docs.htm>.
+
+On why the modulated Cauchy real numbers are not [[sequentially Cauchy complete]]
 
 * [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, [doi](https://doi.org/10.1016/j.entcs.2006.09.012)
  {#Lubarsky}
