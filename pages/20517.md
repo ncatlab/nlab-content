@@ -29,7 +29,7 @@ We review the definitions from [Perry-Schwarz 96](#PerrySchwarz96),
 for the [[worldvolume]] [[Lagrangian density]] of just the [[self-dual higher gauge field]] on a [[circle principal bundle]]-[[worldvolume]] for would-be [[target space]] being [[Minkowski spacetime]].
 In doing so, we translate to [[coordinate chart|coordinate]]-invariant [[Cartan calculus]]-formalism and generalized to [[KK-compactification]] on possibly non-[[trivial bundle|trivial]] [[circle principal bundle]]:
 
-#### Lagrangian
+#### The worldvolume geometry
 
 Let 
 
@@ -45,6 +45,7 @@ squares to $+1$. This allows to consider for a [[differential 3-form]]
 $$
   H \;\in\; \Omega^3\big(\Sigma^6\big)
 $$
+
 the condition that it be self-dual ([PS 96 (2)](#PerrySchwarz96))
 
 \[
@@ -55,6 +56,22 @@ the condition that it be self-dual ([PS 96 (2)](#PerrySchwarz96))
   H
   \,.
 \]
+
+We will assume in the following that $H$ is [[exact differential form]], hence that there exists a [[differential 2-form]]
+
+$$
+  B \in \Omega^2\big( \Sigma^6 \big)
+$$
+
+such that ([PS 96 (4)](#PerrySchwarz96))
+
+$$
+  H = d B
+  \,.
+$$
+
+
+#### The $S^1$-compactification
 
 Consider then on $\Sigma^6$ the structure of an 
 $S^1 = U(1)$-[[circle principal bundle|principal bundle]]
@@ -93,36 +110,6 @@ $$
 
 for the [[Lie derivative]] of [[differential forms]] along $v^5$, and make use of [[Cartan's magic formula]] expressing it as an [[anti-commutator]], as shown.
 
-
-
-
-With the notation ([PS 96 (5)](#PerrySchwarz96))
-
-\[
-  \label{DefOfCalF}
-  \mathcal{F}
-  \;\coloneqq\;
-  \iota_{v^5} H
-\]
-
-and ([PS 96 (6)](#PerrySchwarz96))
-
-\[
-  \label{DefOfTildeH}
-  \tilde H
-  \;\coloneqq\;
-  \iota_{v^5} \star H
-\]
-
-the self-duality condition (eq:SelfDualityIn6d)
-is equivalently ([PS 96 (9)](#PerrySchwarz96))
-
-\[
-  \label{SelfDualityIntermsOfcalF}
-  \mathcal{F}
-  \;=\;
-  \tilde H
-\]
 
 Next consider an [[Ehresmann connection]] on the $S^1$-bundle (eq:FibrationWorldvolume), hence a [[differential 1-form]]
 
@@ -175,20 +162,256 @@ $$
   \Omega^\bullet\big( \Sigma^6\big)
 $$
 
-Now suppose that there exists
+We require $v^5$ (eq:FiberVectorField) to be a [[spacelike]] [[isometry]]. This means that
+
+\[
+  \label{HodgeStarCommutingWithIsometryContraction}
+  \star \circ \iota_{v^5}
+  =
+  -
+  \theta^5 \wedge \circ \star
+  \;:\;
+  \Omega^3\big( \Sigma^6\big)
+  \longrightarrow
+  \Omega^4\big( \Sigma^6 \big)
+\]
+
+
+
+#### Horizontal and vertical components
+
+Set ([PS 96 (5)](#PerrySchwarz96))
+
+\[
+  \label{DefOfCalF}
+  \mathcal{F}
+  \;\coloneqq\;
+  \iota_{v^5} H
+\]
+
+and ([PS 96 (6)](#PerrySchwarz96))
+
+\[
+  \label{DefOfTildeH}
+  \tilde H
+  \;\coloneqq\;
+  \iota_{v^5} \star H
+\]
+
+With this notation the self-duality condition (eq:SelfDualityIn6d)
+is equivalently ([PS 96 (9)](#PerrySchwarz96), see (eq:EquivalentIncarnationsOfSelfDuality) below):
+
+\[
+  \label{SelfDualityIntermsOfcalF}
+  \mathcal{F}
+  \;=\;
+  \tilde H
+\]
+
+
+Defining moreover the [[vector potential]] ([PS 96 above (4)](#PerrySchwarz96))
+
+\[
+  \label{AField}
+  A
+  \;\coloneqq\;
+  -
+  \iota_{v^5} B
+\]
+
+we have
 
 $$
-  B \in \Omega^2\big( \Sigma^6 \big)
+  B
+  \;=\;
+  A \wedge \theta^5 
+  +
+  B^{\mathrm{hor}}
+  \,.
 $$
 
-such that ([PS 96 (4)](#PerrySchwarz96))
+Set also ([PS 96 above (4)](#PerrySchwarz96))
 
 $$
-  H = d B
+  F
+  \;\coloneqq\;
+  \big( d A \big)^{\mathrm{hor}}
 $$
 
+then ([PS 96 (5)](#PerrySchwarz96))
 
-Then Perry-Schwarz-Lagrangian is ([PS 96 (17)](#PerrySchwarz96))
+\[
+  \label{DecompositionOfCalF}
+  \begin{aligned}
+    \mathcal{F}
+    &\coloneqq
+    \iota_{v^5} H
+    \\
+    & =
+    \iota_{v^5} d B
+    \\
+    & =
+    - d \iota_{v^5} B + [\iota_{v^5}, d] B
+    \\
+    & =
+    d A + \mathcal{L}_5 B
+    \\
+    & =
+    F 
+    + \theta^5 \wedge \iota_{v^5} d A  
+    + \mathcal{L}_5 B^{\mathrm{hor}}
+    +
+    \underset{
+      = -\theta^5 \wedge \mathcal{L}_{v^5} A
+    }{ 
+      \underbrace{
+        \mathcal{L}_5 \theta^5 \wedge \iota_{v^5} B
+      }
+    }
+    \\
+    & 
+    = 
+    F 
+    + 
+    \mathcal{L}_{v^5} B^{\mathrm{hor}}
+  \end{aligned}
+\]
+
+where in the last step under the brace we used (eq:EhresmannConditions) and (eq:AField).
+
+Hence in terms of $F$ and $B^{\mathrm{hor}}$ the self-duality condition 
+(eq:SelfDualityIn6d), (eq:SelfDualityIntermsOfcalF)
+is equivalently expressed as on the right of the following
+
+\[
+  \label{SelfDualityDecomposition}
+  \big(
+    H = \star H
+  \big)
+  \;\Leftrightarrow\;
+  \big(
+    \widetilde H
+    \;=\;
+    F + \mathcal{L}_{v^5} B^{\mathrm{hor}}
+  \big)
+\]
+
+To make this fully explicit, notice that we have the following chain of logical equivalences:
+
+\[
+  \label{EquivalentIncarnationsOfSelfDuality}
+  \begin{aligned}
+    \big(
+      H = \star H
+    \big)
+    & \Leftrightarrow
+    \left(
+      \array{
+         &
+         \phantom{\text{and}\;}
+         \iota_{v_5} H  = \iota_{v^5} \star H
+         \\
+         &
+         \text{and}\;
+         \theta^5 \wedge H = \theta^5 \wedge \star H
+      }
+    \right)
+    \\
+    & \Leftrightarrow
+    \big(
+      \iota_{v^5} H = \iota_{v^5} \star H
+    \big)
+    \\
+    &\Leftrightarrow
+    \big(
+      \mathcal{F}
+      \;=\;
+      \widetilde H
+    \big)
+    \\
+    &\Leftrightarrow
+    \big(
+      F + \mathcal{L}_{v^5} B^{\mathrm{hor}}
+      \;=\;
+      \widetilde H
+    \big)
+  \end{aligned}
+\]
+
+Here the first step is decomposition of the self-duality equation into components, the second step follows by (eq:HodgeStarCommutingWithIsometryContraction) and the third step invokes the definitions (eq:DefOfCalF) and (eq:DefOfTildeH) and the fourth step the equality (eq:DecompositionOfCalF).
+
+
+#### Reduction to 5d Maxwell theory
+
+Consider the special case that 
+
+$$
+  \mathcal{L}_{v^5} B = 0
+  \,,
+$$
+
+which corresponds to keeping only the 0-mode under [[KK-compactification]] along the circle fiber.
+
+Then (eq:DecompositionOfCalF) becomes
+
+$$
+  \mathcal{F} = F
+$$
+
+and so the self-duality condition (eq:SelfDualityDecomposition) now becomes
+ 
+$$
+  \iota_{v^5} \star H \;=\; F
+  \,.
+$$
+
+which means that 
+
+$$
+  H = F \wedge \theta^5 + \star_5 F
+$$
+
+> (relative sign?)
+
+Since $d H = d \circ d B = 0$, this implies
+
+$$
+  \begin{aligned}
+    \big( 
+      d H = 0
+    \big)
+    & \Leftrightarrow
+    \Big(
+      d
+      \big(
+        F \wedge \theta^5 
+        +
+        \star_5 F
+      \big)
+      = 0
+    \Big)
+    \\
+    & \Leftrightarrow
+    \left(
+    \left\{
+      \array{
+        d_5 F & = 0
+        \\
+        d_5 \star_5 F & = 0
+      }
+    \right.
+    \right)
+  \end{aligned}
+$$
+
+These are of course [[Maxwell's equations]] on $\Sigma^5$.
+
+([PS 96 above (16)](#PerrySchwarz96))
+
+#### Lagrangian
+
+
+The Perry-Schwarz-Lagrangian is ([PS 96 (17)](#PerrySchwarz96))
 
 \[
   \label{CartanCalculusPerrySchwarzLagrangian}
@@ -206,21 +429,8 @@ Then Perry-Schwarz-Lagrangian is ([PS 96 (17)](#PerrySchwarz96))
   \tilde H
 \]
 
-Now we ask $v^5$ (eq:FiberVectorField) to be a [[spacelike]] [[isometry]]. This means that
 
-\[
-  \label{HodgeStarCommutingWithIsometryContraction}
-  \star \circ \iota_{v^5}
-  =
-  -
-  \theta^5 \wedge \circ \star
-  \;:\;
-  \Omega^3\big( \Sigma^6\big)
-  \longrightarrow
-  \Omega^4\big( \Sigma^6 \big)
-\]
-
-and hence (eq:CartanCalculusPerrySchwarzLagrangian) becomes
+With (eq:HodgeStarCommutingWithIsometryContraction) the Lagrangian  (eq:CartanCalculusPerrySchwarzLagrangian) becomes
 
 \[
   \label{LagrangianUsingIsometry}
@@ -326,7 +536,9 @@ $$
       \mathcal{L}_{v^5} B^{\mathrm{hor}}
     \big)
     \Big)
-    \wedge \delta B
+    \wedge
+    (\delta B)
+    \wedge \theta^5
     + 
     d(\cdots)
   \end{aligned}
@@ -336,6 +548,7 @@ to be ([PS 96 (16)](#PerrySchwarz96)).
 
 \[
   \label{EquationsOfMotion}
+  \theta^5 \wedge 
   d 
   \big(
     \iota_{v^5} \star H
@@ -347,198 +560,11 @@ to be ([PS 96 (16)](#PerrySchwarz96)).
   \,.
 \]
 
+Notice that the self-duality condition (eq:SelfDualityIn6d) on $H$ _implies_ this equation of motion: This is manifest in the form  $\iota_{v^5} \star H - \mathcal{L}_{v^5} B^{\mathrm{hor}} = F$ (eq:SelfDualityDecomposition), which is closed since, in the present setup, it is actually exact.
 
-#### Horizontal and vertical components
+This way the Perry-Schwarz equation of motion implies at least an aspect of the self-duality condition. 
 
-Setting ([PS 96 above (4)](#PerrySchwarz96))
-
-\[
-  \label{AField}
-  A
-  \;\coloneqq\;
-  -
-  \iota_{v^5} B
-\]
-
-we have
-
-$$
-  B
-  \;=\;
-  A \wedge \theta^5 
-  +
-  B^{\mathrm{hor}}
-$$
-
-Set also ([PS 96 above (4)](#PerrySchwarz96))
-
-$$
-  F
-  \;\coloneqq\;
-  \big( d A \big)^{\mathrm{hor}}
-$$
-
-then ([PS 96 (5)](#PerrySchwarz96))
-
-\[
-  \label{DecompositionOfCalF}
-  \begin{aligned}
-    \mathcal{F}
-    &\coloneqq
-    \iota_{v^5} H
-    \\
-    & =
-    \iota_{v^5} d B
-    \\
-    & =
-    - d \iota_{v^5} B + [\iota_{v^5}, d] B
-    \\
-    & =
-    d A + \mathcal{L}_5 B
-    \\
-    & =
-    F 
-    + \theta^5 \wedge \iota_{v^5} d A  
-    + \mathcal{L}_5 B^{\mathrm{hor}}
-    +
-    \underset{
-      = -\theta^5 \wedge \mathcal{L}_{v^5} A
-    }{ 
-      \underbrace{
-        \mathcal{L}_5 \theta^5 \wedge \iota_{v^5} B
-      }
-    }
-    \\
-    & 
-    = 
-    F 
-    + 
-    \mathcal{L}_{v^5} B^{\mathrm{hor}}
-  \end{aligned}
-\]
-where in the last step under the brace we used 
-(eq:EhresmannConditions) and (eq:AField).
-
-Hence in terms of $F$ and $B^{\mathrm{hor}}$ the self-duality condition 
-(eq:SelfDualityIn6d), (eq:SelfDualityIntermsOfcalF)
-is equivalently expressed as on the right of the following
-
-\[
-  \label{SelfDualityDecomposition}
-  \big(
-    H = \star H
-  \big)
-  \;\Leftrightarrow\;
-  \big(
-    \widetilde H
-    \;=\;
-    F + \mathcal{L}_{v^5} B^{\mathrm{hor}}
-  \big)
-\]
-
-To make this fully explicit, notice that we have the following chain of logical equivalences:
-
-\[
-  \begin{aligned}
-    \big(
-      H = \star H
-    \big)
-    & \Leftrightarrow
-    \left(
-      \array{
-         &
-         \phantom{\text{and}\;}
-         \iota_{v_5} H  = \iota_{v^5} \star H
-         \\
-         &
-         \text{and}\;
-         \theta^5 \wedge H = \theta^5 \wedge \star H
-      }
-    \right)
-    \\
-    & \Leftrightarrow
-    \big(
-      \iota_{v^5} H = \iota_{v^5} \star H
-    \big)
-    \\
-    &\Leftrightarrow
-    \big(
-      F + \mathcal{L}_{v^5} B^{\mathrm{hor}}
-      \;=\;
-      \widetilde H
-    \big)
-  \end{aligned}
-\]
-
-Here the first step is decomposition of the self-duality equation into components, the second step follows by (eq:HodgeStarCommutingWithIsometryContraction) and the third step invokes the definitions (eq:DefOfCalF) and (eq:DefOfTildeH) and the equality (eq:DecompositionOfCalF).
-
-
-#### Reduction to 5d Maxwell theory
-
-Consider the special case that 
-
-$$
-  \mathcal{L}_{v^5} B = 0
-  \,,
-$$
-
-which corresponds to keeping only the 0-mode under [[KK-compactification]] along the circle fiber.
-
-Then (eq:DecompositionOfCalF) becomes
-
-$$
-  \mathcal{F} = F
-$$
-
-and so the self-duality condition (eq:SelfDualityDecomposition) now becomes
- 
-$$
-  \iota_{v^5} \star H \;=\; F
-  \,.
-$$
-
-which means that 
-
-$$
-  H = F \wedge \theta^5 + \star_5 F
-$$
-
-> (relative sign?)
-
-Since $d H = d \circ d B = 0$, this implies
-
-$$
-  \begin{aligned}
-    \big( 
-      d H = 0
-    \big)
-    & \Leftrightarrow
-    \Big(
-      d
-      \big(
-        F \wedge \theta^5 
-        +
-        \star_5 F
-      \big)
-      = 0
-    \Big)
-    \\
-    & \Leftrightarrow
-    \left(
-    \left\{
-      \array{
-        d_5 F & = 0
-        \\
-        d_5 \star_5 F & = 0
-      }
-    \right.
-    \right)
-  \end{aligned}
-$$
-
-These are of course [[Maxwell's equations]] on $\Sigma^5$.
-
-([PS 96 above (16)](#PerrySchwarz96))
+> How much, if anything, is missing for an actual equivalence?
 
 ### For the full M5-brane sigma model
 
