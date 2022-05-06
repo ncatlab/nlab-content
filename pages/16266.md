@@ -103,6 +103,11 @@ if it admits small limits and filtered colimits,
 and small limits distribute over filtered colimits,
 i.e., the functor $colim: Ind(C)\to C$ is continuous.
 
+According to Theorem 2.1 in \cite{ARVloc},
+a category is precontinuous if and only if it has small [[limits]]
+and [[filtered colimits]], [[filtered colimits]] commute with finite [[limits]],
+and small [[products]] distribute over [[filtered colimits]].
+
 In particular, any [[locally finitely presentable category]], equivalently the category of algebras
 over some finitary [[essentially algebraic theory]],
 is precontinuous.
@@ -164,6 +169,9 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 * {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], [_A classification of accessible categories_](http://www.sciencedirect.com/science/article/pii/S0022404902001263) JPAA 175, 2002.
 
 * {#AR} [[Jiří Adámek]], [[Jiří Rosický]], [_Algebra and local presentability: how algebraic are they? (A survey)_](https://doi.org/10.1515/tmj-2017-0113).
+
+* {#ARVloc} [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]],
+[_On Algebraically Exact Categories and Essential Localizations of Varieties_](https://doi.org/10.1006/jabr.2000.8577)
 
 [[!redirects distributivity of limits and colimits]]
 [[!redirects distributivity of colimits over limits]]
