@@ -442,6 +442,7 @@ A newer observation that received much more attention is
 
 * String Phenomenology 2018 ([home page](http://sp18.fuw.edu.pl/))
 
+* String Phenomenology 2019 ([home page](https://indico.cern.ch/event/782251/))
 
 
 ### String cosmic inflation
