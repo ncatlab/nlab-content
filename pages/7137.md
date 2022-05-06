@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -43,7 +42,7 @@ See also
 [[!redirects local langlands program]]
 
 [[!redirects local Langlands duality]]
-[[!redirects local Langlands correspondence]]
+[[!redirects local Langlands dualities]]
 
 [[!redirects local Langlands correspondence]]
 [[!redirects local Langlands correspondences]]
