@@ -369,6 +369,8 @@ Using this in the above statements of the K&#252;nneth theorem yields directly t
 
 * [[Eilenberg-Zilber theorem]]
 
+* [[universal coefficient theorem]]
+
 ## References
 
 ### In ordinary (co)homology
