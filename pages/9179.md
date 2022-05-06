@@ -122,6 +122,9 @@ See also
 
 * Shao-Feng Ge, Jing-Yu Zhu, _The Normal Neutrino Mass Hierarchy is Exactly What We Need!_ ([arXiv:1910.02666](https://arxiv.org/abs/1910.02666))
 
+* S. Bilenky, _Neutrinos: Majorana or Dirac?_ ([arXiv:2008.02110](https://arxiv.org/abs/2008.02110))
+
+
 More on this in relation to [[GUT]] models:
 
 * {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf))
