@@ -161,6 +161,8 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 * [[quantum logic]]
 
+* [[Bohr topos]]
+
 
 ## References
 
