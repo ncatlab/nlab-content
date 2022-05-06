@@ -27,10 +27,11 @@ The _Dwyer-Wilkerson space_ $G_3$ ([Dwyer-Wilkerson 93](#DwyerWilkerson93)) is a
 | $DI(n)=$ | [[trivial group|1]] |  [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
 |          | = Aut(R) | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |   |
 
-whence the notation $G_3$ (suggested in [Møller 95, p. 5](#Moller95)).
+whence the notation "$G_3$" (suggested in [Møller 95, p. 5](#Moller95)).
 
 While $G_3$ is not a [[compact Lie group]], it is a [[p-compact group|2-compact group]], hence a "[[homotopy Lie group]]" (see [below](#AsA2CompactGroup)).
 
+The above progression starting with the [[automorphism groups]] of [[real numbers|real]] [[normed division algebras]] suggests that $G_3$ has a geometric or algebraic relevance in a context of [[division algebra and supersymmetry]]. This remains open, but there are speculations, see [below](#RelationToPctomionic3Times3HermitianMatrices).
 
 
 ## Properties
@@ -55,7 +56,7 @@ As such, $G_3$ is the last in a series of [[∞-groups]] whose [[classifying spa
 
 
 
-This means in particular that the cohomology is an [[exterior algebra]] on generators of degree 7, 11, 13, 14 so it's (2-locally) a [[Poincare duality space]] of dimension 45.
+This means in particular that the cohomology is an [[exterior algebra]] on generators of degree 7, 11, 13, 14 so it's (2-locally) a [[Poincaré duality space]] of [[dimension]] 45.
 
 (...)
 
@@ -94,9 +95,48 @@ The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathb
 
 ([Dwyer-Wilkerson 93, Theorem 1.8](#DwyerWilkerson93))
 
+
 ### Relation to the Conway group, $Co_3$
 
 $B G_3$ receives a map from $B Co_3$, the [[delooping]] of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)). This continues a pattern from $B A_5 \to B SO(3)$ and $B M_{12} \to B G_2$, where $M_{12}$ is a [[Mathieu group]].
+
+
+### Relation to octonionic $3 \times 3$ matrix algebra?
+ {#RelationToPctomionic3Times3HermitianMatrices}
+
+Since, by the [above](#Cohomology), $G_3$ is (2-locally) a [[Poincaré duality space]] of [[dimension]] 45, there has been speculation that it might be related to the $8 + 2 \cdot 8 + 3 \cdot 7 = 45$-dimensional algebra 
+
+$$
+  Mat^{skher}_{3 \times 3}(\mathbb{O})
+$$
+
+of skew-hermitian [[matrices]] over the [[octonions]] ([Solomon-Stancu 08, p. 175](#SolomonStancu08), [Wilson 09, slide 94](#Wilson09)).
+
+Incidentally, the algebra of $3\times 3$ [[hermitian matrices]] (as opposed to skew-hermitian) over the octonions 
+
+$$
+  Mat^{her}_{3 \times 3}(\mathbb{O})
+  \;
+  \simeq_{\mathbb{R}}
+  \;
+  \underset{
+    dim_{\mathbb{R}} = 26
+  }{
+  \underbrace{
+    \mathbb{R}^{9,1}
+      \oplus
+    \mathbf{16}
+  }}
+  \oplus
+  \mathbb{R}
+  \,.
+$$
+
+
+is the [[exceptional Jordan algebra]]  called the _[[Albert algebra]]_ (see [there](Albert+algebra#RelationTo10dSuperSpacetime)).
+ 
+
+
 
 ## Related concepts
 
@@ -130,7 +170,10 @@ See also
 
 * {#Benson94} David Benson, _Conway’s group $Co_3$ and the Dickson invariants_, Manuscripta Math (1994) 85: 177.
 
+
 Speculation on possible geometric roles of $G_3$:
+
+* {#SolomonStancu08} Eon Solomon, Radu Stancu, p. 175 of: _Conjectures on finite and p-local groups_, L'Enseignement Mathématique (2) 54 (2008) 171-176 ([[SolomonStancuConjectures.pdf:file]], [doi:10.5169/seals-109929](http://doi.org/10.5169/seals-109929))
 
 * {#Wilson09} [[Robert A. Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
 
