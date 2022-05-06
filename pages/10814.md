@@ -5,10 +5,6 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Duality
 +--{: .hide}
 [[!include duality - contents]]
@@ -25,8 +21,8 @@
 
 The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-folds]] ([[doubled geometries]]) hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
 
-## T-duality-covariant formalism 
-### Para-hermitian geometry
+## Proposal of formalization in para-Hermitian geometry
+### Doubled space as para-Hermitian manifold
 The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([I.Vaisman 2012](#Vaisman)), then by David Svoboda ([D.Svoboda 2018](#Svoboda)).
 
 \begin{defn} An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(T M)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. \end{defn}
@@ -158,16 +154,28 @@ Heuristically, in geometrical quantization we make a choice of a couple of lagra
 
 Similarly in DFT, when $M$ is an (integrable) para-hermitian manifold we make a choice of a couple of lagrangian foliations $\mathcal{F}_\pm$ to "select" a physical spacetime $\mathcal{F}_+$ from the whole T-duality-covariant theory on $M$.
 
+## Relation with non-geometry
+
+Double field theory is supposed to formalize the [[non-geometric backgrounds]] of [[type II string theory]].
+
+### Examples
+
+* [[T-fold]],
+
+* [[Exotic branes]] of [[type II string theory]].
+
 ## Related concepts
 
-* [[doubled geometry]], [[generalized geometry]], [[exceptional generalized geometry]]
-
-* [[exceptional field theory]]
+* [[doubled geometry]], [[generalized geometry]]
 
 * [[T-fold]], [[non-geometry]]
 
+* [[exceptional field theory]], [[exceptional generalized geometry]]
+
 
 ## References
+
+### Foundational papers
 
 The idea of "doubled spacetime geometry" is a variant of the idea of [[T-folds]], due to
 
@@ -177,19 +185,7 @@ The coinage of the term "double field theory" for field theory on such doubled g
 
 * [[Chris Hull]], [[Barton Zwiebach]], _Double Field Theory_, JHEP 0909:099,2009 ([arXiv:0904.4664](http://arxiv.org/abs/0904.4664))
 
-Discussion in the context of [[L-infinity algebra]] includes
-
-* [[Andreas Deser]], [[Jim Stasheff]], _Even symplectic supermanifolds and double field theory_, Communications in Mathematical Physics November 2015, Volume 339, Issue 3, pp 1003-1020 ([arXiv:1406.3601](http://arxiv.org/abs/1406.3601))
-
-Comprehensive discussion in [[higher differential geometry]]:
-
-* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
-
-  (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
-
-Discussion of an extended version of Riemannian geometry suitable for the description of double field theory
-
-* [[Andreas Deser]], [[Christian Saemann]], _Extended Riemannian Geometry I: Local Double Field Theory_, ([arXiv:1611.02772](https://arxiv.org/abs/1611.02772))
+### Formalization in para-Hermitian geometry
 
 Discussion about para-Hermitian formalism started in
 
@@ -198,3 +194,19 @@ Discussion about para-Hermitian formalism started in
 Para-Hermitian formalism further developed and generalized in
 
 * {#Svoboda} David Svoboda, _Algebroid structures on para-Hermitian manifolds_ Journal of Mathematical Physics 59, 122302 (2018)  ([arxiv:1802.08180](https://arxiv.org/abs/1802.08180))
+
+### Formalization in higher geometry
+
+Discussion in the context of [[L-infinity algebra]] includes
+
+* [[Andreas Deser]], [[Jim Stasheff]], _Even symplectic supermanifolds and double field theory_, Communications in Mathematical Physics November 2015, Volume 339, Issue 3, pp 1003-1020 ([arXiv:1406.3601](http://arxiv.org/abs/1406.3601))
+
+Discussion of an extended version of Riemannian geometry suitable for the description of double field theory
+
+* [[Andreas Deser]], [[Christian Saemann]], _Extended Riemannian Geometry I: Local Double Field Theory_, ([arXiv:1611.02772](https://arxiv.org/abs/1611.02772))
+
+Comprehensive discussion in [[higher differential geometry]]:
+
+* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
+
+  (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
