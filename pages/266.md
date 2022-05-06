@@ -603,6 +603,50 @@ In some 2-categories such as $Cat$, both definitions agree; but in others they d
 As a concrete example, let $V=Cat$, so that $V Cat = 2 Cat$; then comma objects are not informative enough because they "don't see the 2-cells".  In even more specificity, let $B$ be the [[walking]] 2-cell and $M$ the walking pair of parallel 1-morphisms, with $f:1\to B$ and $g:1\to M$ the inclusions of the common domain of the parallel 1-morphisms; then the equipment-theoretic-pointwise $Lan_f g$ is constant at the domain object, whereas the comma-object-pointwise $Lan_f g$ does not exist.  See [(Roald, Example 2.24)](#Roald13) for details.
 
 
+## Existence
+
+The following reproduces a [MathOverflow answer](https://mathoverflow.net/questions/365947/when-size-matters-in-category-theory-for-the-working-mathematician/365951#365951) by [[Ivan Di Liberti]]:
+
+\begin{lemma}
+(Kan).
+Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a span where $\mathsf{A}$ is small and $\mathsf{C}$ is (small) cocomplete. The the left Kan extension $\mathsf{lan}_f g$ exists.
+\end{lemma}
+
+Kan extensions are a useful tool in everyday practice, with applications in many different topics of category theory. In this lemma (which is one of the most used in this topic) the set-theoretic issue is far from being hidden: **$\mathsf{A}$ needs to be small (with respect to **Ob**$\mathsf{C})$!** There is no chance that the lemma is true when $\mathsf{A}$ is a large category. Indeed since colimits can be computed via Kan extensions, the lemma would imply that every (small) cocomplete category is large cocomplete, which is not allowed because [cocomplete small categories are posets]. Also, there is no chance to solve the problem by saying: *well, let's just consider $\mathsf{C}$ to be large-cocomplete*, again because [cocomplete small categories are posets].
+
+This problem is hard to avoid because the size of the categories of our interest is *as a fact* always larger than the size of their inhabitants (this just means that most of the time **Ob**$\mathsf{C}$ is a proper class, as big as the size of the enrichment).
+
+Notice that the Kan extension problem **recovers the Adjoint functor theorem one,** because adjoints are computed via Kan extensions of identities of large categories. Indeed, in that case, the solution set condition is precisely what is needed in order to cut down the size of some colimits that otherwise would be too large to compute, as can be synthesized by the sharp version of the Kan lemma.
+
+\begin{lemma}
+**Sharp Kan lemma.**
+Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a span where $\mathsf{B}(f-,b)$ is a is small presheaf for every $b \in \mathsf{B}$ and $\mathsf{C}$ is (small) cocomplete. Then the left Kan extension $\mathsf{lan}_f g$ exists.
+\end{lemma}
+
+Indeed this lemma allows $\mathsf{A}$ to be large, but we must pay a tribute to its presheaf category: $f$ needs to be somehow *locally small* (with respect to **Ob**$\mathsf{C}$).
+
+\begin{lemma}
+**Kan lemma Fortissimo.**
+Let $ \mathsf{A} \stackrel{f}{\to} \mathsf{B} $ be a functor. The following are equivalent:
+
+* for every $g :\mathsf{A} \to \mathsf{C}$ where $\mathsf{C}$ is a small-cocomplete category, $\mathsf{lan}_f g$ exists.
+* $\mathsf{lan}_f y$ exists, where $y$ is the Yoneda embedding in the category of small presheaves $y: \mathsf{A} \to \mathcal{P}(\mathsf{A})$.
+* $\mathsf{B}(f-,b)$ is a is small presheaf for every $b \in \mathsf{B}$.
+
+\end{lemma}
+
+Even unconsciously, the previous discussion is one of the reasons of the popularity of locally presentable categories. Indeed, having a dense generator is a good compromise between *generality and tameness*. As an evidence of this, in the context of accessible categories the sharp Kan lemma can be simplified.
+
+\begin{lemma}
+**Tame Kan lemma.**
+Let $\mathsf{B} \stackrel{f}{\leftarrow} \mathsf{A} \stackrel{g}{\to} \mathsf{C}$ be a span of accessible categories, where $f$ is an accessible functor and $\mathsf{C}$ is (small) cocomplete. Then the left Kan extension $\mathsf{lan}_f g$ exists.
+\end{lemma}
+
+*References for Sharp.* I am not aware of a reference for this result. It can follow from a careful analysis of **Prop. A.7** in my paper **Codensity: Isbell duality, pro-objects, compactness and accessibility**. The structure of the proof remains the same, presheaves must be replaced by small presheaves.
+
+*References for Tame.* This is an exercise, it can follow directly from the sharp Kan lemma, but it's enough to properly combine the usual Kan lemma, **Prop A.1&2** of the above-mentioned paper, and the fact that accessible functors have arity.
+
+
 ## Properties
   {#Properties}
 
