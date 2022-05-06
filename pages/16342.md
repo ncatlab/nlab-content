@@ -204,6 +204,21 @@ A commutative monoid in any one of these three categories is equivalently a [[co
 
 =--
 
++-- {: .num_example}
+###### Example
+**(in a cocartesian monoidal category)**
+
+Every object $A$ in a [[cocartesian monoidal category]] $C$ becomes a commutative monoid in a unique way: the multiplication must be the [[fold map]] $\nabla \colon A + A \to A$, and the counit must be the unique map $! \colon 0 \to A$.  Similarly every morphism in $C$ becomes a morphism of commutative monoid objects, so the category of commutative monoid objects in $C$ is isomorphic to $C$.
+
+=--
+
++-- {: .num_example}
+###### Example
+**(in $CommMon$)**
+
+Since the category $CommMon$ of commutative monoids (in $Set$) is cocartesian, the category of commutative monoids in $(CommMon,+)$ is again $CommMon$.   Finite coproducts of commutative monoids are also finite products, so the category of commutative monoids in $(CommMon,\times)$ is also $CommMon$.
+
+=--
 
 
 
