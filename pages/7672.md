@@ -550,6 +550,8 @@ Textbook accounts:
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX 6.3 of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
 
+* [[Dai Tamaki]], [[Akira Kono]], Section 4.4 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
 
 Lecture notes:
 
@@ -562,7 +564,7 @@ Lecture notes:
 
 * Arpon Raksit, _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf))
 
-* {#Westerland14} [[Craig Westerland]], _Views on the J-homomorphism_ MSRI talk, 2014 ([recording](https://mathinstitutes.org/videos/videos/1464), [pdf](https://docs.google.com/viewer?url=https://www.msri.org/workshops/685/schedules/17895/documents/1978/assets/20102), [[WesterlandJHomomorphism.pdf:file]])
+* {#Westerland14} [[Craig Westerland]], _Views on the J-homomorphism_, MSRI talk, 2014 ([recording](https://mathinstitutes.org/videos/videos/1464), [pdf](https://docs.google.com/viewer?url=https://www.msri.org/workshops/685/schedules/17895/documents/1978/assets/20102), [[WesterlandJHomomorphism.pdf:file]])
 
 * [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
 
