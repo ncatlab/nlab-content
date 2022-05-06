@@ -334,7 +334,7 @@ Textbooks and lecture notes include
 
 * Sébastien Racanière, _Lecture on Equivariant Cohomology_, 2004 ([[RacaniereEquivariant04.pdf:file]])
 
-For a brief modern surves see also the first three sections of
+For a brief modern survey see also the first three sections of
 
 * [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
@@ -342,6 +342,12 @@ For a brief modern surves see also the first three sections of
 
 
 * blog on [Localization techniques in Equivariant Cohomology](http://www.aimath.org/wiki/localization/index.php/Main_Page)
+
+Discussion of equivariant versions of [[differential cohomology]] is in 
+
+* Andreas Kübel, [[Andreas Thom]], _Equivariant Differential Cohomology_, Transactions of the American Mathematical Society (2018) ([arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
+
+See also at _[[equivariant de Rham cohomology]]_.
 
 ### In complex oriented generalized cohomology theory
  {#InComplexOrientedGeneralizedCohomologyTheory}
