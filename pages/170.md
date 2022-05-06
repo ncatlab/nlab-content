@@ -77,6 +77,8 @@ There is at least evidence that there is a continuous path in the space of 2-spe
 
 * [[D-brane geometry]]
 
+* [[automorphism of a 2-spectral triple]]
+
 ## References
   {#References}
 
