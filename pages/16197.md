@@ -129,6 +129,7 @@ Discussion of [[eternal inflation]] in Starobinsky-type models
 
 
 ### Embedding into supergravity
+ {#ReferencesEmbeddingIntoSupergravity}
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
 
@@ -203,8 +204,9 @@ and is further developed in the following articles:
 * {#ENOV19} [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy_, Phys. Rev. D 100, 025009 (2019) ([arXiv:1903.05267](https://arxiv.org/abs/1903.05267), [doi:10.1103/PhysRevD.100.025009](https://doi.org/10.1103/PhysRevD.100.025009))
 
 ### Embedding into 11d supergravity
+ {#ReferencesEmbeddingInto11dSupergravity}
 
-Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its [[higher curvature corrections]] included (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is in
+Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its [[higher curvature corrections]] included (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)):
 
 * [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
 
