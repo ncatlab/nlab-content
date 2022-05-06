@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _QED project_ was a project -- or at least a manifesto for a project, see [below](TheQED) -- for the formalization of large parts of [[mathematics]] in formal language supported by [[proof assistants]].
+The _QED project_ was a project -- or at least a manifesto for a project, see [below](TheQED) -- for the formalization of large parts of [[mathematics]] ([[formal proof]]) in formal language supported by [[proof assistants]].
 
 * [The QED Project Webpage](http://mizar.org/qed/)
 
@@ -208,10 +208,16 @@ mathematicians to analyze, perhaps statistically, the whole structure
 of the mathematics, to discover new trends, to forecast developments
 and so on.
 
+## Related projects
+
+* [[Xena project]]
+
+* [[UniMath project]]
+
+* [[ForMath project]]
+
 
 ## Related entries
-
-* [[ForMath]]
 
 * [[formal proof]]
 
@@ -222,3 +228,5 @@ and so on.
 * [Wikipedia article](http://en.wikipedia.org/wiki/QED_manifesto)
 
 * {#Wiedijk07} [[Freek Wiedijk]], _The QED Manifesto Revisited_, 2007 ([pdf](http://mizar.org/trybulec65/8.pdf))
+
+[[!redirects The QED project]]
