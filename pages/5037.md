@@ -146,7 +146,7 @@ For an interval-based approach see
 
 * {#Venema91} Yde Venema, _A modal logic for chopping intervals_. Journal of Logic and Computation, 1(4), pp. 453–476, 1991.
 
-For a termporal type theory see
+For a temporal type theory see
 
 * {#SchSpi17} Patrick Schultz, David Spivak, _Temporal Type Theory: A topos-theoretic approach to systems and behavior_, ([arXiv:1710.10258](https://arxiv.org/abs/1710.10258))
 
