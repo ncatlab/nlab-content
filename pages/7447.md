@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _regular 2-catory_ is the analog in [[2-category theory]] of the notion of _[[regular category]]_ in [[category theory]].
+The notion of _regular 2-category_ is the analog in [[2-category theory]] of the notion of _[[regular category]]_ in [[category theory]].
 
 ## Definition
 
