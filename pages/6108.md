@@ -64,28 +64,33 @@ A [[brane]] for a LG model is given by a [[matrix factorization]] of its superpo
 
 ## References
 
-### General
+### In superconductivity
 
-Original articles are
+Discussion as a model for [[superconductors]]:
+
+Review
+
+* {#Chapman00} S. J. Chapman, Section 2 of: _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
+
+* {#Timm20} Carsten Timm, Section 6 of: _Theory of Superconductivity_, 2020 ([pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en))
+
+### In string theory
+
+Discussion as a [[supersymmetry|supersymmetric]] [[sigma model]] in [[string theory]] [[KK-compactification|on]] [[Calabi-Yau manifolds]]:
 
 * {#VafaWarner89} [[Cumrun Vafa]], [[Nicholas Warner]], _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51 ([doi:10.1016/0370-2693(89)90473-5](https://doi.org/10.1016/0370-2693%2889%2990473-5))
 
-* [[Brian Greene]], [[Cumrun Vafa]], _Calabi--Yau Manifolds and Renormalization Group Flows_, Nucl.Phys. B324 (1989) 371
+* [[Brian Greene]], [[Cumrun Vafa]], _Calabi--Yau Manifolds and Renormalization Group Flows_, Nucl.Phys. B324 (1989) 371 (<a href="https://doi.org/10.1016/0550-3213(89)90471-9">doi:10.1016/0550-3213(89)90471-9</a>)
 
 * [[Edward Witten]], _Phases of $N=2$ Theories In Two Dimensions_, Nucl.Phys.B 403:159--222, 1993 ([arXiv:hep-th/9301042](http://arxiv.org/abs/hep-th/9301042))
 
-Lecture notes include
+Lecture notes:
 
-* [[Edward Witten]], _Dynamical aspects of QFT_, Lecture 15: _The Landau--Ginzburg description of N=2 minimal models; Quantum cohomology and K&#228;hler manifolds_,  in Part IV of _[[Quantum Fields and Strings]]_.
-
-
-
-[[!include elliptic genera as partition functions -- references]]
+* [[Edward Witten]], _Dynamical aspects of QFT_, Lecture 15: _The Landau--Ginzburg description of $N=2$ minimal models; Quantum cohomology and K&#228;hler manifolds_,  in Part IV of _[[Quantum Fields and Strings]]_.
 
 
 
-
-### Branes
+#### Branes
 
 The [[branes]] of the LG-model are discussed for instance in
 
@@ -103,7 +108,7 @@ Inc., Boston, MA, 2009 ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/050
 * Andrei Caldararu, Junwu Tu, _Curved $A_\infty$-algebras and Landau--Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
  {#CaldararuTu}
 
-### Defects
+#### Defects
 
 General defects of B-twisted affine LG models were first discussed in
 
@@ -127,7 +132,7 @@ A relation to [[linear logic]] and the [[geometry of interaction]] is in
 
 * {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
 
-### TCFT formulation
+#### TCFT formulation
 
 Discussions of topological Landau--Ginzburg [[B-models]] explicitly as open [[TCFT]]s (aka open topological string theories) are in
 
@@ -139,9 +144,9 @@ Discussions of topological Landau--Ginzburg [[B-models]] explicitly as open [[TC
 
 
 
-### Relation to Solid state physics
+[[!include elliptic genera as partition functions -- references]]
 
-(...)
+
 
 
 [[!redirects LG model]]
