@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -60,7 +59,11 @@ In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux
 
 \linebreak
 
-**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination ([Duff-Stelle 91 (43)](M2-brane#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](M2-brane#BaggerLambertMukhiPapageorgakis13)):
+**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination, also known as the _[[Page charge]]_ (due to [Page 83 (8)](M2-brane#Page83), [Duff-Stelle 91 (43)](M2-brane#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](M2-brane#BaggerLambertMukhiPapageorgakis13)):
+
+
+
+
 
 \[
   \label{FirstCorrectionToG7}
@@ -146,7 +149,7 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 
 * {#FreedMoore04} [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_, Communications in Mathematical Physics, Volume 263, Number 1, 89-132, ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7))
 
-* {#Moore04} [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_ ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
+* {#Moore04} [[Greg Moore]], _Anomalies, Gauss laws, and Page charges in M-theory_, Comptes Rendus Physique 6 (2005) 251-259 ([arXiv:hep-th/0409158](http://arxiv.org/abs/hep-th/0409158))
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics,  Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455), [doi:10.1007/s00220-014-2228-1](http://link.springer.com/article/10.1007%2Fs00220-014-2228-1))
 
@@ -162,4 +165,8 @@ The observation that the condition is implied by [[supergravity C-field|C-field]
 
 
 [[!redirects shifted C-field flux quantization condition]]
+
+[[!redirects Page charge]]
+[[!redirects Page charges]]
+
 
