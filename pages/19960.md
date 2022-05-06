@@ -1054,6 +1054,7 @@ See also
 
 * {#ABBCN18} Riccardo Argurio, Matteo Bertolini, Francesco Bigazzi, Aldo L. Cotrone, Pierluigi Niro, _QCD domain walls, Chern-Simons theories and holography_, J. High Energ. Phys. (2018) 2018: 90 ([arXiv:1806.08292](https://arxiv.org/abs/1806.08292))
 
+* Alfonso Ballon-Bayona, Jonathan P. Shock, Dimitrios Zoakos, _Magnetic catalysis and the chiral condensate in holographic QCD_ ([arXiv:2005.00500](https://arxiv.org/abs/2005.00500))
 
 
 
