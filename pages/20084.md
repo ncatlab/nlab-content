@@ -23,6 +23,8 @@ Via [[Z' bosons]]:
 
 On [[leptoquarks]]:
 
+* [[Andreas Crivellin]], Dario Mueller, Francesco Saturnino, _Leptoquarks in Oblique Corrections and Higgs Signal Strength: Status and Prospects_ ([arXiv:2006.10758](https://arxiv.org/abs/2006.10758))
+
 * [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Scalar Leptoquarks in Leptonic Processes_ ([arXiv:2010.06593](https://arxiv.org/abs/2010.06593))
 
 
