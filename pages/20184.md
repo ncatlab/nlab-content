@@ -92,8 +92,9 @@ Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quater
 
 ### Euler class and Pontryagin class
 
-+-- {: .num_prop}
++-- {: .num_prop #IntegralCohomologyOfClassifyingSpace}
 ###### Proposition
+**([[integral cohomology]] of [[classifying space]]/[[universal characteristic classes]])**
 
 The [[integral cohomology|integral]] [[cohomology ring]] of the [[classifying space]] of [[Spin(3)]] is [[polynomial ring|freely generated]] from $1/4$th of the [[first Pontryagin class]]:
 
@@ -214,3 +215,4 @@ $$
 
 * {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
 
+[[!redirects Spin4]]
