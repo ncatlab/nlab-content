@@ -12,5 +12,7 @@
 ## related $n$Lab entries
 
 * [[Cayley 4-form]]
+* [[nonstandard analysis]]
+* [[infinitesimal number]]
 
 category: people
