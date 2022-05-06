@@ -107,19 +107,20 @@ The approach was originally considered specifically for [[Chern-Simons theory]] 
 
 which was re-amplified  in 
 
+* Daniel Altschuler, Laurent Freidel, Section 3 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arxiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
+
 * {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
-* {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836,2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
+* {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun. Math. Phys. 293: 803-836, 2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
 
 * [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], appendix B of _Perturbative quantum gauge theories on manifolds with boundary_, Communications in Mathematical Physics, January 2018, Volume 357, Issue 2, pp 631–730  ([arXiv:1507.01221](https://arxiv.org/abs/1507.01221), [doi:10.1007/s00220-017-3031-6](https://doi.org/10.1007/s00220-017-3031-6))
 
-and highlighted as a means to obtain [[graph complex]]-models for the [[de Rham cohomology]] of [[configuration spaces of points]] in 
+and highlighted as a means to obtain [[graph complex]]-models for the [[de Rham cohomology]] of [[configuration spaces of points]]/[[knot spaces]] in 
 
 
 * {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
-
 
 with full details and proofs in
 
