@@ -192,7 +192,7 @@ $$
   &
   \phantom{\; =} +
   \underset{
-    = \tfrac{2\cdot 6}{4!} F_{a b} F^{a b}
+    = -\tfrac{2\cdot 6}{4!} F_{a b} F^{a b}
   }{
   \underbrace{
   \tfrac{6}{4!}
@@ -243,7 +243,7 @@ $$
   \\
   & \; = \phantom{+}
   -1 
-    + 
+    - 
   \tfrac{1}{2} (F \wedge \star F) / \mathrm{dvol}
     +
   \big( 
