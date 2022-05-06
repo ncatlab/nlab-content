@@ -37,7 +37,7 @@ $$
 
 (well defined up to a contractible space of choices).
 
-A **colimit** in a quasi-category is accordingly an limit in the [[opposite quasi-category]].
+A **colimit** in a quasi-category is accordingly a limit in the [[opposite quasi-category]].
 
 =--
 
