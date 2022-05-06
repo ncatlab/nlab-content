@@ -204,6 +204,9 @@ A computer search through the "[[landscape of string theory vacua|landscape]]" o
 
 * {#CHE18} Andrei Constantin, [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_ ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
+* Alon E. Faraggi, Glyn Harries, Benjamin Percival, John Rizos, _Towards machine learning in the classification of $\mathbb{Z}_2 \times \mathbb{Z}_2$ orbifold compactifications ([arXiv:1901.04448](https://arxiv.org/abs/1901.04448))_
+
+
 The resulting database of compactifications is here:
 
 * [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
