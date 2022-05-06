@@ -36,6 +36,11 @@ Cubical type theory can be modeled in a number of varieties of [[cubical sets]],
 
 ## References
 
+Introductory lecture notes:
+
+* {#Mortberg19} [[Anders Mörtberg]], _Cubical methods in HoTT/UF_, 2019 ([pdf](http://staff.math.su.se/anders.mortberg/papers/cubicalmethods.pdf))
+
+Original articles:
 
 * {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
 
@@ -50,7 +55,7 @@ Cubical type theory can be modeled in a number of varieties of [[cubical sets]],
 
 * [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Parametric Cubical Type Theory_ ([arXiv:1901.00489](https://arxiv.org/abs/1901.00489))
 
-* [[homotopytypetheory:Evan Cavallo]], [[homotopytypetheory:Anders Mortberg]], A unifying cartesian cubical type theory, 2019, [PDF](http://www.cs.cmu.edu/~ecavallo/works/unifying-cartesian.pdf)
+* [[homotopytypetheory:Evan Cavallo]], [[homotopytypetheory:Anders Mortberg]], _A unifying cartesian cubical type theory_, 2019, [PDF](http://www.cs.cmu.edu/~ecavallo/works/unifying-cartesian.pdf)
 
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
 
