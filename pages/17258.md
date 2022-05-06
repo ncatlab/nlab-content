@@ -366,5 +366,13 @@ The result concerning essential localizations is in
 
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
 
+The topos $Set^{M_2}$ is studied under the name _category of autographs_ in
+
+* R. Guitart, _Autocategories: I. A common setting for knots and 2-categories_ , Cah. Top. Géom. Diff. Cat. **LV** (2014) pp.66-82.  
+
+* R. Guitart, _Autocategories: II. Autographic algebras_ , Cah. Top. Géom. Diff. Cat. **LV** (2014) pp.151-160.  
+
+* R. Guitart, _Autocategories: III. Representations and expansions of previous examples , Cah. Top. Géom. Diff. Cat. **LVIII** (2017) pp.67-81.  
+
 [[!redirects kinship system]]
 [[!redirects mathematical anthropology]]
