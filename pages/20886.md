@@ -18,6 +18,10 @@
 
 For $k$ a [[field]] and $n$ a [[natural number]], the _special linear Lie algebra_ $\mathfrak{sl}(n,k)$ is the [[Lie algebra]] of [[trace]]-free $n\times n$-[[matrices]] with entries in $k$, with [[Lie bracket]] being the [[commutator]] of [[matrix multiplication]].
 
+## Examples
+
+* [[sl(2)]]
+
 ## Related concepts
 
 * [[special linear group]]
