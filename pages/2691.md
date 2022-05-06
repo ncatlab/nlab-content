@@ -289,6 +289,7 @@ Accordingly, the cofibrant objects in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precise
 
 ([Bousfield-Gugenheim 76, Prop. 7.11](#BousfieldGugenheim76)[Gelfand-Manin 96., Prop. V.5.4](#GelfandManin96))
 
+
 #### Simplicial hom-complexes
  {#HomComplexes}
 
@@ -439,6 +440,41 @@ is
 Prop. \ref{PoweringOfdgcCchainAlgebrasInNonNegativeDegreeOverFiniteSimplicialSets} _would_ say that $(dgcAlg^{\geq 0}_k)_{proj}$ is a [[simplicial model category]] with respect to the simplicial enrichment from def. \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees} were it not for the fact that prop. \ref{PoweringOfdgcCchainAlgebrasInNonNegativeDegreeOverFiniteSimplicialSets} gives the [[powering]] only over finite simplicial sets.
 
 =--
+
+#### Relation to simplicial sets
+
++-- {: .num_prop} 
+###### Proposition
+**([[Quillen adjunction between simplicial sets and connective dgc-algebras]])**
+
+The [[PL de Rham complex]]-construction is the [[left adjoint]] in a [[Quillen adjunction]] between
+
+* the [[opposite model structure|opposite]] of the [[projective model structure on connective dgc-algebras]]
+
+* the [[classical model structure on simplicial sets]]
+
+$$
+  \big(
+    DiffGradedCommAlgebras^{\geq 0}_{k}
+  \big)^{op}_{proj}
+  \underoverset
+    {
+      \underset
+        {\;\;\; exp \;\;\;}
+        {\longrightarrow}
+    }
+    {
+      \overset
+        {\;\;\;\Omega^\bullet_{PLdR}\;\;\;}
+        {\longleftarrow}
+    }
+    {\bot_{\mathrlap{Qu}}}
+  SimplicialSets_{Qu}
+$$
+
+=--
+
+
 
 #### Relation to cosimplicial commutative algbras
 
