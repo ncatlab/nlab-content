@@ -69,6 +69,11 @@ Under [[conjugation action]] on $2 \times 2$ [[Hermitian matrices]] with [[coeff
 For more on this see at _[[spin representation]]_, _[[supersymmetry and division algebras]]_ and _[[geometry of physics -- supersymmetry]]_.
 
 
+
+## Related concepts
+
+[[!include exceptional spinors and division algebras -- table]]
+
 ## References
 
 * [[Joás Venâncio]], [[Carlos Batista]], Sections 2,3 of: _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
