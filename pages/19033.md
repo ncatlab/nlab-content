@@ -17,15 +17,15 @@ On computation of [[Yukawa couplings]] in [[heterotic string theory]]:
 * Stefan Blesneag, [[Evgeny Buchbinder]], Andrei Constantin, Andre Lukas, [[Eran Palti]], _Matter Field Kähler Metric in Heterotic String Theory from Localisation_ ([arXiv:1801.09645](https://arxiv.org/abs/1801.09645))
 
 
-On the [[landscape of string theory vacua]] for [[heterotic string theory]]:
+On the [[landscape of string theory vacua]] for [[heterotic string theory]] via [[heterotic line bundle models]];
 
-* [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
-* [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic Line Bundle Standard Models_ JHEP06(2012)113 ([arXiv:1202.1757](https://arxiv.org/abs/1202.1757))
 
-* [[Lara Anderson]], Andrei Constantin, James Gray, [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic SU(5) GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
+* [[Lara Anderson]], Andrei Constantin, [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
-* [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
+* [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
 
 
 On [[F-theory on Spin(7)-manifolds]] and [[Witten's Dark Fantasy]]:
