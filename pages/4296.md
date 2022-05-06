@@ -64,6 +64,8 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[Seifert 3-manifold]]
 
+* [[hyperbolic 3-manifold]]
+
 * [[Dehn surgery]]
 
 * [[Kirby calculus]]
