@@ -221,8 +221,7 @@ as consisting precisely of those objects in $Cat/C$ that are
 [[Grothendieck fibration]]s.
 
 We recall the definition of the [[bicategory]] of Grothendieck fibrations 
-and [[pseudofunctor]]s and
-and then state the main equivalence theorem.
+and [[pseudofunctor]]s and then state the main equivalence theorem.
 
 #### The bicategory of pseudofunctors.
 
