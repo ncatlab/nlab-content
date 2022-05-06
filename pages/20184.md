@@ -177,7 +177,7 @@ $$
   \big]
 $$
 
-Finally, under the exceptional isomorphism (eq:Spin3SquareToO4) $\vartheta \;\colon\; Spin(3) \times Spin(3) \overset{\simeq}{\to} Spin(4)$ these classes are related by
+Finally, under the [[exceptional isomorphism]] (eq:Spin3SquareToO4) $\vartheta \;\colon\; Spin(3) \times Spin(3) \overset{\simeq}{\to} Spin(4)$ these classes are related by
 
 $$
   \begin{aligned}
