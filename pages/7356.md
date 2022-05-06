@@ -84,12 +84,20 @@ $$
 $$
 
 
-### Relation to M-theory on $G_2$-manifolds
+#### Relation to M-theory on $G_2$-manifolds
 
 In order to get minimal [[N=1 d=4 supergravity]] after [[KK-compactification]], one needs [[M-theory on G2-manifolds]] and [[F-theory on CY4-manifolds]].
 
 Discussion of the relation between then [[G2-manifold]] fibers for [[M-theory on G2-manifolds]] and the corresponding [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers in F-theory includes ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02), [Belhaj 02](#Belhaj02)). 
 
+
+#### Relation to M-theory on $S^1\sslash \mathbb{Z}_2^{HW} \times \mathbb{H}\sslash G^{ADE}$
+
+Relation to [[M-theory on S1/G_HW times H/G_ADE]]:
+
+* Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
+
+* Christoph Lüdeling, Fabian Ruehle, _F-theory duals of singular heterotic K3 models_, Phys. Rev. D 91, 026010 (2015) ([arXiv:1405.2928](https://arxiv.org/abs/1405.2928))
 
 
 ### Relation to orientifold type II backgrounds
@@ -104,13 +112,14 @@ An argument due to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)) says that the F-theory
 The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] ([Sen 97a, (3)](#Sen97a), [Blumenhagen 10, (11)](#Blumenhagen10)), exhibiting [[gauge enhancement]] [Sen 97b](#Sen97b) see [below](#SingularLocusAndD7Branes).
 
 
-Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.Also,the supersymmetry of compactification of the F theory on a flat background corresponds to type IIB supersymmetry if it's spacetime signature is (10,2).
-We will have a number of supercharges used for dimensional reduction,or a cascade of reductions.  
+Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_. 
+
+
 ### Relation to heterotic string theory
 
 The [[duality between F-theory and heterotic string theory]]:A subclass of K3 manifolds elliptically fibered.
 
-F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).Also,the modules of those theories must be equal.
+F-theory on an [[elliptic fibration|elliptically fibered]] [[K3]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)). 
 
 More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z \to B$ of complex dimension $(n-1)$ is supposed to be equivalent $F$-theory on an $n$-dimensional $X\to B$ with elliptic K3-fibers.
 
