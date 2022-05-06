@@ -170,6 +170,14 @@ More recent developments include
 
 * H. L. Dao, Parinya Karndumri, _Supersymmetric $AdS_5$ black holes and strings from 5D $N=4$ gauged supergravity_ ([arXiv:1812.10122](https://arxiv.org/abs/1812.10122))
 
+### Black holes in supergravity
+
+Black holes in [[supergravity]]:
+
+* [[Riccardo D'Auria]], [[Pietro Fre]], _BPS black holes in supergravity_, ([hep-th/9812160](http://arxiv.org/abs/hep-th/9812160))
+
+* Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
+
 ### Discussion in BFSS matrix theory
 
 Discussion of black holes via the [[BFSS matrix model]] includes the following:
