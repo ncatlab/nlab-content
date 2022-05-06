@@ -168,6 +168,8 @@ See also at _[categorical model theory](model+theory#CategoricalModelTheory)_.
 
 ### Well-poweredness and well-copoweredness
 
+* Every accessible category $C$ is [[well-powered category|well-powered]], since it has a small [[dense subcategory]] $A$, for which the [[restricted Yoneda embedding]] $C\to [A^{op},Set]$ is fully faithful and preserves monomorphisms, hence embeds the subobject posets of $C$ as sub-posets of those of $[A^{op},Set]$.
+
 * Every accessible category with [[pushouts]] is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AdamekRosicky).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-copowered then there exist arbitrarily large [[measurable cardinals]].
 
 
