@@ -69,7 +69,10 @@ $$
 
 due to the [[Fierz identity]] in [Castellani-D'Auria-Fré 91 (III.5.50a)](#CastellaniDAuriaFre), [this example](Fierz+identity#QuadraticFierzIdentitiesIn5d):
 
-<img src="https://ncatlab.org/nlab/files/FierzIdentitiesForBraneCocyclesIn5d.png" width="600">
+\begin{imagefromfile}
+  "file_name": "FierzIdentitiesForBraneCocyclesIn5d.png",
+  "width": 600
+\end{imagefromfile}
 
 (the other Fierz identity (III.5.50a) gives the [[membrane]] cocycle $\mu_{membrane,5d} \coloneqq \frac{i}{2}\overline{\psi}_A \Gamma_{a b}  \psi \wedge e^a \wedge e^b$, $d \mu_{membrane,5d} = 0$, that appears already in the old [[brane scan]]. )
 
@@ -277,7 +280,7 @@ Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and 
 
 Review includes
 
-* [[Per Kraus]], _Lectures on black holes and the AdS_3 / CFT_2 correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
+* [[Per Kraus]], _Lectures on black holes and the $AdS_3$ / $CFT_2$ correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
 
   _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
 
