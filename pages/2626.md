@@ -79,11 +79,13 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[isotopy]], [[smooth isotopy]]
 
+* [[hyperbolic knot]]
+
+* [[Kirby calculus]]
+
 * [[MKR dictionary]] in [[arithmetic topology]]
 
 * [[chord diagram]]
-
-* [[Kirby calculus]]
 
 * [[Wilson loop]]
 
