@@ -98,6 +98,10 @@ Here the [[Chern-Simons propagator]] regarded as a non-singular [[differential f
 \]
 
 
+## Related concepts
+
+* [[quantization of 3d Chern-Simons theory]]
+
 
 ## References
 
