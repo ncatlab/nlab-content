@@ -69,6 +69,8 @@
 
     * [[matrix product state]]
 
+    * [[tree tensor network state]]
+
 * **[[observables]]**
 
   * [[quantum observable]], [[beable]]
