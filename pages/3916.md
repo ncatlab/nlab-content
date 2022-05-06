@@ -308,22 +308,11 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 ## References
 
 
-* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86 ([digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259))
 
-* {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+[[!include Pontryagin-Thom construction -- references]]
 
 
-* {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
-
-* {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
-
-* {#Rudyak98} [[Yuli Rudyak]], _In Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
-
-* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and MO_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
-
-An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=15) 
-
-* {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+See also:
 
 
 * [[Ralph Cohen]], John Klein, _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
@@ -334,7 +323,6 @@ The general abstract formulation in [[stable homotopy theory]] is in sketched in
 
 * {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  
-
 and is in section 10 of
 
 * {#ABG11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
