@@ -26,17 +26,23 @@ A **Vassiliev invariant** is simply a cubical morphism from this complex to an a
 One does not need the language of cubical complexes to _define_ Vassiliev invariants.  Rather, there is a general method whereby a [[knot invariant]] can be extended to all [[singular knots]] with only finitely many double points (and no other singularities) using the [[Vassiliev skein relations]].
 
 
-+-- {: .num_definition #vinv}
++-- {: .num_defn #vinv}
 ###### Definition
+
 A **Vassiliev invariant** of degree (or order) $\le n$ is a knot invariant whose extension to singular knots (with double points) vanishes on all singular knots with more than $n$ double points.
+
 =--
 
 As is standard, it is of degree $n$ if it is of degree $\le n$ but not $\le n - 1$.  Vassiliev invariants are also called **finite type invariants**.
 
 
-## Remarks ##
++-- {: .num_remark}
+###### Remark
+
 
 The degree of Vassiliev invariants defines a filtration on the space of knots (and more particularly, on the [[algebra of knots]]).  Two knots are $n$-equivalent if all the Vassiliev invariants of degree $\le n$ agree on them.  In particular, a knot that is $n$-equivalent to the unknot is said to be $n$-trivial.
+
+=--
 
 ## Properties ##
 
@@ -48,9 +54,11 @@ Any singular knot $f : S^1 \to \mathbb{R}^3$ with $n$ distinct double points $x_
 
 The importance of this construction for singular knots comes from the fact that any finite type invariant determines a function on chord diagrams:
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ######Theorem 
+
 Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a singular knot with $n$ distinct double points depends only on the chord diagram of the knot, and not on the knot itself.
+
 =-- 
 
 Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _weight systems_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "1-term relation" (or "framing independence") and the "4-term relation": see Theorem 1 of [Bar-Natan 95](#BarNatan95) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)).
@@ -75,20 +83,29 @@ Conversely, one can ask which functions on chord diagrams come from finite type 
 
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 ([web](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/), <a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>)
 
-* There is a huge online bibliography on Vassiliev invariants maintained by [[Dror Bar-Natan]] and Sergei Duzhin [here](http://www.pdmi.ras.ru/~duzhin/VasBib/Long).
+* [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
 * S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, [arxiv/1103.5628](http://arxiv.org/abs/1103.5628)
 
-* Wolframworld [Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)
+* {#LandoZvonkin} Sergei K. Lando and Alexander K. Zvonkin, Chapter 6 of: _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
-See also Chapter 6 of
+More literature is listed at
 
-* {#LandoZvonkin} Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
+* [[Dror Bar-Natan]], Sergei Duzhin, _[Bibliography of Vassiliev Invariants](http://www.pdmi.ras.ru/~duzhin/VasBib/Long)_
+
+See also
+
+* Mathworld, _[Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)_
+
 
 category: geometry, topology
 
 [[!redirects Vassiliev knot invariant]]
+[[!redirects Vassiliev knot invariants]]
+
+
 [[!redirects Vassiliev invariants]]
+
 [[!redirects Vassiliev finite type invariants]]
 [[!redirects Vassiliev finite type invariant]]
 [[!redirects Vassiliev finite-type invariants]]
