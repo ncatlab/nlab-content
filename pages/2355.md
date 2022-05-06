@@ -280,7 +280,7 @@ This follows from that fact that for $\epsilon : Id_C \to R \circ L$ a unit of t
 +-- {: .num_remark}
 ###### Remark
 
-The converse statement is in general false. 
+The converse statement is in general false. A near converse is given by [[Higher Topos Theory|HTT, prop 5.2.2.12]] if one instead considers $Ho$-enriched homotopy categories: if $Ho(L)$ has a right adjoint, then so does $L$.
 
 One way to find  that an ordinary adjunction of homotopy categories lifts to an $(\infty,1)$-adjunction is to exhibit it as a [[Quillen adjunction]] between [[simplicial model category]]-structures. This is discussed in the Examples-section [Simplicial and derived adjunction](#SimplicialAndDerived) below.
 
