@@ -30,7 +30,7 @@ $$
   \,,
 $$
 
-where $A_k$ is an $k$-[[truncated]] object, in fact the $n$-truncation of $A$.
+where $A_k$ is an $k$-[[truncated]] object, in fact the $k$-truncation of $A$.
 
 
 This implies that every $n$-[[truncated]] [[connected]] object $A$ is given by a possibly nonabelian 0-truncated group object $G$ and a sequence of abelian extensions of the [[delooping]] $\mathbf{B}G$ in that we have [[fiber sequence]]s 
