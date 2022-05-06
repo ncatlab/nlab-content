@@ -42,7 +42,8 @@ and also reproduces well the baryonic [[Tully-Fisher relation]] ([El-Badry et al
 
 > graphics grabbed from ([El-Badry et al. 18](#ElBadry18))
 
-More in detail, [[galaxy rotation curves]] exhibit a close correlation between [[angular velocity]] and total _visible_ enclosed math at any given [[radius]], called the _[[mass-discrepancy acceleration relation]]_, and the relation exhibits remarkably small scatter. This, too, is reproduced in [[cold dark matter]]-[[model (in theoretical physics)|model]]  computer simulation, according to [Santos-Santos et al. 15](#SantosSantosEtAl15), [Cintio-Lelli 15](#CintioLelli15), [Keller-Wadsley 16](#KellerWadsley16), [Ludlow et al 16](#LudlowEtAl16). But see the critique in [Lelli et al 16, section 8.2](#LelliEtAl16).
+More in detail, [[galaxy rotation curves]] exhibit a close correlation between [[angular velocity]] and total _visible_ enclosed math at any given [[radius]], called the _[[mass-discrepancy acceleration relation]]_. This, too, is reproduced in [[cold dark matter]]-[[model (in theoretical physics)]]  computer simulation ([Santos-Santos et al. 15](#SantosSantosEtAl15), [Cintio-Lelli 15](#CintioLelli15), [Keller-Wadsley 16](#KellerWadsley16), [Ludlow et al 16](#LudlowEtAl16)). These early simulations were not found conclusive in [Lelli et al 16, section 8.2](#LelliEtAl16). But further refinement simulation confirms the statement [Dutton-Maccio-Obreja-Buck 19](#DuttonMaccioObrejaBuck19).
+
 
 
 
@@ -69,7 +70,9 @@ On the [[mass-discrepancy acceleration relation]]:
 
 * {#LudlowEtAl16} Aaron D. Ludlow et. al. _The Mass-Discrepancy Acceleration Relation: a Natural Outcome of Galaxy Formation in Cold Dark Matter halos_, Phys. Rev. Lett. 118, 161103 (2017) ([arXiv:1610.07663](https://arxiv.org/abs/1610.07663))
 
-Critical comments in
+* {#DuttonMaccioObrejaBuck19} Aaron A. Dutton, Andrea V. Macciò, Aura Obreja, Tobias Buck, _NIHAO XVIII: Origin of the MOND phenomenology of galactic rotation curves in a LCDM universe_ ([arXiv:1902.06751](https://arxiv.org/abs/1902.06751))
+
+Critical comments on the early simulations in
 
 * {#LelliEtAl16} Federico Lelli, Stacy S. McGaugh, James M. Schombert, Marcel S. Pawlowski, section 8.2 of _One Law To Rule Them All: The Radial Acceleration Relation of Galaxies_ ([arXiv:1610.08981](https://arxiv.org/abs/1610.08981))
 
