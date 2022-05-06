@@ -27,7 +27,7 @@ See at _[differential cohesion -- Frame bundles](differential+cohesive+%28infini
 
 * [[Demeter Krupka]], Josef Jany&#353;ka,  _Lectures on differential invariants_, Univerzita JEP, Brno, 1990.
 
-* [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], Section 12.12 of _[[Natural operators in differential geometry]]_, Springer 1993
+* [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], Section 12.12 of _[[Natural operations in differential geometry]]_, Springer 1993
 ([doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf))
 
 
