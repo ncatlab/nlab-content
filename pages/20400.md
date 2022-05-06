@@ -316,23 +316,21 @@ $$\frac{\Gamma \vdash T\,type \qquad
 \Gamma \vdash p \Vdash \bottom}
 {\Gamma \vdash t \Vdash T}$$
 
-## Discussion
+## Admissible rules
 
-### Admissible rules
-
-#### Structural rules
+### Structural rules
 
 The structural rules of weakening and substitution are admissible. "Strengthening" is not. Nonadmissibility of strengthening means: just because a variable isn't free in the conclusion doesn't mean the derivation isn't using it. This is typical of "extensional type theory". Typically it's considered all the fault of equality reflection, which may be technically true for some systems. But Nuprl turned this apparent bug into a feature: subsets and intersections provide flexible control over which proofs make it into the computational content, and which are merely establishing external facts. Computational irrelevance is implemented by literally omitting the irrelevant proofs from terms. This leads to the lack of strengthening, and to undecidable type checking. The restriction imposed by equality reflection is that equality proofs never have computational content.
 
 CLF follows Nuprl in trying to give the user maximum control over the terms used to represent elements. The hope is that with care, this can allow significantly greater convenience and performance than with decidable dependent type systems, which are committed to retaining enough annotations to effectively reject ill-typed terms.
 
-#### Sanity and Inversion
+### Sanity and Inversion
 
 You'd think a statement should make sense before you try to prove it. And likewise, that a type should be valid before you try to construct an element. But in practice, it also works to consider a typed construction as providing evidence that the type makes sense. Specifically, the only way to derive ($\Gamma \vdash t \Vdash T$) is if you could also derive ($\Gamma \vdash T\,type$). That's a "sanity check" admissible rule. It's *probably* admissible for the judgments defined by the rules above.
 
 Also, since the only way to derive type validity in this system (not using the sanity admissible rule) is to use a type former, a derivation of type validity implies that there are derivations of validity for the subexpressions of the type expression. These are "inversion" admissible rules.
 
-#### Admissible Rules vs PER Semantics
+### Admissible Rules vs PER Semantics
 
 For full Nuprl, it seems practically impossible to prove admissibility of sanity or inversion, if they're not just included among the primitive rules. But they *can* be included among the primitive rules, because they're true in the semantics. Due to the way hypothetical judgments are defined, making the inversion rules true requires making type equality intensional.
 
@@ -348,7 +346,7 @@ This raises questions though: If the formal rules of a Nuprl-style system are co
 
 In my (Matt Oliveri's) opinion, Nuprl-style systems are potentially relevant and useful to mathematics, but it's not currently clear exactly how that might work.
 
-#### Loose ends
+### Loose ends
 
 Now that we've covered the issue that the distinction between derivable and admissible doesn't really matter for this system, we can get to explaining particular aspects that may seem to be in particular need of an explanation.
 
@@ -377,11 +375,9 @@ Proving that lambdas are functions additionally uses beta conversion. Lambdas ar
 
 With such a small set of type constructors, it may be hard to tell, but congruence rules are rarely needed as primitives. Beta conversion was already defined as an untyped congruence closure, and for typed equality, the subsumptive rewrite rule does most of the work of congruence rules. The extensionality rules for $\Pi$ and $\cap$ are needed to help with binders and (our ersatz) hidden assumptions. That may turn out to handle everything, with this judgmental setup.
 
-### Semantic Judgmental Reflection
+## Semantic Judgmental Reflection
 
-### PER theory
-
-### Type Intensionality
+## PER theory
 
 ## More admissible rules
 
