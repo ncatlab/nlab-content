@@ -93,6 +93,18 @@ This example is more or less the way that [[Eduard Čech]] gave the original for
 
 * [[nerve theorem]]
 
+
+## References
+
+An early appearance (in the form of the 0-coskeleton) is in Enlightenment 8.5(b) of
+
+* [[Michael Artin]], [[Barry Mazur]], _Etale Homotopy_, Lecture Notes in Mathematics  100 (1969), [doi](http://dx.doi.org/10.1007/bfb0080957).
+
+An early appearance of the term “Čech nerve” is in
+
+* [[Eric M. Friedlander]], _Etale Homotopy of Simplicial Schemes_, Annals of Mathematics Studies 104 (1983), [doi](http://dx.doi.org/10.1515/9781400881499).
+
+
 [[!redirects Cech nerve]]
 [[!redirects Cech-nerve]]
 [[!redirects Čech nerve]]
