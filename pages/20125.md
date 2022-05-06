@@ -125,11 +125,9 @@ Review and exposition:
 * {#BCJ10} [[Jacob Biamonte]], Stephen R. Clark, Dieter Jaksch, _Categorical Tensor Network States_, AIP Advances 1(4), 042172 (2011) ([arXiv:1012.0531](https://arxiv.org/abs/1012.0531))
 
 
-
 * [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
 
 * [[Jens Eisert]], _Entanglement and tensor network states_, Modeling and Simulation 3, 520 (2013) ([arXiv:1308.3318](https://arxiv.org/abs/1308.3318))
-
 
 
 * [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
@@ -150,23 +148,37 @@ Further resources:
 * [tensornetwork.org](https://tensornetwork.org/)
 
 
+### Relation to (topological) phases of matter
+
+Classification of ([[topological phases of matter|topological]]) [[phases of matter]] via [[tensor network states]]:
+
+* C. Wille, O. Buerschaper, [[Jens Eisert]], _Fermionic topological quantum states as tensor networks_, Phys. Rev. B 95, 245127 (2017) ([arXiv:1609.02574](https://arxiv.org/abs/1609.02574))
+
+* Andreas Bauer, [[Jens Eisert]], Carolin Wille, _Towards a mathematical formalism for classifying phases of matter_ ([arXiv:1903.05413](https://arxiv.org/abs/1903.05413))
 
 
 
 ### In holographic entanglement entropy
 
-The use of tensor networks as a tool in [[holographic entanglement entropy]] goes back to
+The use of [[tensor networks]] as a tool in [[holographic entanglement entropy]] goes back to
 
-* {#Swingle09} Brian Swingle, _Entanglement Renormalization and Holography_ ([arXiv:0905.1317](https://arxiv.org/abs/0905.1317))
+* {#Swingle09} [[Brian Swingle]], _Entanglement Renormalization and Holography_, Phys. Rev. D 86, 065007 (2012) ([arXiv:0905.1317](https://arxiv.org/abs/0905.1317))
 
-* {#Swingle12} Brian Swingle, _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304))
+* {#Swingle12} [[Brian Swingle]], _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304), [spire:1185813](http://inspirehep.net/record/1185813))
 
 Review in
 
 * F. Verstraete, J. I. Cirac, V. Murg, _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. 57,143 (2008) ([arXiv:0907.2796](https://arxiv.org/abs/0907.2796))
 
+See also
 
-Further interpretation in terms of [[quantum error correcting codes]] is due to
+* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+
+  ([[quasicrystal]] boundary states)
+
+### As quantum error correcting codes
+
+Further interpretation of [[tensor networks]] in terms of [[quantum error correcting codes]] is due to
 
 
 * {#ADH14} [[Ahmed Almheiri]], Xi Dong, [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
@@ -176,6 +188,11 @@ Further interpretation in terms of [[quantum error correcting codes]] is due to
 reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
+
+See also
+
+* Alexander Jahn, Marek Gluza, Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
+
 
 Discussion in the context of the [[p-adic AdS/CFT correspondence]]:
 
