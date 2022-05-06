@@ -2,7 +2,14 @@
 
 \section{Introduction}
 
-The notion of a _blockchain_, originating with [(Nakomoto2008)](#NakomotoBitcoinAPeerToPeerElectronicCashSystem), allows for the creation of a linear log which can be added to, but is extremely difficult to otherwise modify, in a [[undirected graph|network]] with multiple nodes, without any central authority.
+The notion of a _blockchain_, originating with [(Nakamoto2008)](#NakamotoBitcoinAPeerToPeerElectronicCashSystem), allows for the creation of a linear log which can be added to, but is extremely difficult to otherwise modify, in a [[undirected graph|network]] with multiple nodes, without any central authority.
+
+Blockchain can be considered as certain data structure -- chain of blocks -- which are cryptographically "sealed" by hashes which are for each block added to the next block and which is incremented by one of many parties called nodes
+which follow a commonly accepted algorithm and each contains a copy of the blockchain (full node) or its essential part. Who adds a block, or whose added block is respected by other nodes is a part of the algorithm (blockchain protocol) and is desirable to be byzantine fault tolerant. The securest algorithm in nontrusted environment (public blockchain) is the proof of work algorithm. Regarding that blockchain is a tool to establish noncentralized record verification it is common to use blockchains to carry records of assets, including cryptocurrencies and other token, off chain assets, credential records, verification proofs and so on. These data and transaction steps belong and are authorized by accounts. Modern blockchain protocols
+assume also that code handling assets in deterministic manner may be part of the account, when the nodes add new blocks they should also execture the code of the contract, within a blockchain virtual machine; such accounts are called [[smart contract]]s and realize in a specific way the idea of smart contracts outlined in theoretical computer science before the blockchain era. 
+
+The phrase _distributed ledger_ is sometimes viewed as a synonym. Technically,
+distributed ledger is the same idea realized in a more general setup where the record may be organized in non-linear structure, for example when the blocks form a DAG (directed acyclic graph) rather than a single chain, with appropriate protocol. 
 
 \section{Proof of work}
 
@@ -32,6 +39,10 @@ A different criticism regards the algorithm itself. If nodes were to co-operate 
 
 \section{References}
 
-{#NakomotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakomoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
+{#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
+
+For a more comprehensive list of references see [[zoranskoda:blockchain]] (at zoranskoda). 
+
+category: computer science, applications
 
 [[!redirects proof of work]]
