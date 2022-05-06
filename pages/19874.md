@@ -35,6 +35,10 @@ The existence of leptoquarks could potentially explain _both_
 
 1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([CCDM 16](#CCDM16), [Müller 18](#Mueller18))
 
+From [Crivellin 18, p. 2](#Crivellin18):
+
+> the global fit $[$ to [[flavour anomalies]] $]$ even shows compelling evidence for New Physics $[$... $]$ The vector leptoquark (LQ) $SU(2)_L$ singlet with hypercharge $-4/3$ arising in the famous [[Pati-Salam model]] is capable of explaining all the $[$[[flavour anomalies|flavour]] $]$ anomalies and therefore several attempts to construct a [[UV completion]] for this LQ to address the anomalies have been made. It can give a sizeable effect in $b \to c(u)\tau \nu$ data without violating bounds from $b \to s(d)\nu \bar \nu$ and/or direct searches, provides (at [[tree level]]) a $C_9 = - C_{10}$ solution to $b \to s \ell^+ \ell^-$ data and does not lead to [[proton decay]] at any order in [[perturbative quantum field theory|perturbation theory]].
+
 ### Experimental constraints
 
 Constraints on the possible parameter space for leptoquarks from [[LHC]] data ([BGGSS 18](#BGGSS18), [BSS 18](#BSS18))
@@ -58,8 +62,11 @@ See also
 * Wikipedia, _[Leptoquark](https://en.wikipedia.org/wiki/Leptoquark)_
 
 ### Experiment
+ {#ReferencesExperiment}
 
 Constraints from [[experiment]] ([[LHC]]):
+
+* I. Doršner, S. Fajfer, A. Greljo, J. F. Kamenik, N. Košnik, _Physics of leptoquarks in precision experiments and at particle colliders_, Physics Reports Volume 641, 17 June 2016, Pages 1-68 ([arXiv:1603.04993](https://arxiv.org/abs/1603.04993))
 
 * M. Tanabashi et al. (Particle Data Group), _115. Leptoquarks_  Phys. Rev. D 98, 030001 (2018) ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-leptoquark-quantum-numbers.pdf))
 
