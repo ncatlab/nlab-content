@@ -214,8 +214,9 @@ See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and 
 
 The original references for the shape theory of metric compacta are:
 
-* [[K. Borsuk]], _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
-* [[K. Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
+* [[Karol Borsuk]], _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
+
+* [[Karol Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59, Warszawa 1975 ([mathscinet:0418088](https://mathscinet.ams.org/mathscinet-getitem?mr=0418088))
 
 A generalization in categorical approach is given in
 
