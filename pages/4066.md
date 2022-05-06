@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Group Theory
-+-- {: .hide}
-[[!include group theory - contents]]
-=--
 #### Exceptional structures
 +-- {: .hide}
 [[!include exceptional structures -- contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
 =--
 =--
 =--
@@ -21,7 +21,7 @@
 ## Idea
 
 
-The **Monster group** $M$ is a [[finite group]] that is the largest of the [[sporadic finite simple group]]s. It has order
+The **Monster group** $M$ is a [[finite group]] that is the largest of the [[sporadic finite simple group]]s. It has [[order of a group|order]]
 
 $$
  \begin{aligned}
@@ -31,8 +31,7 @@ $$
  \end{aligned}
 $$
 
-and contains all but six, the 'pariahs', of the other 25 [[sporadic finite simple groups]] as 
-[[subquotient]]s. 
+and contains all but six (the '[[pariah groups]]') of the other 25 [[sporadic finite simple groups]] as [[subquotients]], called the _[[Happy Family]]_.
 
 See also [[Moonshine]].
 
@@ -40,7 +39,7 @@ See also [[Moonshine]].
 ## History
 
 
-The Monster group was predicted to exist by [[Bernd Fischer]] and [[Robert Griess]] in 1973, as a [[simple group]] containing the [[Fischer groups]] and some other sporadic simple groups as subquotients. Subsequent work by Fischer, Conway, Norton and Thompson estimated the order of $M$ and discovered other properties and subgroups, assuming that it existed. In a famous paper 
+The Monster group was predicted to exist by [[Bernd Fischer]] and [[Robert Griess]] in 1973, as a [[simple group]] containing the [[Fischer groups]] and some other sporadic simple groups as [[psubquotients]]. Subsequent work by Fischer, Conway, Norton and Thompson estimated the order of $M$ and discovered other properties and subgroups, assuming that it existed. In a famous paper 
 
 * [[Robert Griess]], _The Friendly Giant_ , Inventiones (1982)
 
