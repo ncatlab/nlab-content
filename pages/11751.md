@@ -28,6 +28,8 @@ The [[higher geometry]] version of [[complex analytic geometry]], for instance (
 
 * [[higher differential geometry]]
 
+* [[higher structures]]
+
 ## References
 
 * [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
