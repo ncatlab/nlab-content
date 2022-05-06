@@ -21,11 +21,11 @@
 
 ### General
 
-Given a suitable [[Lie algebra]] $\mathfrak{g}$ a __Knizhnik-Zamolodchikov equation__ is the [[equation]] expressing [[flat connection|flatness]] of certain class of [[vector bundles]] [[connection on a bundle|with connection]] on [[Fadell's configuration space]] of $N$ distinct points in $\mathbf{C}^N$. It appeared in the study of [[Wess-Zumino-Novikov-Witten model]] (WZNW model) of [[2d CFT]] in ([Knizhnik-Zamolodchikov 84](#KnizhnikZamolodchikov84)).
+Given a suitable [[Lie algebra]] $\mathfrak{g}$ a __Knizhnik-Zamolodchikov equation__ is the [[equation]] expressing [[flat connection|flatness]] of certain class of [[vector bundles]] [[connection on a bundle|with connection]] on the [[configuration space of points]] of $N$ distinct points in the [[plane]] $\mathbb{C}$. It appeared in the study of [[Wess-Zumino-Novikov-Witten model]] (WZNW model) of [[2d CFT]] in ([Knizhnik-Zamolodchikov 84](#KnizhnikZamolodchikov84)).
 
 The Knizhnik-Zamolodchikov equation involves what is called the __Knizhnik-Zamolodchikov connection__ and it is related to [[monodromy]] representations of the Artin's [[braid group]].
 
-In the standard variant, its basic data involve a given complex [[simple Lie algebra]] $\mathfrak{g}$ with a fixed bilinear  [[invariant polynomial]] $(,)$ (the _[[Killing form]]_) and $N$ (not necessarily finite-dimensional) [[representations]] $V_1,\ldots, V_n$ of $\mathfrak{g}$. Let $V = V_1\otimes \ldots\otimes V_N$. Consder the [[Fadell's configuration space]] $Conf_N(\mathbf{C}P^1)$ of $N$ distinct points in $\mathbf{C}P^1$ and its subset $Conf_N(\mathbf{C})$. 
+In the standard variant, its basic data involve a given complex [[simple Lie algebra]] $\mathfrak{g}$ with a fixed bilinear  [[invariant polynomial]] $(,)$ (the _[[Killing form]]_) and $N$ (not necessarily finite-dimensional) [[representations]] $V_1,\ldots, V_n$ of $\mathfrak{g}$. Let $V = V_1\otimes \ldots\otimes V_N$.
 
 (...)
 
@@ -34,7 +34,7 @@ In the standard variant, its basic data involve a given complex [[simple Lie alg
 
 The existence of the Knizhnik-Zamolodchikov connection can naturally be understood from the [[holographic principle|holographic]] [[quantization]] of the [[WZW model]] on the Lie group $G$ by [[geometric quantization]] of $G$-[[Chern-Simons theory]]:
 
-as discussed there, for a 2-dimensional [[manifold]] $\Sigma$, a choice of [[polarization]] of the [[phase space]] of 3d [[Chern-Simons theory]] on $\Sigma$ is naturally induced by a choice $J$ of [[conformal structure]] on $\Sigma$. Once such a choice is made, the resulting [[space of quantum states]] $\mathcal{H}_\Sigma^{(J)}$ of the Chern-Simons theory over $\Sigma$ is naturally identified with the space of [[conformal blocks]] of the [[WZW model]] [[2d CFT]] on the [[Riemann surface]] $(\Sigma, J)$. 
+As discussed there, for a 2-dimensional [[manifold]] $\Sigma$, a choice of [[polarization]] of the [[phase space]] of 3d [[Chern-Simons theory]] on $\Sigma$ is naturally induced by a choice $J$ of [[conformal structure]] on $\Sigma$. Once such a choice is made, the resulting [[space of quantum states]] $\mathcal{H}_\Sigma^{(J)}$ of the Chern-Simons theory over $\Sigma$ is naturally identified with the space of [[conformal blocks]] of the [[WZW model]] [[2d CFT]] on the [[Riemann surface]] $(\Sigma, J)$. 
 
 But since from the point of view of the 3d Chern-Simons theory the [[polarization]] $J$ is an arbitrary choice, the [[space of quantum states]] $\mathcal{H}_\Sigma^{(J)}$ should not depend on this choice, up to specified [[equivalence]]. Formally this means that as $J$ varies (over the [[moduli space of conformal structures]] on $\Sigma$) the $\mathcal{H}_{\Sigma}^{(J)}$ should form a [[vector bundle]] on this [[moduli space of conformal structures]] which is equipped with a [[flat connection]] whose [[parallel transport]] hence provides equivalences between between the [[fibers]] $\mathcal{H}_{\Sigma}^{(J)}$ of this vector bundle. 
 
@@ -72,8 +72,8 @@ The generalization to higher [[genus]] surfaces is due to
 
 Finally the interpreation of this connection in terms of the [[geometric quantization]] of [[Chern-Simons theory]] is due to the discussion on p. 20 of
 
-* [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
- {#Witten89}
+* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([euclid.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138))
+ 
 
 A quick review of the Knizhnik-Zamolodchikov equation in the context of an introduction to [[WZW model]] [[CFT]] is in section 5.6 of 
 
