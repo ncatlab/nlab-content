@@ -42,4 +42,4 @@ The special case of [[super Yang-Mills theory]] in [[dimension]] 3 and [[number 
 ## References
 
 * [[Ofer Aharony]], [[Amihay Hanany]], [[Kenneth Intriligator]], [[Nathan Seiberg]], [[Matthew Strassler]], 
-_Aspects of $\mathca{N}=2$ Supersymmetric Gauge Theories in Three Dimensions_, Nucl. Phys. B499:67-99, 1997 ([arXiv:hep-th/9703110](https://arxiv.org/abs/hep-th/9703110))
+_Aspects of $\mathcal{N}=2$ Supersymmetric Gauge Theories in Three Dimensions_, Nucl. Phys. B499:67-99, 1997 ([arXiv:hep-th/9703110](https://arxiv.org/abs/hep-th/9703110))
