@@ -34,7 +34,7 @@ Binding three quarks: [[baryon]].
 
 ## References
 
-Comoutation of the [[mass]] of hadrons using [[lattice QCD]] (see also _[[mass gap problem]]_) is discussed in
+Computation of the [[mass]] of hadrons using [[lattice QCD]] (see also _[[mass gap problem]]_) is discussed in
 
 * S. Durr, Z. Fodor, J. Frison, C. Hoelbling, R. Hoffmann, S.D. Katz, S. Krieg, T. Kurth, L. Lellouch, T. Lippert, K.K. Szabo, G. Vulvert,
 
