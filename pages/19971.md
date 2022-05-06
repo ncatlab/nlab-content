@@ -24,7 +24,7 @@ $$
 $$
 and so it behaves like a function space.
 
-Since $A$, $B$ and the $C_i$'s can also be defunctionalized, this is a method to transform a whole functional program into one with no lambda expressions nor any true function types. 
+Since $A$, $B$ and the $C_i$’s can also be defunctionalized, this is a method to transform a whole functional program into one with no lambda expressions nor any true function types. 
 
 The coproduct type $Defun(A,B)$ is typically not a true function space in the sense of [[cartesian closed categories]] for two reasons. 
 
