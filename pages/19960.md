@@ -768,6 +768,11 @@ Application to [[meson]] physics:
 
 * Daniel Ávila, Leonardo Patiño, _Melting holographic mesons by cooling a magnetized quark gluon plasma_ ([arXiv:2002.02470](https://arxiv.org/abs/2002.02470))
 
+Application to [[quarkonium]]:
+
+* Rico Zöllner, Burkhard Kampfer, _Holographic vector meson melting in a thermal gravity-dilaton background related to QCD_ ([arXiv:2002.07200](https://arxiv.org/abs/2002.07200))
+
+
 
 [[!include application of holographic QCD to B-meson physics -- references]]
 
