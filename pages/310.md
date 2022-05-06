@@ -282,7 +282,19 @@ By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map
 
 ## References
 
-Named after [[Arend Heyting]].
+The original reference is
+
+* [[Arend Heyting]],
+_Die formalen Regeln der intuitionistischen Logik. I, II, III._
+Sitzungsberichte der Preußischen Akademie der Wissenschaften, Physikalisch-Mathematische Klasse (1930), 42-56, 57-71, 158-169.
+ 
+
+A quick introduction can be found in §1.2 of
+
+* [[Francis Borceux]],
+_[[Handbook of Categorical Algebra]] 3.  Categories of sheaves_,
+Cambridge University Press 1994.
+ISBN: 0521441803.
 
 [[!redirects Heyting algebra]]
 [[!redirects Heyting algebras]]
