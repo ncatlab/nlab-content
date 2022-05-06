@@ -72,11 +72,7 @@ $$
 
 ## Related concepts
 
-* [[SO(2)]]
-
-* [[Spin(2)]]
-
-* [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
+[[!include low dimensional rotation groups -- table]]
 
 
 ## References
