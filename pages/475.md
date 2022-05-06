@@ -73,6 +73,9 @@ A discussion of [[monoidal category|monoidal]] tricategories, regarded by the di
 
 * [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
 
+See also
+
+* Peter Guthmann, _The tricategory of formal composites and its strictification_, [arXiv:1903.05777](https://arxiv.org/abs/1903.05777)
 
 
 
