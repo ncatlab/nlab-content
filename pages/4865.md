@@ -161,7 +161,9 @@ The basic [[BPS states]] of 11d SuGra are
 
 * [[supergravity]]
 
-* [[12-dimensional supergravity]]
+* [[M-theory]], [[F-theory]]
+
+* [[D=12 supergravity]], [[D=14 supersymmetry]]
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
@@ -180,8 +182,6 @@ The basic [[BPS states]] of 11d SuGra are
 * [[supergravity C-field]], [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
 * [[Horava-Witten theory]]
-
-* [[M-theory]]
 
 * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
