@@ -26,6 +26,8 @@ A [[compact topological space|compact]] (i.e. [[closed manifold|closed]]) [[hype
 
 ## Examples
 
+### Hilbert schemes on $K3$ and $\mathbb{T}^4$
+
 The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ (for $n \in \mathbb{N}$) for $X$ either
 
 1. a [[K3-surface]]
@@ -35,6 +37,11 @@ The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert sche
 ([Beauville 83](#Beauville83))
 and two exceptional examples ([O'Grady 99](#OGrady99), [O'Grady 03](#OGrady03)
 ), see [Sawon 04, Sec. 5.3](#Sawon04).
+
+### Coulomb- and Higgs-branches of $D=3$ $\mathcal{N} =4 $ SYM
+
+Both the [[Coulomb branches]] and the [[Higgs branch]] of [[D=3 N=4 super Yang-Mills theory]] are [[hyperkähler manifolds]]. In special cases they are [[compact hyperkähler manifolds]] (e.g. [dBHOO 96](D=3+N=4+super+Yang-Mills+theory#dBHOO96)).
+
 
 ## Properties
 
