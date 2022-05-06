@@ -31,7 +31,7 @@ In particular the theorem thus establishes the [[superstring]] excitations of va
 
 The original articles are
 
-* {#GoddardThorn72} P. Goddard, [[Charles Thorn]], _Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model_, Phys. Lett., B 40, No. 2 (1972), 235-238.
+* {#GoddardThorn72} [[Peter Goddard]], [[Charles Thorn]], _Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model_, Phys. Lett., B 40, No. 2 (1972), 235-238 ([spire:74899](http://inspirehep.net/record/74899/))
 
 * Richard C. Brower, _Spectrum-generating algebra and no-ghost theorem for the dual model_, Physical Review D 6.6 (1972): 1655 ([doi:10.1103/PhysRevD.6.1655](https://link.aps.org/doi/10.1103/PhysRevD.6.1655))
 
