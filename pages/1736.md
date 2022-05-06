@@ -224,3 +224,5 @@ An example of an equivalence of [[homotopy categories]] of model categories whic
 
 
 [[!redirects Quillen equivalences]]
+[[!redirects Quillen equivalent]]
+[[!redirects Quillen equivalent model categories]]
