@@ -11,9 +11,11 @@
 
 **string-string dualities**
 
-* [[duality between type I and heterotic string theory|I - HET]]
+* [[HET - I]]
 
-* [[duality between M-theory and heterotic string theory|M - HET]]
+* [[HET - II]]
+
+* [[HET - M]]
 
 * [[duality between M-theory and type IIA superstring theory|M - IIA]].
 
