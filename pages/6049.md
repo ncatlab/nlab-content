@@ -295,13 +295,27 @@ The [[M-theory]]-lift of the black NS5-brane embedded into a [[D6-brane]] should
 
 ### As a Green-Schwarz sigma-model
 
-See also at _[[dual heterotic string theory]]_. The [[Green-Schwarz action functionals]] for the NS5-brane are discussed in
+
+The [[Green-Schwarz action functionals]] for the NS5-brane:
+
+In [[heterotic string theory]] (see also at _[[dual heterotic string theory]]_):
+
+
+* [[Kurt Lechner]], [[Mario Tonin]], _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
+
+
+* J. Mourad, _Anomalies of the $SO(32)$ five-brane and their cancellation_, Nucl.Phys. B512 (1998) 199-208 ([arxiv:hep-th/9709012](https://arxiv.org/abs/hep-th/9709012))
+
+* {#Lechner10} [[Kurt Lechner]], _Quantum properties of the heterotic five-brane_, Phys.Lett.B693:323-329, 2010 ([arxiv:1005.5719](https://arxiv.org/abs/1005.5719))
+
+
+In [[type IIA string theory]]:
 
 * [[Igor Bandos]], Alexei Nurmagambetov, [[Dmitri Sorokin]], _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
 
 * Daniel Persson, _Fivebrane Instantons and Hypermultiplets_ (2010) ([pdf](http://string.lpthe.jussieu.fr/QKPHYS2010/Persson.pdf))
 
-Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
+as a [[higher WZW model]]:
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
 
