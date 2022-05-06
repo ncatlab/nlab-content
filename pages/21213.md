@@ -121,18 +121,26 @@ as reviewed in
 
   (in the context of [[vector meson dominance]])
 
+See also:
+
+* Wikipedia, _[Omega meson](https://en.wikipedia.org/?title=Omega_meson)_
+
 See also
 
 * Reinhard Alkofer, H. Reinhardt, H. Weigel, U. Zuckert, _The Isoscalar vector meson omega in the Nambu-Jona-Lasinio soliton_, Phys. Lett. B298 (1992) 132-140 ([spire:343052](http://inspirehep.net/record/343052), <a href="https://doi.org/10.1016/0370-2693(93)91719-4">doi:10.1016/0370-2693(93)91719-4</a>)
 
-Experimental detection:
+Phenomenology:
+
 
 * Cheng-Qun Pang, Ya-Rong Wang, Jing-Fu Hu, Tian-Jie Zhang, Xiang Liu, _Study of the $\omega$ meson family and newly observed $\omega$-like state $X(2240)$_ ([arXiv:1910.12408](https://arxiv.org/abs/1910.12408))
 
+On [[Dalitz decays]] of omega-mesons:
 
-See also:
+* {#Wachs00} Mirko Wachs, _Die Selbstenergie des Omega-Mesons_, 2000 ([epda:000050](http://elib.tu-darmstadt.de/diss/000050))
 
-* Wikipedia, _[Omega meson](https://en.wikipedia.org/?title=Omega_meson)_
+* {#Berghauser10} Henning Berghäuser, _Investigation of the Dalitz decays and the electromagnetic form factors of the $\eta$ and $\pi^0$-meson_, 2010 ([spire:1358057](https://inspirehep.net/literature/1358057))
+
+
 
 
 
