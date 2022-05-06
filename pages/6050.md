@@ -29,7 +29,7 @@ $$
 
 where $\Box_g$ denotes the _wave operator_ /[[Laplace operator]], a [[hyperbolic differential operator]].
 
-For $m \in \mathbb{R}$ the inhomogoenous equation
+For $m \in \mathbb{R}$ the inhomogenous equation
 
 $$
   \Box_g f = m^2 f
