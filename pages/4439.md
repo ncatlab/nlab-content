@@ -57,7 +57,7 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
   (meant to be a course for undergraduates)
 
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String theory and M-theory: a modern introduction_,  Cambridge University Press (2006)
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String theory and M-theory: a modern introduction_,  Cambridge University Press (2006) ([spire:744404](http://inspirehep.net/record/744404))
 
 * [[Elias Kiritsis]], _String theory in a nutshell_, Princeton UP 2007, 608 pp. ([description](http://press.princeton.edu/titles/8456.html)); 1998 early version _Introduction to superstring theory_ (244 pp) is available as [hep-th/9709062](http://xxx.lanl.gov/abs/hep-th/9709062)
 
