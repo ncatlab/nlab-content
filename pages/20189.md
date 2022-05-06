@@ -62,7 +62,13 @@ Then the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrigh
 
 This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 
-[[Spin5OnHopfH.jpg:pic]]
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "Spin5OnHopfH.jpg",
+  "width": 280
+\end{imagefromfile}
+\end{center}
 
 ### Cohomology
 
@@ -178,19 +184,13 @@ $$
 
 ([Bott-Cattaneo 98, Lemma 2.1](#BottCattaneo98))
 
+\linebreak
+
 ## Related concepts
 
-* [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
+[[!include low dimensional rotation groups -- table]]
 
-* [[Spin(3)]]
-
-* [[Spin(4)]]
-
-* [[Spin(6)]]
-
-* [[Spin(7)]]
-
-* [[Spin(8)]]
+linebreak
 
 ## References
 
