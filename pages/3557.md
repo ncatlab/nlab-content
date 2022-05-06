@@ -44,7 +44,7 @@ Another way of phrasing the definition is that to each object $c$ of $C_T$ there
 
 $$\hom(-, P c) \to {|Pred_T|}(c \times -)$$ 
 
-of set-valued functors; the [[predicate]] $in_c$ is the value of $id_c$ under the assigned epimorphism $\hom(P c, P c) \to {|Pred_T(c \times P c)|}$ (_&#224; la_ [[Yoneda lemma]]). 
+of set-valued functors; the [[predicate]] $in_c$ is the value of $id_c$ under the assigned epimorphism $\hom(P c, P c) \to {|Pred_T(c \times P c)|}$ (*&#224; la* the [[Yoneda lemma]]). 
 
 The $in_c$ are called _generic predicates_. In particular, put $P = P 1$ and $in = in_1 \in Pred_T(P)$, with corresponding epimorphism $\hom(-, P) \to {|Pred_T|}$. If $C_T$ is [[cartesian closed category|cartesian closed]], we then have [[epimorphism|epis]]
 
@@ -77,7 +77,7 @@ Completeness of $H$ is used to ensure that for each function $f \colon X \to Y$,
 
 ### Coming from partial combinatory algebras{#PCA} 
 
-If $A$ is a [[partial combinatory algebra]] (PCA), we can form a tripos in the following manner. Let $C_T = Set$. For each set $X$, one can put a [[pre-ordering]] on $P(A)^X$ \[here, the $P(A)$ refers to the actual powerset of $A$ in $Set$\] as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $b$ in $f(x)$, $a$ applied to $b$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. The relation $\leq$ is reflexive and transitive, by functional completeness for PCA's. It is straightforward that for a function $f \colon X \to Y$, the pullback map 
+If $A$ is a [[partial combinatory algebra]] (PCA), we can form a tripos in the following manner. Let $C_T = Set$. For each set $X$, one can put a [[preorder]] structure on $P(A)^X$ \[here, the $P(A)$ refers to the actual powerset of $A$ in $Set$\] as follows: given $f, g \in P(A)^X$, let $Hom(f, g)$ be the set of $a$ in $A$ such that for all $x$ in $X$ and $b$ in $f(x)$, $a$ applied to $b$ is defined and an element of $g(x)$. We will of course take $f \leq g$ just in case $Hom(f, g)$ is inhabited. The relation $\leq$ is reflexive and transitive, by functional completeness for PCA's. It is straightforward that for a function $f \colon X \to Y$, the pullback map 
 $$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
 preserves the [[preorder]] structure. Now define $Pred_T(X)$ to be the poset obtained from the preorder $P(A)^X$ by posetal reflection. With the help of functional completeness, it may be shown that $Pred_T(X)$ is in fact a Heyting algebra, and we get in this way a hyperdoctrine; see [here](http://ncatlab.org/nlab/show/partial+combinatory+algebra#realizability_toposes_11) for details. Notice in this case we have, by construction, an epimorphism between set-valued functors  
 $$\hom_{Set}(-, P(A)) \to {|Pred_T|}$$ 
@@ -112,7 +112,7 @@ In the case of a [tripos induced from a topos $T$](#Topos), this construction yi
 
 In the case of a [realizability tripos](#PCA) associated with a PCA $A$, this construction yields the realizability topos of $A$. In the particular case where $A$ is [[Kleene's first algebra]] (the PCA whose elements are natural numbers taken as codes for computer programs taking natural number input and producing natural number output if they halt, with obvious application partial function), this is also called the [[effective topos]].
 
-Before we undertake a conceptual analysis of this theorem, we give in the next section some details for the tripos attached to a complete Heyting algebra, described [here](#Heyt). The description of the resulting topos coincides with that of [[Denis Higgs|Higgs]], in his treatment of localic toposes in terms of Boolean-valued or Heyting-valued set theory (a la Scott and Solovay). 
+Before we undertake a conceptual analysis of this theorem, we give in the next section some details for the tripos attached to a complete Heyting algebra, described [here](#Heyt). The description of the resulting topos coincides with that of [[Denis Higgs|Higgs]], in his treatment of localic toposes in terms of Boolean-valued or Heyting-valued set theory (*&agrave; la* Scott and Solovay). 
 
 ### Weak triposes
 
