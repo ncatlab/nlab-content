@@ -25,7 +25,7 @@ JT-gravity ([Teitelboim 83](#Teitelboim83), [Jackiw 85](#Jackiw85)) is [[gravity
 JT-gravity gives a good approximation to the [[anti de Sitter spacetime|AdS]]-factor in the [[near horizon geometry]] $AdS_2\times S^{d-2}$ of near-[[extremal black holes]] in $d$-dimensional spacetime
 ([NSST18](#NSST18), [MTV18](#MTV18)).
 
-Via the [[AdS/CFT]]-dual of JT-gravity ([Almheiri-Polchinski 14](#AlmheiriPolchinski14)) given by [[random matrix theory]] ([Saad-Shenker-Stanford 19](#SaadShenkerStanford19), [Stanford-Witten 19](#StanfordWitten19)) this allows to compute genuine [[quantum gravity]]-aspects of near-[[extremal black holes]], such as notable their microscopic [[black hole entropy]]. Computations are now under way...
+Via the [[AdS/CFT]]-dual of JT-gravity ([Almheiri-Polchinski 14](#AlmheiriPolchinski14)) given by [[random matrix theory]] ([Saad-Shenker-Stanford 19](#SaadShenkerStanford19), [Stanford-Witten 19](#StanfordWitten19)) (or [[SYK model]]) this allows to compute genuine [[quantum gravity]]-aspects of near-[[extremal black holes]], such as notable their microscopic [[black hole entropy]]. Computations are now under way...
 
 Notice that near-[[extremal black holes]] have been observed in nature, by the Chandra telescope [see eg here](https://scitechdaily.com/chandra-views-spinning-black-holes-across-cosmic-sea/).
 
