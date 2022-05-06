@@ -101,7 +101,19 @@ and then to try to develop them and ?nd a mathematical scheme that incorporates 
 
 * [[Mikio Nakahara]], Chapter 11 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
-  (with emphasis on [[topology]] and [[homotopy theory]] such as in [[fiber bundles in physics]])
+  (with emphasis on [[differential geometry]] and [[topology]]/[[homotopy theory]] such as in [[fiber bundles in physics]])
+
+* [[Adam Marsh]], 
+
+  _Mathematics for Physics: An Illustrated Handbook_, 
+
+  World Scientific 2018 
+
+  ([doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/))
+
+  chapter 10: _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
+
+  (with emphasis on [[differential geometry]] and [[topology]]/[[homotopy theory]] such as in [[fiber bundles in physics]])
 
 
 A historically inclined article is in 
