@@ -177,6 +177,7 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 * [[Bohr topos]]
 
+[[!include states and observables -- content]]
 
 ## References
 
