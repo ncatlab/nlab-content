@@ -17,9 +17,9 @@ On [[grand unified theories]], [[naturalness]], [[D=4 N=8 supergravity]], [[supe
 
 * [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, (reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669))
 
-A philosophical account of the nature of the universe is in
+A philosophical account of the nature of the universe, responding to some lines of [[Isaac Newton]], is in
 
-* {#Gell-Mann96} [[Murray Gell-Mann]], _Nature conformable to herself: Some arguments for a unified theory of the universe_, Complexity 1(4): 9-12 (1996), ([doi:10.1002/cplx.6130010404](https://doi.org/10.1002/cplx.6130010404)).
+* {#Gell-Mann96} [[Murray Gell-Mann]], _[[Nature conformable to herself]]: Some arguments for a unified theory of the universe_, Complexity 1(4): 9-12 (1996), ([doi:10.1002/cplx.6130010404](https://doi.org/10.1002/cplx.6130010404)).
 
 
 ## Related $n$Lab entries
