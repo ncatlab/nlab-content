@@ -1,15 +1,104 @@
 
-* {#Aharony94} [[Ofer Aharony]], p. 11 of _String theory dualities from M theory_, Nucl. Phys. B476:470-483, 1996 ([arXiv:hep-th/9604103](https://arxiv.org/abs/hep-th/9604103))
-
-* {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, N=(2,0) Field Theories_, Nucl.Phys. B581 (2000) 257-273 ([arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205))
-
-* Shan Hu, Dimitri Nanopoulos, _Hopf-Wess-Zumino term in the effective action of the 6d, (2, 0) field theory revisted_, JHEP 1110:054, 2011 ([arXiv:1110.0861](https://arxiv.org/abs/1110.0861))
+a [[circle-principal bundle]]
 
 \begin{xymatrix}
-      S^{2n-1}
-      \ar[rrr]^-{ \phi }
-      &&&
-      S^n
+  S^1 \ar[r] 
+  &
+  \Sigma^6
+  \ar[d]
+  \\
+  & \Sigma^5
 \end{xymatrix}
 
-***
+An [[Ehresmann connection]]
+
+$$
+  \theta^5
+  \;\in\;
+  \Omega^1\big( \Sigma^6 \big)
+$$
+
+$$
+  H \;\in\; \Omega^3\big(\Sigma^6\big)
+$$
+
+
+$$
+  H = d B
+$$
+
+$$
+  H 
+  \;=\;
+  \star_6 
+  H
+$$
+
+$$
+  \tilde H
+  \coloneqq
+  \star_5 H
+  \coloneqq
+  \star_5 
+  \big(
+    H - \mathcal{F} \wedge d x^5
+  \big)
+$$
+
+$$
+  A
+  \;\coloneqq\;
+  \iota_5 B
+$$
+
+$$
+  B
+  \;=\;
+  A \wedge d x^5
+  +
+  B^{\mathrm{bas}}
+$$
+
+$$
+  F 
+  \coloneqq
+  d_5 A
+$$
+
+$$
+  \begin{aligned}
+    \mathcal{F}
+    &\coloneqq
+    \iota_5 H
+    \\
+    & =
+    \iota_5 d B
+    \\
+    & =
+    -d \iota_5 B + [\iota_5, d] B
+    \\
+    & =
+    - d A + \mathcal{L}_5 B
+    \\
+    & =
+    - F - \mathcal{L}_5 A \wedge d x^5 + \mathcal{L}_5 ( A \wedge d x^5 + B^{basic} )
+    \\
+    & =
+    - F + \mathcal{L}_5 B^{bas}
+  \end{aligned}
+$$
+
+$$
+  \star_6 H
+  =
+  \star_6
+  \big(
+    \mathcal{F} \wedge d x^5
+    +
+    (H - \mathcal{F} \wedge d x^5)
+  \big)
+  =
+  \star_5 \mathcal{F}
+  + 
+  \tilde H \wedge d x^5
+$$
