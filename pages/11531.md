@@ -29,11 +29,15 @@ Prior to ([Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09)), all that was known 
 
 The solution of the problem in the negative, except for one outstanding dimension (namely 126), appears in
 
-* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics ([journal version](http://annals.math.princeton.edu/articles/9563), arXiv:[0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
-
-On the [[equivariant homotopy theory]] involved:
+* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics Volume 184 (2016), Issue 1 ([doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
 
 * {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+
+On the [[equivariant stable homotopy theory]] involved:
+
+* [Hill-Hopkins-Ravenel 09, Appendix](#HillHopkinsRavenel09)
+
+* [HillHopkinsRavenel, section 4](#HillHopkinsRavenel)
 
 More resources are collected at
 
