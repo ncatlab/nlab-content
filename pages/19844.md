@@ -25,9 +25,9 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
 
-<center>
+\begin{center}
 <img src="https://ncatlab.org/nlab/files/bsllprocesses.jpg" width="570">
-</center>
+\end{center}
 
 > graphics grabbed from [Cartelle 18](#Cartelle18)
 
