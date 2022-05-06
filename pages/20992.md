@@ -52,6 +52,8 @@ In order for [[Rozansky-Witten weight systems]] to take values in the [[ground f
 
 ## References
 
+### General
+
 * {#Beauville83} [[Arnaud Beauville]], _Variétés Kähleriennes dont la premiere classe de Chern est nulle_, Jour.
 Diff. Geom. 18 (1983), 755–782 ([euclid.jdg/1214438181](https://projecteuclid.org/euclid.jdg/1214438181))
 
@@ -62,7 +64,15 @@ Diff. Geom. 18 (1983), 755–782 ([euclid.jdg/1214438181](https://projecteuclid.
 * [[Daniel Huybrechts]], _Compact Hyperkähler Manifolds_, In: Ellingsrud G., Ranestad K., Olson L., Strømme S.A. (eds.) _Calabi-Yau Manifolds and Related Geometries_, Universitext. Springer, Berlin, Heidelberg 2003 ([doi:10.1007/978-3-642-19004-9_3](https://doi.org/10.1007/978-3-642-19004-9_3),
 [arXiv:alg-geom/9705025](https://arxiv.org/abs/alg-geom/9705025))
 
+### Examples from Coulomb branches
 
+On [[D=3 N=4 super Yang-Mills theories]] with [[compact hyperkähler manifold]] [[Coulomb branches]] obtained by [[KK-compactification]] of [[little string theories]]:
+
+* {#Intriligator99} [[Kenneth Intriligator]], _Compactified Little String Theories and Compact Moduli Spaces of Vacua_, Phys. Rev. D61:106005, 2000 ([arXiv:hep-th/9909219](https://arxiv.org/abs/hep-th/9909219))
+
+
+
+### In Rozansky-Witten theory
 
 With an eye towards [[Rozansky-Witten theory]] ([[ground field]]-valued [[Rozansky-Witten weight systems]]):
 
