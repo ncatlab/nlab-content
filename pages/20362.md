@@ -30,6 +30,12 @@ Under suitable [[duality between M-theory and type IIA string theory]] the M2/M5
 
 for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
+\linebreak
+
+[[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
+
+\linebreak
+
 ## Related entries
 
 [[!include brane bound states -- table]]
