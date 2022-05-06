@@ -201,6 +201,8 @@ $$
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
+* [[Michael Atiyah]], [[Nigel Hitchin]], J. T. Stuart and M. Tabor, _Low-Energy Scattering of Non-Abelian Magnetic Monopoles_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 315, No. 1533, New Developments in the Theory and Application of Solitons (Aug. 13, 1985), pp. 459-469 ([jstor:37546](https://www.jstor.org/stable/37546))
+
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
 * [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
