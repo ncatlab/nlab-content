@@ -102,6 +102,9 @@ The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] fo
 
 For $n=2$, this is in [[David Roberts]]\'s [[Fundamental Bigroupoids and 2-Covering Spaces|thesis]].  For $n=1$, it has been known for ages and is in [[Ronnie Brown]]\'s topology textbook.
 
+### Homology of loop spaces
+
+See at _[[homology of loop spaces]]_.
 
 ## Models
 
