@@ -24,7 +24,7 @@ The **J&#243;nsson-Tarski topos** $\mathcal{J}_2$ is the category of [[Jónsson-
 
 ##Properties
 
-* $\mathcal{J}_2$ is an example of an [[algebraic variety]] that is also a topos (cf. Johnstone 1985).
+* $\mathcal{J}_2$ is an example of an [[variety of algebras]] that is also a topos (cf. Johnstone 1985).
 
 * $\mathcal{J}_2=Sh(M_2,J)$ where $M_2$ is the free monoid on two generators $a, b$ and $J$ is the [[coverage]] whose only covering family on the unique object $\cdot$ of $M_2$ is $\{a:\cdot\rightarrow \cdot ,b:\cdot\rightarrow\cdot\}$. So $\mathcal{J}_2$ is in a fact a [[Grothendieck topos]].
 
