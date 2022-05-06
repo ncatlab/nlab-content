@@ -36,7 +36,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 ## Statistical significance
  {#StatisticalSignificance}
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]], specifically at the [[LHCb]] (see references [below](#References)). 
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], and at the [[Belle experiment]] (see references [below](#References)).
 
 
 The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
@@ -68,7 +68,7 @@ In conclusion, with currently available data, the observed flavour anomalies are
 
 > graphics taken from [Dordei 18, slide 22](#Dordei18)
 
-In any case further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
+In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
 <br/>
 
@@ -140,6 +140,10 @@ Review includes
 * Vera Lüth, _A Challenge to Lepton Universality in B Meson Decays_, Invited tall at [7th Symposium on Symmetries in Subatomic Physics (SSP 2018)](https://indico.cern.ch/event/651952/) at RWTH Aachen University (Germany), June 11-15, 2018 ([arXiv:1808.02587](https://arxiv.org/abs/1808.02587))
 
 * {#Dordei18} Francesca Dordei, _Lepton flavour universality at LHCb_, August 2018 ([cern:2634813](http://cdsweb.cern.ch/record/2634813), [pdf](http://cdsweb.cern.ch/record/2634813/files/dordei_nufact.pdf))
+
+* {#Adamczyk19} Karol Adamczyk ([[Belle collaboration]]), _Semitauonic B decays at Belle/Belle II_, Proceedings of the [10th International Workshop on the CKM Unitarity Triangle](https://ckm2018.physi.uni-heidelberg.de/) (CKM 2018), Heidelberg, Germany, September 17-21, 2018 ([arXiv:1901.06380](https://arxiv.org/abs/1901.06380))
+
+
 
 Outlook:
 
