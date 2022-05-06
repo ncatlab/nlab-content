@@ -348,6 +348,8 @@ For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometricall
 
 * [[equivariant homotopy group]]
 
+* [[equivariant differential topology]]
+
 * [[equivariant stable homotopy theory]]
 
 * [[equivariant motivic homotopy theory]]
