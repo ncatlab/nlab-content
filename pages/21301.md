@@ -101,16 +101,16 @@ The phenomenon of [[hadron supersymmetry]] was first noted and formalized (toget
 
 The argument that [[hadron supersymmetry]] is in fact implied by the [[constituent quark model]] in [[quantum chromodynamics]]:
 
-* {#CattoGuersey85} S. Catto,  F. Gürsey, _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
+* {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
 
-* {#CattoGuersey85} S. Catto, F. Gürsey, _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
+* {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
 
  
 
-* S. Catto, Y. Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
+* [[Sultan Catto]], Yasemin Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
 
 
-* {#CGNY19} S. Catto, Y. Gürcan, B. Nicolescu, E. Yu, _Effective Hadronic Supersymmetry from Quantum Chromodynamics_, Ukrainian Journal of Physics, Vol 64 No 12 (2019)  ([doi:10.15407/ujpe64.12.1096](https://doi.org/10.15407/ujpe64.12.1096))
+* {#CGNY19} [[Sultan Catto]], Yasemin Gürcan, B. Nicolescu, E. Yu, _Effective Hadronic Supersymmetry from Quantum Chromodynamics_, Ukrainian Journal of Physics, Vol 64 No 12 (2019)  ([doi:10.15407/ujpe64.12.1096](https://doi.org/10.15407/ujpe64.12.1096))
 
 
 * [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
@@ -125,26 +125,43 @@ Review (with emphasis on [[holographic light front QCD]]):
 * {#Brodsky18} Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
 
+
+### Via octonions
+
+Formulation via [[octonions]]:
+
+
+* Sultan Catto, Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
+
+
+See also:
+
+* Čestmir Burdik, Sultan Catto, Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
+
+
+
+
+
 ### Via holographic light front QCD
 
 Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]]:
 
-* {#dTDB14}  Guy F. de Teramond, Hans Gunter Dosch, Stanley J. Brodsky, _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
+* {#dTDB14}  [[Guy de Teramond]], [[Hans Günter Dosch]], [[Stanley Brodsky]], _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
 
 
-* Hans Gunter Dosch, Guy F. de Teramond, Stanley J. Brodsky, _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
+* [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
 
 
-* {#BTDL16}  Stanley J. Brodsky, Guy F. de Téramond, Hans Günter Dosch, Cédric Lorcé, _Meson/Baryon/Tetraquark Supersymmetry from Superconformal Algebra and Light-Front Holography_, International Journal of Modern Physics AVol. 31, No. 19, 1630029 (2016) ([arXiv:1606.04638](https://arxiv.org/abs/1606.04638))
+* {#BTDL16}  [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Cédric Lorcé, _Meson/Baryon/Tetraquark Supersymmetry from Superconformal Algebra and Light-Front Holography_, International Journal of Modern Physics AVol. 31, No. 19, 1630029 (2016) ([arXiv:1606.04638](https://arxiv.org/abs/1606.04638))
 
 
 
-* Hans Gunter Dosch, Guy F. de Teramond, Stanley J. Brodsky, _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
+* [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
 
-* {#NielsenBrodsky18} Marina Nielsen, Stanley J. Brodsky, _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652))
+* {#NielsenBrodsky18} [[Marina Nielsen]], [[Stanley Brodsky]], _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652))
 
 
-* Marina Nielsen, Stanley J. Brodsky, Guy F. de Téramond, Hans Günter Dosch, Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
+* [[Marina Nielsen]], [[Stanley Brodsky]], Guy F. de Téramond, [[Hans Günter Dosch]], Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
 
 
 
