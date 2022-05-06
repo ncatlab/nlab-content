@@ -116,9 +116,77 @@ $$
 
 ### Splitting principle
 
-application of the [[splitting principle]] to linear representation via the [[Brauer induction theorem]] (...)
+Let $G$ be a [[finite group]], let the [[ground field]] to be the [[complex numbers]].
 
-([Symonds 91, p. 4 & Prop. 2.4](#Symonds91))
+Then by the [[Brauer induction theorem]] every [[virtual representation]]
+
+$$
+  [V] \in R_\mathbb{C}(G)
+$$
+
+has a presentation as a virtual combination of [[induced representations]] of 1-[[dimension|dimensional]] representations:
+
+$$
+ \underset{
+     \mathclap{
+         {H_i \hookrightarrow G} 
+           \atop 
+         { W_i \in Rep(H_i) \,,\; dim(W_i) =1 }
+     }
+   }{\sum}
+   n_i
+  \left[
+     ind_{H_i}^G W_i
+  \right]
+$$
+
+According to [Symonds 91, p. 4 & Prop. 2.4](#Symonds91), this implies a [[splitting principle]] for the corresponding [[Chern classes]] summarized in the formal [[Chern character]] (formal sum of all [[Chern classes]]) as follows:
+
+$$
+  ch
+  \left(
+     V
+  \right)
+  \;=\;
+  \underset{ 
+     \mathclap{
+         {H_i \hookrightarrow G} 
+           \atop 
+         { 
+           { W_i \in Rep(H_i)\,, } 
+           \atop
+           { dim(W_i) = 1 } 
+         }
+     }
+   }{\prod}
+   \mathcal{N}_{H_i}^G
+    \overset{
+      \mathclap{
+        = (1 + c_1(W_i))
+      }
+    }{
+    \overbrace{
+      ch\left(W_i\right)
+    }
+   }
+   {}^{\alpha(W_i)}
+   \;\;
+   \in 
+   \underset{ k \in \mathbb{N} }{\prod}
+   H^{2k}\big(B G, \mathbb{Z} \big)
+$$
+
+where 
+
+1. the "multiplicative transfer" [[integers]] $\mathcal{N}_J^G$ are to be found in [Evens 63](#Evens63);
+
+1. the $\alpha(W_i)$-s are the [[Euler characteristics]] of certain [[CW-complexes]], described in [Symonds 91, p. 3](#Symonds91).
+
+Here over the brace we used that the $W_i$ are 1-dimensional, so that at most their [[first Chern class]] may be non-vanishing.
+
+(...)
+
+
 
 ## References
 
