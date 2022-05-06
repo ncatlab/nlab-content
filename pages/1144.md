@@ -1194,7 +1194,7 @@ Survey and review includes
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013)
 
-* {#FelixHalperin} [[Yves Félix]] and [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_, arXiv:[1708.05245](https://arxiv.org/abs/1708.05245)
+* {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_, ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245))
 
 
 
