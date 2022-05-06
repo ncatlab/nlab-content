@@ -166,6 +166,8 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 
 ## References
 
+(See also the references at _[[Dirac charge quantization]]_.)
+
 
 * [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
 
