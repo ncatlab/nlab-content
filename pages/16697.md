@@ -15,6 +15,10 @@ and their intersection with [[orientifolds]]:
 
 * [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
 
+On [[M-theory on S1/G_HW times H/G_ADE]]:
+
+* Santiago Cabrera, [[Amihay Hanany]], Marcus Sperling, _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
+
 
 
 
