@@ -58,7 +58,7 @@ Discussion of the heterotic [[NS5-brane]] as a [[Green-Schwarz sigma-model]] and
 
 * J. Mourad, _Anomalies of the $SO(32)$ five-brane and their cancellation_, Nucl.Phys. B512 (1998) 199-208 ([arxiv:hep-th/9709012](https://arxiv.org/abs/hep-th/9709012))
 
-* {#Lechner10} [[Kurt Lechner]], _Quantum properties of the heterotic five-brane_, Phys.Lett.B693:323-329, 2010 ([arxiv:1005.5719](https://arxiv.org/abs/1005.5719))
+* {#Lechner10} [[Kurt Lechner]], _Quantum properties of the heterotic five-brane_, Phys. Lett. B693:323-329, 2010 ([arxiv:1005.5719](https://arxiv.org/abs/1005.5719))
 
 
 * J. A. Dixon, [[Mike Duff]], [[Jan Plefka]], _Putting the string/fivebrane duality to the test_ ([arXiv:hep-th/9208055](http://arxiv.org/abs/hep-th/9208055))
