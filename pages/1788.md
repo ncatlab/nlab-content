@@ -24,4 +24,4 @@ $$
 
 <br>
 
-[[!include monoidal category > pentagon]]
+<img src="/nlab/files/pentagon.svg" alt=""/>
