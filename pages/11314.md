@@ -13,6 +13,17 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 
 ## References
 
+### General
+
 * Wikipedia, _[Quantum chemistry](http://en.wikipedia.org/wiki/Quantum_chemistry)_
 
 * {#Feynman63} [[Richard Feynman]], _The Feynman Lectures on Physics, vol III_, Chapter 19, [Lectures](http://www.feynmanlectures.caltech.edu/III_toc.html)
+
+### Application of tensor network states
+
+Application of [[tensor networks]] (specifically [[tree tensor networks]]) in quantum chemistry:
+
+* Naoki Nakatani, Garnet Kin-Lic Chan, _Efficient Tree Tensor Network States (TTNS) for Quantum Chemistry: Generalizations of the Density Matrix Renormalization Group Algorithm_, J. Chem. Phys. 138, 134113 (2013) ([arXiv:1302.2298](https://arxiv.org/abs/1302.2298))
+
+* Henrik R. Larsson, _Computing vibrational eigenstates with tree tensor network states (TTNS)_, J. Chem. Phys. 151, 204102 (2019) ([arXiv:1909.13831](https://arxiv.org/abs/1909.13831))
+
