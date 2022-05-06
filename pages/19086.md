@@ -131,17 +131,14 @@ over the region $Re(s) \gt 1$.
 Let us bound the summands in the definition of $\Psi(s)$: 
 
 $$\array{
-\left| \int_n^{n+1} \frac1{n^s} - \frac1{x^s}\; d x \right| & \leq & \underset{n \leq x \leq n+1}{\max}\; \left|\frac1{n^s} - \frac1{x^s} \right|\\ 
- & \leq & \underset{n \leq x \leq n+1}{\max}\; \underset{n \leq t \leq x}{\max}\;  \left| \frac{s}{t^{s+1}} \cdot (x-n)\right| \\
- & \leq & \underset{n \leq t \leq n+1}{\max}\; \left|\frac{s}{t^{s+1}}\cdot 1\right| \\ 
- & \leq & \frac{{|s|}}{n^{Re(s) + 1}}
+\left| \int_n^{n+1} \frac1{n^s} - \frac1{x^s}\; d x \right| & = & \left| \int_n^{n+1} \int_n^x \; \frac{s}{t^{s+1}}\; d t\; d x \right|\\ 
+ & \leq & \int_n^{n+1} \int_n^x \; \frac{{|s|}}{{|t^{s+1}|}}\;d t \; d x \\ 
+ & = & \int_n^{n+1} \int_n^x \; \frac{{|s|}}{t^{Re(s) + 1}}\; d t\; d x \\ 
+ & \leq & \int_n^{n+1} \int_n^x \; \frac{{|s|}}{n^{Re(s) + 1}}\;d t \; d x \\
+ & \leq & \frac{{|s|}}{n^{Re(s) + 1}}.
 }$$ 
 
-where the second inequality follows from the mean value theorem. Since 
-
-$$\sum_{n=1}^\infty \frac1{n^{Re(s) + 1}}$$ 
-
-converges over the region $Re(s) \gt 0$, it follows that the series for $\Phi(s)$ converges absolutely, and $\Psi(s)$ is a holomorphic function, in that region. 
+Since $\sum_{n=1}^\infty \frac1{n^{Re(s) + 1}}$ converges over the region $Re(s) \gt 0$, it follows that the series for $\Phi(s)$ converges absolutely, and $\Psi(s)$ is a holomorphic function, in that region. 
 
 Over the region $Re(s) \gt 1$, we have 
 
