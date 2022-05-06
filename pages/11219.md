@@ -1,19 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Arithmetic
-+--{: .hide}
++-- {: .hide}
 [[!include arithmetic geometry - contents]]
 =--
 =--
 =--
 
-
-
 # Contents 
 * table of contents 
-{:toc} 
+{: toc} 
 
 ## Discussion 
 
@@ -41,35 +39,46 @@ For example, one passes from the rig of natural numbers to the ring of integers 
 
 Sometimes one singles out subtypes of such types; for example, the field of all algebraic numbers is the union of all number fields considered within the type of complex numbers. Sometimes numbers are designated according to what they are *not*, for example one speaks of irrational (= non-rational) numbers and of transcendental (= non-algebraic complex) numbers. 
 
+
 ## Links to articles on numbers 
 
 * [[natural number]]
 
-* [[integer number]]
-
   * [[even number]], [[odd number]]
 
-* [[rational number]]
-
-* [[real number]]
+* [[integer]]
 
   * [[positive number]], [[negative number]]
 
-* [[irrational number]]
+* [[real number]]
 
-* [[complex number]] 
+  * [[rational number]], [[irrational number]]
 
-* [[quaternion]] 
+  * [[algebraic number]], [[transcendental number]]
 
-* [[octonion]] 
+* [[complex number]]
+
+  * [[imaginary number]]
+
+* [[hypercomplex number]]
+
+  * [[dual number]], [[quaternion]], [[octonion]]
 
 * [[adic number]] 
 
-* [[cardinal number]] 
+* [[infinite number]], [[infinitesimal]]
 
-* [[ordinal number]] 
+  * [[extended real number]]
 
-* [[surreal number]] 
+  * [[cardinal number]]
+
+  * [[ordinal number]]
+
+  * [[nonstandard natural number]]
+
+  * [[hyperreal number]]
+
+  * [[surreal number]]
 
 
 ## Related entries
@@ -79,6 +88,5 @@ Sometimes one singles out subtypes of such types; for example, the field of all 
 (...)
 
 
-
+[[!redirects number]]
 [[!redirects numbers]]
-
