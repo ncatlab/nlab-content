@@ -94,6 +94,20 @@ One easily checks that $\hat{F}$ is pseudonaturally equivalent to $F$...
 
 The construction of the strictification is a special case of a general strictification construction due to [Power](#Pow). Later Steve Lack [showed](#Lack) that the strictifications obtained from Power's coherence theorem always have a universal property analogous to that of the result above.
 
+We also have the following result: 
+
++-- {: .num_prop}
+###### Proposition 
+Given bicategories $C$ and $D$, for any pseudofunctor $F \colon C \to D$, there is a pseudofunctor $\hat{F}\colon C\to D$ that strictly preserves identity 1-morphisms, and a pseudonatural equivalence $\eta_F\colon F\to \hat{F}$.  
+=-- 
+
++-- {: .proof} 
+###### Proof  
+This is Proposition 5.1 of [Lack and Paoli](#LP).  Pseudofunctors that strictly preserve identity 1-morphisms are called
+**normal**.  
+=---
+
+
 ## History
 
 Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weakened, around 1957, the concept of a [[contravariant functor]] from a [[1-category]] to [[Cat]], by effectively replacing the $1$-category Cat by the [[2-category]] $Cat$ and allowing (contravariant) functoriality up to coherent $2$-cells. This was recorded in his [[Bourbaki]] seminar on [[descent]] via pseudofunctors. Later in [[SGA1]] Grothendieck (with the assistance of [[Pierre Gabriel]]) replaced pseudofunctors in the treatment of descent by more invariant [[fibered categories]]. [[Benabou]], in his 1967 [treatise](#Ben) introducing [[bicategories]], generalized the pseudofunctors of Grothendieck to pseudofunctors between arbitrary bicategories but under the name 'homomorphism of bicategories'. 
@@ -121,11 +135,18 @@ Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weak
 * [[Jean Bénabou]], _Introduction to bicategories_, Springer LNM 47 (1967), 1-77. 
 {#Ben} 
 
+* [[Stephen Lack]], _Codescent objects and coherence_, JPAA Vol. 175 (2002), 223-241. ([web](http://www.sciencedirect.com/science/journal/00224049/175/1))
+{#Lack} 
+
+* [[Stephen Lack]] and [[Simona Paoli]], 2-nerves for bicategories, $K$-Theory 38 (2008), 153-175.   ([arxiv](https://arxiv.org/abs/math/0607271)).
+{#LP}
+
 * A. J. Power, _A general coherence result_, JPAA Vol. 57 Iss. 2 (1989), 165-173. ([web](http://www.sciencedirect.com/science/article/pii/0022404989901138)) 
 {#Pow}
 
-* [[Stephen Lack]], _Codescent objects and coherence_, JPAA Vol. 175 (2002), 223-241. ([web](http://www.sciencedirect.com/science/journal/00224049/175/1))
-{#Lack} 
+
+
+
 
 
 [[!redirects pseudofunctors]]
