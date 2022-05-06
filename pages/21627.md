@@ -24,7 +24,7 @@ The following articles claim the existence of exact realization of the [[gauge g
 * Wilfried Buchmuller, Koichi Hamaguchi, Oleg Lebedev, Michael Ratz, _Supersymmetric Standard Model from the Heterotic String_, 
 Phys. Rev. Lett. 96:121602, 2006 ([arXiv:hep-ph/0511035](https://arxiv.org/abs/hep-ph/0511035))
 
-* {#BraunHeOvrutPantev06} [[Volker Braun]], [[Yang-Hui He]], [[Burt Ovrut]], [[Tony Pantev]], _The Exact MSSM Spectrum from String Theory_, JHEP 0605:043,2006 ([arXiv:hep-th/0512177](http://arxiv.org/abs/hep-th/0512177))
+* {#BraunHeOvrutPantev06} [[Volker Braun]], [[Yang-Hui He]], [[Burt Ovrut]], [[Tony Pantev]], _The Exact MSSM Spectrum from String Theory_, JHEP 0605:043, 2006 ([arXiv:hep-th/0512177](http://arxiv.org/abs/hep-th/0512177))
 
 * [[Vincent Bouchard]], [[Ron Donagi]], _An SU(5) Heterotic Standard Model_, Phys. Lett. B633:783-791,2006 ([arXiv:hep-th/0512149](http://arxiv.org/abs/hep-th/0512149))
 
