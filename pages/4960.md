@@ -1561,19 +1561,20 @@ The canonical morphism $\Gamma X \to \Pi_0 X$ sends each vertex to its connected
 
 #### Simplicial sets {#SimplicialSets}
 
-Reflexive directed graphs are equivalently [[simplicial skeleton|skeleta]] of 
-[[simplicial set]]s.
+Let $C = \Delta$ be the [[simplex category]], regarded as a [[site]] with the trivial [[coverage]].
+
+The corresponding [[sheaf topos]] $Sh(\Delta)$ is the [[presheaf topos]] $E = PSh(\Delta) = $ [[sSet]] of [[simplicial sets]]. 
+
+Notice that reflexive [[directed graphs]] are equivalently [[simplicial skeleton|skeleta]] of [[simplicial sets]].
 
 +-- {: .num_prop}
 ###### Proposition
 
-The category [[sSet]] of simplicial sets is a cohesive topos in which _cohesive pieces have points_ . 
+The category [[sSet]] of simplicial sets is a [[cohesive topos]] in which _[[points-to-pieces transform|cohesive pieces have points]]_ . 
 
 =--
 
-Let $C = \Delta$ be the [[simplex category]], regarded as a [[site]] with the trivial [[coverage]].
 
-The corresponding [[sheaf topos]] $Sh(\Delta)$ is the [[presheaf topos]] $E = PSh(\Delta) = $ [[sSet]] of [[simplicial set]]s. 
 
 We have for $X \in sSet$
 
