@@ -234,12 +234,23 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 
 [[!redirects complex cobordism spectrum]]
 
-[[!redirects periodic complex cobordism spectrum]]
+[[!redirects complex bordism ring]]
+[[!redirects complex bordism rings]]
+
+[[!redirects complex cobordism ring]]
+[[!redirects complex cobordism rings]]
 
 [[!redirects complex cobordism cohomology theory]]
 [[!redirects complex cobordism]]
 
 [[!redirects complex bordism]]
+
+[[!redirects complex bordism ring]]
+[[!redirects complex bordism rings]]
+
+[[!redirects complex cobordism ring]]
+[[!redirects complex cobordism rings]]
+
 
 [[!redirects complex cobordism cohomology]]
 [[!redirects complex cobordism cohomology theory]]
