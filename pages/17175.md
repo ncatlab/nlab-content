@@ -25,7 +25,7 @@ The generalized Chern classes serve as the generalized [[Thom classes]] that mak
 ## Definition
  {#Definition}
 
-The definition of the $E$-Chern classes according to [Conner-Floyd 66, Theorem 7.5](#ConnerFloyd66) proceeds as follows.
+The definition of the $E$-Chern classes according to [Conner-Floyd 66, Theorem 7.6](#ConnerFloyd66) proceeds as follows.
 
 Let $n \in \mathbb{N}$. Let $c_1^E$ in
 
