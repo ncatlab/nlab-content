@@ -609,7 +609,19 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 ### Fun with subsets
 
-### Subtyping (Conjectural)
+### Subtyping (Planned)
+
+Subtyping variance rules should be derivable for the type constructors. They probably aren't yet, though. Here's an example of this kind of rule:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type \\
+\Gamma \vdash A'\,type \qquad \Gamma,x:A' \vdash B'\,type \\
+\Gamma \vdash A' \lt\!\!:\;A \qquad
+\Gamma,x:A' \vdash B \lt\!\!:\;B'
+\end{array}}
+{\Gamma \vdash (\Pi x:A.B) \lt\!\!:\;(\Pi x:A'.B')}$$
+
+Yes, contravariance for function domains. A difference from subsetting in [[material set theory]].
 
 ## PER theory {#PERtheory}
 
