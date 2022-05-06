@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Hopf invariant one_ refers to [[homotopy classes]] of [[continuous functions]] between [[spheres]] of the form
+In [[algebraic topology]], _Hopf invariant one_ refers to [[homotopy classes]] of [[continuous functions]] between [[spheres]] of the form
 
 $$
   \phi \;\colon\; S^{2n-1} \longrightarrow S^n
@@ -26,6 +26,7 @@ hence to elements in the [[homotopy groups of spheres]]
 
 $$
   [\phi] \in \pi_{2n-1}(S^n)
+  \,,
 $$
 
 whose [[Hopf invariant]] is equal to one:
@@ -34,6 +35,11 @@ $$
   h(\phi) = 1
   \,.
 $$
+
+Often this is regarded not in the [[integers]] but in its [[quotient]] to the [[cyclic group of order 2]] $\mathbb{Z}/2$, where it hence says that the actual integer value is an [[odd number]]. 
+
+
+The _Hopf invariant one problem_, once a famous open problem, solved in [Adams 60](#Adams60), is the classification of maps for which Hopf invariant is indeed equal to one.
 
 
 
