@@ -313,6 +313,24 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 ## Properties
 
 
+### Monoid structure and its group completion
+
+On [[Euclidean spaces]] (and maybe more generally on[[framed manifolds]]) any configuration space of points gets the [[mathematical structure]] of a [[topological monoid]] with product operation being the [[disjoint union]] of point configurations, after a suitable shrinking to put them next to each other ([Segal 73, p. 1-2](#Segal73)).
+
+Write
+
+$$
+  B_{\sqcup} Conf(\mathbb{R}^D)
+$$
+
+for the [[delooping]]
+("[[classifying space]]") with respect to this [[topological monoid]]-[[structure]]. The corresponding [[based loop space]] is then the [[group completion]] of the configuration space, with respect to disjoint union of points.
+
+
+
+
+
+
 ### Relation to iterated loop spaces of iterated suspensions
  {#LoopSpacesOfSuspensions}
 
@@ -774,6 +792,12 @@ subject to the following [[generators and relations|relations]]:
 
 This is due to [Kohno 02](#Kohno02). See also [Lambrechts-Tourtchine 09, Section 3](#LambrechtsTourtchine09).
 
+\linebreak
+
+
+
+
+
 
 
 \linebreak
@@ -838,10 +862,17 @@ Generalization of these constructions and results is due to
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
 
-
 and generalization to [[equivariant homotopy theory]] is discussed in
 
 * Colin Rourke, Brian Sanderson, _Equivariant Configuration Spaces_, 62(2), October 2000, pp. 544-552 ([pdf](http://wrap.warwick.ac.uk/828/1/WRAP_Rourke_Equivariant_configuration.pdf))
+
+The relevant construction for the [[group completion]] of the configuration space
+
+* [Segal 73, Theorem 1](#Segal73)
+
+
+* [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
+
 
 
 See also
