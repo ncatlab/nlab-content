@@ -138,6 +138,11 @@ The nature of the [[event horizon]], specifically, is discussed in
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
+### Cosmology inside black holes
+
+* Razieh Pourhasan, Niayesh Afshordi, Robert B. Mann, _Out of the White Hole: A Holographic Origin for the Big Bang_ ([arxiv:1309.1487](https://arxiv.org/abs/1309.1487))
+
+
 
 [[!redirects black holes]]
 
