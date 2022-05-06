@@ -37,7 +37,9 @@ For more on this see at _[[categorical semantics]]_ and at _[[relation between t
 
 * [[categorical semantics]];
 
-* [[denotational semantics]], [[operational semantics]];
+* [[denotational semantics]], [[operational semantics]]
+
+* [[distributional semantics]]
 
 * [[geometric models for modal logics]];
 
