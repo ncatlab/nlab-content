@@ -65,6 +65,13 @@ In summary ([Kusenko 15](#Kusenko15)):
 
 > $[$The$]$ conclusion is that the best theoretical fit to measured parameters, including the Higgs and top-quark masses, points to a metastable Universe. However, their analysis also concludes that values of parameters are closer to a region of absolute stability than suggested by previous studies: it is possible for the Universe to be fully stable (and for the standard model to work all the way up to the Planck scale), if the true values of measured parameters are only 1.3 standard deviations away from the current best estimates.
 
+And more recently ([PDG 18, p. 9](#PDG18)):
+
+> {#PDG18OnVacuumMetastability} However, for the value of Higgs mass experimentally measured, the EW vacuum of the Higgs potential is most likely metastable. Indeed, the high energy evolution of $\lambda$ shows that it becomes [[negative number|negative]] at [[energies]] $\Lambda = \mathcal{O}(10^{10}-10^{12})$ [[GeV]], with a broader range if the [[top quark]] [[mass]] exceeds its current measured value by [[statistical significance|3σ]]. When this occurs, the [[standard model of particle physics|SM]] Higgs potential develops an instability and the long term existence of the [[electroweak symmetry breaking|EW]] [[vacuum]] is challenged. This behavior may call for new physics at an intermediate scale before the instability develops, i.e., below [[Planck mass|M_Planck]], otherwise, the electroweak vacuum remains metastable.
+
+> 
+
+
 However [[quantum tunneling]]/[[vacuum decay]] is an intrinsically [[non-perturbative effect]] which needs careful treatment beyond [[perturbative quantum field theory]] (e.g. [AFFS 17](#AFFS17))
 
 \begin{centre}
@@ -174,7 +181,7 @@ Discussion of the Higgs mechanism in the [[G2-MSSM]]: [Kane 11](#Kane11), [Kane-
 
 * in the [[technicolor]] model the Higgs field is not a fundamental particle but a compound of [[fermions]]. This realizes the Higgs effect entirely in ordinary [[gauge theory]]; 
 
-* in [[Connes-Lott-Barrett-Chamseddine models]] it has been [shown](standard+model+of+particle+physics#NCGeometry) that the Higgs may be modeled as a component of the gauge bosons assuming that the [[Kaluza-Klein mechanism|KK-reduction]] is over a certain non-commutative space of classical dimension 0.
+* in [[Connes-Lott-Chamseddine-Barrett models]] it has been [shown](standard+model+of+particle+physics#NCGeometry) that the Higgs may be modeled as a component of the gauge bosons assuming that the [[Kaluza-Klein mechanism|KK-reduction]] is over a certain non-commutative space of classical dimension 0.
 
 ## History
 
@@ -223,6 +230,9 @@ The original articles explaining what is now called the Higgs mechanism by [[spo
 While all these articles essentially describe the Higgs mechanism, apparently only the one by Peter Higgs explicitly points out that this mechanism predicts the existence of a new, then unobserved, boson, the one therefore now called the _Higgs boson_.
 
 Review includes
+
+* {#PDG18} Particle Data Group [Review of particle physics](http://pdg.lbl.gov/), _Status of Higgs Boson Physics_, 2018 ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-higgs-boson.pdf), [[StatusOfHiggsBosonPhysics2018.pdf:file]])
+
 
 * Sally Dawson, Christoph Englert, Tilman Plehn, _Higgs Physics: It ain't over till it's over_, Physics Reports ([arXiv:1808.01324](https://arxiv.org/abs/1808.01324))
 
