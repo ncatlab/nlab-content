@@ -22,7 +22,7 @@ It is common in [[mathematics]] to speak of
 
 1. objects carrying "extra structure" (for instance a [[set]] carrying a [[topological space|topology]]);
 
-1. objects being equipped with "extra stuff" (for instance a [[vector space]] equipped with an [[inner product]]).
+1. objects being equipped with "extra stuff" (for instance a [[ring]] being equipped with a [[module]]).
 
 In [[model theory]] there is a formalization of what it means to equip a [[set]] with [[mathematical structure]], and one may say what it means for a function between these sets to have the property of preserving this extra structure. 
 But this formalization captures only parts of the situations in which it is useful to speak of "extra property", "extra structure", and "extra stuff".
