@@ -67,6 +67,17 @@ There are also many special kinds of [[Lie groups]] ([[semisimple Lie group|semi
 
 ### General
 
+ 
+
+* {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
+
+  * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
+
+  * *II.* V. V. Gorbatsevich, A. L. Onishchik, _Lie Transformation Groups_ 
+
+  Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
+
+
 * {#Okounkov18} [[Andrei Okounkov]], _New worlds for Lie theory_, talk at [ICM 2018](http://www.icm2018.org/portal/en/home) ([pdf](http://www.math.columbia.edu/~okounkov/icm.pdf))
 
 ### Lie 1-groupoids vs. Lie algebroids
