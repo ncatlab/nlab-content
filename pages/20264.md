@@ -101,7 +101,7 @@ Discussion of [[generalized Calabi-Yau manifold]] backgrounds is for instance in
 
 Discussion of [[duality in string theory|duality]] with [[M-theory on G2-manifolds]]:
 
-* {#BraunSchaeferNameki17} [[Andreas Braun]], Sakura Schaefer-Nameki, _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
+* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
 [[!redirects hetrotic string theory on Calabi-Yau manifolds]]
 [[!redirects hetrotic string theory on Calabi-Yau 3-folds]]
