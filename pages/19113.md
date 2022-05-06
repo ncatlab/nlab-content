@@ -1,4 +1,3 @@
-[[!redirects finite rotation groups]]
 
 
 
@@ -37,30 +36,135 @@ The [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $S
 
 [[!include ADE -- table]]
 
+
 Here under the [[double cover]] projection (using the [exceptional isomorphism](spin+group#ExceptionalIsomorphisms) $SU(2) \simeq Spin(3)$)
 
 $$
-  SU(2) \overset{\pi}{\longrightarrow} SO(3)
+  SU(2) \simeq Spin(3) \overset{\pi}{\longrightarrow} SO(3)
 $$
 
-all the finite subgroups of $SU(2)$ except the [[odd number|odd]]-[[order of a group|order]] [[cyclic groups]] are the [[preimages]] of the corresponding finite subgroups of $SO(3)$.
-
-In particular, the [[binary dihedral groups]] sit inside the [[Pin(2)]]-[[subgroup]] of $Spin(3)$:
+all the finite subgroups of $SU(2)$ except the [[odd number|odd]]-[[order of a group|order]] [[cyclic groups]] are the [[preimages]] of the corresponding finite subgroups of $SO(3)$, in that we have [[pullback]] [[diagrams]]
 
 $$
   \array{
+    \left\langle
+     \exp
+     \left(
+       \pi \mathrm{i} \tfrac{1}{n} 
+     \right)
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/(2n)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+     Ad_{
+     \exp
+     \left(
+       \pi \mathrm{i} \tfrac{1}{n} 
+     \right)
+     }
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/n
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+exhibiting the [[even number|even]] [[order of a group|order]] [[cyclic groups]] as subgroups of [[Spin(2)]], including the the minimal case of the [[group of order 2]]
+
+$$
+  \array{
+    \left\langle
+     \exp
+     \left(
+       \pi \mathrm{i}
+     \right)
+     =
+     -1
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/2
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+     Ad_{
+     \exp
+     \left(
+       \pi \mathrm{i} 
+     \right)
+     }
+     =
+     e
+    \right\rangle
+    &
+    =
+    &
+    1
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+
+as well as
+
+$$
+  \array{
+    \left\langle
+      \exp\left( \pi \mathrm{i} \tfrac{1}{n} \right), \, \mathrm{j} 
+    \right\rangle
+    &=&
     2 D_{2n}
     &\overset{\phantom{AA}}{\hookrightarrow}&
     Pin_-(2)
     &\overset{\phantom{AA}}{\hookrightarrow}&
     Spin(3)
     \\
+    &&
     \big\downarrow
     &{}^{(pb)}&
     \big\downarrow
     &{}^{(pb)}&
-    \big\downarrow
+    \big\downarrow^{ \mathrlap{\pi} }
     \\
+    \left\langle
+      Ad_{\exp\left( \pi \mathrm{i} \tfrac{1}{n}  \right) }, 
+      \, 
+      Ad_{\mathrm{j}} 
+    \right\rangle
+    &&
     D_{2n}
     &\overset{\phantom{AA}}{\hookrightarrow}&
     O(2)
@@ -69,6 +173,51 @@ $$
   }
 $$
 
+exhibiting the [[binary dihedral groups]] as sitting inside the [[Pin(2)]]-[[subgroup]] of [[Spin(3)]],
+
+but only [[commuting diagrams]]
+
+$$
+  \array{
+    \left\langle
+     \exp
+     \left(
+       2 \pi \mathrm{i} \tfrac{1}{{2n+1}} 
+     \right)
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/(2n+1)
+    &&\overset{\phantom{AA}}{\hookrightarrow}&&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+      &&
+      &&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+     Ad_{
+     \exp
+     \left(
+       2 \pi \mathrm{i} \tfrac{1}{2n+1} 
+     \right)
+     }
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/(2n+1)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+for the [[odd number|odd]] [[order of a group|order]] [[cyclic group|cyclic]] [[subgroups]].
 
 =--
 
@@ -258,6 +407,7 @@ symmetry_ A K Peters Ltd., Natick, MA, 2003
 
 * {#MecchiaZimmermann10} Mattia Mecchia, Bruno Zimmermann, _On finite groups acting on homology 4-spheres and finite subgroups of $SO(5)$_, Topology and its Applications 158.6 (2011): 741-747 ([arXiv:1001.3976](https://arxiv.org/abs/1001.3976))
 
+[[!redirects finite rotation groups]]
 
 [[!redirects classification of the finite rotation groups]]
 
