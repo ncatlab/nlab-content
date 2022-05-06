@@ -86,7 +86,11 @@ A bidirectional system controls this rule more carefully, enforcing it to be use
 
 We have primitive rules asserting that equality of terms and types are both reflexive, transitive, and symmetric, and moreover that equality of terms is invariant under equality of types.
 
-TODO.
+For equality of types $\Gamma \vdash A \equiv B$, we take as input that $\Gamma \vdash A\,type$ and $\Gamma \vdash B\,type$, so we don't need any premise in the reflexivity rule, but we do need one in the transitivity rule.  
+
+[[!include Initiality Project - Type Theory - Type equality]]
+
+[[!include Initiality Project - Type Theory - Term equality]]
 
 ### Constant rules
 
