@@ -48,7 +48,7 @@ in the corresponding [[(infinity,1)-topos|higher topos]] (for instance in that o
 
 Here the terminology has a bifurcation: 
 
-1. In the general context of [[geometric stacks]] one typically drops the second condition and calls any [[effective epimorphism]] from a [[smooth manifold]] or [[scheme]] to a [[differentiable stack]] or [[algebraic stack]], respectively, an _atlas_. 
+1. In the general context of [[geometric stacks]] one typically drops the second condition and calls any [[effective epimorphism]] from a [[smooth manifold]] or [[scheme]] to a [[differentiable stack]] or [[algebraic stack]], respectively, an _atlas_ (e.g. [Leman 10, 4.4](#Leman10)). 
 
 1. If in addition the condition is imposed that such an effective epimorphism exists which is also [[formally étale morphism|formally étale]], then the [[geometric stack]] is called an _[[orbifold]]_ or _[[Deligne-Mumford stack]]_ (often with various further conditions imposed).
 
@@ -61,6 +61,10 @@ Here the terminology has a bifurcation:
 * [[n-types cover]]
 
 ## References
+
+Review of the classical concept of atlases for geometric stacks:
+
+* {#Leman10} [[Eugene Lerman]], Section 4.4 of: _Orbifolds as stacks?_, L'Enseign. Math. (2) 56 (2010), no. 3-4, 315--363 ([arXiv:0806.4160](https://arxiv.org/abs/0806.4160))
 
 Formalization in [[cohesive homotopy theory]]:
 
