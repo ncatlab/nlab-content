@@ -1,6 +1,4 @@
-In a CwF $C$, let $Ty^\Pi = \Sigma_{Ty}\Pi_{of}Tm^*(Ty)$ and $Tm^\Pi = \Sigma_{Ty}\Pi_{of}Tm^*(Tm)$ where $\Sigma_{Ty}$ is composition by the unique arrow $Ty \to 1$,
-$\Pi_{of}$ is right-adjoint to pull-back along $of : Tm \to Ty$ and $Tm^*$ is pulling-back along the unique arrow $Tm \to 1$.
-
+Given a presheaf $T$ on a CwF $C$, let $T^\Pi(\Gamma) = \Sigma_{A \in Ty(\Gamma)}T(\Gamma . A)$, so that $Ty^\Pi$ is the presheaf consisting of pairs of a type $A$ and a type $B$ in a context extended by $A$ and $Tm^\Pi$ is the presheaf of pairs of a type $A$ and a term in a context extended by $A$.
 
 +--{: .un_defn}
 ######Definition
