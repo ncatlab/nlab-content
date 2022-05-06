@@ -232,6 +232,8 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 
 ## Related concepts
 
+* [[su(2)]]
+
 * [[complex Hopf fibration]]
 
 * [[Euler angles]]
