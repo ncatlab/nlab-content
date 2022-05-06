@@ -16,7 +16,7 @@
 
 ## Definition
 
-Let $f: R\to S$ be a [[homomorphism]] of algebraic objects such as [[rings]]. Let $\cdot_S$ be an operation of $S$ on an object $M$, then by $r\cdot_R m:=f( r )\cdot_S m$ is defined an action of $R$ on $M$.
+Let $f: R\to S$ be a [[homomorphism]] of algebraic objects such as [[rings]]. Let $\cdot_S$ be an [[action]] of $S$ on an object $M$, then by $r\cdot_R m \coloneqq f( r )\cdot_S m$ is defined an action of $R$ on $M$.
 
 It follows that we have a functor $\rho_f:SMod\to RMod$ sending $\cdot_S$ to $\cdot_R$ which is a [[forgetful functor]].
 
