@@ -693,7 +693,7 @@ be the presheaf which to any [[finite group]] $\mathbb{B}G$ assigns the [[set]] 
 ###### Proposition
 **([Rezk 14](#Rezk14))**
 
-For $\mathbf{H}$ an [[(∞,1)-topos]], with $\mathbf{H}_{sing} \coloneqq Sh_\infty\big( Singularities, \mathbf{}\big)$ its [[global equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, there is an [[equivalence of (∞,1)-categories]]
+For $\mathbf{H}$ an [[(∞,1)-topos]], with $\mathbf{H}_{sing} \coloneqq Sh_\infty\big( Singularities, \mathbf{H}\big)$ its [[global equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, there is an [[equivalence of (∞,1)-categories]]
 
 $$
   \array{
@@ -711,7 +711,7 @@ $$
   }
 $$
 
-between the [[(∞,1)-presheaf (∞,1)-category]] on the [[global orbit category]] according to Def. \ref{GlobalOrbitCategory} and the [[full sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] of $\mathbf{H}_{sing}$ over the normal subgroup classifier $\mathcal{N}$ (Def. \ref{NormalSubgroupClassifier}) on those morphisms to $\mathcal{N}$ whhich are $Singularities$-faithful according to Def. \ref{SingularitiesFaithful}.
+between the [[(∞,1)-presheaf (∞,1)-category]] on the [[global orbit category]] according to Def. \ref{GlobalOrbitCategory} and the [[full sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] of $\mathbf{H}_{sing}$ over the normal subgroup classifier $\mathcal{N}$ (Def. \ref{NormalSubgroupClassifier}) on those morphisms to $\mathcal{N}$ which are $Singularities$-faithful according to Def. \ref{SingularitiesFaithful}.
 
 Moreover, if $G$ is a [[finite group]] then slicing over $\mathbb{B}G$ this yields an equivalence
 
