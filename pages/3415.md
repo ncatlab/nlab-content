@@ -93,7 +93,7 @@ The [[fibrant objects]] in $sSet_{Joyal}$ are precisely those that are [[inner f
 
 ### Relation to the model structure for $\infty$-groupoids {#RelToInfGrpds}
 
-The inclusion of [[(∞,1)-category|(∞,1)-catgeories]] [[∞Grpd]] $\stackrel{i}{\hookrightarrow}$ [[(∞,1)Cat]] has a left and a right [[adjoint (∞,1)-functor]]
+The inclusion of [[(∞,1)-category|(∞,1)-categories]] [[∞Grpd]] $\stackrel{i}{\hookrightarrow}$ [[(∞,1)Cat]] has a left and a right [[adjoint (∞,1)-functor]]
 
 $$
   (grpdfy \dashv i \dashv Core)
