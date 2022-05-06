@@ -106,7 +106,7 @@ Review:
 
 Lecture notes on secondary cohomology classes in [[differential cohomology]] for flat connections is presented in
 
-* {#Bunke12} [[Ulrich Bunke]], _Differential cohomology_, arXiv:[1208.3961](https://arxiv.org/abs/1208.3961)
+* {#Bunke12} [[Ulrich Bunke]], _Differential cohomology_ ([arXiv:1208.3961](https://arxiv.org/abs/1208.3961))
 
 Discussion in complex [[algebraic geometry]] is in 
 
@@ -123,6 +123,10 @@ Discussion of secondary classes being [[torsion elements]]:
 
 * [[Hélène Esnault]],  _Algebraic Differential Characters of Flat Connections with Nilpotent Residues_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) _Algebraic Topology_, Abel Symposia, vol 4. Springer 2009 ([doi:10.1007/978-3-642-01200-6_5](https://doi.org/10.1007/978-3-642-01200-6_5))
 
+Discussion of secondary characteristic classes in [[string cobordism cohomology theory]] and in [[tmf]]:
+
+* [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_, Bulletin des Sciences Mathématiques, Volume 138, Issue 8, December 2014, Pages 912-970 ([doi:10.1016/j.bulsci.2014.05.002](https://doi.org/10.1016/j.bulsci.2014.05.002))
+
 
 Discussion of secondary and higher order invariant as higher order [[boundary field theories]] to higher [[topological Yang-Mills theory|topological Yang-Mills]] prequantum field theory is in
 
@@ -134,9 +138,6 @@ Specifically the secondary Chern-Simons and quternary WZW invariants in this con
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.)
 _Mathematical Aspects of Quantum Field Theories_, Springer 2014
 
-and the ternary WZW invariant in 
-
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 
 [[!redirects secondary characteristic class]]
