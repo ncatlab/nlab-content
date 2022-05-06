@@ -29,6 +29,8 @@ Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight syste
 
 ## Related concepts
 
+* [['t Hooft double line notation]]
+
 [[!include chord diagrams and weight systems -- table]]
 
 ## References
