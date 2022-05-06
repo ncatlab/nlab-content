@@ -36,7 +36,7 @@ To cut the story short, we end up getting from the Monster group to a module it 
 Realizations of [[sporadic finite simple groups]] as [[automorphism groups of vertex operator algebras]] in [[heterotic string theory]] and [[type II string theory]] (mostly on [[K3-surfaces]], see [[HET - II duality]]):
 
 
-* The [[Conway group]] $C_{O_0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
+* The [[Conway group]] $Co_{0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
 
   ([Duncan 05](#Duncan05), see also [Paquette-Persson-Volpato 17, p. 9](#PaquettePerssonVolpato17))
 
