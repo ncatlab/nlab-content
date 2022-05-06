@@ -78,11 +78,14 @@ For [[M-branes]]:
 ### Brane webs
  {#BraneWebs}
 
+Intersections of branes of equal dimension may form regular patterns known as _brane webs_. This applies notably in [[type IIB string theory]] where [[(p,q)-strings]] may form "string webs" (references [below](#ReferencesStringWebs)) and [[(p,q)5-branes]] may form "5-brane webs" (references [further below](#References5BraneWebs))
+
 #### General
 
 * Oleg Lunin, _Brane webs and 1/4-BPS geometries_, JHEP09 (2008) ([arXiv:0802.0735](https://arxiv.org/abs/0802.0735))
 
 #### String webs
+ {#ReferencesStringWebs}
 
 
 * {#Sen97} [[Ashoke Sen]], _String Network_, JHEP 9803:005, 1998 ([arXiv:hep-th/9711130](https://arxiv.org/abs/hep-th/9711130))
@@ -96,6 +99,7 @@ Via [[tropical geometry]]:
 * Koushik Ray, _String networks as tropical curves_, JHEP 0809:098, 2008 ([arXiv:0804.1870](https://arxiv.org/abs/0804.1870))
 
 #### 5-brane webs
+ {#References5BraneWebs}
 
 * {#AharonyHanany97} [[Ofer Aharony]], [[Amihay Hanany]], section 3 of _Branes, Superpotentials and Superconformal Fixed Points_, Nucl.Phys.B504:239-271, 1997 ([arXiv:hep-th/9704170](https://arxiv.org/abs/hep-th/9704170))
 
@@ -106,12 +110,28 @@ Via [[tropical geometry]]:
 
 * Francesco Benini, Sergio Benvenuti, Yuji Tachikawa, _Webs of five-branes and $N=2$ superconformal field theories_, JHEP 0909:052,2009 ([arXiv:0906.0359](https://arxiv.org/abs/0906.0359))
 
+* Sung-Soo Kim, Masato Taki, Futoshi Yagi, _Tao Probing the End of the World_, Prog. Theor. Exp. Phys. 2015, 083B02 ([arXiv:1504.03672](https://arxiv.org/abs/1504.03672))
+
 * Brice Bastian, Stefan Hohenegger, _Five-Brane Webs and Highest Weight Representations_ ([arXiv:1706.08750](https://arxiv.org/abs/1706.08750))
 
 * Justin Kaidi, _$(p,q)$-strings probing five-brane webs_, J. High Energ. Phys. (2017) 2017: 87 ([arXiv:1708.03404](https://arxiv.org/abs/1708.03404))
 
 
+* Michael Gutperle, Andrea Trivella, Christoph F. Uhlemann, _Type IIB 7-branes in warped $AdS_6$: partition functions, brane webs and probe limit_, JHEP04(2018)135 ([arXiv:1802.07274](https://arxiv.org/abs/1802.07274))
+
+* Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _Dualities and 5-brane webs for 5d rank 2 SCFTs_ ([arXiv:1806.10569](https://arxiv.org/abs/1806.10569))
+
 [[!redirects brane intersections]]
 
 [[!redirects intersecting brane]]
 [[!redirects intersecting branes]]
+
+[[!redirects brane web]]
+[[!redirects brane webs]]
+
+[[!redirects string web]]
+[[!redirects string webs]]
+
+[[!redirects 5-brane web]]
+[[!redirects 5-brane webs]]
+
