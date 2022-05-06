@@ -1,3 +1,4 @@
+
 # Complete boolean algebras
 * table of contents
 {: toc}
@@ -5,6 +6,7 @@
 ## Definition
 
 A __complete Boolean algebra__ is a [[complete lattice]] that is also a [[Boolean algebra]].  Since lattice homomorphisms of Boolean algebras automatically preserves the Boolean structure, the complete Boolean algebras form a [[full subcategory]] [[CompBoolAlg]] of [[CompLat]].
+
 
 ## Category of complete Boolean algebras
 
@@ -16,6 +18,7 @@ or, equivalently, [[infima]].
 It suffices to require preservation of [[suprema]] of [[directed subsets]].
 
 With this notion of morphisms, complete Boolean algebras form a category.
+
 
 ## Relation to Stonean locales and Boolean locales
 
@@ -30,6 +33,7 @@ to the category of [[Stonean spaces]],
 so the latter is contravariantly equivalent to the category
 of complete Boolean algebras.
 The latter fact is also known as the (traditional) __Stonean duality__.
+
 
 ## Stonean duality
 
@@ -46,13 +50,17 @@ Recall that a [[Stonean space]] is a [[compact]] [[extremally disconnected]]
 Restricting the [[Stone duality]] produces a [[contravariant equivalence]]
 between the category of complete Boolean algebres
 and the category of [[Stonean spaces]].
-See Corollary~6.10(2) in Bezhanishvili \cite{SDGC}.
+See Corollary 6.10(2) in [Bezhanishvili](#SDGC).
+
 
 ## CABAs
 
 Assuming [[excluded middle]], complete *[[atomic Boolean algebra|atomic]]* Boolean algebras are (up to [[isomorphism]]) precisely [[power sets]].  In fact, taking power sets defines a [[fully faithful functor]] from the [[opposite category]] of [[Set]] to [[Comp Bool Alg]] whose [[essential image]] consists of the complete atomic boolean algebras.  See at _[Set -- Properties -- Opposite category](Set#OppositeCategory)_. These abstract representations of power sets are important enough to have their own abbreviation: 'CABA'.
 
-This property of CABAs is not applicable in [[constructive mathematics]], where power sets are rarely boolean algebras.  However, we can use [[discrete space|discrete]] [[locales]] instead (or rather, their corresponding [[frames]]).  That is, define a __CABA__ to be (not a complete atomic boolean algebra but) a frame $X$ such that the locale maps $X \to 1$ and $X \to X \times X$ (which in the category of frames are maps $0 \to X$ and $X + X \to X$) are [[open map|open]] (as locale maps).  Then it should be (I will check) a classical theorem that CABAs and complete atomic boolean algebras are the same, and a constructive theorem that CABAs and power sets are the same (in the same functorial manner as above). 
+This property of CABAs is not applicable in [[constructive mathematics]], where power sets are rarely boolean algebras.  However, we can use [[discrete space|discrete]] [[locales]] instead (or rather, their corresponding [[frames]]).  That is, define a __CABA__ to be (not a complete atomic boolean algebra but) a frame $X$ such that the locale maps $X \to 1$ and $X \to X \times X$ (which in the category of frames are maps $0 \to X$ and $X + X \to X$) are [[open map|open]] (as locale maps).  (Of course, that $X \to 1$ is open is the condition that $X$ is [[overt locale|overt]].)  Then it should be (I will check) a classical theorem that CABAs and complete atomic boolean algebras are the same, and a constructive theorem that CABAs and power sets are the same (in the same functorial manner as above).
+
+Another approach is via [[overlap algebra]]s.  An overlap algebra is a [[frame]] with two extra conditions (one of which is [[overt locale|overtness]] of the corresponding [[locale]]).  Classically, overlap algebras are the same thing as complete Boolean algebras; constructively, atomic overlap algebras are the same thing as powersets.  See [Ciraulo 2010](#Ciraulo2010).
+
 
 ## Algebraicity 
 
@@ -60,17 +68,19 @@ Complete Boolean algebras are the models of an [[algebraic theory]] (in which th
 
 However, this functor $U$ is _not_ [[monadic functor|monadic]]; in fact, it does not even possess a left adjoint. Indeed, while the free complete Boolean algebra on a _finite_ set $X$ exists and coincides with the free Boolean algebra on $X$ (it is finite, being isomorphic to the double power set $P(P X)$), we have 
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Theorem (Gaifman-Hales; Solovay) 
 There is no free complete Boolean algebra on countably many generators. 
 =-- 
 
 As a consequence, $CompBoolAlg$ is not cocomplete (otherwise there would exist a countable coproduct of copies of $P(P 1)$, which is ruled out by the previous theorem). 
 
+
 ## Related concepts
 
 * [[Boolean locale]]
 * [[Stonean locale]]
+
 
 ## References
 
@@ -84,10 +94,16 @@ and
 
 The [[Stone duality]] for complete Boolean algebras is explained in
 
-\bibitem{SDGC}
-[[Guram Bezhanishvili]],
+*  [[Guram Bezhanishvili]],
 _Stone duality and Gleason covers through de Vries duality_.
-Topology and its Applications 157 (2010), 1064–1080.     
+Topology and its Applications 157 (2010), 1064--1080.    
+{#SDGC}
+
+For overlap algebras, see
+
+*  [[Francesco Ciraulo]], 2010.  _The Role of the Overlap Relation in Constructive Mathematics_.  [Slides](https://www.math.unipd.it/~ciraulo/documents/Ciraulo%20Chiemsee%202010.pdf).
+{#Ciraulo2010} 
+
 
 [[!redirects complete Boolean algebra]]
 [[!redirects complete boolean algebra]]
@@ -120,5 +136,7 @@ Topology and its Applications 157 (2010), 1064–1080.
 [[!redirects CABAs]]
 [[!redirects caba's]]
 [[!redirects CABA's]]
-[[!redirects caba's]]
-[[!redirects CABA's]]
+[[!redirects caba’s]]
+[[!redirects CABA’s]]
+[[!redirects caba\'s]]
+[[!redirects CABA\'s]]
