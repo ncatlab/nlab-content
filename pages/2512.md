@@ -58,7 +58,7 @@ On mathematical foundations of [[quantum field theory]] and [[perturbation theor
 
 * {#Sati13} [[Hisham Sati]], _Framed M-branes, corners, and topological invariants_, J. Math. Phys. 59 (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
   
-  (on the [[Hopf-Wess-Zumino term]] of the [[M5-brane]], [[cohomotopy]] in the [[11d supergravity]] [[equations of motion]] and ...)
+  (on the [[Hopf-Wess-Zumino term]] of the [[M5-brane]], [[rational Cohomotopy]] in the [[11d supergravity]] [[equations of motion]] and ...)
 
 
 * [[Domenico Fiorenza]], H. S., [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
