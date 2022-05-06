@@ -46,5 +46,7 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 On the relation to [[Goodwillie calculus]]:
 
+* [[Greg Arone]], _A generalization of Snaith-type filtration_ ([pdf](https://www.ams.org/journals/tran/1999-351-03/S0002-9947-99-02405-8/S0002-9947-99-02405-8.pdf))
+
 * [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
 
