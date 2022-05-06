@@ -42,7 +42,7 @@ The $n$-dimensional sphere of radius $r$ is
 $$ S^n_r = \{ x: \mathbb{R}^{n+1} \;|\; \|x\| = r \} .$$
 Topologically, this is equivalent ([[homeomorphism|homeomorphic]]) to the unit sphere for $r \gt 0$, or a [[point]] for $r = 0$.
 
-This is naturally also a [[smooth manifold]] of [[dimension]] $n$, with the [[smooth structure]] induced from the standard sooth structure on $\mathbb{R}$^n.
+This is naturally a [[smooth manifold]] of [[dimension]] $n$, with the [[smooth structure]] induced by the standard smooth structure on $\mathbb{R}^n$.
 
 =--
 
