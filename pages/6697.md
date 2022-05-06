@@ -161,6 +161,8 @@ Discussion of [[black holes in anti de Sitter spacetime]]:
 [[!redirects anti-de Sitter spacetime]]
 [[!redirects anti-de Sitter spacetimes]]
 
+[[!redirects anti de-Sitter spacetime]]
+
 [[!redirects AdS-spacetime]]
 [[!redirects AdS-spacetimes]]
 
