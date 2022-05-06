@@ -452,7 +452,7 @@ We have:
 
 =--
 
-([Cartan 50, Sec. 6](#Cartan50), see e.g. [Mathai-Quillen 86, around (5.9)](#MathaiQuillen86))
+This is the _Mathai-Quillen isomorphism_ ([Mathai-Quillen 86, around (5.9)](#MathaiQuillen86)).
 
 +-- {: .proof}
 ###### Proof
@@ -605,6 +605,7 @@ $$
   }
 $$
 
+This statement is originally due to [Cartan 50, Sec. 6](#Cartan50).
 
 \linebreak
 
@@ -680,6 +681,10 @@ Due to
 Review is in 
 
 * Oliver Goertsches, Leopold Zoller, _Equivariant de Rham Cohomology: Theory and Applications_, São Paulo J. Math. Sci. (2019) ([arXiv:1812.09511](https://arxiv.org/abs/1812.09511), [doi:10.1007/s40863-019-00129-4](https://doi.org/10.1007/s40863-019-00129-4))
+
+See also 
+
+* Camilo Arias Abad, Marius Crainic, Sec. 1 of _The Weil algebra and the Van Est isomorphism_ ([arXiv:0901.0322](https://arxiv.org/abs/0901.0322))
 
 Early discussion of the Weil model includes
 
