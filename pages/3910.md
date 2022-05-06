@@ -68,6 +68,8 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 * [[geometry]] modeled on the [[formal duality|formal dual]], [[Spec(Z)]], of the ring of integers is [[arithmetic geometry]]
 
+* [[integers object]] in a [[topos]]
+
 ## References
 
 A formalization in terms of [[homotopy type theory]], using a unary notation, is in 
