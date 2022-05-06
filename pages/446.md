@@ -52,19 +52,19 @@ $$
     \chi \leq (\phi \cap \psi)^o
   &\iff
     \chi^o \leq \phi \cap \psi
-& \text{involution}
+&\quad& \text{involution}
 \\
   &\iff
-    \chi^o \leq \phi \quad \text{ and } \quad \chi^o \leq \psi
-&\text{meet properties}
+    \chi^o \leq \phi \; \text{ and } \; \chi^o \leq \psi
+&&\text{meet properties}
 \\
   &\iff
-    \chi \leq \phi^o \quad \text{ and } \quad \chi \leq \psi^o
-&\text{monotonicity and involution}
+    \chi \leq \phi^o \; \text{ and } \; \chi \leq \psi^o
+&&\text{monotonicity and involution}
 \\
   &\iff
     \chi \leq \phi^o \cap \psi^o
-&\text{meet properties.}
+&&\text{meet properties.}
 \end{aligned}
 $$
 
@@ -78,11 +78,12 @@ $$
 
 ## Maps, tabulations, and units
 
-A **map** in an allegory is a morphism that has a [[right adjoint]]. If $r \dashv s$, then $s = r^o$ (hint: use the modular law to show $r \dashv s \cap r^o$ and $r \cap s^o \dashv s$). 
+A __map__ $ r\colon x \to y $ in an allegory is a morphism that has a [[right adjoint]]. If $r \dashv s$, then $s = r^o$ (hint: use the modular law to show $r \dashv s \cap r^o$ and $r \cap s^o \dashv s$). 
+The [[unit of an adjunction|unit of the adjunction]] $ id_x \leq r^o r $ entails that the morphism is __[[entire relation|entire]]__ (sometimes also called _total_) while the [[unit of an adjunction|counit of the adjunction]] $ r r^o \leq id_y $ states the fact hat the morphism is __[[functional relation|functional]]__ (sometimes also called _univalent_).
 
 Any 2-category has a [[bicategory of maps]].  In an allegory, the ordering between maps is discrete, meaning that if $f \leq g$ then $f = g$.  Consequently, the bicategory of maps of an allegory is a [[category]].
 
-A **tabulation** of a morphism $\phi$ is a pair of maps $f,g$ such that $\phi = g^o f$ and $f^o f \cap g^o g = 1$.  An allegory is **tabular** if every morphism has a tabulation, and **pretabular** if every morphism is contained in one that has a tabulation.
+A __tabulation__ of a morphism $\phi$ is a pair of maps $f,g$ such that $\phi = g^o f$ and $f^o f \cap g^o g = 1$.  An allegory is **tabular** if every morphism has a tabulation, and **pretabular** if every morphism is contained in one that has a tabulation.
 
 Every [[regular category]], and indeed every [[locally regular category]], has a tabular allegory of internal binary relations.  Conversely, by restricting to the morphisms with left adjoints ("maps") in a tabular allegory, we obtain a locally regular category.  These constructions are inverse, so tabular allegories are equivalent to locally regular categories.
 
@@ -176,12 +177,18 @@ which is where coproducts come in; here $\nabla$ is the codiagonal and we use th
 
 For general $r: A \to C, s: B \to C$, we claim the right Kan lift $s \backslash r: A \to B$ is given by $\chi_s^o (\ni_C \backslash \ni_C) \chi_r$. For, we have $r = \ni_C \chi_r$, whence 
 
-$$\array{
-s t \leq r & iff & \ni_C \chi_s t \leq \ni_C \chi_r \\ 
- & iff & \ni_C \chi_s t \chi_r^o \leq \ni_C \\ 
- & iff & \chi_s t \chi_r^o \leq \ni_C \backslash \ni_C \\ 
- & iff & t \leq \chi_s^o (\ni_C \backslash \ni_C) \chi_r
-}$$ 
+$$
+\begin{aligned}
+    s t &\leq r & 
+  \;&\iff & \ni_C \chi_s t &\leq \ni_C \chi_r 
+\\ 
+ &&& \iff & \ni_C \chi_s t \chi_r^o &\leq \ni_C 
+\\ 
+ &&& \iff & \chi_s t \chi_r^o &\leq \ni_C \backslash \ni_C 
+\\ 
+ &&& \iff & t &\leq \chi_s^o (\ni_C \backslash \ni_C) \chi_r
+\end{aligned}
+$$ 
 
 thus proving the claim. 
 
@@ -239,9 +246,9 @@ Now we can calculate:
 $$
 \begin{aligned}
   s r \cap p_2 p_1^o
-  & = (s r p_1 \cap p_2) p_1^o & \text{modular law} \\
+  & = (s r p_1 \cap p_2) p_1^o &\quad& \text{modular law} \\
   & = (s r p_1 \cap p_2 \cap p_2) p_1^o \\
-  & \leq (s(r p_1 \cap s^o p_2) \cap p_2) p_1^o & \text{modular law} \\
+  & \leq (s(r p_1 \cap s^o p_2) \cap p_2) p_1^o && \text{modular law} \\
   & \leq (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o
 \end{aligned}
 $$
@@ -251,23 +258,23 @@ $$
 \begin{aligned}
   (\top_{Y Z} (r p_1 \cap s^o p_2) \cap p_2) p_1^o
   & \leq (\top_{Y Z} s^o (s r p_1 \cap p_2) \cap p_2) p_1^o 
-& \text{modular law} \\
+&\quad& \text{modular law} \\
   & \leq (\top_{Y Y} (s r p_1 \cap p_2) \cap p_2) p_1^o
-& \top_{Y Z} s^0 \leq \top_{Y Y}\\
+&& \top_{Y Z} s^0 \leq \top_{Y Y}\\
   & = (p_2 (p_1^o s r p_1 \cap p_1^o p_2) \cap p_2) p_1^o 
-& \top{Y Y} = p_2 p_1^o \\
+&& \top{Y Y} = p_2 p_1^o \\
   & = p_2 (p_1^o s r p_1 \cap p_1^o p_2 \cap p_2^o p_2) p_1^o
-& \text{modular law} \\
+&& \text{modular law} \\
   & = p_2 (p_1^o s r p_1 \cap (p_1^o \cap p_2^o) p_2) p_1^o
-& \text{maps distribute} \\
+&& \text{maps distribute} \\
   & = p_2 (p_1^o s r p_1 \cap \Delta p_2) p_1^o
-& \text{see below} \\
+&& \text{see below} \\
   & = p_2 \Delta (\Delta^o p_1^o s r p_1 \cap p_2) p_1^o
-& \text{modular law} \\
+&& \text{modular law} \\
   & = (s r p_1 \cap p_2) p_1^o 
-& p_1 \Delta = p_2 \Delta = id \\
+&& p_1 \Delta = p_2 \Delta = id \\
   & = s r \cap p_2 p_1^o
-& \text{modular law}
+&& \text{modular law}
 \end{aligned}
 $$
 and we are back to where we started.  In the fourth-last step we used the fact that if $p_1, p_2 \colon Z \times Z \to Z$ are the projections, then $p_1 \cap p_2 = \Delta^o$.  But $\Delta = \langle id, id \rangle$, and from lemma 1 [[finnlawler:allegory|here]] we have that $\langle id, id \rangle = p_1^o \cap p_2^o$.
