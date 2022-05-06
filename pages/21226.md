@@ -25,7 +25,7 @@
 
 See also
 
-* Wikipedia, _<a href="https://en.m.wikipedia.org/wiki/Quintessence_(physics)">Quintessence</a>_
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Quintessence_(physics)">Quintessence</a>_
 
 
 ### As higher curvature corrections
