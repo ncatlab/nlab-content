@@ -41,6 +41,12 @@ In [[physics]] the rotation group is related to [[angular momentum]].
 
 ## Properties
 
+### Homology and cohomology 
+
+[[ordinary cohomology]] of the [[classifying spaces]] $B O(n)$ and $B SO(n)$:
+
+([Brown 82](#Brown82), [Pittie 91](#Pittie91))
+
 ### As part of the ADE pattern
 
 [[!include ADE -- table]]
@@ -81,8 +87,17 @@ $\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\t
 
 For general references see also at _[[orthogonal group]]_.
 
-* [[Jim Stasheff]], _The topology and algebra of $SO(n-1) \to SO(n) \to S^{n-1}$_, Herman's seminar July 2013 ([[StasheffSOn.pdf:file]])
- {#Stasheff13}
+[[ordinary cohomology]] of the [[classifying spaces]]:
+
+* {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
+
+
+* {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
+
+See also
+
+* {#Stasheff13} [[Jim Stasheff]], _The topology and algebra of $SO(n-1) \to SO(n) \to S^{n-1}$_, Herman's seminar July 2013 ([[StasheffSOn.pdf:file]])
+ 
 
 [[!redirects special orthogonal groups]]
 
