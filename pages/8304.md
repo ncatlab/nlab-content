@@ -40,6 +40,8 @@ $$
 
 =--
 
+A group whose abelianization is the [[trivial group]] is called a _[[perfect group]]_.
+
 The abelianization is an [[abelian group]]. Indeed, it is the [[universal construction|universal]] abelian group induced by $G$, in the following sense:
 
 +-- {: .num_prop }
