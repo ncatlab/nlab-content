@@ -73,7 +73,7 @@ The [[2d TQFT]] obtained from this by forming the 4d index is discussed in
 
 Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]]
 
-* Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
+* Benjamin Assel, [[Sakura Schafer-Nameki]], Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
   (relating to the [[moduli space of monopoles]])
 
