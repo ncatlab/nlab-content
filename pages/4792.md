@@ -493,6 +493,11 @@ $$
 
 ## References
 
+Textbook account:
+
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
+
 A survey is in
 
 * {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
