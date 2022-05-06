@@ -1,3 +1,3 @@
-The material previously on this page referred to [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Inquiry).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Inquiry).
 
 [[!redirects enquiry]]
