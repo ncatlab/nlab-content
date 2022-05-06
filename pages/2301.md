@@ -65,7 +65,7 @@ N. Durov replaces the commutative rings by commutative [[algebraic monad]]s (aka
 
 O. Gabber considers replacing rings by *almost rings*, this results in the theory of [[almost schemes]].
 
-One should note that Grothendieck school has occasionally studied ringed sites where ring is not required to be commutative and considered quasicoherent sheaves and cohomology in that context. D-schemes of Beilinson are an example where this formalism is useful. 
+One should note that the Grothendieck school has occasionally studied ringed sites where ring is not required to be commutative and considered quasicoherent sheaves and cohomology in that context. D-schemes of Beilinson are an example where this formalism is useful. 
 
 Rosenberg considers generalized relative schemes as categories over an arbitrary base category with a relatively affine cover satisfying some exactness conditions. The scheme as a category is in fact abstracting the category of quasicoherent sheaves over some generalized scheme. Rosenberg calls the Zariski version of that formalism [[noncommutative scheme]]; some other versions of locally affine spaces can be also relativized.
 
