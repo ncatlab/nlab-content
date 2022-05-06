@@ -164,7 +164,7 @@ $$
      \downarrow && \downarrow
      \\
      \coprod_{[T], T \in \mathbb{T}(n,k)}
-      (H \otimes P)^(T)
+      (H \otimes P)(T)
       \otimes_{Aut(T)}
        I[\Sigma_n]
      &\stackrel{\coprod \alpha_T^-}{\to}&
