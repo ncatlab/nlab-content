@@ -824,11 +824,10 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Yves Félix]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
 
+* [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
 
 
 * Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
-
-
 
 
 
@@ -838,8 +837,7 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * Christoph Schiessl, _Integral cohomology of configuration spaces of the sphere_ ([arxiv:1801.04273](https://arxiv.org/abs/1801.04273))
 
-
-
+* [[Roberto Pagaria]], _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
 
 
 
