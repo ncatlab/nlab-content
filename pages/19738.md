@@ -52,6 +52,16 @@ Both [[random variable|random variables]] and estimators are almost always just 
 But in [[probability theory]] a random variable is interpreted as a map from a _sample space_ to a _space of [[state|states]]_ which represents the observed outcomes or outcomes predicted by some model.
 In contrast in [[statistics]] an estimator guesses or estimates a certain parameter associated to some random model.
 
-(...)
+### Tensor networks
+  {#TensorNetworks}
+
+A _[[tensor network]]_ is just a [[string diagram]] (i.e. [[Penrose notation]]).
+
+But in discussion of the [[AdS/CFT correspondence in solid state physics]] one says _[[tensor network]]_ when regarding [[string diagrams]] as encoding [[quantum states]] in the [[Hilbert space]] which is the [[tensor product]] of all the external [[vertices]].
+
+
+\linebreak
+\linebreak
+
 
 [[!redirects concepts with an attitude]]
