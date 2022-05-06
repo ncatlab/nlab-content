@@ -37,7 +37,10 @@ if $a = b$ (because then $\gamma_2$ may be taken to be a constant); in other wor
 
 ## Related concepts
 
+
 * [[Cauchy's integral formula]]
+
+* [[Cauchy's theorems]]
 
 * [[Goursat theorem]]
 
