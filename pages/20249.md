@@ -3,8 +3,8 @@
 | [[special orthogonal group|sp. orth. group]] | [[spin group]] | [[pin group]] | [[semi-spin group]] | 
 |------------------------------|----------------|---------------|--|
 | [[SO(2)]] | [[Spin(2)]] |  [[Pin(2)]] |   |
-| [[SO(3)]] | [[Spin(3)]] |             |   |
-| [[SO(4)]] | [[Spin(4)]] |             |   |
+| [[SO(3)]] | [[Spin(3)]] |  [[Pin(3)]] |   |
+| [[SO(4)]] | [[Spin(4)]] |  [[Pin(4)]] |   |
 | [[SO(5)]] | [[Spin(5)]] |  [[Pin(5)]] |   |
 |           | [[Spin(6)]] |             |   |
 |           | [[Spin(7)]] |             |   |
