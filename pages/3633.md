@@ -110,8 +110,8 @@ In this form, Wick rotation is also known as _[[thermal quantum field theory]]_.
 
 > graphics grabbed form [Frolov-Zelnikov 11](#FrolovZelnikov11)
 
-
-However, the general idea Wick rotation is sometimes also appealed to in situations where the assumptions of such theorems are evidently violated. For instance, it has been appealed to a lot in an approach to [[quantum gravity]] often known as "Euclidean quantum gravity", where, however, by definition the assumption of global spacetime translation invariance is manifestly violated. In such a context the exact meaning of Wick rotation remains mysterious, and yet on this basis some subtle relations between quantum mechanics and thermodynamics, such as the [[Bekenstein-Hawking entropy]], find elegant explanations, at least at the level of the manipulation of formulas (see e.g. [Fulling-Ruijsenaars 87, section 4](#FullingRuijsenaars87)). 
+Wick rotation also applies on suitable [[black-hole]]-[[spacetimes]] spring
+thermodynamics, such as the [[Bekenstein-Hawking entropy]], find elegant explanations, at least at the level of the manipulation of formulas (see e.g. [Fulling-Ruijsenaars 87, section 4](#FullingRuijsenaars87)). 
 
 ### Example
 
@@ -154,9 +154,15 @@ This has maybe first been made precise, for the case of 1+1 dimensions, in
 
 * {#HoeghKrohn74} [[Raphael Høegh-Krohn]], _Relativistic Quantum Statistical Mechanics in two-dimensional Space-Time_, Communications in Mathematical Physics 38.3 (1974): 195-224 ([pdf](https://www.duo.uio.no/bitstream/handle/10852/44072/1973-22.pdf))
 
-Good review on the relation to [[thermal quantum field theory]] is in
+Good review on the relation to [[thermal quantum field theory]] and [[black hole thermodynamics]] is in
 
 * {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+
+* {#GibbonsPerry78} [[Gary Gibbons]], Malcolm J. Perry, _Black Holes and Thermal Green Functions_, Vol. 358, No. 1695 (1978) ([jstor:79482](https://www.jstor.org/stable/79482))
+
+Discussion of thermal Wick rotation on global [[anti-de Sitter spacetime]] (which is already periodic in _real_ time) is in
+
+* {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
 
 See also
 
