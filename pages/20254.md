@@ -7,4 +7,6 @@
 
 * [[4-manifolds]]
 
+* [[5-manifolds]]
+
 * [[8-manifolds]]
