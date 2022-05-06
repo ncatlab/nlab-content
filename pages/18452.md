@@ -22,6 +22,9 @@ This is the most common flavor of [[representations]]. One sometimes considers r
 
 ## Properties
 
+### Characters of linear representations
+
+See _[[characters of linear representations]]_.
 
 ### Characteristic classes of linear representations
  {#ChernClassesOfLinearRepresentations}
@@ -40,6 +43,9 @@ See at _[[characteristic class of a linear representation]]_ for more.
 
 ## References
 
-See the references at _[[representation theory]]_.
+* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+
+For more see the references at _[[representation theory]]_.
 
 [[!redirects linear representations]]
