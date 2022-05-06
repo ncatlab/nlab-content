@@ -402,6 +402,6 @@ Implications of the possible non-existence of de Sitter vacua in string theory a
 
 
 
-
+[[!redirects landscape of perturbative string theory vacua]]
 
 
