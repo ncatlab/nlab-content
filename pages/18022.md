@@ -18,6 +18,7 @@
 =--
 
 
+
 > under construction
 
 #Contents#
@@ -263,6 +264,8 @@ Idea of proof: the analogous statement for simplicial Lie algebras replaced by r
 * [[rational homotopy theory]]
 
 * [[rational stable homotopy theory]]
+
+* [[rational parametrized homotopy theory]]
 
 * [[rational equivariant homotopy theory]]
 
