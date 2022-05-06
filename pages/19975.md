@@ -22,6 +22,8 @@
 
 * [[skyrmion]]
 
-* [[meson]], [[baryon]]
+* [[hadron]],
+
+  [[meson]], [[baryon]]
 
 category: people
