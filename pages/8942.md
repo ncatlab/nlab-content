@@ -51,6 +51,8 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 * [[ninebrane group]], [[ninebrane structure]]
 
+* [[MO5]]
+
 * [[KK monopole]]
 
 [[!include table of branes]]
