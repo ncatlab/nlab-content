@@ -29,11 +29,21 @@ Among the nice aspects of the book are
 
 * it discusses [[pseudoforms]] on top of ordinary [[differential forms]], instead of just assuming that all [[manifolds]]  are [[orientation|oriented]] as often done &#8212; and what\'s more, it explains the physical meaning of this!  (But it still uses [[Riemannian metric|metrics]] more than necessary.)
 
-Related books are
+Related books:
+
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_
+
+  (more advanced [[algebraic topology]])
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_
 
 * [[Chris Isham]], _[[Modern Differential Geometry for Physicists]]_
+
+  ([[differential geometry]] in [[mathematical physics]])
+
+* [[David Hestenes]],  _[[geometric algebra|Space-time Algebra]]_, New York (1966)
+
+  ([[Clifford algebra]] and [[spinors]])
 
 #Contents#
 * table of contents
