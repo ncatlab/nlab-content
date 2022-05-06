@@ -28,6 +28,8 @@ Class functions are an important concept when formalizing [[category theory]] on
 
 An example is Mac Lane's discussion  [p. 23](#MacLane1998) of the category of all [[classes]] in his chapter on [[Foundations]]. There, the class of [[arrow]]s is defined by writing "its arrows [are] all functions $f\colon C\rightarrow C'$ between classes".
 
+Class functions are the [[morphism]]s in a [[category with class structure]]. 
+
 ## Example in Set Theory 
 
 Arguably the prototypical example of an essential use of the concept of class functions in [[set theory]] is [[Easton's theorem]] [Theorem 15.18](#Jech2002).
