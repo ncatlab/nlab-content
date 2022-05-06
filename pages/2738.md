@@ -821,7 +821,7 @@ of this functor, hence the unique such functor which preserves [[colimits]] in b
 
 =--
 
-With respect to this tensor product is $dSet$ a [[closed monoidal category]]. This is discussed [below](#ClosedMonoidalStructure).
+With respect to this tensor product is $dSet$ a colax symmetric monoidal category ( [Theorem 6.3.4 of HHM13](#HeutsHinichMoerdijk13)). This is discussed [below](#ClosedMonoidalStructure).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -1341,7 +1341,7 @@ Normal morphisms of dendroidal sets are discussed for instance around prop. 1.4 
  
 See also
 
-* {#HeutsHinichMoerdijk13} Gijs Heuts, Vladimir Hinich, Ieke Moerdijk, _On the equivalence between Lurie's model and the dendroidal model for infinity-operads_([arXiv:1305.3658](https://arxiv.org/abs/1305.3658))
+* {#HeutsHinichMoerdijk13} Gijs Heuts, Vladimir Hinich, Ieke Moerdijk, _On the equivalence between Lurie's model and the dendroidal model for infinity-operads_ ([arXiv:1305.3658](https://arxiv.org/abs/1305.3658))
 
 
 [[!redirects dendroidal sets]]
