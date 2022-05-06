@@ -152,6 +152,12 @@ The first characterization follows via prop. \ref{ComplexProjectiveSpaceAsGrassm
 
 =--
 
+## Examples
+
+* [[complex projective curve]]
+
+* [[complex projective plane]]
+
 
 ## Properties
 
