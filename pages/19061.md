@@ -74,6 +74,13 @@ Discussion of nonabelian [[T-folds]]:
 
 * Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
 
+Discussion in [[cosmology]]:
+
+* Ladislav Hlavatý, Ivo Petr, _Poisson-Lie plurals of Bianchi cosmologies and Generalized Supergravity Equations_ ([arxiv:1910.08436](https://arxiv.org/abs/1910.08436))
+
+
+
+
 [[!redirects nonabelian T-duality]]
 
 [[!redirects non-abelian T-duality]]
