@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -277,10 +278,6 @@ and for [[algebraic K-theory]] to
 See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
 
 
-
-
-
-
 Introductions and surveys include
 
 * {#Greenlees05} [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
@@ -330,6 +327,26 @@ Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|e
 * [[Daniel Freed]], [[Gregory Moore]], Section 7 of: _Twisted equivariant matter_,  Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
+
+### Representing equivariant spectrum 
+ {#ReferencesRepresentingSpectrum}
+
+That $G$-equivariant [[topological K-theory]] is [[representable functor|represented]] by a [[topological G-space]] is
+
+* [[Michael Atiyah]], [[Graeme Segal]], Corollary A3.2 in: _Twisted K-theory_ ([arXiv:math/0407054](https://arxiv.org/abs/math/0407054))
+
+This is enhanced to a representing [[naive G-spectrum]] in 
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Appendix A.5 of: _Loop groups and twisted K-theory I_, Journal of Topology, Volume 4, Issue 4, December 2011, Pages 737–798 ([arXiv:0711.1906](https://arxiv.org/abs/0711.1906))
+
+Review includes:
+
+* Valentin Zakharevich, Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_ ([pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf))
+
+In its incarnation (under [[Elmendorf's theorem]]) as a [[Spectra]]-valued [[presheaf]] on the $G$-[[orbit category]] this is discussed in
+
+* [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
+
 
 ### For D-brane charge on orbifolds
 
