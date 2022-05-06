@@ -82,7 +82,7 @@ Using this on the reduction of internal gluon vertices by the [[Jacobi identity]
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
-This gives [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] ([Witten 92, see Figures 1 & 2](#Witten92)) even before passing to the [[large N limit]].
+This gives [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] ([Witten 92, see Figures 1 & 2](#Witten92)) even for [[small N limit|small N]].
 
 For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to _[[closed strings|closed]]_ [[string theory]] and open to _closed_ [[topological string theory]] ([Gopakumar-Vafa 98](#GopakumarVafa98)) there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]], see
 [Gaiotto-Rastelli 03, Section 1.1](#GaiottoRastelli03)
@@ -131,6 +131,13 @@ Last not least, these [[surfaces]] have the interpretation of [[open string]] [[
 ### Classification of weight systems
 
 Later the same double line technique was used (without any reference to the earlier physics articles(?)) in [Bar-Natan 95, Section 6](#BarNatan95) for discussion of the classification of [[Lie algebra weight systems]] and [[stringy weight systems]] with an eye towards discussion of [[Vassiliev knot invariants]].
+
+
+## Related concepts
+
+* [[large N limit]], [[small N limit]]
+
+* [[AdS/CFT correspondence]]
 
 ## References
 
