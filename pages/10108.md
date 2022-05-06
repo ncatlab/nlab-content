@@ -66,7 +66,7 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 > See at _[[mass gap]]_ for more.
 
-A survey and problem description of the [[non-perturbative quantum field theory|non-perturbative]] quantization of Yang-Mills theory, in the context of the Clay Mathematics Institute's list of "[Millenium Problems](http://www.claymath.org/millennium-problems)" ("[Yang&#8211;Mills and Mass Gap](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)") is in
+A survey and problem description of the [[non-perturbative quantum field theory|non-perturbative]] quantization of Yang-Mills theory, in the context of the Clay Mathematics Institute's list of "[Millennium Problems](http://www.claymath.org/millennium-problems)" ("[Yang&#8211;Mills and Mass Gap](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)") is in
 
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
 
