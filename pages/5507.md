@@ -60,6 +60,8 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.30]].
 
 * [[dimension]]
 
+  * [[dimension of a cell complex]]
+
   * [[homotopy dimension]]
 
   * **cohomological dimension** 
@@ -74,11 +76,11 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.30]].
 
 The general $(\infty,1)$-topos-theoretic notion is discussed in section 7.2.2 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-{#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
-=--
+
+
 
 
 [[!redirects cohomology dimension]]
