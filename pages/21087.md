@@ -74,15 +74,27 @@ Discussion of [[small N corrections]] via a [[lattice QFT]]-Ansatz on the AdS si
 
 Using the [[conformal bootstrap]] for [[CFT]]s at small N to deduce [[M-theory]]-properties on the dual side:
 
+* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+
+* [[Shai Chester]], _Bootstrapping M-theory_, 2018 ([[ChesterBootstrappingMTheory.pdf:file]])
+
+Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
+
+* {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
 
-For the [[BLG-model]]/[[ABJM model]] on [[coincident brane|coincident]] [[M2-branes]]:
 
-* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+* [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
-For the [[D=6 N=(2,0) SCFT]] on [[coincident brane|coincident]] [[M5-branes]]:
 
-* {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+
+Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-brane]] via [[AdS4/CFT3]]
+
+* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
+
+
+
+
 
 ### In AdS/QCD
  {#ReferencesInQAdSQCD}
