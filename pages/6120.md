@@ -64,6 +64,8 @@ There is a generalization for $X$ an [[orbifold]] due to ([Satake](#Satake)).
 
 * [[Euler characteristic]]
 
+* [[Euler form]]
+
 * [[Poincaré–Hopf theorem]]
 
 ## References
@@ -83,7 +85,7 @@ Discussion is for instance in
 
 Expositions include
 
-* Liviu I. Nicolaescu, _The many faces of the Gauss-Bonnet theorem_ ([pdf](http://www.nd.edu/~lnicolae/GradStudSemFall2003.pdf))
+* [[Liviu Nicolaescu]], _The many faces of the Gauss-Bonnet theorem_ ([pdf](http://www.nd.edu/~lnicolae/GradStudSemFall2003.pdf))
 
 * Denis Bell, _The Gauss-Bonnet theorem_ ([pdf](http://www.unf.edu/~dbell/GBVB.pdf))
 
