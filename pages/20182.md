@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,13 +26,13 @@ See at _[[Sullivan model of free loop space]]_.
 
 ### Rational Cohomotopy spaces
 
-We discuss tesults on the [[rational homotopy type]] of [[spaces of maps]] inti an [[n-sphere]], hence [[rational Cohomotopy]] [[cocycle]] spaces.
+We discuss results on the [[rational homotopy type]] of [[spaces of maps]] inti an [[n-sphere]], hence [[rational Cohomotopy]] [[cocycle spaces]].
 
 +-- {: .num_prop #RationalHomotopyTypeOfMapsNSphereToNsphere}
 ###### Proposition     
 **([[rational homotopy type]] of [[space of maps]] from [[n-sphere]] to itself)**
 
-Let $n \in \mathbb{N}$ be a [[natural number]] and $f\colon S^n \to S^n$ a [[continuous function]] from the [[n-sphere]] to itself. Then the [[connected component]] $Maps_f\big( S^n, S^n\big)$ of the [[mapping space]] which contains this map has the following [[rational homotopy theory|rational]] [[homotopy type]]:
+Let $n \in \mathbb{N}$ be a [[natural number]] and $f\colon S^n \to S^n$ a [[continuous function]] from the [[n-sphere]] to itself. Then the [[connected component]] $Maps_f\big( S^n, S^n\big)$ of the [[space of maps]] which contains this map has the following [[rational homotopy theory|rational]] [[homotopy type]]:
 
 \[
   \label{RationalHomotopyTypeOfMappingSpacesSnToSn}
@@ -95,7 +96,7 @@ $$
     \mathbb{Q}
   \big)
   \;\simeq\;
-  \mathbb{Q}\big[ e_{n - D}, a_{2n - D - 1} \big] 
+  \mathbb{Q}\big[ \omega_{n - D}, \omega_{2n - 1 - D} \big] 
   \,.
 $$  
 
@@ -103,6 +104,164 @@ $$
 
 (by [this Prop.](Sullivan+model+of+free+loop+space#SullivanModelsOfMapsFromSkToSnFornLargerk) at _[[Sullivan model of based loop space]]_; see also  [Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
 
+For the edge case $\Omega^D S^D$ the above formula does not apply, since $\Omega^{D-1} S^D$ is not [[simply connected topological space|simply connected]] (its [[fundamental group]] is $\pi_1\big( \Omega^{D-1}S^D \big) = \pi_0 \big(\Omega^D S^D\big) = \pi_D(S^D) = \mathbb{Z}$, the 0th [[stable homotopy group of spheres]]). 
+
+But:
+
++-- {: .num_example #RationalModelsForBasedMappingSpaceSDToSD}
+###### Example   
+
+The rational model for $\Omega^D S^D$ follows from Prop. \ref{RationalHomotopyTypeOfMapsNSphereToNsphere} by realizing the pointed mapping space as the [[homotopy fiber]] of the [[evaluation map]] from the free mapping space:
+
+$$
+  \array{
+    \mathllap{
+      \Omega^D S^D
+      \simeq
+    \;}
+    Maps^{\ast/\!}\big( S^D, S^D\big)
+    \\
+    \big\downarrow^{\mathrlap{fib(ev_\ast)}}
+    \\
+    Maps(S^D, S^D)
+    \\
+    \big\downarrow^{\mathrlap{ev_\ast}}
+    \\
+    S^D
+  }
+$$
+
+This yields for instance the following examples.
+
+In odd dimensions:
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^3, S^3
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    \ast
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^3, S^3
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n  \in \mathbb{Z}
+    }{\sqcup}
+    S^3
+    \ar[d]^-{ (\mathrm{id}_{S^3})_{n \in \mathbb{N}} }
+    \\
+    S^3
+    \ar@{=}[r]
+    &
+    S^3
+\end{xymatrix}
+
+In even dimensions:
+
+(In the following $h_{\mathbb{K}}$ denotes the [[Hopf fibration]] of the [[division algebra]] $\mathbb{K}$, hence $h_{\mathbb{C}}$ denotes the [[complex Hopf fibration]] and $h_{\mathbb{H}}$ the [[quaternionic Hopf fibration]].)
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^2, S^2
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    S^1
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^2, S^2
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \big(
+      S^2 \times S^1
+    \big)
+    \sqcup
+    \big(
+      \underset{
+        n \neq 0  \in \mathbb{Z}
+      }{\sqcup}
+      S^3
+    \big)
+    \ar[d]^-{
+      \big(
+        p_1, (h_{\mathbb{C}})_{n \neq 0 \in \mathbb{N}}
+      \big)
+    }
+    \\
+    S^2
+    \ar@{=}[r]
+    &
+    S^2
+\end{xymatrix}
+
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^4, S^4
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    S^3
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^4, S^4
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \big(
+      S^4 \times S^3
+    \big)
+    \sqcup
+    \big(
+      \underset{
+        n \neq 0  \in \mathbb{Z}
+      }{\sqcup}
+      S^7
+    \big)
+    \ar[d]^-{ 
+      \big(
+        p_1, (h_{\mathbb{H}})_{n \neq 0 \in \mathbb{N}} 
+      \big)
+    }
+    \\
+    S^4
+    \ar@{=}[r]
+    &
+    S^4
+\end{xymatrix}
+
+
+
+=--
 
 
 ## Related concepts
