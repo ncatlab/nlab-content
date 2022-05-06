@@ -51,7 +51,10 @@ An arithmetic analogue is studied in
 
 * Alexandru Buium, Yuri I. Manin, _Arithmetic differential equations of Painlevé VI type_, in: Arithmetic and Geometry, Luis Dieulefait, Gerd Faltings, D. R. Heath-Brown, B. Z. Moroz, Cambridge Univ. Press 2015, [arxiv/1307.3841](https://arxiv.org/abs/1307.3841)
 
-* Emma Previato, E. (2018) Curves in isomonodromy and isospectral deformations: Painlev\'e VI as a case study. In: Algebraic curves and their applications. Contemporary Math. 724 (2018) 258-276, Amer. Math. Soc. 
+* Emma Previato, _Curves in isomonodromy and isospectral deformations: Painlev\'e VI as a case study_, In: Algebraic curves and their applications. Contemporary Math. 724 (2018) 258-276, Amer. Math. Soc. 
+
+* M. Olshanetsky, _Painlevé type equations and Hitchin systems_, Proc. "Integrability: the Seiberg-Witten and Whitham Equations", Edinburgh, Sep. 1998 [math-ph/9901019](https://arxiv.org/abs/math-ph/9901019)
+* AM Levin, MA Olshanetsky, _Hierarchies of isomonodromic deformations and Hitchin systems_, [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.263.2907&rep=rep1&type=pdf)
 
 * Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
 
