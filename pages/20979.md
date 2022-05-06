@@ -302,6 +302,13 @@ To see this, use 1) [AF 96, Theorem 5, Condition U2](#AF96) to find that the map
 
 ### General
 
+Textbook account
+
+* {#Lescop20} [[Christine Lescop]], _Invariants of links and 3-manifolds from graph configurations_ ([arXiv:2001.09929](https://arxiv.org/abs/2001.09929))
+
+
+Original articles:
+
 * {#Kontsevich93} Theorem 2.3 of: [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
 
