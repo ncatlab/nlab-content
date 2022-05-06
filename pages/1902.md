@@ -30,6 +30,11 @@ On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categori
 * [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)), 
 
 
+On the [[Yoneda lemma for (∞,1)-categories]]:
+
+* [[Emily Riehl]], [[Dominic Verity]], _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
+
+
 ## Related entries
 
 * [[simplicial model for weak omega-categories]]
