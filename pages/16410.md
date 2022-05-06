@@ -95,7 +95,7 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
 * {#Sethi17} [[Savdeep Sethi]], _Supersymmetry Breaking by Fluxes_ ([arXiv:1709.03554](https://arxiv.org/abs/1709.03554))
 
-* {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+* {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_, International Journal of Modern Physics D, Vol. 27, No. 12, 1830007 (2018)  ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120), [doi:10.1142/S0218271818300070](https://doi.org/10.1142/S0218271818300070))
 
   (problems with [KKLT 03](landscape+of+string+theory+vacua#KKLT03))
 
@@ -109,11 +109,15 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
   (argues that the issue with [[string theory|stringy]] de Sitter [[moduli stabilization]] raised in [Sethi 17](#Sethi17) is related to the de Sitter instability seen in QFT, according to the references [above](#InPerturbativeQuantumGravity))
 
+* Georges Obied, [[Hirosi Ooguri]], Lev Spodyneiko, [[Cumrun Vafa]], _De Sitter Space and the Swampland_ ([arXiv:1806.08362](https://arxiv.org/abs/1806.08362))
+
+
 * Jakob Moritz, Ander Retolaza, Alexander Westphal, _On uplifts by warped anti-D3-branes_ ([arXiv:1809.06618](https://arxiv.org/abs/1809.06618))
 
 * Iosif Bena, Emilian Dudas, Mariana Graña, Severin Lüst, _Uplifting Runaways_ ([arXiv:1809.06861](https://arxiv.org/abs/1809.06861))
 
 * [[Clay Cordova]], G. Bruno De Luca, [[Alessandro Tomasiello]], _Classical de Sitter Solutions of Ten-Dimensional Supergravity_ ([arXiv:1812.04147](https://arxiv.org/abs/1812.04147))
+
 
 Discussion in the context of [[M-theory on G2-manifolds]] includes
 
