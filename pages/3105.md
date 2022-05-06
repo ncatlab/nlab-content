@@ -363,7 +363,7 @@ For $X = S^2$ the [[2-sphere]], consider the following two [[elements]] of its [
 
 1. $id_{S^2} \in \pi_2\big( S^2 \big)$ (represented by the [[identity function]] $S^2 \to S^2$)
 
-1. $h_{\mathbb{C}} \in \pi_3\big(  S^3 \big)$ (represented by the [[complex Hopf fibration]])
+1. $h_{\mathbb{C}} \in \pi_3\big(  S^2 \big)$ (represented by the [[complex Hopf fibration]])
 
 Then the Whitehead product satisfies
 
