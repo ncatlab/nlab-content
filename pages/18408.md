@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _weak gravity conjecture_ is a [[conjecture]] ([Arkani-Hamed, Motl, Nicolis, Vafa 06](#ArkaniHamedMotlNicolisVafa06)) often summarized as saying that for [[gravity]] or [[quantum gravity]] to be consistent, the [[force]] of the field gravity must be weaker than that of any of the [[gauge field]] forces, in suitable units.
+The _weak gravity conjecture_ is a [[conjecture]] ([Arkani-Hamed, Motl, Nicolis, Vafa 06](#ArkaniHamedMotlNicolisVafa06)) often summarized as saying that for [[gravity]] or [[quantum gravity]] to be consistent, the [[force]] of the field of gravity must be weaker than that of any of the [[gauge field]] forces, in suitable units.
 
 ## Loose statement
 
@@ -86,5 +86,12 @@ Relation to [[cosmic censorship hypothesis]]
 Relation, via [[AdS/CFT]] and the [[conformal bootstrap]], to the solution of the [[sphere packing problem]] in [[dimensions]] 8 and 24:
 
 * {#HMR19} [[Thomas Hartman]], [[Dalimil Mazáč]], [[Leonardo Rastelli]], _Sphere Packing and Quantum Gravity_ ([arXiv:1905.01319](https://arxiv.org/abs/1905.01319))
+
+See also:
+
+* Lars Aalsma, [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], 
+_A New Spin on the Weak Gravity Conjecture_ ([arXiv:2011.05337](https://arxiv.org/abs/2011.05337))
+
+
 
 
