@@ -102,7 +102,7 @@ $$
 
 So if $J$ is closed, then total charge is conserved, while if $J$ is not closed, then $d J $ is the local measure for how charge is being "created" or how it disappears.
 
-Now the remarkable fact is that in the standard model of particle physics, $J$ comes out non-closed. It's differetial instead comes out proportial to the 4-form which measures instanton number
+Now the remarkable fact is that in the standard model of particle physics, $J$ comes out non-closed. Its differetial instead comes out proportial to the 4-form which measures instanton number
 
 $$
   d J \propto \langle F_\nabla \wedge F_\nabla \rangle
@@ -115,7 +115,7 @@ So far this is highlighted in every textbook. But the following further crucial 
 
 Namely on cosmological spacetimes that carry [[instantons]], then (as discussed at _[Yang-Mills instanton -- from the correct maths to the traditional physics story](Yang-Mills instanton#FromTheMathsToThePhysicsStory)_) the 4-form $\langle F_\nabla \wedge F_\nabla\rangle$ is not in fact globally exact. The above formulas hold only locally, on a chart of spacetime. But on intersections two such pieces of data need to be glued by a gauge transformation. If we do make the usual simple assumptions (for simplicity of the discussion), then this gauge transformation is that famous "Chern-Simons winding number" $S^3 \to SU(2)$, which they keep handing the physics students without properly explaining it (such as the one who I am reacting to [here](http://physicsoverflow.org/38243/topological-number-integral-theory-boundary-volume-forms)).
 
-As a result, in the presence of instantons, then the integral of $\langle F_{\nabla} \wedge F_{\nabla}\rangle$ may be non-zero on a _closed_ cosmological spacetime.
+As a result, in the presence of instantons, the integral of $\langle F_{\nabla} \wedge F_{\nabla}\rangle$ may be non-zero on a _closed_ cosmological spacetime.
 
 The usual picture (which you see displayed in many popular accounts) is: imagine a 4d cup $D^4$ (a unit disk thought of as a "cup" cobordism from nothing to $S^3$) where the big bang expands spacetime from nothing. Then glue on something like $S^3 \times LongInterval$ and think of the result as being a simple model for the universe. Then assume some boundary condition saying that far in the future from the big bang the gauge fields $\nabla$ that carry those instantons decay away, hence are [[vanishing at infinity]]. So then for computing the total fermion charge in this universe, we are effectively dealing with its one-point compactification. In the present simple example this is the 4-sphere $S^4$.
 
@@ -125,7 +125,7 @@ We learn that that:
 
 1. The total net fermion charge in the universe is $\int_{S^4} \langle F_\nabla \wedge F_\nabla\rangle \in \mathbb{Z}$;
 
-1. this fermion number is picked up incrementally increasing from zero (at the origin of our $D^4$-cup, the "big bang singularity) and reaching at "comoving time $t$ \lt 1" the value 
+1. this fermion number is picked up incrementally increasing from zero (at the origin of our $D^4$-cup, the "big bang singularity) and reaching at "comoving time $t \lt 1$" the value 
 
 $$
    Q_t
