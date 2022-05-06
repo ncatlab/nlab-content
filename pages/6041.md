@@ -48,6 +48,8 @@ A [[curve]] $\gamma : \mathbb{R} \to X$ is called _timelike_  or _lightlike_ or 
 
 * [[Lorentzian spacetime]], [[Lorentzian geometry]]
 
+* [[causal order]], [[causal locality]]
+
 
 [[!redirects timelike]]
 [[!redirects lightlike]]
