@@ -4,12 +4,18 @@ Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind s
 
 * wikipedia [in German](http://de.wikipedia.org/wiki/Lew_Semjonowitsch_Pontrjagin), [in English](http://en.wikipedia.org/wiki/Lev_Pontryagin), [in Russian](http://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BD%D1%82%D1%80%D1%8F%D0%B3%D0%B8%D0%BD,_%D0%9B%D0%B5%D0%B2_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD%D0%BE%D0%B2%D0%B8%D1%87), [[joyalscatlab:Pontryagin, Lev|entry at joyalscatlab]]
 
-## selected writings
+## Selected writings
+
+ON [[smooth manifolds]] in [[homotopy theory]]:
 
 * [[Lev Pontryagin]], _Smooth manifolds and their applications in homotopy theory_, 1959 American Mathematical Society Translations, Ser. 2, Vol. 11 pp. 1–114 American Mathematical Society, Providence, R.I. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [arXiv:10.1142/9789812772107_0001](https://doi.org/10.1142/9789812772107_0001))
 
+Introducing the [[Pontrjagin product]]:
 
-## related $n$Lab entries
+* [[Lev Pontrjagin]], _Homologies in compact Lie groups_, Rec. Math. [Mat. Sbornik] N.S., 1939 Volume 6(48), Number 3, Pages 389–422 ([mathnet:5835](http://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5835&option_lang=eng))
+
+
+## Related $n$Lab entries
 
 * [[Pontrjagin class]]
 
