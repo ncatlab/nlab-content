@@ -230,6 +230,10 @@ More should go here, but for now see [[compact closed double category]].
 
 * [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140. ([doi](http://dx.doi.org/10.1016/0022-4049%2871%2990013-2))
 
+A generalization to [[pseudonatural transformations]] can be found in
+
+* Alexander S. Corner, _A universal characterisation of codescent objects_, [TAC](http://tac.mta.ca/tac/volumes/34/24/34-24abs.html) 2019.
+
 
 [[!redirects extranatural transformations]]
 [[!redirects extraordinary natural transformation]]
