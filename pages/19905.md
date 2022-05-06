@@ -77,7 +77,8 @@ while for $n \leq 1$ the quotient is the [[point space]] (of [[dimension of a ma
 
 Now for [[pair]] $i \neq j \in \{1, \cdots, n\}$ of distinct consider the [[continuous function]]
 
-$$
+\[
+  \label{ProjectionsToBoundarySpheres}
   \array{
     Emb\left( \{1, \cdots, n\}, \mathbb{R}^d \right)/\left( \mathbb{R}^d \rtimes \mathbb{R}_{\gt 0}right)
   \right)
@@ -92,7 +93,7 @@ $$
       {\vert x_j - x_i\vert}
     }
   }
-$$
+\]
 
 which takes each configuration to the [[direction]] of the [[vector]] between the $i$th and the $j$th point in the configuration.
 
@@ -146,7 +147,14 @@ $$
 
 (e.g. [Lambrechts-Volic 14, Def. 5.1](#LambrechtsVolic14))
 
-The [[symmetric group]] $\Sigma(n)$ still canonically [[action|acts]] on $FM_n(\mathbb{R}^d)$ and hence the FM-compactification of the actual [[configuration space of points]] $Conf_n(\mathbb{R}^d)$ is the [[quotient space]] $FM_n(\mathbb{R}^d)/\Sigma(n)$.
+The [[symmetric group]] $\Sigma(n)$ still canonically [[action|acts]] on $FM_n(\mathbb{R}^d)$ and hence the FM-compactification of the actual [[configuration space of points]] $Conf_n(\mathbb{R}^d)$ is the [[quotient space]] 
+
+$$
+  \overline{Conf_n(\mathbb{R}^d)} 
+  \;=\; 
+  FM_n(\mathbb{R}^d)/\Sigma(n)
+  \,.
+$$
 
 ## Pictorial notation
  {#Pictorial}
@@ -194,16 +202,90 @@ This pictorial notation was introduced in [Sinha 03](#Sinha03). It immediately s
 +-- {: .num_prop #WeakEquivalenceToLittleNDiskOperad}
 ###### Proposition
 
-The Fulton-MacPherson operad is [[weak equivalence|weakly equivalent]] in the [[model structure on operads]] with respect to the [[classical model structure on topological spaces]], to the [[little n-disk operad]]
+The Fulton-MacPherson operad $FM_\bullet\left( \mathbb{R}^d\right)$ is [[weak equivalence|weakly equivalent]] in the [[model structure on operads]] with respect to the [[classical model structure on topological spaces]], to the [[little n-disk operad|little d-disk operad]].
 
 =--
 
 ([Salvatore 01, Prop. 4.9](#Salvatore01), summarized as [Lambrechts-Volic 14, Prop. 5.6](#LambrechtsVolic14))
 
+### de Rham cohomology
+  {#deRhamCohomology}
+
+We discuss the [[de Rham complex]] $\Omega^\bullet(FM_n(\mathbb{R}^d))$ and the [[de Rham cohomology]] $H^\bullet_{dR}( FM_n(\mathbb{R}^d) )$ of Fulton-MacPherson compactifications.
+
++-- {: .num_defn #SphereClassGeneratorsOfDeRhamCohomology}
+###### Definition
+
+Let $d \in \mathbb{N}$ ([[dimension of a manifold|dimension]] of [[Euclidean space]]),  and $n \in \mathbb{N}$ (number of points) and consider the Fulton-MacPherson compactification $FM_n(\mathbb{R}^d)$ from Def. \ref{FultonMacPhersonCompactification}.
+
+Let
+
+$$
+  dvol_{\left(S^{d-1}\right)}
+  \;\in\;
+  \Omega^\bullet\left( S^{d-1} \right)
+$$
+
+be the standard [[volume form]] on the standard [[n-sphere|d-sphere]].
+
+For $i \neq j \in \{1, \cdots, n\} $ two distinct point labels, write
+
+$$
+  g_{i j}
+  \;\coloneqq\;
+  \left(\theta_{i j}\right)^\ast\left( dvol_{\left( S^{d-1}\right)}\right)
+  \;\in\;
+  \Omega^\bullet\left( FM_n\left(\mathbb{R}^d\right) \right)
+$$
+
+be the [[pullback of differential forms]] of this standard volume form along the [[projection]] $\theta_{i j} \;\colon\; FM_n\left( \mathbb{R}^{d}\right) \longrightarrow S^{d-1}$ from (eq:ProjectionsToBoundarySpheres).
+
+=--
+
++-- {: .num_prop #DeRhamCohomologyOfFMCompactification}
+###### Proposition
+
+Let $d \in \mathbb{N}$ ([[dimension of a manifold|dimension]] of [[Euclidean space]]),  and $n \in \mathbb{N}$ (number of points) and consider the Fulton-MacPherson compactification $FM_n(\mathbb{R}^d)$ from Def. \ref{FultonMacPhersonCompactification}.
+
+
+The [[de Rham cohomology]] of $FM_n\left( \mathbb{R}^d\right)$ is, as a [[graded-commutative algebras]], [[isomorphism|isomorphic]] to the [[quotient algebra]] of the [[free construction|free]] [[graded commutative algebra]] [[generators and relations|generated]] by the classes of the forms $g_{i j}$ from Def. \ref{SphereClassGeneratorsOfDeRhamCohomology} 
+
+$$
+  H^\bullet_{dR}\left(
+    FM_n\left( \mathbb{R}^d \right)
+  \right)
+  \;\simeq\;
+  \wedge_{\mathbb{R}}^\bullet
+  \left\langle
+    \left[g_{i j}\right] \;\vert\; i \neq j \in \{1, \cdots, n\}
+  \right\rangle / \sim
+$$
+
+by the following three relations (for all distinct $i,j,k \in \{1,\cdots, n\}$):
+
+1. $\left[g_{i j}\right] \wedge \left[g_{i j}\right] \;\sim\; 0$;
+
+1. $\left[g_{i j}\right] \;\sim\; (-1)^d \left[g_{j i}\right]$;
+
+1.  $
+     \left[g_{i j}\right] \wedge \left[ g_{j k} \right]
+     +
+     \left[g_{j k}\right] \wedge \left[ g_{k i} \right]
+     +
+     \left[g_{k i}\right] \wedge \left[ g_{i j} \right]
+     \;\sim\;
+     0
+   $ $\;\;\;\;$("3-term relation")
+
+=--
+
+This is due to ([Cohen 73](#Cohen73)). 
+
+
 ### Formality and relation to Graph complexes
  {#RelationToGraphComplexes}
 
-We have that [[the Fulton-MacPherson operad is formal]] in the sense that for each of its component [[topological spaces]] there is a [[zig-zag]] of [[quasi-isomorphisms]] between their [[de Rham cohomology]] and their [[de Rham complex]], and such that these morphisms are compatible with the induced [[cooperad]]-[[structure]] on both sides.
+We have that [[the Fulton-MacPherson operad is formal]] in the sense that for each of its component [[manifolds]] $FM_n\left( \mathbb{R}^d\right)$ (Def. \ref{FultonMacPhersonCompactification}) there is a [[zig-zag]] of [[quasi-isomorphisms]] between their [[de Rham cohomology]] and their [[de Rham complex]], and such that these morphisms are compatible with the induced [[cooperad]]-[[structure]] on both sides.
 
 Concretely, the [[zig-zags]] may be taken to consist of one [[span]] of [[quasi-isomorphisms]] out of a suitable [[graph complex]] to the [[de Rham cohomology]]/[[de Rham complex]] of the [[Fulton-MacPherson operad]].
 
@@ -211,8 +293,60 @@ Here the morphism from the [[graph complex]] to the [[de Rham complex]] of the [
 
 This idea of a proof was sketched in [Kontsevich 99](#Kontsevich99), a full account is due to [Lambrechts-Volic 14](#LambrechtsVolic14).
 
++-- {: .num_defn #TheGraphComplexdgcAlgebra}
+###### Definition
 
+For $n\in \mathbb{N}$, write 
 
+$$
+  Graphs_n\left( \mathbb{R}^d \right)
+  \;\in\;
+  dgcAlg_{\mathbb{R}}
+$$ 
+
+for the [[graph complex]] of "[[Feynman graphs]]" with $n$ external [[vertices]], regarded with its [[structure]] of a [[differential graded-commutative algebra]] over the [[real numbers]].
+
+=--
+
+([Lambrechts-Volic 14, Def. 6.19](#LambrechtsVolic14))
+
++-- {: .num_prop  #QuasiIsoFromGraphComplexToDeRhamCohomology}
+###### Proposition
+
+The [[linear function]]
+
+$$
+  \overline{I}
+  \;\colon\;
+  Graphs_n\left( \mathbb{R}^d\right)
+  \overset{ \phantom{AA}\simeq \phantom{AA} }{\longrightarrow}
+  \H^\bullet_{dR}\left(  FM_n\left( \mathbb{R}^d \right) \right)
+$$
+
+from the [[graph complex]] [[dgc-algebra]] (Def. \ref{TheGraphComplexdgcAlgebra}) to the [[de Rham cohomology]] (Prop. \ref{DeRhamCohomologyOfFMCompactification}) of the Fulton-MacPherson compactification (Def. \ref{FultonMacPhersonCompactification}) given on generators by
+
+$$
+  \overline{I}\left( \Gamma \right)
+  \;=\;
+  \left\{
+    \array{
+      \left[g_{i j}\right] &\vert& \Gamma \, {\text{is diagram with a single edge,} \atop \text{connecting the only two external vertices}\, i \, \text{and}\, j}
+      \\
+      0 &\vert& \Gamma \, \text{has internal vertices}
+    }
+  \right.
+  \,,
+$$
+
+(where $g_{i j} \in \Omega^\bullet\left(  FM_n\left( \mathbb{R}^d\right) \right)$ are the [[differential forms]] from Def. \ref{SphereClassGeneratorsOfDeRhamCohomology})
+
+extends to a [[homomorphism]] of [[dgc-algebras]] which is a [[quasi-isomorphism]].
+
+=--
+
+([Lambrechts-Volic 14, Theorem 8.1](#LambrechtsVolic14))
+
+(...)
 
 ## Related concepts
 
@@ -244,13 +378,19 @@ and developed in detail in
 
 which also shows the equivalence to [Fulton-MacPherson 94](#FultonMacPherson94).
 
-The equivalence to the [[little n-disk operad]] was established in 
-
-* {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
 
 Review includes
 
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+
+
+The [[de Rham cohomology]] was determined in 
+
+* {#Cohen73} Fred Cohen, _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
+
+The equivalence to the [[little n-disk operad]] was established in 
+
+* {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
 
 
 
