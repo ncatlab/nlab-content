@@ -282,7 +282,7 @@ by the following three relations (for all distinct $i,j,k \in \{1,\cdots, n\}$):
 This is due to ([Cohen 73](#Cohen73)). 
 
 
-### Formality and relation to Graph complexes
+### Relation to Graph complexes and Formality theorem
  {#RelationToGraphComplexes}
 
 We have that [[the Fulton-MacPherson operad is formal]] in the sense that for each of its component [[manifolds]] $FM_n\left( \mathbb{R}^d\right)$ (Def. \ref{FultonMacPhersonCompactification}) there is a [[zig-zag]] of [[quasi-isomorphisms]] between their [[de Rham cohomology]] and their [[de Rham complex]], and such that these morphisms are compatible with the induced [[cooperad]]-[[structure]] on both sides.
@@ -295,6 +295,7 @@ This idea of a proof was sketched in [Kontsevich 99](#Kontsevich99), a full acco
 
 +-- {: .num_defn #TheGraphComplexdgcAlgebra}
 ###### Definition
+**(the [[graph complex]])**
 
 For $n\in \mathbb{N}$, write 
 
@@ -320,7 +321,7 @@ $$
   \;\colon\;
   Graphs_n\left( \mathbb{R}^d\right)
   \overset{ \phantom{AA}\simeq \phantom{AA} }{\longrightarrow}
-  \H^\bullet_{dR}\left(  FM_n\left( \mathbb{R}^d \right) \right)
+  H^\bullet_{dR}\left(  FM_n\left( \mathbb{R}^d \right) \right)
 $$
 
 from the [[graph complex]] [[dgc-algebra]] (Def. \ref{TheGraphComplexdgcAlgebra}) to the [[de Rham cohomology]] (Prop. \ref{DeRhamCohomologyOfFMCompactification}) of the Fulton-MacPherson compactification (Def. \ref{FultonMacPhersonCompactification}) given on generators by
@@ -335,7 +336,6 @@ $$
       0 &\vert& \Gamma \, \text{has internal vertices}
     }
   \right.
-  \,,
 $$
 
 (where $g_{i j} \in \Omega^\bullet\left(  FM_n\left( \mathbb{R}^d\right) \right)$ are the [[differential forms]] from Def. \ref{SphereClassGeneratorsOfDeRhamCohomology})
@@ -346,7 +346,129 @@ extends to a [[homomorphism]] of [[dgc-algebras]] which is a [[quasi-isomorphism
 
 ([Lambrechts-Volic 14, Theorem 8.1](#LambrechtsVolic14))
 
-(...)
+
+Now we consider the analogous but richer quasi-isomorphism from the [[graph complex]] not just to the [[de Rham cohomology]] of the compactified configuration space, but its full [[de Rham complex]].
+
++-- {: .num_defn #FiberIntegrationOverInternalVertices}
+###### Definition
+**([[fiber integration]] over internal [[vertices]])**
+
+For $\Gamma \in Graphs_n\left( \mathbb{R}^d \right)$ an element in the [[graph complex]] (Def. \ref{TheGraphComplexdgcAlgebra}) with $k$ internal vertices, write
+
+$$
+  \array{
+    FM_{n + k}\left( \mathbb{R}^d \right)
+    \\
+    \Big\downarrow {}^{\mathrlap{\pi_n^{n + k}}}
+    \\
+    FM_{n}\left( \mathbb{R}^d\right)
+  }
+$$
+
+for the evident [[continuous function]] between the Fulton-MacPherson compactifications of ordered [[configuration spaces of points]] (Def. \ref{FultonMacPhersonCompactification}) obtained by forgetting the $k$ "internal" of the total of $n + k$ points in a configuration.
+
+This canonically carries the [[structure]] of a [[fiber bundle]] of [[semi-algebraic manifolds]] and hence induces a [[fiber integration|fiber-]] [[integration of differential forms]] from minimal to partially algebraic differential forms:
+
+$$
+  \underset{ 
+    \pi_n^{n + k}
+  }{\int}
+  \;\colon\;
+  \Omega^\bullet_{min}
+  \left(
+    FM_{n + k}\left( \mathbb{R}^d \right)
+  \right)
+  \longrightarrow
+  \Omega^{\bullet - d \cdot k}_{PA}
+  \left(
+    FM_n\left( \mathbb{R}^d \right)
+  \right)
+$$
+
+=--
+
+([Lambrechts-Volic 14, Theorem 5.8 and equation (111)](#LambrechtsVolic14))
+
+
+
++-- {: .num_defn #QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM}
+###### Definition
+**([[quasi-isomorphism]] between [[graph complex]] and [[de Rham complex]] of Fulton-MacPherson compactification)**
+
+Consider the [[linear function]]
+
+$$
+  \overline{I}
+  \;\colon\;
+  Graphs_n\left( \mathbb{R}^d\right)
+  \overset{ \phantom{AA}\simeq \phantom{AA} }{\longrightarrow}
+  \Omega^\bullet_{PA}\left(  FM_n\left( \mathbb{R}^d \right) \right)
+$$
+
+from the [[graph complex]] [[dgc-algebra]] (Def. \ref{TheGraphComplexdgcAlgebra}) to the [[semialgebraic de Rham complex]] (Def. \ref{FiberIntegrationOverInternalVertices}) of the Fulton-MacPherson compactification (Def. \ref{FultonMacPhersonCompactification}) given on [[graphs]] 
+
+$$
+  \Gamma \;\in\; Graphs_{n}\left( \mathbb{R}^d\right)
+$$
+
+with 
+
+$$
+  k \coloneqq int(\Gamma)
+$$
+
+internal vertices by the [[integral transform]] of the canonical [[volume form]] through the [[span]]
+
+$$
+  \array{
+    && 
+    FM_{n + k}\left( \mathbb{R}^d\right)
+    \\
+    & 
+    {}^{ \mathllap{ \left( \theta_{a b} \vert a \neq b\in \{1, \cdots, n + k\} \right) } }\swarrow 
+    && 
+    \searrow^{ \mathrlap{ \pi_n^{n + k}  } }
+    \\
+    \left(
+      S^{d-1}
+    \right)^{n + k}
+    && &&
+    FM_n\left( \mathbb{R}^d \right)
+  }
+$$
+
+where 
+
+1. the [[function]] on the left, to the [[Cartesian product]] of one [[n-sphere|(d-1)-spheres]] for each pair of distinct vertices, is given by the functions $\theta_{a b}$ from (eq:ProjectionsToBoundarySpheres)
+
+1. the function on the right is the canonical forgetful projection from Def. \ref{FiberIntegrationOverInternalVertices}, 
+
+hence which sends
+
+$$
+  \Gamma 
+  \;\mapsto\;
+  \underset{ \pi_{n}^{n + int(\Gamma)} }{\int}
+  \underset{
+    (a \to b) \in \Gamma
+  }{\wedge}
+  g_{a b}
+$$
+
+to the [[fiber integration]] over internal vertices (Def. \ref{FiberIntegrationOverInternalVertices}) of the [[wedge product]] of the [[differential forms]] 
+
+$$
+  g_{a b} \coloneqq \theta_{a b}^\ast dvol_{\left(S^{d-1}\right)}
+$$ 
+
+(Def. \ref{SphereClassGeneratorsOfDeRhamCohomology}), one for each [[edge]] in the graph from vertex $a$ to vertex $b$.
+
+This function constitutes a [[homomorphism]] of [[dgc-algebras]] which is a [[quasi-isomorphism]].
+
+=--
+
+That this is a dgc-algebra-homomorphism compatible with the [[cooperad]]-[[structure]] is proven in [Lambrechts-Volic 14](#LambrechtsVolic14), that it is a [[quasi-isomorphism]] is proven in [Lambrechts-Volic 14, section 10](#LambrechtsVolic14).
+
 
 ## Related concepts
 
@@ -381,7 +503,7 @@ which also shows the equivalence to [Fulton-MacPherson 94](#FultonMacPherson94).
 
 Review includes
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 
 The [[de Rham cohomology]] was determined in 
