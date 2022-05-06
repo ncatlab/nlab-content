@@ -51,7 +51,7 @@ For [[mesons]] one has:
 
 * the [[pion]], [[omega-meson]] and [[rho meson]] are light (being [[bound states]] of [[up quarks]] and [[down quarks]]);
 
-* the heavy mesons are the [[K-mesons]] (involving a [[strange quark]]), the [[D-mesons]] (involving a [[charm quark]]) and the [[B-mesons]] (involving a [[bottom quark]]) 
+* the heavy mesons are the [[eta-meson]], [[phi-meson]] and [[K-mesons]] (involving a [[strange quark]]); the [[D-mesons]] (involving a [[charm quark]]) and the [[B-mesons]] (involving a [[bottom quark]]) 
 
 1. In "3-flavor"-[[chiral perturbation theory]] with [[SU(3)]] [[chiral symmetry]] 
 
