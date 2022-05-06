@@ -3,6 +3,8 @@
 
 Discussion of the [[SYK-model]] as the [[AdS-CFT|AdS/CFT dual]] of [[JT-gravity]] in [[nearly AdS2/CFT1]] and [[AdS-CFT in condensed matter physics]]:
 
+Original articles:
+
 
 * {#MaldacenaStanford16} [[Juan Maldacena]], [[Douglas Stanford]], _Comments on the Sachdev-Ye-Kitaev model_, Phys. Rev. D 94, 106002 (2016)([arXiv:1604.07818](https://arxiv.org/abs/1604.07818))
 
@@ -10,6 +12,11 @@ Discussion of the [[SYK-model]] as the [[AdS-CFT|AdS/CFT dual]] of [[JT-gravity]
 
 
 * {#Sachdev10} [[Subir Sachdev]], _Holographic metals and the fractionalized Fermi liquid_, Phys. Rev. Lett. 105:151602, 2010 ([arXiv:1006.3794](https://arxiv.org/abs/1006.3794))
+
+Review:
+
+* Gábor Sárosi, _$AdS_2$ holography and the SYK model_, Proceedings of Science 323 ([arXiv:1711.08482](https://arxiv.org/abs/1711.08482),  [doi:10.22323/1.323.0001](https://doi.org/10.22323/1.323.0001))
+
 
 * {#Maldacena18} [[Juan Maldacena]], _Toy models for black holes II_, talk at PiTP 2018 _From QBits to spacetime_ ([recording](https://video.ias.edu/PiTP/2018/0726-JuanMaldacena))
 
