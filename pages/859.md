@@ -52,6 +52,9 @@ The definitions above are not symmetric in left and right; since the first defin
 
 However, right and left semidirect products are equivalent.  Essentially, this is because any left action $(h,g) \mapsto {}^h{g}$ defines a right action $(g,h) \mapsto g^h \coloneqq {}^{h^{-1}}g$ and vice versa.
 
+### As a Grothendieck construction
+
+Letting $G$ be viewed as a category with one object, define the functor $F \; G \to Cat$ by $* \mapsto \Gamma$ also viewed as a category with one object. This gives the action $G \to Aut(\Gamma)$ and the Grothendieck construction $\int_G F$ is the one object category for the above group.
 
 ### Semidirect products of groupoids
 
