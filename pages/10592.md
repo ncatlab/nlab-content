@@ -17,9 +17,11 @@
 
 * [[folklore]]
 
-* [[theorem]], [[proof]]
+* [[theorem]], [[proposition]], [[proof]]
 
 * [[analogy]]
+
+
 
 ## References
 
