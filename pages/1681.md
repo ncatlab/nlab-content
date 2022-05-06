@@ -235,6 +235,10 @@ Textbook accounts:
 
 * {#May} [[Peter May]], Chapter 22 of: _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
+Lecture notes:
+
+* {#Kobin16} Andrew Kobin, Section 7.6 of: _Algebraic Topology_, 2016 ([[KobinAT2016.pdf:file]])
+
 The construction via reduced linearization of spheres is considered in
 
 * {#Schwede12} [[Stefan Schwede]], Example I.1.14 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
