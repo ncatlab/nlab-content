@@ -38,6 +38,11 @@ Another answer is to consider what the category-theoretic [[isomorphisms]] betwe
 
 Short maps give the [[Met|category of metric spaces]] some nice properties.  In particular, $Met$ is [[complete category|complete]], which does not hold using either global isometries or distance-preserving maps as morphisms.  This interacts with the properties of the category of [[Banach spaces]]; as a Banach space may be defined as a set with compatible vector-space and metric-space structures, so a Banach space morphism is a function that is both linear and short: the [[short linear maps]].
 
+## Related pages
+
+* [[Lipschitz map]]
+* [[metric space]]
+
 
 [[!redirects short map]]
 [[!redirects short maps]]
