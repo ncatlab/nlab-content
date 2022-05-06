@@ -81,7 +81,7 @@ $$
 $$
 
 $$
-\frac{\Gamma \vdash A \, type \qquad \Gamma,x:A \vdash B \,type \qquad \Gamma,x:A \vdash M \Leftarrow B \qquad \Gamma, x:A \vdash B\,type}{\Gamma \vdash \lambda(x:A.B)M \Rightarrow \Pi(x:A) B}
+\frac{\Gamma \vdash A \, type \qquad \Gamma,x:A \vdash B \,type \qquad \Gamma,x:A \vdash M \Leftarrow B}{\Gamma \vdash \lambda(x:A.B)M \Rightarrow \Pi(x:A) B}
 $$
 
 (Note that the "is a type" judgment $\Gamma \vdash A\,type$ is not bidirectional.  With Russell universes we could consider making it so.)
