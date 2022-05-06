@@ -200,5 +200,8 @@ On [[quantum information theory]], ([[holographic entanglement entropy|holograph
 
 > In Chapter 1 we consider the irreversibility of renormalization group flows from a quantum information perspective by using majorization theory and conformal field theory.
 
+#### Videos
+
+* Reinhard Werner, _Mathematical methods of quantum information theory_, 18 lecture course (2017) video playlist [yt](https://www.youtube.com/playlist?list=PLDfPUNusx1EoBAn8vXYjcF95R7mI_eR6o)
 
 [[!redirects quantum information theory]]
