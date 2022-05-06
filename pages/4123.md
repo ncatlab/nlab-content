@@ -1,5 +1,5 @@
 
-This page is about a property of [[Cech nerves]] in [[homotopy theory]]. For the "nerve theorem" in [[category theory]] see at _[[Segal conditions]]_.
+This page is about a property of [[Cech nerves]] in [[homotopy theory]]. For the "nerve theorem" in [[category theory]] see at _[[Segal conditions]]_. For the "nerve theorem" for [[monads with arities]] see [there](monad+with+arities#NerveTheorem).
 
 ***
 
