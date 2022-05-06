@@ -89,7 +89,7 @@ in the light of fully fledged [[(∞,1)-topos|(∞,1)-topos theory]], of which i
 
 by noticing that the constructions on [[simplicial objects]] in [[toposes]] used there secretly precisely compute the [[derived hom-space|(∞,1)-categorical hom-objects]] of an [[(∞,1)-topos]] as presented by the [[model structure on simplicial sheaves]] on the underlying site.
 
-This and a list of other releated references and historical developments is given at
+This and a list of other related references and historical developments is given at
 
 * [References](#References).
 
