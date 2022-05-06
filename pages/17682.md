@@ -35,7 +35,10 @@ For a summary of uses, see
 
 * {#Asudeh} [[Ash Asudeh]], _Monads: Some Linguistic Applications_, [pdf](http://www.sas.rochester.edu/lin/sites/asudeh/handouts/asudeh-se-lfg13.pdf)
 
-This refers to:
+* [[Gianluca Giorgolo]] and [[Ash Asudeh]], _Natural Language Semantics with Enriched Meanings_, [pdf](http://www.sas.rochester.edu/lin/sites/asudeh/pdf/esslli2015-course-notes.pdf)
+
+
+These refer to:
 
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2011. Multidimensional Semantics with Unidimensional Glue Logic. In Butt and King 2011, 236&#8211;256.
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2012a. _$\langle M, \eta, \star \rangle$ Monads for Conventional Implicatures_. In Ana Aguilar Guevara, Anna Chernilovskaya, and Rick Nouwen, eds., Proceedings of Sinn und Bedeutung 16. MIT Working Papers in Linguistics.
