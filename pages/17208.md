@@ -191,7 +191,7 @@ $$
 ###### Proof
 
 
-Given [[homogeneous coordinates]] $(z_0 ,  z_1 ,  \cdots ,  z_n ,  z_{n+1} ,  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let
+Given [[homogeneous coordinates]] $(z_1 ,  \cdots ,  z_n ,  z_{n+1} ,  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let
 
 $$
   \phi \coloneqq -arg(z_{n+2})
@@ -200,7 +200,7 @@ $$
 be the [[phase]] of $z_{n+2}$. Then under the equivalence relation defining $\mathbb{C}P^{n+1}$ these coordinates represent the same element as
 
 $$
-  \frac{1}{\vert \vec z\vert}(e^{i \phi} z_0, e^{i \phi}z_1,\cdots, e^{i \phi}z_{n+1}, r)
+  \frac{1}{\vert \vec z\vert}(e^{i \phi} z_1, e^{i \phi}z_2,\cdots, e^{i \phi}z_{n+1}, r)
   \,,
 $$
 
@@ -223,7 +223,7 @@ $$
   \,.
 $$
 
-Here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
+Here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarrow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
 Both of these mare are evidently continuous, and hence so is their composite.
 
 The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the conditions ${\vert z'\vert} = 0$ and $z'_{n+2}$ is 
