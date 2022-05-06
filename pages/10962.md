@@ -25,6 +25,11 @@ In ([Bell 75](#Bell75)), to further justify this, recourse is made to [[Niels Bo
 
 In practice of theoretical physics most everytime one writes "observable" it should, by this logic, rather be "beable". While this might be reasonable, as a convention of conversation it has not been picked up.
 
+## Related concepts
+
+[[!include states and observables -- content]]
+
+
 ## References
 
 The original discussion of beables in the context of [[causal locality]] in [[AQFT]] is in
