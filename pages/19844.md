@@ -88,13 +88,14 @@ Indications of flavour anomalies have been observed consistently and with increa
 \end{imagefromfile}
 
 
-> graphics grabbed from [Dey 18](#Dey18)
 
 The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)).
 
+> graphics grabbed from [Dey 18](#Dey18)
 
 
 This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The statistical significance over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)).
+
 
 Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
 
@@ -497,6 +498,7 @@ General [[effective field theory]] parametrization:
 
 * Ashutosh Kumar Alok, Suman Kumbhakar, S. Uma Sankar, _Discriminating new physics scenarios in b→sμ+μ− via transverse polarization asymmetry of K∗ in B→K∗μ+μ− decay_ ([arXiv:2001.04395](https://arxiv.org/abs/2001.04395))
 
+* Suman Kumbhakar, Ashutosh Kumar Alok, Dinesh Kumar, S. Uma Sankar, _New Physics solutions for $b \to c \tau bar \nu$ anomalies after Moriond 2019_ ([arXiv:2001.06344](https://arxiv.org/abs/2001.06344))
 
 #### Leptoquarks
 
