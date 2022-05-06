@@ -20,7 +20,7 @@
 
 ## Idea ##
 
-By a  _prefex order_ we mean a [[partial order]] which is also downwards [[total order|totally ordered]].
+By a  _prefix order_ we mean a [[partial order]] which is also downwards [[total order|totally ordered]].
 
 The concept was introduced in ([Cuipers 13a](#Cuipers13a), [Cuipers 13b](#Cuipers13b)) in the context of [[semantics]] for [[programming languages]], and in particular hybrid and cyber-physical systems, as need arose to generalize the notion of (execution) tree to something that would include a mix of continuous and discrete progress of time. After a lot of experimentation, [Cuipers 13a](#Cuipers13a) discovered that the generalization needed was something that expresses two things: time branches when it goes forward (due to different possible courses of action a system may take), but seems linear when looking backward. 
 
