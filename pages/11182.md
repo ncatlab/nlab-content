@@ -358,7 +358,7 @@ Even more abstractly, there is no reason to limit the domain of $c$ to $\mathbb{
 
 ## References
 
-* nForum discussions: [I](http://nforum.ncatlab.org/discussion/5402/what-is-a-variable/), [II](http://nforum.ncatlab.org/discussion/5518/differentials/), [III](http://nforum.ncatlab.org/discussion/5700/cogerm-forms/), [IV](http://nforum.ncatlab.org/discussion/5817/cojet-differential-forms/), [V](http://nforum.ncatlab.org/discussion/5941/higher-differentials-again/), [VI](https://nforum.ncatlab.org/discussion/7636/coflare-differential-forms/).
+* nForum discussions: [I](http://nforum.ncatlab.org/discussion/5402/what-is-a-variable/), [II](http://nforum.ncatlab.org/discussion/5518/differentials/), [III](http://nforum.ncatlab.org/discussion/5700/cogerm-forms/) (merged into [the page discussion](https://nforum.ncatlab.org/discussion/8552/)), [IV](http://nforum.ncatlab.org/discussion/5817/cojet-differential-forms/), [V](http://nforum.ncatlab.org/discussion/5941/higher-differentials-again/), [VI](https://nforum.ncatlab.org/discussion/7636/coflare-differential-forms/).
 
 Historical reference saved for later reading:
 
