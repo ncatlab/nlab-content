@@ -88,11 +88,9 @@ A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed simply
 
 Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
-##History
+ 
 
-The beautiful and powerful Eckmann-Hilton argument is due to [[Beno Eckmann]] and [[Peter Hilton]].
-
-##Variation
+## Variation
 
 There are variations on the Eckmann-Hilton argument that do not assume units. For example, if a set is equipped with two symmetric $(a * b = b * a)$ and idempotent $(a * a = a)$ binary operations that commute with each other, then the operations coincide. 
 
@@ -105,6 +103,8 @@ $$c_{0.25}(a,b)=c_{0.5}(c_{0.5}(a,b),b)=(a*b)*b=a*(b*b)=a*b=c_{0.5}(a,b).$$
 This is relevant in computer science because probability is modelled by the free convex spaces monad, and non-determinism is modelled by the free semilattice monad. These monads are both [[commutative monad|commutative monads]], but there can be no commutative monad that contains both these monads non-degenerately. 
 
 ## References
+
+Due to
 
 * [[Beno Eckmann]], [[Peter Hilton]], ...
 
