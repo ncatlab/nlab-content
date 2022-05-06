@@ -914,6 +914,11 @@ On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
 
+On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Schwarz action functional|brane scan]]) in relation to [[integration over supermanifolds|integrable forms]] of coset [[supermanifolds]]:
+
+* [[Roberto Catenacci]], [[C. A. Cremonini]], [[Pietro Antonio Grassi]], [[Simone Noja]], _Cohomology of Lie Superalgebras: Forms, Integral Forms and Coset Superspaces_ ([arXiv:2012.05246](https://arxiv.org/abs/2012.05246))
+
+
 
 
 [[!redirects Lie superalgebra]]
