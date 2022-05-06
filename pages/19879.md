@@ -12,8 +12,8 @@ We now prove that the [[Initiality Project - Partial Interpretation|partial inte
 1. If $\Gamma \vdash A\, type$ is derivable, then the domain of $\llbracket A \rrbracket^V_{type} : Tm^V \rightharpoonup Ty$ contains $\llbracket\Gamma\rrbracket$.
 1. If $\Gamma \vdash T \Rightarrow A$ is derivable, then the domain of $\llbracket T \rrbracket^V_{\Rightarrow} : Tm^V \rightharpoonup Tm$ contains $\llbracket\Gamma\rrbracket$, and the composite $Tm^V \overset{\llbracket T \rrbracket^V_{\Rightarrow}}{\rightharpoonup} Tm \to Ty$ agrees with $\llbracket A \rrbracket^V_{type}$ on $\llbracket\Gamma\rrbracket$.
 1. If $\Gamma \vdash T \Leftarrow A$ is derivable, then the domain of $\llbracket T \rrbracket^V_{\Leftarrow} : Tm^V \times Ty \rightharpoonup Tm$ contains the subobject defined by $\llbracket\Gamma\rrbracket \hookrightarrow Tm^V \overset{(id,\llbracket A \rrbracket^V_{type})}{\rightharpoonup} Tm^V \times Ty$.
-1. If $\Gamma \vdash A \equiv B \, type$ is derivable, then $\llbracket A \rrbracket^V_{type}$ and $\llbracket B \rrbracket^V_{type}$ agree on $\llbracket\Gamma\rrbracket$.
-1. If $\Gamma \vdash S \equiv T : A$ is derivable, then $\llbracket S \rrbracket^V_{\Leftarrow}$ and $\llbracket T \rrbracket^V_{\Leftarrow}$ agree on the subobject $\llbracket\Gamma\rrbracket \hookrightarrow Tm^V \times Ty$ defined in (3) above.
+1. If $\Gamma \vdash A \equiv B \, type$ is derivable, then $\llbracket A \rrbracket^V_{type}$ and $\llbracket B \rrbracket^V_{type}$ agree when their domains are intersected with each other and also with $\llbracket\Gamma\rrbracket$.
+1. If $\Gamma \vdash S \equiv T : A$ is derivable, then $\llbracket S \rrbracket^V_{\Leftarrow}$ and $\llbracket T \rrbracket^V_{\Leftarrow}$ agree when their domains are intersected with each other and also with the subobject $\llbracket\Gamma\rrbracket \hookrightarrow Tm^V \times Ty$ defined in (3) above.
 
 The proof is by mutual induction on these mutually defined inductive judgments; thus we have one clause for each primitive rule in our [[Initiality Project - Type Theory|type theory]].
 
