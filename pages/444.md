@@ -395,7 +395,10 @@ In particular in light of their generalization to nerves of higher categories, d
     \right|
     (f_1, f_2) \in Mor(D) {}_t \times_s Mor(D)
   \right\}$ is the collection of composable morphisms in $\mathcal{C}$ as in the diagram
-  [[2-simplex-1-cat-nerve.svg:pic]]
+  \begin{imagefromfile}
+      "file_name": "2-simplex-1-cat-nerve.svg",
+      "width": 150
+  \end{imagefromfile}
   The 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose two morphisms);
 
 * $N(\mathcal{C})_3 = \left\{
@@ -427,7 +430,10 @@ In particular in light of their generalization to nerves of higher categories, d
       Mor(D) {}_t \times_s Mor(D) {}_t \times_s Mor(D)
     \right\}
   $ is the collection of triples of composable morphisms as in the diagram
-  [[3-simplex-1-cat-nerve.svg:pic]]
+  \begin{imagefromfile}
+      "file_name": "3-simplex-1-cat-nerve.svg",
+      "width": 450
+  \end{imagefromfile}
   to be read as the unique associators that relate one way to compose three morphisms using the above 2-cells to the other way.
 
 #### Examples
