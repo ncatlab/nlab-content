@@ -84,7 +84,7 @@ $$
 
 of the [[Fulton-MacPherson compactification]] of the [[configuration space of points]] $\underset{{}^{1,\cdots,n}}{Conf}(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
-The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regarding a graph as a [[Feynman diagram]] for [[Chern-Simons theory]] on $Sigma = \mathbb{R}^D$ and sending it to its corresponding [[Feynman amplitude]], namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]: 
+The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regarding a graph as a [[Feynman diagram]] for [[Chern-Simons theory]] on $\Sigma = \mathbb{R}^D$ and sending it to its corresponding [[Feynman amplitude]], namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]: 
 
 \[
   \label{TheQuasiIsomorphism}
@@ -170,7 +170,7 @@ just as befits the definition of a [[Feynman amplitude]] when [[correlator as di
 ### Model for spaces of knots  
  {#IdeaGraphComplexModelForSpacesOfKnots}
 
-The graph complex model for [[spaces of knots]] was originally sketched in [Kontsevich 93, Section 5](#Kontsevich93) and worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni05), see also [Bar-Natan 91](#BarNatan91)
+The graph complex model for [[spaces of knots]] was originally sketched in [Kontsevich 93, Section 5](#Kontsevich93) and worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni05), see also [Bar-Natan 91](#BarNatan91).
 
 Here we denote this version of the graph complex by "$KnotGraphs$", in contrast to "$Graphs$" for the other model, discussed [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints).
 
@@ -367,7 +367,7 @@ For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kont
 \linebreak
 
 #### $Graphs_n\big( \mathbb{R}^3 \big)$
- \label{GraphComplexForConfigurationsOfPointsInR3}
+{#GraphComplexForConfigurationsOfPointsInR3}
 
 
 We state the definition of the graph complexes $Graphs_n\big( \mathbb{R}^3\big)$ (as motivated [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints), see Def. \ref{GraphComplexDgcAlgebra} below) associated with [[Euclidean space]] of [[dimension]] 3, following [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14).
@@ -1379,7 +1379,7 @@ is a [[cocycle]] of degree 0 in $KnotGraphs(\mathbb{R}^3)$:
 
 $\in H^0\Big( KnotGraphs\big( \mathbb{R}^3 \big) \Big)$
 
-For the correspinding [[Feynman amplitude]] [[knot invariant]] see Prop. \ref{FirstKnotInvariantFromChernSimonsFeynmanAmplitude} below.
+For the corresponding [[Feynman amplitude]] [[knot invariant]] see Prop. \ref{FirstKnotInvariantFromChernSimonsFeynmanAmplitude} below.
 
 
 \linebreak
