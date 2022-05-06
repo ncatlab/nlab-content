@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is known in the literature as _discrete torsion_ are phenomena of [[equivariant cohomology|equivariant]] [[ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]].
+What is known in the literature as _discrete torsion_ ([Vafa 86](#Vafa86)) are phenomena of [[equivariant cohomology|equivariant]] [[ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]] ([Sharpe 99](#Sharpe99)) and of [[circle n-bundle with connection|circle 3-bundles with connection]] (e.g. represented as [[bundle 2-gerbes]]) modelling the [[supergravity C-field]] on [[orbifolds]] ([Sharpe 00](#Sharpe00)), as in [[M-theory on G2-manifolds]] with [[ADE-singularities]].
 
 
 ## References
@@ -33,7 +33,7 @@ Early discussion of classification in [[2d CFTs]] includes
 
 and more specifically for [[orbifolds]] in [[string theory]] in
 
-* [[Cumrun Vafa]], _Modular Invariance and Discrete Torsion on Orbifolds_, Nucl.Phys. B273 (1986) 592-606 ([spire:http://inspirehep.net/record/227126/](http://inspirehep.net/record/227126/))
+* {#Vafa86} [[Cumrun Vafa]], _Modular Invariance and Discrete Torsion on Orbifolds_, Nucl.Phys. B273 (1986) 592-606 ([spire:http://inspirehep.net/record/227126/](http://inspirehep.net/record/227126/))
 
 * [[Cumrun Vafa]], [[Edward Witten]], _On Orbifolds with Discrete Torsion_, J.Geom.Phys.15:189-214,1995 ([arXiv:hep-th/9409188](https://arxiv.org/abs/hep-th/9409188))
 
@@ -66,7 +66,7 @@ The case of [[heterotic string theory]] is discussed in
 
 The higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]] is discussed in
 
-* [[Eric Sharpe]], _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys.Rev. D68 (2003) 126004 ([arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170))
+* {#Sharpe00} [[Eric Sharpe]], _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys.Rev. D68 (2003) 126004 ([arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170))
 
 * Shigenori Seki, _Discrete Torsion and Branes in M-theory from Mathematical Viewpoint_, Nucl.Phys. B606 (2001) 689-698 ([arXiv:hep-th/0103117](https://arxiv.org/abs/hep-th/0103117))
 
