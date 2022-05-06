@@ -1,6 +1,6 @@
 **Categorial grammar** is a tradition in formal [[linguistics]] which draws inspiration from [[category theory]]. 
 
-Syntactic "calculus" for categorial grammars was introduced by Lambek formalizing the function [[type theory|type]] constructors.  Derivation trees are encoded by [[string diagrams]].
+Syntactic "calculus" for categorial grammars was introduced by Lambek formalizing the function [[type theory|type]] constructors.  Derivation trees can nowadays be encoded by [[string diagrams]].
 
 A seminal article, inspired by the structure of a (non-symmetric) [[biclosed monoidal category]] is:
 
