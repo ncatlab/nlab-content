@@ -348,9 +348,7 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 #### Leptoquarks
 
-Attempts to explain the anomaly include
-
-[[leptoquarks]]:
+explanation via assumption of [[leptoquarks]]:
 
 * {#BauerNeubert15} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
 
@@ -398,6 +396,8 @@ Attempts to explain the anomaly include
 
 * Alakabha Datta, Divya Sachdeva, John Waite, _A unified explanation of $b \to s\mu^= \mu^-$ anomalies, neutrino masses and $B \to \pi K$ puzzle_ ([arXiv:1905.04046](https://arxiv.org/abs/1905.04046))
 
+* Andrei Angelescu, _Single Leptoquark Solutions to the $B$-physics Anomalies_, contribution to the [2019 EW session](http://moriond.in2p3.fr/2019/EW/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06044](https://arxiv.org/abs/1905.06044))
+
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
@@ -415,7 +415,18 @@ Attempts to explain the anomaly include
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
+#### $Z'$-boson
 
+explanations via ssumption of [[Z'-bosons]]:
+
+* {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
+
+
+* {#DAmbrosioIverPiccininiPolosa19} G. D'Ambrosio, A. M. Iyer, F. Piccinini, A.D. Polosa, _Confronting $B$ anomalies with atomic physics_ ([arXiv:1902.00893](https://arxiv.org/abs/1902.00893))
+
+* P. Ko, Takaaki Nomura, Chaehyun Yu, _$b \to s \mu^+ \mu^-$ anomalies and related phenomenology in $U(1)_{B_{3-x_\mu L_\mu - x_\tau L_\tau}}$ flavor gauge models_ ([arXiv:1902.06107](https://arxiv.org/abs/1902.06107))
+
+* Joe Davighi, _Connecting neutral current $B$ anomalies with the heaviness of the third family_, Contribution to the [2019 QCD session](http://moriond.in2p3.fr/2019/QCD/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06073](https://arxiv.org/abs/1905.06073))
 
 
 #### Other
@@ -441,14 +452,6 @@ Attempts to explain the anomaly include
 * Luigi Delle Rose, Shaaban Khalil, Simon J.D. King, Stefano Moretti, _$R_K$ and $R_{K^\ast}$ in an Aligned 2HDM with Right-Handed Neutrinos_ ([arXiv:1903.11146](https://arxiv.org/abs/1903.11146))
 
 
-[[Z'-boson]]:
-
-* {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
-
-
-* {#DAmbrosioIverPiccininiPolosa19} G. D'Ambrosio, A. M. Iyer, F. Piccinini, A.D. Polosa, _Confronting $B$ anomalies with atomic physics_ ([arXiv:1902.00893](https://arxiv.org/abs/1902.00893))
-
-* P. Ko, Takaaki Nomura, Chaehyun Yu, _$b \to s \mu^+ \mu^-$ anomalies and related phenomenology in $U(1)_{B_{3-x_\mu L_\mu - x_\tau L_\tau}}$ flavor gauge models_ ([arXiv:1902.06107](https://arxiv.org/abs/1902.06107))
 
 [[!redirects flavour anomalies]]
 
