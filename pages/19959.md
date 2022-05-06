@@ -23,7 +23,7 @@ A paradigmatic (and in some sense universal) example is given by adding explicit
 
 $$M\langle x\coloneqq N\rangle$$
 
-denoting internally "the substitution of $x$ for $N$ in $M$".  That this is a term constructor means, for instance, that $x\langle x\coloneqq y\rangle$ is a term distinct from $y$; whereas for the ordinary notion of substitution as an *operation*, $x[x\coloneqq y]$ would be a notation for the result of the operation of substituting the term $y$ for the variable $x$ in the term $x$, which is precisely the term $y$.
+denoting internally "the substitution of $N$ for $x$ in $M$".  That this is a term constructor means, for instance, that $x\langle x\coloneqq y\rangle$ is a term distinct from $y$; whereas for the ordinary notion of substitution as an *operation*, $x[x\coloneqq y]$ would be a notation for the result of the operation of substituting the term $y$ for the variable $x$ in the term $x$, which is precisely the term $y$.
 
 The relation between $x\langle x\coloneqq y\rangle$ and $y$ is recovered by modifying the [[reduction]] relation.  We modify the usual [[beta-reduction]] rule $(\lambda x.M)(N) \to M[x\coloneqq N]$ to use an explict substitution instead:
 
