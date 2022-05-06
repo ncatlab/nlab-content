@@ -258,7 +258,10 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 ## References
 
-For more details see also at _[[geometry of physics -- categories and toposes]]_ the section _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_.
+Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
+
+* _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
+
 
 
 [[!redirects lax monoidal functor]]
