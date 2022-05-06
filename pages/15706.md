@@ -107,7 +107,12 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Sikora} Adam Sikora, _Analogies between group actions on 3-manifolds and number fields_, ([arxiv](http://arxiv.org/abs/math/0107210))
 
+
+* {#KohnoMorishita06} [[Toshitake Kohno]], [[Masanori Morishita]] (eds.), _Primes and Knots_, Contemporary Mathematics, AMS 2006 ([conm:416](http://www.ams.org/bookstore-getitem/item=CONM-416))
+
+
 * {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
+
 
 
 
