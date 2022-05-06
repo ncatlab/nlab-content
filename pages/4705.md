@@ -40,7 +40,7 @@ we have that [[Wilson loop]] [[Rozansky-Witten invariants]] ([Rozansky-Witten 96
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-These [[Rozansky-Witten weight systems]] depend only on the [[hyperkähler manifold]] $\mathcal{M}^{4n}$ which is the (classical) [[Coulomb branch]] of the RW-[[topological twist|twisted]] [[D=3 N=4 super Yang-Mills theory]], and in fact they are independent of the [[Riemannian geometry]] of $\mathcal{M}^{4n}$ and depend only on the underlying holomorphic [[symplectic structure]] ([Kapranov 99](#Kapranov99)). Generally, they are defined for $\mathcal{M}^{4n}$ any [[hyperkähler manifold]] which is either asymptotically flat ([[ALE spaces]]) or [[compact topological space]] ([[compact hyperkähler manifolds]]).
+These [[Rozansky-Witten weight systems]] depend only on the [[hyperkähler manifold]] $\mathcal{M}^{4n}$ which is the (classical) [[Coulomb branch]] of the RW-[[topological twist|twisted]] [[D=3 N=4 super Yang-Mills theory]], and in fact they are independent of the [[Riemannian geometry]] of $\mathcal{M}^{4n}$ and depend only on the underlying [[holomorphic symplectic manifold]] ([Kapranov 99](#Kapranov99)). Generally, they are defined for $\mathcal{M}^{4n}$ any [[hyperkähler manifold]] which is either asymptotically flat ([[ALE spaces]]) or [[compact topological space]] ([[compact hyperkähler manifolds]]).
 
 Via the equivalent reformulation by [Kapranov 99](#Kapranov99) one finds ([Roberts-Willerton 10](#RobertsWillerton10)) that the [[Rozansky-Witten invariants]] are structurally [[Lie algebra weight systems]] themselves, but [[Lie algebra object|internal]] to the [[derived category of coherent sheaves]] of $\mathcal{M}^{4n}$ and composed with an [[integration]] over $\mathcal{M}^{4n}$ which makes the resulting [[Dolbeault cohomology]]-valued weights become [[ground field]]-valued.
 
@@ -53,6 +53,21 @@ Via the equivalent reformulation by [Kapranov 99](#Kapranov99) one finds ([Rober
 ### As KK-compactification of M5-brane worldvolume
 
 Rozansky-Witten theory may be identified with [[topological twist|topologically twisted]] [[KK-compactification]] of the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] ([Gukov-Putrov-Vafa 17, Sections 3.2 and 4.2](#GukovPutrovVafa17))
+
+## Examples
+
+### Rozanzky-Witten Wilson loop of unknot is $\hat A$-genus
+
++-- {: .num_prop #RozanskyWittenWilsonLoopOfUnknotIsSquareRootOfAHat}
+###### Proposition
+**([[Rozansky-Witten Wilson loop of unknot is A-hat genus|Rozansky-Witten Wilson loop of unknot is square root of A-hat genus]])**
+
+For $\mathcal{M}^{4n}$ a [[hyperkähler manifold]] (or just a [[holomorphic symplectic manifold]]) the [[Rozansky-Witten invariant]] [[Wilson loop observable]] associated with the [[unknot]] in the [[3-sphere]] is the [[square root]] $\sqrt{{\widehat A}(\mathcal{M}^{4n})}$ of the [[A-hat genus]] of $\mathcal{M}^{4n}$.
+
+=--
+
+This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+is+A-hat+genus#RobertsWillerton10), using the [[Wheels theorem]] and the [[Hitchin-Sawon theorem]].
+
 
 ## Related concepts
 
