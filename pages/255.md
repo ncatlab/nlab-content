@@ -27,7 +27,7 @@ The entry is about monads in the sense of category theory, for another concept s
 
 A [[monad]] is a structure that is a lot like a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category), but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is a [[vertical categorification]] of that of a monoid.
 
-Monads are among the most pervasive structures in [[category theory]] and its applications: for example, they are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].
+Monads are among the most pervasive structures in [[category theory]] and its applications: for example, they are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].http://cs.anu.edu.au/student/projects/12S1/Reports/Anthony_Voutas_Report.pdf
 
 ## Definition
 
@@ -301,7 +301,7 @@ Relation to [[universal algebra]]:
 * [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
 
 * Anthony Voutas, _The basic theory of monads and their connection to
-universal algebra_ ([pdf](http://cs.anu.edu.au/student/projects/12S1/Reports/Anthony_Voutas_Report.pdf))
+universal algebra_ ([pdf](https://pdfs.semanticscholar.org/98c0/ca084f561160b6ddc11c6d64df18b6594b5b.pdf))
 
 In [[higher category theory]]:
 
