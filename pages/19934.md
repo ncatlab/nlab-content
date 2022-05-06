@@ -348,6 +348,17 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA stri
 
 * {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
 
+Systematic construction of [[Ricci tensor|Ricci flat]] [[Riemannian metrics]] on [[K3]] [[orbifolds]]:
+
+* [[Shamit Kachru]], [[Arnav Tripathy]], [[Max Zimet]], _K3 metrics_ ([arXiv:2006.02435](https://arxiv.org/abs/2006.02435))
+
+* [[Arnav Tripathy]], [[Max Zimet]], _A plethora of K3 metrics_ ([arXiv:2010.12581](https://arxiv.org/abs/2010.12581))
+
+
+
+
+
+
 
 In the context of [[Mathieu moonshine]] from [[string]] [[sigma models]] on [[K3]]s: 
 
