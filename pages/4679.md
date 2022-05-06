@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -21,7 +20,7 @@ The _orthogonal Lie algebra_ $\mathfrak{o}$ is the [[Lie algebra]] of the [[orth
 
 The _special orthogonal Lie algebra_ is the Lie algebra $\mathfrak{so}$ of the [[special orthogonal group]] $SO$. 
 
-Since the two [[Lie group]]s differ by an discrete group $\mathbb{Z}_2$, these two Lie algebras coincide; we traditionally write $\mathfrak{so}$ instead of $\mathfrak{o}$.
+Since the two [[Lie groups]] differ by an discrete group $\mathbb{Z}_2$, these two Lie algebras coincide; we traditionally write $\mathfrak{so}$ instead of $\mathfrak{o}$.
 
 
 ## Properties
@@ -40,6 +39,8 @@ the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebr
 * **special orthogonal Lie algebra** , [[unitary Lie algebra]], [[Poincare Lie algebra]]
 
 * [[special linear Lie algebra]]
+
+* [[symplectic Lie algebra]]
 
 * [[string Lie 2-algebra]]
 
