@@ -636,7 +636,7 @@ More is in
 
 * {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
 
-Discussion of equivariant Tate K-theory:
+Discussion of twisted ad- equivariant [[Tate K-theory]]:
 
 For simply connected  [[compact Lie groups]]:
 
