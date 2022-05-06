@@ -155,6 +155,8 @@ On the other hand, in terms of the [[Chevalley-Eilenberg algebra]] this is still
 
 * [[identity among the relations]] 
 
+* [[Leibniz algebra]]
+
 [[!redirects Jacobi identity]]
 [[!redirects Jacobi identities]]
 [[!redirects jacobiator]]
