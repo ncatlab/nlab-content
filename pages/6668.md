@@ -14,7 +14,7 @@ On [[Alexandroff spaces]] ([[specialization topology]]):
 
 On [[one-point compactification]]:
 
-* {#Aleksandrov24} [[Pavel Aleksandrov]], _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen (1924) Volume: 92, page 294-301 ([dml:159072](https://eudml.org/doc/159072))
+* {#Aleksandrov24} [[Paul Alexandroff]], _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen (1924) Volume: 92, page 294-301 ([dml:159072](https://eudml.org/doc/159072))
 
 ## Related $n$Lab entries
 
