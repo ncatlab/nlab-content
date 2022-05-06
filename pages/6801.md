@@ -26,6 +26,8 @@ A limit of the [[worldvolume]] theory of the [[NS5-brane]].
 
 ## References
 
+### General
+
 The original reference is
 
 * [[Nathan Seiberg]], _New theories in six dimensions and matrix description of M-theory on $T^5$ and $T^5/\mathbb{Z}_2$_ Phys. Lett. B408 (1997) 98&#8211;104 ([arXiv:arXiv:hep-th/9705221](http://xxx.lanl.gov/abs/arXiv:hep-th/9705221))
@@ -63,5 +65,19 @@ Relation of little string theory to the [[quantum geometric Langlands correspond
 also
 
 * Babak Haghighat, Rui Sun, _M5 branes and Theta Functions_ ([arXiv:1811.04938](https://arxiv.org/abs/1811.04938))
+
+### Open D$p$-brane theories
+
+For light [[D-branes]] ending on NS5-branes (see [there](NS5-brane#DBranesEndingOnNS5Branes))
+
+* {#GopakumarMinwallaSeibergStrominger00} [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]], _OM Theory in Diverse Dimensions_, JHEP 0008:008, 2000 ([arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062))
+
+
+* {#Harmark00} Troels Harmark, _Open Branes in Space-Time Non-Commutative Little String Theory_,  Nucl.Phys. B593 (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
+
+
+* {#Lu06} J. X. Lu, _$(1 + p)$-Dimensional Open $D(p - 2)$ Brane Theories_, JHEP 0108:049, 2001 ([arXiv:hep-th/0102056](https://arxiv.org/abs/hep-th/0102056))
+
+
 
 [[!redirects little string theories]]
