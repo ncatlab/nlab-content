@@ -63,7 +63,7 @@ $$
 
 =--
 
-These definitions appear [here](https://web.archive.org/web/20150909210342/http://math.northwestern.edu/~costello/factorization.pdf).
+These definitions appear in "[Factorization algebras in quantum field theory](https://web.archive.org/web/20150909210342/http://math.northwestern.edu/~costello/factorization.pdf)" by Costello and Gwilliam.
 
 
 ### Factorization algebras
@@ -137,7 +137,7 @@ is an [[exact sequence]].
 
 =--
 
-These definitions appear [here](http://math.northwestern.edu/~costello/factorization_public.html#[[Factorization%20algebra]]).
+These definitions appear [here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.382.8322&rep=rep1&type=pdf).
 
 See also at _[[cosheaf]]_.
 
@@ -168,7 +168,7 @@ This is the analogue of a [[descent]] condition for [[simplicial presheaves]].
 
 =--
 
-These definitions appear [here](http://math.northwestern.edu/~costello/factorization_public.html#[[Factorization%20algebra]]).
+These definitions appear [here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.382.8322&rep=rep1&type=pdf).
 
 ## Examples
 
