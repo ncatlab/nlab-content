@@ -390,6 +390,7 @@ which provides an alternative expression of the functoriality condition as simpl
 
 See [[category theory#references|category theory - references]].
 
+* [[André Joyal]]'s CatLab: _[[joyalscatlab:Functors]]_
 
 [[!redirects functors]]
 [[!redirects covariant functor]]
