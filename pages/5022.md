@@ -5,7 +5,7 @@
 
 ## Warning
 
-(The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]]; see [[frame]].)
+The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]], see [[frame]].
 
 
 ## Frames in Monomodal Logics
