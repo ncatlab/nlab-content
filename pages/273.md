@@ -203,6 +203,10 @@ See [[ETop∞Grpd]].
 
 =--
 
+## Examples
+
+* [[Cohomotopy]]
+
 
 ## Objects classified by nonabelian cohomology
 
