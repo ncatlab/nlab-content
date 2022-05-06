@@ -13,7 +13,7 @@ A _fuzzy sphere_ is a variant of an [[n-sphere]] in [[noncommutative geometry]].
 ### Fuzzy 2-sphere
  {#Fuzzy2SphereDefinition}
 
-For $N \in \mathbb{N}$, $j \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{j \times j}$ generated from the elements of the $N$-dimensional [[irreducible representation|irreducible]] [[Lie algebra representation]] of $\mathfrak{su}(2)$.
+For $N \in \mathbb{N}$, $j \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{j \times j}$ generated from the elements of the $N$-dimensional [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
 
 #### Algebra of functions
 
@@ -160,14 +160,23 @@ $$
 
 ## Properties
 
-### Shape observables as Vassiliev invariants
+### Shape observables as weight systems on chord diagrams
  {#ShapeObservablesAsVassilievInvariants}
 
-We discuss how the "shape observables" on the fuzzy 2-sphere ([above](#Fuzzy2SphereDefinition)) are given by [[Vassiliev invariants]] (following [Ramgoolam-Spence-Thomas 04](#RamgoolamSpenceThomas04), [McNamara-Papageorgakis 05](#McNamaraPapageorgakis05), see [McNamara 06, Section 4](#McNamara06) for review).
 
-> under construction
+We discuss how the "shape observables" on the fuzzy 2-sphere ([above](#Fuzzy2SphereDefinition)) are given by [[single trace observables]] which are [[Lie algebra weight systems]]
+on [[chord diagrams]] (following [Ramgoolam-Spence-Thomas 04](#RamgoolamSpenceThomas04), [McNamara-Papageorgakis 05](#McNamaraPapageorgakis05), see [McNamara 06, Section 4](#McNamara06) for review).
+
+For more see at _[[weight systems on chord diagrams in physics]]_.
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
+</div>
+
 
 \linebreak
+
 
 While in the commutative [[large N limit]], all powers of the [[radius]] function are equal
 
@@ -200,15 +209,10 @@ At $k = 2$ there are, under the integral (eq:FuzzyS2Integration), two radius obs
 
 (Here we are using that under the integral/trace, a [[cyclic permutation]] of the factors in the integrand does not change the result).
 
-Similarly for higher $k$, where the number of possible orderings increases rapidly. The following graphics makes clear how the ordering choices that characterize these "shape observables" are given by [[chord diagrams]]:
+Similarly for higher $k$, where the number of possible orderings increases rapidly. The [[combinatorics]] that appears here is familiar in [[knot theory]]:
 
-<center>
-<img src="https://ncatlab.org/nlab/files/ChordDiagramsAsShapeObservabesOnTheFuzzySphere.jpg" width="720">
-</center> 
+Every ordering of operators, up to cyclic permutation, in the [[single trace observable]] $Tr(R^2)^n$ is encoded in a [[chord diagram]] and the value of the corresponding [[single trace observable]] is the value of the [[su(2)]]-[[Lie algebra weight system]] on this chord diagram.
 
-Comparison with the definition of $\mathrm{sl}(2)$-weight system Vassiliev invariants (e.g. [Bar-Natan 96](Vassiliev+invariant#BarNatan96)) then shows that this is just what these "shape observables" are.
-
-(...)
 
 ## Related concepts
 
@@ -230,10 +234,10 @@ See also:
 
 * Wikipedia, _[Fuzzy sphere](https://en.wikipedia.org/wiki/Fuzzy_sphere)_
 
-#### Observables via Vassiliev braid invariants
+#### Observables via weight systems on chord diagrams
 
 Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
-[[Yang-Mills monopoles]]) to [[Vassiliev braid invariants]] via [[chord diagrams]] computing [[radii]] of [[fuzzy spheres]]:
+[[Yang-Mills monopoles]]) to [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] computing [[radii]] averages of [[fuzzy spheres]]:
 
 * {#RamgoolamSpenceThomas04} [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
 
