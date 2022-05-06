@@ -27,7 +27,17 @@ The [[equivariant cohomology|equivariant]] version of [[de Rham cohomology]].
 
 ### Models
 
-Various different [[dg-algebras]] are used to model equivariant de Rham cohomology, known as 
+Let 
+
+1. $X$ be a [[smooth manifold]] with [[de Rham algebra]] denoted $\big( \Omega^\bullet(X), d_{dR} \big)$,
+
+1. $G$ a [[Lie group]] with [[Lie algebra]] denoted $\big(\mathfrak{g}, [-,-]\big)$,
+
+1. $X \times G \overset{\rho}{\longrightarrow} X$ a [[smooth function|smooth]] [[action]] of $G$ on $X$.
+
+
+
+Various [[dg-algebras]] are used to model the corresponding $G$-equivariant de Rham cohomology $X$, known as 
 
 * _[the Weil model](#TheWeilModel)_
 
@@ -40,6 +50,172 @@ Various different [[dg-algebras]] are used to model equivariant de Rham cohomolo
 
 reviews include ([Atiyah-Bott 84](#AtiyahBott84), [Kalkman 93, section 2.1](#Kalkman93))
 
+Let $\big( W(\mathfrak{g}), d_W \big)$ denote the [[Weil algebra]] of $\mathfrak{g}$. If $\{t_a\}$ is a [[linear basis]] for $\mathfrak{g}$ 
+
+$$
+  \mathfrak{g}
+  \;=\;
+  span\big(  \{t_a\} \big)
+$$
+
+with induced structure constants for the [[Lie bracket]] being $\big\{f_{b c}^a\big\}_{a,b,c}$ 
+
+$$
+  [t_a, t_b] \;=\; f_{a b}^c t^b \wedge t^c
+$$
+
+(using the [[Einstein summation convention]] throughout)
+
+then the [[Weil algebra]] is explicitly given by
+
+\[
+  \label{ExplicitWeilAlgebra}
+  W(\mathfrak{g})
+  \;\coloneqq\;
+  \mathbb{R}\big[ 
+    \{ 
+      \underset
+        { deg = 1 }
+        {
+          \underbrace{ t^a } 
+        }
+      \}_a,
+    \{ 
+      \underset
+        { deg = 2 }
+        {
+          \underbrace{ r^a } 
+        }
+      \}_a
+  \big]
+  \Big/
+  \left(
+    \begin{aligned}
+      d_W \, t^a & =  - \tfrac{1}{2}f^a_{b c} t^b \wedge t^c + r^a
+      \\
+      d_W \, r^a & = f^a_{b c} t^b \wedge r^c
+    \end{aligned}
+  \right)
+\]
+
+Now consider the [[tensor product of algebras|tensor product of]] [[dgc-algebras]] of the [[de Rham algebra]] of $X$ with the [[Weil algebra]] of $\mathfrak{g}$
+
+\[
+  \label{TensorProductOfdeRhamAlgebraWithWeilAlgebra}
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g}), 
+    \, 
+    d_{dR} + d_W
+  \Big)  
+  \,.
+\]
+
+On this consider the following joint [[Cartan calculus]] operations: for each basis element a graded [[derivation]] of degree -1 (contraction)
+
+$$
+  \iota_a
+  \;\colon\;
+  \Big(
+    \Omega
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)^\bullet
+  \longrightarrow
+  \Big(
+    \Omega
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)^{\bullet - 1 }
+$$
+
+and a graded derivation of degree 0 (generalized [[Lie derivative]])
+
+
+$$
+  \mathcal{L}_a
+  \;\colon\;
+  \Big(
+    \Omega
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)^\bullet
+  \longrightarrow
+  \Big(
+    \Omega
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)^{\bullet}
+$$
+
+defined on $\omega \in \]Omega^\bullet(X)$ any [[differential form]] and $t^a, r^a$ as in (eq:ExplicitWeilAlgebra) as follows
+
+$$
+  \iota_a \;\colon\;
+  \left\{
+    \begin{aligned}
+      \omega & \mapsto \iota_{v^a} \omega
+      \\
+      t^b &\mapsto \delta^a_b
+      \\
+      r^b & \mapsto 0
+    \end{aligned}
+  \right.
+$$
+
+and
+
+$$
+  \mathcal{L}_a 
+  \;\colon\;
+  \left\{
+    \begin{aligned}
+      \omega & \mapsto \mathcal{L}_{v^a} \omega
+      \\
+      t^b &\mapsto f_{a c}^b t^c
+      \\
+      r^b & \mapsto f_{a c}^b r^c
+    \end{aligned}
+  \right.
+$$
+
+
+where 
+
+$$
+  v^a
+  \;\colon\;
+  X 
+  \overset{
+    \big( (e,t_a), 0 \big)
+  }{\hookrightarrow}
+  T G \times T X
+  \simeq
+  T ( G \times X )
+  \overset{ d \rho } {\longrightarrow}
+  T X
+$$
+
+is the [[vector field]] on $X$ which is the [[derivative]] of the [[action]] $\rho$ of $G$ along the [[Lie algebra]]-element $t_a \in \mathfrak{g} \simeq T_e G$, 
+
+and where $\iota_{v^a}$ is ordinary contraction of [[vector fields]] into [[differential forms]] and $\mathcal{L}_{v^a} = [d_{dR}, \iota-{v^a}]$ is [[Lie derivative]] of differential forms.
+
 
 
 #### The Cartan model
@@ -48,7 +224,6 @@ reviews include ([Atiyah-Bott 84](#AtiyahBott84), [Kalkman 93, section 2.1](#Kal
 reviews include ([Mathai-Quillen 86](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
 
 
-Let $X$ be a [[smooth manifold]], $G$ a [[Lie group]], and $\rho : X \times G \to X$ a smooth [[action]] of $G$ on $X$.
 
 Write
 
