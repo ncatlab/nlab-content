@@ -26,8 +26,8 @@ A _bibundle_ is a ([[groupoid-principal bundle|groupoid]]-)[[principal bundle]] 
 
 In particular, Lie groupoid bibundles serve to exhibit "generalized morphisms"/[[Morita morphisms]] between [[Lie groupoids]]. This is in generalization of how the [[differentiable stack]]/[[smooth groupoid]] represented by a [[Lie groupoid]] is the [[moduli stack]] for [[groupoid-principal bundles]]. 
 
-Therefore groupoid bibundles play a role in [[geometry]] analogous to the role played by [[bimodules]] in [[algebra]]. In this role they were originally introduced in ([Haefliger 84](#Haefliger), [Hilsum-Skandalis 87](#HilsumSkandalis), [Pradines 89](#Pradines89)) and accordingly they are also called _Hilsum-Skandalis maps_. Independently they were seen in [[topos theory]] ([Bunge 90](#Bunge), [Moerdijk 91](#Moerdijk91)).
-Historically, a central motivation for their study has been that the [[groupoid convolution algebra]] construction sends smooth bibundles between [[Lie groupoids]] to ([[Hilbert bimodule|Hilbert-]])[[bimodules]] of the corresponding [[C-star-algebra|C-star]] [[convolution algebras]], such that [[Morita equivalence]] is respected ([Muhly-Renault-Williams 87](#MuhlyRenaultWilliams), [Landsman 00](#Landsman), [Mr&#269;un 05](#Mrcun)). This is of relevance notably for [[KK-theory]] of Lie groupoids ([Hilsum-Skandalis 87b](#HilsumSkandalis87b)).
+Therefore groupoid bibundles play a role in [[geometry]] analogous to the role played by [[bimodules]] in [[algebra]]. In this role they were originally introduced in ([Haefliger 84](#Haefliger), [Hilsum-Skandalis 87](#HilsumSkandalis87), [Pradines 89](#Pradines89)) and accordingly they are also called _Hilsum-Skandalis maps_. Independently they were seen in [[topos theory]] ([Bunge 90](#Bunge), [Moerdijk 91](#Moerdijk91)).
+Historically, a central motivation for their study has been that the [[groupoid convolution algebra]] construction sends smooth bibundles between [[Lie groupoids]] to ([[Hilbert bimodule|Hilbert-]])[[bimodules]] of the corresponding [[C-star-algebra|C-star]] [[convolution algebras]], such that [[Morita equivalence]] is respected ([Muhly-Renault-Williams 87](#MuhlyRenaultWilliams), [Landsman 00](#Landsman), [Mr&#269;un 05](#Mrcun)). This is of relevance notably for [[KK-theory]] of Lie groupoids ([Hilsum-Skandalis 87](#HilsumSkandalis87)).
 
 Bibundles also appear as _transition bundles_ of [[nonabelian bundle gerbes]].
 
@@ -729,7 +729,7 @@ and this identification makes $N$ into a $C^\ast(\mathcal{G}_\bullet)-C^\ast(\ma
 
 Groupoid bibundles were first considered for [[foliation groupoids]] in 
 
-* {#HilsumSkandalis} [[Michel Hilsum]] and [[Georges Skandalis]], _Morphismes K-orientes d'espaces de feuilles et functorialite en theorie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390. ([numdam](http://www.numdam.org/item?id=ASENS_1987_4_20_3_325_0))
+* {#HilsumSkandalis87} [[Michel Hilsum]], [[Georges Skandalis]], _Morphismes K-orient&eacute;s d'espaces de feuilles et functorialit&eacute; en th&eacute;orie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390. ([numdam:ASENS_1987_4_20_3_325_0](http://www.numdam.org/item?id=ASENS_1987_4_20_3_325_0))
  
 
 The generalization to arbitrary [[topological groupoids]] was considered in
@@ -737,10 +737,9 @@ The generalization to arbitrary [[topological groupoids]] was considered in
 * {#Haefliger84} [[André Haefliger]], _Groupo&#239;des d'holonomie et classifiants_, Ast&#233;risque 116 (1984), 70&#8211;97.
  
 
-* {#Pradines89} [[Jean Pradines]], _Morphisms between spaces of leaves viewed as fractions_. Cahiers Top. G&#233;om. Diff. Cat. XXX-3 (1989), 229&#8211;246
+* {#Pradines89} [[Jean Pradines]], _Morphisms between spaces of leaves viewed as fractions_. Cahiers Top. G&#233;om. Diff. Cat. XXX-3 (1989), 229&#8211;246 ([numdam:CTGDC_1989__30_3_229_0](http://www.numdam.org/item/?id=CTGDC_1989__30_3_229_0))
  
 
-* {#HilsumSkandalis87b} M. Hilsum and [[Georges Skandalis]], _Morphismes K-orientes d'espaces de feuilles et functorialite en theorie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390.
  
 
 and independently in [[topos theory]] in
@@ -753,7 +752,7 @@ and independently in [[topos theory]] in
 
 Groupoid bibundles are used in the context of [[groupoid convolution algebras]] as geometric analogs of [[bimodules]] in 
 
-* {#MuhlyRenaultWilliams} [[Paul Muhly]], [[Jean Renault]], and D. Williams, _Equivalence and isomorphism for groupoid C&#8727;-algebras_, J. Operator Th. 17 (1987), 3&#8211;22.
+* {#MuhlyRenaultWilliams} [[Paul Muhly]], [[Jean Renault]], and D. Williams, _Equivalence and isomorphism for groupoid $C^\ast$-algebras_, J. Operator Th. 17 (1987), 3&#8211;22.
  
 
 * [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
