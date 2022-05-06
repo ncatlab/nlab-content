@@ -700,7 +700,7 @@ Now
 
 ### General
 
-Original articles include
+Original articles:
 
 * {#Borsuk36} [[K. Borsuk]], _Sur les groupes des classes de transformations continues_, CR Acad. Sci. Paris 202.1400-1403 (1936): 2 ([doi:10.24033/asens.603](https://doi.org/10.24033/asens.603))
  
@@ -720,11 +720,17 @@ See also
 
 The unstable [[Pontrjagin-Thom theorem]] identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]]:
 
+* [[Lev Pontrjagin]], _Classification of continuous maps of a complex into a sphere_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+
 * {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
 
-Further discussion includes
+Discussion of the early history:
+
+* [Kosinski 93, Section IX.9](#Kosinski93)
+
+Further discussion of Cohomotopy:
 
 * [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
 
