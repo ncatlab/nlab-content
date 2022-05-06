@@ -121,16 +121,10 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 * [[locally compact and second-countable spaces are sigma-compact]]
 
-## Related properties
+## Related countability properties
 
 [[!include topology - global countability axioms]]
 
-## Related concepts
-
-* [[first-countable space]]
-* **second-countable space**
-* [[separable space]]
-* [[Urysohn metrization theorem]] 
 
 [[!redirects second-countable space]]
 [[!redirects second-countable spaces]]
