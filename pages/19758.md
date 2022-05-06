@@ -29,7 +29,7 @@ let $\phi \coloneqq \tfrac{1}{2}( 1 + \sqrt{5} )$ (the [[golden ratio]])
 
 **References**
 
-* Groupnames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/97/SL(2,5).html">GL(2,5)</a>_
+* Groupnames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/97/SL(2,5).html">SL(2,5)</a>_
 
 
 * Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
