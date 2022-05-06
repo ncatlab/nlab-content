@@ -267,7 +267,7 @@ Morita theoretic ideas are also involved in [[factorization homology]], the [[bl
 
 > **"Conjecture"**: Whenever the [[dimension]], [[number of supersymmetries|number of preserved supercharges]], and [[chiral fermion|chiralities]] of two different [[string theory vacuum|compactifications of string theory]] match, there are choices of [[KK-compactification|compactification geometries]] such that they are dual descriptions of the same physical theory.
 
-> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory. ([Brennan, Carta &amp; Vafa 17, p. 7](#BrennanCartaVafa17))
+> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory. ([Brennan, Carta &amp; Vafa 17, p. 7](duality+in+string+theory#BrennanCartaVafa17))
 
 
 ## Related concepts
@@ -281,6 +281,9 @@ There is also a duality in the _description_ of physics:
 ## References
 
 * {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_ ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+
+* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
+
 
 * {#Pioline99} B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_ ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
  
@@ -298,13 +301,6 @@ There is also a duality in the _description_ of physics:
 
 * {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
 
-* {#BZBJ15} [[David Ben-Zvi]], Adrien Brochier, David Jordan, _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_, ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
-
-* {#MW10} [[Scott Morrison]], [[Kevin Walker]], _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
-
-* {#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
-
-* {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
 
 
 [[!redirects dualities in physics]]
