@@ -21,9 +21,13 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 ## Selected writings
 
+On [[electric-magnetic duality]]:
+
+* [[Cumrun Vafa]], _Geometric Origin of Montonen-Olive Duality_, Adv.Theor.Math.Phys.1:158-166, 1998 ([arXiv:hep-th/9707131](https://arxiv.org/abs/hep-th/9707131))
+
 On [[M-theory on S1/G_HW times H/G_ADE]] and [[D=6 N=(1,0) SCFT]]:
 
-* {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], Section 6 of: _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+* {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
 
 On the [[KK-compactification]] of [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[D=4 N=1 super Yang-Mills]]:
 
