@@ -55,3 +55,8 @@ The [[n-torus]] for $n \geq 3$ is not a [[cyclic group|cyclic]] branched cover o
 [[!redirects PL structure]]
 [[!redirects PL structures]]
 
+[[!redirects PL-manifold]]
+[[!redirects PL-manifolds]]
+[[!redirects PL manifold]]
+[[!redirects PL manifolds]]
+
