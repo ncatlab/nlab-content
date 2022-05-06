@@ -130,7 +130,7 @@ $$
 
 This is equivalently for each object $i \in \mathcal{I}$ a choice of morphism $p_i \colon Y \to X_i$ , such that  for each pair of objects $i,j \in \mathcal{I}$
 and each $\alpha \in Hom_{\mathcal{I}}(i,j)$ we have $X_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the
-set $  Cones\left( Y, X_\bullet\} \right)$.
+set $  Cones\left( Y, X_{\bullet} \right)$.
 
 =--
 
