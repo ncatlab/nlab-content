@@ -57,9 +57,7 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ## Related concepts
 
-* [[chiral perturbation theory]]
-
-* [[holographic QCD]]
+[[!include effective field theories of nuclear physics -- contents]]
 
 
 ## References
