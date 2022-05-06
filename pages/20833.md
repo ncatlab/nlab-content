@@ -9,4 +9,6 @@ On [[inhomogeneous cosmology]] as an explanation for apparent [[dark energy]]:
 
 * {#Rameez19} [[Mohamed Rameez]], _On the Real Inhomogeneous Universe and the Weirdness of 'Dark Energy'_ ([Nov. 14, 2019](https://4gravitons.com/2019/11/15/guest-post-on-the-real-inhomogeneous-universe-and-the-weirdness-of-dark-energy/))
 
+* {#ColinMoymhayeeRamezSarkar19} Jacques Colin, Roya Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _A response to Rubin & Heitlauf: "Is the expansion of the universe accelerating? All signs still point to yes"_ ([arXiv:1912.04257](https://arxiv.org/abs/1912.04257))
+
 category: people
