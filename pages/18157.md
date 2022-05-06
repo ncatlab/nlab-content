@@ -74,7 +74,7 @@ $$
 
 In particular every [[neighbourhood]] $U_x$ of $x$ intersects each of the $Cl(S_a)$, and hence also each of the $S_a$. By definition of the $S_a$, this means that for every $a \in A$ there exists $b \geq a$ such that $\nu_b \in U_x$, hence that $x$ is a [[cluster point]] of the net.
 
-We will not produce a [[sub-net]] 
+We will now produce a [[sub-net]] 
 
 $$
   \array{
