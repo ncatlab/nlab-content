@@ -22,9 +22,249 @@ for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern cla
 
 The generalized Chern classes serve as the generalized [[Thom classes]] that make every [[complex vector bundle]] have [[orientation in generalized cohomology]] with respect to any [[complex oriented cohomology theory]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
 
-## Properties
+## Definition
+ {#Definition}
 
-### Existence
+The definition of the $E$-Chern classes according to [Conner-Floyd 66, Theorem 7.5](#ConnerFloyd66) proceeds as follows.
+
+Let $n \in \mathbb{N}$. Let $c_1^E$ in
+
+$$
+  \array{
+    \mathbb{C}P^1
+    &
+      \overset
+        { \Sigma^2 (1^E) }
+        {\longrightarrow}
+    &
+    E_2
+    \\
+    \big\downarrow & \nearrow_{ \mathrlap{ c_1^E } }
+    \\
+    \mathbb{C}P^n
+  }
+$$
+
+be a rank-$(n+1)$ [[complex oriented cohomology|complex orientation]].
+
+For $\mathcal{V} \longrightarrow X$ a [[complex vector bundle]] of [[rank of a vector bundle|rank]] $n + 1$ consider the diagram
+
+\[
+  \label{ProjectiveBundleInConstructionOfConnerFloydClasses}
+  \array{
+    &&
+    \mathcal{V}' 
+      \oplus
+    \mathcal{L}_{{}_{P(\mathcal{V})}}
+    &\longrightarrow&
+    \mathcal{V}
+    \\
+    &&
+    \big\downarrow
+    & 
+      {}^{_{(pb)}} 
+    &
+    \big\downarrow
+    \\
+    \mathbb{C}P^n
+    &
+      \underset{
+        fib_x
+      }{
+        \longrightarrow
+      }
+    &
+    P(\mathcal{V})
+    &
+      \underset
+        {\pi}
+        {\longrightarrow}
+    &
+    X
+  }
+\]
+
+where 
+
+$$
+  P(\mathcal{V}) 
+  \;\coloneqq\;  
+  \big(
+    \mathcal{V} \setminus \{ X \times \{0\} \} 
+  \big) / \mathbb{C}^\times
+  \;\simeq\; 
+  S(\mathcal{V})/\mathrm{U}(1)
+$$
+
+is the [[projective bundle]] of $\mathcal{V}$, with [[typical fiber]] the [[complex projective spaces]] $\mathbb{C}P^n$, and where in the middle we are displaying the [[splitting principle|splitting]] ([here](projective+bundle#Splitting)) of the [[pullback bundle]] of $E$ into a [[direct sum of vector bundles|direct sum]] of a [[line bundle]] $\mathcal{L}$ with a remaining vector bundle $\mathcal{V}'$ of rank just $n$.
+
+Using the defining conditions on the total Conner-Floyd Chern class 
+
+$$
+  c^E(\mathcal{V})
+  \;\coloneqq\;
+  1 
+    + 
+  c_1^E(\mathcal{V})
+    + 
+  c_2^E(\mathcal{V})
+    + 
+  c_3^E(\mathcal{V})
+    + 
+  \cdots
+$$
+
+that
+
+1. on a line bundle we have $c^E(\mathcal{L}) =  1 + c_1^E(\mathcal{L})$ for the given complex orientation $c_1^E$;
+
+1. on a [[direct sum of vector bundles]] we have the [Whitney sum formula](Chern+class#WhitneySumFormula) $c^E(\mathcal{V} \oplus \mathcal{W}) \;=\; c^E(\mathcal{V}) \cdot c^E(\mathcal{W})$
+
+we see from (eq:ProjectiveBundleInConstructionOfConnerFloydClasses) that
+
+$$
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E(\mathcal{V})  
+    }
+  \big)
+  \;=\;
+  c^E(\mathcal{V}')
+  \cdot
+  \big(
+    1 
+      + 
+    {\color{orange} 
+      c^E_1(\mathcal{L})
+    }
+  \big)
+  \;\;\;
+  \in
+  \;
+  E^\bullet\big( P(\mathcal{V}) \big)
+$$
+
+and hence
+
+$$
+  \begin{aligned}
+    c^E(\mathcal{V}')
+    & =\;
+    \pi^\ast 
+    \big(
+      {\color{blue}
+        c^E(\mathcal{V})
+      }
+    \big)
+    \cdot
+    \big(
+      1 + 
+      {
+        \color{orange}
+        c_1^E(\mathcal{L}) 
+      }
+    \big)^{-1}
+    \\
+    & \coloneqq\;
+    \pi^\ast
+    \big(
+      {\color{blue}
+      c^E(\mathcal{V})
+      }
+    \big)
+    \cdot
+    \underset{k}{\sum} 
+    (-1)^k 
+    \big(
+      {\color{orange}
+        c_1^E(\mathcal{L})
+      }
+    \big)^k
+    \,.
+  \end{aligned}
+$$
+
+But since $\mathcal{V}'$ is just of rank $n$, we must have $c^E_{n+1}(\mathcal{V}') = 0$, and hence in degree $2(n+1)$ this condition reads as follows:
+
+\[
+  \label{DefiningConditionOnConnerFloydChernClasses}
+  0
+  \;=\;
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{n+1}(\mathcal{V})
+    }
+  \big)
+  -
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{n}(\mathcal{V})
+    }
+  \big)
+  \cdot
+  {\color{orange}
+    c_1^E(\mathcal{L})
+  }
+  + 
+  \pi^\ast
+  \big(
+    {\color{blue}
+      c^E_{n-1}(\mathcal{V})
+    }
+  \big)
+  \cdot
+  {\color{orange}
+  \big(
+    c_1^E(\mathcal{L})
+  \big)^2
+  }
+  - 
+  \cdots
+  \;\;\;\;\;
+  \in
+  \;
+  E^\bullet\big( P(\mathcal{V}) \big)
+  \,.
+\]
+
+It is now sufficient to observe that 
+
+1. the $E$-cohomology of $P(\mathcal{V})$ is a [[free module|free]] $E^\bullet(X)$-[[module]] [[linear span|spanned]] by the first [[cup product|cup powers]] of $c_1^E(\mathcal{L})$:
+
+   \[
+     \label{ECohomologyOfProjectiveBundle}
+     E^\bullet\big( P(\mathcal{V})  \big) 
+       \;\simeq\; 
+     E^\bullet(X)
+    \Big\langle 
+      1, 
+      c_1^E(\mathcal{L}), 
+      \big(c_1^E(\mathcal{L})\big)^2, 
+      \cdots  
+    \Big\rangle
+    \,;
+   \]
+
+1. and in particular 
+
+   $$
+     \pi^\ast 
+       \;\colon\; 
+     E^\bullet( X ) 
+       \overset{\;\;\;\;\;}{\hookrightarrow}
+     E^\bullet\big( P(\mathcal{V}) \big)
+   $$ 
+
+   is an [[injective function]],
+
+because together this means that (eq:DefiningConditionOnConnerFloydChernClasses) has a unique solution for classes $c_k^E(\mathcal{V}) \,\in\, E^{2k}(X)$ -- these are the Conner-Floyd Chern classes of $\mathcal{V}$.
+
+But (eq:ECohomologyOfProjectiveBundle) holds on $\mathbb{C}P^n$ after pullback along $fib_x$ (by basic arguments in [[complex oriented cohomology theory]], e.g. [Lurie 10, Lecture 4, Example 8](#LurieLecture)) and hence holds on $P(\mathcal{V})$ by the generalized-cohomology version of the [[Leray-Hirsch theorem]] ([Conner-Floyd 66, Thm. 7.4](#ConnerFloyd66)).
+
+Since this construction is natural, one find the following universal classes:
 
 +-- {: .num_prop #ConnerFloyedClasses}
 ###### Proposition
@@ -44,8 +284,6 @@ For $E = $ [[HA|HZ]] this reduces to the standard [[Chern classes]].
 
 =--
 
-Review of details may be found in [Pedrotti 16, prop. 3.1.14](#Pedrotti16).
-
 
 
 ## References
@@ -62,13 +300,10 @@ An early account in a broader context of [[complex oriented cohomology theory]]:
 
 More recent textbook and lecture notes include
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
-Some more details are spelled out in 
-
-* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology, generalized orientation and Thom isomorphism_, 2016, 2018 ([[PedrotticECohomology2018.pdf:file]])
 
 
 
