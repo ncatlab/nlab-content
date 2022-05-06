@@ -165,6 +165,23 @@ Such a structure is the same thing as a strong monad. One way to see this is to 
 
 is a strength map. 
 
+## Uniqueness of strength with enough points
+
++-- {: .num_theorem}
+###### Theorem
+**(Moggi)** 
+
+Let $C$ be a category with finite products and let $T$ be a strong monad on $C$. 
+For any points $x:1\to X$, $y:1\to T(Y)$, we have
+\[
+t\circ(x,y)\ = \ 
+T((x\circ !_Y),id_Y)\circ y\ : 1 \to T(X\times Y)
+\]
+Hence if $1$ is a [[generator]], i.e. $C(1,-):C\to Set$ is faithful, then there is at most one strength for any ordinary monad on $C$. 
+=--
+
+In other words, a monad being strong is a property rather than structure in a category with enough points. 
+
 ## Related concepts
 
 * [[tensorial strength]]
