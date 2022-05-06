@@ -142,12 +142,12 @@ If one further restricts to _normalized_ simple valuations, one obtains as submo
 
 * {#jung2} Achim Jung, _Stably compact spaces and the probabilistic powerspace construction_, ENTCS 87, 2004 ([doi:10.1016/j.entcs.2004.10.001](https://doi.org/10.1016/j.entcs.2004.10.001)).
 
-* {#Jung}Mauricio Alvarez-Manilla, Achin Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
+* {#Jung}Mauricio Alvarez-Manilla, Achim Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
 
 * {#algebras} [[Jean Goubault-Larrecq]] and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
 ([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
-* {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
+* {#support} [[Tobias Fritz]], [[Paolo Perrone]] and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
 
 
 * {#bogachev2} V. Bogachev, _Measure Theory_, vol. 2 (2007).
