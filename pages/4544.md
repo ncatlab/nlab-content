@@ -15,8 +15,13 @@
 
 See also _[[compact object]]_.
 
+## Contents
+* table of contents
+{:toc}
 
-### In algebraic geoemtry
+## Definitions
+
+### In algebraic geometry
 
 See at _[[morphism of finite type]]_ for the notion in [[algebraic geometry]].  
 
@@ -45,21 +50,23 @@ $R$-module. It is finitely presented if it is finitely presented in the usual
 sense of existence of short exact sequence of the form $R^I\to R^J\to M\to 0$
 where $I$ and $J$ are finite. 
 
-### In homotopical algebra
+### In homotopical algebra and rational homotopy theory
 
-A _graded object_ is often said to be of **finite type** if it is _degreewise_ of finite [[dimension]]/[[rank]], in some sense.
+A _graded object_ is often said to be of **finite type** if it is _degreewise_ of [[finite number|finite]] [[dimension]]/[[rank]], in some sense. This terminology is used specifically in [[rational homotopy theory]].
 
-The terminology is used specifically in [[rational homotopy theory]].
+Notably a [[rational topological space]] is said to be of _finite type_ if all its rational [[homotopy groups]] are [[finite number|finite]] [[dimension|dimensional]] [[vector spaces]] over the [[rational numbers]].
 
-Notably a [[rational space]] is said to be of finite type if all its rational [[homotopy group]]s are finite dimensional [[vector space]]s over the [[rational number]]s.
+Accordingly, a [[chain complex]] of vector spaces, possibly those generating a [[semifree dga]] is said to be of finite type if it is degreewise [[finite number|finite]] [[dimension|dimensional]].
 
-Accordingly, [[chain complex]] of vector spaces, possibly that generating a [[semifree dga]] is said to be of finite type if it is degreewise finite dimensional.
-
-Beware however that the terminology clashes with the use in [[homotopy theory]], there the concept of _[[finite homotopy type]]_ is crucially different from _[[homotopy type with finite homotopy groups]]_.
+Beware however that the terminology clashes somewhat with the use in [[homotopy theory]], there the concept of _[[finite homotopy type]]_ is crucially different from _[[homotopy type with finite homotopy groups]]_.
 
 ### In stable homotopy theory
 
-A [[spectrum]] (in the sense of [[stable homotopy theory]]) is one whose cohomology is finitely generated in each degree, but could exist in infinitely many degrees.
+A [[spectrum]] of finite type (in the sense of [[stable homotopy theory]]) is one whose cohomology is finitely generated in each degree, but could exist in infinitely many degrees.
+
+> check
+
+See also/instead at _[[finite spectrum]]_.
 
 ## References
 
