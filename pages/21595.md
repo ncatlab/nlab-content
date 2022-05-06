@@ -19,9 +19,17 @@
 
 ## Idea
 
-In [[computer science]], a [[data type]] is often defined by an [[isomorphism]] of types $X\cong T(X)$ for some construction $T$. For a simple example, the [[natural numbers]] are defined by $N\cong N+1$. However, in a language with general recursion (including [[partial recursive functions]]), the data types have properties in addition to as the usual inductive ones, which allow [[coinduction|coinductive]] reasoning. For example, in a lazy language such as [[Haskell]], there is an infinity element in $N$, which is a fixed point for successor. 
 
-In general, it is common to allow the construction $T$ to be mixed-variance. For example, $X\cong (X\to X)$ is a recursive data type whose inhabitants are expressions of the [[lambda-calculus#pure_lambda_calculus|untyped lambda calculus]]. Thus recursive data types are a generalization of [[reflexive object|reflexive objects]]. On the semantic side, recursive data types are sometimes called "recursive domain equations".  
+A [[category]] is called _algebraically compact_ if for every [[endofunctor]] on it the respective  [[initial algebra of an endofunctor|initial algebra]] coincides with the [[final coalgebra]].
+
+
+Under [[categorical semantics]] of [[programming languages]] this condition ensures the existence of [[inductive-recursive types]] (e.g. [Zamdzhiev 20](#Zamdzhiev20)). For that, recall:
+
+In [[computer science]], a [[data type]] is often defined by an [[isomorphism]] of types $X\cong T(X)$ for some construction $T$ (an [[endofunctor]] on the [[category]] of types), namely as a [[fixed point]] of an endofunctor. (For example, the [[natural numbers]] may be defined -- see [there](inductive+type#NaturalNumbers) --  as being fixed $\mathbb{N} \cong \mathbb{N} + 1$ by the operation of [[disjoint union]] with a [[singleton]].) These are _[[inductive types]]_.
+
+However, in a language with general [[recursion]] (including [[partial recursive functions]]), the data types have properties in addition to as the usual [[inductive type|inductive]] ones, which allow [[coinduction|coinductive]] reasoning. For example, in a lazy language such as [[Haskell]], there is an infinity element in $\mathbb{N}$, which is a fixed point for successor. 
+
+In general, it is common to allow the construction $T$ to be mixed-variance. For example, $X\cong (X\to X)$ is a recursive data type whose inhabitants are expressions of the [[lambda-calculus#pure_lambda_calculus|untyped lambda calculus]]. Thus recursive data types are a generalization of [[reflexive object|reflexive objects]]. On the [[semantics|semantic]] side, recursive data types are sometimes called "recursive domain equations".  
 
 
 ## Definition
@@ -29,11 +37,12 @@ In general, it is common to allow the construction $T$ to be mixed-variance. For
 +-- {: .num_defn}
 ###### Definition
 
-A [[category]] is _algebraically complete_ if every [[endofunctor]] $F$ has an [[initial algebra of an endofunctor|initial algebra]] $F(A)\to A$. A category is _algebraically cocomplete_ if every endofunctor $F$ has a [[final coalgebra]] $Z\to F(Z)$.
+A [[category]] is _algebraically complete_ if every [[endofunctor]] $F$ has an [[initial algebra of an endofunctor|initial algebra]] $F(A) \to A$. A category is _algebraically cocomplete_ if every endofunctor $F$ has a [[final coalgebra]] $Z\to F(Z)$.
 
 By [[initial algebra of an endofunctor#LambeksTheorem|Lambek's lemma]], an initial algebra is an [[isomorphism]], and so is a final coalgebra, thus they can be regarded as [[coalgebra for an endofunctor|coalgebras]] and [[algebra for an endofunctor|algebras]] respectively. This gives rise to a canonical morphism from the initial algebra to the final coalgebra, $A\to Z$. 
 
 An algebraically complete and cocomplete category $C$ is _algebraically compact_ if this canonical morphism from the initial algebra to the final coalgebra is an [[isomorphism]].
+
 =--
 
 +-- {: .num_remark}
@@ -131,3 +140,10 @@ Barr proposed to look at certain functors as algebraically compact, and gave bas
 Pitts gives a survey and discussion, together with further reasoning principles.
 
 * [[Andrew Pitts]], _Relational properties of domains_, Information and Computation, 1996. [pdf](https://www.cl.cam.ac.uk/~amp12/papers/relpod/relpod.pdf). 
+
+See also:
+
+* {#Zamdzhiev20} Vladimir Zamdzhiev, _Reflecting Algebraically Compact Functors_, 	EPTCS 323, 2020, pp. 15-23 ([arXiv:1906.0964](https://arxiv.org/abs/1906.0964))
+
+
+
