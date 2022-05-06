@@ -89,13 +89,13 @@ Relation to [[Burnside ring]]
 
 Relation to [[Segal-Carlsson completion theorem]]:
 
-* Czes Kosniowski, _Equivariant cohomology and Stable Cohomotopy_, Math. Ann. 210, 83-104 (1974) ([pdf](https://link.springer.com/content/pdf/10.1007/BF01360033.pdf))
+* Czes Kosniowski, _Equivariant cohomology and Stable Cohomotopy_, Math. Ann. 210, 83-104 (1974) ([doi:10.1007/BF01360033](https://doi.org/10.1007/BF01360033) [pdf](https://link.springer.com/content/pdf/10.1007/BF01360033.pdf))
 
 * Erkki Laitinen, _On the Burnside ring and stable cohomotopy of a finite group_,  Mathematica Scandinavica Vol. 44, No. 1 (August 30, 1979), pp. 37-72 ([jstor:24491306](https://www.jstor.org/stable/24491306), [[Laitinen79.pdf:file]])  
 
 * [[Gunnar Carlsson]], _Equivariant Stable Homotopy and Segal's Burnside Ring Conjecture_,  Annals of Mathematics Second Series, Vol. 120, No. 2 (Sep., 1984), pp. 189-224 ([jstor:2006940](https://www.jstor.org/stable/2006940), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/carlsson.pdf))
 
-* {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
+* {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_, Pure Appl. Math. Q.  1 (2005), no. 3, Special Issue: In memory of Armand Borel. Part 2, 479--541 ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
 * Noe Barcenas, _Nonlinearity, Proper Actions and Equivariant Stable Cohomotopy_ ([arXiv:1302.1712](https://arxiv.org/abs/1302.1712))
 
