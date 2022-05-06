@@ -71,8 +71,7 @@ The global projective model structure is originally due to
 
 The fact that the global injective model structure yields a proper simplicial cofibrantly generated model category is originally due to 
 
-* [[Alex Heller]] _Homotopy Theories_, no. 383, Memoirs Amer. 
-Math. Soc., Amer. Math. Soc., 1988.
+* [[Alex Heller]] _Homotopy Theories_, no. 383, Memoirs Amer. Math. Soc., Amer. Math. Soc., 1988.
 
 The fact that the global projective structure yields a proper simplicial cellular model category is due to Hirschhorn-Bousfield-Kan-Quillen
 
