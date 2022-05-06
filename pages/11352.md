@@ -34,6 +34,10 @@ The [[supersymmetry|supersymmetric]] version of a [[vertex operator algebra]]; t
 
 * [[super Virasoro algebra]]
 
+* [[2-spectral triple]]
+
+* [[automorphism of a super vertex operator algebra]]
+
 ## References
 
 * [[Edward Frenkel]], [[David Ben-Zvi]], _Vertex algebras and algebraic curves_, 2nd Ed., American Mathematical Society, Providence, RI, 2004.
@@ -59,3 +63,7 @@ In relation to the [[Witten genus]]:
 
 [[!redirects vertex super-algebra]]
 [[!redirects vertex super-algebras]]
+
+
+[[!redirects sVOA]]
+
