@@ -38,7 +38,7 @@ Given two [[Grothendieck toposes]] $\mathcal{E},\mathcal{F}$, let $[\mathcal{E},
 =--
 
 **Remark.**
-Under the identification $Hom(\mathcal{E},Set(\mathbb{T}))\cong \mathbb{T}-Mod(\mathcal{E})$ natural homotopy corresponds to an equivalence relation on $\mathbb{T}$-models in $\mathcal{E}$ given by zigzags of model homomorphisms.
+Under the identification $Hom(\mathcal{E},Set(\mathbb{T}))\cong \mathbb{T}-Mod(\mathcal{E})$ natural homotopy corresponds to an equivalence relation $\sim$ on $\mathbb{T}$-models in $\mathcal{E}$ given by zigzags of model homomorphisms.
 
 ## Properties and some homotopic concepts
 
@@ -55,12 +55,12 @@ Homotopy equivalences are closed under composition hence "being of the same homo
 
 +-- {: .num_defn }
 ###### Definition
-A Grothendieck topos $Set(\mathbb{T})\;$, respectively the [[geometric theory]] $\mathbb{T}$ it [[classifying topos|classifies]], is called _(naturally) contractable_ , if there exists a "constant" geometric morphism $c:Set(\mathbb{T})\to Set(\mathbb{T})$ i.e. one factoring through $Set$ as $Set(\mathbb{T})\overset{!}{\to}Set\overset{\bar{c}}{\to}Set(\mathbb{T})\;$, such that $c\sim id_{Set(\mathbb{T})}\;$.
+A Grothendieck topos $Set(\mathbb{T})\;$, respectively the [[geometric theory]] $\mathbb{T}$ it [[classifying topos|classifies]], is called _(naturally) contractible_ , if there exists a "constant" geometric morphism $c:Set(\mathbb{T})\to Set(\mathbb{T})$ i.e. one factoring through $Set$ as $Set(\mathbb{T})\overset{!}{\to}Set\overset{\bar{c}}{\to}Set(\mathbb{T})\;$, such that $c\sim id_{Set(\mathbb{T})}\;$.
 =--
 
-In other words, a topos is contractable if its identity is homotopic to a constant map and a geometric theory $\mathbb{T}$ is contractable iff its classifying topos $Set(\mathbb{T})$ is. 
+In other words, a topos is contractible if its identity map is homotopic to a constant map and a geometric theory $\mathbb{T}$ is contractible iff its classifying topos $Set(\mathbb{T})$ is. 
 
-Note incidentally, that this requires by definition the existence of a [[point of a topos|point]] of $Set(\mathbb{T})$, or in other words, the existence of a "classical" i.e. $Set$-based $\mathbb{T}$-model. In particular, since there exist ([[Boolean topos|Boolean]]) [[point of a topos#toposes without points|toposes without points]] there exist (Boolean) geometric theories that are not contractable.
+Note incidentally, that this requires by definition the existence of a [[point of a topos|point]] of $Set(\mathbb{T})$, or in other words, the existence of a "classical" i.e. $Set$-based $\mathbb{T}$-model. In particular, since there exist ([[Boolean topos|Boolean]]) [[point of a topos#toposes without points|toposes without points]] there exist (Boolean) geometric theories that are not contractible.
 
 The correspondance between geometric theories and Grothendieck toposes together with the correspondance between their models and geometric morphisms similarly affords the transposition of other homotopic concepts to the realm of geometric logic.
 
@@ -72,13 +72,15 @@ $$
 
 Here $\bar{c}$ classifies a $\mathbb{T}$-model in $Set$ whereas $!$ classifies a model (which is unique up to isomorphism since $Set$ is [[terminal object|terminal]]) of some theory $\mathbb{S}$ classified by $Set$ whence $c$ classifies a $\mathbb{T}$-model that carries a $\mathbb{S}$-model structure as well.
 
+Now, the [[inverse image functor|inverse image part]] of $!$ is $\Delta\;$, the [[constant sheaf|constant sheaf functor]]. Objects in the range of $\Delta$ are traditionally called "constant" whence we can think of the contractability $id_{Set(\mathbb{T})}\sim c$ of $\mathbb{T}$ as expressing the "almost constancy" of the generic model $\mathbf{M}_\mathbb{T}\sim \Delta(\bar{c}^*(\mathbf{M}_\mathbb{T}))$ i.e. as a structural similarity between $\mathbf{M}_\mathbb{T}$ and a constant $\mathbb{T}$-model.
+
 ## Example
 
 Let $Set(\mathbb{D}_\infty)$ be the [[Schanuel topos]] that classifies the [[theory of infinite decidable objects|theory $\mathbb{D}_\infty$ of infinite decidable objects]] and $\mathbf{D}_\infty$ the generic infinite [[decidable object]].
 
 +-- {: .num_prop }
 ###### Proposition (Joyal-Wraith)
-$Set(\mathbb{D}_\infty)\;$, respectively the theory $\mathbb{D}_\infty\;$, are naturally contractable.
+$Set(\mathbb{D}_\infty)\;$, respectively the theory $\mathbb{D}_\infty\;$, are naturally contractible.
 =--
 
 **Proof.**
