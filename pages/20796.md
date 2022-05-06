@@ -1,0 +1,17 @@
+[[!redirects D1-D3-brane bound states]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The special case of [[Dp-D(p+2)-brane bound states]] for [[D1-brane|D1]]-[[D3-brane]] [[bound states]].
+
+## References
+
+Identification with [[Yang-Mills monopoles]]:
+
+* {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
+
+
