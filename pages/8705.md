@@ -7,6 +7,10 @@
 
 A method for constructing [[Yang-Mills instanton]] solutions. ([ADHM](#ADHM))
 
+## Related concepts
+
+* [[Nahm transform]]
+
 ## References
 
 The original article is
