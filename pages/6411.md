@@ -45,3 +45,12 @@ The [[valuation ring|multiplicative valuation]] $v(f)$ of an element $f\in k[t^G
 * If $G=\mathbb{Q}$, then $k[t^{\mathbb{Q}}]$ properly contains the [[Levi-Civita field]], as the subclass of those Hahn series whose support is finite below any fixed rational.
 
 * More generally, any Hahn series field $k[t^G]$ contains the [[Novikov field]] of $k$ with value group $G$.
+
+## Related pages
+
+* [[formal power series]]
+* [[formal Laurent series]]
+* [[Puiseux series]]
+* [[Novikov series]]
+* [[Ribenboim power series]]
+* [[finiteness space]]
