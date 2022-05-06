@@ -87,16 +87,34 @@ $$
     \;
     \chi,
     \;
-    \delta w_6
+    \beta(w_6)
   \Big]
   /
-  \big\langle 2 \delta w_6\big\rangle
+  \big\langle 2 \beta(w_6)\big\rangle
   \,,
 $$
 
-where $p_1$ is the [[first fractional Pontryagin class]], $p_2$ is the [[second Pontryagin class]], $\chi$ is the [[Euler class]].
+where $p_1$ is the [[first fractional Pontryagin class]], $p_2$ is the [[second Pontryagin class]], $\chi$ is the [[Euler class]], and
 
-Moreover, we have the relations
+$$
+  \delta
+  \;\colon\;
+  H^\bullet
+  \big(
+    B Spin(8),
+    \mathbb{Z}_2
+  \big)
+  \longrightarrow
+  H^{\bullet + 1}
+  \big(
+    B Spin(8),
+    \mathbb{Z}
+  \big)
+$$
+
+is the [[Bockstein homomorphism]].
+
+Moreover, we have the following relations:
 
 $$
   \begin{aligned}
