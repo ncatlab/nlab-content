@@ -388,8 +388,8 @@ The appearance of type II geometry in [[type II supergravity]]/[[type II string 
 
 * Ian Ellwood, _NS-NS fluxes in Hitchin's generalized geometry_ ([arXiv:hep-th/0612100](http://arxiv.org/abs/hep-th/0612100))
 
-* [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Daniel Waldram]], _T-duality, Generalized Geometry and Non-Geometric Backgrounds_ ([arXiv:0807.4527](http://arxiv.org/abs/0807.4527))
- {#GMPW}
+* {#GMPW} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Daniel Waldram]], _T-duality, Generalized Geometry and Non-Geometric Backgrounds_ ([arXiv:0807.4527](http://arxiv.org/abs/0807.4527))
+ 
 
 The genuine reformulation of type II supergravity as a $(O(d)\times O(d) \hookrightarrow O(d,d))$-gauge/gravity theory is in 
 
