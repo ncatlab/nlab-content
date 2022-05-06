@@ -83,7 +83,7 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 
 * Stanislaw Mrowczynski, _Quark-Gluon Plasma_, Acta Phys.Polon.B29:3711, 1998 ([arXiv:nucl-th/9905005](https://arxiv.org/abs/nucl-th/9905005))
 
-* {#Haseeb09} Mahnaz Q. Haseeb, _Introduction to Quark Gluon Plasma_, 2009 ([pdf](http://www.ncp.edu.pk/docs/fslp/dr_mehnaz_qgp_hydrodynamics_001.pdf))
+* {#Haseeb09} Mahnaz Q. Haseeb, _Introduction to Quark Gluon Plasma_, 2009 ([[HaseebQuarkGluonPlasma.pdf:file]])
 
 * Roman Pasechnik, Michal Šumbera, _Phenomenological Review on Quark-Gluon Plasma: Concepts vs. Observations_, Universe 2017, 3(1), 7 ([arXiv:1611.01533](https://arxiv.org/abs/1611.01533))
 
@@ -212,7 +212,6 @@ Other original articles include:
 With emphasis on application to [[neutron stars]]:
 
 * Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
-
 
 
 
