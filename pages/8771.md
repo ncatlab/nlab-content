@@ -33,6 +33,8 @@ To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stack
 
 *  The [[tropical semiring|tropical algebra]] and the [[max-plus algebra]] are idempotent semirings.
 
+* Given an idempotent semiring $R$ one can form the __weak interval extension__ $I(R)$. This is the idempotent semiring defined on all close [[interval|intervals]] $[x, y] = \{ z \in R \mid x \leq z \leq y \}$ by the operations $[x, y] + [x', y'] = [x + x', y + y']$ and $[x, y] \cdot [x', y'] = [x \cdot x', y \cdot y']$. The multiplicative unit is given by $[1,1]$ and, if $R$ has an additive unit $0$, an additive unit is given by $[0,0]$.
+
 ## Related concepts
 
 * [[ring]]
