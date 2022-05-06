@@ -17,7 +17,11 @@
 
 [[equivariant bordism homology theory|equivariant bordism theory]]:
 
-* [[equivariant MO]]
+* [[equivariant MO]], an [[ultracommutative ring spectrum]]
+
+* [[equivariant mO]], the [[E-infinity]] [[global Thom spectrum]]
 
 * [[equivariant MU]]
+
+* [[equivariant mU]]
  
