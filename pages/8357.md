@@ -27,7 +27,7 @@ Resolution about $10^{-20}m \simeq 10$ [[TeV]] and currently reached $\simeq 7 T
 
 ## Related entries
 
-* [[LIGO]], [[Super-Kamiokande]], [[EDGES]]
+* [[LIGO]], [[Super-Kamiokande]], [[EDGES]], [[RHIC]]
 
 * [[standard model of particle physics]]
 
