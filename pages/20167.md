@@ -636,9 +636,15 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 Due to [[Heinz Hopf]].
 
-Review:
+Textbook accounts:
+
+* {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 13.3 of: _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
+
+
 
 * {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+
+Review:
 
 * {#Kobin16} Andrew Kobin, _Algebraic Topology_, 2016 ([[KobinAT2016.pdf:file]])
 
