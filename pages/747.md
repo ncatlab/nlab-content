@@ -1352,7 +1352,7 @@ A brief review in the context of [[nonabelian Hodge theory]] is in section 4 of
 
 A detailed study of [[descent]] for simplicial presheaves is given in
 
-* {#DuggerHollanderIsaksen} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ , Math. Proc. Cambridge Philos. Soc. 136 (2004), no. 1, 9&#8211;51 ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+* {#DuggerHollanderIsaksen} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_, Math. Proc. Cambridge Philos. Soc. 136 (2004), no. 1, 9&#8211;51 ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
 
 * [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
