@@ -21,6 +21,8 @@
 
 ## Definition
 
+### Local definition as functors on Artinnian objects
+
 +-- {: .num_defn }
 ###### Definition
 
@@ -42,6 +44,7 @@ on those [[(∞,1)-functors]] $X \colon \mathcal{Y}^{inf} \to \infty Grpd$ such 
 
 ([Lurie, Def. 1.1.14 with Def. 1.1.8](#Lurie))
 
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -52,7 +55,10 @@ This means that a "formal deformation problem" is a [[space]] in [[higher geomet
 +-- {: .num_remark }
 ###### Remark
 
-The clause about pullbacks is what makes the behaviour at arbitrary infinitesimal order be all controlled by that at first order, see [Calaque-Grivaux 18, top of p. 8](#CalaqueGrivaux18)
+The clause about pullbacks is what makes the behaviour at arbitrary infinitesimal order be all controlled by that at first order, see [Calaque-Grivaux 18, top of p. 8](#CalaqueGrivaux18).
+
+This ability to understand deformations order-by-order is related to the existence of a good obstruction theory. Indeed, evaluating a formal moduli problem $X$ on a pullback diagram defining an elementary morphism exhibits $X(\Omega^{\infty - n}E)$ as an obstruction space.
+
 
 =--
 
@@ -67,8 +73,8 @@ write $CAlg_k^{sm} \hookrightarrow CAlg_k$ for the [[(∞,1)-category]] of [[Art
 The smallness condition implies connectivity ([Lurie, prop. 1.1.11 (1)](#Lurie)), hence that the [[homotopy group]] of these [[E-∞ algebras]] vanish in negative degree. Notice that for the dg-algebras this means that the [[chain homology]] vanishes in negative degree _if_ the differential is taken to have degree -1 (see [Porta 13, def. 3.1.14](#Porta13) for emphasis). This is the natural condition for the function algebra in [[derived geometry]]. Here these small $E_\infty$/dg-algebras are to be thought of as function algebras on "derived [[infinitesimally thickened points]]".
 
 
-+-- {: .num_defn }
-###### Definition
++-- {: .num_theorem }
+###### Theorem
 
 There is an [[equivalence of (∞,1)-categories]]
 
