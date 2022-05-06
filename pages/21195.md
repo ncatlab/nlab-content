@@ -69,7 +69,7 @@ The first graphics shows the measured cross section (in [[physical unit|units]] 
 \end{imagefromfile}
 
 
-The second graphics shows the same data, now zoomed into the region of the [[light vector mesons]]. One sees clearly that in this region the [[graph of a function|graph]] of the [[scattering cross section]] is completely dominated first of all by the broad [[rho-meson|ρ]]$^0$ peak at a [[mass]] of $\sim 770$ [[MeV]], accompanied just by two sharp spikes, corresponding to the [[omega-meson|ω]] at $\sim 783$ [[MeV]] and the [[phi-meson|ϕ]] at $\sim 1020$ [[MeV]].
+The second graphics shows the same data, now zoomed into the region of the [[light vector mesons]]. One sees clearly that in this region the [[graph of a function|graph]] of the [[scattering cross section]] is completely dominated first of all by the broad [[rho-meson|ρ]]$^0$ peak at a [[mass]] of $\sim 770$ [[MeV]] (see also [Murphy-Yount 71, Fig. 4](#MurphyYount71)), accompanied just by two sharp spikes, corresponding to the [[omega-meson|ω]] at $\sim 783$ [[MeV]] and the [[phi-meson|ϕ]] at $\sim 1020$ [[MeV]].
 
 
 
@@ -156,6 +156,9 @@ The original articles:
 
 
 Review:
+
+* {#MurphyYount71} Fred V. Murphy, David E. Yount, _Photons as hadrons_, Sci.Am. 225N1 (1971) 1, 94-104 ([spire:41546](https://inspirehep.net/literature/41546), [doi:10.1038/scientificamerican0771-94](https://doi.org/10.1038/scientificamerican0771-94))
+
 
 * {#PillerWeise90} G. Piller, [[Wolfram Weise]], _Vector meson dominance: Selected topics_ 1990 ([spire310958](https://inspirehep.net/literature/310958), [[PillerWeiseVMD.pdf:file]])
 
