@@ -97,6 +97,7 @@ The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathb
 
 
 ### Relation to the Conway group, $Co_3$
+{#RelationtoCo3}
 
 $B G_3$ receives a map from $B Co_3$, the [[delooping]] of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)). This continues a pattern from $B A_5 \to B SO(3)$ and $B M_{12} \to B G_2$, where $M_{12}$ is a [[Mathieu group]].
 
@@ -110,7 +111,7 @@ $$
   Mat^{skher}_{3 \times 3}(\mathbb{O})
 $$
 
-of skew-hermitian [[matrices]] over the [[octonions]] ([Solomon-Stancu 08, p. 175](#SolomonStancu08), [Wilson 09, slide 94](#Wilson09)).
+of skew-hermitian [[matrices]] over the [[octonions]] ([Solomon-Stancu 08, p. 175](#SolomonStancu08), [Wilson 09a, slide 94](#Wilson09a), [Benson 98, p. 19](#Benson98)). (Wilson's suggestion appears to arise from his construction of a 3-dimensional octonionic [[Leech lattice]], his representation of its automorphism group, the [[Conway group]] $Co_0$, as right multiplications by $3 \times 3$ matrices over the octonions ([Wilson 09b](#Wilson09b)), and the [relationship](#RelationtoCo3) between the latter's subgroup $Co_3$ and $G_3$.) 
 
 Incidentally, the algebra of $3\times 3$ [[hermitian matrices]] (as opposed to skew-hermitian) over the octonions 
 
@@ -177,13 +178,19 @@ See also
 
 
 
+
+
 Speculation on possible geometric roles of $G_3$:
 
 * {#SolomonStancu08} Eon Solomon, Radu Stancu, p. 175 of: _Conjectures on finite and p-local groups_, L'Enseignement Mathématique (2) 54 (2008) 171-176 ([[SolomonStancuConjectures.pdf:file]], [doi:10.5169/seals-109929](http://doi.org/10.5169/seals-109929))
 
-* {#Wilson09} [[Robert A. Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
+* {#Benson98) David Benson, _Cohomology of Sporadic Groups, Finite Loop Spaces, and the Dickson Invariants_, in P. Kropholler, G. Niblo, & R. Stöhr (Eds.), Geometry and Cohomology in Group Theory (London Mathematical Society Lecture Note Series, pp. 10-23), 1998. Cambridge University Press. 
+
+* {#Wilson09a} [[Robert A. Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
 
   (on an [[octonions|octonionic]] construction of the [[Leech lattice]])
+
+* {#Wilson09b} [[Robert A. Wilson]], _Conway’s group and octonions_, ([pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoConway.pdf))
 
 
 [[!redirects Dwyer-Wilkerson H-spaces]]
