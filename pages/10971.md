@@ -33,6 +33,9 @@ Fock spaces hence appear as [[spaces of quantum states]] of [[free fields]] in [
 
 * [[second quantization]]
 
+[[!include states and observables -- content]]
+
+
 ## References
 
 Named after _[[Vladimir Aleksandrovich Fock]]_.
