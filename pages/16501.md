@@ -1,5 +1,4 @@
 
-
 > This entry contains one chapter of _[[geometry of physics]]_. See there for background and context.
 
 > previous chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics|principal bundles]]_
@@ -38,12 +37,12 @@ Indeed, in the generality of geometric homotopy theory, this association is an e
 
 ### Model Layer
 
-##### 1-Representations of 1-Groups
+#### 1-Representations of 1-Groups
  {#1RepresentationsOf1Groups}
  
 We discuss here ordinary [[groups]] (i.e. [[infinity-groups]] which are just 1-groups), and their ordinary [[actions]] and ordinary [[associated bundles]]. Even that ordinary case profits from its formulation via [[action groupoids]], but its key advantage is that this formulation seamlessly generalizes. 
 
-###### Actions
+#### Actions
  {#ActionsOf1Groups}
 
 We discuss here traditional concept of [[discrete groups]] [[action|acting]] on a [[sets]] ("[[permutation representations]]") but phrased in terms of [[action groupoids]] [[slice (infinity,1)-category|sliced]] over [[delooping]] groupoids. The discussion immediately, and essentially verbatim, generalizes to pre-smooth groupoids and to [[smooth groupoids]] proper.
@@ -381,7 +380,7 @@ By prop. \ref{IntertwinersOfPermutationActionAsSliceHoms} it is [[fully faithful
 
 =--
 
-**Examples of actions**
+##### Examples of actions
 
 One remarkable consequence of prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice} is that it says that categories of actions are [[slice (infinity,1)-category|slices]] of [[(2,1)-toposes]], hence are [[slice (infinity,1)-topos|slice (2,1)-toposes]] hence in particular are themselves [[(2,1)-topos]]. In particular there is an [[internal hom]] of actions. This is the [[conjugation action]] construction.
 
@@ -504,7 +503,7 @@ Then the [[conjugation action]], def. \ref{ConjugationActionForDiscrete1Groups},
 
 =--
  
-###### Associated bundles
+#### Associated bundles
 
 At _[[geometry of physics -- principal bundles]]_ in the section _[Smooth principal bundles via smooth groupoids](geometry%20of%20physics%20--%20principal%20bundles#PrincipalBundlesViaSmoothGroupoids)_ is discussed how smooth [[principal bundles]] for a [[Lie group]] $G$ over a [[smooth manifold]] $X$ are equivalently the [[homotopy fibers]] of morphisms of [[smooth groupoids]] ([[smooth stacks]]) of the form
 
@@ -607,7 +606,7 @@ This is a traditional description of the [[associated bundle]] in question.
 
 =--
 
-###### Invariants and sections
+#### Invariants and sections
 
 One advantage of the perspective on representations via action groupoids is that it gives a good formulation of the [[invariants]] and the [[coinvariants]] of actions. The invariants are the _[[sections]]_ of the action groupoid projection, while the coivariants in fact are the action groupoid itself.
 
@@ -738,7 +737,7 @@ Taken together this means that [[invariants]] of group actions are equivalently 
 
 =--
 
-###### Stabilizer groups
+#### Stabilizer groups
 
 Given an ordinary [[discrete group]] $G$ and an [[action]] $\rho \colob G \times V \longrightarrow V$ of the group on some [[set]] $V$, then for $x \in V$ any element, the [[stabilizer group]] 
 
@@ -807,7 +806,7 @@ Given a [[discrete group]] $G$ and a [[Kan complex]] $V_\bullet$, then an _[[inf
 =--
 
 
-###### Examples of $\infty$-Representations
+##### Examples of $\infty$-Representations
 
 Given an [[abelian group]] $A$ and $n \in \mathbb{N}$, 
 write $(\mathbf{B}^n A)_\bullet$ for the [[Kan complex]] which is the image under the [[Dold-Kan correspondence]] of the [[chain complex]] that is concentrated on $A$ in degree $n$.
