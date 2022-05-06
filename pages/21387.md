@@ -92,6 +92,13 @@ introducing the theory of [[model categories]] as a tool in [[homotopy theory]].
 
 * [[simplicial object]]
 
+* [[model structure on simplicial abelian groups]]
+
+* [[model structure on chain complexes]]
+
+* [[Dold-Kan correspondence]]
+
+
 ### 5. Homology and cohomology
 
 * [[homological algebra]]
