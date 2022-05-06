@@ -37,7 +37,7 @@ $$
 whose elements are [[equivalence classes]] of  [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
 
 $$
-  (k v_1 , v_2) \;\sim\; (v_1, k v_2)
+  (k v_1 , v_2) \;\sim\; k( v_1 , v_2) \;\sim\; (v_1, k v_2)
 $$
 
 $$
