@@ -164,9 +164,25 @@ This morphism locally takes the local [[differential form]] incarnation $A$ of a
 
 ## Examples
 
+For [[spacetime]] [[field theory]]:
+
+* [[Einstein-Hilbert action]]
+
+  * [[Einstein-Maxwell theory]]
+
+  * [[Einstein-Yang-Mills theory]]
+
+  * [[Einstein-Yang-Mills-Dirac theory]]
+
+  * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
+
+For [[branes]]:
+
 * [[Nambu-Goto action]]
 
 * [[Dirac-Born-Infeld action]]
+
+* [[Perry-Schwarz action]]
 
 * A large class of examples of action functionals arises in [[schreiber:∞-Chern-Simons theory]]. See there for details.
 
