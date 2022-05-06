@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -8,10 +9,9 @@
 =--
 =--
 
-
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition 
 
@@ -103,10 +103,11 @@ In some older category theory papers, arrows were written pointing from right to
 
 * [[operator product]]
 
+
 [[!redirects composite]]
 [[!redirects composites]]
-[[!redirects diagrammatic order]]
 
+[[!redirects composition]]
 [[!redirects compositions]]
 [[!redirects compose]]
 
@@ -116,3 +117,4 @@ In some older category theory papers, arrows were written pointing from right to
 [[!redirects postcomposition]]
 [[!redirects postcompositions]]
 
+[[!redirects diagrammatic order]]
