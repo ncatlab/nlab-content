@@ -418,9 +418,10 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 
 * [[equation]]
 
-* [[homotopy limit]]
+* [[homotopy limit]], [[(∞,1)-limit]]
 
-* [[(∞,1)-pullback]], [[(∞,1)-limit]]
+
+[[!include notions of pullback -- contents]]
 
 
 ## References
