@@ -67,7 +67,9 @@ In terms of [[holographic QCD]] as [above](#AsGeometricEngineeringOfQCD) these i
 
 ## References
 
-### Black brane solutions
+### As black brane solutions
+
+#### General
 
 As [[black brane]] [[supergravity]]-solutions: 
 
@@ -82,6 +84,18 @@ As [[black brane]] [[supergravity]]-solutions:
 * {#VanPol15} Bert Van Pol, Section 5 of: _Aspects of D-branes in supergravity_, thesis 2015 ([pdf](http://inspirehep.net/record/1404388/files/bertvanpol-phdthesis.pdf), [[VanPolThesis15.pdf:file]])
 
 * {#DibitettoPetri18} Giuseppe Dibitetto, Nicolò Petri, _Surface defects in the D4-D8 brane system_, J. High Energ. Phys. (2019) 2019: 193 ([arXiv:1807.07768](https://arxiv.org/abs/1807.07768))
+
+#### With D2/D6-defects realizing $AdS_3/CFT_2$
+
+[[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D6-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
+
+* Giuseppe Dibitetto, Nicolò Petri, _Surface defects in the D4 − D8 brane system_, JHEP 01 (2019) 193 ([arxiv:1807.07768](https://arxiv.org/abs/1807.07768))
+
+* Giuseppe Dibitetto, Nicolò Petri, _$AdS_3$ vacua and surface defects in massive IIA_ ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455))
+
+
+
+
 
 ### As geometric engineering of QCD
 
