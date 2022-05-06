@@ -176,7 +176,7 @@ Related lecture notes / slides include
 ### Phenomenology
  {#Phenomenology}
 
-Type I [[string phenomenology]] and discussion of [[GUT]]s based on [[SO(32)]] type I strings:
+Type I [[string phenomenology]] and discussion of [[GUT]]s based on [[SO(32)]] type I strings (see also at [heterotic phenomenology](https://ncatlab.org/nlab/show/heterotic+string+theory#ReferencesPhenomenology)):
 
 * {#MMRB86} H.S. Mani, A. Mukherjee, R. Ramachandran, A.P. Balachandran, _Embedding of $SU(5)$ GUT in $SO(32)$ superstring theories_, Nuclear Physics B Volume 263, Issues 3–4, 27 January 1986, Pages 621-628 (<a href="https://doi.org/10.1016/0550-3213(86)90277-4">arXiv:10.1016/0550-3213(86)90277-4</a>)
 
