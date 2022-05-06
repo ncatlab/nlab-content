@@ -24,7 +24,7 @@ The **canonical formula of mythical transformation** is an expression proposed i
 
 In L&#233;vi-Strauss ([1955](#LS55), p.442) the canonical formula is introduced as the "algebraic" expression:
 
-$ ^f x(a)\quad : \quad^f y(b)\qquad\cong\qquad ^f x(b)\quad :\quad^f a-1(y) $ .
+$ f_x(a): f_y(b)\cong f_x(b):f_{a^{-1}}(y) $ .
 
 ## An example
 
