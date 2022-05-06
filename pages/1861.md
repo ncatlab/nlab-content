@@ -56,6 +56,9 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 (e.g. [Kosinski 93, IX (5.8)](#Kosinski93))
 
 
+### Poincaré–Hopf theorem
+
+* [[Poincaré–Hopf theorem]]
 
 ### Relation to Freudenthal suspension theorem
 
