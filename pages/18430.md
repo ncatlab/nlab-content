@@ -26,6 +26,8 @@ $$
   \,.
 $$
 
+For $r \in \mathbb{Z}_p$ with $r = p$ the above sequences converges in the p-adic metric. 
+
 ## References
 
 * Wikipedia, _[Geometric series](https://en.wikipedia.org/wiki/Geometric_series)_
