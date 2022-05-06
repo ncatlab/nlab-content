@@ -2777,7 +2777,7 @@ Further introductions include
 
 * {#Blair09} Chris Blair, _Some K-theory examples_, 2009 ([pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf))
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf), [[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
+* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
 * Aderemi Kuku, _Introduction to K-theory and some applications_ ([pdf](https://www.math.ksu.edu/~zlin/kuku/Intro-Kthy.pdf))
 
