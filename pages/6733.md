@@ -517,7 +517,10 @@ A precise mathematical formulation of the proposal made there is given in
 A discussion that embeds this argument into the larger context of [[AdS-CFT duality]] is in 
 
 * {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
- 
+
+Discussion of [[S-duality]] in 6d self-dual higher gauge theory via [[non-commutative geometry|non-commutative]]-deformation:
+
+* {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. 92:240-251, 2015 ([arXiv:1404.2257](https://arxiv.org/abs/1404.2257)) 
 
 See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
 
