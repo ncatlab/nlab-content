@@ -702,6 +702,10 @@ Beyond their possible common origin in [[leptoquarks]], further possible joint e
 
 * Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
 
+* A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
+
+
+
 #### Other
 
 Other possible explanations of the flavour anomalies:
