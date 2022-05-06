@@ -124,3 +124,7 @@ The same principle applies to other types, particularly [[dependent sum types]] 
 [[!redirects eta equivalence]]
 [[!redirects eta-equivalence]]
 [[!redirects ∞-equivalence]]
+
+[[!redirects η-expansion]]
+[[!redirects η-reduction]]
+[[!redirects η-conversion]]
