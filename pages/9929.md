@@ -688,7 +688,7 @@ Introduction includes
 
 The perspective of [[chromatic homotopy theory]] originates in
 
-* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([[HopkinsComplexOrientedCohomology.pdf:file]])
 
 and is further developed in
 
