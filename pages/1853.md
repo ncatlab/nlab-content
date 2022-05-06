@@ -38,7 +38,9 @@ in $\mathbf{H}$. In applications this is often a pairing operation with $A_1 = A
 If $g_1 : X \to A_1$ and $g_2 : X \to A_2$ are two cocycles in $\mathbf{H}(X,A_1)$ and $\mathbf{H}(X,A_2)$, respectively, then their cup product with respect to this pairing is the cocycle
 
 $$
-  g_1 \cdot g_2 : X \stackrel{(id,id)}{\longrightarrow}
+  g_1 \cdot g_2   
+  \;\coloneq\; 
+  X \stackrel{(id,id)}{\longrightarrow}
   X \times X
   \stackrel{g_1 \times g_2}{\to}
   A_1 \times A_2
