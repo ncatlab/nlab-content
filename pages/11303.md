@@ -59,7 +59,7 @@ For more relations between QFTs found via string theory see at _[[string theory 
 
 The original articles are
 
-* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]], _Geometric Engineering of Quantum Field Theories_  Nucl.Phys. B497 (1997) 173-195 ([arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239))
+* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]], _Geometric Engineering of Quantum Field Theories_, Nucl.Phys. B497 (1997) 173-195 ([arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239))
 
 * {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl.Phys. B497 (1997) 196-204 ([arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090))
 
@@ -72,10 +72,9 @@ Review:
 
   (emphasis on the [[s-rule]])
 
-* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) [pdf](http://edoc.hu-berlin.de/dissertationen/physik/karch-andreas/PDF/Karch.pdf)
+* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) ([doi:10.18452/14371](https://doi.org/10.18452/14371))
 
-* [[David Morrison]], _Limitations of Geometric Engineering:
-Implications for Model Building_, talk (2008) [pdf slides](http://hans.math.upenn.edu/StringPhenom2008/slides/d.morrison.pdf)
+* [[David Morrison]], _Limitations of Geometric Engineering: Implications for Model Building_, talk (2008) [pdf slides](http://hans.math.upenn.edu/StringPhenom2008/slides/d.morrison.pdf)
 
 * {#Fazzi17} [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ ([arXiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
