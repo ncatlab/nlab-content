@@ -82,11 +82,11 @@ The problem of generic in-stability of moduli of pure gravity KK-compactificatio
 
 A class of stable compactifications of 6d Einstein-Maxwell theory down to four dimensions is due to
 
-* {#FreundRubin80} [[Peter Freund]] and M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980).
+* {#FreundRubin80} [[Peter Freund]] and M. A. Rubin, _Dynamics Of Dimensional Reduction_, Phys. Lett. B 97, 233 (1980) (<a href="https://doi.org/10.1016/0370-2693(80)90590-0">doi:10.1016/0370-2693(80)90590-0</a>, [spire:154579](http://inspirehep.net/record/154579))
 
 and the special case of compactifications of 6d Einstein-Maxwell theory to 4d is in
 
-*  {#RDSS83} S. Randjbar-Daemi, [[Abdus Salam]] and J. A. Strathdee, _Spontaneous Compactification In Six-Dimensional Einstein-Maxwell Theory_, Nucl. Phys. B 214, 491 (1983) ([spire](https://inspirehep.net/record/182427/))
+*  {#RDSS83} S. Randjbar-Daemi, [[Abdus Salam]] and J. A. Strathdee, _Spontaneous Compactification In Six-Dimensional Einstein-Maxwell Theory_, Nucl. Phys. B 214, 491 (1983) (<a href="https://doi.org/10.1016/0550-3213(83)90247-X">doi:10.1016/0550-3213(83)90247-X</a>, [spire:182427](https://inspirehep.net/record/182427/))
 
 Further discussion of these models as toy models for [[flux compactifications]] in [[string theory]] is in
 
