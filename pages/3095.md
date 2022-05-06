@@ -17,17 +17,30 @@
 **Linguistics** is the (scientific) study of natural human language. See a reasonably good page at [Wikipedia](http://en.wikipedia.org/wiki/Linguistics). 
 
 
-## Formal Linguistics
+## Syntax
 
-Linguists may deploy formal methods to understand grammatical strings of words, and to allow compositional theories of meaning based on the meanings of the subparts of sentences. 
+Linguists may deploy formal methods to analyse the syntax of natural language. [[formal grammar|Formal grammars]] characterize which strings of words are considered grammatical, they come in many different flavours:
 
-* [[Montague grammar]]
 * [[context free grammar]]
 * [[categorial grammar]]
 * [[pregroup grammar]]
-* [[monad (in linguistics)]]
+
+These different frameworks come in a hierarchy of expressive power, see [[Chomsky hierarchy]].
+
+## Semantics
+
+Formal theories of meaning are based on the principle of [[compositionality]]: the semantics of a sentence is a function of the meanings of its words, and of its grammatical structure. 
+
+* [[Montague grammar|Montague semantics]]
 * [[categorical compositional distributional semantics]]
 * [[dependent type theoretic methods in natural language semantics]]
+
+## Pragmatics
+
+Pragmatics is concerned with the meaning of language in context.
+
+* [[monad (in linguistics)]]
+* [[language game]]
 
 ## Related Concepts
 
