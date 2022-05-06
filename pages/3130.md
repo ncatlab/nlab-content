@@ -181,6 +181,27 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ## References
 
+### Chern character on K-theory
+
+Discussion of the Chern character on [[topological K-theory]]:
+
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], Section 1.10 in: _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), <a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
+
+
+A characterization of Chern-character maps for [[K-theory]] is in
+
+* [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
+
+Discussion for [[equivariant K-theory]]:
+
+* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+
+
+
+
+### Chern-Dold character on generalized cohomology
+
+
 The Chern-Dold character for [[generalized (Eilenberg-Steenrod) cohomology theory]] is made fully explicit in 
 
 * {#Buchstaber70} [[Victor Buchstaber]], _The Chern–Dold character in cobordisms. I_, 
@@ -226,16 +247,10 @@ The observation putting this into the general context of [[differential cohomolo
 based on [Bunke-Gepner 13](#BunkeGepner13)
 
 
-A characterization of Chern-character maps for [[K-theory]] is in
 
-* [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
+### In derived algebraic geometry
 
-Discussion for [[equivariant K-theory]]:
-
-* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
-
-
-A discussion of Chern characters in terms of [[free loop space objects]] in [[derived geometry]] is in 
+Discussion of Chern characters in terms of [[free loop space objects]] in [[derived geometry]]:
 
 * {#ToenVezzosi08} [[Bertrand Toën]], [[Gabriele Vezzosi]], _A note on Chern character, loop spaces and derived algebraic geometry_ ([arXiv:0804.1274](http://arxiv.org/abs/0804.1274))
 
@@ -248,6 +263,8 @@ See also
 * [[Marc Hoyois]], _Chern character and derived algebraic geometry_ (2009) ([pdf](http://math.mit.edu/~hoyois/papers/chern.pdf))
 
 * {#HoyoisScherotzkeSibilla15} [[Marc Hoyois]], [[Sarah Scherotzke]], [[Nicolò Sibilla]], _Higher traces, noncommutative motives, and the categorified Chern character_ ([arXiv:1511.03589](http://arxiv.org/abs/1511.03589))
+
+
 
 [[!redirects Chern characters]]
 
