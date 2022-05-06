@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _pentaquark_ is a [[bound state]] of 5 [[quarks]] (as opposed to just 3 in [[baryons]] and 2 in [[mesons]]) which after a long history of [[theory (physics)|theoretical]] prediction and inconclsive [[experiment|experimental]] signatures was finally observed beyond doubt by the [[LHCb collaboration]].
+The _pentaquark_ is a [[bound state]] of 5 [[quarks]] (as opposed to just 3 in [[baryons]] and 2 in [[mesons]]) which after a long history of [[theory (physics)|theoretical]] prediction and inconclusive [[experiment|experimental]] signatures was finally observed beyond doubt by the [[LHCb collaboration]].
 
 ## References
 
