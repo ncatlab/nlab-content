@@ -44,6 +44,8 @@ See also at _[[membrane matrix model]]_.
 ## Open problems
  {#OpenProblems}
 
+### General
+
 In the 90s there was much excitement about the BFSS model, as people hoped it might provide a definition of [[M-theory]]. It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speech](M-theory#Witten14), last paragraph.) 
 
 However, while the BFSS matrix model clearly sees something M-theoretic, just as clearly it is not the full answer. Notably it needs for its definition an ambient asympototic Minkowski background, a light cone limit and a peculiar scaling of [[string coupling]] over [[string length]], all of which means that it pertains to a particular corner of a full theory. 
@@ -54,7 +56,7 @@ From [Nicolai-Helling 98, p. 2](#NicolaiHelling98):
 
 Then, even assuming that in this corner all the crucial [[generalized (Eilenberg-Steenrod) cohomology|cohomological]] aspects of [[D-brane]] and [[M-brane]] charges (in [[twisted differential K-theory]], [[twisted cohomotopy]] etc.) are secretly encoded in the matrix model, somehow, none of this is manifest, making the matrix model spit out numbers about a conceptually elusive theory in close analogy to how [[lattice QCD]] produces numbers without informing us about the actual conceptual nature of [[confinement|confined]] [[hadron]] physics.
 
-Furthermore, there are technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense (see the references below [below](#ReferencesGroundStateProblem)).
+
 
 A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ ([here](Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
 
@@ -62,6 +64,10 @@ A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _
 
 > If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of M-theory is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
 
+### Ground state
+ {#ProblemsGroundState}
+
+There are furcher technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense (see the references below [below](#ReferencesGroundStateProblem)).
 
 
 ## Related concepts
