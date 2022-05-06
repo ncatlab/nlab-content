@@ -179,6 +179,7 @@ Hence stable homotopy theory and homological algebra are both special cases of t
 Stable $\infty$-categories are naturally [[enriched (∞,1)-categories]] over the [[(∞,1)-category of spectra]] ([Gepner-Haugseng 13](#GepnerHaugseng13)).
 
 ### The homotopy category: triangulated categories
+ {#TheTriangulatedHomotopyCategory}
 
 The [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ of a stable $(\infty,1)$-category $C$ -- its [[decategorification]] to an ordinary [[category]] -- is less well behaved than the original stable $(\infty,1)$-category, but remembers a shadow of some of its structure: this shadow is the structure of a [[triangulated category]] on $Ho(C)$
 
