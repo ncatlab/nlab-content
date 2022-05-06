@@ -333,7 +333,7 @@ $$
   }
 $$
 
-The image of the element $id_{L(c_2)}$ in the top left along the right and down is $ \eta_{c_2} \circ f$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}, while its image down and then to the right is $\widetilde {L(f)} = R(L(f)) \circ \eta_{c_1}$, by the previous statement. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown.
+The image of the element $id_{L(c_2)}$ in the top left along the right and down is $ \eta_{c_2} \circ f$, by Def. \ref{AdjunctionUnitFromHomIsomorphism}, while its image down and then to the right is $\widetilde{L(f)} = R(L(f)) \circ \eta_{c_1}$, by the previous statement. Commutativity of the diagram means that these two morphisms agree, which is the statement to be shown.
 
 The argument for the naturality of $\epsilon$ is directly analogous.
 
