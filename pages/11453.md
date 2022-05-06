@@ -254,6 +254,8 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 ## References
 
+### General
+
 The term "orientifold" originates around 
 
 * {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758))
@@ -276,12 +278,21 @@ Textbook accounts:
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 9.4 and 10.6 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
 
+See also 
+
+* Wikipedia, _[Orientifold](https://en.wikipedia.org/wiki/Orientifold)_
+
+### With discrete torsion
+
 O-Plane charge in the presence of [[discrete torsion]]:
 
 * [Hanany-Kol 00](#HananyKol00)
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], Eric Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
+* Atish Dabholkar, Jaemo Park, _Strings on Orientifolds_, Nucl. Phys. B477 (1996) 701-714 ([arXiv:hep-th/9604178](https://arxiv.org/abs/hep-th/9604178))
+
+### In terms of KO-theory
 
 O-Plane charge in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]]:
 
@@ -304,7 +315,14 @@ Actual construction of [[twisted K-theory|twisted]] [[differential K-theory|diff
 
 * {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
+### Examples / Models
 
+The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on O-planes:
+
+* {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
+
+
+### Lift to M-theory
 
 Lift to [[M-theory]]:
 
@@ -330,15 +348,8 @@ The [[brane intersection|intersection]] with [[(p,q)5-brane webs]]:
 
 * Gabi Zafrir, _Brane webs in the presence of an $O5^-$-plane and 4d class S theories of type D_, JHEP07 (2016) 035 ([arXiv:1602.00130](https://arxiv.org/abs/1602.00130))
 
-The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on O-planes:
-
-* {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
 
 
-
-See also 
-
-* Wikipedia, _[Orientifold](https://en.wikipedia.org/wiki/Orientifold)_
 
 [[!redirects orientifold planes]]
 
