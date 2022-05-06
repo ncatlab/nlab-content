@@ -60,9 +60,11 @@ The [[automorphism group]] of the [[complex numbers]], as an [[associative algeb
 
 =--
 
-See also at _[normed division algebra -- automorphism](normed+division+algebra#Automorphisms)_
+See also at _[normed division algebra -- automorphism](normed+division+algebra#Automorphisms)_.
 
 Over other subfields, the automorphism group may be considerably larger. Over the [[rational numbers]], for instance, $\mathbb{C}$ has transcendence degree equal to the cardinality of the continuum, i.e., there is an algebraic extension $\mathbb{Q}(X) \hookrightarrow \mathbb{C}$ with ${|X|} = \mathfrak{c} = 2^{\aleph_0}$. Any [[bijection]] $X \to X$ induces a field automorphism $\mathbb{Q}(X) \to \mathbb{Q}(X)$ which may be extended to an automorphism of $\mathbb{C}$ over $\mathbb{Q}$. Therefore the number of automorphisms of $\mathbb{C}$ is at least $2^\mathfrak{c}$ (and in fact at most this as well, since the number of functions $\mathbb{C} \to \mathbb{C}$ is also $2^\mathfrak{c}$). 
+
+See also at _[[automorphism of the complex numbers]]_.
 
 ### Geometry of complex numbers
 
