@@ -12,7 +12,7 @@
 	& \sigma\text{-locally discrete base} 
 	& \sigma\text{-locally finite base} 
 	& \text{first countable}
-	\\[.9em]
+	\\
 	  \text{separable}
 	& 
 	& \text{Lindel\"of}
@@ -35,10 +35,8 @@
 	\arrow[Rightarrow, from=3-4, to=2-2]
 	\arrow[Rightarrow, from=3-4, to=5-3]
 	\arrow[Rightarrow, from=3-4, to=2-5]
-	\arrow[Rightarrow, from=2-2, to=3-1, 
-		"\substack{\text{countable}\\ \text{choice}}" description] 
-	\arrow[Rightarrow, from=2-2, to=3-3,
-		"\substack{\text{countable}\\ \text{choice}}" description] 
+	\arrow[Rightarrow, from=2-2, to=3-1, "\text{CC}" description] 
+	\arrow[Rightarrow, from=2-2, to=3-3, "\text{CC}" description] 
 	\arrow[Rightarrow, from=3-1, to=3-3, "\text{if $X$ metacompact}"] 
 	\arrow[Rightarrow, from=3-3, to=5-3]
 	\arrow[Rightarrow, from=3-1, to=5-3, "\text{AC}" {description, near end}]
@@ -55,6 +53,7 @@
 	\arrow[Rightarrow, from=5-1, to=3-3, "\text{AC}" {description, near end}, "\text{if $X$ paracompact}" {near start, below right}]
 \end{tikzcd}
 
+Axioms: [[axiom of choice]] (AC), [[countable choice]] (CC).
 
 ### Properties ###
 
