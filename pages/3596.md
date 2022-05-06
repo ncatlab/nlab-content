@@ -121,17 +121,17 @@ Almost all types in type theory can be given both [[β-reduction]] and [[η-redu
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,x,r(x)) \vdash t : C(x,y,p)}
-{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash J(t[y/x, r(x)/p];x,y,p) = t}$$
+{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash J(t[x/y, r(x)/p];x,y,p) = t}$$
 
 This says that if $C$ is a type which we can use the eliminator $J$ to construct a term of, but we already *have* a term $t$ of that type, then if we restrict $t$ to [[reflexive relation|reflexivity]] inputs and then apply $J$ to construct a term of type $C$, the result is the same as the term $t$ we started with.  As in the $\beta$-reduction rule, the $=$ in the conclusion refers to [[definitional equality]].
 
-This $\eta$-conversion rule has some very strong consequences.  For instance, suppose $x\colon A$, $y\colon A$, and $p\colon Id_A(x,y)$, and let $C \coloneqq A$.  Then with $t=x$, the $\eta$-conversion rule tells us that $x = J(x[y/x,r(x)/p];x,y,p)$.  And with $t=y$, the $\eta$-conversion rule tells us that $y = J(y[y/x,r(x)/p];x,y,p)$.  But substituting $y$ for $x$ (and $r(x)$ for $p$) in the term $y$ simply yields the term $y$, which is the same as the result of substituting $y$ for $x$ and $r(x)$ for $p$ in the term $x$.  Thus, we have
+This $\eta$-conversion rule has some very strong consequences.  For instance, suppose $x\colon A$, $y\colon A$, and $p\colon Id_A(x,y)$, and let $C \coloneqq A$.  Then with $t=x$, the $\eta$-conversion rule tells us that $x = J(x[x/y,r(x)/p];x,y,p)$.  And with $t=y$, the $\eta$-conversion rule tells us that $y = J(y[x/y,r(x)/p];x,y,p)$.  But substituting $x$ for $y$ (and $r(x)$ for $p$) in the term $y$ simply yields the term $x$, which is the same as the result of substituting $x$ for $y$ and $r(x)$ for $p$ in the term $x$.  Thus, we have
 
 $$x = J(x;x,y,p) = y$$
 
 In other words, if $Id_A(x,y)$ is inhabited (that is, $x$ and $y$ are propositionally equal) then in fact $x$ and $y$ are definitionally equal.  Moreover, by a similar argument we can show that
 
-$$p = J(p[y/x, r(x)/p];x,y,p) = J(r(x)[y/x,r(x)/p];x,y,p) = r(x).$$
+$$p = J(p[x/y, r(x)/p];x,y,p) = J(r(x)[x/y,r(x)/p];x,y,p) = r(x).$$
 
 (Here we are eliminating into the type $C(x,y,p) \coloneqq Id_A(x,y)$.  The term $r(x)$ may be regarded as belonging to this type, because we have already shown that $x$ and $y$ are *definitionally* equal.)
 
@@ -141,7 +141,7 @@ This sort of extensionality in type theory is also problematic for non-homotopic
 
 On the other hand, it is possible to prove a *propositional* version of $\eta$-conversion using only the identity types as defined above without definitional $\eta$-conversion.  In other words, given the hypotheses of the above $\eta$-conversion rule, we can construct a term belonging to the type
 
-$$ Id_{C(x,y,p)}(J(t[y/x, r(x)/p];x,y,p), t). $$
+$$ Id_{C(x,y,p)}(J(t[x/y, r(x)/p];x,y,p), t). $$
 
 This has none of the bad consequences of definitional $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *definitionally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *transport* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
 
