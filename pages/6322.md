@@ -134,6 +134,12 @@ See also
 
 * Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
 
+As [[thermal field theory]]:
+
+* Jacopo Ghiglieri, Aleksi Kurkela, Michael Strickland, Aleksi Vuorinen, _Perturbative Thermal QCD: Formalism and Applications_ ([arXiv:2002.10188](https://arxiv.org/abs/2002.10188))
+
+
+
 ### Phase diagram
  {#Phases}
 
