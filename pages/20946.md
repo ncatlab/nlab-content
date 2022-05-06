@@ -15,12 +15,12 @@ Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally o
 
 * Andreas Blommaert, Thomas G. Mertens, Henri Verschelde, _The Schwarzian Theory - A Wilson Line Perspective_, JHEP 1812 (2018) 022 ([arXiv:1806.07765](https://arxiv.org/abs/1806.07765))
 
-* [[Eric D'Hoker]], [[Per Kraus]], _Gravitational Wilson lines in $AdS_3$_ ([arXiv:1912.02750](https://arxiv.org/abs/1912.02750))
-
 
 * Ashwin Dushyantha Hegde, _Role of Wilson Lines in 3D Quantum Gravity_, 2019 ([spire:1763572](http://inspirehep.net/record/1763572))
 
 * Xing Huang, Chen-Te Ma, Hongfei Shu, _Quantum Correction of the Wilson Line and Entanglement Entropy in the $AdS_3$ Chern-Simons Gravity Theory_ ([arXiv:1911.03841](https://arxiv.org/abs/1911.03841))
+
+* [[Eric D'Hoker]], [[Per Kraus]], _Gravitational Wilson lines in $AdS_3$_ ([arXiv:1912.02750](https://arxiv.org/abs/1912.02750))
 
 * [[Marc Henneaux]], [[Wout Merbis]], Arash Ranjbar, _Asymptotic dynamics of $AdS_3$ gravity with two asymptotic regions_ ([arXiv:1912.09465](https://arxiv.org/abs/1912.09465))
 
