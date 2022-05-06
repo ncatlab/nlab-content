@@ -103,13 +103,24 @@ where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of t
 ### Basic properties (Basis-independent formulas)
  {#BasicProperties}
 
-Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
+Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then the following holds:
 
-* $\star(\star\omega) = (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega$;
+\[
+  \label{HodgeSquareOnRiemannian}
+  \star(\star\omega) = (-1)^{k(n+1)} \omega = (-1)^{k(n-k)} \omega
+\]
 
-* $\langle\star\omega , \star\lambda\rangle = \langle\omega | \lambda\rangle$;
+\[
+  \label{HodgeStarPreservesHodgeInnerProduct}
+  \langle\star\omega , \star\lambda\rangle = \langle\omega | \lambda\rangle
+\]
 
-* $\star 1 = vol$.
+\[
+  \label{HodgeStarOfUnityIsVolume}
+  \star 1 = vol
+\]
+
+([[volume form]])
 
 ### On a K&#228;hler manifold
  {#OnAKahlerManifold}
