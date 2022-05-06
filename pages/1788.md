@@ -3,6 +3,7 @@
 * [with single brackets](base+change)
 * [[base change|with double brackets (to existant page)]]
 * [[foo bar|with double brackets (to new page)]]
+* [[pullback#PullbackFunctor|with double brackets to fragment]]
 
 
 ## Notions of orbifold cohomology
