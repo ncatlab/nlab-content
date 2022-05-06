@@ -254,20 +254,32 @@ In the generality of [[manifolds with corners]]:
 
 * [[Brian Conrad]], _Stokes' theorem with corners_ ([pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/stokescorners.pdf), [[ConradStokesTheorem.pdf:file]])
 
+
 Statement of the fiberwise Stokes theorem:
 
 * {#GomiTerashima00} [[Kiyonori Gomi]], [[Yuji Terashima]], Remark 3.1 in: _A Fiber Integration Formula for the Smooth Deligne Cohomology_, International Mathematics Research Notices 2000, No. 13 ([pdf](http://imrn.oxfordjournals.org/content/2000/13/699.full.pdf), [pdf](http://numr.wdfiles.com/local--files/differential-cohomology/gomi-terashima.pdf), [doi:10.1155/S1073792800000386](https://doi.org/10.1155/S1073792800000386))
 
 * [[Liviu Nicolaescu]], Theorem 3.4.54 of: _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf), [[NicolaescuGeometryOfManifolds.pdf:file]])
 
+and specifically for simplicial differential forms:
+
+* Dupont, Ljungman, Theorem 5.10 in: _Integration of simllicial forms and Deligne cohomology_ ([arXiv:math/0402059](https://arxiv.org/abs/math/0402059))
+
+Statement of the Stokes theorem in the full generality of [[fiber integration|fiberwise integration]] over fibers [[manifold with corners|with corners]]:
+
+* [[Alberto Cattaneo]], Nima Moshayedi, Konstantin Wernli, equation (65) in: _Globalization for Perturbative Quantization of Nonlinear Split AKSZ Sigma Models on Manifolds with Boundary_ ([arXiv:1807.11782](https://arxiv.org/abs/1807.11782))
+
+
+
+
 
 Discussion of [[chains]] of smooth [[singular simplices]]
 
 * _Stokes' theorem on chains_ (<a href="http://idv.sinica.edu.tw/ftliang/diff_geom/*diff_geometry(II)/3.25/deRham_theorem/stokes_on_chains.pdf">pdf</a>)
 
-Discussion of Stokes theorem on [[manifolds with corners]] is in 
 
-* [[Brian Conrad]], _[Differential geometry](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html)_ _Math 396. Stokes' theorem with corners_ ([pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/stokescorners.pdf))
+
+
 
 Discussion for manifolds with more general singularities on the boundary is in 
 
