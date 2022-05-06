@@ -119,7 +119,7 @@ The construction of [[topological modular forms]] ([[tmf]]) may be generalized t
 
 The principal congruence subgroups are discussed for instance in
 
-* {#Hain08} Richard Hain, section 4.2 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+* {#Hain08} [[Richard Hain]], section 4.2 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
 The relation of $\Gamma_1(2)$ to [[spin structures]] is discussed for instance in 
 
@@ -136,8 +136,7 @@ The concept of level structure on an elliptic curve is due to
 
 Review of the definition includes
 
-* {#Voloch} [[Felipe Voloch]], _Modular curves -- 1. Level structures_ ([pdf](https://www.ma.utexas.edu/users/voloch/Ellnotes/feb23.pdf
-))
+* {#Voloch} [[Felipe Voloch]], _Modular curves -- 1. Level structures_ ([pdf](https://www.ma.utexas.edu/users/voloch/Ellnotes/feb23.pdf))
 
 General discussion is in 
 
