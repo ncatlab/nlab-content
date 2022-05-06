@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _[[action]]_ or _[[representation]]_ of an algebraic object such as a [[group]] or an [[algebra]] is _faithful_ when the action of two elements being equal implies that these two elements are already equal. When the representation of a group $G$ on some $V$ is thought of as a [[functor]] $\mathb{B}G \to \mathbf{B}Aut(V)$, then it is faithful precisely if this functor is a [[faithful functor]].
+An _[[action]]_ or _[[representation]]_ of an algebraic object such as a [[group]] or an [[algebra]] is _faithful_ when the action of two elements being equal implies that these two elements are already equal. When the representation of a group $G$ on some $V$ is thought of as a [[functor]] $\mathbf{B}G \to \mathbf{B}Aut(V)$, then it is faithful precisely if this functor is a [[faithful functor]].
 
 A [[representation]] of an algebraic object, such as a [[group]] or an [[algebra]], is a way of studying it by making it act on some object.  The hope being that the behaviour of the object makes it easier to see the structure of the acting object.  Another way of thinking of such a representation is that it is a [[homomorphism]] of the acting object into some other object that is (presumably) better understood.  Making a group or algebra act on a [[vector space]] is the same as giving a homomorphism into the corresponding [[general linear group]] or [[endomorphism algebra]], making a group act on a set maps it into the corresponding [[permutation group]].
 
