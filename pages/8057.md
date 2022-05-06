@@ -15,7 +15,7 @@
 
 ## Idea 
 
-In [[combinatory logic]], in the [[$\lambda$-calculus]], or more generally in [[type theory]], a _fixed-point [[combinator]]_ is a [[term]] $Y$ which, when [[function application|applied]] to a term $n$, yields a term $Y n$ that is a fixed-point of $n$:
+In [[combinatory logic]], in the [[lambda-calculus|$\lambda$-calculus]], or more generally in [[type theory]], a _fixed-point [[combinator]]_ is a [[term]] $Y$ which, when [[function application|applied]] to a term $n$, yields a term $Y n$ that is a fixed-point of $n$:
 $$ n (Y n) = Y n .$$
 This equality is usually a directed [[beta-reduction]] as follows:
 $$ Y n \to_\beta n (Y n) .$$
@@ -76,7 +76,7 @@ There are many ways of constructing or otherwise obtaining a fixed-point combina
 
 ### Unityped $\lambda$-calculus
 
-In the [[unityped $\lambda$-calculus]], a traditional construction (due to Curry) is
+In the unityped [[lambda-calculus|$\lambda$-calculus]], a traditional construction (due to Curry) is
 
 $$ Y = \lambda n. (\lambda s. n (s s)) (\lambda s. n (s s)) $$ 
 
