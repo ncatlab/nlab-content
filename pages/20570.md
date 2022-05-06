@@ -58,7 +58,7 @@ Further development:
 ### AdS/CFT Holography
  {#ReferencesHolography}
 
-In [[AdS/CFT]] For [[AdS2/CFT1]]:
+In [[AdS/CFT]] for [[AdS2/CFT1]]:
 
 * {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
 
@@ -86,6 +86,9 @@ Application to [[near horizon geometry]] of near-[[extremal black holes]]:
 Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravity]] on the [[worldvolume]] of [[D1-D5 brane bound states]] or [[M2-M5 brane bound states]]:
 
 * Yue-Zhou Li, Shou-Long Li, H. Lu, _Exact Embeddings of JT Gravity in Strings and M-theory_, Eur. Phys. J. C (2018) 78: 791 ([arXiv:1804.09742](https://arxiv.org/abs/1804.09742))
+
+* Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
+
 
 
 [[!redirects JT-gravity]]
