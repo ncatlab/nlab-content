@@ -2,6 +2,30 @@
 
 * [webpage](http://www.cs.bham.ac.uk/~mhe/)
 
+## Selected writings
+
+Om [[synthetic topology]]:
+
+* [[Martín Escardó]], _Synthetic topology of data types and classical spaces_, ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/barbados.pdf))
+
+* [[Martín Escardó]], {#EscardoPopl2012} _The topology of Seemingly impossible functional programs_, ([pdf](http://www.cs.bham.ac.uk/~mhe/.talks/popl2012/escardo-popl2012.pdf))
+
+On [[differential calculus]] via [[coinduction]]:
+
+* [[Martín Escardó]], [[Duško Pavlović]], _Calculus in coinductive form_ (1998) ([pdf](http://www.isg.rhul.ac.uk/dusko/papers/1998-lapl-LICS.pdf))
+
+On [[Hedberg's theorem]]:
+
+
+* {#KECA} [[Nicolai Kraus]], [[Martin Escardo]], [[Thierry Coquand]] , [[Thorsten Altenkirch]], _Generalizations of Hedberg's theorem_, in M. Hasegawa (ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf))
+
+On [[compactness and stable closure]]:
+
+* [[Martín Escardó]], Intersections of compactly many open sets are open, 2009 [(pdf)](http://www.cs.bham.ac.uk/~mhe/papers/compactness-submitted.pdf)
+
+On [[injective objects]] in [[homotopy type theory]]:
+
+* {#Escardo19} [[Martín Escardó]], _Injectives types in univalent mathematics_ ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211))
 
 
 category: people
