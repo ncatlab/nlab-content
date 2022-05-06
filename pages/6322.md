@@ -124,6 +124,8 @@ See also
 
 * Bo-Lun Du, Xing-Gang Wu, Jian-Ming Shen, Stanley J. Brodsky, _Extending the Predictive Power of Perturbative QCD_ ([arXiv:1807.11144](https://arxiv.org/abs/1807.11144))
 
+* Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+
 ### Phase diagram
 
 On the [[phase diagram]] of QCD
