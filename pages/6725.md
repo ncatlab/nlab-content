@@ -251,6 +251,9 @@ Discussion of [[phenomenology]]/[[string phenomenology]] for the [[heterotic M-t
 
 
 
+
+
+
 ### Gaugino condensation and supersymmetry breaking
  {#ReferencesGauginoCondensation}
 
@@ -275,6 +278,12 @@ specifically for [[M-theory on S1/G_HW times H/G_ADE]]:
 * Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_, Nuclear Physics B
 Volume 515, Issues 1–2, 30 March 1998, Pages 55-72
 Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a href="https://doi.org/10.1016/S0550-3213(97)00784-0">doi:10.1016/S0550-3213(97)00784-0</a>)
+
+With emphasis on [[heterotic line bundles]] in the [[hidden sector]]:
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_ ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455))
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
 
 
 ### Generalization to M-theory on $S^1/G_{HW} \times \mathbb{H}/G_{ADE}$
