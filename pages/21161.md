@@ -1,3 +1,4 @@
+[[!redirects graphs of groups]]
 
 #Contents#
 * table of contents
@@ -19,6 +20,14 @@ A graph of groups $\Gamma(G,X)$ consists of
 
 * For each edge, $e\in E(X)$, there exists a monomorphism, $\sigma::G_e\to G_{i(e)}$, where $i(e)$ is the initial vertex of the edge, $e$.
 
+##Examples
+
+In the usual form of Bass-Serre Theory a graph of groups is derived from the action of a group on a tree. 
+
+## Related entries.
+
+* [[complex of groups]] - The theory of graphs of groups is the 1-dimensional precursor of that of  complexes of groups.
+
 ##References
 
 * [[J.-P. Serre]], 1977, _Arbres, amalgames, SL2_, volume 46 of Astérisque, Société mathématique de France.
@@ -26,3 +35,5 @@ A graph of groups $\Gamma(G,X)$ consists of
 * [[J.-P. Serre]], 2003, _Trees_, Springer Monographs in Mathematics, Springer- Verlag Berlin
 
 * [[H. Bass]], _Covering theory for graphs of groups_, Journal of Pure and Applied Algebra, 89, (1993), 3–47.
+
+[[!redirect graphs of groups]]
