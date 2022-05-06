@@ -114,6 +114,82 @@ In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram correspon
 
 ### Tangent Structure as abstract Weil Prolongation
 
+
+There is a vast literature on the notion of a "Weil functor". A particularly important theorem is that every product preserving endofunctor on the category of smooth manifolds is given by a ``prolongation'' operation with a Weil algebra. To simplify this section, we will only consider the case of tangent categories with negatives - see Leung's thesis to see the generalization to commutative rigs.
+
+#### Weil Algebras
+
+Consider a commutative ring $R$. For this section an$R$-algebras is a commutative, unital, associative $R$-algebra. A _Weil Algebra_ over $R$ is an augmented $R$-algebra so that:
+
+1. The underlying $R$-module of $V$ is $R^n$.
+1. The \emph{kernel of augmentation} of $\pi: V \to R$ is nilpotent: there exists
+  a natural number $k$ so that for every $x \in \mathsf{ker}(\pi)$, $x^k = 0$. 
+
+The category of Weil algebras is the full subcategory of $R-\mathsf{alg}/R$ whose objects are Weil algebras.
+
++-- {: .num_prop }
+###### Proposition 
+
+1. $R$-Weil algebras have products.
+1. $R$-Weil algebras have coproducts.
+1. $R$ is a zero object in the category of $R$-Weil algebras.
+
+=--
+
+It is often useful to consider a presentation of $R$-Weil algebras.
+
++-- {: .num_prop }
+###### Proposition 
+
+1. Weil algebras may be presented as $R[X_i]/I$, where $I$ is an ideal of $R[X_i]$.
+1. The product of Weil algebras $R[X_i]/I, R[Y_j]/J$ may be presented as  $R[X_i,Y_j]/(I \cup J \cup XY)$, where $XY = \{ X_iY_j \}$, the coproduct as $R[X_i,Y_j]/(I \cup J)$. 
+1. The following diagram is a pullback:
+  \begin{center}
+    \begin{tikzcd}
+      R[X,Y]/(X^2,Y^2, XY) \ar[r, "X \mapsto XY", "Y \mapsto Y"'] \ar[d, "X{,}Y \mapsto 0"]
+      & R[X,Y]/(X^2,Y^2) \ar[d, "Y \mapsto 0{,} X \mapsto X"] \\
+      R \ar[r, "0"] & R[X]/X^2
+    \end{tikzcd}
+  \end{center}
+1. For any Weil algebra $U$, the endofunctor $U \oplus (-)$ preserves products and the above pullback.
+
+=--
+
+We finally restrict our attention to the category $\mathsf{Weil}_1$. Let $W$ denote the $R$-Weil algebra $R[X]/X^2$, then we may consider the full subcategory whose objects are the closure of $\{ W^n | n \in \mathbb{N}\}$ under coproduct.
+
+#### Abstract Weil Prolongation
+
+Consider the category $\mathsf{Weil}_1$ over the the integers as a symmetric monoidal category with $(\mathsf{Weil}_1,\oplus, R)$. If a category $\mathbb{X}$ has a tangent structure, then it has an [[actegory]] structure
+
+$$
+  \propto: \mathbb{X} \times \mathsf{Weil}_1 \to \mathbb{X}
+$$
+
+so that for any object $M$ in $\mathbb{X}$, $\propto(M,-)$ preserves connected limits
+of $\mathsf{Weil}_1$.
+
+1. The tangent bundle functor is the action by $R[X]/X^2$.
+  \[
+   ( M \propto R[X]/X^2) \propto R[Y]/Y^2 = M \propto R[X,Y]/(X^2,Y^2)
+  \]
+1. The addition map is given by:
+  \[
+    M \propto (X,Y \mapsto X): M \propto R[X,Y]/X^2,Y^2,XY \to M \propto R[X]/X^2
+  \]
+  similarly $0$ is given by:
+  \[
+    M \propto 0: M \propto R \to M \propto R[X]/X^2
+  \]
+1. The canonical flip is given by:
+  \[
+    M \propto (X,Y \mapsto Y,X): M\propto R[X,Y](X^2,Y^2) \to M\propto R[X,Y](X^2,Y^2)
+  \]
+1. The vertical lift is given by:
+  \[
+    M \propto (X \mapsto XY): M \propto R[X]/X^2 \to M\propto R[X,Y](X^2,Y^2)
+  \]
+
+
 ### Tangent Structure as a Weighted Limit
 
 ## References
@@ -148,6 +224,6 @@ Weil Prolongation is discussed in the following papers:
 
 * [[Anders Kock]] (1986). _Convenient vector spaces embed into the Cahiers topos._ Cahiers de topologie et géométrie différentielle catégoriques, 27(1), 3-17 ([pdf](http://www.numdam.org/article/CTGDC_1986__27_1_3_0.pdf))
 
-* Wolfgang Bertram, and Arnaud Souvay. "A general construction of Weil functors." arXiv preprint arXiv:1111.2463 (2011).
+* Wolfgang Bertram and Arnaud Souvay. _A general construction of Weil functors._ arXiv preprint arXiv:1111.2463 (2011).([arXiv:1111.2463](https://arxiv.org/pdf/1111.2463.pdf))
 
 [[!redirects tangent bundle categories]]
