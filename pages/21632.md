@@ -21,7 +21,7 @@
 ## Idea
 
 The _twistor fibration_ ([Atiyah 79, Sec. III.1](#Atiyah79)) or _Calabi-Penrose fibration_ 
-([Seade-Verjovsky 03, 3](#SeadeVerjovsky03)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+(e.g. [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -69,6 +69,8 @@ for any $x \in \mathbb{C}^4 \simeq_{\mathbb{R}} \mathbb{H}^2$.
 
 * [[James Eells]], [[Simon Salamon]], Section 8 of: _Twistorial construction of harmonic maps of surfaces into four-manifolds_,  Annali della Scuola Normale Superiore di Pisa - Classe di Scienze, Serie 4, Volume 12 (1985) no. 4, p. 589-640 ([numdam:ASNSP_1985_4_12_4_589_0](http://www.numdam.org/item/ASNSP_1985_4_12_4_589_0))
 
+* {#Loo89} [[Bonaventure Loo]], _The space of harmonic maps of $S^2$ into $S^4$_, Transactions of the American Mathematical Society Vol. 313, No. 1 (1989) ([jstor:2001066](https://www.jstor.org/stable/2001066))
+
 * {#SeadeVerjovsky02} [[José Seade]], [[Alberto Verjovsky]], Section 2 of: _Higher dimensional complex Kleinian groups_,  Math Ann 322, 279–300 (2002) ([doi:10.1007/s002080100247](https://doi.org/10.1007/s002080100247))
 
 * {#SeadeVerjovsky03} Le, [[José Seade]], [[Alberto Verjovsky]], Section 4 of: _Quadrics, orthogonal actions and involutions in complex projective space_, L'Enseignement Math&eacute;matique, t.  49 (2003) ([e-periodica:001:2003:49::488](https://www.e-periodica.ch/digbib/view?pid=ens-001:2003:49::488#488))
@@ -86,7 +88,7 @@ In higher dimensions:
 
 Over $\mathbb{H}P^3$:
 
-* {#LooVerjovsky94} B. Loo and [[Alberto Verjovsky]], _On quotients of Hopf fibrations_, in: Rendiconti dell’Istituto di Matematica dell’Università di Trieste. An International Journal of Mathematics, 26 (1994), pp. 103-108 ([hdl:10077/4637](	http://hdl.handle.net/10077/4637), [pdf](https://www.openstarts.units.it/bitstream/10077/4637/1/LooVerjovskyRendMat26.pdf))
+* {#LooVerjovsky94} [[Bonaventure Loo]], [[Alberto Verjovsky]], _On quotients of Hopf fibrations_, in: Rendiconti dell’Istituto di Matematica dell’Università di Trieste. An International Journal of Mathematics, 26 (1994), pp. 103-108 ([hdl:10077/4637](	http://hdl.handle.net/10077/4637), [pdf](https://www.openstarts.units.it/bitstream/10077/4637/1/LooVerjovskyRendMat26.pdf))
 
 
 [[!redirects Calabi-Penrose fibrations]]
