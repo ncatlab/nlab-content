@@ -418,20 +418,17 @@ $$
     \\
     \chi 
       & \mapsto 
+      -
       \tfrac{1}{4}p_2 
       - \big(\tfrac{1}{4}p_1\big)^2
-      + \tfrac{1}{2}\chi
+      - \tfrac{1}{2}\chi
     \\
       \tfrac{1}{4}p_2 
       - \big(\tfrac{1}{4}p_1\big)^2
       - \tfrac{1}{2}\chi
     & \mapsto 
       -
-      \big(
-        \tfrac{1}{4}p_2 
-        - \big(\tfrac{1}{4}p_1\big)^2
-        - \tfrac{1}{2}\chi
-      \big)
+      \chi
   \end{aligned}
 $$
 
