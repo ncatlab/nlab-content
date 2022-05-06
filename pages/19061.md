@@ -89,6 +89,9 @@ Generalization to [[U-duality]] in [[exceptional generalized geometry]]:
 * Emanuel Malek, Daniel C. Thompson, _Energy Physics - Theory Poisson-Lie U-duality in Exceptional Field Theory_ ([arxiv:1911.07833](https://arxiv.org/abs/1911.07833))
 
 
+In the context of the  [[BMN matrix model]]:
+
+* [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
 
 
 
