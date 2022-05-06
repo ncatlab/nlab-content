@@ -45,6 +45,8 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 * [[synthetic domain theory]]
 
+* [[synthetic probability theory]]
+
 * [[synthetic topology]]
 
 * [[synthetic computability theory]]
