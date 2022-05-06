@@ -534,8 +534,8 @@ Standard texbooks include
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter II of _[[Spin geometry]]_, Princeton University Press (1989)
 
-* [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
- {#Friedrich97}
+* {#Friedrich97} [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
+ 
 
 A discussion of the full [[groupoid]] of spin structures is in 
 
@@ -574,6 +574,14 @@ A survey is also at
 
 
 * _Spin manifolds_ ([pdf](http://empg.maths.ed.ac.uk/Activities/Spin/Lecture4.pdf))
+
+Spin structures on [[orbifolds]]:
+
+* Daniel J. Acosta, _A Furuta-like inequality for spin orbifolds and the minimal genus problem_, Topology and its Applications Volume 114, Issue 1, 16 July 2001, Pages 91-106 (<a href="https://doi.org/10.1016/S0166-8641(00)00030-4">doi:10.1016/S0166-8641(00)00030-4</a>)
+
+* Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _On orbifold elliptic genus_ ([pdf](https://webusers.imj-prg.fr/~xiaonan.ma/mypubli/dlm02.pdf)), p. 87-105 In: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310 AMS (2002)([ams:conm-310](https://bookstore.ams.org/conm-310))
+
+* Florin Belgun, Nicolas Ginoux, Hans-Bert Rademacher, _A Singularity Theorem for Twistor Spinors_,  Annales de l'Institut Fourier, Volume 57 (2007) no. 4, p. 1135-1159  ([arXiv:math/0409136](https://arxiv.org/abs/math/0409136), [numdam:AIF_2007__57_4_1135_0](http://www.numdam.org/item/AIF_2007__57_4_1135_0))
 
 ### In quantum anomaly cancellation
 
