@@ -197,6 +197,10 @@ An exposition with an eye towards [[homotopy type theory]] is in
 
 * {#Shulman17} [[Mike Shulman]], _The logic of space_, chapter in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
+Survey
+
+* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_
+
 The original axiomatization of homotopy theory by [[model categories]] is due to
 
 * {#Quillen67} [[Daniel Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics 43, Berlin, New York, 1967
