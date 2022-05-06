@@ -20,7 +20,7 @@ The **cube category** is the initial strict [[monoidal category]] $(M, \otimes, 
 +--{.query}
 Do we have a similar definiton of the [[globe category]]?
 
-[[Todd Trimble|Todd]]: None that I know of; the globe category doesn't carry a monoidal structure. But it reminds me that we should create an entry for Joyal's category $\Theta$, used in his definition of weak $omega$-category, as this cleverly combines globes and simplices. 
+[[Todd Trimble|Todd]]: None that I know of; the globe category doesn't carry a monoidal structure. But it reminds me that we should create an entry for Joyal's category $\Theta$, used in his definition of weak $\omega$-category, as this cleverly combines globes and simplices. 
 
 [[Aleks Kissinger|Aleks]]: What about cubes with connection?
 =--
