@@ -92,7 +92,16 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
 
-* [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641))
+* [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
+
+  exposition:
+
+  {#Smith20} Eluned Smith on behalf of the [[LHCb collaboration]], _Update of the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ angular analysis at LHCb_, 2020 ([[SmithatLHCbOnFlavourAnomalies2020.pdf:file]])
+
+  {#Lopes20} Ana Lopes, _[New LHCb analysis still sees previous intriguing results](https://home.cern/news/news/physics/new-lhcb-analysis-still-sees-previous-intriguing-results)_, CERN News 2020
+
+  {#CERNCourir200311} CERN Courier, _[Anomalies persist in flavour-changing B decays](https://cerncourier.com/a/anomalies-persist-in-flavour-changing-b-decays/)_, March 13 2020
+
 
 ## References
 
@@ -103,6 +112,7 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 * [LHCb public results](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html)
 
 * {#LHCbCollaboration18} [[LHCb collaboration]], _Physics case for an LHCb Upgrade II - Opportunities in flavour physics, and beyond, in the HL-LHC era_ ([arXiv:1808.08865](https://arxiv.org/abs/1808.08865))
+
 
 
 See also
