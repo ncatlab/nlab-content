@@ -19,7 +19,9 @@
 
 ## Syntax
 
-Linguists may deploy formal methods to analyse the syntax of natural language. [[formal grammar|Formal grammars]] characterize which strings of words are considered grammatical, they come in many different flavours:
+Linguists may deploy formal methods to analyse the syntax of natural language.
+
+[[formal grammar|Formal grammars]] characterize which strings of words are considered grammatical, they come in many different flavours:
 
 * [[context free grammar]]
 * [[categorial grammar]]
