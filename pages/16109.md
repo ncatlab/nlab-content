@@ -129,6 +129,8 @@ There is no question that the trigonometric functions are rich in significance; 
 
 ## Related concepts
 
+* [[inverse trigonometric function]]
+
 * [[trigonometry]]
 
 * [[trigonometric identity]]
