@@ -1,7 +1,22 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
+
+# Contents
+* table of contents
+{:toc}
+
+## Idea
 A small _cocategory_ is a [[category]] [[internal category|internal to]] $Set^{op}$, the [[opposite category]] of [[Set]]. 
 
-If $C$ is [[finitely complete category|finitely cocomplete]], there is a notion of cocategory internal to $C$, namely a [[comonad]] in the [[bicategory]] of [[span|cospans]] in $C$. 
+More generally, if $C$ is [[finitely complete category|finitely cocomplete]], there is a notion of cocategory internal to $C$, namely a [[comonad]] in the [[bicategory]] of [[span|cospans]] in $C$. 
 
 If $c_0 \to c_1 \leftarrow c_0$ is a cocategory object in $C$, then by homming out of $c_\bullet$, one obtains a limit-preserving functor $C \to Cat$. Under reasonable conditions, the [[adjoint functor theorem]] conversely implies that all limit-preserving functors $C \to Cat$ are obtained in this way.
 
