@@ -24,7 +24,7 @@ The [[continuous functions]] from Baire space to itself serve the role of _compu
 
 ## Related concepts
 
-* [[Irrational number]]
+* [[irrational number]]
 
 [[!include computable mathematics -- table]]
 
