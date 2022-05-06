@@ -16,4 +16,4 @@ $$
 
 between the [[model structure for Cartesian fibrations]] and the global projective model structure on functors with values  in the [[model structure on marked simplicial sets]].
 
-Here (in both cases) $St_\phi$ is called *straightening functor* and $Un_\phi$ is called *unstraightening functor*. These names have been chosen due to the fact that objects in the left hand category are defined be existential assertions and choices where on the right side these properties become coherence laws being part of the structure.
+Here (in both cases) $St_\phi$ is called *straightening functor* and $Un_\phi$ is called *unstraightening functor*. These names have been chosen due to the fact that objects in the left hand category are defined by existential assertions and choices where on the right side these properties become coherence laws being part of the structure.
