@@ -34,6 +34,8 @@ The refinement of [[modal type theory]] to [[homotopy type theory]]: hence homot
 
 * [[stable homotopy type]]
 
+* [[equivariant homotopy type]]
+
 * [[geometric homotopy type theory]]
 
 * [[cohesive homotopy type theory]]
