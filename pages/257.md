@@ -527,6 +527,7 @@ for errata and more.
 [[!redirects model categories]]
 [[!redirects model structure]]
 [[!redirects model structures]]
+[[!redirects model category structure]]
 [[!redirects Quillen model structure]]
 [[!redirects Quillen model structures]]
 [[!redirects Quillen model category]]
