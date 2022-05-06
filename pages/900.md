@@ -19,7 +19,7 @@ A **pro-object** of a [[category]] $C$ is a "formal [[filtered category|cofilter
 The category of pro-objects of $C$ is written $pro$-$C$. Such a category is sometimes called a __pro-category__, but notice that that is *not* the same thing as a pro-object in [[Cat]].
 
 "Pro" is short for "projective". 
-(_[[projective limit|Projective limit]]_ is an older term for _[[limit]]_.) It is in contrast to "ind" in the dual notion of [[ind-object]], standing for "inductive", (and corresponding to _[[inductive limit]]_, the old term for _[[colimit]]_).  In some (often older) sources, the term 'projective system' is used more or less synonymously for pro-object.
+( _[[projective limit|Projective limit]]_ is an older term for _[[limit]]_.) It is in contrast to "ind" in the dual notion of [[ind-object]], standing for "inductive", (and corresponding to _[[inductive limit]]_, the old term for _[[colimit]]_).  In some (often older) sources, the term 'projective system' is used more or less synonymously for pro-object.
 
 The definition of arrows in the category of pro-objects in $\mathcal{C}$ is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
@@ -196,7 +196,7 @@ Procategories were used by Artin and Mazur in their work on [[étale homotopy]] 
 
 ### Shape theory. 
 
-The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263]] and [[Jack Segal|Segal]], at about the same time as the work in algebraic geometry, again used the [[pro-homotopy theory|pro-homotopy category]]. Strong shape, developed by Edwards and Hastings, and also [[Tim Porter|Porter]] and also in further work by [[Sibe Mardesic|Marde&#353;i&#263;]] and [[Jack Segal|Segal]], used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
+The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263;]] and [[Jack Segal|Segal]], at about the same time as the work in algebraic geometry, again used the [[pro-homotopy theory|pro-homotopy category]]. Strong shape, developed by Edwards and Hastings, and also [[Tim Porter|Porter]] and also in further work by [[Sibe Mardesic|Marde&#353;i&#263;]] and [[Jack Segal|Segal]], used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
   
   
 
