@@ -12,7 +12,7 @@ On [[topological quantum field theory]]:
 
 * [[Sergei Gukov]], [[Anton Kapustin]], _[[Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories]]_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
 
-Discussion of the [[Witten genus]] as an [[M5-brane]] [[partition function]] seen under an [[AGT correspondence]]:
+On the [[M5-brane elliptic genus]]:
 
 * [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
 
