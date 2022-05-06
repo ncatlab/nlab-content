@@ -174,8 +174,14 @@ As [[quantum hadrodynamics]]:
 
 * Brian D. Serot, _Quantum hadrodynamics_, Rept.Prog.Phys. 55 (1992) 1855-1946, ([spire:333292](http://inspirehep.net/record/333292), [doi:10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
 
-
 * Brian D. Serot, John Dirk Walecka, _Recent Progress in Quantum Hadrodynamics_, Int. J. Mod. Phys. E6:515-631, 1997 ([arXiv:nucl-th/9701058](https://arxiv.org/abs/nucl-th/9701058))
+
+
+Via the [[S-matrix]]/[[scattering amplitudes]] of [[mesons]]:
+
+* Andrea Guerrieri, Joao Penedones, Pedro Vieira, _S-matrix Bootstrap for Effective Field Theories: Massless Pions_ ([arXiv:2011.02802](https://arxiv.org/abs/2011.02802))
+
+* Eef van Beveren, George Rupp, _Modern meson spectroscopy: the fundamental role of unitarity_ ([arXiv:2012.03693](https://arxiv.org/abs/2012.03693))
 
 
 
@@ -224,9 +230,6 @@ See also
 
 * Lukas Graf, Brian Henning, Xiaochuan Lu, Tom Melia, Hitoshi Murayama, _2, 12, 117, 1959, 45171, 1170086, ...: A Hilbert series for the QCD chiral Lagrangian_ ([arXiv:2009.01239](https://arxiv.org/abs/2009.01239))
 
-Via [[S-matrix]] bootstrap:
-
-* Andrea Guerrieri, Joao Penedones, Pedro Vieira, _S-matrix Bootstrap for Effective Field Theories: Massless Pions_ ([arXiv:2011.02802](https://arxiv.org/abs/2011.02802))
 
 
 
