@@ -27,7 +27,7 @@ They are to [[operads]] and to [[(∞,1)-operads]] as [[simplicial sets]] are to
 
 A dendroidal set is something that consists of [[tree category|trees]] or "[[dendrices]]" in the way that a [[simplicial set]] consists of [[simplex|simplices]]: the trees represent the [[free construction|free]] [[Set]]-[[operads]] over them, and so a dendroidal set is a structure defined as having consistent probes by free $Set$-operads.
 
-More precisely, the [[category]] $dSet$ of dendroidal sets serves to complete the following [[commuting diagram]] of [[functors]]
+More precisely, the [[category]] [[dSet]] of dendroidal sets serves to complete the following [[commuting diagram]] of [[functors]]
 
 $$
   \array{
@@ -739,7 +739,7 @@ is a [[pushout]] diagram, where $\{Sk_n(X)\}$ is the skeletal filtration, def. \
 +-- {: .num_prop}
 ###### Proposition
 
-A monomorphism $f : X \to Y$ in $dSet$ is normal precisely if for every $T \in \Omega$ the [[action]] of the [[automorphism group]] $Aut(T)$ on $Y(T)-X(T)$ is a [[free action]].
+A monomorphism $f : X \to Y$ in [[dSet]] is normal precisely if for every $T \in \Omega$ the [[action]] of the [[automorphism group]] $Aut(T)$ on $Y(T)-X(T)$ is a [[free action]].
 
 Accordingly, a dendroidal set $Y$ is normal precisely if for every $T \in \Omega$ the action of $Aut(T)$ on $Y(T)$ is [[free action|free]].
 
@@ -772,7 +772,7 @@ For $f : X \to Y$ any morphism between dendroidal sets, then
 +-- {: .num_prop}
 ###### Proposition
 
-The class of normal morphisms in $dSet$ is generated from the boundary inclusions under 
+The class of normal morphisms in [[dSet]] is generated from the boundary inclusions under 
 
 * [[pushouts]];
 
@@ -790,7 +790,7 @@ This is  ([CisMoer09, prop 1.4](#CisMoer09)).
 ### Boardman-Vogt tensor product
  {#BoardmanVogtTensorProduct}
 
-As any [[category of presheaves]], $dSet$ is a [[cartesian monoidal category]]. However, the cartesian [[tensor product]] is not the natural one with respect to the inclusion of [[operads]] into dendroidal sets. The natural monoidal structure on [[Operad]] is rather a generalization of the [[Boardman-Vogt tensor product]].
+As any [[category of presheaves]], [[dSet]] is a [[cartesian monoidal category]]. However, the cartesian [[tensor product]] is not the natural one with respect to the inclusion of [[operads]] into dendroidal sets. The natural monoidal structure on [[Operad]] is rather a generalization of the [[Boardman-Vogt tensor product]].
 
 +-- {: .num_defn #BVTensorProduct}
 ###### Definition
@@ -821,12 +821,12 @@ of this functor, hence the unique such functor which preserves [[colimits]] in b
 
 =--
 
-With respect to this tensor product is $dSet$ a colax symmetric monoidal category ( [Theorem 6.3.4 of HHM13](#HeutsHinichMoerdijk13)). This is discussed [below](#ClosedMonoidalStructure).
+With respect to this tensor product is [[dSet]] a colax symmetric monoidal category ( [Theorem 6.3.4 of HHM13](#HeutsHinichMoerdijk13)). This is discussed [below](#ClosedMonoidalStructure).
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $A \to B$ and $X \to Y$ in $dSet$ two normal monomorphisms, def. \ref{NormalMorphism}, 
+For $A \to B$ and $X \to Y$ in [[dSet]] two normal monomorphisms, def. \ref{NormalMorphism}, 
 the canonical morphism out of their [[pushout-product axiom|pushout product]]
 
 $$
@@ -996,7 +996,7 @@ $$
   i_!(X \times Y) \simeq i_!(Y) \otimes_{BV} i_!(Y)
 $$
 
-in $dSet$. 
+in [[dSet]]. 
 
 Moreover, $(i_! \dashv i^*)$ respects the [[internal hom]] of dendroidal sets, prop. \ref{TheClosedMonoidalStructure}, in that for all $X,Y \in sSet$ and $D \in dSet$
 
@@ -1277,6 +1277,7 @@ and hence (see the properties of [[adjoint functors]])
 
 ## Structure on $dSet$ ##
 
+Some [[mathematical structure}structure]] carried by the [[category]] [[dSet]] of [[dendroidal sets]]:
 
 ### Homotopical monoidal structure
  {#ClosedMonoidalStructure}
@@ -1285,16 +1286,18 @@ and hence (see the properties of [[adjoint functors]])
 
 ### $sSet$-enriched structure 
 
-Using the fact that $dSet$ is a [[closed monoidal category]] with [[internal hom]] dendroidal sets $[C,D]$ for dendroidal sets $C$ and $D$, and using the functor $i^* : dSet \to SSet$ we obtain canonically the structure of an [[simplicially enriched category]] / [[sSet]]-[[enriched category]] on $dSet$ with the hom-simplicial set between $C$ and $D$ being $i^*[C,D]$.
+Using the fact that [[dSet]] is a [[closed monoidal category]] with [[internal hom]] dendroidal sets $[C,D]$ for dendroidal sets $C$ and $D$, and using the functor $i^* : dSet \to SSet$ we obtain canonically the structure of an [[simplicially enriched category]] / [[sSet]]-[[enriched category]] on $dSet$ with the hom-simplicial set between $C$ and $D$ being $i^*[C,D]$.
 
 
 ### Model category structure
 
 The category $dSet$ carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. With this model structure it forms a [[monoidal model category]]. 
 
-Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] (with respect to the [[model structure for quasi-categories]]) this imples that $dSet$ is an $sSet_{Joyal}$-[[enriched model category]] (but not, without further work, an $sSet_{Quillen}$-enriched model category!).
+Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] (with respect to the [[model structure for quasi-categories]]) this imples that [[dSet]] is an $sSet_{Joyal}$-[[enriched model category]] (but not, without further work, an $sSet_{Quillen}$-enriched model category!).
 
 ## Related concepts
+
+* [[dSet]]
 
 * [[model structure on dendroidal sets]]
 
@@ -1317,8 +1320,8 @@ Surveys of the theory as developed currently include:
 
 Dendroidal sets were introduced in 
 
-* [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_,  Algebraic & Geometric Topology 7 (2007) 1441&#8211;1470,  ([journal](http://msp.warwick.ac.uk/agt/2007/07/p056.xhtml), [arXiv:math.AT/0701293](http://arxiv.org/abs/math.AT/0701293))
- {#MoerdijkWeiss} 
+* {#MoerdijkWeiss}  [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_,  Algebraic & Geometric Topology 7 (2007) 1441&#8211;1470,  ([doi:10.2140/agt.2007.7.1441](http://msp.warwick.ac.uk/agt/2007/07/p056.xhtml), [arXiv:math.AT/0701293](http://arxiv.org/abs/math.AT/0701293))
+ 
 
 A discussion of dendroidal inner Kan complexes (see also at _[[model structure on dendroidal sets]]_) appeared in
 
