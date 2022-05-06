@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -1321,6 +1325,8 @@ over a field $k$ of characteristic 0 constitute a presentation of
 [[E-infinity algebras]] over $k$ ([Lurie, prop. A.7.1.4.11]).
 
 ## Related concepts
+
+* [[model structure on equivariant dgc-algebras]]
 
 * [[model structure on differential graded-commutative superalgebras]]
 
