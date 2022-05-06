@@ -110,7 +110,26 @@ Vertices 1 and 4 are in generic position, so dragging them will trigger contract
 
 Dragging vertex 1 up, or vertex 4 down, has no effect, as vertices cannot be dragged off the top or bottom edge of a diagram.
 
-The following images illustrate non-contractible scenarios:
+The contractions illustrated above are unique. However, in some cases, contractions are non-unique, as illustrated here ([<i>live workspace</i>](https://homotopy.io/?id=9DDbCH0V7xdKULkqroIz)):
+<table style="border-style:hidden !important; padding:0px!important">
+<tr>
+<td>
+<img height="88" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/unitcounit-2.png"/>
+</td>
+<td>→</td>
+<td>
+<img height="133" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/unitcounit-1.png"/>
+</td>
+<td>←</td>
+<td>
+<img height="88" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/unitcounit-3.png"/>
+</td>
+</tr>
+</table>
+Starting with the central diagram, we produce the leftmost diagram by dragging the upper vertex south-east or the lower vertex north-west, and produce the rightmost diagram by dragging the upper vertex south-west or the lower vertex north-east.
+
+
+Contraction is not always possible. The following images illustrate non-contractible scenarios:
 
 <table style="border-style:hidden !important; padding:5px!important">
 <tr>
@@ -121,11 +140,19 @@ The following images illustrate non-contractible scenarios:
 <img height="133" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/noncontractible-2.png"/>
 </td>
 </tr>
+<tr>
+<td>
+(<a href="https://homotopy.io/?id=HWcBiyNFuYg3dGrlOqZh"><i>live workspace</i></a>)
+</td>
+<td>
+(<a href="https://homotopy.io/?id=2JlXs4ei0lGsUGeHWJtr"><i>live workspace</i></a>)
+</td>
 </table>
 
-In both of these cases, attempting to perform the contraction will give an error message. In the first case, the contraction fails because there is no canonical ordering on the rear wires. In the second case, the contraction is successful at the level of the untyped diagram, but it is rejected by the type checker, since it merges two distinct generating cells, changing their neighbourhoods in a way which does not make sense in the type system.
+In both of these cases, attempting to perform the contraction will give an error message. In the first case, the contraction fails because there is no canonical ordering on the rear wires; this is analogous to the nonunique contraction case given above, but here, because of the projection, we cannot give extra data to break the symmetry. In the second case, the contraction is successful at the level of the untyped diagram, but it is rejected by the type checker, since it merges two distinct generating cells, changing their neighbourhoods in a way which is not allowed by the type system.
 
-If there are no slice controls displayed, then the homotopy is being performed at codimension 0 (that is, at the top level), and the diagram will be rewritten in the obvious way. If every slice control shows S or T, then we are viewing a boundary of the main diagram, and the homotopy we are building will be attached to the boundary. Otherwise, we are in the interior of the diagram, working in some positive codimension, and the homotopy must now be propagated to lower codimension.
+
+If there are no slice controls displayed, then the homotopy is being performed at codimension 0 (that is, at the top level), and the diagram will be rewritten according to the homotopy. If every slice control shows S or T, then we are viewing a boundary of the main diagram, and the homotopy we are building will be attached to that boundary. Otherwise, we are in the interior of the diagram, working in some positive codimension, and the homotopy must now be propagated to lower codimension, using the recursive scheme detailed in the next section.
 
 ### Recursive cases ###
 
