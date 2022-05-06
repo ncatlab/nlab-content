@@ -31,6 +31,8 @@ The [[Elephant]] definition amounts to saying that a cartesian theory is a [[geo
 
 ## Related concepts
 
+* [[essentially algebraic theory]]
+
 * [[finitely complete category]], [[cartesian functor]], **cartesian logic**, [[cartesian theory]]
 
 * [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
