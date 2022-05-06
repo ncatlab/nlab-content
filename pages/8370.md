@@ -57,6 +57,7 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 * [[programs as proofs]], [[propositions as types]]
 
+* [[initiality conjecture]]
 
 ## References
 
