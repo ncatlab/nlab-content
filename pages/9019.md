@@ -40,9 +40,9 @@ On the [[G2-MSSM]]:
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
-On [[compact topological space|compact]] [[Ricci flat manifolds]]:
+On [[KK-compactification]] on [[compact topological space|compact]] [[Ricci flat manifolds]] and [[special holonomy]]/[[Killing spinors]]/[[supersymmetry]]:
 
-* [[Bobby Acharya]], _Supersymmetry, Ricci Flat Manifolds and the String Landscape_ ([arXiv:1906.06886](https://arxiv.org/abs/1906.06886))
+* {#Acharya19} [[Bobby Acharya]], _Supersymmetry, Ricci Flat Manifolds and the String Landscape_ ([arXiv:1906.06886](https://arxiv.org/abs/1906.06886))
 
 ## Related entries
 
