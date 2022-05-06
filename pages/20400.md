@@ -390,7 +390,7 @@ $$\frac{\Gamma \vdash T\,type \qquad
 
 ## Admissible rules
 
-### Structural rules
+### Structural rules {#StructRules}
 
 The structural rules of weakening and substitution are admissible. "Strengthening" is not. Strengthening says that a variable that's not free in the conclusion can be removed from the context:
 
@@ -398,7 +398,7 @@ $$\frac{\Gamma_1,x:T,\Gamma_2 \vdash \mathcal{J} \qquad
 x \notin FV(\Gamma_2,\mathcal{J})}
 {\Gamma_1,\Gamma_2 \vdash \mathcal{J}}$$
 
-So nonadmissibility of strengthening means that a derivation can be using a hypothesis without it being obvious from the conclusion derived. This is typical of extensional type theory. Typically it's considered all the fault of equality reflection, which may be technically true for some systems. But Nuprl benefits more from the lack of strengthening: subsets, intersections, quotients, and other "refinement-style" type constructors provide flexible control over which proofs make it into the computational content, and which are merely establishing external facts. ([[quotient|Quotients]] don't have to be refinement-style, but in Nuprl and CLF, they are. See [below](#RefinementQuotients).) Computational irrelevance is implemented by literally omitting the irrelevant proofs from terms. This leads to the lack of strengthening, and to undecidable type checking. The restriction imposed by equality reflection is that equality proofs never have computational content.
+So nonadmissibility of strengthening means that a derivation can be using a hypothesis without it being obvious from the conclusion derived. This is typical of extensional type theory. Typically it's considered all the fault of equality reflection, which may be technically true for some systems. But Nuprl benefits more from the lack of strengthening: subsets, intersections, quotients, and other "refinement-style" type constructors provide flexible control over which proofs make it into the computational content, and which are merely establishing external facts. ([[quotient|Quotients]] don't have to be refinement-style, but in Nuprl and CLF, they are. See [below](#PERtheory).) Computational irrelevance is implemented by literally omitting the irrelevant proofs from terms. This leads to the lack of strengthening, and to undecidable type checking. The restriction imposed by equality reflection is that equality proofs never have computational content.
 
 CLF follows Nuprl in trying to give the user maximum control over the terms used to represent elements. The hope is that with care, this can allow significantly greater convenience and performance than with decidable dependent type systems, which are committed to retaining enough annotations to effectively reject ill-typed terms. Once proof terms are added to the formal judgments, you probably do get strengthening. (But not decidability.)
 
@@ -439,7 +439,7 @@ If it still seems suspiciously circular, rest assured that in the semantics, res
 
 Because every type respects itself, we get all the instances of equality formation from [[Martin-Löf type theory]]. Equality types beyond that are for reasoning about membership.
 
-#### Usual Pi-intro rule
+#### Usual Pi-intro rule {#UsuPiIn}
 
 Taking function extensionality to be $\Pi$ intro seems odd. Not only is it not about lambdas, it's not apparently about elements at all; just equality. That's (one place) where the selectivity rules are handy. The function extensionality rule is strong enough to combine with selectivity (and reflexivity) to derive elements of function type. A term is a function when you can apply it to an argument to get a result:
 
@@ -491,6 +491,8 @@ All of these points are important to the design of a Nuprl-style system. But the
 
 A lot of the power of judgmental reflection is that it *can* be understood as reasoning about the computational content of the language as it actually is. But since it's probably not *necessary* to interpret Nuprl-style systems as being about their own syntax, we should speak of "computations", not "closed terms". In CLF, however they're interpreted, computations are axiomatized as the elements of $Comp$. (And actually, it may be that types need not be computations.) Types are PERs on $Comp$, and are accessed by the equality judgment form, which is reflected by the equality type constructor. So you use equality types to reason about equality in types, and also membership of computations in types.
 
+### Equality of Open terms {#OpenEq}
+
 So then what's with all this respect ("$\prec$") stuff in the equality formation rule? If terms have an intrinsic computational meaning, and equality reasons about it, shouldn't the rule be just:
 
 $$\frac{\Gamma \vdash T\,type}{\Gamma \vdash t1 = t2 \in T\,type}$$
@@ -507,7 +509,7 @@ A lenient answer is that semantic judgments are type (families) $J$ such that ($
 
 A stricter definition of semantic judgments is that they are type (families) $J$ such that ($\lfloor J \rfloor \lt\!\!:\;J$). Types formed with equality, squash itself, $\prec$, $\subseteq$, $\lt\!\!:$, and $\sqsubseteq$ are always judgments in this strict sense. These types are extensionally equal to equality types (for example, this one: $(\lambda x.x) \in J$) in the following sense:
 
-$$A \approx B\;\coloneqq\;A \lt\!\!:\;B \wedge B \lt\!\!:\;A$$
+$A \approx B\;\coloneqq\;A \lt\!\!:\;B \wedge B \lt\!\!:\;A$
 
 This definition of extensional equality is motivated by the "subsumption" (derived) rule:
 
@@ -519,7 +521,7 @@ So $\approx$ gives us subsumptions in both directions. Extensionally equal types
 
 Thus, the semantic judgments in the strict sense are regular subobjects defined in a convenient way so that they're inhabited if and only if they're basically $\top$. $\approx$ is itself a semantic judgment. Also:
 
-$$(A \approx B) \approx (A \sqsubseteq B \wedge B \sqsubseteq A)$$
+$(A \approx B) \approx (A \sqsubseteq B \wedge B \sqsubseteq A)$
 
 However, ($A \subseteq B \wedge B \subseteq A$) is generally weaker. For example, $\top$ and $Comp$ have the same members (computations) but are not extensionally equal, or even isomorphic.
 
@@ -547,6 +549,37 @@ $$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash (\not \not A) \to \lfloor 
 This makes the semantic judgments classical, rather than intuitionistic. Constructive propositions remain constructive, and [[canonicity]] is not affected.
 
 In contrast, having $\not \not A$ imply $\lceil A \rceil$ is not known to be consistent, and it ruins canonicity. (It's quite possible that it's consistent with the current rules, but this is pure luck. In full Nuprl, the same implication is probably false, due to "partial" types.)
+
+## Short-Circuiting connectives {#ShortCirc}
+
+Due to the [lack of strengthening](#StructRules), a funny thing happens when we consider the non-dependent special case of dependent connectives. Consider conjunction ($\wedge$), which we defined as a special case of subset:
+
+$A \wedge B \coloneqq \{\underline{\;}:A | B\}$
+
+From the formation rule for subset, we derive the following formation rule for conjunction:
+
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma,\underline{\;}:A \vdash B\,type}
+{\Gamma \vdash A \wedge B\,type}$$
+
+That is:
+
+$$\frac{\Gamma \vdash A\,type \qquad
+\Gamma,x:A \vdash B\,type \qquad x \notin FV(B)}
+{\Gamma \vdash A \wedge B\,type}\;(\wedge intro1)$$
+
+With strengthening, this would be basically the same as:
+
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma \vdash B\,type}
+{\Gamma \vdash A \wedge B\,type}\;(\wedge intro2)$$
+
+But without being able to strengthen the premises of $(\wedge intro1)$ to those of $(\wedge intro2)$, $(\wedge intro1)$ itself is generally *stronger* than $(\wedge intro2)$. Specifically, $B$ only needs to be a type if $A$ is inhabited. So $\wedge$ is a *short-circuiting* conjunction, kind of like the `&&` boolean operator from many programming languages, where the right conjunct need only be able to return a boolean when the left conjunct is true. (Because that's the only case in which it's evaluated.)
+
+Implication is similarly short-circuiting, like a conditional expression from a programming language:
+
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma,\underline{\;}:A \vdash B\,type}
+{\Gamma \vdash A \to B\,type}$$
+
+Short-circuiting disjunction doesn't seem natural for types; what is a dependent [[coproduct]]? But if the left disjunct is a $Bool$, there's always ($(a = fls \in Bool) \to B$). $B$ only needs to be a type if $a$ is $fls$. Given an element of ($(a = fls \in Bool) \to B$), by branching on $a$, we get either ($a = tru \in Bool$) or $B$.
 
 ## More admissible/derived rules
 
@@ -578,7 +611,48 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 ### Subtyping (Conjectural)
 
-## PER theory
+## PER theory {#PERtheory}
+
+We have [seen](#UsuPiIn) that in CLF (as in Nuprl) whether two terms are equal depends on what type we compare them at, and that we [need to care](#OpenEq) about whether one type respects ($\prec$) another's equality. This gives rise to three different ($\subseteq$) basic ($\lt\!\!:$) preorders ($\sqsubseteq$) on types, whereas [[material set theory]] has just one. What does all this extra complexity buy us?
+
+Very roughly, it buys us the ability to reason directly using realizers, rather than some other system of terms that denote mathematical objects that are realizable. Intuitively, the realizers are elements of $Comp$, and are fairly intensional compared to most types of mathematical object. But the terms are still written as realizers, no matter the type.
+
+More specifically, it's an aspect of how quotients work that seems to be the root cause of the difference between set theory and "PER theory". PER semantics provides refinement-style quotients: there are no operations needed for mapping into or out of quotients. Quotienting has zero overhead in terms, since terms are realizers, and computationally, quotients don't change anything. It's up to the semantics of the type system to make quotient types work correctly anyway.
+
+Eventually, general subquotients should be definable in CLF as:
+
+$\{x = y:T | R\} \coloneqq \{x = y | x \in T \wedge y \in T \wedge R\}$
+
+(Of course, this definition can already be written, but it doesn't currently seem to have all the desired properties, due to missing rules.)
+
+This is using the [short-circuiting](#ShortCirc) behavior of conjunction to allow deriving a formation rule something like:
+
+$$\frac{\begin{array}{l}\Gamma \vdash T\,type \qquad \Gamma,x1:T,x2:T \vdash R\,type \\
+\Gamma,y1:T,y2:T \vdash s \Vdash R[y1,y2/x1,x2] \to R[y2,y1/x1,x2] \\
+\Gamma,y1:T,y2:T,y3:T \vdash t \Vdash R[y1,y2/x1,x2] \to R[y2,y3/x1,x2] \to R[y1,y3/x1,x2]\end{array}}
+{\Gamma \vdash \{x1 = x2:T | R\}\,type}$$
+
+So we expect $R$ be a family on a pair of $T$s, which means that $T$ equality is respected in $R$, and therefore in $\{x = y:T | R\}$. And by definition, a member of $\{x = y:T | R\}$ is a member of $T$. That is, ($T \prec \{x = y:T | R\}$) and ($\{x = y:T | R\} \subseteq T$), so therefore ($\{x = y:T | R\} \sqsubseteq T$).
+
+In case $R$ is also reflexive for members of $T$: ($\Gamma,y:T \vdash r \Vdash R[y,y/x1,x2]$), then we also have ($T \subseteq \{x = y:T | R\}$). Combining with respect, we get ($T \lt\!\!:\;\{x = y:T | R\}$). In this case $\{x = y:T | R\}$ is a (full) quotient of $T$, and ($\lambda x.x$) realizes the quotient *projection* mapping from $T$ to $\{x = y:T | R\}$.
+
+Taking stock, with $R$ a pseudo-equivalence relation on $T$, we have:
+
+* $\{x = y:T | R\} \subseteq T$
+* $T \subseteq \{x = y:T | R\}$
+* $T \prec \{x = y:T | R\}$
+* $\{x = y:T | R\} \sqsubseteq T$
+* $T \lt\!\!:\;\{x = y:T | R\}$
+
+Since we have member inclusion in both directions, according to set theory, this "quotient" of $T$ is not actually any different from $T$. But to PER theory, it's the same set of realizers, but with a possibly coarser equality. We can see the difference with our old friend, $I \equiv \lceil Bool \rceil \approx \{x = y:Bool | \top\}$. $I$ is a singleton, but $Bool$ is not.
+
+In set theory, the intuition behind quotients is that a quotient of $S$ is a set of equivalence classes of members of $S$. So $S$ and its quotient generally have different members. The effect on equality is a consequence of set extensionality. With PERs, this intuition is superficially contradicted by the semantic judgments, so it should be used with care, or not at all.
+
+In programming, programmers informally use quotients, probably mostly without realizing it. For example, when using hash tables to implement finite maps, the representation has extra implementation details like the number of buckets, and the assignment of keys to buckets. Any meaningful results given to the user should not depend on this information. That doesn't mean that the computation of the results should not depend on it, but that the results should not vary due to changes in implementation details. Programmers know that, so they effectively treat hash tables as quotient types where implementation details have been modded out. And no operations on equivalence classes of hash tables will be found in the program; programming languages provide no such thing. So the programmer's quotient is not the set theoretic quotient construction, it's the refinement-style quotient codified by PER theory.
+
+(What seems to be missing from the current rules is a way to prove that you can map out of a quotient by mapping out of the base type in a way that respects the equivalence relation. For example, to allow using a hash table correctly by proving that only implementation details of the result vary with implementation details of the hash table.)
+
+However, for many purposes, it may be a net improvement to give up on refinement-style quotients in order to get the simplicity of set theory. Refinement-style quotients seem particularly [well suited](#QIIF) to CLF's use as a metalogic, though.
 
 ## CLF and Logical Frameworks {#CLFasLF}
 
@@ -610,7 +684,7 @@ The equality reflection rule is enough to make the judgments synthetic. That is,
 
 ### LF Signatures as Inductive-Inductive Families
 
-### Refinement-style Quotients {#RefinementQuotients}
+### Quotient-Inductive-Inductive Families as Refinements {#QIIF}
 
 ## References
 
