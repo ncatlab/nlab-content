@@ -54,8 +54,7 @@ Suppose $f\colon X\to Y$ is a [[simplicial map]].
 
 * If $X$ and $Y$ are [[cofibrant]] [[Kan complexes]], then $f$ is a weak equivalence if it is a [[simplicial homotopy equivalence]];
 * If $X$ and $Y$ are [[Kan complexes]], then $f$ is a weak equivalence
-if there is a [[simplicial map]] $f'\colon X'\to Y'$ and
-[[acyclic fibrations]] with [[cofibrant]] domains $X'\to X$ and $Y'\to Y$ such that $f'$ is a weak equivalence in the previous sense and the square with $f$ and $f'$ commutes;
+if there is a [[simplicial map]] $f'\colon X'\to Y'$ and [[acyclic fibrations]] with [[cofibrant]] domains $X'\to X$ and $Y'\to Y$ such that $f'$ is a weak equivalence in the previous sense and the square with $f$ and $f'$ commutes;
 * If $X$ and $Y$ are [[cofibrant]], then $f$ is a weak equivalence
 if for any [[Kan complex]] $K$ the map $Hom(f,K)$ is a weak equivalence in the previous sense (notice that its domain and codomain are [[Kan complexes]]);
 * If $X$ and $Y$ are arbitrary, then $f$ is a weak equivalence
