@@ -526,6 +526,10 @@ In [[Euclidean field theory]] the [[correlators]] are often regarded as [[distri
 
 For more on this see at _[[correlators as differential forms on configuration spaces of points]]_.
 
+## Related concepts
+
+* [[Hilbert scheme]]
+
 ## References
 
 ### General 
