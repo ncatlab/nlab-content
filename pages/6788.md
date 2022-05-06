@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
+
+* [[Gary Horowitz]], Alan R. Steif, _Singular string solutions with nonsingular initial data_, Physics Letters B Volume 258, Issues 1–2, 4 April 1991, Pages 91-96 (<a href="https://doi.org/10.1016/0370-2693(91)91214-G">doi:10.1016/0370-2693(91)91214-G</a>)
+
+
+
 On [[AdS/CFT duality]]:
 
 * [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
