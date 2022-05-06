@@ -233,6 +233,17 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 ## References
 
+A fairly detailed proof is presented in Section 5.3
+and Appendix C of
+
+* [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019).
+
+A similar proof appears in Lemma IV.6.9 of
+
+* [[Jean-Pierre Demailly]], _Complex Analytic and Differential Geometry_
+
+Other references include
+
 * {#doCarmo} [[Manfredo do Carmo]], _Riemannian geometry_ (trans. Francis Flaherty), Birkh&#228;user (1992) 
 
 * {#Milnor} [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
