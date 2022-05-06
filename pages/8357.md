@@ -31,6 +31,8 @@ Resolution about $10^{-20}m \simeq 10$ [[TeV]] and currently reached $\simeq 7 T
 
 * [[LIGO]], [[Super-Kamiokande]], [[EDGES]], [[RHIC]]
 
+* [[LHCb]], [[Belle experiment]]
+
 * [[standard model of particle physics]]
 
 * [[Higgs boson]]
