@@ -90,6 +90,11 @@ In many of the simplest examples, this is taken to be the [[classifying space]] 
 
 See also the references at [[2d TQFT]], [[3d TQFT]] and [[4d TQFT]].
 
+
+Discussion of [[action functionals]] for [[topological field theories]] via [[equivariant ordinary differential cohomology]]:
+
+* Joe Davighi, Ben Gripaios, [[Oscar Randal-Williams]], _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
+
 ### Origin in physics
  {#OriginInPhysics}
 
