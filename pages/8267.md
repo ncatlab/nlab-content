@@ -47,7 +47,7 @@ In the following many of the proofs are spelled out in terms of elements this wa
 +-- {: .num_defn #DonorReceptor}
 ###### Definition
 
-Let  $A_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] $\mathcal{A}$, hence a [[chain complex]] of chain complexes $A_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$, hence a [[diagram]] of the form
+Let  $A_{\bullet \bullet}$ be a [[double complex]] in some [[abelian category]] $\mathcal{A}$, hence a [[chain complex]] of chain complexes $A_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$, hence a [[diagram]] of the form
 
 $$
   \array{
