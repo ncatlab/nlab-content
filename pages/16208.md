@@ -21,6 +21,12 @@
 
 [Lean](http://leanprover.net/) is a [[proof assistant]] based on [[dependent type theory]]. Like [[Coq]] and [[Agda]], it may be used to implement [[homotopy type theory]].
 
+Lean libraries for [[HoTT]] include:
+
+* [github.com/groupoid/lean](https://github.com/groupoid/lean)
+
+* [github.com/gebner/hott3](https://github.com/gebner/hott3)
+
 ## References
 
 * Lean website ([leanprover.github.io](https://leanprover.github.io))
@@ -29,6 +35,8 @@
 
 * [[Jeremy Avigad]],  [[Leonardo de Moura]],  Soonho Kong, _Theorem Proving in Lean_ ([pdf](https://leanprover.github.io/tutorial/tutorial.pdf))
 
-* [[Floris van Doorn]], _[The Lean Theorem Prover](http://homotopytypetheory.org/2015/12/02/the-proof-assistant-lean/)_
+* [[Floris van Doorn]], _[The Lean Theorem Prover](http://homotopytypetheory.org/2015/12/02/the-proof-assistant-lean/)_, 2015
 
-* _The Lean Homotopy Type Theory Library_ ([GitHub](https://github.com/leanprover/lean/blob/master/hott/hott.md))
+
+* {#Hales18} [[Thomas Hales]], _[A Review of the Lean Theorem Prover](https://jiggerwit.wordpress.com/2018/09/18/a-review-of-the-lean-theorem-prover/)_, September 2018
+
