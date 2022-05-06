@@ -67,6 +67,8 @@ A function from $D \subseteq \mathbb{C}$ to $W$ is [[differentiable function|dif
 
 * [[analytic (∞,1)-functor]]
 
+* [[HoTT book real numbers]]
+
 ## References
 
 The theory of analytic function was constructed to some extent by
