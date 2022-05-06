@@ -23,7 +23,7 @@
 ## Idea
  {#Idea}
 
-A _chord diagram_ is a trivalent undirected [[graph]] with an embedded [[orientation|oriented]] [[circle]] and all [[vertices]] on that circle, regarded modulo cyclic identifications, if any. 
+A _chord diagram_ is a finite trivalent undirected [[graph]] with an embedded [[orientation|oriented]] [[circle]] and all [[vertices]] on that circle, regarded modulo cyclic identifications, if any. 
 
 A typical chord diagram looks like this:
 
