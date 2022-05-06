@@ -63,6 +63,10 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 [[!include KK-compactifications of M-theory -- table]]
 
+\linebreak
+
+[[!include brane bound states -- table]]
+
 
 ## References
 
