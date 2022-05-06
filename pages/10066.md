@@ -33,18 +33,58 @@ The _[[Green-Julg theorem]]_ identifies, under some conditions, equivariant K-th
 ### Relation to representation theory
  {#RelationToRepresentationTheory}
 
+#### Equivariant $KU$ and the complex representation ring
+ {#EquivariantKUAndTheComplexRepresentationRing}
+
 The [[representation ring]] of $G$ over the [[complex numbers]] is the $G$-[[equivariant K-theory]] of the point, or equivalently by the [[Green-Julg theorem]], if $G$ is a [[compact Lie group]], the [[operator K-theory]] of the [[group algebra]] (the [[groupoid convolution algebra]] of the [[delooping]] groupoid of $G$):
 
-$$
+\[
+  \label{RepresentationRingAsEquivariantKTheoryOfThePoint}
   R_{\mathbb{C}}(G) \simeq KU^0_G(\ast) \simeq KK(\mathbb{C}, C(\mathbf{B}G))
   \,.
-$$
+\]
 
 The first [[isomorphism]] here follows immediately from the elementary definition of equivariant [[topological K-theory]], since a $G$-[[equivariant vector bundle]] over the point is manifestly just a [[linear representation]] of $G$ on a [[complex vector space]].
 
 (e.g. [Greenlees 05, section 3](#Greenlees05), [Wilson 16, example 1.6 p. 3](#Wilson16))
 
-Therefore a similar isomorphism identifies the $G$-representation ring over the [[real numbers]] with the equivariant orthogonal $K$-theory of the point in degree 0:
+Under this identification and the [[Atiyah-Segal completion]] map
+
+$$
+  R_{\mathbb{C}}(G)
+  \simeq
+  KU_G^0(\ast)
+    \overset{ \widehat{(-)} }{\longrightarrow}
+  KU(BG)
+  
+$$
+
+one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(BG)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. There is a closed formula at least for the [[first Chern class]] ([Atiyah 61, appendix](#Atiyah61)):
+
+For 1-dimensional representations $V$ the [[first Chern class]] of $\widehat{V}$ is just the canonical isomorphism of 1-dimensional characters with [[group cohomology]] of $G$ and then with [[ordinary cohomology]] of the [[classifying space]] $B G$
+
+$$
+  c_1\left(\widehat{(-)}\right)
+  \;\colon\;
+  Hom(G, U(1))
+  \overset{\simeq}{\longrightarrow}
+  H^2_{grp}(G,\mathbb{Z})
+  \simeq
+  H^2(B G, \mathbb{Z})
+  \,,
+$$
+
+while for any $n$-dimensional representation $V$ the first Chern class is this isomorphism applied to the $n$th [[exterior power]] of $V$:
+
+$$
+  c_1(V) = c_1(\wedge^n V)
+  \,.
+$$
+
+#### Equivariant $KO$ and the real representation ring
+
+
+An isomorphism analogous to (eq:RepresentationRingAsEquivariantKTheoryOfThePoint) identifies the $G$-representation ring over the [[real numbers]] with the equivariant orthogonal $K$-theory of the point in degree 0:
 
 $$
   R_{\mathbb{R}}(G)
@@ -157,7 +197,11 @@ There is a [[Chern character]] map from equivariant K-theory to [[equivariant or
 ## References
  {#References}
 
-The idea of equivariant [[topological K-theory]] goes back to 
+The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completion theorem]] goes back to 
+
+* {#Atiyah61} [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Mathématiques de l'IHÉS, Volume 9 (1961) , p. 23-64 ([numdam]( http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
+
+* [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
 
 * {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 
 
@@ -169,6 +213,11 @@ and for [[algebraic K-theory]] to
 113, Princeton Univ. Press, Princeton, NJ, 1987, pp. 539&#8211;563
 
 See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
+
+
+
+
+
 
 Introductions and surveys include
 
