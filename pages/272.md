@@ -312,6 +312,14 @@ and a textbook acount is in
 * {#DLM} [[Claudio Dappiaggi]], [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396))
+
+### Relation to holographic entanglement entropy
+
+Discussion of [[local nets of observables]] in [[AQFT]] as the natural language for grasping [[holographic entanglement entropy]]:
+
+* [[Edward Witten]], _Notes on Some Entanglement Properties of Quantum Field Theory_, Rev. Mod. Phys. 90, 45003 (2018) ([arXiv:1803.04993](https://arxiv.org/abs/1803.04993))
+
+* [[Thomas Faulkner]], _The holographic map as a conditional expectation_ ([arXiv:2008.04810](https://arxiv.org/abs/2008.04810))
  
 
 ### Relation to functorial QFT
