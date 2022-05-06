@@ -22,6 +22,9 @@
 
 ### Basic definition
 
++-- {: .num_defn}
+###### Definition
+
 For $X$ a [[pointed space|pointed]] [[topological space]] ([[CW-complex]]), the _Whitehead products_ ([Whitehead 41, Section 3](#Whitehead41)) are the [[bilinear maps]] on the elements of the [[homotopy groups]] $\pi_\bullet(X)$ of $X$ of the form
 
 \[
@@ -91,6 +94,10 @@ $$
 $$
 
 where $f_{n_1, n_2}$ is [[generalized the|the]] [[attaching map]] exhibiting the [[product space]] $S^{n_1} \times S^{n_2}$ as the result of a [[cell attachment]] to the [[wedge sum]] $S^{n_1} \vee S^{n_2}$.
+
+=--
+
+In this form this appears for instance in [Félix-Halperin-Thomas, p. 176 with  p. 177](#FelixHalperinThomas00).
 
 ### Generalized version
 
@@ -417,7 +424,7 @@ Discussion of Whitehead products in [[homotopy type theory]]:
 ### In rational homotopy theory
   {#ReferencesInRationalHomotopyTheory}
 
-Discussion of Whitehead products in [[rational homotopy theory]]:
+Discussion of Whitehead products in [[rational homotopy theory]] ([[the co-binary Sullivan differential is the dual Whitehead product]]):
 
 * {#Quillen69} [[Daniel Quillen]], section I.5 of _Rational Homotopy Theory_, Annals of Mathematics Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](https://www.jstor.org/stable/1970725))
 
@@ -429,6 +436,8 @@ Discussion of Whitehead products in [[rational homotopy theory]]:
 * {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
 * {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J.C. Thomas, Prop. 13.16 in _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
 
 * Francisco Belchí, [[Urtzi Buijs]], José M. Moreno-Fernández, Aniceto Murillo, _Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL_, Linear Algebra and its Applications, Volume 520 (2017), pages 16-31 ([arXiv:1604.01478](https://arxiv.org/abs/1604.01478))
     
