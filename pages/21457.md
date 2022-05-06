@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[tensor hierarchies]] in [[gauged supergravity]]:
+
+* Jesper Greitz, [[Paul Howe]], [[Jakob Palmkvist]], _The tensor hierarchy simplified_, Class. Quantum Grav. 31 (2014) 087001 ([arXiv:1308.4972](https://arxiv.org/abs/1308.4972))
+
+
 On relation of [[Borcherds algebras]] to [[tensor hierarchies]] in [[gauged supergravity]]:
 
 * {#Palmkvist12} [[Jakob Palmkvist]], _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
@@ -13,5 +18,12 @@ On relation of [[Borcherds algebras]] to [[tensor hierarchies]] in [[gauged supe
 and to [[exceptional generalized geometry]]:
 
 * [[Jakob Palmkvist]], _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
+
+A proposal for understanding [[tensor hierarchies]] as [[dg-Lie algebra]]/[[L-infinity algebra]]-refinenents of [[Leibniz algebras]]:
+
+* [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
+
+
+
 
 category: people
