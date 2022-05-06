@@ -271,9 +271,10 @@ $$
 
 by the following three relations (for all distinct $i,j,k \in \{1,\cdots, n\}$):
 
-1. $\left[g_{i j}\right] \wedge \left[g_{i j}\right] \;\sim\; 0$;
 
 1. $\left[g_{i j}\right] \;\sim\; (-1)^d \left[g_{j i}\right]$;
+
+1. $\left[g_{i j}\right] \wedge \left[g_{i j}\right] \;\sim\; 0$;
 
 1.  $
      \left[g_{i j}\right] \wedge \left[ g_{j k} \right]
@@ -287,8 +288,23 @@ by the following three relations (for all distinct $i,j,k \in \{1,\cdots, n\}$):
 
 =--
 
-This is due to ([Cohen 73](#Cohen73)). 
+This is due to ([Arnold 69](#Arnold69), [Cohen 73](#Cohen73)). 
 
+See also at _[[configuration space of points]]_ the section _[Cohomology](configuration+space+of+points#Cohomology)_.
+
++-- {: .num_remark #RealCohomologyOfFMCompactificationInTermsOfGraphCohomology} 
+###### Remark
+**([[real cohomology]] of the FM-compactification in terms of [[graph cohomology]])**
+
+In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered [[configuration space of points]] $Conf_n\big( \mathbb{R}^D\big)$ the three relations in Prop. \ref{DeRhamCohomologyOfFMCompactification} are incarnated as follows:
+
+1. a graph changes sign when one of its edges is reversed ([this Def.](graph+complex#SignRulesForGraphs))
+
+1. a graph with [[parallel edges]] is a vanishing graph ([this Def.](graph+complex#VanishingGraphs))
+
+1. the graph coboundary of a single trivalent internal vertex ([this Example](graph+complex#ThreeTermRelation)).
+
+=--
 
 ### Relation to Graph complexes and Formality theorem
  {#RelationToGraphComplexes}
@@ -591,7 +607,9 @@ Review includes
 
 The [[de Rham cohomology]] was determined in 
 
-* {#Cohen73} Fred Cohen, _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
+* {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
+
+* {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
 The equivalence to the [[little n-disk operad]] was established in 
 
