@@ -10,8 +10,8 @@
 =--
 
 # Contents
-* table of contents# 
-{:toc}
+* table of contents
+{: toc}
 
 ## Definition
 
@@ -102,6 +102,7 @@ $$
 
 =--
 
+
 ## Properties
 
 ### For a symplectic manifold
@@ -140,6 +141,7 @@ a constant function.
 This is also called the **Kostant-Souriau central extension** 
 (see [Kostant 1970](#Kostant)). 
 
+
 ## Related concepts
 
 * A _[[polynomial Poisson algebra]]_ is one whose underlying commutative algebra is a [[polynomial algebra]].
@@ -152,13 +154,13 @@ This is also called the **Kostant-Souriau central extension**
 
 * A [[Coisson algebra]] is essentially a Poisson algebra [[internalization|internal to]] [[D-module]]s.
 
-* A [[Jordan-Lie-Banach algebra]] is a non-associative (quantum) Poisson algebra.
+* A [[Jordan–Lie algebra]] is a non-associative (quantum) Poisson algebra.
 
 * The [[quantomorphism group]] is the [[Lie group]] that integrates the Poisson [[Lie bracket]]. Over a [[symplectic vector space]] this contains notably the corresponding [[Heisenberg group]].
 
 
-
 [[!include Isbell duality - table]]
+
 
 ## References
 
@@ -172,6 +174,7 @@ This is also called the **Kostant-Souriau central extension**
 
 * [[Bertram Kostant]], _Quantization and unitary representations. I. Prequantization_, In _Lectures in Modern Analysis and Applications, III_, pages 87&#8211;208. Lecture Notes in Math., Vol. 170. Springer, Berlin (1970)
  {#Kostant}
+
 
 [[!redirects Poisson algebra]]
 [[!redirects Poisson algebras]]
