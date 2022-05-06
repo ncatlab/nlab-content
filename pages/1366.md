@@ -19,10 +19,12 @@
 ## Idea
 
 The collection of all [[(∞,1)-categories]] forms naturally the [[(∞,2)-category]] [[(∞,1)Cat]]. 
+But for many purposes it is quite sufficient to regard only invertible [[natural transformations]] between [[(∞,1)-functor]], which means that one needs just the maximal [[(∞,1)-category]] inside that $(\infty,2)$-category of all $(\infty,1)$-categories.
 
-But for many purposes it is quite sufficient to regard only invertible [[natural transformation]]s between [[(∞,1)-functor]], which means that one needs just the maximal [[(∞,1)-category]] inside that $(\infty,2)$-category of all $(\infty,1)$-categories.
+Given that an $(\infty,1)$-category is a context for abstract [[homotopy theory]], the $(\infty,1)$-category of $(\infty,1)$-categories is also called the the _homotopy theory of homotopy theories_ ([Rezk 98](#Rezk98), [Bergner 07](#Bergner07)).
 
-Given that an $(\infty,1)$-category is a context for abstract [[homotopy theory]], the $(\infty,1)$-category of $(\infty,1)$-categories is also called the the **homotopy theory of homotopy theories**.
+(Another, complementary, truncation is to the [[homotopy 2-category of (∞,1)-categories]].)
+
 
 ## Definition
 
@@ -53,9 +55,22 @@ Other model structures that present the $(\infty,1)$-category of all $(\infty,1)
 
 ## References
 
-chapter 3 of 
+In terms of [[complete Segal spaces]]:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Rezk98} [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_, Trans. Amer. Math. Soc. 353 (2001), 973-1007 ([arXiv:math/9811037](https://arxiv.org/abs/math/9811037), [doi:10.1090/S0002-9947-00-02653-2](https://doi.org/10.1090/S0002-9947-00-02653-2))
+
+* {#Bergner07} [[Julia Bergner]], _Three models for the homotopy theory of homotopy theories_, Topology Volume 46, Issue 4, September 2007, Pages 397-436 ([arXiv:math/0504334](https://arxiv.org/abs/math/0504334), [doi:10.1016/j.top.2007.03.002](https://doi.org/10.1016/j.top.2007.03.002))
+
+In terms of [[quasi-categories]]:
+
+* [[Jacob Lurie]], Chapter 3 of: _[[Higher Topos Theory]]_ (2009)
+
 
 
 [[!redirects (∞,1)-category of (∞,1)-categories]]
+
+[[!redirects homotopy theory of homotopy theories]]
+[[!redirects homotopy theory of homotopy theory]]
+
+[[!redirects homotopy theories of homotopy theories]]
+[[!redirects homotopy theories of homotopy theory]]
