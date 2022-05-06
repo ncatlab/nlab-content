@@ -199,11 +199,19 @@ Discussion of [[confinement]] in the context of the [[AdS-CFT correspondence]] i
   * multi-loop finiteness of [[N=8 d=4 supergravity]]
 
 
+#### Gravitational wave signatures
+ {#GravitationalWaveSignatures}
+
+Application of the [[KLT relation]]/[[double copy]]-technique to computation of [[gravitational wave]]-signature of [[relativistic binary]] mergers:
+
+* {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
+
+
 #### Black hole entropy
 
 Semi-classical QFT computations suggest that there should be [[entropy]] associated with  [[black holes]], the _[[Bekenstein-Hawking entropy]]_, without however providing microscopic degrees of freedom of which this would be an entropy in the ordinary sense.
 
-Since the quantum dynamics of general black holes is outside the reach of perturbative methods in string theory, certain [[supersymmetric black hole]] solutions in [[supergravity]] have properties independent of the coupling and are known to be the strong-coupling limit of what at weak coupling is a certain configuration of [[branes]] in flat space. Therefore the ordinary entropy of these brane configurations should match the [[Bekenstein-Hawking entropy]] of the corresponding black holes, and this has been confirmed to good precision. 
+Since the quantum dynamics of general black holes is outside the reach of perturbative methods in string theory, certain [[BPS state|supersymmetric black hole]] solutions in [[supergravity]] have properties independent of the coupling and are known to be the strong-coupling limit of what at weak coupling is a certain configuration of [[branes]] in flat space. Therefore the ordinary entropy of these brane configurations should match the [[Bekenstein-Hawking entropy]] of the corresponding black holes, and this has been confirmed to good precision. 
 
 While this argument does not give direct information about the origin of the BH-entropy of physically observed black holes, it does show conceptually, in the general context of black holes in theories of gravity, BH-entropy can be accounted for by microscopic degrees of freedom in a theory of [[quantum gravity]].
 
