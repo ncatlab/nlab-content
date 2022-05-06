@@ -142,6 +142,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#CrivellinSaturnino19} [[Andreas Crivellin]], Francesco Saturnino, _Explaining the Flavor Anomalies with a Vector Leptoquark (Moriond 2019 update)_ ([arXiv:1906.01222](https://arxiv.org/abs/1906.01222))
 
+* {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
+
 
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
