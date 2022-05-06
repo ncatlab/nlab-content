@@ -1325,9 +1325,9 @@ A nice introduction and survey is provided in the notes
 
 Detailed discussion of the injective model structures on simplicial presheaves is in
 
-* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_ Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_, Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](https://core.ac.uk/download/pdf/82485559.pdf))
 
-* [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+* [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384 ([euclid:hha/1139840259](https://projecteuclid.org/euclid.hha/1139840259))
 
 * {#Jardine96} [[John F. Jardine]], _Boolean localization, in practice_ ([web](http://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
   
@@ -1351,8 +1351,7 @@ A brief review in the context of [[nonabelian Hodge theory]] is in section 4 of
 
 A detailed study of [[descent]] for simplicial presheaves is given in
 
-* {#DuggerHollanderIsaksen} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ , Math. Proc. Cambridge
-Philos. Soc. 136 (2004), no. 1, 9&#8211;51 ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+* {#DuggerHollanderIsaksen} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ , Math. Proc. Cambridge Philos. Soc. 136 (2004), no. 1, 9&#8211;51 ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
 
 * [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
@@ -1384,7 +1383,7 @@ using instead of a full [[model category]] structure the more lightweight one of
 
 A comparison between Brown-Gersten and Joyal-Jardine approach:
 
-* V. Voevodsky, _Homotopy theory of simplicial presheaves in completely decomposable topologies_, [arxiv/0805.4578](http://arxiv.org/abs/0805.4578)
+* [[Vladimir Voevodsky]], _Homotopy theory of simplicial presheaves in completely decomposable topologies_, [arxiv/0805.4578](http://arxiv.org/abs/0805.4578)
 
 The proposal for descent objects for strict $\infty$-groupoid-valued presheaves discussed in [Descent for strict infinity-groupoids](#DescentForStrictInf) appeared in 
 
