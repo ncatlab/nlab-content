@@ -144,6 +144,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
+* Javier Fuentes-Martin, Gino Isidori, Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
+
 
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
