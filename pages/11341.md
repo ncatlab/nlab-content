@@ -23,7 +23,7 @@
 
 A _Gepner model_ ([Gepner 87](#Gepner87)) is a [[rational CFT|rational]] [[2d SCFT]]  which is a [[tensor product]] of $N = 2$ super-[[minimal model CFT]].
 
-This means that Gepner models are "non-geometric" in that they do not arise as [[sigma-models]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner models appear as the limiting cases of sigma-models with [[target space]] a 6d [[Calabi-Yau manifold]] at singular points in the [[moduli space]] of the CY target: the _[[flop transition]]_.
+This means that Gepner models are "[[non-geometric string vacua]]" in that they do not arise as [[sigma-models]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner models appear as the limiting cases of sigma-models with [[target space]] a 6d [[Calabi-Yau manifold]] at singular points in the [[moduli space]] of the CY target: the _[[flop transition]]_.
 
 As such the Gepner models are directly analogous to the purely algebraically defined non-classical fibers in the [[Connes-Lott-Chamseddine-Barrett model]] (it is a "[[2-spectral triple]]"-analog of the [[spectral triples]] in the Connes-Lott model, see [there](Connes-Lott-Chamseddine-Barrett+model#Schreiber16)) and, accordingly, plays a central role in [[string phenomenology]] (for review see e.g. [Reppel 07](#Reppel07)).
 
@@ -41,7 +41,7 @@ The Gepner models are a basic building block for [[rational conformal field theo
 ### Phenomenology
  {#Phenomenology}
 
-Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04a)):
+Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with [[non-geometric background|non-geometric]] [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04a)):
 
 
 <center>
