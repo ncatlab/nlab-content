@@ -29,7 +29,7 @@ Since no GUT model has been fully validated yet (but see for instance [Fong-Melo
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
 
 
-### The $SU(5)$-GUT (Pati-Salm model)
+### The $SU(5)$-GUT (Georgi-Glashow)
   {#IdeaofSU5GUT}
 
 The argument for the hypothesis of "grand unification" is fairly compelling if one asks for _[[simple objects|simple algebraic structures]]_ in the technical sense ([[simple Lie groups]] and their [[irreducible representations]]): 
@@ -65,7 +65,7 @@ $$
 
 (see [Baez-Huerta 09, p. 36-41](#BaezHuerta09)).
 
-This leads to the $SU(5)$-GUT due to [Pati-Salam 74](#PatiSalam74)
+This leads to the $SU(5)$-GUT due to [Georgi-Glashow 74](#GeorgiGlashow74)
 
 ### The $Spin(10)$-GUT (known as "$SO(10)$")
  {#TheGUTKnownAsSO10}
@@ -139,6 +139,8 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 * [[gauge coupling unification]]
 
 * [[supersymmetry]]
+
+* [[Connes-Lott-Chamseddine-Barrett model]]
 
 ## References 
  {#References}
@@ -240,6 +242,17 @@ Discussion of GUTs in [[F-theory]] includes
 of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>)
+
+Discussion of GUTs within [[Connes-Lott models]]:
+
+* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXiv:1409.2471](https://arxiv.org/abs/1409.2471))
+
+* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
+
+* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
+
+
+
 
 Discussion of experimental bounds on [[proton decay]] in GUTs includes
 
