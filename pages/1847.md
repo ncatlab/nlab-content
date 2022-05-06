@@ -196,7 +196,7 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
 * In particular we have the following implications
 
-  * [[second-countable space]] and [[regular space]]
+  * [[second-countable space]] and regular Hausdorff space
     $\Rightarrow$ [[metric space|metrizable space]]
     $\Rightarrow$ paracompact space
 
