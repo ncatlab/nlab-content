@@ -1370,6 +1370,10 @@ Discussion with an eye towards [[condensed matter physics]] is in
 
 * {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
 
+and with an eye towards [[particle physics]] and the [[standard model of particle physics]]:
+
+* {#PetrovBlechman16} [[Alexey Petrov]], Andrew E Blechman, _Effective Field Theories_, World Scientific 2016 ([doi:10.1142/8619](https://doi.org/10.1142/8619))
+
 The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
 
 * {#GomisWeinberg95} J. Gomis and [[Steven Weinberg]], _Are nonrenormalizable gauge theories renormalizable?_, Nucl. Phys. B 469 (1996) 473 ([arXiv:hep-th/9510087](https://arxiv.org/abs/hep-th/9510087))
