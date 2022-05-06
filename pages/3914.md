@@ -672,6 +672,11 @@ which are motivated towards constructing the [[string orientation of tmf]], base
 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
+For an informal exposition in terms of spectra, see
+
+* Mattia Coloma, [[Domenico Fiorenza]], Eugenio Landi, _An exposition of the topological half of the Grothendieck-Hirzebruch-Riemann-Roch theorem in the fancy language of spectra_, ([arXiv:1911.12035](https://arxiv.org/abs/1911.12035))
+
+
 
 
 [[!redirects Thom class]]
