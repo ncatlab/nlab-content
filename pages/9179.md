@@ -14,6 +14,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -42,11 +43,11 @@ Detailed matching of parameters of non-supersymmetric $Spin(10)$-GUT to [[neutri
 
 The history of the prediction of the neutrino is interesting and may (or may not) contain some general lessons for theoretical physics/[[mathematical physics]].
 
-Before 1930 [[experiments]] detected an apparent violation of the [[conservation law]] for [[energy]] in processes of [[beta decay]]. 
+Before 1930  [[experiments]] detected an apparent violation of the [[conservation law]] for [[energy]] in processes of [[beta decay]]. 
 
 Back then [[Niels Bohr]] proposed that, therefore, apparently the fundamental [[conservation laws]] in [[physics]] may be violated and possibly only hold [[probability theory|statistically]] over many quantum mechanical processes, but possibly not microscopically.
 
-Opposed to this was the suggestion by [[Wolfgang Pauli]], who insisted that the [[conservation laws]] ought to hold true, and that therefore there must be an undetected new [[fundamental particle]] created in [[beta decay]], which carries the apparently missing [[energy]].
+Opposed to this was the suggestion by [[Wolfgang Pauli]], who insisted that the [[conservation laws]] ought to hold true, and that therefore there must be an undetected new [[fundamental particle]] created in [[beta decay]], which carries away the apparently missing [[energy]].
 
 Pauli with his argument and suggestion turned out to be right. The missing particle -- called the _neutrino_ by [[Enrico Fermi]] in 1933 -- was finally directly detected in 1956, hence 26 years after its proposal. (Compare maybe to the [[Higgs boson]] for which detection came 50 years after prediction.)
 
@@ -91,10 +92,6 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 * [[Goran Senjanovic]], _LHC and the neutrino paradigm_, talk at CERN EP seminar 2011 ([cern:148714](https://indico.cern.ch/event/148714), [recording](https://youtu.be/VVoMUHokn2U))
 
-With emphasis on the [[flavor problem]]:
-
-* Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_ ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610))
-
 See also
 
 * Wikipedia, _[Neutrino](http://en.wikipedia.org/wiki/Neutrino)_
@@ -107,9 +104,16 @@ On the neutrino mass problem:
 
 * {#FisherKayserMcFarland99} Peter Fisher, Boris Kayser, Kevin S. McFarland, _Neutrino Mass and Oscillation_ Ann. Rev. Nucl. Part. Sci.49:481-528, 1999 ([arXiv:hep-ph/9906244](https://arxiv.org/abs/hep-ph/9906244))
 
+* {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf), [[MohapatraNeutrinoMasses.pdf:file]])
+
+* Boris Kayser, _Are Neutrinos Their Own Antiparticles?_, 
+J. Phys. Conf. Ser. 173:012013, 2009 ([arXiv:0903.0899](https://arxiv.org/abs/0903.0899))
+
 * Guido Fantini, Andrea Gallo Rosso, Francesco Vissani, Vanessa Zema, _The formalism of neutrino oscillations: an introduction_ ([arXiv:1802.05781](https://arxiv.org/abs/1802.05781))
 
+With further emphasis on the [[flavor problem]]:
 
+* {#Xing19} Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_, Physics Reports Volume 854, 20 April 2020, Pages 1-147 ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610), [doi:10.1016/j.physrep.2020.02.001](https://doi.org/10.1016/j.physrep.2020.02.001))
   
 
 Comments on neutrinos masses as a hint for the [[standard model of particle physics]] being an [[effective field theory]] are in
@@ -130,7 +134,7 @@ See also
 
 More on this in relation to [[GUT]] models:
 
-* {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf))
+* [Mohapatra 06](#Mohapatra06)
 
 * {#Witten17} [[Edward Witten]], p. 2 of _Symmetry and Emergence_ ([arXiv:1710.01791](https://arxiv.org/abs/1710.01791))
 
@@ -140,11 +144,17 @@ Discussion of neutrinos as [[dark matter]]-candidates:
 
 * {#NeutrinoWhite16} _A White Paper on keV Sterile Neutrino Dark Matter_,  Journal of Cosmology and Astroparticle Physics, Volume 2017, January 2017 ([arXiv:1602.04816](https://arxiv.org/abs/1602.04816))
 
-
 Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical physics)|models]] for [[flavour anomalies]]:
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
+Attempts to explain the [[flavour anomalies]] with right-handed neutrinos:
+
+* Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
+
+* Luigi Delle Rose, Shaaban Khalil, Simon J.D. King, Stefano Moretti, _$R_K$ and $R_{K^\ast}$ in an Aligned 2HDM with Right-Handed Neutrinos_ ([arXiv:1903.11146](https://arxiv.org/abs/1903.11146))
+
+* Rusa Mandal, Clara Murgui, Ana Peñuelas, [[Antonio Pich]], _The role of right-handed neutrinos in $b \to c \tau \bar \nu$ anomalies_ ([arXiv:2004.06726](https://arxiv.org/abs/2004.06726))
 
 [[!redirects neutrino]]
 [[!redirects neutrinos]]
@@ -158,4 +168,9 @@ Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical 
 
 [[!redirects tau neutrino]]
 [[!redirects tau neutrinos]]
+
+[[!redirects neutrino mass]]
+[[!redirects neutrino masses]]
+
+[[!redirects neutrino mass problem]]
 
