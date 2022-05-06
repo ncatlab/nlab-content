@@ -55,8 +55,7 @@ Since
 
    (in the above example: the [[worldvolume]] gauge field on [[coincident branes]])
 
-open/closed string duality implies _gauge/gravity duality_ between these different 
-[[effective field theories]]. 
+open/closed string duality implies _gauge/gravity duality_ between these different  [[effective field theories]]. 
 This is exhibited by phenomena such as 
 
 * the [[KLT relations]]
@@ -120,9 +119,13 @@ Original articles:
 
 * [[Justin Khoury]], [[Herman Verlinde]], _On Open/Closed String Duality_ ([arXiv:hep-th/0001056](http://arxiv.org/abs/hep-th/0001056))
 
+* [[Andreas Karch]], [[Lisa Randall]], _Open and Closed String Interpretation of SUSY CFT's on Branes with Boundaries_, JHEP 0106:063, 2001 ([arXiv:hep-th/0105132](https://arxiv.org/abs/hep-th/0105132))
+
 * {#GaiottoRastelli03} [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
 
 * {#Gopakumar04} [[Rajesh Gopakumar]], _Free Field Theory as a String Theory?_, Comptes Rendus Physique 5 (2004) 1111-1119 ([hep-th/0409233](https://arxiv.org/abs/hep-th/0409233))
+
+
 
 [[!redirects gauge/gravity duality]]
 [[!redirects gauge-gravity duality]]
