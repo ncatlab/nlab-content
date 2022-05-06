@@ -120,6 +120,10 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 Classical textbook references are
 
+
+* {#KobayashiNomizu63} [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], Section  XII.4 in: _Foundations of Differential Geometry, Volume 1_, Wiley 1963 ([web](https://www.zuj.edu.jo/download/foundations-of-differential-geometry-vol-1-kobayashi-nomizu-pdf/), [ISBN:9780471157335](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+Volume+1-p-9780471157335), [Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry))
+
+
 * [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
