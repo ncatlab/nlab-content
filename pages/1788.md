@@ -1,4 +1,13 @@
 
+$$
+    x
+    {\sqrt{1- 2 \delta y^2 + \epsilon y^4}}
+    + 
+    y 
+    {\sqrt{1- 2 \delta x^2 + \epsilon x^4}}
+$$
+
+
 \begin{xymatrix@R=24pt@C=40pt}
   &
   S^2 \times S^2 
