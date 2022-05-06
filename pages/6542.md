@@ -85,12 +85,13 @@ $$
 
 such that the trivializing form has (minus) unit [[integration of differential forms|integral]] over any of the [[n-sphere|(2k+1)-sphere]]-[[fibers]] $S^{2k+1}_x \overset{\iota_x}{\hookrightarrow} S(E)$:
 
-$$
+\[
+  \label{FiberIntegrationOfTrivialization}
   \int_{S^{2k+1}} \iota_x^\ast \Omega 
   \;=\;
   -1
   \,.
-$$
+\]
 
 =--
 
