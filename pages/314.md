@@ -124,41 +124,21 @@ a notion of limit for
 functors $F : D^{op} \to C$ for $C$
 an arbitrary category if we construct a certain [[presheaf]] on $C$ which we will call $\hat \lim F$. The actual limit $lim F$ is then, if it exists, the object of $C$ [[representable functor|representing]] this presheaf.
 
-
-More precisely, using the
-the [[Yoneda embedding]]
-$Y : C \to [C^{op}, Set]$ define for $F : D^{op} \to C$
-the [[presheaf]] $\hat \lim F \in [C^{op}, Set]$ by
-the analog of the above formula
+More precisely, using the [[Yoneda embedding]] $y: C \to [C^{op}, Set]$ define for $F : D^{op} \to C$ the [[presheaf]] $\hat \lim F \in [C^{op}, Set]$ by
 
 $$
-  (\hat \lim F)(c)
-  \simeq
-  Hom_{[C^{op}, Set]}(Y(c), \hat \lim F)
-  :=
-  \lim Hom_C(c, F(-))
+  (\hat \lim F)(c):=Hom_{Set^{D^{op}}}(pt,Hom_C(c,F(-)))
 $$
 
-for all $c \in C$.
+for all $c \in C$, or suppressing the subscripts for readability:
 
-Here the $\lim$ on the right is again that of
-[[Set]]-valued functors defined before.
-
-
-By the above this can also be written as
-
-$$
-  (\hat \lim F)(c) = 
-  Hom_{[D^{op}, Set]}(pt , Hom_C(c,F(-))
-$$
-or, suppressing the subscripts for readability:
 $$
   (\hat lim F)(c) = 
-  Hom(pt , Hom(c,F(-))
+  Hom(pt , Hom(c,F(-)))
   \,.
 $$
 
-So also the [[presheaf]]-valued limit always exists. Iff this presheaf is [[representable functor|representable]] by an object $\lim F$ of $F$, then this is the **limit** of $F$:
+The [[presheaf]]-valued limit always exists; iff this presheaf is [[representable functor|representable]] by an object $\lim F$ of $F$, then this is the **limit** of $F$:
 
 $$
   Hom(c, \lim F)
