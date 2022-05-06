@@ -70,3 +70,6 @@ A book in progress, regularly being updated
 
 [[!redirects infinity-cosmoi]]
 
+[[!redirects ∞-cosmos]]
+[[!redirects ∞-cosmoi]]
+
