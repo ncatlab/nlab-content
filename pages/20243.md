@@ -198,7 +198,7 @@ where
 ###### Proposition
 **([[Spin(5).Spin(3)]]-[[subgroups]] in [[SO(8)]])
 
-The [[direct product group]] [[SO(3)]] $\times$ [[SO(5)]] together with the groups [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with their canonical inclusions into [[SO(8)]], form 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[subgroups]] inside [[SO(8)]], and the [[triality]] group $Out(SO(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+The [[direct product group]] [[SO(3)]] $\times$ [[SO(5)]] together with the groups [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with their canonical inclusions into [[SO(8)]], form 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[subgroups]] inside [[SO(8)]], and the [[triality]] group $Out(Spin(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
 
 \begin{center}
   \begin{xymatrix}
@@ -250,7 +250,45 @@ The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with th
 
 ([Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
 
+In summary:
 
+\begin{xymatrix}
+    \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
+    \ar@{=}[dddddr]
+    \ar@{_{(}->}[ddrr]|-{ \iota' }
+    \\
+    \\
+    &&
+    \mathrm{Spin}(8)
+    \ar@{->>}[dddddr]
+    &&
+    \mathrm{Spin}(3) {\cdot} \mathrm{Spin}(5)
+    \ar@{->>}[dddddr]
+    \ar@{_{(}->}[ll]|-{\iota}
+    \\
+    \\
+    \mathrm{Sp}(2) {\cdot} \mathrm{Sp}(1)
+     \ar@{=}[dddddr]
+     \ar@{^{(}->}[uurr]
+       |<<<<<<<<<<<<<<<<<<<<<<<<<<{ \phantom{AA \atop AA} }
+       |>>>>>>>>>>>>>>>>>>>>>>>{ \iota'' }
+    \\
+    &
+    \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
+    \ar@{_{(}->}[ddrr]|-{ \iota' }
+    \\
+    \\
+    &&& 
+    \mathrm{SO}(8)
+    &&
+    \mathrm{SO}(3) \times \mathrm{SO}(5)
+    \ar@{_{(}->}[ll]|-{\iota}
+    \\
+    \\
+    &
+    \mathrm{Sp}(2) {\cdot} \mathrm{Sp}(1)
+    \ar@{^{(}->}[uurr]|-{ \iota'' }
+\end{xymatrix}
 
 
 ### $Sp(1)Sp(1)Sp(1) = Spin(4)\cdot Spin(3)$
