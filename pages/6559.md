@@ -54,7 +54,7 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[Yang-Mills instanton]]
 
-  * [[BPTS instanton]]
+  * [[BPST instanton]]
 
   * [[instanton in QCD]], [[QCD vacuum]]
 
