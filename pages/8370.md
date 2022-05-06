@@ -97,6 +97,12 @@ Textbooks on the [[foundations of mathematics]] and foundations of [[programming
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_,  Cambridge University Press (2016) ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
 
+See also
+
+
+* [[Joseph A. Goguen]], _[[A Categorical Manifesto]]_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67, doi:[10.1017/S0960129500000050](https://doi.org/10.1017/S0960129500000050), [CiteSeerX](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362).
+
+
 
 [[!redirects computational trinitarianism]]
 [[!redirects computational trinity]]
