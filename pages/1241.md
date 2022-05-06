@@ -16,6 +16,8 @@
 
 ## Idea
 
+
+
 ### General idea
 
 The [[standard model of particle physics]] asserts that the fundamental quantum [[field (physics)|physical fields]] and [[particles]] are modeled as [[sections]] of and [[connection on a bundle|connections]] on a [[vector bundle]] that is [[associated bundle|associated]] to a $G$-[[principal bundle]], where the [[Lie group]] $G$ -- called the [[gauge group]] -- is  the [[product]] of ([[special unitary group|special]]) [[unitary groups]] $G = SU(3) \times SU(2) \times U(1)$ (or rather a [[quotient]] of this by the [[cyclic group]] $Z/6$, see [there](standard+model+of+particle+physics#GaugeGroup)) and where the [[representation]] of $G$ used to form the [[associated bundle|associated]] [[vector bundle]] looks fairly ad hoc on first sight.
@@ -92,14 +94,45 @@ Discussion of [[SO(10)]] (i.e. [[Spin(10)]]) GUT-models with realistic [[phenome
 
 Discussion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavour anomalies]]: [AMM 19](#AMM19)
 
+
 \linebreak
+
+### The $Spin(11)$-GUT (known as "$SO(11)$")
+ {#TheGUTKnownAsSO11}
+
+Models with [[Spin(11)]] ("[[SO(11)]]") GUT group.
+
+Specifically with [[gauge-Higgs unification]] in a [[Randall-Sundrum model]]-like 6d spacetime: [Hosotani-Yamatsu 15](#HosotaniYamatsu15), [Furui-Hosotani-Yamatsu 16](#FuruiHosotaniYamatsu16), [Hosotani 17](#Hosotani17), [Hosotani-Yamatsu 17](#HosotaniYamatsu17)
+
+
+See the references [below](#ReferencesSpin11).
+
+
+\linebreak
+
+### The $Spin(12)$-GUT (known as "$SO(12)$")
+ {#TheGUTKnownAsSO12}
+
+
+Models with [[Spin(12)]] ("[[SO(12)]]") GUT group.
+
+Specifically with [[gauge-Higgs unification]] in a [[Randall-Sundrum model]]-like 6d spacetime: [Nomura-Sato 08](#NomuraSato08), [Nomura 09](#Nomura09), [Chiang-Nomura-Sato 11](#ChiangNomuraSato11))
+
+See the references [below](#ReferencesSpin12).
+
+\linebreak
+
+
 
 ### The $Spin(16), Spin(18)$-GUT (known as "$SO(16), SO(18)$")
  {#TheGUTKnownAsSO16}
 
+Models with [[Spin(16)]] ("[[SO(16)]]") GUT group.
+
+
 [Wilczek-Zee 82](#WilczekZee82), [Senjanovic-Wilczek-Zee 84](#SenjanovicWilczekZee84), [Martínez-Melfo-Nesti-Senjanovic 11](#MartínezMelfoNestiSenjanovic11)
 
-See also [di Lucio 11, p. 44](#diLucio11)
+See also [di Lucio 11, p. 44](#diLucio11) and see the references [below](#ReferencesSpin16).
 
 Predicts [[fourth generation of fermions]]...
 
@@ -195,13 +228,7 @@ Discussion with an eye towards [[supergravity]] unification:
 
 * [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, (reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669))
 
-Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(16)" GUT):
 
-* {#WilczekZee82} [[Frank Wilczek]], [[Anthony Zee]], _Families from spinors_, Phys. Rev. D 25, 553 (1982) ([doi:10.1103/PhysRevD.25.55310.1103/PhysRevD.25.553](https://doi.org/10.1103/PhysRevD.25.553))
-
-* {#SenjanovicWilczekZee84} Goran Senjanović, [[Frank Wilczek]], [[Anthony Zee]], _Reflections on mirror fermions_,  Physics Letters B Volume 141, Issues 5–6, 5 July 1984, Pages 389-394 Physics Letters B (<a href="https://doi.org/10.1016/0370-2693(84)90269-7">doi:10.1016/0370-2693(84)90269-7</a>)
-
-* {#MartínezMelfoNestiSenjanovic11} Homero Martínez, Alejandra Melfo, Fabrizio Nesti, Goran Senjanović, _Three Extra Mirror or Sequential Families: a Case for Heavy Higgs and Inert Doublet_, Phys. Rev. Lett.106:191802, 2011 ([arXiv:1101.3796](https://arxiv.org/abs/1101.3796))
 
 
 A basic textbook account is in
@@ -263,6 +290,10 @@ Claim that [[threshold corrections]] can considerably alter (decrease) proton de
 
 Discussion of [[phenomenology|phenomenologically]] viable GUT-[[model (in theoretical physics)|models]] (compatible with [[experiment]] and the [[standard model of particle physics]]):
 
+#### $SO(10)$-GUT
+
+Discussion for [[Spin(10)]] GUT group ("[[SO(10)]]"):
+
 * {#BLM09} Stefano Bertolini, Luca Di Luzio, [[Michal Malinský]], _Intermediate mass scales in the non-supersymmetric SO(10) grand unification: a reappraisal_, Phys. Rev. D80:015013, 2009 ([arXiv:0903.4049](https://arxiv.org/abs/0903.4049))
 
 review:
@@ -294,6 +325,46 @@ for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 * Archana Anandakrishnan, B. Charles Bryant, Stuart Raby, _LHC Phenomenology of $SO(10)$ Models with Yukawa Unification II_ ([arXiv:1404.5628](http://arxiv.org/abs/1404.5628))
 
 * Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
+
+#### $SO(11)$-GUT
+ {#ReferencesSpin11}
+
+Discussion for [[Spin(11)]] GUT group ("[[SO(11)]]"):
+
+* {#HosotaniYamatsu15} Yutaka Hosotani, Naoki Yamatsu, _Gauge–Higgs grand unification_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 11, November 2015 ([doi:10.1093/ptep/ptv153](https://doi.org/10.1093/ptep/ptv153), [doi:10.1093/ptep/ptw116](https://doi.org/10.1093/ptep/ptw116))
+
+* {#FuruiHosotaniYamatsu16} Atsushi Furui, Yutaka Hosotani, Naoki Yamatsu, _Toward Realistic Gauge-Higgs Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 9, September 2016, 093B01 ([arXiv:1606.07222](https://arxiv.org/abs/1606.07222))
+
+* {#Hosotani17} Yutaka Hosotani, _New dimensions from gauge-Higgs unification_ ([arXiv:1702.08161](https://arxiv.org/abs/1702.08161))
+
+* {#HosotaniYamatsu17} Yutaka Hosotani, Naoki Yamatsu, _Electroweak Symmetry Breaking and Mass Spectra in Six-Dimensional Gauge-Higgs Grand Unification_ ([arXiv:1710.04811](https://arxiv.org/abs/1710.04811))
+
+
+#### $SO(12)$-GUT
+ {#ReferencesSpin12}
+
+Discussion for [[Spin(12)]] GUT group ("[[SO(12)]]"):
+
+* S. Rajpoot and P. Sithikong, _Implications of the $SO(12)$ gauge symmetry for grand unification_, Phys. Rev. D 23, 1649 (1981) ([doi:10.1103/PhysRevD.23.1649](https://doi.org/10.1103/PhysRevD.23.1649))
+
+* {#NomuraSato08} Takaaki Nomura, Joe Sato, _Standard(-like) Model from an $SO(12)$ Grand Unified Theory in six-dimensions with $S^2$ extra-space_, Nucl.Phys.B811:109-122, 2009 ([arXiv:0810.0898](https://arxiv.org/abs/0810.0898))
+
+* {#Nomura09} Takaaki Nomura, _Physics beyond the standard model with $S^2$ extra-space_, 2009 ([pdf](http://krishna.th.phy.saitama-u.ac.jp/joe/doctor/nomura-doctor.pdf), [[NomuraSO12GUT.pdf:file]])
+
+* {#ChiangNomuraSato11} Cheng-Wei Chiang, Takaaki Nomura, Joe Sato, _Gauge-Higgs unification models in six dimensions with $S^2/\mathbb{Z}_2$ extra space and GUT gauge symmetry_ ([arXiv:1109.5835](https://arxiv.org/abs/1109.5835))
+
+#### $SO(16)$- and $Spin(18)$-GUT
+ {#ReferencesSpin16}
+
+Discussion for [[Spin(16)]] and [[Spin(18)]] GUT group ("[[SO(16)]]" and "[[SO(18)]]"):
+
+* {#WilczekZee82} [[Frank Wilczek]], [[Anthony Zee]], _Families from spinors_, Phys. Rev. D 25, 553 (1982) ([doi:10.1103/PhysRevD.25.55310.1103/PhysRevD.25.553](https://doi.org/10.1103/PhysRevD.25.553))
+
+* {#SenjanovicWilczekZee84} Goran Senjanović, [[Frank Wilczek]], [[Anthony Zee]], _Reflections on mirror fermions_,  Physics Letters B Volume 141, Issues 5–6, 5 July 1984, Pages 389-394 Physics Letters B (<a href="https://doi.org/10.1016/0370-2693(84)90269-7">doi:10.1016/0370-2693(84)90269-7</a>)
+
+* {#MartínezMelfoNestiSenjanovic11} Homero Martínez, Alejandra Melfo, Fabrizio Nesti, Goran Senjanović, _Three Extra Mirror or Sequential Families: a Case for Heavy Higgs and Inert Doublet_, Phys. Rev. Lett.106:191802, 2011 ([arXiv:1101.3796](https://arxiv.org/abs/1101.3796))
+
+* {#Guigan19} Michael McGuigan, _Dark Horse, Dark Matter: Revisiting the $SO(16) \times SO(16)'$ Nonsupersymmetric Model in the LHC and Dark Energy Era_ ([arXiv:1907.01944](https://arxiv.org/abs/1907.01944))
 
 ### In string theory
 
