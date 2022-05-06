@@ -1,4 +1,4 @@
 
-* [webpage](http://www.math.uni-leipzig.de/MI/thom/)
+* [webpage](https://tu-dresden.de/mn/math/geometrie/thom/)
 
 category: people
