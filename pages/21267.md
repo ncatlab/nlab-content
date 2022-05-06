@@ -6,6 +6,8 @@ For more technical details and further pointers see at [[homotopy theory]].
 * table of contents
 {:toc}
 
+## What is homotopy theory?
+
 ## Is homotopy theory a part of algebraic topology?
 {#intro}
 
@@ -46,7 +48,7 @@ _Homotopy theory is not a branch of topology._ This is important, because as lon
 
 > 5 I think of homotopy theory as an enrichment of the notion of equality, dedicated to the primacy of _structure over properties_. Simplistic and abstract though this idea is, it leads rapidly to a whole universe of nontrivial structures.
 
-## What is homotopy theory?
+## What objects does homotopy theory study?
 
 We list some [[mathematical objects]] that are undoubtedly studied by [[homotopy theory]]:
 
@@ -64,7 +66,7 @@ See the [section on ∞-categories](#infinity) for more information.
 
 * [[(∞,n)-categories]], which can be [modeled](#models) by [[globular n-fold complete Segal spaces]], Rezk's [[Theta-n spaces]], etc.
 
-## What is algebraic topology?
+## What objects does algebraic topology study?
 
 As already explained in the [introduction](#intro),
 there is a recent tendency to separate [[homotopy theory]]
@@ -448,6 +450,8 @@ of triangulated categories that does not suffer from their defects.
 The most developed [model](#models) for [[stable (∞,1)-categories]]
 is stable [[quasicategories]], a detailed treatment
 can be found in Chapter 1 of [[Lurie]]'s [[Higher Algebra]].
+
+## What is a derived category?  What are its limitations?
 
 ## References
 
