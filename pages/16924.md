@@ -39,9 +39,12 @@
 
 ## Related entries
 
-* [[brane intersection]]
+* [[(p,q)-string]]
+
+* [[brane intersection]], [[brane web]]
 
 ## References
 
 * [[Ofer Aharony]], [[Amihay Hanany]], [[Barak Kol]], _Webs of $(p,q)$ 5-branes, Five Dimensional Field Theories and Grid Diagrams_, JHEP 9801:002,1998 ([arXiv:hep-th/9710116](http://arxiv.org/abs/hep-th/9710116))
 
+[[!redirects (p,q)5-branes]]
