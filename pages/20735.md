@@ -292,15 +292,23 @@ The moduli space of monopoles appears also in the [[KK-compactification]] of the
 
 * Benjamin Assel, [[Sakura Schafer-Nameki]], Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
-### As Coulomg branches of $D=3$ $\mathcal{N}=4$ SYM
+### As Coulomb branches of $D=3$ $\mathcal{N}=4$ SYM
 
 Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
+
+* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_, In: J.M. Drouffe, J.B. Zuber (eds.) _The mathematical beauty of physics: A memorial volume for Claude Itzykson_ Proceedings, Conference, Saclay, France, June 5-7, 1996 ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163), [spire:420925](http://inspirehep.net/record/420925))
 
 * N. Dorey, V. V. Khoze, M. P. Mattis, [[David Tong]], S. Vandoren, _Instantons, Three-Dimensional Gauge Theory, and the Atiyah-Hitchin Manifold_, Nucl. Phys. B502 (1997) 59-93 ([arXiv:hep-th/9703228](https://arxiv.org/abs/hep-th/9703228))
 
 * [[David Tong]], _Three-Dimensional Gauge Theories and ADE Monopoles_, Phys. Lett. B448 (1999) 33-36 ([arXiv:hep-th/9803148](https://arxiv.org/abs/hep-th/9803148))
 
 * [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+### Rozansky-Witten invariants
+
+Discussion of [[Rozansky-Witten invariants]] of [[moduli spaces of monopoles]]:
+
+* {#RozanskyWitten96} [[Lev Rozansky]], [[Edward Witten]], p. 36 of: _Hyper-K&#228;hler geometry and invariants of 3-manifolds_, Selecta Math., New Ser. __3__ (1997), 401&#8211;458 ([arXiv:hep-th/9612216](https://arxiv.org/abs/hep-th/9612216), [doi:10.1007/s000290050016](https://doi.org/10.1007/s000290050016), [MR98m:57041](http://www.ams.org/mathscinet-getitem?mr=98m:57041))
 
 
 ### Relation to braids
@@ -310,6 +318,7 @@ Relation to [[braid groups]]:
 * {#CohenCohenMannMilgram91} [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
 * [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
 
 
 Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
