@@ -13,9 +13,11 @@
 
   _String Theory Dynamics In Various Dimensions_, 
 
-  Nucl.Phys.B443:85-126,1995 
+  Nucl. Phys. B443:85-126, 1995 
 
-  ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+  [arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124)
+
+  <a href="https://doi.org/10.1016/0550-3213(95)00158-O">doi:10.1016/0550-3213(95)00158-O</a>
 
 on [[M-theory]] and [[duality in string theory]] via consideration of [[BPS states]], specifically establishing evidence for [[duality between M-theory and type IIA string theory]].
 
