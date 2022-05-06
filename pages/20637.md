@@ -61,7 +61,7 @@ This means in particular that the cohomology is an [[exterior algebra]] on gener
 
 ### Construction as a homotopy colimit
 
-The space $B G_3$ is the 2-completion of the homotopy colimit of a diagram ([(Ziemianski, 0.2.3)](#Ziemianski)).
+The space $B G_3$ is the 2-completion of the homotopy colimit of a diagram ([Notbohm 03, Sec. 2](#Notbohm), [Ziemianski, 0.2.3](#Ziemianski)).
 
 
 ### As a 2-compact group
@@ -109,6 +109,8 @@ Review:
 * {#Moller95} [[Jesper Møller]], _Homotopy Lie groups_, Bull. Amer. Math. Soc. (N.S.) 32 (1995) 413-428 ([arXiv:math/9510218](https://arxiv.org/abs/math/9510218))
 
 * {#Grodal10} [[Jesper Grodal]], _The Classification of $p$–Compact Groups and Homotopical Group Theory_, Proceedings of the International Congress of Mathematicians, Hyderabad 2010 ([arXiv:1003.4010](https://arxiv.org/abs/1003.4010), [pdf](http://web.math.ku.dk/~jg/papers/icm.pdf), [[GrodalpCompactGroups2010.pdf:file]])
+
+* {#Notbohm} Dietrich Notbohm, _On the compact 2-group $D I(4)$_,  Journal für die reine und angewandte Mathematik (Crelles Journal), Volume 2003, Issue 555, Pages 163–185, ([pdf](https://pdfs.semanticscholar.org/76ee/dfae66955e452fc20e7ab4a19bd1f6284af4.pdf))
 
 
 
