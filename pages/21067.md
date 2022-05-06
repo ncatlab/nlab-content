@@ -17,12 +17,11 @@
 
 There are different, related ways in which one could view the notion of algebra over a [[monad]]. 
 
-* If one views monads as a generalization of [[algebraic theories]] (see [[algebraic theory#RelationToMonads|algebraic theory -  relation to monads]]), an algebra over a monad is the correspondent generalization of an [[algebra over a Lawvere theory|algebra over a theory]]. In particular, if one views a monad as a way of prescribing particular [[operations]], an algebra is a context where those specified formal expressions can be evaluated to an actual result.
+* If one views monads as a generalization of [[algebraic theories]] (see [[algebraic theory#RelationToMonads|algebraic theory -  relation to monads]]), an algebra over a monad is the corresponding generalization of an [[algebra over a Lawvere theory|algebra over a theory]]. In particular, if one views a monad as a way of prescribing particular [[operations]], an algebra is a context where those specified formal expressions can be evaluated to an actual result.
 * From the 2-dimensional point of view, an algebra over a monad is a special case of a [[module over a monad]] for the bicategory [[Cat]], where the arrow is from the [[terminal category]].
 * If one views monads as a way to model computational effects (see [[monad in computer science]]), an algebra is a context in which the extra effects can be reincorporated into the main data. 
 
-Algebras over a monad are usually objects equipped with extra [[structure]], not just [[properties]].
-
+Algebras over a monad are usually objects equipped with extra [[structure]], not just [[properties]]. (They can also be seen as [[algebra over an endofunctor|algebras over the underlying endofunctor]], satisfying extra compatibility [[properties]].)
 
 ## Definition
 
@@ -35,6 +34,9 @@ A\ar{r}{\eta} \ar[swap]{dr}{\mathrm{id}} & TA \ar{d}{a} & & TTA \ar{r}{Ta} \ar{d
 \end{tikzcd} 
 
 The diagram on the left is sometimes called the _unit triangle_, and the diagram on the right the _multiplication square_ or _algebra square_. 
+
+The corresponding [[dual]] notion is that of a [[coalgebra over a comonad]].
+
 
 ### Morphisms of algebras
 
@@ -53,7 +55,7 @@ Given a monad $(T,\mu,\eta)$ on a category $C$, for every object $X$ of $C$, the
 
 Algebras of this sort are called **free algebras**. 
 
-Given any morphism $f:X\to Y$ of $C$, the map $T f:T X\to T Y$ is a morphism of algebras, by naturality of $\mu$. Not every morphism of algebras between $T X$ and $T Y$ arises this way.
+Given any morphism $f:X\to Y$ of $C$, the map $T f:T X\to T Y$ is a morphism of algebras, by naturality of $\mu$. In general, not every morphism of algebras between $T X$ and $T Y$ arises this way.
 
 The subcategory of free algebras and their morphisms is (equivalent to) the **[[Kleisli category]]**.
 
