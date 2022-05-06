@@ -401,7 +401,7 @@ Discussion of [[M-brane]] [[charge quantization]] in [[equivariant cohomotopy]]:
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
-  ([[equivariant rational homotopy theory|rational equivariant]] cohomotopy)
+  ([[equivariant rational homotopy theory|equivariant]] [[rational Cohomotopy]])
 
 * {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
