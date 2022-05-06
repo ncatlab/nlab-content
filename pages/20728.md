@@ -125,6 +125,8 @@ for the continuous case.
 
 (See [Giry's original article](#giry80) for the details, as well as the introductions given in [Perrone '18, Section 1.1](#thesisperrone) and [Perrone '19, Example 5.1.13](#notesperrone)).
 
+[[Kleisli category|Kleisli categories]] of probability monads are often instances of [[Markov categories]].
+
 
 ## Monoidal structure: products and marginals
 
@@ -246,6 +248,7 @@ for the continuous case.
 * [[probability theory]]
 * [[measure theory]]
 * [[valuation (measure theory)]]
+* [[Markov category]]
 
 
 ## References
