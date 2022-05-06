@@ -132,6 +132,9 @@ Textbook accounts include
 
 * {#Hatcher} [[Allen Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
+* SL Kleiman, _Geometry on Grassmannians and applications to splitting bundles and smoothing cycles_, Publications Mathématiques de l'IHÉS, 1969, numdam/[pdf](http://www.numdam.org/article/PMIHES_1969__36__281_0.pdf)
+
+
 Lecture notes include
 
 * [[Michael Hopkins]], _Grassmannian manifolds_ ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1471353.files/grassmannian.pdf))
