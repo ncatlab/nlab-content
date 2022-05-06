@@ -79,7 +79,7 @@ Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\
 \begin{definition}\label{regular}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
 The topology $\mathcal{T}$ is __regular with respect to__ $\mathcal{T}^*$ if  one of the two equivalent conditions [(1)](#regular1) and [(2)](#regular2) from proposition \ref{implications} holds.
-A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise regular__ if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$ and wise versa.
+A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise regular__ if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$ and vise versa.
 \end{definition}
 
 \begin{definition}\label{coupled}
