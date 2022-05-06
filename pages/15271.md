@@ -21,6 +21,14 @@ Generally on [[noncommutative geometry]] in [[D-brane]]-physics:
 
 * [[Robert Myers]], _Nonabelian D-branes and Noncommutative Geometry_, J. Math. Phys. 42: 2781-2797, 2001 ([arXiv:hep-th/0106178](https://arxiv.org/abs/hep-th/0106178))
 
+On [[S-branes]]:
+
+* {#KruczenskiMyersPeet02} [[Martin Kruczenski]], [[Robert Myers]], [[Amanda Peet]], _Supergravity S-Branes_, JHEP 0205 (2002) 039 ([arXiv:hep-th/0204144](https://arxiv.org/abs/hep-th/0204144))
+
+On [[D-brane polarization]] into [[supertubes]]:
+
+* [[Martin Kruczenski]], [[Robert Myers]], [[Amanda Peet]], David J. Winters, _Aspects of supertubes_, JHEP 0205:017, 2002 ([arXiv:hep-th/0204103](https://arxiv.org/abs/hep-th/0204103))
+
 
 
 ## Related $n$Lab entries
