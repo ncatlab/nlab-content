@@ -66,9 +66,8 @@ Review references:
 
 ## The Sullivan-de Rham Localization and Homotopy Theorems
 
-* [[rationalization]]
+* [[rationalization]] via the [[fundamental theorem of dg-algebraic rational homotopy theory]]
 
-* [[rationalization via PL de Rham theory]]
 
 \linebreak
 
