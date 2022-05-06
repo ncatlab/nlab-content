@@ -22,7 +22,7 @@
 
 ## Definition ##
 
-A **group** is a [[monoid]] in which every element has an [[inverse]] (necessarily unique).
+Classically, a **group** is a [[monoid]] in which every element has an [[inverse]] (necessarily unique). When written with a view toward [[group objects]] (see Internalization below), one should rather say that a group is a monoid together with an inversion operation. 
 
 An **[[abelian group]]** is a group in which moreover the order in which two elements are multiplied is irrelevant.
 
