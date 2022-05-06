@@ -1,4 +1,10 @@
 
+$$
+  G^{ADE} \hookrightarrow \mathbb{Z}_2^{HW} \times G^{ADE}
+$$
+
+
+
 $\dashv$
 
 $\flat \dashv \sharp$
