@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -68,6 +69,9 @@ A more general scan of possible lifts of type IIA orientifolds to M-theory is in
 ## References
  {#References}
 
+
+### General
+
 The concept originates around
 
 
@@ -87,29 +91,6 @@ Textbook discussion in the context of [[intersecting D-brane models]] with an ey
 Exposition:
 
 * Marcus Berg, _Introduction to Orientifolds_ ([pdf](https://tp.hotell.kau.se/marcus/physics/talks/orienti_short.pdf), [[BergOrientifolds.pdf:file]])
-
-Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
-
-* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
-
-* {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
-
-* {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
-
-
-* {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
-
-
-* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
-
-The MO5 is originally discussed in 
-
-* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
-
-
-The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with more details, in Prop. 4.7 of
-
-* {#HuertaSatiSchreiber18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 The original observation that [[D-brane charge]] for orientifolds should be in [[KR-theory]] is due to
 
@@ -176,13 +157,47 @@ More on this in section 3.3.10 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bundles replaced by the [[circle n-bundle with connection|circle 3-bundles]] of the [[supergravity C-field]] is discussed towards the end of
-
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
 The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on orientifolds:
 
 * {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
+
+### In M-theory
+ {#ReferencesInMTheory}
+
+
+Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
+
+* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+
+* {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+* {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
+
+* {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
+
+
+* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+
+* {#ArgyresMaimonPelland02} Philip C. Argyres, [[Ron Maimon]], Sophie Pelland, _The M theory lift of two O6 planes and four D6 branes_, JHEP 0205 (2002) 008 ([arXiv:hep-th/0204127](https://arxiv.org/abs/hep-th/0204127))
+
+The MO5 is originally discussed in 
+
+* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
+
+
+The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with more details, in Prop. 4.7 of
+
+* {#HuertaSatiSchreiber18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+
+
+
+
+The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bundles replaced by the [[circle n-bundle with connection|circle 3-bundles]] of the [[supergravity C-field]] is discussed towards the end of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
 
 [[!redirects orientifolds]]
