@@ -61,6 +61,19 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
   * [[AKSZ sigma-model]]
 
+## References
+
+(...)
+
+A kind of 4d Chern-Simons theory intermediated between ordinary 3d [[Chern-Simons theory]] and complex 3d (hence real 6d) [[holomorphic Chern-Simons theory]]:
+
+* [[Kevin Costello]], [[Edward Witten]], Masahito Yamazaki, _Gauge Theory and Integrability, II_, ICCM Not. 6, 120-146 (2018) ([arXiv:1802.01579](https://arxiv.org/abs/1802.01579))
+
+* [[Kevin Costello]], [[Edward Witten]], Masahito Yamazaki, _Gauge Theory and Integrability, I_, ICCM Not. 6, 46-119 (2018) ([arXiv:1709.09993](https://arxiv.org/abs/1709.09993))
+
+
+* Meer Ashwinkumar, [[Meng-Chwan Tan]], Qin Zhao, _Branes and Categorifying Integrable Lattice Models_ ([arXiv:1806.02821](https://arxiv.org/abs/1806.02821))
+
 
 
 [[!redirects 4d Chern-Simons theories]]
