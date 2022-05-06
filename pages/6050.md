@@ -67,6 +67,15 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 
 * [[spectral geometry]], [[hearing the shape of a drum]]
 
+* [[heat equation]]
+
+* [[Klein-Gordon equation]]
+
+* [[Schrödinger equation]]
+
+* [[Dirac equation]]
+
+
 ## References
 
 * F. Friedlander, _The Wave Equation on a Curved Space-Time_, Cambridge: Cambridge University Press, 1975
