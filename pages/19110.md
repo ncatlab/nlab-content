@@ -20,8 +20,12 @@
 
 In the presence of [[D-branes]], plain [[type II string theory]] in fact has a [[quantum anomaly]] reflected on the [[worldsheet]] by [[tadpole]] [[Feynman diagrams]] in the [[string perturbation series]] for [[RR-fields]]
 
+
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/TadpoleCancellationFactorization.jpg" width="600">
+\begin{imagefromfile}
+  "file_name": "TadpoleCancellationFactorization.jpg",
+  "width": 600
+\end{imagefromfile}
 \end{center}
 
 > graphics grabbed from [Blumenhagen-Lüst-Theisen 13](#BlumenhagenLustTheisen13)
@@ -29,9 +33,14 @@ In the presence of [[D-branes]], plain [[type II string theory]] in fact has a [
 
 and reflected in [[target spacetime]] by non-trivial total [[RR-field]] [[flux]] on [[compact topological space|compact spaces]]
 
+
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/RRTadpoleCancellation.jpg" width="600">
+\begin{imagefromfile}
+  "file_name": "RRTadpoleCancellation.jpg",
+  "width": 600
+\end{imagefromfile}
 \end{center}
+
 
 > graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
 
@@ -254,7 +263,7 @@ This is indeed the case for the multiples $V = n\cdot k[G/1]$ of the [[regular r
 =--
 
 
-<br/>
+\linebreak
 
 On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge -- [[O-plane charge]] (see [there](orientifold+plane#OPlaneCharge)):
 
@@ -1292,8 +1301,6 @@ Discussion of tadpole cancellation for the [[supergravity C-field]] in [[M-theor
 [[!redirects RR-tadpole cancellation]]
 [[!redirects RR-tadpole cancellations]]
 
-[[!redirects tadpole cancellation]]
-[[!redirects tadpole cancellations]]
 
 
 [[!redirects RR-field tadpole]]
@@ -1302,8 +1309,6 @@ Discussion of tadpole cancellation for the [[supergravity C-field]] in [[M-theor
 [[!redirects RR-tadpole]]
 [[!redirects RR-tadpoles]]
 
-[[!redirects tadpole]]
-[[!redirects tadpoles]]
 
 [[!redirects RR-field tadpole anomaly]]
 
