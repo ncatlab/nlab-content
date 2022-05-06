@@ -68,7 +68,7 @@ For the moment see [[Green-Schwarz mechanism]] for more.
 
 
 ### Anomalous symmetry
- {AnomalousSymmetry}
+ {#AnomalousSymmetry}
 
 > under construction
 
@@ -268,7 +268,7 @@ General discussion in the context of [[BRST-BV formalism]] (breaking of the [[qu
 * [[Glenn Barnich]], _Classical and quantum aspects of the
 extended antifield formalism_ ([arXiv:hep-th/0011120](http://arxiv.org/abs/hep-th/0011120))
 
-The fact that the anomly sits in degree-1 BRST cohomology corresponds to the consistency condition discussed in
+The fact that the anomaly sits in degree-1 BRST cohomology corresponds to the consistency condition discussed in
 
 * [[Julius Wess]] and B. Zumino, _Consequences of anomalous Ward identities_ , Phys. Lett. B37 (1971) 95 <a href="http://dx.doi.org/10.1016/0370-2693(71)90582-X">doi</a>
 * R. Stora, _The Wess Zumino consistency condition: a paradigm in renormalized perturbation theory_, Fortsch. Phys. 54:175-182 (2006) [doi](http://dx.doi.org/10.1002/prop.200510266)
