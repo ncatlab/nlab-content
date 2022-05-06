@@ -282,6 +282,10 @@ A more detailed account of the definition, including a discussion of its  [[cohe
 
 * [[Tom Leinster]], _Basic bicategories_ ([arXiv:9810017](http://arxiv.org/abs/math/9810017))
 
+A comprehensive monograph is
+
+* [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ , arXiv:2002.06055 (2020). ([abstract](http://arxiv.org/abs/2002.06055v1))
+
 Some 2-category theory, including [[2-limit]]s/2-colimit is discussed in
 
 * [[Steve Lack]], _A 2-categories companion_ ([arXiv:0702535](http://arxiv.org/abs/math/0702535))
