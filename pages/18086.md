@@ -11,6 +11,8 @@ a variant of the [[torus]] in [[noncommutative geometry]]
 
 * [[fuzzy sphere]]
 
+* [[fuzzy funnel]]
+
 ## References
 
 * Wikipedia, _[Noncommutative torus](https://en.wikipedia.org/wiki/Noncommutative_torus)_
