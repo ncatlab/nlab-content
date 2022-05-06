@@ -1,5 +1,5 @@
 
-* [website](http://www.math.ku.dk/~ayala/)
+* [website](http://www.math.montana.edu/dayala/)
 
 ## related $n$Lab entries
 
