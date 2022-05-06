@@ -56,7 +56,8 @@ If $C$ has pullbacks of monomorphisms, $Sub$ is often used to denote the contrav
 ## References
 
 * {#Johnstone}  [[Elephant]] 
-* {#MO} mathoverflow (https://mathoverflow.net/users/2841/martin-brandenburg), Concise definition of subobjects, URL (version: 2014-10-11): [https://mathoverflow.net/q/184196](https://mathoverflow.net/q/184196) 
+
+* {#MO} Martin Brandenburg, _Concise definition of subobjects_ ([mathoverflow:184196](https://mathoverflow.net/q/184196))
 
 
 
