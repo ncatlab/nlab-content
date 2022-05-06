@@ -55,20 +55,7 @@ This morphism is also called the _Burnside character_ or _mark homomorphism_.
 ###### Remark
 **(marks in terms of homs)**
 
-Equivalent expressions for the $[H]$-marks of a [[G-set]] $X$ (Def. \ref{BurnsideCharacter}) are given by 
-
-1. the [[cardinality]] of the [[hom-set]] in [[GSet]] from $G/H$ to $X$
-
-1. the [[dimension]] of the [[hom-object|hom]]-[[vector space]] in [[GRep]] from the [[permutation representation]] $k[G/H]$ to the [[permutation representation]] $k[X]$ for any [[ground field]] $k$:
-
-\[
-  \label{MarksInTermsOfHoms}
-    \phi_H(X)
-    \;=\;
-    \left\vert Hom_{G Set}(G/H,X)\right\vert
-    \;=\;
-    dim_k \left( Hom_{G Rep_k}\left( k[G/H], k[X] \right) \right)
-\]
+Equivalent the set of $[H]$-marks of a [[G-set]] $X$ (Def. \ref{BurnsideCharacter}) is the [[hom-set]] in [[GSet]] from $G/H$ to $X$.
 
 =--
 
@@ -78,9 +65,7 @@ Equivalent expressions for the $[H]$-marks of a [[G-set]] $X$ (Def. \ref{Burnsid
 
 This follows from a basic standard argument. For completeness, we make it explicit:
 
-By [[transitive action|transitivity]] of the [[action]] on $G/H$ a $G$-equivariant function $f \colon G/H \to X$ is fully specified by its [[image]] $f([e]) \in X$ of the [[equivalence class]] $[e] \in G/H$ of the [[neutral element]]. Since this $[e] \in G/H$ is [[fixed point|fixed]] precisely by the elements in $H \subset G$ it may, again by $G$-equivariance, be mapped to any $H$-[[fixed point]] $f([e]) \in X^H \subset X$. This shows the first equality. 
-
-For the second, the same argument together with $k$-linearity shows that any $G$-equivariant [[linear function]] $\phi \colon k[G/H] \to k[X]$ is again fully determined by the image $\phi([e]) \in k[X]$, and by $G$-equivariance this may be any element in $k[X^H] \subset k[X]$. Hence the second equality follows from $dim_k\left( k[X^H] \right) = \left\vert X^H \right\vert$.
+By [[transitive action|transitivity]] of the [[action]] on $G/H$ a $G$-equivariant function $f \colon G/H \to X$ is fully specified by its [[image]] $f([e]) \in X$ of the [[equivalence class]] $[e] \in G/H$ of the [[neutral element]]. Since this $[e] \in G/H$ is [[fixed point|fixed]] precisely by the elements in $H \subset G$ it may, again by $G$-equivariance, be mapped to any $H$-[[fixed point]] $f([e]) \in X^H \subset X$. 
 
 =--
 
@@ -120,21 +105,9 @@ $$
   \right\vert
   \;=\;
   \left\vert Hom_{G Set}(G/H_i, G/H_j)\right\vert
-  \;=\;
-  dim_k\Big( Hom_{G Rep_k}\big( k[G/H_i], k[G/H_j]\big) \Big)
   \,.
 $$
 
-By the discussion at _[[Schur's lemma]]_ in the section _[Interpretation of categorical algebra](Schur's+lemma#InterpretationInCategoricalAlgebra)_ this means that the table of marks is equivalently the table of [[inner products]] of transitive [[permutation representations]] with each other
-
-$$
-  M_{i j}
-  \;=\;
-  \left\langle 
-    k[G/H_i],
-    k[G/H_j]
-  \right\rangle
-$$
 
 =--
 
