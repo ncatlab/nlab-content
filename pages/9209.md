@@ -72,7 +72,7 @@ Boston. 1990 (1990)
 
 A survey is in 
 
-* Ignacio L&#243;pez Franco, _Tensor products of finitely cococomplete and
+* [[Ignacio L&#243;pez Franco]], _Tensor products of finitely cococomplete and
 abelian categories_ (2012) ([pdf](http://www.mat.uc.pt/~workCT/slides/Ignacio.pdf))
  {#Franco12}
 
