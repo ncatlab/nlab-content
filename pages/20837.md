@@ -3,6 +3,10 @@
 
 * [[cosmology]]
 
+## Disambiguation
+
+For the notion in chromatic homotopy theory, see [[red-shift conjecture]]
+
 ## References
 
 See also 
