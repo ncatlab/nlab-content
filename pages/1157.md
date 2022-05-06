@@ -45,15 +45,14 @@ Going the other way, we start with a [[differential graded algebra]] and use 'co
 
 These topologically motivated constructions can be applied in much greater generality as we will see both here and elsewhere:
 
-## The Bar construction
+## Definitions
+
+### The bar construction
 
 (due originally Eilenberg-MacLane) Remember this goes from 'algebras' to Hopf algebras in general.
 
 \[B :pre \varepsilon CDGA \to pre CDGHA\]
 
-
-
-## Definition
 
 Let $(A,d,\varepsilon) $ be a commutative, augmented differential $\mathbb{Z}$-graded algebra, $d(A_n)\subseteq A_{n-1}$, $\overline{A} = Ker \varepsilon$.  
 
@@ -76,24 +75,26 @@ $$d_E(s a_1\otimes \ldots\otimes s a_n) = -\sum_{i = 1} ^n\eta(i-1)s a_1\otimes 
 
 with $\eta(i) = (-1)^{\sum_{k=1}^i |s a_k|}$.
 
-**Note** that _the image of a 1-connected cdga is a connected commutative Hopf algebra_.
-#### Things to note in this construction:
+**Note** 
 
-* It uses the _suspension_ operator on the graded vector spaces.  This mirrors the reduced suspension at the cell complex level.
+1. _the image of a 1-connected cdga is a connected commutative Hopf algebra_.
 
-* It uses a tensor algebra construction.  This from one point of view handles the formal concatenation aspect,  
+1. The construction uses the _suspension_ operator on the graded vector spaces.  This mirrors the reduced suspension at the cell complex level.
+
+* The construction uses a tensor algebra construction.  This from one point of view handles the formal concatenation aspect,  
 but has also a rich structure of a coalgebraic structure with reduced diagonal, given by 
 
-$$\bar{\Delta}(v_1\otimes \ldots \otimes v_n) = \sum_{p=1}^{n-1} (v_1\otimes \ldots \otimes v_p)\otimes(v_{p+1}\otimes \ldots \otimes v_n),$$
+  $$\bar{\Delta}(v_1\otimes \ldots \otimes v_n) = \sum_{p=1}^{n-1} (v_1\otimes \ldots \otimes v_p)\otimes(v_{p+1}\otimes \ldots \otimes v_n),$$
 
-(see [[differential graded coalgebra]]).
-This can be interpreted as looking at how a formal concatenation can be 'subdivided' into its various parts.
+  (see [[differential graded coalgebra]]).
+
+  This can be interpreted as looking at how a formal concatenation can be 'subdivided' into its various parts.
 
 
 
-## The Cobar construction
+### The Cobar construction
 
-(due to J. F. Adams)
+(due to J. F. Adams, see [Felix-Halperin0Thomas 92](#FelixHalperinThomas92))
 
 
 
@@ -188,16 +189,24 @@ Math. Soc. 25 (230) (1980) ix+171.
 
 See also:
 
-* [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
+* {#FelixHalperinThomas92} [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
 
 
 Review:
 
-* [[Dev Sinha]], _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
+* [[Dev Sinha]], Section 1 in: _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
 
+Generalization to [[dg-Hopf algebras]]:
 
+* Justin Young, _Brace Bar-Cobar Duality_ ([arXiv:1309.2820](https://arxiv.org/abs/1309.2820))
 
 [[!redirects cobar construction]]
 [[!redirects cobar constructions]]
 [[!redirects co-bar construction]]
 [[!redirects co-bar constructions]]
+
+[[!redirects bar-cobar duality]]
+[[!redirects bar-cobar dualities]]
+
+[[!redirects bar-cobar construction]]
+[[!redirects bar-cobar constructions]]
