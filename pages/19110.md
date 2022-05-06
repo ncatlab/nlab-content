@@ -953,6 +953,8 @@ Textbook accounts include
 
 Quick illustrations include:
 
+* Marcus Berg, p. 26-36 in _Introduction to Orientifolds_ ([pdf](https://tp.hotell.kau.se/marcus/physics/talks/orienti_short.pdf), [[BergOrientifolds.pdf:file]])
+
 
 * [slide 18 here](http://www2.kek.jp/theory-center/project/string2higgsflavor/wp-content/uploads/2016/08/part-2.pdf)
 
@@ -970,11 +972,17 @@ See also
 
 * {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
+* Maria E. Angulo, David Bailin, Huan-Xiong Yang, _Tadpole and Anomaly Cancellation Conditions in D-brane Orbifold Models_,  	Int.J.Mod.Phys.A18:3637-3694, 2003 ([arXiv:hep-th/0210150](https://arxiv.org/abs/hep-th/0210150))
+
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008, 2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
 * {#Marchesano03} [[Fernando Marchesano]], section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
 * {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
+
+For the [[topological string]]:
+
+* {#Walcher07} Johannes Walcher, _Evidence for Tadpole Cancellation in the Topological String_ ([arXiv:0712.2775](https://arxiv.org/abs/0712.2775))
 
 The character tables for [[virtual representation|virtual]] [[permutation representations]] above are taken from
 
