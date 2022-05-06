@@ -31,6 +31,8 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[imperative programming]]
 
+  * [[object-oriented programming]]
+
 * [[functional programming]]
 
 ### Specific examples
