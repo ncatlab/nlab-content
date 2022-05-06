@@ -57,7 +57,7 @@ Equivalently, partial evaluations are the 1-simplices of the [[bar construction]
 
 * [[Carmen Constantin]], [[Tobias Fritz]], [[Paolo Perrone]] and [[Brandon Shapiro]], _Partial evaluations and the compositional structure of the bar construction_. ([arXiv](https://arxiv.org/abs/2009.07302))
 
-* [[Paolo Perrone]] and [[Walter Tholen]], _Kan extensions are partial colimits_. ([arXiv](https://arxiv.org/abs/2101.04531))
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
 
 
 [[!redirects partial evaluations]]
