@@ -36,9 +36,9 @@
 
 ## Idea
 
-In [[type IIB string theory]] there are [[bound states]] of [[D5-branes]] with [[NS5-branes]]. The bound state of $p \in \mathbb{Z}$ D5-branes with $q \in\mathbb{Z}$ NS5-branes is then called a $(p,q)$-fivebrane or similar.
+In [[type IIB string theory]] there are [[bound states]] of [[D5-branes]] with [[NS5-branes]]. The bound state of $p \in \mathbb{Z}$ D5-branes with $q \in\mathbb{Z}$ NS5-branes is then called a _$(p,q)$-fivebrane_ or similar.
 
-As $p$ and $q$ varies the species of $(p,q)$5-branes form the [[lattice in a vector space|lattice]] $\mathbb{Z}^2$ and are naturally [[action]] acted on by the [[S-duality]] group [[SL(2,Z)]].
+As $p$ and $q$ varies the species of $(p,q)$5-branes form the [[lattice in a vector space|lattice]] $\mathbb{Z}^2$ and are naturally [[action|acted]] on by the [[S-duality]] group [[SL(2,Z)]].
 
 ## Properties
 
