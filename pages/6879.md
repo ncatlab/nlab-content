@@ -37,9 +37,10 @@ In the corresponding [[quantum field theory]], however, a [[state]] that is init
 
 The classical articles are
 
-* [[Sidney Coleman]], _Fate of the false vacuum: Semiclassical theory_ , Phys. Rev. D 15, 2929&#8211;2936 (1977) ([web](http://prd.aps.org/abstract/PRD/v15/i10/p2929_1))
+* [[Sidney Coleman]], _Fate of the false vacuum: Semiclassical theory_ , Phys. Rev. D 15, 2929&#8211;2936 (1977) ([doi:10.1103/PhysRevD.15.2929](https://doi.org/10.1103/PhysRevD.15.2929))
 
-* [[Sidney Coleman]], Frank De Luccia, _Gravitational effects on and of vacuum decay_ , Phys. Rev. D 21, 3305&#8211;3315 (1980) ([web](http://prd.aps.org/abstract/PRD/v21/i12/p3305_1))
+* [[Sidney Coleman]], [[Frank De Luccia]], _Gravitational effects on and of vacuum decay_ , Phys. Rev. D 21, 3305&#8211;3315 (1980) ([doi:10.1103/PhysRevD.21.3305](https://doi.org/10.1103/PhysRevD.21.3305))
+
 
 More recent development (in view of [[Higgs field|Higgs metastability]]):
 
