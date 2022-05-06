@@ -19,7 +19,7 @@
 
   (at temperature high enough that these bound states decay, one speaks of a _[[quark-gluon plasma]]_)
 
-* [[atomic nuclei]] are bound states of certain [[hadrons]], nameluy of [[protons]] and [[neutrons]] ([[nucleons]])
+* [[atomic nuclei]] are bound states of certain [[hadrons]], namely of [[protons]] and [[neutrons]] ([[nucleons]])
 
 * [[atoms]] are [[bound states]] of [[nucleus (physics)|nuclei]] and [[electrons]]
 
