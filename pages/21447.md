@@ -1,5 +1,5 @@
 
-* [webpage](https://en.wikipedia.org/wiki/Lisa_Randall)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Lisa_Randall)
 
 ## Selected writings
 
@@ -9,7 +9,7 @@ Introducing the [[Randall-Sundrum model]]:
 
 * {#RandallSundrum99b} [[Lisa Randall]], [[Raman Sundrum]], _An Alternative to Compactification_, Phys.Rev.Lett.83:4690-4693,1999 ([arXiv:hep-th/9906064](https://arxiv.org/abs/hep-th/9906064))
 
-Early discussion of the concept of [[probe branes]] in [[AdS/CFT]]:
+On [[AdS/CFT]] as [[open/closed string duality]] and early discussion of the concept of [[probe branes]] in [[AdS/CFT]]:
 
 * [[Andreas Karch]], [[Lisa Randall]], _Open and Closed String Interpretation of SUSY CFT's on Branes with Boundaries_, JHEP 0106:063, 2001 ([arXiv:hep-th/0105132](https://arxiv.org/abs/hep-th/0105132))
 
