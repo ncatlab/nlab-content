@@ -42,9 +42,13 @@ See also:
 
 * S. S. Afonin, T. D. Solomko, _The linear radial spectrum of scalar mesons within the QCD sum rules in the planar limit_, Eur. Phys. J. C 76, 678 (2016) ([arXiv:1608.08131](https://arxiv.org/abs/1608.08131))
 
-
-
 * Physics.SE discussion, _[What the heck is the sigma (f0) 600?](https://physics.stackexchange.com/q/13458/5603)_
+
+Inclusion of the [[sigma-meson]] into the [[Skyrme model]] for [[baryons]]:
+
+* Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
+
+
 
 
 Discussion in [[holographic QCD]]:
