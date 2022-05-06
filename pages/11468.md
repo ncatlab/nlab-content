@@ -123,6 +123,12 @@ and with an eye towards [[AdS-CFT duality]] in
 
 * [[Peter Freund]], _$p$-adic Strings Then and Now_ ([arXiv:1711.00523](https://arxiv.org/abs/1711.00523))
 
+Suggestion that the [[disk]] [[worldsheet]] of the [[open string|open]] [[p-adic string]] is to be identified with the [[Bruhat-Tits tree]] $T_p$:
+
+* [[Anton Zabrodin]], _Non-Archimedean strings and Bruhat-Tits trees_, Comm. Math. Phys.
+Volume 123, Number 3 (1989), 463-483 ([euclid.cmp/1104178891](https://projecteuclid.org/euclid.cmp/1104178891))
+
+
 Discussion of [[tachyon condensation]] in $p$-adic string theory includes
 
 * {#Cottrell02} William Cottrell, _$p$-adic Strings and Tachyon Condensation_, 2002 ([pdf](http://jfi.uchicago.edu/~tten/teaching/Phys.291/Cottrell_Freund_2002.pdf))
