@@ -17,11 +17,13 @@
 
 ## Idea
 
-For $C$ a [[category]] with the structure of a [[model category]] and $F:C\rightleftarrows D:U$ an [[adjunction]] with $U$ [[right adjoint]], under certain conditions it is possible  to _transfer_ the model structure from $C$ to a model structure on $D$ by declaring the fibrations and weak equivalences in $D$ to be precisely those morphisms whose images under $U$ are fibrations or weak equivalences, respectively, in $C$.
+For $C$ a [[category]] with the structure of a [[model category]] and $U:D\to C$ a functor having an [[adjoint]], under certain conditions it is possible to _transfer_ the model structure from $C$ to a model structure on $D$ by declaring the weak equivalences, and the fibrations (if $U$ is a right adjoint) or cofibrations (if $U$ is a left adjoint), in $D$ to be precisely those morphisms whose images under $U$ are such in $C$.  If $U$ is a right adjoint this is called the **right transferred**, **right induced**, or **right lifted** model structure, and dually in the left case.
 
-Typically this arises in situations where $D$ consist of the "same" objects as $C$ but equipped with extra [[stuff, structure, property]], and $U$ is the corresponding [[forgetful functor]] sending objects in $D$ to their underlying objects in $C$. Then $F$ is the corresponding [[free functor]].
+Typically this arises in situations where $D$ consist of the "same" objects as $C$ but equipped with extra [[stuff, structure, property]], and $U$ is the corresponding [[forgetful functor]] sending objects in $D$ to their underlying objects in $C$.  Then a left adjoint $F$ of $U$ is the corresponding [[free functor]], while a right adjoint $G$ is a [[cofree functor]].
 
-## Definition and Existence
+## Definition
+
+### Right transfer
 
 +-- {: .num_defn}
 ###### Definition
@@ -36,7 +38,7 @@ an [[adjunction]] with [[right adjoint]] $U$.  Define a morphism in $D$ to be
 * a **fibration** or **weak equivalence** precisely if its image under $U$ is, respectively, in $C$.
 * a **cofibration** precisely if it has the left lifting property with respect to the fibrations that are weak equivalences.
 
-If these classes of maps define a model structure on $D$, it is called the **transferred model structure** (or sometimes **induced model structure**) from $C$.
+If these classes of maps define a model structure on $D$, it is called the **right transferred model structure** (or sometimes **right induced model structure** or **right lifted model structure**) from $C$.
 =--
 
 Of course, in the above situation by a **trivial fibration** in $D$ we mean a morphism that is both a fibration and a weak equivalence, or equivalently whose image under $U$ is a trivial fibration in $C$.  The term "trivial cofibration", however, is *a priori* ambiguous: for the nonce let us call a morphism in $D$ a **cofibration weak equivalence** if it is both a cofibration and a weak equivalence and an **anodyne map** if it has the left lifting property with respect to all fibrations.  Of course, if the transferred model structure exists, then these two classes of maps coincide.  Conversely we have:
@@ -53,13 +55,30 @@ Necessary and sufficient conditions for the existence of the transferred model s
 Clearly the conditions are necessary.  For the converse, the weak equivalences have the 2-out-of-3 property, all the classes of maps are closed under retracts, the lifting properties hold by definition (for the anodyne maps), and we have assumed the factorization properties (for the anodyne maps), so it remains to show that every cofibration weak equivalence is anodyne.  This follows by the standard retract argument: if $f:A\to B$ is a cofibration weak equivalence, factor it as $f = p i$ with $i$ anodyne and $p$ a fibration.  Then since anodyne maps are weak equivalences and weak equivalences satisfy 2-out-of-3, $p$ is a trivial fibration.  Thus $f$ has the left lifting property against $p$, hence $f$ is a retract of $i$ and thus also anodyne.
 =--
 
+### Left transfer
+
+Dually, if $C$ is a model category and we have an adjunction
+$$
+  (U \dashv G )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
+$$
+with $U$ left adjoint, we define a morphism in $D$ to be
+
+* a **cofibration** or **weak equivalence** precisely if its image under $U$ is, respectively, in $C$.
+* a **fibration** precisely if it has the right lifting property with respect to the cofibrations that are weak equivalences.
+
+If these classes of maps define a model structure on $D$, it is called the **left transferred model structure** (or sometimes **left induced model structure** or **left lifted model structure**) from $C$.
+
+The above necessary and sufficient conditions dualize directly.
+
+## Existence
+
 ### Constructing factorizations
 
-The most common way to obtain the factorization properties is to assume that $C$ is [[cofibrantly generated]].
+The most traditional way to obtain the factorization properties in the right-transferred case is to assume that $C$ is [[cofibrantly generated]].
 
 +-- {: .num_prop #SufficientConditions}
 ###### Proposition
-In the above situation, suppose that
+In the right-transferred situation, suppose that
 
 1. $C$ is [[cofibrantly generated]], and
 
@@ -102,20 +121,30 @@ $$
 which corresponds by adjunction to precisely an $R$-algebra structure on $U f$.  Thus, the right weak composition law for $R$-algebras lifts to a right weak composition law for $R'$-algebras.  Garner's small object argument applied to $(L',R')$ then produces a monad over $cod$ with a right strong composition law, which is therefore an [[algebraic weak factorization system]] whose algebraic right maps are the $R'$-algebras, and in particular whose underlying right chlass is as desired those maps whose $U$-image is in $R$.
 =--
 
-In particular, therefore, the factorizations of any [[algebraic model structure]] lift along any adjunction between locally presentable model categories, whether or not they are cofibrantly generated.  But the cofibrantly generated case can also be subsumed, by taking $(L,R)$ to be the one-step factorization produced by the generating left maps.
+In particular, therefore, the factorizations of any [[accessible model structure]] lift along any adjunction between locally presentable model categories, whether or not they are cofibrantly generated.  But the cofibrantly generated case can also be subsumed, by taking $(L,R)$ to be the one-step factorization produced by the generating left maps.
 
-The algebraic version can also be dualized, whereas the merely cofibrantly-generated one cannot in general; see [HKRS15](#HKRS15) and [GKR18](#GKR18).
+By invoking fancier categorical machinery, one can show more generally:
+
+\begin{lemma}
+  Suppose given a functor $U:D\to C$ between locally presentable categories and an [[accessible weak factorization system]] $(L,R)$ on $C$.
+
+  1. If $U$ has a left adjoint $F$, then $(L,R)$ right-lifts along $U$ to an accessible wfs on $D$.
+  1. If $U$ has a right adjoint $G$, then $(L,R)$ left-lifts along $U$ to an accessible wfs on $D$.
+
+\end{lemma}
+
+See [HKRS15](#HKRS15) and [GKR18](#GKR18).  This sort of result seems to be necessary for the case of left-lifting; the simpler cofibrantly-generated argument does not dualize as directly.
 
 
 ### Verifying acyclicity
 
-The "acyclicity condition" that anodyne maps are weak equivalences is usually the most difficult to check.  Sometimes useful is the observation that in the cofibrantly generated case, it suffices to show that [[sequential colimit]] of [[pushouts]] of images under $F$ of the generating trivial cofibrations in $C$ (i.e. an $F(J)$-[[cell complex]]) yields a weak equivalence in $D$.  This is because the small object actually factors any map as such an $F(J)$-cell complex followed by a fibration; hence by the retract argument every anodyne map is a retract of an $F(J)$-cell complex.
+The "acyclicity condition" that anodyne maps are weak equivalences is usually the most difficult to check.  Sometimes useful is the observation that for right-lifting in the cofibrantly generated case, it suffices to show that [[sequential colimit]] of [[pushouts]] of images under $F$ of the generating trivial cofibrations in $C$ (i.e. an $F(J)$-[[cell complex]]) yields a weak equivalence in $D$.  This is because the small object actually factors any map as such an $F(J)$-cell complex followed by a fibration; hence by the retract argument every anodyne map is a retract of an $F(J)$-cell complex.
 
 Another useful sufficient condition is the following, going back roughly to section II.4 of ([Quillen](#Quillen)).
 
 +-- {: .num_prop #PathObjects}
 ###### Proposition
-In the above situation, suppose that
+In the situation of right transfer, where $U:C\to D$ is a right adjoint, suppose that
 
 * $D$ has a [[fibrant replacement functor]] (in fact it suffices for individual objects and morphisms to have fibrant replacements; functoriality is not required).
 
@@ -148,6 +177,8 @@ The morphism $\pi$ is the composite $P R f\to R X \times R Y \to R X$ at the top
 Now the projection $P R f\to P Y$ is a fibration, so since $f$ is anodyne there is a lift $g$ in the second square as shown.  Since $i$ and $j_Y$ are weak equivalences, by [[2-out-of-6]] it follows that $f$ is a weak equivalence.
 =--
 
+Note that this condition also dualizes straightforwardly to the left-transferred case.
+
 
 ## Properties
 
@@ -156,7 +187,7 @@ Now the projection $P R f\to P Y$ is a fibration, so since $f$ is anodyne there 
 +-- {: .num_lemma}
 ###### Observation
 
-If $C$ carries the structure of a [[right proper model category]], then also the transferred model structure on $D$ is right proper.
+If $C$ carries the structure of a [[right proper model category]], then also a right-transferred model structure on $D$ is right proper.
 
 =--
 
@@ -209,7 +240,7 @@ $$
   (F \dashv U )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
 $$
 
-satisfies the conditions of the above proposition so that the model structure on $C$ is transferred to $D$. Consider the case that $C$ is moreover an $S$-[[enriched model category]] and that $D$ can be equipped with the structure of a $S$-[[enriched category]] that is also  $S$-[[power]]ed and [[copower]]ed. 
+satisfies the conditions of the above proposition for right transfer, so that the model structure on $C$ is transferred to $D$. Consider the case that $C$ is moreover an $S$-[[enriched model category]] and that $D$ can be equipped with the structure of a $S$-[[enriched category]] that is also  $S$-[[power]]ed and [[copower]]ed. 
 
 Assume now that the $S$-powering of $D$ is taken by $U$ to the $S$-powering of $C$, in that $U(d^{(s_1 \to s_2)}) = U(d)^{(s_1 \to s_2)}$.
 
@@ -240,11 +271,11 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 
 ## Examples
 
-* The [[projective model structure on functors]] $M^D$ is transferred from the product model structure on $M^{ob D}$.  Dually, the [[injective model structure on functors]], when it exists, is co-transferred from $M^{ob D}$.
+* The [[projective model structure on functors]] $M^D$ is right-transferred from the product model structure on $M^{ob D}$.  Dually, the [[injective model structure on functors]], when it exists, is left-transferred from $M^{ob D}$.
 
-* The [[model structure on algebraic fibrant objects]] is transferred from the underlying model category by forgetting the choice of fillers.
+* The [[model structure on algebraic fibrant objects]] is right-transferred from the underlying model category by forgetting the choice of fillers.
 
-* If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable 2-category]] $K$. then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a transferred model structure from the [[2-trivial model structure]] on $K$.  The acyclicity condition is proved by using [[pseudolimits]] of arrows for path objects, and the (cofibration, trivial fibration) factorization is constructed using a version of the construction of Lemma \ref{AlgebraicLift} (since the 2-trivial model structure on $K$ may not be cofibrantly generated).
+* If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable 2-category]] $K$. then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a right-transferred model structure from the [[2-trivial model structure]] on $K$.  The acyclicity condition is proved by using [[pseudolimits]] of arrows for path objects, and the (cofibration, trivial fibration) factorization is constructed using a version of the construction of Lemma \ref{AlgebraicLift} (since the 2-trivial model structure on $K$ may not be cofibrantly generated).
 
 * A non-example is provided as Example 3.7 of ([GoerssSchemmerhorn](#GoerssShemm)). Let $k$ be a field of characteristic 2 and consider the adjunction
 $$
@@ -252,12 +283,12 @@ $$
 $$
 of the symmetric algebra functor and the forgetful functor between graded commutative DGAs and chain complexes. One sees that $S$ does not preserve the weak equivalence between 0 and the complex with one copy of $k$ in degrees $n$ and $n-1$. Since all chain complexes are cofibrant this means that $(S \dashv U )$ cannot be upgraded to a Quillen adjunction. 
 
-* A more category-theoretic non-example is that the [[Reedy model structure]] on [[directed graphs]] internal to [[Cat]] does not transfer to the category [[DblCat]] of [[double categories]] along the free-forgetful adjunction.  One of the generatic trivial cofibrations for the Reedy model structure "transports" a horizontal arrow (in double-category terminology) along two vertical isomorphisms, which is a levelwise equivalence.  But upon pushing out the free double category generated by this along a map into some other double category, new composite horizontal arrows may be generated in the codomain that are not isomorphic to the image of anything in the domain; thus the pushout is no longer a levelwise equivalence.  So, the acyclicity condition fails.
+* A more category-theoretic non-example is that the [[Reedy model structure]] on [[directed graphs]] internal to [[Cat]] does not right-transfer to the category [[DblCat]] of [[double categories]] along the free-forgetful adjunction.  One of the generatic trivial cofibrations for the Reedy model structure "transports" a horizontal arrow (in double-category terminology) along two vertical isomorphisms, which is a levelwise equivalence.  But upon pushing out the free double category generated by this along a map into some other double category, new composite horizontal arrows may be generated in the codomain that are not isomorphic to the image of anything in the domain; thus the pushout is no longer a levelwise equivalence.  So, the acyclicity condition fails.
 
 
 ## References
 
-The arguments for transfer of model structures go back to
+The arguments for (right-)transfer of model structures go back to
 
 * {#Quillen} [[Dan Quillen]], _Homotopical Algebra_ , Lecture Notes in Math. 43, Springer-Verlag, Berlin-eidelberg-New York, 1967.
 
@@ -267,7 +298,7 @@ Proofs can be found in
 * {#GoerssJardine} [[Paul Goerss]], Jardine, J. F., _Simplicial homotopy theory_ , Progress Mathematics 174, Birkhäuser Verlag, Basel, 1999.
 
 
-The explicit study of transfer of model structures (on categories of sheaves) is apperently originally due to 
+The explicit study of (right-)transfer of model structures (on categories of sheaves) is apperently originally due to 
 
 * {#Crans} [[Sjoerd Crans]], _Quillen closed model structure for sheaves_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459))
 
@@ -289,7 +320,7 @@ and on p. 6 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_  ([pdf](http://www.math.uu.nl/publications/preprints/1242.pdf))
 
-The dual notion of transfer, "left induced" instead of "right induced", is discussed in
+Left transfer is studied in
 
 * Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
 
@@ -297,7 +328,7 @@ The dual notion of transfer, "left induced" instead of "right induced", is discu
 
 * {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
 
-The transferred model structure on algebras for a 2-monad is from
+The right-transferred model structure on algebras for a 2-monad is from
 
 * {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
 
@@ -315,3 +346,53 @@ The transferred model structure on algebras for a 2-monad is from
 [[!redirects induced model category structures]]
 [[!redirects induced model structure]]
 [[!redirects induced model structures]]
+
+[[!redirects lifted model category]]
+[[!redirects lifted model categories]]
+[[!redirects lifted model category structure]]
+[[!redirects lifted model category structures]]
+[[!redirects lifted model structure]]
+[[!redirects lifted model structures]]
+
+[[!redirects right-transferred model category]]
+[[!redirects right-transferred model categories]]
+[[!redirects right-transferred model category structure]]
+[[!redirects right-transferred model category structures]]
+[[!redirects right-transferred model structure]]
+[[!redirects right-transferred model structures]]
+
+[[!redirects right-induced model category]]
+[[!redirects right-induced model categories]]
+[[!redirects right-induced model category structure]]
+[[!redirects right-induced model category structures]]
+[[!redirects right-induced model structure]]
+[[!redirects right-induced model structures]]
+
+[[!redirects right-lifted model category]]
+[[!redirects right-lifted model categories]]
+[[!redirects right-lifted model category structure]]
+[[!redirects right-lifted model category structures]]
+[[!redirects right-lifted model structure]]
+[[!redirects right-lifted model structures]]
+
+[[!redirects left-transferred model category]]
+[[!redirects left-transferred model categories]]
+[[!redirects left-transferred model category structure]]
+[[!redirects left-transferred model category structures]]
+[[!redirects left-transferred model structure]]
+[[!redirects left-transferred model structures]]
+
+[[!redirects left-induced model category]]
+[[!redirects left-induced model categories]]
+[[!redirects left-induced model category structure]]
+[[!redirects left-induced model category structures]]
+[[!redirects left-induced model structure]]
+[[!redirects left-induced model structures]]
+
+[[!redirects left-lifted model category]]
+[[!redirects left-lifted model categories]]
+[[!redirects left-lifted model category structure]]
+[[!redirects left-lifted model category structures]]
+[[!redirects left-lifted model structure]]
+[[!redirects left-lifted model structures]]
+
