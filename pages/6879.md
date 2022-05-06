@@ -51,6 +51,8 @@ More recent development (in view of [[Higgs field|Higgs metastability]]):
 [[!redirects false vacua]]
 [[!redirects false vacuums]]
 
+[[!redirects unstable vacuum]]
+[[!redirects unstable vacua]]
 
 [[!redirects vacuum decay]]
 [[!redirects vacuum decays]]
