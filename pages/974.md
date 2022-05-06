@@ -217,7 +217,7 @@ is again locally presentable.
 
 =--
 
-This appears for instance as ([Centazzo-Rosick&#253;-Vitale, remark 3](CentazzoRosickyVitale)).
+This appears for instance as [Centazzo-Rosick&#253;-Vitale, remark 3](#CentazzoRosickyVitale).
 
 
 +-- {: .num_theorem}
@@ -409,8 +409,8 @@ The standard textbook is
 
 More details are in 
 
-* C. Centazzo, [[Jiří Rosický]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
- {#CentazzoRosickyVitale}
+* {#CentazzoRosickyVitale} C. Centazzo, [[Jiří Rosický]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
+
 
 Some further discussion is in 
 
