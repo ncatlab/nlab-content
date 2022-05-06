@@ -102,5 +102,6 @@ The [[proper base change theorem]] also holds for locally proper maps if one use
 ## References
 
 * Olaf M. Schnürer and Wolfgang Soergel, _Proper base change for separated locally proper maps_,  Rend. Sem. Mat. Univ. Padova **135** (2016) pp 223-250. doi:[10.4171/RSMUP/135-13](https://doi.org/10.4171/RSMUP/135-13), arXiv:[1404.7630](https://arxiv.org/abs/1404.7630)
+* Günther Richter and Alexander Vauth, _Fibrewise sobriety_, in: Categorical structures and their applications. Proceedings of the North-West European category seminar, Berlin, Germany, March 28--29, 2003. River Edge, NJ: World Scientific. 265--283 (2004; Zbl 1065.18003). doi:[10.1142/9789812702418_0020](https://doi.org/10.1142/9789812702418_0020)
 
 [[!redirects locally proper]]
