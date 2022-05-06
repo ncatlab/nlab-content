@@ -265,11 +265,11 @@ Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeir
 * {#BCOV93} M. Bershadsky, S. Cecotti, [[Hirosi Ooguri]], [[Cumrun Vafa]], _Kodaira-Spencer Theory of Gravity and Exact Results for Quantum String Amplitudes_, Commun.Math.Phys.165:311-428,1994 ([arXiv:hep-th/9309140](http://arxiv.org/abs/hep-th/9309140))
  
 
-* [[Kevin Costello]], Si Li, _Quantum BCOV theory on Calabi-Yau manifolds and the higher genus B-model_ ([arXiv:1201.4501](http://arxiv.org/abs/1201.4501))
+* [[Kevin Costello]], [[Si Li]], _Quantum BCOV theory on Calabi-Yau manifolds and the higher genus B-model_ ([arXiv:1201.4501](http://arxiv.org/abs/1201.4501))
 
-* Si Li, _BCOV theory on the elliptic curve and higher genus mirror symmetry_ ([arXiv:1112.4063](http://arxiv.org/abs/1112.4063))
+* [[Si Li]], _BCOV theory on the elliptic curve and higher genus mirror symmetry_ ([arXiv:1112.4063](http://arxiv.org/abs/1112.4063))
 
-* Si Li, _Variation of Hodge structures, Frobenius manifolds and Gauge theory_ ([arXiv:1303.2782](http://arxiv.org/abs/1303.2782))
+* [[Si Li]], _Variation of Hodge structures, Frobenius manifolds and Gauge theory_ ([arXiv:1303.2782](http://arxiv.org/abs/1303.2782))
 
 [[!redirects TCFTs]]
 
