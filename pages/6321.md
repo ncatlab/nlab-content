@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Algebraic Qunantum Field Theory
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+#### Qunantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
-=--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -55,6 +55,8 @@ As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in Q
 * [[fine structure constant]]
 
 * [[photon propagator]]
+
+* [[Schwinger effect]]
 
 * [[quantum field theory]]
 
