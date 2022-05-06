@@ -49,7 +49,7 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 
 * A [[principal bundle]] with structure group the circle group is a [[circle bundle]]. The canonically corresponding [[associated bundle]] under the standard [[representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a complex [[line bundle]].
 
-* [[Pin(2)]]
+* [[Spin(2)]], [[Pin(2)]]
 
 [[!redirects circle group]]
 [[!redirects R/Z]]
