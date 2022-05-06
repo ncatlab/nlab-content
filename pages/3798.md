@@ -42,7 +42,7 @@ It is also easy to define *vertical* transformations between double functors whi
 $$\array{C & \overset{F}{\to} & D \\
   ^G\downarrow & \Downarrow& \downarrow^{G'}\\
   C'& \underset{F'}{\to} & D'}$$
-despite the fact that the composites $G' \circ F $and $F'\circ G$ do not exist as double functors of any sort.  Such transformations are the squares of a large double category $Dbl$ whose objects are double categories, whose horizontal arrows are lax functors, and whose vertical arrows are colax functors.  This, in turn, is a special case of a construction which works for algebras over any [[2-monad]].
+despite the fact that the composites $G' \circ F$ and $F'\circ G$ do not exist as double functors of any sort.  Such transformations are the squares of a large double category $Dbl$ whose objects are double categories, whose horizontal arrows are lax functors, and whose vertical arrows are colax functors.  This, in turn, is a special case of a construction which works for algebras over any [[2-monad]].
 
 Finally, we can also define vertical transformations between functors of (horizontally) [[virtual double categories]].
 
