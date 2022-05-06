@@ -45,6 +45,8 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 * [[colour charge]], [[flavour (particle physics)]]
 
+* [[quantum chromodynamics]]
+
 * [[confinement]]
 
   * [[quark bag model]], [[Cheshire cat principle]]
@@ -75,6 +77,8 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 ### General
 
+* [[Jiri Chyla]], _Quarks, partons and Quantum Chromodynamics_, ([spire:674163/)](http://inspirehep.net/record/674163/), [[ChylaQuarksQCD.pdf:file]])
+
 * Jean-Marc Richard, _An introduction to the quark model_ ([arXiv:1205.4326](https://arxiv.org/abs/1205.4326), [spire:1115489](http://inspirehep.net/record/1115489))
 
 Textbooks:
@@ -82,7 +86,6 @@ Textbooks:
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf), [spire:205394](https://inspirehep.net/record/205394))
 
 ### History
-
 
 The quark model was proposed independently in 1964 by
 
