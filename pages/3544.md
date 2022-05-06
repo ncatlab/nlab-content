@@ -36,6 +36,10 @@ On [[rational homotopy theory]]:
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
 
+On the (co)homology of commutative algebras:
+
+* [[D. G. Quillen]], 1970, _On the (co-)homology of commutative rings_, in _Proc. Symp. on Categorical Algebra_, 65–87, American Math. Soc.
+
 On [[equivariant de Rham cohomology]]:
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
