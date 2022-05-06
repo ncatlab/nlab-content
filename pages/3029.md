@@ -1621,7 +1621,7 @@ Textbooks include
 
 * A. G. Kurosh, Theory of groups 
 
-* Kenneth S. Brown, Cohomology of groups, Graduate Texts in Mathematics, __87__, Springer-Verlag, New York-Berlin, 1982. 
+* [[Kenneth Brown]], _Cohomology of groups_, Graduate Texts in Mathematics, __87__, Springer-Verlag, New York-Berlin, 1982. 
 
 
 Lecture notes and similar include
