@@ -203,6 +203,10 @@ Moreover, the orientability and connectivity assumptions in Def. \ref{MatchingGS
 
 ## Equivariant Hopf degree theorem
 
+We first state the equivariant Hopf degree theorem for full (i.e. unstable/[[non-abelian cohomology|non-abelian]])[[equivariant Cohomotopy]], and then its [[stabilization]] to [[stable equivariant Cohomotopy]].
+
+### In unstable equivariant Cohomotopy
+
 +-- {: .num_theorem #EquivariantHopfDegreeTheorem}
 ###### Theorem
 **([[equivariant Hopf degree theorem]])**
@@ -259,6 +263,22 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 ([tom Dieck 79, 8.4](#tomDieck79))
 
 <br/>
+
+
+### In stable equivariant Cohomotopy
+
+[[stabilization]] to [[stable equivariant Cohomotopy]]
+
+(...)
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=23">
+<img src="https://ncatlab.org/schreiber/files/EquivariantCohomotopyLinearizedToKTheory.jpg" width="640">
+</a>
+</center>
+
+> graphics grabbed from [SS19](equivariant+Hopf+degree+theorem#SatiSchreiber19)
+
 
 
 ## Examples
@@ -542,7 +562,9 @@ $$
 =--
 
 <center>
-<img src="https://ncatlab.org/nlab/files/EquivariantNCohomotopyOfEuclideanNOrientifold.jpg" width="840">
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=19">
+<img src="https://ncatlab.org/schreiber/files/EquivariantHopfDegreeOnZ2RepSpheres.jpg" width="640">
+</a>
 </center>
 
 > graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
@@ -630,8 +652,14 @@ and all degrees  must differ from that of the class of the [[identity function]]
 ### Equivariant Cohomotopy of representation tori
  {#EquivariantCohomotopyOfRepresentationTori}
 
+For the case of [[representation tori]] 
+
+(...)
+
 <center>
-<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfToroidalOrientifold.jpg" width="850">
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
+<img src="https://ncatlab.org/schreiber/files/ToroidalOrbifoldsEquivariantHopfDegree.jpg" width="640">
+</a>
 </center>
 
 > graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
