@@ -1,7 +1,6 @@
 
 [[field (physics)]]
 
-
 **[[standard model of particle physics]]**
 
 **[[force]] [[field (physics)|field]] [[gauge field|gauge]] [[bosons]]**
@@ -88,6 +87,8 @@ bosinos:
 * [[monopole]]
 
 * [[dual graviton]]
+
+* [[giant graviton]]
 
 * [[leptoquark]]
 
