@@ -119,10 +119,11 @@ In a sequence of followup articles, authors found this problematic and tried to 
 
 
 
-
+[[!redirects RR fields]]
 
 [[!redirects RR-field]]
 [[!redirects RR-fields]]
+
 [[!redirects Ramond-Ramond field]]
 [[!redirects Ramond–Ramond field]]
 [[!redirects Ramond--Ramond field]]
