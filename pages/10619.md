@@ -1334,7 +1334,7 @@ First some **Notation:**
 \end{xymatrix}
 
 * For $R$ a [[ring]] we write $H R$ for its [[Eilenberg-MacLane spectrum]]
-and $ H^{\mathrm{ev}}R \;\coloneqq\; \underset{k}{\oplus} \Sigma^{2k} H R$ for its even 2-periodic version.
+and $ H^{\mathrm{ev}}R \;\coloneqq\; \underset{k \in \mathbb{N}}{\oplus} \Sigma^{2k} H R$ for its [[connective spectrum|connective]] even 2-periodic version.
 
 
 \linebreak
@@ -2611,7 +2611,114 @@ Now consider the following [[homotopy coherent diagram|homotopy]] [[pasting diag
 
 By Remark \ref{CanonicalSplittingOfCofiberOfEvenPerioticQCohomoloygOverSphere} the class of this diagram over $[c]$ is a rational number, well-defined modulo integers.
 
-By Lemma \ref{identifyingCofiberRationalCohomoloyOfCofiberSpace} with Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace}, this number is the Adams e-invariant.
+By Lemma \ref{identifyingCofiberRationalCohomoloyOfCofiberSpace} with Prop. \ref{QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace}, this number is the Adams $e_{\mathbb{C}}$-invariant.
+
+\linebreak
+
+{#ConnerFloydTheoremViaPastingDiagram}
+With this diagrammatic formulation of the e-invariant, the Conner-Floyd theorem -- that the [[e-invariant is the Todd class of cobounding (U,fr)-manifolds]] -- follows as an immediate corollary: It just amounts to factoring the above pasting composite further through [[MU]], as follows:
+
+\begin{xymatrix@C=15pt}
+   S^{2(n + d)-1}
+   \ar[dd]_-{ c }
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   &&
+   \ast
+   \ar[dr]
+   \ar[dd]
+   \\
+   && &
+   \ast
+   \ar[dd]|-{
+     \mathclap{\phantom{\vert^{\vert}}}
+     0
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \\
+   S^{2n}
+   \ar[dd]
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{\color{orange}$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   \ar@/_.7pc/[drrr]
+     |<<<<<{ \;\Sigma^{2n} (1^{M\mathrm{U}})\;\; }
+     |>>>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+   &&
+   C_c
+   \ar[dd]
+   \ar@{-->}[dr]^-{
+   }
+   %\ar@/_2pc/[dddrrr]
+   %  |>>>>>>>>>>>>>>>{
+   %    \mathclap{\phantom{\vert}}
+   %    \;{\color{magenta} e(f)}\;
+   %  }
+   &&
+   \\
+   && &
+   M\mathrm{U}^{2n}
+   \ar[dd]
+   \ar[dr]|-{
+     \;\sigma\;
+   }
+   \ar@/^1.7pc/[ddrr]|>>>>>>>>>>>{
+     \;
+     \mathclap{\phantom{\vert^{\vert}}}
+     \mathrm{Td}
+     \mathclap{\phantom{\vert_{\vert}}}
+     \;
+   }
+   \\
+   \ast
+   \ar@/_.7pc/[drrr]|-{ \;0\; }
+   \ar[rr]
+   &&
+   S^{2(n+d)}
+   \ar@{-->}[dr]|-{
+     \;
+     \mathclap{\phantom{\vert^{\vert}}}
+     \color{magenta}M^{2d}
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   &&
+   \mathrm{KU}^{2n}
+   \ar[dr]|-{
+     \;
+     \mathrm{ch}
+     \;
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \ar[dd]|>>>>>>{ \phantom{\vert_{\vert}} }
+   \\
+   && &
+   (M\mathrm{U}/\mathbb{S})^{2n}
+   \ar@/^1.7pc/[ddrr]
+     |>>>>>>>>>{
+       \mathclap{\phantom{\vert^{\vert}}}
+       \;\mathrm{Td}/\mathbb{S}\;
+       \mathclap{\phantom{\vert_{\vert}}}
+     }
+   \ar[dr]|-{ \;\sigma/\mathbb{S}\; }
+   &&
+   (H^{\mathrm{ev}}\mathbb{Q})^{2n}
+   \ar[dd]
+   \\
+   && &&
+   (\mathrm{KU}/\mathbb{S})^{2n}
+   \ar[dr]|-{ \;\mathrm{ch}/\mathbb{S}\; }
+   \\
+   && && &
+   \big(
+     (H^{\mathrm{ev}}\mathbb{Q})/\mathbb{S}
+   \big)^{2n}
+\end{xymatrix}
+
 
 
 \linebreak
