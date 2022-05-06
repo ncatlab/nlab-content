@@ -3502,7 +3502,16 @@ $$
 
 * [[classical model structure on simplicial sets]]
 
-* [[classical model structure on pointed topological spaces]]
+* [[model structure on topological spaces]]
+
+  * [[classical model structure on topological spaces]]
+
+    * [[classical model structure on pointed topological spaces]]
+
+  * [[Strøm model structure]]
+
+  * [[model structure on Delta-generated topological spaces]]
+
 
 ## References
 
