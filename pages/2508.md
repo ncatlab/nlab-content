@@ -32,6 +32,8 @@ This entry contains material related to the textbook
 
   [doi:10.1142/0224](https://doi.org/10.1142/0224)
 
+  [epdf: vol 1](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-1-mathematical-foundat.html), [epdf: vol 2](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-2-supergravity.html), [epdf: vol 3](https://epdf.pub/supergravity-and-superstrings-a-geometric-perspective-vol-3-superstrings.html)
+
 on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré formulation of supergravity]], based on
 
 * {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
