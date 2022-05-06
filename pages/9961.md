@@ -198,3 +198,5 @@ The [[IKKT matrix model]] and claims that it predicts spontaneous [[KK-compactif
 
 
 [[!redirects lattice QCD]]
+
+[[!redirects lattice QFT]]
