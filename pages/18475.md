@@ -1,14 +1,20 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+#### Solid state physics
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include solid state physics -- contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -165,6 +171,7 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-
 [[!redirects AdS/CFT correspondence in solid state physics]]
 [[!redirects AdS-CFT correspondence in solid state physics]]
 
+[[!redirects AdS/CFT duality in solid state physics]]
 
 
 
