@@ -33,6 +33,8 @@ While the [[BFSS matrix model]] notoriously suffers from issues with the definit
 The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] solutions are configurations of  [[fuzzy 2-spheres]], corresponding to [[M2-brane]]-[[giant gravitons]] ([BMN 02 (5.4)](#BerensteinMaldacenaNastase02),
 [DSJVR 02, Section 4.2](#DSJVR02)), which under the [[duality between M-theory and type IIA string theory]] become [[D0-D2 brane bound states]] ([Lin04](#Lin04)).
 
+[[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
+
 ## Related concepts
 
 * [[BFSS matrix model]]
