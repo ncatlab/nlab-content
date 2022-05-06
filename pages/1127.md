@@ -85,6 +85,10 @@ Much of the localization theory of rings generalizes to general Grothendieck cat
 
 ## References
 
+A dedicated survey is
+
+* Grigory Garkusha, _Grothendieck categories_, Algebra i Analiz 2001, 55 pp. [pdf](https://www.researchgate.net/profile/Grigory_Garkusha/publication/2142579_Grothendieck_Categories/links/570e36d408aec783ddd1ba89.pdf)
+
 Grothendieck categories are mentioned at the end of section 8.3 in
 
 * {#KS} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
@@ -102,7 +106,7 @@ See also
 
 The duality of Grothendieck categories with categories of modules over [[linearly compact ring]]s is discussed in
 
-*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, []()
+*  U. Oberst, _Duality theory for Grothendieck categories and linearly compact rings_, J. Algebra __15__ (1970), p. 473 --542, [pdf](https://core.ac.uk/download/pdf/82581773.pdf)
 
 Discussion of [[model structures on chain complexes]] in Grothendieck abelian categories is in
 
