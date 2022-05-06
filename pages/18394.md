@@ -17,7 +17,7 @@ A topology $\mathcal{T}^*$ on $X$ is called a __cotopology__ of $\mathcal{T}$---
 
 \end{definition}
 
-If $\mathcal{T}$ is regular, the last condition is equivalent to $\mathcal{T}$ being [[bitopological space#Compatibility conditions for topologies|regular with respect to]] $\mathcal{T}^*$, i.e. each point $x$ has a neighborhood base in $X$ the elements of which are closed in $\mathcal{T}^*$.
+If $\mathcal{T}$ is [[regular space|regular]], the last condition can be replaced by other conditions, see [[bitopological space#implications|this proposition]].
 
 \begin{definition}
 A topological space $X$ is called __cocompact__ if there is a cotopology $\mathcal{T}^*$ on $X$ which is [[compact space|compact]].
