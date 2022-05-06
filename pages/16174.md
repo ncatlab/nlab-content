@@ -215,6 +215,8 @@ The concept was named by Dress, following
 
 * {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)), reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
 
+* {#Burnside01} [[William Burnside]], _On the Representation of a Group of Finite Order as a Permutation Group, and on the Composition of Permutation Groups_, Proceedings of the American Mathematical Society 1901 ([doi:10.1112/plms/s1-34.1.159](https://doi.org/10.1112/plms/s1-34.1.159))
+
 Textbook accounts and lecture notes include
 
 * Charles Curtis, Irving Reiner, chapter XI of _Representation theory of finite groups and associative algebras_, AMS 1962
