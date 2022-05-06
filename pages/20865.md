@@ -29,7 +29,7 @@ Similarly, in [[braid group]]-theory, a _horizontal weight system_ is an assignm
 ###### Definition
 **([[linear span]] of [[chord diagrams]] [[quotient vector space|modulo]] [[4T-relations|4T]])**
 
-Let $k$ be a [[field]] of [[characteristic zero]]. Write 
+Let $k$ be a [[field]] (or just a [[commutative ring]]). Write 
 
 1. $\mathcal{D}^c$ for the [[set]] of [[chord diagrams]],
 
@@ -136,9 +136,57 @@ of the [[quotient vector space]] $\mathcal{A}^t \coloneqq k\langle \mathcal{D}^t
 
 =--
 
+\linebreak
+
 ### Horizontal weight systems
 
-(...)
+
++-- {: .num_defn #LinearSpanOfHorizontalChordDiagramsModulo2TAnd4T}
+###### Definition
+**([[linear span]] of [[horizontal chord diagrams]] [[quotient vector space|modulo]] [[2T relation|2T]]/[[4T-relations|4T]])**
+
+Let $k$ be a [[field]] (or just a [[commutative ring]]). Write 
+
+1. $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]],
+
+1. $k\langle \mathcal{D}^{pb}\rangle$ for its $k$-[[linear span]],
+
+1. $\mathcal{A}^{pb} \;\coloneqq\; k\langle \mathcal{D}^c\rangle/(2T,4T)$ for the [[quotient vector space]] by the [[2T relations]] and [[horizontal 4T-relations]].
+
+=--
+
+(The superscript "${}^{pb}$"in Def. \ref{LinearSpanOfHorizontalChordDiagramsModulo2TAnd4T} is for _[[pure braids]]_, alluding to the fact that [[horizontal weight systems are associated graded of Vassiliev braid invaraints]].)
+
++-- {: .num_defn #HorizontalWeightSystems}
+###### Definition
+**([[horizontal weight system]])**
+
+A _$k$-valued horizontal weight system_ is a [[linear function]] on the [[linear span]] of [[horizontal chord diagrams]] [[quotient vector space|modulo]] [[2T relation|2T]]&[[4T-relations]] (Def. \ref{LinearSpanOfHorizontalChordDiagramsModulo2TAnd4T})
+
+$$
+  w 
+  \;\colon\;
+  \mathcal{A}^{pb} \longrightarrow k
+  \,,
+$$
+
+hence the $k$-[[vector space]] of horizontal weight systems is the [[dual vector space]]
+
+\[
+  \mathcal{W}^{pb}
+  \;\coloneqq\;
+  (\mathcal{A}^{pb})^\ast
+\]
+
+=--
+
+### Lie algebra weight systems
+ {#LieAlgebraWeightSystems}
+
+A large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[Lie algebra object]] equipped with a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. This does yield weight systems because the required relations translate exactly to the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property).
+
+The weight systems arising this way are called _[[Lie algebra weight systems]]_. See there for more
+
 
 ## Properties
 
@@ -278,9 +326,6 @@ we get this situation:
 <img src="https://ncatlab.org/nlab/files/VassilievInvInCohOfLoopSpacesOfConfigSpaces.jpg" width="600">
 
 
-### Weight systems from Lie algebras
-
-(...)
 
 ## Related concepts
 
