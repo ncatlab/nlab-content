@@ -11,6 +11,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -257,7 +258,7 @@ and in
  
 More regarding the sociology of the field:
 
-* {#Barwick17} [[Clark Barwick]], _The future of homotopy theory_, 2017 ([pdf](http://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf))
+* {#Barwick17} [[Clark Barwick]], _The future of homotopy theory_, 2017 ([pdf](http://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf), [[BarwickFutureOfHomotopyTheory.pdf:file]])
 
 
 [[!redirects Homotopy Theory]]
