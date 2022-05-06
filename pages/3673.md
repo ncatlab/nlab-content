@@ -33,7 +33,7 @@ Typically this arises in situations where $D$ consist of the "same" objects as $
 ###### Definition
 
 
-Let $C$ be a [[cofibrantly generated model category]] and
+Let $C$ be a [[model category]] and
 
 $$
   (F \dashv U )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
@@ -49,7 +49,9 @@ Say a morphism in $D$ is a fibration or weak equivalence precisely if its image 
 +-- {: .num_prop #SufficientConditions}
 ###### Proposition
 
-Sufficient conditions for this to define a cofibrantly generated model category structure on $D$ are
+Sufficient conditions for this to define a model category structure on $D$ are
+
+1. $C$ is [[cofibrantly generated]].
 
 1. the functor $F$ preserves [[small object]]s
 
@@ -65,19 +67,16 @@ Sufficient conditions for this to define a cofibrantly generated model category 
      
      (meaning: a factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration (under $U$) $\Delta : A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$, functorial in $A$).
 
-If these conditions are met, then for $I$ (resp. $J$) the set of generating (acyclic) cofibrations in $C$, the image set $F(I)$ (resp. $F(J)$) forms the set of generating (acyclic) cofibrations in $D$.
+If these conditions are met, then the model structure on $D$ is also cofibrantly generated, and for $I$ (resp. $J$) the set of generating (acyclic) cofibrations in $C$, the image set $F(I)$ (resp. $F(J)$) forms the set of generating (acyclic) cofibrations in $D$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-One uses the [[small object argument]] repeatedly.
+One uses the [[small object argument]] to construct factorizations in $D$, together with a retract argument applied to the path objects to show that the maps in $D$ with the left lifting property with respect to fibrations are weak equivalences.
 
 The argument goes back to section II.4 of ([Quillen](#Quillen)). A proof for one set of sufficient conditions in is chapter II of ([GoerssJardine](#GoerssJardine)). Then ([Crans](#Crans)) and ([Cisinski](#Cisinski)).
-
-
-
 =--
 
 
@@ -174,19 +173,13 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 
 * The [[model structure on algebraic fibrant objects]] is transferred from the underlying model category by forgetting the choice of fillers.
 
-* If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable 2-category]] $K$. then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a transferred model structure from the 2-trivial model structure on $K$.  (This is proven directly, rather than by appeal to the acyclicity as above.)
-
-...
-
-+--{: .query}
-[[Mike Shulman]]: In addition to lots of examples, I think it would be also nice to include here a *non* example, of a case where the putative transferred model structure provably *doesn't* exist.
-=--
+* If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable 2-category]] $K$. then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a transferred model structure from the [[2-trivial model structure]] on $K$.  (This is proven directly, rather than by appeal to the acyclicity as above, though it does use a sort of small object argument; see [Lack 06](#Lack06).)
 
 * A non-example is provided as Example 3.7 of ([GoerssSchemmerhorn](#GoerssShemm)). Let $k$ be a field of characteristic 2 and consider the adjunction
 $$
  (S \dashv U )\; : \; CGA_k \stackrel{\overset{S}{\leftarrow}}{\underset{U}{\to}} Ch_*k
 $$
-of the symmetric algebra functor and the forgetful functor between graded commutative DGAs and chain complexes. One sees that $S$ does not preserve the weak equivalence between 0 and the complex with one copy of $k$ in degrees $n$ and $n-1$. Since all chain complexes are cofibrant this means that $(S \dashv U )$ cannot be upgrade to a Quillen adjunction. 
+of the symmetric algebra functor and the forgetful functor between graded commutative DGAs and chain complexes. One sees that $S$ does not preserve the weak equivalence between 0 and the complex with one copy of $k$ in degrees $n$ and $n-1$. Since all chain complexes are cofibrant this means that $(S \dashv U )$ cannot be upgraded to a Quillen adjunction. 
 
 
 ## References
@@ -230,6 +223,8 @@ See also
 * {#HKRS15} [[Kathryn Hess]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
 
 * [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+
+* {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
 
 [[!redirects transferred model structures]]
 
