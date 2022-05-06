@@ -28,7 +28,7 @@ Decorated cospans solve this problem by moving the cospans to the 'decorating ca
 Let $\mathbf A$ be a category admitting finite coproducts, $\mathbf X$ a category admitting finite colimits and $L : \mathbf A \to \mathbf X$ a functor preserving finite coproducts. Then the [[symmetric monoidal category|symmetric monoidal]] [[double category]] of **structured cospans** over $L$ is the category $_L\mathrm{Csp}(\mathbf X)$ which has
 
 * objects given by objects of $\mathbf A$,
-* vertical 1-morphisms given by morphism of $\mathbf A$
+* vertical 1-morphisms given by morphisms of $\mathbf A$
 * horizontal 1-morphisms given by structured cospans:
 $$
   \array{
