@@ -5,15 +5,17 @@ Michael Green is professor for theoretical [[physics]] at Cambridge. Together wi
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Green_%28physicist%29)
 
-## Various
+## Quotes
 
 On the computation of the [[anomaly cancellation]] now known as the [[Green-Schwarz mechanism]] in [[heterotic string theory]] (also known as [The First Superstring Revolution](http://theory.caltech.edu/people/jhs/strings/str133.html)):
 
-> {#WeMustBeGettingPrettyClose} MICHAEL GREEN: I do remember a particular moment, when John Schwarz and I were talking at the blackboard and working out these numbers which had to fit, and they just had to match exactly. I remember joking with John Schwarz at that moment, because there was thunder and lightning -- there was a big mountain storm in Aspen at that moment -- and I remember saying something like, you know, "We must be getting pretty close, because the gods are trying to prevent us completing this calculation." And, indeed, they did match.
+> {#WeMustBeGettingPrettyClose} MICHAEL GREEN: I do remember a particular moment, when [[John Schwarz]] and I were talking at the blackboard and working out these numbers which had to fit, and they just had to match exactly. I remember joking with John Schwarz at that moment, because there was thunder and lightning -- there was a big mountain storm in Aspen at that moment -- and I remember saying something like, you know, "We must be getting pretty close, because the gods are trying to prevent us completing this calculation." And, indeed, they did match.
 
 (Taken from [NOVA - The Elegant Universe - Transcript](https://www.scribd.com/document/185276/NOVA-The-Elegant-Universe-Transcript))
 
 ## Selected writings
+
+
 
 On the [[Green-Schwarz superstring]]:
 
@@ -25,14 +27,18 @@ On the [[Green-Schwarz superstring]]:
 
 * {#GreenSchwarz84b} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285 ([spire:196623](http://inspirehep.net/record/196623), <a href="https://doi.org/10.1016/0550-3213(84)90030-0">doi:10.1016/0550-3213(84)90030-0</a>)
 
-
-On M2-M5 brane bound states:
+On [[M2-M5 brane bound states]]:
 
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
 
+
+On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
+
+* {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+
   
 
-## related entries
+## Related $n$Lab entries
 
 * [[string theory]]
 
