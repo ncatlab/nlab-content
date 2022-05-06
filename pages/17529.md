@@ -21,7 +21,7 @@
 ###### Theorem
 **(fundamental theorem of finitely generated abelian groups)**
 
-Every [[finitely generated object|finitely generated]] [[abelian group]] $A$ is [[isomorphism|isomorphic]] to a [[direct sum]] of [[p-primary groups|p-primary]] [[cyclic groups]] $\mathbb{Z}/p^k \mathbb{Z}$ (for $p$ a [[prime number]] and $k$ a [[natural number]] ) and copies of the infinite cyclic group $\mathbb{Z}$:
+Every [[finitely generated object|finitely generated]] [[abelian group]] $A$ is [[isomorphism|isomorphic]] to a [[direct sum]] of [[p-primary groups|p-primary]] [[cyclic groups]] $\mathbb{Z}/p^k \mathbb{Z}$ (for $p$ a [[prime number]] and $k$ a [[natural number]] ) and copies of the [[infinite cyclic group]] $\mathbb{Z}$:
 
 $$
   A 
