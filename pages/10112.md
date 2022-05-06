@@ -174,6 +174,11 @@ Review
 [[!redirects vector meson]]
 [[!redirects vector mesons]]
 
+[[!redirects pseudovector meson]]
+[[!redirects pseudovector mesons]]
+[[!redirects pseudo-vector meson]]
+[[!redirects pseudo-vector mesons]]
+
 [[!redirects scalar meson]]
 [[!redirects scalar mesons]]
 
