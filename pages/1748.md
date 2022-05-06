@@ -82,7 +82,7 @@ $$
      \\
      {}^{\mathllap{\delta_0}}\downarrow & \searrow^{\mathrlap{x}}
      \\
-     I &\stackrel{\eta}{\longrightarrow}& Y
+     I &\stackrel{\eta}{\longrightarrow}& X
      \\
      {}^{\mathllap{\delta_1}}\uparrow & \nearrow_{\mathrlap{y}}
      \\
