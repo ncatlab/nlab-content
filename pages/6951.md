@@ -143,6 +143,10 @@ For the origins in the semantics of intuitionistic logic consult
 
 * W. Veldman, _An intuitionistic completeness theorem for intuitionistic predicate calculus_ , JSL **41** no. 1 (1976) pp.159--166.
 
+A categorical-constructive take on these completeness results is in
+
+* [[Erik Palmgren]], _Constructive Sheaf Semantics_ , Math. Log. Quart. **43** (1997) pp.321-327.
+
 A (non-categorical) textbook presentation of the original Kripke semantics can be found in
 
 * [[John Lane Bell|J. Bell]], M. Machover, _A Course in Mathematical Logic_ , North-Holland Amsterdam 1977. (section IX.6 pp.416--422)
@@ -154,6 +158,10 @@ A more recent overview is in
 The topos-theoretic generalization is usually attributed to [[André Joyal]] who observed in the early 70s that this topos semantics subsumes various notions of forcing but his work was apparently not published. An early reference is
 
 * [[Gerhard Osius|G. Osius]], _A note on Kripke--Joyal semantics for the internal language of topoi_ , Springer LNM **445** (1975) pp.349--354.
+
+The first section of the following sums up a 1973 talk and gives an interesting informal overview of the basics involved emphazising [[site|sites]]
+
+* [[Anders Kock]], _Universal Projective Geometry via Topos Theory_ , JPAA **9** (1976) pp.1-24.
 
 The following texts stress the connection to Cohen and Kripke's work
 
@@ -190,6 +198,10 @@ For a philosophical assessment and comparison to ordinary Tarski semantics see
 A generalization to [[quantales]] is in
 
 * R. Goldblatt, _A Kripke--Joyal Semantics for Noncommutative Logic in Quantales_ , pp.209--225 in Governatori, Hodkinson, Venema (eds.), _Advances in Model Logic vol. 6_ , College Publications London 2006. ([draft](http://www.mcs.vuw.ac.nz/~rob/papers/aiml11printed.pdf))
+
+Semantics via generalized elements in categories with pullbacks is studied in
+
+* [[Anders Kock]], _Elementwise semantics in categories with pull-backs_ , arXiv:2004.14731 (2020). ([abstract](http://arxiv.org/abs/2004.14731))
 
 
 [[!redirects Kripke-Joyal semantics]]
