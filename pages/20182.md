@@ -116,11 +116,26 @@ $$
 
 Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces of maps]]:
 
+* Samuel Bruce Smith, _Rational evaluation subgroups_, Math Z (1996) 221: 387 ([doi:10.1007/BF02622121](https://doi.org/10.1007/BF02622121))
+
+* Gregory Lupton, Samuel Bruce Smith, _Rationalized Evaluation Subgroups of a Map and the Rationalized G-Sequence_ ([arXiv:math/0309432](https://arxiv.org/abs/math/0309432))
+
 * {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
 * [[Urtzi Buijs]], [[Aniceto Murillo]], _Basic constructions in rational homotopy theory of function spaces_,  Annales de l'Institut Fourier, Volume 56 (2006) no. 3, p. 815-838 ([doi:10.5802/aif.2201](https://doi.org/10.5802/aif.2201))
 
+* [[Micheline Vigué-Poirrier]], _Rational formality of function spaces_, Journal of Homotopy and Related Structures 2.1 (2007): 99-108 ([arXiv:0706.2977](https://arxiv.org/abs/0706.2977))
+
+* Gregory Lupton, Samuel Bruce Smithm, _Rationalized evaluation subgroups of a map I: Sullivan models, derivations and $G$-sequences_, Journal of Pure and Applied Algebra, Volume 209, Issue 1, April 2007, Pages 159-171 ([doi:10.1016/j.jpaa.2006.05.018](https://doi.org/10.1016/j.jpaa.2006.05.018))
+
+
+* Gregory Lupton, Samuel Bruce Smith, _Whitehead products in function spaces: Quillen model formulae_, J. Math. Soc. Japan, Volume 62, Number 1 (2010), 49-81. ([arXiv:0812.1829](https://arxiv.org/abs/0812.1829), [euclid:jmsj/1265380424](https://projecteuclid.org/euclid.jmsj/1265380424))
+
 * [[Urtzi Buijs]], [[Aniceto Murillo]], _The rational homotopy Lie algebra of function spaces_, Comment. Math. Helv. 83 (2008), 723–739 ([pdf](https://pdfs.semanticscholar.org/d404/657ccc24b0c06434086485d3e528e0316e26.pdf))
+
+* J.-B. Gatsinzi, _A model for function spaces_, Topology and its Applications, Volume 168, 15 May 2014, Pages 153-158 ([doi:10.1016/j.topol.2014.02.021](https://doi.org/10.1016/j.topol.2014.02.021))
+
+* J.-B. Gatsinzi, _Rational Gottlieb Group of Function Spacesof Maps into an Even Sphere_, International Journal of Algebra, Vol. 6, 2012, no. 9, 427 - 432 ([pdf](http://www.m-hikari.com/ija/ija-2012/ija-9-12-2012/gatsinziIJA9-12-2012.pdf))
 
 * [[Alexander Berglund]], _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2 ([arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16))
 
@@ -133,10 +148,9 @@ Discussion of [[rational Cohomotopy]] [[cocycle spaces]]:
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
 
+* J.-B. Gatsinzi, _Rational Gottlieb Group of Function Spacesof Maps into an Even Sphere_, International Journal of Algebra, Vol. 6, 2012, no. 9, 427 - 432 ([pdf](http://www.m-hikari.com/ija/ija-2012/ija-9-12-2012/gatsinziIJA9-12-2012.pdf))
 
-### Rational cohomology of mapping spaces
-
-On [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]]:
+On the [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]]:
 
 * {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
 
