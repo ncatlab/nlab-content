@@ -1,4 +1,11 @@
-__Y-system__ and __T-system__ are two related classes of algebraic relations associated with [[affine Lie algebra]]s and can be considered as encoding certain [[integrable system]]s. Y-system can be considered as a system of [[difference equation]]s of special type. The elements of the T-system satisfy discrete Hirota equations.
+__Y-system__ and __T-system__ are two related classes of algebraic relations associated with [[affine Lie algebra]]s and can be considered as encoding certain [[integrable system]]s. Y-system can be considered as a system of [[difference equation]]s for a finite set of commuting
+variables $Y_i$, $i\in I$,
+
+$$
+Y_i(t+1)Y_i(t-1)=\prod_{j\neq i}\bigl(Y_j(t)+ 1\bigr)^{-a_{ij}}
+$$
+
+The elements of the T-system satisfy discrete [[Hirota equation]]s. 
 
 For reviews see
 
@@ -12,8 +19,10 @@ Y-system has a remarkable connection to [[cluster algebra]]s:
 
 Y-systems are relevant for integrability phenomena in superstring theory and in relation to study of spectrum of N=4 SUSY Zang-Mills theory. See survey
 
-* Stijn J. van Tongeren, _Integrability of the AdS_5 x S^5 superstring and its deformations_, J. Phys. A: Math. Theor. 47 (2014) 433001 [arxiv/1310.4854](http://arxiv.org/abs/1310.4854)
+* Stijn J. van Tongeren, _Integrability of the $AdS_5 \times S^5$ superstring and its deformations_, J. Phys. A: Math. Theor. 47 (2014) 433001 [arxiv/1310.4854](http://arxiv.org/abs/1310.4854)
 
 
 [[!redirects T-system]]
 [[!redirects Y-system and T-system]]
+
+category: physics
