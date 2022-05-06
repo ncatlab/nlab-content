@@ -95,10 +95,37 @@ The support induces a [[monad#the_bicategory_of_monads|morphism of monads]] (see
 
 ### Integration
 
-There is an integration theory for valuation analogous to that of measures, where lower semicontinuous functions play the role of measurable functions
+There is an integration theory for valuation analogous to that of measures, where the [[open sets]] play the role of the [[measurable sets]], and lower [[semicontinuous functions]] play the role of [[measurable functions]]
 (see also [[correspondence between measure and valuation theory]]).
+Sometimes integration of valuation is known as **lower integration**, since approximations are done from below.
 
-(...)
+The way to define integration, mutatis mutandis, parallels usual [[Lebesgue integral]] construction.
+We sketch the construction for the case of topological spaces.
+
+Let $\nu$ be a valuation on a space $X$.
+
+* Given an open set $U\subseteq X$, and denoting by $1_U$ its [[indicator function]], we define
+$$
+\int 1_U \, d\nu \;\coloneqq\; \nu(U) .
+$$
+
+* A [[simple function|simple]] lower semicontinuous function is a lower semicontinuous function assuming only finitely many values. Such functions can be expressed (nonuniquely) as finite positive linear combinations of indicator functions:
+$$
+f \;=\; \sum_i r_i \, 1_{U_i} .
+$$
+We define the integral of a simple $f$ as
+$$
+\int f \, d\nu \;\coloneqq\; \sum_{i}r_i \nu(U_i) .
+$$
+This is well-defined, i.e.~it depends only on $f$ and not on the particular way of expressing $f$ as a linear combination of indicators. 
+
+* Every lower semicontinuous function can be written as pointwise directed supremum of simple lower semicontinuous functions. So suppose $g:X\to[0,\infty]$ is lower semicontinuous. Take an increasing net $(g_\alpha)_{\alpha\in A}$ of nonnegative simple lower semicontinuous functions. Then we define 
+$$
+\int g \, d\nu \;\coloneqq\; \sup_\alpha \int g_\alpha\,d\nu ,
+$$
+where the integral on the right is the one defined above for simple functions, and the supremum on the right is either the one of real numbers (or lower real numbers), or $+\infty$. 
+
+This integral satisfies analogous properties to the Lebesgue integral, such as [[linearity]] and [[Scott continuity]] (cfr. the [[monotone convergence theorem|sequential monotone continuity]] of the Lebesgue integral). 
 
 
 ## Monads of valuations
@@ -108,7 +135,7 @@ The most famous are
 
 * The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
 
-* The **extended probabilistic powerdomain** on the [[Top|category of topological spaces]] It was introduced by [Heckmann](#monad). Its algebras have recently been studied by [Goubault-Larrecq and Jia](#algebras).
+* The **extended probabilistic powerdomain** on the [[Top|category of topological spaces]], which was introduced by [Heckmann](#monad). Its algebras have recently been studied by [Goubault-Larrecq and Jia](#algebras).
 
 * The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
 
