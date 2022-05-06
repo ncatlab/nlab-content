@@ -61,7 +61,7 @@ In a propositionally extensional type theory, we still distinguish [[definitiona
 
 1. We can add Streicher's *[[axiom K]]* which says that any inhabitant of a self-equality type $Id_A(x,x)$ is (propositionally) equal to the identity/reflexivity equality $1_x$.  (Axiom K is so named because $K$ comes after $J$, and $J$ usually denotes the [[elimination rule|eliminator]] for [[identity types]].)
 
-1. In the presence of [[dependent sum types]], we can add an axiom saying that if $(a,b_1)$ and $(a,b_2)$ are pairs in a dependent sum $\sum_{x\colon A} B(x)$ with the same first component, and the identity type $Id_{\sum_{x\colon A} B(x)}((a,b_1), (a,b_2))$ is inhabited, then so is $Id_a(b_1,b_2)$.
+1. In the presence of [[dependent sum types]], we can add an axiom saying that if $(a,b_1)$ and $(a,b_2)$ are pairs in a dependent sum $\sum_{x\colon A} B(x)$ with the same first component, and the identity type $Id_{\sum_{x\colon A} B(x)}((a,b_1), (a,b_2))$ is inhabited, then so is $Id_{B(a)}(b_1,b_2)$.
 
 1. We can allow definition of functions by a strong form of *pattern matching*, as in unmodified [[Agda]].  The relevant "extra strength" is to allow output *types* of a pattern match which are only well-defined *after* the pattern has been matched.
 
@@ -98,5 +98,4 @@ Among the most thorough recent treatments of extensional type theory are
 
 
 
-[[!redirects extensional type theory]]
 [[!redirects extensional type theories]]
