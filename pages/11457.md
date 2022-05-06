@@ -37,7 +37,7 @@ A framed elliptic curve is in particular naturally a [[framed manifold]] (a fram
 
 ## References
 
-* {#Hain08} Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+* {#Hain08} [[Richard Hain]], _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
 
 [[!redirects framed elliptic curves]]
