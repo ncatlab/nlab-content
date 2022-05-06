@@ -63,7 +63,7 @@ where the right vertical morphism picks one [[cocycle]] representative in each [
 
 The [[cocycle]]s in $SpinStruc_{tw}(X)$ are [[twisted bundles|twisted Spin-bundles]].
 
-The obstruction cocycles in $\mathbf{H}(X, \mathbf{[B}^2 \mathbb{Z}_2)$ are $\mathbf{B}\mathbb{Z}_2$-[[principal 2-bundle]]s. These may be modeled by $\mathbb{Z}_2$-[[bundle gerbe]]s. In this incarnation the obstruction cocycles $w_2(g)$ above have been discussed as _spin gerbes_ in ([MurraySinger](#MurraySinger)).
+The obstruction cocycles in $\mathbf{H}(X, \mathbf{B}^2 \mathbb{Z}_2)$ are $\mathbf{B}\mathbb{Z}_2$-[[principal 2-bundle]]s. These may be modeled by $\mathbb{Z}_2$-[[bundle gerbe]]s. In this incarnation the obstruction cocycles $w_2(g)$ above have been discussed as _spin gerbes_ in ([MurraySinger](#MurraySinger)).
 
 ## Related concepts
 
