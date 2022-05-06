@@ -50,7 +50,7 @@ The invertibiliy of the $(n,k)$-transformations is that of their components whic
 Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
 
 * any $j$-morphism is an [[equivalence]], for $j \gt r$;
-* any two parallel $j$-morphisms are equivalent, for $j \gt n$.
+* any two [[parallel morphisms|parallel]] $j$-morphisms are equivalent, for $j \gt n$.
 
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
 
