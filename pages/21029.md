@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _multi trace observable_ is a [[polynomial]] in [[single trace operators]] (see there for more background).
+A _multi trace observable_ in a [[gauge theory]] is a [[polynomial]] in [[single trace operators]] (see there for more background). Under the [[AdS/CFT correspondence]], [[single trace observables]] in the gauge theory correspond to single particle/string excitations on the [[gravity]]-side, while multi-trace observables correspond to multi-particle/string excitations ([Liu 98, p. 7](#Liu98), [Andrianapoli-Ferrara 99, p. 13](#AndrianapoliFerrara99)).
 
 ## Properties
 
@@ -34,7 +34,22 @@ The [[supersymmetry|supersymmetric]] and [[rotation]]-[[invariant]] multi trace 
 
 ## References
 
-Discussion of the gravitational [[AdS-CFT duality|AdS-CFT dual]] of multi-trace operators:
+Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of their [[AdS-CFT duality|AdS-CFT dual]] [[gravity]]/[[string theory]] incarnation:
+
+* [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
+
+* {#Liu98} [[Hong Liu]], _Scattering in Anti-de Sitter Space and Operator Product Expansion_, Phys. Rev. D 60, 106005 (1999) ([arXiv:hep-th/9811152](https://arxiv.org/abs/hep-th/9811152))
+
+* {#AndrianapoliFerrara99} [[Laura Andrianopoli]], [[Sergio Ferrara]], _On short and long $SU(2,2/4)$ multiplets in the AdS/CFT correspondence_, Lett. Math.Phys. 48 (1999) 145-161 ([arXiv:hep-th/9812067](https://arxiv.org/abs/hep-th/9812067))
+
+* Gordon Chalmers, Koenraad Schalm, _Holographic Normal Ordering and Multi-particle States in the AdS/CFT Correspondence_, Phys. Rev. D61:046001, 2000 ([arXiv:hep-th/9901144](https://arxiv.org/abs/hep-th/9901144))
+
+* Massimo Bianchi, Stefano Kovacs, Giancarlo Rossi, Yassen S. Stanev, _On the logarithmic behaviour in $\mathcal{N}=4$ SYM theory_, JHEP 9908 (1999) 020 ([arXiv:hep-th/9906188](https://arxiv.org/abs/hep-th/9906188))
+
+* Witold Skiba, _Correlators of Short Multi-Trace Operators in $\mathcal{N}=4$ Supersymmetric Yang-Mills_, Phys. Rev. D 60, 105038 (1999) ([arXiv:hep-th/9907088](https://arxiv.org/abs/hep-th/9907088))
+
+* [[Gleb Arutyunov]], [[Sergey Frolov]], A. C. Petkou, _Perturbative and instanton corrections to the OPE of CPOs in $\mathcal{N}=4$ $SYM_4$_, Nucl. Phys. B602:238-260, 2001; Erratum-ibid. B609:540, 2001 ([arXiv:hep-th/0010137](https://arxiv.org/abs/hep-th/0010137))
+
 
 * [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Multiple-Trace Operators and Non-Local String Theories_, JHEP 0108:006, 2001 ([arXiv:hep-th/0105309](https://arxiv.org/abs/hep-th/0105309))
 
@@ -60,23 +75,29 @@ Discussion of the gravitational [[AdS-CFT duality|AdS-CFT dual]] of multi-trace 
 
 [[!redirects multi-trace operators]]
 
-[[!redirects multi-trace operator]]
-[[!redirects multi-trace operators]]
-
-
-[[!redirects multi trace operator]]
-[[!redirects multi trace operators]]
-
 [[!redirects multi trace operator]]
 [[!redirects multi trace operators]]
 
 
+[[!redirects multi-trace observable]]
+[[!redirects multi-trace observables]]
 
+[[!redirects multi trace observable]]
+[[!redirects multi trace observables]]
+
+
+
+
+[[!redirects double-trace operator]]
+[[!redirects double-trace operators]]
 
 [[!redirects double trace operator]]
 [[!redirects double trace operators]]
 
-[[!redirects double trace operator]]
-[[!redirects double trace operators]]
+[[!redirects double-trace observable]]
+[[!redirects double-trace observables]]
+
+[[!redirects double trace observable]]
+[[!redirects double trace observables]]
 
 
