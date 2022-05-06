@@ -392,7 +392,7 @@ $$
 
 where all the elementary morphisms are the unique intramural maps from lemma \ref{Intramural} and the extramural maps from lemma \ref{Extramural} -- they are the morphisms of the _salamander diagram_ of remark \ref{OmittingIntramuralMaps}.
 
-Dually, if a diagram
+Similarly, if a diagram
 
 $$
   \array{
