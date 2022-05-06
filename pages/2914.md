@@ -232,9 +232,12 @@ Quillen's criterion for Quillen equivalences now yields the statements about equ
 * [[opposite model structure]]
 
 
-## References ##
 
-* {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
+## References 
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], Theorem 7.6.5 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+* {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf), [arXiv:1507.01624](https://arxiv.org/abs/1507.01624))
 
 
 [[!redirects model structure on an overcategory]]
