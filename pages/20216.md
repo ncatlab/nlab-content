@@ -78,6 +78,9 @@ Textbook accounts:
 
 * {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 15.2 of _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985 ([doi:10.1007/978-1-4612-1100-6](https://link.springer.com/book/10.1007/978-1-4612-1100-6))
 
+* {#Walschap04} Gerard Walschap, chapter 6.7 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
+
+
 Review includes
 
 * Alex Wright, Kael Dixon, _The Poincaré–Hopf theorem_ ([pdf](https://pdfs.semanticscholar.org/cd21/dbffb8cbc3a3636c40a58cb921789b0eaac9.pdf))
