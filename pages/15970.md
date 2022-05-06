@@ -7,7 +7,8 @@
 [[!redirects Nikolaj+K]]
 [[!redirects Nikolaj-K]]
 
-I'm a physicist interested in clear and encompassing foundations. You can find my contact _[on my Wiki](axiomsofchoice.org)_. I also create video content on type systems and category theoretical concepts _[on youtube](https://www.youtube.com/channel/UCcrSMnEYhIPX_p127jI23qw/videos)_.
+I'm a physicist interested in clear and encompassing foundations. 
+I create video content on type systems and category theoretical concepts _[on youtube](https://www.youtube.com/channel/UCcrSMnEYhIPX_p127jI23qw/videos)_.
 
 ![2014](http://i.imgur.com/mBK4dTV.jpg)
 
@@ -16,6 +17,5 @@ I'm a physicist interested in clear and encompassing foundations. You can find m
 +-- {: .query}
 [[Nikolaj Kuntner]]: how to do a query text
 =--
-
 
 ![2018](https://i.imgur.com/hcXFEOC.png)
