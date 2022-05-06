@@ -43,7 +43,7 @@ This appears as [Rezk, 6.1](#Rezk).
 
 ## References
 
-* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
 
 [[!redirects model toposes]]
