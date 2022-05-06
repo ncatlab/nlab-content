@@ -77,11 +77,20 @@ This terminology is most commonly used in the following situations:
 
 * When $f^*$ is the [[inverse image]] part of a [[geometric morphism]] between [[(n,1)-topoi]] and $f_!$ is a [[left adjoint]] of it, if the [[adjunction]] $f_!\dashv f^*$ satisfies  Frobenius reciprocity, then the geometric morphism is called [[locally n-connected (n+1,1)-topos|locally (n-1)-connected]].  In particular, if $n=0$ so that we have a [[continuous map]] of [[locales]], then a left adjoint $f_!$ satisfying Frobenius reciprocity makes it an [[open map]], and if $n=1$ so that we have 1-[[topoi]], then it is [[locally connected geometric morphism|locally connected]] (see also _[[open geometric morphism]]_).  This usage of "Frobenius reciprocity" is sometimes also extended to the dual situation of [[proper map]]s of locales and topoi.
 
-### In Wirthm&#252;ller contexts of six-operations yoga
+### In six operations yoga
  {#InWirthmuellerContexts}
 
-Generally, an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$
-between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is called a _[[Wirthmüller context]]_ ([May 05](#May05)) of _[[six operations]]_ yoga, if $f^\ast$ is a strong [[closed monoidal functor]].   In this case, and even more generally, the projection formula holds.
+The projection formula plays a notable role in Grothendieck's yoga of [[six operations]].  For example if an [[adjoint triple]] $(f_! \dashv f^\ast \dashv f_\ast)$ between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] is a _[[Wirthmüller context]]_ ([May 05](#May05)), $f^\ast$ is a strong [[closed monoidal functor]].  This implies the projection formula, i.e. the existence of a natural isomorphism
+
+$$ \pi \colon f_!((f^\ast B) \otimes A) \stackrel{\cong}{\longrightarrow} B \otimes f_! A $$
+
+The projection formula also holds in a [[Grothendieck context]] or a [[Verdier-Grothendieck context]] ([May 05](#May05)).
+
+## Properties
+
+### Closed monoidal functors and the projection formula
+
+The following results isolate the connection between closed monoidal functors and the projection formula.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -100,7 +109,7 @@ $$
 +-- {: .proof}
 ###### Proof 
 
-For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have a natural isomorphism
+Suppose $\mathcal{X}$ and $\mathcal{Y}$ are symmetric closed monoidal categories, $f_! \colon \mathcal{X} \to \mathcal{Y}$ is left adjoint to $f^* \colon \mathcal{Y} \to \mathcal{X}$, and $f^*$ is strong closed.  For all $A \in \mathcal{X}$ and $B,C \in \mathcal{Y}$ we have a natural isomorphism
 
 $$ \mathcal{Y}(A, [f^*B, f^*C]) \cong \mathcal{Y}(A, f^*[B,C] ) $$
 
@@ -116,9 +125,9 @@ By the [[Yoneda lemma]] this gives the desired natural isomorphism $\pi$.
 
 =--
 
-Since no properties of the symmetry are used this result also holds for braided closed monoidal categories, or even just left (or right) closed monoidal categories as long as one is careful about writing the tensor products in the correct order.  
+In the above result we assumed $f^*$ is strong closed but not necessarily monoidal.  If instead we assume $f^*$ is monoidal, we can show $f^*$ is strong closed iff the projection formula holds.
 
-## Properties
+First suppose $f_! \colon \mathcal{X} \to \mathcal{Y}$ is any lax monoidal functor between symmetric closed monoidal categories.  Then $f_!$ is automatically [[closed monoidal functor|lax closed]].   TO BE CONTINUED.
 
 ### Relation to Frobenius laws (in Frobenius algebras)
 
