@@ -376,10 +376,107 @@ For $E$ a [[multiplicative cohomology theory]] with unit map $\mathbb{S} \overse
 
 We give two proofs: A quick abstract one and a more explicit one. The latter is close to the old argument of [Conner-Floyd 66, Thm. 16.2](MUFr#ConnerFloyd66) (there for $E/\mathbb{S} = $ [[MUFr]], see [this section](MUFr#RelationToMUAndFr) for more).
 
-\begin{proof}[quick abstract]
+\begin{proof}\label{QuickAbstractProof}[quick abstract]
 
-By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}Fluxes^E\big( S^{n+d-1} \big)$ is equivalently the class of a homotopy [[cone]] with tip $\Sigma^{n+d-1} \mathbb{S}$ over the [[cospan]] formed by the ring spectrum unit $e^E$ and the [[zero morphism]]. By the [[universal property]] of [[homotopy fibers]] this is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to 
-$fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} E/\mathbb{S}$. This implies the claim, by 
+By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}Fluxes^E\big( S^{n+d-1} \big)$ is equivalently the class of a homotopy [[cone]] with tip $\Sigma^{n+d-1} \mathbb{S}$ over the [[cospan]] formed by the ring spectrum unit $e^E$ and the [[zero morphism]]:
+
+\begin{xymatrix@=26pt}
+    \Sigma^{n+d-1}\mathbb{S}
+    \ar[rr]_>>>{\ }="s"
+    \ar[dd]^>>>{\ }="t"
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        c
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    &&
+    \ast
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        0
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    \\
+    \Sigma^n \mathbb{S}
+    \ar[rr]
+      |-{
+        \; \Sigma^n(e^E) \;
+      }
+    &&
+    \Sigma^n E
+    %
+    \ar@{=>}
+      |-{
+        \mathclap{\phantom{\vert^{\vert^{\vert}}}}
+        {
+          \color{orange}
+          H^E_{n-1}\!(c)
+        }
+        \mathclap{\phantom{\vert_{\vert_{\vert}}}}
+      }
+      "s"; "t"
+\end{xymatrix}
+
+But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences]], and by the [[universal property]] of [[homotopy fibers]] the class of the above diagram is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to  $fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} (E/\mathbb{S}$):
+
+\begin{xymatrix@=26pt}
+    \Sigma^{n+d-1}\mathbb{S}
+    \ar@/_1pc/[dddr]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        c
+        \mathclap{\phantom{\vert_{\vert_{\vert}}}}
+      }
+    \ar@/^1pc/[rrrd]
+    \ar@{-->}[dr]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \vdash
+        {
+          \color{orange}
+          H^E_{n-1}\!(c)
+        }
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    \\
+    & 
+    \Sigma^{n-1}
+    (\mathbb{S}/E)
+    \ar[rr]_>>>{\ }="s"
+    \ar[dd]^>>>{\ }="t"
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        \partial
+        \mathclap{\phantom{\vert_{\vert}}}
+      }
+    &&
+    \ast
+    \ar[dd]
+      |-{
+        \mathclap{\phantom{\vert^{\vert}}}
+        0
+        \mathclap{\phantom{\vert_{\vert}}}
+      }      
+    \\
+    \\
+    &
+    \Sigma^n \mathbb{S}
+    \ar[rr]
+      |-{
+        \;\Sigma^n(e^E)\;
+      }
+    &&
+    \Sigma^n E
+    %
+    \ar@{=>} 
+      ^-{ \mbox{\tiny\color{orange}(pb)} }
+    "s"; "t"
+\end{xymatrix}
+
+
+This implies the claim, by 
 
 $$
   \pi_0
