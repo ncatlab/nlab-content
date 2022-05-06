@@ -1,13 +1,32 @@
-[[!redirects Feynman categories]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+## Contents
+* table of contents
+{:toc}
+
+## Idea
+
+What has been called _Feynman categories_ is a [[biequivalence|biequivalent way]] of speaking about [[coloured operads]] ([Batanin-Kock-Weber 15](#BataninKockWeber15)).
 
 ## Definition
 
-Let $C$ be a groupoid, $C^\otimes$ the free symmetric monoidal category on $C$ and $M$ a symmetric monoidal category. 
+Let $C$ be a [[groupoid]], $C^\otimes$ the [[free construction|free]] [[symmetric monoidal category]] on $C$ and $M$ a [[symmetric monoidal category]].
 
-([Kaufman 2017, Defn 2.1](#Kaufman17)) A symmetric strong monoidal functor $\tau: C^\otimes\to M$ is a __Feynman category__ if the following are satisfied
+([Kaufman 2017, Defn 2.1](#Kaufman17)) A symmetric [[strong monoidal functor]] $\tau: C^\otimes\to M$ is a __Feynman category__ if the following are satisfied
 
 * _isomorphisms condition_: $\tau^\otimes$ induces an equivalence of symmetric monoidal categories $C^\otimes \cong M_{iso}$
+
 * _hereditary condition_: $\tau$ and $\tau^\otimes$ induce an equivalence of symmetric monoidal categories  $(C\downarrow M)^\otimes_{iso}\cong(M\downarrow M)_{iso}$
+
 * _size condition_: For any $\ast \in C$, $(M \downarrow \ast)$ is [[essentially small]].
 
 (Getzler 2009) A symmetric strong monoidal functor $\tau: C^\otimes\to M$ is a __regular pattern__ if the following are satisfied
@@ -17,7 +36,13 @@ Let $C$ be a groupoid, $C^\otimes$ the free symmetric monoidal category on $C$ a
 
 The latter condition on [[comma categories]] ensures the existence of certain (pointed) [[Kan extension]]s. 
 
-## Literature
+## Properties
+
+### Equivalence with coloured operads
+
+There is an [[equivalence of 2-categories]] between the [[2-category]] of Feynman categories and that of [[coloured operads]] ([Batanin-Kock-Weber 15](#BataninKockWeber15)).
+
+## References
 
 Related items include [[operad]], [[Feynman transform]].
 
@@ -29,6 +54,10 @@ The axiomatics is proposed in
 A more recent survey is in 
 
 * {#Kaufman17} Ralph M. Kaufmann, _Lectures on Feynman categories_, [arxiv:1702.06843](https://arxiv.org/abs/1702.06843)
+
+The [[biequivalence]] of Feynman catgeories with [[coloured operads]] is proven in
+
+* {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]], _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. 33 (2018), 148--192 ([arXiv:1510.08934](https://arxiv.org/abs/1510.08934))
 
 A representation-theoretical viewpoint is given in 
 
@@ -53,14 +82,14 @@ Getzler's axiomatics of regular patterns is similar in spirit to Feynman categor
 
 * [[Ezra Getzler]], _Operads revisited_, in: Algebra, arithmetic, and geometry: in honor of Yu. I. Manin. Vol. I, vol. 269 of Progr. Math., pp. 675–698 (2009) [math/0701767](https://arxiv.org/abs/math/0701767)
 
-A comparison of both with related notions like Day-Street [[substitude]]s as well as [[colored operad]]s is in 
-
-* Michael Batanin, Joachim Kock, Mark Weber, _Regular patterns, substitudes, Feynman categories and operads_, [arxiv/1510.08934](https://arxiv.org/abs/1510.08934)
 
 A connection of Feynman categories to (a generalization of) profunctors and to rewriting systems within a proposal to categorification of the [[cyclic operad]]s are exhibited in
 
-* Pierre-Louis Curien, Jovana Obradović, _Categorified cyclic operads_, [arxiv/1706.06788](https://arxiv.org/abs/1706.06788) 
+* [[Pierre-Louis Curien]], Jovana Obradović, _Categorified cyclic operads_, [arxiv/1706.06788](https://arxiv.org/abs/1706.06788) 
 
 Interesting pair of functors (not an adjoint pair!) between operadic categories and Feynman categories is among the topics studied in
 
-* M. Batanin, M. Markl, _Koszul duality for operadic categories_, [arxiv.org/abs/1812.02935](https://arxiv.org/abs/1812.02935)
+* [[Michael Batanin]], [[Martin Markl]], _Koszul duality for operadic categories_, [arxiv.org/abs/1812.02935](https://arxiv.org/abs/1812.02935)
+
+[[!redirects Feynman categories]]
+
