@@ -34,7 +34,16 @@ In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become no
 
 If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once their [[statistical significance]] reaches 5[[standard deviation|σ]], see [here](statistical+significance#ParticlePhysics)), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
 
-Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)).
+In fact [Lyons 13b](#Lyons13b) argued that the detection-threshold of the [[statistical significance]] of anomalies here should be just 4[[standard deviation|σ]], which would mean that they should already count as being detected:
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/LyonsGMinus2DetectionThreshold.jpg" width="600">
+\end{center}
+
+> table taken from [Lyons 13b, p. 4](#Lyons13b)
+
+
+Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)), which at the same time are a candidate for explaining the [[flavour anomalies]].
 
 
 ## Contributions
@@ -69,6 +78,12 @@ Basic discussion:
 * Kirill Melnikov, Arkady Vainshtein, _Theory of the Muon Anomalous Magnetic Moment_, Springer Tracts in Modern Physics 216, 2006
 
 * [[Friedrich Jegerlehner]], _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
+
+Discussion of detection-threshold for the [[statistical significance]] of anomalies:
+
+
+* {#Lyons13b} [[Louis Lyons]], _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
+
 
 See also
 
