@@ -9,6 +9,24 @@ On microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric eng
 
 * {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, Gen. Rel. Grav. 40: 2249-2431, 2008 ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
 
+
+
+Introducing [[Sen's conjecture]] on [[open string]] [[tachyon condensation]] and the decay of [[D-brane]]/[[anti-D-brane]] pairs in [[superstring theory]] via open [[superstring]] [[tachyon condensation]]:
+
+
+* {#Sen98} [[Ashoke Sen]], _Tachyon Condensation on the Brane Antibrane System_, JHEP 9808:012,1998 ([arXiv:hep-th/9805170](https://arxiv.org/abs/hep-th/9805170))
+
+* {#Sen99} [[Ashoke Sen]], _Universality of the Tachyon Potential_, JHEP 9912:027, 1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
+
+with review in:
+
+* [[Ashoke Sen]], _Tachyon Dynamics in Open String Theory_, Int. J. Mod. Phys. A20:5513-5656, 2005 ([arXiv:hep-th/0410103](https://arxiv.org/abs/hep-th/0410103))
+
+
+
+
+
+
 Discussion of [[gravitational waves]] in relation to the [[soft graviton theorem]]:
 
 
