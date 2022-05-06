@@ -22,7 +22,7 @@
 
 Given a [[field]] $k$, the _category of $k$-vector spaces_ **$Vect_k$**  is the [[category]] whose
 
-1. [[object|objects]] are [[vector space]],
+1. [[object|objects]] are [[vector space|vector spaces]],
 
 1. [[morphisms]] are [[linear maps]].
 
