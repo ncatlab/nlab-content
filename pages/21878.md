@@ -10,9 +10,10 @@ A [[vector bundle]] with [[fibers]] [[quaternionic vector spaces]].
 
 ## Related concepts
 
-* [[real vector bundle]]
+* [[real vector bundle]], [[complex vector bundle]]
 
-* [[complex vector bundle]]
+* [[quaternionic oriented cohomology theory]]
+
 
 ## References
 
