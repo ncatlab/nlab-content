@@ -228,11 +228,15 @@ $$
 
 [[!include flavours of cohomotopy -- table]]
 
-
+\linebreak
 
 * [[Boardman homomorphism]]
 
 * [[Spanier-Whitehead duality]]
+
+\linebreak
+
+[[!include flavours of cobordism cohomology theories -- table]]
 
 
 ## References
@@ -289,6 +293,9 @@ The [[Kahn-Priddy theorem]] is due to
 
 * {#KahnPriddy72} [[Daniel Kahn]], [[Stewart Priddy]], _Applications of the transfer to stable homotopy theory_, Bull. Amer. Math. Soc. Volume 78, Number 6 (1972), 981-987 ([Euclid](https://projecteuclid.org/euclid.bams/1183534135))
 
+Discussion of stable Cohomotopy as [[framed manifold|framed]] [[cobordism cohomology theory]]:
+
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 
 The relation to [[β-rings]] is discussed in 
@@ -326,6 +333,8 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 
 [[!redirects stable cohomotopy cohomology theory]]
 [[!redirects stable Cohomotopy cohomology theory]]
+
+[[!redirects MFr]]
 
 
 
