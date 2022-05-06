@@ -675,6 +675,10 @@ Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rat
 
 * Maths.SE, _[Framed Cobordism Classes of links in $\mathbb{R}^3$](https://math.stackexchange.com/q/426482/58526)_
 
+### Relation to robust zero sets
+
+* Peter Franek, Marek Krčál, _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, ([slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
+
 ### Equivariant Cohomotopy
 
 Discussion of the [[stable cohomotopy|stable]] cohomotopy ([[framed manifold|framed]] [[cobordism cohomology theory]]) in the [[equivariant cohomology]]-version of cohomotopy ([[equivariant cohomotopy]]):
