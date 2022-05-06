@@ -58,12 +58,12 @@ $$
 $$
 
 
-For $A \in \mathcal{F}_{loc}$ a [[local observable]] and $j \in C^\infty_{cp}(\Sigm)$, write
+For $A \in \mathcal{F}_{loc}$ a [[local observable]] and $j \in C^\infty_{cp}(\Sigma)$, write
 
 $$
-  Z_L(\epsilon j A)
+  Z_{\mathbf{L}_{int}}(j A)
   \; \coloneqq \;
-  S(g_{sw}\mathbf{L}_{int}) S( g_{sw}\mathbf{L}_{int} + j A )
+  S^{-1}(g_{sw}\mathbf{L}_{int}) S( g_{sw}\mathbf{L}_{int} + j A )
 $$
 
 for the [[generating function]] induced by the perturvbative [[S-matrix]].
