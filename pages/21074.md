@@ -18,6 +18,11 @@
 
 A _kaon_ is a type of [[meson]], specifically a [[bound state]] of a [[strange quark]] with an [[up quark|up-]] or [[down quark|down-]] ([[antiparticle|anti-]])[[quark]]. 
 
+\linebreak
+
+[[!include flavors of fundamental particles -- table]]
+
+
 ## References
 
 ### General
