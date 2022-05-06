@@ -102,6 +102,11 @@ One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[ho
 
 [[!include chord diagrams and weight systems -- table]]
 
+## Applications
+
+[[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
+
+
 ## References
 
 
