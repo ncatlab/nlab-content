@@ -244,6 +244,10 @@ A general [[topos theory|topos theoretic]] account is in
 
 See also the references at _[[Diaconescu's theorem]]_.
 
+Discussion in [[homotopy type theory]]/[[univalent mathematics]]:
+
+* {#SymmetryBook} Def. 4.6.1 in: _Symmetry_ ([pdf](https://unimath.github.io/SymmetryBook/book.pdf))
+
 Some further [[category theory|category theoretic]] articles discussing torsors:
 
 * [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arXiv:0912.0213](http://arxiv.org/abs/0912.0213)
