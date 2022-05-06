@@ -511,22 +511,23 @@ $$
 
 ## References
 
+### General
+
+The original articles are
+
+* [[Michael Green]], [[John Schwarz]], _Anomaly Cancellation in Supersymmetric $D=10$ Gauge Theory and Superstring Theory_, Phys. Lett. B 149 (1984) 117-122 ([spire:15583](https://inspirehep.net/literature/15583), <a href="https://doi.org/10.1016/0370-2693(84)91565-X">doi:10.1016/0370-2693(84)91565-X</a>) 
+
+* {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
+
+
 A clear and precise account of what the relevant anomalies are and what the Green-Schwarz mechanism is to cancel them is given in (see also the relevant bits at _[[eta invariant]]_)
 
-* {#Witten99} [[Edward Witten]], section 2.2 of _World-Sheet Corrections Via D-Instantons_, JHEP 0002:030,2000 ([arXiv:9907041](http://arxiv.org/abs/hep-th/9907041))
+* {#Witten99} [[Edward Witten]], section 2.2 of _World-Sheet Corrections Via D-Instantons_, JHEP 0002:030, 2000 ([arXiv:9907041](http://arxiv.org/abs/hep-th/9907041))
 
 Review, broader context and further discussion is given in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
-Discussion [[higher gauge theory]]:
-
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String and Fivebrane structures_, Commun. Math. Phys. 315 (2012), 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001))
-
-* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
-
-
-### For $10 D$ supergravity
 
 An account of historical developments is in section 7 of
 
@@ -538,6 +539,14 @@ The full formula for the differential form data including the fermionic contribu
 * {#BBDFLPPRRTZ} L. Bonora, M. Bregola, R. D'Auria, P. Fr&eacute; K. Lechner, P. Pasti, I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
 
 and references given there.
+
+
+Discussion [[higher gauge theory]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String and Fivebrane structures_, Commun. Math. Phys. 315 (2012), 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001))
+
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
+
 
 ### In axion physics
 
