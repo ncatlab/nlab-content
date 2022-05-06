@@ -31,8 +31,9 @@ While the effect is clearly predicted by established [[theory (physics)|theory]]
 ## Properties
 
 ### In holographic QCD
+ {#InHolographicQCD}
 
-It has been argued that from the point of view of [[holographic QCD]] the Schwinger effect is what is reflected by the non-linearities in the [[DBI-action]] on the [[flavor branes]] ([Semenoff-Zarembo 11](#SemenoffZarembo11),  [Hashimoto-Oka 13](#HashimotoOka13), [Hashimoto-Oka-Sonoda 14a](#HashimotoOkaSonoda14a), [Hashimoto-Oka-Sonoda 14b](#HashimotoOkaSonoda14b)). This is now referred to as the _holographic Schwinger effect_.
+It has been argued that in terms of [[intersecting D-brane models]] the Schwinger effect is what is reflected by the non-linearities in the [[DBI-action]] on probe branes in [[AdS/CFT]] ([Semenoff-Zarembo 11](#SemenoffZarembo11)) and on [[flavor branes]] in [[holographic QCD]] ([Hashimoto-Oka 13](#HashimotoOka13), [Hashimoto-Oka-Sonoda 14a](#HashimotoOkaSonoda14a), [Hashimoto-Oka-Sonoda 14b](#HashimotoOkaSonoda14b)). This is now referred to as the _holographic Schwinger effect_.
 
 
 ## References
