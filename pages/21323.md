@@ -165,12 +165,14 @@ Discussion of [[leptonic decays]] of [[B-mesons]]:
 
 
 
-
 ### In relation to flavor anomalies
 
 Discussion of [[leptonic decays]] in view of observed [[flavour anomalies]]:
 
 * N. Penalva, E. Hernández, J. Nieves, _Hadron and lepton tensors in semileptonic decays including new physics_ ([arXiv:2004.08253](https://arxiv.org/abs/2004.08253))
+
+* N. Penalva, E. Hernández, J. Nieves, _$\bar B_c \to \eta_c$, $\bar B_c \to J/\psi$ and $\bar B \to D^{(\ast)}$ semileptonic decays including new physics_ ([arXiv:2007.12590](https://arxiv.org/abs/2007.12590))
+
 
 
 [[!redirects leptonic decays]]
