@@ -29,7 +29,6 @@ order of the number of articles they publish in the area of category theory, as 
 |[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|general|
 |[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|general|
 |[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|algebra|
-|[Mathematical Proceedings of the Cambridge Philosophical Society](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society)|Cambridge UP|None at present|subscription|general|
 |[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|Martin Hyland|subscription|logic|
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|Caramello, de Paiva|subscription|logic|
 |[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|McLarty|subscription|logic|
