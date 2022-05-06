@@ -119,7 +119,7 @@ The _stable motivic homotopy category_ $SH(S)$ over $S$ is the [[inverse limit]]
 
 $$ \dots \stackrel{\Omega_T}{\to} \mathrm{H}_*(S) \stackrel{\Omega_T}{\to} \mathrm{H}_*(S) \stackrel{\Omega_T}{\to} \mathrm{H}_*(S),$$
 
-where $H(S)$ is the ordinary motivic homotopy category from def. \ref{MotivicHomotopyCategory}, and where $\Omega_T {:=}Hom(T, -)$. An object of the stable motivic homotopy category is called a _motivic [[spectrum]]_ (or _$T$-spectrum_).
+where $H(S)$ is the ordinary motivic homotopy category from def. \ref{MotivicHomotopyCategory}, and where $\Omega_T {:=}Hom(T, -)$. An object of the stable motivic homotopy category is called a _[[motivic spectrum]]_ (or _$T$-spectrum_).
 =--
 
 Thus, a motivic spectrum $E$ is a sequence of pointed motivic spaces $(E_0,E_1,E_2\dots)$ together with [[equivalences]]
