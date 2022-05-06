@@ -117,11 +117,23 @@ See [[geometric realization of simplicial topological spaces]] for more details.
 
 * [[homotopy hypothesis]]
 
+* [[model structure on topological spaces]]
+
+  * [[classical model structure on topological spaces]]
+
+    * [[classical model structure on pointed topological spaces]]
+
+  * [[Strøm model structure]]
+
+  * [[model structure on Delta-generated topological spaces]]
+
+
 * [[model structure on simplicial sets]], [[model structure on topological spaces]]
 
 * [[Thomason model structure]]
 
 * [[Hurewicz model structure on chain complexes]]
+
 
 
 ## References
