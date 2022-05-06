@@ -52,7 +52,7 @@ The [[near horizon geometry]] of this spacetime is [[anti de Sitter spacetime|Ad
 
 {#NearHorizonOrbifold} More generally for 1/2 BPS black M5-branes, the near horizon geometry is $AdS_7 \times S^4/G$, where $G$ is a [[finite subgroup of SU(2)]] ([[ADE classification|ADE subgroup]]) acting by left multiplication on the [[quaternions]] $\mathbb{H}$ in the canonical way, under the identitfication $S^4 \simeq S(\mathbb{R}^5) \simeq S(\mathbb{R}\oplus \mathbb{H})$ ([MFF 12, section 8.3](#MFF12)).
 
-While this geometric discussion in [MFF 12, section 8.3](#MFF12) works for for all the [[finite subgroups of SU(2)]], folklore has it that in [[M-theory]] the M5-branes appear only at A-type singularities, while the more general [[6d (2,0)-superconformal field theories]] for all possible [[ADE-singularities]] appear only after passage to [[F-theory]] ([ZHTV 14, p. 3](#ZHTV14)).
+While this geometric discussion in [MFF 12, section 8.3](#MFF12) works for all the [[finite subgroups of SU(2)]], folklore has it that in [[M-theory]] the M5-branes appear only at A-type singularities, while the more general [[6d (2,0)-superconformal field theories]] for all possible [[ADE-singularities]] appear only after passage to [[F-theory]] ([ZHTV 14, p. 3](#ZHTV14)).
 
 On the other hand, when placing the M5 at an MO5-[[orientifold]] ([Witten 95](#Witten95)) its worldvolume theory breaks from $(2,0)$ to $(1,0)$-supersymmetry and all ADE-singularities should be allowed.
 
@@ -86,7 +86,7 @@ The [[Kaluza-Klein mechanism|compactification]] of the 5-brane on a [[Riemann su
 
 ### Holographic dual
 
-The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the [[6d (2,0)-superconformal QFT]] to [[7-dimensional supergravity]] obtained by [[Kaluza-Klein mechanism|reduction]] of [[11-dimensional supergravity]] on o 4-[[sphere]] to an and asymptotically 7d [[anti de Sitter spacetime]].
+The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the [[6d (2,0)-superconformal QFT]] to [[7-dimensional supergravity]] obtained by [[Kaluza-Klein mechanism|reduction]] of [[11-dimensional supergravity]] on a 4-[[sphere]] to an asymptotically 7d [[anti de Sitter spacetime]].
 
 ### Conformal blocks and 7d Chern-Simons dual
  {#7dCSDual}
@@ -224,7 +224,7 @@ restriction of the [[supergravity C-field]] on the ambient
 [[11-dimensional supergravity]] [[spacetime]] to the M5-brane.
 
 This is similar to the analogous situation in [[type II string theory]].
-The the [[Freed-Witten anomaly cancellation]] condition demands that
+The [[Freed-Witten anomaly cancellation]] condition demands that
 the restriction of the [[B-field]] $\hat H_3 \hat H^3(X)$ 
 on spacetime $X$ to an 
 [[orientation|oriented]] [[D-brane]] $Q \hookrightarrow X$ has
@@ -321,7 +321,7 @@ The sum of these cohomology classes, evaluated on the [[fundamental class]] of $
 
 ([Witten 96 (5.7)](#Witten96))
 
-This result used to be "somewhat puzzling" ([Witten 96, p. 35](#Witten96)) since consisteny of the [[M5-brane]] in [[M-theory]] should require its total [[quantum anomaly]] to vanish. But $p_2(N_{Q_{M5}})$ does not in general vanish, and the right conditions to require under which it does vanish were "not clear" ([Witten 96, p. 37](#Witten96)).
+This result used to be "somewhat puzzling" ([Witten 96, p. 35](#Witten96)) since consistency of the [[M5-brane]] in [[M-theory]] should require its total [[quantum anomaly]] to vanish. But $p_2(N_{Q_{M5}})$ does not in general vanish, and the right conditions to require under which it does vanish were "not clear" ([Witten 96, p. 37](#Witten96)).
 
 (For more details on computations involved this and the following arguments, see also [Bilal-Metzger 03](#BilalMetzger03)).
 
