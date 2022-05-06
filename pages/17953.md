@@ -82,6 +82,8 @@ The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]]
 
 * Masato Arai, [[Claus Montonen]], Shin Sasaki, _Vortices, Q-balls and Domain Walls on Dielectric M2-branes_, JHEP 0903:119, 2009 ([arXiv:0812.4437](https://arxiv.org/abs/0812.4437))
 
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 6.4 of: _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
 * [[Iosif Bena]], [[Mariana Graña]], Stanislav Kuperstein, Stefano Massai, _Tachyonic Anti-M2 Branes_, JHEP 1406:173, 2014 ([arXiv:1402.2294](https://arxiv.org/abs/1402.2294))
 
 
@@ -89,15 +91,15 @@ With emphasis on the role of the [[Page charge]]/[[Hopf WZ term]]:
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
 
-More general [[M-brane polarizations]]:
 
-* [[Yolanda Lozano]], _Non-commutative Branes from M-theory_, Phys. Rev. D64 (2001) 106011 ([arXiv:hep-th/0012137](https://arxiv.org/abs/hep-th/0012137))
 
 
 
 ### Polarization of M5-branes into MK6s
 
-On polarization of [[M5-branes]] into [[MK6]]s:
+More general [[M-brane polarizations]] and polarization of [[M5-branes]] into [[MK6]]s:
+
+* [[Yolanda Lozano]], _Non-commutative Branes from M-theory_, Phys. Rev. D64 (2001) 106011 ([arXiv:hep-th/0012137](https://arxiv.org/abs/hep-th/0012137))
 
 
 * [[Iosif Bena]], Diana Vaman, _The polarization of M5 branes and little string theories with reduced supersymmetry_, JHEP 0111 (2001) 032 ([arXiv:hep-th/0101064](https://arxiv.org/abs/hep-th/0101064))
