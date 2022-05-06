@@ -177,6 +177,8 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 
 * [[module]], [[∞-module]]
 
+* [[action monad]]
+
 * [[associated bundle]], [[associated ∞-bundle]]
 
 * [[quotient]], [[quotient stack]], [[quotient type]]
