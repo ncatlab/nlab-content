@@ -45,7 +45,7 @@ Most notably, he anonymously published in 1805 *Philosophische Principien einer 
 
 * {#Rosenkranz40} [[Karl Rosenkranz]], _Geschichte der Kant'schen Schule_ , Akademie-Verlag Berlin 1987[1840].
 
-* Rüdiger Safranski, _E. T. A. Hofmann. Das Leben eines skeptischen Phantasten, Hanser München 1984.
+* Rüdiger Safranski, _E. T. A. Hofmann. Das Leben eines skeptischen Phantasten_ , Hanser München 1984.
 
 * Stephan Wannowski, _Brief an Kant 31. März 1786_ , p.439 in Kant,  _Akademie Ausgabe **X** Briefe 1_, Berlin de Gruyter 1923.
 
