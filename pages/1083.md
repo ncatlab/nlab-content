@@ -142,6 +142,8 @@ the [[internal hom]] is the standard [[nLab:internal hom of chain complexes]].
 
 * [[(∞,1)-category of chain complexes]]
 
+* [[equivariant chain complex]]
+
 ## References
 
 A basic introduction is in chapter 1 of 
