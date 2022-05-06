@@ -654,20 +654,31 @@ In closing, it should be remarked that the fact that everything here is _lax_ in
 We can remedy this by replacing in the definition of the descent $\infty$-category $Desc(Y,C)$ the orientals by another cosimplicial $\infty$-category, one which _is_ equivalent to the point in each degree. Doing so and then going through the above discussion will make _all_ the structure maps appeaing have inverses. But this will also apply to the monoidal product itself, then, which is usually not desired.  
 
 
-## Variations
+## Variants
 
-*  [[strict monoidal category]]
-*  [[braided monoidal category]]
-*  [[symmetric monoidal category]]
-*  [[cartesian monoidal category]]
-*  [[semicartesian monoidal category]]
-*  [[cocartesian monoidal category]]
+* [[strict monoidal category]]
+
+  * [[permutative category]]
+
+  * [[commutative monoidal category]]
+
+* [[braided monoidal category]]
+
+* [[symmetric monoidal category]]
+
+* [[cartesian monoidal category]]
+
+* [[semicartesian monoidal category]]
+
+* [[cocartesian monoidal category]]
 
 * [[fusion category]], [[tensor category]]
 
-*  [[multicategory]]
-*  [[monoidal 2-category]]
-*  [[premonoidal category]]
+* [[multicategory]]
+
+* [[monoidal 2-category]]
+
+* [[premonoidal category]]
 
 * [[distributivity for monoidal structures]]
 
