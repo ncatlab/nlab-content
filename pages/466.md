@@ -290,6 +290,8 @@ Reviews and expositions include
 
 * [[Tom Leinster]], _[[LeinsterYoneda.ps:file]]_
 
+* Marie La Palme Reyes, Gonzalo E. Reyes, and Houman Zolfaghari, _Generic figures and their glueings: A constructive approach to functor categories_, Polimetrica sas, 2004.
+
 A discussion of the Yoneda lemma from the point of view of [[universal algebra]] is in
 
 * [[Vaughan Pratt]], _The Yoneda lemma without category theory: algebra and applications_ ([pdf](http://boole.stanford.edu/pub/yon.pdf)).
