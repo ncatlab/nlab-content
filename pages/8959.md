@@ -138,6 +138,25 @@ Because we have deliberately only put $refl$ (and terms reducing to it) into the
 
 There are simple ways to modify the meaning explanation so as to no longer validate the extensional rules.  For instance, if we add to the semantics additional "free variables", so that there are "neutral terms" which do not compute to any canonical form, and modify the rules of the interpretation so as to say that any normalizable neutral term inhabits every type, then extensionality will no longer hold, since the identity type (like any type) will contain all the variables.  This is maybe not a particularly compelling model of intensionality, but there are proposals for better ways to expand the meaning explanation to deal with [[intensional type theory]].
 
+### Other judgements
+
+#### Type equality
+
+The easy way is to say that
+
+* $A=B$ means that
+  * $A\;type$ and $B\;type$, and
+  * for all $a$, $a:A$ if and only if $a:B$, and
+  * for all $a$ and $b$, $a=b:A$ if and only if $a=b:B$.
+
+This validates the conversion rules. It's extensional in a manner similar to [[material set theory]], which seems appealing, given the rest of the setup. But it turns out to be inconvenient in this case, because for technical reasons, many rules will require more premises in order to be valid. So it's a trade-off. [[Nuprl]] uses a more intensional type equality, inductively defining $A=B$ along with $A\;type$, to simplify the rules.
+
+#### Hypothetical judgements
+
+TODO!
+
+Intuitively, open terms are multi-argument dependent functions. The hypothetical judgements are defined in terms of the basic judgements on closed terms by substituting a lot of appropriate closed terms. Respect for equality is enforced in a manner to agree with the function type constructor.
+
 ### The rules of type theory
 
 The claim is that by inspecting these definitions, one can arrive at the formal rules of [[type theory]] for manipulating judgments such as "$A$ is a type", "$a:A$", and "$a=b:A$", which no longer refer to any given notion of computation.  However, Martin-L&#246;f famously wrote
