@@ -34,6 +34,12 @@ Such superconformal [[gauge field theories]] involving [[Chern-Simons theory]] c
 
 The corresponding story for the [[M5-brane]] is the [[6d superconformal gauge field theory]].
 
+## Related concepts
+
+* [[D=3 N=2 super Yang-Mills theory]]
+
+* [[D=3 N=4 super Yang-Mills theory]]
+
 
 
 ## References
