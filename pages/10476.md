@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -206,7 +207,7 @@ Mathematics. Published for the Conference Board of the Mathematical Sciences, Wa
 
 Discussion in terms of [[Quillen equivalence]] of [[model categories]] is due to
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouEquivariantHomotopy.pdf:file]])
 
 * {#Stephan10} [[Marc Stephan]], _Elmendorf’s Theorem via Model Categories_,  2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msproject.2010.pdf)) --  _Elmendorf’s Theorem for Cofibrantly Generated Model Categories_ MS thesis, Zurich 2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msthesis.2010.pdf))
 
