@@ -13,13 +13,14 @@ $$ Int(Cl(A)) = \emptyset .$$
 
 * [[dense subspace]]
 
-
+[[!redirects rare]]
 [[!redirects rare set]]
 [[!redirects rare sets]]
 [[!redirects rare subset]]
 [[!redirects rare subsets]]
 [[!redirects rare subspace]]
 [[!redirects rare subspaces]]
+[[!redirects nowhere dense]]
 [[!redirects nowhere dense set]]
 [[!redirects nowhere dense sets]]
 [[!redirects nowhere dense subset]]
