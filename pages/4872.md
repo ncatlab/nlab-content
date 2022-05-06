@@ -86,5 +86,7 @@
 
 * [[volume conjecture]]
 
+* [[arithmetic topology]]
+
 
 category: knot theory
