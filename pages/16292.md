@@ -76,7 +76,7 @@ Discussion in the context of [[M-theory on G2-manifolds]] and [[gauge enhancemen
 * {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], section 5.2 of _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
 
 
-
+[[!redirects Taub-NUT spacetime]]
 [[!redirects Taub-NUT spacetimes]]
 
 [[!redirects Taub-NUT space]]
@@ -84,4 +84,6 @@ Discussion in the context of [[M-theory on G2-manifolds]] and [[gauge enhancemen
 
 [[!redirects multi-centered Taub-NUT space]]
 [[!redirects multi-centered Taub-NUT spaces]]
+
+[[!redirects NUT charge]]
 
