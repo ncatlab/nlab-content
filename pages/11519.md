@@ -86,7 +86,7 @@ $$
   }
 $$
 
-(e.g. [Greenlees 01, 9.1](projective+G-space#Greenlees01))
+(e.g. [Atiyah 68, Sec. 4](projective+G-space#Atiyah68), [Greenlees 01, 9.1](projective+G-space#Greenlees01))
 
 ### $G$-CW-Complex structure
 
