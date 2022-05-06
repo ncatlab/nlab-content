@@ -23,7 +23,7 @@
 ###### Remark
 **([[Hopf algebra]]-[[mathematical structure|structures]])**
 
-Both the [[ordinary homology]] of a [[based loop space]] as well as the [[universal enveloping algebra]] of a [[Lie algebra]] are canonically [[Hopf algebras]], the former via the [[Pontrjagin ring]]-[[mathematical structure|structure]].
+Both the [[ordinary homology]] of a [[based loop space]] as well as the [[universal enveloping algebra]] of a [[Lie algebra]] are canonically [[Hopf algebras]], the former via the [[Pontrjagin ring]]-[[mathematical structure|structure]] (see at _[[homology of loop spaces]]_).
 
 =--
 
