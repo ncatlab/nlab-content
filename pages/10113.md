@@ -22,9 +22,11 @@
 
 In [[QCD]] a [[bound state]] of [[quarks]] via the [[strong nuclear force]]. 
 
-Binding two quarks: [[meson]]
+Binding two quarks: [[meson]],
 
-Binding three quarks: [[baryon]].
+Binding three quarks: [[baryon]],
+
+Binding four quarks: [[tetraquark]].
 
 ## Properties
 
