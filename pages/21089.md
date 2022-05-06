@@ -15,9 +15,11 @@
 
   * [full video stream](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)
 
+on the early history and the perspective of [[M-theory]].
+
 ## Transcript
 
-Q: You had codiscovered, early in the 1980s, some core ingredients of [[M-theory]], like [[M2-brane|membranes]]. Later on, in 1995, this came to be known as "[[M-theory]]". How do you reflect on that?
+Q: You had codiscovered, early in the 1980s, some core ingredients of [[M-theory]], like [[M2-brane|membranes]]. Later on, in 1995, this came to be known as "M-theory". How do you reflect on that?
 
 Duff:
 
@@ -25,27 +27,28 @@ Duff:
 
 (00:49) The story of M-theory began with the story of eleven dimensions. 
 
-(00:54) It was 1978, I think, when Werner Nahm pointed out, that supersymmetry places an upper limit on the dimension of spacetime, which is 11. 
+(00:54) It was 1978, I think, when Werner Nahm pointed out $[$[Nahm 78](supersymmetry#Nahm78)$]$ that [[supersymmetry]] places an upper limit on the dimension of spacetime, which is 11. 
 
-(01:05) And so in the early 80s, my colleagues and I looked to 11-dimensional supergravity as a candidate for a unified theory of the fundamental forces. 
+(01:05) And so in the early 80s, my colleagues and I looked to [[11-dimensional supergravity]] as a candidate for a unified theory of the fundamental forces. 
 
-(01:16) That involves compactifying the 11 dimensions down to 4. 
+(01:16) That involves [[KK-compactification|compactifying]] the 11 dimensions down to 4. 
 
-(01:23)  That had its problems. The theories we looked at were not phenomenologically very promising. 
+(01:23)  That had its problems. The theories we looked at were not [[phenomenology|phenomenologically]] very promising. 
 
-(01:31) Whether you have extra dimensions or supersymmetry, the problem still remains that Einstein's gravity is incompatible with quantum mechanics, in the sense that the theory is not renormalizable in the  sense of conventional quantum field theory.
+(01:31) Whether you have extra dimensions or supersymmetry, the problem still remains that Einstein's gravity is incompatible with quantum mechanics, in the sense that the theory is not [[renormalization|renormalizable]] in the  sense of [[perturbative QFT|conventional quantum field theory]].
 
-(01:51) When string theory came along, in the 1984 string revolution, 11 dimensions got pushed to the sidelines, and we were told that 11 dimensions was barking up the wrong tree. 
+(01:51) When [[string theory]] came along, in the 1984 string revolution, 11 dimensions got pushed to the sidelines, and we were told that 11 dimensions was barking up the wrong tree. 
 
-(02:08) But some of us thought, even then, that there is something not quite right: Why do superstrings live in 10 spacetime dimensions, if supersymmetry allows 11?
+(02:08) But some of us thought, even then, that there is something not quite right: Why do [[superstrings]] live in 10 spacetime dimensions, if supersymmetry allows 11?
 
-(02:24) The next major contribution was when Bergshoeff, Sezgin and Townsend discovered the 11-dimensional supermembrane. 
+(02:24) The next major contribution was when Bergshoeff, Sezgin and Townsend discovered $[$[Bergshoeff-Sezgin-Townsend 87](M2-brane#BergshoeffSezginTownsend87)$]$ the [[M2-brane|11-dimensional supermembrane]]. 
 
-(02:35) For me that was the starting point of what I would call M-theory. 
+(02:35) For me that was the starting point of what I would call [[M-theory]]. 
 
 (02:42) Because it said: Fine, strings are fundamental and live in 10 dimensions, but you have these membranes, which seem equally fundamental, living in 11 dimensions. 
 
-(02:55) My colleagues and I -- Stelle, Howe, Inami -- were able to show that if you wrap this 11-dimensional membrane around a circle, it looks like a 10-dimensional string, in fact it looks like the type IIA string. 
+(02:55) My colleagues and I -- Stelle, Howe, Inami -- were able to show $[$[Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)$]$
+that if you [[wrapped brane|wrap]] this [[M2-brane|11-dimensional membrane around a circle, it looks like]] a 10-dimensional string, in fact it looks like the [[type IIA string theory|type IIA string]]. 
 
 (03:14) So for us, that is proof, if proof is needed, that membranes in 11-dimensions were part of the big picture, including strings.
 
@@ -57,21 +60,22 @@ Duff:
 
 (03:50) So in the early 90s, there were sort of two communities, if you like: The string people were doing their thing in 10 dimensions; the membrane people were doing theirs in 11; and it wasn't clear if we were on the same page, or what. 
 
-(04:06) And then, as you know, Edward Witten made this startling speech at the University of Southern California, where he pointed out that the five consistent string theories and 11-dimensional supergravity were not, as we previously thought, six rival Theories of Everything: They were six different corners in the deeper and more profound theory that he called "M-theory". 
+(04:06) And then, as you know, [[Edward Witten]] made this startling speech at the University of Southern California
+$[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five consistent string theories and 11-dimensional supergravity were not, as we previously thought, six rival Theories of Everything: They were six different corners in the deeper and more profound theory that he called "[[M-theory]]". 
 
 (04:38) Now, given that we have been arguing in favour of membranes, the fact that the theory got called "M" was something of a Pyrrhic victory. 
 
-(04:50) It was saying: Well maybe membranes were not completely [inaudible to me].
+(04:50) It was saying: Well maybe membranes were not completely [inaudible?].
 
 (04:56) For me, anyway, it was clear that branes were just as important as strings. 
 
-(05:05) Joseph Conlon, writing in a recent book on string theory, says that when he saw our paper about wrapping the brane around the 11th dimension, from the late 80s, he was shocked, because the history of the theory that he had been brought up with would not allow such a thing until 1995. 
+(05:05) [[Joseph Conlon]], writing in a recent book on string theory, says that when he saw our paper $[$ [Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87) $]$ about wrapping the brane around the 11th dimension, from the late 80s, he was shocked, because the history of the theory that he had been brought up with would not allow such a thing until 1995. 
 
 (05:31) So, M-theory had a strange history.
 
 (05:38) I could summarize my research in the early 1980s as arguing for spacetime dimensions greater than 4, and for worldvolume dimensions greater than two in the late 80s, and that struggle was by far the harder of the two.
 
-Q: Similarly in the late 80s, also the regularized quantization of the super-membrane led to the matrix model, which later on was re-discovered as D0-brane quantum mechanics, and then hailed as a contender for a definition of M-theory. How do you reflect on this curious M-theory conceivement?
+Q: Similarly in the late 80s, also the regularized quantization of the super-membrane led to the [[BFSS matrix model|matrix model]], which later on was re-discovered as [[D0-brane]] quantum mechanics, and then hailed as a contender for a definition of M-theory. How do you reflect on this curious M-theory conceivement?
 
 Duff:
 
@@ -130,7 +134,8 @@ Duff:
 
 (12:08) So we have to treat them democratically.
  
-Q: In your interview by Farmelo, last year, you said: "The problem we face is that we have a patchwork understanding of M-theory, like a quilt: We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is." Do you have a hunch what form the answer might eventually take?
+Q: In your interview by Farmelo, last year
+$[$[Farmelo interview Duff](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/)$]$, you said: "The problem we face is that we have a patchwork understanding of M-theory, like a quilt: We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is." Do you have a hunch what form the answer might eventually take?
 
 Duff:
 
@@ -140,15 +145,16 @@ Duff:
 
 (12:58) Going back to how the M-theory has developed: 
 
-(13:05) One curious feature of the big story is the AdS/CFT correspondence. Because when Maldacena wrote his paper, he had three examples: $AdS_4 \times S^7$, $AdS_5 \times S^5$, $AdS_7 \times S^4$. Two of those were 11-dimensional M-theory, compactified, and the other one was Type IIB.
+(13:05) One curious feature of the big story is the [[AdS/CFT correspondence]]. Because when [[Juan Maldacena|Maldacena]] wrote his paper
+$[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$, he had three examples: $AdS_4 \times S^7$, $AdS_5 \times S^5$, $AdS_7 \times S^4$. Two of those were 11-dimensional M-theory, compactified, and the other one was Type IIB.
 
 (13:34) But if you look at the papers that have been written since Maldacena's seminal contribution, the vast majority of them have been on the $AdS_5 \times S^5$-story. 
 
 (13:48) There hasn't, for whatever reason, been the same progress in M-theory, as a result of that.
 
-(13:58) The AdS/CFT correspondence in a way diverted attention away from the goal of finding a unified theory of all the fundamental forces, starting from 11 dimensions. 
+(13:58) The [[AdS/CFT correspondence]] in a way diverted attention away from the goal of finding a unified theory of all the fundamental forces, starting from 11 dimensions. 
 
-(14:13) It's been tremendously succesful in its own right, Maldacena's paper is the most highly cited paper in history. 
+(14:13) It's been tremendously successful in its own right, Maldacena's paper $[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$ is the most highly cited paper in history. 
 
 (14:22) But it has not, strangely enough, contributed to how we unify the strong, weak and electromagnetic forces with gravity. At least I don't think it has. 
 
@@ -188,7 +194,8 @@ Duff:
 
 (17:11) So I don't want to predict that progress will come from a particular direction. 
 
-Q: A similar point was made recently by Tom Banks, in a critique of the 15 year old discussion of the landscape of de Sitter vacua. Do you think it's possible that an actual formulation of M-theory will show of the putative landscape of string theory is not actually there?
+Q: A similar point was made recently by [[Tom Banks]], in a critique of the 15 year old discussion of the [[landscape of string theory vacua|landscape]] of [[de Sitter spacetime|de Sitter]] [[string theory vacuum|vacua]]
+$[$[Banks 19](swampland#Banks19)$]$. Do you think it's possible that an actual formulation of M-theory will show of the putative landscape of string theory is not actually there?
 
 Duff:
 
@@ -200,7 +207,7 @@ Duff:
 
 (18:36) The problem of why you pick one physical vacuum from an infinity of mathematically possible vacua is a problem that is going to be there whether you do string theory/M-theory or not.
 
-(18:55) I am agnostic about the multiverse. I don't know whether we live in one universe or many. But there, again, we have to keep beavering away, and hopefully the truth will [inaduible word].
+(18:55) I am agnostic about the [[multiverse]]. I don't know whether we live in one universe or many. But there, again, we have to keep beavering away, and hopefully the truth will [inaduible word].
 
 Q: Do you envision any role for mathematics? If you are able to map M-theory to mathematics, would you think mathematics would have something to say?
 
@@ -228,6 +235,16 @@ Duff:
 (20:54) There again I don't want to make any [rushed?] predictions.
 
 (21:00) My view of research is a Darwinian one: You find the brightest people, you give them the money, you let them get on with it and they will go wherever they will go. I don't think one should try and engineer, from above,  the directions that research should take. Let the imagination of the best people -- let their imagination run them, and we'll see where it takes us.
+
+\linebreak
+
+***
+
+\linebreak
+
+\linebreak
+
+
 
 category: reference
 
