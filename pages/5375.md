@@ -52,7 +52,13 @@ The notion of anabelian geometry originates in
 
 * [[Alexandre Grothendieck]], letter to Faltings (June 27, 1983) ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/GtoF.pdf)), 
 
-written in response to [[Faltings]]' work on the [[Mordell Conjecture]].
+written in response to [[Faltings]]' work on the [[Mordell Conjecture]], and
+
+* [[Alexandre Grothendieck]], La Longue Marche à travers la théorie de Galois ([link](https://github.com/carmonamateo/LaLongueMarche)), 
+
+principally the note:
+
+* [[Alexandre Grothendieck]], Notes Anabéliennes ([link](https://github.com/carmonamateo/NotesAnabeliennes)).
 
 There is some discussion of the area in 
 
