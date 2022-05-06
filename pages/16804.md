@@ -116,10 +116,16 @@ of distinct isomorphism classes of rooted chord diagrams of order $n$.
 Every rooted chord diagram uniquely determines a chord diagram simply by forgetting the basepoint.
 Conversely, an unrooted chord diagram of order $n$ can be rooted in up to $2n$ different ways (corresponding to the $2n$ intervals between the marked points), but might also have fewer rootings in the case of symmetries.
 
-### Relation to Chern-Simons diagrams
+### Relation to Jacobi diagrams
  {#RelationToChernSimonsDiagrams}
 
-See _[[chord diagrams modulo 4T are Chern-Simons diagrams modulo STU]]_
+[[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ChordsMod4TIsCSModSTU.jpg" width="840">
+</center>
+
+> graphics grabbed form [Bar-Natan & Stoimenow 97](#BarNatanStoimenow97)
 
 
 ## Gauss diagrams of ordinary (virtual) knots
@@ -157,10 +163,13 @@ However, such chord diagrams nonetheless play an important role in the theory of
 Textbook accounts
 
 
-* S. Chmutov, Sergei Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+* S. Chmutov, Sergei Duzhin, J. Mostovoy, Chapter 4 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
-* [[David Jackson]], [[Iain Moffat]], _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
+* [[David Jackson]], [[Iain Moffat]], Section 11 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
+Lecture notes:
+
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
 
 For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see:
