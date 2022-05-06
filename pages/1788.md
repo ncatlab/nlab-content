@@ -36,7 +36,7 @@ Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in exist
 |  **cohomology of $Smth(\mathcal{X})$**   |
 | [Moerdijk-Pronk 99](#MoerdijkPronk99): $H^\bullet_{MP}\big( \mathcal{X}, \mathcal{A} \big) = H^\bullet\big( Shp\circ Smth(\mathcal{X}), A \big)$ <br/>    |
 | **cohomology of $Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)$** |
-| [Chen-Ruan 00](#ChenRuan00): $H^\bullet_{CR}(\mathcal{X}) \coloneqq H^\bullet\Big( Shp \circ Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)  ,\mathbb{K}\Big)$ <br/> (see [Clader 14, p. 4, p.7](#Clader14)) <br/> [Moe 02, p. 18](#Moerdijk02):  $H^\bullet_{CR}(\mathcal{X}) = H^\bullet\big( Shp \circ Snglr(\mathcal{X}), R_{\mathbb{K}}(Isotr(-))  \big)$  <br/> [Honkasalu 90, Thm. 5.5](#Honkasalu90) $\cdots = H^\bullet_G\big(X, something \big) $ |  
+| [Chen-Ruan 00](#ChenRuan00): $H^\bullet_{CR}(\mathcal{X}) \coloneqq H^\bullet\Big( Shp \circ Snglr\big( [\mathcal{B}\mathbb{Z}, \mathcal{X}] \big)  ,\mathbb{K}\Big)$ <br/> (see [Clader 14, p. 4, p.7](#Clader14)) <br/> [Moe 02, p. 18](#Moerdijk02):  $H^\bullet_{CR}(\mathcal{X}) = H^\bullet\big( Shp \circ Snglr(\mathcal{X}), R_{\mathbb{K}}(Isotr(-))  \big)$  <br/> [Honkasalo 88, Thm. 6.4](#Honkasalo88), [Honkasalo 90, Thm. 5.5](#Honkasalu90): $\cdots = H^\bullet_G\big(X, something \big) $ |  
 
 
 
@@ -45,7 +45,10 @@ Most notions of [[cohomology]] of the orbifold $\mathcal{X}$ considered in exist
 * {#Satake56} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
 
 
-* {#Honkasalu90} Honkasalu, _Equivariant Alexander-Spanier cohomology for actions of compact Lie groups_, Mathematica Scandinavica Vol. 67, No. 1 (1990), pp. 23-34 ([jstor:24492569](https://www.jstor.org/stable/24492569))
+* {#Honkasalo88} Honkasalo, _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia,  63, 179-195, 1988 ([doi:10.7146/math.scand.a-12232](https://doi.org/10.7146/math.scand.a-12232))
+
+
+* {#Honkasalu90} Honkasalo, _Equivariant Alexander-Spanier cohomology for actions of compact Lie groups_, Mathematica Scandinavica Vol. 67, No. 1 (1990), pp. 23-34 ([jstor:24492569](https://www.jstor.org/stable/24492569))
 
 * {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
 
