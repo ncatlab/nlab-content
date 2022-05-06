@@ -2238,7 +2238,7 @@ Given a sub-[[class]] of morphisms $K \subset Mor(\mathcal{C})$, then
 
 dually:
 
-* a morphism $p_l$ is said to have the **[[left lifting property]] against $K$** or to be a **$K$-[[projective morphism]]**  if in all square diagrams with $p_l$ on the left and any $p_r \in K$ on the left a lift exists.
+* a morphism $p_l$ is said to have the **[[left lifting property]] against $K$** or to be a **$K$-[[projective morphism]]**  if in all square diagrams with $p_l$ on the left and any $p_r \in K$ on the right a lift exists.
 
 =--
 
