@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 [[physics]] at very higher [[energy]] [[density]], hence small [[distance]]: 
@@ -7,7 +23,11 @@
 
 ## Related concepts
 
-* [[solid state physics]], [[nuclear physics]]
+* [[solid state physics]]
+
+* [[mesoscopic physics]]
+
+* [[nuclear physics]]
 
 * [[quantum gravity]]
 
