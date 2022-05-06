@@ -35,7 +35,7 @@
 ## Idea
  {#Idea}
 
-The D'Auria-Fr&#233; formalism ([D'Auria-Fr&#233;-Regge 80](#DAuriaFre80), [D'Auria-Fr&#233; 80](#DAuriaFre), [Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre)) is a natural "superspace" formulation of [[supergravity]] in general [[dimensions]], including [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
+The D'Auria-Fr&#233; formalism ([D'Auria-Fr&#233;-Regge 80](#DAuriaFre80), [D'Auria-Fr&#233; 80](#DAuriaFre), [Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre)) is a natural "[[superspace]]" formulation of [[supergravity]] in general [[dimensions]], including [[type II supergravity]] and [[heterotic supergravity]] in dimension 10 as well as notably [[11-dimensional supergravity]].
 
 This proceeds in generalization of how [[Einstein gravity]] in [[first order formulation of gravity]] is equivalently the [[Cartan geometry]] for the inclusion of the [[Lorentz group]] inside the [[Poincare group]]: a [[field (physics)|field]] configuration of the field of [[gravity]] is equivalently a [[Cartan connection]] for this [[subgroup]] inclusion. 
 
@@ -43,6 +43,7 @@ Accordingly, low dimensional [[supergravity]] without [[extended supersymmetry]]
 
 What D'Auria-Fr&#233; implicitly observe (not in this [[homotopy theory|homotopy theoretic]] language though, that was developed in [Sati-Schreiber-Stasheff 08](#SSS), [Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10), [Fiorenza-Sati-Schreiber 13](#FSS)) is that for higher supergravity with [[extended supersymmetry]] such as [[11-dimensional supergravity]] with its [[M-theory super Lie algebra]] symmetry, the description of the fields is in the _[[higher differential geometry]]_ version of [[Cartan geometry]], namely _[[higher Cartan geometry]]_, where the [[super Poincare Lie algebra]] is replaced by one of its exceptional [[super L-infinity algebra|super Lie n-algebra]] extensions (those that also control the [[brane scan]]), such as notably the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]]. This is the refinement of [[super-Cartan geometry]] to [[higher Cartan geometry]].
 
+This [[higher Cartan geometry|higher]] [[super Cartan geometry]]-description of [[supergravity]] is what D'Auria-Fr&#233; called the _gemetric approach to supergravity_ or _geometric supergravity_ (e.g. [D'Auria 20](#DAuria20)). 
 
 
 [[!include local and global geometry - table]]
@@ -1105,9 +1106,11 @@ The standard textbook monograph on [[supergravity]] in general and this formalis
 
 * [[Pietro Fré]], _Gravity, a Geometrical Course: Volume 2: Black Holes, Cosmology and Introduction to Supergravity_, Springer 2012
 
-Review includes
+Review:
 
 * [[Leonardo Castellani]], _Supergravity in the group-geometric framework: a primer_ ([arXiv:1802.03407](https://arxiv.org/abs/1802.03407))
+
+* {#DAuria20} [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
 
 Discussion of [[gauged supergravity]] in this way is in 
 
@@ -1165,6 +1168,10 @@ Discussion in this formalism of the [[Green-Schwarz action functional]] for the 
 * {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl. Phys.  B 763:1-34, 2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
 
+[[!redirects geometric supergravity]]
+
 [[!redirects rheonomy]]
 [[!redirects D'Auria-Fré formulation of supergravity]]
 [[!redirects Auria-Fre formulation of supergravity]]
+
+
