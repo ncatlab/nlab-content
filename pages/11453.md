@@ -27,7 +27,7 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 ### T-Duality with type I string theory
  {#TDualityWithTypeIStringTheory}
 
-Under [[T-duality]] [[type I string theory]] is dual to [[type II string theory]] with orientifold planes (reviewed e.g. in [Ibanez-Uranga 12, section 5.3.2 - 5.3.4](#IbanezUranga12)):
+Under [[T-duality]], [[type I string theory]] is [[duality in string theory|dual]] to [[type II string theory]] with orientifold planes (reviewed e.g. in [Ibanez-Uranga 12, section 5.3.2 - 5.3.4](#IbanezUranga12)):
 
 <img src="https://ncatlab.org/nlab/files/TDualityOrientifold.jpg" width="700">
 
@@ -38,7 +38,7 @@ Under [[T-duality]] [[type I string theory]] is dual to [[type II string theory]
 
 O-planes carry effective negative [[RR-charge]] which may (must) cancel against the actual [[RR-charge|RR-]] [[D-brane charge]] via [[RR-field tadpole cancellation]].
 
-#### O-plane charge for flat orientifolds
+#### For flat orientifolds
  {#OPlaneChargeForFlatOrientifolds}
 
 The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theory]] ([[type II string theory]] on the [[orientifold]] $\mathbb{R}^{9,1}\sslash \mathbb{Z}_2$ with [[trivial action|trival]] spacetime $\mathbb{Z}_2$-[[action]]) is found by [[worldsheet]]-computation to be 
@@ -105,7 +105,7 @@ or equivalently
 
 (e.g. [Ibáñez-Uranga 12 (5.52)](#IbanezUranga12), [Blumenhagen-Lüst-Theisen 13 (10.212)](#BlumenhagenLustTheisen13))
 
-{#TableOfOPlaneCharges} In summary, we have the following table of O-plane charges:
+{#TableOfOPlaneCharges} In summary, we have the following table of O-plane charges on [[flat orbifolds]]:
 
 | $Op$-plane | charge <br/> $\mu_{Op}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
 |------------|--------|-------|----| 
@@ -128,10 +128,26 @@ O-plane charges of different dimension may be present
 >  graphics grabbed from [Johnson 97](#Johnson97)
 
 
+#### In the presence of discrete torsion
+{#WithDiscreteTorsion} 
 
-#### O-plane charge in differential equivariant KR-theory
+In the presence of [[discrete torsion]] in the [[B-field]] and/or the [[RR-fields]], this charge structure of orientifold planes on [[flat orbifolds]] gets further modified ([Bergman-Gimon-Sugimoto 01, Sec. 1](#BergmanGimonSugimoto01)):
 
-A much more general formula for this O-plane charge, regarded in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]] is supposed to be the topic of [Distler-Freed-Moore 09](#DistlerFreedMoore09).
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "OPlaneChargeWithDiscreteTorsion.jpg",
+  "width": 470
+\end{imagefromfile}
+\end{center}
+
+> graphics grabbed from [Bergman-Gimon-Sugimoto 01](#BergmanGimonSugimoto01)
+
+
+
+#### In differential equivariant KR-theory
+
+A proposal for a formalization of a much more general formula for O-plane charge, regarded in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]] is briefly in [Distler-Freed-Moore 09, p. 6](#DistlerFreedMoore09).
 
 
 
@@ -231,6 +247,11 @@ Other early accounts include
 Textbook account:
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 9.4 and 10.6 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
+
+O-Plane charge in the presence of [[discrete torsion]]:
+
+* {#BergmanGimonSugimoto01} [[Oren Bergman]], Eric Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
+
 
 O-Plane charge in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]]:
 
