@@ -18,6 +18,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 The notion of _center of a monoidal category_ or _Drinfeld center_ is the [[categorification]] of the notion of [[center]] of a [[monoid]]([[associative algebra]], [[group]], etc.) from monoids to [[monoidal categories]].
@@ -208,6 +209,11 @@ A general discussion of centers of [[monoid objects]] in [[braided monoidal 2-ca
 An application to character sheaves is in 
 
 * [[George Lusztig]], _Non-unipotent character sheaves as a categorical centre_, [arxiv/1506.04598](http://arxiv.org/abs/1506.04598)
+
+In relation to [[spectra of tensor triangulated categories]]:
+
+* Kent B. Vashaw, _Balmer spectra and Drinfeld centers_ ([arXiv:2010.11287](https://arxiv.org/abs/2010.11287))
+
 
 
 [[!redirects Drinfeld centers]]
