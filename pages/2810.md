@@ -187,6 +187,23 @@ $$
 
 This is discussed and realized in section 1.2. of ([Lurie](#Lurie)). The tensor product is defined in appendix B.7.
 
+### Relation to Fulton-MacPherson operad
+  {#RelationToFultonMacPhersonOperad}
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Fulton-MacPherson operad]] is [[weak equivalence|weakly equivalent]] in the [[model structure on operads]] with respect to the [[classical model structure on topological spaces]], to the [[little n-disk operad]]
+
+=--
+
+([Salvatore 01, Prop. 4.9](#Salvatore01), summarized as [Lambrechts-Volic 14, Prop. 5.6](#LambrechtsVolic14))
+
+
+### Cohomology: Formality
+
+[[the little n-disk operad is formal]]
+
 
 ### Homology: Poisson operads
 
@@ -204,7 +221,7 @@ Explicit models of $E_\infty$-operads include
 
 ## Related concepts
 
-* [[configiration space of points]], [[Fulton-MacPherson operad]]
+* [[configuration space of points]], [[Fulton-MacPherson operad]]
 
 * [[factorization algebra]]
 
@@ -222,8 +239,11 @@ A standard textbook reference is chapter 4 of
 
 * {#May} [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
+The equivalence to the [[Fulton-MacPherson operad]] is due to 
 
-Discussion of [[formal smooth manifold|formality]]:
+* {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
+
+Proof that [[the little n-disk operad is formal]] was sketched by [[Maxim Kontsevich]] and spelled out in
 
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
