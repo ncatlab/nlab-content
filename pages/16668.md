@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
