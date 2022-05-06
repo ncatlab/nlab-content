@@ -25,7 +25,7 @@ include [[Initiality Project - Partial Interpretation - Pi-types]]
 
 ## Preservation of substitution
 
-include [[Initiality Project - Preservation of Substitution - Pi-types]]
+include [[Initiality Project - Substitution - Pi-types]]
 
 ## Totality
 
@@ -33,11 +33,11 @@ include [[Initiality Project - Totality - Pi-types]]
 
 ## The Term Model
 
-include [[Initiality Project - Term Model - Pi-types]]
+[[!include Initiality Project - Term Model - Pi-types]]
 
 ## Interpretation functor
 
-include [[Initiality Project - Interpretation Functor - Pi-types]]
+include [[Initiality Project - Functor - Pi-types]]
 
 ## Uniqueness
 
