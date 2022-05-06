@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -80,3 +81,5 @@ Review includes
 For more see at _[[ABJM model]]_.
 
 [[!redirects D=3 SYM]]
+
+[[!redirects D=3 super Yang-Mills theory]]
