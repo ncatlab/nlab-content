@@ -99,6 +99,11 @@ Textbook references include:
 
 * {#Joyce} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford University Press, 2000.
 
+See also
+
+* Wikipedia, _[Quaternion-K&#228;hler manifold](https://en.wikipedia.org/wiki/Quaternion-K&#228;hler_manifold)_
+
+
 Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
 
 * {#Moroianu} Andrei Moroianu, [[Uwe Semmelmann]], "Killing Forms on Quaternion-Kähler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
@@ -123,9 +128,6 @@ Discussion of [[characteristic classes]]:
 
 * {#CadekVanzura98} [[Martin Čadek]], Jiří Vanžura, _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
-See also
-
-* Wikipedia, _[Quaternion-K&#228;hler manifold](https://en.wikipedia.org/wiki/Quaternion-K&#228;hler_manifold)_
 
 [[!redirects quaternion-Kähler manifolds]]
 
