@@ -25,6 +25,7 @@
 
 The __spin group__ $Spin(n)$ is the [[universal covering space]] of the [[special orthogonal group]] $SO(n)$. By the usual arguments it inherits a group structure for which the operations are smooth and so is a [[Lie group]] like $SO(n)$.
 
+For special cases in low dimensions see at:  [[Spin(2)]], [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
 
 ## Definition
 
