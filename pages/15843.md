@@ -22,6 +22,12 @@
 
 * {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December (2010), Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
+On [[cohomotopy]]:
+
+* [[Martin Čadek]], Marek Krčál, Jiří Matoušek, Francis Sergeraert, Lukáš Vokřínek, Uli Wagner, _Computing all maps into a sphere_, Journal of the ACM,
+Volume 61 Issue 3, May 2014
+Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
+
 
 ## related $n$Lab entries
 
