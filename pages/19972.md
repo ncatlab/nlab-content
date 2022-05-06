@@ -19,6 +19,10 @@
 
 The [[charge]] carried by [[quarks]] and [[gluons]] in the description of the [[strong nuclear force]] via [[quantum chromodynamics]] is called _color charge_.
 
+If the [[gauge group]] is [[SU(N)]] and [[fermions]] are in the [[fundamental representation]] $\mathbf{N}$ of [[dimension]] $N$, so that $\mathbf{N}$ has a [[linear basis]] of $N$ elements, one says that these are $N$ colors of the given [[fermion]] [[fundamental particle|particle]].
+
+Hence, more generally one could reasonably say that the "number of colors" of a given [[fundamental particle]] in [[gauge theory]] is physics synonym for the choice of [[linear representation]] of the [[gauge group]] that defines this particle. 
+
 ## Related concepts
 
 * [[large N limit]]
