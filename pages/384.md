@@ -465,7 +465,7 @@ $$
   \,.
 $$
 
-In particular if $X$ is a CW-complex of finite [[dimension]] $dim X$ (the maximum degree of cells), then 
+In particular if $X$ is a CW-complex of [[finite number|finite]] [[dimension of a CW-complex]] $dim X$ (the maximum degree of cells), then 
 
 $$
   (k \gt dim X) \Rightarrow (H_k(X) \simeq 0).
@@ -543,6 +543,8 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 * Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
 
 ## Related concepts
+
+* [[dimension of a CW-complex]]
 
 * [[cell complex]]
 
