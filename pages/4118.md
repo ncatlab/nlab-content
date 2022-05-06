@@ -63,7 +63,7 @@ See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or La
  
 +-- {: .num_prop} 
 ###### Proposition 
-The [[quotient group]] of a perfect group is again perfect. 
+A [[quotient group]] of a perfect group is again perfect. 
 =-- 
 
 This last assertion is easy to see: $G$ is perfect if it has no nontrivial abelian quotients. If a quotient $H$ had a nontrivial abelian quotient, then obviously so would $G$. 
