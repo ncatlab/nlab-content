@@ -2,12 +2,17 @@ Pilar Carrasco Carrasco is a Spanish mathematician and expert on homotopical and
 
 Her web page in the Departamento de &#193;lgebra, at Granada is [here](http://www.ugr.es/~mcarrasc/).
 
+##Related entries
+
+* [[hypercrossed complex]]
+
+* [[Moore complex]]
 
 ##Ph.D. thesis
 
 * Pilar Carrasco, 1987, _Complejos Hipercruzados, Cohomologia y Extensiones_, Ph.D. thesis, Universidad de Granada. 
 
-##Publications
+##Selected publications
 
 * Pilar Carrasco and [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235.
 
