@@ -53,7 +53,12 @@ Using the conjugation operation one can define an inner product $\langle q,p\ran
 
 ### Automorphisms
 
-The [[automorphism group]] of the quaternions is [[special orthogonal group|SO(3)]], [[action|acting]] canonically  on their imaginary part (in generalization of how the product of [[complex numbers]] respects the [[complex conjugation]] action)
++-- {: .num_prop #AutomorphismsOfQUatrnionsAlgebraIsSO3}
+###### Proposition
+
+The [[automorphism group]] of the quaternions, as a real algebra, is [[special orthogonal group|SO(3)]], [[action|acting]] canonically  on their imaginary part (in generalization of how the product of [[complex numbers]] respects the [[complex conjugation]] action)
+
+=--
 
 See also at _[normed division algebra -- automorphism](normed+division+algebra#Automorphisms)_
 
