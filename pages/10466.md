@@ -329,3 +329,5 @@ Discussion from a perspective of [[homotopy type theory]] is in
 [[!redirects global homotopy theory]]
 
 [[!redirects global equivariant homotopy category]]
+
+[[!redirects globally equivariant homotopy theory]]
