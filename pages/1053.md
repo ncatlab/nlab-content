@@ -538,3 +538,5 @@ The antithesis interpretation is
 [[!redirects MLL]]
 [[!redirects multiplicative-additive linear logic]]
 [[!redirects MALL]]
+
+[[!redirects antithesis interpretation]]
