@@ -440,7 +440,11 @@ $$
 
 ## Related concepts
 
-* [[Hochschild homology]], [[cyclic homology]]
+* [[Sullivan model of mapping space]]
+
+* [[Hochschild homology]]
+
+* [[cyclic homology]]
 
 ## References
 
