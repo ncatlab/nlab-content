@@ -203,16 +203,10 @@ and then developed in detail for [[QCD]] on [[D8-branes]] in the [[Sakai-Sugimot
 
 * {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
 
-### $SU(2)$-flavor symmetry on heterotic M5-branes
-
-Emergence of [[SU(2)]]  [[flavor (particle physics)|flavor]]-[[chiral symmetry|symmetry]] on [[M5-branes]] in [[heterotic M-theory]] (in the [[D=6 N=(1,0) SCFT]] on [[small instantons]] in [[heterotic string theory]]):
-
-* Abhijit Gadde, Babak Haghighat, [[Joonho Kim]], [[Seok Kim]], Guglielmo Lockhart, [[Cumrun Vafa]], Section 4.2 of: _6d String Chains_ ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614))
-
-* [[Kantaro Ohmori]], Section 2.3.1 of: _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
 
 
 
+[[!include flavor on heterotic M5-branes -- references]]
 
 
 
