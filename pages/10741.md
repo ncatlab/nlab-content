@@ -143,6 +143,8 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 
 ## Related concepts
 
+* [[Hopf invariant one]]
+
 * [[Whitehead integral formula]]
 
   * [[functional cup product]]
