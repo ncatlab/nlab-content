@@ -728,6 +728,8 @@ Beyond their possible common origin in [[leptoquarks]], further possible joint e
 
 * A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
 
+* Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
+
 
 
 #### Other
