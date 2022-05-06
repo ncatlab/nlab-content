@@ -1,4 +1,4 @@
-[[!redirects John Conway]]
+
 > Not to be confused with [[John Bligh Conway]], the [[analysis|analyst]].
 
 ***
@@ -27,6 +27,8 @@ By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/dis
 
 category: people
 
+[[!redirects John Horton Conway]]
 [[!redirects John H. Conway]]
+[[!redirects John H Conway]]
 [[!redirects John Conway]]
 [[!redirects Conway]]
