@@ -131,7 +131,7 @@ The [[automorphism groups]] of the real normed division algebras, as [[normed al
 
 * $Aut(\mathbb{C}) = \mathbb{Z}/2$ the [[group of order 2]], acting by [[complex conjugation]];
 
-* $Aut(\mathbb{H}) = SO(3)$, the [[special orthogonal group]] acting via its canonical representaiton  on the 3-dimensional space of imaginary octonions;
+* $Aut(\mathbb{H}) = SO(3)$, the [[special orthogonal group]] acting via its canonical representation  on the 3-dimensional space of imaginary quaternions;
 
 * $Aut(\mathbb{O}) = G_2$, the [[exceptional Lie group]] [[G2]].
 
