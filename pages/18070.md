@@ -36,7 +36,7 @@ Let $X= \mathbb{R}^\infty$. Then
 * Edward Fadell, Lee Neuwirth, _Configuration spaces_
 Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126), [pdf](http://www.mscand.dk/article.php?id=1623)
 
-* [[Craig Westerland]], _Configuration spaces in geometry and topology_, 2011, [pdf](http://www.ms.unimelb.edu.au/~craigw/config.pdf)
+* [[Craig Westerland]], _Configuration spaces in geometry and topology_, 2011, [pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf)
 
 * [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
 
