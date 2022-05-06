@@ -32,7 +32,7 @@ A weak counterexample:  [[internal logic|Internal to]] the [[topos of sheaves]] 
 
 ## References
 
-* [[Fred Richman]]; Weak Markov\'s principle, strong extensionality, and countable choice; available from [Fred Richman\'s documents](http://math.fau.edu/richman/HTML/DOCS.HTM).
+* [[Fred Richman]]; Weak Markov\'s principle, strong extensionality, and countable choice; available from [Fred Richman\'s documents](http://math.fau.edu/richman/html/docs.htm).
 {#Richman}
 
 
