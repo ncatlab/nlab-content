@@ -46,6 +46,12 @@ A polycategory that is "representable on both sides", meaning informally that mo
 
 Some categorical structures that are normally defined in a monoidal category can instead be defined in a polycategory, including [[Frobenius algebras]] and [[dual objects]].  Dual objects, in particular, are one approach to [[star-polycategories]]; they are the form of "negation" that makes a linearly distributive category into a [[star-autonomous category]].
 
+### Symmetry
+
+The relation between symmetric and non-symmetric (a.k.a. planar) polycategories is more subtle than that between symmetric and non-symmetric multicategories.  To obtain a truly "planar" notion of polycategory, it is not sufficient to omit the symmetric group actions; in addition one must place restrictions on the composition operations allowed so that no "wires cross".  (All the composition operations in a symmetric polycategory can then be recovered from planar composites together with symmetric group actions.)
+
+One concrete consequence of this is that unlike for multicategories, it is not possible to freely generate a symmetric polycategory from a planar one by simply adding the symmetric group actions.  That is, any planar multicategory gives rise to a symmetric multicategory by duplicating each $n$-ary morphism into $n!$ new morphisms with every possible re-ordering of the objects in the domain, but an attempt to do something similar for a planar polycategory fails because not all the putative composites of such morphisms can be expressed in terms of composition in the original planar polycategory.  See for instance Example 1.3 of [Koslowski](#Koslowski).
+
 ## Generalizations
 
 Just as [[multicategories]] are a special case of [[generalized multicategories]], which can be defined relative to any suitable [[monad]], polycategories are a special case of [[generalized polycategories]], which can be defined relative to any suitable [[pseudo-distributive law]].
@@ -63,6 +69,8 @@ Just as [[multicategories]] are a special case of [[generalized multicategories]
 * M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.  [DOI](http://www.tandfonline.com/doi/abs/10.1080/00927877508822067)
 
 * {#CockettSeely97} [[Robin Cockett]], [[Robert Seely]],  _Weakly Distributive Categories_, _Journal of Pure and Applied Algebra_, 114(1997)2, pp 133-173 ([ps.gz](http://www.math.mcgill.ca/rags/linear/wdc.ps.gz))
+
+* {#Koslowski} Juergen Koslowski, *A monadic approach to polycategories*, [TAC](http://www.tac.mta.ca/tac/volumes/14/7/14-07abs.html) Vol. 14, 2005, No. 7, pp 125-156.
 
 * [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv](http://arxiv.org/abs/math/0606735)
 
