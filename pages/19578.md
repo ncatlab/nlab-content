@@ -107,9 +107,13 @@ Relation to [[AdS-CFT duality]]:
 
 ### Cosmology
 
-Discussion of [[cosmology]] on branes in $\sim$ [[anti de Sitter]]-[[near horizon geometry|throat]] geometries:
+Discussion of [[cosmology]] on branes in $\sim$ [[anti de Sitter spacetime|anti de Sitter]]-[[near horizon geometry|throat]] geometries:
 
 * Tetsuya Shiromizu, Daisuke Ida, _Anti-de Sitter no-hair, AdS/CFT and the brane-world_, Phys. Rev. D64 (2001) 044015 ([arXiv:hep-th/0102035](https://arxiv.org/abs/hep-th/0102035))
+
+
+* {#Padilla02} Antonio Padilla, _Braneworld Cosmology and Holography_ ([arxiv:hep-th/0210217](https://arxiv.org/abs/hep-th/0210217))
+
 
 On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
 
