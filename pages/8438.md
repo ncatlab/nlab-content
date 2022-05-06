@@ -42,7 +42,7 @@ collecting survey articles on subjects in [[algebraic topology]]
 
 1. Coherent homotopy over a fixed space (K.A. Hardie, K.H. Kamps).
 
-1. [[Modern foundations for stable homotopy theory]] (A.D. Elmendorf et al. 
+1. [[Modern foundations for stable homotopy theory]] (A.D. Elmendorf et al.) 
 
 1. Completions in algebra and topology (J.P.C. Greenlees, J.P. May). 
 
