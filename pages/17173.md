@@ -223,7 +223,7 @@ Basics on tubular neighbourhoods are reviewed for instance in
 
 * {#DaSilva} [[Ana Cannas da Silva]], section 3 of _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
 
-* {#Kochmann96} [[Stanley Kochmann]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
  
 Discussion in the generality of [[equivariant differential topology]] includes
 
