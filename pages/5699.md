@@ -94,6 +94,12 @@ On [[E-strings]]:
 
   * [[duality between M/F-theory and heterotic string theory]]
 
+  * [[F-theory on CY4-folds]]
+
+  * [[F-theory on Spin(7)-manifolds]]
+
+  * [[Witten's Dark Fantasy]]
+
 * [[E-string]]
 
 * [[Gopakumar-Vafa duality]]
