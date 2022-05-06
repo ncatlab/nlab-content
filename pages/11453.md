@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[type II string theory]] on [[orientifolds]], one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
+In [[type II string theory]] on [[orientifolds]] ([Dai-Lin-Polchinski 89](#DaiLinPolchinski89)), one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
 
 O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), see ([DMR 13](#DMR13)) for a mathematical account. They serve [[RR-field tadpole cancellation]] and as such play a key role in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
@@ -52,7 +52,7 @@ The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theo
 
 (e.g. [Blumenhagen-Lüst-Theisen 13 (9.83)](#BlumenhagenLustTheisen13)).
 
-This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]], hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] SO(32).
+This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]], hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] SO(32). For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_
 
 From this the O$p$-brane charge for $p \leq n$ follows from [[T-duality]] (as [above](#TDualityWithTypeIStringTheory))
 with respect to [[KK-compactification]] on a [[n-torus|d-torus]] $\mathbb{T}^d$ with $\mathbb{Z}_2$-[[action]] given by canonical [[coordinate function|coordinate]] [[reflection]]
@@ -118,7 +118,14 @@ or equivalently
 
 In particular the O4-plane has negative unit charge, so that the total charge of $-32$ here comes entirely from the number $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
 
+O-plane charges of different dimension may be present
 
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/O8IntersectingO4.jpg" width="600"/>
+\end{center}
+
+
+>  graphics grabbed from [Johnson 97](#Johnson97)
 
 
 
@@ -203,9 +210,19 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 ## References
 
+The term "orientifold" originates around 
+
+* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](inspirehep.net/record/25758))
+
+Other early accounts include
+
+* {#Johnson97} [[Clifford Johnson]], _Anatomy of a Duality_, Nucl.Phys. B521 (1998) 71-116 ([arXiv:hep-th/9711082](https://arxiv.org/abs/hep-th/9711082))
+
 * {#HananyZaffaroni98} [[Amihay Hanany]], Alberto Zaffaroni, _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
+
+* [[Sunil Mukhi]], Nemani V. Suryanarayana, _Gravitational Couplings, Orientifolds and M-Planes_, JHEP 9909 (1999) 017 ([arXiv:hep-th/9907215](https://arxiv.org/abs/hep-th/9907215))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 5.3.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
@@ -213,7 +230,7 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 Textbook account:
 
-* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 10.6 of _[[Basic Concepts of String Theory]]_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 10.6 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
 
 O-Plane charge in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]]:
 
