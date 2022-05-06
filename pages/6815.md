@@ -54,7 +54,10 @@ The relevant literature until 1999 is collected in
 
 See also the references at _[[M-theory]]_ and at _[[M2-brane]]_, _[[M5-brane]]_, _[[M9-brane]]_.
 
-Review of some [[black brane]]-aspects of M-branes includes
+Discussion of some [[black brane]]-aspects of M-branes includes
+
+* Takeshi Sato, Section 2.3 of: :_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_,  	Nucl. Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
+
 
 * [[David Berman]], _M-theory branes and their interactions_, Phys. Rept. 456:89-126, 2008 ([arXiv:0710.1707](http://arxiv.org/abs/0710.1707))
 
