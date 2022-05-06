@@ -17,6 +17,10 @@ For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded c
 
 * Shin-ya Katsumata, _A Double Category Theoretic Analysis of Graded Linear Exponential Comonads_, ([doi](https://doi.org/10.1007/978-3-319-89366-2_6))
 
+A formal framework for type theories with a collection of modalities is in
+
+* [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
+
 For discussion in [[philosophy]] and linguistics, see
 
 * Patrick Grosz, _Grading Modality: A New Approach to Modal Concord and its Relatives_, ([paper](https://www.univie.ac.at/sub14/proc/grosz.pdf))
@@ -24,6 +28,14 @@ For discussion in [[philosophy]] and linguistics, see
 * Daniel Lassiter, _Graded modality_, ([paper](https://web.stanford.edu/~danlass/Lassiter-graded-modality-draft.pdf)) 
 
 * Daniel Lassiter, _Graded Modality: Qualitative and Quantitative Perspectives_, OUP, ([website](https://global.oup.com/academic/product/graded-modality-9780198701354?cc=us&lang=en&))
+
+Earlier work in philosophy includes
+
+* L. Goble, 1970. Grades Of Modality. Logique Et Analyse 13: 323-334.
+
+* Kit Fine, 1972. In so many possible worlds. Notre Dame Journal of Formal Logics 13: 516–520.
+
+* David Lewis, 1973. Counterfactuals. Oxford: Blackwell
 
 
 [[!redirects graded modalities]]
