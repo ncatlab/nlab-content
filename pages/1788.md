@@ -4,7 +4,7 @@ $$ \mathrm { d } u = \frac { \partial u } { \partial x } \, \mathrm { d } x ,$$
 so
 $$ \frac { \partial u } { \partial x } = \frac { \mathrm { d } u } { \mathrm { d } x } .$$
 Thus,
-$$ \frac { \partial ^ 2 u } { \partial x ^ 2 } = \frac { \partial \left ( \frac { \partial y } { \partial x } \right ) } { \partial x } = \frac { \mathrm { d } \left ( \frac { \mathrm { d } y } { \mathrm { d } x } \right ) } { \mathrm { d } x } .$$
+$$ \frac { \partial ^ 2 u } { \partial x ^ 2 } = \frac { \partial \left ( \frac { \partial u } { \partial x } \right ) } { \partial x } = \frac { \mathrm { d } \left ( \frac { \mathrm { d } u } { \mathrm { d } x } \right ) } { \mathrm { d } x } = \frac { \mathrm { d } x \, \mathrm { d } ^ 2 u - \mathrm { d } u \, \mathrm { d } ^ 2 x } { \mathrm { d } x ^ 3 } .$$
 
 On the other hand,
 $$ \mathrm { d } ^ 2 u = \frac { \partial ^ 2 u } { \partial x ^ 2 } \, \mathrm { d } x + \frac { \partial u } { \partial x } \, \mathrm { d } ^ 2 x ,$$
