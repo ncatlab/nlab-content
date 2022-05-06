@@ -616,6 +616,9 @@ Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
 * Koichi Hattori, Kazunori Itakura, Sho Ozaki, _Note on all-order Landau-level structures of the Heisenberg-Euler effective actions for QED and QCD_ ([arXiv:2001.06131](https://arxiv.org/abs/2001.06131))
 
+* Patrick Copinger, Pablo Morales, _Schwinger Pair Production in $SL(2,\mathbb{C})$  Topologically Non-Trivial Fields via Non-Abelian Worldline Instantons_ ([arXiv:2011.12526](https://arxiv.org/abs/2011.12526))
+
+
 
 In [[quantum hadrodynamics]]:
 
