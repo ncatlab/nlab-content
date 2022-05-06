@@ -25,7 +25,7 @@ Let $R$ be a [[ring]] or, more generally, an [[associative algebra]] over a unit
 
 Assuming the [[axiom of choice]], one of the standard characterizations of the [[projective modules]] $N$ (say left) over $R$ is that there is an [[epimorphism]] $F\to N$ from a [[free module]] over $R$  which is [[split epimorphism|split]] ("$N$ is a [[direct summand]] of a [[free module]]", [this prop.](projective%20module#ProjectiveIsPreciselyDirectSummandOfFreeModule)).
 
-Equivalently, an $R$-module $M$ is projective iff it has a __dual basis__ $\{(x_i,x_i^*)\in M\times Hom_k(M,R)\}_{i\in I}$ in the following sense. There is a free $R$-module $F = \oplus_{i\in I} R$, an epimorphism of $R$-modules $F\to M$, $F=\oplus_i R \ni \sum_i r_i\mapsto \sum_i r_i x_i$ which is split, i.e. has a right inverse, where this inverse, by the universal property of the direct sum, must be of the form $x\mapsto \sum_i x_i^*(x)x_i\in \oplus_i R$ where $x_i^*\in Hom_k(M,R)$ and  $(\forall x)$ $x_i^*(x)\neq 0$ for only finitely many $i\in I$.
+Equivalently, an $R$-module $M$ is projective iff it has a __dual basis__ $\{(x_i,x_i^*)\in M\times Hom_k(M,R)\}_{i\in I}$ in the following sense. There is a free $R$-module $F = \oplus_{i\in I} R$, an epimorphism of $R$-modules $F\to M$, $F=\oplus_i R \ni \sum_i r_i\mapsto \sum_i r_i x_i$ which is split, i.e. has a right inverse, where this inverse, by the universal property of the direct sum, must be of the form $x\mapsto \sum_i x_i^*(x)\in \oplus_i R$ where $x_i^*\in Hom_k(M,R)$. The right inverse condition translates to  $\forall x \in M : x=\sum_i x_i^*(x)x_i$. In particular for every $x\in M$ $x_i^*(x)\neq 0$ for only finitely many $i\in I$.
 
 ## Relation to dual vector spaces
  {#RelationToDualVectorSpaces}
