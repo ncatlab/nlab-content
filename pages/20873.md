@@ -107,6 +107,8 @@ Original articles
 
 * {#Kohno02} [[Toshitake Kohno]], _Loop spaces of configuration spaces and finite type invariants_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arXiv:math/0211056](https://arxiv.org/abs/math/0211056))
 
+* [[Adrien Brochier]], _Cyclotomic associators and finite type invariants for tangles in the solid torus_, Algebr. Geom. Topol. 13 (2013) 3365-3409 ([arXiv:1209.0417](https://arxiv.org/abs/1209.0417))
+
 Textbook accounts:
 
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 5.11 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
