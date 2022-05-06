@@ -64,6 +64,8 @@ The power set construction gives rise to two functors, the contravariant powers 
 * A [[closure operator]] on a power set is a _[[Moore closure]]_.
 * [[power object]]
 
+* [[poly-morphism]]
+
 
 category: foundational axiom
 
