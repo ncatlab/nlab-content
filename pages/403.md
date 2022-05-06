@@ -51,6 +51,8 @@ together with
 
 * a [[composition]] morphism $c: C_1 \times_{C_0} C_1 \to C_1$;
 
+(But why is $C_1 \times_{C_0} C_1$ an object..? should the word "consists" above be modified?)
+
 such that the following [[diagrams]] [[commuting diagram|commute]], expressing the usual category laws:
 
 * laws specifying the source and target of identity morphisms:
