@@ -31,6 +31,36 @@ There are important formulas concerning characters in representation theory, lik
 
 ## Properties
 
++-- {: .num_prop #InCharZeroCharacterMorphismIsInjective}
+###### Proposition
+**(in [[characteristic zero]] the [[character homomorphism]] is [[injective function|injective]])**
+
+For $G$ a [[finite group]] and $k$ a [[field]] of [[characteristic zero]], the [[character homomorphism]]
+
+$$
+  \array{
+    Rep_k(G)_{/\sim}
+    &\overset{\chi}{\longrightarrow}&
+    k^{ConjCl(G)}
+    \\
+    V 
+      &\mapsto&
+    \big(
+      [g] \mapsto \chi_V(g) 
+    \mathrlap{
+      \coloneqq \mathrm{tr}_V(g)
+    \big)
+    }
+  }
+$$
+
+is [[injective function|injective]].
+
+=--
+
+(e.g. [tom Dieck 09, Theorem (2.1.3)](#tomDieck09))
+
+
 +-- {: .num_prop #NormalizedSumOfCharacters}
 ###### Proposition
 **(normalized [[sum]] of [[character of a linear representation|characters]] is [[fixed point space]]-[[dimension]])**
@@ -83,6 +113,13 @@ Examples of [[characters of linear representations]] of [[finite groups]] are di
 
 [[!redirects character of a representation]]
 [[!redirects characters of representations]]
+
+[[!redirects character homomorphism]]
+[[!redirects character homomorphisms]]
+
+[[!redirects character morphism]]
+[[!redirects character morphisms]]
+
 
 [[!redirects character table]]
 [[!redirects character tables]]
