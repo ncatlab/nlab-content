@@ -12,7 +12,7 @@ $$
   X^\rhd \overset{f^\rhd}{\Rightarrow} Y^\rhd \;\colon\; \mathcal{I}^\rhd  \longrightarrow \mathbf{H}
 $$
 
-be a [[natural transformation]] between two $\mathcal{I}^\rhd$-shaped [[diagrams]] ([[(∞,1)-functors]]), with
+be a [[natural transformation]] between two $\mathcal{I}^\rhd$-shaped [[diagrams]] ([[(∞,1)-functors|∞-functors]]), with
 $$
   X \overset{f}{\Rightarrow} Y \;\colon\; \mathcal{I}  \longrightarrow \mathbf{H}
 $$
