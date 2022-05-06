@@ -37,7 +37,7 @@ Certain [[neutrino]]-dark matter scenarios are being discussed ([Neutrino White 
 ## On galactic scales
  {#Properties}
 
-The cold dark matter paradigm always worked excellently on cosmic scales, while seemingly facing problems with reproducing various observations on the scale of [[galaxies]]. But various recent computer simulations (e.g. with [FIRE](structure+formation#ReferencesFIRE), see the references [below](#ReferencesComputerSimulation)) point to these problems all going away when the complex dynamics of star-formation back-reaction on galactic [[structure formation]] is taken into account. We discuss this for:
+The cold dark matter paradigm always worked excellently on cosmic scales, while seemingly facing problems with reproducing various observations on the scale of [[galaxies]]. But various recent computer simulations (e.g. with [FIRE](structure+formation#ReferencesFIRE), see the references [below](#ReferencesComputerSimulation)) point to these problems all going away when the complex dynamics of star-formation feedback/back-reaction on galactic [[structure formation]] (see there for more) is taken into account. We discuss this for:
 
 1. _[The cusp-core behaviour](#CuspCoreProblem)_
 
