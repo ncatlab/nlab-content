@@ -71,8 +71,15 @@ $$
 
 given by choosing an [[Ehresmann connection]] $\nabla$ on $P \to B$ and inserting its [[curvature form]] into the [[invariant polynomials]] $\langle-\rangle$ (essentially the [[Chern-Weil homomorphism]]).
 
+This is the dg-algebraic reflection (a model in [[rational homotopy theory]] under the [[fundamental theorem of dgc-algebraic rational homotopy theory]]) of the [[weak homotopy equivalence]]
 
-A full proof is due to [Guillemin-Sternberg 99, Chapter 5](#GuilleminSternberg99) (which reporduces [[Henri Cartan]]'s original articles in its appendix). Review includes [Meinrenken 06](#Meinrenken06), [Albin-Melrose 09, Theorem 11.1](#AlbinMelrose09).
+$$
+  P \sslash G \overset{\simeq_{whe}}{\longrightarrow}  P/G \,=\, B
+$$
+
+from the [[homotopy quotient]]/[[Borel construction]] to the plain [[quotient space]], which holds for [[free actions]] (not otherwise, though).
+
+A full proof is due to [Guillemin-Sternberg 99, Chapter 5](#GuilleminSternberg99) (which reproduces [[Henri Cartan]]'s original articles in its appendix). Review includes [Meinrenken 06, around (20) and (30)](#Meinrenken06), [Albin-Melrose 09, Theorem 11.1](#AlbinMelrose09).
 
 ## Related concepts
 
@@ -83,8 +90,11 @@ A full proof is due to [Guillemin-Sternberg 99, Chapter 5](#GuilleminSternberg99
 
 ## References
 
+Due to [[Henri Cartan]]. Proof appears in
 
 * {#GuilleminSternberg99} [[Victor Guillemin]], [[Shlomo Sternberg]], _Supersymmetry and equivariant de Rham theory_, Springer, (1999) ([doi:10.1007/978-3-662-03992-2](https://link.springer.com/book/10.1007/978-3-662-03992-2))
+
+Review in:
 
 * {#Meinrenken06} [[Eckhard Meinrenken]], _Equivariant cohomology and the Cartan model_, in: _Encyclopedia of Mathematical Physics_, Pages 242-250 Academic Press 2006 ([pdf](http://www.math.toronto.edu/mein/research/enc.pdf), [doi:10.1016/B0-12-512666-2/00344-8](https://doi.org/10.1016/B0-12-512666-2/00344-8))
 
