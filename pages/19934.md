@@ -76,9 +76,23 @@ see [FRTV 12](#FRTV12)
 
 ### Flat orbifolds
 
+#### Of dimension 2
+
 In 2 dimensions
 
+* [[John Milnor]], _On Lattès Maps_ ([arXiv:math/0402147](https://arxiv.org/abs/math/0402147))
+
 * {#Guerreiro09} João Guerreiro, _Orbifolds and Wallpaper Patterns_ ([pdf](https://faculty.math.illinois.edu/~ruiloja/Estudantes/TrabalhoJGuerreiro.pdf))
+
+#### Of dimension 4
+
+Flat (toroidal) orbifolds of dimension 4 are discussed in
+
+* Justin R. David, Gautam Mandal, Spenta R. Wadia, _Microscopic Formulation of Black Holes in String Theory_, Phys.Rept.369:549-686,2002 ([arXiv:hep-th/0203048](https://arxiv.org/abs/hep-th/0203048))
+
+  (in the context of [[black holes in string theory]])
+
+#### Of dimension 6
 
 In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau compactifications]] of [[heterotic string theory]] to 4d)
 
