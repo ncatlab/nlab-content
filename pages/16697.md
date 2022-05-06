@@ -20,6 +20,17 @@ and their intersection with [[orientifolds]]:
 
 * [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
 
+
+On [[toric duality]]:
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _D-brane gauge theories from toric singularities and toric duality, Nucl. Phys. B 595 (2001) 165 ([arXiv:hep-th/0003085](https://arxiv.org/abs/hep-th/0003085))
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _Phase structure of D-brane gauge theories and toric duality_ , J. High Energy Phys. 08 (2001) 040 ([hep-th/0104259](https://arxiv.org/abs/hep-th/0104259))
+
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], [[Angel Uranga]], _Toric duality as Seiberg duality and brane diamonds, J. High Energy Phys. 12 (2001) 035 ([hep-th/0109063](https://arxiv.org/abs/hep-th/0109063))
+
+* [[Bo Feng]], S. Franco, [[Amihay Hanany]], [[Yang-Hui He]], _Unhiggsing the del Pezzo_, J. High Energy Phys. 08 (2003) 058 ([hep-th/0209228](https://arxiv.org/abs/hep-th/0209228))
+
 On [[heterotic M-theory on ADE-orbifolds]]:
 
 * Santiago Cabrera, [[Amihay Hanany]], [[Marcus Sperling]], _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
