@@ -23,7 +23,7 @@
 
 An [[effective field theory|effective]] [[model (in theoretical physics)]] of [[hadrons]] ([[confinement|confined]] [[quarks]]) [[interaction|interacting]] with [[photons]],
 
-based on the assumption that -[[vector mesons]] dominate the [[interaction]] of [[hadrons]] with [[photons]] (i.e. with [[electromagnetism]]).
+based on the observation/assumption that intermediate [[interactions]] via [[vector mesons]] dominate the [[interaction]] of [[hadrons]] with [[photons]] (i.e. with [[electromagnetism]]).
 
 ## Properties
 
