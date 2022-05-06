@@ -10,6 +10,24 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the [[standard model of particle physics]], the _Yukawa couplings_ encode the [[interaction]] between the fundamental [[fermion fields]] and the [[Higgs field]], and thus, via the [[Higgs mechanism]], the [[masses]] of the [[fermion field]] after [[electroweak symmetry breaking]].
+
+## In string phenomenology
+
+In [[intersecting D-brane models]] Yukawa couplings are encoded by [[worldsheet instantons]] of open strings stretching between the [[brane intersection|intersecting]] [[D-branes]] (see [Marchesano 03, Section 7.5](#Marchesano03)). Mathematically this is encoded by  [[derived hom-spaces]] in a [[Fukaya category]] (see [Marchesano 03, Section 7.5](#Marchesano03)).
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/YukawaFukaya.jpg" width="600">
+\end{center}
+
+> table grabbed from [Marchesano 03](#Marchesano03)
 
 ## Related concepts
 
@@ -23,6 +41,8 @@
 
 ## References
 
+See also
+
 * Wikipedia, _[Yukawa interactions](http://en.wikipedia.org/wiki/Yukawa_interaction)_
 
 On computation of Yukawa coupling in [[heterotic string theory]]:
@@ -34,6 +54,9 @@ and in [[intersecting D-brane models]] of [[type II string theory]] via [[Fukaya
 * {#CremadesIbanezMarchesano03} D. Cremades, [[Luis Ibáñez]], [[Fernando Marchesano]], _Yukawa couplings in intersecting D-brane models_, JHEP 0307 (2003) 038 ([arXiv:hep-th/0302105](https://arxiv.org/abs/hep-th/0302105))
 
 * {#Marchesano03} [[Fernando Marchesano]], section 7 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+
+* {#Mayes19} Van E. Mayes, _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
+
 
 [[!redirects Yukawa couplings]]
 
