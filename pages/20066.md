@@ -1,0 +1,1 @@
+The analogue of the [[Strom model structure]] but for [[chain complexes]] instead of [[topological spaces]].  Its weak equivalences are [[chain homotopy equivalences]] rather than [[quasi-isomorphisms]], and its [[homotopy category]] is the [[homotopy category of chain complexes]].
