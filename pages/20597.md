@@ -49,8 +49,8 @@ We refer to the elements of $\mathcal{U}$ as **finitary**, and the elements of $
 
 A **relation** or **morphism** of finiteness spaces is a [[relation]] $R$ from $X$ to $Y$ such that
 
-1. If $u\subseteq X$ is finitary, then $u\circ R = \{ y\in Y \mid \exists x\in u, x R y \}$ is finitary.
-2. If $v\subseteq Y$ is cofinitary, then $R\circ v = \{ x\in X \mid \exists y\in v, x R y \}$ is cofinitary.
+1. If $u\subseteq X$ is finitary, then $R[u] = \{ y\in Y \mid \exists x\in u, x R y \}$ is finitary.
+2. If $v\subseteq Y$ is cofinitary, then $R^{-1}[v] = \{ x\in X \mid \exists y\in v, x R y \}$ is cofinitary.
 
 An equivalent way to say this is that
 
@@ -98,21 +98,50 @@ A similar argument shows that $FinSp_{par}$ has all inhabited limits.  (The abov
 In fact, $FinSp_{par}$ is also a [[cocomplete category]], as shown in [BCJS](#BCJS18).  But its coequalizers are not preserved by $U_{par}$, and in particular not constructed as final lifts of $U_{par}$-structured sinks.
 
 
+## Matrices
+
+Let $R$ be any [[semiring]]; we can define a category $FMat(R)$ as follows:
+
+* Its objects are finiteness spaces.
+* Its morphisms $X\to Y$ are functions $M:X\times Y \to R$ whose support $\{ (x,y) \mid M(x,y) \neq 0 \}$ is a morphism $X\to Y$ in $FinSp_{rel}$.  We write this morphism in $FinSp_{rel}$ as $supp(M):X\to Y$.
+
+The composite of $M:X\to Y$ and $N:Y\to Z$ is defined by
+
+$$ (N M)(x,z) = \sum_{M(x,y)\neq 0 \neq N(y,z)} N(y,z) \cdot M(x,y). $$
+
+To see that this is well-defined, first note that by assumption, for any $x$ the set $\{ y \mid M(x,y)\neq 0 \}$ is finitary, and for any $z$ the set $\{ y \mid N(y,z)\neq 0 \}$ is cofinitary.  Thus their intersection is finite, so the above sum is finite and thus makes sense.  Now to check that $N M$ is indeed a morphism $X\to Y$ in $FMat(R)$, note that if $(N M)(x,z)\neq 0$ it must be that there exists a $y$ such thath $M(x,y)\neq 0 \neq N(y,z)$, and therefore $(supp(N) \circ supp(M))(x,z)$ holds.  In other words, $supp(N M) \subseteq supp(N) \circ supp(M)$, and therefore $supp(N M)$ is also a morphism in $FinSp_{rel}$.
+
+It is straightforward to check associativity and unitality, so we have a category $FMat(R)$.  We note the following properties:
+
+* $FMat(R)$ is enriched over abelian monoids (abelian groups if $R$ is a ring), and indeed over $R$-modules.
+
+* $FMat(R)$ has a [[zero object]] (the empty finiteness space) and finite [[biproducts]] (disjoint unions of finiteness spaces).
+
+* Any [[distributive lattice]] is a semiring with [[join]] as addition and [[meet]] as multiplication.  In the case $R= \{\bot,\top\}$ the set of [[truth values]], we have $FMat(R) = FinSp_{rel}$.
+
+* The proof above that $supp(N M) \subseteq supp(N) \circ supp(M)$, plus a simpler argument in the unary case, shows that for any $R$ we have an identity-on-objects [[colax functor]] $supp: FMat(R) \to FinSp_{rel}$.  (For general $R$, $FMat(R)$ is not a 2-category, but it is when $R$ is a distributive lattice, including the case of $FinSp_{rel}$; thus this makes sense.)
+
+* For general $R$, the category $FMat(R)$ is [[star-autonomous]], and the functor $supp: FMat(R) \to FinSp_{rel}$ preserves this structure strictly.
+
+* Any morphism $H : X\to Y$ in $FinSp_{rel}$ induces a morphism $\hat{H}:X\to Y$ in $Mat(R)$ by setting $\hat{H}(x,y) = 1$ if $H(x,y)$ and $0$ otherwise.  However, this does not define a functor $FinSp_{rel} \to FMat(R)$ since morphisms of the form $\hat{H}$ need not be closed under composition, as the composite of two such might involve a finite sum of copies of $1$.  There are two cases when this does work: when $1$ is an additive idempotent in $R$ (such as when $R$ is a distributive lattice), and when we restrict the domain to $FinSp_{par}$.  In particular, we have a strict symmetric monoidal functor $\chi : FinSp_{par} \to FMat(R)$ for any $R$ that is a partial section of $supp$.
+
 ## Linearization
 
-Let $(X,\mathcal{U})$ be a finiteness space and $A$ an [[abelian group]], and define
+Let $(X,\mathcal{U})$ be a finiteness space and $A$ an [[abelian group]] (or more generally an abelian [[monoid]]), and define
 
 $$ A \langle X\rangle = \{ f : X\to A \mid supp(f) \in \mathcal{U} \}$$
 
-where $supp(f) = \{ x\in X \mid f(x)\neq 0 \}$ is the [[support]] of $f$.  Then $A\langle X\rangle$ is an abelian group called the **linearization** of $X$.
+where $supp(f) = \{ x\in X \mid f(x)\neq 0 \}$ is the [[support]] of $f$.  Then $A\langle X\rangle$ is an abelian group called the **linearization** of $X$ (with coefficients in $A$).
+
+Note that if $A=\{\bot,\top\}$, then $A\langle X\rangle$ is just the set $\mathcal{U}$ of finitary subsets of $X$.
 
 It is shown in [BCJS](#BCJS18) that if $X$ is a partial finiteness monoid (i.e. a monoid in $FinSp_{par}$) and $R$ a [[ring]], then $R\langle X\rangle$ is also a ring with
 
 $$ (f\cdot g)(m) = \sum_{(m_1,m_2)\in X_m(f,g)} f(m_1)\cdot g(m_2) $$
 
-where $X_m(f,g)$ is the set of pairs $(m_1,m_2)\in supp(f) \times supp(g)$ such that $m_1 \cdot m_2 = m$.
+where $X_m(f,g)$ is the set of pairs $(m_1,m_2)\in supp(f) \times supp(g)$ such that $m_1 \cdot m_2 = m$.  In fact $R$ need only be a semiring (in which case so is $R\langle X\rangle$).
 
-If $X$ is merely a monoid in $FinSp_{rel}$, then the above multiplication is still defined, but may not be associative or unital.
+If $X$ is merely a monoid in $FinSp_{rel}$, then the above multiplication is still defined, but may not be associative or unital.  This can be explained more abstractly as follows.  We have $R\langle X\rangle = FMat(R)(1,X)$, where $1$ is the one-element finiteness space (the monoidal unit, which is terminal in $FinSp_{fun}$ but not in any of the other categories of finitenes spaces).  Thus, $R\langle X\rangle$ inherits a multiplicative monoid structure as soon as $X$ is a monoid object in $FMat(R)$.  As noted above, we have a monoidal functor $\chi : FinSp_{par} \to FMat(R)$, which therefore preserves monoids; but no such functor whose domain is $FinSp_{rel}$.
 
 ### Examples
 
