@@ -235,3 +235,4 @@ Theoretical Physics, vol. 34, no. 8, pp. 1297–1302, 1995. {#ChovKop}
 
 [[!redirects quantum effect]]
 [[!redirects quantum effects]]
+[[!redirects effect algebra]]
