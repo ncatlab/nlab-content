@@ -280,12 +280,14 @@ e.g. [Hess 06, theorem 1.24](#Hess06).
 
 
 
+### Relation to Whitehead products
+
+See at _[[the co-binary Sullivan differential is the dual Whitehead product]]_.
 
 
 
 
-
-
+\linebreak
 
 
 
