@@ -27,16 +27,11 @@ A [[vector boson]] in the [[standard model of particle physics]].
 
 * [[quark-gluon plasma]]
 
-* [[boson]]
+* [[quark]]
 
-  * [[gauge boson]]
+* [[colour charge]], [[flavour (particle physics)]]
 
-    * [[photon]], **gluon**, [[graviton]]
+* [[gluino]]
 
-* [[fermion]] 
-
-  * [[electron]], [[quark]],
-
-  * [[gravitino]], [[gaugino]] , [[dilatino]]
 
 [[!redirects gluons]]
