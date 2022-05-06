@@ -97,23 +97,23 @@ $$
     SSh(C(U), A)
     &
     \simeq
-    SSh( \int^{[k] \in Delta} \Delta^k \cdot C(U)_k, A )
+    SSh( \int^{[k] \in \Delta} \Delta^k \cdot C(U)_k, A )
     \\
     &
     \simeq
-    \int_{[k] \in Delta} SSh(\Delta^k \cdot C(U)_k, A )   
+    \int_{[k] \in \Delta} SSh(\Delta^k \cdot C(U)_k, A )   
     \\
     &
     \simeq
-    \int_{[k] \in Delta} SSet(\Delta^k , SSh(C(U)_k,A) )   
+    \int_{[k] \in \Delta} SSet(\Delta^k , SSh(C(U)_k,A) )   
     \\
     &
     \simeq
-    \int_{[k] \in Delta} SSet(\Delta^k , A(U \times_X \cdots \times_X U) )   
+    \int_{[k] \in \Delta} SSet(\Delta^k , A(U \times_X \cdots \times_X U) )   
     \\
     &
     \simeq
-    \int_{[k] \in Delta} SSet(\Delta^k , \prod_{i_0, \cdots, i_k} A(U_{i_0 i_1, \cdots ,i_k}) )   
+    \int_{[k] \in \Delta} SSet(\Delta^k , \prod_{i_0, \cdots, i_k} A(U_{i_0 i_1, \cdots ,i_k}) )   
  \end{aligned}
   \,.
 $$
