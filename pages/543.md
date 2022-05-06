@@ -140,7 +140,7 @@ and for a [[Fukaya category]]-oriented introduction see chapter 1 in
 
 A very detailed treatment of $A_\infty$-categories is a recent book 
 
-* Yu. Bespalov, V. Lyubashenko, O. Manzyuk, _Pretriangulated $A_\infty$-categories_, Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 ([ps.gz](http://www.math.ksu.edu/~lub/cmcMonad.gz))
+* Yu. Bespalov, [[Volodymyr Lyubashenko]], O. Manzyuk, _Pretriangulated $A_\infty$-categories_, Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 ([ps.gz](http://www.math.ksu.edu/~lub/cmcMonad.gz))
 
   * notice: the ps.gz file has different page numbers than the printed version, but the numbering of sections and formulae is final. Errata to published version are [here](http://www.math.ksu.edu/~lub/cmcMoCor.pdf).
 * Oleksandr Manzyk, _A-infinity-bimodules and Serre A-infinity-functors_, dissertation [pdf](https://kluedo.ub.uni-kl.de/files/1910/dissertation.pdf), [djvu](https://kluedo.ub.uni-kl.de/files/1910/dissertation.djvu);  _Serre $A_\infty$ functors_, talk at Categories in geometry and math. physics, Split 2007, slides, [pdf](http://www.irb.hr/korisnici/zskoda/manzyukslides.pdf), work with [[Volodymyr Lyubashenko]]
