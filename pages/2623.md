@@ -4782,6 +4782,29 @@ A vaguely related approach earlier appeared in
 * {#Tamarkin} [[Dmitry Tamarkin]], _A formalism for the renormalization procedure_ ([arXiv:math/0312219](http://arxiv.org/abs/math/0312219))
 
 
+### On compactified configuration spaces
+ {#ReferencesOnCompactifiedConfigurationSpaces}
+
+An alternative to regarding [[propagators]]/[[time-ordered products]]/[[Feynman amplitudes]] as [[distributions of several variables]] with [[singularities]] at (in particular) coincident points, one may [[pullback of differential forms|pullback]] these distributions to [[smooth functions]] on [[Fulton-MacPherson compactifications]] of [[configuration spaces]] of points and study renormalization in that perspective.
+
+This approach was originally considered specifically for [[Chern-Simons theory]] in 
+
+* {#AxelrodSinger93} [[Scott Axelrod]], [[Isadore Singer]],  _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
+
+which was re-amplified  in 
+
+* {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
+
+* {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836,2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
+
+A systematic development of [[perturbative quantum field theory]] from this perspective is discussed in 
+
+* {#Berghoff14a} [[Marko Berghoff]], _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
+
+* {#Berghoff14b} [[Marko Berghoff]], _Wonderful compactifications in quantum field theory_,  Communications in Number Theory and Physics Volume 9 (2015) Number 3 ([arXiv:1411.5583](https://arxiv.org/abs/1411.5583))
+
+For more see at _[[Feynman amplitudes on compactified configuration spaces of points]]_.
+
 
 
 
