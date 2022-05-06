@@ -35,7 +35,7 @@ and $\mu(E\cap F)\lt\delta$.
 \begin{corollary}
 In the context of the above theorem,
 if $(X,\Sigma,\mu)$ is [[σ-finite]], then there is a $\mu$-integrable function $f$ such that $\nu(E)=\int_E f$ for all $E\in\Sigma$ if and only if
-$\nu$ is countable additive and absolutely continuous with respect to $\mu$.
+$\nu$ is countably additive and absolutely continuous with respect to $\mu$.
 If $\mu(X)$ is finite, it suffices to require that $\nu$ is finitely additive.
 \end{corollary}
 
@@ -48,6 +48,19 @@ the counting measure $\mu\colon\Sigma\to[0,\infty]$,
 and the measure $\nu\colon\Sigma\to[0,1]$ that vanishes on countable sets
 and takes value 1 on all uncountable subsets.
 Then $\nu$ is absolutely continuous with respect to $\mu$ because $\mu$ only vanishes on the empty set.
+However, $\nu$ is not truly continuous with respect to $\mu$
+because $\mu$ takes finite values only on finite sets,
+but for any such a set $E$ we have $\nu(X\setminus E)=1$,
+which yields a contradiction if $\epsilon\lt1$.
+\end{example}
+
+\begin{example}
+The [[measure space]] in the last example is quite pathological: it is not [[localizable]].
+A [[localizable]] example can be constructed if and only if [[real-valued-measurable cardinals]] exist.
+In this case, take $X$ to be a [[real-valued-measurable cardinal]],
+$\mu\colon 2^X\to[0,\infty]$ to be the counting measure,
+and $\nu\colon 2^X\to[0,1]$ a probability measure that vanishes on all countable subsets of $X$.
+Then $\nu$ is absolutely continuous with respect to $\mu$ because only the empty subset of $X$ has $\mu$-measure 0.
 However, $\nu$ is not truly continuous with respect to $\mu$
 because $\mu$ takes finite values only on finite sets,
 but for any such a set $E$ we have $\nu(X\setminus E)=1$,
