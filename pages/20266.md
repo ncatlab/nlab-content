@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,11 +21,14 @@ Nevertheless, the pattern of the [[special linear groups]] of the other three [[
 
 [[!include exceptional spinors and division algebras -- table]]
 
+
 ## References
 
-* Nigel Hitchin, _SL(2) over the octonions_ ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
+* {#Hitchin18} [[Nigel Hitchin]], _$SL(2)$ over the octonions_, Mathematical Proceedings of the Royal Irish Academy. Vol. 118. No. 1. Royal Irish Academy, 2018 ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
+
+
 
 [[!redirects special linear group over the octonions]]
 
-[[!redicrects octonionic special linear group]]
+[[!redirects octonionic special linear group]]
 
