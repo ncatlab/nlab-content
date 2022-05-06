@@ -263,7 +263,11 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 [[!redirects U-bordism]]
 [[!redirects U-bordisms]]
 
+[[!redirects U-bordism ring]]
+[[!redirects U-bordism rings]]
+
 [[!redirects U-bordism theory]]
+[[!redirects U-bordism theories]]
 
 
 
