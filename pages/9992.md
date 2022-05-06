@@ -3,6 +3,16 @@
 
 ## Selected writings
 
+The [[Landweber exact functor theorem]]:
+
+* {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610 ([jstor:2373808](https://www.jstor.org/stable/2373808))
+
+
+On [[bordism homology theory]]/[[cobordism cohomology theory]]:
+
+* [[Peter Landweber]], _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 100, Issue 2 September 1986 , pp. 207-223 ([doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032))
+
+
 Introducing [[elliptic cohomology]]:
 
 * {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038))
