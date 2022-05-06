@@ -55,6 +55,10 @@ There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic strin
 
 [[!include F-theory compactifications -- table]]
 
+\linebreak
+
+[[!include KK-compactifications of M-theory -- table]]
+
 
 ## References
 
