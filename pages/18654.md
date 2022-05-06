@@ -39,9 +39,16 @@ See also
 
 [[!redirects pions]]
 
+[[!redirects pi meson]]
+[[!redirects pi mesons]]
+[[!redirects pi-meson]]
+[[!redirects pi-mesons]]
+
 [[!redirects pion field]]
 [[!redirects pion fields]]
 
+[[!redirects π meson]]
+[[!redirects π mesons]]
 [[!redirects π-meson]]
 [[!redirects π-mesons]]
 
