@@ -61,7 +61,7 @@ In other words, the [[generalized (Eilenberg-Steenrod) cohomology]] theory which
 
 Therefore "Cohomotopy theory" is really shorthand for "Cohomotopy cohomology theory" and as such is [[duality|dual]] to _homotopy homology theory_, which in the stable case is known as _[[stable homotopy homology theory]]_.
 
-In particular, cohomotopy theory is a [[concrete particular]] and not dual to the [[abstract general]] of [[homotopy theory]]; and is hence also not on par with the [[abstract general]] of [[cohomology theory]]. Rather, Cohomotopy theory is one _instance_ of a [[generalized cohomology|cohomologyy theory]], and as such is a sibling of [[ordinary cohomology theory]] ([[HR]]-theory)), [[K-theory]], etc.
+In particular, cohomotopy theory is a [[concrete particular]] and not dual to the [[abstract general]] of [[homotopy theory]]; and is hence also not on par with the [[abstract general]] of [[cohomology theory]]. Rather, Cohomotopy theory is one _instance_ of a [[generalized cohomology|cohomology theory]], and as such is a sibling of [[ordinary cohomology theory]] ([[HR]]-theory)), [[K-theory]], etc.
 
 To emphasize this, one might, in the [[stable cohomotopy theory|stable case]], say _$\mathbb{S}$-theory_ instead of "stable Cohomotopy theory"; where $\mathbb{S}$ denotes the [[sphere spectrum]]. In the unstable case there is no widely adopted notation, but one might consider saying "$\mathbf{\pi}$-theory" (with $\pi$ the established symbol for (co)[[homotopy groups]]) or _$S$-theory_ (with "$S$" for [[n-spheres]] $S^n$) for unstable Cohomotopy theory.
 
