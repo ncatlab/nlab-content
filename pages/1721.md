@@ -1068,6 +1068,10 @@ More references relating to the [[nPOV]] on cohomology include:
 
 * [[Jacob Lurie]],  _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
+Formulation in [[homotopy type theory]]:
+
+* [[Evan Cavallo]], _Synthetic Cohomology in Homotopy Type Theory_ MSc Thesis 2015 ([pdf](https://www.cs.cmu.edu/~rwh/theses/cavallo-msc.pdf))
+
 
 [[!redirects generalized Eilenberg-Steenrod cohomology]]
 [[!redirects generalized Eilenberg?Steenrod cohomology]]
