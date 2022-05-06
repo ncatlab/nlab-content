@@ -27,11 +27,10 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints/Notes
 
-* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Joint with Ben Nagy.
 
-* _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title)
+* _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title) Submitted.
 
-* _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
+* _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Submitted.
 
 * _Class forcing and topos theory_ (2018) notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
 
@@ -40,6 +39,8 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 
 ### Papers
+
+* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Accepted to appear, American Mathematical Monthly, 11 March 2020. Joint with Ben Nagy.
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
