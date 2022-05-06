@@ -26,7 +26,7 @@
 
 ## Idea
 
-The notion of _monoidal $(\infty,1)$-category_ is the analogue of the notion of [[monoidal category]] in the context of [[(infinity,1)-category|(∞,1)-categories]].
+The notion of _monoidal $(\infty,1)$-category_ is the analogue of the notion of [[monoidal category]] in the context of [[(infinity,1)-category|(∞,1)-categories]]. Monoidal $(\infty,1)$-categories form an [[(∞,2)-category]], [[Mon(∞,1)Cat]].
 
 There are various ways to state the monoidal structure. One is in terms of fibrations over the [[simplex category]]. This is the approach taken in 
 
