@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,9 +26,37 @@ An _orbispace_ is a [[space]], specifically a [[topological stack]],  that is lo
 
 As to what this means precisely, there is a good deal of variance in the literature:
 
-Early references on orbispaces essentially mean just [[topological groupoids]] themselves, subject to more or less conditions similar to those satisfied by [[Lie groupoids]] corresponding to [[orbifolds]] (e.g. [Chen 01](#Chen01), [Henriques 01](#Henriques01)). 
+Following [Haefliger 90](#Haefliger90), early references on orbispaces essentially mean just the [[topological space|topological]] version of _[[orbifold]]_ (i.e. without considering [[smooth structure]]), which, in the language of [[étale stacks]], means to consider [[topological groupoids]]/[[topological stacks]] instead of [[Lie groupoids]]/[[differentiable stacks]]  ([Haefliger 84](#Haefliger84), [Haefliger 91, 5](#Haefliger91), [Chen 01](#Chen01), [Henriques 01](#Henriques01), [Henriques 05](#Henriques05)). Hence this use of the term "orbispace" is such as to complete the following patter:
 
-In [Henriques-Gepner 07](#HenriquesGepner07) it was suggested that orbispaces should be these topological groupoids but regarded in [[global homotopy theory]] as the [[(∞,1)-presheaves]] on a [[global orbit category]] which they represent. This use of the term has become adopted among [[homotopy theory|homotopy theorists]] (e.g. [Rezk 14](#Rezk14), [Koerschgen 16](#Koerschgen16), [Schwede 17](#Schwede17)). But even here there are at least two variants of the definition to be distinguished, depending on whether the morphisms in the [[global orbit category]] are taken to be general or only [[injective map|injective]] [[group homomorphisms]].
+$$
+  \array{
+    \text{smooth manifold} 
+    & 
+    \text{topological manifold}    
+    \\
+    \text{orbifold} & {\color{blue}\text{orbispace}}
+    \\ 
+    \text{Lie groupoid} & \text{topological groupoid}
+    \\ 
+    \text{differentiable stack} & \text{topological stack}
+  }
+$$
+
+However, in [Henriques-Gepner 07](#HenriquesGepner07) it was suggested that orbispaces should be these topological groupoids but regarded in [[global homotopy theory]] as the [[(∞,1)-presheaves]] on a [[global orbit category]] which they represent:
+
+$$
+  \array{
+    TopologicalGroupoids
+    &\overset{\prec}{\longrightarrow}&
+    Orbispaces
+    \\
+    \mathcal{X}
+    &\mapsto&
+    (G \mapsto Maps(\mathbf{B}G, \mathcal{X}))
+  }
+$$
+
+This use of the term has become adopted among ([[equivariant homotopy theory|equivariant]]) [[homotopy theory|homotopy theorists]] (e.g. [Rezk 14](#Rezk14), [Koerschgen 16](#Koerschgen16), [Schwede 17](#Schwede17), [Lurie EllIII](#LurieEllIII), [Juran 20](#Juran20)). But even here there are at least two variants of the definition to be distinguished, depending on whether the morphisms in the [[global orbit category]] are taken to be general or only [[injective map|injective]] [[group homomorphisms]].
 
 
 
@@ -76,14 +105,22 @@ $$
 
 ## References
 
-Orbispaces in roughly the sense of [[topological groupoids]] are discussed in
+Orbispaces as the topological version of [[orbifolds]] (in particular as [[topological groupoids]]/[[topological stacks]]):
+
+* {#Haefliger84} [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116  (1984), p. 70-97 ([numdam:AST_1984__116__70_0](http://www.numdam.org/item/?id=AST_1984__116__70_0))
+
+* {#Haefliger90} [[André Haefliger]], _Orbi-Espaces_,  In: E. Ghys, P. de la Harpe (eds.), _Sur les Groupes Hyperboliques d’après Mikhael Gromov_, Progress in Mathematics, vol 83. Birkhäuser 1990 ([doi:10.1007/978-1-4684-9167-8_11](https://doi.org/10.1007/978-1-4684-9167-8_11))
+
+  (apparently the term is first used here?)
+
+* {#Haefliger91} [[André Haefliger]], _Complexes of Groups and Orbihedra_, in: E. Ghys, A. Haefliger, A Verjovsky (eds.), _Proceedings of the Group Theory from a Geometrical Viewpoint_, ICTP, Trieste, Italy , 26 March – 6 April 1990_, World Scientific 1991 ([doi:10.1142/1235](https://doi.org/10.1142/1235))
+
 
 * {#Chen01} [[Weimin Chen]], _A homotopy theory of orbispaces_ ([arXiv:math/0102020](http://arxiv.org/abs/math/0102020))
 
-
 * {#Henriques01} [[André Henriques]], _Orbispaces and orbifolds from the point of view of the Borel construction, a new definition_ ([arXiv:0112006](http://arxiv.org/abs/math/0112006))
 
-* [[André Henriques]], _Vector bundles on orbispaces_ (2005) ([pdf](http://andreghenriques.com/PDF/orbiabstract.pdf), [[HenriquesVectorBundlesOnOrbispaces.pdf:file]])
+* {#Henriques05} [[André Henriques]], _Vector bundles on orbispaces_ (2005) ([pdf](http://andreghenriques.com/PDF/orbiabstract.pdf), [[HenriquesVectorBundlesOnOrbispaces.pdf:file]])
 
 The idea to regard these topological groupoids as in [[global homotopy theory]] via the [[(infinity,1)-presheaves]] on a [[global orbit category]] which they represent is due to
 
@@ -97,9 +134,10 @@ developed further in
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_, Mathematische Zeitschrift 294 (2020), 71-107 ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
+* {#Juran20} Branko Juran, _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
 
 See also
 
-* {#Lurie} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+* {#LurieEllIII} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
 
 [[!redirects orbispaces]]
