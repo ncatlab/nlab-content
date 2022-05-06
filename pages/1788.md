@@ -1,17 +1,69 @@
 xxxx
 
 <details>
-<summary> Links: </summary>
-<ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">MDN: Details</a>
-</li>
-<li><a href="http://html5doctor.com/the-details-and-summary-elements/">html5doctor.com the-details-and-summary-elements</a>
-</li>
-<li><a href="http://caniuse.com/#search=details">Can I use "details"</a>
-</li>
-</ul>
+<summary>
+  x1:
+</summary>
+x
 </details>
 <details>
-<summary> Links: </summary>
-dsfs dsfds dsfds dsf
+<summary>
+  x2:
+</summary>
+x
+</details>
+<details>
+<summary>
+  x3:
+</summary>
+x
+</details>
+<details>
+<summary>
+  x4:
+</summary>
+x
+</details>
+<details>
+<summary>
+  x5:
+</summary>
+x
+</details>
+
+xxxx
+
+<details>
+<summary>
+  x1:
+</summary>
+x
+</details>
+
+<details>
+<summary>
+  x2:
+</summary>
+x
+</details>
+
+<details>
+<summary>
+  x3:
+</summary>
+x
+</details>
+
+<details>
+<summary>
+  x4:
+</summary>
+x
+</details>
+
+<details>
+<summary>
+  x5:
+</summary>
+x
 </details>
