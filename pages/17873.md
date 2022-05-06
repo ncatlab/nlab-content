@@ -448,7 +448,7 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$
 
 * {#Menni17} [[Matías Menni|M. Menni]], _Every sufficiently cohesive topos is infinitesimally generated_ , ms. 2017. (to appear in Cah. Top. Géom. Diff. Cat.; [preprint](https://drive.google.com/file/d/0B5-jAxlI_G5xdzdoUllNbDB6Rkk/view))
 
-* {#Shulman15} [[Mike Shulman|M. Shulman]], _Brouwer's Fixed Point Theorem in Real-Cohesive Homotopy Type Theory_ , arXiv:1509.07584 (2015). ([abstract](http://arxiv.org/abs/1509.07584)) 
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 
 [[!redirects sufficiently cohesive topos]]
