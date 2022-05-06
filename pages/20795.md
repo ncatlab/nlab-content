@@ -109,20 +109,24 @@ With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
 
-### Relation to knot invariants
+### Relation to Vassiliev braid invariants
  {#ReferencesRelationToKnotInvariants}
 
 Relation of [[Dp-D(p+2)-brane bound states]] ([hence](#ReferencesRelationToMonopoles)
-[[Yang-Mills monopoles]]) to [[knot invariants]] via [[chord diagrams]]:
+[[Yang-Mills monopoles]]) to [[Vassiliev braid invariants]] via [[chord diagrams]] computing [[radii]] of [[fuzzy spheres]]:
 
-* S. Ramgoolam, B. Spence, S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+* [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
 
-* S. McNamara, Constantinos Papageorgakis, S. Ramgoolam, B. Spence, Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+* [[Simon McNamara]], [[Constantinos Papageorgakis]], [[Sanyaje Ramgoolam]], [[Bill Spence]], Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
 
-* Constantinos Papageorgakis, p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+* [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative Field Theory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
 
+* [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 
 [[!redirects Dp-D(p+2)-brane bound states]]
+
+[[!redirects Dp-Dp+2-brane bound state]]
+[[!redirects Dp-Dp+2-brane bound states]]
 
 
