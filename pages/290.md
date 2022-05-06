@@ -131,6 +131,10 @@ Ours is the age to figure this out.
 
 ## Related concepts
 
+* [[relativistic quantum field theory]]
+
+* [[Euclidean quantum field theory]], [[thermal quantum field theory]]
+
 * [[scattering amplitude]]
 
 * [[perturbation theory]] 
