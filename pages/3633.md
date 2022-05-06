@@ -63,7 +63,11 @@ $$
   \phantom{A}
   \\
   \underset{
-    \text{n-point function of relativistic fields}
+    {
+    \text{equal-time n-point function} 
+    \atop 
+    \text{of relativistic fields}
+    }
     \atop
     \text{ in thermal equilibrium state } \; \vert T\rangle
   }{
@@ -77,7 +81,7 @@ $$
     \text{ for "Euclidean time" of periodicity}\; \beta = 1/T
   }{
   \underbrace{
-  \left\langle 0 \vert \mathbf{\Phi}(x_1) \mathbf{\Phi}(x_2) \cdots \mathbf{\Phi}(x_n)  \vert 0 \right\rangle_{\mathbb{R}^{d} \times S^1_{\beta}}
+  \left\langle 0 \vert \mathbf{\Phi}(x_1,t) \mathbf{\Phi}(x_2,t) \cdots \mathbf{\Phi}(x_n,t)  \vert 0 \right\rangle_{\mathbb{R}^{d} \times S^1_{\beta}}
   }}
   }
 $$
