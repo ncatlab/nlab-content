@@ -485,42 +485,65 @@ Various notions of [[cohomology groups]] in the context of [[algebra]] can be ex
     \,.
   $$
 
+
+
+## Examples
+
+(...)
+
++-- {: .num_prop #ExtensionsOfTheIntegersAreTrivial} 
+###### Proposition
+**(extensions of the integers are trivial)**
+
+For any $A \in $ [[Ab]] we have
+
+$$
+  Ext^1(\mathbb{Z}, A) \;=\; 0
+  \,.
+$$
+
+=--
+
+(e.g. [Boardman, Prop. 19](#Boardman))
+
+(...)
+
+
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
 
+
+
 ## References
 
-Standard texbook accounts include (see also most references at _[[homological algebra]]_)
+Texbook accounts (see also most references at _[[homological algebra]]_):
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
- {#Weibel}
-
+* {#Weibel} [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
+ 
 * [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press 1956.
 
 * S. I . Gelfand, [[Yuri Manin]], _Methods of homological algebra_
 
 A systematic discussion from the point of view of [[derived categories]] is in 
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer (2000)
- {#KashiwaraShapira}
+* {#KashiwaraShapira} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer (2000)
+ 
 
 Lecture notes include
 
 * Kiyoshi Igusa, _25 The Ext Functor_ ([pdf](http://people.brandeis.edu/~igusa/Math101b/Ext.pdf))
 
-section 4 of
+* {#Boardman} [[Michael Boardman]], _Some Common $Tor$ and $Ext$ Groups_ ([pdf](http://math.jhu.edu/~jmb/note/torext.pdf), [[BoardmanTorAndExtGroups.pdf:file]])
 
-* [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
- {#May}
-
-as well as
+* {#May} [[Peter May]], Section 4 of: _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
+ 
 
 * [[Patrick Morandi]], _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
 
-  (warning: the last section on resolutions for cocycles for group (abelian) exensions is not correct)
+  (warning: the last section on resolutions for cocycles for group (abelian) extensions is not correct)
 
-Original articles include
+Original articles:
 
 * [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society
 Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
