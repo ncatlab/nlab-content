@@ -31,7 +31,6 @@ Examples of cartesian bicategories include
  * the bicategory [[profunctor|Prof]] of (small) categories and profunctors,
  * more generally, the bicategory of internal categories and [[modules]] ([[profunctors]]) in a finitely complete category $C$,
  * as an alternative generalization, the bicategory of enriched categories and modules over a _cartesian_ monoidal category $V$.
- * ??(This is a guess) the bicategory of bialgebroids and modules in a general symmetric monoidal category $V$.
 
 Non-examples include
 
