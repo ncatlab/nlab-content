@@ -95,7 +95,7 @@ and the general condition is due to
 
 * [[Katrin Becker]], [[Melanie Becker]], around (2.58) in _M-Theory on Eight-Manifolds_, Nucl.Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
 
-* Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys.Lett.B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
+* Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
 
 Further discussion:
 
