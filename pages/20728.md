@@ -119,7 +119,7 @@ p(z|x) = \sum_y p(z|y) \, p (y|x)
 $$
 for the discrete case, and as
 $$
-p(A|x) = \int_Y p(A|y) \, dp(y|x)
+p(A|x) = \int_Y p(A|y) \, d p(y|x)
 $$
 for the continuous case. 
 
