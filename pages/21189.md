@@ -147,11 +147,14 @@ Original articles:
 * H. Leutwyler, _On the Foundations of Chiral Perturbation Theory_, Annals Phys. 235 (1994) 165-203 ([arXiv:hep-ph/9311274](https://arxiv.org/abs/hep-ph/9311274))
 
 
-
-
 Specifically for [[kaon]] decay:
 
 * V. Cirigliano, G. Ecker, H. Neufeld, A. Pich, J. Portoles, _Kaon Decays in the Standard Model_, Rev. Mod. Phys. 84 (2012) 399 ([arXiv:1107.6001](https://arxiv.org/abs/1107.6001))
+
+Further discussion of [[phenomenology]]:
+
+* Prabal Adhikari, Jens O. Andersen, _Quark and pion condensates at finite isospin density in chiral perturbation theory_ ([arXiv:2003.12567](https://arxiv.org/abs/2003.12567))
+
 
 
 [[!redirects chiral symmetry breaking]]
