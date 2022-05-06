@@ -613,7 +613,7 @@ d^{p+1}k
 $$
 
 exists. Then this limit is clearly a solution to the distributional equation (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator)
-because on those bump functions $b(k)$ which happen to be products with $\left(-\eta^{\mu \nu}k_\mu k-\nu - \left( \tfrac{m c}{\hbar}\right)^2\right)$
+because on those bump functions $b(k)$ which happen to be products with $\left(-\eta^{\mu \nu}k_\mu k_\nu - \left( \tfrac{m c}{\hbar}\right)^2\right)$
 we clearly have
 
 $$
