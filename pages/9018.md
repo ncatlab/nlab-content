@@ -251,6 +251,9 @@ More discussion of the non-abelian gauge group enhancement at [[orbifold]] singu
 
 * {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schafer-Nameki]], _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
 
+* Max Hubner, _Local $G_2$-Manifolds, Higgs Bundles and a Colored Quantum Mechanics_ ([arXiv:2009.07136](https://arxiv.org/abs/2009.07136))
+
+
 
 
 Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
