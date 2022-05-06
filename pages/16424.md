@@ -14,7 +14,7 @@ The [[Dynkin diagram]]/[[Dynkin quiver]] [[D4]] has an [[symmetric group|S3]]-[[
    (graphics grabbed from Wikipedia [here](https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png))
 
 
-This manifests itself in "triality" symmetries enjoyed by the objects that are labled by [[D4]] in an [[ADE-classification]].
+This manifests itself in "triality" symmetries enjoyed by the objects that are labeled by [[D4]] in an [[ADE-classification]].
 
 Specifically for the [[simple Lie group]] [[SO(8)]] corresponding to [[D4]], triality is the statement that the two [[spin representations]] of the corresponding [[spin group]] $Spin(8)$ and the defining vector representations are all [[isomorphism|isomorphic]], and in a nice way.
 
