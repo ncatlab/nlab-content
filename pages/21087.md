@@ -14,7 +14,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -57,7 +56,11 @@ On the [[logical equivalence]] between the [[four-colour theorem]] and a stateme
 
   > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
 
+* David Jorrin, Nicolas Kovensky, Martin Schvellinger,  _Towards $1/N$ corrections to deep inelastic scattering from the gauge/gravity duality_, JHEP 04 (2016) 113 ([arXiv:1601.01627](https://arxiv.org/abs/1601.01627))
+
+
 #### Via conformal bootstrap
+
 
 Using the [[conformal bootstrap]] for [[CFT]]s at small N to deduce [[M-theory]]-properties on the dual side:
 
@@ -71,6 +74,14 @@ For the [[D=6 N=(2,0) SCFT]] on [[coincident brane|coincident]] [[M5-branes]]:
 
 * {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
+
+### In 2d QCD
+
+On [[1/N corrections]] in [[2d QCD]]:
+
+* [[Itzhak Bars]], _QCD and Strings in 2D_ ([arXiv:hep-th/9312018](https://arxiv.org/abs/hep-th/9312018))
+
+
 ### In AdS/QCD
 
 Specifically for the [[AdS/QCD correspondence]]:
@@ -82,4 +93,9 @@ Specifically for the [[AdS/QCD correspondence]]:
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
 [[!redirects small N limit]]
+
+[[!redirects 1/N correction]]
+[[!redirects 1/N corrections]]
+
+
 
