@@ -33,12 +33,23 @@ Most often one looks at dynamical systems in which $M$ is a smooth manifold. Dyn
 
 * [[cohomology of dynamical systems]]
 
+* [[chaos]]
+
+## References
+
 ### General
 
 * Boris Hasselblatt, Anatole Katok, _Handbook of dynamical systems_, [contents](http://www.math.psu.edu/katok_a/handbook.html)
-* wikipedia [dynamical system](http://en.wikipedia.org/wiki/Dynamical_system), [autonomous system](http://en.wikipedia.org/wiki/Autonomous_system_%28mathematics%29)
 
-### Categorical aspects
+See also
+
+* Wikipedia [dynamical system](http://en.wikipedia.org/wiki/Dynamical_system), [autonomous system](http://en.wikipedia.org/wiki/Autonomous_system_%28mathematics%29)
+
+### Categorical formulation
+
+Discussion in terms of [[category theory]]:
+
+* [[William Lawvere]], _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/87s.pdf))
 
 * George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, [arxiv/1307.8418](http://arxiv.org/abs/1307.8418)
 
