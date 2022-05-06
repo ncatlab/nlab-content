@@ -15,14 +15,14 @@
 
 ## Idea
 
-Extra axioms on a [[monoidal model category]] $\mathbf{S}$ that guarantee a particularly good [[homotopy theory]] of $\mathbf{S}$-[[enriched categories]] are referred to as _excellent model category_ structure ([Lurie](#Lurie)).
+A [[monoidal model category]] $\mathbf{S}$ with extra properties guaranteeing a particularly good [[homotopy theory]] of $\mathbf{S}$-[[enriched categories]] is referred to in ([Lurie](#Lurie)) as an _excellent model category_.
 
 ## Definition
 
 +-- {: .num_defn }
 ###### Definition
 
-Let $\mathbf{S}$ be a [[monoidal model category]]. It is called _excellent_ if
+Let $\mathbf{S}$ be a symmetric [[monoidal model category]]. It is called __excellent__ if
 
 * it is a [[combinatorial model category]];
 
@@ -32,11 +32,35 @@ Let $\mathbf{S}$ be a [[monoidal model category]]. It is called _excellent_ if
 
 * the class of cofibrations is closed under [[products]];
 
-* it satisfies the **invertibility hypothesis**: for any homotopy equivalence $f$ in an $\mathbf{S}$-[[enriched category]] $C$, the localization functor $C \to C[f^{-1}]$ is a weak equivalence of $\mathbf{S}$-enriched categories.
-
 =--
 
-This is ([Lurie, def. A.3.2.16](#Lurie)).
+This is ([Lurie, def. A.3.2.16](#Lurie)), except that he also includes the "invertibility hypothesis" ([see below](#InvertibilityHypothesis)).
+
+## Examples
+
+* The [[classical model structure on simplicial sets]].
+
+* Any symmetric monoidal, locally presentable category with its [[trivial model structure]].
+
+* The Cartesian model structure on [[marked simplicial sets]], with the cartesian product.
+
+* The [[model structure for quasi-categories]] on simplicial sets.
+
+
+## Properties
+
+* If $\mathbf{S}$ is an excellent model category, $\mathbf{A}$ is a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]], and $C$ is a small $\mathbf{S}$-[[enriched category]], then the category $[C,\mathbf{A}]$ of enriched functors has both a [[projective model structure]] and an [[injective model structure]], which are both combinatorial.
+
+
+## The invertibility hypothesis {#InvertibilityHypothesis}
+
+[Lurie](#Lurie) originally included the an additional condition in the definition, called the **invertibility hypothesis**.  Fortunately, it was shown later by [Lawson](#Lawson) that the invertibility hypothesis is redundant: any model category satisfying the other axioms of an excellent model category always satisfies the invertibility hypothesis.
+
+### Description of the invertibility hypothesis
+
+The invertibility hypothesis states:
+
+* for any homotopy equivalence $f$ in an $\mathbf{S}$-[[enriched category]] $C$, the localization functor $C \to C[f^{-1}]$ is a weak equivalence of $\mathbf{S}$-enriched categories.
 
 The invertibility hypothesis requires some more explanation.  Firstly, by a "homotopy equivalence" we mean a morphism that becomes an isomorphism in the homotopy category $h C$, which is defined by applying to the hom-objects of $C$ the monoidal localization functor $\mathbf{S}\to h \mathbf{S}$ from $\mathbf{S}$ to its [[homotopy category]] (defined in the usual way for a model category by inverting its weak equivalences).  This makes $h C$ an $h \mathbf{S}$-enriched category, and we ask that $f$ be invertible in the underlying ordinary category of $h C$.
 
@@ -47,15 +71,12 @@ $$\array{ \mathbf{2}_{\mathbf{S}} & \xrightarrow{[f]} & C \\ \downarrow && \down
 
 Finally, by a "weak equivalence of $\mathbf{S}$-enriched categories" we mean a weak equivalence in the [[model structure on enriched categories]].
 
-## Examples
 
-+-- {: .un_theorem}
-###### Theorem
-The [[classical model structure on simplicial sets]] is an excellent model category.
-=--
-+-- {: .proof}
-###### Proof
-All the axioms are well-known, except for the invertibility hypothesis.  [Lurie](#Lurie) says (A.3.2.18) that this is "one of the main theorems" of [DK80](#DwyerKanLocalizations), but some further details may be helpful.  The relevant theorem appears to be Proposition 10.4 of [DK80](#DwyerKanLocalizations) which states
+### Simplicial sets satisfy the invertibility hypothesis
+
+We [Lurie](#Lurie) says (A.3.2.18) that this is "one of the main theorems" of [DK80](#DwyerKanLocalizations), but some further details may be helpful to understand how this comes about.  Note that this proof is not subsumed by Lawson's proof that all excellent model categories satisfy the invertibility hypothesis; instead Lawson *uses* this theorem to transfer the property from simplicial sets to all others excellent model categories.
+
+The relevant theorem appears to be Proposition 10.4 of [DK80](#DwyerKanLocalizations) which states
 
 > Let $V\to B\in \mathrm{s} O-Cat$ be a strong cofibration.  Then the induced map $B\to B[V^{-1}]$ is a weak equivalence if and only if every map of $\pi_0 B$ which is in the image of $\pi_0 V$ is invertible.
 
@@ -64,16 +85,21 @@ Here $\mathrm{s} O-Cat$ is the category of simplicially enriched categories with
 Now the construction of $B[V^{-1}]$ in [DK80](#DwyerKanLocalizations) is essentially the same as the pushout quoted above from [Lurie](#Lurie).  And $\pi_0 B$ denotes taking the homwise set of connected components of a simplicially enriched category, which can be factored as first taking the enriched homotopy category (which is a category enriched over $h(sSet)$) and then its underlying ordinary category; thus the assumption that "every map of $\pi_0 B$ which is in the image of $\pi_0 V$ is invertible" is equivalent to the assumption that $f$ is a homotopy equivalence.
 
 Finally, a "strong cofibration" is defined in [DK80](#DwyerKanLocalizations) to be a cofibration with cofibrant domain, and $\mathbf{2}_{\mathbf{S},O}$ is easily checked to indeed be cofibrant (essentially because the unit object of $sSet$ is cofibrant).
-=--
 
+
+### All excellent model categories satisfy the invertibility hypothesis
+
+[Lawson](#Lawson) now shows that:
+
+1. Cubical sets are monoidally Quillen equivalent to simplicial sets, hence also satisfy the invertibility hypothesis.
+1. Any excellent model category admits a monoidal Quillen functor from cubical sets, hence also satisfies the invertibility hypothesis.
 
 ## References
 
-Section A.3 in 
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_, Section A.3
 
 * {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
+
+* {#Lawson16} [[Tyler Lawson]], _Localization of enriched categories and cubical sets_, [arXiv:1602.05313](https://arxiv.org/abs/1602.05313)
 
 [[!redirects excellent model categories]]
