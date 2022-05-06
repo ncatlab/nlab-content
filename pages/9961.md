@@ -19,7 +19,7 @@
 
 Lattice gauge theory is a [[computation|computational]] model for [[gauge theory]] ([[Yang-Mills theory]]).
 
-These are numerical simulation of [[Wick rotation|Wick rotated]] [[non-perturbative quantum field theory|non-perturbative QCD]] obtained by discretizing the Euclidean [[spacetime]] to a _lattice_ [[graph]] of [[vertices]] and [[edges]] between them, regarding the [[gauge field]] as a function on the [[edges]] (assigning to an edge the [[holonomy]]/[[parallel transport]] of the gauge field) and then explicitly evaluating the would-be [[path integral]] of the [[Yang-Mills action]] over these field configurations as an approximate numerical sum. 
+These are numerical simulation of [[Wick rotation|Wick rotated]] [[non-perturbative quantum field theory|non-perturbative QCD]] obtained by discretizing the [[Euclidean field theory|Euclidean spacetime]] to a _lattice_ [[graph]] of [[vertices]] and [[edges]] between them, regarding the [[gauge field]] as a function on the [[edges]] (assigning to an edge the [[holonomy]]/[[parallel transport]] of the gauge field) and then explicitly evaluating the would-be [[path integral]] of the [[Yang-Mills action]] over these field configurations as an approximate numerical sum. 
 
 Specifically for [[QCD]] this is also called _lattice QCD_, etc.
 
