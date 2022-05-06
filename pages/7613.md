@@ -303,6 +303,9 @@ problem. One would eventually hope for a microscopic formulation of M-theory whi
 
 Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]] [[M5-branes]] (and thus the [[gauge enhancement]] on [[coincident brane|coincident]] [[D4-branes]] under [[duality between M-theory and type IIA string theory]]) remains an open problem:
 
+[Lambert 12, p. 49](BLG+model#Lambert12):
+
+> The M5-brane theory remains an important open problem.
 
 [Hu 13, p. 1](6dN20SCFT#Hu13):
 
@@ -474,6 +477,7 @@ Discussion of M-theory as arising from [[type II string theory]] via the effect 
 ### More on the relation to type IIA string theory
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
 
 
 ### In terms of higher geometry
