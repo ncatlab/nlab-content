@@ -64,7 +64,15 @@ $$
   \omega \to \pi^+ + \pi^- + \pi^0
 $$
 
-(the "charged decay")
+(the "charged decay").
+
+Or rather, this is the direct (contact term) decay. The net process $\omega \to 3 \pi$ is dominated by the successive decay
+
+$$
+  \omega \to \rho + \pi 
+  \to
+  (2 \pi) + \pi
+$$
 
 
 #### The $\omega$-$\rho$-$\pi$-coupling
@@ -133,6 +141,14 @@ Phenomenology:
 
 
 * Cheng-Qun Pang, Ya-Rong Wang, Jing-Fu Hu, Tian-Jie Zhang, Xiang Liu, _Study of the $\omega$ meson family and newly observed $\omega$-like state $X(2240)$_ ([arXiv:1910.12408](https://arxiv.org/abs/1910.12408))
+
+### Decays
+
+The direct decay $\omega \to \pi^0 + \pi^+ + \pi^-$:
+
+* S. Rudaz, _Anomalies, vector mesons and the $\omega \to 3 \pi$ contact term_, Phys. Lett. B 145 (1984) 281-284 ([spire:208193](https://inspirehep.net/literature/208193), <a href="https://doi.org/10.1016/0370-2693(84)90355-1">doi:10.1016/0370-2693(84)90355-1</a>)
+
+
 
 On [[Dalitz decays]] of omega-mesons:
 
