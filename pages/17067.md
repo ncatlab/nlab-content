@@ -43,7 +43,7 @@ When the ambient category $\mathcal{C}$ is suitably monoidal, then the category 
 
 The terminology "ex-spaces" is due to Ioan James.  See for instance:
 
-* {#James} * [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_ in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
+* {#James}  [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_ in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
 
 Discussion of their [[model category]] structures includes
 
