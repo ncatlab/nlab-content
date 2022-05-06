@@ -103,7 +103,7 @@ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \con
 
 ### As a quotient of the complex projective plane
 
-The 4-sphere is the [[quotient space]] of the [[complex projective space|complex projective]] plane by the [[action]] on homogeneous coordinates of [[complex conjugation]].
+The 4-sphere is the [[quotient space]] of the [[complex projective plane]] by the [[action]] on homogeneous coordinates of [[complex conjugation]].
 
 $$
   \mathbb{C}P^2 / (-)^*
