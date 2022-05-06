@@ -25,7 +25,7 @@ A _3-group_ is equivalently
 
 1. a [[2-groupoid]] $G$ equipped with the structure of a [[loop space object]] of a connected [[3-groupoid]] $\mathbf{B}G$ (its [[delooping]]);
 
-1. a [[monoidal 2-category]] in which every [[object]] has an weak inverse under the tensor product.
+1. a [[monoidal 2-category]] in which every [[object]] has an weak inverse under the tensor product, every 1-morphism has a weak inverse, and every 2-morphism has an inverse.
 
 ## Properties
 
