@@ -216,15 +216,16 @@ Since CoSHEP implies [[WISC]], and WISC has this implication (a result of [[Benn
 
 When [[Peter Aczel]] was developing $CZF$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected it.
 
-* Peter Aczel. _The type theoretic interpretation of constructive set theory_. Logic Colloquium '77 (Proc. Conf., Wroclaw, 1977), pp. 55--66, Stud. Logic Foundations Math., 96, North-Holland, Amsterdam-New York, 1978.  Cited in Palmgren, below.
+* [[Peter Aczel]], _The type theoretic interpretation of constructive set theory_. Logic Colloquium '77 (Proc. Conf., Wroclaw, 1977), pp. 55--66, Stud. Logic Foundations Math., 96, North-Holland, Amsterdam-New York, 1978. doi:[10.1016/S0049-237X(08)71989-X](https://doi.org/10.1016/S0049-237X%2808%2971989-X)
 
 The presentation axiom was, however, adopted by [[Erik Palmgren]] in $CETCS$ (a constructive predicative version of [[ETCS]]):
 
-*  Erik Palmgren.  _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_.  [pdf](http://www.math.uu.se/~palmgren/cetcs.pdf).
+*  [[Erik Palmgren]],  _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_, Annals of Pure and Applied Logic
+ **163** Issue 10 (2012) 1384–1399, doi:[10.1016/j.apal.2012.01.011](https://doi.org/10.1016/j.apal.2012.01.011) arXiv:[1201.6272](https://arxiv.org/abs/1201.6272),  [author pdf](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
 Its relationship to some other weak axioms of choice is studied in
 
-* [[Michael Rathjen]],  _Choice principles in constructive and classical set theories_.
+* [[Michael Rathjen]], _Choice principles in constructive and classical set theories_, In: Z. Chatzidakis, P. Koepke, & W. Pohlers (Eds.), Logic Colloquium '02 (Lecture Notes in Logic, pp. 299-326) (2006). Cambridge: Cambridge University Press. doi:[10.1017/9781316755723.014](https://doi.org/10.1017/9781316755723.014). [author pdf](http://www1.maths.leeds.ac.uk/~rathjen/acend.pdf).
 
 
 category: foundational axiom
