@@ -101,11 +101,11 @@ The high energy scale required by a [[seesaw mechanism]] to produce the experime
 ### Relation to leptoquarks
  {#RelationToLeptoquarks}
 
-Genrically GUT-theories predict existence of [[leptoquarks]] ([Murayama-Yanagida 92](#MurayamaYanagida92)) possibly related to the apparently observed 
+Generically, GUT-theories predict the existence of [[leptoquarks]] ([Murayama-Yanagida 92](#MurayamaYanagida92)), possibly related to the apparently observed 
 
 * [[flavour anomalies]] ([BDFKFS 18](#BDFKFS18))
 
-* [anomalies](anomalous+magnetic+moment#Anomalies) in [[anomaous magnetic moment]] of [[muon]] and [[electron]]
+* [anomalies](anomalous+magnetic+moment#Anomalies) in [[anomalous magnetic moment]] of [[muon]] and [[electron]]
 
 
 ### Occurrence in string phenomenology
