@@ -126,13 +126,13 @@ This is a standard result, at least in the case $K=Cat$, and is apparently due t
 
 ## References
 
-* [[Ross Street]] _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
+* [[Ross Street]], _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
 
-*  [[Mark Weber]] _Yoneda structure from 2-toposes_,  Applied Categorical Structures **15** (2007) pp259-323. doi:[10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2) ([author's page](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
+*  [[Mark Weber]], _Yoneda structure from 2-toposes_,  Applied Categorical Structures **15** (2007) pp259-323. doi:[10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2) ([author's page](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
 
 * {#JohnstonePP} [[Peter Johnstone]], _Fibrations and partial products in a 2-category_, Applied Categorical Structures **1** (1993) pp141-179 doi:[10.1007/BF00880041](https://doi.org/10.1007/BF00880041)
 
-* {#Benabou85} [[Jean Bénabou]] _Fibered categories and the foundations of naive category theory_, Journal of Symbolic Logic, **50**(1) (1985) pp10-37. doi:[10.2307/2273784](https://doi.org/10.2307/2273784), ([JSTOR](http://www.jstor.org/stable/2273784))
+* {#Benabou85} [[Jean Bénabou]], _Fibered categories and the foundations of naive category theory_, Journal of Symbolic Logic, **50**(1) (1985) pp10-37. doi:[10.2307/2273784](https://doi.org/10.2307/2273784), ([JSTOR](http://www.jstor.org/stable/2273784))
 
 * {#Jacobs} [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics, 141. North-Holland Publishing Co., Amsterdam, 1999. xviii+760 pp. ISBN: 0-444-50170-3 ([pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)) ([contents](http://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html))
 
