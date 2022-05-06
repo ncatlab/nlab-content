@@ -196,6 +196,11 @@ Examples of [[weight systems]] which are _not_ [[Lie algebra weight systems]] ar
 
 Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given in [Vogel 11](Lie+algebra+weight+system#Vogel11).
 
+### Rozansky-Witten weight systems
+
+[[Rozansky-Witten weight systems]]
+
+
 ### As the associated graded space of Vassiliev invariants
 
 
