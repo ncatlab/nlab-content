@@ -66,7 +66,7 @@ Incidentally, a well-pointed topos in a constructive metalogic is still "two-val
 
 If $E$ is only a [[pretopos]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[strong generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a strong generator.
 
-This is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course it applies whenever one is studying a pretopos.
+This strengthening is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course, the same applies whenever one is studying an arbitrary pretopos, not just a predicative version of $Set$.
 
 
 ### In more general categories
@@ -87,6 +87,10 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 ...which should mean that on hom-$\infty$-groupoids it is a [[monomorphism in an (∞,1)-category]]...
 
 ...which should mean that for all $X,Y \in \mathbf{H}$ the image of the morphism $\Gamma_{X,Y} : \mathbf{H}(X,Y) \to Func(\Gamma(X),\Gamma(Y))$ in the [[homotopy category]] identifies $\mathbf{H}(X,Y)$ as a [[direct sum]]mand of $Func(\Gamma(X),\Gamma(Y))$.
+
+## Related entries
+
+* [[ETCS]]
 
 
 [[!redirects well-pointed topos]]
