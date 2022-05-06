@@ -19,7 +19,7 @@ The **principle of compositionality** asserts that the nature of complex structu
 
 In the context of the [[semantics]] of languages, this is sometimes called **Frege's principle** after [[Gottlob Frege]], although it was arguably assumed in [Boole 1854](#Boole1854), decades before Frege's work, and possibly not even embraced by Frege (see [Pelletier 01](#Pelletier01)).
 
-Taking up [[Alfred Tarski|Alfred Tarski's]] work on truth definitions from 1933, the concept became popular in [[linguistics]] with the formalization of [[semantics]] of formal and informal languages via [[Montague semantics]]
+Taking up [[Alfred Tarski|Alfred Tarski's]] work on the theory of  _[[truth]]_ in [[object languages]] with respect to [[metalanguages]] ([Tarski 35](#Tarski35)), the concept became popular in [[linguistics]] with the formalization of [[semantics]] of formal and informal languages via [[Montague semantics]]
 ([Montague 70a](#Montague70a),
 [Montague 70b](#Montague70b),
 [Montague 73](#Montague73)), where the principle asserts that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them. 
@@ -63,6 +63,10 @@ The principle was promoted in [[linguistics]] via [[Montague semantics]]:
 * {#Montague70b} [[Richard Montague]], _Universal Grammar_, Theoria 36 (3):373--398 (1970) ([doi:10.1111/j.1755-2567.1970.tb00434.x](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-2567.1970.tb00434.x))
 
 * {#Montague73} [[Richard Montague]], _The Proper Treatment of Quantification in Ordinary English_, Approaches to Natural Language (1973) ([[MontagueQuantification.pdf:file]])
+
+Montague relied on 
+
+* {#Tarski35} [[Alfred Tarski]], 1935, _The Concept of Truth in Formalized Languages_, in Logic, Semantics, Metamathematics, Indianapolis: Hackett 1983, 2nd edition, 152–278.
 
 See also
 
