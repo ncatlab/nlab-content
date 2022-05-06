@@ -25,7 +25,7 @@ In [[string theory]], specifically in [[type IIA string theory]], the [[brane in
 
 >  graphics grabbed from [KKLPV 14, p. 4](#KKLPV14)
 
-Hence under the [[S-duality]] [[duality between type I and heterotic string theory|between type I and heterotic string theory]] the E-string is dual to the [[heterotic string]].
+Hence under the [[S-duality]] [[duality between type I and heterotic string theory|between type I and heterotic string theory]] the E-string is [[duality in string theory|dual]] to the [[heterotic string]].
 
 
 
