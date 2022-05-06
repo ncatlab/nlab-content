@@ -1569,6 +1569,10 @@ frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 * Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
 
+* {#Schreiber17} [[Urs Schreiber]], _[[Introduction to Topology]]_, Bonn 2017
+
+* {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen 2018 ([pdf](https://www.math.ru.nl/~mueger/topology.pdf))
+
 Basic topology set up in [[intuitionistic mathematics]] is discussed in
 
 * {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
