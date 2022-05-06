@@ -1477,9 +1477,9 @@ Discussion in [[homotopy type theory]] is in
 ### For discrete geometry
  {#ReferencesForDiscreteGeometry}
 
-For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are equivalently $G$-[[infinity-actions]] is (via the [[Borel model structure]]) due to 
+For $\mathbf{H}= \infty Grpd$ the statement that homotopy types over $B G$ are equivalently $G$-[[infinity-actions]] is (via the [[Borel model structure]]) is due to 
 
-*  {#DDK80} E. Dror, [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([JSTOR](http://www.jstor.org/stable/2043448))
+*  {#DDK80} E. Dror, [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
 
 This is mentioned for instance as exercise 4.2 in 
 
