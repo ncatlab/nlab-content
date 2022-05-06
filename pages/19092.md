@@ -29,6 +29,15 @@ It is the [[fundamental particle]] with by far the largest [[rest mass]] (after 
 
 ## References
 
+The top quark discovery was announced jointly in
+
+* F. Abe et al. (CDF Collaboration), _Observation of Top Quark Production in $\bar p p$ Collisions with the Collider Detector at Fermilab_, Phys. Rev. Lett. 74, 2626 – Published 3 April 1995 ([doi:10.1103/PhysRevLett.74.2626](https://doi.org/10.1103/PhysRevLett.74.2626))
+
+* S. Abachi et al. (D0 Collaboration), _Observation of the Top Quark_, Phys. Rev. Lett. 74, 2632 – Published 3 April 1995 ([doi:10.1103/PhysRevLett.74.2632](https://doi.org/10.1103/PhysRevLett.74.2632))
+
+
+See also
+
 * Wikipedia, _[Top quark](https://en.wikipedia.org/wiki/Top_quark)_
 
 [[!redirects top quarks]]
