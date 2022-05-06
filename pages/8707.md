@@ -233,6 +233,8 @@ See also
  
 * G. A. Kavvos, _Modalities, Cohesion, and Information Flow_, ([arXiv:1809.07897](https://arxiv.org/abs/1809.07897))
 
+* Y. Nishiwaki, Y. Kakutani, Y. Murase, _Modality via Iterated Enrichment_, MFPS 2018 ([pdf](https://www.mathstat.dal.ca/mfps2018/preproc/paper_15.pdf))
+
 A modality in the [[internal language]] of a [[local topos]] is discussed in section 4.2 of 
 
 * {#AwodeyBirkedal} [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz), [[AwodeyBirkedalLocalTopos.pdf:file]] )
