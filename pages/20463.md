@@ -53,7 +53,7 @@ The S-brane solutions in [[type II supergravity]] and [[11-dimensional supergrav
 
 and by a different method in
 
-* {#KruczenskiMyersPeet02} Martin Kruczenski, [[Robert Myers]], [[Amanda Peet]], _Supergravity S-Branes_, JHEP 0205 (2002) 039 ([arXiv:hep-th/0204144](https://arxiv.org/abs/hep-th/0204144))
+* {#KruczenskiMyersPeet02} [[Martin Kruczenski]], [[Robert Myers]], [[Amanda Peet]], _Supergravity S-Branes_, JHEP 0205 (2002) 039 ([arXiv:hep-th/0204144](https://arxiv.org/abs/hep-th/0204144))
 
 and the two formulations were shown to be equivalent in 
 
