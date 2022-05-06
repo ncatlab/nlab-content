@@ -113,6 +113,10 @@ One major application of higher category theory and one of the driving forces in
 
 There are many different _models_ for bringing the abstract notion of higher category onto paper.
 
+* [[(n × k)-category]]
+
+* [[n-fold category]]
+
 * [[(n,r)-category]]
 
   * [[Theta-space]]
@@ -136,6 +140,8 @@ There are many different _models_ for bringing the abstract notion of higher cat
     * [[complete Segal space]]
 
     * [[model category]]
+
+    * [[internal category in homotopy type theory]]
 
   * [[(∞,0)-category]]/[[∞-groupoid]]
 
