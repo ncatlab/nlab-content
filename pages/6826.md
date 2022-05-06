@@ -32,7 +32,7 @@ For many cases gauged supergravity theories are obtained by [[KK-compactificatio
 
 ### From double and exceptional field theory
 
-[[Exceptional field theory]] (but also [[double field theory]]) reduces to [[gauged supergravity]] under [[generalised Scherk-Schwarz reduction]], i.e. a dimensional reduction combined with [[U-duality]] (or just [[T-duality]]) twists.
+[[Exceptional field theory]] (but also [[double field theory]]) reduces to [[gauged supergravity]] under [[generalised Scherk-Schwarz reduction]], i.e. a [[KK-compactification|dimensional reduction]] combined with [[U-duality]] (or just [[T-duality]]) twists.
 
 \begin{imagefromfile}
         "file_name": "gaugedsugraexft.png",
