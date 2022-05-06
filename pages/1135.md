@@ -17,18 +17,9 @@
 
 The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[groups]], [[rng|rings without unit]], [[associative algebras]] without unit, [[Lie algebras]], as nicely as the axioms of an [[abelian category]] captures the properties of the categories of [[abelian groups]] and of [[modules]].
 
-+-- {: .query}
-[[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  Intuitively, what important properties do the above listed examples share that are not shared by rings with units?
+It is important to take rings and algebras without unit, since otherwise there is no zero object. And, similarly, ideals are not subrings-with-unit. Note that the category of rings is still [[protomodular category|protomodular]], however.
 
-[[Zoran Skoda]]: I want to know the answer as well. It might be something in the self-dual axioms. For unital rings artinian implies noetherian but not other way around; though the definitions of the two notions are dual.
 
-_Toby_:  The category of unital rings and unitary ring homomorphisms has no zero object.
-
-[[Mike Shulman|Mike]]: Ah, right.  Is it protomodular?  I think I will understand this definition better from some non-examples that violate each clause individually.
-
-[[arsmath|walt]]: It is protomodular.  This follows from the main theorem of _Characterization of Protomodular Varieties of Universal Algebra_ by Bourn and Janelidze.  By that theorem any variety that contains a group will be protomodular.  Unital rings only fail to be semiabelian for the trivial reason that ideals aren't subrings.
-
-=--
 
 
 ## Definition
