@@ -135,6 +135,14 @@ See also
 The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]] in 
 
 * G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_ ([arxiv/1302.3778](http://arxiv.org/abs/1302.3778))
+
+
+Discussion of the [[Witten genus]] as an [[M5-brane]] [[partition function]] seen under an [[AGT correspondence]]:
+
+* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
+
+
+
  
 
 category: physics
