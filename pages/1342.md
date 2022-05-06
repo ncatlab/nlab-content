@@ -232,7 +232,7 @@ is a [[model structure on simplicial sets|weak equivalence of simplicial sets]].
 +-- {: .proof}
 ###### Proof
 
-This is [DHI, thm 1.3](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=3) formulated in the light of [DHI, lemma 4.4 ii)](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=9).
+This is [DHI, thm 1.3](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=3) formulated in the light of [DHI, lemma 4.4 (ii)](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=9).
 =--
 
 Notice that by the [[co-Yoneda lemma]] every simplicial presheaf $F : S^{op} \to SSet$, which we may regard as a presheaf $F : \Delta^{op}\times S^{op} \to Set$, is isomorphic to the [[weighted limit|weighted colimit]] 
