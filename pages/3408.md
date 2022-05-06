@@ -1,5 +1,5 @@
 
-# Contents
+# The category of Boolean algebras
 * automatic table of contents goes here
 {:toc}
 
