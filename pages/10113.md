@@ -78,6 +78,12 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[confinement]]
 
+  * [[chiral perturbation theory]]
+
+  * [[quark bag model]], [[Cheshire cat principle]]
+
+  * [[vector meson dominance]]
+
 * [[proton spin crisis]]
 
 * [[flavour anomaly]]
