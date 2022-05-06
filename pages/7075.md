@@ -284,6 +284,11 @@ For more discussion in [[homotopy type theory]] see also at
 
 * [HoTT Wiki](https://ncatlab.org/homotopytypetheory/show/HomePage), _[[homotopytypetheory:Hopf fibration]]_
 
+Relation to [[skyrmions]]:
+
+
+* Sven Bjarke Gudnason, Muneto Nitta, _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762))
+
 Discussion of [[supersymmetry|supersymmetric]] Hopf fibrations:
 
 * [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam and A. Stern, section 9.3 of _Gauge Symmetries and Fibre Bundles_, Lect. Notes in Physics 188, Springer-Verlag, Berlin, 1983 ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910))
