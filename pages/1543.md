@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -878,9 +877,9 @@ some of which is recollected in ([Palais 61](#Palais61)).
 
 Further textbooks include
 
-* {#Steenrod51} [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951.
+* {#Steenrod51} [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
-* {#Husemoeller} [[Dale Husemöller]], _Fiber bundles_, Springer (1994) 
+* {#Husemoeller} [[Dale Husemöller]], _Fiber bundles_, Springer (1994) ([doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1))
  
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
@@ -897,7 +896,8 @@ also around section 3.1 of
 
 Lecture notes on the topic include
 
-* {#Mitchell} Stephan Mitchell, _Notes on principal bundles and classifying spaces_ (2001) ([pdf](http://math.mit.edu/~mbehrens/18.906/prin.pdf))
+* {#Mitchell}  Stephen A. Mitchell, _Notes on principal bundles and classifying spaces_, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
+
 
 * {#Cohen} R. Cohen, _Topology of fiber bundles_, Lecture notes ([pdf](http://math.stanford.edu/~ralph/fiber.pdf))
 
