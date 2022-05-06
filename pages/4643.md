@@ -100,7 +100,7 @@ A general quantum geometric Langlands correspondence is produced in
 
 * {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
 
-Relation to semi-holomorphic 4d Chern-Simons theory:
+Relation to [[semi-topological 4d Chern-Simons theory]]:
 
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], _Unifying Lattice Models, Links and Quantum Geometric Langlands via Branes in String Theory_ ([arXiv:1910.01134](https://arxiv.org/abs/1910.01134))
 
