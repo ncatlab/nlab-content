@@ -141,6 +141,8 @@ Every ordering of operators, up to cyclic permutation, in the [[single trace obs
 
 * [[string bit model]]
 
+* [[multi-trace operator]]
+
 ## References
 
 ### General
