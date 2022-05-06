@@ -123,4 +123,6 @@ category: category
 [[!redirects infinity-Gpd]]
 [[!redirects Infinity-Gpd]]
 
+[[!redirects (∞,1)-category of spaces]]
+[[!redirects (infinity,1)-category of spaces]]
 
