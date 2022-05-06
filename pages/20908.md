@@ -32,6 +32,103 @@ The Lie algebra $\mathfrak{su}(2)$ is equivalently given as follows:
 
 ## Properties
 
+### Pauli matrix presentation
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Lie algebra]] $\mathfrak{su}(2)$ as a [[complex numbers|complex]] [[matrix Lie algebra]] is the sub Lie algebra on those matrices of the form
+
+$$
+  \left(
+    \array{
+      i z & x + i y
+      \\
+      - x + i y & - i z
+    }
+  \right)
+  \;\;\;  
+  with
+  \;\;
+  x,y,z \in \mathbb{R}
+  \,.
+$$
+
+=--
+
+(
+
++-- {: .num_defn}
+###### Definition
+
+The standard [[basis]] elements of $\mathfrak{su}(2)$ given by the above presentation are 
+
+$$
+  \sigma_1 
+   \coloneqq
+  \frac{1}{\sqrt{2}}
+  \left(
+   \array{
+     0 & 1
+     \\
+     -1 & 0
+   }
+  \right)
+$$
+
+$$
+  \sigma_2 
+   \coloneqq
+  \frac{1}{\sqrt{2}}
+  \left(
+   \array{
+     0 & i
+     \\
+     i & 0
+   }
+  \right)
+$$
+
+$$
+  \sigma_3
+   \coloneqq
+  \frac{1}{\sqrt{2}}
+  \left(
+   \array{
+     i & 0
+     \\
+     0 & -i
+   }
+  \right)
+  \,.
+$$
+
+These are called the _[[Pauli matrices]]_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Pauli matrices]] satisfy the [[commutator]] [[relations]]
+
+$$
+  [\sigma_1, \sigma_2] = \sigma_3
+$$
+
+$$
+  [\sigma_2, \sigma_3] = \sigma_1
+$$
+
+$$
+  [\sigma_3, \sigma_1] = \sigma_2
+  \,.
+$$
+
+
+=--
+
+
 ### Complexification
  {#Complexification}
 
