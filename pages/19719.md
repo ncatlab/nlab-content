@@ -31,7 +31,7 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 
 * Create skeletons for all the pages and list the tasks to be done ([[Mike Shulman]])
 * Define $\alpha$-equivalence and capture-avoiding substitution in [[Initiality Project - Raw Syntax]] ([[John Dougherty]])
-* Define a morphism of CwFs in [[Initiality Project - Semantics]].
+* Define a morphism of CwFs in [[Initiality Project - Semantics]] ([[Paolo Capriotti]]).
 * Define $\Pi$-type structure on a CwF in [[Initiality Project - Semantics - Pi-types]].
 * Write out the equality rules at [[Initiality Project - Type Theory]].
 * Define signatures to give arities to constants, and write out the constant rules at [[Initiality Project - Type Theory]].
