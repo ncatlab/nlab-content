@@ -356,7 +356,7 @@ Partitions of unity can be used to give explicit coboundaries for the cocycles o
 
 Let $\{U_i \to X\}$ be a [[open cover]] and $\{\rho_i \in C(X,\mathbb{R})\}$ a collection of functions with
 
-* $(x \not\in U_i) \Rightarrow \rho_i(x) = 0$
+* $(x \notin U_i) \Rightarrow \rho_i(x) = 0$
 
 * $\sum_i \rho_i = const_1$.
 
