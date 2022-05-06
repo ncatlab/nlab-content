@@ -18,6 +18,10 @@
 
 In [[quantum hadrodynamics]], _charmonium_ $J/\psi$ is the [[charm quark|charm]]-form of _[[quarkonium]]_: a [[meson]] which is a [[bound state]] of a [[charm quark]] and its [[antiparticle]].
 
+## Related concepts
+
+* [[XYZ particle]]
+
 ## References
 
 See also
