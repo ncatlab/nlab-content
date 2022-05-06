@@ -1,10 +1,11 @@
-single
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Fields and quanta
 +--{: .hide}
-[[!include physicscontents]]
+[[!include fields and quanta - table]]
 =--
 =--
 =--
@@ -80,7 +81,14 @@ namely as the [[direct sum]] of [[generalized the|the]] two (complex) [[irreduci
 
 Again, this means that under the embedding of the gauge group $G_{SM}$ all the way into the [[simple Lie group]] $Spin(10)$, its ingredients become _simpler_, not just in a naive sense, but in the technical mathematical sense of _[[simple objects|simple algebraic objects]]_.
 
-Discussion of $SO(10)$ (i.e. $Spin(10)$) GUT-models with realistic [[phenomenology]] is in [Lavoura-Wolfenstein 10](#LavouraWolfenstein10) [Altarelli-Meloni 13](#AltarelliMeloni13) [Dueck-Rodejohann 13](#DueckRodejohann13) [Ohlsson-Pernow 19](#OhlssonPernow19) [CPS 19](#CPS19). 
+Discussion of $SO(10)$ (i.e. $Spin(10)$) GUT-models with realistic [[phenomenology]] is in [BLM 09](#BLM09) [Malinský 09](#Malinsky09), [Lavoura-Wolfenstein 10](#LavouraWolfenstein10) [Altarelli-Meloni 13](#AltarelliMeloni13) [Dueck-Rodejohann 13](#DueckRodejohann13) [Ohlsson-Pernow 19](#OhlssonPernow19) [CPS 19](#CPS19). 
+
+\begin{imagefromfile}
+  "file_name": "MinimalNonSusySO10GUTMalinsky.jpg",
+  "width": 500
+\end{imagefromfile}
+
+> slide grabbed from [Malinský 09](#Malinsky09)
 
 Discussion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavour anomalies]]: [AMM 19](#AMM19)
 
@@ -225,6 +233,12 @@ Claim that [[threshold corrections]] can considerably alter (decrease) proton de
  {#ReferencesRealisticModels}
 
 Discussion of [[phenomenology|phenomenologically]] viable GUT-[[model (in theoretical physics)|models]] (compatible with [[experiment]] and the [[standard model of particle physics]]):
+
+* {#BLM09} Stefano Bertolini, Luca Di Luzio, [[Michal Malinský]], _Intermediate mass scales in the non-supersymmetric SO(10) grand unification: a reappraisal_, Phys. Rev. D80:015013, 2009 ([arXiv:0903.4049](https://arxiv.org/abs/0903.4049))
+
+review:
+
+* {#Malinsky09} [[Michal Malinský]], _35 years of GUTs - where do we stand?_, 2009 ([pdf](https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Malinsky.pdf))
 
 for non-superymmetric [[model (physics)|models]]:
 
