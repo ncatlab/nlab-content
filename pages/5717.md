@@ -61,7 +61,7 @@ Moreover, [[differential cohesion]] induces [[de Rham spaces]] and hence the geo
 
 * [[secondary calculus]]
 
-* [[Goodwillie calculus]]
+* [[(∞,1)-category theory|((∞,1)-]][[categorification]]: [[Goodwillie calculus]]
 
 ## References
 
