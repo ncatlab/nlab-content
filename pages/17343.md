@@ -1543,7 +1543,7 @@ $$
   \,.
 $$
 
-We will also say that $f$ is a **$C$-[[injective morphism]]** if it satisfies the right lifting property against $C$.
+We will also say that $p$ is a **$C$-[[injective morphism]]** if it satisfies the right lifting property against $C$.
 
 =--
 
