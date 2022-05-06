@@ -103,7 +103,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 ## Spaces up to homotopy
 ### Spaces as infinity-groupoids (Timothy Porter)
 
-[[Timothy Porter]] on the thinking of spaces as infinity groupoids and the relation with the [[homotopy hypothesis]].
+[[Timothy Porter]] on thinking of spaces as infinity groupoids and the relation with the [[homotopy hypothesis]].
 
 ([video recording](https://www.youtube.com/watch?v=BH_NwgM8QjI))  ([[Spaces as infinity-groupoids.pdf|draft of article:file]])
 
