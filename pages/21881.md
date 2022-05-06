@@ -126,7 +126,7 @@ $$
     &\mathclap{^{_{(hpo)}}}&
     \big\uparrow
     \\
-    S^{2n+1}
+    S^{4n+3}
     &\underset{h^{4n+3}_{\mathbb{H}}}{\longrightarrow}&
     \mathbb{H}P^n
   }
