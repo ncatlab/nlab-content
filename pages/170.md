@@ -18,7 +18,8 @@
 {:toc}
 
 
-## Idea
+## Idea 
+ {#Idea}
 
 
 An ordinary [[spectral triple]] is, as discussed there, the abstract algebraic data characterizing [[supersymmetric quantum mechanics]] on a [[worldline]] and thereby spectrally encoding an effective (possibly [[non-commutative geometry|non-commutative]], hence "[[non-geometric background|non-geometric]]") [[target space]] [[geometry]]. 
@@ -45,11 +46,11 @@ In ([Soibelman 11](#Soibelman11)) this was used as a means to systematically stu
 
 Now, since there is information lost in passing from a stringy "2-spectral triple" (a [[2d SCFT]]) to its underlying point particle [[spectral triple]], not all spectral triples are to be expected to have a lift to a 2-spectral triple (possibly corresponding to a [[UV-completion]] of the corresponding target space [[effective field theories]]).
 
-In view of this, it is noteworthy that the spectral triple of the [[Connes-Lott-Chamseddine model]] shares a few key properties with the 2d SCFTs considered in [[string phenomenology]].
+In view of this, it is noteworthy that the spectral triple of the [[Connes-Lott-Chamseddine model]] shares a few key properties with the 2d SCFTs considered in [[string phenomenology]]:
 
 The [[Connes-Lott-Chamseddine model]] is an encoding in a spectral triple of the [[standard model of particle physics]] coupled to [[gravity]] realized as a kind of spectral [[Kaluza-Klein compactification]] on a non-commutative fiber space down to ordinary 4d [[Minkowski spacetime]] (or possibly its [[Wick rotation|Wick rotated]] Euclidean version). In order for this to work out, it turns out that the compactified non-commutative fiber space needs to have [[KO-dimension]] equal to $6$. (Here the fiber space is classically just a ("non-commutative") point, but it appears as the singular collapsing limit of a space of finite dimension. This actual dimension is the [[KO-dimension]].)
 
-Hence the claim of the [[Connes-Lott-Chamseddine model]] is that if the standard model is encoded as a singular limit of a [[Kaluza-Klein compactification]] modeled via a [[spectral triple]] then the dimensions of the KK-compactification are
+Hence the claim of the [[Connes-Lott-Chamseddine model]] is that if the [[standard model of particle physics]] is encoded as a singular limit of a [[Kaluza-Klein compactification]] modeled via a [[spectral triple]] then the [[dimensions]] of the [[KK-compactification]] are
 
 $$
   4 + 6 \;\;\; (mod\;8)
@@ -57,7 +58,15 @@ $$
 
 with 4-dimensional base space and 6-dimensional fiber space, to a total of a 10-dimensional [[spacetime]] at high energy (after uncompactification of the fiber). 
 
-This, of course, is precisely the dimensionality of the target spacetime of the critical [[superstring]]. Algebraically, this arises from the fact that the [[BRST complex]] for the [[superstring]] [[worldsheet]] theory is consistent (has BRST differential squaring to 0) precisely if the corresponding [[2d SCFT]] has conformal [[central charge]] 15, and each spacetime dimension contributes $1 \tfrac{1}{2}$ to this central charge (a contribution of 1 from each bosonic direction, and another $\tfrac{1}{2}$ for the corresponding fermionic contribution).
+This, of course, is precisely the dimensionality of the target spacetime of [[perturbative string theory vacua]] for the critical [[superstring]]. 
+
+This point was highlighted in [Connes 06, p. 8](#Connes06):
+
+> {#Connes06OnRelationToStringVacua} When one looks at the table (7.2) of Appendix 7 giving the [[KO-dimension]] of the finite space $[$ i.e. the [[noncommutative geometry|noncommutative]] [[KK-compactification]]-[[fiber]] $F$ $]$ one then finds that its [[KO-dimension]] is now equal to 6 [[modulo]] 8 (!). As a result we see that the [[KO-dimension]] of the [[Cartesian product|product space]] $M \times F$ $[$ i.e. of 4d [[spacetime]] $M$ with the [[noncommutative geometry|noncommutative]] [[KK-compactification]]-[[fiber]] $F$$]$ is in fact equal to $10  \sim 2$ [[modulo]] 8. Of course the above 10 is very reminiscent of string theory, in which the finite space $F$ might bea good candidate for an "[[effective field theory|effective]]" [[KK-compactification|compactification]] at least for low energies. But 10 is also 2 [[modulo]] 8 which might be related to the observations of [Lauscher-Reuter 06](#LauscherReuter06) about [[gravity]].
+
+
+Algebraically, this arises from the fact that the [[BRST complex]] for the [[superstring]] [[worldsheet]] theory is consistent (has BRST differential squaring to 0) precisely if the corresponding [[2d SCFT]] has conformal [[central charge]] 15, and each spacetime dimension contributes $1 \tfrac{1}{2}$ to this central charge (a contribution of 1 from each bosonic direction, and another $\tfrac{1}{2}$ for the corresponding fermionic contribution).
+
 
 
 
@@ -131,5 +140,13 @@ Exposition of these results is in
 * [[Urs Schreiber]], _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_, PhysicsForums--Insights (2016)
 
 See also the references at [[geometric model for elliptic cohomology]].
+
+That the [[Connes-Lott models]] could be [[effective field theory]]-limits of [[perturbative string theory vacua]] is also mentioned in 
+
+* {#Connes06} [[Alain Connes]],  p. 8 of _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](http://arxiv.org/abs/hep-th/0608226))
+
+
+
+
 
 [[!redirects 2-spectral triples]]
