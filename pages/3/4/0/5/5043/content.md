@@ -47,6 +47,11 @@ It is *not* said that they are final if they have equivalent *[[limits]]* --- th
 * [[final (∞,1)-functor]]
 
 
+## References
+
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+
+
 [^1]: [[cofinality|Cofinality]] is an ordinal invariant of [[ordinals]], which doesn't make sense in the present generality, so we need another name for the adjective.
 
 
