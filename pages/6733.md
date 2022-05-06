@@ -43,10 +43,20 @@ This is a $1/2$-[[BPS state]] of 11-dimensional supergravity.
 
 The [[near horizon geometry]] of this spacetime is [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere|S4]]. For more on this see at _[[AdS-CFT]]_.
 
-{#NearHorizonOrbifold} More generally for lower BPS black M5-branes, the near horizon geometry is $AdS_7 \times S^4/G$, where $G$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]] ([[ADE classification|ADE subgroup]]) acting by left multiplication on the [[quaternions]] $\mathbb{H}$ in the canonical way, under the identitfication $S^4 \simeq S(\mathbb{R}^5) \simeq S(\mathbb{R}\oplus \mathbb{H})$ ([MFF 12, section 8.3](#MFF12)).
-
 
 [[!include black branes in supergravity -- table]]
+
+
+### At an orbifold singularity
+ {#AtAnOrbifoldSingularity}
+
+{#NearHorizonOrbifold} More generally for 1/2 BPS black M5-branes, the near horizon geometry is $AdS_7 \times S^4/G$, where $G$ is a [[finite subgroup of SU(2)]] ([[ADE classification|ADE subgroup]]) acting by left multiplication on the [[quaternions]] $\mathbb{H}$ in the canonical way, under the identitfication $S^4 \simeq S(\mathbb{R}^5) \simeq S(\mathbb{R}\oplus \mathbb{H})$ ([MFF 12, section 8.3](#MFF12)).
+
+While this geometric discussion in [MFF 12, section 8.3](#MFF12) works for for all the [[finite subgroups of SU(2)]], folklore has it that in [[M-theory]] the M5-branes appear only at A-type singularities, while the more general [[6d (2,0)-superconformal field theories]] for all possible [[ADE-singularities]] appear only after passage to [[F-theory]] ([ZHTV 14, p. 3](#ZHTV14)).
+
+On the other hand, when placing the M5 at an MO5-[[orientifold]] ([Witten 95](#Witten95)) its worldvolume theory breaks from $(2,0)$ to $(1,0)$-supersymmetry and all ADE-singularities should be allowed.
+
+(...)
 
 
 ## Properties
@@ -300,7 +310,16 @@ That this metric, as well as that of every black $p$ brane for _odd_ $p$, is com
 
 * [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of _Higher-dimensional resolution of dilatonic black hole singularities_, Class.Quant.Grav.12:297-318,1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
-Identification of the $\mathcal{N} = (2,0)$ black M5-brane sitting at the singularity of a $\mathbb{Z}/2$-[[orbifold]] locally of the form $\mathbb{R}^{5,1} \times ( \mathbb{R}^5 \sslash (\mathbb{Z}/2) )$ is due to 
+Classification of more general M5-brane [[ADE-singularities]] is in section 8.3 of 
+
+* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
+but see p. 3 of 
+
+* {#ZHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, <a href="https://link.springer.com/article/10.1007%2FJHEP02%282015%29054">10.1007/JHEP02(2015)054</a> ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+
+
+Identification of the $\mathcal{N} = (2,0)$ black M5-brane sitting at the [[ADE singularity|A-type singularity]] of an $MO5$ $\mathbb{Z}/2$-[[orientifold]] locally of the form $\mathbb{R}^{5,1} \times ( \mathbb{R}^5 \sslash (\mathbb{Z}/2) )$ is due to 
 
 * {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
 
