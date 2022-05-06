@@ -352,7 +352,7 @@ Now that we've covered the issue that the distinction between derivable and admi
 
 #### Equality uses respect which uses equality
 
-The equality formation rule refers to the respect ("$\prec$") relation. The latter is not primitive, it's defined in terms of equality. Is that OK? Yes: because of the rule that all types respect $Comp$, we get enough instances of equality formation to prove:
+The equality formation rule refers to the respect ("$\prec$") relation. The latter is not primitive, it's defined in terms of equality. Is that OK? Yes: Because of the rule that all types respect $Comp$, we get enough instances of equality formation to prove:
 
 $$\frac{\Gamma \vdash A\,type \qquad \Gamma \vdash B\,type}
 {\Gamma \vdash A \prec B\;type}$$
@@ -423,9 +423,9 @@ $$\frac{\Gamma \vdash t \Vdash A \qquad
 \Gamma \vdash A \lt\!\!:\;B}
 {\Gamma \vdash t \Vdash B}$$
 
-So $\approx$ gives us subsumptions in both directions.
+So $\approx$ gives us subsumptions in both directions. Extensionally equal types denote the same PER.
 
-Thus, the semantic judgments in the strict sense are regular subobjects defined in a convenient way so that they have an element if and only if they're basically $\top$. $\approx$ is itself a semantic judgment. Also:
+Thus, the semantic judgments in the strict sense are regular subobjects defined in a convenient way so that they're inhabited if and only if they're basically $\top$. $\approx$ is itself a semantic judgment. Also:
 
 $$(A \approx B) \approx (A \sqsubseteq B \wedge B \sqsubseteq A)$$
 
