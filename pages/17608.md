@@ -43,11 +43,7 @@ See also at _[[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]_.
 
 ## Related concepts
 
-* [[M-theory on G2-manifolds]]
-
-* [[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]
-
-* [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+[[!include KK-compactifications of M-theory -- table]]
 
 
 
