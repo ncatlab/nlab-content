@@ -21,7 +21,7 @@
 
 ## Idea
 
-A **diffeological spaces** is a type of [[generalized smooth space]].  As with the other variants, it subsumes the notion of [[smooth manifold]] but also naturally captures other spaces that one would like to think of as smooth spaces but aren't manifolds; for example, the space of all smooth maps between two smooth manifolds can be made into a diffeological space. (These mapping spaces are rarely manifolds themselves, see [[manifolds of mapping spaces]].)
+A **diffeological space** is a type of [[generalized smooth space]].  As with the other variants, it subsumes the notion of [[smooth manifold]] but also naturally captures other spaces that one would like to think of as smooth spaces but aren't manifolds; for example, the space of all smooth maps between two smooth manifolds can be made into a diffeological space. (These mapping spaces are rarely manifolds themselves, see [[manifolds of mapping spaces]].)
 
 In a little more detail, a **diffeology**, $\mathcal{D}$ on a set $X$ is a [[presheaf]] on the category of open subsets of Euclidean spaces with smooth maps as morphisms.  To each open set $U \subseteq \mathbb{R}^n$, it assigns a subset of $\Set(U,X)$.  The functions in $\Set(U,X)$ are to be regarded as the "smooth functions" from $U$ to $X$.  A **diffeological space** is then a set together with a diffeology on it.
 
