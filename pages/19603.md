@@ -85,7 +85,9 @@ Work conducted in homotopy type theory:
 
 * Daniel Carranza, Jonathan Chang, Chris Kapulkin, Ryan Sandford, _2-adjoint equivalences in homotopy type theory_, ([arXiv:2008.12433](https://arxiv.org/abs/2008.12433))
 
+* Andrew Swan, _On the Nielsen-Schreier Theorem in Homotopy Type Theory_, ([arXiv:2010.01187](https://arxiv.org/abs/2010.01187))
 
+* Håkon Robbestad Gylterud, Elisabeth Bonnevier, _Non-wellfounded sets in homotopy type theory_, ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
 
 
 ### Modal homotopy type theory
