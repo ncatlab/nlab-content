@@ -100,7 +100,7 @@ One could try to argue against that by pointing to dinatural transformations whi
 
 A counterargument, however, is that *any* dinatural transformation between functors $F,G:C^{op}\times C\to D$ can be "bent" into domain extranaturality by defining
 
-$$C^{op} \times C \stackrel{[F,G]}{\to} Set: (x, y) \mapsto G(x, y)^{F(y, x)}.$$
+$$C^{op} \times C \stackrel{[F,G]}{\to} Set: (x, y) \mapsto D(F(y, x), G(x, y)).$$
 
 Then a dinatural transformation $F\to G$ can be identified with an extranatural transformation from the constant $1$ (the terminal set) to $[F,G]$. Such tricks support the counterargument that the extra generality of the traditional definition is largely spurious, and not particularly helpful in terms of comprehension.
 
@@ -116,7 +116,7 @@ Dinatural transformations cannot, in general, be composed with each other, altho
 
 * In fact, there is a category whose objects consist of both covariant functors $C\to D$ and contravariant ones $C^{op}\to D$, and whose morphisms are dinatural transformations.
 
-In general, what we can say is that for two fixed categories $C$ and $D$, the functors $C^{op}\times C^ \to D$ and the dinatural transformations between them form a [[paracategory]].
+In general, what we can say is that for two fixed categories $C$ and $D$, the functors $C^{op}\times C \to D$ and the dinatural transformations between them form a [[paracategory]].
 
 
 ## Related concepts
