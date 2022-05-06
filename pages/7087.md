@@ -111,7 +111,7 @@ such that
        && \mathcal{C}[W^{-1}]
        && {}_{\simeq}\seArrow^{\kappa} && \mathcal{D}
        \\
-       && &  {}_{\mathllap{id}}\searrow && \swarrow_{\mathrlap{D^' F}}
+       && &  {}_{\mathllap{id}}\searrow && \nearrow_{\mathrlap{D^' F}}
        \\
        && && \mathcal{C}[W^{-1}]
      }
@@ -165,13 +165,13 @@ $$
   \,,
 $$
 
-hence if every morphism $A \overset{f}{\longrightarrow} X$ [[extension|extends]] uniquely along $w$ to $B$:
+hence if every morphism $A \overset{f}{\longrightarrow} X$ [[extension|extends]] uniquely along $s$ to $B$:
 
 $$
   \array{
     A &\overset{\phantom{A}f\phantom{A}}{\longrightarrow}& X
     \\
-    {}^{\mathllap{w}}\big\downarrow & \nearrow_{\mathrlap{ \exists! }}
+    {}^{\mathllap{s}}\big\downarrow & \nearrow_{\mathrlap{ \exists! }}
     \\
     B
   }
