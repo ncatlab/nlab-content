@@ -95,6 +95,8 @@ See also the examples at _[[operad]]_.
 
 * [[polycategory]]
 
+* [[properad]]
+
 * [[fibration of multicategories]]
 
 * [[symmetric multicategory]]
