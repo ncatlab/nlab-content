@@ -363,6 +363,8 @@ Review includes:
 
 * Valentin Zakharevich, Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_ ([pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf))
 
+* {#Ortiz09} Michael L. Ortiz, Theorem 2.2 in: _Differential Equivariant K-Theory_ ([arXiv:0905.0476](https://arxiv.org/abs/0905.0476))
+
 In its incarnation (under [[Elmendorf's theorem]]) as a [[Spectra]]-valued [[presheaf]] on the $G$-[[orbit category]] this is discussed in
 
 * [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
