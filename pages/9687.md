@@ -24,6 +24,7 @@ Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-
 Confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)).
 
 ## Open problem
+ {#OpenProblem}
 
 While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that confinement takes place, a real theoretical understanding is missing (see also at _[[mass gap problem]]_). Here are quotes from some references highlighting the open problem:
 
