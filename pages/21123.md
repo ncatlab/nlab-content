@@ -60,13 +60,16 @@ For more see the references at _[[tensor network state]]_.
 
 Application in [[solid state physics]]:
 
-* Valentin Murg, Örs Legeza, Reinhard M. Noack, Frank Verstraete, _Simulating Strongly Correlated Quantum Systems with Tree Tensor Networks_, Phys. Rev. B 82, 205105 (2010) ([arXiv:1006.3095](https://arxiv.org/abs/1006.3095))
+* Valentin Murg, Örs Legeza, Reinhard M. Noack, [[Frank Verstraete]], _Simulating Strongly Correlated Quantum Systems with Tree Tensor Networks_, Phys. Rev. B 82, 205105 (2010) ([arXiv:1006.3095](https://arxiv.org/abs/1006.3095))
 
-### Application in chemistry 
+### Application in quantum chemistry 
 
 For application in [[quantum chemistry]]:
 
 * Naoki Nakatani, Garnet Kin-Lic Chan, _Efficient Tree Tensor Network States (TTNS) for Quantum Chemistry: Generalizations of the Density Matrix Renormalization Group Algorithm_, J. Chem. Phys. 138, 134113 (2013) ([arXiv:1302.2298](https://arxiv.org/abs/1302.2298))
+
+* Klaas Gunst, [[Frank Verstraete]], Sebastian Wouters, Örs Legeza, Dimitri Van Neck, _T3NS: three-legged tree tensor network states_, Chem. Theory Comput. 2018, 14, 4, 2026-2033 ([arXiv:1801.09998](https://arxiv.org/abs/1801.09998))
+
 
 * Henrik R. Larsson, _Computing vibrational eigenstates with tree tensor network states (TTNS)_, J. Chem. Phys. 151, 204102 (2019) ([arXiv:1909.13831](https://arxiv.org/abs/1909.13831))
 
