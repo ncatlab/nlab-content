@@ -90,6 +90,8 @@ For equality of types $\Gamma \vdash A \equiv B$, we take as input that $\Gamma 
 
 [[!include Initiality Project - Type Theory - Type equality]]
 
+Similarly $\Gamma \vdash T \equiv S : A$ takes as input that $\Gamma \vdash T : A$ and $\Gamma \vdash S : A$
+
 [[!include Initiality Project - Type Theory - Term equality]]
 
 ### Constant rules
