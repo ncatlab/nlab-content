@@ -53,8 +53,7 @@ The 2-category of preorders (more precisely, that of [[thin categories]]) is [[r
 +-- {: .num_prop}
 ###### Proposition
 
-[[internalization|Internal]] to any [[regular category]] every [[poset]]
-is a [[Cauchy complete category]].
+[[internalization|Internal]] to any [[regular category]] every [[poset]] is a [[Cauchy complete category]].
 
 =--
 
