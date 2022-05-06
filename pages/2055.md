@@ -110,25 +110,17 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [AMS Graduate Student Blog](http://mathgradblog.williams.edu) (career advices, education and entertainment "for and by" math grad students)
 
-* [Annoying Precision](http://qchu.wordpress.com) by Qiaochu Yuan (algebra, representation theory, combinatorics, abstract nonsense, arithmetics)
-
 * [Azimuth](http://johncarlosbaez.wordpress.com/) (stochastic processes, network theory, 'green mathematics' and expository fun stuff)
 
 * [bit-player](http://bit-player.org/) Math/computer science blog of science writer Brian Hayes (writer for American Scientist)
 
 * "blog on math blogs" <https://blogs.ams.org/blogonmathblogs>
 
-* [category theory](http://community.livejournal.com/category_theory) at community.livejournal (in Russian)
-
 * [Combinatorics and more: Gil Kalai's blog](http://gilkalai.wordpress.com) 
 
 * [Continuous Everywhere but Nowhere Differentiable](http://samjshah.com) blog of a Brooklyn high school math teacher
 
 * [Chromotopy](http://chromotopy.org) ("chromatic") stable homotopy theory blog -- last update August 2011
-
-* [CSE Blog - quant, math, computer science puzzles](http://pratikpoddarcse.blogspot.com) ~ 250 Quant, Math & Computer Science Puzzles for Interview Preparation & Brain Teasing
-
-* [CTK Insights](http://www.mathteacherctk.com/blog) A blog for teaching
 
 * [dy/dan](http://blog.mrmeyer.com/) blog of Dan Meyer, a former high school math teacher now pursuing a Phd in math education -- includes many videos for use in the classroom
 
@@ -142,11 +134,7 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [empg](http://empg.maths.ed.ac.uk/blog) Edinburgh Mathematical Physics Group 
 
-* [Evolutionblog](http://scienceblogs.com/evolutionblog/) Mathematics and Politics blog by a college professor
-
 * [Explaining Math](http://explainingmaths.wordpress.com) math teaching with multimedia, screencasts
-
-* [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
 * [Ganit Charcha](http://www.ganitcharcha.com) ("Designing Mathematics Learning")
 
@@ -154,54 +142,25 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [Geomblog](http://geomblog.blogspot.com/) Ruminations on computational geometry, algorithms, theoretical computer science and life
 
-* [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari: hyperbolic geometry, geometric group theory...)
-
-* [God plays dice](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
-
 * [Good Math, Bad Math](http://www.goodmath.org/blog/) (largely dedicated to chasing math crackpots; also math exposition)
 
 * [Gowers's weblog](http://gowers.wordpress.com)
 
 * [theHigherGeometer](https://thehighergeometer.wordpress.com) by David Roberts
 
-* [H&#246;chste Zeit, unsern Kurs zu &#228;ndern](http://shenme.de/blog) -- model theory of fields and commutative algebra
-
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
-
-* [IMU - Journals](https://blog.wias-berlin.de/imu-journals) blog on mathematical journals
 
 * [Joel David Hamkins](http://jdh.hamkins.org) "mathematics and philosophy of the infinite", foundations
 
-* [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math, compressed sensing and inverse problems, random embeddings)
-
-* [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]] 
-
-* [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
+* [Logic ForAll](http://logic-forall.blogspot.com) by [[Valeria de Paiva]]
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
 
-* [Martin's Blog](http://www.martinorr.name/blog) Martin Orr: algebraic geometry especially abelian varieties, Galois representations
-
 * [mathbabe](http://mathbabe.org/) Blog on mathematical finance by former academic 
-
-* [Math-Blog](http://math-blog.com) (6 people blog: math books, university math, popular math etc.)
 
 * [Mathblogging.com](http://www.mathblogging.org/) A compilation of math blogs sorted according to genre including the "weekly pics" of the hosts: Felix Breuer, Frederik von Heymann, and Peter Krautzberger
 
-* [Mathcraft](http://mathcraft.wonderhowto.com/) Math-inspired artwork and how-to info
-
-* [Math Goes Pop!](http://www.mathgoespop.com/) UCLA grad student writes about math in the media and pop culture
-
 * [math for love](http://mathforlove.com/) Blog of mathematics education consultants includes puzzles, teaching tips, and philosophical musings
-
-* [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
-
-* [Math Section](http://mathsection.com/) ETH Zurich Master's degree student writes about applications of mathematics in everyday life
-
-* [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some of his ideas and thoughts on (higher) category theory and $K$-theory.
-
-* [Mathematical Musings](http://matthewkahle.wordpress.com/)
-(Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
 
 * [Mathematics and Computation](http://math.andrej.com) (Andrej Bauer, includes also topology and foundations--last update July 2011)
 
@@ -217,6 +176,105 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [Math Vault](http://mathvault.ca) (Everything higher mathematics: college math, calculus, linear algebra, logic, probability, statisitcs, proof-based math, educational technology and learning)
 
+* [neverendingbooks](http://www.neverendingbooks.org) (Lieven le Bruyn)
+
+* [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com) (Connes, Khalkhali...)
+
+* [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
+
+* [Oscar Cunningham's Blog](http://oscarcunningham.com/) (Category theory, nontrivial trivialities)
+
+* [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
+
+* [Proof Math is Beautiful](http://proofmathisbeautiful.tumblr.com) Beautiful images of mathematical interest.
+
+* [Quomodocumque](http://quomodocumque.wordpress.com/) University professor Jordan Ellenberg's blog
+
+* [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
+
+* [Shadows of simplicity](https://tcjpn.wordpress.com) - algebraic combinatorics, umbral calculus
+
+* [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
+
+* [Tanya Khovanova's math blog](http://blog.tanyakhovanova.com/) Light musings, puzzles and anecdotes concerning mathematics
+
+* [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba: personal blog of a math professor, various topics, rarely even math)
+
+* [The Math Less Travelled](http://mathlesstraveled.com/) Expository writing aimed to expose the beauty of mathematics to a general audience
+
+* [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category) A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
+
+* [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity, ...--last updated July 2011)
+ 
+* [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi: books, science, automata, complex networks, stochastic processes, numerics and simulation, arts, literature, politics)
+
+* [Transcendence](http://whzecomjm.com/) A math blog by whzecomjm covering Algebra, Number Theory etc. in Chinese.
+
+* [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
+
+* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids), abundant with self-centric claims of importance
+
+* [What's new](http://terrytao.wordpress.com) (Terence Tao)
+
+* [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations--last updated July 2011)
+
+### Older Blogs (last is entry over a year old)
+
+* [Annoying Precision](http://qchu.wordpress.com) by Qiaochu Yuan (algebra, representation theory, combinatorics, abstract nonsense, arithmetics)
+
+* [Ars Mathematica](http://arsmathematica.net) (analysis, probability...)  - last updated in 2015
+
+* [category theory](http://community.livejournal.com/category_theory) at community.livejournal (in Russian)
+
+* [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew: Lie algebras, differential and algebraic geometry...)  - last updated in 2013
+
+* [Concrete Nonsense](http://concretenonsense.wordpress.com) A group blog on combinatorics, [[Lie algebras]], [[representation theory]], [[algebraic geometry]] -- last update 2015
+
+* [CSE Blog - quant, math, computer science puzzles](http://pratikpoddarcse.blogspot.com) ~ 250 Quant, Math & Computer Science Puzzles for Interview Preparation & Brain Teasing
+
+* [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on [[algebra]], representation theory, and Olympiad-style problem-solving --last update August 2010
+
+* [degrees of freedom](http://blogs.scientificamerican.com/degrees-of-freedom/) Math and Physics blog of Scientific American written by  Davide Castelvecchi - last updated 2012
+
+* [Emb&#251;ches tissues](http://embuchestissues.wordpress.com) (computational algebraic geometry, commutative algebra) -- last update March 2010
+
+* [Evolutionblog](http://scienceblogs.com/evolutionblog/) Mathematics and Politics blog by a college professor
+
+* [FFF](http://ffbandf.wordpress.com) Forking, Forcing and back&Forthing -- a blog by 10 model theorists - last updated in 2013
+
+* [Geometric Group Theory](http://392c.wordpress.com) (structured text with theorems, proofs and exercises in GGT) -- last updated August 2009
+
+* [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrad Swanepoel) - last updated 2014
+
+* [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari: hyperbolic geometry, geometric group theory...)
+
+* [God plays dice](https://gottwurfelt.com/) and [previous location](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
+
+* [H&#246;chste Zeit, unsern Kurs zu &#228;ndern](http://shenme.de/blog) -- model theory of fields and commutative algebra
+
+* [IMU - Journals](https://blog.wias-berlin.de/imu-journals) blog on mathematical journals
+
+* Konrad [Volkel](http://blog.konradvoelkel.de) blog (cohomology, geometry, topology); has also nice [math resource list](http://blog.konradvoelkel.de/2012/05/mathematics-resources) - blog last updated in 2015
+
+* [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math, compressed sensing and inverse problems, random embeddings)
+
+* [Martin's Blog](http://www.martinorr.name/blog) Martin Orr: algebraic geometry especially abelian varieties, Galois representations
+
+* [Math-Blog](http://math-blog.com) (6 people blog: math books, university math, popular math etc.)
+
+* [Mathcraft](http://mathcraft.wonderhowto.com/) Math-inspired artwork and how-to info
+
+* [Math Goes Pop!](http://www.mathgoespop.com/) UCLA grad student writes about math in the media and pop culture
+
+* [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
+
+* [Math Section](http://mathsection.com/) ETH Zurich Master's degree student writes about applications of mathematics in everyday life
+
+* [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some of his ideas and thoughts on (higher) category theory and $K$-theory.
+
+* [Mathematical Musings](http://matthewkahle.wordpress.com/)
+(Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
+
 * [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss: vizualizing math and math art, building math sculptures)
 
 * [Misapplied Math](http://www.klittlepage.com) (Math (mainly statistics, probability, and stochastic control), data science, and CS)
@@ -231,160 +289,60 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com) (PhD student in quantum information -- last update July 2011)
 
-* [neverendingbooks](http://www.neverendingbooks.org) (Lieven le Bruyn)
-
 * [Nikita Markarian's mathblog](http://nikitamarkarian.wordpress.com) (derived algebraic geometry, dg-, $L_\infty, A_\infty, G_\infty$-algebras, operads, TQFT, BV formalism, Hochschild and cyclic (co)homology...--last updated July 2011)
 
-* [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com) (Connes, Khalkhali...)
-
-* [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
+* [Noncommutative geometry with point](http://noncommutativeag.wordpress.com), by a grad student at Kansas--last updated September 2010
 
 * [NUMBERPLAY](http://wordplay.blogs.nytimes.com/category/numberplay/) A New York Times blog on math/numeric puzzles by Pradeep Mutalik
 
 * [Paramanand's Math Notes] (http://paramanands.blogspot.com/) A math blog by Paramanand Singh covering Algebra, Number Theory, Mathematical Analysis, Geometry among other topics
 
-* [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
-
 * [Political Math](http://www.politicalmathblog.com/) Visualization of political information 
 
 * [Pronunciation of Mathematicians' Names] (http://pronouncemath.blogspot.com) A blog about how to pronounce famous mathematicians' names.
-
-* [Proof Math is Beautiful](http://proofmathisbeautiful.tumblr.com) Beautiful images of mathematical interest.
 
 * [QED Insight](http://qedinsight.wordpress.com) (by Santo D'Agostino; mathematics, physics, education, pitched mainly to high school and undergraduate university students and teachers, with some material for lay people as well) 
 
 * [qrazydragon](http://qrazydraqon.livejournal.com) (math, books, internet, in Russian)
 
-* [Quomodocumque](http://quomodocumque.wordpress.com/) University professor Jordan Ellenberg's blog
-
-* [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles by Rod Carvalho)
-
 * [Reverberations in Mathematics](http://julianrachman.wordpress.com) (My Journey into Higher Mathematics - [Julian Rachman](http://jrmathematics.x10host.com)
 
-* [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
-
-* [Shadows of simplicity](https://tcjpn.wordpress.com) - algebraic combinatorics, umbral calculus
-
-* [Shapes Out of Nothing](http://www.noncommutative.org/) Lieven Le bruyn
+* [Rigorous Trivialities](http://rigtriv.wordpress.com) (a group blog - mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning) -- last updated 2015)
 
 * [Sketches of Topology](http://sketchesoftopology.wordpress.com) (colorful pictures, "visualizations of low dimensional topology")
 
-* [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
-
-* [Tanya Khovanova's math blog](http://blog.tanyakhovanova.com/) Light musings, puzzles and anecdotes concerning mathematics
-
-* [Teaching College Math] (http://teachingcollegemath.com) A blog about math, technology, and teaching.
-
-* [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba: personal blog of a math professor, various topics, rarely even math)
-
-* [The Endeavour](http://www.johndcook.com/blog) (programming, general science, probability and statistics)
-
 * [The Everything Seminar](http://cornellmath.wordpress.com) ("Geometry, topology, categories, groups, physics"; recently lots about experimental particle physics: LHC and CMS)
-
-* [Theoretical atlas](http://theoreticalatlas.wordpress.com) (Jeffrey Morton: groupoids, groupoidification, stacks, quantum physics, noncommutative geometry)
-
-* [The Math Less Travelled](http://mathlesstraveled.com/) Expository writing aimed to expose the beauty of mathematics to a general audience
-
-* [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category) A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
 
 * [The Numbers Guy](http://blogs.wsj.com/numbersguy/) Wall Street Journal's math/economics blog by Carl Bialik
 
-* [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity, ...--last updated July 2011)
+* [The Unapologetic Mathematician](http://unapologetic.wordpress.com) (An expository "blath" by former academic John Armstrong) last updated in 2012
 
 * [The Rising Sea](http://therisingsea.org) (Daniel Murfet, previous blog moved to more of a homepage format, with arXiv of neat LaTeX notes on algebraic geometry, triangulated categories, sheaves...)
 
-* [The Twofold Gaze](http://twofoldgaze.wordpress.com) (a grad student at NYU: genetic algorithms, inequalities, competitions)
- 
-* [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi: books, science, automata, complex networks, stochastic processes, numerics and simulation, arts, literature, politics)
+* [Theoretical atlas](http://theoreticalatlas.wordpress.com) (Jeffrey Morton: groupoids, groupoidification, stacks, quantum physics, noncommutative geometry)
 
 * [Things of interest](http://blog.matthen.com/) (Mathematica visualisations, puzzles)
 
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)--last updated January 2011
 
-* [Transcendence](http://whzecomjm.com/) A math blog by whzecomjm covering Algebra, Number Theory etc. in Chinese.
-
-* [Travels in a Mathematical World](http://travelsinamathematicalworld.blogspot.com/) Blog of a British mathematics educator
-
-* [Uncover a few](http://uncoverafew.wordpress.com/) New blog of problems and teaching ideas 
-
-* [University of David](http://davidaedwards.tumblr.com/) Blog of an emeritus mathematical physicist.
-
-* [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
-
-* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids), abundant with self-centric claims of importance
-
-* [What's new](http://terrytao.wordpress.com) (Terence Tao)
-
-* [Wiskundemeisjes](http://www.wiskundemeisjes.nl) (A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets, in Dutch)
-
-* [Wiskunde is sexy](http://weetlogs.scilogs.be/index.php?blogId=11) (Another blog about mathematics for a general audience, written by Rudi Penne and Paul Levrie, also in Dutch)
-
-* [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations--last updated July 2011)
-
-### Older Blogs (last is entry over a year old)
-
-* [Ars Mathematica](http://arsmathematica.net) (analysis, probability...)  - last updated in 2015
-
-* [The Capacity To Be Alone](https://etreseul.wordpress.com/) UChicago undergraduate group blog. - last updated in 2015
-
-* [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew: Lie algebras, differential and algebraic geometry...)  - last updated in 2013
-
-* [Concrete Nonsense](http://concretenonsense.wordpress.com) A group blog on combinatorics, [[Lie algebras]], [[representation theory]], [[algebraic geometry]] -- last update 2015
-
-* [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on [[algebra]], representation theory, and Olympiad-style problem-solving --last update August 2010
-
-* [degrees of freedom](http://blogs.scientificamerican.com/degrees-of-freedom/) Math and Physics blog of Scientific American written by  Davide Castelvecchi - last updated 2012
-
-* [Emb&#251;ches tissues](http://embuchestissues.wordpress.com) (computational algebraic geometry, commutative algebra) -- last update March 2010
-
-* [FFF](http://ffbandf.wordpress.com) Forking, Forcing and back&Forthing -- a blog by 10 model theorists - last updated in 2013
-
-* [Geometric Group Theory](http://392c.wordpress.com) (structured text with theorems, proofs and exercises in GGT) -- last updated August 2009
-
-* [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrad Swanepoel) - last updated 2014
-
-* Konrad [Volkel](http://blog.konradvoelkel.de) blog (cohomology, geometry, topology); has also nice [math resource list](http://blog.konradvoelkel.de/2012/05/mathematics-resources) - blog last updated in 2015
-
-* [Mathematics and Physics](http://borcherds.wordpress.com) (Richard Borcherds -- last update January 2008)
-
-* [Mathematics Expressions](http://mathexpressions.wordpress.com/) (Colin Tan: complex geometry -- last update April 2010)
-
-* [Noncommutative geometry with point](http://noncommutativeag.wordpress.com), by a grad student at Kansas--last updated September 2010
-
-* [Rigorous Trivialities](http://rigtriv.wordpress.com) (a group blog - mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning) -- last updated 2015)
-
-* [The Unapologetic Mathematician](http://unapologetic.wordpress.com) (An expository "blath" by former academic John Armstrong) last updated in 2012
+* [Uncover a few](http://uncoverafew.wordpress.com/) New blog of problems and teaching ideas
 
 * [Vivatsgasse 7](http://vivatsgasse7.wordpress.com) (Max Planck Bonn graduate students-- last update November 2007)
+
+* [Wiskundemeisjes](http://www.wiskundemeisjes.nl) (A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets, in Dutch)
 
 
 ## Probability and Statistics 
 
-### Blogs 
-
-* [Social Science Statistics Blog](http://www.iq.harvard.edu/blog/sss)
+### Blogs
 
 * [Statistical Modeling, Causal Inference and Social Science](http://www.stat.columbia.edu/~gelman/blog)
 
 * [The Endeavour](http://www.johndcook.com/blog)
 
-* [Williams College Math/Stat blog](http://blogs.williams.edu/math)
-
 ### Wikis
 
-* [Chance News](http://chance.dartmouth.edu/chancewiki/index.php/Main_Page)
-
 * [Wikitistics - Statistics Wiki](http://statistics.wikia.com/wiki/Main_Page)
-
-
-
-
-## Theoretical Computer Science 
-
-### Blogs 
-
-Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Science).
-
 
 ## Math-related
 
@@ -402,11 +360,6 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Transient Dynamic](http://robclewley.github.io/) (A blog on next-gen computational tools for mathematical modeling in complex systems, especially dynamical systems models)
 
-* [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
-
-* [Azimuth](http://johncarlosbaez.wordpress.com) John Baez's new blog on environment, climate change, biodiversity, sustainable development and technology; from a perspective of a mathematical physicist; occasional topics with significant mathematical content
-
-
 
 ## Technical help with math blogs 
 
@@ -415,8 +368,6 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * This nifty [script] (http://www.junkdrawerblog.com/2008/01/cant-read-light-text-on-dark-backgrounds.html) fixes the eyestrain caused by poorly designed blog [contrasts](http://blog.teleonetics.com/2008/02/28/concept-identity-vs-concept-similarity-2/). 15 seconds to install, works for Firefox only. 
 
 * [Detexify](http://detexify.kirelabs.org/classify.html) for finding LaTeX symbols by drawing them.
-
-* [LaTeX on Blogger](http://watchmath.com/vlog/?p=438) for installing LaTeX on Blogger.
 
 
 category: meta, references
