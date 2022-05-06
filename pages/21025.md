@@ -167,7 +167,7 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
   _M-theory and cohomotopy_
 
-  download: [pdf slides](https://ncatlab.org/nlab/files/SatiMTheoryCohomotopy2020.pdf)
+  download: [pdf slides](https://ncatlab.org/nlab/files/Sati_MTheoryCohomotopy_2020.pdf)
 
   **Abstract** [[Cohomotopy theory]] has recently emerged as the proper [[generalized cohomology|generalized cohomology theory]] to describe the [[field (physics)|fields]] in [[M-theory]]. It is hoped that viewing M-theory from a mathematical perspective will shed the light on the nature of the theory and will allow for progress. I will survey this area, illustrating how cohomotopy captures the nature of the [[nLab:supergravity C-field|C-field]] and its dual as well as of the [[M-branes]], allows for cancellation of various [[nLab:quantum anomaly|anomalies]], and provides a firm grounding for further study of M-theory. This is joint work [[Urs Schreiber]] and [[Domenico Fiorenza]].
 
