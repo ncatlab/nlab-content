@@ -175,7 +175,7 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 * {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 
-* {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
+* {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl. Phys. B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
 
 
 * {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
@@ -184,7 +184,7 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
   following
 
-* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_, ([arXiv:hep-th/9703166](https://arxiv.org/abs/hep-th/9703166
+* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_, ([arXiv:hep-th/9703166](https://arxiv.org/abs/hep-th/9703166))
 
 The MO5 is originally discussed in 
 
