@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,6 +31,10 @@ Standard situations where real and imaginary parts are considered include the re
 * $A$ the [[quaternions]];
 
 * $A$ the [[octonions]]
+
+## Related concepts
+
+* [[imaginary number]]
 
 
 [[!redirects real parts]]
