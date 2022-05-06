@@ -30,4 +30,6 @@ A __right semimodel category__ is defined by passing to the [[opposite category]
 
 * [[Mark Hovey]], _Monoidal model categories_, [arXiv:math/9803002](https://arxiv.org/abs/math/9803002).
 
-[[!redirects semimodel category]]
+[[!redirects semimodel categories]]
+[[!redirects semimodel structure]]
+[[!redirects semimodel structures]]
