@@ -13,7 +13,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[branes]], [[membranes]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)). By _[[double dimensional reduction]]_, these turn into the [[superstrings]] of [[type IIA string theory]] ([Duff-Howe-Inami-Stelle 87](#DuffHoweInamiStelle87)). (See at _[[duality between M-theory and type IIA string theory]]_.)
@@ -110,7 +109,7 @@ But in fact (eq:FirstCorrectionToG7) does not quite make general sense, for two 
 
 1. In general $G_4 = 0$ is not an admissible condition and is not the actual vanshing of the [[C-field]], due to the [[shifted C-field flux quantization]].
 
-1. Even if $G_4$ happens to be intregrally quantizaed (if $\tfrac{1}{4}p_1$ is integral) the appearance of a globally defined [[C-field]] potential $C_3$ in (eq:FirstCorrectionToG7),means that the total [[flux]] actually does vanish after all.
+1. Even if $G_4$ happens to be integrally quantizaed (if $\tfrac{1}{4}p_1$ is integral) the appearance of a globally defined [[C-field]] potential $C_3$ in (eq:FirstCorrectionToG7),means that the total [[flux]] actually does vanish after all.
 
 \linebreak
 
@@ -189,6 +188,7 @@ _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_. ([Maldacena 97, section 3.2](#Maldacena
 
 \linebreak
 
+
 ### M2/M5 bound states
  {#M2M5BoundStates}
 
@@ -241,8 +241,6 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ### As a fundamental brane (GS-type $\sigma$-model)
 
-#### Classical
-
 The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) first appears in 
 
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
@@ -259,16 +257,6 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 * {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
 
-  
-Its [[quantization]] of the was explored in 
-
-* {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
-
-* {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]], [spire:261702](http://inspirehep.net/record/261702))
-
-* [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135 ([spire:266584](http://inspirehep.net/record/266584/), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
-
-* {#KabatTaylor97} Daniel Kabat, [[Washington Taylor]], section 2 of _Spherical membranes in Matrix theory_, Adv.Theor.Math.Phys.2:181-206,1998 ([arXiv:hep-th/9711078](https://arxiv.org/abs/hep-th/9711078)) 
 
 
 The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz superstring]] was observed in
@@ -282,30 +270,27 @@ The interpretation of the membrane as an object related to [[string theory]] via
 around the time when [[M-theory]] became accepted due to
 
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+
+See also
+
+* [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+
+* [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
+
+Discussion of $G7$-[[C-field charge quantization]] in the $G_4$-fluxed case:
+
+ {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+
+
  
 
-#### Quantization and BFSS-matrix model
-{#RegularizationReferences}
-
-The proposed regularization, due to [deWit-Hoppe-Nicolai 88](#deWitHoppeNicolai88), of area-preserving diffeomorphisms on the [[membrane]] [[worldvolume]]
-by [[SU(n)|SU(N)]]-matrices and the resulting equivalence of the [[quantization]] of the membrane to the [[BFSS matrix model]] of [[D0-branes]] is reviewed and further dicussed in the following articles:
-
-* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
-  
-* [[Jens Hoppe]], _Membranes and Matrix Models_ ([arXiv:hep-th/0206192](https://arxiv.org/abs/hep-th/0206192))
-
-* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. 8:1, 2002; Rev. Mex. Fis. 49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
-
-* [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_, 2006 ([pdf](http://web.science.uu.nl/itf/Teaching/2006/vandenOord.pdf))
-
-The analogous argument on [[pp-wave spacetimes]] (then leading to the [[BMN matrix model]]):
-
-* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], Section 2 of: _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
-
-
 ### As a black brane
+ {#ReferencesAsABlackBrane}
 
-The back membrane solution of [[11-dimensional supergravity]] was found in
+The [[black brane|black]] membrane solution of [[11-dimensional supergravity]] was found in
 
 * {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
@@ -341,11 +326,8 @@ More recent review is in
 
 * Georgios Linardopoulos, chapter 13 of _Classical Strings and Membranes in the AdS/CFT Correspondence_ ([pdf](http://users.uoa.gr/~glinardo/Thesis.pdf), [spire](https://inspirehep.net/record/1391031/))
 
-
-
-
  
-A detailed discussion of this [[black brane]]-realization of the M2 and its relation to [[AdS-CFT]] is in 
+A detailed discussion of this [[black brane]]-realization of the [[M2-brane]] and its relation to [[AdS-CFT]] is in 
 
 * [[Gianguido Dall'Agata]], Davide FabbKri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
@@ -355,45 +337,22 @@ The generalization of this to $\geq 1/2$ BPS sugra solutions of the form $AdS_4 
 
 * {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
+[[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
+
+### History
 
 Discussion of the history includes
 
 * [[Mike Duff]], ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
 
-Other recent developments are discussed in 
+### Decoupled worldvolume theory
 
-* [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+On the [[BLG model]]/[[ABJM model]] for the [[worldvolume]]-theory of [[coindicent branes|coincident]] [[M2-branes]] see there.
 
-* [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
+Review:
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
-* [[Nathan Berkovits]], _Towards Covariant Quantization of the Supermembrane_ ([arXiv:hep-th/0201151](http://arxiv.org/abs/hep-th/0201151))
-
-Formulations of multiple M2-branes on top of each other are given by the _[[BLG model]]_ and the _[[ABJM model]]_. See there for more pointers. The relation of these to the above is discussed in section 3 of 
-
-Discusson of [[boundary conditions]] in the ABJM model (for M2-branes ending on [[M5-branes]]) is in
-
-* {#BermanThomson09} [[David Berman]], Daniel Thompson, _Membranes with a boundary_, Nucl.Phys.B820:503-533,2009 ([arXiv:0904.0241](http://arxiv.org/abs/0904.0241))
-
-A kind of [[double dimensional reduction]] of the ABJM model to something related to [[type II superstrings]] and [[D1-branes]] is discussed in
-
-* [[Horatiu Nastase]], Constantinos Papageorgakis, _Dimensional reduction of the ABJM model_,  JHEP 1103:094,2011 ([arXiv:1010.3808](http://arxiv.org/abs/1010.3808))
-
-Discussion of the ABJM model in [[Horava-Witten theory]] and reducing to [[heterotic strings]] is in
-
-* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
-
-
-Discussion of general phenomena of [[M-branes]] in [[higher geometry]] and [[generalized cohomology]] is in 
-
-* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
-
-Discussion of $G7$-[[charge quantization]] in the fluxed case:
-
- {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
-
-* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
 
@@ -421,12 +380,12 @@ Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra
 
 * [[Hirotaka Sugawara]], _Current Algebra Formulation of M-theory based on E11 Kac-Moody Algebra_, International Journal of Modern Physics A, Volume 32, Issue 05, 20 February 2017 ([arXiv:1701.06894](https://arxiv.org/abs/1701.06894))
 
-* [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
+* [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in $E_{11}$ Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
 ### M2-M5 bound states
  {#ReferencesDyonic}
 
-Discussion of [[M2-M5 brane bound state|M2-M5 brane bound states]], i.e.
+Discussion of [[M2-M5 brane bound states]], i.e.
 [[dyon|dyonic]]$\,$[[black brane|black]] [[M2-branes]] ([[M5-branes]] [[wrapped brane|wrapped]] on a [[3-manifold]], see also at _[NS5-branes -- D2/D4/NS5-bound states](NS5-brane#ReferencesNS5D4D2BoundStates)_):
 
 * {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
@@ -445,7 +404,7 @@ Discussion of [[M2-M5 brane bound state|M2-M5 brane bound states]], i.e.
 
 * Jay Armas, Vasilis Niarchos, Niels A. Obers, _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
 
-Further [[bound states]] of M2/[[M5-branes]] to [[giant gravitons]]:
+Further [[M2/M5-brane bound states]] to [[giant gravitons]]:
 
 * J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
 
