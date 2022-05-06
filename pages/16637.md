@@ -88,7 +88,7 @@ These three coset realizations of 'squashed' 7-spheres together with a fourth
 
 the realization of the 'round' 7-sphere, may be seen jointly as resulting from the 8-dimensional representations of even [[Clifford algebras]] in 5, 6, 7, and 8 dimensions (see [Baez](#Baez)) and as such related to the four [[normed division algebras]]. See also [Choquet-Bruhat+DeWitt-Morette00, pp. 263-274](#Choquet-Bruhat+DeWitt-Morette00).
 
-
+[[!include coset space structure on n-spheres -- table]]
 
 The following gives an [[exotic 7-sphere]]:
 
