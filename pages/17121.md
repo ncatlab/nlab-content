@@ -42,17 +42,22 @@ A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[
 
 ## References
 
-Named after [[Hans Freudenthal]].
-
-* Wikipedia, _[Freudenthal magic square](https://en.wikipedia.org/wiki/Freudenthal_magic_square)_
 
 * {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 8.5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
 
 * {#BaezMagic} [[John Baez]], _4.3 The Magic Square_, [webpage](http://math.ucr.edu/home/baez/octonions/node16.html)
 
 * {#AtiyahMagic} [[Michael Atiyah]], _The Geometry and Topology of the Freudenthal Magic Square_, [videos](http://webhost1.ust.hk/~ias/en/IAS_0910_MATH_seminar_abstract.pdf)
 
 * {#Westbury} [[Bruce Westbury]], _Sextonions and the magic square_, ([pdf](http://homepages.warwick.ac.uk/~masdbn/sex2.pdf))
+
+See also
+
+* Wikipedia, _[Freudenthal magic square](https://en.wikipedia.org/wiki/Freudenthal_magic_square)_
+
 
 Discussion in relation to [[super Yang-Mills theory]], [[supergravity]] and [[U-duality]] includes
 
