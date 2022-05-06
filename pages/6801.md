@@ -66,6 +66,8 @@ also
 
 * Babak Haghighat, Rui Sun, _M5 branes and Theta Functions_ ([arXiv:1811.04938](https://arxiv.org/abs/1811.04938))
 
+
+
 ### Open D$p$-brane theories
 
 For light [[D-branes]] ending on NS5-branes (see [there](NS5-brane#DBranesEndingOnNS5Branes))
@@ -77,6 +79,10 @@ For light [[D-branes]] ending on NS5-branes (see [there](NS5-brane#DBranesEnding
 
 
 * {#Lu06} J. X. Lu, _$(1 + p)$-Dimensional Open $D(p - 2)$ Brane Theories_, JHEP 0108:049, 2001 ([arXiv:hep-th/0102056](https://arxiv.org/abs/hep-th/0102056))
+
+See also
+
+* Dan Israel, Ari Pakman, Jan Troost, _D-branes in Little String Theory_, Nucl.Phys. B722 (2005) 3-64 ([arXiv:hep-th/0502073](https://arxiv.org/abs/hep-th/0502073))
 
 
 
