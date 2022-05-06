@@ -630,7 +630,9 @@ _New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([ar
 
 * {#BDKL20}   Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _A Measurable Angular Distribution for $\bar B \to D^\ast \tau^- \bar \nu_\tau$ Decays_ ([arXiv:2005.03032](https://arxiv.org/abs/2005.03032))
 
+In relation to [[electroweak field|electroweak]] precision data:
 
+* Lina Alasfar, Aleksandr Azatov, Jorge de Blas, Ayan Paul, Mauro Valli, _B anomalies under the lens of electroweak precision_ ([arXiv:2007.04400](https://arxiv.org/abs/2007.04400))
 
 
 
