@@ -72,6 +72,8 @@ Derivation of vector meson dominance via [[holographic QCD]]:
 
 * D.T. Son, M.A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182))
 
+  (from the point of view of [[hidden local symmetry]])
+
 * Sungho Hong, Sukjin Yoon, [[Matthew Strassler]], _On the Couplings of Vector Mesons in AdS/QCD_, JHEP 0604 (2006) 003 ([arXiv:hep-th/0409118](https://arxiv.org/abs/hep-th/0409118))
 
 * Sungho Hong, Sukjin Yoon, [[Matthew Strassler]], _On the Couplings of the Rho Meson in AdS/QCD_ ([cds:816440](https://cds.cern.ch/record/816440), [arXiv:hep-ph/0501197](https://arxiv.org/abs/hep-ph/0501197))
