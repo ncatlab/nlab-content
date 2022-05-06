@@ -116,7 +116,7 @@ and specifically discussion of [[leptoquarks]] and possible relation to [[flavou
 
 See also:
 
-* Fabien Besnard, _Extensions of the noncommutative Standard Model and the weak order one condition_ ([arXic:2011.02708](https://arxiv.org/abs/2011.02708))
+* Fabien Besnard, _Extensions of the noncommutative Standard Model and the weak order one condition_ ([arXiv:2011.02708](https://arxiv.org/abs/2011.02708))
 
 
 
