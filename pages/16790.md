@@ -326,12 +326,43 @@ subject to the identification
   \,.
 \]
 
-This is equation (47) in [IMSY 98](#IMSY98), where we used the condition $U/(\frac{N}{g^{2/3}_{YM}}) = U/(\frac{N}{(2\pi)^{4/3} \ell_P}) \gg 1$ from a few lines above, in the equation $y^2 = 2 N \ell^3_P U $ right above (47) to find $y^2 = 2(2\pi)^{-4/3} N^2 \ell_P^2 (U/(\frac{N}{ (2 \pi)^{4/3} \ell_P}))$, hence that $y$ is large in units of
+This is equation (47) in [IMSY 98](#IMSY98), which applies subject to the condition 
+
+$$
+  U/\left(\frac{N}{g^{2/3}_{YM}}\right) 
+  \;=\; 
+  U/\left(\frac{N}{(2\pi)^{4/3} \ell_P}\right) 
+  \;\gg\; 
+  1
+$$ 
+
+from a few lines above. Inserting this condition into the definition $y^2 \coloneqq 2 N \ell^3_P U $ right above (47) shows that
+
+$$
+  \begin{aligned}
+  y^2 
+  & =
+  2 N \ell^3_P U
+  \\
+  & =
+  2(2\pi)^{-4/3} N^2 \ell_P^2 
+  \;
+  \underset{
+    \gg 1
+  }{
+  \underbrace{
+     \left(U/\left(\frac{N}{ (2 \pi)^{4/3} \ell_P}\right)\right)
+  }}
+  \end{aligned}
+$$
+
+hence that the distance $y$ from the locus of the MK6-brane is large in units of
 
 $$
   \ell_{th} \;=\; \sqrt{2} (2\pi)^{-2/3} N \ell_P
   \,.
 $$
+
 The identification (eq:OrbifoldIdentificationForKKMonopole) means that this is the [[orbifold]] [[metric cone]] $\mathbb{R}^{6,1} \times \left( \mathbb{R}^4/(\mathbb{Z}_N)\right)$, hence an A-type [[ADE-singularity]]. To make this more explicit, introduce the complex coordinates
 
 $$
@@ -401,6 +432,10 @@ reviewed in
 The near horizon geometry of coincident [[KK-monopoles]] in [[11-dimensional supergravity]] is discussed in 
 
 * {#IMSY98} Nissan Itzhaki, [[Juan Maldacena]], Jacob Sonnenschein, Shimon Yankielowicz, section 9 of _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 1998 ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
+
+* {#ItzhakiTseytlinYankielowicz98} N. Itzhaki, [[Arkady Tseytlin]], S. Yankielowicz, _Supergravity Solutions for Branes Localized Within Branes_, Phys.Lett.B432:298-304, 1998 ([arXiv:hep-th/9803103](https://arxiv.org/abs/hep-th/9803103))
+
+* {#Hashimoto98} Akikazu Hashimoto, _Supergravity Solutions for Localized Intersections of Branes_, JHEP 9901 (1999) 018 ([arXiv:hep-th/9812159](https://arxiv.org/abs/hep-th/9812159))
 
 
 * {#Asano00} Masako Asano, section 3 of _Compactification and Identification of Branes in the Kaluza-Klein monopole backgrounds_ ([arXiv:hep-th/0003241](https://arxiv.org/abs/hep-th/0003241))
