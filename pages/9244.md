@@ -48,7 +48,7 @@ and more details have been worked out here:
 
 Aspects of general enveloping $E_n$-alebras are mentioned in the context of [[factorization homology]] in section 5 and in particular around the bottom of p. 18 in
 
-* [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://arxiv.org/abs/1206.5522))
+* [[David Ayala]], [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://arxiv.org/abs/1206.5522))
 
 and more specifically in the context of [[factorization algebras of observables]] around remark 4.5.5 of 
 
