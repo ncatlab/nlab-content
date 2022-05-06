@@ -45,6 +45,8 @@ Generally speaking, a [[morphism]] $\Delta \to \Gamma$ in the [[category of cont
 
 * [[substitution]]
 
+[[!include notions of pullback -- contents]]
+
 ## References
 
 The observation that context extension forms an [[adjoint pair]]/[[adjoint triple]] with [[quantifiers]] is due to
