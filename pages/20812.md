@@ -21,7 +21,11 @@
 
 ## Idea
 
-In [[string theory]]/[[M-theory]], the _shifted C-field flux quantization condition_ is a [[charge quantization]]-condition on the [[supergravity C-field]] expected in [[M-theory]]. It says that the [[real cohomology]] class of the [[flux density]] ([[field strength]]) [[differential 4-form]] $G_4 \in \Omega^4(X)$ on [[spacetime]] $X$ becomes integral after shifted by one quarter of the [[first Pontryagin class]], hence the condition that with the shifted 4-flux density defined as
+In [[string theory]]/[[M-theory]], the _shifted C-field flux quantization condition_ is a [[charge quantization]]-condition on the [[supergravity C-field]] expected in [[M-theory]]. 
+
+## For the magnetic $G_4$-flux
+
+For the magnetic $G_4$-flux, the shifted flux quantization says that the [[real cohomology]] class of the [[flux density]] ([[field strength]]) [[differential 4-form]] $G_4 \in \Omega^4(X)$ on [[spacetime]] $X$ becomes integral after shifted by one quarter of the [[first Pontryagin class]], hence the condition that with the shifted 4-flux density defined as
 
 \[
   \label{Shiftwed}
@@ -49,6 +53,77 @@ This condition was originally argued for in ([Witten 96a](#Witten96a), [Witten 9
 Proposals for encoding this condition by a [[Wu class]]-shifted variant of [[generalized (Eilenberg-Steenrod) cohomology theory|stable]] [[ordinary differential cohomology]] were considered in [Hopkins-Singer 02](#HopkinsSinger02), [Diaconescu-Freed-Moore 03](#DiaconescuFreedMoore03), [FSS 12](#FSS12).
 
 It turns out that the shifted flux quantization condition on the C-field is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
+
+## For the electric $G_7$-flux
+
+In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux density]] of [[M2-branes]] is not $G_7 \coloneqq \star G_4$ alone, but receives corrections, first due to the quadratic [[C-field]] self-interaction in [[D=11 supergravity]], but then also due to the [[shifted C-field flux quantization]] expected in [[M-theory]]:
+
+\linebreak
+
+**The [[11d supergravity]] literature** states the corrected 7-flux to be the following combination ([Duff-Stelle 91 (43)](M2-brane#DuffStelle91), reviewed e.g. in [BLMP 13, p. 21](M2-brane#BaggerLambertMukhiPapageorgakis13)):
+
+\[
+  \label{FirstCorrectionToG7}
+  \widetilde G'_7 
+  \;\coloneqq\;
+  G_7 + \tfrac{1}{2} C_3 \wedge G_4
+  \,,
+\]
+
+where the second term subtracts the electric flux induced by the self-intersection of the [[field]], and also ensures that the full expression is a [[closed differential form]] if the naive [[11d supergravity]] [[equations of motion]] hold:
+
+$$
+  d \widetilde G_7
+  \;=\;
+  0
+  \,.
+$$
+
+But in fact (eq:FirstCorrectionToG7) does not quite make general sense, for two reasons:
+
+1. In general $G_4 = 0$ is not an admissible condition and is not the actual vanshing of the [[C-field]], due to the [[shifted C-field flux quantization]].
+
+1. Even if $G_4$ happens to be intregrally quantizaed (if $\tfrac{1}{4}p_1$ is interal) the appearance of a globally defined [[C-field]] potential $C_3$ in (eq:FirstCorrectionToG7),means that the total [[flux]] actually does vanish after all.
+
+\linebreak
+
+**Charge-quantized $\widetilde G_7$-flux with [[shifted C-field flux quantization]]** ([FSS 19b, Prop. 4.3](#FSS19b), [FSS 19c, Section 4](#FSS19c))
+
+Both of these issues are solved if the [[C-field]] is taken to be [[charge quantization|charge quantized]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]). This gives the corrected formula 
+
+\[
+  \label{FullCorrectionToG7}
+  \widetilde G_7 
+  \;\coloneqq\;
+  h^\ast G_7 + \tfrac{1}{2} H_3 \wedge h^\ast \widetilde G_4
+\]
+
+where
+
+<div style="float:right;margin:0 10px 10px 0;">
+<a href="">
+<img src="https://ncatlab.org/schreiber/files/6dWZFromHomotopyLifting.jpg" width="440" />
+</a></div>
+
+1. the expression lives on the [[homotopy pullback]] of the [[Sp(2)]]-[[parametrized homotopy theory|parametrized]] [[quaternionic Hopf fibration]] 
+
+   $$
+     h \coloneqq h_{\mathbb{H}}\sslash Sp(2)
+   $$ 
+
+   to [[spacetime]], along the [[twisted Cohomotopy]]-[[cocycle]] that represents the [[C-field]] under [[schreiber:Hypothesis H]];
+
+1. $\widetilde G_4 \coloneqq h^\ast G_4 + \tfrac{1}{4}h^\ast p_1(\nabla)$ is the integral [[shifted C-field flux quantization|shifted C-field]] pulled back to that 3-[[spherical fibration]] over spacetime;
+
+1. $d H_3 = h^\ast G_4 - \tfrac{1}{4}h^\ast p_1(\nabla)$ trivializes not the C-field itself, but its pullback, and not absolutely but relative to the background charge implied by [[shifted C-field flux quantization]].
+
+With the corrected 7-flux in [[twisted Cohomotopy]] it becomes true that 
+
+1. the integral of $G_7$ around the [[7-sphere]] linking a [[black brane|black]] [[M2-brane]] is always [[integer]] ([FSS 19c, Theorem 4.6](#FSS19c));
+
+1. this integer satisfies the [[C-field tadpole cancellation condition]] ([FSS 19b, Section 4.6](#FSS19b)).
+
+
 
 ## Related concepts
 
@@ -80,6 +155,10 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 The observation that the condition is implied by [[supergravity C-field|C-field]] [[charge quantization]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]) is due to
 
 * {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+
+
 
 
 [[!redirects shifted C-field flux quantization condition]]
