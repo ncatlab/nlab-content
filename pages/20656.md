@@ -21,7 +21,7 @@ In the [[ADE-classification]], the items labeled $A3$ include the following:
 
 1. as [[finite subgroups of SO(3)]]:
 
-   the [[cyclic group]]  
+   the [[cyclic group of order 4]]  
 
    $\mathbb{Z}/4$
 
