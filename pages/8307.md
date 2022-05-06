@@ -220,6 +220,8 @@ A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 
 * [[tensor product of modules]]
 
+* [[tensor product of algebras over a commutative monad]]
+
 ## References
 
 An exposition (in the case of vector spaces) is in 
