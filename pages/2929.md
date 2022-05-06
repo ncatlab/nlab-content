@@ -286,11 +286,15 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 ## References
 
-* Carboni and Walters, "Cartesian Bicategories, I"
+* [[Aurelio Carboni]], [[Bob Walters]], _Cartesian Bicategories, I_, [article](https://doi.org/10.1016/0022-4049%2887%2990121-6)
 
-* [blog post](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) showing that any bicategory of relations is an [[allegory]]. Indeed, a bicategory of relations is equivalent to a unitary pretabular allegory.
+* [[Aurelio Carboni]], [[Max Kelly]], [[Bob Walters]], [[Richard Wood]], _Cartesian Bicategories II_, ([arXiv:0708.1921](https://arxiv.org/abs/0708.1921))
 
-* 2017 article on [Knowledge Representation in Bicategories of Relations](https://www.epatters.org/assets/papers/2017-relational-ologs.pdf) by Evan Patterson, shows how one can model RDF (Resource Description Framework) and parts of OWL (Ontology Web Language) in bicategories of relations, whose internal logic is [[regular logic]]. He ends by showing how one can extend these to [[distributive bicategories of relations]] whose internal logic is [[coherent logic]], which is equivalent in expressivity to first order logic.
+* [[Bob Walters]], [blog post](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html), showing that any bicategory of relations is an [[allegory]]. Indeed, a bicategory of relations is equivalent to a unitary pretabular allegory.
+
+* [[Evan Patterson]], _Knowledge Representation in Bicategories of Relations_, ([arXiv:1706.00526](https://arxiv.org/abs/1706.00526)
+
+This article shows how one can model RDF (Resource Description Framework) and parts of OWL (Ontology Web Language) in bicategories of relations, whose internal logic is [[regular logic]]. He ends by showing how one can extend these to [[distributive bicategories of relations]] whose internal logic is [[coherent logic]], which is equivalent in expressivity to first order logic.
 
 
 [[!redirects bicategories of relations]]
