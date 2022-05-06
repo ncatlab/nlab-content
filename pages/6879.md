@@ -59,6 +59,10 @@ The classical articles are
 
 * [[Sidney Coleman]], Frank De Luccia, _Gravitational effects on and of vacuum decay_ , Phys. Rev. D 21, 3305&#8211;3315 (1980) ([web](http://prd.aps.org/abstract/PRD/v21/i12/p3305_1))
 
+More recent development (in view of [[Higgs field|Higgs metastability]]):
+
+* Anders Andreassen, David Farhi, William Frost, Matthew D. Schwartz, _Precision decay rate calculations in quantum field theory_, Phys. Rev. D 95, 085011 (2017) ([arXiv:1604.06090](https://arxiv.org/abs/1604.06090))
+
 
 [[!redirects false vacuum]]
 [[!redirects false vacua]]
