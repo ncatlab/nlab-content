@@ -38,7 +38,7 @@ For the classical functors which forget algebraic structure, cofree functors are
 
 ## Examples
 
-Classically, examples of free constructions were characterized by a [[universal property]]. For example, in the case of the free group on a set $X$ the universal property states that any map $X \to G$ as sets uniquely extends to a group homomorphism $F(X) \to G$. When such a free construction can be realized as a left adjoint functor, this universal property is just a transliteration of the fact that the [[unit of an adjunction|unit]] of the [[free-forgetful adjunction]] is an [[initial object]] in the [[comma category]] $(X \downarrow \operatorname{for})$ (see e.g. the proof of Freyd's general [[adjoint functor theorem]].)
+Classically, examples of free constructions were characterized by a [[universal property]]. For example, in the case of the free group on a set $X$ the universal property states that any map $X \to G$ as sets uniquely extends to a group homomorphism $F(X) \to G$. When such a free construction can be realized as a left adjoint functor, this universal property is just a transliteration of the fact that the [[unit of an adjunction|unit]] of the [[free-forgetful adjunction]] is an [[initial object]] in the [[comma category]] $(X \downarrow U)$ (where $U$ is the forgetful functor out of the category of algebras, see e.g. the proof of Freyd's general [[adjoint functor theorem]].)
 
 ### For free functors
 
@@ -64,7 +64,7 @@ Classically, examples of free constructions were characterized by a [[universal 
 
 * the [[unitisation]] functor [[Rng]] $\to$ [[Ring]].
 
-One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of thee examples above and many others.
+One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of the examples above and many others.
 
 A general way to construct free functors is with a [[transfinite construction of free algebras]] (in [[set theory|set-theoretic]] foundations), or with an [[inductive type]] or [[higher inductive type]] (in [[type theory|type-theoretic]] foundations).
 
