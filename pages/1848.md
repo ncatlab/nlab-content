@@ -127,7 +127,6 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 ## Related concepts
 
-* [[topology - global countability axioms]]
 * [[first-countable space]]
 * **second-countable space**
 * [[separable space]]
