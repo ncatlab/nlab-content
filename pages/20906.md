@@ -58,6 +58,10 @@ The following table shows the data in a metric Lie representation equivalently
 
 * [[metric Lie representation]]
 
+* [[Lie algebra weight system]]
+
+* [[tensor network state]]
+
 ## References
 
 ### General
