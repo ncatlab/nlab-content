@@ -119,6 +119,12 @@ The Hadamard lemma implies in particular that
 * the [[Taylor series]] of a [[smooth function]] is an [[asymptotic series]] ([this example](asymptotic+series#TaylorSeriesOfSmoothFunctionIsAsymptoticSeries)).
 
 
+## Fermat theory
+
+The notion of a [[Fermat theory]]
+makes Hadamard's lemma into an axiom.
+See there for more information.
+
 
 ## Related theorems
  {#RelatedTheorems}
