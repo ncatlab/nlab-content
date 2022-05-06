@@ -58,7 +58,7 @@ Clearly the conditions are necessary.  For the converse, the weak equivalences h
 
 Dually, if $C$ is a model category and we have an adjunction
 $$
-  (U \dashv G )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
+  (U \dashv G )\; : \; D \stackrel{\overset{G}{\leftarrow}}{\underset{U}{\to}} C
 $$
 with $U$ left adjoint, we define a morphism in $D$ to be
 
