@@ -82,6 +82,45 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
  
 ## Effects
 
+### First quantum correction to Newtonian $1/r$-potential
+ {#FirstQuantumCorrectionToNewtonianPotential}
+
+The first order quantum correction to the classical gravitational potential
+
+$$
+  V_{cl}(r) \;=\; - \frac{G m_1 m_2}{r} 
+$$
+
+between two bodies of [[mass]] $m_1$, $m_2$, respectively, may be computed unambiguously in [[perturbative quantum field theory|perturbative]] quantum gravity [Donoghue 95, Section 9](#Donoghue95).
+
+The result is a term of the form
+
+$$
+  V_{qu}(r) 
+  \;=\; 
+  V_{cl}(r)
+  \left( 
+    1
+    - \frac{135 + 2 N_\nu}{ 30 \pi^2}
+    \frac{G \hbar}{r^2 c^2}
+    +
+    \text{higher order}
+  \right)
+$$
+
+(where $N_\nu$ is the [[natural number|number]] of [[mass|massless]] [[neutrino]]-species, $G$ is the [[gravitational constant]], $c$ is the [[speed of light]] and $\hbar$ is [[Planck's constant]]).
+
+([Donoghue 95, (65)](#Donoghue95)
+
+Here for $r = 1$ [[fm]] we have
+
+$$
+  \frac{G \hbar}{r^2 c^2}\vert_{r = 1 fm}
+  \;\sim\;
+  10^{-38}
+  \,.
+$$
+
 ### Vacuum energy and Cosmological constant
 
 The [[renormalization]] freedom in [[perturbative QFT|perturbative]] [[quantization]] of gravity induces freedom in the choice of [[vacuum expectation value]] of the [[stress-energy tensor]] and hence in the [[cosmological constant]]. 
@@ -141,7 +180,7 @@ As a [[perturbative quantum field theory]], quantum gravity exists (usually thou
 
 * [[Martinus Veltman]], _Quantum theory of Gravitation_, In Les Houches 1975, Proceedings, Methods In Field Theory, (Amsterdam 1976) 265-327 ([[VeltmanQuantumnGravity76.pdf:file]], [spire](http://inspirehep.net/record/105735?ln=en))
 
-* {#DonoghueIntroduction} John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
+* {#Donoghue95} [[John Donoghue]], _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024), [spire](http://inspirehep.net/record/403510))
 
 * [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
 
