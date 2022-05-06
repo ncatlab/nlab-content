@@ -54,7 +54,7 @@ This discrepancy between [[theory (physics)|theory]] and [[experiment]] is (or w
 
 There are two potential resolutions to this problem: a) Either dark matter is more "exotic" than assumed in these simulations, such as being [[fuzzy dark matter]] or similar. Or, b), more mundanely, the existing simulations do not properly resolve a subtle effect shown already by more ordinary dark matter.
 
-Recent investigations support possibility b), indicating that the density cusps seen in previous simulations are but an artifact of overly simplified numerical models, and that would-be cusps are diluted and hence smoothed out by bursty star formation leading to dark matter heating ([Pontzen-Governato 14](#PontzenGovernato14), [Read-Walker-Steger-18](#ReadWalkerSteger18)) and/or by dynamical friction in the interstallar medium ([ESH 01](#ESH01)).
+Recent investigations support possibility b), indicating that the density cusps seen in previous simulations are but an artifact of overly simplified numerical models, and that would-be cusps are diluted and hence smoothed out by bursty star formation leading to dark matter heating ([Pontzen-Governato 14](#PontzenGovernato14), [Read-Walker-Steger-18](#ReadWalkerSteger18)) and/or by dynamical friction in the interstallar medium ([ESH 01](#ESH01)). See [Read 19](#Read19) for review.
 
 
 From [[Justin Read]] [22 Aug 2018](https://twitter.com/ReadDark/status/1032176578808168448) on [Read-Walker-Steger 18](#ReadWalkerSteger18):
@@ -176,6 +176,8 @@ Outlook on prospect of direct detection of dark matter, as of 2018:
 * [[Justin Read]], O. Agertz, M. L. M. Collins, _Dark matter cores all the way down_, Monthly Notices of the Royal Astronomical Society, Volume 459, Issue 3, 1 July 2016 ([arXiv:1508.04143](https://arxiv.org/abs/1508.04143))
 
 * {#ReadWalkerSteger18} [[Justin Read]], M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_, Monthly Notices of the Royal Astronomical Society  ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [doi:10.1093/mnras/sty3404](https://doi.org/10.1093/mnras/sty3404),  [talk recording](http://online.kitp.ucsb.edu/online/cdm-c18/read/), [press release](https://www.surrey.ac.uk/news/dark-matter-move))
+
+* {#Read19} [[Justin Read]], _[Dark matter heats up in dwarf galaxies](https://www.simonsfoundation.org/event/dark-matter-heats-up-in-dwarf-galaxies/)_, Simons Foundation Lecture 2019
 
 See also
 
