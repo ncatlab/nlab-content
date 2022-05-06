@@ -1,3 +1,4 @@
+[[!redirects Extended probabilistic powerdomain]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -69,6 +70,8 @@ This construction, especially the way the unit and multiplications are defined, 
 
 There are a number of monads that can be constructed as submonads of $V$. The [[monoidal functor|monoidal structure]] of $V$ is inherited by these submonads too, allowing the formation of joints and marginals.
 
+See also [[monads of probability, measures, and valuations#detailed_list|monads of probability, measures, and valuations - detailed list]].
+
 ### Normalized valuations
 
 If one restricts to _normalized_ valuations, i.e.~those $\nu\in V X$ with $\nu(X)=1$, one obtains a submonad of $V$ which can be thought of as the one of [[probability]] valuations. 
@@ -76,17 +79,41 @@ If one restricts to _normalized_ valuations, i.e.~those $\nu\in V X$ with $\nu(X
 
 ### The monad of measures on Top
 
-One can restrict $V$ only to those valuations which are [[valuation (measure theory)#extending_valuations_to_measures|extendable to measures]]. 
-Since extendable valuations are stable with respect to pushforwards and integrations, those measures, which are necessarily [[tau-smooth]], form a submonad of $V$, the **monad of measures on [[Top]]**.
+One can restrict $V$ only to those valuations which are [[valuation (measure theory)#extending_valuations_to_measures|extendable to measures]]. The resulting subspace $M X\subseteq V X$ (for every topological space $X$) is the space of [[tau-additive measures]] on $X$, with the subspace topology inherited by $V X$. For probability measure, this topology is sometimes known as the **A-topology**, after Alexandrov (not to be confused with the [[Alexandrov topology]], which is a different concept). The [[specialization preorder]] is again the [[stochastic order]]. 
+Since extendable valuations are stable with respect to pushforwards and integrations $M$ forms a submonad of $V$, the **monad of measures on [[Top]]**.
 
 More details can be found in [Fritz-Perrone-Rezagholi '19](#support), worked out explicitly for the normalized case (see below). 
+
+See also [[correspondence between measure and valuation theory]].
 
 ### The probability monad on Top
 
 If one restricts the previous monad to the $\tau$-smooth _probability_ measures (i.e. normalized), one obtains again a submonad, which seems to be the most general [[monad of probability measures]] on [[Top]]. 
 
-If a topological space is [[Tychonoff space|Tychonoff]] (for example a [[metric spaces]] or a [[compactum|compact Hausdorff space]]), the topology inherited by $V X$ coincides with the usual [[weak topology]] of measures with respect to continuous functions. 
+If a topological space is [[Tychonoff space|Tychonoff]] (for example a [[metric spaces]] or a [[compactum|compact Hausdorff space]]), the A-topology for probability measures coincides with the usual [[weak topology]] of measures with respect to continuous functions. 
 In particular, on the [[subcategory]] of [[compactum|compact Hausdorff spaces]], this monad restricts to the [[Radon monad]]. 
+
+### The monad of topological cones
+
+If one restrict to [[valuation (measure theory)#simple_valuations|simple valuations]], i.e. those that are linear combinations of deltas, one obtains again a submonad of $V$, which can be thought of as the free [[topological cone]] monad (or free internal $[0,\infty]$-[[module object]] monad). 
+
+### The monad of topological convex spaces
+
+If one further restricts to _normalized_ simple valuations, one obtains as submonad the free [[topological convex space]] monad.
+
+
+## Related concepts
+
+* [[monads of probability, measures, and valuations]]
+* [[monads in computer science]]
+
+* [[valuation (measure theory)]]
+* [[correspondence between measure and valuation theory]]
+
+* [[Giry monad]], [[Radon monad]], [[probabilistic powerdomain]], [[valuation monad on locales]], [[distribution monad]]
+
+* [[convex space]]
+
 
 
 ## References
