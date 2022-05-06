@@ -63,6 +63,25 @@ In fact, this is an instance of the general theory of representability for [[gen
 
 This correspondence also generalizes to the correspondence between arbitrary functors over $B$ and [[displayed categories]] over $B$, i.e. normal lax functors $B\to Prof$.
 
+## Fibrations versus presheaves of categories
+
+The [[Grothendieck construction]] is an equivalence of [[bicategories]]
+from the bicategory of presheaves of categories to the bicategory of Grothendieck fibrations.
+
+As explained there, this equivalence, interpreted as a functor between 1-categories,
+has both a left and a right adjoint (which are equivalent in the bicategorical context).
+Roughly speaking, the left adjoint strictifes a Grothendieck fibration
+by adding formal pullbacks of objects, which themselves pullback strictly,
+whereas the right adjoint strictifies a Grothendieck fibration
+by equipping object with a functorial choice of a pullback for each possible morphism.
+See [[Grothendieck construction]] for more details.
+
+These two adjunctions can be turned into [[Quillen equivalences]] of [[model categories]].
+This can be deduced, for example, from two [[Quillen equivalences]]
+between [[cartesian fibrations]] and [[presheaves]] of [[marked simplicial sets]]
+on the [[quasicategory]] given by the [[nerve]] of $C$.
+See [[straightening functor]] for more details.
+
 
 ## Remarks
 
