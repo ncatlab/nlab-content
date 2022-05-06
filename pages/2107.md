@@ -27,11 +27,7 @@ More recently, Leibniz algebras have been argued to clarify the nature of the [[
 Given a [[commutative unital ring]] $k$ (usually a [[field]]), a Lebniz $k$-algebra $A$ is a particular kind of [[nonassociative algebra]] over $k$ which is somewhat more general than a [[Lie algebra]] over $k$.
 
 A __left Leibniz $k$-algebra__ is $k$-[[module]] $L$ equipped with a bracket, which is a $k$-linear map $[,]:A\otimes A \to A$ satisfying the __left Leibniz identity__
-
-\[
-  \label{LeibnizRule}
-   [a, [b,c]] \;=\; [[a,b],c]+[b,[a,c]]
-\]
+$$\label{LeibnizRule} [a, [b,c]] = [[a,b],c]+[b,[a,c]]$$
 
 In other words, the left $ad$-map, $a \mapsto (ad_l a = [a,-]:L\to L)$ is a [[derivation]] of $L$ as a nonassociative algebra. Similarly, there are right Leibniz algebras, for which the right $ad$-map $ad_r :a\mapsto [-,a]:L\to L$ is a derivation. In the presence of antisymmetry, the left Leibniz identity is equivalent to the [[Jacobi identity]], though this is not true in general; thus a Lie algebra is precisely an antisymmetric (or alternating) Leibniz algebra.
 
@@ -46,9 +42,9 @@ Some people dislike the term (left/right) _Leibniz algebra_ (which is allegedly 
 
 ## Properties
 
-### As internal Lie algebras
+### Relation to Lie algebras in Loday-Pirashvili category
 
-Leibniz algebras are equivalenlty [[Lie algebra objects]] in the [[Loday–Pirashvili tensor category]] of [[linear maps]] with (exotic) "infinitesimal [[tensor product]]" ([Loday-Pirashvili 98](#LodayPirashvili98))
+There is a remarkable observation of Loday and Pirashvili that in the [[Loday–Pirashvili tensor category]] of linear maps with (exotic) "infinitesimal tensor product", the category of internal Lie algebras has the category of, say left, Leibniz $k$-algebras as a full subcategory.  
 
 
 
@@ -163,7 +159,7 @@ See also
 
 * Wikipedia, _[Leibniz algebra](https://en.wikipedia.org/wiki/Leibniz_algebra)_
 
-Relaization of Leibniz algebras as [[Lie algebra objects]] in the [[Loday-Piashvili category]]:
+Relaization of Leibniz algebras as [[Lie algebra objects]] in a suitable [[tensor category]]:
 
 * {#LodayPirashvili98} [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps and Leibniz algebras_, Georg. Math. J. vol. 5, n.3 (1998) 263--276 ([doi:10.1023/B:GEOR.0000008125.26487.f3](https://doi.org/10.1023/B:GEOR.0000008125.26487.f3))
 
