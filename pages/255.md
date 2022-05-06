@@ -58,7 +58,7 @@ $$
 $$
 commute (where certain [[coherence]] [[isomorphism]]s have been omitted).
 
-The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a **monoid** in the endomorphism category $K(a,a)$.  Alternatively, monads can be taken as more fundamental, and a monoid in a [[monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
+The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a [[monoid object]] in the endomorphism category $K(a,a)$.  Alternatively, monads can be taken as more fundamental, and a [[monoid in a monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
 
 A third and somewhat less obvious definition says that a monad in $K$ is a **[[lax 2-functor]]** from the terminal bicategory $1$ to $K$: the unique object $\ast$ of $1$ is sent to the object $a$, the morphism $1_a$ becomes $t$, and $\eta$ and $\mu$ arise from the coherent 2-cells expressing lax functoriality. This in turn is equivalent to saying that a monad is a [[category enriched in a bicategory]] with a single object and single morphism. Among higher-category theorists, it's tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, however, the earlier more elementary definitions are both practically and pedagogically essential.
 
@@ -112,7 +112,7 @@ $$
 ### Algebras/modules over a monad 
  {#Algebras}
 
-Given that a monad in a bicategory $\mathcal{B}$ is nothing but a [[monoid]] in a hom-category $\mathcal{B}(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a [[monoidal category]], however, since it need not live in $\mathcal{B}(a,a)$ but can be in $\mathcal{B}(b,a)$ (for left modules) or $\mathcal{B}(a,c)$ (for right modules).
+Given that a monad in a bicategory $\mathcal{B}$ is nothing but a [[monoid object]] in a hom-category $\mathcal{B}(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a [[monoidal category]], however, since it need not live in $\mathcal{B}(a,a)$ but can be in $\mathcal{B}(b,a)$ (for left modules) or $\mathcal{B}(a,c)$ (for right modules).
 
 In a [[Cat]]-like [[bicategory]], left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].  The algebras over a monad form its [[Eilenberg-Moore category]], which is characterized by a [[universal property]].
 
