@@ -158,6 +158,9 @@ A classification of axioms of variants of $ZFC$, with an eye towards correspondi
 [[!redirects Zermelo-Fraenkel]]
 [[!redirects Zermelo–Fraenkel]]
 [[!redirects Zermelo--Fraenkel]]
+[[!redirects Zermelo-Fraenkel axioms]]
+[[!redirects Zermelo–Fraenkel axioms]]
+[[!redirects Zermelo--Fraenkel axioms]]
 
 [[!redirects Zermelo set theory]]
 
