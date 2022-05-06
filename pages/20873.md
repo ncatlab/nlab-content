@@ -29,6 +29,8 @@ Here is an example of a horizontal chord diagram on 5 strands:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramOnFiveStrandsII.jpg" width="260">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 ## Defintions
 
 ### Set of horizontal chord diagrams
@@ -47,11 +49,15 @@ The following shows an example of the trace operation for [[cyclic permutation]]
 <img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagram.jpg" width="600">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 The following are the analogous traces of the four types of horizontal chord diagrams appearing in the [[4T relation]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="800">
 </center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 This defines a [[function]]
 
@@ -104,6 +110,8 @@ and the [[4T relations]]:
 </center>
 
 =--
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 In terms of the [[commutator]] [[Lie algebra]] of the [above](#AlgebraOfHorizontalChordDiagrams) algebra $\big( R\langle \mathcal{D}^{pb}\rangle, \circ \big)$ of horizontal chord diagrams, these are the [[infinitesimal braid relations]].
 
