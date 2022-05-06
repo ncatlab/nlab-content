@@ -16,12 +16,14 @@
 
 * [[MSp]]
 
-* [[algebraic cobordism]]
 
 relative bordism theories:
 
 * [[MOFr]], [[MUFr]], [[MSUFr]]
 
+algebraic:
+
+* [[algebraic cobordism]]
 
 [[equivariant bordism homology theory|equivariant bordism theory]]:
 
