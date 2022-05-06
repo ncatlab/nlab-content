@@ -967,6 +967,15 @@ The general notion of extensions of [[1-morphisms]] in [[2-categories]] is discu
 
 * {#Roald13} Seerp Roald Koudenburg, *Algebraic weighted colimits*, [arXiv](http://arxiv.org/abs/1304.4079)
  
+For the notion of (2-dimensional) (pointwise) bi-Kan extensions of pseudofunctors, see
+
+* Fernando Lucatelli Nunes, *On biadjoint triangles*, [TAC](http://tac.mta.ca/tac/volumes/31/9/31-09abs.html)
+
+* Fernando Lucatelli Nunes, *Pseudo-Kan extensions and descent theory*, [TAC](http://www.tac.mta.ca/tac/volumes/33/15/33-15abs.html)
+
+and its applications to the theory of flat ($2$-dimensional) functors can be seen in
+
+* M.E. Descotte, E.J. Dubuc, M. Szyld, *On the notion of flat 2-functors*, [Adv. Math](https://www.sciencedirect.com/science/article/abs/pii/S0001870818301968), arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
 [[!redirects Kan extension]]
 [[!redirects Kan extensions]]
