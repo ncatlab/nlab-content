@@ -65,6 +65,8 @@ $$
 
 * [[Albert algebra]]
 
+* [[split quaternions]]
+
 ## References
 
 * [[John Baez]], [[John Huerta]], _$G_2$ and the Rolling Ball_, Trans. Amer. Math. Soc., Vol. 366 No. 10 (2014), 5257-5293 ([arXiv:1205.2447](https://arxiv.org/abs/1205.2447))
