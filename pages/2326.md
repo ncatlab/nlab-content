@@ -69,7 +69,7 @@ Then, using methods of descent theory, Joyal and Tierney deduce that every Groth
 
 Recall that a [[geometric theory]] $\mathbb{P}$ over a signature with no sort symbols is called [[propositional theory|propositional]]. Such a signature can contain at most 0-ary relation symbols but lacks variables and, accordingly, $\mathbb{P}$ admits only sequents over the empty context consisting of nested conjunctions or (infinitary) disjunctions of such relation symbols - in other words, logic boils down to [[propositional logic]].
 
-Propositional theories have the pecularity that their classifying toposes always exist regardless of the availability of a [[natural numbers object]] in the base topos (cf. for details&references see at [[classifying topos]]).
+Propositional theories have the peculiarity that their classifying toposes always exist regardless of the availability of a [[natural numbers object]] in the base topos (cf. for details&references see at [[classifying topos]]).
 
 
 
@@ -81,15 +81,15 @@ Localic toposes correspond exactly to [[classifying topos|classifying toposes]] 
 
 This appears in Johnstone (2002, D3.1.14, p.897f.).
 
-Given a locale $L$, the **theory of completely prime filters** $\mathbb{P}_L$ has a 0-ary relation symbols $F_x$ for each $x\in L$, thought to express the proposition that $x$ is contained in the [[filter]] $F$, and the following sequents:
+Given a locale $L$, the **theory of completely prime filters** $\mathbb{P}_L$ has a 0-ary relation symbol $F_x$ for each $x\in L$, thought to express the proposition that $x$ is contained in the [[filter]] $F$, and the following sequents:
 
 * $\top\vdash F_1$ ,
 
 * $F_x\wedge F_y\vdash F_{x\wedge y}$ for all pairs $x,y\in L$,
 
-* $F_x\vdash \bigvee_{i\in I} F_{y_i}$ whenever $x=\bigvee_{i\in I}y_i$ is  in $L$.
+* $F_{\big (\bigvee_{i\in I} y_i\big )}\vdash \bigvee_{i\in I} F_{y_i}$ .
 
-In $Set$ models of $\mathbb{P}_L$ correspond precisely to completely prime filters i.e. the multiplicatively closed subsets of $L$ containing $1$ that are inaccessible by infinite joins ($(\bigvee y_i)\in F$ implies $y_i\in F$ for some $i$).
+In $Set$ models of $\mathbb{P}_L$ correspond precisely to completely prime filters i.e. the multiplicatively closed subsets of $L$ containing $1$ that are inaccessible by infinite joins ($(\bigvee y_i)\in F$ implies $y_i\in F$ for some $i$). Note in particular, that the properness $0\notin F$ of a completely prime filter $F$ is implicit in the third axiom schema with $I=\emptyset$.
 
 The relation between $L$ and $\mathbb{P}_L$ is that $Sh(L)\simeq Set[\mathbb{P}_L]$.
 
@@ -117,9 +117,9 @@ Notice that a [[locale]] is itself a (Grothendieck) [[(0,1)-topos]]. Hence a loc
 
 ## References
 
-Localic toposes are discussed around proposition 1.4.5 of section C.1.4 of 
+* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (chapter IX, p.472ff) 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] 2 vols._ , Oxford UP 2002. (In general around C.1.4.5 p.515f, cp filters at D1.1.7 p.816f, as classifying topos B4.2.12. p.431f, D1.1.14 p.897f.)
 
 [[!redirects Localic topos]]
 [[!redirects localic toposes]]
