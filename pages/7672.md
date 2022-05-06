@@ -546,6 +546,11 @@ The J-homomorphism was introduced in
 
 * {#Whitehead42} [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942) ([jstor:1968956](http://www.jstor.org/stable/1968956)).
 
+Textbook accounts:
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX 6.3 of: _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf), [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C))
+
+
 Lecture notes:
 
 * [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
