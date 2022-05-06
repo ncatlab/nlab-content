@@ -5,7 +5,7 @@
 
 On [[geometric engineering of quantum field theory]]:
 
-* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) [pdf](http://edoc.hu-berlin.de/dissertationen/physik/karch-andreas/PDF/Karch.pdf)
+* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) ([doi:10.18452/14371](https://doi.org/10.18452/14371))
 
 On [[geometric engineering of QFT|geometric engineering]] of [[flavour physics]] in [[intersecting D-brane models]] ([[AdS/QCD]]):
 
