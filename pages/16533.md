@@ -50,7 +50,20 @@ As [[black holes in string theory]]:
 
 * _A review of the D1/D5 system and five dimensional black hole from supergravity and brane viewpoint_ ([arXiv:hep-th/0002184](http://arxiv.org/abs/hep-th/0002184))
 
+### KK-reduction  to JT gravity
+
+Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravity]] on the [[worldvolume]] of [[D1-D5 brane bound states]] or [[M2-M5 brane bound states]]:
+
+* Yue-Zhou Li, Shou-Long Li, H. Lu, _Exact Embeddings of JT Gravity in Strings and M-theory_, Eur. Phys. J. C (2018) 78: 791 ([arXiv:1804.09742](https://arxiv.org/abs/1804.09742))
+
+* Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
+
+
+
 [[!redirects D1-D5 brane bound states]]
+
+[[!redirects D1/D5 brane bound state]]
+[[!redirects D1/D5 brane bound states]]
 
 [[!redirects D1-D5 brane system]]
 
