@@ -22,7 +22,7 @@ as follows:
 +-- {: .un_prop}
 ###### Tangle Hypothesis
 
-The $n$-category of framed $n$-tangles in $n+k$ dimensions is $(n+k)$-equivalent
+The $n$-category of framed $n$-[[tangles]] in $n+k$ dimensions is $(n+k)$-equivalent
 to the free weak $k$-tuply monoidal $n$-category with duals on one object.
 =--
 
