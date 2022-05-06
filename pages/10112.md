@@ -172,7 +172,9 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[Skyrmion]]
 
-* [[hadron supersymmetry]]
+* [[hadron supersymmetry]], [[hadron Kaluza-Klein theory]]
+
+  * [[flavor brane]]
 
 * [[confinement]]
 
