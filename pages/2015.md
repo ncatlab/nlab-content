@@ -5,7 +5,7 @@
 
 ## Definition
 
-A [[topological space]] $X$ is called __irreducible__ if it can not be expressed as [[union]] of two proper [[closed subsets]], or equivalently if any two [[inhabited set|inhabited]] [[open subsets]] have inhabited intersection. 
+A [[topological space]] $X$ is called __irreducible__ if it cannot be expressed as [[union]] of two proper [[closed subsets]], or equivalently if any two [[inhabited set|inhabited]] [[open subsets]] have inhabited intersection. 
 
 A subset $S$ of a topological space $X$ is an __irreducible subset__ if $S$ is an irreducible topological space with the [[subspace topology]]. 
 
