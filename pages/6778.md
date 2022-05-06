@@ -20,7 +20,13 @@
 
 ## Definition
 
-In the [[2-topos]] [[Cat]], the pair of classes of [[morphisms]] ([[essentially surjective functor|essentially surjective]] and [[full functor|full]] functors, [[faithful functors]]) form a [[factorization system in a 2-category]].  This factorization system can also be restricted to the [[(2,1)-topos]] [[Grpd]].
+In the [[2-topos]] [[Cat]], the [[pair]] of [[classes]] of [[morphisms]] 
+
+* left class: [[essentially surjective and full functors]]
+
+* right class: [[faithful functors]] 
+
+forms a [[factorization system in a 2-category]].  This factorization system can also be restricted to the [[(2,1)-topos]] [[Grpd]].
 
 In fact, an analogous factorization system exists in any [[2-exact 2-category]] and any [[(2,1)-exact (2,1)-category]], including any [[Grothendieck 2-topos]] or [[(2,1)-topos]]; see [[michaelshulman:full morphism|here]].
 
