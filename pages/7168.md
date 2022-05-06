@@ -113,7 +113,7 @@ See also
 
 * Wikipedia, _[Quadratic form](https://en.wikipedia.org/wiki/Quadratic_form)_
 
-* Wikipedia, _[Definitine quadratic form](https://en.wikipedia.org/wiki/Definite_quadratic_form)_
+* Wikipedia, _[Definite quadratic form](https://en.wikipedia.org/wiki/Definite_quadratic_form)_
 
 
 [[!redirects quadratic form]]
