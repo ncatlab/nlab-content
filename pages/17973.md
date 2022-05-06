@@ -87,9 +87,12 @@ In [[intersecting D-brane models]] [[Yukawa couplings]] are encoded by [[worldsh
 
 realistic [[Yukawa couplings]] are considered in [Mayes 19](#Mayes19)
 
-### Higgs mechanism
+\linebreak
 
-The [[Higgs mechanism]] naturally arises in intersecting D-brane models: The [[Higgs field]] appears as the scalar field that witnesses in [[perturbative quantum field theory|perturbation theory]] the process of _brane recombination_ at the intersecting points of the D-branes ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
+### Higgs mechanism
+ {#HiggsMechanism}
+
+The [[Higgs mechanism]] naturally arises in [[intersecting D-brane models]]: The [[Higgs field]] appears here as the [[scalar field]] that witnesses in [[perturbative quantum field theory|perturbation theory]] the process of _brane recombination_ at the intersection locus of the D-branes ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
 
 <img src="https://ncatlab.org/nlab/files/BraneRecombination.png" width="600"/>
 
@@ -97,6 +100,8 @@ The [[Higgs mechanism]] naturally arises in intersecting D-brane models: The [[H
 See also [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
 
 <img src="https://ncatlab.org/nlab/files/BraneRecombinationII.jpg" width="600"/>
+
+\linebreak
 
 ### RR-Tadpole cancellation and Orientifolding
  {#Orientifolding}
