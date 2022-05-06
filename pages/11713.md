@@ -12,8 +12,26 @@ From [Drew Armstrong](https://plus.google.com/103061162497127117651/posts/f4HHK1
 
 > (Translation from Michael Crowe, _A History of Vector Analysis_)
 
-Grassmann's ideas were then finally picked up by [[William Kingdon Clifford]] who turned Grassmann algebras into _[[Clifford algebras]]_ in 
+Grassmann's ideas were finally studied in
+
+* Hermann Hankel, _Vorlesungen über die Complexen Zahlen und ihre Functionen_, Leipzig: Leopold Voss, 1867. 
+
+His ideas were developed by [[William Kingdon Clifford]] who turned Grassmann algebras into _[[Clifford algebras]]_ in 
 
 * [[William Clifford]], _Applications of Grassmann's extensive algebra_, American Journal of Mathematics 1 (4): 350&#8211;358. (1878). doi:[10.2307/2369379](https://doi.org/10.2307/2369379). 
+
+Grassmann also had a profound influence on the thought of Frege. See Sec. 2.1.1 of
+
+* Paolo Mancosu, _Abstraction and infinity_, Oxford University Press, 2017.
+
+### Writings
+
+* Hermann Grassmann, _Die Lineale Ausdehnungslehre ein neuer Zweig der Mathematik, dargestellt und durch Anwendungen auf die übrigen Zweige der Mathematik, wie auchauf die Statik, Mechanik, die Lehre vom Magnetismus und die Krystallonomie erläutert_, Leipzig: Otto Wiegand, 1844. English translation in Grassmann 1915.
+
+* Hermann Grassmann, _Geometrische Analyse geknüpft an die von Leibniz erfundenegeometrische Charakteristik. Gekrönte Preisschrift, Leipzig: Wiedmann, 1847. English translation in Grassmann 1915.
+
+* Hermann Grassmann, _Lehrbuch der Arithmetik für höhere Lehranstalten_, Berlin: Enslin, 1861.
+
+* Hermann Grassmann, _A New Branch of Mathematics. The Ausdehnungslehre of 1844 and Other Works_, edited and translated by L. C. Kannenberg, Chicago: Open Court, 1915.
 
 category: people
