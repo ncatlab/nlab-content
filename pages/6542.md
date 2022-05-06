@@ -46,6 +46,12 @@ $$
 
 ...
 
+## Related concepts
+
+* [[Pontryagin class]], [[Stiefel-Whitney class]], [[Wu class]]
+
+* [[one-loop anomaly polynomial]]
+
 ## References
 
 Review includes
