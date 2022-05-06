@@ -130,7 +130,7 @@ Discussion of modal operators explicitly in [[dependent type theory]] (and with 
 
 * Daniel Gratzer, _Implementing Modal Dependent Type Theory_, talk at [ICFP 19](https://icfp19.sigplan.org/) ([slides pdf](https://jozefg.github.io/papers/2019-icfp-modal-slides.pdf))
 
-* Daniel Gratzer, G. A. Kavvos, A. Nuyts, and [[Lars Birkedal]], _Multimodal Dependent Type Theory_, [PDF](https://jozefg.github.io/papers/multimodal-dependent-type-theory.pdf) 2020
+* Daniel Gratzer, G. A. Kavvos, A. Nuyts, and [[Lars Birkedal]], _Multimodal Dependent Type Theory_, [arXiv:2011.15021](https://arxiv.org/abs/2011.15021)
 
 A survey of the field of modal type theory is in the collections
 
