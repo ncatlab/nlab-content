@@ -89,7 +89,9 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[manifold with boundary]]
 
-* [[MUFr]]
+* [[MUFr]], [[(U,fr)-manifolds]]
+
+* [[rational Todd class is Chern character of Thom class]]
 
 * [[e-invariant]]
 
