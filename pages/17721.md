@@ -39,7 +39,7 @@ Such induction-induction occurs for instance when formalising [[dependent type t
 
 ## Results ##
 
-Inductive-inductive types are related to [[inductive-recursive types]]. Importantly, inductive-inductive types have an initial algebra semantics with respect to [[dialgebras]]. In [Forsberg's thesis](#ForsbergThesis) inductive-inductive types are reduced to [[indexed inductive types]] in the setting of extensional type theory. This reduction however only provides non-dependent elimination rules. Indexed inductive types in turn can be reduced to [[W-types]] in extensional type theory. See [[inductive families]].
+Inductive-inductive types are related to [[inductive-recursive types]]. Importantly, inductive-inductive types have an initial algebra semantics with respect to [[dialgebras]]. In [Forsberg's thesis](#ForsbergThesis) inductive-inductive types are reduced to [[indexed inductive types]] in the setting of extensional type theory. This reduction however only provides "simple" elimination rules (not to be confused with _simply typed_). Indexed inductive types in turn can be reduced to [[W-types]] in extensional type theory. See [[inductive families]].
 
 The consistency of the framework used for the elimination (e.g. in the [[theorem prover]] [[Agda]]) is not so clear, as it allows the definition of a universe containing a code for itself. There is an axiomatisation of the new principle in such a way that the resulting type theory is consistent, as proved by constructing a set-theoretic model; see [Forsberg-Setzer 10](#ForsbergSetzer10).
 
