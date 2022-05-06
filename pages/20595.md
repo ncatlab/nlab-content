@@ -123,7 +123,7 @@ $$
 1 \overset{\lambda^{-1}}\longrightarrow 1 \otimes 1 \overset{s \otimes s'}\longrightarrow Fn \otimes Fm \overset{\phi_{n,m}}\longrightarrow F(n+m) \overset{F[j_n,j_m]}\longrightarrow F(n +_y m).
 $$
 
-where $1 \overset{s}\to Fn$ and $1 \overset{s'}\to Fn$ are decorations of the first and second cospan, respectively.
+where $1 \overset{s}\to Fn$ and $1 \overset{s'}\to Fm$ are decorations of the first and second cospan, respectively.
 =--
 +-- {: .proof}
 ###### Proof
