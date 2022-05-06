@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -61,25 +62,31 @@ $$
 
 one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(BG)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. There is a closed formula at least for the [[first Chern class]] ([Atiyah 61, appendix](#Atiyah61)):
 
-For 1-dimensional representations $V$ the [[first Chern class]] of $\widehat{V}$ is just the canonical isomorphism of 1-dimensional characters with [[group cohomology]] of $G$ and then with [[ordinary cohomology]] of the [[classifying space]] $B G$
+For 1-dimensional representations $V$ their [[first Chern class]]  $c_1(\widehat{V}) \in H^2(B G, \mathbb{Z})$ is their image under the canonical isomorphism from 1-dimensional characters in $Hom_{Grp}(G,U(1))$ to the [[group cohomology]] $H^2_{grp}(G, \mathbb{Z})$ and further to the [[ordinary cohomology]] $H^2(B G, \mathbb{Z})$ of the [[classifying space]] $B G$:
 
 $$
   c_1\left(\widehat{(-)}\right)
   \;\colon\;
-  Hom(G, U(1))
+  Hom_{Grp}(G, U(1))
   \overset{\simeq}{\longrightarrow}
   H^2_{grp}(G,\mathbb{Z})
-  \simeq
+  \overset{\simeq}{\longrightarrow}
   H^2(B G, \mathbb{Z})
-  \,,
-$$
-
-while for any $n$-dimensional representation $V$ the first Chern class is this isomorphism applied to the $n$th [[exterior power]] $\wedge^n V$ of $V$ (which is a 1-dimensional representation, namely the "[[determinant line bundle]]" of $\widehat{V}$, to which the previous definition of $c_1$ applies):
-
-$$
-  c_1(V) = c_1(\wedge^n V)
   \,.
 $$
+
+More generally, for $n$-dimensional representations $V$ their first Chern class $c_1(\widehat V)$ is the previously defined first Chern-class of the [[line bundle]] $\widehat{\wedge^n V}$ corresponding to the  $n$-th [[exterior power]] $\wedge^n V$ of $V$. The latter is a 1-dimensional representation, corresponding to the [[determinant line bundle]] $det(\widehat{V}) = \widehat{\wedge^n V}$:
+
+$$
+  c_1(\widehat{V}) 
+    \;=\; 
+  c_1(det(\widehat{V})) 
+    \;=\; 
+  c_1( \widehat{\wedge^n V} )
+  \,.
+$$
+
+$\,$
 
 #### Equivariant $KO$ and the real representation ring
 
