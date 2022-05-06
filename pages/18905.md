@@ -237,7 +237,14 @@ In application to [[black hole thermodynamics]]:
 
 * [Fulling-Ruijsenaars 87, section 4](#FullingRuijsenaars87)
 
+* {#GibbonsPerry78} [[Gary Gibbons]], Malcolm J. Perry, _Black Holes and Thermal Green Functions_, Vol. 358, No. 1695 (1978) ([jstor:79482](https://www.jstor.org/stable/79482))
+
 * {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, section F4.4 of _Introduction to black hole physics_, Oxford 2011
+
+Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]] (which is already periodic in _real_ time) is in
+
+* {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
+
 
 See also
 
