@@ -20,9 +20,21 @@
 
 ## Idea
 
-What came to be called the _Schwinger effect_ ([Sauter 31](#Sauter31), [Heisenberg-Euler 36](#HeisenbergEuler36), [Schwinger 51](#Schwinger51), [Affleck-Manton 82](#AffleckManton82), [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82)) is a [[non-perturbative effect]] of [[vacuum polarization]] expected in [[quantum electrodynamics]], where a strong [[electric field]] causes [[electron]]/[[positron]]-[[pairs]] to appear out of the [[vacuum]]. 
+\begin{imagefromfile}
+    "file_name": "VacuumPairCreation.jpg",
+    "float": "right",
+    "width": 200,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": -20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Hebenstreit 14](#Hebenstreit14)"
+\end{imagefromfile}
 
-The analogous effect in [[quantum chromodynamics]] would lead to [[deconfinement]] of [[quarks]] in a strong [[electric field]].
+What came to be called the _Schwinger effect_ ([Sauter 31](#Sauter31), [Heisenberg-Euler 36](#HeisenbergEuler36), [Schwinger 51](#Schwinger51), [Affleck-Manton 82](#AffleckManton82), [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82)) is a [[non-perturbative effect]] of [[vacuum polarization]] expected in [[quantum electrodynamics]], where a strong [[electric field]] causes [[electron]]/[[positron]]-[[pairs]] to appear out of the [[vacuum]].  The analogous effect in [[quantum chromodynamics]] would lead to [[deconfinement]] of [[quarks]] in a strong [[electric field]].
 
 While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric field strengths are so large. But recent experiments get close to the required intensities ([Dunne 09](#Dunne09)).
 
@@ -30,7 +42,7 @@ While the effect is clearly predicted by established [[theory (physics)|theory]]
 
 ## The field strengths
 
-We consider $(\vec E, \vec B)$ be a constant [[electromagnetic field]] on 4d [[Minkowski spacetime]] in a given Lorentz frame. 
+We consider $(\vec E, \vec B)$ a [[constant function|constant]] [[electromagnetic field]] on 4d [[Minkowski spacetime]] in a given Lorentz frame. 
 
 Write
 
@@ -557,7 +569,7 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 
 * Hidetoshi Taya, _Mutual assistance between the Schwinger mechanism and the dynamical Casimir effect_ ([arXiv:2003.12061](https://arxiv.org/abs/2003.12061))
 
-* Florian Hebenstreit, _A space-time resolved view  of the Schwinger effect_, Frontiers of intense laser physics – KITP 2014 ([[HebenstreitSchwingerEffect2014.pdf:file]])
+* {#Hebenstreit14} Florian Hebenstreit, _A space-time resolved view  of the Schwinger effect_, Frontiers of intense laser physics – KITP 2014 ([[HebenstreitSchwingerEffect2014.pdf:file]])
 
 Discussion in [[cosmic inflation|inflationary]] [[cosmology]]:
 
