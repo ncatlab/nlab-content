@@ -4,6 +4,8 @@ Faster and even scalable solutions are now in works.
 We first describe improvements on Bitcoin and Ethernet 
 networks in the form of lightning and plasma networks on top of those, and then various projects which claim to be scalable, "3rd generation" etc. Essential improvements are various algorithms trying to go beyond linearity of classical blockchain projects, especially those relying on DAGs (directed acyclic graphs) and on so called sharding. As far as consensus algorithms there are scalability improvements with many new algorithms, while PoW is in a way most secure (for public blockchains). 
 
+While mining is computationally intensive it is considered that the optimizations with use of GPU and ASIC hardware are bad forces of centralization (not to mention unhealthy and energy consuming chase for success with single purpose hardware). It is considered better to use computational resources for more useful work like validation of smart contracts, security of computation, cryptographic tools for privacy protection and so on. With FPGA the situation is a little better, and some FPGA are claimed to be useful for smart contract processing and alike, see [here](https://www.embedded.com/electronics-blogs/say-what-/4461708/FPGA-based-frameworks-speed-blockchain-processing) there are also Chaincode [[virtual machine]]-specific ASICs by [accelor.io](https://accelor.io).
+
 ### Lightning network
 
 Bitcoin solves some of the problems with   so called lightning network on top of it, which makes temporary transactions with lots of intermediate transfers only off chain and only small footprint on the main chain, ensuring small price of transactions. 
@@ -65,6 +67,16 @@ and selection of [news](https://redbellyblockchain.io/Press.html). The academic 
 * Derek Leung, Adam Suhl, Yossi Gilad, Nickolai Zeldovich (MIT CSAIL), _Vault: fast bootstrapping for cryptocurrencies_, Jan 2019, preprint [pdf](http://people.csail.mit.edu/nickolai/papers/leung-vault-eprint.pdf)
 * [news.mit.edu:faster-more-efficient-cryptocurrency](https://news.mit.edu/2019/vault-faster-more-efficient-cryptocurrency-0124)
 
+### Algorand
+
+[Algorand](https://www.algorand.com) project, founded by a group at MIT lead by S. Micali, claims 1000 tps and latency of only 5 seconds in a setup with 10000 participants and 500 nodes on testnet world wide. It got 62 M dollars equity funding in 2018 ([news](https://www.the-blockchain.com/2018/10/24/algorand-announces-62m-in-funding-and-appoints-new-executive-team)) and is issuing Algos coins in auction in June 2019, [news](https://www.the-blockchain.com/2019/06/06/mit-professor-silvio-micalis-algorand-foundation-announces-date-for-first-auction). Undergone security audits from Trail of Bits and NCC. While the first prototype in 2016 has been coded in C++, the full implementation is in Golang, see [github](https://github.com/algorand/go-algorand). The underlying algorithms are described in 
+
+* Yossi Gilad, Rotem Hemo, Silvio Micali, Georgios Vlachos, Nickolai Zeldovich (MIT CSAIL), _Algorand: scaling Byzantine agreements for cryptocurrencies_, [pdf](https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf)
+* Jing Chen, Silvio Micali, _Algorand_, [arxiv/1607.01341](https://arxiv.org/abs/1607.01341)
+* github/[algobet/kirin](https://github.com/algobet/kirin) - Official javascript framework of the Digital Asset Platform (DAP) protocol atop the POS/POR consensus mechanism. Kirin is the Quarkonium's first generation constitutional protocols deeply built with the Algorand blockchain
+* S. Gorbounov, _Algorand releases first open-source code: verifiable random function_, [medium](https://medium.com/algorand/algorand-releases-first-open-source-code-of-verifiable-random-function-93c2960abd61)
+* _Announcing full open source availability of the Algorand blockchain_ june 12, 2019 [medium](https://medium.com/algorand/announcing-full-open-source-availability-of-the-algorand-blockchain-4585f1329348)
+
 
 ### Other projects which claim to be very fast or scalable
 
@@ -73,6 +85,9 @@ and selection of [news](https://redbellyblockchain.io/Press.html). The academic 
 * [[EOS]] is a high performance blockchain using [[WebAssembly]] [[virtual machine]] for [[smart contract]]s. [eos.io](https://eos.io) claims speeds up to 300000 TPS.  [eos.io](https://eos.io) claims speeds up to 300000 TPS. EOS technical white paper v2 (March 2018) is at github, [md](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md). 
 * NEO "smart economy" [neo.org](http://neo.org) claims 1000-10000 TPS with plans to go to 100000 in 2020
 * Ripple [XRP](https://ripple.com/xrp) blockchain has over 1700 TPS in regular usage. They claim to test speeds up to 50000
+* [devv](https://devv.io/pages/tech) algorithm of [devv.io](https://devv.io) uses massive sharding and the claims are to test-support up to 8 million TPS (Jan 2019) [news](https://currencyjournals.com/blockchain/start-up-devvio-claims-its-blockchain-can-handle-8m-transactions-a-second-computerworld), [whitepaper](https://cdn.shopify.com/s/files/1/0009/0079/2378/files/2018-09-12_Devv_Whitepaper.pdf?1984954902434967058) "Devvio’s approach emphasizes maintaining only representations of value on the blockchain, with non-essential processing occurring off-chain"
+* [mimblewimble](https://mimblewimble.support) cryptocurrency protocol is focused on privacy and also created to be pretty scalable and very secure (even in comparison to bitcoin) with less computer power for PoW, while more suitable for GPUs than ASICs. There are two leading implementations, [Grin](https://grin-tech.org) and [Beam](https://www.beam.mw). Grin is coded in [[Rust]], see [github](https://github.com/mimblewimble/grin).
+* [thundercore](https://www.thundercore.com) (see also description at [medium](https://medium.com/boxmining/thundercore-explained-breakthrough-scaling-for-ethereum-dapps-8cfb942331ce)) is EVM-compatible blockchain with some claims on scalability
 
 There is a theoretical proposal to scale up by 3 
 orders of magnitude by the BlockReduce algorithm "which only segments consistency". The paper shortly reflects on other approaches
