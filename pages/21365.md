@@ -25,13 +25,13 @@ Original articles:
 
 Higher order terms:
 
-* José Antonio Oller, Michela Verbeni, Joaquim Prades, _Meson-baryon effective chiral Lagrangians to $\mathcal{O}(q^3)$_,  Journal of High Energy Physics, Volume 2006, JHEP09(2006) ([doi:10.1088/1126-6708/2006/09/079](https://iopscience.iop.org/article/10.1088/1126-6708/2006/09/079))
+* José Antonio Oller, Michela Verbeni, Joaquim Prades, _Meson-baryon effective chiral Lagrangians to $\mathcal{O}(q^3)$_,  Journal of High Energy Physics, Volume 2006, JHEP09(2006) ([arXiv:hep-ph/0608204](https://arxiv.org/abs/hep-ph/0608204), [doi:10.1088/1126-6708/2006/09/079](https://iopscience.iop.org/article/10.1088/1126-6708/2006/09/079))
 
 
 * Matthias Frink, [[Ulf-G. Meissner]], _On the chiral effective meson-baryon Lagrangian at third order_, Eur. Phys. J. A29:255-260, 2006 ([arXiv:hep-ph/0609256](https://arxiv.org/abs/hep-ph/0609256))
 
 
-* Jose Antonio Oller, Joaquim Prades, Michela Verbeni, _Meson-Baryon Effective Chiral Lagrangians at $\mathcal{O}(q^3)$ Revisited_ ([arXiv:hep-ph/0701096](https://arxiv.org/abs/hep-ph/0701096))
+* Jose Antonio Oller, Joaquim Prades, Michela Verbeni, _Meson-Baryon Effective Chiral Lagrangians at $\mathcal{O}(q^3)$ Revisited_ ([arXiv:hep-ph/0701096](https://arxiv.org/abs/hep-ph/0701096), [spire:742291](https://inspirehep.net/literature/742291))
 
 
 See also:
