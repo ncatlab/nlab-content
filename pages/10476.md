@@ -90,9 +90,9 @@ A _cellular fixed point functor_ on $\mathcal{C}$ is ...
 
 The [[fixed point spaces]]-functors on the following kinds of model categories are cellular
 
-* the standard [[model structure on topological spaces]];
+* the [[classical model structure on topological spaces]];
 
-* the standard [[model structure on simplicial sets]];
+* the [[classical model structure on simplicial sets]];
 
 * the global [[model structure on simplicial presheaves]] over any small category;
 
@@ -170,6 +170,14 @@ $$
 
 * [[Bredon cohomology]]
 
+* [[equivariant rational homotopy theory]]
+
+  * [[model structure on equivariant connective dgc-algebras]]
+
+  * [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]]
+
+  * [[fundamental theorem of dgc-algebraic equivariant rational homotopy theory]]
+
 ## References
 
 Lecture notes include
@@ -225,3 +233,9 @@ Generalization to $I$-orbits for a small category $I$ is in
 * {#Chorny13} [[Boris Chorny]], _Homotopy  theory  of  relative  simplicial  presheaves_,  Israel J. Math. 205 (2015), no. 1, 471–484, ([arXiv:1310.2932](https://arxiv.org/abs/1310.2932))
 
 [[!redirects Elmendorf theorem]]
+
+[[!redirects model structure on equivariant simplicial sets]]
+[[!redirects model structures on equivariant simplicial sets]]
+
+[[!redirects model structure on topological G-spaces]]
+[[!redirects model structures on topological G-spaces]]
