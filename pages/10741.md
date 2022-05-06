@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-Hence for $\omega_n, \beta_{2n}$ generators of the [[cohomology groups]] in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $HI(f)$ which expresses the [[cup product]] square of $\omega_n$ as a multiple of $\beta_{2n}$:
+Hence for $\alpha_n, \beta_{2n}$ generators of the [[cohomology groups]] in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $HI(f)$ which expresses the [[cup product]] square of $\omega_n$ as a multiple of $\beta_{2n}$:
 
 \[
   \label{HopfInvariantFormula}
