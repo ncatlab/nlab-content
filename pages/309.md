@@ -22,6 +22,8 @@
 
 A **finitely complete category** (which the [[Elephant]] calls a **[[cartesian category]]** ) is a [[category]] $C$ which admits all __[[finite limit]]s__, that is all [[limit|limits]] for any [[diagrams]] $F: J \to C$ with $J$ a [[finite category]].  Finitely complete categories are also called **lex categories**.  They are also called (at least by Johnstone in the [[Elephant]]) **cartesian categories**, although this term more often means a [[cartesian monoidal category]].
 
+Small finitely complete categories form a [[2-category]], [[Lex]].
+
 ## Variants
 
 There are several well known reductions of this concept to classes of special limits. For example, a category is finitely complete if and only if:
