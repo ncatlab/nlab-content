@@ -362,7 +362,7 @@ See
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
 
-* [[Charles Ehresmann]], _Cat&#233;gories topologiques et cat&#233;gories diff&#233;rentiables_ Colloque de G&#233;ometrie Differentielle Globale (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
+* [[Charles Ehresmann]], _Cat&#233;gories topologiques et cat&#233;gories diff&#233;rentiables_, Colloque de G&#233;ometrie Differentielle Globale (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
 
 Reviews and developments of the theory of Lie groupoids include
 
@@ -376,7 +376,7 @@ Reviews and developments of the theory of Lie groupoids include
 
 Discussion in the context of [[foliation theory]] ([[foliation groupoids]]) is in 
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]] _Introduction to Foliations and Lie Groupoids_ , Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003)
+* {#MoerdijkMrcun03} [[Ieke Moerdijk]], [[Janez Mrčun]] _Introduction to Foliations and Lie Groupoids_, Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, 2003  ([doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450))
 
 The relation to [[differentiable stacks]] is discussed/reviewed in section 2 of
 
