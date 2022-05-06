@@ -21,11 +21,23 @@
 
 ## Overview
 
-**Pregroup grammar** is a mathematical model of natural language grammar introduced by [[Lambek]], it is part of the [[categorial grammar]] tradition.
+**Pregroup grammar** is a mathematical model of natural language grammar introduced by [Lambek (1999)](#Lambek99), it is part of the [[categorial grammar]] tradition.
 
 ## Pregroups
 
-As defined in [Lambek 1999](#Lambek99), [Lambek 2008](#Lambek08), a **pregroup** is a [[partial order|partially-ordered]] [[monoid]] $(P, \leq, \cdot, 1)$ such that every object $t \in P$ has [[category with duals|left- and right-adjoints]] $t^l, t^r \in P$.
+A **preordered monoid** is a tuple $(P, \leq, \cdot, 1)$ where $(P, \leq)$ is a [[preorder]] and $(P, \cdot, 1)$ is a [[monoid]] such that the multiplication is monotone, i.e.
+
+* $a \leq c \wedge b \leq d \implies a \cdot b \leq c \cdot d \quad$ (monotony)
+
+or equivalently:
+
+* $b \leq d \implies a \cdot b \cdot c \leq a \cdot d \cdot c \quad$ (substitution)
+
+for all $a, b, c, d \in P$. A **pomonoid** is a preordered monoid that is furthermore a [[poset]], i.e.
+
+* $a \leq b \leq a \implies a = b \quad$ (antisymmetry)
+
+A **pregroup** is a pomonoid such that every object $t \in P$ has [[category with duals|left- and right-adjoints]] $t^l, t^r \in P$.
 Explicitly we have the following four axioms:
 
 * $t^l  t \leq 1, \quad t t^r \leq 1 \quad$ (contraction)
@@ -35,7 +47,7 @@ In other words, a pregroup is a [[rigid monoidal category]] which is [[thin cate
 Note that a commutative pregroup is simply a [[group]].
 Here are a few variants of pregroups that appear in the literature, see [Coecke 2013](#Coecke13):
 
-* If we drop the anti-symmetry axiom for [[posets]], we get a **quasi-pregroup**,
+* If we drop the anti-symmetry axiom for [[posets]], we get a **quasi-pregroup**. These are useful as they avoid the equality $a \leq a \cdot a^l \cdot a \leq a \implies a = a \cdot a^l \cdot a$ for all $a \in P$.
 * If we drop the two expansion axioms, we get a **protogroup**.
 
 ### Free pregroups and the switching lemma
@@ -45,7 +57,6 @@ For a basic type $b \in B$, iterated adjoints $\dots, b^{ll}, b^l, b, b^r, b^{rr
 The following lemma makes the parsing problem for free pregroups decidable --- i.e. given a sentence type $s \in P_B$ and the types for a sequence of words $t_1, \dots, t_n \in P_B$, is $t_1 \dots  t_n \leq s$?
 
 **Switching lemma ([Lambek 1999](#Lambek99)):** For any pair of types $t, t' \in P_B$, if $t \leq t'$ then there is a type $t'' \in P_B$ such that $t \leq t''$ without expansions and $t'' \leq t'$ without contractions, i.e. free protogroups recognise the same language as free pregroups.
-
 
 ### From pregroups to compact 2-categories
 
@@ -144,20 +155,20 @@ Another approach to adapt the pregroup grammar formalism to mildly context-sensi
 
 ## References
 
-* {#Lambek99} Joachim Lambek, _Type Grammar Revisited_, Logical Aspects of Computational Linguistics (1999) 
+* {#Lambek99} [[Joachim Lambek]], _Type Grammar Revisited_, Logical Aspects of Computational Linguistics (1999) 
 
-* {#Preller05} Anne Preller, _Category Theoretical Semantics for Pregroup Grammars_, Logical Aspects of Computational Linguistics, 5th International Conference, LACL 2005 ([pdf](https://www.researchgate.net/publication/220718685_Category_Theoretical_Semantics_for_Pregroup_Grammars))
+* {#Preller05} [[Anne Preller]], _Category Theoretical Semantics for Pregroup Grammars_, Logical Aspects of Computational Linguistics, 5th International Conference, LACL 2005 ([pdf](https://www.researchgate.net/publication/220718685_Category_Theoretical_Semantics_for_Pregroup_Grammars))
 
-* {#PrellerLambek07} Anne Preller, Joachim Lambek, _Free Compact 2-Categories_, Mathematical Structures in Computer Science, Cambridge University Press (CUP), 2007 ([pdf](https://hal-lirmm.ccsd.cnrs.fr/lirmm-00137681v2/document))
+* {#PrellerLambek07} [[Anne Preller]], [[Joachim Lambek]], _Free Compact 2-Categories_, Mathematical Structures in Computer Science, Cambridge University Press (CUP), 2007 ([pdf](https://hal-lirmm.ccsd.cnrs.fr/lirmm-00137681v2/document))
 
-* {#Lambek08} Joachim Lambek, _From Word to Sentence: A Computational Algebraic Approach to Grammar_, Polimetrica 2008 ([pdf](http://www.math.mcgill.ca/barr/lambek/pdffiles/2008lambek.pdf))
+* {#Lambek08} [[Joachim Lambek]], _From Word to Sentence: A Computational Algebraic Approach to Grammar_, Polimetrica 2008 ([pdf](http://www.math.mcgill.ca/barr/lambek/pdffiles/2008lambek.pdf))
 
-* {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
+* {#BuszkowskiMoroz08} [[Wojciech Buszkowski]], [Katarzyna Moroz]], _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
 
-* {#Coecke13} Bob Coecke, _An alternative Gospel of structure: order, composition, processes_, Introductory chapter to C. Heunen, M. Sadrzadeh, and E. Grefenstette. Quantum Physics and Linguistics: A Compositional, Diagrammatic Discourse. Oxford University Press, 2013 ([arxiv:1307.4038](https://arxiv.org/abs/1307.4038))
+* {#Coecke13} [[Bob Coecke]], _An alternative Gospel of structure: order, composition, processes_, Introductory chapter to C. Heunen, M. Sadrzadeh, and E. Grefenstette. Quantum Physics and Linguistics: A Compositional, Diagrammatic Discourse. Oxford University Press, 2013 ([arxiv:1307.4038](https://arxiv.org/abs/1307.4038))
 
-* {#Kobele05}Gregory M. Kobele, _Pregroups, Products, and Generative Power_ , handout Chieti workshop on pregroups May 2005.
+* {#Kobele05} [[Gregory M. Kobele]], _Pregroups, Products, and Generative Power_ , handout Chieti workshop on pregroups May 2005.
 
-* {#KobeleKracht05}Gregory M. Kobele, [[Marcus Kracht]], _On Pregroups, Freedom, and (Virtual) Conceptual Necessity_ , U. Penn Working Papers in Linguistics **10** no.1 (2005).
+* {#KobeleKracht05} [[Gregory M. Kobele]], [[Marcus Kracht]], _On Pregroups, Freedom, and (Virtual) Conceptual Necessity_ , U. Penn Working Papers in Linguistics **10** no.1 (2005).
 
-* {#GenkinEtAl10} Daniel Genkin, Nissim Francez, and Michael Kaminski. _Mildly Context-Sensitive Languages via Buffer Augmented Pregroup Grammars_, In Essays in Memory of Amir Pnueli, 2010.
+* {#GenkinEtAl10} [[Daniel Genkin]], [[Nissim Francez]], and [[Michael Kaminski]]. _Mildly Context-Sensitive Languages via Buffer Augmented Pregroup Grammars_, In Essays in Memory of Amir Pnueli, 2010.
