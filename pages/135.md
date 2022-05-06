@@ -23,12 +23,23 @@
 +-- {: .un_defn}
 ###### Definition
 
-$Diff$ (also called $Man$ or $Mfd$) is the [[category]] whose 
+$SmoothManifolds$ is the [[category]] whose 
 
-* [[objects]] are [[differentiable manifolds]] ([[smooth manifolds]]);
+* [[objects]] are [[smooth manifolds]] 
 
-* [[morphisms]] are [[differentiable functions]] ([[smooth functions]]) between these.
+* [[morphisms]] are [[smooth functions]] between these.
 
+Similarly, for $n \in \mathbb{N}$
+
+$DifferentiableManifolds_n$ is the [[category]] whose 
+
+* [[objects]] are [[differentiable manifolds]] 
+
+* [[morphisms]] are [[differentiable functions]] between these
+
+for $n$-fold differentiabiliy.
+
+Each of these categories is also commonly denoted $Man$ or $Mfd$ or [[Diff]] etc.
 
 =--
 
@@ -40,9 +51,9 @@ $Diff$ (also called $Man$ or $Mfd$) is the [[category]] whose
 +-- {: .un_defn}
 ###### Proposition
 
-The category $Diff$ becomes a [[large site]] by equipping it with the [[coverage]] consisting of [[open cover]]s.
+The category $SmoothManifolds$ becomes a [[large site]] by equipping it with the [[coverage]] consisting of [[open cover]]s.
 
-This is an [[essentially small site]]: a [[dense sub-site]] for $Diff$ is given by [[CartSp]]${}_{smooth}$.
+This is an [[essentially small site]]: a [[dense sub-site]] for $SmoothManifolds$ is given by [[CartSp]]${}_{smooth}$.
 
 =--
 
@@ -60,9 +71,9 @@ For the second statement one needs that every [[paracompact manifold]] admits a 
 +-- {: .un_corollary}
 ###### Corollary
 
-The [[sheaf topos]] over $Diff$ is a [[cohesive topos]].
+The [[sheaf topos]] over $SmoothManifolds$ is a [[cohesive topos]].
 
-The [[hypercompletion]] of the [[(∞,1)-sheaf (∞,1)-topos]] over $Diff$ is a [[cohesive (∞,1)-topos]].
+The [[hypercompletion]] of the [[(∞,1)-sheaf (∞,1)-topos]] over $SmoothManifolds$ is a [[cohesive (∞,1)-topos]].
 
 =--
 
@@ -72,16 +83,16 @@ The [[hypercompletion]] of the [[(∞,1)-sheaf (∞,1)-topos]] over $Diff$ is a 
 For the first statement, use that by the _comparison lemma_ discussed at [[dense sub-site]] we have an [[equivalence of categories]]
 
 $$
-  Sh(Diff) \simeq Sh(CartSp_{smooth})
+  Sh(SmoothManifolds) \simeq Sh(CartSp_{smooth})
   \,.
 $$
 
 By the discussion at [[CartSp]] we have that $CartSp_{smooth}$ is a [[cohesive site]]. By the discussion there the claim follows.
 
-For the second statement observe that the Joyal-Jardine [[model structure on simplicial sheaves]] $Sh(Diff)^{\Delta^{op}}_{loc}$ is a [[presentable (∞,1)-category|presentation]] for the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] $\hat Sh_{(\infty,1)}(Diff)$ (see [[presentations of (∞,1)-sheaf (∞,1)-toposes]]). By the above result it follows that there is an [[equivalence of (∞,1)-categories]] between the [[hypercompletion]]s 
+For the second statement observe that the Joyal-Jardine [[model structure on simplicial sheaves]] $Sh(SmoothManifolds)^{\Delta^{op}}_{loc}$ is a [[presentable (∞,1)-category|presentation]] for the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] $\hat Sh_{(\infty,1)}(SmoothManifolds)$ (see [[presentations of (∞,1)-sheaf (∞,1)-toposes]]). By the above result it follows that there is an [[equivalence of (∞,1)-categories]] between the [[hypercompletion]]s 
 
 $$
-  \hat Sh_{(\infty,1)}(Diff) \simeq \hat Sh_{(\infty,1)}(CartSp_{smooth})
+  \hat Sh_{(\infty,1)}(SmoothManifolds) \simeq \hat Sh_{(\infty,1)}(CartSp_{smooth})
   \,.
 $$
 
@@ -97,12 +108,12 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-The [[cohesive topos]] $Sh(Diff) \simeq Sh(CartSp_{smooth})$ is in particular the home of [[diffeological space]]s. See there for more details.
+The [[cohesive topos]] $Sh(SmoothManifolds) \simeq Sh(CartSp_{smooth})$ is in particular the home of [[diffeological space]]s. See there for more details.
 
 The [[cohesive (∞,1)-topos]]
 
 $$
-  Smooth \infty Grp := Sh_{(\infty,1)}(Diff) \simeq Sh_{(\infty,1)}(CartSp_{smooth})
+  Smooth \infty Grp := Sh_{(\infty,1)}(SmoothManifolds) \simeq Sh_{(\infty,1)}(CartSp_{smooth})
 $$
 
 is that of [[smooth ∞-groupoid]]s. Discussed at [[Smooth∞Grpd]].
@@ -110,7 +121,7 @@ is that of [[smooth ∞-groupoid]]s. Discussed at [[Smooth∞Grpd]].
 The theory of [[differentiable stacks]] is that of [[geometric stack]]s in the [[(2,1)-sheaf]] [[(2,1)-topos]]
 
 $$
-  Sh_{(2,1)}(Diff) \simeq Sh_{(2,1)}(CartSp_{smooth})
+  Sh_{(2,1)}(SmoothManifolds) \simeq Sh_{(2,1)}(CartSp_{smooth})
    \simeq 
   \tau_{\leq 1} Sh_{(\infty,1)}(CartSp_{smooth})
 $$
@@ -124,12 +135,16 @@ $$
 
 * [[CartSp]]${}_{smth}$, **SmoothMfd**
 
+* [[Diff]]
 
 
 category: category
+
 
 [[!redirects Man]]
 [[!redirects Mfd]]
 
 [[!redirects SmoothMfd]]
 [[!redirects SmthMfd]]
+[[!redirects SmthManifolds]]
+
