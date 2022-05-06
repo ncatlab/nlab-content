@@ -156,7 +156,7 @@ $$
     Z
     &&\stackrel{k}{\to}&& 
     Z/Y
-    &&\stackrel{k}{\to}&& 
+    &&\stackrel{w}{\to}&& 
     T (Y/X)
     \\
     & 
