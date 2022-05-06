@@ -24,7 +24,7 @@
 In a [[closed monoidal category]] $C$ the [[tensor product]] $a \otimes b$ and [[internal hom]] $[b,c]$ are related by the defining [[natural isomorphism]]
 
 
-$$2
+$$
   C(a \otimes b, c) \simeq C(a, [b,c])
   \,.
 $$
@@ -60,7 +60,7 @@ Copowers are frequently called _tensors_ and a $V$-category having all copowers 
 
 * In the $V$-category $V$, the copower is just the [[tensor product]] of $V$.
 
-* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimit]]s (i.e., ordinary $Set$-based colimits), assuming these exist.  The dual limit notion of a copower is a [[power]].
+* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimits]] (i.e., ordinary $Set$-based colimits with an enhanced $V$-universal property, although the latter is automatic if powers also exist), assuming these exist.  The dual limit notion of a copower is a [[power]].
 
 
 ## Examples
