@@ -120,7 +120,7 @@ We may also ask how idempotent-completeness of $C$ is related to that of its [[h
 If $C$ is [[stable (infinity,1)-category|stable]], then $C$ is idempotent-complete (i.e. every coherent idempotent is effective) if and only if $h C$ is (as a 1-category).
 =--
 
-However, if $C$ is not stable, this is false.  The following counterexample in [[?Gpd]] is constructed in Warning 1.2.4.8 of [[Higher Algebra|HA]].  Let $\lambda : G \to G$ be an injective but non-bijective group homomorphism such that $\lambda$ and $\lambda^2$ are conjugate.  (One such is obtained by letting $G$ be the group of endpoint-fixing homeomorphisms of $[0,1]$, with $\lambda(g)$ acting as a scaled version of $g$ on $[0,\frac 1 2]$ and the identity on $[\frac 1 2,1]$.  Then $\lambda(g) \circ h = h \circ \lambda^2(g)$ for any $h$ such that $h(t) = 2t$ for $t \in [0,\frac 1 4]$.)
+However, if $C$ is not stable, this is false.  The following counterexample in [[∞Gpd]] is constructed in Warning 1.2.4.8 of [[Higher Algebra|HA]].  Let $\lambda : G \to G$ be an injective but non-bijective group homomorphism such that $\lambda$ and $\lambda^2$ are conjugate.  (One such is obtained by letting $G$ be the group of endpoint-fixing homeomorphisms of $[0,1]$, with $\lambda(g)$ acting as a scaled version of $g$ on $[0,\frac 1 2]$ and the identity on $[\frac 1 2,1]$.  Then $\lambda(g) \circ h = h \circ \lambda^2(g)$ for any $h$ such that $h(t) = 2t$ for $t \in [0,\frac 1 4]$.)
 
 Then $B\lambda : B G \to B G$ is homotopic to $B\lambda^2$, hence idempotent in the homotopy category.  If it could be lifted to a coherent idempotent, then the colimit of the diagram
 $$B G \xrightarrow{B \lambda} B G \xrightarrow{B \lambda} BG \to \cdots$$
