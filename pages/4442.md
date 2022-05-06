@@ -717,10 +717,7 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 [[!redirects AdS-CFT duality]]
 [[!redirects AdS/CFT duality]]
 
-[[!redirects AdS2-CFT1]]
-[[!redirects AdS2/CFT1]]
-[[!redirects AdS2-CFT1 duality]]
-[[!redirects AdS2/CFT1 duality]]
+
 
 [[!redirects AdS7-CFT6]]
 [[!redirects AdS7-CFT6 duality]]
