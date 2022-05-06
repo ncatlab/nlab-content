@@ -76,6 +76,10 @@ See also
 
 * Lau Skorstengaard, _An Introduction to Logical Relations: Proving Program Properties Using Logical Relations_, ([pdf](http://cs.au.dk/~lask/main.pdf))
 
+* Karl Crary, _Logical Relations and a Case Study in Equivalence Checking_, in Benjamin Pierce (ed.), _Advanced Topics in Types and Programming Languages_
+
+* Amal Ahmed, _Lectures on logical relations at OPLSS 2015_, ([lecture recordings](https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html))
+
 Further discussion:
 
 * StackExchange discussion, _[What are differences between logical relations and simulations?](http://cstheory.stackexchange.com/questions/5427/what-are-the-differences-between-logical-relations-and-simulations)_
