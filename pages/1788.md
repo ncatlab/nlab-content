@@ -1,4 +1,64 @@
 
+
+\[
+  \label{TheQuasiIsomorphism}
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{graph complex}
+      \\
+      \text{of n-point Feynman diagrams}
+      \\
+      \text{for Chern-Simons theory}
+      \\
+      \text{on} \; \Sigma 
+    }
+  }{
+    Graphs_n(\Sigma)
+  }
+  \underoverset{
+    \simeq_{\mathrlap{qi}}
+  }
+  {
+    \color{blue}
+    \array{
+      \text{assign Feynman amplitudes}
+      \\
+      \text{of free CS/AKSZ theory}
+      \\
+      \phantom{A}
+    }
+  }
+  {
+    \longrightarrow
+  }
+  \underset{
+    \color{blue}
+    \array{
+      \phantom{A}
+      \\
+      \text{de Rham algebra}
+      \\
+      \text{of semi-algebraic differential forms}
+      \\
+      \text{on the FM-compactification}
+      \\
+      \text{of the configuration space of n points}
+      \\
+      \text{in}\; \Sigma
+    }
+  }{
+  \Omega^\bullet_{PA}
+  \big(
+    Conf_n\big(  \Sigma \big)
+  \big)
+  }
+  \,.
+\]
+
+
 $\Sigma$
 
 $\underline{A} \colon C \in \mathcal{C}(A) \mapsto C$
