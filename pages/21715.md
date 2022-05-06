@@ -474,7 +474,7 @@ The object-wise [[tensor product]] of two finite-dimensional [[injective object|
 
 This is proven as [Golasinski 97b, Lemma 3.6](#Golasinski97b) (use [Golasinski 97b, Remark 1.2](#Golasinski97b) to see that the Lemma does apply to the ordinary tensor product of finite-dimensional vector spaces).
 
-Beware that incorrect versions of this statement had been circulating; for discussion of the literature see [Golasinski 97b, p. 3](#Golasinski97b) and [Scull 01, Prop. 3.6](#Scull01)
+Beware that incorrect versions of this statement had been circulating; for discussion of the literature see [Golasinski 97b, p. 3](#Golasinski97b) and [Scull 01, Prop. 7.36](#Scull01)
 
 
 ## Examples
