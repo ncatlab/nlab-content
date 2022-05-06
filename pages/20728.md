@@ -65,7 +65,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[probability measures]]</td>
   <td markdown="1">initial [[σ-algebra]] of evaluation maps</td>
   <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[Lawvere '62](#lawvere62), [Giry '80](#giry80)</td>
  </tr>
  <tr>
   <th markdown="1">[[Giry monad]]</th>
@@ -73,23 +73,23 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Borel measure|Borel probability measures]]</td>
   <td markdown="1">[[initial topology]] of integration maps</td>
   <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[Giry '80](#giry80)</td>
  </tr>
  <tr>
   <th markdown="1">[[Radon monad]]</th>
   <td markdown="1">[[compactum#category_of_compacta|Comp]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]]</td>
   <td markdown="1">[[weak topology]] w.r.t. continuous functions</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[[compact]] [[convex subsets]] of [[locally convex topological vector spaces]]</td>
+  <td markdown="1">[Swirszcz '74](#swirszcz), [Keimel '08](#radonkeimel)</td>
  </tr>
  <tr>
-  <th markdown="1">(ordered) [[Radon monad]]</th>
+  <th markdown="1">[[Radon monad#the_ordered_case|ordered Radon monad]]</th>
   <td markdown="1">[[compact ordered spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]]</td>
   <td markdown="1">[[weak topology]] w.r.t. continuous functions, [[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[[compact]] [[convex subsets]] of [[ordered vector space|ordered]] [[locally convex topological vector spaces]]</td>
+  <td markdown="1">[Swirszcz '74](#swirszcz), [Keimel '08](#radonkeimel)</td>
  </tr>
  <tr>
   <th markdown="1">[[extended probabilistic powerdomain#the_measure_monad_on_top|measure monad on Top]]</th>
@@ -172,6 +172,15 @@ See [the table below](#detailed_list) for more details.
 
 ## References
 
+*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+([[lawvereprobability1962.pdf:file]])
+
+* {#Giry80} Mich&#232;le Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982.
+
+* {#swirszcz} T. Swirszcz, _Monadic functors and convexity_, Bulletin de l'Academie Polonais des Sciences 22, 1974 ([pdf](https://www.fuw.edu.pl/~kostecki/scans/swirszcz1974.pdf))
+
+* {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
+
 * {#monad} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996. [Link here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf).
 
 * Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
@@ -179,6 +188,8 @@ See [the table below](#detailed_list) for more details.
 * {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019. [Link here](https://arxiv.org/abs/1910.03752).
 
 * {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
+
+* {#vanbreugel} Franck van Breugel, _The metric monad for probabilistic nondeterminism_, features both the Lawvere/Giry monad and Panangaden's monad.
 
 (...more to come...)
 
