@@ -102,13 +102,15 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 ### General
 
-* Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_ ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223))
+* Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_, Nuclear Physics B
+Volume 515, Issues 1–2, 30 March 1998, Pages 55-72
+Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a href="https://doi.org/10.1016/S0550-3213(97)00784-0">doi:10.1016/S0550-3213(97)00784-0</a>)
 
 
-* V. Kaplunovsky, J. Sonnenschein,[[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_ ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
+* [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
 
 
-* {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+* {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
