@@ -99,6 +99,9 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
+* [[Peter Landweber]], _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 100, Issue 2 September 1986 , pp. 207-223 ([doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032))
+
+
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
@@ -107,9 +110,9 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 * Wikipedia, _[Cobordism](http://en.wikipedia.org/wiki/Cobordism)_
 
+For more see at _[[cobordism cohomology theory]]_.
+
 A relation to [[fixed point spaces]]:
-
-
 * {#Prieto03} Carlos Prieto, _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
 
 
