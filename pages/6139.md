@@ -26,6 +26,7 @@ If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoida
 What all these terms ("loops" $\Omega$, "delooping" $B$ etc.) mean in detail and how they are _presented_ concretely depends on the given setup. We discuss some of these below in the section [Examples](#Examples).
 
 
+
 ## Examples
  {#Examples}
 
@@ -385,19 +386,19 @@ between the pointed $(k-1)$-[[connected]] objects and the groupal [[Ek-algebra]]
 
 =--
 
-This is ([Lurie, Higher Algebra, theorem 5.1.3.6](#LurieAlgebra)).
+This is _[[Higher Algebra|Higher Algebra, theorem 5.2.6.10]]_
 
 
 Specifically for $\mathbf{H} = $ [[Top]], this reduces to the classical theorem by [[Peter May]]
 
 +-- {: .num_theorem}
-###### Theorem (May recognition theorem)
+###### Theorem ([[May recognition theorem]])
 
 Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $Y$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
 
 =--
 
-This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
+This is _[[Higher Algebra|Higher Algebra, theorem 5.2.6.15]]_
 
 +-- {: .num_remark #LoopingDeloopingDegree1InTopos}
 ###### Remark
