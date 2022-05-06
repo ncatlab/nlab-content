@@ -17,6 +17,8 @@ On the [[non-abelian DBI action]] for [[intersecting branes]] with non-abelian [
 
 * [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
 
+* [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
+
 
 On [[D0-D6 brane bound states]]:
 
