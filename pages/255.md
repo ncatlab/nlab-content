@@ -174,6 +174,11 @@ Replacing the two element [[power object]] $\Omega$ with any other set gives sim
 [[possibility]]
 =--
 
++-- {: .num_example}
+###### Example
+[[selection monad]]
+=--
+
 
 ### Algebra
 
