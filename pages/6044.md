@@ -69,20 +69,19 @@ We then have over the [[real numbers]]:
 
 * In dimension $3$, there are two binary cross products, one for each orientation, matching the classical cross product.
 
-* In dimension $7$, there are uncountably many binary cross products.  Even fixing a basis and requiring compatibility with this, there are still hundreds of cross products.
+* In dimension $7$, there are uncountably many binary cross products.  Even fixing an orthonormal basis and requiring compatibility with this (in that the cross product of any two distinct basis vectors must be another basis vector or its opposite), there are still 480 distinct cross products.
 
 * In any other finite dimension, there are no binary cross products at all.
 
-These cross products exist over any base field, but as far as I know there may be additional cross products over some.  (Of course, the claim that there are uncountably many cross products in $7$ dimensions should be generalised and made more precise; the space of these inner products is some [[algebraic variety]].)
+These cross products exist over any base field, but as far as I know there may be additional cross products over some fields in dimensions greater than $1$.  (The claim that there are uncountably many cross products in $7$ dimensions becomes the claim that the [[algebraic variety]] of these inner products has dimension greater than $0$; even in the real case, it would be worthwhile to describe this variety in more detail.)  If we pick an orthonormal basis and demand compatibility with it, then the classification above is complete over any field (as the problem becomes essentially combinatorial), except that some of these cross products will be identified in characteristic $2$.
 
 Binary cross products are closely related to [[normed division algebras]] (NDAs).  Given a normed division algebra $A$, the imaginary hyperplane $Im(A)$ inherits an inner product from $A$ and gains a cross product as
 $$ x \times y \coloneqq Im(x y) = \frac{1}{2}[x,y] = x y + x \cdot y .$$
 Conversely, given an inner product space $V$ with a binary cross product, the orthogonal [[direct sum]] $K \oplus V$ becomes a NDA as
 $$ (a,x) (b,y) = (a b - x \cdot y, a y + b x + x \times y) ,$$
-where $K$ is the ground field.
+where $K$ is the ground field.  (Compare the relationship between complex $*$-algebras and [[Jordan--Lie algebras]], where $A$ is $V \oplus V$ instead of $K \oplus V$, which we again think of as consisting of real and imaginary parts and where we again have two multiplication operations on $V$.)
 
 By [[Hurwitz theorem|Hurwitz's theorem]], the only finite-dimensional NDAs over $\mathbb{R}$ are $\mathbb{R}$ itself (the [[real numbers]]), $\mathbb{C}$ (the [[complex numbers]]), $\mathbb{H}$ (the [[quaternions]]), and $\mathbb{O}$ (the [[octonions]]).  Thus the limited possibilities for binary cross products are determined by the limited possibilities for NDA structures.
-
 
 By one of the deeper strands of mathematics, this classification of something as innocent-looking as cross-products is closely related not just to the existence of [[normed division algebras]] over the [[real numbers]], but also to all of the following: [[parallelizable manifold|parallelizable]] [[n-spheres]], the existence of [[real spin representations]] (see also at _[[supersymmetry and division algebras]]_), and the [[homotopy groups of spheres]] of [[Hopf invariant one]]; see [there](Hopf+invariant+one#RelationToHSpaceStructureAndNormedDivisionAlgebras).
 
@@ -116,7 +115,7 @@ Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, w
 
 * If $k = 0$, then there is one cross product for each [[unit vector]] of $V$: none when $n = 0$, two (one for each orientation) when $n = 1$, and uncountably many when $n \geq 2$.
 
-* If $k = 1$, then there is one cross product for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces and orienting each subspace: one (always $0$) when $n = 0$, two (one for each orientation) when $n = 2$, uncountably many when $n = 2 k \geq 4$ (even), and none when $n = 2 k + 1$ (odd).
+* If $k = 1$, then there is one cross product for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces and orienting each subspace: one (always $0$) when $n = 0$, two (one for each orientation) when $n = 2$, uncountably many when $n \geq 4$ is even, and none when $n$ is odd.
 
 * If $k = 2$, then the possibilities are as listed above for binary cross products: one (always $0$) when $n = 0, 1$, two (one for each orientation) when $n = 3$, uncountably many (related to the [[octonions]]) when $n = 7$, and none when $n \ne 0, 1, 3, 7$.
 
@@ -150,9 +149,9 @@ Or organized by dimension ($n$) rather than arity ($k$):
 
 * If $n = 8$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $k = 2, 3$, uncountably many (related to the [[octonions]]) when $k = 4$, none when $k = 5, 6$, two (one for each orientation) when $k = 7$, none when $k = 8$, and one (always zero) when $k \geq 9$.
 
-* If $n = 2 k + 1 \geq 9$ (odd), then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $1 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
+* If $n \geq 9$ is odd, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $1 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
 
-* If $n = 2 k \geq 10$ (even), then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $2 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
+* If $n \geq 10$ is even, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $2 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
 
 
 ### Tensor-valued
