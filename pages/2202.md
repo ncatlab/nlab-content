@@ -46,7 +46,7 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 $$(X \stackrel{f}{\to} I) \otimes (Y \stackrel{g}{\to} I) = (X \otimes Y \stackrel{f \otimes g}{\to} I \otimes I \cong I)$$ 
 where the isomorphism displayed is the canonical one. This monoidal product is semicartesian. The forgetful functor $\Sigma: M/I \to M$ is strong monoidal, and is universal in the sense of exhibiting the fact that semicartesian monoidal functors and strong monoidal functors form a coreflective sub-bicategory of the bicategory of monoidal categories and strong monoidal functors. (Check this.) 
 
-* The category of nominal sets is cartesian closed but also semi-cartesian closed if taken with the separated product, see Chapter 3.4 of Pitts' monograph Nominal Sets.
+* The category of [[nominal sets]] is cartesian closed but also semi-cartesian closed if taken with the separated product, see Chapter 3.4 of Pitts' monograph Nominal Sets.
 
 ## Internal logic
 
