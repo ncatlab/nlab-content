@@ -39,7 +39,7 @@ A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [
 ### Synthetic definition in differential cohesion
  {#SyntheticDefinitionInDifferentialCohesion}
 
-The classical definition \ref{SmoothManifoldsEmbedding} should have the following axiomatization in [[differential cohesive (infinity,1)-topos|differentially cohesive infinity-topos theory]], where one assumes the following system of [[adjoint modalities]]
+The classical definition \ref{SmoothManifoldsEmbedding} of _embedding_ of smooth manifolds should have the following axiomatization in [[differential cohesive (infinity,1)-topos|differentially cohesive infinity-topos theory]], where one assumes the following system of [[adjoint modalities]]
 
 $$
   \array{
@@ -51,7 +51,11 @@ $$
   }
 $$
 
-We will use explicitly the [[sharp modality]] $\sharp$ and the [[infinitesimal shape modality]] $\Im$.
+Of these we now use
+
+1. the [[sharp modality]] $\sharp$ 
+
+1. the [[infinitesimal shape modality]] $\Im$.
 
 Then given a morphism $U \overset{i}{\longrightarrow} X$ we have
 
@@ -86,8 +90,6 @@ to the [[type universe]], of $U$ regarded as a [[dependent type]] over $X$, sati
 1. it factors through the universe of $\Im$-[[submodal types]];
 
 1. it factors through the universe of $\sharp$-[[modal types]].
-
-(...)
 
 
 ## Examples
