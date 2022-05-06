@@ -1,14 +1,22 @@
 A _metrization theorem_ is a result that gives sufficient conditions, and sometimes necessary and sufficient conditions, for a [[topological space]] to be [[metrisable topological space|metrisable]], i.e. its topology is induced by a metric. 
 
-Examples include: 
+## Theorems
 
-* [[Urysohn metrization theorem]] 
+[[Urysohn metrization theorem]]:
 
-* [[Nagata-Smirnov metrization theorem]] 
+[[!include Urysohn metrization theorem - main theorem]]
+
+[[Nagata-Smirnov metrization theorem]]:
+
+[[!include Nagata-Smirnov metrization theorem - main theorem]]
+
+As well as
 
 * Bing metrization theorem 
 
 * Moore metrization theorem 
+
+## Related questions
 
 A refined and more complicated question is whether or not the topology of a given space is induced by a [[complete space|complete metric]]. In this case the space is called [[topologically complete space|topologically complete]] A sufficient and neceissary criterion can be given in terms of [[cotopology#Properties|cotopology]].
 
