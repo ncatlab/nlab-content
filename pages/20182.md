@@ -26,7 +26,7 @@ See at _[[Sullivan model of free loop space]]_.
 
 ### Rational Cohomotopy spaces
 
-We discuss results on the [[rational homotopy type]] of [[spaces of maps]] inti an [[n-sphere]], hence [[rational Cohomotopy]] [[cocycle spaces]].
+We discuss results on the [[rational homotopy type]] of [[spaces of maps]] into an [[n-sphere]], hence [[rational Cohomotopy]] [[cocycle spaces]].
 
 +-- {: .num_prop #RationalHomotopyTypeOfMapsNSphereToNsphere}
 ###### Proposition     
