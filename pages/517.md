@@ -36,6 +36,10 @@ On [[algebraic topology]]
 
 * [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_
 
+On [[H-infinity ring spectra]]:
+
+* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
+
 On [[equivariant stable homotopy theory]]:
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol. 1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778))
