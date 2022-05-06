@@ -52,8 +52,14 @@ Physics, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Provid
 * L. Dixon, J. A. Harvey, C. Vafa, E. Witten, _Strings on orbifolds_,  Nuclear Phys. B __261__ (1985), no. 4, 678&#8211;686. [MR87k:81104a](http://www.ams.org/mathscinet-getitem?mr=818423), <a href="http://dx.doi.org/10.1016/0550-3213(85)90593-0">doi</a>; _Strings on orbifolds. II_, Nuclear Phys. B __274__ (1986), no. 2, 285&#8211;314, [MR87k:81104b](http://www.ams.org/mathscinet-getitem?mr=851703), <a href="http://dx.doi.org/10.1016/0550-3213(86)90287-7">doi</a>
 * Jean-Louis Tu, [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics __207__ (2006) 455&#8211;483, [pdf](http://www.math.univ-metz.fr/~tu/publi/orb.pdf) (cf. sec. 2.3)
 
+[[!redirects inertia orbifolds]]
+
 [[!redirects inertia stack]]
+[[!redirects inertia stacks]]
+
 [[!redirects inertia groupoid]]
+[[!redirects inertia groupoids]]
+
 
 
 category: Lie theory
