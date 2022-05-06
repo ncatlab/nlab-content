@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -134,6 +135,12 @@ See
 
 ## Related concepts
 
+* [[quantum field theory]]
+
+  * [[perturbative quantum field theory]]
+
+  * [[non-perturbative quantum field theory]]
+
 * [[chiral fermions]]
 
 * [[generation of fundamental particles]]
@@ -168,36 +175,43 @@ See
 
 ## References
 
-A clean survey and gentle introduction is given in
+Textbook accounts include
+
+* W. Noel Cottingham, ; Derek A. Greenwood, _An introduction to the standard model of particle physics_, Cambridge University Press 2012 ([doi:10.1017/CBO9780511791406 ](   https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
+
+*  [[Paul Langacker]], _The Standard Model and Beyond_, CRC Press 2009, 2012, second edition 2017 ([spire:846915](http://inspirehep.net/record/846915/), [publisher webpage](https://www.crcpress.com/The-Standard-Model-and-Beyond/Langacker/p/book/9781498763219), [author webpage](http://www.sns.ias.edu/~pgl/SMB/))
+
+*  J D Vergados, _The Standard Model and Beyond_, World Scientific 2017 ([doi:10.1142/10669](https://www.worldscientific.com/worldscibooks/10.1142/10669))
+
+
+Further review and outlook includes
+
+* [[Paul Langacker]], _The standard model and beyond_, talk at TPFNP 2005 ([pdf](http://www.sns.ias.edu/~pgl/talks/neutron.pdf), [[Langacker05.pdf:file]])
+
+* Dmitry Kazakov, _Beyond the Standard Model' 17_ ([arXiv:1807.00148](https://arxiv.org/abs/1807.00148))
+
+
+Review specifically with an eye towards [[grand unified theory]] is in
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
-Textbook accounts include
-
-*  [[Paul Langacker]], _The Standard Model and Beyond_, CRC Press 2009 ([webpage](http://www.sns.ias.edu/~pgl/SMB/))
+and specificlly with an eye towards [[intersecting D-brane models]] in
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 See also
 
-* [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+* [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
-Review combined with outlook is provided in 
-
-* Dmitry Kazakov, _Beyond the Standard Model' 17_ ([arXiv:1807.00148](https://arxiv.org/abs/1807.00148))
 
 A historical account is in 
 
 * [[Tom Kibble]], _The Standard Model of Particle Physics_ ([arXiv:1412.4094](http://arxiv.org/abs/1412.4094))
 
-There are tons of textbooks about the standard model, so any recommendation is hopelessly biased. The following textbook is a short and relativly easy introduction that nevertheless covers a lot of ground:
 
-* Cottingham, W. Noel; Greenwood, Derek A.: _An introduction to the standard model of particle physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
 
 See also
 
 * {#HMY13} Takaaki Hashimoto, Mamoru Matsunaga, Kenta Yamamoto, _Quantization of hypercharge in gauge groups locally isomorphic but globally nonisomorphic to $SU(3)_c \times SU(2)_L \times U(1)_Y$_ ([arXiv:1302.0669](https://arxiv.org/abs/1302.0669))
 
-For further references see [[quantum field theory]] and the Wikipedia entry
 
-* Wikipedia, _[standard model] (http://en.wikipedia.org/wiki/Standard_Model)_
