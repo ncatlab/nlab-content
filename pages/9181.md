@@ -48,6 +48,14 @@
 
   * [[neutron]]
 
+**[[solitons]]**
+
+* [[caloron]]
+
+* [[Skyrmion]]
+
+* [[instanton]]
+
 **[[MSSM|minimally extended supersymmetric standard model]]**
 
 **[[superpartners]]**
