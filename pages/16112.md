@@ -2,13 +2,15 @@
 
 ## Definition
 
-### Traditional
 
-(...)
+A _CR manifold_ consists of a differentiable manifold $M$ together with a subbundle $L$ of the complexified tangent bundle, $L \subset TM \otimes_\mathbf{R} \mathbf{C}$ such that $[L, L ] \subset L$ and $L \cap\overline{L} =\{ 0 \} $.
+
 
 ### As first-order integrable $G$-structure
 
 CR manifold structure are equivalently certain [[first-order integrable G-structures]] ([Dragomi-Tomassini 06, section 1.6](#DragomiTomassini06)), a type of [[parabolic geometry]].
+
+### Examples
 
 ## Properties
 
