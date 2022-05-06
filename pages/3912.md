@@ -34,7 +34,7 @@ $$
   \,.
 $$
 
-from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, given by pullback to the [[Thom space]] followed by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
+from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, given by pullback to the [[Thom space]] followed by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochman 96, section 2.6](#Kochman96)).
 
 In the special case that the vector bundle is trivial of rank $n$, then its [[Thom space]] coincides with the $n$-fold [[suspension]] of the base space ([exmpl.](Thom+space#ThomSpaceConstructionReducingToSuspension)) and the Thom isomorphism coincides with the [[suspension isomorphism]]. In this sense the Thom isomorphism may be regarded as a _twisted suspension isomorphism_.
 
@@ -48,7 +48,7 @@ $$
   \tilde E^{\bullet + n}(Th(V))
 $$
 
-(e.g. [Rudyak 98, chapter V, 1.3](#Rudyak98), [Kochmann 96, prop. 4.3.6](#Kochmann96))
+(e.g. [Rudyak 98, chapter V, 1.3](#Rudyak98), [Kochman 96, prop. 4.3.6](#Kochman96))
 
 One may think of the Thom isomorphism from left to right as [[cup product|cupping]] with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]] against this volume form.
 
@@ -259,7 +259,7 @@ The argument via a [[Serre spectral sequence]] for a relative fibration seems to
 
 Textbook accounts include
 
-* {#Kochmann96} [[Stanley Kochman]], section 2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Rudyak98} [[Yuli Rudyak]], chapter V of _Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
 
