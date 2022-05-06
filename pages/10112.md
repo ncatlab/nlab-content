@@ -20,17 +20,49 @@
 
 In [[QCD]] a _meson_ is a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. 
 
+
+
 ## Examples
 
-* [[π-meson]]
+### First-generation mesons
+ {#FirstGenerationMesons}
+
+The mesons in the first [[generation of fermions]], being [[bound states]] of [[up quarks]] and [[down quarks]] are
+
+* [[π-meson]] (pion)
 
 * [[ρ-meson]]
 
 * [[ω-meson]]
 
-* [[B meson]]
+As [[linear representations]] of the [[Lorentz group]] and [[isospin]] [[flavour (particle physics)|flavour]] group ([[Wigner classification]]) these first-generation meson [[field (physics)|fields]] are given as follows:
+
+\begin{imagefromfile}
+    "file_name": "FirstGenerationMesonFields.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
+### Second-generation mesons
+
+Mesons containing [[strange quarks]] from the second [[generation of fermions]]:
 
 * [[kaon]]
+
+### Third-generation mesons
+
+Mesons containing [[bottom quarks]] from the second [[generation of fermions]]:
+
+
+* [[B meson]]
+
+### See also
 
 * [[quarkonium]]
 
