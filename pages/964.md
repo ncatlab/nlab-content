@@ -190,3 +190,11 @@ But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would i
 
 
 [[!redirects frames]]
+[[!redirects morphism of frames]]
+[[!redirects morphisms of frames]]
+[[!redirects homomorphism of frames]]
+[[!redirects homomorphisms of frames]]
+[[!redirects frame homomorphism]]
+[[!redirects frame homomorphisms]]
+[[!redirects frame morphism]]
+[[!redirects frame morphisms]]
