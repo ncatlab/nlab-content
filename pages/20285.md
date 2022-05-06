@@ -37,7 +37,7 @@
 	\arrow[Rightarrow, from=4-3, to=5-3]
 	\arrow[Rightarrow, from=5-3, to=6-3]
 	\arrow[Rightarrow, from=1-4, to=1-3]
-	\arrow[Rightarrow, from=3-3, to=1-4, bend right, "\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" below right]
+	\arrow[Rightarrow, from=2-3, to=1-4, start anchor=east, bend right, "\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" below right]
 	\arrow[Leftrightarrow, from=3-2, to=2-3, controls={+(1.3,1.5) and +(-2.3,1.5)},
 		"\substack{\text{weakly Lindel\"of } \wedge \\ \sigma\text{-locally finite base}}" {description, name=A} ]
 	\arrow[Rightarrow, from=A, to=1-2] 
@@ -60,7 +60,7 @@
 
 * [[weakly Lindelöf topological space|weakly Lindelöf]]: every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.
 
-* [[countable choice]]: the [[natural number]]s is a [[projective object]] in [[Set]].
+* [[countable choice]]: the [[natural number|natural numbers]] are a [[projective object]] in [[Set]].
 
 * [[metacompact space|metacompact]]: every open cover has a point-finite open refinement.
 
