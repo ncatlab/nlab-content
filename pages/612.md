@@ -138,6 +138,8 @@ Application to [[moduli stack of elliptic curves]]:
 
 * [Informal notes](http://www.math.harvard.edu/~lurie/FF.html) on the [[Fargues-Fontaine curve]] with [[Dennis Gaitsgory]].
 
+* [[Kerodon]] is an online textbook on [[Categorical Homotopy Theory|categorical homotopy theory]] and related mathematics.
+
 category: people
 
 [[!redirects J. Lurie]]
