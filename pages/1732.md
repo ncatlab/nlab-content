@@ -1,7 +1,6 @@
-
 This entry is to record the book collection
 
-* [[John Baez]] and [[Peter May]] (eds.), _[[John Baez:Towards Higher Categories|Towards Higher Categories]]_ , The IMA volumes in Mathematics and its applications, Springer (2010)
+* [[John Baez]] and [[Peter May]] (eds.), _[[John Baez:Towards Higher Categories|Towards Higher Categories]]_, The IMA volumes in Mathematics and its applications, Springer (2010)
 
 on [[higher category theory]].
 
