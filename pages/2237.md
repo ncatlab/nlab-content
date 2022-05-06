@@ -326,7 +326,11 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 ### General
 
-Introduction is in
+Introduction to [[Borel equivariant cohomology]]:
+
+* {#Tu11} [[Loring Tu]], _What is... Equivariant Cohomology?_, Notices of the AMS, Volume 85, Number 3, March 2011 ([pdf](https://www.ams.org/notices/201103/rtx110300423p.pdf), [[TuEquivariantCohomology.pdf:file]])
+
+Introduction to [[Bredon equivariant cohomology]]:
 
 * {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
