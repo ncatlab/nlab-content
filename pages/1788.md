@@ -14,6 +14,56 @@ gets rendered as:
 
 ***
 
+
+\linebreak
+
+\linebreak
+
+$$
+  star_4 d \star_4 
+  \left[
+    \array{
+      V^{(0)}
+      \\
+      V^{(1)}
+      \\
+      V^{(2)}
+      \\
+      V^{(3)}
+      \\
+      V^{(4)}
+    }
+  \right]
+  \;\;=\;\;
+  \left[
+  \array{
+    - 1/2 & 0 & 1/\sqrt{2} & 0 & 0 & 0 & 0
+    \\
+    0 & - 3/2 & 0 & \sqrt{3/2} & 0 & 0 & 0
+    \\
+    1/\sqrt{2} & 0 & - 5/2 & 0 & \sqrt{3} & 0 & 0
+    \\
+    0 & \sqrt{3} & 0 & - 7/2 & 0 & \sqrt{5} & 0
+    \\
+    0 & 0 & \sqrt{3} & 0 & -9/2 & 0 & \sqrt{15/2}
+  }
+  \right]
+  \;\cdot\;
+  \left[
+    \array{
+      V^{(0)}
+      \\
+      V^{(1)}
+      \\
+      V^{(2)}
+      \\
+      V^{(3)}
+      \\
+      V^{(4)}
+    }
+  \right]
+$$
+
 \linebreak
 
 $$
