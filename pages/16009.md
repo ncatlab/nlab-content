@@ -23,9 +23,7 @@
 
 ## Sentiments
 
-* [[theoretical aestheticism]]
-
-  [[universal exceptionalism]]
+* [[universal exceptionalism]]
 
 * [[empiricism]]
 
