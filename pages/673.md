@@ -2,10 +2,6 @@
 [[!redirects David Roberts]]
 
 
-<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="225" src="https://ncatlab.org/nlab/files/DavidRoberts2014.jpg" alt="David Roberts speaking at Herriot-Watt, June 2014" title="Speaking at Herriot-Watt, June 2014"/></div>
-
-
-
 
 I am currently a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
@@ -25,19 +21,13 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ## Writing
 
-### Preprints/Notes
+### Preprints
 
 * _Topological sectors for heterotic M5-brane charges under Hypothesis H_ (2020), arXiv:[2003.09832](https://arxiv.org/abs/2003.09832). Submitted.
 
 * _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title) Submitted.
 
 * _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Submitted.
-
-* _Class forcing and topos theory_ (2018) notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
-
-* _Comments on Mochizuki’s 2018 Report_ (2018) doi:[10.25909/5c5ce1fda4b7c](https://doi.org/10.25909/5c5ce1fda4b7c), ([blog post](https://thehighergeometer.wordpress.com/2018/09/28/on-mochiukis-report-on-discussions/))
-
-
 
 ### Papers
 
@@ -79,16 +69,14 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 * _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](https://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](https://doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](https://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
 
 
-### In preparation
+### Notes/Other
 
-
-* _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
-
-
-
-### Other
 
 * _A Crisis of Identification_, Inference: International Review of Science **4** Issue 3 (2019) ([link](https://inference-review.com/article/a-crisis-of-identification))
+
+* _Class forcing and topos theory_ (2018) notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
+
+* _Comments on Mochizuki’s 2018 Report_ (2018) doi:[10.25909/5c5ce1fda4b7c](https://doi.org/10.25909/5c5ce1fda4b7c), ([blog post](https://thehighergeometer.wordpress.com/2018/09/28/on-mochiukis-report-on-discussions/))
 
 * _No Ancient Scottish Evidence of Fifth Platonic Solid_, Letter to the Editor, Notices of the American Mathematical Society **65** no 6 (2018) p 677 ([link](https://www.ams.org/journals/notices/201806/rnoti-p676.pdf))
 
@@ -102,45 +90,9 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
 
 
-## Selected Talks 
+## Talks 
 
-* _Groupoids, spans and cospans_, [Groupoids, Graphs, and Algebras](http://www.maths.usyd.edu.au/u/nathanb/GroupoidsGraphsAlgebras/), University of Sydney. 2 July 2019.
-
-* _From cows to inductive types; or, What are numbers?_, School of Mathematical Sciences Undergraduate Seminar, University of Adelaide. 5 September 2018.
-
-* _The stack of smooth maps from a manifold to a differentiable stack is differentiable_, [Topology in Australia and South Korea](https://cgp.ibs.re.kr/conferences/Topology_in_Australia_and_South_Korea/), POSTECH. 23 April 2018. ([Video](https://cgp.ibs.re.kr/activities/seminars/283/2145), requires flash)
-
-* _Constructions in lower dimensional higher geometry_, [Gauge theory and higher geometry](http://iga.adelaide.edu.au/workshops/MKM60/), University of Adelaide. 29 November 2017.
-
-* _Constructing differential string structures_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 7 June 2017.
-
-* _Smooth mapping stacks of differentiable stacks and orbifolds_, [Functional analysis seminar](https://math.colorado.edu/seminars/?date=2016-12-01), University of Colorado, Boulder. 1 December 2016.
-
-* _Low-dimensional higher geometry by examples_, [Kempner Colloquium](https://math.colorado.edu/seminars/?date=2016-11-29), University of Colorado, Boulder. 29 November 2016.
-
-* _Smooth mapping orbifolds_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 20 May 2016.
-
-* _Class forcing and topos theory_, [Topos a IHES](https://indico.math.cnrs.fr/event/747/), IHES, 27 November 2015. ([Abstract](https://indico.math.cnrs.fr/event/747/session/0/contribution/27/material/1/0.pdf)), ([Video](https://youtu.be/4AaSySq8-GQ)), ([Notes](https://doi.org/10.4225/55/5b2252e3092af))
-
-* _Homogeneous string connections_, [2015 Annual Meeting of the Australian Mathematical Society](http://www.flinders.edu.au/science_engineering/csem/research/centres/fmsl/austms2015/), 1 October 2015. ([Abstract](http://www.mathematics.org.au/sys/talks/talk.php?talk=2764&conf_id=26))
-
-* _Homogeneous bundles and higher geometry_, [Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz/), 24 February 2015 ([notes](https://www.dropbox.com/s/1a2wy93ejkyutr3/Prague_notes.pdf?dl=0))
-
-* _A new String group model from LG_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
-
-* _String structures on homogeneous bundles_, [8th Australia New Zealand Mathematics Convention](http://www.austms2014.ms.unimelb.edu.au/), 12 December 2014 ([Abstract](http://www.mathematics.org.au/sys/shared/talk.php?talk=2626&conf_id=22))
-
-* _A geometric proof of a theorem of Serre_, [Algebra and Topology seminar](http://maths.anu.edu.au/events/algebra-and-topology-seminar-0), Australian National University, 23 September 2014. ([Abstract](http://maths.anu.edu.au/events/geometric-proof-theorem-serre))
-
-* _Explicit string bundles_, [Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html), Heriot-Watt University, June 2014. ([notes from talk](https://www.dropbox.com/s/3f0beiksla65j5n/HW_talk_notes_Roberts.pdf))
-
-* _An explicit string bundle_, [Algebra/Geometry/Topology seminar](http://www.ms.unimelb.edu.au/research/seminars.php?id=1653) University of Melbourne, 22 November 2013.
-
-* _An explicit string bundle_, [AustMS 2013](http://www.maths.usyd.edu.au/u/austms2013/abstracts.html), 3 October 2013 ([slides in WriteLaTeX](https://www.writelatex.com/read/tsbybtssscbg)).
-
-* _Proper class forcing_, [Category Theory 2013](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/programme.html), July 2013.
-
-The complete list is [[davidroberts:talks|here]].
+See [[davidroberts:talks|here]] for a comprehensive list.
 
 ## Supervision and teaching
 
