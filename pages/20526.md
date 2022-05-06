@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[string theory]] the term _swampland_ had been introduced ([Vafa 05](#Vafa05)) to publically highlight the basic fact that many [[effective quantum field theory]] [[vacuum state|vacua]] will not admit a [[UV-completion]] to a [[string theory vacuum]], hence that admitting a completion to a [[string theory vacuum]] is a strong constraint, hence that [[string theory]] predicts many more conditions to be satisfied by [[gauge groups]], [[field (physics)|field content]] and [[coupling constants]] than predicted by plain [[quantum field theory]].
+In [[string theory]] the term _swampland_ had been introduced ([Vafa 05](#Vafa05)) to publicly highlight the basic fact that many [[effective quantum field theory]] [[vacuum state|vacua]] will not admit a [[UV-completion]] to a [[string theory vacuum]], hence that admitting a completion to a [[string theory vacuum]] is a strong constraint, hence that [[string theory]] predicts many more conditions to be satisfied by [[gauge groups]], [[field (physics)|field content]] and [[coupling constants]] than predicted by plain [[quantum field theory]].
 
 The terminology was motivated since the collection of [[string theory vacua]] had previously come to be called the _[[landscape of string theory vacua]]_. The idea is to imagine the remaining [[effective field theory|EFTs]] not "in" this landscape to form a space "away from the landscape", whence the colorful imagery of a swampland.
 
