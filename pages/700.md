@@ -337,15 +337,19 @@ With this the claim follows as in prop. \ref{RetractsOfLimits}.
 
 * [[deformation retract]], [[neighbourhood retract]]
 
+* [[absolute retract]]
+
 ## References
 
-In 
+* [[Karol Borsuk]], _Theory of retracts_
 
-* [[Francis Borceux]], _Handbook of categorical algebra I_
- {#Borceux}
+* [[Sibe Mardešić]], _Absolute Neighborhood  Retracts and Shape  Theory_ ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mardesic.pdf))
 
-the definition appears as def. 1.7.3. Properties are discussed in section 6.5
+* {#Borceux} [[Francis Borceux]], Def. 1.7.3 and Sec. 6.5 of: _[[Handbook of Categorical Algebra]] I_
+ 
+See also
 
+* Wikipedia, _[Retract](https://en.wikipedia.org/wiki/Retract)_
 
 [[!redirects retracts]]
 
