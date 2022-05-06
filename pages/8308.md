@@ -14,7 +14,7 @@ A [[morphism]] $A_1, \cdots, A_n \to B$ in a [[multicategory]].
 
 * [[binary morphism]], **multimorphism**
 
-* [[bifunctor]]
+* [[bifunctor]], [[multifunctor]]
 
 
 [[!redirects multimorphism]]
