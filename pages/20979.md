@@ -39,6 +39,8 @@ and are identified  ([AF 96](#AF96)) with the un-traced [[Wilson loop observable
 > from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
+The main other known universal Vassiliev iunvariant is the [[Kontsevich integral]] (see [Lescop 02](#Lescop02) for the comparison).
+
 \linebreak
 
 ## Ingredients
@@ -326,10 +328,13 @@ Review:
 
 * [[David Jackson]], [[Iain Moffat]], Section 18 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
+### Comparison
+
+Comparison between the two main [[universal Vassiliev invariants]]: the [[Kontsevich integral]] and the [[Wilson loop observable]] of [[perturbative quantization of 3d Chern-Simons theory|perturbatively quantized]] [[Chern-Simons theory]]:
+
+* {#Lescop02} [[Christine Lescop]], _On configuration space integrals for links_, Geom. Topol. Monogr. 4 (2002) 183-199 ([arXiv:math/0211062](https://arxiv.org/abs/math/0211062))
+
 ### Special values
-
-
-
 
 Computation of the [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons]]  [[Wilson loop observable]] ([[universal Vassiliev invariant]]) of the [[unknot]] ("[[Wheels theorem]]"):
 
