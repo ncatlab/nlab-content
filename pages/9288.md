@@ -643,7 +643,7 @@ how forming a [[fiber infinity-bundle|fiber 2-bundle]] of [[2-lines]] as above p
 
 The notions of [[2-rings]] and [[2-modules]] are nicely set up in 
 
-* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  {#CJF}
 
 The $(\infty,2)$-category of $A_\infty$-algebras and $\infty$-bimodules between them is constructed in section 3.4 of
