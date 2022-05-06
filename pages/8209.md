@@ -91,6 +91,9 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 
 * {#Blaizot04} Jean-Paul Blaizot, around p. 17 of _Thermodynamics of the high temperature Quark-Gluon Plasma_, AIP Conf. Proc. 739, 63-96 (2004) ([doi:10.1063/1.1843592](https://doi.org/10.1063/1.1843592))
 
+* Jacopo Ghiglieri, Aleksi Kurkela, Michael Strickland, Aleksi Vuorinen, _Perturbative Thermal QCD: Formalism and Applications_ ([arXiv:2002.10188](https://arxiv.org/abs/2002.10188))
+
+
 See also
 
 * Wikipedia, _[Quark-Gluon plasma](http://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma)_
