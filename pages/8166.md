@@ -1,5 +1,6 @@
 > This entry is about the notion in [[physics]]. For the notion of _model_ in [[logic]] see at _[[model (logic)]]_.
 
+
 ***
 
 +-- {: .rightHandSide}
@@ -33,6 +34,12 @@ It is generally understood that models are approximations to reality. The prover
 
 
 ## Examples
+
+### In theoretical physics
+
+* [[lattice model]]
+
+  * [[Ising model]]
 
 ### In particle physics
 
