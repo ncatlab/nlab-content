@@ -145,12 +145,24 @@ are [[long exact sequences]] of [[abelian groups]].
 
 
 ## Related concepts
+ {#RelatedConcepts}
 
 * [[long exact sequence in homology]]
 
   * [[long exact sequence in chain homology]]
 
 * [[long exact sequence of homotopy groups]]
+
+* On a [[homotopy fiber sequence]] of spaces (instead of a cofiber sequence) there is, in general, no exact sequence of cohomolgy groups; but instead there is 
+
+  * the [[Serre spectral sequence]].
+
+  However, in special cases this reduces again to a long exact sequence in cohomology:
+
+  * the [[Serre long exact sequence]] for sufficiently highly connected base and fiber spaces;
+
+  * the [[Thom-Gysin sequence]] for [[spherical fibrations]].
+
 
 ## References
 
