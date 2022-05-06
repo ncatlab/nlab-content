@@ -122,7 +122,7 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 
 Relation to [[measure theory]] is discussed in
 
-* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
+* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf), [d-scholarship:7348](http://d-scholarship.pitt.edu/7348))
 
 * {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambridge Philosophical Society, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605))
 
