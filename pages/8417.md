@@ -28,6 +28,8 @@ In principle, any [[interaction]] between two [[physical systems]] is a __measur
 
 * [[experiment]]
 
+* [[empiricism]]
+
 * [[computable physics]]
 
 ## References
