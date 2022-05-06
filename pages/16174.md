@@ -64,17 +64,18 @@ uniquely defined by the [[equation]]
 ###### Proposition
 **([[Burnside ring]] product in terms of [[table of marks]])**
 
-The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)^{m \ell} \right)$ (which exists by [this Prop.](table+of+marks#TableOfMarksIsInvertibleUpperTriangular)):
+The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $M$ and its [[inverse matrix]] $M^{-1}$ (which exists by [this Prop.](table+of+marks#TableOfMarksIsInvertibleUpperTriangular)):
 
 $$
-  n_{i j}^\ell
+  n_{i j}^l
   \;=\;
-  \underset{m}{\sum}
+  \underset{1 \leq m \leq t}{\sum}
   M_{i m} \cdot M_{j m}
   \cdot
-  (M^{-1})^{m \ell}
+  (M^{-1})_{m l}
 $$
 
+where $t$ is the dimension of $M$, i.e. $M$ is a $t \times t$ matrix.
 =--
 
 For [[proof]] see at _[[table of marks]]_, [this Prop.](table+of+marks#BurnsideProductInTermsOfTableOfMarks)
