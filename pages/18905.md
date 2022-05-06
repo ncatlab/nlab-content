@@ -28,7 +28,7 @@ In good situations [[Wick rotation]] relates Euclidean field theory with [[relat
 ### Thermal quantum field theory via periodic Euclidean time
  {#ThermalQuantumFieldTheoryViaPeriodicEuclideanTime}
 
-The equal-time [[n-point functions]] in [[relativistic field theory]] on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ in a [[vacuum state]] reflecting equilibrium at [[finite number|finite]] [[temperature]] $T$ may be argued ([Bloch 58](#Bloch58)) to be computed equivalently by Euclidean field theory on the [[Cartesian product]] $\mathbb{R}^d \times S^1$ of [[Euclidean space]] $\mathbb{R}^d$ with a [[circle]] $S^1$ of [[length|circumference]] $\beta \coloneqq 1/T$ (e.g. [Moore 03, section 1.1](#Moore03)):
+The equal-time [[n-point functions]] in [[relativistic field theory]] on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ in a [[vacuum state]] reflecting equilibrium at [[finite number|finite]] [[temperature]] $T$ may be argued ([Bloch 58](#Bloch58)) to be computed equivalently by Euclidean field theory on the [[Cartesian product]] $\mathbb{R}^d \times S^1$ of [[Euclidean space]] $\mathbb{R}^d$ with a [[circle]] $S^1$ of [[length|circumference]] $\beta \coloneqq 1/T$:
 
 $$
   \underset{
@@ -50,8 +50,9 @@ $$
   }}
 $$
 
+(see e.g. [Moore 03, section 1.1](#Moore03) for the quick informal [[path integral]]-idea and see [Fulling-Ruijsenaars 87, section 2, (2.50)](#FullingRuijsenaars87) for a careful discussion).
 
-This perspective is known as _[[thermal quantum field theory]]_ or similar, the use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to[Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67)).
+This perspective is known as _[[thermal quantum field theory]]_ or similar, the use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to [Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67), see [Fulling-Ruijsenaars 87, section 3.1](#FullingRuijsenaars87)).
 
 (e.g. [Thoma 00, section 2.2](#Thoma00), [Peeters-Zamaklar 09, section 1.3](#PeetersZamaklar09))
 
@@ -82,6 +83,8 @@ This perspective is known as _[[thermal quantum field theory]]_ or similar, the 
 
 ### Thermal quantum field theory:
 
+A good introduction is in [Fulling-Ruijsenaars 87, section 2](#FullingRuijsenaars87).
+
 The idea goes back to 
 
 * {#Bloch58} Claude Bloch, _Sur la détermination de l'état fondamental d'un système de particules_,  Nucl. Phys. 7 (1958) 451
@@ -94,7 +97,9 @@ The KMS condition is due to
 
 * {#HaagHugenholtzWinnink67} [[Rudolf Haag]], N. M. Hugenholtz, M. Winnink, _On the equilibrium states in quantum statistical mechanics_, Comm. Math. Phys. Volume 5, Number 3 (1967), 215-236 ([euclid:1103840050](https://projecteuclid.org/euclid.cmp/1103840050))
 
-Review includes
+Review includes 
+
+* [Fulling-Ruijsenaars 87, sections 2 and 3](#FullingRuijsenaars87)
 
 * {#LandsmanVanWert87} [[Klaas Landsman]], Ch.G.van Weert, _Real- and imaginary-time field theory at finite temperature and density_, Physics Reports Volume 145, Issues 3–4, January 1987, Pages 141-249 (<a href="https://doi.org/10.1016/0370-1573(87)90121-9">doi:10.1016/0370-1573(87)90121-9</a>)
 
@@ -138,6 +143,10 @@ See also
 
 [[!redirects thermal quantum field theory]]
 [[!redirects thermal quantum field theories]]
+
+[[!redirects thermal field theory]]
+[[!redirects thermal field theories]]
+
 
 [[!redirects Matsubara formalism]]
 [[!redirects Matsubara formalisms]]
