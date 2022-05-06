@@ -184,13 +184,32 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB stri
 
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
 
-* G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
+* {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
 
 
-The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on orientifolds:
+* {#AFIRU00a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
 
-* {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
+* {#AFIRU00b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
 
+* {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
+
+* {#Honecker01} [[Gabriele Honecker]], _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
+
+* {#Honecker02a} [[Gabriele Honecker]], _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
+
+* {#Honecker02b} [[Gabriele Honecker]], _Non-supersymmetric orientifolds and chiral fermions from intersecting D6- and D8-branes_, thesis 2002 ([[HoneckerIntersectingDBraneModels02.pdf:file]])
+
+Specifically for [[D6-branes]]:
+
+* {#IshiharaKataokaSato99} S. Ishihara, H. Kataoka, Hikaru Sato, _$D=4$, $N=1$, Type IIA Orientifolds_, Phys. Rev. D60 (1999) 126005 ([arXiv:hep-th/9908017](https://arxiv.org/abs/hep-th/9908017))
+
+Specifically for [[D3-branes]]:
+
+* {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+
+Various:
+
+* [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv.Theor.Math.Phys.12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
 
 
 ### Lift to M-theory
