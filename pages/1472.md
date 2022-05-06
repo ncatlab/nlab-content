@@ -506,11 +506,17 @@ The following book-to-be aims to give picture of the present state of the art of
 
 * [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
+Amplifying the ambition towards [[Hilbert's sixth problem]]:
+
+* {#MartinsBiezuner20} [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Towards An Approach to Hilbert's Sixth Problem: A Brief Review_, 2020 ([hal:02909681](https://hal.archives-ouvertes.fr/hal-02909681), [pdf](https://hal.archives-ouvertes.fr/hal-02909681/document))
+
+
+
 ### Monographs on cohomology and higher gauge theory
 
 An unusually comprehensive collection of detailed discussion of bundles, higher bundles, cohomology, characteristic classes, etc. with an eye on applications in physics is
 
-* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jur?o]], Martin Schottenloher,  _Basic bundle theory and K-cohomology invariants_ , Springer Lecture Notes in Physics 726, 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf))
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurco]], Martin Schottenloher,  _Basic bundle theory and K-cohomology invariants_ , Springer Lecture Notes in Physics 726, 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf))
 
 ### On formal quantum field theory
 
