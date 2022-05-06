@@ -66,9 +66,14 @@ The 0-ary relations $(0,b)\sim 0$ and $(a,0)\sim 0$ follow automatically; one ne
 By definition of the [[free construction]] and the [[quotient]] there is a canonical [[function]] of the underlying sets
 
 $$
-  A \times B \stackrel{\otimes}{\to} A \otimes B
-  \,.
+  p_{A,B}
+  \;\colon\;
+  U(A) \times U(B) 
+  \overset{}{\longrightarrow} 
+  U(A \otimes B)
 $$
+
+(where $U \colon Ab \to Set$ is the [[forgetful functor]]).
 
 On elements this sends $(a,b)$ to the equivalence class that it represents under the above equivalence relations.
 
