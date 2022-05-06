@@ -95,7 +95,7 @@ such that the trivializing form has (minus) unit [[integration of differential f
 
 =--
 
-(e.g. [Walschap 04, Chapter 6.6, Thm. 6.1, p. 201-202](#Walschap04), [Poor 07, 3.68](#Poor07))
+(e.g. [Walschap 04, Chapter 6.6, Thm. 6.1, p. 201-202](#Walschap04), [Poor 07, 3.68](#Poor07), [Nie 09](#Nie09))
 
 ### Fiber integration
 
@@ -235,6 +235,9 @@ Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler 
 * [Walschap 04, section 6.3](#Walschap04)
 
 * {#Poor07} Walter A. Poor, 3.58 of _Differential Geometric Structures_, Dover Books on Mathematics, 2007
+
+
+* {#Nie09} Zhaohu Nie, _Secondary Chern-Euler forms and the Law of Vector Fields_ ([arXiv:0909.4754](https://arxiv.org/abs/0909.4754)
 
 
 * [[Hiro Lee Tanaka]], _Pfaffians and the Euler class_, 2014 ([pdf](http://www.hiroleetanaka.com/pdfs/2014-fall-230a-lecture-26-gauss-bonnet-chern.pdf))
