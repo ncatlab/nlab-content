@@ -147,6 +147,9 @@ Arguments that super-exceptional M-geometry for $n = 11$ is in fact a further fe
 
 * [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes|Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781 2018  ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233))
 
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
+
+
 A super-exceptional geometry for $n = 7$:
 
 * Daniel Butter, [[Henning Samtleben]], [[Ergin Sezgin]], _$E_{7(7)}$ Exceptional Field Theory in Superspace_, JHEP01(2019)087 ([arXiv:1811.00038](https://arxiv.org/abs/1811.00038))
