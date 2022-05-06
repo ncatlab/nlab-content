@@ -124,7 +124,9 @@ A good account of the Cartan model is in
 
 A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model) is in
 
-* {#Kalkman93} Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](http://cds.cern.ch/record/568522/files/9308132.pdf) (original ArXiv pdf broken)), published versions at  ([projectEuclid](http://projecteuclid.org/euclid.cmp/1104252784))
+* {#Kalkman93} Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](https://arxiv.org/abs/hep-th/9308132), [cds:9308132](http://cds.cern.ch/record/568522), [euclid:1104252784](http://projecteuclid.org/euclid.cmp/1104252784))
+
+  (original arXiv pdf broken)
 
 Discussion in the broader context of [[equivariant cohomology|equivariant]] [[differential cohomology]] is in
 
