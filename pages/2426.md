@@ -29,11 +29,19 @@ A _Riemannian manifold_ is a [[smooth manifold]] equipped with a [[Riemannian me
 
 See also [[pseudo-Riemannian manifold]]
 
+## Properties
+
+### As $\mathbb{R}$-Riemannian manifolds
+
+[[!include normed division algebra Riemannian geometry -- table]]
+
 ## Examples
 
 * [[Euclidean space]]
 
 * [[round sphere]], [[Riemann sphere]]
+
+* [[Taub-NUT space]], [[ALE space]]
 
 ## Related concepts
 
