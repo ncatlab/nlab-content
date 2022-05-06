@@ -211,6 +211,14 @@ $$
 
 ### General
 
+The original article:
+
+* [[John Adams]], _Vector fields on spheres_, Bull. Amer. Math. Soc. Volume 68, Number 1 (1962), 39-41 ([euclid:bams/1183524456](https://projecteuclid.org/euclid.bams/1183524456))
+
+Review:
+
+* {#AguilarGitlerPrieto} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Section 10 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002)
+
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 11 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 * {#Hatcher} [[Allen Hatcher]], section 2.3 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
