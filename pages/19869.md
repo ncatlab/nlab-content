@@ -183,7 +183,7 @@ $$ \frac{\Gamma \vdash T \Rightarrow A \qquad \Gamma, x:A, \Gamma' \vdash \mathc
 
 ### Sanity check
 
-Sanity checks are theorems about the formal judgments the provide some confidence that the rules are propagating validity presuppositions correctly. Since we have only one judgment form that establishes any of its presuppositions, there seems to be only one sanity check we can do:
+Sanity checks are theorems about the formal judgments that provide some confidence that the rules are propagating validity presuppositions correctly. Since we have only one judgment form that establishes any of its presuppositions, there seems to be only one sanity check we can do:
 
 If $\Gamma ok$ and $\Gamma \vdash M \Rightarrow A$ then $\Gamma \vdash A type$.
 
