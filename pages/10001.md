@@ -135,7 +135,7 @@ A detailed analysis of the three twists of the $N=4$ theory is in
 
 Discussion of generalization of the twisting to [[quantum field theory on curved spacetime]] is in 
 
-* Jeong-Hyuck Park, Dimitrios Tsimpis, _Topological twisting of conformal supercharges_, Nucl. Phys. B776:405-430,2007 ([arXiv:hep-th/0610159](http://arxiv.org/abs/hep-th/0610159))
+* [[Jeong-Hyuck Park]], [[Dimitrios Tsimpis]], _Topological twisting of conformal supercharges_, Nucl. Phys. B776:405-430, 2007 ([arXiv:hep-th/0610159](http://arxiv.org/abs/hep-th/0610159))
 
 Section 2.2.1 of 
 
