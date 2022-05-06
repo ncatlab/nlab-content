@@ -120,6 +120,8 @@ Lecture notes include
 
 * [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_
 
+* [[David Barnes]], [[Constanze Roitzheim]], _Foundations of Stable Homotopy Theory_ ([pdf](https://www.kent.ac.uk/smsas/personal/csrr/stablemodelcatsCUP.pdf))
+
 See also
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
