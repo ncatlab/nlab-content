@@ -45,7 +45,9 @@ The contribution of the constituents ([[quarks]], [[gluons]]) to the total [[spi
 
 ## Related entries
 
-[[!include fields and quanta - table]]
+* [[neutron]]
+
+* [[Lambda baryon]]
 
 
 ## References
