@@ -77,11 +77,11 @@ Book references include:
 
 Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
 
-* {#Moroianu} Andrei Moroianu and Uwe Semmelmann, "Killing Forms on Quaternion-Kahler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
+* {#Moroianu} Andrei Moroianu and Uwe Semmelmann, "Killing Forms on Quaternion-Kähler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
 
 * {#PerdersonSwannPoon} Pedersen, Poon, and Swann. "Hypercomplex structures associated to quaternionic manifolds",  Differential Geometry and its Applications (1998) 273-293 North-Holland.
 
-* {#Verbitsky} [[Misha Verbitsky]], "Hyperkahler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
+* {#Verbitsky} [[Misha Verbitsky]], "Hyperkähler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
 
 * {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
 
