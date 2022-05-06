@@ -338,3 +338,8 @@ with an emphases on [[parameterized spectra]].
 [[!redirects Pontryagin-Thom collapse maps]]
 [[!redirects Pontrjagin-Thom collapse maps]]
 
+[[!redirects Pontrjagin-Thom collapse construction]]
+[[!redirects Pontrjagin-Thom collapse constructions]]
+[[!redirects Pontryagin-Thom collapse construction]]
+[[!redirects Pontryagin-Thom collapse constructions]]
+
