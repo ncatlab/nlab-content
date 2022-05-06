@@ -20,9 +20,9 @@
 
 ## Idea
 
-A _neutron_ is a [[bound state]] of three [[quarks]], hence a [[baryon]].
+A _neutron_ is certain a [[bound state]] of three [[quarks]], hence a [[baryon]].
 
-The bound states of [[protons]] and [[neutrons]] are called [[nucleus (physics)|nuclei]], the core of [[atoms]].
+The [[bound states]] of [[protons]] and [[neutrons]] (jointly: [[nucleons]]) in turn are the [[nucleus (physics)|nuclei]], the cores of [[atoms]].
 
 
 ## Related entries
