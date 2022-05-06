@@ -25,7 +25,7 @@ The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]
 <img src="https://ncatlab.org/nlab/files/QCDPhaseDiagram.jpg" width="400">
 </center>
 
-> **Schematic [[phase diagram]] of [[QCD]].** The vertical axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough tempeterature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
+> **Schematic [[phase diagram]] of [[QCD]].** The vertical axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough temperature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
 
 > graphics grabbed from [Blaizot 03](#Blaizot03).
 
@@ -103,7 +103,7 @@ Expositions and reviews include
 * {#Brambilla14} Brambilla et al., section 9.2.2 of _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
 
-Holographic discussion of the [[shear viscosity]] of the quark-gluon plasema goes back to
+Holographic discussion of the [[shear viscosity]] of the quark-gluon plasma goes back to
 
 * {#PolicastroSonStarinets01} [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled $N=4$ supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
 
