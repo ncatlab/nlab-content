@@ -75,6 +75,10 @@ The [[Boardman-Vogt resolution]] of the [[operad]] for [[local nets of observabl
 
 * {#Yau18} [[Donald Yau]], _Homotopical Quantum Field Theory_ ([arXiv:1802.08101](https://arxiv.org/abs/1802.08101))
 
+Assignment of [[BV-BRST complexes]] as a homotopy AQFT is discussed in
+
+* {#BeniniBruinsmaSchenkel19} [[Marco Benini]], Simen Bruinsma, [[Alexander Schenkel]], _Linear Yang-Mills theory as a homotopy AQFT_ ([arXiv:1906.00999](https://arxiv.org/abs/1906.00999))
+
 [[!redirects homotopical algebraic quantum field theories]]
 
 [[!redirects homotopical AQFT]]
