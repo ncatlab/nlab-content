@@ -21,13 +21,13 @@
 
 ## Idea
 
-What is called _Thom's theorem_ or the _Pontrjagin-Thom isomorphism_ (due to [Thom 54](#Thom54), [Pontrjagin 55](#Pontrjagin55)) states that for a given universal [[G-structure]] the [[homotopy group of a spectrum|stable homotopy groups]] of the universal [[Thom spectrum]] $M G$, with its canonical [[ring spectrum]] structure form, the [[cobordism ring]]
+What is called _Thom's theorem_ or the _Pontrjagin-Thom isomorphism_ (due to [Thom 54](#Thom54), [Pontrjagin 55](#Pontrjagin55)) states that for a given universal [[tangential structure]] the [[homotopy group of a spectrum|stable homotopy groups]] of the universal [[Thom spectrum]] $M G$, with its canonical [[ring spectrum]] structure form, the [[cobordism ring]]
 
 $$
   \Omega^G_\bullet \simeq \pi_\bullet(M G)
 $$
 
-of manifolds with [[G-structure]], and that this [[isomorphism]] is exhibited by the [[Pontryagin-Thom construction]] (see [there](Pontrjagin-Thom+collapse+map#ForEmbeddingsIntoAnNSphere)).
+of manifolds with [[tangential structure]], and that this [[isomorphism]] is exhibited by the [[Pontryagin-Thom construction]] (see [there](Pontrjagin-Thom+collapse+map#ForEmbeddingsIntoAnNSphere)).
 
 More generally, for $X$ a [[topological space]], then the group of $G$-bordism classes of $G$-manifolds in $X$ is isomorphic to the [[generalized homology]] of $X$ with [[coefficients]] in $M G$:
 
@@ -42,7 +42,7 @@ $$
 ## Ingredients
  {#Ingredients}
 
-### $G$-Structure on the Stable normal bundle
+### Tangential structure on the Stable normal bundle
 
 +-- {: .num_defn #ClassifyingMapOfNormalBundle}
 ###### Definition
@@ -91,7 +91,7 @@ $$
 +-- {: .num_defn #BfStructure}
 ###### Definition
 
-A **$(B,f)$-structure** is 
+A **[[tangential structure|(B,f)-structure]]** is 
 
 1. for each $n\in \mathbb{N}$ a [[pointed topological space|pointed]] [[CW-complex]] $B_n \in Top_{CW}^{\ast/}$
 
@@ -818,7 +818,7 @@ by remark \ref{ThomSpaceForRankZeroBundle}.
 +-- {: .num_example}
 ###### Example
 
-The universal [[Thom spectrum]] (def. \ref{UniversalThomSpectrumForBfStructure}) for _[[framing]] structure_ ([exmpl.](G-structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StandardSphereSpectrum))
+The universal [[Thom spectrum]] (def. \ref{UniversalThomSpectrumForBfStructure}) for _[[framing]] structure_ ([exmpl.](tangential+structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StandardSphereSpectrum))
 
 $$
   M 1 \simeq \mathbb{S}
