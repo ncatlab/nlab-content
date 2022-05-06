@@ -19,6 +19,11 @@ Accordingly, the [[global sections]] of $\mathcal{O}^{top}$ over $\mathcal{M}_{\
 
 As suggested there and by the main ([Lawson-Naumann 12, theorem 1.2](#LawsonNaumann12)) this realizes (at least localized at $p = 2$) the inclusion $KO \to KU$ as the restriction of an analogous inclusion of [[tmf]] built as the global sections of the similarly derived [[moduli stack of elliptic curves]].
 
+## Related concepts
+
+[[!include moduli spaces -- contents]]
+
+
 
 ## References
 Discussion of $KU$ with its $\mathbb{Z}_2$-action as the [[E-∞ ring]]-valued [[structure sheaf]] of the moduli stack of tori is due to 
