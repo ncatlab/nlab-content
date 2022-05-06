@@ -177,6 +177,11 @@ Further development:
 
 * T.Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
+Relation to the [[complex Hopf fibration]]:
+
+* Sven Bjarke Gudnason, Muneto Nitta, _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762))
+
+
 See also
 
 * Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
