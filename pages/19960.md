@@ -1004,6 +1004,9 @@ Other original articles include:
 
 * Mansi Dhuria, Aalok Misra, _Towards MQGP_, JHEP 1311 (2013) 001 ([arXiv:1306.4339](https://arxiv.org/abs/1306.4339))
 
+* Irina Ya. Aref'eva, Kristina Rannu, Pavel Slepov, _Energy Loss in Holographic Anisotropic Model for Heavy Quarks in External Magnetic Field_ ([arXiv:2012.05758](https://arxiv.org/abs/2012.05758))
+
+
 
 ### Application to lepton anomalous magnetic moment
 
