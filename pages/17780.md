@@ -29,4 +29,8 @@ Classification results are discussed in
 
 * Sigbj&#248;rn Hervik, Tom&#225;&#353; M&#225;lek, [[Vojtěch Pravda]], Alena Pravdov&#225;, _Type II universal spacetimes_, Class. Quantum Grav. 32: 245012, 2015 ([arXiv:1503.08448](https://arxiv.org/abs/1503.08448))
 
+* Sigbjørn Hervik, [[Vojtěch Pravda]], Alena Pravdová, _Universal spacetimes in four dimensions_, JHEP 1710 (2017): 28 ([arXiv:1707.00264](https://arxiv.org/abs/1707.00264))
+
+* Martin Kuchynka, Tomáš Málek, [[Vojtěch Pravda]], Alena Pravdová, _Almost universal spacetimes in higher-order gravity theories_ ([arXiv:1810.02178](https://arxiv.org/abs/1810.02178))
+
 [[!redirects universal spacetimes]]
