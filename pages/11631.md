@@ -20,7 +20,13 @@ This page collects links related to the textbook
 
 on [[string theory]] and [[M-theory]].
 
-For related texts see at _[[books about string theory]]_
+For related texts see at _[[books about string theory]]_.
+
+\linebreak
+
+See also at _[[string theory FAQ]]_
+
+
 
 #Contents#
 * table of contents
