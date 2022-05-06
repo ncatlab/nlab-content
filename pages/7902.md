@@ -63,9 +63,12 @@ In $SU(2)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jon
 
 ### General
 
-* Kenneth Wilson, _Confinement of quarks_, Physical Review __D 10__ (8): 2445. [doi](http://dx.doi.org/10.1103/PhysRevD.10.2445) (1974)
+* [[Kenneth Wilson]], _Confinement of quarks_, Physical Review __D 10__ (8): 2445. [doi](http://dx.doi.org/10.1103/PhysRevD.10.2445) (1974)
+
 * Yuri Makeenko, _Methods of contemporary gauge theory_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)
-* wikipedia [Wilson loop](http://en.wikipedia.org/wiki/Wilson_loop)
+
+* Wikipedia [Wilson loop](http://en.wikipedia.org/wiki/Wilson_loop)
+
 * R. Giles, _Reconstruction of gauge potentials from Wilson loops_, Physical Review __D 24__ (8): 2160, [doi](http://dx.doi.org/10.1103/PhysRevD.24.2160)
 
 * A. Andrasi, J. C. Taylor, _Renormalization of Wilson operators in Minkowski space_, Nucl. Phys. B516 (1998) 417, [hep-th/9601122](http://arxiv.org/abs/hep-th/9601122)
@@ -73,6 +76,14 @@ In $SU(2)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jon
 * Amit Sever, Pedro Vieira, Luis F. Alday, Juan Maldacena, [[Davide Gaiotto]], _An Operator product expansion for polygonal null Wilson loops_, [arxiv.org/abs/1006.2788](http://arxiv.org/abs/1006.2788)
 
 ### In Chern-Simons theory
+
+Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
+
+* E. Guadagnini, _Surgery rules in quantum Chern-Simons field theory_, Nuclear Physics B
+Volume 375, Issue 2, 18 May 1992, Pages 381-398 (<a href="https://doi.org/10.1016/0550-3213(92)90037-C">doi:10.1016/0550-3213(92)90037-C</a>)
+
+* Boguslaw Broda, _Chern-Simons theory on an arbitrary manifold via surgery_ ([arXiv:hep-th/9305051](https://arxiv.org/abs/hep-th/9305051))
+
 
 The [[Poisson bracket]] of Wilson line observables in [[3d Chern-Simons theory]] was obtained in 
 
