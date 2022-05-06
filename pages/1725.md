@@ -35,7 +35,7 @@ See also the list of all definitions of higher categories at [[(∞,n)-category]
 
 ### Models for the $(\infty,1)$-category of $(\infty,2)$-categories {#TotMod}
 
-In _[[(∞,2)-Categories and the Goodwillie Calculus]]_ [[Jacob Lurie]] discusses a variety of [[model category]] structures, all [[Quillen equivalence|Quillen equivalent]], that all model the [[(∞,1)-category]] of $(\infty,2)$-categories, in generalization of the standard model category models for [[(∞,1)-category|(∞,1)-categories]] themselves (see there for details).
+In _[[(∞,2)-Categories and the Goodwillie Calculus]]_ [[Jacob Lurie]] discusses a variety of [[model category]] structures, all [[Quillen equivalence|Quillen equivalent]], that all model the [[(∞,2)-category]] of $(\infty,1)$-categories, in generalization of the standard model category models for [[(∞,1)-category|(∞,1)-categories]] themselves (see there for details).
 
 Recall that 
 
