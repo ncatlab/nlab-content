@@ -77,6 +77,9 @@ The M5-brane admits two solitonic excitations ($p$-branes within branes)
 
 * $p = 3$: the [[3-brane in 6d]] (see there for more)
 
+See also 
+
+* [[M2-M5 brane bound state]]
 
 ### Dimensional reduction
 
