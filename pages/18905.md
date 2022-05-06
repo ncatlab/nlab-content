@@ -31,8 +31,16 @@ $$
 
 This is in contrast to the analogous condition in [[relativistic field theory]] whose _[[causal locality]]_ requires this implication only if the two [[supports]] are in addition [[spacelike]]-separated.
 
+Equivalently this means that the [[n-point functions]] of Euclidean field theories are [[distributions of several variables]] with [[singularities]] on the [[fat diagonal]] (instead of on all of the relative [[light cones]], as for [[relativistic field theory]]). This means that Euclidean $n$-point functions [[restriction of distributions|restrict]] to [[non-singular distributions]] on the [[configuration spaces of points|configuration space of n points]], allowing to express [[correlators as differential forms on configuration spaces of points]]. Systematic discussion of [[perturbative quantum field theory|perturbative]] [[renormalization|renormalized]] Euclidean field theory from this perspective is due to [Bergbauer-Brunetti-Kreimer 09](#BergbauerBrunettiKreimer09), [Berghoff 14a](#Berghoff14a), [Berghoff 14b](#Berghoff14b).
+
 This Euclidean locality property applies in particular in [[statistical mechanics]], where the "[[field (physics)|fields]]" of the field theory are not thought of as encoding the [[spacetime]]-behaviour of [[fundamental particles]] as governed by [[quantum physics]], but instead the spatial [[expectation values]] (at any given time) of [[equilibrium]] [[thermodynamics|thermodynamic]]-processes governed by [[classical physics]].
-An archetypical example of a Euclidean field theory in this thermodynamic sense is the [[Ising model]]. 
+
+An archetypical example of a Euclidean field theory in this thermodynamic sense is the [[Ising model]]. Generally, most [[2d conformal field theories]] considered are Euclidean field theories and (should) have the interpretation of describing [[thermodynamics|thermodynamical]] systems "at criticality".
+
+However, other Euclidean [[2d CFTs]] are not necessarily regarded as thermodynamical systems, notably the [[worldsheet]]-field theories defining a [[string perturbation series]] in [[perturbative string theory]]. 
+
+Another broad class of examples of Euclidean field theories are [[topological quantum field theories]] after their [[diffeomorphism]]-[[symmetry]] is partially [[gauge fixing|gauge fixed]] by a choice of [[Riemannian metric]]. The archetypical example here is [[perturbative quantum field theory|perturbative]] [[Chern-Simons theory]], see [there](Chern-Simons+theory#FeynmanPerturbationSeries) for more.
+
 
 ### Wick rotation to Relativistic Field theory
 
@@ -142,7 +150,18 @@ General introduction to Euclidean and thermal field theory includes [Thoma 00, s
 
 ### General
 
+General introduction to Euclidean field theory includes
+
 * {#PeetersZamaklar09} [[Kasper Peeters]], [[Marija Zamaklar]], _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
+
+A systematic development of Euclidean [[renormalization|renormalized]] [[perturbative quantum field theory]] with [[correlators as differential forms on configuration spaces of points]] is described in
+
+* {#BergbauerBrunettiKreimer09} [[Christoph Bergbauer]], [[Romeo Brunetti]], [[Dirk Kreimer]], _Renormalization and resolution of singularities_ ([arXiv:0908.0633](https://arxiv.org/abs/0908.0633))
+
+* {#Berghoff14a} [[Marko Berghoff]], _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
+
+* {#Berghoff14b} [[Marko Berghoff]], _Wonderful compactifications in quantum field theory_,  Communications in Number Theory and Physics Volume 9 (2015) Number 3 ([arXiv:1411.5583](https://arxiv.org/abs/1411.5583))
+
 
 ### Thermal quantum field theory:
 
