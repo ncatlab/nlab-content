@@ -690,7 +690,7 @@ for a unique $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the
 
 Let $R: \mathcal{D} \to \mathcal{C}$ be a [[functor]] and $c \in \mathcal{C}$ an [[object]]. Then the following are equivalent:
 
-1. $c \overset{\eta_c}{\to} R(d)$ is a [[universal morphism]] into $R(d)$ (Def. \ref{UniversalArrow});
+1. $c \overset{\eta_c}{\to} R(L(c))$ is a [[universal morphism]] into $R(L(c))$ (Def. \ref{UniversalArrow});
 
 1. $(c, \eta_c)$ is the [[initial object]] in the [[comma category]] $c/R$.
 
