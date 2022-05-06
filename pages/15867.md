@@ -7,7 +7,7 @@ A __W algebra__ is a higher spin extension of the [[Virasoro algebra]].
 ## References
 
 
-* [[Peter Bouwknegt]], Jim McCarthy, Krzysztof Pilch, _The $W_3$ algebra: modules, semi-infinite cohomology, and BV algebras_, Lec. Notes in Phys. __42__, Springer 1996
+* [[Peter Bouwknegt]], Jim McCarthy, [[Krzysztof Pilch]], _The $W_3$ algebra: modules, semi-infinite cohomology, and BV algebras_, Lec. Notes in Phys. __42__, Springer 1996 ([doi:10.1007/978-3-540-68719-1](https://link.springer.com/book/10.1007/978-3-540-68719-1))
 
 * Wikipedia, _[W-algebra](https://en.wikipedia.org/wiki/W-algebra#CITEREFBouwknegt1993)_
 
