@@ -1,16 +1,19 @@
 
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Experiments
++-- {: .hide}
+[[!include experiments -- contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
+
 
 
 #Contents#
