@@ -1,14 +1,22 @@
 
 ### Holographic Schwinger effect
- {#HolographicSchwingerEffectReferences}
+{#HolographicSchwingerEffectReferences}
 
 Interpretation in [[holographic QCD]] of the [[Schwinger effect]] of [[vacuum polarization]] as exhibited by the [[DBI-action]] on [[flavor branes]]:
+
+Precursor computation in [[open string|open]] [[string theory]]:
+
+* [[Constantin Bachas]], [[Massimo Porrati]], _Pair Creation of Open Strings in an Electric Field_, Phys. Lett. B296 (1992) 77-84 ([arXiv:hep-th/9209032](https://arxiv.org/abs/hep-th/9209032))
+
+Relation to the [[DBI-action]] of a probe brane in [[AdS/CFT]]:
 
 * {#SemenoffZarembo11} [[Gordon Semenoff]], [[Konstantin Zarembo]], _Holographic Schwinger Effect_, Phys. Rev. Lett. 107, 171601 (2011) ([arXiv:1109.2920](https://arxiv.org/abs/1109.2920),  [doi:10.1103/PhysRevLett.107.171601](https://doi.org/10.1103/PhysRevLett.107.171601))
 
 * {#BolognesiKieferRabinovici12} S. Bolognesi, F. Kiefer, E. Rabinovici, _Comments on Critical Electric and Magnetic Fields from Holography_, J. High Energ. Phys. 2013, 174 (2013) ([arXiv:1210.4170](https://arxiv.org/abs/1210.4170))
 
 * Yoshiki Sato, Kentaroh Yoshida, _Holographic description of the Schwinger effect in electric and magnetic fields_,  J. High Energ. Phys. 2013, 111 (2013) ([arXiv:1303.0112](https://arxiv.org/abs/1303.0112))
+
+Relation to [[DBI-action]] of [[flavor branes]] in [[holographic QCD]]:
 
 * {#HashimotoOka13} [[Koji Hashimoto]], [[Takashi Oka]], _Vacuum Instability in Electric Fields via AdS/CFT: Euler-Heisenberg Lagrangian and Planckian Thermalization_, JHEP 10 (2013) 116 ([arXiv:1307.7423](https://arxiv.org/abs/1307.7423))
 
@@ -18,6 +26,8 @@ Interpretation in [[holographic QCD]] of the [[Schwinger effect]] of [[vacuum po
 
 
 * {#HashimotoOkaSonoda14b} [[Koji Hashimoto]], [[Takashi Oka]], [[Akihiko Sonoda]], _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
+
+See also:
 
 * Xing Wu, _Notes on holographic Schwinger effect_, J. High Energ. Phys. 2015, 44 (2015)  ([arXiv:1507.03208](https://arxiv.org/abs/1507.03208), <a href="https://doi.org/10.1007/JHEP09(2015)044">doi:10.1007/JHEP09(2015)044</a>)
 
