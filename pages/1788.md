@@ -12,3 +12,23 @@ Note that $X^{(n)}$ is $n d$ dimensional, and $Y^{\wedge n}$ is $n k$
 connective, so that $D_n(Y)$ is $n(k-d)$-connective.
 The map you are interested in is $p_1\colon F(Y)\to P_1(Y)=D_1(Y)$, whose fiber is built by fiber sequences using $D_n(Y)$ for $n\geq 2$, whence the fiber of $p_1$ is $2(k-d)$-connective.
 I don't know what there is to say when $d\geq k$. 
+
+
+
++-- {: .num_defn #MittagLefflerCondition}
+###### Definition
+
+A tower $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \to A_2 \to A_1 \to A_0
+$$
+
+is said to satify the **[[Mittag-Leffler condition]]** if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
+
+$$
+  im(A_i \to A_k) \simeq im(A_j \to A_k)
+  \,.
+$$
+
+=--
