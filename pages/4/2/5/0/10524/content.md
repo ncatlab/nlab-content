@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include solid state physics -- contents]]
 =--
+#### Topological physics
++--{: .hide}
+[[!include topological physics -- contents]]
+=--
 =--
 =--
 
