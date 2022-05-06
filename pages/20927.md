@@ -1,8 +1,5 @@
 
 
-
-> under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -131,7 +128,7 @@ In this generality, and under the name "generalized metric Lie 3-algebras", this
 
 ## Properties 
 
-### Equivalence with orthogonal representations of metric Lie algebras
+### Equivalence to metric Lie representations
 
 For the following, let the[[ground field]] be the [[real numbers]] and take all [[vector spaces]] involved to be [[real vector space|real]] and [[finite-dimensional vector spaces|finite-dimensional]].
 
@@ -208,7 +205,7 @@ $$
 
 +-- {: .num_defn #TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra}
 ###### Definition
-**(trilinear map induced from orthogonal representation of metric Lie algebra)**
+**(trilinear map induced from [[metric Lie representation]])**
 
 Given an orthogonal representation $\mathfrak{g} \otimes V \overset{\rho}{\to} V$ of a metric Lie algebra as in Def. \ref{ModulesOfMetricLieAlgebras}, define
 
@@ -419,7 +416,19 @@ $$
 
 This is [dMFFMER 08, Prop. 10 and Theorem 11](#dMFFMER08).
 
-(...)
+### Relation to Lie algebra weight systems on chord diagrams
+ {#RelationToLieAlgebraWeightSystemsOnChordDiagrams}
+
+In [[string diagram]]-notation, the trilinear bracket induced by a [[metric Lie representation]] according to Def. \ref{TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra} looks as follows:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/MBrane3AlgebraFromMetricLieRepresentation.jpg" width="600">
+</center>
+
+With Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} this shows that M2-brane 3-algebras are equivalently the datum that [[Lie algebra weight systems]] on [[chord diagrams]] assign to a single chord.
+
+> from [Sati-Schreiber 19]()
+
 
 ## References
 
@@ -439,7 +448,11 @@ further highlighted as such in
 
 * {#Gustavsson07} [[Andreas Gustavsson]], _Algebraic structures on parallel M2-branes_ Nucl. Phys. B811, 66-76 (2009) ([arXiv:0709.1260](https://arxiv.org/abs/0709.1260))
 
-(whence the "BLG" of the [[BLG model]]).
+(whence the "BLG" of the [[BLG model]])
+
+and further explored in
+
+* [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Metric Lie 3-algebras in Bagger-Lambert theory_, JHEP 0808 : 045, 2008 ([arXiv:0806.3242](https://arxiv.org/abs/0806.3242))
 
 From here on a myriad of references followed up. Review includes:
 
@@ -447,7 +460,7 @@ From here on a myriad of references followed up. Review includes:
 
 
 
-### Equivalence to representation of metric Lie algebras
+### Equivalence to metric Lie representations
 
 The full generalized axioms on the M2-brane 3-algebra and first insights into their relation to [[Lie algebra representations]] of [[metric Lie algebras]] is due to
 
