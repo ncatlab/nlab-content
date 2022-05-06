@@ -130,8 +130,13 @@ See also
 
 Relation to [[gravity]] and the zeros of the [[Riemann zeta function]] (hence the [[Riemann hypothesis]]):
 
-* {#HuangStoicaYau19} An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
+* {#HuangStoicaYau19} [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
 
 
+[[!redirects p-adic string theories]]
 
 [[!redirects adelic string theory]]
+[[!redirects adelic string theories]]
+
+[[!redirects p-adic string]]
+[[!redirects p-adic strings]]
