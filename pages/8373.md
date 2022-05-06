@@ -1,4 +1,3 @@
-[[!redirects n-connected map]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,7 +16,9 @@
 ## Idea
  {#Idea}
 
-In [[algebraic topology]], a [[continuous function]] between [[topological spaces]] is called **$n$-connected** if it induces [[isomorphisms]] on all [[homotopy groups]] in degree $\lt n$ and [[epimorphisms]] in degree $n$. In older literature this is often called an **$n$-equivalence**, since an $\infty$-equivalence in this sense is a  _[[weak homotopy equivalence]]_.
+In [[algebraic topology]], a [[continuous function]] between [[topological spaces]] is called **$n$-connected** if it induces [[isomorphisms]] on all [[homotopy groups]] in degree $\lt n$ and [[epimorphisms]] in degree $n$. 
+
+In older literature this is often called an **$n$-equivalence**, since an $\infty$-equivalence in this sense is a  _[[weak homotopy equivalence]]_.
 
 In terms of the [[homotopy theory]] presented by the [[classical model structure on topological spaces]], an $n$-connected function represents an [[n-connected morphism]] in the [[(∞,1)-topos]] [[∞Gpd]].
 
@@ -41,7 +42,7 @@ A map of [[topological space|topological spaces]] $f \colon X \to Y$ is called _
     \begin{matrix}
       S^{i-1} & \overset{u}{\longrightarrow} & X 
       \\
-      \downarrow & & \, \downarrow f 
+      \big\downarrow & & \, \big\downarrow^\mathrlap{f} 
       \\
       D^i & \underset{v}{\longrightarrow} & Y
     \end{matrix}
@@ -62,7 +63,7 @@ For a map $f \colon X \to Y$ and an integer $n \ge -1$ the following conditions 
 
 1. $f$ is $n$-connected.
 
-1. All homotopy fibers of $f$ are $(n-1)$-[[n-connected space|connected]].
+1. All [[homotopy fibers]] of $f$ are $(n-1)$-[[n-connected space|connected]].
 
 =--
 
@@ -86,7 +87,7 @@ Let
 $$
 \begin{matrix}
   B & \longleftarrow & A & \longrightarrow & C \\
-  g \downarrow & & \downarrow f & & \, \downarrow h \\
+  \mathllap{{}^g}\big\downarrow & & \big\downarrow^\mathrlap{f} & & \, \big\downarrow^\mathrlap{h} \\
   B' & \longleftarrow & A' & \longrightarrow & C'
 \end{matrix}
 $$
@@ -103,7 +104,7 @@ Let
 $$
 \begin{matrix}
   Y & \longrightarrow & X & \longleftarrow & Z \\
-  g \downarrow & & \downarrow f & & \, \downarrow h \\
+   \mathllap{{}^g} \big\downarrow & & \big\downarrow^\mathrlap{f} & & \, \big\downarrow^\mathrlap{h} \\
   Y' & \longrightarrow & X' & \longleftarrow & Z'
 \end{matrix}
 $$
@@ -122,11 +123,16 @@ be a commutative diagram of maps of spaces. If $f$ is $(n+1)$-connected and $g$ 
 * {#tomDieck08} [[Tammo tom Dieck]], _Algebraic topology._ European Mathematical Society, Z&#252;rich, 2008.
  
 
+[[!redirects n-connected continuous functions]]
 
 [[!redirects n-connected map]]
 [[!redirects n-connected maps]]
+
 [[!redirects n-simply connected map]]
 [[!redirects n-simply connected maps]]
+
+[[!redirects n-simply connected continuous function]]
+[[!redirects n-simply connected continuous functions]]
 
 [[!redirects n-equivalence]]
 [[!redirects n-equivalences]]
