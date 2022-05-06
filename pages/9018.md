@@ -361,6 +361,11 @@ Discussion of the [[cosmological constant]] in these models includes
 
 * Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
 
-which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
+which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] 
+instantons might yield [[de Sitter spacetime]].
+
+See also
+
+* {#BCHS18} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, Sakura Schafer-Nameki, _Higgs Bundles for M-theory on $G_2$-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
  
 [[!redirects G2 compactifications of M-theory]]
