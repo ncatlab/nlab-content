@@ -1,4 +1,4 @@
-Y
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -76,63 +76,90 @@ is the [[Euler class]] of that vector bundle.
 
 **$n$ even**
 
-If $n = 2k$ is an [[even number]], then
+If $n = 2k$ is an [[even number]], then [[generalized the|the]] [[Sullivan model]] $A_E$ for a rank-$2k$ [[spherical fibration]] over some $X$ with [[Sullivan model]] $A_X$ is
 
-$$
+\[
+  \label{FibS2kModel}
   A_E
   \;=\;
   A_X 
     \otimes 
   \mathbb{Q}
   \Big[
-    \big(\omega_{2k} + \tfrac{1}{2} a_{2k} \big) , \omega_{4k-1}
+    \omega_{2k} , \omega_{4k-1}
   \Big]
   /
   \left(
     \array{
       d 
-      \big( 
-        \omega_{2k} 
-        + 
-        \tfrac{1}{2} a_{2k}
-      \big)
+      \,
+      \omega_{2k}
       &=& 
       0
       \\
       d \omega_{4k-1} 
       & =& 
-      \big(
-         \omega_{2k} 
-          + 
-          \tfrac{1}{2} a_{2k}
-       \big)^2
-       + 
-       c_{4k}
+      \omega_{2k} \wedge \omega_{2k}
+      + 
+      c_{4k} 
     }
   \right)
-$$
-
-for some 
-
-\[
-  \label{RationalPontryaginClass}
-  c_{4k} \in A_X
 \]
 
-being the rational [[Pontryagin class]] of the [[spherical fibration]],
+where
 
-(Here $\omega_{2k} + \tfrac{1}{2} a_{2k}$ denotes a generator, which we write in this suggestive form only as a mnemonic for how it arises.)
+1. the new generator $\omega_{2k}$ restricts to unity on the [[fundamental classes]] of the [[n-sphere|2k-sphere]] [[fibers]] $S^{2k} \simeq E_x \hookrightarrow E$ over each point $x \in X$:
 
-In particular if $E = S(V)$ is the [[unit sphere bundle]] of a [[real vector bundle]] $V \to X$, then the rational class of the spherical fibration
-is $1/4$th of the rational [[Pontryagin class]] of that vector bundle:
+   $$
+     \big\langle  \omega_{2k}, [S^{2k}] \big\rangle
+     \;=\;
+     1
+   $$
 
-$$
-  [c_{4k}]
-  \;=\; 
-  \tfrac{1}{4} p_{k}
-  \,.
-$$ 
+1. $c_{4k} \in A_X$ is some element in the base algebra, which by (eq:FibS2kModel) is closed and represents the rational [[cohomology class]] of the [[cup product|cup]] square of the class of $\omega_{2k}$:
 
+   $$
+     \big[
+       c_{4k}
+     \big]
+     \;=\;
+     \big[ 
+       \omega_{2k} 
+     \big]^2
+     \;\in\;
+     H^{4k}
+     \big( 
+      X, \mathbb{Q}
+     \big)
+   $$
+
+   and this class classifies the spherical fibration, rationally.
+
+Moreover, if the [[spherical fibration]] $E \to X$ happens to be the [[unit sphere bundle]] $E = S(V)$ of a [[real vector bundle]] $V \to X$, then
+
+1. the class of $\omega_{2k}$ is $1/2$ the rationalized [[Euler class]] $\chi(V)$ of $V$:
+
+   $$
+     \big[ \omega_{2k} \big]
+     \;=\;
+     \tfrac{1}{2}\chi(V)
+     \;\in\;
+     H^{2k}\big( X, \mathbb{Q} \big)
+   $$
+
+1. the class of $c_{4k}$ is $1/4$th the rationalized $k$th [[Pontryagin class]] $p_k(V)$ of $V$:
+
+   $$
+     \big[
+       c_{4k}
+     \big]
+     \;=\;
+     \tfrac{1}{4}
+     p_k(V)
+     \;\in\;
+     H^{4k}\big( X, \mathbb{Q}\big)
+     \,.
+   $$
 
 =--
 
