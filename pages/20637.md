@@ -59,6 +59,10 @@ This means in particular that the cohomology is an [[exterior algebra]] on gener
 
 (...)
 
+### Construction as a homotopy colimit
+
+The space $B G_3$ is the 2-completion of the homotopy colimit of a diagram ([(Ziemianski, 0.2.3)](#Ziemianski)).
+
 
 ### As a 2-compact group
  {#AsA2CompactGroup}
@@ -115,6 +119,8 @@ See also
 * [[Andrew Baker]], [[Tilman Bauer]], _The realizability of some finite-length modules over the Steenrod algebra by spaces_ ([arXiv:1903.10288](https://arxiv.org/abs/1903.10288))
 
 * {#AndersenGrodal06} Kasper Andersen, [[Jesper Grodal]], _The classification of 2-compact groups_, J. Amer. Math. Soc. 22 (2009), 387-436 ([arXiv:math/0611437](https://arxiv.org/abs/math/0611437))
+
+* {#Ziemianski} Krzysztof Ziemia&nacute;ski, _A faithful complex representation of the 2-compact group DI(4)_, ([thesis](https://www.mimuw.edu.pl/~ziemians/pap/Thesis.pdf))
 
 
 
