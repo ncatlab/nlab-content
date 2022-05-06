@@ -17,7 +17,7 @@
 
 The structure of an _algebraic model category_ is a refinement of that of a [[model category]].
 
-Where a bare [[model category]] structure is a [[category with weak equivalences]] refined by two [[weak factorization systems]] ($(cofibrations, acyclic fibrations)$ and $(acyclic cofibrations, fibrations)$) in an algebraic model structure these are refined further to [[algebraic weak factorization systems]] plus a bit more. 
+Where a bare [[model category]] structure is a [[category with weak equivalences]] refined by two [[weak factorization systems]] ((cofibrations, acyclic fibrations) and (acyclic cofibrations, fibrations)) in an algebraic model structure these are refined further to [[algebraic weak factorization systems]] plus a bit more. 
 
 This extra structure supplies more control over constructions in the model category. For instance its choice induces a [[weak factorization system]] also in every [[diagram]] [[category]] of the given model category.
 
