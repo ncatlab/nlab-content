@@ -1,11 +1,13 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functorial Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
@@ -19,7 +21,7 @@
 
 The _Ising model_ is a simple [[model (in theoretical physics)]] of [[physical systems]] roughly similar to ferromagnets. Its configurations are functions on a lattice with values in $\{-1,+1\}$, roughly to be thought of as the magnetic polarizations of elementary magnets in a crystal lattice.
 
-The Ising model gained importance as a toy model in theoretical [[physics]]. It is about the simplest possible model that allows methods of [[quantum field theory]] in [[statistical physics]] and the study of [[critical phenomena]]. In fact at a critical [[temperature]] and in [[dimension]] 2 the model exibits the behaviour of a [[conformal field theory]], one of the examples of [[rational conformal field theory]].
+The Ising model gained importance as a toy model in theoretical [[physics]]. It is about the simplest possible model that allows methods of [[Euclidean field theory|Euclidean]] [[quantum field theory]] in [[statistical physics]] and the study of [[critical phenomena]]. In fact at a critical [[temperature]] and in [[dimension]] 2 the model exibits the behaviour of a [[2d CFT|2d]][[conformal field theory]], one of the examples of [[rational conformal field theory]].
 
 Real-world [[physical systems]] that show behaviour described by the Ising model were only found later ([Wolf](#Wolf)).
 
@@ -33,6 +35,8 @@ Real-world [[physical systems]] that show behaviour described by the Ising model
 
 * [[Euclidean field theory]]
 
+* [[Potts model]]
+
 ## References
 
 * {#PeetersZamaklar09} [[Kasper Peeters]], [[Marija Zamaklar]], section 2.1 of _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
@@ -41,6 +45,11 @@ Real-world [[physical systems]] that show behaviour described by the Ising model
 * {#Wolf} W. P. Wolf, _The Ising model and real magnetic materials_, Braz. J. Phys. vol.30 no.4 S&#227;o Paulo Dec. 2000 ([web](http://www.scielo.br/scielo.php?script=sci_arttext&pid=s0103-97332000000400030))
 
 Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT]] based on the [[Turaev-Viro model]], similar to the [[CS-WZW correspondence]], and the phenomenon of [[Kramers-Wannier duality]], is in:
+
+
+* [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Kramers-Wannier duality from conformal defects_ ([arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051))
+
+(via [[FRS-formalism]]) and also in
 
 * {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
 
