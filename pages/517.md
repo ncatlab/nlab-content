@@ -8,7 +8,15 @@ J. Peter May is a [[homotopy theory|homotopy theorist]] at the University of Chi
 
 Peter May's work makes extensive use of [[enriched category theory|enriched]]- and [[model category|model]]-[[category theory]] as power tools in [[algebraic topology]]/[[homotopy theory]], notably in discussion of [[highly structured spectra]] in [MMSS00](#MMSS00)'s _[[Model categories of diagram spectra]]_ (for exposition see _[[Introduction to Stable homotopy theory -- 1-2]]_), or in the discussion of [[genuine equivariant spectra]] or [[K-theory of a permutative category|K-theory of permutative categories]], etc.. While he has co-edited a book collection on [[higher category theory]] ([Baez-May 10](#BaezMay10)) and eventually had high praise ([May 16](#MayBanff16)) for [[2-category theory]] as a tool in [[algebraic topology]]/[[higher algebra]], he has vocally warned against seeing abstract [[(∞,1)-category theory]] as a replacement for concrete realizations in [[model category]]-theory ([P. May, MO comment Dec 2013](https://mathoverflow.net/a/83307/381)).
 
+
 ## Selected writings
+
+On [[algebraic topology]]
+
+* [[Peter May]], _[[A concise course in algebraic topology]]_
+
+* [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_
+
 
 On [[infinite loop spaces]]:
 
@@ -22,6 +30,17 @@ On [[highly structured spectra]]:
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [doi:10.1112/S0024611501012692]( https://doi.org/10.1112/S0024611501012692))
 
+On [[H-infinity ring spectra]]:
+
+* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
+
+On [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc.:
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]],
+_[[Rings, modules and algebras in stable homotopy theory]]_, 
+Mathematical Surveys and Monographs Volume 47, AMS 1997 ([ISBN:978-0-8218-4303-1](https://bookstore.ams.org/surv-47-s), [pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
+
+
 On [[module spectra]]:
 
 * [[Peter May]], _Equivariant and non-equivariant module spectra_, Journal of Pure and Applied Algebra Volume 127, Issue 1, 1 May 1998, Pages 83&#8211;97 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/modfinal.pdf))
@@ -30,15 +49,6 @@ On [[operads]] and [[motives]]:
 
 * [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995).
 
-On [[algebraic topology]]
-
-* [[Peter May]], _[[A concise course in algebraic topology]]_
-
-* [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_
-
-On [[H-infinity ring spectra]]:
-
-* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
 
 On [[equivariant stable homotopy theory]]:
 
@@ -46,8 +56,7 @@ On [[equivariant stable homotopy theory]]:
 
 On [[equivariant complex oriented cohomology theory]]:
 
-* [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
-Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
+* [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
 
 On [[parametrized stable homotopy theory]]:
 
