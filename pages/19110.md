@@ -157,8 +157,9 @@ Now in terms of this, the tadpole cancellation condition for [[fractional D-bran
   g \neq e
 \]
 
-([Marchesano 03 (4.9)](#Marchesano03))
+(for [[D4-branes]]: [AFIRU01a, 4.2.1](#AFIRU01a) [AFIRU 01 (7.2)](#AFIRU01b), [Marchesano 03 (4.9)](#Marchesano03))
 
+(for [[D5-branes]]: [Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99))
 
 +-- {: .num_example #UnitRegularRepresentation}
 ###### Example
@@ -1222,6 +1223,7 @@ $$
 
 ## References
 
+### General
 
 The issue was first highlighted in
 
@@ -1295,6 +1297,22 @@ For the [[topological string]]:
 The character tables for [[virtual representation|virtual]] [[permutation representations]] above are taken from
 
 * {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The image of the Burnside ring in the Representation ring|The image of the Burnside ring in the Representation ring -- for binary Platonic groups]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
+
+### Examples and Models
+
+Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB string theory]], hence for [[D9-branes]] and [[D5-branes]]:
+
+* Eric G. Gimon, [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+
+* {#GimonJohnson96} Eric Gimon, [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
+
+* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
+
+Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
+
+* {#AFIRU01a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
+
+* {#AFIRU01b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
 
 
 
