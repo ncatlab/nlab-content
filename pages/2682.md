@@ -365,7 +365,7 @@ On the other hand, discussion casting doubt on the existence of a large number o
 ### The Swampland
  {#ReferencesSwampland}
 
-Discussion of aspects of [[effective field theories]] which might rule them out as having a [[UV-completion]] by a [[string theory]] [[vacuum]] has been initiated in 
+Discussion of aspects of [[effective field theories]] which might rule them out as having a [[UV-completion]] by a [[string theory vacuum]] (be in the "[[swampland]]") has been initiated in 
 
 * {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
 
