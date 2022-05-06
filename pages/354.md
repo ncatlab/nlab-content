@@ -403,7 +403,7 @@ $$
   \,.
 $$
 
-More generally, in a [[2-groupoid]] there may be non-identity 2-morphisms, and hence for any 1-morphism $k _ x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, hence many 2-cells
+More generally, in a [[2-groupoid]] there may be non-identity 2-morphisms, and hence for any 1-morphism $k \colon x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, hence many 2-cells
 
 $$
   \array{
