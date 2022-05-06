@@ -320,6 +320,8 @@ $$
 
 * [[round sphere]]
 
+* [[fuzzy sphere]]
+
 * [[hemisphere]], [[equator]]
 
 * [[unit sphere]]
