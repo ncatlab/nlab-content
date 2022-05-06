@@ -42,23 +42,20 @@ and the modalities contain the three [[unity of opposites|pairs of opposites]]
 * [[necessity]] - Zuf&#228;lligkeit
 
 
-### In formal logic
+### In formal logic and type theory
  {#InFormalLogic}
 
-#### General
 
-In [[formal logic]] and [[type theory]] modalities are formalized by
- _modal operator_ or _[[closure operator]]_ $\sharp$, that send [[propositions]]/[[types]] $X$ to new propositions/types $\sharp X$, satisfying some properties. 
+In [[formal logic]] and [[type theory]] modalities are formalized by _[[modal operators]]_ or _[[closure operators]]_ $\sharp$, that send [[propositions]]/[[types]] $X$ to new propositions/types $\sharp X$, satisfying some properties. 
 
-Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] yields _[[modal type theory]]_. See there for more details.
+Adding such modalities to [[propositional logic]] or similar produces what is called [[modal logic]]. Here operators that are meant to formalize [[necessity]] and [[possibility]] ([[S4 modal logic]]) are maybe most famous. Adding modalities more generally to [[type theory]] and [[homotopy type theory]] yields _[[modal type theory]]_ and _[[modal homotopy type theory]]_. See there for more details.
 
 The [[categorical semantics]] of these modalities is that $\sharp$ is interpreted an [[idempotent monad]]/[[comonad]] on the [[category of contexts]]. 
 
 This has  a refinement to [[homotopy type theory]], where the [[categorical semantics]] of a _higher modality_ or _homotopy modality_ as an idempotent [[(infinity,1)-monad]] ([Shulman 12](#Shulman), [Rijke, Shulman, Spitters](#RSS) ).
 
-#### In Homotopy Type Theory
 
-There are a number of different but equivalent ways to define a modality in homotopy type theory [Rijke, Shulman, Spitters](#RSS).
+More in detail, there are a number of different but equivalent ways to define a modality in [[homotopy type theory]] (see at [[modal homotopy type theory]]). From [Rijke, Shulman, Spitters 17](#RSS):
 
 * Higher modality: A modality consists of a modal operator $L : {Type} \to {Type}$ and for every type $X$ a modal unit $(-)^L : X \to LX$ together with 
 
@@ -93,7 +90,7 @@ In terms of the other structure, the stable factorization system associated to a
 
 Conversely, given a stable factorization system, the modal operator and unit are given by factorizing the terminal map.
 
-#### Notation
+### Notation
  {#Notation}
 
 Typical notation (e.g. [SEP](#SEP), [Reyes 91](#Reyes91), but not [Hermida 10](#Hermida10)) is as follows: 
@@ -161,34 +158,47 @@ $$
 ## References
  {#References}
 
-### In formal logic
-
-Discussion in [[formal logic]] and [[homotopy type theory]] ([[modal type theory]]):
-
-* [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
- {#Shulman}
-
-* [[Mike Shulman]], _[All modalities are Higher Inductive Types](http://homotopytypetheory.org/2012/11/19/all-modalities-are-hits/)_
-
-* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ [arXiv](https://arxiv.org/abs/1706.07526)
-
 ### In philosopy
 
-* [[Georg Hegel]], _[[Science of Logic]]_, 1812
- {#Hegel12}
+Origin in [[philosophy]]:
 
-* [[Kant]], AA III, 93&#8211; KrV B 106
- {#Kant1900}
+* {#Hegel12} [[Georg Hegel]], _[[Science of Logic]]_, 1812
+ 
+
+* {#Kant1900} [[Kant]], AA III, 93&#8211; KrV B 106
+ 
 
 * German Wikipedia, _[Modalit&#228;t (Philosophie)](https://de.wikipedia.org/?curid=3382094)_
 
 * {#SEP} Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_
+
+
+### In formal logic
+
+Discussion in [[formal logic]], [[type theory]] and [[homotopy type theory]] (fot more see at _[[modal logic]]_, _[[modal type theory]]_ and _[[modal homotopy type theory]]_):
+
+* {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
+ 
+
+* [[Mike Shulman]], _[All modalities are Higher Inductive Types](http://homotopytypetheory.org/2012/11/19/all-modalities-are-hits/)_
+
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_,  Logical Methods in Computer Science, January 8, 2020, Volume 16, Issue 1 ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526), [episciences:6015](https://lmcs.episciences.org/6015))
+
+
+
+
+
+### In category theory
+
+Discussion in [[category theory]] (fot more see at _[[modal operator]]_):
 
 * {#Reyes91} [[Gonzalo Reyes]], _A topos-theoretic approach to reference and modality_, Notre Dame J. Formal Logic Volume 32, Number 3 (1991), 359-391 ([Euclid](http://projecteuclid.org/euclid.ndjfl/1093635834))
 
 * {#ReyesEtAl} Reyes/Reyes/Zolfaghari, _Generic Figures and Their Glueings_ 2004, Polimetrica
 
 * {#Hermida10} [[Claudio Hermida]], section 3.3. of _A categorical outlook on relational modalities and simulations_, 2010 ([pdf](http://maggie.cs.queensu.ca/chermida/papers/sat-sim-IandC.pdf))
+
+
 
 
 [[!redirects modality]]
