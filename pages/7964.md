@@ -149,17 +149,32 @@ There is no lack of proposals for realizing the Higgs field in various big schem
 
 For instance
 
-* in [[string theory]] (see _[[string phenomenology]]_) a Higgs mechanism can arise in a variety of ways. Notably in [[intersecting D-brane models]] it arises naturally from brane recombination at intersections: ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
+### In string theory
+
+In [[string theory]] (see _[[string phenomenology]]_) a Higgs mechanism can arise in a variety of ways. 
+
+#### In intersecting D-brane models
+
+Notably in [[intersecting D-brane models]] it arises naturally from brane recombination at intersections: ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
 
 \begin{imagefromfile}
   "file_name": "BraneRecombination.png",
   "width": 600
 \end{imagefromfile}
 
+Further developments in [Ibanez-Marchesano-Rabadan 01](#IbanezMarchesanoRabadan01), [Hebecker-Knochel-Weigand 13](#HebeckerKnochelWeigand13) and specifically via [[string field theory]] in [HINSS 18](#HINSS18).
+
+For review see [Ibanez-Uranga 12, fig 10.2](intersecting+D-brane+model#IbanezUranga12):
+
+#### In $G_2$-MSSM
+
+Discussion of the Higgs mechanism in the [[G2-MSSM]]: [Kane 11](#Kane11), [Kane-Kumar-Lu-Zheng 11](#KaneKumarLuZheng11), for review see [Kane 17](#Kane17), [Kane 18](#Kane18)
+
+### Other
 
 * in the [[technicolor]] model the Higgs field is not a fundamental particle but a compound of [[fermions]]. This realizes the Higgs effect entirely in ordinary [[gauge theory]]; 
 
-* in [[noncommutative geometry]] it has been [shown](http://ncatlab.org/nlab/show/standard+model+of+particle+physics#NCGeometry) that the Higgs may be modeled as a component of the gauge bosons assuming that the [[Kaluza-Klein mechanism|KK-reduction]] is over a certain non-commutative space of classical dimension 0.
+* in [[Connes-Lott-Barrett-Chamseddine models]] it has been [shown](standard+model+of+particle+physics#NCGeometry) that the Higgs may be modeled as a component of the gauge bosons assuming that the [[Kaluza-Klein mechanism|KK-reduction]] is over a certain non-commutative space of classical dimension 0.
 
 ## History
 
@@ -308,14 +323,20 @@ The interpretation in terms of [[asymptotic safety]] is discussed in
 
 Discussion of the Higgs field from [[intersecting D-brane models]] is due to
 
-* {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], F. Marchesano, _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
+* {#IbanezMarchesanoRabadan01} [[Luis Ibáñez]], [[Fernando Marchesano]], R. Rabadan, section 7 of _Getting just the Standard Model at Intersecting Branes_, JHEP 0111:002, 2001 ([arXiv:hep-th/0105155](https://arxiv.org/abs/hep-th/0105155))
+
+* {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], [[Fernando Marchesano]], _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
+
+* {#HebeckerKnochelWeigand13} Arthur Hebecker, Alexander K. Knochel, [[Timo Weigand]], _The Higgs mass from a String-Theoretic Perspective_,  Nucl.Phys. B874 (2013) 1-35 ([arXiv:1304.2767](https://arxiv.org/abs/1304.2767))
+
+* {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, Gary Shiu, Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
 
 
 Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due to
 
 * {#Kane11} [[Gordon Kane]], _String theory and generic predictions for our world &#8211; superpartner masses, LHC signatures, dark matter, EWSB, cosmological history of universe, etc_, talk at String phenomenology 2011, August 2011 ([pdf](http://conferencing.uwex.edu/conferences/stringpheno2011/documents/kane.pdf))
 
-* [[Gordon Kane]], Piyush Kumar, Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
+* {#KaneKumarLuZheng11} [[Gordon Kane]], Piyush Kumar, Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
 
   (a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
 
