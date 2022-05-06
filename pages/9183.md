@@ -149,13 +149,21 @@ A proposal that [[axions]] account for [[fuzzy dark matter]], and thus fix the [
 ### Lightest super-partner 
 
 
-The observation that the lightest supersymmetric particle is a natural dark matter candidate goes back to 
+The observation that the lightest supersymmetric particle would be a natural dark matter candidate goes back to 
 
 * {#EHNOS84} [[John Ellis]],  J.S. Hagelin, Dimitri V. Nanopoulos, [[Keith Olive]], M. Srednicki  _Supersymmetric relics from the Big Bang_, Nuclear Physics B 238[2]: 453-76, 1984 ([SPIRE](http://inspirehep.net/record/191839?ln=en))
 
 with review in 
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
+
+### FLavour anomalies
+
+Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
+
+* {#Baek19} Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
+
+* {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
 
 
 
