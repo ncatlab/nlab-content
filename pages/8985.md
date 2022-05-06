@@ -170,7 +170,7 @@ The category $T Alg$ is monadic over $\mathcal{A}$, and cocomplete.  In particul
 A left adjoint to the forgetful functor $T Alg \to \mathcal{A}$ is supplied by reflecting the object $(A,T A,\tau_A)$ of $T/\mathcal{A}$ into $T Alg$.  The [[monadicity theorem]] then applies.  Colimits can be constructed in $T/\mathcal{A}$ and then reflected into $T Alg$.
 =--
 
-It is possible to [[beta-reduction|∞-reduce]] this proof and describe the resulting transfinite construction more explicitly.  Given $(A,B,a)$, we define inductively a transfinite sequence
+It is possible to [[beta-reduction|beta-reduce]] this proof and describe the resulting transfinite construction more explicitly.  Given $(A,B,a)$, we define inductively a transfinite sequence
 $$\array{ && T X_0 & \to & T X_1 & \to & T X_2 & \to & \dots \\
 && \downarrow^{x_0} && \downarrow^{x_1} && \downarrow^{x_2} \\
 X_0 & \to & X_1 & \to & X_2 & \to & X_3 & \to & \dots }
