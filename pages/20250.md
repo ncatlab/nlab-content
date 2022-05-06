@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,6 +20,35 @@
 The [[special orthogonal group]] in [[dimension]] 3.
 
 ## Properties
+
+### Cohomology
+
++-- {: .num_prop }
+###### Proposition
+
+The [[integral cohomology|integral]] [[cohomology ring]] of the [[classifying space]] $B SO(3)$ is
+
+$$
+  H^\bullet\big( 
+    B SO(3), \mathbb{Z}
+  \big) 
+  \;\simeq\;
+  \mathbb{Z}\big[ p_1, W_3\big] / (2 W_3)
+  \,,
+$$ 
+
+where 
+
+* $p_1 \in H^4\big(B SO(3), \mathbb{Z}\big)$ is the [[universal characteristic class|universal]] [[first Pontryagin class]];
+
+* $W_3 = \beta(w_2) \in H^3\big( B SO(3), \mathbb{Z}\big)$ is the [[universal characteristic class|universal]] degree-3 [[integral Stiefel-Whitney class]].
+
+=--
+
+This is a special case of [Brown 82, theorem 1.5](#Brown82)
+
+
+\linebreak
 
 ### Finite subgroups
 
@@ -234,7 +264,13 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](fin
 
 ## References
 
+
 See also 
 
 * Wikipedia, _[3D rotation group](https://en.wikipedia.org/wiki/3D_rotation_group)_
+
+On the [[integral cohomology]] of the [[classifying space]]:
+
+* {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society, Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:](https://www.jstor.org/stable/2044298))
+
 
