@@ -22,27 +22,58 @@ In a [[Lawvere theory]], one specifies an algebraic theory by giving a [[small c
 
 A **sketch** is a generalization of this idea, where we take a [[small category]] $T$, and pick some distinguished [[limit]] and [[colimit]] [[cones]]. Then a model of the sketch is a functor that preserves these limits and colimits.
 
-## Definition
+\section{Details}
 
-+-- {: .num_defn }
-###### Definition 
+\subsection{Sketches}
 
-A **sketch** is a [[small category|small]] [[category]] $T$ equipped with a set $L$ of [[cones]] and a set $C$ of [[cocones]].  A **realized sketch** is one where all the cones in $L$ are [[limit]] cones and all the cocones in $C$ are [[colimit]] cocones.
+\begin{defn} A _sketch_ is a [[small category|small]] [[category]] $T$ equipped with a set $L$ of [[cones]] and a set $C$ of [[cocones]]. Alternatively, it is a [[directed graph]] equipped with a set $D$ of [[diagram|diagrams]], a set $L$ of [[cones]], and a set $C$ of [[cocones]]. \end{defn}
 
-A **limit-sketch** is a sketch with $C = \emptyset$, while a **colimit-sketch** is a sketch with $L = \emptyset$.
+\begin{defn} A _realized sketch_ is one where all the cones in $L$ are [[limit]] cones and all the cocones in $C$ are [[colimit]] cocones. \end{defn}
 
-A **model of a sketch** in a category $\mathcal{C}$ is a [[functor]] $T\to \mathcal{C}$ taking each cone in $L$ to a limit cone and each cocone in $C$ to a colimit cocone.  In particular, $T$ is realized if and only if its identity functor is a model.  Frequently the notion of model is restricted to the case $\mathcal{C}=Set$.
+\begin{defn} A _limit sketch_ is a sketch with $C = \emptyset$. \end{defn}
 
-A [[category]] is called **sketchable** if it is the category of models (in $Set$) of a sketch.
+\begin{defn} A _colimit sketch_ is a sketch with $L = \emptyset$. \end{defn}
 
-=--
+\begin{defn} A _finite product sketch_ is a limit sketch in which the only cones are those of [[finite product]] diagrams. \end{defn}
 
-## Examples
+\begin{defn} A _finite limit sketch_ is a limit sketch in which the only cones are those of [[finite limit]] diagrams. \end{defn}
 
-+-- {: .num_example}
-###### Example
-A [[Lawvere theory]] is a special case of a (limit-)sketch, where the category is one with a distinguished object $X$ such that all objects are ([[isomorphic]] to) powers of $X$, and $C = \emptyset$ and $L$ is the set of all product cones.
-=--
+\subsection{Models of sketches}
+
+\begin{defn} A _model of a sketch_ in a category $\mathcal{C}$ is a [[functor]] $T\to \mathcal{C}$ taking each cone in $L$ to a limit cone and each cocone in $C$ to a colimit cocone. \end{defn}
+
+In particular, $T$ is realized if and only if its identity functor is a model.  
+
+\begin{defn} If one takes the definition of a sketch to be that involving directed graphs, a _model of a sketch_ in a category $\mathcal{C}$ is a morphism of directed graphs from the directed graph of the sketch to the underlying directed graph of $\mathcal{C}$, so that diagrams are taken to commutative diagrams, cones are taken to limit cones, and co-cones are taken to colimit cones.\end{defn}
+
+Frequently the notion of model is restricted to the case $\mathcal{C}=Set$.
+
+\begin{defn} A [[category]] is _sketchable_ if it is the category of models (in $Set$) of a sketch. \end{defn}
+
+\section{Examples}
+
+\begin{example} A sketch, more precisely a finite product sketch, for the theory of groups can be constructed as follows. The directed graph can be taken to be the following.
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (0,0) circle[radius=0.1];
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (0, 0) to node[auto] {$e$} (3,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=0.1em}, bend left] (3, 0) to node[auto] {$p_{1}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-] (3, 0) to node[auto] {$m$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend right] (3, 0) to node[auto] {$p_{2}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=0.1em}, bend left] (3, 0) to node[auto] {$p_{1}$} (3,3);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend right] (3, 0) to node[auto] {$p_{3}$} (3,3);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=0.1em}, bend right] (6, 0) to node[auto] {$p_{1,2}$} (3,3);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, transform canvas={yshift=-0.1em}, bend right=90] (6, 0) to node[auto, swap] {$p_{2,3}$} (3,3);
+  \end{tikzpicture}
+\end{centre}
+
+\end{example}
+
+\begin{example} A [[Lawvere theory]] is a special case of a (limit-)sketch, where the category is one with a distinguished object $X$ such that all objects are ([[isomorphic]] to) powers of $X$, and $C = \emptyset$ and $L$ is the set of all product cones. \end{example}
 
 ## Properties
 
@@ -167,10 +198,10 @@ That not only every sketchable category is [[accessible category|accessible]] bu
 
 The category of sketches itself was studied as a semantics for type theory in:
 
-* [[John W. Gray]] "The Category of Sketches as a Model for Algebraic Semantics'." Categories in Computer Science and Logic: Proceedings of the AMS-IMS-SIAM Joint Summer Research Conference Held June 14-20, 1987 with Support from the National Science Foundation. Vol. 92. American Mathematical Soc., 1989.
+* [[John W. Gray]], _The Category of Sketches as a Model for Algebraic Semantics_, Categories in Computer Science and Logic: Proceedings of the AMS-IMS-SIAM Joint Summer Research Conference Held June 14-20, 1987 with Support from the National Science Foundation. Vol. 92. American Mathematical Soc., 1989.
 {#Gray}
 
 [[!redirects sketches]]
-
+[[!redirects finite product sketch]]
 [[!redirects finite limit sketch]]
 [[!redirects finite limit sketches]]
