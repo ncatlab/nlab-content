@@ -131,6 +131,9 @@ See also
 [[!redirects binary octahedral groups]]
 
 
+
 [[!redirects octahedral symmetry]]
 [[!redirects octahedral symmetry group]]
+
+[[!redirects 2O]]
 
