@@ -44,7 +44,7 @@ Complex projective space has the following [[coset space]]-realizations:
     \big)
   $$
 
-  (e.g. [Zandi 88, 7](#Zandi88), [Iriye 90, (3)](#Iriye90), [Butruille 06, p. 2](#Butruille06))
+  (e.g. [Onishchik 60, p. 3](#Onishchik60), [Zandi 88, 7](#Zandi88), [Iriye 90, (3)](#Iriye90), [Butruille 06, p. 2](#Butruille06))
 
 
 ### Calabi-Penrose fibration
@@ -67,9 +67,13 @@ Discussion in the context of the [[twistor fibration]] and with an eye towards [
 
 See also
 
+* {#Onishchik60} A. L. Onishchik, _On compact Lie groups transitive on certain manifolds_, Dokl. Akad. Nauk SSSR, 135:3 (1960), 531–534 ([mathnet:dan24279](http://mi.mathnet.ru/eng/dan24279))
+
 * {#Zandi88} Ahmad Zandi, _Minimal immersion of surfaces in quaternionic projective space_, Tsukuba Journal of Mathematics Vol. 12, No. 2 (1988), pp. 423-440 (18 pages) ([jstor:43686661](https://www.jstor.org/stable/43686661))
 
 * {#Iriye90} [[Kouyemon Iriye]], _Manifolds which have two projective space bundle structures from the homotopical point of view_, J. Math. Soc. Japan Volume 42, Number 4 (1990), 639-658 ([euclid:jmsj/1227108441](https://projecteuclid.org/euclid.jmsj/1227108441))
+
+
 
 
 * {#Butruille06} Jean-Baptiste Butruille, _Homogeneous nearly Kähler manifolds_ ([arXiv:math/0612655](https://arxiv.org/abs/math/0612655))
