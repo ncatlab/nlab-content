@@ -246,6 +246,8 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 
 See also
 
+* [[Qiaochu Yuan]], _[The representation theory of SU(2)](https://qchu.wordpress.com/2011/06/26/the-representation-theory-of-su2/)_
+
 * Wikipedia, _<a href="https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)">Representation theory of SU(2)</a>_
 
 
