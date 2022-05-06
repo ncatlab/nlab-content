@@ -26,7 +26,7 @@ A _gauge theory_ may denote either a [[classical field theory]] or a [[quantum f
 An _ordinary gauge theory_ is a [[quantum field theory]] whose field configurations are [[vector bundles]] 
 [[connection on a bundle|with connection]].
 
-This includes notable the [[field (physics)|fields]] that carry the three fundamental forces of the [[standard model of particle physics]]:
+This includes notably the [[field (physics)|fields]] that carry the three fundamental forces of the [[standard model of particle physics]]:
 
 * Ordinary [[electromagnetism]] in the absence of magnetic charges is a gauge theory of $U(1)$-[[principal bundle]]s with [[connection on a bundle|connection]]. 
 
