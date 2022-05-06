@@ -22,18 +22,8 @@ _Quarks_ ([Gell-Mann 64](#GellMann64), [Zweig 64](#Zweig64)) are one of the fund
 Quarks come in three [[generations of fermions]]:
 
 
-[[flavors of fundamental particles -- table]]
+[[!include flavors of fundamental particles -- table]]
 
-
-| **[[flavor (particle physics)|flavors]] of [[fermions]] in the** <br/> **[[standard model of particle physics]]**  |                |                   |                  |
-|--|----------------|-------------------|------------------|
-| [[generation of fermions]] | 1st generation | 2nd generation    | 3d generation    |
-| **[[quarks]]** |   |   |   |
-| up-type  |  [[up quark]]  | [[charm quark]]   | [[top quark]]    |
-| down-type  | [[down quark]] | [[strange quark]] | [[bottom quark]] | 
-| **[[leptons]]** |   |   |  |
-| charged  |   [[electron]] | [[muon]] | [[tauon]] | 
-| neutral  | [[electron neutrino]] | [[muon neutrino]] | [[tau neutrino]]  |
 
 At room-[[temperature]] quarks always form [[bound states]] to [[hadrons]]. This phenomenon of _[[confinement]]_ is quantitatively well-reproduced by [[lattice QCD]] computations (see [Fodor-Hoelbling 12](#FodorHoelbling12)) and qualitatively well reproduced by conceptual arguments such as the [[AdS/QCD correspondence]], but a full analytic [[proof]] of confinement from a rigorous [[AQFT]]-like foundation of [[QCD]] remains open, see the _[[mass gap problem]]_.
 
@@ -88,6 +78,9 @@ Textbooks:
 Quark [[masses]] in terms of [[chiral perturbation theory]]:
 
 * [[Jürg Gasser]], [[Heinrich Leutwyler]], _Quark masses_, Physics Reports Volume 87, Issue 3, July 1982, Pages 77-169 (<a href="https://doi.org/10.1016/0370-1573(82)90035-7">doi:10.1016/0370-1573(82)90035-7</a>)
+
+
+
 
 ### History
 
