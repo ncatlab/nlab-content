@@ -107,7 +107,7 @@ A careful non-technical exposition is in
 
 * [[Xi Yin]], _Black Holes, Anti de Sitter space, and Topological Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_files/allthesis.pdf))
 
-* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
+* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, Gen. Rel. Grav. 40: 2249-2431, 2008 ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
 
 * Joao Gomes, _Quantum entropy of supersymmetric black holes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
@@ -136,11 +136,11 @@ The argument that properties of [[BPS states]] are preserved as the coupling inc
 
 The original computations of stringy black hole entropy using this argument are due to
 
-* [[Ashoke Sen]], _Extremal black holes and elementary string states_ ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
+* [[Ashoke Sen]], _Extremal black holes and elementary string states_,  Mod. Phys. Lett. A10: 2081-2094, 1995 ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
 
-* {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
+* {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_, Phys. Lett. B379: 99-104, 1996 ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
-* Curtis Callan, [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
+* [[Curtis Callan]], [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_, Nucl. Phys. B472:591-610, 1996 ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
 
 * [[Juan Maldacena]], [[Gregory Moore]], [[Andrew Strominger]], _Counting BPS Blackholes in Toroidal Type II String Theory_ ([arXiv:hep-th/9903163](http://arxiv.org/abs/hep-th/9903163))
 
