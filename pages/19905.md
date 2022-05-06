@@ -509,9 +509,20 @@ and then more generally in
 
 * {#FultonMacPherson94} William Fulton, Robert MacPherson, _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994.
 
+based on the general method of [[resolution of singularities]] due to 
+
+* {#Hironaka64} [[Heisuke Hironaka]], _Resolution of Singularities of an Algebraic Variety Over a Field of Characteristic Zero: I_, Annals of Mathematics Second Series, Vol. 79, No. 1 (Jan., 1964), pp. 109-203 (95 pages) ([jstor:1970486](https://www.jstor.org/stable/1970486))
+
+More general compactifications of spaces of _subspace arrangements_ are due to
+
+* {#deConciniProcesi95} [[Corrado de Concini]], [[Claudio Procesi]], _Wonderful models of subspace arrangements_, Selecta Mathematica, New Series Vol. 1, No. 3, 1995 ([pdf](https://link.springer.com/content/pdf/10.1007/BF01589496.pdf))
+
+see also
+
+* {#Feichtner05} Eva Maria Feichner, _De Concini–Procesi Wonderful Arrangement Models:  A Discrete Geometer’s Point of View_, Math. Sci. Res. Inst. Publ 52, 2005 ([pdf](http://library.msri.org/books/Book52/files/17feich.pdf))
 
 
-and the [[operad]]-[[structure]] on these compactified spaces was considered in
+The [[operad]]-[[structure]] on Axelrod-Singer Fulton-MacPherson compactifications of [[configuration spaces of points]] was considered in
 
 * {#GetzlerJones94} [[Ezra Getzler]], [[John Jones]], _Operads, homotopy algebra and iterated integrals for double loop spaces_ ([arXiv:hep-th/9403055](https://arxiv.org/abs/hep-th/9403055))
 
