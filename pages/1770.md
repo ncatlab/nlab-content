@@ -18,7 +18,7 @@
 
 ## Idea
 
-The concept of a _smooth set_ or _smoth space_, in the sense discussed here, is a generalization of that of [[smooth manifolds]] beyond that of [[diffeological spaces]]: A smooth set is a [[generalized smooth space]] that may be _probed_ by smooth [[Cartesian spaces]].
+The concept of a _smooth set_ or _smooth space_, in the sense discussed here, is a generalization of that of [[smooth manifolds]] beyond that of [[diffeological spaces]]: A smooth set is a [[generalized smooth space]] that may be _probed_ by smooth [[Cartesian spaces]].
 
 For expository details see at _[[geometry of physics -- smooth sets]]_.
 
