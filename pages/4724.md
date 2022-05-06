@@ -404,7 +404,7 @@ We can phrase the example of $\mathbf{R}P^n$ in this language.
 ###### Example
 **([[real projective space]] as a [[smooth manifold]] in this [[etalé map]] sense)
 
-We need only show that the functions $f : V \subset {\mathbf R}P^n \rightarrow {\mathbf R}^n$ which are smooth when composed with the canonical projection $\pi : {\mathbf R}^{n+1}/\{ 0 \} \rightarrow {\mathbf R }P^n$ form a sheaf on ${\bf R}^n$. Denote these $\mathcal{O}_{{\mathbf R}P^n}$. Certainly they form a presheaf, and checking the pullback as in the lemma confirms that they are a sheaf. Hence $({\mathbf R}P^n, \mathcal{O}_{{\mathbf R}P^n})$ is a smooth manifold.
+We need only show that the functions $f : V \subset {\mathbf R}P^n \rightarrow {\mathbf R}^n$ which are smooth when composed with the canonical projection $\pi : {\mathbf R}^{n+1}/\{ 0 \} \rightarrow {\mathbf R }P^n$ form a sheaf on ${\mathbf R}^n$. Denote these $\mathcal{O}_{{\mathbf R}P^n}$. Certainly they form a presheaf, and checking the pullback as in the lemma confirms that they are a sheaf. Hence $({\mathbf R}P^n, \mathcal{O}_{{\mathbf R}P^n})$ is a smooth manifold.
 
 =--
 
