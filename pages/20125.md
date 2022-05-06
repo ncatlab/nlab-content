@@ -248,6 +248,11 @@ See also
 
   ([[quasicrystal]] boundary states)
 
+* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
+
+
+
+
 ### As quantum error correcting codes
 
 Further interpretation of [[tensor networks]] in terms of [[quantum error correcting codes]] is due to
