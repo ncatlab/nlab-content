@@ -15,9 +15,9 @@
 
 ## Definition
 
-For $G$ a [[group]] and $g \in G$ an element, the _conjugacy class_ of $g$ is 
-the [[orbit]] of $g$ under the [[adjoint action]] of $G$ on itself, hence
-the subset $\{ h g h^{-1} | h \in G \} \subset G$ of all elements in $G$ obtained from $g$ by [[conjugation]] with another group element.
+For $G$ a [[group]] and $g \in G$ an element, the _conjugacy class_ of $g$ is  the [[orbit]] of $g$ under the [[adjoint action]] of $G$ on itself, hence the subset $\{ h g h^{-1} | h \in G \} \subset G$ of all elements in $G$ obtained from $g$ by [[conjugation]] with another group element.
+
+Similarly there is the conjugacy classes of larger [[subsets]] of a group, and in particular the _[[conjugacy classes of subgroups]]_. 
 
 ## Examples
 
@@ -45,5 +45,7 @@ Regarding the Lie group as the [[target space]] of the [[WZW model]], the conjug
 * [[coset space]]
 
 * [[character]]
+
+* [[conjugacy class of subgroups]]
 
 [[!redirects conjugacy classes]]
