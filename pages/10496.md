@@ -101,6 +101,12 @@ Nucl. Phys. B419, 455 (1994).
 * [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, [arxiv/1306.5570](http://arxiv.org/abs/1306.5570)
 
 * {#WilczekZee1984} Frank Wilczek & A. Zee (1984); Appearance of gauge structure in simple dynamical systems; Physical Review Letters 52 (24), 2111&#8211;2114; [pdf](http://ngs-11.physics.buffalo.edu/rashba/p2111_1.pdf).
+
+
+* Amit Jamadagni, Hendrik Weimer, _An Operational Definition of Topological Order_ ([arXiv:2005.06501](https://arxiv.org/abs/2005.06501))
+
+
+
   
 Discussion in terms of [[extended TQFT]], the [[cobordism theorem]] and [[stable homotopy theory]] is in 
 
