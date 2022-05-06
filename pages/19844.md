@@ -36,7 +36,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 ## Statistical significance
  {#StatisticalSignificance}
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], and at the [[Belle experiment]] (see references [below](#References)).
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], the [[Belle experiment]] and the BaBar experiment (see references [below](#References)).
 
 
 The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
@@ -213,6 +213,7 @@ Original articles include:
 
 * Domagoj Leljak, Blazenka Melic, Monalisa Patra, _On lepton flavour universality in semileptonic $B_c \to \eta_c, J/\psi$ decays_ ([arXiv:1901.08368](https://arxiv.org/abs/1901.08368))
 
+* Srimoy Bhattacharya, Aritra Biswas, Zaineb Calcuttawala, Sunando Kumar Patra, _An in-depth analysis of $b \to c(s)$ semileptonic observables with possible $\mu \to \tau$ mixing_ ([arXiv:1902.02796](https://arxiv.org/abs/1902.02796))
 
 Cautionary remarks include
 
