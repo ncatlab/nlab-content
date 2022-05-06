@@ -24,7 +24,13 @@ What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [
 
 ## Related concepts
 
+* [[confinement]]
+
 * [[chiral symmetry breaking]]
+
+* [[quark bag model]], [[Cheshire cat principle]]
+
+* [[vector meson dominance]]
 
 * [[holographic QCD]]
 
