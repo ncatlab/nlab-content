@@ -25,6 +25,8 @@
 
 [[algebra over a monad|Algebras]] over a [[monoidal monad|commutative monad]], in many cases, admit a [[tensor product]] analogous to the traditional [[tensor product of modules]] over a [[ring]]. 
 
+This tensor product satisfies a universal property analogous to the one of the tensor product of modules, namely it [[representable multicategory|represents]] [[multimorphisms]] in the same way in which the tensor product of modules represents [[bilinear maps]]. 
+
 
 ## Construction of the tensor product
 
@@ -33,7 +35,7 @@ Denote the [[monoidal functor|monoidal multiplication]] of $T$ by $\nabla$.
 
 Given [[algebra over a monad|$T$-algebras]] $(A,a)$ and $(B,b)$, their **tensor product** is, if it exists, the object $A\otimes_T B$ given by the coequalizer in the [[Eilenberg-Moore category]] $C^T$
 
- \begin{tikzcd}[column sep=large]
+ \begin{tikzcd}
   T(TA \otimes TB) \ar[bend right=10]{rr}[swap]{T(a\otimes b)} \ar{r}{T\nabla} & TT(A\otimes B) \ar{r}{\mu} & T(A\otimes B) \ar{r} & A\otimes_T B.
  \end{tikzcd}
 
@@ -41,6 +43,7 @@ We say that $C^T$ **has tensors** if such equalizers exist for all $(A,a)$ and $
 
 +-- {: .num_theorem #sealthms}
 ###### Theorem
+([Seal '12, Corollary 2.5.6 and Theorem 2.6.4](#Seal12))
 Suppose that either:
 
 * $C^T$ has tensors, and $\otimes_T$ preserves [[reflexive coequalizers]] in both variables separately ([[reflexive coequalizer#properties|hence jointly]]);
@@ -57,13 +60,54 @@ Then $\otimes_T$ makes $C^T$ a [[monoidal category]], with
 Moreover, if $\otimes$ is [[symmetric monoidal category|symmetric]], $\otimes_T$ is symmetric too, with [[braiding]] induced by the one of $\otimes$.
 =--
 
-([Seal '12, Corollary 2.5.6 and Theorem 2.6.4](#Seal12))
 
 
 
-## Universal property in terms of bimorphisms
+## Bimorphisms and universal property
 
-(...)
+[[monoidal monad|Commutative monads]] admit a notion of [[multimorphism]] of algebras analogous to the notion of [[bilinear]] and [[multilinear map]]. 
+
+**Caveat.** Some authors call the analogue of a bilinear map a _bimorphism_. This is a distinct notion from the one given [[bimorphism|in this page]] (a morphism which is both epi and mono). 
+A less ambiguous term is [[binary morphism]].
+
+Let $(A,a)$, $(B,b)$ and $(R,r)$ be $T$-algebras. A **binary morphism** of algebras, or **$T$-balanced map**, or **$T$-bilinear** (or **bimorphism**, see the caveat above) from $A$ and $B$ to $R$ is a morphism $f:A\otimes B\to R$ of $C$ such that the following diagram commutes.
+
+\begin{tikzcd}
+  TA \otimes TB \ar{d}{a\otimes b} \ar{r}{\nabla} & T(A\otimes B) \ar{r}{Tf} & TR \ar{d}{r} \\
+  A\otimes B \ar{rr}{f} && R
+\end{tikzcd}
+
+For $n$ inputs, we can define a **multimorphism of algebras** in the same way.
+
+We can view a binary morphism as a morphism which is a "morphism of algebras in each variable separately". This intuition can be made precise as follows. 
+
++-- {: .num_theorem #sealthms}
+###### Proposition
+([Seal '12, Proposition 2.1.2](#Seal12))
+A morphism $f:A\otimes B\to R$ of $C$ is a binary morphism of algebras if and only if both the following two diagrams commute. (The maps $s$ and $t$ denote the [[strong monad|strength and costrength]] of the monad $T$.)
+\begin{tikzcd}
+A \otimes TB \ar{d}{1\otimes b} \ar{r}{s} & T(A\otimes B) \ar{r}{Tf} & TR \ar{d}{r}  && TA \otimes B \ar{d}{a\otimes 1} \ar{r}{t} & T(A\otimes B) \ar{r}{Tf} & TR \ar{d}{r}  \\
+A \otimes B \ar{rr}{f} && R && A \otimes B \ar{rr}{f} && R
+\end{tikzcd}
+=--
+
+We can denote by $C^T(A,B;C)$ the set of binary morphisms from $A$ and $B$ to $C$ this is a functor $(C^T)^{op}\times(C^T)^{op}\times C^T\to Set$. Analogous assignments can be given for $n$ inputs; this equips $C^T$ with the structure of a [[multicategory]] extending its usual category structure. 
+The most prominent example of this is [[multilinear maps]] extending [[linear maps]]. 
+
+As in the case of multilinear maps, we have that the tensor product of algebras, if it exists, represent multimorphisms.
+
++-- {: .num_theorem #sealthms}
+###### Theorem
+([Seal '12, Proposition 2.3.4](#Seal12))
+Suppose that $C^T$ has tensors. For each $T$-algebras $(A,a)$, $(B,b)$ and $(R,r)$ there is a bijection
+\begin{tikzcd}
+C^T(A\otimes_T B, C) \ar{r}{\cong} & C^T(A,B; C) ,
+\end{tikzcd}
+natural in $A$, $B$ and $C$. 
+=--
+In other words, $C^T$ with $\otimes_R$ is a [[representable multicategory]]. 
+
+The proof (see the reference above) follows closely the classical case of modules over a ring.
 
 ## For monoidal closed categories
 
@@ -80,3 +124,15 @@ Moreover, if $\otimes$ is [[symmetric monoidal category|symmetric]], $\otimes_T$
 * {#Brandenburg2014} Martin Brandenburg, _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](https://arxiv.org/abs/1410.1716))
 
 * {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
+
+[[! redirects tensor product of algebras over commutative monads]]
+[[! redirects tensor product of algebras of a commutative monad]]
+[[! redirects tensor product of algebras of commutative monads]]
+[[! redirects tensor product of algebras for a commutative monad]]
+[[! redirects tensor product of algebras for commutative monads]]
+[[! redirects tensor product for algebras over a commutative monad]]
+[[! redirects tensor product for algebras over commutative monads]]
+[[! redirects tensor product for algebras of a commutative monad]]
+[[! redirects tensor product for algebras of commutative monads]]
+[[! redirects tensor product for algebras for a commutative monad]]
+[[! redirects tensor product for algebras for commutative monads]]
