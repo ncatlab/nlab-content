@@ -124,8 +124,13 @@ For details on the plain Serre spectral sequence see at _[[Atiyah-Hirzebruch spe
 
 * [[Serre long exact sequence]]
 
-* [[Gysin sequence]]
+* [[Thom-Gysin sequence]]
 
+## Related concepts
+
+* [[long exact sequence in cohomology]]
+
+  * [[long exact sequence in generalized cohomology]]
 
 
 ## References
