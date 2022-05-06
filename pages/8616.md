@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $f \colon X \to Y$ a [[smooth function]] between [[smooth manifold]], and for $\omega \in \Omega^n(Y)$ a [[differential n-form]], there is the _pullback_ $n$ form $f^* \omega \in \Omega^n(X)$.
+For $f \colon X \to Y$ a [[smooth function]] between [[smooth manifold]], and for $\omega \in \Omega^n(Y)$ a [[differential n-form]], there is the _pullback_ $n$-form $f^* \omega \in \Omega^n(X)$.
 
 ### In terms of push-forward of vector fields
 
