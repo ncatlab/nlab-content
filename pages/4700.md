@@ -1002,7 +1002,7 @@ While this example illustrates the general action of the differential, beware th
 
 +-- {: .num_example #ThreeTermRelation}
 ###### Example
-**(differential of trivalent tree with single internal vertex)**
+**(differential of trivalent diagram with single internal vertex)**
 
 The image of the single trivalent internal vertex under the differential from Def. \ref{DifferentialOnGraphs} is as shown in the following:
 
@@ -1045,11 +1045,11 @@ $$
 ([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
 
 
-+-- {: .num_defn #DifferentialOfThePeaceSymbolGraph}
++-- {: .num_defn #DifferentialOfMinimalTrivalenVacuumGraph}
 ###### Example
-**(Differential of the Peace Symbol graph)**
+**(Differential of minimal trivalent [[vacuum diagram]])**
 
-The differential of the _Peace Symbol_ graph from Example \ref{TrivalenGraphs}
+The differential of the minimum trivalent [[vacuum diagram]] from Example \ref{TrivalenGraphs}:
 
 
 <center>
@@ -1128,9 +1128,10 @@ We say that a graph $\Gamma$ (Def. \ref{Graphs}) is a _vanishing graph_ if it is
 
 * it is a [[vacuum diagram]]: $\Gamma$ contains an internal vertex which is not connected, via some path of edges, to an external vertex;
 
+* it has [[parallel edges]]: $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element.
+ 
 * it is less than trivalent: $\Gamma$ contains an internal vertex $v \in Verts_{int}$ that is less than trivalent, hence an internal vertex with less than 3 edges attached to it;
 
-* it contains parallel edges: $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element.
 
 
 Write 
@@ -1188,8 +1189,8 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 
 ([Lambrechts-Volić 14, Def. 6.19](#LambrechtsVolic14))
 
-+-- {: .num_defn #A9CocycleInGraphs3}
-###### Remark
++-- {: .num_example #A9CocycleInGraphs3}
+###### Example
 **(A 9-cocycle in $Graphs_3(\mathbb{R}^3)$)**
 
 The trivalent graph of degree 9 from Example \ref{TrivalenGraphs} is a [[cocycle]] in $Graphs_3(\mathbb{R}^3)$ (Def. \ref{GraphComplexDgcAlgebra}):
@@ -1199,8 +1200,9 @@ The trivalent graph of degree 9 from Example \ref{TrivalenGraphs} is a [[cocycle
 </center>
 
 The computation of the differential is just as  for the 3-term relation in Example \ref{ThreeTermRelation},
-but now all summands on the right have more than one edge between pairs of vertices
-and hence are vanishing graphs (Def. \ref{VanishingGraphs}) that are zero in the quotient (eq:TheGraphComplexAsQuotientByVanishingGraphs) defining the  graph complex $GRaphs_3\big( \mathbb{R}^3 \big)$ (Def. \ref{GraphComplexDgcAlgebra}).
+but now all summands on the right have [[parallel edges]] and hence are vanishing graphs (Def. \ref{VanishingGraphs}) that are zero in the quotient (eq:TheGraphComplexAsQuotientByVanishingGraphs) defining the  graph complex $Graphs_3\big( \mathbb{R}^3 \big)$ (Def. \ref{GraphComplexDgcAlgebra}).
+
+> This trivalent diagram must be exact, as there is not supposed to be any cohomology in degree 9 (by Prop. \ref{RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace}). What's a trivializing coboundary?
 
 =--
 
@@ -1443,6 +1445,81 @@ yields a [[quasi-isomorphism]] from the graph complex to the [[real cohomology]]
   }
   \,.
 \]
+
+
++-- {: .num_prop #RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace}
+###### Proposition
+**([[real cohomology]] of configuration spaces of ordered points in [[Euclidean space]])**
+
+The [[real cohomology|real]] [[cohomology ring]] of the configuration spaces 
+
+$$
+  Conf_n\big( \mathbb{R}^D \big) 
+  \;\coloneqq\;
+  \big( \mathbb{R}^D \big)^n \setminus FatDiag
+$$
+
+of $n$ ordered points in [[Euclidean space]] $\mathbb{R}^D$ is [[generators and relations|generated]] by elements 
+
+$$ 
+  \omega_{i j}
+  \;\;
+  \in
+  H^2
+  \Big(
+    Conf_n\big( \mathbb{R}^D \big),
+    \mathbb{R}
+  \Big)
+$$
+
+for $i, j \in \{1, \cdots, n\}$
+
+subject to these three [[generators and relations|relations]]:
+
+1. $\omega_{i j} = (-1)^D \omega_{j i} $;
+
+1. $\omega_{i j} \wedge \omega_{i j} \;=\; 0$;
+
+1. $\omega_{i j} \wedge \omega_{j k} + \omega_{j k} \omega_{k i} + \omega_{k i} \wedge \omega_{i j} = 0$.
+
+Hence:
+
+$$
+  H^\bullet
+  \Big(
+    Conf_n\big( \mathbb{R}^D \big),
+    \mathbb{R}
+  \Big)
+  \;\simeq\;
+  \mathbb{R}\Big[ \big\{\omega_{i j} \big\}_{i, j \in \{1, \cdots, n\}} \Big]
+  \Big/
+  \left(
+    \array{
+      \omega_{i j} = (-1)^D \omega_{j i}
+      \\
+      \omega_{i j} \wedge \omega_{i j} = 0
+      \\
+      \omega_{i j} \wedge \omega_{j k} + \omega_{j k} \omega_{k i} + \omega_{k i} \wedge \omega_{i j} = 0    
+     }
+     \;\;
+     \text{for}\;
+     i,j \in \{1, \cdots, n\}
+  \right)
+$$
+
+=--
+
+This is due to [Arnold 69](configuration+space+of+points#Arnold69), [Cohen 73](configuration+space+of+points#Cohen73).
+
+
+
+| [[real cohomology]] of [[configuration space of points]] |  [[graph complex]] ([this Prop.](configuration+space+of+points#RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace)) | 
+|------------------|-------------------------|
+| generator <br/> $\omega_{i j} \in H^2\Big( Conf_n\big( \mathbb{R}^3\big) \Big)$ | [[edge]] <br/> $i \longrightarrow j$   | 
+| **[[generators and relations|relations]]:** | **[[generators and relations|relations]]:** |
+| $\omega_{i j} = - \omega_{j i} $ | graph changes sign when edge is reversed (Def. \ref{SignRulesForGraphs}) | 
+| $\omega_{i j} \wedge \omega_{i j} \;=\; 0 $ | graph with [[parallel edges]] vanishes (Def. \ref{VanishingGraphs}) |  
+| $\omega_{i j} \wedge \omega_{j k} + \omega_{j k} \omega_{k i} + \omega_{k i} \wedge \omega_{i j} = 0$ | coboundary of trivalent vertex (Example \ref{ThreeTermRelation}) | 
 
 
 
