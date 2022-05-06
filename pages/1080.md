@@ -108,7 +108,7 @@ Discussion in the generality of [[monoidal category|monoidal]] [[category theory
 
 Formalization in terms of [[dependent linear type theory]] is in
 
-* _[[schreiber:Type-semantics for quantization]]_
+* _[[schreiber:Type-semantics for quantization]]_ 
 
 [[!redirects matrix multiplication]]
 
