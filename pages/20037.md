@@ -28,9 +28,24 @@ A theorem by Bichdeller-Dellecherie says, in short, that one can define this [[I
 
 \section{Main Result}
 
-If one can define $X^1_{st}\colon = \int_s^t dX_{r_1}$, $X^2_{st}\colon =\int_s^t\int_s^{r_2} dX_{r_1}\otimes dX_{r_2}$,..., $X^\ell_{st}\colon =\int_s^t \int_s^{r_\ell}...\int_s^{r_2} dX_{r_1}\otimes...\otimes dX_{r_\ell}$ where $\ell=\lfloor p \rfloor$ then the following "corrected Riemann sum" converges:
+Given a sequence of partitions, $\mathcal{P}_n=\{0=t_0\lt...\lt t_{n-1}\lt t\}$, if one can define $X^1_{su}\colon = \int_s^u dX_{r_1}$, $X^2_{su}\colon =\int_s^u\int_s^{r_2} dX_{r_1}\otimes dX_{r_2}$,..., $X^\ell_{su}\colon =\int_s^u \int_s^{r_\ell}...\int_s^{r_2} dX_{r_1}\otimes...\otimes dX_{r_\ell}$ where $\ell=\lfloor p \rfloor$ for $s,u\in[0,t]$ then the following "corrected Riemann sum" converges almost surely as is called the rough integral:
 
-$$\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+\frac{1}{(\ell-1)!}D^{\ell-1}f(X_{t_k})X^{\ell}_{t_k t_{k+1}}$$
+$$\lim_{n\to\infty}\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+\frac{1}{(\ell-1)!}D^{\ell-1}f(X_{t_k})X^{\ell}_{t_k t_{k+1}}\colon = \int_0^t f(X_S)\otimes d\mathbf{X}_s$$
+
+The collection $\mathbf{X}=(X^1,...,X^\ell)$ is called a rough path of order $\ell$. We say that $(f(X),Df(X),...,\frac{1}{(\ell-1)!}D^{\ell-1}f(X))$ is controlled by $\mathbf{X}$.
+
+\section{Example}
+
+Fractional Brownian motion (fBm), $B_t$, is a centered, continuous Gaussian process with covariance
+
+$$E(B_t B_s)=\frac{1}{2}\left(t^{2H}+s^{2H}-|t-s|^{2H}\right)$$
+
+where $H\in(0,1)$ is called the Hurst parameter. When $H=1/2$ we recover regular [[Brownian motion]]. 
+
+We have that $B_t\in C^p$ iff $p\lt 1/H$ and that fBm is not a semimartingale unless $H=1/2$. So SDEs driven by fBm with $H\lt 1/2$ are not solvable by classical means and rough paths must be used.
+
+
+
 
 \section{References}
 
