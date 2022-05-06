@@ -14,18 +14,32 @@
 {:toc}
 
 ## Defintion
+ {#Definition}
 
 A _metric Lie algebra_ or _quadratic Lie algebra_ over some [[ground field]] $\mathbb{F}$ is
  
 1. _Lie algebra_ $\mathfrak{g}$ 
 
-1. a [[bilinear form]] $\langle -,-\rangle \;\colon\; \mathfrak{g} \otimes \mathfrak{g} \longrightarrow \mathbb{F}$
+1. a [[bilinear form]] $mathfrak{g} \otimes \mathfrak{g} \overset{g}{\longrightarrow} \mathbb{F}$
 
-such that $\langle -,-\rangle$
+such that $g$
 
 1. is [[symmetric bilinear form|symmetric]] and [[invariant]] under the [[adjoint action]], hence is an [[invariant polynomial]] on $\mathfrak{g}$;
 
 1. is non-degenerate as a [[bilinear form]], in that its [[tensor product of vector spaces|tensor product]]-[[adjunct]] $\mathfrak{g} \to \mathfrak{g}^\ast$ is a [[linear isomorphism]].
+
+The following table shows the data in a metric Lie representation equivalently
+
+1. in [[category theory]]-notation;
+
+1. in [[Penrose notation]] ([[string diagrams]]);
+
+1. in index notation:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/MetricLieAlgebra.jpg" width="800">
+</center>
+
 
 
 ## Examples
@@ -36,7 +50,7 @@ such that $\langle -,-\rangle$
 
 ### Lie algebra weight systems on chord diagrams
 
-"Most" [[weight systems]] on [[chord diagrams]] come from [[dualizable object|dualizable]] [[Lie algebra representations]] over [[metric Lie algebras]]: these are the _[[Lie algebra weight systems]]_.
+"Most" [[weight systems]] on [[chord diagrams]] come from [[metric Lie representations]] over [[metric Lie algebras]]: these are the _[[Lie algebra weight systems]]_.
 
 ## Related concepts
 
@@ -74,7 +88,7 @@ further explored in
 
 * [[José Figueroa-O'Farrill]], _Simplicity in the Faulkner construction_,  Journal of Physics A: Mathematical and Theoretical, Volume 42, Number 44 ([arXiv:0905.4900](https://arxiv.org/abs/0905.4900))
 
-and putting to use the [[Faulkner construction]] that was previously introduced in ([](#Faulkner73))
+and putting to use the [[Faulkner construction]] that was previously introduced in ([Faulkner 73](#Faulkner73))
 
 
 See also:
