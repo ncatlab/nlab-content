@@ -28,6 +28,9 @@ On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[b
 
 * [[Robbert Dijkgraaf]], [[Juan Maldacena]], [[Gregory Moore]], [[Erik Verlinde]], _A Black Hole Farey Tail_ ([arXiv:hep-th/0005003](https://arxiv.org/abs/hep-th/0005003), [spire:526744](http://inspirehep.net/record/526744))
 
+On [[Inönü-Wigner contraction]] of [[anti de Sitter spacetimes]] to [[pp-wave spacetimes]], [[single trace operators]] in the [[AdS/CFT correspondence]], and introducing the [[BMN matrix model]]:
+
+* {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], Section 2 of: _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
 
 
 General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
