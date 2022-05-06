@@ -21,7 +21,17 @@
 
 This entry collects links related to the book
 
-* [[Peter May]], [[Johann Sigurdsson]], _Parametrized Homotopy Theory_, Mathematical Surveys and Monographs, vol. 132, AMS 2006  ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+* [[Peter May]], [[Johann Sigurdsson]], 
+
+  **Parametrized Homotopy Theory**, 
+
+  Mathematical Surveys and Monographs, vol. 132, AMS 2006  
+
+  [ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132)
+
+  [arXiv:math/0411656](https://arxiv.org/abs/math/0411656)
+
+  [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)
 
 on [[parameterized stable homotopy theory]], hence on [[stable homotopy theory]] in [[slice (infinity,1)-toposes]] [[Top]]$/X$ for given topological base spaces $X$: the homotopy theory of [[ex-spaces]] and [[parametrized spectra]]. 
 
