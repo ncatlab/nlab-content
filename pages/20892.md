@@ -43,6 +43,10 @@ Reviewed in:
 
 * {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology of knot and link spaces_, [Morfismos, Vol 17, no 2, 2013](https://fdocuments.co/amp/document/morfismos-vol-17-no-2-2013.html) ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
 
+Applied to [[Gopakumar-Vafa duality]]:
+
+* Dave Auckly, Sergiy Koshkin, _Introduction to the Gopakumar-Vafa Large $N$ Duality_, Geom. Topol. Monogr. 8 (2006) 195-456 ([arXiv:0701568](https://arxiv.org/abs/math/0701568))
+
 
 #### For single trace operators in AdS/CFT duality
  {#ForSingleTraceOperatorsInAdSCFTDuality}
