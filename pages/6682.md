@@ -5,10 +5,18 @@
 
 * _Memoirs_ ([arXiv:1708.09093](https://arxiv.org/abs/1708.09093))
 
-* [[Raphael Bousso]], Fernando Quevedo, [[Steven Weinberg]], _Joseph Polchinski: A Biographical Memoir_ ([arXiv:2002.02371](https://arxiv.org/abs/2002.02371))
+* [[Raphael Bousso]], [[Fernando Quevedo]], [[Steven Weinberg]]:
+
+  _Joseph Polchinski: A Biographical Memoir_ 
+
+  ([arXiv:2002.02371](https://arxiv.org/abs/2002.02371))
 
 
 ## Selected writings
+
+Introducing [[Polchinski's flow equation]] in [[renormalization]]:
+
+* {#Polchinski84} [[Joseph Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231, 1984 ([pdf](http://max2.physics.sunysb.edu/~rastelli/2016/Polchinski.pdf))
 
 Introducing [[orientifolds]]:
 
@@ -37,7 +45,7 @@ On [[AdS/CFT duality]]:
 * [[Joseph Polchinski]], _Introduction to Gauge/Gravity Duality_ ([arXiv:1010.6134](https://arxiv.org/abs/1010.6134))
 
 
-Textbook on [[string theory]]
+Textbook on [[string theory]]:
 
 * [[Joseph Polchinski]], _[[String theory]]_, Cambridge Monographs on Mathematical Physics
 
