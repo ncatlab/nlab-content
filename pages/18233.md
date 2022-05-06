@@ -48,6 +48,10 @@ The term "displayed category", and the applications to type theory, are due to:
 
 * [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], *Displayed Categories*, [arxiv](https://arxiv.org/abs/1705.04296)
 
+An unpacking of the definition as lax functors into [[Span]] is in 2.2 of
+
+* [[Duško Pavlović]], [[Samson Abramsky]], *Specifying Interaction Categories*, [LNCS](https://link.springer.com/chapter/10.1007/BFb0026986)
+
 Also cited above:
 
 * [[Geoff Cruttwell]], [[Mike Shulman]], *A unified framework for generalized multicategories* [TAC](http://tac.mta.ca/tac/volumes/24/21/24-21abs.html)
