@@ -9,7 +9,23 @@
 =--
 =--
 
-The _Elephant_ is a book on [[topos|topos theory]] by [[Peter Johnstone]].
+
+This page collects material related to the book
+
+* [[Peter Johnstone]]
+
+  _Sketches of an Elephant -- A Topos Theory Compendium_
+
+
+  Oxford University Press 2002
+
+  Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
+                  
+  Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
+
+
+
+on [[topos theory]].
 
 
 The full title is _Sketches of an Elephant: A Topos Theory Compendium_. Like _Gravitation_, the title can be taken to refer not only to the subject matter but also to the immense size and scope of the book itself. Like _The Lord of the Rings_, it consists of 6 parts arranged evenly into 3 volumes (but without appendices). Actually, Volume&#160;3 has not yet been published (so who knows? it may have appendices after all!).
