@@ -12,6 +12,13 @@ On the [[real cohomology]] of [[configuration spaces of points]]:
 
 * {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
 
+The [[Arnold-Kuiper-Massey theorem]]:
+
+* [[Vladimir Arnold]], _Ramified covering $\mathbb{C}P^2  \to S^4$, hyperbolicity and projective topology_, Siberian Math. Journal 1988, V. 29, N 5, P.36-47
+
+* [[Vladimir Arnold]], _On disposition of ovals of real plane algebraic curves, involutions of four-dimensional manifolds and arithmetics of integer quadratic forms_, Funct. Anal. and Its Appl., 1971, V. 5, N 3, P. 1-9.
+
+
 On methods of [[topology]] and [[homotopy theory]] in [[hydrodynamics]]:
 
 * [[Vladimir Arnold]], [[Boris Khesin]], _Topological methods in hydrodynamics_, Applied Mathematical Sciences __125__, Springer 1998 ([doi:10.1007/b97593](https://link.springer.com/book/10.1007/b97593))
