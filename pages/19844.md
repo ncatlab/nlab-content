@@ -696,6 +696,9 @@ _Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating 
 
 * Quan-Yi Hu, Ya-Dong Yang, Min-Di Zheng, _Revisiting the B-physics anomalies in R-parity violating MSSM_ ([arXiv:2002.09875](https://arxiv.org/abs/2002.09875))
 
+* Wolfgang Altmannshofer, P. S. Bhupal Dev, Amarjit Soni, Yicong Sui, _Addressing $R_{D^\ast}$, $R_{K^\ast}$, muon $g-2$ and ANITA anomalies in a minimal R-parity violating supersymmetric framework_ ([arXiv:2002.12910](https://arxiv.org/abs/2002.12910))
+
+
 
 
 [[Horava-Witten theory]]-type [[KK-compactification]]:
