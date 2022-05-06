@@ -64,9 +64,25 @@ On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[S
 
 ## References
 
+
+
+### General
+
 The concept goes back to
 
 * {#Vafa96} [[Cumrun Vafa]], Section 4.3 of: _Evidence for F-Theory_, Nucl. Phys. B469:403-418, 1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
+
+See also:
+
+* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
+
+* [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
+
+  (generalization of [[compact twisted connected sum G2-manifolds]])
+
+Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]] via [[Higgs bundles]]:
+
+* {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
 
 
 ### Witten's Dark Fantasy
@@ -79,23 +95,15 @@ Already [Vafa 96, Section 4.3](#Vafa96) mentions the relation to [[Witten's Dark
 * {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
 
-* {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
+* {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, [[Gianluca Zoccarato]], _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
-* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_ ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489))
+* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, [[Gianluca Zoccarato]], _Pixelated Dark Energy_ ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489))
 
 See also
 
 * [[Tom Pugh]], _M-theory on $Spin(7)$-manifold duals and their F-theory duals_ ([pdf](/nlab/files/PughMTheoryOnSpin7.pdf))
 
 * [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on Spin(7) Manifolds: Weak-Coupling Limit_, J. High Energ. Phys. (2014) 2014: 76 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
-
-### General
-
-* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
-
-* [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
-
-  (generalization of [[compact twisted connected sum G2-manifolds]])
 
 
 
