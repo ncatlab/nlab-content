@@ -1162,6 +1162,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 ## References
 
+### General
+
 Precursors include
 
 * {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopy et classes de groupes abelians_, Ann. of Math. 58 (1953) 258-294
@@ -1224,6 +1226,31 @@ An extension of rational homotopy theory to describe (some) non-[[simply connect
 Generalization to non-[[connected spaces]] is discussed in
 
 * {#BuijsMurillo12} [[Urtzi Buijs]], [[Aniceto Murillo]], _Algebraic models of non-connected spaces and homotopy theory of $L_\infty$-algebras_, Advances in Mathematics 236 (2013): 60-91. ([arXiv:1204.4999](https://arxiv.org/abs/1204.4999))
+
+### Relation to Whitehead products
+
+Relation to [[Whitehead products]]:
+
+* {#Quillen69} [[Daniel Quillen]], section I.5 of _Rational Homotopy Theory_, Annals of Mathematics Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](https://www.jstor.org/stable/1970725))
+
+
+* Christopher Allday, _Rational Whitehead products and a spectral sequence of Quillen_, Pacific J. Math. Volume 46, Number 2 (1973), 313-323 ([euclid:1102946308](https://projecteuclid.org/euclid.pjm/1102946308))
+
+* Christopher Allday, _Rational Whitehead product and a spectral sequence of Quillen, II_, Houston Journal of Mathematics, Volume 3, No. 3, 1977 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.434.8821&rep=rep1&type=pdf))
+
+* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
+
+* Peter Andrews, Martin Arkowitz, _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+
+* Francisco Belchí, [[Urtzi Buijs]], José M. Moreno-Fernández, Aniceto Murillo, _Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL_, Linear Algebra and its Applications, Volume 520 (2017), pages 16-31 ([arXiv:1604.01478](https://arxiv.org/abs/1604.01478))
+    
+
+
+* Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
+
+
+
+
 
 [[!redirects rational homotopy type]]
 [[!redirects rational homotopy types]]
