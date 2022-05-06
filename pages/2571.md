@@ -115,7 +115,9 @@ The $GCH$ itself, or its negation, could also be regarded as an additional axiom
 
 The structural set theory **[[ETCS]]** is equivalent to $BZC$ in that the [[category of sets]] in that theory satisfies $ETCS$ while the well-founded [[pure sets]] in $ETCS$ satisfy $BZC$.  This uses (1--4), Bounded Separation for (5), and (7--10), with Weak Replacement following from (5) and (7).
 
-[[Mike Shulman]]\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, which lacks the axiom of choice, is equivalent to $ZF^{\circlearrowleft}$, which is $ZF$ without (10), in a weaker sense of equivalence. 
+[[Mike Shulman]]\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, which lacks the axiom of choice, is equivalent to $ZF^{\circlearrowleft}$, which is $ZF$ without (10), in a weaker sense of equivalence.
+
+[Shulman 2018](#Shulman2018) is an extensive survey of variations of $ZFC$ and variations of $ETCS$ (mostly weak ones), showing how these correspond.
 
 
 ## Related entries 
