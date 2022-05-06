@@ -20,13 +20,15 @@
 
 ## Idea
 
-The Conway groups are three of the [[sporadic finite simple groups]].
+The Conway groups, $CO_{1}, CO_{2}, CO_{3}$, are three of the [[sporadic finite simple groups]]. A fourth group, $CO_0$, is the group of automorphisms of the [[Leech lattice]] with respect to addition and [[inner product]]. This latter group is not simple, but $CO_1$ is the quotient of $CO_0$ by its [[center]] of order 2. The other two simple Conway groups are subgroups of $CO_1$.
+
+The simple Conway groups are three of the seven members of the 'second generation' of the _Happy Family_ of 20 simple [[subquotients]] of the [[Monster group]].
 
 ## Properties
 
 ### As automorphism group of super VOAs
 
-The [[Conway group]] $C_{O_0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
+The [[Conway group]] $CO_{0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
 
   ([Duncan 05](#Duncan05), see also [Paquette-Persson-Volpato 17, p. 9](#PaquettePerssonVolpato17))
 
