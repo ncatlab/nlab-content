@@ -1410,7 +1410,7 @@ $$
   \,.
 $$
 
-Moreover since $k^n$ is [[locally compact topological space|locally compact]] (as every [[metric space]]),
+Moreover since $k^n$ is [[locally compact topological space|locally compact]],
 the [[mapping space]] [[adjunction]] says (by [this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) that there is a continuous function
 
 $$
