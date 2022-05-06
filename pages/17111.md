@@ -237,3 +237,6 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 [[!redirects Spin(3)]]
 
 [[!redirects Spin3]]
+
+[[!redirects Sp(1)]]
+[[!redirects Sp1]]
