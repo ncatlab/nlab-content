@@ -372,7 +372,7 @@ A corresponding discussion as [[schreiber:∞-Wess-Zumino-Witten theory]] and re
 ### K-theoretic description and D-brane charge
  {#ReferencesKTheoryDescription}
 
-The idea that the physics of D-branes is described by [[topological K-theory]] originates in 
+The idea that D-branes have [[Dirac charge quantization]] in [[topological K-theory]] originates in 
 
 * [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
 
