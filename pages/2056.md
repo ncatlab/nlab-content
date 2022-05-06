@@ -1,3 +1,21 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition
 
 A __Thomason model category__ is a (Quillen) [[model category]]
@@ -14,7 +32,7 @@ this addition to Dwyer–Hirschhorn–Kan–Smith instead).
 
 ## References
 
-* Charles Weibel, _Homotopy Ends and Thomason Model Categories_ ([arXiv](http://arxiv.org/abs/math/0106052))
+* [[Charles Weibel]], _Homotopy Ends and Thomason Model Categories_ ([arXiv](http://arxiv.org/abs/math/0106052))
 
 * [[nCafe]] [discussion](http://golem.ph.utexas.edu/category/2009/07/question_on_1functor_categorie.html#c025798)
 
