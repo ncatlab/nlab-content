@@ -50,7 +50,7 @@ We say that $\mathbf{H}$ is **coherent** if it is $n$-coherent for every $n\geq 
 
 +-- {: .num_remark}
 ###### Remark
-This terminology differs from the one in [[SGA]]4: a [[topos]] is a [[coherent topos]] in the sense of [[SGA]]4 if and only if it is 1-coherent *and* locally 1-coherent according to the above definition.
+This terminology differs from the one in [[SGA]]4: a [[topos]] is a [[coherent topos]] in the sense of [[SGA]]4 if and only if it is 2-coherent according to the above definition.
 =--
 
 +-- {: .num_defn }
