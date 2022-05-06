@@ -96,8 +96,8 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Top]]</td>
   <td markdown="1">[[τ-additive measures]]</td>
   <td markdown="1">[[extended probabilistic powerdomain#the_measure_monad_on_top|A-topology]], [[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">Full characterization unknown. [[extended probabilistic powerdomain#algebras|See also here]]. </td>
+  <td markdown="1">[F-P-R '19](#support)</td>
  </tr>
  <tr>
   <th markdown="1">[[probabilistic powerdomain]]</th>
@@ -112,8 +112,8 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Top]]</td>
   <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">[[extended probabilistic powerdomain#spaces_of_valuations|initial topology of evaluation maps]], [[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">Full characterization unknown. [[extended probabilistic powerdomain#algebras|Dedicated section here]]</td>
+  <td markdown="1">[Heckmann '96](#heckmann96), [A-J-K '04](#jung), [GL-J '19](#algebras), [F-P-R '19](#support)</td>
  </tr>
  <tr>
   <th markdown="1">[[valuation monad on locales]]</th>
@@ -121,7 +121,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">[[initial topology]] of evaluation maps</td>
   <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[Vickers '11](#vmonad)</td>
  </tr>
  <tr>
   <th markdown="1">[[Kantorovich monad]]</th>
@@ -129,7 +129,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]]</td>
   <td markdown="1">closed [[convex subsets]] of [[Banach spaces]]</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[van Breugel '05](#vanbreugel), [F-P '19](#kantorovich19)</td>
  </tr>
  <tr>
   <th markdown="1">(ordered) [[Kantorovich monad]]</th>
@@ -137,7 +137,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
   <td markdown="1">closed [[convex subsets]] of [[ordered Banach spaces]]</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[F-P](#orderedkantorovich)</td>
  </tr>
  <tr>
   <th markdown="1">[[distribution monad]] (a.k.a. finitary Giry monad, convex combination monad)</th>
@@ -145,7 +145,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
   <td markdown="1">[[convex spaces]]</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[Fritz '09](#fritzconvex), [Jacobs '18](#jacobs)</td>
  </tr>
  <tr>
   <th markdown="1">[[infinitary distribution monad]] (a.k.a. countable convex combination monad)</th>
@@ -172,7 +172,7 @@ See [the table below](#detailed_list) for more details.
 
 ## References
 
-*{#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
 
 * {#Giry80} Mich&#232;le Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982.
@@ -181,18 +181,27 @@ See [the table below](#detailed_list) for more details.
 
 * {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
 
-* {#monad} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996. [Link here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf).
+* {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+* {#jung} Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+
+* {#algebras} Jean Goubault-Larrecq and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
+([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
 * {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019. [Link here](https://arxiv.org/abs/1910.03752).
 
 * {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
 
-* {#vanbreugel} Franck van Breugel, _The metric monad for probabilistic nondeterminism_, features both the Lawvere/Giry monad and Panangaden's monad.
+* {#vanbreugel} Franck van Breugel, _The metric monad for probabilistic nondeterminism_, unpublished, 2005. ([pdf](http://www.cse.yorku.ca/~franck/research/drafts/monad.pdf))
 
-(...more to come...)
+* {#kantorovich19} [[Tobias Fritz]] and Paolo Perrone, _A probability monad as the colimit of spaces of finite samples_, Theory and Applications of Categories 34, 2019. ([pdf](http://www.tac.mta.ca/tac/volumes/34/7/34-07.pdf))
 
+* {#orderedkantorovich} [[Tobias Fritz]] and Paolo Perrone, _Stochastic order on metric spaces and the ordered Kantorovich monad_, submitted, 2018. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
+
+* {#jacobs} [[Bart Jacobs]], _From probability monads to commutative effectuses_, Journal of Logical and Algebraic Methods in Programming 94, 2018. 
+([doi:10.1016/j.jlamp.2016.11.006](https://doi.org/10.1016/j.jlamp.2016.11.006))
+
+* {#fritzconvex} [[Tobias Fritz]], _Convex spaces I: definitions and examples_, 2009. ([arXiv:0903.5522](https://arxiv.org/abs/0903.5522))
 
 
 [[!redirects probability monad]]
