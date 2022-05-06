@@ -102,9 +102,18 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 
 ### Review
 
-Review (with emphasis [[holographic light front QCD]]):
+Review of the original work [Miyazawa 66](#Miyazawa66), [Miyazawa 68](#Miyazawa68), [Catto-Gürsey 85](#CattoGuersey85), [Catto-Gürsey 88](#CattoGuersey88):
 
-* [[Guy de Téramond]], _Superconformal and Supersymmetric Constraints to Hadron Masses in Light-Front Holographic QCD_, Trento 2017 ([[TeramondHadronSupersymmetry2017.pdf:file]])
+* [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
+
+
+* {#Lichtenberg99} [[Don Lichtenberg]], _Whither Hadron Supersymmetry?_, Contribution to: _[International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification_ (28th Conference on High-Energy Physics and Cosmology Since 1964)](https://inspirehep.net/conferences/972660) (1999) 203-208
+([arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339))
+
+
+Review with emphasis on the formulation via [[holographic light front QCD]]:
+
+* [[Guy de Téramond]], _Superconformal and Supersymmetric Constraints to Hadron Masses in Light-Front Holographic QCD_, talk at _[The Proton Mass: At the Heart of Most Visible Matter](https://www.ectstar.eu/node/2218)_, Trento 2017 ([pdf](https://www.ectstar.eu/sites/www.ectstar.eu/files/talks/de-teramond-pm.pdf), [[TeramondHadronSupersymmetry2017.pdf:file]])
 
 * {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
@@ -123,24 +132,15 @@ The argument that [[hadron supersymmetry]] is in fact implied by the [[constitue
 
 * {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
 
-* {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
+* {#CattoGuersey88} [[Sultan Catto]], [[Feza Gürsey]], _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
 
-* [[Sultan Catto]], _Algebraic Realization of Quark-Diquark Supersymmetry_ ([arXiv:hep-th/9811069](https://arxiv.org/abs/hep-th/9811069))
-
-
+* [[Sultan Catto]], _Algebraic Realization of Quark-Diquark Supersymmetry_ ([arXiv:hep-th/9811069](https://arxiv.org/abs/hep-th/9811069), [spire:479005](https://inspirehep.net/literature/479005))
 
 * [[Sultan Catto]], Yasemin Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
 
 
 * {#CGNY19} [[Sultan Catto]], Yasemin Gürcan, B. Nicolescu, E. Yu, _Effective Hadronic Supersymmetry from Quantum Chromodynamics_, Ukrainian Journal of Physics, Vol 64 No 12 (2019)  ([doi:10.15407/ujpe64.12.1096](https://doi.org/10.15407/ujpe64.12.1096))
 
-
-* [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
-
-
-* {#Lichtenberg99} [[Don Lichtenberg]], _Whither Hadron Supersymmetry?_, 
-Contribution to: _International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification_ (28th Conference on High-Energy Physics and Cosmology Since 1964), 203-208
-([arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339))
 
 
 
