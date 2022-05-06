@@ -19,7 +19,7 @@
 
 ## Idea
 
-It is practically impossible to model a macroscopic [[physical system]] in terms of the microscopic kinematical and dynamical variables of all its [[particles]]. Thus one makes a hierarchical reduction in which this complexity is reduced to small number of collective variables. The theoretical framework for such reductions for systems is [[statistical mechanics]] or statistical physics.
+It is practically impossible to model a macroscopic [[physical system]] in terms of the microscopic kinematical and dynamical variables of all its [[particles]]. Thus one makes a hierarchical reduction in which this complexity is reduced to a small number of collective variables. The theoretical framework for such reductions for systems is [[statistical mechanics]] or statistical physics.
 
 One special case of hierarchical reduction is the limit of large volumes $V$, in which the number of particles (of each species) per volume, $N/V$, stays constant. This is called the **[[thermodynamic limit]]** in statistical physics. Under some standard assumptions like homogeneity (spacial and possibly directional) and stability (no transitory effects), there is a small number of collective variables characterizing the system. Such a description can be (and historically was) postulated as an independent self-consistent phenomenological theory even without going into the details of statistical mechanics; such a description is called **[[equilibrium]] thermodynamics**, which is believed to be deducible from statistical mechanics, as has been partially proved for some classes of systems. Sometimes transitional finite-time phenomena are described either statistically by studying stochastic processes or by a more elaborate hierarchical form of thermodynamics, so-called **nonequilibrium thermodynamics**. 
 
@@ -40,13 +40,13 @@ One of the basic characteristics of a thermodynamical system is its [[temperatur
 
 A formalization in terms of [[symplectic geometry]] is in chapter IV "Statistical mechanics" of
 
-* [[Jean-Marie Souriau]], _Structure of dynamical systems. Asymplectic view of physics_ . Translated from the French by C. H. Cushman-de Vries. Translation edited and with a preface by R. H. Cushman and G. M. Tuynman. Progress in Mathematics, 149. Birkh&#228;user Boston, Inc., Boston, MA, 1997
+* [[Jean-Marie Souriau]], _Structure of dynamical systems. A symplectic view of physics_ . Translated from the French by C. H. Cushman-de Vries. Translation edited and with a preface by R. H. Cushman and G. M. Tuynman. Progress in Mathematics, 149. Birkh&#228;user Boston, Inc., Boston, MA, 1997
 
 as well as in 
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
 
-Souriau model of thermodynamics has been extented for "geometric science of information" (Koszul information geometry) with a general definition of [[Fisher metric]], Euler-Poincar&#233; equation and variational definition of Souriau thermodynamics, as in:
+The Souriau model of thermodynamics has been extented for "geometric science of information" (Koszul information geometry) with a general definition of [[Fisher metric]], Euler-Poincar&#233; equation and variational definition of Souriau thermodynamics, as in:
 
 * Frederic Barbaresco, _Koszul information geometry and Souriau geometric, temperature_, Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16,  4521-4565 (2014) [pdf](http://www.mdpi.com/1099-4300/16/8/4521/pdf); _Symplectic structure of information geometry: Fisher metric and Euler-Poincar&#233; equation of Souriau Lie group thermodynamics_, GSI'15, Springer LCNS __9389__, 529-540 (2015) [doi](https://doi.org/10.1007/978-3-319-25040-3_57) 
 
