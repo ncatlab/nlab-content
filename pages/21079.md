@@ -118,9 +118,9 @@ This gives a way to talk about monoid and group [[actions]] [[internally]] to an
 
 ## Properties
 
-* The action monad $X\mapsto M\times X$ on [[Set]] is [[commutative monad|commutative]] if and only if $M$ is commutative as a monoid. In that case the left and right action monads coincide up to isomorphism.
+* For the case of group actions on sets, a $G$-set is [[free action|free as an action]] if and only if it is [[algebra over a monad#free_algebras|free as an algebra]] (up to isomorphism).
+* The action monad $X\mapsto M\times X$ on [[Set]] is [[commutative monad|commutative]] if and only if $M$ is commutative as a monoid. 
 * More generally, in an arbitrary [[symmetric monoidal category]], the action monad induced by tensoring with an [[internal monoid]] is commutative if and only the monoid object is commutative. (See for example [Brandenburg, Example 6.3.12](#Brandenburg2014).)
-
 
 ## In computer science
 
