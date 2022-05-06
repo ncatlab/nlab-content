@@ -70,17 +70,16 @@ where
 +-- {: .num_prop}
 ###### Proposition
 
-
 The [[integral cohomology]] [[cohomology ring|ring]] of the [[classifying space]] $B SO(4)$ is
 
 $$
   H^\bullet
   \big(
-    p_1, \chi, W_3, W_5
+    p_1, \chi, W_3
   \big)
   /
   \big( 
-    2 W_3, 2 W_5, W_3 \smile W_5
+    2 W_3, 2 W_5
   \big)
 $$
 
@@ -90,7 +89,7 @@ where
 
 * $\chi$ is the [[Euler class]],
 
-* $W_3, W_5$ are the [[integral Stiefel-Whitney classes]].
+* $W_3$ is the [[integral Stiefel-Whitney class]].
 
 Notice that the [[cup product]] of the [[Euler class]] with itself is the [[second Pontryagin class]]
 
@@ -99,7 +98,7 @@ $$
   \,,
 $$
 
-which therefore, while present, does not appear as a separate generator:
+which therefore, while present, does not appear as a separate generator.
 
 =--
 
