@@ -591,6 +591,10 @@ Beyond their possible common origin in [[leptoquarks]], further possible joint e
 * Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
 
 
+* K. S. Babu, P. S. Bhupal Dev, Sudip Jana, Anil Thapa, _Unified Framework for $B$-Anomalies, Muon $g-2$, and Neutrino Masses_ ([arXiv:2009.01771](https://arxiv.org/abs/2009.01771))
+
+
+
 
 
 ### Possible explanations/models
