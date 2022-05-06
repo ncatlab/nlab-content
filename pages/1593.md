@@ -90,8 +90,6 @@ Exposition:
 
 Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
-
-
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
@@ -103,6 +101,11 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
 
 * {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+
+The MO5 is originally discussed in 
+
+* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
+
 
 The classification in [Hanany-Kol 00 (3.2)](#HananyKol00) also appears, with more details, in Prop. 4.7 of
 
