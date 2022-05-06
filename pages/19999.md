@@ -1,15 +1,22 @@
 
-> This page is about the notion of poly-morphism introduced by Shinichi Mochizuki. For the concept in computer science see [[polymorphism]]. Or see [[universe polymorphism]] for the concept in type theory.
+> This page is about the notion of poly-morphism introduced by [[Shinichi Mochizuki]]. For the concept in [[computer science]] see [[polymorphism]]. Or see [[universe polymorphism]] for the concept in [[type theory]].
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
-For a category $C$, a **poly-morphism** is a collection of morphisms with common source and target, considered as a morphism in a new category $C^{poly}$ with the same objects, but with hom-sets $C^{poly}(a,b) := P(C(a,b))$, the [[power set]] of the original hom-sets.
+For a [[category]] $C$, a **poly-morphism** is a collection of [[morphisms]] with common [[source]] and [[target]], considered as a morphism in a new category $C^{poly}$ with the same [[objects]], but with [[hom-sets]] $C^{poly}(a,b) := P(C(a,b))$, the [[power set]] of the original hom-sets.
 
 These play a substantive rôle in [[Shinichi Mochizuki]]'s [[inter-universal Teichmüller theory]].
 
 ## Abstract approach
 
-In the following, fix a [[monoidal category]] $V$ and a $V$-[[enriched category]] $C$. Examples to keep in mind for $V$ are the category [[Set]] of sets considered as a [[cartesian monoidal category]], or the category [[G-set]] for a given group $G$, again with the cartesian monoidal structure.
+In the following, fix a [[monoidal category]] $V$ and a $V$-[[enriched category]] $C$. Examples to keep in mind for $V$ are the category [[Set]] of sets considered as a [[cartesian monoidal category]], or the category [[G-set]] for a given [[group]] $G$, again with the cartesian monoidal structure.
 
 +-- {: .num_defn}
 ###### Definition
