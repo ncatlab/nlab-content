@@ -86,14 +86,28 @@ $$
 
 ### General
 
+Textbook accounts;
+
+* Tom Apostol, Section 12.12 of: _Introduction to Analytic Number Theory_, Springer 1976 ([springer:book/9780387901633](https://www.springer.com/de/book/9780387901633))
+
+Exposition:
+
+* [[Pierre Cartier]], chapter 3 in: _Mathemagics_ ([pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf))
+
+* [[John Baez]], _The Bernoulli numbers_, 2003 expository notes ([pdf](http://math.ucr.edu/home/baez/qg-winter2004/bernoulli.pdf))
+
+See also:
+
+
 * Wikipedia, _[Bernoulli number](http://en.wikipedia.org/wiki/Bernoulli_number)_
 
 * Wolfram MathWorld:  [Bernoulli number](http://mathworld.wolfram.com/BernoulliNumber.html)
-* [[John C. Baez]], _The Bernoulli numbers_, 2003 expository notes, [pdf](http://math.ucr.edu/home/baez/qg-winter2004/bernoulli.pdf)
+
+
 
 * Bernoulli numbers page [bernoulli.org](http://bernoulli.org)
 
-* chapter 3 in [[Pierre Cartier]], _Mathemagics_, [pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf)
+
 
 ### Lie theory, deformation theory, knot theory, geometry
 
@@ -110,14 +124,18 @@ $$
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
 
+  ( [[modified Bernoulli numbers]] in the [[universal Vassiliev invariant]] of the [[unknot]])
+
 ### In algebraic topology
+
+In [[algebraic topology]]:
 
 * {#Adams65} [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965) ([pdf](http://math1.unice.fr/~cazanave/Gdt/ImJ/J-II.pdf))
  
 
-In the context of the [[A-hat genus]] the Bernoulli numbers are discussed in section 10.2 of 
+In the context of the [[A-hat genus]] the Bernoulli numbers are discussed in
 
-* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], Section 10.2 of: _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 ### Formal groups and Bernoulli polynomials
 
