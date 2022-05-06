@@ -31,3 +31,12 @@ For a fully general concept of generalized cohomology, see at
 
 [[!include homotopy-homology-cohomology]]
 
+
+
+[[!redirects generalized cohomology theory]]
+[[!redirects generalized cohomology theories]]
+[[!redirects generalised cohomology theory]]
+[[!redirects generalised cohomology theories]]
+[[!redirects cohomology theories]]
+[[!redirects cohomology theory]]
+
