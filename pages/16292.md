@@ -75,3 +75,7 @@ Discussion in the context of [[M-theory on G2-manifolds]] and [[gauge enhancemen
 
 [[!redirects Taub-NUT space]]
 [[!redirects Taub-NUT spaces]]
+
+[[!redirects multi-centered Taub-NUT space]]
+[[!redirects multi-centered Taub-NUT spaces]]
+
