@@ -25,8 +25,7 @@ such that [[functorial factorizations]] exist.
 
 A [[functor category]] with values in a Thomason model category is automatically again a Thomason model category and hence yields a notion of [[global model structure on functors]].
 
-[[Mark Hovey]] later popularized this addition, including the data
-of functorial factorizations (and not just their existence)
+[[Mark Hovey]] later popularized this addition, including the data of functorial factorizations (and not just their existence)
 into his definition of a [[model category]] (he attributed
 this addition to Dwyer–Hirschhorn–Kan–Smith instead).
 
