@@ -21,8 +21,12 @@
 
 ## Idea
 
-The [[equivariant cohomology|equivariant]] version of [[de Rham cohomology]].
+The [[equivariant cohomology]]-generalization of [[de Rham cohomology]].
 
+| [[cohomology]] | [[Borel equivariant cohomology|Borel]]-[[equivariant cohomology]] |
+|---|---|
+| [[real cohomology|real]] [[ordinary cohomology]] | real [[equivariant ordinary cohomology]] |
+| [[de Rham cohomology]] | [[equivariant de Rham cohomology]]
 
 ## Properties
 
@@ -45,7 +49,9 @@ Often this data is called a _smooth $G$-manifold $X$_, or similar.
 
 =--
 
+
 ### Models
+ {#Models}
 
 
 Given a smooth $G$-manifold $X$ (Def. \ref{SmoothGManifold}) various [[dg-algebras]] are used to model the corresponding $G$-equivariant de Rham cohomology $X$, known as 
@@ -682,8 +688,9 @@ The resulting [[dgc-algebra]] $(\Omega^\bullet(G,\mathfrak{g}^\ast[1])^G, d)$ is
 
 
 ### Equivariant de Rham theorem
+ {#EquDeRhamTheorem}
 
-The point of the above dgc-algebras is that, under suitable conditions, their [[cochain cohomology]] computes the [[ordinary cohomology]] with real [[coefficients]] of the [[homotopy type]] of the [[homotopy quotient]] $X \sslash H$, which, as an actual [[topological space]], may be presented by the [[Borel construction]] $X \times_G E G$.
+The point of the [above](#Models) dgc-algebra models is that, under suitable conditions, their [[cochain cohomology]] computes the [[real cohomology]] of the [[homotopy type]] of the [[homotopy quotient]] $X \sslash H$, which, as an actual [[topological space]], may be presented by the [[Borel construction]] $X \times_G E G$, hence the [[Borel equivariant cohomology|Borel equivariant]] [[de Rham cohomology]] of $X$.
 
 This is the [[equivariant cohomology]]-generalization of the plain [[de Rham theorem]]:
 
@@ -701,7 +708,7 @@ Let
 
 1. $X$ be a smooth $G$-manifold (Def. \ref{SmoothGManifold}).
 
-Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil model [[dgc-algebra]] (eq:WeilModel), and hence, by Lemma \ref{ProjectionOntoHorizontalDifferentialForms}, also of the Cartan model [[dgc-algebra]] (eq:QuasiIsoFromCartanToWeilModel). is [[isomorphism|isomorphic]] to the [[ordinary cohomology]] with [[real number|real]] [[coefficients]] of the [[homotopy quotient]] $X \!\sslash\! G$ of the action on (the [[topological space]] underlying) $X$) by the ([[topological group]] underlying) $G$, hence in particular of the [[Borel construction]] $X \times_G E G \simeq  X \!\sslash\! G $:
+Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil model [[dgc-algebra]] (eq:WeilModel), and hence, by Lemma \ref{ProjectionOntoHorizontalDifferentialForms}, also of the Cartan model [[dgc-algebra]] (eq:QuasiIsoFromCartanToWeilModel). is [[isomorphism|isomorphic]] to the [[real cohomology]] of the [[homotopy quotient]] $X \!\sslash\! G$ of the action on (the [[topological space]] underlying) $X$ by the ([[topological group]] underlying) $G$, hence in particular of the [[Borel construction]] $X \times_G E G \simeq  X \!\sslash\! G $:
 
 \[
   \array{
@@ -724,7 +731,7 @@ Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil
      H^\bullet\big( : \exp\big( - \theta^a \iota_a \big) : \big)
   }
   \\
-  H_\bullet
+  H^\bullet
   \Big(
   \Big(
     \Omega^\bullet
@@ -740,7 +747,7 @@ Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil
   &\underoverset{\simeq}{\;\;\;\;\;\;\;\;\;\;\;\;\;}{\longrightarrow}&
   H^\bullet
   \big(
-    X \!\sslash\! G
+    X \!\!\sslash\!\! G
     \,,\,
     \mathbb{R}
   \big)
@@ -757,7 +764,12 @@ Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil
 
 (e.g [Meinrenken 06, Theorem 6.1](#Meinrenken06))
 
++-- {: .num_remark}
+###### Remark
 
+A generalization of the [[equivariant de Rham theorem]] to non-[[compact Lie group|compact]] Lie groups exists ([Getzler 94](#Getzler94)) but this uses the [[simplicial de Rham complex]] of the [[action groupoid]] $X \sslash G$ ([Bott-Shulman-Stasheff 76](#BottShulmanStasheff76))and is thus a fair bit more complicated, computationally.
+
+=--
 
 \linebreak
 
@@ -772,7 +784,7 @@ Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil
 ## References
   {#References}
 
-Originally due to
+The Cartan model for equivariant de Rham cohomology is originally due to
 
 * {#Cartan50} [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibré principal_, Colloque de topologie (espaces fibrés). Bruxelles, 1950
 
@@ -780,28 +792,37 @@ Review includes
 
 * {#Meinrenken06} [[Eckhard Meinrenken]], _Equivariant cohomology and the Cartan model_, in: _Encyclopedia of Mathematical Physics_, Pages 242-250 Academic Press 2006 ([pdf](http://www.math.toronto.edu/mein/research/enc.pdf), [doi:10.1016/B0-12-512666-2/00344-8](https://doi.org/10.1016/B0-12-512666-2/00344-8))
 
-
 * Oliver Goertsches, Leopold Zoller, _Equivariant de Rham Cohomology: Theory and Applications_, São Paulo J. Math. Sci. (2019) ([arXiv:1812.09511](https://arxiv.org/abs/1812.09511), [doi:10.1007/s40863-019-00129-4](https://doi.org/10.1007/s40863-019-00129-4))
 
 See also 
 
-* Camilo Arias Abad, Marius Crainic, Sec. 1 of _The Weil algebra and the Van Est isomorphism_ ([arXiv:0901.0322](https://arxiv.org/abs/0901.0322))
+* Camilo Arias Abad, [[Marius Crainic]], Sec. 1 of: _The Weil algebra and the Van Est isomorphism_ ([arXiv:0901.0322](https://arxiv.org/abs/0901.0322))
 
 Early discussion of the Weil model includes
 
 * {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology 23, 1 (1984) (<a href="https://doi.org/10.1016/0040-9383(84)90021-1">doi:10.1016/0040-9383(84)90021-1</a>, [pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
  
+The slick proof of the equivalence between the Weil model and the the Cartan model via the _Mathai-Quillen isomorphism_ (Lemma \ref{ProjectionOntoHorizontalDifferentialForms}) is due to
 
-A good account of the Weil model, the Cartan model and their equivalence is in 
-
-* {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
+* {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], Sec. 5 of _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
  
-
 A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model) is in
 
 * {#Kalkman93} Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](https://arxiv.org/abs/hep-th/9308132), [cds:9308132](http://cds.cern.ch/record/568522), [euclid:1104252784](http://projecteuclid.org/euclid.cmp/1104252784))
 
   (original arXiv pdf broken)
+
+Generalization of the [[equivariant de Rham theorem]] to non-compact Lie groups is due to 
+
+* {#Getzler94} [[Ezra Getzler]], _The Equivariant Chern Character for Non-compact Lie Groups_, Advances in Mathematics Volume 109, Issue 1, November 1994, Pages 88-107 ([doi:10.1006/aima.1994.1081](https://doi.org/10.1006/aima.1994.1081))
+
+based on the [[simplicial de Rham complex]]
+
+* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
+
+see also
+
+* Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ ([arXiv:1304.3226](https://arxiv.org/abs/1304.3226))
 
 Discussion in the broader context of [[equivariant cohomology|equivariant]] [[differential cohomology]] is in
 
