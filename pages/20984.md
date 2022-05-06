@@ -3,7 +3,7 @@
 
 On [[3d-3d correspondence]]:
 
-* [[Dongmin Gang]], Eunkyung Koh, Sangmin Lee, Jaemo Park, _Superconformal Index and 3d-3d Correspondence for Mapping Cylinder/Torus_, JHEP01(2014)063 ([arXiv:1305.0937](https://arxiv.org/abs/1305.0937))
+* [[Dongmin Gang]], Eunkyung Koh, Sangmin Lee, [[Jaemo Park]], _Superconformal Index and 3d-3d Correspondence for Mapping Cylinder/Torus_, JHEP01(2014)063 ([arXiv:1305.0937](https://arxiv.org/abs/1305.0937))
 
 
 * {#GangKimLee14a} [[Dongmin Gang]], [[Nakwoo Kim]], Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, Physics Letters B
