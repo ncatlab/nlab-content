@@ -41,6 +41,8 @@ It follows that
 ## Examples
  {#Examples}
 
+### For cyclic groups
+
 The following example ovbserves that for [[cyclic groups]] the general fact that characters are cyclotomic integers reduces to the [[trigonometry|trigonometric]] statement that if the [[cosine]] of a rational [[angle]] is itself rational, then it is in fact integer:
 
 
@@ -149,6 +151,7 @@ This means that for [[cyclic groups]] the statement of Prop. \ref{CharactersAreC
 A direct [[proof]] of this fact, using identities of [[trigonometric functions]], is given in [Jahnel, Sec. 3](#Jahnel).
 
 =--
+
 
  
 ## References
