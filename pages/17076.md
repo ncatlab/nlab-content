@@ -64,5 +64,12 @@ Discussion of [[3-manifolds]] as [[branched covers]] of the 3-sphere:
 
 *  J. Montesinos, _A representation of closed orientable 3-manifolds as  3-fold branched coverings of $S^3$_, Bull. Amer. Math. Soc. 80 (1974), 845-846 ([Euclid:1183535815](https://projecteuclid.org/euclid.bams/1183535815))
 
+Classification of [[Riemannian orbifolds]] whose coarse underlying topological space is a 3-sphere:
+
+* William D. Dunbar, _Geometric orbifolds_, Rev. Mat. Univ. Complutense Madr. 1, No.1-3, 67-99 (1988)
+
+
+
+
 
 [[!redirects 3-spheres]]
