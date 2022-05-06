@@ -82,6 +82,38 @@ The converse problem of whether a valuation is the restriction of a Borel measur
 
 ## Measure-theoretic structures and properties
 
+Valuations share a number of constructions which are similar to those for [[measures]]. The constructions below are given for the case of continuous valuations on [[topological spaces]].
+
+### Pushforward
+
+Given spaces $X$ and $Y$ and a continuous map $f:X\to Y$, we can map a valuation $\nu$ on $X$ to a valuation $f_*\nu$ on $Y$ in the following way. For every open set $U\subseteq Y$, we set
+$$
+f_*\nu (U) \coloneqq \nu(f^{-1}(U)) .
+$$
+The assignment gives a well-defined valuation, which is continuous if $\nu$ is continuous. We call $f_*\nu$ the **pushforward valuation** of $\nu$ along $f$.
+
+This construction allows to makes the assignment [[functor]], which is even a [[monad]] (see [[monads of probability, measures and valuations#functor_ unit_and_multiplication|probability monads]] for more on this).
+
+
+### Joints, marginals and products
+
+Given a valuation $\nu$ on a product space $X\times Y$, one calls its pushforward along the projection map $X\times Y\to X$ the **marginal** of $\nu$ on $X$. The same can be done for $Y$. 
+The assignment from $\nu$ to the ordered pair of its marginals can be seen as an [[monoidal functor|oplax monoidal structure]] of the [[monads of probability, measures and valuations|valuation monad]].
+
+Given valuations $\nu$ on $X$ and $\rho$ on $Y$, there may be many possible valuations on $X\times Y$ which have $\nu$ and $\rho$ as their marginals. Any such valuation on $X\times Y$ is called a **joint valuation** or **coupling** of $\nu$ and $\rho$.
+
+Between the many joints of $\nu$ and $\rho$ there is always a canonical choice, namely the **product valuation** $\nu\otimes\rho$. 
+From the point of view of [[probability theory]], this corresponds to a distribution exhibiting [[independence]] between $\nu$ and $\rho$.
+On the [[basis]] of the [[product topology]] of $X\times Y$ given by sets in the form $U\times V$ for $U\subseteq X$ and $V\subseteq Y$ open, the product valuation is given by 
+$$
+\nu\otimes\rho (U\times V) \coloneqq \nu(U)\cdot\rho(V).
+$$
+Note that this is not enough to define a valuation a priori. For continuous valuations, however, this turns out to be the well-defined, as proven for example in [Heckmann '96](#Heckmann96).
+
+The assignment to $\nu$ and $\rho$ of their product valuation can be seen as a [[monoidal functor|lax monoidal structure]] of the [[monads of probability, measures and valuations|valuation monad]].
+See also [[monads of probability, measures and valuations#monoidal_structure]].
+
+
 ### Null sets and support
 
 Valuations admit a notion of [[support]] similar to that of measures. In particular, continuous valuations, just as [[tau-additive measure|$\tau$-additive measures]], have a well-defined and well-behaved support.
@@ -125,12 +157,12 @@ $$
 $$
 where the integral on the right is the one defined above for simple functions, and the supremum on the right is either the one of real numbers (or lower real numbers), or $+\infty$. 
 
-This integral satisfies analogous properties to the Lebesgue integral, such as [[linearity]] and [[Scott continuity]] (cfr. the [[monotone convergence theorem|sequential monotone continuity]] of the Lebesgue integral). 
+This integral satisfies analogous properties to the Lebesgue integral, such as [[linear map|linearity]] and [[Scott continuity]] (cfr. the [[monotone convergence theorem|sequential monotone continuity]] of the Lebesgue integral). 
 
 
 ## Monads of valuations
 
-Just as there are several [[monad|monads]] of probability measures (see [[Giry monad]]), there are a number of analogous monads of valuations.
+Just as there are several [[monad|monads]] of probability measures (such as the [[Giry monad]]), there are a number of analogous monads of valuations.
 The most famous are
 
 * The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
@@ -139,7 +171,7 @@ The most famous are
 
 * The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
 
-See also [[monads of probability, measures, and valuations]]
+See also [[monads of probability, measures, and valuations]].
 
 
 ## Extending valuations to measures
