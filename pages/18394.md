@@ -8,7 +8,7 @@ It can be used to generalize the [[Baire category theorem]] and to characterize 
 
 \begin{definition}
 Let $(X, \mathcal{T})$ be a topological space.
-A topology $\mathcal{T}^*$ on $X$ is called a __cotopology__ of $\mathcal{T}$---and $(X, \mathcal{T}^*)$ is called a __cospace__ of $(X, \mathcal{T}$---if
+A topology $\mathcal{T}^*$ on $X$ is called a __cotopology__ of $\mathcal{T}$---and $(X, \mathcal{T}^*)$ is called a __cospace__ of $(X, \mathcal{T})$---if
 
 1. $\mathcal{T}^*$ is coarser than $\mathcal{T}$, i.e., $\mathcal{T}^* \subseteq \mathcal{T}$; 
 
