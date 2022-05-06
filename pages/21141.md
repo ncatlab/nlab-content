@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include philosophy - contents]]
 =--
+#### Linguistics
++-- {: .hide}
+[[!include linguistics - contents]]
+=--
 =--
 =--
 
