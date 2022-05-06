@@ -275,5 +275,14 @@ For the definition in enriched category theory see page 12 of
 
 
 [[!redirects opposite categories]]
+
+[[!redirects opposite functor]]
+[[!redirects opposite functors]]
+
+
 [[!redirects dual category]]
 [[!redirects dual categories]]
+
+
+
+
