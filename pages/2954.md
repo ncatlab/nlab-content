@@ -32,6 +32,11 @@ On [[quantum anomalies]] via [[index theory]]:
 
 * [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants, and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163 ([doi:10.1007/BF01206955](https://doi.org/10.1007/BF01206955), [euclid:1104115934](https://projecteuclid.org/euclid.cmp/1104115934))
 
+On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant K-theory]]:
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1
+([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+
 On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identification with the [[Verlinde ring]] of [[positive energy representations]] of their [[loop group]]:
 
 * [[Daniel S. Freed]], [[Michael Hopkins]], [[Constantin Teleman]], 
