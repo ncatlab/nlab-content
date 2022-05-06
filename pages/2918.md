@@ -61,6 +61,9 @@ See at _[multisymplectic geometry -- de Donder-Weyl-hamilton equations of motion
 
 [[!include Hamiltonian and Lagrangian -- table]]
 
+* [[Relation with Fourier transform]]
+
+... tropical
 
 ## References 
 
