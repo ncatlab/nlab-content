@@ -28,6 +28,11 @@
 
 ### Articles
 
+On [[model structures on spectra]]:
+
+* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
+
+
 On [[orbispaces]]:
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_, Mathematische Zeitschrift 294 (2020), 71-107 ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
@@ -37,7 +42,7 @@ On [[proper equivariant homotopy theory]]:
 * {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_ ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
 
-## Selected writings
+On [[model categories]] of [[highly structured spectra]]:
 
 * {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
