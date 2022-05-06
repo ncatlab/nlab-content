@@ -44,11 +44,18 @@ The original article is
 
 * [[Shiing-shen Chern]], [[Jürgen Moser]], _Real hypersurfaces in complex manifolds_, Acta Math. 133 (1975), 219&#8211;271 ([MathNet](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=7161&option_lang=eng))
 
-Surveys inclides
+Surveys:
+
+* {#DragomiTomassini06} [[Sorin Dragomir]], Giuseppe Tomassini, _Differential Geometry and Analysis on CR Manifolds_, Birkh&#228;user, 2006 ([doi:10.1007/0-8176-4483-0](https://link.springer.com/book/10.1007/0-8176-4483-0))
+
+See also
 
 * Wikipedia, _[CR manifold](https://en.wikipedia.org/wiki/CR_manifold)_
 
-* {#DragomiTomassini06} Sorin Dragomir, Giuseppe Tomassini, _Differential Geometry and Analysis on CR Manifolds_, Birkh&#228;user, 2006
+Discussion of [[orbifolds]] with CR-structure:
+
+* [[Sorin Dragomir]], Jun Masamune, _Cauchy-Riemann orbifolds_, Tsukuba J. Math. Volume 26, Number 2 (2002), 351-386 ([euclid:tkbjm/1496164430](https://projecteuclid.org/euclid.tkbjm/1496164430))
+
 
 Discussion from the point of view of [[Cartan geometry]]/[[parabolic geometry]] includes
 
@@ -58,6 +65,8 @@ Discussion of spherical CR manifolds locally modeled on the [[Heisenberg group]]
 
 * Robert R. Miner, _Quasiconformal equivalence of spherical manifolds_, Annales Academiae Scientiarium Fennicae, Series A. I. Mathematica, Volumen 19, 1994, 83-93 ([pdf](http://www.acadsci.fi/mathematica/Vol19/miner.pdf))
 
+
+
 [[!redirects CR manifolds]]
 
 [[!redirects CR-manifold]]
@@ -66,5 +75,17 @@ Discussion of spherical CR manifolds locally modeled on the [[Heisenberg group]]
 [[!redirects spherical CR manifold]]
 [[!redirects spherical CR manifolds]]
 
+[[!redirects CR-orbifold]]
+[[!redirects CR-orbifolds]]
+[[!redirects CR orbifold]]
+[[!redirects CR orbifolds]]
+
+
+
 [[!redirects CR geometry]]
 [[!redirects CR geometries]]
+[[!redirects CR-geometry]]
+[[!redirects CR-geometries]]
+
+
+
