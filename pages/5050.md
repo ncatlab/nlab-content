@@ -56,7 +56,7 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries 
 
 * [[closed manifold]]
 
-* [[MUFr]]
+* [[MOFr]], [[MUFr]], [[MSUFr]]
 
 
 ## References
