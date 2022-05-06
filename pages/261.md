@@ -73,7 +73,7 @@ such that these functions satisfy the _[[simplicial identities]]_.
 
 ### Simplicial sets as spaces built of simplices
 
-* The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the **set of $n$-simplices** in this space, hence the way of mapping a standard $n$-simplex into this space.
+* The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the **set of $n$-simplices** in this space, hence the way of mapping a standard $n$-simplex into this space.
 
 * For $S$ a simplicial set, the **face map** 
   $$
