@@ -145,6 +145,8 @@ The understanding of this $SL(2,\mathbb{Z})$-symmetry as a remnant conformal tra
 
 * {#Witten95b} [[Edward Witten]], _On S-Duality in Abelian Gauge Theory_ ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
 
+* [[Cumrun Vafa]], _Geometric Origin of Montonen-Olive Duality_, Adv.Theor.Math.Phys.1:158-166, 1998 ([arXiv:hep-th/9707131](https://arxiv.org/abs/hep-th/9707131))
+
 * {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in [[Ulrike Tillmann]], _Topology, Geometry and Quantum Field Theory: Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal_,  London Mathematical Society Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
 
