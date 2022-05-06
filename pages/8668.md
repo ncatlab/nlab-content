@@ -25,7 +25,7 @@
 
 > * For the section _[Basic idea in model category theory](#BasicIdeaInModelCategoryTheory)_ the reader is assumed to be familiar with basic notions in [[model category|model category theory]] such as _[[cofibrantly generated model categories]]_ and _[[homotopy colimits]]_.
 
-> * For the third section _[Basic idea in (∞,1)-category theory](#BasicIdeaInInfinityCategoryTheory)_ the reader is assumed to be familiar with basic concepts of [[(∞,1)-category|(?.1)-category theory]] such as _[[(∞,1)-categories of (∞,1)-presheaves]]_ and _[[(∞,1)-colimits]]_.
+> * For the third section _[Basic idea in (∞,1)-category theory](#BasicIdeaInInfinityCategoryTheory)_ the reader is assumed to be familiar with basic concepts of [[(∞,1)-category|(∞,1)-category theory]] such as _[[(∞,1)-categories of (∞,1)-presheaves]]_ and _[[(∞,1)-colimits]]_.
 
 # Contents
 * table of contents
@@ -88,7 +88,7 @@ The [[cardinality]] $\kappa = {\vert S\vert}$ of a [[set]] $S$ is _[[regular car
 +-- {: .num_example}
 ###### Example
 
-The smallest [[regular cardinal]] is [[?]]${}_0 = {\vert \mathbb{N}\vert}$: every finite union of finite sets is itself a finite set. (See the entry on [[regular cardinal]]s for a discussion as to whether one might consider some finite cardinals as being `regular'.)
+The smallest [[regular cardinal]] is $\aleph_0 = {\vert \mathbb{N}\vert}$: every finite union of finite sets is itself a finite set. (See the entry on [[regular cardinal]]s for a discussion as to whether one might consider some finite cardinals as being `regular'.)
 
 =--
 
@@ -104,9 +104,9 @@ For $\kappa$ a [[regular cardinal]], a $\kappa$-[[filtered category]] is one whe
 +-- {: .num_example}
 ###### Example
 
-In an [[?]]${}_0$-[[filtered category]] every finite diagram has a cocone. This is equivalent to: 
+In an $\aleph_0$-[[filtered category]] every finite diagram has a cocone. This is equivalent to: 
 
-1. for every pair of objects there is a third objct such that both have a morphism to it;
+1. for every pair of objects there is a third object such that both have a morphism to it;
 
 1. for every pair of [[parallel morphisms]] there is a morphism out of their codomain such that the two composites are equal.
 
@@ -148,7 +148,7 @@ A crucial characterizing property of $\kappa$-filtered colimits is the following
 
 A colimit in [[Set]] is $\kappa$-filtered precisely if it commutes with all $\kappa$-[[small limits]].
 
-In particular a colimit in [[Set]] is filtered (meaning: [[?]]${}_0$-filtered) precisely if it commutes with all [[finite limits]].
+In particular a colimit in [[Set]] is filtered (meaning: $\aleph_0$-filtered) precisely if it commutes with all [[finite limits]].
 
 =--
 
