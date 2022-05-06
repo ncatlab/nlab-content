@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+#### Vacua
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include vacua -- contents]]
 =--
 #### Fields and quanta
 +--{: .hide}
