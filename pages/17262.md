@@ -25,9 +25,9 @@ $$
   \big\{
      \pm 1,
      \, 
-     \pm i
+     \pm i,
      \, 
-     \pm j
+     \pm j,
      \, 
      \pm k
   \big\}
