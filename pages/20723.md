@@ -24,7 +24,11 @@ what is called the _group completion theorem_ ([McDuff-Segal 76](#McDuffSegal76)
 
 ## References
 
-The original article is
+The original articles are
+
+* [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici (1972) 47: 1 ([doi:10.1007/BF02566785](https://doi.org/10.1007/BF02566785))
+
+
 
 * {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae, October 1976, Volume 31, Issue 3, pp 279–284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
 
