@@ -374,6 +374,11 @@ $$Frob_{b}': (\delta b)(\delta b)^\ast \to (\delta b^\ast \otimes 1_b)(1_b \otim
 
 be an isomorphism for each $b$. 
 
+## References
+
+* [[Aurelio Carboni]], [[Bob Walters]], _Cartesian Bicategories, I_, [article](https://doi.org/10.1016/0022-4049%2887%2990121-6)
+
+* [[Aurelio Carboni]], [[Max Kelly]], [[Bob Walters]], [[Richard Wood]], _Cartesian Bicategories II_, ([arXiv:0708.1921](https://arxiv.org/abs/0708.1921))
 
 
 [[!redirects cartesian bicategories]]
