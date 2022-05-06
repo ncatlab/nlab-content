@@ -156,6 +156,11 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
 \end{imagefromfile}
 
 
+## Related statements
+
+* [[rational Todd class is Chern character of Thom class]]
+
+
 ## References
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 16.2 in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
