@@ -462,7 +462,7 @@ Discussion of D-brane [[matrix models]] taking these K-theoretic effects into ac
 
 * {#AsakawaSugimotoTerashima01} T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085))
 
-The proposal that D-brane charge on [[orbifolds]] is measured in [[equivariant K-theory]] goes back to 
+{#ChargeInEquivariantKTheory} The proposal that D-brane charge on [[orbifolds]] is measured in [[equivariant K-theory]] goes back to 
 
 * [Witten 98, section 5.1](#Witten98) 
 
