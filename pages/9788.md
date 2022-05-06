@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,8 +17,15 @@
 
 The [[D-brane]] in [[type IIB superstring theory]] of [[dimension]] 9+1.
 
-## Related concepts
+## Properties
 
+### Bound states
+
+[[bound states]]:
+
+* [[D5-D9 brane bound state]]
+
+## Related concepts
 
 [[!include table of branes]]
 
