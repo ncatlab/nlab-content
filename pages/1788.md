@@ -1,6 +1,7 @@
 
 * Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _CP Violation in $\bar B^0 \to D^{\ast +} \mu^- \bar \nu_\mu$_ ([arXiv:1903.02567](https://arxiv.org/abs/1903.02567))
 
+* Sally Dawson, Christoph Englert, Tilman Plehn, _Higgs Physics: It ain't over till it's over_, Physics Reports ([arXiv:1808.01324](https://arxiv.org/abs/1808.01324))
 
 $$
   \array{
