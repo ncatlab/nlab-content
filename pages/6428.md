@@ -31,7 +31,7 @@ $$
 
 a solution $\phi_0$ to the [[Euler-Lagrange equations]] of motion is said to exhibit **spontaneously broken symmetry** if it is not a fixed-point of that group [[action]]: if there is $g \in G$ such that $g(\phi_0) \neq \phi_0$.
 
-The "breaking" refers to the fact that the group no longer acts. It is called "spontaneous" because one imagines that by a physical process the theory "finds" one of its solutions. This comes from the class of examples where a statistical system is first considered at high temperature and then cooled down. At some point it will "spontaneously" freeze in one allowed configuration. A standard example is a [[ferromagnet]]: at high temperature its [[magnetization]] vanishes, while at very low termperature it spontaneously finds a direction of magnetization, thus "breaking" rotational symmetry.
+The "breaking" refers to the fact that the group no longer acts. It is called "spontaneous" because one imagines that by a physical process the theory "finds" one of its solutions. This comes from the class of examples where a statistical system is first considered at high temperature and then cooled down. At some point it will "spontaneously" freeze in one allowed configuration. A standard example is a [[ferromagnet]]: at high temperature its [[magnetization]] vanishes, while at very low temperature it spontaneously finds a direction of magnetization, thus "breaking" rotational symmetry.
 
 One calls the subgroup $G_{\phi_0} \subset G$ that fixes the given configuration $\phi_0$ the _unbroken symmetry group_ .
 
