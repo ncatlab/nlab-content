@@ -43,6 +43,10 @@ A version of [[mirror symmetry]] acts on the $N = 4$, $D = 3$ SYM [[moduli space
 
 See also the discussion at _[[symplectic duality]]_.
 
+### Topological twist and Rozansky-Witten theory
+
+A [[topological twist]] of [[D=3 N=4 super Yang-Mills theory]] is [[Rozansky-Witten theory]].
+
 ## Related concepts
 
 * [[3d superconformal gauge field theory]]
