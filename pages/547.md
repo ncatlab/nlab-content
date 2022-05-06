@@ -38,6 +38,10 @@ There are interesting conditions and applications of the preorder on the sets of
 
 * More generally, every [[locally presentable category]] is well-powered, since it is a full reflective subcategory of a presheaf topos, so its subobject lattices are subsets of those of the latter.
 
+* Indeed, every category $C$ with a small [[dense subcategory]] $A$ is well-powered, since the [[restricted Yoneda embedding]] $C \to [A^{op},Set]$ is then fully faithful and preserves monomorphisms, so it embeds the subobject posets of $C$ as sub-posets of those of $[A^{op},Set]$.  This includes in particular all [[accessible categories]].
+
+* On the other hand, a locally small category with a [[strong generator]] can fail to be well-powered; a counterexample is [here](https://math.stackexchange.com/a/254794).
+
 * Every locally presentable category, indeed every [[accessible category]] with [[pushouts]], is well-*copowered*.  This is shown in [Adamek-Rosicky, Proposition 1.57 and Theorem 2.49](#AR).  Whether this is true for all accessible categories depends on what [[large cardinal]] properties hold: by Corollary 6.8 of Adamek-Rosicky, if [[Vopenka's principle]] holds then all accessible categories are well-copowered, while by Example A.19 of Adamek-Rosicky, if all accessible categories are well-copowered then there exist arbitrarily large [[measurable cardinals]].
 
 ## References
