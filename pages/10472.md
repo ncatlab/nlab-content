@@ -482,7 +482,42 @@ This way the top part of the diagram (using the [[pasting law]] to compute the c
 
 ## Properties
 
+### General
+
 Most of the relevant constructions on pointed topological spaces are immediate specializations of the general construction discussed at _[[pointed object]]_. 
+
+### Relation to one-point compactification
+
++-- {: .num_prop #OnePointCompactificationAndSmashProduct}
+###### Proposition
+**([[one-point compactification intertwines Cartesian product with smash product]])
+
+On the [[subcategory]] $Top_{LCHaus}$ of [[Top]] on the [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] (Prop. \ref{OnePointCompactificationFunctor})
+
+$$
+  (-)^{cpt}
+  \;\colon\;
+  Top_{LCHaus}
+  \longrightarrow 
+  Top^{\ast/}
+$$
+
+sends [[Cartesian products]] ([[product topological spaces]]) to [[smash products]] of [[pointed topological spaces]], hence constitutes a [[strong monoidal functor]], in that there is a [[natural transformation|natural]] [[homeomorphism]]:
+
+$$
+  \big(
+    X \times Y 
+  \big)^{cpt}
+  \;\simeq\;
+  X^{cpt} \wedge Y^{cpt}
+  \,.
+$$
+
+=--
+
+This is briefly mentioned in, for instance, [Bredon 93, p. 199](#Bredon93).
+The argument may be found spelled out in: [MO:a/1645794/](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+
 
 ## Related concepts
 
@@ -500,11 +535,16 @@ Most of the relevant constructions on pointed topological spaces are immediate s
 
 ## References
 
+Textbook accounts:
+
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], Chapters IV.4 and V.7 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
+
+* {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
 Review:
 
-* Tyrone Cutler, _The category of pointed topological spaces_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]])
+* {#Cutler20} Tyrone Cutler, _The category of pointed topological spaces_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]])
 
 
 
