@@ -118,7 +118,7 @@ After the very first observations by Tits, pioneers were [[Christophe Soulé]] a
 
 * Javier L&#243;pez Pe&#241;a, [[Oliver Lorscheid]], _Mapping $F_1$-land:An overview of geometries over the field with one element_, [arXiv/0909.0069](http://arxiv.org/abs/0909.0069)
 
-* [[John Baez]] _This Week's Finds 259_ ([html](http://math.ucr.edu/home/baez/week259.html) [blog](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html))
+* [[John Baez]], _This Week's Finds 259_ ([html](http://math.ucr.edu/home/baez/week259.html) [blog](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html))
 
 * [[Alain Connes]], _Fun with $\mathbf{F}_1$_, 5 min. [video](http://www.dailymotion.com/video/x6xe0g_article-alain-connes_tech)
 
