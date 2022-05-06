@@ -185,6 +185,16 @@ more to appear here...
 
 \linebreak
 
+\linebreak
+
+**Related events:
+
+* [[Higher Structures in M-Theory 2018]]
+
+\linebreak
+
+
+
 
 category: activity
 
