@@ -23,11 +23,7 @@
 
 [[!include flavors of fundamental particles -- table]]
 
-
-
-* [[neutrino]]
-
-* [[muon]]
+(also: [[antiparticles]])
 
 **[[hadron]]** ([[bound states]] of the above [[quarks]])
 
