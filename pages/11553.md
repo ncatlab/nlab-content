@@ -24,7 +24,7 @@
 
 ## Idea
 
-A [[duality in string theory]]. The [[non-perturbative effect|non=perturbative]] enhancement of [[duality between heterot and type II string theory]]:
+A [[duality in string theory]]. The [[non-perturbative effect|non=perturbative]] enhancement of [[duality between heterotic and type II string theory]]:
 
 [[F-theory]]$\,$"[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|KK-compactified]] on a [[2-torus]]. 
 
