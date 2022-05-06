@@ -38,7 +38,7 @@ $$
   G = Spin(7) \hookrightarrow Spin(8)
 $$ 
 
-then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [[cup product]]-square $(p_1)^2$ of the [[first Pontryagin class]] of the [[frame bundle]]/[[tangent bundle]] are related by
+then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [[cup product]]-square $(p_1)^2$ of the [[first Pontryagin class]] (the combination proportional to the [[I8]]-term) of the [[frame bundle]]/[[tangent bundle]] are related by
 
 \[
   \label{EulerClassInTermsOfPontryagin}
@@ -67,6 +67,8 @@ See also at _[[C-field tadpole cancellation]]_.
 ## Related concepts
 
 * [[Spin(7)-instanton]]
+
+* [[M-theory on Spin(7)-manifolds]]
 
 * [[8-manifold]]
 
