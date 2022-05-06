@@ -200,7 +200,7 @@ $$
   d^v_X + (-1)^\bullet d_X^h 
 $$
 
-bla bla  (please someone explain this "bla bla")
+Similarly, one can define the product total complex as
 
 $$
   tot_{\prod}^k = \prod_{m+n=k} X_{n,m}
