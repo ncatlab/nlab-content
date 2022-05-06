@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -123,7 +124,9 @@ Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\l
 
 where $dvol$ denotes the [[volume form]].
 
-### On a K&#228;hler manifold
+## Examples
+
+### Hodge star operator on a K&#228;hler manifold
  {#OnAKahlerManifold}
 
 On a [[Kähler manifold]] $\Sigma$ of [[dimension]] $dim_{\mathbb{C}}(\Sigma) = n$ the Hodge star operator acts on the [[Dolbeault complex]] as
@@ -134,6 +137,15 @@ $$
 $$
 
 (notice the exchange of the role of $p$ and $q$). See e.g. ([Biquerd-H&#246;ring 08, p. 79](#BiquerdHoering08)). See also at _[[Serre duality]]_.
+
+
+
+[[!include Hodge star operator on Minkowski spacetime -- section]]
+
+
+
+
+
 
 ## Generalisations
 
