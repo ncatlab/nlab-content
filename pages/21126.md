@@ -19,4 +19,14 @@ On [[tree tensor network states]] in [[quantum chemistry]]:
 
 * Klaas Gunst, [[Frank Verstraete]], Sebastian Wouters, Örs Legeza, Dimitri Van Neck, _T3NS: three-legged tree tensor network states_, Chem. Theory Comput. 2018, 14, 4, 2026-2033 ([arXiv:1801.09998](https://arxiv.org/abs/1801.09998))
 
+On [[tensor networks]] in [[lattice gauge theory]]:
+
+* {#BBCCCDFJLMMRRTVV19} M.C. Bañuls, R. Blatt, J. Catani, A. Celi, J.I. Cirac, M. Dalmonte, L. Fallani, K. Jansen, M. Lewenstein, S. Montangero, C.A. Muschik, B. Reznik, E. Rico, [[Luca Tagliacozzo]], K. Van Acoleyen, [[Frank Verstraete]], U.-J. Wiese, M. Wingate, J. Zakrzewski, P. Zoller: 
+
+  _Simulating Lattice Gauge Theories within Quantum Technologies_ 
+
+  ([arXiv:1911.00003](https://arxiv.org/abs/1911.00003))
+
+
+
 category: people
