@@ -254,6 +254,9 @@ A modality in the [[internal language]] of a [[local topos]] is discussed in sec
  
 * {#dradjoint} Ranald Clouston, Bassel Mannaa, Rasmus Ejlers Møgelberg, Andrew M. Pitts, Bas Spitters, _Modal Dependent Type Theory and Dependent Right Adjoints_ [Arxiv](https://arxiv.org/abs/1804.05236), 2018
 
+* [[Felix Cherubini]], [[Egbert Rijke]], _Modal Descent_, ([arXiv:2003.09713](https://arxiv.org/abs/2003.09713))
+
+
 A list of related references is also kept at
 
 * [[Valeria de Paiva]], _Intuitionistic Modal Logic Selected Publications_ ([web](https://docs.google.com/document/pub?id=1ASo__R-_Bzq9D9lGUo0xrfIxt_I9az7oqSg-wmP1K10))
