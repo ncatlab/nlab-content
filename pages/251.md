@@ -198,11 +198,11 @@ See also
 
 * [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page)).
 
-* Tom Fiore, [Double categories and pseudo algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf). 
+* Tom Fiore, [Double categories and pseudo algebras](http://www-personal.umd.umich.edu/~tmfiore/1/CT2006Fioreslides.pdf). 
 
-* Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1999__40_3), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
+* Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/article/CTGDC_1999__40_3_162_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
 
-* Marco Grandis and Robert Par&#233;, [Adjoints for double categories](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_2004__45_3), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **45** (2004), 193--240.
+* Marco Grandis and Robert Par&#233;, [Adjoints for double categories](http://www.numdam.org/article/CTGDC_2004__45_3_193_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **45** (2004), 193--240.
 
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
