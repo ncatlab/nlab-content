@@ -316,6 +316,8 @@ For the relation to Poisson Operads see
 
 [[!redirects En operad]]
 
+[[!redirects En-operad]]
+[[!redirects En-operads]]
 
 [[!redirects E-k operad]]
 [[!redirects E-k operad]]
