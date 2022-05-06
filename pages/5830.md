@@ -376,7 +376,7 @@ Writeups on the topic include
 
 * Daniel Grayson, _An introduction to univalent foundations for mathematicians_, 2017, [arXiv:1711.01477](https://arxiv.org/abs/1711.01477).
 
-* {#Rijke19} [[Egbert Rijke]], _Introduction to Homotopy Type Theory_ (2019) ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
+* {#Rijke19} [[Egbert Rijke]], _Introduction to Homotopy Type Theory_ (2019) (nlab page for the [[Introduction to Homotopy Type Theory]], [web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
 
 * {#Rijke19b} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
 
