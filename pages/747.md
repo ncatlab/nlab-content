@@ -329,7 +329,7 @@ This follows directly from the single defining condition on a [[coverage]] on $C
 Let $C$ be a [[site]].
 Let $[C^{op}, sSet]_{proj}$ be the projective [[model structure on simplicial presheaves]] over $C$. 
 
-Let $W = \{C(\{U_i\}) \to U\}$ be the set of [[Cech nerve]] projections in $[C, sSet]$ for each [[covering]] $\{U_i \to U\}$ in $C$.
+Let $W = \{C(\{U_i\}) \to U\}$ be the set of [[Čech nerve]] projections in $[C, sSet]$ for each [[covering]] $\{U_i \to U\}$ in $C$.
 
 Write
 
@@ -558,7 +558,7 @@ This is discussed in ([Jardine 96](#Jardine96)).
 
 ## Localization and descent {#Descent}
 
-### Cech localization at Grothendieck (pre)topologies {#CechLocalization}
+### Čech localization at Grothendieck (pre)topologies {#ČechLocalization}
 
 We discuss some aspects of the [[Bousfield localization of model categories|left Bousfield localization]] of the projective global model structure on simplicial presheaves at [[Grothendieck topologies]] and [[covering]] families. By the discussion at [[topological localization]] these are models for [[topological localization]]s leading to [[(∞,1)-categories of (∞,1)-sheaves]].
 
@@ -573,7 +573,7 @@ Let $C$ be a [[site]] given by a [[Grothendieck topology]]. The left [[Bousfield
 
 1. the set of all morphisms $hocolim_R \to U \to X$ for $R$ a covering sieve of $X$;
 
-1. the set of all [[Cech nerve]] projections $C(\{U_i\}) \to X$ for $\{U_i \to X\}$ a covering sieve;
+1. the set of all [[Čech nerve]] projections $C(\{U_i\}) \to X$ for $\{U_i \to X\}$ a covering sieve;
 
 1. the class of all bounded [[hypercover]]s $U \to X$;
 
@@ -585,7 +585,7 @@ Let $C$ be a [[site]] given by a [[Grothendieck topology]]. The left [[Bousfield
 
 This is theorem A5 in [DugHolIsak](http://front.math.ucdavis.edu/0205.5027).
 
-This localization $sPSh(C)_{proj,cov}$ is the **Cech localization** of $sPSh(C)$ with respect to the given [[Grothendieck topology]]. It is a presentation of [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] to an [[(∞,1)-category of (∞,1)-sheaves]].
+This localization $sPSh(C)_{proj,cov}$ is the **Čech localization** of $sPSh(C)$ with respect to the given [[Grothendieck topology]]. It is a presentation of [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] to an [[(∞,1)-category of (∞,1)-sheaves]].
 
 $$
   \array{
@@ -629,7 +629,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-For $f : E \to B$ a [[local epimorphism]] in $sPSh(C)$ in the above sense, its [[Cech nerve]] projection
+For $f : E \to B$ a [[local epimorphism]] in $sPSh(C)$ in the above sense, its [[Čech nerve]] projection
 
 $$
   C(E) \to B
@@ -645,7 +645,7 @@ This is [Dugger-Hollander-Isaksen, corollary A.3](#DuggerHollanderIsaksen).
 $\,$
 
 
-### Cech localization at a coverage {#LocalizationAtCoverage}
+### Čech localization at a coverage {#LocalizationAtCoverage}
 
 
 In the literature localization of categories of simplicial presheaves is typically discussed with respect to a [[Grothendieck topology]] or a [[basis for a topology]]. Here we discuss aspects of localization at a  [[coverage]].
@@ -965,7 +965,7 @@ is a [[Kan fibration]]. But this says that $N_O \mathcal{A}(Y_\bullet)$ is Reedy
 +-- {: .num_corollary }
 ###### Corollary
 
-For $Y$ the [[Cech nerve]] of a [[good open cover]] $\{U_i \to X\}$ of a [[manifold]] $X$ and any $\mathcal{A} : CartSp^{op} \to Str \infty Grpd$ we have that
+For $Y$ the [[Čech nerve]] of a [[good open cover]] $\{U_i \to X\}$ of a [[manifold]] $X$ and any $\mathcal{A} : CartSp^{op} \to Str \infty Grpd$ we have that
 
 $$
   [C^{op}, sSet](Y,N_O \mathcal{A})
@@ -979,7 +979,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the above is sufices to note that $Y_\bullet$ is cofibrant in $[\Delta^{op}, [C^{op}, sSet]_{proj}]_{Reedy}$ if $Y$ is the [[Cech nerve]] of a good open cover. By the assumption of good open cover we have that $Y$ is degreewise a coproduct of representables and that the inclusion of all degenerate $n$-cells into all $n$-cells is a full inclusion into a coproduct, i.e. an inlusion of the form
+By the above is sufices to note that $Y_\bullet$ is cofibrant in $[\Delta^{op}, [C^{op}, sSet]_{proj}]_{Reedy}$ if $Y$ is the [[Čech nerve]] of a good open cover. By the assumption of good open cover we have that $Y$ is degreewise a coproduct of representables and that the inclusion of all degenerate $n$-cells into all $n$-cells is a full inclusion into a coproduct, i.e. an inlusion of the form
 
 $$
   \coprod_{i \in I} U_i \to \coprod_j U_{j \in J}
@@ -1137,7 +1137,7 @@ for $U \in C$ representable and $i : S \to T$ an (acylic) cofibration in $sSet_{
 +-- {: .num_lemma}
 ###### Lemma
 
-Let $C$ be a [[site]] with [[product]]s and let $[C^{op}, sSet]_{proj,cov}$ be the left [[Bousfield localization of model categories|Bousfield localization]] at the [[Cech nerve]] projections. 
+Let $C$ be a [[site]] with [[product]]s and let $[C^{op}, sSet]_{proj,cov}$ be the left [[Bousfield localization of model categories|Bousfield localization]] at the [[Čech nerve]] projections. 
 
 Then for $X$ any cofibrant object, the [[closed monoidal structure on presheaves]]-adjunction
 
@@ -1156,7 +1156,7 @@ is a [[Quillen adjunction]].
 
 The above lemma implies that the [[left adjoint]] $X \times (-)$ preserves cofibrations. As discussed in the <a href="http://ncatlab.org/nlab/show/Quillen+adjunction#sSet">section on sSet-enriched adjunctions</a> at [[Quillen adjunction]] since the adjunction is $sSet$-enriched and since $[C^{op}, sSet]_{proj,cov}$ is a [[proper model category|left proper]] [[simplicial model category]] it suffices to check that $[X,-]$ preserves fibrant objects. 
 
-For that let $\{U_i \to U\}$ be a covering family and $C(\{U_i\})$ the corresponding [[Cech nerve]]. We need to check that if $A \in [C^{op}, sSet]_{proj,cov}$ is fibrant, then 
+For that let $\{U_i \to U\}$ be a covering family and $C(\{U_i\})$ the corresponding [[Čech nerve]]. We need to check that if $A \in [C^{op}, sSet]_{proj,cov}$ is fibrant, then 
 
 $$
   [C^{op}, sSet](U, [X,A]) \to [C^{op},sSet](C(\{U_i\}), [X,A])
@@ -1183,7 +1183,7 @@ $$
   \,.
 $$
 
-By the above discussion of the Cech-localization of $[C^{op}, sSet]_{proj}$, this is a local morphism, hence does produce an equivalence when hommed into the fibrant object $A$.
+By the above discussion of the Čech-localization of $[C^{op}, sSet]_{proj}$, this is a local morphism, hence does produce an equivalence when hommed into the fibrant object $A$.
 
 =--
 
