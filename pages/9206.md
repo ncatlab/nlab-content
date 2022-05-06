@@ -78,7 +78,7 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * {#Douglas11} [[Michael Douglas]], _On D=5 super Yang-Mills theory and (2,0) theory_, JHEP 1102:011, 2011 ([arXiv:1012.2880](https://arxiv.org/abs/1012.2880))
 
-* [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083, 2011 ([arXiv:1012.2882](https://arxiv.org/abs/1012.2882))
+* {#LPS11} [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083, 2011 ([arXiv:1012.2882](https://arxiv.org/abs/1012.2882))
 
 * {#Witten11} [[Edward Witten]], Sections 4 and 5 of _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
 
