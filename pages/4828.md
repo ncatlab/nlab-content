@@ -57,7 +57,7 @@ such that the following conditions hold.
 *  the pentagon law holds for $\alpha$, as in a [[monoidal category]].
 *  the triangle law holds for $\alpha$, $\lambda$, and $\rho$, as in a monoidal category.
 
-A __strict premonoidal category__ is a monoidal category in which $(x \otimes y) \otimes z = x \otimes (y \otimes z)$, $x \otimes I = x$, and $I \otimes x = x$, and in which $\alpha_{x,y,z}$, $\lambda_x$, and $\rho_x$ are all [[identity morphisms]].  (We need the underlying category $C$ to be a [[strict category]] for this to make sense.)
+A __strict premonoidal category__ is a premonoidal category in which $(x \otimes y) \otimes z = x \otimes (y \otimes z)$, $x \otimes I = x$, and $I \otimes x = x$, and in which $\alpha_{x,y,z}$, $\lambda_x$, and $\rho_x$ are all [[identity morphisms]].  (We need the underlying category $C$ to be a [[strict category]] for this to make sense.)
 
 Similarly, a **symmetric premonoidal category** is a premonoidal category equipped with a central natural isomorphism $x\otimes y \cong y\otimes x$ (as for $\alpha$, there are two naturality squares unless we use the slick approach), satisfying the usual axioms of a symmetry.
 
