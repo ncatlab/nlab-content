@@ -1363,6 +1363,9 @@ Review includes
 
 * Andrey Grozin, _Effective field theories_ ([arXiv:2001.00434](https://arxiv.org/abs/2001.00434))
 
+* Riccardo Penco, _An Introduction to Effective Field Theories_ ([arXiv:2006.16285](https://arxiv.org/abs/2006.16285))
+
+
 
 A standard textbook adopting this perspective is
 
