@@ -18,6 +18,8 @@ This page collects links related to the book
 
   Princeton University Press (1989)
 
+  [ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38)
+
 
 on [[spin geometry]].
 
