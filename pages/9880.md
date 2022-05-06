@@ -75,7 +75,7 @@ and the [[string theory]] [[scales]]
 
 * $\ell_s$, the [[string length scale]];
 
-* $g_{s}$, the [[coupling constant]] of [[perturbative string theory]].
+* $g_{s}$, the [[string coupling constant]] of [[perturbative string theory]].
 
 
 Then under the [[duality between M-theory and type IIA string theory]] these scales are related as follows:
