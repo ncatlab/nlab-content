@@ -37,7 +37,7 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 
 ### Top-down models
 
-A popular [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05), see [Rebhan 14](#Rebhan14) for review. This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
+A popular [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Wittn 98](#Wittn98), see [Rebhan 14](#Rebhan14) for review. This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
@@ -57,6 +57,22 @@ Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) f
 </center>
 
 > graphics grabbed from [Erlich 09, section 1.2](#Erlich09)
+
+Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and further to "improved holographic QCD" is due to [Gursoy-Kiritsis-Nitti 07](#GursoyKiritsisNitti07), [Gursoy-Kiritsis 08](#GursoyKiritsis08), see [GKMMN 10](#GKMMN10).
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GlueballMasses.jpg" width="660">
+</center>
+
+> graphics grabbed from [GKMMN 10](#GKMMN10)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ImprovedAdSQCD.jpg" width="680">
+</center>
+
+> graphics grabbed from [GKMMN 10](#GKMMN10)
 
 
 ## References
@@ -82,15 +98,17 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
 
-General approach:
-
-* Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
+* {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
 
 The top-down Sakai-Sugimoto model is due to 
 
 * {#SakaiSugimoto04} Tadakatsu Sakai, Shigeki Sugimoto, _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
 * {#SakaiSugimoto05} Tadakatsu Sakai, Shigeki Sugimoto, _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+
+based on 
+
+* {#Wittn98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
 
 further developed in 
 
@@ -103,6 +121,31 @@ reviewed in
 The bottom-up hard-wall model is due to
 
 * {#ErlichKatzSonStephanov05} Joshua Erlich, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _QCD and a Holographic Model of Hadrons_, Phys.Rev.Lett.95:261602, 2005 ([arXiv:hep-ph/0501128](https://arxiv.org/abs/hep-ph/0501128))
+
+while the soft-wall refinement is due to 
+
+* {#KKSS06} Andreas Karch, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
+
+see also
+
+* Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
+
+
+and the version _improved holographic QCD_ is due to
+
+* {#GursoyKiritsis08} Umut Gursoy, [[Elias Kiritsis]], _Exploring improved holographic theories for QCD: Part I_, JHEP 0802:032, 2008 ([arXiv:0707.1324](https://arxiv.org/abs/0707.1324))
+
+* {#GursoyKiritsisNitti07} Umut Gursoy, [[Elias Kiritsis]], Francesco Nitti, _Exploring improved holographic theories for QCD: Part II_, JHEP 0802:019, 2008 ([arXiv:0707.1349](https://arxiv.org/abs/0707.1349))
+
+reviewed in 
+
+* {#GKMMN10} Umut Gürsoy, [[Elias Kiritsis]], Liuba Mazzanti, Georgios Michalogiorgakis, Francesco Nitti, _Improved Holographic QCD_, Lect.Notes Phys.828:79-146,2011 ([arXiv:1006.5461](https://arxiv.org/abs/1006.5461))
+
+The light-front holography approach is 
+
+reviewed in [Zhou-Dosch 18](#ZhouDosch18)
+
+
 
 See also
 
@@ -131,6 +174,8 @@ Original articles:
 * Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
 
 * [[Koji Hashimoto]], Tadakatsu Sakai, Shigeki Sugimoto, _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog.Theor.Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
+
+* Alex Pomarol, Andrea Wulzer, _Baryon Physics in Holographic QCD_, Nucl.Phys.B809:347-361, 2009 ([arXiv:0807.0316](https://arxiv.org/abs/0807.0316))
 
 * Thomas Gutsche, Valery E. Lyubovitskij, Ivan Schmidt, Alfredo Vega, _Nuclear physics in soft-wall AdS/QCD: Deuteron electromagnetic form factors_, Phys. Rev. D 91, 114001 (2015) ([arXiv:1501.02738](https://arxiv.org/abs/1501.02738))
 
@@ -186,7 +231,7 @@ Other original articles include:
 
 Application to [[anomalous magnetic moment]] of the [[muon]]:
 
-* Luigi Cappiello, _What does Holographic QCD predicts for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
+* Luigi Cappiello, _What does Holographic QCD predict for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
 
 
 
@@ -194,3 +239,6 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 
 [[!redirects AdS-QCD]]
 [[!redirects AdS/QCD]]
+
+[[!redirects improved holographic QCD]]
+
