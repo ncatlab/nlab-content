@@ -63,9 +63,7 @@ For example, for $n = 4$, [[Wick's theorem]] says this:
 
 ## Related concepts
 
-* [[chord diagram]]
-
-* [[horizontal chord diagram]]
+[[!include chord diagrams and weight systems -- table]]
 
 ## References
 
