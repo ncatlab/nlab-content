@@ -1,4 +1,20 @@
 
+$$
+    \underoverset
+    {\simeq}
+    {
+      [v,z]
+      \mapsto
+      \left\{
+      \array{
+        [(0,1)] &\vert& z = \infty
+        \\
+        [ (v , z) ] &\vert& else
+      }
+      \right.
+    }{\longrightarrow}
+$$
+
 
 $$
   \frac{
