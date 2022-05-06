@@ -112,7 +112,7 @@ Detailed matching of parameters of non-supersymmetric $Spin(10)$-GUT to [[neutri
 
 Generically, GUT-theories predict the existence of [[leptoquarks]] ([Murayama-Yanagida 92](#MurayamaYanagida92)), possibly related to the apparently observed 
 
-* [[flavour anomalies]] ([BDFKFS 18](#BDFKFS18), [AMM 19](#AMM19))
+* [[flavour anomalies]] ([BDFKFS 18](#BDFKFS18), [AMM 19](#AMM19), [Heek-Teresi 18](#HeekTeresi18), [Heek-Teresi 19](#HeekTeresi19))
 
 * [anomalies](anomalous+magnetic+moment#Anomalies) in [[anomalous magnetic moment]] of [[muon]] and [[electron]]
 
@@ -290,6 +290,11 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 * {#BDFKFS18} Damir Bečirević, Ilja Doršner, Svjetlana Fajfer, Nejc Košnik, Darius A. Faroughy, Olcyr Sumensari, _Scalar leptoquarks from GUT to accommodate the $B$-physics anomalies_, Phys. Rev. D 98, 055003 (2018) ([arXiv:1806.05689](https://arxiv.org/abs/1806.05689))
 
 * {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
+
+* {#HeekTeresi18} Julian Heeck, Daniele Teresi, _Pati-Salam explanations of the B-meson anomalies_, JHEP 12 (2018) 103 ([arXiv:1808.07492](https://arxiv.org/abs/1808.07492))
+
+* {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
+
 
 
 
