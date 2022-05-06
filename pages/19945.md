@@ -4,7 +4,7 @@ An idempotent semifield is an [[idempotent semiring]] that has a zero and in whi
 
 ## Definition
 
-An __idempotent semifield__ $K$ is [[idempotent semiring]] that has a zero $0$ and in which for every non-zero element $x$ there is an element $y$ such that $x \cdot y = 1$. It is said to be __commutative__ if the multiplication is commutative.
+An __idempotent semifield__ $K$ is [[idempotent semiring]] that has a zero $0$ and in which for every non-zero element $x$ there is an element $y$ such that $x \cdot y = 1$. It is said to be __commutative__ if the multiplication is [[commutative magma|commutative]].
 
 ## Properties as a lattice
 
