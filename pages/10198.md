@@ -71,9 +71,11 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 
 * Imre Lakatos, _Proof and refutations_
 
+* Jacques Hadamard, _Psychology of invention in the mathematical field_, Princeton University Press 1945
+
 The role of [[Heraclitus]]:
 
-* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
+* {#Lambek} [[Joachim Lambek]], _The influence of Heraclitus on modern mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co.
 
 
 
