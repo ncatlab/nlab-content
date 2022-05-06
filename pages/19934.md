@@ -267,6 +267,10 @@ For more see the references at _[[orbifold]]_.
 
 ### Flat orbifolds
 
+* [[John Ratcliffe]], Steven T. Tschantz, _The Calabi construction for compact flat orbifolds_, Topology and its Applications Volume 178, 1 December 2014, Pages 87-106 ([doi:10.1016/j.topol.2014.09.005](https://doi.org/10.1016/j.topol.2014.09.005))
+
+
+
 #### Of dimension 2
 
 In 2 dimensions
