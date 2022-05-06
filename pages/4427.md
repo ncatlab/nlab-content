@@ -20,6 +20,8 @@ _Higher Lie theory_ is the refinement of [[Lie theory]] to [[higher geometry]] (
 
 ## Related concepts
 
+* [[higher structures]]
+
 * [[higher differential geometry]]
 
   * [[motivation for higher differential geometry]]
