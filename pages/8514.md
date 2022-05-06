@@ -111,32 +111,31 @@ It is equivalent to the general form of [[Szpiro's conjecture]].
 
 ## References
 
+### Genera;
+
 The abc conjecture was stated in 
 
-* Joseph Oesterl&#233;, David Masser (1985)
- {#Oesterl&#233;Masser}
-
-[[Shinichi Mochizuki]] anounced the proof which the mathematical community perceives as a serious but unchecked claim. See the references at _[[inter-universal Teichmüller theory]]_.
-
-Comments on the proof are at
-
-*  _[[Mochizuki's proof of abc]]_.
-
-* MathOverflow, _[Philosophy behind Mochizuki's work on the ABC conjecture](http://mathoverflow.net/questions/106560/philosophy-behind-mochizukis-work-on-the-abc-conjecture/106658#106658)_
-
-An popular account of the problem of the math community checking the proof is in 
-
-* Caroline Chen, _The Paradox of the Proof_ ([web](http://projectwordsworth.com/the-paradox-of-the-proof/))
+* {#Oesterl&#233;Masser} Joseph Oesterl&#233;, David Masser (1985)
+ 
 
 Mason's theorem was presented in 
 
-* R.C. Mason, Equations over function fields. In _Number Theory, Proceedings of the Noordwijkerhout_, Springer Lecture Notes 1068 (1984), 149-157. 
-{#Mason} 
+* {#Mason}  R. C. Mason, Equations over function fields. In _Number Theory, Proceedings of the Noordwijkerhout_, Springer Lecture Notes 1068 (1984), 149-157. 
+
 
 Material on Mason's theorem and its relation to the abc conjecture was taken from 
 
-* Serge Lang, Algebra ($3^{rd}$ Edition), Addison-Wesley (1993), 194-196. 
-{#Lang}
+* {#Lang} Serge Lang, Algebra ($3^{rd}$ Edition), Addison-Wesley (1993), 194-196. 
+
+
+The relation to the [[Mordell conjecture]] is discussed in
+
+* {#Elkies} [[Noam Elkies]], _ABC conjecture implies Mordell_, Int. Math. Research Notices 7 (1991) 99-109
+
+The relation to [[Szpiro's conjecture]] is discussed in 
+
+* Matt Baker (notes taken by William Stein), _Elliptic curves, the ABC conjecture, and points of small canonical height_ ([pdf](http://modular.math.washington.edu/mcs/archive/Fall2001/notes/12-10-01/12-10-01.pdf))
+
 
 See also
 
@@ -150,11 +149,28 @@ See also
 * Wikipedia, _[abc conjecture](http://en.wikipedia.org/wiki/Abc_conjecture)_
 
 
-The relation to the [[Mordell conjecture]] is discussed in
 
-* [[Noam Elkies]], _ABC conjecture implies Mordell_, Int. Math. Research Notices 7 (1991) 99-109
- {#Elkies}
 
-The relation to [[Szpiro's conjecture]] is discussed in 
 
-* Matt Baker (notes taken by William Stein), _Elliptic curves, the ABC conjecture, and points of small canonical height_ ([pdf](http://modular.math.washington.edu/mcs/archive/Fall2001/notes/12-10-01/12-10-01.pdf))
+### Alleged proof via IUT
+
+[[Shinichi Mochizuki]] anounced the proof which the mathematical community perceives as a serious but unchecked claim. See the references at _[[inter-universal Teichmüller theory]]_.
+
+Comments on the proof are at
+
+*  _[[Mochizuki's proof of abc]]_.
+
+* MathOverflow, _[Philosophy behind Mochizuki's work on the ABC conjecture](http://mathoverflow.net/questions/106560/philosophy-behind-mochizukis-work-on-the-abc-conjecture/106658#106658)_
+
+An popular account of the problem of the math community checking the proof is in 
+
+* Caroline Chen, _The Paradox of the Proof_ ([web](http://projectwordsworth.com/the-paradox-of-the-proof/))
+
+
+### Proposals for relation to physics
+
+Relating the [[abc conjecture]] to [[D=4 N=4 super Yang-Mills theory]]:
+
+* [[Yang-Hui He]], Zhi Hu, Malte Probst, James Read, _Yang-Mills Theory and the ABC Conjecture_,  International Journal of Modern Physics A Vol. 33, No. 13, 1850053 (2018)  ([arXiv:1602.01780](https://arxiv.org/abs/1602.01780), [doi:10.1142/S0217751X18500537](https://doi.org/10.1142/S0217751X18500537))
+
+[[!redirects abc-conjecture]]
