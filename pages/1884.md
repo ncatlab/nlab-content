@@ -2736,12 +2736,11 @@ Early review:
 
 Representable K-theory over non-compact spaces was considered in
 
-* {#Karoubi70} [[Max Karoubi]], _Espaces Classifiants en K-Th&#233;orie_, Transactions of the American Mathematical Society
-Vol. 147, No. 1 (Jan., 1970), pp. 75-115  ([jstor](http://www.jstor.org/stable/1995218))
+* {#Karoubi70} [[Max Karoubi]], _Espaces Classifiants en K-Th&#233;orie_, Transactions of the American Mathematical Society Vol. 147, No. 1 (Jan., 1970), pp. 75-115  ([jstor](http://www.jstor.org/stable/1995218))
 
 and (over [[classifying spaces]] in the context of [[equivariant K-theory]]) in
 
-* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], section 4 of _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946 (41 #4575
+* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], section 4 of _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946 
 
 
 Early lecture notes on topological K-theory in a general context of [[stable homotopy theory]] and [[generalized cohomology theory]] includes
@@ -2756,7 +2755,7 @@ Textbook accounts:
 
 * {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975.
 
-* {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_, Grundlehren der Math. Wissen. 226 Springer 1978, Reprinted in Classics in Mathematics (2008)
+* {#Karoubi} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_, 2003/2009 ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
