@@ -268,11 +268,11 @@ For [[orbifolds]] in [[string theory]] also the references at
 
 * _[[Gepner model]]_
 
-* [[orientifold]]
+* _[[orientifold]]_
 
 * _[[RR-field tadpole cancellation]]_
 
-Review of orbifolds in the context of string [[KK-compactifications]] includes
+Review of orbifolds in the context of string [[KK-compactifications]] and [[intersecting D-brane models]] includes
 
 * {#BailibLove99} D. Bailin, A. Love, _Orbifold compactifications of string theory_, Phys.Rept. 315 (1999) 285-408 (<a href="https://doi.org/10.1016/S0370-1573(98)00126-4">doi:10.1016/S0370-1573(98)00126-4</a>)
 
@@ -280,9 +280,13 @@ Review of orbifolds in the context of string [[KK-compactifications]] includes
 
 * {#Giedt02} Joel Giedt, _Heterotic Orbifolds_ ([arXiv:hep-ph/0204315](https://arxiv.org/abs/hep-ph/0204315))
 
+* [[Dieter Lüst]], S. Reffert, E. Scheidegger, S. Stieberger, _Resolved Toroidal Orbifolds and their Orientifolds_, Adv.Theor.Math.Phys.12:67-183, 2008 ([arXiv:hep-th/0609014](https://arxiv.org/abs/hep-th/0609014))
+
 * {#Reffert07} Susanne Reffert, _The Geometer's Toolkit to String Compactifications_, lectures at _[String and M theory approaches to particle physics and cosmology](https://www.ggi.infn.it/showevent.pl?id=11)_, 2007 ([arXiv:0706.1310](https://arxiv.org/abs/0706.1310))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], Chapter 8 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012 ([doi:10.1017/CBO9781139018951](https://doi.org/10.1017/CBO9781139018951))
+
+
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Chapter 10.5 _Toroidal orbifolds_,  of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
 
