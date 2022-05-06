@@ -20,7 +20,7 @@ On [[type II supergravity]]:
 
 On [[super-exceptional generalized geometry]]:
 
-* [[Igor Bandos]], _Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories_, Nucl. Phys. B925 (2017) 28-62 ([arXiv:1612.01321](https://arxiv.org/abs/1612.01321))
+* {#Bandos16} [[Igor Bandos]], _Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories_, Nucl. Phys. B925 (2017) 28-62 ([arXiv:1612.01321](https://arxiv.org/abs/1612.01321))
 
 
 
