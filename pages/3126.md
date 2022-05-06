@@ -939,6 +939,8 @@ Presentation by [[model categories]] is discussed in
 
 * [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _The abstract cotangent complex and Quillen cohomology of enriched categories_ ([arXiv:1612.02608](https://arxiv.org/abs/1612.02608))
 
+* [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _The tangent bundle of a model category_, Theory and Applications of Categories  Vol. 34, 2019, No. 33, pp 1039-1072, [journal web site](http://tac.mta.ca/tac/volumes/34/33/34-33abs.html)
+
 * {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
   
 Generalization to parameterized objects in any [[stable (∞,1)-category]] is discussed in:
