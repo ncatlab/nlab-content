@@ -533,8 +533,8 @@ A [[crossed module]] presentation of a topological realization of the string 2-g
 
 A realization of the string 2-group in [[∞-groupoid]]s [[internalization|internal to]] [[Banach space]]s by [[Lie integration]] of the skeletal version of the [[string Lie 2-algebra]] is in
 
-* [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv:math/0603563](http://arxiv.org/abs/math/0603563))
-{#Henriques}
+* {#Henriques} [[Andre Henriques]], _Integrating $L_\infty$-algebras_, Compositio Mathematica, Volume 144, Issue 4 July 2008 , pp. 1017-1045 ([arXiv:math/0603563](http://arxiv.org/abs/math/0603563), [doi:10.1112/S0010437X07003405](https://doi.org/10.1112/S0010437X07003405))
+
 
 A realization of the string 2-group in [[strict 2-group]]s internal to [[Frechet manifold]]s by  [[Lie integration]] of a [[strict Lie 2-algebra]] incarnation of the [[string Lie 2-algebra]] in in
 
@@ -556,7 +556,7 @@ and in section 4.1 of
 
 A 2-group model which has a smoothening of the _topological_ [[string group]] in lowest degree has been given in 
 
-* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_ ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288))
+* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_,  International Mathematics Research Notices, Volume: 2013 , Issue: 16 , 2013   ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288), [doi:10.1093/imrn/rns154](https://doi.org/10.1093/imrn/rns154))
 
 A construction explicitly in terms of the "basic" [[bundle gerbe]] on $G$ is discussed in 
 
