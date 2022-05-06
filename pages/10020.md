@@ -115,6 +115,10 @@ based on
 
 * Shouvik Datta, [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Stringy $\mathcal{N} = (2,2)$ holography for $AdS_3$_ JHEP 1801 (2018) 146 ([arXiv:1709.06393](https://arxiv.org/abs/1709.06393))
 
+Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
+
+* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036))
+
 See also
 
 * Stefano Speziali, _Spin 2 fluctuations in 1/4 BPS AdS3/CFT2_ ([arxiv:1910.14390](https://arxiv.org/abs/1910.14390))
