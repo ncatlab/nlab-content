@@ -1,8 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 \section{Idea}
 
-In a higher category, invertibility of arrows in its highest dimension is always considered strictly. Thus in an ordinary [[category]], we have arrows which can be [[isomorphism|isomorphisms]]. In a [[2-category]], it is the 2-arrows for which, when it comes to invertibility, we always ask for a strict inverse, whereas for 1-arrows we typically ask only for an [[equivalence]]. These 2-arrows which admit an inverse are known as _2-isomorphisms_.
+In a [[higher category theory|higher category]], [[inverse|invertibility]] of [[n-morphisms]] in its highest dimension is always considered strictly. Thus in an ordinary [[category]], we have [[1-morphisms]] which can be [[isomorphism|isomorphisms]]. In a [[2-category]], it is the [[2-morphisms]] for which, when it comes to invertibility, we always ask for a strict inverse, whereas for [[1-morphisms]] we typically ask only for an [[equivalence]]. These 2-morphisms which admit an inverse are known as _2-isomorphisms_.
 
 \section{Definition}
 
