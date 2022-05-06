@@ -60,6 +60,9 @@ This allows to generalize Cartan calculus to $\infty$-Lie algebroids, see the se
 
 There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], which subsumes the inner derivation algebras. This is the context in wich the calculus of [[derived brackets]] lives.
 
+## Related concepts
+
+* [[equivariant de Rham cohomology]]
 
 ## References
 
@@ -68,11 +71,13 @@ Original articles by Cartan are
 * [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibr&#233; principal_ ,  Colloque de topologie (espaces fibr&#233;s), Bruxelles, 1950, pp. 57&#8211;71. Georges Thone, Li&#232;ge;
 Masson et Cie., Paris, (1951).
 
+For the closely related Cartan model of [[equivariant de Rham cohomology]] see the references [there](equivariant+de+Rham+cohomology#References).
 
-The closely related Cartan model for [[equivariant cohomology]] is discussed for instance in 
+See also
 
-* V. Guillemin, S. Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
+* [[Planet Math]], _[Cartan calculus](https://planetmath.org/cartancalculus)_
 
-The expression _Cartan calculus_ is also used for noncommutative analogues, see e.g.
+
+The expression _Cartan calculus_ is also used for [[noncommutative geometry]]-analogues such as for [[quantum groups]], see
 
 * P. Schupp, _Cartan calculus: differential geometry for quantum groups_,  Quantum groups and their applications in physics (Varenna, 1994),  507--524, Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996. 
