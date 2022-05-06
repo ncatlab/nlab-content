@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Proving the non-[[renormalizable interaction|renormalizability]] of Einstein-[[gravity]] ([[general relativity]]):
+
+* {#tHooftVelrman74} [[Gerard 't Hooft]], [[Martinus Veltman]], _One loop divergencies in the theory of gravitation_, Ann. Inst. Poincar &#233; 20 (1974) 69 ([numdam:AIHPA_1974__20_1_69_0](AIHPA_1974__20_1_69_0))
+
+
 Introducing [['t Hooft double line notation]] and the [[large N limit]] of [[Yang-Mills theory]]/[[QCD]] at fixed [['t Hooft coupling]] in terms of [[planar graph|planar]] [[Feynman diagrams]]:
 
 * [[Gerard 't Hooft]], _A Planar Diagram Theory for Strong Interactions_, Nucl. Phys. B72 (1974) 461 ([spire:80491](http://inspirehep.net/record/80491), <a href="https://doi.org/10.1016/0550-3213(74)90154-0">doi:10.1016/0550-3213(74)90154-0</a>)
