@@ -99,7 +99,10 @@ Math. Soc. Lecture Note Ser., vol. 315, Cambridge Univ. Press, Cambridge, 2004, 
 
 
 
-#### Elliptic genera
+### Elliptic genera
+
+
+#### General
 
 The general concept of [[elliptic genus]] originates with:
 
@@ -184,9 +187,7 @@ Further proofs and constructions:
 
 * [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](https://arxiv.org/abs/math/9912089))
 
-* [[Matthew Ando]], [[Maria Basterra]], _The Witten genus and equivariant elliptic cohomology_, Math Z 240, 787–822 (2002) ([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
 
-* [[Matthew Ando]], _The sigma orientation for analytic circle equivariant elliptic cohomology_, Geom. Topol., 7:91&#8211;153, 2003 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092), [euclid:gt/1513883094](https://projecteuclid.org/euclid.gt/1513883094))
 
 On manifolds with [[SU(2)]]-[[action]]:
 
@@ -196,6 +197,10 @@ On manifolds with [[SU(2)]]-[[action]]:
 #### Twisted elliptic genera
 
 Discussion of [[elliptic genera]] [[twisted cohomology|twisted]] by a gauge bundle, i.e. for [[string^c structure]]):
+
+* [[Matthew Ando]], [[Maria Basterra]], _The Witten genus and equivariant elliptic cohomology_, Math Z 240, 787–822 (2002) ([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
+
+* [[Matthew Ando]], _The sigma orientation for analytic circle equivariant elliptic cohomology_, Geom. Topol., 7:91&#8211;153, 2003 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092), [euclid:gt/1513883094](https://projecteuclid.org/euclid.gt/1513883094))
 
 * {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], Section 11 of  _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics, [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society, 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
 
