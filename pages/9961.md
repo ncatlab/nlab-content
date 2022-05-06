@@ -64,8 +64,14 @@ See also
 
 * Wikipedia, _[Lattice QCD](https://en.wikipedia.org/wiki/Lattice_QCD)_
 
-### Monte-Carlo simulations
+### Computer simulations
  {#ReferencesMontoCarloSimulations}
+
+A good general account of computer simulation of lattice [[QCD]] is in 
+
+* {#FodorHoelbling12} Zoltan Fodor, Christian Hoelbling, sections II-IV of _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449 (2012) ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
+
+See also
 
 * [[Michael Creutz]], _Monte Carlo study of quantized SU(2) gauge theory_ Phys. Rev. D21 (1980) 2308-2315 ([journal](http://prd.aps.org/abstract/PRD/v21/i8/p2308_1), [pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub037.pdf))
 
@@ -83,10 +89,14 @@ Specifically computation of [[hadron]]-[[masses]] (see [[mass gap problem]]) in 
 
   Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
 
+reviwed in 
+
+* [Fodor-Hoelbling 12, section V of ](#FodorHoelbling12)
+
 
 ### Renormalization
 
-An proposal for a rigorous formulation of [[renormalization]] in lattice gauge theory is due to 
+A proposal for a rigorous formulation of [[renormalization]] in lattice gauge theory is due to 
 
 * [[Tadeusz Balaban]], _Renormalization group approach to lattice gauge field theories: I. Generation of effective actions in a small field approximation and a coupling constant renormalization in four dimensions_, Communications in Mathematical Physics, Volume 109, Issue 2, pp.249-301 ([web](https://link.springer.com/article/10.1007%2FBF01215223))
 
@@ -100,6 +110,8 @@ reviewed in
 * ...
 
 ### Topological effects and instantons
+
+Discussion of [[instantons]] in lattice QCd
 
 * {#Gruber13} Florian Gruber, _Topology in dynamical Lattice QCD simulations_, 2013 ([web](http://epub.uni-regensburg.de/27631/), [pdf](http://epub.uni-regensburg.de/27631/1/dissertation.pdf))
 
