@@ -9,10 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
-## Related concepts
 
-* [[matrix group]]
 
 ## Properties
 
@@ -21,7 +22,7 @@
 **(fundamental theorem of invertible matrices)**
 
 For $n \in \mathbb{N}$ and $A \in Mat_{n \times n}(k)$
-a square [[matrix]], the following are equivalent:
+a [[square matrix]], the following are equivalent:
 
 1. $A$ is an invertible matrix;
 
@@ -30,6 +31,8 @@ a square [[matrix]], the following are equivalent:
 =--
 
 ## Related concepts
+
+* [[matrix group]]
 
 * [[general linear group]]
 
@@ -40,6 +43,7 @@ a square [[matrix]], the following are equivalent:
 * Wikipedia, _[Invertible matrix](https://en.wikipedia.org/wiki/Invertible_matrix)_
 
 * WolframMathWorld, _[Invertible Matrix Theorem](http://mathworld.wolfram.com/InvertibleMatrixTheorem.html)_
+
 
 [[!redirects inverse matrices]]
 
