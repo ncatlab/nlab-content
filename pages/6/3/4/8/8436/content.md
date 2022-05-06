@@ -32,7 +32,7 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 * [[quantum many-body physics]]
 
-* [[rigid body dynamics]]
+* [[Bloch's theorem]]
 
 * [[degeneracy pressure]]
 
