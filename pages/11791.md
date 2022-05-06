@@ -9,6 +9,9 @@
 =--
 =--
 
+## Idea
+
+
 The statement that generalizes the [[Deligne completeness theorem]] from [[topos theory]] to [[(∞,1)-topos theory]].
 
 +-- {: .num_theorem }
