@@ -9,11 +9,14 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Definition
 
-Given a sequence of [[short exact sequence]] of the form
+Given a sequence of [[short exact sequences]] of the form
 
 $$
   0
@@ -62,4 +65,8 @@ $$
 which is, evidently, a [[long exact sequence]].
 
 More generally, there is splicing of interlocking systems of [[long exact sequences]]. See at _[Exact couple of a tower of fibrations](exact+couple#ExactCoupleOfATowerOfFibrations)_.
+
+## Related entries
+
+* [[Adams spectral sequence]]
 
