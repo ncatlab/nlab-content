@@ -52,7 +52,7 @@ $$
   (V_{brane}, V_{anti-brane})
 $$
 
-for all [[nLab:complex vector bundles]] $W$ ([Witten 98](#Witten98)).
+for all [[nLab:complex vector bundles]] $W$ ([Witten 98, Section 3](#Witten98)).
 
 For a fixed brane [[nLab:worldvolume]] $X$, the additive [[abelian group]] of such equivalence classes of [[nLab:virtual vector bundles]] is called the [[nLab:topological K-theory]] of $X$, denoted $K(X)$.
 
