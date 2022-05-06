@@ -82,9 +82,17 @@ See at _[[E-string elliptic genus]]_.
 
 * {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
 
-* {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
+
 
 * {#GHKKLV15} Abhijit Gadde, [[Babak Haghighat]], Joonho Kim, Seok Kim, [[Guglielmo Lockhart]], [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
+
+On the [[E-string elliptic genus]]:
+
+* {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
+
+* Wenhe Cai, Min-xin Huang, Kaiwen Sun, _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. 2015, 79 (2015).
+([arXiv:1411.2801](https://arxiv.org/abs/1411.2801), <a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>)
+
 
 On the [[Green-Schwarz anomaly cancellation]] in [[D=6 N=(1,0) SCFT]]:
 
