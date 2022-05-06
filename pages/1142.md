@@ -56,13 +56,13 @@ This is
      [\mathbf{X}, \mathbf{Y}]
      \;\;\colon\;\;\phantom{A}
      \array{
-       c_1 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_1) \times \mathbf{X}, \mathbf{y} )
+       c_1 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_1) \times \mathbf{X}, \mathbf{Y} )
        \\
        {}^{ \mathllap{ f } }\big\downarrow 
          &&
-       \big\uparrow^{ \mathrlap{ Hom_{[\mathcal{C}^{op}, Set]}( y(f) \times \mathbf{X}, \mathbf{y} ) } }
+       \big\uparrow^{ \mathrlap{ Hom_{[\mathcal{C}^{op}, Set]}( y(f) \times \mathbf{X}, \mathbf{Y} ) } }
        \\
-       c_2 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_2) \times \mathbf{X}, \mathbf{y} )       
+       c_2 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_2) \times \mathbf{X}, \mathbf{Y} )       
      }
    $$
 
