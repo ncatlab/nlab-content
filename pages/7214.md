@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -26,8 +25,9 @@ A [[morphism]] between $\Delta$-generated spaces is just a [[continuous function
 
 =--
 
-+-- {: .num_remark} 
++-- {: .num_remark #AsColimitsOfTopologicalSimplices} 
 ###### Remark
+**(as colimits of topological simplices)**
 
 Equivalently, the [[class]] of $\Delta$-generated spaces is the closure of the set of [[topological simplices]] $\Delta^n_{top}$ under [[small colimits]] in [[topological spaces]] (see at _[[Top]] -- [universal constructions](Top#UniversalConstructions)_).
 
@@ -66,7 +66,13 @@ $$
 
 Therefore the condition that a topological space $X$ be $\Delta$-generated (Def. \ref{DeltaGeneratedSpace}) is equivalent to saying that its topology is [[final topology|final]] with respect to all continuous functions $\mathbb{R}^n \to X$ out of [[Euclidean spaces|Euclidean]]/[[Cartesian spaces]]. 
 
-We might thus equivalently speak of _Euclidean-generated spaces_.
+=--
+
++-- {: .num_remark #AsDTopologicalSpaces} 
+###### Remark
+**(as D-topological spaces)**
+
+By Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces} below, the Euclidean-generated spaces and hence, by Remark \ref{AsEuclideanGeneratedSpaces}, the $\Delta$-generated spaces, are equivalently those that arise from equipping a [[diffeological space]] with its [[D-topology]], hence are, in this precise sense, the _D-topological spaces_. Luckily, "D-topological space" may also serve as an abbreviation for "Delta-generated topological space".
 
 =--
 
@@ -178,6 +184,8 @@ Relation to [[diffeological spaces]]:
 [[!redirects Euclidean-generated topological space]]
 [[!redirects Euclidean-generated topological spaces]]
 
+[[!redirects D-topological space]]
+[[!redirects D-topological spaces]]
 
 [[!redirects ∞-generated space]]
 [[!redirects ∞-generated spaces]]
