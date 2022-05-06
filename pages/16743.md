@@ -74,9 +74,13 @@ Let $\mathcal{E}$ be a topos. The following are equivalent:
 * Every $\neg\neg$-sheaf is decidable.
 
 * $\bot:1\to\Omega$ has a [[complement]].
+
+* The [[real numbers object|object of Dedekind reals]] coincides with the object of [[Dedekind-MacNeille completion|Dedekind-MacNeille reals]].
 =--
 
-The first few equivalences are based mainly on the validity of the "law of excluded middle" for elements of the form $\neg a$ in any [[De Morgan Heyting algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
+The first few equivalences are based mainly on the validity of the "law of excluded middle" for elements of the form $\neg a$ in any [[De Morgan Heyting algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone). The very last point is supplied by [Johnstone (1979)](#Johnstone79).
+
+
 
 
 ## Properties
