@@ -1,3 +1,18 @@
+\begin{tikzpicture}
+  \node (center) at (0,0) {};
+  \node (topright) at (60:1) {};
+  \node (botright) at (-60:1) {};
+  \node (left) at (180:1) {};
+  
+  \draw[fill=black] (center) circle (.1);
+  \draw[fill=black] (topright) circle (.1);
+  \draw[fill=black] (botright) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+
+  \draw (center) to (topright);
+  \draw (center) to (botright);
+  \draw (center) to (left);
+\end{tikzpicture}
 
 $\left\vert \nabla \phi \right\vert = const$
 
