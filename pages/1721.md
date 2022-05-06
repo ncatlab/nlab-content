@@ -257,7 +257,7 @@ $$
 +-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
 ###### Proposition
 
-The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
+The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are part of [[long exact sequences]]
 
 $$
   \cdots
@@ -275,6 +275,7 @@ $$
 
 =--
 
+See at _[[long exact sequence in generalized cohomology]]_.
 
 +-- {: .proof}
 ###### Proof
