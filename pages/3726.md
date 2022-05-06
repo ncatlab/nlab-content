@@ -350,5 +350,11 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects connected object in an (∞,1)-topos]]
 [[!redirects connective object]]
 
+[[!redirects 0-connected morphism]]
+[[!redirects 0-connected morphisms]]
+
+
 [[!redirects n-connected morphism]]
 [[!redirects n-connected morphisms]]
+
+
