@@ -532,6 +532,9 @@ See also:
 
 * {#Saemann16} [[Christian Saemann]], appendix A of _Lectures on Higher Structures in M-Theory_ ([arXiv:1609.09815](https://arxiv.org/abs/1609.09815))
 
+and
+
+* {#Palmkvist09} [[Jakob Palmkvist]], _Three-algebras, triple systems and 3-graded Lie superalgebras_, J. Phys. A43:015205, 2010 ([arXiv:0905.2468](https://arxiv.org/abs/0905.2468))
 
 
 [[!redirects M-brane 3-algebras]]
