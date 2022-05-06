@@ -23,11 +23,11 @@
 
 ## Idea
 
-While the [[Goodwillie calculus of functors]] is an accurate [[(infinity,1)-category theory|(∞,1)-]][[categorification]] of ordinary [[differential calculus]], in that it obeys various analogous rules, such as notably the [[chain rule]], it is fails one such rule, in an interesting way:
+While the [[Goodwillie calculus of functors]] is an accurate [[(infinity,1)-category theory|(∞,1)-]][[categorification]] of ordinary [[differential calculus]], in that it obeys various analogous rules, such as notably the [[chain rule]], it fails one such rule, in an interesting way:
 
-While in ordinary [[differential calculus]] the [[derivative]] of the [[identity function]] $\mathbb{R}^1 \overset{id}{\to} \mathbb{R}^1$ on the [[real line]] is itself the identity, this is not the case for the [[Goodwillie derivative]] of the [[identity functor]] $Top^{\ast/} \overset{Id}{\to} Top^{\ast/}$ on the [[category]] of [[pointed topological spaces]]. 
+While in ordinary [[differential calculus]] the [[derivative]] of the [[identity function]] $\mathbb{R}^1 \overset{id}{\to} \mathbb{R}^1$ on the [[real line]] (considered as a map between [[tangent spaces]]) is itself the identity, this is not the case for the [[Goodwillie derivative]] of the [[identity functor]] $Top^{\ast/} \overset{Id}{\to} Top^{\ast/}$ on the [[category]] of [[pointed topological spaces]]. 
 
-But the Goodwillie [[chain rule]] implies then that the nontrivial Goodwillie derivatives $D_\bullet Id$ of the identity functor satisfy a good algebraic compositional law. Indeed, they form an [[operad]] in [[spectra]] ([Ching 05a](#Ching05a)).
+But the [[Goodwillie chain rule]] implies then that the nontrivial Goodwillie derivatives $D_\bullet Id$ of the identity functor satisfy a good algebraic compositional law. Indeed, they form an [[operad]] in [[spectra]] ([Ching 05a](#Ching05a)).
 
 ## Properties
  {#Properties}
