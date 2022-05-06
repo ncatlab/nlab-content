@@ -32,7 +32,7 @@ $$
 which respect the [[coalgebra]] [[mathematical structure|structure]] and satisfy
 
 $$
-  \psi^{q_2} \circ \psi^q_1
+  \psi^{q_2} \circ \psi^{q_1}
   \;=\;
   \psi^{q_1 \cdot q_2}
 $$
