@@ -82,6 +82,8 @@ which to a [[coset space]] $G/H$ assigns the [[PL de Rham complex]] of the $H$-[
 
 ## Related concepts
 
+* [[equivariant Sullivan models]]
+
 * [[model structure on equivariant dgc-algebras]]
 
 * [[equivariant rational homotopy theory]]
