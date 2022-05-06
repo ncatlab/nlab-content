@@ -87,7 +87,9 @@ where $\delta$ is the differential.
 On the other hand, in terms of the [[Chevalley-Eilenberg algebra]] this is still encoded in just $d \circ d  = 0$ (see there for details).
 
 
-##Related entries
+## Related entries
+
+* [[STU relation]]
 
 * [[identity among the relations]] 
 
