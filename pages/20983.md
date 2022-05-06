@@ -21,6 +21,12 @@ Rozansky-Witten weight systems are [[weight systems]] on [[Jacobi diagrams]] ([[
 
 For asymptotically flat and for [[compact hyperkähler manifolds]] the induced RW-weight systems take values in the [[ground field]] and hence are actual [[weight systems]].
 
+## Properties
+
+Rozansky-Witten weight systems depend only on the [[hyperkähler manifold]] $\mathcal{M}^{4n}$ which is the (classical) [[Coulomb branch]] of the RW-[[topological twist|twisted]] [[D=3 N=4 super Yang-Mills theory]], and in fact they are independent of the [[Riemannian geometry]] of $\mathcal{M}^{4n}$ and depend only on the underlying holomorphic [[symplectic structure]] ([Kapranov 99](#Kapranov99)). Generally, they are defined for $\mathcal{M}^{4n}$ any [[hyperkähler manifold]] which is either asymptotically flat ([[ALE spaces]]) or [[compact topological space]] ([[compact hyperkähler manifolds]]).
+
+Via the equivalent reformulation by [Kapranov 99](#Kapranov99) one finds ([Roberts-Willerton 10](#RobertsWillerton10)) that the [[Rozansky-Witten invariants]] are structurally [[Lie algebra weight systems]] themselves, but [[Lie algebra object|internal]] to the [[derived category of coherent sheaves]] of $\mathcal{M}^{4n}$ and composed with an [[integration]] over $\mathcal{M}^{4n}$ which makes the resulting [[Dolbeault cohomology]]-valued weights become [[ground field]]-valued.
+
 ## Examples
 
 ### Ground-field valued weight systems
@@ -51,12 +57,12 @@ Original articles:
 * {#RozanskyWitten96} [[Lev Rozansky]], [[Edward Witten]], _Hyper-K&#228;hler geometry and invariants of 3-manifolds_, Selecta Math., New Ser. __3__ (1997), 401&#8211;458 ([arXiv:hep-th/9612216](https://arxiv.org/abs/hep-th/9612216), [doi:10.1007/s000290050016](https://doi.org/10.1007/s000290050016), [MR98m:57041](http://www.ams.org/mathscinet-getitem?mr=98m:57041))
 
 
-* [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113, [MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009)
+* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113, [MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009)
 
 
 Unified description of [[Rozansky-Witten weight systems]] with [[Lie algebra weight systems]], and unified [[Wheels theorem]] via [[Lie algebra objects]]:
 
-* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+* {#RobertsWillerton10} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 Review:
 
