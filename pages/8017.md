@@ -10,6 +10,24 @@ Given two [[measures]] $\mu, \nu$ on the same [[measurable space]], their Radon-
 Integration on a general [[measure space]] can be seen as the process of multiplying a measure by a function to get a measure.  Then the Radon--Nikodym derivative is the reverse of this: dividing two measures to get a function.
 
 
+## The Radon–Nikodym theorem
+
+\begin{theorem}
+Suppose $X$ is a [[set]], $\Sigma$ is a [[σ-algebra]] of subsets of $X$,
+$\mu\colon\Sigma\to[0,\infty]$ is a countable additive measure,
+and $\nu\colon\Sigma\to\mathbf{R}$ is a function.
+Then there is a $\mu$-integrable function $f$ such that $\nu(E)=\int_E f$ for all $E\in\Sigma$ if and only if $\nu$ is finitely additive and truly continuous with respect to $\mu$.
+The latter means that for any $\epsilon\gt0$ we can find $E\in\Sigma$ and $\delta\gt0$ such that $\mu(E)$ is finite and $|\nu(F)|\lt\epsilon$ whenever $F\in\Sigma$
+and $\mu(E\cap F)\lt\delta$.
+\end{theorem}
+
+\begin{corollary}
+In the context of the above theorem,
+if $(X,\Sigma,\mu)$ is [[σ-finite]], then there is a $\mu$-integrable function $f$ such that $\nu(E)=\int_E f$ for all $E\in\Sigma$ if and only if
+$\nu$ is countable additive and absolutely continuous with respect to $\mu$.
+If $\mu(X)$ is finite, it suffices to require that $\nu$ is finitely additive.
+\end{corollary}
+
 ## Definitions
 
 Let $X$ be a [[measurable space]] (so $X$ consists of a [[set]] ${|X|}$ and a $\sigma$-[[sigma-algebra|algebra]] $\mathcal{M}_X$), and let $\mu$ and $\nu$ be [[measures]] on $X$, valued in the [[real numbers]] (and possibly taking infinite values) or in the [[complex numbers]] (and taking only finite values).  Let $f$ be a [[measurable function]] $f$ (with real or complex values) on $X$.
