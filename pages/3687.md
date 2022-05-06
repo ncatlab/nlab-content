@@ -30,9 +30,9 @@ $$
 
 This is called _mirror symmetry_. At least in some cases this can be understood as a special case of [[T-duality]] ([Strominger-Yau-Zaslow 96](#StromingerYauZaslow96)).
 
-In this form mirror symmetry remains a conjecture, not the least because for the moment there is no complete construction of these SCFTs. But to every such $SCFT(X)$ one can associate two [[TCFT]]s, $A(X)$ and $B(X)$, the [[A-model]] and the [[B-model]]. These $N=1$ supersymmetric field theories were obtained by [[Edward Witten]] using a "topological twist". The topological A-model can be expressed in terms of [[symplectic geometry]] of a variety and the topological B-model can be expressed in terms of the [[algebraic geometry]] of a variety. 
+In this form mirror symmetry remains a conjecture, not the least because for the moment there is no complete construction of these SCFTs. But to every such $SCFT(X)$ one can associate two [[TCFT]]s, $A(X)$ and $B(X)$, the [[A-model]] and the [[B-model]]. These $N=1$ supersymmetric field theories were obtained by [[Edward Witten]] using a "topological twist". The topological [[A-model]] can be expressed in terms of [[symplectic geometry]] of a variety and the topological B-model can be expressed in terms of the [[algebraic geometry]] of a variety. 
 
-These topological theories are easier to understand and do retain a little bit of the information encoded in the full SCFTs. In terms of these the statement of mirror symmetry says that passing to mirror CYs _exchanges_ the A-model with the $B$-model and conversely:
+These topological theories are easier to understand and do retain a little bit of the information encoded in the full SCFTs. In terms of these the statement of mirror symmetry says that passing to mirror CYs _exchanges_ the [[A-model]] with the $B$-model and conversely:
 
 $$
   A(X) \simeq B(\hat X),\,\,\,\,\,\,\,B(X)\simeq A(\hat X)
@@ -57,7 +57,7 @@ Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gr
 
 Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration [Strominger-Yau-Zaslow 96](#StromingerYauZaslow96).  
 
-Although the non-Calabi-Yau case may be of lesser interest to physics, one can still formulate some mirror symmetry statements for, for instance, Fano manifolds. The mirror to a Fano manifold is a Landau-Ginzburg model (see [Hori-Vafa 00](#HoriVafa00); see also work of Auroux for an explanation via the Strominger-Yau-Zaslow T-duality philosophy). Then the statements are: the A-model of the Fano (given by the Fukaya category) is equivalent to the B-model of the Landau-Ginzburg model (given by the category of matrix factorizations); and the B-model of the Fano (given by the derived category of sheaves) is equivalent to the A-model of the Landau-Ginzburg model (given by the Fukaya-Seidel category). A few of the relevant names: Kontsevich, Hori-Vafa, Auroux, Katzarkov, Orlov, Seidel, ...
+Although the non-Calabi-Yau case may be of lesser interest to physics, one can still formulate some mirror symmetry statements for, for instance, Fano manifolds. The mirror to a Fano manifold is a [[Landau-Ginzburg model]] (see [Hori-Vafa 00](#HoriVafa00); see also work of Auroux for an explanation via the Strominger-Yau-Zaslow T-duality philosophy). Then the statements are: the [[A-model]] of the Fano (given by the Fukaya category) is equivalent to the B-model of the [[Landau-Ginzburg model]] (given by the category of matrix factorizations); and the B-model of the Fano (given by the derived category of sheaves) is equivalent to the [[A-model]] of the [[Landau-Ginzburg model]] (given by the Fukaya-Seidel category). A few of the relevant names: Kontsevich, Hori-Vafa, Auroux, Katzarkov, Orlov, Seidel, ...
 
 ## Properties
 
@@ -74,6 +74,8 @@ Close relation to [[tropical geometry]], see e.g. [Gross 11](#Gross11).
 * [[duality in physics]], [[duality in string theory]]
 
 * [[geometric Langlands duality]]
+
+* [[Landau-Ginzburg model]]
 
 ## References
 
