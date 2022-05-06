@@ -51,7 +51,7 @@ See also
 ### From the point of view of physics
  {#ReferencesPhysics}
 
-The index theorem is supposed to have an interpretation in terms of the [[quantum field theory]] of the [[superparticle]] on the given space. 
+The index theorem has an interpretation in terms of the [[quantum field theory]] of the [[superparticle]] on the given space. 
 
 Traditional physics arguments along these lines include for instance
 
