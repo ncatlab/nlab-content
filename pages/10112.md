@@ -78,6 +78,14 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[Skyrmion]]
 
+* [[confinement]]
+
+  * [[chiral perturbation theory]]
+
+  * [[quark bag model]], [[Cheshire cat principle]]
+
+  * [[vector meson dominance]]
+
 ## References
 
 ### General
