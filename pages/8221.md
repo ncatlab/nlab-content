@@ -38,6 +38,7 @@ The current model assumes that the energy density of the [[observable universe]]
 
 (e.g. [Einasto 09, fig 17](#Einasto09), [here](https://ned.ipac.caltech.edu/level5/Sept09/Einasto/Einasto6.html))
 
+
 ## Properties
 
 ### Structure formation
@@ -92,9 +93,14 @@ Lecture notes include
 
 * [[Matthias Blau]], chapter 37 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
-A review is in 
+Review:
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
+
+* {#Mukhanov16} [[Viatcheslav Mukhanov]], _Quantum Universe_, Phys.Usp. 59 (2016) no.10, 1021-1027 ([spire:1507528](http://inspirehep.net/record/1507528), [doi:10.3367/UFNe.2016.07.037857](https://iopscience.iop.org/article/10.3367/UFNe.2016.07.037857/meta), [video recording](https://youtu.be/xUIrj_97i0A))
+
+> In March 2013, following an accurate processing of available measurement data, the Planck Scientific Collaboration published the highest-resolution photograph ever of the early Universe when it was only a few hundred thousand years old. The photograph showed galactic seeds in sufficient detail to test some nontrivial theoretical predictions made more than thirty years ago. Most amazing was that all predictions were confirmed to be remarkably accurate. With no exaggeration, we may consider it established experimentally that quantum physics, which is normally assumed to be relevant on the atomic and subatomic scale, also works on the scale of the entire Universe, determining its structure with all its galaxies, stars, and planets.
+
 
 A discussion of open problems is in 
 
