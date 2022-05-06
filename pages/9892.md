@@ -27,12 +27,12 @@ For a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(phys
 
 * [[holographic entanglement entropy]]
 
-## Reading
+## References
 
 The suggestion that there is a black hole "firewall" phenomenon originates in 
 
- * A. Almheiri, [[Don Marolf]], [[Joseph Polchinski]], J. Sully, _Black Holes: Complementarity or Firewalls?_ 2012 ([arXiv:1207.3123](http://arxiv.org/abs/1207.3123))
-   {#AMPS}
+* {#AMPS} [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_ ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
+   
 
 with a folowup in
 
