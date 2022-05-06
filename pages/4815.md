@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -227,26 +226,22 @@ Discussion of the experimentally observed tiny cosmological constant and the fol
 Discussion from the point of view of [[perturbative string theory]], where the cosmological constant is fixed by the choice of [[perturbative string theory vacuum]].
 
 #### For fundamentally vanishing cc
+ {#ReferencesStringTheoryVanishingCC}
 
-An argument for [[string phenomenology]] with fundamentally vanishing [[cosmological constant]] based on 4d [[T-duality|T-duals]] of 3d [[M-theory on 8-manifolds]]
+An argument for [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string phenomenology]] with fundamentally vanishing [[cosmological constant]], based on 3d [[M-theory on 8-manifolds]]
+decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]):
 
-* {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_ ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
+* {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507) ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
 
-  (see bottom of p. 6)
+  (see p. 7)
 
-See also
+* [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod. Phys. Lett. A 10:2153-2156, 1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
 
-* [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod. Phys.Lett. A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
+* [[Edward Witten]], Section 3 of _Some Comments On String Dynamics_, talk at [Strings95](https://cds.cern.ch/record/305869) ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
-for discussion in terms of the [[duality between M-theory and type IIA string theory]] [[KK-compactification|KK-compactified]] to a 4d/3d scenario, where the 3d physics is weakly coupled and the 4d physics strongly coupled. (Recall the [[super 2-brane in 4d]].)  
+The realization of this scenario in [[F-theory]]:
 
-This discussion was later supplemented by 
-
-* [[Edward Witten]], section 3 of _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
-
-and related to realization in [[F-theory]] in 
-
-* Cumrun Vafa, Section 4.3 of: _Evidence for F-Theory_, Nucl.Phys.B469:403-418,1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
+* [[Cumrun Vafa]], Section 4.3 of: _Evidence for F-Theory_, Nucl. Phys. B469:403-418, 1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
 
 #### For fundamentally non-vanishing cc
 
