@@ -461,6 +461,8 @@ Discussion in terms of [[E11]]-[[U-duality]] and [[current algebra]] is in
 
 Solutions to [[D=11 N=1 supergravity]] describing [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] (with application to the [[3d-3d correspondence]] and [[proof]] of the [[volume conjecture]]):
 
+* [[Jerome Gauntlett]], [[Nakwoo Kim]], [[Daniel Waldram]], Section 3.1 of: _M-Fivebranes Wrapped on Supersymmetric Cycles_, Phys. Rev. D63 (2001) 126001 ([arXiv:hep-th/0012195](https://arxiv.org/abs/hep-th/0012195))
+
 
 * Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
 
