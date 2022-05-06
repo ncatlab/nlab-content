@@ -68,6 +68,8 @@ In the development of Kant's distinction between general logic and transcendenta
 
 ##### Transcendental Deduction
 
+##### Transcendental Deduction in first edition 
+
 ###Transcendental Doctrine of Methods
 
 
