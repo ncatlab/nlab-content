@@ -41,7 +41,9 @@ See at _[[Green-Schwarz sigma model]]_ and _[[brane scan]]_.
 ### As a black brane
  {#AsABlackBrane}
 
-As a [[black brane]] solution to the [[equations of motion]] of [[11-dimensional supergravity]] the M2 is the [[spacetime]] $\mathbb{R}^{2,1} \times (\mathbb{R}^8-\{0\})$ with [[pseudo-Riemannian metric]] being
+#### In the absence of 4-flux
+
+As a [[black brane]] solution to the [[equations of motion]] of [[11-dimensional supergravity]], with vanishing [[C-field]] [[flux]], the M2 is the [[spacetime]] $\mathbb{R}^{2,1} \times (\mathbb{R}^8-\{0\})$ with [[pseudo-Riemannian metric]] being
 
 $$
   g = H^{-2/3} g_{\mathbb{R}^{2,1}} + H^{1/3}g_{\mathbb{R}^8-\{0\}}
@@ -76,6 +78,28 @@ The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactifi
 [[!include ADE -- table]]
 
 Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$ on $S^7$ is via the canonical action of $SU(2)$ as in the [[quaternionic Hopf fibration]] ([Medeiros-Figueroa 10](#MedeirosFigueroa10)), while for $\mathcal{N} = 4$ then there is an extra twist to the action  ([MFFGME 09](#MFFGME09)). See the table [below](#WorldvolumeTheory).
+
+#### In the presence of 4-flux
+
+In the presence of [[C-field]] [[flux]] $G_4$, the electric [[flux density]] of [[M2-branes]] is not $G_7 \coloneqq \star G_4$ alone, but the combination (e.g. [BLMP 13, p. 21](#BaggerLambertMukhiPapageorgakis13))
+
+$$
+  \widetilde G_7 
+  \;\coloneqq\;
+  G_7 + \tfrac{1}{2} C_3 \wedge G_4
+  \,,
+$$
+
+where the second term subtracts the magnetic flux induced by the self-intersection of the [[field]], and also ensures that the full expression is a [[closed differential form]]:
+
+$$
+  d \widetilde G_7
+  \;=\;
+  0
+  \,.
+$$
+
+
 
 
 
@@ -171,6 +195,11 @@ The [[equations of motion]] of the super membrane are derived via the [[superemb
 and the [[Lagrangian density]] for the super membrane is derived via the [[superembedding approach]] in
 
 * {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class. Quant. Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
+
+Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
+
+* {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
+
   
 Its [[quantization]] of the was explored in 
 
@@ -187,7 +216,7 @@ The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz supe
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
 
-The interpretation of the membrane as as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _M2-brane_ was proposed in 
+The interpretation of the membrane as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _M2-brane_ was proposed in 
 
 * [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
@@ -209,6 +238,8 @@ by [[SU(n)|SU(N)]]-matrices and the resulting equivalence of the [[quantization]
 
 
 ### As a black brane
+
+#### Fluxless
 
 The back membrane solution of [[11-dimensional supergravity]] was found in
 
@@ -266,7 +297,7 @@ Other recent developments are discussed in
 
 * [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
 
-* [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](#http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
 * [[Nathan Berkovits]], _Towards Covariant Quantization of the Supermembrane_ ([arXiv:hep-th/0201151](http://arxiv.org/abs/hep-th/0201151))
 
@@ -289,9 +320,13 @@ Discussion of general phenomena of [[M-branes]] in [[higher geometry]] and [[gen
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
-Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
 
-* {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
+#### Fluxed
+
+* [Bagger-Lambert-Mukhi-Papageorgakis 13, p. 21](#BaggerLambertMukhiPapageorgakis13)
+
+
+(...)
  
 
 ### Dualities
