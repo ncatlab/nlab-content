@@ -84,4 +84,8 @@ Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
 
 * Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
 
+and in view of [[de Sitter spacetime]] vacua:
+
+* Johan Blåbäck, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, _Constructing stable de Sitter in M-theory from higher curvature corrections_ ([arXiv:1902.04053](https://arxiv.org/abs/1902.04053))
+
 [[!redirects higher order curvature corrections]]
