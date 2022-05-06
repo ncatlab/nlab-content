@@ -1,6 +1,6 @@
-[[Michio Sato]] introduced an infinite-dimensional Grassmannian in relation to the [[integrable system]]s. It gives a standard way to describe the $\tau$-[[tau-function|function]]. Constructed also by [[Graeme Segal]] and Wilson so it is often called Sato-Segal-Wilson Grassmannian.  
+[[Mikio Sato]] introduced an infinite-dimensional Grassmannian in relation to the [[integrable system]]s. It gives a standard way to describe the $\tau$-[[tau-function|function]]. Constructed also by [[Graeme Segal]] and Wilson so it is often called Sato-Segal-Wilson Grassmannian.  
 
-* [[M. Sato]], _The KP hierarchy and infinite dimensional Grassmann manifolds_, Proc. Sympos. Pure Math. 49 Part 1. (pp. 51–66) Amer. Math. Soc., Providence, RI, 1989.
+* [[Mikio Sato|M. Sato]], _The KP hierarchy and infinite dimensional Grassmann manifolds_, Proc. Sympos. Pure Math. 49 Part 1. (pp. 51–66) Amer. Math. Soc., Providence, RI, 1989.
 * G. Segal, G. Wilson, _Loop groups and equations of KdV type_, Publ. Math. IHES __61__, 5–65 (1985)
 
 Textbooks include 
@@ -19,5 +19,9 @@ Other references
 
 > The affine Grassmannian of $SL_n$ admits an embedding into the Sato Grassmannian, which further admits a [[Plücker embedding]] into the projectivization of Fermion Fock space...
 
+* Maurice J. Dupré, James F. Glazebrook, Emma Previato, _A Banach algebra version of the Sato Grassmannian and commutative rings of differential operators_ Acta Appl Math (2006) 92: 241 [doi](https://doi.org/10.1007/s10440-006-9052-3); _On Banach bundles and operator-valued Baker functions_, [pdf](http://mittag-leffler.se/sites/default/files/IML-0607-12.pdf)
+
+* Ema Previato, Mauro Spera, _Isometric embeddings of infinite-dimensional Grassmannians_, Regul. Chaot. Dyn. (2011) 16: 356 [doi](https://doi.org/10.1134/S1560354711030099)
 [[!redirects Segal-Wilson Grassmannian]]
 [[!redirects Sato-Segal-Wilson Grassmannian]]
+[[!redirects Sato Grassmanian]]
