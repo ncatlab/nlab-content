@@ -13,6 +13,10 @@ On [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as 
 
 * [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
 
+Discussion of [[D=4 N=4 SYM]] with emphasis on [[multi-trace operators]]:
+
+* P. J. Heslop, [[Paul Howe]], _Aspects of $\mathcal{N}$=4 SYM_, JHEP 0401 (2004) 058 ([arXiv:hep-th/0307210](https://arxiv.org/abs/hep-th/0307210))
+
 On the [[M2-brane]] via the [[superembedding approach]]:
 
 * {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
