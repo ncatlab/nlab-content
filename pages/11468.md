@@ -93,8 +93,7 @@ from the [[String structure]] [[Thom spectrum]] to [[tmf]]. Notice that $M Strin
 
 The original articles include
 
-* [[Peter Freund]], Mark Olson, _Non-archimedean strings_, Physics Letters B
-199,2 (1987) (<a href="https://doi.org/10.1016/0370-2693(87)91356-6">arXiv:10.1016/0370-2693(87)91356-6</a>)
+* [[Peter Freund]], Mark Olson, _Non-archimedean strings_, Physics Letters B 199,2 (1987) (<a href="https://doi.org/10.1016/0370-2693(87)91356-6">arXiv:10.1016/0370-2693(87)91356-6</a>)
 
 * {#Volovich87} I. V. Volovich, _p-&#1040;&#1076;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1087;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1086;-&#1074;&#1088;&#1077;&#1084;&#1103; &#1080; &#1090;&#1077;&#1086;&#1088;&#1080;&#1103; &#1089;&#1090;&#1088;&#1091;&#1085;_, &#1058;&#1052;&#1060;, 71:3 (1987)[free Rus. pdf](http://www.mathnet.ru/links/704079ec1d28d91ba6eb6d492359b387/tmf4962.pdf); transl. _$p$-adic space-time and string theory_, Theor. Math. Phys. __71__, 574&#8211;576 (1987), [eng doi](http://dx.doi.org/10.1007/BF01017088), [nonfree Eng. pdf](http://www.springerlink.com/content/k514t553607324n0/fulltext.pdf)
 
