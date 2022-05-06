@@ -95,17 +95,17 @@ Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\ma
 \[
   \label{NaturalitySquareForAdjointnessOfFunctors}
   \array{
-    Hom_{\mathcal{D}}(L(c_1), d_1) 
+    Hom_{\mathcal{D}}(L(c_2), d_1) 
       &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
-    Hom_{\mathcal{C}}(c_1, R(d_1))
+    Hom_{\mathcal{C}}(c_2, R(d_1))
     \\
     {}^{\mathllap{Hom_{\mathcal{D}}(L(g), h)}}\big\downarrow
      &&
     \big\downarrow^{\mathrlap{Hom_{\mathcal{C}}(g, R(h))}}
     \\
-    Hom_{\mathcal{D}}(L(c_2),d_2)
+    Hom_{\mathcal{D}}(L(c_1),d_2)
     &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
-    Hom_{\mathcal{C}}(c_2,R(d_2))
+    Hom_{\mathcal{C}}(c_1,R(d_2))
   }
 \]
 
@@ -114,14 +114,12 @@ Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\ma
 Explicitly, this commutativity, in turn, means that for every morphism $f \;\colon\; L(c_1) \to d_1$ with [[adjunct]] $\widetilde f \;\colon\; c_1 \to R(d_1)$, the adjunct of the [[composition]] is
 
 $$
-  \widetilde{
   \array{
-    L(c_1) &\overset{f}{\longrightarrow}& d_1
+    L(c_1) & \overset{f}{\longrightarrow} & d_1
     \\
     {}^{\mathllap{L(g)}}\big\uparrow && \big\downarrow^{\mathrlap{h}}
     \\
     L(c_2) && d_2
-  }
   }
   \;\;\;=\;\;\;
   \array{
