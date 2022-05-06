@@ -27,11 +27,11 @@ The __triangle identities__ or __zigzag identities__ are identities characterize
 
 Consider:
 
-1. $C, D$ be two [[categories]], or, generally, two [[objects]] of a given [[2-category]];
+1. $\mathcal{C}, \mathcal{D}$ a [[pair]] of [[categories]], or, generally, of [[objects]] in a given [[2-category]];
 
-1. $L: C \to D$ and $R : D \to C$ two [[functors]] between these, or generally [[1-morphisms]] in the ambient [[2-category]];
+1. $L \colon \mathcal{C} \to \mathcal{D}$ and $R \colon \mathcal{D} \to \mathcal{C}$ a pair of [[functors]] between these, or generally [[1-morphisms]] in the ambient [[2-category]];
 
-1. $\eta: id_C \Rightarrow R \circ L$ and $\epsilon: L \circ R \Rightarrow id_D$ two [[natural transformations]] or, generally [[2-morphisms]].
+1. $\eta \colon id_{\mathcal{C}} \Rightarrow R \circ L$ and $\epsilon \colon L \circ R \Rightarrow id_{\mathcal{D}}$ two [[natural transformations]] or, generally [[2-morphisms]].
 
 This data is called an _[[adjoint pair|pair]] of [[adjoint functors]]_ (generally: an _[[adjunction]]_) if the _triangle identities_ are satisfied, which may be expressed in any of the following equivalent ways:
 
@@ -46,79 +46,131 @@ $\,$
 ### As equations
   {#AsEquations}
 
-$$ L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L $$
-and 
-$$ R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R $$
-are identities.
-(Here, the composition of the $1$- with the $2$-morphisms is sometimes called [[whiskering]].)
+As [[equations]], the triangle identities read
+
+$$
+  \big(
+    \epsilon L
+  \big)
+  \circ 
+  \big( 
+    L \eta 
+  \big)
+  \;=\;
+  id_L
+$$
+
+$$
+  \big(
+    R \epsilon
+  \big)
+  \circ
+  \big(
+    \eta R
+  \big)
+  \;=\;
+  id_R
+$$
+
+Here juxtaposition denotes the [[whiskering]] operation of [[1-morphisms]] on [[2-morphisms]], as made more manifest in the diagrammatic unravelling of these expressions:
 
 
 
 ### As diagrams
  {#AsDiagrams}
 
-As [[diagrams]] in the ambient [[2-category]], the triangle identities look as follows
+In terms of [[diagrams]] in the [[functor categories]] this means
 
 $$ 
-  \array{
-  \epsilon L . L\eta &=& id_L
-  \\
-  \array{\arrayopts{ \padding{0} }
-    &&1_C& 
-    \\
-    \cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    \\
-    &&\cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&&&1_D&
-  }
-  & = &  C \stackrel{L}{\to} D
-  }
-  \phantom{AAAAA} \text{and} \phantom{AAAAA}
-  \array{
-    R\epsilon . \eta R &=& id_R
-  \\
-  \array{\arrayopts{ \padding{0} }
-    \\
-    &&&&1_C& 
-    \\
-    &&\cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    \\
-    \cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&1_D&
-  }
-  &=& D \stackrel{R}{\to} C
-  }
+  L 
+   \overset{\;\;L\eta\;\;}{\Rightarrow} 
+  L R L
+   \overset{\;\;\epsilon L\;\;}{\Rightarrow}
+  L 
+  \;\;
+  =
+  \;\;
+  L \overset{\;\;id_L\;\;}{\Rightarrow} L
 $$
 
-or, equivalently, like so:
+and 
+
+$$ 
+  R
+    \overset{\;\;\eta R\;\;}{\Rightarrow} 
+  R L R 
+    \overset{\;\;R\epsilon\;\;}{\Rightarrow} 
+  R
+  \;\;
+  =
+  \;\;
+  R \overset{\;\;id_R\;\;}{\Rightarrow} R   
+$$
+
+
+In terms of diagrams of [[2-morphisms]] in the ambient [[2-category]], this looks as follows:
+
+\begin{xymatrix}
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  \ar@/^3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{C}}\; }_-{\ }="s1"
+  &
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  \ar@/_3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{D}}\; }^-{\ }="t2"
+  & 
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  &
+  \mathcal{D}
+  &
+    =
+  &
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  & 
+  \mathcal{D}
+  %
+  \ar@{=>}^\eta "s1"+(0,-2); "s1"+(0,-8)
+  \ar@{=>}^\epsilon "t2"+(0,8); "t2"+(0,2)
+\end{xymatrix}
+
+
+\begin{xymatrix}
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  \ar@/_3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{D}}\; }^-{\ }="s1"
+  &
+  \mathcal{C}
+  \ar[r]|-{ \;L\; }
+  \ar@/^3pc/[rr]|-{ \;\mathrm{id}_{\mathcal{C}}\; }_-{\ }="t2"
+  & 
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  &
+  \mathcal{C}
+  &
+    =
+  &
+  \mathcal{D}
+  \ar[r]|-{ \;R\; }
+  & 
+  \mathcal{C}
+  %
+  \ar@{=>}^\eta "t2"+(0,-2); "t2"+(0,-8)
+  \ar@{=>}^\epsilon "s1"+(0,8); "s1"+(0,2)
+\end{xymatrix}
+
+
+where on the right the [[identity morphism|identity]] [[2-morphisms]] are left notationally implicit.
+
+If we leave the [[identity morphism|identity]] [[1-morphisms]] on the left notationally implicit, then we get the following suggestive form of the triangle identities:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/Adjointness.jpg" width="540">
 </center>
+
+(taken from _[[geometry of physics -- categories and toposes]]_).
 
 
 ### As string diagrams
@@ -139,8 +191,6 @@ With labels left implicit, this notation becomes very economical:
 ## Related concepts
 
 * [[adjunction]]
-
-* **zig-zag law** / **triangle identity**
 
 * [[unit of an adjunction]]
 
