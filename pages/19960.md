@@ -139,8 +139,9 @@ Here are some further illustrations, taken from the literature:
 > graphics grabbed from [Rebhan 14](#Rebhan14)
 
 ##### Glueballs
+ {#WSSModelGlueballs}
 
-Already before adding the D8-branes (hence already in the Witten model) this produces a pure [[Yang-Mills theory]] whose [[glueball]]-spectra may usefully be compared to those of [[QCD]]:
+Already before adding the D8-branes (hence already in the pure Witten model) this produces a pure [[Yang-Mills theory]] whose [[glueball]]-spectra may usefully be compared to those of [[QCD]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/GlueballSpectrumSSWModel.jpg" width="700">
