@@ -20,7 +20,9 @@
 
 ## Idea
 
-The evolution of the early [[observable universe]] must have been crucially affected by the properties (e.g. [[equation of state]]) of the primordial [[quark-gluon plasma]], and then, as the [[temperature]] decreased, by its [[confinement]] [[phase transition]] during [[nucleosynthesis]] to a [[hadron]] [[gas]]. These effects are controlled by [[quantum chromodynamics]] ([[QCD]]) and specifically in its [[non-perturbative effect|non-perturbative]] [[confinement|confined]] [[state of matter|phase]]. The study of the properties of [[QCD]] relevant for [[cosmology]] this way is called _QCD cosmology_.
+The evolution of the early [[observable universe]] must have been crucially affected by the properties (e.g. [[equation of state]]) of the primordial [[quark-gluon plasma]], and then, as the [[temperature]] decreased, by its [[confinement]] [[phase transition]] during [[nucleosynthesis]] to a [[hadron]] [[gas]]. The study of the properties of [[QCD]] relevant for [[cosmology]] this way is called _QCD cosmology_.
+
+The crucial effects in QCD cosmology are thus controlled by [[quantum chromodynamics]] ([[QCD]]) and specifically in its [[non-perturbative effect|non-perturbative]] [[confinement|confined]] [[state of matter|phase]], hence are subject to the [confinement problem](confinement#OpenProblem).
 
 ## Related concepts
 
