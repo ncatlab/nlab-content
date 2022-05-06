@@ -66,5 +66,10 @@ That various definitions in the literature coincide with this one (in particular
 
 * Cheng-Yong Du, Lili Shen, Xiaojuan Zhao, _Spark complexes on good effective orbifold atlases categorically_, Theory and Applications of Categories, 33(26):784-812, 2018 ([tac:33-26](http://www.tac.mta.ca/tac/volumes/33/26/33-26abs.html), [arXiv:1708.07551](https://arxiv.org/abs/1708.07551))
 
+Relation to [[action functionals]] for [[topological field theories]]:
 
-[[!redirects ordinary equivariant differential cohomology]]
+* Joe Davighi, Ben Gripaios, Oscar Randal-Williams, _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
+
+
+
+[[!redirects ordinary equivariant differential cohomology]]* 
