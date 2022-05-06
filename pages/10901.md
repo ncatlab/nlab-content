@@ -128,7 +128,7 @@ Finally, in addition to these usual "denotational" categorical semantica, linear
 
 The original article on [[linear logic]] is
 
-* {#Girard87} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
+* {#Girard87} [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://girard.perso.math.cnrs.fr/linear.pdf))
 
 A review of linear logic is in
 
