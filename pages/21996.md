@@ -24,6 +24,7 @@ Even if he did no true mathematics, Pythagoras himself seems to have had a mysti
 
 * <https://plato.stanford.edu/entries/pythagoras/>
 
+* Wikipedia, _[Pythagoras](https://en.wikipedia.org/wiki/Pythagoras)_
 
 category: people
 
