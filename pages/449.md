@@ -26,7 +26,7 @@ These choices may be given in an elementary way as binary composition operations
 
 The composition operation in an algebraic model for an $(n,r)$-category are subject to [[associativity]]  [[coherence law]]s. On the geometric side these reflect the fact that the spaces of possible choices of composites are contractible.
 
-Typically an algebraic model for higher categories admits a [[nerve]] operation that turns it into an equivalent geometric model. Conversely, typically one can obtain an algebraic model form a geometric model by making _choices_ of composites.
+Typically an algebraic model for higher categories admits a [[nerve]] operation that turns it into an equivalent geometric model. Conversely, typically one can obtain an algebraic model from a geometric model by making _choices_ of composites.
 
 
 ## Examples 
