@@ -54,6 +54,20 @@ Calabi-Yau structure is equivalently [[integrability of G-structure|integrable]]
 Details are in [Prins 16, Prop. 1.3.2](#Prins16). 
 See also [Vezzoni 06, p. 24](#Vezzoni06).
 
+### In SU-bordism theory
+ {#InSUBordismTheory}
+
++-- {: .num_prop }  
+###### Proposition
+**([[Calabi-Yau manifold|Calabi-Yau n-folds]] for $2 \leq n \leq 4$ span [[SU-bordism ring]] in degrees $4 \leq d \leq 8$)**
+
+The [[SU-bordism ring]] up to degree 8 is spanned by classes of [[Calabi-Yau manifolds]].
+
+=--
+
+([CLP 19, Theorem 13.5](#CLP19), for more see _[[Calabi-Yau manifolds in SU-bordism theory]]_)
+
+
 ### Artin-Mazur formal group
 
 Over an [[algebraically closed field]] of [[positive number|positive]] [[characteristic]] an $n$-dimensional Calabi-Yau variety $X$ has an [[Artin-Mazur formal group]] $\Phi^n_X$ which gives the [[deformation theory]] of the trivial [[line n-bundle]] over $X$.
@@ -141,14 +155,16 @@ and in view of [[mirror symmetry]]:
 
 * Alan Stapledon, _New mirror pairs of Calabi-Yau orbifolds_,  Adv. Math. 230 (2012), no. 4-6, 1557-1596 ([arXiv:1011.5006](https://arxiv.org/abs/1011.5006))
 
-On Calabi-Yau manifolds seen in [[SU-bordism theory]]:
+On [[Calabi-Yau manifolds in SU-bordism theory]]:
 
 * [[Ivan Limonchenko]], [[Zhi Lu]], [[Taras Panov]], _Calabi-Yau hypersurfaces and SU-bordism_, Proceedings of the Steklov Institute of Mathematics 302 (2018), 270-278 ([arXiv:1712.07350](https://arxiv.org/abs/1712.07350))
 
-* Georgy Chernykh, [[Ivan Limonchenko]], [[Taras Panov]], _$SU$-bordism: structure results and geometric representatives_, Russian Math. Surveys 74 (2019), no. 3, 461-524 ([arXiv:1903.07178](https://arxiv.org/abs/1903.07178))
+* {#CLP19} Georgy Chernykh, [[Ivan Limonchenko]], [[Taras Panov]], _$SU$-bordism: structure results and geometric representatives_, Russian Math. Surveys 74 (2019), no. 3, 461-524 ([arXiv:1903.07178](https://arxiv.org/abs/1903.07178))
 
 * [[Taras Panov]], _A geometric view on $SU$-bordism_, talk at Moscow State University 2020 ([webpage](https://www.math.princeton.edu/events/geometric-view-su-bordism-2020-09-17t170000), [pdf](http://higeom.math.msu.su/people/taras/talks/2019SPb-Panov.pdf), [[PanovSU-Bordism.pdf:file]])
 
+[[!redirects CY]]
+[[!redirects CYs]]
 
 [[!redirects Calabi-Yau]]
 [[!redirects Calabi–Yau]]
@@ -185,3 +201,4 @@ On Calabi-Yau manifolds seen in [[SU-bordism theory]]:
 [[!redirects Calabi–Yau varieties]]
 [[!redirects Calabi--Yau variety]]
 [[!redirects Calabi--Yau varieties]]
+
