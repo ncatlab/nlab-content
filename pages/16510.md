@@ -29,7 +29,9 @@ $$
 given by forming the [[Cartesian product]] with $W$
 
 
-If here $W$ is equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]]. In the context of [[monad (in computer science)|monads in computer science]] this is called the _writer monad_. This is the case of interest in [[functional programming]] languages such as [[Haskell]], where a [[program]] for the form $X \longrightarrow W \times Y$ behaves like a program taking input of type $X$ to output of type $Y$ while in addition producing output of type $W$, which is aggregated using the the monoid when the functions are composed, creating a sort of side channel. 
+If here $W$ is equipped with the structure of a [[monoid]], then $W \times (-)$ also canonically inherits the structure of a [[monad]]. 
+
+In the context of [[monad (in computer science)|monads in computer science]] this is called the _writer monad_. This is the case of interest in [[functional programming]] languages such as [[Haskell]], where a [[program]] for the form $X \longrightarrow W \times Y$ behaves like a program taking input of type $X$ to output of type $Y$ while in addition producing output of type $W$, which is aggregated using the the monoid when the functions are composed, creating a sort of side channel. 
 
 ## Properties
 
@@ -75,6 +77,8 @@ $$
 
 ## Related concepts
 
+* [[writer monad]]
+
 * [[maybe monad]]
 
 * [[continuation monad]]
@@ -83,12 +87,12 @@ $$
 
 ## References
 
+* {#Wadler92} [[Philip Wadler]], _[The essence of functional programming](https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/the-essence-of-functional-programming.pdf)_, 1992.
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
 
 [[!redirects writer comonads]]
-
 [[!redirects writer monad]]
 [[!redirects writer monads]]
 
