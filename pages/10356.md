@@ -292,6 +292,14 @@ Relation to [[permutation branes]]:
 
 * {#EGJ05} Bobby Ezhuthachan, Suresh Govindarajan, T. Jayaraman, _A quantum McKay correspondence for fractional 2p-branes on LG orbifolds_, JHEP 0508 (2005) 050 ([arXiv:hep-th/0504164](https://arxiv.org/abs/hep-th/0504164))
 
+On [[polarized D-brane|polarization]] of fractional D-branes:
+
+* Timothy J. Hollowood, S. Prem Kumar, _World-sheet Instantons via the Myers Effect and $\mathcal{N} = 1^\ast$ Quiver Superpotentials_, JHEP 0210:077, 2002 ([arXiv:hep-th/0206051](https://arxiv.org/abs/hep-th/0206051))
+
+
+
+
+
 
 [[!redirects fractional D-branes]]
 
