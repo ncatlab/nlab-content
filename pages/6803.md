@@ -62,6 +62,8 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 * [[D2-D4 brane bound state]]
 
+* [[D4-D6 brane bound state]]
+
 * [[D4-D8 brane bound state]]
 
 
