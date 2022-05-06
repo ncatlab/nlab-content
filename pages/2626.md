@@ -75,6 +75,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 ## Related concepts
 
+* [[space of knots]]
+
 * [[knot diagram]]
 
 * [[isotopy]], [[smooth isotopy]]
