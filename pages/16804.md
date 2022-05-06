@@ -289,38 +289,7 @@ On [[Vassiliev invariants]] of [[braid group|braids]] via [[chord diagrams]]:
 * [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
 
-### As observables on fuzzy spheres and D$p$-D$(p+2)$brane intersections
-
-
-Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
-[[Yang-Mills monopoles]]) to [[Vassiliev braid invariants]] via [[chord diagrams]] computing [[radii]] of [[fuzzy spheres]]:
-
-* [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
-
-* [[Simon McNamara]], [[Constantinos Papageorgakis]], [[Sanyaje Ramgoolam]], [[Bill Spence]], Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
-
-* [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
-
-* [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
-
-### As correlators in the SYK model
- {#ReferencesSYKModelCorrelators}
-
-Discussion of [[chord diagrams]] encoding [[SYK model]] [[correlators]] as representing [[hyperbolic space|hyperbolic]]/[[AdS-CFT|holographic content]]:
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ChordDiagramHolographic.jpg" width="300">
-</div>
-
-* {#BINT18} [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
-
-
-* {#Narovlansky19} Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, Nazareth 2019 ([pdf](http://phsites.technion.ac.il/talks/fifth-israeli-indian-conference-on-string-theory2019/Narvolansky.pdf), [[NarovlanskySYK19.pdf:file]])
-
-following
-
-* [[Micha Berkooz]], Prithvi Narayan, [[Joan Simón]], _Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction_, JHEP 08 (2018) 192 ([arxiv:1806.04380](https://arxiv.org/abs/1806.04380))
-
+[[!include weight systems on chord diagrams in physics]]
 
 
 [[!redirects chord diagrams]]
