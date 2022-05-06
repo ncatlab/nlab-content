@@ -35,7 +35,7 @@ $$
 hence the [[quotient]] of the $n$th layer of $X$ by the next lower one:
 
 $$
-  Gr(X)_n := X_{(n)}/X_{(n-1)}
+  Gr_n(X) := X_{(n)}/X_{(n-1)}
   \,,
 $$
 
