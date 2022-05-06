@@ -109,10 +109,25 @@ See also
 
 ### In string theory
 
-The moduli space of monopoles appears in the [[KK-compactification]] of the [[M5-brane]] on a complex surface ([[AGT-correspondence]]):
+In [[string theory]] [[Yang-Mills monopoles]] are [[geometric engineering of QFT|geometrically engineeted]] as transversally [[intersecting brane|intersecting]] [[Dp-D(p+2)-brane bound states]]:
+
+For transversal [[D1-D3-brane bound states]]:
+
+* {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
+
+With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
+
+* {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
+The moduli space of monopoles appears also in the [[KK-compactification]] of the [[M5-brane]] on a complex surface ([[AGT-correspondence]]):
 
 * Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
 [[!redirects moduli spaces of monopoles]]
 
 [[!redirects Atiyah-Hitchin charge quantization]]
+
+[[!redirects Yang-Mills monopole]]
+[[!redirects Yang-Mills monopoles]]
+
+
