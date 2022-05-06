@@ -30,8 +30,10 @@ On [[inhomogeneous cosmology]]:
 
   exposition in _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+, 2016
 
+* Léo Brunswic, [[Thomas Buchert]], _Gauss-Bonnet-Chern approach to the averaged Universe_, Class. Quantum Grav. 37 (2020) 215022 ([arXiv:2002.08336](https://arxiv.org/abs/2002.08336))
 
-* {#HeinesenBuchert20} Asta Heinesen, [[Thomas Buchert]], _Solving the curvature and Hubble parameter inconsistencies through structure formation-induced curvature_ ([arXiv:2002.10831](https://arxiv.org/abs/2002.10831))
+
+* {#HeinesenBuchert20} Asta Heinesen, [[Thomas Buchert]], _Solving the curvature and Hubble parameter inconsistencies through structure formation-induced curvature_, Class. Quantum Grav. 37 (2020) 164001 ([arXiv:2002.10831](https://arxiv.org/abs/2002.10831))
 
   p. 14:
 
