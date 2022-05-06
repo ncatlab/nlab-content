@@ -1,14 +1,16 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Quantum Field Theory
+### Context
+#### Fields and quanta
 +--{: .hide}
-[[!include AQFT and operator algebra contents]]
+[[!include fields and quanta - table]]
 =--
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 =--
 =--
