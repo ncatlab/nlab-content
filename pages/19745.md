@@ -17,7 +17,7 @@
 
 ## Idea
 
-**$\beta$-rings** are a kind of [[commutative ring]]. They may be seen as collections of integral linear combinations of generalized symmetric powers defined on [[Burnside rings]].
+**$\beta$-rings** are a kind of [[commutative ring]]. They may be seen as collections of integral linear combinations of generalized symmetric powers defined on [[Burnside rings]]. The [[cohomotopy]] of a space, $\pi^0(X)$, is a $\beta$-ring ([Guillot 06, Thrm 4.5](#Guillot06)).
 
 They are completely unrelated to [[relational beta-modules]].
 
@@ -26,6 +26,12 @@ They are completely unrelated to [[relational beta-modules]].
 * [[lambda-ring]]
 
 ## References
+
+Note that there are variations in the literature as to the definition of $\beta$-rings. For a close comparison with [[λ-rings]], see
+
+* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
+
+Other references
 
 * Ernesto Vallejo, _The free $\beta$-ring on one generator_, Journal of Pure and Applied Algebra 86(1), 1993, pp. 95-108, ([doi](https://doi.org/10.1016/0022-4049%2893%2990156-N))
 
@@ -37,5 +43,5 @@ They are completely unrelated to [[relational beta-modules]].
 
 * I. Morris and C.D. Wensley, _Adams operations and λ-operations in β-rings_, Discrete Mathematics Volume 50, 1984, Pages 253-270, ([doi](https://doi.org/10.1016/0012-365X%2884%2990053-0))
 
-* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
+
  
