@@ -366,7 +366,7 @@ Review includes
 
 The [[M-theory]]-lift of the black NS5-brane embedded into a [[D6-brane]] should be the configuration from section 8.3 of 
 
-* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MFF12} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 
 ### As a Green-Schwarz sigma-model
