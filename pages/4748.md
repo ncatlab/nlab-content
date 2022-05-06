@@ -663,17 +663,16 @@ The description of parallel $n$-transport in terms of $n$-functors on the [[path
 
 * [[Urs Schreiber]],  [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
 
-* [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
-{#MartinsPickenI}
+* {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
 
-* [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
-{#MartinsPickenII}
+* {#MartinsPickenII} [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
+
 
 The description of [[connections on a 2-bundle]] in terms of such parallel 2-transport 
 
-* [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXi:hep-th/0412325hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
+* [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXiv:hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
 
-* {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]] _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ., Vol. 28, 2013, No. 17, pp 476-540 ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)) 
+* {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ., Vol. 28, 2013, No. 17, pp 476-540 ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)) 
 
 Much further discussion and illustration and relation to [[tensor networks]] is in
 
