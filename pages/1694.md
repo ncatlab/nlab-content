@@ -34,7 +34,7 @@ Redirects only work if the desired redirected page `<nowiki>[[categories]]</nowi
 
 Don't worry, this is a feature, not a bug, designed to avoid silly things like infinite redirect loops, etc. 
 
-In the event that <nowiki>`[[categories]]`</nowiki> does exist already, then it probably should not if `<nowiki>[[category]]</nowiki>` aready exists. 
+In the event that <nowiki>`[[categories]]`</nowiki> does exist already, then it probably should not if `<nowiki>[[category]]</nowiki>` already exists. 
 
 If you run into this situation, you can help by transferring material from `<nowiki>[[existing pages]]</nowiki>` to `<nowiki>[[existing page]]</nowiki>` and change the name of `<nowiki>[[existing pages]]</nowiki>` to `<nowiki>[[existing pages > history]]</nowiki>`. Now the redirects will work *and* we maintain the history of any revisions that were made to `<nowiki>[[existing pages]]</nowiki>`.
 
