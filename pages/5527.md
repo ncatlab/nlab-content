@@ -160,9 +160,11 @@ $$
 $$
 
 $$
-  B^\infty_{p,q} = \partial( F_p C_{p+q+1} )
+  B^\infty_{p,q} = \cdots
   \,.
 $$
+
+> fix
 
 From this definition we immediately have that the differentials $\partial \colon C_{p+q} \to C_{p+q-1}$ restrict to the $r$-almost cycles as follows:
 
