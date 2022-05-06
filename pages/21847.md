@@ -13,7 +13,7 @@
 
 ## Related concepts
 
-[[!include cobordism cohomology theories -- contents]]
+[[!include flavours of cobordism cohomology theories -- table]]
 
 ## References
 
