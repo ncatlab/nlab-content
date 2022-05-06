@@ -14,10 +14,14 @@
 =--
 =--
 
-**Pregroup grammar** is a mathematical model of natural language grammar introduced by [[Lambek]], it is part of the [[categorial grammar]] tradition.
+# Contents
 
 * table of contents
 {: toc}
+
+## Overview
+
+**Pregroup grammar** is a mathematical model of natural language grammar introduced by [[Lambek]], it is part of the [[categorial grammar]] tradition.
 
 ## Pregroups
 
@@ -113,10 +117,6 @@ Contractions are depicted as cups, e.g. from $(Alice, n), (loves, n^r s n^l), (B
 \end{tikzpicture}
 \end{centre}
 
-**Theorem ([Buszkowski, Moroz 2008](#BuszkowskiMoroz08)):** For each pregroup grammar $G$, there is a [[context-free grammar]] $G'$ such that $L(G) = L(G')$. Furthermore, $G'$ may be computed in time polynomial in the size of $G$.
-
-The opposite direction also holds, hence pregroup grammar and [[context-free grammar]] are said to be **weakly equivalent**: the translation preserves only the generated languages, it does not preserve the structure of syntax trees. 
-
 ## Pregroup semantics as strong monoidal functors
 
 One may give a [[semantics]] to a pregroup grammar $G = (B, \Sigma, \Delta, s)$ by defining a strong [[monoidal functor]] $F : C_G \to S$, where $C_G$ is the free [[rigid monoidal category]] described in [section 2](#PregroupGrammar). $S$ is a suitable [[rigid monoidal category]], e.g. $\text{FdVect}$ or $\text{Rel}$, depending on the application.
@@ -125,6 +125,15 @@ Note the similarity with a [[Lawvere theory]] as a monoidal functor from a synta
 We require the image for all words $w \in \Sigma$ to be the monoidal unit $F(w) = I$, hence the image for each dictionary entry $(w, t) \in \Delta$ is given by a state $F(w, t) : I \to F(t)$.
 The meaning $F(r) : I \to F(s)$ for a sentence $w_1 \dots w_n \in \Sigma^n$ with grammatical reduction $r : w_1 \dots w_n \to s$ may then be computed from the individual meanings $F(w_i, t_i) : I \to F(t_i)$ of the words, following [[Gottlob Frege|Frege's]] principle of [[compositionality]].
 This has been developed in [Preller 2005](#Preller05) as well as in a series of papers by [[Bob Coecke]] and others, see [[categorical compositional distributional semantics]].
+
+## Expressive power & extensions
+
+**Theorem ([Buszkowski, Moroz 2008](#BuszkowskiMoroz08)):** For each pregroup grammar $G$, there is a [[context-free grammar]] $G'$ such that $L(G) = L(G')$. Furthermore, $G'$ may be computed in time polynomial in the size of $G$.
+
+The opposite direction also holds, hence pregroup grammar and [[context-free grammar]] are said to be **weakly equivalent**: the translation preserves only the generated languages, it does not preserve the structure of syntax trees.
+
+Pregroup grammars have been extended to allow for [[mildly context-sensitive grammar|mild context-sensitivity]]. In [Lambek (2008)](#Lambek08), [[Lambek]] proposes to model the context-sensitive rules of Swiss German by replacing the free pregroup by the [[cartesian product]] of two free pregroups.
+[Genkin et al. (2010)](#GenkinEtAl) generate mildly context-sensitive languages by augmenting pregroup grammars with buffers.
 
 ## References
 
@@ -139,3 +148,5 @@ This has been developed in [Preller 2005](#Preller05) as well as in a series of 
 * {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
 
 * {#Coecke13} Bob Coecke, _An alternative Gospel of structure: order, composition, processes_, Introductory chapter to C. Heunen, M. Sadrzadeh, and E. Grefenstette. Quantum Physics and Linguistics: A Compositional, Diagrammatic Discourse. Oxford University Press, 2013 ([arxiv:1307.4038](https://arxiv.org/abs/1307.4038))
+
+* {#GenkinEtAl10} Daniel Genkin, Nissim Francez, and Michael Kaminski. _Mildly Context-Sensitive Languages via Buffer Augmented Pregroup Grammars_, In Essays in Memory of Amir Pnueli, 2010.
