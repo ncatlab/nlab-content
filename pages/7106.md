@@ -25,6 +25,8 @@ For more see _[[chiral perturbation theory]]_.
 
 * [[hadron supersymmetry]]
 
+* [[leptonic decay]]
+
 
 ## References
 
