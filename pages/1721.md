@@ -79,7 +79,7 @@ For these reasons, in the following we stick to two points of views: where we di
 
 Throughout, write [[Top]]${}_{CW}$ for the category of [[topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]]. Write $Top^{\ast/}_{CW}$ for the corresponding category of [[pointed topological spaces]]. 
 
-Recall that [[colimits]] in $Top^{\ast/}$ are computed as colimits in $Top$ after adjoining the base point and its inclusion maps to the given diagram
+Recall ([here](final+functor#FiberProductsInASliceCategory)) that [[colimits]] in $Top^{\ast/}$ are computed as colimits in [[Top]] ([here](Top#UniversalConstructions)) after adjoining the base point and its inclusion maps to the given diagram.
 
 +-- {: .num_example #WedgeSumAsCoproduct}
 ###### Example
@@ -104,7 +104,7 @@ Write $Ab^{\mathbb{Z}}$ for the category of integer-[[graded abelian groups]].
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A **reduced [[cohomology theory]]** is a [[functor]]
+A **reduced [[cohomology theory]]** is a [[functor]] ("[[pullback in cohomology]]")
 
 $$
   \tilde E^\bullet 
