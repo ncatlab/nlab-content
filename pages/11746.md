@@ -3,11 +3,7 @@
 
 [[!include F-theory compactifications -- table]]
 
-* [[M-theory on G2-manifolds]]
-
-* [[M-theory on Calabi-Yau manifolds]]
-
-  * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+[[!include KK-compactifications of M-theory -- table]]
 
 
 ## References
