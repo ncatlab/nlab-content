@@ -225,6 +225,7 @@ See also
 
 * {#GabbayNanevski} Murdoch Gabbay, [[Aleksandar Nanevski]], _Denotation of contextual modal type theory (CMTT): syntax and metaprogramming_ ([pdf](http://www.gabbay.org.uk/papers/dencmt.pdf))
  
+* G. A. Kavvos, _Modalities, Cohesion, and Information Flow_, ([arXiv:1809.07897](https://arxiv.org/abs/1809.07897))
 
 A modality in the [[internal language]] of a [[local topos]] is discussed in section 4.2 of 
 
