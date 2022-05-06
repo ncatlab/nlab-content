@@ -16,9 +16,11 @@
 
 ## Idea
 
-A [[field extension]] by a [[root of unity]].
+A [[field extension]] $\mathbb{F}(\zeta_n)$ by a [[root of unity]] $\zeta_n$.
 
 ## Related concepts
+
+* [[cyclotomic integer]]
 
 * [[field extension]], [[Galois group]]
 
