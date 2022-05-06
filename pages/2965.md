@@ -63,6 +63,8 @@ These results can all be generalized to [[enriched categories]], and also relati
   
 The results of Chorny--Dwyer are cited by Rosicky in _Accessible categories and homotopy theory_, [pdf](http://www.math.yorku.ca/~tholen/HB07Rosicky.pdf)
 
+* [[Boris Chorny]], David White, _Homotopy theory of homotopy presheaves_. [arXiv:1805.05378](https://arxiv.org/abs/1805.05378).
+
 [[!redirects small presheaves]]
 [[!redirects small functor]]
 [[!redirects small functors]]
