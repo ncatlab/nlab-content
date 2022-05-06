@@ -2,16 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Trigonometry
++-- {: .hide}
+[[!include trigonometry -- contents]]
+=--
 #### Equality and Equivalence
 +-- {: .hide}
 [[!include equality and equivalence - contents]]
 =--
-#### Geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
 =--
 =--
-=--
+
+
 
 #Contents#
 * table of contents
