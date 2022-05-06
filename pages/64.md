@@ -17,7 +17,7 @@ In the context of [[category theory]], it is a general phenomenon that
   
  * Nice categories tend to contain non-nice objects.
 
-Here we take a category to be the "nicer" the more [[limits]], [[colimits]] etc. it admits.
+Here we take a category to be the "nicer" the more [[limits]], [[colimits]] etc. it admits, and additionally the more good properties like [[exactness properties]], being a [[topos]], etc. it has.
 
 On the other hand, a "nice object" is, loosely speaking, an object in some context which has more special [[properties]] than the generic object in that context will have. For instance [[manifolds]] are nice objects in the context of [[generalized smooth space|generalized smooth spaces]]. [[field|Fields]] are nice objects in the context of [[commutative rings]]. 
 
