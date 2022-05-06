@@ -1,4 +1,13 @@
 
 * [webpage](http://www.math.uiuc.edu/~katz/)
 
+## Selected writings
+
+On [[geometric engineering of quantum field theory]]:
+
+
+* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]], _Geometric Engineering of Quantum Field Theories_, Nucl.Phys. B497 (1997) 173-195 ([arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239))
+
+* {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl.Phys. B497 (1997) 196-204 ([arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090))
+
 category: people
