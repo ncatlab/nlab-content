@@ -33,9 +33,9 @@ See [[familial regularity and exactness]] for a general description of the spect
 
 * [[Set]] is a coherent category.
 
-* More generally, any [[topos]] is coherent.
+* More generally, any [[topos]] is coherent and any [[pretopos]] is coherent.
 
-* Even more generally, any [[locally cartesian closed category]] with finite [[colimits]] is coherent, and thus any [[quasitopos]] is coherent.
+* Even more generally, any [[locally cartesian closed category]] with finite [[colimits]] is coherent, and thus any [[quasitopos]] is coherent. 
 
 * If $C$ is coherent, so is the [[functor category]] $C^D$ for any $D$.
 
