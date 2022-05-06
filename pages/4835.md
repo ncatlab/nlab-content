@@ -87,5 +87,5 @@ There was also a talk
 * {#Kontsevich10} [[Maxim Kontsevich]], talk at _[Renormalization: algebraic, geometric and probabilistic aspects](http://math.univ-lyon1.fr/~calaque/Colloque-schedule.htm)_,  Institut Camille Jordan (Lyon) June 16 - 18, 2010
 
 [[!redirects OPE]]
-[}!redirects OPEs]]
+[[!redirects OPEs]]
 [[!redirects operator product expansions]]
