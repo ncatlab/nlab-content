@@ -231,7 +231,7 @@ For examples and discussion of this see
 
 The classical theory via [[principal bundles]] and [[Lie groups]]/[[algebraic groups]]:
 
-* Nicolas Addington, _Fiber bundles and nonabelian cohomology_ ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
+* Nicolas Addington, _Fiber bundles and nonabelian cohomology_, 2007 ([pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf))
 
 *  Jinpeng An. Zhengdong Wang, _Nonabelian cohomology with coefficients in Lie groups_,Trans. Amer. Math. Soc. 360 (2008), 3019-3040 ([doi:10.1090/S0002-9947-08-04278-5](https://doi.org/10.1090/S0002-9947-08-04278-5))
 
@@ -288,14 +288,17 @@ Discussion in terms of [[gerbes]]:
 
 Existence of [[classifying spaces]] for [[principal 2-bundles]]/[[nonabelian gerbes]]:
 
-* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) )Algebraic Topology_. Abel Symposia, vol 4. Springer, Berlin, Heidelberg. ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
+* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) Algebraic Topology_. Abel Symposia, vol 4. Springer, Berlin, Heidelberg. ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
 
 
 ### General theory -- $\infty$-bundles/$\infty$-gerbes
 
 Discussion of the general theory via [[principal ∞-bundles]] and/or [[∞-gerbes]] and/or [[∞-stacks]]:
 
+
 * {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf), [[ToenStacksAndNonabelianCohomology.pdf:file]])
+
+* [[J. F. Jardine]], _Cocycle categories_, In: Baas N., Friedlander E., Jahren B., Østvær P. (eds) _Algebraic Topology_, Abel Symposia, vol 4. Springer 2009 ([arXiv:math/0605198](https://arxiv.org/abs/math/0605198), [doi:10.1007/978-3-642-01200-6_8]( https://doi.org/10.1007/978-3-642-01200-6_8))
 
 * {#Wendt} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
 
