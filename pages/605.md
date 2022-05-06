@@ -129,4 +129,6 @@ A relation to [[fixed point spaces]]:
 [[!redirects cobordism class]]
 [[!redirects cobordism classes]]
 
+[[!redirects bordism theory]]
+
 
