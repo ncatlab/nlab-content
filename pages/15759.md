@@ -26,4 +26,6 @@ The **colored Jones polynomial** of a [[knot]] or [[link]] is a generalization o
 
 ## References
 
-https://arxiv.org/abs/math/0411505
+* Stavros Garoufalidis, Martin Loebl, _A non-commutative formula for the colored Jones function_ ([arXiv:math/0411505](https://arxiv.org/abs/math/0411505))
+
+[[!redirects colored Jones polynomials]]
