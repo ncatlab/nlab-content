@@ -42,6 +42,6 @@ But the construction principle is clearly more general.
 
 ## References
 
-* {#VRO07} [[Vladimir Voevodsky]], [[Oliver Röndigs]], [[Paul Arne Østvær]], _Voevodsky’s Nordfjordeid Lectures: Motivic Homotopy Theory_, In: Dundas _Motivic Homotopy Theory_ Universitext. Springer 2007 ([doi:10.1007/978-3-540-45897-5_7](https://doi.org/10.1007/978-3-540-45897-5_7), [pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/Nordfjordeid_lectures_published.pdf))
+* {#VRO07} [[Vladimir Voevodsky]], [[Oliver Röndigs]], [[Paul Arne Østvær]], _Voevodsky’s Nordfjordeid Lectures: Motivic Homotopy Theory_, In:  [[Bjørn Ian Dundas]], [[Marc Levine]], [[Paul Arne Østvær]], [[Oliver Röndigs]], [[Vladimir Voevodsky]] (eds.), _Motivic Homotopy Theory_,  Springer 2007 ([doi:10.1007/978-3-540-45897-5_7](https://doi.org/10.1007/978-3-540-45897-5_7), [pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/Nordfjordeid_lectures_published.pdf))
 
 [[!redirects Tate sphere]]
