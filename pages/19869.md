@@ -9,13 +9,22 @@ This page is part of the [[Initiality Project]].
 
 All our terms are fully annotated.  For instance, we write $App^{(x:A)B}(M,N)$ rather than just $App(M,N)$.  It is, at best, unclear whether any less than fully annotated syntax can be used in an initiality theorem without "preprocessing" that is tantamount to annotating it.
 
-In particular, this means that given $\Gamma$ and $T$, if $\Gamma \vdash T:A$ can be derived for any value of $A$, then there is a canonical such $A$ that can be deduced syntactically, or *synthesized*, from $\Gamma$ and $T$.  For instance, if $App^{(x:A)B}(M,N)$ has any type, then it must have the type $B[N/x]$.  On the other hand, the conversion rule implies that $App^{(x:A)B}(M,N)$ must also have any type that is judgmentally *equal* to $B[N/x]$.
+In particular, this means that given $\Gamma$ and $T$, if $\Gamma \vdash T:A$ can be derived for any value of $A$, then there is a canonical such $A$ that can be deduced syntactically, or *synthesized*, from $\Gamma$ and $T$. For instance, if $App^{(x:A)B}(M,N)$ has any type, then it must have the type $B[N/x]$. On the other hand, the conversion rule implies that $App^{(x:A)B}(M,N)$ must also have any type that is judgmentally *equal* to $B[N/x]$. But in what sense does it have those types, if it doesn't synthesize them?
 
-Type theorists have a standard technique for distinguishing these two situations, (FIXME: *What* two situations?) known as [[bidirectional typechecking]].  Instead of one judgment $\Gamma\vdash t:A$, we have two typing judgments:
+Since all our terms are fully annotated, all of our formation, introduction, and elimination rules can synthesize their types.  However, the type annotations also tell us what types the subterms need to have, in order for the term to have its canonical type.  These types may not be *syntactically* equal to the types synthesized by the subterms, so we need to *check* subterms against the types we want. The check should succeed if and only if the subterm's synthesized type is *judgmentally* equal to the one we want. So in the $App^{(x:A)B}(M,N)$ example, it *synthesizes* only $B[N/x]$, up to syntactic equality, but it *checks against* any type judgmentally equal to $B[N/x]$
+
+Type theorists have a standard technique for distinguishing these two situations, known as [[bidirectional typechecking]].  Instead of one judgment $\Gamma\vdash t:A$, we have two typing judgments:
 
 * $\Gamma \vdash T \Rightarrow A$: in context $\Gamma$ the term $T$ *synthesizes* the type $A$.  Here $A$ is, if it exists, uniquely determined by $\Gamma$ and $T$: it is an "output" to their "inputs".
 * $\Gamma \vdash T \Leftarrow A$: in context $\Gamma$ the term $T$ *checks against* the type $A$.  Here $\Gamma$, $T$, and $A$ are all "inputs" and the only "output" is the truth value of whether the typecheck is valid.
 
+Whereas unidirectional typing rules have the conversion rule, allowing the type to be changed at any point to a judgmentally equal one, with bidirectional typing rules, conversion is only used when switching from a synthesizing premise to a checking conclusion, using the "mode-switching" rule. (See below)
+
+Unlike typical versions of bidirectional typing, in our approach the checking judgment is defined *solely* by the mode-switching rule, and all other typing rules conclude a synthesizing judgment. This variant doesn't help with typechecking algorithms, but it still factors out type conversion cleanly.
+
+So in summary, terms formers are fully annotated, their typing rules *synthesize* a type in the conclusion, and have premises that *check* their subterms against appropriate types, so the mode-switching rule gets applied a lot, because it's the only way, in our system, to derive a checking judgment.
+
+_(Does it still make sense for this to be here?)_
 There are various advantages of bidirectional typechecking, including:
 
 1. In at least some cases, it permits a formulation of type theory in which only normal forms exist.
@@ -25,8 +34,6 @@ There are various advantages of bidirectional typechecking, including:
 1. In at least some cases, it isolates the use of judgmental equality during typechecking in one particular "mode-switching" rule (see below).
 
 (Experts, feel free to add more.)  It is unclear at present whether any of these advantages are relevant to categorical semantics, but by using a bidirectional framework we are better placed to take advantage of them if they do become relevant.  More importantly, the natural structure of the semantic interpretation, as suggested by [[Peter Lumsdaine]], matches the syntactic bidirectional picture quite closely, and it may be clarifying to make that analogy more precise.
-
-Since all our terms are fully annotated, all of our formation, introduction, and elimination rules can synthesize their types.  However, their *premises* usually involve *checking* their subterms against appropriate types, so the mode-switching rule gets applied a lot (it is the only way, in our system, to derive a checking judgment).  This might be an issue to want to optimize away in an implementation, but for our semantic purposes it seems irrelevant.
 
 ## Contexts
 
