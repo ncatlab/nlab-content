@@ -236,9 +236,9 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 ## Properties
 
-### Iterated loop spaces of iterated suspensions
- {#LoopSpacesOfSuspensions}
 
+### Relation to iterated loop spaces of iterated suspensions
+ {#LoopSpacesOfSuspensions}
 
 
 +-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
@@ -339,9 +339,7 @@ $$
 $$
 
 
-
-
-### Classifying space of the symmetric group
+#### Relation to classifying space of the symmetric group
 
 Let $X= \mathbb{R}^\infty$. Then 
 
@@ -356,13 +354,151 @@ Let $X= \mathbb{R}^\infty$. Then
 $\,$
 
 
-### James construction
+#### Relation to James construction
 
-The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]] to the [[configuration space (mathematics)|configuration space]] $C(\mathbb{R}^1, X)$ of points in the [[real line]] with "[[charges]]" taking values in $X$.
+The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]] to the [[configuration space of points]] $C(\mathbb{R}^1, X)$ of points in the [[real line]] with labels taking values in $X$.
 
 (e.g. [Bödigheimer 87, Example 9](#Boedigheimer87))
 
 $\,$
+
+
+### Relation to twisted Cohomotopy
+ {#RelationToTwistedCohomotopy}
+
+The [[scanning map]]-equivalences on [[configuration spaces of points]] may be regarded as generalizations of the [Pontryagin-Thom theorem](cohomotopy#RelationToCobordismGroup) from [[sets]] of [[Cohomotopy]] [[cohomology class|classes]] to [[homotopy types]] of [[twisted Cohomotopy]] [[cocycles]]:
+
++-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
+###### Proposition
+
+Let 
+
+1. $X^n$ be a [[closed manifold]] of [[dimension]] $n$;
+
+1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
+
+Then the [[scanning map]] constitutes a [[weak homotopy equivalence]]
+
+$$
+  \underset{
+    \color{blue}
+    { \phantom{a} \atop \text{ J-twisted Cohomotopy space}}
+  }{
+    Maps_{{}_{/B O(n)}}
+    \Big(
+      X^n 
+      \;,\; 
+      S^{
+        \mathbf{n}_{def} + \mathbf{k}_{\mathrm{triv}}    
+      }
+      \!\sslash\!
+      O(n)
+    \Big)
+  }
+  \underoverset
+  {\simeq}
+  {
+    \color{blue}
+    \text{scanning map}
+  }
+  {\longleftarrow}
+  \underset{
+    \mathclap{
+    \color{blue}
+      {
+        \phantom{a}
+        \atop
+        {
+          \text{configuration space}
+          \atop 
+          \text{of points}
+        }
+      }
+    }
+  }{
+    Conf
+    \big(
+      X^n,
+      S^k
+    \big)
+  }
+$$
+
+between 
+
+1. the [[J-homomorphism|J]]-[[twisted Cohomotopy|twisted (n+k)-Cohomotopy]] space of $X^n$, hence the [[space of sections]] of the $(n + k)$-[[spherical fibration]] over $X$ which is [[associated fiber bundle|associated]] via the [[tangent bundle]] by the [[O(n)]]-[[action]] on $S^{n+k} = S(\mathbb{R}^{n} \times \mathbb{R}^{k+1})$
+
+1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
+
+=--
+
+([Bödigheimer 87, Prop. 2](#Boedigheimer87), following [McDuff 75](#McDuff75))
+
++-- {: .num_prop #ScanningMapEquivalenceOverClosedFramedManifold}
+###### Remark
+
+In the special case that the [[closed manifold]] $X^n$ in Prop. \ref{ScanningMapEquivalenceOverClosedManifold} is [[parallelizable manifold|parallelizable]], hence that its [[tangent bundle]] is [[trivial bundle|trivializable]], the statement of Prop. \ref{ScanningMapEquivalenceOverClosedManifold} reduces to this:
+
+Let
+
+1. $X^n$ be a [[parallelizable manifold|parallelizable]] [[closed manifold]] of [[dimension]] $n$;
+
+1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
+
+Then the [[scanning map]] constitutes a [[weak homotopy equivalence]]
+
+$$
+  \underset{
+    \color{blue}
+    { \phantom{a} \atop \text{ Cohomotopy space}}
+  }{
+    Maps
+    \Big(
+      X^n 
+      \;,\; 
+      S^{
+       n + k    
+      }
+    \Big)
+  }
+  \underoverset
+  {\simeq}
+  {
+    \color{blue}
+    \text{scanning map}
+  }
+  {\longleftarrow}
+  \underset{
+    \mathclap{
+    \color{blue}
+      {
+        \phantom{a}
+        \atop
+        {
+          \text{configuration space}
+          \atop 
+          \text{of points}
+        }
+      }
+    }
+  }{
+    Conf
+    \big(
+      X^n,
+      S^k
+    \big)
+  }
+$$
+
+between 
+
+1. $(n+k)$-[[Cohomotopy]] space of $X^n$, hence the [[space of maps]] from $X$ to the [[n-sphere|(n+k)-sphere]]
+
+1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
+
+=--
+
+
 
 ### Action by little $n$-disk operad and by Goodwillie derivatives
 
