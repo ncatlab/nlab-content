@@ -11,7 +11,7 @@ An **$S$-graded set** is an $S$-indexed [[family of sets]] $\{X_s\}_{s\in S}$.  
 
 The elements of $X_s$ are often said to have **degree** $s$.
 
-Given two $S$-graded sets $\{X_s\}_{s\in S}$ and $\{Y_s\}_{s\in S}$, a homomorphism is an $S$-indexed family of functions $\{f_s : X_s \to Y_s \}_{s\in S}$.  This can equivalently be described as a natural transformation between the two associated functions $S \to Set$, or as a function from $X$ to $Y$ that make the diagram with the associated functions $X \to S$ and $Y \to S$ commutes.
+Given two $S$-graded sets $\{X_s\}_{s\in S}$ and $\{Y_s\}_{s\in S}$, a homomorphism is an $S$-indexed family of functions $\{f_s : X_s \to Y_s \}_{s\in S}$.  This can equivalently be described as a natural transformation between the two associated functions $S \to Set$, or as a function from $X$ to $Y$ that make the diagram with the associated functions $X \to S$ and $Y \to S$ commute.
 
 
 ## Examples
