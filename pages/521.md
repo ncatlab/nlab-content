@@ -88,7 +88,7 @@ The [[duality|dual]] notion is an [[over category]].
 
 A  [[limit]] in an [[under category]] is computed as a limit in the underlying category.
 
-Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p colon t/C \to C$ the obvious projection.
+Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p : t/C \to C$ the obvious projection.
 
 Let $F : D \to t/C$ be any [[functor]]. Then, if it exists, the [[limit]] over $p \circ F$ in $C$ is the image under $p$ of the limit over $F$:
 
