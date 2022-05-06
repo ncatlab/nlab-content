@@ -32,7 +32,8 @@ Since such a 3-cocycle is precisely the [[background gauge field]] of the 3d [[T
 
 ## Definition (Drinfeld)
 
-A __quasibialgebra__ is a unital [[associative algebra]] $(A,m,\eta)$ with a structure of not necessarily coassociative coalgebra $(A,\Delta,\epsilon)$ and an invertible element $\phi \in A\otimes A\otimes A$ such that 
+A __quasibialgebra__ is a unital [[associative algebra]] $(A,m,\eta)$ with a structure of not necessarily coassociative coalgebra $(A,\Delta,\epsilon)$, with multiplicative
+comultiplication $\Delta$ and counit $\epsilon$, and an invertible element $\phi \in A\otimes A\otimes A$ such that 
 
 (i) the coassociativity is modified by conjugation by $\phi$ in the sense
 
