@@ -221,7 +221,7 @@ But I can't determine *exactly* what it is, because, if you read the first parts
 
 * [[hypergraph]]
 
-* [[quiver]]
+* [[quiver]], [[McKay quiver]]
 
 * [[n-quiver]]
 
