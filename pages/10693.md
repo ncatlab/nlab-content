@@ -127,13 +127,13 @@ $$
 +-- {: .num_example}
 ###### Example
 
-For $S = \Sigma^\infty S^n \simeq \Sigma^n \mathbb{N}$ then 
+For $S = \Sigma^\infty S^n \simeq \Sigma^n \mathbb{S}$ we have
 
 $$
   [\Sigma^\infty S^n ,- ]\simeq \pi_n
 $$
 
-is the $n$th [[homotopy group]]-functor.
+is the $n$th [[stable homotopy group]]-[[functor]].
 
 =--
 
