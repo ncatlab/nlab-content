@@ -209,6 +209,8 @@ Chasing the element $1_{R(d)}$ down and then across, we get $f: c \to R(d)$ and 
 
 * [[enriched adjunction]]
 
+* [[derived adjunction]]
+
 * [[adjoint monad]]
 
 * [[heteromorphism]]
