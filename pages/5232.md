@@ -15,3 +15,4 @@ category:people
 [[!redirects Antonio M. Cegarra]]
 [[!redirects Antonio Martínez Cegarra]]
 [[!redirects A. M. Cegarra]]
+[[!redirects Cegarra]]
