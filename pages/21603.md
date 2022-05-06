@@ -336,6 +336,32 @@ $$\frac{t \Vdash A \qquad A \lt\!\!:\;B \ni p}{B \ni t}$$
 
 Deriving this rule, we receive the validity of $A$ from the first premise, and the validity of $B$ from the conclusion, form the validity of ($A \lt\!\!:\;B$) in order to use the second premise, which lets us change $t$ from an $A$ to a $B$.
 
+### Functions
+
+With a unidirectional type checker (that does not use nonlocal inference), lambdas need a type annotation for the function domain. This corresponds to the type validity premise in the (derived) lambda rule of CompLF:
+
+$$\frac{A\,type \qquad x:A \vdash b[x] \Vdash B[x]}{\lambda x.b[x] \Vdash \Pi x:A.B[x]}$$
+
+As with bidirectional type checking, we can avoid this by making the rule checking mode:
+
+$$\frac{x:A \vdash B[x] \ni b[x]}{\Pi x:A.B[x] \ni \lambda x.b[x]}$$
+
+Note that ($x:A \vdash B[x] \ni b[x]$) is notation for ($\forall x.(x \Vdash A) \Rightarrow (B(x) \ni b(x))$). That is, context entries are always synthesizing mode in our notation.
+
+The unidirectional rule for function application receives two candidates for the domain of the function: one from the function itself, one from the argument. So it needs to compare them. The bidirectional rule eliminates (or at least postpones) this check by using checking mode on the argument. We can derive an analogous rule for CompLF:
+
+$$\frac{f \Vdash \Pi x:A.B[x] \qquad A \ni a}{f\,a \Vdash B[a]}$$
+
+(TODO: Put up more rules)
+
+### Caveat
+
+When reasoning at the judgment level, the bidirectional rules don't actually seem to make most things easier, and they make many things less convenient. There are now two judgment forms for typing, making rules incompatible without manually switching directions. Avoiding type validity premises is *usually* not that helpful because those premises are usually easy, so it's easier to just follow your nose through them than cleverly avoid them. Since a main point of judgment-level reasoning is to derive new rules, sticking to a bidirectional style tends to multiply the number of derived rules you want, creating extra work.
+
+It seems like a better idea to postpone a serious attempt at a bidirectional rule set until you have an actual algorithm in mind. At that point, the defined checking mode judgment might make it much easier to prove sound those bidirectional rules you will actually use.
+
+Sometimes though, even for judgment-level reasoning, bidirectional rules can avoid a large number of very silly subgoals, like when introducing an element of a deeply nested type. In this case, the unidirectional rules would make you prove many copies of the same type validity goals, and bidirectional rules are the perfect plumbing.
+
 ## References
 
 * {#KCThesis} Karl Crary, _Type-Theoretic Methodology for Practical Programming Languages_, 1998 PhD thesis ([web](http://www.nuprl.org/KB/show.php?ShowPub=Cra98), [pdf](http://www.nuprl.org/documents/Crary/Thesis-TypeTheoretic.pdf))
