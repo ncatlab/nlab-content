@@ -146,7 +146,7 @@ As suggested there and by the main ([Lawson-Naumann 12, theorem 1.2](#LawsonNaum
 
 KR theory was introduced in
 
-* {#Atiyah66} [[Michael Atiyah]], _K-theory and reality_, The Quarterly Journal of Mathematics. Oxford. Second Series 17 (1) (1966),: 367&#8211;386, doi:10.1093/qmath/17.1.367, ISSN 0033-5606, MR 0206940 ([[AtiyahKReal.pdf:file]])
+* {#Atiyah66} [[Michael Atiyah]], _K-theory and reality_, The Quarterly Journal of Mathematics. Oxford. Second Series 17 (1) (1966),: 367&#8211;386, ISSN 0033-5606, MR 0206940 ([doi:10.1093/qmath/17.1.367](https://doi.org/10.1093/qmath/17.1.367), [[AtiyahKReal.pdf:file]])
 
 The version of $KSC$-theory was introduced in 
 
