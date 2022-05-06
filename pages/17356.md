@@ -189,7 +189,7 @@ which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$.
 
 ### Subdivision and fibrant replacement 
 
-[[Rick Jardine]] constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
+A cubical subdivision functor $sd$ is discussed in [Jardine 0, Section 5](#Jardine02). It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
 See [Jardine's lecture notes](#Jardine02) for details. There is a natural sequence of maps of cubical sets
 
 
