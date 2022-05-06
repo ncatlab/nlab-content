@@ -25,7 +25,7 @@ The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{U
 
 ### Representing spectrum
 
-In generalization to how $\Omega^U_{2k}$ is represented by [[homotopy classes]] of [[maps]] into the [[Thom spectrum]] [[MU]], so $\Omega^{U,fr}_{2k}$ is represented by maps into the [[quotient spaces]] $MU_{2k}/S^{2k}$ (for $S^{2k} = Th(\mathbb{C}^{k}) \to Th( \mathbb{C}^k \times_{U(k)} E U(k) ) = MU_{2k}$ the canonical inclusion):
+In generalization to how the complex [[cobordism ring]] $\Omega^U_{2k}$ is represented by [[homotopy classes]] of [[maps]] into the [[Thom spectrum]] [[MU]], so $\Omega^{U,fr}_{2k}$ is represented by maps into the [[quotient spaces]] $MU_{2k}/S^{2k}$ (for $S^{2k} = Th(\mathbb{C}^{k}) \to Th( \mathbb{C}^k \times_{U(k)} E U(k) ) = MU_{2k}$ the canonical inclusion):
 
 \[
   \label{InTermsOfHomotopyGroupsOfQuotientedThomSpace}
