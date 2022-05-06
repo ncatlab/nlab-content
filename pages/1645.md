@@ -164,9 +164,12 @@ see at _[M5-brane anomaly](M5-brane#AnomalyCancellation)_
 
 For the moment see [[Liouville cocycle]].
 
+
 ### Other
 
-* [[RR-field tadpole]]
+* [[RR-field tadpole cancellation]]
+
+* [[C-filed tadpole cancellation]]
 
 ## Related concepts
 
@@ -174,6 +177,7 @@ For the moment see [[Liouville cocycle]].
 * [[classical anomaly]]
 
 * [[fiber bundles in physics]]
+
 
 ## References
 
@@ -186,29 +190,31 @@ For the moment see [[Liouville cocycle]].
 
 The original articles on anomalous action functionals are
 
-* [[Luis Alvarez-Gaumé]] and [[Edward Witten]], _Gravitational Anomalies_ Nucl. Phys. B234 (1984) 269.
+* [[Luis Alvarez-Gaumé]], [[Edward Witten]], _Gravitational Anomalies_, Nucl. Phys. B234 (1984) 269 (<a href="https://doi.org/10.1016/0550-3213(84)90066-X">doi:10.1016/0550-3213(84)90066-X</a>, [spire:192309](http://inspirehep.net/record/192309))
 
-* [[Luis Alvarez-Gaumé]] and [[Paul Ginsparg]], _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
+* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], _The structure of gauge and gravitational anomalies_, Ann. Phys. 161 (1985) 423. (<a href="https://doi.org/10.1016/0003-4916(85)90087-9">doi:10.1016/0003-4916(85)90087-9</a>, [spire:202565](http://inspirehep.net/record/202565))
 
-* [[Edward Witten]], _Global gravitational anomalies_ , Commun. Math. Phys. 100 (1985) 197. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
+* [[Edward Witten]], _Global gravitational anomalies_, Commun. Math. Phys. 100 (1985) 197. ([doi:10.1007/BF01212448](https://doi.org/10.1007/BF01212448), [euclid:1103943444](http://projecteuclid.org/euclid.cmp/1103943444))
 
-A survey of these results is in the slides
+Review 
 
-* Paolo Di Vecchia, _Green-Schwarz anomaly cancellation_ (2010) ([pdf](http://www.college-de-france.fr/media/par_ele/UPL47331_DiVecchia.4.pdf))
+* [[Paolo Di Vecchia]], _Green-Schwarz anomaly cancellation_ (2010) (slides [[DiVecchiaAnomaly.pdf:file]])
+
+* [[Jeffrey Harvey]], _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097v1](https://arxiv.org/abs/hep-th/0509097), [spire:692082](http://inspirehep.net/record/692082))
 
 The mathematical formulation of this in terms of [[index theory]] is due to
 
-* [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984)
+* [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([doi:10.1073/pnas.81.8.2597]( https://doi.org/10.1073/pnas.81.8.2597), [jstor:23378](https://www.jstor.org/stable/23378))
 
-* [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. I. Metrics and connections on determinant bundles_ , Comm. Math. Phys. 106 (1986), no. 1, 159&#8211;176.
+* [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families. I. Metrics and connections on determinant bundles_ , Comm. Math. Phys. 106 (1986), no. 1, 159&#8211;176 ([doi:10.1007/BF01210930](https://doi.org/10.1007/BF01210930), [euclid:1104115586](https://projecteuclid.org/euclid.cmp/1104115586))
 
-* [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants, and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163.
+* [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants, and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163 ([doi:10.1007/BF01206955](https://doi.org/10.1007/BF01206955), [euclid:1104115934](https://projecteuclid.org/euclid.cmp/1104115934))
 
 and a clear comprehensive account of the situation (topological anomaly, geometric anomaly) is in 
 
-* [[Raphael Flauger]], _Anomalies and the Atiyah-Singer Index Theorem_ ([pdf](http://www.ma.utexas.edu/~dafr/Index/Flauger.pdf))
+* [[Raphael Flauger]], _Anomalies and the Atiyah-Singer Index Theorem_ ([[FlaugerAnomalies.pdf:file]])
 
-* {#Freed86} [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
+* {#Freed86} [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([doi:10.1007/BF01221001](https://doi.org/10.1007/BF01221001), [euclid:1104116145](http://projecteuclid.org/euclid.cmp/1104116145))
   
 
 Slick formulation of these anomalies as [[invertible topological field theories]] is discussed in 
@@ -243,6 +249,7 @@ Discussion in the context of [[extended topological field theory]] includes
 Anomaly field theories are discussed in
 
 * {#1903.02828} [[Samuel Monnier]], _A Modern Point of View on Anomalies_, ([arxiv/1903.02828](http://arxiv.org/abs/1903.02828))
+
 
 ### Gauge anomaly
  {#ReferencesGaugeAnomaly}
@@ -300,7 +307,11 @@ An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[s
 
 * J. G. Esteve, _Origin of the anomalies: the modified Heisenberg equation_ ([arXiv:hep-th/0207164](http://arxiv.org/abs/hep-th/0207164))
 
+### Anomaly inflow
 
+* [[Curtis Callan]], [[Jeffrey Harvey]], _Anomalies and Fermion Zero Modes on Strings and Domain Walls_, Nucl. Phys. B250 (1985) 427-436 (<a href="https://doi.org/10.1016/0550-3213(85)90489-4">doi:10.1016/0550-3213(85)90489-4</a>, [spire:15691](http://inspirehep.net/record/15691))
+
+* [[Edward Witten]], Kazuya Yonekura, _Anomaly Inflow and the $\etas$-Invariant_ ([arXiv:1909.08775](https://arxiv.org/abs/1909.08775), [spire:1755070](http://inspirehep.net/record/1755070))
 
 
 ### In finite-dimensional quantum mechanics
@@ -315,4 +326,8 @@ An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[s
 [[!redirects gauge anomaly]]
 [[!redirects gauge anomalies]]
 
+[[!redirects anomaly inflow]]
+
 [[!redirects quantum anomaly cancellation]]
+
+
