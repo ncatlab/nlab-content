@@ -272,6 +272,9 @@ Further development:
 * Avner Karasik, _Skyrmions, Quantum Hall Droplets, and one current to rule them all_ ([arXiv:2003.07893](https://arxiv.org/abs/2003.07893))
 
 
+* [[Carlos Naya]], K. Oles, _Background fields and self-dual Skyrmions_ ([arXiv:2004.07069](https://arxiv.org/abs/2004.07069))
+
+
 
 [[scattering amplitudes]]:
 
