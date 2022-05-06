@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -92,7 +93,7 @@ In particular:
 +-- {: .num_lemma #UniversalComplexLineBundleThomSpace}
 ###### Lemma
 
-The canonical map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the infinite [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] is a [[weak homotopy equivalence]]
+The canonical map from the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$ (the infinite [[complex projective space]]) to the [[Thom space]] of the [[universal vector bundle|universal]] [[complex line bundle]] (the [[tautological line bundle]] on infinite[[complex projective space]]) is a [[weak homotopy equivalence]]
 
 $$
   B U(1) 
@@ -108,7 +109,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that the [[circle group]] $U(1)$ is naturally identified with the unit sphere in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the [[sphere bundle]] of the universal complex line bundle is equivalently the $U(1)$-[[universal principal bundle]]
+Observe that the [[circle group]] $U(1)$ is naturally identified with the [[unit sphere]] in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the [[sphere bundle]] of the universal complex line bundle is equivalently the $U(1)$-[[universal principal bundle]]
 
 $$
   \begin{aligned}
@@ -131,18 +132,18 @@ $$
 (Alternatively this is the special case of lemma \ref{SphereBundleBunminus1} for $n = 0$.)
 
 
-Therefore the [[Thom space]]
+Therefore the [[Thom space]] of the universal complex line bundle is:
 
 $$
   \begin{aligned}
-    Th( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    Th( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     & \coloneqq
-    D( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    D( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     /
-    S( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    S( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     \\
     & \overset{\in W_{cl}}{\longrightarrow}
-    D( E U(1) \underset{U(1)}{\times} \mathbb{B} )
+    D( E U(1) \underset{U(1)}{\times} \mathbb{C} )
     \\
     & \overset{\in W_{cl}}{\longrightarrow}
     B U(1)
