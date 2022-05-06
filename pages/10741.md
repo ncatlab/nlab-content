@@ -148,7 +148,7 @@ be a map (eq:TheMap). Then its $E$-Hopf invariant "is" the following [[homotopy 
 
 * by assumption (eq:ECohomologyVanishingInDegree2nMinus1) the restriction of $\Sigma^{2n} 1$ to $S^{2n-1}$ trivializes, exhibited by a choice of [[homotopy]] filling the full top part of the diagram; and by the [[universal property]] of the top homotopy-pushout this corresponds equivalently to the dashed morphism $c$;
 
-* by degree reasons (as in [Lurie, Lec. 4. Exmpl. 8](complex+oriented+cohomology+theory#LurieLecture)) the restriction of the [[cup product|cup square]] of $c$ to $S^n$ trivializes, exhibited by a choice of [[homotopy]]  filling the full bottom part of the diagram; and by the [[universal property]] of the bottom homotopy-pushout this corresponds equivalently to a dashed morphism $S^{2n} \to E_{2n}$, labeled by  some class
+* by degree reasons (as in [Lurie, Lec. 4. Exmpl. 8](complex+oriented+cohomology+theory#LurieLecture)) the restriction of the [cup square cohomology operation](cohomology+operation#CupPowersInMultiplicativeCohomology) on $c$ to $S^n$ trivializes (since $c$ factors through the [[connective cover]] $\Sigma^n (E\langle 0\rangle)$, whence its cup square factors through the $2n$-connective space $\Sigma^{2n} (E\langle 0\rangle)$ ); exhibited by a choice of [[homotopy]]  filling the full bottom part of the diagram; and by the [[universal property]] of the bottom homotopy-pushout this corresponds equivalently to a dashed morphism $S^{2n} \to E_{2n}$, labeled by  some class
 
   $$
     \kappa 
