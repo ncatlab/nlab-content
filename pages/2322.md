@@ -43,7 +43,8 @@ In terms of [[homotopy type theory]] these object classifiers are _[[types of ty
 +-- {: .num_remark #ReflectonOnCharacterizationByObjectClassifier}
 ###### Remark
 
-An [[object classifier]] is a (small) _self-reflection_ of the $(\infty, 1)$-topos inside itself ([[type of types]], internal [[universe]]). It possesses an [[category object in an (infinity,1)-category|internal (∞,1)-topos ]] structure. See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
+An [[object classifier]] is a (small) _self-reflection_ of the $(\infty, 1)$-topos inside itself ([[type of types]], internal [[universe]]). It possesses an [[category object in an (infinity,1)-category|internal (∞,1)-topos ]] structure. See also 
+([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
 
 =--
 
