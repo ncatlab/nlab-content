@@ -132,7 +132,7 @@ On quaternion-Kähler manifold with [[positive number|positive]] [[scalar curvat
 
 Discussion of [[characteristic classes]]:
 
-* {#CadekVanzura98} [[Martin Čadek]], Jiří Vanžura, _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
+* {#CadekVanzura98} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
 
 [[!redirects quaternion-Kähler manifolds]]
