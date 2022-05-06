@@ -258,15 +258,10 @@ Textbook accounts:
 
 *  J D Vergados, _The Standard Model and Beyond_, World Scientific 2017 ([doi:10.1142/10669](https://www.worldscientific.com/worldscibooks/10.1142/10669))
 
-Further review and outlook:
+Review and introduction:
 
-* [[Paul Langacker]], _The standard model and beyond_, talk at TPFNP 2005 ([pdf](http://www.sns.ias.edu/~pgl/talks/neutron.pdf), [[Langacker05.pdf:file]])
+* Ben Gripaios, _Lectures: From quantum mechanics to the Standard Model_ ([arXiv:2005.06355](https://arxiv.org/abs/2005.06355))
 
-* Dmitry Kazakov, _Beyond the Standard Model' 17_ ([arXiv:1807.00148](https://arxiv.org/abs/1807.00148))
-
-* {#Wulzer19} Andrea Wulzer, _Behind the Standard Model_ ([arXiv:1901.01017](https://arxiv.org/abs/1901.01017))
-
-* [[James Wells]], _The Once and Present Standard Model of Elementary Particle Physics_ ([arxiv:1911.04604](https://arxiv.org/abs/1911.04604))
 
 Review specifically with an eye towards [[grand unified theory]] is in
 
@@ -279,6 +274,16 @@ and specificlly with an eye towards [[intersecting D-brane models]] in
 See also
 
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+Review with outlook "beyond the standard model":
+
+* [[Paul Langacker]], _The standard model and beyond_, talk at TPFNP 2005 ([pdf](http://www.sns.ias.edu/~pgl/talks/neutron.pdf), [[Langacker05.pdf:file]])
+
+* Dmitry Kazakov, _Beyond the Standard Model' 17_ ([arXiv:1807.00148](https://arxiv.org/abs/1807.00148))
+
+* {#Wulzer19} Andrea Wulzer, _Behind the Standard Model_ ([arXiv:1901.01017](https://arxiv.org/abs/1901.01017))
+
+* [[James Wells]], _The Once and Present Standard Model of Elementary Particle Physics_ ([arxiv:1911.04604](https://arxiv.org/abs/1911.04604))
 
 
 
