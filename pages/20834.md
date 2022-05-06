@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
-=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
 =--
 =--
 =--
@@ -20,13 +20,15 @@
 
 ## Idea
 
-What has been called _Witten's dark fantasy_ in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00) for the existence of [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] ("[[dark energy]]").
+What has been called _Witten's dark fantasy_ in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00) for the existence of [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
 
 The original idea was formulated in terms of 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]).
 
 Based on the observation of [Vafa 96, Section 4.3](#Vafa96) that the argument should have a natural realization in 4d [[F-theory on Spin(7)-manifolds]] ([[T-duality|T-dual]] to the previous perspective), a detailed construction was finally laid out in [Bonetti-Grimm-Pugh 13](#BonettiGrimmPugh13), [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118), [Heckman-Lawrie-Lin-Sakstein-Zoccarato 19](#HeckmanLawrieLinSaksteinZoccarato19).
 
-## $1/2$-Supersymmetry
+## Properties
+
+### $1/2$-Supersymmetry
 
 The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] [[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]] reveals, in contrast to the [[number of supersymmetries|N=1 supersymmetry]] of [[F-theory on CY4-folds]], an "$N= 1/2$ supersymmetry" where 
 
@@ -38,13 +40,50 @@ The key technical point is the claim that a careful analysis of [[D=4 N=1 superg
 
 ([Vafa 96, Sec. 4.3](#Vafa96) [BGP 13](#BonettiGrimmPugh13), [HLLZ 18, Sec. 4](#HeckmannLawrieLinZoccarato118))
 
-## History and phenomenological context
+### Closed spatial slices
+ {#ClosedSpatialSlices}
 
-When the idea was proposed in [Witten 95a](#Witten95a), [Witten 95b](#Witten95b), [Witten 00](#Witten00) it was right before observation of [[red shifts]] of [[supernovae]] convinced cosmologists, in 2001, of a relatively small but [[positive number|positive]] [[cosmological constant]]. When this result became enshrined in what is now the [[standard model of cosmology]] the idea of vanishing cosmological constant in [[string theory]] fell out of favor, and a vocal sub-community instead embarked on arguing that [[de Sitter spacetime]]-[[string vacua]] with positive [[cosmological constant]] had to be searched at random in a large [[landscape of string theory vacua]].
+The concrete realization of [[Witten's Dark Fantasy]] in the [[F-theory]] [[model (in theoretical physics)|model]] of [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118) is a [[cosmology]] where spatial slices are [[closed manifold|closed]] and in fact of the [[topology]] of the [[3-sphere]]:
 
-However, debate remains that the apparently observed [[cosmological constant]] is but an artefact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). In the extreme case, if [[inhomogeneous cosmology|cosmic inhomogeneity]], possibly combined with [[higher curvature corrections]] to [[gravity]] (such as control the observationally preferred [[Starobinsky model of cosmic inflation]]), would explain all of the apparently observed [[cosmological constant]], then _Witten's dark fantasy_ would again appear to be viable [[string phenomenology]].
+<center>
+<img src="https://ncatlab.org/nlab/files/PixelatedSpatialSliceInWittenDarkFantasyModel.jpg" width="700">
+</center>
+
+> graphics from [Heckman-Lawrie-Lin-Sakstein-Zoccarato 19](#HeckmanLawrieLinSaksteinZoccarato19)
+
+
+### Phenomenology
+ {#Phenomenology}
+
+When the idea of "Witten's dark fantasy" was proposed in [Witten 95a](#Witten95a), [Witten 95b](#Witten95b), [Witten 00](#Witten00) it was right before observation of [[red shifts]] of [[supernovae]] convinced cosmologists, in 2001, of a relatively small but [[positive number|positive]] [[cosmological constant]]. When this result became enshrined in what is now the [[standard model of cosmology]] the idea of vanishing cosmological constant in [[string theory]] fell out of favor, and a vocal sub-community instead embarked on arguing that [[de Sitter spacetime]]-[[string vacua]] with positive [[cosmological constant]] had to be searched at random in a large [[landscape of string theory vacua]].
+
+However, debate remains over whether the apparently observed [[cosmological constant]] is actually real:
+
+1. The authors of [KLKCR 19](#KLKCR19) claim that temporal evolution of [[supernovae]] luminosity had been underappreciated, which makes the apparent evidence for a [[positive number|positive]] [[cosmological constant]] completely go away. Earlier [NGS 16](#NielsenGuffantiSarkar16) had pointed out that even with the established interpretation of the data, a vanishing [[cosmological constant]] is not excluded by the data.
+
+1. Since around 2000 many authors have argued that the apparent [[cosmological constant]] may be an artefact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). 
+
+   While it is uncontroversial that [[inhomogeneous cosmology|cosmic inhomogeneity]] does have a measurable effect on cosmic expansion, the general current consensus seems to be that it is too small to explain all of the dark energy of the [[standard model of cosmology]]. But in view of the first item above, this would be a moot point.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SNLuminosityEvolutionCancelsApparentCC.jpg" width="740">
+</center>
+
+> from [KLKCR 19](#KLKCR19)
+
+In the extreme case, if re-analysis of the data, combined with effects of [[inhomogeneous cosmology|cosmic inhomogeneity]], and possibly combined with [[higher curvature corrections]] to [[gravity]] (such as control the observationally preferred [[Starobinsky model of cosmic inflation]]), would explain all of the apparently observed [[cosmological constant]], then _Witten's dark fantasy_ would again appear to be viable [[string phenomenology]].
+
+It is then interesting to notice that also the [[closed manifold|closed]] spatial slices found in the model [above](#ClosedSpatialSlices) have recently been argued to be preferred by observational data ([VMS 19](#VMS19)).
+
+## Related concepts
+
+* [[cosmology]]
+
+* [[M-theory]]
 
 ## References
+
+### Theory
 
 The idea in rough form goes back to
 
@@ -66,6 +105,38 @@ A detailed implementation of the idea in [[F-theory on Spin(7)-manifolds]] is de
 
 * {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
-* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_ ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489))
+* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_, Fortsch. d. Physik ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489), [doi:10.1002/prop.201900071]( https://doi.org/10.1002/prop.201900071))
+
+### Phenomenology
+ {#ReferencesPhenomenology}
+
+The [[standard model of cosmology]], as per 2020, with its [[positive number|positive]] [[dark energy]]-desity and open spatial slices contradicts the vanishing [[cosmological constant]] and preferred [[closed manifold|closed]] ([[3-sphere|spherical]]) spatial slices of [[Witten's Dark Fantasy]]. 
+
+It may very well be that [[Witten's Dark Fantasy]] is [[phenomenology|phenomenologicaly]] unviable. But it is interesting to notice that there is recent and very recent astrophysical analysis which claims problems with exavtly these two aspects of the [[standard model of cosmology]]. If these contrarian authors are actually right, then [[Witten's Dark Fantasy]] is exactly the kind of model needed to match observation.
+
+#### Dark energy or not?
+ {#ReferencesDarkEnergy}
+
+Argument that the observed type Ia [[supernovae]] are actually consistent with a vanishing [[cosmological constant]]:
+
+* {#NielsenGuffantiSarkar16} J. T. Nielsen, A. Guffanti & [[Subir Sarkar]], _Marginal evidence for cosmic acceleration from Type Ia supernovae_, Nature Scientific Reports volume 6, Article number: 35596 (2016) ([arXiv:1506.01354](https://arxiv.org/abs/1506.01354), [web discussion](https://4gravitons.wordpress.com/2016/11/11/a-response-from-nielsen-guffanti-and-sarkar/))
+
+Stronger argument that the observed type Ia [[supernovae]] in fact _prefer_ a vanishing [[cosmological constant]] (due to time-dependency of SN brightness that had been missed):
+
+* {#KLKCR19} Yijung Kang, Young-Wook Lee, Young-Lo Kim, Chul Chung, Chang Hee Ree, _Early-type Host Galaxies of Type Ia Supernovae. II. Evidence for Luminosity Evolution in Supernova Cosmology_, Astrophysical Journal  ([arXiv:1912.04903](https://arxiv.org/abs/1912.04903))
+
+  exposition:
+
+  _[New evidence shows that the key assumption made in the discovery of dark energy is in error](https://phys.org/news/2020-01-evidence-key-assumption-discovery-dark.amp?__twitter_impression=true)_
+
+#### Open spatial slices or not?
+ {#ReferencesOpenSlices}
+
+Argument that the [[Planck collaboration|PLANCK satellite]] data prefers a [[closed manifold|closed]] spatial slices:
+
+* {#VMS19} Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Planck evidence for a closed Universe and a possible crisis for cosmology_, Nature Astronomy 2019 ([doi:1911.02087](https://arxiv.org/abs/1911.02087))
+[doi:s41550-019-0906-9](https://www.nature.com/articles/s41550-019-0906-9)
+
+
 
 [[!redirects Witten's dark fantasy]]
