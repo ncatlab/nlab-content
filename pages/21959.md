@@ -162,6 +162,8 @@ The universal class is the class of all sets.
 
 * [[category with class structure]]
 
+* [[algebraic set theory]]
+
 
 [[!redirects categories of classes]]
 [[!redirects Class]]
