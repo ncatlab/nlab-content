@@ -252,6 +252,12 @@ Topological defects can play considerable role to constrain the non-SUSy and SUS
 * Joydeep Chakrabortty, Rinku Maji, Sunando Kumar Patra, Tripurari Srivastava, Subhendra Mohanty, _Roadmap of left-right models based on GUTs_ 
 ([arXiv:1711.11391] (https://arxiv.org/abs/1711.11391), Phys.Rev. D97 (2018) no.9, 095010.)
 
+
+Relation to [[Z'-bosons]]:
+
+* {#Sahoo06} S. Sahoo, _The prediction of mass of $Z'$-boson in an $SO(10)$-based model_, Indian J. Phys. 80 (2), 191-194 (2006) ([pdf](http://arxiv.iacs.res.in:8080/jspui/bitstream/10821/6019/1/The%20Prediction%20of%20Mass%20of%20Z%27-Boson_By%20S%20Sahoo.pdf))
+
+
 Relation to [[leptoquarks]] and [[flavour anomalies]]:
 
 * {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([arXiv:315898](inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
