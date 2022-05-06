@@ -8,7 +8,7 @@
 =--
 =--
 
-# Formal grammar
+# Contents
 * table of contents
 {:toc}
 
@@ -16,7 +16,7 @@
 
 Formal grammars are sets of rules which describe which strings of words are considered grammatical. They can be used to characterize the syntax of both [[linguistics|natural language]] and [[programming language|programming languages]].
 
-## Unrestricted grammars
+## Unrestricted grammar {#unrestrictedgrammar}
 
 Fix a finite set $V$ called the vocabulary, also called the _terminal symbols_. A _language_ is a subset of the free [[monoid]] $V^*$, i.e. strings of words. Let $V^+$ denote the free [[semigroup]], i.e. non-empty strings. $X + Y$ and $X \times Y$ denote the disjoint union and the Cartesian product respectively.
 
