@@ -1,4 +1,8 @@
-##Overview##
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A matrix $A$ over the field of [[real numbers]] is __[[totally positive matrix|totally positive]]__ (resp. __totally nonnegative__) if every minor (= determinant of any submatrix) is a positive (resp. nonnegative) real number. Total positivity implies a number of remarkable properties; for example all eigenvalues are distinct and positive. 
 
