@@ -6,6 +6,10 @@ Co-founder of [[string theory]].
 ## Selected writings
 
 
+On the [[NSR superstring]]:
+
+* [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B31, 86 (1971) (<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>)
+
 On the [[Green-Schwarz superstring]]:
 
 * {#GreenSchwarz81} [[Michael Green]], [[John Schwarz]], _Supersymmetrical Dual String Theory_, Nucl. Phys. B 181 (1981) 502;
