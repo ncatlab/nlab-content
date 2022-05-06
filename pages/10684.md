@@ -27,7 +27,7 @@ This entry collected pointers related to the book
 
 on [[stable homotopy theory]] in general and in particular the computation of the [[homotopy groups of spheres]] via the [[Adams-Novikov spectral sequence]] and its use of [[complex cobordism cohomology theory]].
 
-> My initial inclination was to call this book [[The Music of the Spheres]], but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. (preface to the first edition)
+> {#InitialInclination} My initial inclination was to call this book [[The Music of the Spheres]], but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. (preface to the first edition)
 
 See also
 
