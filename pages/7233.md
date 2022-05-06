@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -469,7 +470,7 @@ Surveys include
 
 
 
-* {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
+* {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, [Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005](http://gokovagt.org/proceedings/2005), pp. 75-109 ([arXiv:math/0305124](https://arxiv.org/abs/math/0305124), [webpage](http://gokovagt.org/proceedings/2005/bryant.html), [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf))
 
 
 
