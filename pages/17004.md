@@ -96,6 +96,7 @@ The [[Kahn-Priddy theorem]] characterizes a comparison map between stable cohomo
 
 ### Boardman homomorphisms
 
+#### To ordinary cohomology
 
 Consider the [[unit]] morphism
 
@@ -179,6 +180,49 @@ is the [[multiplication|product]] of the [[exponent of a group|exponents]] of th
 ([Arlettaz 04, theorem 1.2](#Arlettaz04))
 
 
+#### To topological modular forms
+
+Write $\mathbb{S}$ for the [[sphere spectrum]] and _[[tmf]]_ for the [[connective spectrum]] of [[topological modular forms]].
+
+Since [[tmf]] is an [[E-∞ ring|E-∞]][[ring spectrum]], there is an essentially unique homomorphism of [[E-∞ ring|E-∞]][[ring spectra]]
+
+$$
+  \mathbb{S}
+  \overset{e_{tmf}}{\longrightarrow}
+  tmf
+  \,.
+$$
+
+Regarded as a morphism of [[generalized homology]]-theories, this is called the [[Hurewicz homomorphism]], or rather the [[Boardman homomorphism]] for $tmf$
+
++-- {: .num_prop}
+###### Proposition
+**(Boardman homomorphism in $tmf$ is 6-connected)**
+
+The [[Boardman homomorphism in tmf]]
+
+$$
+  \mathbb{S}
+  \overset{e_{tmf}}{\longrightarrow}
+  tmf
+$$
+
+induces an [[isomorphism]] on [[stable homotopy groups]] 
+(hence from the [[stable homotopy groups of spheres]] to the stable homotopy groups of tmf), up to degree 6:
+
+$$
+  \pi_{\bullet \leq 6}(\mathbb{S})
+  \underoverset{\simeq}{\pi_{\bullet \leq 6}(e_{tmf})}{\longrightarrow}
+  \pi_{\bullet\leq 6}(tmf)
+  \,.
+$$
+
+
+=--
+
+([Hopkins 02, Prop. 4.6](Boardman+homomorphism+in+tmf#Hopkins02), [DFHH 14, Ch. 13](Boardman+homomorphism+in+tmf#DFHH14))
+
+
 
 ## Related concepts
 
@@ -197,9 +241,19 @@ The basic concept appears in
 
 * {#Adams74} [[Frank Adams]], part III, section 6 of _[[Stable homotopy and generalised homology]]_, 1974
 
+Discussion of stable Cohomotopy as such:
+
+* C. T. Stretch, _Stable cohomotopy and cobordism of abelian groups_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 90, Issue 2 September 1981, pp. 273-278 ([doi:10.1017/S0305004100058734](https://doi.org/10.1017/S0305004100058734))
+
+* Ken-ichi Maruyama, _$e$-invariants on the stable cohomotopy groups of Lie groups_, Osaka J. Math. Volume 25, Number 3 (1988), 581-589 ([euclid:ojm/1200780982](https://projecteuclid.org/euclid.ojm/1200780982))
+
+
+* Sławomir Nowak, _Stable cohomotopy groups of compact spaces_, Fundamenta Mathematicae 180 (2003), 99-137 ([doi:10.4064/fm180-2-1](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/180/2))
+
+
 The identification of stable cohomotopy with the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite set]] is due to 
 
-* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici, December 1972, Volume 47, Issue 1, pp 1–14 ([doi:10.1007/BF02566785](https://doi.org/10.1007/BF02566785))
+* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici, December 1972, Volume 47, Issue 1, pp 1–14 ([doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785))
 
 * {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
