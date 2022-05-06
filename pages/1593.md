@@ -37,7 +37,7 @@ The quadratic pairing entering the [[11d Chern-Simons theory]] that governs the 
 
 ### Lifts to M-theory F-theory
 
-Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](Sen96), [Sen 97a](#Sen97a)).
+Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)).
 
 Lifts of type IIA orientifolds of [[D6-branes]] to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] (through the [[duality between M-theory and type IIA string theory]]) goes back to ([Sen 97b](#Sen97b)). 
 
