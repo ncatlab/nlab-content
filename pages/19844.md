@@ -516,6 +516,9 @@ General [[effective field theory]] parametrization:
 
 * Florian U. Bernlochner, Stephan Duell, Zoltan Ligeti, Michele Papucci, Dean J. Robinson, _Das ist der HAMMER: Consistent new physics interpretations of semileptonic decays_ ([arXiv:2002.00020](https://arxiv.org/abs/2002.00020))
 
+* Andrei Angelescu, Darius A. Faroughy, Olcyr Sumensari, _Lepton Flavor Violation and Dilepton Tails at the LHC_ ([arXiv:2002.05684](https://arxiv.org/abs/2002.05684))
+
+
 
 
 #### Leptoquarks
