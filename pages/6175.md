@@ -37,7 +37,7 @@ We define here radical functors on ${ }_R Mod$, but warn that there are some ter
 
 However they are defined, all notions of radical involve [[additive functor|additive]] [[subfunctors]] $i: \sigma \hookrightarrow 1_{ _R Mod}$ of the identity on ${ }_R Mod$, the additive category of left $R$-modules. [[natural transformation|Naturality]] of $i$ implies the equation $i \circ \sigma i = i \circ i\sigma$, whence $\sigma i = i\sigma$ by [[monomorphism|monicity]] of $i$. Some authors refer to these as *preradical functors* (e.g., [Mirhosseinkhani 2010](#Mirhosseinkhani2010)). 
 
-Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a __radical functor__ if in addition $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. Note however that some authors call *this* a *preradical functor*, and define a radical functor to be such a preradical functor that is left exact. 
+Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma\sigma \to \sigma$ is an isomorphism, and is called a __radical functor__ if in addition $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. Note however that some authors call *this* a *preradical functor*, and define a radical functor to be such a preradical functor that is left exact. 
 
 Following [Goldman 1969](#Goldman1969), a left exact additive subfunctor of the identity is called an __idempotent kernel functor__. Observe that such is idempotent by the calculation
 
