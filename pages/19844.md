@@ -373,6 +373,11 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 * Jyoti Saini, Dinesh Kumar, Shireen Gangal, S. B. Dasm, _Probing signatures of beyond standard model physics through $B_s^\ast \to \mu^+ \mu^-$ decay_ ([arXiv:1905.03933](https://arxiv.org/abs/1905.03933))
 
+* David London, _CP Violation in $\bar B^0 \to D^{\ast +} \ell^- \bar \nu_\ell$_ ([arXiv:1906.07752](https://arxiv.org/abs/1906.07752))
+
+* Marta Moscati, _New Physics in $b \to c \tau \nu$: Impact of Polarisation Observables and $B_c \to \tau \nu$_ ([arXiv:1906.08035](https://arxiv.org/abs/1906.08035))
+
+
 #### Leptoquarks
 
 explanation via assumption of [[leptoquarks]]:
