@@ -5,7 +5,7 @@
 
 ## Idea
 
-Matrix models are [[model (physics)|physical models]] in which the dynamical quantities are square [[matrices]] (in certain class of matrices, e.g. [[hermitian matrix|hermitian]]), in other words, a [[Lagrangian]]/[[Hamiltonian]] depends on matrix quantities and is usually taken at the limit when the size of matrix tends to infinity. 
+Matrix models are [[model (physics)|physical models]] in which the dynamical quantities are [[square matrices]] (in certain class of matrices, e.g. [[hermitian matrix|hermitian]]), in other words, a [[Lagrangian]]/[[Hamiltonian]] depends on matrix quantities and is usually taken at the limit when the size of matrix tends to infinity. 
 
 Matrix models are studied mainly in the context of [[statistical mechanics]] (see [[random matrix theory]]) or in [[quantum field theory]].
 
