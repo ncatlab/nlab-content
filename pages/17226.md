@@ -34,6 +34,8 @@ A [[generalized homology theory]] [[Brown representability theorem|represented]]
 
 ## References
 
+* [[Peter Landweber]], _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 100, Issue 2 September 1986 , pp. 207-223 ([doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032))
+
 * Max Hopkins, _The Extraordinary Bordism Homology_, 2016  ([pdf](http://cseweb.ucsd.edu/~nmhopkin/papers/Bordism.pdf), [[HopkinsBordism.pdf:file]])
 
 For more, see the references at _[[cobordism cohomology theory]]_.
