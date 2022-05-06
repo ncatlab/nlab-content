@@ -1,5 +1,5 @@
 
-* [website](http://math.wesleyan.edu/~mhovey/)
+* [website](http://mhovey.web.wesleyan.edu/)
 
 category: people
 [[!redirects Hovey]]
