@@ -73,7 +73,7 @@ The collection of  [[h-sets]] in [[homotopy type theory]] constitute a [[ΠW-pre
 
 ## References ##
 
-An textbook that introduces the [[foundations of mathematics]] informally via structural set theory is
+A textbook that introduces the [[foundations of mathematics]] informally via structural set theory is
 
 * {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_, Cambridge UP 2003.
 
