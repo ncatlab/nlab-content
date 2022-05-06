@@ -74,6 +74,7 @@ See also
 
 * Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
+
 ### Synthetic homotopy theory
  {#ReferencesSyntheticHomotopyTheory}
 
@@ -85,5 +86,10 @@ Discussion of _synthetic [[homotopy theory]]_ (typically understood as [[homotop
 
 * {#Rijke19} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
 
+Via [[cubical type theory]]:
+
+* [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
+
+[[!redirects synthetic homotopy theory]]
 
 
