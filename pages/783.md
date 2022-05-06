@@ -13,7 +13,7 @@ In the late 1970s and early 1980s Grothendieck wrote several documents that have
 
 * _La Longue Marche &#224; travers la Th&#233;orie de Galois_ (1600 manuscript pages written between January and June 1981, plus addenda etc. which double its length!) (see [[Long March]] for some discussion of the ideas.)
 
-* _[[Esquisse d'un programme]]_, (January 1984), in which Grothendieck sketches out a vaste programme of research, encorporating many of the ideas from [[Long March]]. A copy is available [here](http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf). It is discussed in brief at [[Esquisse d'un programme|Grothendieck's Esquisse]].
+* _[[Esquisse d'un programme]]_, (January 1984), in which Grothendieck sketches out a vaste programme of research, incorporating many of the ideas from [[Long March]]. A copy is available [here](http://www.math.jussieu.fr/~leila/grothendieckcircle/EsquisseFr.pdf). It is discussed in brief at [[Esquisse d'un programme|Grothendieck's Esquisse]].
 
 *  _&#192; la poursuite des Champs_ (also entitled ''[[Pursuing Stacks]]'').  
 It starts with a short (12 page) letter to Quillen, dated 19 Feb. 1983, but then discusses a wide ranging vision of homotopy theory and its applicability to problems in algebraic and arithmetic geometry. 
