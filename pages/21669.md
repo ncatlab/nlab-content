@@ -23,6 +23,7 @@ Review references:
 
 * {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
 
+\linebreak
 
 
 #Contents#
@@ -57,11 +58,20 @@ Review references:
 
 * [[Quillen adjunction between simplicial sets and connective dgc-algebras]]
 
-## The Sulliuvan-de Rham Equivalence Therem
+## The Sullivan-de Rham Equivalence Therem
 
-* [[rational homotopy theory]]
+* [[fundamental theorem of dg-algebraic rational homotopy theory]]
 
-## Proof of the Sulliuvan-de Rham Equivalence Therem
+## Proof of the Sullivan-de Rham Equivalence Therem
 
+## The Sullivan-de Rham Localization and Homotopy Theorems
+
+* [[rationalization]]
+
+* [[rationalization via PL de Rham theory]]
+
+\linebreak
+
+***
 
 category: reference
