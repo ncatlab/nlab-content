@@ -108,6 +108,8 @@ Discussion of [[thermodynamics]], [[phase transitions]], [[confinement]] and [[t
 
 * Curtis T. Asplund, [[David Berenstein]], Diego Trancanelli, _Evidence for fast thermalization in the plane-wave matrix model_, 	Phys. Rev. Lett. 107, 171602 (2011) ([arXiv:1104.5469](https://arxiv.org/abs/1104.5469))
 
+* Lucas Brady, Vatche Sahakian, _Scrambling with Matrix Black Holes_, Phys Rev D 88, 046003 (2013) ([arXiv:1306.5200](https://arxiv.org/abs/1306.5200))
+
 
 * Miguel S. Costa, Lauren Greenspan, Joao Penedones, [[Jorge Santos]], _Thermodynamics of the BMN matrix model at strong coupling_, JHEP 03 (2015) 069 ([arXiv:1411.5541](https://arxiv.org/abs/1411.5541))
 
