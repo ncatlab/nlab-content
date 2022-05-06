@@ -185,10 +185,9 @@ Discussion of generalization of [[elliptic cohomology]] to higher chromatic homo
 
 Relation of chromatic homotopy theory to [[Goodwillie calculus]] is discussed in
 
-* [[Greg Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae
-February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
+* [[Greg Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae, February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf), [doi:10.1007/s002220050300](https://doi.org/10.1007/s002220050300))
 
-* [[Nicholas Kuhn]], _Goodwillie towers and chromatic homotopy: an overview_, Geom. Topol. Monogr. 10 (2007) 245-279 ([arXiv:math/0410342](http://arxiv.org/abs/math/0410342))
+* [[Nicholas Kuhn]], _Goodwillie towers and chromatic homotopy: an overview_,   Proceedings of the Nishida Fest (Kinosaki 2003),  245--279, Geom. Topol. Monogr., 10, Geom. Topol. Publ., Coventry, 2007 ([arXiv:math/0410342](https://arxiv.org/abs/math/0410342), [doi:10.2140/gtm.2007.10.245](http://dx.doi.org/10.2140/gtm.2007.10.245))
 
 Categorical [[ultraproducts]] are used to provide asymptotic approximations in
 
