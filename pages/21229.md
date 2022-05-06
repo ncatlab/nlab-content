@@ -27,11 +27,17 @@ The _Walecka model_ is an [[effective field theory]] related to [[chiral perturb
 
 ## References
 
+### Walecka's model
+
 The original articles are
 
 * [[John Dirk Walecka]], _A Theory of highly condensed matter_, Annals Phys. 83 (1974) 491 ([spire:91609](http://inspirehep.net/record/91609?ln=en), <a href="https://doi.org/10.1016/0003-4916(74)90208-5">dpi:10.1016/0003-4916(74)90208-5</a>)
 
 * [[Brian Serot]], [[John Dirk Walecka]], _The Relativistic Nuclear Many Body Problem_, Adv. Nucl. Phys. 16 (1986) 1-327 ([spire:207866](https://inspirehep.net/literature/207866))
+
+See also
+
+* S. A. Chin, _A relativistic many-body theory of high density matter_, Annals of Physics Volume 108, Issue 2, October 1977, Pages 301-367 (<a href="https://doi.org/10.1016/0003-4916(77)90016-1">doi:10.1016/0003-4916(77)90016-1</a>)
 
 The term "[[quantum hadrodynamics]]" for the [[Walecka model]] and its generalizations is used in
 
@@ -43,3 +49,13 @@ The term "[[quantum hadrodynamics]]" for the [[Walecka model]] and its generaliz
 See also
 
 * R. V. Poberezhnyuk, V. Vovchenko, D. V. Anchishkin, M. I. Gorenstein, _Quantum van der Waals and Walecka models of nuclear matter_ ([arXiv:1708.05605](https://arxiv.org/abs/1708.05605))
+
+
+[[!include baryon chiral perturbation theory -- references]]
+
+
+
+[[!redirects baryon chiral perturbation theory]]
+
+
+
