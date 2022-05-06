@@ -136,6 +136,31 @@ Discussion of [[instantons]] in lattice QCd
 
 * {#Gruber13} Florian Gruber, _Topology in dynamical Lattice QCD simulations_, 2013 ([web](http://epub.uni-regensburg.de/27631/), [pdf](http://epub.uni-regensburg.de/27631/1/dissertation.pdf))
 
+### For super Yang-Mills theories
+  {#ForSuperYangMills}
+
+Lattice simulation of [[torus]]-[[KK-compactifications]] of [[10d super Yang-Mills theory]] and numerical test of [[AdS/CFT]]:
+
+
+* {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_
+([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
+
+
+* Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
+
+* {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
+
+* Masanori Hanada, Paul Romatschke, _Lattice Simulations of 10d Yang-Mills toroidally compactified to 1d, 2d and 4d_ ([arXiv:1612.06395](https://arxiv.org/abs/1612.06395))
+
+
+For more see also at
+
+* [[BFSS matrix model]]
+
+* [[IKKT matrix model]]
+
+
+
 
 [[!redirects lattice gauge field theory]]
 
