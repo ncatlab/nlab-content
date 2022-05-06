@@ -246,9 +246,7 @@ spacetime of an [[M2-brane]].
 ([Maldacena 97, section 3.2](#Maldacena97a), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99), [Klebanov-Torri 10](KlebanovTorri10))
 
 
-Survey:
 
-* Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ ([arXiv:2003.13914](https://arxiv.org/abs/2003.13914))
 
 
 
@@ -565,6 +563,9 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
   
+* Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ ([arXiv:2003.13914](https://arxiv.org/abs/2003.13914))
+
+* Silvia Penati, _Exact Results in AdS4/CFT3_ ([arXiv:2004.00841](https://arxiv.org/abs/2004.00841))
 
 
 
