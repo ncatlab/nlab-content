@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+
+On [[M2-M5 brane bound states]] in relation to [[Dp-D(p+2) brane intersection]] [[fuzzy funnels]]:
+
+* [[Horatiu Nastase]], [[Constantinos Papageorgakis]], [[Sanjaye Ramgoolam]], _The fuzzy $S^2$ structure of M2-M5 systems in ABJM membrane theories_, JHEP 0905:123, 2009 ([arXiv:0903.3966](https://arxiv.org/abs/0903.3966))
+
+
 On multiple [[M2-branes]] and their worldvolume [[BLG model]]/[[ABJM model]]:
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
