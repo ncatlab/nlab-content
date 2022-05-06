@@ -278,6 +278,8 @@ If $E$ is a [[multiplicative cohomology theory|multiplicative]]
 
 * {#Baker92} [[Andrew Baker]], _Some chromatic phenomena in the homotopy of $MSp$_, in: N. Ray, G. Walker (eds.), _Adams Memorial Symposium on Algebraic Topology, Vol. 2_ editors, Cambridge University Press (1992), 263–80 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/bpmsp.pdf), [[BakerMSp.pdf:file]])
 
+* [[Dai Tamaki]], [[Akira Kono]], Section 3.9 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
 * {#Laughton08} [[Craig Laughton]], Example 2.2.5 in: _Quasitoric manifolds and cobordism theory_, Manchester 2008 ([pdf](http://www.ma.man.ac.uk/~nige/craiglphd.pdf), [[LaughtonQuasitoric.pdf:file]])
 
 * [[Ivan Panin]], [[Charles Walter]], _Quaternionic Grassmannians and Pontryagin classes in algebraic geometry_, 2010 ([hal:00531725](https://hal.archives-ouvertes.fr/hal-00531725), [pdf](https://www.math.uni-bielefeld.de/LAG/man/405.pdf))
