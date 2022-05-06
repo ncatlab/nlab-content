@@ -251,6 +251,9 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 Original articles on the general issue include
 
+* {#PastiSorokinTonin06} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
+
+
 * {#Witten99} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
 
 * {#BelovMooreI} Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
@@ -260,6 +263,38 @@ Surveys include
 * [[Greg Moore]], _A Minicourse on Generalized Abelian Gauge Theory, Self-Dual Theories, and Differential Cohomology_, Lectures at Simons Center for Geometry and Physics (2011) ([pdf](http://www.physics.rutgers.edu/~gmoore/SCGP-Minicourse.pdf))
 
 * {#Szabo12} [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
+
+### For the M5-sigma model
+
+The [[sigma-model]] description of the (single) M5-brane of [[Green-Schwarz action functional]]-type was found in covariant form in 
+
+* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+
+* {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]] and M. Tonin, _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41 ([arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037))
+
+following
+
+* [[Paul Townsend]], section 3.3 of _D-branes from M-branes_, Phys. Lett. B373 (1996) 68-75 ([arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062))
+
+  (which did not yet have the [[Hopf-Wess-Zumino term]])
+
+and following the non-covariant form of the [[self-dual higher gauge field|self-duality mechanism]] of
+
+* {#PerrySchwarz96} Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
+
+* {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys.Lett.B395:191-195,1997
+
+* [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+Discussion in the [[superembedding approach]] is in 
+
+* {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
+
+Discussion of the equivalence of these superficially different action functionals is in 
+
+* [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
+
 
 
 ### For ordinary $U(1)$-higher gauge fields / ordinary differential cohomology
