@@ -516,6 +516,9 @@ explanation via assumption of [[leptoquarks]]:
 
 * C. Hati, J. Kriewald, J. Orloff, A.M. Teixeira, _A nonunitary interpretation for a single vector leptoquark combined explanation to the B-decay anomalies_ ([arXiv:1907.05511](https://arxiv.org/abs/1907.05511))
 
+* Javier Fuentes-Martin, Gino Isidori, Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
+
+
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
