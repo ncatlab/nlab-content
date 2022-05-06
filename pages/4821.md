@@ -1,5 +1,3 @@
-I am a graduate student at the [National University of Singapore](http://ww1.math.nus.edu.sg/).
-
-[Here](http://mathoverflow.net/users/2529/colin-tan) is my MO page.
+I am a postdoc working in type-theoretic approaches to linked data at the [Singapore University of Technology and Design](https://sutd.edu.sg). My PhD thesis approached a problem with origins in real algebraic geometry using analytic methods from complex geometry.
 
 category: people
