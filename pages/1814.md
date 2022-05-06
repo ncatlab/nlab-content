@@ -34,15 +34,13 @@ The $n$-simplices of this are just _[[singular simplex|singular n-simplices]]_ g
 ### Preservation of model structure
 
 The singular complex functor preserves all five classes
-of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyclic cofibrations]],
-[[fibrations]], and [[acyclic fibrations]].
+of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyclic cofibrations]], [[fibrations]], and [[acyclic fibrations]].
 
-* [[weak equivalences|Weak equivalences]] are preserved by definition of the [[model structure]] on topological spaces, which is [[transferred model structure|transferred]] from [[simplicial sets]].
+* [[weak equivalences|Weak equivalences]] are preserved; the reason depends on how the model structures are constructed.  The [[classical model structure on topological spaces]] can be defined to be [[transferred model structure|transferred]] from [[simplicial sets]], in which case the singular complex preserves weak equivalences by definition.  More traditionally, the weak equivalences in the [[classical model structure on simplicial sets]] are defined to be those whose geometric realization is a (weak) [[homotopy equivalence]], and the preservation then follows from the 2-out-of-3 property and the fact that the geometric realization of the total singular complex is a [[CW replacement]] that is [[weak homotopy equivalence|weakly homotopy equivalent]] to the original space.
 
-* [[Cofibrations]] (and hence [[acyclic cofibrations]]) are preserved because all cofibrations of topological spaces are [[injective functions]], injective maps are preserved, and all injective maps of simplicial sets are cofibrations.
+* [[Cofibrations]] are preserved because all cofibrations of topological spaces are [[injective functions]], injective maps are preserved, and all injective maps of simplicial sets are cofibrations.
 
-* [[fibrations|Fibrations]] and [[acyclic fibrations]] are preserved because the singular complex functor is a [[right Quillen functor]].
-
+* [[fibrations|Fibrations]] and [[acyclic fibrations]] are preserved because the singular complex functor is a [[right Quillen functor]].  More explicitly, this is because geometric realization takes the generating cofibrations and acyclic cofibrations of simplicial sets to those of topological spaces.
 
 ### Relation to geometric realization
 
