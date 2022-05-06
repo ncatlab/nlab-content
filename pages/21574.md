@@ -4,7 +4,7 @@
 
 Just as the category [[Cat]] of categories can be equipped with a [[canonical model structure]], namely the [[canonical model structure on categories]], so too can [[2Cat]], the category of strict 2-categories. This extends to weak 2-categories too, although in order to actually have a [[category]] on which to put the model structure, one has to work with [[strict 2-functor|strict 2-functors]]. 
 
-The characterising feature of a canonical model structure on [[2Cat]] is that the weak equivalences should be [[equivalence of 2-categories|equivalences of 2-categories]], more specifically [[strict equivalence of 2-categories|strict equivalences of 2-categories]], categorifying the fact that the equivalences in the [[canonical model structure on categories]] are [[equivalence of categories|equivalences of categories]]. What the fibrations and cofibrations should be, or more specifically how to categorify [[isofibration|isofibrations]] and [[iso-cofibration|iso-cofibrations]], is one of the main points to resolve to obtain the model structure.
+The characterising feature of a canonical model structure on [[2Cat]] is that the weak equivalences should be [[equivalence of 2-categories|equivalences of 2-categories]], categorifying the fact that the equivalences in the [[canonical model structure on categories]] are [[equivalence of categories|equivalences of categories]]. What the fibrations and cofibrations should be, or more specifically how to categorify [[isofibration|isofibrations]] and [[iso-cofibration|iso-cofibrations]], is one of the main points to resolve to obtain the model structure.
 
 What is usually referred to as the canonical model structure on 2-categories is a model structure first described by [[Stephen Lack|Lack]] in [Lack2002](#Lack2002) and [Lack2004](#Lack2004). In this model structure, the fibrations are [[Lack fibration|Lack fibrations]], and every object is [[fibrant object|fibrant]], but not every object is [[cofibrant object|cofibrant]], in contrast to the [[canonical model structure on categories]].
 
@@ -14,7 +14,7 @@ However, it is possible to put a different canonical model structure on [[2Cat]]
 
 The following is Theorem 4 in [Lack2004](#Lack2004).
 
-\begin{thm} There is a model structure on [[2Cat]] in which the equivalences are [[strict equivalence of 2-categories|strict equivalences of 2-categories]], and the fibrations are [[Lack fibration|Lack fibrations]]. \end{thm}
+\begin{thm} There is a model structure on [[2Cat]] in which the equivalences are [[equivalence of 2-categories|equivalences of 2-categories]], and the fibrations are [[Lack fibration|Lack fibrations]]. \end{thm}
 
 \section{Canonical model structure in which every object is both fibrant and cofibrant}
 
