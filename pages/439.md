@@ -17,7 +17,11 @@ On the [[simplicial de Rham complex]] and [[equivariant de Rham cohomology]]:
 On [[homotopy theory]] in [[physics]]:
 
 
-* Jim Stasheff, [[A Survey of Cohomological Physics]]
+* Jim Stasheff, _[[A Survey of Cohomological Physics]]_
+
+A proposal for understanding [[tensor hierarchies]] as [[L-infinity algebra]]-refinenents of [[Leibniz algebras]]:
+
+* [[Sylvain Lavau]], [[Jim Stasheff]], _$L_\infty$-algebra extensions of Leibniz algebras_ ([arXiv:2003.07838](https://arxiv.org/abs/2003.07838))
 
 
 
