@@ -111,6 +111,8 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012, Springer, ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
 
+* Claudio Gómez-Gonzáles, [[Jesse Wolfson]], _Problems in Arithmetic Topology_ ([arXiv:2012.15434](https://arxiv.org/abs/2012.15434))
+
 
 
 
