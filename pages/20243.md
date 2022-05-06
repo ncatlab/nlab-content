@@ -127,6 +127,7 @@ with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8
 
 ## Examples
 
+
 ### $Sp(1)\cdot Sp(1)$ is $SO(4)$
  {#SO4}
 
@@ -189,9 +190,71 @@ where
 
 \linebreak
 
+
+### Triality
+ {#Triality}
+
++-- {: .num_prop #Spin3DotSpin5SubgroupsInSO8}
+###### Proposition
+**([[Spin(5).Spin(3)]]-[[subgroups]] in [[SO(8)]])
+
+The [[direct product group]] [[SO(3)]] $\times$ [[SO(5)]] together with the groups [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with their canonical inclusions into [[SO(8)]], form 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[subgroups]] inside [[SO(8)]], and the [[triality]] group $Out(SO(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+
+\begin{center}
+  \begin{xymatrix}
+      Sp(2)\cdot Sp(1)
+      \ar@{^{(}->}[dr]^{\iota'}
+      \\
+      & 
+      SO(8)
+      & 
+      SO(3) \times SO(5)
+      \ar@{_{(}->}[l]^-{\iota}
+      \\
+      Sp(1) \cdot Sp(2)
+      \ar@{^{(}->}[ur]_-{ \iota'' }
+  \end{xymatrix}
+\end{center}
+
+
+=--
+
+([Kollross 02, Prop. 3.3 (3)](#Kollross02))
+
+Similarly:
+
++-- {: .num_prop #Spin3DotSpin5SubgroupsInSpin8}
+###### Proposition
+**([[Spin(5).Spin(3)]]-[[subgroups]] in [[Spin(8)]])
+
+The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with their canonical inclusions into [[Spin(8)]], form 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[subgroups]] inside [[Spin(8)]], and the [[triality]] group $Out(Spin(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+
+\begin{center}
+  \begin{xymatrix}
+      Sp(2)\cdot Sp(1)
+      \ar@{^{(}->}[dr]^{\iota'}
+      \\
+      & 
+      Spin(8)
+      & 
+      Spin(3) \cdot Spin(5)
+      \ar@{_{(}->}[l]^-{\iota}
+      \\
+      Sp(1) \cdot Sp(2)
+      \ar@{^{(}->}[ur]_-{ \iota'' }
+  \end{xymatrix}
+\end{center}
+
+
+=--
+
+([Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
+
+
+
+
 ### $Sp(1)Sp(1)Sp(1) = Spin(4)\cdot Spin(3)$
  {#Sp1Sp1Sp1}
-
 
 
 +-- {: .num_example #Spin4Spin3}
@@ -366,6 +429,9 @@ Articles dealing specifically with the group $Sp(2)\cdot Sp(1)$:
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
 * {#CadekVanzura98b} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
+
+* {#Kollross02} Andreas Kollross, Prop. 3.3 of _A Classification of Hyperpolar and Cohomogeneity One Actions_, Transactions of the American Mathematical Society Vol. 354, No. 2 (Feb., 2002), pp. 571-612 ([jstor:2693761](https://www.jstor.org/stable/2693761))
+
 
 See also the references at _[[quaternion-Kähler manifold]]_.
 
