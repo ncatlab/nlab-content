@@ -197,7 +197,7 @@ Related books are
 
 * [[Lie group cohomology]]
 
-### VI The Weil alebra
+### VI The Weil algebra
 
 * [[Weil algebra]]
 
