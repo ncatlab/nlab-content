@@ -1059,13 +1059,13 @@ Discussion of Green-Schwarz strings on [[super anti de Sitter spacetimes]] inclu
 
 General:
 
-* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092))
+* {#HatsudaSakaguchi02} Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092), [doi:10.1103/PhysRevD.66.045020](https://doi.org/10.1103/PhysRevD.66.045020))
 
-* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
+* {#HatsudaSakaguchi01} Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
+
 
 #### $AdS_5$
  {#ReferencesAdS5Background}
-
 
 The super 3-cocycle for the Green-Schwarz  [[superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ (i.e. on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$) is originally due to 
 
@@ -1075,7 +1075,9 @@ However, a supersymmetric trivialization of this cocycle seems to have been obta
 
 * {#RoibanSiegel00} Radu Roiban, [[Warren Siegel]], _Superstrings on $AdS_5 \times S^5$ supertwistor space_, JHEP 0011:024, 2000 ([arXiv:hep-th/0010104](https://arxiv.org/abs/hep-th/0010104))
 
-(according to [arxiv:1808.04470, p. 5 and equation (5.5)](https://arxiv.org/abs/1808.04470), but check).
+see [Hatsuda-Sakaguchi 02, around (1.2) and (2.6)](#HatsudaSakaguchi02), [Hatsuda-Sakaguchi 01, around (1.2)](#HatsudaSakaguchi01)
+
+(amplified in [arxiv:1808.04470, p. 5 and equation (5.5)](https://arxiv.org/abs/1808.04470)).
 
 See also
 
