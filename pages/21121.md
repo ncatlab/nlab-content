@@ -39,6 +39,8 @@ For example, given a [[metric Lie algebra]] $\mathfrak{g}$ (with [[string diagra
 
 For more see the references at _[[tensor network state]]_.
 
+### General
+
 Review and exposition:
 
 
@@ -58,6 +60,13 @@ Review and exposition:
 See also: 
 
 * Wikipedia, _[Matrix product state](https://en.wikipedia.org/wiki/Matrix_product_state)_
+
+### In quantum computation
+
+In the context of [[quantum computation]]:
+
+* Yiqing Zhou, E. Miles Stoudenmire, Xavier Waintal, _What limits the simulation of quantum computers?_ ([arXiv:2002.07730](https://arxiv.org/abs/2002.07730))
+
 
 
 [[!redirects matrix product states]]
