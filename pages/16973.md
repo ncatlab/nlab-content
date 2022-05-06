@@ -46,7 +46,11 @@ $$
   \mathbb{R}
 $$
 
-on the [[real numbers]]. This means that if the domain $S^1$ is regarded as the [[unit sphere]] $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{R}\times \mathbb{R}$ and the codomain $S^1$ is regarded as the real [[projective space]], then $p$ is given simply by
+on the [[real numbers]]. 
+
+Here are different but equivalent ways of realizing this explicitly:
+
+If the domain $S^1$ is regarded as the [[unit sphere]] $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{R}\times \mathbb{R}$ and the codomain $S^1$ is regarded as the real [[projective space]], then $p$ is given simply by
 
 $$
   p \colon (x,y) \mapsto [x;y] = [x/y; 1]
@@ -55,6 +59,11 @@ $$
 One can view the real Hopf fibration as the boundary of a [[Möbius strip]], which is the non-trivial double cover of the circle.
 
 As an element in the first ([[stable homotopy group|stable]]) [[homotopy group]] [[homotopy groups of spheres|of spheres]] $\pi_1(S^1) \simeq \mathbb{Z}$, the real Hopf fibration represents $p_{\mathbb{R}} = 2$.
+
+
+
+
+
 
 ## Related concepts
 
