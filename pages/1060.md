@@ -181,6 +181,8 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * Girard's [[coherence spaces]], developed as models of [[linear logic]], give an historically important example of a $*$-autonomous category.  These are closely related to a general construction of $*$-autonomous categories (and related types of categories) called [[poset-valued sets]].
 
+* The category of [[finiteness spaces]] and their relations is $*$-autonomous.
+
 * Hyland and Ong have given a completeness theorem for multiplicative linear logic in terms of a $*$-autonomous category of _fair games_, part of a series of work on game semantics for closed category theory (compare Joyal's interpretation of Conway games as forming a compact closed category). 
 
 * The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories.
