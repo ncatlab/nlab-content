@@ -217,6 +217,32 @@ in $\bigwedge(x_1, \ldots, x_p )$. We note that although we write $\varepsilon(\
 
 Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. This seems to be a very useful convention.
 
+### Enrichment of dg-algebras over dg-coalgebras
+
+Given a dg-coalgebra $C$ and a dg-algebra $B$,
+the vector space of linear maps $C\to B$
+admits a dg-algebra structure
+using the coproduct on $C$ and product on $B$.
+This dg-algebra is known as the __convolution algebra__ of $C$ and $B$
+and is denoted by $[C,B]$.
+
+The resulting functor
+$$[-,-]: dgCoalg^op \times dgAlg \to dgAlg$$
+is a part of an [[adjunction in two variables]], whose other adjoints are
+$$\triangleright: dgCoalg\times dgAlg\to dgAlg$$
+(the Sweedler product)
+and
+$$\{-,-\}:dgAlg^op\times dgAlg\to dgCoalg$$
+(the Sweedler hom).
+
+Taken together, these three functors
+turn the [[symmetric monoidal category]]
+of dg-algebras into an [[enriched category]]
+over the [[closed symmetric monoidal category]]
+of dg-coalgebras.
+
+See Anel and Joyal \cite{AnelJoyal} for more information.
+
 
 ## Related concepts
 
@@ -257,7 +283,10 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 * [[curved dg-algebra]]
 
 
+## References
 
+* [[Matthieu Anel]], [[André Joyal]], __Sweedler theory of (co)algebras
+and the bar-cobar constructions__.
 
 
 
@@ -272,7 +301,7 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 [[!redirects differential-graded algebras]]
 
 
-[[!redirects commutatiev dg-algebra]]
+[[!redirects commutative dg-algebra]]
 [[!redirects commutative dg-algebras]]
 
 [[!redirects commutative differential graded algebra]]
