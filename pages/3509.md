@@ -2,7 +2,7 @@ There are several related notions dealing with similar notions. Historically the
 
 * [[stable homotopy category]] of spectra 
 
-and V. Puppe shown that it has a [[triangulated category|triangulated structure]]. Stability referred to [[stable homotopy theory]] and invertibility of [[suspension]] there. 
+and V. Puppe has shown that it has a [[triangulated category|triangulated structure]]. Stability referred to [[stable homotopy theory]] and invertibility of [[suspension]] there. 
 
 Then Waldhausen came up with
 
