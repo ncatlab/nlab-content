@@ -298,4 +298,7 @@ For formalization in [[homotopy type theory]] see
 [[!redirects homotopy group of a sphere]]
 [[!redirects homotopy groups of a sphere]]
 [[!redirects homotopy groups of spheres]]
+
+[[!redirects stable homotopy group of spheres]]
 [[!redirects stable homotopy groups of spheres]]
+
