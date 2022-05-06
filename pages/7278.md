@@ -24,6 +24,9 @@ An [[iterated loop space object]] in [[Top]].
 
 ## Properties
 
+### Higher group structure
+
+See at _[[May recognition theorem]]_.
 
 ### Cohomology
 
