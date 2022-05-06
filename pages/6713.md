@@ -148,6 +148,8 @@ In analogy to how in [[electromagnetism]] [[magnetic charge]] is given by a clas
 
 The [[Chan-Paton bundle]] carried by a D-brane defines a class in [[twisted K-theory]] on the D-brane [[worldvolume]] and the D-brane charge is the push-forward ([[Umkehr map]]) of this class to [[spacetime]], using a [[K-orientation]] of the embedding of the D-brane (a [[spin^c structure]]).
 
+See at _[[K-theiry classification of D-brane charge]]_
+
 #### General
 
 
@@ -371,6 +373,8 @@ A corresponding discussion as [[schreiber:∞-Wess-Zumino-Witten theory]] and re
 
 ### K-theoretic description and D-brane charge
  {#ReferencesKTheoryDescription}
+
+> See at _[[K-theory classification of D-brane charge]]_
 
 The idea that D-branes have [[Dirac charge quantization]] in [[topological K-theory]] originates in 
 
