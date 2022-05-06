@@ -76,20 +76,24 @@ Named after [[Henri Poincaré]] and [[Heinz Hopf]].
 
 Textbook accounts:
 
-
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
-
 
 * {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 15.2 of _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985 ([doi:10.1007/978-1-4612-1100-6](https://link.springer.com/book/10.1007/978-1-4612-1100-6))
 
+* [[John Milnor]], Chapter 6 of: _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+
 * {#Walschap04} Gerard Walschap, chapter 6.7 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
 
-
-Review includes
+Review:
 
 * Alex Wright, Kael Dixon, _The Poincaré–Hopf theorem_ ([pdf](https://pdfs.semanticscholar.org/cd21/dbffb8cbc3a3636c40a58cb921789b0eaac9.pdf))
 
 * Ariel Hafftka, _Differential topology and the Poincaré–Hopf theorem_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Hafftka.pdf))
+
+See also:
+
+* Wikipedia, _[Poincaré–Hopf theorem](https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Hopf_theorem)_
+
 
 Discussion in a broader perspective of [[K-theory]] and [[index theorems]]:
 
@@ -105,9 +109,6 @@ Generalization to [[orbifolds]]:
 * Christopher Seaton, _Two Gauss–Bonnet and Poincaré–Hopf theorems for orbifolds with boundary_, Differential Geometry and its Applications
 Volume 26, Issue 1, February 2008, Pages 42-51 ([doi:10.1016/j.difgeo.2007.11.002](https://doi.org/10.1016/j.difgeo.2007.11.002))
 
-See also
-
-* Wikipedia, _[Poincaré–Hopf theorem](https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Hopf_theorem)_
 
 
 [[!redirects Poincaré-Hopf theorem]]
