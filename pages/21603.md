@@ -393,7 +393,7 @@ Most of the primitive type constructors have inversions for their formation rule
 
 The reason why inversion rules are usually desirable when deriving a type constructor is that the elimination rules typically need to know that the subexpressions of the type being eliminated are well-typed. (Type subexpressions are valid; element subexpressions have the appropriate type.) These facts are proven when forming the type, so it's only fair to be able to get back what you've paid for. Otherwise they would need to be proven again whenever applying an elimination rule. (This is assuming the derived rules are for the primitive typing judgment, where the introduction rules establish type validity. For [checking mode](#CheckingMode) rules you would expect introduction rules to avoid that, but this also requires inversion rules.)
 
-The PER comprehension type constructor itself does not have any formation inversion rules. Partially this is because a later version of CompLF may strengthen the introduction rules in a way that's incompatible with the obvious inversion rules. But mostly this is because the inversion rules wouldn't really help. It's easier and more flexible to add your own type validity conditions than to take whatever falls out of the PER comprehension.
+The PER comprehension type constructor itself does not have any formation inversion rules. Partially this is because a later version of CompLF may strengthen the introduction rules in a way that's incompatible with the obvious inversion rule. But mostly this is because the inversion rule wouldn't really help. It's easier and more flexible to add your own type validity conditions than to take whatever falls out of the PER comprehension.
 
 For example, suppose we're deriving $\Sigma$ types. We should start with the PER for a $\Sigma$ type:
 
@@ -414,7 +414,7 @@ We can define a utility type constructor to add a type validity condition to ano
 
 $TpV(A | B)\;\coloneqq\;TpOK(B) \supset A$
 
-Intuitively, we want some kind of validity-level conjunction, so it's unintuitive that this definition uses implication (non-dependent intersection). But for validity, intersection *is* actually a conjunction. (That's another way to see why type-level implications mess up reasoning about combined truth.)
+Intuitively, we want some kind of validity-level conjunction, so it's unintuitive that this definition uses implication (non-dependent intersection). But for validity, type-level implication *is* actually a conjunction. (That's another way to see why type-level implications mess up reasoning about combined truth.)
 
 If we used
 
@@ -450,11 +450,9 @@ Combining the inversion rules for $TpV$ and $\Pi$, we get the desired inversion 
 
 It would not be dependent type theory if types depended only on types. In the primitive type constructors, aside from the trick of [type-level branching](#CombElim), the only dependency comes from the equality types. But for the equality type to be valid, the terms only need to be elements of $Relax(A)$ for the appropriate $A$. When types depend on elements, we might want type validity to require well-typedness of the terms. And who knows, we might also want all sorts of other requirements for validity of a derived type constructor. What kinds of requirements can be added to type validity?
 
-Because type validity is a judgment form without any term witness, the most we could hope to pack into type validity is truth of an arbitrary squashed type. And it turns out we can indeed do that. We would like to add inhabitedness of a type as a condition to type validity in the same way that $TpV$ added a type validity condition. It suffices to define a type whose validity *is* combined truth of some type, and then add that to an existing type with $TpV$.
+Because type validity is a judgment form without any term witness, the most we could hope to pack into type validity is mere inhabitedness of a type. And it turns out we can indeed do that. We would like to add inhabitedness of a type as a condition to type validity in the same way that $TpV$ added a type validity condition. It suffices to define a type constructor $PreSup(P)$ whose validity coincides with combined truth of $P$, and then add that to an existing type with $TpV$.
 
-We define a type constructor $PreSup(P)$, which is a non-negatable version of $P$. ($P$ doesn't actually have to be squashed, but validity of $PreSup(P)$ will only imply $\lfloor P \rfloor$.)
-
-It should validate the following rules:
+$PreSup(P)$ is a non-negatable version of $P$. $P$ doesn't have to be squashed, but validity of $PreSup(P)$ will only imply $\lfloor P \rfloor$. $PreSup$ should validate the following rules:
 
 $$\begin{gathered}
 \frac{p \Vdash P}{q \Vdash PreSup(P)} \\
@@ -462,7 +460,7 @@ $$\begin{gathered}
 \frac{PreSup(P)\,type}{p \Vdash \lfloor P \rfloor}
 \end{gathered}$$
 
-It would be pretty straightforward to just add a primitive type constructor to do this. And it's kind of just a lucky break that we don't have to.
+It would be pretty straightforward to just add a primitive type constructor to do this. And it's really just a lucky break that we don't have to.
 
 [Recall](#DiffPresup) that there's a "bad" definition of subtyping as ($\Pi a:A.a \in B$). Well actually we'll use ($\cap a:A.a \in B$), which is just as bad. It's bad as a definition of subtyping because it has the excessively strong presupposition that ($A \prec B$). Due to the inversion rules and the rules for $Relax$, we can actually *use* this presupposition if we know the bad subtyping is a valid type. This seems to be the most interesting fact we can get out of the primitive inversion rules, so we should encode inhabitedness of a type in terms of respect for equality.
 
