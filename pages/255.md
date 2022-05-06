@@ -180,7 +180,7 @@ Replacing the two element [[power object]] $\Omega$ with any other set gives sim
 
 +-- {: .num_example #FreeRModMonad}
 ###### Example
-The free-forgetful [[adjunction]] between [[sets]] and the category of $R$-[[modules]]. This induces the **free $R$-module monad** $R[-] : Set \to Set$. The **free abelian group monad** and **free vector speace monad** are special cases.
+The free-forgetful [[adjunction]] between [[sets]] and the category of $R$-[[modules]]. This induces the **free $R$-module monad** $R[-] : Set \to Set$. The **free abelian group monad** and **free vector space monad** are special cases.
 =--
 
 +-- {: .num_example #FreeGroupMonad}
