@@ -707,6 +707,12 @@ More recent developments include
 
 * {#HopkinsLawson16} [[Michael Hopkins]], [[Tyler Lawson]], _Strictly commutative complex orientation theory_ ([arXiv:1603.00047](http://arxiv.org/abs/1603.00047))
 
+Refinement to [[equivariant cohomology]]:
+
+* [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
+
+
+
 
 [[!redirects complex oriented cohomology theories]]
 
