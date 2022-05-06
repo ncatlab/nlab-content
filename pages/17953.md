@@ -115,19 +115,28 @@ With emphasis on the role of the [[Page charge]]/[[Hopf WZ term]]:
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
 
+The corresponding D2-NS5 bound state under [[duality between M-theory and type IIA string theory]]:
+
+* [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
+
 Via the [[mass-deformed ABJM model]]:
 
 * [[Jaume Gomis]], Diego Rodriguez-Gomez, [[Mark Van Raamsdonk]], [[Herman Verlinde]], _A Massive Study of M2-brane Proposals_, JHEP 0809:113, 2008 ([arXiv:0807.1074](https://arxiv.org/abs/0807.1074))
 
-* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 6.4 of: _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+and identifying the polarization into $S^3$ as a [[fuzzy sphere]]-version of the [[complex Hopf fibration]]:
+
+* [[Horatiu Nastase]], [[Constantinos Papageorgakis]], [[Sanjaye Ramgoolam]], _The fuzzy $S^2$ structure of M2-M5 systems in ABJM membrane theories_, JHEP 0905:123, 2009 ([arXiv:0903.3966](https://arxiv.org/abs/0903.3966))
+
+
+Review in:
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 6 of: _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
 
 
 
 
-The corresponding D2-NS5 bound state under [[duality between M-theory and type IIA string theory]]:
 
-* [[Iosif Bena]], Aleksey Nudelman, _Warping and vacua of $(S)YM_{3+1}$_, Phys. Rev. D62 (2000) 086008 ([arXiv:hep-th/0005163](https://arxiv.org/abs/hep-th/0005163))
 
 
 
@@ -141,6 +150,14 @@ More general [[M-brane polarizations]] and polarization of [[M5-branes]] into [[
 
 
 * [[Iosif Bena]], Diana Vaman, _The polarization of M5 branes and little string theories with reduced supersymmetry_, JHEP 0111 (2001) 032 ([arXiv:hep-th/0101064](https://arxiv.org/abs/hep-th/0101064))
+
+Via the [[ABJM model]]:
+
+* Wung-Hong Huang, _KK6 from M2 in ABJM_, JHEP 1105:054, 2011 ([arXiv:1102.3357](https://arxiv.org/abs/1102.3357))
+
+* Wung-Hong Huang, _M2-KK6 System in ABJM Theory: Fuzzy $S^3$ and Wrapped KK6_ ([arXiv:1107.2030](https://arxiv.org/abs/1107.2030))
+
+
 
 
 ### Relation to giant gravitons
