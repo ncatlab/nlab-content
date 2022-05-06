@@ -94,11 +94,78 @@ Theorem XII.3.3.4 in Picado and Pultr shows that the above correspondence is bij
 Furthermore, the categories of entourage uniform locales
 and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).
 
+## Properties
+
+### Uniformizability
+
+A [[locale]] admits a uniformity if and only if it is [[completely regular]]
+(\cite[Theorem 2.8.2]{PP}).
+
+### Fine uniformity
+
+Uniformities are closed under unions,
+so any [[completely regular]] [[locale]] admits a largest uniformity,
+the __fine uniformity__.
+
+The fine uniformity consists of all normal covers,
+where a cover $U$ is __normal__
+if there is a sequence of covers $\{U_n\}_{n\ge0}$
+such that $U=U_0$ and $U_{n+1}U_{n+1}$ refines $U_n$.
+
+### Compact regular locale
+
+On a [[compact]] [[regular]] [[locale]] the system
+of all covers forms a uniformity.
+Maps out of compact regular locales
+are automatically uniform.
+
+### Complete uniform locales
+
+A uniform locale $L$ is __complete__
+if every dense uniform embedding $L\to X$
+is an isomorphism of uniform locales.
+
+The category of complete uniform locales
+is a [[reflective subcategory]] of uniform locales.
+The reflection functor is known as the __completion__ functor.
+
+Concretely, the completion of a uniform locale $L$
+with a system of uniform covers $A$
+can be described as follows.
+Its opens are downward-closed subsets $U$
+of the underlying [[frame]] of $L$
+that satisfy the following saturation conditions:
+
+* If for some $a\in L$ we have $\{x\in L\mid x\lt_A a\}\subset U$,
+then also $a\in U$.
+Here $x\lt_A a$ means that there is $C\in A$
+such that $C[x]\le a$.
+
+* If for some $C\in A$ and $a\in L$ we have $a\wedge C\subset U$,
+then also $a\in U$.
+
+## Criteria for completeness
+
+Every compact regular locale is complete.
+The fine uniformity on a [[paracompact locale]] is complete.
+
+Isbell's theorem states that a [[locale]] is [[paracompact]]
+if and only if it admits a complete uniformity.
+
+A [[completely regular]] [[locale]] is [[compact]]
+if and only if it admits a complete uniformity
+that has a basis in which all covers are finite.
+
+
 ## References
 
-* [[Jorge Picado]], [[Aleš Pultr]], _[[Frames and Locales]]_.
 
-This paper developes covering uniformities constructively, and includes citations to several other papers that do it classically:
+A detailed treatment of uniform locales can be fund in
+
+\bibitem{PP} [[Jorge Picado]], [[Aleš Pultr]], _[[Frames and Locales]]_.
+
+
+The following paper developes covering uniformities constructively, and includes citations to several other papers that do it classically:
 
 * [[Peter Johnstone]], 1989; A constructive theory of uniform locales. I. Uniform covers; General topology and applications, 179--193; Lecture Notes in Pure and Applied Mathematics 134 (1991).
  {#Johnstone89}
