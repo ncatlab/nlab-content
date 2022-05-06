@@ -42,7 +42,7 @@
 
 | properties | implications |
 |--|--|
-| [[metrisable topological space|metrisable]]: topology is induced by a metric | a metric space has a $\sigma$-locally discrete base as a corollary of the fact that [[open covers of metric spaces have open countably locally discrete refinements|open covers of metric spaces have open $\sigma$-locally discrete refinements]]: take $\sigma$-locally discrete refinements of the covers by $1/n$-balls for $n=1,2,\ldots$. |
+| [[metrisable topological space|metrisable]]: topology is induced by a metric | [[metrisable spaces have countably locally discrete bases|a metric space has a $\sigma$-locally discrete base]] |
 | [[second-countable space|second-countable]]: there is a [[countable set|countable]] [[topological base|base]] of the topology. |  [[Nagata-Smirnov metrization theorem]] |
 | $\sigma$-locally discrete base, i.e. $X$ has a [[countably locally discrete set of subsets|$\sigma$-locally discrete]] [[topological base|base]]. |  a second-countable space has a [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]]: take the the collection of singeltons of all elements of countable cover of $X$.  |
 | $\sigma$-locally finite base, i.e. $X$ has a [[countably locally finite set of subsets|countably locally finite]] [[topological base|base]]. | second-countable spaces are separable: [[countable choice|choose]] a point in each set of countable cover. |
