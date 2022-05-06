@@ -1,6 +1,8 @@
 [[!redirects Agusti Roig]]
 
-* [webpage](http://bgsmath.cat/fitxa-agusti-roig/)
+* [webpage](https://mat.upc.edu/en/people/agustin.roig)
+
+* [FUTUR website](https://futur.upc.edu/AgustinRoigMarti)
 
 ## related $n$Lab entries
 
