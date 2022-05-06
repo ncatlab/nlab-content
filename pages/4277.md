@@ -184,19 +184,35 @@ $$
 
 e.g. [Connor-Floyd 62, theorem 14.2](#ConnorFloyd62)
 
+## Related concepts
+
+[[!include flavours of cobordism cohomology theories -- table]]
+
 
 ## References
 
 
-Textbook accounts include
+Original articles:
+
+* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86 ([digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259))
+
+* {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
+
+* {#Novikov60} [[Sergei Novikov]], _Some problems in the topology of manifolds connected with the theory of Thom spaces_, Dokl. Akad. Nauk. SSSR. 132 (1960), 1031&#8211;1034 (Russian). 
+
+* {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
+
+
+Textbook accounts:
+
+* {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
-Lecture notes include
+Lecture notes:
 
 * {#Buchstaber} [[Victor Buchstaber]], _Geometric cobordism theory_ ([pdf](http://www.maths.manchester.ac.uk/~peter/MATH41101notes07.pdf))
-
 
 * {#Francis} [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
@@ -204,7 +220,7 @@ Lecture notes include
 
 * [[Sander Kupers]], _Oriented bordism: Calculation and application_ ([pdf](http://web.stanford.edu/~kupers/orientedbordism.pdf))
 
-Details for framed cobordism are spelled out in
+Details for [[framed cobordism]]:
 
 * {#WangXu10} [[Guozhen Wang]], Zhouli Xu, section 2 of _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf))
 
@@ -225,7 +241,7 @@ A historical review in the context of [[complex cobordism cohomology theory]]/[[
 
 * [[Doug Ravenel]], chapter 4, section 2 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
-On [[fibered cobordism groups]]:
+On fibered cobordism groups:
 
 * Astey, Greenberg, Micha, Pastor, _Some fibered cobordisms groups are not finitely generated_ ([pdf](http://www.ams.org/journals/proc/1988-104-01/S0002-9939-1988-0958093-3/S0002-9939-1988-0958093-3.pdf))
 
