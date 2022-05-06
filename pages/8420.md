@@ -24,3 +24,4 @@
 
 * [[Hegel]], _[[Science of Logic]]_
 
+* [[Roger Penrose]]'s _[Mind-Maths-Matter](Roger+Penrose#MindMathsMatter)_
