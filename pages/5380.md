@@ -530,6 +530,8 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 
 * [[projective G-space]]
 
+  [[infinite complex projective G-space]]
+
 * [[projective geometry]], [[synthetic projective geometry]]
 
 * [[projective linear group]]
