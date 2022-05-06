@@ -44,6 +44,8 @@ The relevance of combinatorial model categories is given more abstractly by the 
 
 For more see at _[[locally presentable categories - introduction]]_.
 
+There is also a more general class of model structures on locally presentable categories, namely [[accessible model categories]], that share many of the properties of combinatorial ones, and are additionally closed under more constructions such as [[transferred model structures]].  In addition, every combinatorial model category can be enhanced to an [[algebraic model category]].
+
 ## Definition 
 
 +-- {: .num_defn}
@@ -583,6 +585,7 @@ See [[combinatorial simplicial model category]].
 
 [[!include locally presentable categories - table]]
 
+[[!include algebraic model structures - table]]
 
 ## References 
 
