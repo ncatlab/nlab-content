@@ -68,10 +68,14 @@ Such conical singularities appear for instance in the [[far-horizon geometry]] o
 
 ## References
 
+### General
+
 Discussion in the context of [[3-manifolds]] and [[orbifolds]]:
 
 * Daryl Cooper, Craig Hodgson, Steve Kerckhoff, _Three-dimensional Orbifolds and Cone-Manifolds_,  MSJ Memoirs Volume 5, 2000 ([pdf](https://web.math.ucsb.edu/~cooper/37.pdf), [euclid:1389985812](https://projecteuclid.org/euclid.msjm/1389985812))
 
+
+### Black brane conical singularities
 
 Discussion of [[supergravity]] [[black brane]]-solutions at conical singularities ([[cone branes]]) includes the following (see also at _[[far-horizon geometry]]_)
 
@@ -82,6 +86,8 @@ Discussion of [[supergravity]] [[black brane]]-solutions at conical singularitie
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]], _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+
+[[!include G2-conifolds -- references]]
 
 
 [[!redirects conical singularity]] 
