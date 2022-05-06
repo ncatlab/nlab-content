@@ -370,9 +370,13 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 
 * {#CattaneoCottaRamusinoLongoni02} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
 
-Discussion of the [[universal Vassiliev invariant]]/[[Kontsevich integral]] of the [[unknot]]:
+Computation of the perturbative [[Wilson loop observable]] ([[universal Vassiliev invariant]]) of the [[unknot]] ("[[Wheels theorem]]"):
 
-* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([arXiv:q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+* [[Dror Bar-Natan]], Thang T Q Le, [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
+
+following
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
 
 
 
