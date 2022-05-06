@@ -262,6 +262,12 @@ The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 
 
   [[Dirac monopole]], [[Yang monopole]]
 
+* [[fiber bundles in physics]]
+
+* [[Dirac charge quantization]]
+
+* [[gravitational instanton]]
+
 ## References
 
 ### General
@@ -271,6 +277,10 @@ Introductions and surveys include
 * J. Zinn-Justin, _The principles of instanton calculus_, Les Houches (1984)
 
 * M.A. Shifman et al., _ABC of instantons_, Fortschr.Phys. 32,11 (1984) 585
+
+* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], Section 10.2 of: _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
+
+
 
 * {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
 
