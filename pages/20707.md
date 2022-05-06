@@ -28,5 +28,9 @@ On [[arithmetic topology]]:
 
 * {#KohnoMorishita06} [[Toshitake Kohno]], [[Masanori Morishita]] (eds.), _Primes and Knots_, Contemporary Mathematics, AMS 2006 ([conm:416](http://www.ams.org/bookstore-getitem/item=CONM-416))
 
+On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of points]] and [[conformal blocks]]:
+
+* {#Kohno14} [[Toshitake Kohno]], _Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks_,  Acta Math Vietnam 39, 575–598 (2014)  ([doI;10.1007/s40306-014-0088-6](doi:10.1007/s40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf))
+
 
 category: people
