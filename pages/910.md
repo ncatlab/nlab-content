@@ -142,6 +142,7 @@ Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorf
 
 
 ### Local cartesian closure 
+ {#LocalCartesianClosure}
 
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
@@ -158,16 +159,9 @@ is closed but not open). From this one can get an [[exponential law for
 spaces]] over $B$ if $B$ is $T_0$, so that all fibres of spaces over
 $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 
-+-- {: .query}
-[[Mike Shulman]]: What precisely does "get an exponential law" mean?  Do you mean that $k Top/B$ is cartesian closed if $B$ is $T_0$?
+## Related concepts
 
-_Toby_: Hopefully that is explained in the new article.
-
-_Mike_: Which new article?  [[exponential law for spaces]]?  That page doesn't talk about fibered exponentials at all.
-
-_Toby_: Seeing this later, I no longer know what article I meant.
-=--
-
+* [[Euclidean-generated topological spaces]] ([[Delta-generated topological spaces]])
 
 ## References 
 
