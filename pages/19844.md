@@ -549,6 +549,8 @@ Outlook:
 
   > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
 
+* Florian U. Bernlochner, Manuel Franco Sevilla, Dean J. Robinson, Guy Wormser,  _Semitauonic b-hadron decays: A lepton flavor universality laboratory_ ([arXiv:2101.08326](https://arxiv.org/abs/2101.08326))
+
 
 Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
 
