@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[poset]] is _Noetherian_ if every ascending chain of [[ideals]] ([[sieves]]) stabilizes.
+A [[poset]] is _Noetherian_ if every ascending chain of [[ideals]] ([[sieves]]) stabilizes, and it is _co-Notherian_ if every ascending chain of ideals in the opposite poset stabilizes. 
 
 ## References
 
