@@ -116,6 +116,8 @@ Survey talks include
 
 * Tadashi Takayanagi, _Entanglement Entropy and Holography (Introductory review)_ ([pdf slides](http://www.princeton.edu/~jmaciejk/entanglement2012/slides/TakayanagiPCTS2012.pdf))
 
+* {#Hartmann14} Tom Hartmann, _Entanglement entropy and geometry_, talk slides, 2014 ([pdf](http://online.kitp.ucsb.edu/online/qft14/hartman/pdf/Hartman_QFT14_KITP.pdf))
+
 An influential argument that this relation implies that [[entanglement]] in the boundary theory is what makes spacetime as such appear in the bulk theory is due to
 
 * {#vanRaamsdonk10} [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen.Rel.Grav.42:2323-2329,2010; Int.J.Mod.Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
@@ -143,9 +145,12 @@ reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
-Further debelopment of these tensor networks in 
+Further development of these tensor networks in 
 
 * Ning Bao, Geoffrey Penington, Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
+
+* Ning Bao, Geoffrey Penington, Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
+
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
