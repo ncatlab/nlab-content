@@ -74,7 +74,7 @@ $$
   \,,
 $$
 
-while for any $n$-dimensional representation $V$ the first Chern class is this isomorphism applied to the $n$th [[exterior power]] $\wedge^n V$ of $V$ (which is a 1-dimensional representation, namely the "[[determinant line bundle]]" of $widehat{V}$, to which the previous definition of $c_1$ applies):
+while for any $n$-dimensional representation $V$ the first Chern class is this isomorphism applied to the $n$th [[exterior power]] $\wedge^n V$ of $V$ (which is a 1-dimensional representation, namely the "[[determinant line bundle]]" of $\widehat{V}$, to which the previous definition of $c_1$ applies):
 
 $$
   c_1(V) = c_1(\wedge^n V)
