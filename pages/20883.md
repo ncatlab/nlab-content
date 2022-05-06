@@ -34,9 +34,17 @@ The [[weight systems]] arising this way are called _Lie algebra weight systems_.
 
 ### Ubiquity
 
-Examples of [[weight systems]] which are _not_ Lie algebra weight systems are rare. Originally it was conjectured that none exist ([Bar-Natan 95, Conjecture 1](#BarNatan95), [Bar-Natan & Stoimenow 97, Conjecture 2.4](#BarNatanStoimenow97)). 
+#### On round chord diagrams
+
+Examples of [[weight systems]] on (ordinary, round) [[chord diagrams]] which are _not_ Lie algebra weight systems are rare. Originally it was conjectured that none exist ([Bar-Natan 95, Conjecture 1](#BarNatan95), [Bar-Natan & Stoimenow 97, Conjecture 2.4](#BarNatanStoimenow97)).  
 
 Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given in [Vogel 11](#Vogel11).
+
+#### On horizontal chord diagrams
+
+However, for [[horizontal chord diagrams]] the situation is clear-cut:
+
+[[all horizontal weight systems are Lie algebra weight systems]].
 
 ## Related concepts
 
