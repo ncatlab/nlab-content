@@ -1,4 +1,4 @@
-<svg width="480" height="320" xmlns="http://www.w3.org/2000/svg" >
+<svg width="480" height="320" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <marker id="se_marker_end_svg_39887_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
    <path id="svg_39887_3" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
