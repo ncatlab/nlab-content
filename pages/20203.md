@@ -113,9 +113,9 @@ See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
 
 ## Related concepts
 
-* [[M-theory on G2-manifolds]]
+[[!include KK-compactifications of M-theory -- table]]
 
-* [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+
 
 * [[M2-M5 brane bound state]]
 
