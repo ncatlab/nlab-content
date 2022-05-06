@@ -50,6 +50,10 @@ Review:
 
 * Jakob Gath, _The role of black holes in the AdS/CFT correspondence_ ([pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2009/Jakob-Gath-Dissertation-2009.pdf))
 
+Discussion of [[black hole entropy]]:
+
+* Dao-Quan Sun, Ping Li, Xian-Ru Hu, Jian-Bo Deng, _Insight into the Microscopic Structure of an AdS Black Hole from the quantization_ ([arXiv:1811.09952](https://arxiv.org/abs/1811.09952))
+
 See also 
 
 * Wikipedia, _[AdS black hole](https://en.wikipedia.org/wiki/AdS_black_hole)_
