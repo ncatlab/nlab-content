@@ -217,6 +217,14 @@ Relation to [[extended TQFT]] and [[quantum anomalies]] (motivated via [[M5-bran
 
 * {#Monnier17} [[Samuel Monnier]], _The anomaly field theories of six-dimensional (2,0) superconformal theories_ ([arXiv:1706.01903](https://arxiv.org/abs/1706.01903))
 
+* [[Samuel Monnier]], [[Gregory Moore]], _A Brief Summary Of Global Anomaly Cancellation In Six-Dimensional Supergravity_, ([arXiv:1808.01335](https://arxiv.org/abs/1808.01335), 
+
+a summary of
+
+* [[Samuel Monnier]], [[Gregory Moore]], _Remarks on the Green-Schwarz terms of six-dimensional supergravity theories_, ([arXiv:1808.01334](https://arxiv.org/abs/1808.01334)
+
+
+
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
 
