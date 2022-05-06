@@ -370,7 +370,7 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 * [Detexify](http://detexify.kirelabs.org/classify.html) for finding LaTeX symbols by drawing them.
 
 
-category: meta, references
+category: meta, reference
 
 [[!redirects Online]]
 [[!redirects Online resources]]
