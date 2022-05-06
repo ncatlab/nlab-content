@@ -81,7 +81,7 @@ Discussion of the relation to [[Lagrangian cobordism]] is in
 
 Relation to [[intersecting D-brane models]]:
 
-* {#Marchesano03} Fernando Marchesano, section 7.5 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+* {#Marchesano03} [[Fernando Marchesano]], section 7.5 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
 
 [[!redirects Fukaya categories]]
