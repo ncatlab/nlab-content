@@ -133,10 +133,12 @@ $$
 ###### Proposition
 **([[K3-surface]] spans [[SU-bordism ring]] in degree 4)**
 
-The degree-4 generator $y_4 \in \Omega^{SU}_4$ in the [[SU-bordism ring]] is represented by minus the class of any (non-[[torus]]) [[K3-surface]]:
+The canonical degree-4 generator $y_4 \in \Omega^{SU}_4$ in the [[SU-bordism ring]] ([this Prop.](MSU#SUBordismRingAwayFromTwo)) is represented by minus the class of any (non-[[torus]]) [[K3-surface]]:
 
 $$
-  \Omega^{SU}_4 \;\simeq\; \mathbb{Z}\big[ \tfrac{1}{2}\big]\big\langle -[K3] \big\rangle
+  \Omega^{SU}_4 
+    \;\simeq\; 
+  \mathbb{Z}\big[ \tfrac{1}{2}\big]\big\langle -[K3] \big\rangle
   \,.
 $$
 
