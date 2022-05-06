@@ -10,17 +10,21 @@
 =--
 
 
+This page collects material related to:
+
 
 
 * [[Peter May]]
 
   _A Concise Course in Algebraic Topology_
   
-  University of Chicago Press
+  University of Chicago Press 1999
+  
+  [ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html)
 
-  ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+  [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
-is a textbook on [[algebraic topology]] and [[homotopy theory]].  
+a textbook on [[algebraic topology]] and [[homotopy theory]].  
 
 * [[Peter May]], [[Kate Ponto]],
 
