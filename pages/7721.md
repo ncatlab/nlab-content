@@ -412,9 +412,9 @@ In contrast, discussion combining [[doubled geometry]] with [[super-geometry]] i
 
 * Machiko Hatsuda, Kiyoshi Kamimura, [[Warren Siegel]], _Superspace with manifest T-duality from type II superstring_, J. High Energ. Phys. (2014) 2014: 39 ([arXiv:1403.3887](https://arxiv.org/abs/1403.3887))
 
-* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 Physics Letters B ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
+* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
 
-* {#Cederwall16} [[Martin Cederwall]], _Double supergeometry_, J. High Energ. Phys. (2016) 2016: 155 ([arXiv:1603.04684](https://arxiv.org/abs/1603.04684))
+* {#Cederwall16} [[Martin Cederwall]], _Double supergeometry_, J. High Energ. Phys. (2016) 155 ([arXiv:1603.04684](https://arxiv.org/abs/1603.04684))
 
 * Bojan Nikolić, Branislav Sazdović, _T-dualization of type II superstring theory in double space_, Eur. Phys. J. C77 (2017) no.3, 197 ([arXiv:1505.06044](https://arxiv.org/abs/1505.06044))
 
