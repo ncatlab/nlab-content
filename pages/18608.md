@@ -102,6 +102,11 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 
 > Experimentally, there is a large number of facts that lack a detailed qualitative and quantitative explanation. The most spectacular manifestation of our lack of theoretical understanding of QCD is the failure to observe the elementary degrees of freedom, quarks and gluons, as free asymptotic states (color con- finement) and the occurrence, instead, of families of massive mesons and baryons (hadrons) that form approximately linear Regge trajectories in the mass squared. The internal, partonic structure of hadrons, and nucleons in particular, is still largely mysterious. Since protons and neutrons form almost all the visible matter of the Universe, it is of basic importance to explore their static and dynamical properties in terms of quarks and gluons interacting according to QCD dynamics. 
 
+* V. A. Petrov, _Asymptotic Regimes of Hadron Scattering in QCD_ ([arXiv:1901.02628](https://arxiv.org/abs/1901.02628))
+
+> This is a commonplace that so far we do not have a full-fledged theory
+of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
+colourless physical states (hadrons).
 
 Of course various partial approaches exist, notably computer-[[experiment]] in [[lattice QCD]]. (Such computer-checks of the mass-gap problem are analogous to computer checks of the [[Riemann hypothesis]], see [there](Riemann+hypothesis#ReferencesComputerChecks))
 High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulations are reported here:
