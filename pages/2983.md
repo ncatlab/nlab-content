@@ -92,6 +92,10 @@ In order to distinguish the two viewpoints, which is, given their equivalence, s
 **Remark:** 
 If the Coxeter group W is finite, the building is called **spherical**. The reason for this is, that in this case, for $n := |S|$, the Coxeter group W has a faithful representation in the group of reflections on $\Re^n$. Reflections are in 1:1 correspondence to (linear) hyperplanes, the reflections that are images of the elements of the Coxeter group define a triangulation of the [[unit sphere]] of $\Re^n$, such that the resulting simplicial complex provides a geometric realization of the building.
 
+## Related concepts
+
+* [[p-adic AdS/CFT correspondence]]
+
 ## References
 
 ### Introductory
@@ -116,6 +120,7 @@ A short introduction to spherical buildings (this notion will be explained below
 
 * Werner, Annette, _Buildings and Berkovich Spaces_ ([pdf](https://www.uni-frankfurt.de/50581265/dmvmuench10.pdf))
 
+
 [[!redirects buildings]]
 
 [[!redirects Tits building]]
@@ -127,3 +132,7 @@ A short introduction to spherical buildings (this notion will be explained below
 [[!redirects Bruhat-Tits buildings]]
 [[!redirects Bruhat–Tits buildings]]
 [[!redirects Bruhat--Tits buildings]]
+
+
+[[!redirects Bruhat-Tits tree]]
+[[!redirects Bruhat-Tits trees]]
