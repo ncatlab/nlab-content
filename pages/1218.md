@@ -120,11 +120,11 @@ $$
   TopologicalSpaces
   \underoverset{
     \underset{
-      i
+      Cdfflg
     }{\longrightarrow}
   }{
     \overset{
-      U
+      Dtplg
     }{\longleftarrow}
   }{\bot}
   DiffeologicalSpaces
@@ -132,9 +132,14 @@ $$
 
 where
 
-* i takes a [[topological space]] $X$ to the diffeological space whose plots $U \to X$ are [[continuous functions]] (from the underlying [[topological space]] of the domain $U$). 
+* $Cdfflg$ takes a [[topological space]] $X$ to the _continuous diffeology_, namely the diffeological space on the same underlying set $\flat X$ whose plots $U \to X$ are the [[continuous functions]] (from the underlying [[topological space]] of the domain $U$). 
 
-* $U$ equips the underlying set $X_{set}$ of a diffeological space with the [[final topology]] that makes all its plots $U_{set} \to X_{set}$ into [[continuous functions]]: called the _[[D-topology]]_ (see also [CSW 13](#CSW13)).
+* $Dtplg$ takes a [[diffeological space]] to the _diffeological topology_ ([[D-topology]]), namely the [[topological space]] with the same underlying set $\flat X$ and with the [[final topology]] that makes all its plots $U_{set} \to X_{set}$ into [[continuous functions]]: called the _[[D-topology]]_.
+
+  Hence a [[subset]] $O \subset \flat X$ is an [[open subset]] in the [[D-topology]] precisely if for each plot $f \colon U \to X$ the [[preimage]] $f^{-1}(O) \subset U$ is an [[open subset]] in the [[Cartesian space]] $U$.
+
+
+Further discussion of the D-topology is in [CSW 13](#CSW13).
 
 
 
@@ -232,7 +237,7 @@ The functor $\iota \colon FrechetManifolds \hookrightarrow DiffeologicalSpaces$ 
 
 =--
 
-This appears as ([Losik 94, theorem 3.1.1](#Losik)), as variant of the analogous statement for [[Banach manifolds]] in ([Hain](#Hain)). The fact that maps between Fr&#233;chet spaces are smooth if and only if they send smooth curves to smooth curves was proved earlier in ([Fr&#246;licher 81, th&#233;or&#232;me 1](#Frolicher))
+This appears as ([Losik 94, theorem 3.1.1](#Losik94), following [Losik 92](#Losik92)), as variant of the analogous statement for [[Banach manifolds]] in ([Hain](#Hain)). The fact that maps between Fr&#233;chet spaces are smooth if and only if they send smooth curves to smooth curves was proved earlier in ([Fr&#246;licher 81, th&#233;or&#232;me 1](#Frolicher))
 
 The statement is also implied by ([Kriegl-Michor 97, cor. 3.14](#KrieglMichor)) which states that functions between [[locally convex vector spaces]] are diffeologically smooth precisely if they send smooth [[curves]] to smooth curves. This is not true if one uses [[Michal-Bastiani smooth map|Michal-Bastiani smoothness]] ([Gl&#246;ckner 06](#Glockner06)), in which case one merely has a [[faithful functor]] $lctvs \to DiffeologicalSpaces$. Notice that the choice of topology in ([Kriegl-Michor 97](#KrieglMichor)) is such that this equivalence of notions reduces to the above just for Fr&#233;chet manifolds.
 
@@ -356,8 +361,9 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
  {#References}
 
 ### General
+  {#ReferencesGeneral}
 
-The basic idea of understanding a smooth space as a [[concrete sheaf]] on a site of smooth test spaces originates in work of [[Kuo Tsai Chen]] (see also at _[[Chen space]]_):
+The basic idea of understanding [[generalized smooth spaces]] as [[concrete sheaves]] on a [[site]] of smooth test spaces originates in work of [[Kuo Tsai Chen]] (see also at _[[Chen space]]_):
 
 * {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246 ([jstor:1970846](https://www.jstor.org/stable/1970846))
 
@@ -365,50 +371,53 @@ Chen considered (apart from [[iterated integrals]]) effectively [[presheaves]] o
 
 * {#Chen75} [[Kuo Tsai Chen]], _Iterated integrals, fundamental groups and covering spaces_, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98 ([jstor:1997148](https://www.jstor.org/stable/1997148))
 
-roughly the [[sheaf]] condition was added (without using any of this sheaf-theoretic terminology). The definition of _[[Chen smooth spaces]]_ stabilized in
+roughly the [[sheaf]] condition was added (without using any of this sheaf-theoretic terminology). The definition of _[[Chen spaces]]_ stabilized in
 
 * {#Chen77} [[Kuo Tsai Chen]], _Iterated path integrals_, Bull. Amer. Math. Soc. 83, (1977), 831&#8211;879 ([euclid:1183539443](https://projecteuclid.org/euclid.bams/1183539443))
 
 and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of [[loop spaces]].
 
-The variant of this idea with the site of convex subsets replaced by that of open subsets (and hence equivalently by the site [[CartSp]]${}_{smooth}$) appeared in
+A brief review is in 
 
-The [[diffeological space]]-structure is at least implicit in 
+* [[Kuo-Tsai Chen]], _On differentiable spaces_, in:  [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986 ([doi:10.1007/BFb0076928](https://link.springer.com/book/10.1007/BFb0076928))
+
+(which, curiously, still does not make the connection to the theory of sheaves).
+
+Under the name _diff&eacute;ologie_ essentially this definition is given (apparently independently) in:
 
 * {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688))
 
-motivated from the desire to realize the infinite dimensional groups that appear in [[geometric quantization]], such that (Hamiltonian) [[diffeomorphism group]] and their [[group extensions]] by [[quantomorphism groups]] as [[diffeological groups]].
+* {#Souriau84} [[Jean-Marie Souriau]], _Groupes différentiels et physique mathématique_,  In: Denardo G., Ghirardi G., Weber T. (eds.) Group Theoretical Methods in Physics. Lecture Notes in Physics, vol 201. Springer 1984 ([doi:10.1007/BFb0016198](https://doi.org/10.1007/BFb0016198))
 
-A detailed discussion of the relations of these and other variants of the definition is in
+motivated there by [[diffeological groups]] arising in [[geometric quantization]].
 
-* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
-
-The article 
-
-* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
-
-amplifies the point that diffeological spaces are [[concrete sheaves]].
-
-A textbook about [[differential geometry]] formulated in terms of diffeological spaces is 
+Following Souriau, a comprehensive textbook account of [[differential geometry]] formulated in terms of [[diffeological spaces]] (and coining that term) is 
 
 * {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
- 
-The term "diffeological space" originates here. The thesis
+  
+following the thesis
 
 * {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  PhD thesis (1985) ([pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf))
 
-contains some useful material that hasn't yet made it into the book. 
+which contains some useful material that may not yet have made it into the book. 
 
-Exposition and lecture notes are in 
+Further exposition and lecture notes are in 
 
 * [[Patrick Iglesias-Zemmour]], _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
 
 * {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]], _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics: Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](http://www.turkmath.org/beta/konferans.php?id_konferans=365)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
 
+The article 
 
-Discussion in the context of applications to [[continuum mechanics]] is in 
+* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_, Transactions of the American Mathematical Society Vol. 363, No. 11  ([arXiv:0807.1704](http://arxiv.org/abs/0807.1704), [jstor:41307457](https://www.jstor.org/stable/41307457))
 
-* [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+amplifies the point that diffeological spaces are [[concrete sheaves]] forming a [[quasi-topos]].
+
+
+A discussion of the relations of variants of the definition is in
+
+* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac:25-04](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
+
 
 
 ### Full subcategories
@@ -427,11 +436,11 @@ That there are diffeologically-smooth maps between locally convex vector spaces 
 
 The [[full subcategory]]-inclusion of [[Fréchet manifolds]] into diffeological spaces is discussed in 
 
-* M. V. Losik, _Fr&#233;chet manifolds as diffeological spaces_, Soviet. Math. 5 (1992)  
+* {#Losik92} [[Mark Losik]], _Fr&#233;chet manifolds as diffeological spaces_, Soviet. Math. 5 (1992)  ([mathnet:ivm4812](http://mi.mathnet.ru/eng/ivm4812))
 
-and reviewed in section 3 of 
+and reviewed in  
 
-* {#Losik} M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g., 35(4):274&#8211;290, 1994.
+* {#Losik94} [[Mark Losik]], Section 3 of: _Categorical Differential Geometry_. Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g., 35(4):274&#8211;290, 1994 ([numdam:CTGDC_1994__35_4_274_0](http://www.numdam.org/item/CTGDC_1994__35_4_274_0))
  
 
 The proof can in fact be deduced from th&#233;or&#232;me 1 of
@@ -445,13 +454,13 @@ The preservation of [[mapping spaces]] under this embedding is due to
 
 The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
 
-* {#SYH10} K. Shimakawa, K. Yoshida, T. Haraguchi, _Homology and cohomology via enriched bifunctors_ ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336))
+* {#SYH10} K. Shimakawa, K. Yoshida, T. Haraguchi, _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics, 2018 Volume 72 Issue 2 Pages 239-252 ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239]( https://doi.org/10.2206/kyushujm.72.239))
 
-* {#CSW13} [[Dan Christensen]], Gord Sinnamon, Enxin Wu, _The $D$-topology for diffeological spaces_ ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935))
+* {#CSW13} [[J. Daniel Christensen]], Gord Sinnamon, [[Enxin Wu]], _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics 272 (1), 87-110, 2014 ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml))
 
 Some [[homotopy theory]] modeled on diffeological spaces (instead of on [[topological spaces]]) via their [[cohesion|cohesive]] [[shape modality|shape]] is discussed in 
 
-* [[Dan Christensen|J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+* [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
 The [[full subcategory]]-inclusion of [[manifolds with boundaries and corners]] is discussed in 
 
