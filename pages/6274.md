@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,6 +51,15 @@ In the context of [[quantum field theory]] conformal structure underlies the for
 * David Gu, _Conformal structure_, slides ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
 
 * [[eom]], _[Conformal structure](http://www.encyclopediaofmath.org/index.php/Conformal_structure)_
+
+* [[Boris Apanasov]], _Doubles of Atoroidal Manifolds, Their Conformal Uniformization and Deformations_ In: J. Ławrynowicz (ed.) _Deformations of Mathematical Structures_ Springer, Dordrecht (1989) ([doi:10.1007/978-94-009-2643-1_9](https://doi.org/10.1007/978-94-009-2643-1_9))
+
+* [[Boris Apanasov]], _Conformal Geometry of Discrete Groups and Manifolds_,  De Gruyter Expositions in Mathematics, 32, De Gruyter  (2000) ([doi:10.1515/9783110808056](https://doi.org/10.1515/9783110808056))
+
+Discussion of [[conformal structure]] as  [[G-structure]]:
+
+* Maks A. Akivis, Vladislav V. Goldberg, _Conformal and Grassmann structures_, Differential Geom. Appl. 8 (1998) no. 2 177-203 ([arXiv:math/9805107](https://arxiv.org/abs/math/9805107))
+
 
 Discussion of conformal [[Cartan geometry]] ([[parabolic geometry]]) includes
 
