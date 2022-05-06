@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a $G$-[[equivariant spectrum]], its _fixed point spectrum_ $F^G X$ is the plain [[spectrum]] which is value of the [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$. This constitutes a suitably derived functor
+Given a $G$-[[equivariant spectrum]], its _fixed point spectrum_ $F^G X$ is the plain [[spectrum]] which is the value of the [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$. This constitutes a suitably derived functor
 
 $$
   F^G \;\colon\; G Spectra \longrightarrow Spectra
