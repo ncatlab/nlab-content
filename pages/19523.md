@@ -30,7 +30,7 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 ## Effective dark energy from inhomogeneity?
 
-The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
+The [[standard model of cosmology]] assumes that cosmic inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
