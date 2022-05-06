@@ -24,9 +24,13 @@
 
 * _[[Global homotopy theory]]_
 
-## Some publictions
+## Selected writings
 
 * {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
+On [[algebraic K-theory]] in [[global equivariant stable homotopy theory]]:
+
+* [[Stefan Schwede]], _Global algebraic K-theory_ ([arXiv:1912.08872](https://arxiv.org/abs/1912.08872))
 
 
 category: people
