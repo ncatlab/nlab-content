@@ -164,7 +164,7 @@ $$
   \array{
     0 &\vert& n = 7
     \\
-    R_{\mathbb{H}}(G)/ R_{\mathbb{R}}(G) &\vert& n = 6
+    R_{\mathbb{C}}(G)/ R_{\mathbb{R}}(G) &\vert& n = 6
     \\
     R_{\mathbb{H}}(G)/ R_{\mathbb{C}}(G) &\vert& n = 5
     \\
