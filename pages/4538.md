@@ -724,7 +724,15 @@ Comparison with the ordinary universal coefficient theorem \ref{OrdinaryStatemen
 For $X$ a [[topological space]], $A$ an [[abelian group]] and $n \geq 1 \in \mathbb{N}$, the [[singular homology]] and [[singular cohomology]] of $X$ fit into a [[split exact sequence|split]] [[short exact sequence]] of the form
 
 $$
-  0 \to Ext^1(H_{n-1}(X)) \to H^n(X,A) \to Hom_{Ab}(H_n(X), A) \to 0
+  0 
+    \to 
+  Ext^1(H_{n-1}(X), A) 
+    \longrightarrow 
+  H^n(X,A) 
+    \longrightarrow 
+  Hom_{Ab}(H_n(X), A) 
+    \to 
+  0
   \,.
 $$
 
