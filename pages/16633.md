@@ -38,6 +38,11 @@ In [[M-theory on G2-manifolds]],
 
 * Damien Gayet, _Smooth moduli spaces of associative submanifolds_ ([arXiv:1011.1744](http://arxiv.org/abs/1011.1744))
 
+On [[associative submanifolds]] of the [[7-sphere]]:
+
+* [[Jason Lotay]], _Associative Submanifolds of the 7-Sphere_, Proc. London Math. Soc. (2012) 105 (6): 1183-1214 ([arXiv:1006.0361](https://arxiv.org/abs/1006.0361))
+
+
 
 Discussion of [[wrapped branes]] on associative 3-cycles is in
 
