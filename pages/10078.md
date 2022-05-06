@@ -125,6 +125,11 @@ Further development includes
 
 * Olindo Corradini, Maurizio Muratori, _String-inspired Methods and the Worldline Formalism in Curved Space_ ([arXiv:1808.05401](https://arxiv.org/abs/1808.05401))
 
+* Olindo Corradini, Maurizio Muratori, _A Monte Carlo Approach to the Worldline Formalism in Curved Space_ ([arXiv:2006.02911](https://arxiv.org/abs/2006.02911))
+
+
+
+
 As a means of constructing [[UV-completions]]:
 
 * Steven Abel, Nicola Andrea Dondi, _UV Completion on the Worldline_ ([arXiv:1905.04258](https://arxiv.org/abs/1905.04258))
