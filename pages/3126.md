@@ -913,6 +913,7 @@ When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\oti
 * [[deformation theory]]
 
 ## References
+ {#References}
 
 Discussion of [[model category]] models is in 
 
@@ -936,7 +937,9 @@ Presentation by [[model categories]] is discussed in
 
 * [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _Tangent categories of algebras over operads_ ([arXiv:1612.02607](https://arxiv.org/abs/1612.02607))
 
-* _The abstract cotangent complex and Quillen cohomology of enriched categories_ ([arXiv:1612.02608](https://arxiv.org/abs/1612.02608))
+* [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _The abstract cotangent complex and Quillen cohomology of enriched categories_ ([arXiv:1612.02608](https://arxiv.org/abs/1612.02608))
+
+* {#BraunackMayer19} [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_, based on the [[schreiber:thesis Braunack-Mayer|PhD thesis]] ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
   
 Generalization to parameterized objects in any [[stable (∞,1)-category]] is discussed in:
 
