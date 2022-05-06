@@ -411,6 +411,10 @@ For $A \hookrightarrow X$ the inclusion of a subcomplex into a CW complex, then 
 e.g. ([AGP 02, def. 5.1.11](#AGP02))
 
 
+### Fibrations
+
+Fibrations between CW-complexes also behave particularly well: [[a Serre fibration between CW-complexes is a Hurewicz fibration]].
+
 ### Singular homology
  {#SingularHomology}
 
