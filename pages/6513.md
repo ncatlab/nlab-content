@@ -4,6 +4,10 @@ __Hirosi Ooguri__ is a [[string theory|string theorist]] at CalTech.
 
 ## Selected writings
 
+Including [[Wilson loop observables]] in [[Chern-Simons theory as a topological string theory]]:
+
+* [[Hirosi Ooguri]], [[Cumrun Vafa]], _Knot Invariants and Topological Strings_, Nucl. Phys. B 577:419-438, 2000 ([arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123))
+
 On [[large N limit]] of [[Chern-Simons theory]]:
 
 * {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
