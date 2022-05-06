@@ -188,9 +188,13 @@ Textbook accounts:
 
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-Supersymmetric [[perturbative string theory vacua|vacua]]:
+See also:
+
+* [[Eric Sharpe]], _Recent developments in heterotic compactifications_, AMS/IP Stud. Adv. Math. 44 (2008) 209-230 ([arXiv:0801.4080](https://arxiv.org/abs/0801.4080))
+
 
 * Andrea Fontanella, Tomas Ortin, _On the supersymmetric solutions of the Heterotic Superstring effective action_ ([arxiv:1910.08496](https://arxiv.org/abs/1910.08496))
+
 
 
 
