@@ -47,7 +47,7 @@ Various classical theorem of [[differential topology]] are secretly theorems abo
 
 Discussion for twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
 
-* {#Cruickshank03} [[James Cruickshank]], Section 7 of _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]], Section 7 of _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
 Discussion of unstabilized twisted cohomotopy, with application to foundations of [[M-theory]]:
 
