@@ -201,7 +201,9 @@ See
 
 * [[chiral fermions]]
 
-* [[generation of fundamental particles]]
+* [[chiral perturbation theory]], [[quantum hadrodynamics]]
+
+* [[flavor (particle physics)|flavoru]] [[generation of fundamental particles]]
 
 * [[Yang-Mills theory]]
 
