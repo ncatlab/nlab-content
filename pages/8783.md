@@ -163,11 +163,18 @@ For [[genus]] $g\geq 2$ the moduli stack of [[complex structures]] is equivalent
 
 ## References
 
-Original articles include
+Original articles:
 
 * {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], _The irreducibility of the space of curves of given genus_, Publications Math&#233;matiques de l'IH&#201;S (Paris) 36: 75&#8211;109 (1969) [numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1969__36__75_0)
 
 * [[David Mumford]], _Towards an enumerative geometry of the moduli space of curves_, Arithmetic and geometry, Vol. II, Birkh&#228;user Boston, Boston, MA, 1983, pp. 271&#8211;328, [MR85j:14046](http://www.ams.org/mathscinet-getitem?mr=85j:14046)
+
+
+On [[moduli spaces of curves]]/[[moduli spaces of Riemann surfaces]] with emphasis on their [[orbifold]]-structure:
+
+* Lizhen Ji, [[Shing-Tung Yau]], _Transformation Groups and Moduli Spaces of Curves_, International Press of Boston 2011 ([ISBN:9781571462237](https://www.intlpress.com/site/pub/pages/books/items/00000353/index.php))
+
+
 
 Discussion of the [[orbifold cohomology]] of the moduli stack is in
 
