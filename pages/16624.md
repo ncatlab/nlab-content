@@ -40,6 +40,17 @@ Via the identification of [[D-brane charge]] in [[K-theory]], the K-theoretic [[
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
 
 
+## Related concepts
+
+* [[polarized brane]]
+
+* [[brane intersection]]
+
+* [[Dp-D(p+2)-brane bound state]]
+
+* [[Dp-D(p+4)-brane bound state]]
+
+
 ## References
 
 * {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
